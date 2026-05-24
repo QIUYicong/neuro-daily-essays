@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "updated": "2026-05-24",
+  "node_count": 5,
+  "edge_count": 9,
+  "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
+  "nodes": [
+    {
+      "id": "action-potential",
+      "title": "动作电位",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/action-potential.md"
+    },
+    {
+      "id": "axon-initial-segment",
+      "title": "轴突始段",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/axon-initial-segment.md"
+    },
+    {
+      "id": "voltage-gated-sodium-channel",
+      "title": "电压门控钠通道",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/voltage-gated-sodium-channel.md"
+    },
+    {
+      "id": "hodgkin-huxley-model",
+      "title": "Hodgkin-Huxley 模型",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/hodgkin-huxley-model.md"
+    },
+    {
+      "id": "chandelier-cell",
+      "title": "吊灯细胞",
+      "domain": "circuits",
+      "type": "entity",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/circuits/chandelier-cell.md"
+    }
+  ],
+  "edges": [
+    {"from": "axon-initial-segment", "to": "action-potential", "type": "mechanism-of", "note": "AIS 是动作电位的发起位点"},
+    {"from": "voltage-gated-sodium-channel", "to": "action-potential", "type": "mechanism-of", "note": "Nav 通道驱动动作电位上升相"},
+    {"from": "hodgkin-huxley-model", "to": "action-potential", "type": "supports", "note": "H-H 模型定量描述动作电位"},
+    {"from": "voltage-gated-sodium-channel", "to": "axon-initial-segment", "type": "part-of", "note": "NaV1.6/1.2 在 AIS 超高密度聚集"},
+    {"from": "chandelier-cell", "to": "axon-initial-segment", "type": "regulates", "note": "吊灯细胞特异抑制 AIS"},
+    {"from": "chandelier-cell", "to": "action-potential", "type": "regulates", "note": "经抑制 AIS 控制动作电位产生"},
+    {"from": "action-potential", "to": "voltage-gated-sodium-channel", "type": "prerequisite-for", "note": "理解动作电位需先懂钠通道"},
+    {"from": "hodgkin-huxley-model", "to": "voltage-gated-sodium-channel", "type": "related", "note": "模型刻画钠通道动力学"},
+    {"from": "axon-initial-segment", "to": "hodgkin-huxley-model", "type": "related", "note": "H-H 描述 AIS 处电导"}
+  ],
+  "dangling_references": [
+    {"slug": "dendritic-computation", "referenced_by": ["hodgkin-huxley-model"], "note": "树突计算，待建页面"},
+    {"slug": "synaptic-transmission", "referenced_by": [], "note": "课程脊柱下一站，待建"}
+  ]
+}

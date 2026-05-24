@@ -1,0 +1,47 @@
+{
+  "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
+  "last_updated": "2026-05-24",
+  "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
+  "pages": [
+    {
+      "slug": "action-potential",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 1,
+      "last_status_change": "2026-05-24",
+      "reason": "创建。教科书级共识，多重独立验证（H-H 模型 70 年持续验证）。"
+    },
+    {
+      "slug": "axon-initial-segment",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 2,
+      "last_status_change": "2026-05-24",
+      "reason": "创建。结构与功能由多种方法（超分辨成像、膜片钳、敲除实验）独立证实。"
+    },
+    {
+      "slug": "voltage-gated-sodium-channel",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 2,
+      "last_status_change": "2026-05-24",
+      "reason": "创建。分子结构由晶体学+克隆+电生理三角验证。"
+    },
+    {
+      "slug": "hodgkin-huxley-model",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-24",
+      "reason": "创建。1952 至今的奠基性框架，诺奖级，持续验证与扩展。"
+    },
+    {
+      "slug": "chandelier-cell",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 1,
+      "last_status_change": "2026-05-24",
+      "reason": "创建。靶向特异性确立，但 GABA 极性机制与疾病角色存争议（见 contested_claims C-2026-05-24-01），故置信度中。"
+    }
+  ]
+}

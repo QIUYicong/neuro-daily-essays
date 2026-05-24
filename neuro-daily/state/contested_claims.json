@@ -1,0 +1,30 @@
+{
+  "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
+  "last_updated": "2026-05-24",
+  "schema": {
+    "id": "C-YYYY-MM-DD-NN",
+    "page": "wiki/<domain>/<slug>.md",
+    "claim_A": "旧理解 + 来源",
+    "claim_B": "新证据 + 来源",
+    "nature": "方法差异 | 物种差异 | 样本量 | 时间窗 | 真实分歧",
+    "status": "open | resolved",
+    "opened": "YYYY-MM-DD",
+    "resolved": null,
+    "resolution": null
+  },
+  "open_count": 0,
+  "resolved_count": 0,
+  "claims": [
+    {
+      "id": "C-2026-05-24-01",
+      "page": "wiki/circuits/chandelier-cell.md",
+      "claim_A": "GABA 在 AIS 处产生超极化抑制效果（经典抑制观点）",
+      "claim_B": "AIS 处氯离子浓度可能使 GABA 产生去极化效果，但仍可能经分流抑制起作用（PMID:41930336 综述指出此争议）",
+      "nature": "真实分歧（随物种/发育阶段/神经元类型而异）",
+      "status": "open",
+      "opened": "2026-05-24",
+      "resolved": null,
+      "resolution": null
+    }
+  ]
+}

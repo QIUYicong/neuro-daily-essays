@@ -6,6 +6,15 @@
       "date": "2026-05-24",
       "title": "决策的解剖学：神经元如何在混沌的输入中找到它唯一的声音",
       "filename": "2026-05-24-axon-initial-segment.md",
+      "wiki_pages_created": [
+        "wiki/neurons/action-potential.md",
+        "wiki/neurons/axon-initial-segment.md",
+        "wiki/neurons/voltage-gated-sodium-channel.md",
+        "wiki/concepts/hodgkin-huxley-model.md",
+        "wiki/circuits/chandelier-cell.md"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": ["C-2026-05-24-01"],
       "core_question": "神经元接收数千个突触输入后，在哪里、用什么机制，做出'是否发放动作电位'的决定？",
       "layer": ["分子", "细胞", "突触"],
       "curriculum_track": "1. 神经元如何工作",
