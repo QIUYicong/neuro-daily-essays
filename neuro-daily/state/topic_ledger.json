@@ -1,0 +1,61 @@
+{
+  "last_updated": "2026-05-24",
+  "total_articles": 1,
+  "entries": [
+    {
+      "date": "2026-05-24",
+      "title": "决策的解剖学：神经元如何在混沌的输入中找到它唯一的声音",
+      "filename": "2026-05-24-axon-initial-segment.md",
+      "core_question": "神经元接收数千个突触输入后，在哪里、用什么机制，做出'是否发放动作电位'的决定？",
+      "layer": ["分子", "细胞", "突触"],
+      "curriculum_track": "1. 神经元如何工作",
+      "topic_tags": [
+        "axon initial segment",
+        "action potential",
+        "AIS",
+        "Hodgkin-Huxley",
+        "Nav channels",
+        "NaV1.6",
+        "AnkyrinG",
+        "homeostatic plasticity",
+        "chandelier cell",
+        "saltatory conduction",
+        "spike initiation"
+      ],
+      "main_sources": [
+        "PMID:23055474 (PMC3500626)",
+        "PMID:36218068 (PMC10600871)",
+        "PMID:41930336 (PMC13042750)",
+        "PMID:28536506 (PMC5422562)",
+        "PMID:25856629 (PMC4391789)"
+      ],
+      "unresolved_questions": [
+        "AIS 处 GABA 的极性（兴奋还是抑制）",
+        "NaV1.2 到 NaV1.6 发育转变的完整分子机制",
+        "AIS 稳态可塑性的下游信号通路",
+        "AIS 变化在神经退行性疾病中是代偿还是病理",
+        "人类 AIS 与啮齿类的功能性差异"
+      ],
+      "next_suggested_topics": [
+        "突触传递的分子机制：AMPA/NMDA 受体，突触可塑性基础",
+        "树突计算详解：NMDA 棘波，Ca²⁺ 棘波，单神经元计算能力",
+        "抑制性回路设计：中间神经元多样性（PV+, SST+, VIP+）",
+        "Hebbian 学习与 LTP：突触层面的记忆机制"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 1
+    }
+  ],
+  "layer_coverage_recent": {
+    "molecular": ["2026-05-24"],
+    "cellular": ["2026-05-24"],
+    "synaptic": ["2026-05-24"],
+    "microcircuit": [],
+    "brain_region": [],
+    "whole_brain_network": [],
+    "behavior": [],
+    "cognition": [],
+    "disease": [],
+    "methods": []
+  }
+}

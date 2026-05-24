@@ -1,0 +1,61 @@
+{
+  "last_updated": "2026-05-24",
+  "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
+  "sources": [
+    {
+      "pmid": "23055474",
+      "pmcid": "PMC3500626",
+      "title": "The Hodgkin-Huxley Heritage: From Channels to Circuits",
+      "authors_short": "Catterall et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2012,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["H-H model overview", "Nav channel molecular structure", "S4 gating", "IFMT inactivation", "Class 1/2 neurons", "metabolic efficiency optimization"]
+    },
+    {
+      "pmid": "36218068",
+      "pmcid": "PMC10600871",
+      "title": "The Impact of Hodgkin-Huxley Models on Dendritic Research",
+      "authors_short": "Petousakis et al.",
+      "journal": "Journal of Physiology",
+      "year": 2023,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["dendritic computation", "NMDA spikes", "Ca2+ spikes in human L2/3", "back-propagating APs", "STDP and dendritic location", "HH model extensions to dendrites"]
+    },
+    {
+      "pmid": "41930336",
+      "pmcid": "PMC13042750",
+      "title": "Axon Initial Segment: Structure, Biological Functions, Diseases, and Therapeutic Targets",
+      "authors_short": "Song et al.",
+      "journal": "MedComm",
+      "year": 2026,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["AIS molecular architecture", "Nav channel density (50x soma)", "NaV1.6 vs NaV1.2", "AnkyrinG scaffold", "actin rings (~190nm)", "homeostatic plasticity", "chandelier cells", "KV channels", "AIS in neurodegeneration", "organelle trafficking"]
+    },
+    {
+      "pmid": "28536506",
+      "pmcid": "PMC5422562",
+      "title": "Axonal Membranes and Their Domains: AIS and Node of Ranvier",
+      "authors_short": "Nelson & Jenkins",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2017,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["AnkyrinG-Nav binding mechanism (II-III linker)", "CK2 phosphorylation regulation", "AIS and node shared molecular architecture", "saltatory conduction"]
+    },
+    {
+      "pmid": "25856629",
+      "pmcid": "PMC4391789",
+      "title": "What Is the Most Realistic Single-Compartment Model of Spike Initiation?",
+      "authors_short": "Brette R",
+      "journal": "PLOS Computational Biology",
+      "year": 2015,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["computational model realism framework", "empirical content vs empirical accuracy", "AIS-specific channel distribution in models"]
+    }
+  ]
+}

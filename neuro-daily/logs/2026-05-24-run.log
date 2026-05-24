@@ -1,0 +1,142 @@
+====================================================
+NEURO DAILY RUN LOG — 2026-05-24
+====================================================
+
+RUN DATE: 2026-05-24
+REPOSITORY: QIUYicong/neuro-daily-essays
+BRANCH: claude/neuro-daily-2026-05-24
+MODE: Long-term curriculum (Article #1, new repository initialization)
+
+----------------------------------------------------
+STEP 1: REPOSITORY STATE CHECK
+----------------------------------------------------
+- Repository initialized: YES (new)
+- State files found: NONE (initializing from scratch)
+- Topic ledger: Created fresh
+- Previous articles: 0
+
+----------------------------------------------------
+STEP 2: TOPIC SELECTION
+----------------------------------------------------
+Mode selected: Long-term curriculum (no major breakthroughs identified requiring immediate coverage)
+Curriculum track: 1. 神经元如何工作 (How Neurons Work)
+Specific topic chosen: 轴突始段（Axon Initial Segment）与动作电位发起机制
+
+Reasoning:
+- This is the first article; starting with the most fundamental building block
+- AIS is a highly specific, mechanistically clear topic (not overly broad)
+- Excellent open-access sources available
+- Connects molecular → cellular → circuit levels beautifully
+- Core question: Where and how does a neuron decide to fire?
+
+----------------------------------------------------
+STEP 3: LITERATURE SEARCH
+----------------------------------------------------
+
+Search queries executed:
+1. "action potential ion channel neuron review open access" → 2 PMIDs (17087121, 34542938)
+2. "Hodgkin Huxley action potential review neuroscience" → 10 PMIDs (23055474, 11665779, 36218068, 37060453, 36567262, 39480263, 25856629, 29981394, 39743470, 25482670)
+3. "voltage gated sodium channel action potential biophysics review" → 10 PMIDs (30672368, 35037686, 37240836, 20142270, 20091048, 30362642, 27098917, 25305552, 15561301, 26712848)
+4. "axon initial segment action potential initiation review" → 8 PMIDs (42078084, 42052621, 41930336, 41766775, 40674863, 40666280, 40664245, 40623670)
+5. "action potential propagation myelination saltatory conduction review" → 8 PMIDs (41656591, 41169496, 40664245, 35908945, 35874818, 31760639, 30459034, 28536506)
+
+Candidate papers retrieved: ~38 total
+Papers with summaries fetched: 13
+Full texts attempted: 5
+Full texts successfully read: 4 (PMC open access)
+Abstracts only: 1
+
+NIH NINDS website access: FAILED (HTTP 403 Forbidden) — not used
+
+----------------------------------------------------
+STEP 4: SOURCE SELECTION & EXCLUSION
+----------------------------------------------------
+
+SELECTED SOURCES (5 total):
+
+1. PMID 23055474 (PMC3500626) — Catterall et al., J Neuroscience 2012
+   Status: Full text read via PMC
+   Role: Historical foundation, H-H model, Nav channel molecular structure
+
+2. PMID 36218068 (PMC10600871) — Petousakis et al., J Physiology 2023
+   Status: Full text read via PMC
+   Role: Dendritic computation, NMDA spikes, human Ca2+ spikes, bAPs
+
+3. PMID 41930336 (PMC13042750) — Song et al., MedComm 2026
+   Status: Full text read via PMC
+   Role: Comprehensive AIS review — primary source for AIS architecture, plasticity, chandelier cells
+
+4. PMID 28536506 (PMC5422562) — Nelson & Jenkins, Frontiers Cell Neurosci 2017
+   Status: Full text read via PMC
+   Role: AnkyrinG-Nav binding mechanism, CK2 regulation, AIS-node homology
+
+5. PMID 25856629 (PMC4391789) — Brette R, PLOS Comput Biol 2015
+   Status: Abstract read; PMC full text available
+   Role: Computational model realism framework
+
+EXCLUDED SOURCES:
+- PMID 30672368 (Physiological Reviews, Nav channels in pain): No open full text; not directly relevant to AIS mechanism
+- PMID 34542938 (Epilepsia Open, transporter hypothesis): Not relevant to today's topic
+- PMID 11665779 (Neural Networks, resonate-and-fire): Not relevant (fire neuron models, not AIS)
+- Multiple recent papers (2026) on axon biology: Too specialized or overlapping with Song et al. 2026
+
+LIMITATIONS NOTED:
+- NINDS official page returned HTTP 403; could not use as institutional background source
+- One preprint was not used (unreviewed; not needed given available peer-reviewed open-access sources)
+- The original Hodgkin-Huxley 1952 papers (doi:10.1113/jphysiol.1952.sp004729 etc.) cited as historical landmark but not fetched directly; content covered adequately by Catterall et al. 2012 review
+
+----------------------------------------------------
+STEP 5: ARTICLE QUALITY SELF-CHECK
+----------------------------------------------------
+
+Fact check:
+[x] All major scientific claims traceable to sources
+[x] Correlation/causation distinction maintained
+[x] Animal→human generalization qualified where appropriate
+[x] Uncertainty clearly stated (GABA polarity at AIS, developmental transitions)
+[x] Distinction between established facts, mainstream models, and speculations made explicit
+
+Writing check:
+[x] Opening immediately poses a compelling question
+[x] Mechanisms explained at multiple levels (molecular → cellular → circuit)
+[x] Key terms defined for non-specialist readers
+[x] Metaphor used but clearly bounded (CEO analogy + explicit failure modes)
+[x] Article ends with concrete cognitive advance
+
+Sources check:
+[x] 5 sources used (minimum met)
+[x] 4 open full texts (minimum 2 exceeded)
+[x] Full text availability noted for each source
+[x] No unauthorized full texts used
+
+Article length: ~5800 Chinese characters (within 3000–6000 target)
+
+----------------------------------------------------
+STEP 6: FILES GENERATED
+----------------------------------------------------
+
+neuro-daily/articles/2026-05-24-axon-initial-segment.md          [CREATED]
+neuro-daily/sources/2026-05-24-sources.json                       [CREATED]
+neuro-daily/notes/2026-05-24-reading-notes.md                     [CREATED]
+neuro-daily/state/topic_ledger.json                               [CREATED]
+neuro-daily/state/concept_map.md                                  [CREATED]
+neuro-daily/state/unresolved_questions.md                         [CREATED]
+neuro-daily/state/source_registry.json                            [CREATED]
+neuro-daily/state/monthly_synthesis.md                            [CREATED]
+neuro-daily/logs/2026-05-24-run.log                               [CREATED]
+
+----------------------------------------------------
+STEP 7: GIT OPERATIONS
+----------------------------------------------------
+
+Git author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+Branch: claude/neuro-daily-2026-05-24
+Remote: http://local_proxy@127.0.0.1:46085/git/QIUYicong/neuro-daily-essays
+
+Test push (structure): SUCCESS (commit b0d3c84)
+Main article commit: PENDING (this log will be included)
+Push status: PENDING
+
+====================================================
+END OF LOG
+====================================================
