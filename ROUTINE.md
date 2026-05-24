@@ -36,11 +36,12 @@
 - 作者信息：
   - `GIT_AUTHOR_NAME=QIUYicong` / `GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com`
   - `GIT_COMMITTER_*` 同上。
-- 分支：`claude/neuro-daily-YYYY-MM-DD`（用今天日期）。
+- **分支模型：单分支累积（方案 A）。知识库的家是 `main`。每次运行都从最新的 `main` 出发，并把当天工作提交、推送回 `main`。** 不再创建每日分支——这样知识库永远在一条线上线性生长，绝不碎片化。
 - remote 在 Web 环境可能是 `local_proxy` 地址，只要包含 `QIUYicong/neuro-daily-essays` 即正确，不要强改。若指向其他 owner，**停止并报告**。
-- 推送：`git push -u origin claude/neuro-daily-YYYY-MM-DD`；网络失败按 2s/4s/8s/16s 退避重试至多 4 次。
-- 推送失败若为认证/权限（403 等）：**不要重写文章、不要删文件、保留本地 commit**，改用 GitHub MCP（显式传 owner=QIUYicong、repo=neuro-daily-essays），并输出完整诊断。
+- 推送：`git push origin main`；网络失败按 2s/4s/8s/16s 退避重试至多 4 次。
+- 推送失败若为认证/权限（403 等）：**不要重写文章、不要删文件、保留本地 commit**，改用 GitHub MCP（显式传 owner=QIUYicong、repo=neuro-daily-essays、branch=main），并输出完整诊断。
 - **不要创建 PR**，除非用户明确要求。
+- （备选：若某天环境强制只能写功能分支而非 `main`，则用 `claude/neuro-daily-YYYY-MM-DD`，但**当天结束必须把它合并回 `main` 并推送**，否则连续性中断。优先直接用 `main`。）
 
 ---
 
@@ -53,6 +54,11 @@
 ---
 
 ## 每日流程
+
+### 0. 同步最新 main（关键，保证连续性）
+- 确认在 `main` 分支并拉取最新：`git checkout main` → `git pull origin main`（网络失败按退避重试）。
+- 设置 Git 作者信息（见上）。
+- 确认 `neuro-daily/wiki/`、`ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md` 都在——若不在，说明没基于最新架构启动，**停止并报告**（很可能触发器的 base branch 没指向 `main`）。
 
 ### A. 读取状态
 读取并理解：
@@ -99,8 +105,10 @@
 ### F. 更新治理层
 更新 `topic_ledger.json`（date/title/core_question/layer/topic_tags/main_sources/unresolved_questions/next_suggested_topics）、`unresolved_questions.md`（新问题+优先级）、`source_registry.json`（已用来源+覆盖了哪些方面）、`monthly_synthesis.md`（本月首篇则初始化，否则追加今日摘要）。写 `logs/YYYY-MM-DD-run.log`（搜索词/数据源/候选数/采用与排除来源及原因/固结了哪些 wiki 页/登记的矛盾/失败与限制/branch/commit/push 状态）。
 
-### G. 提交 + 推送
-一次 commit 同时包含文章、wiki、状态、日志。`git add neuro-daily/`，commit message：`Add neuro daily article + wiki consolidation for YYYY-MM-DD`。无变化则不空提交，在日志记 "no changes"。按 Git 配置推送。
+### G. 提交 + 推送（直接到 main）
+- 一次 commit 同时包含文章、wiki、状态、日志：`git add neuro-daily/`，commit message：`Add neuro daily article + wiki consolidation for YYYY-MM-DD`。无变化则不空提交，在日志记 "no changes"。
+- 推送前先 `git pull --rebase origin main`（防止 main 在运行期间被更新），再 `git push origin main`。
+- 若推送被拒（non-fast-forward），重新 `git pull --rebase origin main` 解决后再推；切勿用 `--force`。
 
 ### H. 自检（不过则修正后再提交）
 **真实性**：每条 wiki 新主张有来源？区分了事实/模型/推测/争议？没把小样本/动物研究当定论？
@@ -109,7 +117,7 @@
 **情景层**：文章/笔记/来源/日志齐全且未改动旧文件？
 
 ### 完成输出
-推送成功后输出：分支名、commit hash、分支 URL（`https://github.com/QIUYicong/neuro-daily-essays/tree/claude/neuro-daily-YYYY-MM-DD`）、今天创建/修订的 wiki 页清单、登记/裁决的矛盾。
+推送成功后输出：commit hash、`main` 的 URL（`https://github.com/QIUYicong/neuro-daily-essays/tree/main`）、今天创建/修订的 wiki 页清单、登记/裁决的矛盾。
 
 ---
 
