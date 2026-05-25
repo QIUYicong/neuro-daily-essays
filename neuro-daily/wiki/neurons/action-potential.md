@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-24
-updated: 2026-05-24
-revision_count: 1
-dimensions: [molecular, cellular]
-related: [axon-initial-segment, voltage-gated-sodium-channel, hodgkin-huxley-model]
+updated: 2026-05-25
+revision_count: 2
+dimensions: [molecular, cellular, synaptic]
+related: [axon-initial-segment, voltage-gated-sodium-channel, hodgkin-huxley-model, synaptic-transmission, active-zone]
 prerequisites: [voltage-gated-sodium-channel]
 opens_questions: []
-source_articles: [2026-05-24-axon-initial-segment]
-key_sources: ["PMID:23055474"]
+source_articles: [2026-05-24-axon-initial-segment, 2026-05-25-synaptic-vesicle-exocytosis]
+key_sources: ["PMID:23055474", "PMID:22068972"]
 ---
 
 # 动作电位 (Action Potential)
@@ -48,6 +48,7 @@ key_sources: ["PMID:23055474"]
 - [[电压门控钠通道]] — 实现动作电位上升相的分子基础
 - [[Hodgkin-Huxley 模型]] — 动作电位的定量数学框架
 - [[吊灯细胞]] — 通过抑制 AIS 直接控制动作电位的产生
+- [[突触传递]] — 动作电位到达突触前终末后触发的下一步：化学信号转化（→[[活动区]]→[[SNARE复合体]]）
 
 ## 未解问题
 
@@ -56,7 +57,9 @@ key_sources: ["PMID:23055474"]
 ## 修订历史
 
 - 2026-05-24 · 创建 · 基于《决策的解剖学：神经元如何在混沌的输入中找到它唯一的声音》· 初始置信度：高
+- 2026-05-25 · 修订 · 新增"突触传递"为动作电位的下游功能连接；补充相关节点（活动区、SNARE复合体）；dimensions扩展为synaptic层 · 来源：《神经信号的化学渡口》
 
 ## 来源文章
 
 - [[2026-05-24-axon-initial-segment]]
+- [[2026-05-25-synaptic-vesicle-exocytosis]]

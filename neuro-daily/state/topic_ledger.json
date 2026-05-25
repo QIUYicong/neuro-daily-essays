@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-24",
-  "total_articles": 1,
+  "last_updated": "2026-05-25",
+  "total_articles": 2,
   "entries": [
     {
       "date": "2026-05-24",
@@ -53,12 +53,70 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 1
+    },
+    {
+      "date": "2026-05-25",
+      "title": "神经信号的化学渡口：钙离子如何在不到一毫秒内触发突触囊泡融合",
+      "filename": "2026-05-25-synaptic-vesicle-exocytosis.md",
+      "wiki_pages_created": [
+        "wiki/neurons/synaptic-transmission.md",
+        "wiki/concepts/SNARE-complex.md",
+        "wiki/neurons/synaptotagmin.md",
+        "wiki/neurons/active-zone.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/action-potential.md"
+      ],
+      "contested_claims_logged": ["C-2026-05-25-01"],
+      "core_question": "动作电位到达突触前终末后，钙离子如何在数百微秒内触发突触囊泡与突触前膜的融合，将神经递质精确地释放到突触间隙？",
+      "layer": ["分子", "细胞", "突触"],
+      "curriculum_track": "1. 神经元如何工作",
+      "topic_tags": [
+        "synaptic vesicle",
+        "exocytosis",
+        "SNARE complex",
+        "synaptotagmin",
+        "complexin",
+        "active zone",
+        "calcium triggered fusion",
+        "Munc13",
+        "Munc18",
+        "RIM protein",
+        "readily releasable pool",
+        "hemifusion",
+        "neurotransmitter release",
+        "nanodomain coupling"
+      ],
+      "main_sources": [
+        "PMID:22068972 (PMC3249630)",
+        "PMID:22026965 (PMC3225952)",
+        "PMID:23060190 (PMC4461657)",
+        "PMID:27537483 (PMC4991631)",
+        "PMID:36544543 (PMC9760684)",
+        "PMID:37891212 (PMC10611806)",
+        "PMID:15217342 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "就绪态SNARE蛋白是部分拉合还是完全游离？（核心模型争议）",
+        "Kiss-and-run模式在生理条件下的普遍程度",
+        "Syt7介导短时程易化的精确分子机制",
+        "不同突触类型的Syt亚型选择是否有统一规律",
+        "超快内吞（ultrafast endocytosis）的分子机制"
+      ],
+      "next_suggested_topics": [
+        "突触后受体：AMPA受体如何被谷氨酸激活？NMDA受体的"巧合检测器"功能",
+        "树突计算详解：NMDA棘波、Ca²⁺棘波，单神经元的计算能力",
+        "短时程突触可塑性：突触抑制和易化的分子机制",
+        "Hebbian学习与LTP/LTD：突触层面的记忆"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 2
     }
   ],
   "layer_coverage_recent": {
-    "molecular": ["2026-05-24"],
-    "cellular": ["2026-05-24"],
-    "synaptic": ["2026-05-24"],
+    "molecular": ["2026-05-24", "2026-05-25"],
+    "cellular": ["2026-05-24", "2026-05-25"],
+    "synaptic": ["2026-05-24", "2026-05-25"],
     "microcircuit": [],
     "brain_region": [],
     "whole_brain_network": [],
@@ -66,5 +124,6 @@
     "cognition": [],
     "disease": [],
     "methods": []
-  }
+  },
+  "layer_note": "警告：已连续2天覆盖分子/细胞/突触层级。下一篇应优先转向不同层级（如微回路、脑区），或继续课程脊柱但通过选择新层级话题（如突触后信号，开始涉及认知层）。"
 }

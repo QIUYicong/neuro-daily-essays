@@ -1,0 +1,185 @@
+{
+  "date": "2026-05-25",
+  "article_slug": "2026-05-25-synaptic-vesicle-exocytosis",
+  "topic": "突触囊泡胞吐机制——钙触发的神经递质释放",
+  "search_terms_used": [
+    "synaptic vesicle exocytosis SNARE calcium review",
+    "neurotransmitter release synaptotagmin calcium sensor mechanism",
+    "Sudhof synaptic vesicle review",
+    "Jahn Fasshauer SNARE molecular machines exocytosis 2012",
+    "active zone scaffold Bassoon Piccolo RIM CAST ELKS presynaptic terminal",
+    "SNARE synaptotagmin neurotransmitter release mechanism review",
+    "calcium nanodomain active zone vesicle fusion distance coupling"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "review",
+      "pmid": "22068972",
+      "pmcid": "PMC3249630",
+      "doi": "10.1101/cshperspect.a011353",
+      "title": "Calcium control of neurotransmitter release",
+      "authors": "Südhof TC",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2012,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3249630/",
+      "topics_covered": [
+        "synaptotagmin calcium sensing",
+        "C2 domain structure",
+        "synchronous vs asynchronous release",
+        "complexin dual function",
+        "fusion kinetics (100-200 microseconds)",
+        "Syt isoform specificity"
+      ],
+      "evidence_strength": "high",
+      "notes": "Core review by Nobel laureate Südhof; definitive source on calcium-triggered fusion mechanism"
+    },
+    {
+      "id": "S2",
+      "type": "review",
+      "pmid": "22026965",
+      "pmcid": "PMC3225952",
+      "doi": "10.1101/cshperspect.a005637",
+      "title": "Synaptic vesicle exocytosis",
+      "authors": "Südhof TC, Rizo J",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2011,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3225952/",
+      "topics_covered": [
+        "SNARE complex structure (4-helix bundle)",
+        "Munc18-1 dual binding mode",
+        "Munc13 priming mechanism",
+        "RIM protein architecture",
+        "active zone scaffold components",
+        "calcium channel tethering",
+        "vesicle recycling pathways"
+      ],
+      "evidence_strength": "high",
+      "notes": "Comprehensive structural and functional review of entire vesicle fusion machinery"
+    },
+    {
+      "id": "S3",
+      "type": "review",
+      "pmid": "23060190",
+      "pmcid": "PMC4461657",
+      "doi": "10.1038/nature11320",
+      "title": "Molecular machines governing exocytosis of synaptic vesicles",
+      "authors": "Jahn R, Fasshauer D",
+      "journal": "Nature",
+      "year": 2012,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4461657/",
+      "topics_covered": [
+        "SNARE assembly models (partial zipper vs de novo)",
+        "stalk and hemifusion intermediate",
+        "Ca2+ boost >100,000-fold",
+        "1-3 SNARE complexes per fusion event",
+        "competing mechanistic models for calcium triggering",
+        "phospholipid splaying mechanism",
+        "PI(4,5)P2 role"
+      ],
+      "evidence_strength": "high",
+      "notes": "Key Nature review; highlights active mechanistic debates; source of '100,000-fold' and 'stalk model' data"
+    },
+    {
+      "id": "S4",
+      "type": "research_article",
+      "pmid": "27537483",
+      "pmcid": "PMC4991631",
+      "doi": "10.1016/j.neuron.2016.07.005",
+      "title": "Fusion competent synaptic vesicles persist upon active zone disruption and loss of vesicle docking",
+      "authors": "Wang SS, Held RG, Wong MY, Liu C, Karakhanyan A, Kaeser PS",
+      "journal": "Neuron",
+      "year": 2016,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4991631/",
+      "topics_covered": [
+        "RIM and ELKS knockout phenotype",
+        "vesicle docking vs fusion competence",
+        "active zone is required for action-potential-evoked release efficiency",
+        "calcium channel loss (44%) upon active zone disruption"
+      ],
+      "evidence_strength": "high",
+      "notes": "Conditional double knockout mouse study; decouples structural docking from functional fusion competence"
+    },
+    {
+      "id": "S5",
+      "type": "review",
+      "pmid": "36544543",
+      "pmcid": "PMC9760684",
+      "doi": "10.3389/fnsyn.2022.1023256",
+      "title": "Diverse organization of voltage-gated calcium channels at presynaptic active zones",
+      "authors": "Zhang W, Jiang H-H, Luo F",
+      "journal": "Frontiers in Synaptic Neuroscience",
+      "year": 2022,
+      "full_text_available": true,
+      "access_method": "PMC open access (Frontiers)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9760684/",
+      "topics_covered": [
+        "calcium channel subtype diversity",
+        "nanodomain vs microdomain coupling",
+        "RIM/RIM-BP/CAST/ELKS in channel organization",
+        "short-term plasticity implications"
+      ],
+      "evidence_strength": "medium-high",
+      "notes": "Good review on spatial organization of calcium channels; key for understanding release probability heterogeneity"
+    },
+    {
+      "id": "S6",
+      "type": "research_article",
+      "pmid": "37891212",
+      "pmcid": "PMC10611806",
+      "doi": "10.1038/s42003-023-05417-y",
+      "title": "The release of inhibition model reproduces kinetics and plasticity of neurotransmitter release in central synapses",
+      "authors": "Norman CA, Krishnakumar SS, Timofeeva Y, Volynski KE",
+      "journal": "Communications Biology",
+      "year": 2023,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10611806/",
+      "topics_covered": [
+        "computational model of calcium-triggered fusion",
+        "~3 SNARE complexes per vesicle for fast fusion",
+        "Syt1 + Syt7 combined sensor model for facilitation",
+        "release of inhibition model"
+      ],
+      "evidence_strength": "medium (computational)",
+      "notes": "Computational model—needs experimental validation, but mechanistically informative"
+    },
+    {
+      "id": "S7",
+      "type": "review",
+      "pmid": "15217342",
+      "pmcid": null,
+      "doi": "10.1146/annurev.neuro.26.041002.131412",
+      "title": "The synaptic vesicle cycle",
+      "authors": "Südhof TC",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2004,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15217342/",
+      "topics_covered": [
+        "complete vesicle cycle overview",
+        "Rab3 function",
+        "classical vesicle cycle model"
+      ],
+      "evidence_strength": "high (canonical review)",
+      "notes": "Classic reference; only abstract available without institutional access"
+    }
+  ],
+  "source_summary": {
+    "total_sources": 7,
+    "open_full_text": 6,
+    "abstract_only": 1,
+    "institutional_sources": 0,
+    "minimum_met": true,
+    "notes": "Exceeds minimum requirements: 6 open full-text (requires >=2), 7 total (requires >=5), includes reviews + original research + computational modeling"
+  }
+}

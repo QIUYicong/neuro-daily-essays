@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-05-25",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -56,6 +56,84 @@
       "first_used": "2026-05-24",
       "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
       "aspects_covered": ["computational model realism framework", "empirical content vs empirical accuracy", "AIS-specific channel distribution in models"]
+    },
+    {
+      "pmid": "22068972",
+      "pmcid": "PMC3249630",
+      "title": "Calcium control of neurotransmitter release",
+      "authors_short": "Südhof TC",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2012,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["synaptotagmin calcium sensing", "C2A/C2B domain structure", "fusion kinetics (100-200 microseconds)", "synchronous vs asynchronous release", "complexin dual function", "Syt isoform specificity (Syt1/2/9)", "spontaneous release rates", "phospholipid affinity enhancement"]
+    },
+    {
+      "pmid": "22026965",
+      "pmcid": "PMC3225952",
+      "title": "Synaptic vesicle exocytosis",
+      "authors_short": "Südhof TC, Rizo J",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2011,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["SNARE complex structure (4-helix bundle)", "Synaptobrevin/Syntaxin/SNAP-25", "central hydrophilic layer", "Munc18-1 dual binding mode", "Munc13 priming mechanism", "RIM protein architecture", "active zone scaffold components (RIM, ELKS, Bassoon, Piccolo)", "calcium channel tethering by RIM", "vesicle recycling pathways (kiss-and-stay, kiss-and-run, full recycling)"]
+    },
+    {
+      "pmid": "23060190",
+      "pmcid": "PMC4461657",
+      "title": "Molecular machines governing exocytosis of synaptic vesicles",
+      "authors_short": "Jahn R, Fasshauer D",
+      "journal": "Nature",
+      "year": 2012,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["competing fusion models (partial zipper vs distance regulation)", "Ca2+ boost >100,000-fold", "stalk hypothesis and hemifusion intermediates", "1-3 SNARE complexes per event", "phospholipid splaying mechanism (<1nm)", "PI(4,5)P2 role", "NSF/alpha-SNAP disassembly"]
+    },
+    {
+      "pmid": "27537483",
+      "pmcid": "PMC4991631",
+      "title": "Fusion competent synaptic vesicles persist upon active zone disruption and loss of vesicle docking",
+      "authors_short": "Wang SS et al.",
+      "journal": "Neuron",
+      "year": 2016,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["RIM+ELKS conditional double knockout", "vesicle docking loss", "calcium channel loss 44%", "fusion competence without active zone", "decoupling structural docking from functional readiness"]
+    },
+    {
+      "pmid": "36544543",
+      "pmcid": "PMC9760684",
+      "title": "Diverse organization of voltage-gated calcium channels at presynaptic active zones",
+      "authors_short": "Zhang W et al.",
+      "journal": "Frontiers in Synaptic Neuroscience",
+      "year": 2022,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["calcium channel subtype diversity at synapses", "nanodomain vs microdomain coupling", "RIM/RIM-BP/CAST/ELKS/neurexin channel organization", "short-term plasticity implications"]
+    },
+    {
+      "pmid": "37891212",
+      "pmcid": "PMC10611806",
+      "title": "The release of inhibition model reproduces kinetics and plasticity of neurotransmitter release in central synapses",
+      "authors_short": "Norman CA et al.",
+      "journal": "Communications Biology",
+      "year": 2023,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["computational release of inhibition model", "~3 SNARE complexes per fusion", "Syt1+Syt7 dual sensor model for facilitation", "calcium-dependent C2 domain insertion rate determines fusion"]
+    },
+    {
+      "pmid": "15217342",
+      "pmcid": null,
+      "title": "The synaptic vesicle cycle",
+      "authors_short": "Südhof TC",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2004,
+      "first_used": "2026-05-25",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["classic vesicle cycle overview", "Rab3 function", "Munc18-1", "general synaptotagmin calcium sensor role"]
     }
   ]
 }

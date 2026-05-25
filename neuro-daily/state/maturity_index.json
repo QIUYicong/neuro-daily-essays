@@ -1,15 +1,15 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-24",
+  "last_updated": "2026-05-25",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
       "slug": "action-potential",
       "status": "established",
       "confidence": "high",
-      "supporting_sources": 1,
+      "supporting_sources": 2,
       "last_status_change": "2026-05-24",
-      "reason": "创建。教科书级共识，多重独立验证（H-H 模型 70 年持续验证）。"
+      "reason": "创建 2026-05-24。教科书级共识，多重独立验证（H-H 模型 70 年持续验证）。2026-05-25：修订，补充突触传递下游连接，无成熟度变化。"
     },
     {
       "slug": "axon-initial-segment",
@@ -17,7 +17,7 @@
       "confidence": "high",
       "supporting_sources": 2,
       "last_status_change": "2026-05-24",
-      "reason": "创建。结构与功能由多种方法（超分辨成像、膜片钳、敲除实验）独立证实。"
+      "reason": "创建 2026-05-24。结构与功能由多种方法（超分辨成像、膜片钳、敲除实验）独立证实。"
     },
     {
       "slug": "voltage-gated-sodium-channel",
@@ -25,7 +25,7 @@
       "confidence": "high",
       "supporting_sources": 2,
       "last_status_change": "2026-05-24",
-      "reason": "创建。分子结构由晶体学+克隆+电生理三角验证。"
+      "reason": "创建 2026-05-24。分子结构由晶体学+克隆+电生理三角验证。"
     },
     {
       "slug": "hodgkin-huxley-model",
@@ -33,7 +33,7 @@
       "confidence": "high",
       "supporting_sources": 3,
       "last_status_change": "2026-05-24",
-      "reason": "创建。1952 至今的奠基性框架，诺奖级，持续验证与扩展。"
+      "reason": "创建 2026-05-24。1952 至今的奠基性框架，诺奖级，持续验证与扩展。"
     },
     {
       "slug": "chandelier-cell",
@@ -41,7 +41,39 @@
       "confidence": "medium",
       "supporting_sources": 1,
       "last_status_change": "2026-05-24",
-      "reason": "创建。靶向特异性确立，但 GABA 极性机制与疾病角色存争议（见 contested_claims C-2026-05-24-01），故置信度中。"
+      "reason": "创建 2026-05-24。靶向特异性确立，但 GABA 极性机制与疾病角色存争议（见 contested_claims C-2026-05-24-01），故置信度中。"
+    },
+    {
+      "slug": "synaptic-transmission",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 6,
+      "last_status_change": "2026-05-25",
+      "reason": "创建 2026-05-25。化学突触传递机制有Nobel Prize级证据支持（Südhof 2013）；SNARE蛋白、Synaptotagmin功能经多物种、多方法独立验证。注：SNARE就绪态分子模型存在争议（见 contested_claims C-2026-05-25-01）。"
+    },
+    {
+      "slug": "SNARE-complex",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-25",
+      "reason": "创建 2026-05-25。三蛋白四螺旋束结构由晶体学+NMR+功能学验证。就绪态SNARE的部分拉合模型有争议（见contested_claims）。"
+    },
+    {
+      "slug": "synaptotagmin",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-25",
+      "reason": "创建 2026-05-25。Syt1为快速同步释放主要钙传感器，有遗传（敲除）+结构（C2域）+电生理多维证据。Syt7的易化机制证据为中等（计算模型+部分遗传）。"
+    },
+    {
+      "slug": "active-zone",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-25",
+      "reason": "创建 2026-05-25。活动区骨架蛋白（RIM/CAST/Bassoon等）功能由遗传+超分辨成像+电生理多维证实。钙通道-囊泡距离多样性数据来自多个突触类型研究。"
     }
   ]
 }

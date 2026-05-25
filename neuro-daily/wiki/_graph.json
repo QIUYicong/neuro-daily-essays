@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-24",
-  "node_count": 5,
-  "edge_count": 9,
+  "updated": "2026-05-25",
+  "node_count": 9,
+  "edge_count": 20,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -49,6 +49,42 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/circuits/chandelier-cell.md"
+    },
+    {
+      "id": "synaptic-transmission",
+      "title": "突触传递",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/synaptic-transmission.md"
+    },
+    {
+      "id": "SNARE-complex",
+      "title": "SNARE复合体",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/SNARE-complex.md"
+    },
+    {
+      "id": "synaptotagmin",
+      "title": "突触结合蛋白（Synaptotagmin）",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/synaptotagmin.md"
+    },
+    {
+      "id": "active-zone",
+      "title": "活动区",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/active-zone.md"
     }
   ],
   "edges": [
@@ -60,10 +96,24 @@
     {"from": "chandelier-cell", "to": "action-potential", "type": "regulates", "note": "经抑制 AIS 控制动作电位产生"},
     {"from": "action-potential", "to": "voltage-gated-sodium-channel", "type": "prerequisite-for", "note": "理解动作电位需先懂钠通道"},
     {"from": "hodgkin-huxley-model", "to": "voltage-gated-sodium-channel", "type": "related", "note": "模型刻画钠通道动力学"},
-    {"from": "axon-initial-segment", "to": "hodgkin-huxley-model", "type": "related", "note": "H-H 描述 AIS 处电导"}
+    {"from": "axon-initial-segment", "to": "hodgkin-huxley-model", "type": "related", "note": "H-H 描述 AIS 处电导"},
+    {"from": "action-potential", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "动作电位传到突触前终末触发突触传递"},
+    {"from": "active-zone", "to": "synaptic-transmission", "type": "mechanism-of", "note": "活动区是突触传递的物理执行平台"},
+    {"from": "SNARE-complex", "to": "synaptic-transmission", "type": "mechanism-of", "note": "SNARE拉链式组装驱动囊泡与膜融合"},
+    {"from": "synaptotagmin", "to": "synaptic-transmission", "type": "mechanism-of", "note": "Syt1感受Ca²⁺，触发融合"},
+    {"from": "synaptotagmin", "to": "SNARE-complex", "type": "regulates", "note": "Syt1解除Complexin锁定，激活SNARE最终拉合"},
+    {"from": "active-zone", "to": "SNARE-complex", "type": "supports", "note": "活动区脚手架提供SNARE组装的物理环境"},
+    {"from": "SNARE-complex", "to": "active-zone", "type": "part-of", "note": "SNARE组装发生于活动区"},
+    {"from": "voltage-gated-sodium-channel", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "电压门控Ca²⁺通道（同家族）开放触发Ca²⁺内流"},
+    {"from": "axon-initial-segment", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "AIS产生动作电位，后者传播至突触前终末"},
+    {"from": "synaptic-transmission", "to": "SNARE-complex", "type": "prerequisite-for", "note": "理解突触传递需先理解SNARE机器"},
+    {"from": "synaptic-transmission", "to": "synaptotagmin", "type": "prerequisite-for", "note": "理解突触传递需理解Syt钙传感器"}
   ],
   "dangling_references": [
     {"slug": "dendritic-computation", "referenced_by": ["hodgkin-huxley-model"], "note": "树突计算，待建页面"},
-    {"slug": "synaptic-transmission", "referenced_by": [], "note": "课程脊柱下一站，待建"}
+    {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，今日文章已讨论但未建独立页；次要概念，可并入SNARE-complex"},
+    {"slug": "munc18", "referenced_by": ["SNARE-complex"], "note": "SM蛋白，SNARE调控，待建页面（次要）"},
+    {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone"], "note": "电压门控钙通道，与voltage-gated-sodium-channel同家族，待建独立页面"},
+    {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，今日文章已讨论；待建页面"}
   ]
 }
