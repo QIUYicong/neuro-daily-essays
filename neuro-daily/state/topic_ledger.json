@@ -1,0 +1,195 @@
+{
+  "last_updated": "2026-05-26",
+  "total_articles": 3,
+  "entries": [
+    {
+      "date": "2026-05-24",
+      "title": "决策的解剖学：神经元如何在混沌的输入中找到它唯一的声音",
+      "filename": "2026-05-24-axon-initial-segment.md",
+      "wiki_pages_created": [
+        "wiki/neurons/action-potential.md",
+        "wiki/neurons/axon-initial-segment.md",
+        "wiki/neurons/voltage-gated-sodium-channel.md",
+        "wiki/concepts/hodgkin-huxley-model.md",
+        "wiki/circuits/chandelier-cell.md"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": ["C-2026-05-24-01"],
+      "core_question": "神经元接收数千个突触输入后，在哪里、用什么机制，做出'是否发放动作电位'的决定？",
+      "layer": ["分子", "细胞", "突触"],
+      "curriculum_track": "1. 神经元如何工作",
+      "topic_tags": [
+        "axon initial segment",
+        "action potential",
+        "AIS",
+        "Hodgkin-Huxley",
+        "Nav channels",
+        "NaV1.6",
+        "AnkyrinG",
+        "homeostatic plasticity",
+        "chandelier cell",
+        "saltatory conduction",
+        "spike initiation"
+      ],
+      "main_sources": [
+        "PMID:23055474 (PMC3500626)",
+        "PMID:36218068 (PMC10600871)",
+        "PMID:41930336 (PMC13042750)",
+        "PMID:28536506 (PMC5422562)",
+        "PMID:25856629 (PMC4391789)"
+      ],
+      "unresolved_questions": [
+        "AIS 处 GABA 的极性（兴奋还是抑制）",
+        "NaV1.2 到 NaV1.6 发育转变的完整分子机制",
+        "AIS 稳态可塑性的下游信号通路",
+        "AIS 变化在神经退行性疾病中是代偿还是病理",
+        "人类 AIS 与啮齿类的功能性差异"
+      ],
+      "next_suggested_topics": [
+        "突触传递的分子机制：AMPA/NMDA 受体，突触可塑性基础",
+        "树突计算详解：NMDA 棘波，Ca²⁺ 棘波，单神经元计算能力",
+        "抑制性回路设计：中间神经元多样性（PV+, SST+, VIP+）",
+        "Hebbian 学习与 LTP：突触层面的记忆机制"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 1
+    },
+    {
+      "date": "2026-05-25",
+      "title": "神经信号的化学渡口：钙离子如何在不到一毫秒内触发突触囊泡融合",
+      "filename": "2026-05-25-synaptic-vesicle-exocytosis.md",
+      "wiki_pages_created": [
+        "wiki/neurons/synaptic-transmission.md",
+        "wiki/concepts/SNARE-complex.md",
+        "wiki/neurons/synaptotagmin.md",
+        "wiki/neurons/active-zone.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/action-potential.md"
+      ],
+      "contested_claims_logged": ["C-2026-05-25-01"],
+      "core_question": "动作电位到达突触前终末后，钙离子如何在数百微秒内触发突触囊泡与突触前膜的融合，将神经递质精确地释放到突触间隙？",
+      "layer": ["分子", "细胞", "突触"],
+      "curriculum_track": "1. 神经元如何工作",
+      "topic_tags": [
+        "synaptic vesicle",
+        "exocytosis",
+        "SNARE complex",
+        "synaptotagmin",
+        "complexin",
+        "active zone",
+        "calcium triggered fusion",
+        "Munc13",
+        "Munc18",
+        "RIM protein",
+        "readily releasable pool",
+        "hemifusion",
+        "neurotransmitter release",
+        "nanodomain coupling"
+      ],
+      "main_sources": [
+        "PMID:22068972 (PMC3249630)",
+        "PMID:22026965 (PMC3225952)",
+        "PMID:23060190 (PMC4461657)",
+        "PMID:27537483 (PMC4991631)",
+        "PMID:36544543 (PMC9760684)",
+        "PMID:37891212 (PMC10611806)",
+        "PMID:15217342 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "就绪态SNARE蛋白是部分拉合还是完全游离？（核心模型争议）",
+        "Kiss-and-run模式在生理条件下的普遍程度",
+        "Syt7介导短时程易化的精确分子机制",
+        "不同突触类型的Syt亚型选择是否有统一规律",
+        "超快内吞（ultrafast endocytosis）的分子机制"
+      ],
+      "next_suggested_topics": [
+        "突触后受体：AMPA受体如何被谷氨酸激活？NMDA受体的"巧合检测器"功能",
+        "树突计算详解：NMDA棘波、Ca²⁺棘波，单神经元的计算能力",
+        "短时程突触可塑性：突触抑制和易化的分子机制",
+        "Hebbian学习与LTP/LTD：突触层面的记忆"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 2
+    },
+    {
+      "date": "2026-05-26",
+      "title": "NMDA 受体：突触的"巧合检测器"，以及大脑如何在神经元间刻写记忆",
+      "filename": "2026-05-26-nmda-receptor-ltp.md",
+      "wiki_pages_created": [
+        "wiki/concepts/nmda-receptor.md",
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/hebbian-learning.md",
+        "wiki/concepts/ampa-receptor.md",
+        "wiki/neurons/camkii.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/synaptic-transmission.md",
+        "wiki/neurons/action-potential.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "NMDA 受体如何同时感知"突触前活动"与"突触后去极化"，在单个突触处实现 Hebb 型巧合检测，并由此触发长时程增强（LTP）——这一突触可塑性机制如何奠定学习与记忆的分子基础？",
+      "layer": ["突触", "分子", "认知"],
+      "curriculum_track": "1. 神经元如何工作 → 4. 学习和记忆（桥接篇）",
+      "topic_tags": [
+        "NMDA receptor",
+        "LTP",
+        "long-term potentiation",
+        "coincidence detection",
+        "Hebbian learning",
+        "AMPA receptor",
+        "CaMKII",
+        "Mg2+ block",
+        "GluN2 subunits",
+        "AMPA receptor trafficking",
+        "silent synapse",
+        "theta-burst stimulation",
+        "STDP",
+        "three-factor learning rule",
+        "backpropagating action potential",
+        "synaptic weight",
+        "dendritic spine"
+      ],
+      "main_sources": [
+        "PMID:22510460 (PMC3367554)",
+        "PMID:30037851 (PMC6080888)",
+        "PMID:30359599 (PMC6214363)",
+        "PMID:34271016 (PMC9122021)",
+        "PMID:34908526 (PMC8798046)",
+        "PMID:25452022 (PMC4411212)",
+        "PMID:26834568 (PMC4717313)",
+        "PMID:4727084 (abstract only)",
+        "PMID:6306230 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "LTP 的终身维持机制（蛋白更新 vs CaMKII 亚基交换）",
+        "LTP 与行为记忆的一一对应关系",
+        "苔藓纤维 LTP 的突触前机制细节",
+        "GluN2 亚型切换的发育触发机制",
+        "Aβ 损害 LTP 的精确分子靶点"
+      ],
+      "next_suggested_topics": [
+        "LTD 的分子机制：磷酸酶、AMPA 受体内吞、mGluR-LTD",
+        "树突计算：NMDA 棘波，Ca²⁺ 棘波，单神经元的计算能力（填补 dendritic-computation 悬空引用）",
+        "海马回路：CA1/CA3/DG 的连接逻辑，空间记忆编码（中等层级跳跃）",
+        "短时程突触可塑性：突触抑制和易化（中等层级，填补知识链路）",
+        "多巴胺系统与奖励学习（较大层级跳跃，连接 Hebb 规则与强化学习）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 3
+    }
+  ],
+  "layer_coverage_recent": {
+    "molecular": ["2026-05-24", "2026-05-25", "2026-05-26"],
+    "cellular": ["2026-05-24", "2026-05-25"],
+    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26"],
+    "microcircuit": [],
+    "brain_region": [],
+    "whole_brain_network": [],
+    "behavior": [],
+    "cognition": ["2026-05-26"],
+    "disease": [],
+    "methods": []
+  },
+  "layer_note": "今日（2026-05-26）首次进入认知层，通过 LTP/Hebb 规则将分子机制与学习/记忆认知功能明确连接。分子/突触层已覆盖 3 天，建议下一篇在课程脊柱中保持认知层（如海马回路、记忆巩固）或转向微回路层（树突计算、中间神经元多样性），避免继续停留在纯分子层。"
+}

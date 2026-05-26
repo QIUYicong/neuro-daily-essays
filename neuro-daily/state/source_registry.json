@@ -1,0 +1,240 @@
+{
+  "last_updated": "2026-05-26",
+  "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
+  "sources": [
+    {
+      "pmid": "23055474",
+      "pmcid": "PMC3500626",
+      "title": "The Hodgkin-Huxley Heritage: From Channels to Circuits",
+      "authors_short": "Catterall et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2012,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["H-H model overview", "Nav channel molecular structure", "S4 gating", "IFMT inactivation", "Class 1/2 neurons", "metabolic efficiency optimization"]
+    },
+    {
+      "pmid": "36218068",
+      "pmcid": "PMC10600871",
+      "title": "The Impact of Hodgkin-Huxley Models on Dendritic Research",
+      "authors_short": "Petousakis et al.",
+      "journal": "Journal of Physiology",
+      "year": 2023,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["dendritic computation", "NMDA spikes", "Ca2+ spikes in human L2/3", "back-propagating APs", "STDP and dendritic location", "HH model extensions to dendrites"]
+    },
+    {
+      "pmid": "41930336",
+      "pmcid": "PMC13042750",
+      "title": "Axon Initial Segment: Structure, Biological Functions, Diseases, and Therapeutic Targets",
+      "authors_short": "Song et al.",
+      "journal": "MedComm",
+      "year": 2026,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["AIS molecular architecture", "Nav channel density (50x soma)", "NaV1.6 vs NaV1.2", "AnkyrinG scaffold", "actin rings (~190nm)", "homeostatic plasticity", "chandelier cells", "KV channels", "AIS in neurodegeneration", "organelle trafficking"]
+    },
+    {
+      "pmid": "28536506",
+      "pmcid": "PMC5422562",
+      "title": "Axonal Membranes and Their Domains: AIS and Node of Ranvier",
+      "authors_short": "Nelson & Jenkins",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2017,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["AnkyrinG-Nav binding mechanism (II-III linker)", "CK2 phosphorylation regulation", "AIS and node shared molecular architecture", "saltatory conduction"]
+    },
+    {
+      "pmid": "25856629",
+      "pmcid": "PMC4391789",
+      "title": "What Is the Most Realistic Single-Compartment Model of Spike Initiation?",
+      "authors_short": "Brette R",
+      "journal": "PLOS Computational Biology",
+      "year": 2015,
+      "first_used": "2026-05-24",
+      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
+      "aspects_covered": ["computational model realism framework", "empirical content vs empirical accuracy", "AIS-specific channel distribution in models"]
+    },
+    {
+      "pmid": "22068972",
+      "pmcid": "PMC3249630",
+      "title": "Calcium control of neurotransmitter release",
+      "authors_short": "Südhof TC",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2012,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["synaptotagmin calcium sensing", "C2A/C2B domain structure", "fusion kinetics (100-200 microseconds)", "synchronous vs asynchronous release", "complexin dual function", "Syt isoform specificity (Syt1/2/9)", "spontaneous release rates", "phospholipid affinity enhancement"]
+    },
+    {
+      "pmid": "22026965",
+      "pmcid": "PMC3225952",
+      "title": "Synaptic vesicle exocytosis",
+      "authors_short": "Südhof TC, Rizo J",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2011,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["SNARE complex structure (4-helix bundle)", "Synaptobrevin/Syntaxin/SNAP-25", "central hydrophilic layer", "Munc18-1 dual binding mode", "Munc13 priming mechanism", "RIM protein architecture", "active zone scaffold components (RIM, ELKS, Bassoon, Piccolo)", "calcium channel tethering by RIM", "vesicle recycling pathways (kiss-and-stay, kiss-and-run, full recycling)"]
+    },
+    {
+      "pmid": "23060190",
+      "pmcid": "PMC4461657",
+      "title": "Molecular machines governing exocytosis of synaptic vesicles",
+      "authors_short": "Jahn R, Fasshauer D",
+      "journal": "Nature",
+      "year": 2012,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["competing fusion models (partial zipper vs distance regulation)", "Ca2+ boost >100,000-fold", "stalk hypothesis and hemifusion intermediates", "1-3 SNARE complexes per event", "phospholipid splaying mechanism (<1nm)", "PI(4,5)P2 role", "NSF/alpha-SNAP disassembly"]
+    },
+    {
+      "pmid": "27537483",
+      "pmcid": "PMC4991631",
+      "title": "Fusion competent synaptic vesicles persist upon active zone disruption and loss of vesicle docking",
+      "authors_short": "Wang SS et al.",
+      "journal": "Neuron",
+      "year": 2016,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["RIM+ELKS conditional double knockout", "vesicle docking loss", "calcium channel loss 44%", "fusion competence without active zone", "decoupling structural docking from functional readiness"]
+    },
+    {
+      "pmid": "36544543",
+      "pmcid": "PMC9760684",
+      "title": "Diverse organization of voltage-gated calcium channels at presynaptic active zones",
+      "authors_short": "Zhang W et al.",
+      "journal": "Frontiers in Synaptic Neuroscience",
+      "year": 2022,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["calcium channel subtype diversity at synapses", "nanodomain vs microdomain coupling", "RIM/RIM-BP/CAST/ELKS/neurexin channel organization", "short-term plasticity implications"]
+    },
+    {
+      "pmid": "37891212",
+      "pmcid": "PMC10611806",
+      "title": "The release of inhibition model reproduces kinetics and plasticity of neurotransmitter release in central synapses",
+      "authors_short": "Norman CA et al.",
+      "journal": "Communications Biology",
+      "year": 2023,
+      "first_used": "2026-05-25",
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["computational release of inhibition model", "~3 SNARE complexes per fusion", "Syt1+Syt7 dual sensor model for facilitation", "calcium-dependent C2 domain insertion rate determines fusion"]
+    },
+    {
+      "pmid": "15217342",
+      "pmcid": null,
+      "title": "The synaptic vesicle cycle",
+      "authors_short": "Südhof TC",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2004,
+      "first_used": "2026-05-25",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
+      "aspects_covered": ["classic vesicle cycle overview", "Rab3 function", "Munc18-1", "general synaptotagmin calcium sensor role"]
+    },
+    {
+      "pmid": "22510460",
+      "pmcid": "PMC3367554",
+      "title": "NMDA receptor-dependent long-term potentiation and long-term depression (LTP/LTD)",
+      "authors_short": "Lüscher C, Malenka RC",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2012,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["LTP induction mechanism", "LTD induction mechanism", "NMDA receptor as LTP gatekeeper", "CaMKII role", "AMPA receptor trafficking", "silent synapse", "spine morphology in LTP", "postsynaptic locus evidence (MK-801, PPF, astrocyte transporter)", "Abeta and AD LTP impairment"]
+    },
+    {
+      "pmid": "30037851",
+      "pmcid": "PMC6080888",
+      "title": "Structure, function, and allosteric modulation of NMDA receptors",
+      "authors_short": "Hansen KB et al.",
+      "journal": "Journal of General Physiology",
+      "year": 2018,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["GluN1/GluN2 tetrameric structure", "Mg2+ block IC50 values", "Ca2+ permeability", "GluN2 subunit diversity (decay kinetics, open probability)", "glycine/D-serine co-agonist", "SYTANLAAF gating motif", "Zn2+ modulation", "triheteromeric receptors"]
+    },
+    {
+      "pmid": "30359599",
+      "pmcid": "PMC6214363",
+      "title": "The AMPA Receptor Code of Synaptic Plasticity",
+      "authors_short": "Diering GH, Huganir RL",
+      "journal": "Neuron",
+      "year": 2018,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["GluA1-4 subunit roles", "GluA1 S831 CaMKII phosphorylation", "long C-tail vs short C-tail trafficking rules", "LTP requires GluA1", "GluA4 developmental expression", "GluA2-lacking Ca2+-permeable AMPARs"]
+    },
+    {
+      "pmid": "34271016",
+      "pmcid": "PMC9122021",
+      "title": "AMPA receptor trafficking and LTP: Carboxy-termini, amino-termini and TARPs",
+      "authors_short": "Díaz-Alonso J, Nicoll RA",
+      "journal": "Neuropharmacology",
+      "year": 2021,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["TARP Stargazin PDZ interaction with PSD-95", "synaptic slots model", "lateral diffusion from exocytosis to PSD", "GluA1 ATD extracellular interactions", "CaMKII occupies LTP mechanism"]
+    },
+    {
+      "pmid": "34908526",
+      "pmcid": "PMC8798046",
+      "title": "Synaptic memory requires CaMKII",
+      "authors_short": "Tao W et al.",
+      "journal": "eLife",
+      "year": 2021,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["CaMKII required for LTP maintenance (not just induction)", "myr-CN27 inhibitor reverses established LTP", "constitutive CaMKII activity (~50% baseline AMPAR)", "NMDAR-dependency of CaMKII effect", "T286 autophosphorylation", "subunit exchange hypothesis"]
+    },
+    {
+      "pmid": "25452022",
+      "pmcid": "PMC4411212",
+      "title": "Theta-burst LTP",
+      "authors_short": "Larson J, Bhatt DL",
+      "journal": "Brain Research",
+      "year": 2015,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["theta-burst stimulation protocol", "TBS vs HFS efficiency comparison", "theta oscillation as natural LTP induction rhythm", "GABA-B autoreceptor timing window"]
+    },
+    {
+      "pmid": "26834568",
+      "pmcid": "PMC4717313",
+      "title": "Neuromodulated Spike-Timing-Dependent Plasticity, and Theory of Three-Factor Learning Rules",
+      "authors_short": "Frémaux N, Gerstner W",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2016,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["three-factor learning rule framework", "dopamine as third factor in STDP", "bridge between Hebbian rule and reinforcement learning", "neuromodulator timing requirements"]
+    },
+    {
+      "pmid": "4727084",
+      "pmcid": null,
+      "title": "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+      "authors_short": "Bliss TV, Lømo T",
+      "journal": "Journal of Physiology",
+      "year": 1973,
+      "first_used": "2026-05-26",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["LTP discovery", "first demonstration of long-lasting synaptic enhancement by high-frequency stimulation", "dentate gyrus", "perforant path"]
+    },
+    {
+      "pmid": "6306230",
+      "pmcid": null,
+      "title": "Excitatory amino acids in synaptic transmission in the Schaffer collateral-commissural pathway of the rat hippocampus",
+      "authors_short": "Collingridge GL, Kehl SJ, McLennan H",
+      "journal": "Journal of Physiology",
+      "year": 1983,
+      "first_used": "2026-05-26",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["NMDA receptor required for LTP", "AP5 block abolishes LTP while preserving baseline transmission", "Schaffer collateral CA1 LTP"]
+    }
+  ]
+}

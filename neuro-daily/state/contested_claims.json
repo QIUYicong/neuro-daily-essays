@@ -1,0 +1,41 @@
+{
+  "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
+  "last_updated": "2026-05-25",
+  "schema": {
+    "id": "C-YYYY-MM-DD-NN",
+    "page": "wiki/<domain>/<slug>.md",
+    "claim_A": "旧理解 + 来源",
+    "claim_B": "新证据 + 来源",
+    "nature": "方法差异 | 物种差异 | 样本量 | 时间窗 | 真实分歧",
+    "status": "open | resolved",
+    "opened": "YYYY-MM-DD",
+    "resolved": null,
+    "resolution": null
+  },
+  "open_count": 2,
+  "resolved_count": 0,
+  "claims": [
+    {
+      "id": "C-2026-05-24-01",
+      "page": "wiki/circuits/chandelier-cell.md",
+      "claim_A": "GABA 在 AIS 处产生超极化抑制效果（经典抑制观点）",
+      "claim_B": "AIS 处氯离子浓度可能使 GABA 产生去极化效果，但仍可能经分流抑制起作用（PMID:41930336 综述指出此争议）",
+      "nature": "真实分歧（随物种/发育阶段/神经元类型而异）",
+      "status": "open",
+      "opened": "2026-05-24",
+      "resolved": null,
+      "resolution": null
+    },
+    {
+      "id": "C-2026-05-25-01",
+      "page": "wiki/concepts/SNARE-complex.md",
+      "claim_A": "就绪态（primed）突触囊泡的SNARE蛋白已处于'部分拉合'状态（N端预组装，Complexin锁住C端，等待钙触发完成最后步骤）——支持者：多数模型、部分体外实验",
+      "claim_B": "就绪态囊泡的SNARE蛋白可能处于完全游离/分开状态，钙信号到来后才触发从头组装和拉合——支持者：Jahn & Fasshauer (2012) 提出的'Distance-regulation model'（PMID:23060190）",
+      "nature": "真实分歧（核心模型分歧；体内与体外系统速度差距是核心矛盾）",
+      "status": "open",
+      "opened": "2026-05-25",
+      "resolved": null,
+      "resolution": null
+    }
+  ]
+}

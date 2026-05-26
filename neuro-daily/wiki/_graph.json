@@ -1,0 +1,184 @@
+{
+  "version": "1.0",
+  "updated": "2026-05-26",
+  "node_count": 14,
+  "edge_count": 36,
+  "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
+  "nodes": [
+    {
+      "id": "action-potential",
+      "title": "动作电位",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/action-potential.md"
+    },
+    {
+      "id": "axon-initial-segment",
+      "title": "轴突始段",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/axon-initial-segment.md"
+    },
+    {
+      "id": "voltage-gated-sodium-channel",
+      "title": "电压门控钠通道",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/voltage-gated-sodium-channel.md"
+    },
+    {
+      "id": "hodgkin-huxley-model",
+      "title": "Hodgkin-Huxley 模型",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/hodgkin-huxley-model.md"
+    },
+    {
+      "id": "chandelier-cell",
+      "title": "吊灯细胞",
+      "domain": "circuits",
+      "type": "entity",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/circuits/chandelier-cell.md"
+    },
+    {
+      "id": "synaptic-transmission",
+      "title": "突触传递",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/synaptic-transmission.md"
+    },
+    {
+      "id": "SNARE-complex",
+      "title": "SNARE复合体",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/SNARE-complex.md"
+    },
+    {
+      "id": "synaptotagmin",
+      "title": "突触结合蛋白（Synaptotagmin）",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/synaptotagmin.md"
+    },
+    {
+      "id": "active-zone",
+      "title": "活动区",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/active-zone.md"
+    },
+    {
+      "id": "nmda-receptor",
+      "title": "NMDA 受体",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/nmda-receptor.md"
+    },
+    {
+      "id": "ltp",
+      "title": "长时程增强（LTP）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ltp.md"
+    },
+    {
+      "id": "hebbian-learning",
+      "title": "Hebbian 学习",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/hebbian-learning.md"
+    },
+    {
+      "id": "ampa-receptor",
+      "title": "AMPA 受体",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ampa-receptor.md"
+    },
+    {
+      "id": "camkii",
+      "title": "CaMKII（钙/钙调素依赖性蛋白激酶 II）",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/camkii.md"
+    }
+  ],
+  "edges": [
+    {"from": "axon-initial-segment", "to": "action-potential", "type": "mechanism-of", "note": "AIS 是动作电位的发起位点"},
+    {"from": "voltage-gated-sodium-channel", "to": "action-potential", "type": "mechanism-of", "note": "Nav 通道驱动动作电位上升相"},
+    {"from": "hodgkin-huxley-model", "to": "action-potential", "type": "supports", "note": "H-H 模型定量描述动作电位"},
+    {"from": "voltage-gated-sodium-channel", "to": "axon-initial-segment", "type": "part-of", "note": "NaV1.6/1.2 在 AIS 超高密度聚集"},
+    {"from": "chandelier-cell", "to": "axon-initial-segment", "type": "regulates", "note": "吊灯细胞特异抑制 AIS"},
+    {"from": "chandelier-cell", "to": "action-potential", "type": "regulates", "note": "经抑制 AIS 控制动作电位产生"},
+    {"from": "action-potential", "to": "voltage-gated-sodium-channel", "type": "prerequisite-for", "note": "理解动作电位需先懂钠通道"},
+    {"from": "hodgkin-huxley-model", "to": "voltage-gated-sodium-channel", "type": "related", "note": "模型刻画钠通道动力学"},
+    {"from": "axon-initial-segment", "to": "hodgkin-huxley-model", "type": "related", "note": "H-H 描述 AIS 处电导"},
+    {"from": "action-potential", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "动作电位传到突触前终末触发突触传递"},
+    {"from": "active-zone", "to": "synaptic-transmission", "type": "mechanism-of", "note": "活动区是突触传递的物理执行平台"},
+    {"from": "SNARE-complex", "to": "synaptic-transmission", "type": "mechanism-of", "note": "SNARE拉链式组装驱动囊泡与膜融合"},
+    {"from": "synaptotagmin", "to": "synaptic-transmission", "type": "mechanism-of", "note": "Syt1感受Ca²⁺，触发融合"},
+    {"from": "synaptotagmin", "to": "SNARE-complex", "type": "regulates", "note": "Syt1解除Complexin锁定，激活SNARE最终拉合"},
+    {"from": "active-zone", "to": "SNARE-complex", "type": "supports", "note": "活动区脚手架提供SNARE组装的物理环境"},
+    {"from": "SNARE-complex", "to": "active-zone", "type": "part-of", "note": "SNARE组装发生于活动区"},
+    {"from": "voltage-gated-sodium-channel", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "电压门控Ca²⁺通道（同家族）开放触发Ca²⁺内流"},
+    {"from": "axon-initial-segment", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "AIS产生动作电位，后者传播至突触前终末"},
+    {"from": "synaptic-transmission", "to": "SNARE-complex", "type": "prerequisite-for", "note": "理解突触传递需先理解SNARE机器"},
+    {"from": "synaptic-transmission", "to": "synaptotagmin", "type": "prerequisite-for", "note": "理解突触传递需理解Syt钙传感器"},
+    {"from": "nmda-receptor", "to": "ltp", "type": "mechanism-of", "note": "NMDA受体Ca²⁺内流是LTP诱导的必要触发"},
+    {"from": "camkii", "to": "ltp", "type": "mechanism-of", "note": "CaMKII是LTP诱导和维持的核心效应器"},
+    {"from": "ampa-receptor", "to": "ltp", "type": "mechanism-of", "note": "AMPA受体插入是LTP在突触后的主要表达机制"},
+    {"from": "nmda-receptor", "to": "camkii", "type": "regulates", "note": "NMDA受体Ca²⁺内流激活CaMKII"},
+    {"from": "camkii", "to": "ampa-receptor", "type": "regulates", "note": "CaMKII磷酸化GluA1-S831并驱动AMPA受体插入突触"},
+    {"from": "ltp", "to": "hebbian-learning", "type": "mechanism-of", "note": "LTP是Hebb规则在突触层面的分子实现"},
+    {"from": "nmda-receptor", "to": "hebbian-learning", "type": "mechanism-of", "note": "NMDA受体双重门控精确实现Hebbian巧合检测"},
+    {"from": "nmda-receptor", "to": "synaptic-transmission", "type": "part-of", "note": "NMDA受体是突触后谷氨酸受体之一"},
+    {"from": "ampa-receptor", "to": "synaptic-transmission", "type": "mechanism-of", "note": "AMPA受体是突触快速EPSP的主要产生者"},
+    {"from": "action-potential", "to": "nmda-receptor", "type": "regulates", "note": "反向传播动作电位（bAP）提供去极化，解除NMDA受体Mg²⁺阻断"},
+    {"from": "synaptic-transmission", "to": "ltp", "type": "prerequisite-for", "note": "突触传递是LTP诱导的前提，需要谷氨酸释放激活NMDA受体"},
+    {"from": "ltp", "to": "nmda-receptor", "type": "prerequisite-for", "note": "理解LTP需先理解NMDA受体的巧合检测机制"},
+    {"from": "ltp", "to": "ampa-receptor", "type": "prerequisite-for", "note": "理解LTP需了解AMPA受体插入机制"},
+    {"from": "hebbian-learning", "to": "nmda-receptor", "type": "prerequisite-for", "note": "理解Hebb规则的分子基础需理解NMDA受体"},
+    {"from": "camkii", "to": "nmda-receptor", "type": "prerequisite-for", "note": "理解CaMKII在LTP中的作用需先理解NMDA受体触发"},
+    {"from": "ampa-receptor", "to": "nmda-receptor", "type": "related", "note": "两者共存于同一突触后膜，AMPA负责快速传递，NMDA负责可塑性判断"}
+  ],
+  "dangling_references": [
+    {"slug": "dendritic-computation", "referenced_by": ["hodgkin-huxley-model"], "note": "树突计算，待建页面"},
+    {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
+    {"slug": "munc18", "referenced_by": ["SNARE-complex"], "note": "SM蛋白，SNARE调控，次要"},
+    {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission"], "note": "电压门控钙通道（P/Q-type, N-type），突触前终末Ca²⁺内流的执行者，待建独立页面"},
+    {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，待建页面"},
+    {"slug": "theta-oscillations", "referenced_by": ["ltp"], "note": "θ振荡，LTP的体内诱导节律，待建页面"},
+    {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning"], "note": "印迹细胞，记忆存储的细胞群，待建页面"},
+    {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "三因素学习规则（Hebb × 多巴胺），待建页面"},
+    {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"}
+  ]
+}

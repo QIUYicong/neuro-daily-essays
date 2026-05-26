@@ -1,0 +1,198 @@
+# 运行日志 2026-05-25
+
+**运行时间（UTC+8）**：2026-05-25
+**文章编号**：#2
+**分支**：main（环境分支为 claude/exciting-fermi-1ZJsH，已从 main 同步后在 main 上开展工作）
+
+---
+
+## 步骤 0：同步主分支
+
+- 从 `claude/exciting-fermi-1ZJsH` 切换到 `main`
+- `git pull origin main`：成功，获取 2026-05-24 全量内容（23个文件，2204行新增）
+- 确认 `ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md`、`neuro-daily/wiki/` 均存在 ✅
+
+---
+
+## 步骤 A：读取状态
+
+| 文件 | 状态 |
+|------|------|
+| `state/topic_ledger.json` | ✅ 读取；1篇历史文章；连续2天同层级（分子/细胞/突触）警告标注 |
+| `state/unresolved_questions.md` | ✅ 读取；7个历史问题，Q-ais-gaba-polarity为最高优先级 |
+| `state/contested_claims.json` | ✅ 读取；1个open矛盾（GABA极性） |
+| `wiki/_graph.json` | ✅ 读取；悬空引用：synaptic-transmission（已填补）、dendritic-computation |
+| `wiki/index.md` | ✅ 读取 |
+| `state/monthly_synthesis.md` | ✅ 读取 |
+
+---
+
+## 步骤 B：选题
+
+**缺口优先级分析：**
+1. 突破追踪：未发现近7天重大突破（未超过常规研究进展）
+2. 裁决矛盾：C-2026-05-24-01（GABA极性）—— 本文未专门裁决，留待后续
+3. **填补悬空引用**：`synaptic-transmission`（被图谱引用但无页面）→ **选中**
+4. 课程脊柱：第1段"神经元如何工作"的下一站：突触传递
+
+**最终选题**：突触囊泡胞吐机制——钙触发的神经递质释放
+**核心问题**：动作电位到达突触前终末后，钙离子如何在数百微秒内触发突触囊泡与突触前膜的融合，将神经递质精确地释放到突触间隙？
+**模式**：长期课程模式（填补悬空引用 + 课程脊柱推进）
+
+---
+
+## 步骤 C：检索与阅读
+
+**搜索词使用：**
+- `synaptic vesicle exocytosis SNARE calcium review`（PubMed E-utilities）
+- `neurotransmitter release synaptotagmin calcium sensor mechanism`（PubMed）
+- `Sudhof synaptic vesicle review`（PubMed）
+- `Jahn Fasshauer SNARE molecular machines exocytosis 2012`（PubMed）
+- `active zone scaffold Bassoon Piccolo RIM CAST ELKS presynaptic terminal`（PMC）
+- `SNARE synaptotagmin neurotransmitter release mechanism review`（PMC）
+- `calcium nanodomain active zone vesicle fusion distance coupling`（PubMed）
+
+**候选来源数**：初步约30篇，经质量、相关性、全文可用性筛选后，最终采用7篇
+
+**采用来源（7篇）：**
+1. PMID:22068972（PMC3249630）Südhof 2012 - 开放全文 ✅
+2. PMID:22026965（PMC3225952）Südhof & Rizo 2011 - 开放全文 ✅
+3. PMID:23060190（PMC4461657）Jahn & Fasshauer 2012 - 开放全文 ✅
+4. PMID:27537483（PMC4991631）Wang et al. 2016 - 开放全文 ✅
+5. PMID:36544543（PMC9760684）Zhang et al. 2022 - 开放全文 ✅
+6. PMID:37891212（PMC10611806）Norman et al. 2023 - 开放全文 ✅
+7. PMID:15217342 Südhof 2004 - 仅摘要 ⚠️
+
+**排除理由示例：**
+- PMID:34572580：Exocytosis in Astrocytes - 与神经突触传递相关性不足（胶质细胞研究）
+- PMID:36640316：Syt1 in dopamine release - 特定神经递质类型，次要来源
+- PMID:20798282：Alpha-synuclein and SNARE - 与今日核心主题边缘相关，排除
+
+**全文阅读情况：**
+- PMC3249630：完整阅读（机制、时间学、Syt结构） ✅
+- PMC3225952：完整阅读（SNARE结构、Munc13/RIM、活动区） ✅
+- PMC4461657：完整阅读（模型争议、能量学、半融合） ✅
+- PMC4991631：完整阅读（RIM/ELKS双敲除实验） ✅
+- PMC9760684：部分阅读（钙通道组织综述） ✅
+- PMC10611806：部分阅读（计算模型摘要） ✅
+
+---
+
+## 步骤 D：固结步骤
+
+**创建 wiki 页面（4）：**
+| Slug | 文件 | 操作 | 原因 |
+|------|------|------|------|
+| synaptic-transmission | wiki/neurons/synaptic-transmission.md | 创建 | 填补悬空引用；今日核心主题 |
+| SNARE-complex | wiki/concepts/SNARE-complex.md | 创建 | 核心分子机器，独立重要性高 |
+| synaptotagmin | wiki/neurons/synaptotagmin.md | 创建 | 钙传感器，核心概念 |
+| active-zone | wiki/neurons/active-zone.md | 创建 | 突触前终末特化结构，核心概念 |
+
+**修订 wiki 页面（1）：**
+| Slug | 文件 | 改了什么 |
+|------|------|---------|
+| action-potential | wiki/neurons/action-potential.md | 新增突触传递下游连接；扩展dimensions为synaptic；revision_count 1→2 |
+
+**矛盾检查：**
+- C-2026-05-25-01 登记：SNARE就绪态模型（部分拉合 vs 完全游离）—— 两种模型均有文献支持，为真实分歧
+- C-2026-05-24-01（GABA极性）：今日文章未提供新证据，保留 open 状态
+
+**成熟度评估：**
+- synaptic-transmission：established / high（Nobel Prize级证据）
+- SNARE-complex：established / high（结构+功能多维证据）
+- synaptotagmin：established / high（遗传+结构+电生理）
+- active-zone：established / high（遗传+超分辨成像）
+
+---
+
+## 步骤 E：更新图谱与导航
+
+- `wiki/_graph.json`：节点 5→9，边 9→20，悬空引用更新（synaptic-transmission已填补）
+- `wiki/index.md`：添加4个新页面；更新总数5→9；更新待补缺口列表
+- `wiki/CHANGELOG.md`：添加2026-05-25节（新建4页，修订1页，矛盾1条）
+
+---
+
+## 步骤 F：更新治理层
+
+| 文件 | 操作 |
+|------|------|
+| state/topic_ledger.json | 追加第2条记录；更新layer_coverage_recent；添加层级警告 |
+| state/unresolved_questions.md | 追加3个新问题（Q-snare-partial-zipper, Q-kiss-and-run-prevalence, Q-syt7-facilitation-mechanism）|
+| state/source_registry.json | 追加6个新来源（PMID 22068972, 22026965, 23060190, 27537483, 36544543, 37891212, 15217342）|
+| state/maturity_index.json | 追加4个新页面记录 |
+| state/contested_claims.json | 追加C-2026-05-25-01；open_count更新为2 |
+| state/monthly_synthesis.md | 添加第2行表格记录；追加3条月度核心洞见 |
+
+---
+
+## 步骤 G：提交记录
+
+**Commit message**：`Add neuro daily article + wiki consolidation for 2026-05-25`
+
+**文章文件**：
+- `neuro-daily/articles/2026-05-25-synaptic-vesicle-exocytosis.md`
+- `neuro-daily/notes/2026-05-25-reading-notes.md`
+- `neuro-daily/sources/2026-05-25-sources.json`
+- `neuro-daily/logs/2026-05-25-run.log`
+
+**Wiki文件**（创建/修订）：
+- `neuro-daily/wiki/neurons/synaptic-transmission.md`（新建）
+- `neuro-daily/wiki/concepts/SNARE-complex.md`（新建）
+- `neuro-daily/wiki/neurons/synaptotagmin.md`（新建）
+- `neuro-daily/wiki/neurons/active-zone.md`（新建）
+- `neuro-daily/wiki/neurons/action-potential.md`（修订）
+- `neuro-daily/wiki/_graph.json`（更新）
+- `neuro-daily/wiki/index.md`（更新）
+- `neuro-daily/wiki/CHANGELOG.md`（更新）
+
+**状态文件**（全部更新）：
+- `state/topic_ledger.json`
+- `state/unresolved_questions.md`
+- `state/source_registry.json`
+- `state/maturity_index.json`
+- `state/contested_claims.json`
+- `state/monthly_synthesis.md`
+
+**推送目标**：`origin main`（QIUYicong/neuro-daily-essays）
+
+---
+
+## 步骤 H：自检结果
+
+**真实性**：
+- ✅ 所有 wiki 新主张有 PMID/PMCID 来源
+- ✅ 区分了事实/模型/推测/争议（如SNARE就绪态争议已登记）
+- ✅ 未将动物研究过度推广（人类突触数据多来自人类神经元或直接可外推的电生理数据）
+- ⚠️ SNARE就绪态模型（登记矛盾C-2026-05-25-01，如实并列）
+
+**一致性**：
+- ✅ C-2026-05-25-01 已走矛盾协议
+- ✅ action-potential.md 已更新updated/revision_count/修订历史
+- ✅ _graph.json 无未记录的悬空边
+
+**可导航**：
+- ✅ index.md 和 CHANGELOG.md 反映了今天变化
+- ✅ 新页面的 related 和 prerequisites 各≥1
+
+**情景层**：
+- ✅ 文章/笔记/来源/日志齐全
+- ✅ 未修改旧文件（只修订了action-potential.md——属语义层，合规）
+
+---
+
+## 异常/限制
+
+无重大异常。
+
+以下来源仅读摘要：PMID:15217342（Annual Review of Neuroscience 2004），因无 PMCID 且机构授权不在当前环境。已在文章来源表中标注"⚠️ 仅读摘要"。
+
+---
+
+## 推送状态
+
+✅ 推送成功
+- **Commit hash**：af11303
+- **分支**：main
+- **Remote**：origin (http://local_proxy@127.0.0.1:.../git/QIUYicong/neuro-daily-essays)
+- **GitHub URL**：https://github.com/QIUYicong/neuro-daily-essays/tree/main

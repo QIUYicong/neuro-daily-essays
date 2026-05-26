@@ -1,0 +1,103 @@
+{
+  "date": "2026-05-24",
+  "topic": "轴突始段（Axon Initial Segment）与动作电位发起机制",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "The Hodgkin-Huxley Heritage: From Channels to Circuits",
+      "authors": ["Catterall WA", "Raman IM", "Robinson HP", "Sejnowski TJ", "Paulsen O"],
+      "journal": "Journal of Neuroscience",
+      "year": 2012,
+      "pmid": "23055474",
+      "pmcid": "PMC3500626",
+      "doi": "10.1523/JNEUROSCI.3403-12.2012",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3500626/",
+      "full_text_available": true,
+      "license": "Open Access (PMC)",
+      "article_type": "review",
+      "relevance_score": 5,
+      "reliability_note": "Symposium review in top-tier journal, authored by leading authorities in ion channel biophysics and computational neuroscience"
+    },
+    {
+      "id": "S2",
+      "title": "The Impact of Hodgkin-Huxley Models on Dendritic Research",
+      "authors": ["Petousakis KE", "Apostolopoulou AA", "Poirazi P"],
+      "journal": "Journal of Physiology",
+      "year": 2023,
+      "pmid": "36218068",
+      "pmcid": "PMC10600871",
+      "doi": "10.1113/JP282756",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10600871/",
+      "full_text_available": true,
+      "license": "Open Access (PMC)",
+      "article_type": "review",
+      "relevance_score": 4,
+      "reliability_note": "Recent review from established computational neuroscience group (Poirazi lab), covers HH model applications to dendrites including human Ca2+ spikes"
+    },
+    {
+      "id": "S3",
+      "title": "Axon Initial Segment: Structure, Biological Functions, Diseases, and Therapeutic Targets",
+      "authors": ["Song DY", "Yuan L", "Yang W", "Li W", "Li JY"],
+      "journal": "MedComm",
+      "year": 2026,
+      "pmid": "41930336",
+      "pmcid": "PMC13042750",
+      "doi": "10.1002/mco2.70689",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13042750/",
+      "full_text_available": true,
+      "license": "Open Access (PMC)",
+      "article_type": "review",
+      "relevance_score": 5,
+      "reliability_note": "Comprehensive and up-to-date review (2026) covering AIS molecular architecture, plasticity, disease relevance. MedComm is a peer-reviewed open-access journal."
+    },
+    {
+      "id": "S4",
+      "title": "Axonal Membranes and Their Domains: Assembly and Function of the Axon Initial Segment and Node of Ranvier",
+      "authors": ["Nelson AD", "Jenkins PM"],
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2017,
+      "pmid": "28536506",
+      "pmcid": "PMC5422562",
+      "doi": "10.3389/fncel.2017.00136",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5422562/",
+      "full_text_available": true,
+      "license": "Open Access (Creative Commons, Frontiers)",
+      "article_type": "review",
+      "relevance_score": 5,
+      "reliability_note": "Focused mechanistic review of AIS and nodal assembly; covers AnkyrinG-Nav channel interaction and CK2 phosphorylation. Frontiers in Cellular Neuroscience is peer-reviewed."
+    },
+    {
+      "id": "S5",
+      "title": "What Is the Most Realistic Single-Compartment Model of Spike Initiation?",
+      "authors": ["Brette R"],
+      "journal": "PLOS Computational Biology",
+      "year": 2015,
+      "pmid": "25856629",
+      "pmcid": "PMC4391789",
+      "doi": "10.1371/journal.pcbi.1004114",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4391789/",
+      "full_text_available": true,
+      "license": "Open Access (PLOS, Creative Commons)",
+      "article_type": "methods/analysis",
+      "relevance_score": 3,
+      "reliability_note": "Thoughtful analysis from PLOS Computational Biology; provides the computational neuroscience framework for evaluating spike initiation models"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "reason": "Not directly relevant to AIS/spike initiation",
+      "examples": ["channelopathy pain paper (PMID 30672368)", "epilepsy pharmacoresistance paper (PMID 34542938)"]
+    },
+    {
+      "reason": "No open full text available",
+      "examples": ["Physiological Reviews voltage-gated Na channels in pain (PMID 30672368)"]
+    }
+  ],
+  "search_queries_used": [
+    "action potential ion channel neuron review open access",
+    "Hodgkin Huxley action potential review neuroscience",
+    "voltage gated sodium channel action potential biophysics review",
+    "axon initial segment action potential initiation review",
+    "action potential propagation myelination saltatory conduction review"
+  ]
+}
