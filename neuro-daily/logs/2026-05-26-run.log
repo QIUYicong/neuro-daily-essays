@@ -1,0 +1,114 @@
+# 运行日志：2026-05-26
+
+**日期**：2026-05-26（UTC+8）
+**分支**：claude/exciting-fermi-iySbo（环境分配，计划合并至 main）
+**运行状态**：成功
+
+---
+
+## 选题决策
+
+**输入状态**：
+- topic_ledger 显示已连续 2 天覆盖分子/细胞/突触层级，警告应转向不同层级
+- 图谱悬空引用：`hebbian-learning`、`ltp`（高优先级，多个节点引用）、`calcium-channel`、`dendritic-computation`
+- unresolved_questions 新增 2026-05-25 来自突触囊泡文章的问题
+
+**选题理由**：
+- 选择"NMDA 受体 + LTP"——跨越突触→认知层（打破连续同层）
+- 自然接续 Day 2（突触前释放）→ 突触后受体与可塑性
+- 填补两个悬空引用（hebbian-learning, ltp）
+- 符合课程脊柱：从"1. 神经元如何工作"桥接到"4. 学习和记忆"
+- 层级：突触 + 分子 + 认知（跨层）
+
+---
+
+## 文献检索
+
+**搜索词**：
+- PubMed: NMDA receptor LTP coincidence detection synaptic plasticity
+- PubMed: NMDA receptor structure function review (2015-2026)
+- PubMed: AMPA receptor trafficking LTP review (2015-2026)
+- PubMed: CaMKII synaptic plasticity LTP mechanism (2018-2026)
+- PubMed: spike timing dependent plasticity STDP review Hebbian (2015-2026)
+- PubMed: theta-burst LTP
+- PubMed: Bliss Lomo 1973; Collingridge 1983 NMDA LTP
+
+**候选论文**：~30 篇（通过 esearch/esummary API 检索）
+
+**采用来源（9篇）**：
+| PMID | 作者 | 年份 | 全文 | 用途 |
+|------|------|------|------|------|
+| 22510460 | Lüscher & Malenka | 2012 | PMC3367554 ✅ | LTP/LTD 核心综述 |
+| 30037851 | Hansen KB et al. | 2018 | PMC6080888 ✅ | NMDA 受体结构功能综述 |
+| 30359599 | Diering & Huganir | 2018 | PMC6214363 ✅ | AMPA 受体代码综述 |
+| 34271016 | Díaz-Alonso & Nicoll | 2021 | PMC9122021 ✅ | AMPA 受体运输与 TARP |
+| 34908526 | Tao W et al. | 2021 | PMC8798046 ✅ | CaMKII 维持 LTP（eLife 实验） |
+| 25452022 | Larson | 2015 | PMC4411212 ✅ | θ-burst LTP |
+| 26834568 | Frémaux & Gerstner | 2016 | PMC4717313 ✅ | 三因素学习规则综述 |
+| 4727084 | Bliss & Lømo | 1973 | ❌ 历史 | LTP 发现论文（摘要） |
+| 6306230 | Collingridge et al. | 1983 | ❌ 历史 | NMDA 受体对 LTP 必要性（摘要） |
+
+**排除来源**：
+- 多篇 2018-2026 年非开放全文综述（无法通过 PMC 获取全文）
+- ketamine 相关论文（与主题偏离）
+- 自闭症/神经发育相关论文（次要议题）
+
+---
+
+## 产出文件
+
+**情景层（新增）**：
+- `articles/2026-05-26-nmda-receptor-ltp.md`（约4800字，9来源，7全文）
+- `notes/2026-05-26-reading-notes.md`（7个来源的阅读笔记）
+- `sources/2026-05-26-sources.json`（9个来源的结构化元数据）
+
+**语义层（新建 wiki，5页）**：
+- `wiki/concepts/nmda-receptor.md`（NMDA 受体，established，高置信度）
+- `wiki/concepts/ltp.md`（长时程增强，established，高置信度）
+- `wiki/concepts/hebbian-learning.md`（Hebbian 学习，established，高置信度）
+- `wiki/concepts/ampa-receptor.md`（AMPA 受体，established，高置信度）
+- `wiki/neurons/camkii.md`（CaMKII，established，高置信度）
+
+**语义层（修订 wiki，2页）**：
+- `wiki/neurons/synaptic-transmission.md`：新增突触后受体层，revision_count 1→2
+- `wiki/neurons/action-potential.md`：补充 bAP/STDP/LTP 关联，revision_count 2→3
+
+**图谱与导航**：
+- `wiki/_graph.json`：节点 9→14，边 20→36，新增悬空引用 4 个
+- `wiki/index.md`：更新，新增 4 个 NEW 标记
+- `wiki/CHANGELOG.md`：新增 2026-05-26 节
+
+**治理层**：
+- `state/topic_ledger.json`：第 3 条记录
+- `state/unresolved_questions.md`：新增 5 个问题
+- `state/source_registry.json`：新增 9 个来源记录
+- `state/monthly_synthesis.md`：新增 Day 3 摘要和 4 条核心洞见
+- `state/maturity_index.json`：新增 5 个页面记录，更新 2 个已有记录
+
+---
+
+## 矛盾检查
+
+- 今日新证据与已有 wiki 主张无冲突。
+- `contested_claims.json` 中 C-2026-05-24-01 和 C-2026-05-25-01 均维持 open，未被今日证据裁决。
+
+---
+
+## 失败与限制
+
+- 无网络失败。
+- Bliss & Lømo 1973、Collingridge 1983 两篇历史基础论文无开放全文，使用摘要并明确标注。
+- 部分近年 NMDA 受体论文（如 2022 Hayashi Y Neuroscience Research 文章）无 PMC 全文，未纳入。
+- GluN2 亚型切换的发育机制、CaMKII 亚基交换的体内验证均为开放问题，文中明确标注不确定性。
+
+---
+
+## Git 状态
+
+- **分支**：claude/exciting-fermi-iySbo
+- **Push 状态**：待推送（推送后更新）
+- **目标**：推送至 claude/exciting-fermi-iySbo，再合并至 main
+
+---
+
+*日志结束*

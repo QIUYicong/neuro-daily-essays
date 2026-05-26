@@ -4,6 +4,39 @@
 
 ---
 
+## 2026-05-26
+
+**源文章**：[[2026-05-26-nmda-receptor-ltp]] —《NMDA 受体：突触的"巧合检测器"，以及大脑如何在神经元间刻写记忆》
+
+**新建页面（5）**：
+- `concepts/nmda-receptor.md`（NMDA 受体）🟢 established — 双重门控巧合检测器（谷氨酸 + 去极化解除 Mg²⁺），LTP 诱导的必要门卫，GluN2 亚型多样性决定时间整合窗口
+- `concepts/ltp.md`（长时程增强）🟢 established — 突触可塑性核心机制：NMDA→CaMKII→AMPA 受体插入→突触增强；填补此前悬空引用
+- `concepts/hebbian-learning.md`（Hebbian 学习）🟢 established — Hebb 规则的分子实现；三因素学习规则扩展；填补此前悬空引用
+- `concepts/ampa-receptor.md`（AMPA 受体）🟢 established — 快速 EPSP 执行者，GluA1 S831 磷酸化，LTP 期间大量插入，"突触权重"的物理载体
+- `neurons/camkii.md`（CaMKII）🟢 established — T286 自磷酸化实现"分子记忆翻转"；LTP 诱导和维持均必需（2021 关键实验）
+
+**修订页面（2）**：
+- `neurons/synaptic-transmission.md`：新增突触后受体层（AMPA/NMDA 的功能分工及其在 LTP 中的角色）；related/dimensions/key_sources 扩展；revision_count 1→2
+- `neurons/action-potential.md`：补充反向传播动作电位（bAP）在 STDP/LTP 中的作用；related 新增 nmda-receptor、ltp、hebbian-learning；revision_count 2→3
+
+**矛盾登记（0）**：今日新证据与既有主张无冲突。
+
+**悬空引用解决（2）**：
+- `ltp`（长时程增强）— 已建页面
+- `hebbian-learning`（Hebb 规则）— 已建页面
+
+**新增悬空引用（4）**：
+- `theta-oscillations`（θ振荡）— LTP 体内诱导节律
+- `engram-cells`（印迹细胞）— 记忆存储的细胞群体
+- `three-factor-learning-rule`（三因素学习规则）— Hebb × 多巴胺
+- `tarp-auxiliary-subunit`（TARP 辅助亚基）— AMPA 受体突触锚定关键
+
+**层级跨越**：今日首次从分子/突触层（前两天主题）跨入**认知层**——NMDA 受体巧合检测 → LTP → Hebb 学习 → 记忆的分子基础。
+
+**图谱**：节点 9→14，边 20→36。
+
+---
+
 ## 2026-05-25
 
 **源文章**：[[2026-05-25-synaptic-vesicle-exocytosis]] —《神经信号的化学渡口：钙离子如何在不到一毫秒内触发突触囊泡融合》

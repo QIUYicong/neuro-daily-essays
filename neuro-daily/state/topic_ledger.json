@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-25",
-  "total_articles": 2,
+  "last_updated": "2026-05-26",
+  "total_articles": 3,
   "entries": [
     {
       "date": "2026-05-24",
@@ -111,19 +111,85 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 2
+    },
+    {
+      "date": "2026-05-26",
+      "title": "NMDA 受体：突触的"巧合检测器"，以及大脑如何在神经元间刻写记忆",
+      "filename": "2026-05-26-nmda-receptor-ltp.md",
+      "wiki_pages_created": [
+        "wiki/concepts/nmda-receptor.md",
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/hebbian-learning.md",
+        "wiki/concepts/ampa-receptor.md",
+        "wiki/neurons/camkii.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/synaptic-transmission.md",
+        "wiki/neurons/action-potential.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "NMDA 受体如何同时感知"突触前活动"与"突触后去极化"，在单个突触处实现 Hebb 型巧合检测，并由此触发长时程增强（LTP）——这一突触可塑性机制如何奠定学习与记忆的分子基础？",
+      "layer": ["突触", "分子", "认知"],
+      "curriculum_track": "1. 神经元如何工作 → 4. 学习和记忆（桥接篇）",
+      "topic_tags": [
+        "NMDA receptor",
+        "LTP",
+        "long-term potentiation",
+        "coincidence detection",
+        "Hebbian learning",
+        "AMPA receptor",
+        "CaMKII",
+        "Mg2+ block",
+        "GluN2 subunits",
+        "AMPA receptor trafficking",
+        "silent synapse",
+        "theta-burst stimulation",
+        "STDP",
+        "three-factor learning rule",
+        "backpropagating action potential",
+        "synaptic weight",
+        "dendritic spine"
+      ],
+      "main_sources": [
+        "PMID:22510460 (PMC3367554)",
+        "PMID:30037851 (PMC6080888)",
+        "PMID:30359599 (PMC6214363)",
+        "PMID:34271016 (PMC9122021)",
+        "PMID:34908526 (PMC8798046)",
+        "PMID:25452022 (PMC4411212)",
+        "PMID:26834568 (PMC4717313)",
+        "PMID:4727084 (abstract only)",
+        "PMID:6306230 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "LTP 的终身维持机制（蛋白更新 vs CaMKII 亚基交换）",
+        "LTP 与行为记忆的一一对应关系",
+        "苔藓纤维 LTP 的突触前机制细节",
+        "GluN2 亚型切换的发育触发机制",
+        "Aβ 损害 LTP 的精确分子靶点"
+      ],
+      "next_suggested_topics": [
+        "LTD 的分子机制：磷酸酶、AMPA 受体内吞、mGluR-LTD",
+        "树突计算：NMDA 棘波，Ca²⁺ 棘波，单神经元的计算能力（填补 dendritic-computation 悬空引用）",
+        "海马回路：CA1/CA3/DG 的连接逻辑，空间记忆编码（中等层级跳跃）",
+        "短时程突触可塑性：突触抑制和易化（中等层级，填补知识链路）",
+        "多巴胺系统与奖励学习（较大层级跳跃，连接 Hebb 规则与强化学习）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 3
     }
   ],
   "layer_coverage_recent": {
-    "molecular": ["2026-05-24", "2026-05-25"],
+    "molecular": ["2026-05-24", "2026-05-25", "2026-05-26"],
     "cellular": ["2026-05-24", "2026-05-25"],
-    "synaptic": ["2026-05-24", "2026-05-25"],
+    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26"],
     "microcircuit": [],
     "brain_region": [],
     "whole_brain_network": [],
     "behavior": [],
-    "cognition": [],
+    "cognition": ["2026-05-26"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "警告：已连续2天覆盖分子/细胞/突触层级。下一篇应优先转向不同层级（如微回路、脑区），或继续课程脊柱但通过选择新层级话题（如突触后信号，开始涉及认知层）。"
+  "layer_note": "今日（2026-05-26）首次进入认知层，通过 LTP/Hebb 规则将分子机制与学习/记忆认知功能明确连接。分子/突触层已覆盖 3 天，建议下一篇在课程脊柱中保持认知层（如海马回路、记忆巩固）或转向微回路层（树突计算、中间神经元多样性），避免继续停留在纯分子层。"
 }

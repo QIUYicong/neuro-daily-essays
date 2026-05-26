@@ -1,15 +1,15 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-25",
+  "last_updated": "2026-05-26",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
       "slug": "action-potential",
       "status": "established",
       "confidence": "high",
-      "supporting_sources": 2,
+      "supporting_sources": 3,
       "last_status_change": "2026-05-24",
-      "reason": "创建 2026-05-24。教科书级共识，多重独立验证（H-H 模型 70 年持续验证）。2026-05-25：修订，补充突触传递下游连接，无成熟度变化。"
+      "reason": "创建 2026-05-24。教科书级共识，多重独立验证（H-H 模型 70 年持续验证）。2026-05-25：修订，补充突触传递下游连接，无成熟度变化。2026-05-26：修订，补充 bAP 在 STDP/LTP 中的作用，新增 nmda-receptor/ltp/hebbian-learning 连接。"
     },
     {
       "slug": "axon-initial-segment",
@@ -47,9 +47,9 @@
       "slug": "synaptic-transmission",
       "status": "established",
       "confidence": "high",
-      "supporting_sources": 6,
+      "supporting_sources": 8,
       "last_status_change": "2026-05-25",
-      "reason": "创建 2026-05-25。化学突触传递机制有Nobel Prize级证据支持（Südhof 2013）；SNARE蛋白、Synaptotagmin功能经多物种、多方法独立验证。注：SNARE就绪态分子模型存在争议（见 contested_claims C-2026-05-25-01）。"
+      "reason": "创建 2026-05-25。化学突触传递机制有Nobel Prize级证据支持（Südhof 2013）；2026-05-26 修订增加突触后受体（AMPA/NMDA）及 LTP 关联内容，丰富了后突触侧机制描述，无成熟度变化。注：SNARE就绪态分子模型存在争议（见 contested_claims C-2026-05-25-01）。"
     },
     {
       "slug": "SNARE-complex",
@@ -74,6 +74,46 @@
       "supporting_sources": 3,
       "last_status_change": "2026-05-25",
       "reason": "创建 2026-05-25。活动区骨架蛋白（RIM/CAST/Bassoon等）功能由遗传+超分辨成像+电生理多维证实。钙通道-囊泡距离多样性数据来自多个突触类型研究。"
+    },
+    {
+      "slug": "nmda-receptor",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-26",
+      "reason": "创建 2026-05-26。NMDA 受体结构（GluN1/GluN2 四聚体）、双重门控（Mg²⁺ 阻断 + 配体结合）、Ca²⁺ 通透性等均有晶体/冷冻电镜 + 电生理 + 遗传多维验证。GluN2 亚型多样性和 Mg²⁺ 阻断机制有精确的定量数据（IC₅₀、衰减时间常数）。LTP 诱导必需性有经典的 AP5 阻断实验确立。"
+    },
+    {
+      "slug": "ltp",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-05-26",
+      "reason": "创建 2026-05-26。CA1 LTP 机制（NMDA→CaMKII→AMPA 插入）有多重独立证据（MK-801 法、PPF 测量、单通道分析、沉默突触实验）。LTP 与苔藓纤维 LTP 的机制差异已确立。CaMKII 维持 LTP 的必要性有 2021 eLife 实验支持。L-LTP 的蛋白合成依赖性是 mainstream 而非 speculative，但长期维持机制（数十年）仍有争议。整体置信度高，但有若干开放问题。"
+    },
+    {
+      "slug": "hebbian-learning",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-26",
+      "reason": "创建 2026-05-26。Hebb 规则由 NMDA 受体的双重门控机制在分子层面精确实现，这是 established。STDP 的时间依赖性规律由大量实验证实。三因素学习规则（Hebb × 多巴胺）的理论框架为 emerging-mainstream，实验证据中等。"
+    },
+    {
+      "slug": "ampa-receptor",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-26",
+      "reason": "创建 2026-05-26。AMPA 受体作为快速兴奋突触传递执行者是教科书级共识。LTP 期间 AMPA 受体插入的证据来自多种独立方法（静默突触、电流比例分析、单通道记录）。GluA1/GluA2 的功能差异和 TARP 锚定机制有充分的分子证据。"
+    },
+    {
+      "slug": "camkii",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-26",
+      "reason": "创建 2026-05-26。CaMKII 在 LTP 诱导中的作用是经典共识（T286A 突变消除 LTP，多实验室独立验证）。CaMKII 在 LTP 维持中的必要性由 2021 Tao et al.（eLife）提供新实验支持，但亚基交换机制（长期维持解释）尚未体内验证，属 emerging。总体置信度高，但长期维持机制有开放问题。"
     }
   ]
 }

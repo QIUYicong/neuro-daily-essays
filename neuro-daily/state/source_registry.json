@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25",
+  "last_updated": "2026-05-26",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -134,6 +134,107 @@
       "full_text_available": false,
       "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
       "aspects_covered": ["classic vesicle cycle overview", "Rab3 function", "Munc18-1", "general synaptotagmin calcium sensor role"]
+    },
+    {
+      "pmid": "22510460",
+      "pmcid": "PMC3367554",
+      "title": "NMDA receptor-dependent long-term potentiation and long-term depression (LTP/LTD)",
+      "authors_short": "Lüscher C, Malenka RC",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2012,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["LTP induction mechanism", "LTD induction mechanism", "NMDA receptor as LTP gatekeeper", "CaMKII role", "AMPA receptor trafficking", "silent synapse", "spine morphology in LTP", "postsynaptic locus evidence (MK-801, PPF, astrocyte transporter)", "Abeta and AD LTP impairment"]
+    },
+    {
+      "pmid": "30037851",
+      "pmcid": "PMC6080888",
+      "title": "Structure, function, and allosteric modulation of NMDA receptors",
+      "authors_short": "Hansen KB et al.",
+      "journal": "Journal of General Physiology",
+      "year": 2018,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["GluN1/GluN2 tetrameric structure", "Mg2+ block IC50 values", "Ca2+ permeability", "GluN2 subunit diversity (decay kinetics, open probability)", "glycine/D-serine co-agonist", "SYTANLAAF gating motif", "Zn2+ modulation", "triheteromeric receptors"]
+    },
+    {
+      "pmid": "30359599",
+      "pmcid": "PMC6214363",
+      "title": "The AMPA Receptor Code of Synaptic Plasticity",
+      "authors_short": "Diering GH, Huganir RL",
+      "journal": "Neuron",
+      "year": 2018,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["GluA1-4 subunit roles", "GluA1 S831 CaMKII phosphorylation", "long C-tail vs short C-tail trafficking rules", "LTP requires GluA1", "GluA4 developmental expression", "GluA2-lacking Ca2+-permeable AMPARs"]
+    },
+    {
+      "pmid": "34271016",
+      "pmcid": "PMC9122021",
+      "title": "AMPA receptor trafficking and LTP: Carboxy-termini, amino-termini and TARPs",
+      "authors_short": "Díaz-Alonso J, Nicoll RA",
+      "journal": "Neuropharmacology",
+      "year": 2021,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["TARP Stargazin PDZ interaction with PSD-95", "synaptic slots model", "lateral diffusion from exocytosis to PSD", "GluA1 ATD extracellular interactions", "CaMKII occupies LTP mechanism"]
+    },
+    {
+      "pmid": "34908526",
+      "pmcid": "PMC8798046",
+      "title": "Synaptic memory requires CaMKII",
+      "authors_short": "Tao W et al.",
+      "journal": "eLife",
+      "year": 2021,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["CaMKII required for LTP maintenance (not just induction)", "myr-CN27 inhibitor reverses established LTP", "constitutive CaMKII activity (~50% baseline AMPAR)", "NMDAR-dependency of CaMKII effect", "T286 autophosphorylation", "subunit exchange hypothesis"]
+    },
+    {
+      "pmid": "25452022",
+      "pmcid": "PMC4411212",
+      "title": "Theta-burst LTP",
+      "authors_short": "Larson J, Bhatt DL",
+      "journal": "Brain Research",
+      "year": 2015,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["theta-burst stimulation protocol", "TBS vs HFS efficiency comparison", "theta oscillation as natural LTP induction rhythm", "GABA-B autoreceptor timing window"]
+    },
+    {
+      "pmid": "26834568",
+      "pmcid": "PMC4717313",
+      "title": "Neuromodulated Spike-Timing-Dependent Plasticity, and Theory of Three-Factor Learning Rules",
+      "authors_short": "Frémaux N, Gerstner W",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2016,
+      "first_used": "2026-05-26",
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["three-factor learning rule framework", "dopamine as third factor in STDP", "bridge between Hebbian rule and reinforcement learning", "neuromodulator timing requirements"]
+    },
+    {
+      "pmid": "4727084",
+      "pmcid": null,
+      "title": "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+      "authors_short": "Bliss TV, Lømo T",
+      "journal": "Journal of Physiology",
+      "year": 1973,
+      "first_used": "2026-05-26",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["LTP discovery", "first demonstration of long-lasting synaptic enhancement by high-frequency stimulation", "dentate gyrus", "perforant path"]
+    },
+    {
+      "pmid": "6306230",
+      "pmcid": null,
+      "title": "Excitatory amino acids in synaptic transmission in the Schaffer collateral-commissural pathway of the rat hippocampus",
+      "authors_short": "Collingridge GL, Kehl SJ, McLennan H",
+      "journal": "Journal of Physiology",
+      "year": 1983,
+      "first_used": "2026-05-26",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
+      "aspects_covered": ["NMDA receptor required for LTP", "AP5 block abolishes LTP while preserving baseline transmission", "Schaffer collateral CA1 LTP"]
     }
   ]
 }

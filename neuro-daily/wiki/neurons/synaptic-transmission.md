@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-25
-updated: 2026-05-25
-revision_count: 1
-dimensions: [synaptic, cellular, molecular]
-related: [action-potential, SNARE-complex, synaptotagmin, active-zone, neurotransmitter-receptor, axon-initial-segment]
+updated: 2026-05-26
+revision_count: 2
+dimensions: [synaptic, cellular, molecular, cognition]
+related: [action-potential, SNARE-complex, synaptotagmin, active-zone, neurotransmitter-receptor, axon-initial-segment, nmda-receptor, ampa-receptor, ltp]
 prerequisites: [action-potential, voltage-gated-calcium-channel]
 opens_questions: [Q-snare-partial-zipper, Q-kiss-and-run-prevalence, Q-vesicle-recycling-kinetics]
-source_articles: [2026-05-25-synaptic-vesicle-exocytosis]
-key_sources: ["PMID:22068972", "PMID:22026965", "PMID:23060190"]
+source_articles: [2026-05-25-synaptic-vesicle-exocytosis, 2026-05-26-nmda-receptor-ltp]
+key_sources: ["PMID:22068972", "PMID:22026965", "PMID:23060190", "PMID:22510460", "PMID:30037851"]
 ---
 
 # 突触传递 (Synaptic Transmission)
@@ -66,6 +66,15 @@ key_sources: ["PMID:22068972", "PMID:22026965", "PMID:23060190"]
 | 活动区脚手架决定释放效率而非融合能力 | RIM+ELKS双敲除鼠 | PMID:27537483 | 高 |
 | 约3个SNARE复合体足以触发单次融合 | 计算模型 + 单分子实验 | PMID:23060190; PMID:37891212 | 中 |
 
+### 突触后层（受体接收与可塑性，2026-05-26 新增）
+
+突触后侧主要有两类谷氨酸受体共同参与快速兴奋突触传递：
+
+- **AMPA 受体（[[ampa-receptor]]）**：快速、无电压依赖性阻断，产生 EPSP 的主要贡献者；衰减时间约 2–5 ms；数量决定突触传递强度，LTP 期间大量插入。
+- **NMDA 受体（[[nmda-receptor]]）**：需要谷氨酸 + 甘氨酸 + 突触后去极化（解除 Mg²⁺ 阻断），Ca²⁺ 高度通透，是突触可塑性（LTP/LTD）的触发器。衰减时间约 40–400 ms（取决于 GluN2 亚型）。
+
+这两类受体共同构成了突触传递的接收端：AMPA 受体负责"当下"的快速传递，NMDA 受体负责"可塑性"的时间判断。突触传递效率（"突触权重"）在 LTP/LTD 中由突触后 AMPA 受体的数量动态调节。
+
 ## 连接
 
 - [[action-potential]] — 触发突触传递的电信号
@@ -73,6 +82,9 @@ key_sources: ["PMID:22068972", "PMID:22026965", "PMID:23060190"]
 - [[synaptotagmin]] — 钙传感器，触发融合的分子开关
 - [[active-zone]] — 突触前终末的纳米级发射平台
 - [[axon-initial-segment]] — 产生动作电位的位点，突触传递的上游
+- [[nmda-receptor]] — 突触后谷氨酸受体，巧合检测器，触发 LTP/LTD
+- [[ampa-receptor]] — 突触后谷氨酸受体，快速 EPSP 产生者，突触权重的物理实现
+- [[ltp]] — 突触传递的可塑性形态，通过 AMPA 受体动态调节实现
 
 ## 未解问题
 
@@ -83,6 +95,7 @@ key_sources: ["PMID:22068972", "PMID:22026965", "PMID:23060190"]
 ## 修订历史
 
 - 2026-05-25 · 创建 · 基于《神经信号的化学渡口》一文 · 初始置信度：高（多篇诺贝尔奖相关研究支持）
+- 2026-05-26 · 修订 · 新增突触后受体层（AMPA/NMDA 受体）及其在 LTP 中的角色；related 字段扩展；dimensions 新增 cognition · 来源：《NMDA 受体：突触的巧合检测器》
 
 ## 来源文章
 
