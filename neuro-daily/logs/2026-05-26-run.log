@@ -105,9 +105,11 @@
 
 ## Git 状态
 
-- **分支**：claude/exciting-fermi-iySbo
-- **Push 状态**：待推送（推送后更新）
-- **目标**：推送至 claude/exciting-fermi-iySbo，再合并至 main
+- **分支**：claude/exciting-fermi-iySbo（工作）→ main（合并）
+- **Commit hash（工作分支）**：e552596
+- **Commit hash（main 合并）**：698afdf
+- **Push 状态**：✅ 成功推送至 claude/exciting-fermi-iySbo 和 main
+- **main URL**：https://github.com/QIUYicong/neuro-daily-essays/tree/main
 
 ---
 
