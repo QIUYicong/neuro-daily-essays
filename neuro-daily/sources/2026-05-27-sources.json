@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-27",
+  "article": "2026-05-27-dendritic-computation.md",
+  "topic": "树突计算：NMDA 棘波与 Ca²⁺ 棘波",
+  "sources_count": 10,
+  "open_fulltext_count": 3,
+  "abstract_only_count": 7,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "26167906",
+      "pmcid": "PMC4888374",
+      "title": "Conjunctive input processing drives feature selectivity in hippocampal CA1 neurons",
+      "authors": ["Bittner KC", "Grienberger C", "Vaidya SP", "Milstein AD", "Macklin JJ", "Suh J", "Tonegawa S", "Magee JC"],
+      "journal": "Nature Neuroscience",
+      "year": 2015,
+      "doi": "10.1038/nn.4062",
+      "access_status": "open_fulltext",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4888374/",
+      "coverage": ["海马 CA1 树突平台电位", "场所场快速形成", "NMDA 受体依赖的空间记忆编码", "EC3 × CA3 输入的联合触发"],
+      "key_finding": "CA1 树突平台电位由 EC3 与 CA3 联合输入触发，单次经历即可诱导场所场，93% 神经元成功率，NMDA 受体阻断减少平台电位概率"
+    },
+    {
+      "id": "S2",
+      "pmid": "26605882",
+      "pmcid": "PMC6777373",
+      "title": "Dendritic integration: 60 years of progress",
+      "authors": ["Stuart GJ", "Spruston N"],
+      "journal": "Nature Neuroscience",
+      "year": 2015,
+      "doi": "10.1038/nn.4150",
+      "access_status": "pmc_accessible",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6777373/",
+      "coverage": ["被动电缆理论历史", "NMDA 棘波机制综述", "Ca²⁺ 棘波机制综述", "体内树突棘波证据", "突触聚类争议"],
+      "key_finding": "60年综述：树突从被动电缆到主动计算单元；NMDA 棘波需~10个相邻突触同步，持续 50-200 ms；体内实验越来越多支持树突计算的行为意义"
+    },
+    {
+      "id": "S3",
+      "pmid": "24162850",
+      "pmcid": "PMC6319606",
+      "title": "Dendritic spikes enhance stimulus selectivity in cortical neurons in vivo",
+      "authors": ["Smith SL", "Smith IT", "Branco T", "Häusser M"],
+      "journal": "Nature",
+      "year": 2013,
+      "doi": "10.1038/nature12600",
+      "access_status": "open_fulltext",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6319606/",
+      "coverage": ["体内视觉皮层树突棘波", "朝向选择性与树突棘波的关系", "NMDA 受体阻断效果", "清醒 vs 麻醉动物对比"],
+      "key_finding": "视觉皮层 L2/3 在体直接记录：视觉刺激触发朝向调谐的 NMDA 依赖性树突棘波；MK-801 使 OSI 从 0.82±0.12 降至 0.45±0.17 (p=0.016)"
+    },
+    {
+      "id": "S4",
+      "pmid": "10749211",
+      "pmcid": null,
+      "title": "NMDA spikes in basal dendrites of cortical pyramidal neurons",
+      "authors": ["Schiller J", "Major G", "Koester HJ", "Schiller Y"],
+      "journal": "Nature",
+      "year": 2000,
+      "doi": "10.1038/35005094",
+      "access_status": "abstract_only",
+      "coverage": ["基底树突 NMDA 棘波首次直接证明", "NMDA 受体贡献 ≥80% 离子电荷", "胞体响应 226% 超线性预测"],
+      "key_finding": "首次在皮层锥体神经元基底树突上直接记录 NMDA 棘波；NMDA 受体介导棘波的 ≥80% 离子电荷；提出动态棘波触发区概念"
+    },
+    {
+      "id": "S5",
+      "pmid": "15156147",
+      "pmcid": null,
+      "title": "Computational subunits in thin dendrites of pyramidal cells",
+      "authors": ["Polsky A", "Mel BW", "Schiller J"],
+      "journal": "Nature Neuroscience",
+      "year": 2004,
+      "doi": "10.1038/nn1253",
+      "access_status": "abstract_only",
+      "coverage": ["两层神经网络模型实验证据", "同分支 sigmoid 整合", "不同分支线性叠加"],
+      "key_finding": "双位点局灶刺激实验：同一分支相邻输入 → sigmoid 整合（NMDA 棘波特征）；不同分支或远端输入 → 线性叠加；首次实验验证两层神经网络模型"
+    },
+    {
+      "id": "S6",
+      "pmid": "19661433",
+      "pmcid": null,
+      "title": "Synaptic integration in tuft dendrites of layer 5 pyramidal neurons: a new unifying principle",
+      "authors": ["Larkum ME", "Nevian T", "Sandler M", "Polsky A", "Schiller J"],
+      "journal": "Science",
+      "year": 2009,
+      "doi": "10.1126/science.1171958",
+      "access_status": "abstract_only",
+      "coverage": ["L5 锥体细胞顶端 tuft 中的 NMDA 棘波", "统一原则：所有树突区域通过 NMDA 受体整合"],
+      "key_finding": "L5 锥体细胞顶端 tuft 中存在 NMDA 棘波（非仅 Ca²⁺ 棘波）；提出统一模型：NMDA 受体是所有树突区域整合的共同机制"
+    },
+    {
+      "id": "S7",
+      "pmid": "23841837",
+      "pmcid": null,
+      "title": "Active properties of neocortical pyramidal neuron dendrites",
+      "authors": ["Major G", "Larkum ME", "Schiller J"],
+      "journal": "Annual Review of Neuroscience",
+      "year": 2013,
+      "doi": "10.1146/annurev-neuro-062111-150343",
+      "access_status": "abstract_only",
+      "coverage": ["NMDA 受体作为细薄树突主要非线性驱动力", "树突分支作为动态计算亚单元", "活跃网络状态对树突 I-O 的影响"],
+      "key_finding": "综述强调 NMDA 受体是细薄树突中主要非线性去极化驱动，树突分支是动态计算亚单元，背景活动动态改变整合特性"
+    },
+    {
+      "id": "S8",
+      "pmid": "16033324",
+      "pmcid": null,
+      "title": "Dendritic computation",
+      "authors": ["London M", "Häusser M"],
+      "journal": "Annual Review of Neuroscience",
+      "year": 2005,
+      "doi": "10.1146/annurev.neuro.28.061604.135703",
+      "access_status": "abstract_only",
+      "coverage": ["树突计算概念框架定义", "线性 vs 非线性整合分类", "树突特性与网络功能的关系"],
+      "key_finding": "经典综述定义'树突计算'：树突具有线性和非线性两类机制，可实现基本计算；树突特性对神经和网络级信息处理必不可少"
+    },
+    {
+      "id": "S9",
+      "pmid": "20800473",
+      "pmcid": null,
+      "title": "The single dendritic branch as a fundamental functional unit in the nervous system",
+      "authors": ["Branco T", "Häusser M"],
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2010,
+      "doi": "10.1016/j.conb.2010.07.009",
+      "access_status": "abstract_only",
+      "coverage": ["单根树突分支作为基本功能单位", "局部蛋白质合成", "局部突触可塑性", "局部神经递质释放"],
+      "key_finding": "综述提出单根树突分支是神经系统的基本功能单位，不只是信号收集者，而是自主的计算、可塑性、蛋白质合成单元"
+    },
+    {
+      "id": "S10",
+      "pmid": "32393820",
+      "pmcid": null,
+      "title": "Illuminating dendritic function with computational models",
+      "authors": ["Poirazi P", "Papoutsi A"],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2020,
+      "doi": "10.1038/s41583-020-0301-7",
+      "access_status": "abstract_only",
+      "coverage": ["树突计算模型历史", "计算模型对实验的驱动", "对机器学习和 AI 的启示"],
+      "key_finding": "综述树突计算建模 60 年历史；计算模型不断驱动实验发现；树突计算原理正被引入机器学习架构"
+    }
+  ],
+  "additional_open_access_found_not_used": [
+    {
+      "pmid": "34715026",
+      "pmcid": "PMC8691952",
+      "title": "A synaptic learning rule for exploiting nonlinear dendritic computation",
+      "authors": ["Bicknell BA", "Häusser M"],
+      "journal": "Neuron",
+      "year": 2021,
+      "note": "从树突电缆理论推导出利用树突非线性的学习规则，与 AI/ML 对照相关"
+    },
+    {
+      "pmid": "19776275",
+      "pmcid": "PMC3850222",
+      "title": "Encoding and decoding bursts by NMDA spikes in basal dendrites of cortical pyramidal neurons",
+      "authors": ["Polsky A", "Mel B", "Schiller J"],
+      "journal": "Journal of Neuroscience",
+      "year": 2009,
+      "note": "NMDA 棘波通过残余谷氨酸结合被高频输入易化，并触发爆发放电——爆发编码与树突棘波的连接"
+    }
+  ]
+}

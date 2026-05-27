@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-05-26
-revision_count: 1
-dimensions: [molecular, synaptic, cognition]
-related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii]
+updated: 2026-05-27
+revision_count: 2
+dimensions: [molecular, synaptic, cellular, cognition]
+related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron]
 prerequisites: [synaptic-transmission, action-potential, membrane-potential]
 opens_questions: [Q-nmda-coincidence-window, Q-glun2-switch-development, Q-nmda-alzheimer]
-source_articles: [2026-05-26-nmda-receptor-ltp]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation]
 key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230"]
 ---
 
@@ -66,15 +66,27 @@ GluN2B 在幼年期高表达，其更长的衰减时间常数意味着更宽的�
 | GluN2 亚型决定衰减动力学（多达 100 倍差异） | 单通道电生理 + 遗传操控 | PMID:30037851 (PMC6080888) | 高 |
 | Ca²⁺ 浓度区分 LTP vs LTD | 低频→磷酸酶 LTD；高频→CaMKII LTP 通路 | PMID:22510460 (PMC3367554) | 高 |
 | NMDA 受体 GluN1/2A IC₅₀ ≈ 2 µM at –100 mV | 电生理 Mg²⁺ 剂量-反应曲线 | PMID:30037851 (PMC6080888) | 高 |
+| 体内视觉皮层：NMDA 受体阻断使朝向选择性指数从 0.82 降至 0.45 | 小鼠 V1 in vivo patch-clamp + 细胞内 MK-801 | PMID:24162850 (PMC6319606) | 高 |
+| 细薄树突 NMDA 棘波：NMDA 受体贡献 ≥80% 离子电荷，胞体响应超线性 226% | 大鼠皮层脑片，焦点刺激 + 膜片钳 | PMID:10749211 | 高 |
+
+## NMDA 受体的双重身份
+
+今日修订（2026-05-27）新增重要概念：NMDA 受体在细胞层面有**两种截然不同的功能角色**，服务于不同的时空尺度：
+
+1. **突触层面巧合检测器（单突触 LTP）**：在单个树突棘的突触水平，作为前文（2026-05-26）描述的 Hebb 型学习门卫——同时需要谷氨酸（突触前）和去极化（突触后）。
+2. **树突分支层面计算单元（NMDA 棘波）**：当一个树突分支上的多个 NMDA 受体同时激活时，形成再生性正反馈，产生持续 50–200 ms 的"NMDA 棘波"——这是高出单突触贡献许多倍的、全分支层面的非线性整合事件，使该分支成为独立的 sigmoid 计算单元。
+
+这两个功能使用同一分子，但在空间尺度（单突触 vs 整分支）和时间尺度（毫秒 vs 数百毫秒）上都不同。它们分别对应"突触强度调整"和"分支计算"两个层次的信息处理。
 
 ## 连接
 
-- [[ltp]] — NMDA 受体是 LTP 诱导的必要门卫
+- [[ltp]] — NMDA 受体是 LTP 诱导的必要门卫（单突触层面）
 - [[ampa-receptor]] — Ca²⁺ 内流后 AMPA 受体大量插入突触是 LTP 的主要表达机制
 - [[camkii]] — Ca²⁺ 内流激活 CaMKII 是 LTP 诱导的第一步下游信号
 - [[hebbian-learning]] — NMDA 受体双重门控在分子层面实现 Hebb 规则
 - [[synaptic-transmission]] — NMDA 受体是突触传递中谷氨酸信号的重要接受者
 - [[calcium-channel]] — 与电压门控 Ca²⁺ 通道同为突触 Ca²⁺ 内流的重要来源（但机制不同）
+- [[dendritic-computation]] — NMDA 受体是树突 NMDA 棘波的核心机器，使单根树突分支成为独立计算单元
 
 ## 未解问题
 
@@ -85,7 +97,9 @@ GluN2B 在幼年期高表达，其更长的衰减时间常数意味着更宽的�
 ## 修订历史
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
+- 2026-05-27 · 修订 · 基于《树突：神经元内部的神经网络》一文 · 新增"NMDA 受体的双重身份"概念（突触层面巧合检测器 vs 分支层面 NMDA 棘波计算单元）；关键证据表新增 Smith 2013 体内视觉皮层证据 + Schiller 2000 NMDA 棘波证据；连接新增 dendritic-computation；dimensions 新增 cellular
 
 ## 来源文章
 
 - [[2026-05-26-nmda-receptor-ltp]]
+- [[2026-05-27-dendritic-computation]]

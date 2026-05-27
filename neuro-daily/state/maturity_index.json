@@ -114,6 +114,38 @@
       "supporting_sources": 3,
       "last_status_change": "2026-05-26",
       "reason": "创建 2026-05-26。CaMKII 在 LTP 诱导中的作用是经典共识（T286A 突变消除 LTP，多实验室独立验证）。CaMKII 在 LTP 维持中的必要性由 2021 Tao et al.（eLife）提供新实验支持，但亚基交换机制（长期维持解释）尚未体内验证，属 emerging。总体置信度高，但长期维持机制有开放问题。"
+    },
+    {
+      "slug": "dendritic-computation",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-05-27",
+      "reason": "创建 2026-05-27。离体 NMDA 棘波（Schiller 2000，Polsky 2004）有多实验室独立验证；体内证据（Smith 2013 视觉皮层、Bittner 2015 海马场所场）强有力；两层神经网络模型实验支持充分。悬空引用：突触聚类假说尚有争议，是主要的不确定因素，但不影响整体 established 状态。"
+    },
+    {
+      "slug": "pyramidal-neuron",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-27",
+      "reason": "创建 2026-05-27。锥体神经元的形态特征（顶端树突、基底树突、树突棘）和层次分层是神经解剖学教科书级事实。L5 PC 的顶端 Ca²⁺ 棘波（Larkum 1999/2009）有多重独立实验证实。不同层次锥体细胞的差异性功能是 mainstream 共识。"
+    },
+    {
+      "slug": "nmda-receptor",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 7,
+      "last_status_change": "2026-05-27",
+      "reason": "修订 2026-05-27（原 2026-05-26 创建）。新增'树突棘波'维度：NMDA 受体的再生性正反馈在树突细薄分支上产生 NMDA 棘波，与原有'突触 LTP 门卫'功能并存。两个功能使用同一分子，但空间（单突触 vs 整分支）和时间（ms vs 100-200 ms）尺度不同。体内视觉皮层证据（OSI 0.82→0.45）加强了置信度。"
+    },
+    {
+      "slug": "hodgkin-huxley-model",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-27",
+      "reason": "修订 2026-05-27（元数据更新）：[[树突计算]] 页面已建立，此前悬空引用填补。无成熟度变化。"
     }
   ]
 }

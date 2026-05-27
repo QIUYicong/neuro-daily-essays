@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-26",
+  "last_updated": "2026-05-27",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -235,6 +235,126 @@
       "full_text_available": false,
       "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
       "aspects_covered": ["NMDA receptor required for LTP", "AP5 block abolishes LTP while preserving baseline transmission", "Schaffer collateral CA1 LTP"]
+    },
+    {
+      "pmid": "26167906",
+      "pmcid": "PMC4888374",
+      "title": "Conjunctive input processing drives feature selectivity in hippocampal CA1 neurons",
+      "authors_short": "Bittner et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2015,
+      "first_used": "2026-05-27",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["hippocampal CA1 dendritic plateau potentials", "place field formation", "conjunctive EC3 × CA3 inputs", "NMDA receptor dependence", "one-shot learning"]
+    },
+    {
+      "pmid": "26605882",
+      "pmcid": "PMC6777373",
+      "title": "Dendritic integration: 60 years of progress",
+      "authors_short": "Stuart GJ, Spruston N",
+      "journal": "Nature Neuroscience",
+      "year": 2015,
+      "first_used": "2026-05-27",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["passive cable theory history", "NMDA spikes mechanism", "Ca2+ spikes mechanism", "in vivo evidence", "synaptic clustering debate", "60-year review"]
+    },
+    {
+      "pmid": "24162850",
+      "pmcid": "PMC6319606",
+      "title": "Dendritic spikes enhance stimulus selectivity in cortical neurons in vivo",
+      "authors_short": "Smith SL, Smith IT, Branco T, Häusser M",
+      "journal": "Nature",
+      "year": 2013,
+      "first_used": "2026-05-27",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["in vivo dendritic spikes", "orientation selectivity", "NMDA receptor dependence in vivo", "visual cortex L2/3", "awake and anesthetized mice"]
+    },
+    {
+      "pmid": "10749211",
+      "pmcid": null,
+      "title": "NMDA spikes in basal dendrites of cortical pyramidal neurons",
+      "authors_short": "Schiller J, Major G, Koester HJ, Schiller Y",
+      "journal": "Nature",
+      "year": 2000,
+      "first_used": "2026-05-27",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["first direct demonstration of NMDA spikes", "basal dendrites", "NMDA receptor ≥80% ionic charge", "226% supralinear somatic response"]
+    },
+    {
+      "pmid": "15156147",
+      "pmcid": null,
+      "title": "Computational subunits in thin dendrites of pyramidal cells",
+      "authors_short": "Polsky A, Mel BW, Schiller J",
+      "journal": "Nature Neuroscience",
+      "year": 2004,
+      "first_used": "2026-05-27",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["two-layer neural network model experimental evidence", "sigmoid integration within branch", "linear summation across branches", "spatial compartmentalization"]
+    },
+    {
+      "pmid": "19661433",
+      "pmcid": null,
+      "title": "Synaptic integration in tuft dendrites of layer 5 pyramidal neurons: a new unifying principle",
+      "authors_short": "Larkum ME et al.",
+      "journal": "Science",
+      "year": 2009,
+      "first_used": "2026-05-27",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["L5 PC tuft NMDA spikes", "unifying principle for dendritic integration", "apical tuft integration"]
+    },
+    {
+      "pmid": "23841837",
+      "pmcid": null,
+      "title": "Active properties of neocortical pyramidal neuron dendrites",
+      "authors_short": "Major G, Larkum ME, Schiller J",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2013,
+      "first_used": "2026-05-27",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["NMDA receptor as major nonlinear drive in thin dendrites", "dendritic branches as dynamic computational subunits", "active network state effects"]
+    },
+    {
+      "pmid": "16033324",
+      "pmcid": null,
+      "title": "Dendritic computation",
+      "authors_short": "London M, Häusser M",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2005,
+      "first_used": "2026-05-27",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["dendritic computation conceptual framework", "linear vs nonlinear integration", "dendrites essential for network computation"]
+    },
+    {
+      "pmid": "20800473",
+      "pmcid": null,
+      "title": "The single dendritic branch as a fundamental functional unit in the nervous system",
+      "authors_short": "Branco T, Häusser M",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2010,
+      "first_used": "2026-05-27",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["single dendritic branch as functional unit", "local protein synthesis", "local plasticity", "local transmitter release"]
+    },
+    {
+      "pmid": "32393820",
+      "pmcid": null,
+      "title": "Illuminating dendritic function with computational models",
+      "authors_short": "Poirazi P, Papoutsi A",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2020,
+      "first_used": "2026-05-27",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
+      "aspects_covered": ["dendritic computation modeling history", "theory-experiment feedback loop", "AI/ML implications"]
     }
   ]
 }

@@ -1,0 +1,104 @@
+# 运行日志 2026-05-27
+
+**运行时间**：2026-05-27（UTC+8 北京时间）
+**文章编号**：第 4 篇
+**分支**：main
+**状态**：[待更新—commit/push 后填写]
+
+---
+
+## 检索策略
+
+### 搜索词
+1. "dendritic computation NMDA spike review" — PubMed, PMC
+2. "London Hausser dendritic computation 2005" — PubMed
+3. "Stuart Spruston dendritic integration 2015" — PubMed
+4. "Schiller 2000 NMDA dendritic spike" — PubMed
+5. "Polsky 2004 computational subunits thin dendrites pyramidal cells" — PubMed
+6. "Larkum 2009 dendritic calcium spike cortical neuron" — PubMed
+7. "Bittner 2015 place field hippocampal CA1 dendritic plateau" — PubMed
+8. "Poirazi 2020 Nat Rev Neurosci dendritic" — PubMed
+9. "dendritic NMDA spike pyramidal neuron calcium spike" — Europe PMC
+10. 补充后台代理（claude general-purpose）：parallel search for dendritic computation papers
+
+### 数据源
+- PubMed (E-utilities API): 检索 PMIDs
+- PMC (pmc.ncbi.nlm.nih.gov): 检索开放全文
+- Europe PMC (API): 检索开放获取状态
+- 后台代理：深度搜索，发现额外开放全文
+
+---
+
+## 候选来源汇总
+
+| PMID | 标题 | 开放全文 | 采用/排除 | 原因 |
+|------|------|---------|----------|------|
+| 26167906 (PMC4888374) | Bittner 2015: CA1 plateau potentials | ✓ | 采用 | 最强体内证据，CA1 场所场形成 |
+| 26605882 (PMC6777373) | Stuart & Spruston 2015: 60 years | ✓ | 采用 | 权威综述，60年回顾 |
+| 24162850 (PMC6319606) | Smith 2013: V1 dendritic spikes in vivo | ✓ | 采用 | 视觉皮层体内证据 |
+| 10749211 | Schiller 2000: NMDA spikes | ✗ (abstract only) | 采用 | 奠基性实验，NMDA棘波首次直接证明 |
+| 15156147 | Polsky 2004: Two-layer neural network | ✗ (abstract only) | 采用 | 两层神经网络模型实验证据 |
+| 19661433 | Larkum 2009: Tuft NMDA spikes | ✗ (abstract only) | 采用 | L5 PC顶端tuft整合原则 |
+| 23841837 | Major 2013: Active dendritic properties | ✗ (abstract only) | 采用 | 综述：NMDA受体是细薄树突主要驱动 |
+| 16033324 | London & Häusser 2005 | ✗ (abstract only) | 采用 | 经典框架定义 |
+| 20800473 | Branco & Häusser 2010 | ✗ (abstract only) | 采用 | 单分支作为功能单位 |
+| 32393820 | Poirazi & Papoutsi 2020 | ✗ (abstract only) | 采用 | 计算模型综述，AI对照 |
+| 31611774 | Augusto & Gambino 2019 (Frontiers) | ✓ | 排除 | 内容已被其他来源充分覆盖 |
+| 34715026 (PMC8691952) | Bicknell & Häusser 2021 | ✓ | 排除 | 更专注于学习规则，与今日主题有重叠但次要 |
+| 19776275 (PMC3850222) | Polsky 2009: NMDA spike burst coding | ✓ | 排除（注记） | 相关但未用于正文，已记录在sources.json |
+
+---
+
+## 固结的 wiki 页面
+
+### 新建（2）
+1. `wiki/neurons/dendritic-computation.md` — 填补 hodgkin-huxley-model 的长期悬空引用
+2. `wiki/neurons/pyramidal-neuron.md` — 树突计算的主要载体
+
+### 修订（2）
+1. `wiki/concepts/nmda-receptor.md` — 新增"NMDA 受体的双重身份"（突触LTP门卫 vs 树突棘波主体），关键证据表扩展，revision_count 1→2
+2. `wiki/concepts/hodgkin-huxley-model.md` — 填补悬空引用，revision_count 1→2
+
+---
+
+## 矛盾检查结果
+
+无新矛盾。NMDA 受体的树突棘波功能是对已有突触LTP功能的**层级扩展**，而非冲突：
+- 旧主张：NMDA 受体在单突触 LTP 中作为巧合检测器（维持 established）
+- 新内容：NMDA 受体在树突分支层面形成再生性正反馈产生 NMDA 棘波（新维度，非冲突）
+
+两者使用同一分子，但空间和时间尺度不同，功能互补而非矛盾。
+
+---
+
+## 悬空引用变动
+
+### 填补（1）
+- `dendritic-computation` — 已建 `wiki/neurons/dendritic-computation.md`
+
+### 新增（3）
+- `place-cell` — 高优先级，海马场所场是今日文章的关键体内证据
+- `synaptic-clustering` — NMDA 棘波的必要条件，有争议，需专页
+- `apical-tuft` — L5 PC Ca²⁺ 棘波发生地
+
+---
+
+## 图谱变动
+
+- 节点：14 → 16（+2：dendritic-computation, pyramidal-neuron）
+- 边：36 → 50（+14 条新边）
+
+---
+
+## 推送状态
+
+- 本地 commit：[待填写]
+- push 到 main：[待填写]
+
+---
+
+## 限制与说明
+
+1. 关键论文（Schiller 2000, Polsky 2004, London & Häusser 2005, Larkum 2009）均在订阅期刊，只能用摘要。文章内容基于摘要 + 开放综述（Stuart & Spruston 2015）的间接引用。
+2. 经典 Larkum 1999 Ca²⁺ 棘波论文（Nature, PMID:10192334）通过 Stuart & Spruston 综述间接引用，未单独列入参考文献（全文不可访问）。
+3. 后台代理（a7f88be966c49da50）提供了额外的开放全文搜索，发现 Smith 2013 (PMC6319606) 和 Polsky 2009 (PMC3850222) 等额外开放论文，前者已用于正文。

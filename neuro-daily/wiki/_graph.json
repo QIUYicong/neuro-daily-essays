@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-26",
-  "node_count": 14,
-  "edge_count": 36,
+  "updated": "2026-05-27",
+  "node_count": 16,
+  "edge_count": 50,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -130,6 +130,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/camkii.md"
+    },
+    {
+      "id": "dendritic-computation",
+      "title": "树突计算",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/dendritic-computation.md"
+    },
+    {
+      "id": "pyramidal-neuron",
+      "title": "锥体神经元",
+      "domain": "neurons",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/pyramidal-neuron.md"
     }
   ],
   "edges": [
@@ -168,17 +186,33 @@
     {"from": "ltp", "to": "ampa-receptor", "type": "prerequisite-for", "note": "理解LTP需了解AMPA受体插入机制"},
     {"from": "hebbian-learning", "to": "nmda-receptor", "type": "prerequisite-for", "note": "理解Hebb规则的分子基础需理解NMDA受体"},
     {"from": "camkii", "to": "nmda-receptor", "type": "prerequisite-for", "note": "理解CaMKII在LTP中的作用需先理解NMDA受体触发"},
-    {"from": "ampa-receptor", "to": "nmda-receptor", "type": "related", "note": "两者共存于同一突触后膜，AMPA负责快速传递，NMDA负责可塑性判断"}
+    {"from": "ampa-receptor", "to": "nmda-receptor", "type": "related", "note": "两者共存于同一突触后膜，AMPA负责快速传递，NMDA负责可塑性判断"},
+    {"from": "dendritic-computation", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA 受体是 NMDA 棘波的核心机器，两者共同驱动树突非线性计算"},
+    {"from": "dendritic-computation", "to": "ltp", "type": "mechanism-of", "note": "NMDA 棘波提供强烈局部 Ca²⁺，触发分支局部 LTP；平台电位是海马场所场快速写入机制"},
+    {"from": "dendritic-computation", "to": "action-potential", "type": "regulates", "note": "Ca²⁺ 棘波与胞体 bAP 的耦合决定是否产生爆发放电（burst firing）"},
+    {"from": "dendritic-computation", "to": "hebbian-learning", "type": "mechanism-of", "note": "树突 NMDA 棘波使 Hebb 规则在分支层面实现，而非仅在单突触层面"},
+    {"from": "pyramidal-neuron", "to": "dendritic-computation", "type": "supports", "note": "锥体神经元双树突形态（顶端 tuft + 基底分支）是树突计算的物理基础"},
+    {"from": "pyramidal-neuron", "to": "axon-initial-segment", "type": "part-of", "note": "锥体神经元的 AIS 是动作电位发起位点"},
+    {"from": "pyramidal-neuron", "to": "chandelier-cell", "type": "related", "note": "吊灯细胞特异靶向锥体神经元的 AIS"},
+    {"from": "nmda-receptor", "to": "dendritic-computation", "type": "mechanism-of", "note": "NMDA 受体的再生性正反馈是 NMDA 棘波的分子机制"},
+    {"from": "hodgkin-huxley-model", "to": "dendritic-computation", "type": "prerequisite-for", "note": "H-H 框架扩展到树突后，可描述 NMDA 棘波等树突再生事件"},
+    {"from": "ltp", "to": "dendritic-computation", "type": "related", "note": "树突 NMDA 棘波驱动的局部 LTP 是突触权重局部修改的机制"},
+    {"from": "synaptic-transmission", "to": "dendritic-computation", "type": "prerequisite-for", "note": "理解树突计算需先理解突触传递（谷氨酸释放 → NMDA 受体激活）"},
+    {"from": "action-potential", "to": "dendritic-computation", "type": "related", "note": "反向传播 bAP 提供去极化，调控树突棘波的阈值和可塑性窗口"},
+    {"from": "dendritic-computation", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "理解树突计算需先理解突触传递"},
+    {"from": "dendritic-computation", "to": "camkii", "type": "related", "note": "树突 NMDA 棘波后 Ca²⁺ 激活 CaMKII 驱动局部 LTP"}
   ],
   "dangling_references": [
-    {"slug": "dendritic-computation", "referenced_by": ["hodgkin-huxley-model"], "note": "树突计算，待建页面"},
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
     {"slug": "munc18", "referenced_by": ["SNARE-complex"], "note": "SM蛋白，SNARE调控，次要"},
-    {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission"], "note": "电压门控钙通道（P/Q-type, N-type），突触前终末Ca²⁺内流的执行者，待建独立页面"},
+    {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation"], "note": "电压门控钙通道（P/Q-type N-type用于突触前终末；L-type Cav1.2/1.3用于树突Ca²⁺棘波），待建独立页面"},
     {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，待建页面"},
     {"slug": "theta-oscillations", "referenced_by": ["ltp"], "note": "θ振荡，LTP的体内诱导节律，待建页面"},
-    {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning"], "note": "印迹细胞，记忆存储的细胞群，待建页面"},
+    {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation"], "note": "印迹细胞，记忆存储的细胞群；与树突计算的联系：平台电位→场所场形成=一次性印迹写入，待建页面"},
     {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "三因素学习规则（Hebb × 多巴胺），待建页面"},
-    {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"}
+    {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"},
+    {"slug": "place-cell", "referenced_by": ["dendritic-computation"], "note": "场所细胞（海马 CA1/CA3），今日树突平台电位→场所场快速形成是核心体内证据，高优先级待建页面"},
+    {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议，待建页面"},
+    {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"}
   ]
 }

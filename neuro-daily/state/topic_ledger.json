@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-26",
-  "total_articles": 3,
+  "last_updated": "2026-05-27",
+  "total_articles": 4,
   "entries": [
     {
       "date": "2026-05-24",
@@ -177,19 +177,81 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 3
+    },
+    {
+      "date": "2026-05-27",
+      "title": "树突：神经元内部的神经网络——NMDA 棘波与 Ca²⁺ 棘波如何使一根树突变成一台计算机",
+      "filename": "2026-05-27-dendritic-computation.md",
+      "wiki_pages_created": [
+        "wiki/neurons/dendritic-computation.md",
+        "wiki/neurons/pyramidal-neuron.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/nmda-receptor.md",
+        "wiki/concepts/hodgkin-huxley-model.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "树突分支是否具有独立发放局部棘波的能力？NMDA 棘波和 Ca²⁺ 棘波如何使单个神经元成为多层计算机？",
+      "layer": ["细胞", "微回路"],
+      "curriculum_track": "1. 神经元如何工作（树突计算进阶）→ 3. 大脑如何编码世界（视觉皮层/海马）",
+      "topic_tags": [
+        "dendritic computation",
+        "NMDA spike",
+        "calcium spike",
+        "apical dendrite",
+        "basal dendrite",
+        "two-layer neural network",
+        "pyramidal neuron",
+        "place field",
+        "plateau potential",
+        "orientation selectivity",
+        "synaptic clustering",
+        "L5 pyramidal cell",
+        "apical tuft",
+        "backpropagating action potential",
+        "burst firing"
+      ],
+      "main_sources": [
+        "PMID:26167906 (PMC4888374)",
+        "PMID:26605882 (PMC6777373)",
+        "PMID:24162850 (PMC6319606)",
+        "PMID:10749211 (abstract only)",
+        "PMID:15156147 (abstract only)",
+        "PMID:19661433 (abstract only)",
+        "PMID:23841837 (abstract only)",
+        "PMID:16033324 (abstract only)",
+        "PMID:20800473 (abstract only)",
+        "PMID:32393820 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "树突棘波在体内（清醒自由行为）的发生频率和触发条件",
+        "突触聚类假说的体内验证状态",
+        "抑制性中间神经元如何精确调控树突棘波阈值",
+        "神经退行性疾病中树突棘波异常是否是认知障碍的早期原因"
+      ],
+      "next_suggested_topics": [
+        "场所细胞与网格细胞：海马 CA1/CA3/DG 的空间编码逻辑（填补 place-cell 悬空引用，自然延续今日海马证据）",
+        "抑制性中间神经元多样性：PV+, SST+, VIP+ 的功能分工与树突棘波调控",
+        "LTD 的分子机制：磷酸酶、AMPA 受体内吞、mGluR-LTD（与今日 LTP 形成对称）",
+        "海马记忆巩固：CA1 平台电位 → 记忆编码 → 皮层巩固（直接延续今日主题）",
+        "皮层层次与预测处理：顶端树突 Ca²⁺ 棘波与预测编码理论的联系"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 4,
+      "dangling_reference_filled": "dendritic-computation（填补了 hodgkin-huxley-model 页面的长期悬空引用）"
     }
   ],
   "layer_coverage_recent": {
     "molecular": ["2026-05-24", "2026-05-25", "2026-05-26"],
-    "cellular": ["2026-05-24", "2026-05-25"],
+    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27"],
     "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26"],
-    "microcircuit": [],
-    "brain_region": [],
+    "microcircuit": ["2026-05-27"],
+    "brain_region": ["2026-05-27"],
     "whole_brain_network": [],
     "behavior": [],
-    "cognition": ["2026-05-26"],
+    "cognition": ["2026-05-26", "2026-05-27"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "今日（2026-05-26）首次进入认知层，通过 LTP/Hebb 规则将分子机制与学习/记忆认知功能明确连接。分子/突触层已覆盖 3 天，建议下一篇在课程脊柱中保持认知层（如海马回路、记忆巩固）或转向微回路层（树突计算、中间神经元多样性），避免继续停留在纯分子层。"
+  "layer_note": "今日（2026-05-27）成功转入细胞/微回路层，填补了 microcircuit 层的空白。brain_region 层通过视觉皮层（V1）和海马（CA1）的体内证据初次涉及。建议下一篇在课程脊柱中继续细胞/微回路层（如中间神经元多样性、海马回路）或扩展到脑区层（场所细胞/网格细胞），避免回到分子/突触层。"
 }

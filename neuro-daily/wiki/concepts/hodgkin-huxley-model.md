@@ -6,13 +6,13 @@ type: theory
 status: established
 confidence: high
 created: 2026-05-24
-updated: 2026-05-24
-revision_count: 1
+updated: 2026-05-27
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, methods]
 related: [action-potential, voltage-gated-sodium-channel, dendritic-computation]
 prerequisites: [action-potential]
 opens_questions: []
-source_articles: [2026-05-24-axon-initial-segment]
+source_articles: [2026-05-24-axon-initial-segment, 2026-05-27-dendritic-computation]
 key_sources: ["PMID:23055474", "PMID:36218068", "PMID:25856629"]
 ---
 
@@ -57,6 +57,7 @@ key_sources: ["PMID:23055474", "PMID:36218068", "PMID:25856629"]
 ## 修订历史
 
 - 2026-05-24 · 创建 · 基于《决策的解剖学：神经元如何在混沌的输入中找到它唯一的声音》· 初始置信度：高
+- 2026-05-27 · 修订 · [[树突计算]] 页面已建立，填补此前悬空引用；source_articles 无变化，仅元数据更新
 
 ## 来源文章
 
