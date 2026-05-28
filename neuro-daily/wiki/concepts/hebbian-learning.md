@@ -6,10 +6,10 @@ type: theory
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-05-26
-revision_count: 1
-dimensions: [synaptic, cognition]
-related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp]
+updated: 2026-05-30
+revision_count: 2
+dimensions: [synaptic, cognition, behavior, whole-brain-network]
+related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy]
 prerequisites: [synaptic-transmission, action-potential, nmda-receptor]
 opens_questions: [Q-hebbian-global-error, Q-hebbian-stability]
 source_articles: [2026-05-26-nmda-receptor-ltp]
@@ -49,6 +49,17 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 - 多巴胺信号（奖励预测误差）可在 Hebbian 结合后数百毫秒内调制突触可塑性
 - 这使 Hebb 规则能够被全局的奖励结果所"评分"
 
+### 多尺度 Hebb 规则（全脑网络/行为层面）
+
+2026-05-30 综合分析新增：Hebb 原理（巧合→强化）在多个时间尺度上有独立的分子实现，共同构成**嵌套时间编码层级**：
+
+- **~10–50 ms**：经典 LTP/STDP（NMDA 受体双重门控）— 单突触、毫秒精度
+- **~0.5–2 s**：BTSP（树突钙平台电位）— 神经元行为层面、秒级、不对称增强
+- **~120 ms 压缩 ~1–2 s**：θ 序列（θ 相位前进使场所细胞时序差落入 STDP 窗口）— 网络层、路径方向性权重强化
+- **离线批量**：SWR 高速重播（20×）使皮层突触在睡眠中经历数千次 Hebb 配对 — 系统固化层
+
+这说明 Hebb 规则不是一个单一的"学习规则"，而是一个可在多个尺度实例化的通用原理，不同尺度捕获不同粒度的信息（从单突触配对到完整行为事件）。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -59,8 +70,12 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 
 ## 连接
 
-- [[nmda-receptor]] — NMDA 受体是 Hebb 规则的分子实现装置
-- [[ltp]] — LTP 是 Hebb 规则的突触结果
+- [[nmda-receptor]] — NMDA 受体是 Hebb 规则的分子实现装置（ms 层）
+- [[ltp]] — LTP 是 Hebb 规则的突触结果（ms 层基准货币）
+- [[btsp]] — BTSP 是 Hebb 规则的秒级实例（行为时间尺度）
+- [[theta-oscillations]] — θ 序列通过压缩行为时序，将 s 级事件带入 ms 级 Hebb 窗口
+- [[sharp-wave-ripples]] — SWR 是离线批量 Hebb 的执行者，驱动皮层长期固化
+- [[temporal-coding-hierarchy]] — 多时间尺度 Hebb 实例化的综合框架
 - [[three-factor-learning-rule]] — 将 Hebb 规则扩展为包含全局调制信号的学习算法（待建页面）
 - [[stdp]] — STDP 是 Hebb 规则的时间分辨精化版本（待建页面）
 
@@ -72,6 +87,7 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 ## 修订历史
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
+- 2026-05-30 · 修订 · 基于《第一周综合：时间的阶梯》一文 · 新增"多尺度 Hebb 规则"一节（BTSP/θ 序列/SWR 均为 Hebb 原理在不同时间尺度的实例化）；related 新增 btsp/theta-oscillations/sharp-wave-ripples/temporal-coding-hierarchy；dimensions 扩展为 behavior/whole-brain-network
 
 ## 来源文章
 

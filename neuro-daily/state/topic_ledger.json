@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-29",
-  "total_articles": 6,
+  "last_updated": "2026-05-30",
+  "total_articles": 7,
   "entries": [
     {
       "date": "2026-05-24",
@@ -373,6 +373,56 @@
       "mode": "long_term_curriculum",
       "article_number": 6,
       "dangling_reference_filled": "theta-oscillations（填补了 place-cell、ltp、hippocampal-circuit、grid-cell 共4个页面的高优先级悬空引用）"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "第一周综合：时间的阶梯——大脑如何在七个数量级的尺度上编码记忆",
+      "filename": "2026-05-30-week1-synthesis.md",
+      "article_type": "weekly_synthesis",
+      "wiki_pages_created": [
+        "wiki/concepts/temporal-coding-hierarchy.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/hebbian-learning.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "六篇文章分别讲述了从钙纳米域到 SWR 离线固化的六个神经机制，它们之间是否有统一原理？答：嵌套时间编码层级——大脑在每个时间尺度（从亚毫秒到离线夜间）都通过精确时间巧合检测修改突触权重。",
+      "layer": ["分子", "细胞", "突触", "微回路", "脑区", "全脑网络", "行为", "认知"],
+      "curriculum_track": "综合篇·第一周（课程主线 1+3+4 交汇）",
+      "topic_tags": [
+        "weekly synthesis",
+        "temporal coding",
+        "nested temporal coding hierarchy",
+        "Hebb rule multi-scale",
+        "LTP",
+        "BTSP",
+        "theta oscillations",
+        "SWR",
+        "place cell",
+        "dendritic computation",
+        "NMDA receptor",
+        "memory consolidation",
+        "synaptic plasticity"
+      ],
+      "main_sources": [
+        "PMID:41930336 (PMC13042750)",
+        "PMID:22068972 (PMC3249630)",
+        "PMID:22510460 (PMC3367554)",
+        "PMID:26167906 (PMC4888374)",
+        "PMID:28883072 (PMC7289271)",
+        "PMID:26135716 (PMC4648295)"
+      ],
+      "unresolved_questions": [],
+      "next_suggested_topics": [
+        "印迹细胞（engram cells）：场所细胞与行为记忆的因果联系（最高优先级悬空引用，第二周首篇）",
+        "记忆巩固（系统层面）：睡眠阶段分工、皮层侧 LTP、标准巩固 vs 多重痕迹理论",
+        "电压门控钙通道（L-type / P/Q/N-type）：连接 BTSP、树突计算、突触前释放的分子缺口",
+        "抑制性中间神经元多样性：PV+/SST+/VIP+ 如何调控 θ振荡、树突棘波和场所场形成",
+        "LTD（长时程抑制）：磷酸酶、AMPA 受体内吞，LTP 的对称补充"
+      ],
+      "mode": "weekly_synthesis",
+      "article_number": 7,
+      "note": "系统日期为 UTC+8 2026-05-28，前序会话已覆盖 2026-05-28 和 2026-05-29，本文逻辑日期顺延至 2026-05-30 以维护序列完整性"
     }
   ],
   "layer_coverage_recent": {
@@ -381,11 +431,11 @@
     "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28"],
     "microcircuit": ["2026-05-27"],
     "brain_region": ["2026-05-27", "2026-05-28"],
-    "whole_brain_network": ["2026-05-29"],
-    "behavior": ["2026-05-29"],
-    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28"],
+    "whole_brain_network": ["2026-05-29", "2026-05-30"],
+    "behavior": ["2026-05-29", "2026-05-30"],
+    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "今日（2026-05-29）首次进入全脑网络（whole-brain-network）层和行为（behavior）层——θ振荡是全海马同步的网络现象，SWR是跨脑区（海马→新皮层）的信息传递机制。layer_coverage 已更新。建议下一篇继续在行为/认知层深挖：印迹细胞（填补高优先级悬空引用，behavior层），或 memory-consolidation（系统层面，whole-brain-network）。也可考虑 methods 层（如钙成像技术综述）。"
+  "layer_note": "2026-05-30（第一周综合）：跨层综合（分子→细胞→突触→微回路→脑区→全脑网络），归纳嵌套时间编码层级（Nested Temporal Coding Hierarchy）框架。第二周建议：印迹细胞（填补最高优先级悬空引用；behavior/cognition 层）→ 记忆巩固系统层面（whole-brain-network 深挖）→ 抑制性中间神经元多样性（microcircuit 层，平衡连续5天偏向兴奋性机制的层级）→ 电压门控钙通道（molecular 层，补充 BTSP+树突计算的分子缺口）。"
 }

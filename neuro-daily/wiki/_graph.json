@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-29",
-  "node_count": 23,
-  "edge_count": 86,
+  "updated": "2026-05-30",
+  "node_count": 24,
+  "edge_count": 95,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -211,6 +211,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/phase-precession.md"
+    },
+    {
+      "id": "temporal-coding-hierarchy",
+      "title": "嵌套时间编码层级",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/temporal-coding-hierarchy.md"
     }
   ],
   "edges": [
@@ -297,7 +306,16 @@
     {"from": "phase-precession", "to": "ltp", "type": "related", "note": "θ序列中先-后神经元时序与STDP/LTP方向性匹配，可能强化路径方向性突触权重"},
     {"from": "place-cell", "to": "phase-precession", "type": "mechanism-of", "note": "相位前进是场所细胞的核心编码特性之一"},
     {"from": "hippocampal-circuit", "to": "theta-oscillations", "type": "related", "note": "海马是θ振荡的主要表达场所；θ/SWR双模切换决定海马工作状态"},
-    {"from": "hippocampal-circuit", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "CA3循环回路是SWR的生成器；CA1是涟漪的表达场所"}
+    {"from": "hippocampal-circuit", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "CA3循环回路是SWR的生成器；CA1是涟漪的表达场所"},
+    {"from": "temporal-coding-hierarchy", "to": "ltp", "type": "related", "note": "LTP 是嵌套层级中 ms 尺度的 Hebb 学习规则，也是 SWR 固化皮层记忆的最终机制"},
+    {"from": "temporal-coding-hierarchy", "to": "btsp", "type": "related", "note": "BTSP 是嵌套层级中 s 尺度的行为 Hebb 学习规则"},
+    {"from": "temporal-coding-hierarchy", "to": "theta-oscillations", "type": "mechanism-of", "note": "θ 振荡提供桥接层：将 s 级行为事件压缩到 ms 级 STDP 窗口"},
+    {"from": "temporal-coding-hierarchy", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "SWR 是离线固化层，通过 20 倍速重播触发皮层 LTP 积累"},
+    {"from": "temporal-coding-hierarchy", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA 受体实现了嵌套层级中 ms 层的分子巧合检测"},
+    {"from": "temporal-coding-hierarchy", "to": "dendritic-computation", "type": "related", "note": "树突棘波（50–200 ms 层）是嵌套层级中分支计算层的机制"},
+    {"from": "temporal-coding-hierarchy", "to": "place-cell", "type": "related", "note": "场所细胞是嵌套层级协同运作的功能结果（稳定空间认知地图）"},
+    {"from": "temporal-coding-hierarchy", "to": "phase-precession", "type": "mechanism-of", "note": "相位前进是 θ 桥接层的具体机制，使 s 级场所细胞序列落入 ms 级 STDP 窗口"},
+    {"from": "hebbian-learning", "to": "temporal-coding-hierarchy", "type": "supports", "note": "Hebb 原理（巧合→强化）是嵌套层级所有层次的共同底层逻辑"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},

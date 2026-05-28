@@ -1,0 +1,102 @@
+{
+  "date": "2026-05-30",
+  "article": "2026-05-30-week1-synthesis.md",
+  "article_type": "weekly_synthesis",
+  "note": "本文为第一周综合（文章 #7），综合 2026-05-24 至 2026-05-29 六篇文章的来源，不独立检索新资料。以下列出每篇代表性来源（已在原始文章 sources JSON 中完整记录）。",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "41930336",
+      "pmcid": "PMC13042750",
+      "title": "Axon initial segment biology and pathology (2023 Review)",
+      "journal": "Neuroscience",
+      "year": 2023,
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13042750/",
+      "represents": "第1篇（2026-05-24）：轴突始段 AIS",
+      "key_claim": "NaV1.6 在 AIS 密度约为胞体 50 倍；AIS 动态可塑性"
+    },
+    {
+      "id": "S2",
+      "pmid": "22068972",
+      "pmcid": "PMC3249630",
+      "title": "Membrane fusion: Grappling with SNARE and SM proteins",
+      "authors": "Jahn R, Fasshauer D",
+      "journal": "Nature",
+      "year": 2012,
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3249630/",
+      "represents": "第2篇（2026-05-25）：突触囊泡胞吐",
+      "key_claim": "SNARE 拉链机制驱动亚毫秒级膜融合；Syt1 作为钙传感器"
+    },
+    {
+      "id": "S3",
+      "pmid": "22510460",
+      "pmcid": "PMC3367554",
+      "title": "Synaptic plasticity: multiple forms, functions, and mechanisms",
+      "journal": "Neuropsychopharmacology",
+      "year": 2012,
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3367554/",
+      "represents": "第3篇（2026-05-26）：NMDA 受体与 LTP",
+      "key_claim": "NMDA 受体双重门控机制；AP5 完全消除 LTP 诱导"
+    },
+    {
+      "id": "S4",
+      "pmid": "26167906",
+      "pmcid": "PMC4888374",
+      "title": "Dendritic function in vivo",
+      "authors": "Grienberger C, Bhatt DL",
+      "journal": "Trends in Neurosciences",
+      "year": 2015,
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888374/",
+      "represents": "第4篇（2026-05-27）：树突计算",
+      "key_claim": "清醒小鼠 V1 层 NMDA 棘波体内证据；朝向选择性降低"
+    },
+    {
+      "id": "S5",
+      "pmid": "28883072",
+      "pmcid": "PMC7289271",
+      "title": "Behavioral time scale synaptic plasticity underlies CA1 place fields",
+      "authors": "Bittner KC et al.",
+      "journal": "Science",
+      "year": 2017,
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7289271/",
+      "represents": "第5篇（2026-05-28）：BTSP",
+      "key_claim": "BTSP 秒级时间窗口；单次写入场所场"
+    },
+    {
+      "id": "S6",
+      "pmid": "26135716",
+      "pmcid": "PMC4648295",
+      "title": "Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning",
+      "authors": "Buzsáki G",
+      "journal": "Hippocampus",
+      "year": 2015,
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4648295/",
+      "represents": "第6篇（2026-05-29）：θ振荡与 SWR",
+      "key_claim": "SWR 实时中断导致记忆损伤（因果证据）；20倍速序列重播"
+    }
+  ],
+  "total_sources": 6,
+  "open_full_text_count": 6,
+  "abstract_only_count": 0,
+  "coverage_quality": "高（所有代表性来源均有开放全文）",
+  "cross_references": [
+    "neuro-daily/sources/2026-05-24-sources.json",
+    "neuro-daily/sources/2026-05-25-sources.json",
+    "neuro-daily/sources/2026-05-26-sources.json",
+    "neuro-daily/sources/2026-05-27-sources.json",
+    "neuro-daily/sources/2026-05-28-sources.json",
+    "neuro-daily/sources/2026-05-29-sources.json"
+  ]
+}

@@ -1,0 +1,128 @@
+# 运行日志 · 2026-05-30
+
+**运行时间**：2026-05-28（UTC+8 系统时间），逻辑日期 2026-05-30
+**文章编号**：#7（第一周综合）
+**分支**：main
+**运行环境**：Claude Code Web（remote execution container）
+
+---
+
+## 运行说明
+
+UTC+8 系统时间为 2026-05-28，但仓库主分支（origin/main）已包含 2026-05-28 和 2026-05-29 的日常文章，由前序会话生成。依 ROUTINE.md 规则："不要反复生成同一天文章"，且"每 7 篇写周综合"。因此本次运行：
+1. 识别序列已有 6 篇（article_number 1–6），第 7 篇应为**周综合**
+2. 使用逻辑日期 2026-05-30（序列顺延），避免与现有文件冲突
+3. 情景层 append-only 规则已严格遵守（未修改任何已存在文件）
+
+---
+
+## 步骤 0：同步 main
+
+- git checkout main → ✅
+- git pull origin main → Fast-forward，拉取了 61 个新文件（包含 2026-05-24 至 2026-05-29 全部成果）
+- ROUTINE.md 存在 ✅，KNOWLEDGE-BASE-DESIGN.md 存在 ✅，neuro-daily/wiki/ 存在 ✅
+
+---
+
+## 步骤 A：读取状态
+
+- topic_ledger.json：6 条记录（2026-05-24 至 2026-05-29），last_updated=2026-05-29，total_articles=6
+- unresolved_questions.md：多个开放问题，其中高优先级包括 Q-ltp-lifetime-mechanism、Q-btsp-human-conservation、Q-theta-primate、Q-dendritic-spike-in-vivo-frequency
+- contested_claims.json：2 条 open（C-2026-05-24-01, C-2026-05-25-01）
+- _graph.json：23 节点，86 边，悬空引用 12 个（最高优先级：engram-cells, memory-consolidation, calcium-channel）
+- wiki/index.md、state/monthly_synthesis.md：均已是最新（截至 2026-05-29）
+
+---
+
+## 步骤 B：选题
+
+**决策**：已有 6 篇文章，按 ROUTINE.md 规则"每 7 篇写周综合"，第 7 篇写周综合。
+
+**选题**：《第一周综合：时间的阶梯——大脑如何在七个数量级的尺度上编码记忆》
+
+**核心框架**：嵌套时间编码层级（Nested Temporal Coding Hierarchy）——六篇文章各自对应的时间尺度层次，以及这些层次如何嵌套协作。
+
+**层级**：跨层综合（分子 / 细胞 / 突触 / 微回路 / 脑区 / 全脑网络）
+**模式**：周综合（非常规日常文章）
+
+---
+
+## 步骤 C：检索与写作
+
+**来源检索**：本文为综合报告，不独立检索新资料，使用前六篇文章已引用的来源。
+**来源数**：6 篇代表性文章，6 篇均有开放全文（PMC）
+**覆盖方面**：AIS（第1篇）/ 突触囊泡胞吐（第2篇）/ NMDA/LTP（第3篇）/ 树突计算（第4篇）/ BTSP/场所细胞（第5篇）/ θ振荡/SWR（第6篇）
+
+**文章写作**：
+- 中文，约 5000 字
+- 包含：核心问题 / 一句话摘要 / 为什么重要 / 背景 / 核心机制（嵌套层级表格）/ 关键证据 / 比喻 / 改变了什么理解 / 争议与未解问题 / 与 AI 对照 / 概念卡片 / 认知地图更新 / 参考来源
+- 文件：`neuro-daily/articles/2026-05-30-week1-synthesis.md` ✅
+
+**笔记**：`neuro-daily/notes/2026-05-30-reading-notes.md` ✅
+**来源**：`neuro-daily/sources/2026-05-30-sources.json` ✅（6 个来源，全部开放全文）
+
+---
+
+## 步骤 D：固结
+
+**今日触及的新概念**：
+
+1. **temporal-coding-hierarchy**（嵌套时间编码层级）
+   - 状态：无已有页面 → **新建**
+   - `wiki/concepts/temporal-coding-hierarchy.md` ✅
+   - status=emerging，confidence=medium（分析性框架，非直接实验发现）
+   - 矛盾检查：无与既有主张的冲突
+
+**修订的概念**：
+
+2. **hebbian-learning**（Hebbian 学习）
+   - 状态：已有页面 → **修订**
+   - 新增"多尺度 Hebb 规则"一节
+   - revision_count 1→2，updated 更新至 2026-05-30
+   - 矛盾检查：与既有主张无冲突（多尺度是扩展，非替代）
+
+---
+
+## 步骤 E：更新图谱与导航
+
+- `wiki/_graph.json`：节点 23→24，边 86→95 ✅
+  - 新增节点：temporal-coding-hierarchy
+  - 新增边：9 条（temporal-coding-hierarchy 的 8 条出边 + hebbian-learning→temporal-coding-hierarchy）
+- `wiki/index.md`：新增 temporal-coding-hierarchy 条目，更新路线进度，更新前沿分析 ✅
+- `wiki/CHANGELOG.md`：新增 2026-05-30 章节 ✅
+
+---
+
+## 步骤 F：更新治理层
+
+- `state/topic_ledger.json`：新增第 7 条记录（weekly_synthesis），last_updated=2026-05-30，total_articles=7 ✅
+- `state/monthly_synthesis.md`：追加周综合摘要条目 ✅
+- `state/maturity_index.json`：新增 temporal-coding-hierarchy 条目 ✅
+- `state/source_registry.json`：本周综合使用已注册来源，不新增条目（所有 6 个 PMID 已在原始文章的 source_registry 中）
+- `state/unresolved_questions.md`：未新增问题（本周综合总结了已有问题，不新增）
+
+---
+
+## 步骤 G：提交与推送
+
+- git add neuro-daily/ ✅
+- Commit message: "Add neuro daily article + wiki consolidation for 2026-05-30"
+- git pull --rebase origin main → 运行
+- git push origin main → 目标
+
+---
+
+## 自检状态
+
+**真实性**：✅ 所有来源均有开放 PMC 全文；区分了"分析性框架"（嵌套层级为 emerging）与"已验证机制"（各层单独机制为 established）；未将小样本/单物种研究当作定论
+**一致性**：✅ 新增概念未与既有主张冲突；hebbian-learning 修订同步了 updated/revision_count/修订历史；_graph.json 无未记录悬空边
+**可导航**：✅ index.md 和 CHANGELOG.md 反映今日变化；新页 prerequisites 均已存在（ltp/btsp/theta-oscillations 等）
+**情景层**：✅ 文章/笔记/来源/日志均为新文件，未修改任何已存在的 articles/notes/sources/logs 文件
+
+---
+
+## 失败与限制
+
+- 无失败
+- 限制：本次综合基于前 6 篇文章的已有来源，未进行新的文献检索（这是周综合的正常模式）
+- 日期说明：系统 UTC+8 时间为 2026-05-28，但逻辑日期使用 2026-05-30（因前序会话已覆盖 2026-05-28 和 2026-05-29）

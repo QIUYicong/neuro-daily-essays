@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-05-29 · 主题页总数：23
+> 最后更新：2026-05-30 · 主题页总数：24
 
 ---
 
@@ -37,9 +37,10 @@
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
-- 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列 **[NEW]**
-- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体 **[NEW]**
-- 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现 **[NEW]**
+- 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列
+- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体
+- 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现
+- 🟡 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）**[NEW]**
 
 ## systems（系统） — *待建*
 
@@ -48,6 +49,19 @@
 ## theories（理论） — *待建*
 
 ## diseases（疾病） — *待建*
+
+---
+
+## 当前知识路线进度
+
+| 课程主题 | 状态 |
+|---------|------|
+| 1. 神经元如何工作 | 🔵 进行中（已覆盖：AIS, 动作电位, 突触传递, NMDA/AMPA 受体, CaMKII, 树突计算, 锥体神经元；待覆盖：LTD, 中间神经元多样性, 神经调质） |
+| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞**, **网格细胞**, θ振荡/相位编码, 视觉皮层朝向选择性；待覆盖：听觉/体感, 头向细胞, 时间表征）|
+| 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, **海马回路**, 场所场形成, SWR 重播；待覆盖：LTD, 记忆巩固（系统），**印迹细胞**, 记忆提取）|
+| 2, 5–12 | ⚪ 待开始 |
+
+**第7篇（2026-05-30）**：**第一周综合**——归纳嵌套时间编码层级（Nested Temporal Coding Hierarchy）框架，连接前 6 篇文章的核心机制，指向第二周方向（印迹细胞、记忆巩固系统、钙通道）。
 
 ---
 
@@ -71,19 +85,7 @@
 
 ## 当前知识前沿（高连接、待深挖）
 
-- **θ振荡**（今日新建，整合节点）：连接 place-cell、grid-cell、hippocampal-circuit、ltp、btsp、sharp-wave-ripples、phase-precession 等 7+ 节点；是"全脑网络层"的首个关键节点。**高优先级深挖方向**。
-- **海马回路**（修订，连接枢纽）：θ/SWR双模更新后，连接更密——现在是从"细胞层"到"全脑网络层"的核心通道。
-- **场所细胞**（修订）：加入相位前进后，连接维度更广（theta-oscillations、phase-precession、sharp-wave-ripples）。
-- **NMDA 受体**（最高连接）：连接突触 LTP、树突计算、BTSP（间接）；仍是最密集枢纽节点。
-- **印迹细胞（engram-cells）**（最高优先级悬空引用）：被 4 个页面引用；下一步首选主题。
-
----
-
-## 知识路线进度
-
-| 课程主题 | 状态 |
-|---------|------|
-| 1. 神经元如何工作 | 🔵 进行中（已覆盖：AIS, 动作电位, 突触传递, NMDA/AMPA 受体, CaMKII, 树突计算, 锥体神经元；待覆盖：神经调质, 中间神经元多样性, LTD） |
-| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞**, **网格细胞**, 视觉皮层朝向选择性, **θ振荡/相位编码**；待覆盖：听觉/体感系统, 头向细胞, 时间表征）|
-| 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, **海马回路**, 场所场形成, **SWR重播**；待覆盖：LTD, 记忆巩固（系统），印迹细胞, 记忆提取）|
-| 2, 5–12 | ⚪ 待开始 |
+- **嵌套时间编码层级**（今日新建，综合性框架节点）：连接 ltp/btsp/theta-oscillations/sharp-wave-ripples/phase-precession/nmda-receptor/dendritic-computation/place-cell/hebbian-learning 共 9 个节点；是第一周知识的整合枢纽。**第二周方向的参照系**。
+- **θ振荡**（整合节点）：连接 place-cell、grid-cell、hippocampal-circuit、ltp、btsp、sharp-wave-ripples、phase-precession 等 7+ 节点；是"全脑网络层"的关键节点。
+- **NMDA 受体**（最高连接数）：连接突触 LTP、树突计算、BTSP（间接）、嵌套时间编码层级；仍是最密集枢纽节点。
+- **印迹细胞（engram-cells）**（最高优先级悬空引用）：被 4 个页面引用；第二周首选主题。
