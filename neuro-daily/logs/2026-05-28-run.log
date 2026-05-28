@@ -122,4 +122,8 @@
 
 ## Push 状态
 
-*待运行 git add + commit + push 后更新*
+**commit hash**：068beb0
+**推送到 main**：✅ 成功（fc3147b → 068beb0）
+**推送到 claude/exciting-fermi-ud38c**：✅ 成功（新分支创建）
+**main URL**：https://github.com/QIUYicong/neuro-daily-essays/tree/main
+**总状态**：✅ 完成
