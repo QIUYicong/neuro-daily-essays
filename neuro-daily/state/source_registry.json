@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-29",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -427,6 +427,71 @@
       "full_text_available": false,
       "used_in_articles": ["2026-05-28-place-cells-btsp.md"],
       "aspects_covered": ["place cell review", "grid cell review", "cognitive map", "entorhinal-hippocampal connection"]
+    },
+    {
+      "pmid": "26135716",
+      "pmcid": "PMC4648295",
+      "doi": "10.1002/hipo.22488",
+      "title": "Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning",
+      "authors_short": "Buzsáki G",
+      "journal": "Hippocampus",
+      "year": 2015,
+      "first_used": "2026-05-29",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-29-memory-consolidation-swr.md"],
+      "aspects_covered": ["SWR generation mechanism", "CA3 recurrent circuits", "sequence compression replay 20:1", "two-stage memory model", "interneuron coordination", "disruption experiments"]
+    },
+    {
+      "pmid": "30356103",
+      "pmcid": "PMC6794196",
+      "doi": "10.1038/s41583-018-0077-1",
+      "title": "The hippocampal sharp wave-ripple in memory retrieval for immediate use and consolidation",
+      "authors_short": "Joo HR & Frank LM",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2018,
+      "first_used": "2026-05-29",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-29-memory-consolidation-swr.md"],
+      "aspects_covered": ["SWR dual function", "forward/reverse/prospective replay", "disruption experiments review", "cortical-hippocampal loop"]
+    },
+    {
+      "pmid": "34262446",
+      "pmcid": "PMC8273653",
+      "doi": "10.3389/fnagi.2021.683483",
+      "title": "Normal and Abnormal Sharp Wave Ripples in the Hippocampal-Entorhinal Cortex System",
+      "authors_short": "Zhen J et al.",
+      "journal": "Frontiers in Aging Neuroscience",
+      "year": 2021,
+      "first_used": "2026-05-29",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-29-memory-consolidation-swr.md"],
+      "aspects_covered": ["SWR circuit origin CA2-CA3", "PV+ basket cell coordination", "AD SWR abnormalities", "epilepsy HFO vs SWR distinction"]
+    },
+    {
+      "pmid": "19693273",
+      "pmcid": "PMC2725314",
+      "doi": "10.1371/journal.pone.0006697",
+      "title": "Hippocampal Sharp Wave/Ripples during Sleep for Consolidation of Associative Memory",
+      "authors_short": "Ramadan W, Eschenko O, Sara SJ",
+      "journal": "PLoS ONE",
+      "year": 2009,
+      "first_used": "2026-05-29",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-29-memory-consolidation-swr.md"],
+      "aspects_covered": ["SWR density correlation with next-day performance r=-0.68", "radial maze learning", "learning-specific SWR increase"]
+    },
+    {
+      "pmid": "40962324",
+      "pmcid": "PMC12576410",
+      "doi": "10.5483/BMBRep.2025-0033",
+      "title": "Systems memory consolidation during sleep: oscillations, neuromodulators, and synaptic remodeling",
+      "authors_short": "Kim J & Park M",
+      "journal": "BMB Reports",
+      "year": 2025,
+      "first_used": "2026-05-29",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-29-memory-consolidation-swr.md"],
+      "aspects_covered": ["SO-spindle-SWR hierarchy", "neuromodulator dynamics ACh/NE/DA", "synaptic homeostasis hypothesis SHY", "NREM vs REM synaptic remodeling"]
     }
   ]
 }

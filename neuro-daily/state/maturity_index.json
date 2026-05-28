@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-29",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -178,6 +178,54 @@
       "supporting_sources": 3,
       "last_status_change": "2026-05-28",
       "reason": "创建 2026-05-28。网格细胞由 Hafting et al. 2005 (Nature) 发现，随后数百项研究重复验证；共同获 2014 年诺贝尔奖。六角网格放电、路径整合能力、背腹轴间距梯度均有充分证据。主要不确定性：生成机制（振荡干涉 vs 吸引子网络），但不影响现象的 established 状态。"
+    },
+    {
+      "slug": "memory-consolidation",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-05-29",
+      "reason": "创建 2026-05-29。记忆巩固（突触巩固+系统巩固）的双层机制是教科书共识；SWR 对巩固的因果性由多重破坏实验（电刺激、光遗传）证实；两阶段模型（Buzsáki）有30年研究支持（PMID:26135716）。主要开放争议：标准巩固 vs 多迹迹理论（情景记忆长期海马依赖性），不影响核心机制的 established 状态。"
+    },
+    {
+      "slug": "sharp-wave-ripple",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-29",
+      "reason": "创建 2026-05-29。SWR 的产生机制（CA3 循环→CA1 PV+ 篮细胞涟漪）、序列重放、记忆功能均有多重独立实验证实（Buzsáki 综述，多破坏实验，Ramadan 等学习相关性研究）。主要不确定性：10-40% SWR 有重放，其余 SWR 的功能；但整体记忆功能是 established。"
+    },
+    {
+      "slug": "synaptic-homeostasis",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 2,
+      "last_status_change": "2026-05-29",
+      "reason": "创建 2026-05-29。SHY（Tononi & Cirelli）是主流睡眠记忆理论之一，有直接突触形态学（电镜）和双光子成像支持。但'全局下调+选择性保护'的具体机制细节仍有争议（部分结果发现非全局下调）；多项预测被挑战。置信度设为 medium（mainstream 假说，非 established）。"
+    },
+    {
+      "slug": "place-cell",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-05-29",
+      "reason": "修订 2026-05-29（原 2026-05-28 创建）。新增 SWR 序列重放内容（睡眠重放一节展开），连接到 memory-consolidation 和 sharp-wave-ripple。无成熟度变化。"
+    },
+    {
+      "slug": "ltp",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-05-29",
+      "reason": "修订 2026-05-29（原 2026-05-26 创建，2026-05-28 第一次修订）。第三次修订：新增 SWR 诱导的 CA3→CA1 LTP 作为系统巩固的突触机制；新增突触稳态（SHY）背景关系。无成熟度变化。"
+    },
+    {
+      "slug": "hippocampal-circuit",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 6,
+      "last_status_change": "2026-05-29",
+      "reason": "修订 2026-05-29（原 2026-05-28 创建）。展开记忆巩固机制（SWR 三重耦合，标准巩固 vs 多迹迹争议）；新增 sharp-wave-ripple 连接。无成熟度变化。"
     }
   ]
 }

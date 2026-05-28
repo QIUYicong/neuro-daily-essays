@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-28",
-  "node_count": 20,
-  "edge_count": 68,
+  "updated": "2026-05-29",
+  "node_count": 23,
+  "edge_count": 84,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -184,6 +184,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/grid-cell.md"
+    },
+    {
+      "id": "memory-consolidation",
+      "title": "记忆巩固",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/memory-consolidation.md"
+    },
+    {
+      "id": "sharp-wave-ripple",
+      "title": "尖波涟漪（SWR）",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/sharp-wave-ripple.md"
+    },
+    {
+      "id": "synaptic-homeostasis",
+      "title": "突触稳态假说（SHY）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/synaptic-homeostasis.md"
     }
   ],
   "edges": [
@@ -253,7 +280,24 @@
     {"from": "grid-cell", "to": "place-cell", "type": "related", "note": "网格细胞通过穿孔通路为场所细胞提供空间坐标输入框架"},
     {"from": "grid-cell", "to": "hippocampal-circuit", "type": "related", "note": "内嗅皮层网格细胞是海马回路的主要皮层输入源"},
     {"from": "dendritic-computation", "to": "place-cell", "type": "related", "note": "树突平台电位（树突计算特殊形式）是场所场单次写入的关键细胞机制"},
-    {"from": "dendritic-computation", "to": "btsp", "type": "related", "note": "树突钙平台电位触发 BTSP；BTSP 是树突计算在行为时间尺度可塑性中的体现"}
+    {"from": "dendritic-computation", "to": "btsp", "type": "related", "note": "树突钙平台电位触发 BTSP；BTSP 是树突计算在行为时间尺度可塑性中的体现"},
+    {"from": "sharp-wave-ripple", "to": "memory-consolidation", "type": "mechanism-of", "note": "SWR 是系统巩固的核心电生理执行机制"},
+    {"from": "sharp-wave-ripple", "to": "hippocampal-circuit", "type": "part-of", "note": "SWR 是 CA3 循环网络的自发同步爆发，CA1 涟漪是其输出表现"},
+    {"from": "sharp-wave-ripple", "to": "place-cell", "type": "related", "note": "场所细胞序列是 SWR 重放的主要内容；两者在海马记忆编码-巩固链路中紧密耦合"},
+    {"from": "sharp-wave-ripple", "to": "ltp", "type": "related", "note": "SWR 期间 CA3→CA1 同步激活满足 LTP 诱导条件，是突触巩固的机制之一"},
+    {"from": "memory-consolidation", "to": "hippocampal-circuit", "type": "mechanism-of", "note": "系统巩固是海马→皮层的记忆转移，CA3 SWR 驱动 CA1→皮层广播"},
+    {"from": "memory-consolidation", "to": "ltp", "type": "related", "note": "皮层 LTP 是系统巩固的最终突触机制；SWR 诱导的重复激活在皮层建立持久 LTP"},
+    {"from": "memory-consolidation", "to": "place-cell", "type": "related", "note": "场所细胞序列的夜间重放是海马空间记忆系统巩固的内容核心"},
+    {"from": "memory-consolidation", "to": "synaptic-homeostasis", "type": "related", "note": "SHY 描述了巩固背景下的突触稳态调节：全局下调+SWR 选择性保护"},
+    {"from": "hippocampal-circuit", "to": "sharp-wave-ripple", "type": "supports", "note": "CA3 循环回路是 SWR 的起源结构；海马回路决定 SWR 的内容和时序"},
+    {"from": "place-cell", "to": "memory-consolidation", "type": "related", "note": "场所细胞通过 SWR 序列重放参与空间情景记忆的系统巩固"},
+    {"from": "place-cell", "to": "sharp-wave-ripple", "type": "related", "note": "场所细胞序列是 SWR 重放的生物学内容"},
+    {"from": "ltp", "to": "memory-consolidation", "type": "mechanism-of", "note": "LTP 是系统巩固后期皮层突触持久化的分子机制"},
+    {"from": "ltp", "to": "synaptic-homeostasis", "type": "related", "note": "SHY 在 LTP 的全局累积背景下运作：清醒期 LTP 上调，睡眠期稳态下调"},
+    {"from": "synaptic-homeostasis", "to": "memory-consolidation", "type": "related", "note": "SHY 是系统巩固的突触层背景机制：优化记忆信噪比"},
+    {"from": "synaptic-homeostasis", "to": "ltp", "type": "related", "note": "SHY 的下调依赖 LTD/受体内吞，与 LTP 形成动态平衡"},
+    {"from": "synaptic-homeostasis", "to": "sharp-wave-ripple", "type": "related", "note": "SWR 驱动选择性激活使部分突触在整体下调中被保护"},
+    {"from": "synaptic-homeostasis", "to": "ampa-receptor", "type": "mechanism-of", "note": "AMPA 受体的插入/内吞是 SHY 全局上调/下调的分子执行者"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -267,6 +311,6 @@
     {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议，待建页面"},
     {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
     {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},
-    {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell"], "note": "记忆巩固，海马SWR重放→皮层系统巩固机制，新增悬空引用"}
+    {"slug": "sleep-oscillations", "referenced_by": ["memory-consolidation", "sharp-wave-ripple", "synaptic-homeostasis"], "note": "睡眠振荡（慢振荡SO、纺锤波、REM/NREM结构），三重耦合机制的背景；新增悬空引用"}
   ]
 }

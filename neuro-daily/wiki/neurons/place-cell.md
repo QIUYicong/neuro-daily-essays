@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-28
-revision_count: 1
+updated: 2026-05-29
+revision_count: 2
 dimensions: [cellular, brain-region, cognition, behavior]
-related: [hippocampal-circuit, btsp, grid-cell, dendritic-computation, ltp, hebbian-learning, engram-cells, theta-oscillations]
+related: [hippocampal-circuit, btsp, grid-cell, dendritic-computation, ltp, hebbian-learning, engram-cells, theta-oscillations, memory-consolidation, sharp-wave-ripple]
 prerequisites: [dendritic-computation, ltp, hippocampal-circuit]
 opens_questions: [Q-place-field-content, Q-place-field-btsp-universality, Q-remapping-trigger]
-source_articles: [2026-05-28-place-cells-btsp]
-key_sources: ["PMID:26167906", "PMID:28883072", "PMID:18284371", "PMID:32042144"]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-29-memory-consolidation-swr]
+key_sources: ["PMID:26167906", "PMID:28883072", "PMID:18284371", "PMID:32042144", "PMID:26135716"]
 ---
 
 # 场所细胞 (Place Cell)
@@ -60,9 +60,18 @@ CA1 场所细胞整合两路主要输入：
 
 两路输入在树突的不同区域整合（CA3 → 近端树突；EC3 → 远端树突），BTSP 由两路联合触发产生。
 
-### 4. 睡眠期的重放（Replay）
+### 4. 睡眠期的序列重放（Replay via SWR）
 
-场所细胞在睡眠中会**重放**白天的空间序列，速度约为行为时的 10–20 倍（"sharp-wave ripples" 期间）。这一重放被认为是海马→皮层记忆巩固的关键步骤。
+场所细胞在睡眠中会**重放**白天的空间序列——这一重放发生在**尖波涟漪（SWR）**期间，速度约为行为时的 **~20 倍**（PMID:26135716）。
+
+**重放的细节**（PMID:30356103）：
+- 正向重放：保留原始方向，与导航预测和规划相关
+- 反向重放：逆向，与奖励强化相关（频率随奖励大小增加）
+- 前瞻重放：重放从未经过的路径，可能服务于未来规划
+
+**场所细胞序列是 SWR 的"内容"**：SWR 之所以能携带有意义的记忆信号，正是因为场所细胞在 θ 振荡中建立了时序关联——SWR 在睡眠中以压缩形式回放这些关联，向皮层"广播"记忆。
+
+这一重放是**海马→皮层系统巩固的关键步骤**（见 [[memory-consolidation]]）。
 
 ## 关键证据
 
@@ -83,6 +92,8 @@ CA1 场所细胞整合两路主要输入：
 - [[ltp]] — BTSP 与 LTP 并列为两种独立的突触增强机制；场所场由 BTSP 主导
 - [[engram-cells]] — 场所细胞是空间情景记忆的印迹细胞候选
 - [[theta-oscillations]] — θ 振荡调控平台电位的触发时机（θ 相位依赖性）
+- [[memory-consolidation]] — 场所细胞序列通过 SWR 重放完成系统巩固
+- [[sharp-wave-ripple]] — SWR 是场所细胞序列重放的电生理执行者
 
 ## 未解问题
 
@@ -93,7 +104,9 @@ CA1 场所细胞整合两路主要输入：
 ## 修订历史
 
 - 2026-05-28 · 创建 · 填补悬空引用（由 [[树突计算]] 页引用）· 基于《场所细胞》文章 · 初始置信度：高
+- 2026-05-29 · 修订 · 基于《海马的夜间档案馆》文章 · 展开睡眠重放一节（SWR 重放的详细机制）· 新增 memory-consolidation 和 sharp-wave-ripple 的连接
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
+- [[2026-05-29-memory-consolidation-swr]]

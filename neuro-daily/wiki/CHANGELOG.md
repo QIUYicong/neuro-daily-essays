@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-05-29
+
+**源文章**：[[2026-05-29-memory-consolidation-swr]] —《海马的夜间档案馆：尖波涟漪如何在睡眠中将一日经历刻入长期记忆》
+
+**新建页面（3）**：
+- `concepts/memory-consolidation.md`（记忆巩固）🟢 established — **填补高优先级悬空引用**（hippocampal-circuit 和 place-cell 均引用）；两阶段记忆模型（Buzsáki）；系统巩固机制（SWR → 皮层 LTP）；SO-纺锤波-SWR 三重耦合；神经调质编排；突触稳态假说（SHY）；标准巩固理论 vs 多迹迹理论争议
+- `neurons/sharp-wave-ripple.md`（尖波涟漪 SWR）🟢 established — CA3 循环回路产生（60–100 km 轴突侧支）；CA1 PV+ 篮细胞协调涟漪（150–250 Hz）；20:1 序列压缩重放；1.5% CA1 细胞参与 50% SWR；正向/反向/前瞻重放类型；双重功能（即时使用+系统巩固）
+- `concepts/synaptic-homeostasis.md`（突触稳态假说 SHY）🔵 mainstream / 置信度中 — 清醒期全局突触上调 + 睡眠期全局下调 + SWR 选择性保护；机制细节仍有争议
+
+**修订页面（3）**：
+- `neurons/place-cell.md`：展开睡眠重放一节（~20:1 压缩比，正向/反向/前瞻重放，SWR 作为执行者）；related 增加 memory-consolidation, sharp-wave-ripple；key_sources 增加 PMID:26135716；revision_count 1→2
+- `concepts/ltp.md`：新增 SWR 诱导 CA3→CA1 LTP 作为系统巩固的突触机制；新增突触稳态背景；related 增加 memory-consolidation, sharp-wave-ripple, synaptic-homeostasis；revision_count 2→3
+- `neurons/hippocampal-circuit.md`：展开记忆巩固机制（SWR 三重耦合，标准巩固 vs 多迹迹争议）；related 增加 sharp-wave-ripple；revision_count 1→2
+
+**矛盾登记（0）**：今日证据与既有 wiki 主张无冲突。SWR 的"双重功能"框架（Joo & Frank 2018）是对传统"仅巩固"假说的扩展，而非矛盾。标准巩固 vs 多迹迹理论的争议已在 memory-consolidation 页面如实并列，但尚不足以作为 contested_claim（两种理论的分歧点在人类情景记忆的长期海马依赖性，而非基础机制）。
+
+**悬空引用解决（2）**：
+- `memory-consolidation`（记忆巩固）— ✅ 已建页面（此前被 hippocampal-circuit、place-cell 引用，高优先级）
+- ~~`sharp-wave-ripple`~~ — ✅ 已建（新增节点，之前在文章中作为概念提及但无独立页面）
+
+**新增悬空引用（1）**：
+- `sleep-oscillations`（睡眠振荡）— 被 memory-consolidation 和 sharp-wave-ripple 引用；包含慢振荡（SO）、纺锤波、NREM/REM 结构
+
+**层级跨越**：今日从**脑区层（brain-region）**跨越到**全脑网络层（whole-brain-network）**和**行为层（behavior）**——从 CA1 场所细胞的局部编码，到海马-丘脑-皮层的全脑协同，到睡眠行为中的记忆转移。
+
+**图谱**：节点 20→23，边 68→84，悬空引用：memory-consolidation 已填补，新增 sleep-oscillations。
+
+---
+
 ## 2026-05-28
 
 **源文章**：[[2026-05-28-place-cells-btsp]] —《场所细胞：海马如何在单次穿越中一次性写入空间记忆》

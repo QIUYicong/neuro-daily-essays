@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-28
-revision_count: 1
+updated: 2026-05-29
+revision_count: 2
 dimensions: [brain-region, microcircuit, cognition]
-related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation]
+related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, sharp-wave-ripple]
 prerequisites: [synaptic-transmission, ltp, action-potential]
 opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism]
-source_articles: [2026-05-28-place-cells-btsp]
-key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575"]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-29-memory-consolidation-swr]
+key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:30356103"]
 ---
 
 # 海马回路 (Hippocampal Circuit)
@@ -82,9 +82,10 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - 情景信息（时间+地点+事件）的绑定
 
 **记忆巩固**（天~月~年）：
-- 睡眠中的 sharp-wave ripple（SWR）期间，海马场所细胞序列**重放**
-- 皮层逐渐独立表征记忆（系统巩固）
-- 最终海马不再是必需的（远期记忆可在皮层独立存储）
+- 睡眠中的**尖波涟漪（SWR）**期间，CA3 循环网络自发爆发 → CA1 场所细胞序列以 ~20:1 压缩比重放
+- SWR 嵌套于皮层慢振荡-纺锤波层级中，向前额叶等皮层区域广播（见 [[memory-consolidation]]）
+- 皮层突触在反复激活中逐渐增强，形成独立于海马的表征（系统巩固）
+- 最终远期记忆可在皮层独立存储（但情景记忆是否完全独立于海马仍有争议：标准巩固 vs. 多迹迹理论）
 
 ## 关键证据
 
@@ -103,7 +104,8 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - [[grid-cell]] — 内嗅皮层网格细胞通过穿孔通路输入到 DG/CA3/CA1
 - [[ltp]] — CA3 循环突触和 CA1 Schaffer 突触的 LTP 是长期记忆的突触基础
 - [[dendritic-computation]] — CA1 锥体细胞的树突计算（平台电位）是 BTSP 的物理基础
-- [[memory-consolidation]] — 海马 SWR 重放是海马→皮层记忆巩固的机制
+- [[memory-consolidation]] — 海马 SWR 重放是海马→皮层记忆巩固的机制；CA3 是 SWR 的起源
+- [[sharp-wave-ripple]] — SWR 是 CA3 循环网络在离线期的自发同步爆发
 - [[theta-oscillations]] — θ 振荡（4–12 Hz）协调海马回路的编码节律，调控 BTSP 触发时机
 
 ## 未解问题
@@ -114,7 +116,9 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 ## 修订历史
 
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高
+- 2026-05-29 · 修订 · 基于《海马的夜间档案馆》文章 · 展开记忆巩固机制（SWR 三重耦合、系统巩固争议）· 新增 sharp-wave-ripple 连接
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
+- [[2026-05-29-memory-consolidation-swr]]

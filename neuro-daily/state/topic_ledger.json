@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-28",
-  "total_articles": 5,
+  "last_updated": "2026-05-29",
+  "total_articles": 6,
   "entries": [
     {
       "date": "2026-05-24",
@@ -311,17 +311,79 @@
       "dangling_reference_filled": "place-cell（填补了树突计算页面的高优先级悬空引用）"
     }
   ],
+    {
+      "date": "2026-05-29",
+      "title": "海马的夜间档案馆：尖波涟漪如何在睡眠中将一日经历刻入长期记忆",
+      "filename": "2026-05-29-memory-consolidation-swr.md",
+      "wiki_pages_created": [
+        "wiki/concepts/memory-consolidation.md",
+        "wiki/neurons/sharp-wave-ripple.md",
+        "wiki/concepts/synaptic-homeostasis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/place-cell.md",
+        "wiki/concepts/ltp.md",
+        "wiki/neurons/hippocampal-circuit.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "在睡眠期间，海马 CA1 区的尖波涟漪（SWR）如何驱动神经元序列压缩重放，通过与皮层慢波振荡的精密耦合，将短暂的海马记忆逐步转化为分布在新皮层中的持久记忆痕迹？",
+      "layer": ["全脑网络", "行为", "脑区", "突触"],
+      "curriculum_track": "4. 学习和记忆（记忆巩固与系统巩固）",
+      "topic_tags": [
+        "sharp-wave ripple",
+        "SWR",
+        "memory consolidation",
+        "systems consolidation",
+        "hippocampal replay",
+        "sequence replay",
+        "NREM sleep",
+        "slow oscillation",
+        "sleep spindle",
+        "two-stage memory model",
+        "Buzsaki",
+        "synaptic homeostasis",
+        "SHY",
+        "CA3",
+        "PV+ basket cell",
+        "acetylcholine",
+        "neuromodulation",
+        "three-oscillation coupling"
+      ],
+      "main_sources": [
+        "PMID:26135716 (PMC4648295)",
+        "PMID:30356103 (PMC6794196)",
+        "PMID:34262446 (PMC8273653)",
+        "PMID:19693273 (PMC2725314)",
+        "PMID:40962324 (PMC12576410)"
+      ],
+      "unresolved_questions": [
+        "只有10-40% 的 SWR 有可检测的序列重放，其余的功能是什么？（Q-swr-noreplay）",
+        "SWR 选择优先重放哪些经历的分子/回路机制？（Q-swr-selection）",
+        "标准巩固理论 vs. 多迹迹理论，情景记忆的长期海马依赖性如何定论？（Q-systems-consolidation-debate）"
+      ],
+      "next_suggested_topics": [
+        "印迹细胞（engram cells）：场所细胞与行为记忆的实验联系，光遗传激活印迹细胞（填补高优先级悬空引用）",
+        "θ 振荡与相位编码：场所细胞θ相位进动，序列编码，SWR-θ 互斥模式（填补 theta-oscillations 悬空引用）",
+        "睡眠振荡：慢振荡、纺锤波、REM 的详细机制（填补 sleep-oscillations 悬空引用）",
+        "LTD 的分子机制：与今日 LTP+SWR 下调形成对称补充",
+        "抑制性中间神经元多样性：PV+/SST+/VIP+，以及 PV+ 篮细胞在 SWR 生成中的具体角色（延续今日机制）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 6,
+      "dangling_reference_filled": "memory-consolidation（填补了 hippocampal-circuit 和 place-cell 页面的高优先级悬空引用）"
+    }
+  ],
   "layer_coverage_recent": {
     "molecular": ["2026-05-24", "2026-05-25", "2026-05-26"],
     "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28"],
     "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28"],
     "microcircuit": ["2026-05-27"],
     "brain_region": ["2026-05-27", "2026-05-28"],
-    "whole_brain_network": [],
-    "behavior": [],
+    "whole_brain_network": ["2026-05-29"],
+    "behavior": ["2026-05-29"],
     "cognition": ["2026-05-26", "2026-05-27", "2026-05-28"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "今日（2026-05-28）成功扩展到脑区层（brain-region），实现从单神经元树突计算（昨日）到海马回路（今日）的层级跨越。今日覆盖了脑区层、细胞层、突触层三个层级。连续 5 天未涉及 whole_brain_network / behavior / disease / methods 层，建议下一篇考虑更大层级跨越（如记忆巩固→whole-brain-network，或方法论→methods），以防止连续偏向同一维度。直接候选：印迹细胞（认知/行为层，填补高优先级悬空引用）或 θ 振荡（methods + behavior 层）。"
+  "layer_note": "2026-05-29 成功跨越到全脑网络层（whole-brain-network）和行为层（behavior）！通过 SWR-记忆巩固主题，首次覆盖了睡眠行为（behavior）和海马-丘脑-皮层网络（whole-brain-network）。6 天来 disease/methods 层仍未覆盖，建议后续考虑：(1) θ 振荡（methods 方法层 + behavior 层，双重覆盖）；(2) 抑制性中间神经元多样性（microcircuit 层，延续今日 PV+ 细胞线索）；(3) 印迹细胞（认知层，填补高优先级悬空引用）。disease 层尚未涉及，可考虑以 AD 的 SWR 异常作为切入点（自然延续今日主题）。"
 }

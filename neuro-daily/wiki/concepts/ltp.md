@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-05-28
-revision_count: 2
+updated: 2026-05-29
+revision_count: 3
 dimensions: [synaptic, cellular, cognition, brain-region]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltp-ltd, btsp, place-cell, hippocampal-circuit]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltp-ltd, btsp, place-cell, hippocampal-circuit, memory-consolidation, sharp-wave-ripple, synaptic-homeostasis]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-29-memory-consolidation-swr]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26135716"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -80,6 +80,9 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 - [[synaptic-transmission]] — LTP 增强突触传递效率，是突触传递的可塑性形态
 - [[btsp]] — 与 LTP 并列的第二种突触增强机制；秒级时间窗口，由树突钙平台电位触发；两者互补
 - [[place-cell]] — 场所场的形成主要由 BTSP 驱动（非 LTP），但 LTP 可能参与场所场的长期巩固
+- [[memory-consolidation]] — SWR 重放期间，CA3→CA1 突触可被诱导产生 LTP，是系统巩固的突触层面机制之一
+- [[sharp-wave-ripple]] — SWR 期间的同步激活满足 LTP 诱导条件（强突触前活动 + 突触后去极化）
+- [[synaptic-homeostasis]] — LTP 在清醒期的全局累积与睡眠期的稳态下调之间的平衡
 
 ## 未解问题
 
@@ -91,6 +94,7 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增 BTSP 作为平行突触增强机制；LTP 与 BTSP 的分工与互补关系；related 增加 btsp, place-cell, hippocampal-circuit
+- 2026-05-29 · 修订 · 基于《海马的夜间档案馆》文章 · 新增 SWR 诱导的 LTP 作为系统巩固的突触机制；新增突触稳态（SHY）的背景关系；related 增加 memory-consolidation, sharp-wave-ripple, synaptic-homeostasis
 
 ## 来源文章
 
