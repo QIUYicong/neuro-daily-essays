@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-27",
-  "total_articles": 4,
+  "last_updated": "2026-05-28",
+  "total_articles": 5,
   "entries": [
     {
       "date": "2026-05-24",
@@ -239,19 +239,89 @@
       "mode": "long_term_curriculum",
       "article_number": 4,
       "dangling_reference_filled": "dendritic-computation（填补了 hodgkin-huxley-model 页面的长期悬空引用）"
+    },
+    {
+      "date": "2026-05-28",
+      "title": "场所细胞：海马如何在单次穿越中一次性写入空间记忆",
+      "filename": "2026-05-28-place-cells-btsp.md",
+      "wiki_pages_created": [
+        "wiki/neurons/place-cell.md",
+        "wiki/concepts/btsp.md",
+        "wiki/neurons/hippocampal-circuit.md",
+        "wiki/neurons/grid-cell.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/dendritic-computation.md",
+        "wiki/concepts/ltp.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "海马 CA1 场所细胞如何通过树突钙平台电位和行为时间尺度突触可塑性（BTSP）在单次穿越中建立稳定场所场？",
+      "layer": ["脑区", "细胞", "突触"],
+      "curriculum_track": "3. 大脑如何编码世界（空间表征）→ 4. 学习和记忆（BTSP 桥接）",
+      "topic_tags": [
+        "place cell",
+        "place field",
+        "hippocampus",
+        "CA1",
+        "CA3",
+        "dentate gyrus",
+        "BTSP",
+        "behavioral timescale synaptic plasticity",
+        "calcium plateau potential",
+        "single-trial learning",
+        "cognitive map",
+        "grid cell",
+        "entorhinal cortex",
+        "MEC",
+        "trisynaptic circuit",
+        "pattern separation",
+        "pattern completion",
+        "spatial navigation",
+        "path integration",
+        "remapping"
+      ],
+      "main_sources": [
+        "PMID:26167906 (PMC4888374)",
+        "PMID:28883072 (PMC7289271)",
+        "PMID:34882093",
+        "PMID:39454575",
+        "PMID:15965463",
+        "PMID:18284371",
+        "PMID:32042144 (PMC7115869)",
+        "PMID:25363782",
+        "PMID:30036841",
+        "PMID:41025505"
+      ],
+      "unresolved_questions": [
+        "BTSP 在人类海马中是否保守？",
+        "BTSP 与 STDP 如何在同一突触上共存和切换？",
+        "网格细胞六角图案的生成机制（振荡干涉 vs 连续吸引子）",
+        "场所场重映射的触发条件",
+        "场所细胞是否编码情绪/奖励等非空间信息？"
+      ],
+      "next_suggested_topics": [
+        "印迹细胞（engram cells）：场所细胞与记忆行为的联系，光遗传激活印迹细胞（填补高优先级悬空引用）",
+        "θ振荡与海马序列编码：θ 相位编码、θ 序列、场所细胞节律框架（填补 theta-oscillations 悬空引用）",
+        "记忆巩固：海马 SWR 重放 → 皮层巩固（从场所细胞自然延伸到记忆系统层面）",
+        "抑制性中间神经元多样性：PV+/SST+/VIP+ 在海马和皮层中如何调控场所场形成（接续昨日未解问题）",
+        "LTD 的分子机制（磷酸酶、AMPA 受体内吞）作为 LTP 的对称补充"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 5,
+      "dangling_reference_filled": "place-cell（填补了树突计算页面的高优先级悬空引用）"
     }
   ],
   "layer_coverage_recent": {
     "molecular": ["2026-05-24", "2026-05-25", "2026-05-26"],
-    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27"],
-    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26"],
+    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28"],
+    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28"],
     "microcircuit": ["2026-05-27"],
-    "brain_region": ["2026-05-27"],
+    "brain_region": ["2026-05-27", "2026-05-28"],
     "whole_brain_network": [],
     "behavior": [],
-    "cognition": ["2026-05-26", "2026-05-27"],
+    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "今日（2026-05-27）成功转入细胞/微回路层，填补了 microcircuit 层的空白。brain_region 层通过视觉皮层（V1）和海马（CA1）的体内证据初次涉及。建议下一篇在课程脊柱中继续细胞/微回路层（如中间神经元多样性、海马回路）或扩展到脑区层（场所细胞/网格细胞），避免回到分子/突触层。"
+  "layer_note": "今日（2026-05-28）成功扩展到脑区层（brain-region），实现从单神经元树突计算（昨日）到海马回路（今日）的层级跨越。今日覆盖了脑区层、细胞层、突触层三个层级。连续 5 天未涉及 whole_brain_network / behavior / disease / methods 层，建议下一篇考虑更大层级跨越（如记忆巩固→whole-brain-network，或方法论→methods），以防止连续偏向同一维度。直接候选：印迹细胞（认知/行为层，填补高优先级悬空引用）或 θ 振荡（methods + behavior 层）。"
 }

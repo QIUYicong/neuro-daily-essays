@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-05-26
-revision_count: 1
-dimensions: [synaptic, cellular, cognition]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltp-ltd]
+updated: 2026-05-28
+revision_count: 2
+dimensions: [synaptic, cellular, cognition, brain-region]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltp-ltd, btsp, place-cell, hippocampal-circuit]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -25,6 +25,8 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526"]
 我们现在认为，LTP 是突触可塑性的核心机制之一，是"用进废退"原则在突触层面的分子实现。LTP 的诱导需要 NMDA 受体的激活（即突触前和突触后活动的 Hebb 型巧合），Ca²⁺ 内流激活 CaMKII（自磷酸化至 T286），CaMKII 驱动 AMPA 受体从胞内再循环内体通过胞吐和横向扩散插入突触后致密区（PSD），突触传递效率持久增强。早期 LTP（E-LTP，数小时）主要依赖蛋白修饰（磷酸化）；晚期 LTP（L-LTP，数天至数周）还需要新蛋白质合成和树突棘结构的持久改变。海马 CA1 突触 LTP 的表达主要在突触后（AMPA 受体插入），而苔藓纤维→CA3 的 LTP 有明显的突触前成分（cAMP 依赖的递质释放增加）。
 
 **重要**：LTP 不只是学习的必要条件，也与多种疾病相关——Aβ 寡聚体损害 LTP 并触发 LTD 样变化，可能是阿尔茨海默病早期记忆损害的突触层面机制。
+
+**2026-05-28 新增（来自《场所细胞》文章）**：LTP 并非大脑唯一的持久性突触增强机制。海马 CA1 中的**行为时间尺度突触可塑性（BTSP）**是一种独立的学习规则，由树突钙平台电位（而非 NMDA 受体激活）触发，时间窗口约 ±3–4 秒（远超 LTP 诱导的毫秒级）。BTSP 可在单次体验中建立稳定的场所场。两者可能各有适用场景：LTP 适合精细调整和长期巩固，BTSP 适合快速写入行为级别的情景记忆。两者可能共享 NMDA 受体下游的部分分子机器（CaMKII 等），但触发条件和时间逻辑完全不同。
 
 ## 关键机制
 
@@ -76,6 +78,8 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526"]
 - [[camkii]] — Ca²⁺ 内流的第一个主要下游效应器，对诱导和维持均必要
 - [[hebbian-learning]] — LTP 是 Hebb 规则在突触层面的分子实现
 - [[synaptic-transmission]] — LTP 增强突触传递效率，是突触传递的可塑性形态
+- [[btsp]] — 与 LTP 并列的第二种突触增强机制；秒级时间窗口，由树突钙平台电位触发；两者互补
+- [[place-cell]] — 场所场的形成主要由 BTSP 驱动（非 LTP），但 LTP 可能参与场所场的长期巩固
 
 ## 未解问题
 
@@ -86,7 +90,9 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526"]
 ## 修订历史
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
+- 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增 BTSP 作为平行突触增强机制；LTP 与 BTSP 的分工与互补关系；related 增加 btsp, place-cell, hippocampal-circuit
 
 ## 来源文章
 
 - [[2026-05-26-nmda-receptor-ltp]]
+- [[2026-05-28-place-cells-btsp]]

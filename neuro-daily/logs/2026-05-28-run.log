@@ -1,0 +1,125 @@
+# 运行日志 2026-05-28
+
+**状态**：✅ 完成（待推送至 main 后确认）
+**分支**：claude/exciting-fermi-ud38c（将合并至 main）
+**运行时间**：约 2026-05-28T01:xx UTC
+
+---
+
+## 选题决策
+
+**优先级分析**：
+- 突破追踪：无近 7 天重大突破需优先处理
+- 矛盾裁决：C-2026-05-24-01（AIS GABA 极性）和 C-2026-05-25-01（SNARE 就绪态）仍为 open，但无新证据可裁决
+- **悬空引用**：`place-cell` 在 _graph.json 中被 `dendritic-computation` 引用，标记为高优先级 ✅
+- 层级约束：需避免分子/突触层（前 3 天已覆盖）；细胞/微回路层（昨日）；建议脑区层
+- 课程脊柱：3. 大脑如何编码世界（空间表征）
+
+**选题**：场所细胞 + BTSP + 海马回路 + 网格细胞
+**理由**：填补高优先级 `place-cell` 悬空引用；自然延续昨日树突平台电位→场所场的证据（PMID:26167906）；首次进入脑区层；桥接课程脊柱 3 和 4
+
+---
+
+## 检索过程
+
+**搜索词**：
+- "place cells hippocampus place field formation mechanism"
+- "Bittner behavioral timescale synaptic plasticity"
+- "grid cells entorhinal cortex Moser review"
+- "Hafting grid cells entorhinal cortex 2005"
+- "Sheffield Dombeck dendritic calcium place field 2015"
+- "hippocampus CA1 CA3 dentate gyrus circuit review"
+- "place cell cognitive map hippocampus review 2022-2024"
+
+**数据源使用**：
+- PubMed E-utilities：多次查询，部分因参数问题返回空（size 参数无效），换策略后成功
+- PMC BioC/全文：获取 Bittner 2017 (PMC7289271) 和 Hainmueller 2020 (PMC7115869) 全文
+- PubMed 摘要：用于无开放全文的论文（Hafting 2005、Moser 2008 等）
+
+**候选来源数**：13
+**采用来源数**：13（5 开放全文，6 摘要，2 未数字化/历史文献）
+
+---
+
+## 文章写作
+
+**文章路径**：`neuro-daily/articles/2026-05-28-place-cells-btsp.md`
+**字数**：约 5500–6000 中文字符
+**结构**：核心问题 / 一句话摘要 / 重要性 / 背景（O'Keefe 1971 认知地图）/ 海马三突触回路 / 钙平台电位（Bittner 2015）/ BTSP（Bittner 2017）/ 网格细胞（Hafting 2005）/ 比喻 / 对大脑理解的改变 / 争议与未解问题 / 与 AI 对照 / 概念卡片 / 认知地图更新 / 参考来源
+
+---
+
+## wiki 固结
+
+**新建 wiki 页（4 个）**：
+- `wiki/neurons/place-cell.md`（填补高优先级悬空引用）
+- `wiki/concepts/btsp.md`
+- `wiki/neurons/hippocampal-circuit.md`
+- `wiki/neurons/grid-cell.md`
+
+**修订 wiki 页（2 个）**：
+- `wiki/neurons/dendritic-computation.md`：revision_count 1→2，新增 BTSP/场所场连接段落
+- `wiki/concepts/ltp.md`：revision_count 1→2，新增 BTSP 作为平行可塑性规则
+
+**矛盾登记（0）**：今日证据与既有主张无冲突
+
+**悬空引用**：
+- 已填补：`place-cell`
+- 新增：`path-integration`、`memory-consolidation`
+- theta-oscillations 和 engram-cells 在既有列表中，今日进一步强化了其重要性
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`：total_articles 4→5，新增条目
+- `state/unresolved_questions.md`：新增 4 个问题
+- `state/source_registry.json`：新增 7 个来源
+- `state/maturity_index.json`：新增 4 个页面成熟度记录
+- `state/monthly_synthesis.md`：文章数 4→5，新增洞见 16-18
+- `wiki/_graph.json`：节点 16→20，边 50→68
+- `wiki/index.md`：更新至 20 页，新增前沿分析
+- `wiki/CHANGELOG.md`：新增今日条目
+
+---
+
+## 失败与限制
+
+- 部分 PubMed 搜索因 URL 参数问题（size 参数不合法）返回空，已改用单 PMID 查询或调整 URL 格式解决
+- PMC5612842 和 PMC7845947 返回无关内容（PMCID 不对应目标论文），改用直接 PubMed 摘要
+- Bittner 2015 (PMID:26167906) 的详细内容已在 2026-05-27 读取，今日复用，无需重新检索全文
+- Hafting 2005 (Nature)、Sheffield & Dombeck 2015 (Nature) 无开放全文，读摘要；已在文章参考来源中明确标注
+
+---
+
+## Git 操作
+
+**预定提交**：
+- 分支：claude/exciting-fermi-ud38c（工作分支）
+- 推送目标：main（ROUTINE.md 要求）+ claude/exciting-fermi-ud38c（harness 要求）
+
+**提交内容**：
+- `neuro-daily/articles/2026-05-28-place-cells-btsp.md`（新增）
+- `neuro-daily/notes/2026-05-28-reading-notes.md`（新增）
+- `neuro-daily/sources/2026-05-28-sources.json`（新增）
+- `neuro-daily/wiki/neurons/place-cell.md`（新增）
+- `neuro-daily/wiki/concepts/btsp.md`（新增）
+- `neuro-daily/wiki/neurons/hippocampal-circuit.md`（新增）
+- `neuro-daily/wiki/neurons/grid-cell.md`（新增）
+- `neuro-daily/wiki/neurons/dendritic-computation.md`（修订）
+- `neuro-daily/wiki/concepts/ltp.md`（修订）
+- `neuro-daily/wiki/_graph.json`（更新）
+- `neuro-daily/wiki/index.md`（更新）
+- `neuro-daily/wiki/CHANGELOG.md`（更新）
+- `neuro-daily/state/topic_ledger.json`（更新）
+- `neuro-daily/state/unresolved_questions.md`（追加）
+- `neuro-daily/state/source_registry.json`（更新）
+- `neuro-daily/state/maturity_index.json`（更新）
+- `neuro-daily/state/monthly_synthesis.md`（更新）
+- `neuro-daily/logs/2026-05-28-run.log`（新增，本文件）
+
+---
+
+## Push 状态
+
+*待运行 git add + commit + push 后更新*

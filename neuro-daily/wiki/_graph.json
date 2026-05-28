@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-27",
-  "node_count": 16,
-  "edge_count": 50,
+  "updated": "2026-05-28",
+  "node_count": 20,
+  "edge_count": 68,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -148,6 +148,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/pyramidal-neuron.md"
+    },
+    {
+      "id": "place-cell",
+      "title": "场所细胞",
+      "domain": "neurons",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/place-cell.md"
+    },
+    {
+      "id": "btsp",
+      "title": "行为时间尺度突触可塑性（BTSP）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/btsp.md"
+    },
+    {
+      "id": "hippocampal-circuit",
+      "title": "海马回路",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/hippocampal-circuit.md"
+    },
+    {
+      "id": "grid-cell",
+      "title": "网格细胞",
+      "domain": "neurons",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/grid-cell.md"
     }
   ],
   "edges": [
@@ -200,19 +236,37 @@
     {"from": "synaptic-transmission", "to": "dendritic-computation", "type": "prerequisite-for", "note": "理解树突计算需先理解突触传递（谷氨酸释放 → NMDA 受体激活）"},
     {"from": "action-potential", "to": "dendritic-computation", "type": "related", "note": "反向传播 bAP 提供去极化，调控树突棘波的阈值和可塑性窗口"},
     {"from": "dendritic-computation", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "理解树突计算需先理解突触传递"},
-    {"from": "dendritic-computation", "to": "camkii", "type": "related", "note": "树突 NMDA 棘波后 Ca²⁺ 激活 CaMKII 驱动局部 LTP"}
+    {"from": "dendritic-computation", "to": "camkii", "type": "related", "note": "树突 NMDA 棘波后 Ca²⁺ 激活 CaMKII 驱动局部 LTP"},
+    {"from": "place-cell", "to": "hippocampal-circuit", "type": "part-of", "note": "场所细胞位于海马 CA1（及 CA3），是海马回路的功能输出节点"},
+    {"from": "place-cell", "to": "btsp", "type": "mechanism-of", "note": "BTSP 是场所场单次写入的突触机制"},
+    {"from": "place-cell", "to": "dendritic-computation", "type": "mechanism-of", "note": "树突钙平台电位（树突计算的特殊形式）是场所场写入的触发机制"},
+    {"from": "place-cell", "to": "ltp", "type": "related", "note": "LTP 可能参与场所场的长期巩固，但场所场形成主要由 BTSP 驱动"},
+    {"from": "btsp", "to": "ltp", "type": "related", "note": "BTSP 与 LTP 是并列的突触增强机制：秒级（BTSP）vs 毫秒级（LTP）时间窗口"},
+    {"from": "btsp", "to": "dendritic-computation", "type": "mechanism-of", "note": "树突钙平台电位是 BTSP 的触发器，是树突计算在可塑性层面的表现"},
+    {"from": "btsp", "to": "nmda-receptor", "type": "related", "note": "NMDA 受体参与 BTSP（~84% 依赖），但不是主触发器（L 型 Ca 通道是）"},
+    {"from": "btsp", "to": "place-cell", "type": "mechanism-of", "note": "BTSP 产生场所场：秒级时间窗口允许单次穿越就完成写入"},
+    {"from": "btsp", "to": "hebbian-learning", "type": "related", "note": "BTSP 不遵循严格的 Hebb 因果律（可强化非因果输入），但仍是活动依赖的突触修改"},
+    {"from": "hippocampal-circuit", "to": "place-cell", "type": "supports", "note": "海马 CA1 是场所细胞的主要居所；DG/CA3 分别提供模式分离和补全"},
+    {"from": "hippocampal-circuit", "to": "ltp", "type": "related", "note": "LTP 发生在 CA1 Schaffer 突触和 CA3 循环突触，是海马回路突触可塑性的基础"},
+    {"from": "hippocampal-circuit", "to": "grid-cell", "type": "related", "note": "网格细胞（内嗅皮层）通过穿孔通路输入到海马 DG/CA3/CA1"},
+    {"from": "hippocampal-circuit", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "理解海马回路需先理解突触传递"},
+    {"from": "grid-cell", "to": "place-cell", "type": "related", "note": "网格细胞通过穿孔通路为场所细胞提供空间坐标输入框架"},
+    {"from": "grid-cell", "to": "hippocampal-circuit", "type": "related", "note": "内嗅皮层网格细胞是海马回路的主要皮层输入源"},
+    {"from": "dendritic-computation", "to": "place-cell", "type": "related", "note": "树突平台电位（树突计算特殊形式）是场所场单次写入的关键细胞机制"},
+    {"from": "dendritic-computation", "to": "btsp", "type": "related", "note": "树突钙平台电位触发 BTSP；BTSP 是树突计算在行为时间尺度可塑性中的体现"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
     {"slug": "munc18", "referenced_by": ["SNARE-complex"], "note": "SM蛋白，SNARE调控，次要"},
-    {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation"], "note": "电压门控钙通道（P/Q-type N-type用于突触前终末；L-type Cav1.2/1.3用于树突Ca²⁺棘波），待建独立页面"},
+    {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation", "btsp"], "note": "电压门控钙通道（P/Q-type N-type用于突触前终末；L-type Cav1.2/1.3用于树突Ca²⁺棘波和BTSP触发），高优先级"},
     {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，待建页面"},
-    {"slug": "theta-oscillations", "referenced_by": ["ltp"], "note": "θ振荡，LTP的体内诱导节律，待建页面"},
-    {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation"], "note": "印迹细胞，记忆存储的细胞群；与树突计算的联系：平台电位→场所场形成=一次性印迹写入，待建页面"},
+    {"slug": "theta-oscillations", "referenced_by": ["ltp", "place-cell", "hippocampal-circuit", "grid-cell"], "note": "θ振荡，LTP的体内诱导节律；同时调控场所场形成时机（平台电位在θ相位依赖性触发）；高优先级"},
+    {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation", "place-cell"], "note": "印迹细胞，场所细胞是空间情景记忆的印迹细胞候选；光遗传激活印迹细胞可触发记忆回放；高优先级"},
     {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "三因素学习规则（Hebb × 多巴胺），待建页面"},
     {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"},
-    {"slug": "place-cell", "referenced_by": ["dendritic-computation"], "note": "场所细胞（海马 CA1/CA3），今日树突平台电位→场所场快速形成是核心体内证据，高优先级待建页面"},
     {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议，待建页面"},
-    {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"}
+    {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
+    {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},
+    {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell"], "note": "记忆巩固，海马SWR重放→皮层系统巩固机制，新增悬空引用"}
   ]
 }

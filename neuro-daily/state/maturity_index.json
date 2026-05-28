@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-26",
+  "last_updated": "2026-05-28",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -146,6 +146,38 @@
       "supporting_sources": 3,
       "last_status_change": "2026-05-27",
       "reason": "修订 2026-05-27（元数据更新）：[[树突计算]] 页面已建立，此前悬空引用填补。无成熟度变化。"
+    },
+    {
+      "slug": "place-cell",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-05-28",
+      "reason": "创建 2026-05-28。场所细胞存在有 50+ 年的多物种多实验室验证（O'Keefe 1971 诺贝尔级发现）。BTSP 单次写入机制由 Bittner 等人的胞内记录（金标准）确立，NMDA+L 型钙通道药理验证完整。主要不确定性：BTSP 是否是唯一路径（Sumegi 2025 挑战），但不影响 established 状态。"
+    },
+    {
+      "slug": "btsp",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-05-28",
+      "reason": "创建 2026-05-28。由 Bittner et al. 2017 (Science) 提出并验证：胞内记录 + 脑片 + 体内实验 + 完整药理学验证。CA3 的 BTSP 变体由 Li et al. 2024 (Cell) 确认。Milstein et al. 2021 (eLife) 验证双向 BTSP。主要不确定性：分子机制（哪个分子感受秒级窗口）尚不完全明确，但功能现象 established。"
+    },
+    {
+      "slug": "hippocampal-circuit",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-05-28",
+      "reason": "创建 2026-05-28。海马解剖回路（DG/CA3/CA1/EC 连接）是几十年解剖学和电生理研究的共识；各亚区的计算角色（模式分离/补全）有大量行为+电生理实验支持。并行回路模型（非严格串行）由 Hainmueller & Bartos 2020 综述。"
+    },
+    {
+      "slug": "grid-cell",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-28",
+      "reason": "创建 2026-05-28。网格细胞由 Hafting et al. 2005 (Nature) 发现，随后数百项研究重复验证；共同获 2014 年诺贝尔奖。六角网格放电、路径整合能力、背腹轴间距梯度均有充分证据。主要不确定性：生成机制（振荡干涉 vs 吸引子网络），但不影响现象的 established 状态。"
     }
   ]
 }

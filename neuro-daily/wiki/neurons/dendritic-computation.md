@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-27
-updated: 2026-05-27
-revision_count: 1
-dimensions: [cellular, microcircuit, cognition]
-related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission]
+updated: 2026-05-28
+revision_count: 2
+dimensions: [cellular, microcircuit, brain-region, cognition]
+related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission, place-cell, btsp, hippocampal-circuit]
 prerequisites: [action-potential, nmda-receptor, synaptic-transmission]
 opens_questions: [Q-synaptic-clustering-prevalence, Q-dendritic-spike-in-vivo-frequency, Q-inhibition-dendritic-spike-control]
-source_articles: [2026-05-27-dendritic-computation]
-key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147", "PMID:10749211"]
+source_articles: [2026-05-27-dendritic-computation, 2026-05-28-place-cells-btsp]
+key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147", "PMID:10749211", "PMID:28883072"]
 ---
 
 # 树突计算 (Dendritic Computation)
@@ -27,6 +27,8 @@ key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147"
 不同树突分支的输入在胞体层面**线性叠加**，而单根分支内部则是 **sigmoid 非线性**整合——这与一个两层前馈神经网络的结构完全等价：每根分支 ≈ 隐藏层节点，胞体 ≈ 输出层节点。一个拥有 200–500 根树突分支的皮层锥体细胞，因此在功能上等价于一个中等规模的神经网络。
 
 体内实验（视觉皮层、海马）确认树突棘波在活动物的自然感知和记忆编码过程中确实发生，并有行为意义。
+
+**2026-05-28 新增（来自《场所细胞》文章）**：除 NMDA 棘波外，树突还能产生更大的**钙平台电位**（Ca²⁺ plateau potential），由 L 型 Cav1.2/1.3 通道驱动，持续约 100–500 ms。在海马 CA1 中，这类平台电位触发**行为时间尺度突触可塑性（BTSP）**，其时间窗口长达 ±3–4 秒——远超 NMDA 棘波诱导 LTP 的毫秒级窗口。BTSP 使 CA1 场所细胞能在单次穿越一个位置时就建立稳定的场所场。这一机制揭示了树突计算不只在毫秒级发挥作用，也在秒级行为时间尺度上发挥记忆写入功能。
 
 ## 关键机制
 
@@ -82,6 +84,8 @@ key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147"
 - [[action-potential]] — 树突棘波与胞体动作电位的耦合（burst firing）是皮层前馈/反馈整合的关键
 - [[synaptic-transmission]] — 树突棘波需要多个突触的协调活动，反过来影响突触传递效率
 - [[pyramidal-neuron]] — 锥体神经元的特有形态（基底/顶端双树突系统）是树突计算的物理基础
+- [[btsp]] — 树突钙平台电位触发 BTSP（秒级时间窗口），是树突计算在行为时间尺度记忆写入中的体现
+- [[place-cell]] — CA1 场所细胞利用树突平台电位通过 BTSP 单次写入空间记忆
 
 ## 未解问题
 
@@ -92,7 +96,9 @@ key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147"
 ## 修订历史
 
 - 2026-05-27 · 创建 · 基于《树突：神经元内部的神经网络》一文 · 填补 Hodgkin-Huxley 模型页的悬空引用 · 初始置信度：高
+- 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增钙平台电位→BTSP 连接；更新 related 增加 place-cell, btsp, hippocampal-circuit；dimensions 增加 brain-region
 
 ## 来源文章
 
 - [[2026-05-27-dendritic-computation]]
+- [[2026-05-28-place-cells-btsp]]
