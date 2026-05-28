@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-28
-revision_count: 1
+updated: 2026-05-29
+revision_count: 2
 dimensions: [brain-region, microcircuit, cognition]
 related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation]
 prerequisites: [synaptic-transmission, ltp, action-potential]
 opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism]
 source_articles: [2026-05-28-place-cells-btsp]
-key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575"]
+key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386"]
 ---
 
 # 海马回路 (Hippocampal Circuit)
@@ -75,16 +75,28 @@ CA1 的场所细胞通过 BTSP 在单次穿越中建立场所场，时间窗口�
 
 CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶和杏仁核等皮层结构。
 
-### 5. 海马的整体角色
+### 5. 海马的两种工作模式：θ态与SWR态
 
-**急性记忆编码**（分钟~天）：
-- 海马依赖型（需要海马参与）
-- 情景信息（时间+地点+事件）的绑定
+海马在不同行为状态下运行截然不同的工作模式，两者在时间上几乎互斥：
 
-**记忆巩固**（天~月~年）：
-- 睡眠中的 sharp-wave ripple（SWR）期间，海马场所细胞序列**重放**
-- 皮层逐渐独立表征记忆（系统巩固）
-- 最终海马不再是必需的（远期记忆可在皮层独立存储）
+**θ态（在线/编码模式）**：
+- 出现于主动探索、运动和REM睡眠时
+- 局部场电位呈4–12 Hz θ振荡
+- 场所细胞以相位前进（phase precession）方式放电，实现空间位置的双重编码（速率+相位）
+- 每个θ周期内，多个场所细胞形成时间序列（θ sequences），将行为尺度路径压缩约20倍
+- BTSP等突触可塑性依赖于θ振荡协调的时机，实现快速记忆写入
+
+**SWR态（离线/固化模式）**：
+- 出现于静止、非REM睡眠和进食/梳洗等消耗性行为时
+- CA3循环兴奋自发爆发，通过Schaffer侧支驱动CA1产生110–200 Hz涟漪
+- 白天的场所细胞序列以~20倍速度高速重播
+- 重播内容包括前向、反向，甚至新颖路径（规划/想象？）
+- 选择性SWR中断损害次日空间记忆（因果证据）
+- 被认为是海马→新皮层记忆巩固的物理载体
+
+**两种模式的切换机制**：
+- 胆碱能（ACh）张力是关键开关：ACh高→θ态；ACh低→SWR自发爆发
+- MS-DBB驱动θ时，同时抑制CA3的循环兴奋；θ消失时，循环兴奋解放
 
 ## 关键证据
 
@@ -114,7 +126,9 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 ## 修订历史
 
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高
+- 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"海马两种工作模式"（θ态/SWR态）章节；新增 SWR 生成和重播机制；新增 key_sources
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
+- [[2026-05-29-theta-oscillations-phase-coding]]

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-28",
-  "total_articles": 5,
+  "last_updated": "2026-05-29",
+  "total_articles": 6,
   "entries": [
     {
       "date": "2026-05-24",
@@ -309,6 +309,70 @@
       "mode": "long_term_curriculum",
       "article_number": 5,
       "dangling_reference_filled": "place-cell（填补了树突计算页面的高优先级悬空引用）"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "θ振荡与相位编码：大脑如何用节律将空间压缩成时间",
+      "filename": "2026-05-29-theta-oscillations-phase-coding.md",
+      "wiki_pages_created": [
+        "wiki/concepts/theta-oscillations.md",
+        "wiki/concepts/sharp-wave-ripples.md",
+        "wiki/concepts/phase-precession.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/hippocampal-circuit.md",
+        "wiki/neurons/place-cell.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "θ振荡如何使场所细胞实现速率+相位双重编码（相位前进），并在120毫秒的θ周期内将行为时间尺度路径压缩成θ序列？SWR如何以对称方式在休息/睡眠中高速重播这些序列，完成海马→皮层记忆固化？",
+      "layer": ["全脑网络", "脑区", "细胞", "行为"],
+      "curriculum_track": "3. 大脑如何编码世界（时间编码） → 4. 学习和记忆（记忆固化）",
+      "topic_tags": [
+        "theta oscillations",
+        "phase precession",
+        "theta sequences",
+        "theta-gamma nesting",
+        "sharp wave ripples",
+        "SWR",
+        "sequence replay",
+        "memory consolidation",
+        "medial septum",
+        "MS-DBB",
+        "oscillatory interference",
+        "dual-timescale",
+        "O'Keefe Recce",
+        "Buzsáki",
+        "place cell",
+        "hippocampus",
+        "CA3 recurrent",
+        "cross-frequency coupling"
+      ],
+      "main_sources": [
+        "PMID:23354386 (PMC4079500)",
+        "PMID:26135716 (PMC4648295)",
+        "PMID:37720546 (PMC10501408)",
+        "PMID:8353611 (abstract only)",
+        "PMID:16145693 (abstract only)",
+        "PMID:17598147 (abstract only)",
+        "PMID:18559405 (abstract only)",
+        "PMID:34936810 (abstract only)",
+        "PMID:23175823 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-theta-primate：灵长类大脑中相位编码的替代机制是什么？",
+        "Q-swr-reverse-forward：前向/反向/新颖路径重播的选择机制是什么？",
+        "Q-theta-btsp：θ振荡是否直接促进BTSP的平台电位形成？"
+      ],
+      "next_suggested_topics": [
+        "印迹细胞（engram cells）：场所细胞与行为记忆的因果联系（填补高优先级悬空引用）",
+        "记忆巩固：系统巩固理论（睡眠阶段分工、皮层侧LTP、标准巩固 vs 多重痕迹理论）",
+        "LTD 的分子机制：mGluR-LTD，AMPA受体内吞，磷酸酶（与LTP形成对称）",
+        "抑制性中间神经元多样性：PV+/SST+/VIP+ 在海马和皮层中如何调控θ振荡和记忆编码",
+        "内侧隔核（MS-DBB）：θ起搏器的解剖与生理"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 6,
+      "dangling_reference_filled": "theta-oscillations（填补了 place-cell、ltp、hippocampal-circuit、grid-cell 共4个页面的高优先级悬空引用）"
     }
   ],
   "layer_coverage_recent": {
@@ -317,11 +381,11 @@
     "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28"],
     "microcircuit": ["2026-05-27"],
     "brain_region": ["2026-05-27", "2026-05-28"],
-    "whole_brain_network": [],
-    "behavior": [],
+    "whole_brain_network": ["2026-05-29"],
+    "behavior": ["2026-05-29"],
     "cognition": ["2026-05-26", "2026-05-27", "2026-05-28"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "今日（2026-05-28）成功扩展到脑区层（brain-region），实现从单神经元树突计算（昨日）到海马回路（今日）的层级跨越。今日覆盖了脑区层、细胞层、突触层三个层级。连续 5 天未涉及 whole_brain_network / behavior / disease / methods 层，建议下一篇考虑更大层级跨越（如记忆巩固→whole-brain-network，或方法论→methods），以防止连续偏向同一维度。直接候选：印迹细胞（认知/行为层，填补高优先级悬空引用）或 θ 振荡（methods + behavior 层）。"
+  "layer_note": "今日（2026-05-29）首次进入全脑网络（whole-brain-network）层和行为（behavior）层——θ振荡是全海马同步的网络现象，SWR是跨脑区（海马→新皮层）的信息传递机制。layer_coverage 已更新。建议下一篇继续在行为/认知层深挖：印迹细胞（填补高优先级悬空引用，behavior层），或 memory-consolidation（系统层面，whole-brain-network）。也可考虑 methods 层（如钙成像技术综述）。"
 }

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-28",
-  "node_count": 20,
-  "edge_count": 68,
+  "updated": "2026-05-29",
+  "node_count": 23,
+  "edge_count": 86,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -184,6 +184,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/grid-cell.md"
+    },
+    {
+      "id": "theta-oscillations",
+      "title": "θ振荡",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/theta-oscillations.md"
+    },
+    {
+      "id": "sharp-wave-ripples",
+      "title": "尖波涟漪（SWR）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/sharp-wave-ripples.md"
+    },
+    {
+      "id": "phase-precession",
+      "title": "相位前进",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/phase-precession.md"
     }
   ],
   "edges": [
@@ -253,20 +280,37 @@
     {"from": "grid-cell", "to": "place-cell", "type": "related", "note": "网格细胞通过穿孔通路为场所细胞提供空间坐标输入框架"},
     {"from": "grid-cell", "to": "hippocampal-circuit", "type": "related", "note": "内嗅皮层网格细胞是海马回路的主要皮层输入源"},
     {"from": "dendritic-computation", "to": "place-cell", "type": "related", "note": "树突平台电位（树突计算特殊形式）是场所场单次写入的关键细胞机制"},
-    {"from": "dendritic-computation", "to": "btsp", "type": "related", "note": "树突钙平台电位触发 BTSP；BTSP 是树突计算在行为时间尺度可塑性中的体现"}
+    {"from": "dendritic-computation", "to": "btsp", "type": "related", "note": "树突钙平台电位触发 BTSP；BTSP 是树突计算在行为时间尺度可塑性中的体现"},
+    {"from": "theta-oscillations", "to": "place-cell", "type": "regulates", "note": "θ振荡提供场所细胞放电的时间框架（相位前进依赖θ）"},
+    {"from": "theta-oscillations", "to": "phase-precession", "type": "mechanism-of", "note": "相位前进以θ振荡为参照系；θ是相位编码的载体"},
+    {"from": "theta-oscillations", "to": "hippocampal-circuit", "type": "regulates", "note": "θ协调海马CA3/CA1/EC三向通信的时间框架（θ态/SWR态双模式切换）"},
+    {"from": "theta-oscillations", "to": "ltp", "type": "related", "note": "θ-burst stimulation是标准体内LTP诱导方法；θ为STDP/LTP提供体内时间窗口"},
+    {"from": "theta-oscillations", "to": "btsp", "type": "related", "note": "θ振荡可能协调BTSP所需树突平台电位的触发时机（Etter et al. 2023假说）"},
+    {"from": "theta-oscillations", "to": "grid-cell", "type": "related", "note": "内嗅皮层网格细胞也显示θ相位前进；振荡干涉模型解释网格图案"},
+    {"from": "theta-oscillations", "to": "sharp-wave-ripples", "type": "related", "note": "θ（探索/编码）与SWR（静息/固化）是海马两种互斥的工作模式"},
+    {"from": "sharp-wave-ripples", "to": "hippocampal-circuit", "type": "mechanism-of", "note": "SWR由CA3循环兴奋自发产生，通过Schaffer侧支驱动CA1 110-200 Hz涟漪"},
+    {"from": "sharp-wave-ripples", "to": "place-cell", "type": "related", "note": "SWR期间场所细胞序列以~20倍速高速重播"},
+    {"from": "sharp-wave-ripples", "to": "memory-consolidation", "type": "mechanism-of", "note": "SWR重播是海马→皮层记忆固化的物理载体"},
+    {"from": "sharp-wave-ripples", "to": "ltp", "type": "related", "note": "SWR重播可能通过反复Hebbian式激活在皮层建立长期突触（LTP机制）"},
+    {"from": "phase-precession", "to": "theta-oscillations", "type": "mechanism-of", "note": "相位前进是θ振荡的功能体现；θ为放电相位提供时间参照"},
+    {"from": "phase-precession", "to": "place-cell", "type": "mechanism-of", "note": "场所细胞通过相位前进实现速率+相位双重编码"},
+    {"from": "phase-precession", "to": "ltp", "type": "related", "note": "θ序列中先-后神经元时序与STDP/LTP方向性匹配，可能强化路径方向性突触权重"},
+    {"from": "place-cell", "to": "phase-precession", "type": "mechanism-of", "note": "相位前进是场所细胞的核心编码特性之一"},
+    {"from": "hippocampal-circuit", "to": "theta-oscillations", "type": "related", "note": "海马是θ振荡的主要表达场所；θ/SWR双模切换决定海马工作状态"},
+    {"from": "hippocampal-circuit", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "CA3循环回路是SWR的生成器；CA1是涟漪的表达场所"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
     {"slug": "munc18", "referenced_by": ["SNARE-complex"], "note": "SM蛋白，SNARE调控，次要"},
     {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation", "btsp"], "note": "电压门控钙通道（P/Q-type N-type用于突触前终末；L-type Cav1.2/1.3用于树突Ca²⁺棘波和BTSP触发），高优先级"},
     {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，待建页面"},
-    {"slug": "theta-oscillations", "referenced_by": ["ltp", "place-cell", "hippocampal-circuit", "grid-cell"], "note": "θ振荡，LTP的体内诱导节律；同时调控场所场形成时机（平台电位在θ相位依赖性触发）；高优先级"},
     {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation", "place-cell"], "note": "印迹细胞，场所细胞是空间情景记忆的印迹细胞候选；光遗传激活印迹细胞可触发记忆回放；高优先级"},
     {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "三因素学习规则（Hebb × 多巴胺），待建页面"},
     {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"},
     {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议，待建页面"},
     {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
     {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},
-    {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell"], "note": "记忆巩固，海马SWR重放→皮层系统巩固机制，新增悬空引用"}
+    {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples"], "note": "记忆巩固，海马SWR重放→皮层系统巩固机制；今日新增 sharp-wave-ripples 页面已对其内容进行了大量覆盖，但专门的 memory-consolidation 页面仍待建立（涵盖系统巩固、睡眠阶段、皮层侧的LTP等）"},
+    {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"}
   ]
 }

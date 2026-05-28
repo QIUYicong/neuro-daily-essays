@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-28
-revision_count: 1
+updated: 2026-05-29
+revision_count: 2
 dimensions: [cellular, brain-region, cognition, behavior]
 related: [hippocampal-circuit, btsp, grid-cell, dendritic-computation, ltp, hebbian-learning, engram-cells, theta-oscillations]
 prerequisites: [dendritic-computation, ltp, hippocampal-circuit]
 opens_questions: [Q-place-field-content, Q-place-field-btsp-universality, Q-remapping-trigger]
 source_articles: [2026-05-28-place-cells-btsp]
-key_sources: ["PMID:26167906", "PMID:28883072", "PMID:18284371", "PMID:32042144"]
+key_sources: ["PMID:26167906", "PMID:28883072", "PMID:18284371", "PMID:32042144", "PMID:8353611", "PMID:23354386"]
 ---
 
 # 场所细胞 (Place Cell)
@@ -60,9 +60,25 @@ CA1 场所细胞整合两路主要输入：
 
 两路输入在树突的不同区域整合（CA3 → 近端树突；EC3 → 远端树突），BTSP 由两路联合触发产生。
 
-### 4. 睡眠期的重放（Replay）
+### 4. 相位前进：双重编码（2026-05-29 新增）
 
-场所细胞在睡眠中会**重放**白天的空间序列，速度约为行为时的 10–20 倍（"sharp-wave ripples" 期间）。这一重放被认为是海马→皮层记忆巩固的关键步骤。
+场所细胞不仅通过**放电率**编码位置（速率编码），还通过**在θ振荡周期中的放电时机**（相位编码）传递独立的位置信息——这就是**相位前进（phase precession）**（O'Keefe & Recce, 1993, PMID:8353611）：
+
+- 动物**进入**场所场：该细胞在θ波**晚期相位**放电
+- 随着动物穿越：放电相位系统性地**向早期移动**（"前进"）
+- 动物**离开**场所场：放电在θ波**早期相位**
+- 总位移约100–355°；**与位置相关，停止则不继续前进**
+
+相位前进使每个θ周期（120 ms）内，多个场所细胞形成**θ序列**：
+- 早期相位细胞代表当前位置**前方**（未来）
+- 中期相位细胞代表**当前位置**
+- 晚期相位细胞代表当前位置**后方**（过去）
+
+这是大脑实时运行的预测性压缩：行为时间尺度（数秒）的路径被压缩进120毫秒内，约20:1的时间压缩比。
+
+### 5. 睡眠期的重放（Replay）
+
+场所细胞在静息和睡眠（非REM）的**尖波涟漪（SWR）**期间高速重放白天的空间序列，压缩比约20倍。选择性破坏SWR损害次日空间记忆（因果证据）。重放存在前向、反向和新颖路径等多种形式。
 
 ## 关键证据
 
@@ -82,7 +98,9 @@ CA1 场所细胞整合两路主要输入：
 - [[dendritic-computation]] — 树突钙平台电位是场所场写入的细胞机制
 - [[ltp]] — BTSP 与 LTP 并列为两种独立的突触增强机制；场所场由 BTSP 主导
 - [[engram-cells]] — 场所细胞是空间情景记忆的印迹细胞候选
-- [[theta-oscillations]] — θ 振荡调控平台电位的触发时机（θ 相位依赖性）
+- [[theta-oscillations]] — θ 振荡调控平台电位的触发时机；场所细胞的相位前进依赖θ节律
+- [[phase-precession]] — 场所细胞的核心编码特性：放电相位随位置移动，实现速率+相位双重编码
+- [[sharp-wave-ripples]] — 睡眠/静息时SWR高速重播场所细胞序列，是记忆固化的载体
 
 ## 未解问题
 
@@ -93,7 +111,9 @@ CA1 场所细胞整合两路主要输入：
 ## 修订历史
 
 - 2026-05-28 · 创建 · 填补悬空引用（由 [[树突计算]] 页引用）· 基于《场所细胞》文章 · 初始置信度：高
+- 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"相位前进"（第4节）和"SWR重播"（原第4节）；更新 key_sources；添加 [[phase-precession]] 连接
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
+- [[2026-05-29-theta-oscillations-phase-coding]]

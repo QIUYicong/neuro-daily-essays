@@ -1,0 +1,218 @@
+{
+  "date": "2026-05-29",
+  "topic": "θ振荡与相位编码",
+  "core_question": "θ振荡如何使场所细胞实现双重编码（速率+相位），并在θ周期内压缩时空序列？SWR如何以对称方式重播这些序列以固化记忆？",
+  "total_sources": 9,
+  "open_full_text_count": 3,
+  "abstract_only_count": 6,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "23354386",
+      "pmcid": "PMC4079500",
+      "doi": "10.1038/nn.3304",
+      "title": "Memory, navigation and theta rhythm in the hippocampal-entorhinal system",
+      "authors": "Buzsáki G, Moser EI",
+      "journal": "Nature Neuroscience",
+      "year": 2013,
+      "type": "review",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "key_contributions": [
+        "记忆与导航共用θ振荡机制的整体框架",
+        "相位前进的综合描述（过去/现在/未来的θ相位对应）",
+        "θ/γ嵌套（5-9个γ周期per θ周期）",
+        "灵长类中θ节律性弱化是重要开放问题"
+      ],
+      "evidence_strength": "高（综述；多物种多方法综合）",
+      "limitations": "综述；灵长类直接证据少",
+      "covers_aspects": ["phase precession", "theta sequences", "theta-gamma nesting", "memory-navigation link", "entorhinal cortex"]
+    },
+    {
+      "id": "S2",
+      "pmid": "26135716",
+      "pmcid": "PMC4648295",
+      "doi": "10.1002/hipo.22488",
+      "title": "Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning",
+      "authors": "Buzsáki G",
+      "journal": "Hippocampus",
+      "year": 2015,
+      "type": "review",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "key_contributions": [
+        "SWR的神经回路机制：CA3循环系统→Schaffer侧支→CA1涟漪（110-200 Hz）",
+        "SWR期间的序列重播（~20倍时间压缩）",
+        "两阶段记忆模型：θ态（编码）→ SWR态（巩固）",
+        "SWR是哺乳动物大脑最同步的群体事件",
+        "关键数字：SPW 40-100ms；非REM睡眠2-4/秒；50%细胞参与最大SWR事件"
+      ],
+      "evidence_strength": "高（多电极记录、CSD分析、行为破坏实验；多实验室重复）",
+      "limitations": "SWR→皮层转写的直接因果链证据仍在积累",
+      "covers_aspects": ["sharp-wave-ripples", "memory consolidation", "sequence replay", "CA3 circuit", "sleep"]
+    },
+    {
+      "id": "S3",
+      "pmid": "37720546",
+      "pmcid": "PMC10501408",
+      "doi": "10.3389/fncel.2023.1230859",
+      "title": "Linking temporal coordination of hippocampal activity to memory function",
+      "authors": "Etter G, Carmichael JE, Williams S",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2023,
+      "type": "review",
+      "full_text_available": true,
+      "access_method": "PMC open access (Frontiers)",
+      "key_contributions": [
+        "θ振荡提供组织框架，而非位置信息本身（MS病变实验）",
+        "θ-γ耦合在AD中早于θ功率受损（更好的生物标志物）",
+        "新假说：θ振荡可能协调BTSP所需的树突平台电位",
+        "θ对记忆是必要条件，但不充分"
+      ],
+      "evidence_strength": "中-高（综述；结合了行为实验、光遗传、AD临床研究）",
+      "limitations": "部分结论来自AD刺激研究，因果解释需谨慎",
+      "covers_aspects": ["theta oscillations", "memory", "theta-gamma coupling", "Alzheimer's disease", "BTSP", "medial septum"]
+    },
+    {
+      "id": "S4",
+      "pmid": "8353611",
+      "pmcid": null,
+      "doi": "10.1002/hipo.450030407",
+      "title": "Phase relationship between hippocampal place units and the EEG theta rhythm",
+      "authors": "O'Keefe J, Recce ML",
+      "journal": "Hippocampus",
+      "year": 1993,
+      "type": "original_research",
+      "full_text_available": false,
+      "access_method": "abstract only (historical paper, no PMC)",
+      "key_contributions": [
+        "首次报告相位前进（phase precession）现象",
+        "相位移动范围：100-355度",
+        "相位与空间位置强相关，而非时间",
+        "2014年诺贝尔生理学/医学奖相关工作"
+      ],
+      "evidence_strength": "高（经典；被数百篇后续研究重复验证）",
+      "limitations": "仅有摘要；基于大鼠线性轨道实验",
+      "covers_aspects": ["phase precession", "theta oscillations", "place cells"]
+    },
+    {
+      "id": "S5",
+      "pmid": "16145693",
+      "pmcid": null,
+      "doi": "10.1002/hipo.20115",
+      "title": "Dual phase and rate coding in hippocampal place cells: theoretical significance and relationship to entorhinal grid cells",
+      "authors": "O'Keefe J, Burgess N",
+      "journal": "Hippocampus",
+      "year": 2005,
+      "type": "review",
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "key_contributions": [
+        "双重编码框架（速率编码+相位编码）",
+        "振荡干涉模型的早期版本",
+        "与网格细胞路径整合的理论整合"
+      ],
+      "evidence_strength": "中（理论/综述）",
+      "limitations": "仅有摘要",
+      "covers_aspects": ["dual coding", "phase precession", "oscillatory interference", "grid cells"]
+    },
+    {
+      "id": "S6",
+      "pmid": "17598147",
+      "pmcid": null,
+      "doi": "10.1002/hipo.20327",
+      "title": "An oscillatory interference model of grid cell firing",
+      "authors": "Burgess N, Barry C, O'Keefe J",
+      "journal": "Hippocampus",
+      "year": 2007,
+      "type": "theory",
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "key_contributions": [
+        "振荡干涉模型扩展到网格细胞",
+        "速度依赖的内在振荡频率>背景θ→干涉→相位前进",
+        "解释了网格细胞六角图案的生成"
+      ],
+      "evidence_strength": "中（理论模型；有部分实验支持）",
+      "limitations": "仅有摘要；振荡干涉vs双路径输入模型仍有争议",
+      "covers_aspects": ["oscillatory interference", "grid cells", "phase precession mechanism", "path integration"]
+    },
+    {
+      "id": "S7",
+      "pmid": "18559405",
+      "pmcid": null,
+      "doi": "10.1093/schbul/sbn060",
+      "title": "A neural coding scheme formed by the combined function of gamma and theta oscillations",
+      "authors": "Lisman J, Buzsáki G",
+      "journal": "Schizophrenia Bulletin",
+      "year": 2008,
+      "type": "review",
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "key_contributions": [
+        "θ/γ嵌套的'字/位'数字编码模型",
+        "每θ周期5-9个γ周期可承载5-9个记忆项目",
+        "与工作记忆容量（米勒定律7±2）的联系",
+        "跨频率耦合（CFC）作为认知容量的神经基础"
+      ],
+      "evidence_strength": "中（理论+部分实验支持）",
+      "limitations": "仅有摘要；θ/γ嵌套在工作记忆中的普遍性仍在研究中",
+      "covers_aspects": ["theta-gamma nesting", "neural coding", "working memory", "cross-frequency coupling"]
+    },
+    {
+      "id": "S8",
+      "pmid": "34936810",
+      "pmcid": null,
+      "doi": "10.1146/annurev-neuro-102120-145701",
+      "title": "Multiple-Timescale Representations of Space: Linking Memory to Navigation",
+      "authors": "Tang W, Jadhav SP",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2022,
+      "type": "review",
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "key_contributions": [
+        "多时间尺度：行为尺度（秒）→ θ序列（120ms）→ SWR重播（50ms）",
+        "不同时间尺度序列的不同功能角色",
+        "SWR中的前向/反向/新颖路径重播的规划功能"
+      ],
+      "evidence_strength": "高（综述；涵盖多种序列的定量分析）",
+      "limitations": "仅有摘要",
+      "covers_aspects": ["theta sequences", "sharp-wave-ripples", "replay", "memory consolidation", "planning"]
+    },
+    {
+      "id": "S9",
+      "pmid": "23175823",
+      "pmcid": null,
+      "doi": "10.1523/JNEUROSCI.1386-12.2012",
+      "title": "Hippocampal phase precession from dual input components",
+      "authors": "Chance FS",
+      "journal": "Journal of Neuroscience",
+      "year": 2012,
+      "type": "theory",
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "key_contributions": [
+        "CA3（晚θ相位）和EC3（早θ相位）双路径输入模型解释相位前进",
+        "与振荡干涉模型的替代/互补关系",
+        "对两路输入操纵预测的实验可测性"
+      ],
+      "evidence_strength": "中（理论模型；部分预测有实验验证）",
+      "limitations": "仅有摘要；与振荡干涉模型的争议仍未完全解决",
+      "covers_aspects": ["phase precession mechanism", "CA3", "entorhinal cortex", "dual input model"]
+    }
+  ],
+  "official_institutions_used": [
+    "NIH/National Library of Medicine (PubMed/PMC databases)",
+    "PubMed Central Open Access archive"
+  ],
+  "search_queries_used": [
+    "theta oscillations hippocampus phase precession review",
+    "Buzsaki theta oscillations hippocampus memory review",
+    "theta phase precession place cells O'Keefe",
+    "Buzsaki Moser memory navigation theta hippocampal entorhinal",
+    "sharp wave ripples hippocampus memory replay review",
+    "theta sequences hippocampus future past planning",
+    "hippocampal theta oscillations navigation memory mechanism 2022:2025 review"
+  ]
+}

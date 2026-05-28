@@ -427,6 +427,114 @@
       "full_text_available": false,
       "used_in_articles": ["2026-05-28-place-cells-btsp.md"],
       "aspects_covered": ["place cell review", "grid cell review", "cognitive map", "entorhinal-hippocampal connection"]
+    },
+    {
+      "pmid": "23354386",
+      "pmcid": "PMC4079500",
+      "title": "Memory, navigation and theta rhythm in the hippocampal-entorhinal system",
+      "authors_short": "Buzsáki G, Moser EI",
+      "journal": "Nature Neuroscience",
+      "year": 2013,
+      "first_used": "2026-05-29",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
+      "aspects_covered": ["theta oscillations", "phase precession", "theta sequences", "theta-gamma nesting", "memory-navigation link", "entorhinal cortex", "grid cells"]
+    },
+    {
+      "pmid": "26135716",
+      "pmcid": "PMC4648295",
+      "title": "Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning",
+      "authors_short": "Buzsáki G",
+      "journal": "Hippocampus",
+      "year": 2015,
+      "first_used": "2026-05-29",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
+      "aspects_covered": ["sharp wave ripples", "CA3 recurrent circuit", "sequence replay", "memory consolidation", "two-stage memory model", "SWR generation mechanism"]
+    },
+    {
+      "pmid": "37720546",
+      "pmcid": "PMC10501408",
+      "title": "Linking temporal coordination of hippocampal activity to memory function",
+      "authors_short": "Etter G, Carmichael JE, Williams S",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2023,
+      "first_used": "2026-05-29",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
+      "aspects_covered": ["theta oscillations", "medial septum", "theta-gamma coupling", "BTSP", "Alzheimer's disease", "necessity vs sufficiency of theta"]
+    },
+    {
+      "pmid": "8353611",
+      "pmcid": null,
+      "title": "Phase relationship between hippocampal place units and the EEG theta rhythm",
+      "authors_short": "O'Keefe J, Recce ML",
+      "journal": "Hippocampus",
+      "year": 1993,
+      "first_used": "2026-05-29",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
+      "aspects_covered": ["phase precession", "theta oscillations", "place cells", "dual coding"]
+    },
+    {
+      "pmid": "16145693",
+      "pmcid": null,
+      "title": "Dual phase and rate coding in hippocampal place cells",
+      "authors_short": "O'Keefe J, Burgess N",
+      "journal": "Hippocampus",
+      "year": 2005,
+      "first_used": "2026-05-29",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
+      "aspects_covered": ["dual coding theory", "phase precession", "oscillatory interference model", "grid cells"]
+    },
+    {
+      "pmid": "17598147",
+      "pmcid": null,
+      "title": "An oscillatory interference model of grid cell firing",
+      "authors_short": "Burgess N, Barry C, O'Keefe J",
+      "journal": "Hippocampus",
+      "year": 2007,
+      "first_used": "2026-05-29",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
+      "aspects_covered": ["oscillatory interference", "grid cells", "phase precession mechanism", "path integration"]
+    },
+    {
+      "pmid": "18559405",
+      "pmcid": null,
+      "title": "A neural coding scheme formed by the combined function of gamma and theta oscillations",
+      "authors_short": "Lisman J, Buzsáki G",
+      "journal": "Schizophrenia Bulletin",
+      "year": 2008,
+      "first_used": "2026-05-29",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
+      "aspects_covered": ["theta-gamma nesting", "neural coding", "working memory", "cross-frequency coupling"]
+    },
+    {
+      "pmid": "34936810",
+      "pmcid": null,
+      "title": "Multiple-Timescale Representations of Space: Linking Memory to Navigation",
+      "authors_short": "Tang W, Jadhav SP",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2022,
+      "first_used": "2026-05-29",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
+      "aspects_covered": ["theta sequences", "sharp-wave-ripples", "sequence replay", "forward/reverse replay"]
+    },
+    {
+      "pmid": "23175823",
+      "pmcid": null,
+      "title": "Hippocampal phase precession from dual input components",
+      "authors_short": "Chance FS",
+      "journal": "Journal of Neuroscience",
+      "year": 2012,
+      "first_used": "2026-05-29",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
+      "aspects_covered": ["phase precession mechanism", "CA3 vs EC dual input", "computational model"]
     }
   ]
 }

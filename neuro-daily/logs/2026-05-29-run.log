@@ -1,0 +1,130 @@
+# 运行日志 2026-05-29
+
+**状态**：✅ 完成（待推送至 main）
+**分支**：main（直接提交）
+**UTC+8 日期**：2026-05-29（系统 UTC 时间 2026-05-28 17:01 = UTC+8 2026-05-29 01:01）
+
+---
+
+## 日期确认
+
+系统当前时间：Thu May 28 17:01:01 UTC 2026 → UTC+8: 2026-05-29 01:01:01
+仓库已有 2026-05-28 文章（确认完成），今日创建 2026-05-29 文章。
+
+---
+
+## 选题决策
+
+**优先级分析**：
+- 突破追踪：未检索到近7天重大突破（未做独立搜索，通过常规PubMed检索优先级判断）
+- 矛盾裁决：C-2026-05-24-01 和 C-2026-05-25-01 仍为 open，无新证据可裁决
+- **悬空引用**：`theta-oscillations` 被 place-cell、ltp、hippocampal-circuit、grid-cell 共4个页面引用，**最高优先级** ✅
+- 层级约束：前6天未涉及 whole_brain_network / behavior 层；θ振荡是全脑网络现象，完美填补
+- 课程脊柱：自然延续第5天（场所细胞/BTSP）→ 时间结构/编码机制
+
+**选题**：θ振荡与相位编码（+SWR作为对称机制）
+**理由**：
+1. 填补最高优先级悬空引用（4个页面引用）
+2. 首次进入 whole-brain-network 和 behavior 层
+3. 从昨日"场所细胞如何建立"自然延伸到"场所细胞如何在时间上被组织"
+4. 引入 SWR 概念，部分填补 memory-consolidation 悬空引用
+5. 核心问题精确可答：相位前进+θ序列是特定、机制清晰的问题
+
+---
+
+## 检索过程
+
+**搜索词**：
+- "theta oscillations hippocampus phase precession review"
+- "Buzsaki theta oscillations hippocampus memory review"
+- "theta phase precession place cells O'Keefe"
+- "Buzsaki Moser memory navigation theta hippocampal entorhinal"
+- "sharp wave ripples hippocampus memory replay review"
+- "theta sequences hippocampus future past planning"
+- "hippocampal theta oscillations navigation memory mechanism 2022:2025 review"
+- "theta oscillation hippocampus generation mechanism medial septum cholinergic GABAergic"
+
+**数据源使用**：
+- PubMed E-utilities：多次查询成功（esearch + efetch）
+- PMC 全文：获取 Buzsáki & Moser 2013 (PMC4079500)、Buzsáki SWR 2015 (PMC4648295)、Etter et al. 2023 (PMC10501408) 全文
+- PubMed 摘要：6篇（O'Keefe & Recce 1993、O'Keefe & Burgess 2005、Burgess et al. 2007、Lisman & Buzsáki 2008、Tang & Jadhav 2022、Chance 2012）
+
+**候选来源数**：13（含中间步骤的非采用检索）
+**采用来源数**：9（3开放全文 + 6摘要）
+
+---
+
+## 文章写作
+
+**文章路径**：`neuro-daily/articles/2026-05-29-theta-oscillations-phase-coding.md`
+**字数**：约 5200–5500 中文字符
+**结构**：核心问题 / 一句话摘要 / 为什么重要 / 背景（双重编码思路）/ 机制一（θ来源：MS-DBB）/ 机制二（相位前进：O'Keefe 1993）/ 机制三（振荡干涉模型）/ 机制四（θ序列：时间压缩）/ 机制五（θ/γ嵌套）/ 机制六（SWR：离线固化）/ 比喻及局限 / 对大脑理解的改变 / 争议与未解问题 / 与AI的对照 / 概念卡片 / 认知地图更新 / 参考来源
+
+---
+
+## wiki 固结
+
+**新建 wiki 页（3个）**：
+- `wiki/concepts/theta-oscillations.md`（**填补高优先级悬空引用**，被4个页面引用）
+- `wiki/concepts/sharp-wave-ripples.md`
+- `wiki/concepts/phase-precession.md`
+
+**修订 wiki 页（2个）**：
+- `wiki/neurons/hippocampal-circuit.md`：revision_count 1→2，新增"海马两种工作模式"（θ态/SWR态）完整章节
+- `wiki/neurons/place-cell.md`：revision_count 1→2，新增"相位前进"第4节（速率+相位双重编码，θ序列）
+
+**矛盾登记（0）**：今日证据与既有 wiki 主张无冲突。相位前进机制的两种理论（振荡干涉 vs 双路径输入）在 phase-precession 页面如实并列，不构成 contested_claim（两者可能互补）。
+
+**悬空引用**：
+- 已填补：`theta-oscillations`（被4个页面引用的高优先级引用）
+- 新增：`medial-septum`（θ起搏器）
+- memory-consolidation 仍需专页（today's SWR页覆盖了其核心机制，但系统巩固层面尚缺）
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`：total_articles 5→6，new entry for 2026-05-29，layer_coverage 更新
+- `state/unresolved_questions.md`：新增 3 个问题（Q-theta-primate、Q-swr-reverse-forward、Q-theta-btsp）
+- `state/maturity_index.json`：新增 3 个页面（theta-oscillations、sharp-wave-ripples、phase-precession），更新 hippocampal-circuit supporting_sources
+- `state/monthly_synthesis.md`：文章数 5→6，新增洞见 19-21
+- `wiki/_graph.json`：节点 20→23，边 68→86，移除 theta-oscillations 悬空引用，新增 medial-septum
+- `wiki/index.md`：更新至 23 页，新增θ振荡/SWR/相位前进条目，更新待补缺口和前沿分析
+- `wiki/CHANGELOG.md`：新增 2026-05-29 完整条目
+
+---
+
+## 失败与限制
+
+- `theta sequences hippocampus Skaggs McNaughton Dragoi Buzsaki` 精确搜索返回零结果，换用更宽泛的检索词成功
+- 部分 PMC 重定向（NCBl→PMC），按提示用新 URL 重新访问
+- Buzsáki SWR 2015 全文中未详述前向/反向重播，使用 Tang & Jadhav 2022 摘要补充
+- 无开放全文的 O'Keefe & Recce 1993 是文章的核心一手来源，只能通过摘要+后续综述中转述使用（已在文章明确标注）
+
+---
+
+## Git 操作
+
+**提交内容**：
+- `neuro-daily/articles/2026-05-29-theta-oscillations-phase-coding.md`（新增）
+- `neuro-daily/notes/2026-05-29-reading-notes.md`（新增）
+- `neuro-daily/sources/2026-05-29-sources.json`（新增）
+- `neuro-daily/wiki/concepts/theta-oscillations.md`（新增）
+- `neuro-daily/wiki/concepts/sharp-wave-ripples.md`（新增）
+- `neuro-daily/wiki/concepts/phase-precession.md`（新增）
+- `neuro-daily/wiki/neurons/hippocampal-circuit.md`（修订）
+- `neuro-daily/wiki/neurons/place-cell.md`（修订）
+- `neuro-daily/wiki/_graph.json`（更新）
+- `neuro-daily/wiki/index.md`（更新）
+- `neuro-daily/wiki/CHANGELOG.md`（更新）
+- `neuro-daily/state/topic_ledger.json`（更新）
+- `neuro-daily/state/unresolved_questions.md`（追加）
+- `neuro-daily/state/maturity_index.json`（更新）
+- `neuro-daily/state/monthly_synthesis.md`（更新）
+- `neuro-daily/logs/2026-05-29-run.log`（新增，本文件）
+
+---
+
+## Push 状态
+
+[待更新 push 后]

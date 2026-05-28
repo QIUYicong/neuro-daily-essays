@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-29",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -167,9 +167,33 @@
       "slug": "hippocampal-circuit",
       "status": "established",
       "confidence": "high",
-      "supporting_sources": 4,
+      "supporting_sources": 6,
       "last_status_change": "2026-05-28",
-      "reason": "创建 2026-05-28。海马解剖回路（DG/CA3/CA1/EC 连接）是几十年解剖学和电生理研究的共识；各亚区的计算角色（模式分离/补全）有大量行为+电生理实验支持。并行回路模型（非严格串行）由 Hainmueller & Bartos 2020 综述。"
+      "reason": "创建 2026-05-28。海马解剖回路（DG/CA3/CA1/EC 连接）是几十年解剖学和电生理研究的共识；各亚区的计算角色（模式分离/补全）有大量行为+电生理实验支持。并行回路模型（非严格串行）由 Hainmueller & Bartos 2020 综述。2026-05-29：修订，新增θ/SWR双工作模式内容（key_sources增加 Buzsáki 2013/2015）。"
+    },
+    {
+      "slug": "theta-oscillations",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-05-29",
+      "reason": "创建 2026-05-29。θ振荡的基本现象（频率、状态依赖性、MS-DBB起搏器）经过数十年多物种、多方法验证，属于教科书级共识。相位前进现象（O'Keefe & Recce 1993）经过多个实验室重复。主要不确定性：灵长类中的功能等价物（现象在人类更弱），以及θ对记忆的充分性（必要性已确认，充分性未完全建立）。整体：established，但灵长类方面证据较弱。"
+    },
+    {
+      "slug": "sharp-wave-ripples",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-29",
+      "reason": "创建 2026-05-29。SWR的生成机制（CA3循环兴奋→CA1涟漪）和时间特征（110-200 Hz，40-100 ms，2-4/s）由多电极记录和CSD分析充分建立。序列重播的功能证据（Bayesian解码）和选择性干扰的因果证据均来自高质量实验。主要不确定性：SWR→皮层记忆巩固的精确分子机制；前向/反向/新颖路径重播的功能分工。整体：established（现象和基本机制），但远期皮层后果的机制仍在建立中。"
+    },
+    {
+      "slug": "phase-precession",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-05-29",
+      "reason": "创建 2026-05-29。相位前进现象由O'Keefe & Recce 1993首次报告，经过多个实验室在啮齿类和人类中重复验证，属于经典神经科学发现（2014年诺贝尔奖工作的一部分）。振荡干涉 vs 双路径输入的机制争议不影响现象本身的established状态。主要不确定性：灵长类（特别是人类）相位前进的强度和普遍性。"
     },
     {
       "slug": "grid-cell",
