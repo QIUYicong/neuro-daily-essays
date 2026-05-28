@@ -1,6 +1,6 @@
 # 未解问题追踪
 
-*最后更新：2026-05-27*
+*最后更新：2026-05-28*
 
 > 每个问题有稳定 ID（`Q-xxx`），供 wiki 页 `opens_questions` 字段引用。
 > 详见仓库根 `KNOWLEDGE-BASE-DESIGN.md`。
