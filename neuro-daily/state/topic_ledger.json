@@ -104,7 +104,7 @@
         "超快内吞（ultrafast endocytosis）的分子机制"
       ],
       "next_suggested_topics": [
-        "突触后受体：AMPA受体如何被谷氨酸激活？NMDA受体的"巧合检测器"功能",
+        "突触后受体：AMPA受体如何被谷氨酸激活？NMDA受体的\"巧合检测器\"功能",
         "树突计算详解：NMDA棘波、Ca²⁺棘波，单神经元的计算能力",
         "短时程突触可塑性：突触抑制和易化的分子机制",
         "Hebbian学习与LTP/LTD：突触层面的记忆"
@@ -114,7 +114,7 @@
     },
     {
       "date": "2026-05-26",
-      "title": "NMDA 受体：突触的"巧合检测器"，以及大脑如何在神经元间刻写记忆",
+      "title": "NMDA 受体：突触的\"巧合检测器\"，以及大脑如何在神经元间刻写记忆",
       "filename": "2026-05-26-nmda-receptor-ltp.md",
       "wiki_pages_created": [
         "wiki/concepts/nmda-receptor.md",
@@ -128,7 +128,7 @@
         "wiki/neurons/action-potential.md"
       ],
       "contested_claims_logged": [],
-      "core_question": "NMDA 受体如何同时感知"突触前活动"与"突触后去极化"，在单个突触处实现 Hebb 型巧合检测，并由此触发长时程增强（LTP）——这一突触可塑性机制如何奠定学习与记忆的分子基础？",
+      "core_question": "NMDA 受体如何同时感知\"突触前活动\"与\"突触后去极化\"，在单个突触处实现 Hebb 型巧合检测，并由此触发长时程增强（LTP）——这一突触可塑性机制如何奠定学习与记忆的分子基础？",
       "layer": ["突触", "分子", "认知"],
       "curriculum_track": "1. 神经元如何工作 → 4. 学习和记忆（桥接篇）",
       "topic_tags": [
