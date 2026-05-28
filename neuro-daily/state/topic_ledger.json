@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-30",
-  "total_articles": 7,
+  "last_updated": "2026-05-31",
+  "total_articles": 8,
   "entries": [
     {
       "date": "2026-05-24",
@@ -423,19 +423,84 @@
       "mode": "weekly_synthesis",
       "article_number": 7,
       "note": "系统日期为 UTC+8 2026-05-28，前序会话已覆盖 2026-05-28 和 2026-05-29，本文逻辑日期顺延至 2026-05-30 以维护序列完整性"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "记忆的物质形式：印迹细胞如何使神经元集群成为记忆的物理载体",
+      "filename": "2026-05-31-engram-cells-memory-trace.md",
+      "wiki_pages_created": [
+        "wiki/concepts/engram-cells.md",
+        "wiki/concepts/memory-allocation.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/hebbian-learning.md",
+        "wiki/neurons/place-cell.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "大脑中的特定记忆究竟储存在哪些特定神经元里？印迹细胞如何被选中（CREB竞争）、如何证明其充分性（Liu 2012光激活）、以及在遗忘时为何变为沉默印迹（Ryan 2015 ANI实验）？",
+      "layer": ["细胞", "突触", "脑区", "认知", "行为"],
+      "curriculum_track": "4. 学习和记忆（印迹细胞：分子→细胞→认知的因果桥接）",
+      "topic_tags": [
+        "engram cells",
+        "memory trace",
+        "optogenetics",
+        "c-fos-tTA-ChR2",
+        "fear conditioning",
+        "dentate gyrus",
+        "CREB competition",
+        "memory allocation",
+        "silent engram",
+        "anisomycin",
+        "synaptic consolidation",
+        "AMPA/NMDA ratio",
+        "false memory",
+        "Tonegawa",
+        "Josselyn Frankland",
+        "memory linking",
+        "sparse coding",
+        "place cell engram",
+        "sub-ensembles",
+        "retrograde amnesia"
+      ],
+      "main_sources": [
+        "PMID:22441246 (PMC3331914)",
+        "PMID:23888038 (abstract only)",
+        "PMID:26023136 (PMC5583719)",
+        "PMID:29709212 (PMC9623596)",
+        "PMID:31201332 (PMC6570652)",
+        "PMID:38331127 (PMC13148816)",
+        "PMID:24478647 (PMC3894458)",
+        "PMID:26289572 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-engram-natural-cue-threshold：突触强化如何精确控制自然线索触发印迹的阈值？",
+        "Q-engram-human-allocation：人类海马印迹细胞是否遵循 CREB 竞争规则？",
+        "Q-silent-engram-ad：阿尔茨海默病早期记忆丢失有多大比例属于沉默印迹？"
+      ],
+      "next_suggested_topics": [
+        "记忆巩固（系统层面）：睡眠阶段分工、皮层侧 LTP、标准巩固 vs 多重痕迹理论（直接延续今日印迹→皮层固化的主题）",
+        "电压门控钙通道（L-type / P/Q/N-type）：BTSP/树突计算/突触前释放共同需要的分子缺口（molecular 层补充）",
+        "抑制性中间神经元多样性：PV+/SST+/VIP+ 如何调控θ振荡、树突棘波和场所场形成（microcircuit 层，平衡层级）",
+        "LTD（长时程抑制）：AMPA 受体内吞、mGluR-LTD、磷酸酶（与 LTP 形成对称，也关系到印迹沉默机制）",
+        "印迹细胞再激活与奖励记忆：多巴胺如何调制印迹竞争（连接到三因素学习规则）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 8,
+      "dangling_reference_filled": "engram-cells（填补了 ltp、hebbian-learning、dendritic-computation、place-cell 共4个页面的最高优先级悬空引用）"
     }
   ],
   "layer_coverage_recent": {
     "molecular": ["2026-05-24", "2026-05-25", "2026-05-26"],
-    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28"],
-    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28"],
+    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28", "2026-05-31"],
+    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28", "2026-05-31"],
     "microcircuit": ["2026-05-27"],
-    "brain_region": ["2026-05-27", "2026-05-28"],
+    "brain_region": ["2026-05-27", "2026-05-28", "2026-05-31"],
     "whole_brain_network": ["2026-05-29", "2026-05-30"],
-    "behavior": ["2026-05-29", "2026-05-30"],
-    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30"],
+    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31"],
+    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-05-30（第一周综合）：跨层综合（分子→细胞→突触→微回路→脑区→全脑网络），归纳嵌套时间编码层级（Nested Temporal Coding Hierarchy）框架。第二周建议：印迹细胞（填补最高优先级悬空引用；behavior/cognition 层）→ 记忆巩固系统层面（whole-brain-network 深挖）→ 抑制性中间神经元多样性（microcircuit 层，平衡连续5天偏向兴奋性机制的层级）→ 电压门控钙通道（molecular 层，补充 BTSP+树突计算的分子缺口）。"
+  "layer_note": "2026-05-31（第8篇）：细胞/突触/脑区/认知/行为跨层交汇——印迹细胞填补了'分子→行为'因果链中的关键细胞层。下一步建议：记忆巩固系统层（全脑网络深挖）→ 电压门控钙通道（molecular 层补充）→ 抑制性中间神经元（microcircuit 层平衡）。"
 }

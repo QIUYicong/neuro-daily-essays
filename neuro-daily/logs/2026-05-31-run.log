@@ -1,0 +1,155 @@
+# 运行日志 · 2026-05-31
+
+**运行时间**：2026-05-28（UTC+8 系统时间），逻辑日期 2026-05-31
+**文章编号**：#8
+**分支**：claude/pensive-archimedes-nPIYz
+**运行环境**：Claude Code Web（remote execution container）
+
+---
+
+## 运行说明
+
+UTC+8 系统时间为 2026-05-28，但仓库序列已包含 2026-05-24 至 2026-05-30 共 7 篇文章（由前序会话生成并推送至 main，以及本次会话特性分支）。依 ROUTINE.md 规则："不要反复生成同一天文章"，本次运行使用逻辑日期 2026-05-31，写第 8 篇日常文章（非周综合）。
+
+---
+
+## 步骤 A：读取状态
+
+- topic_ledger.json：7 条记录（2026-05-24 至 2026-05-30），last_updated=2026-05-30，total_articles=7
+- unresolved_questions.md：多个开放问题，其中高优先级包括 Q-ltp-lifetime-mechanism、Q-btsp-human-conservation、Q-theta-primate
+- _graph.json（前序状态）：24 节点，95 边，悬空引用包括 engram-cells（最高优先级，被 4 个节点引用）、memory-consolidation、calcium-channel 等
+- wiki/index.md、state/monthly_synthesis.md：截至 2026-05-30
+
+---
+
+## 步骤 B：选题
+
+**决策流程**：
+1. 检查 contested_claims.json：2 条 open（C-2026-05-24-01, C-2026-05-25-01），均非今日可进一步决议（需新实验数据）
+2. 检查悬空引用：engram-cells（被 4 个节点引用，最高优先级）
+3. 检查 next_suggested_topics（topic_ledger.json）：engram cells 已列为顶级建议
+4. 层级多样性检查：前 6 篇已覆盖分子/细胞/突触/微回路/脑区/全脑网络；第 7 篇（综合）跨层；第 8 篇可深化细胞/脑区/认知跨层
+
+**选题**：印迹细胞（Engram Cells）——记忆的物质形式
+**核心问题**：大脑中的特定记忆究竟储存在哪些特定神经元里？印迹细胞如何被选中、激活、以及在遗忘时变为沉默印迹？
+**层级**：细胞/突触/脑区/认知（跨层因果）
+
+---
+
+## 步骤 C：检索与写作
+
+**检索策略**：
+- PubMed E-utilities（esearch + esummary + efetch）
+- PMC BioC API（开放全文）
+- 搜索词：
+  - "engram cells optogenetics memory trace" (PubMed)
+  - "Liu Ramirez Tonegawa engram false memory" (PubMed)
+  - "Josselyn Frankland engram review" (PubMed)
+  - "Ryan engram silent amnesia optogenetics 2015" (PubMed)
+  - "engram cells review 2022 2023 2024 hippocampus" (PubMed)
+
+**候选文献数量**：~25 篇识别；8 篇最终纳入
+
+**来源纳入/排除**：
+
+| PMID/PMCID | 标题（简）| 决定 | 原因 |
+|------------|---------|------|------|
+| PMC3331914 (PMID:22441246) | Liu 2012 Nature | ✅ 纳入 | 开放全文；奠基性实验；直接回答核心问题 |
+| 23888038 | Ramirez 2013 Science | ✅ 纳入（摘要） | 虚假记忆实验；全文付费，摘要已足够关键数据 |
+| PMC5583719 (PMID:26023136) | Ryan 2015 Science | ✅ 纳入 | 开放全文；沉默印迹概念；区分印迹存在 vs 可检索性 |
+| PMC9623596 (PMID:29709212) | Josselyn & Frankland 2018 ARN | ✅ 纳入 | 开放全文；CREB 竞争综述；内在兴奋性机制 |
+| PMC6570652 (PMID:31201332) | Ghandour 2019 Nat Commun | ✅ 纳入 | 开放全文；钙成像；子集合体结构 |
+| PMC13148816 (PMID:38331127) | Lopez 2024 NBR | ✅ 纳入 | 开放全文；最新综述；历史背景 + IEG 局限 |
+| PMC3894458 (PMID:24478647) | Ramirez 2013 Front Behav Neurosci | ✅ 纳入 | 开放全文；技术细节；虚假记忆的详细描述 |
+| 26289572 | Josselyn 2015 NRN | ✅ 纳入（摘要） | 必要/充分/特异性三标准框架；全文付费 |
+| 若干其他综述 | 2020–2022 综述 | ❌ 排除 | 与已纳入综述重叠；边际信息增益低 |
+
+**无虚构**：所有 PMID/PMCID/DOI 均经 PubMed 或 PMC API 验证；未编造任何来源或结论。
+
+**文章写作**：
+- 中文，约 5000 字
+- 包含：核心问题 / 一句话摘要 / 为什么重要 / 背景（Semon 1904, Lashley 1950）/ 方法论（c-fos-tTA-ChR2）/ CREB 竞争 / 三个关键实验 / 印迹解剖学 / 子集合体时间结构 / 场所细胞作为空间印迹 / 比喻 / 改变理解 / 争议与未解问题 / AI 对照 / 概念卡片 / 认知地图更新 / 参考来源
+- 文件：`neuro-daily/articles/2026-05-31-engram-cells-memory-trace.md` ✅
+
+**笔记**：`neuro-daily/notes/2026-05-31-reading-notes.md` ✅
+**来源**：`neuro-daily/sources/2026-05-31-sources.json` ✅（8 个来源，6 个开放全文，2 个摘要）
+
+---
+
+## 步骤 D：固结
+
+**今日新建概念**：
+
+1. **engram-cells**（印迹细胞）
+   - `wiki/concepts/engram-cells.md` ✅ **新建**
+   - status=mainstream，confidence=high
+   - 解决了 _graph.json 中最高优先级悬空引用（被 4 个节点引用）
+   - Prerequisites: ltp, hebbian-learning, place-cell, hippocampal-circuit
+
+2. **memory-allocation**（记忆分配/CREB 竞争）
+   - `wiki/concepts/memory-allocation.md` ✅ **新建**
+   - status=mainstream，confidence=high
+   - 覆盖：CREB 竞争、内在兴奋性、侧向抑制、记忆链接 6 小时窗口
+
+**今日修订概念**：
+
+3. **ltp**（LTP）
+   - `wiki/concepts/ltp.md` ✅ **修订**（revision_count 2→3）
+   - 新增：engram-cells 连接（LTP 是检索放大机制，非印迹底物本身，per Ryan 2015）
+
+4. **hebbian-learning**（Hebbian 学习）
+   - `wiki/concepts/hebbian-learning.md` ✅ **修订**（revision_count 2→3）
+   - 新增：CREB 竞争是 Hebb 原理在细胞分配层面的实例
+
+5. **place-cell**（场所细胞）
+   - `wiki/neurons/place-cell.md` ✅ **修订**（revision_count 2→3）
+   - 新增第 5 节："场所细胞作为空间情景记忆的印迹细胞"
+
+---
+
+## 步骤 E：更新图谱与导航
+
+- `wiki/_graph.json`：节点 24→26，边 95→108 ✅
+  - 新增节点：engram-cells, memory-allocation
+  - 新增边：13 条（覆盖 engram-cells/memory-allocation 与 ltp/hebbian-learning/place-cell/hippocampal-circuit/dendritic-computation/sharp-wave-ripples 的双向关系）
+  - 从 dangling_references 移除：engram-cells（已建页）
+- `wiki/index.md`：新增 engram-cells/memory-allocation 条目，更新路线进度，更新悬空引用状态 ✅
+- `wiki/CHANGELOG.md`：新增 2026-05-31 章节 ✅
+
+---
+
+## 步骤 F：更新治理层
+
+- `state/topic_ledger.json`：新增第 8 条记录，last_updated=2026-05-31，total_articles=8 ✅
+- `state/monthly_synthesis.md`：追加 2026-05-31 条目（表格 + 核心洞见 #23）✅
+- `state/maturity_index.json`：新增 engram-cells / memory-allocation 条目 ✅
+- `state/source_registry.json`：新增 8 条来源记录，last_updated=2026-05-31 ✅
+- `state/unresolved_questions.md`：新增 3 个高优先级问题（Q-engram-natural-cue-threshold, Q-engram-human-allocation, Q-silent-engram-ad）✅
+
+---
+
+## 竞争性声明状态
+
+| 声明 ID | 状态 | 今日进展 |
+|---------|------|---------|
+| C-2026-05-24-01 | open | 无新证据；需要新 Nav 通道数据 |
+| C-2026-05-25-01 | open | 无新证据；需要新融合动力学数据 |
+
+---
+
+## 自检状态
+
+**真实性**：✅ 6 个来源有开放全文（PMC）；2 个摘要来源已明确标注 full_text_available=false；未编造来源/PMID/PMCID/结论；区分了 Ryan 2015 的"保留连通性"（强证据）与"足以完全恢复记忆"（实验限于 8 天）的差异；
+**一致性**：✅ engram-cells 新页满足所有 prerequisites（ltp/hebbian-learning/place-cell/hippocampal-circuit 均已存在）；修订后页面更新了 revision_count/updated/source_articles；_graph.json 中无未记录的悬空边；engram-cells 从 dangling_references 移除
+**可导航**：✅ index.md 和 CHANGELOG.md 反映今日全部变化；新页和修订页均有双向链接
+**情景层**：✅ 文章/笔记/来源/日志均为新文件，未修改任何已存在的 articles/notes/sources/logs 文件
+**医学/法律**：✅ 未提供诊断、治疗或用药建议；AD 相关内容（沉默印迹与 AD）明确标注为推测性/未验证假说
+
+---
+
+## 失败与限制
+
+- **Edit 工具字符串匹配失败（_graph.json）**：首次尝试替换 _graph.json 中的 temporal-coding-hierarchy 节点段落时，exact string match 失败（可能因不可见空白字符/编码差异）。通过读取文件对应偏移量获取精确文本后，第二次编辑成功。
+- 限制：Ramirez 2013 Science（虚假记忆）全文付费，仅读取摘要；内容细节补充来源于 PMC3894458 综述中的描述，已明确标注
+- 限制：Josselyn 2015 NRN 全文付费，仅读取摘要；三标准框架为引用摘要内容
+- 日期说明：系统 UTC+8 时间为 2026-05-28，但逻辑日期使用 2026-05-31（因前序会话已覆盖 2026-05-24 至 2026-05-30）

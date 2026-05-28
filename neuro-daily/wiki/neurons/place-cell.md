@@ -6,13 +6,13 @@ type: entity
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-29
-revision_count: 2
+updated: 2026-05-31
+revision_count: 3
 dimensions: [cellular, brain-region, cognition, behavior]
 related: [hippocampal-circuit, btsp, grid-cell, dendritic-computation, ltp, hebbian-learning, engram-cells, theta-oscillations]
 prerequisites: [dendritic-computation, ltp, hippocampal-circuit]
 opens_questions: [Q-place-field-content, Q-place-field-btsp-universality, Q-remapping-trigger]
-source_articles: [2026-05-28-place-cells-btsp]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-memory-trace]
 key_sources: ["PMID:26167906", "PMID:28883072", "PMID:18284371", "PMID:32042144", "PMID:8353611", "PMID:23354386"]
 ---
 
@@ -76,7 +76,14 @@ CA1 场所细胞整合两路主要输入：
 
 这是大脑实时运行的预测性压缩：行为时间尺度（数秒）的路径被压缩进120毫秒内，约20:1的时间压缩比。
 
-### 5. 睡眠期的重放（Replay）
+### 5. 场所细胞作为空间情景记忆的印迹细胞（2026-05-31 新增）
+
+从印迹细胞框架来看，CA1 场所细胞是**空间情景记忆印迹细胞的候选**（Lopez et al. 2024，PMID:38331127）：
+- 通过 BTSP 被"写入"场所场的 CA1 细胞，正是这次空间体验的印迹细胞。
+- 但空间情景印迹是**异质性**的：在情境恐惧条件化后，只有**一部分**场所细胞发生位置场重映射——这个子集对应恐惧体验的印迹；其余细胞保持旧场所场，继续编码中性空间信息。
+- 这意味着完整情节记忆（位置 + 情境 + 情绪效价）由海马中不同神经元亚群分别携带，共同构成一个分布式的情景印迹网络。
+
+### 6. 睡眠期的重放（Replay）
 
 场所细胞在静息和睡眠（非REM）的**尖波涟漪（SWR）**期间高速重放白天的空间序列，压缩比约20倍。选择性破坏SWR损害次日空间记忆（因果证据）。重放存在前向、反向和新颖路径等多种形式。
 
@@ -112,8 +119,10 @@ CA1 场所细胞整合两路主要输入：
 
 - 2026-05-28 · 创建 · 填补悬空引用（由 [[树突计算]] 页引用）· 基于《场所细胞》文章 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"相位前进"（第4节）和"SWR重播"（原第4节）；更新 key_sources；添加 [[phase-precession]] 连接
+- 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增第5节"场所细胞作为空间情景记忆的印迹细胞"；场所场的异质性（情境恐惧后只有一部分细胞重映射）；分布式情景印迹网络
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
 - [[2026-05-29-theta-oscillations-phase-coding]]
+- [[2026-05-31-engram-cells-memory-trace]]

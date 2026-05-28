@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-05-31",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -535,6 +535,102 @@
       "full_text_available": false,
       "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
       "aspects_covered": ["phase precession mechanism", "CA3 vs EC dual input", "computational model"]
+    },
+    {
+      "pmid": "22441246",
+      "pmcid": "PMC3331914",
+      "title": "Optogenetic stimulation of a hippocampal engram activates fear memory recall",
+      "authors_short": "Liu X et al.",
+      "journal": "Nature",
+      "year": 2012,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-memory-trace.md"],
+      "aspects_covered": ["c-fos-tTA-ChR2 system", "DG engram cells 2-4% granule cells", "optogenetic activation sufficient for fear recall", "light-evoked freezing 15-35% vs 0% control", "CA1 insufficient for activation"]
+    },
+    {
+      "pmid": "23888038",
+      "pmcid": null,
+      "title": "Creating a false memory in the hippocampus",
+      "authors_short": "Ramirez S et al.",
+      "journal": "Science",
+      "year": 2013,
+      "first_used": "2026-05-31",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-31-engram-cells-memory-trace.md"],
+      "aspects_covered": ["false memory implantation", "DG engram reactivation during new fear conditioning", "context A engram activated in context B while delivering shock"]
+    },
+    {
+      "pmid": "26023136",
+      "pmcid": "PMC5583719",
+      "title": "Memory. Engram cells retain memory under retrograde amnesia.",
+      "authors_short": "Ryan TJ et al.",
+      "journal": "Science",
+      "year": 2015,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-memory-trace.md"],
+      "aspects_covered": ["silent engrams", "anisomycin retrograde amnesia", "AMPA/NMDA ratio blocked but not engram connectivity", "spine density blocked", "DG-to-CA3 engram-engram synaptic connectivity preserved", "optogenetic light restores amnesic memory 8 days later"]
+    },
+    {
+      "pmid": "29709212",
+      "pmcid": "PMC9623596",
+      "title": "Memory Allocation: Mechanisms and Function",
+      "authors_short": "Josselyn SA, Frankland PW",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2018,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-memory-trace.md"],
+      "aspects_covered": ["CREB competition for engram allocation", "intrinsic excitability determines winner neurons", "10-30% candidates reduced to 2-4% by GABAergic lateral inhibition", "6-hour memory linking window", "CREB overexpression bias engram membership"]
+    },
+    {
+      "pmid": "31201332",
+      "pmcid": "PMC6570652",
+      "title": "Orchestrated ensemble activities constitute a hippocampal memory engram",
+      "authors_short": "Ghandour K et al.",
+      "journal": "Nature Communications",
+      "year": 2019,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-memory-trace.md"],
+      "aspects_covered": ["engram sub-ensembles", "40-50% cross-session pattern similarity (engram) vs 10% (non-engram)", "calcium imaging during encoding and recall", "NREM/REM reactivation of sub-ensembles", "~10:1 engram to non-engram ratio"]
+    },
+    {
+      "pmid": "38331127",
+      "pmcid": "PMC13148816",
+      "title": "Mystery of the memory engram: History, current knowledge, and unanswered questions",
+      "authors_short": "Lopez MR et al.",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2024,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-memory-trace.md"],
+      "aspects_covered": ["engram history Semon 1904 Mneme", "Lashley lesion search failure 1950", "necessity/sufficiency/specificity triad", "representational drift", "IEG labeling limitations (c-fos vs Npas4)", "human hippocampal imaging Willems 2021"]
+    },
+    {
+      "pmid": "24478647",
+      "pmcid": "PMC3894458",
+      "title": "Identification and optogenetic manipulation of memory engrams in the hippocampus",
+      "authors_short": "Ramirez S et al.",
+      "journal": "Frontiers in Behavioral Neuroscience",
+      "year": 2013,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-memory-trace.md"],
+      "aspects_covered": ["c-fos-tTA system technical details", "DG 2-6% granule cells", "context-specific non-overlapping DG subpopulations", "false memory experiment details", "CA1 specificity limitations", "engram reactivation protocol"]
+    },
+    {
+      "pmid": "26289572",
+      "pmcid": null,
+      "title": "Finding the engram",
+      "authors_short": "Josselyn SA, Köhler S, Frankland PW",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2015,
+      "first_used": "2026-05-31",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-31-engram-cells-memory-trace.md"],
+      "aspects_covered": ["engram cell definition", "necessity/sufficiency/specificity three-criterion framework", "historical overview Semon to optogenetics", "engram reactivation conditions"]
     }
   ]
 }

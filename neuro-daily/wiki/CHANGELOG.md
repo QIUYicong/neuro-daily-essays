@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-05-31（第二周第一篇，文章 #8）
+
+**源文章**：[[2026-05-31-engram-cells-memory-trace]] —《记忆的物质形式：印迹细胞如何使神经元集群成为记忆的物理载体》
+
+**新建页面（2）**：
+- `concepts/engram-cells.md`（印迹细胞）🔵 mainstream / 置信度高 — **填补最高优先级悬空引用**（此前被 ltp、hebbian-learning、dendritic-computation、place-cell 共4个节点引用）；稀疏神经元集群（DG 2–4%）；必要性+充分性+特异性三重验证；印迹≠突触强化（Ryan 2015 沉默印迹发现）；CREB 竞争分配；DG→CA3→CA1 多层印迹网络；子集合体时间结构（40–50% 跨时间相似度）
+- `concepts/memory-allocation.md`（记忆分配）🔵 mainstream / 置信度高 — CREB 竞争机制；内在兴奋性决定印迹席位；~6 小时记忆链接窗口；侧向抑制执行稀疏性
+
+**修订页面（3）**：
+- `concepts/ltp.md`：新增印迹细胞视角——LTP（突触强化）是印迹自然检索的放大机制，而非印迹存在的必要条件（Ryan 2015 关键区分）；related 增加 engram-cells、memory-allocation；revision_count 2→3
+- `concepts/hebbian-learning.md`：新增记忆分配 / CREB 竞争是 Hebb 原理在细胞分配层的实现；related 增加 engram-cells、memory-allocation；revision_count 2→3
+- `neurons/place-cell.md`：新增第5节"场所细胞作为空间情景记忆的印迹细胞"——CA1 场所细胞是空间情景印迹候选；情景印迹异质性（空间/情境/情绪效价亚群分工）；revision_count 2→3
+
+**矛盾登记（0）**：今日新证据与既有 wiki 主张无冲突。Ryan 2015 关于"印迹≠突触强化"的发现是对 LTP 角色的精细化，而非矛盾（LTP 是检索放大机制而非存储基质，是对 LTP 传统描述的补充，不是否定）。
+
+**已登记开放矛盾状态**（无变化）：
+- `C-2026-05-24-01`（AIS GABA 极性）：仍 open
+- `C-2026-05-25-01`（SNARE 就绪态装配状态）：仍 open
+
+**悬空引用解决（1）**：
+- `engram-cells`（印迹细胞）— 已建页面（此前被 4 个页面引用，**最高优先级**）
+
+**新增悬空引用（1）**：
+- 无新增悬空引用（engram-cells 和 memory-allocation 的 related/prerequisites 已有节点）
+
+**图谱**：节点 24→26，边 95→108，新增 13 条边（engram-cells 和 memory-allocation 的出入边）。
+
+**层级跨越**：今日从"分子→细胞→突触→回路→系统"的垂直链，跨入**认知-行为因果层**——印迹细胞是"突触权重变化在哪些神经元上发生"的问题答案，完成了从 LTP（分子层）到记忆回忆（行为层）的中间层缺口填补。
+
+---
+
 ## 2026-05-30（第一周综合，文章 #7）
 
 **源文章**：[[2026-05-30-week1-synthesis]] —《第一周综合：时间的阶梯——大脑如何在七个数量级的尺度上编码记忆》

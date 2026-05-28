@@ -6,10 +6,10 @@ type: theory
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-05-30
-revision_count: 2
+updated: 2026-05-31
+revision_count: 3
 dimensions: [synaptic, cognition, behavior, whole-brain-network]
-related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy]
+related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy, engram-cells, memory-allocation]
 prerequisites: [synaptic-transmission, action-potential, nmda-receptor]
 opens_questions: [Q-hebbian-global-error, Q-hebbian-stability]
 source_articles: [2026-05-26-nmda-receptor-ltp]
@@ -78,6 +78,8 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 - [[temporal-coding-hierarchy]] — 多时间尺度 Hebb 实例化的综合框架
 - [[three-factor-learning-rule]] — 将 Hebb 规则扩展为包含全局调制信号的学习算法（待建页面）
 - [[stdp]] — STDP 是 Hebb 规则的时间分辨精化版本（待建页面）
+- [[engram-cells]] — 印迹细胞的 CREB 竞争分配是 Hebb 原理在**细胞层**的实现：训练时最活跃（兴奋性最高）的神经元优先被"选中"
+- [[memory-allocation]] — 记忆分配的 CREB 竞争机制是 Hebb 规则的细胞选择层
 
 ## 未解问题
 
@@ -88,7 +90,9 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《第一周综合：时间的阶梯》一文 · 新增"多尺度 Hebb 规则"一节（BTSP/θ 序列/SWR 均为 Hebb 原理在不同时间尺度的实例化）；related 新增 btsp/theta-oscillations/sharp-wave-ripples/temporal-coding-hierarchy；dimensions 扩展为 behavior/whole-brain-network
+- 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增 Hebb 原理在细胞分配层的实现（CREB 竞争 / 记忆分配）；related 新增 engram-cells, memory-allocation
 
 ## 来源文章
 
 - [[2026-05-26-nmda-receptor-ltp]]
+- [[2026-05-31-engram-cells-memory-trace]]
