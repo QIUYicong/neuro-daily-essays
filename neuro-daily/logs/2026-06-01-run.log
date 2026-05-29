@@ -1,0 +1,122 @@
+# 运行日志 · 2026-06-01
+
+**实际系统时间（UTC+8）**：2026-05-29 12:00 CST
+**逻辑文章日期**：2026-06-01（前序会话已覆盖 2026-05-29 至 2026-05-31，本次顺延）
+**运行分支**：claude/funny-einstein-4ou3s
+**文章序号**：#9（第二周第 2 篇）
+
+---
+
+## 搜索与检索
+
+### 检索词
+- `memory consolidation sleep hippocampal cortical dialogue review`
+- `sharp wave ripple replay memory consolidation sleep review`
+- `standard model memory consolidation multiple trace theory systems consolidation`
+- `Diekelmann Born sleep memory review`
+- `sleep spindle sharp wave ripple coupling memory consolidation hippocampus neocortex`
+- `Buzsaki hippocampal replay memory consolidation two stage model`（无结果）
+- `Squire Alvarez 1995 hippocampus neocortex consolidation`（无结果）
+- `Girardeau 2009 sharp wave ripple memory spatial maze`（成功）
+- `Tononi Cirelli synaptic homeostasis hypothesis sleep`
+- `Moscovitch Nadel multiple trace theory hippocampus remote memory 2006`
+
+### 数据源使用
+- PubMed E-utilities (esearch / efetch): 主要检索入口
+- PMC 开放全文: PMC4712256, PMC9011342, PMC11884783, PMC6612535, PMC11895523（均通过 pmc.ncbi.nlm.nih.gov）
+- Europe PMC: 未直接使用（PMC 已覆盖需求）
+
+### 候选文献数量
+- 初始候选：~30 篇
+- 精读/摘要读取：12 篇
+- 最终引用：10 篇
+
+### 采用来源（含理由）
+| PMID | 状态 | 采用理由 |
+|------|------|---------|
+| 26275935 (PMC4712256) | 开放全文 | 神经调质调控重播内容的机制综述，Trends Neurosci 高影响力 |
+| 35431819 (PMC9011342) | 开放全文 | 嵌套振荡层级综述，牙状棘波新机制，Frontiers 2022 |
+| 40047245 (PMC11884783) | 开放全文 | 丘脑汇聚核新发现，eLife 2025，高时效性和新颖性 |
+| 30614089 (PMC6612535) | 开放全文 | SHY 核心综述，Tononi & Cirelli，European J Neurosci 2020 |
+| 20046194 | 摘要 | Diekelmann & Born 2010 Nature Reviews，领域最重要综述 |
+| 19749750 | 摘要 | Girardeau 2009 Nature Neurosci，SWR 因果证据的金标准 |
+| 28689981 | 摘要 | Latchoumane 2017 Neuron，三重耦合光遗传因果证据 |
+| 16564688 | 摘要 | Moscovitch 2006，MTT 理论核心综述 |
+| 10985275 | 摘要 | Nadel 2000，MTT 原始文献 |
+| 38973508 (PMC11895523) | 开放全文 | SHY 分子证据（AMPA 受体） |
+
+### 排除来源（含理由）
+| PMID | 排除理由 |
+|------|---------|
+| 36313529 | CLS 计算模型，内容通过 McClelland 2013 间接覆盖 |
+| 33631314 | Reuniens 综述，内容被 Basha 2025（更新更具体）覆盖 |
+
+---
+
+## 文章生成
+
+**文章文件**：`neuro-daily/articles/2026-06-01-memory-consolidation-sleep.md`
+**字数估计**：约 5800 字（中文）
+**结构完整性**：核心问题 ✅ / 机制分层 ✅ / 证据表 ✅ / 比喻（+说明边界）✅ / 认知地图更新 ✅ / 参考来源（含全文可用性）✅ / AI 对照 ✅ / 争议说明 ✅
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页面（4）
+- `concepts/memory-consolidation.md`（填补唯一悬空引用，5 个页面引用此节点）
+- `concepts/sleep-spindles.md`
+- `concepts/slow-oscillations.md`
+- `concepts/synaptic-homeostasis.md`
+
+### 修订 wiki 页面（3）
+- `concepts/sharp-wave-ripples.md`：revision_count 1→2，新增 3 个来源，2 个未解问题
+- `neurons/hippocampal-circuit.md`：revision_count 3→4，新增未解问题和来源
+- `concepts/engram-cells.md`：revision_count 1→2，修订历史追加
+
+### 矛盾检查结果
+- 无新矛盾：今日新内容（Basha 2025 丘脑汇聚核）属于新发现，不与既有内容冲突
+- SHY 与重播理论在文章和 wiki 中如实呈现为"互补框架"，并非矛盾
+- 已登记开放矛盾 C-2026-05-24-01、C-2026-05-25-01 仍 open，今日证据不足以裁决
+
+---
+
+## 图谱更新
+
+**节点**：25→29（新增 memory-consolidation, sleep-spindles, slow-oscillations, synaptic-homeostasis）
+**边**：108→125（+17 条新边）
+**悬空引用解决**：memory-consolidation ✅（唯一悬空引用已填补）
+**新增悬空引用**：0（新页面的 related 节点均已有对应页面）
+
+---
+
+## 治理层更新
+
+- `state/topic_ledger.json`：新增条目，total_articles 8→9，layer_coverage_recent 更新
+- `state/unresolved_questions.md`：新增 3 个问题（Q-memory-consolidation-rem, Q-shr-content-selection, Q-human-swr-consolidation）
+- `state/monthly_synthesis.md`：新增洞见 #26、#27；本月文章数 7→9
+- `wiki/CHANGELOG.md`：新增 2026-06-01 节
+- `wiki/index.md`：新增 4 个页面条目，路线进度更新，悬空引用状态更新
+
+---
+
+## 自检结果
+
+**真实性**：✅ 所有事实主张均有 PMID/PMCID 标注；已区分事实/模型/推测；未把单篇/动物研究写成定论；标准巩固 vs 多重痕迹理论的争议如实呈现
+
+**一致性**：✅ 新内容不与既有 wiki 冲突；被修订页面的 updated/revision_count/修订历史均同步；_graph.json 无新的悬空边（已检查新建页面的 related 节点均有对应 wiki 页）
+
+**可导航**：✅ index.md 和 CHANGELOG.md 均反映今日变化；新页面的 related 和 prerequisites 各≥1
+
+**情景层**：✅ 文章/笔记/来源/日志齐全；未修改任何旧文件（仅 append 或 edit 修订历史/字段）
+
+---
+
+## Git 操作
+
+**分支**：claude/funny-einstein-4ou3s
+**提交范围**：neuro-daily/（文章 + 笔记 + 来源 + wiki + 状态 + 日志）
+**commit message**：`Add neuro daily article + wiki consolidation for 2026-06-01`
+**push 目标**：origin（http://local_proxy@127.0.0.1:xxxxx/git/QIUYicong/neuro-daily-essays）
+
+**push 状态**：（待确认）

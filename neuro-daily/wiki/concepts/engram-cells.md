@@ -6,8 +6,8 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-05-31
-revision_count: 1
+updated: 2026-06-01
+revision_count: 2
 dimensions: [cellular, brain-region, behavior, cognition]
 related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
@@ -94,6 +94,7 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 ## 修订历史
 
 - 2026-05-31 · 创建 · 填补四个页面的高优先级悬空引用（ltp, hebbian-learning, dendritic-computation, place-cell）· 基于《印迹细胞的光子证明》文章 · 初始置信度：高
+- 2026-06-01 · 修订 · 基于《记忆固化的夜间工厂》文章 · 补充理解：系统巩固过程中，海马印迹细胞通过 SWR 重播驱动皮层印迹的逐步建立；SHY 机制保护活跃印迹细胞对应突触免于整体下调；revision_count 更新
 
 ## 来源文章
 

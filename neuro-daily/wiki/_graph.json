@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-31",
-  "node_count": 25,
-  "edge_count": 108,
+  "updated": "2026-06-01",
+  "node_count": 29,
+  "edge_count": 125,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -229,6 +229,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/engram-cells.md"
+    },
+    {
+      "id": "memory-consolidation",
+      "title": "记忆系统巩固",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/memory-consolidation.md"
+    },
+    {
+      "id": "sleep-spindles",
+      "title": "睡眠纺锤波",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/sleep-spindles.md"
+    },
+    {
+      "id": "slow-oscillations",
+      "title": "新皮层慢振荡",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/slow-oscillations.md"
+    },
+    {
+      "id": "synaptic-homeostasis",
+      "title": "突触稳态假说（SHY）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/synaptic-homeostasis.md"
     }
   ],
   "edges": [
@@ -337,7 +373,29 @@
     {"from": "ltp", "to": "engram-cells", "type": "related", "note": "LTP 是印迹细胞建立突触增强的主要分子机制；光学 LTP 可恢复沉默印迹"},
     {"from": "place-cell", "to": "engram-cells", "type": "related", "note": "CA1 场所细胞是情景记忆印迹细胞的典型代表；Liu 2012, Roy 2016 均使用海马场所细胞区域标记印迹"},
     {"from": "hippocampal-circuit", "to": "engram-cells", "type": "related", "note": "海马三突触回路（DG→CA3→CA1）提供了印迹间优先连接链的解剖基础"},
-    {"from": "hebbian-learning", "to": "engram-cells", "type": "supports", "note": "印迹细胞是 Hebb 学习规则在细胞集合层面的实验证明"}
+    {"from": "hebbian-learning", "to": "engram-cells", "type": "supports", "note": "印迹细胞是 Hebb 学习规则在细胞集合层面的实验证明"},
+    {"from": "sharp-wave-ripples", "to": "memory-consolidation", "type": "mechanism-of", "note": "SWR 重播是系统巩固的核心驱动机制（Girardeau 2009 因果证据）"},
+    {"from": "memory-consolidation", "to": "hippocampal-circuit", "type": "part-of", "note": "海马 CA3-CA1 回路产生 SWR 并输出巩固信号"},
+    {"from": "memory-consolidation", "to": "ltp", "type": "related", "note": "反复 SWR 重播通过 Hebb 机制在皮层建立长期突触（LTP 机制）"},
+    {"from": "memory-consolidation", "to": "engram-cells", "type": "related", "note": "系统巩固的结果是皮层印迹细胞集合的建立"},
+    {"from": "memory-consolidation", "to": "place-cell", "type": "related", "note": "场所细胞序列是 SWR 重播的主要内容"},
+    {"from": "memory-consolidation", "to": "theta-oscillations", "type": "related", "note": "θ（探索/编码）与 SWR（巩固/重播）是海马两种互斥的工作模式"},
+    {"from": "memory-consolidation", "to": "sleep-spindles", "type": "related", "note": "纺锤波是 SWR→皮层信号传递的时序协调者（三重耦合中间层）"},
+    {"from": "memory-consolidation", "to": "slow-oscillations", "type": "related", "note": "皮层慢振荡提供 SWR 信号的接收时间窗口（上行态 = 可塑性窗口）"},
+    {"from": "memory-consolidation", "to": "synaptic-homeostasis", "type": "related", "note": "SHY 突触下调与主动重播共同优化记忆信噪比"},
+    {"from": "memory-consolidation", "to": "btsp", "type": "related", "note": "BTSP 是场所细胞清醒期编码的机制；memory-consolidation 是其离线固化的接续"},
+    {"from": "sleep-spindles", "to": "memory-consolidation", "type": "mechanism-of", "note": "纺锤波在三重耦合中介导 SWR 信号传递到皮层"},
+    {"from": "sleep-spindles", "to": "sharp-wave-ripples", "type": "related", "note": "SWR 触发丘脑纺锤波（Basha 2025: SWR→NR spindle ~83 ms）"},
+    {"from": "sleep-spindles", "to": "slow-oscillations", "type": "part-of", "note": "纺锤波嵌套在慢振荡上行态内"},
+    {"from": "sleep-spindles", "to": "hippocampal-circuit", "type": "related", "note": "海马 SWR 通过丘脑汇聚核触发纺锤波级联"},
+    {"from": "slow-oscillations", "to": "memory-consolidation", "type": "mechanism-of", "note": "慢振荡上行态是 SWR 信号被接收和强化的时间窗口"},
+    {"from": "slow-oscillations", "to": "sleep-spindles", "type": "regulates", "note": "慢振荡上行态触发并包含纺锤波"},
+    {"from": "slow-oscillations", "to": "sharp-wave-ripples", "type": "regulates", "note": "皮层慢振荡相位（通过丘脑汇聚核）调控 SWR 发生时机"},
+    {"from": "synaptic-homeostasis", "to": "memory-consolidation", "type": "related", "note": "SHY 是记忆巩固的稳态维度：整体突触下调 + 重要突触保护 = 信噪比提升"},
+    {"from": "synaptic-homeostasis", "to": "ltp", "type": "related", "note": "SHY 是 LTP 的稳态对冲：清醒期 LTP 上调，睡眠期 SHY 整体下调"},
+    {"from": "synaptic-homeostasis", "to": "engram-cells", "type": "related", "note": "印迹细胞对应的突触在 SHY 中因高活动性而受到相对保护"},
+    {"from": "synaptic-homeostasis", "to": "ampa-receptor", "type": "mechanism-of", "note": "AMPA 受体表面表达水平是 SHY 的关键分子指标（睡眠后下降）"},
+    {"from": "engram-cells", "to": "synaptic-homeostasis", "type": "related", "note": "SHY 机制保护活跃印迹细胞突触免于睡眠期整体下调"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -350,7 +408,7 @@
     {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议，待建页面"},
     {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
     {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},
-    {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples"], "note": "记忆巩固，海马SWR重放→皮层系统巩固机制；今日新增 sharp-wave-ripples 页面已对其内容进行了大量覆盖，但专门的 memory-consolidation 页面仍待建立（涵盖系统巩固、睡眠阶段、皮层侧的LTP等）"},
+    {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples", "engram-cells", "temporal-coding-hierarchy"], "note": "已于 2026-06-01 创建页面，填补悬空引用", "resolved": "2026-06-01"},
     {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"}
   ]
 }

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-05-29
-revision_count: 1
+updated: 2026-06-01
+revision_count: 2
 dimensions: [whole-brain-network, brain-region, cellular, behavior, cognition]
 related: [hippocampal-circuit, place-cell, theta-oscillations, memory-consolidation, ltp, hebbian-learning]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cell]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation]
 source_articles: [2026-05-29-theta-oscillations-phase-coding]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810"]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:19749750", "PMID:26275935", "PMID:40047245"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -98,10 +98,13 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 
 - Q-swr-reverse-forward：前向重播、反向重播、新颖路径重播分别在何种条件下产生？是否对应不同的认知功能（强化 vs. 规划 vs. 泛化）？
 - Q-swr-cortical-consolidation：SWR期间海马的信号如何精确地在新皮层留下持久印记？是Schaffer-皮层的直接突触修改，还是通过下丘脑/脑干/睡眠调节因子介导？
+- Q-shr-content-selection：决定哪些 SWR 重播内容被"选中"的完整机制？多巴胺/奖励之外还有什么？
+- Q-human-swr-consolidation：人类 SWR 的直接因果证据如何获得（颅内电极研究的局限性）？
 
 ## 修订历史
 
 - 2026-05-29 · 创建 · 基于《θ振荡与相位编码》文章 · 填补了 memory-consolidation 悬空引用 · 初始置信度：高
+- 2026-06-01 · 修订 · 基于《记忆固化的夜间工厂》文章 · 新增关键来源（Girardeau 2009 因果证据、Atherton 2015 神经调质机制、Basha 2025 丘脑汇聚核）；新增未解问题 Q-shr-content-selection 和 Q-human-swr-consolidation；连接已通过 memory-consolidation 页面建立
 
 ## 来源文章
 

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-31",
-  "total_articles": 8,
+  "last_updated": "2026-06-01",
+  "total_articles": 9,
   "entries": [
     {
       "date": "2026-05-24",
@@ -490,6 +490,82 @@
       "mode": "long_term_curriculum",
       "article_number": 8,
       "dangling_reference_filled": "engram-cells（填补了 ltp、hebbian-learning、dendritic-computation、place-cell 共 4 个页面的高优先级悬空引用）"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "记忆固化的夜间工厂：睡眠中的海马-皮层对话",
+      "filename": "2026-06-01-memory-consolidation-sleep.md",
+      "wiki_pages_created": [
+        "wiki/concepts/memory-consolidation.md",
+        "wiki/concepts/sleep-spindles.md",
+        "wiki/concepts/slow-oscillations.md",
+        "wiki/concepts/synaptic-homeostasis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/sharp-wave-ripples.md",
+        "wiki/neurons/hippocampal-circuit.md",
+        "wiki/concepts/engram-cells.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "睡眠期间，大脑如何通过锐波-涟波（SWR）重播、慢振荡-纺锤波-涟波的三重同步耦合、丘脑汇聚核的中继，以及突触稳态下选，将海马中脆弱的情节记忆逐步转写到新皮层，实现"系统巩固"？",
+      "layer": ["全脑网络", "脑区", "行为", "认知"],
+      "curriculum_track": "4. 学习和记忆（系统巩固·睡眠中的记忆固化）",
+      "topic_tags": [
+        "memory consolidation",
+        "systems consolidation",
+        "sharp wave ripples",
+        "SWR replay",
+        "sleep spindles",
+        "slow oscillations",
+        "SO-spindle-ripple coupling",
+        "triple phase-locking",
+        "nucleus reuniens",
+        "thalamus",
+        "mPFC",
+        "synaptic homeostasis hypothesis",
+        "SHY",
+        "synaptic downscaling",
+        "standard consolidation model",
+        "multiple trace theory",
+        "Diekelmann Born",
+        "Girardeau 2009",
+        "Latchoumane 2017",
+        "Tononi Cirelli",
+        "hippocampus",
+        "neocortex",
+        "complementary learning systems",
+        "NREM sleep",
+        "two-stage model",
+        "active system consolidation"
+      ],
+      "main_sources": [
+        "PMID:26275935 (PMC4712256)",
+        "PMID:35431819 (PMC9011342)",
+        "PMID:40047245 (PMC11884783)",
+        "PMID:30614089 (PMC6612535)",
+        "PMID:20046194 (abstract only)",
+        "PMID:19749750 (abstract only)",
+        "PMID:28689981 (abstract only)",
+        "PMID:16564688 (abstract only)",
+        "PMID:10985275 (abstract only)",
+        "PMID:38973508 (PMC11895523)"
+      ],
+      "unresolved_questions": [
+        "Q-memory-consolidation-rem：REM 睡眠对情绪记忆的巩固机制及其与 NREM 的分工",
+        "Q-shr-content-selection：SWR 重播内容选择的完整机制（多巴胺标记之外）",
+        "Q-human-swr-consolidation：人类 SWR 因果证据的获取途径"
+      ],
+      "next_suggested_topics": [
+        "电压门控钙通道（L-type / P/Q/N-type）：连接 BTSP、树突计算、突触前释放的分子缺口（calcium-channel 悬空引用，被 6 个页面引用，molecular 层）",
+        "抑制性中间神经元多样性：PV+/SST+/VIP+ 在海马和皮层中如何调控 SWR 重播和记忆编码（microcircuit 层，填补层级均衡需求）",
+        "LTD（长时程抑制）：磷酸酶、AMPA 受体内吞，LTP 的对称补充（synaptic 层，molecular）",
+        "内侧隔核（MS-DBB）：θ 起搏器的解剖与生理（medial-septum 悬空引用）",
+        "记忆提取机制：CA1 输出→皮层，模式匹配如何完成情节记忆重构"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 9,
+      "dangling_reference_filled": "memory-consolidation（填补了图谱中唯一悬空引用，被 hippocampal-circuit、place-cell、sharp-wave-ripples、engram-cells、temporal-coding-hierarchy 共 5 个页面引用）",
+      "note": "今日系统 UTC+8 时间为 2026-05-29，前序会话已覆盖 2026-05-29 至 2026-05-31，本文逻辑日期顺延至 2026-06-01 以维护序列完整性"
     }
   ],
   "layer_coverage_recent": {
@@ -497,12 +573,12 @@
     "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28"],
     "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28"],
     "microcircuit": ["2026-05-27"],
-    "brain_region": ["2026-05-27", "2026-05-28"],
-    "whole_brain_network": ["2026-05-29", "2026-05-30"],
-    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31"],
-    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31"],
+    "brain_region": ["2026-05-27", "2026-05-28", "2026-06-01"],
+    "whole_brain_network": ["2026-05-29", "2026-05-30", "2026-06-01"],
+    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01"],
+    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31", "2026-06-01"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-05-31（印迹细胞）：行为+细胞+脑区+认知层。第二周第1篇，填补最高优先级悬空引用。下一建议：记忆巩固（系统层面）→ whole-brain-network 层深挖；或电压门控钙通道（molecular 层）→ 填补 calcium-channel 悬空引用（被6个页面引用）。注：已连续3天偏向 behavior/cognition，下篇建议回到 molecular 或 microcircuit 层以维持层级均衡。"
+  "layer_note": "2026-06-01（记忆系统巩固）：全脑网络+脑区+行为+认知层。填补唯一悬空引用 memory-consolidation。注：已连续多天偏向 behavior/cognition/whole-brain-network，下篇强烈建议回到 molecular 或 microcircuit 层（电压门控钙通道或抑制性中间神经元）以维持层级均衡。"
 }

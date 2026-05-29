@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-06-01（第二周·第 2 篇，文章 #9）
+
+**源文章**：[[2026-06-01-memory-consolidation-sleep]] —《记忆固化的夜间工厂：睡眠中的海马-皮层对话》
+
+**新建页面（4）**：
+- `concepts/memory-consolidation.md`（记忆系统巩固）🟢 established / 置信度高 — **填补了图谱中唯一悬空引用** `memory-consolidation`（被 hippocampal-circuit、place-cell、sharp-wave-ripples、engram-cells、temporal-coding-hierarchy 共 5 个页面引用）；覆盖：SWR 重播（Girardeau 2009 因果证据）、SO-纺锤波-SWR 三重耦合（Latchoumane 2017 光遗传证据）、丘脑汇聚核中继（Basha 2025）、SHY 突触稳态（Tononi & Cirelli 2020）、标准巩固模型 vs 多重痕迹理论；opens 3 个新未解问题
+- `concepts/sleep-spindles.md`（睡眠纺锤波）🟢 established / 置信度高 — 三重耦合中间层；丘脑-皮层振荡机制；记录光遗传因果证据（Latchoumane 2017）；新增节点填补图谱中 memory-consolidation 的依赖节点
+- `concepts/slow-oscillations.md`（新皮层慢振荡）🟢 established / 置信度高 — NREM 睡眠 <1 Hz 主时钟；上行态/下行态机制；mPFC 慢振荡相位反向调控 SWR 时机（Basha 2025）
+- `concepts/synaptic-homeostasis.md`（突触稳态假说 SHY）🔵 mainstream / 置信度高 — 电镜 -18% 证据、Homer1a/Arc/GSK-3β 分子机制；与主动重播互补框架
+
+**修订页面（3）**：
+- `concepts/sharp-wave-ripples.md`：新增 key_sources（Girardeau 2009 因果证据、Atherton 2015 神经调质选择机制、Basha 2025 丘脑汇聚核）；新增未解问题 Q-shr-content-selection 和 Q-human-swr-consolidation；revision_count 1→2
+- `neurons/hippocampal-circuit.md`：新增未解问题（Q-shr-content-selection、Q-human-swr-consolidation）；补充 key_sources；revision_count 3→4
+- `concepts/engram-cells.md`：修订历史追加说明系统巩固与印迹细胞的关系（SWR 重播保护印迹突触免于 SHY 整体下调）；revision_count 1→2
+
+**矛盾登记（0）**：今日新内容（Basha 2025 丘脑汇聚核）属于新发现，不与既有 wiki 内容冲突；SHY 与重播理论冲突已在文章和 wiki 中如实呈现为"互补而非矛盾"。已登记开放矛盾状态不变：C-2026-05-24-01、C-2026-05-25-01 仍 open。
+
+**悬空引用解决（1）**：
+- `memory-consolidation` ✅ 已填补（被 hippocampal-circuit/place-cell/sharp-wave-ripples/engram-cells/temporal-coding-hierarchy 共 5 个页面引用）
+
+**新增悬空引用（0）**：新建页面的 related 节点（ltp, engram-cells, hippocampal-circuit, ampa-receptor, btsp 等）均已有对应页面。
+
+**图谱**：节点 25→29（+4），边 108→125（+17）；已标记 memory-consolidation 悬空引用为 resolved。
+
+---
+
 ## 2026-05-31（第二周·第 1 篇，文章 #8）
 
 **源文章**：[[2026-05-31-engram-cells-optogenetic-proof]] —《印迹细胞的光子证明：记忆真的宿于特定神经元集合吗？》

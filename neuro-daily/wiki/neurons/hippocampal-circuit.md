@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-31
-revision_count: 3
+updated: 2026-06-01
+revision_count: 4
 dimensions: [brain-region, microcircuit, cognition]
 related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation]
 prerequisites: [synaptic-transmission, ltp, action-potential]
 opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism]
 source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof]
-key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386"]
+key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:40047245", "PMID:19749750"]
 ---
 
 # 海马回路 (Hippocampal Circuit)
@@ -123,12 +123,15 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 
 - Q-ca2-function：CA2 亚区（在 CA3 和 CA1 之间）在记忆编码中的具体角色？与社会记忆相关？
 - Q-hippocampal-consolidation-mechanism：海马→皮层的记忆巩固是如何精确调控的？SWR 重放选择哪些序列？
+- Q-shr-content-selection：决定哪些 SWR 重播内容被"选中"的完整机制（多巴胺标记之外）？
+- Q-human-swr-consolidation：人类 SWR 因果证据如何在伦理约束下获得？
 
 ## 修订历史
 
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"海马两种工作模式"（θ态/SWR态）章节；新增 SWR 生成和重播机制；新增 key_sources
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：DG 是印迹细胞分配竞争的主要场所（2–4% 稀疏活动→高正交性）；DG→CA3→CA1→BLA 印迹间优先连接链的描述；连接增加 [[engram-cells]]
+- 2026-06-01 · 修订 · 基于《记忆固化的夜间工厂》文章 · 新增未解问题（Q-shr-content-selection、Q-human-swr-consolidation）；补充 key_sources（Basha 2025 丘脑汇聚核、Girardeau 2009 SWR 因果）；海马巩固机制现有独立 memory-consolidation 页面详细展开
 
 ## 来源文章
 
