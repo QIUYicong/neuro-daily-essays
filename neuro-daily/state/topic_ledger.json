@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-31",
-  "total_articles": 8,
+  "last_updated": "2026-06-01",
+  "total_articles": 9,
   "entries": [
     {
       "date": "2026-05-24",
@@ -490,12 +490,85 @@
       "mode": "long_term_curriculum",
       "article_number": 8,
       "dangling_reference_filled": "engram-cells（填补了 ltp、hebbian-learning、dendritic-computation、place-cell 共 4 个页面的高优先级悬空引用）"
+    },
+    {
+      "date": "2026-06-01",
+      "title": "神经元的三重钙门：电压门控钙通道如何在不同地点执行截然不同的命令",
+      "filename": "2026-06-01-voltage-gated-calcium-channels.md",
+      "wiki_pages_created": [
+        "wiki/neurons/voltage-gated-calcium-channels.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/active-zone.md",
+        "wiki/concepts/btsp.md",
+        "wiki/neurons/synaptotagmin.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "CaV1/CaV2/CaV3三亚家族如何通过亚细胞定位分工，实现突触前毫秒级递质释放（P/Q型，纳米域耦合<30 nm）、树突BTSP平台电位（L型，73%贡献）和核内基因表达（L型→CaM→CaMKIV→CREB，晚期LTP基础）三种截然不同的功能？",
+      "layer": ["分子", "细胞", "突触"],
+      "curriculum_track": "1. 神经元如何工作（分子基础·钙通道）",
+      "topic_tags": [
+        "voltage-gated calcium channels",
+        "CaV1",
+        "CaV2",
+        "CaV3",
+        "L-type calcium channel",
+        "P/Q-type calcium channel",
+        "N-type calcium channel",
+        "T-type calcium channel",
+        "nanodomain coupling",
+        "microdomain coupling",
+        "BAPTA",
+        "EGTA",
+        "synprint site",
+        "syntaxin-1A",
+        "SNAP-25",
+        "synaptotagmin",
+        "G-protein regulation",
+        "BTSP",
+        "LTP",
+        "nuclear calcium",
+        "CaMKIV",
+        "CREB",
+        "calyx of Held",
+        "developmental switch",
+        "septin-5",
+        "Timothy syndrome",
+        "FHM1",
+        "EA2"
+      ],
+      "main_sources": [
+        "PMID:21746798 (PMC3140680)",
+        "PMID:31064106 (PMC6539076)",
+        "PMID:22183436 (PMC3617475)",
+        "PMID:25674049 (PMC4306312)",
+        "PMID:32799605 (PMC7515572)",
+        "PMID:29723500 (abstract only)",
+        "PMID:28883072 (PMC7289271)",
+        "PMID:21640734 (abstract only)",
+        "PMID:22351065 (abstract only)",
+        "PMID:35063999 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-vgcc-nanodomain-universal：纳米域耦合是否在所有快速中枢突触中普遍存在？",
+        "Q-cav1-cav13-functional-split：CaV1.2 vs CaV1.3在不同树突区室的精确功能分工",
+        "Q-btsp-ltype-vs-nmda：BTSP中L型通道和NMDA受体的分子协同机制（非加和性？）"
+      ],
+      "next_suggested_topics": [
+        "记忆巩固（系统层面）：睡眠阶段分工、标准巩固 vs 多重痕迹理论、皮层侧LTP（memory-consolidation 现为最高优先悬空引用，被4个页面引用）",
+        "抑制性中间神经元多样性：PV+/SST+/VIP+ 的功能分工与突触前钙通道（接续今日主题，回路层级）",
+        "LTD（长时程抑制）：mGluR-LTD、AMPA受体内吞、去磷酸化酶（LTP的对称补充）",
+        "短时程突触可塑性：突触易化与抑制的分子机制（与今日钙通道/Syt7直接衔接）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 9,
+      "dangling_reference_filled": "calcium-channel（填补了 synaptotagmin、active-zone、btsp、dendritic-computation、ltp、synaptic-transmission 共 6 个页面的高优先级悬空引用；新 slug 为 voltage-gated-calcium-channels）"
     }
   ],
   "layer_coverage_recent": {
-    "molecular": ["2026-05-24", "2026-05-25", "2026-05-26"],
-    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28"],
-    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28"],
+    "molecular": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-06-01"],
+    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28", "2026-06-01"],
+    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28", "2026-06-01"],
     "microcircuit": ["2026-05-27"],
     "brain_region": ["2026-05-27", "2026-05-28"],
     "whole_brain_network": ["2026-05-29", "2026-05-30"],
@@ -504,5 +577,5 @@
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-05-31（印迹细胞）：行为+细胞+脑区+认知层。第二周第1篇，填补最高优先级悬空引用。下一建议：记忆巩固（系统层面）→ whole-brain-network 层深挖；或电压门控钙通道（molecular 层）→ 填补 calcium-channel 悬空引用（被6个页面引用）。注：已连续3天偏向 behavior/cognition，下篇建议回到 molecular 或 microcircuit 层以维持层级均衡。"
+  "layer_note": "2026-06-01（电压门控钙通道）：分子+细胞+突触层。第二周第2篇，填补最高优先级悬空引用 calcium-channel（被6个页面引用）。层级均衡恢复：前3天连续 behavior/cognition，今日回归 molecular/synaptic。下一建议：记忆巩固（系统层面）→ whole-brain-network 层深挖（memory-consolidation 现为最高优先级悬空引用，被4个页面引用），或抑制性中间神经元（microcircuit 层）→ PV+/SST+/VIP+ 多样性。"
 }

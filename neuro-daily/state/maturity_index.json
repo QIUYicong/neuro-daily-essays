@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-06-01",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -218,6 +218,14 @@
       "supporting_sources": 4,
       "last_status_change": "2026-05-31",
       "reason": "创建 2026-05-31。光遗传学激活印迹细胞的系列实验（Liu 2012, Ramirez 2013, Ryan 2015, Roy 2016）提供了多重独立、跨实验室的直接证据；c-Fos-tTA系统 + ChR2 的方法学已成为领域标准范式；沉默印迹在蛋白质合成抑制和AD模型中均有重复证据；故 status=established / confidence=high。主要局限：所有直接操控实验均在啮齿类，人类证据仍间接；20–40% 重叠率等方法学限制尚待解决；但核心论断（激活印迹细胞充分激活记忆行为）具有高置信度。"
+    },
+    {
+      "slug": "voltage-gated-calcium-channels",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 6,
+      "last_status_change": "2026-06-01",
+      "reason": "创建 2026-06-01。CaV1/CaV2/CaV3三亚家族的α1亚基结构（4域、S4电压传感器、S5-S6孔道）是Catterall等数十年晶体学+电生理+遗传研究的共识（诺贝尔奖级机制）。纳米域耦合（<100 nm）有BAPTA/EGTA差异实验（多实验室独立验证）直接证明。L型通道驱动BTSP平台电位（73%贡献，nimodipine阻断实验，Bittner 2017 Science）和LTP（CaV1.2 cKO实验，Sridharan 2020）均有遗传+药理+电生理多维证据。主要不确定性：CaV1.2 vs CaV1.3在不同树突区室的精确功能分工；纳米域耦合是否在所有快速突触（非脑干calyx特异）中普遍适用；CaV3（T型）在某些突触前的贡献机制。整体：established，不确定性在具体亚型功能分工层面而非核心机制。"
     }
   ]
 }

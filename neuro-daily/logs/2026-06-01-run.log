@@ -1,0 +1,214 @@
+# 运行日志 · 2026-06-01
+
+**运行时间**：2026-05-29 UTC（= UTC+8 2026-05-29）
+**逻辑日期**：2026-06-01（前序会话已覆盖至 2026-05-31，本次顺延）
+**文章编号**：#9（第二周·第 2 篇）
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：已读取，last_updated=2026-05-31，8 篇文章；层级注记：连续 3 天 behavior/cognition，建议回到 molecular/microcircuit
+- `unresolved_questions.md`：已读取，高优先级含 Q-btsp-human-conservation、Q-ltp-lifetime-mechanism 等
+- `contested_claims.json`：已读取，2 条 open 矛盾（C-2026-05-24-01, C-2026-05-25-01）
+- `_graph.json`：已读取，25 节点，108 边，最高优先级悬空引用：calcium-channel（被 6 页引用）
+- 矛盾协议：无需新登记（今日证据无冲突）
+
+---
+
+## 选题决策
+
+**触发规则**：悬空引用填补（优先级 3）+ 层级均衡（molecular 层缺口）
+
+**选择主题**：电压门控钙通道（Voltage-Gated Calcium Channels, VGCCs）
+
+**原因**：
+1. `calcium-channel` 是图谱中被引用次数最多的悬空引用（synaptotagmin/active-zone/btsp/dendritic-computation/ltp/synaptic-transmission 共 6 页）
+2. 上一篇（2026-05-31, 印迹细胞）的 next_suggested_topics 中明确列为次优先级
+3. 层级均衡：连续 3 天 behavior/cognition/whole-brain-network，今日回归 molecular/synaptic 层
+4. 主题具体可控（α1 亚基结构→三亚家族分工→纳米域耦合→L 型 BTSP/LTP），可在 5000 字内完成
+5. 有充足的开放全文来源（5 篇 PMC 开放全文）
+
+**核心问题缩小**：不写"所有钙通道机制"，而写"三亚家族如何通过亚细胞定位分工，在突触前（亚毫秒级）、树突（秒级）、核内（小时级）执行截然不同的命令"
+
+---
+
+## 检索过程
+
+### 查询执行
+
+1. PubMed ESearch: `voltage gated calcium channels neurons synaptic transmission` → 候选 PMID 列表
+2. PubMed ESearch: `Catterall voltage calcium channels review 2011` → PMID:21746798
+3. PubMed ESearch: `nanodomain coupling calcium channels synaptic exocytosis` → PMID:22183436
+4. PubMed ESearch: `calyx of held nanodomain presynaptic calcium` → PMID:25674049
+5. PubMed EFetch XML: PMID:31064106 → 确认 PMCID:PMC6539076
+6. PubMed EFetch XML: PMID:25674049 → 确认 PMCID:PMC4306312（初始尝试 PMC4384699 为错误 PMCID，通过 XML 修正）
+7. PubMed ESearch: `CaV1.2 L-type hippocampal LTP theta burst` → PMID:32799605
+
+### 全文读取（PMC）
+
+| 来源 | PMCID | 结果 |
+|------|-------|------|
+| Catterall 2011 (PMID:21746798) | PMC3140680 | ✅ 成功读取全文 |
+| Mochida 2019 (PMID:31064106) | PMC6539076 | ✅ 成功（初始 PMC6600334 错误，通过 XML 修正）|
+| Eggermann 2011 (PMID:22183436) | PMC3617475 | ✅ 成功读取全文 |
+| Wang & Augustine 2015 (PMID:25674049) | PMC4306312 | ✅ 成功（初始 PMC4384699 错误，通过 XML 修正）|
+| Sridharan 2020 (PMID:32799605) | PMC7515572 | ✅ 成功读取全文 |
+
+### 摘要读取
+
+| 来源 | PMID | 结果 |
+|------|------|------|
+| Nanou & Catterall 2018 | 29723500 | ⚠️ 仅摘要（Neuron 付费）|
+| Kroker 2011 | 21640734 | ⚠️ 仅摘要（Neuropharmacology 付费）|
+| Bengtson & Bading 2012 | 22351065 | ⚠️ 仅摘要（Adv Exp Med Biol 付费）|
+| Ramachandran 2022 | 35063999 | ⚠️ 仅摘要（J Neurosci 付费）|
+
+### 复用来源
+
+| 来源 | PMID | 说明 |
+|------|------|------|
+| Bittner 2017 (PMID:28883072) | 已注册 | L 型钙通道 73% BTSP 贡献数据；无需重新检索 |
+
+### 排除来源
+
+- PMID:36544543 (Zhang 2022 Frontiers) — 已于 2026-05-25 使用过，该次仅关注活动区多样性，今日专注于通道结构/功能，未重复列举
+- PMID:30037851 (Hansen 2018) — NMDA 受体综述，不属于本日主题
+
+---
+
+## 文章撰写
+
+**文件**：`articles/2026-06-01-voltage-gated-calcium-channels.md`
+**实际字数**：约 5000 字（含标题、表格、图示说明）
+**语言**：中文
+**文章结构**：
+- 今日核心问题 ✅
+- 一句话摘要 ✅
+- 为什么重要 ✅
+- 背景（α1 亚基结构详解：4 域、S4、S5-S6 孔道、synprint、C 末端） ✅
+- 三亚家族分类（CaV1/CaV2/CaV3 特性对比表） ✅
+- 机制分层（纳米域耦合→synprint→G 蛋白调控→L 型 BTSP→L 型 LTP→核钙信号） ✅
+- 关键证据（BAPTA/EGTA 实验、calyx 发育转变、CaV1.2 cKO 实验） ✅
+- 疾病联系（FHM1/EA2, Timothy 综合征, 自闭症, 双相/精神分裂症） ✅
+- 争议与未解问题 ✅
+- 今日认知地图更新 ✅
+- 参考来源（含全文可用性标注） ✅
+
+**所有来源均已正确引用，未编造 PMID/DOI/结论**
+
+---
+
+## 固结步骤
+
+### 创建的 Wiki 页面（1）
+
+- `wiki/neurons/voltage-gated-calcium-channels.md` — 填补 6 个页面的最高优先级悬空引用 `calcium-channel`
+  - 覆盖：α1 亚基结构、三亚家族、纳米域耦合、synprint 位点、G 蛋白调控、L 型 BTSP/LTP/核钙三分工
+  - 矛盾检查：无冲突（纳米域耦合补充了 active-zone 页面的定量数据）
+  - related：10 个节点（synaptic-transmission/synaptotagmin/active-zone/SNARE-complex/ltp/btsp/dendritic-computation/nmda-receptor/action-potential/camkii）
+
+### 修订的 Wiki 页面（3）
+
+- `wiki/neurons/active-zone.md` → revision_count 1→2
+  - 新增定量纳米域数据：海马篮状细胞 10-20 nm，成熟 calyx ~23 nm（9 通道），P8-12 幼年 61 nm
+  - 新增发育性转变：N+P/Q → 纯 P/Q；septin-5 机制；410 μs 时序优势
+  - 将 `voltage-gated-calcium-channel` 悬空链接更新为 `voltage-gated-calcium-channels`
+  - key_sources 增加 PMID:22183436, 25674049
+
+- `wiki/concepts/btsp.md` → revision_count 1→2
+  - 新增：L 型钙通道对平台电位的定量贡献（73%，nimodipine 阻断）
+  - 建立 voltage-gated-calcium-channels 连接
+  - opens_questions 增加 Q-btsp-ltype-vs-nmda
+  - key_sources 增加 PMID:21746798, 32799605
+
+- `wiki/neurons/synaptotagmin.md` → revision_count 1→2
+  - 将悬空引用 `calcium-channel` 更新为 `voltage-gated-calcium-channels`
+  - 新增：CaV2.1/2.2 通过 synprint 位点与 Syt1 C2B 域的预结合机制（约 20 μM Ca²⁺时最强）
+  - prerequisites 增加 voltage-gated-calcium-channels
+  - key_sources 增加 PMID:31064106
+
+### 矛盾检查结果
+
+- 无新矛盾（nanodomain 耦合数据与 active-zone 页面现有内容一致；L 型通道 BTSP 贡献与 btsp.md 现有内容相容）
+
+---
+
+## 图谱更新
+
+- 节点：25 → 26（新增 voltage-gated-calcium-channels）
+- 边：108 → 120（新增 12 条：10 条从 VGCC 出发 + 2 条从已有节点指向 VGCC）
+- 已解决悬空引用：calcium-channel（在 dangling_references 中标记为 resolved，附 resolved="2026-06-01"）
+- 新增悬空引用：无
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：新增条目（article #9），total_articles 8→9，last_updated=2026-06-01
+- `unresolved_questions.md`：新增 3 条高优先级问题（Q-vgcc-nanodomain-universal, Q-cav1-cav13-functional-split, Q-btsp-ltype-vs-nmda），last_updated=2026-06-01
+- `source_registry.json`：新增 9 条来源记录（S1-S6, S8-S10；S7 已注册，新增 used_in_articles 条目），last_updated=2026-06-01
+- `maturity_index.json`：新增 voltage-gated-calcium-channels 条目（established/high），last_updated=2026-06-01
+- `monthly_synthesis.md`：新增 #26 洞见（同一种钙信号，三种时间尺度的命运）
+- `wiki/index.md`：新增 voltage-gated-calcium-channels 条目；更新进度表；将 calcium-channel 移入已解决列表；更新 memory-consolidation 为新最高优先悬空引用
+- `wiki/CHANGELOG.md`：顶部新增 2026-06-01 条目
+
+---
+
+## 自检结果
+
+**真实性**
+- [x] 所有 wiki 新主张有来源（PMID 标注）
+- [x] 区分了事实/主流模型/推测：纳米域耦合普遍性、CaV1.2 vs CaV1.3 分工均标注为 opens_questions
+- [x] 未把啮齿类研究直接外推到人类：纳米域发育数据明确注明为 calyx of Held（脑干）
+- [x] 摘要来源已在来源表和正文中明确标注（4 篇"摘要可及"）
+- [x] Bittner 2017 数据注明"已于 2026-05-28 使用"，透明
+
+**一致性**
+- [x] 无新冲突需走矛盾协议
+- [x] 修订页面的 updated/revision_count/修订历史均同步
+- [x] _graph.json 无未记录悬空边（新边两端节点均已存在）
+- [x] `calcium-channel` 悬空引用在所有已更新页面中统一替换为 `voltage-gated-calcium-channels`
+
+**可导航**
+- [x] index.md 反映了今天的变化
+- [x] CHANGELOG.md 新增今日条目
+- [x] 新页面 voltage-gated-calcium-channels 的 related 和 prerequisites 均已填写
+
+**情景层完整**
+- [x] articles/notes/sources/logs 均已创建（append-only）
+- [x] 未修改任何旧情景层文件
+
+---
+
+## 错误与修正
+
+1. **PMC ID 错误（Mochida 2019）**：初始尝试 PMC6600334（乳腺癌论文），通过 PubMed XML efetch 修正为 PMC6539076
+2. **PMC ID 错误（Wang & Augustine 2015）**：初始尝试 PMC4384699（撤稿通知），通过 PubMed XML efetch 修正为 PMC4306312
+3. **active-zone.md 错误链接**：页面原有 `voltage-gated-sodium-channel` 引用，应为 `voltage-gated-calcium-channel`，本次修订中已纠正
+4. **PubMed elink API 失败**：连接重置错误；改用 efetch XML 方式查找 PMCID，成功解决
+
+---
+
+## Git 操作
+
+**分支**：main
+**remote**：http://local_proxy@127.0.0.1:40543/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
+**commit message**：Add neuro daily article + wiki consolidation for 2026-06-01
+**push 状态**：[执行中]
+
+---
+
+## 失败与限制
+
+- Nanou & Catterall 2018 (PMID:29723500) Neuron 全文付费，无 PMC 版本；仅使用摘要
+- Kroker 2011 (PMID:21640734)、Bengtson & Bading 2012 (PMID:22351065)、Ramachandran 2022 (PMID:35063999) 均无开放全文
+- 开放全文来源：5 篇（Catterall 2011 + Mochida 2019 + Eggermann 2011 + Wang & Augustine 2015 + Sridharan 2020）；满足 ROUTINE.md ≥2 篇要求
+
+---
+
+## 下次建议
+
+优先级 1：`memory-consolidation`（被 4 个页面引用，系统巩固理论、睡眠阶段分工、标准巩固 vs 多重痕迹；whole-brain-network + cognition 层）
+优先级 2：抑制性中间神经元（PV+/SST+/VIP+ 多样性；microcircuit 层，长期空白）
+层级建议：下篇可选 whole-brain-network 层（memory-consolidation 可达系统层），或 microcircuit 层（填补抑制回路空白）

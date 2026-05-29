@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-28
-revision_count: 1
+updated: 2026-06-01
+revision_count: 2
 dimensions: [synaptic, cellular, cognition]
-related: [ltp, place-cell, dendritic-computation, hebbian-learning, nmda-receptor, camkii]
-prerequisites: [ltp, dendritic-computation, nmda-receptor]
-opens_questions: [Q-btsp-human-conservation, Q-btsp-nmda-role, Q-btsp-vs-stdp-interaction]
-source_articles: [2026-05-28-place-cells-btsp]
-key_sources: ["PMID:28883072", "PMID:26167906", "PMID:34882093", "PMID:39454575"]
+related: [ltp, place-cell, dendritic-computation, hebbian-learning, nmda-receptor, camkii, voltage-gated-calcium-channels]
+prerequisites: [ltp, dendritic-computation, nmda-receptor, voltage-gated-calcium-channels]
+opens_questions: [Q-btsp-human-conservation, Q-btsp-nmda-role, Q-btsp-vs-stdp-interaction, Q-btsp-ltype-vs-nmda]
+source_articles: [2026-05-28-place-cells-btsp, 2026-06-01-voltage-gated-calcium-channels]
+key_sources: ["PMID:28883072", "PMID:26167906", "PMID:34882093", "PMID:39454575", "PMID:21746798", "PMID:32799605"]
 ---
 
 # 行为时间尺度突触可塑性（BTSP, Behavioral Timescale Synaptic Plasticity）
@@ -86,7 +86,8 @@ BTSP 不只能写入新场所场，也能**修改已有场所场**：
 - [[place-cell]] — BTSP 是场所场形成的核心突触机制
 - [[dendritic-computation]] — 树突钙平台电位是 BTSP 的触发机制；BTSP 是树突计算在可塑性层面的体现
 - [[hebbian-learning]] — BTSP 不遵从严格的 Hebb 因果律（可以强化"非因果"输入）；但仍与 Hebb 精神相通（活动依赖的突触修改）
-- [[nmda-receptor]] — NMDA 受体在 BTSP 中参与局部信号放大，但不是主要触发器（L 型钙通道是）
+- [[nmda-receptor]] — NMDA 受体在 BTSP 中提供主要 Ca²⁺（APV 阻断→84% BTSP 降低）；两种 Ca²⁺ 来源协同维持平台电位
+- [[voltage-gated-calcium-channels]] — L型通道（CaV1.2/1.3）提供平台电位的持续Ca²⁺内流（尼莫地平阻断→73% BTSP降低）；是 BTSP 的必要分子参与者
 
 ## 未解问题
 
@@ -97,7 +98,9 @@ BTSP 不只能写入新场所场，也能**修改已有场所场**：
 ## 修订历史
 
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 提出 BTSP 作为独立学习规则 · 初始置信度：高
+- 2026-06-01 · 修订 · 基于《神经元的三重钙门》一文 · 明确 L 型钙通道（CaV1.2/1.3）为平台电位的必要分子成分（尼莫地平降低 73% BTSP）；新增与 voltage-gated-calcium-channels 的连接；添加 Q-btsp-ltype-vs-nmda 未解问题
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
+- [[2026-06-01-voltage-gated-calcium-channels]]

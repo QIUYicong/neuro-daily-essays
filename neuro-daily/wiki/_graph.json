@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-31",
-  "node_count": 25,
-  "edge_count": 108,
+  "updated": "2026-06-01",
+  "node_count": 26,
+  "edge_count": 120,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -229,6 +229,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/engram-cells.md"
+    },
+    {
+      "id": "voltage-gated-calcium-channels",
+      "title": "电压门控钙通道",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/voltage-gated-calcium-channels.md"
     }
   ],
   "edges": [
@@ -337,12 +346,24 @@
     {"from": "ltp", "to": "engram-cells", "type": "related", "note": "LTP 是印迹细胞建立突触增强的主要分子机制；光学 LTP 可恢复沉默印迹"},
     {"from": "place-cell", "to": "engram-cells", "type": "related", "note": "CA1 场所细胞是情景记忆印迹细胞的典型代表；Liu 2012, Roy 2016 均使用海马场所细胞区域标记印迹"},
     {"from": "hippocampal-circuit", "to": "engram-cells", "type": "related", "note": "海马三突触回路（DG→CA3→CA1）提供了印迹间优先连接链的解剖基础"},
-    {"from": "hebbian-learning", "to": "engram-cells", "type": "supports", "note": "印迹细胞是 Hebb 学习规则在细胞集合层面的实验证明"}
+    {"from": "hebbian-learning", "to": "engram-cells", "type": "supports", "note": "印迹细胞是 Hebb 学习规则在细胞集合层面的实验证明"},
+    {"from": "voltage-gated-calcium-channels", "to": "synaptic-transmission", "type": "mechanism-of", "note": "CaV2.1（P/Q型）和CaV2.2（N型）在突触前活动区开放→局部Ca²⁺浓度骤升→触发囊泡融合和递质释放"},
+    {"from": "voltage-gated-calcium-channels", "to": "active-zone", "type": "part-of", "note": "CaV2.1（P/Q型）是活动区纳米域耦合的核心通道，与SNARE蛋白和囊泡在10-30 nm内精密定位"},
+    {"from": "voltage-gated-calcium-channels", "to": "SNARE-complex", "type": "regulates", "note": "CaV2通道synprint位点（域II-III环）直接结合syntaxin-1A和SNAP-25，预招募SNARE复合体至钙进入位点"},
+    {"from": "voltage-gated-calcium-channels", "to": "synaptotagmin", "type": "related", "note": "Synaptotagmin-1 C2B域与CaV2通道synprint位点预结合；CaV2开放产生的局部高钙（tens of μM）激活Syt1"},
+    {"from": "voltage-gated-calcium-channels", "to": "btsp", "type": "mechanism-of", "note": "L型通道（CaV1.2/1.3）为BTSP触发所需的树突钙平台电位提供持续Ca²⁺内流（尼莫地平阻断→73% BTSP降低）"},
+    {"from": "voltage-gated-calcium-channels", "to": "ltp", "type": "mechanism-of", "note": "CaV1.2通过mTORC1途径参与TBS-LTP（局部蛋白合成），并通过核Ca²⁺→CaM→CaMKIV→CREB链路驱动晚期LTP转录"},
+    {"from": "voltage-gated-calcium-channels", "to": "dendritic-computation", "type": "mechanism-of", "note": "L型通道（CaV1.3低阈值，CaV1.2持续开放）参与树突Ca²⁺棘波和平台电位的维持，是树突非线性计算的分子基础之一"},
+    {"from": "voltage-gated-calcium-channels", "to": "nmda-receptor", "type": "related", "note": "NMDA受体和L型通道是BTSP/LTP中的两种协作Ca²⁺来源；两者在平台电位触发中存在功能协同（NMDA提供主要触发，L型维持持续内流）"},
+    {"from": "voltage-gated-calcium-channels", "to": "action-potential", "type": "related", "note": "动作电位的去极化波触发CaV2.1/2.2在突触前终末开放；反向传播AP（bAP）也激活树突中的L型通道"},
+    {"from": "voltage-gated-calcium-channels", "to": "camkii", "type": "regulates", "note": "CaV1.2开放产生的Ca²⁺经CaM激活CaMKII；另外自磷酸化CaMKII反向结合CaV2.1增强其活性（效应器检查点）"},
+    {"from": "action-potential", "to": "voltage-gated-calcium-channels", "type": "mechanism-of", "note": "突触前动作电位到达（局部去极化）是CaV2.1/2.2开放的触发信号"},
+    {"from": "ltp", "to": "voltage-gated-calcium-channels", "type": "prerequisite-for", "note": "理解LTP的Ca²⁺来源需先理解电压门控钙通道（L型通道是LTP所需核Ca²⁺的主要来源之一）"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
     {"slug": "munc18", "referenced_by": ["SNARE-complex"], "note": "SM蛋白，SNARE调控，次要"},
-    {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation", "btsp"], "note": "电压门控钙通道（P/Q-type N-type用于突触前终末；L-type Cav1.2/1.3用于树突Ca²⁺棘波和BTSP触发），高优先级"},
+    {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation", "btsp"], "note": "已于2026-06-01创建 voltage-gated-calcium-channels 页面填补此悬空引用；synaptotagmin/active-zone/btsp 连接已更新至新slug", "resolved": "2026-06-01"},
     {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，待建页面"},
     {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation", "place-cell"], "note": "已于 2026-05-31 创建页面，填补悬空引用", "resolved": "2026-05-31"},
     {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "三因素学习规则（Hebb × 多巴胺），待建页面"},

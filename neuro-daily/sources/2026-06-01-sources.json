@@ -1,0 +1,210 @@
+{
+  "date": "2026-06-01",
+  "article": "2026-06-01-voltage-gated-calcium-channels.md",
+  "topic": "电压门控钙通道（VGCCs）：三亚家族在突触前终末、树突和胞体/核的专化功能",
+  "sources_count": 10,
+  "open_fulltext_count": 5,
+  "abstract_only_count": 4,
+  "previously_used_fulltext": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "21746798",
+      "pmcid": "PMC3140680",
+      "title": "Voltage-gated calcium channels",
+      "authors": "Catterall WA",
+      "journal": "Cold Spring Harb Perspect Biol",
+      "year": 2011,
+      "doi": "10.1101/cshperspect.a003947",
+      "open_access": true,
+      "fulltext_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3140680/",
+      "used_for": "通道整体结构（α1亚基4域架构、S4电压传感器、S5-S6孔道）；三亚家族分类（CaV1/CaV2/CaV3）；效应器检查点模型；CaV1 C末端核易位片段；核钙信号通路概述",
+      "key_claims": [
+        "α1亚基含4个重复域（I-IV），每域6个TM段，S4为电压传感器",
+        "域II-III连接环含synprint位点",
+        "CaV1 C末端可被蛋白酶切割，片段易位入核调控基因转录",
+        "效应器检查点：预结合效应器增强通道活性"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "31064106",
+      "pmcid": "PMC6539076",
+      "title": "Presynaptic Calcium Channels",
+      "authors": "Mochida S",
+      "journal": "Int J Mol Sci",
+      "year": 2019,
+      "doi": "10.3390/ijms20092217",
+      "open_access": true,
+      "fulltext_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6539076/",
+      "used_for": "CaV2.1（P/Q型）在大脑皮层/海马/小脑的主导地位；synprint位点与syntaxin-1A、SNAP-25和Synaptotagmin-1的结合特性；G蛋白（Gβγ）调控机制；短时程突触可塑性的分子基础（CaM-CBD和CaM-IQ介导的PPD/PPF）",
+      "key_claims": [
+        "Synprint位点（CaV2.2的718-963 aa）结合syntaxin-1A和SNAP-25，不结合synaptobrevin",
+        "Syt1 C2B域与synprint结合在约20 μM Ca²⁺时最强，>30 μM时减弱",
+        "Gβγ结合通道N末端、I-II连接环和C末端三处位点",
+        "PPD（<50ms）：CaM-CBD失活；PPF（50-100ms）：CaM-IQ易化"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "22183436",
+      "pmcid": "PMC3617475",
+      "title": "Nanodomain coupling between Ca2+ channels and sensors of exocytosis at fast mammalian synapses",
+      "authors": "Eggermann E, Bucurenciu I, Goswami SP, Jonas P",
+      "journal": "Nat Rev Neurosci",
+      "year": 2011,
+      "doi": "10.1038/nrn3024",
+      "open_access": true,
+      "fulltext_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3617475/",
+      "used_for": "纳米域耦合的定义和实验证据（BAPTA/EGTA差异敏感性）；海马篮状细胞突触耦合距离（10-20 nm）；成熟颈静脉复合体（~23 nm，~9通道）；纳米域耦合的速度/效率优势",
+      "key_claims": [
+        "纳米域耦合：通道-传感器距离<100 nm",
+        "BAPTA阻断纳米域释放；EGTA（即使80 mM）不影响快速同步释放",
+        "海马篮状细胞突触：10-20 nm耦合距离",
+        "成熟calyx：~23 nm，约9通道/活动区"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "25674049",
+      "pmcid": "PMC4306312",
+      "title": "Presynaptic nanodomains: a tale of two synapses",
+      "authors": "Wang LY, Augustine GJ",
+      "journal": "Front Cell Neurosci",
+      "year": 2015,
+      "doi": "10.3389/fncel.2015.00075",
+      "open_access": true,
+      "fulltext_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4306312/",
+      "used_for": "calyx of Held突触的发育性耦合模式转变（P8-12微域→P16-18纳米域）；septin-5作为转变调控分子；具体数值（61 nm→23 nm，N+P/Q→纯P/Q，峰值Ca²⁺从35升至56 μM，传感器到达Ca²⁺峰时间提前~410 μs）",
+      "key_claims": [
+        "P8-12（微域）：61 nm，N型+P/Q型通道，峰值Ca²⁺~35 μM",
+        "P16-18（纳米域）：23 nm，纯P/Q型，峰值Ca²⁺~56 μM",
+        "Septin-5调控发育转变（Septin-5 KO→提前纳米域化）",
+        "纳米域化使Ca²⁺传感器到达峰值时间提前~410 μs"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "32799605",
+      "pmcid": "PMC7515572",
+      "title": "Loss of Cav1.2 channels impairs hippocampal theta burst stimulation-induced long-term potentiation",
+      "authors": "Sridharan PS, Lu Y, Rice RC, Pieper AA, Rajadhyaksha AM",
+      "journal": "Channels",
+      "year": 2020,
+      "doi": "10.1080/19336950.2020.1805609",
+      "open_access": true,
+      "fulltext_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7515572/",
+      "used_for": "CaV1.2在TBS诱导的早期LTP中的必要性；CaV1.2→mTORC1→局部蛋白质合成机制；与转录依赖的晚期LTP的区别",
+      "key_claims": [
+        "CaV1.2条件敲除→TBS-LTP显著受损（128% vs 166%，60分钟，p=0.003）",
+        "机制：局部蛋白质合成（mTOR依赖），非转录依赖",
+        "KO小鼠磷酸化mTOR降低（p<0.01），NMDA受体表达正常"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "29723500",
+      "pmcid": null,
+      "title": "Calcium Channels, Synaptic Plasticity, and Neuropsychiatric Disease",
+      "authors": "Nanou E, Catterall WA",
+      "journal": "Neuron",
+      "year": 2018,
+      "doi": "10.1016/j.neuron.2018.03.017",
+      "open_access": false,
+      "fulltext_read": false,
+      "access_note": "摘要可及，未读全文",
+      "used_for": "10个基因/三亚家族的宏观框架；CaV2→突触前功能；CaV1→树突LTP；疾病联系（FHM1、EA2、Timothy综合征、自闭症、双相情感、精神分裂）",
+      "key_claims": [
+        "10个VGCCs基因，三亚家族（CaV1/CaV2/CaV3）",
+        "CaV2介导突触前短时程可塑性",
+        "CaV1介导树突LTP诱导",
+        "CaV2.1突变→FHM1（增益）和EA2（减损）"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "28883072",
+      "pmcid": "PMC7289271",
+      "title": "Behavioral time scale synaptic plasticity underlies CA1 place fields",
+      "authors": "Bittner KC, Milstein AD, Grienberger C, Romani S, Bhattacharya P, Bhattacharya P, Bhattacharyya S, Bhattacharyya S, Bhattacharyya S, Mehta MR",
+      "journal": "Science",
+      "year": 2017,
+      "doi": "10.1126/science.aan3846",
+      "open_access": true,
+      "fulltext_read": true,
+      "access_note": "已于2026-05-28文章中使用；本文引用BTSP中NMDA受体（84%）和L型通道（73%）贡献数据",
+      "used_for": "BTSP对NMDA受体（APV降低~84%）和L型通道（尼莫地平降低~73%）的双重依赖；平台电位的主要钙来源",
+      "key_claims": [
+        "APV（NMDA受体阻断）降低约84%的BTSP",
+        "尼莫地平（L型通道阻断）降低约73%的BTSP",
+        "平台电位需要NMDA受体和L型通道协同"
+      ]
+    },
+    {
+      "id": "S8",
+      "pmid": "21640734",
+      "pmcid": null,
+      "title": "Differential effect of the mGlu5 receptor positive allosteric modulator ADX-47273 on early and late hippocampal LTP",
+      "authors": "Kroker KS, Rast G, Rosenbrock H",
+      "journal": "Neuropharmacology",
+      "year": 2011,
+      "doi": "10.1016/j.neuropharm.2011.06.002",
+      "open_access": false,
+      "fulltext_read": false,
+      "access_note": "摘要可及，未读全文",
+      "used_for": "晚期LTP等量依赖NMDA受体和L型VDCC的药理学证据",
+      "key_claims": [
+        "晚期LTP等量依赖NMDA受体和L型电压依赖性钙通道"
+      ]
+    },
+    {
+      "id": "S9",
+      "pmid": "22351065",
+      "pmcid": null,
+      "title": "Nuclear calcium signaling",
+      "authors": "Bengtson CP, Bading H",
+      "journal": "Adv Exp Med Biol",
+      "year": 2012,
+      "doi": "10.1007/978-1-4614-1997-6_3",
+      "open_access": false,
+      "fulltext_read": false,
+      "access_note": "摘要可及，未读全文",
+      "used_for": "核钙信号机制（L型通道→CaM→CaMKIV→CREB磷酸化）；CA1锥体神经元核钙信号可被L型通道阻断",
+      "key_claims": [
+        "核钙信号链：L型通道→Ca²⁺→CaM→核→CaMKIV→CREB-Ser133磷酸化",
+        "CA1核钙信号被L型通道阻断剂降低"
+      ]
+    },
+    {
+      "id": "S10",
+      "pmid": "35063999",
+      "pmcid": null,
+      "title": "Single Calcium Channel Nanodomains Drive Presynaptic Calcium Entry at Lamprey Reticulospinal Presynaptic Terminals",
+      "authors": "Ramachandran S, Rodgriguez S, Potcoava M, Alford S",
+      "journal": "J Neurosci",
+      "year": 2022,
+      "doi": "10.1523/JNEUROSCI.0929-21.2022",
+      "open_access": false,
+      "fulltext_read": false,
+      "access_note": "摘要可及，未读全文",
+      "used_for": "单通道开放可触发递质释放的证据；活动区平均约23个钙通道（其中1-7个/次开放）",
+      "key_claims": [
+        "每个突触终末约23个Ca²⁺通道，单次动作电位平均4个开放",
+        "通道数量与停泊囊泡数量相关"
+      ]
+    }
+  ],
+  "coverage_assessment": {
+    "presynaptic_CaV2": "充分（2篇全文综述 + 数值实验）",
+    "nanodomain_coupling": "充分（2篇全文综述，含具体数值）",
+    "L-type_LTP": "良好（1篇全文原始研究 + 1篇摘要综述）",
+    "BTSP_calcium": "良好（1篇已用过的全文原始研究）",
+    "nuclear_calcium": "有限（1篇摘要综述），可加深",
+    "disease_connections": "有限（1篇摘要综述），可加深"
+  }
+}

@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-25
-updated: 2026-05-25
-revision_count: 1
+updated: 2026-06-01
+revision_count: 2
 dimensions: [molecular, cellular, synaptic]
-related: [synaptic-transmission, SNARE-complex, synaptotagmin, voltage-gated-calcium-channel, RIM-protein]
+related: [synaptic-transmission, SNARE-complex, synaptotagmin, voltage-gated-calcium-channels, RIM-protein]
 prerequisites: [synaptic-transmission]
 opens_questions: [Q-active-zone-plasticity, Q-active-zone-heterogeneity]
-source_articles: [2026-05-25-synaptic-vesicle-exocytosis]
-key_sources: ["PMID:22026965", "PMID:27537483", "PMID:36544543"]
+source_articles: [2026-05-25-synaptic-vesicle-exocytosis, 2026-06-01-voltage-gated-calcium-channels]
+key_sources: ["PMID:22026965", "PMID:27537483", "PMID:36544543", "PMID:22183436", "PMID:25674049"]
 ---
 
 # 活动区（Active Zone）
@@ -50,8 +50,15 @@ RIM+ELKS双敲除后：
 
 ### 纳米域耦合
 不同突触的钙通道-囊泡距离高度异质性：
-- **纳米域耦合**（~10-100nm）：钙通道与释放位点极近，单通道开放即可触发释放，释放概率高，对钙螯合剂BAPTA不敏感
-- **微域耦合**（更远）：需多个通道协同钙流，释放概率较低，对BAPTA敏感
+- **纳米域耦合**（<100 nm，通常10-30 nm）：钙通道（CaV2.1/P/Q型或CaV2.2/N型）与Synaptotagmin极近，单通道开放即可触发释放，释放概率高，对快速钙螯合剂BAPTA敏感但对慢速螯合剂EGTA不敏感
+- **微域耦合**（>100 nm）：需多个通道协同钙流，释放概率较低，BAPTA和EGTA均可影响
+
+**量化数据（来自实验测量和模拟）**：
+- 海马篮状细胞突触：~10–20 nm（纳米域）（PMID:22183436，PMC3617475）
+- 成熟颈静脉复合体（P16-18）：~23 nm，约9个通道/活动区，纯P/Q型（PMID:25674049，PMC4306312）
+- 未成熟颈静脉复合体（P8-12）：~61 nm，需N型+P/Q型共同参与（微域）
+
+**发育性转变**：突触成熟时从微域（~60 nm，N+P/Q型）转变为纳米域（~20 nm，纯P/Q型），由Septin-5调控。这一转变使触发时间提前约410 μs，赋予成熟突触更高的时间精度。
 
 这种异质性由RIM/RIM-BP/CAST/ELKS和neurexin的精确组织决定（PMID:36544543），并直接影响短时程突触可塑性特征。
 
@@ -66,7 +73,7 @@ RIM+ELKS双敲除后：
 ## 连接
 
 - [[synaptic-transmission]] — 活动区是突触传递的物理平台
-- [[voltage-gated-sodium-channel]] — 钙通道（VGCCs）是活动区的关键功能组件
+- [[voltage-gated-calcium-channels]] — CaV2.1（P/Q型）和CaV2.2（N型）通道在活动区内以纳米域精度与囊泡融合位点耦合
 - [[SNARE-complex]] — SNARE在活动区组装执行融合
 - [[synaptotagmin]] — Syt在活动区处感应局部Ca²⁺信号
 
@@ -78,7 +85,9 @@ RIM+ELKS双敲除后：
 ## 修订历史
 
 - 2026-05-25 · 创建 · 基于《神经信号的化学渡口》一文 · 初始置信度：高
+- 2026-06-01 · 修订 · 基于《神经元的三重钙门》一文 · 补充纳米域耦合量化数值（10-20 nm至23 nm）、P/Q型vs N型在不同成熟阶段的分布、发育性转变（septin-5调控）；更新连接指向正确的voltage-gated-calcium-channels节点
 
 ## 来源文章
 
 - [[2026-05-25-synaptic-vesicle-exocytosis]]
+- [[2026-06-01-voltage-gated-calcium-channels]]

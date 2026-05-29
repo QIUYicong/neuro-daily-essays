@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-25
-updated: 2026-05-25
-revision_count: 1
+updated: 2026-06-01
+revision_count: 2
 dimensions: [molecular, synaptic]
-related: [SNARE-complex, synaptic-transmission, active-zone, complexin, calcium-channel]
-prerequisites: [SNARE-complex, synaptic-transmission]
+related: [SNARE-complex, synaptic-transmission, active-zone, complexin, voltage-gated-calcium-channels]
+prerequisites: [SNARE-complex, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-syt7-facilitation-mechanism, Q-syt-isoform-specificity]
-source_articles: [2026-05-25-synaptic-vesicle-exocytosis]
-key_sources: ["PMID:22068972", "PMID:23060190", "PMID:37891212"]
+source_articles: [2026-05-25-synaptic-vesicle-exocytosis, 2026-06-01-voltage-gated-calcium-channels]
+key_sources: ["PMID:22068972", "PMID:23060190", "PMID:37891212", "PMID:31064106"]
 ---
 
 # 突触结合蛋白（Synaptotagmin）
@@ -64,7 +64,7 @@ Norman et al. (2023) 计算模型显示：Syt1（低钙亲和力，快速反应�
 - [[SNARE-complex]] — Syt1通过物理接触调控SNARE最终拉合
 - [[synaptic-transmission]] — Syt是触发突触传递的关键开关
 - [[complexin]] — Syt1与Complexin协同：Syt解除Complexin锁定
-- [[calcium-channel]] — 钙通道开放是Syt激活的上游信号
+- [[voltage-gated-calcium-channels]] — CaV2.1（P/Q型）/CaV2.2（N型）开放产生局部Ca²⁺浓度暴升是Syt1激活的直接上游；Syt1的C2B域与CaV2通道的synprint位点预结合，实现纳米域预组织
 
 ## 未解问题
 
@@ -74,7 +74,9 @@ Norman et al. (2023) 计算模型显示：Syt1（低钙亲和力，快速反应�
 ## 修订历史
 
 - 2026-05-25 · 创建 · 基于《神经信号的化学渡口》一文 · 初始置信度：高
+- 2026-06-01 · 修订 · 基于《神经元的三重钙门》一文 · 明确钙通道（CaV2.1/2.2）通过synprint位点与Syt1 C2B域的预结合机制（约20 μM Ca²⁺时最强）；将悬空引用 calcium-channel 更新为 voltage-gated-calcium-channels
 
 ## 来源文章
 
 - [[2026-05-25-synaptic-vesicle-exocytosis]]
+- [[2026-06-01-voltage-gated-calcium-channels]]

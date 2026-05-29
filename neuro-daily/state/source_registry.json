@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-28",
+  "last_updated": "2026-06-01",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -365,7 +365,7 @@
       "year": 2017,
       "first_used": "2026-05-28",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-28-place-cells-btsp.md"],
+      "used_in_articles": ["2026-05-28-place-cells-btsp.md", "2026-06-01-voltage-gated-calcium-channels.md"],
       "aspects_covered": ["BTSP", "asymmetric time window ~3-4s", "single-trial place field formation", "NMDA receptor 84% dependence", "L-type Ca channel 73% dependence", "ramp membrane potential 3.8s backward extension"]
     },
     {
@@ -596,6 +596,118 @@
       "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
       "note": "仅使用摘要；全文无开放获取版本",
       "aspects_covered": ["false memory creation", "context A engram + context B shock", "memory content encoding", "DG engram as content carrier"]
+    },
+    {
+      "pmid": "21746798",
+      "pmcid": "PMC3140680",
+      "title": "Voltage-gated calcium channels",
+      "authors_short": "Catterall WA",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2011,
+      "first_used": "2026-06-01",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "aspects_covered": ["α1 subunit 4-domain structure", "S4 voltage sensor", "S5-S6 pore", "synprint site (domain II-III loop)", "CaV1/CaV2/CaV3 classification", "effector checkpoint model", "CaV1 C-terminal nuclear fragment", "nuclear calcium signaling overview", "G-protein βγ inhibition mechanism"]
+    },
+    {
+      "pmid": "31064106",
+      "pmcid": "PMC6539076",
+      "title": "Presynaptic Calcium Channels",
+      "authors_short": "Mochida S",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2019,
+      "first_used": "2026-06-01",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "aspects_covered": ["CaV2.1 (P/Q-type) dominance in cortex/hippocampus/cerebellum", "synprint site structure (CaV2.2 718-963aa)", "syntaxin-1A and SNAP-25 binding (not synaptobrevin)", "Synaptotagmin-1 C2B binding at ~20 μM Ca2+", "G-protein Gβγ triple binding sites", "PPD (<50ms CaM-CBD)", "PPF (50-100ms CaM-IQ)", "short-term plasticity molecular basis"]
+    },
+    {
+      "pmid": "22183436",
+      "pmcid": "PMC3617475",
+      "title": "Nanodomain coupling between Ca2+ channels and sensors of exocytosis at fast mammalian synapses",
+      "authors_short": "Eggermann E, Bucurenciu I, Goswami SP, Jonas P",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2011,
+      "first_used": "2026-06-01",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "aspects_covered": ["nanodomain coupling definition (<100 nm)", "BAPTA blocks nanodomain release; 80 mM EGTA does not", "hippocampal basket cell 10-20 nm coupling", "mature calyx of Held ~23 nm, ~9 channels/AZ", "speed and efficiency advantages of nanodomain coupling", "BAPTA/EGTA differential sensitivity as coupling distance probe"]
+    },
+    {
+      "pmid": "25674049",
+      "pmcid": "PMC4306312",
+      "title": "Presynaptic nanodomains: a tale of two synapses",
+      "authors_short": "Wang LY, Augustine GJ",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2015,
+      "first_used": "2026-06-01",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "aspects_covered": ["calyx of Held developmental coupling switch", "P8-12 microdomain: 61 nm, N+P/Q type, peak Ca2+ ~35 μM", "P16-18 nanodomain: 23 nm, pure P/Q type, peak Ca2+ ~56 μM", "septin-5 as developmental switch regulator", "septin-5 KO→premature nanodomainization", "410 μs timing advantage of nanodomain coupling"]
+    },
+    {
+      "pmid": "32799605",
+      "pmcid": "PMC7515572",
+      "title": "Loss of Cav1.2 channels impairs hippocampal theta burst stimulation-induced long-term potentiation",
+      "authors_short": "Sridharan PS et al.",
+      "journal": "Channels",
+      "year": 2020,
+      "first_used": "2026-06-01",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "aspects_covered": ["CaV1.2 conditional KO impairs TBS-LTP (128% vs 166%)", "CaV1.2→mTORC1→local protein synthesis mechanism", "distinct from transcription-dependent late LTP", "p-mTOR reduction in KO (p<0.01)", "normal NMDAR expression in KO"]
+    },
+    {
+      "pmid": "29723500",
+      "pmcid": null,
+      "title": "Calcium Channels, Synaptic Plasticity, and Neuropsychiatric Disease",
+      "authors_short": "Nanou E, Catterall WA",
+      "journal": "Neuron",
+      "year": 2018,
+      "first_used": "2026-06-01",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "note": "摘要可及，未读全文",
+      "aspects_covered": ["10 VGCC genes, three subfamilies overview", "CaV2 presynaptic short-term plasticity", "CaV1 dendritic LTP induction", "CaV2.1 mutation→FHM1 (gain) and EA2 (loss)", "CaV1.2 mutation→Timothy syndrome/autism", "neuropsychiatric disease connections"]
+    },
+    {
+      "pmid": "21640734",
+      "pmcid": null,
+      "title": "Differential effect of the mGlu5 receptor positive allosteric modulator ADX-47273 on early and late hippocampal LTP",
+      "authors_short": "Kroker KS, Rast G, Rosenbrock H",
+      "journal": "Neuropharmacology",
+      "year": 2011,
+      "first_used": "2026-06-01",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "note": "摘要可及，未读全文",
+      "aspects_covered": ["late LTP equally depends on NMDA receptors and L-type VDCCs", "early vs late LTP pharmacological dissection"]
+    },
+    {
+      "pmid": "22351065",
+      "pmcid": null,
+      "title": "Nuclear calcium signaling",
+      "authors_short": "Bengtson CP, Bading H",
+      "journal": "Advances in Experimental Medicine and Biology",
+      "year": 2012,
+      "first_used": "2026-06-01",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "note": "摘要可及，未读全文",
+      "aspects_covered": ["nuclear calcium signaling chain: L-type→Ca2+→CaM→nucleus→CaMKIV→CREB-Ser133 phosphorylation", "CA1 pyramidal cell nuclear calcium blocked by L-type channel antagonists", "nuclear calcium vs cytoplasmic calcium distinction"]
+    },
+    {
+      "pmid": "35063999",
+      "pmcid": null,
+      "title": "Single Calcium Channel Nanodomains Drive Presynaptic Calcium Entry at Lamprey Reticulospinal Presynaptic Terminals",
+      "authors_short": "Ramachandran S et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2022,
+      "first_used": "2026-06-01",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "note": "摘要可及，未读全文",
+      "aspects_covered": ["single channel opening can trigger transmitter release", "~23 Ca2+ channels per presynaptic terminal", "1-7 channels open per action potential on average", "channel number correlates with docked vesicle count"]
     }
   ]
 }
