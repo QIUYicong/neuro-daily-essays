@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-04",
+  "last_updated": "2026-06-07",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -290,6 +290,30 @@
       "supporting_sources": 3,
       "last_status_change": "2026-06-04",
       "reason": "创建 2026-06-04。Arc/Arg3.1 在 LTD 中的执行功能（通过 dynamin/endophilin 促进 AMPAR 内吞）有基因敲除实验（Arc KO 小鼠 LTD 受损）+ 生化（dynamin 结合结构域鉴定）+ 体外过表达实验多维证据（Hanley 2014 综述，PMID:25429259）。Arc 在 LTP 巩固中的作用（肌动蛋白稳定）同样有 KO 实验（Arc KO 能诱导但不能巩固 LTP）支持（Bramham et al. 2010，PMID:19690847）。Arc mRNA 的树突靶向和局部翻译是领域内公认机制。主要不确定性：Arc 如何在 LTD 情境（中等活动）vs LTP 情境（强烈活动）之间切换功能的精确分子开关尚未完全解明（见 Q-arc-ltp-ltd-switch）。整体 established，功能开关细节为 open question。"
+    },
+    {
+      "slug": "dopamine-reward-prediction-error",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-06-07",
+      "reason": "创建 2026-06-07。Schultz 1997（PMID:9054347）确立 VTA/SNc DA 神经元编码 RPE 的三种响应模式（经典单细胞记录 + 行为学范式）；Montague-Dayan-Sejnowski 1996（PMID:8774460）提供完整的 TD 学习理论框架，将 DA-RPE 与计算强化学习精确对应；Schultz 2015 PhysRev（PMID:26109341）和 2016 NRN（PMID:27069377）系统综述 20 年后续验证。多实验室、多物种（猕猴、大鼠、人类 fMRI）、多方法（单细胞记录、电生理、药理）三角证实。主要争议：VTA DA 神经元功能异质性（非全部编码 RPE，部分编码厌恶/新奇/运动）尚存争议，但 RPE 信号本身 established 无疑。"
+    },
+    {
+      "slug": "three-factor-learning-rule",
+      "status": "mainstream",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-06-07",
+      "reason": "创建 2026-06-07。Reynolds & Wickens 2002（PMID:12371508）在纹状体皮层-纹状体突触的电生理直接验证三因素规则（DA 突发/凹陷 × 突触前后活动 → LTP/LTD）；Huang & Kandel 1995（PMID:7708662）在海马 CA1 提供 D1/D5→DA-LTP 的分子机制证据；Schultz 等多篇提供 DA-RPE 计算框架理论支撑。三因素规则已是强化学习神经科学的主流理论，但完整分子实现（尤其在不同脑区的差异）仍在研究中，故 mainstream 而非 established。信心度 high 是因核心原理（Δw ∝ pre×post×DA）有多实验室验证。"
+    },
+    {
+      "slug": "synaptic-tagging-capture",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 2,
+      "last_status_change": "2026-06-07",
+      "reason": "创建 2026-06-07。Frey & Morris 1997（PMID:9020359）原始发现：E-LTP 在约 1-2 h 内设置突触标记，强刺激诱导的 PRP 可被弱路径的标记捕获，确立 E-LTP→L-LTP 转化机制；Huang & Kandel 1995（PMID:7708662）提供 DA→D1→PKA→CREB→PRP 链的实验证据。标记-捕获模型本身 mainstream（多实验室重复，不同突触类型验证），但分子标记的确切身份（CaMKII 磷酸化状态、具体蛋白）尚有争议（见 Q-stc-molecular-tag）；DA 介导 STC 的时间窗口在体内条件下的精确值亦待确认。故 confidence medium。"
     }
   ]
 }

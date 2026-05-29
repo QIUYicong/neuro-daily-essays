@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-06",
-  "total_articles": 14,
+  "last_updated": "2026-06-07",
+  "total_articles": 15,
   "entries": [
     {
       "date": "2026-05-24",
@@ -974,6 +974,74 @@
       "mode": "weekly_synthesis",
       "article_number": 14,
       "note": "第二周综合：整合文章 8-13；引入嵌套竞争-遴选架构框架，与第一周的嵌套时间编码层级互补，共同构成记忆系统的完整描述骨架。"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "多巴胺的时间机器：奖励预测误差如何把大脑变成世界预测器",
+      "filename": "2026-06-07-dopamine-reward-prediction-error.md",
+      "article_type": "long_term_curriculum",
+      "wiki_pages_created": [
+        "wiki/concepts/dopamine-reward-prediction-error.md",
+        "wiki/concepts/three-factor-learning-rule.md",
+        "wiki/concepts/synaptic-tagging-capture.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/hebbian-learning.md",
+        "wiki/concepts/ltp.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "多巴胺神经元的奖励预测误差（RPE）信号如何在神经回路层面实现三因素学习规则（Δw = (pre × post) × DA），将 Hebbian 突触可塑性与行为意义相耦合，从而让大脑学会预测未来？",
+      "layer": [
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "5. 认知控制（奖励学习）→ 延伸 6. 情绪与动机",
+      "topic_tags": [
+        "dopamine",
+        "reward prediction error",
+        "VTA",
+        "SNc",
+        "temporal difference learning",
+        "three-factor learning rule",
+        "synaptic tagging and capture",
+        "D1 receptor",
+        "D2 receptor",
+        "corticostriatal plasticity",
+        "mesolimbic",
+        "mesocortical",
+        "nigrostriatal",
+        "DA-LTP",
+        "PKA-CREB",
+        "Schultz experiment"
+      ],
+      "main_sources": [
+        "PMID:9054347 (Science 1997，非开放)",
+        "PMID:8774460 (PMC6578666)",
+        "PMID:27069377 (PMC4826767)",
+        "PMID:26865020 (PMC5549862)",
+        "PMID:26109341 (PMC4491543)",
+        "PMID:7708662 (PMC42234)",
+        "PMID:9020359 (Nature 1997，非开放)",
+        "PMID:12371508 (非开放)"
+      ],
+      "unresolved_questions": [
+        "Q-da-heterogeneity：VTA DA 神经元群体的功能异质性——不同亚群的分子标记和投射靶区？",
+        "Q-da-hippocampus-source：海马 DA 的来源争议——VTA 直接投射 vs 蓝斑 DA/NE 共释放的相对贡献？",
+        "Q-stc-molecular-tag：突触标记的分子身份是什么？CaMKII 特定构象？局部翻译机器激活？",
+        "Q-three-factor-time-window：三因素规则时间窗口（标签有效期）在不同脑区的变异范围？"
+      ],
+      "next_suggested_topics": [
+        "短时程突触可塑性（STP）：突触易化（Syt7）与抑制（囊泡耗竭）——与活动无声WM直接相关；DA-STP相互作用",
+        "注意的神经机制：ACh 作为三因素规则的另一个调制因子（M = ACh）；基底前脑-皮层乙酰胆碱投射",
+        "阿尔茨海默病（disease层首篇）：Aβ如何破坏DA系统和LTP；tau与AD突触损害；早期AD的DA功能障碍",
+        "基底节与决策：纹状体直接/间接通路；D1/D2 SPNs的精细计算；习惯性学习与目标导向学习的分离"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 15,
+      "note": "第三周第1篇：从认知控制（工作记忆）进入奖励学习领域，填补 three-factor-learning-rule 悬空引用，首次系统介绍多巴胺系统。建立 DA-RPE、三因素规则、突触标记与捕获三个新节点，修订 hebbian-learning 和 ltp 两个核心节点。"
     }
   ],
   "layer_coverage_recent": {
@@ -990,7 +1058,8 @@
       "2026-05-27",
       "2026-05-28",
       "2026-06-01",
-      "2026-06-03"
+      "2026-06-03",
+      "2026-06-07"
     ],
     "synaptic": [
       "2026-05-24",
@@ -1006,12 +1075,14 @@
     ],
     "brain_region": [
       "2026-05-27",
-      "2026-05-28"
+      "2026-05-28",
+      "2026-06-07"
     ],
     "whole_brain_network": [
       "2026-05-29",
       "2026-05-30",
-      "2026-06-02"
+      "2026-06-02",
+      "2026-06-07"
     ],
     "behavior": [
       "2026-05-29",
@@ -1032,5 +1103,5 @@
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-06-04（LTD）：synaptic 层从5篇增至6篇，molecular 层从4篇增至5篇。突触可塑性双向图景（LTP+LTD）现已完整。新建 ltd/calcineurin/arc-arg31 共3个概念页面，修订 ltp、ampa-receptor 两页。disease 层和 methods 层仍完全空缺——建议下一篇进入 disease 层（阿尔茨海默病+Aβ/LTD机制）或 cognition 层（PFC 工作记忆）。synaptic 层的短时程突触可塑性（STP）仍待覆盖。"
+  "layer_note": "2026-06-07（DA-RPE）：cellular/brain_region/whole_brain_network/behavior/cognition 各加1篇。三因素学习规则首次建立专页，填补 [[hebbian-learning]] 悬空引用。新建3个概念页面（dopamine-reward-prediction-error, three-factor-learning-rule, synaptic-tagging-capture），修订2页（hebbian-learning, ltp）。disease 层和 methods 层仍完全空缺——建议下一篇进入 disease 层（AD）或 methods 层（光遗传学）。synaptic 层的短时程突触可塑性（STP）仍待覆盖。"
 }

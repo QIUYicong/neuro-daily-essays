@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-04
-revision_count: 4
+updated: 2026-06-07
+revision_count: 5
 dimensions: [synaptic, cellular, cognition, brain-region]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -56,6 +56,18 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 - 树突棘持久形态改变（穿孔突触出现、可能发生突触分裂）
 - L-LTP 维持机制仍有争议（见未解问题）
 
+### 5. 多巴胺调制的 LTP（DA-LTP）与突触标记-捕获
+
+**2026-06-07 新增（来自《多巴胺的时间机器》文章）**：LTP 不只由 Hebbian 激活触发，还可以由多巴胺 D1/D5 受体调制（DA-LTP），且 LTP 的晚期阶段通过"突触标记与捕获"（STC）机制被选择性诱导。
+
+**DA-LTP 分子链**（Huang & Kandel 1995，PMC42234）：
+- D1/D5 受体激活 → 偶联 Gs → 腺苷酸环化酶 → cAMP↑ → PKA 激活
+- PKA → ① GluA1 Ser845 磷酸化（降低脱敏，E-LTP 增强）；② CREB Ser133 磷酸化 → IEGs 转录 → PRPs 合成
+- PRPs（Arc、Homer、新 AMPAR 等）被带有标签的突触捕获 → L-LTP 维持
+- 即使没有高频 Hebbian 刺激，D1/D5 激动剂单独可在海马 CA1 诱导 >6h 的 L-LTP（蛋白质合成依赖）
+
+**三因素规则中 LTP 的角色**：LTP 是三因素学习规则（Δw = (pre × post) × DA）的正向输出——Hebbian 激活（pre × post）设置突触标签，DA 爆发（三因素）提供 PRP 合成触发，PRP 被标签捕获 → L-LTP。
+
 ### 4. CaMKII 对 LTP 维持的必要性
 
 2021 年 Tao et al. 发现：在已建立的 LTP 之后，持续抑制 CaMKII 会导致 LTP 完全逆转。这证明 CaMKII 不只诱导 LTP，也是其维持所必需的——提示 CaMKII 的持续活化可能是 E-LTP 的关键维持机制。
@@ -80,6 +92,9 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 - [[synaptic-transmission]] — LTP 增强突触传递效率，是突触传递的可塑性形态
 - [[btsp]] — 与 LTP 并列的第二种突触增强机制；秒级时间窗口，由树突钙平台电位触发；两者互补
 - [[place-cell]] — 场所场的形成主要由 BTSP 驱动（非 LTP），但 LTP 可能参与场所场的长期巩固
+- [[dopamine-reward-prediction-error]] — DA D1/D5 受体通过 cAMP→PKA→CREB 通路诱导海马 L-LTP（蛋白质合成依赖）；DA-LTP 与 Hebbian-LTP 共享蛋白质合成通路，但触发条件不同
+- [[synaptic-tagging-capture]] — 突触标记（E-LTP 的产物）被 DA-驱动的 PRP 合成捕获，是三因素规则实现 L-LTP 的分子接口
+- [[three-factor-learning-rule]] — LTP 是三因素规则（Δw = (pre × post) × DA）的正向表达结果；DA 爆发与 Hebbian 激活必须时序配对
 
 ## 未解问题
 
@@ -93,6 +108,7 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 - 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增 BTSP 作为平行突触增强机制；LTP 与 BTSP 的分工与互补关系；related 增加 btsp, place-cell, hippocampal-circuit
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：印迹细胞是 LTP 的细胞层面体现（印迹细胞 AMPA/NMDA 比值高于非印迹）；沉默印迹中 LTP 缺失但拓扑保留；光学 LTP 可恢复 AD 模型中的沉默印迹；related 增加 engram-cells；key_sources 新增 PMID:26023136, 26982728；Q-ltp-behavior-correspondence 补充印迹研究的部分回答
 - 2026-06-04 · 修订 · 基于《LTD 文章》· 补充 LTP 的对称对立面（LTD）的完整图景；Ca²⁺ 量决定 LTP vs. LTD 方向（BCM 框架）；related 新增 ltd、calcineurin（PP2B 是 LTP 的拮抗者）；ltp-ltd 悬空引用修正为 ltd
+- 2026-06-07 · 修订 · 基于《多巴胺的时间机器》一文 · 新增 DA-LTP 机制（D1/D5→cAMP→PKA→CREB→L-LTP，来自 Huang & Kandel 1995 PNAS，PMC42234）；新增突触标记与捕获（STC）作为 L-LTP 选择性诱导机制；related 新增 dopamine-reward-prediction-error、synaptic-tagging-capture、three-factor-learning-rule；key_sources 新增 PMID:7708662、PMID:9020359
 
 ## 来源文章
 
@@ -100,3 +116,4 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 - [[2026-05-28-place-cells-btsp]]
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-04-ltd-long-term-depression]]
+- [[2026-06-07-dopamine-reward-prediction-error]]

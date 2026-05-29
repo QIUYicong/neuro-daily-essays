@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-06",
-  "node_count": 39,
-  "edge_count": 193,
+  "updated": "2026-06-07",
+  "node_count": 42,
+  "edge_count": 207,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -355,6 +355,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/competition-selection-principle.md"
+    },
+    {
+      "id": "dopamine-reward-prediction-error",
+      "title": "多巴胺奖励预测误差（DA-RPE）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/dopamine-reward-prediction-error.md"
+    },
+    {
+      "id": "three-factor-learning-rule",
+      "title": "三因素学习规则",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/three-factor-learning-rule.md"
+    },
+    {
+      "id": "synaptic-tagging-capture",
+      "title": "突触标记与捕获（STC）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/synaptic-tagging-capture.md"
     }
   ],
   "edges": [
@@ -553,7 +580,21 @@
     {"from": "engram-cells", "to": "competition-selection-principle", "type": "related", "note": "印迹细胞分配是嵌套竞争-遴选架构在细胞层次的具体实例"},
     {"from": "memory-consolidation", "to": "competition-selection-principle", "type": "related", "note": "睡眠选择性巩固是嵌套竞争-遴选架构在系统层次的具体实例"},
     {"from": "working-memory", "to": "competition-selection-principle", "type": "related", "note": "工作记忆吸引子竞争是嵌套竞争-遴选架构在认知层次的具体实例"},
-    {"from": "temporal-coding-hierarchy", "to": "competition-selection-principle", "type": "related", "note": "嵌套竞争-遴选架构与时间编码层级互补：前者定义选什么，后者定义何时和如何"}
+    {"from": "temporal-coding-hierarchy", "to": "competition-selection-principle", "type": "related", "note": "嵌套竞争-遴选架构与时间编码层级互补：前者定义选什么，后者定义何时和如何"},
+    {"from": "three-factor-learning-rule", "to": "hebbian-learning", "type": "mechanism-of", "note": "三因素规则是 Hebb 规则加入全局调制信号（M）的扩展，赋予 Hebbian 可塑性方向性"},
+    {"from": "three-factor-learning-rule", "to": "ltp", "type": "mechanism-of", "note": "三因素规则正向输出（DA > 0 时）= 突触 LTP；DA 诱导的 L-LTP 是三因素规则的持久化表达"},
+    {"from": "dopamine-reward-prediction-error", "to": "three-factor-learning-rule", "type": "supports", "note": "DA-RPE 信号是三因素规则中调制因子 M 的主要来源（奖励学习）"},
+    {"from": "synaptic-tagging-capture", "to": "ltp", "type": "mechanism-of", "note": "STC 是晚期 LTP 选择性诱导的分子接口：Hebbian 标签 + DA-PRP 捕获 → E-LTP 升级为 L-LTP"},
+    {"from": "synaptic-tagging-capture", "to": "dopamine-reward-prediction-error", "type": "mechanism-of", "note": "DA 爆发（D1→PKA→CREB）触发 PRP 合成，被突触标签捕获，是 STC 的'捕获'端"},
+    {"from": "dopamine-reward-prediction-error", "to": "working-memory", "type": "regulates", "note": "DA D1 受体通过'倒U型'调节 dlPFC 工作记忆信噪比；DA 过低或过高均损害 WM"},
+    {"from": "dopamine-reward-prediction-error", "to": "engram-cells", "type": "related", "note": "DA 可能调制 CREB 竞争性分配，影响印迹细胞集合的组成（假说）"},
+    {"from": "dopamine-reward-prediction-error", "to": "memory-consolidation", "type": "related", "note": "奖励信号（DA 爆发）偏置 SWR 重播，加速与奖励相关的记忆固化效率"},
+    {"from": "dopamine-reward-prediction-error", "to": "competition-selection-principle", "type": "related", "note": "DA-RPE 可能是细胞层面（CREB 竞争）和去抑制回路（VIP 激活）中竞争机制的上游调控信号"},
+    {"from": "three-factor-learning-rule", "to": "camkii", "type": "related", "note": "CaMKII 是 Hebbian 激活（pre × post）的分子执行器，可能同时是突触标签的分子身份"},
+    {"from": "three-factor-learning-rule", "to": "ampa-receptor", "type": "mechanism-of", "note": "三因素 LTP 最终通过 GluA1 磷酸化（PKA/CaMKII）和 AMPAR 插入表达"},
+    {"from": "three-factor-learning-rule", "to": "competition-selection-principle", "type": "related", "note": "三因素规则在突触层面实现了竞争性遴选——只有'值得学习的'突触（满足Hebbian条件 + 正RPE）被选择增强"},
+    {"from": "synaptic-tagging-capture", "to": "camkii", "type": "related", "note": "CaMKII T286 磷酸化构象是突触标签的候选分子机制（假说，未直接验证）"},
+    {"from": "synaptic-tagging-capture", "to": "hebbian-learning", "type": "mechanism-of", "note": "Hebbian 激活设置突触标签（STC 的'标记'端）；两者在三因素规则时间整合中互为必要条件"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -561,7 +602,7 @@
     {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation", "btsp"], "note": "已于2026-06-01创建 voltage-gated-calcium-channels 页面填补此悬空引用；synaptotagmin/active-zone/btsp 连接已更新至新slug", "resolved": "2026-06-01"},
     {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，待建页面"},
     {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation", "place-cell"], "note": "已于 2026-05-31 创建页面，填补悬空引用", "resolved": "2026-05-31"},
-    {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "三因素学习规则（Hebb × 多巴胺），待建页面"},
+    {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "已于 2026-06-07 创建页面（wiki/concepts/three-factor-learning-rule.md）；同时新建 dopamine-reward-prediction-error 和 synaptic-tagging-capture", "resolved": "2026-06-07"},
     {"slug": "ltp-ltd", "referenced_by": ["ltp"], "note": "已于 2026-06-04 用 ltd 页面填补此悬空引用；ltp.md 中的 related 字段从 ltp-ltd 改为 ltd", "resolved": "2026-06-04"},
     {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"},
     {"slug": "mglur-ltd", "referenced_by": ["ltd", "arc-arg31"], "note": "mGluR 依赖型 LTD 可单独建页，包含 mGluR5、FMRP、翻译依赖等细节；目前合并于 ltd 页面"},

@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-06-07（第三周·第 1 篇，文章 #15）
+
+**源文章**：[[2026-06-07-dopamine-reward-prediction-error]] —《多巴胺奖励预测误差：大脑如何用一个信号重写所有预期》
+
+**新建页面（3）**：
+- `concepts/dopamine-reward-prediction-error.md`（多巴胺奖励预测误差）🟢 established / 置信度高 — VTA/SNc DA 神经元编码 δ = 实际奖励 − 预期奖励；Schultz 三种响应模式（正/零/负 RPE）；TD 学习的神经基底（Montague-Dayan-Sejnowski 1996）；三因素规则 Δw = (pre×post)×DA；D1/D2 双通路对称学习；DA 三大投射路径；连接 8 个已有节点；新增未解问题 Q-da-heterogeneity、Q-da-hippocampus-source
+- `concepts/three-factor-learning-rule.md`（三因素学习规则）🟡 mainstream / 置信度高 — **填补 hebbian-learning 页面的悬空引用** — Δw = η·(pre×post)×M 统一框架；M = DA（奖励）/ ACh（注意）/ NE（显著性）三种调制因子；D1→cAMP→PKA 分子实现路径；Reynolds & Wickens 2002 在纹状体中的电生理验证；与 STC 解决 DA-Hebb 时间延迟问题的关系
+- `concepts/synaptic-tagging-capture.md`（突触标记与捕获）🟡 mainstream / 置信度中 — 标记（~1-2 h 短暂 CaMKII 磷酸化）+ PRP 捕获（DA→D1→PKA→CREB→Arc/Homer/BDNF）将 E-LTP 转化为 L-LTP；解决 DA 来迟几秒~数十分钟的时间窗口问题；候选分子标签尚未完全确定（见 Q-stc-molecular-tag）
+
+**修订页面（2）**：
+- `concepts/hebbian-learning.md`（revision_count 2→3）：三因素规则小节从简述升级为完整分子机制（DA 作为 M 因子，D1→cAMP→PKA 链，Reynolds & Wickens 2002 验证，STC 解决时间延迟）；related 新增 dopamine-reward-prediction-error、synaptic-tagging-capture；三因素规则悬空引用标记为已建立
+- `concepts/ltp.md`（revision_count 4→5）：新增"多巴胺调制的 LTP（DA-LTP）与突触标记-捕获"小节，详述 D1/D5→Gs→cAMP→PKA→GluA1 Ser845→CREB→PRP 分子链；related 新增 dopamine-reward-prediction-error、synaptic-tagging-capture、three-factor-learning-rule；key_sources 新增 PMID:7708662、PMID:9020359
+
+**悬空引用解决（1）**：
+- `three-factor-learning-rule`：首次出现于 hebbian-learning 页面，标记为"待建页面"；今日创建正式页面，hebbian-learning 已更新为"已建立"状态
+
+**矛盾登记（0）**：今日无新矛盾。注：VTA DA 神经元功能异质性（奖励 vs 厌恶细胞）是活跃争议领域，记录为未解问题 Q-da-heterogeneity 而非矛盾，因两类细胞均有独立证据支持且互补而非互斥。
+
+**图谱更新**：
+- 新节点：dopamine-reward-prediction-error、three-factor-learning-rule、synaptic-tagging-capture（42 个总节点）
+- 新增 14 条边（总计 207 条边）：含三因素规则→Hebb/LTP/竞争-遴选；DA-RPE→工作记忆/印迹细胞/记忆巩固；STC→CaMKII/Hebb；等
+
+---
+
 ## 2026-06-06（第二周综合，文章 #14）
 
 **源文章**：[[2026-06-06-week2-synthesis]] —《第二周综合：竞争法则——大脑如何在五个层次上通过竞争与遴选构建精简的世界模型》

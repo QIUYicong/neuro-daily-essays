@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-04",
+  "last_updated": "2026-06-07",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -989,6 +989,113 @@
       "note": "摘要可及，全文付费墙",
       "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
       "aspects_covered": ["FMRP as translational repressor of Arc and LTD-related mRNAs", "mGluR-LTD exaggeration in Fmr1 knockout mice", "mGluR5 antagonist rescue of FXS phenotypes", "clinical prediction of mGluR5 as FXS therapeutic target"]
+    },
+    {
+      "pmid": "9054347",
+      "pmcid": null,
+      "doi": "10.1126/science.275.5306.1593",
+      "title": "A Neural Substrate of Prediction and Reward",
+      "authors_short": "Schultz W, Dayan P, Montague PR",
+      "journal": "Science",
+      "year": 1997,
+      "first_used": "2026-06-07",
+      "full_text_available": false,
+      "note": "历史性论文，AAAS 付费墙，仅读摘要",
+      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
+      "aspects_covered": ["DA neuron RPE encoding", "three response patterns (positive/zero/negative RPE)", "Schultz 1997 classic experiment", "VTA/SNc dopamine neurons", "TD learning neural substrate"]
+    },
+    {
+      "pmid": "8774460",
+      "pmcid": "PMC6578666",
+      "doi": "10.1523/JNEUROSCI.16-05-01936.1996",
+      "title": "A framework for mesencephalic dopamine systems based on predictive Hebbian learning",
+      "authors_short": "Montague PR, Dayan P, Sejnowski TJ",
+      "journal": "Journal of Neuroscience",
+      "year": 1996,
+      "first_used": "2026-06-07",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
+      "aspects_covered": ["TD learning framework for DA", "δ(t) = r(t) + γV(t+1) − V(t)", "predictive Hebbian learning", "VTA DA as TD error signal", "value function learning", "three-factor rule theoretical foundation"]
+    },
+    {
+      "pmid": "27069377",
+      "pmcid": "PMC4826767",
+      "doi": "10.1038/nrn.2015.26",
+      "title": "Dopamine reward prediction-error signalling: a two-component response",
+      "authors_short": "Schultz W",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2016,
+      "first_used": "2026-06-07",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
+      "aspects_covered": ["two-component DA response", "phasic early (100-200ms) vs late (200-500ms)", "reward uncertainty / risk coding", "economic utility encoding", "DA neuron heterogeneity", "RPE formal definition"]
+    },
+    {
+      "pmid": "26865020",
+      "pmcid": "PMC5549862",
+      "doi": "10.31887/DCNS.2016.18.1/wschultz",
+      "title": "Reward functions of the basal ganglia",
+      "authors_short": "Schultz W",
+      "journal": "Dialogues in Clinical Neuroscience",
+      "year": 2016,
+      "first_used": "2026-06-07",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
+      "aspects_covered": ["basal ganglia reward circuits", "DA three projection pathways (mesolimbic/mesocortical/nigrostriatal)", "D1-SPNs direct pathway Go", "D2-SPNs indirect pathway No-Go", "reward learning in basal ganglia", "striatal DA effects on synaptic plasticity"]
+    },
+    {
+      "pmid": "26109341",
+      "pmcid": "PMC4491543",
+      "doi": "10.1152/physrev.00023.2014",
+      "title": "Neuronal Reward and Decision Signals: From Theories to Data",
+      "authors_short": "Schultz W",
+      "journal": "Physiological Reviews",
+      "year": 2015,
+      "first_used": "2026-06-07",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
+      "aspects_covered": ["comprehensive review of DA reward signaling", "Rescorla-Wagner to TD model history", "DA economic utility coding", "DA response latencies and kinetics", "comparison of DA theories", "reward prediction error computational model"]
+    },
+    {
+      "pmid": "7708662",
+      "pmcid": "PMC42234",
+      "doi": "10.1073/pnas.92.7.2719",
+      "title": "D1/D5 receptor agonists induce a protein synthesis-dependent late potentiation in the CA1 region of the hippocampus",
+      "authors_short": "Huang YY, Kandel ER",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": 1995,
+      "first_used": "2026-06-07",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
+      "aspects_covered": ["D1/D5 receptor agonist induces L-LTP", "protein synthesis dependence (anisomycin block)", "DA-LTP in hippocampal CA1", "D1→cAMP→PKA→CREB pathway", "conversion of E-LTP to L-LTP by DA", "synaptic tagging and capture mechanism evidence"]
+    },
+    {
+      "pmid": "9020359",
+      "pmcid": null,
+      "doi": "10.1038/385533a0",
+      "title": "Synaptic tagging and long-term potentiation",
+      "authors_short": "Frey U, Morris RGM",
+      "journal": "Nature",
+      "year": 1997,
+      "first_used": "2026-06-07",
+      "full_text_available": false,
+      "note": "历史性论文，Nature 付费墙，仅读摘要",
+      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
+      "aspects_covered": ["synaptic tagging original discovery", "E-LTP sets tag (~1-2h)", "PRPs capture tag to form L-LTP", "heterosynaptic PRP capture", "anisomycin blocks L-LTP not E-LTP", "tag lifetime ~1-2 hours"]
+    },
+    {
+      "pmid": "12371508",
+      "pmcid": null,
+      "doi": "10.1016/S0893-6080(02)00048-9",
+      "title": "Dopamine-dependent plasticity of corticostriatal synapses",
+      "authors_short": "Reynolds JNJ, Wickens JR",
+      "journal": "Neural Networks",
+      "year": 2002,
+      "first_used": "2026-06-07",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费墙",
+      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
+      "aspects_covered": ["three-factor learning rule electrophysiology", "DA burst + corticostriatal activity → LTP", "DA dip + activity → LTD", "D1/D2 receptor divergence in striatum", "corticostriatal three-factor learning validation", "timing requirements for DA modulation"]
     }
   ]
 }

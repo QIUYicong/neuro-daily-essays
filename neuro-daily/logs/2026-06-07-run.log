@@ -1,0 +1,207 @@
+# 运行日志 · 2026-06-07
+
+**文章编号**：#15（第三周·第 1 篇）
+**运行时间**：2026-06-07 UTC+8
+**模式**：deep_dive（单主题深度解析）
+**分支**：main
+
+---
+
+## 0. 环境初始化
+
+- 同步 main 分支：成功（从 origin/main 拉取，包含 articles 1-14，wiki 39页）
+- ROUTINE.md：已读取并确认存在
+- KNOWLEDGE-BASE-DESIGN.md：已读取并确认存在
+- git 作者配置：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+- 注：执行环境初始分支为 claude/funny-einstein-SiLIl，已按 ROUTINE.md 切换至 main
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json 最新条目：2026-06-06（第14篇，竞争-遴选综合），last_updated=2026-06-06，total=14
+- 系统日期（UTC+8）：2026-05-29（本地时钟）；仓库序列逻辑日期：2026-06-07（接续14篇）
+- **决策**：按知识库序列逻辑写第15篇，日期 2026-06-07（第三周第1篇）
+- unresolved_questions.md：读取并确认 Q-wm-active-vs-silent、Q-sharp-wave-ripples-* 等已有问题
+- contested_claims.json：open_count=2（C-2026-05-24-01、C-2026-05-25-01），今日无新矛盾
+- _graph.json：39 节点，193 边（操作前状态）
+- monthly_synthesis.md：第4条"三因素学习规则"标记为待写（→本次完成）
+
+---
+
+## B. 选题
+
+**候题来源**：
+1. monthly_synthesis.md 提示"三因素学习规则"待写
+2. hebbian-learning.md 存在悬空引用 `three-factor-learning-rule`（标注"待建页面"）
+3. topic_ledger.json 的 next_suggested_topics 包含"dopamine-reward-learning"
+
+**选定主题**：多巴胺奖励预测误差（Dopamine Reward Prediction Error, DA-RPE）
+
+**理由**：
+- 填补 three-factor-learning-rule 悬空引用（hebbian-learning 页面的关键缺口）
+- DA-RPE 是 DA-三因素规则-突触标记 三个概念的枢纽
+- 与既有知识网络（LTP、Hebbian 学习、记忆巩固、工作记忆）有强连接
+- 跨 cellular/brain-region/whole-brain-network/cognition 四个层级
+
+**核心问题**：多巴胺如何编码"奖励预测误差"并以此更新突触强度，实现强化学习？
+
+---
+
+## C. 文献检索
+
+**检索策略**：
+- 数据库：PubMed、PMC、Europe PMC
+- 主要检索词：
+  - "dopamine reward prediction error"
+  - "Montague Dayan Sejnowski 1996 dopamine"
+  - "three factor learning rule dopamine synapse"
+  - "synaptic tagging capture dopamine"
+  - "Schultz dopamine reward 1997"
+  - "D1 receptor LTP cAMP PKA CREB hippocampus"
+
+**检索问题与处理**：
+- PubMed filter=simsearch1.fha 导致 Invalid parameter 报错 → 删除 filter 参数后正常
+- 初始误认 Owens et al. 1996（PMID:8815920）为 Montague 1996 → 重新检索确认正确 PMID:8774460
+- 初始误认 PMID:21368754 为 Redondo Morris 2011 STC → 核实后排除（该 PMID 为药理学论文）
+
+**最终纳入文献（8篇）**：
+
+| # | PMID | 第一作者 | 年份 | 期刊 | 全文 | 用途 |
+|---|------|---------|------|------|------|------|
+| 1 | 9054347 | Schultz W | 1997 | Science | 摘要 | DA-RPE 三响应模式经典实验 |
+| 2 | 8774460 | Montague PR | 1996 | J Neurosci | PMC6578666 ✅ | TD 学习框架，δ 公式 |
+| 3 | 27069377 | Schultz W | 2016 | Nat Rev Neurosci | PMC4826767 ✅ | RPE 双成分综述 |
+| 4 | 26865020 | Schultz W | 2016 | Dialogues Clin Neurosci | PMC5549862 ✅ | 基底节奖励回路，D1/D2 通路 |
+| 5 | 26109341 | Schultz W | 2015 | Physiol Rev | PMC4491543 ✅ | 奖励信号理论全面综述 |
+| 6 | 7708662 | Huang YY | 1995 | PNAS | PMC42234 ✅ | DA-LTP，D1→cAMP→PKA→CREB |
+| 7 | 9020359 | Frey U | 1997 | Nature | 摘要 | 突触标记发现，PRP 捕获 |
+| 8 | 12371508 | Reynolds JNJ | 2002 | Neural Networks | 摘要 | 三因素规则电生理验证 |
+
+开放获取：5 篇（PMC 全文）；摘要仅及：3 篇（付费墙）
+排除文献：2 篇（PMID 确认有误）
+
+---
+
+## D. 文章写作
+
+**文件**：`neuro-daily/articles/2026-06-07-dopamine-reward-prediction-error.md`
+
+**篇幅**：约 5000 字（中文）
+
+**结构**：
+1. 导言：从外星人视角引入 RPE 概念
+2. Schultz 实验：三种响应模式（正/零/负 RPE）
+3. TD 学习的神经基底：δ(t) = r(t) + γV(t+1) − V(t) 公式
+4. 三因素学习规则：Δw = η·(pre×post)×DA
+5. DA-LTP 的分子链：D1/D5→Gs→cAMP→PKA→GluA1 Ser845→CREB→PRP
+6. 突触标记与捕获：DA 延迟问题的解决方案
+7. D1/D2 双通路：Go/No-Go 对称学习
+8. DA 三大投射路径（中脑边缘、中脑皮层、黑质纹状体）
+9. 类比与局限
+10. 争议与前沿（DA 异质性）
+11. AI 比较表（DA-RPE vs TD error）
+12. 本文章的未解问题
+
+**来源引用**：8 篇，均附 PMID；5 篇引用全文内容，3 篇引用摘要并注明
+
+---
+
+## E. 笔记写作
+
+**文件**：`neuro-daily/notes/2026-06-07-reading-notes.md`
+
+- 8 篇文献的详细阅读笔记（目标、方法、发现、改变理解、证据强度、局限）
+- 关键洞见 4 条
+- 与已有 wiki 概念的关联表
+- 新增未解问题 3 条（Q-da-heterogeneity、Q-da-hippocampus-source、Q-stc-molecular-tag）
+
+---
+
+## F. 来源记录
+
+**文件**：`neuro-daily/sources/2026-06-07-sources.json`
+- 8 篇来源的结构化 JSON
+- 全文可用性、置信度评级、覆盖主题
+- 检索词、数据库、纳入/排除计数
+
+---
+
+## G. Wiki 固结
+
+### 新建页面（3）
+
+1. **`concepts/dopamine-reward-prediction-error.md`**
+   - 成熟度：established / 置信度：high
+   - 关键来源：PMID:9054347、8774460、27069377、26865020、26109341
+   - 关联：8 个既有节点
+
+2. **`concepts/three-factor-learning-rule.md`**（填补悬空引用）
+   - 成熟度：mainstream / 置信度：high
+   - 关键来源：PMID:12371508、9054347、8774460、9020359、7708662
+   - 关联：6 个既有节点
+
+3. **`concepts/synaptic-tagging-capture.md`**
+   - 成熟度：mainstream / 置信度：medium
+   - 关键来源：PMID:9020359、7708662
+   - 关联：5 个既有节点
+
+### 修订页面（2）
+
+4. **`concepts/hebbian-learning.md`**（revision 2→3）
+   - 三因素规则小节升级为完整分子机制
+   - related 新增 dopamine-reward-prediction-error、synaptic-tagging-capture
+   - 悬空引用 three-factor-learning-rule 标记为已建立
+
+5. **`concepts/ltp.md`**（revision 4→5）
+   - 新增"DA-LTP 与突触标记-捕获"小节
+   - related 新增 dopamine-reward-prediction-error、synaptic-tagging-capture、three-factor-learning-rule
+   - key_sources 新增 PMID:7708662、9020359
+
+### 知识图谱更新（_graph.json）
+
+- 节点：39 → 42（+3）
+- 边：193 → 207（+14）
+- 悬空引用解决：three-factor-learning-rule（首见于 hebbian-learning，今日创建）
+
+### 其他固结文件
+
+- `state/topic_ledger.json`：total_articles 14→15，新增 article #15 完整条目
+- `state/unresolved_questions.md`：新增 4 个未解问题
+- `state/monthly_synthesis.md`：三因素规则标记完成（✅），新增洞见 36-38
+- `wiki/index.md`：42 页（+3），文章历史新增 #15，悬空引用解决记录
+- `wiki/CHANGELOG.md`：新增 2026-06-07 条目
+- `state/source_registry.json`：新增 8 条来源，last_updated→2026-06-07
+- `state/maturity_index.json`：新增 3 个页面条目，last_updated→2026-06-07
+
+### 矛盾（contested claims）
+
+无新矛盾登记。VTA DA 神经元异质性记录为未解问题 Q-da-heterogeneity，两类神经元证据互补而非矛盾。
+
+---
+
+## H. 自检
+
+- [x] 所有 wiki 断言有来源支持（PMID 可追溯）
+- [x] 新建 3 页均有 YAML frontmatter
+- [x] 修订页 revision_count、updated 已更新
+- [x] _graph.json 无孤立节点（3 新节点均有 ≥2 条边）
+- [x] index.md 总数与实际页面数一致（42）
+- [x] CHANGELOG.md 已追加今日条目
+- [x] topic_ledger.json total_articles=15
+- [x] three-factor-learning-rule 悬空引用已解决（_graph.json + hebbian-learning.md + index.md 三处同步）
+- [x] 未解问题 Q-stc-molecular-tag、Q-da-heterogeneity 已录入 unresolved_questions.md
+
+---
+
+## I. Git 提交
+
+**命令**：
+```
+git add neuro-daily/
+git commit -m "Add neuro daily article + wiki consolidation for 2026-06-07"
+git pull --rebase origin main
+git push origin main
+```
+
+**提交状态**：见下方实际执行结果

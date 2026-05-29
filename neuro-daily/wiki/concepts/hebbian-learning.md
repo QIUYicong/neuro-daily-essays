@@ -6,14 +6,14 @@ type: theory
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-05-30
-revision_count: 2
+updated: 2026-06-07
+revision_count: 3
 dimensions: [synaptic, cognition, behavior, whole-brain-network]
 related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy]
 prerequisites: [synaptic-transmission, action-potential, nmda-receptor]
 opens_questions: [Q-hebbian-global-error, Q-hebbian-stability]
-source_articles: [2026-05-26-nmda-receptor-ltp]
-key_sources: ["PMID:22510460", "PMID:30037851", "PMID:26834568"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error]
+key_sources: ["PMID:22510460", "PMID:30037851", "PMID:26834568", "PMID:9054347", "PMID:8774460", "PMID:12371508"]
 ---
 
 # Hebbian 学习 (Hebbian Learning)
@@ -46,8 +46,14 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 ### 三因素学习规则（认知/系统层面）
 
 - 权重更新 ∝ (突触前活动) × (突触后活动) × (调制信号，如多巴胺)
-- 多巴胺信号（奖励预测误差）可在 Hebbian 结合后数百毫秒内调制突触可塑性
-- 这使 Hebb 规则能够被全局的奖励结果所"评分"
+- 对于奖励学习：调制信号 M = 多巴胺奖励预测误差（DA-RPE），来自 VTA/SNc
+  - DA 爆发（超出预期）→ M > 0 → 三因素 LTP
+  - DA 抑制（低于预期）→ M < 0 → 三因素 LTD
+  - DA 基线（符合预期）→ M = 0 → 无可塑性
+- **实验验证**（Reynolds & Wickens 2002）：纹状体皮层-纹状体突触，三因素乘法规则得到直接验证——单独 Hebbian 激活或单独 DA 均不足以诱导 LTP，必须配对。
+- 时间延迟由**突触标记与捕获**（STC）解决：Hebbian 激活设置突触标签（~1-2h），DA 驱动的蛋白质合成被标签捕获 → 延迟奖励仍可强化刚发生的 Hebbian 事件（见 [[synaptic-tagging-capture]]）
+- 对于注意调制：M = 乙酰胆碱（ACh，基底前脑）→ 增强注意焦点内刺激的 Hebbian 激活
+- 这使 Hebb 规则能够被全局的奖励结果和注意状态所"评分"
 
 ### 多尺度 Hebb 规则（全脑网络/行为层面）
 
@@ -76,7 +82,9 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 - [[theta-oscillations]] — θ 序列通过压缩行为时序，将 s 级事件带入 ms 级 Hebb 窗口
 - [[sharp-wave-ripples]] — SWR 是离线批量 Hebb 的执行者，驱动皮层长期固化
 - [[temporal-coding-hierarchy]] — 多时间尺度 Hebb 实例化的综合框架
-- [[three-factor-learning-rule]] — 将 Hebb 规则扩展为包含全局调制信号的学习算法（待建页面）
+- [[three-factor-learning-rule]] — 将 Hebb 规则扩展为包含全局调制信号的学习算法（2026-06-07 已建立）
+- [[dopamine-reward-prediction-error]] — DA RPE 是奖励学习中三因素规则的调制因子 M
+- [[synaptic-tagging-capture]] — 突触标记假说解决三因素规则的时间延迟问题
 - [[stdp]] — STDP 是 Hebb 规则的时间分辨精化版本（待建页面）
 
 ## 未解问题
@@ -88,7 +96,9 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《第一周综合：时间的阶梯》一文 · 新增"多尺度 Hebb 规则"一节（BTSP/θ 序列/SWR 均为 Hebb 原理在不同时间尺度的实例化）；related 新增 btsp/theta-oscillations/sharp-wave-ripples/temporal-coding-hierarchy；dimensions 扩展为 behavior/whole-brain-network
+- 2026-06-07 · 修订 · 基于《多巴胺的时间机器》一文 · 三因素学习规则节从简要提及升级为完整分子描述（DA-RPE 作为 M 因素；D1→cAMP→PKA 通路；纹状体直接实验验证；STC 解决时间延迟）；related 新增 dopamine-reward-prediction-error、synaptic-tagging-capture；[[three-factor-learning-rule]] 从悬空引用升级为已建立页面链接；key_sources 新增三篇 DA-RPE 来源
 
 ## 来源文章
 
 - [[2026-05-26-nmda-receptor-ltp]]
+- [[2026-06-07-dopamine-reward-prediction-error]]
