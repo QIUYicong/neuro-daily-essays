@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-03",
-  "total_articles": 11,
+  "last_updated": "2026-06-04",
+  "total_articles": 12,
   "entries": [
     {
       "date": "2026-05-24",
@@ -710,12 +710,88 @@
       "mode": "long_term_curriculum",
       "article_number": 11,
       "dangling_reference_filled": "pv-interneurons（填补 chandelier-cell 的 PV+ 家族背景）、sst-interneurons（填补 dendritic-computation 的 Q-inhibition-dendritic-spike-control）、整体 microcircuit 层级的严重欠缺"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "遗忘的精准：突触如何弱化自身，以及这为何是大脑最聪明的设计",
+      "filename": "2026-06-04-ltd-long-term-depression.md",
+      "wiki_pages_created": [
+        "wiki/concepts/ltd.md",
+        "wiki/concepts/calcineurin.md",
+        "wiki/concepts/arc-arg31.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/ampa-receptor.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "当大脑需要减弱一个突触连接时，它在分子层面精确地做什么？NMDA 受体依赖型 LTD 与 mGluR 依赖型 LTD 各自的触发逻辑有何不同？它们与 LTP 如何共同构成突触权重的双向调控系统？",
+      "layer": ["synaptic", "molecular", "cognition", "disease"],
+      "curriculum_track": "1. 神经元如何工作 → 4. 学习和记忆（突触双向可塑性完整篇）",
+      "topic_tags": [
+        "long-term depression",
+        "LTD",
+        "NMDA-LTD",
+        "mGluR-LTD",
+        "calcineurin",
+        "PP2B",
+        "PP1",
+        "GluA1 dephosphorylation",
+        "GluA2 Ser880",
+        "PICK1",
+        "GRIP1",
+        "AMPA receptor endocytosis",
+        "clathrin",
+        "dynamin",
+        "Arc Arg3.1",
+        "FMRP",
+        "fragile X syndrome",
+        "mGluR5",
+        "AKAP150",
+        "PSD-95",
+        "BCM theory",
+        "cerebellar LTD",
+        "synaptic homeostasis",
+        "SHY hypothesis",
+        "fear extinction",
+        "Alzheimer beta-amyloid",
+        "LTP LTD bidirectional",
+        "Huganir Nicoll",
+        "Bear Huber Warren",
+        "Bhattacharyya Malenka"
+      ],
+      "main_sources": [
+        "PMID:24183021 (PMC4195488)",
+        "PMID:19169250 (PMC2694745)",
+        "PMID:25429259 (PMC4150421)",
+        "PMID:19690847 (PMC2803749)",
+        "PMID:15450156 (abstract only)",
+        "PMID:15219735 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-ltd-nmda-metabotropic：NMDA 受体是否可通过构象信号（非离子流）触发 LTD？",
+        "Q-ltd-long-term-maintenance：LTD 诱导后突触权重如何在数天至数周内稳定维持？",
+        "Q-ltd-behavior-extinction：恐惧消退中的突触 LTD 是对原有 LTP 的逆转还是独立的竞争性抑制？",
+        "Q-ltd-glua2-redundancy：GluA2/GluA3 双敲除后 LTD 仍然正常，备用内吞路径的分子身份是什么？",
+        "Q-arc-ltp-ltd-switch：Arc 如何在同一细胞中决定促进 LTP 还是 LTD？",
+        "Q-arc-dendritic-targeting：Arc mRNA 被运输到特定激活树突棘的分子机制是什么？"
+      ],
+      "next_suggested_topics": [
+        "短时程突触可塑性（STP）：突触易化（Syt7）与抑制（囊泡耗竭）的分子机制（数十毫秒-分钟，与 LTD/LTP 形成时间尺度完整谱系；Syt7 悬空引用待填）",
+        "前额叶皮层与工作记忆：PV+ γ 振荡如何支撑工作记忆（延续 PV/抑制回路主题，进入 cognitive control 层）",
+        "阿尔茨海默病（disease 层首篇）：Aβ 寡聚体如何劫持 LTD 机制造成突触损害，以及 τ 蛋白的 AIS 破坏（disease 层目前完全空缺）",
+        "三因素学习规则：多巴胺 × Hebb（连接 VIP 去抑制与奖励信号，填补 three-factor-learning-rule 悬空引用）",
+        "突触稳态与睡眠：SHY 假说的分子机制（延续今日 LTD/稳态主题，与 memory-consolidation 页面衔接）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 12,
+      "dangling_reference_filled": "ltp-ltd（ltp 页中的悬空 related，改为已建立的 ltd 页面）"
     }
   ],
   "layer_coverage_recent": {
-    "molecular": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-06-01"],
+    "molecular": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-06-01", "2026-06-04"],
     "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28", "2026-06-01", "2026-06-03"],
-    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28", "2026-06-01"],
+    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28", "2026-06-01", "2026-06-04"],
     "microcircuit": ["2026-05-27", "2026-06-03"],
     "brain_region": ["2026-05-27", "2026-05-28"],
     "whole_brain_network": ["2026-05-29", "2026-05-30", "2026-06-02"],
@@ -724,5 +800,5 @@
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-06-03（抑制性中间神经元多样性）：microcircuit 层级从严重欠缺（仅1篇）提升为有基础覆盖（2篇）。新建 PV+/SST+/VIP+/去抑制回路 共4个 wiki 页面。microcircuit 层仍需深化（抑制性回路的更多亚型、前额叶局部回路）。下一建议：LTD（突触层补充）或 PFC 工作记忆（认知控制层，延续 PV/γ 主题）或短时程可塑性（分子层，与钙通道衔接）。disease 层和 methods 层仍完全空缺。"
+  "layer_note": "2026-06-04（LTD）：synaptic 层从5篇增至6篇，molecular 层从4篇增至5篇。突触可塑性双向图景（LTP+LTD）现已完整。新建 ltd/calcineurin/arc-arg31 共3个概念页面，修订 ltp、ampa-receptor 两页。disease 层和 methods 层仍完全空缺——建议下一篇进入 disease 层（阿尔茨海默病+Aβ/LTD机制）或 cognition 层（PFC 工作记忆）。synaptic 层的短时程突触可塑性（STP）仍待覆盖。"
 }

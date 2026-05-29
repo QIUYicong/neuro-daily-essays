@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-04",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -89,7 +89,7 @@
       "confidence": "high",
       "supporting_sources": 4,
       "last_status_change": "2026-05-26",
-      "reason": "创建 2026-05-26。CA1 LTP 机制（NMDA→CaMKII→AMPA 插入）有多重独立证据（MK-801 法、PPF 测量、单通道分析、沉默突触实验）。LTP 与苔藓纤维 LTP 的机制差异已确立。CaMKII 维持 LTP 的必要性有 2021 eLife 实验支持。L-LTP 的蛋白合成依赖性是 mainstream 而非 speculative，但长期维持机制（数十年）仍有争议。整体置信度高，但有若干开放问题。"
+      "reason": "创建 2026-05-26。CA1 LTP 机制（NMDA→CaMKII→AMPA 插入）有多重独立证据（MK-801 法、PPF 测量、单通道分析、沉默突触实验）。LTP 与苔藓纤维 LTP 的机制差异已确立。CaMKII 维持 LTP 的必要性有 2021 eLife 实验支持。L-LTP 的蛋白合成依赖性是 mainstream 而非 speculative，但长期维持机制（数十年）仍有争议。整体置信度高，但有若干开放问题。2026-06-04：修订，悬空引用 ltp-ltd 更正为 ltd（已建立页面），related 新增 calcineurin；revision_count 3→4。成熟度不变。"
     },
     {
       "slug": "hebbian-learning",
@@ -103,9 +103,9 @@
       "slug": "ampa-receptor",
       "status": "established",
       "confidence": "high",
-      "supporting_sources": 3,
+      "supporting_sources": 5,
       "last_status_change": "2026-05-26",
-      "reason": "创建 2026-05-26。AMPA 受体作为快速兴奋突触传递执行者是教科书级共识。LTP 期间 AMPA 受体插入的证据来自多种独立方法（静默突触、电流比例分析、单通道记录）。GluA1/GluA2 的功能差异和 TARP 锚定机制有充分的分子证据。"
+      "reason": "创建 2026-05-26。AMPA 受体作为快速兴奋突触传递执行者是教科书级共识。LTP 期间 AMPA 受体插入的证据来自多种独立方法（静默突触、电流比例分析、单通道记录）。GluA1/GluA2 的功能差异和 TARP 锚定机制有充分的分子证据。2026-06-04：修订，新增 LTD 期间 AMPAR 内吞部分（GluA2 Ser880/PKC → PICK1、Arc/dynamin 通路、GluA2/GluA3 双敲冗余争议）；supporting_sources 3→5（新增 PMID:24183021、PMID:19169250），revision_count 1→2，related 新增 ltd/calcineurin/arc-arg31。成熟度不变。"
     },
     {
       "slug": "camkii",
@@ -266,6 +266,30 @@
       "supporting_sources": 3,
       "last_status_change": "2026-06-03",
       "reason": "创建 2026-06-03。VIP→SST/PV→锥体细胞三级架构由 Pi 2013 在听觉皮层直接证明；恐惧学习中的必要性由 Letzkus 2011 因果实验确立；Kepecs & Fishell 2014 将其总结为'跨皮层保守模块'。证据来源多（不同皮层区域、不同行为学习类型、多实验室）。主要不确定性：不同皮层区域中 SST vs PV 作为主要靶标的比例；与其他学习相关不确定性。整体 established。"
+    },
+    {
+      "slug": "ltd",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-06-04",
+      "reason": "创建 2026-06-04。NMDA-LTD 机制（低 Ca²⁺ → PP2B/calcineurin → PP1 → GluA1 Ser831/Ser845 去磷酸化 → AMPAR 内吞）有多实验室独立验证；mGluR-LTD（mGluR5 → 局部蛋白合成 → Arc → dynamin/endophilin → AMPAR 内吞）有基因敲除（Arc KO）+ 药理（DHPG）+ 电生理多维证据；小脑 LTD（mGluR1 + P/Q Ca²⁺ → PKC → GluA2 Ser880）有独立机制证据；GluA2/GluA3 双敲小鼠 LTD 仍正常（冗余内吞通路存在）为 contested 细节，但不影响核心机制 established 状态。BCM 理论 Ca²⁺ 阈值模型统一了 LTP 和 LTD 方向选择，有强理论支持。整体 established，部分分子细节（NMDA 受体代谢型信号、长期维持机制）有开放问题。"
+    },
+    {
+      "slug": "calcineurin",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 2,
+      "last_status_change": "2026-06-04",
+      "reason": "创建 2026-06-04。钙调磷酸酶（PP2B/calcineurin）在 NMDA-LTD 中的角色有直接实验证据：AKAP150/PSD-95 空间定位机制（Bhattacharyya 2009, PMID:19169250）将 PP2B 靶向 NMDAR；PP2B → PP1 → GluA1 去磷酸化级联在多物种、多制备物中重复验证（Huganir & Nicoll 2013, PMID:24183021）。Ca²⁺ 亲和力差异（PP2B Kd ~0.5 μM vs CaMKII Kd ~2-3 μM）是 BCM 理论 Ca²⁺ 阈值区分的分子基础，有定量生化证据支持。AKAP-ΔPP2B 突变体选择性阻断 NMDA-LTD 而不影响 mGluR-LTD 为通路特异性提供因果证据。整体 established。"
+    },
+    {
+      "slug": "arc-arg31",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-06-04",
+      "reason": "创建 2026-06-04。Arc/Arg3.1 在 LTD 中的执行功能（通过 dynamin/endophilin 促进 AMPAR 内吞）有基因敲除实验（Arc KO 小鼠 LTD 受损）+ 生化（dynamin 结合结构域鉴定）+ 体外过表达实验多维证据（Hanley 2014 综述，PMID:25429259）。Arc 在 LTP 巩固中的作用（肌动蛋白稳定）同样有 KO 实验（Arc KO 能诱导但不能巩固 LTP）支持（Bramham et al. 2010，PMID:19690847）。Arc mRNA 的树突靶向和局部翻译是领域内公认机制。主要不确定性：Arc 如何在 LTD 情境（中等活动）vs LTP 情境（强烈活动）之间切换功能的精确分子开关尚未完全解明（见 Q-arc-ltp-ltd-switch）。整体 established，功能开关细节为 open question。"
     }
   ]
 }

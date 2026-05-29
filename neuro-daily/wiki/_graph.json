@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-03",
-  "node_count": 31,
-  "edge_count": 152,
+  "updated": "2026-06-04",
+  "node_count": 34,
+  "edge_count": 164,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -283,6 +283,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/circuits/disinhibitory-circuit.md"
+    },
+    {
+      "id": "ltd",
+      "title": "长时程抑制（LTD）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ltd.md"
+    },
+    {
+      "id": "calcineurin",
+      "title": "钙调磷酸酶（Calcineurin / PP2B）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/calcineurin.md"
+    },
+    {
+      "id": "arc-arg31",
+      "title": "Arc/Arg3.1（活动调控的细胞骨架相关蛋白）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/arc-arg31.md"
     }
   ],
   "edges": [
@@ -437,7 +464,21 @@
     {"from": "disinhibitory-circuit", "to": "vip-interneurons", "type": "mechanism-of", "note": "VIP+ 细胞是去抑制回路的核心执行者（第一级门控）"},
     {"from": "disinhibitory-circuit", "to": "hebbian-learning", "type": "supports", "note": "去抑制在关键行为时刻（奖励/惩罚/注意）打开学习窗口，支持 Hebb 型突触可塑性的选择性发生"},
     {"from": "disinhibitory-circuit", "to": "engram-cells", "type": "related", "note": "去抑制可能在印迹分配的竞争性 CREB 上调过程中选择性放大特定锥体细胞，影响印迹细胞集合组成"},
-    {"from": "chandelier-cell", "to": "pv-interneurons", "type": "is-a", "note": "吊灯细胞是 PV+ 中间神经元的 AIS 靶向亚类"}
+    {"from": "chandelier-cell", "to": "pv-interneurons", "type": "is-a", "note": "吊灯细胞是 PV+ 中间神经元的 AIS 靶向亚类"},
+    {"from": "ltd", "to": "ltp", "type": "related", "note": "LTD 与 LTP 构成突触双向可塑性：同一 NMDA 受体，Ca²⁺ 量决定方向（BCM 框架）"},
+    {"from": "ltp", "to": "ltd", "type": "related", "note": "LTP 的对称补充：高 Ca²⁺→CaMKII→LTP；低 Ca²⁺→PP2B/PP1→LTD"},
+    {"from": "ltd", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA 受体低频激活产生中等 Ca²⁺→PP2B 激活→NMDA-LTD"},
+    {"from": "nmda-receptor", "to": "ltd", "type": "mechanism-of", "note": "NMDA 受体是 NMDA-LTD 的触发受体；Ca²⁺ 量（而非 Ca²⁺ 本身）决定 LTD vs. LTP"},
+    {"from": "ltd", "to": "ampa-receptor", "type": "mechanism-of", "note": "LTD 的最终效应是 AMPA 受体内吞离开突触，使突触权重降低"},
+    {"from": "ampa-receptor", "to": "ltd", "type": "mechanism-of", "note": "AMPAR 内吞（GluA1 去磷酸化、GluA2 Ser880 磷酸化→PICK1）是 LTD 的物理表达"},
+    {"from": "calcineurin", "to": "ltd", "type": "mechanism-of", "note": "PP2B（钙调磷酸酶）是 NMDA-LTD 的第一个效应磷酸酶，中等 Ca²⁺ 激活"},
+    {"from": "calcineurin", "to": "ampa-receptor", "type": "regulates", "note": "PP2B→PP1 级联使 GluA1 Ser831/Ser845 去磷酸化，驱动 AMPAR 内吞"},
+    {"from": "nmda-receptor", "to": "calcineurin", "type": "regulates", "note": "NMDA 受体 Ca²⁺ 内流（低频/低量）优先激活高亲和力的 PP2B"},
+    {"from": "camkii", "to": "calcineurin", "type": "related", "note": "CaMKII（LTP激酶，低亲和力）与 PP2B（LTD 磷酸酶，高亲和力）竞争 Ca²⁺-CaM，是突触方向性决定的核心对立对"},
+    {"from": "arc-arg31", "to": "ltd", "type": "mechanism-of", "note": "Arc 是 mGluR-LTD 的执行蛋白：与 dynamin/endophilin 结合→促进 AMPAR 内吞"},
+    {"from": "arc-arg31", "to": "ampa-receptor", "type": "regulates", "note": "Arc 直接通过 dynamin/endophilin 加速网格蛋白介导的 AMPAR 内吞"},
+    {"from": "arc-arg31", "to": "ltp", "type": "related", "note": "Arc 也参与 L-LTP 巩固（通过 PAK-LIMK-cofilin 稳定树突棘肌动蛋白）；双向功能取决于活动量"},
+    {"from": "ltd", "to": "memory-consolidation", "type": "related", "note": "睡眠期间突触稳态下调（SHY 假说）可能涉及广泛的 LTD 类机制；LTD 是防止突触饱和、维持学习容量的机制"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -446,7 +487,9 @@
     {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，待建页面"},
     {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation", "place-cell"], "note": "已于 2026-05-31 创建页面，填补悬空引用", "resolved": "2026-05-31"},
     {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "三因素学习规则（Hebb × 多巴胺），待建页面"},
+    {"slug": "ltp-ltd", "referenced_by": ["ltp"], "note": "已于 2026-06-04 用 ltd 页面填补此悬空引用；ltp.md 中的 related 字段从 ltp-ltd 改为 ltd", "resolved": "2026-06-04"},
     {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"},
+    {"slug": "mglur-ltd", "referenced_by": ["ltd", "arc-arg31"], "note": "mGluR 依赖型 LTD 可单独建页，包含 mGluR5、FMRP、翻译依赖等细节；目前合并于 ltd 页面"},
     {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议，待建页面"},
     {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
     {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},

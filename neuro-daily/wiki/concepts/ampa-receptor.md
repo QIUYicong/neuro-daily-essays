@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-05-26
-revision_count: 1
+updated: 2026-06-04
+revision_count: 2
 dimensions: [molecular, synaptic]
-related: [nmda-receptor, ltp, camkii, synaptic-transmission, hebbian-learning, tarp-auxiliary-subunit]
+related: [nmda-receptor, ltp, ltd, camkii, calcineurin, arc-arg31, synaptic-transmission, hebbian-learning, tarp-auxiliary-subunit]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-ampa-receptor-silent-synapse, Q-ampa-glua1-atd-partners]
-source_articles: [2026-05-26-nmda-receptor-ltp]
-key_sources: ["PMID:30359599", "PMID:34271016", "PMID:22510460"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-04-ltd-long-term-depression]
+key_sources: ["PMID:30359599", "PMID:34271016", "PMID:22510460", "PMID:24183021", "PMID:19169250"]
 ---
 
 # AMPA 受体 (AMPA Receptor / AMPAR)
@@ -58,11 +58,26 @@ AMPA 受体是由 GluA1–4 亚基组成的四聚体（通常为二聚体的二�
 | LTP 需要 GluA1，但不需要 GluA2 | GluA1/GluA2 条件性敲除实验 | PMID:34271016 (PMC9122021) | 高 |
 | TARP-PSD95 相互作用锚定 AMPA 受体于突触 | Stargazin 突变 + 电生理 | PMID:34271016 (PMC9122021) | 高 |
 
+### LTD 期间 AMPA 受体内吞（突触层面）
+
+LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实现（Huganir & Nicoll, 2013，PMC4195488）：
+
+1. **GluA1 Ser831/Ser845 去磷酸化**（PP2B→PP1 级联）→ 受体稳定性降低，开始横向扩散离开 PSD
+2. **GluA2 Ser880 磷酸化**（PKC）→ 破坏 GluA2-GRIP1/2 结合（突触锚点丧失）→ 转为 PICK1 结合 → 内吞
+3. **Arc 蛋白**（mGluR-LTD 路径）→ Arc 与 dynamin/endophilin 结合 → 加速网格蛋白包被小泡形成 → AMPAR 内化
+
+**重要争议**：GluA2/GluA3 双敲除小鼠海马 LTD 仍然正常，表明 GluA2 Ser880 路径不是唯一的 LTD 表达机制，存在 GluA2 非依赖的备用内吞路径（分子身份未明，→ Q-ltd-glua2-redundancy）。
+
+内化后受体进入早期内体：可被再循环回突触（LTP 时优先）或被溶酶体降解（LTD 维持时可能）。
+
 ## 连接
 
-- [[nmda-receptor]] — NMDA 受体 Ca²⁺ 内流激活 CaMKII，后者驱动 AMPA 受体插入
-- [[ltp]] — AMPA 受体插入是 LTP 在突触后的主要表达机制
-- [[camkii]] — CaMKII 磷酸化 GluA1 S831，是 AMPA 受体插入的关键触发
+- [[nmda-receptor]] — NMDA 受体 Ca²⁺ 内流激活 CaMKII，后者驱动 AMPA 受体插入；低 Ca²⁺ 时激活 PP2B，驱动内吞
+- [[ltp]] — AMPA 受体插入（exocytosis → lateral diffusion → PSD 锚定）是 LTP 在突触后的主要表达机制
+- [[ltd]] — AMPA 受体内吞（endocytosis）是 LTD 在突触后的主要表达机制；GluA1 去磷酸化 + GluA2 Ser880 磷酸化是关键开关
+- [[camkii]] — CaMKII 磷酸化 GluA1 S831（LTP），与 PP2B-PP1 去磷酸化相对立（LTD）
+- [[calcineurin]] — PP2B/PP1 级联在 LTD 时去磷酸化 GluA1 Ser831/845，驱动内吞
+- [[arc-arg31]] — Arc 是 mGluR-LTD 路径中促进 AMPAR 内吞的执行蛋白
 - [[synaptic-transmission]] — AMPA 受体是快速 EPSP 的主要产生者
 - [[tarp-auxiliary-subunit]] — TARP 是 AMPA 受体靶向突触的关键辅助亚基（待建页面）
 
@@ -74,7 +89,9 @@ AMPA 受体是由 GluA1–4 亚基组成的四聚体（通常为二聚体的二�
 ## 修订历史
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
+- 2026-06-04 · 修订 · 基于《LTD 文章》· 新增"LTD 期间 AMPA 受体内吞"机制段落；GluA2 Ser880 磷酸化→PICK1 路径；Arc 在 mGluR-LTD 中的内吞执行角色；GluA2 双敲除后 LTD 正常的争议（备用内吞路径）；related 增加 ltd、calcineurin、arc-arg31；key_sources 新增 PMC4195488, PMC2694745
 
 ## 来源文章
 
 - [[2026-05-26-nmda-receptor-ltp]]
+- [[2026-06-04-ltd-long-term-depression]]

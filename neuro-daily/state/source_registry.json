@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-04",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -909,6 +909,86 @@
       "full_text_available": true,
       "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
       "aspects_covered": ["schizophrenia working memory task prefrontal gamma power reduction", "PV+ cell → gamma → cognition causal chain", "EEG/MEG clinical research review"]
+    },
+    {
+      "pmid": "24183021",
+      "pmcid": "PMC4195488",
+      "doi": "10.1016/j.neuron.2013.10.025",
+      "title": "AMPARs and synaptic plasticity: the last 25 years",
+      "authors_short": "Huganir RL, Nicoll RA",
+      "journal": "Neuron",
+      "year": 2013,
+      "first_used": "2026-06-04",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
+      "aspects_covered": ["AMPAR regulation in LTP and LTD", "GluA1 Ser831/Ser845 phosphorylation states", "GluA2 Ser880 PKC phosphorylation", "calcineurin/PP2B/PP1 cascade for LTD", "clathrin-mediated endocytosis of AMPARs", "PICK1/GRIP1/GRIP2 interactions", "cerebellar LTD", "mGluR-LTD", "GluA2/GluA3 double knockout paradox", "metabotropic NMDAR hypothesis"]
+    },
+    {
+      "pmid": "19169250",
+      "pmcid": "PMC2694745",
+      "doi": "10.1038/nn.2249",
+      "title": "A critical role for PSD-95/AKAP interactions in endocytosis of synaptic AMPA receptors",
+      "authors_short": "Bhattacharyya S, Biou V, Xu W, Schlüter O, Malenka RC",
+      "journal": "Nature Neuroscience",
+      "year": 2009,
+      "first_used": "2026-06-04",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
+      "aspects_covered": ["PSD-95/AKAP150/calcineurin triad at synapse", "SH3-GK domain essential for AKAP150 binding", "PSD-95 knockdown blocks NMDAR-triggered AMPAR endocytosis", "AKAP-ΔPP2B mutant blocks NMDA-LTD", "pathway dissociation NMDA-LTD vs mGluR-LTD", "spatial positioning of PP2B for LTD"]
+    },
+    {
+      "pmid": "25429259",
+      "pmcid": "PMC4150421",
+      "doi": "10.3389/fncel.2014.00197",
+      "title": "Actin-dependent mechanisms in AMPA receptor trafficking and synaptic plasticity",
+      "authors_short": "Hanley JG",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2014,
+      "first_used": "2026-06-04",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
+      "aspects_covered": ["actin cytoskeleton dynamics in AMPAR endocytosis", "Arc/Arg3.1 binding to dynamin and endophilin", "clathrin-mediated AMPAR internalization", "Arp2/3-mediated actin branching in endocytic pit", "cofilin regulation (LIMK/SSH) in LTD", "actin as bidirectional plasticity regulator"]
+    },
+    {
+      "pmid": "19690847",
+      "pmcid": "PMC2803749",
+      "doi": "10.1007/s00221-009-2101-2",
+      "title": "The Arc of synaptic memory",
+      "authors_short": "Bramham CR et al.",
+      "journal": "Experimental Brain Research",
+      "year": 2010,
+      "first_used": "2026-06-04",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
+      "aspects_covered": ["Arc/Arg3.1 as activity sensor and plasticity modulator", "Arc mRNA dendritic targeting and local translation", "Arc in LTD via AMPAR endocytosis (dynamin/endophilin)", "Arc in LTP consolidation via cofilin/PAK pathway", "Arc knockout impairs LTP consolidation and LTD", "Arc as homeostatic synaptic scaler"]
+    },
+    {
+      "pmid": "15450156",
+      "pmcid": null,
+      "doi": "10.1016/j.neuron.2004.09.012",
+      "title": "LTP and LTD: an embarrassment of riches",
+      "authors_short": "Malenka RC, Bear MF",
+      "journal": "Neuron",
+      "year": 2004,
+      "first_used": "2026-06-04",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费墙",
+      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
+      "aspects_covered": ["LTP/LTD diversity across brain regions", "Ca2+ threshold hypothesis (high→LTP kinases, low→LTD phosphatases)", "low-frequency stimulation for NMDA-LTD", "cerebellar LTD as NMDAR-independent prototype"]
+    },
+    {
+      "pmid": "15219735",
+      "pmcid": null,
+      "doi": "10.1016/j.tins.2004.04.009",
+      "title": "The mGluR theory of fragile X mental retardation",
+      "authors_short": "Bear MF, Huber KM, Warren ST",
+      "journal": "Trends in Neurosciences",
+      "year": 2004,
+      "first_used": "2026-06-04",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费墙",
+      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
+      "aspects_covered": ["FMRP as translational repressor of Arc and LTD-related mRNAs", "mGluR-LTD exaggeration in Fmr1 knockout mice", "mGluR5 antagonist rescue of FXS phenotypes", "clinical prediction of mGluR5 as FXS therapeutic target"]
     }
   ]
 }

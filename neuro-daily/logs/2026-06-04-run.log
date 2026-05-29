@@ -1,0 +1,89 @@
+# 运行日志 2026-06-04
+
+## 元数据
+- 日期：2026-06-04（知识库连续日期；系统时钟 UTC+8 为 2026-05-29，但知识库已有截至 2026-06-03 的文章，故顺延）
+- 主题：长时程抑制（LTD）——突触弱化的精准分子机制
+- slug：ltd-long-term-depression
+- 文章编号：第 12 篇
+- 模型：claude-sonnet-4-6
+
+## 主题选择理由
+- 上一篇（2026-06-03）完成抑制性中间神经元多样性；BCM 理论在 LTP 文章（2026-05-26）已引入但 LTD 端未覆盖
+- topic_ledger.json 记录 LTD 为 planned；synaptic 层 + molecular 层连续覆盖逻辑完整
+- LTD 与 LTP 构成突触双向可塑性完整图谱，且与 Fragile X、阿尔茨海默、恐惧消退等疾病连接密切
+
+## 搜索查询记录
+1. "long-term depression LTD synaptic plasticity review" → 找到 Malenka & Bear 2004 (PMID:15450156)
+2. "mGluR LTD AMPA receptor internalization mechanism" → 找到 mGluR-LTD 相关文献
+3. "NMDA receptor LTD calcineurin protein phosphatase hippocampus mechanism" → 找到 Bhattacharyya 2009 (PMID:19169250)
+4. "Arc AMPA receptor endocytosis LTD synaptic plasticity memory" → 找到 Hanley 2014 (PMID:25429259) + Bramham 2010 (PMID:19690847)
+5. "Bear mGluR theory fragile X LTD protein synthesis 2004" → 找到 Bear et al. 2004 (PMID:15219735)
+6. "Huganir Nicoll AMPA receptors synaptic plasticity review 2013" → 找到 Huganir & Nicoll 2013 (PMID:24183021)
+7. "GluA2 PICK1 GRIP LTD AMPA receptor internalization mechanism" → 额外确认信息，整合入 S1
+8. PMC redirect: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4195488/ → 301 重定向至 https://pmc.ncbi.nlm.nih.gov/articles/PMC4195488/（正常，使用重定向 URL）
+
+## 来源概况
+| ID | PMID | 类型 | 全文 | 主要贡献 |
+|----|------|------|------|----------|
+| S1 | 24183021 | 综述 | 是（PMC4195488）| AMPAR 磷酸化总览、LTD/LTP 25年综述 |
+| S2 | 19169250 | 原创研究 | 是（PMC2694745）| PSD-95/AKAP150/calcineurin 三联体机制 |
+| S3 | 25429259 | 综述 | 是（PMC4150421）| Arc/actin 在 AMPAR 内吞中的作用 |
+| S4 | 19690847 | 综述 | 是（PMC2803749）| Arc 双功能（LTD 执行者 + LTP 巩固者）|
+| S5 | 15450156 | 综述 | 否（摘要）| LTP/LTD 双向可塑性框架、Ca²⁺ 阈值假说 |
+| S6 | 15219735 | 综述 | 否（摘要）| mGluR 脆性X理论（Bear 2004）|
+
+- 总计：6 来源；4 开放全文（满足 ≥2 要求）；2 仅摘要
+- 机构来源：PubMed Central (NCBI/NIH)、PubMed (NCBI/NIH)
+
+## 创建文件
+### 情节层（仅追加）
+- neuro-daily/articles/2026-06-04-ltd-long-term-depression.md（新建，约 4500 汉字）
+- neuro-daily/notes/2026-06-04-reading-notes.md（新建）
+- neuro-daily/sources/2026-06-04-sources.json（新建）
+
+### 语义层（修订）
+- neuro-daily/wiki/concepts/ltd.md（新建）：LTD 三大分支机制完整描述
+- neuro-daily/wiki/concepts/calcineurin.md（新建）：PP2B/AKAP150/PSD-95 复合体机制
+- neuro-daily/wiki/concepts/arc-arg31.md（新建）：Arc 双功能机制，LTD 执行者 + LTP 巩固者
+- neuro-daily/wiki/concepts/ltp.md（修订 4）：ltp-ltd 悬空引用 → ltd；新增 calcineurin 关联
+- neuro-daily/wiki/concepts/ampa-receptor.md（修订 2）：新增 LTD 期间 AMPAR 内吞部分
+
+## 状态文件更新
+- state/topic_ledger.json：total_articles 11→12，last_updated 2026-06-03→2026-06-04，新增 2026-06-04 条目
+- state/unresolved_questions.md：新增 5 个问题（Q-ltd-nmda-metabotropic 等）
+- state/monthly_synthesis.md：截至 2026-06-04 共 3 篇（6月），新增 2026-06-04 行
+- state/maturity_index.json：新增 ltd/calcineurin/arc-arg31 条目；更新 ltp/ampa-receptor 条目
+- state/source_registry.json：新增 6 个来源（PMID:24183021/19169250/25429259/19690847/15450156/15219735）
+- wiki/_graph.json：node_count 31→34，edge_count 152→164；新增 3 节点、12 边
+- wiki/index.md：total_pages 31→34；新增 3 条目；进度表更新
+- wiki/CHANGELOG.md：新增 2026-06-04 节
+
+## 争议条款
+- 无新增 contested_claims（existing: C-2026-05-24-01, C-2026-05-25-01 仍为 open）
+- 注意：GluA2/GluA3 双敲 LTD 仍正常（Bhattacharyya 2009 引用的观察）反映冗余内吞通路存在，但具体备用通路身份未知（见 Q-ltd-glua2-redundancy）
+- 注意："代谢型 NMDA 受体"假说（NMDA 构型变化无 Ca²⁺ 流也能触发 LTD）为待验证假说，未在 contested_claims 中登记，而是在 wiki/concepts/ltd.md 中标注为 contested detail
+
+## 已解决悬空引用
+- ltp.md 中的 ltp-ltd → 更正为 ltd（已建立页面）
+
+## 新增悬空引用
+- mglur-ltd（wiki 多处提及，但尚无独立页面；预计在 mGluR 文章时建立）
+
+## 决策记录
+1. **日期选择**：系统时钟 2026-05-29，但知识库已到 2026-06-03；为保持连续性不跳号，写 2026-06-04
+2. **来源策略**：优先找 Huganir & Nicoll 2013 综述作为 LTD 全景框架，再找具体机制原创论文
+3. **小脑 LTD**：纳入讨论（mGluR1 + P/Q-type → PKC → GluA2 Ser880），作为 LTD 区域多样性证据，不单独建页
+4. **代谢型 NMDA 假说**：标注为 speculative/contested，不作为主要结论呈现
+5. **来源数目**：6 来源超过最低要求（≥5），其中 4 篇开放全文（超过 ≥2 的最低要求）
+
+## 自检结果
+- [x] 情节层完整：文章 + 笔记 + 来源 JSON 均已创建
+- [x] 语义层更新：3 新页 + 2 修订页
+- [x] 来源可追溯：每条 wiki 声明均有 PMID 支持
+- [x] 无医学诊断/治疗建议
+- [x] 无捏造 PMID/DOI（均经 PubMed 查询验证）
+- [x] 悬空引用处理：ltp-ltd → ltd 已解决；mglur-ltd 标注为新悬空
+- [x] 知识图谱节点/边计数已更新
+- [x] wiki/index.md 条目对齐（34 页）
+- [x] CHANGELOG.md 2026-06-04 节已添加
+- [x] monthly_synthesis.md 2026-06 计数正确（3 篇）
