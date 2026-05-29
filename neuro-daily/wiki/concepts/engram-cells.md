@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-06-02
-revision_count: 2
+updated: 2026-06-06
+revision_count: 3
 dimensions: [cellular, brain-region, behavior, cognition]
-related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples]
+related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
 opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence]
 source_articles: [2026-05-31-engram-cells-optogenetic-proof]
@@ -91,10 +91,26 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - Q-silent-engram-information-locus：沉默印迹中，信息究竟编码在连接拓扑（谁连着谁）还是连接权重（连接有多强）？
 - Q-human-engram-evidence：人类是否存在印迹细胞集合？Quiroga 2005 的"概念细胞"是否是其表现？如何在人类进行实验验证？
 
+## 印迹细胞分配的竞争机制
+
+（2026-06-06 新增：竞争-遴选框架整合）
+
+印迹细胞的形成是细胞层次竞争的结果，不是所有暴露于同一经验的神经元都等概率地进入印迹：
+
+- **竞争者**：同一脑区中所有暴露于相同输入的神经元
+- **竞争资源**：印迹席位（有限，DG 约 2–4% 细胞）
+- **胜出标准**：学习发生时的 CREB 活性（决定内在兴奋性，即该神经元是否首先到达放电阈值）
+- **胜出后果**：激活 → c-Fos/Arc 表达 → 突触增强级联 → 持久 AMPA/NMDA 比值升高
+
+这种竞争性分配不是"被动记录"，而是"主动招募"：可以通过人工干预 CREB 重新分配印迹细胞（Han et al. 2007），也可以在 AD 早期通过恢复 CREB 信号或直接光遗传激活恢复沉默印迹的可提取性（Roy et al. 2016，PMID:26982728）。
+
+**与竞争-遴选架构的关系**：印迹细胞分配是"嵌套竞争-遴选架构"（[[competition-selection-principle]]）在细胞层次上的具体实例。
+
 ## 修订历史
 
 - 2026-05-31 · 创建 · 填补四个页面的高优先级悬空引用（ltp, hebbian-learning, dendritic-computation, place-cell）· 基于《印迹细胞的光子证明》文章 · 初始置信度：高
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；系统巩固框架补充：沉默印迹（Roy 2016）可能是被阻断系统巩固（突触权重未随时间恢复）的结果；皮层印迹的建立是系统巩固的细胞层面输出
+- 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"印迹细胞分配的竞争机制"小节，将 CREB 竞争纳入嵌套竞争-遴选架构；新增 [[competition-selection-principle]] 到 related 字段
 
 ## 来源文章
 

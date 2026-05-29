@@ -1,0 +1,165 @@
+# 运行日志 · 2026-06-06
+
+**文章编号**：#14（第二周综合）
+**运行时间**：2026-06-06 UTC+8
+**模式**：weekly_synthesis（每7篇写周综合）
+**分支**：main
+
+---
+
+## 0. 环境初始化
+
+- 同步 main 分支：成功（从 origin/main 拉取最新，包含 articles 1-13，wiki 38页）
+- ROUTINE.md：已读取并确认存在
+- KNOWLEDGE-BASE-DESIGN.md：已读取并确认存在
+- git 作者配置：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json 最新条目：2026-06-05（第13篇，前额叶工作记忆），last_updated=2026-06-05，total=13
+- 今日系统日期：2026-05-29（UTC+8），但仓库已有文章到 2026-06-05（在前序会话中提前生成）
+- **决策**：按知识库序列逻辑写第14篇（2026-06-06），为第二周综合（Articles 8-13）
+- unresolved_questions.md 最新条目：Q-wm-active-vs-silent 等（来自 2026-06-05）
+- contested_claims.json：open_count=2（C-2026-05-24-01 AIS GABA 极性；C-2026-05-25-01 SNARE 就绪态），今日无新矛盾
+- _graph.json：38 节点，182 边（update 前状态）
+
+---
+
+## B. 选题
+
+**选题方式**：weekly_synthesis（ROUTINE.md 规定：每7篇写周综合）
+
+- 第7篇（2026-05-30）：第一周综合（Articles 1-6）
+- **第14篇（2026-06-06）**：第二周综合（Articles 8-13）✅
+
+**综合目标**：整合第二周六篇文章的跨层统一原理
+
+**分析发现的统一主题**：嵌套竞争-遴选架构
+- 突触级：LTP/LTD 的 Ca²⁺ 浓度竞争（CaMKII vs Calcineurin）
+- 细胞级：印迹细胞的 CREB 竞争性分配
+- 回路级：PV+/SST+/VIP+ 时序门控与去抑制
+- 系统级：SWR 选择性重播（奖励/新颖度标记偏置）
+- 认知级：PFC 吸引子网络的工作记忆竞争
+
+---
+
+## C. 检索与来源
+
+**来源策略**：综合文章使用已在第二周六篇文章中建立的来源，不重新检索
+
+**已引用来源**（13条，见 sources/2026-06-06-sources.json）：
+- 开放全文：8 条（PMC）
+- 仅摘要：5 条（非开放获取）
+
+**关键开放全文来源**：
+1. Tonegawa et al. (2015) PMID:31896692 (PMC7577560) — 印迹综述
+2. Liu et al. (2012) PMID:22441246 (PMC3331914) — 光遗传印迹激活
+3. Roy et al. (2016) PMID:26982728 (PMC4847731) — AD 沉默印迹
+4. Dolphin & Lee (2020) PMID:31064106 (PMC6539076) — VGCC 综述
+5. Stickgold (2005) PMID:26238360 (PMC4526749) — 睡眠记忆巩固
+6. Tremblay et al. (2016) PMID:27477017 (PMC4980915) — 中间神经元综述
+7. Bhattacharyya (2009) PMID:19169250 (PMC2694745) — LTD 综述
+8. Lundqvist et al. (2016) PMID:26996084 (PMC5220584) — WM γ 爆发
+
+---
+
+## D. 固结步骤
+
+**今日触及的核心概念及 wiki 操作**：
+
+1. `competition-selection-principle`（嵌套竞争-遴选架构）
+   - 状态：不存在 → 新建
+   - 文件：wiki/concepts/competition-selection-principle.md
+   - status=emerging, confidence=medium
+   - 连接 10 个既有节点
+
+2. `engram-cells`（印迹细胞）
+   - 状态：已存在（revision_count=2）→ 修订
+   - 新增"印迹细胞分配的竞争机制"小节
+   - revision_count 2→3；related 新增 competition-selection-principle
+
+3. `memory-consolidation`（记忆巩固）
+   - 状态：已存在（revision_count=1）→ 修订
+   - 新增"系统巩固中的竞争遴选"小节，含 SHY 假说竞争解读
+   - revision_count 1→2；related 新增 competition-selection-principle
+
+4. `working-memory`（工作记忆）
+   - 状态：已存在（revision_count=1）→ 修订
+   - 新增"工作记忆容量的吸引子竞争机制"小节
+   - revision_count 1→2；related 新增 competition-selection-principle
+
+**矛盾检查**：无新矛盾。综合框架是分析性抽象，不与既有实证主张冲突。
+
+**成熟度更新**：
+- competition-selection-principle：新建，status=emerging（各层机制有独立实验证据，但跨层统一性是综合框架，非命名理论）
+
+---
+
+## E. 图谱与导航更新
+
+- _graph.json：节点 38→39，边 182→193（+11 from/to competition-selection-principle）
+- wiki/index.md：新增 competition-selection-principle 条目，更新第14篇记录，总数 38→39
+- wiki/CHANGELOG.md：追加 2026-06-06 节（新建1页，修订3页，新增边15条）
+
+---
+
+## F. 治理层更新
+
+- topic_ledger.json：追加第14篇条目，total_articles 13→14，last_updated→2026-06-06
+- unresolved_questions.md：新增 Q-competition-unified-mechanism（中优先级）、Q-soft-competition-limits（高优先级）
+- monthly_synthesis.md：追加本月第5行（2026-06-06），新增洞见 34-35，更新下月建议
+- source_registry.json：今日未添加新来源（综合文章复用已登记来源）
+
+---
+
+## G. 文章与 Wiki 文件清单
+
+**新建文件**（4）：
+- neuro-daily/articles/2026-06-06-week2-synthesis.md
+- neuro-daily/notes/2026-06-06-reading-notes.md
+- neuro-daily/sources/2026-06-06-sources.json
+- neuro-daily/wiki/concepts/competition-selection-principle.md
+
+**修订文件**（7）：
+- neuro-daily/wiki/concepts/engram-cells.md（revision 2→3）
+- neuro-daily/wiki/concepts/memory-consolidation.md（revision 1→2）
+- neuro-daily/wiki/concepts/working-memory.md（revision 1→2）
+- neuro-daily/wiki/_graph.json（节点 38→39，边 182→193）
+- neuro-daily/wiki/index.md（总数 38→39，新增第14篇记录）
+- neuro-daily/wiki/CHANGELOG.md（追加今日节）
+- neuro-daily/state/topic_ledger.json（追加第14篇）
+- neuro-daily/state/unresolved_questions.md（+2新问题）
+- neuro-daily/state/monthly_synthesis.md（更新本月洞见和展望）
+
+---
+
+## H. 自检结果
+
+**真实性**：
+- ✅ wiki 每条新主张有来源（竞争-遴选框架的各层均引用具体 PMID）
+- ✅ 明确区分了分析框架（emerging, medium confidence）与已命名理论
+- ✅ 未把动物研究（光遗传印迹实验）直接外推为人类结论；人类证据限制已在文章中明确说明
+
+**一致性**：
+- ✅ 无新矛盾（综合框架是分析性抽象，不与既有内容冲突）
+- ✅ 被修订页的 updated/revision_count/修订历史均已同步
+- ✅ _graph.json 新边对应的所有节点均已存在（无悬空边）
+
+**可导航**：
+- ✅ index.md 反映了今天的变化（新页面、第14篇记录、总数更新）
+- ✅ CHANGELOG.md 追加了今日完整节
+- ✅ 新页 competition-selection-principle 的 related/prerequisites 各≥1
+
+**情景层完整**：
+- ✅ 文章/笔记/来源/日志齐全（均为新建）
+- ✅ 未修改任何旧文章/笔记/来源/日志文件
+
+---
+
+## push 状态
+
+**分支**：main
+**commit message**：Add neuro daily article + wiki consolidation for 2026-06-06
+**push**：待执行

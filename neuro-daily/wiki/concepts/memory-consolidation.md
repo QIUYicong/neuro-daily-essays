@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-06-02
-revision_count: 1
+updated: 2026-06-06
+revision_count: 2
 dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-shy-vs-active-consolidation, Q-rem-sleep-role]
 source_articles: [2026-06-02-memory-consolidation-systems]
@@ -126,9 +126,25 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 - Q-shy-vs-active-consolidation：突触稳态假说（SHY）与主动系统巩固如何在同一睡眠中并行？
 - Q-rem-sleep-role：REM 睡眠在系统巩固中的精确角色（辅助 vs 必需）
 
+## 系统巩固中的竞争遴选
+
+（2026-06-06 新增：竞争-遴选框架整合）
+
+SWR 期间不是全量重播所有当天记忆，而是对记忆进行选择性重播，这是系统级竞争遴选的体现：
+
+- **竞争者**：当天所有编码的记忆痕迹
+- **胜出标准**：突触权重强度（高权重/高兴奋性的印迹细胞更易被 CA3 自发活动激活）× 奖励/新颖度标记（多巴胺/NE 调制）
+- **胜出结果**：被选择重播 → 重复激活皮层 → 皮层侧 LTP 逐渐积累 → 长期皮层巩固
+- **未选中结果**：突触权重随时间缓慢降低（正常遗忘），但印迹拓扑可能保留（沉默印迹，Roy et al. 2016）
+
+SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的系统级竞争：睡眠中所有突触权重均匀下调，但由于"保底值"效应，最强的印迹（权重高）能在下调后仍保持高于噪声阈值，从而"活过"遗忘压力。这与主动系统巩固（SWR 选择性增强）并不矛盾，可能是同一睡眠中不同 NREM/REM 阶段的互补功能。
+
+**与竞争-遴选架构的关系**：系统巩固的选择性是"嵌套竞争-遴选架构"（[[competition-selection-principle]]）在系统层次上的具体实例。
+
 ## 修订历史
 
 - 2026-06-02 · 创建 · 基于《记忆的夜间旅行》文章 · 填补了 hippocampal-circuit、sharp-wave-ripples、place-cell、engram-cells 共4个页面的最高优先级悬空引用 · 初始置信度：高
+- 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"系统巩固中的竞争遴选"小节；新增 SHY 假说作为竞争-遴选的极端形式；added [[competition-selection-principle]] to related
 
 ## 来源文章
 

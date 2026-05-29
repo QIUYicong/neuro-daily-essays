@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-05",
-  "total_articles": 13,
+  "last_updated": "2026-06-06",
+  "total_articles": 14,
   "entries": [
     {
       "date": "2026-05-24",
@@ -910,6 +910,70 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 13
+    },
+    {
+      "date": "2026-06-06",
+      "title": "第二周综合：竞争法则——大脑如何在五个层次上通过竞争与遴选构建精简的世界模型",
+      "filename": "2026-06-06-week2-synthesis.md",
+      "article_type": "weekly_synthesis",
+      "wiki_pages_created": [
+        "wiki/concepts/competition-selection-principle.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/engram-cells.md",
+        "wiki/concepts/memory-consolidation.md",
+        "wiki/concepts/working-memory.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "第二周六篇文章（印迹细胞、VGCC、记忆巩固、抑制性中间神经元、LTD、工作记忆）之间是否有统一的计算逻辑？答：嵌套竞争-遴选架构——大脑在突触/细胞/回路/系统/认知五层均以竞争实现稀疏遴选，决定什么值得记住。",
+      "layer": [
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "综合篇·第二周（课程主线 4+5 交汇，含 1、2 支线）",
+      "topic_tags": [
+        "weekly synthesis",
+        "competition and selection",
+        "nested competition-selection architecture",
+        "engram cell allocation",
+        "CREB competition",
+        "BCM sliding threshold",
+        "LTP LTD bidirectional",
+        "inhibitory gating",
+        "VIP disinhibition",
+        "SWR selective replay",
+        "attractor competition",
+        "working memory capacity",
+        "soft competition",
+        "silent engram",
+        "synaptic homeostasis"
+      ],
+      "main_sources": [
+        "PMID:31896692 (PMC7577560)",
+        "PMID:22441246 (PMC3331914)",
+        "PMID:26982728 (PMC4847731)",
+        "PMID:31064106 (PMC6539076)",
+        "PMID:26238360 (PMC4526749)",
+        "PMID:27477017 (PMC4980915)",
+        "PMID:19169250 (PMC2694745)",
+        "PMID:26996084 (PMC5220584)"
+      ],
+      "unresolved_questions": [
+        "Q-competition-unified-mechanism：五层竞争机制是否有统一的分子/电路实现？",
+        "Q-soft-competition-limits：软竞争的极限在哪里？晚期AD中是否存在信息真正被擦除的临界点？"
+      ],
+      "next_suggested_topics": [
+        "短时程突触可塑性（STP）：突触易化（Syt7）与抑制（囊泡耗竭）——与活动无声WM直接相关；Syt7 悬空引用待填（被5个页面引用）",
+        "注意的神经机制：前额叶→感觉皮层的自上而下调控（延续工作记忆/认知控制主题）",
+        "阿尔茨海默病（disease层首篇）：Aβ寡聚体如何劫持LTD机制造成突触损害，以及沉默印迹与AD早期遗忘的关系",
+        "三因素学习规则（多巴胺×Hebb）：连接VIP去抑制与奖励信号，填补 three-factor-learning-rule 悬空引用"
+      ],
+      "mode": "weekly_synthesis",
+      "article_number": 14,
+      "note": "第二周综合：整合文章 8-13；引入嵌套竞争-遴选架构框架，与第一周的嵌套时间编码层级互补，共同构成记忆系统的完整描述骨架。"
     }
   ],
   "layer_coverage_recent": {

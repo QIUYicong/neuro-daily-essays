@@ -6,10 +6,10 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-05
-revision_count: 1
+updated: 2026-06-06
+revision_count: 2
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation]
+related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
 source_articles: [2026-06-05-prefrontal-working-memory]
@@ -72,9 +72,25 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - Q-wm-pfc-content-vs-control：PFC 究竟是"内容存储器"还是"调度控制中心"？
 - Q-wm-human-specificity：人类 dlPFC 是否有特有的工作记忆机制？
 
+## 工作记忆容量的吸引子竞争机制
+
+（2026-06-06 新增：竞争-遴选框架整合）
+
+约 4 项的工作记忆容量限制不是偶然数字，而是 dlPFC 吸引子网络竞争动态的物理结果：
+
+- **竞争者**：同时进入 dlPFC 的多个信息项目（每个对应一个潜在吸引子状态）
+- **竞争机制**：PV+ 中间神经元介导的相互抑制——激活吸引子 A 的神经元集群通过 PV+ 细胞抑制吸引子 B 的集群
+- **容量限制来源**（两种假说，尚争议）：
+  - 假说1：θ/γ 嵌套约束——每个 θ 周期（~125 ms）可承载 4–7 个 γ 爆发（~25 ms/个），每个 γ 表征一个项目
+  - 假说2：吸引子间竞争干扰——超过约 4 个活跃吸引子时，相互抑制压力使所有吸引子不稳定
+- **"软竞争"特性**：被淘汰的吸引子并非消失，而是以突触 STP 易化的活动无声形式静默保存（Mongillo et al. 2008）；当主动吸引子被清空时，静默项目可重新激活——这是 WM 更新（swap）的机制
+
+**与竞争-遴选架构的关系**：工作记忆是"嵌套竞争-遴选架构"（[[competition-selection-principle]]）在认知层次上的典型实例，容量限制即竞争机制的物理上限。
+
 ## 修订历史
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文 · 初始置信度：高
+- 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"工作记忆容量的吸引子竞争机制"小节；明确 θ/γ 嵌套约束与吸引子竞争两种容量限制假说；added [[competition-selection-principle]] to related
 
 ## 来源文章
 

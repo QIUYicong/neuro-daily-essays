@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-05",
-  "node_count": 38,
-  "edge_count": 182,
+  "updated": "2026-06-06",
+  "node_count": 39,
+  "edge_count": 193,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -346,6 +346,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/prefrontal-cortex.md"
+    },
+    {
+      "id": "competition-selection-principle",
+      "title": "嵌套竞争-遴选架构",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/competition-selection-principle.md"
     }
   ],
   "edges": [
@@ -530,7 +539,21 @@
     {"from": "gamma-oscillations", "to": "prefrontal-cortex", "type": "related", "note": "dlPFC 中 γ 爆发是工作记忆的振荡载体；精神分裂症中 γ 减弱"},
     {"from": "prefrontal-cortex", "to": "working-memory", "type": "related", "note": "dlPFC 是工作记忆维持的关键脑区"},
     {"from": "prefrontal-cortex", "to": "pv-interneurons", "type": "related", "note": "dlPFC PV 篮状细胞产生 γ，调控工作记忆时序"},
-    {"from": "prefrontal-cortex", "to": "memory-consolidation", "type": "related", "note": "PFC 是记忆巩固后远端记忆的皮层存储库"}
+    {"from": "prefrontal-cortex", "to": "memory-consolidation", "type": "related", "note": "PFC 是记忆巩固后远端记忆的皮层存储库"},
+    {"from": "competition-selection-principle", "to": "ltp", "type": "related", "note": "LTP 是突触级竞争中的强化方向（高 Ca²⁺ → CaMKII 胜出）"},
+    {"from": "competition-selection-principle", "to": "ltd", "type": "related", "note": "LTD 是突触级竞争中的减弱方向（低 Ca²⁺ → calcineurin 胜出）"},
+    {"from": "competition-selection-principle", "to": "engram-cells", "type": "mechanism-of", "note": "印迹细胞的 CREB 竞争分配是细胞级竞争-遴选的典型实例"},
+    {"from": "competition-selection-principle", "to": "memory-consolidation", "type": "mechanism-of", "note": "睡眠 SWR 选择性重播是系统级竞争-遴选的实现"},
+    {"from": "competition-selection-principle", "to": "pv-interneurons", "type": "related", "note": "PV+ 中间神经元的时序门控是回路级竞争-遴选的主要执行者"},
+    {"from": "competition-selection-principle", "to": "sst-interneurons", "type": "related", "note": "SST+ 中间神经元的树突门控是回路级竞争-遴选的重要组成"},
+    {"from": "competition-selection-principle", "to": "vip-interneurons", "type": "related", "note": "VIP+ 去抑制回路是竞争-遴选的'开关'：在显著性信号时打开遴选门"},
+    {"from": "competition-selection-principle", "to": "working-memory", "type": "mechanism-of", "note": "工作记忆容量限制（约4项）是认知级吸引子竞争的物理结果"},
+    {"from": "competition-selection-principle", "to": "sharp-wave-ripples", "type": "related", "note": "SWR 是竞争-遴选架构的系统级执行机制"},
+    {"from": "competition-selection-principle", "to": "temporal-coding-hierarchy", "type": "related", "note": "竞争-遴选架构（决定选什么）与时间编码层级（决定何时编码）是互补的两个统一框架"},
+    {"from": "engram-cells", "to": "competition-selection-principle", "type": "related", "note": "印迹细胞分配是嵌套竞争-遴选架构在细胞层次的具体实例"},
+    {"from": "memory-consolidation", "to": "competition-selection-principle", "type": "related", "note": "睡眠选择性巩固是嵌套竞争-遴选架构在系统层次的具体实例"},
+    {"from": "working-memory", "to": "competition-selection-principle", "type": "related", "note": "工作记忆吸引子竞争是嵌套竞争-遴选架构在认知层次的具体实例"},
+    {"from": "temporal-coding-hierarchy", "to": "competition-selection-principle", "type": "related", "note": "嵌套竞争-遴选架构与时间编码层级互补：前者定义选什么，后者定义何时和如何"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
