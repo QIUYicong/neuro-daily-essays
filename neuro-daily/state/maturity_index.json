@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-01",
+  "last_updated": "2026-06-02",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -183,9 +183,9 @@
       "slug": "sharp-wave-ripples",
       "status": "established",
       "confidence": "high",
-      "supporting_sources": 3,
+      "supporting_sources": 5,
       "last_status_change": "2026-05-29",
-      "reason": "创建 2026-05-29。SWR的生成机制（CA3循环兴奋→CA1涟漪）和时间特征（110-200 Hz，40-100 ms，2-4/s）由多电极记录和CSD分析充分建立。序列重播的功能证据（Bayesian解码）和选择性干扰的因果证据均来自高质量实验。主要不确定性：SWR→皮层记忆巩固的精确分子机制；前向/反向/新颖路径重播的功能分工。整体：established（现象和基本机制），但远期皮层后果的机制仍在建立中。"
+      "reason": "创建 2026-05-29；2026-06-02 修订：[[memory-consolidation]] 页面建立，SWR 与系统巩固的三重奏嵌套（SO-spindle-SWR）机制得到充分记录；因果破坏实验（Ego-Stengel 2010, Jadhav 2012）补充为关键来源；supporting_sources 3→5，成熟度不变（established）。"
     },
     {
       "slug": "phase-precession",
@@ -226,6 +226,14 @@
       "supporting_sources": 6,
       "last_status_change": "2026-06-01",
       "reason": "创建 2026-06-01。CaV1/CaV2/CaV3三亚家族的α1亚基结构（4域、S4电压传感器、S5-S6孔道）是Catterall等数十年晶体学+电生理+遗传研究的共识（诺贝尔奖级机制）。纳米域耦合（<100 nm）有BAPTA/EGTA差异实验（多实验室独立验证）直接证明。L型通道驱动BTSP平台电位（73%贡献，nimodipine阻断实验，Bittner 2017 Science）和LTP（CaV1.2 cKO实验，Sridharan 2020）均有遗传+药理+电生理多维证据。主要不确定性：CaV1.2 vs CaV1.3在不同树突区室的精确功能分工；纳米域耦合是否在所有快速突触（非脑干calyx特异）中普遍适用；CaV3（T型）在某些突触前的贡献机制。整体：established，不确定性在具体亚型功能分工层面而非核心机制。"
+    },
+    {
+      "slug": "memory-consolidation",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-06-02",
+      "reason": "创建 2026-06-02。系统巩固的现象学（时间梯度逆行遗忘、海马-皮层激活转移）有 H.M. 等病例研究 + 多物种影像学 + 电生理的强证据；SWR 因果作用有闭环破坏实验多个独立验证（Ego-Stengel 2010, Jadhav 2012 等）；SO-spindle-SWR 时间耦合有多通道 LFP 和干预实验支持。主要不确定性：SCT vs MTT 争论（情景记忆是否终生依赖海马）；SHY 与主动系统巩固的整合；REM 的精确功能。核心机制 established，但理论框架层面有重要开放问题。"
     }
   ]
 }

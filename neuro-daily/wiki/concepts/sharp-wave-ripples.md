@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-05-29
-revision_count: 1
+updated: 2026-06-02
+revision_count: 2
 dimensions: [whole-brain-network, brain-region, cellular, behavior, cognition]
 related: [hippocampal-circuit, place-cell, theta-oscillations, memory-consolidation, ltp, hebbian-learning]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cell]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -102,6 +102,7 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 ## 修订历史
 
 - 2026-05-29 · 创建 · 基于《θ振荡与相位编码》文章 · 填补了 memory-consolidation 悬空引用 · 初始置信度：高
+- 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；补充 SO-spindle-SWR 三重奏嵌套机制与因果破坏证据 · 关键来源增加 PMID:26238360、PMID:23589831
 
 ## 来源文章
 

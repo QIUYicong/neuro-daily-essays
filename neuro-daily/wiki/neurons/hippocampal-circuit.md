@@ -6,8 +6,8 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-31
-revision_count: 3
+updated: 2026-06-02
+revision_count: 4
 dimensions: [brain-region, microcircuit, cognition]
 related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation]
 prerequisites: [synaptic-transmission, ltp, action-potential]
@@ -129,9 +129,11 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"海马两种工作模式"（θ态/SWR态）章节；新增 SWR 生成和重播机制；新增 key_sources
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：DG 是印迹细胞分配竞争的主要场所（2–4% 稀疏活动→高正交性）；DG→CA3→CA1→BLA 印迹间优先连接链的描述；连接增加 [[engram-cells]]
+- 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；填补 Q-hippocampal-consolidation-mechanism 的核心内容（SO-spindle-SWR三重奏、ACh 双模式开关、两阶段模型）
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
 - [[2026-05-29-theta-oscillations-phase-coding]]
 - [[2026-05-31-engram-cells-optogenetic-proof]]
+- [[2026-06-02-memory-consolidation-systems]]

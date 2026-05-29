@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01",
+  "last_updated": "2026-06-02",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -708,6 +708,108 @@
       "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
       "note": "摘要可及，未读全文",
       "aspects_covered": ["single channel opening can trigger transmitter release", "~23 Ca2+ channels per presynaptic terminal", "1-7 channels open per action potential on average", "channel number correlates with docked vesicle count"]
+    },
+    {
+      "pmid": "26238360",
+      "pmcid": "PMC4526749",
+      "title": "Memory Consolidation",
+      "authors_short": "Squire LR, Genzel L, Wixted JT, Morris RG",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2015,
+      "first_used": "2026-06-02",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
+      "aspects_covered": ["SCT vs MTT comparison", "SWR replay mechanism", "temporal gradient retrograde amnesia", "HM case study", "sleep spindle-SWR temporal coupling", "fMRI consolidation evidence", "cortical memory trace formation"]
+    },
+    {
+      "pmid": "23589831",
+      "pmcid": "PMC3768102",
+      "title": "About Sleep's Role in Memory",
+      "authors_short": "Rasch B, Born J",
+      "journal": "Physiological Reviews",
+      "year": 2013,
+      "first_used": "2026-06-02",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
+      "aspects_covered": ["active system consolidation concept", "SO-spindle-SWR nesting", "SWS vs REM for declarative memory", "acetylcholine bidirectional switch", "selective consolidation", "olfactory cueing during SWS experiment"]
+    },
+    {
+      "pmid": "8036517",
+      "pmcid": null,
+      "title": "Reactivation of hippocampal ensemble memories during sleep",
+      "authors_short": "Wilson MA, McNaughton BL",
+      "journal": "Science",
+      "year": 1994,
+      "first_used": "2026-06-02",
+      "full_text_available": false,
+      "note": "历史性论文，无开放全文；仅读摘要",
+      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
+      "aspects_covered": ["first direct evidence of sleep replay", "CA1 place cell pairs cross-correlogram", "sleep reactivation temporal decay"]
+    },
+    {
+      "pmid": "7624455",
+      "pmcid": null,
+      "title": "Why there are complementary learning systems in the hippocampus and neocortex",
+      "authors_short": "McClelland JL, McNaughton BL, O'Reilly RC",
+      "journal": "Psychological Review",
+      "year": 1995,
+      "first_used": "2026-06-02",
+      "full_text_available": false,
+      "note": "历史性论文，无开放全文；仅读摘要",
+      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
+      "aspects_covered": ["CLS model", "hippocampus fast learner", "neocortex slow learner", "catastrophic forgetting", "interleaved replay solution"]
+    },
+    {
+      "pmid": "15685217",
+      "pmcid": null,
+      "title": "The organization of recent and remote memories",
+      "authors_short": "Frankland PW, Bontempi B",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2005,
+      "first_used": "2026-06-02",
+      "full_text_available": false,
+      "note": "未读全文，仅读摘要",
+      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
+      "aspects_covered": ["anterior cingulate cortex remote memory", "cortical consolidation anatomy", "temporal gradient animal lesion studies"]
+    },
+    {
+      "pmid": "19816984",
+      "pmcid": null,
+      "title": "Disruption of ripple-associated hippocampal activity during rest impairs spatial learning in the rat",
+      "authors_short": "Ego-Stengel V, Wilson MA",
+      "journal": "Hippocampus",
+      "year": 2010,
+      "first_used": "2026-06-02",
+      "full_text_available": false,
+      "note": "未读全文，仅读摘要",
+      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
+      "aspects_covered": ["sleep SWR disruption", "spatial memory impairment", "causal evidence for SWR in consolidation", "closed-loop stimulation"]
+    },
+    {
+      "pmid": "22555434",
+      "pmcid": null,
+      "title": "Awake hippocampal sharp-wave ripples support spatial memory",
+      "authors_short": "Jadhav SP, Kemere C, German PW, Frank LM",
+      "journal": "Science",
+      "year": 2012,
+      "first_used": "2026-06-02",
+      "full_text_available": false,
+      "note": "未读全文，仅读摘要",
+      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
+      "aspects_covered": ["awake SWR disruption", "spatial working memory impairment", "place field integrity preserved", "memory integration vs place field maintenance"]
+    },
+    {
+      "pmid": "32248785",
+      "pmcid": null,
+      "title": "Effects of sleep and waking on the synaptic ultrastructure",
+      "authors_short": "Cirelli C",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 2020,
+      "first_used": "2026-06-02",
+      "full_text_available": false,
+      "note": "未读全文，仅读摘要",
+      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
+      "aspects_covered": ["SHY hypothesis evidence", "SBEM axon-spine interface smaller after sleep", "synaptic renormalization ultrastructure"]
     }
   ]
 }

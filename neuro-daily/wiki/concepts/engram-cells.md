@@ -6,8 +6,8 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-05-31
-revision_count: 1
+updated: 2026-06-02
+revision_count: 2
 dimensions: [cellular, brain-region, behavior, cognition]
 related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
@@ -94,7 +94,9 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 ## 修订历史
 
 - 2026-05-31 · 创建 · 填补四个页面的高优先级悬空引用（ltp, hebbian-learning, dendritic-computation, place-cell）· 基于《印迹细胞的光子证明》文章 · 初始置信度：高
+- 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；系统巩固框架补充：沉默印迹（Roy 2016）可能是被阻断系统巩固（突触权重未随时间恢复）的结果；皮层印迹的建立是系统巩固的细胞层面输出
 
 ## 来源文章
 
 - [[2026-05-31-engram-cells-optogenetic-proof]]
+- [[2026-06-02-memory-consolidation-systems]]

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-01",
-  "node_count": 26,
-  "edge_count": 120,
+  "updated": "2026-06-02",
+  "node_count": 27,
+  "edge_count": 136,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -238,6 +238,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/voltage-gated-calcium-channels.md"
+    },
+    {
+      "id": "memory-consolidation",
+      "title": "记忆巩固（系统层面）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/memory-consolidation.md"
     }
   ],
   "edges": [
@@ -358,7 +367,22 @@
     {"from": "voltage-gated-calcium-channels", "to": "action-potential", "type": "related", "note": "动作电位的去极化波触发CaV2.1/2.2在突触前终末开放；反向传播AP（bAP）也激活树突中的L型通道"},
     {"from": "voltage-gated-calcium-channels", "to": "camkii", "type": "regulates", "note": "CaV1.2开放产生的Ca²⁺经CaM激活CaMKII；另外自磷酸化CaMKII反向结合CaV2.1增强其活性（效应器检查点）"},
     {"from": "action-potential", "to": "voltage-gated-calcium-channels", "type": "mechanism-of", "note": "突触前动作电位到达（局部去极化）是CaV2.1/2.2开放的触发信号"},
-    {"from": "ltp", "to": "voltage-gated-calcium-channels", "type": "prerequisite-for", "note": "理解LTP的Ca²⁺来源需先理解电压门控钙通道（L型通道是LTP所需核Ca²⁺的主要来源之一）"}
+    {"from": "ltp", "to": "voltage-gated-calcium-channels", "type": "prerequisite-for", "note": "理解LTP的Ca²⁺来源需先理解电压门控钙通道（L型通道是LTP所需核Ca²⁺的主要来源之一）"},
+    {"from": "memory-consolidation", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "SWR 是系统巩固的物理执行机制：CA3→CA1 群体重播在50ms内以20倍速传递海马记忆信号至新皮层"},
+    {"from": "memory-consolidation", "to": "hippocampal-circuit", "type": "mechanism-of", "note": "海马三突触回路（DG→CA3→CA1→EC→皮层）是系统巩固信息流的解剖通道"},
+    {"from": "memory-consolidation", "to": "ltp", "type": "mechanism-of", "note": "皮层侧记忆痕迹建立通过 LTP 型突触增强实现；SWR 反复激活→Hebb 型→皮层突触权重增加"},
+    {"from": "memory-consolidation", "to": "theta-oscillations", "type": "related", "note": "θ（第一阶段，编码）与 SWR（第二阶段，巩固）是系统巩固两阶段模型的两个半程"},
+    {"from": "memory-consolidation", "to": "engram-cells", "type": "related", "note": "系统巩固将海马印迹转写/复制至皮层印迹；沉默印迹可能代表系统巩固被阻断（权重未随时间恢复）的状态"},
+    {"from": "memory-consolidation", "to": "place-cell", "type": "related", "note": "场所细胞序列是 SWR 重播的具体内容；场所细胞是海马侧记忆的细胞基础"},
+    {"from": "memory-consolidation", "to": "hebbian-learning", "type": "mechanism-of", "note": "系统巩固通过 SWR 驱动的反复 Hebb 激活在皮层建立长期记忆——Hebb 规则在全脑网络时间尺度的体现"},
+    {"from": "memory-consolidation", "to": "btsp", "type": "related", "note": "BTSP（第一阶段，单次快速写入）与系统巩固（第二阶段，多夜慢速皮层化）是记忆从行为经历到长期存储的两个必要步骤"},
+    {"from": "sharp-wave-ripples", "to": "memory-consolidation", "type": "mechanism-of", "note": "SWR 是系统巩固的物理载体：离线重播驱动海马→皮层信息转移"},
+    {"from": "hippocampal-circuit", "to": "memory-consolidation", "type": "related", "note": "海马回路（特别是 CA3 循环连接→CA1 SWR）是系统巩固的发生场所"},
+    {"from": "engram-cells", "to": "memory-consolidation", "type": "related", "note": "系统巩固将海马印迹复制至皮层，形成分布式皮层印迹；光遗传恢复沉默印迹可能通过人工触发类 SWR 机制"},
+    {"from": "place-cell", "to": "memory-consolidation", "type": "related", "note": "场所细胞序列在 SWR 重播期间被传递至皮层，是海马侧记忆巩固输入的内容"},
+    {"from": "ltp", "to": "memory-consolidation", "type": "related", "note": "皮层 LTP 是系统巩固的最终分子机制；SWR 重播触发皮层 Hebb 激活 → 皮层 LTP → 长期记忆痕迹"},
+    {"from": "theta-oscillations", "to": "memory-consolidation", "type": "related", "note": "θ（编码/第一阶段）与 SWR（巩固/第二阶段）是两阶段记忆巩固模型中互补的海马工作模式"},
+    {"from": "temporal-coding-hierarchy", "to": "memory-consolidation", "type": "related", "note": "系统巩固是嵌套时间编码层级中最慢的一层（天—年尺度），通过 SWR 离线重播实现最终皮层化"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -371,7 +395,7 @@
     {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议，待建页面"},
     {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
     {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},
-    {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples"], "note": "记忆巩固，海马SWR重放→皮层系统巩固机制；今日新增 sharp-wave-ripples 页面已对其内容进行了大量覆盖，但专门的 memory-consolidation 页面仍待建立（涵盖系统巩固、睡眠阶段、皮层侧的LTP等）"},
+    {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples", "engram-cells"], "note": "已于2026-06-02创建 wiki/concepts/memory-consolidation.md 页面", "resolved": "2026-06-02"},
     {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"}
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-01",
-  "total_articles": 9,
+  "last_updated": "2026-06-02",
+  "total_articles": 10,
   "entries": [
     {
       "date": "2026-05-24",
@@ -563,6 +563,81 @@
       "mode": "long_term_curriculum",
       "article_number": 9,
       "dangling_reference_filled": "calcium-channel（填补了 synaptotagmin、active-zone、btsp、dendritic-computation、ltp、synaptic-transmission 共 6 个页面的高优先级悬空引用；新 slug 为 voltage-gated-calcium-channels）"
+    },
+    {
+      "date": "2026-06-02",
+      "title": "系统层面记忆巩固：大脑如何在睡眠中将短暂印迹转化为永久知识",
+      "filename": "2026-06-02-memory-consolidation-systems.md",
+      "wiki_pages_created": [
+        "wiki/concepts/memory-consolidation.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/sharp-wave-ripples.md",
+        "wiki/neurons/hippocampal-circuit.md",
+        "wiki/concepts/engram-cells.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "睡眠期间海马-新皮层对话如何实现系统层面记忆巩固？SO-spindle-SWR三重耦合的分子机制与标准巩固理论（SCT）vs 多重痕迹理论（MTT）之争：皮层是否真的独立于海马重建情节记忆？",
+      "layer": ["全脑网络", "行为", "认知"],
+      "curriculum_track": "4. 学习和记忆（系统巩固·睡眠依赖记忆）",
+      "topic_tags": [
+        "memory consolidation",
+        "systems consolidation",
+        "sleep-dependent memory",
+        "slow oscillation",
+        "sleep spindle",
+        "sharp wave ripples",
+        "SO-spindle-SWR coupling",
+        "hippocampal-cortical dialogue",
+        "two-stage model",
+        "Buzsáki",
+        "CLS model",
+        "McClelland",
+        "standard consolidation theory",
+        "SCT",
+        "multiple trace theory",
+        "MTT",
+        "SHY hypothesis",
+        "synaptic homeostasis",
+        "Tononi",
+        "Cirelli",
+        "experience replay",
+        "cortical LTP",
+        "downscaling",
+        "retrograde amnesia",
+        "remote memory",
+        "NREM sleep",
+        "REM sleep"
+      ],
+      "main_sources": [
+        "PMID:26238360 (PMC4526749)",
+        "PMID:23589831 (PMC3768102)",
+        "PMID:26135716 (PMC4648295)",
+        "PMID:8036517 (abstract only)",
+        "PMID:7624455 (abstract only)",
+        "PMID:17554300 (abstract only)",
+        "PMID:19744625 (abstract only)",
+        "PMID:28649491 (abstract only)",
+        "PMID:22048235 (abstract only)",
+        "PMID:30086243 (abstract only)",
+        "PMID:34407252 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-memory-consolidation-sct-mtt",
+        "Q-consolidation-selectivity",
+        "Q-shy-vs-active-consolidation",
+        "Q-rem-sleep-role"
+      ],
+      "next_suggested_topics": [
+        "抑制性中间神经元多样性：PV+/SST+/VIP+ 如何在 SO-spindle-SWR 三重耦合中协调海马-皮层对话（microcircuit 层填补）",
+        "LTD（长时程抑制）：mGluR-LTD、AMPA 受体内吞、去磷酸化酶（LTP 的对称补充，填补突触机制空缺）",
+        "前额叶皮层与工作记忆：远端记忆的皮层存储机制（延续今日 SCT/MTT 议题）",
+        "睡眠与神经退行性疾病：SWR 障碍与阿尔茨海默病 β-淀粉样蛋白清除（disease 层填补）",
+        "短时程突触可塑性：易化与抑制的分子机制（突触层填补，与钙通道直接衔接）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 10,
+      "dangling_reference_filled": "memory-consolidation（填补了 sharp-wave-ripples、hippocampal-circuit、ltp、engram-cells 共 4 个页面的最高优先级悬空引用）"
     }
   ],
   "layer_coverage_recent": {
@@ -571,11 +646,11 @@
     "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28", "2026-06-01"],
     "microcircuit": ["2026-05-27"],
     "brain_region": ["2026-05-27", "2026-05-28"],
-    "whole_brain_network": ["2026-05-29", "2026-05-30"],
-    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31"],
-    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31"],
+    "whole_brain_network": ["2026-05-29", "2026-05-30", "2026-06-02"],
+    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31", "2026-06-02"],
+    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31", "2026-06-02"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-06-01（电压门控钙通道）：分子+细胞+突触层。第二周第2篇，填补最高优先级悬空引用 calcium-channel（被6个页面引用）。层级均衡恢复：前3天连续 behavior/cognition，今日回归 molecular/synaptic。下一建议：记忆巩固（系统层面）→ whole-brain-network 层深挖（memory-consolidation 现为最高优先级悬空引用，被4个页面引用），或抑制性中间神经元（microcircuit 层）→ PV+/SST+/VIP+ 多样性。"
+  "layer_note": "2026-06-02（记忆巩固·系统层面）：全脑网络+行为+认知层。第二周第3篇，填补最高优先级悬空引用 memory-consolidation（被4个页面引用）。层级均衡提升：whole-brain-network 深化（双阶段模型、SO-spindle-SWR三重耦合、SCT vs MTT）。下一建议：抑制性中间神经元多样性（microcircuit 层填补）或 LTD（突触层补充，与 LTP 形成对称）。"
 }
