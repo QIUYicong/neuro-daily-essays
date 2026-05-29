@@ -1,0 +1,122 @@
+{
+  "date": "2026-05-31",
+  "article": "2026-05-31-engram-cells-optogenetic-proof.md",
+  "search_strategy": {
+    "queries": [
+      "engram cells memory optogenetics hippocampus",
+      "Josselyn Tonegawa engram memory 2020",
+      "Liu Ramirez Pang optogenetic engram 2012 Nature",
+      "Ryan Roy anisomycin retrograde amnesia engram cells 2015",
+      "Roy Arons Alzheimer engram cells optogenetics 2016"
+    ],
+    "databases": ["PubMed E-utilities", "PMC Open Access"],
+    "tools": ["NCBI ESearch", "NCBI ESummary", "PMC full text via WebFetch"]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Memory engrams: Recalling the past and imagining the future",
+      "authors": ["Josselyn SA", "Tonegawa S"],
+      "journal": "Science",
+      "year": 2020,
+      "pmid": "31896692",
+      "pmcid": "PMC7577560",
+      "doi": "10.1126/science.aaw4325",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7577560/",
+      "relevance": "主要来源：印迹细胞三条认定标准、竞争性分配机制、印迹间优先连接、沉默印迹综述、AD模型综合讨论",
+      "sections_used": ["Introduction", "Criteria for engram cells", "Engram allocation", "Silent engrams", "Future directions"],
+      "coverage": ["定义与标准", "竞争性分配", "印迹间连接", "开放问题", "人类证据现状"]
+    },
+    {
+      "id": "S2",
+      "title": "Optogenetic stimulation of a hippocampal engram activates fear memory recall",
+      "authors": ["Liu X", "Ramirez S", "Pang PT", "Puryear CB", "Govindarajan A", "Deisseroth K", "Tonegawa S"],
+      "journal": "Nature",
+      "year": 2012,
+      "pmid": "22441246",
+      "pmcid": "PMC3331914",
+      "doi": "10.1038/nature11028",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3331914/",
+      "relevance": "主要来源：首次用光遗传学激活海马印迹细胞重现恐惧记忆（充分性证据）",
+      "sections_used": ["Abstract", "Results", "Methods", "Discussion"],
+      "coverage": ["c-Fos-tTA标记系统", "Dox控制时间窗", "双侧ChR2激活→35%冻结", "剂量效应", "充分性vs必要性"]
+    },
+    {
+      "id": "S3",
+      "title": "Engram cells retain memory under retrograde amnesia",
+      "authors": ["Ryan TJ", "Roy DS", "Pignatelli M", "Arons A", "Tonegawa S"],
+      "journal": "Science",
+      "year": 2015,
+      "pmid": "26023136",
+      "pmcid": "PMC5583719",
+      "doi": "10.1126/science.aaa5542",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5583719/",
+      "relevance": "主要来源：沉默印迹概念的实验证明；存储与提取的分离；ANI遗忘后光遗传恢复记忆",
+      "sections_used": ["Abstract", "Results", "Discussion"],
+      "coverage": ["ANI诱导遗忘设计", "行为结果对比", "AMPA/NMDA比值测量", "树突棘密度", "印迹间连接保留", "定量冻结数据"]
+    },
+    {
+      "id": "S4",
+      "title": "Memory retrieval by activating engram cells in mouse models of early Alzheimer's disease",
+      "authors": ["Roy DS", "Arons A", "Mitchell TI", "Pignatelli M", "Ryan TJ", "Tonegawa S"],
+      "journal": "Nature",
+      "year": 2016,
+      "pmid": "26982728",
+      "pmcid": "PMC4847731",
+      "doi": "10.1038/nature17172",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4847731/",
+      "relevance": "主要来源：AD模型中沉默印迹；光遗传恢复AD记忆；光学LTP恢复树突棘密度和自然提取",
+      "sections_used": ["Abstract", "Results", "Methods", "Discussion"],
+      "coverage": ["APP/PS1模型", "STM正常LTM受损", "光遗传恢复LTM", "树突棘密度测量", "光学LTP干预"]
+    },
+    {
+      "id": "S5",
+      "title": "Creating a false memory in the hippocampus",
+      "authors": ["Ramirez S", "Liu X", "Lin PA", "Suh J", "Pignatelli M", "Redondo RL", "Ryan TJ", "Tonegawa S"],
+      "journal": "Science",
+      "year": 2013,
+      "pmid": "23888038",
+      "pmcid": null,
+      "doi": "10.1126/science.1239073",
+      "full_text_available": false,
+      "access_method": "PubMed abstract only",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23888038/",
+      "note": "未读取全文；仅使用摘要内容",
+      "relevance": "关键对照：虚假记忆的植入；证明印迹细胞是记忆内容的编码单元",
+      "coverage": ["虚假记忆实验设计（摘要层面）", "A环境印迹激活→B环境电击→A环境冻结"]
+    },
+    {
+      "id": "S6",
+      "title": "Activating positive memory engrams suppresses depression-like behaviour",
+      "authors": ["Ramirez S", "Liu X", "MacDonald CJ", "Moffa A", "Zhou J", "Redondo RL", "Tonegawa S"],
+      "journal": "Nature",
+      "year": 2015,
+      "pmid": "26085274",
+      "pmcid": "PMC5583720",
+      "doi": "10.1038/nature14514",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5583720/",
+      "relevance": "背景参考：情感印迹的跨模态效应；仅用于背景描述，未深度阅读",
+      "coverage": []
+    }
+  ],
+  "source_quality_summary": {
+    "total_sources": 6,
+    "open_full_text": 5,
+    "abstract_only": 1,
+    "official_institution": 1,
+    "peer_reviewed_journals": 6,
+    "preprints": 0,
+    "minimum_requirement_met": true,
+    "note": "≥5个来源，≥4篇开放全文，≥2篇原始研究+综述搭配，满足ROUTINE.md要求"
+  }
+}

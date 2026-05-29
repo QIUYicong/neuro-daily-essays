@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-29
-revision_count: 2
+updated: 2026-05-31
+revision_count: 3
 dimensions: [brain-region, microcircuit, cognition]
 related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation]
 prerequisites: [synaptic-transmission, ltp, action-potential]
 opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism]
-source_articles: [2026-05-28-place-cells-btsp]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof]
 key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386"]
 ---
 
@@ -117,6 +117,7 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - [[dendritic-computation]] — CA1 锥体细胞的树突计算（平台电位）是 BTSP 的物理基础
 - [[memory-consolidation]] — 海马 SWR 重放是海马→皮层记忆巩固的机制
 - [[theta-oscillations]] — θ 振荡（4–12 Hz）协调海马回路的编码节律，调控 BTSP 触发时机
+- [[engram-cells]] — DG 是印迹细胞的主要居所；DG→CA3→CA1→BLA 的印迹间优先连接链利用三突触回路结构
 
 ## 未解问题
 
@@ -127,8 +128,10 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"海马两种工作模式"（θ态/SWR态）章节；新增 SWR 生成和重播机制；新增 key_sources
+- 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：DG 是印迹细胞分配竞争的主要场所（2–4% 稀疏活动→高正交性）；DG→CA3→CA1→BLA 印迹间优先连接链的描述；连接增加 [[engram-cells]]
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
 - [[2026-05-29-theta-oscillations-phase-coding]]
+- [[2026-05-31-engram-cells-optogenetic-proof]]

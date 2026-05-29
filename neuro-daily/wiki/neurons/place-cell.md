@@ -6,13 +6,13 @@ type: entity
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-29
-revision_count: 2
+updated: 2026-05-31
+revision_count: 3
 dimensions: [cellular, brain-region, cognition, behavior]
 related: [hippocampal-circuit, btsp, grid-cell, dendritic-computation, ltp, hebbian-learning, engram-cells, theta-oscillations]
 prerequisites: [dendritic-computation, ltp, hippocampal-circuit]
 opens_questions: [Q-place-field-content, Q-place-field-btsp-universality, Q-remapping-trigger]
-source_articles: [2026-05-28-place-cells-btsp]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof]
 key_sources: ["PMID:26167906", "PMID:28883072", "PMID:18284371", "PMID:32042144", "PMID:8353611", "PMID:23354386"]
 ---
 
@@ -97,7 +97,7 @@ CA1 场所细胞整合两路主要输入：
 - [[grid-cell]] — 内嗅皮层网格细胞为场所细胞提供类坐标输入框架
 - [[dendritic-computation]] — 树突钙平台电位是场所场写入的细胞机制
 - [[ltp]] — BTSP 与 LTP 并列为两种独立的突触增强机制；场所场由 BTSP 主导
-- [[engram-cells]] — 场所细胞是空间情景记忆的印迹细胞候选
+- [[engram-cells]] — 场所细胞是空间情景记忆的印迹细胞候选；Roy et al. 2016 等实验用 DG/CA1 场所细胞为主体标记情景记忆印迹
 - [[theta-oscillations]] — θ 振荡调控平台电位的触发时机；场所细胞的相位前进依赖θ节律
 - [[phase-precession]] — 场所细胞的核心编码特性：放电相位随位置移动，实现速率+相位双重编码
 - [[sharp-wave-ripples]] — 睡眠/静息时SWR高速重播场所细胞序列，是记忆固化的载体
@@ -112,8 +112,10 @@ CA1 场所细胞整合两路主要输入：
 
 - 2026-05-28 · 创建 · 填补悬空引用（由 [[树突计算]] 页引用）· 基于《场所细胞》文章 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"相位前进"（第4节）和"SWR重播"（原第4节）；更新 key_sources；添加 [[phase-precession]] 连接
+- 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 明确场所细胞作为情景记忆印迹细胞的实验证据（Liu 2012, Roy 2016 均使用 DG/CA1 作为印迹标记靶区）；更新 [[engram-cells]] 连接描述；revision_count 升至 3
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
 - [[2026-05-29-theta-oscillations-phase-coding]]
+- [[2026-05-31-engram-cells-optogenetic-proof]]

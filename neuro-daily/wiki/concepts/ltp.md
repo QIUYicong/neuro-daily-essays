@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-05-28
-revision_count: 2
+updated: 2026-05-31
+revision_count: 3
 dimensions: [synaptic, cellular, cognition, brain-region]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltp-ltd, btsp, place-cell, hippocampal-circuit]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltp-ltd, btsp, place-cell, hippocampal-circuit, engram-cells]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -84,15 +84,17 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 ## 未解问题
 
 - Q-ltp-lifetime-mechanism：蛋白质周转率约数周，而记忆可持续数十年——什么机制赋予 LTP 如此持久的稳定性？CaMKII 亚基交换？突触结构自我维持？
-- Q-ltp-behavior-correspondence：体内行为记忆的形成是否严格对应于特定突触群的 LTP？能否建立一一映射？印迹细胞（engram cells）研究在何种程度上回答了这一问题？
+- Q-ltp-behavior-correspondence：体内行为记忆的形成是否严格对应于特定突触群的 LTP？能否建立一一映射？印迹细胞（engram cells）研究在何种程度上回答了这一问题？（部分回答：Ryan et al. 2015 显示印迹细胞 AMPA/NMDA 比值高于非印迹细胞，但两者对应关系的精确映射仍有争议）
 - Q-ltp-presynaptic-component：除苔藓纤维外，其他类型突触的 LTP 是否也有突触前贡献？谷氨酸释放概率的改变有多大贡献？
 
 ## 修订历史
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增 BTSP 作为平行突触增强机制；LTP 与 BTSP 的分工与互补关系；related 增加 btsp, place-cell, hippocampal-circuit
+- 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：印迹细胞是 LTP 的细胞层面体现（印迹细胞 AMPA/NMDA 比值高于非印迹）；沉默印迹中 LTP 缺失但拓扑保留；光学 LTP 可恢复 AD 模型中的沉默印迹；related 增加 engram-cells；key_sources 新增 PMID:26023136, 26982728；Q-ltp-behavior-correspondence 补充印迹研究的部分回答
 
 ## 来源文章
 
 - [[2026-05-26-nmda-receptor-ltp]]
 - [[2026-05-28-place-cells-btsp]]
+- [[2026-05-31-engram-cells-optogenetic-proof]]

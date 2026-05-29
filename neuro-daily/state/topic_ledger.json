@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-30",
-  "total_articles": 7,
+  "last_updated": "2026-05-31",
+  "total_articles": 8,
   "entries": [
     {
       "date": "2026-05-24",
@@ -423,6 +423,73 @@
       "mode": "weekly_synthesis",
       "article_number": 7,
       "note": "系统日期为 UTC+8 2026-05-28，前序会话已覆盖 2026-05-28 和 2026-05-29，本文逻辑日期顺延至 2026-05-30 以维护序列完整性"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "印迹细胞的光子证明：记忆真的宿于特定神经元集合吗？",
+      "filename": "2026-05-31-engram-cells-optogenetic-proof.md",
+      "wiki_pages_created": [
+        "wiki/concepts/engram-cells.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md",
+        "wiki/neurons/place-cell.md",
+        "wiki/neurons/hippocampal-circuit.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "印迹细胞（engram cells）是否是记忆的物质载体？从 Liu 2012 到 Roy 2016，光遗传学实验如何证明记忆宿于特定神经元集合，遗忘可以是提取障碍而非信息擦除，以及早期 AD 记忆失失可能是可逆的？",
+      "layer": ["行为", "细胞", "脑区", "认知"],
+      "curriculum_track": "4. 学习和记忆（印迹细胞·记忆的细胞基础）",
+      "topic_tags": [
+        "engram cells",
+        "engram",
+        "optogenetics",
+        "memory storage",
+        "memory retrieval",
+        "silent engram",
+        "c-Fos-tTA",
+        "ChR2",
+        "CREB excitability",
+        "competitive allocation",
+        "dentate gyrus",
+        "hippocampus",
+        "BLA",
+        "Tonegawa",
+        "Liu 2012",
+        "Ryan 2015",
+        "Roy 2016",
+        "Ramirez 2013",
+        "retrograde amnesia",
+        "Alzheimer's disease",
+        "false memory",
+        "engram complex",
+        "AMPA/NMDA ratio",
+        "dendritic spine density",
+        "preferential connectivity"
+      ],
+      "main_sources": [
+        "PMID:31896692 (PMC7577560)",
+        "PMID:22441246 (PMC3331914)",
+        "PMID:26023136 (PMC5583719)",
+        "PMID:26982728 (PMC4847731)",
+        "PMID:23888038 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-engram-overlap-rate：训练与提取激活细胞仅 20–40% 重叠的原因",
+        "Q-engram-necessity-vs-sufficiency：充分性已证，必要性尚存疑",
+        "Q-silent-engram-information-locus：记忆信息在连接拓扑中还是连接权重中？",
+        "Q-human-engram-evidence：人类印迹细胞的直接证据如何获得？"
+      ],
+      "next_suggested_topics": [
+        "记忆巩固（系统层面）：睡眠阶段分工、皮层侧 LTP、标准巩固 vs 多重痕迹理论（memory-consolidation 悬空引用，高优先级）",
+        "电压门控钙通道（L-type / P/Q/N-type）：连接 BTSP、树突计算、突触前释放的分子缺口（calcium-channel 悬空引用，被 6 个页面引用）",
+        "抑制性中间神经元多样性：PV+/SST+/VIP+ 在海马和皮层中如何调控印迹分配和记忆编码（填补 microcircuit 层级空缺）",
+        "LTD（长时程抑制）：磷酸酶、AMPA 受体内吞，LTP 的对称补充",
+        "记忆提取的解码机制：CA1 输出→皮层，模式匹配如何完成情节记忆的重构"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 8,
+      "dangling_reference_filled": "engram-cells（填补了 ltp、hebbian-learning、dendritic-computation、place-cell 共 4 个页面的高优先级悬空引用）"
     }
   ],
   "layer_coverage_recent": {
@@ -432,10 +499,10 @@
     "microcircuit": ["2026-05-27"],
     "brain_region": ["2026-05-27", "2026-05-28"],
     "whole_brain_network": ["2026-05-29", "2026-05-30"],
-    "behavior": ["2026-05-29", "2026-05-30"],
-    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30"],
+    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31"],
+    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-05-30（第一周综合）：跨层综合（分子→细胞→突触→微回路→脑区→全脑网络），归纳嵌套时间编码层级（Nested Temporal Coding Hierarchy）框架。第二周建议：印迹细胞（填补最高优先级悬空引用；behavior/cognition 层）→ 记忆巩固系统层面（whole-brain-network 深挖）→ 抑制性中间神经元多样性（microcircuit 层，平衡连续5天偏向兴奋性机制的层级）→ 电压门控钙通道（molecular 层，补充 BTSP+树突计算的分子缺口）。"
+  "layer_note": "2026-05-31（印迹细胞）：行为+细胞+脑区+认知层。第二周第1篇，填补最高优先级悬空引用。下一建议：记忆巩固（系统层面）→ whole-brain-network 层深挖；或电压门控钙通道（molecular 层）→ 填补 calcium-channel 悬空引用（被6个页面引用）。注：已连续3天偏向 behavior/cognition，下篇建议回到 molecular 或 microcircuit 层以维持层级均衡。"
 }

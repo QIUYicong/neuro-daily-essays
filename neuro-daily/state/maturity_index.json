@@ -210,6 +210,14 @@
       "supporting_sources": 6,
       "last_status_change": "2026-05-30",
       "reason": "创建 2026-05-30（第一周综合）。这是对六篇文章机制的综合分析性框架，而非单一实验发现。各层级机制单独均有强证据（SNARE μs 精度、NMDA-LTP ms 窗口、BTSP s 窗口、θ 序列压缩、SWR 因果固化），但将它们统一为'嵌套时间编码层级'这一框架的系统性实验验证尚缺乏，故 status=emerging / confidence=medium。若后续研究系统地证明各层之间的功能性嵌套关系（如 θ 振荡缺失导致 STDP 方向性权重更新失效、同时 BTSP 写入保留），则可升级为 mainstream。"
+    },
+    {
+      "slug": "engram-cells",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-05-31",
+      "reason": "创建 2026-05-31。光遗传学激活印迹细胞的系列实验（Liu 2012, Ramirez 2013, Ryan 2015, Roy 2016）提供了多重独立、跨实验室的直接证据；c-Fos-tTA系统 + ChR2 的方法学已成为领域标准范式；沉默印迹在蛋白质合成抑制和AD模型中均有重复证据；故 status=established / confidence=high。主要局限：所有直接操控实验均在啮齿类，人类证据仍间接；20–40% 重叠率等方法学限制尚待解决；但核心论断（激活印迹细胞充分激活记忆行为）具有高置信度。"
     }
   ]
 }

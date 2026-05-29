@@ -535,6 +535,67 @@
       "full_text_available": false,
       "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
       "aspects_covered": ["phase precession mechanism", "CA3 vs EC dual input", "computational model"]
+    },
+    {
+      "pmid": "31896692",
+      "pmcid": "PMC7577560",
+      "title": "Memory engrams: Recalling the past and imagining the future",
+      "authors_short": "Josselyn SA, Tonegawa S",
+      "journal": "Science",
+      "year": 2020,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
+      "aspects_covered": ["engram cells definition", "three criteria", "competitive allocation", "CREB excitability", "engram complex", "silent engrams", "human evidence review", "reconsolidation"]
+    },
+    {
+      "pmid": "22441246",
+      "pmcid": "PMC3331914",
+      "title": "Optogenetic stimulation of a hippocampal engram activates fear memory recall",
+      "authors_short": "Liu X, Ramirez S et al.",
+      "journal": "Nature",
+      "year": 2012,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
+      "aspects_covered": ["c-Fos-tTA labeling system", "ChR2-EYFP", "doxycycline control", "DG engram activation", "35% light-induced freezing", "dose-response", "specificity controls"]
+    },
+    {
+      "pmid": "26023136",
+      "pmcid": "PMC5583719",
+      "title": "Engram cells retain memory under retrograde amnesia",
+      "authors_short": "Ryan TJ, Roy DS et al.",
+      "journal": "Science",
+      "year": 2015,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
+      "aspects_covered": ["retrograde amnesia anisomycin", "silent engram", "storage vs retrieval dissociation", "AMPA/NMDA ratio", "dendritic spine density", "DG-CA3 preferential connectivity", "quantitative freezing data"]
+    },
+    {
+      "pmid": "26982728",
+      "pmcid": "PMC4847731",
+      "title": "Memory retrieval by activating engram cells in mouse models of early Alzheimer's disease",
+      "authors_short": "Roy DS, Arons A et al.",
+      "journal": "Nature",
+      "year": 2016,
+      "first_used": "2026-05-31",
+      "full_text_available": true,
+      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
+      "aspects_covered": ["APP/PS1 model", "early AD memory deficit", "silent engram in disease", "optogenetic LTM recovery", "reduced spine density", "optical LTP intervention", "AD retrieval vs storage deficit"]
+    },
+    {
+      "pmid": "23888038",
+      "pmcid": null,
+      "title": "Creating a false memory in the hippocampus",
+      "authors_short": "Ramirez S, Liu X et al.",
+      "journal": "Science",
+      "year": 2013,
+      "first_used": "2026-05-31",
+      "full_text_available": false,
+      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
+      "note": "仅使用摘要；全文无开放获取版本",
+      "aspects_covered": ["false memory creation", "context A engram + context B shock", "memory content encoding", "DG engram as content carrier"]
     }
   ]
 }

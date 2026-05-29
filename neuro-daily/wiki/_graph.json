@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-30",
-  "node_count": 24,
-  "edge_count": 95,
+  "updated": "2026-05-31",
+  "node_count": 25,
+  "edge_count": 108,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -220,6 +220,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/temporal-coding-hierarchy.md"
+    },
+    {
+      "id": "engram-cells",
+      "title": "印迹细胞",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/engram-cells.md"
     }
   ],
   "edges": [
@@ -315,14 +324,27 @@
     {"from": "temporal-coding-hierarchy", "to": "dendritic-computation", "type": "related", "note": "树突棘波（50–200 ms 层）是嵌套层级中分支计算层的机制"},
     {"from": "temporal-coding-hierarchy", "to": "place-cell", "type": "related", "note": "场所细胞是嵌套层级协同运作的功能结果（稳定空间认知地图）"},
     {"from": "temporal-coding-hierarchy", "to": "phase-precession", "type": "mechanism-of", "note": "相位前进是 θ 桥接层的具体机制，使 s 级场所细胞序列落入 ms 级 STDP 窗口"},
-    {"from": "hebbian-learning", "to": "temporal-coding-hierarchy", "type": "supports", "note": "Hebb 原理（巧合→强化）是嵌套层级所有层次的共同底层逻辑"}
+    {"from": "hebbian-learning", "to": "temporal-coding-hierarchy", "type": "supports", "note": "Hebb 原理（巧合→强化）是嵌套层级所有层次的共同底层逻辑"},
+    {"from": "engram-cells", "to": "place-cell", "type": "related", "note": "场所细胞是空间情景记忆印迹细胞的主要候选；DG/CA1 场所细胞被用于光遗传印迹实验"},
+    {"from": "engram-cells", "to": "hippocampal-circuit", "type": "part-of", "note": "印迹细胞集合利用 DG→CA3→CA1 三突触回路形成跨脑区印迹间连接链"},
+    {"from": "engram-cells", "to": "ltp", "type": "mechanism-of", "note": "印迹细胞的突触增强特征（高 AMPA/NMDA 比值、高树突棘密度）是 LTP 的细胞层面体现；光学 LTP 可恢复沉默印迹"},
+    {"from": "engram-cells", "to": "hebbian-learning", "type": "mechanism-of", "note": "竞争性分配（同步放电→印迹细胞→印迹间优先连接）是 Hebb 原理在细胞集合层面的实现"},
+    {"from": "engram-cells", "to": "btsp", "type": "related", "note": "BTSP 是场所细胞（印迹细胞候选）快速单次写入的突触机制，可能是印迹快速建立的分子基础"},
+    {"from": "engram-cells", "to": "nmda-receptor", "type": "related", "note": "NMDA 受体介导印迹细胞的 LTP 形式突触增强；印迹建立约 84% 依赖 NMDA 受体"},
+    {"from": "engram-cells", "to": "dendritic-computation", "type": "related", "note": "树突钙平台电位（BTSP 触发器）可能是印迹细胞快速突触写入的细胞机制"},
+    {"from": "engram-cells", "to": "memory-consolidation", "type": "related", "note": "SWR 重播可能将海马印迹转移/复制至皮层印迹，是系统巩固的印迹层面机制"},
+    {"from": "engram-cells", "to": "sharp-wave-ripples", "type": "related", "note": "SWR 期间印迹细胞以约 20 倍速高速重播，推动海马→皮层固化"},
+    {"from": "ltp", "to": "engram-cells", "type": "related", "note": "LTP 是印迹细胞建立突触增强的主要分子机制；光学 LTP 可恢复沉默印迹"},
+    {"from": "place-cell", "to": "engram-cells", "type": "related", "note": "CA1 场所细胞是情景记忆印迹细胞的典型代表；Liu 2012, Roy 2016 均使用海马场所细胞区域标记印迹"},
+    {"from": "hippocampal-circuit", "to": "engram-cells", "type": "related", "note": "海马三突触回路（DG→CA3→CA1）提供了印迹间优先连接链的解剖基础"},
+    {"from": "hebbian-learning", "to": "engram-cells", "type": "supports", "note": "印迹细胞是 Hebb 学习规则在细胞集合层面的实验证明"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
     {"slug": "munc18", "referenced_by": ["SNARE-complex"], "note": "SM蛋白，SNARE调控，次要"},
     {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation", "btsp"], "note": "电压门控钙通道（P/Q-type N-type用于突触前终末；L-type Cav1.2/1.3用于树突Ca²⁺棘波和BTSP触发），高优先级"},
     {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，待建页面"},
-    {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation", "place-cell"], "note": "印迹细胞，场所细胞是空间情景记忆的印迹细胞候选；光遗传激活印迹细胞可触发记忆回放；高优先级"},
+    {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation", "place-cell"], "note": "已于 2026-05-31 创建页面，填补悬空引用", "resolved": "2026-05-31"},
     {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "三因素学习规则（Hebb × 多巴胺），待建页面"},
     {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"},
     {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议，待建页面"},

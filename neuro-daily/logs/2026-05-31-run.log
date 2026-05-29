@@ -1,0 +1,171 @@
+# 运行日志 · 2026-05-31
+
+**运行时间**：2026-05-29 UTC（= UTC+8 2026-05-29）
+**逻辑日期**：2026-05-31（前序会话已覆盖至 2026-05-30，本次顺延）
+**文章编号**：#8（第二周·第 1 篇）
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：已读取，last_updated=2026-05-30，7 篇文章
+- `unresolved_questions.md`：已读取，高优先级队列含 Q-btsp-human-conservation、Q-ltp-lifetime-mechanism 等
+- `contested_claims.json`：已读取，2 条 open 矛盾（C-2026-05-24-01, C-2026-05-25-01）
+- `_graph.json`：已读取，24 节点，95 边，最高优先级悬空引用：engram-cells（被 4 页引用）
+- 矛盾协议：无需新登记（今日证据无冲突）
+
+---
+
+## 选题决策
+
+**触发规则**：悬空引用填补（优先级 3）+ 来自 5 个上一篇 next_suggested_topics 中的首位推荐
+
+**选择主题**：印迹细胞（Engram Cells）
+
+**原因**：
+1. `engram-cells` 是图谱中被引用次数最多的悬空引用（ltp/hebbian-learning/dendritic-computation/place-cell 共 4 页）
+2. 所有最近 5 篇文章均将其列为下一篇的最高优先推荐
+3. 前一周综合（第7篇）已将其明确为"第二周首篇"
+4. 层级：behavior/cognition（前两天为 whole-brain-network/cognition，today 回到 cellular/cognition，合理）
+5. 有充足的开放全文来源（4 篇 PMC 开放全文）
+
+**核心问题缩小**：不写"记忆是什么"，而写"光遗传学实验如何证明记忆宿于特定神经元集合，以及遗忘和早期 AD 中的沉默印迹意味着什么"
+
+---
+
+## 检索过程
+
+### 查询执行
+1. PubMed ESearch: `engram cells memory optogenetics hippocampus` → 15 PMID
+2. PubMed ESearch: `Josselyn Tonegawa engram memory 2020` → PMID:31896692
+3. PubMed ESearch: `Liu Ramirez Pang optogenetic engram 2012 Nature` → PMID:22441246
+4. PubMed ESummary: 详细信息提取（标题、期刊、PMCID）
+
+### 采用来源
+- PMID:31896692 (PMC7577560) - Josselyn & Tonegawa 2020 Science review [开放全文] ✅
+- PMID:22441246 (PMC3331914) - Liu et al. 2012 Nature [开放全文] ✅
+- PMID:26023136 (PMC5583719) - Ryan et al. 2015 Science [开放全文] ✅
+- PMID:26982728 (PMC4847731) - Roy et al. 2016 Nature [开放全文] ✅
+- PMID:23888038 - Ramirez et al. 2013 Science [仅摘要] ⚠️
+
+### 排除来源
+- PMID:26085274 (Ramirez 2015 正面记忆) - 读取但仅作背景参考，未成为文章的主要来源
+- 其他搜索命中（PMID:38670239 等）- 不相关或2024年后新论文，本次不纳入
+
+### 检索限制
+- PMID:23888038（Ramirez 2013 Science）：全文付费，无 PMC 版本。仅使用摘要，文章已标注"未读取全文"。
+
+---
+
+## 文章撰写
+
+**文件**：`articles/2026-05-31-engram-cells-optogenetic-proof.md`
+**实际字数**：约 5200 字（含标题、表格）
+**语言**：中文
+**文章结构**：
+- 今日核心问题 ✅
+- 一句话摘要 ✅
+- 为什么重要 ✅
+- 背景（Semon 1904 + 技术融合） ✅
+- 机制分层（分子→细胞→回路） ✅
+- 关键证据（4 个实验，含定量数据） ✅
+- 比喻及其失效分析 ✅
+- 它如何改变我们对大脑的理解 ✅
+- 争议与未解问题 ✅
+- 与 AI 的对照 ✅
+- 今日概念卡片 ✅
+- 今日认知地图更新 ✅
+- 参考来源（含全文可用性） ✅
+
+**所有来源均已正确引用，未编造 PMID/DOI**
+
+---
+
+## 固结步骤
+
+### 创建的 Wiki 页面（1）
+- `wiki/concepts/engram-cells.md` — 填补 4 个页面的高优先级悬空引用
+  - 建立了三条认定标准、竞争性分配机制、沉默印迹、印迹间优先连接链的完整记录
+  - 矛盾检查：无冲突（沉默印迹补充而非推翻 LTP 相关主张）
+
+### 修订的 Wiki 页面（3）
+- `wiki/concepts/ltp.md` → revision_count 2→3
+  - 新增：印迹细胞作为 LTP 细胞层面体现；沉默印迹中 LTP 缺失；光学 LTP 干预 AD
+  - related 增加 engram-cells；key_sources 增加 2 条
+- `wiki/neurons/place-cell.md` → revision_count 2→3
+  - 明确场所细胞作为情景记忆印迹细胞候选的实验证据
+- `wiki/neurons/hippocampal-circuit.md` → revision_count 2→3
+  - 新增 DG 作为印迹分配竞争主要场所；DG→CA3→CA1→BLA 印迹间链
+  - 连接增加 [[engram-cells]]
+
+### 矛盾检查结果
+- 无新矛盾（沉默印迹中 LTP 缺失与"LTP 是记忆基础"并不矛盾，而是在提取vs存储分离层面补充了理解）
+
+---
+
+## 图谱更新
+
+- 节点：24 → 25（新增 engram-cells）
+- 边：95 → 108（新增 13 条）
+- 已解决悬空引用：engram-cells（在 dangling_references 中标记为 resolved）
+- 新增悬空引用：无
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：新增条目（article #8），total_articles 7→8
+- `unresolved_questions.md`：新增 4 条高/中优先级问题（Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence）
+- `source_registry.json`：新增 6 条来源记录
+- `maturity_index.json`：新增 engram-cells 条目（established/high）
+- `monthly_synthesis.md`：新增 #24, #25 洞见
+- `wiki/index.md`：新增 engram-cells 条目；更新进度表；更新待补悬空引用
+- `wiki/CHANGELOG.md`：顶部新增 2026-05-31 条目
+
+---
+
+## 自检结果
+
+**真实性**
+- [x] 所有 wiki 新主张有来源（PMID 标注）
+- [x] 区分了事实/主流模型/推测：沉默印迹中明确标注信息位置（拓扑 vs 权重）是未解问题
+- [x] 未把啮齿类研究直接外推到人类：专门的"争议"章节讨论了人类证据有限的问题
+- [x] Ramirez 2013 仅摘要，已在来源表和正文中明确标注
+
+**一致性**
+- [x] 无新冲突需走矛盾协议
+- [x] 修订页面的 updated/revision_count/修订历史均同步
+- [x] _graph.json 无未记录悬空边（新边两端节点均已存在）
+
+**可导航**
+- [x] index.md 反映了今天的变化
+- [x] CHANGELOG.md 新增今日条目
+- [x] 新页面 engram-cells 的 related 和 prerequisites 均已填写（各 5+ 条）
+
+**情景层完整**
+- [x] articles/notes/sources/logs 均已创建（append-only）
+- [x] 未修改任何旧情景层文件
+
+---
+
+## Git 操作
+
+**分支**：main
+**remote**：http://local_proxy@127.0.0.1:40543/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
+**commit message**：Add neuro daily article + wiki consolidation for 2026-05-31
+**push 状态**：[将在日志创建后执行]
+
+---
+
+## 失败与限制
+
+- Ramirez 2013 (PMID:23888038) Science 全文无 PMC 开放版本；仅使用摘要，文章已明确标注
+- 所有其他主要来源均有开放全文，满足 ROUTINE.md ≥2 篇开放全文要求（实际 4 篇）
+
+---
+
+## 下次建议
+
+优先级 1：`memory-consolidation`（被 3 个页面引用，系统巩固理论、睡眠阶段分工）
+优先级 2：`calcium-channel`（被 6 个页面引用，L-type/P/Q-type，BTSP+树突计算+突触前Ca²⁺）
+层级平衡：下篇建议回到 molecular 层（连续 3 天 behavior/cognition/whole-brain-network 层偏重）
