@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-05
-revision_count: 3
-dimensions: [molecular, synaptic, cellular, cognition, brain-region]
-related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex]
+updated: 2026-06-08
+revision_count: 4
+dimensions: [molecular, synaptic, cellular, cognition, brain-region, disease]
+related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex, alzheimers-disease, amyloid-beta-oligomers, calcineurin]
 prerequisites: [synaptic-transmission, action-potential, membrane-potential]
-opens_questions: [Q-nmda-coincidence-window, Q-glun2-switch-development, Q-nmda-alzheimer]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation]
-key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230"]
+opens_questions: [Q-nmda-coincidence-window, Q-glun2-switch-development, Q-abeta-oligomer-subtypes]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation, 2026-06-05-prefrontal-working-memory, 2026-06-08-alzheimers-amyloid-synaptic-mechanism]
+key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230", "PMID:21543591", "PMID:17360908"]
 ---
 
 # NMDA 受体 (NMDA Receptor / N-Methyl-D-Aspartate Receptor)
@@ -69,6 +69,21 @@ GluN2B 在幼年期高表达，其更长的衰减时间常数意味着更宽的�
 | 体内视觉皮层：NMDA 受体阻断使朝向选择性指数从 0.82 降至 0.45 | 小鼠 V1 in vivo patch-clamp + 细胞内 MK-801 | PMID:24162850 (PMC6319606) | 高 |
 | 细薄树突 NMDA 棘波：NMDA 受体贡献 ≥80% 离子电荷，胞体响应超线性 226% | 大鼠皮层脑片，焦点刺激 + 膜片钳 | PMID:10749211 | 高 |
 
+## NMDA 受体的第四重角色：突触外NR2B——LTP的"解毒剂"（AD相关）
+
+**2026-06-08 新增（来自《记忆的分子遗忘》一文，解答 Q-nmda-alzheimer）**
+
+NMDA受体存在**解剖学功能分工**：突触后致密区（PSD）内的**突触内NR2B**与PSD之外的**突触外NR2B**激活相同的钙离子内流，但下游信号截然相反：
+
+| 位置 | 典型激活条件 | 下游信号级联 | 功能效果 |
+|------|------------|------------|--------|
+| **突触内NR2B**（PSD内） | 正常突触谷氨酸释放 | CaMKII → ERK → **CREB磷酸化** | LTP / 突触增强 |
+| **突触外NR2B**（PSD外） | 谷氨酸溢出/Aβ激活 | p38 MAPK → **CREB去磷酸化** | LTP阻断 / 突触削弱 |
+
+Aβ寡聚体**优先激活突触外NR2B**（Li et al. 2011, PMID:21543591），将NMDA受体总体信号流从"LTP促进"推向"LTP阻断"。NR2B选择性拮抗剂（Ro 25-6981）完全阻止了Aβ寡聚体对LTP的抑制，确认了突触外NR2B是关键靶点。
+
+这回答了长期存在的疑问（Q-nmda-alzheimer）：Aβ不直接破坏NMDA受体，而是**改变了NR2B激活的解剖定位**——从"突触内（LTP信号）"转向"突触外（LTP反向信号）"，相当于把同一台机器从正向转档接到了反向传动链。
+
 ## NMDA 受体的双重身份
 
 今日修订（2026-05-27）新增重要概念：NMDA 受体在细胞层面有**两种截然不同的功能角色**，服务于不同的时空尺度：
@@ -80,6 +95,8 @@ GluN2B 在幼年期高表达，其更长的衰减时间常数意味着更宽的�
 
 ## 连接
 
+- [[alzheimers-disease]] — NMDA受体（特别是突触外NR2B）是AD中LTP失效的核心分子靶点
+- [[amyloid-beta-oligomers]] — Aβ寡聚体通过将NMDA激活从突触内偏转至突触外来阻断LTP
 - [[ltp]] — NMDA 受体是 LTP 诱导的必要门卫（单突触层面）
 - [[ampa-receptor]] — Ca²⁺ 内流后 AMPA 受体大量插入突触是 LTP 的主要表达机制
 - [[camkii]] — Ca²⁺ 内流激活 CaMKII 是 LTP 诱导的第一步下游信号
@@ -92,13 +109,14 @@ GluN2B 在幼年期高表达，其更长的衰减时间常数意味着更宽的�
 
 - Q-nmda-coincidence-window：NMDA 受体的时间整合窗口（由 GluN2 亚型决定）如何在发育和学习中动态变化？
 - Q-glun2-switch-development：幼年期 GluN2B 到成年期 GluN2A 的亚型切换的精确分子触发机制是什么？
-- Q-nmda-alzheimer：Aβ 寡聚体如何选择性损害 NMDA 受体依赖的 LTP？是通过直接结合受体，还是间接改变其下游信号？
+- Q-nmda-alzheimer：**已部分解答（2026-06-08）**——Aβ寡聚体通过PrPC/mGluR5/Fyn激酶通路磷酸化NR2B，并优先激活突触外NR2B（p38/CREB失活）。未解部分：突触内vs突触外NR2B比例是否在AD中发生漂移？能否通过选择性增强突触内、抑制突触外NR2B来治疗AD？
 
 ## 修订历史
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-27 · 修订 · 基于《树突：神经元内部的神经网络》一文 · 新增"NMDA 受体的双重身份"概念（突触层面巧合检测器 vs 分支层面 NMDA 棘波计算单元）；关键证据表新增 Smith 2013 体内视觉皮层证据 + Schiller 2000 NMDA 棘波证据；连接新增 dendritic-computation；dimensions 新增 cellular
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 新增第三重角色：PFC 工作记忆回路中作为时间积分器（慢衰减 τ ~100–300 ms 支撑循环激活的吸引子状态）；related 新增 persistent-activity, working-memory, prefrontal-cortex；dimensions 新增 brain-region（PMID:11476885；Wang 2001 吸引子模型）
+- 2026-06-08 · 修订 · 基于《记忆的分子遗忘》一文 · 新增第四重角色：突触外NR2B-LTP反向信号路径；解答 Q-nmda-alzheimer（Aβ通过优先激活突触外NR2B/p38 MAPK阻断LTP，非直接破坏受体）；related 新增 alzheimers-disease、amyloid-beta-oligomers、calcineurin；dimensions 新增 disease；连接新增 alzheimers-disease、amyloid-beta-oligomers；key_sources 新增 PMID:21543591、PMID:17360908
 
 ## 来源文章
 

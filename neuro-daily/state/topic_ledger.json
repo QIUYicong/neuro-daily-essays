@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-07",
-  "total_articles": 15,
+  "last_updated": "2026-06-08",
+  "total_articles": 16,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1042,6 +1042,67 @@
       "mode": "long_term_curriculum",
       "article_number": 15,
       "note": "第三周第1篇：从认知控制（工作记忆）进入奖励学习领域，填补 three-factor-learning-rule 悬空引用，首次系统介绍多巴胺系统。建立 DA-RPE、三因素规则、突触标记与捕获三个新节点，修订 hebbian-learning 和 ltp 两个核心节点。"
+    },
+    {
+      "date": "2026-06-08",
+      "title": "记忆的分子遗忘：淀粉样寡聚体如何精准瓦解海马突触可塑性",
+      "filename": "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md",
+      "article_type": "disease_as_window",
+      "wiki_pages_created": [
+        "wiki/diseases/alzheimers-disease.md",
+        "wiki/concepts/amyloid-beta-oligomers.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/nmda-receptor.md",
+        "wiki/neurons/hippocampal-circuit.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "Aβ寡聚体通过哪些分子机制破坏海马CA3-CA1突触的LTP，导致阿尔茨海默病早期记忆缺失？",
+      "layer": "disease",
+      "curriculum_track": "11. 疾病层（AD突触机制）→ 延伸 12. BDNF/TrkB 信号或 12. 光遗传学方法层",
+      "topic_tags": [
+        "Alzheimer's disease",
+        "amyloid-beta oligomers",
+        "LTP impairment",
+        "synaptic plasticity",
+        "NMDA receptor",
+        "PrPC/mGluR5/Fyn",
+        "extrasynaptic NR2B",
+        "calcineurin",
+        "AMPA receptor endocytosis",
+        "CaMKII",
+        "BDNF/TrkB",
+        "tau mislocalization",
+        "theta-gamma coupling",
+        "plaque clearance paradox",
+        "hippocampal circuit",
+        "synaptic density"
+      ],
+      "main_sources": [
+        "PMID:11932745 (PMC6672572, Walsh 2002 Nature, 开放)",
+        "PMID:17360908 (Shankar 2007 J Neurosci, 非开放)",
+        "PMID:21543591 (PMC13039067, Li 2011 J Neurosci, 开放)",
+        "PMID:23546305 (PMC12040739, Goutagny 2013 Nat Neurosci, 开放)",
+        "PMID:1789684 (Terry 1991 Ann Neurol, 非开放)",
+        "PMID:33144133 (PMC8231952, 2020 review, 开放)",
+        "PMID:34104828 (PMC8248350, 2021 review, 开放)"
+      ],
+      "unresolved_questions": [
+        "Q-ad-vulnerable-synapses：为何特定突触对Aβ寡聚体更敏感——PrPC表达水平？突触活动状态？脂筏组成？",
+        "Q-ad-intervention-window：Aβ寡聚体毒性的可逆性窗口——100-300 pM Aβ二聚体暴露15天后突触静默是否完全可逆？",
+        "Q-ad-tau-cascade：tau错误定位到树突棘——是Aβ下游还是独立并行？Fyn/tau/NR2B三角关系的时序？",
+        "Q-abeta-oligomer-subtypes：不同聚合度（二聚体/三聚体/十二聚体）毒性机制是否相同，还是各有专一靶点？"
+      ],
+      "next_suggested_topics": [
+        "BDNF/TrkB信号：proBDNF/p75NTR凋亡vs mBDNF/TrkB生存——AD中的信号反转；TrkB截短体的显性抑制效应",
+        "光遗传学（methods层首篇）：ChR2到optoXR的技术演进；AD小鼠gamma频率光刺激改善Aβ清除（Iaccarino 2016 Nature）",
+        "突触前机制：Aβ对囊泡释放概率和突触前SNARE的影响——与 C-2026-05-25-01 悬案相关",
+        "Tau蛋白磷酸化与神经纤维缠结：从AD突触损伤延伸到细胞骨架层"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 16,
+      "note": "第三周第2篇：首篇疾病层文章（disease layer），以阿尔茨海默病为窗口回顾整个突触可塑性课程。部分解答了预存开放问题 Q-nmda-alzheimer。发现斑块清除悖论验证寡聚体假说。建立 diseases/ 子目录，为未来疾病层文章奠基。"
     }
   ],
   "layer_coverage_recent": {
@@ -1100,8 +1161,8 @@
       "2026-06-02",
       "2026-06-03"
     ],
-    "disease": [],
+    "disease": ["2026-06-08"],
     "methods": []
   },
-  "layer_note": "2026-06-07（DA-RPE）：cellular/brain_region/whole_brain_network/behavior/cognition 各加1篇。三因素学习规则首次建立专页，填补 [[hebbian-learning]] 悬空引用。新建3个概念页面（dopamine-reward-prediction-error, three-factor-learning-rule, synaptic-tagging-capture），修订2页（hebbian-learning, ltp）。disease 层和 methods 层仍完全空缺——建议下一篇进入 disease 层（AD）或 methods 层（光遗传学）。synaptic 层的短时程突触可塑性（STP）仍待覆盖。"
+  "layer_note": "2026-06-08（AD突触机制）：disease层首次写入（阿尔茨海默病）；同时覆盖molecular/synaptic/cellular/microcircuit/brain_region/cognition多层。Aβ寡聚体新建独立页，解答了nmda-receptor页的Q-nmda-alzheimer未解问题。新建2个页面（alzheimers-disease, amyloid-beta-oligomers），修订3页（ltp, nmda-receptor, hippocampal-circuit）。methods层仍完全空缺——下一篇建议进入methods层（光遗传学）或继续disease层（帕金森）。synaptic层的短时程突触可塑性（STP）仍待覆盖。"
 }

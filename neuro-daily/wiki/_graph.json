@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-07",
-  "node_count": 42,
-  "edge_count": 207,
+  "updated": "2026-06-08",
+  "node_count": 44,
+  "edge_count": 219,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -382,6 +382,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/synaptic-tagging-capture.md"
+    },
+    {
+      "id": "alzheimers-disease",
+      "title": "阿尔茨海默病",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/alzheimers-disease.md"
+    },
+    {
+      "id": "amyloid-beta-oligomers",
+      "title": "Aβ寡聚体",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/amyloid-beta-oligomers.md"
     }
   ],
   "edges": [
@@ -594,7 +612,20 @@
     {"from": "three-factor-learning-rule", "to": "ampa-receptor", "type": "mechanism-of", "note": "三因素 LTP 最终通过 GluA1 磷酸化（PKA/CaMKII）和 AMPAR 插入表达"},
     {"from": "three-factor-learning-rule", "to": "competition-selection-principle", "type": "related", "note": "三因素规则在突触层面实现了竞争性遴选——只有'值得学习的'突触（满足Hebbian条件 + 正RPE）被选择增强"},
     {"from": "synaptic-tagging-capture", "to": "camkii", "type": "related", "note": "CaMKII T286 磷酸化构象是突触标签的候选分子机制（假说，未直接验证）"},
-    {"from": "synaptic-tagging-capture", "to": "hebbian-learning", "type": "mechanism-of", "note": "Hebbian 激活设置突触标签（STC 的'标记'端）；两者在三因素规则时间整合中互为必要条件"}
+    {"from": "synaptic-tagging-capture", "to": "hebbian-learning", "type": "mechanism-of", "note": "Hebbian 激活设置突触标签（STC 的'标记'端）；两者在三因素规则时间整合中互为必要条件"},
+    {"from": "alzheimers-disease", "to": "ltp", "type": "contradicts", "note": "AD核心病理是LTP的系统性失效；Aβ寡聚体通过多通路将LTP机器单向阻断"},
+    {"from": "alzheimers-disease", "to": "nmda-receptor", "type": "related", "note": "突触外NR2B-NMDA受体是AD中LTP失效的核心分子靶点；Aβ通过PrPC/Fyn磷酸化NR2B并优先激活突触外NR2B/p38/CREB通路"},
+    {"from": "alzheimers-disease", "to": "hippocampal-circuit", "type": "related", "note": "CA3-CA1 Schaffer侧支是AD最早受损的突触类型；内嗅皮层→海马是Aβ传播的早期通路（Braak I期）"},
+    {"from": "alzheimers-disease", "to": "memory-consolidation", "type": "related", "note": "AD损害记忆巩固的系统机制（海马突触强度被Aβ压低→SWR重播信号减弱→巩固效率下降）"},
+    {"from": "alzheimers-disease", "to": "engram-cells", "type": "related", "note": "AD早期产生'沉默印迹'（Roy 2016光学恢复实验）：印迹细胞拓扑保留但突触强度被Aβ压低；早期干预可恢复"},
+    {"from": "alzheimers-disease", "to": "theta-oscillations", "type": "related", "note": "AD早期theta-gamma耦合损伤（早于Aβ大量产生），关闭LTP时间门控；SST+中间神经元脆弱性是关键"},
+    {"from": "alzheimers-disease", "to": "synaptic-tagging-capture", "type": "related", "note": "Aβ通过截断BDNF-TrkB信号阻断STC机制中的PRP合成，使突触标签无法被捕获，L-LTP无法巩固"},
+    {"from": "amyloid-beta-oligomers", "to": "ltp", "type": "contradicts", "note": "Aβ寡聚体是LTP的主要分子劫持者；通过突触外NR2B、calcineurin、BDNF截断等5条通路阻断LTP；Walsh 2002天然分泌寡聚体体内LTP抑制实验"},
+    {"from": "amyloid-beta-oligomers", "to": "nmda-receptor", "type": "mechanism-of", "note": "Aβ通过PrPC/mGluR5/Fyn激酶磷酸化NR2B，优先激活突触外NR2B（p38/CREB失活）而非突触内NR2B（CaMKII/LTP通路）"},
+    {"from": "amyloid-beta-oligomers", "to": "calcineurin", "type": "regulates", "note": "Aβ引发的慢性低幅Ca²⁺过载优先激活calcineurin，驱动GluA1 Ser845去磷酸化→AMPA受体内吞，突触强度崩解"},
+    {"from": "amyloid-beta-oligomers", "to": "camkii", "type": "contradicts", "note": "CaMKII活性在Aβ暴露的海马脑片中降低约60%，LTP诱导的关键激酶失效"},
+    {"from": "amyloid-beta-oligomers", "to": "ampa-receptor", "type": "regulates", "note": "Aβ寡聚体通过calcineurin过激活驱动AMPA受体GluA1大量内吞，突触表面谷氨酸受体密度持续下降"},
+    {"from": "alzheimers-disease", "to": "amyloid-beta-oligomers", "type": "mechanism-of", "note": "Aβ寡聚体是AD突触病理的核心毒性物种（区别于不溶性斑块）"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -610,6 +641,8 @@
     {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
     {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},
     {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples", "engram-cells"], "note": "已于2026-06-02创建 wiki/concepts/memory-consolidation.md 页面", "resolved": "2026-06-02"},
-    {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"}
+    {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"},
+    {"slug": "bdnf-trkb", "referenced_by": ["alzheimers-disease", "amyloid-beta-oligomers"], "note": "BDNF/TrkB信号轴是L-LTP蛋白合成的关键上游；Aβ双重打击（下调BDNF表达+阻断TrkB信号）；proBDNF/p75NTR反转效应；待建页面"},
+    {"slug": "prc-prion-protein", "referenced_by": ["alzheimers-disease", "amyloid-beta-oligomers"], "note": "细胞朊病毒蛋白（PrPC），Aβ寡聚体的高亲和力细胞表面受体；与mGluR5共形成受体复合物；激活Fyn激酶→NR2B磷酸化；待建页面"}
   ]
 }

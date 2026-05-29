@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-06-03
-revision_count: 5
-dimensions: [brain-region, microcircuit, cognition]
-related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons]
+updated: 2026-06-08
+revision_count: 6
+dimensions: [brain-region, microcircuit, cognition, disease]
+related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers]
 prerequisites: [synaptic-transmission, ltp, action-potential]
-opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism]
-source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof]
-key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386"]
+opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism]
+key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818"]
 ---
 
 # 海马回路 (Hippocampal Circuit)
@@ -125,6 +125,7 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 
 - Q-ca2-function：CA2 亚区（在 CA3 和 CA1 之间）在记忆编码中的具体角色？与社会记忆相关？
 - Q-hippocampal-consolidation-mechanism：海马→皮层的记忆巩固是如何精确调控的？SWR 重放选择哪些序列？
+- Q-ad-vulnerable-synapses：为什么CA3-CA1突触（Schaffer侧支）是AD中首批受损的突触？高NR2B密度+内嗅皮层传播路径（Braak I期）的联合假说是否足够？什么分子标志物可以预测某个突触的AD易损性？
 
 ## 修订历史
 
@@ -133,6 +134,7 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：DG 是印迹细胞分配竞争的主要场所（2–4% 稀疏活动→高正交性）；DG→CA3→CA1→BLA 印迹间优先连接链的描述；连接增加 [[engram-cells]]
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；填补 Q-hippocampal-consolidation-mechanism 的核心内容（SO-spindle-SWR三重奏、ACh 双模式开关、两阶段模型）
 - 2026-06-03 · 修订 · 基于《回路中的少数精锐》文章 · 新增：CA1 内 PV+ 篮状细胞（SWR 期高速放电、涟漪产生者）和 SST+ O-LM 细胞（θ期活跃、门控EC输入）的角色描述；connected to [[pv-interneurons]] 和 [[sst-interneurons]]
+- 2026-06-08 · 修订 · 基于《记忆的分子遗忘》一文（AD机制） · 新增 AD 易损性分析（CA3-CA1 Schaffer侧支高NR2B密度+内嗅皮层传播路径联合机制）；related 新增 alzheimers-disease、amyloid-beta-oligomers；dimensions 新增 disease；opens_questions 新增 Q-ad-vulnerable-synapses；key_sources 新增 PMID:1789684、PMID:20581818
 
 ## 来源文章
 

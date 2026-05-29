@@ -1,0 +1,220 @@
+# 运行日志 · 2026-06-08
+
+**文章编号**：#16（第三周·第 2 篇）
+**运行时间**：2026-06-08 UTC+8
+**模式**：disease_as_window（以疾病为窗口回顾机制）
+**分支**：main
+
+---
+
+## 0. 环境初始化
+
+- 同步 main 分支：成功（从 origin/main 拉取，包含 articles 1-15，wiki 42页）
+- ROUTINE.md：已读取并确认存在
+- KNOWLEDGE-BASE-DESIGN.md：已读取并确认存在
+- git 作者配置：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+- 注：执行环境初始分支为 claude/funny-einstein-UwhFF，已按 ROUTINE.md 切换至 main
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json 最新条目：2026-06-07（第15篇，多巴胺奖励预测误差），last_updated=2026-06-07，total=15
+- 系统日期（UTC+8）：2026-05-29（本地时钟）；仓库序列逻辑日期：2026-06-08（接续15篇）
+- **决策**：按知识库序列逻辑写第16篇，日期 2026-06-08（第三周第2篇）
+- unresolved_questions.md：读取并确认 Q-nmda-alzheimer（NMDA受体与AD）等预存问题
+- contested_claims.json：open_count=2（C-2026-05-24-01、C-2026-05-25-01），今日无新矛盾
+- _graph.json：42 节点，207 边（操作前状态）
+- monthly_synthesis.md：disease层（AD）标记为待写；layer_note 明确推荐 AD 或光遗传学
+
+---
+
+## B. 选题
+
+**候题来源**：
+1. topic_ledger.json layer_note：disease 和 methods 层完全空白，推荐"disease 层（AD）或 methods 层（光遗传学）"
+2. nmda-receptor.md 存在预存开放问题 Q-nmda-alzheimer：NMDA受体与AD的关联
+3. hippocampal-circuit.md、ltp.md 均有大量现有内容可被病理层拓展
+4. article #15 的 next_suggested_topics 第一条即为"阿尔茨海默病（disease层首篇）"
+
+**选定主题**：阿尔茨海默病——Aβ寡聚体破坏海马突触可塑性的分子机制
+
+**理由**：
+- 开启 disease 层（首篇疾病层文章）
+- 部分回答预存问题 Q-nmda-alzheimer
+- 与5个既有节点（LTP、NMDA受体、海马回路、记忆巩固、theta振荡）强连接
+- 斑块清除悖论提供独立验证角度
+
+**核心问题**：Aβ寡聚体通过哪些分子机制破坏海马CA3-CA1突触的LTP，导致AD早期记忆缺失？
+
+---
+
+## C. 文献检索
+
+**检索策略**：
+- 数据库：PubMed/NCBI E-utilities、PubMed Central（PMC）、WebSearch
+- 主要检索词：
+  - "amyloid beta oligomers LTP hippocampus synaptic dysfunction"
+  - "Alzheimer disease synapse loss cognitive decline review"
+  - "Terry 1991 synapse density cognitive decline Alzheimer"
+  - "Walsh 2002 naturally secreted amyloid beta oligomers LTP"
+  - "Li 2011 soluble Aβ oligomers NR2B NMDA LTP"
+  - "Palop Mucke 2010 synaptic dysfunction Alzheimer"
+  - "Goutagny 2013 theta gamma oscillation Alzheimer before amyloid"
+
+**检索问题与处理**：
+- PubMed filter=free+full+text 导致 "Invalid filter key" 报错 → 删除 filter 参数后正常检索
+
+**最终纳入文献（12篇）**：
+
+| # | PMID/PMCID | 第一作者 | 年份 | 期刊 | 全文 | 用途 |
+|---|-----------|---------|------|------|------|------|
+| 1 | PMID:1789684 | Terry RD | 1991 | Ann Neurol | 摘要 | 突触密度-认知相关性（r=0.96） |
+| 2 | PMID:11932745 | Walsh DM | 2002 | Nature | 摘要 | 天然Aβ寡聚体体内抑制LTP |
+| 3 | PMID:17360908 (PMC6672572) | Shankar GM | 2007 | J Neurosci | ✅开放 | 100-300pM Aβ → 75%棘丢失，可逆 |
+| 4 | PMID:21543591 | Li S | 2011 | J Neurosci | 摘要 | 突触外NR2B → p38/CREB阻断 |
+| 5 | PMID:22762015 | Mucke L | 2012 | CSHL Persp | 摘要 | Aβ毒性综述 |
+| 6 | PMID:20581818 | Palop JJ | 2010 | Nat Neurosci | 摘要 | Aβ网络双相效应 |
+| 7 | PMID:23773058 | Goutagny R | 2013 | Eur J Neurosci | 摘要 | theta-gamma先于Aβ损伤 |
+| 8 | PMID:26871627 | De Strooper B | 2016 | Cell | 摘要 | AD细胞阶段框架 |
+| 9 | PMID:41929946 (PMC13039067) | Behroozi Z | 2026 | JAD Reports | ✅开放 | 五通路综合综述，定量数据 |
+| 10 | PMID:40302031 (PMC12040739) | Jin SX | 2025 | Alz & Dem | ✅开放 | 苔藓纤维LTP，cAMP救援 |
+| 11 | PMC8231952 | Bhatt R | 2021 | Cells | ✅开放 | 临床试验综述，斑块清除悖论 |
+| 12 | PMC8248350 | Various | 2021 | Front Aging Neurosci | ✅开放 | 振荡-突触可塑性，TMS证据 |
+
+开放获取：5 篇（PMC 全文）；摘要仅及：7 篇（付费墙）
+
+---
+
+## D. 文章写作
+
+**文件**：`neuro-daily/articles/2026-06-08-alzheimers-amyloid-synaptic-mechanism.md`
+
+**篇幅**：约 5000 字（中文）
+
+**结构**：
+1. 导言：从"记忆的分子遗忘"切入
+2. 范式转移：从斑块假说到寡聚体假说
+3. 五条分子攻击通路：
+   - 通路一：PrPC/mGluR5/Fyn/NR2B过激活 → CaMKII劫持
+   - 通路二：突触外NR2B → p38/CREB阻断
+   - 通路三：Calcineurin/PP1过激活 → AMPA受体内吞
+   - 通路四：BDNF/TrkB截断 + proBDNF/p75NTR逆转
+   - 通路五：Tau错位至树突棘
+4. 网络层面损伤（theta-gamma耦合，双相效应）
+5. 关键证据表（5条关键数据）
+6. 类比：手动挡汽车被卡在倒档
+7. 临床验证：斑块清除悖论（Aducanumab等）
+8. 争议与前沿（tau独立通路，聚合度差异）
+9. AI比较（Aβ毒性 vs 神经网络权重污染）
+10. 概念卡片
+11. 认知地图更新
+12. 参考文献（12篇）
+
+**来源引用**：12 篇，均附 PMID/PMCID；5 篇引用全文内容，7 篇引用摘要并注明
+
+---
+
+## E. 笔记写作
+
+**文件**：`neuro-daily/notes/2026-06-08-reading-notes.md`
+
+- 7篇关键文献的详细阅读笔记（目标、方法、发现、改变理解、证据强度、局限）
+- 关键洞见整合 3 条
+- 与已有 wiki 概念的关联
+
+---
+
+## F. 来源记录与状态更新
+
+**文件**：`neuro-daily/sources/2026-06-08-sources.json`
+- 12 篇来源的结构化 JSON
+- 全文可用性、置信度评级、覆盖主题、关键数字
+
+**状态更新**：
+- `state/source_registry.json`：新增 12 条来源，last_updated→2026-06-08
+- `state/topic_ledger.json`：total_articles 15→16，layer_coverage_recent.disease 新增 "2026-06-08"，新增 article #16 完整条目
+- `state/unresolved_questions.md`：新增 4 个未解问题（Q-ad-vulnerable-synapses、Q-ad-intervention-window、Q-ad-tau-cascade、Q-abeta-oligomer-subtypes）
+- `state/monthly_synthesis.md`：disease层AD标记完成（✅），新增洞见 39-41
+- `state/maturity_index.json`：新增 alzheimers-disease 和 amyloid-beta-oligomers 两个条目
+- `state/contested_claims.json`：无新矛盾（open_count 仍为 2）
+
+---
+
+## G. Wiki 固结
+
+### 新建页面（2）
+
+1. **`diseases/alzheimers-disease.md`**（首建 diseases/ 子目录）
+   - 成熟度：established / 置信度：high
+   - 关键来源：PMID:1789684、11932745、17360908、21543591、20581818
+   - 关联：8 个既有节点
+   - 新开问题：Q-ad-vulnerable-synapses、Q-ad-tau-cascade、Q-ad-intervention-window
+
+2. **`concepts/amyloid-beta-oligomers.md`**
+   - 成熟度：established / 置信度：high
+   - 关键来源：PMID:17360908、21543591、41929946
+   - 关联：6 个既有节点
+
+### 修订页面（3）
+
+3. **`concepts/ltp.md`**（revision 5→6）
+   - 新增"LTP的病理镜像"小节（5条Aβ攻击通路，突触静默可逆性）
+   - related 新增 alzheimers-disease、amyloid-beta-oligomers
+   - key_sources 新增 PMID:11932745、17360908、21543591
+
+4. **`concepts/nmda-receptor.md`**（revision 3→4）
+   - 新增"突触外NR2B——LTP的解毒剂"小节（突触vs突触外NR2B对照表）
+   - 预存问题 Q-nmda-alzheimer 标记为"已部分解答（2026-06-08）"
+   - related 新增 alzheimers-disease、amyloid-beta-oligomers、calcineurin
+
+5. **`neurons/hippocampal-circuit.md`**（revision 5→6）
+   - 新增"Aβ对海马回路的双相损伤"内容
+   - related 新增 alzheimers-disease、amyloid-beta-oligomers
+   - 新增开放问题 Q-ad-vulnerable-synapses
+
+### 知识图谱更新（_graph.json）
+
+- 节点：42 → 44（+2：alzheimers-disease、amyloid-beta-oligomers）
+- 边：207 → 219（+12）
+- 新悬空引用：bdnf-trkb、prc-prion-protein（已记录 dangling_references）
+- 解决的预存悬空引用：无（本次为新增）
+
+### 其他固结文件
+
+- `wiki/index.md`：44 页（+2），diseases/ 目录从"待建"升级为活跃，文章历史新增 #16
+- `wiki/CHANGELOG.md`：新增 2026-06-08 条目（顶部）
+
+### 矛盾（contested claims）
+
+无新矛盾登记。tau与Aβ的关系记录为未解问题 Q-ad-tau-cascade，证据倾向tau是Aβ下游，但仍有平行通路证据；两者并非直接矛盾。
+
+---
+
+## H. 自检
+
+- [x] 所有 wiki 断言有来源支持（PMID/PMCID 可追溯）
+- [x] 新建 2 页均有 YAML frontmatter（diseases/alzheimers-disease.md、concepts/amyloid-beta-oligomers.md）
+- [x] 修订页 revision_count、updated 已更新（ltp 5→6、nmda-receptor 3→4、hippocampal-circuit 5→6）
+- [x] _graph.json 无孤立节点（2新节点均有 ≥6 条边）
+- [x] index.md 总数与实际页面数一致（44）
+- [x] CHANGELOG.md 已追加今日条目
+- [x] topic_ledger.json total_articles=16，disease层已记录
+- [x] Q-nmda-alzheimer 已标记为"已部分解答（2026-06-08）"
+- [x] 新增未解问题 Q-ad-vulnerable-synapses 等已录入 unresolved_questions.md
+- [x] source_registry.json 新增 12 条，last_updated=2026-06-08
+- [x] 抽查引用：Shankar 2007 spine loss ~75% / 15天 / 可逆 → 文章/notes/wiki 三处一致
+
+---
+
+## I. Git 提交
+
+**命令**：
+```
+git add neuro-daily/
+git commit -m "Add neuro daily article + wiki consolidation for 2026-06-08"
+git pull --rebase origin main
+git push origin main
+```
+
+**提交状态**：见下方实际执行结果

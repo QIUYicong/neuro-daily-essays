@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-07
-revision_count: 5
-dimensions: [synaptic, cellular, cognition, brain-region]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule]
+updated: 2026-06-08
+revision_count: 6
+dimensions: [synaptic, cellular, cognition, brain-region, disease]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -24,7 +24,7 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 
 我们现在认为，LTP 是突触可塑性的核心机制之一，是"用进废退"原则在突触层面的分子实现。LTP 的诱导需要 NMDA 受体的激活（即突触前和突触后活动的 Hebb 型巧合），Ca²⁺ 内流激活 CaMKII（自磷酸化至 T286），CaMKII 驱动 AMPA 受体从胞内再循环内体通过胞吐和横向扩散插入突触后致密区（PSD），突触传递效率持久增强。早期 LTP（E-LTP，数小时）主要依赖蛋白修饰（磷酸化）；晚期 LTP（L-LTP，数天至数周）还需要新蛋白质合成和树突棘结构的持久改变。海马 CA1 突触 LTP 的表达主要在突触后（AMPA 受体插入），而苔藓纤维→CA3 的 LTP 有明显的突触前成分（cAMP 依赖的递质释放增加）。
 
-**重要**：LTP 不只是学习的必要条件，也与多种疾病相关——Aβ 寡聚体损害 LTP 并触发 LTD 样变化，可能是阿尔茨海默病早期记忆损害的突触层面机制。
+**重要：LTP的病理镜像**：LTP是学习的正向引擎，也是疾病攻击的核心靶标。Aβ寡聚体通过至少五条并行通路（突触外NR2B/p38/CREB、calcineurin过激活/AMPA内吞、BDNF/TrkB截断、tau错位、PrPC/Fyn/NR2B过激活）将LTP机器系统性拆解，是阿尔茨海默病早期记忆损害的突触层面机制。**关键洞见**：LTP的可逆阻断（"突触沉默"而非细胞死亡）在早期AD是可恢复的（Shankar et al. 2007：撤去Aβ处理5天后棘密度恢复），这解释了为什么早期干预有潜在效果。
 
 **2026-05-28 新增（来自《场所细胞》文章）**：LTP 并非大脑唯一的持久性突触增强机制。海马 CA1 中的**行为时间尺度突触可塑性（BTSP）**是一种独立的学习规则，由树突钙平台电位（而非 NMDA 受体激活）触发，时间窗口约 ±3–4 秒（远超 LTP 诱导的毫秒级）。BTSP 可在单次体验中建立稳定的场所场。两者可能各有适用场景：LTP 适合精细调整和长期巩固，BTSP 适合快速写入行为级别的情景记忆。两者可能共享 NMDA 受体下游的部分分子机器（CaMKII 等），但触发条件和时间逻辑完全不同。
 
@@ -85,6 +85,8 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 
 ## 连接
 
+- [[alzheimers-disease]] — AD的核心病理是LTP的系统性失效；Aβ寡聚体通过多通路将LTP机器单向瓦解
+- [[amyloid-beta-oligomers]] — LTP的主要分子劫持者；通过突触外NR2B、calcineurin、BDNF截断等机制阻断LTP
 - [[nmda-receptor]] — LTP 诱导的必要门卫，提供 Ca²⁺ 内流触发
 - [[ampa-receptor]] — LTP 表达的主要执行机制（受体插入增加突触权重）
 - [[camkii]] — Ca²⁺ 内流的第一个主要下游效应器，对诱导和维持均必要
@@ -109,6 +111,7 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：印迹细胞是 LTP 的细胞层面体现（印迹细胞 AMPA/NMDA 比值高于非印迹）；沉默印迹中 LTP 缺失但拓扑保留；光学 LTP 可恢复 AD 模型中的沉默印迹；related 增加 engram-cells；key_sources 新增 PMID:26023136, 26982728；Q-ltp-behavior-correspondence 补充印迹研究的部分回答
 - 2026-06-04 · 修订 · 基于《LTD 文章》· 补充 LTP 的对称对立面（LTD）的完整图景；Ca²⁺ 量决定 LTP vs. LTD 方向（BCM 框架）；related 新增 ltd、calcineurin（PP2B 是 LTP 的拮抗者）；ltp-ltd 悬空引用修正为 ltd
 - 2026-06-07 · 修订 · 基于《多巴胺的时间机器》一文 · 新增 DA-LTP 机制（D1/D5→cAMP→PKA→CREB→L-LTP，来自 Huang & Kandel 1995 PNAS，PMC42234）；新增突触标记与捕获（STC）作为 L-LTP 选择性诱导机制；related 新增 dopamine-reward-prediction-error、synaptic-tagging-capture、three-factor-learning-rule；key_sources 新增 PMID:7708662、PMID:9020359
+- 2026-06-08 · 修订 · 基于《记忆的分子遗忘》一文（AD与LTP失效） · 扩展"LTP的病理镜像"段落（Aβ五条并行攻击通路；突触沉默的可逆性）；related 新增 alzheimers-disease、amyloid-beta-oligomers；key_sources 新增 PMID:11932745、PMID:17360908、PMID:21543591；dimensions 新增 disease；连接新增 alzheimers-disease 和 amyloid-beta-oligomers
 
 ## 来源文章
 

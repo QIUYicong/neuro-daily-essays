@@ -314,6 +314,22 @@
       "supporting_sources": 2,
       "last_status_change": "2026-06-07",
       "reason": "创建 2026-06-07。Frey & Morris 1997（PMID:9020359）原始发现：E-LTP 在约 1-2 h 内设置突触标记，强刺激诱导的 PRP 可被弱路径的标记捕获，确立 E-LTP→L-LTP 转化机制；Huang & Kandel 1995（PMID:7708662）提供 DA→D1→PKA→CREB→PRP 链的实验证据。标记-捕获模型本身 mainstream（多实验室重复，不同突触类型验证），但分子标记的确切身份（CaMKII 磷酸化状态、具体蛋白）尚有争议（见 Q-stc-molecular-tag）；DA 介导 STC 的时间窗口在体内条件下的精确值亦待确认。故 confidence medium。"
+    },
+    {
+      "slug": "alzheimers-disease",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 8,
+      "last_status_change": "2026-06-08",
+      "reason": "创建 2026-06-08。AD作为神经退行性疾病本身是established（百年临床病理学积累）。其突触损伤机制：Terry et al. 1991（PMID:1789684）确立突触密度与认知的高相关（r=0.96）；Walsh et al. 2002（PMID:11932745, Nature）确立可溶性Aβ寡聚体（而非斑块）是LTP抑制的毒性物种；Shankar et al. 2007（PMID:17360908, J Neurosci）提供定量数据（100-300 pM→75%棘丢失，可逆）；Li et al. 2011（PMID:21543591）阐明突触外NR2B/p38/CREB通路；临床三期试验（lecanemab、donanemab）反向验证寡聚体假说。多实验室、多物种、多方法（电生理、成像、临床）交叉验证。confidence high，但分子机制全景（tau与Aβ的时序关系、不同细胞类型贡献）仍有未解方面。"
+    },
+    {
+      "slug": "amyloid-beta-oligomers",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-06-08",
+      "reason": "创建 2026-06-08。Aβ寡聚体为AD核心毒性物种的证据：Walsh 2002（PMID:11932745）天然分泌寡聚体（非单体/纤维）体内LTP抑制——关键鉴别实验；Shankar 2007（PMID:17360908）提供定量剂量和可逆性；Li 2011（PMID:21543591）突触外NR2B/p38/CREB分子机制；2026综述（PMC:13039067）CaMKII降低60%等定量数据。临床：靶向寡聚体抗体减缓认知衰退且斑块清除不与临床获益相关（PMC:8231952），反向验证寡聚体（非斑块）是主要毒性物种。confidence high，不确定性主要在不同寡聚体亚型（大小/构象）的差异毒性（见Q-abeta-oligomer-subtypes）。"
     }
   ]
 }

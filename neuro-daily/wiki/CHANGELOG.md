@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-06-08（第三周·第 2 篇，文章 #16）
+
+**源文章**：[[2026-06-08-alzheimers-amyloid-synaptic-mechanism]] —《记忆的分子遗忘：淀粉样寡聚体如何精准瓦解海马突触可塑性》
+
+**新建页面（2）**：
+- `diseases/alzheimers-disease.md`（阿尔茨海默病）🟢 established / 置信度高 — 首次建立疾病页（disease层空缺填补）；Aβ寡聚体5条并行通路；突触密度与认知衰退r=0.96（Terry 1991）；早期棘丢失可逆性（Shankar 2007）；斑块清除悖论（临床反向验证）；AD易损性分析（CA3-CA1高NR2B+内嗅皮层传播路径）；连接8个既有节点；新增未解问题Q-ad-vulnerable-synapses、Q-ad-tau-cascade、Q-ad-intervention-window
+- `concepts/amyloid-beta-oligomers.md`（Aβ寡聚体）🟢 established / 置信度高 — Aβ寡聚体毒性物种认定（Walsh 2002：天然分泌寡聚体vs单体/纤维）；浓度数据（100-300 pM → 75%棘丢失）；PrPC/mGluR5/Fyn通路；突触外NR2B→p38/CREB通路；CaMKII降低60%、NR2B开放概率升高40%；连接6个既有节点
+
+**修订页面（3）**：
+- `concepts/ltp.md`（revision_count 5→6）：扩展"LTP病理镜像"段落（5条并行Aβ攻击通路；突触沉默可逆性早期干预意义）；related 新增 alzheimers-disease、amyloid-beta-oligomers；dimensions 新增 disease；key_sources 新增 PMID:11932745、17360908、21543591；连接 2 个新节点
+- `concepts/nmda-receptor.md`（revision_count 3→4）：新增"第四重角色：突触外NR2B-LTP反向信号"小节；**解答 Q-nmda-alzheimer**（Aβ通过优先激活突触外而非突触内NR2B阻断LTP，而非直接破坏受体）；related 新增 alzheimers-disease、amyloid-beta-oligomers、calcineurin；dimensions 新增 disease；Q-nmda-alzheimer 更新为"已部分解答"
+- `neurons/hippocampal-circuit.md`（revision_count 5→6）：新增AD易损性分析（CA3-CA1高NR2B密度+内嗅皮层Braak I期传播路径）；related 新增 alzheimers-disease、amyloid-beta-oligomers；dimensions 新增 disease；opens_questions 新增 Q-ad-vulnerable-synapses
+
+**悬空引用新增（2）**：
+- `bdnf-trkb`：被 alzheimers-disease 引用，BDNF/TrkB信号轴是L-LTP蛋白合成的关键上游；待建页面
+- `prc-prion-protein`：被 amyloid-beta-oligomers、alzheimers-disease 引用，Aβ寡聚体的高亲和力细胞表面受体；待建页面
+
+**矛盾登记（0）**：今日无新矛盾。theta-gamma耦合早于Aβ产生（Goutagny 2013）与Aβ→振荡失调（Mucke 2012）看似矛盾，但实为不同时间点的观察（振荡损伤先于Aβ大量积累，并非晚于），记录为未解问题Q-ad-vulnerable-synapses而非矛盾。
+
+**解答的未解问题（1）**：
+- Q-nmda-alzheimer（创建于 2026-05-26）："Aβ寡聚体如何选择性损害NMDA受体依赖的LTP？" → 已部分解答：Aβ通过PrPC/mGluR5/Fyn磷酸化NR2B，并优先激活突触外（而非突触内）NR2B/p38 MAPK/CREB失活通路；突触内vs突触外NR2B比例的AD中变化仍待研究
+
+**图谱更新**：
+- 新节点：alzheimers-disease、amyloid-beta-oligomers（44个总节点）
+- 新增约12条边：alzheimers-disease→ltp/nmda-receptor/hippocampal-circuit/memory-consolidation/engram-cells/theta-oscillations；amyloid-beta-oligomers→ltp/nmda-receptor/calcineurin/camkii/ampa-receptor；等
+
+---
+
 ## 2026-06-07（第三周·第 1 篇，文章 #15）
 
 **源文章**：[[2026-06-07-dopamine-reward-prediction-error]] —《多巴胺奖励预测误差：大脑如何用一个信号重写所有预期》
