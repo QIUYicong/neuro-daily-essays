@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-05-27
-revision_count: 2
-dimensions: [molecular, synaptic, cellular, cognition]
-related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron]
+updated: 2026-06-05
+revision_count: 3
+dimensions: [molecular, synaptic, cellular, cognition, brain-region]
+related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex]
 prerequisites: [synaptic-transmission, action-potential, membrane-potential]
 opens_questions: [Q-nmda-coincidence-window, Q-glun2-switch-development, Q-nmda-alzheimer]
 source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation]
@@ -98,8 +98,10 @@ GluN2B 在幼年期高表达，其更长的衰减时间常数意味着更宽的�
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-27 · 修订 · 基于《树突：神经元内部的神经网络》一文 · 新增"NMDA 受体的双重身份"概念（突触层面巧合检测器 vs 分支层面 NMDA 棘波计算单元）；关键证据表新增 Smith 2013 体内视觉皮层证据 + Schiller 2000 NMDA 棘波证据；连接新增 dendritic-computation；dimensions 新增 cellular
+- 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 新增第三重角色：PFC 工作记忆回路中作为时间积分器（慢衰减 τ ~100–300 ms 支撑循环激活的吸引子状态）；related 新增 persistent-activity, working-memory, prefrontal-cortex；dimensions 新增 brain-region（PMID:11476885；Wang 2001 吸引子模型）
 
 ## 来源文章
 
 - [[2026-05-26-nmda-receptor-ltp]]
 - [[2026-05-27-dendritic-computation]]
+- [[2026-06-05-prefrontal-working-memory]]

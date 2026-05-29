@@ -1,0 +1,221 @@
+{
+  "date": "2026-06-05",
+  "article": "2026-06-05-prefrontal-working-memory.md",
+  "topic": "前额叶皮层与工作记忆：γ爆发、吸引子网络与活动无声模型",
+  "total_sources": 8,
+  "open_full_text_count": 4,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "4998337",
+      "pmcid": null,
+      "doi": null,
+      "title": "Neuron activity related to short-term memory",
+      "authors": "Fuster JM, Alexander GE",
+      "year": 1971,
+      "journal": "Science",
+      "volume": "173",
+      "issue": "3997",
+      "pages": "652-654",
+      "full_text_available": false,
+      "access_note": "1971年发表，无PMC开放获取；仅读摘要",
+      "used_for": ["delay-period activity首次发现", "PFC持续活动经典证据"],
+      "key_claims_used": [
+        "猕猴延迟匹配任务中PFC神经元在延迟期持续放电",
+        "丘脑背内侧核也参与短时记忆回路"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "7695894",
+      "pmcid": null,
+      "doi": null,
+      "title": "Cellular basis of working memory",
+      "authors": "Goldman-Rakic PS",
+      "year": 1995,
+      "journal": "Neuron",
+      "volume": "14",
+      "issue": "3",
+      "pages": "477-485",
+      "full_text_available": false,
+      "access_note": "付费墙，仅读摘要",
+      "used_for": ["工作记忆神经基础经典框架", "PFC亚区分工"],
+      "key_claims_used": [
+        "不同PFC亚区对应不同工作记忆内容类型",
+        "延迟期放电具有选择性（内容编码）"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "11476885",
+      "pmcid": null,
+      "doi": "10.1016/s0166-2236(00)01868-3",
+      "title": "Synaptic reverberation underlying mnemonic persistent activity",
+      "authors": "Wang XJ",
+      "year": 2001,
+      "journal": "Trends in Neurosciences",
+      "volume": "24",
+      "issue": "8",
+      "pages": "455-463",
+      "full_text_available": false,
+      "access_note": "仅读摘要（DOI可访问，但无PMC）",
+      "used_for": ["吸引子网络模型", "NMDA受体在持续活动中的角色"],
+      "key_claims_used": [
+        "NMDA受体慢衰减（τ~100-300ms）是循环回路自持活动的关键时间尺度",
+        "连续吸引子（bump attractor）模型解释空间工作记忆"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "18339943",
+      "pmcid": null,
+      "doi": null,
+      "title": "Synaptic theory of working memory",
+      "authors": "Mongillo G, Barak O, Tsodyks M",
+      "year": 2008,
+      "journal": "Science",
+      "volume": "319",
+      "issue": "5869",
+      "pages": "1543-1545",
+      "full_text_available": false,
+      "access_note": "付费墙，仅读摘要",
+      "used_for": ["活动无声工作记忆假说", "突触STP储存机制"],
+      "key_claims_used": [
+        "工作记忆可通过突触短时程易化（STP）在无持续放电的情况下维持",
+        "Ca²⁺残留和囊泡池就绪状态构成「静默存储」介质",
+        "刷新脉冲防止STP衰减"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "26996084",
+      "pmcid": "PMC5220584",
+      "doi": "10.1016/j.neuron.2016.02.028",
+      "title": "Gamma and Beta Bursts Underlie Working Memory",
+      "authors": "Lundqvist M, Rose J, Herman P, Brincat SL, Buschman TJ, Miller EK",
+      "year": 2016,
+      "journal": "Neuron",
+      "volume": "90",
+      "issue": "1",
+      "pages": "152-164",
+      "full_text_available": true,
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5220584/",
+      "used_for": ["γ爆发vs持续放电", "β振荡默认态", "工作记忆动态代码"],
+      "key_claims_used": [
+        "工作记忆延迟期出现γ爆发（45-100Hz，~67ms/次）而非持续放电",
+        "β爆发（20-35Hz）代表默认网络态",
+        "39%的记录电极显示γ调制",
+        "γ爆发期间信息编码清晰，间隔期消失"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "21345366",
+      "pmcid": "PMC3115784",
+      "doi": "10.1016/j.ijdevneu.2011.02.006",
+      "title": "Prefrontal cortical network connections: key site of vulnerability in stress and schizophrenia",
+      "authors": "Arnsten AF",
+      "year": 2011,
+      "journal": "International Journal of Developmental Neuroscience",
+      "volume": "29",
+      "issue": "3",
+      "pages": "215-223",
+      "full_text_available": true,
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3115784/",
+      "used_for": ["多巴胺D1倒U型调节", "cAMP-HCN轴", "压力对PFC的影响"],
+      "key_claims_used": [
+        "多巴胺D1受体对PFC工作记忆呈倒U型调节",
+        "cAMP升高→HCN通道激活→回路「断开」",
+        "深层L3锥体细胞是WM关键细胞群",
+        "精神分裂症中L3树突棘密度下降"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "39381500",
+      "pmcid": "PMC11458443",
+      "doi": "10.3389/fncel.2024.1440834",
+      "title": "GABAergic dysfunction in postmortem dorsolateral prefrontal cortex: implications for cognitive deficits in schizophrenia and affective disorders",
+      "authors": "Hughes H, Brady LJ, Schoonover KE",
+      "year": 2024,
+      "journal": "Frontiers in Cellular Neuroscience",
+      "volume": "18",
+      "pages": "1440834",
+      "full_text_available": true,
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11458443/",
+      "used_for": ["PV-γ-WM轴的病理证据", "DLPFC微回路", "精神分裂症WM缺陷"],
+      "key_claims_used": [
+        "精神分裂症dlPFC中PV mRNA减少、GAD67降低",
+        "γ功率在精神分裂症中降低，与WM缺陷相关",
+        "DLPFC浅层微回路：锥体细胞+PV篮状细胞+SST+VIP"
+      ]
+    },
+    {
+      "id": "S8",
+      "pmid": "41478518",
+      "pmcid": "PMC12924665",
+      "doi": "10.1016/j.pneurobio.2025.102873",
+      "title": "Prefrontal cortex interneurons and their contributions to attention, working memory, and adaptive behavior",
+      "authors": "Boroujeni KB, Balaram P, Tiesinga P, Womelsdorf T",
+      "year": 2026,
+      "journal": "Progress in Neurobiology",
+      "volume": "247",
+      "pages": "102873",
+      "full_text_available": true,
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12924665/",
+      "used_for": ["PFC中间神经元功能综述", "PV/SST/VIP在WM中的角色"],
+      "key_claims_used": [
+        "PV篮状细胞胞体抑制+γ同步，是WM维持的节律控制器",
+        "VIP→SST/PV去抑制增强选定神经群WM维持",
+        "跨物种差异：猕猴vs啮齿类PFC中间神经元连接模式不同"
+      ]
+    }
+  ],
+  "search_queries": [
+    {
+      "database": "PubMed E-utilities",
+      "query": "Fuster Alexander neuron activity short-term memory 1971",
+      "result": "PMID 4998337"
+    },
+    {
+      "database": "PubMed E-utilities",
+      "query": "Goldman-Rakic cellular basis working memory 1995 Neuron",
+      "result": "PMID 7695894"
+    },
+    {
+      "database": "PubMed E-utilities",
+      "query": "Mongillo Barak Tsodyks synaptic working memory 2008 Science",
+      "result": "PMID 18339943"
+    },
+    {
+      "database": "PubMed E-utilities",
+      "query": "Lundqvist Miller gamma beta bursts working memory 2016 Neuron",
+      "result": "PMID 26996084"
+    },
+    {
+      "database": "PubMed E-utilities",
+      "query": "Wang XJ synaptic persistent activity working memory 2001",
+      "result": "PMID 11476885"
+    },
+    {
+      "database": "PubMed E-utilities",
+      "query": "prefrontal cortex working memory gamma oscillations PV interneurons review 2019-2025",
+      "result": "PMID 41478518, PMID 39381500"
+    },
+    {
+      "database": "PubMed E-utilities",
+      "query": "Arnsten prefrontal working memory dopamine stress review 2010-2025",
+      "result": "PMID 21345366 (selected)"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "reason": "付费墙，无法获取全文",
+      "papers": ["Goldman-Rakic 1995 (Neuron)", "Mongillo 2008 (Science)"]
+    },
+    {
+      "reason": "年代久远，无PMC",
+      "papers": ["Fuster & Alexander 1971 (Science)", "Wang 2001 (Trends Neurosci)"]
+    }
+  ]
+}

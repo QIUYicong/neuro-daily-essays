@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-04",
-  "total_articles": 12,
+  "last_updated": "2026-06-05",
+  "total_articles": 13,
   "entries": [
     {
       "date": "2026-05-24",
@@ -14,9 +14,15 @@
         "wiki/circuits/chandelier-cell.md"
       ],
       "wiki_pages_revised": [],
-      "contested_claims_logged": ["C-2026-05-24-01"],
+      "contested_claims_logged": [
+        "C-2026-05-24-01"
+      ],
       "core_question": "神经元接收数千个突触输入后，在哪里、用什么机制，做出'是否发放动作电位'的决定？",
-      "layer": ["分子", "细胞", "突触"],
+      "layer": [
+        "分子",
+        "细胞",
+        "突触"
+      ],
       "curriculum_track": "1. 神经元如何工作",
       "topic_tags": [
         "axon initial segment",
@@ -67,9 +73,15 @@
       "wiki_pages_revised": [
         "wiki/neurons/action-potential.md"
       ],
-      "contested_claims_logged": ["C-2026-05-25-01"],
+      "contested_claims_logged": [
+        "C-2026-05-25-01"
+      ],
       "core_question": "动作电位到达突触前终末后，钙离子如何在数百微秒内触发突触囊泡与突触前膜的融合，将神经递质精确地释放到突触间隙？",
-      "layer": ["分子", "细胞", "突触"],
+      "layer": [
+        "分子",
+        "细胞",
+        "突触"
+      ],
       "curriculum_track": "1. 神经元如何工作",
       "topic_tags": [
         "synaptic vesicle",
@@ -104,7 +116,7 @@
         "超快内吞（ultrafast endocytosis）的分子机制"
       ],
       "next_suggested_topics": [
-        "突触后受体：AMPA受体如何被谷氨酸激活？NMDA受体的"巧合检测器"功能",
+        "突触后受体：AMPA受体如何被谷氨酸激活？NMDA受体的「巧合检测器」功能",
         "树突计算详解：NMDA棘波、Ca²⁺棘波，单神经元的计算能力",
         "短时程突触可塑性：突触抑制和易化的分子机制",
         "Hebbian学习与LTP/LTD：突触层面的记忆"
@@ -114,7 +126,7 @@
     },
     {
       "date": "2026-05-26",
-      "title": "NMDA 受体：突触的"巧合检测器"，以及大脑如何在神经元间刻写记忆",
+      "title": "NMDA 受体：突触的「巧合检测器」，以及大脑如何在神经元间刻写记忆",
       "filename": "2026-05-26-nmda-receptor-ltp.md",
       "wiki_pages_created": [
         "wiki/concepts/nmda-receptor.md",
@@ -128,8 +140,12 @@
         "wiki/neurons/action-potential.md"
       ],
       "contested_claims_logged": [],
-      "core_question": "NMDA 受体如何同时感知"突触前活动"与"突触后去极化"，在单个突触处实现 Hebb 型巧合检测，并由此触发长时程增强（LTP）——这一突触可塑性机制如何奠定学习与记忆的分子基础？",
-      "layer": ["突触", "分子", "认知"],
+      "core_question": "NMDA 受体如何同时感知「突触前活动」与「突触后去极化」，在单个突触处实现 Hebb 型巧合检测，并由此触发长时程增强（LTP）——这一突触可塑性机制如何奠定学习与记忆的分子基础？",
+      "layer": [
+        "突触",
+        "分子",
+        "认知"
+      ],
       "curriculum_track": "1. 神经元如何工作 → 4. 学习和记忆（桥接篇）",
       "topic_tags": [
         "NMDA receptor",
@@ -192,7 +208,10 @@
       ],
       "contested_claims_logged": [],
       "core_question": "树突分支是否具有独立发放局部棘波的能力？NMDA 棘波和 Ca²⁺ 棘波如何使单个神经元成为多层计算机？",
-      "layer": ["细胞", "微回路"],
+      "layer": [
+        "细胞",
+        "微回路"
+      ],
       "curriculum_track": "1. 神经元如何工作（树突计算进阶）→ 3. 大脑如何编码世界（视觉皮层/海马）",
       "topic_tags": [
         "dendritic computation",
@@ -256,7 +275,11 @@
       ],
       "contested_claims_logged": [],
       "core_question": "海马 CA1 场所细胞如何通过树突钙平台电位和行为时间尺度突触可塑性（BTSP）在单次穿越中建立稳定场所场？",
-      "layer": ["脑区", "细胞", "突触"],
+      "layer": [
+        "脑区",
+        "细胞",
+        "突触"
+      ],
       "curriculum_track": "3. 大脑如何编码世界（空间表征）→ 4. 学习和记忆（BTSP 桥接）",
       "topic_tags": [
         "place cell",
@@ -325,7 +348,12 @@
       ],
       "contested_claims_logged": [],
       "core_question": "θ振荡如何使场所细胞实现速率+相位双重编码（相位前进），并在120毫秒的θ周期内将行为时间尺度路径压缩成θ序列？SWR如何以对称方式在休息/睡眠中高速重播这些序列，完成海马→皮层记忆固化？",
-      "layer": ["全脑网络", "脑区", "细胞", "行为"],
+      "layer": [
+        "全脑网络",
+        "脑区",
+        "细胞",
+        "行为"
+      ],
       "curriculum_track": "3. 大脑如何编码世界（时间编码） → 4. 学习和记忆（记忆固化）",
       "topic_tags": [
         "theta oscillations",
@@ -387,7 +415,16 @@
       ],
       "contested_claims_logged": [],
       "core_question": "六篇文章分别讲述了从钙纳米域到 SWR 离线固化的六个神经机制，它们之间是否有统一原理？答：嵌套时间编码层级——大脑在每个时间尺度（从亚毫秒到离线夜间）都通过精确时间巧合检测修改突触权重。",
-      "layer": ["分子", "细胞", "突触", "微回路", "脑区", "全脑网络", "行为", "认知"],
+      "layer": [
+        "分子",
+        "细胞",
+        "突触",
+        "微回路",
+        "脑区",
+        "全脑网络",
+        "行为",
+        "认知"
+      ],
       "curriculum_track": "综合篇·第一周（课程主线 1+3+4 交汇）",
       "topic_tags": [
         "weekly synthesis",
@@ -438,7 +475,12 @@
       ],
       "contested_claims_logged": [],
       "core_question": "印迹细胞（engram cells）是否是记忆的物质载体？从 Liu 2012 到 Roy 2016，光遗传学实验如何证明记忆宿于特定神经元集合，遗忘可以是提取障碍而非信息擦除，以及早期 AD 记忆失失可能是可逆的？",
-      "layer": ["行为", "细胞", "脑区", "认知"],
+      "layer": [
+        "行为",
+        "细胞",
+        "脑区",
+        "认知"
+      ],
       "curriculum_track": "4. 学习和记忆（印迹细胞·记忆的细胞基础）",
       "topic_tags": [
         "engram cells",
@@ -505,7 +547,11 @@
       ],
       "contested_claims_logged": [],
       "core_question": "CaV1/CaV2/CaV3三亚家族如何通过亚细胞定位分工，实现突触前毫秒级递质释放（P/Q型，纳米域耦合<30 nm）、树突BTSP平台电位（L型，73%贡献）和核内基因表达（L型→CaM→CaMKIV→CREB，晚期LTP基础）三种截然不同的功能？",
-      "layer": ["分子", "细胞", "突触"],
+      "layer": [
+        "分子",
+        "细胞",
+        "突触"
+      ],
       "curriculum_track": "1. 神经元如何工作（分子基础·钙通道）",
       "topic_tags": [
         "voltage-gated calcium channels",
@@ -578,7 +624,11 @@
       ],
       "contested_claims_logged": [],
       "core_question": "睡眠期间海马-新皮层对话如何实现系统层面记忆巩固？SO-spindle-SWR三重耦合的分子机制与标准巩固理论（SCT）vs 多重痕迹理论（MTT）之争：皮层是否真的独立于海马重建情节记忆？",
-      "layer": ["全脑网络", "行为", "认知"],
+      "layer": [
+        "全脑网络",
+        "行为",
+        "认知"
+      ],
       "curriculum_track": "4. 学习和记忆（系统巩固·睡眠依赖记忆）",
       "topic_tags": [
         "memory consolidation",
@@ -656,7 +706,12 @@
       ],
       "contested_claims_logged": [],
       "core_question": "皮层和海马中只占 20% 的 GABA 能中间神经元，如何通过 PV+/SST+/VIP+ 三类细胞的精确亚细胞分工实现时序控制、树突门控和去抑制调节？VIP→SST→锥体细胞的去抑制回路如何将行为信号（奖励、惩罚、注意）转化为皮层计算门？",
-      "layer": ["microcircuit", "cellular", "behavior", "cognition"],
+      "layer": [
+        "microcircuit",
+        "cellular",
+        "behavior",
+        "cognition"
+      ],
       "curriculum_track": "2. 神经网络的微回路设计（抑制性中间神经元多样性）",
       "topic_tags": [
         "parvalbumin interneuron",
@@ -726,7 +781,12 @@
       ],
       "contested_claims_logged": [],
       "core_question": "当大脑需要减弱一个突触连接时，它在分子层面精确地做什么？NMDA 受体依赖型 LTD 与 mGluR 依赖型 LTD 各自的触发逻辑有何不同？它们与 LTP 如何共同构成突触权重的双向调控系统？",
-      "layer": ["synaptic", "molecular", "cognition", "disease"],
+      "layer": [
+        "synaptic",
+        "molecular",
+        "cognition",
+        "disease"
+      ],
       "curriculum_track": "1. 神经元如何工作 → 4. 学习和记忆（突触双向可塑性完整篇）",
       "topic_tags": [
         "long-term depression",
@@ -786,17 +846,125 @@
       "mode": "long_term_curriculum",
       "article_number": 12,
       "dangling_reference_filled": "ltp-ltd（ltp 页中的悬空 related，改为已建立的 ltd 页面）"
+    },
+    {
+      "date": "2026-06-05",
+      "title": "γ 爆发、静默突触与持续放电：前额叶皮层如何在数秒内维持工作记忆",
+      "filename": "2026-06-05-prefrontal-working-memory.md",
+      "wiki_pages_created": [
+        "wiki/concepts/working-memory.md",
+        "wiki/concepts/persistent-activity.md",
+        "wiki/concepts/gamma-oscillations.md",
+        "wiki/systems/prefrontal-cortex.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/circuits/pv-interneurons.md",
+        "wiki/concepts/nmda-receptor.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "前额叶皮层如何在没有持续感觉输入的情况下，将信息保持在线长达数秒——是通过神经元持续放电（吸引子模型）、突触静默储存（活动无声 WM），还是 γ 爆发的间歇性激活？",
+      "layer": [
+        "brain-region",
+        "cognition",
+        "microcircuit",
+        "systems"
+      ],
+      "curriculum_track": "5. 认知控制（开篇）",
+      "topic_tags": [
+        "working memory",
+        "prefrontal cortex",
+        "dlPFC",
+        "persistent activity",
+        "gamma oscillations",
+        "gamma bursts",
+        "attractor network",
+        "NMDA receptor",
+        "activity-silent WM",
+        "short-term synaptic facilitation",
+        "dopamine D1",
+        "PV interneurons",
+        "schizophrenia"
+      ],
+      "main_sources": [
+        "PMID:4998337 (Fuster & Alexander 1971)",
+        "PMID:7695894 (Goldman-Rakic 1995)",
+        "PMID:11476885 (Wang 2001)",
+        "PMID:18339943 (Mongillo et al. 2008)",
+        "PMID:26996084 (PMC:PMC5220584) (Lundqvist et al. 2016)",
+        "PMID:21345366 (PMC:PMC3115784) (Arnsten 2011)",
+        "PMID:39381500 (PMC:PMC11458443) (Hughes et al. 2024)",
+        "PMID:41478518 (PMC:PMC12924665) (Boroujeni et al. 2026)"
+      ],
+      "unresolved_questions": [
+        "Q-wm-active-vs-silent: 活动性 vs 静默性 WM 在真实任务中各贡献多少比例？",
+        "Q-wm-capacity-mechanism: 约4项的容量限制是来自吸引子间竞争还是θ/γ嵌套约束？",
+        "Q-wm-pfc-content-vs-control: PFC 是内容存储器还是调度控制中心？",
+        "Q-gamma-wm-causality: γ爆发是工作记忆的因果机制还是仅为相关物？",
+        "Q-wm-human-specificity: 人类dlPFC是否有特有的工作记忆机制？"
+      ],
+      "next_suggested_topics": [
+        "短时程突触可塑性（STP）：突触易化（Syt7）与抑制（囊泡耗竭）的分子机制（与活动无声WM直接相关；Syt7悬空引用待填）",
+        "第二周综合：整合印迹细胞、记忆巩固、抑制性回路、LTD、工作记忆的统一认知框架（第14篇）",
+        "注意的神经机制：前额叶→感觉皮层的自上而下调控（延续WM/认知控制主题）",
+        "阿尔茨海默病（disease层首篇）：Aβ寡聚体如何劫持LTD机制造成突触损害，以及τ蛋白的AIS破坏"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 13
     }
   ],
   "layer_coverage_recent": {
-    "molecular": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-06-01", "2026-06-04"],
-    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28", "2026-06-01", "2026-06-03"],
-    "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28", "2026-06-01", "2026-06-04"],
-    "microcircuit": ["2026-05-27", "2026-06-03"],
-    "brain_region": ["2026-05-27", "2026-05-28"],
-    "whole_brain_network": ["2026-05-29", "2026-05-30", "2026-06-02"],
-    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31", "2026-06-02", "2026-06-03"],
-    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31", "2026-06-02", "2026-06-03"],
+    "molecular": [
+      "2026-05-24",
+      "2026-05-25",
+      "2026-05-26",
+      "2026-06-01",
+      "2026-06-04"
+    ],
+    "cellular": [
+      "2026-05-24",
+      "2026-05-25",
+      "2026-05-27",
+      "2026-05-28",
+      "2026-06-01",
+      "2026-06-03"
+    ],
+    "synaptic": [
+      "2026-05-24",
+      "2026-05-25",
+      "2026-05-26",
+      "2026-05-28",
+      "2026-06-01",
+      "2026-06-04"
+    ],
+    "microcircuit": [
+      "2026-05-27",
+      "2026-06-03"
+    ],
+    "brain_region": [
+      "2026-05-27",
+      "2026-05-28"
+    ],
+    "whole_brain_network": [
+      "2026-05-29",
+      "2026-05-30",
+      "2026-06-02"
+    ],
+    "behavior": [
+      "2026-05-29",
+      "2026-05-30",
+      "2026-05-31",
+      "2026-06-02",
+      "2026-06-03"
+    ],
+    "cognition": [
+      "2026-05-26",
+      "2026-05-27",
+      "2026-05-28",
+      "2026-05-30",
+      "2026-05-31",
+      "2026-06-02",
+      "2026-06-03"
+    ],
     "disease": [],
     "methods": []
   },

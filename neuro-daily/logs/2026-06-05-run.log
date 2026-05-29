@@ -1,0 +1,128 @@
+# 2026-06-05 运行日志
+
+**运行时间**：2026-05-29 UTC（系统时钟）/ 逻辑日期 2026-06-05（序列第13篇）
+**文章序号**：#13（Day 13）
+**课程主线**：5. 认知控制（开篇）
+
+---
+
+## 选题决策
+
+**选题过程**：
+- 读取 topic_ledger.json（需先修复 JSON 语法错误：两处嵌套 ASCII 双引号）
+- 读取 unresolved_questions.md
+- 读取 wiki/_graph.json（验证为有效 JSON，0 悬空引用）
+- 读取 wiki/index.md（确认 systems/methods/theories/diseases 层均为空白）
+- 分析最近3天的层级：Day 10=全脑网络/认知, Day 11=microcircuit/cellular, Day 12=synaptic/molecular
+- 根据"避免连续三天同一层级"原则，优先选 brain-region/cognition 层
+- 检查 next_suggested_topics：前3天均推荐"前额叶皮层与工作记忆"
+
+**最终选题**：前额叶皮层与工作记忆——γ爆发 vs 持续放电 vs 活动无声模型
+
+**选题模式**：long_term_curriculum（课程脊柱 Section 5，认知控制开篇）
+
+---
+
+## 文献检索
+
+### 搜索词
+1. `Fuster Alexander neuron activity short-term memory 1971` → PMID:4998337
+2. `Goldman-Rakic cellular basis working memory 1995 Neuron` → PMID:7695894
+3. `Mongillo Barak Tsodyks synaptic working memory 2008 Science` → PMID:18339943
+4. `Lundqvist Miller gamma beta bursts working memory 2016 Neuron` → PMID:26996084
+5. `Wang XJ synaptic persistent activity working memory 2001` → PMID:11476885
+6. `prefrontal cortex working memory gamma oscillations PV interneurons review 2019-2025` → PMID:41478518, PMID:39381500
+7. `Arnsten prefrontal working memory dopamine stress review 2010-2025` → PMID:21345366
+
+### 数据源
+- PubMed E-utilities (NCBI)：所有检索
+- PMC Full Text：PMC5220584, PMC3115784, PMC11458443, PMC12924665
+
+### 候选来源
+总计 8 篇，全部采用
+
+### 采用来源（已验证）
+
+| PMID | 标题 | 全文 | 状态 |
+|------|------|------|------|
+| 4998337 | Fuster & Alexander 1971 | ❌（1971，无PMC） | 采用，仅摘要 |
+| 7695894 | Goldman-Rakic 1995 | ❌（付费墙） | 采用，仅摘要 |
+| 11476885 | Wang 2001 | ❌（无PMC） | 采用，仅摘要 |
+| 18339943 | Mongillo 2008 | ❌（付费墙） | 采用，仅摘要 |
+| 26996084 | Lundqvist 2016 | ✅ PMC5220584 | 采用，全文 |
+| 21345366 | Arnsten 2011 | ✅ PMC3115784 | 采用，全文 |
+| 39381500 | Hughes 2024 | ✅ PMC11458443 | 采用，全文 |
+| 41478518 | Boroujeni 2026 | ✅ PMC12924665 | 采用，全文 |
+
+**满足要求**：≥5来源(8篇✓), ≥2开放全文(4篇✓), ≥1官方机构来源(NIH/PMC✓)
+
+### 排除来源
+- Arnsten 36529312 (2023)：内容偏向抑郁/应激，与今日主题（工作记忆维持机制）相关度较低，改用 PMC3115784 (Arnsten 2011) 更直接
+
+---
+
+## 文章生成
+
+**文件**：`neuro-daily/articles/2026-06-05-prefrontal-working-memory.md`
+**字数（估计）**：约 5000 字
+**结构**：按 ROUTINE.md 规范完整包含所有必需段落
+
+**内容质量检查**：
+- [x] 每条主张有对应来源引用
+- [x] 区分了事实/主流模型/推测/争议
+- [x] 活动无声WM标注为计算模型，实验证据有限
+- [x] γ爆发因果关系标注为"相关性研究"
+- [x] 猕猴研究未直接断言=人类
+- [x] Goldman-Rakic 1995 和 Mongillo 2008 标注"未读全文（付费墙）"
+- [x] 包含比喻并明确说明失效之处
+- [x] 未提供医学诊断或治疗建议
+
+---
+
+## Wiki 固结
+
+### 新建页面（4）
+1. `wiki/concepts/working-memory.md` (established, high) — 工作记忆
+2. `wiki/concepts/persistent-activity.md` (established, high) — 持续活动
+3. `wiki/concepts/gamma-oscillations.md` (established, high) — γ振荡
+4. `wiki/systems/prefrontal-cortex.md` (established, high) — 前额叶皮层（首个 systems 目录页面）
+
+### 修订页面（2）
+1. `wiki/circuits/pv-interneurons.md`：revision_count 1→2，添加 PFC γ爆发WM应用和精神分裂症病理证据
+2. `wiki/concepts/nmda-receptor.md`：revision_count 2→3，添加 PFC 吸引子回路时间积分器角色
+
+### 矛盾登记（0）
+无新矛盾。活动性 vs 静默性 WM 两模型互补而非矛盾，记录为未解问题。
+
+### 图谱更新
+- 节点：34→38（+4）
+- 边：166→182（+16）
+- 新悬空引用：dopamine-d1（待建）
+
+---
+
+## 治理层更新
+
+- `state/topic_ledger.json`：修复 JSON 语法错误（2处嵌套ASCII双引号→「」）；新增第13篇条目
+- `state/unresolved_questions.md`：新增4个问题（Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-gamma-wm-causality）
+- `state/monthly_synthesis.md`：更新本月文章数为4；新增洞见30-33；更新悬空引用填补列表和下月建议
+- `wiki/_graph.json`：更新节点数/边数；添加4个新节点和16条新边
+- `wiki/index.md`：更新主题页总数为38；添加新节点；更新课程进度；添加第13篇说明
+- `wiki/CHANGELOG.md`：添加今日变更记录
+
+---
+
+## Git 操作
+
+**分支**：main
+**提交信息**：Add neuro daily article + wiki consolidation for 2026-06-05
+**状态**：待推送
+
+---
+
+## 失败与限制
+
+- JSON 语法错误修复：topic_ledger.json 中存在2处嵌套ASCII双引号（从Day 2的next_suggested_topics和Day 3的title/core_question字段遗留），影响文件解析，已修复替换为「」
+- 4篇核心论文（Fuster 1971, Goldman-Rakic 1995, Wang 2001, Mongillo 2008）无开放全文，仅读摘要，已在文章和来源文件中标注
+- 活动无声WM模型（Mongillo 2008）缺乏直接实验证据，已在文章中明确说明不确定性
+- pv-interneurons wiki 文章 Day 11 中对 γ 振荡的描述较简短，今日固结补充了 PFC 工作记忆背景（修订历史第二行）

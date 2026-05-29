@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 1
-dimensions: [cellular, synaptic, microcircuit]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit]
+updated: 2026-06-05
+revision_count: 2
+dimensions: [cellular, synaptic, microcircuit, cognition]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358"]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518"]
 ---
 
 # PV+ 中间神经元（Parvalbumin-expressing Interneurons）
@@ -46,9 +46,10 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - PV+ 细胞之间通过缝隙连接（电突触）相互耦合，增强同步性
 - VIP+ 中间神经元可抑制 PV+ 细胞（去抑制回路，见 [[disinhibitory-circuit]]）
 
-**系统层面**：
-- γ 振荡产生：PING（锥体细胞-中间神经元-γ）回路中，锥体细胞激活 PV+ 细胞，PV+ 细胞反馈抑制锥体细胞，形成 30–80 Hz 振荡
-- 工作记忆：前额叶 γ 振荡为工作记忆期间的信息维持提供时间框架
+**系统层面（2026-06-05 更新）**：
+- γ 振荡产生：PING（锥体细胞-中间神经元-γ）回路中，锥体细胞激活 PV+ 细胞，PV+ 细胞反馈抑制锥体细胞，形成 30–80 Hz 振荡；在 PFC 中表现为间歇性 γ 爆发（~67 ms/次）而非持续振荡（Lundqvist et al. 2016, PMID:26996084, PMC:PMC5220584）
+- 工作记忆：dlPFC PV 篮状细胞通过 γ 爆发为工作记忆的间歇性信息编码提供时序框架；β 振荡（20–35 Hz）出现于 γ 爆发间隔，代表默认静息态
+- 精神分裂症病理（Hughes et al. 2024, PMID:39381500, PMC:PMC11458443）：dlPFC 中 PV mRNA 和 GAD67 减少 → γ 功率降低 → 工作记忆缺陷，三者高度相关
 
 ## 关键证据
 
@@ -80,7 +81,9 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《回路中的少数精锐》一文 · 初始置信度：高
+- 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 系统层面新增：PFC γ爆发WM应用、精神分裂症病理证据（PMID:26996084, PMC5220584; PMID:39381500, PMC11458443; PMID:41478518）；related 新增 working-memory, gamma-oscillations, prefrontal-cortex；dimensions 新增 cognition
 
 ## 来源文章
 
 - [[2026-06-03-inhibitory-interneuron-diversity]]
+- [[2026-06-05-prefrontal-working-memory]]

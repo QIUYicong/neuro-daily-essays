@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-04",
-  "node_count": 34,
-  "edge_count": 164,
+  "updated": "2026-06-05",
+  "node_count": 38,
+  "edge_count": 182,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -310,6 +310,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/arc-arg31.md"
+    },
+    {
+      "id": "working-memory",
+      "title": "工作记忆",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/working-memory.md"
+    },
+    {
+      "id": "persistent-activity",
+      "title": "持续活动（延迟期放电）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/persistent-activity.md"
+    },
+    {
+      "id": "gamma-oscillations",
+      "title": "γ振荡（Gamma Oscillations）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/gamma-oscillations.md"
+    },
+    {
+      "id": "prefrontal-cortex",
+      "title": "前额叶皮层（PFC）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/prefrontal-cortex.md"
     }
   ],
   "edges": [
@@ -478,7 +514,23 @@
     {"from": "arc-arg31", "to": "ltd", "type": "mechanism-of", "note": "Arc 是 mGluR-LTD 的执行蛋白：与 dynamin/endophilin 结合→促进 AMPAR 内吞"},
     {"from": "arc-arg31", "to": "ampa-receptor", "type": "regulates", "note": "Arc 直接通过 dynamin/endophilin 加速网格蛋白介导的 AMPAR 内吞"},
     {"from": "arc-arg31", "to": "ltp", "type": "related", "note": "Arc 也参与 L-LTP 巩固（通过 PAK-LIMK-cofilin 稳定树突棘肌动蛋白）；双向功能取决于活动量"},
-    {"from": "ltd", "to": "memory-consolidation", "type": "related", "note": "睡眠期间突触稳态下调（SHY 假说）可能涉及广泛的 LTD 类机制；LTD 是防止突触饱和、维持学习容量的机制"}
+    {"from": "ltd", "to": "memory-consolidation", "type": "related", "note": "睡眠期间突触稳态下调（SHY 假说）可能涉及广泛的 LTD 类机制；LTD 是防止突触饱和、维持学习容量的机制"},
+    {"from": "working-memory", "to": "persistent-activity", "type": "mechanism-of", "note": "持续活动（γ爆发）是工作记忆维持的活动性编码机制"},
+    {"from": "working-memory", "to": "gamma-oscillations", "type": "mechanism-of", "note": "γ爆发是工作记忆间歇性信息编码的振荡载体"},
+    {"from": "working-memory", "to": "prefrontal-cortex", "type": "related", "note": "dlPFC 第2/3/5层循环回路是工作记忆的关键神经基础"},
+    {"from": "working-memory", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA 受体慢衰减（τ~100-300ms）是 PFC 吸引子回路时间积分的分子基础"},
+    {"from": "working-memory", "to": "pv-interneurons", "type": "mechanism-of", "note": "PV 篮状细胞通过 γ 爆发控制工作记忆信息编码的时序精度"},
+    {"from": "working-memory", "to": "theta-oscillations", "type": "related", "note": "θ/γ嵌套：每个θ周期可嵌套5-7个γ爆发，可能与工作记忆容量相关"},
+    {"from": "working-memory", "to": "memory-consolidation", "type": "related", "note": "工作记忆长期化需要海马参与巩固"},
+    {"from": "persistent-activity", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA受体慢衰减使吸引子网络在刺激消失后维持循环激活"},
+    {"from": "persistent-activity", "to": "gamma-oscillations", "type": "related", "note": "持续活动的实际形式是间歇性γ爆发（Lundqvist 2016），非连续高频放电"},
+    {"from": "persistent-activity", "to": "prefrontal-cortex", "type": "related", "note": "延迟期活动主要发生在 dlPFC L2/3 锥体细胞"},
+    {"from": "gamma-oscillations", "to": "pv-interneurons", "type": "mechanism-of", "note": "PV 篮状细胞兴奋-抑制 PING 回路是皮层 γ 振荡的核心生成机制"},
+    {"from": "gamma-oscillations", "to": "theta-oscillations", "type": "related", "note": "θ/γ 嵌套耦合：θ 提供时间框架，γ 承载内容；与海马编码序列的嵌套层级相同原理"},
+    {"from": "gamma-oscillations", "to": "prefrontal-cortex", "type": "related", "note": "dlPFC 中 γ 爆发是工作记忆的振荡载体；精神分裂症中 γ 减弱"},
+    {"from": "prefrontal-cortex", "to": "working-memory", "type": "related", "note": "dlPFC 是工作记忆维持的关键脑区"},
+    {"from": "prefrontal-cortex", "to": "pv-interneurons", "type": "related", "note": "dlPFC PV 篮状细胞产生 γ，调控工作记忆时序"},
+    {"from": "prefrontal-cortex", "to": "memory-consolidation", "type": "related", "note": "PFC 是记忆巩固后远端记忆的皮层存储库"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
