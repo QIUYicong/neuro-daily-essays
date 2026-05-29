@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-06",
-  "total_articles": 14,
+  "last_updated": "2026-06-07",
+  "total_articles": 15,
   "entries": [
     {
       "date": "2026-05-24",
@@ -974,6 +974,28 @@
       "mode": "weekly_synthesis",
       "article_number": 14,
       "note": "第二周综合：整合文章 8-13；引入嵌套竞争-遴选架构框架，与第一周的嵌套时间编码层级互补，共同构成记忆系统的完整描述骨架。"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "突触的短时记忆：易化与抑制如何让每个突触成为计算单元",
+      "filename": "2026-06-07-short-term-synaptic-plasticity.md",
+      "wiki_pages_created": ["wiki/concepts/short-term-synaptic-plasticity.md"],
+      "wiki_pages_revised": ["wiki/neurons/synaptotagmin.md", "wiki/concepts/working-memory.md"],
+      "contested_claims_logged": ["C-2026-06-07-01"],
+      "core_question": "突触在连续激活时如何通过释放概率的动态变化实现短时记忆？Syt7 如何在分子层面介导易化？活动无声工作记忆假说的证据状态如何？",
+      "layer": ["synaptic", "molecular", "microcircuit", "cognition"],
+      "curriculum_track": "1. 神经元如何工作（STP：完整突触可塑性时间谱）→ 5. 认知控制（活动无声工作记忆）",
+      "topic_tags": ["short-term synaptic plasticity", "STP", "synaptic facilitation", "synaptic depression", "Syt7", "synaptotagmin-7", "residual calcium", "RRP", "Tsodyks-Markram", "activity-silent working memory", "post-tetanic potentiation", "PTP", "paired-pulse ratio", "PPR"],
+      "main_sources": ["PMID:22751149 (PMC3385958)", "PMID:26738595 (PMC4729191)", "PMID:11826273", "PMID:28472650", "PMID:9012851", "PMID:18339943", "PMID:30274605", "PMID:21353526", "PMID:29593071", "PMID:33603074", "PMID:35471537"],
+      "unresolved_questions": ["Q-syt7-facilitation-mechanism", "Q-stp-ltp-interaction", "Q-activity-silent-wm-in-vivo", "Q-stp-human-wm"],
+      "next_suggested_topics": [
+        "注意的神经机制：前额叶→感觉皮层的自上而下调控（延续认知控制主题）",
+        "阿尔茨海默病（disease层首篇）：Aβ寡聚体如何劫持LTD和STP机制造成突触损害",
+        "三因素学习规则（多巴胺×Hebb×VIP去抑制）：填补 three-factor-learning-rule 悬空引用"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 15,
+      "dangling_reference_filled": "short-term-synaptic-plasticity（填补了 synaptotagmin/working-memory/synaptic-transmission/active-zone 共4个页面的悬空引用）"
     }
   ],
   "layer_coverage_recent": {
@@ -982,7 +1004,8 @@
       "2026-05-25",
       "2026-05-26",
       "2026-06-01",
-      "2026-06-04"
+      "2026-06-04",
+      "2026-06-07"
     ],
     "cellular": [
       "2026-05-24",
@@ -998,11 +1021,13 @@
       "2026-05-26",
       "2026-05-28",
       "2026-06-01",
-      "2026-06-04"
+      "2026-06-04",
+      "2026-06-07"
     ],
     "microcircuit": [
       "2026-05-27",
-      "2026-06-03"
+      "2026-06-03",
+      "2026-06-07"
     ],
     "brain_region": [
       "2026-05-27",
@@ -1027,10 +1052,11 @@
       "2026-05-30",
       "2026-05-31",
       "2026-06-02",
-      "2026-06-03"
+      "2026-06-03",
+      "2026-06-07"
     ],
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-06-04（LTD）：synaptic 层从5篇增至6篇，molecular 层从4篇增至5篇。突触可塑性双向图景（LTP+LTD）现已完整。新建 ltd/calcineurin/arc-arg31 共3个概念页面，修订 ltp、ampa-receptor 两页。disease 层和 methods 层仍完全空缺——建议下一篇进入 disease 层（阿尔茨海默病+Aβ/LTD机制）或 cognition 层（PFC 工作记忆）。synaptic 层的短时程突触可塑性（STP）仍待覆盖。"
+  "layer_note": "2026-06-07（STP）：synaptic 层从6篇增至7篇，molecular 层从5篇增至6篇，microcircuit 层从2篇增至3篇，cognition 层从7篇增至8篇。短时程突触可塑性（STP）完整覆盖：易化（Syt7/残余钙）、抑制（RRP耗竭）、PTP、Tsodyks-Markram模型。创建 wiki 页面 short-term-synaptic-plasticity；修订 synaptotagmin、working-memory。disease 层和 methods 层仍完全空缺——建议下篇进入 disease 层（阿尔茨海默病）或 cognition 层（注意机制）。"
 }

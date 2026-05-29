@@ -1,0 +1,192 @@
+{
+  "date": "2026-06-07",
+  "article": "2026-06-07-short-term-synaptic-plasticity.md",
+  "topic": "短时程突触可塑性（STP）：突触易化与抑制的分子机制及计算功能",
+  "search_terms": [
+    "short-term synaptic plasticity review mechanism",
+    "synaptotagmin-7 synaptic facilitation mechanism",
+    "activity-silent working memory short-term synaptic facilitation",
+    "Tsodyks Markram neural code release probability",
+    "short-term synaptic plasticity computation cortex",
+    "Jackman Regehr mechanisms functions synaptic facilitation 2017"
+  ],
+  "databases_searched": ["PubMed (NCBI E-utilities)", "PMC (NCBI)", "Europe PMC (via PMC ID)"],
+  "sources": [
+    {
+      "pmid": "11826273",
+      "pmcid": null,
+      "title": "Short-term synaptic plasticity",
+      "authors": "Zucker RS, Regehr WG",
+      "journal": "Annual Review of Physiology",
+      "year": 2002,
+      "full_text_available": false,
+      "access_status": "摘要（Annual Review Physiology，订阅）",
+      "aspects_covered": [
+        "四种STP形式分类（易化、抑制、增强、PTP）",
+        "囊泡耗竭作为抑制主要机制",
+        "残余钙假说及其定量困难",
+        "PTP的线粒体钙和PKC机制",
+        "钙缓冲蛋白饱和对易化的贡献"
+      ]
+    },
+    {
+      "pmid": "22751149",
+      "pmcid": "PMC3385958",
+      "title": "Short-term presynaptic plasticity",
+      "authors": "Regehr WG",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2012,
+      "full_text_available": true,
+      "access_status": "开放全文（PMC3385958）",
+      "aspects_covered": [
+        "STP机制的系统综述",
+        "RRP量化（RRP=总囊泡的几个百分点）",
+        "钙通道失活对抑制的次要贡献",
+        "PTP中RRP扩大约30%的量化数据",
+        "钙缓冲蛋白（parvalbumin, calbindin）与STP时间常数的关系",
+        "残余钙定量估算（Cares约为Calocal的1%）"
+      ]
+    },
+    {
+      "pmid": "26738595",
+      "pmcid": "PMC4729191",
+      "title": "The calcium sensor synaptotagmin 7 is required for synaptic facilitation",
+      "authors": "Jackman SL, Turecek J, Belinsky JE, Regehr WG",
+      "journal": "Nature",
+      "year": 2016,
+      "full_text_available": true,
+      "access_status": "开放全文（PMC4729191）",
+      "aspects_covered": [
+        "Syt7是突触易化的必要高亲和力钙传感器",
+        "Syt7 KO消除四类突触的PPF（Schaffer侧枝、丘脑皮层、苔藓纤维、穿通路）",
+        "Ca²⁺结合突变体无法恢复易化（证明钙感应必要性）",
+        "Syt7 vs Syt1的亲和力和动力学差异",
+        "细胞自主性实验（CA3特异性重表达）",
+        "易化时间常数（数百ms）与残余钙衰减的对应"
+      ]
+    },
+    {
+      "pmid": "29593071",
+      "pmcid": null,
+      "title": "Synaptotagmin 7 Mediates Both Facilitation and Asynchronous Release at Granule Cell Synapses",
+      "authors": "Turecek J, Regehr WG",
+      "journal": "Journal of Neuroscience",
+      "year": 2018,
+      "full_text_available": false,
+      "access_status": "摘要（J Neurosci）",
+      "aspects_covered": [
+        "Syt7在小脑颗粒细胞突触中同时介导易化和异步释放",
+        "初始释放概率在Syt7 KO中不变",
+        "Syt7功能广于单纯'易化传感器'"
+      ]
+    },
+    {
+      "pmid": "33603074",
+      "pmcid": null,
+      "title": "Synaptotagmin 7 switches short-term synaptic plasticity from depression to facilitation by suppressing synaptic transmission",
+      "authors": "Fujii T, Sakurai A, Littleton JT, Yoshihara M",
+      "journal": "Scientific Reports",
+      "year": 2021,
+      "full_text_available": false,
+      "access_status": "摘要（Scientific Reports）",
+      "aspects_covered": [
+        "果蝇中Syt7通过压制基础传递来维持可供易化的动态范围",
+        "与Jackman 2016的脊椎动物模型有机制差异",
+        "Syt7 null突变体将易化转变为抑制"
+      ]
+    },
+    {
+      "pmid": "28472650",
+      "pmcid": null,
+      "title": "The Mechanisms and Functions of Synaptic Facilitation",
+      "authors": "Jackman SL, Regehr WG",
+      "journal": "Neuron",
+      "year": 2017,
+      "full_text_available": false,
+      "access_status": "摘要（Neuron，Elsevier）",
+      "aspects_covered": [
+        "突触易化机制的系统回顾（残余钙 vs Syt7 vs 缓冲蛋白饱和）",
+        "易化在不同回路中的功能角色",
+        "体内功能验证的缺口"
+      ]
+    },
+    {
+      "pmid": "9012851",
+      "pmcid": null,
+      "title": "The neural code between neocortical pyramidal neurons depends on neurotransmitter release probability",
+      "authors": "Tsodyks MV, Markram H",
+      "journal": "Proceedings of the National Academy of Sciences USA",
+      "year": 1997,
+      "full_text_available": false,
+      "access_status": "摘要（PNAS）",
+      "aspects_covered": [
+        "Tsodyks-Markram三参数STP模型（A × u(t) × x(t)）",
+        "高Pr突触传递放电率信息，低Pr突触传递时间相干性信息"
+      ]
+    },
+    {
+      "pmid": "18339943",
+      "pmcid": null,
+      "title": "Synaptic theory of working memory",
+      "authors": "Mongillo G, Barak O, Tsodyks M",
+      "journal": "Science",
+      "year": 2008,
+      "full_text_available": false,
+      "access_status": "摘要（Science，订阅）",
+      "aspects_covered": [
+        "STP易化作为活动无声工作记忆的突触基础",
+        "循环网络 + STP 的计算模型",
+        "γ爆发读取无声储存记忆的机制预测"
+      ]
+    },
+    {
+      "pmid": "30274605",
+      "pmcid": null,
+      "title": "Short-Term Synaptic Plasticity as a Mechanism for Sensory Timing",
+      "authors": "Motanis H, Seay MJ, Buonomano DV",
+      "journal": "Trends in Neurosciences",
+      "year": 2018,
+      "full_text_available": false,
+      "access_status": "摘要（Trends Neurosci）",
+      "aspects_covered": [
+        "STP赋予皮层回路时序分辨能力",
+        "不对称STP产生方向选择性（弱电鱼模型）",
+        "STP多样性与感觉时序加工"
+      ]
+    },
+    {
+      "pmid": "21353526",
+      "pmcid": null,
+      "title": "Short-term forms of presynaptic plasticity",
+      "authors": "Fioravante D, Regehr WG",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2011,
+      "full_text_available": false,
+      "access_status": "摘要（Curr Opin Neurobiol）",
+      "aspects_covered": [
+        "不同突触类型STP属性的功能性多样化",
+        "易化型突触（低Pr）vs抑制型突触（高Pr）的回路功能",
+        "STP与增益控制、爆发探测的关系"
+      ]
+    },
+    {
+      "pmid": "35471537",
+      "pmcid": null,
+      "title": "Short-Term Synaptic Plasticity: Microscopic Modelling and (Some) Computational Implications",
+      "authors": "Barri A, Mongillo G",
+      "journal": "Advances in Experimental Medicine and Biology",
+      "year": 2022,
+      "full_text_available": false,
+      "access_status": "摘要",
+      "aspects_covered": [
+        "STP使网络进入新的动力学模式（固定点和极限环）",
+        "STP与工作记忆计算的最新建模"
+      ]
+    }
+  ],
+  "sources_excluded": [],
+  "open_full_text_count": 2,
+  "abstract_only_count": 9,
+  "official_institutional_sources": ["PubMed/NCBI E-utilities（所有PMID均通过官方API核实）"],
+  "notes": "两个开放全文来源（PMC3385958, PMC4729191）提供了本文核心机制数据的直接来源。Mongillo 2008科学杂志为订阅墙后，仅用摘要和引用资料，文章中已明确标注此为计算模型。Syt7分子机制数据直接来自PMC4729191全文。"
+}

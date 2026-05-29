@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-06",
-  "node_count": 39,
-  "edge_count": 193,
+  "updated": "2026-06-07",
+  "node_count": 40,
+  "edge_count": 203,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -355,6 +355,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/competition-selection-principle.md"
+    },
+    {
+      "id": "short-term-synaptic-plasticity",
+      "title": "短时程突触可塑性（STP）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/short-term-synaptic-plasticity.md"
     }
   ],
   "edges": [
@@ -553,7 +562,17 @@
     {"from": "engram-cells", "to": "competition-selection-principle", "type": "related", "note": "印迹细胞分配是嵌套竞争-遴选架构在细胞层次的具体实例"},
     {"from": "memory-consolidation", "to": "competition-selection-principle", "type": "related", "note": "睡眠选择性巩固是嵌套竞争-遴选架构在系统层次的具体实例"},
     {"from": "working-memory", "to": "competition-selection-principle", "type": "related", "note": "工作记忆吸引子竞争是嵌套竞争-遴选架构在认知层次的具体实例"},
-    {"from": "temporal-coding-hierarchy", "to": "competition-selection-principle", "type": "related", "note": "嵌套竞争-遴选架构与时间编码层级互补：前者定义选什么，后者定义何时和如何"}
+    {"from": "temporal-coding-hierarchy", "to": "competition-selection-principle", "type": "related", "note": "嵌套竞争-遴选架构与时间编码层级互补：前者定义选什么，后者定义何时和如何"},
+    {"from": "short-term-synaptic-plasticity", "to": "synaptotagmin", "type": "mechanism-of", "note": "Syt7（突触结合蛋白7）是突触易化的必要分子传感器（Jackman et al. 2016）；Syt1 触发初次同步释放，Syt7 感应残余钙触发易化"},
+    {"from": "short-term-synaptic-plasticity", "to": "synaptic-transmission", "type": "mechanism-of", "note": "STP 是突触传递有效强度的毫秒-秒时间尺度动态修饰因子；u(t) × x(t) 与长期权重 A 共同决定实时突触电流"},
+    {"from": "short-term-synaptic-plasticity", "to": "active-zone", "type": "mechanism-of", "note": "活动区 RRP 储量直接决定突触抑制的幅度；RRP 耗竭是抑制的主要分子机制"},
+    {"from": "short-term-synaptic-plasticity", "to": "working-memory", "type": "mechanism-of", "note": "STP 易化是活动无声工作记忆的突触基质（Mongillo et al. 2008 计算模型）：γ 爆发写入易化状态，延迟期静默保存，再次 γ 爆发读取"},
+    {"from": "short-term-synaptic-plasticity", "to": "ltp", "type": "related", "note": "STP（毫秒-秒）与 LTP（小时-终身）是突触可塑性时间谱的两端；共享'活动-依赖性突触权重修改'的基本逻辑"},
+    {"from": "short-term-synaptic-plasticity", "to": "ltd", "type": "related", "note": "STP（毫秒-秒，可逆）+ LTD（分钟-小时，可逆）+ LTP（终身，可持久）构成突触权重调制的完整时间谱"},
+    {"from": "short-term-synaptic-plasticity", "to": "voltage-gated-calcium-channels", "type": "mechanism-of", "note": "CaV2 通道在活动区的纳米域耦合产生局部钙触发 Syt1；CaV2 失活贡献次要抑制成分；PTP 中线粒体钙通过 PKC 调节 RRP"},
+    {"from": "synaptotagmin", "to": "short-term-synaptic-plasticity", "type": "mechanism-of", "note": "Syt7（高亲和力，慢速，突触前质膜）通过感应残余 Ca²⁺ 介导突触易化；与 Syt1（低亲和力，快速，囊泡膜）在同一终末内分工合作"},
+    {"from": "working-memory", "to": "short-term-synaptic-plasticity", "type": "mechanism-of", "note": "突触 STP 易化（活动无声储存）是工作记忆的静默编码通道；与 γ 爆发（主动编码）协同实现延迟期信息维持"},
+    {"from": "synaptic-transmission", "to": "short-term-synaptic-plasticity", "type": "related", "note": "STP 是突触传递的动态修饰层：有效突触强度 = A（LTP 权重）× u(t)（易化状态）× x(t)（囊泡可用比例）"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -569,6 +588,7 @@
     {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
     {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},
     {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples", "engram-cells"], "note": "已于2026-06-02创建 wiki/concepts/memory-consolidation.md 页面", "resolved": "2026-06-02"},
-    {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"}
+    {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"},
+    {"slug": "short-term-synaptic-plasticity", "referenced_by": ["synaptotagmin", "working-memory", "synaptic-transmission", "active-zone"], "note": "已于 2026-06-07 创建 wiki/concepts/short-term-synaptic-plasticity.md 页面填补此悬空引用（Syt7 介导易化 + Tsodyks-Markram 模型 + 活动无声 WM）", "resolved": "2026-06-07"}
   ]
 }

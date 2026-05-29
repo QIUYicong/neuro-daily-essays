@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-06 · 主题页总数：39
+> 最后更新：2026-06-07 · 主题页总数：40
 
 ---
 
@@ -55,6 +55,7 @@
 - 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络 **[NEW 2026-06-05]**
 - 🟢 [γ振荡（30–80 Hz）](concepts/gamma-oscillations.md) — PV+篮状细胞兴奋-抑制循环产生；工作记忆中以~67ms爆发形式间歇出现；精神分裂症中功率减弱与PV损伤相关 **[NEW 2026-06-05]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
+- 🟢 [短时程突触可塑性（STP）](concepts/short-term-synaptic-plasticity.md) — 突触在毫秒-秒内因残余钙（→易化/Syt7）或囊泡耗竭（→抑制）动态调整释放概率；Tsodyks-Markram 模型（A×u(t)×x(t)）；活动无声工作记忆的突触基质 **[NEW 2026-06-07]**
 
 ## systems（系统）
 

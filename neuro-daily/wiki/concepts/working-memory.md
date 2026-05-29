@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-06
-revision_count: 2
-dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle]
-prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
-opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory]
-key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366"]
+updated: 2026-06-07
+revision_count: 3
+dimensions: [cognition, brain-region, microcircuit, behavior, synaptic]
+related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity]
+prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission, short-term-synaptic-plasticity]
+opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity, Q-activity-silent-wm-in-vivo, Q-stp-human-wm]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-07-short-term-synaptic-plasticity]
+key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:26738595"]
 ---
 
 # 工作记忆 (Working Memory)
@@ -64,6 +64,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[nmda-receptor]] — PFC 循环回路的时间积分器
 - [[theta-oscillations]] — θ 周期内可嵌套 5–7 个 γ 爆发，可能与工作记忆容量相关
 - [[memory-consolidation]] — 工作记忆的长期化需要海马参与
+- [[short-term-synaptic-plasticity]] — STP 易化是活动无声 WM 的突触基质；Syt7 是其分子传感器
 
 ## 未解问题
 
@@ -91,7 +92,9 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文 · 初始置信度：高
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"工作记忆容量的吸引子竞争机制"小节；明确 θ/γ 嵌套约束与吸引子竞争两种容量限制假说；added [[competition-selection-principle]] to related
+- 2026-06-07 · 修订 · 基于《突触的短时记忆：STP》一文 · 将 [[short-term-synaptic-plasticity]] 加入 related 和 prerequisites；Q-activity-silent-wm-in-vivo 和 Q-stp-human-wm 加入 opens_questions；dimensions 补充 synaptic；关键来源补充 PMID:26738595
 
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
+- [[2026-06-07-short-term-synaptic-plasticity]]

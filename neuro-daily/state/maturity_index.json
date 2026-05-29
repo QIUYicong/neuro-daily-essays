@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-04",
+  "last_updated": "2026-06-07",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -290,6 +290,14 @@
       "supporting_sources": 3,
       "last_status_change": "2026-06-04",
       "reason": "创建 2026-06-04。Arc/Arg3.1 在 LTD 中的执行功能（通过 dynamin/endophilin 促进 AMPAR 内吞）有基因敲除实验（Arc KO 小鼠 LTD 受损）+ 生化（dynamin 结合结构域鉴定）+ 体外过表达实验多维证据（Hanley 2014 综述，PMID:25429259）。Arc 在 LTP 巩固中的作用（肌动蛋白稳定）同样有 KO 实验（Arc KO 能诱导但不能巩固 LTP）支持（Bramham et al. 2010，PMID:19690847）。Arc mRNA 的树突靶向和局部翻译是领域内公认机制。主要不确定性：Arc 如何在 LTD 情境（中等活动）vs LTP 情境（强烈活动）之间切换功能的精确分子开关尚未完全解明（见 Q-arc-ltp-ltd-switch）。整体 established，功能开关细节为 open question。"
+    },
+    {
+      "slug": "short-term-synaptic-plasticity",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-06-07",
+      "reason": "创建 2026-06-07。STP 四种形式（易化/抑制/增强/PTP）的存在有50余年电生理证据（Zucker & Regehr 2002 综述覆盖超过100项独立研究）。RRP耗竭作为突触抑制主因有直接测量支持（电容测量、iGluSnFR谷氨酸成像）。Syt7 作为突触易化传感器由 Jackman et al. 2016 在4种突触类型的 KO+rescue 实验建立，证据强度高。Tsodyks-Markram 模型（A×u(t)×x(t)）作为计算框架被广泛验证和采用。活动无声工作记忆假说（Mongillo 2008）基于 STP 的计算模型合理，但体内直接验证仍缺乏——这是主要的开放不确定性（Q-activity-silent-wm-in-vivo）。Syt7 精确分子机制（直接促进易化 vs 动态范围扩大）有物种差异争议（C-2026-06-07-01）。核心机制 established，部分分子细节和认知级应用 emerging-to-mainstream。"
     }
   ]
 }

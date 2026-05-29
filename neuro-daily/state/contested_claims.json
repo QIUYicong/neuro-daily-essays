@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-05-25",
+  "last_updated": "2026-06-07",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 2,
+  "open_count": 3,
   "resolved_count": 0,
   "claims": [
     {
@@ -34,6 +34,17 @@
       "nature": "真实分歧（核心模型分歧；体内与体外系统速度差距是核心矛盾）",
       "status": "open",
       "opened": "2026-05-25",
+      "resolved": null,
+      "resolution": null
+    },
+    {
+      "id": "C-2026-06-07-01",
+      "page": "wiki/neurons/synaptotagmin.md",
+      "claim_A": "Syt7 通过直接感应残余 Ca²⁺ 并促进囊泡融合来实现突触易化（脊椎动物模型；Jackman et al. 2016 Nature，PMID:26738595；基于小鼠 KO 实验）",
+      "claim_B": "Syt7 通过压制基础传递（降低初始 Pr）来维持可供易化的动态范围，而非直接促进融合（果蝇模型；Fujii et al. 2021 Scientific Reports，PMID:33603074；基于 Drosophila Syt7 null 突变体）",
+      "nature": "物种差异（小鼠 vs 果蝇）+ 可能机制差异（直接易化促进 vs 动态范围扩大）",
+      "status": "open",
+      "opened": "2026-06-07",
       "resolved": null,
       "resolution": null
     }

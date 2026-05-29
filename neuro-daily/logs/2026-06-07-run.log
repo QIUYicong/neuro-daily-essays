@@ -1,0 +1,94 @@
+# 运行日志 2026-06-07
+
+**逻辑日期**：2026-06-07（文章第15篇，系统日期 UTC+8 2026-05-29，按序列连续性顺延）
+**分支**：claude/funny-einstein-YItpz
+**主题**：突触的短时记忆：易化与抑制如何让每个突触成为计算单元
+
+---
+
+## 主题选择依据
+
+- 悬空引用分析：short-term-synaptic-plasticity 被 synaptotagmin/working-memory/synaptic-transmission/active-zone 共4个页面引用，是当前知识库最高优先级缺口
+- 第二周综合（2026-06-06）在 next_suggested_topics 中明确首选
+- 与活动无声工作记忆（Mongillo 2008）和 Syt7 直接相关，完成之前悬而未决的分子机制链条
+
+---
+
+## 文献研究
+
+### 搜索词
+- "short-term synaptic plasticity review"
+- "synaptotagmin-7 facilitation mechanism"
+- "Tsodyks Markram synaptic model"
+- "activity-silent working memory STP"
+- "RRP readily releasable pool depression"
+
+### 来源使用情况
+
+| PMID | 标题 | 全文 | 状态 |
+|------|------|------|------|
+| 22751149 (PMC3385958) | Zucker & Regehr 2002 Annual Rev Physiol STP 综述 | ✅ PMC 全文 | 已用 |
+| 26738595 (PMC4729191) | Jackman et al. 2016 Nature - Syt7 is required for facilitation | ✅ PMC 全文 | 已用 |
+| 11826273 | Abbott & Regehr 2004 Neuron - synaptic computation | ❌ 付费墙 | 摘要已用 |
+| 28472650 | Jackman & Regehr 2017 Nat Neurosci - Syt7 docks vesicles | ❌ 付费墙 | 摘要已用 |
+| 9012851 | Tsodyks & Markram 1997 Science - original TM model | ❌ 付费墙 | 摘要已用 |
+| 18339943 | Mongillo et al. 2008 Science - synaptic theory of WM | ❌ 付费墙 | 摘要已用 |
+| 30274605 | (STP in vivo noise conditions) | ❌ 付费墙 | 摘要已用 |
+| 21353526 | (thalamocortical depression) | ❌ 付费墙 | 摘要已用 |
+| 29593071 | Liu et al. 2018 Nat Neurosci - Syt1/Syt7 redundancy | ❌ 付费墙 | 摘要已用 |
+| 33603074 | Fujii et al. 2021 Sci Rep - Drosophila Syt7 null | ❌ 付费墙 | 摘要已用 |
+| 35471537 | Vevea et al. 2022 Cell Rep - Syt7 as limiting factor | ❌ 付费墙 | 摘要已用 |
+
+### 来源验证错误（已纠正）
+- PMID 9200659 初始被误认为 Tsodyks-Markram 1997；经 efetch 验证为糖尿病遗传学论文，已纠正为 9012851
+- PMID 28302563 初始被误认为 Jackman & Regehr 2017；经验证为 Lancet Global Health 论文，已纠正为 28472650
+
+---
+
+## 创建/修改文件
+
+### 新建
+- `neuro-daily/articles/2026-06-07-short-term-synaptic-plasticity.md` — 主文章（~4000字中文）
+- `neuro-daily/notes/2026-06-07-reading-notes.md` — 研究笔记（7个来源）
+- `neuro-daily/sources/2026-06-07-sources.json` — 来源JSON（11条）
+- `neuro-daily/wiki/concepts/short-term-synaptic-plasticity.md` — 新 wiki 页（established/high）
+- `neuro-daily/logs/2026-06-07-run.log` — 本日志
+
+### 修订
+- `neuro-daily/wiki/neurons/synaptotagmin.md` — revision 2→3；补充 Syt7 实验细节；新增证据表行
+- `neuro-daily/wiki/concepts/working-memory.md` — revision 2→3；增加 STP 关联、新问题
+- `neuro-daily/wiki/_graph.json` — 39→40节点，193→203边；新增 STP 节点+10条边；解决4个悬空引用
+- `neuro-daily/wiki/index.md` — 主题页 39→40；新增 STP 词条
+- `neuro-daily/wiki/CHANGELOG.md` — 2026-06-07 条目
+- `neuro-daily/state/contested_claims.json` — open_count 2→3；新增 C-2026-06-07-01
+- `neuro-daily/state/topic_ledger.json` — total_articles 14→15；新增文章#15条目；更新层覆盖统计
+- `neuro-daily/state/unresolved_questions.md` — 新增4个问题（Q-syt7-facilitation-mechanism/Q-stp-ltp-interaction/Q-activity-silent-wm-in-vivo/Q-stp-human-wm）
+- `neuro-daily/state/source_registry.json` — 新增11条来源记录
+- `neuro-daily/state/monthly_synthesis.md` — 新增第36-37条洞见；悬空引用填补记录
+
+---
+
+## 矛盾登记
+
+- **C-2026-06-07-01**：Syt7 机制争议
+  - Claim A：Jackman et al. 2016（脊椎动物）- Syt7 直接感应残余Ca²⁺促进易化
+  - Claim B：Fujii et al. 2021（果蝇）- Syt7 抑制基础释放，维持动态范围
+  - 性质：物种差异 + 可能机制差异
+  - 状态：open
+
+---
+
+## 知识图谱变更
+
+- 节点：39 → 40
+- 边：193 → 203（+10条）
+- 新节点：short-term-synaptic-plasticity（concepts/mechanism/established/high）
+- 解决悬空引用：synaptotagmin、working-memory、synaptic-transmission、active-zone → short-term-synaptic-plasticity（共4个页面）
+
+---
+
+## Git 操作
+
+- 分支：claude/funny-einstein-YItpz
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-06-07
+- 状态：完成

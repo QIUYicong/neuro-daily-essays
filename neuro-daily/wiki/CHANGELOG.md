@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-07（文章 #15）
+
+**源文章**：[[2026-06-07-short-term-synaptic-plasticity]] —《突触的短时记忆：易化与抑制如何让每个突触成为计算单元》
+
+**新建页面（1）**：
+- `concepts/short-term-synaptic-plasticity.md`（短时程突触可塑性，STP）🟢 established / 置信度 high — 突触在毫秒-秒内因残余钙（→易化；Syt7为分子传感器，Jackman 2016 Nature）或囊泡耗竭（→抑制）动态调整释放概率；Tsodyks-Markram 模型（A×u(t)×x(t)）提供数学框架；四种形式（易化/抑制/增强/PTP）；活动无声工作记忆的突触基质（Mongillo 2008 Science，计算模型）；填补 synaptotagmin/working-memory/synaptic-transmission/active-zone 的高优先悬空引用
+
+**修订页面（2）**：
+- `neurons/synaptotagmin.md`（revision_count 2→3）：大幅扩充 Syt7 机制细节（质膜位置、高亲和力/慢速动力学、四类突触 KO 证据、Ca²⁺ 结合突变体实验）；related 新增 short-term-synaptic-plasticity；key_sources 补充 PMID:26738595；opens_questions 更新 Q-syt7-facilitation-mechanism 的具体描述
+- `concepts/working-memory.md`（revision_count 2→3）：related 和 prerequisites 新增 short-term-synaptic-plasticity；opens_questions 补充 Q-activity-silent-wm-in-vivo 和 Q-stp-human-wm；dimensions 补充 synaptic 层级
+
+**矛盾登记（1）**：
+- C-2026-06-07-01（新增）：Syt7 在突触易化中的作用方式——Jackman 2016（直接促进融合，via 高亲和力 Ca²⁺ 传感，脊椎动物）vs Fujii 2021（通过压制基础传递扩大动态范围，果蝇）。性质：物种差异 + 可能机制差异。状态：open。
+
+**图谱更新**：
+- 新节点：short-term-synaptic-plasticity（40 个总节点）
+- 新增 10 条边（总计 203 条边）：STP 与 synaptotagmin/synaptic-transmission/active-zone/working-memory/ltp/ltd/voltage-gated-calcium-channels 的双向/单向连接
+- 悬空引用 short-term-synaptic-plasticity 标记为 resolved（被 4 个页面引用）
+
+---
+
 ## 2026-06-06（第二周综合，文章 #14）
 
 **源文章**：[[2026-06-06-week2-synthesis]] —《第二周综合：竞争法则——大脑如何在五个层次上通过竞争与遴选构建精简的世界模型》
