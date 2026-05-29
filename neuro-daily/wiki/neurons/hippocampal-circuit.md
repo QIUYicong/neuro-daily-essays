@@ -6,10 +6,10 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-06-02
-revision_count: 4
+updated: 2026-06-03
+revision_count: 5
 dimensions: [brain-region, microcircuit, cognition]
-related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation]
+related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons]
 prerequisites: [synaptic-transmission, ltp, action-potential]
 opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism]
 source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof]
@@ -118,6 +118,8 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - [[memory-consolidation]] — 海马 SWR 重放是海马→皮层记忆巩固的机制
 - [[theta-oscillations]] — θ 振荡（4–12 Hz）协调海马回路的编码节律，调控 BTSP 触发时机
 - [[engram-cells]] — DG 是印迹细胞的主要居所；DG→CA3→CA1→BLA 的印迹间优先连接链利用三突触回路结构
+- [[pv-interneurons]] — CA1 的 PV+ 篮状细胞在 SWR 期间强放电，产生涟漪（100–200 Hz）；在 θ 期间控制放电时序
+- [[sst-interneurons]] — CA1 的 O-LM 细胞（SST+ 亚型）在 θ 期间活跃，靶向内嗅皮层输入区（SLM），实现 top-down 输入门控
 
 ## 未解问题
 
@@ -130,6 +132,7 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"海马两种工作模式"（θ态/SWR态）章节；新增 SWR 生成和重播机制；新增 key_sources
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：DG 是印迹细胞分配竞争的主要场所（2–4% 稀疏活动→高正交性）；DG→CA3→CA1→BLA 印迹间优先连接链的描述；连接增加 [[engram-cells]]
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；填补 Q-hippocampal-consolidation-mechanism 的核心内容（SO-spindle-SWR三重奏、ACh 双模式开关、两阶段模型）
+- 2026-06-03 · 修订 · 基于《回路中的少数精锐》文章 · 新增：CA1 内 PV+ 篮状细胞（SWR 期高速放电、涟漪产生者）和 SST+ O-LM 细胞（θ期活跃、门控EC输入）的角色描述；connected to [[pv-interneurons]] 和 [[sst-interneurons]]
 
 ## 来源文章
 
@@ -137,3 +140,4 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - [[2026-05-29-theta-oscillations-phase-coding]]
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-02-memory-consolidation-systems]]
+- [[2026-06-03-inhibitory-interneuron-diversity]]

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-06-03",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -810,6 +810,105 @@
       "note": "未读全文，仅读摘要",
       "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
       "aspects_covered": ["SHY hypothesis evidence", "SBEM axon-spine interface smaller after sleep", "synaptic renormalization ultrastructure"]
+    },
+    {
+      "pmid": "27477017",
+      "pmcid": "PMC4980915",
+      "title": "GABAergic Interneurons in the Neocortex: From Cellular Properties to Circuits",
+      "authors_short": "Tremblay R, Lee S, Rudy B",
+      "journal": "Neuron",
+      "year": 2016,
+      "first_used": "2026-06-03",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
+      "aspects_covered": ["three interneuron types overview", "PV+ 0.7ms synaptic latency 0.19ms jitter", "SST+ facilitating inputs Martinotti cells", "VIP+ disinhibitory specialist CGE origin", "NGFCs volume transmission", "circuit connectivity matrix", "proportions PV~40% SST~30% VIP~12-15%"]
+    },
+    {
+      "pmid": "24429630",
+      "pmcid": "PMC4349583",
+      "title": "Interneuron cell types are fit to function",
+      "authors_short": "Kepecs A, Fishell G",
+      "journal": "Nature",
+      "year": 2014,
+      "first_used": "2026-06-03",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
+      "aspects_covered": ["MGE/CGE developmental origin", "two-phase specification model", "disinhibitory circuit cross-cortical conservation", "matching hypothesis vs flow control hypothesis"]
+    },
+    {
+      "pmid": "18599766",
+      "pmcid": "PMC4487503",
+      "title": "Neuronal diversity and temporal dynamics: the unity of hippocampal circuit operations",
+      "authors_short": "Klausberger T, Somogyi P",
+      "journal": "Science",
+      "year": 2008,
+      "first_used": "2026-06-03",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
+      "aspects_covered": ["CA1 ≥21 interneuron types", "O-LM cells active during theta", "basket cells high firing during SWR", "axo-axonic cells fire before then silence during SWR", "spatiotemporal division of labor principle"]
+    },
+    {
+      "pmid": "24097352",
+      "pmcid": null,
+      "title": "Cortical interneurons that specialize in disinhibitory control",
+      "authors_short": "Pi HJ et al.",
+      "journal": "Nature",
+      "year": 2013,
+      "first_used": "2026-06-03",
+      "full_text_available": false,
+      "note": "摘要可及，Nature 付费墙",
+      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
+      "aspects_covered": ["VIP cells activated by reward/punishment", "VIP inhibits SST+ (primarily) and PV+ (secondarily)", "disinhibition increases pyramidal cell gain", "two-photon calcium imaging + auditory discrimination + cell-type specific optogenetics"]
+    },
+    {
+      "pmid": "22158104",
+      "pmcid": null,
+      "title": "A disinhibitory microcircuit for associative fear learning in the auditory cortex",
+      "authors_short": "Letzkus JJ et al.",
+      "journal": "Nature",
+      "year": 2011,
+      "first_used": "2026-06-03",
+      "full_text_available": false,
+      "note": "摘要可及，Nature 付费墙",
+      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
+      "aspects_covered": ["cholinergic→L1 interneurons→inhibit L2/3 PV+→disinhibit pyramidal cells chain", "optogenetic causal evidence for fear learning", "disinhibitory microcircuit for associative learning"]
+    },
+    {
+      "pmid": "21154909",
+      "pmcid": null,
+      "title": "Three groups of interneurons account for nearly 100% of neocortical GABAergic neurons",
+      "authors_short": "Rudy B et al.",
+      "journal": "Developmental Neurobiology",
+      "year": 2011,
+      "first_used": "2026-06-03",
+      "full_text_available": false,
+      "note": "仅读摘要",
+      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
+      "aspects_covered": ["three interneuron groups cover ~100% of cortical GABAergic neurons", "classification framework"]
+    },
+    {
+      "pmid": "22219337",
+      "pmcid": "PMC3381023",
+      "title": "Cortical basket cell dysfunction in schizophrenia",
+      "authors_short": "Curley AA, Lewis DA",
+      "journal": "The Journal of Physiology",
+      "year": 2012,
+      "first_used": "2026-06-03",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
+      "aspects_covered": ["PV+ cells GAD67 mRNA downregulation in schizophrenia (~25-30%)", "theta and gamma oscillation impairment", "working memory deficit cellular mechanism"]
+    },
+    {
+      "pmid": "25863358",
+      "pmcid": "PMC4424074",
+      "title": "Alterations in cortical network oscillations and parvalbumin neurons in schizophrenia",
+      "authors_short": "Gonzalez-Burgos G, Cho RY, Lewis DA",
+      "journal": "Biological Psychiatry",
+      "year": 2015,
+      "first_used": "2026-06-03",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
+      "aspects_covered": ["schizophrenia working memory task prefrontal gamma power reduction", "PV+ cell → gamma → cognition causal chain", "EEG/MEG clinical research review"]
     }
   ]
 }

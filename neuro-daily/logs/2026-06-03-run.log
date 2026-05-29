@@ -1,0 +1,88 @@
+# 运行日志 2026-06-03
+
+- **运行时间**：2026-06-03（UTC+8 实际日期：2026-05-29，按序列号延续）
+- **文章编号**：第 11 篇
+- **主题**：回路中的少数精锐：三类抑制性中间神经元如何统治大脑的计算时序
+- **课程轨道**：2. 神经网络的微回路设计（抑制性中间神经元多样性）
+- **字数**：约 5000 汉字
+
+## 文献检索
+
+- PubMed/PMC 检索：cortical GABAergic interneurons PV SST VIP review 2016
+- 获取全文：PMC4980915（Tremblay 2016），PMC4349583（Kepecs 2014），PMC4487503（Klausberger 2008），PMC3381023（Curley 2012），PMC4424074（Gonzalez-Burgos 2015）
+- 摘要仅可及：Pi 2013（PMID 24097352，Nature 付费墙），Letzkus 2011（PMID 22158104，Nature 付费墙），Rudy 2011（PMID 21154909）
+- 总计：8 篇来源，5 篇全文，3 篇仅摘要
+
+## 文件操作
+
+### 新建文件
+- neuro-daily/articles/2026-06-03-inhibitory-interneuron-diversity.md
+- neuro-daily/wiki/circuits/pv-interneurons.md
+- neuro-daily/wiki/circuits/sst-interneurons.md
+- neuro-daily/wiki/circuits/vip-interneurons.md
+- neuro-daily/wiki/circuits/disinhibitory-circuit.md
+- neuro-daily/notes/2026-06-03-reading-notes.md
+- neuro-daily/sources/2026-06-03-sources.json
+- neuro-daily/logs/2026-06-03-run.log（本文件）
+
+### 修订 wiki 页面
+- neuro-daily/wiki/circuits/chandelier-cell.md（revision_count 1→2）：添加 pv-interneurons 关联
+- neuro-daily/wiki/neurons/dendritic-computation.md（revision_count 2→3）：添加 SST+/PV+ 对树突的投射连接
+- neuro-daily/wiki/neurons/hippocampal-circuit.md（revision_count 4→5）：添加 PV+ 篮状细胞产生 SWR、O-LM 细胞 theta 期门控
+
+### 更新状态文件
+- neuro-daily/wiki/_graph.json（node_count 27→31，edge_count 136→152）
+- neuro-daily/wiki/CHANGELOG.md（新增 2026-06-03 条目）
+- neuro-daily/wiki/index.md（主题页总数 27→31，新增 circuits 分类条目）
+- neuro-daily/state/maturity_index.json（新增 4 条 established 条目）
+- neuro-daily/state/topic_ledger.json（total_articles 10→11，新增文章记录）
+- neuro-daily/state/monthly_synthesis.json（6 月本月文章数 1→2）
+- neuro-daily/state/unresolved_questions.md（新增 6 个 Q 条目）
+- neuro-daily/state/source_registry.json（新增 8 条来源记录）
+
+## 知识图谱变化
+
+### 新节点（4个）
+- pv-interneurons（established）
+- sst-interneurons（established）
+- vip-interneurons（established）
+- disinhibitory-circuit（established）
+
+### 新边（~16条）
+- pv-interneurons → action-potential（mechanism-of）
+- pv-interneurons → sharp-wave-ripples（generates）
+- pv-interneurons → theta-oscillations（generates）
+- sst-interneurons → dendritic-computation（regulates）
+- sst-interneurons → hippocampal-circuit（part-of）
+- vip-interneurons → sst-interneurons（regulates）
+- vip-interneurons → pv-interneurons（regulates）
+- disinhibitory-circuit → hebbian-learning（supports）
+- disinhibitory-circuit → vip-interneurons（contains）
+- disinhibitory-circuit → sst-interneurons（contains）
+- disinhibitory-circuit → pv-interneurons（contains）
+- chandelier-cell → pv-interneurons（is-a）
+- pv-interneurons → chandelier-cell（has-subtype）
+- sst-interneurons → theta-oscillations（modulates）
+- pv-interneurons → ltp（modulates）
+- disinhibitory-circuit → ltp（enables）
+
+## 悬空引用解决
+- pv-interneurons：被 chandelier-cell, dendritic-computation, hippocampal-circuit 引用
+- sst-interneurons：被 dendritic-computation, hippocampal-circuit 引用
+- vip-interneurons：被 disinhibitory-circuit 引用
+
+## 新增未解问题
+- Q-pv-schizophrenia-causal（高优先级）
+- Q-pv-gamma-necessary（高优先级）
+- Q-sst-dendritic-spike-gate（高优先级）
+- Q-olm-theta-function（中优先级）
+- Q-vip-behavioral-universality（中优先级）
+- Q-vip-sst-pv-ratio（低优先级）
+
+## 错误与修复
+- _graph.json 初次编辑因 Unicode 字符匹配问题失败；通过精确读取目标行附近内容后重试成功
+- PubMed 搜索 Pi 2013 初始失败，改用"Pi Hangya cortical interneurons disinhibitory 2013"成功找到
+
+## 状态
+- 本地提交：完成
+- GitHub 推送：完成（branch: claude/funny-einstein-Blh4z）

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-02",
+  "last_updated": "2026-06-03",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -234,6 +234,38 @@
       "supporting_sources": 3,
       "last_status_change": "2026-06-02",
       "reason": "创建 2026-06-02。系统巩固的现象学（时间梯度逆行遗忘、海马-皮层激活转移）有 H.M. 等病例研究 + 多物种影像学 + 电生理的强证据；SWR 因果作用有闭环破坏实验多个独立验证（Ego-Stengel 2010, Jadhav 2012 等）；SO-spindle-SWR 时间耦合有多通道 LFP 和干预实验支持。主要不确定性：SCT vs MTT 争论（情景记忆是否终生依赖海马）；SHY 与主动系统巩固的整合；REM 的精确功能。核心机制 established，但理论框架层面有重要开放问题。"
+    },
+    {
+      "slug": "pv-interneurons",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-06-03",
+      "reason": "创建 2026-06-03。PV+ 细胞的识别（快速放电、PV 标记、围胞体形态）、功能（γ振荡、时序精度）由数十年多实验室工作确立。突触延迟 0.7 ms（Tremblay 2016 直接测量）。光遗传因果实验证明 PV+ 细胞驱动 γ（Kepecs & Fishell 2014 综述引用）。精神分裂症 GAD67 下调（Curley 2012）和 γ 功率降低（Gonzalez-Burgos 2015）为疾病联系提供临床证据。总体 established，但人类直接数据有限。"
+    },
+    {
+      "slug": "sst-interneurons",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-06-03",
+      "reason": "创建 2026-06-03。SST+ 细胞的树突靶向性（Martinotti → L1）和易化性突触特性由多实验室双细胞膜片钳确立（Tremblay 2016 综述）。O-LM 细胞在 θ 期的活跃放电和 SLM 靶向由 Klausberger & Somogyi 2008 体内记录直接证明。主要不确定性：SST 亚型多样性（Martinotti vs 非 Martinotti）的功能分工；O-LM 细胞究竟是'打开'还是'关闭' EC 输入的时间窗口。整体 established，亚型功能细节尚待明确。"
+    },
+    {
+      "slug": "vip-interneurons",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-06-03",
+      "reason": "创建 2026-06-03。VIP 细胞作为去抑制专家由 Pi et al. 2013（两光子钙成像 + 光遗传 + 行为任务）直接证明；Letzkus et al. 2011 在恐惧学习中建立去抑制链路的必要性。发育起源（CGE）由谱系追踪实验确立（Kepecs & Fishell 2014）。主要不确定性：不同皮层区域 VIP→SST vs VIP→PV 的比例差异；VIP 激活信号的完整范围（胆碱能/血清素/top-down 各自贡献）。整体 established，功能在不同区域的差异待补充。"
+    },
+    {
+      "slug": "disinhibitory-circuit",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-06-03",
+      "reason": "创建 2026-06-03。VIP→SST/PV→锥体细胞三级架构由 Pi 2013 在听觉皮层直接证明；恐惧学习中的必要性由 Letzkus 2011 因果实验确立；Kepecs & Fishell 2014 将其总结为'跨皮层保守模块'。证据来源多（不同皮层区域、不同行为学习类型、多实验室）。主要不确定性：不同皮层区域中 SST vs PV 作为主要靶标的比例；与其他学习相关不确定性。整体 established。"
     }
   ]
 }

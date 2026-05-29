@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-02",
-  "node_count": 27,
-  "edge_count": 136,
+  "updated": "2026-06-03",
+  "node_count": 31,
+  "edge_count": 152,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -247,6 +247,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/memory-consolidation.md"
+    },
+    {
+      "id": "pv-interneurons",
+      "title": "PV+ 中间神经元",
+      "domain": "circuits",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/pv-interneurons.md"
+    },
+    {
+      "id": "sst-interneurons",
+      "title": "SST+ 中间神经元",
+      "domain": "circuits",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/sst-interneurons.md"
+    },
+    {
+      "id": "vip-interneurons",
+      "title": "VIP+ 中间神经元",
+      "domain": "circuits",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/vip-interneurons.md"
+    },
+    {
+      "id": "disinhibitory-circuit",
+      "title": "去抑制回路",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/disinhibitory-circuit.md"
     }
   ],
   "edges": [
@@ -382,7 +418,26 @@
     {"from": "place-cell", "to": "memory-consolidation", "type": "related", "note": "场所细胞序列在 SWR 重播期间被传递至皮层，是海马侧记忆巩固输入的内容"},
     {"from": "ltp", "to": "memory-consolidation", "type": "related", "note": "皮层 LTP 是系统巩固的最终分子机制；SWR 重播触发皮层 Hebb 激活 → 皮层 LTP → 长期记忆痕迹"},
     {"from": "theta-oscillations", "to": "memory-consolidation", "type": "related", "note": "θ（编码/第一阶段）与 SWR（巩固/第二阶段）是两阶段记忆巩固模型中互补的海马工作模式"},
-    {"from": "temporal-coding-hierarchy", "to": "memory-consolidation", "type": "related", "note": "系统巩固是嵌套时间编码层级中最慢的一层（天—年尺度），通过 SWR 离线重播实现最终皮层化"}
+    {"from": "temporal-coding-hierarchy", "to": "memory-consolidation", "type": "related", "note": "系统巩固是嵌套时间编码层级中最慢的一层（天—年尺度），通过 SWR 离线重播实现最终皮层化"},
+    {"from": "pv-interneurons", "to": "action-potential", "type": "regulates", "note": "PV+ 篮状细胞通过胞体/近端树突抑制，以毫秒级精度控制锥体细胞的动作电位产生时序"},
+    {"from": "pv-interneurons", "to": "chandelier-cell", "type": "related", "note": "吊灯细胞是 PV+ 中间神经元的 AIS 靶向亚类；篮状细胞是胞体靶向亚类"},
+    {"from": "pv-interneurons", "to": "theta-oscillations", "type": "mechanism-of", "note": "PV+ 篮状细胞在 θ 相位特定时刻放电，参与 θ/γ 振荡的产生和维持"},
+    {"from": "pv-interneurons", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "CA1 PV+ 篮状细胞在 SWR 期间强烈放电，产生 100–200 Hz 涟漪波形"},
+    {"from": "pv-interneurons", "to": "hippocampal-circuit", "type": "part-of", "note": "CA1 中 PV+ 篮状细胞和吊灯细胞是海马回路的关键抑制性元素"},
+    {"from": "pv-interneurons", "to": "disinhibitory-circuit", "type": "related", "note": "PV+ 是去抑制回路的被抑制靶标之一（VIP → PV+/SST+）"},
+    {"from": "sst-interneurons", "to": "dendritic-computation", "type": "regulates", "note": "SST+ Martinotti 细胞靶向顶端树突簇，抑制 Ca²⁺ 棘波和 NMDA 棘波，调控树突非线性计算阈值"},
+    {"from": "sst-interneurons", "to": "theta-oscillations", "type": "related", "note": "CA1 O-LM 细胞（SST+ 亚型）在 θ 期间活跃，靶向内嗅皮层输入区（SLM），实现 θ 相位依赖的 EC 输入门控"},
+    {"from": "sst-interneurons", "to": "hippocampal-circuit", "type": "part-of", "note": "CA1 O-LM 细胞和 bistratified 细胞是海马主要 SST+ 类型，分别靶向 SLM（EC 输入）和 str. oriens/radiatum（CA3 输入）"},
+    {"from": "sst-interneurons", "to": "disinhibitory-circuit", "type": "related", "note": "SST+ 是去抑制回路的主要被抑制靶标（VIP → SST+），解除 SST+ 对树突的抑制是去抑制的主要通路"},
+    {"from": "sst-interneurons", "to": "btsp", "type": "related", "note": "SST+ Martinotti 细胞可能通过调控树突 Ca²⁺ 棘波阈值来影响 BTSP 的触发概率"},
+    {"from": "vip-interneurons", "to": "sst-interneurons", "type": "regulates", "note": "VIP+ 细胞主要抑制 SST+（部分 PV+），实现去抑制"},
+    {"from": "vip-interneurons", "to": "pv-interneurons", "type": "regulates", "note": "VIP+ 细胞部分抑制 PV+，次要去抑制通路"},
+    {"from": "vip-interneurons", "to": "disinhibitory-circuit", "type": "mechanism-of", "note": "VIP+ 细胞是去抑制回路的第一级——它们激活后抑制 SST/PV，实现对锥体细胞的净去抑制"},
+    {"from": "vip-interneurons", "to": "hebbian-learning", "type": "related", "note": "VIP 介导的去抑制为 Hebb 学习规则提供行为驱动的'学习许可'信号（三因素学习规则的回路基础）"},
+    {"from": "disinhibitory-circuit", "to": "vip-interneurons", "type": "mechanism-of", "note": "VIP+ 细胞是去抑制回路的核心执行者（第一级门控）"},
+    {"from": "disinhibitory-circuit", "to": "hebbian-learning", "type": "supports", "note": "去抑制在关键行为时刻（奖励/惩罚/注意）打开学习窗口，支持 Hebb 型突触可塑性的选择性发生"},
+    {"from": "disinhibitory-circuit", "to": "engram-cells", "type": "related", "note": "去抑制可能在印迹分配的竞争性 CREB 上调过程中选择性放大特定锥体细胞，影响印迹细胞集合组成"},
+    {"from": "chandelier-cell", "to": "pv-interneurons", "type": "is-a", "note": "吊灯细胞是 PV+ 中间神经元的 AIS 靶向亚类"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},

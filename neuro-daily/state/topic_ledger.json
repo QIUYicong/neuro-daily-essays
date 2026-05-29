@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-02",
-  "total_articles": 10,
+  "last_updated": "2026-06-03",
+  "total_articles": 11,
   "entries": [
     {
       "date": "2026-05-24",
@@ -638,19 +638,91 @@
       "mode": "long_term_curriculum",
       "article_number": 10,
       "dangling_reference_filled": "memory-consolidation（填补了 sharp-wave-ripples、hippocampal-circuit、ltp、engram-cells 共 4 个页面的最高优先级悬空引用）"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "回路中的少数精锐：三类抑制性中间神经元如何统治大脑的计算时序",
+      "filename": "2026-06-03-inhibitory-interneuron-diversity.md",
+      "wiki_pages_created": [
+        "wiki/circuits/pv-interneurons.md",
+        "wiki/circuits/sst-interneurons.md",
+        "wiki/circuits/vip-interneurons.md",
+        "wiki/circuits/disinhibitory-circuit.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/circuits/chandelier-cell.md",
+        "wiki/neurons/dendritic-computation.md",
+        "wiki/neurons/hippocampal-circuit.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "皮层和海马中只占 20% 的 GABA 能中间神经元，如何通过 PV+/SST+/VIP+ 三类细胞的精确亚细胞分工实现时序控制、树突门控和去抑制调节？VIP→SST→锥体细胞的去抑制回路如何将行为信号（奖励、惩罚、注意）转化为皮层计算门？",
+      "layer": ["microcircuit", "cellular", "behavior", "cognition"],
+      "curriculum_track": "2. 神经网络的微回路设计（抑制性中间神经元多样性）",
+      "topic_tags": [
+        "parvalbumin interneuron",
+        "PV interneuron",
+        "somatostatin interneuron",
+        "SST interneuron",
+        "VIP interneuron",
+        "disinhibition",
+        "disinhibitory circuit",
+        "basket cell",
+        "Martinotti cell",
+        "O-LM cell",
+        "chandelier cell",
+        "fast-spiking",
+        "gamma oscillation",
+        "E/I balance",
+        "schizophrenia",
+        "fear learning",
+        "Pi 2013",
+        "Letzkus 2011",
+        "Klausberger Somogyi 2008",
+        "Tremblay Rudy 2016",
+        "MGE CGE developmental origin",
+        "interneuron diversity"
+      ],
+      "main_sources": [
+        "PMID:27477017 (PMC4980915)",
+        "PMID:24429630 (PMC4349583)",
+        "PMID:18599766 (PMC4487503)",
+        "PMID:24097352 (abstract only)",
+        "PMID:22158104 (abstract only)",
+        "PMID:21154909 (abstract only)",
+        "PMID:22219337 (PMC3381023)",
+        "PMID:25863358 (PMC4424074)"
+      ],
+      "unresolved_questions": [
+        "Q-pv-schizophrenia-causal：精神分裂症 PV+ 细胞缺陷的因果方向",
+        "Q-pv-gamma-necessary：PV+ 细胞是否是 γ 振荡的必要产生者",
+        "Q-sst-dendritic-spike-gate：SST+ 如何精确调控树突棘波阈值",
+        "Q-olm-theta-function：O-LM 细胞门控 EC 输入的精确时相关系",
+        "Q-vip-behavioral-universality：VIP 去抑制跨皮层区域的普遍性",
+        "Q-vip-sst-pv-ratio：不同皮层区域 VIP 抑制 SST vs PV 的比例差异"
+      ],
+      "next_suggested_topics": [
+        "LTD（长时程抑制）：mGluR-LTD、AMPA 受体内吞、去磷酸化酶（LTP 的对称补充，填补突触机制空缺）",
+        "前额叶皮层与工作记忆：PV+ 中间神经元的 γ 振荡在工作记忆中的角色（延续今日 PV/γ/认知控制主题）",
+        "短时程突触可塑性：突触易化（Syt7）与抑制（囊泡耗竭）的分子机制（与钙通道衔接，填补突触层）",
+        "睡眠与神经退行性疾病：SWR 障碍与阿尔茨海默病β-淀粉样蛋白清除（disease 层填补）",
+        "三因素学习规则：多巴胺 × Hebb，强化学习的神经回路（连接 VIP 去抑制与奖励信号）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 11,
+      "dangling_reference_filled": "pv-interneurons（填补 chandelier-cell 的 PV+ 家族背景）、sst-interneurons（填补 dendritic-computation 的 Q-inhibition-dendritic-spike-control）、整体 microcircuit 层级的严重欠缺"
     }
   ],
   "layer_coverage_recent": {
     "molecular": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-06-01"],
-    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28", "2026-06-01"],
+    "cellular": ["2026-05-24", "2026-05-25", "2026-05-27", "2026-05-28", "2026-06-01", "2026-06-03"],
     "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28", "2026-06-01"],
-    "microcircuit": ["2026-05-27"],
+    "microcircuit": ["2026-05-27", "2026-06-03"],
     "brain_region": ["2026-05-27", "2026-05-28"],
     "whole_brain_network": ["2026-05-29", "2026-05-30", "2026-06-02"],
-    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31", "2026-06-02"],
-    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31", "2026-06-02"],
+    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31", "2026-06-02", "2026-06-03"],
+    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31", "2026-06-02", "2026-06-03"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-06-02（记忆巩固·系统层面）：全脑网络+行为+认知层。第二周第3篇，填补最高优先级悬空引用 memory-consolidation（被4个页面引用）。层级均衡提升：whole-brain-network 深化（双阶段模型、SO-spindle-SWR三重耦合、SCT vs MTT）。下一建议：抑制性中间神经元多样性（microcircuit 层填补）或 LTD（突触层补充，与 LTP 形成对称）。"
+  "layer_note": "2026-06-03（抑制性中间神经元多样性）：microcircuit 层级从严重欠缺（仅1篇）提升为有基础覆盖（2篇）。新建 PV+/SST+/VIP+/去抑制回路 共4个 wiki 页面。microcircuit 层仍需深化（抑制性回路的更多亚型、前额叶局部回路）。下一建议：LTD（突触层补充）或 PFC 工作记忆（认知控制层，延续 PV/γ 主题）或短时程可塑性（分子层，与钙通道衔接）。disease 层和 methods 层仍完全空缺。"
 }

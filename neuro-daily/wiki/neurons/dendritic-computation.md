@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-27
-updated: 2026-05-28
-revision_count: 2
+updated: 2026-06-03
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission, place-cell, btsp, hippocampal-circuit]
+related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission, place-cell, btsp, hippocampal-circuit, sst-interneurons, pv-interneurons]
 prerequisites: [action-potential, nmda-receptor, synaptic-transmission]
 opens_questions: [Q-synaptic-clustering-prevalence, Q-dendritic-spike-in-vivo-frequency, Q-inhibition-dendritic-spike-control]
 source_articles: [2026-05-27-dendritic-computation, 2026-05-28-place-cells-btsp]
@@ -86,6 +86,8 @@ key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147"
 - [[pyramidal-neuron]] — 锥体神经元的特有形态（基底/顶端双树突系统）是树突计算的物理基础
 - [[btsp]] — 树突钙平台电位触发 BTSP（秒级时间窗口），是树突计算在行为时间尺度记忆写入中的体现
 - [[place-cell]] — CA1 场所细胞利用树突平台电位通过 BTSP 单次写入空间记忆
+- [[sst-interneurons]] — SST+ Martinotti 细胞靶向顶端树突簇（L1），抑制 Ca²⁺ 棘波，是调控树突非线性计算强度的主要抑制性元件
+- [[pv-interneurons]] — PV+ 细胞对近端树突也有抑制，与 SST+ 对远端树突的抑制形成从近到远的分层控制
 
 ## 未解问题
 
@@ -97,8 +99,10 @@ key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147"
 
 - 2026-05-27 · 创建 · 基于《树突：神经元内部的神经网络》一文 · 填补 Hodgkin-Huxley 模型页的悬空引用 · 初始置信度：高
 - 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增钙平台电位→BTSP 连接；更新 related 增加 place-cell, btsp, hippocampal-circuit；dimensions 增加 brain-region
+- 2026-06-03 · 修订 · 基于《回路中的少数精锐》文章 · 新增 SST+ 和 PV+ 中间神经元对树突计算的调控连接；Q-inhibition-dendritic-spike-control 现有对应 wiki 页面（sst-interneurons）
 
 ## 来源文章
 
 - [[2026-05-27-dendritic-computation]]
 - [[2026-05-28-place-cells-btsp]]
+- [[2026-06-03-inhibitory-interneuron-diversity]]

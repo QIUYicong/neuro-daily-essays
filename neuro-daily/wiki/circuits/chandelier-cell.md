@@ -6,10 +6,10 @@ type: entity
 status: mainstream
 confidence: medium
 created: 2026-05-24
-updated: 2026-05-24
-revision_count: 1
+updated: 2026-06-03
+revision_count: 2
 dimensions: [microcircuit, cellular]
-related: [axon-initial-segment, action-potential]
+related: [axon-initial-segment, action-potential, pv-interneurons, pyramidal-neuron]
 prerequisites: [axon-initial-segment]
 opens_questions: [Q-ais-gaba-polarity, Q-chandelier-schizophrenia]
 source_articles: [2026-05-24-axon-initial-segment]
@@ -48,6 +48,7 @@ key_sources: ["PMID:41930336"]
 
 - [[轴突始段]] — 吊灯细胞的特异性靶点
 - [[动作电位]] — 吊灯细胞通过抑制 AIS 直接调控其产生
+- [[pv-interneurons]] — 吊灯细胞是 PV+ 中间神经元的一个亚类（另一主要亚类是篮状细胞）
 
 ## 未解问题
 
@@ -57,6 +58,7 @@ key_sources: ["PMID:41930336"]
 ## 修订历史
 
 - 2026-05-24 · 创建 · 基于《决策的解剖学：神经元如何在混沌的输入中找到它唯一的声音》· 初始置信度：中（机制存争议）
+- 2026-06-03 · 修订 · 新增 [[pv-interneurons]] 连接，将吊灯细胞纳入 PV+ 中间神经元家族背景（另一亚类为篮状细胞）· 依据：Tremblay et al. 2016 (PMID:27477017)
 
 ## 来源文章
 
