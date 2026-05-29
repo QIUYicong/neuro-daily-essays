@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-05-31
-revision_count: 1
+updated: 2026-06-02
+revision_count: 2
 dimensions: [cellular, brain-region, behavior, cognition]
 related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
 opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence]
-source_articles: [2026-05-31-engram-cells-optogenetic-proof]
+source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-02-memory-consolidation-sleep]
 key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038"]
 ---
 
@@ -81,7 +81,7 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - [[btsp]] — BTSP 是场所细胞（一类印迹细胞）快速单次写入的突触机制
 - [[nmda-receptor]] — NMDA 受体介导印迹细胞的突触增强（LTP 形式）
 - [[dendritic-computation]] — 树突钙平台电位（BTSP 触发器）可能是印迹细胞快速建立突触增强的机制
-- [[memory-consolidation]] — SWR 重播可能将海马印迹"复制/转移"至皮层印迹（系统巩固假说）
+- [[memory-consolidation]] — 系统巩固通过三层嵌套振荡（SO→纺锤波→SWR）驱动海马印迹序列的高速重播，逐渐在皮层建立第二份"皮层印迹"——这可能是情景记忆最终能被海马独立提取的细胞基础
 - [[sharp-wave-ripples]] — SWR 期间印迹细胞以 20 倍速高速重播，推动海马→皮层固化
 
 ## 未解问题
@@ -94,7 +94,9 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 ## 修订历史
 
 - 2026-05-31 · 创建 · 填补四个页面的高优先级悬空引用（ltp, hebbian-learning, dendritic-computation, place-cell）· 基于《印迹细胞的光子证明》文章 · 初始置信度：高
+- 2026-06-02 · 修订 · 基于《记忆的睡眠转写》文章 · 更新 memory-consolidation 连接描述（补充三层振荡机制和皮层印迹形成）；更新 source_articles
 
 ## 来源文章
 
 - [[2026-05-31-engram-cells-optogenetic-proof]]
+- [[2026-06-02-memory-consolidation-sleep]]

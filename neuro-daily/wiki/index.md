@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-01 · 主题页总数：26
+> 最后更新：2026-06-02 · 主题页总数：27
 
 ---
 
@@ -42,7 +42,8 @@
 - 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体
 - 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现
 - 🟡 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）
-- 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失 **[NEW 2026-05-31]**
+- 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失 **[修订 2026-06-02]**
+- 🟢 [记忆巩固（系统巩固）](concepts/memory-consolidation.md) — 海马临时记忆通过睡眠期三层嵌套振荡（SO→纺锤波→SWR）驱动皮层LTP积累，逐渐迁移至皮层长期存储；标准模型 vs 多重痕迹理论；Girardeau 2009（SWR因果证据）+ Staresina 2015（人类三层嵌套）+ Maingret 2016（时序因果操控）**[NEW 2026-06-02]**
 
 ## systems（系统） — *待建*
 
@@ -60,7 +61,7 @@
 |---------|------|
 | 1. 神经元如何工作 | 🔵 进行中（已覆盖：AIS, 动作电位, 突触传递, NMDA/AMPA 受体, CaMKII, 树突计算, 锥体神经元, **电压门控钙通道**；待覆盖：LTD, 中间神经元多样性, 神经调质） |
 | 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞**, **网格细胞**, θ振荡/相位编码, 视觉皮层朝向选择性；待覆盖：听觉/体感, 头向细胞, 时间表征）|
-| 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, **海马回路**, 场所场形成, SWR 重播, **印迹细胞**；待覆盖：LTD, 记忆巩固（系统层面），记忆提取机制）|
+| 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, **海马回路**, 场所场形成, SWR 重播, **印迹细胞**, **记忆巩固（系统层面）**；待覆盖：LTD, 记忆提取机制, 情景记忆皮层化）|
 | 2, 5–12 | ⚪ 待开始 |
 
 **第7篇（2026-05-30）**：**第一周综合**——归纳嵌套时间编码层级（Nested Temporal Coding Hierarchy）框架，连接前 6 篇文章的核心机制，指向第二周方向（印迹细胞、记忆巩固系统、钙通道）。
@@ -68,6 +69,8 @@
 **第8篇（2026-05-31）**：**印迹细胞**——光遗传学实验证明记忆宿于特定细胞集合；沉默印迹证明遗忘可以是提取障碍；AD 早期记忆缺损可能可逆；填补 4 个页面的高优先级悬空引用。
 
 **第9篇（2026-06-01）**：**电压门控钙通道**——三亚家族（CaV1/CaV2/CaV3）通过亚细胞定位实现三种时间尺度功能；纳米域耦合（10-30 nm）赋予突触前毫秒精度；L型通道驱动BTSP平台电位（73%贡献）和晚期LTP核钙信号；填补6个页面引用的最高优先悬空引用 calcium-channel。
+
+**第10篇（2026-06-02）**：**记忆巩固（系统层面）**——睡眠期三层嵌套振荡（皮层慢波振荡→丘脑纺锤波→海马SWR）如何协同将海马临时记忆转写为皮层长期记忆；Girardeau 2009（SWR因果必要性）、Staresina 2015（人类颅内三层嵌套证据）、Maingret 2016（时序精度的因果作用）；标准巩固模型 vs 多重痕迹理论；靶向记忆再激活（TMR）；填补最高优先级悬空引用 memory-consolidation（被4个页面引用）。
 
 ---
 
@@ -77,9 +80,8 @@
 - ~~`theta-oscillations`（θ振荡）~~ ✅ **2026-05-29 已建立**
 - ~~`engram-cells`（印迹细胞）~~ ✅ **2026-05-31 已建立**
 - ~~`calcium-channel`（电压门控钙通道）~~ ✅ **2026-06-01 已建立**（slug为`voltage-gated-calcium-channels`，填补6个页面的悬空引用）
-- `memory-consolidation`（记忆巩固）— 被多个页面引用；SWR 已有详细覆盖（sharp-wave-ripples），但**系统巩固专页**尚缺（皮层侧机制、睡眠阶段分工、标准巩固 vs 多重痕迹理论），**最高优先级（第二周首要主题）**
+- ~~`memory-consolidation`（记忆巩固）~~ ✅ **2026-06-02 已建立**（新建 wiki/concepts/memory-consolidation.md，填补 hippocampal-circuit/place-cell/sharp-wave-ripples/engram-cells 共 4 个页面的最高优先级悬空引用）
 - `path-integration`（路径整合）— 被 [[网格细胞]] 引用，网格细胞无地标时维持空间表征的内源机制
-- `memory-consolidation`（记忆巩固）— 被 [[海马回路]]、[[场所细胞]] 引用，SWR重放→皮层巩固
 - `synaptic-clustering`（突触聚类假说）— 被 [[树突计算]] 引用，NMDA 棘波的前提条件，有争议
 - `apical-tuft`（顶端簇）— 被 [[树突计算]]、[[锥体神经元]] 引用，Ca²⁺ 棘波的主要发生地
 - `three-factor-learning-rule`（三因素学习规则）— 被 [[hebbian-learning]] 引用，Hebb × 多巴胺
@@ -95,6 +97,6 @@
 - **θ振荡**（整合节点）：连接 place-cell、grid-cell、hippocampal-circuit、ltp、btsp、sharp-wave-ripples、phase-precession 等 7+ 节点；是"全脑网络层"的关键节点。
 - **NMDA 受体**（最高连接数）：连接突触 LTP、树突计算、BTSP（间接）、嵌套时间编码层级；仍是最密集枢纽节点。
 - ~~**印迹细胞（engram-cells）**~~ ✅ **2026-05-31 已建立**（填补了 ltp/hebbian-learning/dendritic-computation/place-cell 共 4 个页面的悬空引用）
-- **记忆巩固（memory-consolidation）**（新优先悬空引用）：被 hippocampal-circuit、place-cell、sharp-wave-ripples 引用；系统巩固理论、皮层侧 LTP、睡眠阶段分工；**第二周次优先主题**。
+- ~~**记忆巩固（memory-consolidation）**~~ ✅ **2026-06-02 已建立**（新建 memory-consolidation 节点，添加11条新边；填补 hippocampal-circuit/place-cell/sharp-wave-ripples/engram-cells 共4个页面的最高优先级悬空引用）
 - ~~**电压门控钙通道（calcium-channel）**~~ ✅ **2026-06-01 已建立**（新建 voltage-gated-calcium-channels 节点，添加12条新边，连接9个既有节点）
 - **记忆巩固（memory-consolidation）**（现在最高优先级）：被 hippocampal-circuit、place-cell、sharp-wave-ripples、engram-cells 引用；系统巩固、睡眠阶段分工、皮层侧 LTP；**第二周首要主题**。

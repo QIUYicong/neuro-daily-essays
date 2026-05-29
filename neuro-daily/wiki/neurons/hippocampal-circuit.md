@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-31
-revision_count: 3
+updated: 2026-06-02
+revision_count: 4
 dimensions: [brain-region, microcircuit, cognition]
 related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation]
 prerequisites: [synaptic-transmission, ltp, action-potential]
 opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism]
-source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-02-memory-consolidation-sleep]
 key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386"]
 ---
 
@@ -91,8 +91,9 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - CA3循环兴奋自发爆发，通过Schaffer侧支驱动CA1产生110–200 Hz涟漪
 - 白天的场所细胞序列以~20倍速度高速重播
 - 重播内容包括前向、反向，甚至新颖路径（规划/想象？）
-- 选择性SWR中断损害次日空间记忆（因果证据）
-- 被认为是海马→新皮层记忆巩固的物理载体
+- 选择性SWR中断损害次日空间记忆（因果证据，Girardeau et al. 2009，PMID:19749750）
+- 系统巩固的皮层输出路径：**CA1→下托→内嗅皮层→关联皮层**，SWR 期间沿此通路广播重播信号
+- 三层嵌套振荡（皮层慢波振荡→丘脑纺锤波→海马SWR）在 NREM SWS 中精密同步，是系统巩固的神经机制（Staresina 2015，PMID:26389842；Maingret 2016，PMID:27182818）
 
 **两种模式的切换机制**：
 - 胆碱能（ACh）张力是关键开关：ACh高→θ态；ACh低→SWR自发爆发
@@ -129,9 +130,11 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"海马两种工作模式"（θ态/SWR态）章节；新增 SWR 生成和重播机制；新增 key_sources
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：DG 是印迹细胞分配竞争的主要场所（2–4% 稀疏活动→高正交性）；DG→CA3→CA1→BLA 印迹间优先连接链的描述；连接增加 [[engram-cells]]
+- 2026-06-02 · 修订 · 基于《记忆的睡眠转写》文章 · 新增：SWR态描述补充系统巩固皮层输出路径（CA1→EC→关联皮层）和三层嵌套振荡证据（Staresina 2015，Maingret 2016）；更新 source_articles
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
 - [[2026-05-29-theta-oscillations-phase-coding]]
 - [[2026-05-31-engram-cells-optogenetic-proof]]
+- [[2026-06-02-memory-consolidation-sleep]]

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-05-29
-revision_count: 1
+updated: 2026-06-02
+revision_count: 2
 dimensions: [whole-brain-network, brain-region, cellular, behavior, cognition]
 related: [hippocampal-circuit, place-cell, theta-oscillations, memory-consolidation, ltp, hebbian-learning]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cell]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-sleep]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26389842", "PMID:27182818", "PMID:19749750"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -81,8 +81,10 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 |------|------------|------|--------|
 | SWR起源于CA3循环兴奋，CA1产生涟漪 | 多电极记录+CSD分析；CA3选择性破坏实验 | PMID:26135716 | 高 |
 | SWR期间场所细胞序列以~20倍速重播 | 多单元记录+序列比较分析（Bayesian解码） | PMID:26135716；PMID:34936810 | 高 |
-| 选择性SWR中断损害空间记忆 | 闭环刺激（检测SWR触发干扰）+行为 | 综述于 PMID:26135716 | 高 |
+| 选择性SWR中断损害空间记忆（因果证据）| 闭环实时检测+CA1电干扰选择性中断SWR，次日空间记忆测试下降 | PMID:19749750（Girardeau 2009） | 高 |
 | SWR存在前向、反向和新颖路径重播 | 多单元记录+时空轨迹解码 | PMID:34936810 | 高 |
+| 人类大脑中SWR嵌套于纺锤波中，纺锤波嵌套于慢波振荡 | 癫痫患者颅内电极，NREM睡眠，三层振荡时序分析 | PMID:26389842（Staresina 2015） | 高 |
+| 操控SO-纺锤波-SWR时序精度因果影响记忆 | 大鼠：同步增强→记忆改善；时序打乱→记忆损害 | PMID:27182818（Maingret 2016） | 高 |
 | 情绪效价也在SWR期间重播 | 联合情绪学习+SWR记录 | PMID:31334590 | 中（新兴） |
 
 ## 连接
@@ -102,7 +104,9 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 ## 修订历史
 
 - 2026-05-29 · 创建 · 基于《θ振荡与相位编码》文章 · 填补了 memory-consolidation 悬空引用 · 初始置信度：高
+- 2026-06-02 · 修订 · 基于《记忆的睡眠转写》文章 · 新增：(1) Girardeau 2009 因果证据的独立行；(2) Staresina 2015 人类三层嵌套振荡证据；(3) Maingret 2016 时序因果操控证据；更新 key_sources
 
 ## 来源文章
 
 - [[2026-05-29-theta-oscillations-phase-coding]]
+- [[2026-06-02-memory-consolidation-sleep]]

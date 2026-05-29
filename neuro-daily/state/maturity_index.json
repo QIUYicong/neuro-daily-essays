@@ -226,6 +226,14 @@
       "supporting_sources": 6,
       "last_status_change": "2026-06-01",
       "reason": "创建 2026-06-01。CaV1/CaV2/CaV3三亚家族的α1亚基结构（4域、S4电压传感器、S5-S6孔道）是Catterall等数十年晶体学+电生理+遗传研究的共识（诺贝尔奖级机制）。纳米域耦合（<100 nm）有BAPTA/EGTA差异实验（多实验室独立验证）直接证明。L型通道驱动BTSP平台电位（73%贡献，nimodipine阻断实验，Bittner 2017 Science）和LTP（CaV1.2 cKO实验，Sridharan 2020）均有遗传+药理+电生理多维证据。主要不确定性：CaV1.2 vs CaV1.3在不同树突区室的精确功能分工；纳米域耦合是否在所有快速突触（非脑干calyx特异）中普遍适用；CaV3（T型）在某些突触前的贡献机制。整体：established，不确定性在具体亚型功能分工层面而非核心机制。"
+    },
+    {
+      "slug": "memory-consolidation",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 6,
+      "last_status_change": "2026-06-02",
+      "reason": "创建 2026-06-02。系统巩固的核心机制（海马→皮层迁移，依赖SWS期间SWR重播）在动物（多电极记录/闭环干扰）和人类（fMRI/颅内电极）多层面有强烈证据。Girardeau 2009（因果证据：SWR中断→记忆损害）、Staresina 2015（人类三层嵌套振荡直接记录）、Maingret 2016（振荡时序精度的因果操控）三项关键研究跨物种、跨方法相互印证。标准巩固模型（SMC）和多重痕迹理论（MTT）的分歧在情景记忆是否永远海马依赖上，但两者对SWS期间系统巩固的重要性均无异议。主要不确定性：SWS和REM的精确功能分工；老化如何降低巩固效率；皮层LTP在SWR重播期间的直接实时证据仍缺乏。整体：established，高置信度，但具体机制细节仍有活跃研究。"
     }
   ]
 }

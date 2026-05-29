@@ -571,11 +571,82 @@
     "synaptic": ["2026-05-24", "2026-05-25", "2026-05-26", "2026-05-28", "2026-06-01"],
     "microcircuit": ["2026-05-27"],
     "brain_region": ["2026-05-27", "2026-05-28"],
-    "whole_brain_network": ["2026-05-29", "2026-05-30"],
-    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31"],
-    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31"],
+    "whole_brain_network": ["2026-05-29", "2026-05-30", "2026-06-02"],
+    "behavior": ["2026-05-29", "2026-05-30", "2026-05-31", "2026-06-02"],
+    "cognition": ["2026-05-26", "2026-05-27", "2026-05-28", "2026-05-30", "2026-05-31", "2026-06-02"],
     "disease": [],
     "methods": []
   },
-  "layer_note": "2026-06-01（电压门控钙通道）：分子+细胞+突触层。第二周第2篇，填补最高优先级悬空引用 calcium-channel（被6个页面引用）。层级均衡恢复：前3天连续 behavior/cognition，今日回归 molecular/synaptic。下一建议：记忆巩固（系统层面）→ whole-brain-network 层深挖（memory-consolidation 现为最高优先级悬空引用，被4个页面引用），或抑制性中间神经元（microcircuit 层）→ PV+/SST+/VIP+ 多样性。"
+  "layer_note": "2026-06-02（记忆巩固·系统层面）：whole-brain-network + brain-region + synaptic + cognition。第二周第3篇，填补最高优先级悬空引用 memory-consolidation（被4个页面引用）。三层嵌套振荡（皮层慢波振荡→纺锤波→SWR）是全脑网络级的整合机制。层级均衡：今日深入 whole-brain-network 层（第5次覆盖），与前两天的 molecular/synaptic 形成良好互补。下一建议：LTD（突触层，LTP的对称补充）、抑制性中间神经元（microcircuit 层，严重不足，仅有 chandelier-cell，需要 PV+/SST+/VIP+ 多样性）或疾病视角（disease 层完全空白，可写 AD 等）。microcircuit 层最需补充。",
+  "total_articles": 10,
+  "entries_appended": {
+    "2026-06-02": {
+      "date": "2026-06-02",
+      "title": "记忆的睡眠转写：大脑如何在熟睡中悄悄重塑皮层",
+      "filename": "2026-06-02-memory-consolidation-sleep.md",
+      "wiki_pages_created": ["wiki/concepts/memory-consolidation.md"],
+      "wiki_pages_revised": [
+        "wiki/concepts/sharp-wave-ripples.md",
+        "wiki/neurons/hippocampal-circuit.md",
+        "wiki/concepts/engram-cells.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "睡眠如何将海马中临时储存的情景记忆转写为新皮层的永久长期记忆？皮层慢波振荡、丘脑纺锤波与海马尖波涟漪的三重嵌套如何协调这场大规模神经重塑？",
+      "layer": ["全脑网络", "脑区", "突触", "行为", "认知"],
+      "curriculum_track": "4. 学习和记忆（记忆巩固·系统层面）",
+      "topic_tags": [
+        "memory consolidation",
+        "systems consolidation",
+        "slow oscillation",
+        "sleep spindle",
+        "sharp wave ripples",
+        "SWR",
+        "NREM",
+        "SWS",
+        "REM sleep",
+        "three-layer nesting",
+        "hippocampus",
+        "neocortex",
+        "Girardeau 2009",
+        "Staresina 2015",
+        "Maingret 2016",
+        "Wilson McNaughton 1994",
+        "Diekelmann Born 2010",
+        "TMR",
+        "targeted memory reactivation",
+        "standard consolidation model",
+        "multiple trace theory",
+        "synaptic homeostasis hypothesis",
+        "complementary learning systems",
+        "HM case"
+      ],
+      "main_sources": [
+        "PMID:20046194 (abstract only)",
+        "PMID:8036517 (abstract only)",
+        "PMID:19749750 (abstract only)",
+        "PMID:26389842 (PMC4541462, open)",
+        "PMID:27182818 (abstract only)",
+        "PMID:31032406 (PMC6561741, open)",
+        "PMID:22937055 (abstract only)",
+        "PMID:30054638 (abstract only)",
+        "PMID:36584924 (abstract only)",
+        "PMID:26135716 (PMC4648295, open, prev)"
+      ],
+      "unresolved_questions": [
+        "Q-consolidation-sleep-stages：SWS 和 REM 在情景记忆巩固中的精确功能分工",
+        "Q-aging-consolidation：老化如何破坏记忆巩固的哪个环节",
+        "Q-swr-cortical-ltp-evidence：SWR 重播期间皮层 LTP 发生的直接实时证据"
+      ],
+      "next_suggested_topics": [
+        "LTD（长时程抑制）：mGluR-LTD、AMPA受体内吞、PP1/PP2A去磷酸化（突触双向可塑性的对称补充，medium priority）",
+        "抑制性中间神经元多样性：PV+/SST+/VIP+ 在海马和皮层中的功能分工（microcircuit 层严重不足，高优先级；也衔接上 SWR 中 PV+ 篮细胞的涟漪塑形功能）",
+        "睡眠纺锤波（sleep spindle）的生成机制：丘脑网状核（TRN）、丘脑-皮层环路、GABA能机制（填补 sleep-spindle 悬空引用，连接今日文章）",
+        "记忆提取（memory retrieval）的回路机制：CA1→皮层的模式匹配，情节记忆的重构过程",
+        "阿尔茨海默病中的记忆巩固损害（disease 层首篇；AD 破坏 SWS、降低 SWR 质量的机制）"
+      ],
+      "mode": "gap_driven",
+      "article_number": 10,
+      "dangling_reference_filled": "memory-consolidation（填补了 hippocampal-circuit、place-cell、sharp-wave-ripples、engram-cells 共 4 个页面的最高优先级悬空引用）"
+    }
+  }
 }

@@ -4,6 +4,22 @@
 
 ---
 
+## 2026-06-02（第二周·第 3 篇，文章 #10）
+
+**源文章**：[[2026-06-02-memory-consolidation-sleep]] —《记忆的睡眠转写：大脑如何在熟睡中悄悄重塑皮层》
+
+**新建页面（1）**：
+- `concepts/memory-consolidation.md`（记忆巩固·系统巩固）🟢 established / 置信度高 — 填补了 sharp-wave-ripples、hippocampal-circuit、place-cell、engram-cells 共 4 个页面引用的最高优先级悬空引用；整合三层嵌套振荡协议（皮层慢波振荡→丘脑纺锤波→海马SWR）、因果证据链（Wilson 1994→Girardeau 2009→Staresina 2015→Maingret 2016）、标准巩固模型 vs 多重痕迹理论、靶向记忆再激活（TMR）；opens 3 个新未解问题（Q-consolidation-sleep-stages, Q-aging-consolidation, Q-swr-cortical-ltp-evidence）；新增悬空引用 sleep-spindle、slow-oscillation-nrem、complementary-learning-systems
+
+**修订页面（3）**：
+- `concepts/sharp-wave-ripples.md`：补充 Girardeau 2009 因果证据的独立证据行；新增 Staresina 2015（人类三层嵌套）和 Maingret 2016（时序因果操控）两行关键证据；更新 key_sources；revision_count 1→2
+- `neurons/hippocampal-circuit.md`：在 SWR 态描述中新增系统巩固皮层输出路径（CA1→EC→关联皮层）和三层嵌套振荡（Staresina 2015，Maingret 2016）；revision_count 3→4
+- `concepts/engram-cells.md`：更新 memory-consolidation 连接描述（补充三层振荡机制和皮层印迹形成）；revision_count 1→2
+
+**矛盾登记（0）**：今日内容与既有 wiki 主张无直接冲突。SMC（标准模型）vs MTT（多重痕迹理论）作为**既有理论框架分歧**记录在新页面"当前理解"和"争议"节中，无需登记 contested_claims（两种理论本身不矛盾，预测对象不同：语义记忆 vs 情景记忆的海马依赖性）。
+
+---
+
 ## 2026-06-01（第二周·第 2 篇，文章 #9）
 
 **源文章**：[[2026-06-01-voltage-gated-calcium-channels]] —《神经元的三重钙门：电压门控钙通道如何在不同地点执行截然不同的命令》
