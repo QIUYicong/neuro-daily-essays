@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-09（第三周·第 3 篇，文章 #17）
+
+**源文章**：[[2026-06-09-optogenetics-causal-neuroscience]] —《光遗传学：用一束光解开神经回路的因果之谜》
+
+**新建页面（1）**：
+- `methods/optogenetics.md`（光遗传学）🟢 established / 置信度高 — **methods 层第一个页面，填补完全空白的方法层**；ChR2（蓝光~470nm激活，7TM视黄醛门控阳离子通道，开放τ~1-2ms）+ NpHR（黄光~560nm沉默，Cl⁻泵，超极化~33mV，全文验证 PMID:17375185）分子机制；晶体结构（Kato 2012，2.3Å，C1C2嵌合体）；遗传特异性递送三策略（细胞特异性启动子/Cre-lox/c-fos-tTA）；假记忆实验（Ramirez 2013 Science）和效价翻转（Redondo 2014 Nature）因果实验；从相关性到因果性的方法论革命；与AI可解释性/mechanistic interpretability的类比；连接10个既有节点，新增14条边
+
+**修订页面（1）**：
+- `concepts/engram-cells.md`（revision_count 3→4）：补充 c-fos-tTA 标记系统技术细节（TetTag 小鼠、doxycycline 控制窗口、2-6% DG 稀疏性；全文来源 PMC3894458）；新增 [[optogenetics]] 到 related 字段；来源新增 PMID:24478647；来源文章新增 2026-06-09
+
+**悬空引用新增（1）**：
+- `channelrhodopsin`：被 optogenetics 引用，通道视紫质分子生物学专页（ChR1/ChR2 结构、光谱、工程变体）；待建页面
+
+**矛盾登记（0）**：今日无新矛盾。C-2026-05-24-01（GABA 极性）和 C-2026-05-25-01（SNARE 就绪态）仍为 open，今日文献未直接涉及，未更新。
+
+**图谱更新**：
+- 新节点：optogenetics（45 个总节点）
+- 新边：14条（optogenetics↔engram-cells、hippocampal-circuit、place-cell、pv-interneurons、ltp、dopamine-reward-prediction-error、disinhibitory-circuit、memory-consolidation、action-potential、synaptic-transmission、voltage-gated-sodium-channel；engram-cells↔optogenetics；hippocampal-circuit↔optogenetics）
+- 新悬空：channelrhodopsin
+
+---
+
 ## 2026-06-08（第三周·第 2 篇，文章 #16）
 
 **源文章**：[[2026-06-08-alzheimers-amyloid-synaptic-mechanism]] —《记忆的分子遗忘：淀粉样寡聚体如何精准瓦解海马突触可塑性》

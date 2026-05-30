@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-08",
-  "node_count": 44,
-  "edge_count": 219,
+  "updated": "2026-06-09",
+  "node_count": 45,
+  "edge_count": 233,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -400,6 +400,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/amyloid-beta-oligomers.md"
+    },
+    {
+      "id": "optogenetics",
+      "title": "光遗传学",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/optogenetics.md"
     }
   ],
   "edges": [
@@ -625,7 +634,20 @@
     {"from": "amyloid-beta-oligomers", "to": "calcineurin", "type": "regulates", "note": "Aβ引发的慢性低幅Ca²⁺过载优先激活calcineurin，驱动GluA1 Ser845去磷酸化→AMPA受体内吞，突触强度崩解"},
     {"from": "amyloid-beta-oligomers", "to": "camkii", "type": "contradicts", "note": "CaMKII活性在Aβ暴露的海马脑片中降低约60%，LTP诱导的关键激酶失效"},
     {"from": "amyloid-beta-oligomers", "to": "ampa-receptor", "type": "regulates", "note": "Aβ寡聚体通过calcineurin过激活驱动AMPA受体GluA1大量内吞，突触表面谷氨酸受体密度持续下降"},
-    {"from": "alzheimers-disease", "to": "amyloid-beta-oligomers", "type": "mechanism-of", "note": "Aβ寡聚体是AD突触病理的核心毒性物种（区别于不溶性斑块）"}
+    {"from": "alzheimers-disease", "to": "amyloid-beta-oligomers", "type": "mechanism-of", "note": "Aβ寡聚体是AD突触病理的核心毒性物种（区别于不溶性斑块）"},
+    {"from": "optogenetics", "to": "action-potential", "type": "mechanism-of", "note": "ChR2 蓝光激活诱发动作电位；NpHR/Arch 黄光激活超极化抑制动作电位"},
+    {"from": "optogenetics", "to": "engram-cells", "type": "supports", "note": "ChR2 + c-fos-tTA 系统是印迹细胞研究的核心因果工具（假记忆、效价翻转、沉默印迹恢复）"},
+    {"from": "optogenetics", "to": "hippocampal-circuit", "type": "related", "note": "大量海马 DG/CA3/CA1 回路的因果解析依赖光遗传学；假记忆实验在 DG 完成"},
+    {"from": "optogenetics", "to": "place-cell", "type": "supports", "note": "光遗传学激活场所细胞可触发空间行为，提供场所细胞功能的因果证明"},
+    {"from": "optogenetics", "to": "pv-interneurons", "type": "related", "note": "选择性激活/沉默 PV+ 细胞验证了 gamma 振荡与认知功能的因果关系"},
+    {"from": "optogenetics", "to": "ltp", "type": "supports", "note": "光学 LTP（高频光刺激印迹细胞）可恢复沉默印迹；PMID:26982728"},
+    {"from": "optogenetics", "to": "dopamine-reward-prediction-error", "type": "related", "note": "选择性激活 VTA DA 神经元可诱发奖励行为，验证 DA-RPE 的因果角色"},
+    {"from": "optogenetics", "to": "disinhibitory-circuit", "type": "related", "note": "光激活 VIP+ 中间神经元直接验证了去抑制回路的行为功能"},
+    {"from": "optogenetics", "to": "memory-consolidation", "type": "related", "note": "光遗传学在体 SWR 期间操控 CA3/CA1 活动，验证了 SWR 重播在记忆巩固中的因果角色"},
+    {"from": "optogenetics", "to": "voltage-gated-sodium-channel", "type": "prerequisite-for", "note": "理解光遗传学需理解动作电位及钠通道（ChR2 激活最终通过钠通道达到阈值放电）"},
+    {"from": "optogenetics", "to": "synaptic-transmission", "type": "related", "note": "光遗传学可在突触前和突触后层面操控突触传递；opto-vTrap可逆阻断囊泡释放"},
+    {"from": "engram-cells", "to": "optogenetics", "type": "related", "note": "印迹细胞研究为光遗传学提供了最有力的实验展示场景"},
+    {"from": "hippocampal-circuit", "to": "optogenetics", "type": "related", "note": "光遗传学是海马回路功能最重要的在体解析工具之一"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -643,6 +665,7 @@
     {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples", "engram-cells"], "note": "已于2026-06-02创建 wiki/concepts/memory-consolidation.md 页面", "resolved": "2026-06-02"},
     {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"},
     {"slug": "bdnf-trkb", "referenced_by": ["alzheimers-disease", "amyloid-beta-oligomers"], "note": "BDNF/TrkB信号轴是L-LTP蛋白合成的关键上游；Aβ双重打击（下调BDNF表达+阻断TrkB信号）；proBDNF/p75NTR反转效应；待建页面"},
-    {"slug": "prc-prion-protein", "referenced_by": ["alzheimers-disease", "amyloid-beta-oligomers"], "note": "细胞朊病毒蛋白（PrPC），Aβ寡聚体的高亲和力细胞表面受体；与mGluR5共形成受体复合物；激活Fyn激酶→NR2B磷酸化；待建页面"}
+    {"slug": "prc-prion-protein", "referenced_by": ["alzheimers-disease", "amyloid-beta-oligomers"], "note": "细胞朊病毒蛋白（PrPC），Aβ寡聚体的高亲和力细胞表面受体；与mGluR5共形成受体复合物；激活Fyn激酶→NR2B磷酸化；待建页面"},
+    {"slug": "channelrhodopsin", "referenced_by": ["optogenetics"], "note": "通道视紫质（ChR1/ChR2）分子生物学专页；莱茵衣藻七跨膜光门控阳离子通道；光子→视黄醛异构→通道开放的完整结构基础；待建页面"}
   ]
 }

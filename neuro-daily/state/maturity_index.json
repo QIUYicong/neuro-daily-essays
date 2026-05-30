@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-09",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -330,6 +330,14 @@
       "supporting_sources": 4,
       "last_status_change": "2026-06-08",
       "reason": "创建 2026-06-08。Aβ寡聚体为AD核心毒性物种的证据：Walsh 2002（PMID:11932745）天然分泌寡聚体（非单体/纤维）体内LTP抑制——关键鉴别实验；Shankar 2007（PMID:17360908）提供定量剂量和可逆性；Li 2011（PMID:21543591）突触外NR2B/p38/CREB分子机制；2026综述（PMC:13039067）CaMKII降低60%等定量数据。临床：靶向寡聚体抗体减缓认知衰退且斑块清除不与临床获益相关（PMC:8231952），反向验证寡聚体（非斑块）是主要毒性物种。confidence high，不确定性主要在不同寡聚体亚型（大小/构象）的差异毒性（见Q-abeta-oligomer-subtypes）。"
+    },
+    {
+      "slug": "optogenetics",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 10,
+      "last_status_change": "2026-06-09",
+      "reason": "创建 2026-06-09。ChR2 光激活和 NpHR 光沉默的物理原理已由多重独立实验验证（2005-2022年超过10个独立实验室）。奠基论文 Boyden 2005（PMID:16116447）被全球数千实验室复制。双色双向控制（Han & Boyden 2007，全文）的精度数据已有直接测量（33mV 超极化，~10-15ms 时间常数）。晶体结构（Kato 2012）提供分子机制根基。假记忆（Ramirez 2013）和效价翻转（Redondo 2014）实验在独立实验室已得到支持。confidence high，不确定性主要在：深部脑区穿透（工程问题）；分布式表征与单细胞类型操控的因果解释力（方法论问题）。"
     }
   ]
 }

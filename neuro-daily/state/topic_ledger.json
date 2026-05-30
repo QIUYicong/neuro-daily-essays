@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-08",
-  "total_articles": 16,
+  "last_updated": "2026-06-09",
+  "total_articles": 17,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1103,6 +1103,50 @@
       "mode": "long_term_curriculum",
       "article_number": 16,
       "note": "第三周第2篇：首篇疾病层文章（disease layer），以阿尔茨海默病为窗口回顾整个突触可塑性课程。部分解答了预存开放问题 Q-nmda-alzheimer。发现斑块清除悖论验证寡聚体假说。建立 diseases/ 子目录，为未来疾病层文章奠基。"
+    },
+    {
+      "date": "2026-06-09",
+      "title": "光遗传学：用一束光解开神经回路的因果之谜",
+      "filename": "2026-06-09-optogenetics-causal-neuroscience.md",
+      "wiki_pages_created": ["wiki/methods/optogenetics.md"],
+      "wiki_pages_revised": ["wiki/concepts/engram-cells.md"],
+      "contested_claims_logged": [],
+      "core_question": "光遗传学如何从一个藻类蛋白开始，在二十年间给神经科学带来从相关性到因果性的认识论革命？其分子机制是什么，它已在哪些认知问题上给出之前不可能得到的答案？",
+      "layer": ["方法", "分子", "细胞", "回路", "认知"],
+      "curriculum_track": "10. 方法革命",
+      "topic_tags": [
+        "optogenetics", "channelrhodopsin", "ChR2", "halorhodopsin", "NpHR",
+        "Arch", "archaerhodopsin", "c-fos", "TetTag", "engram", "false memory",
+        "memory valence", "Boyden 2005", "Ramirez 2013", "Redondo 2014",
+        "AAV", "Cre-lox", "causal neuroscience", "methods layer"
+      ],
+      "main_sources": [
+        "PMID:16116447 (Boyden 2005)",
+        "PMID:17375185 (PMC1808431, Han & Boyden 2007, 全文)",
+        "PMID:21692661 (Fenno 2011 AnnRevNeuro)",
+        "PMID:22266941 (Kato 2012 Nature)",
+        "PMID:23888038 (Ramirez 2013 Science)",
+        "PMID:24478647 (PMC3894458, Ramirez 2013 Frontiers, 全文)",
+        "PMID:25162525 (Redondo 2014 Nature)",
+        "PMID:28772120 (Wiegert 2017 Neuron)",
+        "PMID:35072525 (Tan 2022 Physiol Rev)",
+        "PMID:19409264 (Han 2009 Neuron)"
+      ],
+      "unresolved_questions": [
+        "Q-opto-depth-limit：深部脑区光穿透的技术极限与无线解决方案",
+        "Q-opto-distributed-representation：细胞类型激活与分布式表征的因果性覆盖范围",
+        "Q-opto-clinical-ethics：人类脑内光遗传学的伦理边界和技术前提"
+      ],
+      "next_suggested_topics": [
+        "帕金森病：黑质纹状体通路的多巴胺耗竭与基底节直接/间接通路失衡（disease层继续）",
+        "单细胞RNA测序：如何将细胞多样性从形态学描述变为分子鉴定（methods层继续）",
+        "体内钙成像（calcium imaging）：GCaMP与光遗传学的比较，同时记录数千神经元（methods层）",
+        "短时程突触可塑性（STP）：抑制/易化；synaptic层仍待覆盖",
+        "视觉皮层方向选择性：V1简单细胞的感受野，大脑如何从光子到形状（大脑如何编码世界，系统层）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 17,
+      "note": "第三周第3篇：methods层首篇文章，填补最大结构性缺口。从Boyden 2005奠基论文出发，通过假记忆（Ramirez 2013）和效价翻转（Redondo 2014）展示光遗传学的最强因果证明能力。建立 methods/ 子目录。修订 engram-cells 补充c-fos-tTA系统技术细节（PMC3894458全文数据）。新增14条图谱边。"
     }
   ],
   "layer_coverage_recent": {
@@ -1162,7 +1206,7 @@
       "2026-06-03"
     ],
     "disease": ["2026-06-08"],
-    "methods": []
+    "methods": ["2026-06-09"]
   },
-  "layer_note": "2026-06-08（AD突触机制）：disease层首次写入（阿尔茨海默病）；同时覆盖molecular/synaptic/cellular/microcircuit/brain_region/cognition多层。Aβ寡聚体新建独立页，解答了nmda-receptor页的Q-nmda-alzheimer未解问题。新建2个页面（alzheimers-disease, amyloid-beta-oligomers），修订3页（ltp, nmda-receptor, hippocampal-circuit）。methods层仍完全空缺——下一篇建议进入methods层（光遗传学）或继续disease层（帕金森）。synaptic层的短时程突触可塑性（STP）仍待覆盖。"
+  "layer_note": "2026-06-09（光遗传学）：methods层首次写入！填补最大结构性缺口。同时覆盖molecular（ChR2机制）/cellular（神经元活动控制）/microcircuit（回路因果解析）/behavior（假记忆/效价翻转行为实验）/cognition（方法论因果推断）多层。新建 methods/ 子目录和第一个方法页（optogenetics），修订 engram-cells。下一篇可继续 methods 层（单细胞测序/钙成像）或 disease 层（帕金森），或填补 synaptic 层缺口（短时程突触可塑性STP）。"
 }

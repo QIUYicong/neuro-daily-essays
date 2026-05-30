@@ -1,0 +1,146 @@
+# Run Log: 2026-06-09
+
+**开始时间**：2026-06-09（UTC+8）
+**文章编号**：#17
+**主题**：光遗传学（Optogenetics）— methods 层首篇
+**模式**：长期课程模式（long_term_curriculum）
+**分支**：main
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：读取完成，最后条目 2026-06-08（AD文章），article_number=16
+- `unresolved_questions.md`：读取完成，最新条目 2026-06-08（3 AD相关问题）
+- `contested_claims.json`：读取完成，2 个 open（C-2026-05-24-01 GABA极性，C-2026-05-25-01 SNARE就绪态）
+- `wiki/_graph.json`：读取完成，44节点/219边，methods 层完全空白
+- `wiki/index.md`：读取完成，methods 层"待建"
+- `state/monthly_synthesis.md`：读取完成，已至第17月度洞见（41条）
+
+---
+
+## 选题决策
+
+**问题队列分析**：
+- 突破追踪：无明显近7天重大突破
+- 矛盾裁决：C-2026-05-24-01（GABA极性）、C-2026-05-25-01（SNARE就绪态）均 open，但今日检索的文献不直接支持裁决
+- **填补悬空引用**：methods 层完全空白——结构性缺口，必须填补
+- 课程脊柱：第10条"方法革命"完全未覆盖
+
+**选定主题**：光遗传学（Optogenetics）
+**理由**：
+1. methods 层迄今完全空白（wiki/index.md: "方法 — *待建*"），结构性优先级最高
+2. 知识库中大量实验（印迹细胞、场所细胞、回路解析）均隐含依赖光遗传学，但未解释其原理
+3. 光遗传学是连接"分子→细胞→回路→认知"的方法论枢纽
+4. 假记忆（Ramirez 2013）和效价翻转（Redondo 2014）实验可作为因果证明的最高标准展示
+
+---
+
+## 检索过程
+
+**搜索词**：
+- "optogenetics channelrhodopsin neuroscience"
+- "optogenetics review neural circuits"
+- "Boyden channelrhodopsin millisecond timescale neurons"
+- "halorhodopsin archaerhodopsin optogenetic silencing neurons"
+- "Liu false memory optogenetics 2013 Science"
+- "Deisseroth optogenetics review 2011 Annual Review"
+- "channelrhodopsin crystal structure 2012 Nature"
+
+**候选论文数**：~35 篇，采用 10 篇
+
+**来源状态**：
+- 开放全文（2篇）：PMID:17375185 (PMC1808431, Han & Boyden 2007, PLoS ONE)，PMID:24478647 (PMC3894458, Ramirez 2013, Frontiers)
+- 仅摘要（8篇）：PMID:16116447、19409264、21692661、22266941、23888038、25162525、28772120、35072525
+
+**排除原因**（部分）：
+- 多个 GeneReviews 条目（PMID 21292180 等）被错误搜索到，均排除
+- 部分细胞生物学 optophysiology 文章因不聚焦神经科学回路排除
+- 非人灵长类 Parkinson's optogenetics（PMID 27069384）次要排除
+
+**最低要求验证**：
+- ≥5 来源：✅ 10 篇
+- ≥2 开放全文：✅ 2 篇（PMC1808431, PMC3894458）
+- ≥1 官方机构来源：✅ Physiological Reviews（NIH 期刊）；PLoS ONE（PLOS 公益机构）
+
+---
+
+## 写作
+
+**文章标题**：光遗传学：用一束光解开神经回路的因果之谜
+**文件**：`neuro-daily/articles/2026-06-09-optogenetics-causal-neuroscience.md`
+**预估字数**：约 5500 字（中文）
+
+**核心结构**：
+- 背景：相关性时代的困境
+- 分子起点：ChR2（莱茵衣藻，7TM，视黄醛）
+- 激活机制：蓝光→光子→视黄醛异构→通道开放
+- 抑制工具：NpHR（Cl⁻泵，黄光，33mV 超极化）
+- 工具箱扩展：Arch/GtACR/OptoXR/红移变体
+- 遗传特异性递送：启动子/Cre-lox/c-fos-tTA
+- 关键实验一：假记忆（Ramirez 2013）
+- 关键实验二：效价翻转（Redondo 2014）
+- 比喻：光遗传学是"在体基因敲除"
+- 方法论革命：相关性→因果性
+- 争议：光热效应、过激活、印迹因果链、灵长类转化、无线方案
+- AI 对照：mechanistic interpretability 类比
+- 概念卡片 + 认知地图更新
+
+---
+
+## 固结步骤
+
+**今日文章触及的关键概念**（slug）及处理：
+
+1. `optogenetics` — **新建页面** `wiki/methods/optogenetics.md`（methods 层第一页）
+2. `engram-cells` — **修订**（revision_count 3→4）：c-fos-tTA 技术细节，~2-6% DG稀疏性，optogenetics 添加到 related
+3. `channelrhodopsin` — **悬空引用**（新增到 dangling_references）
+4. `action-potential` — 无需修订（已有充分内容），仅新增图谱边
+5. `hippocampal-circuit` — 无需修订正文（光遗传学作为方法工具），仅新增图谱边
+6. `place-cell` — 无需修订正文，仅新增图谱边
+
+**矛盾检查**：无新矛盾。C-2026-05-24-01 和 C-2026-05-25-01 未被今日文章直接涉及，维持 open 状态。
+
+**成熟度更新**：
+- `optogenetics`：新建，established / high（充分多重独立验证）
+
+---
+
+## 图谱更新
+
+- 新节点：`optogenetics`（node_count: 44→45）
+- 新边（14条）：optogenetics↔action-potential、engram-cells、hippocampal-circuit、place-cell、pv-interneurons、ltp、dopamine-reward-prediction-error、disinhibitory-circuit、memory-consolidation、voltage-gated-sodium-channel、synaptic-transmission；engram-cells→optogenetics；hippocampal-circuit→optogenetics（edge_count: 219→233）
+- 新悬空引用：`channelrhodopsin`
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：添加条目 #17，total_articles=17，last_updated=2026-06-09，methods层首次记录
+- `unresolved_questions.md`：新增 Q-opto-depth-limit、Q-opto-distributed-representation、Q-opto-clinical-ethics
+- `monthly_synthesis.md`：新增洞见 42-44
+- `maturity_index.json`：添加 optogenetics 条目（established/high）
+- `wiki/CHANGELOG.md`：添加 2026-06-09 条目
+- `wiki/index.md`：更新 methods 层，添加光遗传学页面，更新课程进度表
+- `source_registry.json`：新增 10 个来源条目（待更新）
+
+---
+
+## Git 操作
+
+**环境**：Claude Code Web 容器，main 分支
+**作者**：GIT_AUTHOR_NAME=QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+**Remote**：http://local_proxy@127.0.0.1:46451/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
+
+**提交消息**：Add neuro daily article + wiki consolidation for 2026-06-09
+
+**Push 状态**：[待更新]
+
+---
+
+## 限制说明
+
+- 8 篇来源仅读摘要（无开放全文），均已在文章中标注
+- 光遗传学分子机制中部分数字（7TM、视黄醛异构）来自 Kato 2012 晶体结构摘要，未读全文
+- 假记忆实验数据主要来自 PMID:24478647 全文综述（引用 Ramirez 2013 Science 数据），非直接读取 Science 原文
+- 效价翻转实验（Redondo 2014）仅读摘要，部分细节（BLA vs DG 差异）来自摘要概述

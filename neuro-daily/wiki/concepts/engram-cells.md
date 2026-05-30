@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-06-06
-revision_count: 3
-dimensions: [cellular, brain-region, behavior, cognition]
-related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle]
+updated: 2026-06-09
+revision_count: 4
+dimensions: [cellular, brain-region, behavior, cognition, methods]
+related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
 opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence]
-source_articles: [2026-05-31-engram-cells-optogenetic-proof]
-key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038"]
+source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience]
+key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647"]
 ---
 
 # 印迹细胞 (Engram Cells)
@@ -38,8 +38,8 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 ### 1. 印迹细胞的分配（Allocation）
 
 - **CREB 活性**调控神经元内在兴奋性：CREB ↑ → 兴奋性 ↑ → 学习时更易被激活 → 优先进入印迹
-- **标记系统**：c-fos-tTA × TRE-ChR2 系统，由四环素（Dox）控制标记时间窗
-- **稀疏性**：海马齿状回（DG）每次仅 ~2–4% 细胞被激活，保证不同记忆的高度正交
+- **标记系统（c-fos-tTA × TRE-ChR2）**：TetTag 转基因小鼠中，c-fos 启动子驱动 tTA（tetracycline transactivator）；移除 doxycycline（dox）→ 打开标记时间窗 → 学习期间激活的细胞因 c-fos 诱导而永久标记 ChR2；加回 dox → 关闭窗口，确保只标记特定时间段的活动（详见 PMID:24478647，PMC3894458 全文）。
+- **稀疏性**：海马齿状回（DG）每次仅 ~2–6% 细胞表达 c-fos（暴露于新情境后），不同情境由统计独立的细胞集合编码，保证高度正交
 
 ### 2. 印迹细胞的结构特征
 
@@ -74,6 +74,7 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 
 ## 连接
 
+- [[optogenetics]] — ChR2 + c-fos 标记系统是印迹研究的核心方法；假记忆、效价翻转、沉默印迹恢复均依赖光遗传学的因果干预
 - [[place-cell]] — 场所细胞是空间情景记忆的印迹细胞候选；CA1 场所细胞参与空间情景记忆印迹
 - [[hippocampal-circuit]] — DG→CA3→CA1→BLA 印迹间链利用海马的三突触回路结构
 - [[ltp]] — 印迹细胞的突触增强特征与 LTP 机制相同；光学 LTP 可恢复沉默印迹
@@ -111,8 +112,10 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - 2026-05-31 · 创建 · 填补四个页面的高优先级悬空引用（ltp, hebbian-learning, dendritic-computation, place-cell）· 基于《印迹细胞的光子证明》文章 · 初始置信度：高
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；系统巩固框架补充：沉默印迹（Roy 2016）可能是被阻断系统巩固（突触权重未随时间恢复）的结果；皮层印迹的建立是系统巩固的细胞层面输出
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"印迹细胞分配的竞争机制"小节，将 CREB 竞争纳入嵌套竞争-遴选架构；新增 [[competition-selection-principle]] 到 related 字段
+- 2026-06-09 · 修订 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · 补充 c-fos-tTA 标记系统的技术细节（PMID:24478647 全文，dox 窗口机制，~2-6% DG 细胞稀疏性）；新增 [[optogenetics]] 到 related；补充假记忆实验的完整分子-行为链；将 revision_count 升至 4
 
 ## 来源文章
 
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-02-memory-consolidation-systems]]
+- [[2026-06-09-optogenetics-causal-neuroscience]]
