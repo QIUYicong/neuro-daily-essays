@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-30",
-  "node_count": 55,
-  "edge_count": 287,
+  "updated": "2026-06-13",
+  "node_count": 58,
+  "edge_count": 308,
   "edge_types": [
     "is-a",
     "part-of",
@@ -508,6 +508,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/multi-timescale-plasticity.md"
+    },
+    {
+      "id": "serotonin-raphe-system",
+      "title": "血清素-缝际核系统",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/serotonin-raphe-system.md"
+    },
+    {
+      "id": "5-ht-autoreceptor",
+      "title": "5-HT自受体与SSRI延迟起效",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/5-ht-autoreceptor.md"
+    },
+    {
+      "id": "hippocampal-neurogenesis",
+      "title": "海马神经发生",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "contested",
+      "confidence": "medium",
+      "page": "wiki/concepts/hippocampal-neurogenesis.md"
     }
   ],
   "edges": [
@@ -2222,6 +2249,111 @@
     {
       "from": "multi-timescale-plasticity",
       "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "serotonin-raphe-system",
+      "to": "neuromodulator-systems",
+      "type": "part-of"
+    },
+    {
+      "from": "serotonin-raphe-system",
+      "to": "5-ht-autoreceptor",
+      "type": "regulates"
+    },
+    {
+      "from": "serotonin-raphe-system",
+      "to": "gain-control",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "serotonin-raphe-system",
+      "to": "hippocampal-neurogenesis",
+      "type": "regulates"
+    },
+    {
+      "from": "serotonin-raphe-system",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related"
+    },
+    {
+      "from": "serotonin-raphe-system",
+      "to": "acetylcholine-cortex",
+      "type": "related"
+    },
+    {
+      "from": "serotonin-raphe-system",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "5-ht-autoreceptor",
+      "to": "serotonin-raphe-system",
+      "type": "part-of"
+    },
+    {
+      "from": "5-ht-autoreceptor",
+      "to": "gain-control",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "5-ht-autoreceptor",
+      "to": "synaptic-transmission",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "5-ht-autoreceptor",
+      "to": "short-term-synaptic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "5-ht-autoreceptor",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "5-ht-autoreceptor",
+      "to": "hippocampal-neurogenesis",
+      "type": "regulates"
+    },
+    {
+      "from": "hippocampal-neurogenesis",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "hippocampal-neurogenesis",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-neurogenesis",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-neurogenesis",
+      "to": "engram-cells",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-neurogenesis",
+      "to": "5-ht-autoreceptor",
+      "type": "related"
+    },
+    {
+      "from": "neuromodulator-systems",
+      "to": "serotonin-raphe-system",
+      "type": "is-a"
+    },
+    {
+      "from": "gain-control",
+      "to": "serotonin-raphe-system",
+      "type": "related"
+    },
+    {
+      "from": "gain-control",
+      "to": "5-ht-autoreceptor",
       "type": "related"
     }
   ],

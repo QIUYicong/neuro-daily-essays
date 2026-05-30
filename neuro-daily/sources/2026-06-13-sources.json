@@ -1,0 +1,174 @@
+{
+  "date": "2026-06-13",
+  "article": "2026-06-13-serotonin-autoreceptor-ssri-delay.md",
+  "topic": "血清素系统与SSRI延迟起效机制",
+  "search_queries": [
+    "serotonin system review raphe 5-HT receptors mood cognition",
+    "SSRI delayed onset 5-HT1A autoreceptor desensitization antidepressant mechanism",
+    "5-HT1A autoreceptors SSRIs antidepressant therapeutic onset weeks",
+    "serotonin 2A receptor prefrontal cortex cognition impulsivity review",
+    "5-HT1A receptor desensitization chronic SSRI electrophysiology dorsal raphe",
+    "serotonin neuroplasticity hippocampus neurogenesis antidepressant BDNF",
+    "Santarelli neurogenesis required antidepressant Science 2003",
+    "Blier de Montigny serotonin autoreceptors antidepressant raphe mechanism",
+    "Lesch Waider serotonin neural plasticity 2012 Neuron",
+    "Barnes Sharp 5-HT receptor review 1999 pharmacology"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "15309042",
+      "pmcid": "PMC446220",
+      "title": "The therapeutic role of 5-HT1A and 5-HT2A receptors in depression",
+      "authors": "Celada P, Puig M, Amargós-Bosch M, Adell A, Artigas F",
+      "journal": "Journal of Psychiatry and Neuroscience",
+      "year": 2004,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": [
+        "5-HT1A/2A受体在PFC的功能拮抗机制",
+        "自受体脱敏的直接描述",
+        "pindolol增强SSRI证据（15项RCT）",
+        "~80%前额叶锥体神经元共表达5-HT1A和5-HT2A",
+        "mPFC↔DRN双向回路描述"
+      ],
+      "evidence_type": "review",
+      "species": "rat + human clinical"
+    },
+    {
+      "id": "S2",
+      "pmid": "2175309",
+      "pmcid": null,
+      "title": "Modification of serotonergic neuron properties by long-term treatment with serotonin reuptake blockers",
+      "authors": "de Montigny C, Chaput Y, Blier P",
+      "journal": "Journal of Clinical Psychiatry",
+      "year": 1990,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": [
+        "慢性SSRI后DRN放电恢复的原始电生理证据",
+        "2天急性vs14天慢性处理的对比数据",
+        "自受体脱敏作为临床延迟的机制解释"
+      ],
+      "evidence_type": "original research",
+      "species": "rat"
+    },
+    {
+      "id": "S3",
+      "pmid": "10462127",
+      "pmcid": null,
+      "title": "A review of central 5-HT receptors and their function",
+      "authors": "Barnes NM, Sharp T",
+      "journal": "Neuropharmacology",
+      "year": 1999,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": [
+        "5-HT受体亚型分类（7类14种）",
+        "各受体信号通路概述",
+        "受体功能多样性的结构基础"
+      ],
+      "evidence_type": "review",
+      "species": "rat + human"
+    },
+    {
+      "id": "S4",
+      "pmid": "12907793",
+      "pmcid": null,
+      "title": "Requirement of hippocampal neurogenesis for the behavioral effects of antidepressants",
+      "authors": "Santarelli L, Saxe M, Gross C, Surget A, Battaglia F, Dulawa S, Weisstaub N, Lee J, Duman R, Arancio O, Belzung C, Hen R",
+      "journal": "Science",
+      "year": 2003,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": [
+        "海马神经发生作为SSRI行为效果必要条件（啮齿类）",
+        "X射线阻断神经发生实验",
+        "5-HT1A-KO小鼠对氟西汀无神经发生响应"
+      ],
+      "evidence_type": "original research",
+      "species": "mouse",
+      "caveat": "人类成人海马神经发生存在争议，结论不能直接推广至人"
+    },
+    {
+      "id": "S5",
+      "pmid": "33672070",
+      "pmcid": "PMC7919680",
+      "title": "The Role of Central Serotonin Neurons and 5-HT Heteroreceptor Complexes in the Pathophysiology of Depression",
+      "authors": "Borroto-Escuela DO et al.",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2021,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": [
+        "中枢5-HT神经元解剖概述",
+        "体积传输机制",
+        "异体受体复合物（5-HT1A-FGFR1）",
+        "14种5-HT受体功能分类"
+      ],
+      "evidence_type": "review",
+      "species": "human + rat"
+    },
+    {
+      "id": "S6",
+      "pmid": "24966814",
+      "pmcid": "PMC4052821",
+      "title": "Serotoninergic and dopaminergic modulation of cortico-striatal circuit in executive and attention deficits",
+      "authors": "Carli M, Invernizzi RW",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2014,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": [
+        "5-HT2A受体在PFC认知控制中的作用",
+        "5-HT vs DA在冲动控制中的功能分离",
+        "5C-SRT行为测试框架下的5-HT2A机制"
+      ],
+      "evidence_type": "review",
+      "species": "rat + human"
+    },
+    {
+      "id": "S7",
+      "pmid": "23040814",
+      "pmcid": null,
+      "title": "Serotonin in the modulation of neural plasticity and networks: implications for neurodevelopmental disorders",
+      "authors": "Lesch KP, Waider J",
+      "journal": "Neuron",
+      "year": 2012,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": [
+        "5-HT系统在脑网络发育和可塑性中的角色",
+        "5-HT作为神经发育调制因子的框架"
+      ],
+      "evidence_type": "review",
+      "species": "human + mouse"
+    },
+    {
+      "id": "S8",
+      "pmid": "11444761",
+      "pmcid": null,
+      "title": "Pharmacology of rapid-onset antidepressant treatment strategies",
+      "authors": "Blier P",
+      "journal": "Journal of Clinical Psychiatry",
+      "year": 2001,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": [
+        "快速起效抗抑郁策略综述",
+        "pindolol作用机制参考"
+      ],
+      "evidence_type": "review",
+      "species": "human"
+    }
+  ],
+  "sources_summary": {
+    "total": 8,
+    "open_full_text": 3,
+    "abstract_only": 5,
+    "official_institution": 0,
+    "primary_research": 1,
+    "review_articles": 7
+  },
+  "coverage_notes": "核心机制（自受体脱敏）的直接电生理证据来自de Montigny 1990（仅摘要），但通过Celada 2004综述（开放全文）中的整合描述得到详细支持。神经发生假说基于Santarelli 2003（仅摘要），但其结论在文章中已明确标注为'啮齿类证据，人类证据不足'。两篇开放全文综述（PMC446220、PMC7919680）构成本文最重要的文献基础。"
+}

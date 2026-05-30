@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-05-30
-revision_count: 2
+updated: 2026-06-13
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition]
-related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, neuromodulator-systems, orientation-selectivity, working-memory, v1-primary-visual-cortex, multi-timescale-plasticity, short-term-synaptic-plasticity, dopamine-reward-prediction-error]
+related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, neuromodulator-systems, orientation-selectivity, working-memory, v1-primary-visual-cortex, multi-timescale-plasticity, short-term-synaptic-plasticity, dopamine-reward-prediction-error, serotonin-raphe-system, 5-ht-autoreceptor]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-gain-timescale-interaction]
-source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay]
 key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802", "PMID:29470969"]
 ---
 
@@ -42,6 +42,9 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802"
 - Herrero 2008 直接证明：阻断 V1 中肌碱受体 → 注意诱导的增益增大消失
 
 ## 关键机制
+
+**5-HT系统的超慢负反馈增益控制（2026-06-13新增）**：
+5-HT的自受体脱敏机制代表了增益控制的一种独特形式——不是像ACh/NE那样通过受体激活立即调整增益，而是通过**负反馈的慢速脱敏**在2-4周时间尺度上实现情绪调节系统的增益稳态。这是三层多时间尺度增益控制架构之外的第四层（情绪/可塑性时间尺度，天-周级）。
 
 **乘法性增益（Multiplicative gain）**：
 - 神经元对所有输入的响应乘以一个大于 1 的系数
@@ -77,13 +80,17 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802"
 - [[multi-timescale-plasticity]] — 皮层增益控制作为三层增益架构的第二层
 - [[short-term-synaptic-plasticity]] — 第一层增益控制（毫秒级），与皮层增益控制互补
 - [[dopamine-reward-prediction-error]] — 第三层增益控制（价值驱动学习），与皮层增益控制协同
+- [[serotonin-raphe-system]] — 5-HT系统的超慢负反馈增益控制（天-周级，情绪基调）
+- [[5-ht-autoreceptor]] — 自受体脱敏机制：5-HT增益的慢速稳态调节
 
 ## 修订历史
 
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《第三周综合》 · 将皮层增益控制定位为多层增益控制架构（[[multi-timescale-plasticity]]）的第二层；新增 Marder 原则（PMID:23040802）和 Thiele & Bellgrove 2018（PMID:29470969）作为理论支撑；更新 related 和 key_sources
+- 2026-06-13 · 修订 · 基于《血清素的慢时钟》 · 新增5-HT自受体脱敏机制作为增益控制的第四个时间尺度（天-周，情绪/可塑性）；补全[[serotonin-raphe-system]]和[[5-ht-autoreceptor]]连接
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-05-30-week3-synthesis]]
+- [[2026-06-13-serotonin-autoreceptor-ssri-delay]]

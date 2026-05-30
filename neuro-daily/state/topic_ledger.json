@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-30",
-  "total_articles": 21,
+  "last_updated": "2026-06-13",
+  "total_articles": 22,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1487,6 +1487,92 @@
       "mode": "long_term_curriculum",
       "article_number": 21,
       "note": "第三周综合篇（第21篇）。整合第15-20篇的六个主题，构建'多层增益控制架构'统一框架。引用两篇开放全文综述（Marder 2012 PMID:23040802, Thiele & Bellgrove 2018 PMID:29470969）。新建wiki页面 multi-timescale-plasticity；修订3个wiki页面（gain-control revision 2, neuromodulator-systems revision 2, short-term-synaptic-plasticity revision 2）。特殊情况：因环境分支限制（claude/funny-einstein-qad7I），本次运行从origin/main最新状态出发，将commit推送至main分支。"
+    },
+    {
+      "date": "2026-06-13",
+      "title": "血清素的慢时钟：为什么抗抑郁药需要等待两周？",
+      "filename": "2026-06-13-serotonin-autoreceptor-ssri-delay.md",
+      "wiki_pages_created": [
+        "wiki/systems/serotonin-raphe-system.md",
+        "wiki/concepts/5-ht-autoreceptor.md",
+        "wiki/concepts/hippocampal-neurogenesis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/neuromodulator-systems.md",
+        "wiki/concepts/gain-control.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "SSRI在几分钟内提高突触5-HT浓度，为何临床效果需要2-4周？5-HT1A自受体负反馈如何在急性期抵消SSRI效果，慢性期自受体脱敏如何解除制动？这一机制揭示了血清素系统最严格的自我管控架构。",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "1. 神经元如何工作（神经调质·5-HT系统）→ 11. 疾病作为窗口（抑郁症机制）",
+      "topic_tags": [
+        "serotonin",
+        "5-HT",
+        "5-HT1A receptor",
+        "5-HT2A receptor",
+        "autoreceptor",
+        "somatodendritic autoreceptor",
+        "terminal autoreceptor",
+        "dorsal raphe nucleus",
+        "DRN",
+        "median raphe nucleus",
+        "SSRI",
+        "fluoxetine",
+        "selective serotonin reuptake inhibitor",
+        "delayed onset",
+        "autoreceptor desensitization",
+        "GRK",
+        "beta-arrestin",
+        "pindolol",
+        "hippocampal neurogenesis",
+        "adult neurogenesis",
+        "volume transmission",
+        "neuromodulator",
+        "GIRK channel",
+        "5-HT1A autoreceptor",
+        "5-HT1B terminal autoreceptor",
+        "de Montigny",
+        "Blier",
+        "Celada 2004",
+        "Santarelli 2003",
+        "Barnes Sharp 1999",
+        "Lesch Waider 2012",
+        "depression",
+        "major depressive disorder",
+        "week 4 start"
+      ],
+      "main_sources": [
+        "PMID:15309042 (PMC446220, 开放全文)",
+        "PMID:2175309 (abstract only)",
+        "PMID:10462127 (abstract only)",
+        "PMID:12907793 (abstract only)",
+        "PMID:33672070 (PMC7919680, 开放全文)",
+        "PMID:24966814 (PMC4052821, 开放全文)",
+        "PMID:23040814 (abstract only)",
+        "PMID:11444761 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-5ht-autoreceptor-desensitization-individual：不同SSRI的自受体脱敏速度与个体差异",
+        "Q-adult-neurogenesis-human-controversy：人类成年海马神经发生的存在与规模（Sorrells vs Boldrini争议）",
+        "Q-5ht-volume-transmission-specificity：体积传输如何实现区域特异性",
+        "Q-ssri-neurogenesis-causal：SSRI诱导神经发生是否是人类疗效的因果中介"
+      ],
+      "next_suggested_topics": [
+        "帕金森病（disease层继续）：黑质纹状体多巴胺耗竭与基底节直接/间接通路失衡——从DA奖励系统延伸到DA病理",
+        "双光子钙成像方法专页：GCaMP/jGCaMP7系列、成像原理（本月多篇文章引用此方法，是填补methods层缺口的高优先项）",
+        "血清素与情绪调控（情绪认知延伸）：5-HT在杏仁核/海马/PFC回路中的具体功能（从今日系统层延伸到回路层情绪调控）",
+        "V2/MT视觉层级：从V1方向选择性到更高层视觉处理——Hubel-Wiesel的经典问题延续",
+        "第四周第七篇（约2026-06-20）：第四周综合——四大调质系统的统一框架（DA/ACh/NE/5-HT）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 22,
+      "note": "第四周第一篇：完成四大调质系统覆盖（DA#15/ACh-NE#20/5-HT今日）。核心贡献：以SSRI延迟悖论为切入点，揭示5-HT1A自受体负反馈架构；引入海马神经发生假说并明确标注其争议状态（hippocampal-neurogenesis页面设为contested）。逻辑日期：2026-06-13（接续article #20的2026-06-12，article #21的逻辑日期应为2026-06-13但因系统日期被记录为2026-05-30）。新建3个wiki页面，修订2个，图谱新增3节点21边（总计58节点308边）。"
     }
   ],
   "layer_coverage_recent": {

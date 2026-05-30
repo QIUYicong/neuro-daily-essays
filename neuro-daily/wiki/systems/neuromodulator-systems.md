@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-05-30
-revision_count: 2
+updated: 2026-06-13
+revision_count: 3
 dimensions: [molecular, cellular, brain-region, whole-brain-network, cognition]
-related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, three-factor-learning-rule, gain-control, multi-timescale-plasticity, short-term-synaptic-plasticity]
+related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, three-factor-learning-rule, gain-control, multi-timescale-plasticity, short-term-synaptic-plasticity, serotonin-raphe-system, 5-ht-autoreceptor]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-ach-ne-04, Q-gain-timescale-interaction, Q-marder-principle-cortex]
-source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis]
-key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433", "PMID:23040802", "PMID:29470969"]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay]
+key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433", "PMID:23040802", "PMID:29470969", "PMID:15309042", "PMID:10462127"]
 ---
 
 # 神经调质系统 (Neuromodulator Systems)
@@ -33,6 +33,8 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"
 | 血清素（5-HT） | 中缝核（DRN/MRN） | 情绪、冲动控制、慢性情绪状态 |
 
 调质系统的共同逻辑：少数神经元通过弥散释放调制整个网络的增益状态，而非传递信息本身。关键区分：调质不编码"什么"，而编码"用什么模式处理当下的'什么'"。
+
+**2026-06-13 更新（5-HT系统补全）**：5-HT系统（缝际核）是四大调质系统中反馈控制最严格的一个——其somatodendritic和terminal双重自受体构成完整的负反馈体系，导致急性干预（如SSRI）被系统主动抵消，效果需2-4周才显现。这表明5-HT系统对其自身输出设有最严格的"自我管控"机制，与DA/ACh/NE系统的急性可调性形成对比。详见[[5-ht-autoreceptor]]和[[serotonin-raphe-system]]。
 
 **重要更新（2018）**：基底前脑胆碱能投射并非完全弥散，而是具有拓扑特异性——不同基底前脑区域选择性投射至特定皮层回路（Záborszky et al., 2018）。这意味着调质系统比教科书描述更精确。
 
@@ -57,6 +59,8 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"
 - [[acetylcholine-cortex]] — ACh 调质系统的详细机制
 - [[norepinephrine-locus-coeruleus]] — NE/LC 系统的详细机制
 - [[dopamine-reward-prediction-error]] — DA 系统（奖励学习中的第三因子）
+- [[serotonin-raphe-system]] — 5-HT 系统（缝际核，体积传输，情绪/可塑性调控）
+- [[5-ht-autoreceptor]] — 5-HT1A 自受体脱敏机制（SSRI 延迟起效的核心）
 - [[three-factor-learning-rule]] — 三因素学习规则（DA 作为第三因子，ACh/NE 也可充当）
 - [[gain-control]] — 皮层增益控制（调质系统的核心输出，层二）
 - [[multi-timescale-plasticity]] — 调质系统在多层增益控制架构中的位置（层二，嵌套于STP与DA-RPE之间）
@@ -72,8 +76,10 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"
 
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《第三周综合》 · 新增 Marder 原则（PMID:23040802）作为调质系统理论框架；将调质系统定位为多层增益控制架构（[[multi-timescale-plasticity]]）第二层；更新 related、opens_questions 和 key_sources
+- 2026-06-13 · 修订 · 基于《血清素的慢时钟》 · 补全5-HT系统（第四个调质系统）；新增5-HT系统对比DA/ACh/NE最严格的自受体负反馈机制说明；新增[[serotonin-raphe-system]]和[[5-ht-autoreceptor]]连接；更新 key_sources
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-05-30-week3-synthesis]]
+- [[2026-06-13-serotonin-autoreceptor-ssri-delay]]

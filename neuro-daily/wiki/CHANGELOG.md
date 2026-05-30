@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-13（第四周第一篇·第 22 篇）
+
+**源文章**：[[2026-06-13-serotonin-autoreceptor-ssri-delay]] —《血清素的慢时钟：为什么抗抑郁药需要等待两周？》
+
+**新建页面（3）**：
+- `systems/serotonin-raphe-system.md`（血清素-缝际核系统）🟢 established / 置信度高 — DRN/MRN解剖、体积传输机制、14种5-HT受体分类、与DA/ACh/NE系统的比较
+- `concepts/5-ht-autoreceptor.md`（5-HT自受体与SSRI延迟起效）🔵 mainstream / 置信度高 — 5-HT1A树突自受体负反馈机制；自受体脱敏的分子机制（GRK/β-arrestin）；pindolol加速起效的临床RCT证据（Celada 2004 PMC446220）；5-HT1A/2A在PFC的功能拮抗
+- `concepts/hippocampal-neurogenesis.md`（海马神经发生）🔴 contested / 置信度中 — 啮齿类SGZ神经发生证据充分；阻断神经发生→SSRI行为效果消失（Santarelli 2003）；人类成人神经发生存在与规模存在 Sorrells 2018 vs Boldrini 2018 的真实矛盾（已登记 status=contested）
+
+**修订页面（2）**：
+- `systems/neuromodulator-systems.md`（revision_count 2→3）：补全5-HT系统（第四个调质系统）；新增5-HT系统对比其他三种调质最严格自受体负反馈机制的说明；新增[[serotonin-raphe-system]]和[[5-ht-autoreceptor]]连接；key_sources新增 PMID:15309042、PMID:10462127
+- `concepts/gain-control.md`（revision_count 2→3）：新增5-HT自受体脱敏作为"第四个时间尺度"（天-周，情绪/可塑性层）的增益控制形式；新增[[serotonin-raphe-system]]和[[5-ht-autoreceptor]]连接
+
+**登记矛盾（0）**：无新矛盾（海马神经发生争议已作为 status=contested 处理，未触发与现有 wiki 页面的直接矛盾）
+
+**新增悬空引用（1）**：
+- `major-depressive-disorder`：被 serotonin-raphe-system.md 引用，需单独文章覆盖
+
+**图谱更新**：新增3个节点（serotonin-raphe-system, 5-ht-autoreceptor, hippocampal-neurogenesis），新增21条边；图谱总计58节点、308条边
+
+---
+
 ## 2026-05-30（第三周综合·第 21 篇）
 
 **源文章**：[[2026-05-30-week3-synthesis]] —《第三周综合：大脑的增益控制架构——神经调质如何在多重时间尺度上重配神经回路》

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-06-13",
   "levels": [
     "speculative",
     "emerging",
@@ -368,24 +368,30 @@
       "supporting_sources": 3,
       "last_status_change": "2026-06-11",
       "reason": "创建 2026-06-11。突触聚类的体外原理验证（海马切片：相邻突触聚类→NMDA棘波超线性整合）已有多实验室支持（established）。体内直接证据：Wilson et al. 2016（雪貂V1，PMC5240628）是首个单神经元分辨率的体内功能聚类证据——OSI更高神经元的树突聚类程度更高，偏好方向NMDA棘波热点2倍于非偏好方向。Smith et al. 2013（PMID:24162850）在猫V1独立验证了树突棘波增强方向选择性。然而：（1）Wilson 2016仅在雪貂（有方向柱）验证，小鼠/灵长类待确认；（2）因果操控实验（直接干扰聚类→验证OSI下降）尚缺；（3）其他脑区（海马CA1场所细胞、PFC）的聚类直接体内证据极缺。故 emerging / confidence medium。若后续在多物种多脑区得到操控性实验验证，则可升级为 mainstream。"
-    }
-  ],
-  "entries": [
+    },
     {
-      "slug": "multi-timescale-plasticity",
-      "title": "多层增益控制架构",
-      "current_status": "emerging",
+      "slug": "serotonin-raphe-system",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-06-13",
+      "reason": "创建2026-06-13。DRN/MRN解剖经荧光组化+损毁实验充分验证；14种5-HT受体已全部克隆并功能表征；体积传输机制有充分形态学证据（Barnes & Sharp 1999）。"
+    },
+    {
+      "slug": "5-ht-autoreceptor",
+      "status": "mainstream",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-06-13",
+      "reason": "创建2026-06-13。自受体脱敏机制在啮齿类有直接电生理证据（de Montigny & Blier 1990）；pindolol加速起效有临床RCT支持但结果不一致（7/15显著）；人类直接证据受限。设为 mainstream（非 established）因人类直接验证仍有缺口。"
+    },
+    {
+      "slug": "hippocampal-neurogenesis",
+      "status": "contested",
       "confidence": "medium",
-      "revision_count": 1,
-      "last_changed": "2026-05-30",
-      "change_reason": "新创建页面；框架为理论综合，各层机制有高证据，但三层嵌套作为统一框架尚未被单一实验直接验证",
-      "history": [
-        {
-          "date": "2026-05-30",
-          "status": "emerging",
-          "trigger": "week3-synthesis综合文章创建"
-        }
-      ]
+      "supporting_sources": 4,
+      "last_status_change": "2026-06-13",
+      "reason": "创建2026-06-13（status=contested）。啮齿类神经发生证据充分；Santarelli 2003证明神经发生是SSRI行为效果的必要条件（啮齿类）；但人类成人神经发生存在Sorrells 2018（几乎无）vs Boldrini 2018（仍有）直接矛盾，方法学分歧未解决。"
     }
   ]
 }

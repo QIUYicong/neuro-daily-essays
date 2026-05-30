@@ -1,0 +1,105 @@
+# 运行日志：2026-06-13
+
+**运行时间**：2026-05-30（系统日期） / 2026-06-13（知识库逻辑日期）
+**文章序号**：第 22 篇（第四周第一篇）
+**运行状态**：完成
+
+---
+
+## 检索过程
+
+### 搜索词（PubMed E-utilities）
+- `serotonin system review raphe 5-HT receptors mood cognition`
+- `SSRI delayed onset 5-HT1A autoreceptor desensitization antidepressant mechanism`
+- `5-HT1A autoreceptors SSRIs antidepressant therapeutic onset weeks`
+- `serotonin 2A receptor prefrontal cortex cognition impulsivity review`
+- `5-HT1A receptor desensitization chronic SSRI electrophysiology dorsal raphe`
+- `serotonin neuroplasticity hippocampus neurogenesis antidepressant BDNF`
+- `Santarelli neurogenesis required antidepressant Science 2003`
+- `Blier de Montigny serotonin autoreceptors antidepressant raphe mechanism`
+- `Lesch Waider serotonin neural plasticity 2012 Neuron`
+- `Barnes Sharp 5-HT receptor review 1999 pharmacology`
+- `serotonin psilocybin 5-HT2A psychedelics consciousness 2020:2025`
+
+### 候选文章数
+- 初始候选：约40篇
+- 最终纳入：8篇
+
+### 采用来源
+1. PMID:15309042 (PMC446220) - Celada et al. 2004 - **开放全文读取** - 核心综述，提供最完整的5-HT1A/2A机制和pindolol证据
+2. PMID:2175309 - de Montigny, Blier 1990 - 摘要 - 自受体脱敏的原始电生理证据
+3. PMID:10462127 - Barnes & Sharp 1999 - 摘要 - 5-HT受体亚型分类综述
+4. PMID:12907793 - Santarelli et al. 2003 - 摘要 - 海马神经发生假说
+5. PMID:33672070 (PMC7919680) - Borroto-Escuela et al. 2021 - **开放全文读取** - 5-HT系统解剖概述
+6. PMID:24966814 (PMC4052821) - Carli et al. 2014 - **开放全文读取** - 5-HT2A在PFC认知控制
+7. PMID:23040814 - Lesch & Waider 2012 - 摘要 - 5-HT在神经可塑性中的角色
+8. PMID:11444761 - Blier 2001 - 摘要 - 快速起效抗抑郁策略综述
+
+### 排除来源及原因
+- PMID:38979623 (Stroke recovery study) - 不相关
+- PMID:17585970 (galanin/5-HT1A) - 过于专门化，不是今日核心
+- 多个非开放获取药理学文章 - 内容已通过综述间接获取
+
+---
+
+## 文章写作
+
+**题目**：血清素的慢时钟：为什么抗抑郁药需要等待两周？
+**核心问题**：5-HT1A自受体负反馈→急性期净效果近零→慢性期自受体脱敏→5-HT有效传递增加
+**字数**：约 5500 字
+**文件**：`articles/2026-06-13-serotonin-autoreceptor-ssri-delay.md`
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页面（3）
+- `wiki/systems/serotonin-raphe-system.md` - status=established, conf=high
+- `wiki/concepts/5-ht-autoreceptor.md` - status=mainstream, conf=high
+- `wiki/concepts/hippocampal-neurogenesis.md` - status=contested, conf=medium（人类神经发生争议）
+
+### 修订 wiki 页面（2）
+- `wiki/systems/neuromodulator-systems.md` (revision 2→3)：补全5-HT条目，新增连接
+- `wiki/concepts/gain-control.md` (revision 2→3)：新增5-HT自受体脱敏为第四时间尺度增益控制
+
+### 矛盾检查
+- 无新矛盾触发（海马神经发生的人类争议在新建页面中已内部处理为status=contested，未与现有页面发生主张冲突）
+
+### 成熟度更新
+- serotonin-raphe-system: 新建 → established/high
+- 5-ht-autoreceptor: 新建 → mainstream/high
+- hippocampal-neurogenesis: 新建 → contested/medium
+
+---
+
+## 图谱更新
+
+- 新增节点：3（serotonin-raphe-system, 5-ht-autoreceptor, hippocampal-neurogenesis）
+- 新增边：21
+- 当前图谱：58节点，308条边
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：新增第22篇条目，total_articles=22
+- `unresolved_questions.md`：新增4个问题（Q-5ht-autoreceptor-desensitization-individual, Q-adult-neurogenesis-human-controversy, Q-5ht-volume-transmission-specificity, Q-ssri-neurogenesis-causal）
+- `maturity_index.json`：新增3个页面条目
+- `monthly_synthesis.md`：补充2026年6月表格（第13、第14篇），文章数更新至14
+
+---
+
+## 自检结果
+
+**真实性**：✓ 所有主张有来源；区分了事实/模型/推测/争议；海马神经发生明确标注啮齿类限制；动物→人类推广谨慎
+**一致性**：✓ 无冲突需走矛盾协议；修订页面updated/revision_count/修订历史均更新；_graph.json无悬空边
+**可导航**：✓ index.md和CHANGELOG.md反映今天变化；新页related各≥1
+**情景层**：✓ 文章/笔记/来源/日志齐全；未改动旧文件
+
+---
+
+## Git 操作
+
+**分支**：main
+**commit message**：Add neuro daily article + wiki consolidation for 2026-06-13
+**push 状态**：见提交记录
