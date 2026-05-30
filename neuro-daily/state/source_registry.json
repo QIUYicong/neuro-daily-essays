@@ -3332,7 +3332,99 @@
         "primate visual cortex"
       ],
       "notes": "最新争议文献，仅读摘要"
+    },
+    {
+      "pmid": "11209064",
+      "title": "A default mode of brain function",
+      "authors": "Raichle ME et al.",
+      "year": 2001,
+      "journal": "PNAS",
+      "used_in": ["2026-06-16-default-mode-network"],
+      "covers": ["default mode discovery", "PET meta-analysis", "task-induced deactivation", "medial prefrontal cortex", "posterior cingulate"],
+      "notes": "奠基论文；摘要"
+    },
+    {
+      "pmid": "15976020",
+      "title": "The human brain is intrinsically organized into dynamic, anticorrelated functional networks",
+      "authors": "Fox MD et al.",
+      "year": 2005,
+      "journal": "PNAS",
+      "used_in": ["2026-06-16-default-mode-network"],
+      "covers": ["DMN-TPN anticorrelation", "resting-state fMRI", "functional connectivity", "global signal regression controversy"],
+      "notes": "反相关奠基论文；GSR方法论争议；摘要"
+    },
+    {
+      "pmid": "18400922",
+      "title": "The brain's default network: anatomy, function, and relevance to disease",
+      "authors": "Buckner RL, Andrews-Hanna JR, Schacter DL",
+      "year": 2008,
+      "journal": "Ann NY Acad Sci",
+      "used_in": ["2026-06-16-default-mode-network"],
+      "covers": ["DMN anatomy", "DMN function review", "episodic memory", "mental simulation", "disease relevance"],
+      "notes": "重要综述；摘要"
+    },
+    {
+      "pmid": "19211893",
+      "title": "Cortical hubs revealed by intrinsic functional connectivity: mapping, assessment of stability, and relation to Alzheimer's disease",
+      "authors": "Buckner RL et al.",
+      "year": 2009,
+      "journal": "J Neurosci",
+      "used_in": ["2026-06-16-default-mode-network"],
+      "covers": ["DMN hub nodes", "amyloid beta deposition", "PCC mPFC vulnerability", "Alzheimer's disease", "functional connectivity hubs"],
+      "notes": "Aβ优先沉积DMN枢纽节点；摘要"
+    },
+    {
+      "pmid": "21677128",
+      "pmcid": "PMC3553600",
+      "title": "Functional-anatomic fractionation of the brain's default network",
+      "authors": "Andrews-Hanna JR, Reidler JS, Sepulcre J, Poulin R, Buckner RL",
+      "year": 2011,
+      "journal": "Neuron",
+      "used_in": ["2026-06-16-default-mode-network"],
+      "covers": ["DMN subsystems", "MTL subsystem", "dMPFC subsystem", "scene construction", "mentalizing", "aMPFC hub", "PCC hub"],
+      "notes": "双子系统架构核心文献；开放全文（PMC3553600）读取"
+    },
+    {
+      "pmid": "24486981",
+      "title": "Subnetwork of the default mode network supports goal-directed cognition",
+      "authors": "Andrews-Hanna JR et al.",
+      "year": 2014,
+      "journal": "Psychol Inq",
+      "used_in": ["2026-06-16-default-mode-network"],
+      "covers": ["DMN subsystems 2014", "goal-directed cognition", "constructive episodic simulation", "dMPFC subsystem"],
+      "notes": "子系统后续综述；摘要"
+    },
+    {
+      "pmid": "25938726",
+      "title": "The default mode network and self-referential processes in depression",
+      "authors": "Smallwood J et al.",
+      "year": 2015,
+      "journal": "Nat Neurosci (Review)",
+      "used_in": ["2026-06-16-default-mode-network"],
+      "covers": ["mind-wandering", "self-referential processing", "DMN suppression failure", "depression", "rumination"],
+      "notes": "DMN病理相关；摘要"
+    },
+    {
+      "pmid": "23263183",
+      "pmcid": "PMC3769892",
+      "title": "Self-processing and the default mode network: interactions with the mirror neuron system",
+      "authors": "Molnar-Szakacs I, Uddin LQ",
+      "year": 2013,
+      "journal": "Front Hum Neurosci",
+      "used_in": ["2026-06-16-default-mode-network"],
+      "covers": ["DMN self-processing", "mirror neuron system", "social cognition", "self-referential", "dMPFC"],
+      "notes": "第二篇开放全文（PMC3769892）；自我处理与镜像神经元系统"
+    },
+    {
+      "pmid": "23182014",
+      "title": "The role of the posterior cingulate cortex in cognition and disease",
+      "authors": "Leech R, Sharp DJ",
+      "year": 2014,
+      "journal": "Brain",
+      "used_in": ["2026-06-16-default-mode-network"],
+      "covers": ["PCC function", "DMN hub", "attentional control", "consciousness", "Alzheimer's disease"],
+      "notes": "PCC作为DMN枢纽节点的综述；摘要"
     }
   ],
-  "total_sources": 150
+  "total_sources": 159
 }

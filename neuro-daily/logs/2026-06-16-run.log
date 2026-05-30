@@ -1,0 +1,141 @@
+# Run Log: 2026-06-16
+
+**逻辑日期**: 2026-06-16
+**系统日期**: 2026-05-30 (UTC+8, Web环境固定日期)
+**文章编号**: #26
+**主题**: 默认模式网络 (Default Mode Network, DMN)
+**课程路线**: 8（意识与自我）首篇
+**运行模式**: 自动化（Claude Code Web 环境）
+
+---
+
+## 执行摘要
+
+| 项目 | 结果 |
+|------|------|
+| 文章创建 | ✅ 2026-06-16-default-mode-network.md (~4500字) |
+| wiki 新建页 | ✅ 1个 (systems/default-mode-network.md) |
+| wiki 修订页 | ✅ 3个 (predictive-coding rev2, hippocampal-circuit rev7, alzheimers-disease rev2) |
+| 图谱节点 | 67 (+1) |
+| 图谱边数 | 385 (+14) |
+| 新增悬空引用 | 3个 (salience-network, task-positive-network, self-referential-processing) |
+| 新增未解问题 | 4个 (Q-dmn-01 to Q-dmn-04) |
+| 来源总数 | 159 (+9) |
+
+---
+
+## 主题选择过程
+
+**来源**: ROUTINE.md 的 gap-driven 选题原则
+**图谱分析**: 0个悬空引用；最高连接低置信节点为 competition-selection-principle (17边, emerging), temporal-coding-hierarchy (13边, emerging)
+**选题理由**:
+- 课程路线8（意识与自我）完全空白，是最大结构性缺口
+- DMN在 predictive-coding 文章(#25)的 next_suggested_topics 中明确列出
+- 连接5+个已有wiki节点（hippocampal-circuit/predictive-coding/alzheimers-disease/working-memory/engram-cells）
+- 为后续 GWT/意识/精神疾病文章铺路
+
+---
+
+## 文献检索过程
+
+**方法**: PubMed E-utilities API (esearch + efetch)
+**检索策略**:
+1. "default mode network Raichle 2001" → PMID:11209064 ✅
+2. "Fox 2005 anticorrelated networks" → PMID:15976020 ✅
+3. "Buckner 2008 default network anatomy disease" → PMID:18400922 ✅
+4. "Buckner 2009 cortical hubs Alzheimer amyloid" → PMID:19211893 ✅
+5. "Andrews-Hanna 2011 default network fractionation" → PMID:21677128 (PMC3553600) ✅ 全文
+6. "Andrews-Hanna 2014 subnetwork goal-directed" → PMID:24486981 ✅
+7. "Smallwood mind-wandering default network" → PMID:25938726 ✅
+8. "Molnar-Szakacs 2013 DMN self-processing" → PMID:23263183 (PMC3769892) ✅ 全文
+9. "Leech Sharp PCC cognition" → PMID:23182014 ✅
+
+**开放全文读取**: 2篇 (PMC3553600, PMC3769892)
+**摘要/有限信息**: 7篇
+
+**注意**: 部分PMC重定向读取到错误文章（PMC2850580）；Buckner 2009通过PMID直接验证后确认为正确文章。
+
+---
+
+## 文章创建过程
+
+**结构**:
+- 今日核心问题（DMN的发现与功能）
+- 一句话摘要
+- 为什么重要（4条）
+- 背景（Raichle 2001 发现史）
+- 核心机制
+  - 解剖节点与连接
+  - 双子系统架构（Andrews-Hanna 2011）
+  - 内外切换（TPN/SN）
+  - 功能矩阵
+- 关键证据表（7条证据，置信度标注）
+- 比喻（城市基础设施类比）
+- 改变理解的认知（4条）
+- 争议与未解问题（4条，含GSR方法论争议）
+- 与AI对照表
+- 今日概念卡片
+- 认知地图更新
+- 参考来源表（9篇）
+
+---
+
+## wiki 整合过程
+
+### 新建页面
+- `wiki/systems/default-mode-network.md`: 设为 status=mainstream, confidence=high, 9条关键来源
+
+### 修订页面
+1. `wiki/theories/predictive-coding.md` (rev1→rev2): 关联DMN作为高层先验生成器
+2. `wiki/neurons/hippocampal-circuit.md` (rev6→rev7): 确认MTL是DMN核心节点
+3. `wiki/diseases/alzheimers-disease.md` (rev1→rev2): 新增Aβ优先沉积DMN枢纽节点（Buckner 2009）；dimensions增加whole-brain-network
+
+### 图谱更新 (_graph.json)
+- 新增节点: default-mode-network (domain:systems, status:mainstream, confidence:high)
+- 新增边（14条）:
+  - DMN→hippocampal-circuit (part-of)
+  - DMN→memory-consolidation (supports)
+  - DMN→predictive-coding (supports)
+  - DMN→working-memory (related)
+  - DMN→alzheimers-disease (related)
+  - DMN→engram-cells (related)
+  - DMN→temporal-coding-hierarchy (supports)
+  - DMN→prefrontal-cortex (part-of)
+  - DMN→amygdala (related)
+  - DMN→competition-selection-principle (supports)
+  - predictive-coding→DMN (related)
+  - alzheimers-disease→DMN (related)
+  - hippocampal-circuit→DMN (related)
+  - theta-oscillations→DMN (related)
+
+---
+
+## 状态文件更新
+
+| 文件 | 更新内容 |
+|------|---------|
+| wiki/index.md | systems节加入DMN条目；课程进度表新增路线8 |
+| wiki/CHANGELOG.md | 新增2026-06-16条目（1新建/3修订） |
+| state/topic_ledger.json | total_articles 24→26；添加article#26；添加article_number:25到#25 |
+| state/unresolved_questions.md | 新增Q-dmn-01到Q-dmn-04 |
+| state/source_registry.json | total_sources 150→159；添加9条新来源 |
+| state/monthly_synthesis.md | 添加2026-06-16条目（洞见63-66）|
+| state/maturity_index.json | 添加/更新DMN及3个修订页面的成熟度条目 |
+
+---
+
+## 未解决的悬空引用（本轮新增）
+
+- `salience-network` (显著性网络/突显网络) — DMN切换机制中的关键中介
+- `task-positive-network` (任务正向网络) — DMN的对立网络
+- `self-referential-processing` (自我参照处理) — mPFC相关计算
+
+---
+
+## 环境说明
+
+- 运行环境: Claude Code Web (远程执行容器)
+- 系统日期: 2026-05-30 UTC+8 (固定不变)
+- 逻辑日期序列: 2026-06-16（接续#25=2026-06-15）
+- 分支: main (per ROUTINE.md 单分支累积方案A)
+- Git author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>

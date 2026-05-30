@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-15",
-  "node_count": 58,
-  "edge_count": 308,
+  "updated": "2026-06-16",
+  "node_count": 67,
+  "edge_count": 385,
   "edge_types": [
     "is-a",
     "part-of",
@@ -607,6 +607,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/precision-weighting.md"
+    },
+    {
+      "id": "default-mode-network",
+      "title": "默认模式网络",
+      "domain": "systems",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/default-mode-network.md"
     }
   ],
   "edges": [
@@ -2742,6 +2751,76 @@
       "from": "v1-primary-visual-cortex",
       "to": "predictive-coding",
       "type": "supports"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "memory-consolidation",
+      "type": "supports"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "engram-cells",
+      "type": "related"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "temporal-coding-hierarchy",
+      "type": "supports"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "competition-selection-principle",
+      "type": "supports"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "default-mode-network",
+      "type": "related"
     }
   ],
   "dangling_references": [

@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-06-16（第 26 篇·全脑网络·默认模式网络，课程路线8开篇）
+
+**源文章**：[[2026-06-16-default-mode-network]] —《当大脑"休息"时，它在做什么？——默认模式网络与大脑内部宇宙的构建逻辑》
+
+**新建页面（1）**：
+- `systems/default-mode-network.md`（默认模式网络）🟢 mainstream / 置信度高 — 大脑内部模拟基础设施；Raichle 2001 发现；Fox 2005 反相关（GSR 方法论争议）；Buckner 2008 综述；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；**课程路线8（意识与自我）首次进入**
+
+**修订页面（3）**：
+- `theories/predictive-coding.md`（revision 1→2）：related 新增 default-mode-network；修订历史追加"DMN 作为预测编码层级高层先验生成器"
+- `neurons/hippocampal-circuit.md`（revision 6→7）：related 新增 default-mode-network；确认海马（MTL）是 DMN 核心节点；修订历史追加
+- `diseases/alzheimers-disease.md`（revision 1→2）：related 新增 default-mode-network；dimensions 新增 whole-brain-network；新增 Aβ 优先沉积 DMN 枢纽节点（Buckner 2009）；修订历史追加
+
+**登记矛盾（0）**：Fox 2005 的反相关发现存在 GSR 方法论争议，已在文章和 wiki 页面中标注，但不构成知识库既有主张的直接矛盾（既有页面未声称特定反相关强度值）。
+
+**新增悬空引用 / 待补缺口（3）**：
+- `salience-network` — DMN 切换的中介（突显网络），尚无独立页；被 default-mode-network 的描述中提及
+- `task-positive-network` — DMN 的反相关对象，尚无独立页
+- `self-referential-processing` — DMN 枢纽的核心计算（自我参照），尚无独立页
+
+**图谱变动**：新增节点1（default-mode-network）；新增边14条；总计：67节点，385边
+
+---
+
 ## 2026-06-15（第 25 篇·理论框架·预测编码）
 
 **源文章**：[[2026-06-15-predictive-coding]] —《当大脑主动预测而非被动接收：预测编码理论如何重新定义视觉皮层的计算逻辑》

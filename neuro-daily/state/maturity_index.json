@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-06-16",
   "levels": [
     "speculative",
     "emerging",
@@ -413,6 +413,34 @@
     }
   ],
   "entries": [
+    {
+      "slug": "default-mode-network",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-06-16",
+      "reason": "新建：DMN核心解剖（mPFC/PCC/MTL/IPL）和功能（情节记忆/心智化/心理时间旅行）有多项独立研究（Raichle 2001, Fox 2005, Buckner 2008, Andrews-Hanna 2011, Buckner 2009）确立；双子系统分化有独立验证；Aβ-DMN联系有PET显像证据；DMN-TPN反相关有GSR方法论争议，故整体置信度高但存在方法论保留"
+    },
+    {
+      "slug": "alzheimers-disease",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-16",
+      "reason": "修订rev2：新增whole-brain-network维度（DMN枢纽节点Aβ优先沉积；Buckner 2009）；原有突触机制内容不变"
+    },
+    {
+      "slug": "hippocampal-circuit",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-16",
+      "reason": "修订rev7：确认MTL（海马）是DMN核心节点；关联new default-mode-network页面；原有内容不变"
+    },
+    {
+      "slug": "predictive-coding",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-06-16",
+      "reason": "修订rev2：添加DMN作为预测编码层级高层先验生成器的关联；原有框架状态不变（mainstream/medium）"
+    },
     {
       "slug": "amygdala",
       "status": "established",

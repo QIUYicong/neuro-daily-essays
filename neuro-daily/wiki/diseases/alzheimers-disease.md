@@ -6,13 +6,13 @@ type: disease
 status: established
 confidence: high
 created: 2026-06-08
-updated: 2026-06-08
-revision_count: 1
-dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, cognition, disease]
-related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf-trkb]
+updated: 2026-06-16
+revision_count: 2
+dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
+related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf-trkb, default-mode-network]
 prerequisites: [ltp, nmda-receptor, hippocampal-circuit, memory-consolidation]
 opens_questions: [Q-ad-vulnerable-synapses, Q-ad-tau-cascade, Q-ad-intervention-window, Q-nmda-alzheimer]
-source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism]
+source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network]
 key_sources: ["PMID:1789684", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:22762015", "PMID:20581818", "PMID:26871627", "PMID:41929946"]
 ---
 
@@ -94,6 +94,7 @@ Aβ由APP（淀粉样前体蛋白）通过β-分泌酶（BACE1）和γ-分泌酶
 ## 修订历史
 
 - 2026-06-08 · 创建 · 基于《记忆的分子遗忘》一文 · 建立AD疾病页，聚焦Aβ寡聚体-突触可塑性损伤通路 · 初始置信度：高
+- 2026-06-16 · 修订 · 基于《默认模式网络》一文 · 新增：Aβ 优先沉积 DMN 枢纽节点（PCC/mPFC）的功能解剖解释（Buckner 2009）；related 新增 default-mode-network；dimensions 新增 whole-brain-network
 
 ## 来源文章
 

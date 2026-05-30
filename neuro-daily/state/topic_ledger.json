@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-30",
-  "total_articles": 24,
+  "last_updated": "2026-06-16",
+  "total_articles": 26,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1788,7 +1788,99 @@
       "wiki_pages_revised": [
         "systems/v1-primary-visual-cortex (rev3)",
         "concepts/dopamine-reward-prediction-error (rev3)"
-      ]
+      ],
+      "article_number": 25
+    },
+    {
+      "date": "2026-06-16",
+      "title": "当大脑"休息"时，它在做什么？——默认模式网络与大脑内部宇宙的构建逻辑",
+      "filename": "2026-06-16-default-mode-network.md",
+      "wiki_pages_created": [
+        "wiki/systems/default-mode-network.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/predictive-coding.md (rev2)",
+        "wiki/neurons/hippocampal-circuit.md (rev7)",
+        "wiki/diseases/alzheimers-disease.md (rev2)"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "默认模式网络是什么，它为什么在外部任务时被抑制、在静息时激活？它的双子系统架构（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）如何支持大脑的内部模拟能力？为什么Aβ优先破坏DMN枢纽节点？",
+      "layer": [
+        "whole-brain-network",
+        "brain-region",
+        "cognition",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "8. 意识与自我（首篇）",
+      "topic_tags": [
+        "default mode network",
+        "DMN",
+        "resting-state fMRI",
+        "functional connectivity",
+        "anticorrelation",
+        "task-positive network",
+        "TPN",
+        "salience network",
+        "medial prefrontal cortex",
+        "mPFC",
+        "posterior cingulate cortex",
+        "PCC",
+        "inferior parietal lobule",
+        "IPL",
+        "medial temporal lobe",
+        "MTL",
+        "angular gyrus",
+        "TPJ",
+        "MTL subsystem",
+        "dMPFC subsystem",
+        "scene construction",
+        "episodic memory retrieval",
+        "mentalizing",
+        "theory of mind",
+        "mental time travel",
+        "mind-wandering",
+        "self-referential processing",
+        "global signal regression",
+        "GSR",
+        "Raichle 2001",
+        "Fox 2005",
+        "Buckner 2008",
+        "Andrews-Hanna 2011",
+        "Buckner 2009",
+        "amyloid beta",
+        "predictive coding prior",
+        "consciousness",
+        "self",
+        "course-track-8"
+      ],
+      "main_sources": [
+        "PMID:11209064 (Raichle et al. 2001 PNAS, abstract only)",
+        "PMID:15976020 (Fox et al. 2005 PNAS, abstract only)",
+        "PMID:18400922 (Buckner et al. 2008 Ann NY Acad Sci, abstract only)",
+        "PMID:19211893 (Buckner et al. 2009 J Neurosci, abstract only)",
+        "PMID:21677128 (PMC3553600, Andrews-Hanna et al. 2011 Trends Cogn Sci, 开放全文)",
+        "PMID:24486981 (Andrews-Hanna et al. 2014 Psychol Inq, abstract only)",
+        "PMID:25938726 (Smallwood et al. 2015 Nat Neurosci, abstract only)",
+        "PMID:23263183 (PMC3769892, Molnar-Szakacs & Uddin 2013 Front Hum Neurosci, 开放全文)",
+        "PMID:23182014 (Leech & Sharp 2014 Cereb Cortex, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-dmn-01: DMN-TPN反相关在无GSR处理下的真实强度和功能意义",
+        "Q-dmn-02: DMN两个子系统的边界究竟有多清晰？心智化和场景构建是否共享底层机制？",
+        "Q-dmn-03: DMN压制的缺失（抑郁反刍、精神分裂症）是原因还是结果？",
+        "Q-dmn-04: DMN与全局工作空间（GWT）的精确关系——重叠与独立"
+      ],
+      "next_suggested_topics": [
+        "全局工作空间理论（Global Workspace Theory, GWT）：意识的神经机制与DMN的关系",
+        "自我参照处理的神经基础：mPFC在自传体记忆和自我叙事中的具体回路",
+        "精神分裂症中的DMN失调：过度激活与内部噪声假说（连接 course-track-8 与 disease 层）",
+        "心智化与社会认知：TPJ/dMPFC的具体回路机制（延续DMN子系统主题）",
+        "主动推断与自由能原理：从预测编码到DMN先验生成的完整计算框架"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 26,
+      "note": "第四周第四篇（logically 2026-06-16，系统日期UTC+8 2026-05-30）。课程路线8（意识与自我）首篇文章。DMN的发现史（Raichle 2001 PET元分析）→双子系统架构（Andrews-Hanna 2011全文读取）→AD连接（Buckner 2009 Aβ优先沉积枢纽节点）→预测编码接口。方法论争议（Fox 2005 GSR）详细标注。新建1个wiki页面（systems/default-mode-network），修订3个页面，图谱新增1节点14边（总计67节点385条边）。新建Q-dmn-01到Q-dmn-04。"
     }
   ],
   "layer_coverage_recent": {
@@ -1837,7 +1929,8 @@
       "2026-05-29",
       "2026-05-30",
       "2026-06-02",
-      "2026-06-07"
+      "2026-06-07",
+      "2026-06-16"
     ],
     "behavior": [
       "2026-05-29",
@@ -1854,7 +1947,8 @@
       "2026-05-31",
       "2026-06-02",
       "2026-06-03",
-      "2026-06-12"
+      "2026-06-12",
+      "2026-06-16"
     ],
     "disease": [
       "2026-06-08"
@@ -1867,5 +1961,5 @@
       "2026-06-12"
     ]
   },
-  "layer_note": "2026-06-12（ACh/NE神经调质）：首次系统覆盖调质系统层！覆盖 molecular（M1/α2A受体分子机制）/cellular（PFC锥体细胞/LC/基底前脑神经元）/brain-region（V1/PFC/LC/基底前脑解剖）/cognition（注意/工作记忆/增益控制）四层。以 Herrero 2008 猕猴V1实验为核心锚点，整合ACh和NE双系统增益控制机制。新建4个wiki页面，修订2个页面，添加22条图谱边；知识图谱：54节点、278条边。下一篇为第三周综合篇（文章#21），整合第三周六篇文章（DA奖励/AD突触/光遗传学/STP/V1方向选择性/ACh-NE调质），提炼统一框架。"
+  "layer_note": "2026-06-16（默认模式网络DMN）：开启课程路线8（意识与自我）！覆盖 whole-brain-network（DMN/TPN反相关、双子系统架构）/brain-region（mPFC/PCC/MTL/IPL/TPJ解剖节点）/cognition（情节记忆/心智化/心理时间旅行/意识游走）/behavior（内外切换/自发思想）/disease（Aβ优先沉积DMN枢纽）五层。以 Andrews-Hanna 2011（PMC3553600全文读取）为双子系统主要来源。新建1个wiki页面，修订3个页面，添加14条图谱边；知识图谱：67节点、385条边。"
 }

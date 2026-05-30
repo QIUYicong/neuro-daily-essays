@@ -6,13 +6,13 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-06-15
-revision_count: 1
+updated: 2026-06-16
+revision_count: 2
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05]
-source_articles: [2026-06-15-predictive-coding]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network]
 key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583"]
 ---
 
@@ -112,6 +112,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 ## 修订历史
 
 - 2026-06-15 · 创建 · 基于《当大脑主动预测而非被动接收》一文 · 初始置信度：中（框架是 mainstream，但具体机制仍有争议）
+- 2026-06-16 · 修订 · 基于《默认模式网络》一文 · 添加 DMN 作为预测编码层级高层先验生成器的关联；related 新增 default-mode-network
 
 ## 来源文章
 
