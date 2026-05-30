@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-06-15（第 25 篇·理论框架·预测编码）
+
+**源文章**：[[2026-06-15-predictive-coding]] —《当大脑主动预测而非被动接收：预测编码理论如何重新定义视觉皮层的计算逻辑》
+
+**新建页面（2）**：
+- `theories/predictive-coding.md`（预测编码）🟡 mainstream / 置信度中 — 皮层层级反馈传预测/前馈传误差；Rao & Ballard 1999 奠基；Bastos 2012 分层映射（γ/α-β振荡分工）；Keller 2012 V1感觉运动失配实验；主动推断：行动也是预测误差最小化；注意=精度加权；DA-RPE 同一计算结构；**首个理论域页面，开创 theories/ 子目录**
+- `concepts/precision-weighting.md`（精度加权）🟡 emerging / 置信度中 — 预测误差精度权重 π；注意=提升关键误差精度；ACh/NE/DA 是分子层面精度调节器；VIP-SST 去抑制是回路层面实现候选；精度失调=精神分裂症/孤独症理论框架
+
+**修订页面（2）**：
+- `systems/v1-primary-visual-cortex.md`（revision_count 2→3）：新增"预测编码视角下的V1"小节；纳入 Keller 2012 感觉运动失配实验（V1 L2/3 误差响应）、环绕抑制预测编码解释、分层振荡分工；related 新增 predictive-coding, precision-weighting；opens_questions 新增 Q-pc-04；key_sources 新增 PMID:22681686, PMID:10195184, PMID:23177956
+- `concepts/dopamine-reward-prediction-error.md`（revision_count 2→3）：新增"DA-RPE 作为预测编码框架中奖励域预测误差"小节；纳入 Diederen & Fletcher 2021 (PMID:32338128) 整合框架；新增精神分裂症 aberrant salience 的精度失调解释；related 新增 predictive-coding, precision-weighting；key_sources 新增 PMID:32338128, PMID:20068583
+
+**登记矛盾（0）**：无新矛盾。预测编码与现有 wiki 主张（V1、DA、ACh、增益控制）的关系是扩展和深化，而非冲突。
+
+**新增悬空引用 / 待补缺口（3）**：
+- `active-inference` — 在 predictive-coding 的 related 中引用，尚无独立页
+- `free-energy-principle` — 预测编码理论的数学基础（Friston 2010），尚无独立页
+- `aberrant-salience` — 精神分裂症的精度失调假说，尚无独立页（在精度加权页中提及）
+
+**图谱**：节点 64→66，边 353→371。新增2节点（predictive-coding, precision-weighting），新增18条有类型边（predictive-coding↔v1/orientation/gain-control/DA-RPE/precision-weighting/working-memory/theta/ltp/nmda/temporal-coding-hierarchy/competition-selection-principle；precision-weighting↔predictive-coding/gain-control/ACh/NE/VIP/DA-RPE）。
+
+---
+
 ## 2026-05-30（第 24 篇·情绪与动机首篇）
 
 **源文章**：[[2026-05-30-amygdala-fear-memory]] —《当杏仁核学会恐惧——突触可塑性如何将一次经历铸成防御记忆，以及大脑为何难以遗忘》

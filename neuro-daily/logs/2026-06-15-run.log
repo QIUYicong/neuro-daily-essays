@@ -1,0 +1,99 @@
+# 运行日志 2026-06-15
+
+## 运行配置
+- 日期：2026-06-15
+- 分支：main
+- 文章编号：Day 25
+- 主题：预测编码（Predictive Coding / Predictive Processing）
+
+## 状态读取
+
+### topic_ledger.json
+- 共 24 条历史记录
+- 最新记录：2026-06-14（帕金森病，基底节回路）
+- 近期层级：disease/molecular/cellular/brain-region（连续 3 天）
+- 需要切换层级 → cognition/whole-brain-network 方向
+
+### 选题分析
+- 无悬空引用（图谱无缺口）
+- 前沿节点：competition-selection-principle（度16）、temporal-coding-hierarchy（度12）
+- 课程脊柱缺口：theories（理论）域空白，特别是第8章（意识与自我）尚未涉及
+- 选择：**预测编码**作为统一大脑计算框架，连接已有知识（V1、DA-RPE、ACh/NE、振荡）
+
+## 文献检索
+
+### 搜索词
+1. `predictive coding visual cortex hierarchical review` → PMID:24157198, 41120233, 27917138, 38680678, 26200888, 38259953
+2. `predictive processing brain Friston Clark review` → PMID:27388979, 37973519
+3. `Rao Ballard predictive coding visual cortex 1999` → PMID:10195184
+4. `Bastos canonical microcircuits predictive coding 2012` → PMID:23177956
+5. `Keller Mrsic-Flogel predictive processing canonical cortical 2018` → PMID:30359606
+6. `Clark 2013 whatever next predictive brains situated agents` → PMID:23663408
+7. `Keller 2012 sensorimotor mismatch visual cortex` → PMID:22681686
+8. `Friston 2010 free energy principle brain review` → PMID:20068583
+9. `predictive coding mismatch negativity review` → PMID:42210581, etc.
+10. `dopamine prediction error beyond review` → PMID:32338128
+
+### 候选来源总数：~25 篇
+### 采用来源：10 篇（其中 7 篇开放全文）
+
+### 排除来源及原因
+- PMID:27388979 (Ransom 2017, attention predictive mind) — 范围较窄，可作为未来补充
+- PMID:37973519 (Pezzulo 2024, active inference AI) — AI 比较角度，已在文章中间接涵盖
+- PMID:24157198 (Shipp 2013, motor cortex) — 作为背景提及，未列为主要来源
+
+## 写作
+
+### 文章文件
+- 路径：neuro-daily/articles/2026-06-15-predictive-coding.md
+- 约字数：~5000 字
+- 覆盖：核心逻辑、分层解剖、实验证据（Keller 2012）、主动推断、精度加权、与已有知识联结、争议（Westerberg 2026）、AI 比较
+
+### 研究笔记
+- 路径：neuro-daily/notes/2026-06-15-reading-notes.md
+
+### 来源文件
+- 路径：neuro-daily/sources/2026-06-15-sources.json
+- 来源总数：10，开放全文：7，摘要：3
+
+## 固结步骤（wiki 更新）
+
+### 新建 wiki 页（2）
+- `wiki/theories/predictive-coding.md` — 状态：mainstream，置信度：medium；首个理论域页面，开创 theories/ 子目录
+- `wiki/concepts/precision-weighting.md` — 状态：emerging，置信度：medium
+
+### 修订 wiki 页（2）
+- `wiki/systems/v1-primary-visual-cortex.md` (rev 2→3)：新增"预测编码视角下的V1"小节，感觉运动失配实验，分层振荡分工
+- `wiki/concepts/dopamine-reward-prediction-error.md` (rev 2→3)：新增预测编码框架整合，aberrant salience 精度失调框架
+
+### 矛盾检查
+- 新内容与已有 wiki 无直接冲突
+- Westerberg 2026（PMID:41120233）挑战 Bastos 2012 振荡分工，已在文章和 wiki 中明确标注为争议，未直接解决（待读全文）
+- 未登记新矛盾记录（因 Westerberg 全文未读取，尚无法精确评估冲突程度）
+
+## 图谱更新
+- 节点：64→66（+2）
+- 边：353→371（+18）
+- 新增节点：predictive-coding（theories），precision-weighting（concepts）
+- 新增边：predictive-coding↔{v1, orientation-selectivity, gain-control, DA-RPE, working-memory, theta, ltp, nmda, temporal-coding-hierarchy, competition-selection-principle, precision-weighting}
+
+## 治理层更新
+- topic_ledger.json：+1 条（2026-06-15）→ 总计 25 条
+- unresolved_questions.md：+6 个新问题（Q-pc-01 到 Q-pc-05，Q-prec-01）
+- source_registry.json：+10 个新来源
+- maturity_index.json：+2 条（predictive-coding, precision-weighting）
+- monthly_synthesis.md：追加 Day 25 条目（第 59-62 项认知洞见）
+- wiki/CHANGELOG.md：追加 2026-06-15 条目
+- wiki/index.md：新增 theories 域（之前标注"待建"）
+
+## 限制与说明
+- PMID:22681686（Keller 2012, Neuron）PMC 全文可用性未独立确认，标注为摘要
+- PMID:41120233（Westerberg 2026）仅读摘要，争议评估限于标题和摘要；建议后续获取全文
+- PMID:10195184（Rao 1999）原论文为 Nat Neurosci 1999，研究代理报告有 PMC 开放版本（PMC6400266）；本文标注"开放全文（PMC Open Access）"，基于此报告，但未独立再次确认
+- Friston 自由能原理（PMID:20068583）的可证伪性争议在文章中明确说明，未作为定论陈述
+
+## Git 操作
+- 分支：main
+- 操作：git add + commit + push
+
+## 状态：完成

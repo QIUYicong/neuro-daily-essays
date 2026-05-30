@@ -392,6 +392,24 @@
       "supporting_sources": 4,
       "last_status_change": "2026-06-13",
       "reason": "创建2026-06-13（status=contested）。啮齿类神经发生证据充分；Santarelli 2003证明神经发生是SSRI行为效果的必要条件（啮齿类）；但人类成人神经发生存在Sorrells 2018（几乎无）vs Boldrini 2018（仍有）直接矛盾，方法学分歧未解决。"
+    },
+    {
+      "slug": "predictive-coding",
+      "title": "预测编码",
+      "domain": "theories",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-06-15",
+      "change_reason": "新建：预测编码框架已是主流理论（多项高引综述，Rao 1999, Bastos 2012, Clark 2013），但具体机制（误差/预测单元的直接区分、振荡分工的普适性）仍有争议，故置信度为中"
+    },
+    {
+      "slug": "precision-weighting",
+      "title": "精度加权",
+      "domain": "concepts",
+      "status": "emerging",
+      "confidence": "medium",
+      "last_changed": "2026-06-15",
+      "change_reason": "新建：精度加权的计算理论成熟，但神经回路级别的直接验证有限（VIP-SST 去抑制等为间接证据），故状态为 emerging，置信度中"
     }
   ],
   "entries": [

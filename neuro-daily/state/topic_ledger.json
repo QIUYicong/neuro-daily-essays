@@ -1735,6 +1735,60 @@
       "mode": "long_term_curriculum",
       "article_number": 24,
       "note": "今日为仓库2026-05-30的第三次运行（前两次生成第1周和第3周综合），本文主题为新主题（杏仁核恐惧记忆），不与已有文章重复。"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "当大脑主动预测而非被动接收：预测编码理论如何重新定义视觉皮层的计算逻辑",
+      "core_question": "预测编码理论主张视觉皮层是贝叶斯推断机器，仅传递预测误差而非原始图像——这一理论有哪些来自回路解剖和直接实验的支持，又面临哪些真正的挑战？",
+      "layer": [
+        "cognition",
+        "whole-brain-network",
+        "brain-region",
+        "microcircuit",
+        "methods"
+      ],
+      "topic_tags": [
+        "predictive-coding",
+        "predictive-processing",
+        "bayesian-brain",
+        "v1",
+        "sensorimotor-mismatch",
+        "precision-weighting",
+        "active-inference",
+        "free-energy"
+      ],
+      "main_sources": [
+        "PMID:10195184 (Rao & Ballard 1999, Nat Neurosci)",
+        "PMID:23177956 (Bastos et al. 2012, Neuron)",
+        "PMID:22681686 (Keller et al. 2012, Neuron)",
+        "PMID:30359606 (Keller & Mrsic-Flogel 2018, Neuron)",
+        "PMID:23663408 (Clark 2013, Behav Brain Sci)",
+        "PMID:27917138 (Shipp 2016, Front Psychol)",
+        "PMID:38259953 (Shipp 2023, Front Neural Circuits)",
+        "PMID:20068583 (Friston 2010, Nat Rev Neurosci)"
+      ],
+      "unresolved_questions": [
+        "Q-pc-01: 误差单元和表征单元能否在体内直接区分？",
+        "Q-pc-02: 预测编码/自由能原理是否足够可证伪？",
+        "Q-pc-03: 环绕抑制究竟是预测误差还是侧抑制？",
+        "Q-pc-04: V1感觉运动失配响应的具体来源？",
+        "Q-pc-05: Westerberg 2026挑战的范围有多大？"
+      ],
+      "next_suggested_topics": [
+        "主动推断与运动控制（predictive coding→action）",
+        "精神分裂症作为精度失调的神经影像学证据",
+        "自由能原理的数学框架（变分贝叶斯）",
+        "默认模式网络（与预测编码/先验的关系）",
+        "皮层连接组与预测编码的层级结构"
+      ],
+      "wiki_pages_created": [
+        "theories/predictive-coding",
+        "concepts/precision-weighting"
+      ],
+      "wiki_pages_revised": [
+        "systems/v1-primary-visual-cortex (rev3)",
+        "concepts/dopamine-reward-prediction-error (rev3)"
+      ]
     }
   ],
   "layer_coverage_recent": {

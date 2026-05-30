@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-05-30",
+  "updated": "2026-06-15",
   "node_count": 58,
   "edge_count": 308,
   "edge_types": [
@@ -589,6 +589,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/fear-extinction.md"
+    },
+    {
+      "id": "predictive-coding",
+      "title": "预测编码",
+      "domain": "theories",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/theories/predictive-coding.md"
+    },
+    {
+      "id": "precision-weighting",
+      "title": "精度加权",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/precision-weighting.md"
     }
   ],
   "edges": [
@@ -2633,6 +2651,96 @@
     {
       "from": "ltd",
       "to": "fear-extinction",
+      "type": "supports"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "orientation-selectivity",
+      "type": "supports"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "gain-control",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "precision-weighting",
+      "type": "part-of"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "working-memory",
+      "type": "supports"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "nmda-receptor",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "temporal-coding-hierarchy",
+      "type": "supports"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "competition-selection-principle",
+      "type": "related"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "predictive-coding",
+      "type": "part-of"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "gain-control",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "acetylcholine-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "vip-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "predictive-coding",
       "type": "supports"
     }
   ],

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-06-14
-revision_count: 2
+updated: 2026-06-15
+revision_count: 3
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
-source_articles: [2026-06-07-dopamine-reward-prediction-error]
-key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding]
+key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583"]
 ---
 
 # 多巴胺奖励预测误差 (Dopamine Reward Prediction Error, DA-RPE)
@@ -87,12 +87,31 @@ DA 响应有两个时间层次：
 - Q-da-heterogeneity：VTA DA 神经元群体的功能异质性——不同亚群编码奖励 RPE、厌恶 RPE、运动/激醒的比例及分子标记？
 - Q-da-hippocampus-source：海马 DA 的来源争议——VTA 直接投射 vs 蓝斑 DA/NE 共释放纤维的相对贡献？
 
+## DA-RPE 作为预测编码框架中奖励域的预测误差（2026-06-15 补充）
+
+Diederen & Fletcher（2021, PMID:32338128）明确指出，多巴胺 RPE 信号可以纳入预测编码的自由能最小化框架：
+
+- VTA/SNc DA 神经元编码**奖励预测误差** δ = r(t) − V(t)，其中 V(t) 是大脑对当前状态期望奖励的估计（generative model 的奖励成分）
+- 这与视觉皮层的感觉预测误差在数学结构上完全同构：两者都是"实际 − 预期"，都驱动内部模型的更新
+- 精度加权角度：DA 信号不只编码误差幅度，也编码奖励不确定性（unsigned prediction error），对应精度调节
+
+**疾病框架更新**：
+- 精神分裂症的 aberrant salience（PMID:32338128）= 精度失调 → 无关刺激获得过高的误差精度 → 感知到"意义"（幻觉/妄想）= 预测编码精度失调的奖励域表现
+- 这将 Schultz DA-RPE 框架和 Friston 自由能框架整合为一个统一叙述：DA 不只是奖励化学物质，而是大脑在奖励/动机域最小化预测误差的核心信使
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| DA-RPE 可纳入自由能最小化框架（与感觉预测误差同一计算结构） | 理论整合 + 计算模型 | PMID:32338128; PMID:20068583 | 中（理论层面清晰，跨框架整合的神经证据间接）|
+| 精神分裂症 aberrant salience = 精度失调（奖励域） | fMRI + DA 阻断研究综述（Kapur 2003 等） | PMID:32338128 | 中（综述，个体差异大）|
+
 ## 修订历史
 
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器：奖励预测误差如何把大脑变成世界预测器》一文 · 初始置信度：高
 - 2026-06-14 · 修订 · 基于《多巴胺的沉默与节律的失控》（PD文章）· 补充了DA的双重功能（RPE教学 vs 基底节回路调节）及PD作为DA-RPE系统崩溃的极端案例；新增关联 parkinsons-disease、basal-ganglia
+- 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 补充了DA-RPE 与预测编码框架的整合（Diederen & Fletcher 2021）；新增关联 predictive-coding, precision-weighting；新增精神分裂症 aberrant salience 的精度失调解释
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
+- [[2026-06-15-predictive-coding]]

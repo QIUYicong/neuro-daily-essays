@@ -6,16 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-06-11
-revision_count: 1
+updated: 2026-06-15
+revision_count: 3
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02]
-source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne]
-key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352"]
-updated: 2026-06-12
-revision_count: 2
+opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956"]
 ---
 
 # 初级视觉皮层（V1）
@@ -110,12 +108,30 @@ V1 的方向选择性和感觉增益受到来自基底前脑胆碱能系统（AC
 - **Q-v1-human-organization**：人类 V1 的方向组织与猫/猴有何差异？高分辨率功能成像技术能否直接可视化人类 V1 方向柱？
 - **Q-ach-ne-02**：烟碱/肌碱受体在人类 V1 的功能分工是否与猕猴一致？
 
+## 预测编码视角下的 V1（2026-06-15 补充）
+
+V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器中的**误差检测节点**。
+
+**感觉运动失配响应（Keller et al. 2012, PMID:22681686）**：清醒小鼠在虚拟现实中奔跑时，V1 L2/3 神经元对感觉运动失配（运动持续但视觉流动停止）产生强烈激活，而在正常耦合状态下响应被抑制——这是预测误差响应的直接证据：运动皮层发送本体感觉预测，V1 比较预测与实际视觉输入，编码失配误差。
+
+**环绕抑制和末端停止的新解释（Rao & Ballard 1999, PMID:10195184）**：这两种非经典感受野效应传统上归因于侧抑制，但预测编码框架提供另一解释——均匀背景刺激被高级区域预测覆盖（"解释掉"），产生较小误差；孤立刺激或不符合预测的边缘端点产生较大误差（更强响应）。两种解释不互斥，区分需要精确的层特异性操控实验。
+
+**分层振荡分工**：根据 Bastos et al. 2012，V1 的前馈输出（L2/3→V2 L4）以 γ 振荡为主（传递误差），V1 接受来自 V2/V4 的反馈（传递预测）以 α/β 振荡为主。这将 V1 的经典"前馈视觉处理"角色扩展为双向误差-预测交换的参与者。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| V1 L2/3 编码感觉运动预测误差（失配响应） | 清醒小鼠 VR + 双光子钙成像 | PMID:22681686 | 高 |
+| V1 接受来自高级视觉区的预测反馈（α/β 主导） | 灵长类 MEG/LFP 多脑区记录 | PMID:23177956 | 高 |
+| 环绕抑制/末端停止可由预测编码模型复现 | 计算模型 + 自然图像训练 | PMID:10195184 | 中（模型证据，非直接区分实验）|
+
 ## 修订历史
 
 - 2026-06-11 · 创建 · 基于《V1初级视觉皮层的方向选择性》一文 · 初始置信度：高
 - 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增"神经调质对 V1 的调制"小节（ACh/肌碱受体介导注意调制，Herrero 2008）；related 新增 acetylcholine-cortex, gain-control；opens_questions 新增 Q-ach-ne-02；key_sources 新增 PMID:18633352
+- 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 新增"预测编码视角下的 V1"小节；新增感觉运动失配实验（Keller 2012）和环绕抑制预测编码解释；related 新增 predictive-coding, precision-weighting；opens_questions 新增 Q-pc-04；key_sources 新增 PMID:22681686, PMID:10195184, PMID:23177956
 
 ## 来源文章
 
 - [[2026-06-11-v1-orientation-selectivity]]
 - [[2026-06-12-neuromodulators-ach-ne]]
+- [[2026-06-15-predictive-coding]]

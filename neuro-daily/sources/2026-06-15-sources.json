@@ -1,0 +1,212 @@
+{
+  "date": "2026-06-15",
+  "article_slug": "2026-06-15-predictive-coding",
+  "topic": "预测编码（Predictive Coding / Predictive Processing）",
+  "search_queries": [
+    "predictive coding visual cortex hierarchical review",
+    "Rao Ballard 1999 predictive coding visual cortex",
+    "Bastos canonical microcircuits predictive coding 2012",
+    "Keller Mrsic-Flogel predictive processing canonical cortical 2018",
+    "Keller 2012 sensorimotor mismatch visual cortex",
+    "Clark 2013 whatever next predictive brains situated agents",
+    "Friston 2010 free energy principle brain",
+    "Shipp 2016 neural elements predictive coding",
+    "Shipp 2023 computational components visual predictive coding",
+    "dopamine prediction error beyond review",
+    "predictive coding hierarchical defy 2026"
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "pmid": "10195184",
+      "pmcid": "confirmed-open",
+      "title": "Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects",
+      "authors": "Rao RP, Ballard DH",
+      "journal": "Nature Neuroscience",
+      "year": 1999,
+      "doi_note": "Nature Neuroscience 1999;2(1):79-87",
+      "full_text_available": true,
+      "access_type": "PMC Open Access",
+      "used_for": "奠基性理论模型：反馈携带预测，前馈携带误差；环绕抑制和末端停止的预测编码解释",
+      "evidence_strength": "高（计算模型，自然图像训练，预测与已知神经数据吻合）",
+      "key_claims_used": [
+        "视觉皮层层级的预测编码框架",
+        "反馈连接携带预测，前馈连接携带残差误差",
+        "末端停止和环绕抑制作为预测误差效应的计算预测"
+      ]
+    },
+    {
+      "id": "S02",
+      "pmid": "23177956",
+      "pmcid": "PMC3777738",
+      "title": "Canonical microcircuits for predictive coding",
+      "authors": "Bastos AM, Usrey WM, Adams RA, Mangun GR, Fries P, Friston KJ",
+      "journal": "Neuron",
+      "year": 2012,
+      "doi_note": "Neuron 2012;76(4):695-711",
+      "full_text_available": true,
+      "access_type": "PMC Open Access",
+      "used_for": "皮层层级与预测编码计算角色的解剖映射；振荡频段分工（γ=误差，α/β=预测）",
+      "evidence_strength": "高（理论综合+多项 LFP/MEG 记录数据支持）",
+      "key_claims_used": [
+        "L2/3 浅层 ↔ 误差单元 ↔ γ 振荡 ↔ 前馈",
+        "L5/6 深层 ↔ 表征/预测单元 ↔ α/β 振荡 ↔ 反馈",
+        "皮层柱微回路是预测编码的硬件实现"
+      ]
+    },
+    {
+      "id": "S03",
+      "pmid": "22681686",
+      "pmcid": "未独立确认",
+      "title": "Sensorimotor mismatch signals in primary visual cortex of the behaving mouse",
+      "authors": "Keller GB, Bonhoeffer T, Hübener M",
+      "journal": "Neuron",
+      "year": 2012,
+      "doi_note": "Neuron 2012;74(5):809-815",
+      "full_text_available": false,
+      "access_type": "摘要（PMC 全文可用性未独立验证）",
+      "used_for": "预测编码在 V1 的直接行为实验证据：感觉运动失配激活 L2/3",
+      "evidence_strength": "高（清醒小鼠 + VR + 双光子钙成像，体内行为实验）",
+      "key_claims_used": [
+        "小鼠 V1 L2/3 神经元在感觉运动失配时产生强烈激活",
+        "正常运动-视觉耦合时响应被抑制（预测被确认）",
+        "V1 整合运动预测与视觉输入，编码失配误差"
+      ]
+    },
+    {
+      "id": "S04",
+      "pmid": "30359606",
+      "pmcid": "confirmed-open",
+      "title": "Predictive Processing: A Canonical Cortical Computation",
+      "authors": "Keller GB, Mrsic-Flogel TD",
+      "journal": "Neuron",
+      "year": 2018,
+      "doi_note": "Neuron 2018;100(2):424-435",
+      "full_text_available": true,
+      "access_type": "PMC Open Access",
+      "used_for": "预测处理作为皮层典范计算的实验检验框架；三类可测试预测；健康与病理状态含义",
+      "evidence_strength": "中（综述性，整合多项体内实验）",
+      "key_claims_used": [
+        "预测处理的三类实验检验（情境依赖、失配信号、反馈塑造前馈）",
+        "振荡分工对应功能性前馈/反馈分工"
+      ]
+    },
+    {
+      "id": "S05",
+      "pmid": "23663408",
+      "pmcid": "PMC10800426",
+      "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+      "authors": "Clark A",
+      "journal": "Behavioral and Brain Sciences",
+      "year": 2013,
+      "doi_note": "Behav Brain Sci 2013;36(3):181-204",
+      "full_text_available": true,
+      "access_type": "PMC Open Access",
+      "used_for": "主动推断框架（感知+行动统一）；精度加权=注意；层级预测处理作为认知科学统一框架",
+      "evidence_strength": "中（理论综合，影响极大，但实验证据依赖二手引用）",
+      "key_claims_used": [
+        "主动推断：行动与感知都在最小化预测误差",
+        "注意 = 精度加权（选择性放大关键预测误差权重）",
+        "大脑是层级预测机器"
+      ]
+    },
+    {
+      "id": "S06",
+      "pmid": "27917138",
+      "pmcid": "PMC5114244",
+      "title": "Neural Elements for Predictive Coding",
+      "authors": "Shipp S",
+      "journal": "Frontiers in Psychology",
+      "year": 2016,
+      "doi_note": "Front Psychol 2016;7:1792",
+      "full_text_available": true,
+      "access_type": "PMC Open Access (Frontiers)",
+      "used_for": "误差单元和表征单元的候选神经元类型；VIP 中间神经元在精度调节中的角色",
+      "evidence_strength": "中（综述+理论分析，部分预测待实验验证）",
+      "key_claims_used": [
+        "VIP 中间神经元可能实现精度加权（去抑制回路）",
+        "NMDA 受体作为增益调制机制"
+      ]
+    },
+    {
+      "id": "S07",
+      "pmid": "38259953",
+      "pmcid": "confirmed-open",
+      "title": "Computational components of visual predictive coding circuitry",
+      "authors": "Shipp S",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2023,
+      "doi_note": "Front Neural Circuits 2023;17:1099060",
+      "full_text_available": true,
+      "access_type": "PMC Open Access (Frontiers)",
+      "used_for": "最新综述：三类功能神经元（预测生成器/误差信号生成器/精度控制中间神经元）",
+      "evidence_strength": "中（综述，整合小鼠和猴数据）",
+      "key_claims_used": [
+        "L5 锥体细胞作为预测生成器的候选",
+        "精度控制中间神经元的具体类型候选"
+      ]
+    },
+    {
+      "id": "S08",
+      "pmid": "20068583",
+      "pmcid": "confirmed-open",
+      "title": "The free-energy principle: a unified brain theory?",
+      "authors": "Friston K",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2010,
+      "doi_note": "Nat Rev Neurosci 2010;11(2):127-138",
+      "full_text_available": true,
+      "access_type": "PMC Open Access",
+      "used_for": "自由能原理的数学框架；贝叶斯脑假说；主动推断原理",
+      "evidence_strength": "高（数学框架，但可证伪性有争议）",
+      "key_claims_used": [
+        "自由能最小化作为统一大脑功能原理",
+        "感知 = 更新内部模型，行动 = 改变世界以匹配预测"
+      ]
+    },
+    {
+      "id": "S09",
+      "pmid": "32338128",
+      "pmcid": "PMC7804370",
+      "title": "Dopamine, Prediction Error and Beyond",
+      "authors": "Diederen KMJ, Fletcher PC",
+      "journal": "The Neuroscientist",
+      "year": 2021,
+      "doi_note": "Neuroscientist 2021;27(2):130-153",
+      "full_text_available": true,
+      "access_type": "PMC Open Access",
+      "used_for": "DA-RPE 与预测编码框架的整合；精神分裂症 aberrant salience；抑郁症、成瘾的DA误差失调",
+      "evidence_strength": "中（综述，但整合了多项 DA 记录研究）",
+      "key_claims_used": [
+        "DA 编码奖励预测误差，与感觉预测误差同一数学结构",
+        "精神分裂症：精度失调导致 aberrant salience（幻觉、妄想）"
+      ]
+    },
+    {
+      "id": "S10",
+      "pmid": "41120233",
+      "pmcid": "未确认",
+      "title": "Hierarchical interactions between sensory cortices defy predictive coding",
+      "authors": "Westerberg JA et al.",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2026,
+      "doi_note": "Trends Cogn Sci 2026",
+      "full_text_available": false,
+      "access_type": "摘要（最新文献，全文未读取）",
+      "used_for": "挑战性证据：某些感觉皮层交互不符合层级预测编码的振荡模式预测",
+      "evidence_strength": "待评估（仅读摘要，结论细节未知）",
+      "key_claims_used": [
+        "灵长类视觉联合皮层数据挑战简单的振荡-方向映射（γ前馈/α-β反馈）",
+        "层级预测编码框架可能需要修订"
+      ],
+      "notes": "重要争议来源，引用时已明确标注仅读摘要"
+    }
+  ],
+  "sources_summary": {
+    "total": 10,
+    "open_full_text": 7,
+    "abstract_only": 3,
+    "official_institution": 1,
+    "meets_requirements": true
+  }
+}

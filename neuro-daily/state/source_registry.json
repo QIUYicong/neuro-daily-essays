@@ -3170,6 +3170,168 @@
         "nucleus_reuniens_hub",
         "IL_BLA_optogenetic_causality"
       ]
+    },
+    {
+      "pmid": "10195184",
+      "title": "Predictive coding in the visual cortex",
+      "authors": "Rao RP, Ballard DH",
+      "year": 1999,
+      "journal": "Nature Neuroscience",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "predictive coding foundational model",
+        "visual cortex feedback-forward asymmetry",
+        "surround suppression",
+        "end-stopping"
+      ]
+    },
+    {
+      "pmid": "23177956",
+      "title": "Canonical microcircuits for predictive coding",
+      "authors": "Bastos AM et al.",
+      "year": 2012,
+      "journal": "Neuron",
+      "pmcid": "PMC3777738",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "cortical laminar architecture",
+        "gamma feedforward error",
+        "alpha-beta feedback prediction",
+        "canonical microcircuits"
+      ]
+    },
+    {
+      "pmid": "22681686",
+      "title": "Sensorimotor mismatch signals in primary visual cortex of the behaving mouse",
+      "authors": "Keller GB, Bonhoeffer T, Hübener M",
+      "year": 2012,
+      "journal": "Neuron",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "V1 mismatch response",
+        "predictive coding in vivo",
+        "visuomotor prediction",
+        "L2/3 error signals"
+      ]
+    },
+    {
+      "pmid": "30359606",
+      "title": "Predictive Processing: A Canonical Cortical Computation",
+      "authors": "Keller GB, Mrsic-Flogel TD",
+      "year": 2018,
+      "journal": "Neuron",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "predictive processing framework review",
+        "experimental tests",
+        "pathological states"
+      ]
+    },
+    {
+      "pmid": "23663408",
+      "title": "Whatever next? Predictive brains, situated agents",
+      "authors": "Clark A",
+      "year": 2013,
+      "journal": "Behavioral and Brain Sciences",
+      "pmcid": "PMC10800426",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "active inference",
+        "precision weighting",
+        "attention",
+        "hierarchical generative models",
+        "embodied cognition"
+      ]
+    },
+    {
+      "pmid": "27917138",
+      "title": "Neural Elements for Predictive Coding",
+      "authors": "Shipp S",
+      "year": 2016,
+      "journal": "Frontiers in Psychology",
+      "pmcid": "PMC5114244",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "VIP interneurons precision",
+        "NMDA gain modulation",
+        "error vs representation unit candidates"
+      ]
+    },
+    {
+      "pmid": "38259953",
+      "title": "Computational components of visual predictive coding circuitry",
+      "authors": "Shipp S",
+      "year": 2023,
+      "journal": "Frontiers in Neural Circuits",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "prediction neurons L5",
+        "error signal generators L2/3",
+        "precision interneurons",
+        "mouse and monkey visual cortex"
+      ]
+    },
+    {
+      "pmid": "20068583",
+      "title": "The free-energy principle: a unified brain theory?",
+      "authors": "Friston K",
+      "year": 2010,
+      "journal": "Nature Reviews Neuroscience",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "free energy principle",
+        "variational Bayes",
+        "active inference mathematical framework"
+      ]
+    },
+    {
+      "pmid": "32338128",
+      "title": "Dopamine, Prediction Error and Beyond",
+      "authors": "Diederen KMJ, Fletcher PC",
+      "year": 2021,
+      "journal": "The Neuroscientist",
+      "pmcid": "PMC7804370",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "dopamine RPE free energy integration",
+        "aberrant salience schizophrenia",
+        "depression blunted RPE",
+        "addiction dopamine"
+      ]
+    },
+    {
+      "pmid": "41120233",
+      "title": "Hierarchical interactions between sensory cortices defy predictive coding",
+      "authors": "Westerberg JA et al.",
+      "year": 2026,
+      "journal": "Trends in Cognitive Sciences",
+      "used_in": [
+        "2026-06-15-predictive-coding"
+      ],
+      "covers": [
+        "predictive coding challenge",
+        "oscillation directionality",
+        "primate visual cortex"
+      ],
+      "notes": "最新争议文献，仅读摘要"
     }
   ],
   "total_sources": 150
