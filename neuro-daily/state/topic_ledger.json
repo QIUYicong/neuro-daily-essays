@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-12",
-  "total_articles": 20,
+  "last_updated": "2026-05-30",
+  "total_articles": 21,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1108,17 +1108,42 @@
       "date": "2026-06-09",
       "title": "光遗传学：用一束光解开神经回路的因果之谜",
       "filename": "2026-06-09-optogenetics-causal-neuroscience.md",
-      "wiki_pages_created": ["wiki/methods/optogenetics.md"],
-      "wiki_pages_revised": ["wiki/concepts/engram-cells.md"],
+      "wiki_pages_created": [
+        "wiki/methods/optogenetics.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/engram-cells.md"
+      ],
       "contested_claims_logged": [],
       "core_question": "光遗传学如何从一个藻类蛋白开始，在二十年间给神经科学带来从相关性到因果性的认识论革命？其分子机制是什么，它已在哪些认知问题上给出之前不可能得到的答案？",
-      "layer": ["方法", "分子", "细胞", "回路", "认知"],
+      "layer": [
+        "方法",
+        "分子",
+        "细胞",
+        "回路",
+        "认知"
+      ],
       "curriculum_track": "10. 方法革命",
       "topic_tags": [
-        "optogenetics", "channelrhodopsin", "ChR2", "halorhodopsin", "NpHR",
-        "Arch", "archaerhodopsin", "c-fos", "TetTag", "engram", "false memory",
-        "memory valence", "Boyden 2005", "Ramirez 2013", "Redondo 2014",
-        "AAV", "Cre-lox", "causal neuroscience", "methods layer"
+        "optogenetics",
+        "channelrhodopsin",
+        "ChR2",
+        "halorhodopsin",
+        "NpHR",
+        "Arch",
+        "archaerhodopsin",
+        "c-fos",
+        "TetTag",
+        "engram",
+        "false memory",
+        "memory valence",
+        "Boyden 2005",
+        "Ramirez 2013",
+        "Redondo 2014",
+        "AAV",
+        "Cre-lox",
+        "causal neuroscience",
+        "methods layer"
       ],
       "main_sources": [
         "PMID:16116447 (Boyden 2005)",
@@ -1162,7 +1187,12 @@
       ],
       "contested_claims_logged": [],
       "core_question": "突触如何在毫秒至分钟的时间尺度内动态调整传递效率？易化与抑制的分子机制是什么，突触如何用STP实现频率路由和工作记忆无声储存？",
-      "layer": ["分子", "突触", "微回路", "认知"],
+      "layer": [
+        "分子",
+        "突触",
+        "微回路",
+        "认知"
+      ],
       "curriculum_track": "1. 神经元如何工作（突触可塑性）→ 4. 学习和记忆（工作记忆STP机制）",
       "topic_tags": [
         "short-term synaptic plasticity",
@@ -1312,18 +1342,51 @@
       ],
       "contested_claims_logged": [],
       "core_question": "乙酰胆碱（ACh）和去甲肾上腺素（NE）如何通过不同受体和脑区特异性机制，以乘法性增益控制而非加法性输入，将注意与唤醒状态写入皮层计算？",
-      "layer": ["molecular", "cellular", "brain-region", "cognition"],
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "cognition"
+      ],
       "curriculum_track": "1. 神经元如何工作（神经调质机制）→ 5. 认知控制（注意/增益控制）",
       "topic_tags": [
-        "acetylcholine", "ACh", "norepinephrine", "NE", "locus coeruleus",
-        "basal forebrain", "Meynert nucleus", "muscarinic receptor", "M1", "M2",
-        "nicotinic receptor", "nAChR", "alpha4beta2", "alpha7", "adrenergic receptor",
-        "alpha2A", "alpha1", "beta adrenergic", "HCN channel", "gain control",
-        "signal-to-noise ratio", "attention modulation", "neuromodulator",
-        "phasic-tonic mode", "adaptive gain theory", "Aston-Jones Cohen 2005",
-        "Herrero 2008", "guanfacine", "ADHD", "PFC working memory",
-        "scopolamine", "mecamylamine", "V1 attention", "response gain",
-        "contrast gain", "inverted-U", "cortical desynchronization"
+        "acetylcholine",
+        "ACh",
+        "norepinephrine",
+        "NE",
+        "locus coeruleus",
+        "basal forebrain",
+        "Meynert nucleus",
+        "muscarinic receptor",
+        "M1",
+        "M2",
+        "nicotinic receptor",
+        "nAChR",
+        "alpha4beta2",
+        "alpha7",
+        "adrenergic receptor",
+        "alpha2A",
+        "alpha1",
+        "beta adrenergic",
+        "HCN channel",
+        "gain control",
+        "signal-to-noise ratio",
+        "attention modulation",
+        "neuromodulator",
+        "phasic-tonic mode",
+        "adaptive gain theory",
+        "Aston-Jones Cohen 2005",
+        "Herrero 2008",
+        "guanfacine",
+        "ADHD",
+        "PFC working memory",
+        "scopolamine",
+        "mecamylamine",
+        "V1 attention",
+        "response gain",
+        "contrast gain",
+        "inverted-U",
+        "cortical desynchronization"
       ],
       "main_sources": [
         "PMID:18633352 (PMC2666819, Herrero et al. 2008 Nature, 开放)",
@@ -1353,6 +1416,77 @@
       "mode": "long_term_curriculum",
       "article_number": 20,
       "note": "第三周第6篇：首次系统覆盖调质系统层。以 Herrero 2008（Nature，猕猴V1，M1拮抗剂消除注意诱导增益提升）为核心实验锚点，整合ACh（M1肌碱/α4β2+α7烟碱）和NE（α2A→HCN抑制→PFC WM稳定；α1→噪声；β→LTP）的双系统机制；引入 Aston-Jones & Cohen（2005）的相位-紧张模式理论。新建4个wiki页面（acetylcholine-cortex/norepinephrine-locus-coeruleus/neuromodulator-systems/gain-control），修订 v1-primary-visual-cortex（revision 2）和 working-memory（revision 4），添加22条图谱边；知识图谱：54节点、278条边。"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "第三周综合：大脑的增益控制架构——神经调质如何在多重时间尺度上重配神经回路",
+      "filename": "2026-05-30-week3-synthesis.md",
+      "wiki_pages_created": [
+        "wiki/concepts/multi-timescale-plasticity.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/gain-control.md",
+        "wiki/systems/neuromodulator-systems.md",
+        "wiki/concepts/short-term-synaptic-plasticity.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "大脑如何在不改变解剖连接的前提下动态重配自身的计算？答：三层嵌套的增益控制架构（STP毫秒级/ACh-NE秒级/DA-RPE分钟级）共同实现从感知到学习的多时间尺度增益调节。",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "disease",
+        "methods"
+      ],
+      "curriculum_track": "横贯路线1/3/4/5（综合篇）",
+      "topic_tags": [
+        "gain control",
+        "multi-timescale plasticity",
+        "neuromodulation",
+        "STP",
+        "ACh",
+        "NE",
+        "dopamine",
+        "RPE",
+        "Marder principle",
+        "cortical gain",
+        "V1",
+        "orientation selectivity",
+        "Alzheimer's disease",
+        "optogenetics",
+        "week3 synthesis",
+        "multi-layer architecture",
+        "functional reconfiguration",
+        "Marder 2012",
+        "Thiele Bellgrove 2018"
+      ],
+      "main_sources": [
+        "PMID:23040802 (PMC3482119, Marder 2012 Neuron, 开放全文)",
+        "PMID:29470969 (PMC6204752, Thiele & Bellgrove 2018 Neuron, 开放全文)",
+        "PMID:9012851 (Tsodyks & Markram 1997 PNAS, 摘要, 来自第18篇)",
+        "PMID:18339943 (Mongillo 2008 Science, 摘要, 来自第18篇)",
+        "PMID:18633352 (Herrero 2008 Nature, 摘要, 来自第20篇)",
+        "PMID:16028901 (Aston-Jones & Cohen 2005 Ann Rev Neurosci, 摘要, 来自第20篇)",
+        "PMID:9054347 (Schultz 1997 Science, 摘要, 来自第15篇)",
+        "NIH BRAIN Initiative BRAIN 2025 (官方机构来源)"
+      ],
+      "unresolved_questions": [
+        "Q-gain-timescale-interaction: 三层增益控制之间是否有可预测的相互作用？",
+        "Q-marder-principle-cortex: Marder原则在哺乳类皮层的直接验证？",
+        "Q-gain-architecture-ai: 能否在AI系统中设计等效的多层增益控制架构？"
+      ],
+      "next_suggested_topics": [
+        "血清素（5-HT）系统：缝际核→皮层投射，情绪、焦虑、奖励学习中的角色（完成四大调质系统覆盖）",
+        "帕金森病：黑质纹状体多巴胺耗竭与基底节直接/间接通路失衡（disease层）",
+        "月度综合（第30篇，如果继续按30篇计划）：或继续课程脊柱第二主题——神经网络如何建成（神经发生、轴突导向、突触剪枝）",
+        "默认模式网络（DMN）与自我参照处理：认知控制的对立面"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 21,
+      "note": "第三周综合篇（第21篇）。整合第15-20篇的六个主题，构建'多层增益控制架构'统一框架。引用两篇开放全文综述（Marder 2012 PMID:23040802, Thiele & Bellgrove 2018 PMID:29470969）。新建wiki页面 multi-timescale-plasticity；修订3个wiki页面（gain-control revision 2, neuromodulator-systems revision 2, short-term-synaptic-plasticity revision 2）。特殊情况：因环境分支限制（claude/funny-einstein-qad7I），本次运行从origin/main最新状态出发，将commit推送至main分支。"
     }
   ],
   "layer_coverage_recent": {
@@ -1420,11 +1554,16 @@
       "2026-06-03",
       "2026-06-12"
     ],
-    "disease": ["2026-06-08"],
-    "methods": ["2026-06-09"],
-    "systems": ["2026-06-11", "2026-06-12"]
+    "disease": [
+      "2026-06-08"
+    ],
+    "methods": [
+      "2026-06-09"
+    ],
+    "systems": [
+      "2026-06-11",
+      "2026-06-12"
+    ]
   },
-  "last_updated": "2026-06-12",
-  "total_articles": 20,
   "layer_note": "2026-06-12（ACh/NE神经调质）：首次系统覆盖调质系统层！覆盖 molecular（M1/α2A受体分子机制）/cellular（PFC锥体细胞/LC/基底前脑神经元）/brain-region（V1/PFC/LC/基底前脑解剖）/cognition（注意/工作记忆/增益控制）四层。以 Herrero 2008 猕猴V1实验为核心锚点，整合ACh和NE双系统增益控制机制。新建4个wiki页面，修订2个页面，添加22条图谱边；知识图谱：54节点、278条边。下一篇为第三周综合篇（文章#21），整合第三周六篇文章（DA奖励/AD突触/光遗传学/STP/V1方向选择性/ACh-NE调质），提炼统一框架。"
 }

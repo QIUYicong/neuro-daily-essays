@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-10
-updated: 2026-06-10
-revision_count: 1
+updated: 2026-05-30
+revision_count: 2
 dimensions: [molecular, synaptic, microcircuit, cognition]
-related: [synaptotagmin, readily-releasable-pool, synaptic-transmission, active-zone, voltage-gated-calcium-channels, working-memory, pv-interneurons, ltp, ltd]
+related: [synaptotagmin, readily-releasable-pool, synaptic-transmission, active-zone, voltage-gated-calcium-channels, working-memory, pv-interneurons, ltp, ltd, multi-timescale-plasticity, gain-control]
 prerequisites: [synaptic-transmission, active-zone, synaptotagmin, voltage-gated-calcium-channels]
-opens_questions: [Q-stp-activity-silent-wm, Q-stp-cognitive-disease, Q-syt7-facilitation-mechanism, Q-stp-syt7-human]
-source_articles: [2026-06-10-stp-short-term-plasticity]
-key_sources: ["PMID:11826273", "PMID:22751149", "PMID:28472650", "PMID:29088700", "PMID:9012851", "PMID:18339943"]
+opens_questions: [Q-stp-activity-silent-wm, Q-stp-cognitive-disease, Q-syt7-facilitation-mechanism, Q-stp-syt7-human, Q-gain-timescale-interaction]
+source_articles: [2026-06-10-stp-short-term-plasticity, 2026-05-30-week3-synthesis]
+key_sources: ["PMID:11826273", "PMID:22751149", "PMID:28472650", "PMID:29088700", "PMID:9012851", "PMID:18339943", "PMID:23040802"]
 ---
 
 # 短时程突触可塑性（Short-Term Synaptic Plasticity, STP）
@@ -97,6 +97,8 @@ PKC磷酸化Munc18-1介导约80% PTP（calyx of Held）；线粒体是持续数�
 - [[working-memory]] — Mongillo模型：STP易化状态储存"活动无声"工作记忆
 - [[pv-interneurons]] — PV+快速发放的抑制性突触有特殊STP设计（Syt7频率不变）
 - [[ltp]] — LTP（分钟-终身）vs STP（毫秒-分钟）：时间尺度连续谱的不同区段
+- [[multi-timescale-plasticity]] — STP 作为多层增益控制架构的**第一层**（最快，自动，突触局部）
+- [[gain-control]] — 皮层增益控制（层二，ACh/NE）与 STP 层一的协同关系
 
 ## 计算逻辑
 
@@ -117,7 +119,9 @@ STP的核心计算功能（Abbott & Regehr 2004, PMID:15483601）：
 ## 修订历史
 
 - 2026-06-10 · 创建 · 基于《瞬息之变：短时程突触可塑性的分子机制与计算逻辑》一文 · 初始置信度：高
+- 2026-05-30 · 修订 · 基于《第三周综合》 · 将 STP 定位为多层增益控制架构（[[multi-timescale-plasticity]]）的**第一层**；新增与 [[gain-control]] 和 [[multi-timescale-plasticity]] 的连接；新增 Q-gain-timescale-interaction 待解问题
 
 ## 来源文章
 
 - [[2026-06-10-stp-short-term-plasticity]]
+- [[2026-05-30-week3-synthesis]]

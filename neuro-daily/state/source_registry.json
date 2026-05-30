@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11",
+  "last_updated": "2026-05-30",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10,8 +10,17 @@
       "journal": "Journal of Neuroscience",
       "year": 2012,
       "first_used": "2026-05-24",
-      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
-      "aspects_covered": ["H-H model overview", "Nav channel molecular structure", "S4 gating", "IFMT inactivation", "Class 1/2 neurons", "metabolic efficiency optimization"]
+      "used_in_articles": [
+        "2026-05-24-axon-initial-segment.md"
+      ],
+      "aspects_covered": [
+        "H-H model overview",
+        "Nav channel molecular structure",
+        "S4 gating",
+        "IFMT inactivation",
+        "Class 1/2 neurons",
+        "metabolic efficiency optimization"
+      ]
     },
     {
       "pmid": "36218068",
@@ -21,8 +30,17 @@
       "journal": "Journal of Physiology",
       "year": 2023,
       "first_used": "2026-05-24",
-      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
-      "aspects_covered": ["dendritic computation", "NMDA spikes", "Ca2+ spikes in human L2/3", "back-propagating APs", "STDP and dendritic location", "HH model extensions to dendrites"]
+      "used_in_articles": [
+        "2026-05-24-axon-initial-segment.md"
+      ],
+      "aspects_covered": [
+        "dendritic computation",
+        "NMDA spikes",
+        "Ca2+ spikes in human L2/3",
+        "back-propagating APs",
+        "STDP and dendritic location",
+        "HH model extensions to dendrites"
+      ]
     },
     {
       "pmid": "41930336",
@@ -32,8 +50,21 @@
       "journal": "MedComm",
       "year": 2026,
       "first_used": "2026-05-24",
-      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
-      "aspects_covered": ["AIS molecular architecture", "Nav channel density (50x soma)", "NaV1.6 vs NaV1.2", "AnkyrinG scaffold", "actin rings (~190nm)", "homeostatic plasticity", "chandelier cells", "KV channels", "AIS in neurodegeneration", "organelle trafficking"]
+      "used_in_articles": [
+        "2026-05-24-axon-initial-segment.md"
+      ],
+      "aspects_covered": [
+        "AIS molecular architecture",
+        "Nav channel density (50x soma)",
+        "NaV1.6 vs NaV1.2",
+        "AnkyrinG scaffold",
+        "actin rings (~190nm)",
+        "homeostatic plasticity",
+        "chandelier cells",
+        "KV channels",
+        "AIS in neurodegeneration",
+        "organelle trafficking"
+      ]
     },
     {
       "pmid": "28536506",
@@ -43,8 +74,15 @@
       "journal": "Frontiers in Cellular Neuroscience",
       "year": 2017,
       "first_used": "2026-05-24",
-      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
-      "aspects_covered": ["AnkyrinG-Nav binding mechanism (II-III linker)", "CK2 phosphorylation regulation", "AIS and node shared molecular architecture", "saltatory conduction"]
+      "used_in_articles": [
+        "2026-05-24-axon-initial-segment.md"
+      ],
+      "aspects_covered": [
+        "AnkyrinG-Nav binding mechanism (II-III linker)",
+        "CK2 phosphorylation regulation",
+        "AIS and node shared molecular architecture",
+        "saltatory conduction"
+      ]
     },
     {
       "pmid": "25856629",
@@ -54,8 +92,14 @@
       "journal": "PLOS Computational Biology",
       "year": 2015,
       "first_used": "2026-05-24",
-      "used_in_articles": ["2026-05-24-axon-initial-segment.md"],
-      "aspects_covered": ["computational model realism framework", "empirical content vs empirical accuracy", "AIS-specific channel distribution in models"]
+      "used_in_articles": [
+        "2026-05-24-axon-initial-segment.md"
+      ],
+      "aspects_covered": [
+        "computational model realism framework",
+        "empirical content vs empirical accuracy",
+        "AIS-specific channel distribution in models"
+      ]
     },
     {
       "pmid": "22068972",
@@ -65,8 +109,19 @@
       "journal": "Cold Spring Harbor Perspectives in Biology",
       "year": 2012,
       "first_used": "2026-05-25",
-      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
-      "aspects_covered": ["synaptotagmin calcium sensing", "C2A/C2B domain structure", "fusion kinetics (100-200 microseconds)", "synchronous vs asynchronous release", "complexin dual function", "Syt isoform specificity (Syt1/2/9)", "spontaneous release rates", "phospholipid affinity enhancement"]
+      "used_in_articles": [
+        "2026-05-25-synaptic-vesicle-exocytosis.md"
+      ],
+      "aspects_covered": [
+        "synaptotagmin calcium sensing",
+        "C2A/C2B domain structure",
+        "fusion kinetics (100-200 microseconds)",
+        "synchronous vs asynchronous release",
+        "complexin dual function",
+        "Syt isoform specificity (Syt1/2/9)",
+        "spontaneous release rates",
+        "phospholipid affinity enhancement"
+      ]
     },
     {
       "pmid": "22026965",
@@ -76,8 +131,20 @@
       "journal": "Cold Spring Harbor Perspectives in Biology",
       "year": 2011,
       "first_used": "2026-05-25",
-      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
-      "aspects_covered": ["SNARE complex structure (4-helix bundle)", "Synaptobrevin/Syntaxin/SNAP-25", "central hydrophilic layer", "Munc18-1 dual binding mode", "Munc13 priming mechanism", "RIM protein architecture", "active zone scaffold components (RIM, ELKS, Bassoon, Piccolo)", "calcium channel tethering by RIM", "vesicle recycling pathways (kiss-and-stay, kiss-and-run, full recycling)"]
+      "used_in_articles": [
+        "2026-05-25-synaptic-vesicle-exocytosis.md"
+      ],
+      "aspects_covered": [
+        "SNARE complex structure (4-helix bundle)",
+        "Synaptobrevin/Syntaxin/SNAP-25",
+        "central hydrophilic layer",
+        "Munc18-1 dual binding mode",
+        "Munc13 priming mechanism",
+        "RIM protein architecture",
+        "active zone scaffold components (RIM, ELKS, Bassoon, Piccolo)",
+        "calcium channel tethering by RIM",
+        "vesicle recycling pathways (kiss-and-stay, kiss-and-run, full recycling)"
+      ]
     },
     {
       "pmid": "23060190",
@@ -87,8 +154,18 @@
       "journal": "Nature",
       "year": 2012,
       "first_used": "2026-05-25",
-      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
-      "aspects_covered": ["competing fusion models (partial zipper vs distance regulation)", "Ca2+ boost >100,000-fold", "stalk hypothesis and hemifusion intermediates", "1-3 SNARE complexes per event", "phospholipid splaying mechanism (<1nm)", "PI(4,5)P2 role", "NSF/alpha-SNAP disassembly"]
+      "used_in_articles": [
+        "2026-05-25-synaptic-vesicle-exocytosis.md"
+      ],
+      "aspects_covered": [
+        "competing fusion models (partial zipper vs distance regulation)",
+        "Ca2+ boost >100,000-fold",
+        "stalk hypothesis and hemifusion intermediates",
+        "1-3 SNARE complexes per event",
+        "phospholipid splaying mechanism (<1nm)",
+        "PI(4,5)P2 role",
+        "NSF/alpha-SNAP disassembly"
+      ]
     },
     {
       "pmid": "27537483",
@@ -98,8 +175,16 @@
       "journal": "Neuron",
       "year": 2016,
       "first_used": "2026-05-25",
-      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
-      "aspects_covered": ["RIM+ELKS conditional double knockout", "vesicle docking loss", "calcium channel loss 44%", "fusion competence without active zone", "decoupling structural docking from functional readiness"]
+      "used_in_articles": [
+        "2026-05-25-synaptic-vesicle-exocytosis.md"
+      ],
+      "aspects_covered": [
+        "RIM+ELKS conditional double knockout",
+        "vesicle docking loss",
+        "calcium channel loss 44%",
+        "fusion competence without active zone",
+        "decoupling structural docking from functional readiness"
+      ]
     },
     {
       "pmid": "36544543",
@@ -109,8 +194,15 @@
       "journal": "Frontiers in Synaptic Neuroscience",
       "year": 2022,
       "first_used": "2026-05-25",
-      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
-      "aspects_covered": ["calcium channel subtype diversity at synapses", "nanodomain vs microdomain coupling", "RIM/RIM-BP/CAST/ELKS/neurexin channel organization", "short-term plasticity implications"]
+      "used_in_articles": [
+        "2026-05-25-synaptic-vesicle-exocytosis.md"
+      ],
+      "aspects_covered": [
+        "calcium channel subtype diversity at synapses",
+        "nanodomain vs microdomain coupling",
+        "RIM/RIM-BP/CAST/ELKS/neurexin channel organization",
+        "short-term plasticity implications"
+      ]
     },
     {
       "pmid": "37891212",
@@ -120,8 +212,15 @@
       "journal": "Communications Biology",
       "year": 2023,
       "first_used": "2026-05-25",
-      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
-      "aspects_covered": ["computational release of inhibition model", "~3 SNARE complexes per fusion", "Syt1+Syt7 dual sensor model for facilitation", "calcium-dependent C2 domain insertion rate determines fusion"]
+      "used_in_articles": [
+        "2026-05-25-synaptic-vesicle-exocytosis.md"
+      ],
+      "aspects_covered": [
+        "computational release of inhibition model",
+        "~3 SNARE complexes per fusion",
+        "Syt1+Syt7 dual sensor model for facilitation",
+        "calcium-dependent C2 domain insertion rate determines fusion"
+      ]
     },
     {
       "pmid": "15217342",
@@ -132,8 +231,15 @@
       "year": 2004,
       "first_used": "2026-05-25",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md"],
-      "aspects_covered": ["classic vesicle cycle overview", "Rab3 function", "Munc18-1", "general synaptotagmin calcium sensor role"]
+      "used_in_articles": [
+        "2026-05-25-synaptic-vesicle-exocytosis.md"
+      ],
+      "aspects_covered": [
+        "classic vesicle cycle overview",
+        "Rab3 function",
+        "Munc18-1",
+        "general synaptotagmin calcium sensor role"
+      ]
     },
     {
       "pmid": "22510460",
@@ -143,8 +249,20 @@
       "journal": "Cold Spring Harbor Perspectives in Biology",
       "year": 2012,
       "first_used": "2026-05-26",
-      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
-      "aspects_covered": ["LTP induction mechanism", "LTD induction mechanism", "NMDA receptor as LTP gatekeeper", "CaMKII role", "AMPA receptor trafficking", "silent synapse", "spine morphology in LTP", "postsynaptic locus evidence (MK-801, PPF, astrocyte transporter)", "Abeta and AD LTP impairment"]
+      "used_in_articles": [
+        "2026-05-26-nmda-receptor-ltp.md"
+      ],
+      "aspects_covered": [
+        "LTP induction mechanism",
+        "LTD induction mechanism",
+        "NMDA receptor as LTP gatekeeper",
+        "CaMKII role",
+        "AMPA receptor trafficking",
+        "silent synapse",
+        "spine morphology in LTP",
+        "postsynaptic locus evidence (MK-801, PPF, astrocyte transporter)",
+        "Abeta and AD LTP impairment"
+      ]
     },
     {
       "pmid": "30037851",
@@ -154,8 +272,19 @@
       "journal": "Journal of General Physiology",
       "year": 2018,
       "first_used": "2026-05-26",
-      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
-      "aspects_covered": ["GluN1/GluN2 tetrameric structure", "Mg2+ block IC50 values", "Ca2+ permeability", "GluN2 subunit diversity (decay kinetics, open probability)", "glycine/D-serine co-agonist", "SYTANLAAF gating motif", "Zn2+ modulation", "triheteromeric receptors"]
+      "used_in_articles": [
+        "2026-05-26-nmda-receptor-ltp.md"
+      ],
+      "aspects_covered": [
+        "GluN1/GluN2 tetrameric structure",
+        "Mg2+ block IC50 values",
+        "Ca2+ permeability",
+        "GluN2 subunit diversity (decay kinetics, open probability)",
+        "glycine/D-serine co-agonist",
+        "SYTANLAAF gating motif",
+        "Zn2+ modulation",
+        "triheteromeric receptors"
+      ]
     },
     {
       "pmid": "30359599",
@@ -165,8 +294,17 @@
       "journal": "Neuron",
       "year": 2018,
       "first_used": "2026-05-26",
-      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
-      "aspects_covered": ["GluA1-4 subunit roles", "GluA1 S831 CaMKII phosphorylation", "long C-tail vs short C-tail trafficking rules", "LTP requires GluA1", "GluA4 developmental expression", "GluA2-lacking Ca2+-permeable AMPARs"]
+      "used_in_articles": [
+        "2026-05-26-nmda-receptor-ltp.md"
+      ],
+      "aspects_covered": [
+        "GluA1-4 subunit roles",
+        "GluA1 S831 CaMKII phosphorylation",
+        "long C-tail vs short C-tail trafficking rules",
+        "LTP requires GluA1",
+        "GluA4 developmental expression",
+        "GluA2-lacking Ca2+-permeable AMPARs"
+      ]
     },
     {
       "pmid": "34271016",
@@ -176,8 +314,16 @@
       "journal": "Neuropharmacology",
       "year": 2021,
       "first_used": "2026-05-26",
-      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
-      "aspects_covered": ["TARP Stargazin PDZ interaction with PSD-95", "synaptic slots model", "lateral diffusion from exocytosis to PSD", "GluA1 ATD extracellular interactions", "CaMKII occupies LTP mechanism"]
+      "used_in_articles": [
+        "2026-05-26-nmda-receptor-ltp.md"
+      ],
+      "aspects_covered": [
+        "TARP Stargazin PDZ interaction with PSD-95",
+        "synaptic slots model",
+        "lateral diffusion from exocytosis to PSD",
+        "GluA1 ATD extracellular interactions",
+        "CaMKII occupies LTP mechanism"
+      ]
     },
     {
       "pmid": "34908526",
@@ -187,8 +333,17 @@
       "journal": "eLife",
       "year": 2021,
       "first_used": "2026-05-26",
-      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
-      "aspects_covered": ["CaMKII required for LTP maintenance (not just induction)", "myr-CN27 inhibitor reverses established LTP", "constitutive CaMKII activity (~50% baseline AMPAR)", "NMDAR-dependency of CaMKII effect", "T286 autophosphorylation", "subunit exchange hypothesis"]
+      "used_in_articles": [
+        "2026-05-26-nmda-receptor-ltp.md"
+      ],
+      "aspects_covered": [
+        "CaMKII required for LTP maintenance (not just induction)",
+        "myr-CN27 inhibitor reverses established LTP",
+        "constitutive CaMKII activity (~50% baseline AMPAR)",
+        "NMDAR-dependency of CaMKII effect",
+        "T286 autophosphorylation",
+        "subunit exchange hypothesis"
+      ]
     },
     {
       "pmid": "25452022",
@@ -198,8 +353,15 @@
       "journal": "Brain Research",
       "year": 2015,
       "first_used": "2026-05-26",
-      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
-      "aspects_covered": ["theta-burst stimulation protocol", "TBS vs HFS efficiency comparison", "theta oscillation as natural LTP induction rhythm", "GABA-B autoreceptor timing window"]
+      "used_in_articles": [
+        "2026-05-26-nmda-receptor-ltp.md"
+      ],
+      "aspects_covered": [
+        "theta-burst stimulation protocol",
+        "TBS vs HFS efficiency comparison",
+        "theta oscillation as natural LTP induction rhythm",
+        "GABA-B autoreceptor timing window"
+      ]
     },
     {
       "pmid": "26834568",
@@ -209,8 +371,15 @@
       "journal": "Frontiers in Neural Circuits",
       "year": 2016,
       "first_used": "2026-05-26",
-      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
-      "aspects_covered": ["three-factor learning rule framework", "dopamine as third factor in STDP", "bridge between Hebbian rule and reinforcement learning", "neuromodulator timing requirements"]
+      "used_in_articles": [
+        "2026-05-26-nmda-receptor-ltp.md"
+      ],
+      "aspects_covered": [
+        "three-factor learning rule framework",
+        "dopamine as third factor in STDP",
+        "bridge between Hebbian rule and reinforcement learning",
+        "neuromodulator timing requirements"
+      ]
     },
     {
       "pmid": "4727084",
@@ -221,8 +390,15 @@
       "year": 1973,
       "first_used": "2026-05-26",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
-      "aspects_covered": ["LTP discovery", "first demonstration of long-lasting synaptic enhancement by high-frequency stimulation", "dentate gyrus", "perforant path"]
+      "used_in_articles": [
+        "2026-05-26-nmda-receptor-ltp.md"
+      ],
+      "aspects_covered": [
+        "LTP discovery",
+        "first demonstration of long-lasting synaptic enhancement by high-frequency stimulation",
+        "dentate gyrus",
+        "perforant path"
+      ]
     },
     {
       "pmid": "6306230",
@@ -233,8 +409,14 @@
       "year": 1983,
       "first_used": "2026-05-26",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-26-nmda-receptor-ltp.md"],
-      "aspects_covered": ["NMDA receptor required for LTP", "AP5 block abolishes LTP while preserving baseline transmission", "Schaffer collateral CA1 LTP"]
+      "used_in_articles": [
+        "2026-05-26-nmda-receptor-ltp.md"
+      ],
+      "aspects_covered": [
+        "NMDA receptor required for LTP",
+        "AP5 block abolishes LTP while preserving baseline transmission",
+        "Schaffer collateral CA1 LTP"
+      ]
     },
     {
       "pmid": "26167906",
@@ -245,8 +427,16 @@
       "year": 2015,
       "first_used": "2026-05-27",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["hippocampal CA1 dendritic plateau potentials", "place field formation", "conjunctive EC3 × CA3 inputs", "NMDA receptor dependence", "one-shot learning"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "hippocampal CA1 dendritic plateau potentials",
+        "place field formation",
+        "conjunctive EC3 × CA3 inputs",
+        "NMDA receptor dependence",
+        "one-shot learning"
+      ]
     },
     {
       "pmid": "26605882",
@@ -257,8 +447,17 @@
       "year": 2015,
       "first_used": "2026-05-27",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["passive cable theory history", "NMDA spikes mechanism", "Ca2+ spikes mechanism", "in vivo evidence", "synaptic clustering debate", "60-year review"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "passive cable theory history",
+        "NMDA spikes mechanism",
+        "Ca2+ spikes mechanism",
+        "in vivo evidence",
+        "synaptic clustering debate",
+        "60-year review"
+      ]
     },
     {
       "pmid": "24162850",
@@ -269,8 +468,16 @@
       "year": 2013,
       "first_used": "2026-05-27",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["in vivo dendritic spikes", "orientation selectivity", "NMDA receptor dependence in vivo", "visual cortex L2/3", "awake and anesthetized mice"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "in vivo dendritic spikes",
+        "orientation selectivity",
+        "NMDA receptor dependence in vivo",
+        "visual cortex L2/3",
+        "awake and anesthetized mice"
+      ]
     },
     {
       "pmid": "10749211",
@@ -281,8 +488,15 @@
       "year": 2000,
       "first_used": "2026-05-27",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["first direct demonstration of NMDA spikes", "basal dendrites", "NMDA receptor ≥80% ionic charge", "226% supralinear somatic response"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "first direct demonstration of NMDA spikes",
+        "basal dendrites",
+        "NMDA receptor ≥80% ionic charge",
+        "226% supralinear somatic response"
+      ]
     },
     {
       "pmid": "15156147",
@@ -293,8 +507,15 @@
       "year": 2004,
       "first_used": "2026-05-27",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["two-layer neural network model experimental evidence", "sigmoid integration within branch", "linear summation across branches", "spatial compartmentalization"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "two-layer neural network model experimental evidence",
+        "sigmoid integration within branch",
+        "linear summation across branches",
+        "spatial compartmentalization"
+      ]
     },
     {
       "pmid": "19661433",
@@ -305,8 +526,14 @@
       "year": 2009,
       "first_used": "2026-05-27",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["L5 PC tuft NMDA spikes", "unifying principle for dendritic integration", "apical tuft integration"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "L5 PC tuft NMDA spikes",
+        "unifying principle for dendritic integration",
+        "apical tuft integration"
+      ]
     },
     {
       "pmid": "23841837",
@@ -317,8 +544,14 @@
       "year": 2013,
       "first_used": "2026-05-27",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["NMDA receptor as major nonlinear drive in thin dendrites", "dendritic branches as dynamic computational subunits", "active network state effects"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "NMDA receptor as major nonlinear drive in thin dendrites",
+        "dendritic branches as dynamic computational subunits",
+        "active network state effects"
+      ]
     },
     {
       "pmid": "16033324",
@@ -329,8 +562,14 @@
       "year": 2005,
       "first_used": "2026-05-27",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["dendritic computation conceptual framework", "linear vs nonlinear integration", "dendrites essential for network computation"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "dendritic computation conceptual framework",
+        "linear vs nonlinear integration",
+        "dendrites essential for network computation"
+      ]
     },
     {
       "pmid": "20800473",
@@ -341,8 +580,15 @@
       "year": 2010,
       "first_used": "2026-05-27",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["single dendritic branch as functional unit", "local protein synthesis", "local plasticity", "local transmitter release"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "single dendritic branch as functional unit",
+        "local protein synthesis",
+        "local plasticity",
+        "local transmitter release"
+      ]
     },
     {
       "pmid": "32393820",
@@ -353,8 +599,14 @@
       "year": 2020,
       "first_used": "2026-05-27",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md"],
-      "aspects_covered": ["dendritic computation modeling history", "theory-experiment feedback loop", "AI/ML implications"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md"
+      ],
+      "aspects_covered": [
+        "dendritic computation modeling history",
+        "theory-experiment feedback loop",
+        "AI/ML implications"
+      ]
     },
     {
       "pmid": "28883072",
@@ -365,8 +617,18 @@
       "year": 2017,
       "first_used": "2026-05-28",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-28-place-cells-btsp.md", "2026-06-01-voltage-gated-calcium-channels.md"],
-      "aspects_covered": ["BTSP", "asymmetric time window ~3-4s", "single-trial place field formation", "NMDA receptor 84% dependence", "L-type Ca channel 73% dependence", "ramp membrane potential 3.8s backward extension"]
+      "used_in_articles": [
+        "2026-05-28-place-cells-btsp.md",
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
+      "aspects_covered": [
+        "BTSP",
+        "asymmetric time window ~3-4s",
+        "single-trial place field formation",
+        "NMDA receptor 84% dependence",
+        "L-type Ca channel 73% dependence",
+        "ramp membrane potential 3.8s backward extension"
+      ]
     },
     {
       "pmid": "26167906",
@@ -377,8 +639,17 @@
       "year": 2015,
       "first_used": "2026-05-27",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-27-dendritic-computation.md", "2026-05-28-place-cells-btsp.md"],
-      "aspects_covered": ["plateau potential triggers place field", "EC3+CA3 conjunctive input", "single trial place field formation", "93% induction success", "EPSP amplitude potentiation not frequency"]
+      "used_in_articles": [
+        "2026-05-27-dendritic-computation.md",
+        "2026-05-28-place-cells-btsp.md"
+      ],
+      "aspects_covered": [
+        "plateau potential triggers place field",
+        "EC3+CA3 conjunctive input",
+        "single trial place field formation",
+        "93% induction success",
+        "EPSP amplitude potentiation not frequency"
+      ]
     },
     {
       "pmid": "34882093",
@@ -389,8 +660,15 @@
       "year": 2021,
       "first_used": "2026-05-28",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-28-place-cells-btsp.md"],
-      "aspects_covered": ["bidirectional BTSP", "place field shrinkage", "place field strengthening", "dendritic calcium spikes"]
+      "used_in_articles": [
+        "2026-05-28-place-cells-btsp.md"
+      ],
+      "aspects_covered": [
+        "bidirectional BTSP",
+        "place field shrinkage",
+        "place field strengthening",
+        "dendritic calcium spikes"
+      ]
     },
     {
       "pmid": "15965463",
@@ -401,8 +679,16 @@
       "year": 2005,
       "first_used": "2026-05-28",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-28-place-cells-btsp.md"],
-      "aspects_covered": ["grid cell discovery", "hexagonal firing fields", "MEC", "path integration", "dorsal-ventral spacing gradient"]
+      "used_in_articles": [
+        "2026-05-28-place-cells-btsp.md"
+      ],
+      "aspects_covered": [
+        "grid cell discovery",
+        "hexagonal firing fields",
+        "MEC",
+        "path integration",
+        "dorsal-ventral spacing gradient"
+      ]
     },
     {
       "pmid": "32042144",
@@ -413,8 +699,16 @@
       "year": 2020,
       "first_used": "2026-05-28",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-28-place-cells-btsp.md"],
-      "aspects_covered": ["DG pattern separation", "granule cell sparsity <5%", "mossy fiber synapses", "parallel circuit model", "MEC inhibition reduces CA1 place field stability"]
+      "used_in_articles": [
+        "2026-05-28-place-cells-btsp.md"
+      ],
+      "aspects_covered": [
+        "DG pattern separation",
+        "granule cell sparsity <5%",
+        "mossy fiber synapses",
+        "parallel circuit model",
+        "MEC inhibition reduces CA1 place field stability"
+      ]
     },
     {
       "pmid": "18284371",
@@ -425,8 +719,15 @@
       "year": 2008,
       "first_used": "2026-05-28",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-28-place-cells-btsp.md"],
-      "aspects_covered": ["place cell review", "grid cell review", "cognitive map", "entorhinal-hippocampal connection"]
+      "used_in_articles": [
+        "2026-05-28-place-cells-btsp.md"
+      ],
+      "aspects_covered": [
+        "place cell review",
+        "grid cell review",
+        "cognitive map",
+        "entorhinal-hippocampal connection"
+      ]
     },
     {
       "pmid": "23354386",
@@ -437,8 +738,18 @@
       "year": 2013,
       "first_used": "2026-05-29",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
-      "aspects_covered": ["theta oscillations", "phase precession", "theta sequences", "theta-gamma nesting", "memory-navigation link", "entorhinal cortex", "grid cells"]
+      "used_in_articles": [
+        "2026-05-29-theta-oscillations-phase-coding.md"
+      ],
+      "aspects_covered": [
+        "theta oscillations",
+        "phase precession",
+        "theta sequences",
+        "theta-gamma nesting",
+        "memory-navigation link",
+        "entorhinal cortex",
+        "grid cells"
+      ]
     },
     {
       "pmid": "26135716",
@@ -449,8 +760,17 @@
       "year": 2015,
       "first_used": "2026-05-29",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
-      "aspects_covered": ["sharp wave ripples", "CA3 recurrent circuit", "sequence replay", "memory consolidation", "two-stage memory model", "SWR generation mechanism"]
+      "used_in_articles": [
+        "2026-05-29-theta-oscillations-phase-coding.md"
+      ],
+      "aspects_covered": [
+        "sharp wave ripples",
+        "CA3 recurrent circuit",
+        "sequence replay",
+        "memory consolidation",
+        "two-stage memory model",
+        "SWR generation mechanism"
+      ]
     },
     {
       "pmid": "37720546",
@@ -461,8 +781,17 @@
       "year": 2023,
       "first_used": "2026-05-29",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
-      "aspects_covered": ["theta oscillations", "medial septum", "theta-gamma coupling", "BTSP", "Alzheimer's disease", "necessity vs sufficiency of theta"]
+      "used_in_articles": [
+        "2026-05-29-theta-oscillations-phase-coding.md"
+      ],
+      "aspects_covered": [
+        "theta oscillations",
+        "medial septum",
+        "theta-gamma coupling",
+        "BTSP",
+        "Alzheimer's disease",
+        "necessity vs sufficiency of theta"
+      ]
     },
     {
       "pmid": "8353611",
@@ -473,8 +802,15 @@
       "year": 1993,
       "first_used": "2026-05-29",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
-      "aspects_covered": ["phase precession", "theta oscillations", "place cells", "dual coding"]
+      "used_in_articles": [
+        "2026-05-29-theta-oscillations-phase-coding.md"
+      ],
+      "aspects_covered": [
+        "phase precession",
+        "theta oscillations",
+        "place cells",
+        "dual coding"
+      ]
     },
     {
       "pmid": "16145693",
@@ -485,8 +821,15 @@
       "year": 2005,
       "first_used": "2026-05-29",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
-      "aspects_covered": ["dual coding theory", "phase precession", "oscillatory interference model", "grid cells"]
+      "used_in_articles": [
+        "2026-05-29-theta-oscillations-phase-coding.md"
+      ],
+      "aspects_covered": [
+        "dual coding theory",
+        "phase precession",
+        "oscillatory interference model",
+        "grid cells"
+      ]
     },
     {
       "pmid": "17598147",
@@ -497,8 +840,15 @@
       "year": 2007,
       "first_used": "2026-05-29",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
-      "aspects_covered": ["oscillatory interference", "grid cells", "phase precession mechanism", "path integration"]
+      "used_in_articles": [
+        "2026-05-29-theta-oscillations-phase-coding.md"
+      ],
+      "aspects_covered": [
+        "oscillatory interference",
+        "grid cells",
+        "phase precession mechanism",
+        "path integration"
+      ]
     },
     {
       "pmid": "18559405",
@@ -509,8 +859,15 @@
       "year": 2008,
       "first_used": "2026-05-29",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
-      "aspects_covered": ["theta-gamma nesting", "neural coding", "working memory", "cross-frequency coupling"]
+      "used_in_articles": [
+        "2026-05-29-theta-oscillations-phase-coding.md"
+      ],
+      "aspects_covered": [
+        "theta-gamma nesting",
+        "neural coding",
+        "working memory",
+        "cross-frequency coupling"
+      ]
     },
     {
       "pmid": "34936810",
@@ -521,8 +878,15 @@
       "year": 2022,
       "first_used": "2026-05-29",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
-      "aspects_covered": ["theta sequences", "sharp-wave-ripples", "sequence replay", "forward/reverse replay"]
+      "used_in_articles": [
+        "2026-05-29-theta-oscillations-phase-coding.md"
+      ],
+      "aspects_covered": [
+        "theta sequences",
+        "sharp-wave-ripples",
+        "sequence replay",
+        "forward/reverse replay"
+      ]
     },
     {
       "pmid": "23175823",
@@ -533,8 +897,14 @@
       "year": 2012,
       "first_used": "2026-05-29",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-29-theta-oscillations-phase-coding.md"],
-      "aspects_covered": ["phase precession mechanism", "CA3 vs EC dual input", "computational model"]
+      "used_in_articles": [
+        "2026-05-29-theta-oscillations-phase-coding.md"
+      ],
+      "aspects_covered": [
+        "phase precession mechanism",
+        "CA3 vs EC dual input",
+        "computational model"
+      ]
     },
     {
       "pmid": "31896692",
@@ -545,8 +915,19 @@
       "year": 2020,
       "first_used": "2026-05-31",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
-      "aspects_covered": ["engram cells definition", "three criteria", "competitive allocation", "CREB excitability", "engram complex", "silent engrams", "human evidence review", "reconsolidation"]
+      "used_in_articles": [
+        "2026-05-31-engram-cells-optogenetic-proof.md"
+      ],
+      "aspects_covered": [
+        "engram cells definition",
+        "three criteria",
+        "competitive allocation",
+        "CREB excitability",
+        "engram complex",
+        "silent engrams",
+        "human evidence review",
+        "reconsolidation"
+      ]
     },
     {
       "pmid": "22441246",
@@ -557,8 +938,18 @@
       "year": 2012,
       "first_used": "2026-05-31",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
-      "aspects_covered": ["c-Fos-tTA labeling system", "ChR2-EYFP", "doxycycline control", "DG engram activation", "35% light-induced freezing", "dose-response", "specificity controls"]
+      "used_in_articles": [
+        "2026-05-31-engram-cells-optogenetic-proof.md"
+      ],
+      "aspects_covered": [
+        "c-Fos-tTA labeling system",
+        "ChR2-EYFP",
+        "doxycycline control",
+        "DG engram activation",
+        "35% light-induced freezing",
+        "dose-response",
+        "specificity controls"
+      ]
     },
     {
       "pmid": "26023136",
@@ -569,8 +960,18 @@
       "year": 2015,
       "first_used": "2026-05-31",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
-      "aspects_covered": ["retrograde amnesia anisomycin", "silent engram", "storage vs retrieval dissociation", "AMPA/NMDA ratio", "dendritic spine density", "DG-CA3 preferential connectivity", "quantitative freezing data"]
+      "used_in_articles": [
+        "2026-05-31-engram-cells-optogenetic-proof.md"
+      ],
+      "aspects_covered": [
+        "retrograde amnesia anisomycin",
+        "silent engram",
+        "storage vs retrieval dissociation",
+        "AMPA/NMDA ratio",
+        "dendritic spine density",
+        "DG-CA3 preferential connectivity",
+        "quantitative freezing data"
+      ]
     },
     {
       "pmid": "26982728",
@@ -581,8 +982,18 @@
       "year": 2016,
       "first_used": "2026-05-31",
       "full_text_available": true,
-      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
-      "aspects_covered": ["APP/PS1 model", "early AD memory deficit", "silent engram in disease", "optogenetic LTM recovery", "reduced spine density", "optical LTP intervention", "AD retrieval vs storage deficit"]
+      "used_in_articles": [
+        "2026-05-31-engram-cells-optogenetic-proof.md"
+      ],
+      "aspects_covered": [
+        "APP/PS1 model",
+        "early AD memory deficit",
+        "silent engram in disease",
+        "optogenetic LTM recovery",
+        "reduced spine density",
+        "optical LTP intervention",
+        "AD retrieval vs storage deficit"
+      ]
     },
     {
       "pmid": "23888038",
@@ -593,9 +1004,16 @@
       "year": 2013,
       "first_used": "2026-05-31",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-31-engram-cells-optogenetic-proof.md"],
+      "used_in_articles": [
+        "2026-05-31-engram-cells-optogenetic-proof.md"
+      ],
       "note": "仅使用摘要；全文无开放获取版本",
-      "aspects_covered": ["false memory creation", "context A engram + context B shock", "memory content encoding", "DG engram as content carrier"]
+      "aspects_covered": [
+        "false memory creation",
+        "context A engram + context B shock",
+        "memory content encoding",
+        "DG engram as content carrier"
+      ]
     },
     {
       "pmid": "21746798",
@@ -606,8 +1024,20 @@
       "year": 2011,
       "first_used": "2026-06-01",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
-      "aspects_covered": ["α1 subunit 4-domain structure", "S4 voltage sensor", "S5-S6 pore", "synprint site (domain II-III loop)", "CaV1/CaV2/CaV3 classification", "effector checkpoint model", "CaV1 C-terminal nuclear fragment", "nuclear calcium signaling overview", "G-protein βγ inhibition mechanism"]
+      "used_in_articles": [
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
+      "aspects_covered": [
+        "α1 subunit 4-domain structure",
+        "S4 voltage sensor",
+        "S5-S6 pore",
+        "synprint site (domain II-III loop)",
+        "CaV1/CaV2/CaV3 classification",
+        "effector checkpoint model",
+        "CaV1 C-terminal nuclear fragment",
+        "nuclear calcium signaling overview",
+        "G-protein βγ inhibition mechanism"
+      ]
     },
     {
       "pmid": "31064106",
@@ -618,8 +1048,19 @@
       "year": 2019,
       "first_used": "2026-06-01",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
-      "aspects_covered": ["CaV2.1 (P/Q-type) dominance in cortex/hippocampus/cerebellum", "synprint site structure (CaV2.2 718-963aa)", "syntaxin-1A and SNAP-25 binding (not synaptobrevin)", "Synaptotagmin-1 C2B binding at ~20 μM Ca2+", "G-protein Gβγ triple binding sites", "PPD (<50ms CaM-CBD)", "PPF (50-100ms CaM-IQ)", "short-term plasticity molecular basis"]
+      "used_in_articles": [
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
+      "aspects_covered": [
+        "CaV2.1 (P/Q-type) dominance in cortex/hippocampus/cerebellum",
+        "synprint site structure (CaV2.2 718-963aa)",
+        "syntaxin-1A and SNAP-25 binding (not synaptobrevin)",
+        "Synaptotagmin-1 C2B binding at ~20 μM Ca2+",
+        "G-protein Gβγ triple binding sites",
+        "PPD (<50ms CaM-CBD)",
+        "PPF (50-100ms CaM-IQ)",
+        "short-term plasticity molecular basis"
+      ]
     },
     {
       "pmid": "22183436",
@@ -630,8 +1071,17 @@
       "year": 2011,
       "first_used": "2026-06-01",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
-      "aspects_covered": ["nanodomain coupling definition (<100 nm)", "BAPTA blocks nanodomain release; 80 mM EGTA does not", "hippocampal basket cell 10-20 nm coupling", "mature calyx of Held ~23 nm, ~9 channels/AZ", "speed and efficiency advantages of nanodomain coupling", "BAPTA/EGTA differential sensitivity as coupling distance probe"]
+      "used_in_articles": [
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
+      "aspects_covered": [
+        "nanodomain coupling definition (<100 nm)",
+        "BAPTA blocks nanodomain release; 80 mM EGTA does not",
+        "hippocampal basket cell 10-20 nm coupling",
+        "mature calyx of Held ~23 nm, ~9 channels/AZ",
+        "speed and efficiency advantages of nanodomain coupling",
+        "BAPTA/EGTA differential sensitivity as coupling distance probe"
+      ]
     },
     {
       "pmid": "25674049",
@@ -642,8 +1092,17 @@
       "year": 2015,
       "first_used": "2026-06-01",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
-      "aspects_covered": ["calyx of Held developmental coupling switch", "P8-12 microdomain: 61 nm, N+P/Q type, peak Ca2+ ~35 μM", "P16-18 nanodomain: 23 nm, pure P/Q type, peak Ca2+ ~56 μM", "septin-5 as developmental switch regulator", "septin-5 KO→premature nanodomainization", "410 μs timing advantage of nanodomain coupling"]
+      "used_in_articles": [
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
+      "aspects_covered": [
+        "calyx of Held developmental coupling switch",
+        "P8-12 microdomain: 61 nm, N+P/Q type, peak Ca2+ ~35 μM",
+        "P16-18 nanodomain: 23 nm, pure P/Q type, peak Ca2+ ~56 μM",
+        "septin-5 as developmental switch regulator",
+        "septin-5 KO→premature nanodomainization",
+        "410 μs timing advantage of nanodomain coupling"
+      ]
     },
     {
       "pmid": "32799605",
@@ -654,8 +1113,16 @@
       "year": 2020,
       "first_used": "2026-06-01",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
-      "aspects_covered": ["CaV1.2 conditional KO impairs TBS-LTP (128% vs 166%)", "CaV1.2→mTORC1→local protein synthesis mechanism", "distinct from transcription-dependent late LTP", "p-mTOR reduction in KO (p<0.01)", "normal NMDAR expression in KO"]
+      "used_in_articles": [
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
+      "aspects_covered": [
+        "CaV1.2 conditional KO impairs TBS-LTP (128% vs 166%)",
+        "CaV1.2→mTORC1→local protein synthesis mechanism",
+        "distinct from transcription-dependent late LTP",
+        "p-mTOR reduction in KO (p<0.01)",
+        "normal NMDAR expression in KO"
+      ]
     },
     {
       "pmid": "29723500",
@@ -666,9 +1133,18 @@
       "year": 2018,
       "first_used": "2026-06-01",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "used_in_articles": [
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
       "note": "摘要可及，未读全文",
-      "aspects_covered": ["10 VGCC genes, three subfamilies overview", "CaV2 presynaptic short-term plasticity", "CaV1 dendritic LTP induction", "CaV2.1 mutation→FHM1 (gain) and EA2 (loss)", "CaV1.2 mutation→Timothy syndrome/autism", "neuropsychiatric disease connections"]
+      "aspects_covered": [
+        "10 VGCC genes, three subfamilies overview",
+        "CaV2 presynaptic short-term plasticity",
+        "CaV1 dendritic LTP induction",
+        "CaV2.1 mutation→FHM1 (gain) and EA2 (loss)",
+        "CaV1.2 mutation→Timothy syndrome/autism",
+        "neuropsychiatric disease connections"
+      ]
     },
     {
       "pmid": "21640734",
@@ -679,9 +1155,14 @@
       "year": 2011,
       "first_used": "2026-06-01",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "used_in_articles": [
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
       "note": "摘要可及，未读全文",
-      "aspects_covered": ["late LTP equally depends on NMDA receptors and L-type VDCCs", "early vs late LTP pharmacological dissection"]
+      "aspects_covered": [
+        "late LTP equally depends on NMDA receptors and L-type VDCCs",
+        "early vs late LTP pharmacological dissection"
+      ]
     },
     {
       "pmid": "22351065",
@@ -692,9 +1173,15 @@
       "year": 2012,
       "first_used": "2026-06-01",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "used_in_articles": [
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
       "note": "摘要可及，未读全文",
-      "aspects_covered": ["nuclear calcium signaling chain: L-type→Ca2+→CaM→nucleus→CaMKIV→CREB-Ser133 phosphorylation", "CA1 pyramidal cell nuclear calcium blocked by L-type channel antagonists", "nuclear calcium vs cytoplasmic calcium distinction"]
+      "aspects_covered": [
+        "nuclear calcium signaling chain: L-type→Ca2+→CaM→nucleus→CaMKIV→CREB-Ser133 phosphorylation",
+        "CA1 pyramidal cell nuclear calcium blocked by L-type channel antagonists",
+        "nuclear calcium vs cytoplasmic calcium distinction"
+      ]
     },
     {
       "pmid": "35063999",
@@ -705,9 +1192,16 @@
       "year": 2022,
       "first_used": "2026-06-01",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-01-voltage-gated-calcium-channels.md"],
+      "used_in_articles": [
+        "2026-06-01-voltage-gated-calcium-channels.md"
+      ],
       "note": "摘要可及，未读全文",
-      "aspects_covered": ["single channel opening can trigger transmitter release", "~23 Ca2+ channels per presynaptic terminal", "1-7 channels open per action potential on average", "channel number correlates with docked vesicle count"]
+      "aspects_covered": [
+        "single channel opening can trigger transmitter release",
+        "~23 Ca2+ channels per presynaptic terminal",
+        "1-7 channels open per action potential on average",
+        "channel number correlates with docked vesicle count"
+      ]
     },
     {
       "pmid": "26238360",
@@ -718,8 +1212,18 @@
       "year": 2015,
       "first_used": "2026-06-02",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
-      "aspects_covered": ["SCT vs MTT comparison", "SWR replay mechanism", "temporal gradient retrograde amnesia", "HM case study", "sleep spindle-SWR temporal coupling", "fMRI consolidation evidence", "cortical memory trace formation"]
+      "used_in_articles": [
+        "2026-06-02-memory-consolidation-systems.md"
+      ],
+      "aspects_covered": [
+        "SCT vs MTT comparison",
+        "SWR replay mechanism",
+        "temporal gradient retrograde amnesia",
+        "HM case study",
+        "sleep spindle-SWR temporal coupling",
+        "fMRI consolidation evidence",
+        "cortical memory trace formation"
+      ]
     },
     {
       "pmid": "23589831",
@@ -730,8 +1234,17 @@
       "year": 2013,
       "first_used": "2026-06-02",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
-      "aspects_covered": ["active system consolidation concept", "SO-spindle-SWR nesting", "SWS vs REM for declarative memory", "acetylcholine bidirectional switch", "selective consolidation", "olfactory cueing during SWS experiment"]
+      "used_in_articles": [
+        "2026-06-02-memory-consolidation-systems.md"
+      ],
+      "aspects_covered": [
+        "active system consolidation concept",
+        "SO-spindle-SWR nesting",
+        "SWS vs REM for declarative memory",
+        "acetylcholine bidirectional switch",
+        "selective consolidation",
+        "olfactory cueing during SWS experiment"
+      ]
     },
     {
       "pmid": "8036517",
@@ -743,8 +1256,14 @@
       "first_used": "2026-06-02",
       "full_text_available": false,
       "note": "历史性论文，无开放全文；仅读摘要",
-      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
-      "aspects_covered": ["first direct evidence of sleep replay", "CA1 place cell pairs cross-correlogram", "sleep reactivation temporal decay"]
+      "used_in_articles": [
+        "2026-06-02-memory-consolidation-systems.md"
+      ],
+      "aspects_covered": [
+        "first direct evidence of sleep replay",
+        "CA1 place cell pairs cross-correlogram",
+        "sleep reactivation temporal decay"
+      ]
     },
     {
       "pmid": "7624455",
@@ -756,8 +1275,16 @@
       "first_used": "2026-06-02",
       "full_text_available": false,
       "note": "历史性论文，无开放全文；仅读摘要",
-      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
-      "aspects_covered": ["CLS model", "hippocampus fast learner", "neocortex slow learner", "catastrophic forgetting", "interleaved replay solution"]
+      "used_in_articles": [
+        "2026-06-02-memory-consolidation-systems.md"
+      ],
+      "aspects_covered": [
+        "CLS model",
+        "hippocampus fast learner",
+        "neocortex slow learner",
+        "catastrophic forgetting",
+        "interleaved replay solution"
+      ]
     },
     {
       "pmid": "15685217",
@@ -769,8 +1296,14 @@
       "first_used": "2026-06-02",
       "full_text_available": false,
       "note": "未读全文，仅读摘要",
-      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
-      "aspects_covered": ["anterior cingulate cortex remote memory", "cortical consolidation anatomy", "temporal gradient animal lesion studies"]
+      "used_in_articles": [
+        "2026-06-02-memory-consolidation-systems.md"
+      ],
+      "aspects_covered": [
+        "anterior cingulate cortex remote memory",
+        "cortical consolidation anatomy",
+        "temporal gradient animal lesion studies"
+      ]
     },
     {
       "pmid": "19816984",
@@ -782,8 +1315,15 @@
       "first_used": "2026-06-02",
       "full_text_available": false,
       "note": "未读全文，仅读摘要",
-      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
-      "aspects_covered": ["sleep SWR disruption", "spatial memory impairment", "causal evidence for SWR in consolidation", "closed-loop stimulation"]
+      "used_in_articles": [
+        "2026-06-02-memory-consolidation-systems.md"
+      ],
+      "aspects_covered": [
+        "sleep SWR disruption",
+        "spatial memory impairment",
+        "causal evidence for SWR in consolidation",
+        "closed-loop stimulation"
+      ]
     },
     {
       "pmid": "22555434",
@@ -795,8 +1335,15 @@
       "first_used": "2026-06-02",
       "full_text_available": false,
       "note": "未读全文，仅读摘要",
-      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
-      "aspects_covered": ["awake SWR disruption", "spatial working memory impairment", "place field integrity preserved", "memory integration vs place field maintenance"]
+      "used_in_articles": [
+        "2026-06-02-memory-consolidation-systems.md"
+      ],
+      "aspects_covered": [
+        "awake SWR disruption",
+        "spatial working memory impairment",
+        "place field integrity preserved",
+        "memory integration vs place field maintenance"
+      ]
     },
     {
       "pmid": "32248785",
@@ -808,8 +1355,14 @@
       "first_used": "2026-06-02",
       "full_text_available": false,
       "note": "未读全文，仅读摘要",
-      "used_in_articles": ["2026-06-02-memory-consolidation-systems.md"],
-      "aspects_covered": ["SHY hypothesis evidence", "SBEM axon-spine interface smaller after sleep", "synaptic renormalization ultrastructure"]
+      "used_in_articles": [
+        "2026-06-02-memory-consolidation-systems.md"
+      ],
+      "aspects_covered": [
+        "SHY hypothesis evidence",
+        "SBEM axon-spine interface smaller after sleep",
+        "synaptic renormalization ultrastructure"
+      ]
     },
     {
       "pmid": "27477017",
@@ -820,8 +1373,18 @@
       "year": 2016,
       "first_used": "2026-06-03",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
-      "aspects_covered": ["three interneuron types overview", "PV+ 0.7ms synaptic latency 0.19ms jitter", "SST+ facilitating inputs Martinotti cells", "VIP+ disinhibitory specialist CGE origin", "NGFCs volume transmission", "circuit connectivity matrix", "proportions PV~40% SST~30% VIP~12-15%"]
+      "used_in_articles": [
+        "2026-06-03-inhibitory-interneuron-diversity.md"
+      ],
+      "aspects_covered": [
+        "three interneuron types overview",
+        "PV+ 0.7ms synaptic latency 0.19ms jitter",
+        "SST+ facilitating inputs Martinotti cells",
+        "VIP+ disinhibitory specialist CGE origin",
+        "NGFCs volume transmission",
+        "circuit connectivity matrix",
+        "proportions PV~40% SST~30% VIP~12-15%"
+      ]
     },
     {
       "pmid": "24429630",
@@ -832,8 +1395,15 @@
       "year": 2014,
       "first_used": "2026-06-03",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
-      "aspects_covered": ["MGE/CGE developmental origin", "two-phase specification model", "disinhibitory circuit cross-cortical conservation", "matching hypothesis vs flow control hypothesis"]
+      "used_in_articles": [
+        "2026-06-03-inhibitory-interneuron-diversity.md"
+      ],
+      "aspects_covered": [
+        "MGE/CGE developmental origin",
+        "two-phase specification model",
+        "disinhibitory circuit cross-cortical conservation",
+        "matching hypothesis vs flow control hypothesis"
+      ]
     },
     {
       "pmid": "18599766",
@@ -844,8 +1414,16 @@
       "year": 2008,
       "first_used": "2026-06-03",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
-      "aspects_covered": ["CA1 ≥21 interneuron types", "O-LM cells active during theta", "basket cells high firing during SWR", "axo-axonic cells fire before then silence during SWR", "spatiotemporal division of labor principle"]
+      "used_in_articles": [
+        "2026-06-03-inhibitory-interneuron-diversity.md"
+      ],
+      "aspects_covered": [
+        "CA1 ≥21 interneuron types",
+        "O-LM cells active during theta",
+        "basket cells high firing during SWR",
+        "axo-axonic cells fire before then silence during SWR",
+        "spatiotemporal division of labor principle"
+      ]
     },
     {
       "pmid": "24097352",
@@ -857,8 +1435,15 @@
       "first_used": "2026-06-03",
       "full_text_available": false,
       "note": "摘要可及，Nature 付费墙",
-      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
-      "aspects_covered": ["VIP cells activated by reward/punishment", "VIP inhibits SST+ (primarily) and PV+ (secondarily)", "disinhibition increases pyramidal cell gain", "two-photon calcium imaging + auditory discrimination + cell-type specific optogenetics"]
+      "used_in_articles": [
+        "2026-06-03-inhibitory-interneuron-diversity.md"
+      ],
+      "aspects_covered": [
+        "VIP cells activated by reward/punishment",
+        "VIP inhibits SST+ (primarily) and PV+ (secondarily)",
+        "disinhibition increases pyramidal cell gain",
+        "two-photon calcium imaging + auditory discrimination + cell-type specific optogenetics"
+      ]
     },
     {
       "pmid": "22158104",
@@ -870,8 +1455,14 @@
       "first_used": "2026-06-03",
       "full_text_available": false,
       "note": "摘要可及，Nature 付费墙",
-      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
-      "aspects_covered": ["cholinergic→L1 interneurons→inhibit L2/3 PV+→disinhibit pyramidal cells chain", "optogenetic causal evidence for fear learning", "disinhibitory microcircuit for associative learning"]
+      "used_in_articles": [
+        "2026-06-03-inhibitory-interneuron-diversity.md"
+      ],
+      "aspects_covered": [
+        "cholinergic→L1 interneurons→inhibit L2/3 PV+→disinhibit pyramidal cells chain",
+        "optogenetic causal evidence for fear learning",
+        "disinhibitory microcircuit for associative learning"
+      ]
     },
     {
       "pmid": "21154909",
@@ -883,8 +1474,13 @@
       "first_used": "2026-06-03",
       "full_text_available": false,
       "note": "仅读摘要",
-      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
-      "aspects_covered": ["three interneuron groups cover ~100% of cortical GABAergic neurons", "classification framework"]
+      "used_in_articles": [
+        "2026-06-03-inhibitory-interneuron-diversity.md"
+      ],
+      "aspects_covered": [
+        "three interneuron groups cover ~100% of cortical GABAergic neurons",
+        "classification framework"
+      ]
     },
     {
       "pmid": "22219337",
@@ -895,8 +1491,14 @@
       "year": 2012,
       "first_used": "2026-06-03",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
-      "aspects_covered": ["PV+ cells GAD67 mRNA downregulation in schizophrenia (~25-30%)", "theta and gamma oscillation impairment", "working memory deficit cellular mechanism"]
+      "used_in_articles": [
+        "2026-06-03-inhibitory-interneuron-diversity.md"
+      ],
+      "aspects_covered": [
+        "PV+ cells GAD67 mRNA downregulation in schizophrenia (~25-30%)",
+        "theta and gamma oscillation impairment",
+        "working memory deficit cellular mechanism"
+      ]
     },
     {
       "pmid": "25863358",
@@ -907,8 +1509,14 @@
       "year": 2015,
       "first_used": "2026-06-03",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-03-inhibitory-interneuron-diversity.md"],
-      "aspects_covered": ["schizophrenia working memory task prefrontal gamma power reduction", "PV+ cell → gamma → cognition causal chain", "EEG/MEG clinical research review"]
+      "used_in_articles": [
+        "2026-06-03-inhibitory-interneuron-diversity.md"
+      ],
+      "aspects_covered": [
+        "schizophrenia working memory task prefrontal gamma power reduction",
+        "PV+ cell → gamma → cognition causal chain",
+        "EEG/MEG clinical research review"
+      ]
     },
     {
       "pmid": "24183021",
@@ -920,8 +1528,21 @@
       "year": 2013,
       "first_used": "2026-06-04",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
-      "aspects_covered": ["AMPAR regulation in LTP and LTD", "GluA1 Ser831/Ser845 phosphorylation states", "GluA2 Ser880 PKC phosphorylation", "calcineurin/PP2B/PP1 cascade for LTD", "clathrin-mediated endocytosis of AMPARs", "PICK1/GRIP1/GRIP2 interactions", "cerebellar LTD", "mGluR-LTD", "GluA2/GluA3 double knockout paradox", "metabotropic NMDAR hypothesis"]
+      "used_in_articles": [
+        "2026-06-04-ltd-long-term-depression.md"
+      ],
+      "aspects_covered": [
+        "AMPAR regulation in LTP and LTD",
+        "GluA1 Ser831/Ser845 phosphorylation states",
+        "GluA2 Ser880 PKC phosphorylation",
+        "calcineurin/PP2B/PP1 cascade for LTD",
+        "clathrin-mediated endocytosis of AMPARs",
+        "PICK1/GRIP1/GRIP2 interactions",
+        "cerebellar LTD",
+        "mGluR-LTD",
+        "GluA2/GluA3 double knockout paradox",
+        "metabotropic NMDAR hypothesis"
+      ]
     },
     {
       "pmid": "19169250",
@@ -933,8 +1554,17 @@
       "year": 2009,
       "first_used": "2026-06-04",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
-      "aspects_covered": ["PSD-95/AKAP150/calcineurin triad at synapse", "SH3-GK domain essential for AKAP150 binding", "PSD-95 knockdown blocks NMDAR-triggered AMPAR endocytosis", "AKAP-ΔPP2B mutant blocks NMDA-LTD", "pathway dissociation NMDA-LTD vs mGluR-LTD", "spatial positioning of PP2B for LTD"]
+      "used_in_articles": [
+        "2026-06-04-ltd-long-term-depression.md"
+      ],
+      "aspects_covered": [
+        "PSD-95/AKAP150/calcineurin triad at synapse",
+        "SH3-GK domain essential for AKAP150 binding",
+        "PSD-95 knockdown blocks NMDAR-triggered AMPAR endocytosis",
+        "AKAP-ΔPP2B mutant blocks NMDA-LTD",
+        "pathway dissociation NMDA-LTD vs mGluR-LTD",
+        "spatial positioning of PP2B for LTD"
+      ]
     },
     {
       "pmid": "25429259",
@@ -946,8 +1576,17 @@
       "year": 2014,
       "first_used": "2026-06-04",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
-      "aspects_covered": ["actin cytoskeleton dynamics in AMPAR endocytosis", "Arc/Arg3.1 binding to dynamin and endophilin", "clathrin-mediated AMPAR internalization", "Arp2/3-mediated actin branching in endocytic pit", "cofilin regulation (LIMK/SSH) in LTD", "actin as bidirectional plasticity regulator"]
+      "used_in_articles": [
+        "2026-06-04-ltd-long-term-depression.md"
+      ],
+      "aspects_covered": [
+        "actin cytoskeleton dynamics in AMPAR endocytosis",
+        "Arc/Arg3.1 binding to dynamin and endophilin",
+        "clathrin-mediated AMPAR internalization",
+        "Arp2/3-mediated actin branching in endocytic pit",
+        "cofilin regulation (LIMK/SSH) in LTD",
+        "actin as bidirectional plasticity regulator"
+      ]
     },
     {
       "pmid": "19690847",
@@ -959,8 +1598,17 @@
       "year": 2010,
       "first_used": "2026-06-04",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
-      "aspects_covered": ["Arc/Arg3.1 as activity sensor and plasticity modulator", "Arc mRNA dendritic targeting and local translation", "Arc in LTD via AMPAR endocytosis (dynamin/endophilin)", "Arc in LTP consolidation via cofilin/PAK pathway", "Arc knockout impairs LTP consolidation and LTD", "Arc as homeostatic synaptic scaler"]
+      "used_in_articles": [
+        "2026-06-04-ltd-long-term-depression.md"
+      ],
+      "aspects_covered": [
+        "Arc/Arg3.1 as activity sensor and plasticity modulator",
+        "Arc mRNA dendritic targeting and local translation",
+        "Arc in LTD via AMPAR endocytosis (dynamin/endophilin)",
+        "Arc in LTP consolidation via cofilin/PAK pathway",
+        "Arc knockout impairs LTP consolidation and LTD",
+        "Arc as homeostatic synaptic scaler"
+      ]
     },
     {
       "pmid": "15450156",
@@ -973,8 +1621,15 @@
       "first_used": "2026-06-04",
       "full_text_available": false,
       "note": "摘要可及，全文付费墙",
-      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
-      "aspects_covered": ["LTP/LTD diversity across brain regions", "Ca2+ threshold hypothesis (high→LTP kinases, low→LTD phosphatases)", "low-frequency stimulation for NMDA-LTD", "cerebellar LTD as NMDAR-independent prototype"]
+      "used_in_articles": [
+        "2026-06-04-ltd-long-term-depression.md"
+      ],
+      "aspects_covered": [
+        "LTP/LTD diversity across brain regions",
+        "Ca2+ threshold hypothesis (high→LTP kinases, low→LTD phosphatases)",
+        "low-frequency stimulation for NMDA-LTD",
+        "cerebellar LTD as NMDAR-independent prototype"
+      ]
     },
     {
       "pmid": "15219735",
@@ -987,8 +1642,15 @@
       "first_used": "2026-06-04",
       "full_text_available": false,
       "note": "摘要可及，全文付费墙",
-      "used_in_articles": ["2026-06-04-ltd-long-term-depression.md"],
-      "aspects_covered": ["FMRP as translational repressor of Arc and LTD-related mRNAs", "mGluR-LTD exaggeration in Fmr1 knockout mice", "mGluR5 antagonist rescue of FXS phenotypes", "clinical prediction of mGluR5 as FXS therapeutic target"]
+      "used_in_articles": [
+        "2026-06-04-ltd-long-term-depression.md"
+      ],
+      "aspects_covered": [
+        "FMRP as translational repressor of Arc and LTD-related mRNAs",
+        "mGluR-LTD exaggeration in Fmr1 knockout mice",
+        "mGluR5 antagonist rescue of FXS phenotypes",
+        "clinical prediction of mGluR5 as FXS therapeutic target"
+      ]
     },
     {
       "pmid": "9054347",
@@ -1001,8 +1663,16 @@
       "first_used": "2026-06-07",
       "full_text_available": false,
       "note": "历史性论文，AAAS 付费墙，仅读摘要",
-      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
-      "aspects_covered": ["DA neuron RPE encoding", "three response patterns (positive/zero/negative RPE)", "Schultz 1997 classic experiment", "VTA/SNc dopamine neurons", "TD learning neural substrate"]
+      "used_in_articles": [
+        "2026-06-07-dopamine-reward-prediction-error.md"
+      ],
+      "aspects_covered": [
+        "DA neuron RPE encoding",
+        "three response patterns (positive/zero/negative RPE)",
+        "Schultz 1997 classic experiment",
+        "VTA/SNc dopamine neurons",
+        "TD learning neural substrate"
+      ]
     },
     {
       "pmid": "8774460",
@@ -1014,8 +1684,17 @@
       "year": 1996,
       "first_used": "2026-06-07",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
-      "aspects_covered": ["TD learning framework for DA", "δ(t) = r(t) + γV(t+1) − V(t)", "predictive Hebbian learning", "VTA DA as TD error signal", "value function learning", "three-factor rule theoretical foundation"]
+      "used_in_articles": [
+        "2026-06-07-dopamine-reward-prediction-error.md"
+      ],
+      "aspects_covered": [
+        "TD learning framework for DA",
+        "δ(t) = r(t) + γV(t+1) − V(t)",
+        "predictive Hebbian learning",
+        "VTA DA as TD error signal",
+        "value function learning",
+        "three-factor rule theoretical foundation"
+      ]
     },
     {
       "pmid": "27069377",
@@ -1027,8 +1706,17 @@
       "year": 2016,
       "first_used": "2026-06-07",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
-      "aspects_covered": ["two-component DA response", "phasic early (100-200ms) vs late (200-500ms)", "reward uncertainty / risk coding", "economic utility encoding", "DA neuron heterogeneity", "RPE formal definition"]
+      "used_in_articles": [
+        "2026-06-07-dopamine-reward-prediction-error.md"
+      ],
+      "aspects_covered": [
+        "two-component DA response",
+        "phasic early (100-200ms) vs late (200-500ms)",
+        "reward uncertainty / risk coding",
+        "economic utility encoding",
+        "DA neuron heterogeneity",
+        "RPE formal definition"
+      ]
     },
     {
       "pmid": "26865020",
@@ -1040,8 +1728,17 @@
       "year": 2016,
       "first_used": "2026-06-07",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
-      "aspects_covered": ["basal ganglia reward circuits", "DA three projection pathways (mesolimbic/mesocortical/nigrostriatal)", "D1-SPNs direct pathway Go", "D2-SPNs indirect pathway No-Go", "reward learning in basal ganglia", "striatal DA effects on synaptic plasticity"]
+      "used_in_articles": [
+        "2026-06-07-dopamine-reward-prediction-error.md"
+      ],
+      "aspects_covered": [
+        "basal ganglia reward circuits",
+        "DA three projection pathways (mesolimbic/mesocortical/nigrostriatal)",
+        "D1-SPNs direct pathway Go",
+        "D2-SPNs indirect pathway No-Go",
+        "reward learning in basal ganglia",
+        "striatal DA effects on synaptic plasticity"
+      ]
     },
     {
       "pmid": "26109341",
@@ -1053,8 +1750,17 @@
       "year": 2015,
       "first_used": "2026-06-07",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
-      "aspects_covered": ["comprehensive review of DA reward signaling", "Rescorla-Wagner to TD model history", "DA economic utility coding", "DA response latencies and kinetics", "comparison of DA theories", "reward prediction error computational model"]
+      "used_in_articles": [
+        "2026-06-07-dopamine-reward-prediction-error.md"
+      ],
+      "aspects_covered": [
+        "comprehensive review of DA reward signaling",
+        "Rescorla-Wagner to TD model history",
+        "DA economic utility coding",
+        "DA response latencies and kinetics",
+        "comparison of DA theories",
+        "reward prediction error computational model"
+      ]
     },
     {
       "pmid": "7708662",
@@ -1066,8 +1772,17 @@
       "year": 1995,
       "first_used": "2026-06-07",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
-      "aspects_covered": ["D1/D5 receptor agonist induces L-LTP", "protein synthesis dependence (anisomycin block)", "DA-LTP in hippocampal CA1", "D1→cAMP→PKA→CREB pathway", "conversion of E-LTP to L-LTP by DA", "synaptic tagging and capture mechanism evidence"]
+      "used_in_articles": [
+        "2026-06-07-dopamine-reward-prediction-error.md"
+      ],
+      "aspects_covered": [
+        "D1/D5 receptor agonist induces L-LTP",
+        "protein synthesis dependence (anisomycin block)",
+        "DA-LTP in hippocampal CA1",
+        "D1→cAMP→PKA→CREB pathway",
+        "conversion of E-LTP to L-LTP by DA",
+        "synaptic tagging and capture mechanism evidence"
+      ]
     },
     {
       "pmid": "9020359",
@@ -1080,8 +1795,17 @@
       "first_used": "2026-06-07",
       "full_text_available": false,
       "note": "历史性论文，Nature 付费墙，仅读摘要",
-      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
-      "aspects_covered": ["synaptic tagging original discovery", "E-LTP sets tag (~1-2h)", "PRPs capture tag to form L-LTP", "heterosynaptic PRP capture", "anisomycin blocks L-LTP not E-LTP", "tag lifetime ~1-2 hours"]
+      "used_in_articles": [
+        "2026-06-07-dopamine-reward-prediction-error.md"
+      ],
+      "aspects_covered": [
+        "synaptic tagging original discovery",
+        "E-LTP sets tag (~1-2h)",
+        "PRPs capture tag to form L-LTP",
+        "heterosynaptic PRP capture",
+        "anisomycin blocks L-LTP not E-LTP",
+        "tag lifetime ~1-2 hours"
+      ]
     },
     {
       "pmid": "12371508",
@@ -1094,8 +1818,17 @@
       "first_used": "2026-06-07",
       "full_text_available": false,
       "note": "摘要可及，全文付费墙",
-      "used_in_articles": ["2026-06-07-dopamine-reward-prediction-error.md"],
-      "aspects_covered": ["three-factor learning rule electrophysiology", "DA burst + corticostriatal activity → LTP", "DA dip + activity → LTD", "D1/D2 receptor divergence in striatum", "corticostriatal three-factor learning validation", "timing requirements for DA modulation"]
+      "used_in_articles": [
+        "2026-06-07-dopamine-reward-prediction-error.md"
+      ],
+      "aspects_covered": [
+        "three-factor learning rule electrophysiology",
+        "DA burst + corticostriatal activity → LTP",
+        "DA dip + activity → LTD",
+        "D1/D2 receptor divergence in striatum",
+        "corticostriatal three-factor learning validation",
+        "timing requirements for DA modulation"
+      ]
     },
     {
       "pmid": "1789684",
@@ -1108,8 +1841,16 @@
       "first_used": "2026-06-08",
       "full_text_available": false,
       "note": "经典论文，仅摘要可及",
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["synapse density correlation r=0.96 with cognitive decline", "synapse loss as primary AD correlate", "plaque density poor predictor", "neurofibrillary tangle count moderate predictor", "CA1 layer synapse quantification"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "synapse density correlation r=0.96 with cognitive decline",
+        "synapse loss as primary AD correlate",
+        "plaque density poor predictor",
+        "neurofibrillary tangle count moderate predictor",
+        "CA1 layer synapse quantification"
+      ]
     },
     {
       "pmid": "11932745",
@@ -1122,8 +1863,15 @@
       "first_used": "2026-06-08",
       "full_text_available": false,
       "note": "范式转移论文，Nature 付费墙，仅读摘要",
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["naturally secreted Aβ oligomers (not monomers/fibrils) inhibit in vivo LTP", "paradigm shift: oligomers vs plaques", "hippocampal LTP inhibition in living rats", "cell-secreted Aβ preparations from CHO cells"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "naturally secreted Aβ oligomers (not monomers/fibrils) inhibit in vivo LTP",
+        "paradigm shift: oligomers vs plaques",
+        "hippocampal LTP inhibition in living rats",
+        "cell-secreted Aβ preparations from CHO cells"
+      ]
     },
     {
       "pmid": "17360908",
@@ -1135,8 +1883,17 @@
       "year": 2007,
       "first_used": "2026-06-08",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["100-300 pM Aβ dimers/trimers cause ~75% spine loss in 15 days", "reversible synapse loss (recovery in 5 days after removal)", "NMDA receptor dependence", "calcineurin/PP1/cofilin pathway", "dendritic spine density quantification", "reversibility window concept"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "100-300 pM Aβ dimers/trimers cause ~75% spine loss in 15 days",
+        "reversible synapse loss (recovery in 5 days after removal)",
+        "NMDA receptor dependence",
+        "calcineurin/PP1/cofilin pathway",
+        "dendritic spine density quantification",
+        "reversibility window concept"
+      ]
     },
     {
       "pmid": "21543591",
@@ -1149,8 +1906,16 @@
       "first_used": "2026-06-08",
       "full_text_available": false,
       "note": "摘要可及，全文付费墙",
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["extrasynaptic NR2B overactivation by Aβ oligomers", "p38 MAPK → CREB dephosphorylation → LTP block", "Ro 25-6981 (NR2B-selective antagonist) restores LTP", "synaptic vs extrasynaptic NR2B divergent signaling", "Aβ shifts NMDA activation locus from synaptic to extrasynaptic"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "extrasynaptic NR2B overactivation by Aβ oligomers",
+        "p38 MAPK → CREB dephosphorylation → LTP block",
+        "Ro 25-6981 (NR2B-selective antagonist) restores LTP",
+        "synaptic vs extrasynaptic NR2B divergent signaling",
+        "Aβ shifts NMDA activation locus from synaptic to extrasynaptic"
+      ]
     },
     {
       "pmid": "22762015",
@@ -1163,8 +1928,15 @@
       "first_used": "2026-06-08",
       "full_text_available": false,
       "note": "综述，仅摘要",
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["soluble Aβ oligomers vs plaques as cognitive correlate", "synaptic and network dysfunction overview", "Aβ neurotoxicity multi-pathway review", "network-level consequences of synaptic failure"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "soluble Aβ oligomers vs plaques as cognitive correlate",
+        "synaptic and network dysfunction overview",
+        "Aβ neurotoxicity multi-pathway review",
+        "network-level consequences of synaptic failure"
+      ]
     },
     {
       "pmid": "20581818",
@@ -1177,8 +1949,15 @@
       "first_used": "2026-06-08",
       "full_text_available": false,
       "note": "综述，仅摘要",
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["Aβ biphasic effect on network: acute silencing then chronic hyperexcitability", "inhibitory interneuron dysfunction", "network-level AD pathology", "synaptic to network-level progression"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "Aβ biphasic effect on network: acute silencing then chronic hyperexcitability",
+        "inhibitory interneuron dysfunction",
+        "network-level AD pathology",
+        "synaptic to network-level progression"
+      ]
     },
     {
       "pmid": "23773058",
@@ -1191,8 +1970,15 @@
       "first_used": "2026-06-08",
       "full_text_available": false,
       "note": "仅摘要；注：summary中PMCid PMC12040739有误，该PMCID属于Jin 2025；本条无PMC全文",
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["theta-gamma coupling impaired before Aβ overproduction", "transgenic AD mouse model", "oscillatory dysfunction precedes Aβ accumulation", "early biomarker potential of theta-gamma coupling disruption"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "theta-gamma coupling impaired before Aβ overproduction",
+        "transgenic AD mouse model",
+        "oscillatory dysfunction precedes Aβ accumulation",
+        "early biomarker potential of theta-gamma coupling disruption"
+      ]
     },
     {
       "pmid": "26871627",
@@ -1205,8 +1991,16 @@
       "first_used": "2026-06-08",
       "full_text_available": false,
       "note": "综述，仅摘要",
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["cellular phase of AD framework", "Aβ as initiator not sole driver", "astrocyte/microglia/vascular coordination failure", "tau trans-synaptic spread", "multicellular disease concept"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "cellular phase of AD framework",
+        "Aβ as initiator not sole driver",
+        "astrocyte/microglia/vascular coordination failure",
+        "tau trans-synaptic spread",
+        "multicellular disease concept"
+      ]
     },
     {
       "pmid": "41929946",
@@ -1218,8 +2012,18 @@
       "year": 2026,
       "first_used": "2026-06-08",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["PrPC/mGluR5/Fyn/NR2B pathway comprehensive review", "BDNF/TrkB truncation and proBDNF/p75NTR reversal", "calcineurin/PP1/AMPA endocytosis pathway", "tau mislocalization to dendritic spines", "CaMKII activity reduced ~60%", "NR2B open probability increased ~40%", "neuroinflammation in synaptic failure"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "PrPC/mGluR5/Fyn/NR2B pathway comprehensive review",
+        "BDNF/TrkB truncation and proBDNF/p75NTR reversal",
+        "calcineurin/PP1/AMPA endocytosis pathway",
+        "tau mislocalization to dendritic spines",
+        "CaMKII activity reduced ~60%",
+        "NR2B open probability increased ~40%",
+        "neuroinflammation in synaptic failure"
+      ]
     },
     {
       "pmid": "40302031",
@@ -1231,8 +2035,16 @@
       "year": 2025,
       "first_used": "2026-06-08",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["mossy fiber LTP (DG→CA3) inhibited by Aβ oligomers", "cAMP/PKA enhancement rescues mf-LTP and episodic memory", "isoproterenol+GSK356278 intervention", "synapsin phosphorylation rescue", "presynaptic mechanisms of Aβ toxicity"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "mossy fiber LTP (DG→CA3) inhibited by Aβ oligomers",
+        "cAMP/PKA enhancement rescues mf-LTP and episodic memory",
+        "isoproterenol+GSK356278 intervention",
+        "synapsin phosphorylation rescue",
+        "presynaptic mechanisms of Aβ toxicity"
+      ]
     },
     {
       "pmid": null,
@@ -1245,8 +2057,16 @@
       "first_used": "2026-06-08",
       "full_text_available": true,
       "note": "2021发表，部分临床数据为三期试验前；不引用为三期试验效果数据",
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["clinical trial review: aducanumab lecanemab donanemab ALZ-801", "plaque clearance paradox (plaque clearance ≠ cognitive benefit)", "APOE4 effects on Aβ pathology", "oligomers as clinically validated target", "neurotoxic soluble oligomers disease progression"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "clinical trial review: aducanumab lecanemab donanemab ALZ-801",
+        "plaque clearance paradox (plaque clearance ≠ cognitive benefit)",
+        "APOE4 effects on Aβ pathology",
+        "oligomers as clinically validated target",
+        "neurotoxic soluble oligomers disease progression"
+      ]
     },
     {
       "pmid": null,
@@ -1258,8 +2078,16 @@
       "year": 2021,
       "first_used": "2026-06-08",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"],
-      "aspects_covered": ["theta-gamma coupling impairment in AD", "SST interneuron dysfunction and theta oscillation disruption", "TMS demonstrates LTP impairment in AD patients", "oscillation-synaptic plasticity bidirectional association", "network-level synaptic failure in AD"]
+      "used_in_articles": [
+        "2026-06-08-alzheimers-amyloid-synaptic-mechanism.md"
+      ],
+      "aspects_covered": [
+        "theta-gamma coupling impairment in AD",
+        "SST interneuron dysfunction and theta oscillation disruption",
+        "TMS demonstrates LTP impairment in AD patients",
+        "oscillation-synaptic plasticity bidirectional association",
+        "network-level synaptic failure in AD"
+      ]
     },
     {
       "pmid": "16116447",
@@ -1271,8 +2099,15 @@
       "year": 2005,
       "first_used": "2026-06-09",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["ChR2 optogenetics foundational paper", "millisecond-precision light control of neurons", "lentiviral delivery of opsins", "optical control of spiking and synaptic transmission"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "ChR2 optogenetics foundational paper",
+        "millisecond-precision light control of neurons",
+        "lentiviral delivery of opsins",
+        "optical control of spiking and synaptic transmission"
+      ]
     },
     {
       "pmid": "17375185",
@@ -1284,8 +2119,18 @@
       "year": 2007,
       "first_used": "2026-06-09",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["halorhodopsin NpHR chloride pump mechanism", "yellow light silencing (~560nm)", "blue/yellow bidirectional control", "hyperpolarization amplitude 32.9±14.4mV", "onset/offset ~10-15ms", "single-spike precision silencing", "neural synchrony manipulation without rate change"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "halorhodopsin NpHR chloride pump mechanism",
+        "yellow light silencing (~560nm)",
+        "blue/yellow bidirectional control",
+        "hyperpolarization amplitude 32.9±14.4mV",
+        "onset/offset ~10-15ms",
+        "single-spike precision silencing",
+        "neural synchrony manipulation without rate change"
+      ]
     },
     {
       "pmid": "19409264",
@@ -1297,8 +2142,15 @@
       "year": 2009,
       "first_used": "2026-06-09",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["optogenetics in macaque frontal cortex", "safety over months", "network excitatory and suppressive effects", "primate applicability for clinical translation"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "optogenetics in macaque frontal cortex",
+        "safety over months",
+        "network excitatory and suppressive effects",
+        "primate applicability for clinical translation"
+      ]
     },
     {
       "pmid": "21692661",
@@ -1310,8 +2162,14 @@
       "year": 2011,
       "first_used": "2026-06-09",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["single-component optogenetic tools conceptual definition", "toolbox systematic overview", "applications across model organisms"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "single-component optogenetic tools conceptual definition",
+        "toolbox systematic overview",
+        "applications across model organisms"
+      ]
     },
     {
       "pmid": "22266941",
@@ -1323,8 +2181,16 @@
       "year": 2012,
       "first_used": "2026-06-09",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["C1C2 chimera crystal structure 2.3 Angstrom", "7-TM structure of channelrhodopsin", "retinal-binding pocket molecular details", "cation conduction pathway", "rational engineering basis"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "C1C2 chimera crystal structure 2.3 Angstrom",
+        "7-TM structure of channelrhodopsin",
+        "retinal-binding pocket molecular details",
+        "cation conduction pathway",
+        "rational engineering basis"
+      ]
     },
     {
       "pmid": "23888038",
@@ -1336,8 +2202,15 @@
       "year": 2013,
       "first_used": "2026-06-09",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["false memory creation in DG", "c-fos labeling context A neurons + optogenetic activation during context B fear conditioning", "context-specific false fear memory expression", "engram cells causal proof"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "false memory creation in DG",
+        "c-fos labeling context A neurons + optogenetic activation during context B fear conditioning",
+        "context-specific false fear memory expression",
+        "engram cells causal proof"
+      ]
     },
     {
       "pmid": "24478647",
@@ -1349,8 +2222,17 @@
       "year": 2013,
       "first_used": "2026-06-09",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["c-fos-tTA labeling system technical details", "TetTag mice doxycycline control window", "2-6% DG cells c-fos+ after novel context exposure", "context-specific DG engram encoding statistics", "false memory full experimental logic", "engram cells physical basis of memory"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "c-fos-tTA labeling system technical details",
+        "TetTag mice doxycycline control window",
+        "2-6% DG cells c-fos+ after novel context exposure",
+        "context-specific DG engram encoding statistics",
+        "false memory full experimental logic",
+        "engram cells physical basis of memory"
+      ]
     },
     {
       "pmid": "25162525",
@@ -1362,8 +2244,15 @@
       "year": 2014,
       "first_used": "2026-06-09",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["memory valence bidirectional switch", "DG engram can switch valence (fear→reward or reward→fear)", "BLA engram cannot switch valence (locked)", "hippocampus (context) vs amygdala (valence) functional division"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "memory valence bidirectional switch",
+        "DG engram can switch valence (fear→reward or reward→fear)",
+        "BLA engram cannot switch valence (locked)",
+        "hippocampus (context) vs amygdala (valence) functional division"
+      ]
     },
     {
       "pmid": "28772120",
@@ -1375,8 +2264,15 @@
       "year": 2017,
       "first_used": "2026-06-09",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["silencing tools comparison: NpHR, eNpHR3, Arch, iC++, GtACR", "mechanism and efficiency comparison", "experimental caveats: chloride accumulation, off-target effects", "tool selection guide"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "silencing tools comparison: NpHR, eNpHR3, Arch, iC++, GtACR",
+        "mechanism and efficiency comparison",
+        "experimental caveats: chloride accumulation, off-target effects",
+        "tool selection guide"
+      ]
     },
     {
       "pmid": "35072525",
@@ -1388,8 +2284,16 @@
       "year": 2022,
       "first_used": "2026-06-09",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-09-optogenetics-causal-neuroscience.md"],
-      "aspects_covered": ["optogenetics extended to optophysiology (non-neural cells)", "wireless optogenetics microLED arrays", "protein engineering for wavelength tuning", "noninvasiveness and reversibility advantages", "future clinical directions"]
+      "used_in_articles": [
+        "2026-06-09-optogenetics-causal-neuroscience.md"
+      ],
+      "aspects_covered": [
+        "optogenetics extended to optophysiology (non-neural cells)",
+        "wireless optogenetics microLED arrays",
+        "protein engineering for wavelength tuning",
+        "noninvasiveness and reversibility advantages",
+        "future clinical directions"
+      ]
     },
     {
       "pmid": "11826273",
@@ -1400,8 +2304,16 @@
       "year": 2002,
       "first_used": "2026-06-10",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-10-stp-short-term-plasticity.md"],
-      "aspects_covered": ["four forms of STP (facilitation/depression/augmentation/PTP)", "RRP depletion model", "residual calcium hypothesis", "PPR math model (PPR ≈ 1-p)", "multi-system review across NMJ/hippocampus/calyx"]
+      "used_in_articles": [
+        "2026-06-10-stp-short-term-plasticity.md"
+      ],
+      "aspects_covered": [
+        "four forms of STP (facilitation/depression/augmentation/PTP)",
+        "RRP depletion model",
+        "residual calcium hypothesis",
+        "PPR math model (PPR ≈ 1-p)",
+        "multi-system review across NMJ/hippocampus/calyx"
+      ]
     },
     {
       "pmid": "22751149",
@@ -1412,8 +2324,17 @@
       "year": 2012,
       "first_used": "2026-06-10",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-10-stp-short-term-plasticity.md"],
-      "aspects_covered": ["RRP depletion kinetics", "calcium-accelerated RRP replenishment (10-fold)", "buffer saturation facilitation", "PKC/Munc18-1 in PTP", "mitochondrial calcium in PTP", "calyx of Held measurements"]
+      "used_in_articles": [
+        "2026-06-10-stp-short-term-plasticity.md"
+      ],
+      "aspects_covered": [
+        "RRP depletion kinetics",
+        "calcium-accelerated RRP replenishment (10-fold)",
+        "buffer saturation facilitation",
+        "PKC/Munc18-1 in PTP",
+        "mitochondrial calcium in PTP",
+        "calyx of Held measurements"
+      ]
     },
     {
       "pmid": "28472650",
@@ -1424,8 +2345,17 @@
       "year": 2017,
       "first_used": "2026-06-10",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-10-stp-short-term-plasticity.md"],
-      "aspects_covered": ["Syt7 as primary PPF sensor in 4 synapse types", "PPF abolition in Syt7 KO", "Kd ~1.5 μM calcium affinity", "slow dissociation (~60x slower than Syt1)", "probability-enhancing mechanism (2-5 kT barrier reduction)", "no effect on synchronous release"]
+      "used_in_articles": [
+        "2026-06-10-stp-short-term-plasticity.md"
+      ],
+      "aspects_covered": [
+        "Syt7 as primary PPF sensor in 4 synapse types",
+        "PPF abolition in Syt7 KO",
+        "Kd ~1.5 μM calcium affinity",
+        "slow dissociation (~60x slower than Syt1)",
+        "probability-enhancing mechanism (2-5 kT barrier reduction)",
+        "no effect on synchronous release"
+      ]
     },
     {
       "pmid": "29088700",
@@ -1436,8 +2366,17 @@
       "year": 2017,
       "first_used": "2026-06-10",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-10-stp-short-term-plasticity.md"],
-      "aspects_covered": ["PC→DCN frequency-invariant transmission", "Syt7 facilitation counteracts depression", "linear coding across 5-150 Hz", "Syt7 KO eliminates frequency invariance", "AAV rescue experiment", "vestibular reflex linear signal transfer"]
+      "used_in_articles": [
+        "2026-06-10-stp-short-term-plasticity.md"
+      ],
+      "aspects_covered": [
+        "PC→DCN frequency-invariant transmission",
+        "Syt7 facilitation counteracts depression",
+        "linear coding across 5-150 Hz",
+        "Syt7 KO eliminates frequency invariance",
+        "AAV rescue experiment",
+        "vestibular reflex linear signal transfer"
+      ]
     },
     {
       "pmid": "9012851",
@@ -1448,8 +2387,16 @@
       "year": 1997,
       "first_used": "2026-06-10",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-10-stp-short-term-plasticity.md"],
-      "aspects_covered": ["high-p synapses = low-pass filters", "low-p synapses = high-pass filters", "neocortical paired recording", "mathematical STP model", "frequency routing computation"]
+      "used_in_articles": [
+        "2026-06-10-stp-short-term-plasticity.md"
+      ],
+      "aspects_covered": [
+        "high-p synapses = low-pass filters",
+        "low-p synapses = high-pass filters",
+        "neocortical paired recording",
+        "mathematical STP model",
+        "frequency routing computation"
+      ]
     },
     {
       "pmid": "18339943",
@@ -1460,8 +2407,16 @@
       "year": 2008,
       "first_used": "2026-06-10",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-10-stp-short-term-plasticity.md"],
-      "aspects_covered": ["activity-silent WM via STP facilitation", "gamma burst reactivation model", "STP as WM storage without persistent firing", "Syt7 slow dissociation enables storage", "delay period reactivation"]
+      "used_in_articles": [
+        "2026-06-10-stp-short-term-plasticity.md"
+      ],
+      "aspects_covered": [
+        "activity-silent WM via STP facilitation",
+        "gamma burst reactivation model",
+        "STP as WM storage without persistent firing",
+        "Syt7 slow dissociation enables storage",
+        "delay period reactivation"
+      ]
     },
     {
       "pmid": "15483601",
@@ -1472,8 +2427,16 @@
       "year": 2004,
       "first_used": "2026-06-10",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-10-stp-short-term-plasticity.md"],
-      "aspects_covered": ["STP computational functions", "gain control via depression", "coincidence detection", "synaptic filtering and routing", "synapses as computational elements"]
+      "used_in_articles": [
+        "2026-06-10-stp-short-term-plasticity.md"
+      ],
+      "aspects_covered": [
+        "STP computational functions",
+        "gain control via depression",
+        "coincidence detection",
+        "synaptic filtering and routing",
+        "synapses as computational elements"
+      ]
     },
     {
       "pmid": "37891212",
@@ -1484,8 +2447,16 @@
       "year": 2023,
       "first_used": "2026-06-10",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-10-stp-short-term-plasticity.md"],
-      "aspects_covered": ["Syt1 + Syt7 dual sensor model", "Syt1 fast synchronous", "Syt7 slow facilitation", "mathematical modeling of PPF", "calcium dynamics prediction"]
+      "used_in_articles": [
+        "2026-06-10-stp-short-term-plasticity.md"
+      ],
+      "aspects_covered": [
+        "Syt1 + Syt7 dual sensor model",
+        "Syt1 fast synchronous",
+        "Syt7 slow facilitation",
+        "mathematical modeling of PPF",
+        "calcium dynamics prediction"
+      ]
     },
     {
       "pmid": "22068972",
@@ -1496,8 +2467,17 @@
       "year": 2012,
       "first_used": "2026-05-25",
       "full_text_available": false,
-      "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md", "2026-06-10-stp-short-term-plasticity.md"],
-      "aspects_covered": ["Syt1 as fast synchronous release sensor", "C2A/C2B calcium binding", "phospholipid affinity", "Syt isoform comparison", "Syt7 role in asynchronous release"]
+      "used_in_articles": [
+        "2026-05-25-synaptic-vesicle-exocytosis.md",
+        "2026-06-10-stp-short-term-plasticity.md"
+      ],
+      "aspects_covered": [
+        "Syt1 as fast synchronous release sensor",
+        "C2A/C2B calcium binding",
+        "phospholipid affinity",
+        "Syt isoform comparison",
+        "Syt7 role in asynchronous release"
+      ]
     },
     {
       "pmid": "15660108",
@@ -1508,8 +2488,15 @@
       "year": 2005,
       "first_used": "2026-06-11",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
-      "aspects_covered": ["双光子钙成像可视化猫V1方向图", "单细胞分辨率方向柱", "pinwheel center神经元方向选择性精确", "方向图连续性"]
+      "used_in_articles": [
+        "2026-06-11-v1-orientation-selectivity.md"
+      ],
+      "aspects_covered": [
+        "双光子钙成像可视化猫V1方向图",
+        "单细胞分辨率方向柱",
+        "pinwheel center神经元方向选择性精确",
+        "方向图连续性"
+      ]
     },
     {
       "pmid": "22841309",
@@ -1520,8 +2507,16 @@
       "year": 2012,
       "first_used": "2026-06-11",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
-      "aspects_covered": ["阈值非线性放大约3倍", "突触短时程抑制锐化方向调谐", "跨方向抑制（LGN非线性来源）", "对比度不变性机制", "前馈vs循环机制辩论"]
+      "used_in_articles": [
+        "2026-06-11-v1-orientation-selectivity.md"
+      ],
+      "aspects_covered": [
+        "阈值非线性放大约3倍",
+        "突触短时程抑制锐化方向调谐",
+        "跨方向抑制（LGN非线性来源）",
+        "对比度不变性机制",
+        "前馈vs循环机制辩论"
+      ]
     },
     {
       "pmid": "22726830",
@@ -1532,8 +2527,16 @@
       "year": 2012,
       "first_used": "2026-06-11",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
-      "aspects_covered": ["方向柱发育的遗传与经验成分", "关键期开放与E/I平衡转变", "GABA能成熟与关键期", "单眼剥夺效应", "活动依赖精细化"]
+      "used_in_articles": [
+        "2026-06-11-v1-orientation-selectivity.md"
+      ],
+      "aspects_covered": [
+        "方向柱发育的遗传与经验成分",
+        "关键期开放与E/I平衡转变",
+        "GABA能成熟与关键期",
+        "单眼剥夺效应",
+        "活动依赖精细化"
+      ]
     },
     {
       "pmid": "23804085",
@@ -1544,8 +2547,15 @@
       "year": 2013,
       "first_used": "2026-06-11",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
-      "aspects_covered": ["小鼠LGN方向选择性独立于V1皮层反馈", "muscimol使皮层失活后LGN OSI不变", "猫vs小鼠物种差异", "皮层前方向信息的进化意义"]
+      "used_in_articles": [
+        "2026-06-11-v1-orientation-selectivity.md"
+      ],
+      "aspects_covered": [
+        "小鼠LGN方向选择性独立于V1皮层反馈",
+        "muscimol使皮层失活后LGN OSI不变",
+        "猫vs小鼠物种差异",
+        "皮层前方向信息的进化意义"
+      ]
     },
     {
       "pmid": "22442071",
@@ -1556,8 +2566,15 @@
       "year": 2012,
       "first_used": "2026-06-11",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
-      "aspects_covered": ["E/I平衡网络在无方向图条件下实现精确方向选择性", "功能连接偏好假设", "对比度不变性由E/I平衡维持", "盐-胡椒型组织悖论的理论解释"]
+      "used_in_articles": [
+        "2026-06-11-v1-orientation-selectivity.md"
+      ],
+      "aspects_covered": [
+        "E/I平衡网络在无方向图条件下实现精确方向选择性",
+        "功能连接偏好假设",
+        "对比度不变性由E/I平衡维持",
+        "盐-胡椒型组织悖论的理论解释"
+      ]
     },
     {
       "pmid": "27383898",
@@ -1568,8 +2585,16 @@
       "year": 2016,
       "first_used": "2026-06-11",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
-      "aspects_covered": ["雪貂V1突触聚类与OSI正相关", "偏好方向NMDA棘波热点约2倍", "树突分支级别的方向选择性增益", "GCaMP6s单棘分辨率成像", "突触聚类→局部NMDA棘波→功能性超线性整合"]
+      "used_in_articles": [
+        "2026-06-11-v1-orientation-selectivity.md"
+      ],
+      "aspects_covered": [
+        "雪貂V1突触聚类与OSI正相关",
+        "偏好方向NMDA棘波热点约2倍",
+        "树突分支级别的方向选择性增益",
+        "GCaMP6s单棘分辨率成像",
+        "突触聚类→局部NMDA棘波→功能性超线性整合"
+      ]
     },
     {
       "pmid": "20810772",
@@ -1580,8 +2605,15 @@
       "year": 2010,
       "first_used": "2026-06-11",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
-      "aspects_covered": ["小鼠V1盐-胡椒型组织", "单细胞OSI精确", "运动状态提升视觉响应约60%", "清醒vs麻醉方向选择性对比"]
+      "used_in_articles": [
+        "2026-06-11-v1-orientation-selectivity.md"
+      ],
+      "aspects_covered": [
+        "小鼠V1盐-胡椒型组织",
+        "单细胞OSI精确",
+        "运动状态提升视觉响应约60%",
+        "清醒vs麻醉方向选择性对比"
+      ]
     },
     {
       "pmid": "31026016",
@@ -1592,8 +2624,15 @@
       "year": 2019,
       "first_used": "2026-06-11",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
-      "aspects_covered": ["CNN第一层Gabor滤波器与V1简单细胞感受野收敛", "图像分类任务>其他任务的V1相似度", "自然图像统计与最优定向特征", "预测R²定量比较"]
+      "used_in_articles": [
+        "2026-06-11-v1-orientation-selectivity.md"
+      ],
+      "aspects_covered": [
+        "CNN第一层Gabor滤波器与V1简单细胞感受野收敛",
+        "图像分类任务>其他任务的V1相似度",
+        "自然图像统计与最优定向特征",
+        "预测R²定量比较"
+      ]
     },
     {
       "pmid": "18633352",
@@ -1604,8 +2643,17 @@
       "year": 2008,
       "first_used": "2026-06-12",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["猕猴V1注意调制","东莨菪碱（M1拮抗剂）消除注意诱导增益提升（P<0.001）","美加明（烟碱受体拮抗剂）无效（P=0.465）","M1肌碱受体介导注意性增益","ROC曲线0.677→0.826","注意效应=响应增益（乘法性缩放）"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "猕猴V1注意调制",
+        "东莨菪碱（M1拮抗剂）消除注意诱导增益提升（P<0.001）",
+        "美加明（烟碱受体拮抗剂）无效（P=0.465）",
+        "M1肌碱受体介导注意性增益",
+        "ROC曲线0.677→0.826",
+        "注意效应=响应增益（乘法性缩放）"
+      ]
     },
     {
       "pmid": "16254995",
@@ -1616,8 +2664,16 @@
       "year": 2005,
       "first_used": "2026-06-12",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["LC相位vs紧张模式","适应性增益理论","任务驱动→相位模式（高信噪比）vs漫游→紧张模式（低信噪比）","LC投射的皮层广泛分布","NE倒U型调节曲线"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "LC相位vs紧张模式",
+        "适应性增益理论",
+        "任务驱动→相位模式（高信噪比）vs漫游→紧张模式（低信噪比）",
+        "LC投射的皮层广泛分布",
+        "NE倒U型调节曲线"
+      ]
     },
     {
       "pmid": "19876288",
@@ -1628,8 +2684,15 @@
       "year": 2009,
       "first_used": "2026-06-12",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["LC解剖与投射系统","NE释放模式","β受体与LTP关系","LC在记忆巩固中的角色"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "LC解剖与投射系统",
+        "NE释放模式",
+        "β受体与LTP关系",
+        "LC在记忆巩固中的角色"
+      ]
     },
     {
       "pmid": "17880897",
@@ -1640,8 +2703,15 @@
       "year": 2007,
       "first_used": "2026-06-12",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["PFC ACh相位爆发与线索检测","msec级时间分辨率ACh测量","ACh双时间尺度（紧张背景+相位事件）","前额叶去胆碱化损害线索检测"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "PFC ACh相位爆发与线索检测",
+        "msec级时间分辨率ACh测量",
+        "ACh双时间尺度（紧张背景+相位事件）",
+        "前额叶去胆碱化损害线索检测"
+      ]
     },
     {
       "pmid": "20668433",
@@ -1652,8 +2722,15 @@
       "year": 2011,
       "first_used": "2026-06-12",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["M1受体→减少K⁺漏电→促进持续放电","ACh对学习和记忆的双重作用","皮层去同步化机制","抗胆碱药认知损害"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "M1受体→减少K⁺漏电→促进持续放电",
+        "ACh对学习和记忆的双重作用",
+        "皮层去同步化机制",
+        "抗胆碱药认知损害"
+      ]
     },
     {
       "pmid": "29858338",
@@ -1664,8 +2741,15 @@
       "year": 2018,
       "first_used": "2026-06-12",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["基底前脑（Meynert核Ch4）的解剖细分","特异性胆碱能-皮层回路","不同皮层区域接受不同基底前脑亚区的投射","Ch4内侧→前额叶；Ch4后外侧→颞顶叶"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "基底前脑（Meynert核Ch4）的解剖细分",
+        "特异性胆碱能-皮层回路",
+        "不同皮层区域接受不同基底前脑亚区的投射",
+        "Ch4内侧→前额叶；Ch4后外侧→颞顶叶"
+      ]
     },
     {
       "pmid": "23818597",
@@ -1676,8 +2760,15 @@
       "year": 2013,
       "first_used": "2026-06-12",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["α7-nAChR在dlPFC谷氨酸突触的分布","α7-nAChR促进NMDA受体参与","α4β2-nAChR在抑制性中间神经元的优先表达","nAChR亚型的功能分工"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "α7-nAChR在dlPFC谷氨酸突触的分布",
+        "α7-nAChR促进NMDA受体参与",
+        "α4β2-nAChR在抑制性中间神经元的优先表达",
+        "nAChR亚型的功能分工"
+      ]
     },
     {
       "pmid": "30946778",
@@ -1688,8 +2779,15 @@
       "year": 2019,
       "first_used": "2026-06-12",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["LC作为感觉处理的警觉枢纽","NE相位爆发与感觉信号检测","LC-NE对皮层E/I平衡的调控","多感觉整合中LC的角色"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "LC作为感觉处理的警觉枢纽",
+        "NE相位爆发与感觉信号检测",
+        "LC-NE对皮层E/I平衡的调控",
+        "多感觉整合中LC的角色"
+      ]
     },
     {
       "pmid": "22866031",
@@ -1700,8 +2798,15 @@
       "year": 2012,
       "first_used": "2026-06-12",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["NE和ACh均增强多感觉皮层信噪比","调质对感觉皮层响应的乘法性调制综述","胆碱能和去甲肾上腺素能系统的协同作用","皮层调质调制的层特异性"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "NE和ACh均增强多感觉皮层信噪比",
+        "调质对感觉皮层响应的乘法性调制综述",
+        "胆碱能和去甲肾上腺素能系统的协同作用",
+        "皮层调质调制的层特异性"
+      ]
     },
     {
       "pmid": "21345366",
@@ -1712,8 +2817,65 @@
       "year": 2011,
       "first_used": "2026-06-12",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
-      "aspects_covered": ["α2A受体抑制HCN（Ih）通道→减少树突泄漏→稳定WM表征","D1受体倒U型调节dlPFC WM","α1受体主导→高NE时噪声增加","胍法辛（α2A激动剂）改善灵长类WM任务","ADHD的PFC调质机制"]
+      "used_in_articles": [
+        "2026-06-12-neuromodulators-ach-ne.md"
+      ],
+      "aspects_covered": [
+        "α2A受体抑制HCN（Ih）通道→减少树突泄漏→稳定WM表征",
+        "D1受体倒U型调节dlPFC WM",
+        "α1受体主导→高NE时噪声增加",
+        "胍法辛（α2A激动剂）改善灵长类WM任务",
+        "ADHD的PFC调质机制"
+      ]
+    },
+    {
+      "id": "SR-21-01",
+      "pmid": "23040802",
+      "pmcid": "PMC3482119",
+      "title": "Neuromodulation of Neuronal Circuits: Back to the Future",
+      "authors": [
+        "Marder E"
+      ],
+      "journal": "Neuron",
+      "year": 2012,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-05-30-week3-synthesis"
+      ],
+      "topics_covered": [
+        "neuromodulation",
+        "circuit reconfiguration",
+        "Marder principle",
+        "multi-timescale"
+      ],
+      "first_used": "2026-05-30"
+    },
+    {
+      "id": "SR-21-02",
+      "pmid": "29470969",
+      "pmcid": "PMC6204752",
+      "title": "Neuromodulation of Attention",
+      "authors": [
+        "Thiele A",
+        "Bellgrove MA"
+      ],
+      "journal": "Neuron",
+      "year": 2018,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-05-30-week3-synthesis"
+      ],
+      "topics_covered": [
+        "ACh",
+        "NE",
+        "DA",
+        "5-HT",
+        "attention",
+        "gain control",
+        "receptor specificity"
+      ],
+      "first_used": "2026-05-30"
     }
-  ]
+  ],
+  "total_sources": 141
 }

@@ -1,9 +1,18 @@
 {
   "version": "1.0",
-  "updated": "2026-06-12",
-  "node_count": 54,
-  "edge_count": 276,
-  "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
+  "updated": "2026-05-30",
+  "node_count": 55,
+  "edge_count": 287,
+  "edge_types": [
+    "is-a",
+    "part-of",
+    "mechanism-of",
+    "prerequisite-for",
+    "regulates",
+    "supports",
+    "contradicts",
+    "related"
+  ],
   "nodes": [
     {
       "id": "action-potential",
@@ -490,307 +499,1890 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/gain-control.md"
+    },
+    {
+      "id": "multi-timescale-plasticity",
+      "title": "多层增益控制架构",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/multi-timescale-plasticity.md"
     }
   ],
   "edges": [
-    {"from": "axon-initial-segment", "to": "action-potential", "type": "mechanism-of", "note": "AIS 是动作电位的发起位点"},
-    {"from": "voltage-gated-sodium-channel", "to": "action-potential", "type": "mechanism-of", "note": "Nav 通道驱动动作电位上升相"},
-    {"from": "hodgkin-huxley-model", "to": "action-potential", "type": "supports", "note": "H-H 模型定量描述动作电位"},
-    {"from": "voltage-gated-sodium-channel", "to": "axon-initial-segment", "type": "part-of", "note": "NaV1.6/1.2 在 AIS 超高密度聚集"},
-    {"from": "chandelier-cell", "to": "axon-initial-segment", "type": "regulates", "note": "吊灯细胞特异抑制 AIS"},
-    {"from": "chandelier-cell", "to": "action-potential", "type": "regulates", "note": "经抑制 AIS 控制动作电位产生"},
-    {"from": "action-potential", "to": "voltage-gated-sodium-channel", "type": "prerequisite-for", "note": "理解动作电位需先懂钠通道"},
-    {"from": "hodgkin-huxley-model", "to": "voltage-gated-sodium-channel", "type": "related", "note": "模型刻画钠通道动力学"},
-    {"from": "axon-initial-segment", "to": "hodgkin-huxley-model", "type": "related", "note": "H-H 描述 AIS 处电导"},
-    {"from": "action-potential", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "动作电位传到突触前终末触发突触传递"},
-    {"from": "active-zone", "to": "synaptic-transmission", "type": "mechanism-of", "note": "活动区是突触传递的物理执行平台"},
-    {"from": "SNARE-complex", "to": "synaptic-transmission", "type": "mechanism-of", "note": "SNARE拉链式组装驱动囊泡与膜融合"},
-    {"from": "synaptotagmin", "to": "synaptic-transmission", "type": "mechanism-of", "note": "Syt1感受Ca²⁺，触发融合"},
-    {"from": "synaptotagmin", "to": "SNARE-complex", "type": "regulates", "note": "Syt1解除Complexin锁定，激活SNARE最终拉合"},
-    {"from": "active-zone", "to": "SNARE-complex", "type": "supports", "note": "活动区脚手架提供SNARE组装的物理环境"},
-    {"from": "SNARE-complex", "to": "active-zone", "type": "part-of", "note": "SNARE组装发生于活动区"},
-    {"from": "voltage-gated-sodium-channel", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "电压门控Ca²⁺通道（同家族）开放触发Ca²⁺内流"},
-    {"from": "axon-initial-segment", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "AIS产生动作电位，后者传播至突触前终末"},
-    {"from": "synaptic-transmission", "to": "SNARE-complex", "type": "prerequisite-for", "note": "理解突触传递需先理解SNARE机器"},
-    {"from": "synaptic-transmission", "to": "synaptotagmin", "type": "prerequisite-for", "note": "理解突触传递需理解Syt钙传感器"},
-    {"from": "nmda-receptor", "to": "ltp", "type": "mechanism-of", "note": "NMDA受体Ca²⁺内流是LTP诱导的必要触发"},
-    {"from": "camkii", "to": "ltp", "type": "mechanism-of", "note": "CaMKII是LTP诱导和维持的核心效应器"},
-    {"from": "ampa-receptor", "to": "ltp", "type": "mechanism-of", "note": "AMPA受体插入是LTP在突触后的主要表达机制"},
-    {"from": "nmda-receptor", "to": "camkii", "type": "regulates", "note": "NMDA受体Ca²⁺内流激活CaMKII"},
-    {"from": "camkii", "to": "ampa-receptor", "type": "regulates", "note": "CaMKII磷酸化GluA1-S831并驱动AMPA受体插入突触"},
-    {"from": "ltp", "to": "hebbian-learning", "type": "mechanism-of", "note": "LTP是Hebb规则在突触层面的分子实现"},
-    {"from": "nmda-receptor", "to": "hebbian-learning", "type": "mechanism-of", "note": "NMDA受体双重门控精确实现Hebbian巧合检测"},
-    {"from": "nmda-receptor", "to": "synaptic-transmission", "type": "part-of", "note": "NMDA受体是突触后谷氨酸受体之一"},
-    {"from": "ampa-receptor", "to": "synaptic-transmission", "type": "mechanism-of", "note": "AMPA受体是突触快速EPSP的主要产生者"},
-    {"from": "action-potential", "to": "nmda-receptor", "type": "regulates", "note": "反向传播动作电位（bAP）提供去极化，解除NMDA受体Mg²⁺阻断"},
-    {"from": "synaptic-transmission", "to": "ltp", "type": "prerequisite-for", "note": "突触传递是LTP诱导的前提，需要谷氨酸释放激活NMDA受体"},
-    {"from": "ltp", "to": "nmda-receptor", "type": "prerequisite-for", "note": "理解LTP需先理解NMDA受体的巧合检测机制"},
-    {"from": "ltp", "to": "ampa-receptor", "type": "prerequisite-for", "note": "理解LTP需了解AMPA受体插入机制"},
-    {"from": "hebbian-learning", "to": "nmda-receptor", "type": "prerequisite-for", "note": "理解Hebb规则的分子基础需理解NMDA受体"},
-    {"from": "camkii", "to": "nmda-receptor", "type": "prerequisite-for", "note": "理解CaMKII在LTP中的作用需先理解NMDA受体触发"},
-    {"from": "ampa-receptor", "to": "nmda-receptor", "type": "related", "note": "两者共存于同一突触后膜，AMPA负责快速传递，NMDA负责可塑性判断"},
-    {"from": "dendritic-computation", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA 受体是 NMDA 棘波的核心机器，两者共同驱动树突非线性计算"},
-    {"from": "dendritic-computation", "to": "ltp", "type": "mechanism-of", "note": "NMDA 棘波提供强烈局部 Ca²⁺，触发分支局部 LTP；平台电位是海马场所场快速写入机制"},
-    {"from": "dendritic-computation", "to": "action-potential", "type": "regulates", "note": "Ca²⁺ 棘波与胞体 bAP 的耦合决定是否产生爆发放电（burst firing）"},
-    {"from": "dendritic-computation", "to": "hebbian-learning", "type": "mechanism-of", "note": "树突 NMDA 棘波使 Hebb 规则在分支层面实现，而非仅在单突触层面"},
-    {"from": "pyramidal-neuron", "to": "dendritic-computation", "type": "supports", "note": "锥体神经元双树突形态（顶端 tuft + 基底分支）是树突计算的物理基础"},
-    {"from": "pyramidal-neuron", "to": "axon-initial-segment", "type": "part-of", "note": "锥体神经元的 AIS 是动作电位发起位点"},
-    {"from": "pyramidal-neuron", "to": "chandelier-cell", "type": "related", "note": "吊灯细胞特异靶向锥体神经元的 AIS"},
-    {"from": "nmda-receptor", "to": "dendritic-computation", "type": "mechanism-of", "note": "NMDA 受体的再生性正反馈是 NMDA 棘波的分子机制"},
-    {"from": "hodgkin-huxley-model", "to": "dendritic-computation", "type": "prerequisite-for", "note": "H-H 框架扩展到树突后，可描述 NMDA 棘波等树突再生事件"},
-    {"from": "ltp", "to": "dendritic-computation", "type": "related", "note": "树突 NMDA 棘波驱动的局部 LTP 是突触权重局部修改的机制"},
-    {"from": "synaptic-transmission", "to": "dendritic-computation", "type": "prerequisite-for", "note": "理解树突计算需先理解突触传递（谷氨酸释放 → NMDA 受体激活）"},
-    {"from": "action-potential", "to": "dendritic-computation", "type": "related", "note": "反向传播 bAP 提供去极化，调控树突棘波的阈值和可塑性窗口"},
-    {"from": "dendritic-computation", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "理解树突计算需先理解突触传递"},
-    {"from": "dendritic-computation", "to": "camkii", "type": "related", "note": "树突 NMDA 棘波后 Ca²⁺ 激活 CaMKII 驱动局部 LTP"},
-    {"from": "place-cell", "to": "hippocampal-circuit", "type": "part-of", "note": "场所细胞位于海马 CA1（及 CA3），是海马回路的功能输出节点"},
-    {"from": "place-cell", "to": "btsp", "type": "mechanism-of", "note": "BTSP 是场所场单次写入的突触机制"},
-    {"from": "place-cell", "to": "dendritic-computation", "type": "mechanism-of", "note": "树突钙平台电位（树突计算的特殊形式）是场所场写入的触发机制"},
-    {"from": "place-cell", "to": "ltp", "type": "related", "note": "LTP 可能参与场所场的长期巩固，但场所场形成主要由 BTSP 驱动"},
-    {"from": "btsp", "to": "ltp", "type": "related", "note": "BTSP 与 LTP 是并列的突触增强机制：秒级（BTSP）vs 毫秒级（LTP）时间窗口"},
-    {"from": "btsp", "to": "dendritic-computation", "type": "mechanism-of", "note": "树突钙平台电位是 BTSP 的触发器，是树突计算在可塑性层面的表现"},
-    {"from": "btsp", "to": "nmda-receptor", "type": "related", "note": "NMDA 受体参与 BTSP（~84% 依赖），但不是主触发器（L 型 Ca 通道是）"},
-    {"from": "btsp", "to": "place-cell", "type": "mechanism-of", "note": "BTSP 产生场所场：秒级时间窗口允许单次穿越就完成写入"},
-    {"from": "btsp", "to": "hebbian-learning", "type": "related", "note": "BTSP 不遵循严格的 Hebb 因果律（可强化非因果输入），但仍是活动依赖的突触修改"},
-    {"from": "hippocampal-circuit", "to": "place-cell", "type": "supports", "note": "海马 CA1 是场所细胞的主要居所；DG/CA3 分别提供模式分离和补全"},
-    {"from": "hippocampal-circuit", "to": "ltp", "type": "related", "note": "LTP 发生在 CA1 Schaffer 突触和 CA3 循环突触，是海马回路突触可塑性的基础"},
-    {"from": "hippocampal-circuit", "to": "grid-cell", "type": "related", "note": "网格细胞（内嗅皮层）通过穿孔通路输入到海马 DG/CA3/CA1"},
-    {"from": "hippocampal-circuit", "to": "synaptic-transmission", "type": "prerequisite-for", "note": "理解海马回路需先理解突触传递"},
-    {"from": "grid-cell", "to": "place-cell", "type": "related", "note": "网格细胞通过穿孔通路为场所细胞提供空间坐标输入框架"},
-    {"from": "grid-cell", "to": "hippocampal-circuit", "type": "related", "note": "内嗅皮层网格细胞是海马回路的主要皮层输入源"},
-    {"from": "dendritic-computation", "to": "place-cell", "type": "related", "note": "树突平台电位（树突计算特殊形式）是场所场单次写入的关键细胞机制"},
-    {"from": "dendritic-computation", "to": "btsp", "type": "related", "note": "树突钙平台电位触发 BTSP；BTSP 是树突计算在行为时间尺度可塑性中的体现"},
-    {"from": "theta-oscillations", "to": "place-cell", "type": "regulates", "note": "θ振荡提供场所细胞放电的时间框架（相位前进依赖θ）"},
-    {"from": "theta-oscillations", "to": "phase-precession", "type": "mechanism-of", "note": "相位前进以θ振荡为参照系；θ是相位编码的载体"},
-    {"from": "theta-oscillations", "to": "hippocampal-circuit", "type": "regulates", "note": "θ协调海马CA3/CA1/EC三向通信的时间框架（θ态/SWR态双模式切换）"},
-    {"from": "theta-oscillations", "to": "ltp", "type": "related", "note": "θ-burst stimulation是标准体内LTP诱导方法；θ为STDP/LTP提供体内时间窗口"},
-    {"from": "theta-oscillations", "to": "btsp", "type": "related", "note": "θ振荡可能协调BTSP所需树突平台电位的触发时机（Etter et al. 2023假说）"},
-    {"from": "theta-oscillations", "to": "grid-cell", "type": "related", "note": "内嗅皮层网格细胞也显示θ相位前进；振荡干涉模型解释网格图案"},
-    {"from": "theta-oscillations", "to": "sharp-wave-ripples", "type": "related", "note": "θ（探索/编码）与SWR（静息/固化）是海马两种互斥的工作模式"},
-    {"from": "sharp-wave-ripples", "to": "hippocampal-circuit", "type": "mechanism-of", "note": "SWR由CA3循环兴奋自发产生，通过Schaffer侧支驱动CA1 110-200 Hz涟漪"},
-    {"from": "sharp-wave-ripples", "to": "place-cell", "type": "related", "note": "SWR期间场所细胞序列以~20倍速高速重播"},
-    {"from": "sharp-wave-ripples", "to": "memory-consolidation", "type": "mechanism-of", "note": "SWR重播是海马→皮层记忆固化的物理载体"},
-    {"from": "sharp-wave-ripples", "to": "ltp", "type": "related", "note": "SWR重播可能通过反复Hebbian式激活在皮层建立长期突触（LTP机制）"},
-    {"from": "phase-precession", "to": "theta-oscillations", "type": "mechanism-of", "note": "相位前进是θ振荡的功能体现；θ为放电相位提供时间参照"},
-    {"from": "phase-precession", "to": "place-cell", "type": "mechanism-of", "note": "场所细胞通过相位前进实现速率+相位双重编码"},
-    {"from": "phase-precession", "to": "ltp", "type": "related", "note": "θ序列中先-后神经元时序与STDP/LTP方向性匹配，可能强化路径方向性突触权重"},
-    {"from": "place-cell", "to": "phase-precession", "type": "mechanism-of", "note": "相位前进是场所细胞的核心编码特性之一"},
-    {"from": "hippocampal-circuit", "to": "theta-oscillations", "type": "related", "note": "海马是θ振荡的主要表达场所；θ/SWR双模切换决定海马工作状态"},
-    {"from": "hippocampal-circuit", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "CA3循环回路是SWR的生成器；CA1是涟漪的表达场所"},
-    {"from": "temporal-coding-hierarchy", "to": "ltp", "type": "related", "note": "LTP 是嵌套层级中 ms 尺度的 Hebb 学习规则，也是 SWR 固化皮层记忆的最终机制"},
-    {"from": "temporal-coding-hierarchy", "to": "btsp", "type": "related", "note": "BTSP 是嵌套层级中 s 尺度的行为 Hebb 学习规则"},
-    {"from": "temporal-coding-hierarchy", "to": "theta-oscillations", "type": "mechanism-of", "note": "θ 振荡提供桥接层：将 s 级行为事件压缩到 ms 级 STDP 窗口"},
-    {"from": "temporal-coding-hierarchy", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "SWR 是离线固化层，通过 20 倍速重播触发皮层 LTP 积累"},
-    {"from": "temporal-coding-hierarchy", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA 受体实现了嵌套层级中 ms 层的分子巧合检测"},
-    {"from": "temporal-coding-hierarchy", "to": "dendritic-computation", "type": "related", "note": "树突棘波（50–200 ms 层）是嵌套层级中分支计算层的机制"},
-    {"from": "temporal-coding-hierarchy", "to": "place-cell", "type": "related", "note": "场所细胞是嵌套层级协同运作的功能结果（稳定空间认知地图）"},
-    {"from": "temporal-coding-hierarchy", "to": "phase-precession", "type": "mechanism-of", "note": "相位前进是 θ 桥接层的具体机制，使 s 级场所细胞序列落入 ms 级 STDP 窗口"},
-    {"from": "hebbian-learning", "to": "temporal-coding-hierarchy", "type": "supports", "note": "Hebb 原理（巧合→强化）是嵌套层级所有层次的共同底层逻辑"},
-    {"from": "engram-cells", "to": "place-cell", "type": "related", "note": "场所细胞是空间情景记忆印迹细胞的主要候选；DG/CA1 场所细胞被用于光遗传印迹实验"},
-    {"from": "engram-cells", "to": "hippocampal-circuit", "type": "part-of", "note": "印迹细胞集合利用 DG→CA3→CA1 三突触回路形成跨脑区印迹间连接链"},
-    {"from": "engram-cells", "to": "ltp", "type": "mechanism-of", "note": "印迹细胞的突触增强特征（高 AMPA/NMDA 比值、高树突棘密度）是 LTP 的细胞层面体现；光学 LTP 可恢复沉默印迹"},
-    {"from": "engram-cells", "to": "hebbian-learning", "type": "mechanism-of", "note": "竞争性分配（同步放电→印迹细胞→印迹间优先连接）是 Hebb 原理在细胞集合层面的实现"},
-    {"from": "engram-cells", "to": "btsp", "type": "related", "note": "BTSP 是场所细胞（印迹细胞候选）快速单次写入的突触机制，可能是印迹快速建立的分子基础"},
-    {"from": "engram-cells", "to": "nmda-receptor", "type": "related", "note": "NMDA 受体介导印迹细胞的 LTP 形式突触增强；印迹建立约 84% 依赖 NMDA 受体"},
-    {"from": "engram-cells", "to": "dendritic-computation", "type": "related", "note": "树突钙平台电位（BTSP 触发器）可能是印迹细胞快速突触写入的细胞机制"},
-    {"from": "engram-cells", "to": "memory-consolidation", "type": "related", "note": "SWR 重播可能将海马印迹转移/复制至皮层印迹，是系统巩固的印迹层面机制"},
-    {"from": "engram-cells", "to": "sharp-wave-ripples", "type": "related", "note": "SWR 期间印迹细胞以约 20 倍速高速重播，推动海马→皮层固化"},
-    {"from": "ltp", "to": "engram-cells", "type": "related", "note": "LTP 是印迹细胞建立突触增强的主要分子机制；光学 LTP 可恢复沉默印迹"},
-    {"from": "place-cell", "to": "engram-cells", "type": "related", "note": "CA1 场所细胞是情景记忆印迹细胞的典型代表；Liu 2012, Roy 2016 均使用海马场所细胞区域标记印迹"},
-    {"from": "hippocampal-circuit", "to": "engram-cells", "type": "related", "note": "海马三突触回路（DG→CA3→CA1）提供了印迹间优先连接链的解剖基础"},
-    {"from": "hebbian-learning", "to": "engram-cells", "type": "supports", "note": "印迹细胞是 Hebb 学习规则在细胞集合层面的实验证明"},
-    {"from": "voltage-gated-calcium-channels", "to": "synaptic-transmission", "type": "mechanism-of", "note": "CaV2.1（P/Q型）和CaV2.2（N型）在突触前活动区开放→局部Ca²⁺浓度骤升→触发囊泡融合和递质释放"},
-    {"from": "voltage-gated-calcium-channels", "to": "active-zone", "type": "part-of", "note": "CaV2.1（P/Q型）是活动区纳米域耦合的核心通道，与SNARE蛋白和囊泡在10-30 nm内精密定位"},
-    {"from": "voltage-gated-calcium-channels", "to": "SNARE-complex", "type": "regulates", "note": "CaV2通道synprint位点（域II-III环）直接结合syntaxin-1A和SNAP-25，预招募SNARE复合体至钙进入位点"},
-    {"from": "voltage-gated-calcium-channels", "to": "synaptotagmin", "type": "related", "note": "Synaptotagmin-1 C2B域与CaV2通道synprint位点预结合；CaV2开放产生的局部高钙（tens of μM）激活Syt1"},
-    {"from": "voltage-gated-calcium-channels", "to": "btsp", "type": "mechanism-of", "note": "L型通道（CaV1.2/1.3）为BTSP触发所需的树突钙平台电位提供持续Ca²⁺内流（尼莫地平阻断→73% BTSP降低）"},
-    {"from": "voltage-gated-calcium-channels", "to": "ltp", "type": "mechanism-of", "note": "CaV1.2通过mTORC1途径参与TBS-LTP（局部蛋白合成），并通过核Ca²⁺→CaM→CaMKIV→CREB链路驱动晚期LTP转录"},
-    {"from": "voltage-gated-calcium-channels", "to": "dendritic-computation", "type": "mechanism-of", "note": "L型通道（CaV1.3低阈值，CaV1.2持续开放）参与树突Ca²⁺棘波和平台电位的维持，是树突非线性计算的分子基础之一"},
-    {"from": "voltage-gated-calcium-channels", "to": "nmda-receptor", "type": "related", "note": "NMDA受体和L型通道是BTSP/LTP中的两种协作Ca²⁺来源；两者在平台电位触发中存在功能协同（NMDA提供主要触发，L型维持持续内流）"},
-    {"from": "voltage-gated-calcium-channels", "to": "action-potential", "type": "related", "note": "动作电位的去极化波触发CaV2.1/2.2在突触前终末开放；反向传播AP（bAP）也激活树突中的L型通道"},
-    {"from": "voltage-gated-calcium-channels", "to": "camkii", "type": "regulates", "note": "CaV1.2开放产生的Ca²⁺经CaM激活CaMKII；另外自磷酸化CaMKII反向结合CaV2.1增强其活性（效应器检查点）"},
-    {"from": "action-potential", "to": "voltage-gated-calcium-channels", "type": "mechanism-of", "note": "突触前动作电位到达（局部去极化）是CaV2.1/2.2开放的触发信号"},
-    {"from": "ltp", "to": "voltage-gated-calcium-channels", "type": "prerequisite-for", "note": "理解LTP的Ca²⁺来源需先理解电压门控钙通道（L型通道是LTP所需核Ca²⁺的主要来源之一）"},
-    {"from": "memory-consolidation", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "SWR 是系统巩固的物理执行机制：CA3→CA1 群体重播在50ms内以20倍速传递海马记忆信号至新皮层"},
-    {"from": "memory-consolidation", "to": "hippocampal-circuit", "type": "mechanism-of", "note": "海马三突触回路（DG→CA3→CA1→EC→皮层）是系统巩固信息流的解剖通道"},
-    {"from": "memory-consolidation", "to": "ltp", "type": "mechanism-of", "note": "皮层侧记忆痕迹建立通过 LTP 型突触增强实现；SWR 反复激活→Hebb 型→皮层突触权重增加"},
-    {"from": "memory-consolidation", "to": "theta-oscillations", "type": "related", "note": "θ（第一阶段，编码）与 SWR（第二阶段，巩固）是系统巩固两阶段模型的两个半程"},
-    {"from": "memory-consolidation", "to": "engram-cells", "type": "related", "note": "系统巩固将海马印迹转写/复制至皮层印迹；沉默印迹可能代表系统巩固被阻断（权重未随时间恢复）的状态"},
-    {"from": "memory-consolidation", "to": "place-cell", "type": "related", "note": "场所细胞序列是 SWR 重播的具体内容；场所细胞是海马侧记忆的细胞基础"},
-    {"from": "memory-consolidation", "to": "hebbian-learning", "type": "mechanism-of", "note": "系统巩固通过 SWR 驱动的反复 Hebb 激活在皮层建立长期记忆——Hebb 规则在全脑网络时间尺度的体现"},
-    {"from": "memory-consolidation", "to": "btsp", "type": "related", "note": "BTSP（第一阶段，单次快速写入）与系统巩固（第二阶段，多夜慢速皮层化）是记忆从行为经历到长期存储的两个必要步骤"},
-    {"from": "sharp-wave-ripples", "to": "memory-consolidation", "type": "mechanism-of", "note": "SWR 是系统巩固的物理载体：离线重播驱动海马→皮层信息转移"},
-    {"from": "hippocampal-circuit", "to": "memory-consolidation", "type": "related", "note": "海马回路（特别是 CA3 循环连接→CA1 SWR）是系统巩固的发生场所"},
-    {"from": "engram-cells", "to": "memory-consolidation", "type": "related", "note": "系统巩固将海马印迹复制至皮层，形成分布式皮层印迹；光遗传恢复沉默印迹可能通过人工触发类 SWR 机制"},
-    {"from": "place-cell", "to": "memory-consolidation", "type": "related", "note": "场所细胞序列在 SWR 重播期间被传递至皮层，是海马侧记忆巩固输入的内容"},
-    {"from": "ltp", "to": "memory-consolidation", "type": "related", "note": "皮层 LTP 是系统巩固的最终分子机制；SWR 重播触发皮层 Hebb 激活 → 皮层 LTP → 长期记忆痕迹"},
-    {"from": "theta-oscillations", "to": "memory-consolidation", "type": "related", "note": "θ（编码/第一阶段）与 SWR（巩固/第二阶段）是两阶段记忆巩固模型中互补的海马工作模式"},
-    {"from": "temporal-coding-hierarchy", "to": "memory-consolidation", "type": "related", "note": "系统巩固是嵌套时间编码层级中最慢的一层（天—年尺度），通过 SWR 离线重播实现最终皮层化"},
-    {"from": "pv-interneurons", "to": "action-potential", "type": "regulates", "note": "PV+ 篮状细胞通过胞体/近端树突抑制，以毫秒级精度控制锥体细胞的动作电位产生时序"},
-    {"from": "pv-interneurons", "to": "chandelier-cell", "type": "related", "note": "吊灯细胞是 PV+ 中间神经元的 AIS 靶向亚类；篮状细胞是胞体靶向亚类"},
-    {"from": "pv-interneurons", "to": "theta-oscillations", "type": "mechanism-of", "note": "PV+ 篮状细胞在 θ 相位特定时刻放电，参与 θ/γ 振荡的产生和维持"},
-    {"from": "pv-interneurons", "to": "sharp-wave-ripples", "type": "mechanism-of", "note": "CA1 PV+ 篮状细胞在 SWR 期间强烈放电，产生 100–200 Hz 涟漪波形"},
-    {"from": "pv-interneurons", "to": "hippocampal-circuit", "type": "part-of", "note": "CA1 中 PV+ 篮状细胞和吊灯细胞是海马回路的关键抑制性元素"},
-    {"from": "pv-interneurons", "to": "disinhibitory-circuit", "type": "related", "note": "PV+ 是去抑制回路的被抑制靶标之一（VIP → PV+/SST+）"},
-    {"from": "sst-interneurons", "to": "dendritic-computation", "type": "regulates", "note": "SST+ Martinotti 细胞靶向顶端树突簇，抑制 Ca²⁺ 棘波和 NMDA 棘波，调控树突非线性计算阈值"},
-    {"from": "sst-interneurons", "to": "theta-oscillations", "type": "related", "note": "CA1 O-LM 细胞（SST+ 亚型）在 θ 期间活跃，靶向内嗅皮层输入区（SLM），实现 θ 相位依赖的 EC 输入门控"},
-    {"from": "sst-interneurons", "to": "hippocampal-circuit", "type": "part-of", "note": "CA1 O-LM 细胞和 bistratified 细胞是海马主要 SST+ 类型，分别靶向 SLM（EC 输入）和 str. oriens/radiatum（CA3 输入）"},
-    {"from": "sst-interneurons", "to": "disinhibitory-circuit", "type": "related", "note": "SST+ 是去抑制回路的主要被抑制靶标（VIP → SST+），解除 SST+ 对树突的抑制是去抑制的主要通路"},
-    {"from": "sst-interneurons", "to": "btsp", "type": "related", "note": "SST+ Martinotti 细胞可能通过调控树突 Ca²⁺ 棘波阈值来影响 BTSP 的触发概率"},
-    {"from": "vip-interneurons", "to": "sst-interneurons", "type": "regulates", "note": "VIP+ 细胞主要抑制 SST+（部分 PV+），实现去抑制"},
-    {"from": "vip-interneurons", "to": "pv-interneurons", "type": "regulates", "note": "VIP+ 细胞部分抑制 PV+，次要去抑制通路"},
-    {"from": "vip-interneurons", "to": "disinhibitory-circuit", "type": "mechanism-of", "note": "VIP+ 细胞是去抑制回路的第一级——它们激活后抑制 SST/PV，实现对锥体细胞的净去抑制"},
-    {"from": "vip-interneurons", "to": "hebbian-learning", "type": "related", "note": "VIP 介导的去抑制为 Hebb 学习规则提供行为驱动的'学习许可'信号（三因素学习规则的回路基础）"},
-    {"from": "disinhibitory-circuit", "to": "vip-interneurons", "type": "mechanism-of", "note": "VIP+ 细胞是去抑制回路的核心执行者（第一级门控）"},
-    {"from": "disinhibitory-circuit", "to": "hebbian-learning", "type": "supports", "note": "去抑制在关键行为时刻（奖励/惩罚/注意）打开学习窗口，支持 Hebb 型突触可塑性的选择性发生"},
-    {"from": "disinhibitory-circuit", "to": "engram-cells", "type": "related", "note": "去抑制可能在印迹分配的竞争性 CREB 上调过程中选择性放大特定锥体细胞，影响印迹细胞集合组成"},
-    {"from": "chandelier-cell", "to": "pv-interneurons", "type": "is-a", "note": "吊灯细胞是 PV+ 中间神经元的 AIS 靶向亚类"},
-    {"from": "ltd", "to": "ltp", "type": "related", "note": "LTD 与 LTP 构成突触双向可塑性：同一 NMDA 受体，Ca²⁺ 量决定方向（BCM 框架）"},
-    {"from": "ltp", "to": "ltd", "type": "related", "note": "LTP 的对称补充：高 Ca²⁺→CaMKII→LTP；低 Ca²⁺→PP2B/PP1→LTD"},
-    {"from": "ltd", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA 受体低频激活产生中等 Ca²⁺→PP2B 激活→NMDA-LTD"},
-    {"from": "nmda-receptor", "to": "ltd", "type": "mechanism-of", "note": "NMDA 受体是 NMDA-LTD 的触发受体；Ca²⁺ 量（而非 Ca²⁺ 本身）决定 LTD vs. LTP"},
-    {"from": "ltd", "to": "ampa-receptor", "type": "mechanism-of", "note": "LTD 的最终效应是 AMPA 受体内吞离开突触，使突触权重降低"},
-    {"from": "ampa-receptor", "to": "ltd", "type": "mechanism-of", "note": "AMPAR 内吞（GluA1 去磷酸化、GluA2 Ser880 磷酸化→PICK1）是 LTD 的物理表达"},
-    {"from": "calcineurin", "to": "ltd", "type": "mechanism-of", "note": "PP2B（钙调磷酸酶）是 NMDA-LTD 的第一个效应磷酸酶，中等 Ca²⁺ 激活"},
-    {"from": "calcineurin", "to": "ampa-receptor", "type": "regulates", "note": "PP2B→PP1 级联使 GluA1 Ser831/Ser845 去磷酸化，驱动 AMPAR 内吞"},
-    {"from": "nmda-receptor", "to": "calcineurin", "type": "regulates", "note": "NMDA 受体 Ca²⁺ 内流（低频/低量）优先激活高亲和力的 PP2B"},
-    {"from": "camkii", "to": "calcineurin", "type": "related", "note": "CaMKII（LTP激酶，低亲和力）与 PP2B（LTD 磷酸酶，高亲和力）竞争 Ca²⁺-CaM，是突触方向性决定的核心对立对"},
-    {"from": "arc-arg31", "to": "ltd", "type": "mechanism-of", "note": "Arc 是 mGluR-LTD 的执行蛋白：与 dynamin/endophilin 结合→促进 AMPAR 内吞"},
-    {"from": "arc-arg31", "to": "ampa-receptor", "type": "regulates", "note": "Arc 直接通过 dynamin/endophilin 加速网格蛋白介导的 AMPAR 内吞"},
-    {"from": "arc-arg31", "to": "ltp", "type": "related", "note": "Arc 也参与 L-LTP 巩固（通过 PAK-LIMK-cofilin 稳定树突棘肌动蛋白）；双向功能取决于活动量"},
-    {"from": "ltd", "to": "memory-consolidation", "type": "related", "note": "睡眠期间突触稳态下调（SHY 假说）可能涉及广泛的 LTD 类机制；LTD 是防止突触饱和、维持学习容量的机制"},
-    {"from": "working-memory", "to": "persistent-activity", "type": "mechanism-of", "note": "持续活动（γ爆发）是工作记忆维持的活动性编码机制"},
-    {"from": "working-memory", "to": "gamma-oscillations", "type": "mechanism-of", "note": "γ爆发是工作记忆间歇性信息编码的振荡载体"},
-    {"from": "working-memory", "to": "prefrontal-cortex", "type": "related", "note": "dlPFC 第2/3/5层循环回路是工作记忆的关键神经基础"},
-    {"from": "working-memory", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA 受体慢衰减（τ~100-300ms）是 PFC 吸引子回路时间积分的分子基础"},
-    {"from": "working-memory", "to": "pv-interneurons", "type": "mechanism-of", "note": "PV 篮状细胞通过 γ 爆发控制工作记忆信息编码的时序精度"},
-    {"from": "working-memory", "to": "theta-oscillations", "type": "related", "note": "θ/γ嵌套：每个θ周期可嵌套5-7个γ爆发，可能与工作记忆容量相关"},
-    {"from": "working-memory", "to": "memory-consolidation", "type": "related", "note": "工作记忆长期化需要海马参与巩固"},
-    {"from": "persistent-activity", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA受体慢衰减使吸引子网络在刺激消失后维持循环激活"},
-    {"from": "persistent-activity", "to": "gamma-oscillations", "type": "related", "note": "持续活动的实际形式是间歇性γ爆发（Lundqvist 2016），非连续高频放电"},
-    {"from": "persistent-activity", "to": "prefrontal-cortex", "type": "related", "note": "延迟期活动主要发生在 dlPFC L2/3 锥体细胞"},
-    {"from": "gamma-oscillations", "to": "pv-interneurons", "type": "mechanism-of", "note": "PV 篮状细胞兴奋-抑制 PING 回路是皮层 γ 振荡的核心生成机制"},
-    {"from": "gamma-oscillations", "to": "theta-oscillations", "type": "related", "note": "θ/γ 嵌套耦合：θ 提供时间框架，γ 承载内容；与海马编码序列的嵌套层级相同原理"},
-    {"from": "gamma-oscillations", "to": "prefrontal-cortex", "type": "related", "note": "dlPFC 中 γ 爆发是工作记忆的振荡载体；精神分裂症中 γ 减弱"},
-    {"from": "prefrontal-cortex", "to": "working-memory", "type": "related", "note": "dlPFC 是工作记忆维持的关键脑区"},
-    {"from": "prefrontal-cortex", "to": "pv-interneurons", "type": "related", "note": "dlPFC PV 篮状细胞产生 γ，调控工作记忆时序"},
-    {"from": "prefrontal-cortex", "to": "memory-consolidation", "type": "related", "note": "PFC 是记忆巩固后远端记忆的皮层存储库"},
-    {"from": "competition-selection-principle", "to": "ltp", "type": "related", "note": "LTP 是突触级竞争中的强化方向（高 Ca²⁺ → CaMKII 胜出）"},
-    {"from": "competition-selection-principle", "to": "ltd", "type": "related", "note": "LTD 是突触级竞争中的减弱方向（低 Ca²⁺ → calcineurin 胜出）"},
-    {"from": "competition-selection-principle", "to": "engram-cells", "type": "mechanism-of", "note": "印迹细胞的 CREB 竞争分配是细胞级竞争-遴选的典型实例"},
-    {"from": "competition-selection-principle", "to": "memory-consolidation", "type": "mechanism-of", "note": "睡眠 SWR 选择性重播是系统级竞争-遴选的实现"},
-    {"from": "competition-selection-principle", "to": "pv-interneurons", "type": "related", "note": "PV+ 中间神经元的时序门控是回路级竞争-遴选的主要执行者"},
-    {"from": "competition-selection-principle", "to": "sst-interneurons", "type": "related", "note": "SST+ 中间神经元的树突门控是回路级竞争-遴选的重要组成"},
-    {"from": "competition-selection-principle", "to": "vip-interneurons", "type": "related", "note": "VIP+ 去抑制回路是竞争-遴选的'开关'：在显著性信号时打开遴选门"},
-    {"from": "competition-selection-principle", "to": "working-memory", "type": "mechanism-of", "note": "工作记忆容量限制（约4项）是认知级吸引子竞争的物理结果"},
-    {"from": "competition-selection-principle", "to": "sharp-wave-ripples", "type": "related", "note": "SWR 是竞争-遴选架构的系统级执行机制"},
-    {"from": "competition-selection-principle", "to": "temporal-coding-hierarchy", "type": "related", "note": "竞争-遴选架构（决定选什么）与时间编码层级（决定何时编码）是互补的两个统一框架"},
-    {"from": "engram-cells", "to": "competition-selection-principle", "type": "related", "note": "印迹细胞分配是嵌套竞争-遴选架构在细胞层次的具体实例"},
-    {"from": "memory-consolidation", "to": "competition-selection-principle", "type": "related", "note": "睡眠选择性巩固是嵌套竞争-遴选架构在系统层次的具体实例"},
-    {"from": "working-memory", "to": "competition-selection-principle", "type": "related", "note": "工作记忆吸引子竞争是嵌套竞争-遴选架构在认知层次的具体实例"},
-    {"from": "temporal-coding-hierarchy", "to": "competition-selection-principle", "type": "related", "note": "嵌套竞争-遴选架构与时间编码层级互补：前者定义选什么，后者定义何时和如何"},
-    {"from": "three-factor-learning-rule", "to": "hebbian-learning", "type": "mechanism-of", "note": "三因素规则是 Hebb 规则加入全局调制信号（M）的扩展，赋予 Hebbian 可塑性方向性"},
-    {"from": "three-factor-learning-rule", "to": "ltp", "type": "mechanism-of", "note": "三因素规则正向输出（DA > 0 时）= 突触 LTP；DA 诱导的 L-LTP 是三因素规则的持久化表达"},
-    {"from": "dopamine-reward-prediction-error", "to": "three-factor-learning-rule", "type": "supports", "note": "DA-RPE 信号是三因素规则中调制因子 M 的主要来源（奖励学习）"},
-    {"from": "synaptic-tagging-capture", "to": "ltp", "type": "mechanism-of", "note": "STC 是晚期 LTP 选择性诱导的分子接口：Hebbian 标签 + DA-PRP 捕获 → E-LTP 升级为 L-LTP"},
-    {"from": "synaptic-tagging-capture", "to": "dopamine-reward-prediction-error", "type": "mechanism-of", "note": "DA 爆发（D1→PKA→CREB）触发 PRP 合成，被突触标签捕获，是 STC 的'捕获'端"},
-    {"from": "dopamine-reward-prediction-error", "to": "working-memory", "type": "regulates", "note": "DA D1 受体通过'倒U型'调节 dlPFC 工作记忆信噪比；DA 过低或过高均损害 WM"},
-    {"from": "dopamine-reward-prediction-error", "to": "engram-cells", "type": "related", "note": "DA 可能调制 CREB 竞争性分配，影响印迹细胞集合的组成（假说）"},
-    {"from": "dopamine-reward-prediction-error", "to": "memory-consolidation", "type": "related", "note": "奖励信号（DA 爆发）偏置 SWR 重播，加速与奖励相关的记忆固化效率"},
-    {"from": "dopamine-reward-prediction-error", "to": "competition-selection-principle", "type": "related", "note": "DA-RPE 可能是细胞层面（CREB 竞争）和去抑制回路（VIP 激活）中竞争机制的上游调控信号"},
-    {"from": "three-factor-learning-rule", "to": "camkii", "type": "related", "note": "CaMKII 是 Hebbian 激活（pre × post）的分子执行器，可能同时是突触标签的分子身份"},
-    {"from": "three-factor-learning-rule", "to": "ampa-receptor", "type": "mechanism-of", "note": "三因素 LTP 最终通过 GluA1 磷酸化（PKA/CaMKII）和 AMPAR 插入表达"},
-    {"from": "three-factor-learning-rule", "to": "competition-selection-principle", "type": "related", "note": "三因素规则在突触层面实现了竞争性遴选——只有'值得学习的'突触（满足Hebbian条件 + 正RPE）被选择增强"},
-    {"from": "synaptic-tagging-capture", "to": "camkii", "type": "related", "note": "CaMKII T286 磷酸化构象是突触标签的候选分子机制（假说，未直接验证）"},
-    {"from": "synaptic-tagging-capture", "to": "hebbian-learning", "type": "mechanism-of", "note": "Hebbian 激活设置突触标签（STC 的'标记'端）；两者在三因素规则时间整合中互为必要条件"},
-    {"from": "alzheimers-disease", "to": "ltp", "type": "contradicts", "note": "AD核心病理是LTP的系统性失效；Aβ寡聚体通过多通路将LTP机器单向阻断"},
-    {"from": "alzheimers-disease", "to": "nmda-receptor", "type": "related", "note": "突触外NR2B-NMDA受体是AD中LTP失效的核心分子靶点；Aβ通过PrPC/Fyn磷酸化NR2B并优先激活突触外NR2B/p38/CREB通路"},
-    {"from": "alzheimers-disease", "to": "hippocampal-circuit", "type": "related", "note": "CA3-CA1 Schaffer侧支是AD最早受损的突触类型；内嗅皮层→海马是Aβ传播的早期通路（Braak I期）"},
-    {"from": "alzheimers-disease", "to": "memory-consolidation", "type": "related", "note": "AD损害记忆巩固的系统机制（海马突触强度被Aβ压低→SWR重播信号减弱→巩固效率下降）"},
-    {"from": "alzheimers-disease", "to": "engram-cells", "type": "related", "note": "AD早期产生'沉默印迹'（Roy 2016光学恢复实验）：印迹细胞拓扑保留但突触强度被Aβ压低；早期干预可恢复"},
-    {"from": "alzheimers-disease", "to": "theta-oscillations", "type": "related", "note": "AD早期theta-gamma耦合损伤（早于Aβ大量产生），关闭LTP时间门控；SST+中间神经元脆弱性是关键"},
-    {"from": "alzheimers-disease", "to": "synaptic-tagging-capture", "type": "related", "note": "Aβ通过截断BDNF-TrkB信号阻断STC机制中的PRP合成，使突触标签无法被捕获，L-LTP无法巩固"},
-    {"from": "amyloid-beta-oligomers", "to": "ltp", "type": "contradicts", "note": "Aβ寡聚体是LTP的主要分子劫持者；通过突触外NR2B、calcineurin、BDNF截断等5条通路阻断LTP；Walsh 2002天然分泌寡聚体体内LTP抑制实验"},
-    {"from": "amyloid-beta-oligomers", "to": "nmda-receptor", "type": "mechanism-of", "note": "Aβ通过PrPC/mGluR5/Fyn激酶磷酸化NR2B，优先激活突触外NR2B（p38/CREB失活）而非突触内NR2B（CaMKII/LTP通路）"},
-    {"from": "amyloid-beta-oligomers", "to": "calcineurin", "type": "regulates", "note": "Aβ引发的慢性低幅Ca²⁺过载优先激活calcineurin，驱动GluA1 Ser845去磷酸化→AMPA受体内吞，突触强度崩解"},
-    {"from": "amyloid-beta-oligomers", "to": "camkii", "type": "contradicts", "note": "CaMKII活性在Aβ暴露的海马脑片中降低约60%，LTP诱导的关键激酶失效"},
-    {"from": "amyloid-beta-oligomers", "to": "ampa-receptor", "type": "regulates", "note": "Aβ寡聚体通过calcineurin过激活驱动AMPA受体GluA1大量内吞，突触表面谷氨酸受体密度持续下降"},
-    {"from": "alzheimers-disease", "to": "amyloid-beta-oligomers", "type": "mechanism-of", "note": "Aβ寡聚体是AD突触病理的核心毒性物种（区别于不溶性斑块）"},
-    {"from": "optogenetics", "to": "action-potential", "type": "mechanism-of", "note": "ChR2 蓝光激活诱发动作电位；NpHR/Arch 黄光激活超极化抑制动作电位"},
-    {"from": "optogenetics", "to": "engram-cells", "type": "supports", "note": "ChR2 + c-fos-tTA 系统是印迹细胞研究的核心因果工具（假记忆、效价翻转、沉默印迹恢复）"},
-    {"from": "optogenetics", "to": "hippocampal-circuit", "type": "related", "note": "大量海马 DG/CA3/CA1 回路的因果解析依赖光遗传学；假记忆实验在 DG 完成"},
-    {"from": "optogenetics", "to": "place-cell", "type": "supports", "note": "光遗传学激活场所细胞可触发空间行为，提供场所细胞功能的因果证明"},
-    {"from": "optogenetics", "to": "pv-interneurons", "type": "related", "note": "选择性激活/沉默 PV+ 细胞验证了 gamma 振荡与认知功能的因果关系"},
-    {"from": "optogenetics", "to": "ltp", "type": "supports", "note": "光学 LTP（高频光刺激印迹细胞）可恢复沉默印迹；PMID:26982728"},
-    {"from": "optogenetics", "to": "dopamine-reward-prediction-error", "type": "related", "note": "选择性激活 VTA DA 神经元可诱发奖励行为，验证 DA-RPE 的因果角色"},
-    {"from": "optogenetics", "to": "disinhibitory-circuit", "type": "related", "note": "光激活 VIP+ 中间神经元直接验证了去抑制回路的行为功能"},
-    {"from": "optogenetics", "to": "memory-consolidation", "type": "related", "note": "光遗传学在体 SWR 期间操控 CA3/CA1 活动，验证了 SWR 重播在记忆巩固中的因果角色"},
-    {"from": "optogenetics", "to": "voltage-gated-sodium-channel", "type": "prerequisite-for", "note": "理解光遗传学需理解动作电位及钠通道（ChR2 激活最终通过钠通道达到阈值放电）"},
-    {"from": "optogenetics", "to": "synaptic-transmission", "type": "related", "note": "光遗传学可在突触前和突触后层面操控突触传递；opto-vTrap可逆阻断囊泡释放"},
-    {"from": "engram-cells", "to": "optogenetics", "type": "related", "note": "印迹细胞研究为光遗传学提供了最有力的实验展示场景"},
-    {"from": "hippocampal-circuit", "to": "optogenetics", "type": "related", "note": "光遗传学是海马回路功能最重要的在体解析工具之一"},
-    {"from": "short-term-synaptic-plasticity", "to": "synaptotagmin", "type": "mechanism-of", "note": "Syt7（高亲和力慢解离）是大多数中枢突触易化的主要分子传感器；Syt1是快速同步释放传感器"},
-    {"from": "short-term-synaptic-plasticity", "to": "readily-releasable-pool", "type": "mechanism-of", "note": "RRP耗竭是突触抑制的主要机制；RRP大小和补充速率决定抑制深度和恢复时间"},
-    {"from": "short-term-synaptic-plasticity", "to": "synaptic-transmission", "type": "related", "note": "STP是突触传递的时序扩展：将固定增益传递变为历史依赖的动态计算"},
-    {"from": "short-term-synaptic-plasticity", "to": "active-zone", "type": "mechanism-of", "note": "RRP囊泡停靠在活动区；活动区蛋白（RIM、Munc13）的结构决定RRP大小"},
-    {"from": "short-term-synaptic-plasticity", "to": "voltage-gated-calcium-channels", "type": "related", "note": "残余钙（激活Syt7，驱动易化）来自钙通道关闭后胞质未完全清除；CaV2是突触前钙内流的主要来源"},
-    {"from": "short-term-synaptic-plasticity", "to": "working-memory", "type": "supports", "note": "Mongillo 2008突触工作记忆理论：STP易化状态在PFC突触中储存活动无声WM信息，无需持续高频放电"},
-    {"from": "short-term-synaptic-plasticity", "to": "pv-interneurons", "type": "related", "note": "Syt7在PV+快发放抑制性突触的特殊设计：隐藏易化精确抵消depression，实现频率不变传输（PC→DCN模型）"},
-    {"from": "synaptotagmin", "to": "short-term-synaptic-plasticity", "type": "mechanism-of", "note": "Syt7亚型是STP易化的主要分子执行蛋白；Syt1负责快速同步释放（与STP抑制无关）"},
-    {"from": "readily-releasable-pool", "to": "synaptic-transmission", "type": "part-of", "note": "RRP是突触传递的核心物理组件；RRP大小和释放概率p共同决定单次动作电位的传递强度"},
-    {"from": "readily-releasable-pool", "to": "active-zone", "type": "part-of", "note": "RRP囊泡停靠于活动区的释放位点；活动区蛋白（RIM、Munc13、Munc18）维持RRP的稳定态"},
-    {"from": "orientation-selectivity", "to": "v1-primary-visual-cortex", "type": "mechanism-of", "note": "方向选择性是V1将LGN非定向输入转化为定向编码的核心计算成就"},
-    {"from": "v1-primary-visual-cortex", "to": "orientation-selectivity", "type": "supports", "note": "V1的感受野组织（LGN排列、方向柱/盐-胡椒、E/I平衡）共同支撑方向选择性"},
-    {"from": "orientation-selectivity", "to": "dendritic-computation", "type": "mechanism-of", "note": "Wilson 2016：树突NMDA棘波在方向选择性中提供额外非线性增益层（偏好方向热点2倍于非偏好方向）"},
-    {"from": "orientation-selectivity", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA受体驱动树突棘波，是树突对方向信息进行局部增益整合的分子机器"},
-    {"from": "orientation-selectivity", "to": "pv-interneurons", "type": "related", "note": "PV+中间神经元是V1 E/I平衡的主要抑制元素，参与对比度不变性方向调谐的维持"},
-    {"from": "synaptic-clustering", "to": "dendritic-computation", "type": "mechanism-of", "note": "突触聚类使NMDA棘波局部化，是树突非线性计算从理论可能变为功能实现的关键步骤"},
-    {"from": "synaptic-clustering", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA受体是突触聚类→超线性整合的分子执行者；相邻同向突触聚类→局部去极化累积→Mg²⁺阻断解除→NMDA棘波"},
-    {"from": "synaptic-clustering", "to": "orientation-selectivity", "type": "supports", "note": "Wilson 2016：突触聚类程度与V1神经元方向选择性锐利度（OSI）正相关；是前馈+E/I之外的第三层增益机制"},
-    {"from": "dendritic-computation", "to": "synaptic-clustering", "type": "related", "note": "突触聚类是树突计算框架中功能连接特异性的具体实现；Wilson 2016将树突计算理论与感觉编码功能直接联系"},
-    {"from": "v1-primary-visual-cortex", "to": "dendritic-computation", "type": "related", "note": "V1是树突突触聚类增强方向选择性（Wilson 2016）的实验脑区；V1研究扩展了树突计算理论的体内支持"},
-    {"from": "v1-primary-visual-cortex", "to": "pv-interneurons", "type": "related", "note": "PV+篮状细胞是V1 E/I平衡维持方向选择性对比度不变性的主要抑制元素"},
-    {"from": "v1-primary-visual-cortex", "to": "sst-interneurons", "type": "related", "note": "SST+中间神经元靶向树突，通过调控NMDA棘波阈值参与V1方向选择性的树突层面调控"},
-    {"from": "v1-primary-visual-cortex", "to": "prefrontal-cortex", "type": "related", "note": "PFC通过自上而下反馈投射（注意、预期）调制V1方向选择性；预测编码框架中PFC→V1传递预测信号"},
-    {"from": "acetylcholine-cortex", "to": "orientation-selectivity", "type": "regulates", "note": "ACh通过肌碱受体放大V1注意调制（Herrero 2008，PMID:18633352）"},
-    {"from": "acetylcholine-cortex", "to": "v1-primary-visual-cortex", "type": "regulates", "note": "ACh在V1产生响应增益提升，M1受体介导"},
-    {"from": "acetylcholine-cortex", "to": "working-memory", "type": "regulates", "note": "M1受体促进持续放电；α7-nAChR增强PFC NMDA信号"},
-    {"from": "acetylcholine-cortex", "to": "ltp", "type": "regulates", "note": "ACh通过M1促进皮层可塑性（M1→NMDA协同→LTP阈值降低）"},
-    {"from": "acetylcholine-cortex", "to": "memory-consolidation", "type": "related", "note": "低ACh（睡眠期）→皮层同步→有利SWR重放和系统固化"},
-    {"from": "acetylcholine-cortex", "to": "theta-oscillations", "type": "regulates", "note": "内侧隔核Ch1/2胆碱能投射至海马支持θ振荡"},
-    {"from": "acetylcholine-cortex", "to": "gain-control", "type": "mechanism-of", "note": "ACh是皮层增益控制的主要实现机制之一"},
-    {"from": "acetylcholine-cortex", "to": "neuromodulator-systems", "type": "is-a", "note": "ACh系统是四大皮层调质系统之一"},
-    {"from": "norepinephrine-locus-coeruleus", "to": "working-memory", "type": "regulates", "note": "α2A稳定PFC WM表征；α1（高NE）损害WM；胍法辛(α2A激动剂)是ADHD治疗药物"},
-    {"from": "norepinephrine-locus-coeruleus", "to": "ltp", "type": "regulates", "note": "β受体激活→cAMP→降低海马LTP阈值→情绪记忆增强（普萘洛尔β拮抗剂减弱）"},
-    {"from": "norepinephrine-locus-coeruleus", "to": "memory-consolidation", "type": "regulates", "note": "NE在NREM睡眠影响记忆固化；β阻断剂减弱情绪记忆巩固"},
-    {"from": "norepinephrine-locus-coeruleus", "to": "dopamine-reward-prediction-error", "type": "related", "note": "同为神经调质系统，NE/DA协同调节行为状态和奖励学习"},
-    {"from": "norepinephrine-locus-coeruleus", "to": "gain-control", "type": "mechanism-of", "note": "NE是皮层增益控制的主要实现机制之一（相位/紧张双模+倒U曲线）"},
-    {"from": "norepinephrine-locus-coeruleus", "to": "neuromodulator-systems", "type": "is-a", "note": "NE系统是四大皮层调质系统之一"},
-    {"from": "neuromodulator-systems", "to": "dopamine-reward-prediction-error", "type": "related", "note": "DA是第四种皮层调质系统（奖励/动机调制）"},
-    {"from": "neuromodulator-systems", "to": "three-factor-learning-rule", "type": "related", "note": "DA是三因素规则中的第三因子；ACh/NE也可作为调制因子"},
-    {"from": "gain-control", "to": "v1-primary-visual-cortex", "type": "mechanism-of", "note": "增益控制在V1感觉编码和注意调制中的核心作用"},
-    {"from": "gain-control", "to": "working-memory", "type": "related", "note": "PFC WM中的增益调控（NE α2A稳定WM表征）"},
-    {"from": "gain-control", "to": "orientation-selectivity", "type": "regulates", "note": "ACh增益控制影响V1方向选择性神经元的注意调制"}
+    {
+      "from": "axon-initial-segment",
+      "to": "action-potential",
+      "type": "mechanism-of",
+      "note": "AIS 是动作电位的发起位点"
+    },
+    {
+      "from": "voltage-gated-sodium-channel",
+      "to": "action-potential",
+      "type": "mechanism-of",
+      "note": "Nav 通道驱动动作电位上升相"
+    },
+    {
+      "from": "hodgkin-huxley-model",
+      "to": "action-potential",
+      "type": "supports",
+      "note": "H-H 模型定量描述动作电位"
+    },
+    {
+      "from": "voltage-gated-sodium-channel",
+      "to": "axon-initial-segment",
+      "type": "part-of",
+      "note": "NaV1.6/1.2 在 AIS 超高密度聚集"
+    },
+    {
+      "from": "chandelier-cell",
+      "to": "axon-initial-segment",
+      "type": "regulates",
+      "note": "吊灯细胞特异抑制 AIS"
+    },
+    {
+      "from": "chandelier-cell",
+      "to": "action-potential",
+      "type": "regulates",
+      "note": "经抑制 AIS 控制动作电位产生"
+    },
+    {
+      "from": "action-potential",
+      "to": "voltage-gated-sodium-channel",
+      "type": "prerequisite-for",
+      "note": "理解动作电位需先懂钠通道"
+    },
+    {
+      "from": "hodgkin-huxley-model",
+      "to": "voltage-gated-sodium-channel",
+      "type": "related",
+      "note": "模型刻画钠通道动力学"
+    },
+    {
+      "from": "axon-initial-segment",
+      "to": "hodgkin-huxley-model",
+      "type": "related",
+      "note": "H-H 描述 AIS 处电导"
+    },
+    {
+      "from": "action-potential",
+      "to": "synaptic-transmission",
+      "type": "prerequisite-for",
+      "note": "动作电位传到突触前终末触发突触传递"
+    },
+    {
+      "from": "active-zone",
+      "to": "synaptic-transmission",
+      "type": "mechanism-of",
+      "note": "活动区是突触传递的物理执行平台"
+    },
+    {
+      "from": "SNARE-complex",
+      "to": "synaptic-transmission",
+      "type": "mechanism-of",
+      "note": "SNARE拉链式组装驱动囊泡与膜融合"
+    },
+    {
+      "from": "synaptotagmin",
+      "to": "synaptic-transmission",
+      "type": "mechanism-of",
+      "note": "Syt1感受Ca²⁺，触发融合"
+    },
+    {
+      "from": "synaptotagmin",
+      "to": "SNARE-complex",
+      "type": "regulates",
+      "note": "Syt1解除Complexin锁定，激活SNARE最终拉合"
+    },
+    {
+      "from": "active-zone",
+      "to": "SNARE-complex",
+      "type": "supports",
+      "note": "活动区脚手架提供SNARE组装的物理环境"
+    },
+    {
+      "from": "SNARE-complex",
+      "to": "active-zone",
+      "type": "part-of",
+      "note": "SNARE组装发生于活动区"
+    },
+    {
+      "from": "voltage-gated-sodium-channel",
+      "to": "synaptic-transmission",
+      "type": "prerequisite-for",
+      "note": "电压门控Ca²⁺通道（同家族）开放触发Ca²⁺内流"
+    },
+    {
+      "from": "axon-initial-segment",
+      "to": "synaptic-transmission",
+      "type": "prerequisite-for",
+      "note": "AIS产生动作电位，后者传播至突触前终末"
+    },
+    {
+      "from": "synaptic-transmission",
+      "to": "SNARE-complex",
+      "type": "prerequisite-for",
+      "note": "理解突触传递需先理解SNARE机器"
+    },
+    {
+      "from": "synaptic-transmission",
+      "to": "synaptotagmin",
+      "type": "prerequisite-for",
+      "note": "理解突触传递需理解Syt钙传感器"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "NMDA受体Ca²⁺内流是LTP诱导的必要触发"
+    },
+    {
+      "from": "camkii",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "CaMKII是LTP诱导和维持的核心效应器"
+    },
+    {
+      "from": "ampa-receptor",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "AMPA受体插入是LTP在突触后的主要表达机制"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "camkii",
+      "type": "regulates",
+      "note": "NMDA受体Ca²⁺内流激活CaMKII"
+    },
+    {
+      "from": "camkii",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "CaMKII磷酸化GluA1-S831并驱动AMPA受体插入突触"
+    },
+    {
+      "from": "ltp",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "LTP是Hebb规则在突触层面的分子实现"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "NMDA受体双重门控精确实现Hebbian巧合检测"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "synaptic-transmission",
+      "type": "part-of",
+      "note": "NMDA受体是突触后谷氨酸受体之一"
+    },
+    {
+      "from": "ampa-receptor",
+      "to": "synaptic-transmission",
+      "type": "mechanism-of",
+      "note": "AMPA受体是突触快速EPSP的主要产生者"
+    },
+    {
+      "from": "action-potential",
+      "to": "nmda-receptor",
+      "type": "regulates",
+      "note": "反向传播动作电位（bAP）提供去极化，解除NMDA受体Mg²⁺阻断"
+    },
+    {
+      "from": "synaptic-transmission",
+      "to": "ltp",
+      "type": "prerequisite-for",
+      "note": "突触传递是LTP诱导的前提，需要谷氨酸释放激活NMDA受体"
+    },
+    {
+      "from": "ltp",
+      "to": "nmda-receptor",
+      "type": "prerequisite-for",
+      "note": "理解LTP需先理解NMDA受体的巧合检测机制"
+    },
+    {
+      "from": "ltp",
+      "to": "ampa-receptor",
+      "type": "prerequisite-for",
+      "note": "理解LTP需了解AMPA受体插入机制"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "nmda-receptor",
+      "type": "prerequisite-for",
+      "note": "理解Hebb规则的分子基础需理解NMDA受体"
+    },
+    {
+      "from": "camkii",
+      "to": "nmda-receptor",
+      "type": "prerequisite-for",
+      "note": "理解CaMKII在LTP中的作用需先理解NMDA受体触发"
+    },
+    {
+      "from": "ampa-receptor",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "两者共存于同一突触后膜，AMPA负责快速传递，NMDA负责可塑性判断"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "NMDA 受体是 NMDA 棘波的核心机器，两者共同驱动树突非线性计算"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "NMDA 棘波提供强烈局部 Ca²⁺，触发分支局部 LTP；平台电位是海马场所场快速写入机制"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "action-potential",
+      "type": "regulates",
+      "note": "Ca²⁺ 棘波与胞体 bAP 的耦合决定是否产生爆发放电（burst firing）"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "树突 NMDA 棘波使 Hebb 规则在分支层面实现，而非仅在单突触层面"
+    },
+    {
+      "from": "pyramidal-neuron",
+      "to": "dendritic-computation",
+      "type": "supports",
+      "note": "锥体神经元双树突形态（顶端 tuft + 基底分支）是树突计算的物理基础"
+    },
+    {
+      "from": "pyramidal-neuron",
+      "to": "axon-initial-segment",
+      "type": "part-of",
+      "note": "锥体神经元的 AIS 是动作电位发起位点"
+    },
+    {
+      "from": "pyramidal-neuron",
+      "to": "chandelier-cell",
+      "type": "related",
+      "note": "吊灯细胞特异靶向锥体神经元的 AIS"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "dendritic-computation",
+      "type": "mechanism-of",
+      "note": "NMDA 受体的再生性正反馈是 NMDA 棘波的分子机制"
+    },
+    {
+      "from": "hodgkin-huxley-model",
+      "to": "dendritic-computation",
+      "type": "prerequisite-for",
+      "note": "H-H 框架扩展到树突后，可描述 NMDA 棘波等树突再生事件"
+    },
+    {
+      "from": "ltp",
+      "to": "dendritic-computation",
+      "type": "related",
+      "note": "树突 NMDA 棘波驱动的局部 LTP 是突触权重局部修改的机制"
+    },
+    {
+      "from": "synaptic-transmission",
+      "to": "dendritic-computation",
+      "type": "prerequisite-for",
+      "note": "理解树突计算需先理解突触传递（谷氨酸释放 → NMDA 受体激活）"
+    },
+    {
+      "from": "action-potential",
+      "to": "dendritic-computation",
+      "type": "related",
+      "note": "反向传播 bAP 提供去极化，调控树突棘波的阈值和可塑性窗口"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "synaptic-transmission",
+      "type": "prerequisite-for",
+      "note": "理解树突计算需先理解突触传递"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "camkii",
+      "type": "related",
+      "note": "树突 NMDA 棘波后 Ca²⁺ 激活 CaMKII 驱动局部 LTP"
+    },
+    {
+      "from": "place-cell",
+      "to": "hippocampal-circuit",
+      "type": "part-of",
+      "note": "场所细胞位于海马 CA1（及 CA3），是海马回路的功能输出节点"
+    },
+    {
+      "from": "place-cell",
+      "to": "btsp",
+      "type": "mechanism-of",
+      "note": "BTSP 是场所场单次写入的突触机制"
+    },
+    {
+      "from": "place-cell",
+      "to": "dendritic-computation",
+      "type": "mechanism-of",
+      "note": "树突钙平台电位（树突计算的特殊形式）是场所场写入的触发机制"
+    },
+    {
+      "from": "place-cell",
+      "to": "ltp",
+      "type": "related",
+      "note": "LTP 可能参与场所场的长期巩固，但场所场形成主要由 BTSP 驱动"
+    },
+    {
+      "from": "btsp",
+      "to": "ltp",
+      "type": "related",
+      "note": "BTSP 与 LTP 是并列的突触增强机制：秒级（BTSP）vs 毫秒级（LTP）时间窗口"
+    },
+    {
+      "from": "btsp",
+      "to": "dendritic-computation",
+      "type": "mechanism-of",
+      "note": "树突钙平台电位是 BTSP 的触发器，是树突计算在可塑性层面的表现"
+    },
+    {
+      "from": "btsp",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "NMDA 受体参与 BTSP（~84% 依赖），但不是主触发器（L 型 Ca 通道是）"
+    },
+    {
+      "from": "btsp",
+      "to": "place-cell",
+      "type": "mechanism-of",
+      "note": "BTSP 产生场所场：秒级时间窗口允许单次穿越就完成写入"
+    },
+    {
+      "from": "btsp",
+      "to": "hebbian-learning",
+      "type": "related",
+      "note": "BTSP 不遵循严格的 Hebb 因果律（可强化非因果输入），但仍是活动依赖的突触修改"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "place-cell",
+      "type": "supports",
+      "note": "海马 CA1 是场所细胞的主要居所；DG/CA3 分别提供模式分离和补全"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "ltp",
+      "type": "related",
+      "note": "LTP 发生在 CA1 Schaffer 突触和 CA3 循环突触，是海马回路突触可塑性的基础"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "grid-cell",
+      "type": "related",
+      "note": "网格细胞（内嗅皮层）通过穿孔通路输入到海马 DG/CA3/CA1"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "synaptic-transmission",
+      "type": "prerequisite-for",
+      "note": "理解海马回路需先理解突触传递"
+    },
+    {
+      "from": "grid-cell",
+      "to": "place-cell",
+      "type": "related",
+      "note": "网格细胞通过穿孔通路为场所细胞提供空间坐标输入框架"
+    },
+    {
+      "from": "grid-cell",
+      "to": "hippocampal-circuit",
+      "type": "related",
+      "note": "内嗅皮层网格细胞是海马回路的主要皮层输入源"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "place-cell",
+      "type": "related",
+      "note": "树突平台电位（树突计算特殊形式）是场所场单次写入的关键细胞机制"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "btsp",
+      "type": "related",
+      "note": "树突钙平台电位触发 BTSP；BTSP 是树突计算在行为时间尺度可塑性中的体现"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "place-cell",
+      "type": "regulates",
+      "note": "θ振荡提供场所细胞放电的时间框架（相位前进依赖θ）"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "phase-precession",
+      "type": "mechanism-of",
+      "note": "相位前进以θ振荡为参照系；θ是相位编码的载体"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "hippocampal-circuit",
+      "type": "regulates",
+      "note": "θ协调海马CA3/CA1/EC三向通信的时间框架（θ态/SWR态双模式切换）"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "ltp",
+      "type": "related",
+      "note": "θ-burst stimulation是标准体内LTP诱导方法；θ为STDP/LTP提供体内时间窗口"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "btsp",
+      "type": "related",
+      "note": "θ振荡可能协调BTSP所需树突平台电位的触发时机（Etter et al. 2023假说）"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "grid-cell",
+      "type": "related",
+      "note": "内嗅皮层网格细胞也显示θ相位前进；振荡干涉模型解释网格图案"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "θ（探索/编码）与SWR（静息/固化）是海马两种互斥的工作模式"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "SWR由CA3循环兴奋自发产生，通过Schaffer侧支驱动CA1 110-200 Hz涟漪"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "place-cell",
+      "type": "related",
+      "note": "SWR期间场所细胞序列以~20倍速高速重播"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "memory-consolidation",
+      "type": "mechanism-of",
+      "note": "SWR重播是海马→皮层记忆固化的物理载体"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "ltp",
+      "type": "related",
+      "note": "SWR重播可能通过反复Hebbian式激活在皮层建立长期突触（LTP机制）"
+    },
+    {
+      "from": "phase-precession",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "相位前进是θ振荡的功能体现；θ为放电相位提供时间参照"
+    },
+    {
+      "from": "phase-precession",
+      "to": "place-cell",
+      "type": "mechanism-of",
+      "note": "场所细胞通过相位前进实现速率+相位双重编码"
+    },
+    {
+      "from": "phase-precession",
+      "to": "ltp",
+      "type": "related",
+      "note": "θ序列中先-后神经元时序与STDP/LTP方向性匹配，可能强化路径方向性突触权重"
+    },
+    {
+      "from": "place-cell",
+      "to": "phase-precession",
+      "type": "mechanism-of",
+      "note": "相位前进是场所细胞的核心编码特性之一"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "海马是θ振荡的主要表达场所；θ/SWR双模切换决定海马工作状态"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of",
+      "note": "CA3循环回路是SWR的生成器；CA1是涟漪的表达场所"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "ltp",
+      "type": "related",
+      "note": "LTP 是嵌套层级中 ms 尺度的 Hebb 学习规则，也是 SWR 固化皮层记忆的最终机制"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "btsp",
+      "type": "related",
+      "note": "BTSP 是嵌套层级中 s 尺度的行为 Hebb 学习规则"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "θ 振荡提供桥接层：将 s 级行为事件压缩到 ms 级 STDP 窗口"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of",
+      "note": "SWR 是离线固化层，通过 20 倍速重播触发皮层 LTP 积累"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "NMDA 受体实现了嵌套层级中 ms 层的分子巧合检测"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "dendritic-computation",
+      "type": "related",
+      "note": "树突棘波（50–200 ms 层）是嵌套层级中分支计算层的机制"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "place-cell",
+      "type": "related",
+      "note": "场所细胞是嵌套层级协同运作的功能结果（稳定空间认知地图）"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "phase-precession",
+      "type": "mechanism-of",
+      "note": "相位前进是 θ 桥接层的具体机制，使 s 级场所细胞序列落入 ms 级 STDP 窗口"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "temporal-coding-hierarchy",
+      "type": "supports",
+      "note": "Hebb 原理（巧合→强化）是嵌套层级所有层次的共同底层逻辑"
+    },
+    {
+      "from": "engram-cells",
+      "to": "place-cell",
+      "type": "related",
+      "note": "场所细胞是空间情景记忆印迹细胞的主要候选；DG/CA1 场所细胞被用于光遗传印迹实验"
+    },
+    {
+      "from": "engram-cells",
+      "to": "hippocampal-circuit",
+      "type": "part-of",
+      "note": "印迹细胞集合利用 DG→CA3→CA1 三突触回路形成跨脑区印迹间连接链"
+    },
+    {
+      "from": "engram-cells",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "印迹细胞的突触增强特征（高 AMPA/NMDA 比值、高树突棘密度）是 LTP 的细胞层面体现；光学 LTP 可恢复沉默印迹"
+    },
+    {
+      "from": "engram-cells",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "竞争性分配（同步放电→印迹细胞→印迹间优先连接）是 Hebb 原理在细胞集合层面的实现"
+    },
+    {
+      "from": "engram-cells",
+      "to": "btsp",
+      "type": "related",
+      "note": "BTSP 是场所细胞（印迹细胞候选）快速单次写入的突触机制，可能是印迹快速建立的分子基础"
+    },
+    {
+      "from": "engram-cells",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "NMDA 受体介导印迹细胞的 LTP 形式突触增强；印迹建立约 84% 依赖 NMDA 受体"
+    },
+    {
+      "from": "engram-cells",
+      "to": "dendritic-computation",
+      "type": "related",
+      "note": "树突钙平台电位（BTSP 触发器）可能是印迹细胞快速突触写入的细胞机制"
+    },
+    {
+      "from": "engram-cells",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "SWR 重播可能将海马印迹转移/复制至皮层印迹，是系统巩固的印迹层面机制"
+    },
+    {
+      "from": "engram-cells",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "SWR 期间印迹细胞以约 20 倍速高速重播，推动海马→皮层固化"
+    },
+    {
+      "from": "ltp",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "LTP 是印迹细胞建立突触增强的主要分子机制；光学 LTP 可恢复沉默印迹"
+    },
+    {
+      "from": "place-cell",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "CA1 场所细胞是情景记忆印迹细胞的典型代表；Liu 2012, Roy 2016 均使用海马场所细胞区域标记印迹"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "海马三突触回路（DG→CA3→CA1）提供了印迹间优先连接链的解剖基础"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "engram-cells",
+      "type": "supports",
+      "note": "印迹细胞是 Hebb 学习规则在细胞集合层面的实验证明"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "synaptic-transmission",
+      "type": "mechanism-of",
+      "note": "CaV2.1（P/Q型）和CaV2.2（N型）在突触前活动区开放→局部Ca²⁺浓度骤升→触发囊泡融合和递质释放"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "active-zone",
+      "type": "part-of",
+      "note": "CaV2.1（P/Q型）是活动区纳米域耦合的核心通道，与SNARE蛋白和囊泡在10-30 nm内精密定位"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "SNARE-complex",
+      "type": "regulates",
+      "note": "CaV2通道synprint位点（域II-III环）直接结合syntaxin-1A和SNAP-25，预招募SNARE复合体至钙进入位点"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "synaptotagmin",
+      "type": "related",
+      "note": "Synaptotagmin-1 C2B域与CaV2通道synprint位点预结合；CaV2开放产生的局部高钙（tens of μM）激活Syt1"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "btsp",
+      "type": "mechanism-of",
+      "note": "L型通道（CaV1.2/1.3）为BTSP触发所需的树突钙平台电位提供持续Ca²⁺内流（尼莫地平阻断→73% BTSP降低）"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "CaV1.2通过mTORC1途径参与TBS-LTP（局部蛋白合成），并通过核Ca²⁺→CaM→CaMKIV→CREB链路驱动晚期LTP转录"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "dendritic-computation",
+      "type": "mechanism-of",
+      "note": "L型通道（CaV1.3低阈值，CaV1.2持续开放）参与树突Ca²⁺棘波和平台电位的维持，是树突非线性计算的分子基础之一"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "NMDA受体和L型通道是BTSP/LTP中的两种协作Ca²⁺来源；两者在平台电位触发中存在功能协同（NMDA提供主要触发，L型维持持续内流）"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "action-potential",
+      "type": "related",
+      "note": "动作电位的去极化波触发CaV2.1/2.2在突触前终末开放；反向传播AP（bAP）也激活树突中的L型通道"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "camkii",
+      "type": "regulates",
+      "note": "CaV1.2开放产生的Ca²⁺经CaM激活CaMKII；另外自磷酸化CaMKII反向结合CaV2.1增强其活性（效应器检查点）"
+    },
+    {
+      "from": "action-potential",
+      "to": "voltage-gated-calcium-channels",
+      "type": "mechanism-of",
+      "note": "突触前动作电位到达（局部去极化）是CaV2.1/2.2开放的触发信号"
+    },
+    {
+      "from": "ltp",
+      "to": "voltage-gated-calcium-channels",
+      "type": "prerequisite-for",
+      "note": "理解LTP的Ca²⁺来源需先理解电压门控钙通道（L型通道是LTP所需核Ca²⁺的主要来源之一）"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of",
+      "note": "SWR 是系统巩固的物理执行机制：CA3→CA1 群体重播在50ms内以20倍速传递海马记忆信号至新皮层"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "海马三突触回路（DG→CA3→CA1→EC→皮层）是系统巩固信息流的解剖通道"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "皮层侧记忆痕迹建立通过 LTP 型突触增强实现；SWR 反复激活→Hebb 型→皮层突触权重增加"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "θ（第一阶段，编码）与 SWR（第二阶段，巩固）是系统巩固两阶段模型的两个半程"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "系统巩固将海马印迹转写/复制至皮层印迹；沉默印迹可能代表系统巩固被阻断（权重未随时间恢复）的状态"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "place-cell",
+      "type": "related",
+      "note": "场所细胞序列是 SWR 重播的具体内容；场所细胞是海马侧记忆的细胞基础"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "系统巩固通过 SWR 驱动的反复 Hebb 激活在皮层建立长期记忆——Hebb 规则在全脑网络时间尺度的体现"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "btsp",
+      "type": "related",
+      "note": "BTSP（第一阶段，单次快速写入）与系统巩固（第二阶段，多夜慢速皮层化）是记忆从行为经历到长期存储的两个必要步骤"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "memory-consolidation",
+      "type": "mechanism-of",
+      "note": "SWR 是系统巩固的物理载体：离线重播驱动海马→皮层信息转移"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "海马回路（特别是 CA3 循环连接→CA1 SWR）是系统巩固的发生场所"
+    },
+    {
+      "from": "engram-cells",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "系统巩固将海马印迹复制至皮层，形成分布式皮层印迹；光遗传恢复沉默印迹可能通过人工触发类 SWR 机制"
+    },
+    {
+      "from": "place-cell",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "场所细胞序列在 SWR 重播期间被传递至皮层，是海马侧记忆巩固输入的内容"
+    },
+    {
+      "from": "ltp",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "皮层 LTP 是系统巩固的最终分子机制；SWR 重播触发皮层 Hebb 激活 → 皮层 LTP → 长期记忆痕迹"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "θ（编码/第一阶段）与 SWR（巩固/第二阶段）是两阶段记忆巩固模型中互补的海马工作模式"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "系统巩固是嵌套时间编码层级中最慢的一层（天—年尺度），通过 SWR 离线重播实现最终皮层化"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "action-potential",
+      "type": "regulates",
+      "note": "PV+ 篮状细胞通过胞体/近端树突抑制，以毫秒级精度控制锥体细胞的动作电位产生时序"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "chandelier-cell",
+      "type": "related",
+      "note": "吊灯细胞是 PV+ 中间神经元的 AIS 靶向亚类；篮状细胞是胞体靶向亚类"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "PV+ 篮状细胞在 θ 相位特定时刻放电，参与 θ/γ 振荡的产生和维持"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of",
+      "note": "CA1 PV+ 篮状细胞在 SWR 期间强烈放电，产生 100–200 Hz 涟漪波形"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "hippocampal-circuit",
+      "type": "part-of",
+      "note": "CA1 中 PV+ 篮状细胞和吊灯细胞是海马回路的关键抑制性元素"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "disinhibitory-circuit",
+      "type": "related",
+      "note": "PV+ 是去抑制回路的被抑制靶标之一（VIP → PV+/SST+）"
+    },
+    {
+      "from": "sst-interneurons",
+      "to": "dendritic-computation",
+      "type": "regulates",
+      "note": "SST+ Martinotti 细胞靶向顶端树突簇，抑制 Ca²⁺ 棘波和 NMDA 棘波，调控树突非线性计算阈值"
+    },
+    {
+      "from": "sst-interneurons",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "CA1 O-LM 细胞（SST+ 亚型）在 θ 期间活跃，靶向内嗅皮层输入区（SLM），实现 θ 相位依赖的 EC 输入门控"
+    },
+    {
+      "from": "sst-interneurons",
+      "to": "hippocampal-circuit",
+      "type": "part-of",
+      "note": "CA1 O-LM 细胞和 bistratified 细胞是海马主要 SST+ 类型，分别靶向 SLM（EC 输入）和 str. oriens/radiatum（CA3 输入）"
+    },
+    {
+      "from": "sst-interneurons",
+      "to": "disinhibitory-circuit",
+      "type": "related",
+      "note": "SST+ 是去抑制回路的主要被抑制靶标（VIP → SST+），解除 SST+ 对树突的抑制是去抑制的主要通路"
+    },
+    {
+      "from": "sst-interneurons",
+      "to": "btsp",
+      "type": "related",
+      "note": "SST+ Martinotti 细胞可能通过调控树突 Ca²⁺ 棘波阈值来影响 BTSP 的触发概率"
+    },
+    {
+      "from": "vip-interneurons",
+      "to": "sst-interneurons",
+      "type": "regulates",
+      "note": "VIP+ 细胞主要抑制 SST+（部分 PV+），实现去抑制"
+    },
+    {
+      "from": "vip-interneurons",
+      "to": "pv-interneurons",
+      "type": "regulates",
+      "note": "VIP+ 细胞部分抑制 PV+，次要去抑制通路"
+    },
+    {
+      "from": "vip-interneurons",
+      "to": "disinhibitory-circuit",
+      "type": "mechanism-of",
+      "note": "VIP+ 细胞是去抑制回路的第一级——它们激活后抑制 SST/PV，实现对锥体细胞的净去抑制"
+    },
+    {
+      "from": "vip-interneurons",
+      "to": "hebbian-learning",
+      "type": "related",
+      "note": "VIP 介导的去抑制为 Hebb 学习规则提供行为驱动的'学习许可'信号（三因素学习规则的回路基础）"
+    },
+    {
+      "from": "disinhibitory-circuit",
+      "to": "vip-interneurons",
+      "type": "mechanism-of",
+      "note": "VIP+ 细胞是去抑制回路的核心执行者（第一级门控）"
+    },
+    {
+      "from": "disinhibitory-circuit",
+      "to": "hebbian-learning",
+      "type": "supports",
+      "note": "去抑制在关键行为时刻（奖励/惩罚/注意）打开学习窗口，支持 Hebb 型突触可塑性的选择性发生"
+    },
+    {
+      "from": "disinhibitory-circuit",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "去抑制可能在印迹分配的竞争性 CREB 上调过程中选择性放大特定锥体细胞，影响印迹细胞集合组成"
+    },
+    {
+      "from": "chandelier-cell",
+      "to": "pv-interneurons",
+      "type": "is-a",
+      "note": "吊灯细胞是 PV+ 中间神经元的 AIS 靶向亚类"
+    },
+    {
+      "from": "ltd",
+      "to": "ltp",
+      "type": "related",
+      "note": "LTD 与 LTP 构成突触双向可塑性：同一 NMDA 受体，Ca²⁺ 量决定方向（BCM 框架）"
+    },
+    {
+      "from": "ltp",
+      "to": "ltd",
+      "type": "related",
+      "note": "LTP 的对称补充：高 Ca²⁺→CaMKII→LTP；低 Ca²⁺→PP2B/PP1→LTD"
+    },
+    {
+      "from": "ltd",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "NMDA 受体低频激活产生中等 Ca²⁺→PP2B 激活→NMDA-LTD"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "ltd",
+      "type": "mechanism-of",
+      "note": "NMDA 受体是 NMDA-LTD 的触发受体；Ca²⁺ 量（而非 Ca²⁺ 本身）决定 LTD vs. LTP"
+    },
+    {
+      "from": "ltd",
+      "to": "ampa-receptor",
+      "type": "mechanism-of",
+      "note": "LTD 的最终效应是 AMPA 受体内吞离开突触，使突触权重降低"
+    },
+    {
+      "from": "ampa-receptor",
+      "to": "ltd",
+      "type": "mechanism-of",
+      "note": "AMPAR 内吞（GluA1 去磷酸化、GluA2 Ser880 磷酸化→PICK1）是 LTD 的物理表达"
+    },
+    {
+      "from": "calcineurin",
+      "to": "ltd",
+      "type": "mechanism-of",
+      "note": "PP2B（钙调磷酸酶）是 NMDA-LTD 的第一个效应磷酸酶，中等 Ca²⁺ 激活"
+    },
+    {
+      "from": "calcineurin",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "PP2B→PP1 级联使 GluA1 Ser831/Ser845 去磷酸化，驱动 AMPAR 内吞"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "calcineurin",
+      "type": "regulates",
+      "note": "NMDA 受体 Ca²⁺ 内流（低频/低量）优先激活高亲和力的 PP2B"
+    },
+    {
+      "from": "camkii",
+      "to": "calcineurin",
+      "type": "related",
+      "note": "CaMKII（LTP激酶，低亲和力）与 PP2B（LTD 磷酸酶，高亲和力）竞争 Ca²⁺-CaM，是突触方向性决定的核心对立对"
+    },
+    {
+      "from": "arc-arg31",
+      "to": "ltd",
+      "type": "mechanism-of",
+      "note": "Arc 是 mGluR-LTD 的执行蛋白：与 dynamin/endophilin 结合→促进 AMPAR 内吞"
+    },
+    {
+      "from": "arc-arg31",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "Arc 直接通过 dynamin/endophilin 加速网格蛋白介导的 AMPAR 内吞"
+    },
+    {
+      "from": "arc-arg31",
+      "to": "ltp",
+      "type": "related",
+      "note": "Arc 也参与 L-LTP 巩固（通过 PAK-LIMK-cofilin 稳定树突棘肌动蛋白）；双向功能取决于活动量"
+    },
+    {
+      "from": "ltd",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "睡眠期间突触稳态下调（SHY 假说）可能涉及广泛的 LTD 类机制；LTD 是防止突触饱和、维持学习容量的机制"
+    },
+    {
+      "from": "working-memory",
+      "to": "persistent-activity",
+      "type": "mechanism-of",
+      "note": "持续活动（γ爆发）是工作记忆维持的活动性编码机制"
+    },
+    {
+      "from": "working-memory",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of",
+      "note": "γ爆发是工作记忆间歇性信息编码的振荡载体"
+    },
+    {
+      "from": "working-memory",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "dlPFC 第2/3/5层循环回路是工作记忆的关键神经基础"
+    },
+    {
+      "from": "working-memory",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "NMDA 受体慢衰减（τ~100-300ms）是 PFC 吸引子回路时间积分的分子基础"
+    },
+    {
+      "from": "working-memory",
+      "to": "pv-interneurons",
+      "type": "mechanism-of",
+      "note": "PV 篮状细胞通过 γ 爆发控制工作记忆信息编码的时序精度"
+    },
+    {
+      "from": "working-memory",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "θ/γ嵌套：每个θ周期可嵌套5-7个γ爆发，可能与工作记忆容量相关"
+    },
+    {
+      "from": "working-memory",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "工作记忆长期化需要海马参与巩固"
+    },
+    {
+      "from": "persistent-activity",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "NMDA受体慢衰减使吸引子网络在刺激消失后维持循环激活"
+    },
+    {
+      "from": "persistent-activity",
+      "to": "gamma-oscillations",
+      "type": "related",
+      "note": "持续活动的实际形式是间歇性γ爆发（Lundqvist 2016），非连续高频放电"
+    },
+    {
+      "from": "persistent-activity",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "延迟期活动主要发生在 dlPFC L2/3 锥体细胞"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "pv-interneurons",
+      "type": "mechanism-of",
+      "note": "PV 篮状细胞兴奋-抑制 PING 回路是皮层 γ 振荡的核心生成机制"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "θ/γ 嵌套耦合：θ 提供时间框架，γ 承载内容；与海马编码序列的嵌套层级相同原理"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "dlPFC 中 γ 爆发是工作记忆的振荡载体；精神分裂症中 γ 减弱"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "working-memory",
+      "type": "related",
+      "note": "dlPFC 是工作记忆维持的关键脑区"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "dlPFC PV 篮状细胞产生 γ，调控工作记忆时序"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "PFC 是记忆巩固后远端记忆的皮层存储库"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "ltp",
+      "type": "related",
+      "note": "LTP 是突触级竞争中的强化方向（高 Ca²⁺ → CaMKII 胜出）"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "ltd",
+      "type": "related",
+      "note": "LTD 是突触级竞争中的减弱方向（低 Ca²⁺ → calcineurin 胜出）"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "engram-cells",
+      "type": "mechanism-of",
+      "note": "印迹细胞的 CREB 竞争分配是细胞级竞争-遴选的典型实例"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "memory-consolidation",
+      "type": "mechanism-of",
+      "note": "睡眠 SWR 选择性重播是系统级竞争-遴选的实现"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "PV+ 中间神经元的时序门控是回路级竞争-遴选的主要执行者"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "sst-interneurons",
+      "type": "related",
+      "note": "SST+ 中间神经元的树突门控是回路级竞争-遴选的重要组成"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "vip-interneurons",
+      "type": "related",
+      "note": "VIP+ 去抑制回路是竞争-遴选的'开关'：在显著性信号时打开遴选门"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "working-memory",
+      "type": "mechanism-of",
+      "note": "工作记忆容量限制（约4项）是认知级吸引子竞争的物理结果"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "SWR 是竞争-遴选架构的系统级执行机制"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "temporal-coding-hierarchy",
+      "type": "related",
+      "note": "竞争-遴选架构（决定选什么）与时间编码层级（决定何时编码）是互补的两个统一框架"
+    },
+    {
+      "from": "engram-cells",
+      "to": "competition-selection-principle",
+      "type": "related",
+      "note": "印迹细胞分配是嵌套竞争-遴选架构在细胞层次的具体实例"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "competition-selection-principle",
+      "type": "related",
+      "note": "睡眠选择性巩固是嵌套竞争-遴选架构在系统层次的具体实例"
+    },
+    {
+      "from": "working-memory",
+      "to": "competition-selection-principle",
+      "type": "related",
+      "note": "工作记忆吸引子竞争是嵌套竞争-遴选架构在认知层次的具体实例"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "competition-selection-principle",
+      "type": "related",
+      "note": "嵌套竞争-遴选架构与时间编码层级互补：前者定义选什么，后者定义何时和如何"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "三因素规则是 Hebb 规则加入全局调制信号（M）的扩展，赋予 Hebbian 可塑性方向性"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "三因素规则正向输出（DA > 0 时）= 突触 LTP；DA 诱导的 L-LTP 是三因素规则的持久化表达"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "three-factor-learning-rule",
+      "type": "supports",
+      "note": "DA-RPE 信号是三因素规则中调制因子 M 的主要来源（奖励学习）"
+    },
+    {
+      "from": "synaptic-tagging-capture",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "STC 是晚期 LTP 选择性诱导的分子接口：Hebbian 标签 + DA-PRP 捕获 → E-LTP 升级为 L-LTP"
+    },
+    {
+      "from": "synaptic-tagging-capture",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of",
+      "note": "DA 爆发（D1→PKA→CREB）触发 PRP 合成，被突触标签捕获，是 STC 的'捕获'端"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "working-memory",
+      "type": "regulates",
+      "note": "DA D1 受体通过'倒U型'调节 dlPFC 工作记忆信噪比；DA 过低或过高均损害 WM"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "DA 可能调制 CREB 竞争性分配，影响印迹细胞集合的组成（假说）"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "奖励信号（DA 爆发）偏置 SWR 重播，加速与奖励相关的记忆固化效率"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "competition-selection-principle",
+      "type": "related",
+      "note": "DA-RPE 可能是细胞层面（CREB 竞争）和去抑制回路（VIP 激活）中竞争机制的上游调控信号"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "camkii",
+      "type": "related",
+      "note": "CaMKII 是 Hebbian 激活（pre × post）的分子执行器，可能同时是突触标签的分子身份"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "ampa-receptor",
+      "type": "mechanism-of",
+      "note": "三因素 LTP 最终通过 GluA1 磷酸化（PKA/CaMKII）和 AMPAR 插入表达"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "competition-selection-principle",
+      "type": "related",
+      "note": "三因素规则在突触层面实现了竞争性遴选——只有'值得学习的'突触（满足Hebbian条件 + 正RPE）被选择增强"
+    },
+    {
+      "from": "synaptic-tagging-capture",
+      "to": "camkii",
+      "type": "related",
+      "note": "CaMKII T286 磷酸化构象是突触标签的候选分子机制（假说，未直接验证）"
+    },
+    {
+      "from": "synaptic-tagging-capture",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "Hebbian 激活设置突触标签（STC 的'标记'端）；两者在三因素规则时间整合中互为必要条件"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "ltp",
+      "type": "contradicts",
+      "note": "AD核心病理是LTP的系统性失效；Aβ寡聚体通过多通路将LTP机器单向阻断"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "突触外NR2B-NMDA受体是AD中LTP失效的核心分子靶点；Aβ通过PrPC/Fyn磷酸化NR2B并优先激活突触外NR2B/p38/CREB通路"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "hippocampal-circuit",
+      "type": "related",
+      "note": "CA3-CA1 Schaffer侧支是AD最早受损的突触类型；内嗅皮层→海马是Aβ传播的早期通路（Braak I期）"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "AD损害记忆巩固的系统机制（海马突触强度被Aβ压低→SWR重播信号减弱→巩固效率下降）"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "AD早期产生'沉默印迹'（Roy 2016光学恢复实验）：印迹细胞拓扑保留但突触强度被Aβ压低；早期干预可恢复"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "AD早期theta-gamma耦合损伤（早于Aβ大量产生），关闭LTP时间门控；SST+中间神经元脆弱性是关键"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "synaptic-tagging-capture",
+      "type": "related",
+      "note": "Aβ通过截断BDNF-TrkB信号阻断STC机制中的PRP合成，使突触标签无法被捕获，L-LTP无法巩固"
+    },
+    {
+      "from": "amyloid-beta-oligomers",
+      "to": "ltp",
+      "type": "contradicts",
+      "note": "Aβ寡聚体是LTP的主要分子劫持者；通过突触外NR2B、calcineurin、BDNF截断等5条通路阻断LTP；Walsh 2002天然分泌寡聚体体内LTP抑制实验"
+    },
+    {
+      "from": "amyloid-beta-oligomers",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "Aβ通过PrPC/mGluR5/Fyn激酶磷酸化NR2B，优先激活突触外NR2B（p38/CREB失活）而非突触内NR2B（CaMKII/LTP通路）"
+    },
+    {
+      "from": "amyloid-beta-oligomers",
+      "to": "calcineurin",
+      "type": "regulates",
+      "note": "Aβ引发的慢性低幅Ca²⁺过载优先激活calcineurin，驱动GluA1 Ser845去磷酸化→AMPA受体内吞，突触强度崩解"
+    },
+    {
+      "from": "amyloid-beta-oligomers",
+      "to": "camkii",
+      "type": "contradicts",
+      "note": "CaMKII活性在Aβ暴露的海马脑片中降低约60%，LTP诱导的关键激酶失效"
+    },
+    {
+      "from": "amyloid-beta-oligomers",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "Aβ寡聚体通过calcineurin过激活驱动AMPA受体GluA1大量内吞，突触表面谷氨酸受体密度持续下降"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "amyloid-beta-oligomers",
+      "type": "mechanism-of",
+      "note": "Aβ寡聚体是AD突触病理的核心毒性物种（区别于不溶性斑块）"
+    },
+    {
+      "from": "optogenetics",
+      "to": "action-potential",
+      "type": "mechanism-of",
+      "note": "ChR2 蓝光激活诱发动作电位；NpHR/Arch 黄光激活超极化抑制动作电位"
+    },
+    {
+      "from": "optogenetics",
+      "to": "engram-cells",
+      "type": "supports",
+      "note": "ChR2 + c-fos-tTA 系统是印迹细胞研究的核心因果工具（假记忆、效价翻转、沉默印迹恢复）"
+    },
+    {
+      "from": "optogenetics",
+      "to": "hippocampal-circuit",
+      "type": "related",
+      "note": "大量海马 DG/CA3/CA1 回路的因果解析依赖光遗传学；假记忆实验在 DG 完成"
+    },
+    {
+      "from": "optogenetics",
+      "to": "place-cell",
+      "type": "supports",
+      "note": "光遗传学激活场所细胞可触发空间行为，提供场所细胞功能的因果证明"
+    },
+    {
+      "from": "optogenetics",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "选择性激活/沉默 PV+ 细胞验证了 gamma 振荡与认知功能的因果关系"
+    },
+    {
+      "from": "optogenetics",
+      "to": "ltp",
+      "type": "supports",
+      "note": "光学 LTP（高频光刺激印迹细胞）可恢复沉默印迹；PMID:26982728"
+    },
+    {
+      "from": "optogenetics",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "选择性激活 VTA DA 神经元可诱发奖励行为，验证 DA-RPE 的因果角色"
+    },
+    {
+      "from": "optogenetics",
+      "to": "disinhibitory-circuit",
+      "type": "related",
+      "note": "光激活 VIP+ 中间神经元直接验证了去抑制回路的行为功能"
+    },
+    {
+      "from": "optogenetics",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "光遗传学在体 SWR 期间操控 CA3/CA1 活动，验证了 SWR 重播在记忆巩固中的因果角色"
+    },
+    {
+      "from": "optogenetics",
+      "to": "voltage-gated-sodium-channel",
+      "type": "prerequisite-for",
+      "note": "理解光遗传学需理解动作电位及钠通道（ChR2 激活最终通过钠通道达到阈值放电）"
+    },
+    {
+      "from": "optogenetics",
+      "to": "synaptic-transmission",
+      "type": "related",
+      "note": "光遗传学可在突触前和突触后层面操控突触传递；opto-vTrap可逆阻断囊泡释放"
+    },
+    {
+      "from": "engram-cells",
+      "to": "optogenetics",
+      "type": "related",
+      "note": "印迹细胞研究为光遗传学提供了最有力的实验展示场景"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "optogenetics",
+      "type": "related",
+      "note": "光遗传学是海马回路功能最重要的在体解析工具之一"
+    },
+    {
+      "from": "short-term-synaptic-plasticity",
+      "to": "synaptotagmin",
+      "type": "mechanism-of",
+      "note": "Syt7（高亲和力慢解离）是大多数中枢突触易化的主要分子传感器；Syt1是快速同步释放传感器"
+    },
+    {
+      "from": "short-term-synaptic-plasticity",
+      "to": "readily-releasable-pool",
+      "type": "mechanism-of",
+      "note": "RRP耗竭是突触抑制的主要机制；RRP大小和补充速率决定抑制深度和恢复时间"
+    },
+    {
+      "from": "short-term-synaptic-plasticity",
+      "to": "synaptic-transmission",
+      "type": "related",
+      "note": "STP是突触传递的时序扩展：将固定增益传递变为历史依赖的动态计算"
+    },
+    {
+      "from": "short-term-synaptic-plasticity",
+      "to": "active-zone",
+      "type": "mechanism-of",
+      "note": "RRP囊泡停靠在活动区；活动区蛋白（RIM、Munc13）的结构决定RRP大小"
+    },
+    {
+      "from": "short-term-synaptic-plasticity",
+      "to": "voltage-gated-calcium-channels",
+      "type": "related",
+      "note": "残余钙（激活Syt7，驱动易化）来自钙通道关闭后胞质未完全清除；CaV2是突触前钙内流的主要来源"
+    },
+    {
+      "from": "short-term-synaptic-plasticity",
+      "to": "working-memory",
+      "type": "supports",
+      "note": "Mongillo 2008突触工作记忆理论：STP易化状态在PFC突触中储存活动无声WM信息，无需持续高频放电"
+    },
+    {
+      "from": "short-term-synaptic-plasticity",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "Syt7在PV+快发放抑制性突触的特殊设计：隐藏易化精确抵消depression，实现频率不变传输（PC→DCN模型）"
+    },
+    {
+      "from": "synaptotagmin",
+      "to": "short-term-synaptic-plasticity",
+      "type": "mechanism-of",
+      "note": "Syt7亚型是STP易化的主要分子执行蛋白；Syt1负责快速同步释放（与STP抑制无关）"
+    },
+    {
+      "from": "readily-releasable-pool",
+      "to": "synaptic-transmission",
+      "type": "part-of",
+      "note": "RRP是突触传递的核心物理组件；RRP大小和释放概率p共同决定单次动作电位的传递强度"
+    },
+    {
+      "from": "readily-releasable-pool",
+      "to": "active-zone",
+      "type": "part-of",
+      "note": "RRP囊泡停靠于活动区的释放位点；活动区蛋白（RIM、Munc13、Munc18）维持RRP的稳定态"
+    },
+    {
+      "from": "orientation-selectivity",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of",
+      "note": "方向选择性是V1将LGN非定向输入转化为定向编码的核心计算成就"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "orientation-selectivity",
+      "type": "supports",
+      "note": "V1的感受野组织（LGN排列、方向柱/盐-胡椒、E/I平衡）共同支撑方向选择性"
+    },
+    {
+      "from": "orientation-selectivity",
+      "to": "dendritic-computation",
+      "type": "mechanism-of",
+      "note": "Wilson 2016：树突NMDA棘波在方向选择性中提供额外非线性增益层（偏好方向热点2倍于非偏好方向）"
+    },
+    {
+      "from": "orientation-selectivity",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "NMDA受体驱动树突棘波，是树突对方向信息进行局部增益整合的分子机器"
+    },
+    {
+      "from": "orientation-selectivity",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "PV+中间神经元是V1 E/I平衡的主要抑制元素，参与对比度不变性方向调谐的维持"
+    },
+    {
+      "from": "synaptic-clustering",
+      "to": "dendritic-computation",
+      "type": "mechanism-of",
+      "note": "突触聚类使NMDA棘波局部化，是树突非线性计算从理论可能变为功能实现的关键步骤"
+    },
+    {
+      "from": "synaptic-clustering",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "NMDA受体是突触聚类→超线性整合的分子执行者；相邻同向突触聚类→局部去极化累积→Mg²⁺阻断解除→NMDA棘波"
+    },
+    {
+      "from": "synaptic-clustering",
+      "to": "orientation-selectivity",
+      "type": "supports",
+      "note": "Wilson 2016：突触聚类程度与V1神经元方向选择性锐利度（OSI）正相关；是前馈+E/I之外的第三层增益机制"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "synaptic-clustering",
+      "type": "related",
+      "note": "突触聚类是树突计算框架中功能连接特异性的具体实现；Wilson 2016将树突计算理论与感觉编码功能直接联系"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "dendritic-computation",
+      "type": "related",
+      "note": "V1是树突突触聚类增强方向选择性（Wilson 2016）的实验脑区；V1研究扩展了树突计算理论的体内支持"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "PV+篮状细胞是V1 E/I平衡维持方向选择性对比度不变性的主要抑制元素"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "sst-interneurons",
+      "type": "related",
+      "note": "SST+中间神经元靶向树突，通过调控NMDA棘波阈值参与V1方向选择性的树突层面调控"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "PFC通过自上而下反馈投射（注意、预期）调制V1方向选择性；预测编码框架中PFC→V1传递预测信号"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "orientation-selectivity",
+      "type": "regulates",
+      "note": "ACh通过肌碱受体放大V1注意调制（Herrero 2008，PMID:18633352）"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "v1-primary-visual-cortex",
+      "type": "regulates",
+      "note": "ACh在V1产生响应增益提升，M1受体介导"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "working-memory",
+      "type": "regulates",
+      "note": "M1受体促进持续放电；α7-nAChR增强PFC NMDA信号"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "ltp",
+      "type": "regulates",
+      "note": "ACh通过M1促进皮层可塑性（M1→NMDA协同→LTP阈值降低）"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "低ACh（睡眠期）→皮层同步→有利SWR重放和系统固化"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "theta-oscillations",
+      "type": "regulates",
+      "note": "内侧隔核Ch1/2胆碱能投射至海马支持θ振荡"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "gain-control",
+      "type": "mechanism-of",
+      "note": "ACh是皮层增益控制的主要实现机制之一"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "neuromodulator-systems",
+      "type": "is-a",
+      "note": "ACh系统是四大皮层调质系统之一"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "working-memory",
+      "type": "regulates",
+      "note": "α2A稳定PFC WM表征；α1（高NE）损害WM；胍法辛(α2A激动剂)是ADHD治疗药物"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "ltp",
+      "type": "regulates",
+      "note": "β受体激活→cAMP→降低海马LTP阈值→情绪记忆增强（普萘洛尔β拮抗剂减弱）"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "memory-consolidation",
+      "type": "regulates",
+      "note": "NE在NREM睡眠影响记忆固化；β阻断剂减弱情绪记忆巩固"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "同为神经调质系统，NE/DA协同调节行为状态和奖励学习"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "gain-control",
+      "type": "mechanism-of",
+      "note": "NE是皮层增益控制的主要实现机制之一（相位/紧张双模+倒U曲线）"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "neuromodulator-systems",
+      "type": "is-a",
+      "note": "NE系统是四大皮层调质系统之一"
+    },
+    {
+      "from": "neuromodulator-systems",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "DA是第四种皮层调质系统（奖励/动机调制）"
+    },
+    {
+      "from": "neuromodulator-systems",
+      "to": "three-factor-learning-rule",
+      "type": "related",
+      "note": "DA是三因素规则中的第三因子；ACh/NE也可作为调制因子"
+    },
+    {
+      "from": "gain-control",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of",
+      "note": "增益控制在V1感觉编码和注意调制中的核心作用"
+    },
+    {
+      "from": "gain-control",
+      "to": "working-memory",
+      "type": "related",
+      "note": "PFC WM中的增益调控（NE α2A稳定WM表征）"
+    },
+    {
+      "from": "gain-control",
+      "to": "orientation-selectivity",
+      "type": "regulates",
+      "note": "ACh增益控制影响V1方向选择性神经元的注意调制"
+    },
+    {
+      "from": "short-term-synaptic-plasticity",
+      "to": "multi-timescale-plasticity",
+      "type": "part-of"
+    },
+    {
+      "from": "gain-control",
+      "to": "multi-timescale-plasticity",
+      "type": "part-of"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "multi-timescale-plasticity",
+      "type": "part-of"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "multi-timescale-plasticity",
+      "type": "supports"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "multi-timescale-plasticity",
+      "type": "supports"
+    },
+    {
+      "from": "multi-timescale-plasticity",
+      "to": "neuromodulator-systems",
+      "type": "related"
+    },
+    {
+      "from": "multi-timescale-plasticity",
+      "to": "working-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multi-timescale-plasticity",
+      "to": "orientation-selectivity",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multi-timescale-plasticity",
+      "to": "alzheimers-disease",
+      "type": "related"
+    }
   ],
   "dangling_references": [
-    {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
-    {"slug": "munc18", "referenced_by": ["SNARE-complex"], "note": "SM蛋白，SNARE调控，次要"},
-    {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation", "btsp"], "note": "已于2026-06-01创建 voltage-gated-calcium-channels 页面填补此悬空引用；synaptotagmin/active-zone/btsp 连接已更新至新slug", "resolved": "2026-06-01"},
-    {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "已于2026-06-10创建 wiki/neurons/readily-releasable-pool.md 页面，同时被STP页面引用", "resolved": "2026-06-10"},
-    {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation", "place-cell"], "note": "已于 2026-05-31 创建页面，填补悬空引用", "resolved": "2026-05-31"},
-    {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "已于 2026-06-07 创建页面（wiki/concepts/three-factor-learning-rule.md）；同时新建 dopamine-reward-prediction-error 和 synaptic-tagging-capture", "resolved": "2026-06-07"},
-    {"slug": "ltp-ltd", "referenced_by": ["ltp"], "note": "已于 2026-06-04 用 ltd 页面填补此悬空引用；ltp.md 中的 related 字段从 ltp-ltd 改为 ltd", "resolved": "2026-06-04"},
-    {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"},
-    {"slug": "mglur-ltd", "referenced_by": ["ltd", "arc-arg31"], "note": "mGluR 依赖型 LTD 可单独建页，包含 mGluR5、FMRP、翻译依赖等细节；目前合并于 ltd 页面"},
-    {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议；已于2026-06-11创建 wiki/concepts/synaptic-clustering.md，以Wilson 2016（雪貂V1双光子成像）为主要证据", "resolved": "2026-06-11"},
-    {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
-    {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},
-    {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples", "engram-cells"], "note": "已于2026-06-02创建 wiki/concepts/memory-consolidation.md 页面", "resolved": "2026-06-02"},
-    {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"},
-    {"slug": "bdnf-trkb", "referenced_by": ["alzheimers-disease", "amyloid-beta-oligomers"], "note": "BDNF/TrkB信号轴是L-LTP蛋白合成的关键上游；Aβ双重打击（下调BDNF表达+阻断TrkB信号）；proBDNF/p75NTR反转效应；待建页面"},
-    {"slug": "prc-prion-protein", "referenced_by": ["alzheimers-disease", "amyloid-beta-oligomers"], "note": "细胞朊病毒蛋白（PrPC），Aβ寡聚体的高亲和力细胞表面受体；与mGluR5共形成受体复合物；激活Fyn激酶→NR2B磷酸化；待建页面"},
-    {"slug": "channelrhodopsin", "referenced_by": ["optogenetics"], "note": "通道视紫质（ChR1/ChR2）分子生物学专页；莱茵衣藻七跨膜光门控阳离子通道；光子→视黄醛异构→通道开放的完整结构基础；待建页面"},
-    {"slug": "basal-forebrain", "referenced_by": ["acetylcholine-cortex", "neuromodulator-systems"], "note": "基底前脑解剖结构专页（Meynert基底核Ch4、内侧隔核Ch1/2、对角带Ch3）及其投射拓扑；待建页面"},
-    {"slug": "locus-coeruleus-anatomy", "referenced_by": ["norepinephrine-locus-coeruleus"], "note": "蓝斑解剖结构专页（脑桥，人类~5万NE神经元，含黑色素）；待建页面"}
+    {
+      "slug": "complexin",
+      "referenced_by": [
+        "synaptic-transmission",
+        "SNARE-complex",
+        "synaptotagmin"
+      ],
+      "note": "双功能调控蛋白，可并入SNARE-complex"
+    },
+    {
+      "slug": "munc18",
+      "referenced_by": [
+        "SNARE-complex"
+      ],
+      "note": "SM蛋白，SNARE调控，次要"
+    },
+    {
+      "slug": "calcium-channel",
+      "referenced_by": [
+        "synaptotagmin",
+        "active-zone",
+        "synaptic-transmission",
+        "nmda-receptor",
+        "dendritic-computation",
+        "btsp"
+      ],
+      "note": "已于2026-06-01创建 voltage-gated-calcium-channels 页面填补此悬空引用；synaptotagmin/active-zone/btsp 连接已更新至新slug",
+      "resolved": "2026-06-01"
+    },
+    {
+      "slug": "readily-releasable-pool",
+      "referenced_by": [
+        "synaptic-transmission"
+      ],
+      "note": "已于2026-06-10创建 wiki/neurons/readily-releasable-pool.md 页面，同时被STP页面引用",
+      "resolved": "2026-06-10"
+    },
+    {
+      "slug": "engram-cells",
+      "referenced_by": [
+        "ltp",
+        "hebbian-learning",
+        "dendritic-computation",
+        "place-cell"
+      ],
+      "note": "已于 2026-05-31 创建页面，填补悬空引用",
+      "resolved": "2026-05-31"
+    },
+    {
+      "slug": "three-factor-learning-rule",
+      "referenced_by": [
+        "hebbian-learning"
+      ],
+      "note": "已于 2026-06-07 创建页面（wiki/concepts/three-factor-learning-rule.md）；同时新建 dopamine-reward-prediction-error 和 synaptic-tagging-capture",
+      "resolved": "2026-06-07"
+    },
+    {
+      "slug": "ltp-ltd",
+      "referenced_by": [
+        "ltp"
+      ],
+      "note": "已于 2026-06-04 用 ltd 页面填补此悬空引用；ltp.md 中的 related 字段从 ltp-ltd 改为 ltd",
+      "resolved": "2026-06-04"
+    },
+    {
+      "slug": "tarp-auxiliary-subunit",
+      "referenced_by": [
+        "ampa-receptor"
+      ],
+      "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"
+    },
+    {
+      "slug": "mglur-ltd",
+      "referenced_by": [
+        "ltd",
+        "arc-arg31"
+      ],
+      "note": "mGluR 依赖型 LTD 可单独建页，包含 mGluR5、FMRP、翻译依赖等细节；目前合并于 ltd 页面"
+    },
+    {
+      "slug": "synaptic-clustering",
+      "referenced_by": [
+        "dendritic-computation"
+      ],
+      "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议；已于2026-06-11创建 wiki/concepts/synaptic-clustering.md，以Wilson 2016（雪貂V1双光子成像）为主要证据",
+      "resolved": "2026-06-11"
+    },
+    {
+      "slug": "apical-tuft",
+      "referenced_by": [
+        "dendritic-computation",
+        "pyramidal-neuron"
+      ],
+      "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"
+    },
+    {
+      "slug": "path-integration",
+      "referenced_by": [
+        "grid-cell"
+      ],
+      "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"
+    },
+    {
+      "slug": "memory-consolidation",
+      "referenced_by": [
+        "hippocampal-circuit",
+        "place-cell",
+        "sharp-wave-ripples",
+        "engram-cells"
+      ],
+      "note": "已于2026-06-02创建 wiki/concepts/memory-consolidation.md 页面",
+      "resolved": "2026-06-02"
+    },
+    {
+      "slug": "medial-septum",
+      "referenced_by": [
+        "theta-oscillations"
+      ],
+      "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"
+    },
+    {
+      "slug": "bdnf-trkb",
+      "referenced_by": [
+        "alzheimers-disease",
+        "amyloid-beta-oligomers"
+      ],
+      "note": "BDNF/TrkB信号轴是L-LTP蛋白合成的关键上游；Aβ双重打击（下调BDNF表达+阻断TrkB信号）；proBDNF/p75NTR反转效应；待建页面"
+    },
+    {
+      "slug": "prc-prion-protein",
+      "referenced_by": [
+        "alzheimers-disease",
+        "amyloid-beta-oligomers"
+      ],
+      "note": "细胞朊病毒蛋白（PrPC），Aβ寡聚体的高亲和力细胞表面受体；与mGluR5共形成受体复合物；激活Fyn激酶→NR2B磷酸化；待建页面"
+    },
+    {
+      "slug": "channelrhodopsin",
+      "referenced_by": [
+        "optogenetics"
+      ],
+      "note": "通道视紫质（ChR1/ChR2）分子生物学专页；莱茵衣藻七跨膜光门控阳离子通道；光子→视黄醛异构→通道开放的完整结构基础；待建页面"
+    },
+    {
+      "slug": "basal-forebrain",
+      "referenced_by": [
+        "acetylcholine-cortex",
+        "neuromodulator-systems"
+      ],
+      "note": "基底前脑解剖结构专页（Meynert基底核Ch4、内侧隔核Ch1/2、对角带Ch3）及其投射拓扑；待建页面"
+    },
+    {
+      "slug": "locus-coeruleus-anatomy",
+      "referenced_by": [
+        "norepinephrine-locus-coeruleus"
+      ],
+      "note": "蓝斑解剖结构专页（脑桥，人类~5万NE神经元，含黑色素）；待建页面"
+    }
   ]
 }

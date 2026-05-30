@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-06-12
-revision_count: 1
+updated: 2026-05-30
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, cognition]
-related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, three-factor-learning-rule, gain-control]
+related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, three-factor-learning-rule, gain-control, multi-timescale-plasticity, short-term-synaptic-plasticity]
 prerequisites: [synaptic-transmission, action-potential]
-opens_questions: [Q-ach-ne-04]
-source_articles: [2026-06-12-neuromodulators-ach-ne]
-key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"]
+opens_questions: [Q-ach-ne-04, Q-gain-timescale-interaction, Q-marder-principle-cortex]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis]
+key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433", "PMID:23040802", "PMID:29470969"]
 ---
 
 # 神经调质系统 (Neuromodulator Systems)
@@ -58,16 +58,22 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"
 - [[norepinephrine-locus-coeruleus]] — NE/LC 系统的详细机制
 - [[dopamine-reward-prediction-error]] — DA 系统（奖励学习中的第三因子）
 - [[three-factor-learning-rule]] — 三因素学习规则（DA 作为第三因子，ACh/NE 也可充当）
-- [[gain-control]] — 增益控制作为调质系统的核心功能
+- [[gain-control]] — 皮层增益控制（调质系统的核心输出，层二）
+- [[multi-timescale-plasticity]] — 调质系统在多层增益控制架构中的位置（层二，嵌套于STP与DA-RPE之间）
+- [[short-term-synaptic-plasticity]] — 层一增益控制，与调质层互补
 
 ## 未解问题
 
 - Q-ach-ne-04：ACh 和 NE 在同一皮层回路中如何相互作用（加性/超加性/相互调控）？
+- Q-gain-timescale-interaction：三层增益控制之间是否有可预测的相互作用？STP状态是否影响调质释放时机？
+- Q-marder-principle-cortex：Marder原则在哺乳类皮层中的直接验证——是否有回路被证明在不同调质状态下产生定性不同的功能输出？
 
 ## 修订历史
 
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
+- 2026-05-30 · 修订 · 基于《第三周综合》 · 新增 Marder 原则（PMID:23040802）作为调质系统理论框架；将调质系统定位为多层增益控制架构（[[multi-timescale-plasticity]]）第二层；更新 related、opens_questions 和 key_sources
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
+- [[2026-05-30-week3-synthesis]]

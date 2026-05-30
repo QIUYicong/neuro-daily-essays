@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-06-12
-revision_count: 1
+updated: 2026-05-30
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition]
-related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, neuromodulator-systems, orientation-selectivity, working-memory, v1-primary-visual-cortex]
+related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, neuromodulator-systems, orientation-selectivity, working-memory, v1-primary-visual-cortex, multi-timescale-plasticity, short-term-synaptic-plasticity, dopamine-reward-prediction-error]
 prerequisites: [synaptic-transmission, action-potential]
-opens_questions: []
-source_articles: [2026-06-12-neuromodulators-ach-ne]
-key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031"]
+opens_questions: [Q-gain-timescale-interaction]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis]
+key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802", "PMID:29470969"]
 ---
 
 # 皮层增益控制 (Cortical Gain Control)
@@ -23,6 +23,8 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031"]
 ## 当前理解
 
 我们现在认为，皮层的增益控制是神经调质系统（特别是 ACh 和 NE）的核心功能，也存在于局部皮层网络的规范化机制中。
+
+**第三周综合（2026-05-30 更新）**：增益控制不是单一机制，而是**多层嵌套架构**的一部分。皮层增益控制（ACh/NE，秒–分钟时间尺度）是三层架构中的**第二层**，由更快的短时程突触可塑性（STP，毫秒–秒，第一层）和更慢的多巴胺奖励信号（分钟–小时，第三层）共同包裹。理解皮层增益控制需要同时理解它在多时间尺度架构中的位置。Eve Marder（2012，PMID:23040802）的核心原则概括了这一整体视角：解剖连接体只提供骨架，神经调质环境决定在该骨架上运行的功能回路。详见 [[multi-timescale-plasticity]]。
 
 **增益控制的两种形式**：
 - **响应增益（Response gain）**：输入-输出曲线的斜率改变；在高对比度时效果最大。ACh 在 V1 中主要以此方式工作（Herrero et al., 2017, PMID:29311843）
@@ -72,11 +74,16 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031"]
 - [[orientation-selectivity]] — V1 方向选择性的增益调制（Herrero 2008 实验背景）
 - [[working-memory]] — α2A 受体稳定 PFC WM 表征（认知层面的增益控制）
 - [[v1-primary-visual-cortex]] — 增益控制在 V1 感觉编码中的作用
+- [[multi-timescale-plasticity]] — 皮层增益控制作为三层增益架构的第二层
+- [[short-term-synaptic-plasticity]] — 第一层增益控制（毫秒级），与皮层增益控制互补
+- [[dopamine-reward-prediction-error]] — 第三层增益控制（价值驱动学习），与皮层增益控制协同
 
 ## 修订历史
 
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
+- 2026-05-30 · 修订 · 基于《第三周综合》 · 将皮层增益控制定位为多层增益控制架构（[[multi-timescale-plasticity]]）的第二层；新增 Marder 原则（PMID:23040802）和 Thiele & Bellgrove 2018（PMID:29470969）作为理论支撑；更新 related 和 key_sources
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
+- [[2026-05-30-week3-synthesis]]

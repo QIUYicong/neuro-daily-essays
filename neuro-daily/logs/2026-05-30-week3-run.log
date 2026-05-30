@@ -1,0 +1,156 @@
+# 运行日志 · 2026-05-30（第三周综合）
+
+**运行时间**：2026-05-30 UTC（UTC+8 系统时间：2026-05-30）
+**文章编号**：#21（第三周综合）
+**分支**：claude/funny-einstein-qad7I（推送目标：origin/main）
+**运行环境**：Claude Code Web（remote execution container）
+
+---
+
+## 运行说明
+
+UTC+8 系统时间为 2026-05-30。本次运行情况特殊：
+- 仓库分支 `claude/funny-einstein-qad7I` 与 `origin/main` 处于同一提交（f78ddea），均已包含文章#1–#20（日期从2026-05-24到2026-06-12，这些日期由前序会话以人工未来日期生成）。
+- 2026-05-30 已有文章：`2026-05-30-week1-synthesis.md`（文章#7），以及 `2026-05-30-reading-notes.md`、`2026-05-30-sources.json`、`2026-05-30-run.log`（均不可修改，情景层append-only）。
+- 根据 ROUTINE.md "当天日期自动取当前 UTC+8 日期"，今日（2026-05-30）生成第21篇文章（第三周综合），使用 slug `week3-synthesis` 与现有文件区分。
+- 情景层文件使用 slug 命名：`2026-05-30-week3-reading-notes.md`、`2026-05-30-week3-sources.json`、`2026-05-30-week3-run.log`，严格遵守 append-only 原则（不修改任何已有文件）。
+
+---
+
+## 步骤 0：同步 main
+
+- 当前分支：`claude/funny-einstein-qad7I`
+- `git fetch origin` 后：`origin/main` = `f78ddea`（与本地 HEAD 相同）
+- ROUTINE.md 要求推送至 main；本次将从 `claude/funny-einstein-qad7I` 推送至 `origin/main`
+- neuro-daily/wiki/ ✅，ROUTINE.md ✅，KNOWLEDGE-BASE-DESIGN.md ✅
+
+---
+
+## 步骤 A：读取状态
+
+- topic_ledger.json：20条记录，last_updated=2026-06-12，第20篇=ACh/NE调质，next_suggested=第三周综合
+- unresolved_questions.md：读取，最新问题来自第20篇
+- contested_claims.json：存在旧矛盾（C-2026-05-24-01等），今日文章未解决亦未新增
+- _graph.json：54节点，276条边
+- wiki/index.md 和 monthly_synthesis.md：已读取
+
+---
+
+## 步骤 B：选题
+
+**选题依据**：
+- topic_ledger 明确指示 next_suggested_topics[0] = "第三周综合篇（文章#21）"
+- 课程脊柱：第21篇=第三周第7篇=周综合
+- 今日核心框架：多层增益控制架构（STP/ACh-NE/DA-RPE，三时间尺度嵌套）
+
+**选题模式**：long_term_curriculum（第三周综合）
+
+---
+
+## 步骤 C：检索 → 阅读 → 写文章
+
+**检索词**：
+- "neuromodulation cortical gain control ACh NE dopamine review"
+- "Marder neuromodulation back to the future Neuron 2012"
+- "Thiele Bellgrove neuromodulation attention Neuron 2018"
+- "NIH BRAIN Initiative neuromodulators official"
+- "multi-timescale synaptic plasticity neuromodulation review"
+
+**来源总数**：8
+**开放全文**：2（Marder 2012 PMC3482119；Thiele & Bellgrove 2018 PMC6204752）
+**官方机构**：1（NIH BRAIN Initiative braininitiative.nih.gov）
+**仅摘要**：5（来自前序文章，已在各日文章中详细使用）
+
+**采用来源**：
+1. PMID:23040802（Marder 2012，Neuron，开放全文，核心理论框架）✅
+2. PMID:29470969（Thiele & Bellgrove 2018，Neuron，开放全文，注意调质综述）✅
+3. PMID:9012851（Tsodyks & Markram 1997，STP高通/低通模型，摘要）
+4. PMID:18339943（Mongillo 2008，STP工作记忆，摘要）
+5. PMID:18633352（Herrero 2008，ACh-V1因果，摘要）
+6. PMID:16028901（Aston-Jones & Cohen 2005，NE适应性增益，摘要）
+7. PMID:9054347（Schultz 1997，DA-RPE，摘要）
+8. NIH BRAIN Initiative BRAIN 2025（官方，URL来源）
+
+**排除来源**：
+- bioRxiv 预印本（非审稿）
+- 神经形态硬件论文（与主题不直接相关）
+
+**文章写作**：
+- 文件：`articles/2026-05-30-week3-synthesis.md`
+- 字数：约 5000 中文字符
+- 结构：核心问题/摘要/重要性/背景/三层增益控制（STP/ACh-NE/DA-RPE）/V1案例/AD疾病视角/光遗传学意义/Marder原则/比喻与局限/认知跃迁/争议/AI对照/概念卡片/认知地图更新/参考来源
+
+---
+
+## 步骤 D：固结
+
+**新建 wiki 页面（1）**：
+- `wiki/concepts/multi-timescale-plasticity.md`（🟡 emerging，置信度中）
+
+**修订 wiki 页面（3）**：
+- `wiki/concepts/gain-control.md`（rev 1→2）
+- `wiki/systems/neuromodulator-systems.md`（rev 1→2）
+- `wiki/concepts/short-term-synaptic-plasticity.md`（rev 1→2）
+
+**矛盾检查**：
+- 多层增益控制框架本身是理论综合，无直接证据冲突
+- STP-WM存储的争议（Mongillo 2008 vs Lundqvist）已在文章争议节中标注，在STP wiki页中已记录为 Q-stp-activity-silent-wm（状态不变）
+
+---
+
+## 步骤 E：更新图谱与导航
+
+- `_graph.json`：55节点（+1），287条边（+11）
+- `wiki/index.md`：新增 multi-timescale-plasticity 条目，更新 neuromodulator-systems 和 gain-control 修订计数，总页数 54→55
+- `wiki/CHANGELOG.md`：新增今日条目
+
+---
+
+## 步骤 F：更新治理层
+
+- `state/topic_ledger.json`：新增第21条，total_articles=21，last_updated=2026-05-30
+- `state/unresolved_questions.md`：新增3个问题（Q-gain-timescale-interaction/Q-marder-principle-cortex/Q-gain-architecture-ai）
+- `state/source_registry.json`：新增2条（SR-21-01, SR-21-02），total=141
+- `state/monthly_synthesis.md`：追加2026-05-30条目
+- `state/maturity_index.json`：新增 multi-timescale-plasticity，更新3个修订页的 revision_count
+
+---
+
+## 步骤 G：提交 + 推送
+
+**目标**：将本次所有变更（文章+wiki+状态+日志）一次提交并推送至 origin/main
+
+**Git 作者信息**：
+- GIT_AUTHOR_NAME=QIUYicong
+- GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+
+**Commit message**：Add neuro daily article + wiki consolidation for 2026-05-30 (week3 synthesis, article #21)
+
+---
+
+## 步骤 H：自检
+
+**真实性** ✅：
+- 所有 wiki 主张有来源（Marder 2012 PMID:23040802, Thiele & Bellgrove 2018 PMID:29470969）
+- 多层框架标注为 emerging（理论综合，非单一验证）
+- 未把动物/模型研究直接推广为人类结论
+
+**一致性** ✅：
+- 无新矛盾
+- 修订页面 updated/revision_count/修订历史同步
+- _graph.json 无已知悬空边
+
+**可导航** ✅：
+- index.md 和 CHANGELOG.md 反映今日变化
+- multi-timescale-plasticity 页 related/prerequisites ≥1
+
+**情景层完整** ✅：
+- articles/notes/sources/logs 齐全（使用 week3 slug 区分同日已有文件）
+- 未修改任何已有文件
+
+---
+
+## Push 状态
+
+**Push 目标**：`origin/main`（`http://local_proxy@127.0.0.1:46765/git/QIUYicong/neuro-daily-essays`）
+**状态**：见 git 命令执行结果

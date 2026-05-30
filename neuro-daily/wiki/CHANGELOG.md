@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-05-30（第三周综合·第 21 篇）
+
+**源文章**：[[2026-05-30-week3-synthesis]] —《第三周综合：大脑的增益控制架构——神经调质如何在多重时间尺度上重配神经回路》
+
+**新建页面（1）**：
+- `concepts/multi-timescale-plasticity.md`（多层增益控制架构）🟡 emerging / 置信度中 — 第三周综合框架；三层嵌套（STP层一/ACh-NE层二/DA-RPE层三）；Marder原则（PMID:23040802）：解剖连接体只提供骨架，调质状态决定功能回路；来自 Thiele & Bellgrove 2018（PMID:29470969）的注意调质综述支撑；状态设为 emerging 因三层整合框架尚未被单一实验直接验证
+
+**修订页面（3）**：
+- `concepts/gain-control.md`（revision_count 1→2）：新增"第三周综合更新"段落，将皮层增益控制（层二，ACh/NE）定位为多层架构的第二层；新增与 [[multi-timescale-plasticity]]、[[short-term-synaptic-plasticity]]、[[dopamine-reward-prediction-error]] 的连接；opens_questions 新增 Q-gain-timescale-interaction；key_sources 新增 PMID:23040802、PMID:29470969
+- `systems/neuromodulator-systems.md`（revision_count 1→2）：新增 Marder 原则（PMID:23040802）作为调质系统理论框架；新增多层架构定位；related 新增 [[multi-timescale-plasticity]]、[[short-term-synaptic-plasticity]]；opens_questions 新增 Q-gain-timescale-interaction、Q-marder-principle-cortex
+- `concepts/short-term-synaptic-plasticity.md`（revision_count 1→2）：新增 [[multi-timescale-plasticity]] 和 [[gain-control]] 连接；定位 STP 为多层架构层一；opens_questions 新增 Q-gain-timescale-interaction
+
+**悬空引用新增（1）**：
+- 无新增悬空引用；`multi-timescale-plasticity` 页面的 prerequisites 均已有对应节点
+
+**悬空引用解决（0）**：今日综合文章未针对现有悬空引用，专注整合框架
+
+**矛盾登记（0）**：今日无新矛盾。多层框架（STP/ACh-NE/DA-RPE）各层独立证据充分，整合框架本身是理论综合（emerging 状态）而非具体机制争议
+
+**图谱更新**：
+- 新节点：multi-timescale-plasticity（54→55 总节点）
+- 新边（9）：STP→multi（part-of）, gain-control→multi（part-of）, DA-RPE→multi（part-of）, ACh→multi（supports）, NE→multi（supports）, multi→neuromodulator-systems（related）, multi→working-memory（mechanism-of）, multi→orientation-selectivity（mechanism-of）, multi→alzheimers-disease（related）
+
+**新增未解问题（3）**：
+- Q-gain-timescale-interaction（高优先级）：三层增益控制之间的相互作用是否可预测？
+- Q-marder-principle-cortex（中优先级）：Marder原则在哺乳类皮层的直接验证？
+- Q-gain-architecture-ai（低优先级）：AI系统中的多层增益控制等效物设计？
+
+---
+
 ## 2026-06-12（第三周·第 6 篇，文章 #20）
 
 **源文章**：[[2026-06-12-neuromodulators-ach-ne]] —《注意的化学语言：乙酰胆碱与去甲肾上腺素如何向大脑发出行动指令》
