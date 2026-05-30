@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-05
-revision_count: 1
+updated: 2026-06-14
+revision_count: 2
 dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, fear-extinction, basolateral-amygdala, hippocampal-circuit]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
 opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory]
-key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-14-amygdala-fear-circuit]
+key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:20303254"]
 ---
 
 # 前额叶皮层（Prefrontal Cortex, PFC）
@@ -62,6 +62,25 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 | dlPFC L3d 在精神分裂症中选择性损伤 | 人类尸检 | Arnsten 2011; Hughes 2024 | 高 |
 | PFC 中间神经元多样性支撑认知功能 | 灵长类 + 啮齿类综述 | Boroujeni et al. 2026 (PMID:41478518, PMC:PMC12924665) | 高 |
 
+### mPFC 的情绪调控功能（2026-06-14 新增）
+
+**边缘下皮层（IL-PFC / Infralimbic Cortex）→ 恐惧消退**（Sotres-Bayon & Quirk 2010, PMC2878722）：
+
+IL-PFC 是对应啮齿类"边缘下皮层"的亚区（对应人类 vmPFC/Brodmann 区 25）。消退训练后，IL-PFC 激活：
+- IL-PFC → 嵌合细胞群（ITC cells，GABAergic）→ 抑制 CeM 输出 → 恐惧行为压制
+- IL-PFC 损毁：不影响恐惧**获得**，但消退后恐惧更容易复发（消退提取障碍）
+- IL-PFC 是暴露疗法发挥作用的神经基础
+
+**边缘前皮层（PL-PFC / Prelimbic Cortex）→ 恐惧表达**：
+PL-PFC → 基底杏仁核（BA）→ CeM → 恐惧行为
+- PL 损毁：不影响恐惧获得；减弱恐惧表达
+- PL 和 IL 构成**解剖对立的双模控制器**：IL 激活时 ITC 压制 CeM，PL 激活时 BA 驱动 CeM
+
+**海马-mPFC 情境门控**：
+- 腹侧海马（vHipp）→ mPFC 投射提供当前情境信息
+- 在消退情境 → vHipp 激活 IL → ITC 压制 CeM → 无恐惧
+- 在原始恐惧情境 → vHipp 信号改变 → PL 模式 → CeM 激活 → 恐惧复发（Renewal 现象的回路基础）
+
 ## 连接
 
 - [[working-memory]] — dlPFC 是工作记忆的关键脑区
@@ -69,6 +88,9 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - [[gamma-oscillations]] — dlPFC 中 γ 爆发是工作记忆的振荡载体
 - [[pv-interneurons]] — dlPFC 中 PV 篮状细胞生成 γ，调控工作记忆时序
 - [[memory-consolidation]] — PFC 是记忆巩固后远端记忆的皮层存储库
+- [[fear-extinction]] — IL-PFC 经 ITC 细胞驱动消退表达；PL-PFC 经 BA 驱动恐惧表达
+- [[basolateral-amygdala]] — PFC 对 BLA 的双向调控（IL→ITC→CeM 消退；PL→BA→CeM 恐惧）
+- [[hippocampal-circuit]] — vHipp→mPFC 提供情境信息，门控 IL/PL 的相对激活
 
 ## 未解问题
 
@@ -78,7 +100,9 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 ## 修订历史
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文
+- 2026-06-14 · 修订 · 基于《杏仁核的恐惧算法》一文 · 新增 mPFC 的情绪调控功能（IL-PFC→消退，PL-PFC→恐惧），ITC 细胞通路，vHipp-mPFC 情境门控；related 新增 fear-extinction, basolateral-amygdala, hippocampal-circuit；key_sources 新增 PMID:20303254
 
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
+- [[2026-06-14-amygdala-fear-circuit]]

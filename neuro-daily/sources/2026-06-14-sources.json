@@ -1,0 +1,176 @@
+{
+  "date": "2026-06-14",
+  "article": "2026-06-14-amygdala-fear-circuit.md",
+  "topic": "杏仁核恐惧条件反射的突触机制与消退回路",
+  "search_terms": [
+    "amygdala fear conditioning synaptic plasticity LTP mechanism review",
+    "basolateral amygdala LTP fear memory NMDA receptor",
+    "fear extinction prefrontal cortex infralimbic amygdala mechanism",
+    "CREB amygdala engram fear memory allocation competition",
+    "Rogan LeDoux amygdala fear conditioning LTP auditory",
+    "McKernan Shinnick-Gallagher fear conditioning LTP amygdala 1997",
+    "basolateral amygdala fear learning synaptic mechanism 2018:2025",
+    "Quirk Milad fear extinction prefrontal amygdala review",
+    "GABAergic interneurons fear learning BLA review",
+    "neuronal competition fear memory amygdala CREB allocation Silva"
+  ],
+  "databases_searched": ["PubMed E-utilities", "PMC Open Access", "Europe PMC"],
+  "candidates_reviewed": 38,
+  "sources_adopted": [
+    {
+      "pmid": "10845062",
+      "pmcid": null,
+      "title": "Emotion circuits in the brain",
+      "authors": "LeDoux JE",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2000,
+      "doi": "10.1146/annurev.neuro.23.1.155",
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "coverage": "杏仁核恐惧回路概述，LA 作为情绪记忆核心位点",
+      "quality": "★★★★★",
+      "notes": "奠基性综述，无 PMC"
+    },
+    {
+      "pmid": "10542437",
+      "pmcid": null,
+      "title": "Long-term potentiation in the amygdala: a mechanism for emotional learning and memory",
+      "authors": "Maren S",
+      "journal": "Trends in Neurosciences",
+      "year": 1999,
+      "doi": "10.1016/S0166-2236(99)01465-4",
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "coverage": "杏仁核 LTP 机制综述，NMDA 拮抗剂阻断恐惧获得证据",
+      "quality": "★★★★☆",
+      "notes": "早期关键综述，无 PMC"
+    },
+    {
+      "pmid": "9403688",
+      "pmcid": null,
+      "title": "Fear conditioning induces associative long-term potentiation in the amygdala",
+      "authors": "Rogan MT, Stäubli UV, LeDoux JE",
+      "journal": "Nature",
+      "year": 1997,
+      "doi": "10.1038/37601",
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "coverage": "体内 LA 场电位，恐惧条件反射产生 LTP 样增强，奠基性原始实验",
+      "quality": "★★★★★",
+      "notes": "Nature 1997，无 PMC"
+    },
+    {
+      "pmid": "9403689",
+      "pmcid": null,
+      "title": "Fear conditioning induces a lasting potentiation of synaptic currents in vitro",
+      "authors": "McKernan MG, Shinnick-Gallagher P",
+      "journal": "Nature",
+      "year": 1997,
+      "doi": "10.1038/37605",
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "coverage": "离体全细胞膜片钳，AMPA:NMDA 比值升高，恐惧条件反射后的突触 LTP 直接电生理证据",
+      "quality": "★★★★★",
+      "notes": "Nature 1997，无 PMC"
+    },
+    {
+      "pmid": "32047613",
+      "pmcid": "PMC6993823",
+      "title": "Fear conditioning and the basolateral amygdala",
+      "authors": "Sun Y et al.",
+      "journal": "F1000Research",
+      "year": 2020,
+      "doi": "10.12688/f1000research.21201.1",
+      "full_text_available": true,
+      "access_type": "PMC_open_access",
+      "coverage": "BLA 回路解剖、PV/SST 中间神经元、印迹分配、CS-US 时序悖论、消退解剖",
+      "quality": "★★★★★",
+      "notes": "F1000Research 综述，全文已读"
+    },
+    {
+      "pmid": "20303254",
+      "pmcid": "PMC2878722",
+      "title": "Prefrontal control of fear: more than just extinction",
+      "authors": "Sotres-Bayon F, Quirk GJ",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2010,
+      "doi": "10.1016/j.conb.2010.02.008",
+      "full_text_available": true,
+      "access_type": "PMC_open_access",
+      "coverage": "IL-PFC 驱动消退，PL-PFC 驱动恐惧表达，ITC 细胞门控机制，vHipp-mPFC 情境输入",
+      "quality": "★★★★★",
+      "notes": "Quirk 实验室综述，全文已读"
+    },
+    {
+      "pmid": "32970967",
+      "pmcid": "PMC8428921",
+      "title": "Behavioral and neurobiological mechanisms of Pavlovian and instrumental extinction learning",
+      "authors": "Bouton ME et al.",
+      "journal": "Physiological Reviews",
+      "year": 2021,
+      "doi": "10.1152/physrev.00030.2019",
+      "full_text_available": true,
+      "access_type": "PMC_open_access",
+      "coverage": "消退 = 新学习，续新/自发恢复/重建三大复发现象，消退回路分子机制",
+      "quality": "★★★★★",
+      "notes": "Physiological Reviews 综述，全文已读"
+    },
+    {
+      "pmid": "31837649",
+      "pmcid": "PMC7162924",
+      "title": "A time-dependent role for the transcription factor CREB in neuronal allocation to an engram underlying a fear memory",
+      "authors": "Park A et al.",
+      "journal": "Neuropsychopharmacology",
+      "year": 2020,
+      "doi": "10.1038/s41386-019-0559-1",
+      "full_text_available": true,
+      "access_type": "PMC_open_access",
+      "coverage": "opto-DN-CREB 光遗传工具，CREB 时序特异性决定 LA 印迹分配（训练前1h有效，训练后无效）",
+      "quality": "★★★★☆",
+      "notes": "Bhanu/Silva 实验室，全文已读"
+    },
+    {
+      "pmid": "29197563",
+      "pmcid": "PMC6178932",
+      "title": "GABAergic interneurons: The orchestra or the conductor in fear learning and memory?",
+      "authors": "Lucas EK, Bhana S",
+      "journal": "Brain Research Bulletin",
+      "year": 2018,
+      "doi": "10.1016/j.brainresbull.2018.05.008",
+      "full_text_available": true,
+      "access_type": "PMC_open_access",
+      "coverage": "PV+/SST+ 在 BLA 中的角色：CS 去抑制窗口，恐惧条件反射后中间神经元活动变化，消退后恢复",
+      "quality": "★★★★☆",
+      "notes": "全文已读"
+    }
+  ],
+  "sources_excluded": [
+    {
+      "pmid": "26179152",
+      "reason": "CGRP 对恐惧记忆的特殊效果，不是核心机制综述；与今日选题关联性低"
+    },
+    {
+      "pmid": "25645604",
+      "reason": "Leptin 与恐惧消退，药理学研究，非今日核心"
+    },
+    {
+      "pmid": "37944516",
+      "reason": "SST 中间神经元微回路记忆，无 PMC 开放全文，非核心"
+    },
+    {
+      "pmid": "30118751",
+      "reason": "皮质酮处理模型，非今日核心机制"
+    }
+  ],
+  "official_sources": [
+    {
+      "type": "journal",
+      "name": "Physiological Reviews (NIH NLM indexed)",
+      "pmid": "32970967",
+      "note": "Physiological Reviews 是 APS (American Physiological Society) 官方综述期刊，权威机构来源"
+    }
+  ],
+  "open_full_text_count": 5,
+  "abstract_only_count": 4,
+  "total_sources": 9
+}

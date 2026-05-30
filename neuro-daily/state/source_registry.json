@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-06-14",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -2875,7 +2875,150 @@
         "receptor specificity"
       ],
       "first_used": "2026-05-30"
+    },
+    {
+      "pmid": "10845062",
+      "title": "Emotion circuits in the brain",
+      "authors": "LeDoux JE",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2000,
+      "used_in": [
+        "2026-06-14-amygdala-fear-circuit"
+      ],
+      "coverage": [
+        "amygdala fear circuit",
+        "LA role in fear conditioning"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "10542437",
+      "title": "Long-term potentiation in the amygdala: a mechanism for emotional learning and memory",
+      "authors": "Maren S",
+      "journal": "Trends in Neurosciences",
+      "year": 1999,
+      "used_in": [
+        "2026-06-14-amygdala-fear-circuit"
+      ],
+      "coverage": [
+        "amygdala LTP",
+        "NMDA receptor fear conditioning"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "9403688",
+      "title": "Fear conditioning induces associative long-term potentiation in the amygdala",
+      "authors": "Rogan MT et al.",
+      "journal": "Nature",
+      "year": 1997,
+      "used_in": [
+        "2026-06-14-amygdala-fear-circuit"
+      ],
+      "coverage": [
+        "LA field potentials LTP",
+        "fear conditioning electrophysiology"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "9403689",
+      "title": "Fear conditioning induces a lasting potentiation of synaptic currents in vitro",
+      "authors": "McKernan MG, Shinnick-Gallagher P",
+      "journal": "Nature",
+      "year": 1997,
+      "used_in": [
+        "2026-06-14-amygdala-fear-circuit"
+      ],
+      "coverage": [
+        "AMPA:NMDA ratio LA",
+        "fear conditioning patch clamp"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "32047613",
+      "pmcid": "PMC6993823",
+      "title": "Fear conditioning and the basolateral amygdala",
+      "authors": "Sun Y et al.",
+      "journal": "F1000Research",
+      "year": 2020,
+      "used_in": [
+        "2026-06-14-amygdala-fear-circuit"
+      ],
+      "coverage": [
+        "BLA circuit anatomy",
+        "PV SST interneurons fear",
+        "CS-US timing problem"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "20303254",
+      "pmcid": "PMC2878722",
+      "title": "Prefrontal control of fear: more than just extinction",
+      "authors": "Sotres-Bayon F, Quirk GJ",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2010,
+      "used_in": [
+        "2026-06-14-amygdala-fear-circuit"
+      ],
+      "coverage": [
+        "IL-PFC extinction",
+        "PL-PFC fear expression",
+        "ITC cells"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "32970967",
+      "pmcid": "PMC8428921",
+      "title": "Behavioral and neurobiological mechanisms of Pavlovian and instrumental extinction learning",
+      "authors": "Bouton ME et al.",
+      "journal": "Physiological Reviews",
+      "year": 2021,
+      "used_in": [
+        "2026-06-14-amygdala-fear-circuit"
+      ],
+      "coverage": [
+        "extinction new learning",
+        "renewal spontaneous recovery reinstatement"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "31837649",
+      "pmcid": "PMC7162924",
+      "title": "A time-dependent role for CREB in neuronal allocation to an engram underlying a fear memory",
+      "authors": "Park A et al.",
+      "journal": "Neuropsychopharmacology",
+      "year": 2020,
+      "used_in": [
+        "2026-06-14-amygdala-fear-circuit"
+      ],
+      "coverage": [
+        "CREB engram allocation timing",
+        "opto-DN-CREB",
+        "LA memory allocation"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "29197563",
+      "pmcid": "PMC6178932",
+      "title": "GABAergic interneurons: The orchestra or the conductor in fear learning and memory?",
+      "authors": "Lucas EK, Bhana S",
+      "journal": "Brain Research Bulletin",
+      "year": 2018,
+      "used_in": [
+        "2026-06-14-amygdala-fear-circuit"
+      ],
+      "coverage": [
+        "PV SST BLA fear learning",
+        "disinhibition CS window"
+      ],
+      "open_access": true
     }
   ],
-  "total_sources": 141
+  "total_sources": 150
 }

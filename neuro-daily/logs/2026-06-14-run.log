@@ -1,0 +1,183 @@
+# 运行日志：2026-06-14
+
+**运行时间**：2026-05-30（系统日期 UTC+8） / 2026-06-14（知识库逻辑日期）
+**文章序号**：第 23 篇（第四周第二篇）
+**课程轨道**：情绪与动机（首次进入）
+**运行状态**：执行中（日志写入时）
+
+---
+
+## 步骤 0：同步 main
+
+- 当前分支：`claude/funny-einstein-FPoQ0`（系统指定开发分支）
+- `git fetch origin main` → 已是最新（c859b7e）
+- `git merge origin/main` → Already up to date
+- Remote 指向：`http://local_proxy@127.0.0.1:36345/git/QIUYicong/neuro-daily-essays` ✅
+- ROUTINE.md ✅，KNOWLEDGE-BASE-DESIGN.md ✅，neuro-daily/wiki/ ✅
+
+**分支说明**：系统指定在 `claude/funny-einstein-FPoQ0` 开发，不在 main 上直接 push。按 ROUTINE.md 备选条款处理。
+
+---
+
+## 步骤 A：读取状态
+
+- `topic_ledger.json`：22 条记录（截至 2026-06-13），last_updated=2026-06-13，total_articles=22
+- `unresolved_questions.md`：多个开放问题，高优先级包括 Q-adult-neurogenesis-human-controversy、Q-5ht-autoreceptor-desensitization-individual、Q-ach-ne-01
+- `contested_claims.json`：2 个 open 矛盾（C-2026-05-24-01 吊灯细胞GABA极性，C-2026-05-25-01 SNARE就绪状态）
+- `_graph.json`：58 节点，308 条边（2026-06-13）
+- `wiki/index.md`：58 主题页，覆盖 neurons/circuits/concepts/systems/methods/diseases
+
+---
+
+## 步骤 B：选题
+
+**选题分析**：
+
+知识库当前覆盖状况：
+- 课程轨道 6（情绪与动机）完全未覆盖（杏仁核、恐惧、动机回路）
+- 课程轨道 1-5 已有大量覆盖（神经元工作、突触、记忆、认知控制、奖励学习）
+- 多个高优先级 unresolved questions 与神经调质相关（已在第22篇覆盖血清素）
+
+**选定主题**：杏仁核恐惧条件反射（情绪与动机轨道首篇）
+
+理由：
+1. 与已有 LTP、NMDA 受体、印迹细胞、记忆巩固知识的自然衔接
+2. 课程轨道 6（情绪与动机）的最高优先级缺口
+3. 科学内容机制丰富、开放全文文献充足
+4. 以 PTSD 作为疾病窗口，符合课程路线 11 要求
+
+**模式**：长期课程模式
+
+---
+
+## 步骤 C：检索
+
+### 搜索词
+
+1. `amygdala fear conditioning synaptic plasticity LTP mechanism review`
+2. `basolateral amygdala LTP fear memory NMDA receptor`
+3. `fear extinction prefrontal cortex infralimbic amygdala mechanism`
+4. `CREB amygdala engram fear memory allocation competition`
+5. `Rogan LeDoux amygdala fear conditioning LTP auditory`
+6. `McKernan Shinnick-Gallagher fear conditioning LTP amygdala 1997`
+7. `basolateral amygdala fear learning synaptic mechanism 2018:2025`
+8. `Quirk Milad fear extinction prefrontal amygdala review`
+9. `GABAergic interneurons fear learning BLA review`
+10. `neuronal competition fear memory amygdala CREB allocation Silva`
+
+### 数据源
+PubMed E-utilities、PMC Open Access
+
+### 候选文章数
+初始候选：约38篇
+最终纳入：9篇
+
+### 采用来源
+
+1. PMID:10845062 (LeDoux 2000, Annual Review) - **摘要** - LeDoux 2000 杏仁核恐惧回路综述
+2. PMID:10542437 (Maren 1999, Trends Neurosci) - **摘要** - 杏仁核 LTP 机制综述
+3. PMID:9403688 (Rogan 1997, Nature) - **摘要** - 体内 LA-LTP 奠基实验
+4. PMID:9403689 (McKernan 1997, Nature) - **摘要** - AMPA:NMDA 比值升高离体证据
+5. PMID:32047613 (PMC6993823, Sun 2020) - **开放全文读取** - BLA 回路综述
+6. PMID:20303254 (PMC2878722, Sotres-Bayon 2010) - **开放全文读取** - IL/PL PFC 双模控制
+7. PMID:32970967 (PMC8428921, Bouton 2021) - **开放全文读取** - 消退学习 Physiological Reviews
+8. PMID:31837649 (PMC7162924, Park 2020) - **开放全文读取** - CREB 时序印迹分配
+9. PMID:29197563 (PMC6178932, Lucas 2018) - **开放全文读取** - BLA GABAergic 中间神经元
+
+### 排除来源
+- PMID:26179152：CGRP 特殊效果，非核心
+- PMID:25645604：Leptin 与消退，非核心
+- PMID:37944516：SST 微回路，无 PMC 全文
+
+### 来源统计
+- 开放全文：5 篇
+- 仅摘要：4 篇（已在文中明确标注）
+
+---
+
+## 步骤 D：固结
+
+### 新建 wiki 页面（3个）
+- `wiki/systems/basolateral-amygdala.md`：established / high confidence
+- `wiki/concepts/fear-conditioning.md`：established / high confidence
+- `wiki/concepts/fear-extinction.md`：established / high confidence
+
+### 修订 wiki 页面（3个）
+- `wiki/concepts/ltp.md`：revision_count 6→7，新增恐惧 LTP 证据，related 新增 fear-conditioning/basolateral-amygdala
+- `wiki/concepts/engram-cells.md`：revision_count 4→5，新增 CREB 时序 LA 印迹分配，related 新增 basolateral-amygdala/fear-conditioning
+- `wiki/systems/prefrontal-cortex.md`：revision_count 1→2，新增 IL/PL 双模控制器和 ITC 通路
+
+### 矛盾检查
+- 无新矛盾产生
+- 消退是否含 LTD 成分的争议已登记为 Q-extinction-ltp-ltd（未解问题），不构成与既有 wiki 页面的直接矛盾（因为 ltd 页面中未做出与消退相关的主张）
+
+### 成熟度重估
+- 所有三个新页面：established / high confidence（来自多个独立实验室的啮齿类研究，多种方法学交叉验证）
+- 注意：人类数据主要为 fMRI（间接），详细机制均为啮齿类，已在文中明确标注
+
+---
+
+## 步骤 E：图谱与导航
+
+- `_graph.json`：新增3节点 + 18条边；总计61节点，326条边
+- `wiki/index.md`：新增3个页面条目，更新课程进度（情绪与动机轨道首次进入）
+- `wiki/CHANGELOG.md`：追加 2026-06-14 一节
+
+---
+
+## 步骤 F：治理层
+
+- `state/topic_ledger.json`：新增第23条记录，total_articles=23，last_updated=2026-06-14
+- `state/unresolved_questions.md`：新增4个问题（Q-fear-temporal-gap/Q-itc-plasticity/Q-extinction-ltp-ltd/Q-reconsolidation-clinical）
+- `state/source_registry.json`：新增9个来源，total_sources=150
+- `state/monthly_synthesis.md`：追加今日摘要
+
+---
+
+## 步骤 G：提交 + 推送
+
+**目标分支**：`claude/funny-einstein-FPoQ0`（系统指定开发分支）
+**推送目标**：`origin claude/funny-einstein-FPoQ0`（remote = QIUYicong/neuro-daily-essays）
+
+---
+
+## 生成文件清单
+
+### 情景层（新建）
+- `neuro-daily/articles/2026-06-14-amygdala-fear-circuit.md`
+- `neuro-daily/notes/2026-06-14-reading-notes.md`
+- `neuro-daily/sources/2026-06-14-sources.json`
+- `neuro-daily/logs/2026-06-14-run.log`（本文件）
+
+### 语义层（新建）
+- `neuro-daily/wiki/systems/basolateral-amygdala.md`
+- `neuro-daily/wiki/concepts/fear-conditioning.md`
+- `neuro-daily/wiki/concepts/fear-extinction.md`
+
+### 语义层（修订）
+- `neuro-daily/wiki/concepts/ltp.md`（revision_count 7）
+- `neuro-daily/wiki/concepts/engram-cells.md`（revision_count 5）
+- `neuro-daily/wiki/systems/prefrontal-cortex.md`（revision_count 2）
+- `neuro-daily/wiki/_graph.json`（61节点/326条边）
+- `neuro-daily/wiki/index.md`（61主题页）
+- `neuro-daily/wiki/CHANGELOG.md`（追加今日条目）
+
+### 治理层（更新）
+- `neuro-daily/state/topic_ledger.json`
+- `neuro-daily/state/unresolved_questions.md`
+- `neuro-daily/state/source_registry.json`
+- `neuro-daily/state/monthly_synthesis.md`
+
+---
+
+## 失败与限制
+
+1. Rogan 1997, McKernan 1997, LeDoux 2000, Maren 1999 均无 PMC 开放全文——仅使用摘要，已在文中标注
+2. 时序悖论（Q-fear-temporal-gap）无法从现有文献中获得完整答案——已如实标注为未解问题
+3. 人类直接数据极为有限——已在文章中明确区分啮齿类与人类证据
+
+---
+
+## 推送状态
+
+[待更新]

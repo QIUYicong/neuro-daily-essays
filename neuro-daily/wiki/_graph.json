@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-13",
+  "updated": "2026-06-14",
   "node_count": 58,
   "edge_count": 308,
   "edge_types": [
@@ -535,6 +535,33 @@
       "status": "contested",
       "confidence": "medium",
       "page": "wiki/concepts/hippocampal-neurogenesis.md"
+    },
+    {
+      "id": "basolateral-amygdala",
+      "title": "杏仁核基底外侧群（BLA）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/basolateral-amygdala.md"
+    },
+    {
+      "id": "fear-conditioning",
+      "title": "恐惧条件反射",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/fear-conditioning.md"
+    },
+    {
+      "id": "fear-extinction",
+      "title": "恐惧消退",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/fear-extinction.md"
     }
   ],
   "edges": [
@@ -2355,6 +2382,96 @@
       "from": "gain-control",
       "to": "5-ht-autoreceptor",
       "type": "related"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "basolateral-amygdala",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "fear-conditioning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "camkii",
+      "to": "fear-conditioning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "engram-cells",
+      "to": "basolateral-amygdala",
+      "type": "related"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "fear-conditioning",
+      "type": "contradicts"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "basolateral-amygdala",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "basolateral-amygdala",
+      "to": "fear-conditioning",
+      "type": "part-of"
+    },
+    {
+      "from": "basolateral-amygdala",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "fear-conditioning",
+      "type": "regulates"
+    },
+    {
+      "from": "sst-interneurons",
+      "to": "fear-conditioning",
+      "type": "regulates"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "fear-conditioning",
+      "type": "regulates"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "basolateral-amygdala",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "fear-extinction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "fear-extinction",
+      "type": "regulates"
+    },
+    {
+      "from": "ltp",
+      "to": "fear-conditioning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "fear-conditioning",
+      "type": "supports"
     }
   ],
   "dangling_references": [

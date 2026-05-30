@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-13",
-  "total_articles": 22,
+  "last_updated": "2026-06-14",
+  "total_articles": 23,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1573,6 +1573,81 @@
       "mode": "long_term_curriculum",
       "article_number": 22,
       "note": "第四周第一篇：完成四大调质系统覆盖（DA#15/ACh-NE#20/5-HT今日）。核心贡献：以SSRI延迟悖论为切入点，揭示5-HT1A自受体负反馈架构；引入海马神经发生假说并明确标注其争议状态（hippocampal-neurogenesis页面设为contested）。逻辑日期：2026-06-13（接续article #20的2026-06-12，article #21的逻辑日期应为2026-06-13但因系统日期被记录为2026-05-30）。新建3个wiki页面，修订2个，图谱新增3节点21边（总计58节点308边）。"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "杏仁核的恐惧算法：一次巴甫洛夫配对如何在侧核刻写终身威胁记忆",
+      "filename": "2026-06-14-amygdala-fear-circuit.md",
+      "wiki_pages_created": [
+        "wiki/systems/basolateral-amygdala.md",
+        "wiki/concepts/fear-conditioning.md",
+        "wiki/concepts/fear-extinction.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/engram-cells.md",
+        "wiki/systems/prefrontal-cortex.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "侧杏仁核（LA）如何通过 NMDA 受体介导的 LTP，在一次 CS-US 配对后永久记录威胁联结？以及这种记忆为何不能被删除，只能被 IL-PFC→ITC→CeM 通路的新学习所竞争性压制？",
+      "layer": [
+        "分子",
+        "细胞",
+        "突触",
+        "微回路",
+        "脑区",
+        "行为"
+      ],
+      "curriculum_track": "6. 情绪与动机",
+      "topic_tags": [
+        "amygdala",
+        "basolateral amygdala",
+        "lateral amygdala",
+        "fear conditioning",
+        "Pavlovian conditioning",
+        "CS-US",
+        "LTP",
+        "NMDA receptor",
+        "AMPA receptor",
+        "fear extinction",
+        "infralimbic cortex",
+        "prelimbic cortex",
+        "ITC cells",
+        "CREB memory allocation",
+        "engram cells BLA",
+        "PTSD",
+        "renewal",
+        "spontaneous recovery",
+        "reconsolidation",
+        "disinhibition",
+        "PV SST amygdala"
+      ],
+      "main_sources": [
+        "PMID:10845062 (LeDoux 2000 Annual Review, 摘要)",
+        "PMID:10542437 (Maren 1999 Trends Neurosci, 摘要)",
+        "PMID:9403688 (Rogan 1997 Nature, 摘要)",
+        "PMID:9403689 (McKernan 1997 Nature, 摘要)",
+        "PMID:32047613 (PMC6993823, Sun 2020 F1000Research, 全文)",
+        "PMID:20303254 (PMC2878722, Sotres-Bayon 2010, 全文)",
+        "PMID:32970967 (PMC8428921, Bouton 2021 Physiol Rev, 全文)",
+        "PMID:31837649 (PMC7162924, Park 2020, 全文)",
+        "PMID:29197563 (PMC6178932, Lucas 2018, 全文)"
+      ],
+      "unresolved_questions": [
+        "Q-fear-temporal-gap",
+        "Q-itc-plasticity",
+        "Q-extinction-ltp-ltd",
+        "Q-reconsolidation-clinical"
+      ],
+      "next_suggested_topics": [
+        "动机回路：伏隔核、多巴胺能投射与恐惧-奖励的效价编码",
+        "HPA 轴与应激激素：皮质醇如何重塑海马和杏仁核突触",
+        "脑连接组：果蝇或线虫恐惧/逃避回路的完整电路图",
+        "再巩固窗口（Reconsolidation）：记忆提取后的分子不稳定期与 PTSD 治疗",
+        "皮层-杏仁核情绪调节：人类情绪调节策略（重评价、压制）的神经机制"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 23
     }
   ],
   "layer_coverage_recent": {

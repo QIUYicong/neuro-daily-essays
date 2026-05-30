@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-06-09
-revision_count: 4
+updated: 2026-06-14
+revision_count: 5
 dimensions: [cellular, brain-region, behavior, cognition, methods]
-related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics]
+related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, basolateral-amygdala, fear-conditioning]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
 opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence]
-source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience]
-key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647"]
+source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-06-14-amygdala-fear-circuit]
+key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647", "PMID:31837649"]
 ---
 
 # 印迹细胞 (Engram Cells)
@@ -74,6 +74,8 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 
 ## 连接
 
+- [[basolateral-amygdala]] — 恐惧记忆印迹在 LA（侧杏仁核）中形成；CREB 分配机制（Park 2020，PMID:31837649）直接在 LA 中被证明；约 10%–20% 的 LA 主细胞成为印迹成员
+- [[fear-conditioning]] — 巴甫洛夫恐惧条件反射是印迹细胞分配在情绪回路中的直接实例
 - [[optogenetics]] — ChR2 + c-fos 标记系统是印迹研究的核心方法；假记忆、效价翻转、沉默印迹恢复均依赖光遗传学的因果干预
 - [[place-cell]] — 场所细胞是空间情景记忆的印迹细胞候选；CA1 场所细胞参与空间情景记忆印迹
 - [[hippocampal-circuit]] — DG→CA3→CA1→BLA 印迹间链利用海马的三突触回路结构
@@ -113,9 +115,11 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；系统巩固框架补充：沉默印迹（Roy 2016）可能是被阻断系统巩固（突触权重未随时间恢复）的结果；皮层印迹的建立是系统巩固的细胞层面输出
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"印迹细胞分配的竞争机制"小节，将 CREB 竞争纳入嵌套竞争-遴选架构；新增 [[competition-selection-principle]] 到 related 字段
 - 2026-06-09 · 修订 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · 补充 c-fos-tTA 标记系统的技术细节（PMID:24478647 全文，dox 窗口机制，~2-6% DG 细胞稀疏性）；新增 [[optogenetics]] 到 related；补充假记忆实验的完整分子-行为链；将 revision_count 升至 4
+- 2026-06-14 · 修订 · 基于《杏仁核的恐惧算法》一文 · 新增：LA 印迹分配的 CREB 时序机制（Park 2020，PMID:31837649，opto-DN-CREB）；恐惧 LA-LTP 与印迹细胞理论的对应；related 新增 basolateral-amygdala、fear-conditioning；key_sources 新增 PMID:31837649
 
 ## 来源文章
 
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-06-09-optogenetics-causal-neuroscience]]
+- [[2026-06-14-amygdala-fear-circuit]]

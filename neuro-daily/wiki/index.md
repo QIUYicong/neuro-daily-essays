@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13 · 主题页总数：58
+> 最后更新：2026-06-14 · 主题页总数：61
 
 ---
 
@@ -70,10 +70,13 @@
 - 🟢 [去甲肾上腺素与蓝斑系统](concepts/norepinephrine-locus-coeruleus.md) — 蓝斑LC通过相位性/紧张性双模式和倒U形NE浓度曲线优化皮层认知增益；α2A稳定PFC工作记忆；β受体促进情绪记忆LTP；Aston-Jones & Cohen 2005适应性增益理论 **[NEW 2026-06-12]**
 - 🔵 [5-HT自受体与SSRI延迟起效](concepts/5-ht-autoreceptor.md) — 5-HT1A树突自受体负反馈在急性期抵消SSRI效果；14天后自受体脱敏解除制动；皮质5-HT1A/2A功能拮抗；pindolol加速起效的临床证据 **[NEW 2026-06-13]**
 - 🔴 [海马神经发生](concepts/hippocampal-neurogenesis.md) — 啮齿类SGZ持续神经发生（证据充分）；阻断神经发生消除SSRI行为效果；人类成人神经发生规模和存在性争议（Sorrells vs Boldrini 2018对立数据）**[NEW 2026-06-13 · 争议]**
+- 🟢 [恐惧条件反射](concepts/fear-conditioning.md) — CS-US 配对→侧杏仁核 NMDA-LTP；CREB 竞争决定哪些 LA 神经元被纳入印迹；样本高效（1–5次配对终身记忆）；不可删除只可竞争性压制 **[NEW 2026-06-14]**
+- 🟢 [恐惧消退](concepts/fear-extinction.md) — 新学习而非遗忘；IL-PFC→ITC→CeM 驱动消退表达；PL-PFC→BA→CeM 驱动恐惧表达；情境依赖（续新/自发恢复/重建三证）；PTSD 消退机制失调 **[NEW 2026-06-14]**
 
 ## systems（系统）
 
-- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
+- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；IL-PFC→ITC→CeM 驱动恐惧消退，PL-PFC→BA→CeM 驱动恐惧表达（修订2次）
+- 🟢 [杏仁核基底外侧群（BLA）](systems/basolateral-amygdala.md) — LA-BA-CeM 恐惧回路；NMDA-LTP 在 LA 实现 CS-US 联结；ITC 细胞是消退门控；PV/SST 中间神经元调控 CS 去抑制 **[NEW 2026-06-14]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
@@ -99,7 +102,7 @@
 | 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：场所细胞, 网格细胞, θ振荡/相位编码, **V1方向选择性（2026-06-11）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
 | 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**；待覆盖：记忆提取机制）|
 | 5. 认知控制 | 🔵 进行中（已覆盖：**工作记忆**、**奖励学习/三因素规则（2026-06-07）**、**注意/增益控制（ACh/NE，2026-06-12）**；待覆盖：执行控制、决策）|
-| 6. 情绪与动机 | 🔵 进入中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线；待覆盖：杏仁核、恐惧、动机回路）|
+| 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、**恐惧条件反射（BLA/LA 突触 LTP）**、**恐惧消退（IL-PFC/ITC 回路）**（2026-06-14）；待覆盖：动机、社会行为）|
 | 11. 疾病作为窗口 | 🔵 开始（已覆盖：阿尔茨海默病（AD突触机制）；待覆盖：帕金森、ASD、精神分裂症、癫痫、抑郁）|
 | 10. 方法革命 | 🔵 开始（已覆盖：**光遗传学**；待覆盖：电生理、fMRI、钙成像、单细胞测序、空间转录组）|
 | 2, 7–9, 12 | ⚪ 待开始 |

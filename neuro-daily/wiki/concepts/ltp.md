@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-08
-revision_count: 6
+updated: 2026-06-14
+revision_count: 7
 dimensions: [synaptic, cellular, cognition, brain-region, disease]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, basolateral-amygdala]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-14-amygdala-fear-circuit]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:9403688", "PMID:9403689"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -85,6 +85,8 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 
 ## 连接
 
+- [[fear-conditioning]] — 恐惧条件反射是 LTP 在侧杏仁核（LA）的直接行为学实例；Rogan 1997（PMID:9403688）体内证明恐惧学习产生 LA 场电位 LTP；McKernan 1997（PMID:9403689）离体证明 AMPA:NMDA 比值升高
+- [[basolateral-amygdala]] — BLA 是恐惧 LTP 的解剖位点；与海马 CA1 LTP 使用相同 NMDA-CaMKII-AMPA 分子机制
 - [[alzheimers-disease]] — AD的核心病理是LTP的系统性失效；Aβ寡聚体通过多通路将LTP机器单向瓦解
 - [[amyloid-beta-oligomers]] — LTP的主要分子劫持者；通过突触外NR2B、calcineurin、BDNF截断等机制阻断LTP
 - [[nmda-receptor]] — LTP 诱导的必要门卫，提供 Ca²⁺ 内流触发
@@ -113,6 +115,10 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 - 2026-06-07 · 修订 · 基于《多巴胺的时间机器》一文 · 新增 DA-LTP 机制（D1/D5→cAMP→PKA→CREB→L-LTP，来自 Huang & Kandel 1995 PNAS，PMC42234）；新增突触标记与捕获（STC）作为 L-LTP 选择性诱导机制；related 新增 dopamine-reward-prediction-error、synaptic-tagging-capture、three-factor-learning-rule；key_sources 新增 PMID:7708662、PMID:9020359
 - 2026-06-08 · 修订 · 基于《记忆的分子遗忘》一文（AD与LTP失效） · 扩展"LTP的病理镜像"段落（Aβ五条并行攻击通路；突触沉默的可逆性）；related 新增 alzheimers-disease、amyloid-beta-oligomers；key_sources 新增 PMID:11932745、PMID:17360908、PMID:21543591；dimensions 新增 disease；连接新增 alzheimers-disease 和 amyloid-beta-oligomers
 
+## 修订历史（续）
+
+- 2026-06-14 · 修订 · 基于《杏仁核的恐惧算法》一文 · 新增恐惧条件反射为 LTP 在情绪系统的直接行为学实例（Rogan 1997, McKernan 1997）；related 新增 fear-conditioning、basolateral-amygdala；key_sources 新增 PMID:9403688、PMID:9403689
+
 ## 来源文章
 
 - [[2026-05-26-nmda-receptor-ltp]]
@@ -120,3 +126,4 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-04-ltd-long-term-depression]]
 - [[2026-06-07-dopamine-reward-prediction-error]]
+- [[2026-06-14-amygdala-fear-circuit]]

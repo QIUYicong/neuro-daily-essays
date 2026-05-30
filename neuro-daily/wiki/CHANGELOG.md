@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-06-14（第四周第二篇·第 23 篇）
+
+**源文章**：[[2026-06-14-amygdala-fear-circuit]] —《杏仁核的恐惧算法：一次巴甫洛夫配对如何在侧核刻写终身威胁记忆》
+
+**新建页面（3）**：
+- `systems/basolateral-amygdala.md`（杏仁核基底外侧群 BLA）🟢 established / 置信度高 — LA-BA-CeM 三核团功能分工；CS/US 汇聚于 LA；PV→SST 去抑制窗口；CREB 印迹分配；ITC cells 消退门控
+- `concepts/fear-conditioning.md`（恐惧条件反射）🟢 established / 置信度高 — NMDA-LTP 的情绪系统行为实例；Rogan 1997/McKernan 1997 奠基性证据；CREB 竞争；NE β受体情感增强
+- `concepts/fear-extinction.md`（恐惧消退）🟢 established / 置信度高 — 新学习而非删除；IL-PFC→ITC→CeM 消退通路；PL-PFC→BA→CeM 恐惧通路；三大复发现象（续新/自发恢复/重建）；PTSD 机制基础
+
+**修订页面（3）**：
+- `concepts/ltp.md`（revision_count 6→7）：新增恐惧条件反射作为 LTP 在情绪系统的直接行为学实例（Rogan 1997 PMID:9403688，McKernan 1997 PMID:9403689）；related 新增 fear-conditioning、basolateral-amygdala
+- `concepts/engram-cells.md`（revision_count 4→5）：新增 LA 印迹分配的 CREB 时序机制（Park 2020 PMID:31837649 opto-DN-CREB）；related 新增 basolateral-amygdala、fear-conditioning
+- `systems/prefrontal-cortex.md`（revision_count 1→2）：新增 mPFC 情绪调控功能（IL-PFC→消退，PL-PFC→恐惧），ITC 细胞通路，vHipp-mPFC 情境门控；related 新增 fear-extinction、basolateral-amygdala、hippocampal-circuit
+
+**登记矛盾（0）**：无新矛盾（消退是否含有部分 LTD 成分的争议已列入 unresolved_questions）
+
+**新增悬空引用（2）**：
+- `intercalated-cell-masses`：ITC cells 在 fear-extinction、basolateral-amygdala 中被引用，需专页
+- `memory-reconsolidation`：在文章中提及再巩固窗口，需专页覆盖
+
+**图谱更新**：新增3个节点（basolateral-amygdala, fear-conditioning, fear-extinction），新增18条边；图谱总计61节点、326条边
+
+---
+
 ## 2026-06-13（第四周第一篇·第 22 篇）
 
 **源文章**：[[2026-06-13-serotonin-autoreceptor-ssri-delay]] —《血清素的慢时钟：为什么抗抑郁药需要等待两周？》
