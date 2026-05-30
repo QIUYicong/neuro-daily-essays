@@ -1,0 +1,164 @@
+# Run Log: 2026-06-10
+
+**开始时间**：2026-06-10（UTC+8）
+**文章编号**：#18
+**主题**：短时程突触可塑性（Short-term Synaptic Plasticity，STP）
+**模式**：长期课程模式（long_term_curriculum）
+**分支**：claude/funny-einstein-RZxNT
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：读取完成，最后条目 2026-06-09（光遗传学文章），article_number=17
+- `unresolved_questions.md`：读取完成，最新条目 2026-06-09（3 opto相关问题），共计 60+ 问题
+- `contested_claims.json`：读取完成，2 个 open（C-2026-05-24-01 GABA极性，C-2026-05-25-01 SNARE就绪态）
+- `wiki/_graph.json`：读取完成，45节点/236边
+- `wiki/index.md`：读取完成，总页数45
+- `state/monthly_synthesis.md`：读取完成，截至洞见 #44（2026-06-09）
+
+---
+
+## 选题决策
+
+**问题队列分析**：
+- 突破追踪：无需要立即追踪的近期重大突破
+- 矛盾裁决：C-2026-05-24-01（GABA极性）、C-2026-05-25-01（SNARE就绪态）均 open，本次文献不直接支持裁决
+- **填补悬空引用**：图谱分析显示 45 节点中全部节点均已至少连接 1 条边，无孤立悬空节点。但 synaptotagmin.md 的 Q-syt7-facilitation-mechanism 标注为重要未解，且该问题与 STP 直接相关
+- 课程脊柱：课程追踪器中"突触层深化"（synaptic layer）最后一次出现为 2026-06-04（LTD文章），已 6 天未更新突触层
+
+**选定主题**：短时程突触可塑性（STP）
+**理由**：
+1. 在前 17 篇文章中，STP 在 5 篇不同文章的 next_suggested_topics 中出现（文章 2/4/11/13/17），是最高频次被推荐但未执行的话题
+2. 直接解决 Q-syt7-facilitation-mechanism（synaptotagmin 的开放问题），且 Syt7 作为 STF 传感器有大量新 2026 年文献支持
+3. STP 是工作记忆的 Mongillo 2008 活动无声框架的分子基础，与 working-memory 页面的 Q-wm-active-vs-silent 直接相关
+4. Grover 2026（PMC12908934）和 Shin 2026（PMC12890252）分别给出了关于 WM 时序编码和 PFC 囊泡过载机制的新发现，使今日文章能整合 2026 年最新研究
+5. 连接链：synaptic-transmission → STP → working-memory（三个已有 wiki 页的高价值桥接）
+
+---
+
+## 检索过程
+
+### 检索词与数据源
+
+**主要检索词**：
+- "short-term synaptic plasticity review" PubMed → 发现 Zucker & Regehr 2002
+- "synaptotagmin-7 facilitation" PubMed/PMC → Jackman 2016 (PMC4729191), Turecek 2017 (PMC5892411), Norman 2023 (PMC10611806)
+- "activity-silent working memory STP" PMC → Mongillo 2008, Grover 2026 (PMC12908934)
+- "PFC short-term facilitation synaptic overfilling" PMC → Shin 2026 (PMC12890252)
+- "temporal filtering STP low-pass high-pass" PMC → Motanis 2018 (PMC6171349)
+- "vesicle depletion short-term depression" PubMed → Dobrunz & Stevens 1997 (PMID:22751149 - abstract)
+
+**数据源**：PubMed Central (PMC) 开放全文 × 6，PubMed abstract only × 2，无 Sci-Hub，无付费绕过
+
+### 候选源汇总（11篇）
+
+| PMID | 作者年份 | 访问状态 | 用途 |
+|------|---------|---------|------|
+| 15483601 | Zucker & Regehr 2002 | abstract only | STP 综述基础框架 |
+| 22751149 | Dobrunz & Stevens | abstract only | STD 囊泡耗竭建模 |
+| 26738595 | Jackman 2016 (PMC4729191) | 全文 | Syt7 KO 消除 4 种突触 PPF |
+| 29088700 | Turecek 2017 (PMC5892411) | 全文 | Syt7 频率不变性（浦肯野细胞） |
+| 37891212 | Norman 2023 (PMC10611806) | 全文 | Syt1+Syt7 双传感器模型 |
+| 41665484 | Shin 2026 (PMC12890252) | 全文 | PFC STF 囊泡过载机制 + 行为 |
+| 18339943 | Mongillo 2008 | abstract only | 活动无声 WM 框架 |
+| 41693539 | Grover 2026 (PMC12908934) | 全文 | WM 时序编码（突触增强） |
+| 30274605 | Motanis 2018 (PMC6171349) | 全文 | STP 时域滤波综述 |
+| 11826273 | Abbott & Regehr 2004 | abstract only | 突触计算综述 |
+| 42174017 | 2025 review | 全文 | STP/LTP 整合框架 |
+
+**采用**：11 篇（8 全文 + 3 abstract）
+**排除**：0 篇（无需排除；部分仅 abstract 可用者仅用于背景框架，不作为核心主张来源）
+
+---
+
+## 文章写作
+
+**文件路径**：`neuro-daily/articles/2026-06-10-short-term-synaptic-plasticity.md`
+**字数**：约 4,500 字（中文）
+**结构**：
+1. 核心问题 / 一句话摘要
+2. 为什么重要
+3. 背景（RRP、P_r 基础）
+4. 机制一：STD（囊泡耗竭模型）
+5. 机制二：STF（残余钙 + Syt7）
+6. Syt7 三种角色（低 P_r STF / 高 P_r 频率不变性 / PFC 囊泡过载）
+7. STP 的计算功能（时域滤波 / 增益控制 / 活动无声 WM）
+8. 关键证据表
+9. 比喻（沙发弹簧）
+10. 与AI对照
+11. 概念卡片 / 认知地图更新 / 参考来源
+
+**关键实验证据**：
+- Jackman 2016 (PMC4729191)：Syt7 KO 完全消除 4 种突触 PPF，P_r 不变
+- Turecek 2017 (PMC5892411)：Syt7 KO 在浦肯野→DCN 突触引起频率依赖抑制（失去频率不变性）
+- Shin 2026 (PMC12890252)：PFC L2/3 STF 通过囊泡过载（30→60% 发射位点占用），KD 损害恐惧记忆获取
+- Grover 2026 (PMC12908934)：突触增强（augmentation）实现 WM 时序编码
+
+---
+
+## Wiki 固结
+
+### 新建页面
+- `wiki/concepts/short-term-synaptic-plasticity.md`
+  - slug: short-term-synaptic-plasticity
+  - domain: concepts, type: mechanism, status: established, confidence: high
+  - 内容：STD/STF 机制全景 + Syt7 多角色 + PFC 2026 + 时域滤波计算功能
+
+### 修订页面（3 页）
+- `wiki/neurons/synaptotagmin.md`（revision 2→3）：补充 Syt7 STF 完整证据链（Jackman/Turecek/Shin）
+- `wiki/neurons/synaptic-transmission.md`（revision 2→3）：新增 STP 作为突触传递动态状态层
+- `wiki/concepts/working-memory.md`（revision 2→3）：新增 Grover 2026 STP 时序编码扩展
+
+### 图谱更新
+- 节点：45 → 46（新增 short-term-synaptic-plasticity）
+- 边：236 → 248（新增 12 条有向边）
+  - short-term-synaptic-plasticity → synaptotagmin（mechanism-of）
+  - short-term-synaptic-plasticity → synaptic-transmission（mechanism-of）
+  - short-term-synaptic-plasticity → active-zone（mechanism-of）
+  - short-term-synaptic-plasticity → ltp（related）
+  - short-term-synaptic-plasticity → ltd（related）
+  - short-term-synaptic-plasticity → working-memory（supports）
+  - short-term-synaptic-plasticity → ampa-receptor（mechanism-of）
+  - short-term-synaptic-plasticity → voltage-gated-calcium-channels（prerequisite-for）
+  - working-memory → short-term-synaptic-plasticity（mechanism-of）
+  - synaptotagmin → short-term-synaptic-plasticity（supports）
+  - active-zone → short-term-synaptic-plasticity（supports）
+  - voltage-gated-calcium-channels → short-term-synaptic-plasticity（supports）
+
+---
+
+## 状态更新
+
+- `wiki/index.md`：总页数 45→46，last_updated 更新
+- `wiki/CHANGELOG.md`：2026-06-10 条目新增
+- `state/source_registry.json`：新增 10 条源（112→122 源总计）
+- `state/topic_ledger.json`：新增 article #18，total_articles 17→18，last_updated 更新
+- `state/unresolved_questions.md`：新增 Q-stp-ltp-interaction（高优先级）
+- `state/monthly_synthesis.md`：新增洞见 45/46/47，更新表格
+- `logs/2026-06-10-run.log`：本文件
+
+---
+
+## 矛盾登记
+
+本次无新矛盾。
+- 已有 C-2026-05-25-01（SNARE 就绪态）与 STP 无直接矛盾
+- Syt7 的机制虽有多种假说，但各证据来自不同突触类型，不构成同一系统内的直接矛盾
+
+---
+
+## 失败与限制
+
+- Mongillo 2008 全文无法获取（abstract only）：活动无声 WM 框架的核心主张仍以引文形式整合，未直接读取公式和模拟参数
+- Zucker & Regehr 2002 STP 综述（abstract only）：经典框架只能从二次引用和摘要中提取；更多细节通过 Motanis 2018 综述（全文）补充
+- STD 的 Dobrunz & Stevens 1997 建模参数（abstract only）：未能直接读取 P_r 分布数据
+
+---
+
+## Git 操作
+
+- **commit**：Add neuro daily article + wiki consolidation for 2026-06-10
+- **branch**：claude/funny-einstein-RZxNT
+- **push**：git push -u origin claude/funny-einstein-RZxNT
+- **push 状态**：待执行

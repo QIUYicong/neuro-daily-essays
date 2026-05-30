@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-25
-updated: 2026-05-26
-revision_count: 2
+updated: 2026-06-10
+revision_count: 3
 dimensions: [synaptic, cellular, molecular, cognition]
-related: [action-potential, SNARE-complex, synaptotagmin, active-zone, neurotransmitter-receptor, axon-initial-segment, nmda-receptor, ampa-receptor, ltp]
+related: [action-potential, SNARE-complex, synaptotagmin, active-zone, neurotransmitter-receptor, axon-initial-segment, nmda-receptor, ampa-receptor, ltp, short-term-synaptic-plasticity]
 prerequisites: [action-potential, voltage-gated-calcium-channel]
 opens_questions: [Q-snare-partial-zipper, Q-kiss-and-run-prevalence, Q-vesicle-recycling-kinetics]
 source_articles: [2026-05-25-synaptic-vesicle-exocytosis, 2026-05-26-nmda-receptor-ltp]
@@ -75,6 +75,18 @@ key_sources: ["PMID:22068972", "PMID:22026965", "PMID:23060190", "PMID:22510460"
 
 这两类受体共同构成了突触传递的接收端：AMPA 受体负责"当下"的快速传递，NMDA 受体负责"可塑性"的时间判断。突触传递效率（"突触权重"）在 LTP/LTD 中由突触后 AMPA 受体的数量动态调节。
 
+## 短时程突触可塑性：突触传递的动态状态（2026-06-10 新增）
+
+突触传递的强度不是静止的——它随突触前的使用历史在毫秒到分钟尺度上动态变化。参见 [[short-term-synaptic-plasticity]] 页面。
+
+简要框架：
+- **突触后响应幅度** = 静态权重 × 即时可用 RRP 囊泡数 × 残余 Ca²⁺ 激活的 Syt7 贡献
+- **短时程抑制（STD）**：连续 AP 耗竭 RRP → 后续响应减弱 → 低通滤波效应
+- **短时程易化（STF）**：残余 Ca²⁺ 激活 Syt7 → 后续响应增强 → 高通滤波效应
+- **决定方向**：初始释放概率 P_r；高 P_r → STD 主导；低 P_r → STF 主导
+
+STP 与 LTP/LTD 的关系：LTP/LTD 改变突触的长期基线权重；STP 在该基线上叠加即时的历史依赖调制，形成一个二维的突触状态空间（基线强度 × 短期历史状态）。
+
 ## 连接
 
 - [[action-potential]] — 触发突触传递的电信号
@@ -96,6 +108,7 @@ key_sources: ["PMID:22068972", "PMID:22026965", "PMID:23060190", "PMID:22510460"
 
 - 2026-05-25 · 创建 · 基于《神经信号的化学渡口》一文 · 初始置信度：高（多篇诺贝尔奖相关研究支持）
 - 2026-05-26 · 修订 · 新增突触后受体层（AMPA/NMDA 受体）及其在 LTP 中的角色；related 字段扩展；dimensions 新增 cognition · 来源：《NMDA 受体：突触的巧合检测器》
+- 2026-06-10 · 修订 · 新增"短时程突触可塑性"小节，将 STP 整合为突触传递的动态特性层；related 新增 [[short-term-synaptic-plasticity]] · 来源：《突触的历史感：STP》
 
 ## 来源文章
 

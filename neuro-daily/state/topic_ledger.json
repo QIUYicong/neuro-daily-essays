@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-09",
-  "total_articles": 17,
+  "last_updated": "2026-06-10",
+  "total_articles": 18,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1147,6 +1147,62 @@
       "mode": "long_term_curriculum",
       "article_number": 17,
       "note": "第三周第3篇：methods层首篇文章，填补最大结构性缺口。从Boyden 2005奠基论文出发，通过假记忆（Ramirez 2013）和效价翻转（Redondo 2014）展示光遗传学的最强因果证明能力。建立 methods/ 子目录。修订 engram-cells 补充c-fos-tTA系统技术细节（PMC3894458全文数据）。新增14条图谱边。"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "突触的历史感：Syt7、囊泡耗竭与大脑如何在每一次传递中存储'刚才发生了什么'",
+      "filename": "2026-06-10-short-term-synaptic-plasticity.md",
+      "wiki_pages_created": [
+        "wiki/concepts/short-term-synaptic-plasticity.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/synaptotagmin.md",
+        "wiki/neurons/synaptic-transmission.md",
+        "wiki/concepts/working-memory.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "突触前重复激活后，为什么有的突触传递会减弱（短时程抑制，STD），有的会增强（短时程易化，STF）？Syt7 如何作为高亲和力钙传感器驱动 STF？STP 如何使突触充当时域滤波器，并在没有持续放电的情况下维持活动无声工作记忆？",
+      "layer": ["分子", "突触", "认知"],
+      "curriculum_track": "1. 神经元如何工作（突触层深化）→ 4. 学习和记忆（STP↔WM）",
+      "topic_tags": [
+        "short-term synaptic plasticity",
+        "STP", "STD", "STF",
+        "synaptotagmin-7", "Syt7",
+        "vesicle depletion", "RRP",
+        "residual calcium",
+        "paired-pulse facilitation",
+        "frequency invariance",
+        "activity-silent working memory",
+        "Mongillo 2008",
+        "temporal filtering",
+        "augmentation",
+        "PFC L2/3"
+      ],
+      "main_sources": [
+        "PMID:26738595 (PMC4729191, Jackman 2016, Syt7 STF全文)",
+        "PMID:29088700 (PMC5892411, Turecek 2017, 频率不变性全文)",
+        "PMID:41665484 (PMC12890252, Shin 2026, PFC囊泡过载全文)",
+        "PMID:41693539 (PMC12908934, Grover 2026, WM时序编码全文)",
+        "PMID:30274605 (PMC6171349, Motanis 2018, 时域滤波全文)",
+        "PMID:37891212 (PMC10611806, Norman 2023, Syt双传感器全文)",
+        "PMID:18339943 (Mongillo 2008, 活动无声WM, abstract only)",
+        "PMID:15483601 (Zucker & Regehr 2002, STP综述, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-syt7-facilitation-mechanism：Syt7 精确的残余钙浓度阈值和时间窗口",
+        "Q-wm-active-vs-silent：活动性 vs 静默性 WM 的实际比例和切换条件",
+        "Q-stp-ltp-interaction：STP 的瞬态状态变化能否累积进入 LTP？两者相互作用的闸控机制"
+      ],
+      "next_suggested_topics": [
+        "视觉皮层方向选择性：V1简单细胞，大脑如何从光子到形状（系统层，大脑如何编码世界）",
+        "基底节与运动控制：直接/间接通路，纹状体多巴胺（disease层：帕金森）",
+        "体内钙成像（GCaMP）：记录数千神经元的集体活动（methods层继续）",
+        "BDNF/TrkB信号轴：神经营养因子与突触可塑性（填补悬空引用）",
+        "突触前活动区纳米域精细结构：RIM/ELKS与囊泡位置决定释放概率"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 18,
+      "note": "第三周第4篇：填补突触层核心缺口（STP从第一篇起被反复提及，共在5篇文章的next_suggested中出现）。新建 short-term-synaptic-plasticity wiki页，修订 synaptotagmin（完整Syt7证据链：Jackman 2016 四突触PPF+Turecek 2017 频率不变性+Shin 2026 PFC囊泡过载）、synaptic-transmission（STP动态层）、working-memory（Grover 2026活动无声WM时序扩展）。图谱新增12条边（46节点，248条边）。"
     }
   ],
   "layer_coverage_recent": {
@@ -1155,7 +1211,8 @@
       "2026-05-25",
       "2026-05-26",
       "2026-06-01",
-      "2026-06-04"
+      "2026-06-04",
+      "2026-06-10"
     ],
     "cellular": [
       "2026-05-24",
@@ -1172,7 +1229,8 @@
       "2026-05-26",
       "2026-05-28",
       "2026-06-01",
-      "2026-06-04"
+      "2026-06-04",
+      "2026-06-10"
     ],
     "microcircuit": [
       "2026-05-27",
@@ -1203,10 +1261,11 @@
       "2026-05-30",
       "2026-05-31",
       "2026-06-02",
-      "2026-06-03"
+      "2026-06-03",
+      "2026-06-10"
     ],
     "disease": ["2026-06-08"],
     "methods": ["2026-06-09"]
   },
-  "layer_note": "2026-06-09（光遗传学）：methods层首次写入！填补最大结构性缺口。同时覆盖molecular（ChR2机制）/cellular（神经元活动控制）/microcircuit（回路因果解析）/behavior（假记忆/效价翻转行为实验）/cognition（方法论因果推断）多层。新建 methods/ 子目录和第一个方法页（optogenetics），修订 engram-cells。下一篇可继续 methods 层（单细胞测序/钙成像）或 disease 层（帕金森），或填补 synaptic 层缺口（短时程突触可塑性STP）。"
+  "layer_note": "2026-06-10（短时程突触可塑性 STP）：synaptic层重要深化——填补了自第一篇起就反复出现在next_suggested中的核心缺口。覆盖molecular（Syt7分子机制）/synaptic（STD/STF动力学）/cognition（活动无声WM，Grover 2026扩展）。新建 short-term-synaptic-plasticity wiki页，大幅修订 synaptotagmin（完整Syt7三证据链）。下一篇优先选项：visual cortex（系统层首篇），或disease层（帕金森），或methods层继续（钙成像）。"
 }

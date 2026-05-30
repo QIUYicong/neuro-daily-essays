@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-06-10（第三周·第 4 篇，文章 #18）
+
+**源文章**：[[2026-06-10-short-term-synaptic-plasticity]] —《突触的历史感：Syt7、囊泡耗竭与大脑如何在每一次传递中存储"刚才发生了什么"》
+
+**新建页面（1）**：
+- `concepts/short-term-synaptic-plasticity.md`（短时程突触可塑性，STP）🟢 established / 置信度高 — 填补突触层最后的关键缺口（被连续 5 篇文章列为最高优先）；STD（囊泡池耗竭，RRP 模型 A_n/A_1 = (1-F)^(n-1)）+ STF（Syt7 感知残余 Ca²⁺, K_D ~µM vs Syt1 ~100 µM）完整机制；Jackman 2016（4 种突触 Syt7 KO 消除 PPF，PMC4729191）；Turecek 2017（浦肯野→DCN 频率不变性，PMC5892411）；Shin 2026（PFC 囊泡过载机制 + 追踪恐惧记忆，PMC12890252）；Grover 2026（STP 编码 WM 时序信息，PMC12908934）；时间滤波（STD=低通，STF=高通）；活动静默工作记忆（Mongillo 2008）；12 条新边
+
+**修订页面（3）**：
+- `neurons/synaptotagmin.md`（revision 2→3）：补充 Syt7 作为 STF 分子传感器的完整实验证据（Jackman 2016, Turecek 2017, Shin 2026）；关键证据表新增 3 行；Q-syt7-facilitation-mechanism 已有充分答案
+- `neurons/synaptic-transmission.md`（revision 2→3）：新增"短时程突触可塑性"小节，将 STP 整合为突触传递的动态特性层；related 新增 short-term-synaptic-plasticity
+- `concepts/working-memory.md`（revision 2→3）：新增"活动静默 WM 的 STP 基础更新"小节，整合 Grover 2026（PMC12908934）关于 STP 编码时序信息的新发现；related 新增 short-term-synaptic-plasticity
+
+**悬空引用（0）**：今日无新悬空引用（所有 STP 相关概念均有对应页面）
+
+**矛盾登记（0）**：今日无新矛盾。既有 C-2026-05-24-01（GABA 极性）和 C-2026-05-25-01（SNARE 就绪态）仍为 open，今日文献未直接裁决。
+
+**图谱更新**：
+- 新节点：short-term-synaptic-plasticity（46 个总节点）
+- 新边：12 条（STP↔synaptotagmin/synaptic-transmission/active-zone/ltp/ltd/working-memory/ampa-receptor/voltage-gated-calcium-channels；working-memory↔STP；synaptotagmin↔STP；active-zone↔STP）
+- 总边数：236 → 248
+
+---
+
 ## 2026-06-09（第三周·第 3 篇，文章 #17）
 
 **源文章**：[[2026-06-09-optogenetics-causal-neuroscience]] —《光遗传学：用一束光解开神经回路的因果之谜》

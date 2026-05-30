@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-06
-revision_count: 2
+updated: 2026-06-10
+revision_count: 3
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle]
+related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory]
-key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-short-term-synaptic-plasticity]
+key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:41693539 (PMC12908934)"]
 ---
 
 # 工作记忆 (Working Memory)
@@ -87,10 +87,23 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 
 **与竞争-遴选架构的关系**：工作记忆是"嵌套竞争-遴选架构"（[[competition-selection-principle]]）在认知层次上的典型实例，容量限制即竞争机制的物理上限。
 
+## 活动静默 WM 的 STP 基础更新（2026-06-10）
+
+Grover 等人 2026 年（PMC12908934）将 Mongillo 2008 的活动静默 WM 框架进一步扩展：
+
+- **原框架**（Mongillo 2008）：STF（短时程易化）以残余 Ca²⁺ 状态存储信息，无需持续放电
+- **新发现**：**突触增强（augmentation，持续 ~10–30 秒）**提供了另一层时序编码能力
+  - 不同时刻输入的项目在突触上留下不同深度的增强痕迹：早发生的事件 → 更深增强；晚发生的事件 → 较浅增强
+  - 这形成一种**时间梯度**：STP 不仅存储"记忆了什么"，还存储"什么时候发生的"
+- 意义：人类在无排练情况下记住新序列的顺序，可能依赖这种突触时序编码
+
+STF 与 augmentation 的分子基础：[[short-term-synaptic-plasticity]]
+
 ## 修订历史
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文 · 初始置信度：高
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"工作记忆容量的吸引子竞争机制"小节；明确 θ/γ 嵌套约束与吸引子竞争两种容量限制假说；added [[competition-selection-principle]] to related
+- 2026-06-10 · 修订 · 基于《突触的历史感：STP》一文 · 新增"活动静默 WM 的 STP 基础更新"小节，整合 Grover et al. 2026（PMC12908934）关于突触增强编码时序信息的新发现；related 新增 [[short-term-synaptic-plasticity]]；key_sources 更新
 
 ## 来源文章
 
