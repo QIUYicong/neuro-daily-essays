@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-13",
-  "total_articles": 22,
+  "last_updated": "2026-06-14",
+  "total_articles": 23,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1573,6 +1573,86 @@
       "mode": "long_term_curriculum",
       "article_number": 22,
       "note": "第四周第一篇：完成四大调质系统覆盖（DA#15/ACh-NE#20/5-HT今日）。核心贡献：以SSRI延迟悖论为切入点，揭示5-HT1A自受体负反馈架构；引入海马神经发生假说并明确标注其争议状态（hippocampal-neurogenesis页面设为contested）。逻辑日期：2026-06-13（接续article #20的2026-06-12，article #21的逻辑日期应为2026-06-13但因系统日期被记录为2026-05-30）。新建3个wiki页面，修订2个，图谱新增3节点21边（总计58节点308边）。"
+    },
+    {
+      "date": "2026-06-14",
+      "title": "多巴胺的沉默与节律的失控：帕金森病如何揭示大脑运动控制的回路逻辑",
+      "filename": "2026-06-14-parkinson-basal-ganglia-circuit.md",
+      "wiki_pages_created": [
+        "wiki/diseases/parkinsons-disease.md",
+        "wiki/circuits/basal-ganglia.md",
+        "wiki/concepts/beta-oscillations.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/dopamine-reward-prediction-error.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "黑质致密部多巴胺神经元的选择性死亡如何通过破坏基底节直接/间接通路的精确平衡，将运动减少和僵直雕刻进神经回路——以及深脑刺激为何能在不补充多巴胺的情况下解锁运动？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "disease"
+      ],
+      "curriculum_track": "11. 疾病作为窗口（帕金森病）→ 延伸 5. 认知控制（基底节/奖励回路）",
+      "topic_tags": [
+        "Parkinson's disease",
+        "basal ganglia",
+        "direct pathway",
+        "indirect pathway",
+        "striatum",
+        "substantia nigra pars compacta",
+        "SNc",
+        "dopamine depletion",
+        "D1 receptor",
+        "D2 receptor",
+        "GPi",
+        "STN",
+        "subthalamic nucleus",
+        "alpha-synuclein",
+        "Lewy body",
+        "Braak staging",
+        "beta oscillation",
+        "deep brain stimulation",
+        "DBS mechanism",
+        "theta shift",
+        "Albin DeLong model",
+        "Bergman 1990",
+        "Gerfen Surmeier 2011",
+        "Köhler 2024",
+        "UPDRS",
+        "bradykinesia",
+        "rigidity"
+      ],
+      "main_sources": [
+        "PMID:21469956 (PMC3487690, Gerfen & Surmeier 2011)",
+        "PMID:2479133 (Albin 1989, abstract)",
+        "PMID:1695404 (DeLong 1990, abstract)",
+        "PMID:2402638 (Bergman 1990, abstract)",
+        "PMID:25065439 (Calabresi 2014, abstract)",
+        "PMID:30897356 (McGregor & Nelson 2019, abstract)",
+        "PMID:34124057 (PMC8194081, Ray 2021)",
+        "PMID:20463229 (PMC6632566, López-Azcárate 2010)",
+        "PMID:38954651 (PMC11449126, Köhler 2024)"
+      ],
+      "unresolved_questions": [
+        "Q-pd-beta-causality",
+        "Q-pd-closed-loop-dbs",
+        "Q-pd-lewy-protective",
+        "Q-pd-snc-vulnerability",
+        "Q-pd-dbs-theta-mechanism"
+      ],
+      "next_suggested_topics": [
+        "双光子钙成像方法专页：GCaMP系列、成像原理与电生理的比较（methods层缺口；本周多篇文章引用此方法）",
+        "帕金森病非运动症状（认知/抑郁/睡眠障碍）：回路机制视角（延续今日PD主题，disease层深挖）",
+        "基底节习惯性学习 vs 目标导向学习：DMS vs DLS的分工（延续基底节主题）",
+        "V2/MT视觉层级：从方向到形状到物体识别（延续视觉课程线）",
+        "第四周综合（约文章#28）：整合四大调质系统（DA/ACh/NE/5-HT）+ 基底节奖励/运动回路"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 23,
+      "note": "第四周第二篇（logically 2026-06-14，系统日期UTC+8 2026-05-30）。disease 层第二篇文章；首次系统覆盖基底节回路（circuits/basal-ganglia.md）。以 Köhler 2024 (Brain) 的β→θ振荡切换发现为核心新洞察。新建3个wiki页面（parkinsons-disease/basal-ganglia/beta-oscillations），修订1个页面，图谱新增3节点18边（总计61节点326边）。dangling reference: alpha-synuclein（需后续文章覆盖）。"
     }
   ],
   "layer_coverage_recent": {

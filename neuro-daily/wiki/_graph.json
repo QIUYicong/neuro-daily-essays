@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-13",
+  "updated": "2026-06-14",
   "node_count": 58,
   "edge_count": 308,
   "edge_types": [
@@ -535,6 +535,33 @@
       "status": "contested",
       "confidence": "medium",
       "page": "wiki/concepts/hippocampal-neurogenesis.md"
+    },
+    {
+      "id": "parkinsons-disease",
+      "title": "帕金森病",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/parkinsons-disease.md"
+    },
+    {
+      "id": "basal-ganglia",
+      "title": "基底节",
+      "domain": "circuits",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/basal-ganglia.md"
+    },
+    {
+      "id": "beta-oscillations",
+      "title": "β振荡（基底节-皮层）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/beta-oscillations.md"
     }
   ],
   "edges": [
@@ -2354,6 +2381,96 @@
     {
       "from": "gain-control",
       "to": "5-ht-autoreceptor",
+      "type": "related"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "basal-ganglia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "beta-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "voltage-gated-calcium-channels",
+      "type": "related"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "dopamine-reward-prediction-error",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "three-factor-learning-rule",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "beta-oscillations",
+      "type": "supports"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "disinhibitory-circuit",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "basal-ganglia",
+      "type": "regulates"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "parkinsons-disease",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "basal-ganglia",
+      "type": "part-of"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "gamma-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "parkinsons-disease",
       "type": "related"
     }
   ],

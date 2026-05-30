@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-06-07
-revision_count: 1
-dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons]
+updated: 2026-06-14
+revision_count: 2
+dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
 source_articles: [2026-06-07-dopamine-reward-prediction-error]
@@ -33,6 +33,8 @@ key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", 
 随着学习进展，DA 响应从奖励本身**迁移到最早的预测刺激（CS）**——这是时间差分（TD）学习算法的神经实现，也是 Montague-Dayan-Sejnowski 1996 框架的核心预言。
 
 DA-RPE 信号通过三条主要投射路线传达：**中脑边缘系统**（VTA → 伏隔核，奖励动机）、**中脑皮层系统**（VTA → 前额叶，认知控制）、**黑质-纹状体系统**（SNc → 背侧纹状体，习惯性行动学习）。
+
+**帕金森病作为DA-RPE系统崩溃的极端案例**：SNc多巴胺神经元的选择性死亡使黑质-纹状体多巴胺信号消失，不仅损害动作选择的学习（无法再通过RPE更新D1/D2调制的突触权重），更重要的是使基底节回路失去多巴胺调节后陷入β振荡主导的"运动锁定"状态（见 [[parkinsons-disease]]、[[basal-ganglia]]）。这提示DA神经元同时承担着"教学信号"（RPE学习）和"回路调节器"（维持基底节动态平衡）两种根本不同的功能，两者的分离需要更精细的分子和解剖框架。
 
 ## 关键机制
 
@@ -77,6 +79,8 @@ DA 响应有两个时间层次：
 - [[working-memory]] — DA D1 受体通过"倒 U 型"调节 PFC 工作记忆信噪比
 - [[memory-consolidation]] — 奖励信号（DA 爆发）偏置 SWR 重播，加速与奖励相关的记忆固化
 - [[competition-selection-principle]] — DA-RPE 是细胞层面（CREB 竞争）和回路层面（VIP 去抑制）竞争机制的可能上游信号
+- [[parkinsons-disease]] — SNc DA神经元死亡使RPE信号和基底节回路平衡同时崩溃
+- [[basal-ganglia]] — 纹状体D1/D2受体是DA-RPE信号的直接靶点，形成动作选择回路
 
 ## 未解问题
 
@@ -86,7 +90,9 @@ DA 响应有两个时间层次：
 ## 修订历史
 
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器：奖励预测误差如何把大脑变成世界预测器》一文 · 初始置信度：高
+- 2026-06-14 · 修订 · 基于《多巴胺的沉默与节律的失控》（PD文章）· 补充了DA的双重功能（RPE教学 vs 基底节回路调节）及PD作为DA-RPE系统崩溃的极端案例；新增关联 parkinsons-disease、basal-ganglia
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
+- [[2026-06-14-parkinson-basal-ganglia-circuit]]

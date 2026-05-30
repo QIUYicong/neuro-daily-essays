@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-14（第四周第二篇·第 23 篇）
+
+**源文章**：[[2026-06-14-parkinson-basal-ganglia-circuit]] —《多巴胺的沉默与节律的失控：帕金森病如何揭示大脑运动控制的回路逻辑》
+
+**新建页面（3）**：
+- `diseases/parkinsons-disease.md`（帕金森病）🟢 established / 置信度高 — α-突触核蛋白病理（Braak分期/路易小体）、Albin-DeLong回路失衡模型（直接/间接通路）、β振荡病理状态、DBS机制（β→θ振荡切换，Köhler 2024）
+- `circuits/basal-ganglia.md`（基底节）🟢 established / 置信度高 — 完整回路解剖（纹状体/GPi/GPe/STN/SNc）、直接/间接/超直接通路、D1/D2受体的双向调节、振荡状态依赖性
+- `concepts/beta-oscillations.md`（β振荡）🔵 mainstream / 置信度中 — 13-30 Hz抗运动振荡、PAC耦合证据（López-Azcárate 2010 n=15）、β→θ治疗机制（Köhler 2024 n=25）、与γ/θ振荡的功能对立
+
+**修订页面（1）**：
+- `concepts/dopamine-reward-prediction-error.md`（revision_count 1→2）：补充DA的双重功能（RPE教学信号 vs 基底节回路调节器）；新增PD作为DA-RPE系统崩溃极端案例的讨论；新增[[parkinsons-disease]]、[[basal-ganglia]]连接
+
+**登记矛盾（0）**：无新矛盾（β振荡因果性争议为该领域已知开放问题，未触发与现有wiki页面的直接矛盾）
+
+**新增悬空引用（1）**：
+- `alpha-synuclein`：被 parkinsons-disease.md 的 related 字段引用，需单独文章覆盖（路易小体/错误折叠机制专页）
+
+**图谱更新**：新增3个节点（parkinsons-disease, basal-ganglia, beta-oscillations），新增18条边；图谱总计61节点、326条边
+
+---
+
 ## 2026-06-13（第四周第一篇·第 22 篇）
 
 **源文章**：[[2026-06-13-serotonin-autoreceptor-ssri-delay]] —《血清素的慢时钟：为什么抗抑郁药需要等待两周？》

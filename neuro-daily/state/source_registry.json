@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-06-14",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -2875,7 +2875,171 @@
         "receptor specificity"
       ],
       "first_used": "2026-05-30"
+    },
+    {
+      "pmid": "21469956",
+      "pmcid": "PMC3487690",
+      "title": "Modulation of striatal projection systems by dopamine",
+      "authors": "Gerfen CR, Surmeier DJ",
+      "year": 2011,
+      "journal": "Annual Review of Neuroscience",
+      "open_access": true,
+      "used_in": [
+        "2026-06-14-parkinson-basal-ganglia-circuit"
+      ],
+      "aspects_covered": [
+        "D1/D2 receptor distribution in direct/indirect pathways",
+        "molecular mechanism of dopamine modulation",
+        "SPN plasticity after DA depletion"
+      ]
+    },
+    {
+      "pmid": "2479133",
+      "pmcid": null,
+      "title": "The functional anatomy of basal ganglia disorders",
+      "authors": "Albin RL, Young AB, Penney JB",
+      "year": 1989,
+      "journal": "Trends in Neurosciences",
+      "open_access": false,
+      "full_text_note": "abstract only",
+      "used_in": [
+        "2026-06-14-parkinson-basal-ganglia-circuit"
+      ],
+      "aspects_covered": [
+        "direct/indirect pathway model",
+        "hypokinetic vs hyperkinetic disorders",
+        "basal ganglia functional anatomy"
+      ]
+    },
+    {
+      "pmid": "1695404",
+      "pmcid": null,
+      "title": "Primate models of movement disorders of basal ganglia origin",
+      "authors": "DeLong MR",
+      "year": 1990,
+      "journal": "Trends in Neurosciences",
+      "open_access": false,
+      "full_text_note": "abstract only",
+      "used_in": [
+        "2026-06-14-parkinson-basal-ganglia-circuit"
+      ],
+      "aspects_covered": [
+        "primate MPTP model",
+        "basal ganglia-thalamocortical circuit",
+        "movement disorder spectrum"
+      ]
+    },
+    {
+      "pmid": "2402638",
+      "pmcid": null,
+      "title": "Reversal of experimental parkinsonism by lesions of the subthalamic nucleus",
+      "authors": "Bergman H, Wichmann T, DeLong MR",
+      "year": 1990,
+      "journal": "Science",
+      "open_access": false,
+      "full_text_note": "abstract only",
+      "used_in": [
+        "2026-06-14-parkinson-basal-ganglia-circuit"
+      ],
+      "aspects_covered": [
+        "STN role in PD",
+        "STN lesion reverses motor symptoms",
+        "DBS target basis"
+      ]
+    },
+    {
+      "pmid": "25065439",
+      "pmcid": null,
+      "title": "Direct and indirect pathways of basal ganglia: a critical reappraisal",
+      "authors": "Calabresi P, Picconi B, Tozzi A, Ghiglieri V, Di Filippo M",
+      "year": 2014,
+      "journal": "Nature Neuroscience",
+      "open_access": false,
+      "full_text_note": "abstract only",
+      "used_in": [
+        "2026-06-14-parkinson-basal-ganglia-circuit"
+      ],
+      "aspects_covered": [
+        "critique of direct/indirect pathway model",
+        "pathway interconnection",
+        "synaptic plasticity in PD"
+      ]
+    },
+    {
+      "pmid": "30897356",
+      "pmcid": null,
+      "title": "Circuit mechanisms of Parkinson's disease",
+      "authors": "McGregor MM, Nelson AB",
+      "year": 2019,
+      "journal": "Neuron",
+      "open_access": false,
+      "full_text_note": "abstract only",
+      "used_in": [
+        "2026-06-14-parkinson-basal-ganglia-circuit"
+      ],
+      "aspects_covered": [
+        "PD circuit overview",
+        "rate/rhythm/synchronization framework",
+        "epidemiology (~1% over 60)"
+      ]
+    },
+    {
+      "pmid": "34124057",
+      "pmcid": "PMC8194081",
+      "title": "Janus-Faced alpha-Synuclein: Role in Parkinson's Disease",
+      "authors": "Ray B, et al.",
+      "year": 2021,
+      "journal": "Frontiers in Cell and Developmental Biology",
+      "open_access": true,
+      "used_in": [
+        "2026-06-14-parkinson-basal-ganglia-circuit"
+      ],
+      "aspects_covered": [
+        "alpha-synuclein normal function",
+        "aggregation cascade",
+        "Lewy body formation",
+        "mitochondrial/proteasome/autophagy toxicity",
+        "prion-like propagation",
+        "Braak staging"
+      ]
+    },
+    {
+      "pmid": "20463229",
+      "pmcid": "PMC6632566",
+      "title": "Coupling between beta and high-frequency activity in the human STN may be a pathophysiological mechanism in PD",
+      "authors": "López-Azcárate J, et al.",
+      "year": 2010,
+      "journal": "Journal of Neuroscience",
+      "open_access": true,
+      "used_in": [
+        "2026-06-14-parkinson-basal-ganglia-circuit"
+      ],
+      "aspects_covered": [
+        "beta oscillations in STN",
+        "phase-amplitude coupling PAC",
+        "dopamine treatment normalizes oscillations",
+        "n=15 patients"
+      ]
+    },
+    {
+      "pmid": "38954651",
+      "pmcid": "PMC11449126",
+      "title": "Dopamine and DBS accelerate the neural dynamics of volitional action in Parkinson's disease",
+      "authors": "Köhler RM, et al.",
+      "year": 2024,
+      "journal": "Brain",
+      "open_access": true,
+      "used_in": [
+        "2026-06-14-parkinson-basal-ganglia-circuit"
+      ],
+      "aspects_covered": [
+        "shared beta-to-theta mechanism",
+        "DBS and dopamine convergent mechanisms",
+        "motor intention timing quantification",
+        "n=25 patients",
+        "UPDRS improvement"
+      ]
     }
   ],
-  "total_sources": 141
+  "total_sources": 150
 }
