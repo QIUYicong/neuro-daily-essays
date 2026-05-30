@@ -180,4 +180,9 @@ PubMed E-utilities、PMC Open Access
 
 ## 推送状态
 
-[待更新]
+- **状态**：✅ 成功
+- **分支**：`claude/funny-einstein-FPoQ0`
+- **commit hash**：`008fe3e`
+- **remote**：`http://local_proxy@127.0.0.1:36345/git/QIUYicong/neuro-daily-essays`（包含 QIUYicong/neuro-daily-essays，✅ 正确）
+- **推送结果**：17 files changed, 1568 insertions(+), 24 deletions(-)
+- **完成时间**：2026-05-30 系统时间
