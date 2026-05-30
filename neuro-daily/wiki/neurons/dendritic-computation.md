@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-27
-updated: 2026-06-03
-revision_count: 3
+updated: 2026-06-11
+revision_count: 4
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission, place-cell, btsp, hippocampal-circuit, sst-interneurons, pv-interneurons]
+related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission, place-cell, btsp, hippocampal-circuit, sst-interneurons, pv-interneurons, synaptic-clustering, orientation-selectivity, v1-primary-visual-cortex]
 prerequisites: [action-potential, nmda-receptor, synaptic-transmission]
 opens_questions: [Q-synaptic-clustering-prevalence, Q-dendritic-spike-in-vivo-frequency, Q-inhibition-dendritic-spike-control]
-source_articles: [2026-05-27-dendritic-computation, 2026-05-28-place-cells-btsp]
-key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147", "PMID:10749211", "PMID:28883072"]
+source_articles: [2026-05-27-dendritic-computation, 2026-05-28-place-cells-btsp, 2026-06-11-v1-orientation-selectivity]
+key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147", "PMID:10749211", "PMID:28883072", "PMID:27383898"]
 ---
 
 # 树突计算 (Dendritic Computation)
@@ -100,9 +100,21 @@ key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147"
 - 2026-05-27 · 创建 · 基于《树突：神经元内部的神经网络》一文 · 填补 Hodgkin-Huxley 模型页的悬空引用 · 初始置信度：高
 - 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增钙平台电位→BTSP 连接；更新 related 增加 place-cell, btsp, hippocampal-circuit；dimensions 增加 brain-region
 - 2026-06-03 · 修订 · 基于《回路中的少数精锐》文章 · 新增 SST+ 和 PV+ 中间神经元对树突计算的调控连接；Q-inhibition-dendritic-spike-control 现有对应 wiki 页面（sst-interneurons）
+- 2026-06-11 · 修订 · 基于《V1初级视觉皮层方向选择性》文章 · 新增突触聚类（synaptic-clustering）体内证据（Wilson 2016）；部分解答 Q-synaptic-clustering-prevalence；related 新增 synaptic-clustering, orientation-selectivity, v1-primary-visual-cortex；key_sources 新增 PMID:27383898
+
+## V1 中的突触聚类证据（2026-06-11 新增）
+
+Wilson 等（2016，Nat Neurosci，PMID:27383898，PMC5240628）在**雪貂初级视觉皮层（V1）**提供了突触聚类影响神经元功能的迄今最直接体内证据：
+
+- 在方向选择性（OSI）更高的 V1 神经元中，同向偏好的突触输入在同一树突分支上的**聚类程度显著更高**
+- 呈现偏好方向刺激时，树突 NMDA 棘波热点（局部 Ca²⁺ 瞬变）数量约为非偏好方向的 **2 倍**
+- 这一树突层面的差异在细胞体峰电位层面被进一步放大
+
+**对 Q-synaptic-clustering-prevalence 的部分解答**：Wilson 2016 证明，在一个具有自然感觉功能的脑区（V1）中，突触聚类不只是体外切片的人工现象，而是体内真实发生的功能性排列。然而，该研究局限于雪貂 V1（有方向柱的物种），是否在小鼠 V1（无方向柱/盐-胡椒型）、海马、PFC 等其他脑区和物种中普遍存在，仍是开放问题（→详见 [[synaptic-clustering]]）。
 
 ## 来源文章
 
 - [[2026-05-27-dendritic-computation]]
 - [[2026-05-28-place-cells-btsp]]
 - [[2026-06-03-inhibitory-interneuron-diversity]]
+- [[2026-06-11-v1-orientation-selectivity]]

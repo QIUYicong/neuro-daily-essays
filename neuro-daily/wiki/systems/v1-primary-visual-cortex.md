@@ -1,0 +1,92 @@
+---
+title: 初级视觉皮层（V1）
+slug: v1-primary-visual-cortex
+domain: systems
+type: brain-region
+status: established
+confidence: high
+created: 2026-06-11
+updated: 2026-06-11
+revision_count: 1
+dimensions: [brain-region, systems, microcircuit, cellular]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity]
+prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
+opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization]
+source_articles: [2026-06-11-v1-orientation-selectivity]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772"]
+---
+
+# 初级视觉皮层（V1）
+
+> **一句话定义**：初级视觉皮层（V1，Brodmann 17 区）是视觉信息进入大脑皮层的第一站，将外侧膝状体（LGN）的非定向输入转化为具有精确方向、空间频率和眼优势偏好的神经元响应；其核心计算成就是方向选择性——从 LGN 圆对称感受野中从头提取方向信息。
+
+## 当前理解
+
+V1 位于枕叶，接受来自外侧膝状体（LGN）的主要前馈视觉输入（经白质辐射），并向 V2、V3 发送前馈信号，同时接受来自 V2、V4、MT 乃至前额叶皮层的大量反馈投射。在猫和灵长类中，V1 呈现精确的功能拓扑组织：**方向柱**（orientation columns）、**眼优势柱**（ocular dominance columns）和**细胞色素氧化酶斑点**（CO blobs）在皮层表面形成系统性图谱。
+
+### 基本功能特性
+
+V1 神经元相比 LGN 神经元具有更复杂的感受野特性：
+
+- **方向选择性**（orientation selectivity）：约 80% 的 V1 神经元对特定方向的光条/边缘偏好明显，是 LGN 的最显著功能跃升
+- **空间频率调谐**：偏好特定宽度的条纹，Gabor 函数很好地描述了 V1 简单细胞的感受野
+- **眼优势**：偏好来自特定眼的输入，左右眼输入以约 0.5 mm 间距交替形成优势柱
+- **对比度增益控制**：对比度不变性（调谐宽度随对比度不变），由 E/I 平衡维持
+
+### 分层结构与输入-输出
+
+V1 遵循皮层 6 层结构：
+- **L4**：LGN 前馈输入的主要终止层；包含主要接受 M 通道输入的 L4Cα 和接受 P 通道输入的 L4Cβ（灵长类）
+- **L2/3**：处理 L4 输出，是方向选择性进一步精细化的层级；向 V2、MT 发出投射
+- **L5/6**：向上丘（superior colliculus）、LGN 和其他皮层区发出投射（皮层-丘脑反馈）
+
+前馈主要沿 L4→L2/3→L5/6 轴流动。
+
+## 简单细胞与复杂细胞
+
+Hubel 和 Wiesel（1962）根据感受野特性将 V1 细胞分为两大类：
+
+| 特性 | 简单细胞 | 复杂细胞 |
+|------|---------|---------|
+| ON/OFF 子区 | 明确分隔 | 混合/重叠 |
+| 相位敏感性 | 是（F1/F0 > 1） | 否（F1/F0 < 1） |
+| 空间位置依赖 | 是 | 否 |
+| 位置 | 主要 L4 | 主要 L2/3、L5/6 |
+| 解释模型 | 前馈 LGN 汇聚 | 简单细胞非线性叠加（能量模型）|
+
+简单细胞的感受野由 Gabor 函数精确描述：高斯包络 × 正弦载波，方向和空间频率由 Gabor 参数决定。
+
+## 方向柱与超柱（猫/灵长类）
+
+在猫和非人灵长类中，相邻方向偏好相似的神经元在皮层表面聚集，形成方向柱。每套覆盖全部方向（0-180°）的皮层区域称为**超柱**（hypercolumn，约 1 mm）。在超柱内部，所有方向柱的汇聚点形成 **pinwheel center**，180° 的方向空间在约 0.1 mm 的面积内完整表征。
+
+Ohki 等（2005，Nature）用双光子钙成像首次在单细胞分辨率下可视化了这一结构，并发现 pinwheel center 的神经元方向选择性与非中心区域同样锐利。
+
+## 小鼠的盐-胡椒型组织
+
+小鼠 V1 完全缺乏方向柱：相邻神经元的方向偏好几乎随机分布（盐-胡椒型组织）。然而，单个神经元的方向选择性同样锐利，OSI 分布与猫高度重叠（Niell & Stryker 2010）。
+
+**意义**：方向柱不是精确方向选择性的必要条件。Hansel & van Vreeswijk（2012）的理论工作证明，通过功能连接偏好的 E/I 平衡网络，盐-胡椒型布局也能实现等效的精确选择性。
+
+## 树突计算的贡献
+
+Wilson 等（2016，Nat Neurosci）在雪貂 V1 发现，方向选择性更锐利的神经元，其树突上同向偏好突触的聚类程度更高（→详见 [[synaptic-clustering]]）。偏好方向刺激时树突 NMDA 棘波热点约为非偏好方向的 2 倍，表明树突局部计算（NMDA 棘波作为"与门"）为方向选择性提供额外增益层，位于峰电位阈值之前。
+
+## 发育与关键期
+
+V1 方向柱的形成具有遗传（活动非依赖）的初始组分，随后通过视觉经验驱动的精细化完成（Espinosa & Stryker 2012）。关键期的开放和关闭与 GABA 能神经元（特别是 PV+ 细胞）的成熟所引起的 E/I 平衡转变高度相关。关键期内的单眼剥夺可永久性地改变眼优势柱分布。
+
+## 物种比较小结
+
+| 物种 | 方向柱 | LGN方向选择性 | V1单细胞OSI |
+|------|--------|--------------|------------|
+| 猫   | 有（系统性方向图）| 极弱 | 锐利 |
+| 猕猴 | 有（系统性方向图）| 弱 | 锐利 |
+| 雪貂 | 有（系统性方向图）| 弱 | 锐利 |
+| 小鼠 | 无（盐-胡椒型）  | 中等（独立于皮层反馈，PMID:23804085）| 锐利 |
+
+## 开放问题
+
+- **Q-v1-orientation-column-advantage**：方向柱是否提供方向计算之外的计算/布线/速度优势？
+- **Q-v1-pinwheel-function**：pinwheel center 在视觉信息处理中是否有特殊的功能角色？
+- **Q-v1-human-organization**：人类 V1 的方向组织与猫/猴有何差异？高分辨率功能成像技术能否直接可视化人类 V1 方向柱？

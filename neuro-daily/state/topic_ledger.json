@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-10",
-  "total_articles": 18,
+  "last_updated": "2026-06-11",
+  "total_articles": 19,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1221,6 +1221,80 @@
       "article_number": 18,
       "note": "第三周第4篇：填补 synaptic 层长期缺口。以 Syt7 为核心，从分子机制（易化/抑制/增强/PTP）到计算逻辑（频率路由/工作记忆）全面覆盖STP。新建2个wiki页面（STP概念页+RRP节点），修订 synaptotagmin（大幅扩展Syt7内容）和 working-memory，添加10条图谱边，解决 readily-releasable-pool 悬空引用。",
       "dangling_reference_filled": "readily-releasable-pool（填补 synaptic-transmission 页面引用；新建 neurons/readily-releasable-pool.md）"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "V1初级视觉皮层的方向选择性：从随机输入到精确编码",
+      "filename": "2026-06-11-v1-orientation-selectivity.md",
+      "wiki_pages_created": [
+        "wiki/systems/v1-primary-visual-cortex.md",
+        "wiki/concepts/orientation-selectivity.md",
+        "wiki/concepts/synaptic-clustering.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/dendritic-computation.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "V1如何将外侧膝状体（LGN）的非定向圆对称输入转化为精确的方向选择性响应？方向柱是否是实现精确方向选择性的必要条件？",
+      "layer": [
+        "brain-region",
+        "systems",
+        "microcircuit",
+        "cellular"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（感觉系统·视觉皮层）→ 10. 方法革命（双光子成像）",
+      "topic_tags": [
+        "V1",
+        "primary visual cortex",
+        "orientation selectivity",
+        "simple cell",
+        "complex cell",
+        "orientation column",
+        "pinwheel",
+        "hypercolumn",
+        "salt-and-pepper",
+        "E/I balance",
+        "feedforward model",
+        "Hubel Wiesel",
+        "two-photon imaging",
+        "synaptic clustering",
+        "NMDA spike",
+        "dendritic computation",
+        "Gabor filter",
+        "CNN V1 comparison",
+        "LGN",
+        "contrast invariance",
+        "cross-orientation suppression",
+        "critical period",
+        "mouse vs cat"
+      ],
+      "main_sources": [
+        "PMID:15660108 (Ohki 2005 Nature, 摘要)",
+        "PMC3477598 (Priebe & Ferster 2012 Neuron, 全文)",
+        "PMID:22726830 (PMC3612584, Espinosa & Stryker 2012 Neuron, 全文)",
+        "PMID:23804085 (PMC3693051, Zhao et al. 2013 J Neurosci, 全文)",
+        "PMID:22442071 (PMC6621225, Hansel & van Vreeswijk 2012 PLoS Comput Biol, 全文)",
+        "PMID:27383898 (PMC5240628, Wilson et al. 2016 Nat Neurosci, 全文)",
+        "PMID:20810772 (Niell & Stryker 2010 Neuron, 摘要)",
+        "PMID:31026016 (PMC6485988, Kindel et al. 2019 J Vis, 全文)"
+      ],
+      "unresolved_questions": [
+        "Q-v1-orientation-column-advantage",
+        "Q-v1-pinwheel-function",
+        "Q-v1-mouse-random-mechanism",
+        "Q-v1-synaptic-clustering-universality"
+      ],
+      "next_suggested_topics": [
+        "神经调质（乙酰胆碱、去甲肾上腺素、血清素）：调制V1方向选择性的增益控制机制（延续STP/V1主题）",
+        "帕金森病（disease层继续）：黑质纹状体多巴胺耗竭与基底节直接/间接通路失衡",
+        "双光子钙成像方法专页：GCaMP系列、成像原理、与电生理的比较（填补 methods 层，本文大量引用此方法）",
+        "V2/MT/IT视觉层级：从方向到形状到物体识别的层级处理（延续视觉课程线）",
+        "注意的神经机制：前额叶→V1的自上而下注意调制（连接PFC工作记忆主题与V1）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 19,
+      "note": "第三周第5篇：首次进入'大脑如何编码世界——视觉皮层'主题（课程线3）。以Hubel-Wiesel 1962经典发现为历史框架，阐明三层方向选择性机制，提出猫/猴方向柱 vs 小鼠盐-胡椒型组织的物种悖论，并以Wilson 2016树突突触聚类实验作为V1与树突计算专题的跨主题连接桥梁。新建3个wiki页面（v1-primary-visual-cortex/orientation-selectivity/synaptic-clustering），修订 dendritic-computation（revision 4），添加13条图谱边，解决 synaptic-clustering 悬空引用（dendritic-computation 2026-05-27创建时遗留至今）。",
+      "dangling_reference_filled": "synaptic-clustering（填补 dendritic-computation 的长期悬空引用；新建 concepts/synaptic-clustering.md，以 Wilson 2016 体内证据为核心）"
     }
   ],
   "layer_coverage_recent": {
@@ -1239,7 +1313,8 @@
       "2026-05-28",
       "2026-06-01",
       "2026-06-03",
-      "2026-06-07"
+      "2026-06-07",
+      "2026-06-11"
     ],
     "synaptic": [
       "2026-05-24",
@@ -1252,12 +1327,14 @@
     ],
     "microcircuit": [
       "2026-05-27",
-      "2026-06-03"
+      "2026-06-03",
+      "2026-06-11"
     ],
     "brain_region": [
       "2026-05-27",
       "2026-05-28",
-      "2026-06-07"
+      "2026-06-07",
+      "2026-06-11"
     ],
     "whole_brain_network": [
       "2026-05-29",
@@ -1282,7 +1359,8 @@
       "2026-06-03"
     ],
     "disease": ["2026-06-08"],
-    "methods": ["2026-06-09"]
+    "methods": ["2026-06-09"],
+    "systems": ["2026-06-11"]
   },
-  "layer_note": "2026-06-10（STP）：synaptic层长期缺口填补！以Syt7为核心分子传感器，覆盖molecular（易化/抑制/PTP分子机制）/synaptic（RRP耗竭/残余钙/STP四形式）/microcircuit（PV+突触频率路由）/cognition（活动无声工作记忆）多层。新建2个wiki页面，修订2个页面，添加10条图谱边，解决RRP悬空引用。下一篇可继续 methods 层（钙成像）或 disease 层（帕金森），或进入神经调质系统（乙酰胆碱/去甲肾上腺素）。"
+  "layer_note": "2026-06-11（V1方向选择性）：首次进入 systems 层视觉皮层！覆盖 brain-region（V1结构/方向柱/超柱）/cellular（简单/复杂细胞）/microcircuit（E/I平衡/树突NMDA棘波）/systems（视觉层级第一站）四层。解决 synaptic-clustering 悬空引用（2026-05-27遗留）；新建3个wiki页面，修订1个页面，添加13条图谱边。下一篇可继续 methods 层（双光子钙成像专页）或 disease 层（帕金森），或进入神经调质系统（乙酰胆碱/去甲肾上腺素调制V1增益控制）。"
 }

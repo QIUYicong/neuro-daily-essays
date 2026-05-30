@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-06-11（第三周·第 5 篇，文章 #19）
+
+**源文章**：[[2026-06-11-v1-orientation-selectivity]] —《V1初级视觉皮层的方向选择性：从随机输入到精确编码》
+
+**新建页面（3）**：
+- `systems/v1-primary-visual-cortex.md`（初级视觉皮层V1）🟢 established / 置信度高 — 首个 systems 层视觉脑区页面；视觉信息皮层第一站；简单/复杂细胞区分（F1/F0）；方向柱/超柱/pinwheel（猫/猴，Ohki 2005 PMID:15660108）；盐-胡椒型组织（小鼠，Niell 2010 PMID:20810772）；三层方向选择性机制（前馈/E-I平衡/NMDA棘波）；树突突触聚类与OSI正相关（Wilson 2016 PMC5240628）；连接8个既有节点（dendritic-computation、nmda-receptor、pv-interneurons、sst-interneurons、prefrontal-cortex等）
+- `concepts/orientation-selectivity.md`（方向选择性）🟢 established / 置信度高 — V1核心计算特性；OSI定量定义（HWHM约25-30°）；对比度不变性由E/I维持；三层机制（前馈LGN排列、E/I平衡网络、树突NMDA棘波聚类）；物种比较（猫/猴有方向柱 vs 小鼠盐-胡椒，OSI分布相似）；CNN Gabor滤波器收敛（Kindel 2019）；连接6个既有节点
+- `concepts/synaptic-clustering.md`（突触聚类）🟡 emerging / 置信度中 — **填补 dendritic-computation 页面的长期悬空引用**；功能相似突触在同一树突分支聚集→NMDA棘波超线性整合；Wilson 2016（雪貂V1，双光子GCaMP6s）首次体内直接证据：聚类程度与OSI正相关，偏好方向热点2倍于非偏好方向；Smith 2013（PMID:24162850）独立验证；体外原理验证established，体内普遍性为emerging；开放问题：小鼠V1/海马/PFC中的聚类是否同样存在；连接5个既有节点
+
+**修订页面（1）**：
+- `neurons/dendritic-computation.md`（revision_count 3→4）：新增 V1 突触聚类体内证据节（Wilson 2016，雪貂V1双光子成像，OSI与聚类程度正相关，偏好方向NMDA棘波热点2倍）；部分解答 Q-synaptic-clustering-prevalence（体内存在，但物种/脑区普遍性仍open）；related 新增 synaptic-clustering, orientation-selectivity, v1-primary-visual-cortex；key_sources 新增 PMID:27383898；source_articles 新增 2026-06-11
+
+**悬空引用新增（0）**：今日无新悬空引用（V1文章涉及概念均已在新建页面或既有页面中处理）。
+
+**悬空引用解决（1）**：
+- ~~`synaptic-clustering`~~ ✅ 已建立（concepts/synaptic-clustering.md）——自 2026-05-27 dendritic-computation 创建时起的悬空引用，历时14逻辑日
+
+**矛盾登记（0）**：今日无新矛盾。两个现有开放矛盾（C-2026-05-24-01, C-2026-05-25-01）今日文献未直接涉及，状态不变。
+
+**图谱更新**：
+- 新节点：v1-primary-visual-cortex, orientation-selectivity, synaptic-clustering（47→50 总节点）
+- 新边：13条（orientation-selectivity↔v1-primary-visual-cortex、orientation-selectivity→dendritic-computation、orientation-selectivity→nmda-receptor、orientation-selectivity→pv-interneurons、synaptic-clustering→dendritic-computation、synaptic-clustering→nmda-receptor、synaptic-clustering→orientation-selectivity、dendritic-computation→synaptic-clustering、v1-primary-visual-cortex→dendritic-computation、v1-primary-visual-cortex→pv-interneurons、v1-primary-visual-cortex→sst-interneurons、v1-primary-visual-cortex→prefrontal-cortex；243→256 总边数）
+- 解决悬空：synaptic-clustering
+
+---
+
 ## 2026-06-10（第三周·第 4 篇，文章 #18）
 
 **源文章**：[[2026-06-10-stp-short-term-plasticity]] —《瞬息之变：短时程突触可塑性的分子机制与计算逻辑》

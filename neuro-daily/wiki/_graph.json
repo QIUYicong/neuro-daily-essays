@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-10",
-  "node_count": 47,
-  "edge_count": 243,
+  "updated": "2026-06-11",
+  "node_count": 50,
+  "edge_count": 256,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -427,6 +427,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/readily-releasable-pool.md"
+    },
+    {
+      "id": "v1-primary-visual-cortex",
+      "title": "初级视觉皮层（V1）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/v1-primary-visual-cortex.md"
+    },
+    {
+      "id": "orientation-selectivity",
+      "title": "方向选择性",
+      "domain": "concepts",
+      "type": "neural-property",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/orientation-selectivity.md"
+    },
+    {
+      "id": "synaptic-clustering",
+      "title": "突触聚类",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/synaptic-clustering.md"
     }
   ],
   "edges": [
@@ -675,7 +702,20 @@
     {"from": "short-term-synaptic-plasticity", "to": "pv-interneurons", "type": "related", "note": "Syt7在PV+快发放抑制性突触的特殊设计：隐藏易化精确抵消depression，实现频率不变传输（PC→DCN模型）"},
     {"from": "synaptotagmin", "to": "short-term-synaptic-plasticity", "type": "mechanism-of", "note": "Syt7亚型是STP易化的主要分子执行蛋白；Syt1负责快速同步释放（与STP抑制无关）"},
     {"from": "readily-releasable-pool", "to": "synaptic-transmission", "type": "part-of", "note": "RRP是突触传递的核心物理组件；RRP大小和释放概率p共同决定单次动作电位的传递强度"},
-    {"from": "readily-releasable-pool", "to": "active-zone", "type": "part-of", "note": "RRP囊泡停靠于活动区的释放位点；活动区蛋白（RIM、Munc13、Munc18）维持RRP的稳定态"}
+    {"from": "readily-releasable-pool", "to": "active-zone", "type": "part-of", "note": "RRP囊泡停靠于活动区的释放位点；活动区蛋白（RIM、Munc13、Munc18）维持RRP的稳定态"},
+    {"from": "orientation-selectivity", "to": "v1-primary-visual-cortex", "type": "mechanism-of", "note": "方向选择性是V1将LGN非定向输入转化为定向编码的核心计算成就"},
+    {"from": "v1-primary-visual-cortex", "to": "orientation-selectivity", "type": "supports", "note": "V1的感受野组织（LGN排列、方向柱/盐-胡椒、E/I平衡）共同支撑方向选择性"},
+    {"from": "orientation-selectivity", "to": "dendritic-computation", "type": "mechanism-of", "note": "Wilson 2016：树突NMDA棘波在方向选择性中提供额外非线性增益层（偏好方向热点2倍于非偏好方向）"},
+    {"from": "orientation-selectivity", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA受体驱动树突棘波，是树突对方向信息进行局部增益整合的分子机器"},
+    {"from": "orientation-selectivity", "to": "pv-interneurons", "type": "related", "note": "PV+中间神经元是V1 E/I平衡的主要抑制元素，参与对比度不变性方向调谐的维持"},
+    {"from": "synaptic-clustering", "to": "dendritic-computation", "type": "mechanism-of", "note": "突触聚类使NMDA棘波局部化，是树突非线性计算从理论可能变为功能实现的关键步骤"},
+    {"from": "synaptic-clustering", "to": "nmda-receptor", "type": "mechanism-of", "note": "NMDA受体是突触聚类→超线性整合的分子执行者；相邻同向突触聚类→局部去极化累积→Mg²⁺阻断解除→NMDA棘波"},
+    {"from": "synaptic-clustering", "to": "orientation-selectivity", "type": "supports", "note": "Wilson 2016：突触聚类程度与V1神经元方向选择性锐利度（OSI）正相关；是前馈+E/I之外的第三层增益机制"},
+    {"from": "dendritic-computation", "to": "synaptic-clustering", "type": "related", "note": "突触聚类是树突计算框架中功能连接特异性的具体实现；Wilson 2016将树突计算理论与感觉编码功能直接联系"},
+    {"from": "v1-primary-visual-cortex", "to": "dendritic-computation", "type": "related", "note": "V1是树突突触聚类增强方向选择性（Wilson 2016）的实验脑区；V1研究扩展了树突计算理论的体内支持"},
+    {"from": "v1-primary-visual-cortex", "to": "pv-interneurons", "type": "related", "note": "PV+篮状细胞是V1 E/I平衡维持方向选择性对比度不变性的主要抑制元素"},
+    {"from": "v1-primary-visual-cortex", "to": "sst-interneurons", "type": "related", "note": "SST+中间神经元靶向树突，通过调控NMDA棘波阈值参与V1方向选择性的树突层面调控"},
+    {"from": "v1-primary-visual-cortex", "to": "prefrontal-cortex", "type": "related", "note": "PFC通过自上而下反馈投射（注意、预期）调制V1方向选择性；预测编码框架中PFC→V1传递预测信号"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -687,7 +727,7 @@
     {"slug": "ltp-ltd", "referenced_by": ["ltp"], "note": "已于 2026-06-04 用 ltd 页面填补此悬空引用；ltp.md 中的 related 字段从 ltp-ltd 改为 ltd", "resolved": "2026-06-04"},
     {"slug": "tarp-auxiliary-subunit", "referenced_by": ["ampa-receptor"], "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"},
     {"slug": "mglur-ltd", "referenced_by": ["ltd", "arc-arg31"], "note": "mGluR 依赖型 LTD 可单独建页，包含 mGluR5、FMRP、翻译依赖等细节；目前合并于 ltd 页面"},
-    {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议，待建页面"},
+    {"slug": "synaptic-clustering", "referenced_by": ["dendritic-computation"], "note": "突触聚类假说：功能相关突触是否在同一树突分支上聚集？NMDA棘波所需前提，有争议；已于2026-06-11创建 wiki/concepts/synaptic-clustering.md，以Wilson 2016（雪貂V1双光子成像）为主要证据", "resolved": "2026-06-11"},
     {"slug": "apical-tuft", "referenced_by": ["dendritic-computation", "pyramidal-neuron"], "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"},
     {"slug": "path-integration", "referenced_by": ["grid-cell"], "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"},
     {"slug": "memory-consolidation", "referenced_by": ["hippocampal-circuit", "place-cell", "sharp-wave-ripples", "engram-cells"], "note": "已于2026-06-02创建 wiki/concepts/memory-consolidation.md 页面", "resolved": "2026-06-02"},

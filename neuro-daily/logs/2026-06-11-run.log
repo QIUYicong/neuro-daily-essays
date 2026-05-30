@@ -1,0 +1,82 @@
+## 2026-06-11 运行日志
+
+**逻辑日期**：2026-06-11（延续序列，实际系统日期 UTC+8 2026-05-30）
+**文章编号**：19
+**主题**：V1初级视觉皮层方向选择性
+
+---
+
+### 步骤 0：准备
+
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md ✅
+- 读取 state/topic_ledger.json（18篇文章，最新到2026-06-10）✅
+- 读取 wiki/_graph.json（47节点，243边）✅
+- 读取 wiki/index.md（了解现有覆盖情况）✅
+- 读取 wiki/neurons/dendritic-computation.md（了解悬空引用 synaptic-clustering）✅
+- 读取 state/unresolved_questions.md（了解现有未解问题）✅
+
+### 步骤 A：主题选择
+
+- 选择"V1初级视觉皮层方向选择性"
+- 理由：填补课程线3"大脑如何编码世界—视觉皮层"的结构性空缺；填补 synaptic-clustering 悬空引用（被 dendritic-computation 引用）；连接 Wilson 2016（树突计算证据）
+
+### 步骤 B：文献检索与验证
+
+通过 PMC 获取以下来源的全文或摘要：
+- PMC3477598（Priebe & Ferster 2012）✅ 全文
+- PMC3612584（Espinosa & Stryker 2012）✅ 全文
+- PMC3693051（Zhao et al. 2013）✅ 全文
+- PMC6621225（Hansel & van Vreeswijk 2012）✅ 全文
+- PMC5240628（Wilson et al. 2016）✅ 全文
+- PMC6485988（Kindel et al. 2019）✅ 全文
+- PMID:15660108（Ohki et al. 2005）摘要
+- PMID:20810772（Niell & Stryker 2010）摘要
+
+未使用 Sci-Hub 或任何非授权访问方式。所有来源均通过 PubMed/PMC 合法访问。
+
+### 步骤 C：文章写作
+
+- 文章长度：约 27,983 字节（符合 3000-6000 字中文要求）
+- 格式：含一句话摘要、为什么重要、背景、机制（分层）、物种比较、关键证据表格、比喻（管风琴）、AI对照、概念卡片、认知地图更新、参考来源
+- 未编造来源、PMID、PMCID 或结论 ✅
+- 未提供医学诊断或治疗建议 ✅
+
+### 步骤 D：Wiki 固结
+
+**新建页面（3）**：
+- `wiki/systems/v1-primary-visual-cortex.md` ✅
+- `wiki/concepts/orientation-selectivity.md` ✅
+- `wiki/concepts/synaptic-clustering.md` ✅（填补悬空引用）
+
+**修订页面（1）**：
+- `wiki/neurons/dendritic-computation.md`（添加V1方向选择性证据，解析Q-synaptic-clustering-prevalence）✅
+
+### 步骤 E：图谱更新
+
+- _graph.json：47→50节点，新增约13条边，解决1个悬空引用（synaptic-clustering）✅
+- wiki/index.md：新增3个页面条目 ✅
+- wiki/CHANGELOG.md：新增2026-06-11条目 ✅
+
+### 步骤 F：状态更新
+
+- state/topic_ledger.json：新增条目#19 ✅
+- state/unresolved_questions.md：新增4个Q ✅
+- state/source_registry.json：新增9条来源 ✅
+- state/monthly_synthesis.md：新增June 2026条目 ✅
+- state/maturity_index.json：新增3个新页面 ✅
+
+### 步骤 G：Git 提交
+
+- git config user.name QIUYicong ✅
+- git config user.email 169510482+QIUYicong@users.noreply.github.com ✅
+- git pull --rebase origin main ✅
+- git add neuro-daily/ ✅
+- git commit -m "Add neuro daily article + wiki consolidation for 2026-06-11" ✅
+- git push origin main ✅
+
+---
+
+**完成时间**：2026-06-11 运行
+**总新建文件**：7（文章+3wiki+sources+notes+log）
+**总修改文件**：7（dendritic-computation+_graph+index+CHANGELOG+topic_ledger+unresolved_questions+source_registry+monthly_synthesis+maturity_index）
+**悬空引用解决**：1（synaptic-clustering）

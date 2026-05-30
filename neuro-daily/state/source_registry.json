@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -1498,6 +1498,102 @@
       "full_text_available": false,
       "used_in_articles": ["2026-05-25-synaptic-vesicle-exocytosis.md", "2026-06-10-stp-short-term-plasticity.md"],
       "aspects_covered": ["Syt1 as fast synchronous release sensor", "C2A/C2B calcium binding", "phospholipid affinity", "Syt isoform comparison", "Syt7 role in asynchronous release"]
+    },
+    {
+      "pmid": "15660108",
+      "pmcid": null,
+      "title": "Functional imaging with cellular resolution reveals precise micro-architecture in visual cortex",
+      "authors_short": "Ohki et al.",
+      "journal": "Nature",
+      "year": 2005,
+      "first_used": "2026-06-11",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
+      "aspects_covered": ["双光子钙成像可视化猫V1方向图", "单细胞分辨率方向柱", "pinwheel center神经元方向选择性精确", "方向图连续性"]
+    },
+    {
+      "pmid": "22841309",
+      "pmcid": "PMC3477598",
+      "title": "Mechanisms of neuronal computation in mammalian visual cortex",
+      "authors_short": "Priebe & Ferster",
+      "journal": "Neuron",
+      "year": 2012,
+      "first_used": "2026-06-11",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
+      "aspects_covered": ["阈值非线性放大约3倍", "突触短时程抑制锐化方向调谐", "跨方向抑制（LGN非线性来源）", "对比度不变性机制", "前馈vs循环机制辩论"]
+    },
+    {
+      "pmid": "22726830",
+      "pmcid": "PMC3612584",
+      "title": "Development and plasticity of the primary visual cortex",
+      "authors_short": "Espinosa & Stryker",
+      "journal": "Neuron",
+      "year": 2012,
+      "first_used": "2026-06-11",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
+      "aspects_covered": ["方向柱发育的遗传与经验成分", "关键期开放与E/I平衡转变", "GABA能成熟与关键期", "单眼剥夺效应", "活动依赖精细化"]
+    },
+    {
+      "pmid": "23804085",
+      "pmcid": "PMC3693051",
+      "title": "Orientation-selective responses in the mouse lateral geniculate nucleus",
+      "authors_short": "Zhao et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2013,
+      "first_used": "2026-06-11",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
+      "aspects_covered": ["小鼠LGN方向选择性独立于V1皮层反馈", "muscimol使皮层失活后LGN OSI不变", "猫vs小鼠物种差异", "皮层前方向信息的进化意义"]
+    },
+    {
+      "pmid": "22442071",
+      "pmcid": "PMC6621225",
+      "title": "The mechanism of orientation selectivity in primary visual cortex without a functional map",
+      "authors_short": "Hansel & van Vreeswijk",
+      "journal": "PLoS Computational Biology",
+      "year": 2012,
+      "first_used": "2026-06-11",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
+      "aspects_covered": ["E/I平衡网络在无方向图条件下实现精确方向选择性", "功能连接偏好假设", "对比度不变性由E/I平衡维持", "盐-胡椒型组织悖论的理论解释"]
+    },
+    {
+      "pmid": "27383898",
+      "pmcid": "PMC5240628",
+      "title": "Orientation selectivity and the functional clustering of synaptic inputs in primary visual cortex",
+      "authors_short": "Wilson et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2016,
+      "first_used": "2026-06-11",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
+      "aspects_covered": ["雪貂V1突触聚类与OSI正相关", "偏好方向NMDA棘波热点约2倍", "树突分支级别的方向选择性增益", "GCaMP6s单棘分辨率成像", "突触聚类→局部NMDA棘波→功能性超线性整合"]
+    },
+    {
+      "pmid": "20810772",
+      "pmcid": null,
+      "title": "Modulation of visual responses by behavioral state in mouse visual cortex",
+      "authors_short": "Niell & Stryker",
+      "journal": "Neuron",
+      "year": 2010,
+      "first_used": "2026-06-11",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
+      "aspects_covered": ["小鼠V1盐-胡椒型组织", "单细胞OSI精确", "运动状态提升视觉响应约60%", "清醒vs麻醉方向选择性对比"]
+    },
+    {
+      "pmid": "31026016",
+      "pmcid": "PMC6485988",
+      "title": "Using deep learning to reveal the neural code for images in primary visual cortex",
+      "authors_short": "Kindel et al.",
+      "journal": "Journal of Vision",
+      "year": 2019,
+      "first_used": "2026-06-11",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
+      "aspects_covered": ["CNN第一层Gabor滤波器与V1简单细胞感受野收敛", "图像分类任务>其他任务的V1相似度", "自然图像统计与最优定向特征", "预测R²定量比较"]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-09",
+  "last_updated": "2026-06-11",
   "levels": ["speculative", "emerging", "mainstream", "established", "contested"],
   "pages": [
     {
@@ -338,6 +338,30 @@
       "supporting_sources": 10,
       "last_status_change": "2026-06-09",
       "reason": "创建 2026-06-09。ChR2 光激活和 NpHR 光沉默的物理原理已由多重独立实验验证（2005-2022年超过10个独立实验室）。奠基论文 Boyden 2005（PMID:16116447）被全球数千实验室复制。双色双向控制（Han & Boyden 2007，全文）的精度数据已有直接测量（33mV 超极化，~10-15ms 时间常数）。晶体结构（Kato 2012）提供分子机制根基。假记忆（Ramirez 2013）和效价翻转（Redondo 2014）实验在独立实验室已得到支持。confidence high，不确定性主要在：深部脑区穿透（工程问题）；分布式表征与单细胞类型操控的因果解释力（方法论问题）。"
+    },
+    {
+      "slug": "v1-primary-visual-cortex",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 6,
+      "last_status_change": "2026-06-11",
+      "reason": "创建 2026-06-11。V1的基本结构和功能特性由 Hubel & Wiesel 1962（诺贝尔奖）及数十年后续工作奠定（方向柱、简单/复杂细胞、感受野结构）；Ohki 2005（Nature，PMID:15660108）用双光子成像在单细胞分辨率验证了方向图结构（包括pinwheel center同样精确）；Niell & Stryker 2010（PMID:20810772）确立小鼠V1盐-胡椒型组织且单细胞OSI精确；Zhao et al. 2013（PMC3693051）证明小鼠LGN方向选择性不依赖皮层反馈；Wilson et al. 2016（PMC5240628）在雪貂V1直接验证突触聚类增强方向选择性。核心现象学（方向选择性、方向柱/盐-胡椒组织、简单/复杂细胞区分）均由多实验室、多物种、多方法独立验证。不确定性：小鼠盐-胡椒型组织的分子决定因素；方向柱的计算优势；突触聚类的普遍性。整体 established。"
+    },
+    {
+      "slug": "orientation-selectivity",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-06-11",
+      "reason": "创建 2026-06-11。方向选择性现象由 Hubel & Wiesel 1962 发现（诺贝尔奖），在猫、猴、雪貂、小鼠中均有充分重复验证。三层机制（前馈LGN排列、E/I平衡、NMDA棘波聚类）的贡献由膜片钳+双光子成像+计算模型等多方法汇聚证据支持：Priebe & Ferster 2012（PMC3477598）阈下膜电位记录；Hansel & van Vreeswijk 2012（PMC6621225）E/I平衡理论；Wilson 2016（PMC5240628）树突证据。CNN Gabor滤波器的独立收敛（Kindel 2019，PMC6485988）也提供了定向处理是自然图像最优特征的工程学旁证。established。"
+    },
+    {
+      "slug": "synaptic-clustering",
+      "status": "emerging",
+      "confidence": "medium",
+      "supporting_sources": 3,
+      "last_status_change": "2026-06-11",
+      "reason": "创建 2026-06-11。突触聚类的体外原理验证（海马切片：相邻突触聚类→NMDA棘波超线性整合）已有多实验室支持（established）。体内直接证据：Wilson et al. 2016（雪貂V1，PMC5240628）是首个单神经元分辨率的体内功能聚类证据——OSI更高神经元的树突聚类程度更高，偏好方向NMDA棘波热点2倍于非偏好方向。Smith et al. 2013（PMID:24162850）在猫V1独立验证了树突棘波增强方向选择性。然而：（1）Wilson 2016仅在雪貂（有方向柱）验证，小鼠/灵长类待确认；（2）因果操控实验（直接干扰聚类→验证OSI下降）尚缺；（3）其他脑区（海马CA1场所细胞、PFC）的聚类直接体内证据极缺。故 emerging / confidence medium。若后续在多物种多脑区得到操控性实验验证，则可升级为 mainstream。"
     }
   ]
 }
