@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14",
+  "last_updated": "2026-05-30",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -3038,6 +3038,137 @@
         "motor intention timing quantification",
         "n=25 patients",
         "UPDRS improvement"
+      ]
+    },
+    {
+      "id": "PMID:11584069",
+      "title": "Synaptic plasticity in the lateral amygdala: a cellular hypothesis of fear conditioning",
+      "authors": "Blair HT et al.",
+      "journal": "Learning & Memory",
+      "year": 2001,
+      "access": "abstract_only",
+      "used_in": [
+        "2026-05-30-amygdala-fear-memory"
+      ],
+      "covers": [
+        "LA_LTP_hypothesis",
+        "NMDA_fear",
+        "two_calcium_pathways"
+      ]
+    },
+    {
+      "id": "PMID:24896183",
+      "title": "Engineering a memory with LTD and LTP",
+      "authors": "Nabavi S et al.",
+      "journal": "Nature",
+      "year": 2014,
+      "access": "abstract_only",
+      "used_in": [
+        "2026-05-30-amygdala-fear-memory"
+      ],
+      "covers": [
+        "optogenetic_fear_LTP_LTD",
+        "causal_LA_memory"
+      ]
+    },
+    {
+      "id": "PMID:18615014",
+      "title": "Amygdala intercalated neurons are required for expression of fear extinction",
+      "authors": "Likhtik E et al.",
+      "journal": "Nature",
+      "year": 2008,
+      "access": "abstract_only",
+      "used_in": [
+        "2026-05-30-amygdala-fear-memory"
+      ],
+      "covers": [
+        "ITC_necessity_extinction",
+        "mu_opioid_ITC"
+      ]
+    },
+    {
+      "id": "PMID:18615015",
+      "title": "Switching on and off fear by distinct neuronal circuits",
+      "authors": "Herry C et al.",
+      "journal": "Nature",
+      "year": 2008,
+      "access": "abstract_only",
+      "used_in": [
+        "2026-05-30-amygdala-fear-memory"
+      ],
+      "covers": [
+        "BA_fear_extinction_neurons",
+        "PL_IL_projections"
+      ]
+    },
+    {
+      "id": "PMID:24908482",
+      "pmcid": "PMC4103014",
+      "title": "Amygdala microcircuits controlling learned fear",
+      "authors": "Duvarci S, Pare D",
+      "journal": "Neuron",
+      "year": 2014,
+      "access": "full_text_pmc",
+      "used_in": [
+        "2026-05-30-amygdala-fear-memory"
+      ],
+      "covers": [
+        "BLA_microcircuit",
+        "ITC_dorsal_ventral",
+        "CeA_CeL_CeM",
+        "sparse_LA_encoding"
+      ]
+    },
+    {
+      "id": "PMID:30415278",
+      "pmcid": "PMC6374177",
+      "title": "Mechanisms of fear learning and extinction: synaptic plasticity — fear memory connection",
+      "authors": "Luchkina NV, Bolshakov VY",
+      "journal": "Psychopharmacology",
+      "year": 2018,
+      "access": "full_text_pmc",
+      "used_in": [
+        "2026-05-30-amygdala-fear-memory"
+      ],
+      "covers": [
+        "GluA1_fear",
+        "CaMKII_fear_LTP",
+        "depotentiation_extinction"
+      ]
+    },
+    {
+      "id": "PMID:22129456",
+      "pmcid": "PMC4942586",
+      "title": "Fear extinction as a model for translational neuroscience: ten years of progress",
+      "authors": "Milad MR, Quirk GJ",
+      "journal": "Annual Review of Psychology",
+      "year": 2012,
+      "access": "full_text_pmc",
+      "used_in": [
+        "2026-05-30-amygdala-fear-memory"
+      ],
+      "covers": [
+        "IL_extinction_recall",
+        "vmPFC_thickness_extinction",
+        "PTSD_extinction_deficit",
+        "PL_fear"
+      ]
+    },
+    {
+      "id": "PMID:38370858",
+      "pmcid": "PMC10869525",
+      "title": "Neural circuits for the adaptive regulation of fear and extinction memory",
+      "authors": "Plas SL et al.",
+      "journal": "Frontiers in Behavioral Neuroscience",
+      "year": 2024,
+      "access": "full_text_pmc",
+      "used_in": [
+        "2026-05-30-amygdala-fear-memory"
+      ],
+      "covers": [
+        "LC_NE_fear_stress",
+        "nucleus_reuniens_hub",
+        "IL_BLA_optogenetic_causality"
       ]
     }
   ],

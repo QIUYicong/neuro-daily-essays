@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-13",
+  "last_updated": "2026-05-30",
   "levels": [
     "speculative",
     "emerging",
@@ -392,6 +392,29 @@
       "supporting_sources": 4,
       "last_status_change": "2026-06-13",
       "reason": "创建2026-06-13（status=contested）。啮齿类神经发生证据充分；Santarelli 2003证明神经发生是SSRI行为效果的必要条件（啮齿类）；但人类成人神经发生存在Sorrells 2018（几乎无）vs Boldrini 2018（仍有）直接矛盾，方法学分歧未解决。"
+    }
+  ],
+  "entries": [
+    {
+      "slug": "amygdala",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-05-30",
+      "reason": "杏仁核恐惧回路（LA/ITC/CeA架构）有50+年多实验室重复验证；LA-LTP因果证明（Nabavi 2014）；ITC必要性直接证据（Likhtik 2008）"
+    },
+    {
+      "slug": "fear-conditioning",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-05-30",
+      "reason": "LA-NMDA-LTP机制有30+年证据；光遗传双向因果证明（Nabavi 2014）是最高标准实验"
+    },
+    {
+      "slug": "fear-extinction",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-05-30",
+      "reason": "消退作为新学习的证据充分（自发恢复/再激活/更新三类经典现象）；IL→ITC回路有多项optogenetics确认；vmPFC预测消退的人类fMRI证据多个独立研究"
     }
   ]
 }

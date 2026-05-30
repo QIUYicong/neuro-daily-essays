@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-05-30（第 24 篇·情绪与动机首篇）
+
+**源文章**：[[2026-05-30-amygdala-fear-memory]] —《当杏仁核学会恐惧——突触可塑性如何将一次经历铸成防御记忆，以及大脑为何难以遗忘》
+
+**新建页面（3）**：
+- `systems/amygdala.md`（杏仁核）🟢 established / 置信度高 — LA/BA/ITC/CeA四层架构；恐惧印迹~20%稀疏LA编码；ITC背侧/腹侧分工闸门；前额叶PL/IL双向控制；课程主题6（情绪与动机）首个系统页
+- `concepts/fear-conditioning.md`（恐惧条件反射）🟢 established / 置信度高 — CS+US在LA汇聚→NMDA巧合检测→CaMKII→GluA1插入→LA-LTP；与海马LTP分子机器同构；Nabavi 2014光遗传双向因果证明
+- `concepts/fear-extinction.md`（恐惧消退）🟢 established / 置信度高 — 消退≠遗忘（LTD去增强+新IL→ITC→CeM回路）；BA双群竞争（恐惧/消退神经元）；vmPFC激活预测消退质量；PTSD=消退记忆提取失败
+
+**修订页面（2）**：
+- `concepts/ltp.md`（revision_count 6→7）：新增LA-LTP是恐惧记忆因果底物（Nabavi 2014 PMID:24896183）；"LTP是通用跨区域联想学习算法"洞见明确化；related新增fear-conditioning、amygdala；key_sources新增PMID:24896183、PMID:11584069
+- `concepts/norepinephrine-locus-coeruleus.md`（revision_count 1→2）：新增LC-杏仁核轴恐惧记忆机制（β受体→BLA-LTP→闪光灯记忆）；新增应激-NE-消退损害机制（Plas 2024）；related新增amygdala、fear-conditioning、fear-extinction；key_sources新增PMID:38370858
+
+**登记矛盾（0）**：无新矛盾，新内容与已有wiki一致（LTP机器、印迹细胞稀疏编码、海马情景信息）
+
+**解决悬空引用（0）**：今日新建节点amygdala/fear-conditioning/fear-extinction均为首次创建，填补了"情绪与动机"方向的重要空白
+
+**新增悬空引用（待填）**：
+- `reconsolidation`（记忆再巩固）— 被fear-extinction页引用
+- `vmPFC`（腹内侧前额叶）— 被fear-extinction和amygdala页引用（与已有prefrontal-cortex页不同，vmPFC特指IL/infralimbic皮层）
+
+**图谱**：节点 61→64，边 326→353（新增 27 条边）
+
+---
+
 ## 2026-06-14（第四周第二篇·第 23 篇）
 
 **源文章**：[[2026-06-14-parkinson-basal-ganglia-circuit]] —《多巴胺的沉默与节律的失控：帕金森病如何揭示大脑运动控制的回路逻辑》

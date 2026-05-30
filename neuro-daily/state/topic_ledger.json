@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-14",
-  "total_articles": 23,
+  "last_updated": "2026-05-30",
+  "total_articles": 24,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1653,6 +1653,88 @@
       "mode": "long_term_curriculum",
       "article_number": 23,
       "note": "第四周第二篇（logically 2026-06-14，系统日期UTC+8 2026-05-30）。disease 层第二篇文章；首次系统覆盖基底节回路（circuits/basal-ganglia.md）。以 Köhler 2024 (Brain) 的β→θ振荡切换发现为核心新洞察。新建3个wiki页面（parkinsons-disease/basal-ganglia/beta-oscillations），修订1个页面，图谱新增3节点18边（总计61节点326边）。dangling reference: alpha-synuclein（需后续文章覆盖）。"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "当杏仁核学会恐惧——突触可塑性如何将一次经历铸成防御记忆，以及大脑为何难以遗忘",
+      "filename": "2026-05-30-amygdala-fear-memory.md",
+      "wiki_pages_created": [
+        "wiki/systems/amygdala.md",
+        "wiki/concepts/fear-conditioning.md",
+        "wiki/concepts/fear-extinction.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/norepinephrine-locus-coeruleus.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "基底外侧杏仁核（BLA）如何通过突触LTP将一次条件性恐惧经历写入回路，ITC神经元与vmPFC如何在消退训练中建立竞争性抑制记忆——却无法真正抹除原始恐惧痕迹？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "6. 情绪与动机（首次进入）",
+      "topic_tags": [
+        "amygdala",
+        "fear conditioning",
+        "fear extinction",
+        "basolateral amygdala",
+        "BLA",
+        "lateral amygdala",
+        "LA",
+        "central amygdala",
+        "CeA",
+        "ITC intercalated cells",
+        "infralimbic cortex",
+        "IL",
+        "prelimbic cortex",
+        "PL",
+        "vmPFC",
+        "LTP amygdala",
+        "Nabavi 2014",
+        "Blair 2001",
+        "Herry 2008",
+        "Likhtik 2008",
+        "Milad Quirk",
+        "fear neurons",
+        "extinction neurons",
+        "PTSD",
+        "reconsolidation",
+        "norepinephrine fear memory",
+        "sparse coding amygdala"
+      ],
+      "main_sources": [
+        "PMID:11584069 (abstract only)",
+        "PMID:24896183 (abstract only)",
+        "PMID:18615014 (abstract only)",
+        "PMID:18615015 (abstract only)",
+        "PMID:24908482 (PMC4103014)",
+        "PMID:30415278 (PMC6374177)",
+        "PMID:22129456 (PMC4942586)",
+        "PMID:38370858 (PMC10869525)"
+      ],
+      "unresolved_questions": [
+        "Q-fear-low-road-function: 丘脑低路直接投射的独立恐惧学习贡献",
+        "Q-fear-reconsolidation-boundary: 强/旧记忆再巩固窗口的精确边界条件",
+        "Q-fear-itc-bidirectionality: ITC背侧/腹侧在恐惧重现时的再平衡机制",
+        "Q-fear-human-amygdala-specificity: 人类杏仁核功能架构与啮齿类的保守程度",
+        "Q-fear-extinction-ptsd-biomarker: vmPFC激活作为个体化PTSD预后标志物"
+      ],
+      "next_suggested_topics": [
+        "PTSD深度机制：应激损害消退的具体神经回路（CRF系统、下丘脑-垂体-肾上腺HPA轴、记忆再巩固干预治疗）",
+        "杏仁核的奖励学习：恐惧回路的积极情绪版本，VTA→BLA多巴胺投射",
+        "海马-杏仁核情景-情绪绑定：恐惧情景如何由海马印迹细胞与杏仁核印迹协同编码",
+        "记忆再巩固（reconsolidation）机制详解：填补 Q-fear-reconsolidation-boundary",
+        "抑郁症的神经回路：与恐惧/焦虑回路的重叠（杏仁核过激活、前额叶功能不足）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 24,
+      "note": "今日为仓库2026-05-30的第三次运行（前两次生成第1周和第3周综合），本文主题为新主题（杏仁核恐惧记忆），不与已有文章重复。"
     }
   ],
   "layer_coverage_recent": {

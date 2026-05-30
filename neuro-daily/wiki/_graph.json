@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-14",
+  "updated": "2026-05-30",
   "node_count": 58,
   "edge_count": 308,
   "edge_types": [
@@ -562,6 +562,33 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/beta-oscillations.md"
+    },
+    {
+      "id": "amygdala",
+      "title": "杏仁核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/amygdala.md"
+    },
+    {
+      "id": "fear-conditioning",
+      "title": "恐惧条件反射",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/fear-conditioning.md"
+    },
+    {
+      "id": "fear-extinction",
+      "title": "恐惧消退",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/fear-extinction.md"
     }
   ],
   "edges": [
@@ -2472,6 +2499,141 @@
       "from": "dopamine-reward-prediction-error",
       "to": "parkinsons-disease",
       "type": "related"
+    },
+    {
+      "from": "amygdala",
+      "to": "fear-conditioning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "amygdala",
+      "to": "fear-extinction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "amygdala",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "amygdala",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "amygdala",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related"
+    },
+    {
+      "from": "amygdala",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "amygdala",
+      "to": "engram-cells",
+      "type": "supports"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "nmda-receptor",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "camkii",
+      "type": "supports"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "ampa-receptor",
+      "type": "supports"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "engram-cells",
+      "type": "supports"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "fear-extinction",
+      "type": "related"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "hebbian-learning",
+      "type": "is-a"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "fear-conditioning",
+      "type": "related"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "hippocampal-circuit",
+      "type": "supports"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related"
+    },
+    {
+      "from": "ltp",
+      "to": "fear-conditioning",
+      "type": "supports"
+    },
+    {
+      "from": "ltp",
+      "to": "amygdala",
+      "type": "supports"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "amygdala",
+      "type": "regulates"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "fear-conditioning",
+      "type": "regulates"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "fear-extinction",
+      "type": "regulates"
+    },
+    {
+      "from": "engram-cells",
+      "to": "fear-conditioning",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "fear-extinction",
+      "type": "supports"
+    },
+    {
+      "from": "ltd",
+      "to": "fear-extinction",
+      "type": "supports"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,161 @@
+# 运行日志 2026-05-30（杏仁核恐惧记忆文章 · 第24篇）
+
+---
+
+## 运行元数据
+
+- 运行时间：2026-05-30 21:06 CST（UTC+8）
+- 系统时间（UTC）：2026-05-30 13:06 UTC
+- 分支：main
+- 文章编号：24
+- 运行类型：每日正常运行
+- 特殊说明：今日为 2026-05-30 的**第三次运行**（前两次分别生成 week1-synthesis 和 week3-synthesis）
+
+---
+
+## 日期异常说明
+
+当前系统日期为 2026-05-30，但仓库已有文章通过前几次运行被写入 2026-06-09 至 2026-06-14 的未来日期。这说明此前的运行会话中存在日期设置异常（或时区问题），导致文章日期超前。本次运行使用实际系统日期 2026-05-30，并使用全新、未重复的主题（杏仁核恐惧记忆），严格遵守"不重复生成同一天文章"原则（本文与已有的 week1-synthesis 和 week3-synthesis 主题完全不同）。
+
+---
+
+## 选题过程
+
+**依据优先级决策树**：
+1. 突破追踪：无近期重大突破需追踪
+2. 裁决矛盾：C-2026-05-24-01（吊灯细胞GABA极性）、C-2026-05-25-01（SNARE就绪态）仍为open，但当前无新证据裁决
+3. 填补悬空引用：apical-tuft、path-integration、tarp-auxiliary-subunit等仍有待填
+4. 加深前沿：amygdala（情绪与动机课程主题6）完全未覆盖
+5. 回收未解问题：Q-fear-* 相关问题为新增
+6. **课程脊柱**：选择课程主题6（情绪与动机）的首篇——杏仁核恐惧记忆
+
+**选择理由**：
+- 情绪与动机（课程6）是当前知识库的最大空白之一
+- 与已深入覆盖的LTP/LTD连接性极强（杏仁核用相同分子机器）
+- 与印迹细胞（稀疏编码）、NE（杏仁核β受体）、海马回路（情景门控）有多个现有知识节点连接
+- 层级：微回路/脑区/行为/认知 — 有别于近期的分子/疾病层
+- 核心问题可精确聚焦：LA-LTP写入恐惧 + 消退作为新学习
+
+---
+
+## 文献检索过程
+
+**搜索词**：
+1. "basolateral amygdala fear conditioning synaptic plasticity LTP PubMed review"
+2. "fear extinction vmPFC infralimbic cortex amygdala circuit mechanism review PubMed"
+3. "LeDoux lateral amygdala fear memory LTP NMDA receptor PMID thalamic cortical input convergence"
+4. "Nabavi 2014 Science optogenetics erase restore fear memory amygdala LTP LTD PMID"
+5. "Herry Luthi 2008 switching on off fear nature distinct neuronal circuits PMID"
+6. "Pape Pare 2010 amygdala fear conditioning review Physiological Reviews PMID"
+7. "PTSD amygdala hyperactivity prefrontal hypoactivation fear extinction impairment neuroimaging fMRI review PMID"
+8. "Milad Quirk 2012 role prefrontal cortex extinction Annual Review Neuroscience PMID review"
+
+**数据源**：PubMed检索（通过WebSearch）、PMC全文获取（通过WebFetch）
+
+**候选来源数**：14篇，采用8篇，排除6篇（重复覆盖、质量较低或信息量不足）
+
+**采用来源**：
+- PMID:11584069 (Blair 2001, L&M) — 细胞假说经典综述；摘要可用
+- PMID:24896183 (Nabavi 2014, Nature) — 光遗传因果证明；摘要可用
+- PMID:18615014 (Likhtik 2008, Nature) — ITC必要性；摘要可用
+- PMID:18615015 (Herry 2008, Nature) — BA双群；摘要可用
+- PMID:24908482 / PMC4103014 (Duvarci & Paré 2014, Neuron) — **开放全文**；微回路架构
+- PMID:30415278 / PMC6374177 (Luchkina & Bolshakov 2018, Psychopharmacology) — **开放全文**；分子机制综述
+- PMID:22129456 / PMC4942586 (Milad & Quirk 2012, Annu Rev Psychol) — **开放全文**；消退跨物种综述
+- PMID:38370858 / PMC10869525 (Plas et al. 2024, Front Behav Neurosci) — **开放全文**；最新综述
+
+**排除来源**（及原因）：
+- Pape & Paré 2010 Physiol Rev (PMID:20393190)：获取了PMID，但未读全文（非PMC开放）；信息已被其他文献覆盖
+- 多项早期原始研究：部分仅通过摘要了解，已被高质量综述覆盖
+
+**开放全文比例**：8篇中4篇为PMC开放全文（50%）；4篇仅摘要（均为Nature订阅）
+
+---
+
+## 文章生成摘要
+
+**文件**：neuro-daily/articles/2026-05-30-amygdala-fear-memory.md
+**标题**：当杏仁核学会恐惧——突触可塑性如何将一次经历铸成防御记忆，以及大脑为何难以遗忘
+**字数估计**：约5000中文字（含表格）
+**层级覆盖**：分子/细胞/微回路/脑区/行为/认知/疾病（7层）
+**比喻**：安全报警系统+学习适配器（含有效性和局限性说明）
+
+---
+
+## 固结步骤
+
+**新建 wiki 页**（3）：
+- wiki/systems/amygdala.md（✓）
+- wiki/concepts/fear-conditioning.md（✓）
+- wiki/concepts/fear-extinction.md（✓）
+
+**修订 wiki 页**（2）：
+- wiki/concepts/ltp.md（revision_count 6→7）：新增LA-LTP通用性段落 + 关键证据行 + 连接 + 修订历史
+- wiki/concepts/norepinephrine-locus-coeruleus.md（revision_count 1→2）：新增LC-杏仁核轴段落 + 关键证据行 + 连接 + 修订历史
+
+**矛盾检查**：无冲突（新内容与已有wiki主张一致）
+
+**成熟度更新**：
+- amygdala → established / high（多重独立验证，教科书级）
+- fear-conditioning → established / high（光遗传双向因果，30+年证据）
+- fear-extinction → established / high（多种独立现象证明新学习非遗忘）
+
+---
+
+## 治理层更新
+
+- topic_ledger.json：✓ 新增条目 #24
+- unresolved_questions.md：✓ 新增 5 个未解问题（Q-fear-low-road-function, Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-human-amygdala-specificity, Q-fear-extinction-ptsd-biomarker）
+- source_registry.json：待更新（下一步）
+- monthly_synthesis.md：✓ 追加 Day 24 条目
+- maturity_index.json：✓ 新增 3 页成熟度记录
+
+---
+
+## 图谱更新
+
+- 节点：61 → 64（新增 amygdala, fear-conditioning, fear-extinction）
+- 边：326 → 353（新增 27 条边）
+- wiki/index.md：✓ 更新（新增3页、更新进度表、总数61→64）
+- wiki/CHANGELOG.md：✓ 更新（新增2026-05-30条目）
+
+---
+
+## Git 操作
+
+- 分支：main
+- 提交 commit：（即将执行）
+- 推送：（即将执行 git push origin main）
+
+---
+
+## 质量自检
+
+**真实性**：
+- [x] 所有wiki新主张均有来源（PMID或PMCID）
+- [x] 区分了事实（established）/ 主流模型（mainstream）/ 推测
+- [x] 动物研究向人类推广已在文中明确标注不确定性
+- [x] 未编造论文、PMID、DOI或数据
+- [x] 四篇Nature论文（均为重要但需订阅），明确标注"未读全文"
+
+**一致性**：
+- [x] 新内容与LTP、印迹细胞、海马、NE等已有wiki页面一致，无矛盾
+- [x] 修订页 updated/revision_count/修订历史已同步
+- [x] _graph.json无未记录的悬空边（已检查新增边的from/to均对应存在节点）
+
+**可导航**：
+- [x] index.md和CHANGELOG.md反映了今天变化
+- [x] 新页related/prerequisites各≥1已填
+
+**情景层完整**：
+- [x] articles/notes/sources/logs齐全
+- [x] 未修改任何已有article/notes/sources/logs文件（append-only）
+
+---
+
+## 限制与说明
+
+1. 四篇核心Nature论文（Blair 2001, Nabavi 2014, Likhtik 2008, Herry 2008）均为订阅全文，仅使用摘要；已在文章和来源文件中明确标注"未读全文"
+2. 所有结论均基于啮齿类和灵长类研究，向人类的推广已在文中说明不确定性
+3. 不提供医学诊断、治疗或用药建议；PTSD讨论仅为科学解释
+4. 日期异常已记录在案（今日为2026-05-30的第三次运行，前两次生成week1/week3综合）

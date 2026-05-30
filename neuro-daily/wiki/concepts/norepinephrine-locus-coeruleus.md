@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-06-12
-revision_count: 1
+updated: 2026-05-30
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition]
-related: [neuromodulator-systems, gain-control, working-memory, ltp, memory-consolidation, dopamine-reward-prediction-error]
+related: [neuromodulator-systems, gain-control, working-memory, ltp, memory-consolidation, dopamine-reward-prediction-error, amygdala, fear-conditioning, fear-extinction]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-ach-ne-03, Q-ach-ne-04]
-source_articles: [2026-06-12-neuromodulators-ach-ne]
-key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703"]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-amygdala-fear-memory]
+key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858"]
 ---
 
 # 去甲肾上腺素与蓝斑系统 (Norepinephrine / Locus Coeruleus System)
@@ -43,9 +43,15 @@ key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703"]
 - 激活 α1 → PKC → 开放非选择性阳离子通道 → 增加神经元背景噪声放电 → 削弱 PFC 稳定性
 - 高压力/过度唤醒时主导 → 认知受损（"应激性思维混乱"的分子基础）
 
-**β1/β2 受体（Gs 偶联，主要在海马）**：
+**β1/β2 受体（Gs 偶联，主要在海马和杏仁核）**：
 - 激活 β → cAMP → PKA → 增强突触可塑性（LTP 阈值降低）
 - β 拮抗剂（普萘洛尔）可减弱情绪性记忆巩固（PTSD 治疗研究）
+
+**LC-杏仁核轴与恐惧记忆（2026-05-30 新增）**：
+- 蓝斑 → 基底外侧杏仁核（BLA）的 NE 投射是情绪记忆选择性巩固的关键机制
+- 情绪唤醒事件激活 LC 的强相位放电 → 杏仁核 NE 大量释放 → β 受体 → PKA → BLA-LTP 阈值降低 → 恐惧记忆被优先写入并强化巩固
+- 这是"闪光灯记忆"（flashbulb memory，情绪事件被异常清晰记住）的分子基础
+- **应激损害消退**（Plas et al. 2024）：应激导致 LC 过度激活 → 杏仁核 NE 过载 → α1 受体激活（损害 PFC 功能）+ BLA 过激活 → vmPFC/IL 功能相对不足 → 消退获得和表达受损；这是 PTSD 中应激损害消退的 NE-神经回路机制之一
 
 **LC 活动模式（Aston-Jones & Cohen 2005, PMID:16254995）**：
 
@@ -81,6 +87,7 @@ key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703"]
 | α2A 激活改善 PFC 工作记忆 | α2A 激动剂（胍法辛）增强灵长类 WM 表现 | Arnsten lab（多篇，含 PMID:23293590） | 高（灵长类充分） |
 | NE 增强多感觉皮层信噪比 | 综述：视觉/听觉/体感/嗅觉电生理 | McBurney-Lin et al. 2019, PMID:31260703 | 高 |
 | NE（β 受体）增强情绪相关 LTP 和记忆 | β 阻断 + 条件恐惧 + 海马 LTP 测量 | Sara 2009 综述 + 多项原始研究 | 高 |
+| 应激时LC-NE过度激活损害消退（杏仁核过激活 + PFC相对抑制） | LC记录 + 消退行为 + NE操控 | Plas et al. 2024, PMID:38370858 (PMC10869525) | 中（最新综述，需更多原始研究验证） |
 | PFC→LC 顶-下控制 | 解剖追踪 + 电生理记录（PFC 损毁减弱LC相位响应） | Aston-Jones & Cohen 2005 综述 | 中-高 |
 
 ## 连接
@@ -92,6 +99,9 @@ key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703"]
 - [[ltp]] — β 受体降低海马 LTP 阈值（情绪记忆巩固）
 - [[memory-consolidation]] — NE 在 NREM 睡眠期间影响记忆固化过程
 - [[dopamine-reward-prediction-error]] — 同为神经调质系统，DA/NE 在奖励学习中协同
+- [[amygdala]] — LC-NE 投射通过 β 受体增强 BLA-LTP，强化恐惧记忆巩固；应激时 NE 过载损害 vmPFC 对杏仁核的抑制（消退受损）
+- [[fear-conditioning]] — β-NE 受体激活降低 BLA-LTP 阈值，恐惧记忆因唤醒而被优先巩固
+- [[fear-extinction]] — 应激通过 LC-NE 轴损害消退获得和表达（PFC/IL 功能被压制）
 
 ## 未解问题
 
@@ -101,7 +111,9 @@ key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703"]
 ## 修订历史
 
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
+- 2026-05-30 · 修订 · 基于《当杏仁核学会恐惧》一文 · 新增 LC-杏仁核轴在恐惧记忆巩固中的作用（β受体/BLA-LTP，闪光灯记忆机制）；应激-NE-消退受损回路（Plas 2024）；related 新增 amygdala、fear-conditioning、fear-extinction；key_sources 新增 PMID:38370858
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
+- [[2026-05-30-amygdala-fear-memory]]
