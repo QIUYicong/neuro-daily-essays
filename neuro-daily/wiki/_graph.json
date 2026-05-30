@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-09",
-  "node_count": 45,
-  "edge_count": 233,
+  "updated": "2026-06-10",
+  "node_count": 47,
+  "edge_count": 243,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -409,6 +409,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/methods/optogenetics.md"
+    },
+    {
+      "id": "short-term-synaptic-plasticity",
+      "title": "短时程突触可塑性（STP）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/short-term-synaptic-plasticity.md"
+    },
+    {
+      "id": "readily-releasable-pool",
+      "title": "就绪释放池（RRP）",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/readily-releasable-pool.md"
     }
   ],
   "edges": [
@@ -647,13 +665,23 @@
     {"from": "optogenetics", "to": "voltage-gated-sodium-channel", "type": "prerequisite-for", "note": "理解光遗传学需理解动作电位及钠通道（ChR2 激活最终通过钠通道达到阈值放电）"},
     {"from": "optogenetics", "to": "synaptic-transmission", "type": "related", "note": "光遗传学可在突触前和突触后层面操控突触传递；opto-vTrap可逆阻断囊泡释放"},
     {"from": "engram-cells", "to": "optogenetics", "type": "related", "note": "印迹细胞研究为光遗传学提供了最有力的实验展示场景"},
-    {"from": "hippocampal-circuit", "to": "optogenetics", "type": "related", "note": "光遗传学是海马回路功能最重要的在体解析工具之一"}
+    {"from": "hippocampal-circuit", "to": "optogenetics", "type": "related", "note": "光遗传学是海马回路功能最重要的在体解析工具之一"},
+    {"from": "short-term-synaptic-plasticity", "to": "synaptotagmin", "type": "mechanism-of", "note": "Syt7（高亲和力慢解离）是大多数中枢突触易化的主要分子传感器；Syt1是快速同步释放传感器"},
+    {"from": "short-term-synaptic-plasticity", "to": "readily-releasable-pool", "type": "mechanism-of", "note": "RRP耗竭是突触抑制的主要机制；RRP大小和补充速率决定抑制深度和恢复时间"},
+    {"from": "short-term-synaptic-plasticity", "to": "synaptic-transmission", "type": "related", "note": "STP是突触传递的时序扩展：将固定增益传递变为历史依赖的动态计算"},
+    {"from": "short-term-synaptic-plasticity", "to": "active-zone", "type": "mechanism-of", "note": "RRP囊泡停靠在活动区；活动区蛋白（RIM、Munc13）的结构决定RRP大小"},
+    {"from": "short-term-synaptic-plasticity", "to": "voltage-gated-calcium-channels", "type": "related", "note": "残余钙（激活Syt7，驱动易化）来自钙通道关闭后胞质未完全清除；CaV2是突触前钙内流的主要来源"},
+    {"from": "short-term-synaptic-plasticity", "to": "working-memory", "type": "supports", "note": "Mongillo 2008突触工作记忆理论：STP易化状态在PFC突触中储存活动无声WM信息，无需持续高频放电"},
+    {"from": "short-term-synaptic-plasticity", "to": "pv-interneurons", "type": "related", "note": "Syt7在PV+快发放抑制性突触的特殊设计：隐藏易化精确抵消depression，实现频率不变传输（PC→DCN模型）"},
+    {"from": "synaptotagmin", "to": "short-term-synaptic-plasticity", "type": "mechanism-of", "note": "Syt7亚型是STP易化的主要分子执行蛋白；Syt1负责快速同步释放（与STP抑制无关）"},
+    {"from": "readily-releasable-pool", "to": "synaptic-transmission", "type": "part-of", "note": "RRP是突触传递的核心物理组件；RRP大小和释放概率p共同决定单次动作电位的传递强度"},
+    {"from": "readily-releasable-pool", "to": "active-zone", "type": "part-of", "note": "RRP囊泡停靠于活动区的释放位点；活动区蛋白（RIM、Munc13、Munc18）维持RRP的稳定态"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
     {"slug": "munc18", "referenced_by": ["SNARE-complex"], "note": "SM蛋白，SNARE调控，次要"},
     {"slug": "calcium-channel", "referenced_by": ["synaptotagmin", "active-zone", "synaptic-transmission", "nmda-receptor", "dendritic-computation", "btsp"], "note": "已于2026-06-01创建 voltage-gated-calcium-channels 页面填补此悬空引用；synaptotagmin/active-zone/btsp 连接已更新至新slug", "resolved": "2026-06-01"},
-    {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "RRP，待建页面"},
+    {"slug": "readily-releasable-pool", "referenced_by": ["synaptic-transmission"], "note": "已于2026-06-10创建 wiki/neurons/readily-releasable-pool.md 页面，同时被STP页面引用", "resolved": "2026-06-10"},
     {"slug": "engram-cells", "referenced_by": ["ltp", "hebbian-learning", "dendritic-computation", "place-cell"], "note": "已于 2026-05-31 创建页面，填补悬空引用", "resolved": "2026-05-31"},
     {"slug": "three-factor-learning-rule", "referenced_by": ["hebbian-learning"], "note": "已于 2026-06-07 创建页面（wiki/concepts/three-factor-learning-rule.md）；同时新建 dopamine-reward-prediction-error 和 synaptic-tagging-capture", "resolved": "2026-06-07"},
     {"slug": "ltp-ltd", "referenced_by": ["ltp"], "note": "已于 2026-06-04 用 ltd 页面填补此悬空引用；ltp.md 中的 related 字段从 ltp-ltd 改为 ltd", "resolved": "2026-06-04"},

@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-06-10（第三周·第 4 篇，文章 #18）
+
+**源文章**：[[2026-06-10-stp-short-term-plasticity]] —《瞬息之变：短时程突触可塑性的分子机制与计算逻辑》
+
+**新建页面（2）**：
+- `concepts/short-term-synaptic-plasticity.md`（短时程突触可塑性）🟢 established / 置信度高 — 四种形式（易化/抑制/增强/PTP）的分子机制全覆盖；Syt7为脑内多突触易化的主要传感器（Jackman & Regehr 2017，PMID:28472650）；RRP耗竭驱动抑制（Zucker & Regehr 2002，PMID:11826273）；频率不变传输（Turecek 2017，PMID:29088700）；Mongillo活动无声工作记忆模型（PMID:18339943）；高p=低通/低p=高通计算逻辑（Tsodyks-Markram 1997，PMID:9012851）；连接9个既有节点
+- `neurons/readily-releasable-pool.md`（就绪释放池/RRP）🟢 established / 置信度高 — 填补 synaptic-transmission 等多页引用的悬空引用；RRP停靠/就绪机制（Rab3-RIM/Munc13/Munc18-1）；RRP耗竭数学模型（PPR ≈ 1-p）；钙加速补充（10倍加速，PMID:22751149）；连接6个既有节点
+
+**修订页面（2）**：
+- `neurons/synaptotagmin.md`（revision_count 2→3）：大幅扩展Syt7作为易化传感器的机制（4种突触PPF KO实验；高钙亲和力 Kd ~1.5 μM；慢解离约60倍；频率不变传输PC→DCN）；related 新增 short-term-synaptic-plasticity；key_sources 新增 PMID:28472650, PMID:29088700；source_articles 新增 2026-06-10；更新 Q-syt7-facilitation-mechanism（主体机制已确立）；新增 Q-stp-syt7-human
+- `concepts/working-memory.md`（revision_count 2→3）：related 新增 short-term-synaptic-plasticity；source_articles 新增 2026-06-10；连接段落新增 [[short-term-synaptic-plasticity]]；STP易化作为活动无声WM储存机制明确化
+
+**悬空引用新增（0）**：今日无新悬空引用。
+
+**悬空引用解决（1）**：
+- ~~`readily-releasable-pool`~~ ✅ 已建立（neurons/readily-releasable-pool.md）
+
+**矛盾登记（0）**：今日无新矛盾。两个现有开放矛盾（C-2026-05-24-01, C-2026-05-25-01）今日文献未直接涉及，状态不变。
+
+**图谱更新**：
+- 新节点：short-term-synaptic-plasticity, readily-releasable-pool（45→47 总节点）
+- 新边：10条（STP↔synaptotagmin、STP↔readily-releasable-pool、STP↔synaptic-transmission、STP↔active-zone、STP↔voltage-gated-calcium-channels、STP↔working-memory、STP↔pv-interneurons、synaptotagmin↔short-term-synaptic-plasticity、readily-releasable-pool↔synaptic-transmission、readily-releasable-pool↔active-zone；233→243 总边数）
+- 解决悬空：readily-releasable-pool
+
+---
+
 ## 2026-06-09（第三周·第 3 篇，文章 #17）
 
 **源文章**：[[2026-06-09-optogenetics-causal-neuroscience]] —《光遗传学：用一束光解开神经回路的因果之谜》

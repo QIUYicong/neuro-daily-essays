@@ -1,0 +1,128 @@
+# 运行日志 · 2026-06-10
+
+**文章编号**：#18（第三周·第4篇）
+**标题**：瞬息之变：短时程突触可塑性的分子机制与计算逻辑
+**文件**：`neuro-daily/articles/2026-06-10-stp-short-term-plasticity.md`
+
+---
+
+## 执行时间线
+
+- 启动：从上一轮对话上下文摘要继续（上下文压缩后恢复）
+- 主题选定：短时程突触可塑性（STP）——synaptic层长期缺口，Syt7悬空引用急需填补
+- 文献检索：使用 NCBI E-utilities API（eutils.ncbi.nlm.nih.gov/entrez/eutils/）
+- 文章写作完成（上一会话）
+- 知识库固结：本次执行
+
+---
+
+## 文献检索
+
+**搜索词**：
+- "short-term synaptic plasticity review"
+- "Zucker Regehr synaptic plasticity 2002"
+- "Jackman Regehr synaptic facilitation 2017"
+- "Synaptotagmin-7 facilitation"
+- "Turecek frequency-invariant transmission 2017"
+- "Mongillo activity-silent working memory 2008"
+- "Tsodyks Markram neocortical facilitation depression 1997"
+- "Abbott Regehr synaptic computation 2004"
+- "readily releasable pool review"
+
+**来源使用情况**：
+- PMID:11826273 (Zucker & Regehr 2002) — 摘要，非开放全文
+- PMID:22751149 (Regehr 2012) — PMC3385958 开放全文 ✅
+- PMID:28472650 (Jackman & Regehr 2017) — PMC5865607 开放全文 ✅
+- PMID:29088700 (Turecek et al. 2017) — PMC5892411 开放全文 ✅
+- PMID:9012851 (Tsodyks & Markram 1997) — PMC19580 开放全文 ✅
+- PMID:18339943 (Mongillo et al. 2008) — 摘要，非开放全文
+- PMID:15483601 (Abbott & Regehr 2004) — 摘要，非开放全文
+- PMID:37891212 (Norman et al. 2023) — 摘要，非开放全文
+- PMID:22068972 (Südhof 2012) — 摘要，非开放全文（已在2026-05-25注册）
+
+**注意事项**：
+- 初始 PubMed URL 返回 404；改用 eutils API 成功
+- PMID:28472650 验证：efetch 返回错误文章；改用标题搜索 "Jackman Regehr synaptic facilitation 2017" 确认正确 PMID
+- PMID:15483601 (Abbott & Regehr 2004 Nature "Synaptic computation") 验证正确
+
+---
+
+## 文件变更清单
+
+### 新建文件（4）
+
+| 文件 | 类型 | 说明 |
+|------|------|------|
+| `neuro-daily/articles/2026-06-10-stp-short-term-plasticity.md` | 文章 | 主要文章，约5000字，9个来源 |
+| `neuro-daily/notes/2026-06-10-reading-notes.md` | 笔记 | 9篇文献阅读笔记 |
+| `neuro-daily/sources/2026-06-10-sources.json` | 来源 | 9条来源，5开放4非开放 |
+| `neuro-daily/wiki/concepts/short-term-synaptic-plasticity.md` | wiki | 新概念页，revision_count=1 |
+| `neuro-daily/wiki/neurons/readily-releasable-pool.md` | wiki | 新节点，填补悬空引用，revision_count=1 |
+| `neuro-daily/logs/2026-06-10-run.log` | 日志 | 本文件 |
+
+### 修订文件（6+状态文件）
+
+| 文件 | 变更 |
+|------|------|
+| `wiki/neurons/synaptotagmin.md` | revision_count 2→3；大幅扩展Syt7机制；新增PPF KO实验数据；新增related/sources |
+| `wiki/concepts/working-memory.md` | revision_count 2→3；新增STP related和连接；新增来源文章 |
+| `wiki/_graph.json` | node_count 45→47；edge_count 233→243；新增2节点10边；解决RRP悬空 |
+| `wiki/index.md` | 主题页总数45→47；新增2个页面条目；更新进度表；新增文章#18描述；标记RRP悬空已解决 |
+| `wiki/CHANGELOG.md` | 新增2026-06-10条目 |
+| `state/topic_ledger.json` | total_articles 17→18；新增#18条目；更新layer_coverage_recent |
+| `state/unresolved_questions.md` | 新增4个问题（Q-stp-activity-silent-wm, Q-stp-cognitive-disease, Q-stp-syt7-human, Q-syt7部分解答） |
+| `state/source_registry.json` | 新增9条来源；last_updated更新 |
+| `state/monthly_synthesis.md` | 新增洞见45/46/47 |
+
+---
+
+## Wiki 图谱更新
+
+**新增节点**（45→47）：
+- `short-term-synaptic-plasticity`（concepts）
+- `readily-releasable-pool`（neurons）
+
+**新增边**（233→243，+10）：
+1. STP → synaptotagmin（mechanism-of）
+2. STP → readily-releasable-pool（mechanism-of）
+3. STP → synaptic-transmission（related）
+4. STP → active-zone（mechanism-of）
+5. STP → voltage-gated-calcium-channels（related）
+6. STP → working-memory（supports）
+7. STP → pv-interneurons（related）
+8. synaptotagmin → short-term-synaptic-plasticity（mechanism-of）
+9. readily-releasable-pool → synaptic-transmission（part-of）
+10. readily-releasable-pool → active-zone（part-of）
+
+**解决悬空引用**：
+- `readily-releasable-pool` ✅（被 synaptic-transmission 引用，现已建立）
+
+---
+
+## 矛盾检查
+
+今日无新矛盾登记。
+
+现有开放矛盾：
+- C-2026-05-24-01（GABA极性）：今日未涉及
+- C-2026-05-25-01（SNARE就绪态）：今日未直接解答，STP文章中Munc18-1在PTP中的PKC磷酸化与SNARE相关，但不构成矛盾更新
+
+---
+
+## 未解问题
+
+**新增（4）**：
+- Q-stp-activity-silent-wm（高优先级）
+- Q-stp-cognitive-disease（高优先级）
+- Q-stp-syt7-human（中优先级）
+- Q-syt7-facilitation-mechanism（更新：主体机制已确立，精确构象仍open）
+
+**解答进展**：
+- Q-syt7-facilitation-mechanism：从"完全未解"→"主体机制已确立（膜结合增强Syt1效率），精确SNARE接触机制仍open"
+
+---
+
+## Git 提交信息
+
+Branch: `claude/funny-einstein-jas4x`（环境分配）→ 推送至 `main`
+Author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>

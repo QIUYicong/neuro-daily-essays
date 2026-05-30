@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-25
-updated: 2026-06-01
-revision_count: 2
+updated: 2026-06-10
+revision_count: 3
 dimensions: [molecular, synaptic]
-related: [SNARE-complex, synaptic-transmission, active-zone, complexin, voltage-gated-calcium-channels]
+related: [SNARE-complex, synaptic-transmission, active-zone, complexin, voltage-gated-calcium-channels, short-term-synaptic-plasticity]
 prerequisites: [SNARE-complex, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-syt7-facilitation-mechanism, Q-syt-isoform-specificity]
-source_articles: [2026-05-25-synaptic-vesicle-exocytosis, 2026-06-01-voltage-gated-calcium-channels]
-key_sources: ["PMID:22068972", "PMID:23060190", "PMID:37891212", "PMID:31064106"]
+source_articles: [2026-05-25-synaptic-vesicle-exocytosis, 2026-06-01-voltage-gated-calcium-channels, 2026-06-10-stp-short-term-plasticity]
+key_sources: ["PMID:22068972", "PMID:23060190", "PMID:37891212", "PMID:31064106", "PMID:28472650", "PMID:29088700"]
 ---
 
 # 突触结合蛋白（Synaptotagmin）
@@ -50,6 +50,20 @@ Synaptotagmin（Syt）家族含17个成员，其中**Syt1、Syt2、Syt9**是快�
 ### 多传感器模型（Syt1 + Syt7）
 Norman et al. (2023) 计算模型显示：Syt1（低钙亲和力，快速反应）负责触发同步释放；Syt7（高钙亲和力，慢速反应）在重复刺激后的残余钙中介导短时程易化（PMID:37891212）。
 
+**Syt7作为短时程易化的专属传感器（2017年更新）**
+
+Jackman & Regehr（2017，PMID:28472650，PMC:PMC5865607）通过4种突触类型的Syt7敲除实验系统证明，Syt7是大多数中枢突触配对脉冲易化（paired-pulse facilitation, PPF）的主要分子传感器：
+
+- **4种突触均受影响**：沙费尔侧支、苔藓纤维、皮层丘脑连接、外侧穿通路的PPF在Syt7 KO后几乎消失（PPR从1.5–2.5降至约1.0）
+- **Syt7的分子特性赋予其易化传感功能**：
+  - 高钙亲和力（Kd ~1.5 μM），可被残余钙（50–200 nM）激活
+  - 慢解离（比Syt1慢约60倍）：激活后在突触前膜驻留数十毫秒，即使残余钙已衰减
+  - 不独立触发释放，而是与膜结合后增强Syt1驱动融合的概率（降低能垒2–5 kT）
+
+**机制精确图像**：第一次释放后，残余钙（~100 nM）激活Syt7（高亲和力），Syt7结合突触前膜并维持约50–100 ms的膜结合状态（慢解离）。当第二个动作电位到来时，Syt7-膜结合状态增大了Syt1-Ca²⁺复合体引发融合的概率。数学预测：PPR ∝ (Syt1-bound量) × (Syt7-bound量)，可定量重现实验中的易化幅度。
+
+**频率不变传输**：Turecek et al.（2017，PMID:29088700，PMC:PMC5892411）发现，在小脑浦肯野细胞→深部小脑核（PC→DCN）突触（天然抑制性），Syt7提供的隐藏易化精确抵消depression，使跨5–150 Hz的传输保持频率不变。Syt7 KO后高频下严重depression出现。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -57,6 +71,8 @@ Norman et al. (2023) 计算模型显示：Syt1（低钙亲和力，快速反应�
 | Syt1是快速同步释放的主要传感器 | Syt1敲除→同步释放消失；重表达→恢复 | PMID:22068972 | 极高 |
 | C2B域对释放比C2A更关键 | 点突变阻断Ca²⁺结合的差异实验 | PMID:22068972 | 高 |
 | Syt7介导异步释放与短时程易化 | Syt7敲除 + 双敲除实验 | PMID:37891212 | 中 |
+| Syt7是4种中枢突触PPF的主要传感器 | Syt7 KO小鼠4种突触类型PPF消失 | PMID:28472650 (PMC5865607) | 高 |
+| Syt7赋予PC→DCN突触频率不变传输 | Syt7 KO消除频率不变性；突触前AAV救援恢复 | PMID:29088700 (PMC5892411) | 高 |
 | 磷脂将Syt1表观Ca²⁺亲和力提高2-3个数量级 | 脂质结合实验 | PMID:22068972 | 高 |
 
 ## 连接
@@ -65,18 +81,22 @@ Norman et al. (2023) 计算模型显示：Syt1（低钙亲和力，快速反应�
 - [[synaptic-transmission]] — Syt是触发突触传递的关键开关
 - [[complexin]] — Syt1与Complexin协同：Syt解除Complexin锁定
 - [[voltage-gated-calcium-channels]] — CaV2.1（P/Q型）/CaV2.2（N型）开放产生局部Ca²⁺浓度暴升是Syt1激活的直接上游；Syt1的C2B域与CaV2通道的synprint位点预结合，实现纳米域预组织
+- [[short-term-synaptic-plasticity]] — Syt7是STP易化（facilitation）的主要分子传感器；Syt1是快速同步释放的传感器，两者分工明确
 
 ## 未解问题
 
-- Q-syt7-facilitation-mechanism：Syt7如何精确介导短时程易化？残余钙浓度阈值是多少？
+- Q-syt7-facilitation-mechanism：Syt7通过直接调控SNARE还是纯通过磷脂膜结合改变融合能垒？超分辨率实验正在进行（更新：已知Syt7是主要易化传感器，精确机制仍open）
 - Q-syt-isoform-specificity：不同突触类型为何选择不同Syt亚型？是否与精确的钙动力学匹配有关？
+- Q-stp-syt7-human：人类皮层突触的Syt7表达模式和易化特性是否与啮齿类系统性不同？
 
 ## 修订历史
 
 - 2026-05-25 · 创建 · 基于《神经信号的化学渡口》一文 · 初始置信度：高
 - 2026-06-01 · 修订 · 基于《神经元的三重钙门》一文 · 明确钙通道（CaV2.1/2.2）通过synprint位点与Syt1 C2B域的预结合机制（约20 μM Ca²⁺时最强）；将悬空引用 calcium-channel 更新为 voltage-gated-calcium-channels
+- 2026-06-10 · 修订 · 基于《瞬息之变：短时程突触可塑性》一文 · 大幅扩展Syt7机制：加入4种突触PPF KO实验（Jackman & Regehr 2017）、Syt7的钙亲和力/慢解离特性、频率不变传输（Turecek 2017）；将 short-term-synaptic-plasticity 加入 related；解答了悬挂已久的 Q-syt7-facilitation-mechanism（主体机制确立，精确构象仍open）
 
 ## 来源文章
 
 - [[2026-05-25-synaptic-vesicle-exocytosis]]
 - [[2026-06-01-voltage-gated-calcium-channels]]
+- [[2026-06-10-stp-short-term-plasticity]]

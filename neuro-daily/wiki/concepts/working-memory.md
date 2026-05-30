@@ -6,13 +6,13 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-06
-revision_count: 2
+updated: 2026-06-10
+revision_count: 3
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle]
+related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity]
 key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366"]
 ---
 
@@ -64,6 +64,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[nmda-receptor]] — PFC 循环回路的时间积分器
 - [[theta-oscillations]] — θ 周期内可嵌套 5–7 个 γ 爆发，可能与工作记忆容量相关
 - [[memory-consolidation]] — 工作记忆的长期化需要海马参与
+- [[short-term-synaptic-plasticity]] — STP易化机制是"活动无声"工作记忆的物理基础（Mongillo 2008）；Syt7驱动的易化状态储存记忆，无需持续高频放电
 
 ## 未解问题
 
@@ -91,6 +92,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文 · 初始置信度：高
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"工作记忆容量的吸引子竞争机制"小节；明确 θ/γ 嵌套约束与吸引子竞争两种容量限制假说；added [[competition-selection-principle]] to related
+- 2026-06-10 · 修订 · 基于《瞬息之变：短时程突触可塑性》一文 · 将 [[short-term-synaptic-plasticity]] 加入 related；明确Mongillo（2008）的STP机制作为"活动无声"储存的分子基础；为Q-wm-active-vs-silent提供新的STP侧证据（Syt7慢解离动力学与储存时间窗的对应）
 
 ## 来源文章
 
