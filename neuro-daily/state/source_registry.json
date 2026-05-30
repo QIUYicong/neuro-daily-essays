@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14",
+  "last_updated": "2026-06-15",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -3039,6 +3039,70 @@
         "n=25 patients",
         "UPDRS improvement"
       ]
+    },
+    {
+      "pmid": "2321027",
+      "title": "Two-photon laser scanning fluorescence microscopy",
+      "year": 1990,
+      "journal": "Science",
+      "used_in": [
+        "2026-06-15"
+      ],
+      "coverage": "two-photon excitation physics"
+    },
+    {
+      "pmid": "12777621",
+      "pmcid": "PMC165873",
+      "title": "In vivo two-photon calcium imaging of neuronal networks",
+      "year": 2003,
+      "journal": "PNAS",
+      "used_in": [
+        "2026-06-15"
+      ],
+      "coverage": "first in vivo two-photon bulk calcium imaging; sparse coding in barrel cortex"
+    },
+    {
+      "pmid": "22405199",
+      "title": "Imaging calcium in neurons",
+      "year": 2012,
+      "journal": "Neuron",
+      "used_in": [
+        "2026-06-15"
+      ],
+      "coverage": "calcium imaging review; chemical dyes vs GECIs"
+    },
+    {
+      "pmid": "23868258",
+      "pmcid": "PMC3777791",
+      "title": "Ultrasensitive fluorescent proteins for imaging neuronal activity",
+      "year": 2013,
+      "journal": "Nature",
+      "used_in": [
+        "2026-06-15"
+      ],
+      "coverage": "GCaMP6 milestone; 99% single AP detection; V1 dendritic spine orientation tuning"
+    },
+    {
+      "pmid": "28362436",
+      "pmcid": "PMC5903578",
+      "title": "In vivo imaging of neural activity",
+      "year": 2017,
+      "journal": "Nature Methods",
+      "used_in": [
+        "2026-06-15"
+      ],
+      "coverage": "in vivo neural imaging review; two-photon vs one-photon comparison; miniscope"
+    },
+    {
+      "pmid": "36922596",
+      "pmcid": "PMC10060165",
+      "title": "Fast and sensitive GCaMP calcium indicators for imaging neural populations",
+      "year": 2023,
+      "journal": "Nature",
+      "used_in": [
+        "2026-06-15"
+      ],
+      "coverage": "jGCaMP8 ultra-fast indicators; 2ms half-rise; PV+ fast-spiking resolution"
     }
   ],
   "total_sources": 150

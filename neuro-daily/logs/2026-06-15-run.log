@@ -1,0 +1,125 @@
+# 2026-06-15 运行日志
+
+**文章序号**：第 24 篇
+**逻辑日期**：2026-06-15
+**文章标题**：钙光之眼：双光子成像与 GCaMP 如何让我们在活体大脑中看见神经回路的工作
+**文章文件**：neuro-daily/articles/2026-06-15-two-photon-calcium-imaging-gcaMP.md
+**执行分支**：claude/funny-einstein-cSytL
+
+---
+
+## 选题决策
+
+**候选主题**：双光子钙成像（在 6 篇连续文章的 next_suggested_topics 中出现，最高优先级缺口）
+**选题理由**：
+- 方法层（methods domain）当前仅有光遗传学（2026-06-09），亟需互补工具
+- [[two-photon-calcium-imaging]] 和 [[gcaMP-indicators]] 是 Wilson 2016（V1突触聚类）、Ziv 2013（神经元漂移）等已有文章中反复引用的悬空链接
+- 与 place-cell、optogenetics、dendritic-computation 等多个已有页面的连接密度高，能显著增加知识图谱的连通性
+
+---
+
+## 文献检索过程
+
+**检索关键词**：
+- "two-photon imaging neuroscience review"
+- "GCaMP calcium indicator history review"
+- "GCaMP6 single action potential detection"
+- "jGCaMP8 fast kinetics 2023"
+- "two-photon calcium imaging place cells representational drift"
+- "dendritic spine two-photon calcium imaging synaptic clustering"
+
+**已确认的开放获取文献**：
+
+| PMID | PMC | 标题摘要 | 获取状态 |
+|------|-----|---------|---------|
+| PMID:2321027 | - | Denk et al. 1990, Science. 双光子激光扫描显微镜原理发明论文 | 摘要确认（Science经典论文，付费） |
+| PMID:12777621 | PMC165873 | Stosiek et al. 2003, PNAS. 体内神经元钙成像首次用于清醒行为动物 | 全文开放 |
+| PMID:23868258 | PMC3777791 | Chen et al. 2013, Nature. GCaMP6 里程碑论文，99% 单 AP 检测率 | 全文开放 |
+| PMID:28362436 | PMC5903578 | Yang & Yuste 2017, Nature Methods. 双光子成像综述，spines和dendrites | 全文开放 |
+| PMID:36922596 | PMC10060165 | Zhang et al. 2023, Nature. jGCaMP8，超快动力学 | 全文开放 |
+| PMID:27383898 | PMC5240628 | Wilson et al. 2016, Science. V1突触聚类双光子成像 | 引用已确认（前期文章） |
+
+**注意事项**：
+- E-utilities API 在本次运行中出现 HTTP 429 限流，部分摘要通过 PubMed 主页检索确认
+- PMID:2321027（Denk 1990）为 Science 付费文章，仅访问摘要；该论文为历史性发明文章，核心信息（双光子激发原理）已有充分二次文献记载
+
+---
+
+## 创建/修改的文件
+
+### 新建文章
+- `neuro-daily/articles/2026-06-15-two-photon-calcium-imaging-gcaMP.md`
+  - 约 4200 字，中文深度科学写作
+  - 分三层机制：双光子物理原理 → GCaMP 分子机制 → 三个改变认知的关键实验
+
+### 新建笔记
+- `neuro-daily/notes/2026-06-15-reading-notes.md`
+  - 覆盖 6 篇来源的详细阅读笔记
+
+### 新建数据源
+- `neuro-daily/sources/2026-06-15-sources.json`
+  - 6 条来源记录，4 条标注 open_full_text: true
+
+### 新建 Wiki 页面（2 页）
+- `neuro-daily/wiki/methods/two-photon-calcium-imaging.md`
+  - slug: two-photon-calcium-imaging
+  - domain: methods, type: method, status: established
+  - 连接：6 个已有 wiki 页，3 个新 opens_questions
+- `neuro-daily/wiki/methods/gcaMP-indicators.md`
+  - slug: gcaMP-indicators
+  - domain: methods, type: method, status: established
+  - GCaMP 家族演化表（GCaMP1→jGCaMP8），分子机制，4 种递送策略
+
+### 修订 Wiki 页面（2 页）
+- `neuro-daily/wiki/methods/optogenetics.md`
+  - revision_count: 1 → 2
+  - 新增 [[two-photon-calcium-imaging]] 连接
+- `neuro-daily/wiki/neurons/place-cell.md`
+  - revision_count: 3 → 4
+  - 新增神经元漂移证据行，新增 [[two-photon-calcium-imaging]] 连接
+
+### 修订状态文件（6 个）
+- `neuro-daily/wiki/_graph.json`：+2 节点，+18 边（63 节点，344 边）
+- `neuro-daily/wiki/index.md`：63 个主题页，更新 methods 区
+- `neuro-daily/wiki/CHANGELOG.md`：新增 2026-06-15 条目
+- `neuro-daily/state/maturity_index.json`：50 个页面条目
+- `neuro-daily/state/source_registry.json`：156 条来源记录
+- `neuro-daily/state/topic_ledger.json`：24 篇文章记录
+- `neuro-daily/state/unresolved_questions.md`：新增 3 个问题（Q-ca-imaging-*）
+- `neuro-daily/state/monthly_synthesis.md`：新增本月第 16 篇条目，新增洞见 57、58
+
+---
+
+## 知识图谱更新摘要
+
+**新增节点**：
+- `two-photon-calcium-imaging`（methods/established/high）
+- `gcaMP-indicators`（methods/established/high）
+
+**新增边（选）**：
+- two-photon-calcium-imaging → action-potential（mechanism-of）
+- two-photon-calcium-imaging → optogenetics（related）
+- two-photon-calcium-imaging → place-cell（supports）
+- two-photon-calcium-imaging → dendritic-computation（supports）
+- gcaMP-indicators → two-photon-calcium-imaging（part-of）
+- gcaMP-indicators → voltage-gated-calcium-channels（mechanism-of）
+
+**悬空引用状态**：
+- 新增悬空引用：calmodulin（GCaMP 分子机制中引用，尚无独立 wiki 页）
+- 已有悬空引用无新增解决（calmodulin 待下一合适文章填补）
+
+---
+
+## 错误与限制
+
+1. **E-utilities 限流（HTTP 429）**：部分 PMID 元数据通过 PubMed 主页检索确认，未使用自动 API 批量获取
+2. **Denk 1990 付费限制**：无法获取全文，使用摘要和二次文献描述双光子原理
+3. **maturity_index.json 首次尝试字段名错误**：文件使用 `pages` 而非 `entries` 作为主数组键，通过运行时检查修正
+
+---
+
+## 推送状态
+
+- **分支**：claude/funny-einstein-cSytL
+- **推送目标**：origin/claude/funny-einstein-cSytL
+- **推送时间**：见 git log

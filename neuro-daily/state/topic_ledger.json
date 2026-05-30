@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-14",
-  "total_articles": 23,
+  "last_updated": "2026-06-15",
+  "total_articles": 24,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1653,6 +1653,78 @@
       "mode": "long_term_curriculum",
       "article_number": 23,
       "note": "第四周第二篇（logically 2026-06-14，系统日期UTC+8 2026-05-30）。disease 层第二篇文章；首次系统覆盖基底节回路（circuits/basal-ganglia.md）。以 Köhler 2024 (Brain) 的β→θ振荡切换发现为核心新洞察。新建3个wiki页面（parkinsons-disease/basal-ganglia/beta-oscillations），修订1个页面，图谱新增3节点18边（总计61节点326边）。dangling reference: alpha-synuclein（需后续文章覆盖）。"
+    },
+    {
+      "date": "2026-06-15",
+      "title": "钙光之眼：双光子成像与 GCaMP 如何让我们在活体大脑中看见神经回路的工作",
+      "filename": "2026-06-15-two-photon-calcium-imaging-gcaMP.md",
+      "wiki_pages_created": [
+        "wiki/methods/two-photon-calcium-imaging.md",
+        "wiki/methods/gcaMP-indicators.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/methods/optogenetics.md",
+        "wiki/neurons/place-cell.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "双光子显微镜的飞秒近红外激光 I² 非线性激发如何实现活体脑组织深层单细胞分辨率成像？GCaMP 遗传编码钙指示剂如何将动作电位翻译成荧光信号？两者结合如何将场所细胞、方向选择性、印迹细胞等概念从推断变成直接可观测的现实？",
+      "layer": [
+        "methods",
+        "molecular",
+        "cellular",
+        "brain-region"
+      ],
+      "curriculum_track": "10. 方法革命（第二篇）→ 连接 3/4/5 主线",
+      "topic_tags": [
+        "two-photon calcium imaging",
+        "GCaMP",
+        "jGCaMP8",
+        "GCaMP6",
+        "genetically encoded calcium indicator",
+        "GECI",
+        "two-photon microscopy",
+        "two-photon excitation",
+        "calmodulin",
+        "cpGFP",
+        "M13 peptide",
+        "Stosiek 2003",
+        "Chen 2013",
+        "Zhang 2023 jGCaMP8",
+        "Denk 1990",
+        "in vivo imaging",
+        "neuronal activity",
+        "sparse coding",
+        "dendritic spine imaging",
+        "miniscope",
+        "representational drift",
+        "spike inference",
+        "calcium dynamics",
+        "barrel cortex",
+        "V1 imaging"
+      ],
+      "main_sources": [
+        "PMID:2321027 (Denk 1990, Science, 摘要)",
+        "PMID:12777621 (PMC165873, Stosiek 2003, PNAS, 开放)",
+        "PMID:22405199 (Grienberger & Konnerth 2012, Neuron, 摘要)",
+        "PMID:23868258 (PMC3777791, Chen 2013 GCaMP6, Nature, 开放)",
+        "PMID:28362436 (PMC5903578, Yang & Yuste 2017, NatMeth, 开放)",
+        "PMID:36922596 (PMC10060165, Zhang 2023 jGCaMP8, Nature, 开放)"
+      ],
+      "unresolved_questions": [
+        "Q-ca-imaging-perturbation：GCaMP 高表达的钙缓冲效应是否系统性影响突触可塑性？",
+        "Q-ca-imaging-spike-inference：棘波推断在自然行为条件下的准确率边界？",
+        "Q-ca-imaging-depth-subcortical：如何在不损伤组织前提下成像海马/杏仁核等深部脑区？"
+      ],
+      "next_suggested_topics": [
+        "帕金森病的非运动症状（认知/抑郁/睡眠障碍）——disease 层深挖，延续上一篇主题",
+        "基底节习惯性学习 vs 目标导向学习：DMS/DLS 的分工——延续基底节主题，填补回路层",
+        "Neuropixels 电生理——与双光子钙成像互补，填补 methods 层时间分辨率极限讨论",
+        "杏仁核与恐惧学习——情绪与动机主题（课程线 6）；恐惧消退与 LTD 有直接联系",
+        "第四周综合（约文章#28）：整合四大调质系统 DA/ACh/NE/5-HT + 基底节 + 双光子成像"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 24,
+      "note": "第四周第三篇：方法层第二篇文章。填补 methods 层双光子钙成像这一长期缺口（被 6 篇文章 next_suggested_topics 提及）。新建2个 wiki 页面（two-photon-calcium-imaging/gcaMP-indicators），修订2个页面（optogenetics revision2/place-cell revision4），图谱新增2节点18边（总计63节点、344条边）。dangling reference: calmodulin（GCaMP 机制中提及，需独立概念页）。"
     }
   ],
   "layer_coverage_recent": {

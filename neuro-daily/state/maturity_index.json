@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-13",
+  "last_updated": "2026-06-15",
   "levels": [
     "speculative",
     "emerging",
@@ -392,6 +392,22 @@
       "supporting_sources": 4,
       "last_status_change": "2026-06-13",
       "reason": "创建2026-06-13（status=contested）。啮齿类神经发生证据充分；Santarelli 2003证明神经发生是SSRI行为效果的必要条件（啮齿类）；但人类成人神经发生存在Sorrells 2018（几乎无）vs Boldrini 2018（仍有）直接矛盾，方法学分歧未解决。"
+    },
+    {
+      "slug": "two-photon-calcium-imaging",
+      "domain": "methods",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-15",
+      "reason": "奠基论文 Denk 1990 已被数十年实践验证；GCaMP6 被全球数百实验室采用；jGCaMP8 经多物种多指标严格验证"
+    },
+    {
+      "slug": "gcaMP-indicators",
+      "domain": "methods",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-15",
+      "reason": "GCaMP6 的 99% 单棘波检测已被广泛独立重复；jGCaMP8 分子机制和体内性能已被系统验证"
     }
   ]
 }

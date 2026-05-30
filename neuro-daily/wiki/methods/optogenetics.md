@@ -6,10 +6,10 @@ type: method
 status: established
 confidence: high
 created: 2026-06-09
-updated: 2026-06-09
-revision_count: 1
+updated: 2026-06-15
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, methods]
-related: [channelrhodopsin, engram-cells, place-cell, hippocampal-circuit, pv-interneurons, ltp, dopamine-reward-prediction-error, alzheimers-disease]
+related: [channelrhodopsin, engram-cells, place-cell, hippocampal-circuit, pv-interneurons, ltp, dopamine-reward-prediction-error, alzheimers-disease, two-photon-calcium-imaging]
 prerequisites: [action-potential, voltage-gated-sodium-channel, synaptic-transmission]
 opens_questions: [Q-opto-depth-limit, Q-opto-distributed-representation, Q-opto-clinical-ethics]
 source_articles: [2026-06-09-optogenetics-causal-neuroscience]
@@ -98,6 +98,7 @@ key_sources:
 - [[ltp]] — optogenetics 证明了诱导 LTP 的突触特异性，支持印迹细胞假说
 - [[dopamine-reward-prediction-error]] — 选择性激活 VTA DA 神经元触发奖励行为
 - [[channelrhodopsin]] — 待建立（ChR1/ChR2 的分子生物学页面）
+- [[two-photon-calcium-imaging]] — 互补的神经科学工具：光遗传学"操控"，双光子钙成像"观测"；两者联合构成扰动-观测的完整因果分析框架
 
 ---
 
@@ -112,6 +113,7 @@ key_sources:
 ## 修订历史
 
 - 2026-06-09 · 创建 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · methods 层第一个页面 · 初始置信度：高（established）
+- 2026-06-15 · 修订 · 基于《钙光之眼》文章 · 新增 [[two-photon-calcium-imaging]] 连接（互补观测工具）；revision_count 升至 2
 
 ---
 

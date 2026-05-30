@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-14",
+  "updated": "2026-06-15",
   "node_count": 58,
   "edge_count": 308,
   "edge_types": [
@@ -562,6 +562,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/beta-oscillations.md"
+    },
+    {
+      "id": "two-photon-calcium-imaging",
+      "title": "双光子钙成像",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/two-photon-calcium-imaging.md"
+    },
+    {
+      "id": "gcaMP-indicators",
+      "title": "GCaMP 钙指示剂",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/gcaMP-indicators.md"
     }
   ],
   "edges": [
@@ -2471,6 +2489,96 @@
     {
       "from": "dopamine-reward-prediction-error",
       "to": "parkinsons-disease",
+      "type": "related"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "gcaMP-indicators",
+      "type": "part-of"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "action-potential",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "voltage-gated-calcium-channels",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "optogenetics",
+      "type": "related"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "place-cell",
+      "type": "supports"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "v1-primary-visual-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "orientation-selectivity",
+      "type": "supports"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "dendritic-computation",
+      "type": "supports"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "pv-interneurons",
+      "type": "supports"
+    },
+    {
+      "from": "two-photon-calcium-imaging",
+      "to": "engram-cells",
+      "type": "supports"
+    },
+    {
+      "from": "gcaMP-indicators",
+      "to": "action-potential",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "gcaMP-indicators",
+      "to": "voltage-gated-calcium-channels",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "gcaMP-indicators",
+      "to": "optogenetics",
+      "type": "related"
+    },
+    {
+      "from": "gcaMP-indicators",
+      "to": "calcineurin",
+      "type": "related"
+    },
+    {
+      "from": "optogenetics",
+      "to": "two-photon-calcium-imaging",
+      "type": "related"
+    },
+    {
+      "from": "place-cell",
+      "to": "two-photon-calcium-imaging",
+      "type": "related"
+    },
+    {
+      "from": "orientation-selectivity",
+      "to": "two-photon-calcium-imaging",
+      "type": "related"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "two-photon-calcium-imaging",
       "type": "related"
     }
   ],

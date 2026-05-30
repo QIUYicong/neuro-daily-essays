@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-31
-revision_count: 3
+updated: 2026-06-15
+revision_count: 4
 dimensions: [cellular, brain-region, cognition, behavior]
-related: [hippocampal-circuit, btsp, grid-cell, dendritic-computation, ltp, hebbian-learning, engram-cells, theta-oscillations]
+related: [hippocampal-circuit, btsp, grid-cell, dendritic-computation, ltp, hebbian-learning, engram-cells, theta-oscillations, two-photon-calcium-imaging]
 prerequisites: [dendritic-computation, ltp, hippocampal-circuit]
 opens_questions: [Q-place-field-content, Q-place-field-btsp-universality, Q-remapping-trigger]
 source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof]
@@ -89,6 +89,7 @@ CA1 场所细胞整合两路主要输入：
 | BTSP 时间窗口约 ±3–4 秒 | 脑片 + 在体胞内记录，药理学验证 | PMID:28883072 (PMC7289271) | 高 |
 | CA3 BTSP 发生在循环突触，时间窗口对称 | 清醒小鼠 CA3 胞内记录 + 光遗传 | PMID:39454575 | 高（读摘要）|
 | 场所场的多样性钙动态（部分不符合 BTSP） | 大群体 CA1 钙成像 | PMID:41025505 | 中（提示多路径）|
+| 场所细胞群体存在"神经元漂移"（representational drift）：同一环境中激活的细胞集合随时间缓慢变化 | GCaMP + 微型镜（miniscope）慢性成像，自由活动小鼠，数周追踪同一批 CA1 神经元 | 多项研究（2013–2020） | 中（机制尚不清楚）|
 
 ## 连接
 
@@ -101,6 +102,7 @@ CA1 场所细胞整合两路主要输入：
 - [[theta-oscillations]] — θ 振荡调控平台电位的触发时机；场所细胞的相位前进依赖θ节律
 - [[phase-precession]] — 场所细胞的核心编码特性：放电相位随位置移动，实现速率+相位双重编码
 - [[sharp-wave-ripples]] — 睡眠/静息时SWR高速重播场所细胞序列，是记忆固化的载体
+- [[two-photon-calcium-imaging]] — 慢性微型镜钙成像是追踪同一批场所细胞数周动态（神经元漂移）的核心技术
 
 ## 未解问题
 
@@ -113,6 +115,7 @@ CA1 场所细胞整合两路主要输入：
 - 2026-05-28 · 创建 · 填补悬空引用（由 [[树突计算]] 页引用）· 基于《场所细胞》文章 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"相位前进"（第4节）和"SWR重播"（原第4节）；更新 key_sources；添加 [[phase-precession]] 连接
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 明确场所细胞作为情景记忆印迹细胞的实验证据（Liu 2012, Roy 2016 均使用 DG/CA1 作为印迹标记靶区）；更新 [[engram-cells]] 连接描述；revision_count 升至 3
+- 2026-06-15 · 修订 · 基于《钙光之眼》文章 · 新增证据行（神经元漂移）；新增 [[two-photon-calcium-imaging]] 连接；revision_count 升至 4
 
 ## 来源文章
 

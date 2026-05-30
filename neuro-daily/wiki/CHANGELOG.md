@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-15（第四周第三篇·第 24 篇）
+
+**源文章**：[[2026-06-15-two-photon-calcium-imaging-gcaMP]] —《钙光之眼：双光子成像与 GCaMP 如何让我们在活体大脑中看见神经回路的工作》
+
+**新建页面（2）**：
+- `methods/two-photon-calcium-imaging.md`（双光子钙成像）🟢 established / 置信度高 — 飞秒近红外激光 I² 非线性激发原理（Denk 1990）；活体脑组织深层单细胞/单树突棘分辨率成像；结合 GCaMP 同时记录数百至数千神经元；与光遗传学构成扰动-观测框架
+- `methods/gcaMP-indicators.md`（GCaMP 钙指示剂）🟢 established / 置信度高 — CaM+M13+cpGFP 三元融合蛋白分子机制；GCaMP 家族演化时间线（GCaMP1→GCaMP6→jGCaMP8）；GCaMP6（PMC3777791）99% 单 AP 检测；jGCaMP8f（PMC10060165）2ms 半上升时间；AAV 遗传特异性递送
+
+**修订页面（2）**：
+- `methods/optogenetics.md`（revision_count 1→2）：新增 [[two-photon-calcium-imaging]] 连接（互补"观测"工具）；方法层双工具框架说明
+- `neurons/place-cell.md`（revision_count 3→4）：证据表新增"神经元漂移（representational drift）"行；新增 [[two-photon-calcium-imaging]] 连接（慢性微型镜成像是漂移研究的核心技术）
+
+**登记矛盾（0）**：无新矛盾（GCaMP 缓冲效应的争议已记录为 Q-ca-imaging-perturbation，未触发现有 wiki 页面的直接矛盾）
+
+**新增悬空引用（1）**：
+- `calmodulin`（钙调蛋白）：GCaMP 机制中提及，需独立概念页（尤其为 CaMKII 和 LTP 相关内容提供基础）
+
+**图谱更新**：新增2个节点（two-photon-calcium-imaging, gcaMP-indicators），新增18条边；图谱总计63节点、344条边
+
+---
+
 ## 2026-06-14（第四周第二篇·第 23 篇）
 
 **源文章**：[[2026-06-14-parkinson-basal-ganglia-circuit]] —《多巴胺的沉默与节律的失控：帕金森病如何揭示大脑运动控制的回路逻辑》
