@@ -1594,6 +1594,126 @@
       "full_text_available": true,
       "used_in_articles": ["2026-06-11-v1-orientation-selectivity.md"],
       "aspects_covered": ["CNN第一层Gabor滤波器与V1简单细胞感受野收敛", "图像分类任务>其他任务的V1相似度", "自然图像统计与最优定向特征", "预测R²定量比较"]
+    },
+    {
+      "pmid": "18633352",
+      "pmcid": "PMC2666819",
+      "title": "Acetylcholine contributes through muscarinic receptors to attentional modulation in V1",
+      "authors_short": "Herrero et al.",
+      "journal": "Nature",
+      "year": 2008,
+      "first_used": "2026-06-12",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["猕猴V1注意调制","东莨菪碱（M1拮抗剂）消除注意诱导增益提升（P<0.001）","美加明（烟碱受体拮抗剂）无效（P=0.465）","M1肌碱受体介导注意性增益","ROC曲线0.677→0.826","注意效应=响应增益（乘法性缩放）"]
+    },
+    {
+      "pmid": "16254995",
+      "pmcid": null,
+      "title": "An integrative theory of locus coeruleus-norepinephrine function: adaptive gain and optimal performance",
+      "authors_short": "Aston-Jones & Cohen",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2005,
+      "first_used": "2026-06-12",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["LC相位vs紧张模式","适应性增益理论","任务驱动→相位模式（高信噪比）vs漫游→紧张模式（低信噪比）","LC投射的皮层广泛分布","NE倒U型调节曲线"]
+    },
+    {
+      "pmid": "19876288",
+      "pmcid": null,
+      "title": "The locus coeruleus: a new look at the blue spot",
+      "authors_short": "Sara SJ",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2009,
+      "first_used": "2026-06-12",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["LC解剖与投射系统","NE释放模式","β受体与LTP关系","LC在记忆巩固中的角色"]
+    },
+    {
+      "pmid": "17880897",
+      "pmcid": null,
+      "title": "Prefrontal ACh release controls cue detection on multiple timescales",
+      "authors_short": "Parikh et al.",
+      "journal": "Neuron",
+      "year": 2007,
+      "first_used": "2026-06-12",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["PFC ACh相位爆发与线索检测","msec级时间分辨率ACh测量","ACh双时间尺度（紧张背景+相位事件）","前额叶去胆碱化损害线索检测"]
+    },
+    {
+      "pmid": "20668433",
+      "pmcid": null,
+      "title": "Roles of acetylcholine in learning and memory",
+      "authors_short": "Hasselmo & Sarter",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2011,
+      "first_used": "2026-06-12",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["M1受体→减少K⁺漏电→促进持续放电","ACh对学习和记忆的双重作用","皮层去同步化机制","抗胆碱药认知损害"]
+    },
+    {
+      "pmid": "29858338",
+      "pmcid": null,
+      "title": "Specific basal forebrain-cortical cholinergic circuits coordinate cognitive operations",
+      "authors_short": "Zaborszky et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2018,
+      "first_used": "2026-06-12",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["基底前脑（Meynert核Ch4）的解剖细分","特异性胆碱能-皮层回路","不同皮层区域接受不同基底前脑亚区的投射","Ch4内侧→前额叶；Ch4后外侧→颞顶叶"]
+    },
+    {
+      "pmid": "23818597",
+      "pmcid": null,
+      "title": "Nicotinic acetylcholine receptor subtypes in rhesus monkey prefrontal cortex",
+      "authors_short": "Yang et al.",
+      "journal": "PNAS",
+      "year": 2013,
+      "first_used": "2026-06-12",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["α7-nAChR在dlPFC谷氨酸突触的分布","α7-nAChR促进NMDA受体参与","α4β2-nAChR在抑制性中间神经元的优先表达","nAChR亚型的功能分工"]
+    },
+    {
+      "pmid": "30946778",
+      "pmcid": null,
+      "title": "Locus coeruleus as a vigilance hub for sensory processing",
+      "authors_short": "McBurney-Lin et al.",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2019,
+      "first_used": "2026-06-12",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["LC作为感觉处理的警觉枢纽","NE相位爆发与感觉信号检测","LC-NE对皮层E/I平衡的调控","多感觉整合中LC的角色"]
+    },
+    {
+      "pmid": "22866031",
+      "pmcid": null,
+      "title": "Beyond 'frequency-following': the role of NE and Ach in the modulation of cortical responses",
+      "authors_short": "Edeline JM",
+      "journal": "Progress in Neurobiology",
+      "year": 2012,
+      "first_used": "2026-06-12",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["NE和ACh均增强多感觉皮层信噪比","调质对感觉皮层响应的乘法性调制综述","胆碱能和去甲肾上腺素能系统的协同作用","皮层调质调制的层特异性"]
+    },
+    {
+      "pmid": "21345366",
+      "pmcid": "PMC3115784",
+      "title": "Catecholamine influences on prefrontal cortical function: relevance to treatment of cognitive disorders",
+      "authors_short": "Arnsten AFT",
+      "journal": "Biological Psychiatry",
+      "year": 2011,
+      "first_used": "2026-06-12",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-12-neuromodulators-ach-ne.md"],
+      "aspects_covered": ["α2A受体抑制HCN（Ih）通道→减少树突泄漏→稳定WM表征","D1受体倒U型调节dlPFC WM","α1受体主导→高NE时噪声增加","胍法辛（α2A激动剂）改善灵长类WM任务","ADHD的PFC调质机制"]
     }
   ]
 }

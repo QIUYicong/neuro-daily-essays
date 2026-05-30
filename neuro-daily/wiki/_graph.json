@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-11",
-  "node_count": 50,
-  "edge_count": 256,
+  "updated": "2026-06-12",
+  "node_count": 54,
+  "edge_count": 276,
   "edge_types": ["is-a", "part-of", "mechanism-of", "prerequisite-for", "regulates", "supports", "contradicts", "related"],
   "nodes": [
     {
@@ -454,6 +454,42 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/synaptic-clustering.md"
+    },
+    {
+      "id": "acetylcholine-cortex",
+      "title": "乙酰胆碱皮层调质",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/acetylcholine-cortex.md"
+    },
+    {
+      "id": "norepinephrine-locus-coeruleus",
+      "title": "去甲肾上腺素与蓝斑系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/norepinephrine-locus-coeruleus.md"
+    },
+    {
+      "id": "neuromodulator-systems",
+      "title": "神经调质系统",
+      "domain": "systems",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/neuromodulator-systems.md"
+    },
+    {
+      "id": "gain-control",
+      "title": "皮层增益控制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/gain-control.md"
     }
   ],
   "edges": [
@@ -715,7 +751,26 @@
     {"from": "v1-primary-visual-cortex", "to": "dendritic-computation", "type": "related", "note": "V1是树突突触聚类增强方向选择性（Wilson 2016）的实验脑区；V1研究扩展了树突计算理论的体内支持"},
     {"from": "v1-primary-visual-cortex", "to": "pv-interneurons", "type": "related", "note": "PV+篮状细胞是V1 E/I平衡维持方向选择性对比度不变性的主要抑制元素"},
     {"from": "v1-primary-visual-cortex", "to": "sst-interneurons", "type": "related", "note": "SST+中间神经元靶向树突，通过调控NMDA棘波阈值参与V1方向选择性的树突层面调控"},
-    {"from": "v1-primary-visual-cortex", "to": "prefrontal-cortex", "type": "related", "note": "PFC通过自上而下反馈投射（注意、预期）调制V1方向选择性；预测编码框架中PFC→V1传递预测信号"}
+    {"from": "v1-primary-visual-cortex", "to": "prefrontal-cortex", "type": "related", "note": "PFC通过自上而下反馈投射（注意、预期）调制V1方向选择性；预测编码框架中PFC→V1传递预测信号"},
+    {"from": "acetylcholine-cortex", "to": "orientation-selectivity", "type": "regulates", "note": "ACh通过肌碱受体放大V1注意调制（Herrero 2008，PMID:18633352）"},
+    {"from": "acetylcholine-cortex", "to": "v1-primary-visual-cortex", "type": "regulates", "note": "ACh在V1产生响应增益提升，M1受体介导"},
+    {"from": "acetylcholine-cortex", "to": "working-memory", "type": "regulates", "note": "M1受体促进持续放电；α7-nAChR增强PFC NMDA信号"},
+    {"from": "acetylcholine-cortex", "to": "ltp", "type": "regulates", "note": "ACh通过M1促进皮层可塑性（M1→NMDA协同→LTP阈值降低）"},
+    {"from": "acetylcholine-cortex", "to": "memory-consolidation", "type": "related", "note": "低ACh（睡眠期）→皮层同步→有利SWR重放和系统固化"},
+    {"from": "acetylcholine-cortex", "to": "theta-oscillations", "type": "regulates", "note": "内侧隔核Ch1/2胆碱能投射至海马支持θ振荡"},
+    {"from": "acetylcholine-cortex", "to": "gain-control", "type": "mechanism-of", "note": "ACh是皮层增益控制的主要实现机制之一"},
+    {"from": "acetylcholine-cortex", "to": "neuromodulator-systems", "type": "is-a", "note": "ACh系统是四大皮层调质系统之一"},
+    {"from": "norepinephrine-locus-coeruleus", "to": "working-memory", "type": "regulates", "note": "α2A稳定PFC WM表征；α1（高NE）损害WM；胍法辛(α2A激动剂)是ADHD治疗药物"},
+    {"from": "norepinephrine-locus-coeruleus", "to": "ltp", "type": "regulates", "note": "β受体激活→cAMP→降低海马LTP阈值→情绪记忆增强（普萘洛尔β拮抗剂减弱）"},
+    {"from": "norepinephrine-locus-coeruleus", "to": "memory-consolidation", "type": "regulates", "note": "NE在NREM睡眠影响记忆固化；β阻断剂减弱情绪记忆巩固"},
+    {"from": "norepinephrine-locus-coeruleus", "to": "dopamine-reward-prediction-error", "type": "related", "note": "同为神经调质系统，NE/DA协同调节行为状态和奖励学习"},
+    {"from": "norepinephrine-locus-coeruleus", "to": "gain-control", "type": "mechanism-of", "note": "NE是皮层增益控制的主要实现机制之一（相位/紧张双模+倒U曲线）"},
+    {"from": "norepinephrine-locus-coeruleus", "to": "neuromodulator-systems", "type": "is-a", "note": "NE系统是四大皮层调质系统之一"},
+    {"from": "neuromodulator-systems", "to": "dopamine-reward-prediction-error", "type": "related", "note": "DA是第四种皮层调质系统（奖励/动机调制）"},
+    {"from": "neuromodulator-systems", "to": "three-factor-learning-rule", "type": "related", "note": "DA是三因素规则中的第三因子；ACh/NE也可作为调制因子"},
+    {"from": "gain-control", "to": "v1-primary-visual-cortex", "type": "mechanism-of", "note": "增益控制在V1感觉编码和注意调制中的核心作用"},
+    {"from": "gain-control", "to": "working-memory", "type": "related", "note": "PFC WM中的增益调控（NE α2A稳定WM表征）"},
+    {"from": "gain-control", "to": "orientation-selectivity", "type": "regulates", "note": "ACh增益控制影响V1方向选择性神经元的注意调制"}
   ],
   "dangling_references": [
     {"slug": "complexin", "referenced_by": ["synaptic-transmission", "SNARE-complex", "synaptotagmin"], "note": "双功能调控蛋白，可并入SNARE-complex"},
@@ -734,6 +789,8 @@
     {"slug": "medial-septum", "referenced_by": ["theta-oscillations"], "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"},
     {"slug": "bdnf-trkb", "referenced_by": ["alzheimers-disease", "amyloid-beta-oligomers"], "note": "BDNF/TrkB信号轴是L-LTP蛋白合成的关键上游；Aβ双重打击（下调BDNF表达+阻断TrkB信号）；proBDNF/p75NTR反转效应；待建页面"},
     {"slug": "prc-prion-protein", "referenced_by": ["alzheimers-disease", "amyloid-beta-oligomers"], "note": "细胞朊病毒蛋白（PrPC），Aβ寡聚体的高亲和力细胞表面受体；与mGluR5共形成受体复合物；激活Fyn激酶→NR2B磷酸化；待建页面"},
-    {"slug": "channelrhodopsin", "referenced_by": ["optogenetics"], "note": "通道视紫质（ChR1/ChR2）分子生物学专页；莱茵衣藻七跨膜光门控阳离子通道；光子→视黄醛异构→通道开放的完整结构基础；待建页面"}
+    {"slug": "channelrhodopsin", "referenced_by": ["optogenetics"], "note": "通道视紫质（ChR1/ChR2）分子生物学专页；莱茵衣藻七跨膜光门控阳离子通道；光子→视黄醛异构→通道开放的完整结构基础；待建页面"},
+    {"slug": "basal-forebrain", "referenced_by": ["acetylcholine-cortex", "neuromodulator-systems"], "note": "基底前脑解剖结构专页（Meynert基底核Ch4、内侧隔核Ch1/2、对角带Ch3）及其投射拓扑；待建页面"},
+    {"slug": "locus-coeruleus-anatomy", "referenced_by": ["norepinephrine-locus-coeruleus"], "note": "蓝斑解剖结构专页（脑桥，人类~5万NE神经元，含黑色素）；待建页面"}
   ]
 }

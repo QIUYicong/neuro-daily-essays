@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-11",
-  "total_articles": 19,
+  "last_updated": "2026-06-12",
+  "total_articles": 20,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1295,6 +1295,64 @@
       "article_number": 19,
       "note": "第三周第5篇：首次进入'大脑如何编码世界——视觉皮层'主题（课程线3）。以Hubel-Wiesel 1962经典发现为历史框架，阐明三层方向选择性机制，提出猫/猴方向柱 vs 小鼠盐-胡椒型组织的物种悖论，并以Wilson 2016树突突触聚类实验作为V1与树突计算专题的跨主题连接桥梁。新建3个wiki页面（v1-primary-visual-cortex/orientation-selectivity/synaptic-clustering），修订 dendritic-computation（revision 4），添加13条图谱边，解决 synaptic-clustering 悬空引用（dendritic-computation 2026-05-27创建时遗留至今）。",
       "dangling_reference_filled": "synaptic-clustering（填补 dendritic-computation 的长期悬空引用；新建 concepts/synaptic-clustering.md，以 Wilson 2016 体内证据为核心）"
+    },
+    {
+      "date": "2026-06-12",
+      "title": "注意的化学语言：乙酰胆碱与去甲肾上腺素如何向大脑发出行动指令",
+      "filename": "2026-06-12-neuromodulators-ach-ne.md",
+      "wiki_pages_created": [
+        "wiki/concepts/acetylcholine-cortex.md",
+        "wiki/concepts/norepinephrine-locus-coeruleus.md",
+        "wiki/systems/neuromodulator-systems.md",
+        "wiki/concepts/gain-control.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/v1-primary-visual-cortex.md",
+        "wiki/concepts/working-memory.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "乙酰胆碱（ACh）和去甲肾上腺素（NE）如何通过不同受体和脑区特异性机制，以乘法性增益控制而非加法性输入，将注意与唤醒状态写入皮层计算？",
+      "layer": ["molecular", "cellular", "brain-region", "cognition"],
+      "curriculum_track": "1. 神经元如何工作（神经调质机制）→ 5. 认知控制（注意/增益控制）",
+      "topic_tags": [
+        "acetylcholine", "ACh", "norepinephrine", "NE", "locus coeruleus",
+        "basal forebrain", "Meynert nucleus", "muscarinic receptor", "M1", "M2",
+        "nicotinic receptor", "nAChR", "alpha4beta2", "alpha7", "adrenergic receptor",
+        "alpha2A", "alpha1", "beta adrenergic", "HCN channel", "gain control",
+        "signal-to-noise ratio", "attention modulation", "neuromodulator",
+        "phasic-tonic mode", "adaptive gain theory", "Aston-Jones Cohen 2005",
+        "Herrero 2008", "guanfacine", "ADHD", "PFC working memory",
+        "scopolamine", "mecamylamine", "V1 attention", "response gain",
+        "contrast gain", "inverted-U", "cortical desynchronization"
+      ],
+      "main_sources": [
+        "PMID:18633352 (PMC2666819, Herrero et al. 2008 Nature, 开放)",
+        "PMID:16254995 (Aston-Jones & Cohen 2005 J Comp Neurol, 非开放)",
+        "PMID:19876288 (Sara 2009 Nat Rev Neurosci, 非开放)",
+        "PMID:17880897 (Parikh et al. 2007 Neuron, 非开放)",
+        "PMID:20668433 (Hasselmo & Sarter 2011 Neuropsychopharmacol, 非开放)",
+        "PMID:29858338 (Zaborszky et al. 2018 J Neurosci, 非开放)",
+        "PMID:23818597 (Yang et al. 2013 PNAS, 非开放)",
+        "PMID:30946778 (McBurney-Lin et al. 2019, 非开放)",
+        "PMID:22866031 (Edeline 2012, 非开放)",
+        "PMID:21345366 (Arnsten 2011 Nat Rev Neurosci, 非开放)"
+      ],
+      "unresolved_questions": [
+        "Q-ach-ne-01：ACh 和 NE 相互作用的时序和空间特异性（何时协同，何时拮抗？）",
+        "Q-ach-ne-02：烟碱/肌碱受体在人类 V1 的功能分工是否与猕猴一致？",
+        "Q-ach-ne-03：NE 的相位-紧张模式是否在不同认知任务中有可预测的切换模式？",
+        "Q-ach-ne-04：ACh/NE 调质系统如何整合到 STP 和吸引子动力学的统一框架？"
+      ],
+      "next_suggested_topics": [
+        "第三周综合篇（文章#21，第三周第7篇）：整合第三周六篇（DA奖励、AD突触机制、光遗传学、STP、V1方向选择性、ACh/NE神经调质）——建议框架：'皮层计算的双层调控'或'信号特异性与增益泛化的平衡'",
+        "帕金森病（disease层继续）：黑质纹状体多巴胺耗竭与直接/间接通路失衡——延续神经调质主题，从ACh/NE转向DA病理",
+        "双光子钙成像方法专页：GCaMP系列、成像原理（本文大量方法背景，需系统覆盖）",
+        "血清素（5-HT）系统：缝际核→皮层投射，情绪、焦虑、奖励学习中的角色（完成四大调质系统覆盖）",
+        "V2/MT/IT视觉层级：从方向到形状到物体识别的层级处理（延续视觉课程线）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 20,
+      "note": "第三周第6篇：首次系统覆盖调质系统层。以 Herrero 2008（Nature，猕猴V1，M1拮抗剂消除注意诱导增益提升）为核心实验锚点，整合ACh（M1肌碱/α4β2+α7烟碱）和NE（α2A→HCN抑制→PFC WM稳定；α1→噪声；β→LTP）的双系统机制；引入 Aston-Jones & Cohen（2005）的相位-紧张模式理论。新建4个wiki页面（acetylcholine-cortex/norepinephrine-locus-coeruleus/neuromodulator-systems/gain-control），修订 v1-primary-visual-cortex（revision 2）和 working-memory（revision 4），添加22条图谱边；知识图谱：54节点、278条边。"
     }
   ],
   "layer_coverage_recent": {
@@ -1304,7 +1362,8 @@
       "2026-05-26",
       "2026-06-01",
       "2026-06-04",
-      "2026-06-10"
+      "2026-06-10",
+      "2026-06-12"
     ],
     "cellular": [
       "2026-05-24",
@@ -1314,7 +1373,8 @@
       "2026-06-01",
       "2026-06-03",
       "2026-06-07",
-      "2026-06-11"
+      "2026-06-11",
+      "2026-06-12"
     ],
     "synaptic": [
       "2026-05-24",
@@ -1334,7 +1394,8 @@
       "2026-05-27",
       "2026-05-28",
       "2026-06-07",
-      "2026-06-11"
+      "2026-06-11",
+      "2026-06-12"
     ],
     "whole_brain_network": [
       "2026-05-29",
@@ -1356,11 +1417,14 @@
       "2026-05-30",
       "2026-05-31",
       "2026-06-02",
-      "2026-06-03"
+      "2026-06-03",
+      "2026-06-12"
     ],
     "disease": ["2026-06-08"],
     "methods": ["2026-06-09"],
-    "systems": ["2026-06-11"]
+    "systems": ["2026-06-11", "2026-06-12"]
   },
-  "layer_note": "2026-06-11（V1方向选择性）：首次进入 systems 层视觉皮层！覆盖 brain-region（V1结构/方向柱/超柱）/cellular（简单/复杂细胞）/microcircuit（E/I平衡/树突NMDA棘波）/systems（视觉层级第一站）四层。解决 synaptic-clustering 悬空引用（2026-05-27遗留）；新建3个wiki页面，修订1个页面，添加13条图谱边。下一篇可继续 methods 层（双光子钙成像专页）或 disease 层（帕金森），或进入神经调质系统（乙酰胆碱/去甲肾上腺素调制V1增益控制）。"
+  "last_updated": "2026-06-12",
+  "total_articles": 20,
+  "layer_note": "2026-06-12（ACh/NE神经调质）：首次系统覆盖调质系统层！覆盖 molecular（M1/α2A受体分子机制）/cellular（PFC锥体细胞/LC/基底前脑神经元）/brain-region（V1/PFC/LC/基底前脑解剖）/cognition（注意/工作记忆/增益控制）四层。以 Herrero 2008 猕猴V1实验为核心锚点，整合ACh和NE双系统增益控制机制。新建4个wiki页面，修订2个页面，添加22条图谱边；知识图谱：54节点、278条边。下一篇为第三周综合篇（文章#21），整合第三周六篇文章（DA奖励/AD突触/光遗传学/STP/V1方向选择性/ACh-NE调质），提炼统一框架。"
 }

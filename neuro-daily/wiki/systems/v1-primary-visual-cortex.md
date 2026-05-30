@@ -9,11 +9,13 @@ created: 2026-06-11
 updated: 2026-06-11
 revision_count: 1
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization]
-source_articles: [2026-06-11-v1-orientation-selectivity]
-key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772"]
+opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352"]
+updated: 2026-06-12
+revision_count: 2
 ---
 
 # 初级视觉皮层（V1）
@@ -85,8 +87,35 @@ V1 方向柱的形成具有遗传（活动非依赖）的初始组分，随后�
 | 雪貂 | 有（系统性方向图）| 弱 | 锐利 |
 | 小鼠 | 无（盐-胡椒型）  | 中等（独立于皮层反馈，PMID:23804085）| 锐利 |
 
+## 神经调质对 V1 的调制
+
+V1 的方向选择性和感觉增益受到来自基底前脑胆碱能系统（ACh）的显著调制：
+
+**乙酰胆碱（ACh）通过肌碱受体放大注意调制**（Herrero et al., 2008, Nature, PMID:18633352）：
+- 在猕猴执行空间注意任务时，向 V1 电泳注射东莨菪碱（肌碱受体拮抗剂）显著降低了注意诱导的神经元增益提升（P<0.001）
+- 注射美加明（烟碱受体拮抗剂）无效（P=0.465）
+- 结论：**V1 中的注意性增益调制由 M1 肌碱受体介导**
+- 机制：ACh 改变 V1 神经元的生物物理状态，使之更能被来自 PFC/顶叶的特异性谷氨酸能反馈信号所增强
+- V1 中烟碱受体主要位于丘脑皮质（L4）突触前，增强底-上感觉输入，但不直接参与注意调制
+
+**注意对 V1 的效果**（综合多项研究）：
+- 注意力集中于某位置 → 该位置感受野内神经元响应增强约 20-50%
+- 响应形式：倾向于"响应增益"（乘法性缩放），而非"对比度增益"（阈值移动）
+- 对 OSI（方向选择指数）也可能有轻度改善效应
+
 ## 开放问题
 
 - **Q-v1-orientation-column-advantage**：方向柱是否提供方向计算之外的计算/布线/速度优势？
 - **Q-v1-pinwheel-function**：pinwheel center 在视觉信息处理中是否有特殊的功能角色？
 - **Q-v1-human-organization**：人类 V1 的方向组织与猫/猴有何差异？高分辨率功能成像技术能否直接可视化人类 V1 方向柱？
+- **Q-ach-ne-02**：烟碱/肌碱受体在人类 V1 的功能分工是否与猕猴一致？
+
+## 修订历史
+
+- 2026-06-11 · 创建 · 基于《V1初级视觉皮层的方向选择性》一文 · 初始置信度：高
+- 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增"神经调质对 V1 的调制"小节（ACh/肌碱受体介导注意调制，Herrero 2008）；related 新增 acetylcholine-cortex, gain-control；opens_questions 新增 Q-ach-ne-02；key_sources 新增 PMID:18633352
+
+## 来源文章
+
+- [[2026-06-11-v1-orientation-selectivity]]
+- [[2026-06-12-neuromodulators-ach-ne]]

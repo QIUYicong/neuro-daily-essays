@@ -9,11 +9,13 @@ created: 2026-06-05
 updated: 2026-06-10
 revision_count: 3
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity]
+related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity]
-key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne]
+key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597"]
+updated: 2026-06-12
+revision_count: 4
 ---
 
 # 工作记忆 (Working Memory)
@@ -93,7 +95,28 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文 · 初始置信度：高
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"工作记忆容量的吸引子竞争机制"小节；明确 θ/γ 嵌套约束与吸引子竞争两种容量限制假说；added [[competition-selection-principle]] to related
 - 2026-06-10 · 修订 · 基于《瞬息之变：短时程突触可塑性》一文 · 将 [[short-term-synaptic-plasticity]] 加入 related；明确Mongillo（2008）的STP机制作为"活动无声"储存的分子基础；为Q-wm-active-vs-silent提供新的STP侧证据（Syt7慢解离动力学与储存时间窗的对应）
+- 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增 NE/ACh 对工作记忆的调制条目：α2A 受体（高亲和力 NE 受体）抑制 HCN 通道、稳定 PFC 工作记忆表征（Arnsten）；M1 ACh 受体促进持续放电（Hasselmo & Sarter 2011）；α7-nAChR 增强 dlPFC NMDA 信号稳定性（Yang 2013）；related 新增 norepinephrine-locus-coeruleus, acetylcholine-cortex
+
+## NE 和 ACh 对工作记忆的调制
+
+（2026-06-12 新增）
+
+工作记忆不仅依赖局部 PFC 回路，还受两套调质系统的增益调控：
+
+**去甲肾上腺素（NE，α2A 受体）**：
+- 低-中等 NE 水平时，α2A 受体（高亲和力，Gi 偶联）在 PFC 锥体细胞树突上激活
+- 抑制 HCN（Ih）通道 → 减少树突泄漏 → 工作记忆表征更稳定、更不易被噪声打断
+- α2A 激动剂（胍法辛）在灵长类中显著改善工作记忆任务表现
+- **高 NE（极度压力）时**：α1 受体主导 → 增加背景噪声 → WM 受损（应激性认知崩溃）
+- 临床相关：胍法辛是 ADHD 治疗药物之一（正是通过 α2A 稳定 PFC 信号）
+
+**乙酰胆碱（ACh，M1 和 α7 受体）**：
+- M1 受体激活（Hasselmo & Sarter 2011, PMID:20668433）→ 减少 K⁺ 漏电流 → 促进持续放电 → 支持工作记忆主动维持
+- α7-nAChR 在 dlPFC 谷氨酸突触（Yang et al. 2013, PMID:23818597）→ 促进 NMDA 受体参与 → 增强 PFC 信号稳定性
+- 皮层 ACh 去同步化 → 支持 WM 任务所需的高频编码状态
 
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
+- [[2026-06-10-stp-short-term-plasticity]]
+- [[2026-06-12-neuromodulators-ach-ne]]

@@ -1,0 +1,195 @@
+{
+  "date": "2026-06-12",
+  "article": "注意的化学语言：乙酰胆碱与去甲肾上腺素如何向大脑发出行动指令",
+  "article_number": 20,
+  "topic": "acetylcholine and norepinephrine neuromodulation, cortical gain control, attention",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "18633352",
+      "pmcid": "PMC2666819",
+      "doi": "10.1038/nature06894",
+      "title": "Acetylcholine contributes through muscarinic receptors to attentional modulation in V1",
+      "authors": ["Herrero JL", "Roberts MJ", "Delicato LS", "Gieselmann MA", "Dayan P", "Thiele A"],
+      "journal": "Nature",
+      "year": 2008,
+      "volume": "454",
+      "pages": "1110-1114",
+      "full_text_available": true,
+      "full_text_source": "PMC (PMC2666819)",
+      "access_note": "Open access in PMC; fetched full text",
+      "key_findings": [
+        "Muscarinic receptors mediate attentional modulation in macaque V1",
+        "Scopolamine (muscarinic antagonist) significantly reduced attentional modulation (P<0.001)",
+        "Mecamylamine (nicotinic antagonist) had no effect (P=0.465)",
+        "ACh application increased ROC from ~0.677 to ~0.826 in example cell",
+        "Mechanism involves local cortical circuitry and glutamatergic feedback, not simple gain multiplication"
+      ],
+      "coverage": ["acetylcholine-cortex", "orientation-selectivity", "v1-primary-visual-cortex", "gain-control"]
+    },
+    {
+      "id": "S2",
+      "pmid": "29311843",
+      "doi": "10.3389/fncir.2017.00078",
+      "title": "Muscarinic and Nicotinic Contribution to Contrast Sensitivity of Macaque Area V1 Neurons",
+      "authors": ["Herrero JL", "Gieselmann MA", "Thiele A"],
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2017,
+      "full_text_available": false,
+      "access_note": "Abstract only; open-access journal but full text not fetched",
+      "key_findings": [
+        "Both muscarinic and nicotinic blockade reduce V1 activity via response gain model",
+        "ACh = signal enhancement, not saliency filtering"
+      ],
+      "coverage": ["acetylcholine-cortex", "v1-primary-visual-cortex", "gain-control"]
+    },
+    {
+      "id": "S3",
+      "pmid": "16254995",
+      "title": "Adaptive gain and the role of the locus coeruleus-norepinephrine system in optimal performance",
+      "authors": ["Aston-Jones G", "Cohen JD"],
+      "journal": "Journal of Comparative Neurology",
+      "year": 2005,
+      "full_text_available": false,
+      "access_note": "Abstract only; not available in PMC",
+      "key_findings": [
+        "LC has phasic and tonic modes of activity",
+        "Phasic mode: low baseline + strong phasic responses = optimal task performance",
+        "Tonic mode: high baseline + weak phasic responses = disengagement, exploration",
+        "PFC (ACC/OFC) drives LC via top-down control based on task utility"
+      ],
+      "coverage": ["norepinephrine-locus-coeruleus", "gain-control", "working-memory"]
+    },
+    {
+      "id": "S4",
+      "pmid": "19190638",
+      "doi": "10.1038/nrn2573",
+      "title": "The locus coeruleus and noradrenergic modulation of cognition",
+      "authors": ["Sara SJ"],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2009,
+      "full_text_available": false,
+      "access_note": "Abstract only; Nature Reviews subscription required",
+      "key_findings": [
+        "LC is sole source of NE to neocortex",
+        "NE modulates attention, perception, and memory retrieval",
+        "Helps brain allocate attentional resources and organize adaptive behavior"
+      ],
+      "coverage": ["norepinephrine-locus-coeruleus", "gain-control"]
+    },
+    {
+      "id": "S5",
+      "pmid": "17920021",
+      "doi": "10.1016/j.neuron.2007.08.030",
+      "title": "Prefrontal acetylcholine release controls cue detection on multiple timescales",
+      "authors": ["Parikh V", "Kozak R", "Martinez V", "Sarter M"],
+      "journal": "Neuron",
+      "year": 2007,
+      "volume": "56",
+      "pages": "141-154",
+      "full_text_available": false,
+      "access_note": "Abstract only; Neuron subscription required",
+      "key_findings": [
+        "Phasic ACh transients in mPFC accompany successful cue detection",
+        "Not present in motor cortex (region-specific)",
+        "Pre-cue ACh level predicts subsequent detection success",
+        "Dual timescale: phasic (event) + tonic (sustained attention)"
+      ],
+      "coverage": ["acetylcholine-cortex", "gain-control"]
+    },
+    {
+      "id": "S6",
+      "pmid": "20668433",
+      "pmcid": "PMC2933140",
+      "doi": "10.1038/npp.2010.104",
+      "title": "Modes and models of forebrain cholinergic neuromodulation of cognition",
+      "authors": ["Hasselmo ME", "Sarter M"],
+      "journal": "Neuropsychopharmacology",
+      "year": 2011,
+      "volume": "36",
+      "pages": "52-73",
+      "full_text_available": false,
+      "access_note": "PMC ID listed (PMC2933140) but full text access not confirmed in this session",
+      "key_findings": [
+        "Tonic ACh: sustained attention support",
+        "Phasic ACh: cue detection and active maintenance",
+        "M1 activation enables persistent spiking (WM)",
+        "Theta rhythm mediates between cholinergic physiology and episodic/spatial memory"
+      ],
+      "coverage": ["acetylcholine-cortex", "working-memory", "theta-oscillations"]
+    },
+    {
+      "id": "S7",
+      "pmid": "30381436",
+      "pmcid": "PMC6214898",
+      "doi": "10.1523/JNEUROSCI.1707-17.2018",
+      "title": "Specific Basal Forebrain-Cortical Cholinergic Circuits Coordinate Cognitive Operations",
+      "authors": ["Záborszky L", "Gombkoto P", "Varsanyi P", "et al."],
+      "journal": "Journal of Neuroscience",
+      "year": 2018,
+      "full_text_available": false,
+      "access_note": "PMC ID listed (PMC6214898) but full text access not confirmed in this session",
+      "key_findings": [
+        "Basal forebrain cholinergic projections are highly specific, not diffuse",
+        "Different BF regions project selectively to specific cortical areas/layers",
+        "ACh can selectively modulate specific circuits, not just global broadcast"
+      ],
+      "coverage": ["acetylcholine-cortex", "neuromodulator-systems"]
+    },
+    {
+      "id": "S8",
+      "pmid": "23818597",
+      "doi": "10.1073/pnas.1221792110",
+      "title": "Nicotinic α7 receptors enhance NMDA cognitive circuits in dorsolateral prefrontal cortex",
+      "authors": ["Yang Y", "Paspalas CD", "Jin LE", "Picciotto MR", "Arnsten AFT", "Wang M"],
+      "journal": "PNAS",
+      "year": 2013,
+      "full_text_available": false,
+      "access_note": "Abstract only (摘要)",
+      "key_findings": [
+        "α7-nAChRs enriched in glutamate synapses of dlPFC",
+        "α7 blockade markedly reduced PFC visual space representation",
+        "Low-dose α7 stimulation selectively enhanced PFC representations",
+        "Mechanism: α7 facilitates NMDA engagement during high ACh states"
+      ],
+      "coverage": ["acetylcholine-cortex", "working-memory", "nmda-receptor"]
+    },
+    {
+      "id": "S9",
+      "pmid": "31260703",
+      "doi": "10.1016/j.neubiorev.2019.06.009",
+      "title": "Locus coeruleus-norepinephrine modulation of sensory processing and perception: A focused review",
+      "authors": ["McBurney-Lin J", "Lu J", "Zuo Y", "Yang H"],
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2019,
+      "full_text_available": false,
+      "access_note": "Abstract only",
+      "key_findings": [
+        "LC-NE influences cortical and subcortical sensory neurons across modalities",
+        "Framework: adrenergic receptor expression, dose-dependent physiology, E/I balance"
+      ],
+      "coverage": ["norepinephrine-locus-coeruleus", "gain-control"]
+    },
+    {
+      "id": "S10",
+      "pmid": "22866031",
+      "doi": "10.3389/fnbeh.2012.00039",
+      "title": "Beyond traditional approaches to understanding the functional role of neuromodulators in sensory cortices",
+      "authors": ["Edeline JM"],
+      "journal": "Frontiers in Behavioral Neuroscience",
+      "year": 2012,
+      "full_text_available": false,
+      "access_note": "Abstract only; open-access journal but full text not fetched in this session",
+      "key_findings": [
+        "NE and ACh facilitate evoked responses, increase signal-to-noise ratio across multiple sensory cortices",
+        "Traditional approach gap with spike timing precision concepts"
+      ],
+      "coverage": ["acetylcholine-cortex", "norepinephrine-locus-coeruleus", "gain-control"]
+    }
+  ],
+  "full_text_sources": 1,
+  "abstract_only_sources": 9,
+  "open_access_confirmed": ["S1"],
+  "official_institution_sources": [],
+  "notes": "今日文章以 Herrero et al. 2008 (PMC2666819) 为唯一经验证的开放全文来源（通过 PMC 全文 API 读取）。其余来源均依赖摘要。文章在涉及具体实验数据时（主要为 S1 的量化结果）明确标注了全文来源；其他机制描述有摘要支持。"
+}

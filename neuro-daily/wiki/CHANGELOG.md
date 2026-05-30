@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-06-12（第三周·第 6 篇，文章 #20）
+
+**源文章**：[[2026-06-12-neuromodulators-ach-ne]] —《注意的化学语言：乙酰胆碱与去甲肾上腺素如何向大脑发出行动指令》
+
+**新建页面（4）**：
+- `concepts/acetylcholine-cortex.md`（皮层乙酰胆碱）🟢 established / 置信度高 — 皮层ACh系统首个专页；基底前脑（Meynert核Ch4）解剖；M1受体（Gq→减少K⁺漏电流→促进持续放电）/M2受体（Gi→突触前自受体→负反馈）/α4β2+α7 nAChR功能分工；双时间尺度（紧张背景+相位爆发）；皮层去同步化；核心来源：Herrero 2008（PMC2666819）
+- `concepts/norepinephrine-locus-coeruleus.md`（去甲肾上腺素/蓝斑系统）🟢 established / 置信度高 — NE系统首个专页；蓝斑（LC）解剖（约5万个神经元，投射全皮层）；α2A（高亲和力Gi→HCN抑制→PFC WM稳定）/α1（低亲和力Gq→噪声增加）/β（Gs→LTP促进）三受体分工；倒U型调节曲线；相位-紧张模式（Aston-Jones & Cohen 2005）；PFC→LC自上而下控制
+- `systems/neuromodulator-systems.md`（神经调质系统总览）🟢 established / 置信度高 — 四大调质系统（ACh/NE/DA/5-HT）首个综合页；紧张 vs 相位释放区分；受体亲和力梯度；核心区别：调制"如何处理"而非"处理什么"；连接8个既有节点
+- `concepts/gain-control.md`（皮层增益控制）🟢 established / 置信度高 — 增益控制首个专页；响应增益（斜率变化）vs 对比度增益（阈值移动）；乘法性增益实现机制（M1→K⁺漏电；NE/α2A→HCN抑制）；除法归一化（PV+中间神经元）；信噪比改善；核心来源：Herrero 2008/2017、Edeline 2012
+
+**修订页面（2）**：
+- `systems/v1-primary-visual-cortex.md`（revision_count 1→2）：新增"神经调质对 V1 的调制"小节（ACh/肌碱受体介导注意调制，Herrero 2008，东莨菪碱P<0.001，美加明P=0.465，注意效应~20-50%响应增益）；related 新增 acetylcholine-cortex, gain-control；opens_questions 新增 Q-ach-ne-02；key_sources 新增 PMID:18633352；source_articles 新增 2026-06-12
+- `concepts/working-memory.md`（revision_count 3→4）：新增"NE 和 ACh 对工作记忆的调制"小节（α2A→HCN抑制→WM表征稳定；α1→噪声→应激性认知崩溃；胍法辛ADHD临床；M1→持续放电；α7-nAChR→NMDA稳定性）；related 新增 norepinephrine-locus-coeruleus, acetylcholine-cortex；key_sources 新增 PMID:16254995, PMID:23818597；source_articles 新增 2026-06-12
+
+**悬空引用新增（2）**：
+- `basal-forebrain`（被 acetylcholine-cortex/norepinephrine-locus-coeruleus 引用）— 基底前脑解剖待专页
+- `locus-coeruleus-anatomy`（被 norepinephrine-locus-coeruleus 引用）— LC详细解剖专页待建立
+
+**悬空引用解决（0）**：今日无旧悬空引用被填补。
+
+**矛盾登记（0）**：今日无新矛盾。两个现有开放矛盾（C-2026-05-24-01, C-2026-05-25-01）今日文献未直接涉及，状态不变。
+
+**图谱更新**：
+- 新节点：acetylcholine-cortex, norepinephrine-locus-coeruleus, neuromodulator-systems, gain-control（50→54 总节点）
+- 新边：22条（含 acetylcholine-cortex→v1-primary-visual-cortex(regulates)、acetylcholine-cortex→working-memory(regulates)、norepinephrine-locus-coeruleus→working-memory(regulates)、norepinephrine-locus-coeruleus→ltp(regulates)、gain-control→v1-primary-visual-cortex(mechanism-of)、neuromodulator-systems→acetylcholine-cortex(contains)等；256→278 总边数）
+- 新增悬空引用：basal-forebrain, locus-coeruleus-anatomy
+
+---
+
 ## 2026-06-11（第三周·第 5 篇，文章 #19）
 
 **源文章**：[[2026-06-11-v1-orientation-selectivity]] —《V1初级视觉皮层的方向选择性：从随机输入到精确编码》
