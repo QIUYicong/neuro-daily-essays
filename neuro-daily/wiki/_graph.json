@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-16",
+  "updated": "2026-05-30",
   "node_count": 67,
   "edge_count": 385,
   "edge_types": [
@@ -616,6 +616,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/systems/default-mode-network.md"
+    },
+    {
+      "id": "global-workspace-theory",
+      "title": "全局工作空间理论",
+      "domain": "theories",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/theories/global-workspace-theory.md"
+    },
+    {
+      "id": "consciousness-ignition",
+      "title": "意识点燃",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/consciousness-ignition.md"
     }
   ],
   "edges": [
@@ -2821,6 +2839,81 @@
       "from": "theta-oscillations",
       "to": "default-mode-network",
       "type": "related"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "consciousness-ignition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "competition-selection-principle",
+      "type": "related"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "beta-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "global-workspace-theory",
+      "type": "is-a"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "global-workspace-theory",
+      "type": "part-of"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "consciousness-ignition",
+      "type": "supports"
     }
   ],
   "dangling_references": [

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-16",
-  "total_articles": 26,
+  "last_updated": "2026-05-30",
+  "total_articles": 27,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1793,7 +1793,7 @@
     },
     {
       "date": "2026-06-16",
-      "title": "当大脑"休息"时，它在做什么？——默认模式网络与大脑内部宇宙的构建逻辑",
+      "title": "当大脑\"休息\"时，它在做什么？——默认模式网络与大脑内部宇宙的构建逻辑",
       "filename": "2026-06-16-default-mode-network.md",
       "wiki_pages_created": [
         "wiki/systems/default-mode-network.md"
@@ -1881,6 +1881,71 @@
       "mode": "long_term_curriculum",
       "article_number": 26,
       "note": "第四周第四篇（logically 2026-06-16，系统日期UTC+8 2026-05-30）。课程路线8（意识与自我）首篇文章。DMN的发现史（Raichle 2001 PET元分析）→双子系统架构（Andrews-Hanna 2011全文读取）→AD连接（Buckner 2009 Aβ优先沉积枢纽节点）→预测编码接口。方法论争议（Fox 2005 GSR）详细标注。新建1个wiki页面（systems/default-mode-network），修订3个页面，图谱新增1节点14边（总计67节点385条边）。新建Q-dmn-01到Q-dmn-04。"
+    },
+    {
+      "date": "2026-05-30",
+      "title": "当意识在大脑中「点燃」：全局工作空间理论与感知的临界翻转",
+      "filename": "2026-05-30-global-workspace-theory.md",
+      "article_number": 27,
+      "wiki_pages_created": [
+        "wiki/theories/global-workspace-theory.md",
+        "wiki/concepts/consciousness-ignition.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/default-mode-network.md",
+        "wiki/theories/predictive-coding.md",
+        "wiki/systems/prefrontal-cortex.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "当一个感觉刺激从「大脑正在无意识地处理它」瞬间跃变为「我清晰地知觉到了它」，那约 300 毫秒，大脑发生了什么？",
+      "layer": [
+        "whole_brain_network",
+        "cognition",
+        "brain_region"
+      ],
+      "curriculum_track": "8. 意识与自我（第二篇）",
+      "topic_tags": [
+        "global workspace theory",
+        "GWT",
+        "GNW",
+        "ignition",
+        "consciousness",
+        "Dehaene",
+        "Changeux",
+        "attentional blink",
+        "P3 wave",
+        "prefrontal cortex consciousness",
+        "IIT vs GWT",
+        "COGITATE 2025",
+        "adversarial collaboration",
+        "subliminal preconscious conscious"
+      ],
+      "main_sources": [
+        "PMID:32135090 (PMC8770991, Mashour et al. 2020 Neuron, 开放全文)",
+        "PMID:24709604 (PMC5635963, Dehaene et al. 2014 Curr Opin Neurobiol, 开放全文)",
+        "PMID:40307561 (PMC12137136, Cogitate Consortium 2025 Nature, 开放全文)",
+        "PMID:36763595 (Melloni et al. 2023 PLoS One, 开放全文)",
+        "PMID:21521609 (Dehaene & Changeux 2011 Neuron, HAL PDF)",
+        "PMID:16158062 (Sergent, Baillet, Dehaene 2005 Nat Neurosci, 摘要)",
+        "PMID:15482443 (Sergent & Dehaene 2004 Psychol Sci, 摘要)",
+        "PMID:29567809 (van Vugt et al. 2018 Science, 摘要)",
+        "PMID:9826734 (Dehaene et al. 1998 PNAS, 开放全文)"
+      ],
+      "unresolved_questions": [
+        "Q-gwt-01: P3b是意识本身的标志，还是意识后的报告/决策标志？",
+        "Q-gwt-02: PFC在点燃中的精确角色——触发器、维持者还是报告系统？",
+        "Q-gwt-03: 意识真的是全有全无的吗？",
+        "Q-gwt-04: GWT与预测编码能否整合为统一框架？",
+        "Q-gwt-05: GWT如何解释无前额叶生物（昆虫、章鱼等）的意识？"
+      ],
+      "next_suggested_topics": [
+        "整合信息理论（IIT）：Phi度量、后部皮层热区、与GWT的根本分歧",
+        "注意瞬盲的精细机制：竞争模型 vs 工作空间容量模型",
+        "主动推断与自由能原理：从预测编码到GWT的统一框架",
+        "麻醉意识：全麻药物破坏前额顶叶连接的机制"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "第27篇，logically 2026-06-17，系统日期UTC+8 2026-05-30。课程路线8（意识与自我）第二篇。新建2个wiki页面，修订3个页面。图谱：69节点，400条边。Q-dmn-04部分解答。"
     }
   ],
   "layer_coverage_recent": {
@@ -1961,5 +2026,5 @@
       "2026-06-12"
     ]
   },
-  "layer_note": "2026-06-16（默认模式网络DMN）：开启课程路线8（意识与自我）！覆盖 whole-brain-network（DMN/TPN反相关、双子系统架构）/brain-region（mPFC/PCC/MTL/IPL/TPJ解剖节点）/cognition（情节记忆/心智化/心理时间旅行/意识游走）/behavior（内外切换/自发思想）/disease（Aβ优先沉积DMN枢纽）五层。以 Andrews-Hanna 2011（PMC3553600全文读取）为双子系统主要来源。新建1个wiki页面，修订3个页面，添加14条图谱边；知识图谱：67节点、385条边。"
+  "layer_note": "2026-05-30（全局工作空间理论/意识点燃）：课程路线8第二篇。覆盖 whole-brain-network/brain-region/cognition 三层。图谱：69节点、400条边。"
 }

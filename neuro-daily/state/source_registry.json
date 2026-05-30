@@ -3339,8 +3339,16 @@
       "authors": "Raichle ME et al.",
       "year": 2001,
       "journal": "PNAS",
-      "used_in": ["2026-06-16-default-mode-network"],
-      "covers": ["default mode discovery", "PET meta-analysis", "task-induced deactivation", "medial prefrontal cortex", "posterior cingulate"],
+      "used_in": [
+        "2026-06-16-default-mode-network"
+      ],
+      "covers": [
+        "default mode discovery",
+        "PET meta-analysis",
+        "task-induced deactivation",
+        "medial prefrontal cortex",
+        "posterior cingulate"
+      ],
       "notes": "奠基论文；摘要"
     },
     {
@@ -3349,8 +3357,15 @@
       "authors": "Fox MD et al.",
       "year": 2005,
       "journal": "PNAS",
-      "used_in": ["2026-06-16-default-mode-network"],
-      "covers": ["DMN-TPN anticorrelation", "resting-state fMRI", "functional connectivity", "global signal regression controversy"],
+      "used_in": [
+        "2026-06-16-default-mode-network"
+      ],
+      "covers": [
+        "DMN-TPN anticorrelation",
+        "resting-state fMRI",
+        "functional connectivity",
+        "global signal regression controversy"
+      ],
       "notes": "反相关奠基论文；GSR方法论争议；摘要"
     },
     {
@@ -3359,8 +3374,16 @@
       "authors": "Buckner RL, Andrews-Hanna JR, Schacter DL",
       "year": 2008,
       "journal": "Ann NY Acad Sci",
-      "used_in": ["2026-06-16-default-mode-network"],
-      "covers": ["DMN anatomy", "DMN function review", "episodic memory", "mental simulation", "disease relevance"],
+      "used_in": [
+        "2026-06-16-default-mode-network"
+      ],
+      "covers": [
+        "DMN anatomy",
+        "DMN function review",
+        "episodic memory",
+        "mental simulation",
+        "disease relevance"
+      ],
       "notes": "重要综述；摘要"
     },
     {
@@ -3369,8 +3392,16 @@
       "authors": "Buckner RL et al.",
       "year": 2009,
       "journal": "J Neurosci",
-      "used_in": ["2026-06-16-default-mode-network"],
-      "covers": ["DMN hub nodes", "amyloid beta deposition", "PCC mPFC vulnerability", "Alzheimer's disease", "functional connectivity hubs"],
+      "used_in": [
+        "2026-06-16-default-mode-network"
+      ],
+      "covers": [
+        "DMN hub nodes",
+        "amyloid beta deposition",
+        "PCC mPFC vulnerability",
+        "Alzheimer's disease",
+        "functional connectivity hubs"
+      ],
       "notes": "Aβ优先沉积DMN枢纽节点；摘要"
     },
     {
@@ -3380,8 +3411,18 @@
       "authors": "Andrews-Hanna JR, Reidler JS, Sepulcre J, Poulin R, Buckner RL",
       "year": 2011,
       "journal": "Neuron",
-      "used_in": ["2026-06-16-default-mode-network"],
-      "covers": ["DMN subsystems", "MTL subsystem", "dMPFC subsystem", "scene construction", "mentalizing", "aMPFC hub", "PCC hub"],
+      "used_in": [
+        "2026-06-16-default-mode-network"
+      ],
+      "covers": [
+        "DMN subsystems",
+        "MTL subsystem",
+        "dMPFC subsystem",
+        "scene construction",
+        "mentalizing",
+        "aMPFC hub",
+        "PCC hub"
+      ],
       "notes": "双子系统架构核心文献；开放全文（PMC3553600）读取"
     },
     {
@@ -3390,8 +3431,15 @@
       "authors": "Andrews-Hanna JR et al.",
       "year": 2014,
       "journal": "Psychol Inq",
-      "used_in": ["2026-06-16-default-mode-network"],
-      "covers": ["DMN subsystems 2014", "goal-directed cognition", "constructive episodic simulation", "dMPFC subsystem"],
+      "used_in": [
+        "2026-06-16-default-mode-network"
+      ],
+      "covers": [
+        "DMN subsystems 2014",
+        "goal-directed cognition",
+        "constructive episodic simulation",
+        "dMPFC subsystem"
+      ],
       "notes": "子系统后续综述；摘要"
     },
     {
@@ -3400,8 +3448,16 @@
       "authors": "Smallwood J et al.",
       "year": 2015,
       "journal": "Nat Neurosci (Review)",
-      "used_in": ["2026-06-16-default-mode-network"],
-      "covers": ["mind-wandering", "self-referential processing", "DMN suppression failure", "depression", "rumination"],
+      "used_in": [
+        "2026-06-16-default-mode-network"
+      ],
+      "covers": [
+        "mind-wandering",
+        "self-referential processing",
+        "DMN suppression failure",
+        "depression",
+        "rumination"
+      ],
       "notes": "DMN病理相关；摘要"
     },
     {
@@ -3411,8 +3467,16 @@
       "authors": "Molnar-Szakacs I, Uddin LQ",
       "year": 2013,
       "journal": "Front Hum Neurosci",
-      "used_in": ["2026-06-16-default-mode-network"],
-      "covers": ["DMN self-processing", "mirror neuron system", "social cognition", "self-referential", "dMPFC"],
+      "used_in": [
+        "2026-06-16-default-mode-network"
+      ],
+      "covers": [
+        "DMN self-processing",
+        "mirror neuron system",
+        "social cognition",
+        "self-referential",
+        "dMPFC"
+      ],
       "notes": "第二篇开放全文（PMC3769892）；自我处理与镜像神经元系统"
     },
     {
@@ -3421,9 +3485,181 @@
       "authors": "Leech R, Sharp DJ",
       "year": 2014,
       "journal": "Brain",
-      "used_in": ["2026-06-16-default-mode-network"],
-      "covers": ["PCC function", "DMN hub", "attentional control", "consciousness", "Alzheimer's disease"],
+      "used_in": [
+        "2026-06-16-default-mode-network"
+      ],
+      "covers": [
+        "PCC function",
+        "DMN hub",
+        "attentional control",
+        "consciousness",
+        "Alzheimer's disease"
+      ],
       "notes": "PCC作为DMN枢纽节点的综述；摘要"
+    },
+    {
+      "pmid": "32135090",
+      "pmcid": "PMC8770991",
+      "title": "Conscious Processing and the Global Neuronal Workspace Hypothesis",
+      "authors": "Mashour GA, Roelfsema P, Changeux JP, Dehaene S",
+      "journal": "Neuron",
+      "year": 2020,
+      "open_access": true,
+      "full_text_read": true,
+      "first_used": "2026-05-30",
+      "used_in_articles": [
+        "2026-05-30-global-workspace-theory"
+      ],
+      "covers": [
+        "GNW theory review",
+        "ignition mechanism",
+        "three neural signatures",
+        "GWT vs IIT"
+      ]
+    },
+    {
+      "pmid": "24709604",
+      "pmcid": "PMC5635963",
+      "title": "Toward a computational theory of conscious processing",
+      "authors": "Dehaene S, Charles L, King JR, Marti S",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2014,
+      "open_access": true,
+      "full_text_read": true,
+      "first_used": "2026-05-30",
+      "used_in_articles": [
+        "2026-05-30-global-workspace-theory"
+      ],
+      "covers": [
+        "subliminal/preconscious/conscious taxonomy",
+        "P3 wave",
+        "computational framework"
+      ]
+    },
+    {
+      "pmid": "40307561",
+      "pmcid": "PMC12137136",
+      "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": "Cogitate Consortium",
+      "journal": "Nature",
+      "year": 2025,
+      "open_access": true,
+      "full_text_read": true,
+      "first_used": "2026-05-30",
+      "used_in_articles": [
+        "2026-05-30-global-workspace-theory"
+      ],
+      "covers": [
+        "GNW vs IIT adversarial test",
+        "COGITATE 2025 results",
+        "both theories challenged"
+      ]
+    },
+    {
+      "pmid": "36763595",
+      "title": "An adversarial collaboration protocol for testing contrasting predictions of GNW and IIT",
+      "authors": "Melloni L, Mudrik L, Pitts M, et al.",
+      "journal": "PLoS One",
+      "year": 2023,
+      "open_access": true,
+      "full_text_read": true,
+      "first_used": "2026-05-30",
+      "used_in_articles": [
+        "2026-05-30-global-workspace-theory"
+      ],
+      "covers": [
+        "adversarial collaboration protocol",
+        "GNW predictions",
+        "IIT predictions"
+      ]
+    },
+    {
+      "pmid": "21521609",
+      "title": "Experimental and theoretical approaches to conscious processing",
+      "authors": "Dehaene S, Changeux JP",
+      "journal": "Neuron",
+      "year": 2011,
+      "open_access": false,
+      "full_text_read": false,
+      "first_used": "2026-05-30",
+      "used_in_articles": [
+        "2026-05-30-global-workspace-theory"
+      ],
+      "covers": [
+        "GNW comprehensive review 2011",
+        "ignition definition",
+        "P3b as ignition marker"
+      ]
+    },
+    {
+      "pmid": "16158062",
+      "title": "Timing of the brain events underlying access to consciousness during the attentional blink",
+      "authors": "Sergent C, Baillet S, Dehaene S",
+      "journal": "Nature Neuroscience",
+      "year": 2005,
+      "open_access": false,
+      "full_text_read": false,
+      "first_used": "2026-05-30",
+      "used_in_articles": [
+        "2026-05-30-global-workspace-theory"
+      ],
+      "covers": [
+        "attentional blink MEG",
+        "~270ms bifurcation",
+        "P1/N1 identical"
+      ]
+    },
+    {
+      "pmid": "15482443",
+      "title": "Is consciousness a gradual phenomenon? Evidence for an all-or-none bifurcation",
+      "authors": "Sergent C, Dehaene S",
+      "journal": "Psychological Science",
+      "year": 2004,
+      "open_access": false,
+      "full_text_read": false,
+      "first_used": "2026-05-30",
+      "used_in_articles": [
+        "2026-05-30-global-workspace-theory"
+      ],
+      "covers": [
+        "behavioral evidence for all-or-none consciousness",
+        "bimodal distribution"
+      ]
+    },
+    {
+      "pmid": "29567809",
+      "title": "The threshold for conscious report: Signal loss and response bias in visual and frontal cortex",
+      "authors": "van Vugt B, et al.",
+      "journal": "Science",
+      "year": 2018,
+      "open_access": false,
+      "full_text_read": false,
+      "first_used": "2026-05-30",
+      "used_in_articles": [
+        "2026-05-30-global-workspace-theory"
+      ],
+      "covers": [
+        "macaque single unit recording",
+        "PFC sustained firing for perceived stimuli only"
+      ]
+    },
+    {
+      "pmid": "9826734",
+      "pmcid": "PMC24407",
+      "title": "A neuronal model of a global workspace in effortful cognitive tasks",
+      "authors": "Dehaene S, Kerszberg M, Changeux JP",
+      "journal": "PNAS",
+      "year": 1998,
+      "open_access": true,
+      "full_text_read": false,
+      "first_used": "2026-05-30",
+      "used_in_articles": [
+        "2026-05-30-global-workspace-theory"
+      ],
+      "covers": [
+        "founding neural GWT model",
+        "workspace neurons with long-range axons"
+      ]
     }
   ],
   "total_sources": 159

@@ -6,10 +6,10 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-05
-revision_count: 1
+updated: 2026-05-30
+revision_count: 2
 dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
 opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity]
 source_articles: [2026-06-05-prefrontal-working-memory]
@@ -69,6 +69,8 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - [[gamma-oscillations]] — dlPFC 中 γ 爆发是工作记忆的振荡载体
 - [[pv-interneurons]] — dlPFC 中 PV 篮状细胞生成 γ，调控工作记忆时序
 - [[memory-consolidation]] — PFC 是记忆巩固后远端记忆的皮层存储库
+- [[global-workspace-theory]] — dlPFC 是全局工作空间神经元的核心解剖节点；参与意识点燃的广播
+- [[consciousness-ignition]] — 意识点燃在 PFC 的神经基础：只有被感知刺激触发 dlPFC 持续放电（van Vugt et al. 2018）
 
 ## 未解问题
 
@@ -78,6 +80,7 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 ## 修订历史
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文
+- 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 新增 dlPFC 在全局工作空间点燃中的角色；添加 global-workspace-theory 和 consciousness-ignition 到 related；新增猕猴 van Vugt 2018 证据
 
 ## 来源文章
 

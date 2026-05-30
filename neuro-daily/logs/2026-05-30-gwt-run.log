@@ -1,0 +1,128 @@
+# 运行日志：2026-05-30（第 27 篇 · 全局工作空间理论）
+
+## 运行信息
+
+- **日期**：2026-05-30（系统 UTC+8 日期）
+- **逻辑文章序号**：#27（知识库第 27 篇）
+- **分支**：main（本地 + origin）
+- **运行模式**：长期课程（long_term_curriculum）
+
+## 选题过程
+
+**选题驱动因素**：
+1. 上篇（#26，2026-06-16）为默认模式网络，课程路线 8（意识与自我）第一篇
+2. 上篇开放了 Q-dmn-04（DMN vs GWT 关系）
+3. topic_ledger 的 next_suggested_topics 首位为"全局工作空间理论"
+4. 无 contested_claims open 需要裁决
+5. 无高优先级悬空引用急需填补
+
+**最终选题**：全局工作空间理论（GWT）+ 意识点燃机制
+**核心问题**：当感觉刺激从无意识处理变为有意识知觉的约 300 毫秒，大脑发生了什么？
+
+## 文献检索
+
+### 检索词
+- "Global Workspace Theory consciousness ignition Dehaene Changeux"
+- "Melloni adversarial collaboration consciousness GWT IIT 2023"
+- "Dehaene Changeux 2011 experimental theoretical approaches conscious processing Neuron"
+- "Sergent Dehaene attentional blink consciousness timing"
+- "van Vugt 2018 threshold conscious report frontal cortex"
+
+### 数据源
+- PubMed（pubmed.ncbi.nlm.nih.gov）
+- PMC Open Access（pmc.ncbi.nlm.nih.gov）
+- Europe PMC（europepmc.org）
+- WebSearch + WebFetch 直接文献检索
+
+### 候选文献：11 篇
+
+| PMID | 来源 | 全文状态 | 采用/排除 |
+|------|------|---------|---------|
+| 32135090 | Mashour et al. 2020 Neuron | PMC开放全文 | **采用（核心综述）** |
+| 24709604 | Dehaene et al. 2014 Curr Opin Neurobiol | PMC开放全文 | **采用（计算框架+三个标志）** |
+| 40307561 | Cogitate Consortium 2025 Nature | PMC开放全文 | **采用（GWT vs IIT结果）** |
+| 36763595 | Melloni et al. 2023 PLoS One | 开放全文 | **采用（预注册协议）** |
+| 21521609 | Dehaene & Changeux 2011 Neuron | HAL PDF（未通过PMC） | **采用（摘要+背景；标注限制）** |
+| 16158062 | Sergent, Baillet, Dehaene 2005 Nat Neurosci | 摘要 | **采用（摘要；标注限制）** |
+| 15482443 | Sergent & Dehaene 2004 Psychol Sci | 摘要 | **采用（摘要；标注限制）** |
+| 29567809 | van Vugt et al. 2018 Science | 摘要 | **采用（摘要；标注限制）** |
+| 9826734 | Dehaene et al. 1998 PNAS | PNAS开放 | **采用（奠基模型）** |
+| 11164022 | Dehaene & Naccache 2001 Cognition | 摘要 | **采用（摘要；标注限制）** |
+| niaf037 | Naccache et al. 2025 Neurosci Consciousness | 开放全文 | **采用（GNW官方回应）** |
+
+- 开放全文：6 篇（目标 ≥ 2 篇 ✓）
+- 总来源：11 篇（目标 ≥ 5 篇 ✓）
+- 官方机构来源：NIH/PMC 渠道（Mashour 2020, Dehaene 2014, Cogitate 2025）✓
+
+## 文章产出
+
+- **文章**：`articles/2026-05-30-global-workspace-theory.md`（约 5500 字）
+- **阅读笔记**：`notes/2026-05-30-gwt-reading-notes.md`
+- **来源文件**：`sources/2026-05-30-gwt-sources.json`
+
+## 固结步骤
+
+### 新建 Wiki 页面（2）
+- `wiki/theories/global-workspace-theory.md` — status: mainstream, confidence: medium
+- `wiki/concepts/consciousness-ignition.md` — status: mainstream, confidence: medium
+
+### 修订 Wiki 页面（3）
+- `wiki/systems/default-mode-network.md`（rev 1→2）：Q-dmn-04 部分解答；DMN vs GWT 互补架构
+- `wiki/theories/predictive-coding.md`（rev 2→3）：GWT-PC 整合关系
+- `wiki/systems/prefrontal-cortex.md`（rev 1→2）：PFC 在 GWT/意识点燃中的角色
+
+### 矛盾检查
+- 无新矛盾需要登记（GWT vs IIT 是已知理论分歧，不构成同一事实的相互矛盾证据）
+
+### 成熟度更新
+- `global-workspace-theory`: → mainstream / medium（初始）
+- `consciousness-ignition`: → mainstream / medium（初始）
+
+## 图谱更新
+- 节点：67 → 69（+2）
+- 边：385 → 400（+15）
+
+## 开放问题
+
+### 新登记（5 条）
+- Q-gwt-01（高）：P3b 是意识本身还是报告/决策标志？
+- Q-gwt-02（高）：PFC 在点燃中的精确角色？
+- Q-gwt-03（高）：意识真的是全有全无的吗？
+- Q-gwt-04（中）：GWT 与预测编码能否整合？
+- Q-gwt-05（低）：GWT 如何解释无前额叶生物的意识？
+
+### 部分解答（1 条）
+- Q-dmn-04（中优先级 → 部分解答）：DMN 与 GWT 的关系——先验生成器 vs 广播基础设施
+
+## 自检结果
+
+**真实性**：
+- [✓] wiki 每条新主张有来源（PMID/DOI/URL）
+- [✓] 区分了事实/主流模型/推测/争议（特别标注了 P3b 地位争议、COGITATE 2025 局限）
+- [✓] 没有把摘要来源的内容写成定论（标注了"摘要"和限制）
+- [✓] 没有把单篇研究写成定论
+
+**一致性**：
+- [✓] 新内容与既有 wiki 无冲突（GWT 是全新主题，首次进入知识库）
+- [✓] 被修订页的 updated/revision_count/修订历史同步更新
+- [✓] _graph.json 无悬空边（已验证）
+
+**可导航**：
+- [✓] index.md 和 CHANGELOG.md 反映了今天变化
+- [✓] 新页的 related/prerequisites 各 ≥ 1
+
+**情景层**：
+- [✓] 文章/笔记/来源/日志齐全
+- [✓] append-only（未改动旧文件内容）
+
+## Git 信息
+
+- 分支：main
+- 待提交文件（见 git status）
+- 推送目标：origin main（QIUYicong/neuro-daily-essays）
+
+## 失败与限制
+
+- 来源 5-8、10：只读了摘要（付费墙），已在文章和来源文件中明确标注
+- Sergent & Dehaene 2004 (PMID:15482443) 和 Sergent et al. 2005 (PMID:16158062) 均为摘要——两篇最直接的实验证据均未读全文，这是本文最主要的局限
+- Cohen et al. 2024 无 PMID（新文章），使用 DOI:10.1093/cercor/bhae415

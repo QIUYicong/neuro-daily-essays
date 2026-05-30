@@ -6,10 +6,10 @@ type: theory
 status: mainstream
 confidence: high
 created: 2026-06-16
-updated: 2026-06-16
-revision_count: 1
+updated: 2026-05-30
+revision_count: 2
 dimensions: [whole-brain-network, cognition, behavior, brain-region]
-related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala]
+related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala, global-workspace-theory]
 prerequisites: [hippocampal-circuit, working-memory, predictive-coding]
 opens_questions: [Q-dmn-01, Q-dmn-02, Q-dmn-03, Q-dmn-04]
 source_articles: [2026-06-16-default-mode-network]
@@ -31,6 +31,8 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 当外部任务激活任务正向网络（TPN），突显网络（SN）主动压制 DMN，形成内-外切换的拮抗结构。DMN 与 TPN 在静息状态下呈功能性反相关（Fox 2005），两者的反相关强度与认知控制能力正相关。
 
 从预测编码视角看，DMN 可能扮演**高层先验生成器**的角色——持续从情节记忆中提取对世界的预期，为外部感知提供先验。
+
+与全局工作空间理论（GWT）的关系（Q-dmn-04 部分解答）：DMN（mPFC/PCC/MTL）和全局工作空间网络（dlPFC/IPS/ACC）在拓扑上**互补而非对立**。DMN 是内部内容的**先验生成器**——提供情节记忆、自我模型和场景构建材料；全局工作空间是**广播基础设施**——将选中的内容（无论来自外部感知还是 DMN 内部产生）广播至全脑。意识可以照亮 DMN 产生的内容（想象、梦境、反刍），也可以照亮外部感知。两者的切换（TPN 主导 vs. DMN 主导）反映的是广播内容来源的切换，而非广播基础设施本身的开关。
 
 在阿尔茨海默病中，淀粉样蛋白（Aβ）优先沉积在 DMN 的枢纽节点（PCC、mPFC），与这些区域高代谢活动有关（Buckner 2009）。这解释了 AD 为何最早损害情节记忆和自我叙事连续性。
 
@@ -82,18 +84,21 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 - [[prefrontal-cortex]] — mPFC 是 DMN 枢纽和 dMPFC 子系统的核心节点
 - [[amygdala]] — 杏仁核情绪信息通过 BLA→mPFC 通路影响 DMN 自我相关处理
 - [[competition-selection-principle]] — DMN-TPN 反相关是脑内竞争-遴选的全脑网络层实例
+- [[global-workspace-theory]] — DMN 是先验生成器，GWT 工作空间是广播基础设施；互补关系（Q-dmn-04 部分解答）
 
 ## 未解问题
 
 - **Q-dmn-01**（高优先级）：DMN-TPN 反相关在无 GSR 处理下的真实强度和功能意义
 - **Q-dmn-02**（高优先级）：DMN 两个子系统的边界究竟有多清晰？心智化和场景构建是否共享底层机制？
 - **Q-dmn-03**（高优先级）：DMN 压制的缺失（如抑郁状态的反刍、精神分裂症）是原因还是结果？
-- **Q-dmn-04**（中优先级）：DMN 与全局工作空间（GWT）的精确关系——两者在哪里重叠、哪里独立？
+- **Q-dmn-04**（中优先级 → 部分解答）：DMN 与全局工作空间（GWT）的精确关系——两者在哪里重叠、哪里独立？*2026-05-30 部分解答：DMN=先验生成器，GWT=广播基础设施，互补关系；但两者的精确神经重叠（如 mPFC、ACC 同时参与两个网络的边界）有待进一步澄清。*
 
 ## 修订历史
 
 - 2026-06-16 · 创建 · 基于《当大脑"休息"时，它在做什么？》一文 · 初始置信度：高（核心解剖和功能已确立）；子系统边界：中
+- 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 部分回应 Q-dmn-04：DMN 作为先验生成器 vs 全局工作空间作为广播基础设施的互补架构；添加 global-workspace-theory 到 related；更新当前理解段落
 
 ## 来源文章
 
 - [[2026-06-16-default-mode-network]]
+- [[2026-05-30-global-workspace-theory]]

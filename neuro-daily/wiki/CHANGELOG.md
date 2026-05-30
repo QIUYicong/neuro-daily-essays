@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-05-30（第 27 篇·意识·全局工作空间理论，课程路线8第二篇）
+
+**源文章**：[[2026-05-30-global-workspace-theory]] —《当意识在大脑中"点燃"：全局工作空间理论与感知的临界翻转》
+
+**新建页面（2）**：
+- `theories/global-workspace-theory.md`（全局工作空间理论）🔵 mainstream / 置信度中 — Baars（1988）认知GWT → Dehaene-Changeux（1998–2011）神经GWT；点燃机制；三个意识神经标志；GWT vs IIT 2025年COGITATE对抗性合作结果（两者均受挑战）；课程路线8第二篇
+- `concepts/consciousness-ignition.md`（意识点燃）🔵 mainstream / 置信度中 — 全有或全无的非线性临界翻转；~270-300ms 前额顶叶激活；双触发条件（感觉超阈 + 注意可用）；注意瞬盲范式的黄金证据（Sergent et al. 2005）；P3b EEG标志（Cohen et al. 2024 无报告范式挑战其地位）
+
+**修订页面（3）**：
+- `systems/default-mode-network.md`（revision 1→2）：部分回应 Q-dmn-04；添加 DMN（先验生成器）vs GWT工作空间（广播基础设施）的互补架构描述；related 新增 global-workspace-theory
+- `theories/predictive-coding.md`（revision 2→3）：添加 GWT-预测编码整合：足够大的预测误差可能触发工作空间点燃；related 新增 global-workspace-theory
+- `systems/prefrontal-cortex.md`（revision 1→2）：添加 dlPFC 在 GWT 点燃中的角色；related 新增 global-workspace-theory 和 consciousness-ignition；新增 van Vugt 2018 猕猴证据
+
+**矛盾登记（0）**：无新矛盾（GWT vs IIT 的争议已作为已知理论分歧记录在文章中，不需要在矛盾登记册中作为新条目，因为这是理论间分歧而非同一事实的相互矛盾证据）
+
+**新增悬空引用（待补缺口）**：
+- `attentional-blink`（注意瞬盲）— 被 GWT 和 consciousness-ignition 页引用
+- `p3-wave`（P3波）— 被 consciousness-ignition 页引用
+
+**图谱更新**：69 节点，400 条边（+2 节点，+15 边）
+
+---
+
 ## 2026-06-16（第 26 篇·全脑网络·默认模式网络，课程路线8开篇）
 
 **源文章**：[[2026-06-16-default-mode-network]] —《当大脑"休息"时，它在做什么？——默认模式网络与大脑内部宇宙的构建逻辑》
