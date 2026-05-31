@@ -614,6 +614,38 @@
       "confidence": "medium",
       "last_changed": "2026-05-31",
       "reason": "Created 2026-05-31. Core concept (REM selectively weakens emotional tone while preserving information content) supported by convergent behavioral and neuroimaging evidence (Walker 2009, van der Helm 2011). Proposed LTD-like mechanism (theta trough-driven synaptic weakening at LA) is theoretically coherent (Poe 2017) but lacks direct synaptic evidence in LA-VH circuit. PTSD as depotentiation failure: plausible but mechanistically unproven. Status: emerging (well-supported phenomenology, incomplete mechanistic chain). Anticipate upgrade to mainstream when LA-specific theta-phase LTD is demonstrated."
+    },
+    {
+      "slug": "radial-glia",
+      "page": "wiki/neurons/radial-glia.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-05-31",
+      "reason": "Created 2026-05-31 (article #37). Radial glia as primary cortical progenitors: textbook consensus established by decades of lineage tracing, imaging, and molecular biology. IKNM mechanism (dynein/kinesin driven, coupled to cell cycle): established. Pax6→Tbr2→Tbr1 cascade: established (ChIP-seq + conditional KO, PMID:30186101). Neurogenesis-gliogenesis switch via Gli3/Olig2: established in mouse, strong conservation evidence in human (PMID:38713624)."
+    },
+    {
+      "slug": "outer-radial-glia",
+      "page": "wiki/neurons/outer-radial-glia.md",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-05-31",
+      "reason": "Created 2026-05-31 (article #37). oRG existence in human OSVZ: established (Hansen 2010, PMID:20154730; live imaging + lineage tracing). oRG self-renewal and neurogenic capacity: established. MST behavior: established (Betizeau 2013, PMID:24523546). Caveat: oRG abundance ≠ sufficient condition for gyrification (marmoset has abundant oRG but is lissencephalic, PMID:22116731). oRG-to-gyrification causal mechanism (Q-neuro-01) remains open → status: mainstream (not established)."
+    },
+    {
+      "slug": "cortical-neurogenesis",
+      "page": "wiki/concepts/cortical-neurogenesis.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-05-31",
+      "reason": "Created 2026-05-31 (article #37). Inside-out gradient (birth order→layer): established (Rakic 1974/2007 primate pulse-labeling, PMID:17467805). Tbr2+ IP contributing ~67.5% neocortical projection neurons: established (lineage tracing, PMID:37488873). Direct vs indirect neurogenesis: established. Layer-specific TF cascade (Fezf2/Ctip2/Satb2/Tbr1): established. Gli3/Olig2 switch: established in mouse (PMID:38713624), conserved in human genome. Open questions on human-specific mechanisms (Q-neuro-03/04) do not undermine core framework."
+    },
+    {
+      "slug": "notch2nl",
+      "page": "wiki/concepts/notch2nl.md",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-05-31",
+      "reason": "Created 2026-05-31 (article #37). NOTCH2NL as human-specific (and Neanderthal) Notch paralog: established by genome sequencing (PMID:29856955). Mechanism (reduces DLL1 availability → activates Notch → prolongs self-renewal): established in iPSC organoids (×3 clone expansion). 1q21.1 CNV clinical evidence (deletion→microcephaly, duplication→macrocephaly): established in large cohorts. Evolutionary timeline (~3-4 Mya): high confidence. Whether NOTCH2NL alone suffices to explain full OSVZ expansion (Q-neuro-03): open → status: mainstream (not established, given incomplete mechanistic picture)."
     }
   ]
 }

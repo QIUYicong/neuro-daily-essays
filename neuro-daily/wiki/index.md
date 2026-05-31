@@ -5,12 +5,14 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-05-31（第36篇·注意瞬盲·填补 Q-gwt-02+Q-cogitate-02）· 主题页总数：84（新建1页：attentional-blink；修订2页：global-workspace-theory rev5, consciousness-ignition rev4）
+> 最后更新：2026-05-31（第37篇·皮层神经发生·课程路线2首篇·切换至分子/细胞层）· 主题页总数：88（新建4页：cortical-neurogenesis, radial-glia, outer-radial-glia, notch2nl；图谱88节点511条边）
 
 ---
 
 ## neurons（神经元）
 
+- 🟢 [径向神经胶质细胞](neurons/radial-glia.md) — 皮层发育的双重主角：神经元祖先 + 迁移骨架；通过 Pax6→Tbr2→Tbr1 级联和时间程序建造六层皮层 **[NEW 2026-05-31]**
+- 🔵 [外径向神经胶质细胞（oRG）](neurons/outer-radial-glia.md) — 人类/灵长类 OSVZ 的放大祖细胞，无顶端附着，有 MST 分裂行为，可能是皮层体积扩张的关键细胞类型 **[NEW 2026-05-31]**
 - 🟢 [动作电位](neurons/action-potential.md) — 神经系统的基本信息单位，全或无脉冲（修订3次）
 - 🟢 [轴突始段 (AIS)](neurons/axon-initial-segment.md) — 动作电位的诞生地与神经元决策中枢
 - 🟢 [电压门控钠通道](neurons/voltage-gated-sodium-channel.md) — 动作电位上升相的分子引擎
@@ -38,6 +40,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [皮层神经发生](concepts/cortical-neurogenesis.md) — 「时间即命运」：皮层六层按出生时间内-外排列；vRG/IP/oRG 三类祖细胞分工；Pax6→Tbr2→Tbr1 表观遗传级联；人类 NOTCH2NL 延长自我更新 **[NEW 2026-05-31]**
+- 🔵 [NOTCH2NL（人类皮层扩张基因）](concepts/notch2nl.md) — 人类（和 Neanderthal）特异性 Notch 旁系同源基因；拷贝数直接调控脑容量（缺失→小头症，重复→大头症）**[NEW 2026-05-31]**
 - 🟢 [Hodgkin-Huxley 模型](concepts/hodgkin-huxley-model.md) — 动作电位的定量数学框架
 - 🟢 [SNARE复合体](concepts/SNARE-complex.md) — 突触囊泡融合的核心分子机器（四螺旋束拉链）
 - 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP（修订4次）
@@ -122,6 +126,7 @@
 | 课程主题 | 状态 |
 |---------|------|
 | 1. 神经元如何工作 | 🔵 进行中（已覆盖：AIS, 动作电位, 突触传递, NMDA/AMPA 受体, CaMKII, 树突计算, 锥体神经元, 电压门控钙通道, PV+/SST+/VIP+ 中间神经元, 去抑制回路, **LTD（长时程抑制）**, **短时程突触可塑性（STP）**, **神经调质 ACh/NE（2026-06-12）**, **血清素系统/5-HT1A自受体（2026-06-13）**；待覆盖：多巴胺系统深度） |
+| 2. 神经网络如何建成（发育）| 🔵 **开始**（已覆盖：**皮层神经发生（径向神经胶质、oRG、NOTCH2NL，2026-05-31）**；待覆盖：轴突导向、突触修剪、髓鞘化、关键期）|
 | 2. 神经网络微回路设计 | 🔵 进行中（已覆盖：PV+/SST+/VIP+ 中间神经元, 去抑制回路；待覆盖：皮层柱结构, 前馈/反馈抑制, 神经调质调节） |
 | 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：场所细胞, 网格细胞, θ振荡/相位编码, **V1方向选择性（2026-06-11）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
 | 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**；待覆盖：记忆提取机制）|

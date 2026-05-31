@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-05-31（第 37 篇·皮层神经发生·课程路线2首篇·切换分子/细胞层·新建4页）
+
+**源文章**：[[2026-05-31-cortical-neurogenesis-radial-glia]] —《诞生的顺序就是命运：径向神经胶质细胞如何在时间中建造大脑皮层的六层结构》
+
+**新建页面（4）**：
+- `concepts/cortical-neurogenesis.md`（皮层神经发生）🟢 established / 置信度高 — 「时间即命运」原则：VZ 祖细胞的时间序列产生各层；内-外梯度（内-first deep，外-later superficial）；三类祖细胞（vRG/IP/oRG）分工；Pax6→Tbr2→Tbr1 表观遗传级联；层特异性转录因子的去抑制逻辑；神经-胶质发生开关（Gli3/Pax6→Olig2，Shh 触发）
+- `neurons/radial-glia.md`（径向神经胶质细胞）🟢 established / 置信度高 — 皮层神经元祖先 + 迁移骨架双重角色；IKNM（核间运动）机制；vRG 每谱系约产 8–9 个神经元（内在时钟）
+- `neurons/outer-radial-glia.md`（外径向神经胶质细胞）🔵 mainstream / 置信度高 — Hansen 2010 发现；无顶端突起、保留基底突起；MST（有丝分裂体体转位）；人类/灵长类 OSVZ 大量存在；oRG 数量非皮层沟回充分条件（Cardenas 2011）
+- `concepts/notch2nl.md`（NOTCH2NL 人类特异性皮层扩张基因）🔵 mainstream / 置信度高 — 人类（和 Neanderthal）特异性 Notch 旁系同源基因；通过降低 DLL1 延长祖细胞自我更新；NOTCH2NLB 过表达类器官克隆细胞约×3；1q21.1 CNV：缺失→小头症，重复→大头症
+
+**修订页面（0）**：本次新建 4 页，无既有页修订
+
+**矛盾登记**：无新矛盾
+
+**新增未解问题（4）**：
+- Q-neuro-01：oRG 数量与皮层沟回因果关系的严格建立
+- Q-neuro-02：IKNM 的主动 Notch 传感功能
+- Q-neuro-03：人类 OSVZ 发育期延长的完整分子驱动
+- Q-neuro-04：人类神经-胶质发生开关的精确触发因素
+
+**图谱更新**：新增节点 4（cortical-neurogenesis, radial-glia, outer-radial-glia, notch2nl）；新增有向边 12；总计 88 节点 511 条边
+
+---
+
 ## 2026-05-31（第 36 篇·注意瞬盲·填补 Q-gwt-02 + Q-cogitate-02·课程路线8 意识与自我 第五篇）
 
 **源文章**：[[2026-05-31-attentional-blink]] —《注意瞬盲：当意识成为稀缺资源，大脑如何在时间中撞墙》

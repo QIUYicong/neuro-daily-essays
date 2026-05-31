@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-31",
-  "total_articles": 36,
+  "total_articles": 37,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2586,6 +2586,102 @@
       "mode": "long_term_curriculum",
       "dangling_reference_filled": "attentional-blink（填补 consciousness-ignition 和 global-workspace-theory 的悬空引用，两页均在 related 字段引用了 attentional-blink 但节点不存在；今日新建节点）",
       "note": "第36篇，系统日期UTC+8 2026-05-31。意识专题五联篇（GWT/预测编码/DMN/IIT/COGITATE/AB）完成。新建1个wiki页面（attentional-blink），修订2个（global-workspace-theory rev5, consciousness-ignition rev4）。图谱新增1节点7条边（总计83节点493条边）。填补了 COGITATE 2025 遗留的方法论缺口：注意瞬盲提供了感觉对等条件下的有/无意识分叉内部对照，是 GWT 点燃预测（270ms 前额-顶叶分叉）最干净的直接神经证据。"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "诞生的顺序就是命运：径向神经胶质细胞如何在时间中建造大脑皮层的六层结构",
+      "filename": "2026-05-31-cortical-neurogenesis-radial-glia.md",
+      "article_number": 37,
+      "article_type": "regular",
+      "core_question": "皮层六层神经元的出生顺序如何精确决定其最终的空间位置和功能身份？径向神经胶质细胞（RGC）作为祖细胞，通过哪些分子和细胞机制，将时间信息转化为大脑皮层的层次组织？",
+      "layer": [
+        "molecular",
+        "cellular"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（发育神经科学·皮层神经发生首篇）",
+      "topic_tags": [
+        "cortical neurogenesis",
+        "radial glia",
+        "vRG",
+        "aRG",
+        "oRG",
+        "bRG",
+        "outer radial glia",
+        "OSVZ",
+        "inside-out gradient",
+        "Rakic radial unit hypothesis",
+        "IKNM",
+        "interkinetic nuclear migration",
+        "Pax6",
+        "Tbr2",
+        "Tbr1",
+        "intermediate progenitor",
+        "IP",
+        "direct neurogenesis",
+        "indirect neurogenesis",
+        "Fezf2",
+        "Ctip2",
+        "Satb2",
+        "cortical layers",
+        "layer identity",
+        "corticospinal tract",
+        "callosal projection",
+        "NOTCH2NL",
+        "Notch signaling",
+        "DLL1",
+        "1q21.1 CNV",
+        "microcephaly",
+        "macrocephaly",
+        "Gli3",
+        "Olig2",
+        "Shh",
+        "gliogenesis switch",
+        "cortical organoid",
+        "mitotic somal translocation",
+        "MST",
+        "ASPM",
+        "brain size evolution"
+      ],
+      "main_sources": [
+        "PMID:17467805 (Rakic 2007, PNAS, 开放全文)",
+        "PMID:30186101 (Hevner 2019, Trends Neurosci, 开放全文)",
+        "PMID:37488873 (Bhaduri 2023, Neuron, 开放全文)",
+        "PMID:37148649 (Llorca 2023, J Neurosci, 开放全文)",
+        "PMID:33227588 (Llorca 2019, Science Advances, 开放全文)",
+        "PMID:38713624 (Li 2024, Nature, 开放全文)",
+        "PMID:20154730 (Hansen 2010, Nature, 摘要)",
+        "PMID:22116731 (Cardenas 2011, Cereb Cortex, 开放全文)",
+        "PMID:24523546 (Betizeau 2013, Neuron, 开放全文)",
+        "PMID:29856955 (Fiddes 2018, Cell, 开放全文)",
+        "PMID:28486367 (Rakic 1988, Science, 摘要)"
+      ],
+      "wiki_pages_created": [
+        "wiki/neurons/radial-glia.md",
+        "wiki/neurons/outer-radial-glia.md",
+        "wiki/concepts/cortical-neurogenesis.md",
+        "wiki/concepts/notch2nl.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/index.md",
+        "wiki/CHANGELOG.md"
+      ],
+      "contested_claims_logged": [],
+      "unresolved_questions": [
+        "Q-neuro-01: oRG 数量与皮层沟回的因果关系——需要增殖速率、分裂角度、生物力学综合模型",
+        "Q-neuro-02: IKNM 是否具有主动 Notch 传感功能（哺乳动物直接验证缺失）",
+        "Q-neuro-03: 人类 OSVZ 发育期延长的完整分子驱动（NOTCH2NL+ARHGAP11B 协同机制待定量验证）",
+        "Q-neuro-04: 人类神经-胶质发生开关的精确时序触发因素（Shh/Gli3/Olig2 轴的体内人类数据缺失）"
+      ],
+      "next_suggested_topics": [
+        "轴突导向（Axon Guidance）：Sema/Ntn/Ephrin 配体-受体对如何在三维空间中引导轴突找到目标——课程路线2第二篇",
+        "突触修剪（Synaptic Pruning）：补体系统与小胶质细胞如何在发育晚期精炼回路——课程路线2第三篇",
+        "ARHGAP11B：另一个人类特异性皮层扩张因子（直接接续本篇Q-neuro-03）",
+        "成年海马神经发生（Adult Hippocampal Neurogenesis）：功能与争议，接续血清素文章中的 Q-adult-neurogenesis-human-controversy",
+        "主动推断与自由能原理（Active Inference/FEP）：填补 Q-pc-02 和 Q-gwt-04"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "第37篇，系统日期UTC+8 2026-05-31。课程路线2（发育神经科学）首篇。以 Rakic 径向单元假说为核心，系统讲解皮层六层神经元的时序产生机制：vRG→IP→神经元的级联，IKNM 的细胞周期耦合，Pax6→Tbr2→Tbr1 的命运决定转录因子级联，去抑制层特异性命运（深层默认 Fezf2/Ctip2，浅层需 Satb2 主动压制），人类特异性 oRG 的 MST 分裂行为，NOTCH2NL 的 DLL1-Notch 机制与 1q21.1 临床证据，以及 Gli3/Olig2 神经-胶质切换。新建4个wiki页面（radial-glia, outer-radial-glia, cortical-neurogenesis, notch2nl）。图谱新增4节点12条边（总计88节点511条边）。",
+      "dangling_reference_filled": "cortical-neurogenesis（填补了 pyramidal-neuron、ltp、engram-cells、dendritic-computation 等多个页面的 related 字段长期悬空引用）"
     }
   ],
   "layer_coverage_recent": {

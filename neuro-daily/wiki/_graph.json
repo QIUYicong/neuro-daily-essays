@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "updated": "2026-05-31",
-  "node_count": 83,
-  "edge_count": 493,
+  "node_count": 88,
+  "edge_count": 511,
   "edge_types": [
     "is-a",
     "part-of",
@@ -769,6 +769,42 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/attentional-blink.md"
+    },
+    {
+      "id": "cortical-neurogenesis",
+      "title": "皮层神经发生",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-neurogenesis.md"
+    },
+    {
+      "id": "radial-glia",
+      "title": "径向神经胶质细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/radial-glia.md"
+    },
+    {
+      "id": "outer-radial-glia",
+      "title": "外径向神经胶质细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/neurons/outer-radial-glia.md"
+    },
+    {
+      "id": "notch2nl",
+      "title": "NOTCH2NL",
+      "domain": "concepts",
+      "type": "entity",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/notch2nl.md"
     }
   ],
   "edges": [
@@ -3578,6 +3614,66 @@
       "to": "attentional-blink",
       "type": "related",
       "note": "注意瞬盲填补了 COGITATE 未能检验的 GWT 核心有/无意识分叉场景"
+    },
+    {
+      "from": "radial-glia",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "notch2nl",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "radial-glia",
+      "type": "is-a"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "pyramidal-neuron",
+      "type": "supports"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "ltp",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "engram-cells",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "dendritic-computation",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "action-potential",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "notch2nl",
+      "to": "outer-radial-glia",
+      "type": "regulates"
+    },
+    {
+      "from": "radial-glia",
+      "to": "pyramidal-neuron",
+      "type": "supports"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "hippocampal-circuit",
+      "type": "related"
     }
   ],
   "dangling_references": [

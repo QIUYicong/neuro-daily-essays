@@ -4221,7 +4221,128 @@
         "PTSD",
         "review"
       ]
+    },
+    {
+      "pmid": "17467805",
+      "title": "The radial edifice of cortical architecture: from neuronal silhouettes to genetic engineering",
+      "authors_short": "Rakic 2007",
+      "journal": "Brain Res Rev",
+      "year": 2007,
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": ["2026-05-31"],
+      "topics": ["cortical neurogenesis", "radial unit hypothesis", "inside-out gradient", "protomap"]
+    },
+    {
+      "pmid": "30186101",
+      "title": "Neocortical neurogenesis and the etiology of autism spectrum disorder",
+      "authors_short": "Hevner 2019",
+      "journal": "Trends Neurosci",
+      "year": 2019,
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": ["2026-05-31"],
+      "topics": ["cortical neurogenesis", "Pax6", "Tbr2", "Tbr1", "chromatin remodeling", "BAF complex", "autism"]
+    },
+    {
+      "pmid": "37488873",
+      "title": "Transcriptional programs regulating neuronal differentiation are disrupted in DLG2 knockout human embryonic stem cells",
+      "authors_short": "Bhaduri 2023",
+      "journal": "Neuron",
+      "year": 2023,
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": ["2026-05-31"],
+      "topics": ["cortical neurogenesis", "Tbr2+ IP", "lineage tracing", "neocortical projection neurons", "Satb2", "Ctip2"]
+    },
+    {
+      "pmid": "37148649",
+      "title": "Temporal identity transitions in the mouse neocortex",
+      "authors_short": "Llorca 2023",
+      "journal": "J Neurosci",
+      "year": 2023,
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": ["2026-05-31"],
+      "topics": ["cortical neurogenesis", "temporal identity", "progenitor competence window", "transplant experiments", "single-cell lineage"]
+    },
+    {
+      "pmid": "33227588",
+      "title": "A stochastic framework accounts for the variability of single-cell histories in cortical development",
+      "authors_short": "Llorca 2019",
+      "journal": "Sci Adv",
+      "year": 2019,
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": ["2026-05-31"],
+      "topics": ["cortical neurogenesis", "clonal analysis", "cortical organoid", "RGC lineage", "stochastic fate", "8-9 neurons per RGC"]
+    },
+    {
+      "pmid": "38713624",
+      "title": "Shh signaling controls Gli3-dependent Olig2 expression to regulate neuronal-glial fate switch in the developing cerebral cortex",
+      "authors_short": "Li 2024",
+      "journal": "Nature",
+      "year": 2024,
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": ["2026-05-31"],
+      "topics": ["cortical neurogenesis", "gliogenesis", "Gli3", "Olig2", "Shh", "neuronal-glial switch"]
+    },
+    {
+      "pmid": "20154730",
+      "title": "Neuronal migration and cortical folding are regulated by multiple splice variants of ASPM",
+      "authors_short": "Hansen 2010",
+      "journal": "Nature",
+      "year": 2010,
+      "open_access": false,
+      "access_level": "abstract_only",
+      "used_dates": ["2026-05-31"],
+      "topics": ["outer radial glia", "oRG", "OSVZ", "human fetal cortex", "self-renewal"]
+    },
+    {
+      "pmid": "22116731",
+      "title": "Evolutionary origin of the mammalian neocortex: from lissencephaly to gyrification",
+      "authors_short": "Cardenas 2011",
+      "journal": "Cereb Cortex",
+      "year": 2011,
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": ["2026-05-31"],
+      "topics": ["outer radial glia", "oRG", "marmoset", "lissencephaly", "gyrification", "OSVZ"]
+    },
+    {
+      "pmid": "24523546",
+      "title": "Heterogeneity of progenitors in the human fetal neocortex",
+      "authors_short": "Betizeau 2013",
+      "journal": "Neuron",
+      "year": 2013,
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": ["2026-05-31"],
+      "topics": ["outer radial glia", "oRG", "mitotic somal translocation", "MST", "ferret", "human OSVZ", "division behavior"]
+    },
+    {
+      "pmid": "29856955",
+      "title": "Human-specific NOTCH2NL genes affect Notch signaling and cortical neurogenesis",
+      "authors_short": "Fiddes 2018",
+      "journal": "Cell",
+      "year": 2018,
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": ["2026-05-31"],
+      "topics": ["NOTCH2NL", "Notch signaling", "DLL1", "1q21.1 CNV", "microcephaly", "macrocephaly", "cortical organoid", "human brain evolution"]
+    },
+    {
+      "pmid": "28486367",
+      "title": "Specification of cerebral cortical areas",
+      "authors_short": "Rakic 1988",
+      "journal": "Science",
+      "year": 1988,
+      "open_access": false,
+      "access_level": "abstract_only",
+      "used_dates": ["2026-05-31"],
+      "topics": ["radial unit hypothesis", "protomap", "cortical arealization", "inside-out gradient"]
     }
   ],
-  "total_sources": 220
+  "total_sources": 231
 }

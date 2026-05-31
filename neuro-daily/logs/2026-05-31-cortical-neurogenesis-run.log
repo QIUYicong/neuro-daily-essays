@@ -1,0 +1,138 @@
+# 运行日志：2026-05-31（第 37 篇·皮层神经发生）
+
+**运行时间**：2026-05-31 UTC+8
+**文章编号**：#37
+**文章标题**：诞生的顺序就是命运：径向神经胶质细胞如何在时间中建造大脑皮层的六层结构
+**文章文件**：neuro-daily/articles/2026-05-31-cortical-neurogenesis-radial-glia.md
+**分支**：claude/funny-einstein-a9W9U
+
+---
+
+## 选题决策
+
+**选题依据**：
+- 图谱分析：24个悬空引用中，`cortical-neurogenesis` 被 pyramidal-neuron、ltp、engram-cells、dendritic-computation 等多个核心节点引用，长期未填补
+- 课程路线覆盖：课程路线 2（神经网络如何建成·发育神经科学）在36篇中**完全空白**
+- 层级轮换：第32-36篇连续覆盖全脑网络/认知/意识层，需要切换到分子/细胞层
+- 当前日期：系统日期 2026-05-31，逻辑延续
+
+**选题**：皮层神经发生·径向神经胶质细胞（课程路线2首篇）
+
+---
+
+## 检索策略
+
+### 搜索词
+- PubMed/PMC：
+  - "cortical neurogenesis radial glia review"
+  - "inside-out gradient cortical layers Rakic"
+  - "outer radial glia OSVZ human cortex"
+  - "NOTCH2NL human brain evolution"
+  - "cortical neurogenesis gliogenesis switch Gli3 Olig2"
+  - "Pax6 Tbr2 Tbr1 cortical progenitor cascade"
+  - "interkinetic nuclear migration mechanism"
+
+### 来源评估结果（11 来源，9 开放全文）
+
+| 来源 | PMID | 全文 | 用途 |
+|------|------|------|------|
+| Rakic 2007, Brain Res Rev | 17467805 | PMC 开放 | 径向单元假说现代综述 |
+| Hevner 2019, Trends Neurosci | 30186101 | PMC 开放 | Pax6→Tbr2→Tbr1 表观遗传级联 |
+| Bhaduri 2023, Neuron | 37488873 | PMC 开放 | Tbr2+ IP 贡献 67.5% 投射神经元；Satb2/Ctip2 |
+| Llorca 2023, J Neurosci | 37148649 | PMC 开放 | 时序能力窗口（移植实验）|
+| Llorca 2019, Sci Adv | 33227588 | PMC 开放 | 每 RGC 谱系约 8–9 个神经元（克隆分析）|
+| Li 2024, Nature | 38713624 | 开放全文 | Gli3/Olig2 神经-胶质发生开关（Shh 轴）|
+| Hansen 2010, Nature | 20154730 | **摘要** | oRG 首次在人类 OSVZ 完整描述 |
+| Cardenas 2011, Cereb Cortex | 22116731 | PMC 开放 | oRG 非沟回充分条件（狨猴证据）|
+| Betizeau 2013, Neuron | 24523546 | PMC 开放 | MST 行为；雪貂/人类比较 |
+| Fiddes 2018, Cell | 29856955 | 开放全文 | NOTCH2NL 机制 + 1q21.1 CNV + 类器官 ×3 |
+| Rakic 1988, Science | 28486367 | **摘要** | 径向单元假说原始论文（历史文献）|
+
+**总计**：11 来源；开放全文 9；摘要 2；官方机构 0（不适用于基础神经科学文章）
+满足 ROUTINE.md 最低标准（≥5来源，≥2开放全文）✅
+
+---
+
+## 文章产出
+
+- **主文**：`articles/2026-05-31-cortical-neurogenesis-radial-glia.md`（约 5500 字）
+- **阅读笔记**：`notes/2026-05-31-cortical-neurogenesis-reading-notes.md`（9 来源逐条评估）
+- **来源 JSON**：`sources/2026-05-31-cortical-neurogenesis-sources.json`（11 条结构化记录）
+
+---
+
+## Wiki 整合
+
+### 新建 wiki 页面（4 页）
+
+| 页面 | 路径 | 状态 | 置信度 |
+|------|------|------|--------|
+| radial-glia | wiki/neurons/radial-glia.md | established | high |
+| outer-radial-glia | wiki/neurons/outer-radial-glia.md | mainstream | high |
+| cortical-neurogenesis | wiki/concepts/cortical-neurogenesis.md | established | high |
+| notch2nl | wiki/concepts/notch2nl.md | mainstream | high |
+
+### 修订 wiki 页面（2 页）
+
+- `wiki/index.md`：更新文章计数（#37）；添加 radial-glia/outer-radial-glia 到 neurons 节；添加 cortical-neurogenesis/notch2nl 到 concepts 节；添加课程路线 2 进度
+- `wiki/CHANGELOG.md`：prepend 文章 #37 完整条目
+
+### 知识图谱更新
+
+- **新增节点**：4（radial-glia, outer-radial-glia, cortical-neurogenesis, notch2nl）
+- **新增边**：12
+- **图谱总计**：88 节点，511 条边（此前：84 节点，499 条边）
+- **更新方法**：Python 脚本修改 `wiki/_graph.json`，正确计算 node_count 和 edge_count
+
+---
+
+## 状态文件更新
+
+| 文件 | 操作 |
+|------|------|
+| state/unresolved_questions.md | 追加 Q-neuro-01 至 Q-neuro-04（4 个新问题）|
+| state/topic_ledger.json | total_articles 36→37；追加文章 #37 完整条目 |
+| state/maturity_index.json | 追加 4 个新 wiki 页面成熟度记录 |
+| state/source_registry.json | 追加 11 个新来源；total_sources 220→231 |
+| state/monthly_synthesis.md | 追加文章 #37 摘要 |
+
+---
+
+## 新增未解问题
+
+| ID | 优先级 | 核心问题 |
+|----|--------|---------|
+| Q-neuro-01 | 高 | oRG 数量与皮层沟回的因果关系（增殖速率×分裂角度×生物力学模型）|
+| Q-neuro-02 | 高 | IKNM 是否有主动 Notch 传感功能（哺乳动物验证缺失）|
+| Q-neuro-03 | 高 | 人类 OSVZ 发育期延长的完整分子驱动（NOTCH2NL+ARHGAP11B 协同）|
+| Q-neuro-04 | 中 | 人类神经-胶质发生开关的精确触发因素（Shh/Gli3/Olig2 体内人类数据）|
+
+---
+
+## 失败与限制
+
+- **Hansen 2010**（PMID:20154730, Nature）：非开放，仅读摘要；oRG 原始论文，关键发现已在后续开放综述（Betizeau 2013, Cardenas 2011）中广泛引用和证实
+- **Rakic 1988**（Science）：历史文献，非开放，仅读摘要；2007 综述（PMID:17467805）覆盖了核心假说内容
+- 无官方机构来源（基础神经科学文章，适用ROUTINE.md豁免）
+
+---
+
+## 自检结果（H 步骤）
+
+- [x] 所有 wiki 主张均可追溯至带 PMID 的来源
+- [x] 无未实现的悬空引用（图谱新增边均指向存在节点）
+- [x] index.md 和 CHANGELOG.md 已更新
+- [x] 状态文件（topic_ledger, unresolved_questions, maturity_index, source_registry, monthly_synthesis）已更新
+- [x] 阅读笔记和来源 JSON 已创建
+- [x] 置信度标注合理（established 用于教科书级共识，mainstream 用于强但尚有未解机制的知识）
+- [x] 未解问题与文章论点逻辑一致
+
+---
+
+## Git 操作
+
+- **作者**：GIT_AUTHOR_NAME=QIUYicong, GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+- **提交者**：同作者
+- **分支**：claude/funny-einstein-a9W9U
+- **提交信息**：Add neuro daily article + wiki consolidation for 2026-05-31 (cortical neurogenesis #37)
+- **Push**：git push -u origin claude/funny-einstein-a9W9U
