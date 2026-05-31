@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-31",
-  "total_articles": 31,
+  "last_updated": "2026-06-18",
+  "total_articles": 32,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2233,6 +2233,78 @@
       ],
       "mode": "monthly_synthesis",
       "note": "第31篇，系统日期UTC+8 2026-05-31。五月月度大图景。新建1个wiki页面（temporal-hierarchy），修订1个（world-model）。图谱：75节点，435条边。总结了5条跨月主线和分层贝叶斯预测机器框架。"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "接线图之上：当我们拥有了完整神经地图，理解大脑的征途才刚刚开始",
+      "filename": "2026-06-18-connectomics-wiring-diagram.md",
+      "wiki_pages_created": [
+        "wiki/methods/connectomics.md",
+        "wiki/concepts/circuit-motifs.md"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": [],
+      "core_question": "当神经科学家手中握有一张生命体所有神经元的完整突触接线图时，他们能从中理解什么，又遭遇了什么出乎意料的挑战？以C. elegans 302个神经元和果蝇13.9万个神经元为案例，探索连接组学的成就与根本局限。",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "whole-brain-network",
+        "methods"
+      ],
+      "curriculum_track": "9. Connectomics（首篇）",
+      "topic_tags": [
+        "connectomics",
+        "C. elegans",
+        "Caenorhabditis elegans",
+        "Drosophila",
+        "FlyWire",
+        "connectome",
+        "wiring diagram",
+        "circuit motifs",
+        "feedforward loop",
+        "rich-club",
+        "mushroom body",
+        "structure-function gap",
+        "synaptic weight",
+        "individual variation",
+        "attractor dynamics",
+        "oculomotor circuit",
+        "zebrafish",
+        "White 1986",
+        "Witvliet 2021",
+        "Dorkenwald 2024",
+        "Li 2020",
+        "Vishwanathan 2024",
+        "Lin 2024",
+        "serial EM",
+        "neural circuit reconstruction",
+        "brain maturation",
+        "developmental connectomics"
+      ],
+      "main_sources": [
+        "PMID:22462104 (White 1986, 非PMC开放，摘要)",
+        "PMID:34349261 (PMC8756380, Witvliet 2021 Nature, 开放)",
+        "PMID:34949809 (PMC8903166, Dorkenwald 2022 NatMethods, 开放)",
+        "PMID:39358518 (PMC11446842, Dorkenwald 2024 Nature, 开放)",
+        "PMID:39358527 (Lin 2024 Nature, 开放PMC)",
+        "PMID:33315010 (PMC7909955, Li 2020 eLife, 开放)",
+        "PMID:39578573 (Vishwanathan 2024 NatNeuro, 开放)"
+      ],
+      "unresolved_questions": [
+        "Q-conn-01: 对复杂行为，接线图+生理学是否充分预测功能？",
+        "Q-conn-02: 个体差异的连接组变异中多少是功能等价变异？",
+        "Q-conn-03: 人类全脑突触级别连接组的技术可行性？"
+      ],
+      "next_suggested_topics": [
+        "睡眠分期的神经机制：NREM/REM/慢波睡眠的详细回路，填补记忆巩固叙事缺口（配合SWR文章）",
+        "注意瞬盲（Attentional Blink）：GWT最强可证伪预测，填补Q-gwt-02",
+        "主动推断与自由能原理（Active Inference/FEP）：填补Q-pc-02，建立贝叶斯大脑wiki页面",
+        "发育神经科学入门：神经发生/轴突导向/突触修剪（课程路线2首篇）",
+        "小鼠皮层1立方毫米连接组（Motta 2019）：连接组学的中间尺度，哺乳类皮层柱的突触统计"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 32,
+      "note": "第32篇：首次开启课程路线9（Connectomics）。从White 1986 C. elegans奠基连接组出发，经Witvliet 2021发育连接组（个体差异/前馈成熟），到Dorkenwald 2024果蝇全脑连接图，到Li 2020蘑菇体学习回路，到Vishwanathan 2024结构→功能预测突破。核心论点：连接组是结构约束（必要不充分）；结构-功能鸿沟需要接线图×权重×动力学三层整合。新建2个wiki页面（connectomics, circuit-motifs），图谱77节点452条边。"
     }
   ],
   "layer_coverage_recent": {
@@ -2254,7 +2326,8 @@
       "2026-06-03",
       "2026-06-07",
       "2026-06-11",
-      "2026-06-12"
+      "2026-06-12",
+      "2026-06-18"
     ],
     "synaptic": [
       "2026-05-24",
@@ -2268,7 +2341,8 @@
     "microcircuit": [
       "2026-05-27",
       "2026-06-03",
-      "2026-06-11"
+      "2026-06-11",
+      "2026-06-18"
     ],
     "brain_region": [
       "2026-05-27",
@@ -2310,11 +2384,15 @@
     ],
     "methods": [
       "2026-06-09",
-      "2026-05-31"
+      "2026-05-31",
+      "2026-06-18"
     ],
     "systems": [
       "2026-06-11",
       "2026-06-12"
+    ],
+    "whole-brain-network": [
+      "2026-06-18"
     ]
   },
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。"

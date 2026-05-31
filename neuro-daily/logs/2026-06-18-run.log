@@ -1,0 +1,141 @@
+# 每日运行日志
+
+**日期**：2026-06-18
+**文章编号**：#32
+**主题**：连接组学（Connectomics）——首次覆盖课程路线9
+**模式**：long_term_curriculum
+**触发器**：手动触发（Claude Code web session）
+
+---
+
+## 运行摘要
+
+| 项目 | 状态 |
+|------|------|
+| 状态文件读取 | ✅ 完成 |
+| 选题决策 | ✅ 连接组学（课程路线9首篇，缺口驱动） |
+| 文献检索 | ✅ PubMed + PMC，7篇核心来源 |
+| 开放全文 | ✅ 6篇（PMC开放）+ 1篇摘要 |
+| 文章写作 | ✅ 完成（约4200字） |
+| 阅读笔记 | ✅ 完成 |
+| 来源 JSON | ✅ 完成 |
+| Wiki 新建 | ✅ 2页（connectomics, circuit-motifs）|
+| Wiki 修订 | ⚪ 0页 |
+| 矛盾登记 | ⚪ 无新矛盾 |
+| 图谱更新 | ✅ 77节点 452条边（+2节点, +14边）|
+| 状态文件更新 | ✅ 全部完成 |
+| Git commit | ✅ 见下 |
+| Git push | 见下 |
+
+---
+
+## 选题决策过程
+
+**缺口驱动选题**：
+
+检查 topic_ledger.json 和 wiki/index.md 后，发现：
+- 课程路线 9（Connectomics）标注为"待开始"（⚪）
+- 最近3篇文章（06-15 预测编码, 06-16 DMN, 06-17 SWR）均在 cognition/whole-brain-network 层
+- 连接组学是神经科学最重要的方法论课题之一，且具有直接开放全文来源
+- 最新的 FlyWire 全脑连接组（Dorkenwald 2024, Nature）是 2024 年的重大成果
+
+**决策**：进入"长期课程模式"，以连接组学为主题，聚焦核心问题："接线图是否足够理解大脑？"
+
+---
+
+## 文献检索过程
+
+### 检索词
+- "C. elegans connectome neural circuit"
+- "FlyWire Drosophila connectome 2023 2024"
+- "Drosophila mushroom body connectome learning memory circuit"
+- "connectome wiring diagram neural circuit function behavior"
+- "Witvliet C. elegans development connectome"
+
+### 数据源
+- PubMed/NCBI（主要）
+- PubMed Central（全文获取）
+- Europe PMC（补充核查）
+
+### 候选来源（10+篇）
+从检索结果中筛选，以下7篇入选（评估标准：开放全文优先、相关性、可信度、时间范围）：
+
+| PMID | 作者 | 期刊 | 全文 | 入选原因 |
+|------|------|------|------|---------|
+| 22462104 | White JG et al. | Phil Trans R Soc B | 摘要 | 奠基性连接组论文，不可或缺 |
+| 34349261 | Witvliet D et al. | Nature | PMC开放 | 发育连接组，个体差异，核心发现 |
+| 34949809 | Dorkenwald S et al. | Nat Methods | PMC开放 | FlyWire平台方法论 |
+| 39358518 | Dorkenwald S et al. | Nature | PMC开放 | 果蝇全脑接线图，核心数字 |
+| 39358527 | Lin A et al. | Nature | PMC开放 | 网络拓扑分析，富人俱乐部 |
+| 33315010 | Li F et al. | eLife | PMC开放 | 蘑菇体连接组与学习回路 |
+| 39578573 | Vishwanathan A et al. | Nat Neurosci | 开放 | 结构→功能预测的直接证明 |
+
+### 排除来源
+- PMID:27534393 (CNS-2016会议综述) — 过于泛化，不用
+- PMID:31950861 (Vogt 2020 综述) — 相关但信息量不如主要来源
+- PMID:35134357 (Ganguly & Litwin-Kumar 2022 commentary) — 短篇评述，信息量有限
+
+---
+
+## Wiki 固结步骤
+
+### 今日文章触及的核心概念
+1. connectomics（连接组学）→ **新建** wiki/methods/connectomics.md
+2. circuit-motifs（回路主题）→ **新建** wiki/concepts/circuit-motifs.md
+3. structure-function-gap（结构-功能鸿沟）→ 内容并入 connectomics 页面（次要概念，不单独建页）
+4. mushroom-body（蘑菇体）→ 内容在文章中有但未建独立wiki页（添加为悬空引用）
+5. synaptic-transmission → 已有，添加 connectomics 关联边
+6. ltp → 已有，添加 connectomics 关联边（接线图无法捕捉权重动态变化）
+
+### 矛盾检查
+连接组学的核心发现（White 1986, FlyWire 2024, Witvliet 2021）在该领域内无重大矛盾。
+结构-功能鸿沟是领域共识，不涉及对立证据。
+→ 无新矛盾需要登记。
+
+### 新增未解问题
+- Q-conn-01（高优先级）：复杂行为的接线图+生理学预测充分性
+- Q-conn-02（中优先级）：个体差异变异的功能等价性问题
+- Q-conn-03（高优先级）：人类全脑突触级别连接组的技术可行性
+
+---
+
+## 自检结果
+
+**真实性**：
+- [x] wiki 每条新主张都有来源（PMID/DOI）
+- [x] 区分了事实（White 1986数字/FlyWire数字）/ 主流模型（网络拓扑原理）/ 推测（功能预测推广）/ 争议（structure-function gap的不同立场）
+- [x] 没有把 C. elegans / Drosophila 研究直接写成人类定论；明确标注了动物研究限制
+- [x] Vishwanathan 2024 成功案例明确限定了适用条件（低维行为、小回路）
+
+**一致性**：
+- [x] 无冲突内容（连接组学是新课题，无既有wiki页面需要核查矛盾）
+- [x] 新建页面 frontmatter 完整（updated/revision_count/修订历史）
+- [x] _graph.json 无悬空边（connectomics 的所有 related 节点均已存在）
+- [ ] mushroom-body 和 stomatogastric-ganglion 是新增悬空引用（已记录在 CHANGELOG.md）
+
+**可导航**：
+- [x] index.md 反映了今天的变化（2个新页面 + 课程路线9开始）
+- [x] CHANGELOG.md 追加了今日记录
+- [x] 新页面 related/prerequisites 均填写
+
+**情景层**：
+- [x] 文章/笔记/来源/日志齐全
+- [x] 未修改任何已有 articles/ notes/ sources/ logs/ 文件
+
+---
+
+## 失败与限制
+
+- White 1986 (PMID:22462104) 全文不在 PMC，只能通过摘要和二手资料引用。已在文章中标注"摘要（非PMC开放）"。
+- Vishwanathan 2024 (PMID:39578573) PMCID 未能确认；来源注明"开放"但以期刊网站为准。
+- 果蝇 Drosophila 连接组相关文献（Scheffer 2020 hemibrain, Li 2020）是旧版本；FlyWire 2024 是最新完整版，本文以最新版为主。
+- 人类连接组（Human Connectome Project, HCP）的宏观 fMRI 连接与本文讨论的突触级别微观连接组有根本区别，文章中已澄清这一区别。
+
+---
+
+## Git 操作
+
+- Branch: main
+- Remote: http://local_proxy@127.0.0.1:35795/git/QIUYicong/neuro-daily-essays
+- Commit: 见下
+- Push: 见下

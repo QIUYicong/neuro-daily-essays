@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-18",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -3787,6 +3787,141 @@
       ],
       "open_access": true,
       "full_text_available": true
+    },
+    {
+      "pmid": "22462104",
+      "pmcid": null,
+      "title": "The structure of the nervous system of the nematode Caenorhabditis elegans",
+      "authors_short": "White JG et al.",
+      "journal": "Philosophical Transactions of the Royal Society of London B",
+      "year": 1986,
+      "first_used": "2026-06-18",
+      "used_in_articles": [
+        "2026-06-18-connectomics-wiring-diagram.md"
+      ],
+      "aspects_covered": [
+        "C. elegans full connectome",
+        "302 neurons",
+        "5000 chemical synapses",
+        "2000 NMJ",
+        "600 gap junctions",
+        "serial section EM methodology"
+      ]
+    },
+    {
+      "pmid": "34349261",
+      "pmcid": "PMC8756380",
+      "title": "Connectomes across development reveal principles of brain maturation",
+      "authors_short": "Witvliet D et al.",
+      "journal": "Nature",
+      "year": 2021,
+      "first_used": "2026-06-18",
+      "used_in_articles": [
+        "2026-06-18-connectomics-wiring-diagram.md"
+      ],
+      "aspects_covered": [
+        "C. elegans 8-worm developmental connectome",
+        "network becomes more feedforward and modular",
+        "individual variation in isogenic animals",
+        "central circuits preserved",
+        "sensory/motor pathways remodeled"
+      ]
+    },
+    {
+      "pmid": "34949809",
+      "pmcid": "PMC8903166",
+      "title": "FlyWire: online community for whole-brain connectomics",
+      "authors_short": "Dorkenwald S et al.",
+      "journal": "Nature Methods",
+      "year": 2022,
+      "first_used": "2026-06-18",
+      "used_in_articles": [
+        "2026-06-18-connectomics-wiring-diagram.md"
+      ],
+      "aspects_covered": [
+        "AI-assisted crowdsourced proofreading",
+        "ChunkedGraph data structure",
+        "Drosophila connectome reconstruction platform",
+        "mechanosensory circuit reconstruction"
+      ]
+    },
+    {
+      "pmid": "39358518",
+      "pmcid": "PMC11446842",
+      "title": "Neuronal wiring diagram of an adult brain",
+      "authors_short": "Dorkenwald S et al. (FlyWire Consortium)",
+      "journal": "Nature",
+      "year": 2024,
+      "first_used": "2026-06-18",
+      "used_in_articles": [
+        "2026-06-18-connectomics-wiring-diagram.md"
+      ],
+      "aspects_covered": [
+        "139,255 Drosophila neurons",
+        "54.5M synapses",
+        "85% intrinsic neurons",
+        "524 visual centrifugal neurons",
+        "projectome",
+        "information flow sensory-to-motor",
+        "neurotransmitter predictions"
+      ]
+    },
+    {
+      "pmid": "39358527",
+      "pmcid": null,
+      "title": "Network statistics of the whole-brain connectome of Drosophila",
+      "authors_short": "Lin A et al.",
+      "journal": "Nature",
+      "year": 2024,
+      "first_used": "2026-06-18",
+      "used_in_articles": [
+        "2026-06-18-connectomics-wiring-diagram.md"
+      ],
+      "aspects_covered": [
+        "rich-club organization",
+        "30% hub neurons (broadcasters/integrators/balanced)",
+        "feedforward loop overrepresentation",
+        "reciprocal ACh-GABA pairs",
+        "network topology constraints on computation"
+      ]
+    },
+    {
+      "pmid": "33315010",
+      "pmcid": "PMC7909955",
+      "title": "The connectome of the adult Drosophila mushroom body provides insights into function",
+      "authors_short": "Li F et al.",
+      "journal": "eLife",
+      "year": 2020,
+      "first_used": "2026-06-18",
+      "used_in_articles": [
+        "2026-06-18-connectomics-wiring-diagram.md"
+      ],
+      "aspects_covered": [
+        "mushroom body full connectome",
+        "14 KC types",
+        "15 compartmentalized learning modules",
+        "8% visual KC inputs (unexpected)",
+        "MBON→DAN direct feedback loops",
+        "atypical MBONs with dendrites outside lobes"
+      ]
+    },
+    {
+      "pmid": "39578573",
+      "pmcid": null,
+      "title": "Predicting modular functions and neural coding of behavior from a synaptic wiring diagram",
+      "authors_short": "Vishwanathan A et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2024,
+      "first_used": "2026-06-18",
+      "used_in_articles": [
+        "2026-06-18-connectomics-wiring-diagram.md"
+      ],
+      "aspects_covered": [
+        "zebrafish brainstem oculomotor circuit",
+        "two three-block cycles predict attractor dynamics",
+        "connectome-constrained model validated by calcium imaging",
+        "direct structure-to-function prediction success"
+      ]
     }
   ],
   "total_sources": 159

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-18",
   "levels": [
     "speculative",
     "emerging",
@@ -455,6 +455,22 @@
       ],
       "last_status_change": "2026-05-31",
       "reason": "创建：PCI 临床方法已有多中心验证，置信度高；工具价值独立于 IIT 理论争议"
+    },
+    {
+      "slug": "connectomics",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-06-18",
+      "reason": "创建 2026-06-18。C. elegans 连接组（White 1986）是神经科学经典，果蝇连接组（FlyWire 2024）已完成并经多方法验证。连接组作为结构图谱已达教科书级别，但结构-功能关系仍是前沿（confidence high for the method itself; predictions derived from connectome are emerging-mainstream depending on circuit complexity）。"
+    },
+    {
+      "slug": "circuit-motifs",
+      "status": "mainstream",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-06-18",
+      "reason": "创建 2026-06-18。前馈回路（FFL）在多个物种的神经和基因调控网络中均有文献支持（Milo 2002, PMID:12399590；神经科学多项研究）。Drosophila FlyWire 提供了至今最大规模的系统性验证（Lin 2024, PMID:39358527）。功能诠释（这些主题确实执行特定计算）是主流但非全部经实验确认，故 mainstream 而非 established。"
     }
   ],
   "entries": [

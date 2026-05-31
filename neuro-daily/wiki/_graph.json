@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-31",
-  "node_count": 70,
-  "edge_count": 410,
+  "updated": "2026-06-18",
+  "node_count": 77,
+  "edge_count": 452,
   "edge_types": [
     "is-a",
     "part-of",
@@ -688,6 +688,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/temporal-hierarchy.md"
+    },
+    {
+      "id": "connectomics",
+      "title": "连接组学",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/connectomics.md"
+    },
+    {
+      "id": "circuit-motifs",
+      "title": "回路主题",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/circuit-motifs.md"
     }
   ],
   "edges": [
@@ -3168,6 +3186,76 @@
       "from": "temporal-hierarchy",
       "to": "world-model",
       "type": "supports"
+    },
+    {
+      "from": "connectomics",
+      "to": "synaptic-transmission",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "connectomics",
+      "to": "action-potential",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "optogenetics",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "circuit-motifs",
+      "to": "connectomics",
+      "type": "part-of"
+    },
+    {
+      "from": "circuit-motifs",
+      "to": "dendritic-computation",
+      "type": "related"
+    },
+    {
+      "from": "circuit-motifs",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "circuit-motifs",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "circuit-motifs",
+      "to": "pv-interneurons",
+      "type": "related"
     }
   ],
   "dangling_references": [
