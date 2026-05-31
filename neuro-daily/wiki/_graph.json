@@ -751,6 +751,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/emotional-memory-depotentiation.md"
+    },
+    {
+      "id": "adversarial-collaboration",
+      "title": "对抗性协作",
+      "domain": "methods",
+      "type": "method",
+      "status": "emerging",
+      "confidence": "high",
+      "page": "wiki/methods/adversarial-collaboration.md"
     }
   ],
   "edges": [
@@ -3483,6 +3492,41 @@
       "to": "rem-sleep",
       "type": "related",
       "note": "系统巩固的NREM（信息内容）+REM（情感维度）双阶段架构"
+    },
+    {
+      "from": "adversarial-collaboration",
+      "to": "integrated-information-theory",
+      "type": "related"
+    },
+    {
+      "from": "adversarial-collaboration",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "adversarial-collaboration",
+      "to": "consciousness-ignition",
+      "type": "related"
+    },
+    {
+      "from": "adversarial-collaboration",
+      "to": "posterior-cortical-hot-zone",
+      "type": "related"
+    },
+    {
+      "from": "integrated-information-theory",
+      "to": "adversarial-collaboration",
+      "type": "related"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "adversarial-collaboration",
+      "type": "related"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "adversarial-collaboration",
+      "type": "related"
     }
   ],
   "dangling_references": [

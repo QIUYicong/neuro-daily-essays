@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-05-31（第 34 篇·COGITATE预注册对决意识理论·裁决矛盾 C-2026-05-31-01 & C-2026-05-31-02·课程路线8·意识与自我 + 方法论）
+
+**源文章**：[[2026-05-31-cogitate-adversarial-test-consciousness]] —《当意识理论遭遇实验法庭：COGITATE预注册对决如何同时挑战IIT与全局工作空间理论》
+
+**新建页面（1）**：
+- `methods/adversarial-collaboration.md`（对抗性协作）🟡 emerging / 置信度高 — 理论家共同预注册预测+通过/失败标准；COGITATE 2025 是最大规模实践（256人，3模态，IIT vs GNWT）；操作化争议是核心局限
+
+**修订页面（3）**：
+- `theories/integrated-information-theory.md`（修订#2）— 补充 COGITATE 全文精确数字（3.8% 电极持续激活，BF₀₁=1.15–4.9，<0.75s 同步，方向信息 0.5s 后衰减）；新增 adversarial-collaboration 相关链接；key_sources 补充 PMID:32135090
+- `theories/global-workspace-theory.md`（修订#4）— 补充 COGITATE 精确数字（0/655 offset ignition，PFC 70% 0.2-0.4s，BF₀₁=1.94×10⁴）；更新证据表（拆分 PFC 解码条目+新增 offset ignition 失败行）；新增 adversarial-collaboration 相关链接
+- `concepts/consciousness-ignition.md`（修订#3）— 证据表新增 offset ignition 完全缺失行（0/655）+ onset 时序偏差行；新增 Q-cogitate-02 于未解问题；source_articles 补充 COGITATE 文章
+
+**矛盾裁决进展**：
+- C-2026-05-31-01（IIT 后方皮层同步 vs COGITATE 否定）：**未裁决，但已深化**。COGITATE 全文数字（3.8% 电极，BF₀₁=1.15–4.9）进一步支持 claim_B（IIT 同步预测失败），但 IIT 理论家认为操作化不完全代表理论核心。状态维持 open，confidence 降级记录在 wiki。
+- C-2026-05-31-02（GNWT offset ignition vs COGITATE 否定）：**未裁决，但已深化**。0/655 电极的 offset ignition 极强地支持 claim_B（GNWT 预测失败），但 GNWT 阵营争辩操作化版本非核心预测。状态维持 open。
+
+**新增悬空引用**：无（图谱 83 节点 492 条边，无悬空边）
+
+---
+
 ## 2026-05-31（第 34 篇·REM睡眠与情绪记忆·深化课程路线4·学习与记忆 + 课程路线6·情绪与动机）
 
 **源文章**：[[2026-05-31-rem-sleep-emotional-memory]] —《情绪炼金炉：REM睡眠如何重写记忆的情感底色》

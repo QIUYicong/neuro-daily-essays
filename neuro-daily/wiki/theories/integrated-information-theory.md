@@ -7,13 +7,13 @@ status: contested
 confidence: medium
 created: 2026-05-31
 updated: 2026-05-31
-revision_count: 1
+revision_count: 2
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
 related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
 opens_questions: [Q-iit-01, Q-iit-02, Q-iit-03, Q-iit-04, Q-iit-05]
-source_articles: [2026-05-31-integrated-information-theory]
-key_sources: ["PMID:19098144", "PMID:27225071", "PMID:27094080", "PMID:23946194", "PMID:40307561", "PMID:36763595"]
+source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness]
+key_sources: ["PMID:19098144", "PMID:27225071", "PMID:27094080", "PMID:23946194", "PMID:40307561", "PMID:36763595", "PMID:32135090"]
 ---
 
 # 整合信息理论 (Integrated Information Theory, IIT)
@@ -34,6 +34,10 @@ IIT 的出发点是**现象学公理**：意识体验有五个不可否认的性
 **2025 年 COGITATE 实验**（Cogitate Consortium, Nature 2025, PMID:40307561）是对 IIT 最严格的预注册检验（256 被试，fMRI + MEG + iEEG）。结果：IIT 预测的**后方皮层内部持续同步缺失**，方向等基本意识内容无持续性后方表征。部分支持：意识内容信息确实在后方视觉皮层可解码。结论：**IIT 的核心机制预测（网络连接特征）受到严峻挑战，框架需要修订**。
 
 状态评级为 `contested`：IIT 的某些预测（PCI 临床应用、小脑低 Φ）有支持，但核心神经机制预测（后方皮层同步）被 COGITATE 否定。
+
+**COGITATE 精确数字**（来自 PMC 全文，2026-05-31 补充）：
+- P2-IIT 失败量化：仅 25/657（3.8%）后方皮层电极显示持续激活；贝叶斯 BF₀₁=1.15–4.9（支持零假设）；同步持续时间 <0.75s，且在低频段而非 gamma 频段。
+- P1-IIT 细节：iEEG 后方皮层类别解码 ~95%（部分支持），但方向信息仅持续约 0.5s（与"持续表征"预测不符）；身份信息在前额叶完全缺失。
 
 ## 关键机制
 
@@ -82,6 +86,7 @@ IIT 主张，正是这些连接特征使后方皮层具有高 Φ，成为意识�
 ## 连接
 
 - [[global-workspace-theory]] — 主要竞争理论；两者在"前额叶 vs 后方皮层"上有根本分歧；COGITATE 2025 对双方同时构成挑战
+- [[adversarial-collaboration]] — COGITATE 实验所采用的方法论；该方法直接催生了本页的最关键证据
 - [[consciousness-ignition]] — GWT 的点燃机制；IIT 预测"持续激活"而非"瞬态点燃"
 - [[phi-measure]] — Φ 是 IIT 的核心量化度量，本页的数学核心
 - [[posterior-cortical-hot-zone]] — IIT 的解剖核心预测；后方皮层为意识基质
@@ -101,6 +106,7 @@ IIT 主张，正是这些连接特征使后方皮层具有高 Φ，成为意识�
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《意识等于整合信息》(#29) · 初始置信度：中（IIT 是 mainstream 理论，但 COGITATE 2025 核心机制预测受挑战 → 降为 contested）
+- 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 全文精确数字（3.8% 电极持续激活，BF₀₁=1.15–4.9，<0.75s 同步）；新增 adversarial-collaboration 相关页面；新增 COGITATE 精确数字段落；补充 key_source PMID:32135090
 
 ## 来源文章
 

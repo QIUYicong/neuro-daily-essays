@@ -45,7 +45,8 @@
       "nature": "核心机制预测 vs 实验否定：IIT 的后方皮层同步预测与 COGITATE 2025 多模态大数据直接冲突；可能原因：(a) IIT 机制描述需要修订（同步预测过于具体）；(b) 实验只测试阈上持续刺激，不代表所有意识条件；(c) IIT 3.0 的具体预测推导有误",
       "status": "open",
       "opened": "2026-05-31",
-      "priority": "high"
+      "priority": "high",
+      "evidence_update": "2026-05-31 (#35): COGITATE 全文读取补充数字——仅 3.8% 后方电极持续激活，BF₀₁=1.15–4.9，同步持续 <0.75s 且在低频段（非 gamma）。进一步支持 claim_B，但 IIT 阵营主张 gamma 同步只是操作化的一种可能表现，非 IIT 唯一预测。裁决仍 open。"
     },
     {
       "id": "C-2026-05-31-02",
@@ -55,7 +56,8 @@
       "nature": "GWT 点燃预测的局部证伪：偏移点燃缺失是对 GNWT 的直接挑战；GWT 阵营回应：(a) 偏移点燃从未是 GWT 的核心预测；(b) 实验只用阈上刺激，无法测试 GWT 的最核心分叉预测；(c) 前额叶的类别信息解码仍部分支持 GWT",
       "status": "open",
       "opened": "2026-05-31",
-      "priority": "high"
+      "priority": "high",
+      "evidence_update": "2026-05-31 (#35): COGITATE 全文读取补充数字——0/655 前额叶 iEEG 电极显示 offset ignition；BF₀₁=1.94×10⁴（面孔-物体类别）、1,205（方向）均强支持零假设。GNWT 阵营主张 offset ignition 从未是核心预测，实验只用阈上刺激未能检验最核心的有意识/无意识分叉。裁决仍 open，但证据进一步强化 claim_B。"
     }
   ]
 }

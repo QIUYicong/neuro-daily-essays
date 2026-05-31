@@ -7,12 +7,12 @@ status: mainstream
 confidence: medium
 created: 2026-05-30
 updated: 2026-05-31
-revision_count: 2
+revision_count: 3
 dimensions: [whole-brain-network, brain-region, cognition, cellular]
 related: [global-workspace-theory, prefrontal-cortex, working-memory, p3-wave, attentional-blink, gamma-oscillations, beta-oscillations, integrated-information-theory, posterior-cortical-hot-zone]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-integrated-information-theory]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness]
 key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062", "PMID:15482443", "PMID:29567809"]
 ---
 
@@ -83,6 +83,8 @@ key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062"
 | 只有被感知刺激触发 PFC 持续放电 | 猕猴同时 V1/V4/PFC 记录 | PMID:29567809（摘要） | 高 |
 | 点燃产生 P3b + 长程 gamma/beta 同步 | EEG/MEG 多范式 | PMID:32135090（全文）；PMID:21521609 | 高（但P3b地位见争议） |
 | P3b 在无报告范式下消失 | 无报告范式 EEG | DOI:10.1093/cercor/bhae415 | 中 |
+| Offset ignition 完全缺失（0/655 前额叶 iEEG 电极） | COGITATE 2025 预注册 iEEG | PMID:40307561（全文） | 高（支持零假设；BF₀₁ 极大） |
+| Onset 响应有但早（0.15s）且非内容特异 | COGITATE 2025 iEEG | PMID:40307561（全文） | 高 |
 
 ## 连接
 
@@ -98,11 +100,13 @@ key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062"
 - Q-gwt-01：P3b 究竟是意识本身的标志，还是有意识知觉后续处理（报告）的标志？
 - Q-gwt-02：PFC 在点燃中是触发者、维持者，还是主要负责报告/决策？
 - Q-gwt-03：点燃真的是全有全无的吗？是否存在"部分点燃"状态（如模糊知觉）？
+- Q-cogitate-02：COGITATE 检测的是阈上刺激场景；若使用有意识 vs 无意识分叉范式（GNWT 的核心检验场景），onset ignition 是否会更强？
 
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《当意识在大脑中"点燃"》一文 · 初始置信度：中（点燃的核心证据汇聚，但 P3b 地位争议、PFC 精确角色未定、全有全无性质有争议）
 - 2026-05-31 · 修订 · 基于《意识等于整合信息》(#29) · 新增：COGITATE 2025（Nature, PMID:40307561）对点燃预测的挑战——刺激偏移时前额叶点燃缺失，前额叶对具体意识内容的特异性解码有限；新增 IIT 对比框架（持续激活 vs 瞬态点燃）；新增 integrated-information-theory 和 posterior-cortical-hot-zone 作为 related 页面
+- 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 精确数字（0/655 offset ignition, onset 0.15s 偏早）；在证据表新增两行（offset ignition 失败 + onset 时序偏差）；新增 Q-cogitate-02 于未解问题
 
 ## 来源文章
 

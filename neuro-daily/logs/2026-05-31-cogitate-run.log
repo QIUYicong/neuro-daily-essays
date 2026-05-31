@@ -1,0 +1,107 @@
+# 运行日志：2026-05-31（COGITATE 对决文章）
+
+**运行时间**：2026-05-31
+**文章编号**：#35
+**分支**：main
+
+---
+
+## 状态读取
+
+- topic_ledger.json：读取成功，total_articles=34，最近文章 #33（sleep spindles, 2026-06-19）、#34（REM sleep, 2026-05-31）
+- unresolved_questions.md：读取成功，最新问题来自 2026-05-31（REM sleep）和 2026-06-19（sleep spindles）
+- contested_claims.json：读取成功，open_count=4（C-2026-05-24-01, C-2026-05-25-01, C-2026-05-31-01, C-2026-05-31-02，其中后两条 HIGH 优先级）
+- wiki/_graph.json：读取成功，82节点/485边，无悬空引用
+- 仓库初始分支：claude/funny-einstein-0tUh8 → 已 checkout 并 pull main
+
+---
+
+## 选题分析
+
+**优先级判断**：
+1. 突破追踪：已有文章到2026-06-19，无需额外检索
+2. 裁决矛盾：**C-2026-05-31-01 和 C-2026-05-31-02（HIGH priority）** 均指向 COGITATE 2025（PMID:40307561）
+3. 悬空引用：无（图谱清洁）
+4. 高连接低置信：competition-selection-principle（emerging/medium），但优先级低于矛盾裁决
+
+**选定主题**：COGITATE 2025 预注册对决实验——裁决 C-2026-05-31-01 & C-2026-05-31-02
+**理由**：两条 HIGH 优先级矛盾均指向同一关键实验；该实验为 Nature 2025 开放全文；有丰富的可验证数字结果；填补了意识理论的重要认知地图空白
+
+---
+
+## 文献检索
+
+**搜索词**：
+- "COGITATE consciousness adversarial collaboration IIT global workspace" → PMID:40307561（唯一结果）
+- "adversarial collaboration consciousness integrated information global workspace" → 6 结果（PMID:40307561, 36763595, 42115661, 42215489, 40410191, 41739818）
+- "integrated information theory consciousness Tononi phi neural correlates" → PMID:32107495（不相关）
+- "global neuronal workspace theory Dehaene Changeux ignition consciousness" → PMID:32135090
+- 直接 efetch：PMID:27225071, 21521609, 32135090, 27094080, 36763595
+
+**数据源**：
+- PubMed E-utilities（esearch + efetch）
+- PMC Open Access（PMC12137136 全文）：读取成功，获得详细数字结果
+
+---
+
+## 来源采用与排除
+
+**采用（6个）**：
+1. PMID:40307561（PMC12137136）：主要来源，COGITATE 全文，Nature 2025 ✓
+2. PMID:36763595（PMC9916582）：COGITATE 协议预注册，PLoS One 2023 ✓
+3. PMID:27225071：IIT 3.0 奠基论文，Tononi 2016，摘要（非开放）✓
+4. PMID:21521609：GWT 综述，Dehaene 2011，摘要（非开放）✓
+5. PMID:32135090（PMC8770991）：GNW 综述，Mashour 2020，PMC 全文 ✓
+6. PMID:27094080：后方皮层热区假说，Koch 2016，摘要（非开放）✓
+
+**排除**：
+- PMID:32107495（鱼群 IIT 研究）：不相关，主题不符
+- PMID:42115661, 42215489, 40410191（COGITATE 数据集）：数据集论文，不作为主要来源
+- PMID:41739818：未读取，未纳入
+
+**来源限制**：4个来源只读了摘要（非开放全文）；已在文章中标注"摘要（非开放）"
+
+---
+
+## 固结结果
+
+**新建 wiki 页面（1）**：
+- `wiki/methods/adversarial-collaboration.md`（对抗性协作）
+
+**修订 wiki 页面（3）**：
+- `wiki/theories/integrated-information-theory.md`（revision_count: 1→2）
+- `wiki/theories/global-workspace-theory.md`（revision_count: 3→4）
+- `wiki/concepts/consciousness-ignition.md`（revision_count: 2→3）
+
+**图谱更新**：83节点（+1 adversarial-collaboration）/ 492边（+7）
+
+---
+
+## 矛盾处理
+
+**C-2026-05-31-01**（IIT 后方同步 vs COGITATE）：
+- 新增 evidence_update 字段（全文数字：3.8%电极，BF₀₁=1.15–4.9）
+- 进一步支持 claim_B（IIT 机制预测失败）
+- 裁决维持 open（IIT 阵营争议操作化版本）
+
+**C-2026-05-31-02**（GNWT offset ignition vs COGITATE）：
+- 新增 evidence_update 字段（0/655电极，BF₀₁=1.94×10⁴）
+- 进一步支持 claim_B（GNWT 偏移点燃失败）
+- 裁决维持 open（GNWT 阵营争议预测是否为核心）
+
+**新增矛盾**：0（COGITATE 结果已整合进既有矛盾条目）
+
+---
+
+## 失败与限制
+
+- 来源 PMID:27225071（IIT 3.0）和 PMID:27094080（Koch 2016 热区）无开放全文；使用摘要
+- 两个矛盾（C-2026-05-31-01, C-2026-05-31-02）无法裁决为"resolved"——因为理论家本身在争议操作化是否代表核心预测；这是一个方法论上的根本性争议，单篇实验无法终结
+
+---
+
+## Git 操作
+
+**分支**：main
+**commit message**：Add neuro daily article + wiki consolidation for 2026-05-31 (COGITATE adversarial test)
+**push 状态**：待推送

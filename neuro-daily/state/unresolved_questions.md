@@ -1135,3 +1135,39 @@
 - **问题**：IIT 的排他性公理要求：意识基质是单一最大 Φ 复合体——每次只有一个"最大整合子系统"是有意识的，比它更大的系统因为包含多个可分割的子系统而 Φ 实际上更低。这导致了一个奇怪的结论：将两个有意识的系统合并，可能使合并后的系统 Φ 更低，从而"消灭"意识（Doerig et al. 2019 批评）。能否修订排他性公理而不破坏 IIT 的其余部分？修订后的理论是否依然能产生可检验的预测？
 - **当前证据状态**：哲学争议已有（Doerig et al. 2019 等）；IIT 阵营的官方回应：排他性公理是必要的，因为意识"不会比当前状态更多或更少"；但这个论证是否足够仍有争议
 - **为什么重要**：如果排他性公理不可修订，IIT 面临严重的哲学反直觉推论；如果可修订，则需要更新整个 IIT 3.0 数学框架
+
+---
+
+## 2026-05-31 新增（来自"当意识理论遭遇实验法庭：COGITATE 对决"一文，#35）
+
+### Q-cogitate-01（高优先级）：意识是否可以用单一位点或时刻来定义？
+
+- **关联 wiki**：[[adversarial-collaboration]]、[[integrated-information-theory]]、[[global-workspace-theory]]、[[consciousness-ignition]]
+- **来源文章**：2026-05-31-cogitate-adversarial-test-consciousness
+- **问题**：COGITATE 的阴性结果（IIT 后方同步失败 + GNWT offset ignition 失败）是否意味着，意识依赖于更分散、更动态、难以被单一区域或时刻操作化的神经模式？如果意识是一种**分布式动态状态**而非"在哪里"或"在什么时候"触发的过程，那么任何基于单一区域或单一时间窗的预测都必然不完整。问题是：（a）如何设计能检验"分布式动态模式假说"的实验？（b）哪些计算框架（如神经流形、全脑动力系统理论）可以提供可操作化的预测？
+- **当前证据状态**：COGITATE 提供了强有力的"排除证据"（两种点状预测都失败），但没有提供正向的替代假说验证
+- **为什么重要**：如果意识科学的预测单元必须是"全局动态模式"而非"区域或时刻"，那么当前神经成像的分析框架需要根本性升级
+
+### Q-cogitate-02（高优先级）：COGITATE 是否真的检验了 GNWT 的核心预测？
+
+- **关联 wiki**：[[global-workspace-theory]]、[[consciousness-ignition]]、[[adversarial-collaboration]]
+- **来源文章**：2026-05-31-cogitate-adversarial-test-consciousness
+- **问题**：GNWT 支持者指出，COGITATE 只用了阈上刺激（所有呈现的刺激都被感知），而 GNWT 的**最强可证伪预测**是"有意识 vs 无意识知觉分叉"——即相同刺激在被感知时（vs 不被感知时）前额叶的非线性激活差异。COGITATE 协议预注册了 offset ignition 作为关键检验，但 GNWT 阵营事后声称这从未是核心预测。问题是：（a）是否应该设计专门的有意识/无意识分叉版 COGITATE（使用阈值附近的刺激）来真正检验 GNWT？（b）如果操作化争议可以无限持续，对抗性协作方法论如何建立最终裁判权威？
+- **当前证据状态**：offset ignition 完全缺失（0/655 电极）；但 GNWT 支持者认为这不是核心检验场景
+- **为什么重要**：直接关系到对抗性协作是否真能"关闭争议"；影响意识科学方法论的未来发展方向
+
+### Q-cogitate-03（中优先级）：哪些其他意识理论可以接受类似的预注册对决检验？
+
+- **关联 wiki**：[[adversarial-collaboration]]、[[predictive-coding]]、[[integrated-information-theory]]、[[global-workspace-theory]]
+- **来源文章**：2026-05-31-cogitate-adversarial-test-consciousness
+- **问题**：COGITATE 只检验了 IIT 和 GNWT。以下理论各有哪些可操作化的预测，可以接受类似的严格检验？（a）**复发处理理论（RPT, Lamme）**：意识 = 局部反馈循环，不需要前额叶；（b）**高阶理论（HOT, Rosenthal）**：意识需要对意识内容本身的高阶表征（前额叶或顶叶的元表征）；（c）**预测处理/自由能原理（FEP, Friston）**：意识 = 精度加权的预测误差，与注意机制紧密关联。哪个理论能首先产生足够具体的预注册预测？
+- **当前证据状态**：RPT 有一些无报告范式支持；HOT 在高阶皮层损伤研究中有间接支持；FEP 框架丰富但预测非常难以操作化
+- **为什么重要**：意识理论检验的下一步路线图
+
+### Q-cogitate-04（中优先级）：COGITATE 检验的是感觉意识（qualia）还是认知通达（access consciousness）？
+
+- **关联 wiki**：[[adversarial-collaboration]]、[[global-workspace-theory]]、[[posterior-cortical-hot-zone]]
+- **来源文章**：2026-05-31-cogitate-adversarial-test-consciousness
+- **问题**：Block（1995, 2007）区分了两种意识：（a）**现象意识（P-意识）**：内在感觉体验（qualia，"红色看起来是红色的"）；（b）**通达意识（A-意识）**：可以被报告、在认知任务中使用的信息。COGITATE 的任务（目标检测 + 颜色检测）大量依赖认知通达，而非纯粹测试内在体验。GNWT 明确针对通达意识；IIT 声称测量现象意识。那么 COGITATE 的结果主要约束了哪种意识的神经基础？如果 P-意识和 A-意识有不同的神经基质，那么 COGITATE 对 IIT（描述 P-意识）的检验效力可能受限。
+- **当前证据状态**：Block vs Dehaene 关于 P/A 意识分离的争论已持续 20 年；COGITATE 本身没有专门分离两种意识的实验操作
+- **为什么重要**：影响如何解读 COGITATE 阴性结果对 IIT 的意义；也是 GWT "只描述通达意识" 的历史批评

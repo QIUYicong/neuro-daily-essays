@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-31",
-  "total_articles": 34,
+  "total_articles": 35,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2439,6 +2439,74 @@
       "mode": "long_term_curriculum",
       "article_number": 34,
       "dangling_reference_filled": "rem-sleep 和 emotional-memory-depotentiation（填补 fear-extinction、theta-oscillations、memory-consolidation 的悬空引用；同时部分解答 Q-rem-sleep-role 和 Q-spindle-rem-division）"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "当意识理论遭遇实验法庭：COGITATE预注册对决如何同时挑战IIT与全局工作空间理论",
+      "filename": "2026-05-31-cogitate-adversarial-test-consciousness.md",
+      "article_number": 35,
+      "article_type": "regular",
+      "core_question": "COGITATE 2025 预注册对决实验（256人，fMRI+MEG+iEEG）中，IIT 预测的后方皮层持续同步和 GNWT 预测的 offset ignition 是否得到支持？结果对意识科学意味着什么？",
+      "layer": [
+        "whole-brain-network",
+        "cognition",
+        "methods"
+      ],
+      "curriculum_track": "8. 意识与自我 + 方法论（裁决矛盾 C-2026-05-31-01 & C-2026-05-31-02）",
+      "topic_tags": [
+        "COGITATE",
+        "adversarial collaboration",
+        "IIT",
+        "GNWT",
+        "consciousness",
+        "integrated information theory",
+        "global workspace theory",
+        "Tononi",
+        "Dehaene",
+        "offset ignition",
+        "posterior cortex",
+        "posterior hot zone",
+        "preregistration",
+        "Bayes factor",
+        "iEEG",
+        "fMRI",
+        "MEG",
+        "consciousness theories",
+        "neural correlates of consciousness"
+      ],
+      "main_sources": [
+        "PMID:40307561 (PMC12137136, Nature 2025, COGITATE Consortium)",
+        "PMID:36763595 (PMC9916582, Melloni 2023, PLoS One, COGITATE protocol)",
+        "PMID:27225071 (Tononi 2016, IIT 3.0, Nature Reviews Neuroscience)",
+        "PMID:21521609 (Dehaene 2011, GWT, Neuron)",
+        "PMID:32135090 (PMC8770991, Mashour 2020, GNW, Neuron)",
+        "PMID:27094080 (Koch 2016, NCC, Nature Reviews Neuroscience)"
+      ],
+      "wiki_pages_created": [
+        "wiki/methods/adversarial-collaboration.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/integrated-information-theory.md",
+        "wiki/theories/global-workspace-theory.md",
+        "wiki/concepts/consciousness-ignition.md"
+      ],
+      "contested_claims_updated": [
+        "C-2026-05-31-01",
+        "C-2026-05-31-02"
+      ],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-cogitate-01: 意识是否可以用单一位点/时刻定义？COGITATE 阴性结果是否意味着更分散的动态模式？",
+        "Q-cogitate-02: 实验只用阈上刺激——GNWT 的核心场景（有意识 vs 无意识分叉）未被检验",
+        "Q-cogitate-03: 预测处理框架（FEP, Friston）、HOT、RPT 是否能设计类似的对决实验？",
+        "Q-cogitate-04: COGITATE 发现的模式对应感觉内容（qualia）还是认知通达（access consciousness）？"
+      ],
+      "next_suggested_topics": [
+        "注意瞬盲（Attentional Blink）：GWT 最强可证伪预测，填补 Q-gwt-02（有意识 vs 无意识分叉的直接检验）",
+        "预测编码与主动推断（Active Inference）：Friston FEP 框架，是否能给出类似 COGITATE 风格的预注册预测？",
+        "高阶理论（Higher-Order Theory, HOT）与报告 vs 意识的分离：填补 Q-cogitate-02"
+      ],
+      "mode": "contested_claims_resolution"
     }
   ],
   "layer_coverage_recent": {
@@ -2529,5 +2597,16 @@
       "2026-06-18"
     ]
   },
-  "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。"
+  "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",
+  "layer_tracking": {
+    "whole-brain-network": [
+      "2026-05-31"
+    ],
+    "cognition": [
+      "2026-05-31"
+    ],
+    "methods": [
+      "2026-05-31"
+    ]
+  }
 }
