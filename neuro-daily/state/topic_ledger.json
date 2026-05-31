@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-17",
-  "total_articles": 30,
+  "last_updated": "2026-05-31",
+  "total_articles": 31,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2169,6 +2169,82 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 30
+    },
+    {
+      "date": "2026-05-31",
+      "title": "三十篇文章，一张认知地图——大脑是一台具身的预测机器（第一月度大图景）",
+      "filename": "2026-05-31-month1-grand-synthesis.md",
+      "wiki_pages_created": [
+        "wiki/concepts/predictive-brain-architecture.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/world-model.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "前30篇文章中，从 LTP 到 SWR、从多巴胺到默认模式网络，这些看似分散的机制是否共享一个统一的计算原理？大脑可以被理解为“具身预测机器”——用单一方程式 ΔW = f(时间巧合, 竞争权重, 调质增益) x 预测误差 概括所有层级的可塑性吗？",
+      "layer": [
+        "microcircuit",
+        "synapse",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior",
+        "neuromodulation",
+        "methods"
+      ],
+      "curriculum_track": "月度综合篇（第1月）",
+      "topic_tags": [
+        "monthly synthesis",
+        "embodied prediction machine",
+        "predictive brain architecture",
+        "unified equation",
+        "Hebbian learning",
+        "LTP",
+        "predictive coding",
+        "world model",
+        "neuromodulation",
+        "stability plasticity dilemma",
+        "catastrophic forgetting",
+        "complementary learning systems",
+        "default mode network",
+        "global workspace theory",
+        "four weekly frameworks",
+        "temporal coding hierarchy",
+        "competition selection",
+        "multi-timescale gain control",
+        "world model six-layer",
+        "AI brain comparison"
+      ],
+      "main_sources": [
+        "PMID:10195184 (Rao & Ballard 1999, NC, 预测编码, 开放全文)",
+        "PMID:20068583 (Friston 2010, NRN, 自由能原理, 摘要)",
+        "PMID:23040802 (McClelland et al. 1995 via Kumaran 2016, NRN, CLS理论, 摘要)",
+        "PMC3482119 (Marder 2012, Curr Biol, 神经元内在可塑性, 开放全文)",
+        "PMC8770991 (Mashour et al. 2020, Neuron, GWT综述, 开放全文)",
+        "PMC3553600 (Andrews-Hanna et al. 2011, TICS, DMN离线俳真, 开放全文)",
+        "PMC12137136 (COGITATE Consortium 2025, Nature, GWT vs IIT检验, 开放全文)",
+        "PMC5240628 (Wilson & McNaughton 2016, PMID:27899052, SWR重播, 开放全文)",
+        "PMID:41205608 (Robinson et al. 2026, Neuron, SWR大振幅选择性, 摘要)",
+        "PMID:17229863 (Hassabis et al. 2007, PNAS, 海马损伤与未来想象, 摘要)",
+        "Terry 1991 (AM计算模型，Hebbian吸引子网络；引自综合框架)"
+      ],
+      "unresolved_questions": [
+        "Q-arch-01: 统一方程 ΔW = f(时间巧合, 竞争权重, 调质增益) x 预测误差 的五个因子是独立调控还是有层级依赖？",
+        "Q-arch-02: 灃灭性遗忘问题在生物神经网络中如何被互补学习系统（CLS）真正解决——其计算机制？",
+        "Q-arch-03: 世界模型的「自我」层如何在六层架构中涌现？主观视角（phenomenal self-model）的神经基础？",
+        "Q-arch-04: 大脑在什么条件下会主动重构世界模型（而非局部更新）？是否存在「范式转变」的神经标志？",
+        "Q-arch-05: AI预测机器（Transformer）与生物预测机器的最关键差异——时间巧合检测和调质动态？"
+      ],
+      "next_suggested_topics": [
+        "第2月课程：主动推断（Active Inference）——Friston 自由能框架如何将感知、行动和情感统一，填补 Q-pc-02",
+        "注意力神经机制（Attention Mechanisms）：自上而下调控与预测编码精度权重的关系",
+        "神经发育可塑性（Critical Periods）：填补 CHANGELOG 中的悬空引用 critical-period 和 neural-development",
+        "语言网络（Language Network）：Broca-Wernicke 与预测编码语言处理，填补悬空引用 language-network",
+        "具身认知（Embodied Cognition）：身体感知对世界模型的构建作用，填补悬空引用 active-inference"
+      ],
+      "mode": "monthly_synthesis",
+      "article_number": 31,
+      "note": "第31篇，月度大图景。覆盖第1-30篇所有文章，提炼统一框架「具身预测机器」。新建 wiki 页面 predictive-brain-architecture，修订 world-model rev2。图谱：75节点，434条边。本篇为综合篇，无新增一手来源（新增 Hassabis 2007 作为补充引用）。"
     }
   ],
   "layer_coverage_recent": {
@@ -2253,5 +2329,5 @@
       "2026-06-12"
     ]
   },
-  "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。"
+  "layer_note": "2026-05-31（第31篇·月度大图景·具身预测机器）：月度综合篇，覆盖所有层级。图谱：75节点、434条边。"
 }

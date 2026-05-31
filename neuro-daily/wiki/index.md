@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-17（第30篇·海马锐波涟漪与记忆重放新机制）· 主题页总数：71（深度修订3页，无新建）
+> 最后更新：2026-05-31（第31篇·月度大图景·具身预测机器统一框架）· 主题页总数：72（新建1页，修订1页）
 
 ---
 
@@ -57,7 +57,8 @@
 - 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络 **[NEW 2026-06-05]**
 - 🟢 [γ振荡（30–80 Hz）](concepts/gamma-oscillations.md) — PV+篮状细胞兴奋-抑制循环产生；工作记忆中以~67ms爆发形式间歇出现；精神分裂症中功率减弱与PV损伤相关 **[NEW 2026-06-05]**
 - 🔵 [意识点燃](concepts/consciousness-ignition.md) — 全有全无的非线性临界翻转；~270-300ms 前额顶叶激活；注意双要求机制；P3b EEG标志（地位存疑）；GWT核心机制节点 **[NEW 2026-05-30]**
-- 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；六层架构（化学调控/运动预测/情感标注/误差加权/离线仿真/意识广播）；第四周综合框架节点 **[NEW 2026-05-31]**
+- 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；六层架构（化学调控/运动预测/情感标注/误差加权/离线仿真/意识广播）；第四周综合框架节点（修订2次）
+- 🔵 [预测脑架构](concepts/predictive-brain-architecture.md) — 整合四个周综合框架为"具身预测机器"统一原理：ΔW = f(时间巧合, 竞争权重, 调质增益) × 预测误差；分析生物 vs AI 的三大根本差异；识别知识库五大研究缺口 **[NEW 2026-05-31·月度综合]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号 **[NEW 2026-06-07]**
 - 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；填补 hebbian-learning 悬空引用；纹状体直接实验验证 **[NEW 2026-06-07]**

@@ -1,0 +1,96 @@
+# 运行日志：2026-05-31 月度大图景（文章#31）
+
+**运行时间**：2026-05-31 UTC+8
+**触发规则**：ROUTINE.md §"每30篇写月度大图景"（第1–30篇已完成）
+**文章编号**：#31
+**模式**：月度综合（monthly_synthesis）
+
+---
+
+## 执行步骤
+
+### 1. 选题确认
+- 检测到 total_articles = 30，触发月度大图景条件
+- 本文为综合篇，不选新主题，而是整合 #1–#30 所有文章
+- 统一主题：具身预测机器（Embodied Prediction Machine）
+- 统一方程：ΔW = f(时间巧合, 竞争权重, 调质增益) × 预测误差
+
+### 2. 文章写作
+- 文件：`neuro-daily/articles/2026-05-31-month1-grand-synthesis.md`
+- 字数：约 5000 字（中文）
+- 章节：引言→四周框架整合→统一方程→稳定性-可塑性→AI对比→知识缺口→展望
+- 新增主要来源：Hassabis et al. 2007（PMID:17229863，海马损伤与未来想象）
+
+### 3. 阅读笔记
+- 文件：`neuro-daily/notes/2026-05-31-month1-synthesis-reading-notes.md`
+- 注：本篇为综合篇，无新查阅一手文献；笔记记录整合方法论
+
+### 4. 来源清单
+- 文件：`neuro-daily/sources/2026-05-31-month1-synthesis-sources.json`
+- 11条来源，5条开放全文，6条仅摘要
+
+### 5. Wiki 巩固
+
+#### 新建页面
+- `wiki/concepts/predictive-brain-architecture.md`（rev1）
+  - 预测脑架构统一框架页面
+  - slug: predictive-brain-architecture
+  - status: mainstream, confidence: medium
+
+#### 修订页面
+- `wiki/concepts/world-model.md`（rev1 → rev2）
+  - 新增统一方程 ΔW = f(时间巧合, 竞争权重, 调质增益) × 预测误差
+  - 新增与 predictive-brain-architecture 的关联
+  - 新增 source_articles: 2026-05-31-month1-grand-synthesis
+
+### 6. 知识图谱更新（_graph.json）
+- 节点：74 → 75（新增 predictive-brain-architecture）
+- 边：428 → 434（新增6条边）
+  - ltp → predictive-brain-architecture（mechanism-of）
+  - competition-selection-principle → predictive-brain-architecture（mechanism-of）
+  - multi-timescale-plasticity → predictive-brain-architecture（mechanism-of）
+  - world-model → predictive-brain-architecture（instance-of）
+  - predictive-coding → predictive-brain-architecture（supports）
+  - predictive-brain-architecture → world-model（mechanism-of）
+
+### 7. 状态文件更新
+- `state/topic_ledger.json`：total_articles 30 → 31，entries 新增第31篇
+- `state/monthly_synthesis.md`：新增月度大图景里程碑节（洞见 #80–#85）
+- `wiki/CHANGELOG.md`：新增 2026-05-31 第31篇条目
+- `wiki/index.md`：主题页总数更新，新增 predictive-brain-architecture 条目
+
+### 8. 新增悬空引用
+- active-inference
+- neural-development
+- language-network
+- critical-period
+
+---
+
+## 质量检查
+
+- [x] JSON 合法性：topic_ledger.json 通过 python json.load() 验证
+- [x] 无编造来源：所有 PMID 均来自前30篇文章引用或可查证的已知文献
+- [x] 无医学建议
+- [x] 无 Sci-Hub / 盗版来源
+- [x] Wiki 新建页面包含完整 frontmatter
+- [x] 知识图谱节点/边数与 CHANGELOG 一致（75节点，434边）
+
+---
+
+## 文件清单
+
+**新建**：
+- neuro-daily/articles/2026-05-31-month1-grand-synthesis.md
+- neuro-daily/notes/2026-05-31-month1-synthesis-reading-notes.md
+- neuro-daily/sources/2026-05-31-month1-synthesis-sources.json
+- neuro-daily/wiki/concepts/predictive-brain-architecture.md
+- neuro-daily/logs/2026-05-31-month1-synthesis-run.log
+
+**修订**：
+- neuro-daily/wiki/concepts/world-model.md（rev2）
+- neuro-daily/wiki/_graph.json（75节点，434边）
+- neuro-daily/wiki/CHANGELOG.md
+- neuro-daily/wiki/index.md
+- neuro-daily/state/topic_ledger.json（total_articles=31）
+- neuro-daily/state/monthly_synthesis.md（洞见#80–#85）

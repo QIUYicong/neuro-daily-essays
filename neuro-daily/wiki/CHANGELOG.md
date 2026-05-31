@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-05-31（第 31 篇·月度大图景·具身预测机器统一框架）
+
+**源文章**：[[2026-05-31-month1-grand-synthesis]] —《三十篇文章，一张认知地图——大脑是一台具身的预测机器（第一月度大图景）》
+
+**新建页面（1）**：
+
+- `concepts/predictive-brain-architecture.md`（revision 1）：月度综合节点。整合四个周综合框架（嵌套时间编码层级/嵌套竞争-遴选架构/多层增益控制架构/世界模型六层架构）为统一的"具身预测机器"框架，提出统一方程 ΔW = f(时间巧合, 竞争权重, 调质增益) × 预测误差；分析三个生物学专有模块（情感标注层、具身时间层级、离线仿真层）与 AI 的根本差异；识别知识库五大研究缺口。
+
+**修订页面（1）**：
+
+- `concepts/world-model.md`（revision 1→2）：新增"具身预测机器"统一方程式；新增 predictive-brain-architecture 关联；source_articles 新增月度综合文章。
+
+**矛盾登记（0）**：月度综合为整合性框架，未引入可能与既有页面冲突的新实验证据。
+
+**新增悬空引用（4）**：以下概念在月度综合中被提及但无独立 wiki 页面，标记为高优先级待建：
+- `active-inference`（主动推断/自由能原理，被3页引用，月度综合再次强调为紧迫缺口）
+- `neural-development`（课程路线2完全未覆盖）
+- `language-network`（课程路线7完全未覆盖）
+- `critical-period`（在V1文章中提及，无独立节点）
+
+**图谱变化**：节点 74→75（+1：predictive-brain-architecture），边 428→434（+6：ltp→PBA mechanism-of、competition-selection-principle→PBA mechanism-of、multi-timescale-plasticity→PBA mechanism-of、world-model→PBA instance-of、predictive-coding→PBA supports、PBA→world-model mechanism-of）
+
+---
+
 ## 2026-06-17（第 30 篇·海马锐波涟漪与记忆重放·多项2024-2026新发现整合）
 
 **源文章**：[[2026-06-17-sharp-wave-ripples-memory-replay]] —《夜晚，大脑重写自己的神经地图——海马锐波涟漪、记忆选择与睡眠期巩固的新机制》

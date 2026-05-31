@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-17",
-  "node_count": 70,
-  "edge_count": 410,
+  "updated": "2026-05-31",
+  "node_count": 75,
+  "edge_count": 434,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,15 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "predictive-brain-architecture",
+      "title": "预测脑架构",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/predictive-brain-architecture.md"
+    },
     {
       "id": "action-potential",
       "title": "动作电位",
@@ -3109,6 +3118,36 @@
       "from": "sharp-wave-ripples",
       "to": "dopamine-reward-prediction-error",
       "type": "related"
+    },
+    {
+      "from": "ltp",
+      "to": "predictive-brain-architecture",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "predictive-brain-architecture",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multi-timescale-plasticity",
+      "to": "predictive-brain-architecture",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "world-model",
+      "to": "predictive-brain-architecture",
+      "type": "instance-of"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "predictive-brain-architecture",
+      "type": "supports"
+    },
+    {
+      "from": "predictive-brain-architecture",
+      "to": "world-model",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

@@ -7,12 +7,12 @@ status: emerging
 confidence: medium
 created: 2026-05-31
 updated: 2026-05-31
-revision_count: 1
+revision_count: 2
 dimensions: [cognition, whole-brain-network, brain-region, behavior, methods]
 related: [predictive-coding, default-mode-network, global-workspace-theory, fear-conditioning, dopamine-reward-prediction-error, serotonin-raphe-system, basal-ganglia, hippocampal-circuit, memory-consolidation, engram-cells]
 prerequisites: [predictive-coding, ltp, hebbian-learning, synaptic-transmission]
 opens_questions: [Q-pc-02, Q-dmn-04, Q-gwt-04]
-source_articles: [2026-05-31-week4-synthesis]
+source_articles: [2026-05-31-week4-synthesis, 2026-05-31-month1-grand-synthesis]
 key_sources: ["PMID:20068583", "PMID:10195184", "PMID:23177956", "PMID:21677128", "PMID:32135090"]
 ---
 
@@ -102,7 +102,9 @@ key_sources: ["PMID:20068583", "PMID:10195184", "PMID:23177956", "PMID:21677128"
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 初始置信度：中（整合框架，非单一实验结论）
+- 2026-05-31 · 修订 rev2 · 基于《月度大图景 #31》· 新增"具身预测机器"统一方程式 ΔW = f(时间巧合, 竞争权重, 调质增益) × 预测误差；新增 predictive-brain-architecture 关联节点；明确世界模型是四个周框架的认知目标层描述
 
 ## 来源文章
 
 - [[2026-05-31-week4-synthesis]]
+- [[2026-05-31-month1-grand-synthesis]]
