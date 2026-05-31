@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-05-31（第 37 篇：自由能原理与主动推断）
+
+**源文章**：[[2026-05-31-active-inference-free-energy-principle]] —《感知即推断，行动即预言自我实现——弗里斯顿自由能原理如何把大脑统一为一台贝叶斯机器》
+
+**新建 Wiki 页面（1）**：
+- `theories/active-inference.md`（主动推断与自由能原理）🔵 emerging / 置信度中 — 统一感知-行动-学习的变分贝叶斯元原理；Isomura 2023 体外实验提供直接证据
+
+**修订页面（1）**：
+- `theories/predictive-coding.md`（revision_count 4→5）— 澄清预测编码是 FEP 感知层实现的特例；Isomura 2023 体外实验为神经基础提供迄今最直接证据；Q-pc-02 获得部分应答
+
+**矛盾登记（0）**：无新矛盾。C-2026-05-31-01（IIT vs COGITATE）和 C-2026-05-31-02（GWT vs COGITATE）仍为 open 状态；FEP 框架为 Q-gwt-04（GWT-PC 整合）提供理论桥梁但未裁决（仍需实验验证）。
+
+**新增开放问题**：
+- Q-fep-01：主动推断在高阶认知（语言、数学推理）中的具体神经机制是什么？
+- Q-fep-02：Isomura 2023 体外验证能否在有层级结构和反馈投射的体内网络中重复？
+
+**图谱**：节点 84→85，边 499→505。新增边：active-inference → predictive-coding（is-a）、active-inference → hebbian-learning（mechanism-of）、active-inference → global-workspace-theory（related）、active-inference → world-model（mechanism-of）、active-inference → dopamine-reward-prediction-error（related）、active-inference → default-mode-network（related）
+
+---
+
 ## 2026-05-31（第 36 篇·注意瞬盲·填补 Q-gwt-02 + Q-cogitate-02·课程路线8 意识与自我 第五篇）
 
 **源文章**：[[2026-05-31-attentional-blink]] —《注意瞬盲：当意识成为稀缺资源，大脑如何在时间中撞墙》

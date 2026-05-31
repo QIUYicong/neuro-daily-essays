@@ -769,6 +769,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/attentional-blink.md"
+    },
+    {
+      "id": "active-inference",
+      "title": "主动推断与自由能原理",
+      "domain": "theories",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/theories/active-inference.md"
     }
   ],
   "edges": [
@@ -3578,6 +3587,36 @@
       "to": "attentional-blink",
       "type": "related",
       "note": "注意瞬盲填补了 COGITATE 未能检验的 GWT 核心有/无意识分叉场景"
+    },
+    {
+      "from": "active-inference",
+      "to": "predictive-coding",
+      "type": "is-a"
+    },
+    {
+      "from": "active-inference",
+      "to": "hebbian-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "active-inference",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "world-model",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "active-inference",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "default-mode-network",
+      "type": "related"
     }
   ],
   "dangling_references": [

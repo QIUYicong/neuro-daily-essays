@@ -7,12 +7,12 @@ status: mainstream
 confidence: medium
 created: 2026-06-15
 updated: 2026-05-31
-revision_count: 4
+revision_count: 5
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
 related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-05-31-active-inference-free-energy-principle]
 key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583"]
 ---
 
@@ -116,6 +116,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-06-16 · 修订 · 基于《默认模式网络》一文 · 添加 DMN 作为预测编码层级高层先验生成器的关联；related 新增 default-mode-network
 - 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 添加 GWT 与预测编码的互补关系：足够大的预测误差触发工作空间点燃；related 新增 global-workspace-theory
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将预测编码定位为「世界模型误差加权更新层」；新增 world-model 到 related；明确预测编码给出了世界模型的贝叶斯更新方程：Δmodel ∝ precision_weighted_prediction_error
+- 2026-05-31 · 修订 · 基于《感知即推断，行动即预言自我实现》(第 37 篇) · 澄清预测编码是 FEP 感知层实现的特例；Isomura 2023 体外实验直接验证了突触轨迹沿自由能曲面下降，为预测编码的神经基础提供迄今最直接证据（PMID:37550277）；Q-pc-02 获得部分应答（过程理论可检验）
 
 ## 来源文章
 

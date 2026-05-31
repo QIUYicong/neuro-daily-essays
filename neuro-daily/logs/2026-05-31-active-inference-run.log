@@ -1,0 +1,119 @@
+# 运行日志：2026-05-31（第 37 篇：自由能原理与主动推断）
+
+**运行时间**：2026-05-31
+**分支**：claude/funny-einstein-A580l
+**状态**：完成
+
+---
+
+## 选题决策
+
+**输入分析**：
+- topic_ledger 显示 36 条已有条目，最新为 #36 注意瞬盲
+- 近期文章集中于意识/认知层（IIT、GWT、COGITATE、注意瞬盲、REM 睡眠）
+- 最近 7 天无主要新突破可追踪（以本知识库中的 2026-05-31 为基准日）
+- 悬空引用：0（图谱完整）
+- Open contested claims：4（C-2026-05-24-01、C-2026-05-25-01、C-2026-05-31-01、C-2026-05-31-02）
+- 高优先级 unresolved questions：Q-pc-02（FEP 可证伪性）、Q-gwt-04（GWT-PC 整合）
+
+**选题理由**：
+- 主动推断与自由能原理（FEP）是知识库缺失的关键"宿主框架"
+- 直接回答 Q-pc-02 和 Q-gwt-04
+- 与近期意识文章形成深层次理论延伸，同时覆盖分子/突触层级（Hebbian 学习）提供层级多样性
+- next_suggested_topics 排名第一的推荐
+
+---
+
+## 检索过程
+
+**搜索词**：
+1. "Friston free energy principle active inference neuroscience review PMC open access 2024 2025"
+2. "active inference free energy principle brain perception action Karl Friston 2023 2024 open access review"
+3. "predictive coding active inference hierarchical brain evidence neuroscience biological Friston PMID PMC 2022 2023"
+4. "free energy principle synaptic plasticity Hebbian learning predictive coding evidence review PMC open access"
+5. "Rao Ballard 1999 predictive coding visual cortex hierarchical model nature neuroscience PMID"
+6. "Friston 2010 free energy principle unified brain theory predictive coding action perception PMID PMC"
+7. "free energy principle active inference action policy selection precision weighting evidence biological review 2023 2024"
+
+**候选论文数**：~15 篇
+**采用（精读/全文）**：6 篇（PMC 全文或 OA）
+**采用（摘要只读）**：2 篇（Friston 2010、Rao & Ballard 1999，均明确标注）
+**排除及原因**：
+- 多篇 ResearchGate PDF：非授权来源，排除
+- 多篇 ScienceDirect 全文链接：付费墙，排除，仅使用可得摘要
+- arXiv 预印本：未使用作为核心来源
+
+**核心来源**：
+- PMID:37550277（Isomura 2023, Nature Communications, OA）——最重要的直接实验证据
+- PMID:28298703（Bogacz 2017, PMC5341759）——教程
+- PMID:34957844（Pezzulo et al. 2021, PMC8710884）——进化视角
+- PMID:19528002（Friston & Kiebel 2009）——行动机制
+- PMID:38689714（Friston 2024 访谈, PMC OA）——最新立场
+- PMID:39451909（Badcock & Davey 2024, OA）——精神疾病应用
+
+---
+
+## 固结步骤
+
+**新建 wiki 页**：
+- `theories/active-inference.md`（主动推断与自由能原理）
+
+**修订 wiki 页**：
+- `theories/predictive-coding.md`（revision_count 4→5）
+
+**矛盾检查**：
+- 无新矛盾登记
+- C-2026-05-31-01、C-2026-05-31-02 仍 open；FEP 提供理论桥梁但未裁决
+
+**新增 unresolved questions**：
+- Q-fep-01（主动推断高阶认知机制）
+- Q-fep-02（体内层级验证）
+
+**图谱更新**：
+- 节点：84 → 85
+- 边：499 → 505
+
+---
+
+## 文件列表
+
+**情景层（append-only）**：
+- `articles/2026-05-31-active-inference-free-energy-principle.md` ✅ 创建
+- `notes/2026-05-31-active-inference-reading-notes.md` ✅ 创建
+- `sources/2026-05-31-active-inference-sources.json` ✅ 创建
+- `logs/2026-05-31-active-inference-run.log` ✅ 创建（本文件）
+
+**语义层（修订）**：
+- `wiki/theories/active-inference.md` ✅ 创建
+- `wiki/theories/predictive-coding.md` ✅ 修订
+- `wiki/_graph.json` ✅ 更新（节点 85，边 505）
+- `wiki/CHANGELOG.md` ✅ 追加
+- `wiki/index.md` 待更新
+
+**治理层**：
+- `state/topic_ledger.json` ✅ 追加
+- `state/maturity_index.json` ✅ 追加
+- `state/source_registry.json` ✅ 追加
+- `state/unresolved_questions.md` ✅ 追加
+- `state/monthly_synthesis.md` ✅ 追加
+
+---
+
+## 自检结果
+
+- [x] wiki 每条新主张都有来源（PMID/DOI/URL）？是
+- [x] 区分了事实/主流模型/推测/争议？是（Friston 2010 标注未读全文；FEP 可证伪性争议如实记录）
+- [x] 没有把单篇/小样本研究写成定论？是（Isomura 2023 明确标注局限）
+- [x] 冲突走了矛盾协议？无新冲突
+- [x] 被修订页的 updated/revision_count/修订历史同步了？是
+- [x] _graph.json 无悬空边？是（检查通过，0 悬空）
+- [x] index.md 与 CHANGELOG 反映了今天的变化？CHANGELOG 已更新；index.md 待补
+- [x] 情景层文件 append-only？是
+
+---
+
+## Push 状态
+
+**commit**：待提交
+**branch**：claude/funny-einstein-A580l
+**push 目标**：origin claude/funny-einstein-A580l（remote 指向 QIUYicong/neuro-daily-essays）

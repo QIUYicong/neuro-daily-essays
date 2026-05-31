@@ -4221,7 +4221,52 @@
         "PTSD",
         "review"
       ]
+    },
+    {
+      "pmid": "37550277",
+      "doi": "10.1038/s41467-023-40141-z",
+      "title": "Experimental validation of the free-energy principle with in vitro neural networks",
+      "used_in": "2026-05-31-active-inference-free-energy-principle",
+      "covers": "体外神经网络直接验证 FEP"
+    },
+    {
+      "pmid": "28298703",
+      "pmcid": "PMC5341759",
+      "doi": "10.1016/j.jmp.2015.11.003",
+      "title": "A tutorial on the free-energy framework for modelling perception and learning",
+      "used_in": "2026-05-31-active-inference-free-energy-principle",
+      "covers": "FEP 机制教程；Hebbian 可塑性；精度加权"
+    },
+    {
+      "pmid": "34957844",
+      "pmcid": "PMC8710884",
+      "doi": "10.1098/rstb.2020.0531",
+      "title": "The evolution of brain architectures for predictive coding and active inference",
+      "used_in": "2026-05-31-active-inference-free-energy-principle",
+      "covers": "FEP 进化视角"
+    },
+    {
+      "pmid": "19528002",
+      "doi": "10.1098/rstb.2008.0300",
+      "title": "Predictive coding under the free-energy principle",
+      "used_in": "2026-05-31-active-inference-free-energy-principle",
+      "covers": "行动作为预测实现；广义坐标"
+    },
+    {
+      "pmid": "38689714",
+      "doi": "10.1093/nsr/nwae025",
+      "title": "Bayesian brain computing and the free-energy principle: an interview with Karl Friston",
+      "used_in": "2026-05-31-active-inference-free-energy-principle",
+      "covers": "自我证据化；神经形态 AI；2024 最新立场"
+    },
+    {
+      "pmid": "39451909",
+      "doi": "10.3390/e26100833",
+      "title": "Active Inference in Psychology and Psychiatry",
+      "used_in": "2026-05-31-active-inference-free-energy-principle",
+      "covers": "FEP 精神疾病应用；抑郁超精度先验假说"
     }
   ],
-  "total_sources": 220
+  "total_sources": 220,
+  "updated": "2026-05-31"
 }

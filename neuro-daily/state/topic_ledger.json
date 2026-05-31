@@ -2586,6 +2586,57 @@
       "mode": "long_term_curriculum",
       "dangling_reference_filled": "attentional-blink（填补 consciousness-ignition 和 global-workspace-theory 的悬空引用，两页均在 related 字段引用了 attentional-blink 但节点不存在；今日新建节点）",
       "note": "第36篇，系统日期UTC+8 2026-05-31。意识专题五联篇（GWT/预测编码/DMN/IIT/COGITATE/AB）完成。新建1个wiki页面（attentional-blink），修订2个（global-workspace-theory rev5, consciousness-ignition rev4）。图谱新增1节点7条边（总计83节点493条边）。填补了 COGITATE 2025 遗留的方法论缺口：注意瞬盲提供了感觉对等条件下的有/无意识分叉内部对照，是 GWT 点燃预测（270ms 前额-顶叶分叉）最干净的直接神经证据。"
+    },
+    {
+      "date": "2026-05-31",
+      "article_number": 37,
+      "title": "感知即推断，行动即预言自我实现——弗里斯顿自由能原理如何把大脑统一为一台贝叶斯机器",
+      "slug": "2026-05-31-active-inference-free-energy-principle",
+      "core_question": "弗里斯顿的自由能原理如何用最小化变分自由能原则同时统一感知（预测编码）、行动（主动推断）和学习？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "topic_tags": [
+        "active-inference",
+        "free-energy-principle",
+        "predictive-coding",
+        "bayesian-brain",
+        "friston",
+        "variational-inference",
+        "action-perception-unification"
+      ],
+      "main_sources": [
+        "PMID:20068583",
+        "PMID:28298703",
+        "PMID:37550277",
+        "PMID:34957844",
+        "PMID:19528002",
+        "PMID:38689714"
+      ],
+      "unresolved_questions": [
+        "Q-pc-02",
+        "Q-gwt-04",
+        "Q-fep-01",
+        "Q-fep-02"
+      ],
+      "wiki_created": [
+        "active-inference"
+      ],
+      "wiki_revised": [
+        "predictive-coding"
+      ],
+      "next_suggested_topics": [
+        "高阶理论（Higher-Order Theory, HOT）：意识是否需要对表征的表征？（填补 Q-cogitate-04）",
+        "发育神经科学：神经发生、轴突导向、突触修剪（课程路线 2 首篇）——切换至分子/细胞层",
+        "空间导航的神经基础：网格细胞系统、场所细胞与认知地图（课程路线 4 延伸）",
+        "主动推断的实验验证：Isomura 2023 之后，如何在体内分层神经网络中重复？（填补 Q-fep-02）"
+      ]
     }
   ],
   "layer_coverage_recent": {

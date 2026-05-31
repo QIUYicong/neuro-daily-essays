@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-05-31（第36篇·注意瞬盲·填补 Q-gwt-02+Q-cogitate-02）· 主题页总数：84（新建1页：attentional-blink；修订2页：global-workspace-theory rev5, consciousness-ignition rev4）
+> 最后更新：2026-05-31（第37篇·自由能原理与主动推断·回应 Q-pc-02+Q-gwt-04）· 主题页总数：85（新建1页：active-inference；修订1页：predictive-coding rev5）
 
 ---
 
@@ -109,6 +109,7 @@
 - 🟡 [预测编码](theories/predictive-coding.md) — 皮层层级通过自上而下的预测反馈 + 自下而上的预测误差前馈实现贝叶斯推断；Rao & Ballard 1999 奠基模型；Bastos 2012 皮层分层映射（γ=误差前馈，α/β=预测反馈）；Keller 2012 V1感觉运动失配实验；注意=精度加权；与DA-RPE同一计算结构 **[NEW 2026-06-15]**
 - 🔴 [整合信息理论（IIT）](theories/integrated-information-theory.md) — 意识 = Φ（整合信息量）；五公理推导物理约束；意识基质在后方皮层热区（而非前额叶）；小脑/视网膜低 Φ 预测与临床一致；COGITATE 2025 挑战核心机制预测（后方皮层同步缺失）；泛心论蕴含；前馈网络 Φ ≈ 0 **[NEW 2026-05-31 · 争议]**
 - 🟡 [精度加权](concepts/precision-weighting.md) — 预测误差信号携带精度权重，注意力形式化为选择性提升误差精度；ACh/NE/DA是分子层面的精度调节器；VIP-SST去抑制回路是回路层面的实现候选 **[NEW 2026-06-15]**
+- 🟡 [主动推断与自由能原理（FEP）](theories/active-inference.md) — 弗里斯顿 FEP：最小化变分自由能统一感知（预测编码）、行动（本体感觉预测自我实现）和学习（Hebbian 可塑性）；Isomura 2023 体外神经网络直接验证突触轨迹沿自由能曲面下降；精度加权=注意；预期自由能自然产生探索行为；GWT-PC 整合理论桥梁 **[NEW 2026-05-31]**
 
 ## diseases（疾病）
 
