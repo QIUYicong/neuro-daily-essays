@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "updated": "2026-05-31",
-  "node_count": 82,
-  "edge_count": 486,
+  "node_count": 83,
+  "edge_count": 493,
   "edge_types": [
     "is-a",
     "part-of",
@@ -760,6 +760,15 @@
       "status": "emerging",
       "confidence": "high",
       "page": "wiki/methods/adversarial-collaboration.md"
+    },
+    {
+      "id": "attentional-blink",
+      "title": "注意瞬盲",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/attentional-blink.md"
     }
   ],
   "edges": [
@@ -3527,6 +3536,48 @@
       "from": "consciousness-ignition",
       "to": "adversarial-collaboration",
       "type": "related"
+    },
+    {
+      "from": "attentional-blink",
+      "to": "global-workspace-theory",
+      "type": "supports",
+      "note": "注意瞬盲提供 GWT 有/无意识分叉的最直接检验场景（感觉对等条件下的神经分叉）"
+    },
+    {
+      "from": "attentional-blink",
+      "to": "consciousness-ignition",
+      "type": "mechanism-of",
+      "note": "注意瞬盲的 ~270ms 神经分叉是点燃机制时序最干净的直接证据"
+    },
+    {
+      "from": "attentional-blink",
+      "to": "working-memory",
+      "type": "related",
+      "note": "Stage 2 巩固即工作记忆编码；瓶颈机制与工作记忆容量直接相关"
+    },
+    {
+      "from": "attentional-blink",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "PFC 在 ~270ms 分叉时强烈激活，是有意识知觉的关键神经标志（但因果角色待裂决）"
+    },
+    {
+      "from": "attentional-blink",
+      "to": "competition-selection-principle",
+      "type": "mechanism-of",
+      "note": "注意瞬盲是工作空间竞争-遴选最典型的行为体现：T1 赢得竞争，T2 在广播阶段失败"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "attentional-blink",
+      "type": "related",
+      "note": "点燃机制的时序证据主要来自注意瞬盲范式"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "attentional-blink",
+      "type": "related",
+      "note": "注意瞬盲填补了 COGITATE 未能检验的 GWT 核心有/无意识分叉场景"
     }
   ],
   "dangling_references": [

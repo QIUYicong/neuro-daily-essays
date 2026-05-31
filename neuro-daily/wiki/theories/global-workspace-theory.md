@@ -7,13 +7,13 @@ status: mainstream
 confidence: medium
 created: 2026-05-30
 updated: 2026-05-31
-revision_count: 4
+revision_count: 5
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone]
+related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink]
 prerequisites: [prefrontal-cortex, working-memory, action-potential, synaptic-transmission]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-gwt-04, Q-gwt-05]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness]
-key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734"]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink]
+key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443"]
 ---
 
 # 全局工作空间理论 (Global Workspace Theory, GWT)
@@ -90,10 +90,14 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 | PFC 类别解码（~70% iEEG 精度，但仅 0.2–0.4s，无身份/方向） | COGITATE 2025 iEEG | PMID:40307561（全文） | 中（部分支持，远低于"广播全内容"预测） |
 | Offset ignition 完全缺失（0/655 前额叶电极） | COGITATE 2025 iEEG 预注册检验 | PMID:40307561（全文） | 高（支持零假设） |
 | P3b 在无报告范式中消失 → 可能反映报告/决策 | 无报告范式 EEG（Cohen et al. 2024） | DOI:10.1093/cercor/bhae415 | 中（争议中） |
+| 注意瞬盲：感觉处理完全相同条件下 ~270ms 前额-顶叶分叉 | MEG 高时间分辨率（注意瞬盲范式，有/无意识内部对照） | PMID:16158062（摘要） | 高（GWT 最直接的有/无分叉神经证据） |
+| 注意瞬盲可见度双峰分布（全有全无行为支持） | 连续量表 + 注意瞬盲范式 | PMID:15482443（摘要） | 中（Eiserbeck 2022, PMID:34435621 有争议） |
+| 注意瞬盲 vs 掩蔽神经机制可分：瞬盲作用于感觉后广播阶段 | Kanizsa + EEG 解码 | PMID:40310881（eLife 2025, 开放全文） | 高 |
 
 ## 连接
 
 - [[consciousness-ignition]] — 点燃机制的详细描述（GWT 的核心机制节点）
+- [[attentional-blink]] — 注意瞬盲提供 GWT 最直接的有/无意识分叉检验（感觉处理相同，意识结果不同）；填补了 COGITATE 的方法论缺口
 - [[adversarial-collaboration]] — COGITATE 实验所采用的方法论；催生了本页最关键的挑战证据
 - [[default-mode-network]] — DMN 是先验生成器（内部内容来源），工作空间是广播基础设施；互补而非对立
 - [[predictive-coding]] — 预测误差超阈可能触发工作空间点燃；意识 = 大脑召唤全局计算资源处理无法消解的误差
@@ -116,6 +120,7 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 新增：GWT 作为世界模型「意识广播层」的框架定位；将 GWT 点燃机制整合进六层世界模型架构；新增 world-model 作为 related 页面
 - 2026-05-31 · 修订 · 基于《意识等于整合信息》(#29) · 新增：GWT 与 IIT 的核心分歧对比（前额叶 vs 后方皮层；瞬态点燃 vs 持续激活）；COGITATE 2025 挑战细节（偏移点燃缺失，前额叶对内容特异性解码有限）；新增 integrated-information-theory 和 posterior-cortical-hot-zone 作为 related 页面
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 全文精确数字（0/655 电极 offset ignition，PFC 70% 类别解码 0.2–0.4s，BF₀₁=1.94×10⁴）；更新证据表（拆分 PFC 解码条目，新增 offset ignition 失败行）；新增 adversarial-collaboration 相关页面
+- 2026-05-31 · 修订 · 基于《注意瞬盲：当意识成为稀缺资源》(#36) · 新增注意瞬盲相关证据行（270ms 神经分叉、双峰分布、掩蔽 vs 瞬盲分离）；新增 attentional-blink 到 related 和连接节；注意瞬盲是 COGITATE 未能检验的 GWT 核心有/无意识分叉场景的直接证据
 
 ### GWT 作为世界模型的意识广播层
 

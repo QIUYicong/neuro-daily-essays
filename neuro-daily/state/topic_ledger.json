@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-31",
-  "total_articles": 35,
+  "total_articles": 36,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2507,6 +2507,85 @@
         "高阶理论（Higher-Order Theory, HOT）与报告 vs 意识的分离：填补 Q-cogitate-02"
       ],
       "mode": "contested_claims_resolution"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "注意瞬盲：当意识成为稀缺资源，大脑如何在时间中撞墙",
+      "filename": "2026-05-31-attentional-blink.md",
+      "article_number": 36,
+      "article_type": "regular",
+      "core_question": "在快速视觉呈现（RSVP）流中，当你成功感知第一个目标后，大脑为什么会在约 200–500 毫秒内系统性地失去对紧随其后第二个目标的有意识知觉——即使感觉皮层已完整处理了那个目标？注意瞬盲如何填补 COGITATE 2025 留下的方法论缺口，成为 GWT 有/无意识分叉预测最直接的检验场景？",
+      "layer": [
+        "behavior",
+        "cognition",
+        "whole-brain-network",
+        "brain-region"
+      ],
+      "curriculum_track": "8. 意识与自我（第五篇）+ 填补 Q-gwt-02 + Q-cogitate-02",
+      "topic_tags": [
+        "attentional blink",
+        "AB",
+        "RSVP",
+        "T1 T2",
+        "lag-1 sparing",
+        "two-stage bottleneck",
+        "Chun Potter 1995",
+        "global workspace theory",
+        "GWT",
+        "consciousness ignition",
+        "all-or-none",
+        "P3b",
+        "VAN",
+        "MEG 270ms",
+        "Sergent Dehaene 2004",
+        "Sergent Baillet 2005",
+        "neural correlates of consciousness",
+        "working memory consolidation",
+        "serial bottleneck",
+        "temporal granularity",
+        "boost and bounce",
+        "Noorman 2025",
+        "Eiserbeck 2022",
+        "Dellert 2022",
+        "Fu Rutishauser 2018"
+      ],
+      "main_sources": [
+        "PMID:7707027 (Chun & Potter 1995, 摘要)",
+        "PMID:15482443 (Sergent & Dehaene 2004, 摘要)",
+        "PMID:16158062 (Sergent, Baillet, Dehaene 2005, 摘要)",
+        "PMID:16603406 (Dehaene et al. 2006 Trends Cogn Sci, 摘要)",
+        "PMID:29100736 (Fu & Rutishauser 2018, 摘要)",
+        "PMID:34435621 (Eiserbeck et al. 2022, 摘要)",
+        "PMID:36220535 (Dellert et al. 2022, 摘要)",
+        "PMID:40310881 (Noorman et al. 2025 eLife, 开放全文)",
+        "PMC10784117 (Chinen et al. 2023 iScience, 开放全文)",
+        "PMID:24639586 (Raffone et al. 2014, 摘���)",
+        "PMID:32135090 (Mashour et al. 2020 Neuron, 开放全文)",
+        "PMID:40307561 (COGITATE 2025 Nature, 开放全文)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/attentional-blink.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/global-workspace-theory.md (revision 5)",
+        "wiki/concepts/consciousness-ignition.md (revision 4)"
+      ],
+      "contested_claims_logged": [],
+      "unresolved_questions": [
+        "Q-ab-01: 无意识 T2 表征是否能产生语义启动效应？是否影响后续决策？",
+        "Q-ab-02: 冥想训练如何缩短注意瞬盲？神经机制？",
+        "Q-ab-03: 双阶段模型 vs GWT 广播占据 vs 提升与反弹——哪个是真正的瓶颈机制？",
+        "Q-ab-04: Lag-1 sparing 是事件标记合并、提升效应，还是混合？"
+      ],
+      "next_suggested_topics": [
+        "主动推断与自由能原理（Active Inference/FEP）：Friston 框架如何把感知、行动、情感统一为单一最小化原理（填补 Q-pc-02 和 Q-gwt-04）",
+        "高阶理论（Higher-Order Theory, HOT）：意识是否需要对表征的表征？（填补 Q-cogitate-04）",
+        "发育神经科学：神经发生、轴突导向、突触修剪（课程路线 2 首篇）——切换层级，避免连续认知层",
+        "空间导航的神经基础：网格细胞系统、场所细胞与认知地图（课程路线 4 延伸）"
+      ],
+      "mode": "long_term_curriculum",
+      "dangling_reference_filled": "attentional-blink（填补 consciousness-ignition 和 global-workspace-theory 的悬空引用，两页均在 related 字段引用了 attentional-blink 但节点不存在；今日新建节点）",
+      "note": "第36篇，系统日期UTC+8 2026-05-31。意识专题五联篇（GWT/预测编码/DMN/IIT/COGITATE/AB）完成。新建1个wiki页面（attentional-blink），修订2个（global-workspace-theory rev5, consciousness-ignition rev4）。图谱新增1节点7条边（总计83节点493条边）。填补了 COGITATE 2025 遗留的方法论缺口：注意瞬盲提供了感觉对等条件下的有/无意识分叉内部对照，是 GWT 点燃预测（270ms 前额-顶叶分叉）最干净的直接神经证据。"
     }
   ],
   "layer_coverage_recent": {

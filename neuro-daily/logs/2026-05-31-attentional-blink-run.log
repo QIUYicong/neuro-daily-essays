@@ -1,0 +1,162 @@
+# 运行日志：2026-05-31（注意瞬盲 · 文章 #36）
+
+**运行时间**：2026-05-31 UTC+8
+**分支**：main（从 origin/main 最新状态出发）
+
+---
+
+## 步骤 0：同步 main
+
+- 切换至 main 分支，`git pull origin main` 成功，已拉取最新 22 次 commits
+- 确认 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md、neuro-daily/wiki/ 存在
+- 设置 Git 作者：GIT_AUTHOR_NAME=QIUYicong
+
+---
+
+## 步骤 A：读取状态
+
+- 读取 topic_ledger.json：total_articles=35，最新文章 #35（COGITATE对决）
+- 读取 unresolved_questions.md：最新问题来自 2026-05-31
+- 读取 contested_claims.json：2 条 open（C-2026-05-31-01 IIT/COGITATE, C-2026-05-31-02 GNWT/COGITATE）
+- 读取 _graph.json：82 节点，486 条边；attentional-blink 为悬空引用（consciousness-ignition、global-workspace-theory 均引用此 slug）
+
+---
+
+## 步骤 B：选题
+
+**选题理由**：
+1. 悬空引用填补：consciousness-ignition.md 和 global-workspace-theory.md 的 related 字段均有 `attentional-blink` slug，但节点不存在
+2. Q-gwt-02 高优先级未解问题：PFC 在意识中的精确角色——直接检验 GWT 的有/无意识分叉预测
+3. Q-cogitate-02 高优先级：COGITATE 只用阈上刺激，未检验 GWT 核心场景；注意瞬盲是完美的补充实验
+4. 在多篇最近文章的 next_suggested_topics 中排名第一
+5. 层级切换检查：behavior/cognition 层，与最近 methods/whole-brain-network 层保持轮换
+
+**选定主题**：注意瞬盲（Attentional Blink）——GWT 有/无意识分叉的最直接检验
+
+---
+
+## 步骤 C：检索与文献来源
+
+### 检索工具使用
+
+- PubMed E-utilities esearch（两个代理子任务并行）：搜索词"attentional blink neural consciousness"、"attentional blink global workspace"等
+- PMC search：open-access papers
+- PubMed efetch：验证 PMIDs 的期刊和作者信息
+
+### 文献来源汇总
+
+| 状态 | 来源 |
+|------|------|
+| 已验证 PMID / 开放全文 | PMID:7707027, 15482443, 16158062, 16603406, 29100736, 34435621, 36220535, 24639586, 30061463, 33497774, 40310881 (eLife OA), PMC10784117 (iScience OA) |
+| 已验证 PMID / 摘要 | PMID:32135090, 40307561（前文已用） |
+| PMID 未核实 | Raymond et al. 1992（期刊卷页码引用） |
+
+- **候选总数**：25 篇
+- **采用来源**：15 篇（含 2 篇前文已用作背景）
+- **开放全文**：3 篇（Mashour 2020 PMC8770991, Noorman 2025 PMID:40310881, Chinen 2023 PMC10784117）
+- **摘要**：11 篇
+- **PMID 未验证**：1 篇（Raymond 1992，标注）
+
+### 发现的重要信息
+
+1. Sergent et al. 2005 (PMID:16158062)：MEG 高时分辨率——0-200ms P1/N1 完全相同，~270ms 前额-顶叶分叉——是 GWT 有/无意识分叉最干净的神经证据
+2. Eiserbeck 2022 (PMID:34435621) vs Sergent 2004 (PMID:15482443)：全有全无 vs 梯度争议；登记为 contested
+3. Noorman 2025 (PMID:40310881)：掩蔽（感觉降级）vs 注意瞬盲（广播阻断）神经机制可分——最新干净证据
+4. Fu & Rutishauser 2018 (PMID:29100736)：人类颅内记录；MTL单细胞意识失败时延迟减弱
+5. Chinen 2023 (PMC10784117)：猕猴注意瞬盲复现——跨物种普遍性
+
+---
+
+## 步骤 D：固结（Wiki 页面创建/修订）
+
+### 新建页面
+
+1. **`wiki/concepts/attentional-blink.md`**
+   - slug: attentional-blink
+   - domain: concepts / type: mechanism / status: mainstream / confidence: high
+   - 填补 consciousness-ignition 和 global-workspace-theory 的悬空引用
+   - revision_count: 1
+
+### 修订页面
+
+2. **`wiki/theories/global-workspace-theory.md`** (revision 4 → 5)
+   - 新增 attentional-blink 到 related 和 source_articles
+   - 新增 3 行证据（270ms MEG 分叉、双峰分布、掩蔽 vs 瞬盲分离）
+   - 新增连接节描述
+   - 新增修订历史行
+
+3. **`wiki/concepts/consciousness-ignition.md`** (revision 3 → 4)
+   - 新增 attentional-blink 到 source_articles
+   - 更新 related 字段（补充 competition-selection-principle）
+   - 新增修订历史行
+
+### 矛盾检查
+
+- 无新矛盾登记
+- C-2026-05-31-01 和 C-2026-05-31-02 状态未变（仍 open）
+- 注意：全有全无 vs 梯度争议（Sergent 2004 vs Eiserbeck 2022）已在文章和 wiki 中明确标注为 contested，但不添加新 contested_claims 条目（这是同一范式内不同研究的方法差异，尚未清晰到可以形成独立矛盾登记的程度）
+
+---
+
+## 步骤 E：更新图谱与导航
+
+- _graph.json：node_count 82→83，edge_count 486→493，新增节点 attentional-blink，新增 7 条有向边
+- wiki/index.md：新增 attentional-blink 条目，更新课程路线 8 进度，更新元信息
+- wiki/CHANGELOG.md：追加今日一节（第 36 篇）
+
+---
+
+## 步骤 F：治理层
+
+- topic_ledger.json：total_articles 35→36，新增条目 #36
+- state/unresolved_questions.md：新增 Q-ab-01 到 Q-ab-04（高/中优先级）
+- source_registry.json：本次未更新（可在后续运行补充）
+- monthly_synthesis.md：本次未更新（五月月报已于 2026-05-31 #31 完成）
+
+---
+
+## 步骤 G：提交与推送
+
+- 文件：neuro-daily/ 下所有新建和修订的文件
+- commit message：Add neuro daily article + wiki consolidation for 2026-05-31 (attentional blink #36)
+- 推送目标：main
+- 仓库：QIUYicong/neuro-daily-essays
+
+---
+
+## 步骤 H：自检
+
+**真实性**：
+- ✅ 每条 wiki 新主张有来源（PMID/PMC）
+- ✅ 全有全无 vs 梯度争议明确标注为 contested
+- ✅ Raymond 1992 PMID 未验证已显式标注
+- ✅ 猕猴研究（Chinen 2023）未直接推广到人类（标注为跨物种验证）
+- ✅ 无医学诊断/治疗建议
+
+**一致性**：
+- ✅ 全有全无 vs 梯度的分歧未静默覆盖，而是如实并列
+- ✅ 被修订页 updated/revision_count/修订历史同步更新
+- ✅ _graph.json 悬空引用 attentional-blink 已解决
+
+**可导航**：
+- ✅ index.md 和 CHANGELOG.md 反映今天变化
+- ✅ 新页 related 有 7 个，prerequisites 有 3 个
+
+**情景层**：
+- ✅ articles/notes/sources/logs 齐全（不含 source_registry 小更新）
+- ✅ 未修改任何旧的 articles/notes/sources/logs 文件
+
+---
+
+## 失败与限制
+
+- source_registry.json 本次未更新（文件内容庞大，时间原因跳过；不影响知识内容完整性）
+- Raymond et al. 1992 PMID 未核实，已在所有引用处显式标注
+- Dehaene et al. 2006 (PMID:16603406) 全文未读到（Trends Cogn Sci，可能有开放版本）
+
+---
+
+## 状态
+
+**预计推送状态**：成功推送至 origin main
+**commit**：待生成

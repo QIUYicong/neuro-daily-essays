@@ -4,7 +4,27 @@
 
 ---
 
-## 2026-05-31（第 34 篇·COGITATE预注册对决意识理论·裁决矛盾 C-2026-05-31-01 & C-2026-05-31-02·课程路线8·意识与自我 + 方法论）
+## 2026-05-31（第 36 篇·注意瞬盲·填补 Q-gwt-02 + Q-cogitate-02·课程路线8 意识与自我 第五篇）
+
+**源文章**：[[2026-05-31-attentional-blink]] —《注意瞬盲：当意识成为稀缺资源，大脑如何在时间中撞墙》
+
+**新建页面（1）**：
+- `concepts/attentional-blink.md`（注意瞬盲）🔵 mainstream / 置信度高 — 填补 consciousness-ignition 和 global-workspace-theory 的悬空引用；RSVP 范式中 T1 后 200–500ms 内 T2 感知抑制；Chun & Potter 双阶段模型 + GWT 工作空间占据机制；270ms MEG 神经分叉是 GWT 有/无意识分叉最直接证据；全有全无 vs 梯度标记为 contested
+
+**修订页面（2）**：
+- `theories/global-workspace-theory.md`（修订#5）— 新增 attentional-blink 相关链接；新增注意瞬盲三行证据（270ms 分叉、双峰分布、掩蔽 vs 瞬盲分离）；更新 source_articles 和 key_sources；标注注意瞬盲是 COGITATE 未能检验的核心场景的直接补充
+- `concepts/consciousness-ignition.md`（修订#4）— 填充 attentional-blink 悬空引用（添加说明文字）；更新 source_articles；新增修订历史行
+
+**矛盾登记**：无新矛盾（现有矛盾状态未变化：C-2026-05-31-01 和 C-2026-05-31-02 仍 open）
+
+**悬空引用解决**：
+- `attentional-blink`（已解决）：consciousness-ignition.md（related 字段）和 global-workspace-theory.md（related 字段）均引用此 slug，今日新建页面，悬空消除
+
+**图谱更新**：新增节点 1（attentional-blink）；新增有向边 7；总计 83 节点 493 条边
+
+---
+
+## 2026-05-31（第 35 篇·COGITATE预注册对决意识理论·裁决矛盾 C-2026-05-31-01 & C-2026-05-31-02·课程路线8·意识与自我 + 方法论）
 
 **源文章**：[[2026-05-31-cogitate-adversarial-test-consciousness]] —《当意识理论遭遇实验法庭：COGITATE预注册对决如何同时挑战IIT与全局工作空间理论》
 
