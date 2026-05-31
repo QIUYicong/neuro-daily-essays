@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-05-31",
   "levels": [
     "speculative",
     "emerging",
@@ -410,6 +410,51 @@
       "confidence": "medium",
       "last_changed": "2026-06-15",
       "change_reason": "新建：精度加权的计算理论成熟，但神经回路级别的直接验证有限（VIP-SST 去抑制等为间接证据），故状态为 emerging，置信度中"
+    },
+    {
+      "slug": "integrated-information-theory",
+      "status": "contested",
+      "confidence": "medium",
+      "supporting_sources": [
+        "PMID:19098144",
+        "PMID:27225071",
+        "PMID:40307561"
+      ],
+      "last_status_change": "2026-05-31",
+      "reason": "创建即 contested：IIT 是 mainstream 理论，但 COGITATE 2025 核心机制预测（后方皮层同步）被否定"
+    },
+    {
+      "slug": "phi-measure",
+      "status": "contested",
+      "confidence": "medium",
+      "supporting_sources": [
+        "PMID:19098144",
+        "PMID:27225071"
+      ],
+      "last_status_change": "2026-05-31",
+      "reason": "创建：Φ 数学定义清晰，但与真实意识的等同关系被 COGITATE 部分挑战"
+    },
+    {
+      "slug": "posterior-cortical-hot-zone",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": [
+        "PMID:27094080",
+        "PMID:40307561"
+      ],
+      "last_status_change": "2026-05-31",
+      "reason": "创建：PCHZ 解剖定位有一定支持，但 IIT 核心机制预测（后方皮层同步）被 COGITATE 2025 挑战，置信度中"
+    },
+    {
+      "slug": "perturbational-complexity-index",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": [
+        "PMID:23946194",
+        "PMID:26752078"
+      ],
+      "last_status_change": "2026-05-31",
+      "reason": "创建：PCI 临床方法已有多中心验证，置信度高；工具价值独立于 IIT 理论争议"
     }
   ],
   "entries": [

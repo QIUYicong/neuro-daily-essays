@@ -6,13 +6,13 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-05-30
-updated: 2026-05-30
-revision_count: 1
+updated: 2026-05-31
+revision_count: 2
 dimensions: [whole-brain-network, brain-region, cognition, cellular]
-related: [global-workspace-theory, prefrontal-cortex, working-memory, p3-wave, attentional-blink, gamma-oscillations, beta-oscillations]
+related: [global-workspace-theory, prefrontal-cortex, working-memory, p3-wave, attentional-blink, gamma-oscillations, beta-oscillations, integrated-information-theory, posterior-cortical-hot-zone]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03]
-source_articles: [2026-05-30-global-workspace-theory]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-integrated-information-theory]
 key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062", "PMID:15482443", "PMID:29567809"]
 ---
 
@@ -102,6 +102,7 @@ key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062"
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《当意识在大脑中"点燃"》一文 · 初始置信度：中（点燃的核心证据汇聚，但 P3b 地位争议、PFC 精确角色未定、全有全无性质有争议）
+- 2026-05-31 · 修订 · 基于《意识等于整合信息》(#29) · 新增：COGITATE 2025（Nature, PMID:40307561）对点燃预测的挑战——刺激偏移时前额叶点燃缺失，前额叶对具体意识内容的特异性解码有限；新增 IIT 对比框架（持续激活 vs 瞬态点燃）；新增 integrated-information-theory 和 posterior-cortical-hot-zone 作为 related 页面
 
 ## 来源文章
 

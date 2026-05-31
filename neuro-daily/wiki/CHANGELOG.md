@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-05-31（第 29 篇·整合信息理论 IIT·COGITATE 双重挑战）
+
+**源文章**：[[2026-05-31-integrated-information-theory]] —《意识等于整合信息：一个方程式的野心与困境》
+
+**新建页面（4）**：
+- `theories/integrated-information-theory.md`（整合信息理论）🔴 contested / 置信度中 — 意识 = Φ（整合信息量）；五公理推导物理约束；后方皮层热区解剖预测；小脑/视网膜低 Φ 预测与临床一致；COGITATE 2025（Nature，256被试，3种成像）挑战核心机制预测（后方皮层同步缺失）；泛心论蕴含；前馈网络 Φ ≈ 0
+- `concepts/phi-measure.md`（Φ 整合信息度量）🔴 contested / 置信度中 — IIT 核心量；最优分割时的因果信息损失；NP-hard 精确计算；IIT 2.0→3.0 演化；前馈/并行/循环网络对比；PCI 作为实用代理
+- `concepts/posterior-cortical-hot-zone.md`（后方皮层热区）🔵 mainstream / 置信度中 — V1/V4/MT/下颞叶的高整合连接拓扑；内容特异 NCC vs 完整 NCC vs 使能 NCC 三分法；COGITATE 2025 对后方皮层同步预测（机制核心）的挑战
+- `methods/perturbational-complexity-index.md`（扰动复杂性指数 PCI）🟢 established / 置信度高 — Casali 2013 奠基；TMS+EEG+Lempel-Ziv 压缩；区分清醒/NREM/麻醉/MCS/VS；Sarasso 2015 跨麻醉药对比；临床意识评估客观工具
+
+**修订页面（2）**：
+- `theories/global-workspace-theory.md`（revision 2→3）：新增 IIT vs GWT 核心分歧对比表（前额叶 vs 后方皮层；瞬态点燃 vs 持续激活）；COGITATE 2025 偏移点燃缺失和前额叶内容解码有限的详细记录；related 新增 integrated-information-theory 和 posterior-cortical-hot-zone
+- `concepts/consciousness-ignition.md`（revision 1→2）：新增 COGITATE 2025 对点燃预测的挑战（刺激偏移时前额叶点燃缺失）；新增 IIT 对比框架（持续激活 vs 瞬态点燃）；related 新增 integrated-information-theory 和 posterior-cortical-hot-zone；source_articles 新增今日文章
+
+**矛盾登记（2）**：
+- C-2026-05-31-01（新）：IIT 预测后方皮层内部持续同步 vs COGITATE 2025 否定此预测 — open
+- C-2026-05-31-02（新）：GWT 预测刺激偏移时前额叶点燃 vs COGITATE 2025 否定偏移点燃 — open（更新 consciousness-ignition 页面 confidence 降为中）
+
+**新增悬空引用（待建页面）**：
+- `panpsychism`（被 integrated-information-theory 引用）
+- `adversarial-collaboration`（方法论概念，被 cogitate 讨论引用）
+
+**图谱变化**：节点 70→74（+4），边 410→424（+14）
+
+---
+
 ## 2026-05-31（第 28 篇·第四周综合·世界模型六层架构）
 
 **源文章**：[[2026-05-31-week4-synthesis]] —《第四周综合：当大脑成为自己的宇宙——世界模型的六层建构架构》

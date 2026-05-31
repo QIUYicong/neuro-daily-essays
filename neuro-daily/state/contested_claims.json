@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-05-25",
+  "last_updated": "2026-05-31",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -36,6 +36,26 @@
       "opened": "2026-05-25",
       "resolved": null,
       "resolution": null
+    },
+    {
+      "id": "C-2026-05-31-01",
+      "page": "wiki/theories/integrated-information-theory.md",
+      "claim_A": "IIT 预测：意识期间后方皮层内部维持持续的网络同步，这是 Φ 在神经回路层面的可观测特征（来源：Tononi et al. 2016, PMID:27225071；Koch et al. 2016, PMID:27094080）",
+      "claim_B": "COGITATE 2025 实验：在 fMRI + MEG + iEEG 的多模态预注册大实验中，后方皮层内部的持续同步基本缺失；方向等基本意识内容无持续性后方表征（来源：COGITATE Consortium 2025, PMID:40307561, PMC12137136）",
+      "nature": "核心机制预测 vs 实验否定：IIT 的后方皮层同步预测与 COGITATE 2025 多模态大数据直接冲突；可能原因：(a) IIT 机制描述需要修订（同步预测过于具体）；(b) 实验只测试阈上持续刺激，不代表所有意识条件；(c) IIT 3.0 的具体预测推导有误",
+      "status": "open",
+      "opened": "2026-05-31",
+      "priority": "high"
+    },
+    {
+      "id": "C-2026-05-31-02",
+      "page": "wiki/concepts/consciousness-ignition.md",
+      "claim_A": "GWT/GNWT 预测：当有意识刺激出现或消失时，前额叶应发生短暂的非线性点燃（内容特异的前额叶激活爆发）；刺激消失时的偏移点燃反映工作空间释放（来源：Dehaene & Changeux 2011, PMID:21521609）",
+      "claim_B": "COGITATE 2025 实验：刺激偏移时前额叶的点燃基本缺失；前额叶对具体意识内容的特异性解码有限（类别信息可读出，但具体身份/方向信息解码有限）（来源：COGITATE Consortium 2025, PMID:40307561）",
+      "nature": "GWT 点燃预测的局部证伪：偏移点燃缺失是对 GNWT 的直接挑战；GWT 阵营回应：(a) 偏移点燃从未是 GWT 的核心预测；(b) 实验只用阈上刺激，无法测试 GWT 的最核心分叉预测；(c) 前额叶的类别信息解码仍部分支持 GWT",
+      "status": "open",
+      "opened": "2026-05-31",
+      "priority": "high"
     }
   ]
 }

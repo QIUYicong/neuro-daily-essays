@@ -643,6 +643,42 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/world-model.md"
+    },
+    {
+      "id": "integrated-information-theory",
+      "title": "整合信息理论",
+      "domain": "theories",
+      "type": "theory",
+      "status": "contested",
+      "confidence": "medium",
+      "page": "wiki/theories/integrated-information-theory.md"
+    },
+    {
+      "id": "phi-measure",
+      "title": "Φ（整合信息度量）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "contested",
+      "confidence": "medium",
+      "page": "wiki/concepts/phi-measure.md"
+    },
+    {
+      "id": "posterior-cortical-hot-zone",
+      "title": "后方皮层热区",
+      "domain": "concepts",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/posterior-cortical-hot-zone.md"
+    },
+    {
+      "id": "perturbational-complexity-index",
+      "title": "扰动复杂性指数",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/perturbational-complexity-index.md"
     }
   ],
   "edges": [
@@ -2983,6 +3019,76 @@
       "to": "engram-cells",
       "type": "related",
       "note": "印迹细胞是世界模型中特定记忆内容的细胞基底"
+    },
+    {
+      "from": "integrated-information-theory",
+      "to": "global-workspace-theory",
+      "type": "contradicts"
+    },
+    {
+      "from": "integrated-information-theory",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "integrated-information-theory",
+      "to": "posterior-cortical-hot-zone",
+      "type": "supports"
+    },
+    {
+      "from": "integrated-information-theory",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "phi-measure",
+      "to": "integrated-information-theory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "posterior-cortical-hot-zone",
+      "to": "integrated-information-theory",
+      "type": "supports"
+    },
+    {
+      "from": "posterior-cortical-hot-zone",
+      "to": "v1-primary-visual-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "posterior-cortical-hot-zone",
+      "to": "global-workspace-theory",
+      "type": "contradicts"
+    },
+    {
+      "from": "posterior-cortical-hot-zone",
+      "to": "consciousness-ignition",
+      "type": "related"
+    },
+    {
+      "from": "perturbational-complexity-index",
+      "to": "phi-measure",
+      "type": "related"
+    },
+    {
+      "from": "perturbational-complexity-index",
+      "to": "integrated-information-theory",
+      "type": "supports"
+    },
+    {
+      "from": "perturbational-complexity-index",
+      "to": "optogenetics",
+      "type": "related"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "integrated-information-theory",
+      "type": "contradicts"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "posterior-cortical-hot-zone",
+      "type": "related"
     }
   ],
   "dangling_references": [

@@ -7,12 +7,12 @@ status: mainstream
 confidence: medium
 created: 2026-05-30
 updated: 2026-05-31
-revision_count: 2
+revision_count: 3
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model]
+related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone]
 prerequisites: [prefrontal-cortex, working-memory, action-potential, synaptic-transmission]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-gwt-04, Q-gwt-05]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory]
 key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734"]
 ---
 
@@ -106,6 +106,7 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 
 - 2026-05-30 · 创建 · 基于《当意识在大脑中"点燃"》一文 · 初始置信度：中（GWT框架是 mainstream，但核心机制争议多，P3b地位存疑，COGITATE 2025 对 PFC 角色提出挑战）
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 新增：GWT 作为世界模型「意识广播层」的框架定位；将 GWT 点燃机制整合进六层世界模型架构；新增 world-model 作为 related 页面
+- 2026-05-31 · 修订 · 基于《意识等于整合信息》(#29) · 新增：GWT 与 IIT 的核心分歧对比（前额叶 vs 后方皮层；瞬态点燃 vs 持续激活）；COGITATE 2025 挑战细节（偏移点燃缺失，前额叶对内容特异性解码有限）；新增 integrated-information-theory 和 posterior-cortical-hot-zone 作为 related 页面
 
 ### GWT 作为世界模型的意识广播层
 

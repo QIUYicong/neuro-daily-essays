@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-30",
+  "last_updated": "2026-05-31",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -3660,6 +3660,133 @@
         "founding neural GWT model",
         "workspace neurons with long-range axons"
       ]
+    },
+    {
+      "pmid": "19098144",
+      "title": "Consciousness as integrated information: a provisional manifesto",
+      "authors": "Tononi G",
+      "journal": "Biol Bull",
+      "year": 2008,
+      "used_in": [
+        "2026-05-31-integrated-information-theory"
+      ],
+      "aspects_covered": [
+        "IIT 2.0 framework",
+        "phi definition",
+        "five axioms"
+      ],
+      "open_access": false,
+      "full_text_available": false
+    },
+    {
+      "pmid": "27225071",
+      "title": "Integrated information theory: from consciousness to its physical substrate",
+      "authors": "Tononi G, Boly M, Massimini M, Koch C",
+      "journal": "Nat Rev Neurosci",
+      "year": 2016,
+      "used_in": [
+        "2026-05-31-integrated-information-theory"
+      ],
+      "aspects_covered": [
+        "IIT 3.0",
+        "conceptual structure",
+        "exclusion axiom",
+        "maximum cause-effect power"
+      ],
+      "open_access": false,
+      "full_text_available": false
+    },
+    {
+      "pmid": "27094080",
+      "title": "Neural correlates of consciousness: progress and problems",
+      "authors": "Koch C, Massimini M, Boly M, Tononi G",
+      "journal": "Nat Rev Neurosci",
+      "year": 2016,
+      "used_in": [
+        "2026-05-31-integrated-information-theory"
+      ],
+      "aspects_covered": [
+        "posterior cortical hot zone",
+        "content-specific NCC",
+        "enabling NCC",
+        "IIT vs GWT predictions"
+      ],
+      "open_access": false,
+      "full_text_available": false
+    },
+    {
+      "pmid": "23946194",
+      "title": "A theoretically based index of consciousness independent of sensory processing and behavior",
+      "authors": "Casali AG et al.",
+      "journal": "Sci Transl Med",
+      "year": 2013,
+      "used_in": [
+        "2026-05-31-integrated-information-theory"
+      ],
+      "aspects_covered": [
+        "PCI method",
+        "TMS-EEG",
+        "disorders of consciousness",
+        "sleep vs wake vs anesthesia"
+      ],
+      "open_access": true,
+      "full_text_available": true
+    },
+    {
+      "pmid": "26752078",
+      "pmcid": "PMC4699506",
+      "title": "Consciousness and complexity during unresponsiveness induced by propofol, xenon, and ketamine",
+      "authors": "Sarasso S et al.",
+      "journal": "Curr Biol",
+      "year": 2015,
+      "used_in": [
+        "2026-05-31-integrated-information-theory"
+      ],
+      "aspects_covered": [
+        "PCI across anesthetics",
+        "ketamine dissociative consciousness",
+        "propofol/xenon consciousness suppression"
+      ],
+      "open_access": true,
+      "full_text_available": false
+    },
+    {
+      "pmid": "36763595",
+      "pmcid": "PMC9916582",
+      "title": "An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory",
+      "authors": "Melloni L et al.",
+      "journal": "PLoS One",
+      "year": 2023,
+      "used_in": [
+        "2026-05-31-integrated-information-theory"
+      ],
+      "aspects_covered": [
+        "COGITATE protocol",
+        "GWT vs IIT predictions",
+        "preregistration",
+        "adversarial collaboration design"
+      ],
+      "open_access": true,
+      "full_text_available": true
+    },
+    {
+      "pmid": "40307561",
+      "pmcid": "PMC12137136",
+      "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": "Cogitate Consortium",
+      "journal": "Nature",
+      "year": 2025,
+      "used_in": [
+        "2026-05-31-integrated-information-theory"
+      ],
+      "aspects_covered": [
+        "COGITATE results",
+        "IIT posterior cortex synchrony challenge",
+        "GWT offset ignition challenge",
+        "256 participants multimodal neuroimaging"
+      ],
+      "open_access": true,
+      "full_text_available": true
     }
   ],
   "total_sources": 159

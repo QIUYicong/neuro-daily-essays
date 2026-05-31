@@ -1,0 +1,133 @@
+# 运行日志：2026-05-31（文章 #29，IIT 整合信息理论）
+
+## 基本信息
+
+- **运行时间**：2026-05-31（UTC+8）
+- **文章编号**：#29
+- **主题**：整合信息理论（IIT）——Φ 度量、后方皮层热区、与 GWT 的根本分歧、COGITATE 大实验
+- **分支**：main
+- **运行方式**：Claude Code 自动化代理（claude-sonnet-4-6）
+
+---
+
+## A. 状态读取
+
+- `topic_ledger.json`：读取成功，total_articles = 28，上次主题：默认模式网络（2026-06-16 dating）
+- `unresolved_questions.md`：读取成功，新增 Q-iit-01 到 Q-iit-05
+- `contested_claims.json`：读取成功，当前 2 条 open 矛盾
+- `_graph.json`：读取成功，70 节点，410 条边
+- `wiki/index.md` 和 `state/monthly_synthesis.md`：读取成功
+
+---
+
+## B. 选题决策
+
+**选题依据**：课程脊柱路线 8（意识与自我），上一篇为默认模式网络（#28），前一篇为预测编码（#27）和 GWT（#8）。意识专题四联篇的第四篇。
+
+**主题**：整合信息理论（IIT）——Φ 度量、后方皮层热区、与 GWT 的根本分歧、COGITATE 2025 大实验结果
+
+**选题理由**：
+1. topic_ledger 第 28 篇（week4-synthesis）的 next_suggested_topics 首条即为 IIT
+2. `contested_claims` 中 C-2026-05-31-01/02 在此次运行中新登记（意识点燃 + IIT vs COGITATE）
+3. 时机：意识专题 GWT（#8）→ 预测编码（#27）→ DMN（#28）→ IIT（#29）形成自然序列
+4. COGITATE 2025（Nature, PMID:40307561）是重要、可追溯、开放全文的新成果
+
+**层级**：whole-brain-network / cognition / brain-region / methods（4 层联合）
+
+---
+
+## C. 文献检索
+
+### 检索词和数据源
+
+- PubMed E-utilities：`Tononi integrated information consciousness`、`COGITATE adversarial consciousness`、`Casali perturbational complexity index`、`Koch neural correlates consciousness 2016`
+- NCBI esummary API：验证 PMID 元数据
+- PMC BioC：验证开放全文可用性（PMC9916582、PMC12137136）
+
+### 候选文献与取舍
+
+| 来源 | PMID | 状态 | 使用/排除原因 |
+|------|------|------|-------------|
+| Tononi 2008, Biol Bull | 19098144 | 采用（摘要） | IIT 2.0 奠基论文，非开放全文 |
+| Tononi et al. 2016, NRN | 27225071 | 采用（摘要） | IIT 3.0 权威综述，付费墙 |
+| Koch et al. 2016, NRN | 27094080 | 采用（摘要） | 后方皮层热区权威综述，付费墙 |
+| Casali et al. 2013, Sci Transl Med | 23946194 | 采用（开放全文） | PCI 奠基论文，开放获取 |
+| Sarasso et al. 2015, Curr Biol | 26752078 | 采用（摘要+开放全文PMC） | PCI 麻醉比较，支持核心论点 |
+| Melloni et al. 2023, PLoS One | 36763595 | 采用（开放全文 PMC9916582） | COGITATE 协议，预注册设计 |
+| COGITATE 2025, Nature | 40307561 | 采用（开放全文 PMC12137136） | **核心来源**：最严格对抗性实验结果 |
+
+**最终来源统计**：7 篇，开放全文 4 篇，摘要仅 3 篇；满足 ≥5 来源、≥2 开放全文、≥1 机构来源要求
+
+---
+
+## D. wiki 固结
+
+### 新建页面（4）
+
+1. `wiki/theories/integrated-information-theory.md` — status: contested / confidence: medium
+2. `wiki/concepts/phi-measure.md` — status: contested / confidence: medium
+3. `wiki/concepts/posterior-cortical-hot-zone.md` — status: mainstream / confidence: medium
+4. `wiki/methods/perturbational-complexity-index.md` — status: established / confidence: high
+
+### 修订页面（2）
+
+5. `wiki/theories/global-workspace-theory.md` — revision 2→3；IIT vs GWT 对比；COGITATE 挑战
+6. `wiki/concepts/consciousness-ignition.md` — revision 1→2；COGITATE 偏移点燃失败
+
+### 矛盾检查
+
+- **C-2026-05-31-01**（新登记）：IIT 后方皮层同步预测 vs COGITATE 2025 否定 → open
+- **C-2026-05-31-02**（新登记）：GWT 偏移点燃预测 vs COGITATE 2025 否定 → open
+
+---
+
+## E. 图谱更新
+
+- 节点：70 → 74（+4）
+- 边：410 → 424（+14）
+- 更新日期：2026-05-31
+
+---
+
+## F. 状态文件更新
+
+- `state/topic_ledger.json`：total_articles = 29，新增第 29 条
+- `state/unresolved_questions.md`：新增 Q-iit-01 到 Q-iit-05
+- `state/contested_claims.json`：新增 C-2026-05-31-01、C-2026-05-31-02（total claims: 4）
+- `state/maturity_index.json`：新增 4 页（total pages: 54）
+- `state/monthly_synthesis.md`：追加今日摘要（条目 76-80）
+- `state/source_registry.json`：新增 7 条（total sources: 193）
+- `wiki/CHANGELOG.md`：追加今日变更
+- `wiki/index.md`：新增 4 个条目，更新课程进度，更新总页数（67→71）
+
+---
+
+## H. 自检结果
+
+**真实性**：
+- ✅ 每条 wiki 新主张有来源（Tononi 2008/2016、Koch 2016、Casali 2013、COGITATE 2025 等）
+- ✅ 区分了事实/主流模型/推测/争议（IIT 的 Φ = 意识标注为理论主张；COGITATE 结果标注为高置信度；泛心论蕴含标注为推论）
+- ✅ 没有把 COGITATE 的部分挑战写成全面推翻（两个理论都受到部分挑战，都有部分支持）
+- ✅ 没有把 IIT 写成已被证伪（COGITATE 2025 的两个理论都受到挑战，未有定论）
+
+**一致性**：
+- ✅ C-2026-05-31-01/02 在 contested_claims.json 正式登记，并在 wiki 页面中体现
+- ✅ 修订页的 updated/revision_count/修订历史同步更新
+- ✅ _graph.json 无悬空边（所有 edges 的 from/to 均有对应节点）
+
+**可导航**：
+- ✅ index.md 和 CHANGELOG.md 反映了今天变化
+- ✅ 新页 related/prerequisites 各至少 1 个
+
+**情景层完整**：
+- ✅ 文章/笔记/来源/日志（本文件）齐全
+- ✅ 旧文件未被修改（仅 append-only）
+
+---
+
+## G. Git 操作
+
+- 分支：main
+- 文件：neuro-daily/ 下所有新增和修改文件
+- commit message：Add neuro daily article + wiki consolidation for 2026-05-31 (IIT)
+- push：git push origin main（见实际执行结果）
