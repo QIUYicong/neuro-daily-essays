@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-05-31（第36篇·注意瞬盲·填补 Q-gwt-02+Q-cogitate-02）· 主题页总数：84（新建1页：attentional-blink；修订2页：global-workspace-theory rev5, consciousness-ignition rev4）
+> 最后更新：2026-05-31（第37篇·视觉皮层关键期与突触修剪·课程路线2第一篇）· 主题页总数：89（新建5页：synaptic-pruning, critical-period, perineuronal-net, complement-cns, microglia；修订1页：v1-primary-visual-cortex rev4）
 
 ---
 
@@ -25,6 +25,7 @@
 - 🟢 [海马回路](neurons/hippocampal-circuit.md) — DG（模式分离）→ CA3（模式补全）→ CA1（整合输出）的三突触回路与并行穿孔通路；AD最早受损的回路（修订6次）
 - 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，为场所细胞提供坐标框架 **[NEW]**
 - 🟢 [电压门控钙通道（VGCCs）](neurons/voltage-gated-calcium-channels.md) — P/Q型在突触前纳米域触发递质释放；L型在树突驱动BTSP平台电位，在核激活基因表达；三亚家族、三地点、三时间尺度 **[NEW 2026-06-01]**
+- 🟢 [小胶质细胞](neurons/microglia.md) — 大脑固有免疫细胞（卵黄囊来源）；发育期通过C3b-CR3活动依赖地修剪弱突触；成年期持续监视神经活动；AD中错误重激活导致突触丢失 **[NEW 2026-05-31]**
 
 ## circuits（回路）
 
@@ -86,12 +87,16 @@
 - 🔴 [Φ（整合信息度量）](concepts/phi-measure.md) — IIT 核心量；衡量系统最优分割时损失的因果信息量；NP-hard 计算；IIT 声称 Φ = 意识的量；COGITATE 2025 对相关机制预测构成挑战 **[NEW 2026-05-31]**
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战 **[NEW 2026-05-31]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
+- 🟢 [突触修剪](concepts/synaptic-pruning.md) — 发育期通过C1q/C3补体标记弱突触、小胶质细胞CR3介导活动依赖性吞噬，将冗余连接雕刻为精密回路；发育工具在AD中被病理性重激活 **[NEW 2026-05-31]**
+- 🟢 [关键期](concepts/critical-period.md) — 特定时间窗口内经验可永久改变神经回路；PV细胞成熟（E/I翻转）触发开启；三重分子刹车（PNN/Lynx1/髓鞘）主动维持关闭；所有刹车均可被解除重激活成年可塑性 **[NEW 2026-05-31]**
+- 🟢 [周围神经元网络（PNN）](concepts/perineuronal-net.md) — 包裹PV细胞的细胞外基质笼状网络（HA+lecticans+Tenascin-R）；小鼠V1 P30-45成熟；ChABC降解→成年视觉皮层可塑性重激活（Pizzorusso 2002）；6-S/4-S硫酸化比率是可塑性状态分子指标 **[NEW 2026-05-31]**
+- 🟢 [补体系统（CNS角色）](concepts/complement-cns.md) — C1q响应星形胶质细胞信号沉积于弱突触→C3b调理化→CR3介导微胶质吞噬；AD中被Aβ寡聚体异常重激活 **[NEW 2026-05-31]**
 
 ## systems（系统）
 
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路 **[NEW 2026-05-30]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
-- 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
+- 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）；关键期开启（E/I翻转）+ 眼优势柱修剪（补体-小胶质细胞）+ 关键期关闭三重分子刹车（PNN/Lynx1/NgR1）（修订4次）**[修订 2026-05-31]**
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**

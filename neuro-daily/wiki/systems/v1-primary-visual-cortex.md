@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-06-15
-revision_count: 3
+updated: 2026-05-31
+revision_count: 4
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, critical-period, synaptic-pruning, perineuronal-net, complement-cns]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
-source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding]
-key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956"]
+opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04, Q-cp-01]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-05-31-synaptic-pruning-critical-period]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:16261181", "PMID:21071629", "PMID:12424383", "PMID:22632727"]
 ---
 
 # 初级视觉皮层（V1）
@@ -72,9 +72,36 @@ Ohki 等（2005，Nature）用双光子钙成像首次在单细胞分辨率下�
 
 Wilson 等（2016，Nat Neurosci）在雪貂 V1 发现，方向选择性更锐利的神经元，其树突上同向偏好突触的聚类程度更高（→详见 [[synaptic-clustering]]）。偏好方向刺激时树突 NMDA 棘波热点约为非偏好方向的 2 倍，表明树突局部计算（NMDA 棘波作为"与门"）为方向选择性提供额外增益层，位于峰电位阈值之前。
 
-## 发育与关键期
+## 发育与关键期（扩展：2026-05-31）
 
-V1 方向柱的形成具有遗传（活动非依赖）的初始组分，随后通过视觉经验驱动的精细化完成（Espinosa & Stryker 2012）。关键期的开放和关闭与 GABA 能神经元（特别是 PV+ 细胞）的成熟所引起的 E/I 平衡转变高度相关。关键期内的单眼剥夺可永久性地改变眼优势柱分布。
+V1 方向柱和眼优势柱的形成是视觉皮层发育的核心事件，依赖于**活动依赖的突触竞争与精修剪**。
+
+### 眼优势柱的形成
+
+出生后，来自左眼和右眼的 LGN 轴突大量重叠地终止于 V1 第 IV 层。在**关键期**（小鼠 P21–P40，猫 3–8 周）内，通过眼间活动依赖的竞争：
+- 活跃（同步放电）的 RGC 轴突末梢保留突触，甚至通过 LTP 增强
+- 弱活动的轴突末梢被**补体 C1q/C3 标记**，由**小胶质细胞 CR3 受体吞噬清除**（Schafer et al. 2012，PMID:22632727）
+- 最终形成左右眼交替、互斥的眼优势柱（ODC）
+
+### 关键期的开启：E/I 平衡翻转
+
+关键期开启依赖 PV+ 抑制性中间神经元（篮细胞）的功能成熟（Hensch 2005，PMID:16261181）：
+- GAD65 KO（GABA 合成受损）→ 视觉关键期永不开启
+- 地西泮（GABA-A 激动剂）→ 可提前人工触发关键期
+- 暗室饲养 → 关键期开启推迟，直到重新见光
+
+### 关键期的关闭：三重分子刹车
+
+关键期关闭由三种主动机制维持（Takesian & Hensch 2013，PMID:24309249）：
+1. **PNN（周围神经元网络）**：P14 开始在 PV 细胞周围沉积，P30-45 成熟；ChABC 降解 PNN → 成年大鼠视觉皮层可塑性重新激活（Pizzorusso 2002，PMID:12424383）
+2. **Lynx1 蛋白**：nAChR 内源性拮抗剂，关键期后上调；Lynx1 KO 成年小鼠眼优势可塑性恢复（CBI=0.55 vs 0.68），弱视自发恢复（0.56 vs 0.30 cyc/deg）（Morishita 2010，PMID:21071629）
+3. **髓鞘化（NgR1 通路）**：Nogo-A/MAG/OMgp → NgR1 → RhoA-ROCK → 抑制轴突结构重塑
+
+**关键认识**：关键期关闭不是可塑性耗竭，而是**主动压制**；所有三把锁在实验室中都已被成功解除，重新激活成年皮层可塑性，为弱视治疗和神经康复提供了理论基础。
+
+### 临床：弱视（Amblyopia）
+
+关键期内单眼视觉剥夺（遮蔽或斜视导致的模糊像）→ 皮层永久性偏向正常眼，弱视眼视力发育失败。关键期后（儿童约 6–8 岁后）即使矫正，效果有限——但 PNN/Lynx1 靶向治疗有望改变这一预后。
 
 ## 物种比较小结
 
@@ -129,9 +156,11 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 - 2026-06-11 · 创建 · 基于《V1初级视觉皮层的方向选择性》一文 · 初始置信度：高
 - 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增"神经调质对 V1 的调制"小节（ACh/肌碱受体介导注意调制，Herrero 2008）；related 新增 acetylcholine-cortex, gain-control；opens_questions 新增 Q-ach-ne-02；key_sources 新增 PMID:18633352
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 新增"预测编码视角下的 V1"小节；新增感觉运动失配实验（Keller 2012）和环绕抑制预测编码解释；related 新增 predictive-coding, precision-weighting；opens_questions 新增 Q-pc-04；key_sources 新增 PMID:22681686, PMID:10195184, PMID:23177956
+- 2026-05-31 · 修订 · 基于《发育之剪：视觉皮层关键期》一文 · 扩展"发育与关键期"小节（眼优势柱形成机制、E/I 平衡触发、三重分子刹车 PNN/Lynx1/NgR1、弱视临床意义）；related 新增 critical-period, synaptic-pruning, perineuronal-net, complement-cns；opens_questions 新增 Q-cp-01；key_sources 新增 4 篇关键期文献
 
 ## 来源文章
 
 - [[2026-06-11-v1-orientation-selectivity]]
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-06-15-predictive-coding]]
+- [[2026-05-31-synaptic-pruning-critical-period]]

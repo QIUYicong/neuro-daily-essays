@@ -1,0 +1,106 @@
+# 运行日志：2026-05-31（文章 #37）
+
+**运行时间**：2026-05-31（UTC+8）
+**分支**：main
+**文章 slug**：synaptic-pruning-critical-period
+**课程路线**：2. 神经网络如何建成（第一篇）
+
+---
+
+## 搜索策略
+
+### PubMed 检索词
+1. `critical period visual cortex synaptic pruning ocular dominance review` → 10 results
+2. `complement C1q synaptic pruning microglia development` → 41 results
+3. `perineuronal net critical period closure plasticity Lynx1` → 1 result (PMID:24309249)
+4. `Hensch critical period plasticity visual cortex review 2005` → 3 results
+5. `Stevens 2007 C1q synapse elimination complement` → 1 result (PMID:18083105)
+6. `Paolicelli 2011 microglia synaptic pruning hippocampus Science` → 1 result (PMID:21778362)
+7. `Levelt Hubener 2012 critical period review` → 1 result (PMID:22462544)
+8. `Lynx1 nicotinic receptor critical period visual cortex plasticity` → 3 results
+9. `Pizzorusso 2002 visual cortex chondroitinase` → 1 result (PMID:12424383)
+
+### PMC 开放全文检索
+- PMC3528177 (Schafer et al. 2012 Neuron) - 开放全文已读取
+- PMC3387538 (Morishita et al. 2010 Science - Lynx1) - 开放全文已读取
+- PMC12642162 (Ackerman et al. 2025 Molecular Brain - PNN review) - 开放全文已读取
+
+---
+
+## 来源评估
+
+### 采用来源（10个）
+1. **PMID:22632727 (PMC3528177)** - Schafer et al. 2012, Neuron - ✅ 开放全文 · **主要来源** · 提供补体-小胶质细胞修剪机制的活动依赖性证据
+2. **PMID:21071629 (PMC3387538)** - Morishita et al. 2010, Science - ✅ 开放全文 · **主要来源** · Lynx1 作为关键期关闭后的胆碱能刹车
+3. **PMID:41286996 (PMC12642162)** - Ackerman et al. 2025, Mol Brain - ✅ 开放全文 · **主要来源** · PNN 组成、发育时程、关键期关闭综述
+4. **PMID:18083105** - Stevens et al. 2007, Cell - ⚠️ 仅摘要 · **主要来源** · C1q 沉积于突触的发现
+5. **PMID:21778362** - Paolicelli et al. 2011, Science - ⚠️ 仅摘要 · **主要来源** · 微胶质细胞突触修剪的普遍性证据（海马系统）
+6. **PMID:16261181** - Hensch 2005, NRN - ⚠️ 仅摘要 · **主要来源** · E/I 平衡触发关键期开启
+7. **PMID:12424383** - Pizzorusso et al. 2002, Science - ⚠️ 仅摘要 · **主要来源** · ChABC 降解 PNN 重激活成年可塑性
+8. **PMID:24309249** - Takesian & Hensch 2013, PBR - ⚠️ 仅摘要 · **概念框架** · "分子刹车"概念
+9. **PMID:22462544** - Levelt & Hübener 2012, ARN - ⚠️ 仅摘要 · **综述** · 关键期全面综述
+10. **PMID:27033548** - Hong et al. 2016, Science - ⚠️ 仅摘要 · **疾病延伸** · 补体修剪在 AD 中重激活
+
+### 排除来源
+- 不相关的 PMC 搜索结果（非神经科学领域）
+- 日期过旧的基础研究（HH模型等）在本主题中不相关
+
+---
+
+## 来源质量摘要
+- 总来源：10
+- 开放全文：3（超过最低要求 ≥2）
+- 仅摘要：7
+- 官方机构来源：0（NIH 网站访问失败 403）
+- 预印本：0
+
+---
+
+## 固结结果
+
+### 新建 wiki 页（5）
+1. `wiki/concepts/synaptic-pruning.md` - established / high
+2. `wiki/concepts/critical-period.md` - established / high
+3. `wiki/concepts/perineuronal-net.md` - established / high
+4. `wiki/concepts/complement-cns.md` - established / high
+5. `wiki/neurons/microglia.md` - established / high
+
+### 修订 wiki 页（1）
+1. `wiki/systems/v1-primary-visual-cortex.md` (rev 4) - 扩展关键期小节
+
+### 矛盾检查结果
+- 无新矛盾登记
+- 现有矛盾 C-2026-05-31-01（IIT/COGITATE）和 C-2026-05-31-02（GWT/COGITATE）状态不变（open）
+
+---
+
+## 图谱更新
+- 新增节点：5
+- 新增边：21
+- 总计：89 节点，520 条边
+
+---
+
+## 新增未解问题
+- Q-cp-01（高优先级）：不同皮层区域关键期时间跨度区域特异性机制
+- Q-cp-02（高优先级）：人类成年大脑 C1q 重激活生物标志物
+- Q-cp-03（中优先级）：PNN 硫酸化比率作为皮层可塑性状态指标
+
+---
+
+## Git 操作
+- **分支**：main
+- **commit 内容**：文章 + 阅读笔记 + 来源 JSON + 5 个新 wiki 页 + 1 个修订 wiki 页 + 图谱更新 + 索引/CHANGELOG 更新 + 状态文件更新 + 本日志
+- **push 目标**：origin main (http://local_proxy@127.0.0.1:.../git/QIUYicong/neuro-daily-essays)
+
+---
+
+## 失败与限制
+- NIH/NINDS 官方网站：返回 403，无法获取作为官方机构来源
+- Europe PMC API：部分端点返回错误（500/搜索格式问题），通过其他 API 端点解决
+- PMID:12424383 (Pizzorusso 2002)、PMID:16261181 (Hensch 2005 NRN)：无 PMC 开放版本，仅使用摘要
+- 仅摘要的 7 个来源：所有核心事实主张均可从摘要中直接推导，无重要数据点需要全文才能获得
+
+---
+
+**运行结束**：完成，进入 commit + push 阶段

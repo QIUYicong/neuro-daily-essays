@@ -769,6 +769,51 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/attentional-blink.md"
+    },
+    {
+      "id": "synaptic-pruning",
+      "title": "突触修剪",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/synaptic-pruning.md"
+    },
+    {
+      "id": "critical-period",
+      "title": "关键期",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/critical-period.md"
+    },
+    {
+      "id": "perineuronal-net",
+      "title": "周围神经元网络（PNN）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/perineuronal-net.md"
+    },
+    {
+      "id": "complement-cns",
+      "title": "补体系统（CNS中的角色）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/complement-cns.md"
+    },
+    {
+      "id": "microglia",
+      "title": "小胶质细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/microglia.md"
     }
   ],
   "edges": [
@@ -3578,6 +3623,111 @@
       "to": "attentional-blink",
       "type": "related",
       "note": "注意瞬盲填补了 COGITATE 未能检验的 GWT 核心有/无意识分叉场景"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "complement-cns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "microglia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "critical-period",
+      "type": "part-of"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "synaptic-pruning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period",
+      "to": "perineuronal-net",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "perineuronal-net",
+      "to": "critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "perineuronal-net",
+      "to": "synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "perineuronal-net",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "complement-cns",
+      "to": "synaptic-pruning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "complement-cns",
+      "to": "microglia",
+      "type": "related"
+    },
+    {
+      "from": "complement-cns",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "synaptic-pruning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "microglia",
+      "to": "complement-cns",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "hippocampal-circuit",
+      "type": "related"
     }
   ],
   "dangling_references": [

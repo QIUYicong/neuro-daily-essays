@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-05-31（第 37 篇·视觉皮层关键期与突触修剪·课程路线 2 第一篇·神经网络如何建成）
+
+**源文章**：[[2026-05-31-synaptic-pruning-critical-period]] —《发育之剪：视觉皮层关键期、突触竞争与大脑如何将粗糙线路雕刻成精密图谱》
+
+**新建页面（5）**：
+- `concepts/synaptic-pruning.md`（突触修剪）🟢 established / 置信度高 — 补体 C1q/C3 标记 + 小胶质细胞 CR3 活动依赖吞噬机制；Schafer 2012 retinogeniculate 模型；TTX/Forskolin 活动操控；AD 中病理性重激活
+- `concepts/critical-period.md`（关键期）🟢 established / 置信度高 — PV+ 中间神经元成熟触发 E/I 翻转开启；三重分子刹车（PNN/Lynx1/髓鞘）主动关闭；关闭可逆（ChABC/Lynx1 KO/NgR1）；弱视临床意义
+- `concepts/perineuronal-net.md`（PNN）🟢 established / 置信度高 — HA+lecticans+Tenascin-R 组成；V1 P30-45成熟；ChABC 降解重激活成年可塑性（Pizzorusso 2002）；6-S/4-S 硫酸化比率；PV 细胞氧化保护功能
+- `concepts/complement-cns.md`（补体系统 CNS 角色）🟢 established / 置信度高 — C1q→C3b 调理化→CR3 吞噬；星形胶质细胞诱导 C1q；AD 中 Aβ 重激活；补体调节蛋白失效与疾病
+- `neurons/microglia.md`（小胶质细胞）🟢 established / 置信度高 — 卵黄囊来源；C3b-CR3 修剪机制；CX3CR1 通路；成年监视功能；AD 病理性重激活
+
+**修订页面（1）**：
+- `systems/v1-primary-visual-cortex.md`（修订#4）— 扩展"发育与关键期"小节：眼优势柱形成机制（补体修剪），E/I 翻转触发关键期，三重分子刹车（PNN/Lynx1/NgR1），弱视临床意义；related 新增 4 项；opens_questions 新增 Q-cp-01；key_sources 新增 4 篇
+
+**矛盾登记**：无新矛盾
+
+**悬空引用解决**：
+- `complement-cns`（新建，填补 alzheimers-disease 和 synaptic-pruning 的连接）
+- `microglia`（新建，填补 synaptic-pruning 和 complement-cns 的悬空）
+
+**图谱更新**：新增节点 5（synaptic-pruning, critical-period, perineuronal-net, complement-cns, microglia）；新增有向边 21；总计 89 节点 520 条边
+
+---
+
 ## 2026-05-31（第 36 篇·注意瞬盲·填补 Q-gwt-02 + Q-cogitate-02·课程路线8 意识与自我 第五篇）
 
 **源文章**：[[2026-05-31-attentional-blink]] —《注意瞬盲：当意识成为稀缺资源，大脑如何在时间中撞墙》

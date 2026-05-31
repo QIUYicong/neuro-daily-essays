@@ -351,7 +351,7 @@
       "confidence": "high",
       "supporting_sources": 6,
       "last_status_change": "2026-06-11",
-      "reason": "创建 2026-06-11。V1的基本结构和功能特性由 Hubel & Wiesel 1962（诺贝尔奖）及数十年后续工作奠定（方向柱、简单/复杂细胞、感受野结构）；Ohki 2005（Nature，PMID:15660108）用双光子成像在单细胞分辨率验证了方向图结构（包括pinwheel center同样精确）；Niell & Stryker 2010（PMID:20810772）确立小鼠V1盐-胡椒型组织且单细胞OSI精确；Zhao et al. 2013（PMC3693051）证明小鼠LGN方向选择性不依赖皮层反馈；Wilson et al. 2016（PMC5240628）在雪貂V1直接验证突触聚类增强方向选择性。核心现象学（方向选择性、方向柱/盐-胡椒组织、简单/复杂细胞区分）均由多实验室、多物种、多方法独立验证。不确定性：小鼠盐-胡椒型组织的分子决定因素；方向柱的计算优势；突触聚类的普遍性。整体 established。"
+      "reason": "创建 2026-06-11。V1的基本结构和功能特性由 Hubel & Wiesel 1962（诺贝尔奖）及数十年后续工作奠定（方向柱、简单/复杂细胞、感受野结构）；Ohki 2005（Nature，PMID:15660108）用双光子成像在单细胞分辨率验证了方向图结构（包括pinwheel center同样精确）；Niell & Stryker 2010（PMID:20810772）确立小鼠V1盐-胡椒型组织且单细胞OSI精确；Zhao et al. 2013（PMC3693051）证明小鼠LGN方向选择性不依赖皮层反馈；Wilson et al. 2016（PMC5240628）在雪貂V1直接验证突触聚类增强方向选择性。核心现象学（方向选择性、方向柱/盐-胡椒组织、简单/复杂细胞区分）均由多实验室、多物种、多方法独立验证。不确定性：小鼠盐-胡椒型组织的分子决定因素；方向柱的计算优势；突触聚类的普遍性。整体 established。 2026-05-31：修订#4，补充关键期机制（眼优势柱形成、三重分子刹车）；成熟度无变化（仍established）。"
     },
     {
       "slug": "orientation-selectivity",
@@ -471,6 +471,46 @@
       "supporting_sources": 3,
       "last_status_change": "2026-06-18",
       "reason": "创建 2026-06-18。前馈回路（FFL）在多个物种的神经和基因调控网络中均有文献支持（Milo 2002, PMID:12399590；神经科学多项研究）。Drosophila FlyWire 提供了至今最大规模的系统性验证（Lin 2024, PMID:39358527）。功能诠释（这些主题确实执行特定计算）是主流但非全部经实验确认，故 mainstream 而非 established。"
+    },
+    {
+      "slug": "synaptic-pruning",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-05-31",
+      "reason": "创建 2026-05-31。教科书级机制（补体C1q/C3-CR3-小胶质细胞），在视网膜-LGN和海马多个系统独立验证。Schafer 2012遗传敲除+活动操控提供高质量机制证据。"
+    },
+    {
+      "slug": "critical-period",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 6,
+      "last_status_change": "2026-05-31",
+      "reason": "创建 2026-05-31。E/I翻转触发和分子刹车关闭机制均已由多个独立实验室（Hensch组等）验证。ChABC、Lynx1 KO、NgR1 KO等多个互补性遗传/药理学实验支持主动压制框架。"
+    },
+    {
+      "slug": "perineuronal-net",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-31",
+      "reason": "创建 2026-05-31。PNN组成分子清楚；ChABC实验多次重复验证（成年可塑性重激活）；人类数据有限但不影响核心机制的成熟度评估。"
+    },
+    {
+      "slug": "complement-cns",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-31",
+      "reason": "创建 2026-05-31。Stevens 2007+Schafer 2012两篇高引用研究提供机制证据；Hong 2016在AD模型中提供转化意义证据。"
+    },
+    {
+      "slug": "microglia",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-05-31",
+      "reason": "创建 2026-05-31。小胶质细胞突触修剪功能由Schafer 2012（遗传敲除）和Paolicelli 2011（行为表型）独立验证；AD相关重激活由Hong 2016证明。"
     }
   ],
   "entries": [

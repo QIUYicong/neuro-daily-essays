@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-05-31",
-  "total_articles": 36,
+  "total_articles": 37,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2586,6 +2586,83 @@
       "mode": "long_term_curriculum",
       "dangling_reference_filled": "attentional-blink（填补 consciousness-ignition 和 global-workspace-theory 的悬空引用，两页均在 related 字段引用了 attentional-blink 但节点不存在；今日新建节点）",
       "note": "第36篇，系统日期UTC+8 2026-05-31。意识专题五联篇（GWT/预测编码/DMN/IIT/COGITATE/AB）完成。新建1个wiki页面（attentional-blink），修订2个（global-workspace-theory rev5, consciousness-ignition rev4）。图谱新增1节点7条边（总计83节点493条边）。填补了 COGITATE 2025 遗留的方法论缺口：注意瞬盲提供了感觉对等条件下的有/无意识分叉内部对照，是 GWT 点燃预测（270ms 前额-顶叶分叉）最干净的直接神经证据。"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "发育之剪：视觉皮层关键期、突触竞争与大脑如何将粗糙线路雕刻成精密图谱",
+      "filename": "2026-05-31-synaptic-pruning-critical-period.md",
+      "article_number": 37,
+      "article_type": "regular",
+      "core_question": "在出生后发育的特定时间窗口内，视觉皮层如何通过眼间竞争和选择性突触消除，将初始粗糙的双眼输入雕刻成精密分离的功能图谱？补体蛋白（C1q/C3b）与小胶质细胞（CR3 受体）如何共同标记并吞噬弱势突触？三种分子刹车（PNN、Lynx1、髓鞘）如何协同将可塑性主动锁定——以及它们为什么都可以被人为解锁？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（第一篇）",
+      "topic_tags": [
+        "critical period",
+        "synaptic pruning",
+        "ocular dominance columns",
+        "complement C1q",
+        "C3b",
+        "CR3",
+        "microglia",
+        "perineuronal net",
+        "PNN",
+        "Lynx1",
+        "nAChR",
+        "NgR1",
+        "ChABC",
+        "amblyopia",
+        "E/I balance",
+        "PV interneurons",
+        "Schafer 2012",
+        "Morishita 2010",
+        "Pizzorusso 2002",
+        "Hensch 2005",
+        "Takesian Hensch 2013",
+        "molecular brakes",
+        "retinogeniculate",
+        "visual cortex development"
+      ],
+      "main_sources": [
+        "PMID:22632727 (PMC3528177, Schafer 2012 - open access)",
+        "PMID:21071629 (PMC3387538, Morishita 2010 - open access)",
+        "PMID:41286996 (PMC12642162, Ackerman 2025 - open access)",
+        "PMID:18083105 (Stevens 2007 - abstract only)",
+        "PMID:21778362 (Paolicelli 2011 - abstract only)",
+        "PMID:16261181 (Hensch 2005 NRN - abstract only)",
+        "PMID:12424383 (Pizzorusso 2002 - abstract only)",
+        "PMID:24309249 (Takesian & Hensch 2013 - abstract only)",
+        "PMID:22462544 (Levelt & Hubener 2012 - abstract only)",
+        "PMID:27033548 (Hong 2016 - abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/synaptic-pruning.md",
+        "wiki/concepts/critical-period.md",
+        "wiki/concepts/perineuronal-net.md",
+        "wiki/concepts/complement-cns.md",
+        "wiki/neurons/microglia.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/v1-primary-visual-cortex.md (revision 4)"
+      ],
+      "contested_claims_logged": [],
+      "unresolved_questions": [
+        "Q-cp-01: 不同皮层区域的关键期时间跨度差异（V1 vs 语言皮层 vs 前额叶）——PNN成熟时间差异、Lynx1表达差异，还是PV密度/E/I比率差异？",
+        "Q-cp-02: 人类成年大脑C1q在什么条件下重新激活？是否有可靠生物标志物在AD突触损失前预警？",
+        "Q-cp-03: PNN的6-S/4-S硫酸化比率能否作为'皮层可塑性状态'分子指标，指导神经康复最佳干预时机？"
+      ],
+      "next_suggested_topics": [
+        "神经发生与命运决定：胚胎皮层神经元如何从放射状胶质细胞分裂、迁移并获得层特异性身份（课程路线2第二篇）",
+        "轴突导向：Semaphorin-Neuropilin、Netrin-DCC、Ephrin-Eph如何引导发育期轴突找到靶标（课程路线2第三篇）",
+        "主动推断与自由能原理（Active Inference/FEP）：Friston框架如何把感知、行动、情感统一（填补Q-pc-02和Q-gwt-04）",
+        "发育中的髓鞘化：少突胶质细胞包裹轴突的时序及其对神经信息传导和可塑性的影响（课程路线2延伸）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "第37篇，系统日期UTC+8 2026-05-31。课程路线2（神经网络如何建成）第一篇。新建5个wiki页面（synaptic-pruning, critical-period, perineuronal-net, complement-cns, microglia），修订1个（v1-primary-visual-cortex rev4）。图谱新增5节点21条边（总计89节点520条边）。3个开放全文来源（PMC3528177/PMC3387538/PMC12642162）。关键认识：大脑精密性来自修剪而非生长；关键期关闭是主动压制而非被动消失；补体修剪机制连接了发育正常功能与AD病理。"
     }
   ],
   "layer_coverage_recent": {
