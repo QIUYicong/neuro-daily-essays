@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-05-30
-revision_count: 1
+updated: 2026-05-31
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease]
+related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
-opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker]
-source_articles: [2026-05-30-amygdala-fear-memory]
-key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858"]
+opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory]
+key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380"]
 ---
 
 # 恐惧消退 (Fear Extinction)
@@ -27,6 +27,8 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 消退学习建立的是一套竞争性抑制记忆，通过两种并行机制：**去增强**（弱化原始恐惧突触的类LTD机制，早期主导）和**新回路建立**（IL皮层→腹侧ITC→CeM抑制回路的突触增强，后期主导）。这套新回路是情景依赖的：只在消退训练发生的情景中有效，换情景则被关闭——这是情景信息从海马→BA的门控作用。
 
 前额叶皮层对消退的双向控制是核心：前边缘皮层（PL）促进恐惧表达，下边缘皮层（IL）促进消退表达。vmPFC/IL在人类中的激活强度直接预测消退回忆的质量，PTSD患者vmPFC激活不足是其消退记忆提取障碍的神经底物。
+
+消退记忆的巩固特别依赖**REM睡眠**：Totty等人（2017，PMID:28729826）发现，消退训练后夜间睡眠期间，外侧杏仁核（LA）与腹侧海马（VH）之间θ振荡的相位关系（约180°反相）预测次日消退记忆的质量（R=0.954）。这表明消退记忆不只依赖于训练中的突触可塑性，还依赖于训练后REM睡眠期间特定的LA-VH θ同步状态。此外，REM睡眠通过蓝斑沉默（NE≈0）实现情绪记忆的去饱和化，有助于减弱原始恐惧痕迹的情感色彩，同时保留消退学习的信息内容（Walker 2009）。
 
 ## 关键机制
 

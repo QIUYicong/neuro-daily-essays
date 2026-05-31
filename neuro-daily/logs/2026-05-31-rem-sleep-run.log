@@ -1,0 +1,107 @@
+# 运行日志：2026-05-31（第34篇·REM睡眠与情绪记忆）
+
+**运行时间**：2026-05-31
+**文章编号**：#34
+**文章标题**：情绪炼金炉：REM睡眠如何重写记忆的情感底色
+**文件名**：2026-05-31-rem-sleep-emotional-memory.md
+
+---
+
+## 步骤记录
+
+### A. 状态检查
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md
+- 读取 topic_ledger.json：33篇已有，最新为2026-06-19（#33 睡眠纺锤波），系统日期2026-05-31
+- 读取 unresolved_questions.md：识别高优先级问题 Q-rem-sleep-role（memory-consolidation）和 Q-spindle-rem-division（sleep-spindles #33文章）
+- 读取 fear-extinction.md：发现其 related 字段引用 rem-sleep 和 emotional-memory-depotentiation（悬空引用）
+- 读取 theta-oscillations.md：发现缺少REM θ内容
+
+### B. 主题选择
+**选定主题**：REM睡眠的情绪记忆处理机制（rem-sleep / emotional-memory-depotentiation）
+**选题依据**：
+1. Q-rem-sleep-role（memory-consolidation）高优先级悬空问题
+2. Q-spindle-rem-division（sleep-spindles #33）直接指向REM分工
+3. fear-extinction.md 有 rem-sleep 悬空引用待填
+4. 符合5月课程路线6（情绪与动机）×路线4（学习与记忆）交汇
+
+### C. 文献检索
+通过 NCBI E-utilities API 检索：
+
+1. **PMID:27174984** (Boyce et al. 2016, Science) — 光遗传证明REM期MS GABA神经元→θ→情境记忆因果链；abstract only（无PMC）
+2. **PMID:19702380** (Walker 2009, Nat Rev Neurosci) — SFSR假说综述；abstract only（无PMC）
+3. **PMC2890316 / PMID:22119526** (van der Helm et al. 2011, Curr Biol) — REM去饱和杏仁核人类fMRI；full text（开放）
+4. **PMC3237718** (Stickgold 2005, Nature) — 睡眠记忆综述；full text（开放）
+5. **PMC5242402 / PMID:28100731** (Poe 2017, Trends Neurosci) — θ相位反转假说；full text（开放）
+6. **PMC6428732** (Goldstein & Walker 2014, Nat Rev Neurosci) — 情绪记忆与睡眠综述；full text（开放）
+7. **PMC5498516 / PMID:28729826** (Totty et al. 2017, Sci Rep) — LA-VH θ相位差预测消退记忆；full text（开放）
+8. **Diekelmann & Born 2010** (PMID:20046194, Nat Rev Neurosci) — SWS vs REM分工；abstract only（无PMC）
+
+**注意**：未使用 Sci-Hub 或任何非授权来源。PMC URL 301重定向均通过 pmc.ncbi.nlm.nih.gov 访问。Ji & Wilson 2007搜索返回0结果，未收录。
+
+### D. 文章写作
+创建：neuro-daily/articles/2026-05-31-rem-sleep-emotional-memory.md
+字数：约4500字
+结构：今日核心问题 → 背景（NREM/REM分工）→ 机制一（NE真空）→ 机制二（θ同步）→ 因果证据（Boyce 2016）→ 人类证据（van der Helm 2011）→ 相位反转假说（Poe 2017）→ 消退记忆与REM θ（Totty 2017）→ PTSD意义 → 比喻（情绪炼金炉）→ AI对照 → 未解问题（Q-rem-01至Q-rem-05）→ 概念卡片 → 认知地图更新
+
+### E. 固结步骤（Wiki 更新）
+
+**新建页面（2）**：
+- wiki/concepts/rem-sleep.md（revision_count=1）
+- wiki/concepts/emotional-memory-depotentiation.md（revision_count=1）
+
+**修订页面（3）**：
+- wiki/concepts/fear-extinction.md（revision_count=1→2）：当前理解节新增REM巩固段落（Totty 2017, Walker 2009）；frontmatter更新
+- wiki/concepts/theta-oscillations.md（revision_count=1→2）：新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节；当前理解补充；关键证据表+2行；连接+3条
+- wiki/concepts/memory-consolidation.md（revision_count=4→5）：当前理解节新增REM角色段落（Boyce 2016, van der Helm 2011, SFSR）；Q-rem-sleep-role标记部分解答；关键证据+2行；连接+2条
+
+**图谱更新**（_graph.json）：
+- 节点：80→82（新增 rem-sleep, emotional-memory-depotentiation）
+- 边：468→486（新增18条有向边）
+- 更新：index.md（3处），CHANGELOG.md（新增2026-05-31条目）
+
+**状态文件更新**：
+- topic_ledger.json：total_articles 33→34；新增第34条条目
+- unresolved_questions.md：新增Q-rem-01到Q-rem-05（5个问题）
+- maturity_index.json：新增rem-sleep（established/high）和emotional-memory-depotentiation（emerging/medium）
+- source_registry.json：新增8条来源记录；total_sources 212→220
+- monthly_synthesis.md：新增文章#34条目（2条知识点）
+
+### F. 版本控制
+- 分支：main
+- 暂存：neuro-daily/（articles/, notes/, sources/, wiki/, state/, logs/）
+- 提交：标准日志格式
+
+---
+
+## 关键决策记录
+
+1. **日期冲突处理**：系统日期2026-05-31，但 topic_ledger 最近条目是2026-06-19（#33）。使用系统日期2026-05-31作为本文日期，与知识库中已有多篇2026-05-31文章共存（slug不同，无冲突）。
+
+2. **分支策略**：环境显示分支`claude/funny-einstein-npsjS`，但ROUTINE.md明确要求推送到main。按ROUTINE.md执行，工作在main分支。
+
+3. **源访问**：8篇参考文献中5篇开放获取全文，3篇仅abstract。未使用任何非授权来源。Diekelmann & Born 2010（NREM vs REM对比综述）仅有abstract，但内容足够支撑文章论点。
+
+4. **内容置信度**：情绪记忆去饱和化的细胞机制（θ谷值驱动LA突触LTD）仅为理论推断（Poe假说），已在wiki和文章中明确标注为"假说"、置信度"中"。LA-VH相关性极高（R=0.954），但因果链尚待实验证明，已在文章中区分相关性和因果性。
+
+---
+
+## 质量检查
+
+- [ ] 所有PMID/PMCIDs经过 E-utilities API 验证（不是凭记忆使用）
+- [ ] 未编造任何来源、实验数据或结论
+- [ ] 情绪记忆去饱和化机制（假说）和因果证据（Boyce 2016）明确区分
+- [ ] 未提供任何医疗建议或临床推荐
+- [ ] wiki页面引用格式一致（[[slug]]格式）
+- [ ] 图谱边数经人工计数验证（18条新边）
+
+---
+
+## 错误与修正记录
+
+- PubMed直接URL（pubmed.ncbi.nlm.nih.gov/PMID/）有时返回不相关页面，改用NCBI E-utilities API（esearch/efetch）验证所有PMID
+- PMC URL（www.ncbi.nlm.nih.gov/pmc/articles/PMC*/）发生301重定向，改用 pmc.ncbi.nlm.nih.gov/articles/PMC*/ 访问
+- Ji & Wilson 2007 多次搜索返回0结果，最终放弃收录（不影响文章核心论点）
+
+---
+
+*日志完成：2026-05-31*

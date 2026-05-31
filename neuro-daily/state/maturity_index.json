@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-19",
+  "last_updated": "2026-05-31",
   "levels": [
     "speculative",
     "emerging",
@@ -598,6 +598,22 @@
       "confidence": "high",
       "last_changed": "2026-06-19",
       "reason": "Created. SO-spindle-SWR triple nesting: multiple independent validations. SO origin in PFC and propagation: established."
+    },
+    {
+      "slug": "rem-sleep",
+      "page": "wiki/concepts/rem-sleep.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-05-31",
+      "reason": "Created 2026-05-31. REM sleep as neurobiological state: established (decades of polysomnography + EEG). LC silence/NE suppression during REM: established (Aston-Jones 1981). REM theta oscillations: established. Causal role in contextual memory (Boyce 2016 optogenetics, PMID:27174984): high. LA-VH theta synchrony predicting extinction memory (Totty 2017, R=0.954): high correlational + mechanistic plausibility. Emotional memory depotentiation function (Walker SFSR): mainstream (van der Helm 2011 human fMRI; multiple converging lines). PTSD as depotentiation failure: emerging."
+    },
+    {
+      "slug": "emotional-memory-depotentiation",
+      "page": "wiki/concepts/emotional-memory-depotentiation.md",
+      "status": "emerging",
+      "confidence": "medium",
+      "last_changed": "2026-05-31",
+      "reason": "Created 2026-05-31. Core concept (REM selectively weakens emotional tone while preserving information content) supported by convergent behavioral and neuroimaging evidence (Walker 2009, van der Helm 2011). Proposed LTD-like mechanism (theta trough-driven synaptic weakening at LA) is theoretically coherent (Poe 2017) but lacks direct synaptic evidence in LA-VH circuit. PTSD as depotentiation failure: plausible but mechanistically unproven. Status: emerging (well-supported phenomenology, incomplete mechanistic chain). Anticipate upgrade to mainstream when LA-specific theta-phase LTD is demonstrated."
     }
   ]
 }

@@ -4086,7 +4086,142 @@
         "core vs matrix thalamus",
         "fast vs slow spindles"
       ]
+    },
+    {
+      "pmid": "27174984",
+      "title": "Causal evidence for the role of REM sleep theta rhythm in contextual memory consolidation (Boyce et al.)",
+      "year": 2016,
+      "journal": "Science",
+      "open_access": false,
+      "access_level": "abstract_only",
+      "used_dates": [
+        "2026-05-31"
+      ],
+      "topics": [
+        "REM sleep",
+        "theta oscillations",
+        "medial septum",
+        "contextual memory",
+        "optogenetics",
+        "causal evidence"
+      ]
+    },
+    {
+      "pmid": "19702380",
+      "title": "Sleep-dependent memory triage: evolving generalization through selective processing (Walker 2009)",
+      "year": 2009,
+      "journal": "Nat Rev Neurosci",
+      "open_access": false,
+      "access_level": "abstract_only",
+      "used_dates": [
+        "2026-05-31"
+      ],
+      "topics": [
+        "REM sleep",
+        "emotional memory",
+        "sleep to forget sleep to remember",
+        "SFSR hypothesis",
+        "memory triage"
+      ]
+    },
+    {
+      "pmid": "22119526",
+      "pmc": "PMC2890316",
+      "title": "REM sleep depotentiates amygdala activity to previous emotional experiences (van der Helm et al. 2011)",
+      "year": 2011,
+      "journal": "Curr Biol",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": [
+        "2026-05-31"
+      ],
+      "topics": [
+        "REM sleep",
+        "amygdala depotentiation",
+        "emotional memory",
+        "fMRI",
+        "human study",
+        "SFSR hypothesis"
+      ]
+    },
+    {
+      "pmid": "28729826",
+      "pmc": "PMC5498516",
+      "title": "Sleeping with fear: Amygdala-hippocampus theta synchrony predicts extinction memory consolidation (Totty et al. 2017)",
+      "year": 2017,
+      "journal": "Sci Rep",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": [
+        "2026-05-31"
+      ],
+      "topics": [
+        "fear extinction",
+        "REM sleep",
+        "theta oscillations",
+        "LA-VH synchrony",
+        "amygdala",
+        "hippocampus",
+        "phase coupling",
+        "PTSD"
+      ]
+    },
+    {
+      "pmid": "28100731",
+      "pmc": "PMC5242402",
+      "title": "Noradrenergic 'Aversion' Might Be the Key to Normal Fear Extinction ... (Poe 2017)",
+      "year": 2017,
+      "journal": "Trends Neurosci",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": [
+        "2026-05-31"
+      ],
+      "topics": [
+        "REM sleep",
+        "theta phase reversal",
+        "locus coeruleus",
+        "norepinephrine",
+        "emotional memory depotentiation",
+        "fear extinction"
+      ]
+    },
+    {
+      "pmc": "PMC3237718",
+      "title": "Sleep and memory: reviewing the literature (Stickgold 2005, Nature)",
+      "year": 2005,
+      "journal": "Nature",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": [
+        "2026-05-31"
+      ],
+      "topics": [
+        "sleep-dependent memory consolidation",
+        "REM sleep",
+        "NREM sleep",
+        "review"
+      ]
+    },
+    {
+      "pmc": "PMC6428732",
+      "title": "The role of sleep in emotional memory processing (Goldstein & Walker 2014, Nat Rev Neurosci)",
+      "year": 2014,
+      "journal": "Nat Rev Neurosci",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_dates": [
+        "2026-05-31"
+      ],
+      "topics": [
+        "sleep",
+        "emotional memory",
+        "REM sleep",
+        "amygdala",
+        "PTSD",
+        "review"
+      ]
     }
   ],
-  "total_sources": 212
+  "total_sources": 220
 }

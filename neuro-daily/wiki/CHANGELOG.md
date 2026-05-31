@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-05-31（第 34 篇·REM睡眠与情绪记忆·深化课程路线4·学习与记忆 + 课程路线6·情绪与动机）
+
+**源文章**：[[2026-05-31-rem-sleep-emotional-memory]] —《情绪炼金炉：REM睡眠如何重写记忆的情感底色》
+
+**新建页面（2）**：
+- `concepts/rem-sleep.md`（REM睡眠）🟢 established / 置信度高 — NE真空（蓝斑沉默）+ θ振荡 + 杏仁核-海马θ同步三机制；情绪记忆去饱和化的离线窗口；Boyce 2016光遗传因果（仅REM期沉默MS GABA→θ消失→情境记忆损害）；van der Helm 2011人类fMRI（REM睡眠降低杏仁核情绪反应）；Walker SFSR假说
+- `concepts/emotional-memory-depotentiation.md`（情绪记忆去饱和化）🟡 emerging / 置信度中 — REM期NE≈0 → θ谷值驱动LA突触类LTD → 情绪色彩选择性弱化、事实内容保留；Poe θ相位反转假说（峰值→谷值）；Totty 2017 LA-VH 180°反相 (R=0.954)；PTSD可能是去饱和化失败
+
+**修订页面（3）**：
+- `concepts/fear-extinction.md`（修订#2）— 当前理解节新增REM睡眠巩固段落（Totty 2017 LA-VH θ相位差，Walker SFSR）；frontmatter新增rem-sleep/theta-oscillations/emotional-memory-depotentiation至related，Q-rem-01/Q-rem-02至opens_questions，PMID:28729826/PMID:19702380至key_sources
+- `concepts/theta-oscillations.md`（修订#2）— 新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节（清醒/REM θ功能对比表，LA-VH θ相位差机制，Boyce 2016因果链）；当前理解节补充REM θ段落；关键证据表新增2行；连接新增rem-sleep/fear-extinction/emotional-memory-depotentiation；opens_questions新增Q-rem-01/Q-rem-03/Q-rem-05
+- `concepts/memory-consolidation.md`（修订#5）— 当前理解节新增REM睡眠角色段落（Boyce 2016因果链、van der Helm 2011、Walker SFSR假说）；关键证据表新增2行；Q-rem-sleep-role标记为部分解答；related新增rem-sleep/emotional-memory-depotentiation
+
+**矛盾登记（0）**：θ相位反转假说（Poe）机制细节仍待验证，已登记为Q-rem-03；SFSR假说在人类层面证据仍弱，已在文章和wiki中标注置信度差异
+
+**新增未解问题（5）**：Q-rem-01（LA-VH θ同步细胞机制）、Q-rem-02（θ相位反转是否区分不同强度情绪记忆）、Q-rem-03（θ峰值→谷值转变的充分/必要性）、Q-rem-04（人类REM去饱和化的个体差异来源）、Q-rem-05（增强REM θ是否改善情绪调节或治疗PTSD）
+
+**图谱变化**：82节点（+2），486边（+18）
+
+---
+
 ## 2026-06-19（第 33 篇·睡眠纺锤波·深化课程路线4·学习与记忆）
 
 **源文章**：[[2026-06-19-sleep-spindles-nrem]] —《当大脑钟声响起：睡眠纺锤波的丘脑起源与记忆巩固的时间建筑学》

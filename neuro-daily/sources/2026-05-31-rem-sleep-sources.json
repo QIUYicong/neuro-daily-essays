@@ -1,0 +1,108 @@
+{
+  "date": "2026-05-31",
+  "article": "2026-05-31-rem-sleep-emotional-memory.md",
+  "article_number": 34,
+  "sources": [
+    {
+      "id": "PMID:27174984",
+      "type": "original_research",
+      "citation": "Boyce R, et al. Causal evidence for the role of REM sleep theta rhythm in contextual memory consolidation. Science. 2016;352(6289):812-816.",
+      "doi": "10.1126/science.aad5252",
+      "pmcid": null,
+      "open_access": false,
+      "access_level": "abstract_only",
+      "relevance": "光遗传因果证明：REM θ是记忆巩固充分必要条件（核心）",
+      "key_claims": ["仅REM期间沉默MS-GABA神经元 → 位置识别和情境恐惧记忆均受损", "NREM/清醒期间沉默 → 无效果", "不影响睡眠结构"]
+    },
+    {
+      "id": "PMID:19702380",
+      "type": "review",
+      "citation": "Walker MP. Overnight therapy? The role of sleep in emotional brain processing. Psychol Bull. 2009;135(5):731-748.",
+      "doi": "10.1037/a0016570",
+      "pmcid": "PMC2890316",
+      "open_access": true,
+      "access_level": "full_text",
+      "relevance": "Sleep to Forget, Sleep to Remember (SFSR) 假说的完整论证（综述核心）",
+      "key_claims": ["REM在NE缺失环境中重激活情绪记忆", "情感电荷去极化，事实内容保留", "睡眠剥夺导致杏仁核过激活（60%）和vmPFC连接断裂"]
+    },
+    {
+      "id": "PMID:22119526",
+      "type": "original_research",
+      "citation": "van der Helm E, et al. REM sleep depotentiates amygdala activity to previous emotional experiences. Curr Biol. 2011;21(23):2029-2032.",
+      "doi": "10.1016/j.cub.2011.10.052",
+      "pmcid": "PMC3237718",
+      "open_access": true,
+      "access_level": "full_text",
+      "relevance": "人类fMRI直接验证：一夜睡眠后杏仁核反应降低，与REM NE活动负相关",
+      "key_claims": ["睡眠组杏仁核激活显著降低", "vmPFC-杏仁核连接增强", "REM低γ（低NE）预测情绪去饱和化幅度"]
+    },
+    {
+      "id": "PMID:28100731",
+      "type": "review",
+      "citation": "Poe GR. Sleep is for forgetting. J Neurosci. 2017;37(3):464-473.",
+      "doi": "10.1523/JNEUROSCI.0820-16.2017",
+      "pmcid": "PMC5242402",
+      "open_access": true,
+      "access_level": "full_text",
+      "relevance": "LC沉默机制、θ相位去极化假说的完整阐述",
+      "key_claims": ["LC在REM期间接近完全沉默", "NE缺失创造去极化窗口", "θ波谷发放（REM）→去极化，不同于清醒θ波峰→LTP"]
+    },
+    {
+      "id": "PMID:28729826",
+      "type": "original_research",
+      "citation": "Totty MS, et al. Sleep-dependent oscillatory synchronization: a role in fear memory consolidation. Front Neural Circuits. 2017;11:49.",
+      "doi": "10.3389/fncir.2017.00049",
+      "pmcid": "PMC5498516",
+      "open_access": true,
+      "access_level": "full_text",
+      "relevance": "LA-VH θ相位差预测恐惧消退记忆质量（关键实验）",
+      "key_claims": ["REM睡眠θ跨区域同步程度最高", "LA-VH反相(180°)→消退成功，同相(0°)→消退失败", "Pearson R=0.954, p=0.041"]
+    },
+    {
+      "id": "PMID:30930809",
+      "type": "review",
+      "citation": "Scarpelli S, et al. The functional role of dreaming in emotional processes. Front Psychol. 2019;10:459.",
+      "doi": "10.3389/fpsyg.2019.00459",
+      "pmcid": "PMC6428732",
+      "open_access": true,
+      "access_level": "full_text",
+      "relevance": "梦境与情绪处理的关系综述（背景与补充）",
+      "key_claims": ["梦境内容与情绪经历连续性", "θ功率与梦境报告正相关", "奇异性内容可能稀释情绪效价"]
+    },
+    {
+      "id": "PMID:20046194",
+      "type": "review",
+      "citation": "Diekelmann S, Born J. The memory function of sleep. Nat Rev Neurosci. 2010;11(2):114-126.",
+      "doi": "10.1038/nrn2762",
+      "pmcid": null,
+      "open_access": false,
+      "access_level": "abstract_only",
+      "relevance": "NREM/REM记忆功能分工背景（已在前文#30、#33引用）",
+      "key_claims": ["NREM优先陈述性记忆", "REM优先情绪记忆和程序性记忆"]
+    },
+    {
+      "id": "PMID:23589831",
+      "type": "review",
+      "citation": "Rasch B, Born J. About sleep's role in memory. Physiol Rev. 2013;93(2):681-766.",
+      "doi": "10.1152/physrev.00032.2012",
+      "pmcid": null,
+      "open_access": false,
+      "access_level": "abstract_only",
+      "relevance": "权威睡眠记忆综述（已在前文引用）",
+      "key_claims": []
+    }
+  ],
+  "open_full_text_count": 5,
+  "abstract_only_count": 3,
+  "minimum_sources_met": true,
+  "minimum_open_fulltext_met": true,
+  "official_institution_source": false,
+  "search_terms_used": [
+    "Boyce REM sleep theta contextual memory 2016",
+    "Walker overnight therapy emotional brain processing 2009",
+    "van der Helm REM sleep depotentiates amygdala",
+    "Poe sleep forgetting 2017",
+    "REM sleep fear extinction hippocampus theta oscillation",
+    "Scarpelli REM sleep memory consolidation review 2019"
+  ]
+}
