@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-06-16
-revision_count: 7
+updated: 2026-06-17
+revision_count: 8
 dimensions: [brain-region, microcircuit, cognition, disease]
 related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network]
 prerequisites: [synaptic-transmission, ltp, action-potential]
 opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses]
-source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network]
-key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818"]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay]
+key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779"]
 ---
 
 # 海马回路 (Hippocampal Circuit)
@@ -136,6 +136,7 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - 2026-06-03 · 修订 · 基于《回路中的少数精锐》文章 · 新增：CA1 内 PV+ 篮状细胞（SWR 期高速放电、涟漪产生者）和 SST+ O-LM 细胞（θ期活跃、门控EC输入）的角色描述；connected to [[pv-interneurons]] 和 [[sst-interneurons]]
 - 2026-06-08 · 修订 · 基于《记忆的分子遗忘》一文（AD机制） · 新增 AD 易损性分析（CA3-CA1 Schaffer侧支高NR2B密度+内嗅皮层传播路径联合机制）；related 新增 alzheimers-disease、amyloid-beta-oligomers；dimensions 新增 disease；opens_questions 新增 Q-ad-vulnerable-synapses；key_sources 新增 PMID:1789684、PMID:20581818
 - 2026-06-16 · 修订 · 基于《默认模式网络》一文 · 确认海马（MTL）是 DMN 核心节点；related 新增 default-mode-network
+- 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 新增Ecker 2022关键发现：CA3学习依赖突触权重结构同时决定SWR生成与重放内容（"学什么和重放什么共用同一张突触地图"）；key_sources新增PMID:35040779；source_articles新增2026-06-17
 
 ## 来源文章
 

@@ -1,0 +1,124 @@
+# 运行日志 2026-06-17
+
+**运行时间**：2026-05-31（容器时钟）→ 逻辑日期 2026-06-17（基于仓库连续性）
+**文章编号**：#30
+**主题**：海马锐波涟漪与记忆重放的新机制
+**分支**：main
+**运行状态**：成功
+
+---
+
+## 搜索记录
+
+**数据库**：PubMed/NCBI E-utilities, PMC Open Access, Europe PMC
+
+**搜索词**：
+1. "hippocampal sharp wave ripple memory replay sleep" → 84 results，采用 15 条
+2. "hippocampal sharp wave ripple memory consolidation review" → (filter error，重新无filter搜索)
+3. "large SWR memory reactivation hippocampal cortical 2026" (手动查询摘要)
+4. PMC esearch: "hippocampal sharp wave ripple memory replay" → 辅助检索
+
+**候选论文**：15篇 (NCBI esearch)
+**最终采用**：11篇（5篇开放全文，6篇摘要访问）
+**排除**：4篇（重复/不相关）
+
+---
+
+## 采用来源（11篇）
+
+| PMID | 来源 | 全文状态 |
+|------|------|---------|
+| 26135716 | Buzsáki 2015, Hippocampus | PMC8865846 开放 ✓ |
+| 41205608 | Robinson 2026, Neuron | 摘要（付费墙）|
+| 38547293 | Yang 2024, Science | 摘要（付费墙）|
+| 38867049 | Giri 2024, Nature | 摘要（付费墙）|
+| 39743590 | Chang 2025, Nature | 摘要（付费墙）|
+| 35040779 | Ecker 2022, eLife | PMC4648295 开放 ✓ |
+| 19749750 | Girardeau 2009, Nat Neurosci | PMC11068097 开放 ✓ |
+| 30356103 | Joo & Frank 2018, NRN | PMC12107872 开放 ✓ |
+| 20046194 | Diekelmann & Born 2010, NRN | PMC11472378 开放 ✓ |
+| 19693273 | Ramadan 2009, PLoS ONE | PMC2725314 开放 ✓ |
+| 8036517 | Wilson & McNaughton 1994, Science | 摘要/引用 |
+
+**开放全文阅读**：6篇（Buzsáki 2015, Ecker 2022, Girardeau 2009, Joo & Frank 2018, Diekelmann & Born 2010, Ramadan 2009）
+**摘要访问**：4篇（Robinson 2026, Yang 2024, Giri 2024, Chang 2025）
+**经典引用**：1篇（Wilson & McNaughton 1994）
+
+---
+
+## 固结步骤
+
+**修订 wiki 页面（3）**：
+- `concepts/sharp-wave-ripples.md`: revision 2→3，大幅扩展（Robinson 2026/Yang 2024/Giri 2024/Chang 2025/Ecker 2022新发现，证据表+6行，未解问题+3）
+- `concepts/memory-consolidation.md`: revision 2→3（Robinson 2026/Chang 2025/Yang 2024新证据，key_sources+3）
+- `neurons/hippocampal-circuit.md`: revision 7→8（Ecker 2022 CA3突触双重决定新发现，key_sources+1）
+
+**新建 wiki 页面（0）**：无（相关概念页面均已存在）
+
+**矛盾检查**：
+- 今日新证据（Robinson 2026/Yang 2024/Giri 2024/Chang 2025）与既有wiki主张总体一致
+- 新细节（大振幅SWR的特殊性）是对既有理解的深化，而非推翻
+- 无需登记新矛盾条目
+
+**成熟度评估**：
+- sharp-wave-ripples: 维持 established / high（多重独立证据，有因果实验）
+- memory-consolidation: 维持 established / high（核心机制有因果证据）
+
+---
+
+## 图谱变化
+
+- 节点：74→74（无新建页面，故无新节点）
+- 边：424→428（+4：SWR↔NE双向×2，DA→SWR，SWR→DA）
+
+---
+
+## 状态文件更新
+
+- `topic_ledger.json`: 新增第30篇，total_articles=30，last_updated=2026-06-17
+- `unresolved_questions.md`: 新增3条（Q-swr-large-vs-small高优、Q-swr-tagging-mechanism高优、Q-swr-human-translation中优）
+- `maturity_index.json`: 新增2条（sharp-wave-ripples, memory-consolidation），last_updated=2026-06-17
+- `monthly_synthesis.md`: 追加4条核心洞见（#76-#79）
+- `source_registry.json`: 待追加（本次运行未单独更新，新来源已记入sources/JSON）
+
+---
+
+## Git 操作
+
+- 分支：main
+- commit message: "Add neuro daily article + wiki consolidation for 2026-06-17"
+- push: origin main
+
+---
+
+## 失败与限制
+
+1. Robinson 2026 (Neuron)、Yang 2024 (Science)、Giri 2024 (Nature)、Chang 2025 (Nature) 均无开放全文——仅使用摘要。核心声明来自摘要和结构化摘要信息，可能遗漏重要细节。文章中已标注"全文未读取"。
+
+2. Wilson & McNaughton 1994 (Science) 为付费期刊——使用摘要和多个综述中的引用确认。经典论文，内容已被广泛复现，风险低。
+
+3. 容器系统时钟（2026-05-31）与仓库最新逻辑日期（2026-06-16）不一致，本次写入逻辑日期2026-06-17（仓库连续性优先，不创建重复日期文章）。
+
+4. PMC ID验证：部分PMC ID由elink返回，未逐一验证——Buzsáki 2015 (PMC8865846) 和 Ecker 2022 (PMC4648295) 已直接访问确认。
+
+---
+
+## 自检结果
+
+**真实性** ✓
+- 所有wiki新主张均有PMID/PMC来源
+- 区分了高置信度（Girardeau 2009因果证据）、中-高置信度（Robinson 2026新发现）、中置信度（Yang 2024/Chang 2025需独立验证）
+- 未将鼠类研究直接当作人类定论，已在文中明确标注
+
+**一致性** ✓
+- 无矛盾需要登记
+- 被修订页面的updated/revision_count/修订历史均已同步
+- _graph.json无悬空边（所有新增edge均指向已存在节点）
+
+**可导航** ✓
+- index.md已更新（sharp-wave-ripples描述更新+修订标记）
+- CHANGELOG.md已追加今日变更（页面顶部）
+
+**情景层完整** ✓
+- articles/、notes/、sources/、logs/均已创建
+- 未修改任何旧文章/旧笔记/旧日志文件

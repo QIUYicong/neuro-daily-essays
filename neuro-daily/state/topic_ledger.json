@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-31",
-  "total_articles": 29,
+  "last_updated": "2026-06-17",
+  "total_articles": 30,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2100,6 +2100,75 @@
       "mode": "long_term_curriculum",
       "article_number": 29,
       "note": "第29篇，系统日期UTC+8 2026-05-31。意识专题四联篇（GWT #8 / 预测编码 #27 / DMN #28 / IIT #29）完成。新建4个wiki页面，修订2个，登记2条矛盾。图谱：74节点，424条边。COGITATE 2025（Nature，PMC12137136）是核心来源，对 IIT 和 GWT 同时构成严峻挑战。"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "夜晚，大脑重写自己的神经地图——海马锐波涟漪、记忆选择与睡眠期巩固的新机制",
+      "filename": "2026-06-17-sharp-wave-ripples-memory-replay.md",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/sharp-wave-ripples.md",
+        "wiki/concepts/memory-consolidation.md",
+        "wiki/neurons/hippocampal-circuit.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "睡眠中的海马锐波涟漪（SWR）如何在不到100毫秒内将白天学到的神经序列以约20倍速率重放，并将记忆转移至新皮层——而且是如何主动筛选记忆、而非无差别重播所有经历的？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "4. 学习和记忆（记忆巩固与睡眠）",
+      "topic_tags": [
+        "sharp wave ripple",
+        "SWR",
+        "memory replay",
+        "sleep",
+        "memory consolidation",
+        "CA3 recurrent network",
+        "large SWRs",
+        "optogenetics",
+        "memory tagging",
+        "sleep deprivation",
+        "sleep microstructure",
+        "norepinephrine",
+        "pupil dilation",
+        "complementary learning systems",
+        "STDP",
+        "sequence replay",
+        "time compression",
+        "hippocampal-cortical dialogue",
+        "slow oscillations",
+        "sleep spindles"
+      ],
+      "main_sources": [
+        "PMID:26135716 (PMC8865846) — Buzsáki 2015 综述",
+        "PMID:41205608 — Robinson et al. 2026, Neuron",
+        "PMID:38547293 — Yang et al. 2024, Science",
+        "PMID:38867049 — Giri et al. 2024, Nature",
+        "PMID:39743590 — Chang et al. 2025, Nature",
+        "PMID:35040779 (PMC4648295) — Ecker et al. 2022, eLife",
+        "PMID:19749750 (PMC11068097) — Girardeau et al. 2009, Nature Neuroscience",
+        "PMID:30356103 — Joo & Frank 2018, NRN",
+        "PMID:20046194 — Diekelmann & Born 2010, NRN",
+        "PMID:19693273 (PMC2725314) — Ramadan et al. 2009, PLoS ONE",
+        "PMID:8036517 — Wilson & McNaughton 1994, Science"
+      ],
+      "unresolved_questions": [
+        "Q-swr-large-vs-small：什么决定了SWR振幅（大vs小）？睡眠剥夺如何降低振幅？",
+        "Q-swr-tagging-mechanism：清醒SWR标记机制的分子基础是什么？DA/NE的角色？",
+        "Q-swr-human-translation：大振幅SWR的特殊功能是否在人类颅内电极研究中可以验证？"
+      ],
+      "next_suggested_topics": [
+        "睡眠纺锤波的产生机制：丘脑-皮层环路如何产生12-15 Hz振荡？",
+        "REM睡眠的神经生物学：恐惧消退/情绪去饱和/程序性记忆",
+        "海马的CA2亚区：社交记忆的独立模块？",
+        "空间导航的神经基础：网格细胞系统如何与海马整合？",
+        "记忆提取的神经机制：提取如何重激活原始编码的神经轨迹？"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 30
     }
   ],
   "layer_coverage_recent": {

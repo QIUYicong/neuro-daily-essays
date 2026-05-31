@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-06-06
-revision_count: 2
+updated: 2026-06-17
+revision_count: 3
 dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-shy-vs-active-consolidation, Q-rem-sleep-role]
-source_articles: [2026-06-02-memory-consolidation-systems]
-key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455"]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay]
+key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293"]
 ---
 
 # 记忆巩固（系统层面）(Memory Consolidation — Systems Level)
@@ -100,7 +100,10 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
 |------|------------|------|--------|
-| SWR 是系统巩固的因果机制 | 闭环 SWR 破坏 → 次日空间记忆损害 | PMID:19816984; PMID:22555434 | 高 |
+| SWR 是系统巩固的因果机制（破坏） | 闭环 SWR 破坏 → 次日空间记忆损害 | PMID:19749750; PMID:22555434 | 高 |
+| 大振幅SWR光遗传增强→改善记忆（充分性证据） | 闭环光遗传SWR增强 + 行为测试 | PMID:41205608 | 中-高（新因果证据，鼠类） |
+| 睡眠微结构（NE/瞳孔）分时处理新旧记忆 | CA1记录+瞳孔追踪：收缩期→新记忆；扩张期→旧记忆 | PMID:39743590 | 中（新发现） |
+| 清醒SWR标记特定经历供睡眠优先巩固 | 群体记录+跨状态解码 | PMID:38547293 | 中（新发现，需验证） |
 | SO-spindle-SWR 三重奏时间嵌套 | 多通道 LFP 记录 + 相位分析 | PMID:23589831; PMID:26238360 | 高 |
 | 海马场所细胞在睡眠中重激活 | 双细胞对交叉相关图：探索 ≈ 睡眠 | PMID:8036517 | 高 |
 | 记忆提取从海马→皮层转移 | 纵向 fMRI：1天/1月/1年后激活变化 | PMID:26238360 | 高 |
@@ -145,6 +148,7 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 
 - 2026-06-02 · 创建 · 基于《记忆的夜间旅行》文章 · 填补了 hippocampal-circuit、sharp-wave-ripples、place-cell、engram-cells 共4个页面的最高优先级悬空引用 · 初始置信度：高
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"系统巩固中的竞争遴选"小节；新增 SHY 假说作为竞争-遴选的极端形式；added [[competition-selection-principle]] to related
+- 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 证据表新增3行（Robinson 2026因果充分性、Chang 2025微结构分时、Yang 2024清醒标记）；key_sources扩充；related新增norepinephrine-locus-coeruleus；source_articles新增2026-06-17
 
 ## 来源文章
 

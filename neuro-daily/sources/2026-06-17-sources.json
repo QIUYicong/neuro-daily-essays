@@ -1,0 +1,264 @@
+{
+  "date": "2026-06-17",
+  "article": "2026-06-17-sharp-wave-ripples-memory-replay",
+  "topic": "海马锐波涟漪与记忆重放",
+  "sources": [
+    {
+      "id": "S-2026-06-17-01",
+      "pmid": "26135716",
+      "pmcid": "PMC8865846",
+      "type": "review",
+      "title": "Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning",
+      "authors": ["Buzsáki G"],
+      "journal": "Hippocampus",
+      "year": 2015,
+      "volume": "25",
+      "issue": "10",
+      "pages": "1073-1188",
+      "doi": "10.1002/hipo.22488",
+      "open_access": true,
+      "full_text_read": true,
+      "relevance": "核心综述：SWR生成机制、重放机制、功能、CA3循环网络",
+      "key_claims_used": [
+        "CA3有约250,000锥体细胞，约60-100km轴突侧枝",
+        "SWR是被释放而非被触发（胆碱能解除是门控）",
+        "神经元参与SWR遵循对数正态分布",
+        "SWR是哺乳动物大脑中最同步的群体放电事件",
+        "涟漪频率约100-250 Hz；NREM睡眠约2-4次/秒"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-02",
+      "pmid": "41205608",
+      "type": "original_research",
+      "title": "Large sharp-wave ripples promote hippocampo-cortical memory reactivation and consolidation during sleep",
+      "authors": ["Robinson HL", "Todorova R", "Nagy GA", "Gruzdeva A", "Paudel P", "Oliva A", "Fernandez-Ruiz A"],
+      "journal": "Neuron",
+      "year": 2026,
+      "volume": "114",
+      "issue": "2",
+      "pages": "226-236",
+      "doi": "10.1016/j.neuron.2025.10.023",
+      "open_access": false,
+      "full_text_read": false,
+      "access_note": "摘要开放；全文付费",
+      "relevance": "关键新发现：大振幅SWR专门与海马-PFC同步再激活相关；闭环光遗传增强SWR改善记忆",
+      "key_claims_used": [
+        "只有大振幅SWR亚集与海马和PFC的同步记忆再激活相关",
+        "新学习后大型SWR出现频率选择性增加",
+        "闭环光遗传SWR增强 → 海马-PFC再激活增强 + 记忆改善（因果证据）"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-03",
+      "pmid": "38547293",
+      "type": "original_research",
+      "title": "Selection of experience for memory by hippocampal sharp wave ripples",
+      "authors": ["Yang W", "Sun C", "Huszár R", "Hainmueller T", "Kiselev K", "Buzsáki G"],
+      "journal": "Science",
+      "year": 2024,
+      "volume": "383",
+      "issue": "6685",
+      "pages": "938-941",
+      "doi": "10.1126/science.adk0997",
+      "open_access": false,
+      "full_text_read": false,
+      "access_note": "摘要开放；全文付费",
+      "relevance": "清醒SWR的记忆标记功能：标记特定经历供睡眠优先重放",
+      "key_claims_used": [
+        "清醒SWR在部分试次后选择性发生",
+        "SWR尖峰内容可被解码为周围特定试次的神经表征（标记）",
+        "被清醒SWR标记的试次在睡眠中被优先重放"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-04",
+      "pmid": "38867049",
+      "type": "original_research",
+      "title": "Sleep loss diminishes hippocampal reactivation and replay",
+      "authors": ["Giri B", "Kinsky N", "Kaya U", "Maboudi K", "Abel T", "Diba K"],
+      "journal": "Nature",
+      "year": 2024,
+      "volume": "630",
+      "pages": "1016-1023",
+      "doi": "10.1038/s41586-024-07397-x",
+      "open_access": false,
+      "full_text_read": false,
+      "access_note": "摘要开放；全文付费",
+      "relevance": "睡眠剥夺导致SWR振幅降低但发生率不降；重放效率显著下降（分离证据）",
+      "key_claims_used": [
+        "睡眠剥夺期间SWR仍发生（持续或更高速率）但振幅降低",
+        "神经元重激活和重放效率在睡眠剥夺期间显著降低",
+        "SWR出现率≠SWR有效性：振幅质量是关键"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-05",
+      "pmid": "39743590",
+      "type": "original_research",
+      "title": "Sleep microstructure organizes memory replay",
+      "authors": ["Chang H", "Tang W", "Wulf AM", "Nyasulu T", "Wolf ME", "Fernandez-Ruiz A", "Oliva A"],
+      "journal": "Nature",
+      "year": 2025,
+      "volume": "637",
+      "pages": "398-405",
+      "doi": "10.1038/s41586-024-08174-6",
+      "open_access": false,
+      "full_text_read": false,
+      "access_note": "摘要开放；全文付费",
+      "relevance": "睡眠微结构（瞳孔/NE状态）将新旧记忆重放分时段组织，防止干扰",
+      "key_claims_used": [
+        "NREM睡眠瞳孔收缩期：近期记忆优先重放",
+        "NREM睡眠瞳孔扩张期：陈旧记忆优先重放",
+        "分时机制防止新旧记忆突触修改的相互干扰"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-06",
+      "pmid": "35040779",
+      "pmcid": "PMC4648295",
+      "type": "original_research",
+      "title": "Hippocampal sharp wave-ripples and the associated sequence replay emerge from structured synaptic interactions in a network model of area CA3",
+      "authors": ["Ecker A", "Bagi B", "Vértes E", "Steinbach-Németh O", "Karlócai MR", "Papp OI", "Miklós I", "Hájos N", "Freund TF", "Gulyás AI", "Káli S"],
+      "journal": "eLife",
+      "year": 2022,
+      "volume": "11",
+      "pages": "e71850",
+      "doi": "10.7554/eLife.71850",
+      "open_access": true,
+      "full_text_read": true,
+      "relevance": "CA3数据驱动模型：学习突触结构同时决定SWR生成和重放内容",
+      "key_claims_used": [
+        "CA3学习依赖突触权重结构同时决定SWR生成与重放内容",
+        "对称STDP支持前向+逆向重放；非对称STDP仅前向",
+        "PVBC互抑制产生涟漪；锥体细胞尖峰频率适应推进序列",
+        "学什么和重放什么共用同一突触地图"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-07",
+      "pmid": "19749750",
+      "pmcid": "PMC11068097",
+      "type": "original_research",
+      "title": "Selective suppression of hippocampal ripples impairs spatial memory",
+      "authors": ["Girardeau G", "Benchenane K", "Wiener SI", "Buzsáki G", "Zugaro MB"],
+      "journal": "Nature Neuroscience",
+      "year": 2009,
+      "volume": "12",
+      "issue": "10",
+      "pages": "1222-1223",
+      "doi": "10.1038/nn.2384",
+      "open_access": true,
+      "full_text_read": true,
+      "relevance": "经典因果实验：选择性闭环SWR中断→次日空间记忆受损",
+      "key_claims_used": [
+        "闭环实时电刺激中断SWR → 次日空间记忆显著受损",
+        "场所细胞本身不受影响（SWR是必要的）"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-08",
+      "pmid": "30356103",
+      "pmcid": "PMC12107872",
+      "type": "review",
+      "title": "The hippocampal sharp wave-ripple in memory retrieval for immediate use and consolidation",
+      "authors": ["Joo HR", "Frank LM"],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2018,
+      "volume": "19",
+      "issue": "12",
+      "pages": "744-757",
+      "doi": "10.1038/s41583-018-0077-1",
+      "open_access": true,
+      "full_text_read": true,
+      "relevance": "综述：SWR的双重功能（即时检索+巩固）；10-40%的SWR有可检测重放模式",
+      "key_claims_used": [
+        "单次SWR同时执行记忆检索和记忆巩固",
+        "10-40%的SWR有统计上可检测的重放模式",
+        "SWR协调海马、PFC、EC、VTA等多区域活动"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-09",
+      "pmid": "20046194",
+      "pmcid": "PMC11472378",
+      "type": "review",
+      "title": "The memory function of sleep",
+      "authors": ["Diekelmann S", "Born J"],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2010,
+      "volume": "11",
+      "issue": "2",
+      "pages": "114-126",
+      "doi": "10.1038/nrn2762",
+      "open_access": true,
+      "full_text_read": true,
+      "relevance": "综述：两阶段记忆模型；SO-纺锤波-SWR三重奏；SWS vs REM分工",
+      "key_claims_used": [
+        "慢振荡-纺锤波-SWR的时间嵌套是NREM睡眠巩固的核心结构",
+        "SWS比REM对陈述性记忆更重要",
+        "SWS期间海马→皮层信息流，REM期间皮层突触稳固"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-10",
+      "pmid": "19693273",
+      "pmcid": "PMC2725314",
+      "type": "original_research",
+      "title": "Hippocampal sharp wave/ripples during sleep for consolidation of associative memory",
+      "authors": ["Ramadan W", "Eschenko O", "Sara SJ"],
+      "journal": "PLoS ONE",
+      "year": 2009,
+      "volume": "4",
+      "issue": "8",
+      "pages": "e6697",
+      "doi": "10.1371/journal.pone.0006697",
+      "open_access": true,
+      "full_text_read": true,
+      "relevance": "相关性证据：训练后睡眠SWR密度与次日表现相关，r = -0.68",
+      "key_claims_used": [
+        "SWR密度与次日空间辨别任务表现相关（r = -0.68, p = 0.028）",
+        "训练大鼠在学习出现（第5-6天）时SWR密度显著增加"
+      ]
+    },
+    {
+      "id": "S-2026-06-17-11",
+      "pmid": "8036517",
+      "type": "original_research",
+      "title": "Reactivation of hippocampal ensemble memories during sleep",
+      "authors": ["Wilson MA", "McNaughton BL"],
+      "journal": "Science",
+      "year": 1994,
+      "volume": "265",
+      "issue": "5172",
+      "pages": "676-679",
+      "doi": "10.1126/science.8036517",
+      "open_access": false,
+      "full_text_read": false,
+      "access_note": "摘要开放；经典论文",
+      "relevance": "奠基性发现：睡眠中海马集群重激活白天空间经历（开创重放研究领域）",
+      "key_claims_used": [
+        "白天共同激活的场所细胞对，在睡眠SWR期间共激活概率显著高于随机预期",
+        "重激活仅见于空间场有重叠的细胞对"
+      ]
+    }
+  ],
+  "search_terms": [
+    "hippocampal sharp wave ripple memory replay sleep",
+    "hippocampal sharp wave ripple memory consolidation review",
+    "large SWR memory reactivation hippocampal cortical 2026",
+    "Yang Buzsáki sharp wave ripples experience selection 2024",
+    "sleep deprivation hippocampal replay 2024",
+    "sleep microstructure memory replay norepinephrine 2025",
+    "CA3 network model sharp wave ripple sequence replay Ecker"
+  ],
+  "databases_searched": [
+    "PubMed/NCBI E-utilities",
+    "PMC Open Access",
+    "Europe PMC"
+  ],
+  "sources_with_full_text": 5,
+  "sources_with_abstract_only": 5,
+  "sources_not_accessed": 1,
+  "notes": "Robinson 2026 (Neuron)、Yang 2024 (Science)、Giri 2024 (Nature)、Chang 2025 (Nature) 均未读全文（付费墙）；核心声明来自摘要。Ecker 2022 (eLife) 和 Buzsáki 2015 (Hippocampus) 均为开放全文，读取了详细内容。Wilson & McNaughton 1994 为经典论文，通过摘要和综述引用确认内容。"
+}

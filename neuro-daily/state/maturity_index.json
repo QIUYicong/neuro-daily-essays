@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-17",
   "levels": [
     "speculative",
     "emerging",
@@ -522,6 +522,24 @@
       "confidence": "medium",
       "last_changed": "2026-05-30",
       "reason": "初始创建：点燃现象的核心证据（行为双峰、MEG分叉、猕猴单单元）汇聚支持全有全无机制，但 P3b 地位存疑（无报告范式），COGITATE 2025 对 PFC 角色提出新问题；confidence=medium"
+    },
+    {
+      "slug": "sharp-wave-ripples",
+      "title": "尖波涟漪（SWR）",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-17",
+      "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性证据（光遗传增强SWR→改善记忆）、Yang 2024清醒SWR标记功能、Giri 2024睡眠剥夺分离证据进一步巩固established地位",
+      "page": "wiki/concepts/sharp-wave-ripples.md"
+    },
+    {
+      "slug": "memory-consolidation",
+      "title": "记忆巩固（系统层面）",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-17",
+      "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性和Chang 2025睡眠微结构新证据补充",
+      "page": "wiki/concepts/memory-consolidation.md"
     }
   ]
 }

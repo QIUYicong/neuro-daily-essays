@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-05-31",
+  "updated": "2026-06-17",
   "node_count": 70,
   "edge_count": 410,
   "edge_types": [
@@ -3088,6 +3088,26 @@
     {
       "from": "consciousness-ignition",
       "to": "posterior-cortical-hot-zone",
+      "type": "related"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "regulates"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "sharp-wave-ripples",
+      "type": "regulates"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "sharp-wave-ripples",
+      "type": "regulates"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "dopamine-reward-prediction-error",
       "type": "related"
     }
   ],

@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-17（第 30 篇·海马锐波涟漪与记忆重放·多项2024-2026新发现整合）
+
+**源文章**：[[2026-06-17-sharp-wave-ripples-memory-replay]] —《夜晚，大脑重写自己的神经地图——海马锐波涟漪、记忆选择与睡眠期巩固的新机制》
+
+**新建页面（0）**：今日无新建页面（相关 wiki 页面均已存在）
+
+**修订页面（3）**：
+
+- `concepts/sharp-wave-ripples.md`（revision 2→3）：新增4个关键2024-2026新发现：(1) Robinson 2026 — 只有大振幅SWR亚集与海马-PFC同步再激活相关，光遗传增强SWR改善记忆（因果充分性证据）；(2) Yang 2024 — 清醒SWR作为记忆标记机制，标记经历供睡眠优先重放；(3) Giri 2024 — 睡眠剥夺SWR振幅降低、重放效率下降（SWR发生率≠有效性的分离证据）；(4) Chang 2025 — NREM睡眠微结构（NE/瞳孔状态）将新旧记忆重放分时段组织防止干扰；另新增 Ecker 2022 CA3模型（学习突触结构同时决定SWR生成与重放内容）；证据表从5行扩展到11行；未解问题从2增到5；related新增norepinephrine-locus-coeruleus和dopamine-reward-prediction-error
+
+- `concepts/memory-consolidation.md`（revision 2→3）：证据表新增3行（Robinson 2026因果充分性、Chang 2025微结构分时、Yang 2024清醒标记）；key_sources扩充3项；related新增norepinephrine-locus-coeruleus；source_articles新增今日文章
+
+- `neurons/hippocampal-circuit.md`（revision 7→8）：新增Ecker 2022关键发现：CA3学习依赖突触权重结构同时决定SWR生成与重放内容；key_sources新增PMID:35040779；source_articles新增今日文章
+
+**矛盾登记（0）**：今日新证据与既有wiki页面主张一致；Robinson 2026、Yang 2024、Chang 2025均为既有框架的深化而非推翻
+
+**新增悬空引用（0）**：所有新增related字段的节点均已有wiki页面
+
+**图谱变化**：节点 74→74（无变化，无新页面），边 424→428（+4：SWR↔NE双向调控边 ×2、DA→SWR调控边、SWR→DA关联边）
+
+---
+
 ## 2026-05-31（第 29 篇·整合信息理论 IIT·COGITATE 双重挑战）
 
 **源文章**：[[2026-05-31-integrated-information-theory]] —《意识等于整合信息：一个方程式的野心与困境》
