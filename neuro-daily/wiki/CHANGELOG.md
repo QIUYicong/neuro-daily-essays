@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-05-31（第 28 篇·第四周综合·世界模型六层架构）
+
+**源文章**：[[2026-05-31-week4-synthesis]] —《第四周综合：当大脑成为自己的宇宙——世界模型的六层建构架构》
+
+**新建页面（1）**：
+- `concepts/world-model.md`（世界模型）🟡 emerging / 置信度中 — 大脑对外部世界和自身状态持续维护的贝叶斯最优内部模型；六层架构（化学调控层→运动预测层→情感标注层→误差加权层→离线仿真层→意识广播层）整合第四周六篇文章；Friston 2010 自由能原理为数学框架；整合框架，非单一实验结论，置信度设为中；**第四周综合框架节点**
+
+**修订页面（3）**：
+- `theories/global-workspace-theory.md`（revision 1→2）：添加"GWT 作为世界模型意识广播层"的整合框架定位；related 新增 world-model；世界模型广播更新机制描述；DMN 先验生成器 vs GWT 广播基础设施的互补关系再次强调
+- `theories/predictive-coding.md`（revision 3→4）：将预测编码定位为"世界模型误差加权更新层"；related 新增 world-model；明确更新方程 Δmodel ∝ precision_weighted_prediction_error
+- `systems/default-mode-network.md`（revision 2→3）：将 DMN 定位为"世界模型离线仿真层"；related 新增 world-model；AD/DMN 连接补充世界模型视角
+
+**矛盾登记（0）**：无新矛盾。六层世界模型框架为今日新提出的整合性概念工具，尚无与既有 wiki 主张的冲突（该框架有意标注为 emerging 和 medium confidence）。
+
+**图谱更新**：70 节点（+1 world-model），410 条边（+10 edges）
+
+---
+
 ## 2026-05-30（第 27 篇·意识·全局工作空间理论，课程路线8第二篇）
 
 **源文章**：[[2026-05-30-global-workspace-theory]] —《当意识在大脑中"点燃"：全局工作空间理论与感知的临界翻转》

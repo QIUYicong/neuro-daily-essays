@@ -1,0 +1,74 @@
+## Run Log: 2026-05-31-week4-synthesis（第28篇·第四周综合）
+
+**日期**：2026-05-31 UTC+8
+**文章编号**：#28
+**类型**：weekly_synthesis（每7篇一次第四周综合）
+**分支**：main（单分支积累模型，见 ROUTINE.md）
+
+---
+
+### 选题决策
+
+检查 topic_ledger.json：已有27篇，最新为 #27（全局工作空间理论，2026-05-30）。
+按7篇周期：第4周 = 文章22-27（血清素/帕金森/杏仁核/预测编码/DMN/GWT）。
+文章 #28 = 第四周综合篇，主题确定：世界模型六层架构（六篇文章的统一框架）。
+
+---
+
+### 搜索记录
+
+本篇为综合性文章，主要整合已有知识库内容，补充关键综合性文献：
+
+1. **Friston 2010 自由能原理**（PMID:20068583）：补充查找以连接预测编码 → 主动推断 → 世界模型框架
+2. **COGITATE 2025**（PMC12137136）：GWT vs IIT 对决（已于 #27 使用，本文引用）
+3. **Mashour et al. 2020 Neuron**（PMC8770991）：GWT/意识综述（已于 #27 使用）
+4. **Andrews-Hanna 2012 TICS**（PMC3553600）：DMN双子系统综述（已于 #26 使用）
+5. **Clark 2013 BBS**（PMC4103014）：主动推断综述（已于 #25 使用）
+6. **Bastos et al. 2012 Neuron**（PMC3487690）：皮层层级振荡（已于 #25 使用）
+7. **Keller & Mrsic-Flogel 2018 Neuron**（PMC11449126）：感觉运动预测编码
+8. **Raichle et al. 2001 PNAS**（PMC446220）：DMN元分析基础（已于 #26 使用）
+9. **Buckner et al. 2009**（PMC3482119）：DMN与AD
+10. **Rao & Ballard 1999**（PMID:10195184）：预测编码奠基性工作
+11. **Keller et al. 2012 Neuron**（PMID:22681686）：小鼠V1感觉运动失配
+12. **Bastos et al. 2012**（PMID:23177956）：皮层层级振荡解剖实现
+13. **Dehaene & Changeux 2011**（PMID:21521609）：GWT形式化
+14. **Raichle et al. 2001**（PMID:11209064）：DMN去激活元分析
+15. **Buckner et al. 2009**（PMID:19211893）：Aβ优先沉积DMN枢纽
+
+开放全文可读：PMC12137136, PMC8770991, PMC3553600, PMC4103014, PMC3487690, PMC11449126, PMC446220, PMC3482119（共8篇）
+仅摘要：PMID:10195184, PMID:22681686, PMID:23177956, PMID:21521609, PMID:11209064, PMID:19211893, PMID:20068583（共7篇）
+
+---
+
+### 文件操作记录
+
+**新建文件**：
+- `neuro-daily/articles/2026-05-31-week4-synthesis.md` — 约5000字的综合文章
+- `neuro-daily/notes/2026-05-31-week4-synthesis-reading-notes.md` — 阅读笔记（原 2026-05-31-reading-notes.md 已被文章#8占用）
+- `neuro-daily/sources/2026-05-31-week4-synthesis-sources.json` — 15条来源（原 2026-05-31-sources.json 已被文章#8占用）
+- `neuro-daily/wiki/concepts/world-model.md` — 新建知识库页面（首个综合架构词条）
+- `neuro-daily/logs/2026-05-31-week4-synthesis-run.log` — 本日志文件
+
+**修订文件**：
+- `neuro-daily/wiki/theories/global-workspace-theory.md` — rev1→rev2，添加 world-model 到 related，新增"GWT作为世界模型意识广播层"段落
+- `neuro-daily/wiki/theories/predictive-coding.md` — rev3→rev4，添加 world-model 到 related，新增"将预测编码定位为世界模型误差加权更新层"
+- `neuro-daily/wiki/systems/default-mode-network.md` — rev2→rev3，添加 world-model 到 related，新增"将DMN定位为世界模型离线仿真层"
+- `neuro-daily/wiki/_graph.json` — 70节点（+1），410条边（+10）
+- `neuro-daily/wiki/index.md` — 主题页总数67，添加 world-model 条目
+- `neuro-daily/wiki/CHANGELOG.md` — 新增2026-05-31条目
+- `neuro-daily/state/topic_ledger.json` — 添加 #28 条目，total_articles=28
+- `neuro-daily/state/monthly_synthesis.md` — 添加洞见#71-75（Day 28条目）
+
+---
+
+### 图谱更新
+
+- 节点总数：70（+1 world-model）
+- 边总数：410（+10条新边）
+- 新边：world-model → predictive-coding (is-a), default-mode-network (mechanism-of), global-workspace-theory (mechanism-of), fear-conditioning (supports), dopamine-reward-prediction-error (related), basal-ganglia (part-of), serotonin-raphe-system (related), hippocampal-circuit (supports), memory-consolidation (mechanism-of), engram-cells (related)
+
+---
+
+### 推送状态
+
+见 git commit 记录。

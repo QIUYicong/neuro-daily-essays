@@ -6,13 +6,13 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-05-30
-updated: 2026-05-30
-revision_count: 1
+updated: 2026-05-31
+revision_count: 2
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave]
+related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model]
 prerequisites: [prefrontal-cortex, working-memory, action-potential, synaptic-transmission]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-gwt-04, Q-gwt-05]
-source_articles: [2026-05-30-global-workspace-theory]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis]
 key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734"]
 ---
 
@@ -105,6 +105,13 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《当意识在大脑中"点燃"》一文 · 初始置信度：中（GWT框架是 mainstream，但核心机制争议多，P3b地位存疑，COGITATE 2025 对 PFC 角色提出挑战）
+- 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 新增：GWT 作为世界模型「意识广播层」的框架定位；将 GWT 点燃机制整合进六层世界模型架构；新增 world-model 作为 related 页面
+
+### GWT 作为世界模型的意识广播层
+
+从「世界模型」视角（文章 #28，2026-05-31 新增）：GWT 描述的点燃机制是世界模型的**重要更新广播机制**。当某个预测误差大到阈值，或某个模型内容的「紧急度」超过临界值，全局工作空间「点燃」将该更新广播至全脑，使所有处理模块接收到同一份更新并协调响应。意识，在这个框架里，是世界模型实现全脑协调的推送通知系统。
+
+此框架还解释了 DMN 与 GWT 的互补关系：DMN 负责生成世界模型的先验内容（情节仿真、社会预测），GWT 的广播基础设施决定哪些内容（来自 DMN 内部或外部感知）被「点亮」进入意识。两者是内容生成器与广播基础设施的分工，而非竞争关系。
 
 ## 来源文章
 

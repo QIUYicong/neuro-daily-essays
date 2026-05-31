@@ -6,13 +6,13 @@ type: theory
 status: mainstream
 confidence: high
 created: 2026-06-16
-updated: 2026-05-30
-revision_count: 2
+updated: 2026-05-31
+revision_count: 3
 dimensions: [whole-brain-network, cognition, behavior, brain-region]
-related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala, global-workspace-theory]
+related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala, global-workspace-theory, world-model]
 prerequisites: [hippocampal-circuit, working-memory, predictive-coding]
 opens_questions: [Q-dmn-01, Q-dmn-02, Q-dmn-03, Q-dmn-04]
-source_articles: [2026-06-16-default-mode-network]
+source_articles: [2026-06-16-default-mode-network, 2026-05-31-week4-synthesis]
 key_sources: ["PMID:11209064", "PMID:15976020", "PMID:18400922", "PMID:19211893", "PMID:21677128", "PMID:24486981", "PMID:25938726"]
 ---
 
@@ -97,6 +97,7 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 
 - 2026-06-16 · 创建 · 基于《当大脑"休息"时，它在做什么？》一文 · 初始置信度：高（核心解剖和功能已确立）；子系统边界：中
 - 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 部分回应 Q-dmn-04：DMN 作为先验生成器 vs 全局工作空间作为广播基础设施的互补架构；添加 global-workspace-theory 到 related；更新当前理解段落
+- 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将 DMN 定位为「世界模型离线仿真层」；新增 world-model 到 related；明确 DMN 作为世界模型后台服务（先验生成器 + 情节重构 + 社会仿真）的六层架构定位；AD/DMN 连接中补充世界模型视角
 
 ## 来源文章
 

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-30",
-  "total_articles": 27,
+  "last_updated": "2026-05-31",
+  "total_articles": 28,
   "entries": [
     {
       "date": "2026-05-24",
@@ -1946,6 +1946,90 @@
       ],
       "mode": "long_term_curriculum",
       "note": "第27篇，logically 2026-06-17，系统日期UTC+8 2026-05-30。课程路线8（意识与自我）第二篇。新建2个wiki页面，修订3个页面。图谱：69节点，400条边。Q-dmn-04部分解答。"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "第四周综合：当大脑成为自己的宇宙——六篇文章如何共同描绘世界模型的建构架构",
+      "filename": "2026-05-31-week4-synthesis.md",
+      "article_number": 28,
+      "article_type": "weekly_synthesis",
+      "week": 4,
+      "covered_articles": [
+        "2026-06-13-serotonin-autoreceptor-ssri-delay (#22)",
+        "2026-06-14-parkinson-basal-ganglia-circuit (#23)",
+        "2026-05-30-amygdala-fear-memory (#24)",
+        "2026-06-15-predictive-coding (#25)",
+        "2026-06-16-default-mode-network (#26)",
+        "2026-05-30-global-workspace-theory (#27)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/world-model.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/global-workspace-theory.md",
+        "wiki/theories/predictive-coding.md",
+        "wiki/systems/default-mode-network.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "六篇看似独立的神经科学文章（血清素/帕金森/杏仁核/预测编码/DMN/GWT）是否指向同一个统一的计算架构？大脑是否在建构和维护一个持续自我更新的「世界模型」？",
+      "unifying_principle": "世界模型六层架构：化学调控层（5-HT）→ 运动预测层（基底节）→ 情感标注层（杏仁核）→ 误差加权更新层（预测编码）→ 离线仿真层（DMN）→ 意识广播层（GWT）",
+      "layer": [
+        "whole_brain_network",
+        "cognition",
+        "brain_region",
+        "behavior",
+        "molecular"
+      ],
+      "curriculum_track": "第四周综合（文章22-27的跨主题整合）",
+      "topic_tags": [
+        "world model",
+        "weekly synthesis",
+        "week 4",
+        "predictive processing",
+        "active inference",
+        "serotonin",
+        "basal ganglia",
+        "amygdala",
+        "default mode network",
+        "global workspace theory",
+        "consciousness",
+        "Friston",
+        "free energy principle",
+        "cross-article integration"
+      ],
+      "main_sources": [
+        "PMID:20068583 (Friston 2010, free energy principle, 开放全文)",
+        "PMC12137136 (COGITATE Consortium 2025 Nature, 开放全文)",
+        "PMC8770991 (Mashour et al. 2020 Neuron, 开放全文)",
+        "PMC3553600 (Andrews-Hanna 2012 TICS, 开放全文)",
+        "PMC4103014 (Clark 2013 BBS, 开放全文)",
+        "PMC3487690 (Bastos et al. 2012 Neuron, 开放全文)",
+        "PMC11449126 (Keller & Mrsic-Flogel 2018 Neuron, 开放全文)",
+        "PMC446220 (Raichle et al. 2001 PNAS, 开放全文)",
+        "PMC3482119 (Buckner et al. 2009 Ann NY Acad Sci, 开放全文)",
+        "PMID:10195184 (Rao & Ballard 1999 Nat Neurosci, 摘要)",
+        "PMID:22681686 (Keller et al. 2012 Neuron, 摘要)",
+        "PMID:23177956 (Bastos et al. 2012 Neuron, 摘要)",
+        "PMID:21521609 (Dehaene & Changeux 2011 Neuron, 摘要)",
+        "PMID:11209064 (Raichle et al. 2001 PNAS, 摘要)",
+        "PMID:19211893 (Buckner et al. 2009, 摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-pc-02: 预测编码/自由能原理是否足够可证伪？其核心实验预测是什么？",
+        "Q-dmn-04: DMN与全局工作空间（GWT）的精确神经重叠（已部分解答，但mPFC/ACC边界有待澄清）",
+        "Q-gwt-04: GWT与预测编码能否整合为统一框架（世界模型框架提供了路径，但尚无实验整合验证）",
+        "WM-Q-01: 情感效价系统（杏仁核）如何与预测误差系统（预测编码）的精度加权精确对接？",
+        "WM-Q-02: 世界模型的六层架构是否有神经解剖上的验证，还是仅为功能性框架？"
+      ],
+      "next_suggested_topics": [
+        "整合信息理论（IIT）：Phi度量、后部皮层热区、与GWT的根本分歧（续Q-gwt-05）",
+        "主动推断与自由能原理：Friston框架如何将感知、行动、情感统一为单一最小化原理",
+        "注意瞬盲的精细机制：竞争模型 vs 工作空间容量模型（续课程路线8）",
+        "自我参照处理（self-referential processing）：vmPFC的自我模型与DMN的关系",
+        "睡眠与记忆巩固：DMN在离线期如何执行情节记忆到语义记忆的转化"
+      ],
+      "mode": "weekly_synthesis",
+      "note": "第28篇，系统日期UTC+8 2026-05-31。第四周（文章22-27）综合篇。新建1个wiki页面（world-model），修订3个页面。图谱：70节点，410条边。世界模型六层架构首次在知识库中作为独立节点确立。"
     }
   ],
   "layer_coverage_recent": {
@@ -2026,5 +2110,5 @@
       "2026-06-12"
     ]
   },
-  "layer_note": "2026-05-30（全局工作空间理论/意识点燃）：课程路线8第二篇。覆盖 whole-brain-network/brain-region/cognition 三层。图谱：69节点、400条边。"
+  "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。"
 }

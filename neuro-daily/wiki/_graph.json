@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-05-30",
-  "node_count": 67,
-  "edge_count": 385,
+  "updated": "2026-05-31",
+  "node_count": 70,
+  "edge_count": 410,
   "edge_types": [
     "is-a",
     "part-of",
@@ -634,6 +634,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/consciousness-ignition.md"
+    },
+    {
+      "id": "world-model",
+      "title": "世界模型",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/world-model.md"
     }
   ],
   "edges": [
@@ -2914,6 +2923,66 @@
       "from": "prefrontal-cortex",
       "to": "consciousness-ignition",
       "type": "supports"
+    },
+    {
+      "from": "world-model",
+      "to": "predictive-coding",
+      "type": "is-a",
+      "note": "预测编码是世界模型贝叶斯更新机制的形式化描述"
+    },
+    {
+      "from": "world-model",
+      "to": "default-mode-network",
+      "type": "mechanism-of",
+      "note": "DMN 是世界模型的离线仿真层（先验维护、情节重构、社会仿真）"
+    },
+    {
+      "from": "world-model",
+      "to": "global-workspace-theory",
+      "type": "mechanism-of",
+      "note": "GWT 点燃机制是世界模型重要更新的意识广播层"
+    },
+    {
+      "from": "world-model",
+      "to": "fear-conditioning",
+      "type": "supports",
+      "note": "恐惧记忆（BLA-LTP）是世界模型情感标注层的高权重写入机制"
+    },
+    {
+      "from": "world-model",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "DA-RPE 是世界模型奖励预测层的误差信号"
+    },
+    {
+      "from": "world-model",
+      "to": "basal-ganglia",
+      "type": "part-of",
+      "note": "基底节是世界模型运动预测层的核心门控结构"
+    },
+    {
+      "from": "world-model",
+      "to": "serotonin-raphe-system",
+      "type": "related",
+      "note": "5-HT 系统是世界模型化学调控层的主要调质之一"
+    },
+    {
+      "from": "world-model",
+      "to": "hippocampal-circuit",
+      "type": "supports",
+      "note": "海马认知地图是世界模型的空间/情节表征核心"
+    },
+    {
+      "from": "world-model",
+      "to": "memory-consolidation",
+      "type": "mechanism-of",
+      "note": "系统巩固（SWR-海马皮层对话）是世界模型长期版本的写入过程"
+    },
+    {
+      "from": "world-model",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "印迹细胞是世界模型中特定记忆内容的细胞基底"
     }
   ],
   "dangling_references": [
