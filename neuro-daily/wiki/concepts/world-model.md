@@ -7,13 +7,13 @@ status: emerging
 confidence: medium
 created: 2026-05-31
 updated: 2026-05-31
-revision_count: 1
-dimensions: [cognition, whole-brain-network, brain-region, behavior, methods]
-related: [predictive-coding, default-mode-network, global-workspace-theory, fear-conditioning, dopamine-reward-prediction-error, serotonin-raphe-system, basal-ganglia, hippocampal-circuit, memory-consolidation, engram-cells]
-prerequisites: [predictive-coding, ltp, hebbian-learning, synaptic-transmission]
-opens_questions: [Q-pc-02, Q-dmn-04, Q-gwt-04]
-source_articles: [2026-05-31-week4-synthesis]
-key_sources: ["PMID:20068583", "PMID:10195184", "PMID:23177956", "PMID:21677128", "PMID:32135090"]
+revision_count: 2
+dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
+related: [predictive-coding, default-mode-network, global-workspace-theory, fear-conditioning, dopamine-reward-prediction-error, serotonin-raphe-system, basal-ganglia, hippocampal-circuit, memory-consolidation, engram-cells, temporal-hierarchy, sharp-wave-ripples, integrated-information-theory]
+prerequisites: [predictive-coding, ltp, hebbian-learning, synaptic-transmission, temporal-hierarchy]
+opens_questions: [Q-pc-02, Q-dmn-04, Q-gwt-04, Q-iit-02, Q-iit-03]
+source_articles: [2026-05-31-week4-synthesis, 2026-05-31-may-monthly-synthesis]
+key_sources: ["PMID:20068583", "PMID:10195184", "PMID:23177956", "PMID:21677128", "PMID:32135090", "PMID:40307561", "PMID:24206127"]
 ---
 
 # 世界模型 (World Model / Internal Generative Model)
@@ -102,7 +102,9 @@ key_sources: ["PMID:20068583", "PMID:10195184", "PMID:23177956", "PMID:21677128"
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 初始置信度：中（整合框架，非单一实验结论）
+- 2026-05-31 · 修订（月度综合）· 基于《五月月报·大图景》(#31) · 将六层架构升级为八层、补充时间层级维度（分子→终身）、新增 COGITATE 2025 对 GWT/IIT 两个顶层意识理论的挑战作为关键证据 · related 新增 temporal-hierarchy、sharp-wave-ripples、integrated-information-theory
 
 ## 来源文章
 
 - [[2026-05-31-week4-synthesis]]
+- [[2026-05-31-may-monthly-synthesis]]

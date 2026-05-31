@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-05-31（第 31 篇·五月月报·大图景·三十篇文章的跨月整合）
+
+**源文章**：[[2026-05-31-may-monthly-synthesis]] —《五月月报·大图景：从一个动作电位到世界模型——三十篇文章如何拼出大脑构建认知的完整弧线》
+
+**新建页面（1）**：
+- `concepts/temporal-hierarchy.md`（时间层级编码）🔵 mainstream / 置信度高 — 从纳秒到终身的多时间尺度并行计算框架；从SNARE融合（100μs）到威胁记忆（终身）的完整时间谱；是世界模型架构的时间维度
+
+**修订页面（1）**：
+- `concepts/world-model.md`（世界模型）— revision_count 1→2；将六层架构扩展为八层分层贝叶斯预测机器；related 新增 temporal-hierarchy、sharp-wave-ripples、integrated-information-theory；补充 COGITATE 2025 对顶层意识理论的挑战
+
+**矛盾登记（0）**：无新矛盾（月度综合不引入新实验数据）
+
+**新增悬空引用待补**：
+- `hebbian-learning` — world-model prerequisites 引用但独立页面不足（已有内容在 ltp.md 中）
+- `active-inference` — 月度大图景提及但缺独立页面（高优先级：下月优先补充）
+- `bayesian-brain` — 整合框架缺独立页面
+
+**图谱**：节点 74→75，边 428→438（新增10条边，连接 temporal-hierarchy 到各时间尺度机制）
+
+---
+
 ## 2026-06-17（第 30 篇·海马锐波涟漪与记忆重放·多项2024-2026新发现整合）
 
 **源文章**：[[2026-06-17-sharp-wave-ripples-memory-replay]] —《夜晚，大脑重写自己的神经地图——海马锐波涟漪、记忆选择与睡眠期巩固的新机制》

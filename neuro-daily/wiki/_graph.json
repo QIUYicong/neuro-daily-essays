@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-17",
+  "updated": "2026-05-31",
   "node_count": 70,
   "edge_count": 410,
   "edge_types": [
@@ -679,6 +679,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/methods/perturbational-complexity-index.md"
+    },
+    {
+      "id": "temporal-hierarchy",
+      "title": "时间层级编码",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/temporal-hierarchy.md"
     }
   ],
   "edges": [
@@ -3109,6 +3118,56 @@
       "from": "sharp-wave-ripples",
       "to": "dopamine-reward-prediction-error",
       "type": "related"
+    },
+    {
+      "from": "temporal-hierarchy",
+      "to": "action-potential",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-hierarchy",
+      "to": "synaptic-transmission",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-hierarchy",
+      "to": "ltp",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-hierarchy",
+      "to": "short-term-synaptic-plasticity",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-hierarchy",
+      "to": "theta-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-hierarchy",
+      "to": "sharp-wave-ripples",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-hierarchy",
+      "to": "memory-consolidation",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-hierarchy",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "world-model",
+      "to": "temporal-hierarchy",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "temporal-hierarchy",
+      "to": "world-model",
+      "type": "supports"
     }
   ],
   "dangling_references": [

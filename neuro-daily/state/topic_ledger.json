@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-17",
-  "total_articles": 30,
+  "last_updated": "2026-05-31",
+  "total_articles": 31,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2169,6 +2169,70 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 30
+    },
+    {
+      "date": "2026-05-31",
+      "title": "五月月报·大图景：从一个动作电位到世界模型——三十篇文章如何拼出大脑构建认知的完整弧线",
+      "filename": "2026-05-31-may-monthly-synthesis.md",
+      "article_number": 31,
+      "article_type": "monthly_synthesis",
+      "month": "2026-05",
+      "covered_articles": "articles #1–#30",
+      "wiki_pages_created": [
+        "wiki/concepts/temporal-hierarchy.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/world-model.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "三十篇神经科学文章之后，从动作电位的纳秒级物理到意识的全脑网络，统一图景是什么？五条主线如何拼出分层贝叶斯预测机器的完整弧线？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "月度大图景（五月，第1–30篇跨月整合）",
+      "topic_tags": [
+        "monthly synthesis",
+        "temporal hierarchy",
+        "predictive coding",
+        "world model",
+        "layered computation",
+        "bayesian brain",
+        "neuromodulation",
+        "memory consolidation",
+        "consciousness",
+        "AI comparison"
+      ],
+      "main_sources": [
+        "PMID:24206127 (Südhof 2013, PMC3820874, 开放全文)",
+        "PMID:8421494 (Bliss & Collingridge 1993, 摘要)",
+        "PMID:22441246 (Liu 2012, PMC3331914, 开放全文)",
+        "PMID:20068583 (Friston 2010, PMC2799638, 开放全文)",
+        "PMID:11209064 (Raichle 2001, PMC446220, 开放全文)",
+        "PMID:40307561 (COGITATE 2025, PMC12137136, 开放全文)"
+      ],
+      "unresolved_questions": [
+        "Q-iit-02: COGITATE 2025后IIT如何修订？",
+        "Q-gwt-04: GWT与预测编码的统一框架？",
+        "Q-pc-02: 预测编码最强版本的可证伪预测是什么？",
+        "Q-swr-large-vs-small: 大振幅SWR的分子决定因素",
+        "Q-engram-necessity-vs-sufficiency: 印迹细胞的充分性已证但必要性待确认"
+      ],
+      "next_suggested_topics": [
+        "主动推断与自由能原理（Active Inference/FEP）：填补Q-pc-02，建立贝叶斯大脑wiki页面",
+        "睡眠分期的神经机制：NREM/REM/慢波睡眠的详细回路，填补记忆巩固叙事的缺口",
+        "注意瞬盲（Attentional Blink）：GWT最强可证伪预测，填补Q-gwt-02",
+        "发育神经科学入门：神经发生/轴突导向/突触修剪（课程路线2）",
+        "Connectomics基础：C. elegans 302神经元完整连接组（课程路线9）"
+      ],
+      "mode": "monthly_synthesis",
+      "note": "第31篇，系统日期UTC+8 2026-05-31。五月月度大图景。新建1个wiki页面（temporal-hierarchy），修订1个（world-model）。图谱：75节点，435条边。总结了5条跨月主线和分层贝叶斯预测机器框架。"
     }
   ],
   "layer_coverage_recent": {

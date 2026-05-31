@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-17",
+  "last_updated": "2026-05-31",
   "levels": [
     "speculative",
     "emerging",
@@ -540,6 +540,22 @@
       "last_changed": "2026-06-17",
       "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性和Chang 2025睡眠微结构新证据补充",
       "page": "wiki/concepts/memory-consolidation.md"
+    },
+    {
+      "slug": "temporal-hierarchy",
+      "title": "时间层级编码",
+      "page": "wiki/concepts/temporal-hierarchy.md",
+      "domain": "concepts",
+      "current_status": "mainstream",
+      "current_confidence": "high",
+      "history": [
+        {
+          "date": "2026-05-31",
+          "status": "mainstream",
+          "confidence": "high",
+          "reason": "描述性框架，各组成机制（突触传递速度、NMDA窗口、θ振荡、SWR、系统巩固）均有独立高质量证据支持；框架本身是整合性组织工具而非可证伪理论，置信度高是对其描述准确性的评估"
+        }
+      ]
     }
   ]
 }
