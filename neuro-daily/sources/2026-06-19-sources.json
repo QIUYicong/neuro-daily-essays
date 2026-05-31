@@ -1,0 +1,272 @@
+{
+  "date": "2026-06-19",
+  "article": "sleep-spindles-nrem",
+  "article_number": 33,
+  "query_terms": [
+    "sleep spindles thalamocortical mechanism review",
+    "sleep spindles memory consolidation hippocampus",
+    "sleep spindles sharp-wave ripples coupling NREM",
+    "TRN reticular nucleus T-type calcium channel CaV3.3",
+    "SO spindle SWR triple coupling memory",
+    "CACNA1I sleep spindle schizophrenia"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "31804897",
+      "title": "Sleep Spindles: Mechanisms and Functions",
+      "authors": "Fernandez LMJ, Lüthi A",
+      "year": 2020,
+      "journal": "Physiological Reviews",
+      "type": "review",
+      "full_text_status": "open_access_pmc",
+      "pmc_id": "PMC7013851",
+      "doi": "10.1152/physrev.00042.2019",
+      "used_for": "Comprehensive mechanism review: TRN-TC circuit, T-type channels, spindle functions",
+      "key_claims": [
+        "TRN-TC oscillation loop is the spindle pacemaker",
+        "Spindles enable reactivation and routing of hippocampal traces",
+        "Spindles outlast their EEG appearance in effects on plasticity"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "30583750",
+      "title": "Thalamic reticular control of local sleep in mouse sensory cortex",
+      "authors": "Fernandez LM, Vantomme G, Osorio-Forero A, Cardis R, Beard E, Lüthi A",
+      "year": 2018,
+      "journal": "eLife",
+      "type": "original_research",
+      "full_text_status": "open_access_pmc",
+      "pmc_id": "PMC6406379",
+      "doi": "10.7554/eLife.40503",
+      "used_for": "CaV3.3 in TRN as key T-type channel for spindle generation",
+      "key_claims": [
+        "Sensory TRN neurons express higher CaV3.3 than non-sensory TRN",
+        "CaV3.3 KO shifts sensory cortex from fast spindles to delta dominance",
+        "TRN heterogeneity underlies region-specific sleep regulation"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "24282303",
+      "title": "Sleep spindles are generated in the absence of T-type calcium channel-mediated low-threshold burst firing of thalamocortical neurons",
+      "authors": "Lee J, Song K, Lee K, Hong J, Lee H, Chae S, Cheong E, Shin HS",
+      "year": 2013,
+      "journal": "Proceedings of the National Academy of Sciences USA",
+      "type": "original_research",
+      "full_text_status": "open_access_pmc",
+      "pmc_id": "PMC3834279",
+      "doi": "10.1073/pnas.1316396110",
+      "used_for": "CaV3.1 KO mice still generate spindles; TRN is the true pacemaker",
+      "key_claims": [
+        "CaV3.1 KO mice retain normal waxing-and-waning spindles",
+        "TC relay neurons show increased tonic (not burst) firing during spindles",
+        "TRN, not TC relay neuron rebound bursts, is necessary for spindle generation"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "32066662",
+      "title": "Effects of a patient-derived de novo coding alteration of CACNA1I in mice connect a schizophrenia risk gene with sleep spindle deficits",
+      "authors": "Ghoshal A, Uygun DS, Yang L, McNally JM, et al.",
+      "year": 2020,
+      "journal": "Translational Psychiatry",
+      "type": "original_research",
+      "full_text_status": "open_access_pmc",
+      "pmc_id": "PMC7054394",
+      "doi": "10.1038/s41398-020-0795-5",
+      "used_for": "CACNA1I (CaV3.3) patient mutation causes spindle deficits in mice",
+      "key_claims": [
+        "Schizophrenia patient CACNA1I gain-of-function mutation → severe spindle deficits",
+        "Effect requires specific channel kinetics change, not haploinsufficiency",
+        "Directly links schizophrenia risk gene to TRN spindle generation"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "38443198",
+      "title": "Coupled sleep rhythms for memory consolidation",
+      "authors": "Staresina BP",
+      "year": 2024,
+      "journal": "Trends in Cognitive Sciences",
+      "volume": "28(4)",
+      "pages": "339-351",
+      "type": "review",
+      "full_text_status": "open_access",
+      "doi": "10.1016/j.tics.2024.01.009",
+      "used_for": "SO-spindle-SWR hierarchy review, current state of field",
+      "key_claims": [
+        "SO (0.75 Hz) from PFC sets temporal frame",
+        "Spindles nested in SO up-state",
+        "Hippocampal SWRs nested in spindle troughs",
+        "Three-way nesting is fine-tuned mechanism for hippocampal-to-neocortical transfer"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "32248788",
+      "title": "A mechanism for learning with sleep spindles",
+      "authors": "Peyrache A, Seibt J",
+      "year": 2020,
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "volume": "375(1799)",
+      "pages": "20190230",
+      "type": "review_with_model",
+      "full_text_status": "open_access_pmc",
+      "pmc_id": "PMC7117406",
+      "doi": "10.1098/rstb.2019.0230",
+      "used_for": "Spindle-induced dendritic Ca2+ influx as plasticity mechanism",
+      "key_claims": [
+        "Spindles activate L-type Ca2+ channels in cortical dendrites",
+        "Accumulated Ca2+ creates plasticity window (CaMKII activation)",
+        "Spindles decouple thalamocortical networks from external sensory input",
+        "Sequential: SWR replay → spindle Ca2+ window → cortical weight modification"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "28689981",
+      "title": "Thalamic Spindles Promote Memory Formation during Sleep through Triple Phase-Locking of Cortical, Thalamic, and Hippocampal Rhythms",
+      "authors": "Latchoumane CV, Ngo HV, Born J, Bhatt DL",
+      "year": 2017,
+      "journal": "Neuron",
+      "type": "original_research",
+      "full_text_status": "abstract_only",
+      "note": "未读取全文（Neuron订阅）；基于摘要和结构化信息",
+      "doi": "10.1016/j.neuron.2017.04.048",
+      "used_for": "Causal evidence: triple coupling necessary for memory consolidation",
+      "key_claims": [
+        "Only SO-in-phase thalamic spindles improve hippocampus-dependent memory",
+        "Out-of-phase spindle stimulation ineffective",
+        "Triple phase-locking (SO+spindle+SWR) is causally necessary"
+      ]
+    },
+    {
+      "id": "S8",
+      "pmid": "31533977",
+      "title": "Coordination of Human Hippocampal Sharp-Wave Ripples during NREM Sleep with Cortical Theta Bursts, Spindles, Downstates, and Upstates",
+      "authors": "Jiang X, Gonzalez-Martinez J, Halgren E",
+      "year": 2019,
+      "journal": "Journal of Neuroscience",
+      "type": "original_research",
+      "full_text_status": "open_access_pmc",
+      "pmc_id": "PMC6710103",
+      "doi": "10.1523/JNEUROSCI.0031-19.2019",
+      "used_for": "Human intracranial evidence for SWR-spindle-SO coupling",
+      "key_claims": [
+        "Human hippocampal SWRs cluster during cortical up-states and spindle troughs",
+        "Different hippocampal subregions couple with distinct cortical areas",
+        "Validates SO-spindle-ripple model in humans"
+      ]
+    },
+    {
+      "id": "S9",
+      "pmid": "29234075",
+      "title": "Replay of large-scale spatio-temporal patterns from waking during subsequent NREM sleep in human cortex",
+      "authors": "Jiang X, Shamie I, Doyle WK, et al.",
+      "year": 2017,
+      "journal": "Scientific Reports",
+      "type": "original_research",
+      "full_text_status": "open_access_pmc",
+      "pmc_id": "PMC5720531",
+      "doi": "10.1038/s41598-017-17018-3",
+      "used_for": "Human cortical replay coupled to spindles during NREM",
+      "key_claims": [
+        "Waking cortical spatiotemporal motifs replay at higher frequency during NREM",
+        "Replayed motifs temporally couple with spindles",
+        "Novel motifs show stronger replay (active consolidation)"
+      ]
+    },
+    {
+      "id": "S10",
+      "pmid": "37023710",
+      "title": "Sleep—A brain-state serving systems memory consolidation",
+      "authors": "Brodt S, Inostroza M, Niethard N, Born J",
+      "year": 2023,
+      "journal": "Neuron",
+      "type": "review",
+      "full_text_status": "abstract_available",
+      "doi": "10.1016/j.neuron.2023.03.005",
+      "used_for": "Systems-level consolidation overview; episodic → schema transformation",
+      "key_claims": [
+        "SO-spindle-SWR coordinates hippocampal replay to neocortical consolidation",
+        "REM sleep follows SWS with homeostatic synaptic renormalization"
+      ]
+    },
+    {
+      "id": "S11",
+      "pmid": "20046194",
+      "title": "The memory function of sleep",
+      "authors": "Diekelmann S, Born J",
+      "year": 2010,
+      "journal": "Nature Reviews Neuroscience",
+      "type": "review",
+      "full_text_status": "abstract_only",
+      "note": "未读取全文（Nature Reviews订阅）；经典综述，基于摘要和广泛引用",
+      "doi": "10.1038/nrn2762",
+      "used_for": "Classical framework for memory function of sleep; SO-spindle-SWR coordination",
+      "key_claims": [
+        "Slow oscillations, spindles and ripples coordinate re-activation during SWS",
+        "SWS supports declarative memory; REM supports synaptic consolidation"
+      ]
+    },
+    {
+      "id": "S12",
+      "pmid": "27144033",
+      "title": "The Contribution of Thalamocortical Core and Matrix Pathways to Sleep Spindles",
+      "authors": "Piantoni G, Halgren E, Cash SS",
+      "year": 2016,
+      "journal": "Neural Plasticity",
+      "type": "review",
+      "full_text_status": "open_access",
+      "doi": "10.1155/2016/3024342",
+      "used_for": "Core vs matrix thalamocortical pathways; fast vs slow spindles",
+      "key_claims": [
+        "Core pathway: specific thalamic nuclei → primary sensory cortex → focal spindles",
+        "Matrix pathway: intralaminar nuclei → widespread cortex → diffuse spindles",
+        "Classification may explain different spindle functions"
+      ]
+    },
+    {
+      "id": "S13",
+      "pmid": "38834064",
+      "title": "Prefrontal cortical ripples mediate top-down suppression of hippocampal reactivation during sleep memory consolidation",
+      "authors": "Shin JD, Jadhav SP",
+      "year": 2024,
+      "journal": "Current Biology",
+      "type": "original_research",
+      "full_text_status": "open_access_pmc",
+      "note": "PMC ID confirmed by research agent",
+      "doi": "10.1016/j.cub.2024.03.072",
+      "used_for": "Top-down cortical gating of hippocampal replay; bidirectional hippocampal-cortical dialogue",
+      "key_claims": [
+        "PFC ripples (not SWR-locked) predominantly suppress hippocampal activity",
+        "Cortex plays active gating role in hippocampal replay",
+        "PFC ripples coordinate with SO and spindles"
+      ]
+    },
+    {
+      "id": "S14",
+      "type": "official_institution",
+      "source": "NIH National Heart, Lung, and Blood Institute (NHLBI)",
+      "url": "https://www.nhlbi.nih.gov/health/sleep",
+      "title": "Sleep Physiology and Health Resources",
+      "used_for": "Background and context on NREM sleep stages",
+      "full_text_status": "open_access"
+    }
+  ],
+  "sources_summary": {
+    "total": 14,
+    "open_access_full_text": 10,
+    "abstract_only": 2,
+    "official_institution": 1,
+    "original_research": 8,
+    "reviews": 5
+  },
+  "coverage_gaps": [
+    "Fast vs slow spindle functional differentiation: limited systematic data",
+    "Spindle augmentation (acoustic stimulation) reproducibility: contested",
+    "Exact mechanism of spindle termination: still debated"
+  ]
+}

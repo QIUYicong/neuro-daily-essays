@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-19（第 33 篇·睡眠纺锤波·深化课程路线4·学习与记忆）
+
+**源文章**：[[2026-06-19-sleep-spindles-nrem]] —《当大脑钟声响起：睡眠纺锤波的丘脑起源与记忆巩固的时间建筑学》
+
+**新建页面（3）**：
+- `concepts/sleep-spindles.md`（睡眠纺锤波）🟢 established / 置信度高 — TRN CaV3.3 T型钙通道驱动TRN↔TC振荡环路生成12–15 Hz纺锤波；皮层树突L型Ca²⁺预热窗口；CACNA1I精神分裂症风险基因；SO-spindle-SWR三重嵌套中间层；Latchoumane 2017因果实验（三重耦合必要）
+- `circuits/thalamocortical-circuit.md`（丘脑-皮层回路）🟢 established / 置信度高 — TRN（CaV3.3）↔TC（CaV3.1）振荡回路是纺锤波起搏器；核心/矩阵双通路；皮层-丘脑反馈（CT第六层）调制纺锤波振幅；清醒（强直）vs睡眠（爆发）模式切换
+- `concepts/cortical-slow-oscillation.md`（皮层慢振荡）🟢 established / 置信度高 — NREM深睡眠0.5–1 Hz UP/DOWN态交替；起源PFC向后传播；SO上行相触发纺锤波（CT→TRN）；三重奏顶层时间框架
+
+**修订页面（2）**：
+- `concepts/memory-consolidation.md`（修订#4）— NREM三重奏小节深化：纺锤波主动触发机制（CT→TRN→钙预热）；Latchoumane 2017因果实验；related/prerequisites新增sleep-spindles、cortical-slow-oscillation、thalamocortical-circuit
+- `concepts/sharp-wave-ripples.md`（修订#4）— related新增sleep-spindles和cortical-slow-oscillation；key_sources扩充3个（三重耦合文献）；source_articles新增2026-06-19
+
+**矛盾登记（0）**：今日文章核心机制（TRN纺锤波生成、三重耦合）在领域内无重大争议；CaV3.1 vs CaV3.3 分工已登记为"快/慢纺锤波待厘清"的开放问题，但不属于矛盾协议范围
+
+**新增未解问题（3）**：Q-spindle-fast-vs-slow、Q-spindle-augmentation-clinical、Q-spindle-rem-division
+
+**图谱变化**：80节点（+3），468边（+16）
+
+---
+
 ## 2026-06-18（第 32 篇·连接组学：接线图之上·首次覆盖课程路线9·Connectomics）
 
 **源文章**：[[2026-06-18-connectomics-wiring-diagram]] —《接线图之上：当我们拥有了完整神经地图，理解大脑的征途才刚刚开始》

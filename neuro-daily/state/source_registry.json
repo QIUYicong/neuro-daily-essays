@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-06-19",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -3922,7 +3922,171 @@
         "connectome-constrained model validated by calcium imaging",
         "direct structure-to-function prediction success"
       ]
+    },
+    {
+      "pmid": "31804897",
+      "title": "Sleep Spindles: Mechanisms and Functions",
+      "year": 2020,
+      "journal": "Physiol Rev",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "sleep spindles mechanism",
+        "TRN-TC circuit",
+        "memory consolidation"
+      ]
+    },
+    {
+      "pmid": "30583750",
+      "title": "Thalamic reticular control of local sleep in mouse sensory cortex",
+      "pmc": "PMC6406379",
+      "year": 2018,
+      "journal": "eLife",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "TRN CaV3.3",
+        "sleep spindles pacemaker"
+      ]
+    },
+    {
+      "pmid": "24282303",
+      "title": "Sleep spindles generated without CaV3.1 low-threshold burst firing (TC neurons)",
+      "pmc": "PMC3834279",
+      "year": 2013,
+      "journal": "PNAS",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "CaV3.1 KO",
+        "spindle pacemaker TRN"
+      ]
+    },
+    {
+      "pmid": "32066662",
+      "title": "CACNA1I patient mutation → spindle deficits in mice",
+      "pmc": "PMC7054394",
+      "year": 2020,
+      "journal": "Transl Psychiatry",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "CaV3.3 CACNA1I",
+        "schizophrenia",
+        "sleep spindles"
+      ]
+    },
+    {
+      "pmid": "38443198",
+      "title": "Coupled sleep rhythms for memory consolidation",
+      "year": 2024,
+      "journal": "Trends Cogn Sci",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "SO-spindle-SWR",
+        "memory consolidation review"
+      ]
+    },
+    {
+      "pmid": "32248788",
+      "title": "A mechanism for learning with sleep spindles",
+      "pmc": "PMC7117406",
+      "year": 2020,
+      "journal": "Phil Trans R Soc B",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "spindle Ca2+ plasticity mechanism",
+        "dendritic calcium"
+      ]
+    },
+    {
+      "pmid": "28689981",
+      "title": "Thalamic Spindles Promote Memory through Triple Phase-Locking",
+      "year": 2017,
+      "journal": "Neuron",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "SO-spindle-SWR causal",
+        "triple phase-locking"
+      ]
+    },
+    {
+      "pmid": "31533977",
+      "title": "Human Hippocampal SWRs coordination with NREM spindles",
+      "pmc": "PMC6710103",
+      "year": 2019,
+      "journal": "J Neurosci",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "human SWR-spindle coupling",
+        "intracranial EEG"
+      ]
+    },
+    {
+      "pmid": "29234075",
+      "title": "Replay of cortical patterns during NREM sleep (human)",
+      "pmc": "PMC5720531",
+      "year": 2017,
+      "journal": "Sci Rep",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "human cortical replay",
+        "NREM spindle coupling"
+      ]
+    },
+    {
+      "pmid": "38834064",
+      "title": "PFC ripples suppress hippocampal reactivation during sleep",
+      "year": 2024,
+      "journal": "Curr Biol",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "PFC top-down gating",
+        "hippocampal-cortical dialogue"
+      ]
+    },
+    {
+      "pmid": "37023710",
+      "title": "Sleep: A brain-state for systems memory consolidation",
+      "year": 2023,
+      "journal": "Neuron",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "systems consolidation review",
+        "SWS-REM division"
+      ]
+    },
+    {
+      "pmid": "27144033",
+      "title": "Thalamocortical Core and Matrix Pathways to Sleep Spindles",
+      "year": 2016,
+      "journal": "Neural Plast",
+      "used_dates": [
+        "2026-06-19"
+      ],
+      "topics": [
+        "core vs matrix thalamus",
+        "fast vs slow spindles"
+      ]
     }
   ],
-  "total_sources": 159
+  "total_sources": 212
 }

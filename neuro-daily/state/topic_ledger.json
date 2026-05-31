@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-18",
-  "total_articles": 32,
+  "last_updated": "2026-06-19",
+  "total_articles": 33,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2305,6 +2305,70 @@
       "mode": "long_term_curriculum",
       "article_number": 32,
       "note": "第32篇：首次开启课程路线9（Connectomics）。从White 1986 C. elegans奠基连接组出发，经Witvliet 2021发育连接组（个体差异/前馈成熟），到Dorkenwald 2024果蝇全脑连接图，到Li 2020蘑菇体学习回路，到Vishwanathan 2024结构→功能预测突破。核心论点：连接组是结构约束（必要不充分）；结构-功能鸿沟需要接线图×权重×动力学三层整合。新建2个wiki页面（connectomics, circuit-motifs），图谱77节点452条边。"
+    },
+    {
+      "date": "2026-06-19",
+      "title": "当大脑钟声响起：睡眠纺锤波的丘脑起源与记忆巩固的时间建筑学",
+      "filename": "2026-06-19-sleep-spindles-nrem.md",
+      "article_number": 33,
+      "article_type": "regular",
+      "core_question": "睡眠纺锤波从哪里产生？TRN-TC回路的哪些分子机制将膜电位锁定在12赫兹？纺锤波如何在SO-spindle-SWR三重嵌套架构中为海马记忆重放提供皮层接收窗口？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "4. 学习和记忆（睡眠阶段与记忆巩固深化）",
+      "topic_tags": [
+        "sleep spindles",
+        "thalamocortical circuit",
+        "thalamic reticular nucleus",
+        "TRN",
+        "T-type calcium channel",
+        "CaV3.3",
+        "CACNA1I",
+        "cortical slow oscillation",
+        "SO-spindle-SWR",
+        "NREM sleep",
+        "memory consolidation",
+        "triple phase-locking",
+        "Latchoumane 2017"
+      ],
+      "main_sources": [
+        "PMID:31804897 (Fernandez & Lüthi 2020, Physiol Rev)",
+        "PMID:30583750 (Fernandez 2019, eLife, PMC:6406379)",
+        "PMID:24282303 (Lee 2013, PNAS, PMC:3834279)",
+        "PMID:32066662 (Ghoshal 2020, Transl Psychiatry, PMC:7054394)",
+        "PMID:38443198 (Staresina 2024, Trends Cogn Sci)",
+        "PMID:32248788 (Peyrache & Seibt 2020, Phil Trans, PMC:7117406)",
+        "PMID:28689981 (Latchoumane 2017, Neuron)",
+        "PMID:31533977 (Jiang 2019, J Neurosci, PMC:6710103)",
+        "PMID:29234075 (Jiang 2017, Sci Rep, PMC:5720531)",
+        "PMID:38834064 (Shin & Jadhav 2024, Curr Biol)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/sleep-spindles.md",
+        "wiki/circuits/thalamocortical-circuit.md",
+        "wiki/concepts/cortical-slow-oscillation.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/memory-consolidation.md",
+        "wiki/concepts/sharp-wave-ripples.md"
+      ],
+      "contested_claims_logged": [],
+      "unresolved_questions": [
+        "Q-spindle-fast-vs-slow: 快纺锤波（~14 Hz顶叶）和慢纺锤波（~12 Hz额叶）是否功能分化？",
+        "Q-spindle-augmentation-clinical: 声学/电刺激增强纺锤波改善记忆的临床可重复性？",
+        "Q-spindle-rem-division: NREM纺锤波 vs REM θ振荡 对不同记忆类型的精确分工？"
+      ],
+      "next_suggested_topics": [
+        "REM睡眠的神经生物学：恐惧消退/情绪去饱和/程序性记忆，填补Q-rem-sleep-role",
+        "注意瞬盲（Attentional Blink）：GWT最强可证伪预测，填补Q-gwt-02",
+        "海马-内嗅皮层接口：网格细胞到场所细胞的空间信息转换，填补 grid-cell→place-cell 机制缺口"
+      ],
+      "mode": "long_term_curriculum"
     }
   ],
   "layer_coverage_recent": {

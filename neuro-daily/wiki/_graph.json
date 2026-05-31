@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-18",
-  "node_count": 77,
-  "edge_count": 452,
+  "updated": "2026-06-19",
+  "node_count": 80,
+  "edge_count": 468,
   "edge_types": [
     "is-a",
     "part-of",
@@ -706,6 +706,33 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/circuit-motifs.md"
+    },
+    {
+      "id": "sleep-spindles",
+      "title": "睡眠纺锤波",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/sleep-spindles.md"
+    },
+    {
+      "id": "thalamocortical-circuit",
+      "title": "丘脑-皮层回路",
+      "domain": "circuits",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/thalamocortical-circuit.md"
+    },
+    {
+      "id": "cortical-slow-oscillation",
+      "title": "皮层慢振荡",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-slow-oscillation.md"
     }
   ],
   "edges": [
@@ -3255,6 +3282,86 @@
     {
       "from": "circuit-motifs",
       "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "cortical-slow-oscillation",
+      "to": "sleep-spindles",
+      "type": "regulates"
+    },
+    {
+      "from": "cortical-slow-oscillation",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-slow-oscillation",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "sleep-spindles",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "sleep-spindles",
+      "to": "sharp-wave-ripples",
+      "type": "regulates"
+    },
+    {
+      "from": "sleep-spindles",
+      "to": "cortical-slow-oscillation",
+      "type": "part-of"
+    },
+    {
+      "from": "sleep-spindles",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "sleep-spindles",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "sleep-spindles",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "thalamocortical-circuit",
+      "to": "sleep-spindles",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "thalamocortical-circuit",
+      "to": "acetylcholine-cortex",
+      "type": "related"
+    },
+    {
+      "from": "thalamocortical-circuit",
+      "to": "gain-control",
+      "type": "related"
+    },
+    {
+      "from": "thalamocortical-circuit",
+      "to": "cortical-slow-oscillation",
+      "type": "related"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "sleep-spindles",
+      "type": "related"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "cortical-slow-oscillation",
+      "type": "related"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "sleep-spindles",
       "type": "related"
     }
   ],

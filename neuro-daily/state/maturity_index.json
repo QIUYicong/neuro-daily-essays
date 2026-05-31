@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-06-19",
   "levels": [
     "speculative",
     "emerging",
@@ -544,18 +544,20 @@
       "title": "尖波涟漪（SWR）",
       "status": "established",
       "confidence": "high",
-      "last_changed": "2026-06-17",
+      "last_changed": "2026-06-19",
       "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性证据（光遗传增强SWR→改善记忆）、Yang 2024清醒SWR标记功能、Giri 2024睡眠剥夺分离证据进一步巩固established地位",
-      "page": "wiki/concepts/sharp-wave-ripples.md"
+      "page": "wiki/concepts/sharp-wave-ripples.md",
+      "reason": "Revised: added sleep-spindles/cortical-slow-oscillation links; triple coupling context"
     },
     {
       "slug": "memory-consolidation",
       "title": "记忆巩固（系统层面）",
       "status": "established",
       "confidence": "high",
-      "last_changed": "2026-06-17",
+      "last_changed": "2026-06-19",
       "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性和Chang 2025睡眠微结构新证据补充",
-      "page": "wiki/concepts/memory-consolidation.md"
+      "page": "wiki/concepts/memory-consolidation.md",
+      "reason": "Revised: deepened SO-spindle mechanism with thalamocortical circuit detail; Latchoumane 2017 causal evidence"
     },
     {
       "slug": "temporal-hierarchy",
@@ -572,6 +574,30 @@
           "reason": "描述性框架，各组成机制（突触传递速度、NMDA窗口、θ振荡、SWR、系统巩固）均有独立高质量证据支持；框架本身是整合性组织工具而非可证伪理论，置信度高是对其描述准确性的评估"
         }
       ]
+    },
+    {
+      "slug": "sleep-spindles",
+      "page": "wiki/concepts/sleep-spindles.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-19",
+      "reason": "Created. TRN CaV3.3 mechanism established (Lee 2013, Fernandez 2019); triple coupling causal evidence (Latchoumane 2017); human validation (Jiang 2019). Fast/slow functional distinction: emerging."
+    },
+    {
+      "slug": "thalamocortical-circuit",
+      "page": "wiki/circuits/thalamocortical-circuit.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-19",
+      "reason": "Created. TRN-TC oscillation loop well-established; Core/Matrix pathway: mainstream. Modulation by ACh: established."
+    },
+    {
+      "slug": "cortical-slow-oscillation",
+      "page": "wiki/concepts/cortical-slow-oscillation.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-19",
+      "reason": "Created. SO-spindle-SWR triple nesting: multiple independent validations. SO origin in PFC and propagation: established."
     }
   ]
 }

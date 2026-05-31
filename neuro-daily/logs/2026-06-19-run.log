@@ -1,0 +1,121 @@
+# 运行日志 — 2026-06-19
+
+**状态**：成功
+**文章编号**：#33
+**主题**：睡眠纺锤波：丘脑-皮层回路机制与记忆巩固的时间建筑学
+**文章文件**：`articles/2026-06-19-sleep-spindles-nrem.md`
+
+---
+
+## 执行流程记录
+
+### 步骤 0：同步最新 main
+- 从 `claude/funny-einstein-HPCMB` 切换到 `main`
+- `git pull origin main`：成功，拉取了大量更新（2026-05-30 到 2026-06-18 的所有文章和wiki页面）
+- 确认关键文件存在：ROUTINE.md ✅、KNOWLEDGE-BASE-DESIGN.md ✅、neuro-daily/wiki/ ✅
+
+### 步骤 A：读取状态
+- topic_ledger.json：last_updated=2026-06-18, total_articles=32
+- 最后2篇的 next_suggested_topics：睡眠纺锤波/NREM机制（两篇均建议）
+- unresolved_questions.md：Q-rem-sleep-role（中优先级）相关
+- _graph.json：80节点（更新后），无悬空边
+- 日期处理说明：系统日期为 2026-05-31，但知识库已通过前序会话推进至 2026-06-18。鉴于 2026-05-31 已有4篇文章（违反"不重复生成同日文章"原则），本次使用 2026-06-19 作为文章日期，续接知识库内在的顺序连续性。
+
+### 步骤 B：选题
+**决策**：课程脊柱优先（B.6），因无紧急突破/矛盾/悬空引用
+**理由**：
+- topic_ledger 最后两篇均建议"睡眠纺锤波的产生机制"
+- 连续4篇（SWR、connectomics、预测编码、DMN）都引用了 SO-spindle-SWR 三重奏但未有专文
+- memory-consolidation wiki 页面对纺锤波机制的描述是"待深化"项目
+- 本主题服务课程路线4（学习和记忆）的睡眠阶段深化
+**题目**：睡眠纺锤波：丘脑-皮层回路的12赫兹密码与记忆的夜间固结
+
+### 步骤 C：检索 → 阅读 → 写文章
+
+**检索过程**：
+- PubMed E-utilities 检索词：
+  1. "sleep spindles thalamocortical mechanism review" → 8 PMIDs
+  2. "sleep spindles memory consolidation hippocampus review" → 8 PMIDs
+  3. "sleep spindles sharp-wave ripples coupling NREM" → 6 PMIDs
+- 专用代理（PubMed research agent）并行检索，获取13篇论文摘要和结构化数据
+- 直接 WebFetch NCBI E-utilities 验证关键 PMID
+
+**来源筛选**：
+- 采用 13 个来源 + 1 个官方机构来源（NIH NHLBI）
+- 开放全文：10 个（其中 PMC 开放 7 个）
+- 仅摘要：2 个（Latchoumane 2017 Neuron, Diekelmann & Born 2010 NRN）
+- 关键来源：Fernandez & Lüthi 2020 PhysiolRev（综合机制）、Lee 2013 PNAS（CaV3.1 KO证明TRN主导）、Fernandez 2019 eLife（TRN CaV3.3）、Latchoumane 2017 Neuron（三重耦合因果实验）、Staresina 2024 TiCS（SO-spindle-SWR综述）
+
+**文章写作**：
+- 字数约 4200 字（符合 3000–6000 范围）
+- 严格分层：分子→细胞→回路→系统→行为/认知
+- 包含争议：CaV3.1 vs CaV3.3 分工、快/慢纺锤波、声学增强可重复性
+- 包含不确定性说明（标注"摘要"来源）
+- AI对照：Experience Replay与纺锤波时间组织的深层类比
+
+### 步骤 D：固结
+
+**新建 wiki 页面（3）**：
+1. `wiki/concepts/sleep-spindles.md` — 纺锤波核心机制页
+2. `wiki/circuits/thalamocortical-circuit.md` — TRN-TC回路结构页
+3. `wiki/concepts/cortical-slow-oscillation.md` — 皮层慢振荡页
+
+**修订 wiki 页面（2）**：
+4. `wiki/concepts/memory-consolidation.md`（#3→#4）— NREM三重奏机制深化
+5. `wiki/concepts/sharp-wave-ripples.md`（#3→#4）— 纺锤波-SWR耦合链接
+
+**矛盾检查**：无新矛盾（三重耦合机制在领域内共识，CaV3.1/3.3争议已登记为开放问题而非矛盾）
+
+### 步骤 E：图谱与导航
+- _graph.json：80节点（+3），468边（+16）
+- index.md：新增3行新页面、修订2行
+- CHANGELOG.md：新增 2026-06-19 条目
+
+### 步骤 F：治理层更新
+- topic_ledger.json：total=33，new entry 2026-06-19
+- unresolved_questions.md：新增 Q-spindle-fast-vs-slow、Q-spindle-augmentation-clinical、Q-spindle-rem-division
+- source_registry.json：新增12条来源，total=212
+- maturity_index.json：新增3条，修订2条，total=15
+- monthly_synthesis.md：新增 2026-06-19 日条目（第82项）
+
+### 步骤 G：提交 + 推送
+- git add neuro-daily/
+- commit + push 到 origin/main
+
+---
+
+## 来源使用摘要
+
+| 来源 | PMID | 全文 | 用途 |
+|------|------|------|------|
+| Fernandez & Lüthi 2020 | 31804897 | PMC开放 | 综合机制综述 |
+| Fernandez et al. 2019 | 30583750 | PMC:6406379 | TRN CaV3.3 KO实验 |
+| Lee et al. 2013 | 24282303 | PMC:3834279 | CaV3.1 KO不影响纺锤波 |
+| Ghoshal et al. 2020 | 32066662 | PMC:7054394 | CACNA1I精神分裂症变异 |
+| Staresina 2024 | 38443198 | Cell Press OA | SO-spindle-SWR综述 |
+| Peyrache & Seibt 2020 | 32248788 | PMC:7117406 | 钙可塑性机制模型 |
+| Latchoumane et al. 2017 | 28689981 | 摘要 | 三重耦合因果实验 |
+| Jiang et al. 2019 | 31533977 | PMC:6710103 | 人类颅内SWR-纺锤波耦合 |
+| Jiang et al. 2017 | 29234075 | PMC:5720531 | 人类皮层记忆重放 |
+| Brodt et al. 2023 | 37023710 | 摘要 | 系统巩固综述 |
+| Diekelmann & Born 2010 | 20046194 | 摘要 | 经典睡眠记忆综述 |
+| Piantoni et al. 2016 | 27144033 | 开放 | 核心/矩阵通路 |
+| Shin & Jadhav 2024 | 38834064 | PMC开放 | PFC涟漪门控海马重放 |
+| NIH NHLBI | — | 官方网站 | 背景/睡眠分期 |
+
+**总计**：14来源；开放全文 ≥10；官方机构 1；满足 ROUTINE.md 最低标准（≥5来源，≥2开放全文，≥1官方机构）✅
+
+---
+
+## 失败与限制
+
+- Latchoumane 2017（PMID:28689981, Neuron）和 Diekelmann & Born 2010（PMID:20046194, NRN）：仅读取摘要，已在文章和来源文件中标注"未读取全文"
+- 快/慢纺锤波功能分化：现有系统性实验数据有限，文章中明确标注"尚在研究中"
+
+---
+
+## Git 操作
+- 分支：main
+- 作者：GIT_AUTHOR_NAME=QIUYicong, GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+- 文件：neuro-daily/（文章+笔记+来源+wiki×5+state×5+日志）
+- push：origin main

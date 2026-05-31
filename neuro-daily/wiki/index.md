@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-18（第32篇·连接组学）· 主题页总数：77（新建2页：connectomics, circuit-motifs）
+> 最后更新：2026-06-19（第33篇·睡眠纺锤波）· 主题页总数：80（新建3页：sleep-spindles, thalamocortical-circuit, cortical-slow-oscillation）
 
 ---
 
@@ -30,6 +30,7 @@
 
 - 🔵 [吊灯细胞](circuits/chandelier-cell.md) — 特异靶向 AIS 的抑制性中间神经元（修订2次）
 - 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许" **[NEW 2026-06-14]**
+- 🟢 [丘脑-皮层回路](circuits/thalamocortical-circuit.md) — TRN（CaV3.3 T型）↔TC（CaV3.1）振荡环路是睡眠纺锤波起搏器；Core/Matrix双通路；CT反馈在清醒/睡眠切换中起关键作用 **[NEW 2026-06-19]**
 - 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序 **[NEW 2026-06-03]**
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
@@ -45,7 +46,9 @@
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列
-- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）**[深度修订 2026-06-17]**
+- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重奏）**[修订 2026-06-19]**
+- 🟢 [睡眠纺锤波](concepts/sleep-spindles.md) — TRN CaV3.3→TRN↔TC振荡→12–15 Hz梭形波；皮层树突L型Ca²⁺预热窗口；SO-spindle-SWR三重奏中间层；CACNA1I变异→精神分裂症纺锤波缺陷；三重耦合因果实验（Latchoumane 2017）**[NEW 2026-06-19]**
+- 🟢 [皮层慢振荡（SO）](concepts/cortical-slow-oscillation.md) — NREM 深睡眠~0.75 Hz UP/DOWN态交替；起源PFC向后传播；SO上行相是纺锤波和SWR的最高时间框架；三重奏顶层 **[NEW 2026-06-19]**
 - 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现
 - 🟡 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）
 - 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失（修订2次）

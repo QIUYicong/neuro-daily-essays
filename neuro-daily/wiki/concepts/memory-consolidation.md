@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-06-17
-revision_count: 3
+updated: 2026-06-19
+revision_count: 4
 dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus]
-prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit]
+prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-shy-vs-active-consolidation, Q-rem-sleep-role]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay]
-key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293"]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem]
+key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788"]
 ---
 
 # 记忆巩固（系统层面）(Memory Consolidation — Systems Level)
@@ -59,6 +59,17 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 ```
 
 关键：三重奏的**时间同步**是效能的必要条件——SWR 信号输出到皮层时，皮层正处于 SO 上行相 + 纺锤波（最兴奋、最易被修改）的状态。破坏时间耦合会损害记忆，即使 SWR 本身不受影响（Squire et al. 2015）。
+
+**纺锤波机制的深化理解（2026-06-19 新增）**：
+
+纺锤波并非"发生在 SO 上行相"的被动振荡，而是**由 SO 上行相的皮层-丘脑反馈主动触发**：
+- 皮层第六层（CT neurons）在 SO 上行相向丘脑网状核（TRN）发出信号 → TRN 的 CaV3.3 T 型钙通道驱动爆发放电 → TRN↔TC 振荡环路 → 纺锤波
+- 纺锤波通过 L 型钙通道向皮层树突注入钙，**主动把皮层预热到最高可塑性状态**（Peyrache & Seibt, 2020, PMID:32248788）
+- 因果实验证实：只有在 SO 上行相内触发的纺锤波才改善记忆（Latchoumane et al. 2017, PMID:28689981）
+
+这说明系统记忆巩固的"接收窗口"不是被动等待的，而是由丘脑-皮层回路（[[thalamocortical-circuit]]）主动制造的。
+
+详见 [[sleep-spindles]] 和 [[cortical-slow-oscillation]] 专页。
 
 ### 3. 皮层记忆痕迹的形成
 
@@ -149,6 +160,7 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-06-02 · 创建 · 基于《记忆的夜间旅行》文章 · 填补了 hippocampal-circuit、sharp-wave-ripples、place-cell、engram-cells 共4个页面的最高优先级悬空引用 · 初始置信度：高
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"系统巩固中的竞争遴选"小节；新增 SHY 假说作为竞争-遴选的极端形式；added [[competition-selection-principle]] to related
 - 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 证据表新增3行（Robinson 2026因果充分性、Chang 2025微结构分时、Yang 2024清醒标记）；key_sources扩充；related新增norepinephrine-locus-coeruleus；source_articles新增2026-06-17
+- 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · NREM三重奏小节深化：纺锤波的主动丘脑-皮层触发机制（CT→TRN→纺锤波→树突钙预热）和因果实验（Latchoumane 2017）；related/prerequisites新增sleep-spindles、cortical-slow-oscillation、thalamocortical-circuit；key_sources扩充4个
 
 ## 来源文章
 
