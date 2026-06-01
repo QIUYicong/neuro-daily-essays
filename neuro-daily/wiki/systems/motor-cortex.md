@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-21
-updated: 2026-06-21
-revision_count: 1
+updated: 2026-06-23
+revision_count: 2
 dimensions: [brain-region, cellular, behavior, cognition]
-related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network]
+related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellar-cortex, cerebellar-forward-model]
 prerequisites: [action-potential, voltage-gated-calcium-channels, pyramidal-neuron]
 opens_questions: [Q-mc-01, Q-mc-02, Q-mc-03]
-source_articles: [2026-06-21-motor-cortex-voluntary-movement]
-key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928"]
+source_articles: [2026-06-21-motor-cortex-voluntary-movement, 2026-06-23-cerebellar-learning-purkinje-climbing-fiber]
+key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928", "PMID:32352914"]
 ---
 
 # 运动皮层 (Motor Cortex)
@@ -87,7 +87,9 @@ key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928"]
 ## 修订历史
 
 - 2026-06-21 · 创建 · 基于《从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉》（#57）· 初始置信度：高
+- 2026-06-23 · 修订 · 在 related 字段新增 cerebellar-cortex 和 cerebellar-forward-model，明确运动皮层-小脑的输入输出关系；source_articles 新增 2026-06-23 文章 · 来源：《错误的教育：小脑学习》文章
 
 ## 来源文章
 
 - [[2026-06-21-motor-cortex-voluntary-movement]]
+- [[2026-06-23-cerebellar-learning-purkinje-climbing-fiber]]

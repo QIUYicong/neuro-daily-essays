@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-22",
+  "updated": "2026-06-23",
   "node_count": 88,
   "edge_count": 505,
   "edge_types": [
@@ -913,6 +913,51 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/entorhinal-cortex.md"
+    },
+    {
+      "id": "cerebellar-cortex",
+      "title": "小脑皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/cerebellar-cortex.md"
+    },
+    {
+      "id": "purkinje-cell",
+      "title": "普肯野细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/purkinje-cell.md"
+    },
+    {
+      "id": "climbing-fiber",
+      "title": "攀爬纤维",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/climbing-fiber.md"
+    },
+    {
+      "id": "cerebellar-ltd",
+      "title": "小脑长时程抑制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cerebellar-ltd.md"
+    },
+    {
+      "id": "cerebellar-forward-model",
+      "title": "小脑前馈内部模型",
+      "domain": "theories",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/theories/cerebellar-forward-model.md"
     }
   ],
   "edges": [
@@ -4033,6 +4078,86 @@
       "from": "entorhinal-cortex",
       "to": "alzheimers-disease",
       "type": "related"
+    },
+    {
+      "from": "cerebellar-cortex",
+      "to": "purkinje-cell",
+      "type": "part-of"
+    },
+    {
+      "from": "cerebellar-cortex",
+      "to": "climbing-fiber",
+      "type": "part-of"
+    },
+    {
+      "from": "cerebellar-cortex",
+      "to": "cerebellar-ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-cortex",
+      "to": "cerebellar-forward-model",
+      "type": "supports"
+    },
+    {
+      "from": "cerebellar-cortex",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "cerebellar-ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "cerebellar-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "climbing-fiber",
+      "to": "purkinje-cell",
+      "type": "regulates"
+    },
+    {
+      "from": "climbing-fiber",
+      "to": "cerebellar-ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "ltd",
+      "type": "is-a"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "ampa-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "cerebellar-forward-model",
+      "type": "supports"
+    },
+    {
+      "from": "cerebellar-forward-model",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-forward-model",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "cerebellar-cortex",
+      "to": "ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-forward-model",
+      "to": "cerebellar-cortex",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

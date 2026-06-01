@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-22",
-  "total_articles": 58,
+  "last_updated": "2026-06-23",
+  "total_articles": 59,
   "entries": [
     {
       "date": "2026-06-21",
@@ -2816,6 +2816,59 @@
         "小脑与运动学习：运动皮层专篇后，继续课程路线3的运动系统；小脑并行纤维/浦肯野细胞/LTD的计算原理",
         "网格→场所转化精确机制：MEC模块叠加或振荡干涉？（填补Q-gc-01方向）",
         "空间记忆的情境依赖性：相同路径、不同情境→不同场所图；通过Q-gc-01引发的情境整合机制"
+      ]
+    },
+    {
+      "date": "2026-06-23",
+      "title": "「错误的教育」——小脑如何通过攀爬纤维的误差信号，用毫秒级精度学会预测运动后果",
+      "filename": "2026-06-23-cerebellar-learning-purkinje-climbing-fiber.md",
+      "article_number": 59,
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region"
+      ],
+      "topic_tags": [
+        "cerebellum",
+        "Purkinje-cell",
+        "climbing-fiber",
+        "LTD",
+        "forward-model",
+        "supervised-learning",
+        "motor-learning"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/cerebellar-cortex.md",
+        "wiki/neurons/purkinje-cell.md",
+        "wiki/neurons/climbing-fiber.md",
+        "wiki/concepts/cerebellar-ltd.md",
+        "wiki/theories/cerebellar-forward-model.md"
+      ],
+      "wiki_pages_updated": [
+        "wiki/concepts/ltd.md",
+        "wiki/systems/motor-cortex.md"
+      ],
+      "main_sources": [
+        "PMID:31572132 (Zang & De Schutter 2019, PMC6749063)",
+        "PMID:32352914 (Herzfeld et al. 2020, PMC7255800)",
+        "PMID:26112422 (Popa et al. 2016, PMC4691440)",
+        "PMID:30697149 (Popa & Ebner 2019, PMC6340992)",
+        "PMID:36632066 (Surdin et al. 2023, PMC9826949)",
+        "DOI:10.7554/eLife.86340 (Hoang et al. 2023)",
+        "PMID:41141850 (Masoli et al. 2025, PMC12546079)",
+        "PMID:32710914 (Nagao 2021, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-cbm-01",
+        "Q-cbm-02",
+        "Q-cbm-03",
+        "Q-cbm-04"
+      ],
+      "next_suggested_topics": [
+        "神经发育关键期（GABA 极性转换与小脑发育）",
+        "小脑与海马在时序学习中的分工对比",
+        "空间转录组与小脑细胞类型图谱"
       ]
     }
   ],

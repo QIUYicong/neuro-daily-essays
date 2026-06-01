@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -4604,5 +4604,93 @@
       ]
     }
   ],
-  "total_sources": 231
+  "total_sources": 231,
+  "entries": [
+    {
+      "pmid": "31572132",
+      "pmcid": "PMC6749063",
+      "title": "Climbing Fibers Provide Graded Error Signals in Cerebellar Learning",
+      "date_used": "2026-06-23",
+      "covered_topics": [
+        "cerebellar LTD",
+        "climbing fiber error signal",
+        "complex spike graded response"
+      ]
+    },
+    {
+      "pmid": "32352914",
+      "pmcid": "PMC7255800",
+      "title": "Principles of operation of a cerebellar learning circuit",
+      "date_used": "2026-06-23",
+      "covered_topics": [
+        "cerebellar cortex-DCN two-stage learning",
+        "negative feedback learning rate",
+        "smooth pursuit eye movement"
+      ]
+    },
+    {
+      "pmid": "26112422",
+      "pmcid": "PMC4691440",
+      "title": "The Errors of Our Ways: Understanding Error Representations in Cerebellar-Dependent Motor Learning",
+      "date_used": "2026-06-23",
+      "covered_topics": [
+        "simple spike error signal",
+        "LTD sufficiency debate"
+      ]
+    },
+    {
+      "pmid": "30697149",
+      "pmcid": "PMC6340992",
+      "title": "Cerebellum, Predictions and Errors",
+      "date_used": "2026-06-23",
+      "covered_topics": [
+        "cerebellar forward model",
+        "Purkinje cell bimodal timing",
+        "two forward models"
+      ]
+    },
+    {
+      "pmid": "36632066",
+      "pmcid": "PMC9826949",
+      "title": "Optogenetic activation of mGluR1 signaling in the cerebellum induces synaptic plasticity",
+      "date_used": "2026-06-23",
+      "covered_topics": [
+        "mGluR1a sufficiency for LTD",
+        "optogenetic mGluR1",
+        "in vivo motor learning enhancement"
+      ]
+    },
+    {
+      "doi": "10.7554/eLife.86340",
+      "title": "Dynamic organization of cerebellar climbing fiber response and synchrony in multiple functional components",
+      "date_used": "2026-06-23",
+      "covered_topics": [
+        "CF functional components",
+        "reward processing in cerebellum",
+        "bidirectional synchrony"
+      ]
+    },
+    {
+      "pmid": "41141850",
+      "pmcid": "PMC12546079",
+      "title": "The spiny relationship between parallel fibers, climbing fibers, and Purkinje cells",
+      "date_used": "2026-06-23",
+      "covered_topics": [
+        "Purkinje cell spine count revision",
+        "double-headed spines",
+        "Bergmann glia remodeling"
+      ]
+    },
+    {
+      "pmid": "32710914",
+      "title": "Ocular Reflex Adaptation as an Experimental Model of Cerebellar Learning -- In Memory of Masao Ito",
+      "date_used": "2026-06-23",
+      "covered_topics": [
+        "Marr-Albus-Ito theory history",
+        "VOR adaptation",
+        "LTD discovery 1982"
+      ],
+      "note": "abstract only"
+    }
+  ]
 }

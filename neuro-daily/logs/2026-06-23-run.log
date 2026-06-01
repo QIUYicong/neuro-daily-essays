@@ -1,0 +1,124 @@
+# 运行日志 2026-06-23
+
+**实际执行日期**：2026-06-01（UTC+8：20:00 CST）
+**文章标注日期**：2026-06-23（知识库累积序列继续，前一篇为 2026-06-22）
+**文章编号**：#59
+**分支**：claude/funny-einstein-NLNSC（环境强制功能分支）
+**主 remote**：http://local_proxy@127.0.0.1:38567/git/QIUYicong/neuro-daily-essays（本地代理，正确指向 QIUYicong/neuro-daily-essays）
+
+---
+
+## 选题过程
+
+**选题方式**：知识库缺口驱动（知识库中完全无小脑相关节点，_graph.json 100 节点均无 cerebellar/purkinje/climbing-fiber）
+**其他候选方案**：神经发育关键期（Q-cogmap-02 延伸）、大脑-AI 比较（表征相似性分析）
+**选定理由**：
+1. 知识库完全缺失小脑回路（重大盲区）
+2. 小脑是理解"大脑有监督误差学习"的最清晰实例
+3. 与已有 wiki 页面（ltd, motor-cortex, predictive-coding）有强连接
+4. 文献基础扎实，open access 来源丰富
+
+---
+
+## 文献检索
+
+**检索系统**：PubMed/PMC（通过 WebSearch + WebFetch）
+
+**检索词**：
+- cerebellar learning Purkinje cell climbing fiber LTD parallel fiber mechanism review PubMed 2022 2023 2024
+- cerebellar motor learning Marr Albus Ito theory review open access PMC 2020 2021 2022 2023 2024
+- cerebellar LTD molecular mechanism mGluR1 PKC AMPA receptor endocytosis Purkinje cell review PMC
+- cerebellar forward model internal model sensory prediction motor control review PMC 2021 2022 2023
+- deep cerebellar nuclei Purkinje cell inhibition learning consolidation transfer cerebellum PMC
+
+**候选文献数**：约 30 篇（通过 WebSearch 检索到）
+**精选文献数**：8 篇（>5 篇 open access 要求达标）
+
+---
+
+## 来源状态
+
+| PMID/DOI | 标题（缩） | 全文 | 角色 |
+|----------|-----------|------|------|
+| PMC6749063 | Climbing Fibers Provide Graded Error Signals | ✅ 全文 | CF梯度化信号 |
+| PMC7255800 | Principles of operation of a cerebellar circuit | ✅ 全文 | 两阶段学习架构 |
+| PMC4691440 | The Errors of Our Ways | ✅ 全文 | 多位点可塑性争议 |
+| PMC6340992 | Cerebellum, Predictions and Errors | ✅ 全文 | 前馈内部模型 |
+| PMC9826949 | Optogenetic mGluR1 → LTD | ✅ 全文 | mGluR1a充分性 |
+| eLife 86340 | CF 4 functional components | ✅ 全文 | 奖励处理/功能成分 |
+| PMC12546079 | Spiny relationship PF-CF-PC | ✅ 全文 | 树突棘结构更新 |
+| PMID:32710914 | VOR Adaptation (Ito memorial) | ⚠️ 摘要 | Marr-Albus-Ito历史 |
+
+**全文可用**：7/8（已超 ≥2 全文要求）
+
+---
+
+## 今日产出文件
+
+**情景层（新建）**：
+- `articles/2026-06-23-cerebellar-learning-purkinje-climbing-fiber.md`
+- `notes/2026-06-23-reading-notes.md`
+- `sources/2026-06-23-sources.json`
+- `logs/2026-06-23-run.log`（本文件）
+
+**语义层（新建 wiki 页）**：
+- `wiki/systems/cerebellar-cortex.md`
+- `wiki/neurons/purkinje-cell.md`
+- `wiki/neurons/climbing-fiber.md`
+- `wiki/concepts/cerebellar-ltd.md`
+- `wiki/theories/cerebellar-forward-model.md`
+
+**语义层（修订 wiki 页）**：
+- `wiki/concepts/ltd.md`（修订#2）
+- `wiki/systems/motor-cortex.md`（修订#2）
+
+**图谱更新**：
+- `wiki/_graph.json`：100→105 节点；559→575 边
+
+**导航/变更日志**：
+- `wiki/CHANGELOG.md`（新增 2026-06-23 节）
+- `wiki/index.md`（新增 5 个条目）
+
+**治理层**：
+- `state/topic_ledger.json`（条目 58→59，last_updated 2026-06-23）
+- `state/unresolved_questions.md`（新增 Q-cbm-01/02/03/04）
+- `state/source_registry.json`（新增 8 条来源）
+- `state/maturity_index.json`（新增 5 条）
+- `state/monthly_synthesis.md`（追加 #59 摘要）
+
+---
+
+## 矛盾登记
+
+**今日无新矛盾**：小脑 cb-LTD 机制与既有 wiki（ltd.md）描述一致（ltd.md 已明确列出"小脑 LTD：mGluR1+P/Q通道Ca²⁺→PKC→GluA2 Ser880→AMPAR内吞"，今日文章深化细节而不矛盾）；无需登记 contested_claims。
+
+---
+
+## 今日新增悬空引用
+
+**待补充的 wiki 页**（被今日页面引用但尚无节点）：
+- `inferior-olive`（下橄榄核）— 被 climbing-fiber.md 和 cerebellar-cortex.md 引用
+- `granule-cell`（颗粒细胞）— 被 cerebellar-cortex.md 引用
+- `mglur1`（I型代谢型谷氨酸受体）— 被 cerebellar-ltd.md 引用（现有 mglur-ltd 页面不等同）
+
+---
+
+## 自检结果
+
+- [x] 每条 wiki 新主张有来源（PMID/DOI/PMCID）
+- [x] 区分了事实/主流模型/推测/争议（LTD 必要性问题明确标注争议）
+- [x] 未把小脑-LTD 作为运动学习唯一机制写成定论
+- [x] 新内容与既有 wiki 无冲突（无矛盾登记必要）
+- [x] 被修订页的 updated/revision_count/修订历史已同步更新
+- [x] _graph.json 无悬空边（新节点全有对应页面；悬空引用已记录在待办）
+- [x] index.md 与 CHANGELOG.md 反映今天变化
+- [x] 新页 related/prerequisites 各≥1
+- [x] 文章/笔记/来源/日志齐全
+
+---
+
+## Git 状态
+
+**预计 commit message**：`Add neuro daily article + wiki consolidation for 2026-06-23`
+**预计 push 目标**：`origin claude/funny-einstein-NLNSC`（环境强制功能分支）
+**push 状态**：[待执行]

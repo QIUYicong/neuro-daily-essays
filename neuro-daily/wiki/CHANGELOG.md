@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-06-23（第 59 篇·小脑学习·填补大脑第三条学习路径）
+
+**源文章**：[[2026-06-23-cerebellar-learning-purkinje-climbing-fiber]] —《「错误的教育」——小脑如何通过攀爬纤维的误差信号，用毫秒级精度学会预测运动后果》
+
+**新建页面（5）**：
+- `systems/cerebellar-cortex.md`（小脑皮层）🟢 established / 置信度高 — 三层架构（颗粒层/普肯野层/分子层）；苔状纤维→颗粒细胞→平行纤维（信息通道）；攀爬纤维（误差通道）；脱抑制输出逻辑
+- `neurons/purkinje-cell.md`（普肯野细胞）🟢 established / 置信度高 — GABA 能唯一输出；双模放电（SS 50–100 Hz / CS 1 Hz）；mGluR1a→PKCα→GluA2 Ser880→AMPA 内吞；最新棘数修正（小鼠 3.5 万，Masoli 2025）
+- `neurons/climbing-fiber.md`（攀爬纤维）🟢 established / 置信度高 — 来自下橄榄核；每 PC 仅 1 根；~1 Hz；梯度化误差信号（Zang 2019）；4 个功能成分（Hoang 2023）
+- `concepts/cerebellar-ltd.md`（小脑 LTD）🟢 established / 置信度高 — CF+PF 联合激活规则；mGluR1a+P/Q-VGCC→PKCα→GluA2 Ser880→AMPA 内吞；mGluR1a 充分条件（Surdin 2023）；与海马 LTD 的分子差异
+- `theories/cerebellar-forward-model.md`（小脑前馈内部模型）🔵 mainstream / 置信度中 — 运动指令副本→预测感觉后果；普肯野细胞 SS 双峰（超前/滞后）；负反馈自调学习率；与皮层预测编码的互补关系
+
+**修订页面（2）**：
+- `concepts/ltd.md`（修订#2）— related 新增 cerebellar-ltd/purkinje-cell/climbing-fiber；key_sources 新增 PMID:36632066；source_articles 新增今日文章
+- `systems/motor-cortex.md`（修订#2）— related 新增 cerebellar-cortex/cerebellar-forward-model；source_articles 新增今日文章
+
+**图谱变更**：新增 5 个节点、16 条边（含 cerebellar-cortex→motor-cortex:regulates，cerebellar-ltd→ltd:is-a，cerebellar-forward-model→predictive-coding:related 等关键边）；总计 105 节点、575 边
+
+**新增矛盾**：无（今日主题无直接与既有 wiki 主张冲突的证据）
+
+**新增悬空引用（待补充页面）**：inferior-olive（下橄榄核，待独立页面）、granule-cell（颗粒细胞，待独立页面）、mglur1（待独立页面）
+
+---
+
 ## 2026-06-22（第 58 篇·网格细胞与场所细胞·填补6个长期悬空引用）
 
 **源文章**：[[2026-06-22-grid-cells-place-cells]] —《六边形的秘密：内嗅皮层网格细胞如何为大脑装备空间坐标系》

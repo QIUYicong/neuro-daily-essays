@@ -1,0 +1,182 @@
+{
+  "date": "2026-06-23",
+  "article": "2026-06-23-cerebellar-learning-purkinje-climbing-fiber",
+  "topic": "小脑学习机制：攀爬纤维误差信号与普肯野细胞 LTD",
+  "search_queries": [
+    "cerebellar learning Purkinje cell climbing fiber LTD parallel fiber mechanism review PubMed 2022 2023 2024",
+    "cerebellar motor learning Marr Albus Ito theory review open access PMC 2020 2021 2022 2023 2024",
+    "cerebellar LTD molecular mechanism mGluR1 PKC AMPA receptor endocytosis Purkinje cell review 2020 2021 2022 2023 PMC",
+    "cerebellar forward model internal model sensory prediction motor control review PMC open access 2021 2022 2023",
+    "deep cerebellar nuclei Purkinje cell inhibition learning consolidation transfer cerebellum 2022 2023 2024 PMC",
+    "Purkinje cell complex spike climbing fiber calcium transient dendritic calcium wave cerebellar learning 2022 2023 2024"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Climbing Fibers Provide Graded Error Signals in Cerebellar Learning",
+      "authors": "Zang Y, De Schutter E",
+      "journal": "Frontiers in Systems Neuroscience",
+      "year": 2019,
+      "pmid": "31572132",
+      "pmcid": "PMC6749063",
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6749063/",
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": ["攀爬纤维提供梯度化误差信号", "复杂棘波的模拟编码机制", "LTD 信用分配问题"],
+      "key_claims": [
+        "CF 提供模拟（非二值）误差信号",
+        "CS 子棘波数量调制 Ca²⁺ 内流幅度",
+        "背景突触输入和膜电位状态修饰 CF 效果"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Principles of operation of a cerebellar learning circuit",
+      "authors": "Herzfeld DJ, Hall NJ, Tringides M, Lisberger SG",
+      "journal": "eLife",
+      "year": 2020,
+      "pmid": "32352914",
+      "pmcid": "PMC7255800",
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7255800/",
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access / eLife",
+      "used_for": ["两阶段学习架构", "皮层-深部核分工", "负反馈自动调节学习率"],
+      "key_claims": [
+        "4 条核心学习原则",
+        "皮层快速获取（~15%/次），深部核缓慢巩固",
+        "CF 负反馈使学习率随误差减少而自动降低"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "The Errors of Our Ways: Understanding Error Representations in Cerebellar-Dependent Motor Learning",
+      "authors": "Popa LS, Streng ML, Hewitt AL, Ebner TJ",
+      "journal": "Cerebellum",
+      "year": 2016,
+      "pmid": "26112422",
+      "pmcid": "PMC4691440",
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4691440/",
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": ["简单棘波也携带误差信号", "LTD 充分非必要争议"],
+      "key_claims": [
+        "简单棘波携带连续误差信号（超前和滞后运动误差）",
+        "复杂棘波不总编码误差幅度",
+        "多位点可塑性协同小脑学习"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Cerebellum, Predictions and Errors",
+      "authors": "Popa LS, Ebner TJ",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2019,
+      "pmid": "30697149",
+      "pmcid": "PMC6340992",
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6340992/",
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": ["前馈内部模型理论", "普肯野细胞双峰时序", "小脑维护两套前馈模型"],
+      "key_claims": [
+        "~70% 普肯野细胞 SS 有超前/滞后双峰",
+        "小脑维护两套前馈模型（运动器 + 任务性能）",
+        "CF 也有超前/滞后双峰结构"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Optogenetic activation of mGluR1 signaling in the cerebellum induces synaptic plasticity",
+      "authors": "Surdin T et al.",
+      "journal": "iScience",
+      "year": 2023,
+      "pmid": "36632066",
+      "pmcid": "PMC9826949",
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9826949/",
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": ["mGluR1a 是 LTD 充分条件", "mGluR1a vs mGluR1b 功能差异", "体内增强运动学习"],
+      "key_claims": [
+        "mGluR1a（非 mGluR1b）是 LTD 诱导的充分条件",
+        "光遗传激活 mGluR1a + PF → 体外 LTD",
+        "体内激活增强小鼠旋转棒学习速率"
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Dynamic organization of cerebellar climbing fiber response and synchrony in multiple functional components reduces dimensions for reinforcement learning",
+      "authors": "Hoang H et al.",
+      "journal": "eLife",
+      "year": 2023,
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.7554/eLife.86340",
+      "url": "https://elifesciences.org/articles/86340",
+      "full_text_available": true,
+      "full_text_source": "eLife Open Access",
+      "used_for": ["CF 响应的 4 个功能成分", "奖励处理成分", "双向同步调控"],
+      "key_claims": [
+        "CF 响应可分解为 4 个功能成分（时序/误差/奖励/抑制）",
+        "功能成分与 Aldolase-C 解剖分区对应",
+        "学习期间同步性双向变化（时序成分增加，误差成分减少）"
+      ]
+    },
+    {
+      "id": "S7",
+      "title": "The spiny relationship between parallel fibers, climbing fibers, and Purkinje cells",
+      "authors": "Masoli S, Rizza MF, Moccia F, D'Angelo E",
+      "journal": "Frontiers in Physiology",
+      "year": 2025,
+      "pmid": "41141850",
+      "pmcid": "PMC12546079",
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12546079/",
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": ["普肯野细胞树突棘数量修正", "双头棘功能", "胶质细胞重塑"],
+      "key_claims": [
+        "小鼠普肯野细胞树突棘约 3.5 万（非传统 10 万）；人类约 36 万",
+        "92.7% 的棘有突触（非传统 90% 静默）",
+        "15% 双头棘对同时激活更敏感",
+        "Bergmann 胶质细胞通过咬食棘结构调节突触特异性"
+      ]
+    },
+    {
+      "id": "S8",
+      "title": "Ocular Reflex Adaptation as an Experimental Model of Cerebellar Learning -- In Memory of Masao Ito",
+      "authors": "Nagao S",
+      "journal": "Neuroscience",
+      "year": 2021,
+      "pmid": "32710914",
+      "pmcid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32710914/",
+      "full_text_available": false,
+      "full_text_source": "PubMed 摘要（未读全文）",
+      "used_for": ["Marr-Albus-Ito 理论历史", "VOR 适应范式", "LTD 发现 1982 年"],
+      "key_claims": [
+        "Ito 1982 发现 PF-PC 突触 LTD",
+        "VOR 适应是小脑学习的经典范式",
+        "记忆从绒球转移到前庭核（系统巩固）"
+      ],
+      "note": "未读全文，摘要可用"
+    }
+  ],
+  "sources_excluded": [
+    {
+      "title": "Reevaluating the Role of LTD in Cerebellar Motor Learning (PMC3104468)",
+      "reason": "较老（2011），核心内容已被更新综述涵盖"
+    },
+    {
+      "title": "Type-1 metabotropic glutamate receptor in cerebellar Purkinje cells (PMC2610189)",
+      "reason": "较老（2008），Surdin 2023 已涵盖其核心结论并有最新实验验证"
+    }
+  ],
+  "total_sources_used": 8,
+  "open_full_text": 7,
+  "abstract_only": 1
+}

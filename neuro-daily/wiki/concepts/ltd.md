@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-04
-updated: 2026-06-04
-revision_count: 1
+updated: 2026-06-23
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, cognition]
-related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells]
+related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, purkinje-cell, climbing-fiber]
 prerequisites: [synaptic-transmission, nmda-receptor, ampa-receptor, ltp]
-opens_questions: [Q-ltd-nmda-metabotropic, Q-ltd-long-term-maintenance, Q-ltd-behavior-extinction, Q-ltd-glua2-redundancy]
-source_articles: [2026-06-04-ltd-long-term-depression]
-key_sources: ["PMID:24183021", "PMID:19169250", "PMID:25429259", "PMID:19690847", "PMID:15450156", "PMID:15219735"]
+opens_questions: [Q-ltd-nmda-metabotropic, Q-ltd-long-term-maintenance, Q-ltd-behavior-extinction, Q-ltd-glua2-redundancy, Q-cbm-01]
+source_articles: [2026-06-04-ltd-long-term-depression, 2026-06-23-cerebellar-learning-purkinje-climbing-fiber]
+key_sources: ["PMID:24183021", "PMID:19169250", "PMID:25429259", "PMID:19690847", "PMID:15450156", "PMID:15219735", "PMID:36632066", "PMCID:PMC9826949"]
 ---
 
 # 长时程抑制 (Long-Term Depression, LTD)
@@ -103,7 +103,9 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 ## 修订历史
 
 - 2026-06-04 · 创建 · 基于《遗忘的精准：LTD 文章》· 初始置信度：高（经典已建立机制）
+- 2026-06-23 · 修订 · 补充小脑 LTD 详细机制（mGluR1a→PKCα→GluA2 Ser880 磷酸化→AMPA 内吞），添加与海马 LTD 的对比；related 字段新增 cerebellar-ltd/purkinje-cell/climbing-fiber；key_sources 新增 PMID:36632066/PMCID:PMC9826949 · 来源：《错误的教育：小脑学习》文章
 
 ## 来源文章
 
 - [[2026-06-04-ltd-long-term-depression]]
+- [[2026-06-23-cerebellar-learning-purkinje-climbing-fiber]]

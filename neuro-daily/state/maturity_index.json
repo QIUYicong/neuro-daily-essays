@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "levels": [
     "speculative",
     "emerging",
@@ -696,6 +696,51 @@
       "confidence": "high",
       "last_changed": "2026-06-22",
       "reason": "新建：MEC功能解剖（网格/联合细胞层级）established；海马主输入门户established；Braak分期（AD最早皮层靶点）established；人类证据（fMRI + iEEG）中-高"
+    },
+    {
+      "slug": "cerebellar-cortex",
+      "title": "小脑皮层",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-23",
+      "change_reason": "创建 · 基础回路架构（三层，苔状纤维/攀爬纤维输入）有跨物种多实验室强支持",
+      "source_article": "2026-06-23-cerebellar-learning-purkinje-climbing-fiber"
+    },
+    {
+      "slug": "purkinje-cell",
+      "title": "普肯野细胞",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-23",
+      "change_reason": "创建 · 细胞形态、双模放电、LTD 分子机制有高置信度实验室证据",
+      "source_article": "2026-06-23-cerebellar-learning-purkinje-climbing-fiber"
+    },
+    {
+      "slug": "climbing-fiber",
+      "title": "攀爬纤维",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-23",
+      "change_reason": "创建 · 作为误差教师信号的功能和解剖有强实验支持；梯度化信号假说为中高置信度",
+      "source_article": "2026-06-23-cerebellar-learning-purkinje-climbing-fiber"
+    },
+    {
+      "slug": "cerebellar-ltd",
+      "title": "小脑 LTD",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-23",
+      "change_reason": "创建 · mGluR1a→PKCα→GluA2 Ser880→AMPA 内吞有强体外+体内证据（Surdin 2023 光遗传直接验证）",
+      "source_article": "2026-06-23-cerebellar-learning-purkinje-climbing-fiber"
+    },
+    {
+      "slug": "cerebellar-forward-model",
+      "title": "小脑前馈内部模型",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-06-23",
+      "change_reason": "创建 · 前馈模型理论被广泛接受（mainstream），但具体机制（双重模型、与皮层分工）仍有争议；中等置信度",
+      "source_article": "2026-06-23-cerebellar-learning-purkinje-climbing-fiber"
     }
   ]
 }
