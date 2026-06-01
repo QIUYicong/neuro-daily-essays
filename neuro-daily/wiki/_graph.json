@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-22",
-  "node_count": 88,
-  "edge_count": 505,
+  "updated": "2026-06-23",
+  "node_count": 103,
+  "edge_count": 576,
   "edge_types": [
     "is-a",
     "part-of",
@@ -913,6 +913,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/entorhinal-cortex.md"
+    },
+    {
+      "id": "cerebellum",
+      "title": "小脑",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/cerebellum.md"
+    },
+    {
+      "id": "cerebellar-ltd",
+      "title": "小脑 LTD（PF-PC LTD）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cerebellar-ltd.md"
+    },
+    {
+      "id": "forward-model",
+      "title": "前向模型",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/forward-model.md"
     }
   ],
   "edges": [
@@ -4032,6 +4059,91 @@
     {
       "from": "entorhinal-cortex",
       "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "cerebellum",
+      "to": "cerebellar-ltd",
+      "type": "part-of"
+    },
+    {
+      "from": "cerebellum",
+      "to": "forward-model",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellum",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "cerebellum",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "ltd",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "ltd",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "ampa-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "forward-model",
+      "type": "supports"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "forward-model",
+      "to": "cerebellum",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "forward-model",
+      "to": "motor-cortex",
+      "type": "related"
+    },
+    {
+      "from": "forward-model",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "forward-model",
+      "to": "world-model",
+      "type": "is-a"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "cerebellum",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "cerebellum",
+      "type": "related"
+    },
+    {
+      "from": "ltd",
+      "to": "cerebellar-ltd",
       "type": "related"
     }
   ],

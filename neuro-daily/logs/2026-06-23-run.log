@@ -1,0 +1,125 @@
+# 运行日志 2026-06-23
+
+**文章编号**：#59
+**运行时间**：2026-06-23 UTC+8
+**分支**：main
+**模式**：long_term_curriculum
+
+---
+
+## 状态检查
+
+- [x] 从 main 拉取最新：`git pull origin main`（成功，同步 2026-06-22 及之前内容）
+- [x] ROUTINE.md 存在且已读取
+- [x] KNOWLEDGE-BASE-DESIGN.md 存在且已读取
+- [x] neuro-daily/wiki/ 目录完整
+- [x] state/ 文件夹所有状态文件存在
+
+**注意**：系统时间显示为 2026-06-01，但仓库已有 2026-06-01 至 2026-06-22 的文章（前次会话运行超前）。本次运行日期设为 2026-06-23（仓库连续下一篇）。
+
+---
+
+## 选题决策
+
+**选题驱动**：课程脊柱 + 上篇（2026-06-22 网格细胞）的 next_suggested_topics 和 2026-06-21（运动皮层）的建议
+
+**层级检查**：
+- 2026-06-22: 脑区/细胞（空间系统）
+- 2026-06-21: 脑区/细胞/行为（运动）
+- 今天选择：回路/系统/分子 — 小脑（层级有变化，分子机制是新加入层级）
+
+**选题**：小脑运动预测与可塑性
+**核心问题**：PF-LTD 是唯一必要机制吗？小脑的本质是纠错机还是预测机？
+
+**判断理由**：
+1. 课程 Track 3（大脑如何编码世界）中运动编码子轨道的自然延续（运动皮层→小脑）
+2. 多层机制综合话题，涉及分子/回路/系统/认知，层级丰富
+3. Schonewille 2011 vs Marr-Albus-Ito 的智识张力提供叙事动力
+4. 前向模型连接到预测编码理论（已有 wiki 页），固结价值高
+5. CCAS 开辟认知小脑维度，与课程 Track 8（意识与认知）衔接
+
+---
+
+## 检索记录
+
+**数据源**：PubMed E-utilities（NCBI）、PMC
+
+**主要搜索词**：
+- `cerebellar LTD purkinje cell mGluR1 motor learning`
+- `cerebellum forward model internal model Wolpert Kawato`
+- `cerebellar cognitive affective syndrome Schmahmann`
+- `De Zeeuw cerebellar learning review 2021`
+- `Hansel cerebellar LTD review`
+- `Schonewille LTD motor learning 2011`
+
+**候选来源总数**：约 30 篇（PMIDs 从多次 esearch 获取）
+
+---
+
+## 采用来源
+
+| ID | PMID | 状态 | 理由 |
+|----|------|------|------|
+| S1 | 21227230 | 摘要 | Wolpert 1998 前向模型框架，核心理论文献 |
+| S2 | 7954803 | 摘要 | mGluR1 KO 小鼠，直接因果证据 |
+| S3 | 11319554 | PMC 全文 PMCID:3104468 | Hansel 2001 多样可塑性综述，超越 LTD |
+| S4 | 17046686 | 摘要 | Jörntell & Hansel 2006 双向可塑性 |
+| S5 | 21482355 | PMC 全文 | Schonewille 2011 无 LTD 照样学习 |
+| S6 | 33203932 | 摘要 | De Zeeuw 2021 Nature Rev Neurosci 微区综合 |
+| S7 | 33288911 | 摘要 | De Zeeuw et al. 2021 Nat Neurosci 多样性 |
+| S8 | 42079241 | 预印本摘要 | Hansel 2026 bioRxiv 400ms时间窗口 |
+| S9 | 9549520 | 摘要 | Schmahmann 1998 CCAS |
+
+---
+
+## 排除来源
+
+- PMID:38240754 (superior colliculus → IO，过于专业，偏离核心主题)
+- PMID:34790271 (计算研究，无新机制)
+- PMID:40690091 (2025 去甲肾上腺素调制 MLI-PC LTD，太专一，暂不纳入)
+- 多篇 SCA 遗传机制论文（适合未来"疾病作为窗口"单独一篇）
+
+---
+
+## wiki 固结
+
+**新建页面（3）**：
+- `wiki/systems/cerebellum.md` — established/高置信度
+- `wiki/concepts/cerebellar-ltd.md` — established/高置信度
+- `wiki/concepts/forward-model.md` — mainstream/中置信度
+
+**修订页面（3）**：
+- `wiki/concepts/ltd.md` rev2 — 新增小脑 LTD 段落；related+2
+- `wiki/theories/predictive-coding.md` rev5 — 新增小脑专用预测误差学习段落；related+2
+- `wiki/systems/motor-cortex.md` rev2 — 新增小脑-运动皮层闭环段落；related+2
+
+**图谱更新**：3 节点新增（103总），71 条边新增（576总）
+
+---
+
+## 矛盾检查
+
+- Schonewille 2011（LTD 非必要）vs Aiba 1994（mGluR1 KO 运动学习障碍）：
+  - 这是一个**已知的历史争议**，而非今天发现的新矛盾
+  - 差异可能源于：（a）mGluR1 在整个小脑可塑性生态中的广泛角色（不只是 LTD）；（b）三种不同的 LTD 阻断方式选择性阻断了不同通路
+  - 不新登记为 open 矛盾（属于背景知识争议），但在文章和 wiki 中如实呈现
+- Hansel 2026 预印本（400ms 时间窗口）vs 经典 Marr-Albus（0-100ms 巧合检测）：
+  - 预印本状态，不登记为 contested_claim，在文章中明确标注"预印本，需谨慎"
+
+---
+
+## 限制与注意
+
+1. De Zeeuw 2021 两篇均为摘要（Nature Reviews Neuroscience 和 Nature Neuroscience 均付费）
+2. Wolpert 1998 Trends Cogn Sci 摘要（无法判断全文细节）
+3. Hansel 2026 为 bioRxiv 预印本，结论用"若成立"谨慎表述
+4. Schmahmann 1998 Brain 付费，只用摘要
+5. 小脑 PF-LTD 的体内（in vivo）直接验证比体外（in vitro）证据弱，文章中已提及
+
+---
+
+## 提交信息
+
+**branch**: main
+**commit**: 待生成
+**push 状态**: 待执行

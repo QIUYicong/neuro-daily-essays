@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-22（第58篇·网格细胞与场所细胞·填补place-cells/grid-cells等6个长期悬空引用）· 主题页总数：100（新建6页：place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex；修订2页：theta-oscillations rev3, sharp-wave-ripples rev5）
+> 最后更新：2026-06-23（第59篇·小脑的秘密·运动预测与多层可塑性）· 主题页总数：103（新建3页：cerebellum, cerebellar-ltd, forward-model；修订3页：ltd rev2, predictive-coding rev5, motor-cortex rev2）
 
 ---
 
@@ -58,7 +58,8 @@
 - 🟡 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）
 - 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失（修订2次）
 - 🟢 [记忆巩固（系统层面）](concepts/memory-consolidation.md) — SWR驱动的海马→皮层记忆转移；SO-spindle-SWR三重奏；SCT vs MTT理论争论；互补学习系统模型；NREM/SWR负责信息内容，REM/θ负责情感维度（SFSR假说，Q-rem-sleep-role部分解答）**[修订 2026-05-31]**
-- 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制 **[NEW 2026-06-04]**
+- 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
+- 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；与海马 NMDA-LTD 共用最终效应器但触发机制根本不同；Schonewille 2011 证明无 LTD 也能运动学习；Hansel 2026 预印本 400ms 时间窗口 **[NEW 2026-06-23]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
 - 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器 **[NEW 2026-06-04]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
@@ -94,7 +95,9 @@
 
 ## motor（运动系统）
 
-- 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）**[NEW 2026-06-21]**
+- 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）；**小脑-运动皮层闭环（修订2026-06-23）**
+- 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[NEW 2026-06-23]**
+- 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果，使大脑超越反馈延迟；小脑的主要计算角色；逆向模型对称结构 **[NEW 2026-06-23]**
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**
 - 🟡 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；动力学引擎而非参数地图；RNN训练后自发出现相同结构 **[NEW 2026-06-21]**
 - 🟡 [输出零空间](concepts/output-null-space.md) — 准备活动集中在对肌肉无效的零空间子空间（调谐比4.5×）；几何机制解释准备不触发运动 **[NEW 2026-06-21]**
@@ -143,9 +146,9 @@
 
 | 课程主题 | 状态 |
 |---------|------|
-| 1. 神经元如何工作 | 🔵 进行中（已覆盖：AIS, 动作电位, 突触传递, NMDA/AMPA 受体, CaMKII, 树突计算, 锥体神经元, 电压门控钙通道, PV+/SST+/VIP+ 中间神经元, 去抑制回路, **LTD（长时程抑制）**, **短时程突触可塑性（STP）**, **神经调质 ACh/NE（2026-06-12）**, **血清素系统/5-HT1A自受体（2026-06-13）**；待覆盖：多巴胺系统深度） |
+| 1. 神经元如何工作 | 🔵 进行中（已覆盖：AIS, 动作电位, 突触传递, NMDA/AMPA 受体, CaMKII, 树突计算, 锥体神经元, 电压门控钙通道, PV+/SST+/VIP+ 中间神经元, 去抑制回路, **LTD（长时程抑制）**, **短时程突触可塑性（STP）**, **神经调质 ACh/NE（2026-06-12）**, **血清素系统/5-HT1A自受体（2026-06-13）**, **小脑 LTD（2026-06-23）**；待覆盖：多巴胺系统深度） |
 | 2. 神经网络微回路设计 | 🔵 进行中（已覆盖：PV+/SST+/VIP+ 中间神经元, 去抑制回路；待覆盖：皮层柱结构, 前馈/反馈抑制, 神经调质调节） |
-| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞（2026-06-22 wiki建立）**, **网格细胞（2026-06-22 wiki建立）**, θ振荡/相位编码, **V1方向选择性（2026-06-11）**, **路径整合（2026-06-22）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
+| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞（2026-06-22 wiki建立）**, **网格细胞（2026-06-22 wiki建立）**, θ振荡/相位编码, **V1方向选择性（2026-06-11）**, **路径整合（2026-06-22）**, **运动编码-旋转动力学（2026-06-21）**, **小脑前向模型（2026-06-23）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
 | 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**, **认知地图（2026-06-22）**；待覆盖：记忆提取机制、网格-场所转化精确机制）|
 | 5. 认知控制 | 🔵 进行中（已覆盖：**工作记忆**、**奖励学习/三因素规则（2026-06-07）**、**注意/增益控制（ACh/NE，2026-06-12）**；待覆盖：执行控制、决策）|
 | 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线、**杏仁核恐惧记忆回路（2026-05-30）**、**恐惧条件反射/消退机制**；待覆盖：动机回路深度、恐惧情景结合（海马-杏仁核）、PTSD深度、下丘脑情绪调控）|

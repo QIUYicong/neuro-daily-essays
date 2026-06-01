@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-06-23（第 59 篇·小脑的秘密·运动预测与多层可塑性）
+
+**源文章**：[[2026-06-23-cerebellum-motor-prediction]] —《小脑的秘密：浦肯野细胞如何让大脑成为一台预测机器》
+
+**新建页面（3）**：
+- `systems/cerebellum.md`（小脑）🟢 established / 置信度高 — 小脑解剖（三层皮层/DCN）；PF-LTD → 多层可塑性；前向/逆向模型（Wolpert 1998）；CCAS（认知情感综合征，Schmahmann 1998）；De Zeeuw 2021 双向微区综合框架
+- `concepts/cerebellar-ltd.md`（小脑 LTD）🟢 established / 置信度高 — mGluR1/IP₃/PKC/AMPAR 内吞五步级联；与海马 NMDA-LTD 的根本差异；Schonewille 2011 "无 LTD 照样学习"挑战；Hansel 2026 预印本 400ms 时间窗口
+- `concepts/forward-model.md`（前向模型）🔵 mainstream / 置信度中 — 给定传出拷贝预测运动感觉后果；逆向模型（计算运动指令）；小脑的内部模型功能；MOSAIC 多模块扩展；认知领域扩展可能性
+
+**修订页面（3）**：
+- `concepts/ltd.md`（修订#2）— 新增小脑 LTD 独特性段落（mGluR1/PKC，与 NMDA-LTD 并列）；related 新增 cerebellar-ltd, cerebellum；连接段新增两项
+- `theories/predictive-coding.md`（修订#5）— 新增"小脑专用预测误差学习系统"段落（前向模型→攀爬纤维误差→LTD更新）；related 新增 cerebellum, forward-model
+- `systems/motor-cortex.md`（修订#2）— 新增"小脑-运动皮层闭环"段落（皮质-脑桥-小脑→DCN→VL丘脑→M1回路）；related 新增 cerebellum, forward-model；连接段新增两项
+
+**矛盾登记**：无新矛盾（Schonewille 2011 挑战 LTD 中心论已是已知历史争议，不新登记为 open 矛盾，但在文章和 wiki 中如实呈现两方证据）
+
+**悬空引用（新增，待填补）**：
+- `climbing-fiber`（攀爬纤维，被 cerebellum, cerebellar-ltd 引用）
+- `parallel-fiber`（平行纤维，被 cerebellum, cerebellar-ltd 引用）
+- `deep-cerebellar-nuclei`（深部小脑核，被 cerebellum 引用）
+- `spinocerebellar-ataxia`（脊髓小脑性共济失调，被 cerebellum 引用）
+
+---
+
 ## 2026-06-22（第 58 篇·网格细胞与场所细胞·填补6个长期悬空引用）
 
 **源文章**：[[2026-06-22-grid-cells-place-cells]] —《六边形的秘密：内嗅皮层网格细胞如何为大脑装备空间坐标系》

@@ -1,7 +1,92 @@
 {
-  "last_updated": "2026-06-22",
-  "total_articles": 58,
+  "last_updated": "2026-06-23",
+  "total_articles": 59,
   "entries": [
+    {
+      "date": "2026-06-23",
+      "title": "小脑的秘密：浦肯野细胞如何让大脑成为一台预测机器",
+      "filename": "2026-06-23-cerebellum-motor-prediction.md",
+      "wiki_pages_created": [
+        "wiki/systems/cerebellum.md",
+        "wiki/concepts/cerebellar-ltd.md",
+        "wiki/concepts/forward-model.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltd.md",
+        "wiki/theories/predictive-coding.md",
+        "wiki/systems/motor-cortex.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "PF-LTD 是小脑运动学习的唯一机制吗？从经典 Marr-Albus-Ito 理论（mGluR1/PKC/AMPAR内吞级联）到 Schonewille 2011 无LTD照样学习的挑战，再到 De Zeeuw 2021 的双向微区综合框架，揭示小脑作为多层可塑性驱动的预测机器（前向模型）的本质。",
+      "layer": [
+        "回路",
+        "系统",
+        "认知",
+        "分子"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（运动预测/小脑） + 8. 预测处理框架（小脑专用预测误差学习） + 与 2026-06-21 运动皮层自然衔接",
+      "topic_tags": [
+        "cerebellum",
+        "purkinje cell",
+        "parallel fiber",
+        "climbing fiber",
+        "inferior olive",
+        "PF-LTD",
+        "mGluR1",
+        "PKC",
+        "AMPAR endocytosis",
+        "Marr-Albus-Ito theory",
+        "forward model",
+        "inverse model",
+        "efference copy",
+        "internal model",
+        "Wolpert 1998",
+        "De Zeeuw 2021",
+        "Schonewille 2011",
+        "Hansel 2026",
+        "deep cerebellar nuclei",
+        "granule cell",
+        "microzones",
+        "upbound downbound",
+        "CCAS",
+        "Schmahmann 1998",
+        "cerebellar ataxia",
+        "spinocerebellar ataxia",
+        "predictive coding",
+        "motor learning",
+        "VOR adaptation",
+        "eyeblink conditioning",
+        "MOSAIC model",
+        "autism cerebellum"
+      ],
+      "main_sources": [
+        "PMID:21227230 (abstract only)",
+        "PMID:7954803 (abstract only)",
+        "PMID:11319554 (PMCID:PMC3104468, open access)",
+        "PMID:17046686 (abstract only)",
+        "PMID:21482355 (PMC open access)",
+        "PMID:33203932 (abstract only)",
+        "PMID:33288911 (abstract only)",
+        "PMID:42079241 (preprint abstract)",
+        "PMID:9549520 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-cb-01: 前向模型的神经底物在哪个层面实现？",
+        "Q-cb-02: 攀爬纤维携带的误差信号究竟编码什么？",
+        "Q-cb-03: 小脑认知功能是否使用与运动 LTD 相同的可塑性机制？",
+        "Q-fm-01: 前向模型框架能否推广到语言和社会认知？"
+      ],
+      "next_suggested_topics": [
+        "小脑共济失调的遗传基础（SCA类型/ATXN1-3/多核苷酸重复扩张）——疾病作为窗口，延续小脑系列",
+        "发育神经科学首篇：皮质脊髓束和小脑输出通路的髓鞘化（与运动/小脑自然衔接）",
+        "后顶叶皮层（PPC）感知-运动整合：视觉→PMC→M1 的运动规划路径（延续运动主题，填补 PPC 缺口）",
+        "大脑与 AI 对照首篇：反向传播 vs 局部三因素规则 vs 小脑 LTD——生物学习与深度学习的异同",
+        "纹状体学习与多巴胺：直接/间接通路在习惯形成中的角色（延续奖励学习主题）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 59,
+      "dangling_reference_filled": "motor-cortex 中传出拷贝条目的小脑端（前向模型）；predictive-coding 中小脑专用预测误差学习系统（此前只有皮层层级讨论）"
+    },
     {
       "date": "2026-06-21",
       "title": "从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉",

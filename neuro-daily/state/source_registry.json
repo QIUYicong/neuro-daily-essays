@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -4602,7 +4602,197 @@
         "human fMRI methodology",
         "contested claim C-2026-06-22-01"
       ]
+    },
+    {
+      "pmid": "21227230",
+      "title": "Internal models in the cerebellum",
+      "authors": [
+        "Wolpert DM",
+        "Miall RC",
+        "Kawato M"
+      ],
+      "year": 1998,
+      "journal": "Trends in Cognitive Sciences",
+      "full_text_available": false,
+      "used_in_articles": [
+        "2026-06-23-cerebellum-motor-prediction"
+      ],
+      "topics_covered": [
+        "cerebellum",
+        "forward model",
+        "inverse model",
+        "efference copy",
+        "MOSAIC"
+      ]
+    },
+    {
+      "pmid": "7954803",
+      "title": "Deficient cerebellar long-term depression and impaired motor learning in mGluR1 mutant mice",
+      "authors": [
+        "Aiba A",
+        "Kano M",
+        "Chen C",
+        "Tonegawa S"
+      ],
+      "year": 1994,
+      "journal": "Cell",
+      "full_text_available": false,
+      "used_in_articles": [
+        "2026-06-23-cerebellum-motor-prediction"
+      ],
+      "topics_covered": [
+        "cerebellar LTD",
+        "mGluR1",
+        "knockout mouse",
+        "eyeblink conditioning"
+      ]
+    },
+    {
+      "pmid": "11319554",
+      "pmcid": "PMC3104468",
+      "title": "Beyond parallel fiber LTD: the diversity of synaptic and non-synaptic plasticity in the cerebellum",
+      "authors": [
+        "Hansel C",
+        "Linden DJ",
+        "D'Angelo E"
+      ],
+      "year": 2001,
+      "journal": "Nature Neuroscience",
+      "full_text_available": true,
+      "used_in_articles": [
+        "2026-06-23-cerebellum-motor-prediction"
+      ],
+      "topics_covered": [
+        "cerebellar plasticity diversity",
+        "PF-LTD",
+        "PF-LTP",
+        "intrinsic plasticity",
+        "DCN plasticity"
+      ]
+    },
+    {
+      "pmid": "17046686",
+      "title": "Synaptic memories upside down: bidirectional plasticity at cerebellar parallel fiber-Purkinje cell synapses",
+      "authors": [
+        "Jörntell H",
+        "Hansel C"
+      ],
+      "year": 2006,
+      "journal": "Neuron",
+      "full_text_available": false,
+      "used_in_articles": [
+        "2026-06-23-cerebellum-motor-prediction"
+      ],
+      "topics_covered": [
+        "PF-LTD",
+        "PF-LTP",
+        "bidirectional plasticity",
+        "Purkinje cell"
+      ]
+    },
+    {
+      "pmid": "21482355",
+      "pmcid": "PMC3104468",
+      "title": "Reevaluating the role of LTD in cerebellar motor learning",
+      "authors": [
+        "Schonewille M",
+        "De Zeeuw CI"
+      ],
+      "year": 2011,
+      "journal": "Neuron",
+      "full_text_available": true,
+      "used_in_articles": [
+        "2026-06-23-cerebellum-motor-prediction"
+      ],
+      "topics_covered": [
+        "PF-LTD",
+        "motor learning",
+        "knockout mouse",
+        "VOR",
+        "eyeblink conditioning"
+      ]
+    },
+    {
+      "pmid": "33203932",
+      "title": "Bidirectional learning in upbound and downbound microzones of the cerebellum",
+      "authors": [
+        "De Zeeuw CI"
+      ],
+      "year": 2021,
+      "journal": "Nature Reviews Neuroscience",
+      "full_text_available": false,
+      "used_in_articles": [
+        "2026-06-23-cerebellum-motor-prediction"
+      ],
+      "topics_covered": [
+        "cerebellar microzones",
+        "upbound downbound learning",
+        "Purkinje cell activity",
+        "bidirectional learning"
+      ]
+    },
+    {
+      "pmid": "33288911",
+      "title": "Diversity and dynamism in the cerebellum",
+      "authors": [
+        "De Zeeuw CI",
+        "Lisberger SG",
+        "Raymond JL"
+      ],
+      "year": 2021,
+      "journal": "Nature Neuroscience",
+      "full_text_available": false,
+      "used_in_articles": [
+        "2026-06-23-cerebellum-motor-prediction"
+      ],
+      "topics_covered": [
+        "cerebellar diversity",
+        "cognitive cerebellum",
+        "recurrent circuit",
+        "CCAS"
+      ]
+    },
+    {
+      "pmid": "42079241",
+      "title": "Cerebellum violates Marr-Albus predictions to train synapses on long-term anticipatory goals",
+      "authors": [
+        "Hansel C",
+        "Lin TF"
+      ],
+      "year": 2026,
+      "journal": "bioRxiv (preprint)",
+      "full_text_available": false,
+      "preprint": true,
+      "used_in_articles": [
+        "2026-06-23-cerebellum-motor-prediction"
+      ],
+      "topics_covered": [
+        "cerebellar LTD",
+        "timing window",
+        "anticipatory learning",
+        "Marr-Albus revision"
+      ]
+    },
+    {
+      "pmid": "9549520",
+      "title": "The cerebellar cognitive affective syndrome",
+      "authors": [
+        "Schmahmann JD",
+        "Sherman JC"
+      ],
+      "year": 1998,
+      "journal": "Brain",
+      "full_text_available": false,
+      "used_in_articles": [
+        "2026-06-23-cerebellum-motor-prediction"
+      ],
+      "topics_covered": [
+        "CCAS",
+        "cerebellar cognitive function",
+        "cerebellar affective function",
+        "posterior cerebellum"
+      ]
     }
   ],
-  "total_sources": 231
+  "total_sources": 246
 }

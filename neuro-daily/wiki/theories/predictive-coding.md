@@ -6,10 +6,10 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-05-31
-revision_count: 4
+updated: 2026-06-23
+revision_count: 5
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05]
 source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis]
@@ -90,8 +90,19 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 | 注意可被理解为精度加权（ACh 实现 V1 精度调制） | 猕猴 V1 + M1 受体阻断 + 注意任务（Herrero et al. 2008） | PMID:27917138；PMID:30359606 综述 | 高（体内药理+电生理）|
 | 某些感觉皮层间交互不符合简单振荡-方向映射预测 | 灵长类视觉联合皮层新数据（仅读摘要） | PMID:41120233 | 待评估（限于摘要）|
 
+### 小脑：专用预测误差学习系统
+
+小脑是大脑中实现预测编码最具体、最古老的子系统（Wolpert et al. 1998, PMID:21227230）：
+- **前向模型**：利用传出拷贝（efference copy）预测运动感觉后果 → 与实际感觉（攀爬纤维）对比 → 预测误差
+- **可塑性更新**：误差驱动 PF-LTD/LTP，更新内部模型（浦肯野细胞突触权重）
+- 预测编码原理在小脑的实现早于皮层预测编码理论的提出，是同一计算原则在进化上的较古老版本
+
+小脑的预测编码是**局部的、运动-感觉专用的**；皮层的预测编码是**层级的、多模态的**。两者可能共享"预测 → 误差 → 更新"这一核心循环。
+
 ## 连接
 
+- [[cerebellum]] — 专用预测误差学习系统（前向模型 + 攀爬纤维误差信号）
+- [[forward-model]] — 小脑前向模型是预测编码的一个具身子系统
 - [[precision-weighting]] — 预测编码框架中注意力和神经调质的计算角色
 - [[v1-primary-visual-cortex]] — 预测编码在视觉系统中最被研究的具体实例
 - [[orientation-selectivity]] — 方向选择性作为高效预测编码自然涌现的结果
@@ -119,6 +130,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 添加 GWT 与预测编码的互补关系：足够大的预测误差触发工作空间点燃；related 新增 global-workspace-theory
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将预测编码定位为「世界模型误差加权更新层」；新增 world-model 到 related；明确预测编码给出了世界模型的贝叶斯更新方程：Δmodel ∝ precision_weighted_prediction_error
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语言域的预测编码实例：词出现前200ms的语义-感觉运动预测（Grisoni 2024），腹侧流具身语义预测（工具词→运动皮层，动物词→视觉皮层）；related 新增 language-network, ventral-language-stream
+- 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
 
 ## 来源文章
 

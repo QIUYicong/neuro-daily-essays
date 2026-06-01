@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-04
-updated: 2026-06-04
-revision_count: 1
+updated: 2026-06-23
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, cognition]
-related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells]
+related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, cerebellum]
 prerequisites: [synaptic-transmission, nmda-receptor, ampa-receptor, ltp]
 opens_questions: [Q-ltd-nmda-metabotropic, Q-ltd-long-term-maintenance, Q-ltd-behavior-extinction, Q-ltd-glua2-redundancy]
 source_articles: [2026-06-04-ltd-long-term-depression]
@@ -64,6 +64,16 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 
 **脆性 X 综合征联系**：FMRP 缺失 → Arc 等 LTD 相关蛋白持续过度翻译 → mGluR-LTD 失控激活 → 突触权重弥漫性减弱（Bear, Huber & Warren 2004 mGluR 理论）
 
+### 小脑 LTD（PF-PC LTD）的独特性
+小脑 LTD 与海马 LTD 使用相同的**最终效应器**（GluA2 Ser880 磷酸化 → AMPAR 内吞），但**触发机制根本不同**：
+- 不依赖 NMDA 受体，依赖 **mGluR1**（代谢型）
+- Ca²⁺ 来自 VGCCs 和 IP₃R（而非 NMDA）
+- 关键激酶是 **PKCα/γ**（而非 LTP 对立的 PP2B）
+- 诱导条件：平行纤维 + 攀爬纤维同时激活（Aiba et al. 1994, PMID:7954803）
+- 功能意义：运动误差纠正（而非突触稳态）
+
+详见 [[cerebellar-ltd]]。
+
 ### AMPAR 内吞后的命运
 
 内化的 AMPAR 进入早期内体（early endosome），命运分叉：
@@ -92,6 +102,8 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 - [[arc-arg31]] — Arc/Arg3.1，mGluR-LTD 的执行分子，连接化学信号与内吞机器
 - [[hebbian-learning]] — LTD 是 BCM 反-Hebb 规则在突触层面的分子实现；防止突触饱和
 - [[memory-consolidation]] — 睡眠期间的突触稳态下调（SHY 假说）可能涉及 LTD 类机制
+- [[cerebellar-ltd]] — 使用相同 AMPAR 内吞最终效应器的平行机制（但触发完全不同：mGluR1/PKC，无需 NMDA）
+- [[cerebellum]] — 小脑 LTD 发生的回路背景（PF→PC突触）
 
 ## 未解问题
 
@@ -103,6 +115,7 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 ## 修订历史
 
 - 2026-06-04 · 创建 · 基于《遗忘的精准：LTD 文章》· 初始置信度：高（经典已建立机制）
+- 2026-06-23 · 修订 · 基于《小脑的秘密》· 加入小脑 LTD 独特性说明（mGluR1/PKC 路径，与 NMDA-LTD 并列）；新增 related: cerebellar-ltd, cerebellum；新增连接段落
 
 ## 来源文章
 
