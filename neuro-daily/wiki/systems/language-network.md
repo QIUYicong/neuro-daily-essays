@@ -9,11 +9,13 @@ created: 2026-06-20
 updated: 2026-06-20
 revision_count: 1
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, motor-cortex, mirror-neurons]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
-opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
-source_articles: [2026-06-20-language-dual-stream]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302"]
+opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03, Q-lang-04]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-21-motor-cortex-voluntary-movement]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:12161656", "PMID:16201457"]
+updated: 2026-06-21
+revision_count: 2
 ---
 
 # 语言网络（双流模型）(Dual-Stream Language Network)
@@ -79,7 +81,9 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 ## 修订历史
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
+- 2026-06-21 · 修订 · 新增运动皮层（PMv/F5）→ Broca区演化同源关系；新增镜像神经元是语言网络前驱的假说支持（Arbib 2005, Kohler 2002）；related 增加 motor-cortex 和 mirror-neurons；opens_questions 增加 Q-lang-04
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
+- [[2026-06-21-motor-cortex-voluntary-movement]]

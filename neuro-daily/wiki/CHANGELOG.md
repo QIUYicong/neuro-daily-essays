@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-21（第 57 篇·运动皮层·课程路线3 大脑如何编码世界 运动系统）
+
+**源文章**：[[2026-06-21-motor-cortex-voluntary-movement]] —《运动皮层：从地图到发动机——大脑如何将意图转化为精确动作》
+
+**新建页面（5）**：
+- `systems/motor-cortex.md`（运动皮层）🟢 established / 置信度高 — M1/PMC/SMA 组织与功能；群体向量编码；旋转动力学；Betz 细胞 / CST；行为行为地图；跨物种一致性
+- `concepts/population-vector.md`（群体向量编码）🟢 established / 置信度高 — Georgopoulos 1986 群体向量范式；宽余弦调谐；分布式方向编码
+- `concepts/rotational-dynamics.md`（旋转动力学）🔵 mainstream / 置信度高 — Churchland 2012 jPCA；M1 群体活动旋转轨迹；运动前150ms；EMG预测r=0.97-0.99
+- `systems/corticospinal-tract.md`（皮质脊髓束）🟢 established / 置信度高 — 从M1到脊髓；延髓交叉；CM连接是灵长类精细手指控制基础
+- `concepts/mirror-neurons.md`（镜像神经元）🔵 mainstream / 置信度中 — 猕猴F5执行+观察+听觉均放电；F5→BA44演化同源；人类证据仍限于fMRI群体层面
+
+**修订页面（2）**：
+- `systems/language-network.md` — 新增与运动皮层（PMv/F5）演化连接；related 加入 motor-cortex, mirror-neurons；opens_questions 加入 Q-lang-04
+- `systems/broca-area.md` — 新增 BA44 是猕猴 F5/PMv 人类演化同源区；连接加入 motor-cortex, mirror-neurons
+
+**新增未解问题（5）**：Q-motor-01（旋转动力学人类验证）/ Q-motor-02（小脑修正M1机制）/ Q-motor-03（运动学习改变调谐）/ Q-motor-04（BMI解码范式）/ Q-motor-mirror-01（人类镜像神经元单细胞证据）
+
+**新增图谱节点（5）**：motor-cortex / population-vector / rotational-dynamics / corticospinal-tract / mirror-neurons  
+**新增图谱边（9）**：motor-cortex→corticospinal-tract / motor-cortex→basal-ganglia / motor-cortex→language-network / population-vector→motor-cortex / rotational-dynamics→motor-cortex / mirror-neurons→broca-area / mirror-neurons→motor-cortex / corticospinal-tract→pyramidal-neuron / language-network→mirror-neurons
+
+---
+
 ## 2026-06-20（第 56 篇·双流语言网络·课程路线7 语言与抽象思维 首篇）
 
 **源文章**：[[2026-06-20-language-dual-stream]] —《语言的解剖：双流网络如何将声波解码为思想》

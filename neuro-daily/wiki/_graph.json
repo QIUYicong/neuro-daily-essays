@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-20",
-  "node_count": 83,
-  "edge_count": 493,
+  "updated": "2026-06-21",
+  "node_count": 88,
+  "edge_count": 502,
   "edge_types": [
     "is-a",
     "part-of",
@@ -814,6 +814,51 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/circuits/ventral-language-stream.md"
+    },
+    {
+      "id": "motor-cortex",
+      "title": "运动皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/motor-cortex.md"
+    },
+    {
+      "id": "population-vector",
+      "title": "群体向量编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/population-vector.md"
+    },
+    {
+      "id": "rotational-dynamics",
+      "title": "旋转动力学",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/rotational-dynamics.md"
+    },
+    {
+      "id": "corticospinal-tract",
+      "title": "皮质脊髓束",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/corticospinal-tract.md"
+    },
+    {
+      "id": "mirror-neurons",
+      "title": "镜像神经元",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/mirror-neurons.md"
     }
   ],
   "edges": [
@@ -3762,6 +3807,51 @@
     {
       "from": "default-mode-network",
       "to": "ventral-language-stream",
+      "type": "related"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "corticospinal-tract",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "basal-ganglia",
+      "type": "regulates"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "population-vector",
+      "to": "motor-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "rotational-dynamics",
+      "to": "motor-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mirror-neurons",
+      "to": "broca-area",
+      "type": "related"
+    },
+    {
+      "from": "mirror-neurons",
+      "to": "motor-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "corticospinal-tract",
+      "to": "pyramidal-neuron",
+      "type": "part-of"
+    },
+    {
+      "from": "language-network",
+      "to": "mirror-neurons",
       "type": "related"
     }
   ],

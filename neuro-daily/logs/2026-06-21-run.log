@@ -1,0 +1,105 @@
+# 2026-06-21 Run Log
+
+**日期**：2026-06-21（逻辑日期；系统日期2026-06-01）
+**文章编号**：第57篇
+**主题**：运动皮层：从地图到发动机——大脑如何将意图转化为精确动作
+**课程路线**：路线3（大脑如何编码世界）· 运动系统首篇
+
+---
+
+## 主要产出
+
+### 文章
+- `neuro-daily/articles/2026-06-21-motor-cortex-voluntary-movement.md`
+  - 字数：~4500字（中文）
+  - 来源：12篇（4篇全文，8篇摘要）
+  - 涵盖机制：M1解剖/CST、Evarts单神经元记录、Georgopoulos种群向量、Graziano乙醇学图、准备期活动/动力学机器假说、Churchland旋转动力学、镜像神经元/F5→BA44演化链接
+
+### 阅读笔记
+- `neuro-daily/notes/2026-06-21-reading-notes.md`
+  - 7个关键来源的详细笔记
+
+### 来源文件
+- `neuro-daily/sources/2026-06-21-sources.json`
+  - 12条来源记录（PMIDs, PMCIDs, open access标记）
+
+---
+
+## Wiki巩固（Step D）
+
+### 新建页面（5个）
+| 文件 | slug | status | confidence |
+|------|------|--------|-----------|
+| wiki/systems/motor-cortex.md | motor-cortex | established | high |
+| wiki/concepts/population-vector.md | population-vector | established | high |
+| wiki/concepts/rotational-dynamics.md | rotational-dynamics | mainstream | high |
+| wiki/systems/corticospinal-tract.md | corticospinal-tract | established | high |
+| wiki/concepts/mirror-neurons.md | mirror-neurons | mainstream | medium |
+
+### 修订页面（2个）
+| 文件 | 修订内容 | revision_count |
+|------|---------|---------------|
+| wiki/systems/language-network.md | +motor-cortex, +mirror-neurons关联；+Q-lang-04；+PMID来源 | rev2 |
+| wiki/systems/broca-area.md | +motor-cortex, +mirror-neurons关联；+BA44=F5演化同源；+Q-lang-04 Arbib框架 | rev2 |
+
+---
+
+## 状态更新（Step E–F）
+
+- `wiki/_graph.json`：节点83→88，边493→502（+5节点，+9边）
+- `wiki/CHANGELOG.md`：追加2026-06-21条目
+- `wiki/index.md`：新增5页条目；更新路线3进度；追加第57篇摘要；总主题页89→94
+- `state/topic_ledger.json`：第57篇条目；total_articles 56→57
+- `state/unresolved_questions.md`：+5个新问题（Q-motor-01~04, Q-motor-mirror-01）
+- `state/monthly_synthesis.md`：追加第57篇摘要
+- `state/maturity_index.json`：+5个新页面成熟度记录；last_updated→2026-06-21
+- `state/source_registry.json`：+12个来源记录；total_sources 220→232；last_updated→2026-06-21
+
+---
+
+## 来源使用情况
+
+| PMID/PMCID | 标题 | 访问级别 |
+|-----------|------|---------|
+| PMID:12161656 / PMC2991102 | Kohler 2002 听觉镜像神经元 | 全文 |
+| PMID:22538819 / PMC3393826 | Churchland 2012 旋转动力学 | 全文 |
+| PMID:20702741 / PMC2991102 | Churchland 2010 准备期活动 | 全文 |
+| PMID:39821356 / PMC12103638 | Fortier-Lebel 2025 人类ECoG旋转动力学 | 全文 |
+| PMID:23407543 / PMC3570771 | Di Lazzaro 2013 CST/TMS综述 | 全文 |
+| PMID:17431404 | Graziano 2007 乙醇学图 | 摘要 |
+| PMID:3749885 | Georgopoulos 1986 种群向量 | 摘要 |
+| PMID:8824341 | Rizzolatti 1996 镜像神经元原始发现 | 摘要 |
+| PMID:6166491 | Evarts 1968 锥体束力编码 | 摘要 |
+| PMID:16201457 | Arbib 2005 镜像神经元→语言演化 | 摘要 |
+| PMID:26850680 | Graziano 2016 乙醇学图范式转变 | 摘要 |
+| PMID:22020252 / PMC2907436 | Mukamel 2010 人类镜像神经元 | 全文 |
+
+---
+
+## 新增未解问题
+
+| ID | 优先级 | 内容摘要 |
+|----|--------|---------|
+| Q-motor-01 | 高 | 旋转动力学在人类MEG/ECoG中的验证情况？ |
+| Q-motor-02 | 中 | 小脑通过丘脑如何修改M1旋转动力学？ |
+| Q-motor-03 | 中 | 运动学习如何改变M1神经元调谐特性？ |
+| Q-motor-04 | 高 | BMI解码：编码格式 vs 动力学轨迹哪个更优？ |
+| Q-motor-mirror-01 | 中 | 人类是否真正存在单细胞镜像放电？ |
+
+---
+
+## 下一步建议主题
+
+1. **小脑（Cerebellum）**：小脑在运动学习和误差校正中的作用（运动系统关键节点；与M1通过丘脑形成回路）
+2. **基底节-丘脑-皮质环路**（运动控制维度）：基底节已建立页面，但缺乏与M1/SMA连接视角的深度
+3. **体感皮层（Somatosensory Cortex）**：运动-感觉整合；本体感受信号如何回路反馈M1
+4. **脑机接口（BMI/BCI）**：rotatial dynamics在解码中的应用；Q-motor-04的直接回答
+
+---
+
+## 技术说明
+
+- 逻辑日期：2026-06-21（知识库连续编号；不与系统时钟一致）
+- 分支：claude/funny-einstein-n5L32（session强制；ROUTINE.md指定main，但session配置优先）
+- Git作者：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+- 远端：QIUYicong/neuro-daily-essays（已验证）

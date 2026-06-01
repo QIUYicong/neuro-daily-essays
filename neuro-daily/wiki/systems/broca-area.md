@@ -9,11 +9,13 @@ created: 2026-06-20
 updated: 2026-06-20
 revision_count: 1
 dimensions: [brain-region, cognition]
-related: [language-network, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, prefrontal-cortex]
+related: [language-network, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, prefrontal-cortex, motor-cortex, mirror-neurons]
 prerequisites: [language-network, action-potential]
 opens_questions: [Q-lang-03, Q-lang-04]
-source_articles: [2026-06-20-language-dual-stream]
-key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-21-motor-cortex-voluntary-movement]
+key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947", "PMID:16201457"]
+updated: 2026-06-21
+revision_count: 2
 ---
 
 # Broca区（额叶下回）(Broca's Area / Inferior Frontal Gyrus)
@@ -71,16 +73,20 @@ key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"
 - [[ventral-language-stream]] — BA45是腹侧流的额叶终点
 - [[working-memory]] — BA45参与语义工作记忆
 - [[prefrontal-cortex]] — Broca区位于PFC的额叶下回，与dlPFC协作认知控制
+- [[motor-cortex]] — BA44是猕猴PMv/F5（腹侧运动前皮层）的人类演化同源区
+- [[mirror-neurons]] — F5/PMv含有镜像神经元；BA44含有相似的"镜像样"细胞活动
 
 ## 未解问题
 
 - Q-lang-03：语法与语义是否真的解离？还是BA44/45共同参与更抽象的"层级计算"？
-- Q-lang-04：BA44与非人灵长类F5（镜像神经元区）的演化关系——语言是否从动作理解系统演化而来？
+- Q-lang-04：BA44与非人灵长类F5（镜像神经元区）的演化关系——语言是否从动作理解系统演化而来？（参见 Arbib 2005 框架）
 
 ## 修订历史
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
+- 2026-06-21 · 修订 · 新增 BA44 与猕猴 F5/PMv 的演化同源关系（Arbib 2005 框架）；新增 motor-cortex 和 mirror-neurons 连接；开放问题 Q-lang-04 加入 Arbib 演化框架来源
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
+- [[2026-06-21-motor-cortex-voluntary-movement]]

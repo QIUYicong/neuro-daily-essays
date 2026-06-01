@@ -4223,5 +4223,159 @@
       ]
     }
   ],
-  "total_sources": 220
+  "total_sources": 232,
+  "last_updated": "2026-06-21",
+  "additions_2026-06-21": [
+    {
+      "pmid": "17431404",
+      "title": "The organization of the motor system: a new ethological framework",
+      "authors_short": "Graziano & Aflalo",
+      "journal": "Neuroscientist",
+      "year": 2007,
+      "first_used": "2026-06-21",
+      "open_access": false,
+      "access_level": "abstract",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["motor cortex", "ethological maps", "long-duration stimulation", "body part map vs action map"]
+    },
+    {
+      "pmid": "3749885",
+      "title": "Neuronal population coding of movement direction",
+      "authors_short": "Georgopoulos et al.",
+      "journal": "Science",
+      "year": 1986,
+      "first_used": "2026-06-21",
+      "open_access": false,
+      "access_level": "abstract",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["motor cortex", "population vector", "cosine tuning", "movement direction coding"]
+    },
+    {
+      "pmid": "8824341",
+      "pmcid": null,
+      "title": "Premotor cortex and the recognition of motor actions",
+      "authors_short": "Rizzolatti et al.",
+      "journal": "Cognitive Brain Research",
+      "year": 1996,
+      "first_used": "2026-06-21",
+      "open_access": false,
+      "access_level": "abstract",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["mirror neurons", "F5", "premotor cortex", "action recognition", "PMv"]
+    },
+    {
+      "pmid": "12161656",
+      "pmcid": "PMC2991102",
+      "title": "Hearing sounds, understanding actions: action representation in mirror neurons",
+      "authors_short": "Kohler et al.",
+      "journal": "Science",
+      "year": 2002,
+      "first_used": "2026-06-21",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["mirror neurons", "audiovisual mirror neurons", "F5", "action sounds", "monkey"]
+    },
+    {
+      "pmid": "22538819",
+      "pmcid": "PMC3393826",
+      "title": "Neural population dynamics during reaching",
+      "authors_short": "Churchland et al.",
+      "journal": "Nature",
+      "year": 2012,
+      "first_used": "2026-06-21",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["rotational dynamics", "jPCA", "motor cortex", "population dynamics", "movement preparation", "EMG prediction"]
+    },
+    {
+      "pmid": "20702741",
+      "pmcid": "PMC2991102",
+      "title": "Preparing for movement: neural representations of intended direction",
+      "authors_short": "Churchland et al.",
+      "journal": "Neuron",
+      "year": 2010,
+      "first_used": "2026-06-21",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["preparatory activity", "motor cortex", "dynamical machine hypothesis", "movement initiation", "initial conditions"]
+    },
+    {
+      "pmid": "39821356",
+      "pmcid": "PMC12103638",
+      "title": "Rotational dynamics in the motor cortex of humans during upper limb movement",
+      "authors_short": "Fortier-Lebel et al.",
+      "journal": "Neuroscientist",
+      "year": 2025,
+      "first_used": "2026-06-21",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["rotational dynamics", "human ECoG", "motor cortex", "jPCA", "translation from monkey to human"]
+    },
+    {
+      "pmid": "23407543",
+      "pmcid": "PMC3570771",
+      "title": "Direct demonstration of long-latency corticospinal excitatory influence on human motoneurons",
+      "authors_short": "Di Lazzaro et al.",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2013,
+      "first_used": "2026-06-21",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["corticospinal tract", "TMS", "D-wave", "I-wave", "CM connections", "CST physiology"]
+    },
+    {
+      "pmid": "6166491",
+      "title": "Relation of pyramidal tract activity to force exerted during voluntary movement",
+      "authors_short": "Evarts",
+      "journal": "Journal of Neurophysiology",
+      "year": 1968,
+      "first_used": "2026-06-21",
+      "open_access": false,
+      "access_level": "abstract",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["motor cortex", "pyramidal tract", "single unit recording", "force coding", "voluntary movement"]
+    },
+    {
+      "pmid": "16201457",
+      "title": "From monkey-like action recognition to human language: an evolutionary framework for understanding the mirror neuron system",
+      "authors_short": "Arbib",
+      "journal": "Behavioral and Brain Sciences",
+      "year": 2005,
+      "first_used": "2026-06-21",
+      "open_access": false,
+      "access_level": "abstract",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["mirror neurons", "language evolution", "F5", "Broca area", "BA44", "action recognition to language"]
+    },
+    {
+      "pmid": "26850680",
+      "title": "Ethological action maps: a paradigm shift for the motor cortex",
+      "authors_short": "Graziano",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2016,
+      "first_used": "2026-06-21",
+      "open_access": false,
+      "access_level": "abstract",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["motor cortex", "ethological maps", "action map", "long-duration stimulation", "complex movements"]
+    },
+    {
+      "pmid": "22020252",
+      "title": "Complementary roles of premotor cortices in action recognition",
+      "authors_short": "Mukamel et al.",
+      "journal": "Current Biology",
+      "year": 2010,
+      "pmcid": "PMC2907436",
+      "first_used": "2026-06-21",
+      "open_access": true,
+      "access_level": "full_text",
+      "used_in_articles": ["2026-06-21-motor-cortex-voluntary-movement.md"],
+      "topics": ["mirror neurons", "human single unit", "supplementary motor area", "hippocampus", "ECoG", "action observation"]
+    }
+  ]
 }

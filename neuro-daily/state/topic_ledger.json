@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-20",
-  "total_articles": 56,
+  "last_updated": "2026-06-21",
+  "total_articles": 57,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2662,6 +2662,87 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 56
+    },
+    {
+      "date": "2026-06-21",
+      "title": "运动皮层：从地图到发动机——大脑如何将意图转化为精确动作",
+      "filename": "2026-06-21-motor-cortex-voluntary-movement.md",
+      "wiki_pages_created": [
+        "wiki/systems/motor-cortex.md",
+        "wiki/concepts/population-vector.md",
+        "wiki/concepts/rotational-dynamics.md",
+        "wiki/systems/corticospinal-tract.md",
+        "wiki/concepts/mirror-neurons.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/language-network.md",
+        "wiki/systems/broca-area.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "当你伸手拿杯子时，大脑运动皮层如何将意图转化为精确肌肉指令？M1编码运动方向、力还是肌肉模式？还是它根本不是'编码器'而是一台动力学'发动机'——通过旋转轨迹在状态空间中生成时序肌肉指令？",
+      "layer": ["脑区", "微回路", "行为", "认知"],
+      "curriculum_track": "3. 大脑如何编码世界（运动系统）→ 5. 认知控制（运动规划）",
+      "topic_tags": [
+        "motor cortex",
+        "M1",
+        "primary motor cortex",
+        "population vector",
+        "rotational dynamics",
+        "Georgopoulos",
+        "Churchland",
+        "Shenoy",
+        "corticospinal tract",
+        "Betz cell",
+        "corticomotoneuronal connection",
+        "CM connection",
+        "premotor cortex",
+        "PMv",
+        "PMd",
+        "supplementary motor area",
+        "SMA",
+        "F5 area",
+        "mirror neurons",
+        "Rizzolatti",
+        "Broca area evolution",
+        "dynamical systems",
+        "jPCA",
+        "ethological action map",
+        "Graziano",
+        "voluntary movement",
+        "motor homunculus",
+        "Penfield"
+      ],
+      "main_sources": [
+        "PMID:3749885 (Georgopoulos 1986 Science)",
+        "PMID:3411362 (Georgopoulos 1988 J Neurosci)",
+        "PMID:21040842 (PMC2991102, Churchland 2010 Neuron)",
+        "PMID:22722855 (PMC3393826, Churchland 2012 Nature)",
+        "PMID:23725001 (Shenoy 2013 Annu Rev Neurosci, abstract only)",
+        "PMID:17964243 (Graziano 2007 Neuron, abstract only)",
+        "PMID:26628112 (Graziano 2016 Trends Cogn Sci, abstract only)",
+        "PMID:39041460 (PMC12103638, Fortier-Lebel 2025 Neuroscientist)",
+        "PMID:15806550 (Lemon & Griffiths 2005 Muscle Nerve, abstract only)",
+        "PMID:12161656 (Kohler 2002 Science, abstract only)",
+        "PMID:16201457 (Arbib 2005 Behav Brain Sci, abstract only)",
+        "PMID:23407686 (PMC3570771, Di Lazzaro 2013 Front Neural Circ)"
+      ],
+      "unresolved_questions": [
+        "Q-motor-01：旋转动力学在人类（MEG/ECoG）是否同样存在？",
+        "Q-motor-02：小脑如何通过丘脑修正 M1 旋转动力学以实现误差校正？",
+        "Q-motor-03：运动学习（如演奏乐器）如何改变 M1 神经元调谐特性？",
+        "Q-motor-04：BMI 解码应基于编码格式还是动力学特性？",
+        "Q-motor-mirror-01：人类是否存在真正的单神经元镜像放电？"
+      ],
+      "next_suggested_topics": [
+        "小脑：误差信号学习与运动精细化——M1旋转动力学的误差校正机制（cerebellum悬空引用，被motor-cortex和rotational-dynamics引用）",
+        "语音产出的神经机制：喉部运动皮层（laryngeal motor cortex）、BA44与腹侧运动前皮层如何协作产生言语（延续运动皮层到语言的演化主题）",
+        "运动学习与皮层可塑性：M1的经验依赖重组，手指训练扩大手区，stroke康复（延续今日motor-cortex主题）",
+        "基底节与动作选择：直接/间接通路如何通过M1执行最终动作选择（补充今日basal-ganglia连接）",
+        "上运动神经元综合征：ALS、脑卒中中皮质脊髓束损伤的临床表现与机制（disease层，与今日CST内容衔接）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 57,
+      "dangling_reference_filled": "motor-cortex（填补了 language-network/broca-area 长期悬空引用中关于 PMv/F5 演化同源的空缺；新建 corticospinal-tract、population-vector、rotational-dynamics 三个高优先级缺失节点）"
     }
   ],
   "layer_coverage_recent": {

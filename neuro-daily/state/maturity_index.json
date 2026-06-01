@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-21",
   "levels": [
     "speculative",
     "emerging",
@@ -614,6 +614,46 @@
       "confidence": "medium",
       "last_changed": "2026-05-31",
       "reason": "Created 2026-05-31. Core concept (REM selectively weakens emotional tone while preserving information content) supported by convergent behavioral and neuroimaging evidence (Walker 2009, van der Helm 2011). Proposed LTD-like mechanism (theta trough-driven synaptic weakening at LA) is theoretically coherent (Poe 2017) but lacks direct synaptic evidence in LA-VH circuit. PTSD as depotentiation failure: plausible but mechanistically unproven. Status: emerging (well-supported phenomenology, incomplete mechanistic chain). Anticipate upgrade to mainstream when LA-specific theta-phase LTD is demonstrated."
+    },
+    {
+      "slug": "motor-cortex",
+      "page": "wiki/systems/motor-cortex.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-21",
+      "reason": "创建 2026-06-21。M1/BA4的Betz细胞→皮质脊髓束解剖是教科书级共识（数十年解剖+TMS+损伤研究）。Evarts 1968单神经元记录是神经科学经典。Georgopoulos 1986种群向量在猕猴体内电生理中直接验证（PMID:3749885）；Churchland 2012 jPCA旋转动力学（469神经元，4只猴子，Nature级发表，PMC:PMC3393826）；Graziano 2007乙醇学图（PMID:17431404）。核心现象学established；旋转动力学机制是mainstream（近年主流框架，但人类验证仍有缺口）。"
+    },
+    {
+      "slug": "population-vector",
+      "page": "wiki/concepts/population-vector.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-21",
+      "reason": "创建 2026-06-21。Georgopoulos 1986（PMID:3749885）在猕猴M1直接验证余弦调谐和种群向量求和；后续多实验室重复（人类ECoG、BMI应用）；余弦调谐+向量求和数学框架清晰可验证。established，争议主要在是否是唯一/最优编码方案（旋转动力学框架提出不同视角），但种群向量现象本身无争议。"
+    },
+    {
+      "slug": "rotational-dynamics",
+      "page": "wiki/concepts/rotational-dynamics.md",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-06-21",
+      "reason": "创建 2026-06-21。Churchland 2012（PMC3393826，Nature）469神经元jPCA分析：r²=0.56-0.70（旋转平面解释方差），EMG预测r=0.97-0.99，4只猴子独立验证；Fortier-Lebel 2025（PMC12103638）人类ECoG重现旋转动力学；核心发现多实验室重复。设为mainstream（非established）因：（1）动力学机器框架的具体计算机制仍争论；（2）种群向量vs旋转动力学的理论整合未完成；（3）人类数据相对有限。预期随更多物种验证升级为established。"
+    },
+    {
+      "slug": "corticospinal-tract",
+      "page": "wiki/systems/corticospinal-tract.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-21",
+      "reason": "创建 2026-06-21。CST解剖（锥体交叉、外侧/前CST、颈髓末梢）是经典解剖学共识。CM连接是灵长类特有（跨物种比较解剖充分证明）；TMS D波/I波区分已成为标准临床神经生理学方法（Di Lazzaro 2013综述，PMC3570771）。CM连接单突触特性（Lawrence & Kuypers 1968经典脊髓损伤实验）established。"
+    },
+    {
+      "slug": "mirror-neurons",
+      "page": "wiki/concepts/mirror-neurons.md",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-06-21",
+      "reason": "创建 2026-06-21。猕猴F5单细胞镜像放电：Rizzolatti 1996（PMID:8824341）直接单细胞记录established；Kohler 2002（PMID:12161656）听觉镜像神经元established。设为mainstream/medium因：（1）人类直接单细胞证据极缺（Mukamel 2010 PMC2907436仅限12神经外科患者，且激活模式与猕猴不同）；（2）镜像系统功能假说（共情/语言起源/动作理解）争议大；（3）F5→BA44演化同源框架是compelling但仍是框架而非直接证据。人类神经影像元分析支持功能性镜像系统存在，但单细胞机制待验证。"
     }
   ]
 }

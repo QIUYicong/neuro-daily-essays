@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-20（第56篇·双流语言网络·课程路线7语言首篇）· 主题页总数：89（新建5页：language-network, broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream；修订3页：working-memory rev5, predictive-coding rev5, default-mode-network rev4）
+> 最后更新：2026-06-21（第57篇·运动皮层·课程路线3运动系统首篇）· 主题页总数：94（新建5页：motor-cortex, population-vector, rotational-dynamics, corticospinal-tract, mirror-neurons；修订2页：language-network rev2, broca-area rev2）
 
 ---
 
@@ -86,6 +86,9 @@
 - 🔴 [Φ（整合信息度量）](concepts/phi-measure.md) — IIT 核心量；衡量系统最优分割时损失的因果信息量；NP-hard 计算；IIT 声称 Φ = 意识的量；COGITATE 2025 对相关机制预测构成挑战 **[NEW 2026-05-31]**
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战 **[NEW 2026-05-31]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
+- 🟢 [种群向量编码](concepts/population-vector.md) — Georgopoulos 1986发现M1神经元余弦调谐运动方向；种群向量求和准确预测运动方向；开创神经元集合编码理论框架 **[NEW 2026-06-21]**
+- 🔵 [旋转动力学](concepts/rotational-dynamics.md) — Churchland 2012 jPCA分析：M1种群状态空间在运动前~150ms呈旋转；预测EMG r=0.97-0.99；动力学机器假说（初始条件→自主演化轨迹）**[NEW 2026-06-21]**
+- 🔵 [镜像神经元](concepts/mirror-neurons.md) — F5/PMv执行和观察时均激活；听觉镜像神经元（Kohler 2002）；F5→BA44演化同源（Arbib 2005语言起源框架）；人类单细胞直接证据极缺，confidence=medium **[NEW 2026-06-21]**
 
 ## language（语言）
 
@@ -97,6 +100,8 @@
 
 ## systems（系统）
 
+- 🟢 [运动皮层（M1/PMC/SMA）](systems/motor-cortex.md) — M1（BA4）Betz细胞→皮质脊髓束；种群向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；PMC/SMA计划与序列；镜像神经元（F5→BA44演化同源）**[NEW 2026-06-21]**
+- 🟢 [皮质脊髓束（CST）](systems/corticospinal-tract.md) — 锥体束主干；皮质运动神经元（CM）连接是灵长类特有；D波/I波TMS验证；腹侧CST控制近端肌肉，背外侧CST控制远端精细运动 **[NEW 2026-06-21]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路 **[NEW 2026-05-30]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
@@ -131,7 +136,7 @@
 |---------|------|
 | 1. 神经元如何工作 | 🔵 进行中（已覆盖：AIS, 动作电位, 突触传递, NMDA/AMPA 受体, CaMKII, 树突计算, 锥体神经元, 电压门控钙通道, PV+/SST+/VIP+ 中间神经元, 去抑制回路, **LTD（长时程抑制）**, **短时程突触可塑性（STP）**, **神经调质 ACh/NE（2026-06-12）**, **血清素系统/5-HT1A自受体（2026-06-13）**；待覆盖：多巴胺系统深度） |
 | 2. 神经网络微回路设计 | 🔵 进行中（已覆盖：PV+/SST+/VIP+ 中间神经元, 去抑制回路；待覆盖：皮层柱结构, 前馈/反馈抑制, 神经调质调节） |
-| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：场所细胞, 网格细胞, θ振荡/相位编码, **V1方向选择性（2026-06-11）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
+| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：场所细胞, 网格细胞, θ振荡/相位编码, **V1方向选择性（2026-06-11）**, **运动皮层/种群向量/旋转动力学（2026-06-21）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
 | 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**；待覆盖：记忆提取机制）|
 | 5. 认知控制 | 🔵 进行中（已覆盖：**工作记忆**、**奖励学习/三因素规则（2026-06-07）**、**注意/增益控制（ACh/NE，2026-06-12）**；待覆盖：执行控制、决策）|
 | 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线、**杏仁核恐惧记忆回路（2026-05-30）**、**恐惧条件反射/消退机制**；待覆盖：动机回路深度、恐惧情景结合（海马-杏仁核）、PTSD深度、下丘脑情绪调控）|
@@ -202,3 +207,5 @@
 - **记忆巩固（memory-consolidation）**（现在最高优先级）：被 hippocampal-circuit、place-cell、sharp-wave-ripples、engram-cells 引用；系统巩固、睡眠阶段分工、皮层侧 LTP；**第二周首要主题**。
 
 **第26篇（2026-06-16）**：**默认模式网络（DMN）——当大脑"休息"时，它在做什么？**——课程路线8（意识与自我）开篇。Raichle 2001 PET元分析发现跨任务一致性去激活区域；Fox 2005 静息态fMRI证实DMN-TPN反相关（r≈-0.15至-0.20）；Andrews-Hanna 2011/2014 揭示双子系统架构（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC作为个人相关信息超加性整合枢纽；Buckner 2009 Aβ优先沉积DMN枢纽节点的功能解剖解释；GSR方法论争议；DMN作为预测编码高层先验生成器。新建1个wiki页面（systems/default-mode-network），修订 predictive-coding、hippocampal-circuit、alzheimers-disease 三页；图谱67节点385条边；新建Q-dmn-01到Q-dmn-04。
+
+**第57篇（2026-06-21）**：**运动皮层：从地图到发动机——大脑如何将意图转化为精确动作**——课程路线3（大脑如何编码世界）运动系统首篇。Evarts 1968单神经元记录；Georgopoulos 1986余弦调谐与种群向量（运动方向预测）；Graziano 2007/2016长时程刺激诱发乙醇学行为动作图；Churchland 2010准备期活动≠次阈运动；Churchland 2012 jPCA旋转动力学（469神经元，运动前~150ms，EMG预测r=0.97-0.99）；Rizzolatti 1996/Kohler 2002镜像神经元（F5执行+观察双激活）；Arbib 2005 F5→BA44语言演化框架。新建5个wiki页面（motor-cortex, population-vector, rotational-dynamics, corticospinal-tract, mirror-neurons），修订 language-network 和 broca-area 两页；图谱88节点502条边；新建Q-motor-01到Q-motor-04和Q-motor-mirror-01。
