@@ -1,0 +1,183 @@
+# 运行日志 · 2026-06-24
+
+## 基本信息
+
+- **文章编号**：#60
+- **日期（UTC+8）**：2026-06-24
+- **分支**：claude/funny-einstein-7WC5Q（基于 main，单分支累积模型）
+- **模式**：长期课程（long_term_curriculum）
+- **层级**：microcircuit / cellular / cognition
+
+---
+
+## 步骤 0：同步与状态读取
+
+- 当前分支：claude/funny-einstein-7WC5Q（与 main 同步，HEAD=b3fd73e）
+- 读取 ROUTINE.md ✅、KNOWLEDGE-BASE-DESIGN.md ✅
+- 拉取最新 main：fast-forward 至 b3fd73e，177 个文件更新
+- 知识库结构完整确认：neuro-daily/wiki、state/ 目录均存在
+
+---
+
+## 步骤 A：读取状态
+
+- topic_ledger.json：最后文章 #59（2026-06-23，小脑）；total_articles=59
+- unresolved_questions.md：最后更新 2026-06-23；Q-cb-01/02/03/04, Q-gc-01/02/03/04 等多个高优先级问题
+- contested_claims.json：4 个 open 矛盾（GABA极性、SNARE模型、IIT/COGITATE、人类网格信号）
+- _graph.json：103 节点，576 条边；悬空引用列表中无"模式补全/分离"专页
+- monthly_synthesis.md：六月进行中，文章 #36-59
+
+---
+
+## 步骤 B：选题
+
+**缺口驱动分析**：
+- 图谱高连接节点：hippocampal-circuit（连接到10+个节点）
+- hippocampal-circuit 多次提到"CA3 吸引子动力学"和"模式补全"，但无专页
+- 这是图谱中最明显的"高连接→低解释深度"缺口
+
+**课程脊柱位置**：
+- 延续海马系列（2026-06-17 SWR、2026-06-22 网格/场所细胞），自然深入 CA3 计算机制
+- 与第 12 主题方向（AI 对照）的首次深度桥接（Hopfield→Transformer）
+
+**选定主题**：海马 CA3 模式补全与 DG-CA1 模式分离
+- 核心问题聚焦到"CA3 循环连接如何通过吸引子动力学实现模式补全"
+- 完全符合 ROUTINE 的"不写大脑如何学习，而写 CA3 如何通过循环连接支持模式补全"示例
+
+**层级检查**：
+- 近 3 天：回路/系统/认知（59）→ 认知/系统（58）→ 系统/回路（57）
+- 今日：microcircuit/cellular/cognition ✅（不同层级，通过）
+
+---
+
+## 步骤 C：文献检索
+
+### 检索策略
+
+**数据库**：PubMed E-utilities（NCBI）, PMC Open Access, arXiv
+**关键搜索词**：
+- CA3 pattern completion NMDA receptor
+- hippocampal pattern separation dentate gyrus
+- CA3 CA1 distinct ensemble codes
+- adult neurogenesis pattern separation
+- attractor network hippocampus CA3
+- Hopfield network transformer attention
+
+### 文献采用情况
+
+| 来源 | PMID / 标识 | 全文 | 用途 | 采用/排除原因 |
+|------|------------|------|------|-------------|
+| Nakazawa et al. 2002 Science | 12040087 | PMC开放 | CA3 KO因果证据 | 采用：遗传因果实验，顶刊，因果链最直接 |
+| Leutgeb et al. 2004 Science | 15272123 | PMC开放 | CA3 vs CA1差异 | 采用：体内电生理，莫泽组，被广泛引用 |
+| Leutgeb et al. 2007 Science | 17303747 | 摘要 | DG模式分离 | 采用：是本领域DG功能的关键实验 |
+| Sahay et al. 2011 Nature | 21460835 | PMC开放 | 神经发生因果证据 | 采用：遗传因果，顶刊，是神经发生-认知功能桥梁的里程碑 |
+| Marks et al. 2022 Front Behav Neurosci | 35368306 | PMC开放 | 综述背景 | 采用：2022年开放全文综述，适合背景引用 |
+| Nakazawa et al. 2003 Neuron | 12718863 | 摘要 | 快速编码补充 | 采用：补充2002证据，关于学习侧（不只是检索侧）|
+| Treves & Rolls 1992 Hippocampus | 1308182 | 摘要 | 奠基计算框架 | 采用：奠基性理论，是整个领域的理论基础 |
+| O'Reilly & McClelland 1994 Hippocampus | 7704110 | 摘要 | CLS理论 | 采用：CLS理论原始文献，是深度学习经验回放的神经科学先驱 |
+| Ramsauer et al. 2021 ICLR | arXiv:2008.02217 | arXiv开放 | AI对照 | 采用：数学严格，Hopfield-Transformer等价证明，AI-神经科学桥梁 |
+
+**排除来源**：
+- 无法访问Sci-Hub或非开放的付费全文；对摘要可用的来源标注"摘要"
+- 避免使用没有独立验证的单一预印本作为主要论据
+
+---
+
+## 步骤 D：固结（wiki 页面创建/修订）
+
+**新建页面（4）**：
+1. `wiki/concepts/pattern-completion.md`（模式补全）— established/high；填补长期悬空引用
+2. `wiki/concepts/pattern-separation.md`（模式分离）— established/high；填补长期悬空引用
+3. `wiki/concepts/attractor-network.md`（吸引子网络）— mainstream/medium；理论框架
+4. `wiki/concepts/complementary-learning-systems.md`（互补学习系统）— mainstream/medium；CLS理论
+
+**修订页面（3）**：
+- hippocampal-circuit.md：revision_count 7→9；新增 CA3 模式补全因果证据段落；key_sources +4
+- ltp.md：revision_count 7→8；related +2；修订历史追加
+- place-cells.md：revision_count 1→2；related +2；修订历史追加
+
+**矛盾检查**：
+- 无新矛盾登记；Leutgeb 2004 vs 早期研究的差异属于方法改进而非真实分歧
+
+---
+
+## 步骤 E：图谱与导航更新
+
+- _graph.json：节点 103→107，边 576→600
+- wiki/index.md：头部更新；concepts 区段新增 4 条
+- wiki/CHANGELOG.md：顶部追加 2026-06-24 条目
+
+---
+
+## 步骤 F：治理层更新
+
+- topic_ledger.json：total_articles 59→60；prepend 新条目
+- unresolved_questions.md：追加 Q-pc-01, Q-pc-02, Q-pc-03
+- maturity_index.json：追加 4 个新页面的成熟度记录
+- monthly_synthesis.md：表格追加 #60 条目；wiki 页面统计更新
+
+---
+
+## 步骤 G：提交与推送
+
+- 待 commit 并推送
+
+---
+
+## 步骤 H：自检
+
+**真实性**：
+- [x] 所有 PMID 均经 PubMed E-utilities 查询验证（通过研究代理）
+- [x] 开放全文标注（4 篇 PMC + 1 篇 arXiv）；摘要限制明确标注
+- [x] Nakazawa 2002 实验细节（小鼠、CA3 特异性、部分线索 vs 完整线索）经 PMC 全文确认
+- [x] 区分了已建立机制（CA3 NMDAR 模式补全，LTD）与理论框架（CLS，吸引子容量估算）
+
+**一致性**：
+- [x] hippocampal-circuit.md 中已有的"CA3 BTSP、循环连接、DG 模式分离"信息与新页面不冲突
+- [x] LTP 页面的新增段落（CA3 循环突触 LTP → 模式补全）与该页已有内容一致
+- [x] 图谱新增边均有对应页面
+
+**可导航性**：
+- [x] index.md 和 CHANGELOG.md 已反映今天变化
+- [x] 新页面 related / prerequisites 各 ≥ 1
+
+**情景层完整**：
+- [x] articles/2026-06-24-hippocampal-ca3-pattern-completion.md ✅
+- [x] notes/2026-06-24-reading-notes.md ✅
+- [x] sources/2026-06-24-sources.json ✅
+- [x] logs/2026-06-24-run.log ✅（当前文件）
+- [x] 未修改任何旧文章/笔记/来源文件
+
+---
+
+## 限制与说明
+
+1. Treves & Rolls 1992、O'Reilly & McClelland 1994、Nakazawa 2003 Neuron、Leutgeb 2007 Science 这四篇论文只读了摘要，未获取全文。文章中的引用基于摘要和广泛接受的综述二次引用，相关内容均已在文章中明确标注"摘要"。
+2. CA3 记忆容量的数字（~12,000 个模式）来自 Treves & Rolls 的计算估算（理论），非直接测量，在文章中已注明"预测/估算"。
+3. 人类成人神经发生问题（Q-pc-03）是目前神经科学领域争议最大的问题之一，文章中明确说明不确定性。
+
+---
+
+## Commit 信息
+
+`Add neuro daily article + wiki consolidation for 2026-06-24`
+
+Files changed:
+- neuro-daily/articles/2026-06-24-hippocampal-ca3-pattern-completion.md (new)
+- neuro-daily/notes/2026-06-24-reading-notes.md (new)
+- neuro-daily/sources/2026-06-24-sources.json (new)
+- neuro-daily/logs/2026-06-24-run.log (new)
+- neuro-daily/wiki/concepts/pattern-completion.md (new)
+- neuro-daily/wiki/concepts/pattern-separation.md (new)
+- neuro-daily/wiki/concepts/attractor-network.md (new)
+- neuro-daily/wiki/concepts/complementary-learning-systems.md (new)
+- neuro-daily/wiki/neurons/hippocampal-circuit.md (revised rev9)
+- neuro-daily/wiki/concepts/ltp.md (revised rev8)
+- neuro-daily/wiki/concepts/place-cells.md (revised rev2)
+- neuro-daily/wiki/_graph.json (107 nodes, 600 edges)
+- neuro-daily/wiki/index.md (updated)
+- neuro-daily/wiki/CHANGELOG.md (prepend 2026-06-24)
+- neuro-daily/state/topic_ledger.json (total_articles=60)
+- neuro-daily/state/unresolved_questions.md (Q-pc-01/02/03 added)
+- neuro-daily/state/maturity_index.json (4 new entries)
+- neuro-daily/state/monthly_synthesis.md (#60 added)

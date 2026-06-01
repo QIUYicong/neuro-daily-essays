@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-23",
-  "node_count": 103,
-  "edge_count": 576,
+  "updated": "2026-06-24",
+  "node_count": 107,
+  "edge_count": 600,
   "edge_types": [
     "is-a",
     "part-of",
@@ -940,6 +940,42 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/forward-model.md"
+    },
+    {
+      "id": "pattern-completion",
+      "title": "模式补全",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/pattern-completion.md"
+    },
+    {
+      "id": "pattern-separation",
+      "title": "模式分离",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/pattern-separation.md"
+    },
+    {
+      "id": "attractor-network",
+      "title": "吸引子网络",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/attractor-network.md"
+    },
+    {
+      "id": "complementary-learning-systems",
+      "title": "互补学习系统",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/complementary-learning-systems.md"
     }
   ],
   "edges": [
@@ -4145,6 +4181,106 @@
       "from": "ltd",
       "to": "cerebellar-ltd",
       "type": "related"
+    },
+    {
+      "from": "pattern-completion",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pattern-completion",
+      "to": "attractor-network",
+      "type": "is-a"
+    },
+    {
+      "from": "pattern-completion",
+      "to": "nmda-receptor",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "pattern-completion",
+      "to": "ltp",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "pattern-separation",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pattern-separation",
+      "to": "pattern-completion",
+      "type": "supports"
+    },
+    {
+      "from": "pattern-separation",
+      "to": "engram-cells",
+      "type": "supports"
+    },
+    {
+      "from": "pattern-separation",
+      "to": "place-cells",
+      "type": "related"
+    },
+    {
+      "from": "attractor-network",
+      "to": "pattern-completion",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "attractor-network",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "attractor-network",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "pattern-separation",
+      "type": "supports"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "pattern-completion",
+      "type": "supports"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "pattern-separation",
+      "type": "supports"
+    },
+    {
+      "from": "ltp",
+      "to": "pattern-completion",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "place-cells",
+      "to": "pattern-separation",
+      "type": "related"
+    },
+    {
+      "from": "place-cells",
+      "to": "pattern-completion",
+      "type": "related"
     }
   ],
   "dangling_references": [
@@ -4328,6 +4464,22 @@
         "dorsal-language-stream"
       ],
       "note": "颞平面专页；语音时序分析；左半球不对称性与语言优势；待建页面"
+    },
+    {
+      "slug": "adult-neurogenesis",
+      "referenced_by": [
+        "pattern-separation",
+        "complementary-learning-systems"
+      ],
+      "note": "成人神经发生专页；DG颗粒细胞的持续生成；成人神经发生在认知功能（尤其模式分离）中的作用；Sahay 2011等因果研究；人类成人神经发生争议（Sorrells 2018 vs Boldrini 2018）；待建页面"
+    },
+    {
+      "slug": "dentate-gyrus",
+      "referenced_by": [
+        "pattern-separation",
+        "pattern-completion"
+      ],
+      "note": "齿状回专页；目前功能描述合并在 hippocampal-circuit.md；若DG内容增长可拆分独立页面；扩张重编码、稀疏激活竞争、苔状纤维突触等机制；待建页面"
     }
   ]
 }

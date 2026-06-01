@@ -1,7 +1,86 @@
 {
-  "last_updated": "2026-06-23",
-  "total_articles": 59,
+  "last_updated": "2026-06-24",
+  "total_articles": 60,
   "entries": [
+    {
+      "date": "2026-06-24",
+      "title": "记忆不混淆的秘密：CA3 的吸引子动力学与海马如何在「自动补全」与「精准分离」之间走钢丝",
+      "filename": "2026-06-24-hippocampal-ca3-pattern-completion.md",
+      "wiki_pages_created": [
+        "wiki/concepts/pattern-completion.md",
+        "wiki/concepts/pattern-separation.md",
+        "wiki/concepts/attractor-network.md",
+        "wiki/concepts/complementary-learning-systems.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/hippocampal-circuit.md",
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/place-cells.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "CA3 的循环连接如何通过 Hopfield 吸引子动力学实现模式补全（部分线索→完整记忆），DG 的扩张稀疏编码如何实现模式分离（相似输入→不相似表征），CA1 的比较器功能如何整合两路信号？互补学习系统（CLS）如何解释海马与皮层的记忆分工？",
+      "layer": [
+        "microcircuit",
+        "cellular",
+        "cognition"
+      ],
+      "curriculum_track": "4. 学习和记忆（海马 CA3 机制深挖）；自然延续 2026-06-17（SWR 重放）、2026-06-22（网格/场所细胞）的海马系列；与第 12 主题（AI 对照：Hopfield→Transformer）的首次深度连接",
+      "topic_tags": [
+        "hippocampus",
+        "CA3",
+        "CA1",
+        "dentate gyrus",
+        "pattern completion",
+        "pattern separation",
+        "attractor network",
+        "Hopfield network",
+        "NMDA receptor",
+        "adult neurogenesis",
+        "complementary learning systems",
+        "CLS",
+        "recurrent collaterals",
+        "mossy fibers",
+        "Nakazawa 2002",
+        "Leutgeb 2004",
+        "Leutgeb 2007",
+        "Sahay 2011",
+        "Treves & Rolls 1992",
+        "O'Reilly & McClelland 1994",
+        "rate remapping",
+        "global remapping",
+        "DQN experience replay",
+        "catastrophic forgetting",
+        "Ramsauer 2021",
+        "Transformer attention",
+        "modern Hopfield network"
+      ],
+      "main_sources": [
+        "PMID:12040087 (PMCID:PMC3084370, open access)",
+        "PMID:15272123 (PMCID:PMC2877140, open access)",
+        "PMID:21460835 (open access)",
+        "PMID:35368306 (PMCID:PMC8965349, open access)",
+        "PMID:17303747 (abstract only)",
+        "PMID:12718863 (abstract only)",
+        "PMID:1308182 (abstract only)",
+        "PMID:7704110 (abstract only)",
+        "arXiv:2008.02217 (open access)"
+      ],
+      "unresolved_questions": [
+        "Q-pc-01: CA3 的实际记忆容量与 Treves & Rolls 预测的 12,000 个模式是否一致？",
+        "Q-pc-02: CA1 的 CA3 vs EC 比较器功能是否有充分的直接因果实验支持？",
+        "Q-pc-03: 人类成人神经发生对模式分离的贡献有多大？（Sorrells 2018 vs Boldrini 2018 争议）"
+      ],
+      "next_suggested_topics": [
+        "前额叶工作记忆：连续吸引子动力学如何维持工作记忆中的信息——延续吸引子网络主题，从海马到PFC",
+        "成人海马神经发生深挖：DG颗粒细胞的持续增殖，以及抑郁/压力/运动对神经发生的调节机制",
+        "纹状体学习与多巴胺：直接/间接通路在习惯形成中的角色——延续认知课程，从海马记忆转向皮层-纹状体习惯",
+        "后顶叶皮层（PPC）感知-运动整合：视觉→PMC→M1的运动规划路径（延续运动主题，填补PPC缺口）",
+        "大脑与AI对照首篇：反向传播 vs 局部三因素规则——本文已提到Hopfield-Transformer连接，可继续深化AI桥梁"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 60,
+      "dangling_reference_filled": "hippocampal-circuit.md 中长期提到'类似 Hopfield 网络的吸引子动力学'和'模式补全/分离'但无专页；今天建立了这些概念的独立 wiki 页面，填补关键悬空引用"
+    },
     {
       "date": "2026-06-23",
       "title": "小脑的秘密：浦肯野细胞如何让大脑成为一台预测机器",
