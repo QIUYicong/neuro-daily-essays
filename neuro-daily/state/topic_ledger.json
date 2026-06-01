@@ -1,7 +1,79 @@
 {
-  "last_updated": "2026-06-20",
-  "total_articles": 56,
+  "last_updated": "2026-06-21",
+  "total_articles": 57,
   "entries": [
+    {
+      "date": "2026-06-21",
+      "title": "从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉",
+      "filename": "2026-06-21-motor-cortex-voluntary-movement.md",
+      "wiki_pages_created": [
+        "wiki/systems/motor-cortex.md",
+        "wiki/concepts/population-vector-coding.md",
+        "wiki/concepts/rotational-dynamics-motor.md",
+        "wiki/concepts/output-null-space.md",
+        "wiki/circuits/mirror-neurons.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/language-network.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "运动皮层神经元究竟在编码什么——是运动参数（群体向量）、旋转的动力学轨迹，还是对肌肉没有直接影响的零空间初始条件？从Georgopoulos 1986的群体向量到Churchland 2012的旋转动力学，这一转变揭示了运动皮层作为动力学引擎而非参数地图的本质。",
+      "layer": [
+        "脑区",
+        "细胞",
+        "行为",
+        "微回路"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（运动系统缺口填补）→ 延伸 7. 语言（镜像神经元/BA44连接）",
+      "topic_tags": [
+        "motor cortex",
+        "M1 primary motor cortex",
+        "premotor cortex",
+        "SMA supplementary motor area",
+        "population vector coding",
+        "rotational dynamics",
+        "output null space",
+        "Churchland 2012",
+        "Georgopoulos 1986",
+        "Kaufman 2014",
+        "neural manifold",
+        "corticospinal tract",
+        "Betz cells",
+        "motor homunculus",
+        "efference copy",
+        "forward model",
+        "mirror neurons",
+        "F5 area",
+        "BA44",
+        "BCI handwriting",
+        "Willett 2021"
+      ],
+      "main_sources": [
+        "PMID:3749885 (abstract only)",
+        "PMID:2911737 (abstract only)",
+        "PMID:22722855 (PMC3393826)",
+        "PMID:24487233 (PMC3955357)",
+        "PMID:33981047 (PMC8163299)",
+        "PMID:8800951 (abstract only)",
+        "PMID:32640928 (PMC7402639)"
+      ],
+      "unresolved_questions": [
+        "Q-mc-01: 群体向量编码与旋转动力学的关系（互补还是竞争性解释？）",
+        "Q-mc-02: SMA与M1在随意运动发起中的精确分工（Libet实验的当代神经科学解释）",
+        "Q-mc-03: 运动学习中旋转动力学如何变化（练习如何重塑群体轨迹）",
+        "Q-mc-04: 人类BA44的镜像神经元功能（体内直接记录证据极为有限）"
+      ],
+      "next_suggested_topics": [
+        "小脑与运动误差纠正：浦肯野细胞LTD如何实现传出拷贝-感觉反馈的预测误差学习（填补前向模型细节，与motor-cortex自然衔接）",
+        "视觉诱导动作：后顶叶皮层（PPC）→PMC→M1的感知-运动转化（延续运动主题，填补运动规划缺口）",
+        "语音产出的神经机制：运动皮层面部区→SMA→Broca区在发音中的协作（语言路线自然延续）",
+        "发育神经科学首篇：皮质脊髓束的发育与髓鞘化（与motor-cortex的解剖基础衔接）",
+        "神经退行性疾病：运动神经元疾病（ALS）——上运动神经元（皮质）与下运动神经元（脊髓）的损害模式"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 57,
+      "dangling_reference_filled": "motor-cortex（填补了 language-network 腹侧流中'具身语义/感觉运动皮层'的悬空背景引用；ventral-language-stream 中工具词/动作词激活运动皮层的机制背景）"
+    },
     {
       "date": "2026-05-24",
       "title": "决策的解剖学：神经元如何在混沌的输入中找到它唯一的声音",

@@ -6,10 +6,10 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-06-20
-revision_count: 1
+updated: 2026-06-21
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
 opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
 source_articles: [2026-06-20-language-dual-stream]
@@ -69,6 +69,8 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 - [[predictive-coding]] — 语言理解是词级预测-误差更新循环的实例化
 - [[default-mode-network]] — 角回（BA39）是DMN节点，语义整合与情景记忆共享
 - [[prefrontal-cortex]] — PFC（BA45/BA44）在语言网络中的句法/语义角色
+- [[mirror-neurons]] — 猴F5与人类BA44同源，语言演化的动作理解假说
+- [[motor-cortex]] — 运动前区PMC与BA44的解剖关联；具身语义中感觉运动皮层的激活
 
 ## 未解问题
 
@@ -79,7 +81,9 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 ## 修订历史
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
+- 2026-06-21 · 修订 · 新增镜像神经元（F5/BA44同源）与运动皮层的连接，补充语言演化的动作理解背景 · 依据《从意图到动作》（#57）
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
+- [[2026-06-21-motor-cortex-voluntary-movement]]

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-21",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -4220,6 +4220,159 @@
         "amygdala",
         "PTSD",
         "review"
+      ]
+    },
+    {
+      "pmid": "3749885",
+      "pmcid": null,
+      "title": "Neuronal population coding of movement direction",
+      "authors_short": "Georgopoulos et al.",
+      "journal": "Science",
+      "year": 1986,
+      "open_access": false,
+      "access_level": "abstract_only",
+      "first_used": "2026-06-21",
+      "used_in_articles": [
+        "2026-06-21-motor-cortex-voluntary-movement.md"
+      ],
+      "topics": [
+        "motor cortex",
+        "population vector coding",
+        "movement direction",
+        "M1",
+        "cosine tuning"
+      ]
+    },
+    {
+      "pmid": "2911737",
+      "pmcid": null,
+      "title": "Mental rotation of the neuronal population vector",
+      "authors_short": "Georgopoulos et al.",
+      "journal": "Science",
+      "year": 1989,
+      "open_access": false,
+      "access_level": "abstract_only",
+      "first_used": "2026-06-21",
+      "used_in_articles": [
+        "2026-06-21-motor-cortex-voluntary-movement.md"
+      ],
+      "topics": [
+        "motor cortex",
+        "population vector coding",
+        "mental rotation",
+        "M1",
+        "neural correlates"
+      ]
+    },
+    {
+      "pmid": "8800951",
+      "pmcid": null,
+      "title": "Action recognition in the premotor cortex",
+      "authors_short": "Gallese et al.",
+      "journal": "Brain",
+      "year": 1996,
+      "open_access": false,
+      "access_level": "abstract_only",
+      "first_used": "2026-06-21",
+      "used_in_articles": [
+        "2026-06-21-motor-cortex-voluntary-movement.md"
+      ],
+      "topics": [
+        "mirror neurons",
+        "premotor cortex",
+        "F5",
+        "action recognition",
+        "monkey"
+      ]
+    },
+    {
+      "pmid": "22726834",
+      "pmcid": "PMC3393826",
+      "title": "Neural population dynamics during reaching",
+      "authors_short": "Churchland et al.",
+      "journal": "Nature",
+      "year": 2012,
+      "open_access": true,
+      "access_level": "full_text",
+      "first_used": "2026-06-21",
+      "used_in_articles": [
+        "2026-06-21-motor-cortex-voluntary-movement.md"
+      ],
+      "topics": [
+        "rotational dynamics",
+        "motor cortex",
+        "M1",
+        "PMd",
+        "population dynamics",
+        "reaching",
+        "dynamical systems"
+      ]
+    },
+    {
+      "pmid": "24487232",
+      "pmcid": "PMC3955357",
+      "title": "Cortical preparatory activity: representation of movement or first cog in a dynamical machine?",
+      "authors_short": "Kaufman et al.",
+      "journal": "Neuron",
+      "year": 2014,
+      "open_access": true,
+      "access_level": "full_text",
+      "first_used": "2026-06-21",
+      "used_in_articles": [
+        "2026-06-21-motor-cortex-voluntary-movement.md"
+      ],
+      "topics": [
+        "output-null space",
+        "motor cortex",
+        "preparatory activity",
+        "M1",
+        "PMd",
+        "dynamical systems",
+        "movement preparation"
+      ]
+    },
+    {
+      "pmid": "34079397",
+      "pmcid": "PMC8163299",
+      "title": "High-performance brain-to-text communication via handwriting",
+      "authors_short": "Willett et al.",
+      "journal": "Nature",
+      "year": 2021,
+      "open_access": true,
+      "access_level": "full_text",
+      "first_used": "2026-06-21",
+      "used_in_articles": [
+        "2026-06-21-motor-cortex-voluntary-movement.md"
+      ],
+      "topics": [
+        "BCI",
+        "handwriting",
+        "motor cortex",
+        "neural decoding",
+        "paralysis",
+        "communication"
+      ]
+    },
+    {
+      "pmid": "32921842",
+      "pmcid": "PMC7402639",
+      "title": "Computation through neural population dynamics",
+      "authors_short": "Vyas et al.",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2020,
+      "open_access": true,
+      "access_level": "full_text",
+      "first_used": "2026-06-21",
+      "used_in_articles": [
+        "2026-06-21-motor-cortex-voluntary-movement.md"
+      ],
+      "topics": [
+        "neural manifold",
+        "population dynamics",
+        "motor cortex",
+        "dynamical systems",
+        "review",
+        "dimensionality reduction"
       ]
     }
   ],

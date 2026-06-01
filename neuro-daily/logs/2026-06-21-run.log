@@ -1,0 +1,91 @@
+# Run Log — 2026-06-21
+
+## 基本信息
+- **文章编号**：#57
+- **日期**：2026-06-21
+- **主题**：运动皮层与随意运动（Motor Cortex & Voluntary Movement）
+- **层级**：系统/回路
+- **核心问题**：M1 神经元究竟编码什么——运动参数、群体向量，还是旋转动力学轨迹？
+
+---
+
+## 文献检索
+
+### 搜索策略
+1. PubMed E-utilities API 验证 PMID 真实性
+2. PMC Open Access 获取全文（4/7 篇）
+3. 关键词：motor cortex population coding, rotational dynamics M1, output null space preparation, mirror neurons F5, BCI handwriting
+
+### 检索到的来源
+
+| ID | PMID | 作者 | 标题 | 访问级别 |
+|----|------|------|------|---------|
+| S01 | 3749885 | Georgopoulos et al. 1986 | Neuronal population coding of movement direction | 摘要 |
+| S02 | 2911737 | Georgopoulos et al. 1989 | Mental rotation of the neuronal population vector | 摘要 |
+| S03 | 8800951 | Gallese et al. 1996 | Action recognition in the premotor cortex | 摘要 |
+| S04 | 22726834 | Churchland et al. 2012 | Neural population dynamics during reaching | 全文(PMC3393826) |
+| S05 | 24487232 | Kaufman et al. 2014 | Cortical preparatory activity: representation of movement or first cog | 全文(PMC3955357) |
+| S06 | 34079397 | Willett et al. 2021 | High-performance brain-to-text communication via handwriting | 全文(PMC8163299) |
+| S07 | 32921842 | Vyas et al. 2020 | Computation through neural population dynamics (review) | 全文(PMC7402639) |
+
+---
+
+## Wiki 整合
+
+### 新建页面（5页）
+
+| 文件 | 域 | 状态 | 置信度 |
+|------|----|------|--------|
+| wiki/systems/motor-cortex.md | systems | established | high |
+| wiki/concepts/population-vector-coding.md | concepts | established | high |
+| wiki/concepts/rotational-dynamics-motor.md | concepts | mainstream | high |
+| wiki/concepts/output-null-space.md | concepts | mainstream | high |
+| wiki/circuits/mirror-neurons.md | circuits | mainstream | medium |
+
+### 修订页面（1页）
+
+| 文件 | 修订次数 | 改动内容 |
+|------|---------|---------|
+| wiki/systems/language-network.md | 2 | 增加 mirror-neurons、motor-cortex 连接 |
+
+### 图谱变更
+
+- 节点：83 → 88（+5）
+- 边：493 → 505（+12）
+- 新增悬挂引用：corticospinal-tract（待建）
+
+---
+
+## 状态文件更新
+
+| 文件 | 改动 |
+|------|------|
+| state/topic_ledger.json | 新增 #57 条目，total_articles 57，last_updated 2026-06-21 |
+| state/unresolved_questions.md | 新增 Q-mc-01~04（4条）|
+| state/maturity_index.json | 新增 5 条成熟度条目 |
+| state/source_registry.json | 新增 7 条来源 |
+| state/monthly_synthesis.md | 新增六月进行中节 |
+| wiki/_graph.json | 节点88/边505 |
+| wiki/CHANGELOG.md | 新增 2026-06-21 条目 |
+| wiki/index.md | 新增 motor 系统区块（5条）|
+
+---
+
+## 文章质量检查
+
+- [x] 字数：~4200 中文字符（≥3000 要求）
+- [x] 所有核心声明均有真实文献支撑
+- [x] 无 fabricated PMIDs / DOIs
+- [x] 无医学诊断/治疗建议
+- [x] 争议已在文章内明确标注（Q-mc-01~04）
+- [x] 无 Sci-Hub / 付费绕过
+- [x] 概念卡片区覆盖核心术语
+- [x] 参考文献格式规范
+
+---
+
+## 运行备注
+
+- 系统日期为 2026-06-01，但仓库文章已至 #56（2026-06-20），因此本次写 #57（2026-06-21）
+- 上一篇文章（#56）明确列出"运动皮层"为下一建议主题，选题顺序自然衔接
+- Churchland 2012 & Kaufman 2014 全文均可通过 PMC OA 获取，数据质量高

@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-21（第 57 篇·运动皮层·课程路线3 运动系统缺口填补）
+
+**源文章**：[[2026-06-21-motor-cortex-voluntary-movement]] —《从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉》
+
+**新建页面（5）**：
+- `systems/motor-cortex.md`（运动皮层）🟢 established / 置信度高 — M1/PMC/SMA分层组织；Betz细胞；均质小人；群体向量编码、旋转动力学、输出零空间三框架综合
+- `concepts/population-vector-coding.md`（群体向量编码）🟢 established / 置信度高 — Georgopoulos 1986 Science；单神经元宽泛调谐→群体向量精确预测方向；心理旋转732°/s
+- `concepts/rotational-dynamics-motor.md`（旋转动力学）🟡 mainstream / 置信度高 — Churchland 2012 Nature；执行期2–2.8 Hz旋转；动力学引擎而非参数地图；RNN可复现
+- `concepts/output-null-space.md`（输出零空间）🟡 mainstream / 置信度高 — Kaufman 2014 NatNeuro；准备期活动集中于零空间（调谐比4.5×）；几何机制解释准备不触发运动
+- `circuits/mirror-neurons.md`（镜像神经元）🟡 mainstream / 置信度中等 — Gallese/Rizzolatti 1996 Brain；F5区17%双重激活（执行+观察）；F5/BA44同源；语言演化假说
+
+**修订页面（1）**：
+- `systems/language-network.md`（修订#2）— 新增镜像神经元（F5/BA44同源）与运动皮层的连接；related 新增 mirror-neurons, motor-cortex；语言演化的动作理解背景
+
+**矛盾登记**：无新矛盾
+
+**悬空引用**：新增 `corticospinal-tract`（皮质脊髓束，motor-cortex 和 dorsal-language-stream 均引用）
+
+**图谱更新**：新增节点5（motor-cortex, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons）；修订节点1（language-network）；新增有向边12条（总计：88节点/505边）
+
+---
+
 ## 2026-06-20（第 56 篇·双流语言网络·课程路线7 语言与抽象思维 首篇）
 
 **源文章**：[[2026-06-20-language-dual-stream]] —《语言的解剖：双流网络如何将声波解码为思想》

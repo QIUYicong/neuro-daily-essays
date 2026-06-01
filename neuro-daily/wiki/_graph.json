@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-20",
-  "node_count": 83,
-  "edge_count": 493,
+  "updated": "2026-06-21",
+  "node_count": 88,
+  "edge_count": 505,
   "edge_types": [
     "is-a",
     "part-of",
@@ -814,6 +814,51 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/circuits/ventral-language-stream.md"
+    },
+    {
+      "id": "motor-cortex",
+      "title": "运动皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/motor-cortex.md"
+    },
+    {
+      "id": "population-vector-coding",
+      "title": "群体向量编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/population-vector-coding.md"
+    },
+    {
+      "id": "rotational-dynamics-motor",
+      "title": "旋转动力学（运动皮层）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/rotational-dynamics-motor.md"
+    },
+    {
+      "id": "output-null-space",
+      "title": "输出零空间",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/output-null-space.md"
+    },
+    {
+      "id": "mirror-neurons",
+      "title": "镜像神经元",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/circuits/mirror-neurons.md"
     }
   ],
   "edges": [
@@ -3763,6 +3808,72 @@
       "from": "default-mode-network",
       "to": "ventral-language-stream",
       "type": "related"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "population-vector-coding",
+      "type": "mechanism-of",
+      "note": "M1神经元群体的方向编码机制"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "rotational-dynamics-motor",
+      "type": "mechanism-of",
+      "note": "M1执行期群体活动的旋转动力学"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "output-null-space",
+      "type": "mechanism-of",
+      "note": "M1准备期活动集中于输出零空间"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "motor-cortex",
+      "type": "regulates",
+      "note": "基底节通过丘脑对M1运动执行的门控调节"
+    },
+    {
+      "from": "mirror-neurons",
+      "to": "motor-cortex",
+      "type": "part-of",
+      "note": "镜像神经元位于运动前区（F5/BA44前驱区域）"
+    },
+    {
+      "from": "mirror-neurons",
+      "to": "broca-area",
+      "type": "related",
+      "note": "猴F5与人类BA44同源，镜像神经元语言演化假说"
+    },
+    {
+      "from": "mirror-neurons",
+      "to": "language-network",
+      "type": "supports",
+      "note": "F5/BA44同源性为语言从动作理解回路演化的假说提供支持"
+    },
+    {
+      "from": "output-null-space",
+      "to": "rotational-dynamics-motor",
+      "type": "prerequisite-for",
+      "note": "零空间中的初始条件设置是旋转动力学正确展开的前提"
+    },
+    {
+      "from": "population-vector-coding",
+      "to": "rotational-dynamics-motor",
+      "type": "related",
+      "note": "方向编码（群体向量）与时序编码（旋转动力学）是互补分析视角"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "language-network",
+      "type": "related",
+      "note": "运动前区（PMC）与语言网络通过BA44/镜像神经元相互关联；具身语义"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "embodied-semantics",
+      "type": "related",
+      "note": "感觉运动皮层在具身语义处理中被词义激活（工具词/动作词）"
     }
   ],
   "dangling_references": [

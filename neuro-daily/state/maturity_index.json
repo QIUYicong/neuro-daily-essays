@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-21",
   "levels": [
     "speculative",
     "emerging",
@@ -614,6 +614,46 @@
       "confidence": "medium",
       "last_changed": "2026-05-31",
       "reason": "Created 2026-05-31. Core concept (REM selectively weakens emotional tone while preserving information content) supported by convergent behavioral and neuroimaging evidence (Walker 2009, van der Helm 2011). Proposed LTD-like mechanism (theta trough-driven synaptic weakening at LA) is theoretically coherent (Poe 2017) but lacks direct synaptic evidence in LA-VH circuit. PTSD as depotentiation failure: plausible but mechanistically unproven. Status: emerging (well-supported phenomenology, incomplete mechanistic chain). Anticipate upgrade to mainstream when LA-specific theta-phase LTD is demonstrated."
+    },
+    {
+      "slug": "motor-cortex",
+      "page": "wiki/systems/motor-cortex.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-21",
+      "reason": "Created 2026-06-21. M1/PMC/SMA anatomy and somatotopic organization: established (penfield homunculus, decades of lesion/stimulation data). Corticospinal tract as primary motor output: established. Population vector coding (Georgopoulos 1986 Science): established, widely replicated across species and labs. Rotational dynamics (Churchland 2012 Nature): mainstream, replicated with RNNs and multiple datasets. Output-null-space mechanism (Kaufman 2014 Nat Neurosci): mainstream, strong experimental validation. Mirror neurons in F5 (Gallese/Rizzolatti 1996): established in macaque, human evidence more limited. Dynamical engine vs. parameter-map debate: active research. Overall status: established (core motor functions); individual mechanisms at mainstream level."
+    },
+    {
+      "slug": "population-vector-coding",
+      "page": "wiki/concepts/population-vector-coding.md",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-21",
+      "reason": "Created 2026-06-21. Cosine tuning of individual M1 neurons: established (Georgopoulos 1982, 1984, widely replicated). Population vector sum predicting movement direction: established (Georgopoulos 1986 Science, multiple replication labs). Mental rotation analog in neural activity at ~732°/s: established (Georgopoulos 1989 Science). Limitations: coding scheme may be incomplete (doesn't fully explain complex trajectories); rotational dynamics framework challenges strict PV interpretation. Status: established as foundational framework, ongoing refinement."
+    },
+    {
+      "slug": "rotational-dynamics-motor",
+      "page": "wiki/concepts/rotational-dynamics-motor.md",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-06-21",
+      "reason": "Created 2026-06-21. Rotational structure in M1 population activity during movement (Churchland 2012 Nature, n=218 neurons): well-validated, 2-2.8 Hz frequency, 28% variance explained. Key prediction confirmed: frequency invariant across movement speeds. RNN spontaneous replication (Sussillo 2015) provides strong theoretical grounding. Multiple follow-up papers validate. Primary challenger: rotations may be epiphenomenal rather than causal. Status: mainstream (strong empirical base, active debate on causal role). Would upgrade to established if causal intervention (frequency-specific perturbation) confirmed behavioral relevance."
+    },
+    {
+      "slug": "output-null-space",
+      "page": "wiki/concepts/output-null-space.md",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-06-21",
+      "reason": "Created 2026-06-21. Linear model M≈WN (output = weighted sum of neural activity): well-validated in motor cortex. Mathematical null space = ker(W): rigorous. Empirical finding that preparatory activity avoids output-potent space (Kaufman 2014 Nat Neurosci): strong experimental design with direct test. Tuning ratio ~4.5× (PMd > M1 during prep): quantitative, replicable. 96% cancellation via coordinated population activity: compelling. Broader applicability to other cortical areas: emerging. Status: mainstream (strong original paper + theoretical coherence; awaits multi-lab replication and test in non-motor contexts)."
+    },
+    {
+      "slug": "mirror-neurons",
+      "page": "wiki/circuits/mirror-neurons.md",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-06-21",
+      "reason": "Created 2026-06-21. Mirror neurons in macaque F5 (Gallese 1996, Rizzolatti 1996): established in monkey, direct single-unit recording of ~17% F5 neurons responding to both execution and observation. Goal-directed specificity: established. Human mirror neuron system: evidence from TMS, fMRI, mu-suppression EEG - all indirect (no single-unit human data). F5/BA44 homology and language evolution hypothesis: plausible but speculative. Controversy about whether human 'mirror system' truly reflects same mechanism as macaque mirror neurons. Status: mainstream with medium confidence due to strong monkey data but indirect human evidence; language evolution hypothesis remains speculative (emerging level)."
     }
   ]
 }
