@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-20（第56篇·双流语言网络·课程路线7语言首篇）· 主题页总数：89（新建5页：language-network, broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream；修订3页：working-memory rev5, predictive-coding rev5, default-mode-network rev4）
+> 最后更新：2026-06-22（第58篇·网格细胞与场所细胞·填补place-cells/grid-cells等6个长期悬空引用）· 主题页总数：100（新建6页：place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex；修订2页：theta-oscillations rev3, sharp-wave-ripples rev5）
 
 ---
 
@@ -45,8 +45,13 @@
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
-- 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-05-31]**
-- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重奏）**[修订 2026-06-19]**
+- 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-06-22]**
+- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重奏）**[修订 2026-06-22]**
+- 🟢 [场所细胞](concepts/place-cells.md) — 海马CA1/CA3位置特异放电神经元；稀疏编码（1–5%激活）；重映射（不同环境正交表征）；θ相位前移实现双重位置编码；SWR期间序列以20倍速重播；是认知地图基本编码单元 **[NEW 2026-06-22]**（填补长期悬空引用）
+- 🟢 [网格细胞](concepts/grid-cells.md) — 内侧内嗅皮层MEC以六边形格点激活的神经元；三参数（间距/方向/相位）完全描述；4–7离散模块比√2；背腹向间距梯度（20cm–1.5m）；路径整合的坐标输出；活跃于心理模拟和概念空间（Qu 2026 Cell：发育成熟预测流体智力）**[NEW 2026-06-22]**（填补长期悬空引用）
+- 🟢 [路径整合](concepts/path-integration.md) — 通过持续积累速度矢量估计当前位置；不依赖外部地标；联合细胞（位置+方向+速度）实现；随时间漂移需地标锚定；是黑暗导航的神经机制 **[NEW 2026-06-22]**
+- 🟢 [θ相位前移](concepts/theta-phase-precession.md) — 场所细胞放电相位随穿越场所场系统性提前约100–355°；产生θ序列（125ms内压缩数秒路径）；为STDP提供时间压缩框架；O'Keefe & Recce 1993经典发现；CAN vs OI两机制模型仍未决 **[NEW 2026-06-22]**（填补theta-oscillations页面的phase-precession悬空引用）
+- 🔵 [认知地图](concepts/cognitive-map.md) — 海马-EC构建的空间（及概念）关系内部模型；从Tolman 1948捷径行为到场所/网格双系统；扩展至时间序列（情节记忆）、心理模拟（Bellmund 2016）、概念空间（Viganò 2023）；发育研究证据（Qu 2026）**[NEW 2026-06-22]**
 - 🟢 [睡眠纺锤波](concepts/sleep-spindles.md) — TRN CaV3.3→TRN↔TC振荡→12–15 Hz梭形波；皮层树突L型Ca²⁺预热窗口；SO-spindle-SWR三重奏中间层；CACNA1I变异→精神分裂症纺锤波缺陷；三重耦合因果实验（Latchoumane 2017）**[NEW 2026-06-19]**
 - 🟢 [皮层慢振荡（SO）](concepts/cortical-slow-oscillation.md) — NREM 深睡眠~0.75 Hz UP/DOWN态交替；起源PFC向后传播；SO上行相是纺锤波和SWR的最高时间框架；三重奏顶层 **[NEW 2026-06-19]**
 - 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现
@@ -105,6 +110,7 @@
 
 ## systems（系统）
 
+- 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路 **[NEW 2026-05-30]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
@@ -139,8 +145,8 @@
 |---------|------|
 | 1. 神经元如何工作 | 🔵 进行中（已覆盖：AIS, 动作电位, 突触传递, NMDA/AMPA 受体, CaMKII, 树突计算, 锥体神经元, 电压门控钙通道, PV+/SST+/VIP+ 中间神经元, 去抑制回路, **LTD（长时程抑制）**, **短时程突触可塑性（STP）**, **神经调质 ACh/NE（2026-06-12）**, **血清素系统/5-HT1A自受体（2026-06-13）**；待覆盖：多巴胺系统深度） |
 | 2. 神经网络微回路设计 | 🔵 进行中（已覆盖：PV+/SST+/VIP+ 中间神经元, 去抑制回路；待覆盖：皮层柱结构, 前馈/反馈抑制, 神经调质调节） |
-| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：场所细胞, 网格细胞, θ振荡/相位编码, **V1方向选择性（2026-06-11）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
-| 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**；待覆盖：记忆提取机制）|
+| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞（2026-06-22 wiki建立）**, **网格细胞（2026-06-22 wiki建立）**, θ振荡/相位编码, **V1方向选择性（2026-06-11）**, **路径整合（2026-06-22）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
+| 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**, **认知地图（2026-06-22）**；待覆盖：记忆提取机制、网格-场所转化精确机制）|
 | 5. 认知控制 | 🔵 进行中（已覆盖：**工作记忆**、**奖励学习/三因素规则（2026-06-07）**、**注意/增益控制（ACh/NE，2026-06-12）**；待覆盖：执行控制、决策）|
 | 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线、**杏仁核恐惧记忆回路（2026-05-30）**、**恐惧条件反射/消退机制**；待覆盖：动机回路深度、恐惧情景结合（海马-杏仁核）、PTSD深度、下丘脑情绪调控）|
 | 11. 疾病作为窗口 | 🔵 进行中（已覆盖：阿尔茨海默病（AD突触机制）、**帕金森病（基底节回路失衡/β振荡/DBS机制，2026-06-14）**；待覆盖：ASD、精神分裂症、癫痫）|
@@ -188,8 +194,12 @@
 - ~~`vip-interneurons`（VIP+ 中间神经元）~~ ✅ **2026-06-03 已建立**
 - ~~`disinhibitory-circuit`（去抑制回路）~~ ✅ **2026-06-03 已建立**
 - `memory-consolidation`（记忆巩固）— 被多个页面引用；SWR 已有详细覆盖（sharp-wave-ripples），但**系统巩固专页**尚缺（皮层侧机制、睡眠阶段分工、标准巩固 vs 多重痕迹理论），**最高优先级（第二周首要主题）**
-- `path-integration`（路径整合）— 被 [[网格细胞]] 引用，网格细胞无地标时维持空间表征的内源机制
-- `memory-consolidation`（记忆巩固）— 被 [[海马回路]]、[[场所细胞]] 引用，SWR重放→皮层巩固
+- ~~`path-integration`（路径整合）~~ ✅ **2026-06-22 已建立**
+- ~~`place-cells`（场所细胞）~~ ✅ **2026-06-22 已建立**（旧悬空slug：place-cell，已修正）
+- ~~`grid-cells`（网格细胞）~~ ✅ **2026-06-22 已建立**（旧悬空slug：grid-cell，已修正）
+- ~~`theta-phase-precession`（θ相位前移）~~ ✅ **2026-06-22 已建立**（旧悬空slug：phase-precession，已修正）
+- ~~`entorhinal-cortex`（内嗅皮层）~~ ✅ **2026-06-22 已建立**
+- ~~`cognitive-map`（认知地图）~~ ✅ **2026-06-22 已建立**
 - ~~`synaptic-clustering`（突触聚类假说）~~ ✅ **2026-06-11 已建立**（Wilson 2016体内证据；V1雪貂，聚类程度与OSI正相关；普遍性待验证）
 - `apical-tuft`（顶端簇）— 被 [[树突计算]]、[[锥体神经元]] 引用，Ca²⁺ 棘波的主要发生地
 - ~~`three-factor-learning-rule`（三因素学习规则）~~ ✅ **2026-06-07 已建立**（同时建立 dopamine-reward-prediction-error 和 synaptic-tagging-capture，填补 hebbian-learning 悬空引用）

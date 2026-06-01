@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-06-19
-revision_count: 4
+updated: 2026-06-22
+revision_count: 5
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
-related: [hippocampal-circuit, place-cell, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation]
-prerequisites: [hippocampal-circuit, synaptic-transmission, place-cell]
+related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation]
+prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells]
 key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977"]
 ---
 
@@ -131,6 +131,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-05-29 · 创建 · 基于《θ振荡与相位编码》文章 · 填补了 memory-consolidation 悬空引用 · 初始置信度：高
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；补充 SO-spindle-SWR 三重奏嵌套机制与因果破坏证据 · 关键来源增加 PMID:26238360、PMID:23589831
 - 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 新增4个关键新发现（Robinson 2026大型SWR因果证据、Yang 2024清醒SWR标记、Giri 2024睡眠剥夺分离、Chang 2025睡眠微结构）、Ecker 2022 CA3模型；扩充证据表（+6行）；新增"新发现"小节；新增3个未解问题；related新增norepinephrine-locus-coeruleus和dopamine-reward-prediction-error
+- 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · related新增sleep-spindles和cortical-slow-oscillation（SWR作为SO-spindle-SWR三重奏的第三层）；key_sources扩充3个（Latchoumane 2017三重耦合因果、Staresina 2024综述、Jiang 2019人类颅内验证）；source_articles新增2026-06-19
 
 ## 来源文章

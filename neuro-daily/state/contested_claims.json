@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-05-31",
+  "last_updated": "2026-06-22",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -58,6 +58,16 @@
       "opened": "2026-05-31",
       "priority": "high",
       "evidence_update": "2026-05-31 (#35): COGITATE 全文读取补充数字——0/655 前额叶 iEEG 电极显示 offset ignition；BF₀₁=1.94×10⁴（面孔-物体类别）、1,205（方向）均强支持零假设。GNWT 阵营主张 offset ignition 从未是核心预测，实验只用阈上刺激未能检验最核心的有意识/无意识分叉。裁决仍 open，但证据进一步强化 claim_B。"
+    },
+    {
+      "id": "C-2026-06-22-01",
+      "page": "wiki/concepts/grid-cells.md",
+      "claim_A": "人类内嗅皮层在导航任务中出现六边形（60°）对称的网格样fMRI信号（Bellmund 2016 eLife, Nau 2018 NatNeurosci等多项研究，PMID:27572056, PMID:29311746）",
+      "claim_B": "预注册被动导航fMRI研究未能检测到内嗅皮层网格样信号（Kransberg等 2026, PMID:41958631）",
+      "nature": "方法论差异：主动自主导航（前庭/本体感觉参与路径整合）vs 被动观看虚拟移动（无主动运动感知）；被动范式可能不足以激活路径整合机制",
+      "status": "open",
+      "opened": "2026-06-22",
+      "source_article": "2026-06-22-grid-cells-place-cells"
     }
   ]
 }

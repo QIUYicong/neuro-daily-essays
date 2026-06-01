@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-21",
-  "total_articles": 57,
+  "last_updated": "2026-06-22",
+  "total_articles": 58,
   "entries": [
     {
       "date": "2026-06-21",
@@ -2734,6 +2734,89 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 56
+    },
+    {
+      "date": "2026-06-22",
+      "article_number": 58,
+      "title": "六边形的秘密：内嗅皮层网格细胞如何为大脑装备空间坐标系",
+      "slug": "2026-06-22-grid-cells-place-cells",
+      "core_question": "内嗅皮层网格细胞以六边形坐标格点编码空间，海马场所细胞以单一活跃区编码位置——两者如何协同构建大脑的内置GPS？这套系统为什么不只是导航工具，更是记忆、想象和抽象思维的神经基础设施？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "topic_tags": [
+        "grid cells",
+        "place cells",
+        "entorhinal cortex",
+        "MEC",
+        "path integration",
+        "cognitive map",
+        "theta phase precession",
+        "theta sequences",
+        "conjunctive cells",
+        "remapping",
+        "spatial navigation",
+        "Hafting 2005",
+        "O'Keefe 1971",
+        "Stensola 2012",
+        "Buzsaki Moser 2013",
+        "Bellmund 2016",
+        "Qu 2026",
+        "Kransberg 2026",
+        "hexagonal lattice",
+        "continuous attractor network",
+        "oscillatory interference",
+        "grid modules",
+        "Nobel Prize 2014"
+      ],
+      "main_sources": [
+        "PMID:5124915",
+        "PMID:15965463",
+        "PMID:16675704",
+        "PMID:16858394",
+        "PMID:8353611",
+        "PMID:23222610",
+        "PMID:23354386(PMC4079500)",
+        "PMID:24366130",
+        "PMID:27023731",
+        "PMID:27572056(PMC5005038)",
+        "PMID:29073644",
+        "PMID:29311746",
+        "PMID:41887217",
+        "PMID:41958631"
+      ],
+      "open_full_text_count": 2,
+      "unresolved_questions": [
+        "Q-gc-01",
+        "Q-gc-02",
+        "Q-gc-03",
+        "Q-gc-04",
+        "Q-cogmap-01",
+        "Q-cogmap-02"
+      ],
+      "new_wiki_pages": [
+        "place-cells",
+        "grid-cells",
+        "path-integration",
+        "cognitive-map",
+        "theta-phase-precession",
+        "entorhinal-cortex"
+      ],
+      "revised_wiki_pages": [
+        "theta-oscillations(rev3)",
+        "sharp-wave-ripples(rev5)"
+      ],
+      "next_suggested_topics": [
+        "头朝向细胞与边界细胞：填补grid-cells/path-integration引用的head-direction-cells和border-cells悬空slug",
+        "海马重映射机制深度：remapping的神经实现，填补place-cells/cognitive-map引用的remapping悬空slug",
+        "小脑与运动学习：运动皮层专篇后，继续课程路线3的运动系统；小脑并行纤维/浦肯野细胞/LTD的计算原理",
+        "网格→场所转化精确机制：MEC模块叠加或振荡干涉？（填补Q-gc-01方向）",
+        "空间记忆的情境依赖性：相同路径、不同情境→不同场所图；通过Q-gc-01引发的情境整合机制"
+      ]
     }
   ],
   "layer_coverage_recent": {

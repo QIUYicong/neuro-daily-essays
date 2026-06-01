@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-06-22",
   "levels": [
     "speculative",
     "emerging",
@@ -654,6 +654,48 @@
       "confidence": "medium",
       "last_changed": "2026-06-21",
       "reason": "Created 2026-06-21. Mirror neurons in macaque F5 (Gallese 1996, Rizzolatti 1996): established in monkey, direct single-unit recording of ~17% F5 neurons responding to both execution and observation. Goal-directed specificity: established. Human mirror neuron system: evidence from TMS, fMRI, mu-suppression EEG - all indirect (no single-unit human data). F5/BA44 homology and language evolution hypothesis: plausible but speculative. Controversy about whether human 'mirror system' truly reflects same mechanism as macaque mirror neurons. Status: mainstream with medium confidence due to strong monkey data but indirect human evidence; language evolution hypothesis remains speculative (emerging level)."
+    },
+    {
+      "slug": "place-cells",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-22",
+      "reason": "新建：诺贝尔奖研究（O'Keefe 1971）；场所细胞的位置选择性在多物种、多实验室反复验证；θ相位前移（O'Keefe & Recce 1993）有50+年研究支撑；仅少数细节（网格→场所确切机制）待完整阐明"
+    },
+    {
+      "slug": "grid-cells",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-22",
+      "reason": "新建：诺贝尔奖研究（Hafting 2005）；六边形格点已在多物种验证；离散模块结构已确认（Stensola 2012）；人类fMRI六边形信号有多项研究支持；生成机制（CAN vs OI）仍争议，但现象本身established"
+    },
+    {
+      "slug": "path-integration",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-22",
+      "reason": "新建：暗室导航实验证据充分；联合细胞解剖证据（Sargolini 2006）强；CAN模型是主流；漂移与地标锚定的行为证据有多项研究"
+    },
+    {
+      "slug": "cognitive-map",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-06-22",
+      "reason": "新建：物理空间层（场所/网格）established；情节记忆扩展广泛接受；抽象概念空间泛化（Bellmund 2016, Qu 2026）支持中等，需更多独立验证，故定为mainstream而非established"
+    },
+    {
+      "slug": "theta-phase-precession",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-22",
+      "reason": "新建：O'Keefe & Recce 1993经典；多物种（大鼠、蝙蝠、人类ECoG）验证；速率-相位双重编码共识；机制争议（OI vs dual-path input）不影响现象的established状态"
+    },
+    {
+      "slug": "entorhinal-cortex",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-22",
+      "reason": "新建：MEC功能解剖（网格/联合细胞层级）established；海马主输入门户established；Braak分期（AD最早皮层靶点）established；人类证据（fMRI + iEEG）中-高"
     }
   ]
 }

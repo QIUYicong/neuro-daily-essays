@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-06-22（第 58 篇·网格细胞与场所细胞·填补6个长期悬空引用）
+
+**源文章**：[[2026-06-22-grid-cells-place-cells]] —《六边形的秘密：内嗅皮层网格细胞如何为大脑装备空间坐标系》
+
+**新建页面（6）**：
+- `concepts/place-cells.md`（场所细胞）🟢 established / 置信度高 — O'Keefe & Dostrovsky 1971；稀疏编码；重映射（不同环境正交）；θ相位前移；SWR重播；认知地图基本单元
+- `concepts/grid-cells.md`（网格细胞）🟢 established / 置信度高 — Hafting等2005 Nature；六边形格点；三参数描述；4–7离散模块（√2比，Stensola 2012）；路径整合坐标输出；发育研究（Qu 2026 Cell）
+- `concepts/path-integration.md`（路径整合）🟢 established / 置信度高 — McNaughton等2006；连续吸引子网络；联合细胞整合速度×方向；漂移需地标校准
+- `concepts/cognitive-map.md`（认知地图）🔵 mainstream / 置信度高 — Tolman 1948到场所/网格双系统；泛化到情节记忆、心理模拟（Bellmund 2016）、概念空间（Viganò 2023）
+- `concepts/theta-phase-precession.md`（θ相位前移）🟢 established / 置信度高 — O'Keefe & Recce 1993；100–355°相位位移；θ序列时间压缩（20:1）；STDP时间窗口框架
+- `systems/entorhinal-cortex.md`（内嗅皮层）🟢 established / 置信度高 — MEC（网格/联合细胞）vs LEC（情境感觉）；Layer II-VI功能层级；AD最早受损皮层（Braak分期）
+
+**修订页面（2）**：
+- `concepts/theta-oscillations.md`（修订#3）— 修正悬空引用：place-cell→place-cells、grid-cell→grid-cells、phase-precession→theta-phase-precession；related新增 path-integration、entorhinal-cortex
+- `concepts/sharp-wave-ripples.md`（修订#5）— 修正悬空引用：place-cell→place-cells；source_articles新增2026-06-22
+
+**矛盾登记**：
+- C-2026-06-22-01（OPEN）：人类网格信号稳定性争议。Bellmund 2016 / Nau 2018 等多项fMRI研究发现六边形对称信号 vs Kransberg 2026（PMID:41958631）预注册被动导航研究未检测到信号。性质：方法论差异（主动 vs 被动导航）。登记于 state/contested_claims.json。
+
+**悬空引用**（新增，待填补）：
+- `head-direction-cells`（头朝向细胞，被 grid-cells、path-integration 引用）
+- `border-cells`（边界细胞，被 cognitive-map、entorhinal-cortex 引用）
+- `remapping`（重映射机制，被 place-cells、cognitive-map 引用）
+
+**图谱更新**：新增节点6（place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex）；修订节点2（theta-oscillations, sharp-wave-ripples）；新增有向边26条（总计：100节点/559边）
+
+---
+
 ## 2026-06-21（第 57 篇·运动皮层·课程路线3 运动系统缺口填补）
 
 **源文章**：[[2026-06-21-motor-cortex-voluntary-movement]] —《从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉》

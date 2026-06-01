@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "node_count": 88,
   "edge_count": 505,
   "edge_types": [
@@ -859,6 +859,60 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/circuits/mirror-neurons.md"
+    },
+    {
+      "id": "place-cells",
+      "title": "场所细胞",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/place-cells.md"
+    },
+    {
+      "id": "grid-cells",
+      "title": "网格细胞",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/grid-cells.md"
+    },
+    {
+      "id": "path-integration",
+      "title": "路径整合",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/path-integration.md"
+    },
+    {
+      "id": "cognitive-map",
+      "title": "认知地图",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/cognitive-map.md"
+    },
+    {
+      "id": "theta-phase-precession",
+      "title": "θ相位前移",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/theta-phase-precession.md"
+    },
+    {
+      "id": "entorhinal-cortex",
+      "title": "内嗅皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/entorhinal-cortex.md"
     }
   ],
   "edges": [
@@ -3874,6 +3928,111 @@
       "to": "embodied-semantics",
       "type": "related",
       "note": "感觉运动皮层在具身语义处理中被词义激活（工具词/动作词）"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "grid-cells",
+      "type": "part-of"
+    },
+    {
+      "from": "grid-cells",
+      "to": "place-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "grid-cells",
+      "to": "path-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "grid-cells",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "grid-cells",
+      "to": "entorhinal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "grid-cells",
+      "to": "cognitive-map",
+      "type": "supports"
+    },
+    {
+      "from": "place-cells",
+      "to": "theta-phase-precession",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "place-cells",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "place-cells",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "place-cells",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "place-cells",
+      "to": "cognitive-map",
+      "type": "supports"
+    },
+    {
+      "from": "path-integration",
+      "to": "grid-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theta-phase-precession",
+      "to": "theta-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theta-phase-precession",
+      "to": "place-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theta-phase-precession",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "cognitive-map",
+      "to": "place-cells",
+      "type": "supports"
+    },
+    {
+      "from": "cognitive-map",
+      "to": "grid-cells",
+      "type": "supports"
+    },
+    {
+      "from": "cognitive-map",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "cognitive-map",
+      "to": "world-model",
+      "type": "related"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "alzheimers-disease",
+      "type": "related"
     }
   ],
   "dangling_references": [

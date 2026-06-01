@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-06-22",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -680,7 +680,8 @@
       "first_used": "2026-05-28",
       "full_text_available": false,
       "used_in_articles": [
-        "2026-05-28-place-cells-btsp.md"
+        "2026-05-28-place-cells-btsp.md",
+        "2026-06-22-grid-cells-place-cells.md"
       ],
       "aspects_covered": [
         "grid cell discovery",
@@ -739,7 +740,8 @@
       "first_used": "2026-05-29",
       "full_text_available": true,
       "used_in_articles": [
-        "2026-05-29-theta-oscillations-phase-coding.md"
+        "2026-05-29-theta-oscillations-phase-coding.md",
+        "2026-06-22-grid-cells-place-cells.md"
       ],
       "aspects_covered": [
         "theta oscillations",
@@ -803,7 +805,8 @@
       "first_used": "2026-05-29",
       "full_text_available": false,
       "used_in_articles": [
-        "2026-05-29-theta-oscillations-phase-coding.md"
+        "2026-05-29-theta-oscillations-phase-coding.md",
+        "2026-06-22-grid-cells-place-cells.md"
       ],
       "aspects_covered": [
         "phase precession",
@@ -4374,7 +4377,232 @@
         "review",
         "dimensionality reduction"
       ]
+    },
+    {
+      "pmid": "5124915",
+      "pmcid": null,
+      "title": "The hippocampus as a spatial map. Preliminary evidence from unit activity in the freely-moving rat",
+      "authors_short": "O'Keefe J, Dostrovsky J",
+      "journal": "Brain Research",
+      "year": 1971,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "经典历史性论文，无开放全文；仅读摘要",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "place cell discovery",
+        "hippocampus as spatial map",
+        "place fields",
+        "cognitive map foundational evidence"
+      ]
+    },
+    {
+      "pmid": "16675704",
+      "pmcid": null,
+      "title": "Conjunctive representation of position, direction, and velocity in entorhinal cortex",
+      "authors_short": "Sargolini F et al.",
+      "journal": "Science",
+      "year": 2006,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "conjunctive cells",
+        "grid position + head direction + velocity",
+        "MEC deep layers",
+        "path integration",
+        "conjunctive encoding"
+      ]
+    },
+    {
+      "pmid": "16858394",
+      "pmcid": null,
+      "title": "Path integration and the neural basis of the 'cognitive map'",
+      "authors_short": "McNaughton BL et al.",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2006,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "path integration",
+        "cognitive map",
+        "continuous attractor network",
+        "grid-to-place cell transformation",
+        "self-motion integration"
+      ]
+    },
+    {
+      "pmid": "23222610",
+      "pmcid": null,
+      "title": "The entorhinal grid map is discretized",
+      "authors_short": "Stensola H et al.",
+      "journal": "Nature",
+      "year": 2012,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "grid modules",
+        "4-7 discrete modules",
+        "scale ratio ~√2",
+        "independent module responses",
+        "combinatorial coding capacity"
+      ]
+    },
+    {
+      "pmid": "24366130",
+      "pmcid": null,
+      "title": "Functional connectivity of the entorhinal-hippocampal space circuit",
+      "authors_short": "Zhang SJ et al.",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 2013,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "MEC-hippocampus connectivity",
+        "optogenetics grid cell→place cell causality",
+        "grid cells most abundant HC-projecting spatial type",
+        "EC-hippocampal circuit"
+      ]
+    },
+    {
+      "pmid": "27023731",
+      "pmcid": null,
+      "title": "Ten Years of Grid Cells",
+      "authors_short": "Rowland DC et al.",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2016,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "grid cells 10-year review",
+        "CAN vs OI model comparison",
+        "grid cell functional roles",
+        "entorhinal cortex organization",
+        "remaining open questions"
+      ]
+    },
+    {
+      "pmid": "27572056",
+      "pmcid": "PMC5005038",
+      "title": "Grid-cell representations in mental simulation",
+      "authors_short": "Bellmund JLS et al.",
+      "journal": "eLife",
+      "year": 2016,
+      "first_used": "2026-06-22",
+      "full_text_available": true,
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "human fMRI hexagonal signal",
+        "mental simulation without movement",
+        "posterior MEC grid code",
+        "grid code in imagination",
+        "human grid cell evidence"
+      ]
+    },
+    {
+      "pmid": "29073644",
+      "pmcid": null,
+      "title": "Spatial representation in the hippocampal formation: a history",
+      "authors_short": "Moser EI, Moser MB, McNaughton BL",
+      "journal": "Nature Neuroscience",
+      "year": 2017,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "historical review place/grid/head-direction/border cells",
+        "self-motion integration",
+        "EC-hippocampal spatial circuit history"
+      ]
+    },
+    {
+      "pmid": "29311746",
+      "pmcid": null,
+      "title": "Hexadirectional coding of visual space in human entorhinal cortex",
+      "authors_short": "Nau M et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2018,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "human fMRI hexadirectional signal",
+        "visual gaze direction tracking",
+        "grid code extends to visual space",
+        "entorhinal cortex human evidence"
+      ]
+    },
+    {
+      "pmid": "41887217",
+      "pmcid": null,
+      "title": "Development of non-spatial grid-like neural codes tracks inference and intelligence",
+      "authors_short": "Qu Y et al.",
+      "journal": "Cell",
+      "year": 2026,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "摘要可及，全文付费",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "non-spatial grid codes in EC",
+        "cognitive development ages 8-25",
+        "fluid intelligence prediction",
+        "abstract reasoning neural basis",
+        "grid code maturation"
+      ]
+    },
+    {
+      "pmid": "41958631",
+      "pmcid": null,
+      "title": "Failure to detect entorhinal grid-like signals in a passive navigation human fMRI study",
+      "authors_short": "Kransberg J et al.",
+      "journal": "Imaging Neuroscience",
+      "year": 2026,
+      "first_used": "2026-06-22",
+      "full_text_available": false,
+      "note": "预注册阴性结果；摘要可及",
+      "used_in_articles": [
+        "2026-06-22-grid-cells-place-cells.md"
+      ],
+      "aspects_covered": [
+        "pre-registered null result",
+        "passive navigation no grid signal",
+        "active movement requirement",
+        "human fMRI methodology",
+        "contested claim C-2026-06-22-01"
+      ]
     }
   ],
-  "total_sources": 220
+  "total_sources": 231
 }

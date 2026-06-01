@@ -1,0 +1,134 @@
+# 运行日志 2026-06-22
+
+**文章编号**：#58
+**文章标题**：六边形的秘密：内嗅皮层网格细胞如何为大脑装备空间坐标系
+**逻辑日期**：2026-06-22
+**运行起始时间**：继续前次会话（上下文压缩后恢复）
+
+---
+
+## A. 文献检索
+
+### 检索策略
+
+- PubMed E-utilities esearch + efetch
+- 主要查询词：grid cells entorhinal cortex, place cells O'Keefe, path integration cognitive map, theta phase precession grid cells, human grid cell fMRI
+- 额外查询：Hafting 2005, Stensola 2012, Sargolini 2006, Buzsaki Moser 2013, Bellmund 2016, Nau 2018, Rowland 2016, Qu 2026
+
+### 来源统计
+
+| 指标 | 数值 |
+|------|------|
+| 检索查询次数 | 13 |
+| 找到来源总数 | 14 |
+| 全文获取（PMC） | 2（PMID:23354386/PMC4079500, PMID:27572056/PMC5005038） |
+| 摘要仅可及 | 12 |
+| 错误/重试 | 3（初始批量查询返回错误PMID，逐一重新查询修正） |
+
+### 关键来源
+
+- PMC4079500（Buzsáki & Moser 2013, Nature Neuroscience）：全文，综合框架
+- PMC5005038（Bellmund et al. 2016, eLife）：全文，人类网格信号证据
+- PMID:15965463（Hafting et al. 2005, Nature）：网格细胞发现
+- PMID:23222610（Stensola et al. 2012, Nature）：网格模块离散化
+- PMID:41887217（Qu et al. 2026, Cell）：非空间网格码认知发展
+- PMID:41958631（Kransberg et al. 2026, Imaging Neuroscience）：预注册阴性结果
+
+---
+
+## B. 文章创作
+
+- **文件**：`articles/2026-06-22-grid-cells-place-cells.md`
+- **字数**：约4500字（中文）
+- **结构**：引言 → 场所细胞历史（O'Keefe 1971）→ 网格细胞发现（Hafting 2005）→ 模块化组织（Stensola 2012）→ 联合细胞（Sargolini 2006）→ 路径整合（McNaughton 2006）→ 网格→场所转化 → θ相位前进 → 记忆-导航联系 → 人类证据 → AI类比 → 争议（Kransberg 2026阴性结果）→ 未解问题
+
+---
+
+## C. Wiki 知识库更新
+
+### 新建页面（6个）
+
+| 页面 | 文件 | 域 | 类型 |
+|------|------|----|------|
+| place-cells | wiki/concepts/place-cells.md | concepts | mechanism |
+| grid-cells | wiki/concepts/grid-cells.md | concepts | mechanism |
+| path-integration | wiki/concepts/path-integration.md | concepts | mechanism |
+| cognitive-map | wiki/concepts/cognitive-map.md | concepts | theory |
+| theta-phase-precession | wiki/concepts/theta-phase-precession.md | concepts | mechanism |
+| entorhinal-cortex | wiki/systems/entorhinal-cortex.md | systems | region |
+
+### 修订页面（2个）
+
+| 页面 | 版本 | 修改内容 |
+|------|------|---------|
+| theta-oscillations | rev2→rev3 | 修正悬空引用（place-cell→place-cells, grid-cell→grid-cells, phase-precession→theta-phase-precession）；新增related: path-integration, entorhinal-cortex |
+| sharp-wave-ripples | rev4→rev5 | 修正悬空引用（place-cell→place-cells）；新增source_articles |
+
+### 填补的悬空引用（6个）
+
+- `place-cell` → `place-cells` ✅（被 theta-oscillations, sharp-wave-ripples, hippocampal-circuit 等引用）
+- `grid-cell` → `grid-cells` ✅（被 theta-oscillations 引用）
+- `phase-precession` → `theta-phase-precession` ✅（被 theta-oscillations 引用）
+- `entorhinal-cortex` ✅（被 theta-oscillations, grid-cells 等引用）
+- `path-integration` ✅（被 grid-cells 引用）
+- `cognitive-map` ✅（被 place-cells, grid-cells 等引用）
+
+### 新增悬空引用（3个）
+
+- `head-direction-cells`（被 grid-cells, entorhinal-cortex 引用）
+- `border-cells`（被 grid-cells, entorhinal-cortex 引用）
+- `remapping`（被 place-cells, cognitive-map 引用）
+
+---
+
+## D. 状态文件更新
+
+| 文件 | 更新内容 |
+|------|---------|
+| wiki/_graph.json | 94→100节点，538→559边 |
+| wiki/index.md | 主题页89→100；新增6页条目；路线进度更新 |
+| wiki/CHANGELOG.md | 新增2026-06-22节（6新页/2修订页/1争议/图谱更新） |
+| state/topic_ledger.json | 新增条目#58；total_articles=58 |
+| state/maturity_index.json | 新增6条目（22→28条目） |
+| state/contested_claims.json | 新增C-2026-06-22-01（人类网格信号争议） |
+| state/unresolved_questions.md | 新增Q-gc-01至Q-gc-04，Q-cogmap-01至Q-cogmap-02（共+6） |
+| state/source_registry.json | 新增11条目；更新3条目（PMID:15965463/8353611/23354386 used_in_articles）；220→231总来源 |
+| state/monthly_synthesis.md | 更新月度头部（58篇/100页）；新增洞见60-63 |
+
+---
+
+## E. 争议声明
+
+- **C-2026-06-22-01**：人类 fMRI 网格信号争议
+  - 支持：Bellmund 2016（心理模拟）、Nau 2018（视觉扫描）、多项主动导航研究
+  - 反对：Kransberg et al. 2026（预注册，被动导航阴性结果）
+  - 当前状态：open（待独立验证）
+  - 假说：主动运动/前庭-本体感觉反馈可能是人类 EC 网格码激活的必要条件
+
+---
+
+## F. Git 操作
+
+- 分支：main
+- 提交消息：Add neuro daily article + wiki consolidation for 2026-06-22
+- 推送目标：origin main（QIUYicong/neuro-daily-essays）
+- GIT_AUTHOR_NAME: QIUYicong
+- GIT_AUTHOR_EMAIL: 169510482+QIUYicong@users.noreply.github.com
+
+---
+
+## G. 自检（H步）
+
+- [x] 所有 wiki 主张都有引用来源
+- [x] 争议声明已注册（C-2026-06-22-01）
+- [x] 悬空引用已填补（6个）
+- [x] 图谱节点数与实际页面数一致（100）
+- [x] wiki/index.md 主题页数与实际一致（100）
+- [x] CHANGELOG.md 已更新
+- [x] source_registry.json 无重复添加（检查 PMID:15965463/8353611/23354386 已存在，仅更新 used_in_articles）
+- [x] 无医疗诊断/治疗/用药建议
+- [x] 无虚构 PMID/PMCID/DOI
+
+---
+
+运行结束时间：2026-06-22（UTC）

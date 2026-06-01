@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-05-31
-revision_count: 2
+updated: 2026-06-22
+revision_count: 3
 dimensions: [whole-brain-network, brain-region, cellular, behavior, methods]
-related: [place-cell, grid-cell, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation]
-prerequisites: [action-potential, hippocampal-circuit, place-cell]
+related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex]
+prerequisites: [action-potential, hippocampal-circuit, place-cells]
 opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells]
 key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380"]
 ---
 
@@ -136,6 +136,7 @@ Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡�
 ## 修订历史
 
 - 2026-05-29 · 创建 · 填补高优先级悬空引用（由 place-cell、ltp、hippocampal-circuit、grid-cell 引用） · 基于《θ振荡与相位编码》文章 · 初始置信度：高
+- 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells、grid-cell→grid-cells、phase-precession→theta-phase-precession；新增related条目：path-integration、entorhinal-cortex；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
 - 2026-05-31 · 修订 · 整合REM睡眠θ内容：新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节（LA-VH θ相位差、Boyce 2016光遗传因果证据、清醒/REM θ功能对比表）；补充当前理解段落；关键证据表增加2行；连接增加rem-sleep/fear-extinction/emotional-memory-depotentiation；未解问题增加Q-rem-01/Q-rem-03/Q-rem-05 · 基于《REM睡眠与情绪记忆》文章
 
 ## 来源文章
