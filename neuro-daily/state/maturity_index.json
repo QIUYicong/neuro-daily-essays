@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "levels": [
     "speculative",
     "emerging",
@@ -720,6 +720,38 @@
       "confidence": "high",
       "last_changed": "2026-06-22",
       "reason": "新建：MEC功能解剖（网格/联合细胞层级）established；海马主输入门户established；Braak分期（AD最早皮层靶点）established；人类证据（fMRI + iEEG）中-高"
+    },
+    {
+      "slug": "pattern-completion",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_changed": "2026-06-24",
+      "reason": "新建：CA3 NMDA受体依赖性对模式补全的必要性有直接因果遗传证据（Nakazawa 2002, PMID:12040087）；Leutgeb 2004体内电生理支持CA3离散吸引子状态；Treves & Rolls 1992奠基性计算框架；多实验室重复验证，教科书级共识。故定为established/high"
+    },
+    {
+      "slug": "pattern-separation",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_changed": "2026-06-24",
+      "reason": "新建：DG稀疏活动（<5%颗粒细胞）和全局重映射（Leutgeb 2007, PMID:17303747）有直接体内电生理证据；Sahay 2011有基因因果证据（增加神经发生→选择性改善模式分离）；计算原理（扩张重编码）被广泛验证。故定为established/high"
+    },
+    {
+      "slug": "attractor-network",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 3,
+      "last_changed": "2026-06-24",
+      "reason": "新建：Hopfield网络（1982）数学严格；CA3作为吸引子网络的理论框架（Treves & Rolls 1992）获广泛认可；与Transformer注意力等价的数学证明（Ramsauer 2021）严格；但'CA3是吸引子网络'的直接体内证明（伪吸引子、容量限制等预测）尚未完全验证。故定为mainstream/medium"
+    },
+    {
+      "slug": "complementary-learning-systems",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 3,
+      "last_changed": "2026-06-24",
+      "reason": "新建：CLS理论框架（O'Reilly & McClelland 1994, McClelland et al. 1995）在神经科学和AI领域广泛引用；海马损伤→情景记忆选择性缺失的经典证据支持快/慢双系统分工；SWR重放的因果证据（Girardeau 2009）支持海马→皮层知识转移；但记忆转移的精确时间线和分子机制仍有争议。故定为mainstream/medium"
     }
   ]
 }

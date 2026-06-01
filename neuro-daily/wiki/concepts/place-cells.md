@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
+updated: 2026-06-24
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [grid-cells, theta-oscillations, sharp-wave-ripples, theta-phase-precession, memory-consolidation, hippocampal-circuit, cognitive-map, remapping, path-integration]
+related: [grid-cells, theta-oscillations, sharp-wave-ripples, theta-phase-precession, memory-consolidation, hippocampal-circuit, cognitive-map, remapping, path-integration, pattern-separation, pattern-completion]
 prerequisites: [hippocampal-circuit, action-potential, synaptic-transmission]
 opens_questions: [Q-gc-01, Q-gc-03]
-source_articles: [2026-06-22-grid-cells-place-cells]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-06-24-hippocampal-ca3-pattern-completion]
 key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 ---
 
@@ -90,8 +90,10 @@ key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 
 ## 修订历史
 
+- 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 加入模式分离/补全视角：场所细胞的"重映射"行为是模式分离在空间记忆中的具体体现；Leutgeb 2004 的 CA3 vs CA1 不同计算策略与场所细胞的率重映射 vs 全局重映射直接相关；related 新增 pattern-separation、pattern-completion
 - 2026-06-22 · 创建 · 填补长期悬空引用（被theta-oscillations、sharp-wave-ripples等多页引用但无对应页面） · 基于《六边形的秘密》文章 · 初始置信度：高
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
+- [[2026-06-24-hippocampal-ca3-pattern-completion]]

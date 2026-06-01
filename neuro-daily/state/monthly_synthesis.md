@@ -4,8 +4,8 @@
 
 ## 2026年6月（进行中）
 
-*本月截至日期：2026-06-23*
-*本月新增文章：#36–#59（共24篇）*
+*本月截至日期：2026-06-24*
+*本月新增文章：#36–#60（共25篇）*
 
 ### 本月文章摘要（节选）
 
@@ -14,13 +14,14 @@
 | 57 | 2026-06-21 | 从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉 | 系统/回路 |
 | 58 | 2026-06-22 | 六边形的秘密：内嗅皮层网格细胞如何为大脑装备空间坐标系 | 脑区/细胞/认知/全脑网络 |
 | 59 | 2026-06-23 | 小脑的秘密：浦肯野细胞如何让大脑成为一台预测机器 | 回路/系统/认知 |
+| 60 | 2026-06-24 | 记忆不混淆的秘密：CA3 的吸引子动力学与海马如何在「自动补全」与「精准分离」之间走钢丝 | 微回路/细胞/认知 |
 
-### 本月新增 wiki 页面（截至 2026-06-22）
+### 本月新增 wiki 页面（截至 2026-06-24）
 
-- **总主题页**：103（月初75，当前103）
-- **图谱**：103节点，576条边
-- **本月新建**：motor-cortex, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex, **cerebellum, cerebellar-ltd, forward-model** + 多个此前文章的相关页面
-- **本月修订**：language-network（加入镜像神经元/运动皮层连接）、**ltd rev2（加入小脑LTD段落）**、**predictive-coding rev5（加入小脑专用预测误差系统）**、**motor-cortex rev2（加入小脑-皮层闭环）**
+- **总主题页**：107（月初75，当前107）
+- **图谱**：107节点，600条边
+- **本月新建**：motor-cortex, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex, cerebellum, cerebellar-ltd, forward-model, **pattern-completion, pattern-separation, attractor-network, complementary-learning-systems** + 多个此前文章的相关页面
+- **本月修订**：language-network, ltd rev2, predictive-coding rev5, motor-cortex rev2, **hippocampal-circuit rev9（CA3吸引子证据）, ltp rev8（CA3循环LTP→模式补全）, place-cells rev2（模式分离视角）**
 
 ### 六月关键洞见（截至 2026-06-21）
 

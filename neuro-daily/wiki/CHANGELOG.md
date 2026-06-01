@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-06-24（第 60 篇·记忆不混淆的秘密·CA3 吸引子与 DG-CA1 模式分离）
+
+**源文章**：[[2026-06-24-hippocampal-ca3-pattern-completion]] —《记忆不混淆的秘密：CA3 的吸引子动力学与海马如何在「自动补全」与「精准分离」之间走钢丝》
+
+**新建页面（4）**：
+- `concepts/pattern-completion.md`（模式补全）🟢 established / 置信度高 — CA3 循环连接 + Hopfield 吸引子动力学；苔状纤维"强制激活"编码 vs 穿孔通路检索的双输入系统；Nakazawa 2002 CA3-NR1 KO 因果证据（PMID:12040087）；吸引子收敛是"记忆提取"的计算本质
+- `concepts/pattern-separation.md`（模式分离）🟢 established / 置信度高 — DG 扩张重编码（5×）+ 稀疏激活（<5%）→ 相似输入的神经表征正交化；Leutgeb 2007 DG 全局重映射证据（PMID:17303747）；Sahay 2011 成人神经发生因果改善分离（PMID:21460835）；CA3 的速率重映射（小差异）vs 全局重映射（大差异）梯度机制
+- `concepts/attractor-network.md`（吸引子网络）🔵 mainstream / 置信度中 — Hopfield 网络（1982）数学基础；存储容量约 0.14N；现代 Hopfield 网络 = Transformer softmax attention 的数学等价（Ramsauer 2021, arXiv:2008.02217）；连续吸引子（工作记忆/头向细胞）；CA3 生物实现
+- `concepts/complementary-learning-systems.md`（互补学习系统）🔵 mainstream / 置信度中 — O'Reilly & McClelland 1994 框架（PMID:7704110）；稳定性-可塑性困境；海马（快/稀疏）+ 新皮层（慢/分布式）；SWR 睡眠重放是知识转移机制；深度强化学习经验回放缓冲区（DQN）是 CLS 理论的直接工程应用
+
+**修订页面（3）**：
+- `neurons/hippocampal-circuit.md`（修订#9）— 新增 CA3 模式补全的因果证据（Nakazawa 2002, PMID:12040087）和 CA3 vs CA1 不同计算个性（Leutgeb 2004, PMID:15272123）；related 新增 4 项；key_sources 新增 4 篇
+- `concepts/ltp.md`（修订#8）— 新增 CA3 循环突触 NMDAR-LTP 与模式补全因果链的连接；related 新增 pattern-completion、complementary-learning-systems
+- `concepts/place-cells.md`（修订#2）— 加入模式分离视角（重映射 = 空间记忆中模式分离的具体表现）；related 新增 pattern-separation、pattern-completion
+
+**矛盾登记**：无新矛盾。
+
+**悬空引用（新增，待填补）**：
+- `adult-neurogenesis`（成人神经发生，被 pattern-separation 引用）
+- `dentate-gyrus`（齿状回，被 pattern-separation, pattern-completion 引用，目前合并在 hippocampal-circuit）
+- `ca3-recurrent-collaterals`（CA3 循环侧支，被 pattern-completion 引用，目前合并在 hippocampal-circuit）
+
+---
+
 ## 2026-06-23（第 59 篇·小脑的秘密·运动预测与多层可塑性）
 
 **源文章**：[[2026-06-23-cerebellum-motor-prediction]] —《小脑的秘密：浦肯野细胞如何让大脑成为一台预测机器》

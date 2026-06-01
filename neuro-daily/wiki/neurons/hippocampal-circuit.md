@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-06-17
-revision_count: 8
+updated: 2026-06-24
+revision_count: 9
 dimensions: [brain-region, microcircuit, cognition, disease]
-related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network]
+related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems]
 prerequisites: [synaptic-transmission, ltp, action-potential]
 opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses]
-source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay]
-key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779"]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-24-hippocampal-ca3-pattern-completion]
+key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779", "PMID:12040087", "PMID:15272123", "PMID:1308182", "PMID:21460835"]
 ---
 
 # 海马回路 (Hippocampal Circuit)
@@ -59,6 +59,10 @@ key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575"
 CA3 的独特结构是大量的**循环连接（recurrent collaterals）**：CA3 锥体细胞约有 12,000 个同类细胞的兴奋性突触输入（来自其他 CA3 细胞），与来自 DG 的约 50 个苔状纤维突触相比数量悬殊。
 
 **模式补全**：当部分线索激活 CA3 的一小部分，循环连接可逐步激活代表完整记忆的整个 CA3 集群（类似 Hopfield 网络的吸引子动力学）。
+
+**关键因果证据（2026-06-24 新增）**：Nakazawa et al. (2002, Science, PMID:12040087) 使用 CA3 特异性 NR1 基因敲除小鼠，直接证明 CA3 循环突触的 NMDA 受体对模式补全必要——完整线索下表现正常，部分线索下行为和 CA3 场所细胞活动均严重受损。这是从相关性到因果性的关键实验跨越。详细机制见 [[pattern-completion]]。
+
+**CA3 vs CA1 的计算个性**：Leutgeb et al. (2004, Science, PMID:15272123) 的体内记录显示：CA3 对相似环境产生近离散的全局重映射（吸引子式），而 CA1 产生连续的相似度映射（比较器式）。CA3 是非线性的状态分类机；CA1 是线性的相似度计量器。
 
 **CA3 的 BTSP**（Li et al., 2024, PMID:39454575）：
 - 发生在循环突触（而非苔状纤维）
@@ -129,6 +133,7 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 
 ## 修订历史
 
+- 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 新增：CA3 模式补全因果证据（Nakazawa 2002 PMID:12040087 CA3-NR1 KO 实验）；CA3 vs CA1 不同计算个性（Leutgeb 2004 PMID:15272123）；related 新增 pattern-completion、pattern-separation、attractor-network、complementary-learning-systems；key_sources 新增 4 篇关键来源
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"海马两种工作模式"（θ态/SWR态）章节；新增 SWR 生成和重播机制；新增 key_sources
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 新增：DG 是印迹细胞分配竞争的主要场所（2–4% 稀疏活动→高正交性）；DG→CA3→CA1→BLA 印迹间优先连接链的描述；连接增加 [[engram-cells]]
