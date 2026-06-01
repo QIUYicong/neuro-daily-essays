@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-06-23
-revision_count: 5
+updated: 2026-06-24
+revision_count: 6
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
 related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583"]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-06-24-credit-assignment-backprop]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -114,6 +114,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[global-workspace-theory]] — GWT 与预测编码互补：足够大的预测误差（无法被局部层级消解）可能是触发全局工作空间点燃的候选机制；意识 = 大脑在无法预测时召唤全局计算资源
 - [[language-network]] — 语言理解是预测编码在词汇层面的实例化：额叶（Broca区）在词出现前200ms生成语义-感觉运动预测，颞叶返回预测误差，构成词级预测-更新循环（Grisoni 2024, PMC10957213）
 - [[ventral-language-stream]] — 腹侧语言流的具身语义预测（工具词→运动皮层预激活；动物词→视觉皮层预激活）是预测编码具身性的直接神经证据
+- [[backpropagation]] — Whittington & Bogacz (2017, PMID:28333583) 证明：在特定参数条件下，预测编码网络的局部 Hebb 更新与 BP 梯度数学等价——误差单元活动 = BP δ 误差
+- [[credit-assignment-problem]] — 预测编码是解决信用分配问题的一种生物学近似（通过局部误差单元隐式传播梯度）
 
 ## 未解问题
 
@@ -131,8 +133,10 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将预测编码定位为「世界模型误差加权更新层」；新增 world-model 到 related；明确预测编码给出了世界模型的贝叶斯更新方程：Δmodel ∝ precision_weighted_prediction_error
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语言域的预测编码实例：词出现前200ms的语义-感觉运动预测（Grisoni 2024），腹侧流具身语义预测（工具词→运动皮层，动物词→视觉皮层）；related 新增 language-network, ventral-language-stream
 - 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
+- 2026-06-24 · 修订 · 基于《信用分配的困境》一文 · 新增 Whittington & Bogacz 2017 数学等价性（PC ≈ BP）作为连接；related 新增 backpropagation, credit-assignment-problem；key_sources 新增 PMID:28333583
 
 ## 来源文章
 
 - [[2026-06-15-predictive-coding]]
 - [[2026-06-20-language-dual-stream]]
+- [[2026-06-24-credit-assignment-backprop]]

@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-06-23
-revision_count: 1
+updated: 2026-06-24
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, microcircuit]
-related: [ltd, cerebellum, mGluR1, forward-model, climbing-fiber, parallel-fiber]
+related: [ltd, cerebellum, mGluR1, forward-model, climbing-fiber, parallel-fiber, credit-assignment-problem, backpropagation]
 prerequisites: [ltd, nmda-receptor, pkc-signaling, ampa-receptor]
 opens_questions: [Q-cb-01, Q-cb-02]
-source_articles: [2026-06-23-cerebellum-motor-prediction]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-06-24-credit-assignment-backprop]
 key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932"]
 ---
 
@@ -67,6 +67,8 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932"]
 - [[cerebellum]] — 小脑回路架构和多层可塑性
 - [[forward-model]] — LTD 的功能意义（误差驱动内部模型更新）
 - [[ampa-receptor]] — AMPAR 内吞是小脑 LTD 和海马 LTD 的共同输出机制
+- [[credit-assignment-problem]] — 小脑攀爬纤维 LTD 是生物学上最接近精确单层误差学习的例子，是信用分配问题在进化上最古老、最完善的局部解
+- [[backpropagation]] — 小脑 LTD 的攀爬纤维误差信号类似于单层网络中的 BP 误差，但仅限于两层（颗粒细胞→浦肯野细胞），不是深层 BP
 
 ## 未解问题
 
@@ -76,7 +78,9 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932"]
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：高（分子机制 established）；LTD 非唯一机制也有 established 证据
+- 2026-06-24 · 修订 · 基于《信用分配的困境》一文 · 新增与 credit-assignment-problem 和 backpropagation 的连接；明确小脑 LTD 是"自然界中最接近精确单层误差学习的生物案例"
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
+- [[2026-06-24-credit-assignment-backprop]]

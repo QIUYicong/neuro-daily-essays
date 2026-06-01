@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-06-24（第 60 篇·信用分配的困境·反向传播与生物学习近似）
+
+**源文章**：[[2026-06-24-credit-assignment-backprop]] —《信用分配的困境：为什么大脑不使用反向传播，以及它如何自己解决这个问题》
+
+**新建页面（3）**：
+- `theories/backpropagation.md`（反向传播算法）🟢 established / 置信度高 — BP 四步流程；权重对称/局部性/更新锁定/信号类型四个生物学困境；BP 在 AI 中的基础地位；生物学近似的总纲
+- `concepts/credit-assignment-problem.md`（信用分配问题）🟢 established / 置信度高 — 空间（层级）信用分配 vs 时间信用分配；六种生物学解决方案分类对比；与 Hebb/DA/小脑 LTD/树突计算的联系
+- `concepts/feedback-alignment.md`（反馈对齐）🔵 emerging / 置信度中 — 随机固定反馈矩阵近似 BP；自发对齐机制；浅层有效但深层效率下降
+
+**修订页面（2）**：
+- `theories/predictive-coding.md`（修订#6）— 新增 Whittington & Bogacz 2017 数学等价性（PC ≈ BP）连接；related 新增 backpropagation, credit-assignment-problem；key_sources 新增 PMID:28333583
+- `concepts/cerebellar-ltd.md`（修订#2）— 新增与 credit-assignment-problem 和 backpropagation 的连接；明确小脑 LTD 是"自然界中最接近精确单层误差学习的生物案例"
+
+**矛盾登记**：无（新主题，与现有 wiki 无直接冲突）
+
+**悬空引用（新增，待填补）**：
+- `burst-firing`（爆发放电，被 credit-assignment-problem 引用；Payeur 2021 的教师信号机制）
+- `dendritic-error-learning`（树突误差学习，Guerguiev/Francioni 系列的核心概念）
+
+**图谱更新**：节点 106（+3），边 591（+15）
+
+---
+
 ## 2026-06-23（第 59 篇·小脑的秘密·运动预测与多层可塑性）
 
 **源文章**：[[2026-06-23-cerebellum-motor-prediction]] —《小脑的秘密：浦肯野细胞如何让大脑成为一台预测机器》

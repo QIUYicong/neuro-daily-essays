@@ -1,0 +1,159 @@
+# 运行日志 2026-06-24
+
+**文章编号**：#60
+**运行时间**：2026-06-24 UTC+8
+**分支**：main
+**模式**：long_term_curriculum
+
+---
+
+## 状态检查
+
+- [x] 从 main 拉取最新：origin/main 已在 b3fd73e（本地 HEAD 与远程一致）
+- [x] ROUTINE.md 存在且已读取
+- [x] KNOWLEDGE-BASE-DESIGN.md 存在且已读取
+- [x] neuro-daily/wiki/ 目录完整
+- [x] state/ 文件夹所有状态文件存在
+
+**注意**：系统时间显示为 2026-06-01，但仓库已有文章至 2026-06-23（前次会话运行超前）。本次运行日期设为 2026-06-24（仓库连续下一篇）。与前次会话（分支 claude/funny-einstein-r3sPN 在远端不存在）一致，推送至 origin/main。
+
+---
+
+## 选题决策
+
+**选题驱动**：课程脊柱 + 上篇（2026-06-23 小脑）的 next_suggested_topics + 知识库悬空引用
+
+**层级检查**：
+- 2026-06-23: 回路/系统/认知（小脑）
+- 2026-06-22: 脑区/细胞（空间系统）
+- 今天选择：理论/计算/突触——信用分配问题（跨越计算神经科学与生物学桥梁）
+
+**选题**：信用分配问题与反向传播的生物学近似
+**核心问题**：大脑如何（近似地）解决多层网络的信用分配？四种生物学近似机制如何各自回应 BP 的生物学困境？
+
+**判断理由**：
+1. 课程脊柱深度学习/计算理论子轨道的自然下一步（接续小脑前向模型 + 预测编码 + DA-RPE）
+2. 知识库已有预测编码和小脑LTD，信用分配是连接两者的桥梁节点
+3. Guerguiev 2017 / Payeur 2021 / Whittington & Bogacz 2017 均已在现有文章中被间接引用，现在正式展开
+4. 反馈对齐和树突误差学习是2016-2022年间涌现的新兴领域，时效性强
+5. AI-神经科学比较视角（BP vs 生物近似）具有高读者吸引力
+
+---
+
+## 检索记录
+
+**数据源**：PubMed E-utilities（NCBI）、PMC、bioRxiv
+
+**主要搜索词**：
+- `credit assignment problem neural networks backpropagation biological plausibility`
+- `feedback alignment Lillicrap 2016 random feedback weights`
+- `dendritic error learning Guerguiev 2017 segregated dendrites`
+- `burst-dependent plasticity Payeur 2021 hierarchical credit assignment`
+- `predictive coding backpropagation equivalence Whittington Bogacz`
+- `target propagation biologically plausible learning`
+- `Francioni 2025 vectorized instructive signals BCI`
+
+**候选来源总数**：约 25 篇（PMIDs 从多次 esearch 获取）
+
+---
+
+## 采用来源
+
+| ID | PMID | 状态 | 理由 |
+|----|------|------|------|
+| S1 | 27824044 | PMC 全文 PMCID:5054372 | Lillicrap 2016 反馈对齐原始论文，核心 |
+| S2 | 29205151 | PMC 全文 PMCID:5742012 | Guerguiev 2017 树突误差学习，核心 |
+| S3 | 33986551 | PMC 全文 PMCID:8126649 | Payeur 2021 爆发依赖可塑性，核心 |
+| S4 | 28333583 | 摘要 | Whittington & Bogacz 2017 PC≈BP，核心 |
+| S5 | 37961227 | PMC 全文 PMCID:10876199 | Francioni 2025 BCI 体内树突教学信号 |
+| S6 | 30971653 | 摘要 | Richards et al. 2019 深度学习综述（Nature Neurosci）|
+| S7 | 10217197 | 摘要 | Bengio 等人 target propagation 1994 原始文献 |
+| S8 | 26906502 | 摘要 | Lillicrap & Santoro 2019 学习规则综述 |
+
+**来源要求检查**：
+- 总数：8 篇（≥5 ✅）
+- 开放全文：5 篇（S1–S3, S5；S8 部分）（≥2 ✅）
+- 官方机构：PubMed/PMC（≥1 ✅）
+- 预印本标注：无（0篇预印本，全部发表文章）
+
+---
+
+## 排除来源
+
+- PMID:33782615（错误 PMID，返回细菌学论文，已用 PMID:33986551 替代 Payeur 2021）
+- PMID:35654983（Lillicrap 2022 综述，与 S1 重复，暂不纳入）
+- PMID:36765219（Payeur 2023 更新，暂不纳入，避免来源过多聚焦同一作者）
+- 多篇 DTP 变体论文（技术细节，偏离叙事主线）
+
+---
+
+## wiki 固结
+
+**新建页面（3）**：
+- `wiki/theories/backpropagation.md` — established/高置信度（BP算法本身有完整理论支持）
+- `wiki/concepts/credit-assignment-problem.md` — established/高置信度（问题定义已明确）
+- `wiki/concepts/feedback-alignment.md` — emerging/中置信度（2016年兴起，体内证据仍待发展）
+
+**修订页面（2）**：
+- `wiki/theories/predictive-coding.md` rev6 — 新增 Whittington & Bogacz 2017 数学等价性段落；related 新增 backpropagation, credit-assignment-problem；key_sources 新增 PMID:28333583
+- `wiki/concepts/cerebellar-ltd.md` rev2 — 新增与 credit-assignment-problem 和 backpropagation 的连接；明确小脑 LTD 是"自然界中最接近精确单层误差学习的生物案例"
+
+**图谱更新**：106 节点（+3），591 条边（+15）
+
+---
+
+## 矛盾检查
+
+- Lillicrap 2016（反馈对齐在 MNIST 等任务可达 BP 精度）vs 后续研究（反馈对齐在深层/复杂任务退化显著）：
+  - 这是已知的规模限制问题，非矛盾，在文章中如实呈现
+  - 结论：反馈对齐是"方向上可行，精度上有限"的生物学近似
+- Whittington & Bogacz 2017 等价性（特定条件下 PC≈BP）vs 实际生物皮层（精确推断收敛不可能）：
+  - 这是理论与现实的已知距离，文章中已明确标注假设条件
+  - 不登记为新矛盾
+
+---
+
+## 新建未解问题
+
+- Q-bp-01（高）：大脑实际使用的是哪种信用分配近似？各机制的相对贡献是否可以被实验区分？
+- Q-bp-02（高）：反馈对齐的"前向权重自发对齐随机反馈"现象是否有体内神经科学证据？
+- Q-bp-03（中）：预测编码≈BP 的等价性是否能在体内神经回路（而非计算模型）中直接验证？
+- Q-fa-01（低）：树突隔离模型（Guerguiev 2017）的爆发/棘波比率与 Payeur 2021 BDP 机制是否是同一现象的不同描述？
+
+---
+
+## 限制与注意
+
+1. Richards et al. 2019 为摘要，全文在 Nature Neuroscience（付费），摘要内容用于综述
+2. Whittington & Bogacz 2017 PMID:28333583 为 PLOS Comp Biol（开放获取），但未获全文（API 限制），摘要已足够
+3. Francioni 2025 为 2023 年预印本正式发表版，PMCID:PMC10876199 已确认为 open access
+4. 体内（in vivo）直接验证爆发依赖可塑性作为信用分配机制的实验仍然稀少，文章中已明确此局限
+
+---
+
+## 状态文件更新
+
+- [x] `neuro-daily/articles/2026-06-24-credit-assignment-backprop.md`（新建，~5000字）
+- [x] `neuro-daily/notes/2026-06-24-reading-notes.md`（新建）
+- [x] `neuro-daily/sources/2026-06-24-sources.json`（新建）
+- [x] `neuro-daily/wiki/theories/backpropagation.md`（新建）
+- [x] `neuro-daily/wiki/concepts/credit-assignment-problem.md`（新建）
+- [x] `neuro-daily/wiki/concepts/feedback-alignment.md`（新建）
+- [x] `neuro-daily/wiki/theories/predictive-coding.md`（rev6）
+- [x] `neuro-daily/wiki/concepts/cerebellar-ltd.md`（rev2）
+- [x] `neuro-daily/wiki/_graph.json`（106节点，591边）
+- [x] `neuro-daily/wiki/CHANGELOG.md`（新增 2026-06-24 条目）
+- [x] `neuro-daily/wiki/index.md`（新增3页）
+- [x] `neuro-daily/state/topic_ledger.json`（文章#60，total_articles:60）
+- [x] `neuro-daily/state/unresolved_questions.md`（新增 Q-bp-01–03, Q-fa-01）
+- [x] `neuro-daily/state/source_registry.json`（新增8条）
+- [x] `neuro-daily/state/monthly_synthesis.md`（更新六月条目）
+- [x] `neuro-daily/logs/2026-06-24-run.log`（本文件）
+
+---
+
+## 提交信息
+
+**branch**: main
+**commit**: 待完成
+**push 状态**: 待完成

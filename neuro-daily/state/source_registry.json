@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -4791,6 +4791,144 @@
         "cerebellar cognitive function",
         "cerebellar affective function",
         "posterior cerebellum"
+      ]
+    },
+    {
+      "pmid": "32303713",
+      "title": "Backpropagation and the Brain",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2020,
+      "open_access": false,
+      "first_used": "2026-06-24",
+      "used_in": [
+        "2026-06-24-credit-assignment-backprop"
+      ],
+      "covers": [
+        "backpropagation",
+        "credit assignment",
+        "biological plausibility"
+      ]
+    },
+    {
+      "pmid": "27824044",
+      "pmcid": "PMC5105169",
+      "title": "Random synaptic feedback weights support error backpropagation for deep learning",
+      "journal": "Nature Communications",
+      "year": 2016,
+      "open_access": true,
+      "first_used": "2026-06-24",
+      "used_in": [
+        "2026-06-24-credit-assignment-backprop"
+      ],
+      "covers": [
+        "feedback alignment",
+        "weight symmetry problem",
+        "random feedback",
+        "credit assignment"
+      ]
+    },
+    {
+      "pmid": "29205151",
+      "pmcid": "PMC5716677",
+      "title": "Towards deep learning with segregated dendrites",
+      "journal": "eLife",
+      "year": 2017,
+      "open_access": true,
+      "first_used": "2026-06-24",
+      "used_in": [
+        "2026-06-24-credit-assignment-backprop"
+      ],
+      "covers": [
+        "segregated dendrites",
+        "apical dendrites",
+        "local credit assignment",
+        "deep learning biological plausibility"
+      ]
+    },
+    {
+      "pmid": "33986551",
+      "title": "Burst-dependent synaptic plasticity can coordinate learning in hierarchical circuits",
+      "journal": "Nature Neuroscience",
+      "year": 2021,
+      "open_access": false,
+      "first_used": "2026-06-24",
+      "used_in": [
+        "2026-06-24-credit-assignment-backprop"
+      ],
+      "covers": [
+        "burst firing",
+        "teacher signal",
+        "hierarchical credit assignment"
+      ]
+    },
+    {
+      "pmid": "28333583",
+      "pmcid": "PMC5467749",
+      "title": "An Approximation of the Error Backpropagation Algorithm in a Predictive Coding Network with Local Hebbian Synaptic Plasticity",
+      "journal": "Neural Computation",
+      "year": 2017,
+      "open_access": true,
+      "first_used": "2026-06-24",
+      "used_in": [
+        "2026-06-24-credit-assignment-backprop"
+      ],
+      "covers": [
+        "predictive coding",
+        "backpropagation equivalence",
+        "local Hebbian learning"
+      ]
+    },
+    {
+      "pmid": "31659335",
+      "pmcid": "PMC7115933",
+      "title": "A deep learning framework for neuroscience",
+      "journal": "Nature Neuroscience",
+      "year": 2019,
+      "open_access": true,
+      "first_used": "2026-06-24",
+      "used_in": [
+        "2026-06-24-credit-assignment-backprop"
+      ],
+      "covers": [
+        "deep learning framework",
+        "objective functions",
+        "learning rules",
+        "architectures"
+      ]
+    },
+    {
+      "pmid": "30205266",
+      "title": "Dendritic solutions to the credit assignment problem",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2019,
+      "open_access": false,
+      "first_used": "2026-06-24",
+      "used_in": [
+        "2026-06-24-credit-assignment-backprop"
+      ],
+      "covers": [
+        "dendritic credit assignment",
+        "apical dendrites",
+        "top-down feedback"
+      ]
+    },
+    {
+      "pmid": "37961227",
+      "pmcid": "PMC10635122",
+      "title": "Vectorized instructive signals in cortical dendrites during a brain-computer interface task",
+      "journal": "bioRxiv (preprint)",
+      "year": 2023,
+      "open_access": true,
+      "preprint": true,
+      "first_used": "2026-06-24",
+      "used_in": [
+        "2026-06-24-credit-assignment-backprop"
+      ],
+      "covers": [
+        "vectorized instructive signals",
+        "apical dendrites",
+        "BCI task",
+        "causal credit assignment in vivo"
       ]
     }
   ],

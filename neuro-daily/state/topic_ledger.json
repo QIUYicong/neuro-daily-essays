@@ -1,7 +1,81 @@
 {
-  "last_updated": "2026-06-23",
-  "total_articles": 59,
+  "last_updated": "2026-06-24",
+  "total_articles": 60,
   "entries": [
+    {
+      "date": "2026-06-24",
+      "title": "信用分配的困境：为什么大脑不使用反向传播，以及它如何自己解决这个问题",
+      "filename": "2026-06-24-credit-assignment-backprop.md",
+      "wiki_pages_created": [
+        "wiki/theories/backpropagation.md",
+        "wiki/concepts/credit-assignment-problem.md",
+        "wiki/concepts/feedback-alignment.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/predictive-coding.md",
+        "wiki/concepts/cerebellar-ltd.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "深层神经网络（无论生物还是人工）如何将最终输出的误差'追溯'到成百上千个参与参数——即信用分配问题。反向传播（BP）是工程解法，但面临权重对称、局部性、更新锁定、信号类型四个生物学困境。大脑演化出的四种近似机制（反馈对齐、树突分离学习、爆发放电教师信号、预测编码≈BP）如何各自绕开这些困境？",
+      "layer": [
+        "认知",
+        "方法",
+        "突触",
+        "细胞"
+      ],
+      "curriculum_track": "12. 人脑与 AI 的比较（首篇）",
+      "topic_tags": [
+        "backpropagation",
+        "credit assignment problem",
+        "weight transport problem",
+        "update locking",
+        "feedback alignment",
+        "segregated dendrites",
+        "burst-dependent plasticity",
+        "predictive coding approximation",
+        "Lillicrap 2016",
+        "Lillicrap 2020",
+        "Guerguiev 2017",
+        "Payeur 2021",
+        "Whittington Bogacz 2017",
+        "Richards Lillicrap 2019",
+        "Francioni 2025",
+        "deep learning",
+        "biological plausibility",
+        "forward-forward algorithm",
+        "Hinton 2022",
+        "cerebellar LTD as BP",
+        "apical dendrites teacher signal",
+        "vectorized instructive signals"
+      ],
+      "main_sources": [
+        "PMID:32303713 (摘要仅可用)",
+        "PMID:27824044 (PMC5105169, 开放全文)",
+        "PMID:29205151 (PMC5716677, 开放全文)",
+        "PMID:33986551 (摘要仅可用)",
+        "PMID:28333583 (PMC5467749, 开放全文)",
+        "PMID:31659335 (PMC7115933, 开放全文)",
+        "PMID:30205266 (摘要仅可用)",
+        "PMID:37961227 (PMC10635122, 预印本开放)"
+      ],
+      "unresolved_questions": [
+        "Q-bp-01: 皮层真正使用的信用分配机制与精确 BP 的差距有多大？",
+        "Q-bp-02: 不同皮层区域是否使用不同的信用分配近似？",
+        "Q-bp-03: 发育关键期是否是深层表征构建的特殊信用分配窗口？",
+        "Q-fa-01: 皮层反馈连接是否足够随机以实现反馈对齐？"
+      ],
+      "next_suggested_topics": [
+        "发育神经科学首篇：皮质脊髓束的髓鞘化与神经发育关键期（与 Q-bp-03 直接关联；延续运动皮层/小脑系列；轨道路线 2）",
+        "纹状体与基底节：直接/间接通路在习惯形成与目标导向学习中的角色（延续 DA/信用分配主题；课程路线 5）",
+        "后顶叶皮层（PPC）与感知-运动整合（填补运动规划 PPC 缺口，运动路线结尾）",
+        "深度学习与大脑表征的比较：CNN 视觉层级 vs V1-IT 表征相似性分析（AI 对照第二篇，紧接今日主题）",
+        "小脑共济失调（SCA）：疾病作为窗口，延续小脑系列（课程路线 11）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 60,
+      "dangling_reference_filled": "credit-assignment-problem（填补了 predictive-coding、three-factor-learning-rule、cerebellar-ltd 等页面的隐含缺口：为何小脑 LTD 是信用分配的生物案例）；backpropagation（课程路线 12 首个节点，连接 AI 框架与生物学习机制）",
+      "note": "系统日期 2026-06-01，逻辑日期顺延至 2026-06-24（第 60 篇），延续 2026-06-23 第 59 篇以保持知识库连续性。课程路线 12（人脑与 AI 比较）首篇。"
+    },
     {
       "date": "2026-06-23",
       "title": "小脑的秘密：浦肯野细胞如何让大脑成为一台预测机器",

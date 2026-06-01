@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "node_count": 103,
   "edge_count": 576,
   "edge_types": [
@@ -940,6 +940,33 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/forward-model.md"
+    },
+    {
+      "id": "backpropagation",
+      "title": "反向传播算法",
+      "domain": "theories",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/theories/backpropagation.md"
+    },
+    {
+      "id": "credit-assignment-problem",
+      "title": "信用分配问题",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/credit-assignment-problem.md"
+    },
+    {
+      "id": "feedback-alignment",
+      "title": "反馈对齐",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/feedback-alignment.md"
     }
   ],
   "edges": [
@@ -4143,6 +4170,81 @@
     },
     {
       "from": "ltd",
+      "to": "cerebellar-ltd",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment-problem",
+      "to": "backpropagation",
+      "type": "related"
+    },
+    {
+      "from": "backpropagation",
+      "to": "credit-assignment-problem",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "feedback-alignment",
+      "to": "backpropagation",
+      "type": "related"
+    },
+    {
+      "from": "feedback-alignment",
+      "to": "credit-assignment-problem",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "backpropagation",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "credit-assignment-problem",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "credit-assignment-problem",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "backpropagation",
+      "type": "related"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "credit-assignment-problem",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "credit-assignment-problem",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "credit-assignment-problem",
+      "type": "supports"
+    },
+    {
+      "from": "backpropagation",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "backpropagation",
+      "to": "dendritic-computation",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment-problem",
+      "to": "three-factor-learning-rule",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment-problem",
       "to": "cerebellar-ltd",
       "type": "related"
     }
