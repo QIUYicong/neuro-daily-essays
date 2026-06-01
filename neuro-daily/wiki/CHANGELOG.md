@@ -1000,3 +1000,31 @@
 - `synaptic-transmission`（突触传递）— 课程脊柱下一站
 
 **图谱**：节点 5，边 9。
+
+---
+
+## 2026-06-24
+
+**源文章**：[[2026-06-24-fear-extinction-circuits]] —《消退不等于遗忘：前额叶-杏仁核回路如何抑制恐惧印迹，以及这为什么让PTSD成为"永远的当下"》
+
+**层级**：微回路（ITC双闸门、BLA双细胞群）→ 脑区（vmPFC/IL皮层双向控制）→ 认知/行为（消退表达与情景特异性）→ 疾病（PTSD三环节失效）
+
+**新建页面（2）**：
+- `diseases/ptsd.md`（创伤后应激障碍）🟢 established — vmPFC低下+杏仁核过激+海马情景紊乱三环节失效模型；Milad 2009 fMRI核心证据
+- `concepts/reconsolidation.md`（记忆重巩固）🔵 mainstream/置信度中 — 记忆被回忆后短暂进入可塑性窗口；消退-重巩固交叉可修改原始恐惧痕迹（Monfils 2009 Science）
+
+**修订页面（3）**：
+- `concepts/fear-extinction.md` rev2→rev3：新增应激破坏消退的LC-NE-BLA-IL回路机制（Maren 2022）；PTSD消退回忆失败的fMRI证据（Milad 2009）；消退-重巩固交叉治疗窗口（Monfils 2009）；新增ptsd和reconsolidation到related和连接
+- `systems/amygdala.md` rev1→rev2：新增PTSD杏仁核过激证据；BLA→IL前馈抑制应激机制；重巩固窗口与LA突触的关联；更新related、连接
+- `systems/prefrontal-cortex.md` rev2→rev3：新增vmPFC/IL皮层在情绪调控中的IL/PL双向对抗框架；PTSD中vmPFC功能失调；更新related、连接
+
+**矛盾登记（0）**：新证据与既有主张一致，无新矛盾。
+
+**新增图谱节点（2）**：ptsd, reconsolidation  
+**新增图谱边（15）**：ptsd↔fear-extinction, ptsd↔amygdala, ptsd↔prefrontal-cortex, ptsd↔hippocampal-circuit, reconsolidation↔fear-extinction, reconsolidation↔ltp, reconsolidation↔memory-consolidation, reconsolidation→ptsd, norepinephrine-locus-coeruleus→fear-extinction, norepinephrine-locus-coeruleus→ptsd, fear-extinction→ptsd, hippocampal-circuit→ptsd, prefrontal-cortex→fear-extinction, amygdala→ptsd（总节点: 105, 总边: 591）
+
+**新增悬空引用（待补缺口）**：
+- `infralimbic-cortex`（下边缘皮层）—被 ptsd, fear-extinction 页面引用为子结构
+- `prelimbic-cortex`（前边缘皮层）—被 ptsd, fear-extinction 页面引用为子结构
+- `dorsal-anterior-cingulate-cortex`（背侧前扣带回）—PTSD中过激，被 ptsd 页面引用
+

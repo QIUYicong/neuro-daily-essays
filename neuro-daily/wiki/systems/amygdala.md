@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-05-30
-revision_count: 1
+updated: 2026-06-24
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, ptsd, prefrontal-cortex, reconsolidation]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function]
-source_articles: [2026-05-30-amygdala-fear-memory]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-06-24-fear-extinction-circuits]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:18615014", "PMID:19748076", "PMID:35520882"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -62,6 +62,9 @@ CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率
 - [[norepinephrine-locus-coeruleus]] — 蓝斑NE投射通过β-肾上腺素受体增强杏仁核LTP和恐惧记忆巩固
 - [[dopamine-reward-prediction-error]] — VTA DA投射到杏仁核调节奖励关联（与恐惧回路并行）
 - [[engram-cells]] — LA恐惧印迹细胞（~20%稀疏）与海马场所细胞印迹遵循相同的竞争选择逻辑
+- [[ptsd]] — 杏仁核慢性过激是PTSD的核心病理之一；BLA→IL前馈抑制使vmPFC失效
+- [[prefrontal-cortex]] — vmPFC/IL通过BLA消退细胞和ITC抑制杏仁核输出；应激下BLA反向压制vmPFC
+- [[reconsolidation]] — 记忆重激活时LA突触短暂进入可塑性窗口，为记忆更新提供机会
 
 ## 未解问题
 
@@ -72,7 +75,9 @@ CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
+- 2026-06-24 · 修订 · 新增PTSD中杏仁核过激的神经影像证据（Milad 2009）、BLA→IL前馈抑制在应激下破坏消退的机制（Maren 2022）、重巩固窗口与LA突触的关联；更新related、连接、key_sources
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
+- [[2026-06-24-fear-extinction-circuits]]

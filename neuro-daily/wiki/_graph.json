@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "node_count": 103,
   "edge_count": 576,
   "edge_types": [
@@ -940,6 +940,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/forward-model.md"
+    },
+    {
+      "id": "ptsd",
+      "title": "创伤后应激障碍（PTSD）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/ptsd.md"
+    },
+    {
+      "id": "reconsolidation",
+      "title": "记忆重巩固",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/reconsolidation.md"
     }
   ],
   "edges": [
@@ -4144,6 +4162,81 @@
     {
       "from": "ltd",
       "to": "cerebellar-ltd",
+      "type": "related"
+    },
+    {
+      "from": "ptsd",
+      "to": "fear-extinction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ptsd",
+      "to": "amygdala",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ptsd",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ptsd",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "reconsolidation",
+      "to": "fear-extinction",
+      "type": "regulates"
+    },
+    {
+      "from": "reconsolidation",
+      "to": "fear-conditioning",
+      "type": "related"
+    },
+    {
+      "from": "reconsolidation",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "reconsolidation",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "reconsolidation",
+      "to": "ptsd",
+      "type": "related"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "fear-extinction",
+      "type": "regulates"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "ptsd",
+      "type": "related"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "ptsd",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "ptsd",
+      "type": "related"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "fear-extinction",
+      "type": "regulates"
+    },
+    {
+      "from": "amygdala",
+      "to": "ptsd",
       "type": "related"
     }
   ],

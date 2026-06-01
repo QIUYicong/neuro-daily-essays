@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-23（第59篇·小脑的秘密·运动预测与多层可塑性）· 主题页总数：103（新建3页：cerebellum, cerebellar-ltd, forward-model；修订3页：ltd rev2, predictive-coding rev5, motor-cortex rev2）
+> 最后更新：2026-06-24（第60篇·消退不等于遗忘·PTSD与恐惧消退回路）· 主题页总数：105（新建2页：ptsd, reconsolidation；修订3页：fear-extinction rev3, amygdala rev2, prefrontal-cortex rev3）
 
 ---
 
@@ -58,6 +58,7 @@
 - 🟡 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）
 - 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失（修订2次）
 - 🟢 [记忆巩固（系统层面）](concepts/memory-consolidation.md) — SWR驱动的海马→皮层记忆转移；SO-spindle-SWR三重奏；SCT vs MTT理论争论；互补学习系统模型；NREM/SWR负责信息内容，REM/θ负责情感维度（SFSR假说，Q-rem-sleep-role部分解答）**[修订 2026-05-31]**
+- 🔵 [记忆重巩固](concepts/reconsolidation.md) — 已固化记忆被回忆后短暂重进入可塑性窗口（约1h）；消退-重巩固交叉可修改原始恐惧痕迹（Monfils 2009）；人类临床转化仍有不确定性 **[NEW 2026-06-24]**
 - 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
 - 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；与海马 NMDA-LTD 共用最终效应器但触发机制根本不同；Schonewille 2011 证明无 LTD 也能运动学习；Hansel 2026 预印本 400ms 时间窗口 **[NEW 2026-06-23]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
@@ -139,6 +140,7 @@
 
 - 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆 **[NEW 2026-06-08]**
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
+- 🟢 [创伤后应激障碍（PTSD）](diseases/ptsd.md) — vmPFC低下+杏仁核过激+海马情景紊乱三环节消退失效模型；暴露治疗的神经靶点 **[NEW 2026-06-24]**
 
 ---
 

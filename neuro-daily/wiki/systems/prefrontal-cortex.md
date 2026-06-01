@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-05-30
-revision_count: 2
+updated: 2026-06-24
+revision_count: 3
 dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, fear-extinction, amygdala, ptsd]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
 opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory]
-key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-24-fear-extinction-circuits]
+key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:12422216", "PMID:20303254", "PMID:19748076"]
 ---
 
 # 前额叶皮层（Prefrontal Cortex, PFC）
@@ -53,6 +53,15 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - 猕猴 → 人类：dlPFC 进一步扩大，L3d 锥体细胞更高、棘更多、连接更复杂
 - 人类特有的语言/符号工作记忆是否有独特神经机制，目前无法侵入性记录验证
 
+### vmPFC与情绪调控：IL/PL的双向对抗
+
+腹内侧前额叶皮层（vmPFC，啮齿类对应infralimbic cortex，IL）是恐惧消退记忆的存储和提取枢纽：
+- **IL皮层**（人类vmPFC核心区，Brodmann 25/32区）→ 消退促进：通过BLA消退神经元和腹侧ITC抑制CeA输出
+- **PL皮层**（背内侧PFC）→ 恐惧促进：通过BLA恐惧神经元激活CeA输出
+- Milad & Quirk（2002，PMID:12422216）：IL神经元在消退**回忆时**（而非训练当天）对CS有强烈响应，提示IL是消退记忆的存储节点
+
+**PTSD中的vmPFC功能失调**：Milad等（2009，PMID:19748076）的人类fMRI研究显示，PTSD患者消退回忆时vmPFC激活显著低于对照组，与高杏仁核激活和dACC过激共存，形成恐惧提取优势/消退提取障碍的神经画像。应激状态下，BLA→IL前馈抑制通路会进一步压制IL，形成恶性循环。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -71,6 +80,9 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - [[memory-consolidation]] — PFC 是记忆巩固后远端记忆的皮层存储库
 - [[global-workspace-theory]] — dlPFC 是全局工作空间神经元的核心解剖节点；参与意识点燃的广播
 - [[consciousness-ignition]] — 意识点燃在 PFC 的神经基础：只有被感知刺激触发 dlPFC 持续放电（van Vugt et al. 2018）
+- [[fear-extinction]] — vmPFC/IL皮层是消退记忆的存储与提取枢纽；PTSD中vmPFC低激活是核心病理
+- [[amygdala]] — vmPFC/IL→BLA→ITC通路是消退的执行链；应激下BLA反向压制vmPFC
+- [[ptsd]] — PTSD的vmPFC功能低下是暴露治疗的关键障碍和靶点
 
 ## 未解问题
 
@@ -81,6 +93,7 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文
 - 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 新增 dlPFC 在全局工作空间点燃中的角色；添加 global-workspace-theory 和 consciousness-ignition 到 related；新增猕猴 van Vugt 2018 证据
+- 2026-06-24 · 修订 · 新增 vmPFC/IL皮层在恐惧消退和PTSD中的角色（IL/PL双向对抗、Milad 2002/2009证据）；新增 fear-extinction、amygdala、ptsd 到 related 和连接
 
 ## 来源文章
 

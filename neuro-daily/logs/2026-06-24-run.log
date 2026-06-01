@@ -1,0 +1,96 @@
+# 运行日志 2026-06-24
+
+**运行时间**：北京时间 2026-06-24 约 22:00
+**文章编号**：#60
+**分支**：claude/funny-einstein-Bnodn
+
+## 选题过程
+
+**当前日期**：2026-06-24（UTC+8）
+**选题方法**：课程脊柱驱动（路线6：情绪与动机）+ 填补wiki悬空引用（fear-extinction既有页面缺少完整机制文章支撑）
+
+**候选主题**：
+1. 恐惧消退与PFC-杏仁核回路（最终选择）——vmPFC/IL皮层、ITC、消退新学习机制、PTSD
+2. 小脑共济失调的遗传基础（延续上篇小脑主题）
+3. 发育神经科学首篇：皮层层状结构形成
+
+**选择理由**：
+- 距上次情绪主题（2026-05-30 恐惧记忆）已24天，情绪模块需深化
+- fear-extinction wiki页已存在但缺少主文章支撑（主要机制证据未经完整研究）
+- PTSD作为疾病窗口，其三环节失效模型可与多个既有wiki页连接
+- 消退-重巩固交叉（reconsolidation）是新的重要wiki缺口
+
+## 文献检索
+
+**检索时间**：约25分钟
+**检索工具**：PubMed E-utilities (esearch/esummary/efetch), PMC全文获取
+
+**关键词**：
+- "fear extinction infralimbic cortex amygdala mechanism" → PMID 26983799等
+- "Milad Quirk infralimbic extinction recall" → PMID 15113265, 12422216
+- "Quirk Mueller neural mechanisms extinction memory" → PMID 17882236
+- "intercalated neurons amygdala extinction" → PMID 18615014等
+- "PTSD fear extinction impaired vmPFC amygdala" → PMID 30228049等
+- "Milad extinction recall humans fMRI" → PMID 17217927
+- "Monfils Cowansage Klann LeDoux 2009 Science" → PMID 19342552
+- "fear extinction review mechanisms amygdala prefrontal 2020-2026" → PMID 32970967等
+
+**候选来源**：18 PMIDs检索到
+**最终采用来源**：12篇（见sources/2026-06-24-sources.json）
+
+### 来源可用性分析
+- 开放全文（PMC）：3篇（Maren 2022, Plas 2024, Iqbal 2023）
+- 摘要可用：9篇（均为高质量Nature/Science/Biol.Psychiatry/Neuropsychopharmacology）
+- 排除原因：2篇因信噪比低或相关性弱排除
+
+## Wiki固结
+
+**新建页面（2）**：
+1. `wiki/diseases/ptsd.md` — PTSD三环节消退失效模型（vmPFC低下+杏仁核过激+海马紊乱）
+2. `wiki/concepts/reconsolidation.md` — 记忆重巩固窗口机制与消退-重巩固治疗交叉
+
+**修订页面（3）**：
+1. `wiki/concepts/fear-extinction.md` rev2→rev3：新增应激/NE机制、PTSD人类fMRI证据、重巩固治疗窗口、新连接（ptsd, reconsolidation）
+2. `wiki/systems/amygdala.md` rev1→rev2：新增PTSD杏仁核过激证据、BLA→IL前馈抑制、重巩固窗口与LA突触
+3. `wiki/systems/prefrontal-cortex.md` rev2→rev3：新增vmPFC/IL皮层情绪调控框架（IL/PL双向对抗）、PTSD的vmPFC机制
+
+**矛盾登记**：无（新证据与既有主张一致，无冲突需登记）
+
+**成熟度变化**：无需更新（ptsd: established/high；reconsolidation: mainstream/medium——已初始化）
+
+## 图谱更新
+
+- 新增节点：2（ptsd, reconsolidation）
+- 新增边：15
+- 总节点：105，总边：591
+
+## 状态文件更新
+
+- ✅ topic_ledger.json（第60篇，总数60）
+- ✅ unresolved_questions.md（新增4个问题：Q-fear-ext-01, Q-ptsd-vmPFC-biomarker, Q-recons-boundary-old-memories, Q-ptsd-hippocampus-cause-effect）
+- ✅ wiki/_graph.json（新节点+新边）
+- ✅ wiki/index.md（新页入库，头部更新）
+- ✅ wiki/CHANGELOG.md（2026-06-24节追加）
+- ✅ state/monthly_synthesis.md（第60篇摘要追加）
+
+## 来源局限说明
+
+1. **Milad & Quirk (2002) Nature** — 摘要。原始Milad 2002实验仅在啮齿类；该实验对人类神经影像研究具有框架性意义，但分子和细胞细节不可直接从人脑验证
+2. **Monfils et al. (2009) Science** — 摘要。消退-重巩固交叉有边界条件争议，人类临床转化一致性有限。文章中已明确说明争议
+3. **PTSD部分** — 主要基于三篇PMC开放综述（Maren 2022, Plas 2024, Iqbal 2023）和两篇Milad人类fMRI研究摘要。人类数据量有限，PTSD高度异质，文章中已标注不确定性
+
+## 自检结果
+
+- ✅ 真实性：每条wiki新主张有来源（PMID/DOI）；区分了事实/模型/推测/争议
+- ✅ 不确定性标注：重巩固边界条件、啮齿类→人类转化、PTSD异质性均有明确说明
+- ✅ 一致性：无冲突需走矛盾协议；被修订页的updated/revision_count/修订历史均同步
+- ✅ _graph.json无悬空边（新增边双向均有节点）
+- ✅ 可导航：index.md和CHANGELOG.md反映今天的变化；新页related/prerequisites均填写
+- ✅ 情景层完整：文章/笔记/来源/日志齐全；未改动旧文件
+
+## Git / Push状态
+
+- **本地commit**：待执行
+- **push**：待执行
+- **目标分支**：claude/funny-einstein-Bnodn（环境指定分支）
+- **remote**：http://local_proxy@127.0.0.1:33021/git/QIUYicong/neuro-daily-essays（包含QIUYicong/neuro-daily-essays，正确）

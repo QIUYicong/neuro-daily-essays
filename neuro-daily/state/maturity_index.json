@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "levels": [
     "speculative",
     "emerging",
@@ -495,6 +495,20 @@
       "supporting_sources": 2,
       "last_status_change": "2026-06-23",
       "reason": "创建 2026-06-23。Wolpert 1998 的前向/逆向模型框架获广泛认可（计算神经科学主流观点），但直接神经元层面证据仍主要来自行为和建模，神经底物细节待确认。置信度中等。"
+    },
+    {
+      "slug": "ptsd",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-24",
+      "reason": "初建，神经影像证据充分；临床诊断标准成熟"
+    },
+    {
+      "slug": "reconsolidation",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-06-24",
+      "reason": "初建，啮齿类证据充分；人类临床转化有争议"
     }
   ],
   "entries": [

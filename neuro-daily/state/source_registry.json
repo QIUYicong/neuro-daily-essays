@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -4791,6 +4791,131 @@
         "cerebellar cognitive function",
         "cerebellar affective function",
         "posterior cerebellum"
+      ]
+    },
+    {
+      "pmid": "12422216",
+      "doi": "10.1038/nature01138",
+      "title": "Neurons in medial prefrontal cortex signal memory for fear extinction",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "fear extinction",
+        "vmPFC",
+        "infralimbic cortex"
+      ]
+    },
+    {
+      "pmid": "18615014",
+      "doi": "10.1038/nature07167",
+      "title": "Amygdala intercalated neurons are required for expression of fear extinction",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "ITC",
+        "fear extinction",
+        "amygdala"
+      ]
+    },
+    {
+      "pmid": "17882236",
+      "doi": "10.1038/sj.npp.1301555",
+      "title": "Neural mechanisms of extinction learning and retrieval",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "fear extinction",
+        "mechanisms review"
+      ]
+    },
+    {
+      "pmid": "20303254",
+      "doi": "10.1016/j.conb.2010.02.005",
+      "title": "Prefrontal control of fear: more than just extinction",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "PFC",
+        "fear extinction",
+        "IL/PL cortex"
+      ]
+    },
+    {
+      "pmid": "17217927",
+      "doi": "10.1016/j.biopsych.2006.10.011",
+      "title": "Recall of fear extinction in humans activates vmPFC and hippocampus",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "vmPFC",
+        "fear extinction",
+        "human fMRI"
+      ]
+    },
+    {
+      "pmid": "19748076",
+      "doi": "10.1016/j.biopsych.2009.06.026",
+      "title": "Neurobiological basis of failure to recall extinction memory in PTSD",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "PTSD",
+        "fear extinction failure",
+        "vmPFC",
+        "amygdala"
+      ]
+    },
+    {
+      "pmid": "19342552",
+      "doi": "10.1126/science.1167975",
+      "title": "Extinction-reconsolidation boundaries: key to persistent attenuation of fear memories",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "reconsolidation",
+        "fear extinction",
+        "memory update"
+      ]
+    },
+    {
+      "pmid": "17160066",
+      "doi": "10.1038/sj.mp.4001939",
+      "title": "Mechanisms of fear extinction",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "fear extinction",
+        "mechanisms",
+        "review"
+      ]
+    },
+    {
+      "pmid": "35520882",
+      "pmcid": "PMC9062589",
+      "title": "Unrelenting Fear Under Stress: Neural Circuits and Mechanisms",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "stress",
+        "extinction deficit",
+        "LC-NE",
+        "BLA"
+      ]
+    },
+    {
+      "pmid": "38370858",
+      "pmcid": "PMC10869525",
+      "title": "Neural circuits for the adaptive regulation of fear and extinction memory",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "fear extinction circuits",
+        "IL/PL",
+        "hippocampus",
+        "BDNF"
+      ]
+    },
+    {
+      "pmid": "38116070",
+      "pmcid": "PMC10728304",
+      "title": "Neural circuits and molecular mechanisms underlying fear dysregulation in PTSD",
+      "first_used": "2026-06-24",
+      "topics_covered": [
+        "PTSD",
+        "neural circuits",
+        "vmPFC",
+        "amygdala",
+        "hippocampus"
       ]
     }
   ],

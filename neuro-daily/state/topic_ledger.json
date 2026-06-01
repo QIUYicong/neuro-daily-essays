@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-23",
-  "total_articles": 59,
+  "last_updated": "2026-06-24",
+  "total_articles": 60,
   "entries": [
     {
       "date": "2026-06-23",
@@ -2901,6 +2901,82 @@
         "小脑与运动学习：运动皮层专篇后，继续课程路线3的运动系统；小脑并行纤维/浦肯野细胞/LTD的计算原理",
         "网格→场所转化精确机制：MEC模块叠加或振荡干涉？（填补Q-gc-01方向）",
         "空间记忆的情境依赖性：相同路径、不同情境→不同场所图；通过Q-gc-01引发的情境整合机制"
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "title": "消退不等于遗忘：前额叶-杏仁核回路如何抑制恐惧印迹，以及这为什么让PTSD成为永远的当下",
+      "filename": "2026-06-24-fear-extinction-circuits.md",
+      "wiki_pages_created": [
+        "wiki/diseases/ptsd.md",
+        "wiki/concepts/reconsolidation.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/fear-extinction.md",
+        "wiki/systems/amygdala.md",
+        "wiki/systems/prefrontal-cortex.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "消退是记忆抹除还是新学习？IL皮层→ITC→CeA抑制通路与情景门控如何实现消退？PTSD三环节失效如何导致恐惧永久化？",
+      "layer": [
+        "微回路",
+        "脑区",
+        "行为",
+        "认知",
+        "疾病"
+      ],
+      "curriculum_track": "6. 情绪与动机（恐惧消退深度专题）+ 11. 疾病作为窗口（PTSD三环节机制）",
+      "topic_tags": [
+        "fear extinction",
+        "vmPFC",
+        "infralimbic cortex",
+        "prelimbic cortex",
+        "amygdala",
+        "BLA",
+        "ITC",
+        "intercalated cells",
+        "CeA",
+        "spontaneous recovery",
+        "renewal",
+        "reinstatement",
+        "PTSD",
+        "extinction failure",
+        "reconsolidation",
+        "Monfils 2009",
+        "Milad 2002",
+        "Milad 2009",
+        "Likhtik 2008",
+        "Maren 2022",
+        "norepinephrine",
+        "locus coeruleus",
+        "stress",
+        "hippocampus",
+        "context dependence",
+        "exposure therapy"
+      ],
+      "main_sources": [
+        "PMID:12422216 (abstract only)",
+        "PMID:17882236 (abstract only)",
+        "PMID:18615014 (abstract only)",
+        "PMID:20303254 (abstract only)",
+        "PMID:17217927 (abstract only)",
+        "PMID:19748076 (abstract only)",
+        "PMID:19342552 (abstract only)",
+        "PMID:17160066 (abstract only)",
+        "PMID:35520882 (PMC open access, PMC9062589)",
+        "PMID:38370858 (PMC open access, PMC10869525)",
+        "PMID:38116070 (PMC open access, PMC10728304)"
+      ],
+      "unresolved_questions": [
+        "Q-fear-ext-01: 消退长效机制：去增强vs新突触建立哪个是主因？",
+        "Q-ptsd-vmPFC-biomarker: vmPFC激活量能否预测暴露疗法疗效？",
+        "Q-recons-boundary-old-memories: 多年历史的PTSD记忆是否依然有重巩固窗口？",
+        "Q-ptsd-hippocampus-cause-effect: PTSD中海马萎缩是原因还是结果？"
+      ],
+      "next_suggested_topics": [
+        "下边缘/前边缘皮层专页（IL/PL皮层）：恐惧-消退双控的解剖基础，填补悬空引用",
+        "社会恐惧与社会认知神经回路（延续情绪模块，转向社会维度）",
+        "发育神经科学首篇：大脑皮层层状结构的形成与关键期可塑性"
       ]
     }
   ],

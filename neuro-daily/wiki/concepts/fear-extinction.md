@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-05-31
-revision_count: 2
+updated: 2026-06-24
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
 related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
 opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory]
-key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-06-24-fear-extinction-circuits]
+key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:12422216", "PMID:19748076", "PMID:19342552", "PMID:35520882"]
 ---
 
 # 恐惧消退 (Fear Extinction)
@@ -44,6 +44,9 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - **消退表达时**：BLA+IL→ICMMV激活 → ICMMV抑制CeM → 恐惧被压制
 - 消退训练后，BLA→ICMMV突触增强（塑性变化）
 
+### 应激下的消退失效（Maren 2022）
+急性应激（如高NE状态）通过BLA→IL前馈抑制，将IL皮层压制至低活动水平，使消退记忆无法在训练期间写入。β-受体阻断剂（普萘洛尔）注射至BLA可完全消除该缺陷，证实LC-NE-BLA-IL是应激破坏消退的核心通路。临床含义：创伤后24-48小时内进行暴露治疗可能因NE水平过高而适得其反。
+
 ### BA双神经元群（情景依赖的开关）
 - **恐惧细胞**：条件反射后CS+，消退后响应消失；投射PL皮层
 - **消退细胞**：消退后CS+；投射IL皮层
@@ -62,7 +65,9 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 | BA中恐惧/消退双神经元群，PL/IL差异投射 | 多通道记录+逆行标记 | PMID:18615015 | 高 |
 | vmPFC激活强度预测消退回忆质量 | 人类fMRI多研究汇总 | PMID:22129456 (PMC4942586) | 中-高 |
 | IL→BLA投射光遗传激活促进消退形成 | 光遗传操控IL→BLA通路 | PMID:38370858 (PMC10869525) | 高 |
-| PTSD：消退训练正常，消退回忆次日失败 | 恐惧条件反射范式+fMRI | PMID:22129456 (PMC4942586) | 中 |
+| PTSD：消退训练正常，消退回忆次日失败 | 恐惧条件反射范式+fMRI | PMID:19748076（摘要） | 高 |
+| 应激下BLA-IL前馈抑制导致即时消退缺陷，普萘洛尔救援 | 大鼠BLA内药物注射+行为测试 | PMID:35520882 (PMC9062589) | 高 |
+| 消退-重巩固交叉消除自发恢复/再激活/情景更新 | 单次CS先激活+窗口内消退训练 | PMID:19342552（摘要） | 中（边界条件有争议）|
 
 ## 连接
 
@@ -71,7 +76,9 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - [[ltp]] — 原始恐惧记忆的底物（消退不能完全逆转）
 - [[ltd]] — 去增强机制（早期消退中的NMDA/mGluR-LTD）；恐惧条件反射与消退的双向塑性
 - [[hippocampal-circuit]] — 提供情景信号给BA，决定恐惧/消退哪套主导；消退的情景特异性来源
-- [[norepinephrine-locus-coeruleus]] — 应激时NE过度激活 → 损害消退（Plas 2024）
+- [[norepinephrine-locus-coeruleus]] — 应激时NE过度激活 → BLA→IL前馈抑制 → 损害消退（Maren 2022）
+- [[ptsd]] — PTSD是消退提取的系统性失效；vmPFC低激活是核心神经基础（Milad 2009）
+- [[reconsolidation]] — 记忆重巩固窗口内进行消退可真正修改原始恐惧痕迹（Monfils 2009）
 
 ## 未解问题
 
@@ -82,7 +89,10 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高（啮齿类证据充分，人类转化大体一致）
+- 2026-05-31 · 修订 · 新增REM睡眠与LA-VH θ同步在消退巩固中的作用（Totty 2017；Walker 2009）
+- 2026-06-24 · 修订 · 新增：（1）应激破坏消退的LC-NE-BLA-IL回路机制（Maren 2022）；（2）PTSD消退回忆失败的人类fMRI证据（Milad 2009）；（3）消退-重巩固交叉治疗窗口（Monfils 2009）；（4）新增ptsd和reconsolidation到related和连接；更新关键证据表
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
+- [[2026-06-24-fear-extinction-circuits]]
