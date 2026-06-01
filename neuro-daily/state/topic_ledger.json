@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-31",
-  "total_articles": 36,
+  "last_updated": "2026-06-20",
+  "total_articles": 56,
   "entries": [
     {
       "date": "2026-05-24",
@@ -2586,6 +2586,82 @@
       "mode": "long_term_curriculum",
       "dangling_reference_filled": "attentional-blink（填补 consciousness-ignition 和 global-workspace-theory 的悬空引用，两页均在 related 字段引用了 attentional-blink 但节点不存在；今日新建节点）",
       "note": "第36篇，系统日期UTC+8 2026-05-31。意识专题五联篇（GWT/预测编码/DMN/IIT/COGITATE/AB）完成。新建1个wiki页面（attentional-blink），修订2个（global-workspace-theory rev5, consciousness-ignition rev4）。图谱新增1节点7条边（总计83节点493条边）。填补了 COGITATE 2025 遗留的方法论缺口：注意瞬盲提供了感觉对等条件下的有/无意识分叉内部对照，是 GWT 点燃预测（270ms 前额-顶叶分叉）最干净的直接神经证据。"
+    },
+    {
+      "date": "2026-06-20",
+      "title": "语言的解剖：双流网络如何将声波解码为思想",
+      "filename": "2026-06-20-language-dual-stream.md",
+      "wiki_pages_created": [
+        "wiki/systems/language-network.md",
+        "wiki/systems/broca-area.md",
+        "wiki/concepts/arcuate-fasciculus.md",
+        "wiki/circuits/dorsal-language-stream.md",
+        "wiki/circuits/ventral-language-stream.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/working-memory.md",
+        "wiki/theories/predictive-coding.md",
+        "wiki/systems/default-mode-network.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "双流语言网络（背侧流：声音→动作/句法；腹侧流：声音→意义）的解剖与计算分工，以及Broca区内部BA44（句法）vs BA45（语义）的异质性",
+      "layer": [
+        "脑区",
+        "全脑网络",
+        "认知"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（首篇）",
+      "topic_tags": [
+        "dual-stream language",
+        "ventral stream",
+        "dorsal stream",
+        "Broca area",
+        "Wernicke area",
+        "arcuate fasciculus",
+        "BA44",
+        "BA45",
+        "Hickok Poeppel",
+        "Friederici",
+        "syntax",
+        "semantics",
+        "Merge operation",
+        "phonological loop",
+        "sign language",
+        "supramodal",
+        "embodied semantics",
+        "predictive language processing",
+        "aphasia",
+        "Broca aphasia",
+        "Wernicke aphasia",
+        "conduction aphasia"
+      ],
+      "main_sources": [
+        "PMID:17431404 (abstract only)",
+        "PMID:29360947 (PMC5837461)",
+        "PMID:31735144 (PMC6895560)",
+        "PMID:33118302 (PMC7814757)",
+        "PMID:38267261 (PMC10957213)",
+        "PMID:41213155 (abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-lang-01：背侧/腹侧流边界是否真实？",
+        "Q-lang-02：右半球在语言中的确切角色",
+        "Q-lang-03：语法与语义的神经解离能否成立",
+        "Q-lang-04：BA44与F5（镜像神经元区）的演化关系",
+        "Q-lang-05：AF背侧vs腹侧分支的功能差异",
+        "Q-lang-06：颞顶界面区Spt在长复杂句理解中的贡献",
+        "Q-lang-07：具身语义的程度——所有词还是只有具体词？"
+      ],
+      "next_suggested_topics": [
+        "语言网络深化：语音知觉的神经机制（颞上沟、颞平面、音素处理）",
+        "Wernicke区专篇：后颞上回的确切功能（语音识别 vs 语义？）",
+        "具身语义专篇：感觉运动皮层如何承载词义（工具词/动作词/颜色词）",
+        "句法神经科学：P600/ERAN ERP成分，BA44层级运算的电生理证据",
+        "语言习得与发育：弓状束成熟、关键期、双语效应",
+        "运动皮层与随意运动（Motor cortex）——课程路线3的运动系统缺口"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 56
     }
   ],
   "layer_coverage_recent": {

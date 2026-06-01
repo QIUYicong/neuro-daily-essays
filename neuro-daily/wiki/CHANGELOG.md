@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-06-20（第 56 篇·双流语言网络·课程路线7 语言与抽象思维 首篇）
+
+**源文章**：[[2026-06-20-language-dual-stream]] —《语言的解剖：双流网络如何将声波解码为思想》
+
+**新建页面（5）**：
+- `systems/language-network.md`（语言网络）🟢 established / 置信度高 — Hickok & Poeppel 2007 双流模型；腹侧流（声音→意义，双侧）+ 背侧流（声音→动作/句法，左侧主导）；超模态证据（手语研究）；主动预测性
+- `systems/broca-area.md`（Broca区）🟢 established / 置信度高 — BA44（pars opercularis，层级句法Merge运算，背侧流）vs BA45（pars triangularis，语义工作记忆，腹侧流）内部分工；Friederici 2020 发育证据
+- `concepts/arcuate-fasciculus.md`（弓状束）🟢 established / 置信度高 — 背侧流主干白质通路；左侧优势；出生时低髓鞘化随句法习得成熟；损伤→传导性失语
+- `circuits/dorsal-language-stream.md`（背侧语言流）🟢 established / 置信度高 — A1→颞平面→Spt→弓状束→BA44→运动皮层；音韵短期记忆+句法层级运算；左侧主导
+- `circuits/ventral-language-stream.md`（腹侧语言流）🟢 established / 置信度高 — A1→MTG/STS→ITG→角回→BA45；声音→词义映射；双侧分布；具身语义（工具词→运动皮层，动物词→视觉皮层）
+
+**修订页面（3）**：
+- `concepts/working-memory.md`（修订#5）— 新增语音回路（phonological loop）对应背侧流Spt↔BA44环路的描述；related 新增 dorsal-language-stream, language-network
+- `theories/predictive-coding.md`（修订#5）— 新增语言预测编码实例（词前200ms语义-感觉运动预测，Grisoni 2024）；related 新增 language-network, ventral-language-stream
+- `systems/default-mode-network.md`（修订#4）— 新增角回（BA39）作为DMN-语言网络共享节点；related 新增 language-network, ventral-language-stream
+
+**矛盾登记**：无新矛盾（语言网络的双流分工已被多来源独立支持，证据一致）
+
+**悬空引用**：新增潜在悬空引用待补：
+- `wernicke-area`（颞上回语音区，与 language-network 密切相关）
+- `embodied-semantics`（具身语义，ventral-language-stream 中的核心机制）
+- `planum-temporale`（颞平面，语音时序分析节点）
+
+**图谱更新**：新增节点5（language-network, broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream）；修订节点3（working-memory, predictive-coding, default-mode-network）；新增有向边约20条
+
+---
+
 ## 2026-05-31（第 36 篇·注意瞬盲·填补 Q-gwt-02 + Q-cogitate-02·课程路线8 意识与自我 第五篇）
 
 **源文章**：[[2026-05-31-attentional-blink]] —《注意瞬盲：当意识成为稀缺资源，大脑如何在时间中撞墙》

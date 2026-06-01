@@ -1,0 +1,175 @@
+{
+  "date": "2026-06-20",
+  "article": "2026-06-20-language-dual-stream",
+  "topic": "双流语言网络：从声波到意义",
+  "search_strategy": {
+    "databases": ["PubMed E-utilities", "PubMed Central", "Europe PMC"],
+    "search_terms": [
+      "dual stream language network cortex",
+      "Hickok Poeppel cortical organization speech processing",
+      "Friederici language brain hierarchy",
+      "sign language ALE meta-analysis brain",
+      "predictive processing language brain EEG",
+      "Wernicke area speech comprehension mechanism",
+      "arcuate fasciculus language speech production"
+    ],
+    "candidates_found": 35,
+    "candidates_reviewed": 15,
+    "sources_adopted": 6,
+    "sources_excluded": 9
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "17431404",
+      "pmcid": null,
+      "doi": "10.1038/nrn2113",
+      "title": "The cortical organization of speech processing",
+      "authors": ["Hickok G", "Poeppel D"],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2007,
+      "volume": "8",
+      "issue": "5",
+      "pages": "393-402",
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "reason_for_exclusion_or_limitation": "付费文章，仅使用摘要和文献引用",
+      "relevance": "高",
+      "key_contributions": ["建立双流模型（腹侧流声音→意义，背侧流声音→动作/句法）", "将语言组织从串联电话线模型升维为并行双流网络"],
+      "used_in_article": true
+    },
+    {
+      "id": "S2",
+      "pmid": "29360947",
+      "pmcid": "PMC5837461",
+      "doi": "10.1093/brain/awx363",
+      "title": "Anatomy of aphasia revisited",
+      "authors": ["Fridriksson J", "den Ouden DB", "Hillis AE", "Hickok G", "Rorden C", "Basilakos A", "Yourganov G", "Bonilha L"],
+      "journal": "Brain",
+      "year": 2018,
+      "volume": "141",
+      "issue": "3",
+      "pages": "848-862",
+      "full_text_available": true,
+      "access_type": "PMC_open_access",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5837461/",
+      "relevance": "高",
+      "key_contributions": [
+        "大规模失语症患者VLSM研究支持双流模型",
+        "运动言语障碍→背侧流损伤；理解障碍→腹侧流损伤",
+        "语言组织是分布式网络，非两点一线"
+      ],
+      "used_in_article": true
+    },
+    {
+      "id": "S3",
+      "pmid": "31735144",
+      "pmcid": "PMC6895560",
+      "doi": "10.1098/rstb.2018.0391",
+      "title": "Hierarchy processing in human neurobiology: how specific is it?",
+      "authors": ["Friederici AD"],
+      "journal": "Philosophical Transactions of the Royal Society B: Biological Sciences",
+      "year": 2020,
+      "volume": "375",
+      "issue": "1789",
+      "pages": "20180391",
+      "full_text_available": true,
+      "access_type": "PMC_open_access",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6895560/",
+      "relevance": "高",
+      "key_contributions": [
+        "BA44（pars opercularis）专管层级句法运算（Merge操作）",
+        "BA45（pars triangularis）属于腹侧语义网络",
+        "猕猴不能学习中心嵌入语法AⁿBⁿ，人类可以",
+        "弓状束髓鞘化进度预测儿童句法习得速度"
+      ],
+      "used_in_article": true
+    },
+    {
+      "id": "S4",
+      "pmid": "33118302",
+      "pmcid": "PMC7814757",
+      "doi": "10.1002/hbm.25254",
+      "title": "Functional neuroanatomy of language without speech: An ALE meta-analysis of sign language",
+      "authors": ["Trettenbrein PC", "Papitto G", "Friederici AD", "Zaccarella E"],
+      "journal": "Human Brain Mapping",
+      "year": 2021,
+      "volume": "42",
+      "issue": "3",
+      "pages": "699-712",
+      "full_text_available": true,
+      "access_type": "PMC_open_access",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7814757/",
+      "relevance": "高",
+      "key_contributions": [
+        "23项手语研究ALE元分析",
+        "手语激活与口语几乎相同的左侧Broca区（BA44/45）",
+        "Broca区偏侧化指数0.68，超模态语言网络证据",
+        "语言左半球优势是抽象语言运算特化，非声音特化"
+      ],
+      "used_in_article": true
+    },
+    {
+      "id": "S5",
+      "pmid": "38267261",
+      "pmcid": "PMC10957213",
+      "doi": "10.1523/JNEUROSCI.1876-23.2024",
+      "title": "Predictive Brain Activity Shows Congruent Semantic Specificity in Language Comprehension and Production",
+      "authors": ["Grisoni L", "Boux IP", "Pulvermüller F"],
+      "journal": "Journal of Neuroscience",
+      "year": 2024,
+      "volume": "44",
+      "issue": "12",
+      "pages": "e1876232024",
+      "full_text_available": true,
+      "access_type": "PMC_open_access",
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10957213/",
+      "relevance": "高",
+      "key_contributions": [
+        "词出现前200ms的语义-感觉运动预测电位（PP）",
+        "动物词预测激活视觉皮层，工具词预测激活运动皮层",
+        "理解和产出任务共享相同预测机制",
+        "具身语义（embodied semantics）的神经证据"
+      ],
+      "used_in_article": true
+    },
+    {
+      "id": "S6",
+      "pmid": "41213155",
+      "pmcid": null,
+      "doi": null,
+      "title": "Brain structural networks underlying language",
+      "authors": ["Friederici AD"],
+      "journal": "Physiological Reviews",
+      "year": 2026,
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "reason_for_exclusion_or_limitation": "最新综述，摘要可用但全文付费",
+      "relevance": "中高",
+      "key_contributions": [
+        "语言白质网络结构综述（最新2026年）",
+        "双语习得改变白质连接",
+        "语言网络发育与学习驱动可塑性"
+      ],
+      "used_in_article": true
+    }
+  ],
+  "excluded_sources": [
+    {
+      "pmid": "16234297",
+      "title": "Right anterior superior temporal activation predicts auditory sentence comprehension following aphasic stroke",
+      "reason": "关联性较低，仅补充右半球语言功能背景，未纳入主要引用"
+    },
+    {
+      "pmid": "35611721",
+      "title": "Generalizable Predictive Modeling of Semantic Processing Ability from Functional Brain Connectivity",
+      "reason": "内容相关但与核心叙事重叠度低，未纳入"
+    }
+  ],
+  "quality_assessment": {
+    "open_full_text_count": 4,
+    "abstract_only_count": 2,
+    "official_institution_sources": ["PubMed/NCBI", "PMC Open Access"],
+    "coverage_assessment": "双流模型建立（S1）+ 失语症证据（S2）+ 句法层级运算（S3）+ 超模态性（S4）+ 预测编码（S5）+ 结构网络最新综述（S6）——全面覆盖今日核心主题"
+  }
+}

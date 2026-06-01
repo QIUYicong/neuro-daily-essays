@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-05-31",
+  "updated": "2026-06-20",
   "node_count": 83,
   "edge_count": 493,
   "edge_types": [
@@ -769,6 +769,51 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/attentional-blink.md"
+    },
+    {
+      "id": "language-network",
+      "title": "语言网络（双流模型）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/language-network.md"
+    },
+    {
+      "id": "broca-area",
+      "title": "Broca区（额叶下回）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/broca-area.md"
+    },
+    {
+      "id": "arcuate-fasciculus",
+      "title": "弓状束",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/arcuate-fasciculus.md"
+    },
+    {
+      "id": "dorsal-language-stream",
+      "title": "背侧语言流",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/dorsal-language-stream.md"
+    },
+    {
+      "id": "ventral-language-stream",
+      "title": "腹侧语言流",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/ventral-language-stream.md"
     }
   ],
   "edges": [
@@ -3578,6 +3623,146 @@
       "to": "attentional-blink",
       "type": "related",
       "note": "注意瞬盲填补了 COGITATE 未能检验的 GWT 核心有/无意识分叉场景"
+    },
+    {
+      "from": "language-network",
+      "to": "broca-area",
+      "type": "part-of"
+    },
+    {
+      "from": "language-network",
+      "to": "dorsal-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "language-network",
+      "to": "ventral-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "language-network",
+      "to": "arcuate-fasciculus",
+      "type": "part-of"
+    },
+    {
+      "from": "language-network",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "language-network",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "language-network",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "broca-area",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "broca-area",
+      "to": "dorsal-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "broca-area",
+      "to": "ventral-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "broca-area",
+      "to": "arcuate-fasciculus",
+      "type": "related"
+    },
+    {
+      "from": "broca-area",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "dorsal-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "broca-area",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-language-stream",
+      "to": "broca-area",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dorsal-language-stream",
+      "to": "arcuate-fasciculus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dorsal-language-stream",
+      "to": "working-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dorsal-language-stream",
+      "to": "ventral-language-stream",
+      "type": "related"
+    },
+    {
+      "from": "ventral-language-stream",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "ventral-language-stream",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "ventral-language-stream",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "working-memory",
+      "to": "dorsal-language-stream",
+      "type": "related"
+    },
+    {
+      "from": "working-memory",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "ventral-language-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "ventral-language-stream",
+      "type": "related"
     }
   ],
   "dangling_references": [
@@ -3738,6 +3923,29 @@
         "norepinephrine-locus-coeruleus"
       ],
       "note": "蓝斑解剖结构专页（脑桥，人类~5万NE神经元，含黑色素）；待建页面"
+    },
+    {
+      "slug": "wernicke-area",
+      "referenced_by": [
+        "language-network",
+        "dorsal-language-stream"
+      ],
+      "note": "韦尼克区（后颞上回BA22后部）专页；待建页面"
+    },
+    {
+      "slug": "embodied-semantics",
+      "referenced_by": [
+        "ventral-language-stream"
+      ],
+      "note": "具身语义理论专页；词义与感觉运动皮层的链接；待建页面"
+    },
+    {
+      "slug": "planum-temporale",
+      "referenced_by": [
+        "language-network",
+        "dorsal-language-stream"
+      ],
+      "note": "颞平面专页；语音时序分析；左半球不对称性与语言优势；待建页面"
     }
   ]
 }

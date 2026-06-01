@@ -9,7 +9,7 @@ created: 2026-06-16
 updated: 2026-05-31
 revision_count: 3
 dimensions: [whole-brain-network, cognition, behavior, brain-region]
-related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala, global-workspace-theory, world-model]
+related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala, global-workspace-theory, world-model, language-network, ventral-language-stream]
 prerequisites: [hippocampal-circuit, working-memory, predictive-coding]
 opens_questions: [Q-dmn-01, Q-dmn-02, Q-dmn-03, Q-dmn-04]
 source_articles: [2026-06-16-default-mode-network, 2026-05-31-week4-synthesis]
@@ -85,6 +85,8 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 - [[amygdala]] — 杏仁核情绪信息通过 BLA→mPFC 通路影响 DMN 自我相关处理
 - [[competition-selection-principle]] — DMN-TPN 反相关是脑内竞争-遴选的全脑网络层实例
 - [[global-workspace-theory]] — DMN 是先验生成器，GWT 工作空间是广播基础设施；互补关系（Q-dmn-04 部分解答）
+- [[language-network]] — 角回（BA39）是DMN的顶下叶节点，同时也是腹侧语言流的多模态语义整合节点；语言理解调用情景记忆和社会知识时，正是通过此共享节点连接两个网络
+- [[ventral-language-stream]] — 腹侧语言流的语义整合（角回、MTG）与DMN的情景记忆/场景构建功能高度重叠，隐喻和叙事理解激活DMN-语言网络重叠区
 
 ## 未解问题
 
@@ -98,8 +100,10 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 - 2026-06-16 · 创建 · 基于《当大脑"休息"时，它在做什么？》一文 · 初始置信度：高（核心解剖和功能已确立）；子系统边界：中
 - 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 部分回应 Q-dmn-04：DMN 作为先验生成器 vs 全局工作空间作为广播基础设施的互补架构；添加 global-workspace-theory 到 related；更新当前理解段落
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将 DMN 定位为「世界模型离线仿真层」；新增 world-model 到 related；明确 DMN 作为世界模型后台服务（先验生成器 + 情节重构 + 社会仿真）的六层架构定位；AD/DMN 连接中补充世界模型视角
+- 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增角回（BA39）作为DMN-语言网络共享节点的描述；腹侧语言流语义整合与DMN情景记忆/场景构建的功能重叠；related 新增 language-network, ventral-language-stream
 
 ## 来源文章
 
 - [[2026-06-16-default-mode-network]]
 - [[2026-05-30-global-workspace-theory]]
+- [[2026-06-20-language-dual-stream]]

@@ -9,13 +9,13 @@ created: 2026-06-05
 updated: 2026-06-10
 revision_count: 3
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex]
+related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
 source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne]
 key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597"]
-updated: 2026-06-12
-revision_count: 4
+updated: 2026-06-20
+revision_count: 5
 ---
 
 # 工作记忆 (Working Memory)
@@ -67,6 +67,8 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[theta-oscillations]] — θ 周期内可嵌套 5–7 个 γ 爆发，可能与工作记忆容量相关
 - [[memory-consolidation]] — 工作记忆的长期化需要海马参与
 - [[short-term-synaptic-plasticity]] — STP易化机制是"活动无声"工作记忆的物理基础（Mongillo 2008）；Syt7驱动的易化状态储存记忆，无需持续高频放电
+- [[dorsal-language-stream]] — Baddeley语音回路（phonological loop）对应背侧流Spt↔BA44环路：颞顶界面区（Spt）是音韵短期缓冲，弓状束传递信息到BA44进行内部"默读"，是语言工作记忆的神经底层
+- [[language-network]] — 双流语言网络中的背侧流Spt↔BA44子回路 = 语音工作记忆的解剖基础
 
 ## 未解问题
 
@@ -96,6 +98,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"工作记忆容量的吸引子竞争机制"小节；明确 θ/γ 嵌套约束与吸引子竞争两种容量限制假说；added [[competition-selection-principle]] to related
 - 2026-06-10 · 修订 · 基于《瞬息之变：短时程突触可塑性》一文 · 将 [[short-term-synaptic-plasticity]] 加入 related；明确Mongillo（2008）的STP机制作为"活动无声"储存的分子基础；为Q-wm-active-vs-silent提供新的STP侧证据（Syt7慢解离动力学与储存时间窗的对应）
 - 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增 NE/ACh 对工作记忆的调制条目：α2A 受体（高亲和力 NE 受体）抑制 HCN 通道、稳定 PFC 工作记忆表征（Arnsten）；M1 ACh 受体促进持续放电（Hasselmo & Sarter 2011）；α7-nAChR 增强 dlPFC NMDA 信号稳定性（Yang 2013）；related 新增 norepinephrine-locus-coeruleus, acetylcholine-cortex
+- 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语音工作记忆（phonological loop）与背侧语言流的解剖对应：Spt（音韵短期缓冲）↔BA44（内部发声）即Baddeley语音回路的神经底层；related 新增 dorsal-language-stream, language-network
 
 ## NE 和 ACh 对工作记忆的调制
 
@@ -120,3 +123,4 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-06-10-stp-short-term-plasticity]]
 - [[2026-06-12-neuromodulators-ach-ne]]
+- [[2026-06-20-language-dual-stream]]

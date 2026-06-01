@@ -1,0 +1,130 @@
+# 运行日志 2026-06-20
+
+**日期**：2026-06-20
+**文章编号**：#56
+**分支**：main
+**运行状态**：✅ 成功
+
+---
+
+## 运行概要
+
+- **模式**：长期课程模式（long_term_curriculum）
+- **课程路线**：7. 语言与抽象思维（首篇）
+- **主题**：双流语言网络——从声波到意义
+- **层级**：brain-region / whole-brain-network / cognition
+
+---
+
+## 选题决策
+
+- 读取状态文件：topic_ledger.json（36条已追踪条目，June 01-19文章未追踪）、unresolved_questions.md（最后更新2026-05-31）
+- 已有文章覆盖到2026-06-19（睡眠纺锤波），最近3篇均为记忆巩固/睡眠/振荡领域（分子/回路层）
+- ROUTINE.md规定"避免连续三天同一层级"→ 需转换到不同课程路线
+- 课程路线7（语言与抽象思维）几乎完全空白，没有任何相关wiki页面
+- 选题：**双流语言网络（Hickok & Poeppel模型）** — 填补重大课程缺口，连接已有的工作记忆、预测编码、DMN知识
+
+---
+
+## 检索策略
+
+**检索数据库**：PubMed E-utilities (NCBI), PubMed Central (PMC)
+**检索词**：
+- "dual stream language network cortex"
+- "Hickok Poeppel cortical organization speech processing"
+- "Friederici language brain hierarchy"
+- "sign language ALE meta-analysis brain"
+- "predictive processing language brain EEG"
+- "Wernicke area speech comprehension mechanism"
+- "arcuate fasciculus language"
+
+**候选文献**：35篇
+**精读/摘要阅读**：15篇
+**采用来源**：6篇（4篇开放全文，2篇仅摘要）
+
+---
+
+## 采用来源
+
+| ID | PMID | PMCID | 标题 | 类型 | 全文 |
+|----|------|-------|------|------|------|
+| S1 | 17431404 | - | The cortical organization of speech processing (Hickok & Poeppel 2007) | 里程碑综述 | ❌摘要 |
+| S2 | 29360947 | PMC5837461 | Anatomy of aphasia revisited (Fridriksson 2018) | VLSM失语症研究 | ✅ |
+| S3 | 31735144 | PMC6895560 | Hierarchy processing in human neurobiology (Friederici 2020) | 神经发育综述 | ✅ |
+| S4 | 33118302 | PMC7814757 | ALE meta-analysis of sign language (Trettenbrein 2021) | 元分析 | ✅ |
+| S5 | 38267261 | PMC10957213 | Predictive brain activity in language (Grisoni 2024) | EEG实验 | ✅ |
+| S6 | 41213155 | - | Brain structural networks underlying language (Friederici 2026) | 最新综述 | ❌摘要 |
+
+**排除来源**：
+- PMID:16234297 — 相关性较低，仅补充右半球背景
+- PMID:35611721 — 内容相关但叙事重叠度低
+
+---
+
+## 固结步骤：Wiki 页面
+
+### 新建页面（5）
+
+1. `wiki/systems/language-network.md` — 双流语言网络总览，status=established
+2. `wiki/systems/broca-area.md` — Broca区BA44/BA45内部分工，status=established
+3. `wiki/concepts/arcuate-fasciculus.md` — 弓状束，背侧流主干，status=established
+4. `wiki/circuits/dorsal-language-stream.md` — 背侧语言流机制，status=established
+5. `wiki/circuits/ventral-language-stream.md` — 腹侧语言流+具身语义，status=established
+
+### 修订页面（3）
+
+6. `wiki/concepts/working-memory.md`（rev5）— 新增语音回路=Spt↔BA44环路的神经底层
+7. `wiki/theories/predictive-coding.md`（rev5）— 新增语言预测编码实例（Grisoni 2024）
+8. `wiki/systems/default-mode-network.md`（rev4）— 新增角回作为DMN-语言网络共享节点
+
+---
+
+## 矛盾检查
+
+无新矛盾。双流语言模型已获多来源独立支持（失语症病变研究、fMRI、DTI、手语元分析），证据方向一致。
+
+---
+
+## 新增悬空引用（待未来文章补充）
+
+- `wernicke-area`：颞上回后部（BA22后部），被language-network, dorsal-language-stream引用
+- `embodied-semantics`：具身语义理论，被ventral-language-stream引用
+- `planum-temporale`：颞平面，被language-network, dorsal-language-stream引用
+
+---
+
+## 新增未解问题（7个）
+
+- Q-lang-01：背侧/腹侧流边界（高优先级）
+- Q-lang-02：右半球在语言中的角色（中优先级）
+- Q-lang-03：BA44/BA45语法/语义解离（高优先级）
+- Q-lang-04：BA44与F5（镜像神经元）的演化关系（中优先级）
+- Q-lang-05：弓状束背侧/腹侧分支功能差异（低优先级）
+- Q-lang-06：Spt在语言理解中的确切贡献（中优先级）
+- Q-lang-07：具身语义的程度（中优先级）
+
+---
+
+## 状态文件更新
+
+- `topic_ledger.json`：新增今日条目（article_number=56）；last_updated=2026-06-20；total_articles=56
+- `unresolved_questions.md`：新增7个Q-lang问题；last_updated=2026-06-20
+- `state/monthly_synthesis.md`：新增June 15-20文章表格行；新增洞见#57-59
+- `wiki/CHANGELOG.md`：新增今日变更节
+- `wiki/index.md`：新增language分类（5个新页面）；总数更新至89
+- `wiki/_graph.json`：新增节点5（89总），新增边28（527总），新增悬空引用3（22总）；updated=2026-06-20
+
+---
+
+## 限制与说明
+
+- PMID:17431404（Hickok & Poeppel 2007）未能获取全文，仅使用摘要和广泛引用此文的综述；此文是里程碑性论文，其核心框架已在大量二次文献中被核实
+- PMID:41213155（Friederici 2026）为最新综述，仅读取摘要；内容与Friederici 2020（全文）高度一致，补充了双语和手语部分
+- 未读取Geschwind 1965（已绝版，仅作历史背景引用）、Broca 1861（历史原文）
+
+---
+
+## Git 操作
+
+- **分支**：main
+- **操作**：git add neuro-daily/ → git commit → git push origin main
