@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-05
-revision_count: 2
-dimensions: [cellular, synaptic, microcircuit, cognition]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex]
+updated: 2026-06-24
+revision_count: 3
+dimensions: [cellular, synaptic, microcircuit, cognition, developmental]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, critical-period, perineuronal-nets]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
-opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary]
-source_articles: [2026-06-03-inhibitory-interneuron-diversity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518"]
+opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-sp-02]
+source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-24-synaptic-pruning-critical-period]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:16261181", "PMID:32503914"]
 ---
 
 # PV+ 中间神经元（Parvalbumin-expressing Interneurons）
@@ -29,6 +29,8 @@ PV+ 细胞的核心特征是"快速放电"（fast-spiking）：动作电位极�
 PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1）将锥体细胞的放电限定在窄时间窗口（时序精度）；（2）通过 PV↔PV 和 PV→锥体细胞的 PING 回路产生和维持皮层 **γ 振荡（30–80 Hz）**。
 
 在精神分裂症中，前额叶 PV+ 细胞的 GAD67 下调导致 γ 振荡受损，与工作记忆缺陷直接相关，为 PV+ 细胞在认知控制中的必要性提供了临床证据。
+
+**发育功能（2026-06-24 新增）**：PV+ 细胞的成熟是大脑**发育关键期（critical period）**开启的核心触发器（Hensch 2005, PMID:16261181）。在视觉皮层，GAD65 KO 小鼠（GABA 合成受损）不能开启关键期，用苯二氮䓬类药物人工增强 GABA 可恢复关键期；PV+ 细胞未成熟 → 关键期延迟，PV+ 细胞提前成熟 → 关键期提前关闭。不同皮层区域的 PV+ 细胞成熟时间不同，这解释了为什么感觉关键期先于前额叶认知关键期（Reh et al. 2020, PMID:32503914, PMCID:PMC7519216）。
 
 ## 关键机制
 
@@ -61,6 +63,8 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 | 精神分裂症前额叶 PV+ 细胞 GAD67 mRNA 下调 | 原位杂交（死后脑组织）| PMID:22219337 | 高 |
 | 精神分裂症患者工作记忆任务期间前额叶 γ 功率下降 | MEG/EEG | PMID:25863358 | 高 |
 | 篮状细胞在 SWR 期间强烈放电，相位锁定到涟漪周期 | 清醒大鼠 CA1 体内记录 | PMID:18599766 | 高 |
+| GAD65 KO 小鼠关键期不开启；苯二氮䓬类注射可恢复关键期 | 小鼠遗传学 + 药理（GAD65 KO）| PMID:16261181（综述摘要）| 高 |
+| PV 细胞伽马振荡功率在关键期内与可塑性正相关 | 综述，整合多项实验 | PMID:32503914, PMCID:PMC7519216 | 中（综述推断） |
 
 ## 连接
 
@@ -72,6 +76,8 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - [[hippocampal-circuit]] — CA1 篮状细胞 + 吊灯细胞是海马主要 PV+ 类型
 - [[action-potential]] — PV+ 细胞对锥体细胞动作电位的产生实施时序控制
 - [[axon-initial-segment]] — 吊灯细胞（PV+ 亚类）靶向 AIS
+- [[critical-period]] — PV 细胞成熟触发关键期开启
+- [[perineuronal-nets]] — PNNs 优先包裹 PV 细胞，标志关键期关闭
 
 ## 未解问题
 
@@ -82,8 +88,10 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 
 - 2026-06-03 · 创建 · 基于《回路中的少数精锐》一文 · 初始置信度：高
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 系统层面新增：PFC γ爆发WM应用、精神分裂症病理证据（PMID:26996084, PMC5220584; PMID:39381500, PMC11458443; PMID:41478518）；related 新增 working-memory, gamma-oscillations, prefrontal-cortex；dimensions 新增 cognition
+- 2026-06-24 · 修订 · 基于《用进废退的精密刻刀》一文 · 新增发育功能：PV细胞成熟作为关键期触发器（Hensch 2005 / Reh 2020）；related 新增 critical-period, perineuronal-nets；key_sources 新增 PMID:16261181, PMID:32503914；dimensions 新增 developmental
 
 ## 来源文章
 
 - [[2026-06-03-inhibitory-interneuron-diversity]]
 - [[2026-06-05-prefrontal-working-memory]]
+- [[2026-06-24-synaptic-pruning-critical-period]]

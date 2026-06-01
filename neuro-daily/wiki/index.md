@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-23（第59篇·小脑的秘密·运动预测与多层可塑性）· 主题页总数：103（新建3页：cerebellum, cerebellar-ltd, forward-model；修订3页：ltd rev2, predictive-coding rev5, motor-cortex rev2）
+> 最后更新：2026-06-24（第60篇·突触修剪与关键期·神经网络建成第一篇）· 主题页总数：106（新建3页：synaptic-pruning, critical-period, perineuronal-nets；修订1页：pv-interneurons rev3）
 
 ---
 
@@ -31,7 +31,7 @@
 - 🔵 [吊灯细胞](circuits/chandelier-cell.md) — 特异靶向 AIS 的抑制性中间神经元（修订2次）
 - 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许" **[NEW 2026-06-14]**
 - 🟢 [丘脑-皮层回路](circuits/thalamocortical-circuit.md) — TRN（CaV3.3 T型）↔TC（CaV3.1）振荡环路是睡眠纺锤波起搏器；Core/Matrix双通路；CT反馈在清醒/睡眠切换中起关键作用 **[NEW 2026-06-19]**
-- 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序 **[NEW 2026-06-03]**
+- 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序；PV细胞成熟是关键期开启的触发器 **[修订 2026-06-24]**
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
@@ -69,6 +69,9 @@
 - 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口 **[NEW 2026-05-31]**
 - 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；八层分层贝叶斯预测机器架构；五月月报整合后修订 **[修订 2026-05-31]**
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
+- 🟢 [突触修剪](concepts/synaptic-pruning.md) — 发育中C1q/C3补体标记弱突触、小胶质细胞 CR3 吞噬的主动精修过程；活动竞争性选择（弱输入优先删除）；精神分裂症C4A过度修剪假说 **[NEW 2026-06-24]**
+- 🟢 [发育关键期](concepts/critical-period.md) — 经验精修神经回路的时间窗口；PV 细胞成熟开启、PNNs 关闭；视觉眼优势可塑性经典模型（Hubel & Wiesel）；多时间尺度调控（Reh 2020）；ChABC/丘脑爆发成年重开途径 **[NEW 2026-06-24]**
+- 🟢 [神经元周围网（PNNs）](concepts/perineuronal-nets.md) — CSPGs+透明质酸+腱糖蛋白-R 包裹 PV 细胞的细胞外基质网格；Otx2 调控形成；关键期关闭的分子执行者；ChABC 降解可重开成年可塑性 **[NEW 2026-06-24]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号 **[NEW 2026-06-07]**
 - 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；填补 hebbian-learning 悬空引用；纹状体直接实验验证 **[NEW 2026-06-07]**

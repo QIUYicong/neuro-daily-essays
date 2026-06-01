@@ -2902,6 +2902,57 @@
         "网格→场所转化精确机制：MEC模块叠加或振荡干涉？（填补Q-gc-01方向）",
         "空间记忆的情境依赖性：相同路径、不同情境→不同场所图；通过Q-gc-01引发的情境整合机制"
       ]
+    },
+    {
+      "date": "2026-06-24",
+      "article_number": 60,
+      "title": "用进废退的精密刻刀：发育关键期内大脑如何通过突触修剪雕刻出精确的神经回路",
+      "slug": "2026-06-24-synaptic-pruning-critical-period",
+      "core_question": "视觉皮层发育关键期内，感觉剥夺如何通过突触修剪重塑神经回路——补体系统、小胶质细胞、GABA抑制性回路成熟与神经元周围网如何协同驱动这把精密刻刀？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "developmental",
+        "brain-region"
+      ],
+      "topic_tags": [
+        "synaptic-pruning",
+        "critical-period",
+        "perineuronal-nets",
+        "visual-cortex",
+        "complement",
+        "microglia",
+        "PV-interneurons",
+        "development"
+      ],
+      "main_sources": [
+        "PMID:16261181",
+        "PMID:18083105",
+        "PMID:22632727",
+        "PMID:32503914",
+        "PMID:22462544",
+        "PMID:41240337",
+        "PMID:41169352"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/synaptic-pruning.md",
+        "wiki/concepts/critical-period.md",
+        "wiki/concepts/perineuronal-nets.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/circuits/pv-interneurons.md"
+      ],
+      "unresolved_questions": [
+        "Q-sp-01",
+        "Q-sp-02",
+        "Q-sp-03",
+        "Q-sp-04"
+      ],
+      "next_suggested_topics": [
+        "轴突导向（Axonal Pathfinding）：神经元轴突如何在发育中靠化学梯度找到目标（Netrin/DCC, Slit/Robo, Ephrin/Eph, Semaphorin/Neuropilin），填补神经网络建成第二篇",
+        "髓鞘化与神经传导速度：少突胶质细胞如何包裹轴突，白质成熟与青春期前额叶关键期关闭的关联",
+        "补体C4A与精神分裂症：Sekar 2016 Science 遗传研究——填补 synaptic-pruning wiki 中的C4A悬空引用并深入疾病机制"
+      ]
     }
   ],
   "layer_coverage_recent": {

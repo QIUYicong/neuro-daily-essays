@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-06-24（第 60 篇·突触修剪与关键期·神经网络建成第一篇）
+
+**源文章**：[[2026-06-24-synaptic-pruning-critical-period]] —《用进废退的精密刻刀：发育关键期内大脑如何通过突触修剪雕刻出精确的神经回路》
+
+**新建页面（3）**：
+- `concepts/synaptic-pruning.md`（突触修剪）🟢 established / 置信度高 — C1q/C3 补体标记；小胶质细胞 CR3 吞噬；活动依赖性选择（弱输入优先删除）；Stevens 2007 + Schafer 2012 核心证据
+- `concepts/critical-period.md`（发育关键期）🟢 established / 置信度高 — PV 细胞成熟开启；PNNs 关闭；眼优势可塑性经典模型；多时间尺度调控（Reh 2020）；成年重开途径
+- `concepts/perineuronal-nets.md`（神经元周围网）🟢 established / 置信度高 — CSPGs+透明质酸+腱糖蛋白-R 组成；Otx2 调控形成；ChABC 降解可重开可塑性；氧化保护 PV 细胞机制
+
+**修订页面（1）**：
+- `circuits/pv-interneurons.md`（修订#3）— 新增发育功能段落：PV 细胞成熟作为关键期开启触发器（Hensch 2005 / Reh 2020）；related 新增 critical-period, perineuronal-nets；dimensions 新增 developmental；key_sources 新增 PMID:16261181, 32503914
+
+**图谱更新**：3 节点新增（106总），11 条边新增（587总）
+
+**矛盾登记**：无新矛盾（突触修剪为当前主流共识机制，虽然部分细节仍在探索中）
+
+**新增开放问题**：
+- Q-sp-01（高）：C1q 为何优先定位于弱突触？"别吃我"信号的相对重要性？
+- Q-sp-02（中）：PNNs 锁住可塑性的具体分子机制？
+- Q-sp-03（中）：人类DLPFC关键期的精确时间窗口？
+- Q-sp-04（中）：跨代表观遗传影响关键期的具体机制？
+
+**悬空引用（新增，待填补）**：
+- `complement-cascade-synapse`（CNS 补体系统，被 synaptic-pruning 引用）
+- `hebbian-learning`（Hebbian 学习，被 critical-period 引用，已有但需确认）
+
+---
+
 ## 2026-06-23（第 59 篇·小脑的秘密·运动预测与多层可塑性）
 
 **源文章**：[[2026-06-23-cerebellum-motor-prediction]] —《小脑的秘密：浦肯野细胞如何让大脑成为一台预测机器》

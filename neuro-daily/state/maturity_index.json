@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-24",
   "levels": [
     "speculative",
     "emerging",
@@ -247,7 +247,10 @@
       "confidence": "high",
       "supporting_sources": 5,
       "last_status_change": "2026-06-03",
-      "reason": "创建 2026-06-03。PV+ 细胞的识别（快速放电、PV 标记、围胞体形态）、功能（γ振荡、时序精度）由数十年多实验室工作确立。突触延迟 0.7 ms（Tremblay 2016 直接测量）。光遗传因果实验证明 PV+ 细胞驱动 γ（Kepecs & Fishell 2014 综述引用）。精神分裂症 GAD67 下调（Curley 2012）和 γ 功率降低（Gonzalez-Burgos 2015）为疾病联系提供临床证据。总体 established，但人类直接数据有限。"
+      "reason": "创建 2026-06-03。PV+ 细胞的识别（快速放电、PV 标记、围胞体形态）、功能（γ振荡、时序精度）由数十年多实验室工作确立。突触延迟 0.7 ms（Tremblay 2016 直接测量）。光遗传因果实验证明 PV+ 细胞驱动 γ（Kepecs & Fishell 2014 综述引用）。精神分裂症 GAD67 下调（Curley 2012）和 γ 功率降低（Gonzalez-Burgos 2015）为疾病联系提供临床证据。总体 established，但人类直接数据有限。",
+      "revision_count": 3,
+      "last_updated": "2026-06-24",
+      "change_reason": "Revised: added developmental role in critical period opening (Hensch 2005 / Reh 2020)"
     },
     {
       "slug": "sst-interneurons",
@@ -495,6 +498,33 @@
       "supporting_sources": 2,
       "last_status_change": "2026-06-23",
       "reason": "创建 2026-06-23。Wolpert 1998 的前向/逆向模型框架获广泛认可（计算神经科学主流观点），但直接神经元层面证据仍主要来自行为和建模，神经底物细节待确认。置信度中等。"
+    },
+    {
+      "slug": "synaptic-pruning",
+      "page": "wiki/concepts/synaptic-pruning.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_updated": "2026-06-24",
+      "change_reason": "Created: well-established mechanism with two landmark papers (Stevens 2007, Schafer 2012) providing direct evidence"
+    },
+    {
+      "slug": "critical-period",
+      "page": "wiki/concepts/critical-period.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_updated": "2026-06-24",
+      "change_reason": "Created: Nobel Prize-level established concept with decades of evidence across species"
+    },
+    {
+      "slug": "perineuronal-nets",
+      "page": "wiki/concepts/perineuronal-nets.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_updated": "2026-06-24",
+      "change_reason": "Created: well-characterized extracellular matrix structure with clear functional role in critical period closure"
     }
   ],
   "entries": [

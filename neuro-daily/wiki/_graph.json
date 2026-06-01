@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-23",
+  "updated": "2026-06-24",
   "node_count": 103,
   "edge_count": 576,
   "edge_types": [
@@ -940,6 +940,33 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/forward-model.md"
+    },
+    {
+      "id": "synaptic-pruning",
+      "title": "突触修剪",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/synaptic-pruning.md"
+    },
+    {
+      "id": "critical-period",
+      "title": "发育关键期",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/critical-period.md"
+    },
+    {
+      "id": "perineuronal-nets",
+      "title": "神经元周围网",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/perineuronal-nets.md"
     }
   ],
   "edges": [
@@ -4144,6 +4171,61 @@
     {
       "from": "ltd",
       "to": "cerebellar-ltd",
+      "type": "related"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "critical-period",
+      "to": "synaptic-pruning",
+      "type": "regulates"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "critical-period",
+      "to": "perineuronal-nets",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "ltd",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "hebbian-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "perineuronal-nets",
       "type": "related"
     }
   ],
