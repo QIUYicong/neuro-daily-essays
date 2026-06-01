@@ -2817,6 +2817,57 @@
         "网格→场所转化精确机制：MEC模块叠加或振荡干涉？（填补Q-gc-01方向）",
         "空间记忆的情境依赖性：相同路径、不同情境→不同场所图；通过Q-gc-01引发的情境整合机制"
       ]
+    },
+    {
+      "date": "2026-06-23",
+      "article_number": 59,
+      "title": "静默的预测机器：小脑如何将误差信号转化为流畅技能",
+      "core_question": "小脑如何通过攀爬纤维误差信号触发PF-PC LTD实现运动学习？分子层中间神经元的同步依赖门控机制如何防止误适应？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior"
+      ],
+      "topic_tags": [
+        "cerebellum",
+        "motor-learning",
+        "LTD",
+        "Purkinje-cell",
+        "climbing-fiber",
+        "Marr-Albus-Ito",
+        "MLI-gating",
+        "cognitive-cerebellum"
+      ],
+      "main_sources": [
+        "PMID:35803588",
+        "PMID:32866603",
+        "PMID:36639897",
+        "PMID:42135511",
+        "PMID:33897382"
+      ],
+      "unresolved_questions": [
+        "Q-cb-01",
+        "Q-cb-02",
+        "Q-cb-03"
+      ],
+      "next_suggested_topics": [
+        "小脑颗粒细胞：高维稀疏扩展的计算意义（填补 granule-cell-cerebellar 悬空引用）",
+        "小脑在时序学习中的作用：间隔时序、节拍和语言的时序计算",
+        "小脑认知功能的病理证据：小脑性失语、自闭症的小脑假说",
+        "下橄榄核：误差信号的起源与同步化机制",
+        "运动学习的系统整合：小脑-基底节-运动皮层三角协同"
+      ],
+      "wiki_pages_created": [
+        "cerebellum",
+        "purkinje-cell",
+        "cerebellar-motor-learning"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_opened": [],
+      "contested_claims_resolved": []
     }
   ],
   "layer_coverage_recent": {
@@ -2917,6 +2968,15 @@
     ],
     "methods": [
       "2026-05-31"
+    ]
+  },
+  "last_date": "2026-06-23",
+  "layer_by_date": {
+    "microcircuit": [
+      "2026-06-23"
+    ],
+    "brain-region": [
+      "2026-06-23"
     ]
   }
 }

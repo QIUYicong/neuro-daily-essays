@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-22",
+  "updated": "2026-06-23",
   "node_count": 88,
   "edge_count": 505,
   "edge_types": [
@@ -913,6 +913,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/entorhinal-cortex.md"
+    },
+    {
+      "id": "cerebellum",
+      "title": "小脑",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/cerebellum.md"
+    },
+    {
+      "id": "purkinje-cell",
+      "title": "浦肯野细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/purkinje-cell.md"
+    },
+    {
+      "id": "cerebellar-motor-learning",
+      "title": "小脑运动学习回路",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/cerebellar-motor-learning.md"
     }
   ],
   "edges": [
@@ -4032,6 +4059,91 @@
     {
       "from": "entorhinal-cortex",
       "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "cerebellar-motor-learning",
+      "type": "part-of"
+    },
+    {
+      "from": "cerebellum",
+      "to": "purkinje-cell",
+      "type": "part-of"
+    },
+    {
+      "from": "cerebellum",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "cerebellum",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "cerebellar-motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "cerebellar-motor-learning",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "cerebellar-motor-learning",
+      "to": "purkinje-cell",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-motor-learning",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "cerebellar-motor-learning",
+      "to": "disinhibitory-circuit",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-motor-learning",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-motor-learning",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "cerebellar-motor-learning",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "cerebellum",
+      "to": "entorhinal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "dendritic-computation",
       "type": "related"
     }
   ],

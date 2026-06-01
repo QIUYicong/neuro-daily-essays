@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-22（第58篇·网格细胞与场所细胞·填补place-cells/grid-cells等6个长期悬空引用）· 主题页总数：100（新建6页：place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex；修订2页：theta-oscillations rev3, sharp-wave-ripples rev5）
+> 最后更新：2026-06-23（第59篇·小脑与运动学习·首次覆盖小脑系统）· 主题页总数：103（新建3页：cerebellum, purkinje-cell, cerebellar-motor-learning）
 
 ---
 
@@ -25,6 +25,7 @@
 - 🟢 [海马回路](neurons/hippocampal-circuit.md) — DG（模式分离）→ CA3（模式补全）→ CA1（整合输出）的三突触回路与并行穿孔通路；AD最早受损的回路（修订6次）
 - 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，为场所细胞提供坐标框架 **[NEW]**
 - 🟢 [电压门控钙通道（VGCCs）](neurons/voltage-gated-calcium-channels.md) — P/Q型在突触前纳米域触发递质释放；L型在树突驱动BTSP平台电位，在核激活基因表达；三亚家族、三地点、三时间尺度 **[NEW 2026-06-01]**
+- 🟢 [浦肯野细胞](neurons/purkinje-cell.md) — 小脑皮层唯一输出；巨大扇形树突接收~15-20万条并行纤维+1条攀爬纤维；mGluR1+Ca²⁺+PKC→AMPA内吞的LTD；复合脉冲代表误差信号；抑制DCN **[NEW 2026-06-23]**
 
 ## circuits（回路）
 
@@ -35,6 +36,7 @@
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
+- 🟢 [小脑运动学习回路](circuits/cerebellar-motor-learning.md) — Marr-Albus-Ito假说：MF→GrC→PF+CF误差→PF-PC LTD；双阶段学习（皮层快/DCN慢）；MLI同步依赖门控（Park 2026 Nat Neurosci）**[NEW 2026-06-23]**
 
 ## concepts（概念/框架）
 
@@ -117,6 +119,7 @@
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**
+- 🟢 [小脑](systems/cerebellum.md) — 含约600亿颗粒细胞（全脑神经元约69%）；Marr-Albus-Ito假说：苔藓纤维高维扩展 + 攀爬纤维1:1误差信号 → PF-PC LTD；皮层快学→深部核团慢固；外侧小脑（Crus I/II）与PFC平行扩张参与认知网络；ASD/PD连接 **[NEW 2026-06-23]**
 
 ## methods（方法）
 

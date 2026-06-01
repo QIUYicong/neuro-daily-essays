@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-06-23（第 59 篇·小脑与运动学习·首次覆盖小脑系统·新建3页）
+
+**源文章**：[[2026-06-23-cerebellum-motor-learning]] —《静默的预测机器：小脑如何将误差信号转化为流畅技能》
+
+**新建页面（3）**：
+- `systems/cerebellum.md`（小脑）🟢 established / 置信度高 — 含约600亿颗粒细胞（全脑69%）；苔藓纤维→颗粒细胞→并行纤维→浦肯野细胞；攀爬纤维1:1误差信号；皮层快学→核慢固双阶段；外侧小脑认知功能；ASD/帕金森病连接
+- `neurons/purkinje-cell.md`（浦肯野细胞）🟢 established / 置信度高 — 小脑皮层唯一输出；巨大扇形树突接收~15-20万条PF突触+1条CF；mGluR1+Ca²⁺+PKC→AMPA内吞的LTD分子机制；复合脉冲代表误差；抑制DCN
+- `circuits/cerebellar-motor-learning.md`（小脑运动学习回路）🟢 established / 置信度高 — Marr-Albus-Ito假说完整回路；MLI同步依赖门控（Bonnan 2023 + Park 2026）；双阶段学习（皮层LTD快/DCN慢）；与海马系统巩固的类比
+
+**修订页面（0）**：无（本日为新领域首次进入，无既有相关页需修订）
+
+**矛盾登记**：无新矛盾（Park et al. 2026的MLI去抑制回路机制尚新，标记为"中置信度，待独立重复"，但未达矛盾级别）
+
+**新建悬空引用（待填补）**：
+- `inferior-olive`（下橄榄核，被 cerebellum、cerebellar-motor-learning 引用）
+- `granule-cell-cerebellar`（小脑颗粒细胞，被 cerebellum、cerebellar-motor-learning 引用；注意与海马颗粒细胞区分）
+- `climbing-fiber`（攀爬纤维，被多个页面引用，当前为小节描述，可考虑独立页）
+- `long-term-depression`（已存在 ltp.md，但尚无专门的 LTD 页；小脑 LTD 与海马 LTD 机制不同）
+- `vestibuloocular-reflex`（前庭-眼反射，VOR，小脑学习的经典实验模型）
+
+**图谱更新**：新增节点3（cerebellum, purkinje-cell, cerebellar-motor-learning）；新增有向边17条（总计：103节点/576边）
+
+---
+
 ## 2026-06-22（第 58 篇·网格细胞与场所细胞·填补6个长期悬空引用）
 
 **源文章**：[[2026-06-22-grid-cells-place-cells]] —《六边形的秘密：内嗅皮层网格细胞如何为大脑装备空间坐标系》

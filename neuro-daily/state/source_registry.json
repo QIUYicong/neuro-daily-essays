@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -4602,7 +4602,138 @@
         "human fMRI methodology",
         "contested claim C-2026-06-22-01"
       ]
+    },
+    {
+      "pmid": "35803588",
+      "title": "The Cerebellar Cortex",
+      "authors": "Hull C, Regehr WG",
+      "journal": "Annu Rev Neurosci",
+      "year": 2022,
+      "pmcid": "PMC10268027",
+      "open_access": true,
+      "first_used": "2026-06-23",
+      "used_in": [
+        "2026-06-23-cerebellum-motor-learning"
+      ],
+      "covers": [
+        "cerebellar cortex",
+        "LTD mechanism",
+        "Marr-Albus model",
+        "cell diversity"
+      ]
+    },
+    {
+      "pmid": "32866603",
+      "title": "The Rules of Cerebellar Learning: Around the Ito Hypothesis",
+      "authors": "Lisberger SG",
+      "journal": "Neuroscience",
+      "year": 2021,
+      "pmcid": "PMC7914257",
+      "open_access": true,
+      "first_used": "2026-06-23",
+      "used_in": [
+        "2026-06-23-cerebellum-motor-learning"
+      ],
+      "covers": [
+        "4 principles cerebellar learning",
+        "VOR adaptation",
+        "cortex-nucleus transfer",
+        "Ito tribute"
+      ]
+    },
+    {
+      "pmid": "36639897",
+      "title": "Expression of a Form of Cerebellar Motor Memory Requires Learned Alterations to the Activity of Inhibitory Molecular Layer Interneurons",
+      "authors": "Bonnan A, Zhang K, Gaffield MA, Christie JM",
+      "journal": "J Neurosci",
+      "year": 2023,
+      "pmcid": "PMC9888511",
+      "open_access": true,
+      "first_used": "2026-06-23",
+      "used_in": [
+        "2026-06-23-cerebellum-motor-learning"
+      ],
+      "covers": [
+        "MLI molecular layer interneurons",
+        "VOR adaptation",
+        "motor memory expression"
+      ]
+    },
+    {
+      "pmid": "42135511",
+      "title": "Synchronous climbing fiber activity enables instructive signaling for cerebellar learning through modulation of disinhibitory circuits",
+      "authors": "Park C, Yang Z, Nashef A, et al.",
+      "journal": "Nat Neurosci",
+      "year": 2026,
+      "open_access": false,
+      "first_used": "2026-06-23",
+      "used_in": [
+        "2026-06-23-cerebellum-motor-learning"
+      ],
+      "covers": [
+        "CF synchrony",
+        "MLI disinhibition",
+        "CF-instructed plasticity gating",
+        "connectomics"
+      ],
+      "note": "abstract only"
+    },
+    {
+      "pmid": "33897382",
+      "title": "Functional Connectivity of the Cognitive Cerebellum",
+      "authors": "Habas C",
+      "journal": "Front Syst Neurosci",
+      "year": 2021,
+      "pmcid": "PMC8060696",
+      "open_access": true,
+      "first_used": "2026-06-23",
+      "used_in": [
+        "2026-06-23-cerebellum-motor-learning"
+      ],
+      "covers": [
+        "cognitive cerebellum",
+        "lateral expansion",
+        "resting state fMRI",
+        "intrinsic networks"
+      ]
+    },
+    {
+      "pmid": "31636540",
+      "title": "Functional Outcomes of Cerebellar Malformations",
+      "authors": "Gill JS, Sillitoe RV",
+      "journal": "Front Cell Neurosci",
+      "year": 2019,
+      "pmcid": "PMC6787289",
+      "open_access": true,
+      "first_used": "2026-06-23",
+      "used_in": [
+        "2026-06-23-cerebellum-motor-learning"
+      ],
+      "covers": [
+        "cerebellar malformations",
+        "ASD",
+        "cognitive functions",
+        "PD cerebellar link"
+      ]
+    },
+    {
+      "pmid": "21227230",
+      "title": "Internal models in the cerebellum",
+      "authors": "Wolpert DM, Miall RC, Kawato M",
+      "journal": "Trends Cogn Sci",
+      "year": 1998,
+      "open_access": false,
+      "first_used": "2026-06-23",
+      "used_in": [
+        "2026-06-23-cerebellum-motor-learning"
+      ],
+      "covers": [
+        "forward models",
+        "inverse models",
+        "MOSAIC framework"
+      ],
+      "note": "abstract only, classic paper"
     }
   ],
-  "total_sources": 231
+  "total_sources": 244
 }

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-22",
+  "last_updated": "2026-06-23",
   "levels": [
     "speculative",
     "emerging",
@@ -471,6 +471,33 @@
       "supporting_sources": 3,
       "last_status_change": "2026-06-18",
       "reason": "创建 2026-06-18。前馈回路（FFL）在多个物种的神经和基因调控网络中均有文献支持（Milo 2002, PMID:12399590；神经科学多项研究）。Drosophila FlyWire 提供了至今最大规模的系统性验证（Lin 2024, PMID:39358527）。功能诠释（这些主题确实执行特定计算）是主流但非全部经实验确认，故 mainstream 而非 established。"
+    },
+    {
+      "slug": "cerebellum",
+      "title": "小脑",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-23",
+      "revision_count": 1,
+      "change_reason": "新建：Marr-Albus-Ito假说50年实验支持；Hull & Regehr 2022综述；established级别"
+    },
+    {
+      "slug": "purkinje-cell",
+      "title": "浦肯野细胞",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-23",
+      "revision_count": 1,
+      "change_reason": "新建：经典解剖学与电生理知识；LTD分子机制多实验室验证"
+    },
+    {
+      "slug": "cerebellar-motor-learning",
+      "title": "小脑运动学习回路",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-23",
+      "revision_count": 1,
+      "change_reason": "新建：Ito假说50年验证为established；MLI门控为新发现标注中置信度；整体保持high"
     }
   ],
   "entries": [
