@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-28
-updated: 2026-06-28
-revision_count: 1
+updated: 2026-06-29
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, cognition, disease]
-related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation]
+related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, v1-primary-visual-cortex, perineuronal-nets]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-bdnf-01, Q-bdnf-02, Q-bdnf-03]
-source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory]
-key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053"]
+opens_questions: [Q-bdnf-01, Q-bdnf-02, Q-bdnf-03, Q-cp-04]
+source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-29-critical-period-visual-cortex]
+key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053", "PMID:14514885", "PMID:32503914"]
 ---
 
 # 脑源性神经营养因子 (BDNF, Brain-Derived Neurotrophic Factor)
@@ -103,6 +103,18 @@ L-LTP 不能维持 · 新生神经元减少 →
 - [[nmda-receptor]] — NMDA 受体 Ca²⁺ 内流是 BDNF 上调的上游触发信号
 - [[camkii]] — PLCγ/Ca²⁺ 通路激活 CaMKII；与 NMDA 通路并行的 LTP 维持机制
 - [[engram-cells]] — 印迹细胞 AMPA/NMDA 比值高，可能部分由 BDNF 驱动的 L-LTP 解释
+- [[critical-period]] — BDNF 是关键期调控的分子枢纽：促进 PV+细胞成熟 → 触发关键期开启
+- [[v1-primary-visual-cortex]] — V1 关键期内 BDNF 过表达绕过视觉经验，直接驱动 PV+细胞成熟
+- [[perineuronal-nets]] — PNNs 形成与 BDNF 调控的 PV+细胞成熟程序协调进行
+
+## BDNF 在关键期中的特殊作用（2026-06-29 补充）
+
+BDNF 不只是突触可塑性信号，还是**调控关键期时序的关键分子**：
+
+- **BDNF 过表达 → 提前开启关键期**：BDNF 转基因小鼠在暗养条件下（无视觉经验），视觉皮层功能（视力、感受野大小、E/I 平衡）与正常光照动物相同（Gianfranceschi et al. 2003, PMID:14514885）
+- **机制**：BDNF 通过 TrkB→ERK 通路驱动 PV+细胞 parvalbumin 表达和 GABAergic 突触成熟；BDNF 信号加速 L4 层的 E/I 平衡转变
+- **视觉经验 → BDNF 上调 → PV+细胞成熟 → 关键期开启**：这是一个正反馈回路，也解释了为什么暗养（减少视觉活动→减少 BDNF→延缓 PV+成熟）延迟关键期
+- **跨时间尺度一致性**：BDNF 在 L-LTP（小时-天尺度）和关键期调控（周-月尺度）中都发挥核心作用，提示 BDNF/TrkB 信号是神经系统可塑性的通用分子杠杆
 
 ## 未解问题
 
@@ -113,7 +125,9 @@ L-LTP 不能维持 · 新生神经元减少 →
 ## 修订历史
 
 - 2026-06-28 · 创建 · 基于《BDNF：大脑给自己的成长信号》一文 (#64) · 整合 8 篇来源（4 篇 PMC 开放全文）· 填补多个 wiki 页面的悬空引用 [[bdnf]] · 初始置信度：高（基础机制）/中（AD 及 Val66Met 部分）
+- 2026-06-29 · 修订 · 基于《窗口之谜：视觉皮层关键期》一文 (#65) · 新增"BDNF 在关键期中的特殊作用"小节；related 新增 critical-period、v1-primary-visual-cortex、perineuronal-nets；opens_questions 新增 Q-cp-04；key_sources 新增 PMID:14514885、PMID:32503914
 
 ## 来源文章
 
 - [[2026-06-28-bdnf-trk-b-plasticity-memory]]
+- [[2026-06-29-critical-period-visual-cortex]]

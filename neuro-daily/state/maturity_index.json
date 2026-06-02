@@ -793,5 +793,35 @@
       "change_reason": "新建页面。啮齿类证据established，人类证据emerging",
       "source_article": "2026-06-26-adult-neurogenesis-dentate-gyrus"
     }
-  ]
+  ],
+  "critical-period": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-29",
+    "change_reason": "初始建立；关键期机制有大量遗传和药理实验支持（Fagiolini & Hensch 2000; Pizzorusso 2002; Reh 2020 全文读取）",
+    "revision_count": 1,
+    "source_articles": [
+      "2026-06-29-critical-period-visual-cortex"
+    ]
+  },
+  "perineuronal-nets": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-29",
+    "change_reason": "初始建立；软骨素酶-ABC 成年重启实验（Pizzorusso 2002 Science）提供直接因果证据；Reh 2020 提供机制细节",
+    "revision_count": 1,
+    "source_articles": [
+      "2026-06-29-critical-period-visual-cortex"
+    ]
+  },
+  "v1-primary-visual-cortex": {
+    "revision_count": 4,
+    "last_changed": "2026-06-29",
+    "change_reason": "扩展关键期/发育小节（rev4），新增 critical-period、perineuronal-nets 连接"
+  },
+  "bdnf": {
+    "revision_count": 2,
+    "last_changed": "2026-06-29",
+    "change_reason": "补充 BDNF 在关键期调控中的作用（加速PV+细胞成熟、提前触发关键期）"
+  }
 }

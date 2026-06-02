@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-29",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5140,6 +5140,192 @@
         "neurodegeneration",
         "BBB",
         "TrkB agonist"
+      ]
+    },
+    {
+      "id": "PMID:15217343",
+      "type": "review",
+      "title": "Critical period regulation",
+      "authors": "Hensch TK",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2004,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "关键期定义",
+        "GABA阈值",
+        "GAD65 KO",
+        "关键期触发机制",
+        "分子制动器"
+      ]
+    },
+    {
+      "id": "PMID:10724170",
+      "type": "original_research",
+      "title": "Inhibitory threshold for critical-period activation in primary visual cortex",
+      "authors": "Fagiolini M, Hensch TK",
+      "journal": "Nature",
+      "year": 2000,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "GAD65 KO",
+        "苯二氮䓬类",
+        "GABA抑制阈值",
+        "关键期激活"
+      ]
+    },
+    {
+      "id": "PMID:15017002",
+      "type": "original_research",
+      "title": "Specific GABA_A circuits for visual cortical plasticity",
+      "authors": "Fagiolini M et al.",
+      "journal": "Science",
+      "year": 2004,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "GABA_A受体亚型",
+        "α1亚基",
+        "关键期特异性回路"
+      ]
+    },
+    {
+      "id": "PMID:12424383",
+      "type": "original_research",
+      "title": "Reactivation of ocular dominance plasticity in the adult visual cortex",
+      "authors": "Pizzorusso T et al.",
+      "journal": "Science",
+      "year": 2002,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "围神经元网PNNs",
+        "CSPGs",
+        "软骨素酶-ABC",
+        "成年可塑性重启",
+        "弱视"
+      ]
+    },
+    {
+      "id": "PMID:15603745",
+      "type": "original_research",
+      "title": "Experience-dependent pruning of dendritic spines in visual cortex by tissue plasminogen activator",
+      "authors": "Mataga N et al.",
+      "journal": "Neuron",
+      "year": 2004,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "树突棘修剪",
+        "tPA",
+        "关键期结构可塑性"
+      ]
+    },
+    {
+      "id": "PMID:22841309",
+      "type": "review",
+      "title": "Development and plasticity of the primary visual cortex",
+      "authors": "Espinosa JS, Stryker MP",
+      "journal": "Neuron",
+      "year": 2012,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "V1发育",
+        "关键期双相OD反应",
+        "单眼剥夺机制"
+      ]
+    },
+    {
+      "id": "PMID:22462544",
+      "type": "review",
+      "title": "Critical-period plasticity in the visual cortex",
+      "authors": "Levelt CN, Hübener M",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2012,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "关键期时序",
+        "抑制回路成熟",
+        "关键期前可塑性"
+      ]
+    },
+    {
+      "id": "PMID:32503914",
+      "pmcid": "PMC7519216",
+      "type": "review",
+      "title": "Critical period regulation across multiple timescales",
+      "authors": "Reh RK et al.",
+      "journal": "PNAS",
+      "year": 2020,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "多时间尺度关键期",
+        "PV+细胞",
+        "γ振荡",
+        "昼夜节律",
+        "表观遗传",
+        "跨代效应",
+        "Otx2",
+        "PNNs"
+      ]
+    },
+    {
+      "id": "PMID:29905116",
+      "pmcid": "PMC6047524",
+      "type": "review",
+      "title": "Critical periods in amblyopia",
+      "authors": "Hensch TK, Quinlan EM",
+      "journal": "Visual Neuroscience",
+      "year": 2018,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "弱视",
+        "关键期重启",
+        "分子制动器",
+        "Lynx1",
+        "HDAC抑制剂",
+        "成年可塑性"
+      ]
+    },
+    {
+      "id": "PMID:14514885",
+      "type": "original_research",
+      "title": "Visual cortex is rescued from the effects of dark rearing by overexpression of BDNF",
+      "authors": "Gianfranceschi L et al.",
+      "journal": "PNAS",
+      "year": 2003,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-29-critical-period-visual-cortex"
+      ],
+      "topics_covered": [
+        "BDNF过表达",
+        "暗养",
+        "PV+细胞成熟",
+        "关键期提前开启"
       ]
     }
   ],

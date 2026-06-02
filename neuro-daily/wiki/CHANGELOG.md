@@ -2,6 +2,30 @@
 
 > 每日固结步骤产生的 wiki 变更记录。新条目置于顶部。
 
+## 2026-06-29（第 65 篇·视觉皮层关键期·GABA阈值、PNNs制动器与成年可塑性重启）
+
+**源文章**：[[2026-06-29-critical-period-visual-cortex]] —《窗口之谜：视觉皮层关键期如何将经验烧录进回路》
+
+**核心任务**：填补课程路线 2（神经网络如何建成）的重大缺口——关键期机制（critical period）；连接上一篇 BDNF（2026-06-28）与 V1 方向选择性（2026-06-11）；引入 PNNs（围神经元网）这一关键制动器节点。
+
+**新建页面（2）**：
+- `concepts/critical-period.md`（关键期）🟢 established / 置信度高 — GABA_A α1 特异性触发阈值（Fagiolini & Hensch 2000, 2004）；单眼剥夺双相 OD 偏移（剥夺眼 LTD 样抑制 + 开放眼代偿增强）；tPA 介导树突棘瞬时修剪（Mataga 2004）；分子制动器系统（PNNs/Lynx1/PSD-95）；多时间尺度调控框架（毫秒 γ / 天-月 CLOCK-BMAL / 年-代际表观遗传）；成年重启手段（软骨素酶、HDAC 抑制剂、暗养、SSRI）；关键期 = 积极维持的可塑性许可状态，不是被动消失的年幼灵活性
+- `concepts/perineuronal-nets.md`（围神经元网 PNNs）🟢 established / 置信度高 — CSPG 为主成分的网状细胞外基质；PV+细胞周围；形成时间与关键期关闭同步；暗养延迟形成+延迟关键期；软骨素酶-ABC 降解后成年 MD 重新引起 OD 偏移（Pizzorusso 2002 Science）；可能机制（物理屏障/PTPσ受体/Otx2 固定/抗氧化屏障）
+
+**修订页面（2）**：
+- `systems/v1-primary-visual-cortex.md`（修订 #4）— 扩展"发育与关键期"小节：详述双相 OD 偏移、GABA α1 触发机制、tPA 树突棘修剪、PNNs 制动器、成年重启手段；related 新增 critical-period、perineuronal-nets、bdnf；opens_questions 新增 Q-cp-01、Q-cp-02；key_sources 新增 PMID:22841309、PMID:22462544、PMID:12424383、PMID:32503914
+- `concepts/bdnf.md`（修订 #2）— 新增"BDNF 在关键期中的特殊作用"小节：BDNF 过表达绕过视觉经验提前开启关键期（Gianfranceschi 2003）；视觉经验→BDNF 上调→PV+成熟→关键期开启的正反馈回路；related 新增 critical-period、v1-primary-visual-cortex、perineuronal-nets；opens_questions 新增 Q-cp-04；key_sources 新增 PMID:14514885、PMID:32503914
+
+**矛盾处理**：无新矛盾登记（关键期机制各来源一致）
+
+**图谱更新**：新增节点 2（critical-period、perineuronal-nets）；新增边 13 条；总计 113 节点，651 条边
+
+**新增未解问题**：Q-cp-01（关键期关闭主导制动器，高优先）、Q-cp-02（人类成年可塑性安全重启，高优先）、Q-cp-03（PNNs 精确信号机制，中优先）、Q-cp-04（语言关键期是否遵循同一机制，中优先）、Q-cp-05（跨代遗传机制稳健性，中优先）
+
+**下一步建议**：Lynx1 专页（填补 critical-period/perineuronal-nets 引用的悬空 slug）；突触修剪与神经网络发育（补充 Track 2 轴突导向/突触剪枝）；恐惧消退与 vmPFC-杏仁核关键期类比（连接 Track 6）；人类语言关键期神经机制
+
+---
+
 ---
 
 ## 2026-06-28（第 64 篇·BDNF·TrkB信号级联、LTP后期维持与AD分子接点）

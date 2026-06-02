@@ -18,17 +18,48 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "BDNF 如何通过 TrkB 受体信号级联，在分子层面将神经活动翻译为 L-LTP 的后期维持（突触固结：Arc mRNA 局部翻译）、SGZ 新生神经元的存活与成熟（PI3K/Akt + MAPK/ERK）、以及认知储备的可塑性基础？为什么 AD 以截断 BDNF/TrkB-CREB 信号轴作为突触破坏的早期步骤？",
-      "layer": ["molecular", "synaptic", "cellular", "cognition", "disease"],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "cognition",
+        "disease"
+      ],
       "curriculum_track": "4. 学习和记忆（LTP机制深化 - BDNF在L-LTP中的角色）；连接第62篇（成年神经发生）和第8篇系列（AD机制）；填补多页悬空引用[[bdnf]]；选题依据：选题优先级3（填补悬空引用）+ 优先级5（回收未解问题Q-neurogenesis-AD相关）",
       "topic_tags": [
-        "BDNF", "brain-derived neurotrophic factor", "TrkB", "p75NTR", "proBDNF",
-        "neurotrophin", "LTP late phase", "L-LTP", "synaptic consolidation",
-        "Arc mRNA", "local protein synthesis", "PI3K Akt", "MAPK ERK", "PLCγ",
-        "adult neurogenesis", "SGZ", "dentate gyrus", "hippocampal neurogenesis",
-        "Alzheimer's disease", "BDNF TrkB AD", "CREB signaling",
-        "Val66Met", "Val66Met polymorphism", "exercise", "aerobic exercise",
-        "hippocampal volume", "Erickson 2011", "Bramham Messaoudi",
-        "Choi 2018", "5xFAD", "Woo 2005", "Egan 2003", "Lu 2013"
+        "BDNF",
+        "brain-derived neurotrophic factor",
+        "TrkB",
+        "p75NTR",
+        "proBDNF",
+        "neurotrophin",
+        "LTP late phase",
+        "L-LTP",
+        "synaptic consolidation",
+        "Arc mRNA",
+        "local protein synthesis",
+        "PI3K Akt",
+        "MAPK ERK",
+        "PLCγ",
+        "adult neurogenesis",
+        "SGZ",
+        "dentate gyrus",
+        "hippocampal neurogenesis",
+        "Alzheimer's disease",
+        "BDNF TrkB AD",
+        "CREB signaling",
+        "Val66Met",
+        "Val66Met polymorphism",
+        "exercise",
+        "aerobic exercise",
+        "hippocampal volume",
+        "Erickson 2011",
+        "Bramham Messaoudi",
+        "Choi 2018",
+        "5xFAD",
+        "Woo 2005",
+        "Egan 2003",
+        "Lu 2013"
       ],
       "main_sources": [
         "PMID:16099088 (abstract only, paywall)",
@@ -69,9 +100,16 @@
         "wiki/concepts/posterior-cortical-hot-zone.md"
       ],
       "contested_claims_logged": [],
-      "contested_claims_evidence_updated": ["C-2026-05-31-01", "C-2026-05-31-02"],
+      "contested_claims_evidence_updated": [
+        "C-2026-05-31-01",
+        "C-2026-05-31-02"
+      ],
       "core_question": "什么是意识的神经相关物（NCC）？Koch等（2016）三分法（内容特异/完整/使能 NCC）如何统一 GWT 和 IIT 的分歧？COGITATE 2025 对抗性实验对两个理论各自预测（GWT偏移点燃、IIT后方皮层持续同步）的检验结果是什么？GNW 回应论文（PMC12510449）的四个论点是否为 GWT 提供了有效防守？意识科学的下一步是什么？",
-      "layer": ["whole-brain-network", "cognition", "brain-region"],
+      "layer": [
+        "whole-brain-network",
+        "cognition",
+        "brain-region"
+      ],
       "curriculum_track": "8. 意识与自我（NCC → GWT/IIT 综合）；直接推进裁决 C-2026-05-31-01 和 C-2026-05-31-02（高优先级矛盾）；延续 2026-05-30（GWT）、2026-05-31（IIT, COGITATE）的意识系列；首次建立 NCC 三分法框架独立节点",
       "topic_tags": [
         "neural correlates of consciousness",
@@ -3252,6 +3290,92 @@
         "网格→场所转化精确机制：MEC模块叠加或振荡干涉？（填补Q-gc-01方向）",
         "空间记忆的情境依赖性：相同路径、不同情境→不同场所图；通过Q-gc-01引发的情境整合机制"
       ]
+    },
+    {
+      "date": "2026-06-29",
+      "article_number": 65,
+      "title": "窗口之谜：视觉皮层关键期如何将经验烧录进回路",
+      "filename": "2026-06-29-critical-period-visual-cortex.md",
+      "core_question": "为什么视觉皮层在出生后特定时间窗内可以被单眼剥夺彻底重塑，而关键期关闭后同样的干预几乎毫无效果？从 GAD65 KO + 苯二氮䓬触发，到 PNNs/Lynx1/PSD-95 等分子制动器，再到成年软骨素酶/HDAC抑制剂重启——关键期的开启是 GABA 阈值事件，关闭是积极维持的分子锁，而不是可塑性的自然消退。",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（发育关键期首篇） + 3. 大脑如何编码世界（V1发育扩充）",
+      "topic_tags": [
+        "critical period",
+        "ocular dominance",
+        "monocular deprivation",
+        "PV+ interneurons",
+        "GABAergic inhibition",
+        "GAD65 knockout",
+        "benzodiazepine",
+        "GABA_A alpha1",
+        "perineuronal nets",
+        "PNNs",
+        "CSPGs",
+        "chondroitinase-ABC",
+        "Pizzorusso 2002",
+        "Fagiolini Hensch 2000 2004",
+        "BDNF critical period",
+        "dark rearing",
+        "Lynx1",
+        "HDAC inhibitors",
+        "amblyopia",
+        "Hensch 2004",
+        "Espinosa Stryker 2012",
+        "Levelt Hubener 2012",
+        "Reh 2020",
+        "tPA",
+        "dendritic spine pruning",
+        "visual cortex plasticity",
+        "synaptic homeostasis",
+        "EI balance",
+        "circadian clock BMAL CLOCK",
+        "epigenetics",
+        "transgenerational"
+      ],
+      "main_sources": [
+        "PMID:15217343 (Hensch 2004, Ann Rev Neurosci, abstract only)",
+        "PMID:10724170 (Fagiolini & Hensch 2000, Nature, abstract only)",
+        "PMID:15017002 (Fagiolini et al. 2004, Science, abstract only)",
+        "PMID:12424383 (Pizzorusso et al. 2002, Science, abstract only)",
+        "PMID:15603745 (Mataga et al. 2004, Neuron, abstract only)",
+        "PMID:22841309 (Espinosa & Stryker 2012, Neuron, abstract only)",
+        "PMID:22462544 (Levelt & Hubener 2012, Ann Rev Neurosci, abstract only)",
+        "PMID:32503914 (PMC7519216) (Reh et al. 2020, PNAS, OPEN FULL TEXT)",
+        "PMID:29905116 (PMC6047524) (Hensch & Quinlan 2018, Vis Neurosci, OPEN FULL TEXT)",
+        "PMID:14514885 (Gianfranceschi et al. 2003, PNAS, abstract)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/critical-period.md",
+        "wiki/concepts/perineuronal-nets.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/v1-primary-visual-cortex.md (revision 4)",
+        "wiki/concepts/bdnf.md (revision 2)"
+      ],
+      "contested_claims_logged": [],
+      "unresolved_questions": [
+        "Q-cp-01: 关键期关闭的主导制动器",
+        "Q-cp-02: 人类成年可塑性安全重启",
+        "Q-cp-03: PNNs 精确信号机制",
+        "Q-cp-04: 语言关键期是否遵循同一机制",
+        "Q-cp-05: 关键期跨代遗传机制"
+      ],
+      "next_suggested_topics": [
+        "轴突导向（Track 2 进一步）：Netrin/Slit/Semaphorin/Ephrin 四大家族分子机制，填补发育神经科学空白",
+        "突触修剪（Synaptic Pruning）：关键期内失活突触的移除机制（补体介导、小胶质细胞、BDNF/proBDNF调控）",
+        "Lynx1专页：填补 critical-period 和 perineuronal-nets 中引用的悬空 slug",
+        "毛细胞/听觉皮层关键期：与视觉皮层比较，验证关键期普遍性（Track 3 听觉系统开篇）",
+        "Arc/Arg3.1 专页：填补 ltp.md 中已存在的 arc-arg31 悬空引用（BDNF→Arc→L-LTP 链最后一环）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "第65篇。逻辑日期 2026-06-29（实际系统时间 UTC+8 2026-06-02；使用连续性日期）。课程路线 2（发育）首篇关键期文章；自然桥接上一篇 BDNF (2026-06-28) 和 V1 (2026-06-11)。新建2个 wiki 页面（critical-period，perineuronal-nets），修订2页（v1-primary-visual-cortex rev4, bdnf rev2）。图谱 111→113 节点，638→651 条边。开放全文来源：2篇（Reh 2020 PMC7519216，Hensch & Quinlan 2018 PMC6047524）。"
     }
   ],
   "layer_coverage_recent": {

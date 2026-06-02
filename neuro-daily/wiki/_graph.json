@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-28",
+  "updated": "2026-06-29",
   "node_count": 109,
   "edge_count": 625,
   "edge_types": [
@@ -1012,6 +1012,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/bdnf.md"
+    },
+    {
+      "id": "critical-period",
+      "title": "关键期（视觉皮层）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/critical-period.md"
+    },
+    {
+      "id": "perineuronal-nets",
+      "title": "围神经元网（PNNs）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/perineuronal-nets.md"
     }
   ],
   "edges": [
@@ -4526,6 +4544,71 @@
     {
       "from": "alzheimers-disease",
       "to": "bdnf",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period",
+      "to": "perineuronal-nets",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "bdnf",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "gamma-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "ltd",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "bdnf",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "critical-period",
       "type": "related"
     }
   ],

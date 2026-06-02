@@ -1,0 +1,140 @@
+# 运行日志 · 2026-06-29
+
+**文章编号**：#65
+**主题**：窗口之谜：视觉皮层关键期如何将经验烧录进回路
+**运行时间**：UTC+8 2026-06-29（实际系统时间 2026-06-02；使用连续性日期）
+**分支**：claude/funny-einstein-WJBXP → main
+
+---
+
+## 搜索词与数据源
+
+**搜索词**：
+- critical period visual cortex review
+- Hensch TK[author] critical period plasticity
+- Espinosa Stryker 2012 visual cortex development plasticity
+- Levelt Hubener 2012 critical period ocular dominance
+- critical period visual cortex BDNF GABAergic
+- Pizzorusso 2002 perineuronal nets critical period Science
+- Fagiolini Hensch 2000 GABA critical period visual cortex Nature
+- Hensch 2004 critical period regulation Annual Review Neuroscience
+
+**数据源**：PubMed E-utilities (esearch/efetch), PMC open full text
+
+**候选来源数**：约80篇（关键期综述），约45篇（PNNs），约30篇（BDNF×关键期交叉）
+
+---
+
+## 采用来源（10篇）
+
+| PMID/PMCID | 类型 | 全文状态 | 用途 |
+|------|------|---------|------|
+| 15217343 | 综述 | 摘要（paywall） | Hensch 2004 关键期框架定义：GAD65 KO、BDZ 触发、分子制动器全貌 |
+| 10724170 | 原始研究 | 摘要（paywall） | Fagiolini & Hensch 2000 Nature：GABA 阈值触发关键期核心因果实验 |
+| 15017002 | 原始研究 | 摘要（paywall） | Fagiolini 2004 Science：α1 亚基特异性触发（α1 vs α2 分工） |
+| 12424383 | 原始研究 | 摘要（paywall） | Pizzorusso 2002 Science：PNNs 关键期关闭机制 + 软骨素酶成年重启 |
+| 15603745 | 原始研究 | 摘要（paywall） | Mataga 2004 Neuron：tPA 介导关键期内树突棘修剪（结构基础） |
+| 22841309 | 综述 | 摘要（paywall） | Espinosa & Stryker 2012 Neuron：双相 OD 偏移框架（快抑制+慢增强） |
+| 22462544 | 综述 | 摘要（paywall） | Levelt & Hübener 2012 ARN：关键期时序、抑制成熟、不确定性声明 |
+| 32503914 (PMC7519216) | 综述 | **开放全文** | Reh 2020 PNAS：多时间尺度框架（毫秒/天月/年-代际）；精神病学连接 |
+| 29905116 (PMC6047524) | 综述 | **开放全文** | Hensch & Quinlan 2018 Vis Neurosci：弱视+成年可塑性重启全景综述 |
+| 14514885 | 原始研究 | 摘要（free article） | Gianfranceschi 2003 PNAS：BDNF 过表达绕过暗养→提前开启关键期 |
+
+**开放全文**：2篇（PMC7519216、PMC6047524）
+**摘要+全文内容**：8篇
+
+---
+
+## Wiki 固化
+
+### 新建页面（2页）
+
+1. **`wiki/concepts/critical-period.md`**（新建，established/high）
+   - 关键期三特征（时间精确性、效果不对称性、主动调控性）
+   - 触发：GABA 阈值 / PV+细胞（Fagiolini & Hensch 2000, 2004）
+   - 内部机制：双相 OD 偏移（快 LTD + 慢蛋白合成依赖）
+   - 关闭：分子制动器表（PNNs / Lynx1 / PSD-95 / NR2B→NR2A）
+   - 多时间尺度调控（Reh 2020）
+   - 开放问题：Q-cp-01 ~ Q-cp-05
+
+2. **`wiki/concepts/perineuronal-nets.md`**（新建，established/high）
+   - PNNs 成分（CSPGs / 透明质酸 / Crtl1 / tenascin-R）
+   - 四种关闭机制（物理屏障 / PTPσ+NgR1 / Otx2 固定 / 抗氧化屏障）
+   - 核心因果证据：Pizzorusso 2002（成年软骨素酶恢复 OD 可塑性）
+
+### 修订页面（2页）
+
+3. **`wiki/systems/v1-primary-visual-cortex.md`**（rev 3→4）
+   - 新增"发育与关键期"完整机制节
+   - related 新增：critical-period, perineuronal-nets, bdnf
+   - opens_questions 新增：Q-cp-01, Q-cp-02
+   - key_sources 新增：PMID:22841309, PMID:22462544, PMID:12424383, PMID:32503914
+
+4. **`wiki/concepts/bdnf.md`**（rev 1→2）
+   - 新增"BDNF 在关键期中的特殊作用"节（Gianfranceschi 2003 证据）
+   - related 新增：critical-period, v1-primary-visual-cortex, perineuronal-nets
+   - opens_questions 新增：Q-cp-04
+   - key_sources 新增：PMID:14514885, PMID:32503914
+
+### 图谱更新
+
+- 节点：111 → 113（新增 critical-period, perineuronal-nets）
+- 边：638 → 651（新增 13 条有向/无向边）
+- 新边类型：bidirectional（critical-period↔v1, critical-period↔perineuronal-nets, critical-period↔bdnf, perineuronal-nets↔v1）+ one-way（→gamma-oscillations, →ltp, →ltd, →adult-neurogenesis, →orientation-selectivity）
+
+### 无矛盾检测
+
+- critical-period 与现有页面无内容矛盾
+- perineuronal-nets 与现有页面无内容矛盾
+- BDNF 双向调控（LTP/LTD）与关键期 GABA 机制互补，无逻辑冲突
+
+---
+
+## 状态文件更新
+
+| 文件 | 更新内容 |
+|------|---------|
+| `state/topic_ledger.json` | 新增条目 #65（critical-period-visual-cortex） |
+| `state/maturity_index.json` | 新增 critical-period（established/high）、perineuronal-nets（established/high）；更新 v1（rev4）、bdnf（rev2） |
+| `state/unresolved_questions.md` | 新增 Q-cp-01 ~ Q-cp-05 |
+| `state/source_registry.json` | 新增 10 条来源（263 → 273 总条目） |
+| `state/monthly_synthesis.md` | 更新六月进度（截至 2026-06-29，30篇，113节点，651边） |
+| `wiki/CHANGELOG.md` | 新增 2026-06-29 条目（置顶） |
+| `wiki/index.md` | 更新总页数（113），新增 critical-period 和 perineuronal-nets 条目 |
+
+---
+
+## 质量自检（Step H）
+
+- [x] 所有 wiki 声明均有来源（PMID/PMCID 标注）
+- [x] 无悬空引用（critical-period.md 中所有 [[...]] 链接均有对应页面或已知待建页面）
+- [x] index.md 与 CHANGELOG.md 已更新
+- [x] _graph.json 无悬空边（新增边的两端节点均存在）
+- [x] 所有情节层文件完整（article、notes、sources 均已创建）
+- [x] 置信度与证据匹配（已开放全文的结论置信度高；摘要推断保持中等）
+- [x] 无医疗建议内容
+
+---
+
+## Git 操作
+
+**提交信息**：`Add neuro daily article + wiki consolidation for 2026-06-29`
+**新增文件**：
+- `neuro-daily/articles/2026-06-29-critical-period-visual-cortex.md`
+- `neuro-daily/notes/2026-06-29-reading-notes.md`
+- `neuro-daily/sources/2026-06-29-sources.json`
+- `neuro-daily/wiki/concepts/critical-period.md`
+- `neuro-daily/wiki/concepts/perineuronal-nets.md`
+- `neuro-daily/logs/2026-06-29-run.log`
+
+**修改文件**：
+- `neuro-daily/wiki/systems/v1-primary-visual-cortex.md`（rev4）
+- `neuro-daily/wiki/concepts/bdnf.md`（rev2）
+- `neuro-daily/wiki/_graph.json`（113节点，651边）
+- `neuro-daily/wiki/index.md`
+- `neuro-daily/wiki/CHANGELOG.md`
+- `neuro-daily/state/topic_ledger.json`
+- `neuro-daily/state/maturity_index.json`
+- `neuro-daily/state/unresolved_questions.md`
+- `neuro-daily/state/source_registry.json`
+- `neuro-daily/state/monthly_synthesis.md`

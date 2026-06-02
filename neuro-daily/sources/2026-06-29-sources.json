@@ -1,0 +1,263 @@
+{
+  "date": "2026-06-29",
+  "article": "2026-06-29-critical-period-visual-cortex",
+  "topic": "视觉皮层关键期机制",
+  "total_sources": 10,
+  "open_full_text_count": 2,
+  "abstract_only_count": 8,
+  "sources": [
+    {
+      "id": "S-2026-06-29-01",
+      "pmid": "15217343",
+      "pmcid": null,
+      "doi": "10.1146/annurev.neuro.27.070203.144327",
+      "title": "Critical period regulation",
+      "authors": ["Hensch TK"],
+      "journal": "Annual Review of Neuroscience",
+      "year": 2004,
+      "volume": "27",
+      "pages": "549-579",
+      "type": "review",
+      "access": "abstract_only",
+      "full_text_available": false,
+      "reason_for_inclusion": "定义关键期框架的重要综述，Hensch 实验室综合成果；包含 GAD65 KO 实验、苯二氮䓬类实验的整合分析",
+      "topics_covered": ["关键期定义", "GABA 阈值", "关键期触发机制", "GAD65 KO 实验", "早期逆境"],
+      "key_claims": [
+        "GABA 成熟水平是关键期的分子开关，不是兴奋性活动",
+        "关键期在不同脑区有不同时序",
+        "关键期时序可以被遗传和药理手段改变"
+      ]
+    },
+    {
+      "id": "S-2026-06-29-02",
+      "pmid": "10724170",
+      "pmcid": null,
+      "doi": "10.1038/35004180",
+      "title": "Inhibitory threshold for critical-period activation in primary visual cortex",
+      "authors": ["Fagiolini M", "Hensch TK"],
+      "journal": "Nature",
+      "year": 2000,
+      "volume": "404",
+      "issue": "6774",
+      "pages": "183-186",
+      "type": "original_research",
+      "access": "abstract_only",
+      "full_text_available": false,
+      "reason_for_inclusion": "关键期触发机制的核心功能验证实验：GAD65 KO + BDZ 实验证明 GABA 阈值是关键期开关",
+      "topics_covered": ["GAD65 KO", "苯二氮䓬类实验", "GABA 抑制阈值", "关键期激活"],
+      "key_claims": [
+        "GAD65 KO 小鼠永远不进入关键期",
+        "BDZ 在任何年龄均能恢复 KO 鼠的可塑性",
+        "GABA 成熟水平决定了可塑性的'许可状态'"
+      ]
+    },
+    {
+      "id": "S-2026-06-29-03",
+      "pmid": "15017002",
+      "pmcid": null,
+      "doi": "10.1126/science.1091032",
+      "title": "Specific GABA_A circuits for visual cortical plasticity",
+      "authors": ["Fagiolini M", "Fritschy JM", "Löw K", "Möhler H", "Rudolph U", "Hensch TK"],
+      "journal": "Science",
+      "year": 2004,
+      "volume": "303",
+      "issue": "5664",
+      "pages": "1681-1683",
+      "type": "original_research",
+      "access": "abstract_only",
+      "full_text_available": false,
+      "reason_for_inclusion": "精细化 GABA 亚型特异性：α1 亚基负责关键期触发，α2 亚基负责发放控制",
+      "topics_covered": ["GABA_A 受体亚型", "α1 亚基", "关键期特异性回路"],
+      "key_claims": [
+        "GABA_A α1 回路驱动关键期激活",
+        "α2 回路主控发放，与关键期无关",
+        "α1 亚基苯二氮䓬不敏感点突变体阻止关键期开启"
+      ]
+    },
+    {
+      "id": "S-2026-06-29-04",
+      "pmid": "12424383",
+      "pmcid": null,
+      "doi": "10.1126/science.1072699",
+      "title": "Reactivation of ocular dominance plasticity in the adult visual cortex",
+      "authors": ["Pizzorusso T", "Medini P", "Berardi N", "Chierzi S", "Fawcett JW", "Maffei L"],
+      "journal": "Science",
+      "year": 2002,
+      "volume": "298",
+      "issue": "5596",
+      "pages": "1248-1251",
+      "type": "original_research",
+      "access": "abstract_only",
+      "full_text_available": false,
+      "reason_for_inclusion": "围神经元网（PNNs）作为关键期关闭的结构基础，以及软骨素酶-ABC 成年重启可塑性的第一个实验证据",
+      "topics_covered": ["围神经元网 PNNs", "CSPGs", "软骨素酶-ABC", "成年可塑性重启", "弱视"],
+      "key_claims": [
+        "PNNs 形成时间与关键期关闭一致",
+        "暗养延迟 PNNs 形成并延迟关键期关闭",
+        "成年大鼠降解 PNNs 后 MD 重新产生 OD 偏移",
+        "降解 PNNs 后弱视眼视力恢复"
+      ]
+    },
+    {
+      "id": "S-2026-06-29-05",
+      "pmid": "15603745",
+      "pmcid": null,
+      "doi": "10.1016/j.neuron.2004.11.028",
+      "title": "Experience-dependent pruning of dendritic spines in visual cortex by tissue plasminogen activator",
+      "authors": ["Mataga N", "Mizuguchi Y", "Hensch TK"],
+      "journal": "Neuron",
+      "year": 2004,
+      "volume": "44",
+      "issue": "6",
+      "pages": "1031-1041",
+      "type": "original_research",
+      "access": "abstract_only",
+      "full_text_available": false,
+      "reason_for_inclusion": "关键期内 MD 的结构基础：tPA 介导的树突棘修剪，且只在关键期内发生",
+      "topics_covered": ["树突棘修剪", "tPA", "关键期结构可塑性"],
+      "key_claims": [
+        "只在关键期内，MD 导致顶树突棘瞬时减少",
+        "tPA KO 完全阻止棘减少和 OD 偏移",
+        "tPA 活性在关键期 MD 后短暂上调"
+      ]
+    },
+    {
+      "id": "S-2026-06-29-06",
+      "pmid": "22841309",
+      "pmcid": null,
+      "doi": "10.1016/j.neuron.2012.06.009",
+      "title": "Development and plasticity of the primary visual cortex",
+      "authors": ["Espinosa JS", "Stryker MP"],
+      "journal": "Neuron",
+      "year": 2012,
+      "volume": "75",
+      "issue": "2",
+      "pages": "230-249",
+      "type": "review",
+      "access": "abstract_only",
+      "full_text_available": false,
+      "reason_for_inclusion": "V1 发育和关键期可塑性的全面综述，双相 OD 偏移框架",
+      "topics_covered": ["V1 发育", "关键期双相反应", "单眼剥夺机制"],
+      "key_claims": [
+        "MD 引发双相反应：剥夺眼抑制（快）+ 开放眼增强（慢）",
+        "两个阶段依赖不同分子机制"
+      ]
+    },
+    {
+      "id": "S-2026-06-29-07",
+      "pmid": "22462544",
+      "pmcid": null,
+      "doi": "10.1146/annurev-neuro-060909-153324",
+      "title": "Critical-period plasticity in the visual cortex",
+      "authors": ["Levelt CN", "Hübener M"],
+      "journal": "Annual Review of Neuroscience",
+      "year": 2012,
+      "volume": "35",
+      "pages": "309-330",
+      "type": "review",
+      "access": "abstract_only",
+      "full_text_available": false,
+      "reason_for_inclusion": "关键期综述，明确指出关键期关闭机制仍不清楚（诚实的不确定性声明）；也讨论了关键期前的可塑性",
+      "topics_covered": ["关键期时序", "抑制回路成熟", "关键期前可塑性", "关键期关闭机制（仍不清楚）"],
+      "key_claims": [
+        "抑制回路成熟是关键期开启的关键",
+        "关键期关闭机制仍不清楚",
+        "关键期前后均有某种程度的可塑性"
+      ]
+    },
+    {
+      "id": "S-2026-06-29-08",
+      "pmid": "32503914",
+      "pmcid": "PMC7519216",
+      "doi": "10.1073/pnas.1820836117",
+      "title": "Critical period regulation across multiple timescales",
+      "authors": ["Reh RK", "Dias BG", "Nelson CA 3rd", "Kaufer D", "Werker JF", "Kolb B", "Levine JD", "Hensch TK"],
+      "journal": "Proceedings of the National Academy of Sciences USA",
+      "year": 2020,
+      "volume": "117",
+      "issue": "38",
+      "pages": "23242-23251",
+      "type": "review",
+      "access": "open_full_text",
+      "full_text_available": true,
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7519216/",
+      "reason_for_inclusion": "现代关键期调控的三时间尺度框架：毫秒（γ振荡）、天-月（PV+/CLOCK/BMAL）、年-代际（表观遗传/跨代）；连接神经精神障碍",
+      "topics_covered": ["多时间尺度关键期", "PV+细胞", "γ振荡", "昼夜节律与 PV 成熟", "表观遗传", "跨代效应", "ASD", "精神分裂症", "早期逆境", "环境丰富化"],
+      "key_claims": [
+        "PV+细胞是关键期调控的核心节点",
+        "CLOCK/BMAL 基因缺失延迟 PV+细胞成熟和关键期",
+        "HDAC 抑制剂和 EE 延长关键期",
+        "早期逆境通过表观遗传损害关键期时序",
+        "PNNs 去除后 PV+细胞恢复幼年状态"
+      ]
+    },
+    {
+      "id": "S-2026-06-29-09",
+      "pmid": "29905116",
+      "pmcid": "PMC6047524",
+      "doi": "10.1017/S0952523817000219",
+      "title": "Critical periods in amblyopia",
+      "authors": ["Hensch TK", "Quinlan EM"],
+      "journal": "Visual Neuroscience",
+      "year": 2018,
+      "volume": "35",
+      "pages": "E014",
+      "type": "review",
+      "access": "open_full_text",
+      "full_text_available": true,
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6047524/",
+      "reason_for_inclusion": "关键期生物学与弱视治疗的综合综述；成年重启可塑性的系统回顾（暗养、SSRI、HDAC抑制剂、Lynx1）",
+      "topics_covered": ["弱视", "关键期重启", "暗养", "氟西汀", "HDAC抑制剂", "Lynx1", "成年可塑性", "分子制动器"],
+      "key_claims": [
+        "OD 可塑性是关键期的标准模型",
+        "分子制动器积极维持关键期关闭状态",
+        "多种手段可以在成年动物中重启关键期样可塑性",
+        "人类弱视治疗受益于关键期重启机制的研究"
+      ]
+    },
+    {
+      "id": "S-2026-06-29-10",
+      "pmid": "14514885",
+      "pmcid": null,
+      "doi": "10.1073/pnas.2033514100",
+      "title": "Visual cortex is rescued from the effects of dark rearing by overexpression of BDNF",
+      "authors": ["Gianfranceschi L", "Siciliano R", "Walls J", "Morales B", "Kirkwood A", "Huang ZJ", "Tonegawa S", "Maffei L"],
+      "journal": "Proceedings of the National Academy of Sciences USA",
+      "year": 2003,
+      "volume": "100",
+      "issue": "21",
+      "pages": "12486-12491",
+      "type": "original_research",
+      "access": "abstract_only",
+      "full_text_available": false,
+      "note": "free article on PubMed but full text access unclear",
+      "reason_for_inclusion": "BDNF 过表达绕过视觉经验、加速关键期开启的因果证据；连接 BDNF 文章（2026-06-28）与关键期",
+      "topics_covered": ["BDNF 过表达", "暗养", "PV+细胞成熟", "关键期提前开启", "BDNF-GABAergic 连接"],
+      "key_claims": [
+        "BDNF 过表达使暗养小鼠视觉皮层功能正常（不受暗养影响）",
+        "BDNF 通过加速 PV+细胞成熟驱动关键期开启",
+        "视觉经验的作用部分通过 BDNF 介导"
+      ]
+    }
+  ],
+  "search_terms_used": [
+    "critical period visual cortex review",
+    "Hensch TK[author] critical period plasticity",
+    "Espinosa Stryker 2012 visual cortex development plasticity",
+    "Levelt Hubener 2012 critical period ocular dominance",
+    "critical period visual cortex BDNF GABAergic",
+    "Pizzorusso 2002 perineuronal nets critical period Science",
+    "Fagiolini Hensch 2000 GABA critical period visual cortex Nature",
+    "Hensch 2004 critical period[pdat]"
+  ],
+  "excluded_sources": [
+    {
+      "reason": "过于具体/与主线偏离",
+      "description": "多篇 2024-2025 关于具体 PNN 受体信号机制的最新论文，目前没有明确开放全文且与今日综述主线关联较弱"
+    },
+    {
+      "reason": "仅为参考框架",
+      "description": "Achille et al. 2019 关于深度网络'关键期'的计算论文——在 AI 对照章节中提及，但未作为主要来源"
+    }
+  ]
+}
