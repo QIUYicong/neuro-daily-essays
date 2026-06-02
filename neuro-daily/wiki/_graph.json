@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-28",
+  "updated": "2026-06-02",
   "node_count": 109,
   "edge_count": 625,
   "edge_types": [
@@ -1012,6 +1012,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/bdnf.md"
+    },
+    {
+      "id": "embodied-semantics",
+      "title": "具身语义",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "contested",
+      "confidence": "medium",
+      "page": "wiki/concepts/embodied-semantics.md"
     }
   ],
   "edges": [
@@ -4023,12 +4032,6 @@
       "note": "运动前区（PMC）与语言网络通过BA44/镜像神经元相互关联；具身语义"
     },
     {
-      "from": "motor-cortex",
-      "to": "embodied-semantics",
-      "type": "related",
-      "note": "感觉运动皮层在具身语义处理中被词义激活（工具词/动作词）"
-    },
-    {
       "from": "entorhinal-cortex",
       "to": "grid-cells",
       "type": "part-of"
@@ -4527,6 +4530,41 @@
       "from": "alzheimers-disease",
       "to": "bdnf",
       "type": "related"
+    },
+    {
+      "from": "embodied-semantics",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "embodied-semantics",
+      "to": "motor-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "embodied-semantics",
+      "to": "ventral-language-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "embodied-semantics",
+      "to": "mirror-neurons",
+      "type": "related"
+    },
+    {
+      "from": "embodied-semantics",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "embodied-semantics",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "embodied-semantics",
+      "type": "supports"
     }
   ],
   "dangling_references": [

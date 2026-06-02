@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-06-02（第 65 篇·具身语义·行动词义的感觉运动神经基底与复制危机）
+
+**源文章**：[[2026-06-02-embodied-semantics]] —《当大脑读到"踢"，脚步已先响——具身语义的神经科学》
+
+**核心任务**：填补唯一悬空引用 `embodied-semantics`（被 motor-cortex 页面引用）；建立具身语义的独立 wiki 页面；整合2004-2026年的支持与反驳证据链；更新 motor-cortex 和 language-network 页面。
+
+**新建页面（1）**：
+- `concepts/embodied-semantics.md`（具身语义）🟡 contested / 置信度中 — Hauk等2004 somatotopic fMRI证据；Pulvermüller TMS类别特异性因果效应；Watson 2013 ALE元分析挑战；de Zubicaray 2026 复制危机；分级具身论与Hub-and-Spoke整合模型
+
+**修订页面（2）**：
+- `systems/motor-cortex.md`（修订 #3）— related 新增 embodied-semantics；新增连接"运动皮层作为词义的感觉运动辐条"；key_sources 新增 PMID:14741110, PMID:15733097
+- `systems/language-network.md`（修订 #3）— related 新增 embodied-semantics；source_articles 新增 2026-06-02-embodied-semantics
+
+**矛盾处理**：无新矛盾登记（具身语义本身状态设为 contested，内部争议已在页内并列记录）
+
+**图谱更新**：新增节点 1（embodied-semantics）；新增/更新边 7 条；悬空引用从 1 减少至 0；总计 112 节点，644 条边
+
+**新增未解问题**：Q-emb-01（运动激活的因果必要性）、Q-emb-02（复制危机系统检验）、Q-emb-03（任务依赖的具体机制）、Q-emb-04（先天无肢者的行动词语义）、Q-emb-05（Hub辐条的表征vs存储区分）
+
+**下一步建议**：语言网络深化（语音知觉：颞上沟/颞平面/音素处理）；Wernicke区功能专篇；主动推断/自由能原理（FEP，填补 Q-pc-02）
+
+---
+
 ## 2026-06-28（第 64 篇·BDNF·TrkB信号级联、LTP后期维持与AD分子接点）
 
 **源文章**：[[2026-06-28-bdnf-trk-b-plasticity-memory]] —《BDNF：大脑给自己的成长信号》

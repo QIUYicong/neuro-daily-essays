@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-28",
-  "total_articles": 64,
+  "last_updated": "2026-06-02",
+  "total_articles": 65,
   "entries": [
     {
       "date": "2026-06-28",
@@ -18,17 +18,48 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "BDNF 如何通过 TrkB 受体信号级联，在分子层面将神经活动翻译为 L-LTP 的后期维持（突触固结：Arc mRNA 局部翻译）、SGZ 新生神经元的存活与成熟（PI3K/Akt + MAPK/ERK）、以及认知储备的可塑性基础？为什么 AD 以截断 BDNF/TrkB-CREB 信号轴作为突触破坏的早期步骤？",
-      "layer": ["molecular", "synaptic", "cellular", "cognition", "disease"],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "cognition",
+        "disease"
+      ],
       "curriculum_track": "4. 学习和记忆（LTP机制深化 - BDNF在L-LTP中的角色）；连接第62篇（成年神经发生）和第8篇系列（AD机制）；填补多页悬空引用[[bdnf]]；选题依据：选题优先级3（填补悬空引用）+ 优先级5（回收未解问题Q-neurogenesis-AD相关）",
       "topic_tags": [
-        "BDNF", "brain-derived neurotrophic factor", "TrkB", "p75NTR", "proBDNF",
-        "neurotrophin", "LTP late phase", "L-LTP", "synaptic consolidation",
-        "Arc mRNA", "local protein synthesis", "PI3K Akt", "MAPK ERK", "PLCγ",
-        "adult neurogenesis", "SGZ", "dentate gyrus", "hippocampal neurogenesis",
-        "Alzheimer's disease", "BDNF TrkB AD", "CREB signaling",
-        "Val66Met", "Val66Met polymorphism", "exercise", "aerobic exercise",
-        "hippocampal volume", "Erickson 2011", "Bramham Messaoudi",
-        "Choi 2018", "5xFAD", "Woo 2005", "Egan 2003", "Lu 2013"
+        "BDNF",
+        "brain-derived neurotrophic factor",
+        "TrkB",
+        "p75NTR",
+        "proBDNF",
+        "neurotrophin",
+        "LTP late phase",
+        "L-LTP",
+        "synaptic consolidation",
+        "Arc mRNA",
+        "local protein synthesis",
+        "PI3K Akt",
+        "MAPK ERK",
+        "PLCγ",
+        "adult neurogenesis",
+        "SGZ",
+        "dentate gyrus",
+        "hippocampal neurogenesis",
+        "Alzheimer's disease",
+        "BDNF TrkB AD",
+        "CREB signaling",
+        "Val66Met",
+        "Val66Met polymorphism",
+        "exercise",
+        "aerobic exercise",
+        "hippocampal volume",
+        "Erickson 2011",
+        "Bramham Messaoudi",
+        "Choi 2018",
+        "5xFAD",
+        "Woo 2005",
+        "Egan 2003",
+        "Lu 2013"
       ],
       "main_sources": [
         "PMID:16099088 (abstract only, paywall)",
@@ -69,9 +100,16 @@
         "wiki/concepts/posterior-cortical-hot-zone.md"
       ],
       "contested_claims_logged": [],
-      "contested_claims_evidence_updated": ["C-2026-05-31-01", "C-2026-05-31-02"],
+      "contested_claims_evidence_updated": [
+        "C-2026-05-31-01",
+        "C-2026-05-31-02"
+      ],
       "core_question": "什么是意识的神经相关物（NCC）？Koch等（2016）三分法（内容特异/完整/使能 NCC）如何统一 GWT 和 IIT 的分歧？COGITATE 2025 对抗性实验对两个理论各自预测（GWT偏移点燃、IIT后方皮层持续同步）的检验结果是什么？GNW 回应论文（PMC12510449）的四个论点是否为 GWT 提供了有效防守？意识科学的下一步是什么？",
-      "layer": ["whole-brain-network", "cognition", "brain-region"],
+      "layer": [
+        "whole-brain-network",
+        "cognition",
+        "brain-region"
+      ],
       "curriculum_track": "8. 意识与自我（NCC → GWT/IIT 综合）；直接推进裁决 C-2026-05-31-01 和 C-2026-05-31-02（高优先级矛盾）；延续 2026-05-30（GWT）、2026-05-31（IIT, COGITATE）的意识系列；首次建立 NCC 三分法框架独立节点",
       "topic_tags": [
         "neural correlates of consciousness",
@@ -3252,6 +3290,61 @@
         "网格→场所转化精确机制：MEC模块叠加或振荡干涉？（填补Q-gc-01方向）",
         "空间记忆的情境依赖性：相同路径、不同情境→不同场所图；通过Q-gc-01引发的情境整合机制"
       ]
+    },
+    {
+      "date": "2026-06-02",
+      "title": "当大脑读到\"踢\"，脚步已先响——具身语义的神经科学",
+      "filename": "2026-06-02-embodied-semantics.md",
+      "article_number": 65,
+      "article_type": "regular",
+      "core_question": "具身语义假说声称词义是感觉运动经验的神经再现；二十年实验如何建立、挑战并修正这幅图景？",
+      "layer": [
+        "brain-region",
+        "cellular",
+        "cognition"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（第二篇）",
+      "topic_tags": [
+        "embodied semantics",
+        "motor cortex",
+        "Hauk 2004",
+        "Pulvermüller TMS",
+        "Hub-and-Spoke",
+        "replication crisis",
+        "graded embodiment"
+      ],
+      "main_sources": [
+        "PMID:14741110",
+        "PMID:15969907",
+        "PMID:15733097",
+        "PMID:25452575 (PMC)",
+        "PMID:23574587",
+        "PMID:34252418 (PMC)",
+        "PMID:32278096 (PMC)",
+        "PMID:42039049 PMC:PMC13107645"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/embodied-semantics.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/motor-cortex.md (rev3)",
+        "wiki/systems/language-network.md (rev3)"
+      ],
+      "unresolved_questions": [
+        "Q-emb-01",
+        "Q-emb-02",
+        "Q-emb-03",
+        "Q-emb-04",
+        "Q-emb-05"
+      ],
+      "next_suggested_topics": [
+        "语音知觉神经机制（颞上沟/颞平面/音素处理）",
+        "Wernicke区专篇",
+        "主动推断/FEP（填补Q-pc-02）",
+        "无报告范式NCC（填补Q-ncc-01）"
+      ],
+      "mode": "long_term_curriculum",
+      "dangling_reference_filled": "embodied-semantics（图谱唯一悬空引用，悬空引用归零）"
     }
   ],
   "layer_coverage_recent": {

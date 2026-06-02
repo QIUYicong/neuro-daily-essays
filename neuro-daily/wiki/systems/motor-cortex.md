@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-21
-updated: 2026-06-23
-revision_count: 2
+updated: 2026-06-02
+revision_count: 3
 dimensions: [brain-region, cellular, behavior, cognition]
-related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellum, forward-model]
+related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellum, forward-model, embodied-semantics]
 prerequisites: [action-potential, voltage-gated-calcium-channels, pyramidal-neuron]
 opens_questions: [Q-mc-01, Q-mc-02, Q-mc-03]
 source_articles: [2026-06-21-motor-cortex-voluntary-movement]
-key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928"]
+key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928", "PMID:14741110", "PMID:15733097"]
 ---
 
 # 运动皮层 (Motor Cortex)
@@ -83,6 +83,7 @@ key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928"]
 - [[basal-ganglia]] — 运动执行的门控（基底节已建）
 - [[mirror-neurons]] — PMC F5/BA44同源，动作理解
 - [[language-network]] — BA44/F5同源，语言演化
+- [[embodied-semantics]] — 运动皮层作为词义的感觉运动辐条（具身语义）
 - [[prefrontal-cortex]] — 运动规划的上游认知控制
 - [[cerebellum]] — 小脑-运动皮层闭环（传出拷贝接收端 + 前向模型输出接收方）
 - [[forward-model]] — 小脑前向模型与运动皮层的协作机制
@@ -97,7 +98,9 @@ key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928"]
 
 - 2026-06-21 · 创建 · 基于《从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉》（#57）· 初始置信度：高
 - 2026-06-23 · 修订 · 基于《小脑的秘密》· 新增"小脑-运动皮层闭环"段落（传出拷贝→小脑→DCN→VL丘脑→M1反馈回路）；related 新增 cerebellum, forward-model；连接段新增两项
+- 2026-06-02 · 修订 · 基于《当大脑读到"踢"，脚步已先响》(#65) · 新增具身语义功能维度：运动皮层作为词义的感觉运动辐条；related 新增 embodied-semantics；key_sources 补充 PMID:14741110, PMID:15733097
 
 ## 来源文章
 
 - [[2026-06-21-motor-cortex-voluntary-movement]]
+- [[2026-06-02-embodied-semantics]]

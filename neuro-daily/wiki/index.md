@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第64篇·BDNF·TrkB信号级联、LTP后期维持与阿尔茨海默病分子接点）· 主题页总数：**111**（新建1页：bdnf；修订4页：ltp rev9, adult-neurogenesis rev2, hippocampal-neurogenesis rev3, alzheimers-disease rev3；填补悬空引用[[bdnf]]）
+> 最后更新：2026-06-02（第65篇·具身语义·行动词义的感觉运动神经基底与复制危机）· 主题页总数：**112**（新建1页：embodied-semantics；修订2页：motor-cortex rev3, language-network rev3；填补唯一悬空引用[[embodied-semantics]]→图谱悬空引用归零）
 
 ---
 
@@ -116,6 +116,7 @@
 - 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；左侧优势；出生时低髓鞘化→随句法习得成熟；损伤→传导性失语 **[NEW 2026-06-20]**
 - 🟢 [背侧语言流](circuits/dorsal-language-stream.md) — A1→颞平面→Spt→弓状束→BA44；音韵缓冲+句法层级运算；左侧主导 **[NEW 2026-06-20]**
 - 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→角回→BA45；声音→词义；双侧；具身语义（工具→运动皮层，动物→视觉皮层） **[NEW 2026-06-20]**
+- 🔴 [具身语义](concepts/embodied-semantics.md) — 词义神经基底是感觉运动皮层再激活（Hauk 2004 somatotopy；Pulvermüller 2005 TMS类别特异性因果效应）；面临复制危机（de Zubicaray 2026）；分级具身论+Hub-and-Spoke整合模型取代强具身论 **[NEW 2026-06-02]**（填补图谱唯一悬空引用）
 
 ## systems（系统）
 

@@ -6,13 +6,13 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-06-21
-revision_count: 2
+updated: 2026-06-02
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
 opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
-source_articles: [2026-06-20-language-dual-stream]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics]
 key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302"]
 ---
 

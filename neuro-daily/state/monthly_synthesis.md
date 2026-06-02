@@ -4,13 +4,14 @@
 
 ## 2026年6月（进行中）
 
-*本月截至日期：2026-06-28*
-*本月新增文章：#36–#64（共29篇）*
+*本月截至日期：2026-06-02*
+*本月新增文章：#36–#65（共30篇）*
 
 ### 本月文章摘要（节选）
 
 | # | 日期 | 文章标题 | 层级 |
 |---|------|---------|------|
+| 65 | 2026-06-02 | 当大脑读到"踢"，脚步已先响——具身语义的神经科学 | 脑区/细胞/认知 |
 | 64 | 2026-06-28 | BDNF：大脑给自己的成长信号——TrkB信号级联、LTP后期维持与AD分子接点 | 分子/突触/细胞/认知/疾病 |
 | 63 | 2026-06-27 | 意识在哪里？——神经相关物（NCC）框架与 2025 年大脑意识科学的真实地平线 | 全脑网络/认知/脑区 |
 | 57 | 2026-06-21 | 从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉 | 系统/回路 |
@@ -23,8 +24,8 @@
 
 ### 本月新增 wiki 页面（截至 2026-06-28）
 
-- **总主题页**：111（月初75，当前111）
-- **图谱**：111节点，638条边
+- **总主题页**：112（月初75，当前112）
+- **图谱**：112节点，644条边；悬空引用：0（本月填补最后1个：embodied-semantics）
 - **本月新建**：motor-cortex, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex, cerebellum, cerebellar-ltd, forward-model, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, binding-by-synchrony, adult-neurogenesis, **neural-correlates-of-consciousness（NCC三分法框架）** + 多个此前文章的相关页面
 - **本月修订**：language-network, ltd rev2, predictive-coding rev5, motor-cortex rev2, hippocampal-circuit rev9, ltp rev8, place-cells rev2, gamma-oscillations rev2, hippocampal-neurogenesis rev2, pattern-separation rev2, **global-workspace-theory rev6（NCC三分法+GNW回应）**、**integrated-information-theory rev3（可证伪性讨论）**、**consciousness-ignition rev5（offset ignition非核心预测）**、**posterior-cortical-hot-zone rev2（临床证据补充）**
 - **本月矛盾状态**：C-2026-05-31-01 和 C-2026-05-31-02 evidence_update 更新（均仍 open，但分析更深入）

@@ -793,5 +793,18 @@
       "change_reason": "新建页面。啮齿类证据established，人类证据emerging",
       "source_article": "2026-06-26-adult-neurogenesis-dentate-gyrus"
     }
-  ]
+  ],
+  "embodied-semantics": {
+    "status": "contested",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_change": "2026-06-02",
+    "change_reason": "首次创建。具身语义假说有fMRI+TMS支持证据，但同时面临ALE元分析挑战（Watson 2013）和复制危机（de Zubicaray 2026预印本），设为contested/medium",
+    "key_sources": [
+      "PMID:14741110",
+      "PMID:15733097",
+      "PMID:23574587",
+      "PMID:34252418"
+    ]
+  }
 }
