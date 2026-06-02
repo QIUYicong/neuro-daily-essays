@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-26（第 62 篇·大脑的自我更新·成年齿状回神经发生与模式分离）
+
+**源文章**：[[2026-06-26-adult-neurogenesis-dentate-gyrus]] —《大脑的自我更新：成年齿状回如何生产新神经元，以及一场三十年未决的科学之争》
+
+**新建页面（1）**：
+- `concepts/adult-neurogenesis.md`（成年神经发生）🟡 emerging / 置信度中 — 五阶段分化程序（qNSC→成熟颗粒细胞）；GABA 开关两阶段功能（协作期→竞争期）；关键期可塑性（NR2B、低 LTP 阈值）；前馈抑制机制支持模式分离；人类争议：Sorrells 2018 vs Boldrini 2018 → Moreno-Jiménez 2019 方法论破局（固定时间）→ snRNA-seq 独立确认；碳-14 定年（~700/天）；AD 中神经发生衰退
+
+**修订页面（2）**：
+- `concepts/hippocampal-neurogenesis.md`（修订 #2）— 新增 GABA 开关机制详解；更新人类神经发生评估（从"争议尚未解决"升级为"多维证据支持"）；方法论破局分析（固定时间）；snRNA-seq 证据（Zhou 2022）；AD 连接；证据表更新 3 行；连接新增 adult-neurogenesis、pattern-separation、alzheimers-disease；key_sources 新增 4 篇
+- `concepts/pattern-separation.md`（修订 #2）— 神经发生机制部分深化：GABA 开关两阶段程序、关键期分子特性（NR2B）、前馈抑制机制、Clelland 2009 必要性证据；证据表新增 2 行；连接新增 adult-neurogenesis
+
+**矛盾登记**：无新矛盾（Q-adult-neurogenesis-human-controversy 状态更新：从"有争议"升级为"多维证据汇聚支持存在，但规模不确定"，不需要新矛盾条目，因为不是新旧证据对立而是方法论统一）
+
+**图谱更新**：新增节点 1（adult-neurogenesis）；新增边 9 条；修复 _graph.json JSON 格式错误（2026-06-25 遗留的缺少逗号和尾随逗号）；hippocampal-neurogenesis 节点 status→emerging
+
+**新增悬空引用（待填补）**：
+- `bdnf`（BDNF/TrkB 信号，被 adult-neurogenesis 和 hippocampal-neurogenesis 引用）
+
+**新增未解问题**：Q-neurogenesis-AD（高优先级）、Q-gaba-switch-timing（中优先级）
+
+---
+
 ## 2026-06-25（第 61 篇·当大脑把碎片缝合在一起·伽马振荡与神经绑定）
 
 **源文章**：[[2026-06-25-gamma-oscillations-neural-binding]] —《当大脑把碎片缝合在一起：伽马振荡与神经绑定之谜》

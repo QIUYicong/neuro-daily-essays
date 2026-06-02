@@ -1,7 +1,91 @@
 {
-  "last_updated": "2026-06-25",
-  "total_articles": 61,
+  "last_updated": "2026-06-26",
+  "total_articles": 62,
   "entries": [
+    {
+      "date": "2026-06-26",
+      "title": "大脑的自我更新：成年齿状回如何生产新神经元，以及一场三十年未决的科学之争",
+      "filename": "2026-06-26-adult-neurogenesis-dentate-gyrus.md",
+      "wiki_pages_created": [
+        "wiki/concepts/adult-neurogenesis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/hippocampal-neurogenesis.md",
+        "wiki/concepts/pattern-separation.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "成年齿状回（DG）如何通过GABA开关和关键期可塑性机制，使新生颗粒细胞整合进DG→CA3回路并通过前馈抑制支持模式分离？人类成人神经发生是否真实存在——三种独立方法（BrdU、碳-14、snRNA-seq）如何共同确认其存在？Sorrells vs Boldrini的争议如何被Moreno-Jiménez 2019的固定时间发现解决？AD中神经发生衰退与认知损害的关系是什么？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "4. 学习和记忆→细胞层扩展：神经发生机制为CA3吸引子（第60篇）提供正交DG输入；同时打通分子-细胞-认知-疾病的完整垂直切面",
+      "topic_tags": [
+        "adult neurogenesis",
+        "hippocampal neurogenesis",
+        "dentate gyrus",
+        "SGZ",
+        "doublecortin",
+        "DCX",
+        "GABA switch",
+        "NKCC1",
+        "KCC2",
+        "critical period",
+        "NR2B",
+        "pattern separation",
+        "feedforward inhibition",
+        "PV interneurons",
+        "Sahay 2011",
+        "Clelland 2009",
+        "Sorrells 2018",
+        "Boldrini 2018",
+        "Moreno-Jimenez 2019",
+        "Spalding 2013 carbon-14",
+        "snRNA-seq",
+        "Eriksson 1998",
+        "adult neurogenesis controversy",
+        "fixation time DCX",
+        "Alzheimer's disease neurogenesis",
+        "BDNF",
+        "exercise neurogenesis",
+        "stress glucocorticoid",
+        "maturation stages",
+        "radial glia-like stem cells"
+      ],
+      "main_sources": [
+        "PMID:9809554 (abstract only, paywall)",
+        "PMID:23746839 (PMCID:PMC4394608, open access)",
+        "PMID:19590004 (abstract only)",
+        "PMID:21460835 (PMCID:PMC3084370, open access)",
+        "PMID:29513649 (abstract only, paywall)",
+        "PMID:29625071 (abstract only)",
+        "PMID:30911133 (abstract only, paywall)",
+        "PMID:35922666 (PMCID:PMC9373098, open access, info from review)",
+        "PMID:34137370 (PMCID:PMC8260225, open access)",
+        "PMID:40816272 (PMCID:PMC12447344, open access)",
+        "DOI:10.1038/s41586-026-10169-4 (full text not accessed, paywall)"
+      ],
+      "unresolved_questions": [
+        "Q-neurogenesis-AD",
+        "Q-gaba-switch-timing",
+        "Q-adult-neurogenesis-human-controversy",
+        "Q-neurogenesis-memory-function"
+      ],
+      "next_suggested_topics": [
+        "BDNF（脑源性神经营养因子）：神经发生的关键促进因子，也是多种神经系统疾病的共同通路（悬空引用，被多页引用）",
+        "意识的神经相关物（NCC）：综合IIT/GWT/预测编码，尝试裁决C-2026-05-31-01和C-2026-05-31-02（高优先级矛盾）",
+        "Alpha/Beta振荡的跨区整合功能（从gamma绑定文章延伸）",
+        "阿尔茨海默病的分子机制：淀粉样级联、tau磷酸化、神经发生衰退（disease层，今日文章已建立神经发生-AD连接）",
+        "光遗传学深挖（因果神经科学方法，连接gamma绑定Q-gamma-bind-01的因果实验需要）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 62,
+      "note": "系统时钟UTC+8=2026-06-02；知识库连续性延续自2026-06-25（第61篇）；使用2026-06-26作为今日日期以维持知识库连续性"
+    },
     {
       "date": "2026-06-25",
       "title": "当大脑把碎片缝合在一起：伽马振荡与神经绑定之谜",
@@ -14,7 +98,11 @@
       ],
       "contested_claims_logged": [],
       "core_question": "伽马振荡（30–90 Hz）是否通过同步化处理同一物体不同特征的神经元来解决绑定问题？跨区域神经同步是感知统一性的必要条件，还是一个被过度诠释的相关物？ING 和 PING 机制如何各自贡献？CTC 框架如何描述不同频段的功能分工？",
-      "layer": ["microcircuit", "whole-brain-network", "cognition"],
+      "layer": [
+        "microcircuit",
+        "whole-brain-network",
+        "cognition"
+      ],
       "curriculum_track": "主题交叉：触及感觉编码（绑定）、意识理论（IIT/GWT 与伽马同步）、方法（光遗传因果实验需求）、疾病（精神分裂症 PV 功能障碍）；延续 2026-06-11（V1 方向选择性）和 2026-06-15（预测编码）的视觉皮层系列，并连接到 C-2026-05-31-01 矛盾条目",
       "topic_tags": [
         "gamma oscillations",
@@ -49,7 +137,11 @@
         "PMID:38581829 (PMCID:PMC11102840, open access)",
         "PMID:10677027 (abstract only)"
       ],
-      "unresolved_questions": ["Q-gamma-bind-01", "Q-gamma-bind-02", "Q-gamma-bind-03"],
+      "unresolved_questions": [
+        "Q-gamma-bind-01",
+        "Q-gamma-bind-02",
+        "Q-gamma-bind-03"
+      ],
       "next_suggested_topics": [
         "成人神经发生（齿状回，被 CA3 文章引用悬空）",
         "光遗传学与因果神经科学深挖（伽马绑定的因果实验需要）",

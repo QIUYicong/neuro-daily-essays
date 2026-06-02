@@ -1,0 +1,106 @@
+# 运行日志 2026-06-26
+
+**运行时间**：2026-06-26（知识库日期；系统时钟 UTC+8 = 2026-06-02）
+**文章编号**：62
+**主题**：成年海马神经发生（Adult Hippocampal Neurogenesis）
+**模式**：长期课程模式（long_term_curriculum）
+**分支**：main
+**运行环境说明**：系统时钟为 2026-06-02，但知识库连续性状态（topic_ledger, wiki, 状态文件）已进展至 2026-06-25（第61篇）。本次使用 2026-06-26 作为文章日期以维持知识库连续性；这与"每日一篇"的精神一致，同时避免重复已存在的 2026-06-02 文章（第10篇）。
+
+---
+
+## 选题决策
+
+**选题驱动**：多重因素汇聚：
+1. Q-pc-03（高优先级）：CA3 文章提出的"人类成人神经发生是否真实"悬空问题
+2. `adult-neurogenesis` 是 pattern-separation 页面的悬空引用（被多次 related 引用但无独立页面）
+3. hippocampal-neurogenesis 页面 revision_count=1，需要深化
+4. 最新 2026 Nature 论文（DOI:10.1038/s41586-026-10169-4）和 2025 综述（PMC12447344）提供新证据
+5. 层级覆盖：分子/细胞层——近7篇文章主要在微回路/认知层，需要向下钻探
+
+**决策**：写成年齿状回神经发生，重点三方面：GABA开关机制 + 模式分离因果证据 + 人类争议方法论解析
+
+---
+
+## 检索过程
+
+**搜索词**：
+1. "adult hippocampal neurogenesis human controversy Sorrells Boldrini 2024 2025 resolution PMC open access"
+2. "dentate gyrus adult neurogenesis pattern separation Sahay 2011 Clelland 2009 PMC open access"
+3. "adult hippocampal neurogenesis single cell RNA sequencing human 2024 2025 PMC open access Nature"
+4. "Moreno-Jimenez 2019 adult hippocampal neurogenesis Nature Medicine PMID"
+5. "Eriksson 1998 neurogenesis in adult human hippocampus PMID Nature Medicine"
+6. "Human hippocampal neurogenesis in adulthood ageing and Alzheimer's disease Nature 2026 PMID PubMed"
+7. "Spalding 2013 retrospective birth dating human neurons carbon-14 PMID hippocampus Cell"
+
+**数据源访问**：
+- PubMed/NCBI: 多次摘要查询（所有来源确认 PMID）
+- PMC Open Access: PMC4394608（Spalding 2013）、PMC3084370（Sahay 2011）、PMC8260225（功能模型2021）、PMC12447344（Chen 2025综述）、PMC12937870（单细胞综述）、PMC12162651（转录组综述）、PMC6676862（争议分析）
+- Nature.com: 试图访问DOI:10.1038/s41586-026-10169-4，重定向到认证，未读取全文
+- 官方信息渠道: Nature新闻稿和数据库记录确认2026论文存在
+
+**候选来源**：14篇
+**采用来源**：11篇
+**排除来源**：3篇（重复内容、综述中已覆盖）
+
+---
+
+## 来源全文可用性
+
+| 来源 | PMID/DOI | 全文 |
+|------|---------|------|
+| Eriksson 1998 | PMID:9809554 | ❌ 摘要 |
+| Spalding 2013 | PMID:23746839 | ✅ PMC4394608 |
+| Clelland 2009 | PMID:19590004 | ❌ 摘要 |
+| Sahay 2011 | PMID:21460835 | ✅ PMC3084370 |
+| Sorrells 2018 | PMID:29513649 | ❌ 摘要 |
+| Boldrini 2018 | PMID:29625071 | ❌ 摘要 |
+| Moreno-Jiménez 2019 | PMID:30911133 | ❌ 摘要 |
+| Zhou 2022 | PMID:35922666 | ✅ PMC9373098（来自综述引用） |
+| 功能模型 2021 | PMID:34137370 | ✅ PMC8260225 |
+| Chen 2025 | PMID:40816272 | ✅ PMC12447344 |
+| Disouky 2026 | DOI:10.1038/s41586-026-10169-4 | ❌ 付费墙（明确标注） |
+
+**开放全文：4篇（其中1篇通过综述引用摘要信息）；摘要/限制来源：7篇**
+
+---
+
+## Wiki 固结
+
+### 新建页面（1）
+- `wiki/concepts/adult-neurogenesis.md`：新建，revision_count=1，status=emerging，confidence=medium
+
+### 修订页面（3）
+- `wiki/concepts/hippocampal-neurogenesis.md`：revision_count 1→2，当前理解更新（GABA开关、方法论破局、AD连接、snRNA-seq证据）
+- `wiki/concepts/pattern-separation.md`：revision_count 1→2，神经发生机制部分深化
+- `wiki/_graph.json`：修复JSON格式错误（缺少逗号+尾随逗号，2026-06-25遗留）；新增节点1个（adult-neurogenesis）；新增边9条
+
+### 矛盾检查
+- 无新矛盾登记（Q-adult-neurogenesis-human-controversy状态更新为"多维证据支持，争议收敛"，不创建新矛盾条目）
+
+---
+
+## 成熟度变化
+- adult-neurogenesis：新建 → emerging / medium
+- hippocampal-neurogenesis：contested / medium → emerging / medium（证据充分度提升）
+
+---
+
+## 新增未解问题
+- Q-neurogenesis-AD（高优先级）：神经发生衰退与AD认知损害的因果关系
+- Q-gaba-switch-timing（中优先级）：人类新生神经元GABA开关时机与关键期时长
+
+---
+
+## 失败与限制
+- Disouky et al. 2026（Nature）无法读取全文（付费墙），文章中明确标注"未读取全文"
+- Sorrells 2018（Nature）、Moreno-Jiménez 2019（Nature Medicine）均受付费墙限制，使用摘要
+- 7/11来源只读摘要，对这些来源的引用保守且明确标注
+
+---
+
+## Git 操作
+
+**分支**：main
+**Commit**：见下方
+**Push**：见下方

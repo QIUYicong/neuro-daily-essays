@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-26",
+  "article": "2026-06-26-adult-neurogenesis-dentate-gyrus",
+  "topic": "成年海马神经发生：分子机制、模式分离功能、人类存在争议",
+  "total_sources": 11,
+  "open_full_text": 4,
+  "abstract_only": 6,
+  "paywalled_no_full_text": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Eriksson PS, Perfilieva E, Björk-Eriksson T, et al. (1998). Neurogenesis in the adult human hippocampus. Nature Medicine, 4(11):1313-1317.",
+      "pmid": "9809554",
+      "doi": "10.1038/nm1198_1313",
+      "url": "https://www.nature.com/articles/nm1198_1313",
+      "full_text_available": false,
+      "access_note": "1998年，Nature Medicine付费墙，未获取全文",
+      "key_content": "第一个人类组织学证据证明成年海马DG有新神经元生成（BrdU+NeuN双标）",
+      "used_for": "历史背景，首次人类证据"
+    },
+    {
+      "id": "S2",
+      "citation": "Spalding KL, Bergmann O, Alkass K, et al. (2013). Dynamics of hippocampal neurogenesis in adult humans. Cell, 153(6):1219-1227.",
+      "pmid": "23746839",
+      "pmcid": "PMC4394608",
+      "doi": "10.1016/j.cell.2013.05.002",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4394608/",
+      "full_text_available": true,
+      "access_note": "PMC开放全文",
+      "key_content": "碳-14定年证明约1/3颗粒细胞持续更新，年更新率1.75%，约700个新神经元/天",
+      "used_for": "人类神经发生规模的客观定量证据"
+    },
+    {
+      "id": "S3",
+      "citation": "Clelland CD, Choi M, Romberg C, et al. (2009). A functional role for adult hippocampal neurogenesis in spatial pattern separation. Science, 325(5937):210-213.",
+      "pmid": "19590004",
+      "doi": "10.1126/science.1173215",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19590004/",
+      "full_text_available": false,
+      "access_note": "摘要读取",
+      "key_content": "X射线选择性破坏SGZ分裂细胞，损害精细空间模式分离（必要性因果证据）",
+      "used_for": "神经发生对模式分离的必要性因果证据"
+    },
+    {
+      "id": "S4",
+      "citation": "Sahay A, Scobie KN, Hill AS, et al. (2011). Increasing adult hippocampal neurogenesis is sufficient to improve pattern separation. Nature, 472(7344):466-470.",
+      "pmid": "21460835",
+      "pmcid": "PMC3084370",
+      "doi": "10.1038/nature09817",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3084370/",
+      "full_text_available": true,
+      "access_note": "PMC开放全文",
+      "key_content": "遗传提高新生细胞存活率（神经发生↑50%），情景恐惧辨别任务显著改善（充分性因果证据）",
+      "used_for": "神经发生对模式分离的充分性因果证据"
+    },
+    {
+      "id": "S5",
+      "citation": "Sorrells SF, Paredes MF, Cebrian-Silla A, et al. (2018). Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults. Nature, 555(7696):377-381.",
+      "pmid": "29513649",
+      "doi": "10.1038/nature25975",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29513649/",
+      "full_text_available": false,
+      "access_note": "摘要读取，原文付费墙",
+      "key_content": "59例脑样本，DCX免疫组化，成人DCX+细胞几乎无法检测；后被认为受样本过度固定影响",
+      "used_for": "人类神经发生争议的阴性一方"
+    },
+    {
+      "id": "S6",
+      "citation": "Boldrini M, Fulmore CA, Tartt AN, et al. (2018). Human hippocampal neurogenesis persists throughout aging. Cell Stem Cell, 22(4):589-599.",
+      "pmid": "29625071",
+      "doi": "10.1016/j.stem.2018.03.015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29625071/",
+      "full_text_available": false,
+      "access_note": "摘要读取",
+      "key_content": "28例优化处理样本，老年人海马仍有数千个未成熟神经元，终身持续",
+      "used_for": "人类神经发生争议的阳性一方"
+    },
+    {
+      "id": "S7",
+      "citation": "Moreno-Jiménez EP, Flor-García M, Terreros-Roncal J, et al. (2019). Adult hippocampal neurogenesis is abundant in neurologically healthy subjects and drops sharply in patients with Alzheimer's disease. Nature Medicine, 25(4):554-560.",
+      "pmid": "30911133",
+      "doi": "10.1038/s41591-019-0375-9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30911133/",
+      "full_text_available": false,
+      "access_note": "摘要读取（PubMed）",
+      "key_content": "严格控制固定时间（≤24h）发现健康个体～43,000 DCX+/mm²；AD患者随分期显著下降；揭示过固定是Sorrells et al.假阴性的根源",
+      "used_for": "方法论破局，AD-神经发生关联"
+    },
+    {
+      "id": "S8",
+      "citation": "Zhou Y, et al. (2022). Single-nucleus transcriptomics in adult and aging human hippocampus. PMID: 35922666, PMCID: PMC9373098.",
+      "pmid": "35922666",
+      "pmcid": "PMC9373098",
+      "full_text_available": true,
+      "access_note": "PMC开放全文（信息来自综合综述引用摘要）",
+      "key_content": "机器学习识别snRNA-seq中的未成熟颗粒细胞（3.1-7.5%）；在Sorrells等原始样本中也检测到神经发生转录组信号",
+      "used_for": "独立于DCX蛋白的第二维度人类神经发生证据"
+    },
+    {
+      "id": "S9",
+      "citation": "Aimone JB, Li Y, Lee SW, Bhaskaran MD, Bhaskaran K, Bhaskaran J (2021). A functional model of adult dentate gyrus neurogenesis. PMID: 34137370, PMCID: PMC8260225.",
+      "pmid": "34137370",
+      "pmcid": "PMC8260225",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8260225/",
+      "full_text_available": true,
+      "access_note": "PMC开放全文，已读取",
+      "key_content": "计算模型揭示GABA开关的两阶段功能：协作期（兴奋性GABA→突触权重朝现有记忆初始化）→竞争期（抑制性GABA→特化为新颖相似模式）",
+      "used_for": "GABA开关机制的计算桥梁"
+    },
+    {
+      "id": "S10",
+      "citation": "Chen S, et al. (2025). Adult hippocampal neurogenesis: New avenues for treatment of brain disorders. PMID: 40816272, PMCID: PMC12447344.",
+      "pmid": "40816272",
+      "pmcid": "PMC12447344",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12447344/",
+      "full_text_available": true,
+      "access_note": "PMC开放全文，已读取",
+      "key_content": "综述神经发生调节通路（BDNF/Wnt/Shh/Notch）；AD中神经发生刺激改善认知不依赖淀粉样蛋白；SSRI/运动/氯胺酮的神经发生效应",
+      "used_for": "调节机制和治疗潜力综述"
+    },
+    {
+      "id": "S11",
+      "citation": "Disouky A, Sanborn MA, Sabitha KR, et al. (2026). Human hippocampal neurogenesis in adulthood, ageing and Alzheimer's disease. Nature. DOI: 10.1038/s41586-026-10169-4.",
+      "doi": "10.1038/s41586-026-10169-4",
+      "url": "https://www.nature.com/articles/s41586-026-10169-4",
+      "full_text_available": false,
+      "access_note": "未读取全文（付费墙重定向），信息来自官方Nature新闻稿和数据库记录",
+      "key_content": "355,997核多组学单细胞测序；覆盖SuperAgers/正常老人/MCI/AD；AD最早变化在NSC阶段；认知损害与神经母细胞改变相关",
+      "used_for": "最新2026年大规模证据（摘要级别）"
+    }
+  ],
+  "search_queries": [
+    "adult hippocampal neurogenesis human controversy Sorrells Boldrini 2024 2025 resolution PMC open access",
+    "dentate gyrus adult neurogenesis pattern separation Sahay 2011 Clelland 2009 PMC open access",
+    "adult hippocampal neurogenesis single cell RNA sequencing human 2024 2025 PMC open access Nature",
+    "Moreno-Jimenez 2019 adult hippocampal neurogenesis Nature Medicine PMID",
+    "Eriksson 1998 neurogenesis in adult human hippocampus PMID Nature Medicine",
+    "Human hippocampal neurogenesis in adulthood ageing and Alzheimer's disease Nature 2026 PMID PubMed",
+    "Spalding 2013 retrospective birth dating human neurons carbon-14 PMID hippocampus Cell"
+  ],
+  "institutions_consulted": [
+    "PubMed / NCBI E-utilities",
+    "PubMed Central (PMC)",
+    "Europe PMC"
+  ]
+}

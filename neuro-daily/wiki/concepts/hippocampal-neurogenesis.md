@@ -6,14 +6,14 @@ type: mechanism
 status: contested
 confidence: medium
 created: 2026-06-13
-updated: 2026-06-13
-revision_count: 1
+updated: 2026-06-26
+revision_count: 2
 dimensions: [cellular, brain-region, cognition, disease]
 related: [hippocampal-circuit, ltp, memory-consolidation, engram-cells, serotonin-raphe-system, 5-ht-autoreceptor, bdnf]
 prerequisites: [hippocampal-circuit, ltp, engram-cells]
 opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-ssri-neurogenesis-causal]
-source_articles: [2026-06-13-serotonin-autoreceptor-ssri-delay]
-key_sources: ["PMID:12907793", "PMID:33672070"]
+source_articles: [2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-06-26-adult-neurogenesis-dentate-gyrus]
+key_sources: ["PMID:12907793", "PMID:33672070", "PMID:23746839", "PMID:30911133", "PMID:35922666", "PMID:34137370"]
 ---
 
 # 海马神经发生 (Hippocampal Neurogenesis)
@@ -22,15 +22,16 @@ key_sources: ["PMID:12907793", "PMID:33672070"]
 
 ## 当前理解
 
-我们现在认为，成年啮齿类动物海马齿状回SGZ具有活跃的神经干细胞增殖，每天产生数千个新颗粒细胞，其中约50%最终整合入海马回路（其余经程序性死亡淘汰）。新生神经元在整合的关键期（约1-3周）表现出超兴奋性（enhanced excitability）和独特的突触可塑性特征，可能通过"竞争性稀疏化"支持记忆编码的模式分离功能（与 DG→CA3 模式分离机制相关）。
+我们现在认为：成年齿状回 SGZ 持续产生新颗粒细胞（啮齿类 established，人类 emerging）。新生神经元遵循精确的分子程序整合：**GABA 开关**（0-3 周兴奋性 GABA → 3 周后抑制性 GABA）决定两个功能阶段——协作期（智能初始化突触权重朝现有记忆方向）和竞争期（特化为新颖相似模式）。约 4-6 周的关键期内，新生神经元超兴奋（NR2B 主导 NMDA 受体，低 LTP 阈值），通过激活 PV+ 篮状细胞的前馈抑制支持模式分离（Sahay 2011 因果充分证据，PMID:21460835）。
 
-然而，在人类中：
-- **支持神经发生存在的证据**：Boldrini et al. (2018, Cell Stem Cell) 在健康老年人海马中检测到新生神经元（DCX+ 细胞）；Spalding et al. (2013) 用放射性碳定年法确认成人齿状回细胞更新。
-- **质疑神经发生的证据**：Sorrells et al. (2018, Nature) 在成人海马中几乎未检测到DCX+新生神经元，认为人类成人神经发生可能极罕见或已停止。
+**关于人类成人神经发生**：2026 年时点的证据汇聚指向"存在但规模远小于啮齿类"：
+1. **碳-14 定年**（Spalding 2013, PMID:23746839）：约 1/3 颗粒细胞更新，~700 个/天，不依赖免疫组化
+2. **snRNA-seq**（Zhou 2022, PMID:35922666）：机器学习识别未成熟颗粒细胞（3.1-7.5%），在 Sorrells 等原始样本中也能检测到
+3. **方法论破局**（Moreno-Jiménez 2019, PMID:30911133）：过度固定（>24h 4% PFA）抑制 DCX 抗原，是 Sorrells 2018 假阴性的根源；严格处理样本中发现 ~43,000 DCX+/mm²（43-87 岁健康个体）
 
-这一矛盾尚未解决，主要原因可能是组织处理方法差异（固定时间、切片厚度）影响DCX等标志物的检测敏感性。
+**AD 新连接**：Moreno-Jiménez 2019 首次量化了神经发生与 AD 分期的关联——AD 患者 DCX+ 细胞随分期显著下降，Disouky et al. 2026（*Nature*, 355,997 核多组学）进一步提示最早变化在 NSC 阶段（未读全文）。
 
-**当前最合理立场**：成年啮齿类和非人灵长类海马神经发生证据充分；人类成年海马神经发生存在但规模可能远小于啮齿类，且随年龄显著下降。
+**当前最合理立场**：啮齿类神经发生 established（高置信度）；人类成人神经发生 emerging（中置信度，多维独立证据支持，但方法论争议尚未完全平息）；规模和功能意义仍需进一步厘清。
 
 ## 关键机制
 
@@ -65,17 +66,23 @@ BDNF/TrkB信号也是关键下游：慢性SSRI → 5-HT升高 → BDNF表达↑�
 | 阻断神经发生消除SSRI行为效果（小鼠） | X射线局灶照射+行为测试 | Santarelli 2003, PMID:12907793 | 中（啮齿类，行为范式限制） |
 | 5-HT1A-KO小鼠对SSRI的神经发生无响应 | 基因敲除+氟西汀处理 | Santarelli 2003, PMID:12907793 | 中（啮齿类） |
 | 人类海马成年神经发生（碳-14定年） | 放射性碳定年（原子弹测试遗留C14） | Spalding 2013 | 中（人类，间接测量） |
-| 人类成年海马几乎无DCX+新生神经元 | DCX免疫组化（快速固定标本） | Sorrells 2018, Nature | 中（方法学争议，与Boldrini 2018矛盾） |
+| 人类成年海马几乎无DCX+新生神经元 | DCX免疫组化（长时间固定脑库标本） | Sorrells 2018, Nature, PMID:29513649 | 低（已确认为过度固定的方法论假阴性） |
+| 组织固定>24h抑制DCX标记 | 系统固定时间实验，比较不同固定时长 | Moreno-Jiménez 2019, PMID:30911133 | 高（方法论发现，可重复） |
+| 人类成人碳-14显示~700新神经元/天 | 核武器试验大气¹⁴C峰值定年 | Spalding 2013, PMID:23746839 | 中（间接方法，"更新"需要更精确定义） |
+| snRNA-seq在成人海马检测到未成熟颗粒细胞 | 单核RNA测序+机器学习分类 | Zhou 2022, PMID:35922666 | 中（独立于DCX蛋白，但相对新） |
 
 ## 连接
 
-- [[hippocampal-circuit]] — 新生神经元整合的目标回路（DG→CA3 突触）
-- [[ltp]] — 新生神经元关键期的高可塑性与LTP机制共享
-- [[engram-cells]] — 新生神经元可能参与记忆印迹的分配竞争
-- [[memory-consolidation]] — 神经发生可能支持海马系统巩固的长期维持
+- [[adult-neurogenesis]] — 本页的更全面展开版本（含 GABA 开关机制、方法论争议全貌、治疗潜力）
+- [[hippocampal-circuit]] — 新生神经元整合的目标回路（DG→CA3 苔藓纤维突触）
+- [[pattern-separation]] — 新生神经元的核心计算功能输出（通过前馈抑制支持稀疏化）
+- [[ltp]] — 新生神经元关键期的超高可塑性与LTP机制共享（NR2B主导，低阈值）
+- [[engram-cells]] — 新生神经元可能参与记忆印迹分配的竞争
+- [[memory-consolidation]] — 神经发生与睡眠期SWR重激活的关联待研究
 - [[5-ht-autoreceptor]] — SSRI通过自受体脱敏→5-HT升高→神经发生↑的级联
 - [[serotonin-raphe-system]] — 神经发生的5-HT系统上游
-- [[bdnf]] — 神经发生的重要促进因子（悬空引用）
+- [[alzheimers-disease]] — AD中神经发生随分期下降（Moreno-Jiménez 2019）
+- [[bdnf]] — 神经发生最关键的促进因子（悬空引用）
 
 ## 未解问题
 
@@ -86,6 +93,7 @@ BDNF/TrkB信号也是关键下游：慢性SSRI → 5-HT升高 → BDNF表达↑�
 ## 修订历史
 
 - 2026-06-13 · 创建 · 基于《血清素的慢时钟》一文 · 初始置信度：中（争议领域） · status=contested
+- 2026-06-26 · 修订 · 基于《大脑的自我更新》一文 · 新增 GABA 开关机制详解、方法论破局分析（Moreno-Jiménez 2019 的固定时间实验）、snRNA-seq 独立证据（Zhou 2022）、AD 连接；更新人类神经发生评估（从"争议尚未解决"升级为"多维证据支持但规模不确定"）；关键证据表更新 3 行；连接新增 adult-neurogenesis、pattern-separation、alzheimers-disease
 
 ## 来源文章
 

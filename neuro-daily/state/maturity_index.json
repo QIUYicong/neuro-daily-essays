@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-24",
+  "last_updated": "2026-06-26",
   "levels": [
     "speculative",
     "emerging",
@@ -768,6 +768,14 @@
       "supporting_sources": 12,
       "last_changed": "2026-06-25",
       "reason": "修订（revision #2）：原有工作记忆维度保持established/high（Lundqvist 2016等）；新增绑定维度：Gray & Singer 1989（机制发现，经典重复实验）、Buzsáki & Wang 2012（权威机制综述）、Fries 2015（CTC框架，高引用率）；新增 ING-PING 转换（Williams 2026）。核心机制（PING机制、PV中间神经元的关键性）证据充分，定为established/high；绑定假说子维度仍为contested，但不改变整体status"
+    },
+    {
+      "slug": "adult-neurogenesis",
+      "current_status": "emerging",
+      "confidence": "medium",
+      "last_changed": "2026-06-26",
+      "change_reason": "新建页面。啮齿类证据established，人类证据emerging",
+      "source_article": "2026-06-26-adult-neurogenesis-dentate-gyrus"
     }
   ]
 }

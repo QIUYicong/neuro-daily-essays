@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-25",
+  "updated": "2026-06-26",
   "node_count": 108,
   "edge_count": 614,
   "edge_types": [
@@ -541,7 +541,7 @@
       "title": "海马神经发生",
       "domain": "concepts",
       "type": "mechanism",
-      "status": "contested",
+      "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/hippocampal-neurogenesis.md"
     },
@@ -985,6 +985,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/complementary-learning-systems.md"
+    },
+    {
+      "id": "adult-neurogenesis",
+      "title": "成年神经发生",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/adult-neurogenesis.md"
     }
   ],
   "edges": [
@@ -4290,19 +4299,107 @@
       "from": "place-cells",
       "to": "pattern-completion",
       "type": "related"
+    },
+    {
+      "from": "binding-by-synchrony",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "binding-by-synchrony",
+      "type": "supports"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "binding-by-synchrony",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "binding-by-synchrony",
+      "to": "consciousness-ignition",
+      "type": "related"
+    },
+    {
+      "from": "binding-by-synchrony",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "binding-by-synchrony",
+      "to": "beta-oscillations",
+      "type": "contradicts"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "beta-oscillations",
+      "type": "regulates"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "working-memory",
+      "type": "supports"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "consciousness-ignition",
+      "type": "related"
+    },
+    {
+      "from": "binding-by-synchrony",
+      "to": "attentional-blink",
+      "type": "related"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "hippocampal-neurogenesis",
+      "type": "is-a"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "pattern-separation",
+      "type": "supports"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "engram-cells",
+      "type": "related"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "pattern-separation",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "adult-neurogenesis",
+      "type": "related"
     }
-  
-    {"from": "binding-by-synchrony", "to": "gamma-oscillations", "type": "mechanism-of"},
-    {"from": "gamma-oscillations", "to": "binding-by-synchrony", "type": "supports"},
-    {"from": "pv-interneurons", "to": "binding-by-synchrony", "type": "mechanism-of"},
-    {"from": "binding-by-synchrony", "to": "consciousness-ignition", "type": "related"},
-    {"from": "binding-by-synchrony", "to": "predictive-coding", "type": "related"},
-    {"from": "binding-by-synchrony", "to": "beta-oscillations", "type": "contradicts"},
-    {"from": "gamma-oscillations", "to": "pv-interneurons", "type": "mechanism-of"},
-    {"from": "gamma-oscillations", "to": "beta-oscillations", "type": "regulates"},
-    {"from": "gamma-oscillations", "to": "working-memory", "type": "supports"},
-    {"from": "gamma-oscillations", "to": "consciousness-ignition", "type": "related"},
-    {"from": "binding-by-synchrony", "to": "attentional-blink", "type": "related"},
   ],
   "dangling_references": [
     {
