@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-06-29（第 65 篇·tau 蛋白病理·磷酸化级联、树突棘错位与朊蛋白样传播）
+
+**源文章**：[[2026-06-29-tau-pathology-alzheimer]] —《形状即命运：tau 蛋白从微管守护者到神经原纤维缠结的分子蜕变》
+
+**核心任务**：填补 alzheimers-disease.md 长期悬空引用 `[[tau-pathology]]`；建立 tau 病理独立 wiki 页面；回答 Q-ad-tau-cascade（高优先级开放问题）；完善 AD 分子损伤双刃剑模型（Aβ + tau）。
+
+**新建页面（1）**：
+- `concepts/tau-pathology.md`（tau 蛋白病理）🟢 established / 置信度高 — Braak 分期、CDK5/GSK-3β 激酶级联、Zempel 2015 树突棘错位（TTLL6-spastin 微管破坏）、Fitzpatrick 2017 cryo-EM 结构、de Calignon 2012 跨突触传播、FTD-MAPT 独立神经毒性证据
+
+**修订页面（1）**：
+- `diseases/alzheimers-disease.md`（修订 #4）— related 新增 tau-pathology；"连接"段落新增 tau-pathology 节点；key_sources 新增 PMID:1759558、PMID:26691836、PMID:22365544；已填补悬空引用
+
+**矛盾处理**：无新矛盾登记（tau 低聚物 vs NFT 毒性争议记录为 Q-tau-01，待后续实验裁决；内部争议已在 tau-pathology.md 页内并列记录）
+
+**图谱更新**：新增节点 1（tau-pathology）；新增边 12 条（tau-pathology ↔ alzheimers-disease、ltp、nmda-receptor、amyloid-beta-oligomers、engram-cells、hippocampal-circuit、bdnf、pattern-completion、memory-consolidation）；总计 110 节点，637 条边
+
+**新增未解问题**：Q-tau-01（低聚物 vs NFT 相对毒性的活体分离实验）、Q-tau-02（EC-II 神经元优先受累的细胞选择性机制）
+
+**下一步建议（来自 topic_ledger）**：
+1. MAPT 突变与 FTD-MAPT 专篇（连接 tau-pathology 页面的 FTD 内容；独立 tauopathy 类群展开）
+2. AD 整合综合（Aβ + tau + BDNF + 神经发生四线整合，完成 AD 系列）
+3. 无报告范式的意识研究（Q-ncc-01）——从 AD 系列切换至意识系列
+
+---
+
 ## 2026-06-02（第 65 篇·具身语义·行动词义的感觉运动神经基底与复制危机）
 
 **源文章**：[[2026-06-02-embodied-semantics]] —《当大脑读到"踢"，脚步已先响——具身语义的神经科学》

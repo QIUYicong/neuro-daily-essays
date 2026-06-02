@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-06-08
-updated: 2026-06-28
-revision_count: 3
+updated: 2026-06-29
+revision_count: 4
 dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis]
+related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis, tau-pathology]
 prerequisites: [ltp, nmda-receptor, hippocampal-circuit, memory-consolidation]
 opens_questions: [Q-ad-vulnerable-synapses, Q-ad-tau-cascade, Q-ad-intervention-window, Q-nmda-alzheimer]
 source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network]
-key_sources: ["PMID:1789684", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:22762015", "PMID:20581818", "PMID:26871627", "PMID:41929946", "PMID:30190379"]
+key_sources: ["PMID:1789684", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:22762015", "PMID:20581818", "PMID:26871627", "PMID:41929946", "PMID:30190379", "PMID:1759558", "PMID:26691836", "PMID:22365544"]
 ---
 
 # 阿尔茨海默病 (Alzheimer's Disease, AD)
@@ -85,6 +85,7 @@ Aβ由APP（淀粉样前体蛋白）通过β-分泌酶（BACE1）和γ-分泌酶
 - [[synaptic-tagging-capture]] — Aβ通过截断BDNF-TrkB，阻断了STC机制中的蛋白合成捕获步骤
 - [[bdnf]] — AD 早期 BDNF/TrkB 信号受损（Aβ截断 TrkB→CREB 轴）；BDNF+神经发生协同干预可改善认知（Choi 2018）
 - [[adult-neurogenesis]] — AD 中 SGZ 神经发生早于病理发生下降（Moreno-Jiménez 2019）；恢复神经发生+BDNF 可改善认知
+- [[tau-pathology]] — AD 的第二条核心损伤通路：tau 过磷酸化（CDK5/GSK-3β）→ 树突棘错位 → 突触毒性 → PHF/NFT → 跨突触 Braak 分期蔓延；NFT 比斑块更能预测认知衰退（Braak & Braak 1991）
 
 ## 未解问题
 
@@ -98,6 +99,7 @@ Aβ由APP（淀粉样前体蛋白）通过β-分泌酶（BACE1）和γ-分泌酶
 - 2026-06-08 · 创建 · 基于《记忆的分子遗忘》一文 · 建立AD疾病页，聚焦Aβ寡聚体-突触可塑性损伤通路 · 初始置信度：高
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 修正 related 中的 `bdnf-trkb`（错误 slug）为 `bdnf`（已建页）；新增 adult-neurogenesis 连接；补充 BDNF+AHN 协同干预 AD 认知的 Choi 2018 证据（PMID:30190379）；key_sources 新增 PMID:30190379
 - 2026-06-16 · 修订 · 基于《默认模式网络》一文 · 新增：Aβ 优先沉积 DMN 枢纽节点（PCC/mPFC）的功能解剖解释（Buckner 2009）；related 新增 default-mode-network；dimensions 新增 whole-brain-network
+- 2026-06-29 · 修订 · 基于《tau 蛋白病理》一文（第 65 篇）· related 新增 tau-pathology；key_sources 新增 Braak 1991 (PMID:1759558)、Zempel 2015 (PMID:26691836)、de Calignon 2012 (PMID:22365544)；在"连接"段落新增 tau-pathology 节点；修订 revision_count=4
 
 ## 来源文章
 

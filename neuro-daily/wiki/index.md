@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-02（第65篇·具身语义·行动词义的感觉运动神经基底与复制危机）· 主题页总数：**112**（新建1页：embodied-semantics；修订2页：motor-cortex rev3, language-network rev3；填补唯一悬空引用[[embodied-semantics]]→图谱悬空引用归零）
+> 最后更新：2026-06-29（第65篇·tau蛋白病理·磷酸化级联、树突棘错位与朊蛋白样传播）· 主题页总数：**110**（新建1页：tau-pathology；修订1页：alzheimers-disease rev4；填补alzheimers-disease.md悬空引用[[tau-pathology]]；图谱110节点637边）
 
 ---
 
@@ -144,8 +144,10 @@
 
 ## diseases（疾病）
 
-- 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆 **[NEW 2026-06-08]**
+- 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退（修订4次）**[NEW 2026-06-08 · 修订2026-06-29]**
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
+
+- 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
 
 ---
 

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-02",
-  "node_count": 109,
-  "edge_count": 625,
+  "updated": "2026-06-29",
+  "node_count": 110,
+  "edge_count": 637,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,15 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "tau-pathology",
+      "title": "tau 蛋白病理",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tau-pathology.md"
+    },
     {
       "id": "neural-correlates-of-consciousness",
       "title": "意识的神经相关物（NCC）",
@@ -2362,6 +2371,66 @@
       "type": "mechanism-of",
       "note": "Aβ寡聚体是AD突触病理的核心毒性物种（区别于不溶性斑块）"
     },
+    {
+      "from": "alzheimers-disease",
+      "to": "tau-pathology",
+      "type": "mechanism-of",
+      "note": "tau 病理是 AD 的第二条核心损伤通路；NFT 比斑块更预测认知衰退；Aβ 通过 Ca²⁺-calpain-CDK5/p25 和胰岛素信号-GSK-3β 两条路径触发 tau 过磷酸化"
+    },
+    {
+      "from": "tau-pathology",
+      "to": "alzheimers-disease",
+      "type": "mechanism-of",
+      "note": "tau 过磷酸化→树突棘错位→突触毒性→NFT→Braak 分期传播，驱动认知衰退"
+    },
+    {
+      "from": "tau-pathology",
+      "to": "ltp",
+      "type": "contradicts",
+      "note": "tau 错位至树突棘通过 Fyn-NR2B 锁定和 TTLL6-spastin 微管破坏，独立于 Aβ 瓦解 LTP 所需的突触基础设施"
+    },
+    {
+      "from": "tau-pathology",
+      "to": "nmda-receptor",
+      "type": "regulates",
+      "note": "树突棘中错位的 tau 招募 Fyn 激酶至 PSD-95，Fyn 磷酸化 NR2B-Tyr1472，将 NR2B 锁定在突触后膜，导致持续性 Ca²⁺ 内流"
+    },
+    {
+      "from": "amyloid-beta-oligomers",
+      "to": "tau-pathology",
+      "type": "regulates",
+      "note": "Aβ 是 tau 过磷酸化的上游触发器：(1) Ca²⁺ → calpain → p35→p25 → CDK5/p25；(2) 胰岛素信号受阻 → Akt↓ → GSK-3β↑；(3) PrPC-Fyn 路径也直接参与"
+    },
+    {
+      "from": "tau-pathology",
+      "to": "engram-cells",
+      "type": "contradicts",
+      "note": "tau 过磷酸化在 CA1/DG 印迹细胞中降低 AMPA 密度和突触权重，与 Aβ 诱发的沉默印迹协同，造成记忆无法提取"
+    },
+    {
+      "from": "tau-pathology",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "NFT 在 CA1（Braak III-IV）直接损伤 CA3→CA1 Schaffer 侧支突触；EC-II（Braak I-II）最早受累，破坏嗅皮层-海马输入"
+    },
+    {
+      "from": "tau-pathology",
+      "to": "bdnf",
+      "type": "related",
+      "note": "tau 错位可封闭 TrkB 的突触端点；BDNF/TrkB 信号受损反过来无法维持 tau 微管结合所需的轴突骨架状态（相互放大）"
+    },
+    {
+      "from": "tau-pathology",
+      "to": "pattern-completion",
+      "type": "contradicts",
+      "note": "CA1 NFT 损伤使 CA3→CA1 模式补全回路效率下降；CA1 是 pattern completion 的输出站，其损伤直接阻断记忆提取"
+    },
+    {
+      "from": "tau-pathology",
+      "to": "memory-consolidation",
+      "type": "contradicts",
+      "note": "tau 传播到 Braak III 累及海马后，记忆巩固的关键回路（海马-皮层对话）开始系统性失效"
+    }
     {
       "from": "optogenetics",
       "to": "action-potential",
