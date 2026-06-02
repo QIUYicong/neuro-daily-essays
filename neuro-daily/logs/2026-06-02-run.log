@@ -76,8 +76,8 @@
 
 ## Git 操作
 - 分支：main
-- commit：[待填写]
-- push：[待填写]
+- commit：ab5e2289cff776a0b5bb6b2ee1291b539c429e49
+- push：origin/main 成功 ✓
 
 ## 失败与限制
 - PubMed 直接 URL 搜索返回 404（已用 E-utilities API 替代）
