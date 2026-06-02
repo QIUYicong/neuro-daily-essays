@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-06-27（第 63 篇·意识在哪里·NCC 框架与 COGITATE 2025 综合）
+
+**源文章**：[[2026-06-27-ncc-consciousness-where]] —《意识在哪里？——神经相关物（NCC）框架与 2025 年大脑意识科学的真实地平线》
+
+**核心任务**：推进裁决 C-2026-05-31-01（IIT 后方皮层同步预测 vs COGITATE）和 C-2026-05-31-02（GWT 偏移点燃预测 vs COGITATE）；引入 NCC 三分法框架作为意识理论讨论的基础架构。
+
+**新建页面（1）**：
+- `concepts/neural-correlates-of-consciousness.md`（意识的神经相关物 NCC）🟢 mainstream / 置信度高 — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC / 完整 NCC / 使能 NCC）；COGITATE 2025 实验裁决摘要；无报告范式的方法学意义；两个竞争框架（GWT/IIT）对 NCC 预测的比较表
+
+**修订页面（4）**：
+- `theories/global-workspace-theory.md`（修订 #6）— 新增 NCC 三分法定位（GWT 主要描述使能+完整 NCC）；补充 GNW 回应论文（PMC12510449）四个论点；强调阈限刺激范式是 GWT 真正检验场景；新增 neural-correlates-of-consciousness 到 related
+- `theories/integrated-information-theory.md`（修订 #3）— 新增 NCC 三分法定位（IIT 主要描述内容特异 NCC）；补充可证伪性讨论（Lakatos 框架：gamma 同步是辅助假说带而非硬核）；新增 neural-correlates-of-consciousness 到 related
+- `concepts/consciousness-ignition.md`（修订 #5）— 补充 GNW 回应论点（offset ignition 从未是核心预测）；NCC 三分法视角（点燃是使能 NCC 的时间动力学描述）；新增 neural-correlates-of-consciousness 到 related
+- `concepts/posterior-cortical-hot-zone.md`（修订 #2）— 补充 NCC 三分法视角（PCHZ = 内容特异 NCC 定位假说）；补充 Boly et al. 2017 临床证据（完全额叶切除不影响意识；214 倍植物状态风险）；新增 neural-correlates-of-consciousness 到 related
+
+**矛盾处理**：
+- C-2026-05-31-01（IIT 后方同步 vs COGITATE）：evidence_update 补充——GNW 回应论文（PMC12510449）提供额外视角；claim_B 证据进一步积累；裁决仍 open，需要直接测量 Φ 的实验；
+- C-2026-05-31-02（GWT 偏移点燃 vs COGITATE）：evidence_update 补充——GNW 回应明确指出偏移点燃从未是核心预测，脑范围广播被确认；裁决仍 open，但 GWT 防线得到明确；新增可证伪性作为核心未解问题
+
+**图谱更新**：新增节点 1（neural-correlates-of-consciousness）；新增边 11 条（NCC→GWT/IIT/posterior-hot-zone/consciousness-ignition/phi-measure/predictive-coding/prefrontal-cortex/v1 + 反向边 2 条）
+
+**新增未解问题**：Q-ncc-01（无报告范式完整 NCC，高优先）、Q-ncc-02（相关性到因果性，高优先）、Q-ncc-03（三类 NCC 边界，中优先）
+
+**下一步建议**：BDNF（仍是悬空引用，被多页引用）；预测编码与 NCC 的整合框架（Q-gwt-04）；阿尔茨海默病分子机制（连接神经发生-AD 线）
+
+---
+
 ## 2026-06-26（第 62 篇·大脑的自我更新·成年齿状回神经发生与模式分离）
 
 **源文章**：[[2026-06-26-adult-neurogenesis-dentate-gyrus]] —《大脑的自我更新：成年齿状回如何生产新神经元，以及一场三十年未决的科学之争》

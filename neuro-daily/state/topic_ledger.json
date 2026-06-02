@@ -1,7 +1,78 @@
 {
-  "last_updated": "2026-06-26",
-  "total_articles": 62,
+  "last_updated": "2026-06-27",
+  "total_articles": 63,
   "entries": [
+    {
+      "date": "2026-06-27",
+      "title": "意识在哪里？——神经相关物（NCC）框架与 2025 年大脑意识科学的真实地平线",
+      "filename": "2026-06-27-ncc-consciousness-where.md",
+      "wiki_pages_created": [
+        "wiki/concepts/neural-correlates-of-consciousness.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/global-workspace-theory.md",
+        "wiki/theories/integrated-information-theory.md",
+        "wiki/concepts/consciousness-ignition.md",
+        "wiki/concepts/posterior-cortical-hot-zone.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": ["C-2026-05-31-01", "C-2026-05-31-02"],
+      "core_question": "什么是意识的神经相关物（NCC）？Koch等（2016）三分法（内容特异/完整/使能 NCC）如何统一 GWT 和 IIT 的分歧？COGITATE 2025 对抗性实验对两个理论各自预测（GWT偏移点燃、IIT后方皮层持续同步）的检验结果是什么？GNW 回应论文（PMC12510449）的四个论点是否为 GWT 提供了有效防守？意识科学的下一步是什么？",
+      "layer": ["whole-brain-network", "cognition", "brain-region"],
+      "curriculum_track": "8. 意识与自我（NCC → GWT/IIT 综合）；直接推进裁决 C-2026-05-31-01 和 C-2026-05-31-02（高优先级矛盾）；延续 2026-05-30（GWT）、2026-05-31（IIT, COGITATE）的意识系列；首次建立 NCC 三分法框架独立节点",
+      "topic_tags": [
+        "neural correlates of consciousness",
+        "NCC",
+        "Crick Koch",
+        "content-specific NCC",
+        "full NCC",
+        "enabling NCC",
+        "global workspace theory",
+        "integrated information theory",
+        "COGITATE 2025",
+        "adversarial collaboration",
+        "posterior cortical hot zone",
+        "consciousness ignition",
+        "offset ignition",
+        "no-report paradigm",
+        "posterior cortex",
+        "prefrontal cortex",
+        "Dehaene Changeux",
+        "Tononi Koch",
+        "GNW response",
+        "Naccache",
+        "IIT falsifiability",
+        "Lakatos",
+        "suprathreshold stimuli",
+        "brain-wide activation",
+        "iEEG",
+        "MEG",
+        "fMRI"
+      ],
+      "main_sources": [
+        "PMID:40307561 (PMCID:PMC12137136, open access)",
+        "PMC12510449 (open access)",
+        "PMID:21521609 (abstract only, paywall)",
+        "PMID:27094080 (abstract only, paywall)",
+        "PMCID:PMC5628406 (open access)",
+        "PMID:32135090 (PMCID:PMC8770991, open access)",
+        "PMC4960249 (open access)"
+      ],
+      "unresolved_questions": [
+        "Q-ncc-01",
+        "Q-ncc-02",
+        "Q-ncc-03"
+      ],
+      "next_suggested_topics": [
+        "BDNF（脑源性神经营养因子）：悬空引用，被 adult-neurogenesis、hippocampal-neurogenesis 等多页引用；神经发生调控、LTP 维持、AD 通路中的核心因子",
+        "阿尔茨海默病分子机制：淀粉样级联→tau磷酸化→神经发生衰退（连接第62篇和疾病层课程脊柱）",
+        "无报告范式的意识研究（Q-ncc-01）：双目竞争 + EEG/fMRI，不需要主动报告的 NCC 定位",
+        "预测编码与 NCC 的整合（Q-gwt-04）：PC 框架如何描述意识的神经机制"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 63,
+      "note": "系统时钟UTC+8=2026-06-02；知识库连续性延续自2026-06-26（第62篇）；使用2026-06-27作为今日日期以维持知识库连续性；矛盾 C-2026-05-31-01 和 C-2026-05-31-02 的 evidence_update 已更新，两个矛盾均仍 open"
+    },
     {
       "date": "2026-06-26",
       "title": "大脑的自我更新：成年齿状回如何生产新神经元，以及一场三十年未决的科学之争",

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-26",
-  "node_count": 108,
-  "edge_count": 614,
+  "updated": "2026-06-27",
+  "node_count": 109,
+  "edge_count": 625,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,15 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "neural-correlates-of-consciousness",
+      "title": "意识的神经相关物（NCC）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/neural-correlates-of-consciousness.md"
+    },
     {
       "id": "binding-by-synchrony",
       "title": "绑定假说（神经同步）",
@@ -4299,6 +4308,56 @@
       "from": "place-cells",
       "to": "pattern-completion",
       "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "integrated-information-theory",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "posterior-cortical-hot-zone",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "consciousness-ignition",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "phi-measure",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "prefrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "neural-correlates-of-consciousness",
+      "type": "supports"
+    },
+    {
+      "from": "integrated-information-theory",
+      "to": "neural-correlates-of-consciousness",
+      "type": "supports"
     },
     {
       "from": "binding-by-synchrony",

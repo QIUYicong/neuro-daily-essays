@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-05-30
-updated: 2026-05-31
-revision_count: 5
+updated: 2026-06-27
+revision_count: 6
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink]
+related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink, neural-correlates-of-consciousness]
 prerequisites: [prefrontal-cortex, working-memory, action-potential, synaptic-transmission]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-gwt-04, Q-gwt-05]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink]
-key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443"]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where]
+key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443", "PMC:PMC12510449"]
 ---
 
 # 全局工作空间理论 (Global Workspace Theory, GWT)
@@ -114,6 +114,22 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 - **Q-gwt-04**（中优先级）：GWT 与预测编码（PC）能否整合为统一框架？具体整合点在哪里？
 - **Q-gwt-05**（低优先级）：GWT 如何解释非人类动物（昆虫、章鱼等无前额叶的生物）的意识？
 
+### GWT 在 NCC 三分法框架中的定位（2026-06-27 新增）
+
+Koch 等（2016）区分了内容特异 NCC、完整 NCC 和使能 NCC 之后，GWT 最可能描述的是**使能 NCC 和完整 NCC**：
+- **使能 NCC**：前额-顶叶广播网络的整体可用性是意识知觉的前提条件，但不产生具体内容
+- **完整 NCC**：全脑广播状态与整个意识状态（清醒 vs 麻醉）密切相关
+
+COGITATE 2025 确认了 GWT 的一个**非平凡预测**：有意识刺激即使在任务不相关条件下，也触发了跨越感觉区域和前额叶的脑范围激活和同步（PMC12510449, GNW 回应论文）。这正是全局广播的核心主张——而非任何特定意识内容的编码。
+
+**GNW 回应（PMC12510449）的关键论点**（Naccache, Dehaene, Changeux, 2025）：
+1. 偏移点燃从未是 GNWT 核心预测——只有被试主动关注刺激消失时才会有偏移点燃
+2. PFC 解码困难可能源于 PFC 缺乏柱状组织，而非信息不在 PFC
+3. 最核心检验（有意识 vs 无意识分叉）COGITATE 未做——需要阈限刺激范式
+4. 脑范围广播的确认是真实的非平凡验证
+
+**当前 GWT 的最强证据仍来自阈限刺激范式**：注意瞬盲（文章 #36）在感觉处理完全相同的条件下提供了有意识 vs 无意识的内部对照，其 MEG 时序（270ms 分叉）是 GWT 点燃的最直接神经证据。
+
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《当意识在大脑中"点燃"》一文 · 初始置信度：中（GWT框架是 mainstream，但核心机制争议多，P3b地位存疑，COGITATE 2025 对 PFC 角色提出挑战）
@@ -121,6 +137,7 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 - 2026-05-31 · 修订 · 基于《意识等于整合信息》(#29) · 新增：GWT 与 IIT 的核心分歧对比（前额叶 vs 后方皮层；瞬态点燃 vs 持续激活）；COGITATE 2025 挑战细节（偏移点燃缺失，前额叶对内容特异性解码有限）；新增 integrated-information-theory 和 posterior-cortical-hot-zone 作为 related 页面
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 全文精确数字（0/655 电极 offset ignition，PFC 70% 类别解码 0.2–0.4s，BF₀₁=1.94×10⁴）；更新证据表（拆分 PFC 解码条目，新增 offset ignition 失败行）；新增 adversarial-collaboration 相关页面
 - 2026-05-31 · 修订 · 基于《注意瞬盲：当意识成为稀缺资源》(#36) · 新增注意瞬盲相关证据行（270ms 神经分叉、双峰分布、掩蔽 vs 瞬盲分离）；新增 attentional-blink 到 related 和连接节；注意瞬盲是 COGITATE 未能检验的 GWT 核心有/无意识分叉场景的直接证据
+- 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增 NCC 三分法框架定位（GWT 主要描述使能 NCC + 完整 NCC）；补充 GNW 回应论文（PMC12510449）的四个关键论点（偏移点燃非核心预测；PFC 解码困难原因；阈限刺激范式是真正检验；脑范围广播被确认）；新增 neural-correlates-of-consciousness 到 related；新增 PMC12510449 到 key_sources
 
 ### GWT 作为世界模型的意识广播层
 

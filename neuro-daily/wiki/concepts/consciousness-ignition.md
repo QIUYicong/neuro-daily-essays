@@ -6,13 +6,13 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-05-30
-updated: 2026-05-31
-revision_count: 4
+updated: 2026-06-27
+revision_count: 5
 dimensions: [whole-brain-network, brain-region, cognition, cellular]
-related: [global-workspace-theory, prefrontal-cortex, working-memory, p3-wave, attentional-blink, gamma-oscillations, beta-oscillations, integrated-information-theory, posterior-cortical-hot-zone, competition-selection-principle]
+related: [global-workspace-theory, prefrontal-cortex, working-memory, p3-wave, attentional-blink, gamma-oscillations, beta-oscillations, integrated-information-theory, posterior-cortical-hot-zone, competition-selection-principle, neural-correlates-of-consciousness]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where]
 key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062", "PMID:15482443", "PMID:29567809"]
 ---
 
@@ -108,6 +108,7 @@ key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062"
 - 2026-05-31 · 修订 · 基于《意识等于整合信息》(#29) · 新增：COGITATE 2025（Nature, PMID:40307561）对点燃预测的挑战——刺激偏移时前额叶点燃缺失，前额叶对具体意识内容的特异性解码有限；新增 IIT 对比框架（持续激活 vs 瞬态点燃）；新增 integrated-information-theory 和 posterior-cortical-hot-zone 作为 related 页面
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 精确数字（0/655 offset ignition, onset 0.15s 偏早）；在证据表新增两行（offset ignition 失败 + onset 时序偏差）；新增 Q-cogitate-02 于未解问题
 - 2026-05-31 · 修订 · 基于《注意瞬盲：当意识成为稀缺资源》(#36) · 填补悬空引用：attentional-blink 节点创建；注意瞬盲的 270ms MEG 分叉是点燃机制最干净的有/无意识内部对照证据；新增 attentional-blink 到 related 字段
+- 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增：GNW 回应（PMC12510449）明确指出 offset ignition 从未是 GNWT 核心预测（只在主动注意刺激消失时才预测）；补充 NCC 三分法框架——点燃机制描述的是使能 NCC 的时间动力学，而非内容特异 NCC；新增 neural-correlates-of-consciousness 到 related
 
 ## 来源文章
 

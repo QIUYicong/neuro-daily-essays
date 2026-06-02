@@ -6,13 +6,13 @@ type: region
 status: mainstream
 confidence: medium
 created: 2026-05-31
-updated: 2026-05-31
-revision_count: 1
+updated: 2026-06-27
+revision_count: 2
 dimensions: [brain-region, cognition, whole-brain-network]
-related: [integrated-information-theory, global-workspace-theory, consciousness-ignition, v1-primary-visual-cortex, phi-measure, prefrontal-cortex]
+related: [integrated-information-theory, global-workspace-theory, consciousness-ignition, v1-primary-visual-cortex, phi-measure, prefrontal-cortex, neural-correlates-of-consciousness]
 prerequisites: [v1-primary-visual-cortex, integrated-information-theory, global-workspace-theory]
 opens_questions: [Q-iit-02, Q-iit-03]
-source_articles: [2026-05-31-integrated-information-theory]
+source_articles: [2026-05-31-integrated-information-theory, 2026-06-27-ncc-consciousness-where]
 key_sources: ["PMID:27094080", "PMID:40307561", "PMID:23946194"]
 ---
 
@@ -93,6 +93,7 @@ Koch et al. 2016 提出了一个重要区分：
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《意识等于整合信息》(#29) · 初始置信度：中（PCHZ 解剖定位有一定支持，但 IIT 的核心机制预测被 COGITATE 2025 挑战）
+- 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 补充 NCC 三分法视角：PCHZ 对应内容特异 NCC 的解剖定位假说；COGITATE 2025 iEEG ~95% 解码支持了 PCHZ 的定位，但持续整合机制仍未获确认；新增 Boly et al. 2017（PMC5628406）的临床证据（完全额叶切除不影响意识；后方皮层损伤与 214 倍植物状态风险）；新增 neural-correlates-of-consciousness 到 related
 
 ## 来源文章
 

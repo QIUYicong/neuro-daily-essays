@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-24（第60篇·记忆不混淆的秘密·CA3吸引子与模式分离）· 主题页总数：107（新建4页：pattern-completion, pattern-separation, attractor-network, complementary-learning-systems；修订3页：hippocampal-circuit rev9, ltp rev8, place-cells rev2）
+> 最后更新：2026-06-27（第63篇·意识在哪里·NCC框架与COGITATE 2025综合）· 主题页总数：**109**（新建1页：neural-correlates-of-consciousness；修订4页：global-workspace-theory rev6, integrated-information-theory rev3, consciousness-ignition rev5, posterior-cortical-hot-zone rev2）
 
 ---
 
@@ -94,7 +94,8 @@
 - 🟢 [REM睡眠](concepts/rem-sleep.md) — 去甲肾上腺素真空（LC沉默）+θ振荡+杏仁核-海马θ同步；情绪记忆去饱和化（SFSR假说）；Boyce 2016光遗传因果证明REM θ是情境记忆必需条件；van der Helm 2011人类fMRI证实REM降低杏仁核情绪反应 **[NEW 2026-05-31]**
 - 🟡 [情绪记忆去饱和化](concepts/emotional-memory-depotentiation.md) — REM睡眠NE真空→θ相位驱动LA突触选择性LTD→情绪色彩弱化、事实内容保留；Walker SFSR假说的机制底层；PTSD可能是去饱和化失败 **[NEW 2026-05-31]**
 - 🔴 [Φ（整合信息度量）](concepts/phi-measure.md) — IIT 核心量；衡量系统最优分割时损失的因果信息量；NP-hard 计算；IIT 声称 Φ = 意识的量；COGITATE 2025 对相关机制预测构成挑战 **[NEW 2026-05-31]**
-- 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战 **[NEW 2026-05-31]**
+- 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据（完全额叶切除不影响意识）**[修订 2026-06-27]**
+- 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
 
 ## motor（运动系统）

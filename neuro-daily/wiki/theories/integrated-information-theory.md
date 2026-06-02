@@ -6,13 +6,13 @@ type: theory
 status: contested
 confidence: medium
 created: 2026-05-31
-updated: 2026-05-31
-revision_count: 2
+updated: 2026-06-27
+revision_count: 3
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model]
+related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model, neural-correlates-of-consciousness]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
 opens_questions: [Q-iit-01, Q-iit-02, Q-iit-03, Q-iit-04, Q-iit-05]
-source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness]
+source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-06-27-ncc-consciousness-where]
 key_sources: ["PMID:19098144", "PMID:27225071", "PMID:27094080", "PMID:23946194", "PMID:40307561", "PMID:36763595", "PMID:32135090"]
 ---
 
@@ -107,6 +107,7 @@ IIT 主张，正是这些连接特征使后方皮层具有高 Φ，成为意识�
 
 - 2026-05-31 · 创建 · 基于《意识等于整合信息》(#29) · 初始置信度：中（IIT 是 mainstream 理论，但 COGITATE 2025 核心机制预测受挑战 → 降为 contested）
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 全文精确数字（3.8% 电极持续激活，BF₀₁=1.15–4.9，<0.75s 同步）；新增 adversarial-collaboration 相关页面；新增 COGITATE 精确数字段落；补充 key_source PMID:32135090
+- 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增 NCC 三分法框架定位（IIT 主要描述内容特异 NCC——后方皮层 Φ 框架）；新增可证伪性问题讨论（gamma 同步只是 Φ 的代理，IIT 框架"辅助假说带"保护核心）；新增 neural-correlates-of-consciousness 到 related；更新 source_articles
 
 ## 来源文章
 

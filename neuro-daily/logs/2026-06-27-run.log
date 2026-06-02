@@ -1,0 +1,142 @@
+# 运行日志 2026-06-27（文章 #63）
+
+## 元信息
+- **运行时间**：2026-06-27（知识库连续日期；系统时钟UTC+8=2026-06-02）
+- **文章编号**：#63
+- **主题**：意识在哪里？——神经相关物（NCC）框架与 2025 年大脑意识科学的真实地平线
+- **分支**：main
+- **选题模式**：long_term_curriculum + 矛盾裁决（C-2026-05-31-01, C-2026-05-31-02）
+
+---
+
+## A. 状态读取
+
+- 读取了 topic_ledger.json（62篇，最新2026-06-26，成人神经发生）
+- 读取了 contested_claims.json（5个 open 矛盾，其中 C-2026-05-31-01 和 C-2026-05-31-02 最高优先级）
+- 读取了 unresolved_questions.md（最新Q：Q-neurogenesis-AD, Q-gaba-switch-timing）
+- 最近3天层级：microcircuit/whole-brain-network → molecular/cellular/disease → 今日 whole-brain-network/cognition ✓
+
+---
+
+## B. 选题决策
+
+**优先级驱动**：裁决矛盾（Priority 2）—— C-2026-05-31-01（IIT 后方同步）和 C-2026-05-31-02（GWT 偏移点燃）均为 open、高优先级，且被连续两篇文章（2026-06-25 伽马振荡文章、2026-06-26 神经发生文章）的 next_suggested_topics 提名。
+
+**选题**：意识的神经相关物（NCC）综合框架，以 COGITATE 2025 为核心实验，引入 Koch 等（2016）NCC 三分法，推进两个矛盾的裁决。
+
+**缩小焦点**：从"意识科学全综述"缩小到"COGITATE 2025 对抗性实验中 GWT/IIT 各自预测的精确结果，及 GNW 回应论文（PMC12510449）的新论点"。
+
+---
+
+## C. 检索与资料获取
+
+### 搜索词
+1. "COGITATE consortium 2025 IIT GWT adversarial collaboration PMID 40307561"
+2. "neural correlates of consciousness NCC posterior cortex prefrontal cortex"
+3. "Koch Crick NCC definition minimal sufficient"
+4. "Dehaene global neuronal workspace ignition consciousness 2011 PMID 21521609"
+5. "no-report paradigm consciousness prefrontal cortex task confound"
+6. "Tononi IIT integrated information theory posterior hot zone"
+
+### 来源检索结果
+| 来源 | 状态 | PMID/PMCID |
+|------|------|-----------|
+| COGITATE 2025 (Nature) | 全文获取 ✓ | PMID:40307561, PMC12137136 |
+| GNW 回应论文 | 全文获取 ✓ | PMC12510449 |
+| Dehaene & Changeux 2011 | 仅摘要 | PMID:21521609 |
+| Koch et al. 2016 (Nat Rev Neurosci) | 仅摘要 | PMID:27094080 |
+| Boly et al. 2017 (J Neurosci) | 全文获取 ✓ | PMC5628406 |
+| Mashour et al. 2020 (Neuron) | 全文获取 ✓ | PMID:32135090, PMC8770991 |
+| Fink 2016 (Front Psychol) | 全文获取 ✓ | PMC4960249 |
+
+**开放全文数**：5/7（≥2 要求已满足；≥1 官方机构要求通过 PMC 满足）
+
+### 关键资料获取
+- PMC12137136（COGITATE 全文）：获取了详细定量结果（IIT P1~95%, P2 3.8%, P3失败；GWT P1 70%, P2 0/655, P3混合）
+- PMC12510449（GNW 回应）：获取了四个核心论点（偏移点燃非核心；PFC解码困难原因；阈上刺激局限；脑范围广播确认）
+- PMC5628406（Boly 2017）：获取了临床证据（额叶切除不影响意识；后方皮层214倍植物状态风险）
+
+---
+
+## D. 固结步骤
+
+### 新建 wiki 页面（1）
+- `concepts/neural-correlates-of-consciousness.md` — NCC 三分法框架；内容特异/完整/使能 NCC；COGITATE 2025 裁决摘要；无报告范式方法学
+
+### 修订 wiki 页面（4）
+- `theories/global-workspace-theory.md`（rev6）— NCC 定位；GNW 回应论文四论点；阈限范式是真正检验
+- `theories/integrated-information-theory.md`（rev3）— NCC 定位；Lakatos 可证伪性讨论
+- `concepts/consciousness-ignition.md`（rev5）— offset ignition 非核心预测；NCC 三分法视角
+- `concepts/posterior-cortical-hot-zone.md`（rev2）— NCC 框架视角；Boly 2017 临床证据
+
+### 矛盾检查
+- 无新矛盾产生（新证据均属于既有 C-2026-05-31-01 和 C-2026-05-31-02 的延伸讨论）
+- C-2026-05-31-01 evidence_update 更新（GNW 回应提供新视角；化解路径明确：需直接测量 Φ）
+- C-2026-05-31-02 evidence_update 更新（GWT 防线有力但可证伪性成新焦点）
+
+---
+
+## E. 图谱与导航更新
+
+- `_graph.json`：109节点（+1: neural-correlates-of-consciousness），625边（+11）
+- `wiki/index.md`：新增 NCC 条目；更新后方皮层热区条目；更新页面总数
+- `wiki/CHANGELOG.md`：追加 2026-06-27 一节
+
+---
+
+## F. 治理层更新
+
+- `topic_ledger.json`：追加第63篇条目（total_articles=63）
+- `unresolved_questions.md`：新增 Q-ncc-01, Q-ncc-02, Q-ncc-03
+- `contested_claims.json`：C-2026-05-31-01 和 C-2026-05-31-02 evidence_update 更新
+- `maturity_index.json`：新增 neural-correlates-of-consciousness 条目
+- `monthly_synthesis.md`：六月摘要追加第63篇
+
+---
+
+## G. 文件清单
+
+### 情景层（append-only）
+- ✓ `articles/2026-06-27-ncc-consciousness-where.md`（~5000 字）
+- ✓ `notes/2026-06-27-reading-notes.md`
+- ✓ `sources/2026-06-27-sources.json`（7个来源）
+- ✓ `logs/2026-06-27-run.log`（本文件）
+
+### 语义层（修订）
+- ✓ `wiki/concepts/neural-correlates-of-consciousness.md`（新建）
+- ✓ `wiki/theories/global-workspace-theory.md`（rev6）
+- ✓ `wiki/theories/integrated-information-theory.md`（rev3）
+- ✓ `wiki/concepts/consciousness-ignition.md`（rev5）
+- ✓ `wiki/concepts/posterior-cortical-hot-zone.md`（rev2）
+- ✓ `wiki/_graph.json`（节点109，边625）
+- ✓ `wiki/index.md`（更新）
+- ✓ `wiki/CHANGELOG.md`（追加）
+
+### 治理层
+- ✓ `state/topic_ledger.json`
+- ✓ `state/unresolved_questions.md`
+- ✓ `state/contested_claims.json`
+- ✓ `state/maturity_index.json`
+- ✓ `state/monthly_synthesis.md`
+
+---
+
+## H. 自检
+
+- [x] 每条 wiki 新主张有来源（PMID/PMCID/PMC 编号）
+- [x] 区分了事实/主流模型/推测/争议（explicit in article）
+- [x] 没有把 COGITATE 2025 结果写成对任一理论的完全证伪（明确写了部分支持+部分挑战）
+- [x] 冲突走了矛盾协议（evidence_update，两矛盾均仍 open，无静默覆盖）
+- [x] 被修订页的 updated/revision_count/修订历史同步更新
+- [x] _graph.json 无未记录悬空边（新增边均指向已有节点）
+- [x] index.md 和 CHANGELOG.md 反映今天变化
+- [x] 新页面 related/prerequisites 各≥1 ✓
+- [x] 文章/笔记/来源/日志齐全且未改动旧文件
+
+---
+
+## 推送状态
+
+- **分支**：main
+- **commit**：待完成
+- **push 结果**：待完成

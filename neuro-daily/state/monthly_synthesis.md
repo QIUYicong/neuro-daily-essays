@@ -4,8 +4,8 @@
 
 ## 2026年6月（进行中）
 
-*本月截至日期：2026-06-26*
-*本月新增文章：#36–#62（共27篇）*
+*本月截至日期：2026-06-27*
+*本月新增文章：#36–#63（共28篇）*
 
 ### 本月文章摘要（节选）
 
@@ -17,14 +17,15 @@
 | 60 | 2026-06-24 | 记忆不混淆的秘密：CA3 的吸引子动力学与海马如何在「自动补全」与「精准分离」之间走钢丝 | 微回路/细胞/认知 |
 | 61 | 2026-06-25 | 当大脑把碎片缝合在一起：伽马振荡与神经绑定之谜 | 微回路/全脑网络/认知 |
 | 62 | 2026-06-26 | 大脑的自我更新：成年齿状回如何生产新神经元，以及一场三十年未决的科学之争 | 分子/细胞/突触/微回路/认知/疾病 |
+| 63 | 2026-06-27 | 意识在哪里？——神经相关物（NCC）框架与 2025 年大脑意识科学的真实地平线 | 全脑网络/认知/脑区 |
 
-### 本月新增 wiki 页面（截至 2026-06-25）
+### 本月新增 wiki 页面（截至 2026-06-27）
 
 - **总主题页**：109（月初75，当前109）
-- **图谱**：109节点，616条边
-- **本月新建**：motor-cortex, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex, cerebellum, cerebellar-ltd, forward-model, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, binding-by-synchrony, **adult-neurogenesis** + 多个此前文章的相关页面
-- **本月修订**：language-network, ltd rev2, predictive-coding rev5, motor-cortex rev2, hippocampal-circuit rev9, ltp rev8, place-cells rev2, gamma-oscillations rev2, **hippocampal-neurogenesis rev2（方法论破局+AD连接+snRNA-seq）**、**pattern-separation rev2（GABA开关+前馈抑制机制）**
-- **本月修复**：_graph.json JSON 格式错误（2026-06-25 遗留的缺少逗号）
+- **图谱**：109节点，625条边
+- **本月新建**：motor-cortex, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex, cerebellum, cerebellar-ltd, forward-model, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, binding-by-synchrony, adult-neurogenesis, **neural-correlates-of-consciousness（NCC三分法框架）** + 多个此前文章的相关页面
+- **本月修订**：language-network, ltd rev2, predictive-coding rev5, motor-cortex rev2, hippocampal-circuit rev9, ltp rev8, place-cells rev2, gamma-oscillations rev2, hippocampal-neurogenesis rev2, pattern-separation rev2, **global-workspace-theory rev6（NCC三分法+GNW回应）**、**integrated-information-theory rev3（可证伪性讨论）**、**consciousness-ignition rev5（offset ignition非核心预测）**、**posterior-cortical-hot-zone rev2（临床证据补充）**
+- **本月矛盾状态**：C-2026-05-31-01 和 C-2026-05-31-02 evidence_update 更新（均仍 open，但分析更深入）
 
 ### 六月关键洞见（截至 2026-06-21）
 

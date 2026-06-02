@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-06-27",
   "levels": [
     "speculative",
     "emerging",
@@ -9,6 +9,14 @@
     "contested"
   ],
   "pages": [
+    {
+      "slug": "neural-correlates-of-consciousness",
+      "status": "mainstream",
+      "confidence": "high",
+      "supporting_sources": 7,
+      "last_status_change": "2026-06-27",
+      "reason": "创建 2026-06-27（文章 #63）。NCC 纲领是意识科学的成熟研究框架（Crick & Koch 1990s以来），三分法（Koch 2016）是领域共识的工作概念；置信度高。成熟度 mainstream 而非 established 是因为具体机制（哪种神经活动是充分且必要条件）仍有高度争议（COGITATE 2025 结果）。"
+    },
     {
       "slug": "action-potential",
       "status": "established",
