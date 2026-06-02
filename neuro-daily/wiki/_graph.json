@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-27",
+  "updated": "2026-06-28",
   "node_count": 109,
   "edge_count": 625,
   "edge_types": [
@@ -1003,6 +1003,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/adult-neurogenesis.md"
+    },
+    {
+      "id": "critical-period",
+      "title": "关键期",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/critical-period.md"
     }
   ],
   "edges": [
@@ -4458,6 +4467,36 @@
       "from": "hippocampal-circuit",
       "to": "adult-neurogenesis",
       "type": "related"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "critical-period",
+      "type": "mechanism-of",
+      "note": "PV 快速放电回路成熟到 GABA 阈值是关键期启动的充分必要条件（Hensch 1998）"
+    },
+    {
+      "from": "critical-period",
+      "to": "ltp",
+      "type": "prerequisite-for",
+      "note": "关键期内 Hebbian 眼优势竞争依赖 LTP/LTD 机制"
+    },
+    {
+      "from": "critical-period",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "眼优势转变通过 Hebbian 竞争实现，关键期是此可塑性的许可窗口"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "critical-period",
+      "type": "supports",
+      "note": "γ 振荡增强是关键期开启的生理标记；PV 细胞介导两者"
+    },
+    {
+      "from": "critical-period",
+      "to": "adult-neurogenesis",
+      "type": "related",
+      "note": "均为受调控的可塑性窗口，涉及特定分子触发机制"
     }
   ],
   "dangling_references": [

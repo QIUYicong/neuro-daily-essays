@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-27",
-  "total_articles": 63,
+  "last_updated": "2026-06-28",
+  "total_articles": 64,
   "entries": [
     {
       "date": "2026-06-27",
@@ -16,9 +16,16 @@
         "wiki/concepts/posterior-cortical-hot-zone.md"
       ],
       "contested_claims_logged": [],
-      "contested_claims_evidence_updated": ["C-2026-05-31-01", "C-2026-05-31-02"],
+      "contested_claims_evidence_updated": [
+        "C-2026-05-31-01",
+        "C-2026-05-31-02"
+      ],
       "core_question": "什么是意识的神经相关物（NCC）？Koch等（2016）三分法（内容特异/完整/使能 NCC）如何统一 GWT 和 IIT 的分歧？COGITATE 2025 对抗性实验对两个理论各自预测（GWT偏移点燃、IIT后方皮层持续同步）的检验结果是什么？GNW 回应论文（PMC12510449）的四个论点是否为 GWT 提供了有效防守？意识科学的下一步是什么？",
-      "layer": ["whole-brain-network", "cognition", "brain-region"],
+      "layer": [
+        "whole-brain-network",
+        "cognition",
+        "brain-region"
+      ],
       "curriculum_track": "8. 意识与自我（NCC → GWT/IIT 综合）；直接推进裁决 C-2026-05-31-01 和 C-2026-05-31-02（高优先级矛盾）；延续 2026-05-30（GWT）、2026-05-31（IIT, COGITATE）的意识系列；首次建立 NCC 三分法框架独立节点",
       "topic_tags": [
         "neural correlates of consciousness",
@@ -3198,6 +3205,76 @@
         "小脑与运动学习：运动皮层专篇后，继续课程路线3的运动系统；小脑并行纤维/浦肯野细胞/LTD的计算原理",
         "网格→场所转化精确机制：MEC模块叠加或振荡干涉？（填补Q-gc-01方向）",
         "空间记忆的情境依赖性：相同路径、不同情境→不同场所图；通过Q-gc-01引发的情境整合机制"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "article_number": 64,
+      "title": "发育的窗口：大脑关键期如何开启、关闭与重启",
+      "slug": "2026-06-28-critical-period-visual-cortex",
+      "core_question": "为什么大脑皮层只在发育特定窗口内可以被经验深刻改写？PV 快速刺激抑制回路、围神经元网和多尺度分子时钟如何协同编排时间之窗的开启与关闭？ChABC 和氟西汀如何通过 TRKB-PTPσ 通路重启成年可塑性？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior"
+      ],
+      "topic_tags": [
+        "critical period",
+        "ocular dominance plasticity",
+        "PV interneurons",
+        "GABA",
+        "perineuronal nets",
+        "PNN",
+        "CSPG",
+        "chondroitinase ABC",
+        "ChABC",
+        "TRKB",
+        "PTPσ",
+        "BDNF",
+        "Otx2",
+        "CLOCK BMAL",
+        "E/I balance",
+        "fluoxetine",
+        "amblyopia",
+        "Hensch 1998",
+        "Fagiolini 2000",
+        "Pizzorusso 2002",
+        "Bavelier 2010",
+        "Reh 2020",
+        "Lesnikova 2021",
+        "GAD65",
+        "monocular deprivation",
+        "Hubel Wiesel",
+        "sensitive period"
+      ],
+      "main_sources": [
+        "PMID:9822384(PMC2851625)",
+        "PMID:10724170",
+        "PMID:12424383",
+        "PMID:16261181",
+        "PMID:21068299(PMC2992973)",
+        "PMID:32503914(PMC7519216)",
+        "PMID:33293360(PMC7880295)"
+      ],
+      "open_full_text_count": 4,
+      "unresolved_questions": [
+        "Q-cp-01",
+        "Q-cp-02",
+        "Q-cp-03",
+        "Q-cp-04"
+      ],
+      "new_wiki_pages": [
+        "critical-period"
+      ],
+      "revised_wiki_pages": [
+        "pv-interneurons(rev3)"
+      ],
+      "next_suggested_topics": [
+        "BDNF与神经营养素信号：填补 critical-period、adult-neurogenesis 引用的 bdnf 悬空引用",
+        "突触剪枝（synaptic pruning）：课程路线2的自然延伸，发育关键期结束后的细化机制",
+        "听觉关键期与语音感知：从视觉关键期到听觉关键期，音素辨别的分子基础",
+        "髓鞘化（myelination）：少突胶质细胞，白质发育与传导速度"
       ]
     }
   ],

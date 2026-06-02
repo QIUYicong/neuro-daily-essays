@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-06-28（第 64 篇·发育的窗口·关键期开启、关闭与重启）
+
+**源文章**：[[2026-06-28-critical-period-visual-cortex]] —《发育的窗口：大脑关键期如何开启、关闭与重启》
+
+**核心任务**：填补课程路线 2（网络构建）中关键期机制的空白；以视觉皮层 ODP 模型为核心，系统覆盖关键期开启（PV 回路/GABA 阈值）、关闭（PNN/CSPG）与重启（ChABC/氟西汀/TRKB-PTPσ 机制）。
+
+**新建页面（1）**：
+- `concepts/critical-period.md`（关键期）🟢 established / 置信度高 — PV 回路 GABA 阈值开启（Hensch 1998）；BDNF/Otx2/CLOCK 三重时钟精调；PNN/CSPG 积累关闭（Pizzorusso 2002）；TRKB-PTPσ 通路是 ChABC 与氟西汀的共同靶点（Lesnikova 2021）
+
+**修订页面（1）**：
+- `circuits/pv-interneurons.md`（修订 #3）— 新增发育维度：PV 细胞成熟是关键期启动充分必要条件；related 新增 critical-period；source_articles 新增 2026-06-28-critical-period-visual-cortex
+
+**矛盾处理**：无新矛盾登记（关键期机制在视觉皮层有高度一致证据）
+
+**图谱更新**：新增节点 1（critical-period）；新增边 5 条（pv-interneurons→critical-period, critical-period→ltp, critical-period→hebbian-learning, gamma-oscillations→critical-period, critical-period→adult-neurogenesis）；图谱总计 111 节点，631 条边
+
+**新增未解问题**：Q-cp-01（PNN 去除长期安全性）、Q-cp-02（人类 PNN 是否与啮齿类相同）、Q-cp-03（高层次认知关键期的分子基础）、Q-cp-04（氟西汀的临床转化潜力）
+
+**新增悬空引用（待补）**：
+- `bdnf`（BDNF 分子页面）：被 critical-period、adult-neurogenesis、pv-interneurons 多页引用，仍无独立节点
+
+**下一步建议**：BDNF 与神经营养素信号（填补悬空引用）；听觉关键期与语音感知；突触剪枝（synaptic pruning）——课程路线 2 的自然延伸
+
+---
+
 ## 2026-06-27（第 63 篇·意识在哪里·NCC 框架与 COGITATE 2025 综合）
 
 **源文章**：[[2026-06-27-ncc-consciousness-where]] —《意识在哪里？——神经相关物（NCC）框架与 2025 年大脑意识科学的真实地平线》

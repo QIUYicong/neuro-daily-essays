@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-28",
+  "article_slug": "critical-period-visual-cortex",
+  "sources": [
+    {
+      "id": "hensch1998",
+      "pmid": "9822384",
+      "pmcid": "PMC2851625",
+      "doi": null,
+      "authors": ["Hensch TK", "Fagiolini M", "Mataga N", "Stryker MP", "Baekkeskov S", "Kash SF"],
+      "year": 1998,
+      "title": "Local GABA circuit control of experience-dependent plasticity in developing visual cortex",
+      "journal": "Science",
+      "full_text_available": true,
+      "source_type": "original_research",
+      "used_for": "GAD65 knockout showing GABA circuit requirement for critical period initiation; diazepam rescue"
+    },
+    {
+      "id": "fagiolini2000",
+      "pmid": "10724170",
+      "pmcid": null,
+      "doi": null,
+      "authors": ["Fagiolini M", "Hensch TK"],
+      "year": 2000,
+      "title": "Inhibitory threshold for critical-period activation in primary visual cortex",
+      "journal": "Nature",
+      "full_text_available": false,
+      "source_type": "original_research",
+      "used_for": "Inhibitory threshold (not just presence) determines critical period timing"
+    },
+    {
+      "id": "pizzorusso2002",
+      "pmid": "12424383",
+      "pmcid": null,
+      "doi": null,
+      "authors": ["Pizzorusso T", "Medini P", "Berardi N", "Chierzi S", "Fawcett JW", "Maffei L"],
+      "year": 2002,
+      "title": "Reactivation of ocular dominance plasticity in the adult visual cortex",
+      "journal": "Science",
+      "full_text_available": false,
+      "source_type": "original_research",
+      "used_for": "PNNs accumulate at critical period closure; chABC treatment restores adult plasticity"
+    },
+    {
+      "id": "hensch2005",
+      "pmid": "16261181",
+      "pmcid": null,
+      "doi": null,
+      "authors": ["Hensch TK"],
+      "year": 2005,
+      "title": "Critical period plasticity in local cortical circuits",
+      "journal": "Nature Reviews Neuroscience",
+      "full_text_available": false,
+      "source_type": "review",
+      "used_for": "Comprehensive review of critical period mechanisms; PV interneuron maturation"
+    },
+    {
+      "id": "bavelier2010",
+      "pmid": "21068299",
+      "pmcid": "PMC2992973",
+      "doi": null,
+      "authors": ["Bavelier D", "Levi DM", "Li RW", "Dan Y", "Hensch TK"],
+      "year": 2010,
+      "title": "Removing brakes on adult brain plasticity: from molecular to behavioral interventions",
+      "journal": "Journal of Neuroscience",
+      "full_text_available": true,
+      "source_type": "review",
+      "used_for": "Multiple plasticity brakes (PNNs, Nogo/NgR/PirB, E/I balance); interventions (enriched environment, dark rearing, fluoxetine, chABC, NgR KO)"
+    },
+    {
+      "id": "reh2020",
+      "pmid": "32503914",
+      "pmcid": "PMC7519216",
+      "doi": null,
+      "authors": ["Reh RK", "Dias BG", "Nelson CA 3rd", "Kaufer D", "Werker JF", "Kolb B", "Levine JD", "Hensch TK"],
+      "year": 2020,
+      "title": "Critical period regulation across multiple timescales",
+      "journal": "Proceedings of the National Academy of Sciences USA",
+      "full_text_available": true,
+      "source_type": "review",
+      "used_for": "Multi-timescale regulation: gamma oscillations, BDNF/Otx2, CLOCK/BMAL circadian genes, epigenetics, transgenerational effects"
+    },
+    {
+      "id": "lesnikova2021",
+      "pmid": "33293360",
+      "pmcid": "PMC7880295",
+      "doi": null,
+      "authors": ["Lesnikova A", "Casarotto PC", "Fred SM", "et al."],
+      "year": 2021,
+      "title": "Chondroitinase and Antidepressants Promote Plasticity by Releasing TRKB from Dephosphorylating Control of PTPσ in Parvalbumin Neurons",
+      "journal": "Journal of Neuroscience",
+      "full_text_available": true,
+      "source_type": "original_research",
+      "used_for": "Unified mechanism of chABC and fluoxetine: TRKB/PTPσ pathway in PV neurons"
+    }
+  ],
+  "open_full_text_count": 4,
+  "abstract_only_count": 3,
+  "official_institution_sources": 0,
+  "meets_requirements": true,
+  "notes": "4 open-access sources (≥2 required): PMC2851625 (original research), PMC2992973 (review), PMC7519216 (review/PNAS), PMC7880295 (original research)"
+}

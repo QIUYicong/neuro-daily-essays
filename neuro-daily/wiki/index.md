@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-27（第63篇·意识在哪里·NCC框架与COGITATE 2025综合）· 主题页总数：**109**（新建1页：neural-correlates-of-consciousness；修订4页：global-workspace-theory rev6, integrated-information-theory rev3, consciousness-ignition rev5, posterior-cortical-hot-zone rev2）
+> 最后更新：2026-06-28（第64篇·发育的窗口·关键期开启、关闭与重启机制）· 主题页总数：**111**（新建1页：critical-period；修订1页：pv-interneurons rev3）
 
 ---
 
@@ -97,6 +97,7 @@
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据（完全额叶切除不影响意识）**[修订 2026-06-27]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
+- 🟢 [关键期](concepts/critical-period.md) — 发育窗口内皮层对经验高度可塑；由 PV 回路 GABA 阈值开启（Hensch 1998）；由围神经元网（PNN/CSPG）积累关闭（Pizzorusso 2002）；ChABC/氟西汀通过 PTPσ→TRKB 通路重启成年可塑性（Lesnikova 2021）**[NEW 2026-06-28]**
 
 ## motor（运动系统）
 

@@ -6,13 +6,13 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-05
-revision_count: 2
+updated: 2026-06-28
+revision_count: 3
 dimensions: [cellular, synaptic, microcircuit, cognition]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, critical-period]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary]
-source_articles: [2026-06-03-inhibitory-interneuron-diversity]
+source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-28-critical-period-visual-cortex]
 key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518"]
 ---
 
@@ -82,8 +82,10 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 
 - 2026-06-03 · 创建 · 基于《回路中的少数精锐》一文 · 初始置信度：高
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 系统层面新增：PFC γ爆发WM应用、精神分裂症病理证据（PMID:26996084, PMC5220584; PMID:39381500, PMC11458443; PMID:41478518）；related 新增 working-memory, gamma-oscillations, prefrontal-cortex；dimensions 新增 cognition
+- 2026-06-28 · 修订 · 基于《发育的窗口：大脑关键期如何开启、关闭与重启》(#64) · 新增发育维度：PV 细胞成熟是关键期启动的核心机制（Hensch 1998, PMID:9822384）；related 新增 critical-period；source_articles 新增 2026-06-28-critical-period-visual-cortex
 
 ## 来源文章
 
 - [[2026-06-03-inhibitory-interneuron-diversity]]
 - [[2026-06-05-prefrontal-working-memory]]
+- [[2026-06-28-critical-period-visual-cortex]]

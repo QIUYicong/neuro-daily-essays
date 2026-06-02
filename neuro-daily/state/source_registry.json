@@ -4797,100 +4797,357 @@
       "pmid": "2922407",
       "pmcid": "PMC286768",
       "title": "Stimulus-specific neuronal oscillations in orientation columns of cat visual cortex",
-      "authors": ["Gray CM", "Singer W"],
+      "authors": [
+        "Gray CM",
+        "Singer W"
+      ],
       "year": 1989,
       "journal": "PNAS",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["gamma oscillations", "cat V1", "40 Hz oscillations", "binding hypothesis origin"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "gamma oscillations",
+        "cat V1",
+        "40 Hz oscillations",
+        "binding hypothesis origin"
+      ]
     },
     {
       "pmid": "2922061",
       "pmcid": null,
       "title": "Oscillatory responses in cat visual cortex exhibit inter-columnar synchronization which reflects global stimulus properties",
-      "authors": ["Gray CM", "Konig P", "Engel AK", "Singer W"],
+      "authors": [
+        "Gray CM",
+        "Konig P",
+        "Engel AK",
+        "Singer W"
+      ],
       "year": 1989,
       "journal": "Nature",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["inter-columnar synchrony", "global stimulus properties", "binding hypothesis"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "inter-columnar synchrony",
+        "global stimulus properties",
+        "binding hypothesis"
+      ]
     },
     {
       "pmid": "22443509",
       "pmcid": "PMC4049541",
       "title": "Mechanisms of gamma oscillations",
-      "authors": ["Buzsaki G", "Wang XJ"],
+      "authors": [
+        "Buzsaki G",
+        "Wang XJ"
+      ],
       "year": 2012,
       "journal": "Annual Review of Neuroscience",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["PING mechanism", "ING mechanism", "PV interneurons", "gamma generation", "perisomatic inhibition"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "PING mechanism",
+        "ING mechanism",
+        "PV interneurons",
+        "gamma generation",
+        "perisomatic inhibition"
+      ]
     },
     {
       "pmid": "26447583",
       "pmcid": "PMC4605134",
       "title": "Rhythms for Cognition: Communication through Coherence",
-      "authors": ["Fries P"],
+      "authors": [
+        "Fries P"
+      ],
       "year": 2015,
       "journal": "Neuron",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["CTC hypothesis", "gamma-attention", "frequency band division", "feedforward gamma", "feedback alpha-beta"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "CTC hypothesis",
+        "gamma-attention",
+        "frequency band division",
+        "feedforward gamma",
+        "feedback alpha-beta"
+      ]
     },
     {
       "pmid": "39134741",
       "pmcid": null,
       "title": "Binding of cortical functional modules by synchronous high-frequency oscillations",
-      "authors": ["Garrett JC", "Halgren E"],
+      "authors": [
+        "Garrett JC",
+        "Halgren E"
+      ],
       "year": 2024,
       "journal": "Nature Human Behaviour",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["co-ripples", "language binding", "high-frequency synchrony", "intracranial EEG"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "co-ripples",
+        "language binding",
+        "high-frequency synchrony",
+        "intracranial EEG"
+      ]
     },
     {
       "pmid": "39185735",
       "pmcid": "PMC11345702",
       "title": "Distinct oscillatory patterns differentiate between segregation and integration processes in perceptual grouping",
-      "authors": ["Costa GN", "Castelo-Branco M"],
+      "authors": [
+        "Costa GN",
+        "Castelo-Branco M"
+      ],
       "year": 2024,
       "journal": "Human Brain Mapping",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["perceptual grouping", "gamma segregation", "alpha-beta integration", "binding hypothesis counterevidence"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "perceptual grouping",
+        "gamma segregation",
+        "alpha-beta integration",
+        "binding hypothesis counterevidence"
+      ]
     },
     {
       "pmid": "41558964",
       "pmcid": "PMC12884686",
       "title": "Fast spiking interneurons autonomously generate fast gamma oscillations in the MEC with excitation strength tuning ING-PING transitions",
-      "authors": ["Williams B", "Canavier CC"],
+      "authors": [
+        "Williams B",
+        "Canavier CC"
+      ],
       "year": 2026,
       "journal": "eNeuro",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["ING-PING transition", "fast spiking interneurons", "medial entorhinal cortex", "excitation strength"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "ING-PING transition",
+        "fast spiking interneurons",
+        "medial entorhinal cortex",
+        "excitation strength"
+      ]
     },
     {
       "pmid": "38581829",
       "pmcid": "PMC11102840",
       "title": "Intensity-dependent modulation of the early auditory gamma-band response in first-episode schizophrenia",
-      "authors": ["Sklar AL", "Salisbury DF"],
+      "authors": [
+        "Sklar AL",
+        "Salisbury DF"
+      ],
       "year": 2024,
       "journal": "Schizophrenia Research",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["schizophrenia", "auditory gamma", "negative symptoms", "PV interneuron dysfunction"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "schizophrenia",
+        "auditory gamma",
+        "negative symptoms",
+        "PV interneuron dysfunction"
+      ]
     },
     {
       "pmid": "10677027",
       "pmcid": null,
       "title": "Synchrony unbound: a critical evaluation of the temporal binding hypothesis",
-      "authors": ["Shadlen MN", "Movshon JA"],
+      "authors": [
+        "Shadlen MN",
+        "Movshon JA"
+      ],
       "year": 1999,
       "journal": "Neuron",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["binding hypothesis critique", "synchrony critique", "causal evidence lacking"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "binding hypothesis critique",
+        "synchrony critique",
+        "causal evidence lacking"
+      ]
+    },
+    {
+      "id": "hensch1998-gad65-critical-period",
+      "pmid": "9822384",
+      "pmcid": "PMC2851625",
+      "year": 1998,
+      "title": "Local GABA circuit control of experience-dependent plasticity in developing visual cortex",
+      "journal": "Science",
+      "authors": [
+        "Hensch TK",
+        "Fagiolini M",
+        "Mataga N",
+        "Stryker MP"
+      ],
+      "full_text_available": true,
+      "date_used": "2026-06-28",
+      "covered_topics": [
+        "critical_period",
+        "gaba_circuit",
+        "ocular_dominance_plasticity",
+        "gad65_knockout",
+        "diazepam_rescue"
+      ]
+    },
+    {
+      "id": "fagiolini2000-inhibitory-threshold",
+      "pmid": "10724170",
+      "pmcid": null,
+      "year": 2000,
+      "title": "Inhibitory threshold for critical-period activation in primary visual cortex",
+      "journal": "Nature",
+      "authors": [
+        "Fagiolini M",
+        "Hensch TK"
+      ],
+      "full_text_available": false,
+      "date_used": "2026-06-28",
+      "covered_topics": [
+        "critical_period",
+        "gaba_threshold",
+        "diazepam",
+        "early_critical_period_induction"
+      ]
+    },
+    {
+      "id": "pizzorusso2002-pnn-chABC",
+      "pmid": "12424383",
+      "pmcid": null,
+      "year": 2002,
+      "title": "Reactivation of ocular dominance plasticity in the adult visual cortex",
+      "journal": "Science",
+      "authors": [
+        "Pizzorusso T",
+        "Medini P",
+        "Berardi N",
+        "Chierzi S",
+        "Fawcett JW",
+        "Maffei L"
+      ],
+      "full_text_available": false,
+      "date_used": "2026-06-28",
+      "covered_topics": [
+        "perineuronal_nets",
+        "CSPG",
+        "chABC",
+        "critical_period_closure",
+        "adult_plasticity_reactivation"
+      ]
+    },
+    {
+      "id": "hensch2005-review",
+      "pmid": "16261181",
+      "pmcid": null,
+      "year": 2005,
+      "title": "Critical period plasticity in local cortical circuits",
+      "journal": "Nature Reviews Neuroscience",
+      "authors": [
+        "Hensch TK"
+      ],
+      "full_text_available": false,
+      "date_used": "2026-06-28",
+      "covered_topics": [
+        "critical_period",
+        "review",
+        "PV_interneurons",
+        "cortical_circuits"
+      ]
+    },
+    {
+      "id": "bavelier2010-removing-brakes",
+      "pmid": "21068299",
+      "pmcid": "PMC2992973",
+      "year": 2010,
+      "title": "Removing brakes on adult brain plasticity: from molecular to behavioral interventions",
+      "journal": "Journal of Neuroscience",
+      "authors": [
+        "Bavelier D",
+        "Levi DM",
+        "Li RW",
+        "Dan Y",
+        "Hensch TK"
+      ],
+      "full_text_available": true,
+      "date_used": "2026-06-28",
+      "covered_topics": [
+        "adult_plasticity",
+        "perineuronal_nets",
+        "nogo_ngr_pirb",
+        "fluoxetine",
+        "enriched_environment",
+        "critical_period_reopening"
+      ]
+    },
+    {
+      "id": "reh2020-multiscale-regulation",
+      "pmid": "32503914",
+      "pmcid": "PMC7519216",
+      "year": 2020,
+      "title": "Critical period regulation across multiple timescales",
+      "journal": "PNAS",
+      "authors": [
+        "Reh RK",
+        "Dias BG",
+        "Nelson CA 3rd",
+        "Kaufer D",
+        "Werker JF",
+        "Kolb B",
+        "Levine JD",
+        "Hensch TK"
+      ],
+      "full_text_available": true,
+      "date_used": "2026-06-28",
+      "covered_topics": [
+        "critical_period",
+        "gamma_oscillations",
+        "bdnf",
+        "otx2",
+        "clock_bmal",
+        "epigenetics",
+        "transgenerational_effects",
+        "language_critical_period"
+      ]
+    },
+    {
+      "id": "lesnikova2021-trkb-ptpsigma",
+      "pmid": "33293360",
+      "pmcid": "PMC7880295",
+      "year": 2021,
+      "title": "Chondroitinase and Antidepressants Promote Plasticity by Releasing TRKB from Dephosphorylating Control of PTPσ in Parvalbumin Neurons",
+      "journal": "Journal of Neuroscience",
+      "authors": [
+        "Lesnikova A",
+        "Casarotto PC",
+        "Fred SM"
+      ],
+      "full_text_available": true,
+      "date_used": "2026-06-28",
+      "covered_topics": [
+        "TRKB",
+        "PTPσ",
+        "PNN",
+        "chABC",
+        "fluoxetine",
+        "PV_neurons",
+        "adult_plasticity_mechanism"
+      ]
     }
   ],
   "total_sources": 255

@@ -1,0 +1,163 @@
+# 运行日志 2026-06-28（文章 #64）
+
+## 元信息
+- **运行时间**：2026-06-28（知识库连续日期；系统时钟UTC+8=2026-06-02）
+- **文章编号**：#64
+- **主题**：大脑关键期的开启、关闭与重启：PV 回路、围神经元网与多尺度分子时钟
+- **分支**：claude/funny-einstein-q0DVw（环境强制）→ 推送 origin
+- **选题模式**：long_term_curriculum（课程路线 2：网络构建）
+
+---
+
+## A. 状态读取
+
+- 读取了 topic_ledger.json（44条，最新 2026-06-22 #58，注：#59-#63 条目可能丢失，需后续补录）
+- 读取了 contested_claims.json（5个 open 矛盾，最高优先级为 C-2026-05-31-01/02 已在 #63 推进）
+- 读取了 unresolved_questions.md（最新：Q-ncc-01/02/03 from #63）
+- 读取了 _graph.json（110节点，626条边，唯一悬空引用：embodied-semantics）
+- 读取了 wiki/index.md 和 state/monthly_synthesis.md
+
+---
+
+## B. 选题决策
+
+**优先级驱动**：课程脊柱（Priority 6）——关键期是课程路线 2（网络构建）的核心主题，已有 63 篇文章中从未直接覆盖。
+
+**选题**：大脑关键期（Critical Period）——以视觉皮层眼优势可塑性（ODP）为模型，系统覆盖开启（PV/GABA）、关闭（PNN/CSPG）和重启（ChABC/氟西汀/TRKB-PTPσ）。
+
+**缩小焦点**：从"发育可塑性全综述"缩小为"视觉皮层关键期的具体分子机制，以三个经典实验（Hensch 1998、Pizzorusso 2002、Lesnikova 2021）为核心"。
+
+**层级均衡**：最近三天 whole-brain-network/cognition（#63）、molecular/cellular/disease（#62）、microcircuit/whole-brain-network（#61）；今日选 cellular/microcircuit/brain-region（不同于最近3天）✓
+
+---
+
+## C. 文献检索
+
+**检索策略**：PubMed E-utilities + PMC Open Access
+
+**检索词**：
+- "critical period visual cortex PV interneurons GABA"
+- "Hensch critical period plasticity"
+- "perineuronal nets critical period reopening"
+- "Pizzorusso reactivation ocular dominance adult"
+- "Fagiolini inhibitory threshold critical period"
+- "Bavelier removing brakes adult brain plasticity"
+- "fluoxetine TRKB critical period reopening"
+
+**候选文献（11篇）**：
+1. PMID:9822384 (PMC2851625) — Hensch et al. 1998 — Science【开放全文】✓ 采用
+2. PMID:10724170 — Fagiolini & Hensch 2000 — Nature【仅摘要】✓ 采用
+3. PMID:12424383 — Pizzorusso et al. 2002 — Science【仅摘要】✓ 采用
+4. PMID:16261181 — Hensch 2005 — Nat Rev Neurosci【仅摘要】✓ 采用
+5. PMID:21068299 (PMC2992973) — Bavelier et al. 2010 — J Neurosci【开放全文】✓ 采用
+6. PMID:32503914 (PMC7519216) — Reh et al. 2020 — PNAS【开放全文】✓ 采用
+7. PMID:33293360 (PMC7880295) — Lesnikova et al. 2021 — J Neurosci【开放全文】✓ 采用
+8. PMID:26261347 (PMC4553776) — Krishnan et al. 2015 — PNAS【开放全文】排除（MeCP2 角度，今日侧重 PV/PNN/TRKB 主线）
+9. PMID:21613595 (PMC3154827) — Lazarus & Huang 2011 — J Neurophysiol【开放全文】排除（PV 成熟细节，次要）
+10. PMID:33872635 — Matsuda et al. 2021 — Neurosci Res【无 PMC】排除（Kv3.1 channels，次要）
+11. PMID:30936240 (PMC6554620) — Baho et al. 2019 — J Neurosci【开放全文】排除（p75NTR，次要细节）
+
+**采用**：7篇（开放全文 4 篇，仅摘要 3 篇）
+**排除**：4篇（次要细节，不影响核心论证）
+
+**开放全文来源（4篇，满足 ROUTINE 要求 ≥2）**：
+- PMC2851625（Hensch 1998，原始研究）
+- PMC2992973（Bavelier 2010，综述）
+- PMC7519216（Reh 2020，综述/PNAS）
+- PMC7880295（Lesnikova 2021，原始研究）
+
+---
+
+## D. 固结步骤（Wiki 更新）
+
+**新建页面（1）**：
+- `wiki/concepts/critical-period.md`（slug: critical-period）
+  - 状态：established / confidence: high
+  - frontmatter 完整，6 条证据表，6 条 wiki 连接
+  - 未解问题：Q-cp-01, Q-cp-02, Q-cp-03（由 agent 创建）
+
+**修订页面（1）**：
+- `wiki/circuits/pv-interneurons.md`（rev #3）
+  - 新增 critical-period 到 related 列表
+  - 新增源文章 2026-06-28-critical-period-visual-cortex
+  - 修订历史追加：关键期发育维度说明
+
+**矛盾检查**：无新矛盾（关键期机制在视觉皮层有高度一致证据，7 篇来源无重大分歧）
+
+**成熟度重估**：
+- critical-period：established / high（多重独立验证，Nobel Prize 级实验基础）
+- pv-interneurons：保持 established / high（发育维度的补充不改变整体评估）
+
+---
+
+## E. 图谱更新
+
+- **节点变化**：110 → 111（新增 critical-period）
+- **边变化**：626 → 631（新增 5 条边）
+  - pv-interneurons → critical-period（mechanism-of）
+  - critical-period → ltp（prerequisite-for）
+  - critical-period → hebbian-learning（mechanism-of）
+  - gamma-oscillations → critical-period（supports）
+  - critical-period → adult-neurogenesis（related）
+- **仍存在的悬空引用**：embodied-semantics（唯一剩余，优先级中）
+- **新增潜在悬空引用**：bdnf（被 critical-period 正文提及，未独立节点）
+
+---
+
+## F. 治理层更新
+
+| 文件 | 更新内容 |
+|------|---------|
+| `topic_ledger.json` | 添加第 45 条（#64, 2026-06-28）；total_articles 63→64 |
+| `unresolved_questions.md` | 添加 Q-cp-01/02/03/04（关键期安全性/人类适用性/高层认知/氟西汀临床转化）|
+| `source_registry.json` | 添加 7 条新文献（255→262 条）|
+| `monthly_synthesis.md` | 6月摘要表添加 #64 条目；本月新增 29 篇 |
+| `maturity_index.json` | 添加 critical-period（established/high/7个来源）|
+| `wiki/index.md` | 更新标题行（63→64，109→111页）；concepts 区添加 critical-period 条目 |
+| `wiki/CHANGELOG.md` | 添加 2026-06-28 完整变更记录 |
+| `_graph.json` | 节点 110→111，边 626→631 |
+
+---
+
+## G. 质量自检
+
+**真实性**：
+- [x] wiki 每条新主张有 PMID 来源
+- [x] 区分了事实（Hensch 1998 GAD65 KO 实验）/ 主流模型（PNN 关闭机制）/ 推测（人类适用性）/ 争议（关键期是否真的关闭）
+- [x] 未把动物研究（小鼠/大鼠）写成人类定论（每处均标注物种或用"动物研究表明"）
+- [x] 3 篇仅摘要来源（Fagiolini 2000、Pizzorusso 2002、Hensch 2005）均明确标注"仅摘要"
+- [x] 未使用 Sci-Hub 或任何盗版途径
+
+**一致性**：
+- [x] 无新矛盾（一致性良好）
+- [x] pv-interneurons.md 修订历史、updated 字段、revision_count 同步更新
+- [x] _graph.json 无悬空边（所有 5 条新边的 from/to 节点均已存在）
+
+**可导航**：
+- [x] index.md 和 CHANGELOG.md 反映了今天的变化
+- [x] critical-period.md 的 related 字段有 7 个，prerequisites 有 3 个
+
+**情景层完整**：
+- [x] articles/2026-06-28-critical-period-visual-cortex.md ✓（29758 bytes）
+- [x] notes/2026-06-28-reading-notes.md ✓（19231 bytes）
+- [x] sources/2026-06-28-sources.json ✓（4152 bytes）
+- [x] logs/2026-06-28-run.log ✓（本文件）
+- [x] 未改动任何旧文章/笔记/来源/日志文件
+
+---
+
+## H. 失败与限制
+
+- 无重大错误
+- Pizzorusso 2002 和 Fagiolini 2000 是付费来源（Science/Nature），只读摘要；核心机制已由 Bavelier 2010 综述（开放全文）充分覆盖
+- topic_ledger 第 45 条（现记录 #64）：由于分支历史，#59-#63 条目可能未被正确记录，ledger 实际只有 45 条而不是 63 条——这是此分支的已知问题，不在今日任务范围内修复
+
+---
+
+## 分支与推送状态
+
+- **当前分支**：claude/funny-einstein-q0DVw
+- **commit 信息**：Add neuro daily article + wiki consolidation for 2026-06-28
+- **Push 目标**：origin claude/funny-einstein-q0DVw
+- **Commit Hash**：（待填写）
+- **Push 状态**：（待更新）

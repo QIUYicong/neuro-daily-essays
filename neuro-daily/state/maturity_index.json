@@ -784,6 +784,14 @@
       "last_changed": "2026-06-26",
       "change_reason": "新建页面。啮齿类证据established，人类证据emerging",
       "source_article": "2026-06-26-adult-neurogenesis-dentate-gyrus"
+    },
+    {
+      "slug": "critical-period",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 7,
+      "last_changed": "2026-06-28",
+      "reason": "新建：关键期机制在视觉皮层有极为充分的多重独立验证——Hensch 1998 GAD65 KO + 地西泮救援（充分必要条件）；Fagiolini 2000 inhibitory threshold；Pizzorusso 2002 PNN/ChABC；Bavelier 2010 多重制动综述；Reh 2020 多尺度调控；Lesnikova 2021 TRKB-PTPσ 统一机制。视觉皮层部分 established/high；高层次脑区关键期机制证据较少（emerging/medium 水平），但作为整体框架已足够 established"
     }
   ]
 }
