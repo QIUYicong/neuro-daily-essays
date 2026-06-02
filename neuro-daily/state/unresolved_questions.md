@@ -1,8 +1,35 @@
 # 未解问题追踪
 
-*最后更新：2026-06-24*
+*最后更新：2026-06-25*
 
 > 每个问题有稳定 ID（`Q-xxx`），供 wiki 页 `opens_questions` 字段引用。
+
+## 2026-06-25 新增（来自"当大脑把碎片缝合在一起"一文 #61）
+
+### Q-gamma-bind-01（高优先级）：伽马同步是感知绑定的充分条件还是必要条件？
+
+- **关联 wiki**：[[gamma-oscillations]]、[[binding-by-synchrony]]、[[pv-interneurons]]
+- **来源文章**：2026-06-25-gamma-oscillations-neural-binding
+- **问题**：Gray & Singer 1989 发现的伽马同步与感知绑定之间的相关性是否具有因果意义？（a）如果用闭环光遗传学在 V1 和 V4 之间人为制造强迫性伽马同步（将两个不属于同一物体的刺激对应的神经群同步），是否会产生错误的感知绑定（把两个独立物体"粘合"为一个）？（b）如果破坏应该同步的神经群（用闭环抑制使处理同一物体的神经元失同步），是否会破坏感知统一性？（c）Myatt & Sharott 2026（PMID:41580144）在运动皮层中实现了相位特异性闭环光遗传调控，类似技术能否在视觉皮层测试绑定的因果关系？
+- **当前证据状态**：大量相关性证据（Gray & Singer 1989，Bosman/Fries 实验）；直接因果实验极为有限；Costa & Castelo-Branco 2024 的反例进一步提示相关性可能被过度解读
+- **为什么重要**：是评估绑定假说科学地位的核心问题；如果伽马同步不是绑定的因，整个 CTC 框架需要重新定位
+
+### Q-gamma-bind-02（中优先级）：ING 和 PING 在感知绑定中各自的贡献是什么？
+
+- **关联 wiki**：[[gamma-oscillations]]、[[binding-by-synchrony]]、[[pv-interneurons]]
+- **来源文章**：2026-06-25-gamma-oscillations-neural-binding
+- **问题**：Williams et al. 2026 在内嗅皮层中证明了 ING-PING 转换，主要服务于网格细胞的空间编码。在视觉皮层的感知绑定中：（a）是否也存在 ING-PING 的切换，并且与绑定质量相关？（b）如果 ING（纯内神经元振荡）主导，则绑定信号是否独立于锥体细胞的信息内容？（c）如果 PING 主导，锥体细胞的激活状态是否直接编码在同步节律中，使同步既是绑定信号又是内容信号？
+- **当前证据状态**：ING-PING 机制区分有理论和实验基础（Buzsáki & Wang 2012，Williams et al. 2026），但专门针对视觉绑定的 ING/PING 角色研究几乎没有
+- **为什么重要**：明确 ING/PING 的分工可以帮助设计精确操控实验（靶向 PV 细胞的不同方面）
+
+### Q-gamma-bind-03（高优先级）：伽马（~40 Hz）与 co-ripples（~90 Hz）是不同机制还是同一机制的频段变体？
+
+- **关联 wiki**：[[gamma-oscillations]]、[[binding-by-synchrony]]
+- **来源文章**：2026-06-25-gamma-oscillations-neural-binding
+- **问题**：Garrett & Halgren 2024（PMID:39134741）发现语言绑定时 co-ripples 约 90 Hz（而非经典的 ~40 Hz），且持续约 100 ms、跨越 >12 cm。（a）90 Hz co-ripples 和 40 Hz 经典绑定伽马是同一机制的不同频段，还是由不同细胞群产生的不同现象？（b）在同一任务中，这两个频段是否同时出现，分别承担"局部绑定"和"跨区整合"？（c）co-ripples（~90 Hz）是否与海马 SWR（睡眠期约 90 Hz）存在机制同源性？
+- **当前证据状态**：Garrett & Halgren 2024 仅读摘要；机制关系完全不清楚
+- **为什么重要**：厘清 co-ripples 与经典伽马的关系，将决定绑定假说是否需要修订为"多频段整合"模型
+
 
 ---
 

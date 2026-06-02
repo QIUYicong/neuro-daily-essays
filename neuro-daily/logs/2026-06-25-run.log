@@ -1,0 +1,141 @@
+# 运行日志 2026-06-25
+
+**文章编号**：#61
+**文章标题**：当大脑把碎片缝合在一起：伽马振荡与神经绑定之谜
+**Slug**：2026-06-25-gamma-oscillations-neural-binding
+**运行分支**：claude/funny-einstein-CcfYP（用于本次工作），目标推送分支：main
+
+---
+
+## A. 选题过程
+
+**选题优先级检查**：
+- 突破追踪（过去7天）：WebSearch 未发现明显单一重大突破，无需进入突破追踪模式
+- 矛盾裁决优先级：C-2026-05-31-01（IIT vs COGITATE，高优先级）和 C-2026-05-31-02（GWT ignition，高优先级）——均与伽马振荡和意识有关，可通过今日主题间接推进
+- 悬空引用填补：`binding-by-synchrony` 尚无 wiki 页（被 consciousness-ignition 等多个页面概念隐含引用）
+- 未解问题：Q-gamma-bind（新增，今日生成）
+- 课程脊柱：γ 振荡的绑定维度此前未作为主题深入，工作记忆文章（#41）只覆盖了局部 PFC 伽马爆发，跨区绑定维度是真正的知识缺口
+
+**最终选题**：伽马振荡与神经绑定问题（filling dangling references + addressing contested claims + curriculum gap）
+**层级**：微回路、全脑网络、认知
+**连续性检查**：前 5 天层级为微回路/细胞/认知 × 4 次，今日选择 全脑网络维度更突出的主题，满足防连续同层级规则
+
+---
+
+## B. 检索过程
+
+**检索词**：
+- "Gray Singer oscillations orientation columns cat visual cortex"
+- "Fries rhythms cognition communication coherence"
+- "Buzsaki Wang mechanisms gamma oscillations"
+- "gamma oscillations cortex binding"
+- "neural synchrony feature binding perception"
+- "PING pyramidal interneuron gamma oscillation mechanism"
+- "gamma oscillations neural binding problem neuroscience 2025 2026"
+
+**数据源**：
+- PubMed E-utilities (esearch.fcgi, efetch.fcgi)：主要检索通道
+- PMC Open Access (pmc.ncbi.nlm.nih.gov)：全文阅读通道
+- WebSearch：2026 年最新突破扫描
+
+**候选论文数**：约 20 篇；采用 9 篇（其中 6 篇读全文，3 篇仅摘要）
+
+**采用来源及原因**：
+1. Gray & Singer 1989 PNAS (PMID:2922407)：原始发现，开放全文 ✅
+2. Gray et al. 1989 Nature (PMID:2922061)：跨柱同步证据，摘要 ❌
+3. Buzsáki & Wang 2012 (PMID:22443509)：权威机制综述，开放全文 ✅
+4. Fries 2015 (PMID:26447583)：CTC 框架，高引用，开放全文 ✅
+5. Garrett & Halgren 2024 (PMID:39134741)：语言绑定 co-ripples，摘要 ❌（订阅墙）
+6. Costa & Castelo-Branco 2024 (PMID:39185735)：反例，开放全文 ✅
+7. Williams et al. 2026 (PMID:41558964)：ING-PING 机制，开放全文 ✅
+8. Sklar & Salisbury 2024 (PMID:38581829)：精神分裂症，开放全文 ✅
+9. Shadlen & Movshon 1999 (PMID:10677027)：经典批评，摘要 ❌（订阅墙）
+
+**排除来源**：
+- Williams et al. 2026 bioRxiv 预印本 (PMID:42079202)：排除，已有对应 eNeuro 正式版本
+- 多篇搜索结果中与主题不直接相关的论文（皮肤病学、声学等错误匹配）
+
+---
+
+## C. 文章写作
+
+**字数**：约 5800 字（中文）
+**结构完整性**：✅ 包含核心问题、摘要、背景、机制、证据、比喻（含失效说明）、疾病窗口、与意识的连接、与AI比较、概念卡片、认知地图更新、参考来源
+**来源标注**：✅ 每条主要主张有来源标注，摘要限制已明确标注
+
+---
+
+## D. 固结步骤
+
+**今日触及的概念**：
+1. gamma-oscillations（已有页）→ 修订 revision #2
+2. binding-by-synchrony（新建页）
+3. pv-interneurons（已有页）→ 未修订（内容已覆盖，无冲突，minor）
+4. consciousness-ignition（已有页）→ 矛盾更新说明在文章中，未修订 wiki 页
+
+**矛盾检查**：
+- C-2026-05-31-01（IIT gamma synchrony vs COGITATE）：今日 Costa 2024 的新证据进一步支持"IIT 的 gamma 预测过于具体"，但也增加了新的复杂性（整合时 γ 降低 vs 分离时 γ 升高），使裁决更微妙。矛盾仍 open，但有新证据更新。**未更改矛盾状态（仍为 open）**，因为新证据未能最终裁决，只是增加了新的约束。
+- C-2026-05-31-02（GWT ignition vs COGITATE）：今日文章未直接提供新证据裁决此矛盾，仍为 open。
+- C-2026-06-22-01（被动导航 vs 主动导航 grid signal）：今日无相关内容，无更新。
+- 新矛盾：无（Costa 2024 的反例与现有 gamma-oscillations 页面中的"主流观点"存在张力，但原有页面未明确将"γ 同步=整合信号"作为主张，因此不需要新建矛盾条目；该反例作为"证据复杂性"写入 wiki 页面即可）
+
+**成熟度评估**：
+- binding-by-synchrony：新建，设为 contested/medium（证据不一致）
+- gamma-oscillations：修订，整体维持 established/high（核心 PING 机制无争议）；绑定维度子级 contested
+
+---
+
+## E. 图谱与导航
+
+- `_graph.json`：新增节点 1（binding-by-synchrony）；新增边 11；新增悬空引用 2（binding-problem, co-ripples）
+- `wiki/index.md`：未修订（仅在 CHANGELOG 记录）
+- `wiki/CHANGELOG.md`：添加 2026-06-25 节
+
+---
+
+## F. 治理层
+
+- `state/topic_ledger.json`：添加第 61 条目，last_updated 更新至 2026-06-25，total_articles 61
+- `state/unresolved_questions.md`：更新 last_updated，新增 Q-gamma-bind-01/02/03
+- `state/source_registry.json`：新增 9 条来源，total_sources 255
+- `state/monthly_synthesis.md`：更新六月进行中部分（截至 2026-06-25，第 61 篇）
+- `state/maturity_index.json`：新增 binding-by-synchrony 条目；更新 gamma-oscillations 条目
+
+---
+
+## G. 提交与推送
+
+**commit 信息**：Add neuro daily article + wiki consolidation for 2026-06-25
+**推送目标**：origin main（通过 claude/funny-einstein-CcfYP 工作，push 到 main）
+**push 状态**：[由后续 git 操作填写]
+
+---
+
+## H. 自检清单
+
+**真实性**：
+- [x] 每条 wiki 新主张有来源（PMID/PMCID/URL）
+- [x] 区分了事实/主流模型/推测/争议（gamma-oscillations established，binding-by-synchrony contested）
+- [x] 未把单篇/小样本/动物研究写成定论（Costa 2024 标注"需复制"；Gray & Singer 是动物研究，已说明）
+- [x] 摘要限制已明确标注（Garrett & Halgren, Shadlen & Movshon, Gray Nature 均标注"仅摘要"）
+
+**一致性（防腐核心）**：
+- [x] 新内容与既有 wiki 无直接冲突（gamma-oscillations 原有主张针对 PFC/WM，今日新增绑定维度，无覆盖）
+- [x] 被修订页的 updated/revision_count/修订历史已同步
+- [x] _graph.json 悬空边记录在 dangling_references（binding-problem, co-ripples, visual-cortex-v4）
+
+**可导航**：
+- [x] CHANGELOG 反映了今天变化
+- [x] 新页 related ≥1（binding-by-synchrony：7个 related）；prerequisites ≥1（gamma-oscillations，pv-interneurons）
+
+**情景层完整**：
+- [x] articles/2026-06-25-gamma-oscillations-neural-binding.md 已创建
+- [x] notes/2026-06-25-reading-notes.md 已创建
+- [x] sources/2026-06-25-sources.json 已创建
+- [x] logs/2026-06-25-run.log 已创建（本文件）
+- [x] 未修改任何旧文件（仅追加/修订 wiki 页）
+
+---
+
+**运行结束时间**：2026-06-25（自动运行）
+**push commit hash**：[待填写]

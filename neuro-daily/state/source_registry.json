@@ -4792,7 +4792,106 @@
         "cerebellar affective function",
         "posterior cerebellum"
       ]
+    },
+    {
+      "pmid": "2922407",
+      "pmcid": "PMC286768",
+      "title": "Stimulus-specific neuronal oscillations in orientation columns of cat visual cortex",
+      "authors": ["Gray CM", "Singer W"],
+      "year": 1989,
+      "journal": "PNAS",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
+      "topics_covered": ["gamma oscillations", "cat V1", "40 Hz oscillations", "binding hypothesis origin"]
+    },
+    {
+      "pmid": "2922061",
+      "pmcid": null,
+      "title": "Oscillatory responses in cat visual cortex exhibit inter-columnar synchronization which reflects global stimulus properties",
+      "authors": ["Gray CM", "Konig P", "Engel AK", "Singer W"],
+      "year": 1989,
+      "journal": "Nature",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
+      "topics_covered": ["inter-columnar synchrony", "global stimulus properties", "binding hypothesis"]
+    },
+    {
+      "pmid": "22443509",
+      "pmcid": "PMC4049541",
+      "title": "Mechanisms of gamma oscillations",
+      "authors": ["Buzsaki G", "Wang XJ"],
+      "year": 2012,
+      "journal": "Annual Review of Neuroscience",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
+      "topics_covered": ["PING mechanism", "ING mechanism", "PV interneurons", "gamma generation", "perisomatic inhibition"]
+    },
+    {
+      "pmid": "26447583",
+      "pmcid": "PMC4605134",
+      "title": "Rhythms for Cognition: Communication through Coherence",
+      "authors": ["Fries P"],
+      "year": 2015,
+      "journal": "Neuron",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
+      "topics_covered": ["CTC hypothesis", "gamma-attention", "frequency band division", "feedforward gamma", "feedback alpha-beta"]
+    },
+    {
+      "pmid": "39134741",
+      "pmcid": null,
+      "title": "Binding of cortical functional modules by synchronous high-frequency oscillations",
+      "authors": ["Garrett JC", "Halgren E"],
+      "year": 2024,
+      "journal": "Nature Human Behaviour",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
+      "topics_covered": ["co-ripples", "language binding", "high-frequency synchrony", "intracranial EEG"]
+    },
+    {
+      "pmid": "39185735",
+      "pmcid": "PMC11345702",
+      "title": "Distinct oscillatory patterns differentiate between segregation and integration processes in perceptual grouping",
+      "authors": ["Costa GN", "Castelo-Branco M"],
+      "year": 2024,
+      "journal": "Human Brain Mapping",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
+      "topics_covered": ["perceptual grouping", "gamma segregation", "alpha-beta integration", "binding hypothesis counterevidence"]
+    },
+    {
+      "pmid": "41558964",
+      "pmcid": "PMC12884686",
+      "title": "Fast spiking interneurons autonomously generate fast gamma oscillations in the MEC with excitation strength tuning ING-PING transitions",
+      "authors": ["Williams B", "Canavier CC"],
+      "year": 2026,
+      "journal": "eNeuro",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
+      "topics_covered": ["ING-PING transition", "fast spiking interneurons", "medial entorhinal cortex", "excitation strength"]
+    },
+    {
+      "pmid": "38581829",
+      "pmcid": "PMC11102840",
+      "title": "Intensity-dependent modulation of the early auditory gamma-band response in first-episode schizophrenia",
+      "authors": ["Sklar AL", "Salisbury DF"],
+      "year": 2024,
+      "journal": "Schizophrenia Research",
+      "full_text_available": true,
+      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
+      "topics_covered": ["schizophrenia", "auditory gamma", "negative symptoms", "PV interneuron dysfunction"]
+    },
+    {
+      "pmid": "10677027",
+      "pmcid": null,
+      "title": "Synchrony unbound: a critical evaluation of the temporal binding hypothesis",
+      "authors": ["Shadlen MN", "Movshon JA"],
+      "year": 1999,
+      "journal": "Neuron",
+      "full_text_available": false,
+      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
+      "topics_covered": ["binding hypothesis critique", "synchrony critique", "causal evidence lacking"]
     }
   ],
-  "total_sources": 246
+  "total_sources": 255
 }

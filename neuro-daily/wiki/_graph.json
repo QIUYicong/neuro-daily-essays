@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-24",
-  "node_count": 107,
-  "edge_count": 600,
+  "updated": "2026-06-25",
+  "node_count": 108,
+  "edge_count": 614,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,15 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "binding-by-synchrony",
+      "title": "绑定假说（神经同步）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "contested",
+      "confidence": "medium",
+      "page": "wiki/concepts/binding-by-synchrony.md"
+    },
     {
       "id": "action-potential",
       "title": "动作电位",
@@ -4282,6 +4291,18 @@
       "to": "pattern-completion",
       "type": "related"
     }
+  
+    {"from": "binding-by-synchrony", "to": "gamma-oscillations", "type": "mechanism-of"},
+    {"from": "gamma-oscillations", "to": "binding-by-synchrony", "type": "supports"},
+    {"from": "pv-interneurons", "to": "binding-by-synchrony", "type": "mechanism-of"},
+    {"from": "binding-by-synchrony", "to": "consciousness-ignition", "type": "related"},
+    {"from": "binding-by-synchrony", "to": "predictive-coding", "type": "related"},
+    {"from": "binding-by-synchrony", "to": "beta-oscillations", "type": "contradicts"},
+    {"from": "gamma-oscillations", "to": "pv-interneurons", "type": "mechanism-of"},
+    {"from": "gamma-oscillations", "to": "beta-oscillations", "type": "regulates"},
+    {"from": "gamma-oscillations", "to": "working-memory", "type": "supports"},
+    {"from": "gamma-oscillations", "to": "consciousness-ignition", "type": "related"},
+    {"from": "binding-by-synchrony", "to": "attentional-blink", "type": "related"},
   ],
   "dangling_references": [
     {
@@ -4480,6 +4501,22 @@
         "pattern-completion"
       ],
       "note": "齿状回专页；目前功能描述合并在 hippocampal-circuit.md；若DG内容增长可拆分独立页面；扩张重编码、稀疏激活竞争、苔状纤维突触等机制；待建页面"
+    },
+    {
+      "slug": "binding-problem",
+      "referenced_by": [
+        "binding-by-synchrony",
+        "gamma-oscillations"
+      ],
+      "note": "绑定问题背景专页；感知统一性的哲学和神经科学背景；如何从分散的神经计算中涌现统一感知；与 binding-by-synchrony 的关系；待建页面"
+    },
+    {
+      "slug": "co-ripples",
+      "referenced_by": [
+        "binding-by-synchrony",
+        "gamma-oscillations"
+      ],
+      "note": "高频共振波专页（~90 Hz，~100 ms）；Garrett & Halgren 2024 在语言绑定中发现；与 SWR（海马）的机制同源性；与经典 40 Hz 伽马的关系；待建页面"
     }
   ]
 }

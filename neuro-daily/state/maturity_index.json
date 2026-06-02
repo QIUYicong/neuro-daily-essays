@@ -752,6 +752,22 @@
       "supporting_sources": 3,
       "last_changed": "2026-06-24",
       "reason": "新建：CLS理论框架（O'Reilly & McClelland 1994, McClelland et al. 1995）在神经科学和AI领域广泛引用；海马损伤→情景记忆选择性缺失的经典证据支持快/慢双系统分工；SWR重放的因果证据（Girardeau 2009）支持海马→皮层知识转移；但记忆转移的精确时间线和分子机制仍有争议。故定为mainstream/medium"
+    },
+    {
+      "slug": "binding-by-synchrony",
+      "status": "contested",
+      "confidence": "medium",
+      "supporting_sources": 5,
+      "last_changed": "2026-06-25",
+      "reason": "新建：Gray & Singer 1989 的经典发现（跨皮层柱伽马同步依赖刺激全局属性）是基础证据；Fries 2015 CTC 框架有猕猴实验支持；Garrett & Halgren 2024 提供语言绑定的 co-ripples 证据。但 Costa & Castelo-Branco 2024 发现视觉整合时γ反而降低（与假说相反）；Shadlen & Movshon 1999 批评因果证据缺失；因果实验至今极为有限。多方证据不一致，定为contested/medium"
+    },
+    {
+      "slug": "gamma-oscillations",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 12,
+      "last_changed": "2026-06-25",
+      "reason": "修订（revision #2）：原有工作记忆维度保持established/high（Lundqvist 2016等）；新增绑定维度：Gray & Singer 1989（机制发现，经典重复实验）、Buzsáki & Wang 2012（权威机制综述）、Fries 2015（CTC框架，高引用率）；新增 ING-PING 转换（Williams 2026）。核心机制（PING机制、PV中间神经元的关键性）证据充分，定为established/high；绑定假说子维度仍为contested，但不改变整体status"
     }
   ]
 }

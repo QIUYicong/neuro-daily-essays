@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-25（第 61 篇·当大脑把碎片缝合在一起·伽马振荡与神经绑定）
+
+**源文章**：[[2026-06-25-gamma-oscillations-neural-binding]] —《当大脑把碎片缝合在一起：伽马振荡与神经绑定之谜》
+
+**新建页面（1）**：
+- `concepts/binding-by-synchrony.md`（绑定假说）🟡 contested / 置信度中 — Gray & Singer 1989 提出的神经绑定假说；PING/ING 机制作为伽马振荡基础；CTC 框架（Fries 2015）的通信窗口解释；支持证据（Garrett & Halgren 2024：语言绑定时 co-ripples）与反对证据（Costa & Castelo-Branco 2024：视觉整合时伽马反而降低）；未解因果问题（Q-gamma-bind-01/02/03）
+
+**修订页面（1）**：
+- `concepts/gamma-oscillations.md`（修订 #2）— 新增绑定假说维度（Gray & Singer 1989 证据）；ING 机制补充；CTC 框架；Costa 2024 反例（γ 在分离时升高）；Williams 2026 ING-PING 转换；精神分裂症 Sklar 2024；新增 related 节点 3 个；新增 key_sources 5 篇；opens_questions 新增 3 条
+
+**矛盾登记**：无新矛盾（C-2026-05-31-01 更新状态说明：新证据进一步支持"IIT 伽马同步预测过于具体"，但矛盾仍 open；C-2026-06-22-01 无更新）。
+
+**新增悬空引用（待填补）**：
+- `binding-problem`（绑定问题背景，被 binding-by-synchrony 引用）
+- `co-ripples`（高频共振波机制，被 binding-by-synchrony 引用）
+- `visual-cortex-v4`（V4 区域页，被 binding-by-synchrony 和 gamma-oscillations 引用）
+
+**新增未解问题**：Q-gamma-bind-01（高）、Q-gamma-bind-02（中）、Q-gamma-bind-03（高）
+
+---
+
 ## 2026-06-24（第 60 篇·记忆不混淆的秘密·CA3 吸引子与 DG-CA1 模式分离）
 
 **源文章**：[[2026-06-24-hippocampal-ca3-pattern-completion]] —《记忆不混淆的秘密：CA3 的吸引子动力学与海马如何在「自动补全」与「精准分离」之间走钢丝》
