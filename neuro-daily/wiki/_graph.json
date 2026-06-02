@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-27",
+  "updated": "2026-06-28",
   "node_count": 109,
   "edge_count": 625,
   "edge_types": [
@@ -1003,6 +1003,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/adult-neurogenesis.md"
+    },
+    {
+      "id": "bdnf",
+      "title": "脑源性神经营养因子（BDNF）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/bdnf.md"
     }
   ],
   "edges": [
@@ -4457,6 +4466,66 @@
     {
       "from": "hippocampal-circuit",
       "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bdnf",
+      "to": "ltd",
+      "type": "regulates"
+    },
+    {
+      "from": "bdnf",
+      "to": "adult-neurogenesis",
+      "type": "regulates"
+    },
+    {
+      "from": "bdnf",
+      "to": "hippocampal-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bdnf",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "nmda-receptor",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "camkii",
+      "type": "regulates"
+    },
+    {
+      "from": "bdnf",
+      "to": "arc-arg31",
+      "type": "regulates"
+    },
+    {
+      "from": "bdnf",
+      "to": "synaptic-tagging-capture",
+      "type": "supports"
+    },
+    {
+      "from": "bdnf",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ltp",
+      "to": "bdnf",
+      "type": "regulates"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "bdnf",
       "type": "related"
     }
   ],

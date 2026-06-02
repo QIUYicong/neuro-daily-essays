@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-24
-revision_count: 8
+updated: 2026-06-28
+revision_count: 9
 dimensions: [synaptic, cellular, cognition, brain-region, disease]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -74,6 +74,20 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 
 2021 年 Tao et al. 发现：在已建立的 LTP 之后，持续抑制 CaMKII 会导致 LTP 完全逆转。这证明 CaMKII 不只诱导 LTP，也是其维持所必需的——提示 CaMKII 的持续活化可能是 E-LTP 的关键维持机制。
 
+### 6. BDNF 对 L-LTP 的催化作用（突触固结机制）
+
+**2026-06-28 新增（来自《BDNF：大脑给自己的成长信号》文章，#64）**：
+
+L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（Bramham & Messaoudi 2005，PMID:16099088；Lu et al. 2008，PMID:17942328）：
+
+- 高频刺激 → NMDA-Ca²⁺ → 上调 BDNF 转录（通过 CREB 激活 BDNF 多启动子之一）
+- **活动依赖性 BDNF 分泌**到突触间隙（只在激活突触附近，提供局部特异性）
+- BDNF/TrkB → ERK → **Arc mRNA 局部翻译**（Arc 蛋白调节 AMPA 受体内吞和肌动蛋白重组 → 树突棘稳定）
+- BDNF/TrkB → PI3K/Akt/mTOR → 其他 PRP（可塑性相关蛋白）合成
+- **关键点**：BDNF KO 小鼠 E-LTP 基本正常，但 L-LTP 严重受损——说明 BDNF 是 E-LTP→L-LTP 转化的必要催化剂，而非 LTP 诱导本身的必要条件
+
+**BDNF 的 L-LTP 作用与 DA 的 STC 机制的关系**：两者共享最终产物（PRPs 合成，包括 Arc），但 BDNF 由局部突触活动触发（活动直接诱导），DA 则由奖励预测误差触发（远程调制）。两条路径汇聚于同一套局部蛋白合成机制，可能在实际学习中协同工作。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -102,6 +116,8 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 - [[three-factor-learning-rule]] — LTP 是三因素规则（Δw = (pre × post) × DA）的正向表达结果；DA 爆发与 Hebbian 激活必须时序配对
 - [[fear-conditioning]] — 外侧杏仁核（LA）LTP 是恐惧条件反射的分子底物；与海马 LTP 分子机制完全同构
 - [[amygdala]] — LA 突触 LTP 写入恐惧印迹；LTD（消退去增强）同样在 LA 发生
+- [[bdnf]] — BDNF 是 L-LTP（晚期 LTP）不可或缺的催化分子；驱动 Arc 局部翻译和 PRP 合成，将 E-LTP 转化为结构性持久增强
+- [[arc-arg31]] — Arc 蛋白是 BDNF/ERK 通路驱动的局部翻译产物，是 L-LTP 的执行者之一
 
 ## 未解问题
 
@@ -111,6 +127,7 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 
 ## 修订历史
 
+- 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 新增 BDNF/TrkB→Arc→L-LTP 突触固结机制段落；related 新增 bdnf、arc-arg31；key_sources 新增 PMID:16099088、PMID:17942328；source_articles 新增 2026-06-28-bdnf-trk-b-plasticity-memory；悬空引用 [[bdnf]] 已建页
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 新增：CA3 循环突触 NMDA 受体依赖性 LTP 是模式补全（pattern completion）的分子基础——Nakazawa et al. 2002 (PMID:12040087) 基因因果证据；related 新增 pattern-completion、complementary-learning-systems；source_articles 新增 2026-06-24-hippocampal-ca3-pattern-completion
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增 BTSP 作为平行突触增强机制；LTP 与 BTSP 的分工与互补关系；related 增加 btsp, place-cell, hippocampal-circuit

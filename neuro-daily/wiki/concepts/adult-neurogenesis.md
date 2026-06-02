@@ -6,8 +6,8 @@ type: mechanism
 status: emerging
 confidence: medium
 created: 2026-06-26
-updated: 2026-06-26
-revision_count: 1
+updated: 2026-06-28
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
 related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf]
 prerequisites: [hippocampal-circuit, ltp, pattern-separation]
@@ -90,7 +90,7 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 - [[ltp]] — 关键期内的超高 LTP 诱导性是新生神经元可塑性的分子基础
 - [[engram-cells]] — 新生颗粒细胞可能参与记忆印迹分配的竞争
 - [[alzheimers-disease]] — AD 中神经发生衰退可能是认知储备损耗的早期贡献变量
-- [[bdnf]] — 神经发生最关键的促进因子（悬空引用，待建页）
+- [[bdnf]] — 神经发生最关键的促进因子；通过 PI3K/Akt（存活）和 MAPK/ERK（分化）双通路支持新生颗粒细胞整合
 - [[memory-consolidation]] — 神经发生在 NREM 睡眠 SWR 重激活中的角色待研究
 
 ## 未解问题
@@ -102,6 +102,7 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 
 ## 修订历史
 
+- 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 悬空引用 [[bdnf]] 已建页；补充 BDNF 通过 PI3K/Akt 和 MAPK/ERK 双通路支持新生颗粒细胞存活与分化的具体机制描述
 - 2026-06-26 · 创建 · 基于《大脑的自我更新》一文 · 整合 11 篇来源（含 4 篇 PMC 开放全文）· 初始置信度：中（人类部分 emerging，啮齿类部分 established）
 
 ## 来源文章

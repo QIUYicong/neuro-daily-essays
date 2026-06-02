@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-06-28（第 64 篇·BDNF·TrkB信号级联、LTP后期维持与AD分子接点）
+
+**源文章**：[[2026-06-28-bdnf-trk-b-plasticity-memory]] —《BDNF：大脑给自己的成长信号》
+
+**核心任务**：填补多页悬空引用 `[[bdnf]]`（被 adult-neurogenesis、hippocampal-neurogenesis、ltp 等页面引用）；建立 BDNF/TrkB 信号机制的独立 wiki 页面；补充 L-LTP 中 BDNF→Arc→突触固结的完整机制链。
+
+**新建页面（1）**：
+- `concepts/bdnf.md`（脑源性神经营养因子 BDNF）🟢 established / 置信度高 — proBDNF/成熟 BDNF 双向开关（p75NTR vs TrkB）；TrkB 三条信号通路（PLCγ/ERK/Akt）；L-LTP 的必要催化分子（Bramham 2005）；SGZ 神经发生 PI3K/Akt 存活机制；有氧运动→血清 BDNF↑→海马体积+2%（Erickson 2011 RCT）；Val66Met 多态性；AD 早期 BDNF/TrkB-CREB 受损；BDNF+AHN 协同改善认知（Choi 2018 Science）
+
+**修订页面（4）**：
+- `concepts/ltp.md`（修订 #9）— 新增 BDNF→Arc mRNA 局部翻译→E-LTP→L-LTP 转化段落（突触固结机制）；补充 BDNF 与 DA/STC 路径的汇聚；related 新增 bdnf、arc-arg31；key_sources 新增 PMID:16099088、PMID:17942328
+- `concepts/adult-neurogenesis.md`（修订 #2）— 悬空引用 [[bdnf]] 已建页；补充 PI3K/Akt+MAPK/ERK 双通路机制描述
+- `concepts/hippocampal-neurogenesis.md`（修订 #3）— 悬空引用 [[bdnf]] 已建页；补充 TrkB 信号机制说明
+- `diseases/alzheimers-disease.md`（修订 #3）— 修正 related 中错误 slug `bdnf-trkb`→`bdnf`（已建页）；新增 adult-neurogenesis 连接；补充 Choi 2018 BDNF+AHN 协同干预证据；key_sources 新增 PMID:30190379
+
+**矛盾处理**：无新矛盾登记
+
+**图谱更新**：新增节点 1（bdnf）；新增边 12 条（bdnf→ltp/ltd/adult-neurogenesis/hippocampal-neurogenesis/alzheimers-disease/nmda-receptor/camkii/arc-arg31/synaptic-tagging-capture/memory-consolidation + 反向边 2 条）；总计 111 节点，638 条边
+
+**新增未解问题**：Q-bdnf-01（血脑屏障/TrkB 激动剂临床）、Q-bdnf-02（Val66Met 风险权重）、Q-bdnf-03（AD 中 BDNF 因果方向）
+
+**下一步建议**：阿尔茨海默病分子机制完整文章（tau/淀粉样蛋白/神经发生三线整合）；预测编码与 NCC 的整合；无报告范式意识研究（Q-ncc-01）
+
+---
+
 ## 2026-06-27（第 63 篇·意识在哪里·NCC 框架与 COGITATE 2025 综合）
 
 **源文章**：[[2026-06-27-ncc-consciousness-where]] —《意识在哪里？——神经相关物（NCC）框架与 2025 年大脑意识科学的真实地平线》

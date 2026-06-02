@@ -6,8 +6,8 @@ type: mechanism
 status: contested
 confidence: medium
 created: 2026-06-13
-updated: 2026-06-26
-revision_count: 2
+updated: 2026-06-28
+revision_count: 3
 dimensions: [cellular, brain-region, cognition, disease]
 related: [hippocampal-circuit, ltp, memory-consolidation, engram-cells, serotonin-raphe-system, 5-ht-autoreceptor, bdnf]
 prerequisites: [hippocampal-circuit, ltp, engram-cells]
@@ -82,7 +82,7 @@ BDNF/TrkB信号也是关键下游：慢性SSRI → 5-HT升高 → BDNF表达↑�
 - [[5-ht-autoreceptor]] — SSRI通过自受体脱敏→5-HT升高→神经发生↑的级联
 - [[serotonin-raphe-system]] — 神经发生的5-HT系统上游
 - [[alzheimers-disease]] — AD中神经发生随分期下降（Moreno-Jiménez 2019）
-- [[bdnf]] — 神经发生最关键的促进因子（悬空引用）
+- [[bdnf]] — 神经发生最关键的促进因子；通过 TrkB→PI3K/Akt（存活）和 MAPK/ERK（分化）驱动 SGZ 新生神经元整合
 
 ## 未解问题
 
@@ -93,6 +93,7 @@ BDNF/TrkB信号也是关键下游：慢性SSRI → 5-HT升高 → BDNF表达↑�
 ## 修订历史
 
 - 2026-06-13 · 创建 · 基于《血清素的慢时钟》一文 · 初始置信度：中（争议领域） · status=contested
+- 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 悬空引用 [[bdnf]] 已建页，更新连接描述（PI3K/Akt 存活通路 + MAPK/ERK 分化通路）
 - 2026-06-26 · 修订 · 基于《大脑的自我更新》一文 · 新增 GABA 开关机制详解、方法论破局分析（Moreno-Jiménez 2019 的固定时间实验）、snRNA-seq 独立证据（Zhou 2022）、AD 连接；更新人类神经发生评估（从"争议尚未解决"升级为"多维证据支持但规模不确定"）；关键证据表更新 3 行；连接新增 adult-neurogenesis、pattern-separation、alzheimers-disease
 
 ## 来源文章

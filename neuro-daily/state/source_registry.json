@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-28",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -4797,101 +4797,351 @@
       "pmid": "2922407",
       "pmcid": "PMC286768",
       "title": "Stimulus-specific neuronal oscillations in orientation columns of cat visual cortex",
-      "authors": ["Gray CM", "Singer W"],
+      "authors": [
+        "Gray CM",
+        "Singer W"
+      ],
       "year": 1989,
       "journal": "PNAS",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["gamma oscillations", "cat V1", "40 Hz oscillations", "binding hypothesis origin"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "gamma oscillations",
+        "cat V1",
+        "40 Hz oscillations",
+        "binding hypothesis origin"
+      ]
     },
     {
       "pmid": "2922061",
       "pmcid": null,
       "title": "Oscillatory responses in cat visual cortex exhibit inter-columnar synchronization which reflects global stimulus properties",
-      "authors": ["Gray CM", "Konig P", "Engel AK", "Singer W"],
+      "authors": [
+        "Gray CM",
+        "Konig P",
+        "Engel AK",
+        "Singer W"
+      ],
       "year": 1989,
       "journal": "Nature",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["inter-columnar synchrony", "global stimulus properties", "binding hypothesis"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "inter-columnar synchrony",
+        "global stimulus properties",
+        "binding hypothesis"
+      ]
     },
     {
       "pmid": "22443509",
       "pmcid": "PMC4049541",
       "title": "Mechanisms of gamma oscillations",
-      "authors": ["Buzsaki G", "Wang XJ"],
+      "authors": [
+        "Buzsaki G",
+        "Wang XJ"
+      ],
       "year": 2012,
       "journal": "Annual Review of Neuroscience",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["PING mechanism", "ING mechanism", "PV interneurons", "gamma generation", "perisomatic inhibition"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "PING mechanism",
+        "ING mechanism",
+        "PV interneurons",
+        "gamma generation",
+        "perisomatic inhibition"
+      ]
     },
     {
       "pmid": "26447583",
       "pmcid": "PMC4605134",
       "title": "Rhythms for Cognition: Communication through Coherence",
-      "authors": ["Fries P"],
+      "authors": [
+        "Fries P"
+      ],
       "year": 2015,
       "journal": "Neuron",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["CTC hypothesis", "gamma-attention", "frequency band division", "feedforward gamma", "feedback alpha-beta"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "CTC hypothesis",
+        "gamma-attention",
+        "frequency band division",
+        "feedforward gamma",
+        "feedback alpha-beta"
+      ]
     },
     {
       "pmid": "39134741",
       "pmcid": null,
       "title": "Binding of cortical functional modules by synchronous high-frequency oscillations",
-      "authors": ["Garrett JC", "Halgren E"],
+      "authors": [
+        "Garrett JC",
+        "Halgren E"
+      ],
       "year": 2024,
       "journal": "Nature Human Behaviour",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["co-ripples", "language binding", "high-frequency synchrony", "intracranial EEG"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "co-ripples",
+        "language binding",
+        "high-frequency synchrony",
+        "intracranial EEG"
+      ]
     },
     {
       "pmid": "39185735",
       "pmcid": "PMC11345702",
       "title": "Distinct oscillatory patterns differentiate between segregation and integration processes in perceptual grouping",
-      "authors": ["Costa GN", "Castelo-Branco M"],
+      "authors": [
+        "Costa GN",
+        "Castelo-Branco M"
+      ],
       "year": 2024,
       "journal": "Human Brain Mapping",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["perceptual grouping", "gamma segregation", "alpha-beta integration", "binding hypothesis counterevidence"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "perceptual grouping",
+        "gamma segregation",
+        "alpha-beta integration",
+        "binding hypothesis counterevidence"
+      ]
     },
     {
       "pmid": "41558964",
       "pmcid": "PMC12884686",
       "title": "Fast spiking interneurons autonomously generate fast gamma oscillations in the MEC with excitation strength tuning ING-PING transitions",
-      "authors": ["Williams B", "Canavier CC"],
+      "authors": [
+        "Williams B",
+        "Canavier CC"
+      ],
       "year": 2026,
       "journal": "eNeuro",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["ING-PING transition", "fast spiking interneurons", "medial entorhinal cortex", "excitation strength"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "ING-PING transition",
+        "fast spiking interneurons",
+        "medial entorhinal cortex",
+        "excitation strength"
+      ]
     },
     {
       "pmid": "38581829",
       "pmcid": "PMC11102840",
       "title": "Intensity-dependent modulation of the early auditory gamma-band response in first-episode schizophrenia",
-      "authors": ["Sklar AL", "Salisbury DF"],
+      "authors": [
+        "Sklar AL",
+        "Salisbury DF"
+      ],
       "year": 2024,
       "journal": "Schizophrenia Research",
       "full_text_available": true,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["schizophrenia", "auditory gamma", "negative symptoms", "PV interneuron dysfunction"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "schizophrenia",
+        "auditory gamma",
+        "negative symptoms",
+        "PV interneuron dysfunction"
+      ]
     },
     {
       "pmid": "10677027",
       "pmcid": null,
       "title": "Synchrony unbound: a critical evaluation of the temporal binding hypothesis",
-      "authors": ["Shadlen MN", "Movshon JA"],
+      "authors": [
+        "Shadlen MN",
+        "Movshon JA"
+      ],
       "year": 1999,
       "journal": "Neuron",
       "full_text_available": false,
-      "used_in_articles": ["2026-06-25-gamma-oscillations-neural-binding"],
-      "topics_covered": ["binding hypothesis critique", "synchrony critique", "causal evidence lacking"]
+      "used_in_articles": [
+        "2026-06-25-gamma-oscillations-neural-binding"
+      ],
+      "topics_covered": [
+        "binding hypothesis critique",
+        "synchrony critique",
+        "causal evidence lacking"
+      ]
+    },
+    {
+      "id": "PMID:16099088",
+      "type": "review",
+      "title": "BDNF function in adult synaptic plasticity: the synaptic consolidation hypothesis",
+      "authors": "Bramham CR, Messaoudi E",
+      "journal": "Progress in Neurobiology",
+      "year": 2005,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-28-bdnf-trk-b-plasticity-memory"
+      ],
+      "topics_covered": [
+        "BDNF",
+        "LTP",
+        "synaptic consolidation",
+        "Arc mRNA",
+        "L-LTP"
+      ]
+    },
+    {
+      "id": "PMID:33096634",
+      "pmcid": "PMC7589016",
+      "type": "review",
+      "title": "Neurotrophic Factor BDNF, Physiological Functions and Therapeutic Potential in Depression, Neurodegeneration and Brain Cancer",
+      "authors": "Colucci-D'Amato L, Speranza L, Volpicelli F",
+      "journal": "Int J Mol Sci",
+      "year": 2020,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-06-28-bdnf-trk-b-plasticity-memory"
+      ],
+      "topics_covered": [
+        "BDNF",
+        "TrkB signaling",
+        "PLCγ ERK Akt",
+        "neurogenesis",
+        "AD",
+        "Val66Met"
+      ]
+    },
+    {
+      "id": "PMID:17942328",
+      "pmcid": "PMC2387254",
+      "type": "review",
+      "title": "BDNF: a key regulator for protein synthesis-dependent LTP and long-term memory?",
+      "authors": "Lu Y, Christian K, Lu B",
+      "journal": "Neurobiol Learn Mem",
+      "year": 2008,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-06-28-bdnf-trk-b-plasticity-memory"
+      ],
+      "topics_covered": [
+        "BDNF",
+        "L-LTP",
+        "protein synthesis",
+        "long-term memory"
+      ]
+    },
+    {
+      "id": "PMID:16025106",
+      "type": "original_research",
+      "title": "Activation of p75NTR by proBDNF facilitates hippocampal long-term depression",
+      "authors": "Woo NH et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2005,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-28-bdnf-trk-b-plasticity-memory"
+      ],
+      "topics_covered": [
+        "proBDNF",
+        "p75NTR",
+        "LTD",
+        "bidirectional plasticity"
+      ]
+    },
+    {
+      "id": "PMID:12553913",
+      "type": "original_research",
+      "title": "The BDNF val66met polymorphism affects activity-dependent secretion of BDNF and human memory and hippocampal function",
+      "authors": "Egan MF et al.",
+      "journal": "Cell",
+      "year": 2003,
+      "access": "free_article",
+      "used_in_articles": [
+        "2026-06-28-bdnf-trk-b-plasticity-memory"
+      ],
+      "topics_covered": [
+        "BDNF",
+        "Val66Met",
+        "hippocampus",
+        "memory",
+        "activity-dependent secretion"
+      ]
+    },
+    {
+      "id": "PMID:21282661",
+      "pmcid": "PMC3041121",
+      "type": "rct",
+      "title": "Exercise training increases size of hippocampus and improves memory",
+      "authors": "Erickson KI et al.",
+      "journal": "PNAS",
+      "year": 2011,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-06-28-bdnf-trk-b-plasticity-memory"
+      ],
+      "topics_covered": [
+        "exercise",
+        "BDNF",
+        "hippocampal volume",
+        "memory",
+        "aging",
+        "neurogenesis"
+      ]
+    },
+    {
+      "id": "PMID:30190379",
+      "pmcid": "PMC6149542",
+      "type": "original_research",
+      "title": "Combined adult neurogenesis and BDNF mimic exercise effects on cognition in an Alzheimer's mouse model",
+      "authors": "Choi SH et al.",
+      "journal": "Science",
+      "year": 2018,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-06-28-bdnf-trk-b-plasticity-memory"
+      ],
+      "topics_covered": [
+        "BDNF",
+        "adult neurogenesis",
+        "Alzheimer",
+        "5xFAD",
+        "exercise",
+        "cognition",
+        "TGF-beta1"
+      ]
+    },
+    {
+      "id": "PMID:23674053",
+      "type": "review",
+      "title": "BDNF-based synaptic repair as a disease-modifying strategy for neurodegenerative diseases",
+      "authors": "Lu B et al.",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2013,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-06-28-bdnf-trk-b-plasticity-memory"
+      ],
+      "topics_covered": [
+        "BDNF",
+        "synaptic repair",
+        "AD",
+        "neurodegeneration",
+        "BBB",
+        "TrkB agonist"
+      ]
     }
   ],
-  "total_sources": 255
+  "total_sources": 263
 }
