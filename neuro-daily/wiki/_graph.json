@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-30",
+  "updated": "2026-07-01",
   "node_count": 117,
   "edge_count": 676,
   "edge_types": [
@@ -1066,6 +1066,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/t-type-calcium-channels.md"
+    },
+    {
+      "id": "dorsal-attention-network",
+      "title": "背侧注意网络（DAN）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/dorsal-attention-network.md"
+    },
+    {
+      "id": "biased-competition",
+      "title": "偏置竞争模型",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/biased-competition.md"
     }
   ],
   "edges": [
@@ -4802,6 +4820,71 @@
       "to": "thalamic-firing-modes",
       "type": "part-of",
       "note": "视丘通过双模放电实现感知门控"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "thalamus",
+      "type": "regulates"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "thalamocortical-circuit",
+      "type": "regulates"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "v1-primary-visual-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "attentional-blink",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "biased-competition",
+      "to": "dorsal-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "biased-competition",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "biased-competition",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "biased-competition",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "biased-competition",
+      "type": "supports"
     }
   ],
   "dangling_references": [

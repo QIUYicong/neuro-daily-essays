@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-01",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5209,5 +5209,15 @@
       ]
     }
   ],
-  "total_sources": 263
+  ,
+  "total_sources": 271,
+  "additions_2026-07-01": [
+    {"pmid": "11994752", "title": "Control of goal-directed and stimulus-driven attention in the brain", "authors": "Corbetta & Shulman 2002", "covered": ["dorsal attention network", "ventral attention network", "spatial neglect"]},
+    {"pmid": "20192813", "pmcid": "PMC3683564", "title": "Attention, intention, and priority in the parietal lobe", "authors": "Bisley & Goldberg 2010", "covered": ["LIP priority map", "intraparietal sulcus", "saccade-attention coupling"]},
+    {"pmid": "13679398", "title": "Microstimulation of the frontal eye field and its effects on covert spatial attention", "authors": "Moore & Fallah 2004", "covered": ["FEF microstimulation", "covert spatial attention", "d' enhancement"]},
+    {"pmid": "36730414", "title": "Suppressing feedback signals to visual cortex abolishes attentional modulation", "authors": "Debes & Dragoi 2023", "covered": ["V4 to V1 feedback", "attentional modulation V1", "corticocortical feedback necessity"]},
+    {"pmid": "7605061", "title": "Neural mechanisms of selective visual attention", "authors": "Desimone & Duncan 1995", "covered": ["biased competition", "selective attention theory", "neural competition"]},
+    {"pmid": "10376597", "title": "Feature-based attention influences motion processing gain in macaque visual cortex", "authors": "Treue & Trujillo 1999", "covered": ["multiplicative gain", "MT attention modulation", "feature similarity gain model"]},
+    {"pmid": "42125965", "pmcid": "PMC13171101", "title": "Dissociable neural substrates of integration and segregation in exogenous attention", "authors": "Chen et al. 2026", "covered": ["FEF IPS TPJ fMRI", "exogenous attention", "inhibition of return"]}
+  ]
 }

@@ -1,7 +1,68 @@
 {
-  "last_updated": "2026-06-30",
-  "total_articles": 66,
+  "last_updated": "2026-07-01",
+  "total_articles": 67,
   "entries": [
+    {
+      "date": "2026-07-01",
+      "title": "空间注意的神经回路：前额叶眼区与顶内沟如何驾驭大脑的聚光灯",
+      "filename": "2026-07-01-dorsal-attention-network-FEF-IPS.md",
+      "wiki_pages_created": [
+        "wiki/concepts/dorsal-attention-network.md",
+        "wiki/concepts/biased-competition.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/prefrontal-cortex.md",
+        "wiki/systems/v1-primary-visual-cortex.md",
+        "wiki/systems/thalamus.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "额叶眼区（FEF）和顶内沟（IPS/LIP）如何共同构成背侧注意网络（DAN），通过优先级地图整合信号，再通过 V4→V1 皮层反馈投射产生乘法性增益调制，实现空间注意的自上而下控制——以及这套皮层注意回路如何与 TRN 协作完成从皮层意图到感觉门控的全链路？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "microcircuit"
+      ],
+      "curriculum_track": "5. 认知控制（注意、工作记忆、前额叶）；延续 2026-06-03（视丘 TRN 注意门控）和 2026-06-30（T 型钙通道爆发放电）的视丘-注意系列；填补 DAN/偏置竞争 wiki 缺口；推进课程脊柱 5（认知控制）",
+      "topic_tags": [
+        "dorsal attention network", "DAN", "ventral attention network", "VAN",
+        "frontal eye field", "FEF", "intraparietal sulcus", "IPS", "LIP",
+        "lateral intraparietal area", "priority map", "biased competition",
+        "top-down attention", "spatial attention", "gain modulation",
+        "multiplicative gain", "V4 feedback", "corticocortical feedback",
+        "Corbetta Shulman 2002", "Bisley Goldberg 2010", "Moore Fallah 2004",
+        "Debes Dragoi 2023", "Desimone Duncan 1995", "Treue Martinez-Trujillo 1999",
+        "FEF microstimulation", "spatial neglect", "TPJ", "VFC",
+        "attention reorienting", "thalamic reticular nucleus", "TRN",
+        "attention feedback", "attentional gain", "retinotopic attention"
+      ],
+      "main_sources": [
+        "PMID:11994752 (abstract only, Nature Reviews Neuroscience)",
+        "PMID:20192813 (PMCID:PMC3683564, open access, full text read)",
+        "PMID:13679398 (abstract only, Journal of Neurophysiology)",
+        "PMID:36730414 (abstract only, Science, paywall)",
+        "PMID:7605061 (abstract only, Annual Review of Neuroscience)",
+        "PMID:10376597 (abstract only, Nature)",
+        "PMID:42125965 (PMCID:PMC13171101, open access, full text read)",
+        "PMID:29275841 (abstract only, Nature Neuroscience)"
+      ],
+      "unresolved_questions": [
+        "Q-dan-01",
+        "Q-dan-02",
+        "Q-dan-03"
+      ],
+      "next_suggested_topics": [
+        "前额叶认知控制综合：工作记忆（已深化）+ 决策 + 规则表征 + 注意控制（完成课程脊柱5的认知控制主题）",
+        "纹状体学习与多巴胺：直接/间接通路在习惯形成中的角色（延续奖励学习主题，课程脊柱5→6）",
+        "视觉注意中的 Alpha 振荡：顶叶 Alpha（8–12Hz）的抑制性侧向机制（与 DAN γ/Beta 协同/拮抗）",
+        "FTD-MAPT（额颞叶痴呆）：tau 病理和额叶执行功能损伤（从认知控制回路到疾病）",
+        "痛觉回路：从伤害感受器到前扣带回（覆盖尚未涉及的感觉系统，课程脊柱3延续）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 67,
+      "note": "系统时钟UTC+8=2026-06-03（真实执行日期）；知识库虚拟日期2026-07-01；延续自2026-06-30（第66篇，T型钙通道视丘爆发）；本篇完成了视丘-注意系列的皮层侧（DAN），与TRN门控形成完整的注意回路"
+    },
     {
       "date": "2026-06-03",
       "title": "视丘的三张面孔：感觉门控、认知放大器与意识开关",

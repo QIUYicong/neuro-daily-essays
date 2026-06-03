@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-30
-revision_count: 2
+updated: 2026-07-01
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control]
+related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
-opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism]
-source_articles: [2026-06-03-thalamus-gatekeeper-cognition]
-key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943"]
+opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism, Q-dan-01]
+source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS]
+key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752"]
 ---
 
 # 视丘 (Thalamus)
@@ -105,7 +105,10 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - 2026-06-03 · 创建 · 基于《视丘的三张面孔》文章 #66 · 整合 TC/TRN 解剖学、双模放电机制、MD-PFC 认知放大、Pulvinar 视觉门控和 CM-Pf 与意识的多层证据 · 初始置信度：高
 - 2026-06-30 · 修订（rev2） · 基于文章 #66《视丘的双面人格》· 更新"双模放电"小节：加入 Borden 2022 清醒因果实验结果（爆发→时序精度↑非幅度↑）和 Whitmire 2016 爆发-强直连续谱；更新 Q-thalamus-burst-awake 状态为"部分回答"；新增 key_sources 2 条
 
+- 2026-07-01 · 修订（rev3） · 基于文章 #67《空间注意的神经回路》· 新增 DAN（FEF/IPS）→TRN 通路作为皮层注意信号向下传递的接口；回答了 Q-thalamus-gating-mechanism 中关于 FEF→TRN 感觉门控的部分机制；related 新增 dorsal-attention-network；新增 Q-dan-01 交叉引用
+
 ## 来源文章
 
 - [[2026-06-03-thalamus-gatekeeper-cognition]]
 - [[2026-06-30-thalamic-burst-t-type-calcium-timing-gate]]
+- [[2026-07-01-dorsal-attention-network-FEF-IPS]]

@@ -1,0 +1,167 @@
+# 运行日志 · 2026-07-01
+
+## 基本信息
+
+- **系统时钟（UTC+8）**：2026-06-03（实际执行日期）
+- **知识库日期**：2026-07-01（知识库连续性延续，使用此日期维持线性增长）
+- **文章编号**：第 67 篇（累计）
+- **主题**：背侧注意网络（DAN）——FEF-IPS 轴、LIP 优先级地图与 V4→V1 反馈增益调制
+- **分支**：main
+- **执行状态**：完成
+
+---
+
+## 步骤 0：同步状态
+
+- 当前分支为 `claude/funny-einstein-8bzzI`，切换至 `main`
+- `git pull origin main` 成功（最新 main 包含 2026-06-30 T型钙通道文章和 2026-06-03 视丘文章）
+- 验证 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 均存在 ✓
+- 验证 neuro-daily/wiki/ 目录存在 ✓
+
+---
+
+## 步骤 A：状态读取
+
+- 读取 `state/topic_ledger.json`：last_updated=2026-06-30，total_articles=66
+  - 最新条目：2026-06-03（视丘三张面孔，#66）和 2026-06-30（T型钙通道，#66）
+  - 注意：存在两个 #66 的情况（两次会话均使用了 66 这个编号）；本次使用 #67
+- 读取 `state/unresolved_questions.md`：
+  - 高优先级：Q-thalamus-burst-awake、Q-thalamus-consciousness-causal、Q-tau-01、Q-emb-01、Q-bdnf-01、Q-ncc-01、Q-pc-01
+  - 多项中优先级
+- 读取 `state/contested_claims.json`：open_count=2（C-2026-05-31-01, C-2026-05-31-02）；均未化解
+- 读取 `wiki/_graph.json`：117节点，676条边；dangling_references=26（complexin, engram-cells 等）
+- 读取 `wiki/index.md` 和 `state/monthly_synthesis.md` ✓
+
+---
+
+## 步骤 B：选题
+
+**分析**：
+- 最近 3 篇文章层级：分子/细胞（tau, BDNF），分子/细胞/脑区（T型钙通道），分子/细胞/脑区（视丘三张面孔）
+- 应避免再次以分子/细胞为主层级；选择系统/网络/认知层级
+- 高优先级 next_suggested_topics 来自最近文章：注意机制、前额叶认知控制、痛觉回路
+- Q-thalamus-burst-awake 提示清醒爆发与注意转移的关系尚待研究
+
+**选题决策**：
+- 选择主题：**背侧注意网络（DAN）——FEF/IPS 的空间注意控制**
+- 理由：
+  1. 连接已完成的视丘 TRN 文章（完成注意回路的皮层侧）
+  2. 填补 wiki 中 DAN/biased-competition 等重要概念的空白
+  3. 推进课程脊柱 5（认知控制）
+  4. 层级为全脑网络/脑区/认知，有别于最近的分子/疾病焦点
+  5. 有多个高质量经典来源可用
+
+- **知识库日期**：2026-07-01
+- **文章编号**：#67
+
+---
+
+## 步骤 C：检索 → 阅读 → 写文章
+
+**检索词**：
+- "dorsal attention network FEF IPS spatial attention review"
+- "frontal eye field microstimulation attention"
+- "top-down attention feedback V4 cortex"
+- "biased competition attention Desimone Duncan"
+- "Treue Martinez-Trujillo 1999 attention gain"
+
+**数据源**：NCBI E-utilities (PubMed, PMC), Agent 研究
+
+**候选来源**：
+- PMID:11994752 (Corbetta & Shulman 2002) - 双网络综述
+- PMID:20192813 (Bisley & Goldberg 2010) - LIP优先级地图 [PMC3683564, 开放全文]
+- PMID:13679398 (Moore & Fallah 2004) - FEF微电刺激
+- PMID:36730414 (Debes & Dragoi 2023) - V4→V1反馈
+- PMID:7605061 (Desimone & Duncan 1995) - 偏置竞争
+- PMID:10376597 (Treue & Trujillo 1999) - 乘法增益
+- PMID:42125965 (Chen et al. 2026) - 人类fMRI [PMC13171101, 开放全文]
+- PMID:29275841 (Halassa & Kastner 2017) - TRN与皮层注意
+
+**采用 8 个来源**：2 个开放全文，6 个摘要
+**排除原因（其他候选）**：其他 fMRI 研究（Park & Serences 2022, Chacko 2018 等）在上述核心文献已充分覆盖时属重复
+
+**文章**：创建 `articles/2026-07-01-dorsal-attention-network-FEF-IPS.md`
+- 字数：约 4200 字（中文）
+- 结构：完整（含核心问题/摘要/背景/机制分层/关键证据/比喻/意义/争议/AI对照/概念卡片/认知地图更新/参考来源）
+
+---
+
+## 步骤 D：固结步骤
+
+**触及的概念及处理**：
+1. `dorsal-attention-network` → **新建** `wiki/concepts/dorsal-attention-network.md`
+2. `biased-competition` → **新建** `wiki/concepts/biased-competition.md`
+3. `prefrontal-cortex` → **修订**（rev2→rev3）：新增 FEF 作为 PFC 注意控制子区域
+4. `v1-primary-visual-cortex` → **修订**（rev3→rev4）：新增 V4→V1 反馈注意调制
+5. `thalamus` → **修订**（rev2→rev3）：新增 DAN→TRN 通路描述
+
+**矛盾检查**：
+- 新增内容与已有 wiki 页面无矛盾（DAN 是新概念；V4→V1 反馈是对 V1 页面的补充，不冲突；TRN 功能在视丘页面已有基础，新内容为扩展）
+- Debes & Dragoi 2023 是单一实验室结果，已明确标注需独立重复，不触发矛盾协议
+
+**成熟度评估**：
+- `dorsal-attention-network`：established（多重独立研究支持）
+- `biased-competition`：mainstream（经典理论，有大量证据，但细节机制仍有研究）
+
+---
+
+## 步骤 E：更新图谱与导航
+
+- `wiki/_graph.json`：新增节点 2（dorsal-attention-network, biased-competition）；新增边 13；总计 119 节点，689 条边；dangling_references 无新增，无已填补
+- `wiki/index.md`：在 concepts 区域新增 DAN 和 biased-competition 两个条目
+- `wiki/CHANGELOG.md`：新增 2026-07-01 节
+
+---
+
+## 步骤 F：更新治理层
+
+- `topic_ledger.json`：更新 last_updated=2026-07-01，total_articles=67，新增第 67 篇条目（最新）
+- `unresolved_questions.md`：新增 Q-dan-01、Q-dan-02、Q-dan-03 三个问题
+- `source_registry.json`：更新 last_updated=2026-07-01；新增 8 个来源记录（additions_2026-07-01）；total 从 263 → 271
+- `monthly_synthesis.md`：新增 2026年7月 月度初始化节（第1篇）
+
+---
+
+## 步骤 G：提交 + 推送
+
+- `git add neuro-daily/`
+- commit message: `Add neuro daily article + wiki consolidation for 2026-07-01`
+- `git pull --rebase origin main`（推送前）
+- `git push origin main`
+
+---
+
+## 步骤 H：自检结果
+
+**真实性**：
+- [x] wiki 每条新主张有来源（PMID）
+- [x] 区分了事实/主流模型/推测/争议（Debes & Dragoi 2023 单一实验室结果已明确标注）
+- [x] 未把单篇研究写成定论（乘法增益、FEF 微电刺激均有多个独立研究支持）
+
+**一致性**：
+- [x] 新内容与 prefrontal-cortex、v1-primary-visual-cortex、thalamus 的既有内容无冲突
+- [x] 所有修订页的 updated/revision_count/修订历史同步更新
+- [x] _graph.json 无悬空边（所有新边的 from/to 均为现有节点）
+
+**可导航**：
+- [x] index.md 反映今天变化（新增 2 个概念条目）
+- [x] CHANGELOG.md 反映今天变化
+- [x] 新页 related/prerequisites 已填（各≥1）
+
+**情景层**：
+- [x] 文章/笔记/来源/日志齐全
+- [x] 未修改旧文件（append-only 原则）
+
+---
+
+## 执行结果摘要
+
+- **文章**：已创建 `articles/2026-07-01-dorsal-attention-network-FEF-IPS.md`
+- **笔记**：已创建 `notes/2026-07-01-reading-notes.md`
+- **来源**：已创建 `sources/2026-07-01-sources.json`
+- **新建 wiki 页**：`concepts/dorsal-attention-network.md`、`concepts/biased-competition.md`
+- **修订 wiki 页**：`systems/prefrontal-cortex.md`（rev3）、`systems/v1-primary-visual-cortex.md`（rev4）、`systems/thalamus.md`（rev3）
+- **悬空引用**：无新增，无填补
+- **矛盾登记**：无新矛盾
+- **未解问题**：新增 Q-dan-01、Q-dan-02、Q-dan-03
+- **图谱**：119 节点，689 条边

@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-07-01（文章 #67·空间注意的神经回路·背侧注意网络 DAN）
+
+**源文章**：[[2026-07-01-dorsal-attention-network-FEF-IPS]] —《空间注意的神经回路：前额叶眼区与顶内沟如何驾驭大脑的聚光灯》
+
+**新建页面（2 页）**：
+- `concepts/dorsal-attention-network.md`：背侧注意网络（DAN）——FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图；FEF 微电刺激因果证据；V4→V1 反馈必要通道；乘法性增益调制；FEF→TRN 门控接口（established）
+- `concepts/biased-competition.md`：偏置竞争模型——Desimone & Duncan 1995；多刺激竞争感觉表征资源；DAN 提供偏置信号；乘法增益是偏置计算形式（mainstream）
+
+**修订页面（3 页）**：
+- `systems/prefrontal-cortex.md`（rev2→rev3）：新增 FEF（BA8）作为 PFC 注意控制子区域；related 新增 dorsal-attention-network 和 thalamus；key_sources 新增 PMID:13679398 和 PMID:11994752；opens_questions 新增 Q-dan-02
+- `systems/v1-primary-visual-cortex.md`（rev3→rev4）：新增 V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；related 新增 dorsal-attention-network 和 biased-competition；key_sources 新增 PMID:36730414
+- `systems/thalamus.md`（rev2→rev3）：新增 DAN（FEF/IPS）→TRN 通路作为皮层注意信号向下传递接口；related 新增 dorsal-attention-network；Q-dan-01 交叉引用；Q-thalamus-gating-mechanism 部分回答
+
+**新登记矛盾**：无新矛盾
+**新增悬空引用**：无
+**图谱更新**：新增节点 2（dorsal-attention-network, biased-competition）；新增边 13；总计 119 节点、689 条边
+
+---
+
 ## 2026-06-30（文章 #66·视丘的双面人格·T 型钙通道与感知时序门控）
 
 **源文章**：[[2026-06-30-thalamic-burst-t-type-calcium-timing-gate]] —《视丘的双面人格：T 型钙通道如何在爆发与强直之间切换，让清醒大脑实现精确感知》
