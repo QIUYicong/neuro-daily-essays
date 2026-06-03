@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-03",
-  "node_count": 130,
-  "edge_count": 730,
+  "updated": "2026-07-04",
+  "node_count": 132,
+  "edge_count": 744,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1183,6 +1183,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/complement-cascade-cns.md"
+    },
+    {
+      "id": "ei-balance",
+      "title": "兴奋-抑制平衡",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/ei-balance.md"
+    },
+    {
+      "id": "perineuronal-nets",
+      "title": "围神经元网",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/perineuronal-nets.md"
     }
   ],
   "edges": [
@@ -5200,6 +5218,76 @@
       "from": "synaptic-pruning",
       "to": "pv-interneurons",
       "type": "related"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "ei-balance",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "sst-interneurons",
+      "to": "ei-balance",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "vip-interneurons",
+      "to": "ei-balance",
+      "type": "regulates"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "ei-balance",
+      "type": "supports"
+    },
+    {
+      "from": "homeostatic-plasticity",
+      "to": "ei-balance",
+      "type": "regulates"
+    },
+    {
+      "from": "synaptic-scaling",
+      "to": "ei-balance",
+      "type": "regulates"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "ei-balance",
+      "type": "regulates"
+    },
+    {
+      "from": "ei-balance",
+      "to": "working-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ei-balance",
+      "to": "competition-selection-principle",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "ei-balance",
+      "type": "regulates"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "perineuronal-nets",
+      "type": "regulates"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "gamma-oscillations",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

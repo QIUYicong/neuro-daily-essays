@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-05
-revision_count: 2
-dimensions: [cellular, synaptic, microcircuit, cognition]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex]
+updated: 2026-07-04
+revision_count: 3
+dimensions: [cellular, synaptic, microcircuit, cognition, disease]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
-opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary]
-source_articles: [2026-06-03-inhibitory-interneuron-diversity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518"]
+opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01]
+source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468"]
 ---
 
 # PV+ 中间神经元（Parvalbumin-expressing Interneurons）
@@ -29,6 +29,8 @@ PV+ 细胞的核心特征是"快速放电"（fast-spiking）：动作电位极�
 PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1）将锥体细胞的放电限定在窄时间窗口（时序精度）；（2）通过 PV↔PV 和 PV→锥体细胞的 PING 回路产生和维持皮层 **γ 振荡（30–80 Hz）**。
 
 在精神分裂症中，前额叶 PV+ 细胞的 GAD67 下调导致 γ 振荡受损，与工作记忆缺陷直接相关，为 PV+ 细胞在认知控制中的必要性提供了临床证据。
+
+**2026-07-04 更新（E/I 平衡与关键期视角）**：PV+ 细胞还是皮层 E/I 平衡的核心执行者（见 [[ei-balance]]）。在发育关键期，PV+ 细胞是可塑性的**初始突触靶点**——单侧眼遮蔽后数小时内，丘脑皮层突触选择性减弱 PV+（而非兴奋性）细胞，触发 40 Hz 伽马振荡爆发（Quast & Hensch 2023，PMID:36598942）。关键期末随**围神经元网（PNNs）**沉积于 PV+ 细胞周围，回路状态被固化（见 [[perineuronal-nets]]）。PV+ 细胞特别易受神经炎症损伤（TNF-α 等细胞因子优先损伤 PV+，Allami et al. 2025，PMID:39842401），这是精神分裂症和 AD 病理的共同节点。
 
 ## 关键机制
 
@@ -72,6 +74,8 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - [[hippocampal-circuit]] — CA1 篮状细胞 + 吊灯细胞是海马主要 PV+ 类型
 - [[action-potential]] — PV+ 细胞对锥体细胞动作电位的产生实施时序控制
 - [[axon-initial-segment]] — 吊灯细胞（PV+ 亚类）靶向 AIS
+- [[ei-balance]] — PV+ 细胞是 E/I 平衡的主要实时执行者（毫秒反馈抑制）
+- [[perineuronal-nets]] — PNNs 特异性包裹 PV+ 细胞，关键期末固化回路状态
 
 ## 未解问题
 
@@ -82,8 +86,10 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 
 - 2026-06-03 · 创建 · 基于《回路中的少数精锐》一文 · 初始置信度：高
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 系统层面新增：PFC γ爆发WM应用、精神分裂症病理证据（PMID:26996084, PMC5220584; PMID:39381500, PMC11458443; PMID:41478518）；related 新增 working-memory, gamma-oscillations, prefrontal-cortex；dimensions 新增 cognition
+- 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：E/I 平衡执行者角色、关键期初始靶点（Quast & Hensch 2023）、PNN 固化机制、神经炎症脆弱性（Allami 2025）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:31089192, 36598942, 37143468；dimensions 新增 disease
 
 ## 来源文章
 
 - [[2026-06-03-inhibitory-interneuron-diversity]]
 - [[2026-06-05-prefrontal-working-memory]]
+- [[2026-07-04-ei-balance-pv-interneuron]]

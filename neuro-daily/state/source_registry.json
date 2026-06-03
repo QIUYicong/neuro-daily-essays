@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-04",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5326,9 +5326,75 @@
         "sex differences"
       ],
       "full_text": true
+    },
+    {
+      "pmid": "31089192",
+      "pmcid": "PMC6742424",
+      "title": "Excitation-inhibition balance as a framework for investigating mechanisms in neuropsychiatric disorders",
+      "authors": "Sohal VS, Rubenstein JLR",
+      "journal": "Molecular Psychiatry",
+      "year": 2019,
+      "first_used": "2026-07-04",
+      "coverage": [
+        "E/I balance definition",
+        "ASD gene models",
+        "PV interneuron role",
+        "SNR framework"
+      ]
+    },
+    {
+      "pmid": "37143468",
+      "pmcid": "PMC10151766",
+      "title": "Regulation of the E/I-balance by the neural matrisome",
+      "authors": "Mueller-Buehl C et al.",
+      "journal": "Frontiers in Molecular Neuroscience",
+      "year": 2023,
+      "first_used": "2026-07-04",
+      "coverage": [
+        "PNN structure",
+        "OTX2 signaling",
+        "AMPA receptor stabilization",
+        "critical period closure"
+      ]
+    },
+    {
+      "pmid": "36598942",
+      "title": "Rapid synaptic and gamma rhythm signature of mouse critical period plasticity",
+      "authors": "Quast KB, Hensch TK",
+      "journal": "PNAS",
+      "year": 2023,
+      "first_used": "2026-07-04",
+      "coverage": [
+        "gamma oscillations as critical period readout",
+        "PV cells as initial plasticity target"
+      ]
+    },
+    {
+      "pmid": "36008036",
+      "title": "Integrating the Neurodevelopmental and Dopamine Hypotheses of Schizophrenia",
+      "authors": "Howes OD, Shatalina E",
+      "journal": "Biological Psychiatry",
+      "year": 2022,
+      "first_used": "2026-07-04",
+      "coverage": [
+        "schizophrenia E/I disruption",
+        "synaptic pruning-dopamine link"
+      ]
+    },
+    {
+      "pmid": "34887320",
+      "title": "Effects of Altered Excitation-Inhibition Balance on Decision Making in a Cortical Circuit Model",
+      "authors": "Lam NH, Wang XJ, Murray JD",
+      "journal": "Journal of Neuroscience",
+      "year": 2022,
+      "first_used": "2026-07-04",
+      "coverage": [
+        "E/I ratio and decision-making",
+        "inverted-U relationship"
+      ]
     }
   ],
-  "total_sources": 288,
+  "total_sources": 279,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

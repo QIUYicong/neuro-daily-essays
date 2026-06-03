@@ -1,0 +1,77 @@
+# 运行日志：2026-07-04
+
+## 基本信息
+- 运行时间：2026-07-04（UTC+8）
+- 文章编号：第 54 篇（topic_ledger 中的序号）
+- 文章主题：兴奋-抑制平衡（E/I Balance）
+- 状态：✅ 完成
+
+## 选题依据
+- 选题来源：上篇文章（2026-07-03 突触稳态）的 `next_suggested_topics` 第一条
+- 选题理由：E/I 平衡是知识图谱中连接度高但缺少独立 wiki 节点的重要概念；直接连接 PV+ 中间神经元（已有页面）、伽马振荡（已有页面）、稳态可塑性（已有页面）、突触剪枝（已有页面）；且属于课程脊柱 2（神经网络建成）与课程脊柱 11（疾病作为窗口）的交叉节点
+- 层级：cellular / synaptic / microcircuit / cognition / disease（与前一篇 07-03 的层级有重叠但侧重微回路层级，符合多样性要求）
+
+## 检索过程
+### 检索词
+1. `excitation inhibition balance cortex review 2020-2026` → 10 PMIDs
+2. `E/I balance interneuron autism schizophrenia 2020-2026` → 5 PMIDs
+3. `cortical inhibitory interneuron excitation inhibition balance mechanism 2021-2026` → 8 PMIDs
+4. `parvalbumin interneuron cortex gamma oscillation critical period` → 1 PMID (36598942)
+5. `Sohal Rubenstein excitation inhibition balance 2019` → 1 PMID (31089192)
+6. `Hensch critical period parvalbumin GABA maturation` → 3 PMIDs
+
+### 来源候选与筛选
+- 候选数量：约 28 个 PMID
+- 采用数量：9 个（筛选标准：高质量期刊、涵盖核心机制、时间跨度 2005-2025）
+- 排除原因：与主题偏离（例如老年听力退化的 E/I 仅作为补充；empathy EEG 文章与主线不符）
+
+### 开放全文获取
+- PMC6742424（Sohal & Rubenstein 2019）：全文读取 ✅
+- PMC10151766（Mueller-Buehl & Faissner 2023）：全文读取 ✅
+- 其余 7 篇：摘要读取（标注"未读取全文"）
+
+## 文章写作
+- 字数：约 5500 字
+- 文件路径：`neuro-daily/articles/2026-07-04-ei-balance-pv-interneuron.md`
+- 阅读笔记：`neuro-daily/notes/2026-07-04-reading-notes.md`
+- 来源文件：`neuro-daily/sources/2026-07-04-sources.json`
+
+## Wiki 固结
+### 新建页面（2）
+- `wiki/concepts/ei-balance.md`（mainstream, confidence:medium）
+- `wiki/concepts/perineuronal-nets.md`（established, confidence:high）
+
+### 修订页面（3）
+- `wiki/circuits/pv-interneurons.md`（rev2→rev3）：E/I 执行者角色、关键期靶点、PNN 连接
+- `wiki/concepts/gamma-oscillations.md`（rev2→rev3）：E/I 读出维度、关键期 γ 爆发
+- `wiki/concepts/homeostatic-plasticity.md`（rev1→rev2）：E/I 慢速补偿机制关系
+
+### 图谱更新
+- 新增节点：2（ei-balance, perineuronal-nets）
+- 新增边：14
+- 总计：132 节点、744 条边
+
+## 新增矛盾登记
+- 无新矛盾登记
+
+## 新增未解问题
+- Q-ei-balance-01（高优先级）：如何精准非侵入性测量人类 E/I 状态
+- Q-ei-balance-02（高优先级）：ASD E/I 失衡方向异质性
+- Q-ei-balance-03（中优先级）：VIP+ 去抑制时序和幅度
+- Q-pnn-human-therapy（高优先级）：PNN 降解的人类安全性
+
+## 自检结果
+- 真实性：每条 wiki 新主张有来源？✅
+- 区分了事实/模型/推测/争议？✅（计算模型结果标注为"中"置信度；ChABC 动物→人类转化标注为"有限"）
+- 没有把动物研究当定论？✅
+- 冲突走了矛盾协议？✅（E/I 失衡方向争议已在 wiki 和文章中标注为未解问题，暂无足够证据登记正式矛盾）
+- 被修订页的 updated/revision_count/修订历史同步了？✅
+- `_graph.json` 无悬空边？✅（检查通过）
+- index 与 CHANGELOG 反映了今天变化？✅
+- 新页的 related/prerequisites 各≥1？✅
+- 文章/笔记/来源/日志齐全？✅
+
+## Git 操作
+- Branch：main
+- Commit：[待填入]
+- Push 状态：[待填入]

@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-07-04（文章 #54·信号与噪声之间·皮层 E/I 平衡与 PV 中间神经元守门机制）
+
+**源文章**：[[2026-07-04-ei-balance-pv-interneuron]] —《信号与噪声之间：皮层 E/I 平衡的回路逻辑、PV 中间神经元的守门机制与大脑"刹车"的分子基础》
+
+**新建页面（2 页）**：
+- `concepts/ei-balance.md`：兴奋-抑制平衡——皮层回路信噪比控制机制；PV+/SST+/VIP+ 三类中间神经元分工维持；多维度（非单一数字）；ASD/精神分裂症/癫痫的共同汇流点；关键证据：Sohal & Rubenstein 2019（mainstream, confidence:medium）
+- `concepts/perineuronal-nets.md`：围神经元网——包裹 PV+ 细胞的细胞外基质网络；aggrecan+透明质酸+连接蛋白；OTX2 正反馈驱动 PV 成熟；固化 AMPA 受体；ChABC 可逆转关键期（动物）（established, confidence:high）
+
+**修订页面（3 页）**：
+- `circuits/pv-interneurons.md`（rev2→rev3）：新增 E/I 平衡执行者角色、关键期初始靶点（Quast & Hensch 2023）、PNN 固化机制、神经炎症脆弱性（Allami 2025）；related 新增 ei-balance/perineuronal-nets；key_sources 新增 3 个
+- `concepts/gamma-oscillations.md`（rev2→rev3）：新增伽马振荡作为 E/I 平衡动态读出的维度；关键期 γ 瞬态爆发（Quast & Hensch 2023）；related 新增 ei-balance/perineuronal-nets；来源文章新增
+- `concepts/homeostatic-plasticity.md`（rev1→rev2）：新增与 E/I 平衡的互补关系（慢速 vs 快速机制）；related 新增 ei-balance
+
+**新登记矛盾**：无（E/I 失衡方向在 ASD 中存在争议，已在文章和 wiki 中标注为待解问题，暂不登记矛盾）
+
+**新增未解问题（3 个）**：
+- Q-ei-balance-01（高优先级）：如何精准非侵入性测量人类特定皮层 E/I 状态？
+- Q-ei-balance-02（高优先级）：ASD 中 E/I 失衡方向的异质性——不同基因突变的回路变化方向一致吗？
+- Q-ei-balance-03（中优先级）：VIP+ 去抑制回路调制 E/I 平衡的精确时序和幅度
+
+**新增悬空引用（待补）**：
+- `critical-period`：关键期（从 perineuronal-nets、ei-balance 页面引用，尚未独立成页）
+- `intrinsic-excitability`：内在兴奋性稳态（homeostatic-plasticity 页面的第二大类型，尚未独立页面）
+
+**图谱更新**：新增节点 2（ei-balance, perineuronal-nets）；新增边 14；总计 **132 节点、744 条边**
+
+---
+
 ## 2026-06-03（文章 #70·大脑的"质检员"·小胶质细胞与补体介导的突触剪枝）
 
 **源文章**：[[2026-06-03-microglia-synaptic-pruning]] —《大脑的"质检员"：小胶质细胞如何用补体分子标签精雕突触回路》

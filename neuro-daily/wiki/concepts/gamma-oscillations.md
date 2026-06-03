@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-25
-revision_count: 2
+updated: 2026-07-04
+revision_count: 3
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
 opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding]
-key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron]
+key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192"]
 ---
 
 # γ 振荡 (Gamma Oscillations, 30–80 Hz)
@@ -96,7 +96,17 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文 · 初始置信度：高
 - 2026-06-25 · 修订 · 基于《当大脑把碎片缝合在一起》一文 · 新增：绑定假说维度、CTC 框架、Gray & Singer 1989 证据、Costa 2024 反例、ING-PING 转换；新增 related 节点 3 个；新增 key_sources 5 个
 
+## 连接补充（2026-07-04）
+
+- [[ei-balance]] — 伽马振荡是 E/I 平衡状态的动态读出：广谱自发 γ 功率升高反映 E/I 失调（PV+ 受损时）；任务诱发 γ 振荡反映健康的 PV 驱动反馈抑制
+- [[perineuronal-nets]] — PNNs 沉积后 PV+ 细胞不再能被丘脑 AMPA 受体充分激活，ING 型 γ 振荡消失，标志关键期关闭（Quast & Hensch 2023）
+
+## 修订历史补充
+
+- 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192
+
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-06-25-gamma-oscillations-neural-binding]]
+- [[2026-07-04-ei-balance-pv-interneuron]]

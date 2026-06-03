@@ -1,0 +1,167 @@
+{
+  "date": "2026-07-04",
+  "article_slug": "ei-balance-pv-interneuron",
+  "search_queries": [
+    "excitation inhibition balance cortex review 2020-2026",
+    "E/I balance interneuron autism schizophrenia 2020-2026",
+    "cortical inhibitory interneuron excitation inhibition balance mechanism 2021-2026",
+    "parvalbumin interneuron cortex gamma oscillation critical period",
+    "Sohal Rubenstein excitation inhibition balance 2019",
+    "Hensch critical period parvalbumin GABA maturation"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "review",
+      "pmid": "31089192",
+      "pmcid": "PMC6742424",
+      "doi": "10.1038/s41380-019-0426-0",
+      "title": "Excitation-inhibition balance as a framework for investigating mechanisms in neuropsychiatric disorders",
+      "authors": ["Sohal VS", "Rubenstein JLR"],
+      "journal": "Molecular Psychiatry",
+      "year": 2019,
+      "open_access": true,
+      "full_text_read": true,
+      "used_for": ["E/I balance definition", "ASD gene models", "PV interneuron role", "SNR framework", "therapeutic implications"],
+      "key_claims": [
+        "E/I balance is multidimensional (different interneuron subtypes → different targets)",
+        "Multiple ASD genes converge on reduced GABAergic inhibition",
+        "Non-specific inhibition enhancement can worsen outcomes in some models"
+      ]
+    },
+    {
+      "id": "S2",
+      "type": "review",
+      "pmid": "37143468",
+      "pmcid": "PMC10151766",
+      "doi": "10.3389/fnmol.2023.1102334",
+      "title": "Regulation of the E/I-balance by the neural matrisome",
+      "authors": ["Mueller-Buehl C", "Wegrzyn D", "Bauch J", "Faissner A"],
+      "journal": "Frontiers in Molecular Neuroscience",
+      "year": 2023,
+      "open_access": true,
+      "full_text_read": true,
+      "used_for": ["PNN structure", "OTX2 signaling", "AMPA receptor stabilization", "critical period closure", "schizophrenia PNN changes"],
+      "key_claims": [
+        "PNNs stabilize synapses by limiting AMPA receptor lateral diffusion",
+        "OTX2 captured by PNNs drives PV maturation via Kv3.1 activation",
+        "ChABC-mediated PNN dissolution reopens adult critical period plasticity"
+      ]
+    },
+    {
+      "id": "S3",
+      "type": "experimental",
+      "pmid": "36598942",
+      "doi": "10.1073/pnas.2209683120",
+      "title": "Rapid synaptic and gamma rhythm signature of mouse critical period plasticity",
+      "authors": ["Quast KB", "Hensch TK"],
+      "journal": "PNAS",
+      "year": 2023,
+      "open_access": false,
+      "full_text_read": false,
+      "note": "摘要读取；PNAS 访问受限",
+      "used_for": ["gamma oscillations as critical period readout", "PV cells as initial plasticity target", "computational model of ING oscillations"],
+      "key_claims": [
+        "Monocular deprivation triggers transient 40 Hz gamma oscillations within hours",
+        "PV cells are the initial synaptic target (thalamocortical inputs weaken onto PV selectively)",
+        "Gamma oscillations temporarily decouple thalamic input from cortical output"
+      ]
+    },
+    {
+      "id": "S4",
+      "type": "review",
+      "pmid": "36008036",
+      "doi": "10.1016/j.biopsych.2022.06.016",
+      "title": "Integrating the Neurodevelopmental and Dopamine Hypotheses of Schizophrenia and the Role of Cortical Excitation-Inhibition Balance",
+      "authors": ["Howes OD", "Shatalina E"],
+      "journal": "Biological Psychiatry",
+      "year": 2022,
+      "open_access": false,
+      "full_text_read": false,
+      "note": "摘要读取（未读取全文）",
+      "used_for": ["schizophrenia E/I disruption", "synaptic pruning → dopamine disinhibition"],
+      "key_claims": [
+        "Synaptic overpruning disrupts frontal cortical E/I balance",
+        "E/I disruption disinhibits mesostriatal dopamine pathways"
+      ]
+    },
+    {
+      "id": "S5",
+      "type": "computational",
+      "pmid": "34887320",
+      "doi": "10.1523/JNEUROSCI.1371-21.2021",
+      "title": "Effects of Altered Excitation-Inhibition Balance on Decision Making in a Cortical Circuit Model",
+      "authors": ["Lam NH", "Wang XJ", "Murray JD"],
+      "journal": "Journal of Neuroscience",
+      "year": 2022,
+      "open_access": false,
+      "full_text_read": false,
+      "note": "摘要读取（未读取全文）",
+      "used_for": ["E/I ratio and decision-making", "inverted-U relationship between E/I and cognition"],
+      "key_claims": [
+        "Elevated E/I → impulsive decisions (overweighting early evidence)",
+        "Reduced E/I → indecisive behavior (weakened evidence integration)"
+      ]
+    },
+    {
+      "id": "S6",
+      "type": "review_classic",
+      "pmid": "16243601",
+      "title": "Critical period mechanisms in developing visual cortex",
+      "authors": ["Hensch TK"],
+      "journal": "Current Topics in Developmental Biology",
+      "year": 2005,
+      "open_access": false,
+      "full_text_read": false,
+      "note": "摘要（经典文献，版权保护）",
+      "used_for": ["critical period mechanisms", "PV maturation and critical period onset", "PNN and critical period closure"]
+    },
+    {
+      "id": "S7",
+      "type": "review",
+      "pmid": "24309249",
+      "title": "Balancing plasticity/stability across brain development",
+      "authors": ["Takesian AE", "Hensch TK"],
+      "journal": "Progress in Brain Research",
+      "year": 2013,
+      "open_access": false,
+      "full_text_read": false,
+      "note": "摘要（未读取全文）",
+      "used_for": ["plasticity brakes model", "active vs passive plasticity loss"]
+    },
+    {
+      "id": "S8",
+      "type": "review",
+      "pmid": "39842401",
+      "title": "The role of neuroinflammation in PV interneuron impairments in brain networks",
+      "authors": ["Allami P et al."],
+      "journal": "Reviews in the Neurosciences",
+      "year": 2025,
+      "open_access": false,
+      "full_text_read": false,
+      "note": "摘要（未读取全文）",
+      "used_for": ["neuroinflammation → PV impairment", "TNF-α pathways"]
+    },
+    {
+      "id": "S9",
+      "type": "experimental",
+      "pmid": "39502006",
+      "doi": "10.1002/hbm.70053",
+      "title": "Alterations of Excitation-Inhibition Balance and Brain Network Dynamics Support Sensory Deprivation Theory in Presbycusis",
+      "authors": ["Su M", "Gao F"],
+      "journal": "Human Brain Mapping",
+      "year": 2024,
+      "open_access": false,
+      "full_text_read": false,
+      "note": "摘要（未读取全文）",
+      "used_for": ["MRS measurement of E/I balance", "GABA changes and cognition in humans"]
+    }
+  ],
+  "coverage_summary": {
+    "open_full_text": 2,
+    "abstract_only": 7,
+    "total": 9,
+    "meets_routine_requirements": true,
+    "institutional_sources": ["NIH PMC (PMC6742424, PMC10151766)"]
+  }
+}

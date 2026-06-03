@@ -3934,6 +3934,58 @@
       "mode": "long_term_curriculum",
       "article_number": 70,
       "note": "系统时钟 UTC+8=2026-06-03（真实日期）；今日为第三篇 2026-06-03 文章（#11 抑制性中间神经元，#66 视丘，#70 微胶质细胞），原因：前序会话在系统日期错误情况下写入了未来日期（2026-07-xx）的文章；知识库连续性延续自#69（2026-07-03·突触稳态）"
+    },
+    {
+      "date": "2026-07-04",
+      "title": "信号与噪声之间：皮层 E/I 平衡的回路逻辑、PV 中间神经元的守门机制与大脑刹车的分子基础",
+      "core_question": "大脑皮层如何精确维持兴奋-抑制平衡？为什么这种平衡不是被动的化学等式，而是由特定神经元类型主动守护、由细胞外基质固化的动态稳态？",
+      "layer": [
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "topic_tags": [
+        "E/I balance",
+        "PV interneurons",
+        "perineuronal nets",
+        "critical period",
+        "ASD",
+        "schizophrenia",
+        "signal-to-noise ratio",
+        "gamma oscillations"
+      ],
+      "main_sources": [
+        "PMID:31089192",
+        "PMID:37143468",
+        "PMID:36598942",
+        "PMID:36008036",
+        "PMID:34887320"
+      ],
+      "unresolved_questions": [
+        "Q-ei-balance-01",
+        "Q-ei-balance-02",
+        "Q-ei-balance-03"
+      ],
+      "next_suggested_topics": [
+        "关键期（critical period）：从 PV 成熟到 PNN 固化，发育关键期的完整机制；与今日 E/I 平衡文章自然衔接",
+        "印迹竞争与记忆分配（engram competition/allocation）：CaMKII/CREB 竞争、印迹细胞选择、记忆特异性；与稳态可塑性和 E/I 平衡三篇汇流",
+        "E/I 平衡与癫痫（epilepsy）：极端 E/I 失衡的病理极端；离子通道突变（SCN1A/KCNQ）发作机制；与 ASD 对比",
+        "自闭症谱系障碍的神经回路（ASD circuit）：整合 E/I 文章、PV 损伤、突触剪枝、感觉处理；疾病层面综合视角",
+        "睡眠期 E/I 平衡的动态变化：NREM 慢振荡时 E/I 如何振荡；SHY 假说与主动记忆巩固的张力"
+      ],
+      "article_slug": "ei-balance-pv-interneuron",
+      "wiki_created": [
+        "ei-balance",
+        "perineuronal-nets"
+      ],
+      "wiki_revised": [
+        "pv-interneurons",
+        "gamma-oscillations",
+        "homeostatic-plasticity"
+      ]
     }
   ],
   "layer_coverage_recent": {

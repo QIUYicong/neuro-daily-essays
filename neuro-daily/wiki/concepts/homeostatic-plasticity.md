@@ -6,10 +6,10 @@ type: concept
 status: established
 confidence: high
 created: 2026-07-03
-updated: 2026-07-03
-revision_count: 1
+updated: 2026-07-04
+revision_count: 2
 dimensions: [synaptic, cellular, molecular, behavior, cognition, disease]
-related: [synaptic-scaling, ltp, ltd, hebbian-learning, ampa-receptor, intrinsic-excitability, sharp-wave-ripples, adult-neurogenesis, tripartite-synapse]
+related: [synaptic-scaling, ltp, ltd, hebbian-learning, ampa-receptor, intrinsic-excitability, sharp-wave-ripples, adult-neurogenesis, tripartite-synapse, ei-balance]
 prerequisites: [ltp, ltd, synaptic-transmission, action-potential]
 opens_questions: [Q-scale-01, Q-scale-02, Q-sca-sleep-shy]
 source_articles: [2026-07-03-synaptic-scaling-homeostatic-plasticity]
@@ -62,6 +62,7 @@ key_sources: ["PMID:14735113", "PMID:22086977", "PMID:9495341"]
 - [[synaptic-scaling]] — 稳态可塑性的核心突触形式，详细机制在此页
 - [[ltp]] — 稳态可塑性的互补机制，两者共同维护突触功能稳定
 - [[hebbian-learning]] — 稳态可塑性解决了 Hebbian 规则的正反馈不稳定性
+- [[ei-balance]] — 稳态可塑性是 E/I 平衡的慢速（小时-天）补偿机制；与 PV+ 中间神经元的毫秒级快速反馈抑制互补，共同维护回路工作区间
 
 ## 未解问题
 
@@ -70,6 +71,7 @@ key_sources: ["PMID:14735113", "PMID:22086977", "PMID:9495341"]
 ## 修订历史
 
 - 2026-07-03 · 创建 · 基于《突触稳态：当赫布规则失控时，大脑如何给自己"归零"》 · 初始置信度：高
+- 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：与 E/I 平衡的互补关系（慢速 vs 快速机制）；related 新增 ei-balance
 
 ## 来源文章
 
