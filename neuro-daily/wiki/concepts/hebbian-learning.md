@@ -6,10 +6,10 @@ type: theory
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-07
-revision_count: 3
+updated: 2026-07-03
+revision_count: 4
 dimensions: [synaptic, cognition, behavior, whole-brain-network]
-related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy]
+related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy, synaptic-scaling, homeostatic-plasticity]
 prerequisites: [synaptic-transmission, action-potential, nmda-receptor]
 opens_questions: [Q-hebbian-global-error, Q-hebbian-stability]
 source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error]
@@ -86,14 +86,17 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 - [[dopamine-reward-prediction-error]] — DA RPE 是奖励学习中三因素规则的调制因子 M
 - [[synaptic-tagging-capture]] — 突触标记假说解决三因素规则的时间延迟问题
 - [[stdp]] — STDP 是 Hebb 规则的时间分辨精化版本（待建页面）
+- [[synaptic-scaling]] — 突触缩放是 Hebbian 正反馈不稳定性的解决方案：乘法性负反馈，GluA2 通路，时间尺度与 LTP 隔离
+- [[homeostatic-plasticity]] — 稳态可塑性总称，解决了 Hebb 规则的稳定性悖论
 
 ## 未解问题
 
 - Q-hebbian-global-error：纯 Hebb 规则没有全局误差信号；大脑如何通过多巴胺等调制器将 Hebbian 可塑性与全局目标对齐？三因素规则是否足以解释有监督学习？
-- Q-hebbian-stability：纯 Hebb 规则是正反馈的（强的突触变得更强），缺乏稳定机制——大脑如何通过稳态可塑性（homeostatic plasticity）防止突触无限增强或减弱到零？
+- Q-hebbian-stability：纯 Hebb 规则是正反馈的（强的突触变得更强），缺乏稳定机制——突触稳态缩放通过乘法性重新标定（GluA2 通路）解决了这个问题（见 [[synaptic-scaling]]）；但缩放是否真的是"纯乘法"本身仍有争议（见 Q-scale-01）
 
 ## 修订历史
 
+- 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；Q-hebbian-stability 从"待解问题"更新为"部分有答案"（突触缩放是已知的负反馈机制）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《第一周综合：时间的阶梯》一文 · 新增"多尺度 Hebb 规则"一节（BTSP/θ 序列/SWR 均为 Hebb 原理在不同时间尺度的实例化）；related 新增 btsp/theta-oscillations/sharp-wave-ripples/temporal-coding-hierarchy；dimensions 扩展为 behavior/whole-brain-network
 - 2026-06-07 · 修订 · 基于《多巴胺的时间机器》一文 · 三因素学习规则节从简要提及升级为完整分子描述（DA-RPE 作为 M 因素；D1→cAMP→PKA 通路；纹状体直接实验验证；STC 解决时间延迟）；related 新增 dopamine-reward-prediction-error、synaptic-tagging-capture；[[three-factor-learning-rule]] 从悬空引用升级为已建立页面链接；key_sources 新增三篇 DA-RPE 来源

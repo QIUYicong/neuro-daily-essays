@@ -1,7 +1,103 @@
 {
-  "last_updated": "2026-07-02",
-  "total_articles": 68,
+  "last_updated": "2026-07-03",
+  "total_articles": 69,
   "entries": [
+    {
+      "date": "2026-07-03",
+      "title": "突触稳态：当赫布规则失控时，大脑如何给自己“归零”",
+      "filename": "2026-07-03-synaptic-scaling-homeostatic-plasticity.md",
+      "wiki_pages_created": [
+        "wiki/concepts/synaptic-scaling.md",
+        "wiki/concepts/homeostatic-plasticity.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/hebbian-learning.md",
+        "wiki/concepts/ampa-receptor.md",
+        "wiki/systems/astrocyte.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "突触稳态缩放（synaptic scaling）如何通过全局乘法性 AMPA 受体重标定，解决 Hebbian 可塑性的内在失稳问题？其分子传感器（Ca²⁺/CaMKIV、视黄酸）、执行路径（GluA2 vs GluA1）和许可因子（星形胶质细胞 TNFα）的分工是什么——以及它如何与睡眠（SHY 假说）、记忆特异性精雕（Wu 2021）和突触前稳态（Chipman 2025）协同维持神经网络的长期稳定性？",
+      "layer": [
+        "synaptic",
+        "molecular",
+        "cellular",
+        "cognition"
+      ],
+      "curriculum_track": "突触可塑性深度系列（LTP 05-26→LTD 06-04→BDNF 06-28→三方突触 07-02→稳态缩放 07-03）；完成 Hebbian 可塑性三角：赫布规则 + LTP/LTD + 稳态补偿；补充课程脊柱 1（神经元如何工作）与脊柱 7（记忆巳固）的交叉点（睡眠稳态 + 记忆特异性）",
+      "topic_tags": [
+        "synaptic scaling",
+        "homeostatic plasticity",
+        "Turrigiano",
+        "synaptic homeostasis",
+        "AMPA receptor",
+        "GluA1",
+        "GluA2",
+        "multiplicative scaling",
+        "Hebbian instability",
+        "stability-plasticity dilemma",
+        "CaMKIV",
+        "calcium sensor",
+        "activity sensor",
+        "retinoic acid",
+        "RARalpha",
+        "dendritic local translation",
+        "TNFalpha",
+        "astrocyte permissive factor",
+        "Stellwagen Malenka 2006",
+        "presynaptic homeostatic plasticity",
+        "PHP",
+        "Sema3a",
+        "PlexinA4",
+        "active zone expansion",
+        "Chipman 2025",
+        "synaptic homeostasis hypothesis",
+        "SHY",
+        "Tononi Cirelli",
+        "slow-wave sleep",
+        "NREM synaptic downscaling",
+        "Wu 2021",
+        "conditioned taste aversion",
+        "memory specificity sculpting",
+        "Gainey 2009",
+        "GluA2 pathway scaling independence",
+        "epilepsy",
+        "ketamine",
+        "depression",
+        "schizophrenia",
+        "E/I balance",
+        "network stability"
+      ],
+      "main_sources": [
+        "PMID:9495341 (abstract only, Nature 1998, Turrigiano 1998 discovery)",
+        "PMID:22086977 (PMCID:PMC3249629, open full text read, Turrigiano 2012 review)",
+        "PMID:16547515 (abstract only, Nature 2006, Stellwagen & Malenka TNFalpha)",
+        "PMID:19458219 (PMCID:PMC2714274, open access, Gainey 2009 GluA2 pathway)",
+        "PMID:33798429 (PMCID:PMC8187282, open full text read, Wu 2021 memory specificity)",
+        "PMID:19539107 (abstract only, Nat Rev Neurosci 2009, Turrigiano review)",
+        "PMID:40592327 (abstract only, Science 2025, Chipman 2025 PHP/Sema3a)",
+        "PMID:21525940 (abstract only, J Neurosci 2011, Aoto 2011 retinoic acid)",
+        "PMID:22085984 (abstract only, Neuron 2011, Bhatt 2011 CaMKIV)",
+        "PMID:28973557 (abstract only, Nat Rev Neurosci 2017, Turrigiano 2017 review)"
+      ],
+      "unresolved_questions": [
+        "Q-scale-01",
+        "Q-scale-02",
+        "Q-scale-03",
+        "Q-scale-04"
+      ],
+      "next_suggested_topics": [
+        "关键期与突触剪枝（critical period + synaptic pruning）：发育期 E/I 平衡如何建立，稳态可塑性如何参与突触精练和关键期闭合；承接稳态可塑性→发育神经科学课程脊柱 2",
+        "兴奋/抑制平衡（E/I balance）：继承多篇文章（PV+ 06-03、星形胶质细胞 07-02、稳态 07-03），专文讨论 E/I 比例失衡机制与 ASD/精神分裂症的关系",
+        "小胶质细胞与突触剪枝（microglia + complement-mediated pruning）：知识库胶质细胞框架第二步；C1q/CR3 补体标记→吱噬机制；AD 中小胶质细胞过度剪枝",
+        "睡眠分期与记忆巳固（sleep stages + memory consolidation）：NREM SWR 重播 + REM 情感记忆处理 + SHY 假说完整梳理；填补 Q-shy-vs-active-consolidation",
+        "突触印迹与记忆竞争（engram competition + allocation）：CaMKII/CREB 竞争→印迹细胞选择→记忆干扰与特异性；承接 Wu 2021 记忆特异性雕刻结果"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 69,
+      "note": "系统时钟UTC+8=2026-06-03（真实执行日期）；知识库虚拟日期2026-07-03；继承自2026-07-02（第68篇，星形胶质细胞与三方突触）；本篇完成突触可塑性系列的稳态补偿环节，将 Hebbian 规则的内在失稳问题闭合；层次：synaptic/molecular/cellular/cognition（延续 07-02 的分子细胞层）；关键概念：GluA2 vs GluA1 双路径（Gainey 2009）、TNFα 许可因子（Stellwagen & Malenka 2006）、记忆特异性精雕（Wu 2021）、PHP/Sema3a（Chipman 2025）"
+    },
     {
       "date": "2026-07-02",
       "title": "大脑的第三方：星形胶质细胞如何改写突触的游戏规则",
@@ -18,7 +114,9 @@
         "wiki/concepts/ltp.md",
         "wiki/concepts/ltd.md"
       ],
-      "contested_claims_logged": ["C-2026-07-02-01"],
+      "contested_claims_logged": [
+        "C-2026-07-02-01"
+      ],
       "contested_claims_evidence_updated": [],
       "core_question": "星形胶质细胞如何通过钙信号、谷氨酸转运体和胶质递质（D-丝氨酸、ATP、谷氨酸），在突触传递中扮演主动的第三方调控角色——使两元素突触升维为三方突触，并由此影响 NMDA 受体激活、LTP 和 LTD？",
       "layer": [
@@ -28,15 +126,36 @@
       ],
       "curriculum_track": "1. 神经元如何工作（突触传递的第三维度）；引入知识库的首个胶质细胞条目；修复 LTP/LTD wiki 页面的重要盲区（D-丝氨酸/星形胶质细胞条件未有独立节点）；系列：突触可塑性深度系列（LTP 05-26→LTD 06-04→BDNF 06-28→三方突触 07-02）",
       "topic_tags": [
-        "astrocyte", "glial cell", "tripartite synapse", "gliotransmitter",
-        "D-serine", "serine racemase", "NMDA receptor co-agonist",
-        "astrocyte calcium signaling", "calcium wave", "IP3R", "mGluR",
-        "glutamate-glutamine cycle", "EAAT2", "GLT-1", "glutamate transporter",
-        "Araque 1999", "Henneberger 2010", "Durkee 2021", "Cornell-Bell 1990",
-        "LTP astrocyte", "LTD astrocyte", "gliotransmission controversy",
-        "perisynaptic astrocytic processes", "PAPs", "gap junctions", "connexin43",
-        "ATP adenosine A1 receptor", "endocannabinoid CB1R astrocyte",
-        "Volterra Meldolesi 2005", "Parpura 1994"
+        "astrocyte",
+        "glial cell",
+        "tripartite synapse",
+        "gliotransmitter",
+        "D-serine",
+        "serine racemase",
+        "NMDA receptor co-agonist",
+        "astrocyte calcium signaling",
+        "calcium wave",
+        "IP3R",
+        "mGluR",
+        "glutamate-glutamine cycle",
+        "EAAT2",
+        "GLT-1",
+        "glutamate transporter",
+        "Araque 1999",
+        "Henneberger 2010",
+        "Durkee 2021",
+        "Cornell-Bell 1990",
+        "LTP astrocyte",
+        "LTD astrocyte",
+        "gliotransmission controversy",
+        "perisynaptic astrocytic processes",
+        "PAPs",
+        "gap junctions",
+        "connexin43",
+        "ATP adenosine A1 receptor",
+        "endocannabinoid CB1R astrocyte",
+        "Volterra Meldolesi 2005",
+        "Parpura 1994"
       ],
       "main_sources": [
         "PMID:10322493 (abstract only, Trends Neurosci)",
@@ -87,16 +206,40 @@
       ],
       "curriculum_track": "5. 认知控制（注意、工作记忆、前额叶）；延续 2026-06-03（视丘 TRN 注意门控）和 2026-06-30（T 型钙通道爆发放电）的视丘-注意系列；填补 DAN/偏置竞争 wiki 缺口；推进课程脊柱 5（认知控制）",
       "topic_tags": [
-        "dorsal attention network", "DAN", "ventral attention network", "VAN",
-        "frontal eye field", "FEF", "intraparietal sulcus", "IPS", "LIP",
-        "lateral intraparietal area", "priority map", "biased competition",
-        "top-down attention", "spatial attention", "gain modulation",
-        "multiplicative gain", "V4 feedback", "corticocortical feedback",
-        "Corbetta Shulman 2002", "Bisley Goldberg 2010", "Moore Fallah 2004",
-        "Debes Dragoi 2023", "Desimone Duncan 1995", "Treue Martinez-Trujillo 1999",
-        "FEF microstimulation", "spatial neglect", "TPJ", "VFC",
-        "attention reorienting", "thalamic reticular nucleus", "TRN",
-        "attention feedback", "attentional gain", "retinotopic attention"
+        "dorsal attention network",
+        "DAN",
+        "ventral attention network",
+        "VAN",
+        "frontal eye field",
+        "FEF",
+        "intraparietal sulcus",
+        "IPS",
+        "LIP",
+        "lateral intraparietal area",
+        "priority map",
+        "biased competition",
+        "top-down attention",
+        "spatial attention",
+        "gain modulation",
+        "multiplicative gain",
+        "V4 feedback",
+        "corticocortical feedback",
+        "Corbetta Shulman 2002",
+        "Bisley Goldberg 2010",
+        "Moore Fallah 2004",
+        "Debes Dragoi 2023",
+        "Desimone Duncan 1995",
+        "Treue Martinez-Trujillo 1999",
+        "FEF microstimulation",
+        "spatial neglect",
+        "TPJ",
+        "VFC",
+        "attention reorienting",
+        "thalamic reticular nucleus",
+        "TRN",
+        "attention feedback",
+        "attentional gain",
+        "retinotopic attention"
       ],
       "main_sources": [
         "PMID:11994752 (abstract only, Nature Reviews Neuroscience)",
@@ -3720,7 +3863,8 @@
       "2026-06-01",
       "2026-06-04",
       "2026-06-10",
-      "2026-06-12"
+      "2026-06-12",
+      "2026-07-03"
     ],
     "cellular": [
       "2026-05-24",
@@ -3732,7 +3876,8 @@
       "2026-06-07",
       "2026-06-11",
       "2026-06-12",
-      "2026-06-18"
+      "2026-06-18",
+      "2026-07-03"
     ],
     "synaptic": [
       "2026-05-24",
@@ -3741,7 +3886,8 @@
       "2026-05-28",
       "2026-06-01",
       "2026-06-04",
-      "2026-06-10"
+      "2026-06-10",
+      "2026-07-03"
     ],
     "microcircuit": [
       "2026-05-27",
@@ -3782,7 +3928,8 @@
       "2026-06-03",
       "2026-06-12",
       "2026-06-16",
-      "2026-05-31"
+      "2026-05-31",
+      "2026-07-03"
     ],
     "disease": [
       "2026-06-08"

@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-03（文章 #69·突触稳态·赫布规则的稳定器）
+
+**源文章**：[[2026-07-03-synaptic-scaling-homeostatic-plasticity]] —《突触稳态：当赫布规则失控时，大脑如何给自己"归零"》
+
+**新建页面（2 页）**：
+- `concepts/synaptic-scaling.md`：突触稳态缩放——乘法性负反馈；GluA2 通路（不同于 LTP 的 GluA1）；钙/CaMKIV 全细胞传感；树突局部视黄酸非基因组信号；星形胶质细胞 TNFα 许可因子；突触前 PHP（Sema3a）；记忆特异性雕刻（Wu 2021）（established）
+- `concepts/homeostatic-plasticity.md`：稳态可塑性总概念页——三大类型（突触缩放/内在兴奋性/突触前稳态）；时间尺度隔离（小时/天 vs 秒/分）；功能：维护网络动态范围；与 Hebbian 规则形成互补稳定系统（established）
+
+**修订页面（4 页）**：
+- `concepts/ltp.md`（rev10→rev11）：在连接段新增 synaptic-scaling 和 homeostatic-plasticity；明确 GluA1（LTP）vs GluA2（稳态缩放）分子路径分叉；related 新增两条
+- `concepts/hebbian-learning.md`（rev3→rev4）：在连接段新增 synaptic-scaling 和 homeostatic-plasticity；Q-hebbian-stability 更新为"部分有答案"状态；related 新增两条
+- `concepts/ampa-receptor.md`（rev2→rev3）：在连接段新增 synaptic-scaling；明确 GluA2 通路为稳态缩放特异通路（Gainey 2009 证据）；related 新增两条
+- `wiki/systems/astrocyte.md`（rev1→rev2）：在连接段新增 synaptic-scaling；揭示星形胶质细胞 TNFα 在稳态中的许可角色（双时间尺度分工：D-丝氨酸→LTP；TNFα→稳态）；related 新增两条
+
+**新登记矛盾**：无（今日证据无与既有主张冲突）
+
+**新增悬空引用**：`homeostatic-plasticity`（已立即建页）；`synaptic-scaling`（已立即建页）
+
+**图谱更新**：新增节点 2（synaptic-scaling, homeostatic-plasticity）；新增边约 12；总计 **127 节点、~721 条边**
+
+---
+
 ## 2026-07-02（文章 #68·大脑的第三方·星形胶质细胞与三方突触）
 
 **源文章**：[[2026-07-02-astrocyte-tripartite-synapse]] —《大脑的第三方：星形胶质细胞如何改写突触的游戏规则》

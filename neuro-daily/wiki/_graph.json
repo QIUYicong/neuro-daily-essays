@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-02",
-  "node_count": 125,
-  "edge_count": 709,
+  "updated": "2026-07-03",
+  "node_count": 127,
+  "edge_count": 721,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,24 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "synaptic-scaling",
+      "title": "突触稳态缩放",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/synaptic-scaling.md"
+    },
+    {
+      "id": "homeostatic-plasticity",
+      "title": "稳态可塑性",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/homeostatic-plasticity.md"
+    },
     {
       "id": "thalamus",
       "title": "视丘",
@@ -1141,6 +1159,72 @@
     }
   ],
   "edges": [
+    {
+      "from": "synaptic-scaling",
+      "to": "homeostatic-plasticity",
+      "type": "is-a",
+      "note": "突触缩放是稳态可塑性的核心突触类型"
+    },
+    {
+      "from": "synaptic-scaling",
+      "to": "ltp",
+      "type": "regulates",
+      "note": "突触缩放通过负反馈稳定 Hebbian LTP 的正反馈不稳定性；GluA2 vs GluA1 通路分叉"
+    },
+    {
+      "from": "synaptic-scaling",
+      "to": "ampa-receptor",
+      "type": "mechanism-of",
+      "note": "AMPA 受体（GluA2 通路）是突触缩放的效应器分子"
+    },
+    {
+      "from": "synaptic-scaling",
+      "to": "hebbian-learning",
+      "type": "regulates",
+      "note": "突触缩放解决 Hebbian 正反馈稳定性悖论；乘法性负反馈"
+    },
+    {
+      "from": "astrocyte",
+      "to": "synaptic-scaling",
+      "type": "supports",
+      "note": "星形胶质细胞来源 TNFα 是突触稳态缩放长程维持的许可因子（Stellwagen & Malenka 2006）"
+    },
+    {
+      "from": "synaptic-scaling",
+      "to": "tripartite-synapse",
+      "type": "related",
+      "note": "星形胶质细胞在三方突触中提供 D-丝氨酸（LTP，毫秒）和 TNFα（稳态，小时），双时间尺度分工"
+    },
+    {
+      "from": "synaptic-scaling",
+      "to": "bdnf",
+      "type": "related",
+      "note": "BDNF 参与某些稳态缩放形式，也参与 L-LTP，是联系两套可塑性系统的分子纽带"
+    },
+    {
+      "from": "homeostatic-plasticity",
+      "to": "ltp",
+      "type": "regulates",
+      "note": "稳态可塑性是 LTP 得以发挥学习功能的前提——维护网络动态工作范围"
+    },
+    {
+      "from": "homeostatic-plasticity",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "突触稳态假说（SHY）认为慢波睡眠中突触稳态下调与 SWR 记忆巩固（选择性增强）并存；两者关系有争议"
+    },
+    {
+      "from": "synaptic-scaling",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "SHY 假说：慢波睡眠 Down states 触发稳态缩放下调；与 SWR 选择性巩固的冲突或互补待裁决"
+    },
+    {
+      "from": "synaptic-scaling",
+      "to": "adult-neurogenesis",
+      "type": "related",
+      "note": "齿状回新生神经元整合期间的兴奋性 GABA 开关和突触缩放机制可能协同调节新生神经元的 Hebbian 关键期"
+    },
     {
       "from": "thalamus",
       "to": "thalamocortical-circuit",

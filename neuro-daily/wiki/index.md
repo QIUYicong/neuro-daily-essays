@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-02（第68篇·大脑的第三方·星形胶质细胞与三方突触）· 主题页总数：**125**（新建6页：astrocyte, tripartite-synapse, d-serine, gliotransmitter, astrocyte-calcium-signaling, glutamate-glutamine-cycle；修订2页：ltp rev10, ltd rev3；图谱约125节点、~709边；新登记矛盾 C-2026-07-02-01（胶质递质胞吐争议）；知识库首次引入胶质细胞维度）
+> 最后更新：2026-07-03（第69篇·突触稳态·赫布规则的稳定器）· 主题页总数：**127**（新建2页：synaptic-scaling, homeostatic-plasticity；修订4页：ltp rev11, hebbian-learning rev4, ampa-receptor rev3, astrocyte rev2；图谱约127节点、~721边；无新矛盾登记）
 
 ---
 
@@ -85,6 +85,9 @@
 - 🔵 [胶质递质](concepts/gliotransmitter.md) — 星形胶质细胞释放的 D-丝氨酸/ATP/谷氨酸；三种释放机制（囊泡胞吐/VRAC/connexin）；争议：谷氨酸胞吐在生理条件下的真实性（C-2026-07-02-01 open）**[NEW 2026-07-02·medium confidence]**
 - 🟢 [星形胶质细胞钙信号](concepts/astrocyte-calcium-signaling.md) — mGluR→Gq→PLC→IP₃→ER Ca²⁺ 路径；钙波（connexin43 缝隙连接传播，15–27 μm/s）；门控 D-丝氨酸；Cornell-Bell 1990 奠基发现 **[NEW 2026-07-02]**
 - 🟢 [谷氨酸-谷氨酰胺循环](concepts/glutamate-glutamine-cycle.md) — 星形胶质细胞 EAAT2 清除→GS 转化→SNAT 输出→神经元谷氨酰胺酶水解→递质再生；GLT-1 KO → 癫痫/神经元死亡；防兴奋毒性的代谢基础 **[NEW 2026-07-02]**
+
+- 🟢 [突触稳态缩放](concepts/synaptic-scaling.md) — Hebbian 可塑性的负反馈稳定器；乘法性等比调节所有 AMPA 受体（GluA2 通路，不同于 LTP 的 GluA1）；TNFα（星形胶质细胞）许可；视黄酸树突局部信号；Wu 2021 证明稳态缩放主动雕刻记忆特异性 **[NEW 2026-07-03]**
+- 🟢 [稳态可塑性](concepts/homeostatic-plasticity.md) — 突触缩放+内在兴奋性+突触前稳态三大类型；时间尺度隔离（小时/天 vs 秒/分）；为 Hebbian 规则提供运行前提 **[NEW 2026-07-03]**
 
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）**[NEW 2026-07-01]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**

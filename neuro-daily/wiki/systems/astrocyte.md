@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-07-02
-updated: 2026-07-02
-revision_count: 1
+updated: 2026-07-03
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [tripartite-synapse, gliotransmitter, d-serine, astrocyte-calcium-signaling, glutamate-glutamine-cycle, ltp, ltd, nmda-receptor, synaptic-transmission, alzheimers-disease]
+related: [tripartite-synapse, gliotransmitter, d-serine, astrocyte-calcium-signaling, glutamate-glutamine-cycle, ltp, ltd, nmda-receptor, synaptic-transmission, alzheimers-disease, synaptic-scaling, homeostatic-plasticity]
 prerequisites: [synaptic-transmission, nmda-receptor, ltp]
 opens_questions: [Q-astro-01, Q-astro-02, Q-astro-03]
 source_articles: [2026-07-02-astrocyte-tripartite-synapse]
@@ -82,6 +82,7 @@ Ca²⁺ 升高 → 触发含 D-丝氨酸的囊泡（可能）胞吐或转运体�
 - [[nmda-receptor]] — D-丝氨酸结合 NMDA 受体 GluN1 亚基，决定激活阈值
 - [[synaptic-transmission]] — 参与突触信号的清除、调制和维持
 - [[alzheimers-disease]] — 反应性星形胶质增生和 D-丝氨酸代谢受损可能加速 AD 突触功能损害
+- [[synaptic-scaling]] — 星形胶质细胞释放的 TNFα 是突触稳态缩放长程维持的许可因子（Stellwagen & Malenka 2006，PMID:16547515）；说明星形胶质细胞同时参与 LTP（D-丝氨酸）和稳态调节（TNFα），在两个时间尺度上调控突触功能
 
 ## 未解问题
 
@@ -91,8 +92,10 @@ Ca²⁺ 升高 → 触发含 D-丝氨酸的囊泡（可能）胞吐或转运体�
 
 ## 修订历史
 
+- 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling；揭示星形胶质细胞在突触稳态中的第二重角色（TNFα 许可因子，与 D-丝氨酸在 LTP 中的门控角色形成双时间尺度分工）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-07-02 · 创建 · 基于《大脑的第三方：星形胶质细胞如何改写突触的游戏规则》(#68) · 初始置信度：高
 
 ## 来源文章
 
 - [[2026-07-02-astrocyte-tripartite-synapse]]
+- [[2026-07-03-synaptic-scaling-homeostatic-plasticity]]

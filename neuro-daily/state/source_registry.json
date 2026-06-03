@@ -5209,23 +5209,384 @@
       ]
     }
   ],
-  "total_sources": 278,
+  "total_sources": 288,
   "additions_2026-07-02": [
-    {"pmid": "10322493", "pmcid": null, "title": "Tripartite synapses: glia, the unacknowledged partner", "authors": "Araque et al.", "journal": "Trends in Neurosciences", "year": 1999, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["tripartite synapse concept", "astrocyte gliotransmitter", "bidirectional signaling"]},
-    {"pmid": "20075918", "pmcid": "PMC2807667", "title": "Astrocytic control of synaptic transmission and plasticity: a target for neuroprotection", "authors": "Henneberger et al.", "journal": "Nature", "year": 2010, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["D-serine LTP requirement", "Ca2+ chelation astrocyte", "gliotransmitter D-serine release", "100μm spatial scope"]},
-    {"pmid": "7911978", "pmcid": null, "title": "Glutamate-mediated astrocyte–neuron signalling", "authors": "Parpura et al.", "journal": "Nature", "year": 1994, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["astrocyte glutamate release", "Ca2+-dependent exocytosis", "neuronal NMDAR activation"]},
-    {"pmid": "16025096", "pmcid": null, "title": "Astrocytes, from brain glue to communication elements: the revolution continues", "authors": "Volterra & Meldolesi", "journal": "Nature Reviews Neuroscience", "year": 2005, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["gliotransmission review", "astrocyte signaling diversity", "vesicular release mechanisms"]},
-    {"pmid": "34334233", "pmcid": "PMC8484065", "title": "Astrocyte-mediated spike-timing dependent long-term depression modulates synaptic properties according to spatial context", "authors": "Durkee et al.", "journal": "Cell Reports", "year": 2021, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["astrocyte-mediated LTD", "IP3R2 KO", "CB1R endocannabinoid", "spatial context synaptic plasticity"]},
-    {"pmid": "17301520", "pmcid": null, "title": "Selective stimulation of astrocyte calcium in situ does not affect neuronal excitatory synaptic activity", "authors": "Fiacco et al.", "journal": "Neuron", "year": 2007, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["Gq-GPCR specific stimulation", "astrocyte Ca2+ elevation", "no synaptic effect", "contested claim C-2026-07-02-01"]},
-    {"pmid": "24141052", "pmcid": "PMC6515705", "title": "Modulation of EAAT2 and glutamate signaling in the brain", "authors": "Cimarosti & Bhatt et al.", "journal": "Glia", "year": 2009, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["EAAT2 glutamate uptake", "astrocyte transporter", "glutamate clearance efficiency"]}
+    {
+      "pmid": "10322493",
+      "pmcid": null,
+      "title": "Tripartite synapses: glia, the unacknowledged partner",
+      "authors": "Araque et al.",
+      "journal": "Trends in Neurosciences",
+      "year": 1999,
+      "used_in": [
+        "2026-07-02-astrocyte-tripartite-synapse"
+      ],
+      "covers": [
+        "tripartite synapse concept",
+        "astrocyte gliotransmitter",
+        "bidirectional signaling"
+      ]
+    },
+    {
+      "pmid": "20075918",
+      "pmcid": "PMC2807667",
+      "title": "Astrocytic control of synaptic transmission and plasticity: a target for neuroprotection",
+      "authors": "Henneberger et al.",
+      "journal": "Nature",
+      "year": 2010,
+      "used_in": [
+        "2026-07-02-astrocyte-tripartite-synapse"
+      ],
+      "covers": [
+        "D-serine LTP requirement",
+        "Ca2+ chelation astrocyte",
+        "gliotransmitter D-serine release",
+        "100μm spatial scope"
+      ]
+    },
+    {
+      "pmid": "7911978",
+      "pmcid": null,
+      "title": "Glutamate-mediated astrocyte–neuron signalling",
+      "authors": "Parpura et al.",
+      "journal": "Nature",
+      "year": 1994,
+      "used_in": [
+        "2026-07-02-astrocyte-tripartite-synapse"
+      ],
+      "covers": [
+        "astrocyte glutamate release",
+        "Ca2+-dependent exocytosis",
+        "neuronal NMDAR activation"
+      ]
+    },
+    {
+      "pmid": "16025096",
+      "pmcid": null,
+      "title": "Astrocytes, from brain glue to communication elements: the revolution continues",
+      "authors": "Volterra & Meldolesi",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2005,
+      "used_in": [
+        "2026-07-02-astrocyte-tripartite-synapse"
+      ],
+      "covers": [
+        "gliotransmission review",
+        "astrocyte signaling diversity",
+        "vesicular release mechanisms"
+      ]
+    },
+    {
+      "pmid": "34334233",
+      "pmcid": "PMC8484065",
+      "title": "Astrocyte-mediated spike-timing dependent long-term depression modulates synaptic properties according to spatial context",
+      "authors": "Durkee et al.",
+      "journal": "Cell Reports",
+      "year": 2021,
+      "used_in": [
+        "2026-07-02-astrocyte-tripartite-synapse"
+      ],
+      "covers": [
+        "astrocyte-mediated LTD",
+        "IP3R2 KO",
+        "CB1R endocannabinoid",
+        "spatial context synaptic plasticity"
+      ]
+    },
+    {
+      "pmid": "17301520",
+      "pmcid": null,
+      "title": "Selective stimulation of astrocyte calcium in situ does not affect neuronal excitatory synaptic activity",
+      "authors": "Fiacco et al.",
+      "journal": "Neuron",
+      "year": 2007,
+      "used_in": [
+        "2026-07-02-astrocyte-tripartite-synapse"
+      ],
+      "covers": [
+        "Gq-GPCR specific stimulation",
+        "astrocyte Ca2+ elevation",
+        "no synaptic effect",
+        "contested claim C-2026-07-02-01"
+      ]
+    },
+    {
+      "pmid": "24141052",
+      "pmcid": "PMC6515705",
+      "title": "Modulation of EAAT2 and glutamate signaling in the brain",
+      "authors": "Cimarosti & Bhatt et al.",
+      "journal": "Glia",
+      "year": 2009,
+      "used_in": [
+        "2026-07-02-astrocyte-tripartite-synapse"
+      ],
+      "covers": [
+        "EAAT2 glutamate uptake",
+        "astrocyte transporter",
+        "glutamate clearance efficiency"
+      ]
+    }
   ],
   "additions_2026-07-01": [
-    {"pmid": "11994752", "title": "Control of goal-directed and stimulus-driven attention in the brain", "authors": "Corbetta & Shulman 2002", "covered": ["dorsal attention network", "ventral attention network", "spatial neglect"]},
-    {"pmid": "20192813", "pmcid": "PMC3683564", "title": "Attention, intention, and priority in the parietal lobe", "authors": "Bisley & Goldberg 2010", "covered": ["LIP priority map", "intraparietal sulcus", "saccade-attention coupling"]},
-    {"pmid": "13679398", "title": "Microstimulation of the frontal eye field and its effects on covert spatial attention", "authors": "Moore & Fallah 2004", "covered": ["FEF microstimulation", "covert spatial attention", "d' enhancement"]},
-    {"pmid": "36730414", "title": "Suppressing feedback signals to visual cortex abolishes attentional modulation", "authors": "Debes & Dragoi 2023", "covered": ["V4 to V1 feedback", "attentional modulation V1", "corticocortical feedback necessity"]},
-    {"pmid": "7605061", "title": "Neural mechanisms of selective visual attention", "authors": "Desimone & Duncan 1995", "covered": ["biased competition", "selective attention theory", "neural competition"]},
-    {"pmid": "10376597", "title": "Feature-based attention influences motion processing gain in macaque visual cortex", "authors": "Treue & Trujillo 1999", "covered": ["multiplicative gain", "MT attention modulation", "feature similarity gain model"]},
-    {"pmid": "42125965", "pmcid": "PMC13171101", "title": "Dissociable neural substrates of integration and segregation in exogenous attention", "authors": "Chen et al. 2026", "covered": ["FEF IPS TPJ fMRI", "exogenous attention", "inhibition of return"]}
+    {
+      "pmid": "11994752",
+      "title": "Control of goal-directed and stimulus-driven attention in the brain",
+      "authors": "Corbetta & Shulman 2002",
+      "covered": [
+        "dorsal attention network",
+        "ventral attention network",
+        "spatial neglect"
+      ]
+    },
+    {
+      "pmid": "20192813",
+      "pmcid": "PMC3683564",
+      "title": "Attention, intention, and priority in the parietal lobe",
+      "authors": "Bisley & Goldberg 2010",
+      "covered": [
+        "LIP priority map",
+        "intraparietal sulcus",
+        "saccade-attention coupling"
+      ]
+    },
+    {
+      "pmid": "13679398",
+      "title": "Microstimulation of the frontal eye field and its effects on covert spatial attention",
+      "authors": "Moore & Fallah 2004",
+      "covered": [
+        "FEF microstimulation",
+        "covert spatial attention",
+        "d' enhancement"
+      ]
+    },
+    {
+      "pmid": "36730414",
+      "title": "Suppressing feedback signals to visual cortex abolishes attentional modulation",
+      "authors": "Debes & Dragoi 2023",
+      "covered": [
+        "V4 to V1 feedback",
+        "attentional modulation V1",
+        "corticocortical feedback necessity"
+      ]
+    },
+    {
+      "pmid": "7605061",
+      "title": "Neural mechanisms of selective visual attention",
+      "authors": "Desimone & Duncan 1995",
+      "covered": [
+        "biased competition",
+        "selective attention theory",
+        "neural competition"
+      ]
+    },
+    {
+      "pmid": "10376597",
+      "title": "Feature-based attention influences motion processing gain in macaque visual cortex",
+      "authors": "Treue & Trujillo 1999",
+      "covered": [
+        "multiplicative gain",
+        "MT attention modulation",
+        "feature similarity gain model"
+      ]
+    },
+    {
+      "pmid": "42125965",
+      "pmcid": "PMC13171101",
+      "title": "Dissociable neural substrates of integration and segregation in exogenous attention",
+      "authors": "Chen et al. 2026",
+      "covered": [
+        "FEF IPS TPJ fMRI",
+        "exogenous attention",
+        "inhibition of return"
+      ]
+    }
+  ],
+  "additions_2026-07-03": [
+    {
+      "pmid": "9495341",
+      "pmcid": null,
+      "title": "Activity-dependent scaling of quantal amplitude in neocortical neurons",
+      "authors": "Turrigiano GG et al.",
+      "journal": "Nature",
+      "year": 1998,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "synaptic scaling discovery",
+        "TTX activity blockade",
+        "multiplicative AMPA receptor upscaling",
+        "neocortical neurons"
+      ],
+      "note": "Foundational discovery paper for synaptic scaling; abstract only (paywall)"
+    },
+    {
+      "pmid": "22086977",
+      "pmcid": "PMC3249629",
+      "title": "Homeostatic synaptic plasticity: local and global mechanisms for stabilizing neuronal function",
+      "authors": "Turrigiano GG",
+      "journal": "Cold Spring Harb Perspect Biol",
+      "year": 2012,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "homeostatic plasticity review",
+        "synaptic scaling mechanisms",
+        "intrinsic excitability",
+        "GluA1/GluA2 pathways",
+        "CaMKIV sensor",
+        "retinoic acid",
+        "TNFalpha"
+      ],
+      "note": "Comprehensive review; OPEN FULL TEXT READ via PMC3249629"
+    },
+    {
+      "pmid": "16547515",
+      "pmcid": null,
+      "title": "Synaptic scaling mediated by glial TNF-alpha",
+      "authors": "Stellwagen D, Malenka RC",
+      "journal": "Nature",
+      "year": 2006,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "TNFalpha synaptic scaling",
+        "astrocyte permissive factor",
+        "GluA1 surface expression",
+        "TNF KO scaling failure"
+      ],
+      "note": "Key astrocyte-scaling link; abstract only (paywall)"
+    },
+    {
+      "pmid": "19458219",
+      "pmcid": "PMC2714274",
+      "title": "Synaptic scaling requires the GluR2 subunit of the AMPA receptor",
+      "authors": "Gainey MA et al.",
+      "journal": "J Neurosci",
+      "year": 2009,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "GluA2 pathway synaptic scaling",
+        "GluA1 LTP independence",
+        "GluA2 knockout scaling failure",
+        "pathway dissociation"
+      ],
+      "note": "Direct proof of GluA2 vs GluA1 pathway distinction; open access PMC2714274"
+    },
+    {
+      "pmid": "33798429",
+      "pmcid": "PMC8187282",
+      "title": "Homeostatic plasticity scales synaptic content and intrinsic firing similarly across central and peripheral taste neurons",
+      "authors": "Wu YE et al.",
+      "journal": "Nat Neurosci",
+      "year": 2021,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "memory specificity sculpting",
+        "conditioned taste aversion",
+        "Hebbian LTP draft memory",
+        "homeostatic refinement",
+        "gustatory cortex"
+      ],
+      "note": "OPEN FULL TEXT READ via PMC8187282; key evidence for memory specificity role of scaling"
+    },
+    {
+      "pmid": "19539107",
+      "pmcid": null,
+      "title": "The self-tuning neuron: synaptic scaling of excitatory synapses",
+      "authors": "Turrigiano GG",
+      "journal": "Cell",
+      "year": 2008,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "synaptic scaling review",
+        "molecular mechanisms",
+        "CaMKIV calcium sensor",
+        "scaling expression mechanisms"
+      ],
+      "note": "Important review; abstract only"
+    },
+    {
+      "pmid": "40592327",
+      "pmcid": null,
+      "title": "Semaphorin 3A is a retrograde signal for presynaptic homeostatic plasticity",
+      "authors": "Chipman PH et al.",
+      "journal": "Science",
+      "year": 2025,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "presynaptic homeostatic plasticity",
+        "PHP",
+        "Sema3a retrograde signal",
+        "PlexinA4 integrin-beta1",
+        "active zone expansion",
+        "cross-species conservation"
+      ],
+      "note": "Very recent (2025); abstract only; breakthrough PHP mechanism discovery"
+    },
+    {
+      "pmid": "21525940",
+      "pmcid": null,
+      "title": "Synaptic activity and retinoic acid signaling differentially regulate neuronal excitability",
+      "authors": "Aoto J et al.",
+      "journal": "J Neurosci",
+      "year": 2011,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "retinoic acid synaptic scaling",
+        "RARalpha non-genomic",
+        "local dendritic GluA1 translation",
+        "RARE dendrite"
+      ],
+      "note": "Retinoic acid local scaling mechanism; abstract only"
+    },
+    {
+      "pmid": "22085984",
+      "pmcid": null,
+      "title": "Nuclear CaMKIV and the control of gene expression",
+      "authors": "Bhatt DL et al.",
+      "journal": "Neuron",
+      "year": 2011,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "CaMKIV calcium sensor",
+        "nuclear signaling",
+        "firing rate homeostasis",
+        "gene expression control"
+      ],
+      "note": "CaMKIV as activity sensor for scaling; abstract only"
+    },
+    {
+      "pmid": "28973557",
+      "pmcid": null,
+      "title": "Homeostatic synaptic plasticity: from single synapses to neural circuits",
+      "authors": "Turrigiano GG",
+      "journal": "Curr Opin Neurobiol",
+      "year": 2017,
+      "used_in": [
+        "2026-07-03-synaptic-scaling-homeostatic-plasticity"
+      ],
+      "covers": [
+        "homeostatic plasticity overview",
+        "circuit-level homeostasis",
+        "E/I balance",
+        "disease implications"
+      ],
+      "note": "Comprehensive circuit-level review; abstract only"
+    }
   ]
 }

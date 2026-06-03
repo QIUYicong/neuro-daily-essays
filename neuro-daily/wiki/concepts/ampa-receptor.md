@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-04
-revision_count: 2
+updated: 2026-07-03
+revision_count: 3
 dimensions: [molecular, synaptic]
-related: [nmda-receptor, ltp, ltd, camkii, calcineurin, arc-arg31, synaptic-transmission, hebbian-learning, tarp-auxiliary-subunit]
+related: [nmda-receptor, ltp, ltd, camkii, calcineurin, arc-arg31, synaptic-transmission, hebbian-learning, tarp-auxiliary-subunit, synaptic-scaling, homeostatic-plasticity]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-ampa-receptor-silent-synapse, Q-ampa-glua1-atd-partners]
 source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-04-ltd-long-term-depression]
@@ -80,6 +80,7 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 - [[arc-arg31]] — Arc 是 mGluR-LTD 路径中促进 AMPAR 内吞的执行蛋白
 - [[synaptic-transmission]] — AMPA 受体是快速 EPSP 的主要产生者
 - [[tarp-auxiliary-subunit]] — TARP 是 AMPA 受体靶向突触的关键辅助亚基（待建页面）
+- [[synaptic-scaling]] — 突触稳态缩放专门使用 GluA2 通路（不同于 LTP 用的 GluA1），Gainey 2009 直接证明这是两套独立的受体亚型通路
 
 ## 未解问题
 
@@ -88,6 +89,7 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 
 ## 修订历史
 
+- 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling；明确 GluA2 通路是突触缩放（非 LTP）的特异性分子路径（Gainey 2009 PMID:19458219）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-06-04 · 修订 · 基于《LTD 文章》· 新增"LTD 期间 AMPA 受体内吞"机制段落；GluA2 Ser880 磷酸化→PICK1 路径；Arc 在 mGluR-LTD 中的内吞执行角色；GluA2 双敲除后 LTD 正常的争议（备用内吞路径）；related 增加 ltd、calcineurin、arc-arg31；key_sources 新增 PMC4195488, PMC2694745
 
@@ -95,3 +97,4 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 
 - [[2026-05-26-nmda-receptor-ltp]]
 - [[2026-06-04-ltd-long-term-depression]]
+- [[2026-07-03-synaptic-scaling-homeostatic-plasticity]]

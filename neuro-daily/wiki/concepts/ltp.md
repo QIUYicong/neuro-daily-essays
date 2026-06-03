@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-07-02
-revision_count: 10
+updated: 2026-07-03
+revision_count: 11
 dimensions: [synaptic, cellular, cognition, brain-region, disease]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
 source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse]
@@ -134,6 +134,8 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 - [[tripartite-synapse]] — LTP 是三方突触框架中神经元-胶质细胞协同可塑性的核心体现
 - [[d-serine]] — D-丝氨酸是星形胶质细胞控制 LTP 准入的分子媒介；Ca²⁺ 钳制切断 D-丝氨酸 → LTP 消失（Henneberger 2010）
 - [[astrocyte-calcium-signaling]] — 星形胶质细胞 Ca²⁺ 信号是 D-丝氨酸释放的上游门控
+- [[synaptic-scaling]] — 突触缩放是 LTP 的互补机制：LTP 用 GluA1 通路写入（快），缩放用 GluA2 通路归一化（慢）；两者时间尺度隔离，共时运行
+- [[homeostatic-plasticity]] — 稳态可塑性是 Hebbian 正反馈的必要负反馈，LTP 之所以能维持学习能力，正是因为稳态可塑性持续维护网络工作区间
 
 ## 未解问题
 
@@ -143,6 +145,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 
 ## 修订历史
 
+- 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；GluA1（LTP）vs GluA2（稳态缩放）分子路径分叉关系明确化；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-07-02 · 修订 · 基于《大脑的第三方》(#68) · 新增"三方突触条件"段落：星形胶质细胞 D-丝氨酸供给是 LTP 的隐性必要条件（Henneberger 2010 因果证据）；related 新增 astrocyte、tripartite-synapse、d-serine、astrocyte-calcium-signaling；key_sources 新增 PMID:20075918；连接段落新增四条
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 新增 BDNF/TrkB→Arc→L-LTP 突触固结机制段落；related 新增 bdnf、arc-arg31；key_sources 新增 PMID:16099088、PMID:17942328；source_articles 新增 2026-06-28-bdnf-trk-b-plasticity-memory；悬空引用 [[bdnf]] 已建页
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 新增：CA3 循环突触 NMDA 受体依赖性 LTP 是模式补全（pattern completion）的分子基础——Nakazawa et al. 2002 (PMID:12040087) 基因因果证据；related 新增 pattern-completion、complementary-learning-systems；source_articles 新增 2026-06-24-hippocampal-ca3-pattern-completion
