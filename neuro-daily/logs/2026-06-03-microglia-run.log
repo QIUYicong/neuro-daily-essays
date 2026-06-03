@@ -81,5 +81,7 @@ PubMed 检索共 ~210+ 条（总量），经过筛选采用 7 篇核心来源
 
 ## Git 操作
 - 分支：main
+- commit hash：292d62b
 - commit 信息：Add neuro daily article + wiki consolidation for 2026-06-03
-- push 状态：待执行
+- push 状态：成功推送至 origin/main
+- branch URL：https://github.com/QIUYicong/neuro-daily-essays/tree/main
