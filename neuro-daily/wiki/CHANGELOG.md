@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-06-03（文章 #73·神经元如何竞争"记忆席位"·CREB、内在兴奋性与印迹分配机制）
+
+**源文章**：[[2026-06-03-engram-competition-creb-allocation]] —《神经元如何竞争"记忆席位"：CREB、内在兴奋性与印迹分配机制》
+
+**新建页面（1 页）**：
+- `concepts/memory-allocation.md`：记忆分配——决定哪些神经元被纳入印迹的竞争机制；CREB/内在兴奋性地形图 + 赢者 PV+ 抑制输者（6h 窗口）+ 共分配（coallocation）时间整合；表观遗传上游（H3K27ac）；AD 印迹减少新视角（established, confidence:high）
+
+**修订页面（2 页）**：
+- `concepts/engram-cells.md`（rev4→rev5）：新增 [[memory-allocation]] 和 [[pv-interneurons]] 到 related；新增 Q-alloc-* 未解问题；新增 3 个 key_sources（PMID:17446403/25102562/29709212）；新增 molecular 到 dimensions
+- `concepts/competition-selection-principle.md`（rev1→rev2）：新增 [[memory-allocation]] 到 related；补充共分配 6 小时时间窗的直接证据（PMID:27463673）、表观遗传上游机制（PMID:41470040）；跨脑区验证（海马 DG，PMID:27187069）
+
+**图谱变化**：nodes 133→134（+1）；edges 754→766（+12）
+新节点：`memory-allocation`（established/high）
+新边：memory-allocation→engram-cells（mechanism-of）；memory-allocation→pv-interneurons（requires）；memory-allocation→competition-selection-principle（is-a）；memory-allocation→pattern-separation（supports）等共 12 条
+
+**新登记矛盾**：无
+**新悬空引用**：`creb-activity`（尚无专页，被 memory-allocation 引用）；`coallocation`（尚无专页）；`intrinsic-excitability`（尚无专页）——记为待补充
+
+---
+
 ## 2026-07-04（文章 #54·信号与噪声之间·皮层 E/I 平衡与 PV 中间神经元守门机制）
 
 **源文章**：[[2026-07-04-ei-balance-pv-interneuron]] —《信号与噪声之间：皮层 E/I 平衡的回路逻辑、PV 中间神经元的守门机制与大脑"刹车"的分子基础》

@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-07-03",
-  "total_articles": 69,
+  "total_articles": 73,
   "entries": [
     {
       "date": "2026-07-03",
@@ -4086,6 +4086,58 @@
       "mode": "long_term_curriculum",
       "article_number": 72,
       "note": "今日为第四篇 2026-06-03 文章（#11 PV中间神经元，#66 视丘，#70 微胶质，#72 关键期）；延续日期困境（系统日期UTC+8=2026-06-03）；知识库连续性延续自#71（2026-07-04·E/I平衡）"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "神经元如何竞争'记忆席位'：CREB、内在兴奋性与印迹分配机制",
+      "filename": "2026-06-03-engram-competition-creb-allocation",
+      "wiki_pages_created": [
+        "concepts/memory-allocation.md"
+      ],
+      "wiki_pages_revised": [
+        "concepts/engram-cells.md（rev4→rev5）",
+        "concepts/competition-selection-principle.md（rev1→rev2）"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "哪些神经元被选中编码记忆？CREB 与内在兴奋性如何决定印迹细胞的分配？",
+      "layer": "cellular / molecular / synaptic / cognition",
+      "curriculum_track": "4（学习和记忆）→ 印迹细胞深入；连接 6（情绪与动机）和 11（疾病作为窗口）",
+      "topic_tags": [
+        "memory allocation",
+        "engram cells",
+        "CREB",
+        "intrinsic excitability",
+        "competition",
+        "coallocation",
+        "temporal memory linking",
+        "PV interneurons",
+        "epigenetics",
+        "H3K27ac"
+      ],
+      "main_sources": [
+        "PMID:17446403 (Science 2007, Han, abstract only)",
+        "PMID:25102562 (Neuron 2014, Yiu, abstract only)",
+        "PMID:27463673 (Science 2016, Rashid, abstract only)",
+        "PMID:27187069 (Neuropsychopharmacology 2016, Park, full text)",
+        "PMID:29709212 (PMC9623596, Annual Rev Neurosci 2018, Josselyn & Frankland, full text)",
+        "PMID:41470040 (PMC12754038, J Neurochem 2025, Tarulli, full text)"
+      ],
+      "unresolved_questions": [
+        "Q-alloc-epigenetic-natural：自然学习条件下 H3K27ac 异质性对分配偏向的效应量？",
+        "Q-alloc-cortex：皮层（前额叶、视觉皮层）是否有类似竞争分配机制？",
+        "Q-alloc-human-direct：人类是否有不依赖 fMRI 的直接记忆分配证据？",
+        "Q-alloc-six-hour：6 小时兴奋性余晖窗口的分子基础（突触标记？CREB 动力学？）"
+      ],
+      "next_suggested_topics": [
+        "CREB 专页：CREB 转录因子的激活途径（cAMP-PKA、Ca²⁺/CaM 激酶）、目标基因、与 BDNF/TrkB 通路的关系",
+        "突触标记与抓取（synaptic tagging and capture）：如何将早期 LTP 转化为晚期 LTP；与 6 小时记忆分配窗口的关系",
+        "记忆竞争与 AD：AD 早期印迹细胞减少（非消失）的表观遗传基础；组蛋白去乙酰化酶抑制剂的干预可能性",
+        "共分配专页（coallocation）：时间接近记忆整合的神经元基础；30 分钟人类记忆整合窗口的 fMRI 证据"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 73,
+      "note": "今日为第五篇 2026-06-03 文章（#11 PV中间神经元，#66 视丘，#70 微胶质，#72 关键期，#73 印迹分配）；日期困境延续（系统日期UTC+8=2026-06-03）"
     }
   ],
   "layer_coverage_recent": {

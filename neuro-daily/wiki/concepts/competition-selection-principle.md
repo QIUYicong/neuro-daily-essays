@@ -6,10 +6,10 @@ type: theory
 status: emerging
 confidence: medium
 created: 2026-06-06
-updated: 2026-06-06
-revision_count: 1
+updated: 2026-06-03
+revision_count: 2
 dimensions: [synaptic, cellular, microcircuit, whole-brain-network, cognition]
-related: [ltp, ltd, engram-cells, memory-consolidation, pv-interneurons, sst-interneurons, vip-interneurons, working-memory, prefrontal-cortex, sharp-wave-ripples, temporal-coding-hierarchy]
+related: [ltp, ltd, engram-cells, memory-consolidation, pv-interneurons, sst-interneurons, vip-interneurons, working-memory, prefrontal-cortex, sharp-wave-ripples, temporal-coding-hierarchy, memory-allocation]
 prerequisites: [ltp, ltd, engram-cells, memory-consolidation, working-memory]
 opens_questions: [Q-competition-unified-mechanism, Q-soft-competition-limits]
 source_articles: [2026-06-06-week2-synthesis]
@@ -89,7 +89,9 @@ PV+ 篮状/轴突旁细胞精确限定 1–2 ms 的有效整合时窗，只允�
 ## 修订历史
 
 - 2026-06-06 · 创建 · 基于《第二周综合：竞争法则》（2026-06-06-week2-synthesis.md） · 初始置信度：medium（综合框架，各层机制单独有强证据，跨层统一性待验证）
+- 2026-06-03 · 修订 · 基于《神经元如何竞争记忆席位》一文 · 新增细胞级竞争机制详细内容：训练前兴奋性地形图（PMID:25102562）；共分配（coallocation）6 小时时间窗（PMID:27463673）；表观遗传上游机制（H3K27ac，PMID:41470040）；新增 [[memory-allocation]] 到 related；补充跨脑区验证（海马 DG，PMID:27187069）
 
 ## 来源文章
 
 - [[2026-06-06-week2-synthesis]]
+- [[2026-06-03-engram-competition-creb-allocation]]

@@ -1,0 +1,93 @@
+# 运行日志：文章 #73（印迹分配机制）
+# 日期：2026-06-03（UTC+8，系统日期）
+# 分支：claude/funny-einstein-ppAbs
+
+## 选题
+
+当前日期：2026-06-03（系统日期，与知识库连续编号 #73 对应）
+选题：印迹分配（memory allocation）——CREB、内在兴奋性与神经元竞争
+选题依据：
+1. 文章 #72（关键期）的 next_suggested_topics 明确推荐"印迹竞争与记忆分配（engram competition/allocation）：CaMKII/CREB 的竞争机制"
+2. 知识库中已有 engram-cells（rev4）和 competition-selection-principle（rev1），但缺少 memory-allocation 专页
+3. 今天其他文章已覆盖 molecular/cellular/synaptic/microcircuit/disease 层，此主题可进一步深化 cellular/cognition 层
+4. 与已有文章（#71 E/I 平衡，#72 关键期，#11 PV 中间神经元）形成逻辑链：PV+ 成熟 → 关键期闭合 → PV+ 介导记忆竞争抑制 → 印迹分配
+
+## 文献检索
+
+### 检索过程
+- PubMed esearch: "Han+JH+neuronal+competition+selection+memory+formation+Science" → PMID:17446403 (1 结果)
+- PubMed esearch: "Yiu+AP+neurons+recruited+memory+trace+neuronal+excitability+2014+Neuron" → PMID:25102562 (1 结果)
+- PubMed esearch: "competition+engrams+fear+memory+formation+recall+Science+2016" → PMID:27463673 (1 结果)
+- PubMed esearch: "Josselyn+Frankland+memory+allocation+engram+competition+review" → PMID:29709212 (1 结果)
+- Europe PMC 搜索: "memory+allocation+CREB+engram+neuronal+excitability+2025" → PMID:41470040 (PMC12754038, open access)
+- PubMed esearch: "Park+S+neuronal+allocation+hippocampal+engram+2016" → PMID:27187069 (Neuropsychopharmacology, open access)
+
+### 全文获取
+- PMID:17446403：仅摘要（Science 付费墙）
+- PMID:25102562：仅摘要（Neuron 付费墙）
+- PMID:27463673：仅摘要（Science 付费墙）
+- PMID:27187069：全文获取（PMC，Neuropsychopharmacology 开放获取）
+- PMID:29709212：全文获取（PMC9623596，Annual Review of Neuroscience，PMC 开放获取）——从 pmc.ncbi.nlm.nih.gov/articles/PMC9623596/ 获取关键内容
+- PMID:41470040：全文获取（PMC12754038，Journal of Neurochemistry 开放获取）——从 pmc.ncbi.nlm.nih.gov/articles/PMC12754038/ 获取关键内容
+
+总计：6 篇来源，3 篇全文（PMC），3 篇仅摘要（付费墙）
+
+## 文件操作
+
+### 新建文件
+- neuro-daily/articles/2026-06-03-engram-competition-creb-allocation.md（~8000 字）
+- neuro-daily/wiki/concepts/memory-allocation.md（新建 wiki 页，rev1）
+- neuro-daily/notes/2026-06-03-engram-allocation-reading-notes.md
+- neuro-daily/sources/2026-06-03-engram-allocation-sources.json
+- neuro-daily/logs/2026-06-03-engram-allocation-run.log（本文件）
+
+### 修订 wiki 页面
+- neuro-daily/wiki/concepts/engram-cells.md（rev4→rev5）：新增 memory-allocation 关联、Q-alloc-* 问题、3 个 key_sources
+- neuro-daily/wiki/concepts/competition-selection-principle.md（rev1→rev2）：新增 memory-allocation 关联、coallocation 证据、表观遗传层
+
+### 更新状态文件
+- neuro-daily/wiki/_graph.json（node_count 133→134，edge_count 754→766）
+- neuro-daily/wiki/CHANGELOG.md（新增 2026-06-03 条目）
+- neuro-daily/wiki/index.md（新增 memory-allocation 条目）
+- neuro-daily/state/topic_ledger.json（entries 55→56，total_articles 72→73）
+- neuro-daily/state/unresolved_questions.md（新增 Q-alloc-01 到 Q-alloc-04）
+- neuro-daily/state/source_registry.json（新增 6 条来源记录，total 294→300）
+- neuro-daily/state/monthly_synthesis.md（追加文章 #73 条目）
+
+## 知识图谱变化
+
+### 新节点（1 个）
+- memory-allocation（concepts/mechanism, established, confidence:high）
+
+### 新边（12 条）
+- memory-allocation → engram-cells（mechanism-of）
+- memory-allocation → ltp（requires）
+- memory-allocation → pv-interneurons（requires）
+- memory-allocation → competition-selection-principle（is-a）
+- memory-allocation → pattern-separation（supports）
+- memory-allocation → hebbian-learning（related）
+- memory-allocation → synaptic-tagging-capture（related）
+- memory-allocation → perineuronal-nets（related）
+- camkii → memory-allocation（supports）
+- engram-cells → memory-allocation（related）
+- competition-selection-principle → memory-allocation（contains）
+- pv-interneurons → memory-allocation（mechanism-of）
+
+### 新悬空引用（待后续补充）
+- creb-activity（被 memory-allocation 引用，尚无专页）
+- coallocation（被 memory-allocation 引用，尚无专页）
+- intrinsic-excitability（被 memory-allocation 引用，尚无专页）
+
+## 矛盾检查
+- 无新矛盾登记（所有内容与既有 wiki 页面一致）
+- engram-cells 中已有竞争分配简述，今日深化而非替换
+
+## 错误与限制
+- PubMed E-utilities 初次检索时部分查询返回零结果（特殊字符或长查询导致），改用简化查询解决
+- PMC 直接访问受 CAPTCHA 限制；改用 pmc.ncbi.nlm.nih.gov 直接 URL 成功获取关键内容（PMC9623596, PMC12754038）
+- 三篇核心实验论文（Han 2007, Yiu 2014, Rashid 2016）均无开放全文；所有结论均基于摘要 + 上述两篇综述的详述，已在文章中明确标注
+
+## 状态
+- 本地文件：已创建/更新
+- Git commit：待提交（紧接本日志后执行）
+- GitHub push：待推送到 claude/funny-einstein-ppAbs

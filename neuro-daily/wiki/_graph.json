@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "updated": "2026-06-03",
-  "node_count": 132,
-  "edge_count": 744,
+  "node_count": 134,
+  "edge_count": 766,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1210,6 +1210,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/critical-period.md"
+    },
+    {
+      "id": "memory-allocation",
+      "title": "记忆分配",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/memory-allocation.md"
     }
   ],
   "edges": [
@@ -5347,6 +5356,66 @@
       "from": "critical-period",
       "to": "orientation-selectivity",
       "type": "related"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "engram-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "ltp",
+      "type": "requires"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "pv-interneurons",
+      "type": "requires"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "competition-selection-principle",
+      "type": "is-a"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "pattern-separation",
+      "type": "supports"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "synaptic-tagging-capture",
+      "type": "related"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "perineuronal-nets",
+      "type": "related"
+    },
+    {
+      "from": "camkii",
+      "to": "memory-allocation",
+      "type": "supports"
+    },
+    {
+      "from": "engram-cells",
+      "to": "memory-allocation",
+      "type": "related"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "memory-allocation",
+      "type": "contains"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "memory-allocation",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

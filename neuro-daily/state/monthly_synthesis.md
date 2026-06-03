@@ -595,3 +595,17 @@
 **修订wiki页**：perineuronal-nets rev2（PTPσ-TRKB统一机制），pv-interneurons rev4（关键期微回路详情），bdnf rev2（关键期功能）
 **图谱**：133节点，754边（+1节点，+10边）
 **新增开放问题**：Q-cp-01到Q-cp-04（人类关键期时序、语言关键期机制、SSRI转化安全性、脑区间差异决定因素）
+
+---
+
+### 2026-06-03 · 文章 #73 · 神经元如何竞争"记忆席位" · CREB、内在兴奋性与印迹分配机制
+
+**核心问题**：哪些神经元被选中编码记忆？是什么机制决定印迹细胞的分配？
+**一句话答案**：学习前 CREB 驱动的内在兴奋性差异（更深层上游为 H3K27ac 表观遗传状态）使高兴奋性神经元优先被激活并进入印迹；赢者通过 PV+ GABA 能抑制维持稀疏性（10–25%）；6 小时兴奋性余晖窗口实现共分配（coallocation）——时间相近记忆在细胞层面被物理整合。
+
+**知识链衔接**：#72（关键期）→ #73（印迹分配）——关键期关闭固化了 PV+ 回路结构（PNN 封存），而印迹分配利用 PV+ 的竞争抑制来维持每次学习事件后印迹的稀疏性——两篇文章共同刻画了"PV+ 中间神经元如何成为神经可塑性和记忆精度的双重守门人"。
+
+**新建wiki页**：memory-allocation（concepts/）
+**修订wiki页**：engram-cells rev5（竞争分配来源链接、Q-alloc-*）；competition-selection-principle rev2（coallocation、表观遗传层）
+**图谱**：134节点，766边（+1节点，+12边）
+**新增开放问题**：Q-alloc-epigenetic-natural、Q-alloc-cortex、Q-alloc-human-direct、Q-alloc-six-hour

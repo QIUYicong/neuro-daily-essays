@@ -5603,6 +5603,110 @@
         "PNN",
         "critical period"
       ]
+    },
+    {
+      "pmid": "17446403",
+      "title": "Neuronal competition and selection during memory formation",
+      "authors": "Han JH et al.",
+      "journal": "Science",
+      "year": 2007,
+      "fulltext_available": false,
+      "used_in_articles": [
+        "2026-06-03-engram-competition-creb-allocation"
+      ],
+      "topics_covered": [
+        "memory_allocation",
+        "CREB",
+        "lateral_amygdala",
+        "engram_competition"
+      ]
+    },
+    {
+      "pmid": "25102562",
+      "title": "Neurons are recruited to a memory trace based on relative neuronal excitability immediately before training",
+      "authors": "Yiu AP et al.",
+      "journal": "Neuron",
+      "year": 2014,
+      "fulltext_available": false,
+      "used_in_articles": [
+        "2026-06-03-engram-competition-creb-allocation"
+      ],
+      "topics_covered": [
+        "intrinsic_excitability",
+        "memory_allocation",
+        "engram"
+      ]
+    },
+    {
+      "pmid": "27463673",
+      "title": "Competition between engrams influences fear memory formation and recall",
+      "authors": "Rashid AJ et al.",
+      "journal": "Science",
+      "year": 2016,
+      "fulltext_available": false,
+      "used_in_articles": [
+        "2026-06-03-engram-competition-creb-allocation"
+      ],
+      "topics_covered": [
+        "engram_competition",
+        "coallocation",
+        "temporal_memory_linking"
+      ]
+    },
+    {
+      "pmid": "27187069",
+      "pmcid": "PMC4742410",
+      "title": "Neuronal Allocation to a Hippocampal Engram",
+      "authors": "Park S et al.",
+      "journal": "Neuropsychopharmacology",
+      "year": 2016,
+      "fulltext_available": true,
+      "used_in_articles": [
+        "2026-06-03-engram-competition-creb-allocation"
+      ],
+      "topics_covered": [
+        "hippocampus",
+        "dentate_gyrus",
+        "memory_allocation",
+        "CREB"
+      ]
+    },
+    {
+      "pmid": "29709212",
+      "pmcid": "PMC9623596",
+      "title": "Memory Allocation: Mechanisms and Function",
+      "authors": "Josselyn SA, Frankland PW",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2018,
+      "fulltext_available": true,
+      "used_in_articles": [
+        "2026-06-03-engram-competition-creb-allocation"
+      ],
+      "topics_covered": [
+        "memory_allocation",
+        "GABA_competition",
+        "coallocation",
+        "review"
+      ]
+    },
+    {
+      "pmid": "41470040",
+      "pmcid": "PMC12754038",
+      "title": "Writing the Engram: Epigenetic Mechanisms of Memory Allocation",
+      "authors": "Tarulli I et al.",
+      "journal": "Journal of Neurochemistry",
+      "year": 2025,
+      "fulltext_available": true,
+      "used_in_articles": [
+        "2026-06-03-engram-competition-creb-allocation"
+      ],
+      "topics_covered": [
+        "epigenetics",
+        "H3K27ac",
+        "memory_allocation",
+        "Alzheimer",
+        "Rubinstein-Taybi"
+      ]
     }
   ],
   "total_sources": 279,
