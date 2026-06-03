@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-04",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5207,9 +5207,105 @@
         "forward suppression",
         "auditory thalamus"
       ]
+    },
+    {
+      "pmid": "18083105",
+      "title": "The classical complement cascade mediates CNS synapse elimination",
+      "authors": "Stevens et al.",
+      "year": 2007,
+      "journal": "Cell",
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "abstract"
+    },
+    {
+      "pmid": "21778362",
+      "title": "Synaptic pruning by microglia is necessary for normal brain development",
+      "authors": "Paolicelli et al.",
+      "year": 2011,
+      "journal": "Science",
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "abstract"
+    },
+    {
+      "pmid": "22632727",
+      "title": "Microglia sculpt postnatal neural circuits in an activity and complement-dependent manner",
+      "authors": "Schafer et al.",
+      "year": 2012,
+      "journal": "Neuron",
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "abstract"
+    },
+    {
+      "pmid": "27033548",
+      "pmcid": "PMC5094372",
+      "title": "Complement and microglia mediate early synapse loss in Alzheimer mouse models",
+      "authors": "Hong et al.",
+      "year": 2016,
+      "journal": "Science",
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "full_text_pmc"
+    },
+    {
+      "pmid": "26814963",
+      "title": "Schizophrenia risk from complex variation of complement component 4",
+      "authors": "Sekar et al.",
+      "year": 2016,
+      "journal": "Nature",
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "abstract"
+    },
+    {
+      "pmid": "32657463",
+      "title": "Local externalization of phosphatidylserine mediates developmental synaptic pruning by microglia",
+      "authors": "Scott-Hewitt et al.",
+      "year": 2020,
+      "journal": "EMBO J",
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "abstract"
+    },
+    {
+      "pmid": "28826529",
+      "title": "Complement system in neural synapse elimination in development and disease",
+      "authors": "Presumey et al.",
+      "year": 2017,
+      "journal": "Adv Immunol",
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "abstract"
+    },
+    {
+      "pmcid": "PMC6252206",
+      "title": "Contribution of neurons and glia to complement-mediated synapse removal in development, aging and AD",
+      "year": 2018,
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "full_text_pmc"
+    },
+    {
+      "pmcid": "PMC11119363",
+      "title": "Beneficial vs detrimental effects of complement-microglial interactions in AD",
+      "year": 2024,
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "full_text_pmc"
+    },
+    {
+      "pmid": "34472455",
+      "title": "Microglia regulation of synaptic plasticity and learning and memory",
+      "authors": "Cornell et al.",
+      "year": 2022,
+      "journal": "Neural Regen Res",
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "abstract"
+    },
+    {
+      "pmid": "37235660",
+      "title": "Microglia mediate neurocognitive deficits by eliminating C1q-tagged synapses in SAE",
+      "authors": "Chung et al.",
+      "year": 2023,
+      "journal": "Sci Adv",
+      "used_in": "2026-07-04-microglia-synaptic-pruning",
+      "access": "abstract"
     }
   ],
-  "total_sources": 288,
+  "total_sources": 278,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

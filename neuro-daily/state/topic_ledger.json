@@ -1,7 +1,61 @@
 {
-  "last_updated": "2026-07-03",
-  "total_articles": 69,
+  "last_updated": "2026-07-04",
+  "total_articles": 70,
   "entries": [
+    {
+      "date": "2026-07-04",
+      "article_number": 70,
+      "title": "大脑的免疫剪刀：小胶质细胞如何用补体蛋白雕刻神经回路",
+      "slug": "microglia-synaptic-pruning",
+      "core_question": "小胶质细胞如何通过补体蛋白系统识别、标记并吞噬特定突触，以雕刻出精准的神经回路——以及这套发育机制为何在阿尔茨海默病和精神分裂症中被病理性重激活？",
+      "layer": [
+        "cellular",
+        "molecular",
+        "synaptic",
+        "development",
+        "disease"
+      ],
+      "topic_tags": [
+        "microglia",
+        "synaptic-pruning",
+        "complement",
+        "C1q",
+        "CR3",
+        "Alzheimer's",
+        "schizophrenia",
+        "development",
+        "glia"
+      ],
+      "main_sources": [
+        "PMID:18083105",
+        "PMID:21778362",
+        "PMID:22632727",
+        "PMID:27033548",
+        "PMID:26814963",
+        "PMCID:PMC5094372"
+      ],
+      "wiki_created": [
+        "microglia",
+        "complement-synaptic-pruning",
+        "synaptic-pruning"
+      ],
+      "wiki_revised": [
+        "alzheimers-disease (rev5)"
+      ],
+      "unresolved_questions": [
+        "Q-microglia-01",
+        "Q-microglia-02",
+        "Q-microglia-03",
+        "Q-microglia-04"
+      ],
+      "next_suggested_topics": [
+        "关键期与突触剪枝（critical period + synaptic pruning）：发育期 E/I 平衡如何建立，关键期闭合机制（PNN/GABA 成熟）",
+        "兴奋/抑制平衡（E/I balance）：继承多篇文章，专文讨论 E/I 比例失衡机制与 ASD/精神分裂症的关系",
+        "TREM2 与微胶质状态转换：AD 相关 TREM2 突变如何影响微胶质的修剪/吞噬/炎症功能",
+        "睡眠分期与记忆巩固（NREM SWR + REM + SHY 假说完整梳理）",
+        "突触印迹与记忆竞争（engram competition + CaMKII/CREB 分配）"
+      ]
+    },
     {
       "date": "2026-07-03",
       "title": "突触稳态：当赫布规则失控时，大脑如何给自己“归零”",

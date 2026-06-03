@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-07-04（文章 #70·大脑的免疫剪刀·小胶质细胞与补体修剪）
+
+**源文章**：[[2026-07-04-microglia-synaptic-pruning]] —《大脑的免疫剪刀：小胶质细胞如何用补体蛋白雕刻神经回路》
+
+**新建页面（3 页）**：
+- `concepts/microglia.md`：小胶质细胞——大脑居民免疫细胞；CX3CR1/CR3/TREM2通路；发育期主动突触雕刻；AD中被Aβ重激活为病理修剪者（established）
+- `concepts/complement-synaptic-pruning.md`：补体介导的突触修剪——C1q→C3→iC3b→CR3 四步级联；活动依赖选择性；磷脂酰丝氨酸独立通路；AD/精神分裂症的疾病连接（established）
+- `concepts/synaptic-pruning.md`：突触修剪——发育期活动依赖的突触消除广义过程；人类额叶突触密度轨迹；与Hebbian学习的互补关系（established）
+
+**修订页面（1 页）**：
+- `diseases/alzheimers-disease.md`（rev4→rev5）：在"连接"段落新增 complement-synaptic-pruning 和 microglia 节点（第三条AD早期突触丢失通路：Aβ重激活发育补体修剪机制，Hong 2016）；related 新增 microglia、complement-synaptic-pruning；key_sources 新增 PMID:27033548；opens_questions 新增 Q-microglia-02
+
+**新登记矛盾**：无（AD补体修剪与既有Aβ寡聚体-突触毒性机制为并行通路，非冲突）
+
+**新增悬空引用**：`CX3CR1`（微胶质分形素通路受体，待建独立页）；`TREM2`（AD相关微胶质受体，待建页）
+
+**图谱更新**：新增节点 3（microglia, complement-synaptic-pruning, synaptic-pruning）；新增边 22；总计 **130 节点、743 条边**
+
+---
+
 ## 2026-07-03（文章 #69·突触稳态·赫布规则的稳定器）
 
 **源文章**：[[2026-07-03-synaptic-scaling-homeostatic-plasticity]] —《突触稳态：当赫布规则失控时，大脑如何给自己"归零"》

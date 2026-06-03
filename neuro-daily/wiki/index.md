@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-03（第69篇·突触稳态·赫布规则的稳定器）· 主题页总数：**127**（新建2页：synaptic-scaling, homeostatic-plasticity；修订4页：ltp rev11, hebbian-learning rev4, ampa-receptor rev3, astrocyte rev2；图谱约127节点、~721边；无新矛盾登记）
+> 最后更新：2026-07-04（第70篇·小胶质细胞与补体修剪·免疫系统是大脑的建筑师）· 主题页总数：**130**（新建3页：microglia, complement-synaptic-pruning, synaptic-pruning；修订1页：alzheimers-disease rev5；图谱130节点、743边；无新矛盾登记）
 
 ---
 
@@ -89,6 +89,10 @@
 - 🟢 [突触稳态缩放](concepts/synaptic-scaling.md) — Hebbian 可塑性的负反馈稳定器；乘法性等比调节所有 AMPA 受体（GluA2 通路，不同于 LTP 的 GluA1）；TNFα（星形胶质细胞）许可；视黄酸树突局部信号；Wu 2021 证明稳态缩放主动雕刻记忆特异性 **[NEW 2026-07-03]**
 - 🟢 [稳态可塑性](concepts/homeostatic-plasticity.md) — 突触缩放+内在兴奋性+突触前稳态三大类型；时间尺度隔离（小时/天 vs 秒/分）；为 Hebbian 规则提供运行前提 **[NEW 2026-07-03]**
 
+- 🟢 [小胶质细胞](concepts/microglia.md) — 大脑居民免疫细胞，占脑细胞 5–15%；在发育期主动吞噬弱活动突触（C1q/CR3/CX3CR1 通路）；在AD中被Aβ重激活为病理修剪者；知识库首次免疫-神经接口条目 **[NEW 2026-07-04]**
+- 🟢 [补体介导的突触修剪](concepts/complement-synaptic-pruning.md) — C1q→C3→iC3b标记→微胶质CR3识别→吞噬；活动依赖性选择（弱突触优先）；AD前斑块期被Aβ病理激活；C4A→精神分裂症过度修剪假说（Sekar 2016）**[NEW 2026-07-04]**
+- 🟢 [突触修剪](concepts/synaptic-pruning.md) — 发育期活动依赖的突触消除过程；人类额叶突触密度从婴儿期150%→成人水平；补体-微胶质通路是主要分子机制；与Hebbian学习互补（"不放电就被清除"）**[NEW 2026-07-04]**
+
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）**[NEW 2026-07-01]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
 - 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性 **[NEW 2026-06-28]**（填补多页悬空引用）
@@ -159,7 +163,7 @@
 
 ## diseases（疾病）
 
-- 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退（修订4次）**[NEW 2026-06-08 · 修订2026-06-29]**
+- 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退；**新增：Aβ通过C1q/C3重激活发育期补体修剪是第三条早期突触丢失通路（Hong 2016）**（修订5次）**[NEW 2026-06-08 · 修订2026-07-04]**
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**

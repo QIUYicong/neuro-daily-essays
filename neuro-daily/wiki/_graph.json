@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-03",
-  "node_count": 127,
-  "edge_count": 721,
+  "updated": "2026-07-04",
+  "node_count": 130,
+  "edge_count": 743,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1156,6 +1156,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/glutamate-glutamine-cycle.md"
+    },
+    {
+      "id": "microglia",
+      "title": "小胶质细胞",
+      "domain": "concepts",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/microglia.md"
+    },
+    {
+      "id": "complement-synaptic-pruning",
+      "title": "补体介导的突触修剪",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/complement-synaptic-pruning.md"
+    },
+    {
+      "id": "synaptic-pruning",
+      "title": "突触修剪",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/synaptic-pruning.md"
     }
   ],
   "edges": [
@@ -5123,6 +5150,121 @@
       "from": "glutamate-glutamine-cycle",
       "to": "astrocyte",
       "type": "mechanism-of"
+    },
+    {
+      "from": "microglia",
+      "to": "complement-synaptic-pruning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "microglia",
+      "to": "synaptic-pruning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "microglia",
+      "to": "astrocyte",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "tripartite-synapse",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "complement-synaptic-pruning",
+      "to": "microglia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "complement-synaptic-pruning",
+      "to": "synaptic-pruning",
+      "type": "is-a"
+    },
+    {
+      "from": "complement-synaptic-pruning",
+      "to": "alzheimers-disease",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "complement-synaptic-pruning",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "complement-synaptic-pruning",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "complement-synaptic-pruning",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "complement-synaptic-pruning",
+      "to": "astrocyte",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "complement-synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "microglia",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "complement-synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "alzheimers-disease",
+      "to": "microglia",
+      "type": "related"
+    },
+    {
+      "from": "astrocyte",
+      "to": "complement-synaptic-pruning",
+      "type": "regulates"
+    },
+    {
+      "from": "homeostatic-plasticity",
+      "to": "synaptic-pruning",
+      "type": "related"
     }
   ],
   "dangling_references": [
