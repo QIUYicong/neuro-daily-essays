@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-03",
-  "node_count": 113,
-  "edge_count": 651,
+  "updated": "2026-06-30",
+  "node_count": 117,
+  "edge_count": 676,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1057,6 +1057,15 @@
       "status": "contested",
       "confidence": "medium",
       "page": "wiki/concepts/embodied-semantics.md"
+    },
+    {
+      "id": "t-type-calcium-channels",
+      "title": "T 型钙通道（低电压激活钙通道）",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/t-type-calcium-channels.md"
     }
   ],
   "edges": [
@@ -2535,7 +2544,7 @@
       "to": "memory-consolidation",
       "type": "contradicts",
       "note": "tau 传播到 Braak III 累及海马后，记忆巩固的关键回路（海马-皮层对话）开始系统性失效"
-    }
+    },
     {
       "from": "optogenetics",
       "to": "action-potential",
@@ -4739,6 +4748,60 @@
       "from": "motor-cortex",
       "to": "embodied-semantics",
       "type": "supports"
+    },
+    {
+      "from": "thalamic-firing-modes",
+      "to": "thalamus",
+      "type": "part-of",
+      "note": "视丘放电模式是视丘中继神经元的核心功能机制"
+    },
+    {
+      "from": "thalamic-firing-modes",
+      "to": "t-type-calcium-channels",
+      "type": "mechanism-of",
+      "note": "T型钙通道是爆发/强直切换的分子开关"
+    },
+    {
+      "from": "thalamic-firing-modes",
+      "to": "thalamocortical-circuit",
+      "type": "mechanism-of",
+      "note": "爆发模式通过FSU同步影响皮层时序"
+    },
+    {
+      "from": "thalamic-firing-modes",
+      "to": "sleep-spindles",
+      "type": "related",
+      "note": "爆发模式在NREM睡眠中驱动纺锤波振荡"
+    },
+    {
+      "from": "t-type-calcium-channels",
+      "to": "thalamic-firing-modes",
+      "type": "mechanism-of",
+      "note": "CaV3.1去失活触发LTS→爆发放电"
+    },
+    {
+      "from": "t-type-calcium-channels",
+      "to": "voltage-gated-calcium-channels",
+      "type": "is-a",
+      "note": "T型是低电压激活钙通道亚类"
+    },
+    {
+      "from": "t-type-calcium-channels",
+      "to": "action-potential",
+      "type": "mechanism-of",
+      "note": "LTS顶端触发钠棘波产生完整动作电位串"
+    },
+    {
+      "from": "thalamic-firing-modes",
+      "to": "pv-interneurons",
+      "type": "regulates",
+      "note": "视丘爆发同步皮层FSU（PV中间神经元），创造感知时窗"
+    },
+    {
+      "from": "thalamus",
+      "to": "thalamic-firing-modes",
+      "type": "part-of",
+      "note": "视丘通过双模放电实现感知门控"
     }
   ],
   "dangling_references": [

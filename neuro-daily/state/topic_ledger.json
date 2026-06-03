@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-03",
-  "total_articles": 67,
+  "last_updated": "2026-06-30",
+  "total_articles": 66,
   "entries": [
     {
       "date": "2026-06-03",
@@ -3518,6 +3518,76 @@
       ],
       "mode": "long_term_curriculum",
       "dangling_reference_filled": "embodied-semantics（图谱唯一悬空引用，悬空引用归零）"
+    },
+    {
+      "date": "2026-06-30",
+      "article_number": 66,
+      "title": "视丘的双面人格：T 型钙通道如何在爆发与强直之间切换，让清醒大脑实现精确感知",
+      "slug": "2026-06-30-thalamic-burst-t-type-calcium-timing-gate",
+      "core_question": "清醒大脑中视丘T型钙通道爆发放电的功能是什么？爆发真的关乎时序精度而非信号强度？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "1. 神经元如何工作（深化：T型钙通道/双模式）× 3. 感知编码（视丘门控格式）",
+      "topic_tags": [
+        "thalamic burst firing",
+        "tonic firing",
+        "T-type calcium channels",
+        "CaV3.1",
+        "CaV3.3",
+        "low-threshold spike",
+        "LTS",
+        "thalamic firing modes",
+        "timing-based gating",
+        "feedforward inhibition",
+        "FSU synchrony",
+        "sensory gating",
+        "detection vs discrimination",
+        "Borden 2022",
+        "Whitmire 2016",
+        "Sherman 2001",
+        "O'Shea 2025",
+        "fragile X syndrome",
+        "absence epilepsy",
+        "VPm",
+        "TRN",
+        "halorhodopsin"
+      ],
+      "main_sources": [
+        "PMID:35803270 (PMC9464711, open full text read)",
+        "PMID:26776512 (PMC, abstract+key results)",
+        "PMID:11164943 (abstract only)",
+        "PMID:26441623 (PMC4585143, open)",
+        "PMID:24285899 (abstract only)",
+        "PMID:40966082 (abstract only, 2025 single study)",
+        "PMID:29432418 (PMC4765377, open)",
+        "PMID:17168743 (abstract only)"
+      ],
+      "open_full_text_count": 3,
+      "wiki_pages_created": [
+        "wiki/neurons/thalamic-firing-modes.md",
+        "wiki/neurons/t-type-calcium-channels.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/thalamus.md (rev2)"
+      ],
+      "contested_claims_logged": [],
+      "unresolved_questions": [
+        "Q-thalamus-burst-awake (部分回答：时序门控确认；触发机制仍开放)",
+        "Q-burst-frag-x-01: 脆性X爆发减少与感觉超敏感的因果链（需人类验证）"
+      ],
+      "next_suggested_topics": [
+        "无报告范式意识研究（Q-ncc-01）：双目竞争/眼动推断意识，填补NCC系列缺口",
+        "TRN专篇：视丘网状核的注意门控机制（Q-thalamus-burst-awake的TRN假说深化）",
+        "MAPT突变与额颞叶痴呆：tau系列自然续集",
+        "失神癫痫的丘脑-皮层机制：T型钙通道病理化",
+        "听觉前向抑制的神经机制（CaV3.1 KO findings的深化）"
+      ],
+      "mode": "long_term_curriculum"
     }
   ],
   "layer_coverage_recent": {

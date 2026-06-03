@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-06-30",
   "levels": [
     "speculative",
     "emerging",
@@ -824,6 +824,24 @@
       "last_changed": "2026-06-26",
       "change_reason": "新建页面。啮齿类证据established，人类证据emerging",
       "source_article": "2026-06-26-adult-neurogenesis-dentate-gyrus"
+    },
+    {
+      "slug": "thalamic-firing-modes",
+      "page": "wiki/neurons/thalamic-firing-modes.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-06-30",
+      "change_reason": "创建：Borden 2022 因果实验（清醒小鼠光遗传），Whitmire 2016 连续谱模型，Sherman 2001 经典框架。核心机制（双模切换、FSU同步、时序门控）有多篇独立证据支持，定为established。"
+    },
+    {
+      "slug": "t-type-calcium-channels",
+      "page": "wiki/neurons/t-type-calcium-channels.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-06-30",
+      "change_reason": "创建：CaV3.1 KO实验（Bayazitov 2013）、PLCβ4 KO失神模型（Cheong 2009）提供强遗传因果证据。T型通道在视丘的核心分子角色为教科书级知识，定为established。"
     }
   ],
   "embodied-semantics": {

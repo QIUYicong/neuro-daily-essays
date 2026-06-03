@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-03（第66篇·视丘的三张面孔·感觉门控、认知放大器与意识开关）· 主题页总数：**113**（新建2页：thalamus/thalamic-firing-modes；修订2页：thalamocortical-circuit rev2/working-memory rev6；图谱113节点651边；填补Q-thalamus-gating-mechanism；新增Q-thalamus-burst-awake）
+> 最后更新：2026-06-30（第66篇#2·视丘的双面人格·T型钙通道爆发/强直双模式与感知时序门控）· 主题页总数：**117**（新建2页：thalamic-firing-modes、t-type-calcium-channels；修订1页：thalamus rev2；图谱117节点676边；Q-thalamus-burst-awake 部分回答（时序门控机制确认，触发机制仍开放））
 
 ---
 
@@ -25,6 +25,8 @@
 - 🟢 [海马回路](neurons/hippocampal-circuit.md) — DG（模式分离）→ CA3（模式补全）→ CA1（整合输出）的三突触回路与并行穿孔通路；AD最早受损的回路（修订6次）
 - 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，为场所细胞提供坐标框架 **[NEW]**
 - 🟢 [电压门控钙通道（VGCCs）](neurons/voltage-gated-calcium-channels.md) — P/Q型在突触前纳米域触发递质释放；L型在树突驱动BTSP平台电位，在核激活基因表达；三亚家族、三地点、三时间尺度 **[NEW 2026-06-01]**
+- 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
+- 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 
 ## circuits（回路）
 

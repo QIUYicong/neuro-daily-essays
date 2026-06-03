@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-30",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5140,6 +5140,72 @@
         "neurodegeneration",
         "BBB",
         "TrkB agonist"
+      ]
+    },
+    {
+      "pmid": "35803270",
+      "pmcid": "PMC9464711",
+      "title": "Thalamic bursting and the role of timing and synchrony in thalamocortical signaling in the awake mouse",
+      "authors": "Borden PY et al.",
+      "journal": "Neuron",
+      "year": 2022,
+      "used_in": [
+        "2026-06-30-thalamic-burst-t-type-calcium-timing-gate"
+      ],
+      "covers": [
+        "thalamic burst firing",
+        "tonic mode",
+        "timing precision",
+        "FSU synchrony",
+        "optogenetics VPm"
+      ]
+    },
+    {
+      "pmid": "26776512",
+      "title": "Information Coding through Adaptive Gating of Synchronized Thalamic Bursting",
+      "authors": "Whitmire CJ et al.",
+      "journal": "Cell Reports",
+      "year": 2016,
+      "used_in": [
+        "2026-06-30-thalamic-burst-t-type-calcium-timing-gate"
+      ],
+      "covers": [
+        "burst-tonic continuum",
+        "sensory adaptation",
+        "detection vs discrimination",
+        "VPM"
+      ]
+    },
+    {
+      "pmid": "40966082",
+      "title": "Impaired thalamic burst firing in fragile X syndrome",
+      "authors": "O'Shea RT et al.",
+      "journal": "Cell Reports",
+      "year": 2025,
+      "used_in": [
+        "2026-06-30-thalamic-burst-t-type-calcium-timing-gate"
+      ],
+      "covers": [
+        "Fragile X syndrome",
+        "T-type calcium channel",
+        "burst firing impairment"
+      ],
+      "note": "单一研究，需独立重复"
+    },
+    {
+      "pmid": "24285899",
+      "title": "Forward suppression in the auditory cortex is caused by the Cav3.1 calcium channel-mediated switch",
+      "authors": "Bayazitov IT et al.",
+      "journal": "J Neurosci",
+      "year": 2013,
+      "used_in": [
+        "2026-06-30-thalamic-burst-t-type-calcium-timing-gate"
+      ],
+      "covers": [
+        "CaV3.1",
+        "burst-to-tonic switch",
+        "forward suppression",
+        "auditory thalamus"
       ]
     }
   ],

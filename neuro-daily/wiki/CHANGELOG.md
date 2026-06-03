@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-30（文章 #66·视丘的双面人格·T 型钙通道与感知时序门控）
+
+**源文章**：[[2026-06-30-thalamic-burst-t-type-calcium-timing-gate]] —《视丘的双面人格：T 型钙通道如何在爆发与强直之间切换，让清醒大脑实现精确感知》
+
+**新建页面（2）**：
+- `neurons/thalamic-firing-modes.md`（视丘放电模式/爆发强直双模式）🟢 established — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度非幅度；爆发-强直连续谱（Whitmire 2016）；前馈FSU同步创造10ms时窗（Borden 2022）；CaV3.1去失活机制；填补thalamus.md的悬空引用
+- `neurons/t-type-calcium-channels.md`（T型钙通道/CaV3/低电压激活钙通道）🟢 established — CaV3.1（TC）/CaV3.3（TRN）分布；失活-去失活动力学；LTS产生机制；疾病连接（失神癫痫/脆性X/PLCβ4通路）
+
+**修订页面（1）**：
+- `systems/thalamus.md`（rev2）— 更新"双模放电"小节：加入 Borden 2022 清醒因果实验（爆发→时序精度↑非幅度↑）和 Whitmire 2016 爆发-强直连续谱；更新 Q-thalamus-burst-awake 为"部分回答"；补充 key_sources
+
+**矛盾登记（0）**：新证据与既有主张一致，无新矛盾。
+
+**未解问题状态更新**：
+- Q-thalamus-burst-awake：部分回答（时序门控机制确认）；剩余开放：触发机制（TRN vs 适应性KATP）
+
+**新增边（9）**：thalamic-firing-modes↔thalamus、t-type-calcium-channels→thalamic-firing-modes、thalamic-firing-modes→pv-interneurons 等
+
+**图谱**：节点 117，边 676。
+
+---
+
 ## 2026-06-03（第 66 篇·视丘的三张面孔·感觉门控、认知放大器与意识开关）
 
 **源文章**：[[2026-06-03-thalamus-gatekeeper-cognition]] —《视丘的三张面孔：感觉门控、认知放大器与意识开关》

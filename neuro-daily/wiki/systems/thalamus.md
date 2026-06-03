@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 1
+updated: 2026-06-30
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
 related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism]
 source_articles: [2026-06-03-thalamus-gatekeeper-cognition]
-key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212"]
+key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943"]
 ---
 
 # 视丘 (Thalamus)
@@ -59,8 +59,14 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 
 ## 关键机制
 
-### 双模放电
-见 [[thalamic-firing-modes]] 专页详细讲解。简述：高 ACh（清醒）→ 强直模式；低 ACh + TRN 超极化（NREM/失活）→ 爆发模式。
+### 双模放电（修订于 2026-06-30）
+见 [[thalamic-firing-modes]] 专页详细讲解。
+
+**修订前理解**（旧模型）：高 ACh 清醒状态 → 强直模式；低 ACh/NREM 睡眠 → 爆发模式。爆发被认为仅与睡眠/麻醉相关，与感觉信息传递无关。
+
+**修订后理解**（Borden et al. 2022, PMID:35803270, 清醒小鼠因果实验）：清醒 VPm 核中约 15% 的感觉诱发响应为爆发放电。光遗传增强爆发比率至 ~30% 后，皮层响应幅度不变，但**时序精度显著提升**，皮层快速棘波单元（FSU，抑制性中间神经元）成对同步性增强，形成约 10 ms 的感知"机会窗"。爆发放电实现的是**基于时序的感知门控**，而非信号放大。
+
+感觉适应连续调控爆发-强直比率（Whitmire et al. 2016, PMID:26776512）：爆发端利于检测（是否有刺激），强直端利于辨别（刺激细节）。
 
 ### 驱动/调制框架（Sherman & Guillery 1998, PMID: 9618549）
 - **驱动型输入**（RL/driver）：携带感受野信息；大突触端钮；高概率释放；AMPA+NMDA
@@ -89,7 +95,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 
 ## 未解问题
 
-- Q-thalamus-burst-awake：清醒状态爆发放电代表什么计算功能？仅是瞬态超极化后的反弹，还是独立的感觉处理模式？
+- Q-thalamus-burst-awake：清醒爆发已确认有功能（时序精度提升），但触发机制仍开放：TRN 注意转移超极化 vs 适应性 KATP 超极化？两者比例如何？（部分回答：见 2026-06-30 文章）
 - Q-thalamus-consciousness-causal：视丘损伤本身导致意识丧失，还是只是皮层网络崩溃的先导？DBS 恢复意识的机制？
 - Q-matrix-vs-core-function：矩阵通路（弥散性 intralaminar→全皮层 L1）的功能与核心通路有何本质区别？
 - Q-thalamus-gating-mechanism：PFC→TRN→视丘核如何实现感觉注意的精确空间门控？
@@ -97,7 +103,9 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《视丘的三张面孔》文章 #66 · 整合 TC/TRN 解剖学、双模放电机制、MD-PFC 认知放大、Pulvinar 视觉门控和 CM-Pf 与意识的多层证据 · 初始置信度：高
+- 2026-06-30 · 修订（rev2） · 基于文章 #66《视丘的双面人格》· 更新"双模放电"小节：加入 Borden 2022 清醒因果实验结果（爆发→时序精度↑非幅度↑）和 Whitmire 2016 爆发-强直连续谱；更新 Q-thalamus-burst-awake 状态为"部分回答"；新增 key_sources 2 条
 
 ## 来源文章
 
 - [[2026-06-03-thalamus-gatekeeper-cognition]]
+- [[2026-06-30-thalamic-burst-t-type-calcium-timing-gate]]
