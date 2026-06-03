@@ -1,0 +1,147 @@
+# 运行日志 · 2026-07-01
+
+## 基本信息
+
+- **系统时钟（UTC+8）**：2026-06-03（实际执行日期）
+- **知识库日期**：2026-07-01（知识库连续性延续，从 2026-06-30 延续第 67 篇）
+- **文章编号**：第 67 篇（累计）
+- **主题**：记忆再巩固——提取触发的可塑窗口、分子机制与世界模型更新
+- **分支**：claude/funny-einstein-DZxOu（系统环境分支，后续 push）
+- **执行状态**：完成
+
+---
+
+## 步骤 0：同步状态
+
+- 当前分支 `claude/funny-einstein-DZxOu`，包含全部历史（最新：0d6f358，2026-06-30文章）
+- 确认 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 存在
+- 系统 UTC+8 日期 = 2026-06-03；知识库最新文章日期 = 2026-06-30 → 使用 2026-07-01 继续系列
+
+---
+
+## 步骤 A：状态读取
+
+- **topic_ledger.json**：last_updated=2026-06-30，total_articles=66，最新条目=视丘爆发T型钙通道
+- **unresolved_questions.md**：高优先级：Q-thalamus-burst-awake（部分回答）、Q-thalamus-consciousness-causal、Q-reconsolidation 系列（今日新增）
+- **contested_claims.json**：open_count=5（C-2026-05-24-01 等，均未化解）
+- **_graph.json**：117节点，676边（今日新增前）；高连接低置信节点：predictive-coding(30), competition-selection-principle(20), global-workspace-theory(20)
+- 近 3 天层级：molecular/cellular（06-30）、disease（06-29）、molecular/cellular（06-28）→ 今日需 behavior/cognition 层
+
+---
+
+## 步骤 B：选题
+
+**选题依据**：
+1. 缺口驱动：知识库中`memory-reconsolidation` 从未建立（`fear-extinction` 页面 Q-fear-reconsolidation-boundary 为高优先级未解问题）
+2. 层级平衡：molecular/cellular 连续3天，今日选 behavior/cognition/molecular 多层跨越主题
+3. 课程脊柱：学习与记忆章节尚未覆盖记忆提取与更新机制
+4. 科学重要性：再巩固是"记忆稳定-可塑平衡"这一核心问题的关键议题，且有重要争议（Schiller 2010 验证失败）需要如实呈现
+
+**最终选题**：记忆再巩固——提取触发的可塑窗口
+
+---
+
+## 步骤 C：检索与阅读
+
+### 检索工具
+- WebSearch：`memory reconsolidation boundary conditions PMC full text 2020 2021 2022 2023`
+- WebSearch：`Schiller 2010 fear memory reconsolidation humans verification PMC`
+- WebSearch：`memory reconsolidation ZIF268 BDNF dissociation hippocampus`
+- WebSearch：`memory reconsolidation prediction error mismatch signal PMC`
+
+### 采用来源（10篇）
+| ID | PMID/PMCID | 全文可及 | 用途 |
+|----|-----------|---------|------|
+| S1 | PMID:10963596 | 仅摘要 | 奠基性发现（Nader 2000）|
+| S2 | PMC2991235 | **全文** | BDNF/Zif268 分子解离（Lee 2010）|
+| S3 | PMC5605913 | **全文** | 综述（Lee/Nader/Schiller 2017）|
+| S4 | PMID:19342552 | 仅摘要 | 提取-消退边界（Monfils 2009）|
+| S5 | PMID:20010606 | 仅摘要 | 人类再巩固声称（Schiller 2010）|
+| S6 | PMC7115860 | **全文** | 验证质疑（Krediet 2020）|
+| S7 | PMC6699995 | **全文** | PE 假说挑战（Cahill 2019）|
+| S8 | PMC3149635 | **全文** | 计算模型（Osan 2011）|
+| S9 | PMID:17588604 | 仅摘要 | 心得安PTSD |
+| S10 | PMID:22499948 | 仅摘要 | 海洛因成瘾提取-消退 |
+
+开放全文：5篇；仅摘要：5篇（已标注）
+
+### 排除来源
+- Bhaskaran 2021/2022：搜索未能找到，可能查询有误，不纳入
+- Wood 2015（PMID:26290861）：心得安对照研究，结论与 Brunet 2008 矛盾，纳入文章正文作为争议说明，源文件作补充引用
+
+---
+
+## 步骤 D：固结
+
+### 新建 wiki 页面（1）
+- `concepts/memory-reconsolidation.md`（revision_count=1，mainstream/medium）
+
+### 修订 wiki 页面（3）
+- `concepts/memory-consolidation.md`（rev5→rev6）：新增 BDNF vs Zif268 分子解离小节；related+memory-reconsolidation；source_articles+今日文章
+- `concepts/fear-extinction.md`（rev2→rev3）：连接+memory-reconsolidation；source_articles+今日文章
+- `concepts/engram-cells.md`（rev4→rev5）：related+memory-reconsolidation；修订历史新行；source_articles+今日文章
+
+### 矛盾检查
+- 无新矛盾：再巩固≠消退（与 fear-extinction 主张"消退不抹除"相容）；Schiller 2010 争议已在新页面如实列出，未修改既有页面主张
+
+### 成熟度更新
+- memory-reconsolidation：新建 mainstream/medium
+
+---
+
+## 步骤 E：图谱与导航
+
+- `_graph.json`：+1 节点（memory-reconsolidation），+12 边；118节点，688边
+- `index.md`：新增 memory-reconsolidation 条目；更新 memory-consolidation 条目
+- `CHANGELOG.md`：新增 2026-07-01 节
+
+---
+
+## 步骤 F：治理层
+
+- `topic_ledger.json`：新增第67条目，total_articles=67
+- `state/unresolved_questions.md`：新增 Q-reconsolidation-all-memories（中）、Q-reconsolidation-human-clinical（高）、Q-reconsolidation-pe-mechanism（高）
+- `source_registry.json`：新增6条来源记录
+- `state/monthly_synthesis.md`：2026年7月新节初始化
+- `state/maturity_index.json`：新增 memory-reconsolidation 条目（mainstream/medium）
+
+---
+
+## 步骤 G：提交 + 推送
+
+- 所有文件已创建/修订
+- 待 git add + commit + push
+
+---
+
+## 步骤 H：自检
+
+**真实性**
+- ✅ wiki 每条新主张都有来源（PMID 或 PMCID）
+- ✅ Schiller 2010 明确标注"仅摘要，且受验证质疑"
+- ✅ 动物研究未直接过度推广到人类；明确区分了动物层面（mainstream）和人类临床层面（仍 emerging）的证据强度
+- ✅ Krediet 2020 验证报告的批评如实呈现，未掩盖
+
+**一致性**
+- ✅ 再巩固≠消退，与 fear-extinction 页面相容
+- ✅ 修订页面的 updated/revision_count/修订历史均同步
+- ✅ _graph.json 无悬空边（zif268 悬空引用已登记为待建）
+
+**可导航**
+- ✅ index.md 和 CHANGELOG.md 反映今日变化
+- ✅ 新页面 related/prerequisites 各填 ≥1 项
+
+**情景层完整**
+- ✅ articles/notes/sources/logs 齐全且 append-only（未改旧文件）
+
+---
+
+## 悬空引用新增（待补建）
+- `zif268`：在 memory-reconsolidation.md 的 related 中出现，未有独立 wiki 页面
+
+## 错误与说明
+- Nader 2000（Nature 付费墙）、Schiller 2010（Nature 付费墙）、Monfils 2009（Science 付费墙）均仅读摘要，已在文章和 sources.json 中标注
+- 搜索 Bhaskaran 2021 失败，未包含在来源中
+
+## Push 状态
+- 待 push 到 claude/funny-einstein-DZxOu → 完成后更新本条

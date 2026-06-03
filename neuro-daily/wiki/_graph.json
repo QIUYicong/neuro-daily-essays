@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-30",
+  "updated": "2026-07-01",
   "node_count": 117,
   "edge_count": 676,
   "edge_types": [
@@ -1066,6 +1066,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/t-type-calcium-channels.md"
+    },
+    {
+      "id": "memory-reconsolidation",
+      "title": "记忆再巩固",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/memory-reconsolidation.md"
     }
   ],
   "edges": [
@@ -4802,6 +4811,66 @@
       "to": "thalamic-firing-modes",
       "type": "part-of",
       "note": "视丘通过双模放电实现感知门控"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "fear-conditioning",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "fear-extinction",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "engram-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "amygdala",
+      "type": "part-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "bdnf",
+      "type": "related"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "memory-reconsolidation",
+      "type": "related"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "memory-reconsolidation",
+      "type": "related"
+    },
+    {
+      "from": "engram-cells",
+      "to": "memory-reconsolidation",
+      "type": "supports"
+    },
+    {
+      "from": "amygdala",
+      "to": "memory-reconsolidation",
+      "type": "supports"
     }
   ],
   "dangling_references": [

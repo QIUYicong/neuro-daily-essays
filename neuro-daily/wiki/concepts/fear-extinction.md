@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-05-31
-revision_count: 2
+updated: 2026-07-01
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation]
+related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
 opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02]
 source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory]
@@ -72,6 +72,7 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - [[ltd]] — 去增强机制（早期消退中的NMDA/mGluR-LTD）；恐惧条件反射与消退的双向塑性
 - [[hippocampal-circuit]] — 提供情景信号给BA，决定恐惧/消退哪套主导；消退的情景特异性来源
 - [[norepinephrine-locus-coeruleus]] — 应激时NE过度激活 → 损害消退（Plas 2024）
+- [[memory-reconsolidation]] — 与消退共享提取触发，但走向不同机制；短暂提取→再巩固，延长提取→消退
 
 ## 未解问题
 
@@ -82,7 +83,9 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高（啮齿类证据充分，人类转化大体一致）
+- 2026-07-01 · 修订 · 基于《提取的代价：记忆再巩固》文章 · 连接新增 memory-reconsolidation（消退与再巩固的边界关系）
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
+- [[2026-07-01-memory-reconsolidation-update-window]]

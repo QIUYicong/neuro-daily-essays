@@ -1,6 +1,35 @@
 # 未解问题追踪
 
-*最后更新：2026-06-30*
+*最后更新：2026-07-01*
+
+---
+
+## 2026-07-01 新增（来自"提取的代价：记忆再巩固"文章 #67）
+
+### Q-reconsolidation-all-memories（中优先级）
+
+**问题**：所有记忆类型（程序性记忆、语义记忆、声明性记忆、习惯记忆）在提取后都会经历再巩固吗？还是再巩固是某些记忆类型（如杏仁核恐惧记忆、海马情景记忆）的特有现象？
+- 程序性/运动技能记忆的再巩固证据较少且矛盾
+- 非常古老的语义记忆是否还有再巩固窗口？
+- **关联 wiki**：[[memory-reconsolidation]]、[[memory-consolidation]]、[[engram-cells]]
+- **优先级**：中（影响理论普遍性）
+
+### Q-reconsolidation-human-clinical（高优先级）
+
+**问题**：在人类中通过行为手段（提取窗口内的消退训练）可靠地操控记忆再巩固，是否可行？
+- Krediet 2020 验证报告（PMID:32563517）发现 Schiller 2010 的关键统计分析依赖非预定受试者排除
+- 后续预注册研究（包括原作者）结果不稳定
+- 药理学手段（propranolol、rapamycin）证据也相互矛盾
+- **具体待回答**：(a) 行为操控的效应量有多大（pre-specified 分析）；(b) 哪些被试特征（记忆强度、PTSD 严重度、年龄）预测是否出现再巩固；(c) 药理 + 行为联合方案是否更可靠
+- **关联 wiki**：[[memory-reconsolidation]]、[[fear-extinction]]
+- **优先级**：高（直接影响 PTSD 和成瘾临床转化）
+
+### Q-reconsolidation-pe-mechanism（高优先级）
+
+**问题**：预测误差（prediction error）在分子层面通过什么机制触发记忆不稳定化？如果 Cahill 2018 （PMID:30659275）证明 DA D1 受体和 GluN2B 均非必需，那真正的触发信号是什么？
+- 假说候选：Ca²⁺ 独立通路（mGluR？）；整合素信号；内源性 CB1 大麻素（通过内源性大麻素释放感知新颖性）
+- **关联 wiki**：[[memory-reconsolidation]]、[[dopamine-reward-prediction-error]]、[[nmda-receptor]]
+- **优先级**：高（影响再巩固的基本机制理解和药物靶点设计）
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-01",
   "levels": [
     "speculative",
     "emerging",
@@ -543,6 +543,14 @@
       "supporting_sources": 8,
       "last_status_change": "2026-06-28",
       "reason": "创建 2026-06-28（文章 #64）。TrkB三通路分子机制有大量独立一手来源；L-LTP依赖性经BDNF KO小鼠反复验证；Val66Met认知效应有人类遗传+fMRI支持（Egan 2003）；有氧运动RCT支持BDNF-认知链（Erickson 2011）；proBDNF/p75NTR→LTD机制由Woo 2005基因敲除实验直接验证；AD中BDNF受损的证据来自多种模型和死后脑组织。status=established（基础分子机制）；AD干预部分为emerging。"
+    },
+    {
+      "slug": "memory-reconsolidation",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 5,
+      "last_status_change": "2026-07-01",
+      "reason": "创建 2026-07-01（文章 #67）。动物层面再巩固现象被数百项独立研究重复，分子机制较清晰（BDNF vs Zif268 分子解离，Lee 2010）。人类行为操控层面：Schiller 2010 的验证报告（Krediet 2020）发现严重方法论问题，降低对人类临床应用证据的信心。综合评定 mainstream/medium。"
     }
   ],
   "entries": [

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-30",
-  "total_articles": 66,
+  "last_updated": "2026-07-01",
+  "total_articles": 67,
   "entries": [
     {
       "date": "2026-06-03",
@@ -3588,6 +3588,48 @@
         "听觉前向抑制的神经机制（CaV3.1 KO findings的深化）"
       ],
       "mode": "long_term_curriculum"
+    },
+    {
+      "date": "2026-07-01",
+      "article_number": 67,
+      "title": "提取的代价：记忆再巩固如何在稳固与可塑之间走钢丝",
+      "core_question": "当已固化的记忆在提取时短暂变得脆弱，再巩固窗口是大脑更新世界模型的主动机制吗？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "topic_tags": [
+        "memory-reconsolidation",
+        "fear-memory",
+        "protein-synthesis",
+        "zif268",
+        "bdnf",
+        "amygdala",
+        "ptsd"
+      ],
+      "main_sources": [
+        "PMID:10963596",
+        "PMID:21120142",
+        "PMID:28495311",
+        "PMID:32563517",
+        "PMID:30659275",
+        "PMC3149635"
+      ],
+      "unresolved_questions": [
+        "Q-reconsolidation-all-memories",
+        "Q-reconsolidation-human-clinical",
+        "Q-reconsolidation-pe-mechanism"
+      ],
+      "next_suggested_topics": [
+        "zif268/immediate-early-genes 在可塑性中的作用（填补悬空引用）",
+        "恐惧记忆的情感维度去饱和：情绪-记忆脱钩机制",
+        "成瘾记忆的提取-消退临床应用（深化 Xue 2012 方向）",
+        "预测处理框架中的记忆稳定-可塑平衡（认知层面整合）"
+      ]
     }
   ],
   "layer_coverage_recent": {

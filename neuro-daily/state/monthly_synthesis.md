@@ -524,3 +524,26 @@
 **修订wiki页**：thalamus.md（rev2，双模放电小节更新）  
 **图谱**：117节点，676边  
 **Q-thalamus-burst-awake状态**：部分回答（时序门控机制确认，触发来源仍开放）
+
+
+---
+
+## 2026 年 7 月月报（进行中）
+
+*本月首篇初始化于 2026-07-01*
+
+### 本月文章
+
+| # | 日期 | 主题 | 层级 |
+|---|------|------|------|
+| 67 | 2026-07-01 | 提取的代价：记忆再巩固如何在稳固与可塑之间走钢丝 | molecular/cellular/synaptic/brain-region/behavior/cognition |
+
+### 本月知识图谱变化
+
+- 新建节点：memory-reconsolidation（再巩固机制）
+- 修订节点：memory-consolidation、fear-extinction、engram-cells
+- 图谱总节点：118，总边数：688
+
+### 本月核心主题
+
+记忆稳定性与可塑性的平衡——记忆再巩固机制作为大脑"更新世界模型"的手段。

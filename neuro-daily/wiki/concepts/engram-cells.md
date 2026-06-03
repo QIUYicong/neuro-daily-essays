@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-06-09
-revision_count: 4
+updated: 2026-07-01
+revision_count: 5
 dimensions: [cellular, brain-region, behavior, cognition, methods]
-related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics]
+related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-reconsolidation]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
 opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence]
 source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience]
@@ -113,9 +113,11 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；系统巩固框架补充：沉默印迹（Roy 2016）可能是被阻断系统巩固（突触权重未随时间恢复）的结果；皮层印迹的建立是系统巩固的细胞层面输出
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"印迹细胞分配的竞争机制"小节，将 CREB 竞争纳入嵌套竞争-遴选架构；新增 [[competition-selection-principle]] 到 related 字段
 - 2026-06-09 · 修订 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · 补充 c-fos-tTA 标记系统的技术细节（PMID:24478647 全文，dox 窗口机制，~2-6% DG 细胞稀疏性）；新增 [[optogenetics]] 到 related；补充假记忆实验的完整分子-行为链；将 revision_count 升至 4
+- 2026-07-01 · 修订 · 基于《提取的代价：记忆再巩固》文章 · 新增 [[memory-reconsolidation]] 到 related；印迹细胞的突触权重在再巩固窗口内可被选择性修改，是记忆更新的细胞基础
 
 ## 来源文章
 
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-06-09-optogenetics-causal-neuroscience]]
+- [[2026-07-01-memory-reconsolidation-update-window]]

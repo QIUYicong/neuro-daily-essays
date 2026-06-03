@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-07-01（文章 #67·记忆再巩固·提取触发的可塑窗口）
+
+**源文章**：[[2026-07-01-memory-reconsolidation-update-window]] —《提取的代价：记忆再巩固如何在稳固与可塑之间走钢丝》
+
+**新建页面（1）**：
+- `concepts/memory-reconsolidation.md`（记忆再巩固）🟡 mainstream/medium — 奠基于 Nader 2000（PMID:10963596）；分子解离 BDNF（巩固）vs Zif268（再巩固，Lee 2010）；不稳定化（NR2B-NMDA/calcineurin/GluR2内化/UPS降解）→ 重稳定（Zif268/CB1/新蛋白合成）；边界条件（提取时长/预测误差/记忆强度）；Schiller 2010 人类证据受 Krediet 2020 验证质疑；临床应用初步（海洛因 Xue 2012）
+
+**修订页面（4）**：
+- `concepts/memory-consolidation.md`（rev6）— 新增"再巩固与初始巩固的分子解离"小节（BDNF vs Zif268）；related 新增 memory-reconsolidation；dimensions 补充 molecular
+- `concepts/fear-extinction.md`（rev3）— 连接新增 memory-reconsolidation（消退与再巩固的边界关系）
+- `concepts/engram-cells.md`（rev5）— related 新增 memory-reconsolidation；印迹细胞突触在再巩固窗口内可选择性修改
+
+**矛盾登记（0）**：新证据与既有 fear-extinction 主张（消退 ≠ 抹除）相容；Schiller 2010 争议已记入新页面正文，不影响既有页面。
+
+**新增未解问题（3）**：
+- Q-reconsolidation-all-memories：所有记忆类型是否均可再巩固？
+- Q-reconsolidation-human-clinical：人类行为操控可靠性如何提高？
+- Q-reconsolidation-pe-mechanism：预测误差的不稳定化分子通路是什么？
+
+**悬空引用新增**：`zif268`（在 memory-reconsolidation.md 的 related 中出现，待建页）
+
+---
+
 ## 2026-06-30（文章 #66·视丘的双面人格·T 型钙通道与感知时序门控）
 
 **源文章**：[[2026-06-30-thalamic-burst-t-type-calcium-timing-gate]] —《视丘的双面人格：T 型钙通道如何在爆发与强直之间切换，让清醒大脑实现精确感知》

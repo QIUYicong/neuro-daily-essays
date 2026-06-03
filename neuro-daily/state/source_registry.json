@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-01",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5209,5 +5209,72 @@
       ]
     }
   ],
-  "total_sources": 263
+  "total_sources": 263,
+  "entries": [
+    {
+      "pmid": "10963596",
+      "title": "Fear memories require protein synthesis in the amygdala for reconsolidation",
+      "year": 2000,
+      "first_used": "2026-07-01",
+      "covered_aspects": [
+        "reconsolidation discovery",
+        "anisomycin amygdala"
+      ]
+    },
+    {
+      "pmid": "21120142",
+      "pmcid": "PMC2991235",
+      "title": "Memory reconsolidation mediates the updating of hippocampal memory content",
+      "year": 2010,
+      "first_used": "2026-07-01",
+      "covered_aspects": [
+        "BDNF vs Zif268 dissociation",
+        "updating function hypothesis"
+      ]
+    },
+    {
+      "pmid": "28495311",
+      "pmcid": "PMC5605913",
+      "title": "An update on memory reconsolidation updating",
+      "year": 2017,
+      "first_used": "2026-07-01",
+      "covered_aspects": [
+        "molecular mechanisms",
+        "boundary conditions",
+        "clinical evidence review"
+      ]
+    },
+    {
+      "pmid": "32563517",
+      "pmcid": "PMC7115860",
+      "title": "Verification report of Schiller et al. 2010",
+      "year": 2020,
+      "first_used": "2026-07-01",
+      "covered_aspects": [
+        "Schiller 2010 methodological critique",
+        "human reconsolidation reliability"
+      ]
+    },
+    {
+      "pmid": "30659275",
+      "pmcid": "PMC6699995",
+      "title": "Prediction error and memory destabilization in extinction within reconsolidation window",
+      "year": 2019,
+      "first_used": "2026-07-01",
+      "covered_aspects": [
+        "prediction error challenge",
+        "DA D1 and GluN2B not required"
+      ]
+    },
+    {
+      "pmcid": "PMC3149635",
+      "title": "Mismatch-based model for memory reconsolidation and extinction",
+      "year": 2011,
+      "first_used": "2026-07-01",
+      "covered_aspects": [
+        "attractor network model",
+        "low/medium/high mismatch predictions"
+      ]
+    }
+  ]
 }

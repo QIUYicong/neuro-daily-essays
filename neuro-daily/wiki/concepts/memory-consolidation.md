@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-05-31
-revision_count: 5
-dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation]
+updated: 2026-07-01
+revision_count: 6
+dimensions: [whole-brain-network, brain-region, behavior, cognition, molecular]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, memory-reconsolidation]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-shy-vs-active-consolidation, Q-rem-sleep-role]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-01-memory-reconsolidation-update-window]
 key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380"]
 ---
 
@@ -169,7 +169,30 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · NREM三重奏小节深化：纺锤波的主动丘脑-皮层触发机制（CT→TRN→纺锤波→树突钙预热）和因果实验（Latchoumane 2017）；related/prerequisites新增sleep-spindles、cortical-slow-oscillation、thalamocortical-circuit；key_sources扩充4个
 - 2026-05-31 · 修订 · 基于《REM睡眠与情绪记忆》文章 · 当前理解节新增REM睡眠角色段落（Boyce 2016光遗传因果链、van der Helm 2011人类fMRI、Walker SFSR假说）；关键证据表新增2行；连接新增rem-sleep/emotional-memory-depotentiation；Q-rem-sleep-role标记为部分解答；key_sources扩充3个
 
+## 再巩固与初始巩固的分子解离
+
+（2026-07-01 新增）
+
+再巩固（reconsolidation）揭示了初始巩固分子机制的一个关键比较维度：
+
+**初始巩固关键分子**：BDNF → TrkB → mTOR/MAPK → CaMKII → AMPA 受体插入
+**再巩固关键 IEG**：Zif268（Egr1），而非 BDNF
+
+Lee（2010, PMID:21120142）的解离实验：阻断 BDNF 损伤初始情景巩固，但不影响随后对该情景的恐惧更新；阻断 Zif268 则反之。这意味着"稳固一段记忆"和"更新一段既有记忆"虽然都需要蛋白质合成，但调用的是不同的基因表达程序——大脑似乎在分子层面区分了"写入"（BDNF）和"覆写"（Zif268）这两种操作。
+
+详见 [[memory-reconsolidation]]。
+
+## 修订历史
+
+- 2026-06-02 · 创建 · 基于《记忆的夜间旅行》文章 · 填补了 hippocampal-circuit、sharp-wave-ripples、place-cell、engram-cells 共4个页面的最高优先级悬空引用 · 初始置信度：高
+- 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"系统巩固中的竞争遴选"小节；新增 SHY 假说作为竞争-遴选的极端形式；added [[competition-selection-principle]] to related
+- 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 证据表新增3行（Robinson 2026因果充分性、Chang 2025微结构分时、Yang 2024清醒标记）；key_sources扩充；related新增norepinephrine-locus-coeruleus；source_articles新增2026-06-17
+- 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · NREM三重奏小节深化：纺锤波的主动丘脑-皮层触发机制（CT→TRN→纺锤波→树突钙预热）和因果实验（Latchoumane 2017）；related/prerequisites新增sleep-spindles、cortical-slow-oscillation、thalamocortical-circuit；key_sources扩充4个
+- 2026-05-31 · 修订 · 基于《REM睡眠与情绪记忆》文章 · 当前理解节新增REM睡眠角色段落（Boyce 2016光遗传因果链、van der Helm 2011人类fMRI、Walker SFSR假说）；关键证据表新增2行；连接新增rem-sleep/emotional-memory-depotentiation；Q-rem-sleep-role标记为部分解答；key_sources扩充3个
+- 2026-07-01 · 修订 · 基于《提取的代价：记忆再巩固》文章 · 新增"再巩固与初始巩固的分子解离"小节（BDNF vs Zif268）；related 新增 memory-reconsolidation；dimensions 新增 molecular；source_articles 扩充
+
 ## 来源文章
 
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-05-31-rem-sleep-emotional-memory]]
+- [[2026-07-01-memory-reconsolidation-update-window]]
