@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-06-03（第 66 篇·视丘的三张面孔·感觉门控、认知放大器与意识开关）
+
+**源文章**：[[2026-06-03-thalamus-gatekeeper-cognition]] —《视丘的三张面孔：感觉门控、认知放大器与意识开关》
+
+**核心任务**：从近期分子/疾病系列（tau, BDNF, NCC）转回系统/回路层级；填补 Q-thalamus-gating-mechanism（睡眠纺锤波文章遗留）；整合视觉注意（Pulvinar-V1）、工作记忆（MD-PFC）和意识（CM-Pf）的视丘视角；建立 thalamus 专页作为系统层核心节点。
+
+**新建页面（2）**：
+- `systems/thalamus.md`（视丘）🟢 established / 置信度高 — TRN/TC解剖学、双模放电调控、一次/高次核区分（Sherman框架）、Pulvinar-V1因果证据（Purushothaman 2012）、MD-PFC工作记忆放大（Parnaudeau 2018）、CM-Pf与意识（Cacciatore 2025）
+- `concepts/thalamic-firing-modes.md`（视丘双模放电）🟢 established / 置信度高 — T型Ca²⁺通道机制、tonic/burst信息论差异（Zeldenrust 2018）、清醒爆发功能（Borden 2022 因果）、timing-based gating模型
+
+**修订页面（2）**：
+- `circuits/thalamocortical-circuit.md`（修订 #2）— 新增：一次/高次视丘核区分、驱动/调制型突触对比表、PFC→TRN大型端钮解剖证据（Zikopoulos&Barbas 2006）；related 新增 thalamus/thalamic-firing-modes/working-memory/prefrontal-cortex/neural-correlates-of-consciousness；Q-thalamus-burst-awake 新增为未解问题
+- `concepts/working-memory.md`（修订 #6）— 新增MD视丘放大器角色小节：MD维持延迟期晚期活动、MD-PFC θ/β同步、认知灵活性MD-OFC依赖、精神分裂症临床证据；related 新增 thalamus, thalamocortical-circuit
+
+**矛盾处理**：无新矛盾登记。清醒爆发功能（Q-thalamus-burst-awake）登记为新开放问题而非矛盾。
+
+**新增悬空引用待补**：`[[prefrontal-cortex]]`（需要单独系统页）、`[[v1-primary-visual-cortex]]`（已有但需更新Pulvinar联系）
+
+---
+
 ## 2026-06-29（第 65 篇·tau 蛋白病理·磷酸化级联、树突棘错位与朊蛋白样传播）
 
 **源文章**：[[2026-06-29-tau-pathology-alzheimer]] —《形状即命运：tau 蛋白从微管守护者到神经原纤维缠结的分子蜕变》

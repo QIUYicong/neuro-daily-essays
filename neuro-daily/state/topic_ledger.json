@@ -1,7 +1,93 @@
 {
-  "last_updated": "2026-06-29",
-  "total_articles": 66,
+  "last_updated": "2026-06-03",
+  "total_articles": 67,
   "entries": [
+    {
+      "date": "2026-06-03",
+      "title": "视丘的三张面孔：感觉门控、认知放大器与意识开关",
+      "filename": "2026-06-03-thalamus-gatekeeper-cognition.md",
+      "wiki_pages_created": [
+        "wiki/systems/thalamus.md",
+        "wiki/concepts/thalamic-firing-modes.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/circuits/thalamocortical-circuit.md",
+        "wiki/concepts/working-memory.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "为什么高度智能化的大脑要把皮层之间的信息传递绕道视丘？视丘网状核（TRN）、一次/高次视丘核与双模放电（tonic/burst），这套看似冗余的结构究竟解决了什么根本问题？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界 / 5. 认知控制（注意门控、工作记忆MD轴）；从近期分子/疾病系列转回系统/回路层级；填补 Q-thalamus-gating-mechanism（睡眠纺锤波文章遗留的开放问题）；整合视觉注意（Pulvinar）、工作记忆（MD-PFC）和意识（CM-Pf）的视丘视角",
+      "topic_tags": [
+        "thalamus",
+        "thalamocortical circuit",
+        "thalamic reticular nucleus",
+        "TRN",
+        "burst firing",
+        "tonic firing",
+        "T-type calcium channels",
+        "CaV3.1",
+        "CaV3.3",
+        "first-order thalamus",
+        "higher-order thalamus",
+        "driver input",
+        "modulator input",
+        "Sherman Guillery",
+        "pulvinar",
+        "mediodorsal thalamus",
+        "MD thalamus",
+        "MD-PFC",
+        "working memory amplifier",
+        "attention gating",
+        "centromedian parafascicular",
+        "CM-Pf",
+        "intralaminar nuclei",
+        "thalamus consciousness",
+        "deep brain stimulation",
+        "disorders of consciousness",
+        "transthalamic pathways",
+        "wake-up call hypothesis",
+        "timing-based gating",
+        "Borden 2022",
+        "Purushothaman 2012",
+        "Halassa Kastner 2017",
+        "Zikopoulos Barbas 2006",
+        "Parnaudeau 2017"
+      ],
+      "main_sources": [
+        "PMID:35803270 (PMCID:PMC9464711, open access, full text read)",
+        "PMID:29470499 (PMCID:PMC5834212, open access, full text read)",
+        "PMID:29275841 (PMCID:PMC5862748, open access, full text read)",
+        "PMID:16837581 (PMCID:PMC6674204, open access, full text read)",
+        "PMID:29184210 (abstract only, paywall)",
+        "PMID:37237075 (PMCID:PMC10220046, open access, full text read)",
+        "PMID:22561455 (PMCID:PMC3430824, open access, full text read)",
+        "PMID:40642212 (PMCID:PMC12241866, open access, full text read)"
+      ],
+      "unresolved_questions": [
+        "Q-thalamus-burst-awake",
+        "Q-thalamus-consciousness-causal",
+        "Q-matrix-vs-core-function"
+      ],
+      "next_suggested_topics": [
+        "注意机制深化：顶叶-FEF-SC自上而下注意回路（补充TRN之上的皮层注意层）",
+        "前额叶认知控制综合文章：工作记忆（已深化）+ 决策 + 规则表征（完成课程脊柱5）",
+        "痛觉回路：从伤害感受器到前扣带回（覆盖系统课程中尚未涉及的感觉系统）",
+        "MAPT突变与FTD-MAPT（上次tau文章的建议顺延，疾病系列）",
+        "视丘髓板内核与意识障碍（DBS恢复意识的机制深化，回答Q-thalamus-consciousness-causal）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 66,
+      "note": "系统时钟UTC+8=2026-06-03（真实日期）；发现本地存在未提交的旧稿 2026-06-03-inhibitory-interneuron-diversity.md（#11，来自2026-05-29未完成会话），按append-only原则保留但不覆盖；本文为今日正式文章#66；知识库连续性延续自2026-06-29（#65，tau病理）"
+    },
     {
       "date": "2026-06-29",
       "title": "形状即命运：tau 蛋白从微管守护者到神经原纤维缠结的分子蜕变",

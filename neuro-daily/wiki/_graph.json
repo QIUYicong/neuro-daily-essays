@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-29",
-  "node_count": 110,
-  "edge_count": 637,
+  "updated": "2026-06-03",
+  "node_count": 113,
+  "edge_count": 651,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,33 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "thalamus",
+      "title": "视丘",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/thalamus.md"
+    },
+    {
+      "id": "thalamic-firing-modes",
+      "title": "视丘双模放电",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/thalamic-firing-modes.md"
+    },
+    {
+      "id": "mediodorsal-thalamus",
+      "title": "背内侧视丘（MD）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/thalamus.md"
+    },
     {
       "id": "tau-pathology",
       "title": "tau 蛋白病理",
@@ -1033,6 +1060,84 @@
     }
   ],
   "edges": [
+    {
+      "from": "thalamus",
+      "to": "thalamocortical-circuit",
+      "type": "part-of",
+      "note": "视丘是丘脑-皮层回路的核心节点"
+    },
+    {
+      "from": "thalamic-firing-modes",
+      "to": "thalamus",
+      "type": "mechanism-of",
+      "note": "tonic/burst 双模放电是视丘门控功能的核心机制"
+    },
+    {
+      "from": "thalamic-firing-modes",
+      "to": "sleep-spindles",
+      "type": "mechanism-of",
+      "note": "TRN CaV3.3 爆发放电驱动 TRN↔TC 振荡=纺锤波"
+    },
+    {
+      "from": "thalamus",
+      "to": "working-memory",
+      "type": "supports",
+      "note": "MD 视丘维持 PFC 工作记忆延迟期晚期活动（放大器角色）"
+    },
+    {
+      "from": "thalamus",
+      "to": "neural-correlates-of-consciousness",
+      "type": "supports",
+      "note": "CM-Pf 髓板内核与意识状态关联最强；DBS 临床证据"
+    },
+    {
+      "from": "thalamus",
+      "to": "gain-control",
+      "type": "mechanism-of",
+      "note": "TRN 介导皮层注意对感觉增益的上下行门控"
+    },
+    {
+      "from": "thalamus",
+      "to": "v1-primary-visual-cortex",
+      "type": "regulates",
+      "note": "枕核（Pulvinar）灭活→V1 反应几乎消失；主动维持 V1 运转"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "thalamus",
+      "type": "regulates",
+      "note": "PFC→TRN 大型驱动型突触端钮；自上而下注意门控"
+    },
+    {
+      "from": "mediodorsal-thalamus",
+      "to": "prefrontal-cortex",
+      "type": "supports",
+      "note": "MD-PFC 双向驱动连接；MD 维持 PFC 工作记忆晚期活动"
+    },
+    {
+      "from": "mediodorsal-thalamus",
+      "to": "thalamus",
+      "type": "part-of",
+      "note": "MD 是高次视丘核；PFC 的主要视丘搭档"
+    },
+    {
+      "from": "thalamic-firing-modes",
+      "to": "thalamocortical-circuit",
+      "type": "mechanism-of",
+      "note": "tonic/burst 模式切换是丘脑-皮层回路功能多样性的分子基础"
+    },
+    {
+      "from": "voltage-gated-calcium-channels",
+      "to": "thalamic-firing-modes",
+      "type": "mechanism-of",
+      "note": "T型Ca²⁺通道（CaV3.1/CaV3.3）的失活/去失活是双模切换的分子机制"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "thalamic-firing-modes",
+      "type": "regulates",
+      "note": "高ACh→tonic（清醒）；低ACh→burst（NREM）模式"
+    },
     {
       "from": "axon-initial-segment",
       "to": "action-potential",

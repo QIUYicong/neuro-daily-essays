@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-06-19
-revision_count: 1
-dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network]
-related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex]
+updated: 2026-06-03
+revision_count: 2
+dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
+related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex, thalamus, thalamic-firing-modes, working-memory, prefrontal-cortex, neural-correlates-of-consciousness]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
-opens_questions: [Q-thalamus-gating-mechanism, Q-matrix-vs-core-function]
-source_articles: [2026-06-19-sleep-spindles-nrem]
-key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:27144033"]
+opens_questions: [Q-thalamus-gating-mechanism, Q-matrix-vs-core-function, Q-thalamus-burst-awake]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-06-03-thalamus-gatekeeper-cognition]
+key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:27144033", "PMID:35803270", "PMID:29275841", "PMID:22561455", "PMID:16837581"]
 ---
 
 # 丘脑-皮层回路 (Thalamocortical Circuit)
@@ -81,6 +81,39 @@ TRN（CaV3.3）→ GABA超极化TC → TC de-inactivate T-type → rebound burst
 | 皮层-丘脑反馈调制纺锤波振幅 | 皮层CT轴突选择性操控 + EEG | 综述 PMID:31804897 | 高 |
 | Core vs Matrix 双通路解释局部/全局纺锤波 | 解剖学 + MEG 功能标记 + 癫痫患者颅内记录 | PMID:27144033 | 中-高 |
 
+## 一次视丘核 vs 高次视丘核（Sherman & Guillery 框架）
+
+（2026-06-03 新增）
+
+Sherman 和 Guillery（1998, PMID: 9618549；Sherman 2024 综述, J Neurosci）区分两类视丘核：
+
+**一次视丘核（First-Order Nuclei）**：驱动输入来自皮层以外（感觉通路末梢）
+- LGN（外侧膝状体）→ V1；VPM→ 躯体感觉皮层；MGN → 听觉皮层
+- 功能：将外周感觉信号初译后送入皮层
+
+**高次视丘核（Higher-Order Nuclei）**：驱动输入来自**皮层第 V 层**
+- 枕核（Pulvinar）：连接全视觉皮层层级；灭活→V1 反应几乎消失（Purushothaman 2012, PMID: 22561455）
+- 背内侧核（MD）：PFC 的主要搭档；维持工作记忆延迟期晚期活动（Parnaudeau 2018, PMID: 29275841）
+- 外侧后核（LP）：顶叶关联区
+
+**关键意义**：高次视丘核形成"皮层 A → 高次视丘 → 皮层 B"的经视丘皮层间通路，与直接皮层内连接**并行**，承载不同功能。
+
+## 驱动型 vs 调制型突触输入（Driver / Modulator）
+
+（2026-06-03 新增）
+
+两类视丘输入的突触特性决定其功能（Sherman & Guillery 1998）：
+
+| 特性 | 驱动型（Driver/RL）| 调制型（Modulator/RS）|
+|------|----------|----------|
+| 端钮大小 | 大（~1.69 μm，PFC→TRN）| 小（~0.82 μm，感觉皮层→TRN）|
+| 囊泡释放概率 | 高 | 低 |
+| 突触后受体 | AMPA + NMDA | mGluR 为主 |
+| 功能 | 传递感受野/内容信息 | 调整传递效率/增益 |
+| 来源 | L5 皮层锥体细胞 / 感觉传入 | L6 皮层锥体细胞 |
+
+**PFC→TRN 的权力不对称（Zikopoulos & Barbas 2006, PMID: 16837581）**：前额叶含大型驱动型端钮，感觉皮层只有调制型端钮 → PFC 可直接"命令"TRN，感觉皮层只能"请求"TRN → 这是注意自上而下控制的解剖基础。
+
 ## 连接
 
 - [[sleep-spindles]] — TRN↔TC 振荡是纺锤波的生成回路
@@ -88,16 +121,23 @@ TRN（CaV3.3）→ GABA超极化TC → TC de-inactivate T-type → rebound burst
 - [[acetylcholine-cortex]] — 高ACh（基底前脑→丘脑）把TRN/TC切换到强直（清醒）模式；低ACh（睡眠）解放振荡模式
 - [[gain-control]] — 丘脑是皮层增益控制的上游节点；TRN介导感觉注意的皮层-丘脑反馈门控
 - [[sharp-wave-ripples]] — SWR时序嵌套在纺锤波内，通过内嗅皮层→皮层路径与丘脑-皮层接收窗口协同
+- [[thalamus]] — 视丘综合页面（结构、MD/Pulvinar/TRN、意识关联）
+- [[thalamic-firing-modes]] — tonic/burst 双模放电的离子通道机制专页
+- [[working-memory]] — MD-PFC 轴：工作记忆延迟期晚期活动的视丘放大器
+- [[neural-correlates-of-consciousness]] — 髓板内核群（CM-Pf）与意识状态
 
 ## 未解问题
 
 - Q-thalamus-gating-mechanism：清醒状态下皮层注意（dlPFC、顶叶）如何通过皮层-丘脑-TRN通路精确门控特定感觉丘脑核，实现感觉注意？
 - Q-matrix-vs-core-function：矩阵通路弥散性纺锤波是否有独特的功能（如情感记忆巩固、意识全局广播），而非只是核心通路的"漫射版"？
+- Q-thalamus-burst-awake：清醒动物视丘爆发放电的具体触发条件和功能？timing-based gating 在人类视丘中是否可验证？
 
 ## 修订历史
 
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · 建立丘脑回路专页，整合TRN/TC机制和Core/Matrix通路 · 初始置信度：高
+- 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增：一次/高次视丘核区分（Sherman框架）、驱动/调制型突触对比表、PFC→TRN大型端钮解剖学证据（Zikopoulos&Barbas）、枕核门控V1（Purushothaman）、MD工作记忆放大（Parnaudeau）；related 新增 thalamus/thalamic-firing-modes/working-memory/prefrontal-cortex/neural-correlates-of-consciousness
 
 ## 来源文章
 
 - [[2026-06-19-sleep-spindles-nrem]]
+- [[2026-06-03-thalamus-gatekeeper-cognition]]

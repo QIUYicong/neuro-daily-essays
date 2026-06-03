@@ -1,0 +1,130 @@
+# 运行日志 2026-06-03（视丘文章）
+
+- **运行时间**：2026-06-03（UTC+8 实际日期，真实系统时钟）
+- **文章编号**：第 66 篇
+- **主题**：视丘的三张面孔：感觉门控、认知放大器与意识开关
+- **课程轨道**：3. 大脑如何编码世界 / 5. 认知控制；从近期分子/疾病系列转回系统/回路层级
+- **字数**：约 4800 汉字
+- **branch**：main
+- **note**：本地发现未提交的旧稿 2026-06-03-inhibitory-interneuron-diversity.md（来自2026-05-29未完成会话，#11），按append-only原则保留，同时提交
+
+---
+
+## 文献检索与选题
+
+### 检索词与数据源
+
+1. PubMed/PMC：`thalamic gating relay burst mode thalamocortical loops review 2020-2024`
+2. PubMed/PMC：`thalamic reticular nucleus TRN attention gating review`
+3. PubMed/PMC：`Sherman Guillery first-order higher-order thalamus driver modulator review`
+4. PubMed/PMC：`Halassa mediodorsal thalamus working memory prefrontal cortex`
+5. PubMed/PMC：`thalamus consciousness gating pulvinar review`
+
+### 候选来源（10篇）
+
+| 来源 | PMID/PMCID | 全文状态 | 采用/排除 |
+|------|-----------|---------|---------|
+| Borden et al. 2022, Neuron | PMID:35803270, PMCID:PMC9464711 | 开放全文 | ✅ 采用 |
+| Zeldenrust et al. 2018, PLoS CB | PMCID:PMC5834212 | 开放全文 | ✅ 采用 |
+| Parnaudeau et al. 2018, Biol Psych | PMID:29275841, PMCID:PMC5862748 | 开放全文 | ✅ 采用 |
+| Zikopoulos & Barbas 2006, JNeurosci | PMID:16837581, PMCID:PMC6674204 | 开放全文 | ✅ 采用 |
+| Halassa & Kastner 2017, NatNeurosci | PMID:29184210 | 付费，仅摘要 | ✅ 采用（摘要）|
+| Ahissar et al. 2023, CommBiol | PMID:37237075, PMCID:PMC10220046 | 开放全文 | ✅ 采用 |
+| Purushothaman et al. 2012, NatNeurosci | PMID:22561455, PMCID:PMC3430824 | 开放全文 | ✅ 采用 |
+| Cacciatore et al. 2025, FrontNeurol | PMID:40642212, PMCID:PMC12241866 | 开放全文 | ✅ 采用 |
+| Sherman 2024, JNeurosci | DOI:10.1523/JNEUROSCI.0909-24.2024 | PDF不可解析 | ✅ 采用（标注未读全文）|
+| Sherman & Guillery 1998, PNAS | PMID:9618549 | 历史经典 | ✅ 采用（历史背景）|
+
+**总计**：10篇来源；6篇开放全文；2篇仅摘要；1篇PDF不可解析；1篇历史经典
+**满足要求**：≥5个来源（10）、≥2篇开放全文（6）、≥1个官方机构来源（NIH/NINDS 机构研究）
+
+### 排除来源
+
+- 多篇关于 TRN 和睡眠纺锤波的论文：已在 2026-06-19 睡眠纺锤波文章中覆盖，避免重复
+- Thalamus and Sleep 类论文：该主题已在知识库中充分覆盖
+
+---
+
+## 选题决策
+
+- **模式**：长期课程脊柱（课程路线 3/5）
+- **理由**：(a) Q-thalamus-gating-mechanism（睡眠纺锤波文章遗留的高优先级开放问题）；(b) 近期分子/疾病层过重（tau、BDNF、NCC），需要转回系统/回路层；(c) 视丘是知识地图中的重要系统节点，对连接多个已有概念（工作记忆、V1、睡眠纺锤波、意识）有高价值
+- **层级**：分子/细胞/微回路/脑区/全脑网络/认知（跨层文章，提供系统整合视角）
+
+---
+
+## wiki 固结步骤
+
+### 新建页面
+
+1. `wiki/systems/thalamus.md` — 视丘系统级页面，覆盖 TRN/TC 解剖学、双模放电调控、一次/高次核区分、Pulvinar-V1、MD-PFC、CM-Pf 与意识
+2. `wiki/concepts/thalamic-firing-modes.md` — tonic/burst 双模放电专页，T型Ca²⁺通道机制、信息论特性、清醒爆发功能
+
+### 修订页面
+
+3. `wiki/circuits/thalamocortical-circuit.md`（rev #2）— 新增一次/高次核区分（Sherman框架）、驱动/调制型突触表、PFC→TRN大型端钮（Zikopoulos&Barbas）、MD工作记忆放大（Parnaudeau）、枕核门控V1（Purushothaman）；related/questions 扩充
+4. `wiki/concepts/working-memory.md`（rev #6）— 新增MD视丘放大器角色：MD维持延迟期晚期活动、MD-PFC θ/β同步、认知灵活性、精神分裂症证据；related 新增 thalamus/thalamocortical-circuit
+
+### 矛盾检查
+
+无新矛盾登记。清醒爆发功能登记为新开放问题（Q-thalamus-burst-awake），不作为矛盾处理。
+
+---
+
+## 新增未解问题
+
+- Q-thalamus-burst-awake（高优先级）：清醒视丘爆发的触发机制和功能地位
+- Q-thalamus-consciousness-causal（高优先级）：视丘损伤与意识丧失的因果性
+
+---
+
+## 图谱更新
+
+- 新增节点：3（thalamus, thalamic-firing-modes, mediodorsal-thalamus）
+- 新增边：14（主要：thalamus→thalamocortical-circuit, thalamic-firing-modes→sleep-spindles, thalamus→working-memory, thalamus→NCC, PFC→thalamus, MD→PFC 等）
+- 总计：113节点，651边
+
+---
+
+## 已生成文件
+
+情景层（append-only）：
+- neuro-daily/articles/2026-06-03-thalamus-gatekeeper-cognition.md
+- neuro-daily/notes/2026-06-03-thalamus-reading-notes.md
+- neuro-daily/sources/2026-06-03-thalamus-sources.json
+- neuro-daily/logs/2026-06-03-thalamus-run.log
+
+本地旧稿（未修改，append-only 保留）：
+- neuro-daily/articles/2026-06-03-inhibitory-interneuron-diversity.md
+- neuro-daily/notes/2026-06-03-reading-notes.md
+- neuro-daily/sources/2026-06-03-sources.json
+- neuro-daily/logs/2026-06-03-run.log
+
+语义层（wiki）：
+- wiki/systems/thalamus.md（新建）
+- wiki/concepts/thalamic-firing-modes.md（新建）
+- wiki/circuits/thalamocortical-circuit.md（修订）
+- wiki/concepts/working-memory.md（修订）
+
+治理层（状态）：
+- state/topic_ledger.json（更新，#66条目）
+- state/unresolved_questions.md（更新，Q-thalamus-*）
+- state/maturity_index.json（更新，4条记录）
+- state/monthly_synthesis.md（更新）
+- wiki/_graph.json（更新，113节点651边）
+- wiki/index.md（更新）
+- wiki/CHANGELOG.md（更新）
+
+---
+
+## 失败与限制
+
+- Sherman 2024 (J Neurosci) PDF 格式无法解析，内容来自搜索摘要，标注"未读全文"
+- Halassa & Kastner 2017 (Nat Neurosci) 付费，仅摘要
+- source_registry.json 未更新（文件极大，主要内容已在 sources/2026-06-03-thalamus-sources.json 记录）
+
+---
+
+## Push 状态
+
+见 git log 记录

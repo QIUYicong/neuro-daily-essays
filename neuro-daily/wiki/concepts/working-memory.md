@@ -6,16 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-10
-revision_count: 3
+updated: 2026-06-03
+revision_count: 6
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network]
+related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne]
-key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597"]
-updated: 2026-06-20
-revision_count: 5
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition]
+key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841"]
 ---
 
 # 工作记忆 (Working Memory)
@@ -92,6 +90,21 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 
 **与竞争-遴选架构的关系**：工作记忆是"嵌套竞争-遴选架构"（[[competition-selection-principle]]）在认知层次上的典型实例，容量限制即竞争机制的物理上限。
 
+## 背内侧视丘（MD）的工作记忆放大器角色
+
+（2026-06-03 新增，来自文章 #66）
+
+工作记忆不只是 PFC 内部回路的功能——背内侧视丘（MD）是 PFC 不可或缺的皮层下搭档。
+
+关键证据（Parnaudeau, Bolkan & Kellendonk 2018, PMID: 29275841, PMCID: PMC5862748）：
+- **MD 损害工作记忆的时间选择性**：MD 抑制（化学遗传或光遗传）损害延迟期**晚期**的维持，对早期编码无影响
+- **机制解读**：MD 不是"存储器"，而是**当 PFC 循环活动随时间衰减时的放大器**——在信号最弱的时候提供"续航"
+- **MD-mPFC 振荡同步**：任务学习期间，MD 和 mPFC 之间的 θ（4-12 Hz）和 β（13-20 Hz）同步增强——与学习进度平行，是回路级认知相关物
+- **认知灵活性**：MD 抑制 → 反转学习中出现持续性错误（行为固执），说明 MD-OFC 轴是"更新刺激-结果关联"的神经基础
+- **临床关联**：精神分裂症患者 MD-dlPFC 功能连接降低，程度与认知缺陷正相关
+
+这意味着经典的"工作记忆=PFC 内部吸引子网络"模型需要扩展：**PFC 是工作记忆的局部执行者，MD 是跨越时延的全局维持者**。
+
 ## 修订历史
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文 · 初始置信度：高
@@ -99,6 +112,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - 2026-06-10 · 修订 · 基于《瞬息之变：短时程突触可塑性》一文 · 将 [[short-term-synaptic-plasticity]] 加入 related；明确Mongillo（2008）的STP机制作为"活动无声"储存的分子基础；为Q-wm-active-vs-silent提供新的STP侧证据（Syt7慢解离动力学与储存时间窗的对应）
 - 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增 NE/ACh 对工作记忆的调制条目：α2A 受体（高亲和力 NE 受体）抑制 HCN 通道、稳定 PFC 工作记忆表征（Arnsten）；M1 ACh 受体促进持续放电（Hasselmo & Sarter 2011）；α7-nAChR 增强 dlPFC NMDA 信号稳定性（Yang 2013）；related 新增 norepinephrine-locus-coeruleus, acetylcholine-cortex
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语音工作记忆（phonological loop）与背侧语言流的解剖对应：Spt（音韵短期缓冲）↔BA44（内部发声）即Baddeley语音回路的神经底层；related 新增 dorsal-language-stream, language-network
+- 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增背内侧视丘（MD）的工作记忆放大器角色小节：MD 维持延迟期晚期活动（不影响早期）；MD-PFC θ/β 同步；认知灵活性依赖 MD-OFC；精神分裂症中 MD-dlPFC 降低∝认知缺陷；related 新增 thalamus, thalamocortical-circuit
 
 ## NE 和 ACh 对工作记忆的调制
 

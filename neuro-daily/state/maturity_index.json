@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-06-03",
   "levels": [
     "speculative",
     "emerging",
@@ -9,6 +9,38 @@
     "contested"
   ],
   "pages": [
+    {
+      "slug": "thalamus",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 8,
+      "last_status_change": "2026-06-03",
+      "reason": "创建 2026-06-03（文章 #66）。视丘解剖学和基本功能（双模放电、TRN）是教科书级共识；MD-PFC 轴、Pulvinar 门控 V1、CM-Pf 与意识均有多个因果性或系统综述证据支持。established 而非 mainstream 因为基础回路机制极为清晰，高次视丘核认知功能是近年更好建立的领域。"
+    },
+    {
+      "slug": "thalamic-firing-modes",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-06-03",
+      "reason": "创建 2026-06-03（文章 #66）。T型Ca²⁺通道介导的tonic/burst双模放电是20年以上多实验室验证的教科书知识；清醒动物的功能性爆发由Borden 2022（PMID:35803270）因果证明；信息论分析由Zeldenrust 2018支持。established。"
+    },
+    {
+      "slug": "thalamocortical-circuit",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 8,
+      "last_status_change": "2026-06-03",
+      "reason": "更新 2026-06-03（文章 #66）。原始创建于2026-06-19（纺锤波文章）；本次修订新增一次/高次视丘核区分（Sherman框架）、驱动/调制型突触证据、PFC→TRN大型端钮解剖证据、Pulvinar门控V1、MD工作记忆放大。成熟度维持established，证据基础更厚实。"
+    },
+    {
+      "slug": "working-memory",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 8,
+      "last_status_change": "2026-06-03",
+      "reason": "更新 2026-06-03（文章 #66，第6次修订）。新增MD视丘对工作记忆的放大器角色（Parnaudeau 2018因果证据）；未改变成熟度（established）；增加了MD-PFC轴这一重要子系统。"
+    },
     {
       "slug": "neural-correlates-of-consciousness",
       "status": "mainstream",
