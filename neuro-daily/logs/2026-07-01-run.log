@@ -144,4 +144,6 @@
 - 搜索 Bhaskaran 2021 失败，未包含在来源中
 
 ## Push 状态
-- 待 push 到 claude/funny-einstein-DZxOu → 完成后更新本条
+- ✅ 已推送到 `claude/funny-einstein-DZxOu`
+- **commit hash**：9bcdf68
+- **remote**：http://local_proxy@127.0.0.1:37405/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
