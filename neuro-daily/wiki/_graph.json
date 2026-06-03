@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-04",
+  "updated": "2026-06-03",
   "node_count": 132,
   "edge_count": 744,
   "edge_types": [
@@ -1201,6 +1201,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/perineuronal-nets.md"
+    },
+    {
+      "id": "critical-period",
+      "title": "发育关键期",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/critical-period.md"
     }
   ],
   "edges": [
@@ -5288,6 +5297,56 @@
       "from": "perineuronal-nets",
       "to": "gamma-oscillations",
       "type": "regulates"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "bdnf",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "ei-balance",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "microglia",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "ltd",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "orientation-selectivity",
+      "type": "related"
     }
   ],
   "dangling_references": [

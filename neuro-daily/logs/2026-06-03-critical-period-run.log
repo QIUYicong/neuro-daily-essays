@@ -1,0 +1,50 @@
+# 运行日志 · 2026-06-03（关键期）
+
+## 基本信息
+- **日期**：2026-06-03（UTC+8）
+- **文章**：#72 · 时间刻入神经回路：大脑发育关键期的开关机制与可塑性窗口的重启
+- **运行模式**：长期课程模式
+- **分支**：main
+
+## 选题决策
+- **选题来源**：课程脊柱2（神经网络如何建成）+ 前序文章自然衔接（#11 PV中间神经元、#70 突触剪枝、#71 E/I平衡）
+- **核心问题**：关键期的分子开关机制：GABA阈值触发开启，PNN/OTX2/Lynx1三道刹车关闭，ChABC/氟西汀/催产素重开
+- **图谱缺口**：critical-period 节点不存在，但被 perineuronal-nets 和 pv-interneurons 多次引用
+
+## 检索过程
+- **数据库**：PubMed NCBI E-utilities + PMC Open Access（通过 WebFetch + 并行研究代理）
+- **检索词**：critical period visual cortex PV interneuron GABA; Hensch 2005 Nature Reviews; Pizzorusso perineuronal nets ChABC; OTX2 Sugiyama 2008; BDNF critical period; Lynx1 Morishita 2010; MeCP2 critical period Krishnan; fluoxetine visual cortex Maya-Vetencourt; Lesnikova ChABC TRKB PTPsigma 2021; Devienne PNN network activity 2021; Wang microglia critical period 2025
+- **候选数**：23 篇
+- **采用**：19 篇（15 篇 PMC 开放全文/摘要可得，13 篇完整阅读）
+- **排除**：4 篇（重复、综述重复内容）
+
+## Wiki 固结
+- **新建**：critical-period（concepts/）— established, high confidence
+- **修订**：perineuronal-nets rev2（新增 PTPσ-TRKB 机制和成年 PNN 动态调节证据）
+- **修订**：pv-interneurons rev4（新增关键期微回路详情、OTX2/BDNF 驱动成熟、Rett综合征）
+- **修订**：bdnf rev2（新增关键期功能：驱动 PV 成熟，PNN-aggrecan-PTPσ 抑制 BDNF-TRKB）
+
+## 矛盾检查
+- **无新矛盾**
+- **已有潜在矛盾（未新登记）**：Devienne 2021（PNN 是动态的）vs Pizzorusso 2002（ChABC 需主动降解才能重开）——两者并不矛盾，而是说明 PNN 在没有 ChABC 的情况下也会随 PV+ 抑制而缓慢退化，但速度远低于 ChABC；未构成 contested_claims 的充分理由
+
+## 来源质量
+- **最高质量**：Kuhlman 2013 (Nature, PMC3962838)，光遗传学因果证明 PV+ 去激活是 ODP 第一步
+- **次高质量**：Lesnikova 2021 (J Neurosci, PMC7880295)，将 ChABC/氟西汀/PNN/TRKB 统一到一条分子通路
+- **需谨慎**：Wang 2025 (IOVS, PMC12013681) 是单一2025年新论文，小胶质细胞耗竭结果需独立重复
+- **仅摘要**：Hensch 1998 (Science), Pizzorusso 2002 (Science), Sugiyama 2008 (Cell), Maya-Vetencourt 2008 (Science) 均为高影响力经典但无法读取全文；已明确标注
+
+## 图谱更新
+- 新节点：critical-period（133节点，754边）
+- 新边：10 条（从/到 pv-interneurons, perineuronal-nets, bdnf, ei-balance, microglia, synaptic-pruning, ltp, ltd, homeostatic-plasticity, orientation-selectivity）
+
+## 自检结果
+- ✅ 真实性：每条 wiki 主张均有来源；区分事实/模型/推测/争议
+- ✅ 一致性：无矛盾静默覆盖；修订页面的 updated/revision_count/修订历史均更新
+- ✅ 可导航：index.md 和 CHANGELOG.md 已反映今天变化；新页 related/prerequisites 各≥1
+- ✅ 情景层：文章/笔记/来源/日志齐全；未修改旧文件
+
+## Git 状态
+- **分支**：main
+- **commit**：[待填入]
+- **push 状态**：[待填入]

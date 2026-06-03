@@ -1326,3 +1326,25 @@
 - `synaptic-transmission`（突触传递）— 课程脊柱下一站
 
 **图谱**：节点 5，边 9。
+
+---
+
+## 2026-06-03 · 文章 #72 · 时间刻入神经回路：大脑发育关键期的开关机制与可塑性窗口的重启
+
+**核心主题**：视觉皮层关键期（Critical Period）的分子开关机制——GABA 阈值触发开启，PNN/OTX2/Lynx1 三道刹车主动关闭，ChABC/氟西汀/催产素重开关键期。
+
+**新建页面（1）**：
+- `concepts/critical-period.md`（发育关键期）🟢 established — PV+成熟/PNN/OTX2/BDNF/Lynx1机制；19篇来源（13篇开放全文）；连接 pv-interneurons, perineuronal-nets, ei-balance, bdnf, microglia, synaptic-pruning, ltp, ltd
+
+**修订页面（3）**：
+- `concepts/perineuronal-nets.md` rev2 — 新增机制3（PTPσ-TRKB轴统一ChABC/氟西汀机制，Lesnikova 2021，PMC7880295）；新增成年PNN动态调节证据（Devienne 2021，PMC8265812）；related新增 critical-period, microglia
+- `circuits/pv-interneurons.md` rev4 — 新增关键期角色：PV+去激活是ODP首要微回路事件（Kuhlman 2013，PMC3962838），OTX2经PNN驱动PV成熟（Sugiyama 2008/Beurdeley 2012），BDNF设定PV成熟时间轴（Huang 1999），Rett综合征MeCP2 KO使关键期错位（Krishnan 2015，PMC4553776），小胶质细胞上游调控（Wang 2025，PMC12013681）；related新增 critical-period, bdnf, microglia
+- `concepts/bdnf.md` rev2 — 新增关键期相关角色：BDNF驱动GABAergic成熟时间轴，PNN-aggrecan-PTPσ轴抑制BDNF信号进入PV+细胞；related新增 critical-period, pv-interneurons, perineuronal-nets
+
+**矛盾登记（0）**：无新矛盾；Q-pnn-human-therapy（已有，关键期视角下新增 Q-cp-01至Q-cp-04）
+
+**新增开放问题**：Q-cp-01（人类视觉CP时序）、Q-cp-02（语言CP分子机制）、Q-cp-03（SSRI临床转化可塑性重开安全性）、Q-cp-04（不同脑区CP时间窗口的分子决定因素）
+
+**新增悬空引用（需补）**：无新悬空引用（critical-period所需关联节点均已存在）
+
+**图谱**：133节点，754边（+1节点，+10边）

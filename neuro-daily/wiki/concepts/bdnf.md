@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-28
-updated: 2026-06-28
-revision_count: 1
+updated: 2026-06-03
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, cognition, disease]
-related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation]
+related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, pv-interneurons, perineuronal-nets]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-bdnf-01, Q-bdnf-02, Q-bdnf-03]
-source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory]
+source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-03-critical-period-plasticity]
 key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053"]
 ---
 
@@ -112,8 +112,10 @@ L-LTP 不能维持 · 新生神经元减少 →
 
 ## 修订历史
 
-- 2026-06-28 · 创建 · 基于《BDNF：大脑给自己的成长信号》一文 (#64) · 整合 8 篇来源（4 篇 PMC 开放全文）· 填补多个 wiki 页面的悬空引用 [[bdnf]] · 初始置信度：高（基础机制）/中（AD 及 Val66Met 部分）
+- 2026-06-28 · 创建 · 基于《BDNF：大脑给自己的成长信号》一文 (#64) · 初始置信度：高（基础机制）/中（AD 及 Val66Met 部分）
+- 2026-06-03 · 修订 rev2 · 基于《时间刻入神经回路：关键期》(#72) · 新增关键期相关角色：BDNF 通过 TrkB 加速 GABAergic 成熟（Huang 1999）、驱动 PV+ 细胞成熟时间轴、PNN-aggrecan-PTPσ 轴抑制 BDNF 信号进入 PV+ 细胞（Lesnikova 2021）；related 新增 critical-period, pv-interneurons, perineuronal-nets
 
 ## 来源文章
 
 - [[2026-06-28-bdnf-trk-b-plasticity-memory]]
+- [[2026-06-03-critical-period-plasticity]]

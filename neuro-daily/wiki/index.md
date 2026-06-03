@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-04（第54篇·信号与噪声之间·皮层 E/I 平衡、PV 中间神经元与围神经元网）· 主题页总数：**132**（新建2页：ei-balance, perineuronal-nets；修订3页：pv-interneurons rev3, gamma-oscillations rev3, homeostatic-plasticity rev2；图谱132节点、744边；无新矛盾登记）
+> 最后更新：2026-06-03（第72篇·时间刻入神经回路·发育关键期的开关机制）· 主题页总数：**133**（新建1页：critical-period；修订3页：perineuronal-nets rev2, pv-interneurons rev4, bdnf rev2；图谱133节点、754边；无新矛盾登记）
 
 ---
 
@@ -41,6 +41,7 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [发育关键期](concepts/critical-period.md) — GABA 阈值触发开启；三道刹车（PNN/OTX2/Lynx1）主动关闭；ChABC/氟西汀/催产素可重开；MeCP2 KO 使 Rett 综合征关键期错位；弱视与语言习得的发育窗口 **[NEW 2026-06-03]**
 - 🟢 [突触剪枝](concepts/synaptic-pruning.md) — 先多建再精删策略；C1q/C3b"吃我"+CD47"别吃我"双向博弈；活动依赖（TTX实验）；dLGN/海马/前额叶分窗口；精神分裂症（C4A过度剪枝）与AD（C1q重激活）疾病连接 **[NEW 2026-06-03]**
 - 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异 **[NEW 2026-06-03]**
 - 🟢 [Hodgkin-Huxley 模型](concepts/hodgkin-huxley-model.md) — 动作电位的定量数学框架

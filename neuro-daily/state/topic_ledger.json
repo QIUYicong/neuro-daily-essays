@@ -3986,6 +3986,106 @@
         "gamma-oscillations",
         "homeostatic-plasticity"
       ]
+    },
+    {
+      "date": "2026-06-03",
+      "title": "时间刻入神经回路：大脑发育关键期的开关机制与可塑性窗口的重启",
+      "filename": "2026-06-03-critical-period-plasticity.md",
+      "wiki_pages_created": [
+        "wiki/concepts/critical-period.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/perineuronal-nets.md",
+        "wiki/circuits/pv-interneurons.md",
+        "wiki/concepts/bdnf.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "为什么大脑只在一个有限的时间窗口内具有最高可塑性？PV+ 中间神经元的成熟、围神经元网的沉积与 GABA 能回路的转变，如何协同开启和关闭皮层的经验依赖可塑性窗口？关键期关闭后是否可以重新打开？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（关键期·发育可塑性）；衔接 #11（PV中间神经元）、#70（突触剪枝/微胶质）、#71（E/I平衡）",
+      "topic_tags": [
+        "critical period",
+        "ocular dominance plasticity",
+        "ODP",
+        "PV interneurons",
+        "perineuronal nets",
+        "PNN",
+        "OTX2",
+        "BDNF",
+        "GAD65",
+        "Hensch",
+        "Pizzorusso",
+        "ChABC",
+        "chondroitinase",
+        "Lynx1",
+        "nAChR",
+        "fluoxetine",
+        "SSRI",
+        "TRKB",
+        "PTPsigma",
+        "aggrecan",
+        "MeCP2",
+        "Rett syndrome",
+        "amblyopia",
+        "visual cortex",
+        "GABAergic maturation",
+        "E/I balance",
+        "disinhibition",
+        "Kuhlman 2013",
+        "Sugiyama 2008",
+        "Huang 1999",
+        "Lesnikova 2021",
+        "Devienne 2021",
+        "Morishita 2010",
+        "Beurdeley 2012",
+        "Krishnan 2015",
+        "Wang 2025",
+        "oxytocin",
+        "microglia",
+        "critical period reopening"
+      ],
+      "main_sources": [
+        "PMID:9822384 (Science 1998, Hensch, abstract only)",
+        "PMID:10499792 (Cell 1999, Huang, abstract only)",
+        "PMID:10559430 (PMC2424259, J Neurosci 1999, Hanover, full text)",
+        "PMID:12424383 (Science 2002, Pizzorusso, abstract only)",
+        "PMID:18692473 (Cell 2008, Sugiyama, abstract only)",
+        "PMID:21071629 (PMC3387538, Science 2010, Morishita, full text)",
+        "PMID:22764251 (PMC3419577, J Neurosci 2012, Beurdeley, full text)",
+        "PMID:23975100 (PMC3962838, Nature 2013, Kuhlman, full text)",
+        "PMID:26261347 (PMC4553776, PNAS 2015, Krishnan, full text)",
+        "PMID:28039374 (PMC6596863, J Neurosci 2017, Lenssjø, full text)",
+        "PMID:28974755 (PMC5626782, Sci Rep 2017, Hou, full text)",
+        "PMID:33293360 (PMC7880295, J Neurosci 2021, Lesnikova, full text)",
+        "PMID:34045309 (PMC8265812, J Neurosci 2021, Devienne, full text)",
+        "PMID:40204929 (PMC11982226, Sci Rep 2025, Sun, full text)",
+        "PMID:40244609 (PMC12013681, IOVS 2025, Wang, full text)"
+      ],
+      "unresolved_questions": [
+        "Q-cp-01: 人类视觉关键期PNN沉积的具体时序及个体差异",
+        "Q-cp-02: 语言习得关键期的分子机制（是否共用PV/PNN/OTX2）",
+        "Q-cp-03: 临床SSRI能否在人类中安全重开特定皮层可塑性",
+        "Q-cp-04: 不同脑区关键期时间窗口差异的分子决定因素"
+      ],
+      "next_suggested_topics": [
+        "关键期与神经精神疾病（自闭症谱系障碍ASD）：E/I失衡+关键期错位的整合视角；衔接PV损伤、突触剪枝、关键期三篇文章",
+        "语言习得关键期：Broca区/Wernicke区在发育窗口内的可塑性机制；与视觉关键期的异同",
+        "睡眠与突触稳态的发育角色：慢波睡眠在关键期内是否也执行突触修剪/稳态缩放",
+        "印迹竞争与记忆分配（engram competition/allocation）：CaMKII/CREB的竞争机制",
+        "Lynx1与成年乙酰胆碱能可塑性：为何清醒觉醒状态下 ACh 不能完全重开关键期？"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 72,
+      "note": "今日为第四篇 2026-06-03 文章（#11 PV中间神经元，#66 视丘，#70 微胶质，#72 关键期）；延续日期困境（系统日期UTC+8=2026-06-03）；知识库连续性延续自#71（2026-07-04·E/I平衡）"
     }
   ],
   "layer_coverage_recent": {

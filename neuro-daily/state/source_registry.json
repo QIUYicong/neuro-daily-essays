@@ -5392,6 +5392,217 @@
         "E/I ratio and decision-making",
         "inverted-U relationship"
       ]
+    },
+    {
+      "pmid": "9822384",
+      "title": "Local GABA circuit control of experience-dependent plasticity",
+      "year": 1998,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "critical period opening",
+        "GAD65",
+        "GABA threshold"
+      ]
+    },
+    {
+      "pmid": "10499792",
+      "title": "BDNF regulates maturation of inhibition and critical period",
+      "year": 1999,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "BDNF",
+        "critical period timing",
+        "GABAergic maturation"
+      ]
+    },
+    {
+      "pmid": "10559430",
+      "pmcid": "PMC2424259",
+      "title": "BDNF overexpression induces precocious critical period",
+      "year": 1999,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "BDNF",
+        "precocious critical period"
+      ]
+    },
+    {
+      "pmid": "12424383",
+      "title": "Reactivation of ocular dominance plasticity in adult visual cortex",
+      "year": 2002,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "ChABC",
+        "perineuronal nets",
+        "critical period reopening"
+      ]
+    },
+    {
+      "pmid": "18692473",
+      "title": "Experience-dependent transfer of Otx2 into visual cortex",
+      "year": 2008,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "OTX2",
+        "PV interneurons",
+        "critical period opening"
+      ]
+    },
+    {
+      "pmid": "21071629",
+      "pmcid": "PMC3387538",
+      "title": "Lynx1, a cholinergic brake, limits plasticity in adult visual cortex",
+      "year": 2010,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "Lynx1",
+        "nAChR",
+        "critical period closure"
+      ]
+    },
+    {
+      "pmid": "22764251",
+      "pmcid": "PMC3419577",
+      "title": "Otx2 binding to perineuronal nets persistently regulates plasticity",
+      "year": 2012,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "OTX2",
+        "PNN",
+        "critical period"
+      ]
+    },
+    {
+      "pmid": "23975100",
+      "pmcid": "PMC3962838",
+      "title": "A disinhibitory microcircuit initiates critical-period plasticity",
+      "year": 2013,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "PV interneurons",
+        "disinhibition",
+        "ODP mechanism"
+      ]
+    },
+    {
+      "pmid": "26261347",
+      "pmcid": "PMC4553776",
+      "title": "MeCP2 regulates timing of critical period plasticity",
+      "year": 2015,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "MeCP2",
+        "Rett syndrome",
+        "critical period timing"
+      ]
+    },
+    {
+      "pmid": "28039374",
+      "pmcid": "PMC6596863",
+      "title": "Removal of PNNs unlocks juvenile plasticity via gamma",
+      "year": 2017,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "PNN",
+        "ChABC",
+        "gamma oscillations",
+        "critical period"
+      ]
+    },
+    {
+      "pmid": "28974755",
+      "pmcid": "PMC5626782",
+      "title": "Chondroitin sulfate required for onset and offset of critical period",
+      "year": 2017,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "chondroitin sulfate",
+        "PNN",
+        "critical period"
+      ]
+    },
+    {
+      "pmid": "33293360",
+      "pmcid": "PMC7880295",
+      "title": "Chondroitinase and antidepressants promote plasticity via TRKB from PTPsigma",
+      "year": 2021,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "ChABC",
+        "fluoxetine",
+        "TRKB",
+        "PTPsigma",
+        "PNN",
+        "critical period"
+      ]
+    },
+    {
+      "pmid": "34045309",
+      "pmcid": "PMC8265812",
+      "title": "Regulation of PNNs in adult cortex by network activity",
+      "year": 2021,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "PNN",
+        "adult plasticity",
+        "network activity"
+      ]
+    },
+    {
+      "pmid": "40204929",
+      "pmcid": "PMC11982226",
+      "title": "Oxytocin impact on visual cortex plasticity across development",
+      "year": 2025,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "oxytocin",
+        "visual cortex",
+        "critical period reopening",
+        "astrocytes"
+      ]
+    },
+    {
+      "pmid": "40244609",
+      "pmcid": "PMC12013681",
+      "title": "Microglia development and visual cortex circuit plasticity",
+      "year": 2025,
+      "used_in": [
+        "2026-06-03-critical-period-plasticity"
+      ],
+      "covers": [
+        "microglia",
+        "PV interneurons",
+        "PNN",
+        "critical period"
+      ]
     }
   ],
   "total_sources": 279,
