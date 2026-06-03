@@ -540,3 +540,17 @@
 **修订wiki页**：thalamus.md（rev2，双模放电小节更新）  
 **图谱**：117节点，676边  
 **Q-thalamus-burst-awake状态**：部分回答（时序门控机制确认，触发来源仍开放）
+
+## 2026-07-02 日条目更新（文章 #68·星形胶质细胞与三方突触）
+
+**核心贡献**：填补知识库重大盲点——117节点图谱几乎全为神经元中心，零神经胶质覆盖。本期正式引入胶质细胞框架。核心证据锚点：Henneberger 等（2010，Nature，PMC2807667）Ca²⁺ 钳制实验——将 BAPTA 注入单个星形胶质细胞后 LTP 在 100μm 范围内被完全阻断，补充外源 D-丝氨酸可恢复 LTP，首次因果证明星形胶质细胞 Ca²⁺ 依赖 D-丝氨酸释放是 LTP 的必要条件。Durkee 等（2021，Cell Reports，PMC8484065）IP3R2 KO 实验证明星形胶质细胞 Ca²⁺ 信号通路也是 LTD 的必要条件。
+
+**认知地图意义**：突触可塑性的双向调节（LTP + LTD）都有第三方参与者——星形胶质细胞不再是被动支撑结构，而是主动的突触调节器。谷氨酸-谷氨酰胺循环（EAAT2 ~80% 摄取）和 D-丝氨酸共激动补足了 NMDAR 激活的完整条件图景。
+
+**知识库质量改善**：修复了 ltp.md（rev10）和 ltd.md（rev3）的胶质细胞盲区；注册 C-2026-07-02-01（谷氨酸胞吐生理真实性争议）。
+
+**新建wiki页**：astrocyte（systems/）、tripartite-synapse、d-serine、gliotransmitter、astrocyte-calcium-signaling、glutamate-glutamine-cycle（各 concepts/）  
+**修订wiki页**：ltp.md（rev10，新增三方突触节）、ltd.md（rev3，新增星形胶质介导 LTD 节）  
+**图谱**：125节点，709边（+8节点，+33边）  
+**新增矛盾**：C-2026-07-02-01（open）  
+**新增悬空问题**：Q-astro-01（D-丝氨酸释放机制）、Q-astro-02（体内 Ca²⁺ 阈值）、Q-astro-03（人类三方突触同源性）

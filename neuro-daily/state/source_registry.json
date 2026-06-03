@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01",
+  "last_updated": "2026-07-02",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5209,8 +5209,16 @@
       ]
     }
   ],
-  ,
-  "total_sources": 271,
+  "total_sources": 278,
+  "additions_2026-07-02": [
+    {"pmid": "10322493", "pmcid": null, "title": "Tripartite synapses: glia, the unacknowledged partner", "authors": "Araque et al.", "journal": "Trends in Neurosciences", "year": 1999, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["tripartite synapse concept", "astrocyte gliotransmitter", "bidirectional signaling"]},
+    {"pmid": "20075918", "pmcid": "PMC2807667", "title": "Astrocytic control of synaptic transmission and plasticity: a target for neuroprotection", "authors": "Henneberger et al.", "journal": "Nature", "year": 2010, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["D-serine LTP requirement", "Ca2+ chelation astrocyte", "gliotransmitter D-serine release", "100μm spatial scope"]},
+    {"pmid": "7911978", "pmcid": null, "title": "Glutamate-mediated astrocyte–neuron signalling", "authors": "Parpura et al.", "journal": "Nature", "year": 1994, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["astrocyte glutamate release", "Ca2+-dependent exocytosis", "neuronal NMDAR activation"]},
+    {"pmid": "16025096", "pmcid": null, "title": "Astrocytes, from brain glue to communication elements: the revolution continues", "authors": "Volterra & Meldolesi", "journal": "Nature Reviews Neuroscience", "year": 2005, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["gliotransmission review", "astrocyte signaling diversity", "vesicular release mechanisms"]},
+    {"pmid": "34334233", "pmcid": "PMC8484065", "title": "Astrocyte-mediated spike-timing dependent long-term depression modulates synaptic properties according to spatial context", "authors": "Durkee et al.", "journal": "Cell Reports", "year": 2021, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["astrocyte-mediated LTD", "IP3R2 KO", "CB1R endocannabinoid", "spatial context synaptic plasticity"]},
+    {"pmid": "17301520", "pmcid": null, "title": "Selective stimulation of astrocyte calcium in situ does not affect neuronal excitatory synaptic activity", "authors": "Fiacco et al.", "journal": "Neuron", "year": 2007, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["Gq-GPCR specific stimulation", "astrocyte Ca2+ elevation", "no synaptic effect", "contested claim C-2026-07-02-01"]},
+    {"pmid": "24141052", "pmcid": "PMC6515705", "title": "Modulation of EAAT2 and glutamate signaling in the brain", "authors": "Cimarosti & Bhatt et al.", "journal": "Glia", "year": 2009, "used_in": ["2026-07-02-astrocyte-tripartite-synapse"], "covers": ["EAAT2 glutamate uptake", "astrocyte transporter", "glutamate clearance efficiency"]}
+  ],
   "additions_2026-07-01": [
     {"pmid": "11994752", "title": "Control of goal-directed and stimulus-driven attention in the brain", "authors": "Corbetta & Shulman 2002", "covered": ["dorsal attention network", "ventral attention network", "spatial neglect"]},
     {"pmid": "20192813", "pmcid": "PMC3683564", "title": "Attention, intention, and priority in the parietal lobe", "authors": "Bisley & Goldberg 2010", "covered": ["LIP priority map", "intraparietal sulcus", "saccade-attention coupling"]},

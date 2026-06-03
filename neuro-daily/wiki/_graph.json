@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-01",
-  "node_count": 117,
-  "edge_count": 676,
+  "updated": "2026-07-02",
+  "node_count": 125,
+  "edge_count": 709,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1084,6 +1084,60 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/biased-competition.md"
+    },
+    {
+      "id": "astrocyte",
+      "title": "星形胶质细胞",
+      "domain": "systems",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/astrocyte.md"
+    },
+    {
+      "id": "tripartite-synapse",
+      "title": "三方突触",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/tripartite-synapse.md"
+    },
+    {
+      "id": "d-serine",
+      "title": "D-丝氨酸",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/d-serine.md"
+    },
+    {
+      "id": "gliotransmitter",
+      "title": "胶质递质",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/gliotransmitter.md"
+    },
+    {
+      "id": "astrocyte-calcium-signaling",
+      "title": "星形胶质细胞钙信号",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/astrocyte-calcium-signaling.md"
+    },
+    {
+      "id": "glutamate-glutamine-cycle",
+      "title": "谷氨酸-谷氨酰胺循环",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/glutamate-glutamine-cycle.md"
     }
   ],
   "edges": [
@@ -4885,6 +4939,106 @@
       "from": "dorsal-attention-network",
       "to": "biased-competition",
       "type": "supports"
+    },
+    {
+      "from": "astrocyte",
+      "to": "tripartite-synapse",
+      "type": "part-of"
+    },
+    {
+      "from": "astrocyte",
+      "to": "d-serine",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "astrocyte",
+      "to": "astrocyte-calcium-signaling",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "astrocyte",
+      "to": "gliotransmitter",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "astrocyte",
+      "to": "glutamate-glutamine-cycle",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "astrocyte",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "astrocyte",
+      "to": "ltd",
+      "type": "regulates"
+    },
+    {
+      "from": "astrocyte",
+      "to": "synaptic-transmission",
+      "type": "regulates"
+    },
+    {
+      "from": "astrocyte-calcium-signaling",
+      "to": "d-serine",
+      "type": "regulates"
+    },
+    {
+      "from": "astrocyte-calcium-signaling",
+      "to": "gliotransmitter",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "d-serine",
+      "to": "nmda-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "d-serine",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "d-serine",
+      "to": "ltd",
+      "type": "supports"
+    },
+    {
+      "from": "tripartite-synapse",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "tripartite-synapse",
+      "to": "ltd",
+      "type": "supports"
+    },
+    {
+      "from": "tripartite-synapse",
+      "to": "synaptic-transmission",
+      "type": "related"
+    },
+    {
+      "from": "gliotransmitter",
+      "to": "nmda-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "gliotransmitter",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "glutamate-glutamine-cycle",
+      "to": "synaptic-transmission",
+      "type": "supports"
+    },
+    {
+      "from": "glutamate-glutamine-cycle",
+      "to": "astrocyte",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

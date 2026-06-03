@@ -1,7 +1,68 @@
 {
-  "last_updated": "2026-07-01",
-  "total_articles": 67,
+  "last_updated": "2026-07-02",
+  "total_articles": 68,
   "entries": [
+    {
+      "date": "2026-07-02",
+      "title": "大脑的第三方：星形胶质细胞如何改写突触的游戏规则",
+      "filename": "2026-07-02-astrocyte-tripartite-synapse.md",
+      "wiki_pages_created": [
+        "wiki/systems/astrocyte.md",
+        "wiki/concepts/tripartite-synapse.md",
+        "wiki/concepts/d-serine.md",
+        "wiki/concepts/gliotransmitter.md",
+        "wiki/concepts/astrocyte-calcium-signaling.md",
+        "wiki/concepts/glutamate-glutamine-cycle.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/ltd.md"
+      ],
+      "contested_claims_logged": ["C-2026-07-02-01"],
+      "contested_claims_evidence_updated": [],
+      "core_question": "星形胶质细胞如何通过钙信号、谷氨酸转运体和胶质递质（D-丝氨酸、ATP、谷氨酸），在突触传递中扮演主动的第三方调控角色——使两元素突触升维为三方突触，并由此影响 NMDA 受体激活、LTP 和 LTD？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular"
+      ],
+      "curriculum_track": "1. 神经元如何工作（突触传递的第三维度）；引入知识库的首个胶质细胞条目；修复 LTP/LTD wiki 页面的重要盲区（D-丝氨酸/星形胶质细胞条件未有独立节点）；系列：突触可塑性深度系列（LTP 05-26→LTD 06-04→BDNF 06-28→三方突触 07-02）",
+      "topic_tags": [
+        "astrocyte", "glial cell", "tripartite synapse", "gliotransmitter",
+        "D-serine", "serine racemase", "NMDA receptor co-agonist",
+        "astrocyte calcium signaling", "calcium wave", "IP3R", "mGluR",
+        "glutamate-glutamine cycle", "EAAT2", "GLT-1", "glutamate transporter",
+        "Araque 1999", "Henneberger 2010", "Durkee 2021", "Cornell-Bell 1990",
+        "LTP astrocyte", "LTD astrocyte", "gliotransmission controversy",
+        "perisynaptic astrocytic processes", "PAPs", "gap junctions", "connexin43",
+        "ATP adenosine A1 receptor", "endocannabinoid CB1R astrocyte",
+        "Volterra Meldolesi 2005", "Parpura 1994"
+      ],
+      "main_sources": [
+        "PMID:10322493 (abstract only, Trends Neurosci)",
+        "PMID:7911978 (abstract only, Nature 1994)",
+        "PMID:1967852 (abstract only, Science 1990)",
+        "PMID:16025096 (abstract only, Nat Rev Neurosci 2005)",
+        "PMID:20075918 (PMCID:PMC2807667, open access, full text read)",
+        "PMID:34334233 (PMCID:PMC8484065, open access, full text read)",
+        "PMID:30929313 (PMCID:PMC6515705, open access)"
+      ],
+      "unresolved_questions": [
+        "Q-astro-01",
+        "Q-astro-02",
+        "Q-astro-03"
+      ],
+      "next_suggested_topics": [
+        "稳态突触可塑性（synaptic scaling）：Turrigiano 2004/2008——神经元如何通过稳态机制防止 Hebbian 可塑性的失控？与三方突触的关系（D-丝氨酸/星形胶质细胞是否参与稳态？）",
+        "兴奋/抑制平衡（E/I balance）：继承 2026-06-03 抑制性中间神经元文章，补充 E/I 比例失衡与神经精神疾病（ASD/精神分裂）的关联；课程脊柱 1 深化",
+        "大脑发育关键期（critical period）：LTP/LTD/三方突触机制如何在发育期参与突触剪枝和回路精细化？课程脊柱 2（神经网络如何建成）",
+        "小胶质细胞（microglia）：知识库胶质细胞维度的第二步；突触剪枝的免疫细胞机制；AD 中小胶质细胞的吞噬功能；与星形胶质细胞的分工",
+        "前额叶认知控制综合：延续 DAN（07-01）；工作记忆+决策+规则表征；课程脊柱 5"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 68,
+      "note": "系统时钟UTC+8=2026-06-03（真实执行日期）；知识库虚拟日期2026-07-02；继承自2026-07-01（第67篇，DAN背侧注意网络）；本篇为知识库首次引入胶质细胞维度，补充了LTP/LTD的隐性第三方条件（D-丝氨酸/星形胶质细胞）；转换层级：从brain-region/network（07-01）到synaptic/molecular（07-02）"
+    },
     {
       "date": "2026-07-01",
       "title": "空间注意的神经回路：前额叶眼区与顶内沟如何驾驭大脑的聚光灯",

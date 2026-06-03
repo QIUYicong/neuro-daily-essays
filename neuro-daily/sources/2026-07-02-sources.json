@@ -1,0 +1,193 @@
+{
+  "date": "2026-07-02",
+  "article": "2026-07-02-astrocyte-tripartite-synapse.md",
+  "topic": "星形胶质细胞与三方突触",
+  "total_sources": 7,
+  "open_full_text_count": 2,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "10322493",
+      "pmcid": null,
+      "doi": "10.1016/S0166-2236(98)01349-6",
+      "title": "Tripartite synapses: glia, the unacknowledged partner",
+      "authors": "Araque A, Parpura V, Sanzgiri RP, Haydon PG",
+      "journal": "Trends in Neurosciences",
+      "year": 1999,
+      "volume": "22",
+      "issue": "5",
+      "pages": "208-215",
+      "full_text_available": false,
+      "full_text_read": false,
+      "abstract_read": true,
+      "content_used": "三方突触概念的提出；星形胶质细胞 Ca²⁺ 信号；胶质递质概念",
+      "notes": "奠基性文章，提出三方突触框架；仅读摘要"
+    },
+    {
+      "id": "S2",
+      "pmid": "7911978",
+      "pmcid": null,
+      "doi": "10.1038/369744a0",
+      "title": "Glutamate-mediated astrocyte-neuron signalling",
+      "authors": "Parpura V, Basarsky TA, Liu F, Jeftinija K, Jeftinija S, Haydon PG",
+      "journal": "Nature",
+      "year": 1994,
+      "volume": "369",
+      "issue": "6483",
+      "pages": "744-747",
+      "full_text_available": false,
+      "full_text_read": false,
+      "abstract_read": true,
+      "content_used": "星形胶质细胞释放谷氨酸并激活邻近神经元的第一实验证据",
+      "notes": "第一次实验证明星形胶质细胞→神经元的主动信号；体外培养实验；仅读摘要"
+    },
+    {
+      "id": "S3",
+      "pmid": "1967852",
+      "pmcid": null,
+      "doi": "10.1126/science.1967852",
+      "title": "Glutamate induces calcium waves in cultured astrocytes: long-range glial signaling",
+      "authors": "Cornell-Bell AH, Finkbeiner SM, Cooper MS, Smith SJ",
+      "journal": "Science",
+      "year": 1990,
+      "volume": "247",
+      "issue": "4941",
+      "pages": "470-473",
+      "full_text_available": false,
+      "full_text_read": false,
+      "abstract_read": true,
+      "content_used": "星形胶质细胞 Ca²⁺ 波的发现；Fluo-3 成像方法；波速 15-27 μm/s",
+      "notes": "第一次报告星形胶质细胞钙波；奠基性实验；仅读摘要"
+    },
+    {
+      "id": "S4",
+      "pmid": "16025096",
+      "pmcid": null,
+      "doi": "10.1038/nrn1722",
+      "title": "Astrocytes, from brain glue to communication elements: the revolution continues",
+      "authors": "Volterra A, Meldolesi J",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2005,
+      "volume": "6",
+      "issue": "8",
+      "pages": "626-640",
+      "full_text_available": false,
+      "full_text_read": false,
+      "abstract_read": true,
+      "content_used": "EAAT2 清除 ~80% 突触谷氨酸；谷氨酸-谷氨酰胺循环；胶质递质综述",
+      "notes": "高质量 Nat Rev Neurosci 综述；2005 年数据；仅读摘要"
+    },
+    {
+      "id": "S5",
+      "pmid": "20075918",
+      "pmcid": "PMC2807667",
+      "doi": "10.1038/nature08518",
+      "title": "Long-term potentiation depends on release of D-serine from astrocytes",
+      "authors": "Henneberger C, Papouin T, Oliet SH, Rusakov DA",
+      "journal": "Nature",
+      "year": 2010,
+      "volume": "463",
+      "issue": "7278",
+      "pages": "232-236",
+      "full_text_available": true,
+      "full_text_read": true,
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2807667/",
+      "content_used": [
+        "单个星形胶质细胞 Ca²⁺ 钳制消除 LTP（<100μm 范围）",
+        "外源 D-丝氨酸恢复 LTP",
+        "NMDA 受体响应 -22%",
+        "HOAsp 阻断 D-丝氨酸合成后 LTP 消失",
+        "单个星形胶质细胞的影响范围（<100μm，完全恢复 >200μm）"
+      ],
+      "notes": "关键因果实验；开放全文已读（PMC2807667）；高质量"
+    },
+    {
+      "id": "S6",
+      "pmid": "34334233",
+      "pmcid": "PMC8484065",
+      "doi": "10.1016/j.tins.2021.06.010",
+      "title": "Astrocyte and neuron cooperation in long-term depression",
+      "authors": "Durkee C, Kofuji P, Navarrete M, Araque A",
+      "journal": "Trends in Neurosciences",
+      "year": 2021,
+      "volume": "44",
+      "issue": "11",
+      "pages": "837-848",
+      "full_text_available": true,
+      "full_text_read": true,
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8484065/",
+      "content_used": [
+        "星形胶质细胞参与 LTD 的三条路径（D-丝氨酸、ATP/腺苷、谷氨酸）",
+        "内源大麻素 CB1R 信号需通过星形胶质细胞",
+        "IP3R 条件性敲除损害 LTD 和行为记忆"
+      ],
+      "notes": "Trends Neurosci 综述；开放全文已读（PMC8484065）；覆盖 LTD 机制"
+    },
+    {
+      "id": "S7",
+      "pmid": "30929313",
+      "pmcid": "PMC6515705",
+      "doi": "10.1111/cns.13123",
+      "title": "Astrocyte morphology: Diversity, plasticity, and role in neurological diseases",
+      "authors": "Zhou B, Zuo YX, Jiang RT",
+      "journal": "CNS Neuroscience & Therapeutics",
+      "year": 2019,
+      "volume": "25",
+      "issue": "6",
+      "pages": "665-673",
+      "full_text_available": true,
+      "full_text_read": false,
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6515705/",
+      "content_used": [
+        "~80% 星形胶质细胞膜面积是 PAPs",
+        "海马 CA1 ~57% 突触被 PAPs 包裹",
+        "反应性星形胶质增生的形态改变"
+      ],
+      "notes": "开放全文可查；形态学数据；摘要为主"
+    }
+  ],
+  "search_queries": [
+    {
+      "database": "PubMed",
+      "query": "tripartite synapse astrocyte Araque",
+      "results": 8,
+      "adopted": 1
+    },
+    {
+      "database": "PubMed",
+      "query": "Henneberger D-serine LTP astrocyte Nature 2010",
+      "results": 1,
+      "adopted": 1
+    },
+    {
+      "database": "PubMed",
+      "query": "Volterra Meldolesi astrocytes brain glue communication elements",
+      "results": 1,
+      "adopted": 1
+    },
+    {
+      "database": "PubMed",
+      "query": "Parpura glutamate astrocyte neuron signaling 1994",
+      "results": 3,
+      "adopted": 1
+    },
+    {
+      "database": "PubMed",
+      "query": "Cornell-Bell calcium waves astrocytes glutamate 1990 Science",
+      "results": 1,
+      "adopted": 1
+    },
+    {
+      "database": "PubMed",
+      "query": "gliotransmission astrocyte D-serine LTP",
+      "results": 7,
+      "adopted": 0
+    },
+    {
+      "database": "PubMed",
+      "query": "astrocyte calcium signaling synaptic plasticity review",
+      "results": 8,
+      "adopted": 0
+    }
+  ]
+}

@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-07-02（文章 #68·大脑的第三方·星形胶质细胞与三方突触）
+
+**源文章**：[[2026-07-02-astrocyte-tripartite-synapse]] —《大脑的第三方：星形胶质细胞如何改写突触的游戏规则》
+
+**新建页面（6 页）**：
+- `systems/astrocyte.md`：星形胶质细胞——三方突触第三方成员；PAPs 覆盖 57% 突触；EAAT2 清除 80% 谷氨酸；D-丝氨酸供给；Ca²⁺ 信号；LTP/LTD 必要参与者（established）
+- `concepts/tripartite-synapse.md`：三方突触——Araque 1999 框架；双向神经元-星形胶质细胞信号；Ca²⁺-D-丝氨酸-NMDA 轴；LTP/LTD 的三方必要性（mainstream）
+- `concepts/d-serine.md`：D-丝氨酸——NMDA 受体 GluN1 协同激动剂；星形胶质细胞来源；Ca²⁺ 依赖释放；LTP 的隐性必要条件（Henneberger 2010）（mainstream）
+- `concepts/gliotransmitter.md`：胶质递质——D-丝氨酸/ATP/谷氨酸；三种释放机制；争议（medium confidence；C-2026-07-02-01）
+- `concepts/astrocyte-calcium-signaling.md`：星形胶质细胞钙信号——mGluR-IP₃-ER 路径；钙波传播；门控 D-丝氨酸（established）
+- `concepts/glutamate-glutamine-cycle.md`：谷氨酸-谷氨酰胺循环——EAAT2 清除；GS 转化；递质再生；防兴奋毒性（established）
+
+**修订页面（2 页）**：
+- `concepts/ltp.md`（rev9→rev10）：新增"三方突触条件"段落——星形胶质细胞 D-丝氨酸是 LTP 的隐性必要条件（Henneberger 2010 因果证据）；related 新增 astrocyte、tripartite-synapse、d-serine、astrocyte-calcium-signaling；连接段落新增四条
+- `concepts/ltd.md`（rev2→rev3）：新增星形胶质细胞参与 LTD 的三条路径（D-丝氨酸/ATP-腺苷/eCB-CB1R）；related 新增 astrocyte、tripartite-synapse、gliotransmitter、d-serine；连接段落新增四条
+
+**新登记矛盾（1 条）**：
+- `C-2026-07-02-01（open）`：星形胶质细胞 Ca²⁺ 依赖性谷氨酸胞吐在生理条件下是否真实发生（Parpura 1994 vs Fiacco/Bhatt 2007-2009）
+
+**新增悬空引用**：无（所有引用的 slug 均已建页）
+
+**图谱更新**：新增节点 6（astrocyte, tripartite-synapse, d-serine, gliotransmitter, astrocyte-calcium-signaling, glutamate-glutamine-cycle）；新增边约 20；总计 **125 节点、~709 条边**
+
+---
+
 ## 2026-07-01（文章 #67·空间注意的神经回路·背侧注意网络 DAN）
 
 **源文章**：[[2026-07-01-dorsal-attention-network-FEF-IPS]] —《空间注意的神经回路：前额叶眼区与顶内沟如何驾驭大脑的聚光灯》

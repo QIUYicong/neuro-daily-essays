@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-28
-revision_count: 9
+updated: 2026-07-02
+revision_count: 10
 dimensions: [synaptic, cellular, cognition, brain-region, disease]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -74,6 +74,18 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 
 2021 年 Tao et al. 发现：在已建立的 LTP 之后，持续抑制 CaMKII 会导致 LTP 完全逆转。这证明 CaMKII 不只诱导 LTP，也是其维持所必需的——提示 CaMKII 的持续活化可能是 E-LTP 的关键维持机制。
 
+### 7. 三方突触条件：星形胶质细胞的 D-丝氨酸是 LTP 的隐性必要条件
+
+**2026-07-02 新增（来自《大脑的第三方》文章，#68）**：LTP 的经典 Hebb 规则（突触前 + 突触后活动 → NMDA-Ca²⁺ → CaMKII → AMPAR 插入）是 LTP 的**充分描述**，但并非**完整描述**。还有一个隐性条件：附近星形胶质细胞必须供给足够的 D-丝氨酸占据 NMDA 受体的 GluN1 协同激动位点。
+
+**因果证据**（Henneberger et al. 2010, *Nature*, PMID: 20075918, PMC2807667）：
+- 将单个星形胶质细胞的 Ca²⁺ 钳制于低水平（EGTA 胞内灌注）→ 该星形胶质细胞覆盖范围（<100 μm）内所有突触的 LTP 完全消失
+- 外源 D-丝氨酸 + Ca²⁺ 钳制 → LTP 完全恢复
+- 阻断星形胶质细胞内 D-丝氨酸合成（HOAsp 阻断丝氨酸消旋酶）→ LTP 消失
+- NMDA 受体响应 −22%（协同位点占用率降低）
+
+**含义**：LTP 的诱导需要**三方参与者**的协同：突触前（谷氨酸/去极化）+ 突触后（NMDA 受体开放、CaMKII）+ 星形胶质细胞（D-丝氨酸供给认证）。每个星形胶质细胞是其局部域（约 100 μm，覆盖数万突触）内所有突触 LTP 资格的"认证控制器"——其 Ca²⁺ 信号状态成为 LTP 写入的门控变量之一。
+
 ### 6. BDNF 对 L-LTP 的催化作用（突触固结机制）
 
 **2026-06-28 新增（来自《BDNF：大脑给自己的成长信号》文章，#64）**：
@@ -118,6 +130,10 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 - [[amygdala]] — LA 突触 LTP 写入恐惧印迹；LTD（消退去增强）同样在 LA 发生
 - [[bdnf]] — BDNF 是 L-LTP（晚期 LTP）不可或缺的催化分子；驱动 Arc 局部翻译和 PRP 合成，将 E-LTP 转化为结构性持久增强
 - [[arc-arg31]] — Arc 蛋白是 BDNF/ERK 通路驱动的局部翻译产物，是 L-LTP 的执行者之一
+- [[astrocyte]] — 星形胶质细胞是 LTP 诱导的隐性必要条件（D-丝氨酸供给控制 NMDA 受体协同位点占用率）
+- [[tripartite-synapse]] — LTP 是三方突触框架中神经元-胶质细胞协同可塑性的核心体现
+- [[d-serine]] — D-丝氨酸是星形胶质细胞控制 LTP 准入的分子媒介；Ca²⁺ 钳制切断 D-丝氨酸 → LTP 消失（Henneberger 2010）
+- [[astrocyte-calcium-signaling]] — 星形胶质细胞 Ca²⁺ 信号是 D-丝氨酸释放的上游门控
 
 ## 未解问题
 
@@ -127,6 +143,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 
 ## 修订历史
 
+- 2026-07-02 · 修订 · 基于《大脑的第三方》(#68) · 新增"三方突触条件"段落：星形胶质细胞 D-丝氨酸供给是 LTP 的隐性必要条件（Henneberger 2010 因果证据）；related 新增 astrocyte、tripartite-synapse、d-serine、astrocyte-calcium-signaling；key_sources 新增 PMID:20075918；连接段落新增四条
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 新增 BDNF/TrkB→Arc→L-LTP 突触固结机制段落；related 新增 bdnf、arc-arg31；key_sources 新增 PMID:16099088、PMID:17942328；source_articles 新增 2026-06-28-bdnf-trk-b-plasticity-memory；悬空引用 [[bdnf]] 已建页
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 新增：CA3 循环突触 NMDA 受体依赖性 LTP 是模式补全（pattern completion）的分子基础——Nakazawa et al. 2002 (PMID:12040087) 基因因果证据；related 新增 pattern-completion、complementary-learning-systems；source_articles 新增 2026-06-24-hippocampal-ca3-pattern-completion
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高

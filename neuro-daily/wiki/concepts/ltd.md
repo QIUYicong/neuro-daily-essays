@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-04
-updated: 2026-06-23
-revision_count: 2
+updated: 2026-07-02
+revision_count: 3
 dimensions: [molecular, synaptic, cellular, cognition]
-related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, cerebellum]
+related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, cerebellum, astrocyte, tripartite-synapse, gliotransmitter, d-serine]
 prerequisites: [synaptic-transmission, nmda-receptor, ampa-receptor, ltp]
 opens_questions: [Q-ltd-nmda-metabotropic, Q-ltd-long-term-maintenance, Q-ltd-behavior-extinction, Q-ltd-glua2-redundancy]
-source_articles: [2026-06-04-ltd-long-term-depression]
-key_sources: ["PMID:24183021", "PMID:19169250", "PMID:25429259", "PMID:19690847", "PMID:15450156", "PMID:15219735"]
+source_articles: [2026-06-04-ltd-long-term-depression, 2026-07-02-astrocyte-tripartite-synapse]
+key_sources: ["PMID:24183021", "PMID:19169250", "PMID:25429259", "PMID:19690847", "PMID:15450156", "PMID:15219735", "PMID:34334233"]
 ---
 
 # 长时程抑制 (Long-Term Depression, LTD)
@@ -64,6 +64,16 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 
 **脆性 X 综合征联系**：FMRP 缺失 → Arc 等 LTD 相关蛋白持续过度翻译 → mGluR-LTD 失控激活 → 突触权重弥漫性减弱（Bear, Huber & Warren 2004 mGluR 理论）
 
+### 星形胶质细胞介导的 LTD（新认识）
+
+**2026-07-02 新增（来自《大脑的第三方》文章，#68）**：LTD 不只是神经元内部的两方事件——星形胶质细胞通过三条路径参与多种类型的 LTD（Durkee et al. 2021, *Trends Neurosci*, PMID: 34334233, PMC8484065）：
+
+1. **D-丝氨酸路径**：某些 NMDAR-LTD 的诱导需要星形胶质细胞供给 D-丝氨酸（NMDA 受体协同激动剂），类似于 LTP。缺乏 D-丝氨酸时，NMDA 受体响应减弱，LTD 诱导受损。
+2. **ATP/腺苷路径**：星形胶质细胞释放 ATP，胞外酶水解为腺苷，激活突触前 A1 受体 → 突触前递质释放减少 → 突触权重降低（同突触 LTD 或异突触 LTD）。
+3. **eCB-LTD 中的星形胶质细胞中继**：内源大麻素（eCBs）从突触后逆向扩散，不只直接激活突触前 CB1R，还激活星形胶质细胞上的 CB1R → 星形胶质细胞 Ca²⁺ 升高 → 释放胶质递质 → 反向触发突触前 LTD。**条件性敲除星形胶质细胞 IP3R 或 SNARE 蛋白**损害特定脑区（海马、纹状体）的 LTD 和对应的行为学记忆（运动学习、认知灵活性）。
+
+**认知意义**：LTD 的全貌不是单一的神经元内分子级联，而是多路径的神经元-胶质细胞协同机制。不同脑区使用不同路径（星形胶质细胞的贡献度和机制因脑区而异），提示 LTD 的完整理解需要将三方突触纳入框架。
+
 ### 小脑 LTD（PF-PC LTD）的独特性
 小脑 LTD 与海马 LTD 使用相同的**最终效应器**（GluA2 Ser880 磷酸化 → AMPAR 内吞），但**触发机制根本不同**：
 - 不依赖 NMDA 受体，依赖 **mGluR1**（代谢型）
@@ -104,6 +114,10 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 - [[memory-consolidation]] — 睡眠期间的突触稳态下调（SHY 假说）可能涉及 LTD 类机制
 - [[cerebellar-ltd]] — 使用相同 AMPAR 内吞最终效应器的平行机制（但触发完全不同：mGluR1/PKC，无需 NMDA）
 - [[cerebellum]] — 小脑 LTD 发生的回路背景（PF→PC突触）
+- [[astrocyte]] — 星形胶质细胞是多种 LTD 类型的必要第三方参与者（Durkee 2021）
+- [[tripartite-synapse]] — LTD 和 LTP 都在三方突触框架中发生
+- [[gliotransmitter]] — D-丝氨酸和 ATP/腺苷是星形胶质细胞参与 LTD 的主要胶质递质
+- [[d-serine]] — 参与某些 NMDAR-LTD 的诱导
 
 ## 未解问题
 
@@ -116,6 +130,7 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 
 - 2026-06-04 · 创建 · 基于《遗忘的精准：LTD 文章》· 初始置信度：高（经典已建立机制）
 - 2026-06-23 · 修订 · 基于《小脑的秘密》· 加入小脑 LTD 独特性说明（mGluR1/PKC 路径，与 NMDA-LTD 并列）；新增 related: cerebellar-ltd, cerebellum；新增连接段落
+- 2026-07-02 · 修订 · 基于《大脑的第三方》(#68) · 新增星形胶质细胞介导 LTD 的三条路径（D-丝氨酸、ATP/腺苷、eCB-CB1R）；关键证据表新增 PMID:34334233；related 新增 astrocyte、tripartite-synapse、gliotransmitter、d-serine；连接段落新增四条
 
 ## 来源文章
 

@@ -133,9 +133,9 @@
       "slug": "ltp",
       "status": "established",
       "confidence": "high",
-      "supporting_sources": 4,
+      "supporting_sources": 5,
       "last_status_change": "2026-05-26",
-      "reason": "创建 2026-05-26。CA1 LTP 机制（NMDA→CaMKII→AMPA 插入）有多重独立证据（MK-801 法、PPF 测量、单通道分析、沉默突触实验）。LTP 与苔藓纤维 LTP 的机制差异已确立。CaMKII 维持 LTP 的必要性有 2021 eLife 实验支持。L-LTP 的蛋白合成依赖性是 mainstream 而非 speculative，但长期维持机制（数十年）仍有争议。整体置信度高，但有若干开放问题。2026-06-04：修订，悬空引用 ltp-ltd 更正为 ltd（已建立页面），related 新增 calcineurin；revision_count 3→4。成熟度不变。"
+      "reason": "创建 2026-05-26。CA1 LTP 机制（NMDA→CaMKII→AMPA 插入）有多重独立证据（MK-801 法、PPF 测量、单通道分析、沉默突触实验）。LTP 与苔藓纤维 LTP 的机制差异已确立。CaMKII 维持 LTP 的必要性有 2021 eLife 实验支持。L-LTP 的蛋白合成依赖性是 mainstream 而非 speculative，但长期维持机制（数十年）仍有争议。整体置信度高，但有若干开放问题。2026-06-04：修订，悬空引用 ltp-ltd 更正为 ltd（已建立页面），related 新增 calcineurin；revision_count 3→4。成熟度不变。2026-07-02（文章 #68）：修订，新增星形胶质细胞 D-丝氨酸节（Henneberger 2010 Ca²⁺钳制实验；LTP 的隐性必要条件），新增 astrocyte/tripartite-synapse/d-serine/astrocyte-calcium-signaling 连接；revision_count 9→10。成熟度不变（established/high），但补充了胶质细胞维度。"
     },
     {
       "slug": "hebbian-learning",
@@ -317,9 +317,9 @@
       "slug": "ltd",
       "status": "established",
       "confidence": "high",
-      "supporting_sources": 4,
+      "supporting_sources": 5,
       "last_status_change": "2026-06-04",
-      "reason": "创建 2026-06-04。NMDA-LTD 机制（低 Ca²⁺ → PP2B/calcineurin → PP1 → GluA1 Ser831/Ser845 去磷酸化 → AMPAR 内吞）有多实验室独立验证；mGluR-LTD（mGluR5 → 局部蛋白合成 → Arc → dynamin/endophilin → AMPAR 内吞）有基因敲除（Arc KO）+ 药理（DHPG）+ 电生理多维证据；小脑 LTD（mGluR1 + P/Q Ca²⁺ → PKC → GluA2 Ser880）有独立机制证据；GluA2/GluA3 双敲小鼠 LTD 仍正常（冗余内吞通路存在）为 contested 细节，但不影响核心机制 established 状态。BCM 理论 Ca²⁺ 阈值模型统一了 LTP 和 LTD 方向选择，有强理论支持。整体 established，部分分子细节（NMDA 受体代谢型信号、长期维持机制）有开放问题。"
+      "reason": "创建 2026-06-04。NMDA-LTD 机制（低 Ca²⁺ → PP2B/calcineurin → PP1 → GluA1 Ser831/Ser845 去磷酸化 → AMPAR 内吞）有多实验室独立验证；mGluR-LTD（mGluR5 → 局部蛋白合成 → Arc → dynamin/endophilin → AMPAR 内吞）有基因敲除（Arc KO）+ 药理（DHPG）+ 电生理多维证据；小脑 LTD（mGluR1 + P/Q Ca²⁺ → PKC → GluA2 Ser880）有独立机制证据；GluA2/GluA3 双敲小鼠 LTD 仍正常（冗余内吞通路存在）为 contested 细节，但不影响核心机制 established 状态。BCM 理论 Ca²⁺ 阈值模型统一了 LTP 和 LTD 方向选择，有强理论支持。整体 established，部分分子细节（NMDA 受体代谢型信号、长期维持机制）有开放问题。2026-07-02（文章 #68）：修订，新增星形胶质细胞介导 LTD 节（IP3R2 KO小鼠 LTD 缺失；eCB→CB1R→astrocyte→D-丝氨酸/ATP 三条通路；Durkee 2021），新增 astrocyte/tripartite-synapse/gliotransmitter/d-serine 连接；revision_count 2→3。成熟度不变。"
     },
     {
       "slug": "calcineurin",
@@ -842,6 +842,60 @@
       "revision_count": 1,
       "last_changed": "2026-06-30",
       "change_reason": "创建：CaV3.1 KO实验（Bayazitov 2013）、PLCβ4 KO失神模型（Cheong 2009）提供强遗传因果证据。T型通道在视丘的核心分子角色为教科书级知识，定为established。"
+    },
+    {
+      "slug": "astrocyte",
+      "page": "wiki/systems/astrocyte.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-02",
+      "change_reason": "新建（文章 #68，2026-07-02）。星形胶质细胞的基本形态（泡状突起覆盖 57% 突触，Zhou 2019）和谷氨酸-谷氨酰胺循环（EAAT2 ~80% 摄取）是教科书级知识。D-丝氨酸作为 NMDAR 共激动剂（Panatier 2006，皮层主要共激动剂）已有多实验室独立确认。三方突触概念（Araque 1999）有 25 年实验积累。定为 established/high。"
+    },
+    {
+      "slug": "tripartite-synapse",
+      "page": "wiki/concepts/tripartite-synapse.md",
+      "status": "mainstream",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-02",
+      "change_reason": "新建（文章 #68，2026-07-02）。三方突触框架（Araque 1999）的双向信号传导有大量电生理和成像证据支持（星形胶质细胞 Ca²⁺ 响应、gliotransmitter 释放均已被多次重复）。但胶质细胞在每个突触类型中的参与程度异质性大，体内生理条件下的真实贡献仍有争议。定为 mainstream/high（而非 established，因为体内证据仍弱于体外）。"
+    },
+    {
+      "slug": "d-serine",
+      "page": "wiki/concepts/d-serine.md",
+      "status": "mainstream",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-02",
+      "change_reason": "新建（文章 #68，2026-07-02）。D-丝氨酸作为皮层/海马 NMDAR 主要共激动剂（vs 甘氨酸）的证据充分（Panatier 2006 膜片钳，Mothet 2000 外消旋酶 KO）。Henneberger 2010 因果证明 Ca²⁺ 依赖的星形胶质细胞释放是 LTP 必要条件。但精确的释放机制（胞吐 vs VRAC vs 通道）存在 C-2026-07-02-01 争议，故整体定为 mainstream/high。"
+    },
+    {
+      "slug": "gliotransmitter",
+      "page": "wiki/concepts/gliotransmitter.md",
+      "status": "mainstream",
+      "confidence": "medium",
+      "revision_count": 1,
+      "last_changed": "2026-07-02",
+      "change_reason": "新建（文章 #68，2026-07-02）。胶质递质（D-丝氨酸、ATP、谷氨酸）的功能性存在有广泛证据。但谷氨酸的 Ca²⁺ 依赖胞吐在生理条件下是否真实发生，存在 C-2026-07-02-01 直接矛盾（Parpura 1994 vs Fiacco 2007/Bhatt 2009）。定为 mainstream/medium，反映功能有支持但关键机制存争议。"
+    },
+    {
+      "slug": "astrocyte-calcium-signaling",
+      "page": "wiki/concepts/astrocyte-calcium-signaling.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-02",
+      "change_reason": "新建（文章 #68，2026-07-02）。mGluR5→Gq→PLC→IP₃→ER Ca²⁺ 释放的信号通路，以及 IP3R2 KO 小鼠（Agulhon 2008）对胞内 Ca²⁺ 波的消除实验，构成强有力的因果证据。钙波传播速度（15–27 μm/s）和介质（connexin43）已由多项独立成像实验确认。定为 established/high。"
+    },
+    {
+      "slug": "glutamate-glutamine-cycle",
+      "page": "wiki/concepts/glutamate-glutamine-cycle.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-02",
+      "change_reason": "新建（文章 #68，2026-07-02）。谷氨酸-谷氨酰胺循环（EAAT2 摄取→GS 转化→SNAT3 输出→神经元 PAG 再转化）是突触传递维持的基础机制，由多层次证据（³H示踪、同位素标记、基因敲除）确立。EAAT2 承担约 80% 的突触后摄取是反复测量的结果。定为 established/high。"
     }
   ],
   "embodied-semantics": {

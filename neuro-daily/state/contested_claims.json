@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-06-27",
+  "last_updated": "2026-07-02",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 2,
+  "open_count": 3,
   "resolved_count": 0,
   "claims": [
     {
@@ -68,6 +68,18 @@
       "status": "open",
       "opened": "2026-06-22",
       "source_article": "2026-06-22-grid-cells-place-cells"
+    },
+    {
+      "id": "C-2026-07-02-01",
+      "page": "wiki/concepts/gliotransmitter.md",
+      "claim_A": "星形胶质细胞通过钙依赖的 SNARE 介导囊泡胞吐在生理条件下释放谷氨酸，并激活邻近神经元（Parpura et al. 1994, PMID:7911978；Volterra & Meldolesi 2005, PMID:16025096）",
+      "claim_B": "诱发星形胶质细胞 Ca²⁺ 大幅升高（通过基因特异性方式激活 Gq/IP3 信号）并未导致神经元突触传递的可测量改变，质疑生理性钙依赖胶质递质胞吐的真实性（Fiacco et al. 2007, Bhatt et al. 2009）",
+      "nature": "方法论差异（非特异性激活 vs 基因特异性激活 Gq 信号）+ 真实分歧（胞吐是否为 D-丝氨酸/谷氨酸的主要释放机制）。注：Henneberger 2010 的 Ca²⁺ 钳制实验间接支持 Ca²⁺ 依赖的 D-丝氨酸释放（与 claim_A 方向一致），但机制（胞吐 vs 通道/转运体）仍不明确",
+      "status": "open",
+      "opened": "2026-07-02",
+      "source_article": "2026-07-02-astrocyte-tripartite-synapse",
+      "priority": "high",
+      "note": "D-丝氨酸的 Ca²⁺ 依赖释放证据（Henneberger 2010）比谷氨酸胞吐证据更强；核心争议现集中在谷氨酸；D-丝氨酸可能确实通过囊泡机制，而谷氨酸可能主要通过 VRAC 或连接蛋白通道"
     }
   ]
 }
