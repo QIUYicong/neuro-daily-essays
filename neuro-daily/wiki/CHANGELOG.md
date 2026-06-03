@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-06-03（文章 #70·大脑的"质检员"·小胶质细胞与补体介导的突触剪枝）
+
+**源文章**：[[2026-06-03-microglia-synaptic-pruning]] —《大脑的"质检员"：小胶质细胞如何用补体分子标签精雕突触回路》
+
+**新建页面（3 页）**：
+- `neurons/microglia.md`：小胶质细胞——CNS 常驻免疫细胞，发育期突触剪枝执行者；CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX实验）；疾病连接（AD C1q重激活、精神分裂症 C4A 过度表达）（established）
+- `concepts/synaptic-pruning.md`：突触剪枝——先多建再精删策略；"吃我"（C3b/PS）+"别吃我"（CD47）双向信号博弈；视网膜膝状核模型（C1QA/C3 KO 眼特异性分离失败）；发育窗口：dLGN P2-P10、海马 P15、前额叶青春期（established）
+- `concepts/complement-cascade-cns.md`：补体级联（CNS突触功能版）——C1q→C4→C3b的步骤；TGF-β（星形胶质细胞）→C1q（神经元）的跨细胞诱导轴；发育期/成年期的活性差异；AD和精神分裂症中的病理失调（established）
+
+**修订页面（1 页）**：
+- `diseases/alzheimers-disease.md`（rev4→rev5）：新增 C1q 补体介导的早期突触丢失机制（Hong et al. 2016，PMID:27033548）：Aβ低聚体触发C1q早期突触沉积（早于斑块）；related 新增 microglia/complement-cascade-cns/synaptic-pruning；key_sources 新增 PMID:27033548
+
+**新登记矛盾**：无
+
+**新增悬空引用（待补）**：
+- `critical-period`：关键期（发育期 E/I 平衡与突触剪枝直接关联）
+- `cx3cr1`：fractalkine 受体——趋化因子-微胶质轴（影响海马剪枝，Soteros 2022）
+- `megf10` / `mertk`：星形胶质细胞自身的突触吞噬受体（非微胶质依赖的并行剪枝通路）
+
+**图谱更新**：新增节点 3（microglia, synaptic-pruning, complement-cascade-cns）；新增边 10；总计 **130 节点、~730 条边**
+
+---
+
 ## 2026-07-03（文章 #69·突触稳态·赫布规则的稳定器）
 
 **源文章**：[[2026-07-03-synaptic-scaling-homeostatic-plasticity]] —《突触稳态：当赫布规则失控时，大脑如何给自己"归零"》

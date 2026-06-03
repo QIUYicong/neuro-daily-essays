@@ -5207,6 +5207,125 @@
         "forward suppression",
         "auditory thalamus"
       ]
+    },
+    {
+      "pmid": "18083105",
+      "pmcid": null,
+      "title": "The classical complement cascade mediates CNS synapse elimination",
+      "authors": "Stevens B et al.",
+      "journal": "Cell",
+      "year": 2007,
+      "used_in": [
+        "2026-06-03-microglia-synaptic-pruning"
+      ],
+      "aspects_covered": [
+        "C1q definition",
+        "dLGN pruning failure in C1q/C3 KO",
+        "glaucoma C1q reactivation"
+      ],
+      "full_text": false
+    },
+    {
+      "pmid": "22632727",
+      "pmcid": "PMC3528177",
+      "title": "Microglia sculpt postnatal neural circuits in an activity and complement-dependent manner",
+      "authors": "Schafer DP et al.",
+      "journal": "Neuron",
+      "year": 2012,
+      "used_in": [
+        "2026-06-03-microglia-synaptic-pruning"
+      ],
+      "aspects_covered": [
+        "EM evidence of synapse engulfment",
+        "CR3/C3 dependence",
+        "TTX activity-dependence"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "22715882",
+      "pmcid": null,
+      "title": "The complement system: an unexpected role in synaptic pruning during development and disease",
+      "authors": "Stephan AH, Barres BA, Stevens B",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2012,
+      "used_in": [
+        "2026-06-03-microglia-synaptic-pruning"
+      ],
+      "aspects_covered": [
+        "review: astrocyte TGF-β induces neuronal C1q",
+        "disease reactivation"
+      ],
+      "full_text": false
+    },
+    {
+      "pmid": "26814963",
+      "pmcid": "PMC4752392",
+      "title": "Schizophrenia risk from complex variation of complement component 4",
+      "authors": "Sekar A, Bialas AR, et al.",
+      "journal": "Nature",
+      "year": 2016,
+      "used_in": [
+        "2026-06-03-microglia-synaptic-pruning"
+      ],
+      "aspects_covered": [
+        "C4A copy number and schizophrenia risk",
+        "C4 in synaptic pruning",
+        "dendritic spine loss in C4 knockin mice"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "27033548",
+      "pmcid": "PMC5094372",
+      "title": "Complement and microglia mediate early synapse loss in Alzheimer mouse models",
+      "authors": "Hong S et al.",
+      "journal": "Science",
+      "year": 2016,
+      "used_in": [
+        "2026-06-03-microglia-synaptic-pruning"
+      ],
+      "aspects_covered": [
+        "C1q at synapses before plaques",
+        "Abeta oligomers trigger C1q",
+        "anti-C1q protects synapses"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "32657463",
+      "pmcid": "PMC7429741",
+      "title": "Local externalization of phosphatidylserine mediates developmental synaptic pruning by microglia",
+      "authors": "Scott-Hewitt N et al.",
+      "journal": "EMBO Journal",
+      "year": 2020,
+      "used_in": [
+        "2026-06-03-microglia-synaptic-pruning"
+      ],
+      "aspects_covered": [
+        "PS as eat-me signal",
+        "TREM2 recognition",
+        "C1q-PS colocalization"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "34738335",
+      "pmcid": "PMC9066608",
+      "title": "Complement and microglia dependent synapse elimination in brain development",
+      "authors": "Soteros BM, Sia GM",
+      "journal": "WIREs Mechanisms of Disease",
+      "year": 2022,
+      "used_in": [
+        "2026-06-03-microglia-synaptic-pruning"
+      ],
+      "aspects_covered": [
+        "CD47 dont-eat-me signal",
+        "protection vs punishment models",
+        "schizophrenia/ASD/epilepsy connections",
+        "sex differences"
+      ],
+      "full_text": true
     }
   ],
   "total_sources": 288,

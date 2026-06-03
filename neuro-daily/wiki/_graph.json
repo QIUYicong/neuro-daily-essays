@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-03",
-  "node_count": 127,
-  "edge_count": 721,
+  "updated": "2026-06-03",
+  "node_count": 130,
+  "edge_count": 730,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1156,6 +1156,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/glutamate-glutamine-cycle.md"
+    },
+    {
+      "id": "microglia",
+      "title": "小胶质细胞",
+      "domain": "neurons",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/microglia.md"
+    },
+    {
+      "id": "synaptic-pruning",
+      "title": "突触剪枝",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/synaptic-pruning.md"
+    },
+    {
+      "id": "complement-cascade-cns",
+      "title": "补体级联（CNS中的突触功能）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/complement-cascade-cns.md"
     }
   ],
   "edges": [
@@ -5123,6 +5150,56 @@
       "from": "glutamate-glutamine-cycle",
       "to": "astrocyte",
       "type": "mechanism-of"
+    },
+    {
+      "from": "microglia",
+      "to": "synaptic-pruning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "complement-cascade-cns",
+      "to": "synaptic-pruning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "complement-cascade-cns",
+      "to": "microglia",
+      "type": "regulates"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "alzheimers-disease",
+      "type": "supports"
+    },
+    {
+      "from": "microglia",
+      "to": "alzheimers-disease",
+      "type": "supports"
+    },
+    {
+      "from": "complement-cascade-cns",
+      "to": "alzheimers-disease",
+      "type": "supports"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "astrocyte",
+      "to": "complement-cascade-cns",
+      "type": "regulates"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "pv-interneurons",
+      "type": "related"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,85 @@
+# 2026-06-03 运行日志（第三次运行 · 文章 #70）
+
+**日期（UTC+8）**：2026-06-03
+**运行时间**：2026-06-03 21:59 CST
+**文章编号**：#70（序列连续：#69 = 2026-07-03 突触稳态）
+**注意**：今日为第三次运行（#11 抑制性中间神经元、#66 视丘 均在同一日期；前序会话因系统时钟错误写入 2026-07-xx 日期的文章）
+
+---
+
+## 搜索与数据源
+
+### 检索词
+- `microglia complement synaptic pruning` (PubMed)
+- `classical complement cascade CNS synapse elimination` (PubMed)
+- `Schafer microglia sculpt postnatal neural circuits complement` (PubMed)
+- `Hong complement microglia synapse loss Alzheimer mouse models` (PubMed)
+- `Scott-Hewitt phosphatidylserine presynaptic eat-me signal microglia pruning` (PubMed)
+- `C4 schizophrenia complement synapse Sekar McCarroll` (PubMed)
+- `microglia synapse pruning complement development disease review 2022-2026` (PubMed)
+
+### 候选文章数
+PubMed 检索共 ~210+ 条（总量），经过筛选采用 7 篇核心来源
+
+### 采用来源
+| PMID | 全文 | 原因 |
+|------|------|------|
+| 18083105 | 摘要 | 奠基性论文，C1q 发现 |
+| 22632727 | 全文（PMC） | 主要机制：EM 证据 + 活动依赖实验 |
+| 22715882 | 摘要 | 综述性背景（TGF-β 上调 C1q） |
+| 26814963 | 全文（PMC） | 精神分裂症 C4A 关联 |
+| 27033548 | 全文（PMC） | AD 早期突触丢失机制 |
+| 32657463 | 全文（PMC） | PS-TREM2 并行通路 |
+| 34738335 | 全文（PMC） | 系统综述，填补 CD47、性别差异 |
+
+### 排除来源
+- PMID:40237381（细胞外囊泡综述，与主题不符）
+- PMID:39012667（脑卒中后剪枝，超出今日聚焦范围）
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页面（3页）
+- `wiki/neurons/microglia.md`（revision_count=1，status=established）
+- `wiki/concepts/synaptic-pruning.md`（revision_count=1，status=established）
+- `wiki/concepts/complement-cascade-cns.md`（revision_count=1，status=established）
+
+### 修订 wiki 页面（1页）
+- `wiki/diseases/alzheimers-disease.md`（rev4→rev5）：新增 C1q 介导的突触丢失机制（Hong 2016）
+
+### 矛盾检查
+- 无新发现的矛盾（新证据与既有主张无冲突）
+
+### 成熟度更新
+- microglia（established, high）：多个独立实验室直接证据
+- synaptic-pruning（established, high）：多物种、多系统的一致证据
+- complement-cascade-cns（established, high）：遗传 + 功能实验 + 疾病证据链
+
+---
+
+## 图谱更新
+- 新节点：microglia, synaptic-pruning, complement-cascade-cns（+3）
+- 新边：+9 条（microglia↔synaptic-pruning，complement↔microglia，pruning→AD，astrocyte→complement 等）
+- 总计：130 节点，730 条边
+
+---
+
+## 新增未解问题
+- Q-pruning-01（高优先）：PS外翻上游触发器
+- Q-complement-01（高优先）：C1q的CNS配体
+- Q-microglia-02（中优先）：成年微胶质与记忆固结
+
+---
+
+## 新增悬空引用（待后续建页）
+- critical-period（关键期）
+- cx3cr1（fractalkine 受体）
+- megf10 / mertk（星形胶质细胞突触吞噬受体）
+
+---
+
+## Git 操作
+- 分支：main
+- commit 信息：Add neuro daily article + wiki consolidation for 2026-06-03
+- push 状态：待执行

@@ -3853,6 +3853,87 @@
         "听觉前向抑制的神经机制（CaV3.1 KO findings的深化）"
       ],
       "mode": "long_term_curriculum"
+    },
+    {
+      "date": "2026-06-03",
+      "title": "大脑的\"质检员\"：小胶质细胞如何用补体分子标签精雕突触回路",
+      "filename": "2026-06-03-microglia-synaptic-pruning.md",
+      "wiki_pages_created": [
+        "wiki/neurons/microglia.md",
+        "wiki/concepts/synaptic-pruning.md",
+        "wiki/concepts/complement-cascade-cns.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/diseases/alzheimers-disease.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "大脑发育期如何通过补体-微胶质机制精确删除弱突触？C1q/C3b/CR3 级联如何将神经活动水平转化为分子层面的保留/删除决策？这套机制为何在精神分裂症（C4A 过度表达）和阿尔茨海默病（C1q 病理性重激活）中失控？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "disease"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（突触生成与剪枝）/ 11. 疾病作为窗口（精神分裂症、阿尔茨海默病）",
+      "topic_tags": [
+        "microglia",
+        "synaptic pruning",
+        "complement cascade",
+        "C1q",
+        "C3b",
+        "CR3",
+        "TREM2",
+        "phosphatidylserine",
+        "CD47",
+        "eat-me signal",
+        "dont-eat-me signal",
+        "retinogeniculate system",
+        "activity-dependent pruning",
+        "TTX",
+        "C4A",
+        "schizophrenia",
+        "Alzheimer",
+        "amyloid-beta oligomers",
+        "TGF-beta",
+        "Stevens 2007",
+        "Schafer 2012",
+        "Sekar 2016",
+        "Hong 2016",
+        "Scott-Hewitt 2020",
+        "Soteros Sia 2022",
+        "C4 gene",
+        "synaptic overproduction",
+        "dendritic spine loss"
+      ],
+      "main_sources": [
+        "PMID:18083105 (Cell 2007, Stevens et al., abstract only)",
+        "PMID:22632727 (PMCID:PMC3528177, Neuron 2012, Schafer et al., full text read)",
+        "PMID:22715882 (Annu Rev Neurosci 2012, Stephan et al., abstract only)",
+        "PMID:26814963 (PMCID:PMC4752392, Nature 2016, Sekar et al., full text read)",
+        "PMID:27033548 (PMCID:PMC5094372, Science 2016, Hong et al., full text read)",
+        "PMID:32657463 (PMCID:PMC7429741, EMBO J 2020, Scott-Hewitt et al., full text read)",
+        "PMID:34738335 (PMCID:PMC9066608, WIREs Mech Dis 2022, Soteros & Sia, full text read)"
+      ],
+      "unresolved_questions": [
+        "Q-pruning-01：PS外翻的精确上游触发器（LTD相关caspase-3？）",
+        "Q-pruning-02：成年大脑是否仍有周期性突触剪枝？",
+        "Q-pruning-03：不同脑区剪枝机制差异的来源",
+        "Q-complement-01：CNS中C1q结合突触膜的具体配体",
+        "Q-microglia-01：弱突触如何精确获得C1q标记",
+        "Q-microglia-02：成年微胶质细胞与记忆固结的关系"
+      ],
+      "next_suggested_topics": [
+        "关键期（critical period）：突触剪枝与发育期E/I平衡如何决定关键期的开放与闭合；承接今日剪枝主题",
+        "小胶质细胞与神经炎症：成年微胶质细胞的激活状态（M1/M2的简化模型与实际复杂性）；与TDP-43、ALS的关联",
+        "E/I 平衡（excitation-inhibition balance）：PV+（06-03）+ 稳态可塑性 + 突触剪枝三篇文章汇流；ASD/精神分裂症的E/I失调机制",
+        "突触印迹竞争（engram competition + allocation）：CaMKII/CREB 竞争→印迹细胞选择→记忆特异性；承接 Wu 2021 结果",
+        "睡眠与记忆巩固完整综合（SHY vs 主动系统巩固）：NREM SWR 重播 + REM 情感 + 稳态 + 剪枝的统一框架"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 70,
+      "note": "系统时钟 UTC+8=2026-06-03（真实日期）；今日为第三篇 2026-06-03 文章（#11 抑制性中间神经元，#66 视丘，#70 微胶质细胞），原因：前序会话在系统日期错误情况下写入了未来日期（2026-07-xx）的文章；知识库连续性延续自#69（2026-07-03·突触稳态）"
     }
   ],
   "layer_coverage_recent": {
@@ -3957,6 +4038,23 @@
     ],
     "methods": [
       "2026-05-31"
+    ]
+  },
+  "layer_dates": {
+    "molecular": [
+      "2026-06-03"
+    ],
+    "cellular": [
+      "2026-06-03"
+    ],
+    "synaptic": [
+      "2026-06-03"
+    ],
+    "microcircuit": [
+      "2026-06-03"
+    ],
+    "disease": [
+      "2026-06-03"
     ]
   }
 }
