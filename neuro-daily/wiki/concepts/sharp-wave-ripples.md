@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-06-22
-revision_count: 5
+updated: 2026-07-07
+revision_count: 6
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
-related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation]
+related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, prefrontal-cortex, complementary-learning-systems]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
-opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977"]
+opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation, Q-swr-01]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:31197012", "PMID:38834064", "PMID:40962324"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -90,6 +90,8 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 | 睡眠剥夺：SWR仍发生但振幅降低，重放效率下降 | 睡眠剥夺鼠类记录 + 序列解码 | PMID:38867049 | 高（分离证据） |
 | NREM睡眠微结构（NE/瞳孔状态）区隔新旧记忆重放 | CA1大规模记录 + 瞳孔追踪 | PMID:39743590 | 中（新发现） |
 | 情绪效价也在SWR期间重播 | 联合情绪学习+SWR记录 | PMID:31334590 | 中（新兴） |
+| **SWR持续时长是信息量维度**：更长SWR↔更多神经元↔正确率更高 | 闭环光遗传延长SWR + 工作记忆行为 | PMID:31197012 | 高（因果证据，Science） |
+| **PFC独立涟漪（71%）抑制CA1**；协调涟漪（29%）双向激活并与SO/纺锤波对齐 | NREM双区域同时记录；功能分类分析 | PMID:38834064 | 中（待独立复制） |
 
 ## 连接
 
@@ -101,6 +103,14 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 - [[hebbian-learning]] — SWR重播序列中前后神经元的同步激活可能触发Hebbian型突触修改
 
 ## 新发现（2024-2026）
+
+### SWR持续时间是自适应信息容量调节器（Fernández-Ruiz et al. 2019）
+
+Fernández-Ruiz 等人（2019，PMID:31197012，*Science*）揭示 SWR 并非等价的均质事件——**SWR 的持续时间本身编码功能性信息量**：记忆需求高的任务中，长时程 SWR（>100 ms）频率显著增加（P < 10⁻⁹⁰）；正确试次的 SWR 显著长于错误试次（P < 10⁻⁵）。关键因果证据：闭环光遗传将 SWR 延长约一倍 → 工作记忆成绩显著提升（P < 10⁻¹⁰），随机时间控制刺激无效。机制解释：更长的 SWR 在同一时间窗口内招募更多神经元集群，编码更多的空间-时间信息，可能更有效地触发 STDP 时间窗口内的皮层突触修改。这一发现将 SWR 从"单一事件"升级为"信息容量可动态调节的记忆单元"。
+
+### PFC 主动门控——睡眠巩固是双向谈判（Shin & Jadhav 2024）
+
+Shin & Jadhav（2024，PMID:38834064）的双区域同时记录发现，NREM 睡眠中存在两种功能迥异的涟漪类型：**独立 PFC 涟漪（71.2%）主动抑制 CA1 神经元发放**，无明显 SO/纺锤波关联；**协调 CA1-PFC 涟漪（28.8%）双向激活两区域**，与 SO 和纺锤波精确对齐。关键竞争门控发现：协调涟漪中被强烈激活的 CA1 细胞，在随后的独立 PFC 涟漪中受到更强抑制——这是一种选择性记忆竞争机制。**经典的海马→皮层单向广播模型被颠覆：PFC 用自己 71% 的"独立涟漪"主动筛选哪些 CA1 表征值得被强化**，睡眠期记忆巩固是海马与前额叶皮层的双向谈判过程。
 
 ### 大振幅SWR亚集的特殊地位（Robinson et al. 2026）
 
@@ -125,6 +135,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - Q-swr-large-vs-small：是什么决定了一次SWR的振幅（大 vs 小）？CA3群体爆发规模、CA1 PV细胞同步度、局部兴奋-抑制平衡的作用分别是什么？睡眠剥夺如何精确降低SWR振幅？
 - Q-swr-tagging-mechanism：清醒SWR是什么触发了对特定经历的选择性"标记"？DA/NE的角色？与奖励系统（VTA）的连接是必要的吗？
 - Q-swr-human-translation：大振幅SWR的特殊功能是否在人类中也成立？颅内电极研究能否提供类似证据？
+- **Q-swr-01（高优先级·2026-07-07新增）**：清醒SWR"预标记"的神经机制是什么？是神经调质（DA/NE）的微爆发在特定时刻"盖章"，还是CA3内部网络状态的涌现属性？与奖励系统（VTA）的连接是否是必要条件？Yang et al. 2024（PMID:38547293）证明预标记现象存在（R=0.86），但机制未知。
 
 ## 修订历史
 
@@ -133,6 +144,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 新增4个关键新发现（Robinson 2026大型SWR因果证据、Yang 2024清醒SWR标记、Giri 2024睡眠剥夺分离、Chang 2025睡眠微结构）、Ecker 2022 CA3模型；扩充证据表（+6行）；新增"新发现"小节；新增3个未解问题；related新增norepinephrine-locus-coeruleus和dopamine-reward-prediction-error
 - 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · related新增sleep-spindles和cortical-slow-oscillation（SWR作为SO-spindle-SWR三重奏的第三层）；key_sources扩充3个（Latchoumane 2017三重耦合因果、Staresina 2024综述、Jiang 2019人类颅内验证）；source_articles新增2026-06-19
+- 2026-07-07 · 修订（rev6）· 基于《睡眠如何将记忆刻入皮层》文章 · 新增两个关键新发现小节（Fernández-Ruiz 2019 SWR时长因果证据、Shin & Jadhav 2024 PFC主动门控）；证据表新增2行；related新增prefrontal-cortex、complementary-learning-systems；opens_questions新增Q-swr-01；key_sources扩充3个（PMID:31197012、PMID:38834064、PMID:40962324）
 
 ## 来源文章
 

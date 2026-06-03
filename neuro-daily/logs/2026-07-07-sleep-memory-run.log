@@ -1,0 +1,90 @@
+# 运行日志：2026-07-07
+
+## 基本信息
+- 运行时间：2026-07-07（UTC+8），真实执行日期 2026-06-03
+- 文章编号：第 73 篇
+- 文章主题：睡眠记忆巩固（Sleep Memory Consolidation）
+- 状态：✅ 完成
+
+## 选题依据
+- 选题来源：知识库高优先级开放问题 Q-scale-03（SHY vs 主动巩固）+ 前序 wiki 页面（sharp-wave-ripples、memory-consolidation）需要新证据更新
+- 选题理由：（1）Q-scale-03 是高优先级未解问题，Liu et al. 2024 提供了调和证据，需要系统性文章整合；（2）前序系列（07-03 稳态缩放→07-04 E/I 平衡）层次连续为细胞/突触层，需要上升到系统/网络层；（3）sharp-wave-ripples 和 memory-consolidation wiki 页面均有新证据缺口（Fernández-Ruiz 2019、Shin 2024、Hahn 2020 等）
+- 层级：synaptic / cellular / microcircuit / brain-region / whole-brain-network / cognition（六维覆盖，实现层级跃升）
+
+## 检索过程
+### 检索词与 PMC 检索
+1. `sleep memory consolidation sharp wave ripple review 2020-2026` → Kim & Park 2025 (PMC12576410) ✅
+2. `hippocampal SWR duration memory improvement optogenetics` → Fernández-Ruiz 2019 (PMC6693581) ✅
+3. `prefrontal cortex ripple hippocampus sleep consolidation` → Shin & Jadhav 2024 (PMC11233241) ✅
+4. `slow oscillation spindle coupling memory development longitudinal` → Hahn et al. 2020 (PMC7314542) ✅
+5. `AMPA receptor renormalization sleep synaptic homeostasis` → Liu et al. 2024 (PMC11364421) ✅
+6. `hippocampus neocortex interaction sleep consolidation computational` → Singh et al. 2022 (PMC9636926) ✅
+7. `awake sharp wave ripple memory selection experience` → Yang et al. 2024 (PMC11068097) ✅
+8. `Buzsaki sharp wave ripple cognitive biomarker` → Buzsáki 2015 (PMC4648295) ✅
+9. `Tononi Cirelli synaptic homeostasis sleep plasticity review` → Tononi & Cirelli 2014 (PMC3921176) ✅
+10. `Girardeau Lopes sleep memory review annual review neuroscience` → Girardeau 2021 (PMC7611961) ✅
+
+### 来源候选与筛选
+- 候选数量：约 20 个 PMID/PMCID
+- 采用数量：12 个（10 全文 + 2 摘要）
+- 摘要仅引用：Wilson & McNaughton 1994（历史奠基，1994年，无 PMC）；Diekelmann & Born 2010（综述，付费墙）
+
+### 开放全文获取
+- 10 个 PMC 全文均完整阅读 ✅
+- 未使用任何非授权来源 ✅
+
+## 文章写作
+- 字数：约 5500 字（含表格、代码块）
+- 文件路径：`neuro-daily/articles/2026-07-07-sleep-memory-consolidation.md`
+- 阅读笔记：`neuro-daily/notes/2026-07-07-sleep-memory-reading-notes.md`
+- 来源文件：`neuro-daily/sources/2026-07-07-sleep-memory-sources.json`
+- 结构：4层机制解析（细胞→回路→系统→分子）+ SHY vs 主动巩固调和 + 争议/未解问题 + AI 对照
+
+## Wiki 固结
+### 新建页面（0）
+- 无新建（今日涉及的所有概念已有 wiki 页面）
+
+### 修订页面（2）
+- `wiki/concepts/sharp-wave-ripples.md`（rev5→rev6）
+  - 新增：SWR持续时间信息量维度小节（Fernández-Ruiz 2019 Science）
+  - 新增：PFC主动门控双向谈判小节（Shin & Jadhav 2024）
+  - 证据表：+2行
+  - related：+prefrontal-cortex, +complementary-learning-systems
+  - opens_questions：+Q-swr-01
+  - key_sources：+3（PMID:31197012, PMID:38834064, PMID:40962324）
+- `wiki/concepts/memory-consolidation.md`（rev5→rev6）
+  - 证据表：+4行（Hahn 2020 SO-spindle纵向, Liu 2024 GluA1选择性保护, Singh 2022计算, Shin 2024 PFC门控）
+  - Q-shy-vs-active-consolidation：**标记为部分裁决**（Liu 2024）
+  - opens_questions：+Q-swr-01, +Q-shy-integration-01
+  - related：+synaptic-scaling, +homeostatic-plasticity, +complementary-learning-systems, +prefrontal-cortex
+  - key_sources：+5个
+
+### 图谱更新
+- 新增节点：0
+- 新增边：8（SWR→PFC, SWR→CLS, memory-consolidation→synaptic-scaling, memory-consolidation→homeostatic-plasticity, memory-consolidation→CLS, memory-consolidation→PFC, sleep-spindles→synaptic-scaling, sleep-spindles→AMPAR）
+- 总计：132 节点、752 条边
+
+## 知识库状态更新
+- topic_ledger.json：total_articles 69→73（含注释说明 #70-72 的遗漏历史）
+- unresolved_questions.md：新增 Q-swr-01（高）、Q-shy-integration-01（高）；Q-scale-03 标记为部分裁决
+- source_registry.json：新增 10 条来源记录（PMID:24411729, 31197012, 32579108, 34709916, 36279437, 38547293, 39163472, 40962324, 8036518, 20046194）
+- monthly_synthesis.md：2026年7月更新，加入文章 #73
+
+## 新增矛盾登记
+- 无新矛盾登记
+
+## 自检结果
+- 真实性：每条 wiki 新主张有来源？✅
+- 区分了事实/模型/推测/争议？✅（计算模型标注"中"置信度；Liu 2024下丘脑数据是否普遍适用已在文章中标注为限制；Shin 2024 PFC门控标注"待复制"）
+- 没有把动物研究当定论？✅
+- 冲突走了矛盾协议？✅（SHY vs 主动巩固通过调和而非矛盾登记处理，因 Liu 2024 已提供统一框架）
+- 被修订页的 updated/revision_count/修订历史同步了？✅
+- `_graph.json` 无悬空边？✅（所有新边连接已验证在节点列表中存在）
+- index 与 CHANGELOG 反映了今天变化？✅
+- 新页的 related/prerequisites 各≥1？✅（修订页均验证）
+- 文章/笔记/来源/日志齐全？✅
+
+## Git 操作
+- Branch：main
+- 执行命令：`git push origin main`
+- Push 状态：（推送中）

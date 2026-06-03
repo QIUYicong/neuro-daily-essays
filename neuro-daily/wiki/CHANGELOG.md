@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-07-07（文章 #73·睡眠如何将记忆刻入皮层·三元振荡的协奏与稳态假说的调和）
+
+**源文章**：[[2026-07-07-sleep-memory-consolidation]] —《睡眠如何将记忆刻入皮层：三元振荡的协奏与稳态假说的调和》
+
+**新建页面（0 页）**：无（今日所有相关概念已有 wiki 页面）
+
+**修订页面（2 页）**：
+- `concepts/sharp-wave-ripples.md`（rev5→rev6）：新增两个新发现小节（Fernández-Ruiz 2019 SWR时长因果证据、Shin & Jadhav 2024 PFC主动门控双向谈判）；证据表新增2行；related扩充（prefrontal-cortex、complementary-learning-systems）；opens_questions新增Q-swr-01；key_sources扩充3个
+- `concepts/memory-consolidation.md`（rev5→rev6）：证据表新增4行（Hahn 2020 SO-纺锤波耦合纵向、Liu 2024 GluA1选择性保护、Singh 2022计算模型、Shin 2024 PFC门控）；Q-shy-vs-active-consolidation 标记为**部分裁决**（Liu 2024分子调和）；opens_questions新增Q-swr-01、Q-shy-integration-01；related扩充4个；key_sources扩充5个
+
+**新登记矛盾**：无
+
+**新增/更新未解问题（3 个）**：
+- Q-swr-01（高优先级）：清醒SWR预标记的神经机制（DA/NE微爆发 vs CA3涌现属性）
+- Q-shy-integration-01（高优先级）：纺锤波选择性保护突触的分子机制（CaMKII/PKA vs 局部翻译）
+- Q-scale-03（**部分裁决**）：SHY vs 主动巩固调和——Liu 2024提供分子层面证据
+
+**图谱更新**：无新增节点；新增边 8（SWR→PFC、SWR→CLS、memory-consolidation→synaptic-scaling、memory-consolidation→homeostatic-plasticity、memory-consolidation→CLS、memory-consolidation→PFC、sleep-spindles→synaptic-scaling、sleep-spindles→AMPAR）；总计 **132 节点、752 条边**
+
+---
+
 ## 2026-07-04（文章 #54·信号与噪声之间·皮层 E/I 平衡与 PV 中间神经元守门机制）
 
 **源文章**：[[2026-07-04-ei-balance-pv-interneuron]] —《信号与噪声之间：皮层 E/I 平衡的回路逻辑、PV 中间神经元的守门机制与大脑"刹车"的分子基础》

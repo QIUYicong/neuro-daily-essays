@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-03",
+  "updated": "2026-07-07",
   "node_count": 132,
-  "edge_count": 744,
+  "edge_count": 752,
   "edge_types": [
     "is-a",
     "part-of",
@@ -5347,6 +5347,54 @@
       "from": "critical-period",
       "to": "orientation-selectivity",
       "type": "related"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "prefrontal-cortex",
+      "type": "regulates",
+      "note": "PFC 在睡眠中通过独立涟漪（71%）主动抑制 CA1 重播，通过协调涟漪（29%）双向激活；PFC 是 SWR 重播的主动门控者（Shin & Jadhav 2024, PMID:38834064）"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "complementary-learning-systems",
+      "type": "mechanism-of",
+      "note": "SWR 压缩重播是互补学习系统（CLS）模型中海马→皮层知识转移的具体神经机制"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "synaptic-scaling",
+      "type": "related",
+      "note": "SHY（突触稳态缩放在睡眠期的全局下调）与主动系统巩固是同一 SWS 中并行的两个机制；Liu 2024 分子证据调和两假说（Q-scale-03 部分裁决）"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "homeostatic-plasticity",
+      "type": "related",
+      "note": "稳态可塑性（SHY 机制）与系统巩固（主动强化）不是对立假说，而是分别在突触尺度（全局精简）和系统尺度（选择性强化）并行操作"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "complementary-learning-systems",
+      "type": "mechanism-of",
+      "note": "系统巩固是 CLS（互补学习系统）模型的物理实现：NREM SWR 重播执行海马→皮层的知识转移，解决灾难性遗忘问题"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "prefrontal-cortex",
+      "type": "regulates",
+      "note": "PFC 在睡眠中主动门控哪些海马表征被优先巩固（Shin & Jadhav 2024）；PFC 与海马的双向对话构成系统巩固的神经基础"
+    },
+    {
+      "from": "sleep-spindles",
+      "to": "synaptic-scaling",
+      "type": "regulates",
+      "note": "纺锤波密度与 GluA1 水平正相关（r=0.91，Liu 2024, PMID:39163472）；纺锤波在 SWS 全局 AMPAR 下调（SHY）背景中选择性保护高权重突触"
+    },
+    {
+      "from": "sleep-spindles",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "纺锤波通过 L 型 CaV1 钙通道预热皮层树突，可能维持局部 CaMKII 活性，选择性保护特定 AMPA 受体免于 SWS 全局下调（Liu 2024 相关证据）"
     }
   ],
   "dangling_references": [

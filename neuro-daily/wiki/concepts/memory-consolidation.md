@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-05-31
-revision_count: 5
+updated: 2026-07-07
+revision_count: 6
 dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, synaptic-scaling, homeostatic-plasticity, complementary-learning-systems, prefrontal-cortex]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
-opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-shy-vs-active-consolidation, Q-rem-sleep-role]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory]
-key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380"]
+opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-shy-vs-active-consolidation, Q-rem-sleep-role, Q-swr-01, Q-shy-integration-01]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation]
+key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:32579108", "PMID:39163472", "PMID:36279437", "PMID:31197012", "PMID:38834064"]
 ---
 
 # 记忆巩固（系统层面）(Memory Consolidation — Systems Level)
@@ -125,6 +125,10 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 | 睡眠后突触尺寸缩减（SHY） | SBEM（串行块面电镜）测量轴突棘突接触面积 | PMID:32248785 | 中（需更多验证） |
 | REM期θ是情境记忆必需（选择性破坏→损害） | 仅REM期光遗传沉默MS GABA神经元 | PMID:27174984 | 高（因果，Boyce 2016） |
 | REM睡眠降低杏仁核情绪反应（人类） | 整夜睡眠+REM选择性剥夺+情绪任务fMRI | PMID:22119526 | 中-高（van der Helm 2011） |
+| **SO-纺锤波耦合预测记忆优于纺锤波单独**（发育纵向证据） | 纵向研究 n=33，童年→青少年；rho=0.57，耦合vs密度Z=2.20 | PMID:32579108 | 中-高（纵向，Hahn 2020） |
+| **SWS全局降低GluA1约40%；纺锤波密度选择性保护（r=0.91）** | 大鼠蛋白定量；三组睡眠剥夺对照 | PMID:39163472 | 中（单一研究，Liu 2024） |
+| **NREM提炼情景→语义；REM防灾难性遗忘**（计算模型预测） | 神经网络仿真；行为学预测 | PMID:36279437 | 中（计算，Singh 2022；待实验验证） |
+| **PFC独立涟漪（71%）主动抑制CA1**；协调涟漪（29%）与SO/纺锤波对齐 | NREM双区域同时记录；功能分类 | PMID:38834064 | 中（待复制，Shin & Jadhav 2024） |
 
 ## 连接
 
@@ -143,8 +147,10 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 
 - Q-memory-consolidation-sct-mtt：SCT vs MTT 的最终裁决——情景记忆是否永远依赖海马？
 - Q-consolidation-selectivity：哪些记忆优先被 SWR 重播？是否存在主动"遗忘优先"机制？
-- Q-shy-vs-active-consolidation：突触稳态假说（SHY）与主动系统巩固如何在同一睡眠中并行？
+- Q-shy-vs-active-consolidation：突触稳态假说（SHY）与主动系统巩固如何在同一睡眠中并行？**【2026-07-07 部分裁决】** Liu et al.（2024，PMID:39163472）提供了分子级调和视角：SWS 全局下调 GluA1（SHY），但纺锤波密度与 GluA1 正相关（r=0.91），说明纺锤波在全局下调背景中选择性保护高权重突触（主动巩固载体）。两假说不再是对立关系，而是描述同一睡眠中不同尺度上的并行机制。但纺锤波如何精确选择保护哪些突触（Q-shy-integration-01）仍未知。
 - Q-rem-sleep-role：REM 睡眠在系统巩固中的精确角色（辅助 vs 必需）——部分解答：Boyce 2016因果证据 + van der Helm 2011人类证据，但细胞机制和NREM/REM功能分工全貌仍未完全厘清
+- **Q-swr-01（高优先级·2026-07-07新增）**：清醒SWR"预标记"的神经机制（参见[[sharp-wave-ripples]]）
+- **Q-shy-integration-01（高优先级·2026-07-07新增）**：纺锤波如何在SWS全局AMPAR下调背景中选择性保护特定突触？是通过局部CaMKII/PKA保持受体磷酸化，还是通过局部蛋白质翻译（类似视黄酸介导的稳态缩放局部机制）？
 
 ## 系统巩固中的竞争遴选
 
@@ -168,6 +174,7 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 证据表新增3行（Robinson 2026因果充分性、Chang 2025微结构分时、Yang 2024清醒标记）；key_sources扩充；related新增norepinephrine-locus-coeruleus；source_articles新增2026-06-17
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · NREM三重奏小节深化：纺锤波的主动丘脑-皮层触发机制（CT→TRN→纺锤波→树突钙预热）和因果实验（Latchoumane 2017）；related/prerequisites新增sleep-spindles、cortical-slow-oscillation、thalamocortical-circuit；key_sources扩充4个
 - 2026-05-31 · 修订 · 基于《REM睡眠与情绪记忆》文章 · 当前理解节新增REM睡眠角色段落（Boyce 2016光遗传因果链、van der Helm 2011人类fMRI、Walker SFSR假说）；关键证据表新增2行；连接新增rem-sleep/emotional-memory-depotentiation；Q-rem-sleep-role标记为部分解答；key_sources扩充3个
+- 2026-07-07 · 修订（rev6）· 基于《睡眠如何将记忆刻入皮层》文章 · 证据表新增4行（Hahn 2020 SO-纺锤波耦合发育纵向、Liu 2024 GluA1选择性保护、Singh 2022计算模型、Shin 2024 PFC门控）；Q-shy-vs-active-consolidation 标记为**部分裁决**（Liu 2024提供分子调和视角）；opens_questions新增Q-swr-01、Q-shy-integration-01；related扩充（synaptic-scaling, homeostatic-plasticity, complementary-learning-systems, prefrontal-cortex）；key_sources扩充5个
 
 ## 来源文章
 

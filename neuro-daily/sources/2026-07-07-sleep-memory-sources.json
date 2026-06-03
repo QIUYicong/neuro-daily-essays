@@ -1,0 +1,192 @@
+{
+  "article_date": "2026-07-07",
+  "article_slug": "sleep-memory-consolidation",
+  "article_number": 73,
+  "sources": [
+    {
+      "pmid": "26135716",
+      "pmcid": "PMC4648295",
+      "title": "Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning",
+      "authors_short": "Buzsáki",
+      "journal": "Hippocampus",
+      "year": 2015,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "SWR generation CA3 recurrent circuit",
+        "ACh suppression and SWR release",
+        "20x time-compressed sequence replay",
+        "closed-loop SWR disruption impairs memory",
+        "SWR as most synchronous brain event",
+        "two-stage memory consolidation model"
+      ]
+    },
+    {
+      "pmid": "24411729",
+      "pmcid": "PMC3921176",
+      "title": "Sleep and the price of plasticity: from synaptic and cellular homeostasis to memory consolidation and integration",
+      "authors_short": "Tononi & Cirelli",
+      "journal": "Neuron",
+      "year": 2014,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "SHY hypothesis core evidence",
+        "GluA1 30-40% higher after waking vs sleep",
+        "cortical evoked response slope restoration",
+        "dendritic spine density two-photon measurement",
+        "energy homeostasis rationale for SHY"
+      ]
+    },
+    {
+      "pmid": "34709916",
+      "pmcid": "PMC7611961",
+      "title": "Brain neural patterns and memory function of sleep",
+      "authors_short": "Girardeau & Lopes-dos-Santos",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2021,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "SO-spindle-SWR triple coupling review",
+        "NREM vs REM functional division",
+        "information flow directionality during sleep"
+      ]
+    },
+    {
+      "pmid": "31197012",
+      "pmcid": "PMC6693581",
+      "title": "Long-duration hippocampal sharp wave ripples improve memory",
+      "authors_short": "Fernández-Ruiz et al.",
+      "journal": "Science",
+      "year": 2019,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "SWR duration as functional dimension",
+        "longer SWR in memory-demanding tasks (P<1e-90)",
+        "correct vs incorrect trial SWR duration difference",
+        "closed-loop optogenetic SWR extension improves WM (P<1e-10)",
+        "random control stimulation ineffective",
+        "information capacity scales with SWR duration"
+      ]
+    },
+    {
+      "pmid": "38547293",
+      "pmcid": "PMC11068097",
+      "title": "Selection of experience for memory by hippocampal sharp wave ripples",
+      "authors_short": "Yang et al.",
+      "journal": "Science",
+      "year": 2024,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "4469 CA1 neurons large-scale recording",
+        "33% awake SWRs preferentially replay specific trials",
+        "awake-sleep replay priority correlation R=0.86",
+        "awake SWR as pre-tagging mechanism for sleep consolidation"
+      ]
+    },
+    {
+      "pmid": "40962324",
+      "pmcid": "PMC12576410",
+      "title": "Systems memory consolidation during sleep",
+      "authors_short": "Kim & Park",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2025,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "SO-spindle-SWR temporal hierarchy review",
+        "CT neuron→TRN→spindle cascade",
+        "CaV3.3 T-type channel in TRN spindle generation",
+        "spindle trough as optimal SWR window",
+        "cortex double-primed state (up-state + spindle)"
+      ]
+    },
+    {
+      "pmid": "38834064",
+      "pmcid": "PMC11233241",
+      "title": "Prefrontal cortical ripples suppress hippocampal reactivation during sleep memory consolidation",
+      "authors_short": "Shin & Jadhav",
+      "journal": "Nature Communications",
+      "year": 2024,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "simultaneous CA1 and PFC ripple recording in NREM",
+        "independent PFC ripples 71.2% suppress CA1",
+        "coordinated CA1-PFC ripples 28.8% activate both regions",
+        "competitive gating mechanism",
+        "bidirectional hippocampus-cortex negotiation during sleep"
+      ]
+    },
+    {
+      "pmid": "32579108",
+      "pmcid": "PMC7314542",
+      "title": "Slow oscillation-spindle coupling predicts enhanced memory formation from childhood to adolescence",
+      "authors_short": "Hahn et al.",
+      "journal": "Current Biology",
+      "year": 2020,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "longitudinal n=33 childhood to adolescence",
+        "SO-spindle coupling strengthens across development",
+        "coupling strength predicts memory improvement (rho=0.57)",
+        "coupling predicts better than spindle density alone (Z=2.20)",
+        "developmental trajectory of memory consolidation efficiency"
+      ]
+    },
+    {
+      "pmid": "39163472",
+      "pmcid": "PMC11364421",
+      "title": "Slow-wave sleep drives AMPA receptor renormalization in hypothalamus",
+      "authors_short": "Liu et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2024,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "SWS globally reduces GluA1 ~40% (P<0.001)",
+        "REM deprivation: GluA1 similar to intact sleep",
+        "spindle density positively correlates with GluA1 (r=0.91, P=0.0015)",
+        "spindles selectively protect high-weight synapses during SHY downscaling",
+        "reconciliation of SHY with active consolidation at molecular level"
+      ]
+    },
+    {
+      "pmid": "36279437",
+      "pmcid": "PMC9636926",
+      "title": "Hippocampus-neocortex interaction for memory consolidation",
+      "authors_short": "Singh et al.",
+      "journal": "PLOS Computational Biology",
+      "year": 2022,
+      "access": "open_full_text",
+      "aspects_covered": [
+        "NREM distills episodic details into semantic structure",
+        "REM decouples hippocampus from neocortex",
+        "REM protects against catastrophic forgetting",
+        "complementary learning systems computational implementation"
+      ]
+    },
+    {
+      "pmid": "8036518",
+      "pmcid": null,
+      "title": "Reactivation of hippocampal ensemble memories during sleep",
+      "authors_short": "Wilson & McNaughton",
+      "journal": "Science",
+      "year": 1994,
+      "access": "abstract_only",
+      "aspects_covered": [
+        "first direct evidence of hippocampal reactivation during sleep",
+        "waking place cell sequences replayed during subsequent sleep"
+      ]
+    },
+    {
+      "pmid": "20046194",
+      "pmcid": null,
+      "title": "The memory function of sleep",
+      "authors_short": "Diekelmann & Born",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2010,
+      "access": "abstract_only",
+      "aspects_covered": [
+        "SWS for declarative memory",
+        "REM for emotional and procedural memory",
+        "sleep stage functional division classic reference"
+      ]
+    }
+  ]
+}

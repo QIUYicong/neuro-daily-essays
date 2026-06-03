@@ -1,7 +1,88 @@
 {
-  "last_updated": "2026-07-03",
-  "total_articles": 69,
+  "last_updated": "2026-07-07",
+  "total_articles": 73,
+  "note": "Articles #70 (microglia, 2026-06-03), #71 (E/I balance, 2026-07-04), #72 (critical period, 2026-06-03) exist as article files but were not recorded in ledger by their sessions. Article #73 (this entry) is the first correctly ledgered article after the gap. Backfill pending.",
   "entries": [
+    {
+      "date": "2026-07-07",
+      "title": "睡眠如何将记忆刻入皮层：三元振荡的协奏与稳态假说的调和",
+      "filename": "2026-07-07-sleep-memory-consolidation.md",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/sharp-wave-ripples.md",
+        "wiki/concepts/memory-consolidation.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "questions_partially_resolved": ["Q-scale-03"],
+      "questions_new": ["Q-swr-01", "Q-shy-integration-01"],
+      "core_question": "NREM 慢波睡眠中，皮层慢振荡（SO）、丘脑纺锤波与海马 SWR 的三元嵌套如何将情景记忆从海马转移到皮层？突触稳态假说（SHY）与主动系统巩固假说是否矛盾，还是描述同一睡眠的两个互补面？",
+      "layer": [
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱 4（学习和记忆）系统层巩固整合文章；承接突触可塑性深度系列（LTP→LTD→BDNF→稳态缩放）上升至系统/网络层；深化 SHY vs 主动巩固框架（Q-scale-03 部分裁决）；填补 wiki/sharp-wave-ripples 和 wiki/memory-consolidation 的新证据缺口（Fernández-Ruiz 2019、Shin 2024、Hahn 2020、Liu 2024）",
+      "topic_tags": [
+        "sleep memory consolidation",
+        "sharp wave ripples",
+        "SWR duration",
+        "SO-spindle-SWR coupling",
+        "cortical slow oscillation",
+        "sleep spindles",
+        "NREM sleep",
+        "SHY hypothesis",
+        "synaptic homeostasis",
+        "Tononi Cirelli",
+        "active systems consolidation",
+        "complementary learning systems",
+        "CLS",
+        "PFC gating",
+        "hippocampus-cortex dialogue",
+        "awake SWR pre-tagging",
+        "Yang 2024",
+        "Fernandez-Ruiz 2019",
+        "Hahn 2020",
+        "Liu 2024",
+        "GluA1 renormalization",
+        "spindle selective protection",
+        "Singh 2022",
+        "catastrophic forgetting",
+        "experience replay",
+        "Kim Park 2025",
+        "Shin Jadhav 2024"
+      ],
+      "main_sources": [
+        "PMID:26135716 (PMCID:PMC4648295, open full text, Buzsáki 2015)",
+        "PMID:24411729 (PMCID:PMC3921176, open full text, Tononi & Cirelli 2014)",
+        "PMID:34709916 (PMCID:PMC7611961, open full text, Girardeau 2021)",
+        "PMID:31197012 (PMCID:PMC6693581, open full text, Fernández-Ruiz 2019)",
+        "PMID:38547293 (PMCID:PMC11068097, open full text, Yang 2024)",
+        "PMID:40962324 (PMCID:PMC12576410, open full text, Kim & Park 2025)",
+        "PMID:38834064 (PMCID:PMC11233241, open full text, Shin & Jadhav 2024)",
+        "PMID:32579108 (PMCID:PMC7314542, open full text, Hahn 2020)",
+        "PMID:39163472 (PMCID:PMC11364421, open full text, Liu 2024)",
+        "PMID:36279437 (PMCID:PMC9636926, open full text, Singh 2022)",
+        "PMID:8036518 (abstract only, Wilson & McNaughton 1994)",
+        "PMID:20046194 (abstract only, Diekelmann & Born 2010)"
+      ],
+      "unresolved_questions": [
+        "Q-swr-01",
+        "Q-shy-integration-01"
+      ],
+      "next_suggested_topics": [
+        "记忆印迹竞争（engram competition + allocation）：CaMKII/CREB 竞争→印迹细胞选择→记忆干扰与特异性；承接 Wu 2021 记忆特异性雕刻结果，系统层面巩固→细胞层面的印迹竞争",
+        "海马-皮层轴的具体突触机制（hippocampal-cortical synaptic transfer）：SWR 重播如何在皮层留下持久突触印记——填补 Q-swr-cortical-consolidation",
+        "睡眠障碍的认知神经科学（sleep disorders + memory impairment）：纺锤波减少（精神分裂症/老化）如何影响记忆巩固；连接 Q-shy-integration-01 与临床维度",
+        "前额叶皮层与记忆决策（PFC + memory gating）：深化 Shin 2024 发现，PFC 如何在清醒和睡眠中双向调控海马记忆选择"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 73,
+      "note": "虚拟日期2026-07-07；真实执行日期UTC+8=2026-06-03；继承自上一系列（synaptic scaling→E/I balance→critical period）；本篇将知识层次从突触/分子层提升至系统/网络层；核心贡献：(1) SHY vs 主动巩固 Q-scale-03 部分裁决（Liu 2024）；(2) SWR时长作为信息量维度（Fernández-Ruiz 2019）；(3) PFC睡眠期主动门控（Shin 2024）；(4) 三元振荡发育视角（Hahn 2020）"
+    },
     {
       "date": "2026-07-03",
       "title": "突触稳态：当赫布规则失控时，大脑如何给自己“归零”",

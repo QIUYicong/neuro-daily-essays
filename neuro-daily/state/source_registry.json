@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-07",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5983,6 +5983,192 @@
         "disease implications"
       ],
       "note": "Comprehensive circuit-level review; abstract only"
+    },
+    {
+      "pmid": "24411729",
+      "pmcid": "PMC3921176",
+      "title": "Sleep and the price of plasticity: from synaptic and cellular homeostasis to memory consolidation and integration",
+      "authors": "Tononi G, Cirelli C",
+      "journal": "Neuron",
+      "year": 2014,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "SHY hypothesis core evidence",
+        "GluA1 waking vs sleep 30-40% difference",
+        "dendritic spine density two-photon",
+        "cortical evoked response slope",
+        "synaptic downscaling during SWS",
+        "energy homeostasis rationale"
+      ],
+      "note": "SHY landmark review; open full text read"
+    },
+    {
+      "pmid": "31197012",
+      "pmcid": "PMC6693581",
+      "title": "Long-duration hippocampal sharp wave ripples improve memory",
+      "authors": "Fernández-Ruiz A et al.",
+      "journal": "Science",
+      "year": 2019,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "SWR duration as information capacity dimension",
+        "longer SWR in memory-demanding tasks",
+        "correct vs incorrect trial SWR duration",
+        "closed-loop optogenetic SWR extension",
+        "working memory improvement causal evidence"
+      ],
+      "note": "Science paper; open full text read; key causal evidence for SWR duration"
+    },
+    {
+      "pmid": "32579108",
+      "pmcid": "PMC7314542",
+      "title": "Slow oscillation-spindle coupling predicts enhanced memory formation from childhood to adolescence",
+      "authors": "Hahn M et al.",
+      "journal": "Current Biology",
+      "year": 2020,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "SO-spindle coupling longitudinal development",
+        "n=33 childhood to adolescence",
+        "coupling strength predicts memory (rho=0.57)",
+        "coupling better predictor than spindle density",
+        "developmental trajectory of consolidation efficiency"
+      ],
+      "note": "Longitudinal developmental study; open full text read"
+    },
+    {
+      "pmid": "34709916",
+      "pmcid": "PMC7611961",
+      "title": "Brain neural patterns and memory function of sleep",
+      "authors": "Girardeau G, Lopes-dos-Santos V",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2021,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "SO-spindle-SWR triple coupling review",
+        "NREM vs REM functional division",
+        "information flow directionality during sleep",
+        "memory consolidation systems overview"
+      ],
+      "note": "Comprehensive review; open full text read"
+    },
+    {
+      "pmid": "36279437",
+      "pmcid": "PMC9636926",
+      "title": "Hippocampus-neocortex interaction for memory consolidation",
+      "authors": "Singh A et al.",
+      "journal": "PLOS Computational Biology",
+      "year": 2022,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "NREM episodic to semantic distillation",
+        "REM hippocampus-neocortex decoupling",
+        "REM protection against catastrophic forgetting",
+        "CLS computational model",
+        "interleaved replay mechanism"
+      ],
+      "note": "Computational model; open full text read"
+    },
+    {
+      "pmid": "38547293",
+      "pmcid": "PMC11068097",
+      "title": "Selection of experience for memory by hippocampal sharp wave ripples",
+      "authors": "Yang Y et al.",
+      "journal": "Science",
+      "year": 2024,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "4469 CA1 neurons large-scale recording",
+        "awake SWR pre-tagging mechanism",
+        "33% awake SWRs preferentially replay specific trials",
+        "awake-sleep replay priority correlation R=0.86"
+      ],
+      "note": "Science paper; open full text read; key evidence for awake SWR pre-tagging"
+    },
+    {
+      "pmid": "39163472",
+      "pmcid": "PMC11364421",
+      "title": "Slow-wave sleep drives AMPA receptor renormalization in hypothalamus",
+      "authors": "Liu R et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2024,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "SWS global GluA1 reduction ~40%",
+        "REM deprivation vs intact sleep GluA1",
+        "spindle density positive correlation with GluA1 (r=0.91)",
+        "selective synaptic protection by spindles",
+        "SHY and active consolidation molecular reconciliation"
+      ],
+      "note": "J Neurosci 2024; open full text read; key Q-scale-03 partial resolution evidence"
+    },
+    {
+      "pmid": "40962324",
+      "pmcid": "PMC12576410",
+      "title": "Systems memory consolidation during sleep",
+      "authors": "Kim J, Park K",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2025,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "SO-spindle-SWR temporal hierarchy comprehensive review",
+        "CT neuron TRN cascade",
+        "CaV3.3 T-type channel spindle generation",
+        "spindle trough SWR window",
+        "cortex double-primed state"
+      ],
+      "note": "Nat Rev Neurosci 2025 review; open full text read"
+    },
+    {
+      "pmid": "8036518",
+      "pmcid": null,
+      "title": "Reactivation of hippocampal ensemble memories during sleep",
+      "authors": "Wilson MA, McNaughton BL",
+      "journal": "Science",
+      "year": 1994,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "first hippocampal sleep reactivation evidence",
+        "place cell sequence replay during sleep",
+        "historical landmark paper"
+      ],
+      "note": "Foundational 1994 Science paper; abstract only (no PMC)"
+    },
+    {
+      "pmid": "20046194",
+      "pmcid": null,
+      "title": "The memory function of sleep",
+      "authors": "Diekelmann S, Born J",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2010,
+      "used_in": [
+        "2026-07-07-sleep-memory-consolidation"
+      ],
+      "covers": [
+        "sleep memory function review",
+        "SWS declarative memory",
+        "REM emotional procedural memory",
+        "sleep stage functional division"
+      ],
+      "note": "Nat Rev Neurosci classic review; abstract only (paywall)"
     }
   ]
 }
