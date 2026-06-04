@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04",
+  "last_updated": "2026-07-05",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5983,6 +5983,159 @@
         "disease implications"
       ],
       "note": "Comprehensive circuit-level review; abstract only"
+    },
+    {
+      "pmid": "17446403",
+      "pmcid": null,
+      "title": "Neuronal competition and selection during memory formation",
+      "authors_short": "Han et al.",
+      "journal": "Science",
+      "year": 2007,
+      "first_used": "2026-07-05",
+      "used_in_articles": [
+        "2026-07-05-engram-allocation-memory-competition.md"
+      ],
+      "aspects_covered": [
+        "CREB overexpression biases neuronal allocation to LA fear engram",
+        "zero-sum competition: global CREB elevation does not increase memory strength",
+        "mCREB cells actively excluded from engram",
+        "relative excitability as allocation currency"
+      ],
+      "note": "Foundational experiment; abstract only (Science 2007 paywalled)"
+    },
+    {
+      "pmid": "19286560",
+      "pmcid": null,
+      "title": "Selective erasure of a fear memory",
+      "authors_short": "Han et al.",
+      "journal": "Science",
+      "year": 2009,
+      "first_used": "2026-07-05",
+      "used_in_articles": [
+        "2026-07-05-engram-allocation-memory-competition.md"
+      ],
+      "aspects_covered": [
+        "selective ablation of CREB-overexpressing LA cells destroys fear memory permanently",
+        "ablation of equal number of random cells leaves memory intact",
+        "causal proof that CREB-high cells are engram core"
+      ],
+      "note": "Causal necessity experiment; abstract only (Science 2009 paywalled)"
+    },
+    {
+      "pmid": "29709212",
+      "pmcid": "PMC9623596",
+      "title": "Memory Allocation: Mechanisms and Function",
+      "authors_short": "Josselyn & Frankland",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2018,
+      "first_used": "2026-07-05",
+      "used_in_articles": [
+        "2026-07-05-engram-allocation-memory-competition.md"
+      ],
+      "aspects_covered": [
+        "CREB-excitability-allocation framework",
+        "competitive inhibition mechanism",
+        "memory linking temporal window",
+        "memory separation",
+        "human fMRI evidence",
+        "Rashid 2016 PV+ lateral inhibition synthesis"
+      ],
+      "note": "Primary review source for article; open full text (PMC9623596)"
+    },
+    {
+      "pmid": "27251287",
+      "pmcid": "PMC5063500",
+      "title": "A shared neural ensemble links distinct contextual memories encoded close in time",
+      "authors_short": "Cai et al.",
+      "journal": "Nature",
+      "year": 2016,
+      "first_used": "2026-07-05",
+      "used_in_articles": [
+        "2026-07-05-engram-allocation-memory-competition.md"
+      ],
+      "aspects_covered": [
+        "CA1 calcium imaging: 5h-interval contexts share neuronal ensembles",
+        "7-day interval: overlap at chance level",
+        "overlapping ensembles → cross-context fear generalization",
+        "aged mice: reduced CA1 excitability → lost memory linking",
+        "DREADD (hM3Dq+CNO) rescue of linking in aged mice"
+      ],
+      "note": "Single-cell evidence for memory linking; open full text (PMC5063500, Nature)"
+    },
+    {
+      "pmid": "27187069",
+      "pmcid": "PMC5101572",
+      "title": "Neuronal Allocation to a Hippocampal Engram",
+      "authors_short": "Park et al.",
+      "journal": "Neuropsychopharmacology",
+      "year": 2016,
+      "first_used": "2026-07-05",
+      "used_in_articles": [
+        "2026-07-05-engram-allocation-memory-competition.md"
+      ],
+      "aspects_covered": [
+        "CREB-overexpressing DG cells preferentially allocated to contextual engram",
+        "silencing allocation cells 5min post-training: consolidation impaired",
+        "silencing at 24h post-training: no effect",
+        "extends CREB allocation mechanism from LA to hippocampal DG"
+      ],
+      "note": "Extends allocation to hippocampus + post-training consolidation window; open full text (PMC5101572)"
+    },
+    {
+      "pmid": "38561228",
+      "pmcid": "PMC11112642",
+      "title": "Intrinsic Neural Excitability Biases Allocation and Overlap of Memory Engrams",
+      "authors_short": "Delamare et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2024,
+      "first_used": "2026-07-05",
+      "used_in_articles": [
+        "2026-07-05-engram-allocation-memory-competition.md"
+      ],
+      "aspects_covered": [
+        "computational model (60-neuron network): 8 high-excitability cells significantly bias allocation",
+        "competitive inhibition as key mechanism",
+        "excitability dynamics determine memory overlap probability"
+      ],
+      "note": "Computational modeling of allocation; open full text (PMC11112642)"
+    },
+    {
+      "pmid": "38103203",
+      "pmcid": "PMC10842737",
+      "title": "Examining memory linking and generalization using scFLARE2, a temporally precise neuronal activity tagging system",
+      "authors_short": "Jung et al.",
+      "journal": "Cell Reports",
+      "year": 2023,
+      "first_used": "2026-07-05",
+      "used_in_articles": [
+        "2026-07-05-engram-allocation-memory-competition.md"
+      ],
+      "aspects_covered": [
+        "scFLARE2 precise temporal labeling system",
+        "3h interval: co-allocation and generalization",
+        "27h interval: independent engrams and memory specificity",
+        "precise delineation of linking/separation temporal boundary"
+      ],
+      "note": "Precise temporal boundary confirmation for memory linking; open full text (PMC10842737)"
+    },
+    {
+      "pmid": "41470040",
+      "pmcid": "PMC12754038",
+      "title": "Writing the Engram: Epigenetic Mechanisms of Memory Allocation",
+      "authors_short": "Tarulli et al.",
+      "journal": "Journal of Neurochemistry",
+      "year": 2025,
+      "first_used": "2026-07-05",
+      "used_in_articles": [
+        "2026-07-05-engram-allocation-memory-competition.md"
+      ],
+      "aspects_covered": [
+        "H3K27ac (histone acetylation) positively correlates with intrinsic excitability in real-time (FRET imaging)",
+        "DNMT3A/intermediate methylation regions regulate excitability-related gene expression",
+        "acetyl-CoA and stress hormones influence allocation via epigenetic pathways",
+        "epigenetic pre-priming as upstream allocation determinant"
+      ],
+      "note": "Reveals epigenetic layer upstream of CREB in allocation; open full text (PMC12754038); new result requiring independent replication"
     }
   ]
 }

@@ -1,0 +1,148 @@
+# Run Log: 2026-07-05
+
+**执行时间（系统时钟 UTC+8）**：2026-06-04（真实执行日期）
+**知识库虚拟日期**：2026-07-05
+**文章编号**：#73
+**文章标题**：记忆的竞争法庭：大脑如何选定那些承载记忆的神经元
+**文章文件**：neuro-daily/articles/2026-07-05-engram-allocation-memory-competition.md
+
+---
+
+## 执行流程
+
+### A. 阅读 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md ✓
+- ROUTINE.md：确认单分支主线（main）；流程 0→A→B→C→D→E→F→G→H
+- KNOWLEDGE-BASE-DESIGN.md：双层架构（episodic articles/ + semantic wiki/）；三条不变式（追加仅限文章层、wiki 常驻当前理解、来源必须真实可追溯）
+
+### B. 选题（知识图谱驱动）✓
+- topic_ledger 状态：last_updated=2026-07-03，total_articles=69（含未登记的 #70-72）
+- 主题选择：**印迹竞争与记忆分配（Engram Allocation + Memory Linking）**
+  - 理由：多篇前序文章（稳态 07-03、E/I 平衡 07-04、关键期 2026-06-03）均推荐此主题
+  - 优先缺口：memory-allocation、memory-linking 两个 wiki 页缺失；engram-cells 有悬空 related 字段
+  - 课程脊柱：4（学习和记忆）；深化印迹研究路线图第二阶段
+
+### C. 文献搜索（PubMed E-utilities）✓
+- 搜索词（多轮迭代）：
+  1. "engram cell allocation CREB memory competition" → 0 结果
+  2. "memory engram CREB allocation neuronal" → 找到 Han 2007/2009、Josselyn 2018
+  3. "memory allocation CREB amygdala fear competition" → 找到 Han 2007 PMID:17446403
+  4. "Cai time linked memory hippocampus neurons 2016 Nature" → 找到 Cai 2016 PMID:27251287
+  5. "scFLARE2 memory linking" → 找到 Jung 2023 PMID:38103203
+  6. "epigenetic H3K27ac neural excitability memory engram" → 找到 Tarulli 2025 PMID:41470040
+- 全文获取：通过 pmc.ncbi.nlm.nih.gov 获取 6 篇 PMC 全文
+  - 失败尝试：elink API 返回 500；改为直接 PMC URL 获取
+  - Han 2007、Han 2009（Science）：仅摘要，已在文章中标注
+
+### D. 文章写作 ✓
+- 字数：约 4500+ 字（中文）
+- 结构：核心问题 / 一句话摘要 / 为什么重要 / 背景 / 分层机制（6小节）/ 关键证据表 / 比喻 / 认知地图更新 / 争议与未解问题 / 与AI对照 / 今日概念卡片 / 参考来源
+- 所有来源均真实可追溯（PMID 验证）；2 篇摘要仅读已标注
+
+### E. 阅读笔记 + 来源注册 ✓
+- 笔记：neuro-daily/notes/2026-07-05-reading-notes.md（6 篇来源的详细笔记）
+- 来源 JSON：neuro-daily/sources/2026-07-05-sources.json（8 篇来源，含获取状态）
+
+### F. Wiki 知识整合 ✓
+
+**新建页面**：
+1. `wiki/concepts/memory-allocation.md`（mainstream/high，revision_count: 1）
+   - 核心机制：CREB→兴奋性→分配因果链；表观遗传前置层（H3K27ac）；PV+ 侧向抑制；训练后 5min 窗口
+   - 6 个 key_sources；related: engram-cells, creb, pv-interneurons, ltp, hebbian-learning, memory-linking, competition-selection-principle, hippocampal-circuit, camkii
+2. `wiki/concepts/memory-linking.md`（emerging/medium，revision_count: 1）
+   - 核心机制：~6h 兴奋性窗口；CA1 印迹重叠（Cai 2016）；老年缺陷+DREADD 救援；scFLARE2 时间边界（Jung 2023）
+   - 4 个 key_sources；related: memory-allocation, engram-cells, hippocampal-circuit, pv-interneurons, sharp-wave-ripples, memory-consolidation, theta-oscillations
+
+**修订页面**：
+1. `wiki/concepts/engram-cells.md`（rev4→rev5）
+   - 新增 related：memory-allocation, memory-linking, pv-interneurons
+   - 新增 key_sources：PMID:29709212, 27251287, 41470040
+   - 新增 source_articles：2026-07-05-engram-allocation-memory-competition
+   - 新增修订历史条目
+
+**知识图谱更新**：
+- 节点：133→135（+2：memory-allocation, memory-linking）
+- 边：754→770（+16 条新边）
+  - memory-allocation → engram-cells (mechanism-of)
+  - memory-allocation → creb (uses)
+  - memory-allocation → pv-interneurons (requires)
+  - memory-allocation → ltp (leads-to)
+  - memory-allocation → hebbian-learning (implements)
+  - memory-allocation → memory-linking (enables)
+  - memory-allocation → competition-selection-principle (is-a)
+  - memory-allocation → hippocampal-circuit (occurs-in)
+  - memory-allocation → camkii (uses)
+  - memory-linking → memory-allocation (requires)
+  - memory-linking → engram-cells (mechanism-of)
+  - memory-linking → hippocampal-circuit (occurs-in)
+  - memory-linking → pv-interneurons (gated-by)
+  - memory-linking → sharp-wave-ripples (related-to)
+  - memory-linking → memory-consolidation (related-to)
+  - memory-linking → theta-oscillations (related-to)
+- 更新：wiki/_graph.json（updated: 2026-07-05）
+- 悬空引用（dangling）：creb（无 wiki 页），intrinsic-excitability（无 wiki 页）
+
+**wiki CHANGELOG 更新**：已在 CHANGELOG.md 顶部添加 2026-07-05 条目
+
+**wiki index.md 更新**：已更新（total: 135 pages，新增 2 条目）
+
+### F2. 治理层状态更新 ✓
+- `state/topic_ledger.json`：total_articles 69→73；last_updated 2026-07-03→2026-07-05；新增 #73 条目
+- `state/unresolved_questions.md`：新增 Q-alloc-01, Q-alloc-02, Q-alloc-03
+- `state/source_registry.json`：新增 8 篇来源
+- `state/monthly_synthesis.md`：更新本月截至日期；新增 #73 日条目
+- `state/maturity_index.json`：新增 memory-allocation（mainstream/high）、memory-linking（emerging/medium）
+
+### G. Git 提交 + 推送
+- 分支：main
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-07-05
+
+---
+
+## 文件清单
+
+### 新建文件
+- `neuro-daily/articles/2026-07-05-engram-allocation-memory-competition.md`
+- `neuro-daily/notes/2026-07-05-reading-notes.md`
+- `neuro-daily/sources/2026-07-05-sources.json`
+- `neuro-daily/wiki/concepts/memory-allocation.md`
+- `neuro-daily/wiki/concepts/memory-linking.md`
+- `neuro-daily/logs/2026-07-05-run.log`（本文件）
+
+### 修改文件
+- `neuro-daily/wiki/concepts/engram-cells.md`（rev4→rev5）
+- `neuro-daily/wiki/_graph.json`（135 节点，770 边）
+- `neuro-daily/wiki/CHANGELOG.md`（2026-07-05 条目）
+- `neuro-daily/wiki/index.md`（135 pages，新增 2 条目）
+- `neuro-daily/state/topic_ledger.json`（total 69→73，新增 #73 条目）
+- `neuro-daily/state/unresolved_questions.md`（新增 Q-alloc-01/02/03）
+- `neuro-daily/state/source_registry.json`（新增 8 篇）
+- `neuro-daily/state/monthly_synthesis.md`（新增 07-05 条目）
+- `neuro-daily/state/maturity_index.json`（新增 2 条目）
+
+---
+
+## 关键来源摘要
+
+| PMID | 标题 | 获取状态 | 关键发现 |
+|------|------|---------|---------|
+| 17446403 | Han et al. 2007 (Science) | 摘要仅读 | CREB→分配偏向，零和竞争 |
+| 19286560 | Han et al. 2009 (Science) | 摘要仅读 | 消融印迹→记忆永久消失（因果核心） |
+| 29709212 | Josselyn & Frankland 2018 (Ann Rev Neurosci) | 开放全文 PMC9623596 | 综述框架 + Rashid 2016 PV+ 侧向抑制 |
+| 27251287 | Cai et al. 2016 (Nature) | 开放全文 PMC5063500 | CA1 重叠直接证据；老年缺陷；DREADD 救援 |
+| 27187069 | Park et al. 2016 (Neuropsychopharmacology) | 开放全文 PMC5101572 | DG 分配；训练后 5min 巩固窗口 |
+| 38561228 | Delamare et al. 2024 (J Neurosci) | 开放全文 PMC11112642 | 计算模型：8 细胞兴奋性偏置分配 |
+| 38103203 | Jung et al. 2023 (Cell Reports) | 开放全文 PMC10842737 | scFLARE2：3h 联结 vs 27h 独立 |
+| 41470040 | Tarulli et al. 2025 (J Neurochem) | 开放全文 PMC12754038 | H3K27ac-兴奋性实时正相关（表观遗传前置层） |
+
+---
+
+## 开放问题（本次新增）
+- Q-alloc-01（高）：内源性 CREB 波动幅度是否足以在自然学习中影响分配？
+- Q-alloc-02（高）：~6h 联结窗口的分子机制上限由什么决定？
+- Q-alloc-03（中）：H3K27ac 能否作为记忆增强的表观遗传靶点？
+
+---
+
+## 提交哈希
+<!-- 将在 git commit 后填入 -->
+COMMIT_HASH: [见下方 git 命令输出]

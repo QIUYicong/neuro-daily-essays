@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-05（文章 #73·记忆的竞争法庭·神经元分配与记忆联结机制）
+
+**源文章**：[[2026-07-05-engram-allocation-memory-competition]] —《记忆的竞争法庭：大脑如何选定那些承载记忆的神经元》
+
+**新建页面（2 页）**：
+- `concepts/memory-allocation.md`：神经元分配——CREB/内在兴奋性竞争决定哪些神经元进入印迹；零和竞争；PV+侧向抑制赢家通吃；表观遗传前置层（H3K27ac）；训练后5min巩固窗口（mainstream, confidence:high）
+- `concepts/memory-linking.md`：记忆联结——时间接近（~6h）的两段学习因共享高兴奋性印迹神经元而实现联结；Cai 2016 CA1钙成像直接证据；老年小鼠CA1兴奋性下降→联结缺陷→DREADD救援；scFLARE2精确时间边界（3h vs 27h）（emerging, confidence:medium）
+
+**修订页面（1 页）**：
+- `concepts/engram-cells.md`（rev4→rev5）：related新增 memory-allocation、memory-linking、pv-interneurons；key_sources新增 PMID:29709212、27251287、41470040；修订历史追加2026-07-05条目；source_articles新增2026-07-05文章
+
+**图谱更新**：新增 2 节点（memory-allocation, memory-linking）、16 条边；总计 135 节点，770 边
+
+**新登记矛盾**：无（CREB内源性波动是否足以影响自然分配——Q-alloc-01尚不构成正式矛盾，标记为未解问题）
+
+**新增未解问题（3 个）**：
+- Q-alloc-01（高优先级）：内源性CREB活性波动是否足以在自然学习中真实影响分配？
+- Q-alloc-02（高优先级）：记忆联结时间窗（~6h）的分子决定因素和跨物种差异
+- Q-alloc-03（中优先级）：H3K27ac等表观遗传标记是否可作为记忆增强干预靶点？
+
+**新增悬空引用（待补）**：
+- `creb`：CREB 蛋白（被 memory-allocation 多次引用，尚无独立 wiki 节点）
+- `intrinsic-excitability`：内在兴奋性稳态（被 memory-allocation、memory-linking 引用，尚无独立页面）
+
+---
+
 ## 2026-07-04（文章 #54·信号与噪声之间·皮层 E/I 平衡与 PV 中间神经元守门机制）
 
 **源文章**：[[2026-07-04-ei-balance-pv-interneuron]] —《信号与噪声之间：皮层 E/I 平衡的回路逻辑、PV 中间神经元的守门机制与大脑"刹车"的分子基础》

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-05",
   "levels": [
     "speculative",
     "emerging",
@@ -909,6 +909,35 @@
       "PMID:15733097",
       "PMID:23574587",
       "PMID:34252418"
+    ]
+  },
+  {
+    "slug": "memory-allocation",
+    "status": "mainstream",
+    "confidence": "high",
+    "supporting_sources": 6,
+    "last_status_change": "2026-07-05",
+    "change_reason": "首次创建（2026-07-05，文章 #73）。CREB→兴奋性→分配机制由 Han 2007（Science，PMID:17446403）首次证明并已被多个实验室在不同脑区（LA、DG、CA1）重复；Han 2009 选择性消融实验（PMID:19286560）提供了分配细胞因果必要性的直接证明；Josselyn & Frankland 2018（PMC9623596）系统综述提供了整合框架；Park 2016（PMC5101572）扩展到海马 DG；Tarulli 2025（PMC12754038）揭示表观遗传前置层。设为 mainstream（非 established）因为表观遗传层是新结果（需独立复验），且内源性 CREB 的自然分配效应仍是开放问题（Q-alloc-01）",
+    "key_sources": [
+      "PMID:17446403",
+      "PMID:19286560",
+      "PMID:29709212 (PMC9623596)",
+      "PMID:27187069 (PMC5101572)",
+      "PMID:41470040 (PMC12754038)",
+      "PMID:38561228 (PMC11112642)"
+    ]
+  },
+  {
+    "slug": "memory-linking",
+    "status": "emerging",
+    "confidence": "medium",
+    "supporting_sources": 3,
+    "last_status_change": "2026-07-05",
+    "change_reason": "首次创建（2026-07-05，文章 #73）。记忆联结机制有来自 CA1 单细胞钙成像（Cai 2016，PMC5063500，Nature）的直接证据：5h 内两情境显著重叠，7天降至机会水平；Jung 2023（PMC10842737）用 scFLARE2 精确确认 3h 联结 vs 27h 不联结边界；老年缺陷+DREADD 救援提供了因果证据。设为 emerging（非 mainstream）因为：(a) 主要来自啮齿类实验，人类证据有限；(b) 联结窗口的分子机制（Q-alloc-02）尚不清楚；(c) PV+ 侧向抑制的记忆联结角色来自综述引用，未经独立直接证明",
+    "key_sources": [
+      "PMID:27251287 (PMC5063500)",
+      "PMID:38103203 (PMC10842737)",
+      "PMID:29709212 (PMC9623596)"
     ]
   }
 }

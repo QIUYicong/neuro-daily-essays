@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-03",
+  "updated": "2026-07-05",
   "node_count": 132,
   "edge_count": 744,
   "edge_types": [
@@ -1210,6 +1210,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/critical-period.md"
+    },
+    {
+      "id": "memory-allocation",
+      "title": "神经元分配（记忆分配）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/memory-allocation.md"
+    },
+    {
+      "id": "memory-linking",
+      "title": "记忆联结",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/memory-linking.md"
     }
   ],
   "edges": [
@@ -5346,6 +5364,86 @@
     {
       "from": "critical-period",
       "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "engram-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "hebbian-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "memory-linking",
+      "type": "supports"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "competition-selection-principle",
+      "type": "is-a"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "memory-allocation",
+      "to": "camkii",
+      "type": "related"
+    },
+    {
+      "from": "memory-linking",
+      "to": "memory-allocation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-linking",
+      "to": "engram-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-linking",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "memory-linking",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "memory-linking",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "memory-linking",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "engram-cells",
+      "to": "memory-allocation",
+      "type": "related"
+    },
+    {
+      "from": "engram-cells",
+      "to": "memory-linking",
       "type": "related"
     }
   ],

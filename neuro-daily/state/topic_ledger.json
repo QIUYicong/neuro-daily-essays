@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-03",
-  "total_articles": 69,
+  "last_updated": "2026-07-05",
+  "total_articles": 73,
   "entries": [
     {
       "date": "2026-07-03",
@@ -4086,6 +4086,87 @@
       "mode": "long_term_curriculum",
       "article_number": 72,
       "note": "今日为第四篇 2026-06-03 文章（#11 PV中间神经元，#66 视丘，#70 微胶质，#72 关键期）；延续日期困境（系统日期UTC+8=2026-06-03）；知识库连续性延续自#71（2026-07-04·E/I平衡）"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "记忆的竞争法庭：大脑如何选定那些承载记忆的神经元",
+      "filename": "2026-07-05-engram-allocation-memory-competition.md",
+      "wiki_pages_created": [
+        "wiki/concepts/memory-allocation.md",
+        "wiki/concepts/memory-linking.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/engram-cells.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "印迹细胞的形成不是随机过程：具有更高内在兴奋性（由 CREB 活性、表观遗传状态调控）的神经元在竞争中优先被选入记忆印迹。这种竞争性分配机制（Han 2007/2009）如何决定"哪些神经元成为某段记忆的物理载体"？以及如何解释时间接近（~6小时内）的记忆在海马共享神经元、从而实现跨记忆联结（Cai 2016，Jung 2023）？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "cognition"
+      ],
+      "curriculum_track": "记忆印迹系列（印迹细胞证明 05-31 → 印迹竞争分配 07-05）；从印迹存在性（光遗传证明）到印迹形成机制（CREB 竞争分配）；补充 PV+ 中间神经元（07-04 E/I 平衡）的印迹稀疏性维持功能；建立记忆联结框架",
+      "topic_tags": [
+        "engram cells",
+        "memory allocation",
+        "neuronal competition",
+        "CREB",
+        "intrinsic excitability",
+        "Han 2007",
+        "Han 2009",
+        "amygdala fear memory",
+        "zero-sum competition",
+        "PV interneurons",
+        "lateral inhibition",
+        "winners-take-all",
+        "memory linking",
+        "Cai 2016",
+        "temporal proximity",
+        "6-hour window",
+        "overlapping engrams",
+        "memory generalization",
+        "scFLARE2",
+        "Jung 2023",
+        "aging memory linking",
+        "DREADD rescue",
+        "epigenetic priming",
+        "H3K27ac",
+        "DNMT3A",
+        "Tarulli 2025",
+        "silent engram",
+        "Josselyn Frankland review",
+        "Park 2016",
+        "DG allocation window",
+        "memory competition"
+      ],
+      "main_sources": [
+        "PMID:17446403 (Science 2007, Han, abstract only - CREB竞争分配奠基实验)",
+        "PMID:19286560 (Science 2009, Han, abstract only - 消融CREB印迹细胞→记忆永久消失)",
+        "PMID:29709212 (PMC9623596, Ann Rev Neurosci 2018, Josselyn & Frankland, 开放全文 - 综述)",
+        "PMID:27251287 (PMC5063500, Nature 2016, Cai, 开放全文 - CA1重叠与记忆联结)",
+        "PMID:27187069 (PMC5101572, Neuropsychopharmacology 2016, Park, 开放全文 - DG分配窗口)",
+        "PMID:38561228 (PMC11112642, J Neurosci 2024, Delamare, 开放全文 - 计算模型)",
+        "PMID:38103203 (PMC10842737, Cell Reports 2023, Jung, 开放全文 - scFLARE2精确时间边界)",
+        "PMID:41470040 (PMC12754038, J Neurochem 2025, Tarulli, 开放全文 - 表观遗传前置分配)"
+      ],
+      "unresolved_questions": [
+        "Q-alloc-01",
+        "Q-alloc-02",
+        "Q-alloc-03"
+      ],
+      "next_suggested_topics": [
+        "记忆联结与情景记忆整合（memory linking + episodic integration）：跨记忆联结如何支持事件情节的时序排列；前额叶皮层在时间序列记忆中的角色",
+        "PV+ 中间神经元的多重功能（PV interneurons beyond E/I balance）：印迹稀疏性维持 + 伽马振荡发生器 + 关键期门控——三重角色的回路分工",
+        "记忆干扰与遗忘（memory interference + forgetting）：两段记忆竞争同一印迹位点 vs 分配至独立印迹；遗忘是提取障碍还是存储障碍",
+        "CaMKII 在学习与记忆中的角色（CaMKII function in LTP and memory）：CaMKII 在 CREB 下游的信号节点；与分配机制和 LTP 的关系",
+        "人类记忆联结的fMRI证据（memory linking in humans）：A-B-C推断任务；前额叶-海马轴在记忆整合中的作用"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 73,
+      "note": "系统时钟 UTC+8=2026-06-04（真实日期）；知识库虚拟日期 2026-07-05；延续自#72（2026-06-03·发育关键期）；本篇将印迹研究从'印迹存在性证明'深化为'印迹形成竞争机制'；建立 memory-allocation 和 memory-linking 两个新 wiki 页；更新 engram-cells rev4→rev5；新建 2 个 wiki 页，修订 1 个页面；图谱 135 节点，770 条边"
     }
   ],
   "layer_coverage_recent": {
