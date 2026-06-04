@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-08",
-  "node_count": 138,
-  "edge_count": 794,
+  "updated": "2026-07-09",
+  "node_count": 140,
+  "edge_count": 814,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1282,6 +1282,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/scn-circadian-pacemaker.md"
+    },
+    {
+      "id": "hpa-axis",
+      "title": "下丘脑-垂体-肾上腺轴（HPA 轴）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/hpa-axis.md"
+    },
+    {
+      "id": "glucocorticoid-hippocampus-plasticity",
+      "title": "糖皮质激素与海马可塑性（MR/GR 双相调节）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/glucocorticoid-hippocampus-plasticity.md"
     }
   ],
   "edges": [
@@ -5793,6 +5811,120 @@
       "to": "bdnf",
       "type": "related",
       "note": "BDNF 表达受昼夜节律调控，影响 PV+ 成熟时间轴和关键期时序"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "glucocorticoid-hippocampus-plasticity",
+      "type": "mechanism-of",
+      "note": "HPA 轴输出的皮质醇通过 MR/GR 双受体系统调节海马突触可塑性"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "amygdala",
+      "type": "regulates",
+      "note": "BLA→BNST→PVN 提供 HPA 轴威胁信号输入；CeM→PVN 激活 CRH 释放"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "hippocampal-circuit",
+      "type": "regulates",
+      "note": "海马 GR 激活提供 HPA 轴负反馈；海马损伤→负反馈减弱→皮质醇级联升高"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "circadian-clock",
+      "type": "related",
+      "note": "SCN 驱动皮质醇昼夜节律（清晨高峰）；节律性 MR/GR 激活模式依赖 SCN 完整性"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "scn-circadian-pacemaker",
+      "type": "regulates",
+      "note": "SCN 通过 AVP 和自主神经调节肾上腺皮质对 ACTH 的敏感性，产生皮质醇昼夜节律"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related",
+      "note": "LC-NE 系统与 HPA 轴在应激急性期协同激活（快速 NE + 慢速 GC 双系统）"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "bdnf",
+      "type": "regulates",
+      "note": "慢性 GR 激活通过负性 GRE 抑制 BDNF exon IV 转录；是 HPA 失调损伤突触可塑性的下游机制"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "AD 早期 SCN 退化→皮质醇节律崩溃→HPA 失调→海马损伤加速；负反馈减弱形成恶性循环"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "ltp",
+      "type": "regulates",
+      "note": "MR 激活增强 LTP（低浓度），慢性 GR 激活损害 LTP（PP2B/calcineurin/GluA1 内吞路径）"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "ltd",
+      "type": "related",
+      "note": "慢性 GR→PP2B→GluA1 去磷酸化 = 与 LTD 共用 calcineurin/AMPA 内吞路径"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "bdnf",
+      "type": "regulates",
+      "note": "慢性 GR 激活通过 GRE 负调控元件抑制 BDNF 转录；BDNF 是 GC 慢性损害 LTP 的主要下游中间子"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "hippocampal-neurogenesis",
+      "type": "regulates",
+      "note": "慢性 GC 通过抑制 VEGF/IGF-1/5-HT1A 通路减少 SGZ 增殖（↓40-50%）；是成体神经发生的主要内源性抑制因素"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "hippocampal-circuit",
+      "type": "regulates",
+      "note": "CA3 是 GC 损害最早节点（苔状纤维-CA3 突触）；21天慢性应激→CA3 树突退缩→空间记忆损害"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "amygdala",
+      "type": "related",
+      "note": "慢性应激同时增强 BLA 反应性（树突增生）vs 削弱海马 LTP——方向性分离"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "homeostatic-plasticity",
+      "type": "related",
+      "note": "慢性 GC 损害稳态可塑性所依赖的 TNFα 和 BDNF 通路"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "GC 级联假说：AD 早期 SCN 退化→皮质醇节律崩溃→慢性高 GC→海马损伤→负反馈减弱→进一步升高"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "circadian-clock",
+      "type": "related",
+      "note": "皮质醇昼夜节律由 SCN 调控；节律崩溃（AD）破坏 MR/GR 系统的节律性工作模式"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "fear-conditioning",
+      "type": "related",
+      "note": "急性 GR 激活 + NE（β-AR）在应激窗口内放大当前威胁情景记忆（时空特异性增强原则）"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "fear-conditioning",
+      "type": "related",
+      "note": "急性应激激活 HPA 轴；GC+NE 协同增强恐惧记忆编码（Joëls 时空特异性原则）"
     }
   ],
   "dangling_references": [

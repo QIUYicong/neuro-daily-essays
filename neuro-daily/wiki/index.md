@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-07（第75篇·三重协奏·SO-纺锤波-SWR 记忆巩固与 SHY 假说）· 主题页总数：**139**（新建2页：so-spindle-swr-coupling, shy-hypothesis；修订3页：memory-consolidation rev6, sleep-spindles rev2, sharp-wave-ripples rev6；图谱136节点、772边；无新矛盾登记）
+> 最后更新：2026-07-09（第77篇·应激的双刃剑·糖皮质激素与海马可塑性 MR/GR 双相调节）· 主题页总数：**143**（新建2页：hpa-axis, glucocorticoid-hippocampus-plasticity；补入#76 2页：circadian-clock, scn-circadian-pacemaker；修订6页：amygdala rev2, hippocampal-neurogenesis rev4, ltp rev12, bdnf rev3, alzheimers-disease rev7；图谱140节点、814边；无新矛盾登记）
 
 ---
 
@@ -112,7 +112,10 @@
 - 🟡 [多层增益控制架构](concepts/multi-timescale-plasticity.md) — STP（毫秒–秒层一）+ ACh/NE增益控制（秒–分钟层二）+ DA-RPE（分钟–小时层三）三层嵌套；Marder原则：调质环境决定功能回路；第三周综合框架 **[NEW 2026-05-30]**
 - 🟢 [去甲肾上腺素与蓝斑系统](concepts/norepinephrine-locus-coeruleus.md) — 蓝斑LC通过相位性/紧张性双模式和倒U形NE浓度曲线优化皮层认知增益；α2A稳定PFC工作记忆；β受体促进情绪记忆LTP；Aston-Jones & Cohen 2005适应性增益理论 **[NEW 2026-06-12]**
 - 🔵 [5-HT自受体与SSRI延迟起效](concepts/5-ht-autoreceptor.md) — 5-HT1A树突自受体负反馈在急性期抵消SSRI效果；14天后自受体脱敏解除制动；皮质5-HT1A/2A功能拮抗；pindolol加速起效的临床证据 **[NEW 2026-06-13]**
-- 🔴 [海马神经发生](concepts/hippocampal-neurogenesis.md) — 啮齿类SGZ持续神经发生（证据充分）；阻断神经发生消除SSRI行为效果；人类成人神经发生规模和存在性争议（Sorrells vs Boldrini 2018对立数据）**[NEW 2026-06-13 · 争议]**
+- 🔴 [海马神经发生](concepts/hippocampal-neurogenesis.md) — 啮齿类SGZ持续神经发生（证据充分）；阻断神经发生消除SSRI行为效果；人类成人神经发生规模和存在性争议（Sorrells vs Boldrini 2018对立数据）；慢性GC通过GR→VEGF/IGF-1/5-HT1A抑制通路使SGZ增殖↓40-50%（修订rev4 2026-07-09）**[NEW 2026-06-13 · 争议]**
+- 🟢 [昼夜节律分子振荡器（TTFL）](concepts/circadian-clock.md) — CLOCK/BMAL1 E-box 激活→PER/CRY 负反馈→CKIδ/ε 磷酸化延迟约24h振荡；SCN主时钟→全身组织时钟；FASPS 遗传证据；BMAL1 KO 学习损伤；CLOCK/BMAL1调控 PV+ 成熟和关键期时序（Reh 2020）**[NEW 2026-07-08 #76]**
+- 🟢 [下丘脑-垂体-肾上腺轴（HPA 轴）](concepts/hpa-axis.md) — PVN→垂体→肾上腺皮质 CRH→ACTH→皮质醇三步信号链；海马 GR 提供负反馈；超日节律脉冲（每60-90分钟）维持 MR/GR 响应性；SCN 驱动皮质醇昼夜节律；Sapolsky 糖皮质激素级联假说 **[NEW 2026-07-09 #77]**
+- 🟢 [糖皮质激素与海马可塑性（MR/GR 双相调节）](concepts/glucocorticoid-hippocampus-plasticity.md) — 低浓度 MR→LTP 增强/神经元存活；急性高 GR→聚焦巩固（时空特异性原则）；慢性 GR→BDNF↓/GluA1 内吞/CA3 树突退缩/神经发生↓；糖皮质激素脆弱性假说（Conrad 2008）**[NEW 2026-07-09 #77]**
 - 🔵 [β振荡（基底节-皮层）](concepts/beta-oscillations.md) — 13-30 Hz同步振荡；PD中病理性增强构成"抗运动"回路状态；DA和DBS均通过β→θ切换改善运动（Köhler 2024 n=25）；与γ振荡（促运动执行）功能对立 **[NEW 2026-06-14]**
 - 🟢 [恐惧条件反射](concepts/fear-conditioning.md) — 外侧杏仁核（LA）CS+US汇聚→NMDA巧合检测→CaMKII→AMPA插入→LA-LTP；与海马LTP分子机器完全同构；约20%LA神经元形成稀疏恐惧印迹；光遗传双向因果证明（Nabavi 2014）**[NEW 2026-05-30]**
 - 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）**[修订 2026-05-31]**
@@ -147,13 +150,14 @@
 - 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
-- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路 **[NEW 2026-05-30]**
+- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；慢性应激下BLA树突增生 vs 海马退缩的方向性分离（修订rev2 2026-07-09）**[NEW 2026-05-30]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**
 - 🔵 [胶质淋巴系统](systems/glymphatic-system.md) — 大脑废物清洗网络：CSF 沿动脉旁间隙入流→星形胶质细胞终足 AQP4 穿越脑实质→静脉旁出流；蓝斑核 NE 振荡（~0.05 Hz）驱动血管慢性搏动为物理泵；NREM 深度睡眠期高效清除 Aβ 和 tau；AQP4 KO→70% 清除效率下降；衰老→三重削弱→AD 恶性循环；人类随机交叉试验直接验证（Dagum 2026）**[NEW 2026-07-06]**
+- 🟢 [视交叉上核（SCN 主时钟）](systems/scn-circadian-pacemaker.md) — ipRGC/黑视素→RHT→VIP 核心区→AVP 壳区；VIP/VPAC2 细胞间耦合同步；三条输出路径（自主神经→褪黑素、神经投射→LC/VLPO/DMH、体液 AVP/PROK2）；SCN 移植实验（Ralph 1990）；星形胶质细胞时钟（Brancaccio 2019）；AD 中 SCN VIP 神经元早期萎缩 **[NEW 2026-07-08 #76]**
 
 ## methods（方法）
 
@@ -171,7 +175,7 @@
 
 ## diseases（疾病）
 
-- 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退（修订4次）**[NEW 2026-06-08 · 修订2026-06-29]**
+- 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退；新增：SCN退化→皮质醇节律崩溃→HPA级联→海马损伤加速（GC级联与AD汇聚）（修订rev7 2026-07-09）**[NEW 2026-06-08]**
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
@@ -187,8 +191,8 @@
 | 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞（2026-06-22 wiki建立）**, **网格细胞（2026-06-22 wiki建立）**, θ振荡/相位编码, **V1方向选择性（2026-06-11）**, **路径整合（2026-06-22）**, **运动编码-旋转动力学（2026-06-21）**, **小脑前向模型（2026-06-23）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
 | 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**, **认知地图（2026-06-22）**；待覆盖：记忆提取机制、网格-场所转化精确机制）|
 | 5. 认知控制 | 🔵 进行中（已覆盖：**工作记忆**、**奖励学习/三因素规则（2026-06-07）**、**注意/增益控制（ACh/NE，2026-06-12）**；待覆盖：执行控制、决策）|
-| 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线、**杏仁核恐惧记忆回路（2026-05-30）**、**恐惧条件反射/消退机制**；待覆盖：动机回路深度、恐惧情景结合（海马-杏仁核）、PTSD深度、下丘脑情绪调控）|
-| 11. 疾病作为窗口 | 🔵 进行中（已覆盖：阿尔茨海默病（AD突触机制）、**帕金森病（基底节回路失衡/β振荡/DBS机制，2026-06-14）**；待覆盖：ASD、精神分裂症、癫痫）|
+| 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线、**杏仁核恐惧记忆回路（2026-05-30）**、**恐惧条件反射/消退机制**、**应激/HPA轴/MR-GR双相调节（2026-07-09，#77）**；待覆盖：动机回路深度、PTSD深度机制、下丘脑情绪调控）|
+| 11. 疾病作为窗口 | 🔵 进行中（已覆盖：阿尔茨海默病（AD突触机制+GC级联风险）、**帕金森病（基底节回路失衡/β振荡/DBS机制，2026-06-14）**；待覆盖：ASD、精神分裂症、癫痫、PTSD分子机制）|
 | 8. 意识与自我 | 🔵 进行中（已覆盖：**默认模式网络（DMN）**（2026-06-16）、**全局工作空间理论 GWT + 意识点燃**（2026-05-30）、**整合信息理论 IIT + Φ + 后方皮层热区 + PCI**（2026-05-31）、**COGITATE预注册对决（2026-05-31）**、**注意瞬盲（2026-05-31，填补 COGITATE 方法论缺口）**；待覆盖：主动推断/自由能原理、自我参照处理、意识的神经相关物精细解析）|
 | 10. 方法革命 | 🔵 开始（已覆盖：**光遗传学**；待覆盖：电生理、fMRI、钙成像、单细胞测序、空间转录组）|
 | 9. Connectomics | 🔵 开始（已覆盖：**连接组学基础（C. elegans + Drosophila）**；待覆盖：小鼠皮层连接组、人脑功能连接组、Connectomics×AI集成）|

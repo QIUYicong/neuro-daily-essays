@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-07-09（文章 #77·应激的双刃剑·糖皮质激素与海马可塑性 MR/GR 双相调节）
+
+**源文章**：[[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]] —《应激的双刃剑：糖皮质激素如何让海马在压力下先锐化、后崩溃》
+
+**新建页面（2 页）**：
+- `concepts/hpa-axis.md`：下丘脑-垂体-肾上腺轴——PVN→垂体→肾上腺皮质 CRH→ACTH→皮质醇三步信号链；海马/杏仁核/PFC 对 PVN 的差异性调控；三速负反馈机制（快速/中速/慢速）；超日节律（每60-90分钟脉冲）与昼夜节律双时间结构；Sapolsky 1986 糖皮质激素级联假说；SCN→皮质醇节律的起搏器角色（established, confidence:high）
+- `concepts/glucocorticoid-hippocampus-plasticity.md`：糖皮质激素与海马可塑性（MR/GR 双相调节）——MR（Kd≈0.5nM）/GR（Kd≈5nM）双受体亲和力与占用率对比表；MR 主导相（非基因组 AMPA 上调/基因组 BDNF 维持）；急性 GR 相（eCB/CB1R 去抑制 + 时空特异性增强原则）；慢性 GR 相（BDNF exon IV 负调控/PP2B-GluA1 内吞/CaMKII↓）；CA3 树突退缩细胞机制（NMDA 过激活/CRH 毒性/MAP2 去磷酸化）；8 行关键证据表（Conrad 2008 因果；Lupien 1998 人类纵向）（established, confidence:high）
+
+**修订页面（5 页）**：
+- `systems/amygdala.md`（rev1→rev2）：新增"应激下杏仁核-海马方向性分离"段落（慢性应激→BLA树突增生 vs CA3退缩；Kim & Diamond 2002证据）；CeM→PVN→HPA轴输出路径扩展；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity；opens_questions 新增 Q-stress-01；连接新增两条
+- `concepts/hippocampal-neurogenesis.md`（rev3→rev4）：新增"糖皮质激素对神经发生的抑制"机制段落（GR→VEGF/IGF-1/5-HT1A 通路抑制；SGZ 增殖↓40-50%；BDNF 间接路径；Conrad 2008 可逆性证据）；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity；key_sources 新增 PMID:19317179、PMID:26286651；连接新增两条
+- `concepts/ltp.md`（rev11→rev12）：新增"糖皮质激素双相调节 LTP"完整机制段落（MR 促进/急性 GR 时空特异/慢性 GR 损害三相；BDNF 下调、PP2B/calcineurin/GluA1 内吞；与 AD 汇聚点）；related 新增 glucocorticoid-hippocampus-plasticity、hpa-axis；key_sources 新增 PMID:15891777、PMID:26286651；连接新增两条
+- `concepts/bdnf.md`（rev2→rev3）：新增"慢性应激/糖皮质激素对 BDNF 的抑制"段落（GR 负性 GRE→BDNF exon IV↓30-50%；L-LTP 失败和神经发生减少双重后果；HPA 失调链条）；related 新增 glucocorticoid-hippocampus-plasticity、hpa-axis；key_sources 新增 PMID:15891777、PMID:19317179；连接新增两条
+- `diseases/alzheimers-disease.md`（rev6→rev7）：新增"糖皮质激素级联假说与 AD"段落（SCN 退化→皮质醇节律崩溃→慢性 GC→海马损伤→负反馈减弱正反馈环；双重攻击汇聚机制；Lupien 1998 人类纵向证据）；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity、circadian-clock；key_sources 新增 PMID:3527687、PMID:15891777、PMID:10195112；opens_questions 新增 Q-stress-02；连接新增三条
+
+**图谱更新**：新增 2 节点（hpa-axis, glucocorticoid-hippocampus-plasticity）、20 条边；总计 140 节点，814 边
+
+**新登记矛盾**：无（GC 双相效应的浓度阈值在不同海马亚区可能有差异，已记录为 Q-stress-01 研究前沿而非知识库内矛盾）
+
+**新增未解问题（3 个）**：
+- Q-stress-01（中优先）：慢性应激海马损伤的可逆性边界——Cushing 恢复 10%、PTSD 部分恢复，但叠加 Aβ 的可逆性阈值未知
+- Q-stress-02（高优先）：慢性压力是 AD 的因还是果？海马萎缩先于还是后于 Aβ 积累？纵向因果时序问题
+- Q-stress-03（中优先）：慢性 GC 是否首先通过损伤 PV+ 中间神经元（破坏 E/I 平衡）间接损害 LTP，而非直接作用于锥体细胞？
+
+**新增悬空引用（待补）**：无（所有连接指向已有节点）
+
+---
+
 ## 2026-07-08（文章 #76·大脑的 24 小时时钟·昼夜节律与 SCN 主时钟）
 
 **源文章**：[[2026-07-08-circadian-clock-scn-brain-rhythm]] —《大脑的 24 小时时钟：视交叉上核如何用分子振荡设定时间，协调睡眠、记忆与衰老》

@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-05-30
-revision_count: 1
+updated: 2026-07-09
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, hpa-axis, glucocorticoid-hippocampus-plasticity]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function]
-source_articles: [2026-05-30-amygdala-fear-memory]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190"]
+opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-stress-01]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:26286651", "PMID:12042880"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -25,6 +25,8 @@ key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190"]
 我们现在认为，杏仁核不是一个统一的"情绪中枢"，而是由功能截然不同的亚结构组成的微回路复合体。其中基底外侧杏仁核复合体（BLA，包括外侧核LA和基底核BA）是感觉信息的输入与可塑性发生地，中央核（CeA）是防御行为的输出引擎，而散布其间的插入细胞（ITC）是恐惧与消退之间的可塑性闸门。
 
 恐惧记忆的写入本质是LA突触的LTP——与海马LTP使用相同的NMDA→CaMKII→AMPA插入分子机器。恐惧消退不是记忆抹除，而是IL皮层→腹侧ITC→CeM的新抑制回路对原始恐惧回路的竞争性压制。两套记忆痕迹在杏仁核及其前额叶-海马连接网络中并行共存，情境信号决定哪套痕迹占主导。
+
+**杏仁核与海马在应激下的方向性分离**：慢性应激或高皮质醇状态下，杏仁核（BLA）和海马呈现**结构和功能的反向变化**——这是同一组应激激素（GC + NE）在不同靶区产生截然相反效果的经典案例。慢性应激（21 天）使 BLA 顶端/基底树突分支均增多（树突密度↑、树突棘↑），同时增强 BLA 对威胁刺激的电生理响应；而同一应激方案导致 CA3 顶端树突退缩、海马 LTP 受损（Kim & Diamond 2002，PMID:12042880；Kim et al. 2015，PMID:26286651）。行为后果：杏仁核依赖的情绪/恐惧记忆强化，海马依赖的情景/空间记忆削弱。这一双向分离被认为是应激适应的短期逻辑（当前威胁优先）与慢性暴露后病理化的共同来源。
 
 ## 关键机制
 
@@ -41,7 +43,13 @@ key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190"]
 - 选择性损毁ITC → 恐惧获得正常，消退表达严重受损（Likhtik et al. 2008）
 
 ### 恐惧表达的完整输出
-CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率↑）；CeM → 下丘脑室旁核 → HPA轴 → 皮质醇；CeM → BNST → 持续焦虑/广泛性焦虑
+CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率↑）；CeM → 下丘脑室旁核（PVN）→ HPA 轴 → CRH → ACTH → 皮质醇/皮质酮；CeM → BNST → 持续焦虑/广泛性焦虑
+
+**慢性应激下的 BLA 可塑性（与海马反向）**：
+- 树突总长度和分支数增加（顶端 + 基底均受影响）
+- 树突棘密度↑（不同于 CA3 的退缩，BLA 是增生）
+- BLA 神经元对应激刺激的 c-Fos 表达↑（激活增强）
+- 机制：NE（β-AR）激活在 BLA 增强 LTP 和树突可塑性；GC 则在 BLA 与海马产生相反的受体动力学效应（BLA 的 GR 下调机制与海马 GR 的反馈调控路径不同）
 
 ## 关键证据
 
@@ -62,6 +70,8 @@ CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率
 - [[norepinephrine-locus-coeruleus]] — 蓝斑NE投射通过β-肾上腺素受体增强杏仁核LTP和恐惧记忆巩固
 - [[dopamine-reward-prediction-error]] — VTA DA投射到杏仁核调节奖励关联（与恐惧回路并行）
 - [[engram-cells]] — LA恐惧印迹细胞（~20%稀疏）与海马场所细胞印迹遵循相同的竞争选择逻辑
+- [[hpa-axis]] — CeM → PVN 是 HPA 轴激活的上行通路；BLA 通过 BNST → PVN 提供威胁信号驱动 CRH 释放
+- [[glucocorticoid-hippocampus-plasticity]] — 慢性 GC 同时增强 BLA 可塑性（树突增生）和削弱海马 LTP（树突退缩）——方向性分离
 
 ## 未解问题
 
@@ -72,7 +82,9 @@ CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
+- 2026-07-09 · 修订 rev2 · 基于《应激的双刃剑》(#77) · 新增应激下 BLA-海马方向性分离（慢性应激→BLA 树突增生 vs CA3 退缩）；CeM→HPA 轴输出路径扩展（CeM→PVN→CRH 完整链）；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity；opens_questions 新增 Q-stress-01；连接新增两条
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
+- [[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]]

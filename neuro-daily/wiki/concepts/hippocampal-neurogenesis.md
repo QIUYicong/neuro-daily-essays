@@ -6,14 +6,14 @@ type: mechanism
 status: contested
 confidence: medium
 created: 2026-06-13
-updated: 2026-06-28
-revision_count: 3
+updated: 2026-07-09
+revision_count: 4
 dimensions: [cellular, brain-region, cognition, disease]
-related: [hippocampal-circuit, ltp, memory-consolidation, engram-cells, serotonin-raphe-system, 5-ht-autoreceptor, bdnf]
+related: [hippocampal-circuit, ltp, memory-consolidation, engram-cells, serotonin-raphe-system, 5-ht-autoreceptor, bdnf, hpa-axis, glucocorticoid-hippocampus-plasticity]
 prerequisites: [hippocampal-circuit, ltp, engram-cells]
-opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-ssri-neurogenesis-causal]
-source_articles: [2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-06-26-adult-neurogenesis-dentate-gyrus]
-key_sources: ["PMID:12907793", "PMID:33672070", "PMID:23746839", "PMID:30911133", "PMID:35922666", "PMID:34137370"]
+opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-ssri-neurogenesis-causal, Q-stress-01]
+source_articles: [2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-06-26-adult-neurogenesis-dentate-gyrus, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]
+key_sources: ["PMID:12907793", "PMID:33672070", "PMID:23746839", "PMID:30911133", "PMID:35922666", "PMID:34137370", "PMID:19317179", "PMID:26286651"]
 ---
 
 # 海马神经发生 (Hippocampal Neurogenesis)
@@ -58,6 +58,22 @@ BDNF/TrkB信号也是关键下游：慢性SSRI → 5-HT升高 → BDNF表达↑�
 
 神经发生减少（随年龄、压力）→ 模式分离能力下降 → 相似记忆混淆（可能与年龄相关记忆障碍有关）。
 
+### 糖皮质激素对神经发生的抑制
+
+慢性糖皮质激素过量（GC 过激活）是神经发生**最重要的内源性抑制因素之一**：
+
+**直接 GR 基因组效应**：
+- GR 激活抑制 VEGF/IGF-1 表达（两者均是 SGZ 干细胞增殖的关键生长因子）
+- GR 下调 5-HT 1A 受体表达 → 降低 SGZ 干细胞对 5-HT 增殖信号的敏感性
+- 结果：21 天慢性应激/慢性皮质酮→ SGZ 干细胞增殖 ↓40-50%（Ki-67/BrdU 标记，啮齿类多实验室验证）
+
+**间接效应（通过 BDNF 通路）**：
+- 慢性 GR 激活 → GR 结合 BDNF exon IV 启动子的负性 GRE → BDNF mRNA ↓30-50%
+- BDNF 是 SGZ 新生神经元存活和成熟的必要营养因子（TrkB→PI3K/Akt 存活信号）
+- BDNF 下降 → 新生神经元存活率↓ → 净神经发生↓（即使前体增殖未变，成活数量也减少）
+
+**可逆性**：应激结束或皮质酮水平恢复后，SGZ 增殖率在数周内部分恢复；提示 GC 对神经发生的抑制主要是功能性抑制（可逆的干细胞静止期延长），而非干细胞耗竭（Conrad 2008，PMID:19317179）。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -83,6 +99,8 @@ BDNF/TrkB信号也是关键下游：慢性SSRI → 5-HT升高 → BDNF表达↑�
 - [[serotonin-raphe-system]] — 神经发生的5-HT系统上游
 - [[alzheimers-disease]] — AD中神经发生随分期下降（Moreno-Jiménez 2019）
 - [[bdnf]] — 神经发生最关键的促进因子；通过 TrkB→PI3K/Akt（存活）和 MAPK/ERK（分化）驱动 SGZ 新生神经元整合
+- [[glucocorticoid-hippocampus-plasticity]] — 慢性 GC/GR 激活是神经发生最重要的内源性抑制因素（↓VEGF/IGF-1/5-HT1A 通路，SGZ 增殖 ↓40-50%）
+- [[hpa-axis]] — HPA 轴过激活→慢性皮质醇升高→GR 基因组抑制通路→神经发生受损的上游机制
 
 ## 未解问题
 
@@ -95,7 +113,9 @@ BDNF/TrkB信号也是关键下游：慢性SSRI → 5-HT升高 → BDNF表达↑�
 - 2026-06-13 · 创建 · 基于《血清素的慢时钟》一文 · 初始置信度：中（争议领域） · status=contested
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 悬空引用 [[bdnf]] 已建页，更新连接描述（PI3K/Akt 存活通路 + MAPK/ERK 分化通路）
 - 2026-06-26 · 修订 · 基于《大脑的自我更新》一文 · 新增 GABA 开关机制详解、方法论破局分析（Moreno-Jiménez 2019 的固定时间实验）、snRNA-seq 独立证据（Zhou 2022）、AD 连接；更新人类神经发生评估（从"争议尚未解决"升级为"多维证据支持但规模不确定"）；关键证据表更新 3 行；连接新增 adult-neurogenesis、pattern-separation、alzheimers-disease
+- 2026-07-09 · 修订 rev4 · 基于《应激的双刃剑》(#77) · 新增"糖皮质激素对神经发生的抑制"机制段落（GR→VEGF/IGF-1/5-HT1A 抑制路径；慢性皮质酮→SGZ 增殖↓40-50%；BDNF 间接路径；Conrad 2008 可逆性证据）；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity；opens_questions 新增 Q-stress-01；key_sources 新增 PMID:19317179、PMID:26286651；连接新增两条
 
 ## 来源文章
 
 - [[2026-06-13-serotonin-autoreceptor-ssri-delay]]
+- [[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]]
