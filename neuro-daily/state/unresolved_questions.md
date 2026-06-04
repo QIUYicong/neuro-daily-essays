@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-07-06*
+*最后更新：2026-07-07*
+
+---
+
+## 2026-07-07 新增（来自"三重协奏"文章 #75）
+
+### Q-replay-human-translation（高优先级）：人类因果实验能否复现大鼠三重耦合结果？
+
+- **关联 wiki**：[[so-spindle-swr-coupling]]、[[memory-consolidation]]、[[sharp-wave-ripples]]
+- **来源文章**：2026-07-07-sleep-memory-consolidation-so-spindle-swr
+- **问题**：Maingret et al. 2016（PMID:27182818）在大鼠中通过闭环电刺激增强 SO-纺锤波-SWR 三重耦合，直接改善隔天空间记忆，提供了因果证据。但人类对应实验受到严重的伦理和技术限制：(a) 非侵入性颅内刺激（TMS/tACS）是否能以足够精度和时序触发或增强三重耦合？目前已有几项研究使用声学信号（auditory closed-loop stimulation）增强 SO，但 SWR 的同步增强尚未实现。(b) 在接受深部脑刺激电极的癫痫患者中，能否进行有效的因果实验（类似 Helfrich 2018 的颅内记录研究）？(c) 如果三重耦合增强能够改善人类记忆，对哪些人群（健康老年人/MCI患者/睡眠障碍患者）的获益最大？
+- **当前证据状态**：人类颅内记录已验证 SO-纺锤波耦合精度预测记忆（Helfrich 2018）；SWR 在人类 iEEG 中的记忆特异性重激活已证明（PMID:34709916）；但人类直接因果增强实验（闭环+行为）尚未实现
+- **为什么重要**：三重耦合增强是睡眠相关记忆干预的最直接靶点；若能在人类实现因果控制，将开辟 AD 预防性睡眠干预新方向
+
+### Q-shy-molecular-mechanism（高优先级）：SO UP state 驱动突触 LTD 的分子触发器是什么？
+
+- **关联 wiki**：[[shy-hypothesis]]、[[cortical-slow-oscillation]]、[[ltd]]、[[ltp]]
+- **来源文章**：2026-07-07-sleep-memory-consolidation-so-spindle-swr
+- **问题**：SHY 的关键主张是 SO UP state 对皮层施以"温和的低强度群体激活"，触发轻度 LTD（而非 LTP），导致约80% 突触权重下调约18%（de Vivo 2017）。但触发分子机制仍不清楚：(a) SO UP state 的 Ca²⁺ 信号是否通过 NMDAR 阈下激活触发 calcineurin/PP1 级联（NMDAR-LTD 经典路径）？还是通过 mGluR 激活（mGluR-LTD/Arc 路径）？(b) 内源性大麻素（eCB）系统是否参与——睡眠期间 eCB 合成增加，可能通过 CB1R 介导突触前 LTD？(c) SO UP state 如何区分"被保护的大突触"和"被下调的小突触"——是 Ca²⁺ 信号幅度的突触大小依赖差异，还是不同突触亚型的受体构成差异？
+- **当前证据状态**：超微结构证据（ASI 缩小~18%，最大20%突触不受影响）来自 de Vivo 2017；GluA1 表达下降来自 PMID:38973508；但 SO 特异性 LTD 触发的单突触层面机制几乎未研究
+- **为什么重要**：分子触发器确定后，可以开发既保留 SHY 记忆清洗功能又不损害重要突触的靶向干预策略
+
+### Q-shy-vs-active-consolidation（部分解答）：down-selection 框架的直接实验验证
+
+- **关联 wiki**：[[shy-hypothesis]]、[[so-spindle-swr-coupling]]、[[memory-consolidation]]
+- **来源文章**：2026-07-07-sleep-memory-consolidation-so-spindle-swr
+- **状态**：已通过 Tononi & Cirelli 2020 down-selection 框架部分解答——大多数突触被 SO 驱动的温和 LTD 下调，但被 SWR 重播激活的记忆痕迹突触受到"保护免于抑郁"，净效应是这些突触信噪比相对升高
+- **待验证部分**：能否在同一实验中同时追踪"被 SWR 保护的突触"和"被 SO 下调的突触"？目前 de Vivo 2017 的 SBEM 实验提供了群体层面证据（大突触不受影响），但无法区分哪些大突触是被 SWR 重播"保护"的，哪些是因为本来就大而不受影响
+- **为什么仍重要**：单突触层面的 down-selection 直接验证需要同时记录单突触可塑性变化和 SWR 期间突触特异性激活——这要求目前仍不可行的超高时空分辨率技术组合
 
 ---
 

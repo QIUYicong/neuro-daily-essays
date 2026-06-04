@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-06",
-  "node_count": 134,
-  "edge_count": 754,
+  "updated": "2026-07-07",
+  "node_count": 136,
+  "edge_count": 772,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1246,6 +1246,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/aqp4.md"
+    },
+    {
+      "id": "so-spindle-swr-coupling",
+      "title": "SO-纺锤波-SWR 三重耦合",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/so-spindle-swr-coupling.md"
+    },
+    {
+      "id": "shy-hypothesis",
+      "title": "突触稳态假说（SHY）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/shy-hypothesis.md"
     }
   ],
   "edges": [
@@ -5517,6 +5535,114 @@
       "to": "tau-pathology",
       "type": "related",
       "note": "胶质淋巴清除障碍是 tau 积累和传播的功能原因"
+    },
+    {
+      "from": "so-spindle-swr-coupling",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of",
+      "note": "SWR 是三重耦合的记忆'载荷'：在纺锤波波谷以约20倍速压缩重播情景序列，写入皮层"
+    },
+    {
+      "from": "so-spindle-swr-coupling",
+      "to": "sleep-spindles",
+      "type": "mechanism-of",
+      "note": "纺锤波是三重耦合的'皮层预热器'：SO UP state 触发，L型Ca²⁺通道注入皮层，降低可塑性阈值"
+    },
+    {
+      "from": "so-spindle-swr-coupling",
+      "to": "cortical-slow-oscillation",
+      "type": "mechanism-of",
+      "note": "SO（~0.75 Hz）是三重耦合的'主时钟'：DOWN→UP 转变为纺锤波和 SWR 设定时间框架"
+    },
+    {
+      "from": "so-spindle-swr-coupling",
+      "to": "memory-consolidation",
+      "type": "mechanism-of",
+      "note": "三重耦合是系统层面 NREM 记忆巩固的核心机制；因果证据来自 Maingret 2016 闭环刺激实验"
+    },
+    {
+      "from": "so-spindle-swr-coupling",
+      "to": "thalamocortical-circuit",
+      "type": "related",
+      "note": "丘脑-皮层回路（TRN↔TC）执行纺锤波生成与 SO 传播，是三重耦合的解剖基础"
+    },
+    {
+      "from": "so-spindle-swr-coupling",
+      "to": "hippocampal-circuit",
+      "type": "related",
+      "note": "CA3→CA1→内嗅皮层路径是 SWR 重播信号传至皮层的解剖通路"
+    },
+    {
+      "from": "so-spindle-swr-coupling",
+      "to": "shy-hypothesis",
+      "type": "related",
+      "note": "三重耦合（选择性记忆保护）与 SHY（整体突触下调）同时发生，通过 down-selection 框架统一"
+    },
+    {
+      "from": "so-spindle-swr-coupling",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related",
+      "note": "NE 调节 SWR 频率和时序：NREM 早期高 NE 稳定回路，随后 NE 递减为 SWR 重播和下调创造条件"
+    },
+    {
+      "from": "so-spindle-swr-coupling",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "VTA 来源 DA 在 SWR 期间选择性释放，优先标记奖励相关记忆的 SWR，设定记忆优先队列"
+    },
+    {
+      "from": "shy-hypothesis",
+      "to": "memory-consolidation",
+      "type": "mechanism-of",
+      "note": "SHY 是睡眠记忆巩固的突触稳态机制：整体下调+选择性保护（down-selection）实现记忆精炼"
+    },
+    {
+      "from": "shy-hypothesis",
+      "to": "homeostatic-plasticity",
+      "type": "is-a",
+      "note": "SHY 是稳态可塑性的睡眠专属形式：每日 NREM 触发，时间尺度与 Turrigiano 突触稳态缩放不同"
+    },
+    {
+      "from": "shy-hypothesis",
+      "to": "cortical-slow-oscillation",
+      "type": "mechanism-of",
+      "note": "SO UP state 对皮层施以温和'低强度群体激活'→触发轻度 LTD→实现 SHY 突触下调"
+    },
+    {
+      "from": "shy-hypothesis",
+      "to": "so-spindle-swr-coupling",
+      "type": "related",
+      "note": "SHY 整体下调 + 三重耦合保护 = down-selection 框架：大多数突触弱化，被重播激活的突触相对增强"
+    },
+    {
+      "from": "shy-hypothesis",
+      "to": "synaptic-scaling",
+      "type": "related",
+      "note": "均为稳态可塑性，但机制和时间尺度不同：SHY 是每日睡眠周期性下调；Turrigiano 缩放针对数天的异常活动偏移"
+    },
+    {
+      "from": "shy-hypothesis",
+      "to": "ltp",
+      "type": "related",
+      "note": "清醒期 LTP 积累使突触权重整体上升（SHY 的'债'）；睡眠期 SHY 反向下调是整套机制的两端"
+    },
+    {
+      "from": "shy-hypothesis",
+      "to": "ltd",
+      "type": "mechanism-of",
+      "note": "SHY 通过 SO UP state 驱动的温和 LTD（AMPA 受体去磷酸化→内吞）实现突触下调"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "so-spindle-swr-coupling",
+      "type": "related",
+      "note": "三重耦合是系统层面记忆巩固的核心振荡机制；因果因素（Maingret 2016 闭环实验）"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "shy-hypothesis",
+      "type": "related",
+      "note": "SHY（整体下调）通过 down-selection 框架与主动记忆巩固（选择性加固）统一"
     }
   ],
   "dangling_references": [

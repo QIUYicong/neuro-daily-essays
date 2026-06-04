@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-07-07（文章 #75·三重协奏·SO-纺锤波-SWR 与 SHY 假说）
+
+**源文章**：[[2026-07-07-sleep-memory-consolidation-so-spindle-swr]] —《三重协奏：皮层慢振荡如何指挥纺锤波与海马涟漪，把白天的经历刻入长期记忆》
+
+**新建页面（2 页）**：
+- `concepts/so-spindle-swr-coupling.md`：SO-纺锤波-SWR 三重耦合——SO（主时钟）→纺锤波（皮层预热，L型Ca²⁺窗口）→SWR（记忆写入，纺锤波波谷）的时间嵌套机制；Maingret 2016 闭环刺激因果证明；Helfrich 2018 老龄化耦合精度下降（d=1.19）；神经调质（NE/DA/ACh）调节（established, confidence:high）
+- `concepts/shy-hypothesis.md`：突触稳态假说（SHY）——清醒 LTP 积累→睡眠期 SO 驱动整体突触下调（de Vivo 2017：ASI 缩小~18%）；down-selection 框架：被 SWR 重播激活的突触受保护；与 Turrigiano 突触稳态缩放的区别；Q-shy-molecular-mechanism 未解问题（mainstream, confidence:medium）
+
+**修订页面（3 页）**：
+- `concepts/memory-consolidation.md`（rev5→rev6）：新增 so-spindle-swr-coupling、shy-hypothesis 两个 related 节点；新增 Helfrich 2018 和 de Vivo 2017 证据行；Q-shy-vs-active-consolidation 部分解决（通过 down-selection 框架）；source_articles 新增 2026-07-07 文章
+- `concepts/sleep-spindles.md`（rev1→rev2）：新增 Helfrich 2018 SO-纺锤波相位精度证据行（d=1.19；老年相位偏移 46.3°）；related 新增 so-spindle-swr-coupling；source_articles 新增 2026-07-07 文章
+- `concepts/sharp-wave-ripples.md`（rev5→rev6）：新增 Maingret 2016 闭环刺激因果证据行（PMID:27182818）；related 新增 so-spindle-swr-coupling；source_articles 新增 2026-07-07 文章
+
+**图谱更新**：新增 2 节点（so-spindle-swr-coupling, shy-hypothesis）、18 条边；总计 136 节点，772 边
+
+**新登记矛盾**：无（SHY vs 主动巩固的对立通过 down-selection 框架部分调和；已记录为 Q-shy-vs-active-consolidation 部分解答）
+
+**新增/更新未解问题（3 个）**：
+- Q-replay-human-translation（高优先）：人类直接因果实验（闭环增强三重耦合）能否复现大鼠结果？
+- Q-shy-molecular-mechanism（高优先）：SO UP state 驱动突触 LTD 的分子触发器是 NMDAR 阈下 Ca²⁺、mGluR 还是内源性大麻素系统？
+- Q-shy-vs-active-consolidation（已部分解答）：down-selection 框架调和了两者，但单突触层面直接追踪"被保护 vs 被下调"突触的实验仍缺失
+
+**新增悬空引用（待补）**：
+- `locus-coeruleus`：蓝斑核独立条目（so-spindle-swr-coupling 和 shy-hypothesis 均提及 NE 调节，目前无独立页面）
+
+---
+
 ## 2026-07-06（文章 #74·大脑的夜间清洗工程·胶质淋巴系统与睡眠废物清洗）
 
 **源文章**：[[2026-07-06-glymphatic-system-sleep-clearance]] —《大脑的夜间清洗工程：胶质淋巴系统如何在睡眠中清除阿尔茨海默病的始动毒素》

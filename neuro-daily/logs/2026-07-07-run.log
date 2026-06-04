@@ -1,0 +1,113 @@
+# 2026-07-07 运行日志
+
+## 基本信息
+- **文章编号**：#75
+- **虚拟日期**：2026-07-07（系统时钟 UTC+8 = 2026-06-04）
+- **真实执行日期**：2026-06-04
+- **选题来源**：长期课程模式（long_term_curriculum）
+
+## 选题决策
+
+**选题理由**：
+- 第 74 篇（胶质淋巴系统）引入了 NREM 睡眠的废物清洗功能
+- 多篇文章的 next_suggested_topics 均指向"睡眠记忆巩固 + SHY 假说"作为高优先主题
+- 知识库长期开放问题 Q-shy-vs-active-consolidation 长期悬而未决，需要专文回应
+- 已有 sleep-spindles（2026-06-19）、sharp-wave-ripples（多次修订）、cortical-slow-oscillation 等基础节点，可以整合为更高层次的综合篇
+- 层级：whole-brain-network / brain-region / cellular / microcircuit / cognition（与前一篇的 systems/disease 层形成合理延续和对比）
+
+**主题**：SO-纺锤波-SWR 三重耦合与 SHY 假说的调和
+**核心问题**：NREM 睡眠中三振荡如何通过时间嵌套实现记忆写入（三重耦合），以及 SHY 假说如何通过 down-selection 框架与主动记忆巩固统一
+
+## 检索过程
+
+**搜索关键词**：
+- "SO spindle SWR coupling memory consolidation NREM review"
+- "synaptic homeostasis hypothesis SHY sleep synaptic downscaling Tononi Cirelli"
+- "de Vivo 2017 Science ultrastructural synaptic scaling sleep"
+- "Helfrich 2018 Neuron aging SO spindle coupling mPFC memory"
+- "Maingret 2016 Nature Neuroscience closed-loop SO SWR spindle memory"
+
+**数据源使用**：PubMed 检索（E-utilities API），PMC 开放全文（5篇），WebFetch 获取 PMC 文章全文
+
+**开放全文获取情况**：
+- PMC5754239（Helfrich 2018）✅ 全文读取
+- PMC5313037（de Vivo 2017）✅ 全文读取
+- PMC7611961（Girardeau & Lopes-Dos-Santos 2021）✅ 全文读取
+- PMC6612535（Tononi & Cirelli 2020）✅ 全文读取
+- PMC12576410（Kim & Park 2025）✅ 全文读取
+
+**无法获取全文**（摘要仅）：PMID:20046194, PMID:9856467, PMID:27182818, PMID:38443198, PMID:37023710, PMID:28892057
+
+## 产出物
+
+### 新建文件
+- `neuro-daily/articles/2026-07-07-sleep-memory-consolidation-so-spindle-swr.md`（主文章，约4500字）
+- `neuro-daily/notes/2026-07-07-reading-notes.md`（8篇来源的详细笔记）
+- `neuro-daily/sources/2026-07-07-sources.json`（11个来源，含完整元数据）
+- `neuro-daily/wiki/concepts/so-spindle-swr-coupling.md`（新建 wiki 页，established/high）
+- `neuro-daily/wiki/concepts/shy-hypothesis.md`（新建 wiki 页，mainstream/medium）
+
+### 修订文件
+- `neuro-daily/wiki/concepts/memory-consolidation.md`（rev5→rev6）
+- `neuro-daily/wiki/concepts/sleep-spindles.md`（rev1→rev2）
+- `neuro-daily/wiki/concepts/sharp-wave-ripples.md`（rev5→rev6）
+- `neuro-daily/wiki/_graph.json`（134→136节点，754→772边）
+- `neuro-daily/wiki/index.md`（更新总数137→139，更新相关条目）
+- `neuro-daily/wiki/CHANGELOG.md`（新增2026-07-07条目）
+- `neuro-daily/state/topic_ledger.json`（总数74→75，新增#75条目）
+- `neuro-daily/state/unresolved_questions.md`（新增3个问题）
+- `neuro-daily/state/source_registry.json`（新增11个来源）
+- `neuro-daily/state/monthly_synthesis.md`（更新月度概要，新增#75日条目）
+
+## 知识图谱变化
+
+**新增节点（2个）**：
+- so-spindle-swr-coupling（established, high confidence）
+- shy-hypothesis（mainstream, medium confidence）
+
+**新增边（18条）**：
+- so-spindle-swr-coupling → sharp-wave-ripples (mechanism-of)
+- so-spindle-swr-coupling → sleep-spindles (mechanism-of)
+- so-spindle-swr-coupling → cortical-slow-oscillation (mechanism-of)
+- so-spindle-swr-coupling → memory-consolidation (mechanism-of)
+- so-spindle-swr-coupling → thalamocortical-circuit (related)
+- so-spindle-swr-coupling → hippocampal-circuit (related)
+- so-spindle-swr-coupling → shy-hypothesis (related)
+- so-spindle-swr-coupling → norepinephrine-locus-coeruleus (related)
+- so-spindle-swr-coupling → dopamine-reward-prediction-error (related)
+- shy-hypothesis → memory-consolidation (mechanism-of)
+- shy-hypothesis → homeostatic-plasticity (is-a)
+- shy-hypothesis → cortical-slow-oscillation (mechanism-of)
+- shy-hypothesis → so-spindle-swr-coupling (related)
+- shy-hypothesis → synaptic-scaling (related)
+- shy-hypothesis → ltp (related)
+- shy-hypothesis → ltd (mechanism-of)
+- memory-consolidation → so-spindle-swr-coupling (related)
+- memory-consolidation → shy-hypothesis (related)
+
+## 矛盾/争议处理
+
+**Q-shy-vs-active-consolidation（部分解答）**：
+- SHY 与主动记忆巩固的表面矛盾通过 down-selection 框架部分解答（Tononi & Cirelli 2020）
+- 未登记为新 contested_claim，而是将已有未解问题状态更新为"部分解答"
+- 待验证部分（单突触层面追踪被保护 vs 被下调突触）继续保持开放状态
+
+## 选题回顾
+
+**初始选题（放弃）**：小胶质细胞与突触剪枝（microglia + synaptic pruning）
+**放弃原因**：检查 wiki 目录后发现 microglia.md、synaptic-pruning.md、complement-cascade-cns.md 均已于 2026-06-03（真实）/ 2026-07-03 前后建立（虚拟日期约 2026-06-03），主题已覆盖
+**转选理由**：sleep + memory consolidation 在多个 next_suggested_topics 中出现，且是最高优先级的未解问题（Q-shy-vs-active-consolidation）的直接主题
+
+## 时间统计
+- 检索+阅读：约15次 web fetch + PubMed 查询
+- 写作：主文章约4500字
+- Wiki 整合：新建2页 + 修订3页
+- 状态文件更新：6个文件（graph, index, changelog, topic_ledger, unresolved_questions, source_registry, monthly_synthesis）
+- 日志编写：本文档
+
+## 下一篇预估主题
+
+优先推荐：
+1. **REM 睡眠与情感记忆深度**（承接本文 REM 一节）：θ振荡+杏仁核-海马协调；SFSR假说完整机制
+2. **神经调质的睡眠调节综合**：ACh/NE/DA/5-HT 在睡眠-觉醒周期中的完整协调角色图景
+3. **记忆的昼夜节律与睡眠时序**：不同睡眠阶段比例的年龄变化；最优睡眠对记忆的影响

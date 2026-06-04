@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-06",
-  "total_articles": 74,
+  "last_updated": "2026-07-07",
+  "total_articles": 75,
   "entries": [
     {
       "date": "2026-07-03",
@@ -4255,6 +4255,92 @@
       "mode": "long_term_curriculum",
       "article_number": 74,
       "note": "系统时钟UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期2026-07-06；继承自2026-07-05（第73篇，记忆的竞争法庭）；本篇引入胶质淋巴系统新维度，补充了 astrocyte.md 的胶质淋巴盲区，并将 alzheimers-disease.md 的上游清除失效机制完整化；层级切换：从最近三篇 synaptic/molecular/cellular 切换到 systems/whole-brain-network/disease；修复了 topic_ledger.json 的 JSON 解析错误（第4103行）"
+    },
+    {
+      "date": "2026-07-07",
+      "title": "三重协奏：皮层慢振荡如何指挥纺锤波与海马涟漪，把白天的经历刻入长期记忆",
+      "filename": "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md",
+      "wiki_pages_created": [
+        "wiki/concepts/so-spindle-swr-coupling.md",
+        "wiki/concepts/shy-hypothesis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/memory-consolidation.md",
+        "wiki/concepts/sleep-spindles.md",
+        "wiki/concepts/sharp-wave-ripples.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "NREM 睡眠中皮层慢振荡（SO）、丘脑纺锤波和海马尖波涟漪（SWR）如何通过精确时间嵌套（SO DOWN→UP 转变→纺锤波→SWR 在纺锤波波谷）构成海马→皮层记忆写入的三重协奏机制——以及 Tononi & Cirelli 的突触稳态假说（SHY）如何通过'down-selection'框架与主动记忆巩固统一？",
+      "layer": [
+        "whole-brain-network",
+        "brain-region",
+        "cellular",
+        "microcircuit",
+        "cognition"
+      ],
+      "curriculum_track": "4. 学习和记忆（睡眠与记忆巩固深度篇）；填补 Q-shy-vs-active-consolidation 未解问题（部分）；继承自 2026-07-06（第74篇，胶质淋巴系统）——两者共享 NREM 睡眠时间窗口但机制不同；承接记忆巩固系列（memory-consolidation, sharp-wave-ripples, sleep-spindles）的深度整合",
+      "topic_tags": [
+        "sleep memory consolidation",
+        "NREM sleep",
+        "cortical slow oscillation",
+        "SO",
+        "sleep spindles",
+        "sharp-wave ripples",
+        "SWR",
+        "SO-spindle-SWR coupling",
+        "trifecta mechanism",
+        "Maingret 2016",
+        "closed-loop stimulation",
+        "Helfrich 2018",
+        "aging mPFC atrophy",
+        "SO-spindle phase decoupling",
+        "synaptic homeostasis hypothesis",
+        "SHY",
+        "Tononi Cirelli",
+        "down-selection",
+        "de Vivo 2017",
+        "SBEM",
+        "synaptic scaling sleep",
+        "two-stage memory model",
+        "hippocampal-cortical transfer",
+        "replay",
+        "Diekelmann Born 2010",
+        "Siapas Wilson 1998",
+        "neuromodulator sleep",
+        "NE DA ACh sleep",
+        "Kim Park 2025",
+        "memory consolidation aging",
+        "REM sleep memory",
+        "Girardeau 2021"
+      ],
+      "main_sources": [
+        "PMID:20046194 (abstract only, Nat Rev Neurosci 2010, Diekelmann & Born)",
+        "PMID:9856467 (abstract only, Neuron 1998, Siapas & Wilson)",
+        "PMID:27182818 (abstract only, Nat Neurosci 2016, Maingret et al.)",
+        "PMID:29249289 (PMCID:PMC5754239, open full text, Helfrich et al. 2018)",
+        "PMID:28154076 (PMCID:PMC5313037, open full text, de Vivo et al. 2017)",
+        "PMID:34709916 (PMCID:PMC7611961, open full text, Girardeau & Lopes-Dos-Santos 2021)",
+        "PMID:38443198 (abstract only, Trends Cogn Sci 2024, Staresina)",
+        "PMID:37023710 (abstract only, Neuron 2023, Brodt et al.)",
+        "PMID:30614089 (PMCID:PMC6612535, open full text, Tononi & Cirelli 2020)",
+        "PMID:40962324 (PMCID:PMC12576410, open full text, Kim & Park 2025)",
+        "PMID:28892057 (abstract only, Nat Neurosci 2017, Girardeau et al.)"
+      ],
+      "unresolved_questions": [
+        "Q-replay-human-translation",
+        "Q-shy-molecular-mechanism",
+        "Q-shy-vs-active-consolidation (partial resolution)"
+      ],
+      "next_suggested_topics": [
+        "REM 睡眠与情感记忆深度（REM + emotional memory consolidation）：承接本文 REM 一节；θ 振荡+杏仁核-海马协调；SFSR 假说完整机制；Girardeau & Buzsáki 2017",
+        "记忆的昼夜节律与睡眠时序优化（circadian + sleep timing）：不同睡眠阶段比例（N1/N2/N3/REM）随年龄变化；最优化睡眠对记忆的影响；与胶质淋巴系统（07-06）的共享 NREM 时间窗口",
+        "睡眠障碍对记忆的影响机制（sleep disorders）：失眠/睡眠呼吸暂停如何通过破坏 SO-spindle-SWR 三重耦合损害记忆；干预靶点",
+        "神经调质的睡眠调节（neuromodulators in sleep）：ACh/NE/DA/5-HT 在睡眠-觉醒周期中的协调角色；深入覆盖 Kim & Park 2025 框架"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 75,
+      "note": "系统时钟UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期2026-07-07；继承自2026-07-06（第74篇，胶质淋巴系统）；本篇填补了长期悬空的 Q-shy-vs-active-consolidation 问题（通过 down-selection 框架部分解答）；新建两个核心睡眠记忆机制节点（so-spindle-swr-coupling、shy-hypothesis）；层级：whole-brain-network/brain-region/cellular/microcircuit/cognition（多层跨越）；11 个来源，5 个开放全文"
     }
   ],
   "layer_coverage_recent": {

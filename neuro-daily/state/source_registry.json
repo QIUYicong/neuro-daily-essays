@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06",
+  "last_updated": "2026-07-07",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6262,6 +6262,138 @@
         "epigenetic pre-priming as upstream allocation determinant"
       ],
       "note": "Reveals epigenetic layer upstream of CREB in allocation; open full text (PMC12754038); new result requiring independent replication"
+    },
+    {
+      "pmid": "20046194",
+      "pmcid": null,
+      "title": "The memory function of sleep",
+      "authors_short": "Diekelmann & Born",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2010,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["two-stage memory consolidation model", "SWS vs REM division of labor", "SO-SWR-spindle framework"],
+      "note": "Foundational review; abstract only (paywall)"
+    },
+    {
+      "pmid": "9856467",
+      "pmcid": null,
+      "title": "Coordinated interactions between hippocampal ripples and cortical spindles during slow-wave sleep",
+      "authors_short": "Siapas & Wilson",
+      "journal": "Neuron",
+      "year": 1998,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["SWR-spindle temporal coupling first direct recording", "phase coupling in hippocampus-cortex"],
+      "note": "Founding correlation evidence; abstract only (paywall, 1998)"
+    },
+    {
+      "pmid": "27182818",
+      "pmcid": null,
+      "title": "Hippocampo-cortical coupling mediates memory consolidation during sleep",
+      "authors_short": "Maingret et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2016,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["closed-loop stimulation causal evidence", "SO-SWR-spindle coupling → memory improvement", "non-synchronized control has no effect"],
+      "note": "Key causal experiment; abstract only (paywall)"
+    },
+    {
+      "pmid": "29249289",
+      "pmcid": "PMC5754239",
+      "title": "Old Brains Come Uncoupled in Sleep: Slow Wave-Spindle Synchrony, Brain Atrophy, and Forgetting",
+      "authors_short": "Helfrich et al.",
+      "journal": "Neuron",
+      "year": 2018,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["SO-spindle phase precision predicts memory (d=1.19)", "aging phase shift 3.6° vs 46.3°", "mPFC atrophy mechanism", "mediation analysis"],
+      "note": "Open full text PMC5754239; high-quality human EEG + MRI study"
+    },
+    {
+      "pmid": "28154076",
+      "pmcid": "PMC5313037",
+      "title": "Ultrastructural evidence for synaptic scaling across the wake/sleep cycle",
+      "authors_short": "de Vivo et al.",
+      "journal": "Science",
+      "year": 2017,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["SBEM 6920 synapses", "ASI reduction ~18% after sleep", "selective: largest 20% synapses spared (+0.7%)", "recycling endosome synapses shrink 20-25%"],
+      "note": "Open full text PMC5313037; strongest direct ultrastructural SHY evidence"
+    },
+    {
+      "pmid": "34709916",
+      "pmcid": "PMC7611961",
+      "title": "Brain neural patterns and the memory function of sleep",
+      "authors_short": "Girardeau & Lopes-Dos-Santos",
+      "journal": "Science",
+      "year": 2021,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["SWR replay mechanism review", "causal disruption evidence", "human iEEG evidence", "REM role"],
+      "note": "Open full text PMC7611961"
+    },
+    {
+      "pmid": "38443198",
+      "pmcid": null,
+      "title": "Coupled sleep rhythms for memory consolidation",
+      "authors_short": "Staresina",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2024,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["latest SO-spindle-SWR coupling framework", "temporal precision = selective memory enhancement"],
+      "note": "2024 review; abstract only (paywall)"
+    },
+    {
+      "pmid": "37023710",
+      "pmcid": null,
+      "title": "Sleep—A brain-state serving systems memory consolidation",
+      "authors_short": "Brodt et al.",
+      "journal": "Neuron",
+      "year": 2023,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["memory replay", "circuit reorganization", "episodic to semantic transformation"],
+      "note": "Large review; abstract only (paywall)"
+    },
+    {
+      "pmid": "30614089",
+      "pmcid": "PMC6612535",
+      "title": "Sleep and synaptic down-selection",
+      "authors_short": "Tononi & Cirelli",
+      "journal": "European Journal of Neuroscience",
+      "year": 2020,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["SHY down-selection framework", "SHY vs active consolidation reconciliation", "SWA as synaptic debt meter"],
+      "note": "Open full text PMC6612535; key theoretical update of SHY"
+    },
+    {
+      "pmid": "40962324",
+      "pmcid": "PMC12576410",
+      "title": "Systems memory consolidation during sleep: oscillations, neuromodulators, and synaptic remodeling",
+      "authors_short": "Kim & Park",
+      "journal": "BMB Reports",
+      "year": 2025,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["NE/DA/ACh roles in sleep memory", "DA in SWR priority marking", "NE oscillation pattern in NREM"],
+      "note": "Open full text PMC12576410; 2025 review; single lab"
+    },
+    {
+      "pmid": "28892057",
+      "pmcid": null,
+      "title": "Reactivations of emotional memory in the hippocampus-amygdala system during sleep",
+      "authors_short": "Girardeau et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2017,
+      "first_used": "2026-07-07",
+      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
+      "aspects_covered": ["REM sleep emotional memory", "hippocampus-amygdala SWR synchrony", "emotional priority replay"],
+      "note": "Abstract only (paywall)"
     }
   ]
 }

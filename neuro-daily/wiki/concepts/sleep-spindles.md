@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-06-19
-revision_count: 1
+updated: 2026-07-07
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, cognition]
-related: [sharp-wave-ripples, memory-consolidation, cortical-slow-oscillation, thalamocortical-circuit, ltp, hippocampal-circuit]
+related: [sharp-wave-ripples, memory-consolidation, cortical-slow-oscillation, thalamocortical-circuit, ltp, hippocampal-circuit, so-spindle-swr-coupling]
 prerequisites: [action-potential, voltage-gated-calcium-channels, synaptic-transmission]
 opens_questions: [Q-spindle-fast-vs-slow, Q-spindle-augmentation-clinical, Q-spindle-rem-division]
-source_articles: [2026-06-19-sleep-spindles-nrem]
-key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:32066662", "PMID:38443198", "PMID:32248788", "PMID:28689981", "PMID:31533977"]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-07-sleep-memory-consolidation-so-spindle-swr]
+key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:32066662", "PMID:38443198", "PMID:32248788", "PMID:28689981", "PMID:31533977", "PMID:29249289"]
 ---
 
 # 睡眠纺锤波 (Sleep Spindles)
@@ -81,11 +81,13 @@ T 型通道（CaV3 家族）的工作逻辑：**先被深度超极化（<−75 m
 | 人类颅内验证 SWR-纺锤波时间耦合 | 多区域颅内EEG（癫痫患者）+ 相位分析 | PMID:31533977（PMC:6710103）| 高（人类直接） |
 | 纺锤波诱导皮层树突 L 型钙通道激活 → 可塑性窗口 | 体内钙成像 + 电生理 + L型Ca²⁺阻断实验 | PMID:32248788（PMC:7117406）| 中-高 |
 | 皮层记忆模式在 NREM 睡眠中与纺锤波耦合重放（人类） | 人类颅内EEG：清醒→NREM 模式复现率 vs 纺锤波时相 | PMID:29234075（PMC:5720531）| 中-高 |
+| SO-纺锤波相位精度预测隔夜记忆（d=1.19）；老龄化相位提前 46.3° | 人类 EEG + MRI + 陈述性记忆测试，年轻 vs 老年（~73岁）对比 | PMID:29249289（PMC:5754239）| 高 |
 
 ## 连接
 
 - [[cortical-slow-oscillation]] — SO（0.75 Hz）是三重嵌套的最顶层：上行相触发纺锤波
 - [[sharp-wave-ripples]] — SWR 嵌套在纺锤波内；纺锤波的钙窗口承接 SWR 的记忆输出
+- [[so-spindle-swr-coupling]] — 三重耦合机制的综合页面；SO-纺锤波-SWR 时序精度是记忆巩固的关键
 - [[memory-consolidation]] — 纺锤波是 SO-spindle-SWR 三重奏的关键中间层；提供皮层可塑性窗口
 - [[thalamocortical-circuit]] — TRN↔TC 振荡环路是纺锤波的生成回路
 - [[ltp]] — 纺锤波诱导的树突钙内流是皮层 LTP 型记忆痕迹建立的前提
@@ -100,6 +102,7 @@ T 型通道（CaV3 家族）的工作逻辑：**先被深度超极化（<−75 m
 ## 修订历史
 
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · 填补 memory-consolidation 和 sharp-wave-ripples 页面对 sleep-spindles 的悬空引用 · 初始置信度：高
+- 2026-07-07 · 修订 · 基于《三重协奏》文章(#75) · 新增 Helfrich 2018 SO-纺锤波相位精度证据（d=1.19；老年相位偏移 46.3°）；related 新增 so-spindle-swr-coupling；connections 增加三重耦合页面链接
 
 ## 来源文章
 

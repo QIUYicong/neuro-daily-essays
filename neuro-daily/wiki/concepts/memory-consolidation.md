@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-05-31
-revision_count: 5
+updated: 2026-07-07
+revision_count: 6
 dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
-opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-shy-vs-active-consolidation, Q-rem-sleep-role]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory]
-key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380"]
+opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-rem-sleep-role, Q-replay-human-translation]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr]
+key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710"]
 ---
 
 # 记忆巩固（系统层面）(Memory Consolidation — Systems Level)
@@ -122,12 +122,15 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 | 记忆提取从海马→皮层转移 | 纵向 fMRI：1天/1月/1年后激活变化 | PMID:26238360 | 高 |
 | 皮层 ACC 是远期（非近期）记忆必需 | ACC 损伤选择性破坏远期空间记忆 | PMID:15685217 | 高 |
 | SWS 比 REM 对陈述性记忆更重要 | 气味提示在 SWS（有效）vs REM（无效）| PMID:23589831 | 高 |
-| 睡眠后突触尺寸缩减（SHY） | SBEM（串行块面电镜）测量轴突棘突接触面积 | PMID:32248785 | 中（需更多验证） |
+| 睡眠后突触尺寸缩减约18%（SHY 超微结构证据） | SBEM 6920 突触；睡眠 vs 清醒；选择性保留最大 20% 突触 | PMID:28154076 | 高 |
+| SO-纺锤波相位精度预测隔夜记忆（衰老数据） | 老年人（73岁）相位偏移 46.3° vs 年轻人 3.6°；效应量 d=1.19；mPFC 萎缩是中介 | PMID:29249289 | 高 |
 | REM期θ是情境记忆必需（选择性破坏→损害） | 仅REM期光遗传沉默MS GABA神经元 | PMID:27174984 | 高（因果，Boyce 2016） |
 | REM睡眠降低杏仁核情绪反应（人类） | 整夜睡眠+REM选择性剥夺+情绪任务fMRI | PMID:22119526 | 中-高（van der Helm 2011） |
 
 ## 连接
 
+- [[so-spindle-swr-coupling]] — SO-纺锤波-SWR 三重耦合是系统巩固的精确时间机制（新专页）
+- [[shy-hypothesis]] — SHY（突触稳态假说）：睡眠整体突触下调；通过 down-selection 与主动巩固调和
 - [[sharp-wave-ripples]] — SWR 是系统巩固的物理机制：CA3→CA1 群体重播驱动海马→皮层信号传递
 - [[hippocampal-circuit]] — 海马三突触回路（DG→CA3→CA1）提供 SWR 的解剖底物
 - [[theta-oscillations]] — θ（编码）与 SWR（巩固）是海马的互补工作模式
@@ -143,8 +146,11 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 
 - Q-memory-consolidation-sct-mtt：SCT vs MTT 的最终裁决——情景记忆是否永远依赖海马？
 - Q-consolidation-selectivity：哪些记忆优先被 SWR 重播？是否存在主动"遗忘优先"机制？
-- Q-shy-vs-active-consolidation：突触稳态假说（SHY）与主动系统巩固如何在同一睡眠中并行？
 - Q-rem-sleep-role：REM 睡眠在系统巩固中的精确角色（辅助 vs 必需）——部分解答：Boyce 2016因果证据 + van der Helm 2011人类证据，但细胞机制和NREM/REM功能分工全貌仍未完全厘清
+- Q-replay-human-translation：人类睡眠 SWR 重播与啮齿动物的机制是否完全相同？语言记忆和程序性记忆是否走相同的三重耦合路径？
+
+**Q-shy-vs-active-consolidation（部分裁决 — 2026-07-07）**：  
+Tononi & Cirelli 2020（PMID:30614089）的 down-selection 框架提供了理论调和方案：SO UP state 对大多数突触施以轻度 LTD（SHY 预测的整体下调），但 SWR 期间被重播激活的记忆痕迹突触获得"保护免于抑郁"效应，使其信噪比在整体下调背景下相对升高——等效于选择性记忆巩固。关键区别：de Vivo 2017（PMID:28154076）的超微结构直接证据（6920 突触，~18% ASI 缩小，选择性保留最大 20%）支持 SHY 的整体下调预测，但无法区分哪些是"受保护的记忆痕迹突触"。**裁决仍 open**：需要在单突触分辨率同时追踪 SWR 内容编码的实验。
 
 ## 系统巩固中的竞争遴选
 
