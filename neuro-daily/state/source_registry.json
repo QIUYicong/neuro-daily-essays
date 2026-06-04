@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-09",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5729,9 +5729,165 @@
         "NREM sleep duration predicts glymphatic clearance",
         "brain parenchymal resistance (RP) key biomechanical parameter"
       ]
+    },
+    {
+      "pmid": "15891777",
+      "pmcid": null,
+      "doi": "10.1038/nrn1683",
+      "title": "Stress and the brain: from adaptation to disease",
+      "authors": "de Kloet ER, Joëls M, Holsboer F",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2005,
+      "access_type": "abstract_only",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "26286651",
+      "pmcid": "PMC4561403",
+      "doi": "10.1101/lm.037291.114",
+      "title": "Stress effects on the hippocampus: a critical review",
+      "authors": "Kim EJ, Pellman B, Kim JJ",
+      "journal": "Learning & Memory",
+      "year": 2015,
+      "access_type": "open_full_text",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "19317179",
+      "pmcid": "PMC2746750",
+      "doi": "10.1515/revneuro.2008.19.6.395",
+      "title": "Chronic stress-induced hippocampal vulnerability: the glucocorticoid vulnerability hypothesis",
+      "authors": "Conrad CD",
+      "journal": "Reviews in the Neurosciences",
+      "year": 2008,
+      "access_type": "open_full_text",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "26741493",
+      "pmcid": "PMC4712151",
+      "doi": "10.1371/journal.pone.0145858",
+      "title": "Hippocampal fast glutamatergic transmission is transiently regulated by corticosterone pulsatility",
+      "authors": "Sarabdjitsingh RA et al.",
+      "journal": "PLoS ONE",
+      "year": 2016,
+      "access_type": "open_full_text",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "10366636",
+      "pmcid": "PMC6782668",
+      "doi": "10.1523/JNEUROSCI.19-12-05034.1999",
+      "title": "Depression duration but not age predicts hippocampal volume loss in medically healthy women with recurrent major depression",
+      "authors": "Sheline YI et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 1999,
+      "access_type": "open_full_text",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "21911374",
+      "pmcid": "PMC3179117",
+      "doi": "10.1073/pnas.1110444108",
+      "title": "Glucocorticoids are critical regulators of dendritic spine development and plasticity in vivo",
+      "authors": "Liston C, Gan WB",
+      "journal": "PNAS USA",
+      "year": 2011,
+      "access_type": "open_full_text",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "3527687",
+      "pmcid": null,
+      "doi": "10.1210/edrv-7-3-284",
+      "title": "The neuroendocrinology of stress and aging: the glucocorticoid cascade hypothesis",
+      "authors": "Sapolsky RM, Krey LC, McEwen BS",
+      "journal": "Endocrine Reviews",
+      "year": 1986,
+      "access_type": "abstract_only",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "17615391",
+      "pmcid": null,
+      "doi": "10.1152/physrev.00041.2006",
+      "title": "Physiology and neurobiology of stress and adaptation: central role of the brain",
+      "authors": "McEwen BS",
+      "journal": "Physiological Reviews",
+      "year": 2007,
+      "access_type": "abstract_only",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "10195112",
+      "pmcid": null,
+      "doi": "10.1038/271",
+      "title": "Cortisol levels during human aging predict hippocampal atrophy and memory deficits",
+      "authors": "Lupien SJ et al.",
+      "journal": "Nature Neuroscience",
+      "year": 1998,
+      "access_type": "abstract_only",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "16513410",
+      "pmcid": null,
+      "doi": "10.1016/j.tics.2006.02.002",
+      "title": "Learning under stress: how does it work?",
+      "authors": "Joëls M et al.",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2006,
+      "access_type": "abstract_only",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "12042880",
+      "pmcid": null,
+      "doi": "10.1038/nrn849",
+      "title": "The stressed hippocampus, synaptic plasticity and lost memories",
+      "authors": "Kim JJ, Diamond DM",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2002,
+      "access_type": "abstract_only",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "26551025",
+      "pmcid": null,
+      "doi": "10.1159/000440463",
+      "title": "Tau as the Converging Protein between Chronic Stress and Alzheimer's Disease Synaptic Pathology",
+      "authors": "Sotiropoulos I, Sousa N",
+      "journal": "Neurodegenerative Diseases",
+      "year": 2016,
+      "access_type": "abstract_only",
+      "article_used_in": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
     }
   ],
-  "total_sources": 279,
+  "total_sources": 313,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -6271,8 +6427,14 @@
       "journal": "Nature Reviews Neuroscience",
       "year": 2010,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["two-stage memory consolidation model", "SWS vs REM division of labor", "SO-SWR-spindle framework"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "two-stage memory consolidation model",
+        "SWS vs REM division of labor",
+        "SO-SWR-spindle framework"
+      ],
       "note": "Foundational review; abstract only (paywall)"
     },
     {
@@ -6283,8 +6445,13 @@
       "journal": "Neuron",
       "year": 1998,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SWR-spindle temporal coupling first direct recording", "phase coupling in hippocampus-cortex"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SWR-spindle temporal coupling first direct recording",
+        "phase coupling in hippocampus-cortex"
+      ],
       "note": "Founding correlation evidence; abstract only (paywall, 1998)"
     },
     {
@@ -6295,8 +6462,14 @@
       "journal": "Nature Neuroscience",
       "year": 2016,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["closed-loop stimulation causal evidence", "SO-SWR-spindle coupling → memory improvement", "non-synchronized control has no effect"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "closed-loop stimulation causal evidence",
+        "SO-SWR-spindle coupling → memory improvement",
+        "non-synchronized control has no effect"
+      ],
       "note": "Key causal experiment; abstract only (paywall)"
     },
     {
@@ -6307,8 +6480,15 @@
       "journal": "Neuron",
       "year": 2018,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SO-spindle phase precision predicts memory (d=1.19)", "aging phase shift 3.6° vs 46.3°", "mPFC atrophy mechanism", "mediation analysis"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SO-spindle phase precision predicts memory (d=1.19)",
+        "aging phase shift 3.6° vs 46.3°",
+        "mPFC atrophy mechanism",
+        "mediation analysis"
+      ],
       "note": "Open full text PMC5754239; high-quality human EEG + MRI study"
     },
     {
@@ -6319,8 +6499,15 @@
       "journal": "Science",
       "year": 2017,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SBEM 6920 synapses", "ASI reduction ~18% after sleep", "selective: largest 20% synapses spared (+0.7%)", "recycling endosome synapses shrink 20-25%"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SBEM 6920 synapses",
+        "ASI reduction ~18% after sleep",
+        "selective: largest 20% synapses spared (+0.7%)",
+        "recycling endosome synapses shrink 20-25%"
+      ],
       "note": "Open full text PMC5313037; strongest direct ultrastructural SHY evidence"
     },
     {
@@ -6331,8 +6518,15 @@
       "journal": "Science",
       "year": 2021,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SWR replay mechanism review", "causal disruption evidence", "human iEEG evidence", "REM role"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SWR replay mechanism review",
+        "causal disruption evidence",
+        "human iEEG evidence",
+        "REM role"
+      ],
       "note": "Open full text PMC7611961"
     },
     {
@@ -6343,8 +6537,13 @@
       "journal": "Trends in Cognitive Sciences",
       "year": 2024,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["latest SO-spindle-SWR coupling framework", "temporal precision = selective memory enhancement"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "latest SO-spindle-SWR coupling framework",
+        "temporal precision = selective memory enhancement"
+      ],
       "note": "2024 review; abstract only (paywall)"
     },
     {
@@ -6355,8 +6554,14 @@
       "journal": "Neuron",
       "year": 2023,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["memory replay", "circuit reorganization", "episodic to semantic transformation"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "memory replay",
+        "circuit reorganization",
+        "episodic to semantic transformation"
+      ],
       "note": "Large review; abstract only (paywall)"
     },
     {
@@ -6367,8 +6572,14 @@
       "journal": "European Journal of Neuroscience",
       "year": 2020,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SHY down-selection framework", "SHY vs active consolidation reconciliation", "SWA as synaptic debt meter"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SHY down-selection framework",
+        "SHY vs active consolidation reconciliation",
+        "SWA as synaptic debt meter"
+      ],
       "note": "Open full text PMC6612535; key theoretical update of SHY"
     },
     {
@@ -6379,8 +6590,14 @@
       "journal": "BMB Reports",
       "year": 2025,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["NE/DA/ACh roles in sleep memory", "DA in SWR priority marking", "NE oscillation pattern in NREM"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "NE/DA/ACh roles in sleep memory",
+        "DA in SWR priority marking",
+        "NE oscillation pattern in NREM"
+      ],
       "note": "Open full text PMC12576410; 2025 review; single lab"
     },
     {
@@ -6391,8 +6608,14 @@
       "journal": "Nature Neuroscience",
       "year": 2017,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["REM sleep emotional memory", "hippocampus-amygdala SWR synchrony", "emotional priority replay"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "REM sleep emotional memory",
+        "hippocampus-amygdala SWR synchrony",
+        "emotional priority replay"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6403,8 +6626,14 @@
       "journal": "Angewandte Chemie International Edition",
       "year": 2018,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["period gene cloning history", "PER protein nocturnal accumulation", "2017 Nobel Prize context"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "period gene cloning history",
+        "PER protein nocturnal accumulation",
+        "2017 Nobel Prize context"
+      ],
       "note": "Nobel Lecture; abstract only"
     },
     {
@@ -6415,8 +6644,16 @@
       "journal": "Nature",
       "year": 2002,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["TTFL positive arm CLOCK/BMAL1", "PER/CRY negative arm", "CKI phosphorylation of PER", "REV-ERBα/ROR auxiliary loop", "peripheral clocks discovery"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "TTFL positive arm CLOCK/BMAL1",
+        "PER/CRY negative arm",
+        "CKI phosphorylation of PER",
+        "REV-ERBα/ROR auxiliary loop",
+        "peripheral clocks discovery"
+      ],
       "note": "Foundational TTFL review; abstract only (paywall)"
     },
     {
@@ -6427,8 +6664,15 @@
       "journal": "Science",
       "year": 2002,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["ipRGC intrinsic photosensitivity", "melanopsin discovery", "non-image-forming photoreception", "RHT light input pathway"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "ipRGC intrinsic photosensitivity",
+        "melanopsin discovery",
+        "non-image-forming photoreception",
+        "RHT light input pathway"
+      ],
       "note": "Landmark ipRGC discovery; abstract only (paywall)"
     },
     {
@@ -6439,8 +6683,15 @@
       "journal": "Science",
       "year": 2009,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["CSF Aβ42 circadian oscillation", "sleep deprivation increases Aβ42 ~25-30%", "sleep-wake cycle regulates Aβ clearance", "orexin modulation of Aβ"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "CSF Aβ42 circadian oscillation",
+        "sleep deprivation increases Aβ42 ~25-30%",
+        "sleep-wake cycle regulates Aβ clearance",
+        "orexin modulation of Aβ"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6451,8 +6702,15 @@
       "journal": "Human Neurobiology",
       "year": 1982,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["Process S homeostatic sleep pressure", "Process C circadian oscillation", "two-process model framework", "SWA prediction"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "Process S homeostatic sleep pressure",
+        "Process C circadian oscillation",
+        "two-process model framework",
+        "SWA prediction"
+      ],
       "note": "Original two-process model proposal; abstract only (paywall)"
     },
     {
@@ -6463,8 +6721,14 @@
       "journal": "Science",
       "year": 1990,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["SCN transplant tau mutant hamster", "circadian period determined by donor SCN", "SCN as master circadian pacemaker causal proof"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "SCN transplant tau mutant hamster",
+        "circadian period determined by donor SCN",
+        "SCN as master circadian pacemaker causal proof"
+      ],
       "note": "Strongest causal evidence for SCN as master clock; abstract only (paywall)"
     },
     {
@@ -6475,8 +6739,16 @@
       "journal": "PNAS",
       "year": 2020,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["CLOCK/BMAL1 regulate PV+ interneuron maturation rate", "metabolic-oxidative stress pathway", "critical period timing molecular bridge", "CamKII-Cre Bmal1 flox KO", "ODP measurement monocular deprivation"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "CLOCK/BMAL1 regulate PV+ interneuron maturation rate",
+        "metabolic-oxidative stress pathway",
+        "critical period timing molecular bridge",
+        "CamKII-Cre Bmal1 flox KO",
+        "ODP measurement monocular deprivation"
+      ],
       "note": "Open full text PMC7519216; establishes molecular link between circadian clock and developmental plasticity"
     },
     {
@@ -6487,8 +6759,15 @@
       "journal": "Science",
       "year": 2019,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["SCN astrocyte independent functional clock", "glial TTFL disruption reduces rhythm amplitude", "ATP/glutamate feedback to SCN neurons", "astrocyte as active rhythm network participant"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "SCN astrocyte independent functional clock",
+        "glial TTFL disruption reduces rhythm amplitude",
+        "ATP/glutamate feedback to SCN neurons",
+        "astrocyte as active rhythm network participant"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6499,8 +6778,14 @@
       "journal": "Science Translational Medicine",
       "year": 2019,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["NREM reduction correlates with CSF tau elevation in MCI", "sleep deprivation increases CSF tau", "tau circadian oscillation evidence"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "NREM reduction correlates with CSF tau elevation in MCI",
+        "sleep deprivation increases CSF tau",
+        "tau circadian oscillation evidence"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6511,8 +6796,15 @@
       "journal": "Cell",
       "year": 2002,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["peripheral clocks oscillate in vitro independent of SCN", "food entrainment resetting peripheral clocks without SCN", "SCN as light-synchronization master clock", "multiple zeitgebers hierarchy"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "peripheral clocks oscillate in vitro independent of SCN",
+        "food entrainment resetting peripheral clocks without SCN",
+        "SCN as light-synchronization master clock",
+        "multiple zeitgebers hierarchy"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6523,8 +6815,15 @@
       "journal": "Physiological Reviews",
       "year": 2010,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["RHT glutamate/PACAP signaling NMDA→CaMKII→CREB→Per induction", "phase response curve cellular mechanism", "SCN VIP/VPAC2 coupling synchronization", "peripheral clock resetting food vs light"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "RHT glutamate/PACAP signaling NMDA→CaMKII→CREB→Per induction",
+        "phase response curve cellular mechanism",
+        "SCN VIP/VPAC2 coupling synchronization",
+        "peripheral clock resetting food vs light"
+      ],
       "note": "Open full text PMC3065858; high-quality review; directly citable"
     },
     {
@@ -6535,8 +6834,16 @@
       "journal": "Nature Reviews Neuroscience",
       "year": 2005,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["MR/GR dual-receptor theory", "HPA-hippocampus interaction framework", "MR high affinity (Kd~0.5nM) vs GR (Kd~5nM)", "master switch concept", "genetic vulnerability in MR/GR balance"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "MR/GR dual-receptor theory",
+        "HPA-hippocampus interaction framework",
+        "MR high affinity (Kd~0.5nM) vs GR (Kd~5nM)",
+        "master switch concept",
+        "genetic vulnerability in MR/GR balance"
+      ],
       "note": "Abstract only (paywall). Core reference for MR/GR balance theory. Authors are field founders."
     },
     {
@@ -6547,8 +6854,15 @@
       "journal": "Learning & Memory",
       "year": 2015,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["biphasic LTP (low CORT→MR→enhanced, high CORT→MR+GR→impaired)", "hippocampus vs amygdala directional divergence", "human PTSD hippocampal volume", "three-level stress effects (behavioral/neural/structural)"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "biphasic LTP (low CORT→MR→enhanced, high CORT→MR+GR→impaired)",
+        "hippocampus vs amygdala directional divergence",
+        "human PTSD hippocampal volume",
+        "three-level stress effects (behavioral/neural/structural)"
+      ],
       "note": "Open full text PMC4561403. Comprehensive integration of multiple labs' data."
     },
     {
@@ -6559,8 +6873,17 @@
       "journal": "Reviews in the Neurosciences",
       "year": 2008,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["GC vulnerability hypothesis (modification of Sapolsky cascade)", "CA3 dendritic retraction time course (4-day persistence, 10-day recovery)", "reversibility", "enhanced neurotoxic vulnerability mechanism", "sex differences", "Cushing/PTSD/MDD parallels"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "GC vulnerability hypothesis (modification of Sapolsky cascade)",
+        "CA3 dendritic retraction time course (4-day persistence, 10-day recovery)",
+        "reversibility",
+        "enhanced neurotoxic vulnerability mechanism",
+        "sex differences",
+        "Cushing/PTSD/MDD parallels"
+      ],
       "note": "Open full text PMC2746750. Key paper distinguishing vulnerability (reversible) from neurodegeneration (irreversible)."
     },
     {
@@ -6571,8 +6894,14 @@
       "journal": "PLoS ONE",
       "year": 2016,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["non-genomic rapid signaling: first pulse increases mEPSC frequency and AMPA surface expression", "pulsatile vs tonic hormone effects", "ultradian rhythm importance for receptor maintenance"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "non-genomic rapid signaling: first pulse increases mEPSC frequency and AMPA surface expression",
+        "pulsatile vs tonic hormone effects",
+        "ultradian rhythm importance for receptor maintenance"
+      ],
       "note": "Open full text PMC4712151. PLoS ONE in vitro hippocampal culture."
     },
     {
@@ -6583,8 +6912,15 @@
       "journal": "Journal of Neuroscience",
       "year": 1999,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["cumulative depression duration predicts hippocampal volume loss", "dose-response GC burden and structural damage", "MRI n=62 landmark study", "treatment-protective effects on hippocampus"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "cumulative depression duration predicts hippocampal volume loss",
+        "dose-response GC burden and structural damage",
+        "MRI n=62 landmark study",
+        "treatment-protective effects on hippocampus"
+      ],
       "note": "Open full text PMC6782668. Landmark human MRI evidence for GC-mediated hippocampal atrophy."
     },
     {
@@ -6595,8 +6931,14 @@
       "journal": "PNAS",
       "year": 2011,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["in vivo two-photon imaging: corticosterone increases dendritic spine turnover dose-dependently within 5 hours", "MR/GR receptor specificity for spine formation vs elimination", "developmental GC requirement"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "in vivo two-photon imaging: corticosterone increases dendritic spine turnover dose-dependently within 5 hours",
+        "MR/GR receptor specificity for spine formation vs elimination",
+        "developmental GC requirement"
+      ],
       "note": "Open full text PMC3179117. In vivo real-time spine dynamics. Strong causal evidence."
     },
     {
@@ -6607,8 +6949,13 @@
       "journal": "Endocrine Reviews",
       "year": 1986,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["glucocorticoid cascade hypothesis: hippocampal damage → impaired HPA feedback → rising GCs → further damage", "original positive feedback framework"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "glucocorticoid cascade hypothesis: hippocampal damage → impaired HPA feedback → rising GCs → further damage",
+        "original positive feedback framework"
+      ],
       "note": "Abstract only. Seminal 1986 paper. Historical significance for cascade framework."
     },
     {
@@ -6619,8 +6966,14 @@
       "journal": "Physiological Reviews",
       "year": 2007,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["allostatic load concept", "structural remodeling in hippocampus/amygdala/PFC", "social support and exercise as protective interventions"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "allostatic load concept",
+        "structural remodeling in hippocampus/amygdala/PFC",
+        "social support and exercise as protective interventions"
+      ],
       "note": "Abstract only. Comprehensive McEwen review. Core for allostasis concept."
     },
     {
@@ -6631,8 +6984,12 @@
       "journal": "Nature Neuroscience",
       "year": 1998,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["5-year longitudinal: elevated cortisol predicts reduced hippocampal volume and memory deficits in aging humans"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "5-year longitudinal: elevated cortisol predicts reduced hippocampal volume and memory deficits in aging humans"
+      ],
       "note": "Abstract only. Landmark Nature Neuroscience paper. Closest human evidence for cortisol→atrophy→memory chain."
     },
     {
@@ -6643,8 +7000,12 @@
       "journal": "Trends in Cognitive Sciences",
       "year": 2006,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["temporal and spatial specificity principle: stress enhances LTP only when stress hormones act on circuits active during learning"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "temporal and spatial specificity principle: stress enhances LTP only when stress hormones act on circuits active during learning"
+      ],
       "note": "Abstract only. Key paper for bidirectional stress-memory relationship."
     },
     {
@@ -6655,8 +7016,13 @@
       "journal": "Nature Reviews Neuroscience",
       "year": 2002,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["amygdala-hippocampus directional divergence under stress", "stress impairs hippocampal LTP/memory while enhancing amygdalar fear memory"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "amygdala-hippocampus directional divergence under stress",
+        "stress impairs hippocampal LTP/memory while enhancing amygdalar fear memory"
+      ],
       "note": "Abstract only. Nat Rev Neurosci landmark review."
     },
     {
@@ -6667,9 +7033,28 @@
       "journal": "Neurodegenerative Diseases",
       "year": 2016,
       "first_used": "2026-07-09",
-      "used_in_articles": ["2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"],
-      "aspects_covered": ["chronic GC exposure → tau missorting → synaptic atrophy", "mechanism connecting chronic stress to AD via tau pathway"],
+      "used_in_articles": [
+        "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md"
+      ],
+      "aspects_covered": [
+        "chronic GC exposure → tau missorting → synaptic atrophy",
+        "mechanism connecting chronic stress to AD via tau pathway"
+      ],
       "note": "Abstract only. Rodent models. Hypothesis connecting stress and AD via tau."
     }
+  ],
+  "additions_2026-07-09": [
+    "15891777",
+    "26286651",
+    "19317179",
+    "26741493",
+    "10366636",
+    "21911374",
+    "3527687",
+    "17615391",
+    "10195112",
+    "16513410",
+    "12042880",
+    "26551025"
   ]
 }
