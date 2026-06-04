@@ -6,13 +6,13 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 4
+updated: 2026-06-04
+revision_count: 5
 dimensions: [cellular, synaptic, microcircuit, cognition, disease]
 related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
-source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
+source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-06-04-asd-ei-imbalance-circuit-mechanism]
 key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468"]
 ---
 
@@ -76,6 +76,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - [[axon-initial-segment]] — 吊灯细胞（PV+ 亚类）靶向 AIS
 - [[ei-balance]] — PV+ 细胞是 E/I 平衡的主要实时执行者（毫秒反馈抑制）
 - [[perineuronal-nets]] — PNNs 特异性包裹 PV+ 细胞，关键期末固化回路状态
+- [[asd]] — ASD 多条遗传路径（SCN1A/CNTNAP2/MeCP2）优先损伤 PV+；CNTNAP2 KO PV 减少 → 感觉皮层 E/I 升高（Gandhi 2023）；光遗传 PV 激活可恢复社交行为（Golden 2018）
 
 ## 未解问题
 
@@ -88,6 +89,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 新增 PFC γ爆发WM应用、精神分裂症病理证据
 - 2026-07-04 · 修订 rev3 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增 E/I 平衡执行者角色、关键期初始靶点（Quast & Hensch 2023）、PNN 固化机制、神经炎症脆弱性
 - 2026-06-03 · 修订 rev4 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增：PV+ 细胞去激活是 ODP 的第一个微回路事件（Kuhlman 2013），OTX2 经 PNN 锚定驱动 PV 成熟（Sugiyama 2008, Beurdeley 2012），BDNF 驱动 PV 成熟时间轴（Huang 1999），Rett 综合征中 MeCP2 KO 加速 PV 成熟导致关键期错位（Krishnan 2015），小胶质细胞亚群上游调控 PV 成熟（Wang 2025）；related 新增 critical-period, bdnf, microglia
+- 2026-06-04 · 修订 rev5 · 基于《当发育的精密时钟出错》(#73) · 新增：SCN1A/NaV1.1 选择性损 PV+（Dravet/ASD 共病机制）；CNTNAP2 KO 中 PV 减少 + PNN 减少导致感觉皮层 E/I 升高；光遗传 PV 激活恢复 ASD 小鼠社交行为；related 新增 [[asd]]
 
 ## 来源文章
 

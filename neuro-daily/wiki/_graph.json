@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-03",
+  "updated": "2026-06-04",
   "node_count": 132,
   "edge_count": 744,
   "edge_types": [
@@ -1210,6 +1210,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/critical-period.md"
+    },
+    {
+      "id": "asd",
+      "title": "自闭症谱系障碍",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/asd.md"
+    },
+    {
+      "id": "fmrp",
+      "title": "FMRP（脆性X综合征智力低下蛋白）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/fmrp.md"
     }
   ],
   "edges": [
@@ -5346,6 +5364,76 @@
     {
       "from": "critical-period",
       "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "asd",
+      "to": "ei-balance",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "asd",
+      "to": "synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "asd",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "asd",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "asd",
+      "to": "perineuronal-nets",
+      "type": "related"
+    },
+    {
+      "from": "asd",
+      "to": "gamma-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "asd",
+      "to": "fmrp",
+      "type": "part-of"
+    },
+    {
+      "from": "asd",
+      "to": "microglia",
+      "type": "related"
+    },
+    {
+      "from": "asd",
+      "to": "complement-cascade-cns",
+      "type": "related"
+    },
+    {
+      "from": "fmrp",
+      "to": "ltd",
+      "type": "regulates"
+    },
+    {
+      "from": "fmrp",
+      "to": "ampa-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "fmrp",
+      "to": "asd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "fmrp",
+      "to": "synaptic-scaling",
+      "type": "related"
+    },
+    {
+      "from": "fmrp",
+      "to": "bdnf",
       "type": "related"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-06-04",
   "levels": [
     "speculative",
     "emerging",
@@ -896,6 +896,24 @@
       "revision_count": 1,
       "last_changed": "2026-07-02",
       "change_reason": "新建（文章 #68，2026-07-02）。谷氨酸-谷氨酰胺循环（EAAT2 摄取→GS 转化→SNAT3 输出→神经元 PAG 再转化）是突触传递维持的基础机制，由多层次证据（³H示踪、同位素标记、基因敲除）确立。EAAT2 承担约 80% 的突触后摄取是反复测量的结果。定为 established/high。"
+    },
+    {
+      "slug": "asd",
+      "page": "wiki/diseases/asd.md",
+      "status": "mainstream",
+      "confidence": "medium",
+      "revision_count": 1,
+      "last_changed": "2026-06-04",
+      "change_reason": "新建（文章 #73，2026-06-04）。ASD 的 E/I 失衡框架（Rubenstein & Merzenich 2003；Sohal & Rubenstein 2019）是当前神经科学的主流框架，获得多个独立实验室的基因 KO 小鼠和人类 MRS 数据支持。但 ASD 的高度异质性（1000+ 基因位点）和 E/I 失衡方向的争议（不同亚型方向不同）使置信度为 medium。定为 mainstream/medium。"
+    },
+    {
+      "slug": "fmrp",
+      "page": "wiki/concepts/fmrp.md",
+      "status": "mainstream",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-06-04",
+      "change_reason": "新建（文章 #73，2026-06-04）。FMRP 的 mGluR 理论（Bear et al. 2004，PMID:15219735）是 FXS 分子机制的核心框架，有明确的 KO 小鼠数据（mGluR-LTD 增强 50%，DHPG 诱导）和树突棘形态证据，以及 mGluR5 拮抗剂功能恢复实验（PMID:21090964）。人类临床试验不稳定，但分子机制本身置信度高。定为 mainstream/high（非 established 因为人类-小鼠翻译鸿沟）。"
     }
   ],
   "embodied-semantics": {

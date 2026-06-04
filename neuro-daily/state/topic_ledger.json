@@ -4086,6 +4086,96 @@
       "mode": "long_term_curriculum",
       "article_number": 72,
       "note": "今日为第四篇 2026-06-03 文章（#11 PV中间神经元，#66 视丘，#70 微胶质，#72 关键期）；延续日期困境（系统日期UTC+8=2026-06-03）；知识库连续性延续自#71（2026-07-04·E/I平衡）"
+    },
+    {
+      "date": "2026-06-04",
+      "title": "当发育的精密时钟出错：自闭症谱系障碍的神经回路机制——E/I 失衡、突触剪枝缺陷与关键期时序紊乱",
+      "filename": "2026-06-04-asd-ei-imbalance-circuit-mechanism.md",
+      "core_question": "自闭症谱系障碍的神经回路基础是什么？为什么超过1000个基因位点的突变，最终汇聚成相似的社交沟通困难和感觉处理异常？E/I失衡、突触剪枝缺陷和关键期时序紊乱，如何从三个维度共同塑造了ASD的皮层回路状态？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "11. 疾病作为窗口（ASD神经回路机制）；综合 #71（E/I平衡）、#70（突触剪枝）、#72（关键期）、#11（PV中间神经元）四篇文章视角",
+      "topic_tags": [
+        "ASD",
+        "autism spectrum disorder",
+        "E/I balance",
+        "excitation inhibition",
+        "SHANK3",
+        "FMRP",
+        "FXS",
+        "fragile X syndrome",
+        "SCN1A",
+        "Dravet syndrome",
+        "MeCP2",
+        "Rett syndrome",
+        "CNTNAP2",
+        "synaptic pruning",
+        "dendritic spine",
+        "PV interneurons",
+        "critical period",
+        "perineuronal nets",
+        "PNN",
+        "gamma oscillations",
+        "mGluR5",
+        "mGluR theory",
+        "Bear 2004",
+        "Rubenstein Merzenich 2003",
+        "Sohal Rubenstein 2019",
+        "C4b",
+        "ERV",
+        "optogenetics",
+        "social behavior",
+        "epilepsy comorbidity"
+      ],
+      "main_sources": [
+        "PMID:14606691",
+        "PMID:31089192",
+        "PMID:36768153",
+        "PMID:37371370",
+        "PMID:36408388",
+        "PMID:21090964",
+        "PMID:15219735",
+        "PMID:41742408",
+        "PMID:38796123"
+      ],
+      "unresolved_questions": [
+        "Q-asd-01",
+        "Q-asd-02",
+        "Q-asd-03"
+      ],
+      "next_suggested_topics": [
+        "精神分裂症的神经回路（schizophrenia circuit）：过度突触剪枝（C4A→PV损伤→γ下降→WM缺陷）；与ASD的E/I失衡节点对比",
+        "SHANK3分子机制深挖：PSD脚手架崩塌→AMPA受体脱锚→LTP受损；成年小鼠SHANK3恢复的可逆性实验",
+        "关键期治疗靶点：ChABC/PNN降解、Lynx1拮抗、催产素在ASD动物模型的应用",
+        "社交脑网络（TPJ-mPFC-STS-杏仁核）：ASD中这些节点的功能连接特征",
+        "癫痫与ASD共病机制：E/I连续谱的极端；SCN1A突变在Dravet和ASD中的重叠"
+      ],
+      "article_slug": "asd-ei-imbalance-circuit-mechanism",
+      "wiki_created": [
+        "diseases/asd",
+        "concepts/fmrp"
+      ],
+      "wiki_revised": [
+        "concepts/ei-balance",
+        "concepts/synaptic-pruning",
+        "circuits/pv-interneurons"
+      ],
+      "graph_delta": {
+        "nodes_added": 2,
+        "edges_added": 14,
+        "total_nodes": 135,
+        "total_edges": 768
+      },
+      "mode": "long_term_curriculum",
+      "article_number": 73,
+      "note": "今日为第一篇 2026-06-04 文章（#73 ASD）；延续日期困境（系统日期UTC+8=2026-06-04）；知识库连续性延续自#72（2026-06-03·关键期）；完整综合了前三篇2026-06-03文章的内容"
     }
   ],
   "layer_coverage_recent": {

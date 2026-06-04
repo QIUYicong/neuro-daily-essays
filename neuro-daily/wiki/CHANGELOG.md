@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-06-04（文章 #73·当发育的精密时钟出错·ASD 神经回路机制）
+
+**源文章**：[[2026-06-04-asd-ei-imbalance-circuit-mechanism]] —《当发育的精密时钟出错：自闭症谱系障碍的神经回路机制——E/I 失衡、突触剪枝缺陷与关键期时序紊乱》
+
+**新建页面（2 页）**：
+- `diseases/asd.md`：自闭症谱系障碍——三条路径汇向同一回路结局（E/I失衡/突触剪枝缺陷/关键期失调）；四种分子缺陷原型（SHANK3/FMRP/SCN1A/MeCP2）；ASD-癫痫共病约30%；MRS元分析GABA降低0.3–0.5 SD；heterogeneity来源（mainstream, confidence:medium）
+- `concepts/fmrp.md`：FMRP——mRNA结合蛋白的翻译"刹车"；mGluR-LTD增强机制（Bear 2004）；FMR1 KO树突棘形态异常；mGluR5拮抗剂动物有效但人类临床不稳定（mainstream, confidence:high）
+
+**修订页面（3 页）**：
+- `concepts/ei-balance.md`（rev1→rev2）：新增 ASD 应用（Rubenstein & Merzenich 2003 原始假说；MRS GABA元分析，Thomson 2024）；related 新增 [[asd]]；source_articles 新增 asd-ei-imbalance-circuit-mechanism
+- `concepts/synaptic-pruning.md`（rev1→rev2）：新增 ASD 证据——脊柱密度仅减少16%（正常50%）；ERV-C4b过度剪枝新机制（Chen 2026）；related 新增 [[asd]]
+- `circuits/pv-interneurons.md`（rev4→rev5）：新增 ASD 连接——SCN1A/CNTNAP2/MeCP2优先损伤PV+；光遗传 PV 激活恢复社交行为（Golden 2018）；source_articles 新增 asd-ei-imbalance-circuit-mechanism
+
+**新登记矛盾**：无（ASD 中 E/I 失衡方向异质性已在 asd.md Q-asd-02 和 ei-balance.md Q-ei-balance-02 中登记为未解问题，不构成单一可裁判矛盾）
+
+**新增未解问题（3 个）**：
+- Q-asd-01（高优先级）：不同 ASD 遗传亚型（SHANK3/FMRP/SCN1A/MeCP2/CNTNAP2）在特定脑区的 E/I 失衡方向和幅度是否可预测？
+- Q-asd-02（高优先级）：ASD 的社交回路损伤是特异于社交信息处理，还是一般性感觉整合缺陷在社交情境中的放大？
+- Q-asd-03（中优先级）：关键期后靶向 PNN 降解或 GABAergic 调控重开受损皮层可塑性的安全边界是什么？
+
+**新增悬空引用（待补）**：
+- `shank3`：SHANK3（PSD脚手架蛋白）——ASD最常见SNV基因之一；被 asd.md 引用
+- `mglur-ltd`：mGluR-LTD机制——被 fmrp.md 引用；与 Ltd.md 有重叠但尚无独立mGluR-LTD专页
+
+**图谱更新**：新增节点 2（asd, fmrp）；新增边 14；总计 **135 节点、768 条边**
+
+---
+
 ## 2026-07-04（文章 #54·信号与噪声之间·皮层 E/I 平衡与 PV 中间神经元守门机制）
 
 **源文章**：[[2026-07-04-ei-balance-pv-interneuron]] —《信号与噪声之间：皮层 E/I 平衡的回路逻辑、PV 中间神经元的守门机制与大脑"刹车"的分子基础》

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 1
+updated: 2026-06-04
+revision_count: 2
 dimensions: [synaptic, cellular, microcircuit, brain-region, cognition, disease]
 related: [microglia, complement-cascade-cns, homeostatic-plasticity, synaptic-scaling, critical-period, ltp, ltd]
 prerequisites: [synaptic-transmission, action-potential, long-term-potentiation]
 opens_questions: [Q-pruning-01, Q-pruning-02, Q-pruning-03]
-source_articles: [2026-06-03-microglia-synaptic-pruning]
-key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548", "PMID:32657463", "PMID:34738335"]
+source_articles: [2026-06-03-microglia-synaptic-pruning, 2026-06-04-asd-ei-imbalance-circuit-mechanism]
+key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548", "PMID:32657463", "PMID:34738335", "PMID:36408388", "PMID:41742408"]
 ---
 
 # 突触剪枝 (Synaptic Pruning)
@@ -74,6 +74,8 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548"
 | PS 是独立的"吃我"信号 | Annexin V 屏蔽 PS → 剪枝减少约 50% | PMID:32657463 | 中高 |
 | C4A 过度表达→过度剪枝→精神分裂症 | 遗传关联 N=64,000+；C4 敲入小鼠树突棘减少 | PMID:26814963 | 高 |
 | AD 早期 C1q 重激活先于斑块 | AD 小鼠 1 月龄 C1q 突触↑；Aβ 低聚体触发；阻断 C1q 保护突触 | PMID:27033548 | 高 |
+| ASD 发育期脊柱密度仅减少约 16%（正常约 50%）| Golgi 染色尸脑组织（Hutsler & Zhang 2010）| PMID:36408388 引用 | 中（小样本） |
+| ERV → C4b 升高 → 过度微胶质剪枝 → ASD 行为 | ASD 小鼠模型；HIV 药物减少 C4b 改善行为 | PMID:41742408 | 中（单实验室，2026）|
 
 ## 连接
 
@@ -85,6 +87,7 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548"
 - [[critical-period]] — 关键期内剪枝最活跃（悬空引用，待补）
 - [[alzheimers-disease]] — C1q 重激活 → 突触前丢失 → 早期认知下降
 - [[pv-interneurons]] — 精神分裂症中 PV+ 细胞缺陷与补体过度剪枝相互关联
+- [[asd]] — ASD 中突触剪枝不足（脊柱密度仅减少 16%）是过度短程连接的结构基础；部分 ASD 亚型有 ERV-C4b 介导的过度剪枝（异向缺陷）
 
 ## 未解问题
 
@@ -95,6 +98,7 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548"
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《大脑的"质检员"》(#70) · 初始置信度：高（多个独立实验室的直接证据）
+- 2026-06-04 · rev2 · 基于《当发育的精密时钟出错》(#73) · 新增 ASD 上下文：脊柱密度 16% vs 50% 数据（Beopoulos 2022）；ERV-C4b 过度剪枝新机制（Chen 2026）；添加 [[asd]] 连接
 
 ## 来源文章
 

@@ -6,14 +6,14 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-07-04
-updated: 2026-07-04
-revision_count: 1
+updated: 2026-06-04
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
 related: [pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, homeostatic-plasticity, synaptic-scaling, synaptic-pruning, perineuronal-nets, working-memory, competition-selection-principle]
 prerequisites: [synaptic-transmission, action-potential, pv-interneurons]
 opens_questions: [Q-ei-balance-01, Q-ei-balance-02, Q-ei-balance-03]
-source_articles: [2026-07-04-ei-balance-pv-interneuron]
-key_sources: ["PMID:31089192", "PMID:37143468", "PMID:36598942", "PMID:34887320", "PMID:36008036"]
+source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-06-04-asd-ei-imbalance-circuit-mechanism]
+key_sources: ["PMID:31089192", "PMID:37143468", "PMID:36598942", "PMID:34887320", "PMID:36008036", "PMID:14606691", "PMID:38796123"]
 ---
 
 # 兴奋-抑制平衡 (Excitation-Inhibition Balance, E/I Balance)
@@ -77,6 +77,7 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 - [[perineuronal-nets]] — PV+ 细胞周围的细胞外矩阵"刹车"，发育期固化 E/I 状态
 - [[synaptic-pruning]] — 发育期突触剪枝影响 E/I 平衡（精神分裂症过度剪枝的病理路径）
 - [[competition-selection-principle]] — 侧向抑制是竞争性选择的回路机制
+- [[asd]] — ASD 是 E/I 失衡的主要疾病应用场景；多条遗传路径（SHANK3/FMRP/SCN1A/MeCP2）汇向 E/I 升高
 
 ## 未解问题
 
@@ -87,6 +88,7 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 ## 修订历史
 
 - 2026-07-04 · 创建 · 基于《信号与噪声之间：皮层 E/I 平衡的回路逻辑》一文 · 初始置信度：中（框架成熟，但异质性和精确测量方法仍有争议）
+- 2026-06-04 · rev2 · 基于《当发育的精密时钟出错》(#73) · 新增 ASD 应用：Rubenstein & Merzenich 2003 原始假说 + MRS 元分析 GABA 减少证据（Thomson 2024）；添加 [[asd]] 连接
 
 ## 来源文章
 

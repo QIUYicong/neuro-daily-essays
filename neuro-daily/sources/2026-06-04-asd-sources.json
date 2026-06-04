@@ -1,0 +1,25 @@
+{
+  "article": "2026-06-04-asd-ei-imbalance-circuit-mechanism.md",
+  "article_number": 73,
+  "date": "2026-06-04",
+  "search_databases": ["PubMed", "PMC"],
+  "candidate_count": 22,
+  "adopted_count": 14,
+  "open_full_text_count": 4,
+  "sources": [
+    {"pmid": "14606691", "authors": "Rubenstein JL, Merzenich MM", "year": 2003, "title": "Model of autism: increased ratio of excitation/inhibition in key neural systems", "journal": "Genes Brain Behav", "full_text": false, "note": "paywall"},
+    {"pmid": "31089192", "authors": "Sohal VS, Rubenstein JLR", "year": 2019, "title": "Excitation-inhibition balance as a framework for investigating mechanisms in neuropsychiatric disorders", "journal": "Mol Psychiatry", "full_text": false, "note": "paywall"},
+    {"pmid": "27450033", "authors": "Lee E, Lee J, Kim E", "year": 2017, "title": "Excitation/Inhibition Imbalance in Animal Models of Autism Spectrum Disorders", "journal": "Biol Psychiatry", "full_text": false, "note": "paywall"},
+    {"pmid": "38796123", "authors": "Thomson AR et al.", "year": 2024, "title": "Neurometabolite differences in Autism assessed with MRS: meta-analysis", "journal": "Neurosci Biobehav Rev", "full_text": false, "note": "paywall"},
+    {"pmid": "38016393", "authors": "Parrella NF et al.", "year": 2024, "title": "Inhibitory dysfunction and social processing difficulties in autism", "journal": "J Psychiatr Res", "full_text": false, "note": "paywall"},
+    {"pmid": "28452083", "authors": "Bozzi Y, Provenzano G, Casarosa S", "year": 2018, "title": "Neurobiological bases of autism-epilepsy comorbidity: E/I imbalance", "journal": "Eur J Neurosci", "full_text": false, "note": "paywall"},
+    {"pmid": "29222989", "authors": "Golden CE, Buxbaum JD, De Rubeis S", "year": 2018, "title": "Disrupted circuits in mouse models of ASD and intellectual disability", "journal": "Curr Opin Neurobiol", "full_text": false, "note": "paywall"},
+    {"pmid": "36768153", "pmcid": "PMC9915249", "authors": "Wang L et al.", "year": 2023, "title": "ASD: Neurodevelopmental Risk Factors, Biological Mechanism, and Precision Therapy", "journal": "Int J Mol Sci", "full_text": true, "note": "open access, full text read"},
+    {"pmid": "42131345", "authors": "Lian A et al.", "year": 2026, "title": "Microglia in ASD: heterogeneity, immunometabolism, synapse-related pathways", "journal": "Front Immunol", "full_text": false, "note": "abstract only"},
+    {"pmid": "41742408", "authors": "Chen S et al.", "year": 2026, "title": "Endogenous retrovirus-derived RNA-DNA hybrids induce microglial synaptic pruning in autism models", "journal": "Neuron", "full_text": false, "note": "paywall"},
+    {"pmid": "37371370", "pmcid": "PMC10296611", "authors": "Gandhi T et al.", "year": 2023, "title": "Neuroanatomical Alterations in the CNTNAP2 Mouse Model of ASD", "journal": "Brain Sci", "full_text": true, "note": "open access, full text read"},
+    {"pmid": "36408388", "pmcid": "PMC9671112", "authors": "Beopoulos A et al.", "year": 2022, "title": "ASD pathogenesis: cortical overgrowth and neurodevelopment considerations", "journal": "Front Neurosci", "full_text": true, "note": "open access, full text read"},
+    {"pmid": "15219735", "authors": "Bear MF, Huber KM, Warren ST", "year": 2004, "title": "The mGluR theory of fragile X mental retardation", "journal": "Trends Neurosci", "full_text": false, "note": "paywall"},
+    {"pmid": "21090964", "pmcid": "PMC3100156", "authors": "Krueger DD, Bear MF", "year": 2011, "title": "Toward fulfilling the promise of molecular medicine in fragile X syndrome", "journal": "Annu Rev Med", "full_text": true, "note": "open access, full text read"}
+  ]
+}

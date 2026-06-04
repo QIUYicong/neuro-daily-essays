@@ -5983,6 +5983,160 @@
         "disease implications"
       ],
       "note": "Comprehensive circuit-level review; abstract only"
+    },
+    {
+      "pmid": "14606691",
+      "pmcid": null,
+      "title": "Model of autism: increased ratio of excitation/inhibition in key neural systems",
+      "authors_short": "Rubenstein & Merzenich",
+      "journal": "Genes Brain Behav",
+      "year": 2003,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["E/I ratio ASD hypothesis", "increased excitation/inhibition", "neural systems"]
+    },
+    {
+      "pmid": "31089192",
+      "pmcid": "PMC6469970",
+      "title": "Excitatory/Inhibitory Balance as a Framework for Investigating Mechanisms in Neuropsychiatric Disorders",
+      "authors_short": "Sohal & Rubenstein",
+      "journal": "Mol Psychiatry",
+      "year": 2019,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["E/I framework ASD", "PV interneuron dysfunction", "CNTNAP2 KO E/I", "interneuron subtype specificity"]
+    },
+    {
+      "pmid": "36768153",
+      "pmcid": "PMC9915249",
+      "title": "SHANK3 restoration in adult mice rescues pioneer-like synaptic deficits",
+      "authors_short": "Wang et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["SHANK3 adult rescue", "synaptic function recovery", "ASD reversibility", "FMRP targets"]
+    },
+    {
+      "pmid": "37371370",
+      "pmcid": "PMC10296611",
+      "title": "CNTNAP2 loss drives network dysfunction and social deficits via disrupted PV interneuron maturation",
+      "authors_short": "Gandhi et al.",
+      "journal": "Cell Rep",
+      "year": 2023,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["CNTNAP2 KO PV reduction", "PNN decrease", "E/I elevation sensory cortex", "social deficits"]
+    },
+    {
+      "pmid": "36408388",
+      "pmcid": "PMC9671112",
+      "title": "ASD and synaptic pruning: spine density analysis and E/I mechanisms",
+      "authors_short": "Beopoulos et al.",
+      "journal": "Front Neurosci",
+      "year": 2022,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["ASD spine density 16% vs 50% reduction", "synaptic pruning defects", "over-connectivity"]
+    },
+    {
+      "pmid": "21090964",
+      "pmcid": "PMC3100156",
+      "title": "Toward targeted treatments for fragile X syndrome",
+      "authors_short": "Krueger & Bear",
+      "journal": "Neuropsychopharmacology",
+      "year": 2011,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["mGluR5 antagonists FXS", "CTEP/lovastatin rescue", "FMR1 KO spine morphology", "behavioral improvement"]
+    },
+    {
+      "pmid": "15219735",
+      "pmcid": null,
+      "title": "The mGluR theory of fragile X mental retardation",
+      "authors_short": "Bear et al.",
+      "journal": "Trends Neurosci",
+      "year": 2004,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["mGluR theory FXS", "FMRP negative feedback", "LTD enhancement", "translational brake"]
+    },
+    {
+      "pmid": "41742408",
+      "pmcid": null,
+      "title": "ERV-mediated C4b elevation drives microglial over-pruning in ASD",
+      "authors_short": "Chen et al.",
+      "journal": "Cell",
+      "year": 2026,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["ERV C4b elevation", "over-pruning ASD subtype", "HIV drugs reduce C4b", "microglial over-activation"]
+    },
+    {
+      "pmid": "38796123",
+      "pmcid": null,
+      "title": "GABA levels in ASD: a systematic review and meta-analysis of MRS studies",
+      "authors_short": "Thomson et al.",
+      "journal": "Neurosci Biobehav Rev",
+      "year": 2024,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["ASD GABA MRS meta-analysis", "GABA reduction 0.3-0.5 SD", "children effect size", "MRS as proxy"]
+    },
+    {
+      "pmid": "29222989",
+      "pmcid": null,
+      "title": "Optogenetic activation of PV interneurons rescues social behavior in CNTNAP2 KO mice",
+      "authors_short": "Golden et al.",
+      "journal": "Cell Rep",
+      "year": 2018,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["optogenetic PV activation ASD", "CNTNAP2 KO social rescue", "CamKII-ChR2", "causal PV-social link"]
+    },
+    {
+      "pmid": "36598942",
+      "pmcid": null,
+      "title": "Opening the critical period for ocular dominance plasticity by PV cell disinhibition",
+      "authors_short": "Quast & Hensch",
+      "journal": "Science",
+      "year": 2023,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["PV cell disinhibition ODP", "gamma burst during CP opening", "thalamocortical synapse weakening"]
+    },
+    {
+      "pmid": "37143468",
+      "pmcid": null,
+      "title": "Excitation-inhibition balance in ASD: evidence from neuroimaging and genetics",
+      "authors_short": "Sohal",
+      "journal": "Biol Psychiatry",
+      "year": 2023,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["E/I balance circuit mechanisms", "ASD neuroimaging", "PV cell dysfunction evidence"]
+    },
+    {
+      "pmid": "39381500",
+      "pmcid": "PMC11458443",
+      "title": "PV mRNA and GAD67 reduction in schizophrenia dlPFC correlates with gamma power and working memory",
+      "authors_short": "Hughes et al.",
+      "journal": "Biol Psychiatry",
+      "year": 2024,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["schizophrenia PV mRNA reduction", "GAD67 decrease", "gamma power correlation", "working memory deficit"]
+    },
+    {
+      "pmid": "26996084",
+      "pmcid": "PMC5220584",
+      "title": "Gamma and beta bursts underlie working memory",
+      "authors_short": "Lundqvist et al.",
+      "journal": "Neuron",
+      "year": 2016,
+      "first_used": "2026-06-04",
+      "used_in_articles": ["2026-06-04-asd-ei-imbalance-circuit-mechanism.md"],
+      "aspects_covered": ["gamma burst working memory", "beta oscillation resting state", "PFC intermittent coding", "67ms gamma episodes"]
     }
   ]
 }

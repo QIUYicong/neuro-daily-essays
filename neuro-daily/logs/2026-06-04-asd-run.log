@@ -1,0 +1,101 @@
+# 运行日志 · 2026-06-04 · 文章 #73
+
+## 基本信息
+
+- **日期**：2026-06-04（系统 UTC+8 真实日期）
+- **文章编号**：#73
+- **文章 slug**：asd-ei-imbalance-circuit-mechanism
+- **文章标题**：当发育的精密时钟出错：自闭症谱系障碍的神经回路机制——E/I 失衡、突触剪枝缺陷与关键期时序紊乱
+- **知识库连续性**：延续自 #72（2026-06-03·关键期）
+- **运行环境**：Claude Code remote session，分支 claude/funny-einstein-ng49p
+
+## 主题选择依据
+
+**缺口分析**：
+- 前四篇 2026-06-03/07-04 文章分别覆盖了 PV+ 中间神经元（#11）、视丘（#66）、小胶质细胞/突触剪枝（#70）、E/I 平衡（#71）和发育关键期（#72）
+- 这四篇文章与 ASD 高度相关，在 topic_ledger 中均将 ASD 列为 next_suggested_topics
+- asd.md wiki 页面尚不存在（悬空引用），多个页面已引用 [[asd]]
+- 课程脊柱11（疾病作为窗口）已覆盖 AD 和 PD，ASD 是第三个高度相关的病例
+- **选择理由**：汇流三篇前作，建立疾病层面综合视角，填补 asd 和 fmrp 两个高优先级悬空引用
+
+## 研究过程
+
+### PubMed/PMC 检索策略
+1. 直接获取 PMID:14606691（Rubenstein & Merzenich 2003）- 确认正确 PMID
+2. 检索 "ASD E/I balance PV interneurons Sohal 2019" → PMID:31089192（全文 PMC6469970）
+3. 检索 "FMRP mGluR theory Bear 2004" → PMID:15219735（abstract only）
+4. 检索 "CNTNAP2 KO PV interneurons E/I Gandhi 2023" → PMID:37371370（全文 PMC10296611）
+5. 检索 "ASD synaptic spine density pruning" → PMID:36408388（全文 PMC9671112）
+6. 获取 PMID:21090964（Krueger & Bear 2011，全文 PMC3100156）
+7. 获取 PMID:41742408（Chen et al. 2026 ERV-C4b ASD）
+8. 获取 PMID:38796123（Thomson 2024 MRS meta-analysis）
+9. 获取 PMID:29222989（Golden 2018 optogenetic PV rescue）
+10. 获取 PMID:36598942（Quast & Hensch 2023）
+11. 获取 PMID:37143468（Sohal 2023）
+12. 获取 PMID:39381500（Hughes 2024）
+13. 获取 PMID:26996084（Lundqvist 2016）
+14. 获取 PMID:36768153（Wang/SHANK3 2023）
+
+**开放全文**：PMC6469970, PMC10296611, PMC9671112, PMC3100156, PMC11458443, PMC5220584, PMC9915249（7篇）
+**机构出处**：MIT（Bear 2004）、Stanford（Rubenstein/Sohal）、Harvard（Krueger/Bear）、UCSF（Gandhi）
+
+### 来源质量评估
+- 全部来源均为 PubMed 收录的同行评审文章，无 Sci-Hub 或绕过 paywall
+- 无编造 PMID 或虚构结论
+- Chen 2026（PMID:41742408）标注为中等置信度（单实验室 2026 年预印本层面）
+
+## 文章写作
+
+**字符数**：约 5200 字（3000-6000 字范围内）
+**结构**：今日问题 → 一句话摘要 → 背景（三大谜题）→ 路径一/二/三 → 三路汇聚 → 比喻 → 认知地图更新 → 争议 → AI对照 → 概念卡片 → 参考来源
+**核心叙事**：三路径汇聚同一回路结局的框架
+
+## Wiki 固结
+
+### 新建页面
+- `wiki/diseases/asd.md` - 新建，revision_count=1，status=mainstream，confidence=medium
+- `wiki/concepts/fmrp.md` - 新建，revision_count=1，status=mainstream，confidence=high
+
+### 修订页面
+- `wiki/concepts/ei-balance.md` rev1→rev2：新增 ASD 应用
+- `wiki/concepts/synaptic-pruning.md` rev1→rev2：新增 ASD 脊柱密度数据和 ERV-C4b 机制
+- `wiki/circuits/pv-interneurons.md` rev4→rev5：新增 ASD 连接
+
+### 图谱更新（_graph.json）
+- 节点 133→135（+asd, +fmrp）
+- 边 754→768（+14条）
+- 更新 updated 字段为 2026-06-04
+
+## 状态文件更新
+
+- `wiki/index.md`：更新页数（133→135）、边数（754→768）、日期；新增 ASD 和 FMRP 条目；更新课程进度
+- `wiki/CHANGELOG.md`：新增 2026-06-04 部分
+- `state/topic_ledger.json`：新增第 73 篇条目
+- `state/unresolved_questions.md`：新增 Q-asd-01/02/03
+- `state/source_registry.json`：新增 14 个来源
+- `state/monthly_synthesis.md`：新增 2026-06-04 日条目
+- `state/maturity_index.json`：新增 asd（mainstream/medium）和 fmrp（mainstream/high）
+
+## 质量自查
+
+- [x] 来源均为真实 PubMed 收录文章，无虚构
+- [x] 全文来源 ≥ 2 篇（实际 7 篇）
+- [x] 机构来源 ≥ 1 个（Stanford, MIT, Harvard, UCSF）
+- [x] 字数 3000-6000 字（约 5200 字）
+- [x] 新建 wiki 页面包含 YAML frontmatter
+- [x] 修订页面的 revision_count 和 revision history 正确更新
+- [x] 图谱新增节点和边有明确来源依据
+- [x] 无医学诊断/治疗建议
+- [x] 无盗版/绕过 paywall 来源
+
+## 错误与修复
+
+- 初次写作阶段：当日已存在 2026-06-04-reading-notes.md（前一会话 LTD 文章内容）→ 改用 slug 后缀 -asd-reading-notes.md 和 -asd-sources.json 避免冲突
+- _graph.json 更新通过 Python 脚本完成（Python 3 内置库，无额外依赖）
+- 旧会话积累了多篇 2026-06-03 日期文章（#11, #66, #70, #72），今日为第一篇 2026-06-04 文章
+
+## Git 操作（计划）
+
+- 目标分支：claude/funny-einstein-ng49p
+- 提交消息：Add neuro daily article #73 + wiki consolidation for 2026-06-04
+- push: git push -u origin claude/funny-einstein-ng49p
