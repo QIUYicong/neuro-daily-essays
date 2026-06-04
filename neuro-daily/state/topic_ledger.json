@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-05",
-  "total_articles": 73,
+  "last_updated": "2026-07-06",
+  "total_articles": 74,
   "entries": [
     {
       "date": "2026-07-03",
@@ -4100,7 +4100,7 @@
       ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
-      "core_question": "印迹细胞的形成不是随机过程：具有更高内在兴奋性（由 CREB 活性、表观遗传状态调控）的神经元在竞争中优先被选入记忆印迹。这种竞争性分配机制（Han 2007/2009）如何决定"哪些神经元成为某段记忆的物理载体"？以及如何解释时间接近（~6小时内）的记忆在海马共享神经元、从而实现跨记忆联结（Cai 2016，Jung 2023）？",
+      "core_question": "印迹细胞的形成不是随机过程：具有更高内在兴奋性（由 CREB 活性、表观遗传状态调控）的神经元在竞争中优先被选入记忆印迹。这种竞争性分配机制（Han 2007/2009）如何决定\"哪些神经元成为某段记忆的物理载体\"？以及如何解释时间接近（~6小时内）的记忆在海马共享神经元、从而实现跨记忆联结（Cai 2016，Jung 2023）？",
       "layer": [
         "molecular",
         "cellular",
@@ -4167,6 +4167,94 @@
       "mode": "long_term_curriculum",
       "article_number": 73,
       "note": "系统时钟 UTC+8=2026-06-04（真实日期）；知识库虚拟日期 2026-07-05；延续自#72（2026-06-03·发育关键期）；本篇将印迹研究从'印迹存在性证明'深化为'印迹形成竞争机制'；建立 memory-allocation 和 memory-linking 两个新 wiki 页；更新 engram-cells rev4→rev5；新建 2 个 wiki 页，修订 1 个页面；图谱 135 节点，770 条边"
+    },
+    {
+      "date": "2026-07-06",
+      "title": "大脑的夜间清洗工程：胶质淋巴系统如何在睡眠中清除阿尔茨海默病的始动毒素",
+      "filename": "2026-07-06-glymphatic-system-sleep-clearance.md",
+      "wiki_pages_created": [
+        "wiki/systems/glymphatic-system.md",
+        "wiki/concepts/aqp4.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/astrocyte.md",
+        "wiki/diseases/alzheimers-disease.md",
+        "wiki/concepts/cortical-slow-oscillation.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "胶质淋巴系统如何在深度 NREM 睡眠中通过蓝斑核去甲肾上腺素振荡驱动的血管节律性收缩，将脑脊液泵入脑实质、借助星形胶质细胞 AQP4 水通道完成 CSF-ISF 对流交换，把积累一整天的代谢废物（包括 Aβ、tau）冲入颈部淋巴结排出体外——以及这套机制在衰老和睡眠剥夺中如何瓦解，与阿尔茨海默病的恶性循环如何相互驱动？",
+      "layer": [
+        "systems",
+        "whole-brain-network",
+        "disease",
+        "molecular"
+      ],
+      "curriculum_track": "课程脊柱 11（疾病作为窗口，AD）+ 脊柱 4（学习和记忆，睡眠巩固）交叉；引入胶质淋巴系统作为睡眠功能的第三维度（之前已覆盖记忆巩固和突触稳态重置）；完成 astrocyte.md 的胶质淋巴功能盲区",
+      "topic_tags": [
+        "glymphatic system",
+        "AQP4",
+        "aquaporin-4",
+        "astrocyte endfeet",
+        "perivascular space",
+        "Virchow-Robin space",
+        "CSF-ISF exchange",
+        "bulk flow",
+        "Nedergaard",
+        "Iliff 2012",
+        "Xie 2013",
+        "sleep drives metabolite clearance",
+        "amyloid beta clearance",
+        "tau clearance",
+        "ISF Aβ diurnal rhythm",
+        "Kang 2009",
+        "Holth 2019",
+        "sleep deprivation tau",
+        "locus coeruleus NE oscillation",
+        "norepinephrine vasomotion",
+        "vasomotion pump",
+        "NREM deep sleep",
+        "slow wave sleep",
+        "AQP4 depolarization",
+        "aging glymphatic decline",
+        "arterial pulsatility",
+        "SNTA1",
+        "M23 AQP4",
+        "zolpidem NE oscillation suppression",
+        "Dagum 2026",
+        "human glymphatic clearance RCT",
+        "brain parenchymal resistance",
+        "Kress 2014",
+        "alzheimers disease clearance",
+        "locus coeruleus tau early",
+        "Braak stage zero",
+        "meningeal lymphatics"
+      ],
+      "main_sources": [
+        "PMID:22896675 (PMCID:PMC3551275, open full text, Iliff 2012 glymphatic discovery)",
+        "PMID:24136970 (abstract only, Science 2013, Xie sleep drives clearance)",
+        "PMID:19779148 (PMCID:PMC2789838, open full text, Kang 2009 ISF Aβ diurnal rhythm)",
+        "PMID:30679382 (PMCID:PMC6410369, open full text, Holth 2019 sleep-tau)",
+        "PMID:25204284 (abstract only, Kress 2014 aging glymphatic)",
+        "PMID:39788123 (PMCID:PMC12340670, open full text, Nedergaard 2025 NE vasomotion)",
+        "PMID:41593094 (PMCID:PMC12847902, open full text, Dagum 2026 human RCT)"
+      ],
+      "unresolved_questions": [
+        "Q-glyph-01",
+        "Q-glyph-02",
+        "Q-glyph-03",
+        "Q-glyph-04"
+      ],
+      "next_suggested_topics": [
+        "脑膜淋巴管（meningeal lymphatics）：胶质淋巴系统的出口；与年龄相关的退化；Louveau 2015 发现 dural lymphatics；与 AD 的关系；与脑脊液循环路线图的完善",
+        "蓝斑核（Locus Coeruleus, LC）深度专文：LC 是 AD 最早受损区域（Braak 零期）；NE 在认知控制和胶质淋巴中的双重角色；LC 退化与 AD 发病的时序关系",
+        "非苯二氮䓬类安眠药的神经保护vs伤害辩证：食欲肽拮抗剂（lemborexant/suvorexant）对比 Z-drugs 的胶质淋巴影响；睡眠干预作为 AD 预防路径的临床证据",
+        "alpha-突触核蛋白与帕金森病睡眠依赖：REM 睡眠行为障碍（RBD）作为 PD 的前驱症状；alpha-synuclein 的胶质淋巴清除假说；PD 与胶质淋巴功能的关系",
+        "睡眠的三大功能综合：记忆巩固（SO-spindle-SWR 三重奏）+ 突触稳态重置（SHY 假说）+ 代谢废物清洗（胶质淋巴）——三者如何共享 NREM 时间窗口但依赖不同机制？"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 74,
+      "note": "系统时钟UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期2026-07-06；继承自2026-07-05（第73篇，记忆的竞争法庭）；本篇引入胶质淋巴系统新维度，补充了 astrocyte.md 的胶质淋巴盲区，并将 alzheimers-disease.md 的上游清除失效机制完整化；层级切换：从最近三篇 synaptic/molecular/cellular 切换到 systems/whole-brain-network/disease；修复了 topic_ledger.json 的 JSON 解析错误（第4103行）"
     }
   ],
   "layer_coverage_recent": {

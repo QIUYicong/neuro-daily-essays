@@ -1,0 +1,99 @@
+# 2026-07-06 运行日志
+
+## 基本信息
+- **文章编号**：#74
+- **虚拟日期**：2026-07-06（系统时钟 UTC+8 = 2026-06-04）
+- **真实执行日期**：2026-06-04
+- **选题来源**：长期课程模式（long_term_curriculum）
+
+## 选题决策
+
+**选题理由**：
+- 最近 3 篇（#73/#71/#69）均在 synaptic/molecular/cellular 层级，需切换以避免连续三天同一层级
+- 胶质淋巴系统（glymphatic system）在 state/unresolved_questions.md 和多次 next_suggested_topics 中未出现，但是知识库中 alzheimers-disease.md 和 astrocyte.md 两个页面的重要"悬空连接"
+- 层级切换至：systems / whole-brain-network / disease / molecular（明显不同于近期）
+- 胶质淋巴系统是近几年（2012-2026）快速发展的领域，有多篇高质量 PMC 开放全文可用
+
+**主题**：胶质淋巴系统与睡眠废物清洗
+
+**核心问题**：蓝斑核 NE 振荡驱动的血管搏动 + AQP4 水通道如何在 NREM 深度睡眠中清除 Aβ/tau，衰老如何破坏这套系统，以及与 AD 恶性循环的关系
+
+## 检索过程
+
+**搜索关键词**：
+- "glymphatic system sleep brain clearance AQP4 astrocyte Nedergaard"
+- "glymphatic system Alzheimer amyloid tau sleep clearance mechanism review open access"
+- "Xie Nedergaard 2013 Science sleep drives metabolite clearance"
+- "Holth 2019 Science sleep deprivation tau interstitial fluid"
+- "norepinephrine locus coeruleus glymphatic flow vasomotion"
+
+**数据源使用**：PubMed, PMC, WebSearch, WebFetch (Europe PMC / Frontiers open access)
+
+**候选来源数**：12+
+
+## 来源采用情况
+
+| 采用来源 | PMID/标识 | 采用理由 |
+|----------|-----------|---------|
+| Iliff et al. 2012, Sci Transl Med | PMID:22896675, PMC3551275 | 胶质淋巴系统奠基发现；AQP4 KO 因果证据；开放全文 |
+| Xie et al. 2013, Science | PMID:24136970 | 睡眠-胶质淋巴连接奠基；摘要 |
+| Kang et al. 2009, Science | PMID:19779148, PMC2789838 | ISF Aβ 昼夜节律；睡眠剥夺效应；开放全文 |
+| Holth et al. 2019, Science | PMID:30679382, PMC6410369 | tau 睡眠依赖性；人类 CSF tau +50%；开放全文 |
+| Kress et al. 2014, Ann Neurol | PMID:25204284 | 衰老与 AQP4 去极化；40% 清除效率下降；摘要 |
+| Nedergaard team 2025, Cell | PMID:39788123, PMC12340670 | NE 振荡泵机制；最新突破；开放全文 |
+| Dagum et al. 2026, Nat Commun | PMID:41593094, PMC12847902 | 人类直接证据；随机交叉试验；开放全文 |
+| Frontiers review 2023 | DOI:10.3389/fnmol.2023.1138769 | 综合综述；AQP4极化；开放全文 |
+
+**排除来源**：
+- Sci-Hub 或盗版链接（无，未尝试）
+- Wiley paywall文章（403 返回，未使用）
+
+**开放全文数**：5/8
+
+## 固结步骤
+
+**新建 wiki 页面（2 页）**：
+- `wiki/systems/glymphatic-system.md`：新建，status=mainstream，confidence=medium
+- `wiki/concepts/aqp4.md`：新建，status=established，confidence=high
+
+**修订 wiki 页面（3 页）**：
+- `wiki/systems/astrocyte.md`：rev2→rev3（新增胶质淋巴功能第六点，related/dimensions/key_sources更新）
+- `wiki/diseases/alzheimers-disease.md`：rev5→rev6（新增胶质淋巴清除失效机制节，related/key_sources更新）
+- `wiki/concepts/cortical-slow-oscillation.md`：rev1→rev2（新增NREM双重功能连接，related/key_sources更新）
+
+**矛盾检查**：
+- 对流 vs 扩散增强争议：两派均同意睡眠增强清洗这一核心事实，差异在于流体力学机制细节，不构成需登记的 contested_claim（在文章中已明确说明争议，在 glymphatic-system.md 中标注为 status=mainstream 反映这一不确定性）
+
+**成熟度评估**：
+- `glymphatic-system`：起始为 mainstream/medium（核心事实多实验室验证，但对流机制仍有争议）
+- `aqp4`：established/high（AQP4 功能本身有非常强的基因敲除直接证据）
+
+## 图谱更新
+
+**新增节点**：glymphatic-system, aqp4（共 2 个）
+**新增边**：10 条
+**图谱更新后**：134 节点，754 边
+
+## 治理层更新
+
+- `state/topic_ledger.json`：需更新（因 JSON 格式问题，通过 state 文件直接追加）
+- `state/unresolved_questions.md`：新增 Q-glyph-01 到 Q-glyph-04
+- `state/monthly_synthesis.md`：追加 #74 条目和月度第六篇更新
+- `wiki/CHANGELOG.md`：追加 2026-07-06 节
+- `wiki/index.md`：追加 2 个新页面条目，更新总数至 137
+
+## 质量自检
+
+- [x] 每条 wiki 新主张有来源（PMID/DOI）？是
+- [x] 区分了事实/主流模型/推测/争议？是（对流 vs 扩散争议已明确说明；安眠药效应标注仅小鼠数据）
+- [x] 没有把单篇/动物研究写成定论？是（人类数据标注为 n=39 且间接测量）
+- [x] 冲突走了矛盾协议？无全面冲突，争议在文章中如实并列
+- [x] 被修订页的 updated/revision_count/修订历史同步了？是
+- [x] index.md 与 CHANGELOG 反映今天变化？是
+- [x] 新页的 related/prerequisites 各≥1？是
+- [x] 文章/笔记/来源/日志齐全且 append-only？是（未修改旧文章）
+
+## Push 状态
+- 分支：main
+- commit message：Add neuro daily article + wiki consolidation for 2026-07-06
+- push 状态：[待执行]

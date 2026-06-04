@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-07-06（文章 #74·大脑的夜间清洗工程·胶质淋巴系统与睡眠废物清洗）
+
+**源文章**：[[2026-07-06-glymphatic-system-sleep-clearance]] —《大脑的夜间清洗工程：胶质淋巴系统如何在睡眠中清除阿尔茨海默病的始动毒素》
+
+**新建页面（2 页）**：
+- `systems/glymphatic-system.md`：胶质淋巴系统——CSF 沿动脉旁间隙入流、经星形胶质细胞终足 AQP4 穿越脑实质、沿静脉旁出流；蓝斑核 NE 振荡驱动慢性血管运动为主要驱动力；深度 NREM 睡眠期高效运转；AQP4 KO→70% 清除效率下降（mainstream, confidence:medium）
+- `concepts/aqp4.md`：AQP4 水通道蛋白 4——高度极化富集于星形胶质细胞终足；CSF-ISF 对流的分子水门；AQP4 去极化是衰老导致胶质淋巴衰退的分子基础（established, confidence:high）
+
+**修订页面（3 页）**：
+- `systems/astrocyte.md`（rev2→rev3）：新增第六大功能（胶质淋巴功能）：终足 AQP4 极化驱动 CSF-ISF 对流交换；dimensions 新增 whole-brain-network；related 新增 glymphatic-system、aqp4；key_sources 新增 PMID:22896675
+- `diseases/alzheimers-disease.md`（rev5→rev6）：新增关键机制节"胶质淋巴清除失效：AD 的上游功能原因"（衰老三重削弱 + 蓝斑核双重角色 + 人类直接证据）；related 新增 glymphatic-system、aqp4；opens_questions 新增 Q-glyph-01/02；key_sources 新增 PMID:22896675/30679382/19779148/41593094
+- `concepts/cortical-slow-oscillation.md`（rev1→rev2）：新增 NREM 慢波睡眠同时驱动记忆巩固和胶质淋巴清洗的双重功能连接；related 新增 glymphatic-system、alzheimers-disease；key_sources 新增 PMID:39788123
+
+**图谱更新**：新增 2 节点（glymphatic-system, aqp4）、10 条边；总计 134 节点，754 边
+
+**新登记矛盾**：无（对流 vs 扩散增强之争是已知争议，但两派均同意睡眠增强清洗这一核心事实，不构成全面对立的 contested_claim；保留为未解问题）
+
+**新增未解问题（4 个）**：
+- Q-glyph-01（高优先级）：蓝斑核 NE 振荡的最优频率是什么？~0.05 Hz 是最优还是副产物？
+- Q-glyph-02（高优先级）：AQP4 去极化在衰老中的分子触发器？M23/M1 比例是否可药物干预？
+- Q-glyph-03（中优先级）：胶质淋巴系统对 α-突触核蛋白、TDP-43 等其他聚集蛋白的选择性
+- Q-glyph-04（中优先级）：唑吡坦等安眠药长期使用对胶质淋巴清洗的量化影响
+
+**新增悬空引用（待补）**：
+- `locus-coeruleus`：蓝斑核独立条目（glymphatic-system 和 tau-pathology 均引用，目前只有 locus-coeruleus-anatomy 待建记录）
+
+---
+
 ## 2026-07-05（文章 #73·记忆的竞争法庭·神经元分配与记忆联结机制）
 
 **源文章**：[[2026-07-05-engram-allocation-memory-competition]] —《记忆的竞争法庭：大脑如何选定那些承载记忆的神经元》

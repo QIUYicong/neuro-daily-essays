@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-07-02
-updated: 2026-07-03
-revision_count: 2
-dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [tripartite-synapse, gliotransmitter, d-serine, astrocyte-calcium-signaling, glutamate-glutamine-cycle, ltp, ltd, nmda-receptor, synaptic-transmission, alzheimers-disease, synaptic-scaling, homeostatic-plasticity]
+updated: 2026-07-06
+revision_count: 3
+dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, whole-brain-network, cognition, disease]
+related: [tripartite-synapse, gliotransmitter, d-serine, astrocyte-calcium-signaling, glutamate-glutamine-cycle, ltp, ltd, nmda-receptor, synaptic-transmission, alzheimers-disease, synaptic-scaling, homeostatic-plasticity, glymphatic-system, aqp4]
 prerequisites: [synaptic-transmission, nmda-receptor, ltp]
 opens_questions: [Q-astro-01, Q-astro-02, Q-astro-03]
-source_articles: [2026-07-02-astrocyte-tripartite-synapse]
-key_sources: ["PMID:10322493", "PMID:16025096", "PMID:20075918", "PMID:34334233", "PMID:30929313"]
+source_articles: [2026-07-02-astrocyte-tripartite-synapse, 2026-07-06-glymphatic-system-sleep-clearance]
+key_sources: ["PMID:10322493", "PMID:16025096", "PMID:20075918", "PMID:34334233", "PMID:30929313", "PMID:22896675"]
 ---
 
 # 星形胶质细胞 (Astrocyte)
@@ -35,6 +35,8 @@ key_sources: ["PMID:10322493", "PMID:16025096", "PMID:20075918", "PMID:34334233"
 5. **LTD 参与**：星形胶质细胞通过多条路径（D-丝氨酸、ATP/腺苷、胶质谷氨酸）参与不同脑区的 LTD，且在内源性大麻素介导的 LTD 中是必要中间节点（Durkee et al. 2021）。
 
 **人类特异性**：人类星形胶质细胞比小鼠大 2.7 倍，每个细胞覆盖约 200 万个突触（小鼠约 10 万个），且拥有灵长类特有亚型（如 interlaminar astrocyte）。这种形态差异的功能意义尚不完全清楚（Q-astro-03）。
+
+6. **胶质淋巴功能**（新增，2026-07-06）：星形胶质细胞终足（endfeet）包裹约 99% 的脑血管外表面，终足膜上高度极化聚集 AQP4 水通道蛋白（密度约为其他胶质细胞膜区域的 10 倍）。这使终足成为脑脊液（CSF）→ 脑实质对流交换的物理界面——CSF 沿动脉旁间隙入流后，必须经过终足 AQP4 进入脑实质，冲洗 Aβ、tau 等废物，再从静脉旁排出。AQP4 基因敲除小鼠的废物清除效率降低约 70%（Iliff et al. 2012, PMID:22896675），证明星形胶质细胞终足是胶质淋巴系统不可或缺的结构基础。
 
 ## 关键机制
 
@@ -83,6 +85,8 @@ Ca²⁺ 升高 → 触发含 D-丝氨酸的囊泡（可能）胞吐或转运体�
 - [[synaptic-transmission]] — 参与突触信号的清除、调制和维持
 - [[alzheimers-disease]] — 反应性星形胶质增生和 D-丝氨酸代谢受损可能加速 AD 突触功能损害
 - [[synaptic-scaling]] — 星形胶质细胞释放的 TNFα 是突触稳态缩放长程维持的许可因子（Stellwagen & Malenka 2006，PMID:16547515）；说明星形胶质细胞同时参与 LTP（D-丝氨酸）和稳态调节（TNFα），在两个时间尺度上调控突触功能
+- [[glymphatic-system]] — 星形胶质细胞终足上极化的 AQP4 是胶质淋巴系统 CSF-ISF 对流的核心分子门控
+- [[aqp4]] — AQP4 是终足极化表达的水通道；其去极化是衰老导致胶质淋巴功能衰退的分子基础
 
 ## 未解问题
 
@@ -92,6 +96,7 @@ Ca²⁺ 升高 → 触发含 D-丝氨酸的囊泡（可能）胞吐或转运体�
 
 ## 修订历史
 
+- 2026-07-06 · 修订 · 基于《大脑的夜间清洗工程》(#74) · 新增第六大功能：胶质淋巴功能（终足 AQP4 极化是 CSF-ISF 对流的分子门控）；related 新增 glymphatic-system、aqp4；dimensions 新增 whole-brain-network；key_sources 新增 PMID:22896675
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling；揭示星形胶质细胞在突触稳态中的第二重角色（TNFα 许可因子，与 D-丝氨酸在 LTP 中的门控角色形成双时间尺度分工）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-07-02 · 创建 · 基于《大脑的第三方：星形胶质细胞如何改写突触的游戏规则》(#68) · 初始置信度：高
 

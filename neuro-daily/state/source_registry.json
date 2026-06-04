@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05",
+  "last_updated": "2026-07-06",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5602,6 +5602,132 @@
         "PV interneurons",
         "PNN",
         "critical period"
+      ]
+    },
+    {
+      "pmid": "22896675",
+      "pmcid": "PMC3551275",
+      "title": "A paravascular pathway facilitates CSF flow through the brain parenchyma and the clearance of interstitial solutes, including amyloid β",
+      "authors_short": "Iliff JJ et al.",
+      "journal": "Science Translational Medicine",
+      "year": 2012,
+      "first_used": "2026-07-06",
+      "used_in_articles": [
+        "2026-07-06-glymphatic-system-sleep-clearance.md"
+      ],
+      "aspects_covered": [
+        "glymphatic system discovery",
+        "AQP4 KO 70% clearance reduction",
+        "perivascular pathways",
+        "CSF-ISF exchange mechanism"
+      ]
+    },
+    {
+      "pmid": "24136970",
+      "pmcid": null,
+      "title": "Sleep drives metabolite clearance from the adult brain",
+      "authors_short": "Xie L et al. (Nedergaard lab)",
+      "journal": "Science",
+      "year": 2013,
+      "first_used": "2026-07-06",
+      "used_in_articles": [
+        "2026-07-06-glymphatic-system-sleep-clearance.md"
+      ],
+      "aspects_covered": [
+        "sleep glymphatic activation",
+        "60% interstitial space expansion during sleep",
+        "Aβ clearance during sleep vs wake",
+        "adrenergic inhibition mimics sleep"
+      ]
+    },
+    {
+      "pmid": "19779148",
+      "pmcid": "PMC2789838",
+      "title": "Amyloid-β dynamics are regulated by orexin and the sleep-wake cycle",
+      "authors_short": "Kang JE et al.",
+      "journal": "Science",
+      "year": 2009,
+      "first_used": "2026-07-06",
+      "used_in_articles": [
+        "2026-07-06-glymphatic-system-sleep-clearance.md"
+      ],
+      "aspects_covered": [
+        "ISF Aβ diurnal rhythm 24.4% higher during wake",
+        "sleep deprivation +16.8% ISF Aβ",
+        "orexin regulation of Aβ dynamics",
+        "chronic sleep restriction increases plaques"
+      ]
+    },
+    {
+      "pmid": "30679382",
+      "pmcid": "PMC6410369",
+      "title": "The sleep-wake cycle regulates brain interstitial fluid tau in mice and CSF tau in humans",
+      "authors_short": "Holth JK et al.",
+      "journal": "Science",
+      "year": 2019,
+      "first_used": "2026-07-06",
+      "used_in_articles": [
+        "2026-07-06-glymphatic-system-sleep-clearance.md"
+      ],
+      "aspects_covered": [
+        "ISF tau ~90% higher during wake vs sleep",
+        "human CSF tau +50% after sleep deprivation",
+        "sleep deprivation increases tau spreading to locus coeruleus",
+        "neuronal activity drives tau release"
+      ]
+    },
+    {
+      "pmid": "25204284",
+      "pmcid": null,
+      "title": "Impairment of paravascular clearance pathways in the aging brain",
+      "authors_short": "Kress BT et al.",
+      "journal": "Annals of Neurology",
+      "year": 2014,
+      "first_used": "2026-07-06",
+      "used_in_articles": [
+        "2026-07-06-glymphatic-system-sleep-clearance.md"
+      ],
+      "aspects_covered": [
+        "aging 40% Aβ clearance impairment",
+        "AQP4 depolarization in hippocampus and striatum",
+        "27% arterial pulsatility reduction in aged mice"
+      ]
+    },
+    {
+      "pmid": "39788123",
+      "pmcid": "PMC12340670",
+      "title": "Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep",
+      "authors_short": "Nedergaard lab",
+      "journal": "Cell",
+      "year": 2025,
+      "first_used": "2026-07-06",
+      "used_in_articles": [
+        "2026-07-06-glymphatic-system-sleep-clearance.md"
+      ],
+      "aspects_covered": [
+        "LC NE ~0.05 Hz oscillation drives vasomotion",
+        "vasomotion as CSF pump",
+        "optogenetic causality",
+        "zolpidem suppresses NE oscillations and glymphatic clearance",
+        "NREM micro-arousal frequency predicts clearance"
+      ]
+    },
+    {
+      "pmid": "41593094",
+      "pmcid": "PMC12847902",
+      "title": "The glymphatic system clears amyloid beta and tau from brain to plasma in humans",
+      "authors_short": "Dagum P et al.",
+      "journal": "Nature Communications",
+      "year": 2026,
+      "first_used": "2026-07-06",
+      "used_in_articles": [
+        "2026-07-06-glymphatic-system-sleep-clearance.md"
+      ],
+      "aspects_covered": [
+        "human RCT n=39",
+        "normal sleep increases plasma Aβ/tau biomarkers vs sleep deprivation",
+        "NREM sleep duration predicts glymphatic clearance",
+        "brain parenchymal resistance (RP) key biomechanical parameter"
       ]
     }
   ],

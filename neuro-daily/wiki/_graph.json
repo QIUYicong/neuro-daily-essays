@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-05",
-  "node_count": 132,
-  "edge_count": 744,
+  "updated": "2026-07-06",
+  "node_count": 134,
+  "edge_count": 754,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1228,6 +1228,24 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/memory-linking.md"
+    },
+    {
+      "id": "glymphatic-system",
+      "title": "胶质淋巴系统",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/systems/glymphatic-system.md"
+    },
+    {
+      "id": "aqp4",
+      "title": "AQP4（水通道蛋白4）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/aqp4.md"
     }
   ],
   "edges": [
@@ -5445,6 +5463,60 @@
       "from": "engram-cells",
       "to": "memory-linking",
       "type": "related"
+    },
+    {
+      "from": "glymphatic-system",
+      "to": "astrocyte",
+      "type": "part-of",
+      "note": "星形胶质细胞终足是胶质淋巴系统的结构基础"
+    },
+    {
+      "from": "aqp4",
+      "to": "glymphatic-system",
+      "type": "mechanism-of",
+      "note": "AQP4 是 CSF-ISF 对流交换的核心分子门控"
+    },
+    {
+      "from": "astrocyte",
+      "to": "glymphatic-system",
+      "type": "supports",
+      "note": "星形胶质细胞终足极化的 AQP4 驱动胶质淋巴清洗"
+    },
+    {
+      "from": "cortical-slow-oscillation",
+      "to": "glymphatic-system",
+      "type": "supports",
+      "note": "NREM 慢波睡眠同时为胶质淋巴清洗提供时间窗口"
+    },
+    {
+      "from": "glymphatic-system",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "胶质淋巴清除失效是 Aβ/tau 积累的上游功能原因"
+    },
+    {
+      "from": "glymphatic-system",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "NREM 睡眠同时驱动记忆巩固和代谢废物清洗"
+    },
+    {
+      "from": "neuromodulator-systems",
+      "to": "glymphatic-system",
+      "type": "regulates",
+      "note": "蓝斑核 NE 振荡是驱动胶质淋巴 CSF 泵的主控模块"
+    },
+    {
+      "from": "tau-pathology",
+      "to": "glymphatic-system",
+      "type": "related",
+      "note": "tau 在睡眠中清除；睡眠剥夺促进 tau 传播并损害 LC-NE 泵"
+    },
+    {
+      "from": "glymphatic-system",
+      "to": "tau-pathology",
+      "type": "related",
+      "note": "胶质淋巴清除障碍是 tau 积累和传播的功能原因"
     }
   ],
   "dangling_references": [

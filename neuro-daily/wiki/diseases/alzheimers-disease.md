@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-06-08
-updated: 2026-06-03
-revision_count: 5
+updated: 2026-07-06
+revision_count: 6
 dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis, tau-pathology, microglia, complement-cascade-cns, synaptic-pruning]
+related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis, tau-pathology, microglia, complement-cascade-cns, synaptic-pruning, glymphatic-system, aqp4]
 prerequisites: [ltp, nmda-receptor, hippocampal-circuit, memory-consolidation]
-opens_questions: [Q-ad-vulnerable-synapses, Q-ad-tau-cascade, Q-ad-intervention-window, Q-nmda-alzheimer]
-source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-03-microglia-synaptic-pruning]
-key_sources: ["PMID:1789684", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:22762015", "PMID:20581818", "PMID:26871627", "PMID:41929946", "PMID:30190379", "PMID:1759558", "PMID:26691836", "PMID:22365544", "PMID:27033548"]
+opens_questions: [Q-ad-vulnerable-synapses, Q-ad-tau-cascade, Q-ad-intervention-window, Q-nmda-alzheimer, Q-glyph-01, Q-glyph-02]
+source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-03-microglia-synaptic-pruning, 2026-07-06-glymphatic-system-sleep-clearance]
+key_sources: ["PMID:1789684", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:22762015", "PMID:20581818", "PMID:26871627", "PMID:41929946", "PMID:30190379", "PMID:1759558", "PMID:26691836", "PMID:22365544", "PMID:27033548", "PMID:22896675", "PMID:30679382", "PMID:19779148", "PMID:41593094"]
 ---
 
 # 阿尔茨海默病 (Alzheimer's Disease, AD)
@@ -56,6 +56,20 @@ Aβ由APP（淀粉样前体蛋白）通过β-分泌酶（BACE1）和γ-分泌酶
 
 聚合谱：单体 → 寡聚体（2-12聚体，高毒性）→ 原纤维 → 淀粉样纤维 → 老年斑（不溶性聚合体，低直接毒性）
 
+### 胶质淋巴清除失效：AD 的上游功能原因（新增 2026-07-06）
+
+AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ 和 tau 清除的主要功能通路之一。衰老导致以下三重胶质淋巴衰退，使 Aβ/tau 积累从第一天起就偏向积累：
+
+1. **深度 NREM 睡眠减少**：慢波睡眠随年龄减少至 25 岁时的 30–40%，蓝斑核 NE 振荡驱动的清洗窗口相应缩短
+2. **AQP4 去极化**：AQP4 从星形胶质细胞终足漂移，CSF-ISF 交换效率下降，老年小鼠 Aβ 清除降低约 40%（PMID:25204284）
+3. **动脉弹性下降**：脑动脉硬化减弱血管搏动，胶质淋巴泵力减弱约 27%
+
+**蓝斑核的双重角色**：蓝斑核（LC）是 AD tau 病理最早侵犯的区域（Braak 零期），LC NE 神经元早期 tau 积累 → LC 受损 → NREM 期 NE 振荡减弱 → 胶质淋巴清洗减少 → 更多 tau/Aβ 积累 → 更多 LC 损伤，构成完美的自催化恶性循环（Holth et al. 2019, PMID:30679382）。
+
+**睡眠剥夺实验**：一夜不睡使人类 CSF tau 升高 >50%（PMID:30679382）；ISF Aβ 在清醒时比睡眠时高约 24.4%（Kang et al. 2009, PMID:19779148）。慢性睡眠限制显著加速转基因 AD 小鼠的斑块形成。
+
+**人类直接证据**：随机交叉试验（n=39）证明，正常睡眠后血浆 Aβ/tau 高于睡眠剥夺后，直接证明睡眠期间大脑将这些蛋白清至血液（Dagum et al. 2026, PMID:41593094）。
+
 ### 为什么海马首当其冲
 
 1. **高NR2B密度**：CA3-CA1突触（Schaffer侧支）的NMDA受体中NR2B亚基比例高，对Aβ的毒性通路（突触外NR2B激活）敏感性高
@@ -89,6 +103,8 @@ Aβ由APP（淀粉样前体蛋白）通过β-分泌酶（BACE1）和γ-分泌酶
 - [[microglia]] — Aβ 低聚体触发补体 C1q 在突触上的病理性沉积，激活小胶质细胞通过 CR3 过度吞噬突触（早于斑块形成）；抗 C1q 干预可保护 AD 早期突触（Hong et al. 2016）
 - [[complement-cascade-cns]] — 发育期突触剪枝机制的病理性重激活是 AD 早期突触丢失的机制之一
 - [[synaptic-pruning]] — 补体-微胶质突触剪枝的异常重激活导致斑块出现前的突触前丢失
+- [[glymphatic-system]] — 胶质淋巴清除失效是 Aβ/tau 积累的功能上游原因；睡眠剥夺和衰老通过三重机制削弱清洗，与 AD 形成双向恶性循环
+- [[aqp4]] — AQP4 去极化在老年脑中导致胶质淋巴效率下降；可能是 AD 预防干预的靶点
 
 ## 未解问题
 

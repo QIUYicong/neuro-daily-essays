@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-06-19
-revision_count: 1
-dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network]
+updated: 2026-07-06
+revision_count: 2
+dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
+related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network, glymphatic-system, alzheimers-disease]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: [Q-so-initiation-site, Q-so-propagation-plasticity]
-source_articles: [2026-06-19-sleep-spindles-nrem]
-key_sources: ["PMID:38443198", "PMID:20046194", "PMID:31804897", "PMID:28689981"]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-06-glymphatic-system-sleep-clearance]
+key_sources: ["PMID:38443198", "PMID:20046194", "PMID:31804897", "PMID:28689981", "PMID:39788123"]
 ---
 
 # 皮层慢振荡 (Cortical Slow Oscillation, SO)
@@ -84,6 +84,8 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 - [[sharp-wave-ripples]] — SWR 嵌套在 SO 上行相内的纺锤波中；海马→皮层记忆转写的信号
 - [[memory-consolidation]] — SO 提供系统级记忆巩固的时间框架
 - [[thalamocortical-circuit]] — SO UP 态的皮层-丘脑反馈触发 TRN → 纺锤波
+- [[glymphatic-system]] — NREM 深度睡眠（SO 主导的慢波睡眠阶段）同时是胶质淋巴系统的高效清洗窗口；SO 减弱意味着记忆巩固和废物清洗双重功能同时受损
+- [[alzheimers-disease]] — 老年性 SO 振幅减弱与胶质淋巴清洗减少协同导致 Aβ/tau 积累加速
 
 ## 未解问题
 
@@ -92,6 +94,7 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 
 ## 修订历史
 
+- 2026-07-06 · 修订 · 基于《大脑的夜间清洗工程》(#74) · 新增 SO 与胶质淋巴系统的双重功能关系（NREM 慢波睡眠同时驱动记忆巩固和废物清洗）；related 新增 glymphatic-system、alzheimers-disease；key_sources 新增 PMID:39788123
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · SO 页面是 sleep-spindles 和 memory-consolidation 的前置概念 · 初始置信度：高
 
 ## 来源文章
