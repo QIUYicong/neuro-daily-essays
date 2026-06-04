@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-17",
   "levels": [
     "speculative",
     "emerging",
@@ -1047,6 +1047,44 @@
       "PMID:33603654",
       "PMID:40063809",
       "PMID:29311746"
+    ]
+  },
+  "olfactory-system": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-17",
+    "change_reason": "首次创建（文章 #85，2026-07-17）。嗅觉系统基础架构为教科书级共识：OR→嗅小球汇聚→梨状皮层路径经数十年解剖和功能研究积累；单受体表达规则由Buck & Axel 1991（Nobel 2004）建立并被后续单细胞研究充分验证；无丘脑中转路径为解剖学强证据；梨状皮层符合探测证据（中等，体内钙成像+膜片钳）。设为established/high原因：(a) 基础分子-解剖架构Nobel Prize级验证；(b) 多物种独立验证（小鼠/大鼠/人类/果蝇）；(c) 仅Q-olfact-01（表观遗传机制）在机理层面未解，不影响整体框架置信度。",
+    "key_sources": [
+      "PMID:19804753",
+      "PMID:1840504",
+      "PMID:32982699",
+      "PMID:31220213"
+    ]
+  },
+  "olfactory-receptor-neuron": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-17",
+    "change_reason": "首次创建（文章 #85，2026-07-17）。ORN分子机制经三十年研究高度确立：Buck & Axel 1991克隆OR家族（Nobel 2004）→单细胞原位杂交验证单受体表达规则→CNG通道电生理特征明确→Xue 2025冷冻电镜解析CNG通道原子结构（CNGA2₂/CNGA4/CNGB1b 2:1:1）→Anoctamin2/TMEM16B作为Cl⁻放大器经KO实验证实→CaM双位点快速适应经冷冻电镜+电生理验证。设为established/high：所有关键机制均有多实验室独立验证，CNG通道原子结构已解，是感觉生理学中机制最清晰的细胞类型之一。",
+    "key_sources": [
+      "PMID:19804753",
+      "PMID:1840504",
+      "PMID:41131016",
+      "PMID:19822638"
+    ]
+  },
+  "olfactory-glomerulus": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-17",
+    "change_reason": "首次创建（文章 #85，2026-07-17）。嗅小球解剖和功能已高度确立：OR→嗅小球汇聚（基因示踪验证，PMID:19804753）；~5000 ORN/嗅小球汇聚数量（电镜+基因标记，PMID:19804753）；嗅小球位置跨个体保守（功能成像+解剖对比）；梨状皮层只接受僧帽细胞轴突（追踪研究，PMID:32982699）；颗粒细胞侧抑制增强气味判别（电生理+光遗传）。设为established/high：核心事实经多实验室独立验证；唯一中等证据项为嗅小球作为信号噪声增强装置的定量验证（计算模型+有限电生理，PMID:16841172）。",
+    "key_sources": [
+      "PMID:19804753",
+      "PMID:32982699",
+      "PMID:16841172"
     ]
   }
 }

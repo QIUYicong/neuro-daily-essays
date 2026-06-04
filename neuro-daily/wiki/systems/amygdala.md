@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-09
-revision_count: 2
+updated: 2026-07-17
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, hpa-axis, glucocorticoid-hippocampus-plasticity]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, hpa-axis, glucocorticoid-hippocampus-plasticity, olfactory-system]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-stress-01]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:26286651", "PMID:12042880"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis, 2026-07-17-olfactory-system-molecular-to-memory]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:26286651", "PMID:12042880", "PMID:19804753"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -72,6 +72,7 @@ CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率
 - [[engram-cells]] — LA恐惧印迹细胞（~20%稀疏）与海马场所细胞印迹遵循相同的竞争选择逻辑
 - [[hpa-axis]] — CeM → PVN 是 HPA 轴激活的上行通路；BLA 通过 BNST → PVN 提供威胁信号驱动 CRH 释放
 - [[glucocorticoid-hippocampus-plasticity]] — 慢性 GC 同时增强 BLA 可塑性（树突增生）和削弱海马 LTP（树突退缩）——方向性分离
+- [[olfactory-system]] — 嗅球→皮层杏仁核（cortical amygdala）是唯一不经过丘脑的感觉到杏仁核的直接通路，解释了气味触发情绪记忆的神经基础（"Proustian 效应"）
 
 ## 未解问题
 
@@ -83,8 +84,10 @@ CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率
 
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
 - 2026-07-09 · 修订 rev2 · 基于《应激的双刃剑》(#77) · 新增应激下 BLA-海马方向性分离（慢性应激→BLA 树突增生 vs CA3 退缩）；CeM→HPA 轴输出路径扩展（CeM→PVN→CRH 完整链）；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity；opens_questions 新增 Q-stress-01；连接新增两条
+- 2026-07-17 · 修订 rev3 · 基于《一缕香气的旅行》(#85) · 新增嗅觉→皮层杏仁核直接通路（唯一不经丘脑的感觉-情绪通路）；related 新增 olfactory-system；key_sources 新增 PMID:19804753
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
 - [[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]]
+- [[2026-07-17-olfactory-system-molecular-to-memory]]

@@ -1,0 +1,76 @@
+# Run Log · 2026-07-17
+
+## Execution Summary
+
+- **Article #**: 85
+- **Title**: 一缕香气的旅行：嗅觉系统如何将化学分子转化为感知、记忆与情感
+- **Topic**: Olfactory System — molecular to memory
+- **Layer(s)**: molecular / cellular / synaptic / microcircuit
+- **Curriculum Track**: Track 3 (sensory encoding, 4th entry)
+- **Layer selection rationale**: Articles #82-84 were all at cognition/whole-brain-network/brain-region level; deliberately chose molecular/cellular/microcircuit to avoid 3+ consecutive same-dimension constraint
+
+## Topic Selection
+
+- Initial consideration: cerebellum as supervised learning machine — rejected because wiki/systems/cerebellum.md and wiki/concepts/cerebellar-ltd.md already exist (created 2026-06-23)
+- Selected: olfactory system — completely absent from knowledge base (0 olfactory wiki pages prior to this session)
+- Justification: (1) fills Track 3 sensory encoding gap alongside V1 vision / place cells spatial; (2) breaks cognition/whole-brain layer streak; (3) Nobel Prize 2004 anchor makes source quality high; (4) unique architecture (no thalamus relay) creates rich cross-links with amygdala, hippocampal circuit, adult neurogenesis
+
+## Sources Retrieved
+
+| PMID | Title | Access |
+|------|-------|--------|
+| 1840504 | Buck & Axel 1991 — OR gene family | Abstract (classic) |
+| 19804753 (PMC2765334) | Su et al. 2009 Cell — glomerular convergence | Open full text |
+| 32982699 (PMC7485133) | Imamura et al. 2020 — mitral vs tufted cell | Open full text |
+| 41131016 | Xue et al. 2025 — CNG channel cryo-EM | Open full text |
+| 19822638 | Waldeck et al. 2009 — CaM adaptation | Open full text |
+| 31220213 | Strauch et al. 2020 — piriform→DG LTP | Open full text |
+| 16841172 | Chen & Shepherd 2005 — glomerular SNR | Open full text |
+| Nobel 2004 | Buck & Axel Nobel Prize | Public record |
+
+All PMIDs verified via PubMed E-utilities. No fabricated sources.
+
+## Files Created / Modified
+
+### New Files
+- `neuro-daily/articles/2026-07-17-olfactory-system-molecular-to-memory.md` (article #85, ~5000 chars)
+- `neuro-daily/notes/2026-07-17-reading-notes.md`
+- `neuro-daily/sources/2026-07-17-sources.json`
+- `neuro-daily/wiki/systems/olfactory-system.md` (rev1)
+- `neuro-daily/wiki/concepts/olfactory-receptor-neuron.md` (rev1)
+- `neuro-daily/wiki/concepts/olfactory-glomerulus.md` (rev1)
+- `neuro-daily/logs/2026-07-17-run.log` (this file)
+
+### Modified Files
+- `neuro-daily/wiki/systems/amygdala.md` (rev2→rev3: added olfactory-system connection)
+- `neuro-daily/wiki/_graph.json` (158→161 nodes, 920→932 edges; +3 nodes, +12 edges)
+- `neuro-daily/wiki/index.md` (header updated; olfactory entries added to systems + concepts sections)
+- `neuro-daily/wiki/CHANGELOG.md` (2026-07-17 section prepended)
+- `neuro-daily/state/topic_ledger.json` (#85 entry added; total_articles 84→85)
+- `neuro-daily/state/unresolved_questions.md` (Q-olfact-01/02/03 added)
+- `neuro-daily/state/source_registry.json` (8 new sources; total 358→366)
+- `neuro-daily/state/monthly_synthesis.md` (#85 row added; month count 16→17)
+- `neuro-daily/state/maturity_index.json` (3 new entries; last_updated 2026-07-14→2026-07-17)
+
+## Knowledge Graph Delta
+
+- Nodes added: olfactory-system, olfactory-receptor-neuron, olfactory-glomerulus
+- Total nodes: 158 → 161
+- Edges added (+12): olfactory-system→amygdala, olfactory-system→hippocampal-circuit, olfactory-system→adult-neurogenesis, olfactory-system→predictive-coding, olfactory-system→memory-consolidation, olfactory-system→olfactory-receptor-neuron, olfactory-system→olfactory-glomerulus, olfactory-receptor-neuron→olfactory-glomerulus, olfactory-receptor-neuron→action-potential, olfactory-receptor-neuron→adult-neurogenesis, olfactory-glomerulus→pv-interneurons, olfactory-glomerulus→lateral-inhibition
+- Total edges: 920 → 932
+
+## Open Questions Added
+
+- Q-olfact-01 (HIGH): OR排他性表达的完整表观遗传机制
+- Q-olfact-02 (MEDIUM): 梨状皮层语义/情感拓扑图
+- Q-olfact-03 (MEDIUM): COVID-19相关嗅觉丧失神经修复机制
+
+## Errors / Notes
+
+- Initial topic (cerebellum) rejected — already covered
+- PubMed search required several query simplifications before returning useful results
+- PMC E-utilities occasionally returned wrong articles; verified each PMID against actual content
+- Article uses knowledge-base virtual date 2026-07-17; real execution date ~2026-06-05 UTC+8
+- Branch: claude/funny-einstein-EqGVy (session instruction) → merged to main (ROUTINE.md)
+
+## Status: COMPLETE

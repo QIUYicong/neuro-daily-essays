@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-17 · 文章 #85 · 一缕香气的旅行：嗅觉系统如何将化学分子转化为感知、记忆与情感
+
+**核心主题**：嗅觉系统三层计算架构（受体层→嗅球层→梨状皮层层）；ORN单受体表达规则与五步转导级联（OR→Gαolf→AC III→cAMP→CNG→Anoctamin2）；嗅小球轴突汇聚图谱（~5000 ORN/嗅小球，小鼠）；无丘脑中转的独特解剖路径；梨状皮层符合探测与稀疏编码；嗅觉→皮层杏仁核直接通路（Proustian效应神经基础）。
+
+**新建页面（3）**：
+- `systems/olfactory-system.md` rev1 — 嗅觉系统：三层架构；无丘脑中转路径；组合编码；梨状皮层计算；Proustian效应（established, confidence:high）
+- `concepts/olfactory-receptor-neuron.md` rev1 — 嗅觉受体神经元：单受体规则；五步转导级联（OR→Gαolf→AC III→cAMP→CNG通道→Anoctamin2 Cl⁻放大）；CaM双位点快速适应；终身再生（established, confidence:high）
+- `concepts/olfactory-glomerulus.md` rev1 — 嗅小球：OR功能地图；~5000 ORN/嗅小球汇聚；僧帽vs簇状细胞功能分流；颗粒细胞侧抑制（established, confidence:high）
+
+**修订页面（1）**：
+- `systems/amygdala.md` rev3 — 新增嗅觉→皮层杏仁核直接通路（唯一不经丘脑的感觉-情绪通路）；related新增olfactory-system；key_sources新增PMID:19804753；source_articles新增文章#85
+
+**矛盾登记（0）**：今日无新增矛盾。
+
+**新增开放问题**：Q-olfact-01（高优先：OR排他性表达的表观遗传机制）、Q-olfact-02（中优先：梨状皮层语义/情感拓扑图）、Q-olfact-03（中优先：COVID-19相关嗅觉丧失神经修复机制）
+
+**解决的悬空引用**：olfactory-receptor-neuron、olfactory-glomerulus（amygdala页面新增嗅觉通路填补"丘脑低路"相关空白）
+
+**图谱**：161 节点（+3：olfactory-system, olfactory-receptor-neuron, olfactory-glomerulus），932 边（+12 条新边）
+
+---
+
 ## 2026-07-16 · 文章 #84 · 意义的诞生地：前颞叶如何将感官碎片组装成概念
 
 **核心主题**：ATL语义枢纽的计算机制深化（hub-and-spoke双层架构；ATL→spoke不对称广播；双侧ATL组织）；rTMS双离解因果证据（Pobric 2010）；C3连接约束认知模型（Chen 2017：ATL损伤→跨类别损伤是数学必然）；概念空间几何（内嗅皮层六重对称编码概念类别方向；mPFC编码类别距离）；DSI统一模型（Haga 2025 PNAS：后继者表征≡逐点互信息，网格细胞=概念细胞空间类比）；大型语言模型词嵌入与生物概念空间的几何比较。

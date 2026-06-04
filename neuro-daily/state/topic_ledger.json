@@ -1,7 +1,70 @@
 {
-  "last_updated": "2026-07-16",
-  "total_articles": 84,
+  "last_updated": "2026-07-17",
+  "total_articles": 85,
   "entries": [
+    {
+      "date": "2026-07-17",
+      "title": "一缕香气的旅行：嗅觉系统如何将化学分子转化为感知、记忆与情感",
+      "filename": "2026-07-17-olfactory-system-molecular-to-memory.md",
+      "wiki_pages_created": [
+        "wiki/systems/olfactory-system.md",
+        "wiki/concepts/olfactory-receptor-neuron.md",
+        "wiki/concepts/olfactory-glomerulus.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/amygdala.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "嗅觉受体神经元如何通过单受体表达规则和五步转导级联将化学分子转化为动作电位？嗅球嗅小球如何形成精确的OR功能图谱？梨状皮层的符合探测机制如何实现稀疏气味表征？以及为什么嗅觉是唯一不经过丘脑中转的感觉系统，这一独特路径如何解释气味与情感记忆（Proustian效应）的强关联？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（Track 3 第4篇：嗅觉感觉编码——与已覆盖的V1视觉/场所细胞空间/网格细胞坐标并列，填补感觉编码Track 3最后一个主要感觉模态空白）；层级对比：前三天 #82/83/84 均在认知/全脑网络/脑区层，今日刻意回到分子/细胞/突触/微回路层",
+      "topic_tags": [
+        "olfactory receptor neuron",
+        "OR gene",
+        "olfactory bulb",
+        "glomerulus",
+        "piriform cortex",
+        "Proustian effect",
+        "no thalamus",
+        "Gαolf",
+        "cAMP",
+        "CNG channel",
+        "Anoctamin2",
+        "TMEM16B",
+        "mitral cell",
+        "tufted cell",
+        "granule cell",
+        "lateral inhibition",
+        "coincidence detection",
+        "sparse coding",
+        "Buck and Axel",
+        "Nobel Prize 2004",
+        "combinatorial coding",
+        "one neuron one receptor"
+      ],
+      "main_sources": [
+        "PMID:1840504 (Buck & Axel 1991 Cell, olfactory receptor gene family discovery, Nobel Prize 2004)",
+        "PMID:19804753 (PMC2765334, Su et al. 2009 Cell, olfactory glomerulus convergence ~5000 ORN/glomerulus, open full text)",
+        "PMID:32982699 (PMC7485133, Imamura et al. 2020 Front Neural Circuits, mitral vs tufted cell functional dichotomy, open full text)",
+        "PMID:41131016 (Xue et al. 2025 Nat Commun, CNG channel cryo-EM structure CNGA2₂/CNGA4/CNGB1b 2:1:1, open full text)",
+        "PMID:19822638 (Waldeck et al. 2009 J Gen Physiol, CaM two-site adaptation, open full text)",
+        "PMID:31220213 (Strauch et al. 2020 Cereb Cortex, piriform cortex drives hippocampal DG LTP, open full text)",
+        "PMID:16841172 (Chen & Shepherd 2005 Chem Senses, glomerular signal amplification, open full text)",
+        "Nobel Prize 2004 (Linda Buck & Richard Axel, odorant receptors and olfactory system)"
+      ],
+      "unresolved_questions": [
+        "Q-olfact-01 (新增，高优先级：OR排他性表达的表观遗传机制)",
+        "Q-olfact-02 (新增，中优先级：梨状皮层语义/情感拓扑图)",
+        "Q-olfact-03 (新增，中优先级：COVID-19相关嗅觉丧失神经修复机制)"
+      ],
+      "note": "系统时钟 UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期 2026-07-17；7篇开放全文来源+1篇Nobel Prize网站；新建3页（olfactory-system, olfactory-receptor-neuron, olfactory-glomerulus）+修订1页（amygdala rev3）；层级设计：前三天 #82/83/84 均在认知/全脑网络层，今日刻意选择分子/细胞/微回路层以避免连续三天同一维度；填补 Track 3 嗅觉感觉编码空白"
+    },
     {
       "date": "2026-07-16",
       "title": "意义的诞生地：前颞叶如何将感官碎片组装成概念",

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-16（第84篇·意义的诞生地·前颞叶语义枢纽与概念空间几何）· 主题页总数：**157**（新建2页：semantic-memory-hub, conceptual-space-geometry；修订4页：anterior-temporal-lobe-hub rev2, grid-cells rev2, embodied-semantics rev2, cognitive-map rev2；图谱158节点、920边；新增Q-sem-01/02；Q-lang-04部分解答）
+> 最后更新：2026-07-17（第85篇·一缕香气的旅行·嗅觉系统从分子到记忆）· 主题页总数：**160**（新建3页：olfactory-system, olfactory-receptor-neuron, olfactory-glomerulus；修订1页：amygdala rev3；图谱161节点、932边；新增Q-olfact-01/02/03）
 
 ---
 
@@ -133,6 +133,8 @@
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据（完全额叶切除不影响意识）**[修订 2026-06-27]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
+- 🟢 [嗅觉受体神经元（ORN）](concepts/olfactory-receptor-neuron.md) — 嗅上皮双极感觉神经元；单受体表达规则（~1000种OR基因各选其一）；五步转导级联（OR→Gαolf→AC III→cAMP→CNG通道→Anoctamin2 Cl⁻放大→动作电位）；约每30-60天由基底层干细胞再生 **[NEW 2026-07-17 #85]**
+- 🟢 [嗅小球](concepts/olfactory-glomerulus.md) — 嗅球皮层表面球状神经毡结构（~50-100 μm）；接收同类OR的所有ORN轴突（~5000 ORN/嗅小球，小鼠）；僧帽细胞（→梨状皮层）vs 簇状细胞（仅前外侧区）功能分流；颗粒细胞树突-树突往返突触实现侧抑制和对比增强 **[NEW 2026-07-17 #85]**
 
 ## motor（运动系统）
 
@@ -171,6 +173,7 @@
 - 🟢 [视交叉上核（SCN 主时钟）](systems/scn-circadian-pacemaker.md) — ipRGC/黑视素→RHT→VIP 核心区→AVP 壳区；VIP/VPAC2 细胞间耦合同步；三条输出路径（自主神经→褪黑素、神经投射→LC/VLPO/DMH、体液 AVP/PROK2）；SCN 移植实验（Ralph 1990）；星形胶质细胞时钟（Brancaccio 2019）；AD 中 SCN VIP 神经元早期萎缩 **[NEW 2026-07-08 #76]**
 - 🟢 [外侧缰核（LHb）](systems/lateral-habenula.md) — 大脑"惩罚计算器"；编码负奖励预测误差（镜像 DA 神经元）；LHb→RMTg（谷氨酸）→VTA/SNc（GABA）抑制多巴胺；慢性应激/βCaMKII↑或 Kir4.1 失调引发爆发放电→持续压制 DA/5-HT→快感缺失；PVN（CRH）→LHb 双向耦合将 HPA 轴与奖励-抑郁回路连通；Wang 2024 (Cell) 三条输出子回路分别驱动绝望行为的不同成分；氯胺酮通过 NMDAR 捕获阻断爆发放电 **[NEW 2026-07-11 #79]**
 - 🟢 [喙内侧被盖核（RMTg）](systems/rmtg.md) — LHb→DA 负反馈的 GABA 能中继核团；接收 LHb 谷氨酸能输入并抑制 94% 的 VTA/SNc 多巴胺神经元（Hong 2011）；是 DA-RPE 负预测误差臂的回路级执行者 **[NEW 2026-07-11 #79]**
+- 🟢 [嗅觉系统](systems/olfactory-system.md) — 哺乳动物唯一不经丘脑中转的感觉系统；三层计算架构：受体层（ORN 单受体规则、组合编码）→嗅球层（嗅小球汇聚图谱、侧抑制）→梨状皮层层（稀疏符合探测）；直接投射杏仁核和内嗅皮层是 Proustian 效应的解剖基础 **[NEW 2026-07-17 #85]**
 
 ## methods（方法）
 

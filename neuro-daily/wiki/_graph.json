@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-16",
-  "node_count": 158,
-  "edge_count": 920,
+  "updated": "2026-07-17",
+  "node_count": 161,
+  "edge_count": 932,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1435,6 +1435,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/conceptual-space-geometry.md"
+    },
+    {
+      "id": "olfactory-system",
+      "title": "嗅觉系统",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/olfactory-system.md"
+    },
+    {
+      "id": "olfactory-receptor-neuron",
+      "title": "嗅觉受体神经元",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/olfactory-receptor-neuron.md"
+    },
+    {
+      "id": "olfactory-glomerulus",
+      "title": "嗅小球",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/olfactory-glomerulus.md"
     }
   ],
   "edges": [
@@ -6484,6 +6511,66 @@
       "to": "conceptual-space-geometry",
       "type": "supports",
       "note": "认知地图的DSI统一框架（SR≡PMI）提供概念空间几何的计算基础"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "olfactory-glomerulus",
+      "type": "part-of"
+    },
+    {
+      "from": "olfactory-glomerulus",
+      "to": "olfactory-system",
+      "type": "part-of"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "olfactory-system",
+      "type": "part-of"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "amygdala",
+      "type": "regulates"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "hippocampal-circuit",
+      "type": "regulates"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "memory-consolidation",
+      "type": "supports"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "olfactory-glomerulus",
+      "to": "amygdala",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "action-potential",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "voltage-gated-calcium-channels",
+      "type": "related"
     }
   ],
   "dangling_references": [
