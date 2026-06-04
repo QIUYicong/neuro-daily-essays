@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-17",
-  "node_count": 161,
-  "edge_count": 932,
+  "updated": "2026-07-18",
+  "node_count": 165,
+  "edge_count": 948,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1462,6 +1462,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/olfactory-glomerulus.md"
+    },
+    {
+      "id": "auditory-cortex",
+      "title": "初级听觉皮层（A1）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/auditory-cortex.md"
+    },
+    {
+      "id": "tonotopy",
+      "title": "音调拓扑（Tonotopy）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tonotopy.md"
+    },
+    {
+      "id": "ribbon-synapse",
+      "title": "带状突触（Ribbon Synapse）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ribbon-synapse.md"
+    },
+    {
+      "id": "phase-locking",
+      "title": "相位锁定（Phase Locking）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/phase-locking.md"
     }
   ],
   "edges": [
@@ -6571,6 +6607,96 @@
       "from": "olfactory-receptor-neuron",
       "to": "voltage-gated-calcium-channels",
       "type": "related"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "tonotopy",
+      "type": "part-of",
+      "note": "音调拓扑是A1的组织原则"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "language-network",
+      "type": "prerequisite-for",
+      "note": "听觉皮层是语言双流（腹侧+背侧流）的皮层起点"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "thalamus",
+      "type": "part-of",
+      "note": "MGN vMGN→A1投射；听觉皮层必须经丘脑中继"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "olfactory-system",
+      "type": "related",
+      "note": "对比：嗅觉无丘脑中继（唯一例外）；听觉必须经MGN"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "A1展示失配响应（mismatch negativity），是预测编码的听觉皮层实例"
+    },
+    {
+      "from": "tonotopy",
+      "to": "auditory-cortex",
+      "type": "mechanism-of",
+      "note": "音调拓扑是A1的组织机制"
+    },
+    {
+      "from": "tonotopy",
+      "to": "phase-locking",
+      "type": "related",
+      "note": "位置编码（tonotopy）与时间编码（phase-locking）是频率表征的两套正交策略"
+    },
+    {
+      "from": "tonotopy",
+      "to": "ribbon-synapse",
+      "type": "related",
+      "note": "带状突触异质性叠加在音调拓扑框架内：IHC的Pillar/Modiolar分工在音调地图的每个位置并行存在"
+    },
+    {
+      "from": "tonotopy",
+      "to": "orientation-selectivity",
+      "type": "related",
+      "note": "两者均是'感觉物理参数→皮层空间维度映射'的并列实例（频率→A1位置；方向→V1方向柱）"
+    },
+    {
+      "from": "ribbon-synapse",
+      "to": "active-zone",
+      "type": "is-a",
+      "note": "带状突触是活动区的高通量特化形式；共享Bassoon/Piccolo脚手架蛋白"
+    },
+    {
+      "from": "ribbon-synapse",
+      "to": "voltage-gated-calcium-channels",
+      "type": "mechanism-of",
+      "note": "CaV1.3（L型）是IHC带状突触的囊泡释放触发通道，区别于突触前CaV2.1 P/Q型"
+    },
+    {
+      "from": "ribbon-synapse",
+      "to": "synaptic-transmission",
+      "type": "is-a",
+      "note": "带状突触是突触传递的特化极端形式，与常规突触共享SNARE机制但具有ribbon支架和CaV1.3特异性"
+    },
+    {
+      "from": "ribbon-synapse",
+      "to": "phase-locking",
+      "type": "prerequisite-for",
+      "note": "带状突触亚毫秒延迟是SGN相位锁定精确性的突触前提"
+    },
+    {
+      "from": "phase-locking",
+      "to": "theta-phase-precession",
+      "type": "related",
+      "note": "两者均是'放电时刻携带信息'的时间编码原理，分属听觉（微秒-毫秒）和海马（秒）不同系统和尺度"
+    },
+    {
+      "from": "phase-locking",
+      "to": "temporal-coding-hierarchy",
+      "type": "is-a",
+      "note": "相位锁定是时间编码层级中微秒-毫秒尺度的代表实例"
     }
   ],
   "dangling_references": [

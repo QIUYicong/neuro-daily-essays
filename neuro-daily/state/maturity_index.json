@@ -1086,5 +1086,51 @@
       "PMID:32982699",
       "PMID:16841172"
     ]
+  },
+  "auditory-cortex": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-18",
+    "change_reason": "首次创建（文章 #86，2026-07-18）。A1音调拓扑是高度确立的神经科学事实（多物种、多方法、60年以上研究）；全局tonotopy梯度、等频率带组织、MGN vMGN输入是教科书知识。核心-腰带-副腰带（core-belt-parabelt）层级组织在非人灵长类解剖学和电生理学中高度确立，人类fMRI/MEG已获验证（Benner 2023，PMID:36786655）。局部异质性来自复杂感受野神经元这一结论来自双光子成像直接证据（Gaucher 2020，PMID:32420865）；A1/A2并行双流假说（Kline 2023）为中等置信度（小鼠数据，人类待验证）。整体设为established/high，但A1/A2计算架构（并行vs串行）细节为emerging。",
+    "key_sources": [
+      "PMID:32420865",
+      "PMID:37169827",
+      "PMID:36786655"
+    ]
+  },
+  "tonotopy": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-18",
+    "change_reason": "首次创建（文章 #86，2026-07-18）。基底膜行波和频率-位置映射（von Békésy，Nobel 1961）是神经科学最高度确立的事实之一。OHC Prestin主动放大（Fisher 2012，PMID:23217746，靶向光灭活因果证明）；TMC1底端-顶端电导梯度（Liu 2021，PMID:33871677，多实验室KO+膜片钳）；皮层tonotopy（多物种成像）。三层机制（力学/分子/皮层）均有直接实验证据。设为established/high；TMC1梯度的发育机制为emerging（Q-aud-04）。",
+    "key_sources": [
+      "PMID:23217746",
+      "PMID:33871677",
+      "PMID:32420865"
+    ]
+  },
+  "ribbon-synapse": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-18",
+    "change_reason": "首次创建（文章 #86，2026-07-18）。带状突触的存在和基本结构（RIBEYE蛋白、突触带支架、CaV1.3触发）是经典听觉神经科学知识；Pillar/Modiolar侧不对称及三型SGN分子分类（Moser 2023，PMID:37800695）由超分辨率成像+scRNA-seq证明（近期）。动态范围分解（并行强度编码）理论与实验结合一致（Rutherford 2021，PMID:33644871）。设为established/high；Pillar/Modiolar不对称的发育建立机制（GPR156/Gai通路）仍为emerging。",
+    "key_sources": [
+      "PMID:37800695",
+      "PMID:33644871"
+    ]
+  },
+  "phase-locking": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-18",
+    "change_reason": "首次创建（文章 #86，2026-07-18）。相位锁定现象本身（Rose et al. 1967）是经典听觉神经生理学，多物种神经纤维记录一致。IHC膜时常数决定相位锁定上限的物理机制（Rutherford 2021，PMID:33644871）有清晰的电生理基础。TFS在音高感知中的必要性由人工耳蜗患者（无TFS）与正常听者对比实验确认。设为established/high；确切的人类相位锁定上频限（1.5 kHz vs 3 kHz vs 更高）存在测量和解释分歧（Q-aud-01），但这是定量细节，不影响基本机制的确立状态。",
+    "key_sources": [
+      "PMID:33644871",
+      "PMID:37800695"
+    ]
   }
 }

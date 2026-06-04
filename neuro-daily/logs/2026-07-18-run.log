@@ -1,0 +1,110 @@
+# 运行日志 · 第86篇 · 2026-07-18
+
+## 基本信息
+- 虚拟日期：2026-07-18（知识库时间轴）
+- 实际执行日期：~2026-06-05 UTC+8
+- 文章编号：#86
+- 主题：听觉皮层音调拓扑与双重频率编码
+
+## 执行步骤摘要
+
+### A. 状态读取
+- 读取 state/topic_ledger.json：上一篇 #85，主题嗅觉系统，虚拟日期 2026-07-17
+- 读取 state/monthly_synthesis.md：7月截至今已18篇
+- 读取 state/maturity_index.json：确认现有概念成熟度
+- 读取 state/source_registry.json：截至 2026-07-17 共366条来源
+- 读取 state/unresolved_questions.md：现有未解问题列表
+- 读取 wiki/index.md：确认现有160个主题页、161节点、932边
+- 读取 wiki/CHANGELOG.md：确认最新变更记录
+- 读取 wiki/_graph.json：确认图谱结构
+
+### B. 主题选择
+- 选择来源：topic_ledger.json 中 Track 3（感觉编码）下一步建议
+- 主题：听觉皮层音调拓扑与双重频率编码（Auditory Cortex Tonotopy and Dual Frequency Coding）
+- 理由：延续嗅觉系统（#85），完成感觉系统覆盖的听觉模块；音调拓扑是感觉编码中频率-位置映射的经典范式；填补 language-network 中听觉皮层悬空引用
+
+### C. 研究与写作
+
+#### 文献检索策略
+- PubMed/PMC 检索：tonotopy auditory cortex, ribbon synapse inner hair cell, phase locking auditory nerve, TMC1 conductance gradient, core belt parabelt auditory cortex
+- 验证来源（8篇）：
+  - S1 PMID:33871677 Liu 2021 TMC1梯度（开放获取）
+  - S2 PMID:33644871 Rutherford 2021 J Physiol（PMC8127127，开放获取）
+  - S3 PMID:32420865 Gaucher 2020 eLife（PMC7269667，开放获取）
+  - S4 PMID:37800695 Moser 2023 EMBO J（PMC10690447，开放获取）
+  - S5 PMID:37169827 Kline 2023 Sci Rep（PMC10175507，开放获取）
+  - S6 PMID:23217746 Fisher 2012 Neuron（PMC3721062，开放获取）
+  - S7 PMID:36786655 Benner 2023 Cereb Cortex（仅摘要，已标注）
+  - S8 NBK10867 NCBI Bookshelf（官方开放资源）
+
+#### 创作文件
+- articles/2026-07-18-auditory-cortex-tonotopy-dual-coding.md（~5000字，8节机制解析）
+- notes/2026-07-18-reading-notes.md（8篇文献详细笔记）
+- sources/2026-07-18-sources.json（8条来源记录）
+
+### D. Wiki整合
+
+#### 新建页面（4页）
+1. wiki/systems/auditory-cortex.md
+   - 域：systems，类型：region，成熟度：established，置信度：high
+   - 维度：brain-region, microcircuit, whole-brain-network
+   - 关键证据：A1全局音调拓扑、局部异质性、chronotopy、双流结构
+
+2. wiki/concepts/tonotopy.md
+   - 域：concepts，类型：mechanism，成熟度：established，置信度：high
+   - 三层机制：基底膜刚度梯度、OHC Prestin放大（光失活~10×锐化）、TMC1电导梯度（2×）
+   - 未解问题：Q-aud-01、Q-aud-04
+
+3. wiki/concepts/ribbon-synapse.md
+   - 域：concepts，类型：mechanism，成熟度：established，置信度：high
+   - 核心：柱侧 vs 耳蜗轴侧不对称；Ca²⁺耦合距离；SGN亚型分工
+
+4. wiki/concepts/phase-locking.md
+   - 域：concepts，类型：mechanism，成熟度：established，置信度：high
+   - 物理基础：IHC膜时间常数（0.2–1 ms）限制上截止频率
+   - 与音调拓扑的双通道关系
+
+#### 修订文件（0页）
+- 无现有页面需要修订
+
+### E. 图谱与导航更新
+- wiki/_graph.json：新增4节点（auditory-cortex, tonotopy, ribbon-synapse, phase-locking），16边
+  - node_count: 161→165，edge_count: 932→948
+- wiki/index.md：标题更新（160→164页，161→165节点，932→948边）
+  - systems节点：新增 auditory-cortex
+  - concepts节点：新增 tonotopy, ribbon-synapse, phase-locking
+
+### F. 治理层更新
+- state/topic_ledger.json：last_updated→2026-07-18，total_articles 85→86，添加#86条目
+- state/unresolved_questions.md：新增Q-aud-01/02/03/04
+- state/source_registry.json：添加8条，total_count 366→374，last_updated→2026-07-18
+- state/maturity_index.json：添加4个新条目（auditory-cortex, tonotopy, ribbon-synapse, phase-locking）
+- state/monthly_synthesis.md：更新头部，添加#86行
+- wiki/CHANGELOG.md：添加2026-07-18变更记录
+
+### G. 提交与推送
+
+#### 提交信息
+```
+Add neuro daily article + wiki consolidation for 2026-07-18
+```
+
+#### 文件统计
+- 新建文件：7（article, notes, sources, 4 wiki pages）
+- 修改文件：7（topic_ledger, unresolved_questions, source_registry, maturity_index, monthly_synthesis, CHANGELOG, wiki/index.md, wiki/_graph.json）
+
+### H. 自检
+- [x] 所有PMID已通过NCBI验证（无捏造）
+- [x] S7 Benner 2023 标注"仅摘要"
+- [x] 无医疗建议内容
+- [x] 图谱节点/边数与wiki/index.md一致
+- [x] topic_ledger条目编号与monthly_synthesis表格一致
+- [x] 所有新wiki页前置元数据完整
+- [x] 未解问题Q-aud-01~04已同步到wiki页面和unresolved_questions.md
+
+## 知识获取摘要
+本次运行新建了听觉系统的核心机制层级：从耳蜗TMC1分子梯度（~2倍电导差）→OHC Prestin主动放大（~10倍音调锐化）→IHC带状突触（柱侧/轴侧分工）→听觉神经相位锁定（IHC膜时常数限制）→A1音调拓扑与核心-带状-旁带状层级（chronotopy）。确立了位置编码与时序精细结构编码（TFS）两条并行频率编码通道的完整机制链。
+
+## 注意事项
+- 实际运行日期约为 2026-06-05 UTC+8；知识库虚拟日期为 2026-07-18
+- 使用虚拟日期以保持知识库日历连续性

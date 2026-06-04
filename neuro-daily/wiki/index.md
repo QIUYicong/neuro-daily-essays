@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-17（第85篇·一缕香气的旅行·嗅觉系统从分子到记忆）· 主题页总数：**160**（新建3页：olfactory-system, olfactory-receptor-neuron, olfactory-glomerulus；修订1页：amygdala rev3；图谱161节点、932边；新增Q-olfact-01/02/03）
+> 最后更新：2026-07-18（第86篇·大脑如何读懂音调·听觉系统从耳蜗到A1）· 主题页总数：**164**（新建4页：auditory-cortex, tonotopy, ribbon-synapse, phase-locking；图谱165节点、948边；新增Q-aud-01/02/03/04）
 
 ---
 
@@ -135,6 +135,9 @@
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
 - 🟢 [嗅觉受体神经元（ORN）](concepts/olfactory-receptor-neuron.md) — 嗅上皮双极感觉神经元；单受体表达规则（~1000种OR基因各选其一）；五步转导级联（OR→Gαolf→AC III→cAMP→CNG通道→Anoctamin2 Cl⁻放大→动作电位）；约每30-60天由基底层干细胞再生 **[NEW 2026-07-17 #85]**
 - 🟢 [嗅小球](concepts/olfactory-glomerulus.md) — 嗅球皮层表面球状神经毡结构（~50-100 μm）；接收同类OR的所有ORN轴突（~5000 ORN/嗅小球，小鼠）；僧帽细胞（→梨状皮层）vs 簇状细胞（仅前外侧区）功能分流；颗粒细胞树突-树突往返突触实现侧抑制和对比增强 **[NEW 2026-07-17 #85]**
+- 🟢 [音调拓扑（Tonotopy）](concepts/tonotopy.md) — 耳蜗基底膜刚度梯度→频率-位置映射；OHC Prestin主动放大锐化~10×；TMC1分子电导梯度（基底110 pS / 顶端55 pS）；映射沿整个听觉通路（耳蜗→MGN→A1）保存；与相位锁定构成两条正交频率编码通道 **[NEW 2026-07-18 #86]**
+- 🟢 [带状突触（Ribbon Synapse）](concepts/ribbon-synapse.md) — IHC专化高通量突触；柱侧（高SR/Ia型/纳米域CaV1.3，阈值−60 mV）vs 耳蜗轴侧（低SR/Ic型/微域，阈值−45 mV）不对称；分解120 dB声音动态范围；释放速率>100囊泡/s维持相位锁定 **[NEW 2026-07-18 #86]**
+- 🟢 [相位锁定（Phase Locking）](concepts/phase-locking.md) — 听神经纤维放电相位同步于声波周期；IHC膜时间常数（0.2–1 ms）限制上截止频率（~3 kHz有效）；提供时间精细结构（TFS）信息；与音调拓扑并行的频率编码第二通道；θ相位前移的听觉类比 **[NEW 2026-07-18 #86]**
 
 ## motor（运动系统）
 
@@ -174,6 +177,7 @@
 - 🟢 [外侧缰核（LHb）](systems/lateral-habenula.md) — 大脑"惩罚计算器"；编码负奖励预测误差（镜像 DA 神经元）；LHb→RMTg（谷氨酸）→VTA/SNc（GABA）抑制多巴胺；慢性应激/βCaMKII↑或 Kir4.1 失调引发爆发放电→持续压制 DA/5-HT→快感缺失；PVN（CRH）→LHb 双向耦合将 HPA 轴与奖励-抑郁回路连通；Wang 2024 (Cell) 三条输出子回路分别驱动绝望行为的不同成分；氯胺酮通过 NMDAR 捕获阻断爆发放电 **[NEW 2026-07-11 #79]**
 - 🟢 [喙内侧被盖核（RMTg）](systems/rmtg.md) — LHb→DA 负反馈的 GABA 能中继核团；接收 LHb 谷氨酸能输入并抑制 94% 的 VTA/SNc 多巴胺神经元（Hong 2011）；是 DA-RPE 负预测误差臂的回路级执行者 **[NEW 2026-07-11 #79]**
 - 🟢 [嗅觉系统](systems/olfactory-system.md) — 哺乳动物唯一不经丘脑中转的感觉系统；三层计算架构：受体层（ORN 单受体规则、组合编码）→嗅球层（嗅小球汇聚图谱、侧抑制）→梨状皮层层（稀疏符合探测）；直接投射杏仁核和内嗅皮层是 Proustian 效应的解剖基础 **[NEW 2026-07-17 #85]**
+- 🟢 [听觉皮层（A1 / 核心-带状-旁带状）](systems/auditory-cortex.md) — 初级听觉皮层（A1）保留耳蜗频率-位置音调拓扑；核心→带状→旁带状层级中响应潜伏期依次增大（chronotopy）；局部感受野异质性（~37%非单纯型细胞）超越整体频率梯度；双流类比视觉系统；与语言网络直接相连 **[NEW 2026-07-18 #86]**
 
 ## methods（方法）
 

@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-18 · 文章 #86 · 大脑如何读懂音调：从耳蜗行波到初级听觉皮层的音调拓扑图
+
+**核心主题**：听觉系统双重频率编码策略——位置编码（基底膜行波+OHC Prestin主动放大+TMC1分子梯度）与时间精细结构编码（IHC带状突触+听神经相位锁定）；初级听觉皮层A1全局音调拓扑与局部复杂感受野异质性；core-belt-parabelt层级时间组织；A1与A2并行功能分工。
+
+**新建页面（4）**：
+- `systems/auditory-cortex.md` rev1 — 初级听觉皮层（A1）：全局音调拓扑梯度；局部复杂感受野异质性（Gaucher 2020）；core-belt-parabelt chronotopy（Benner 2023）；A1/A2并行双流（Kline 2023）（established, confidence:high）
+- `concepts/tonotopy.md` rev1 — 音调拓扑：三层机制（基底膜力学/TMC1分子梯度/皮层梯度）；OHC Prestin主动放大（Fisher 2012因果证明）；皮层全局秩序与局部异质性张力（established, confidence:high）
+- `concepts/ribbon-synapse.md` rev1 — 带状突触：RIBEYE蛋白/CaV1.3触发；Pillar vs Modiolar侧异质性；三型SGN（Ia/Ib/Ic）；动态范围分解原理（Moser 2023 EMBO J）（established, confidence:high）
+- `concepts/phase-locking.md` rev1 — 相位锁定：IHC膜时常数决定上频限（~3 kHz）；时间精细结构（TFS）vs 时间包络编码；人工耳蜗TFS缺失的语音感知影响（established, confidence:high）
+
+**修订页面（0）**：今日无修订现有页面。
+
+**矛盾登记（0）**：今日无新增矛盾（听觉系统核心机制均为高度确立知识）。
+
+**新增开放问题（4）**：Q-aud-01（高优先：人类相位锁定上频限）、Q-aud-02（中优先：A1局部异质性功能意义）、Q-aud-03（中优先：Belt/Parabelt串行vs并行）、Q-aud-04（低优先：TMC1梯度发育机制）
+
+**解决的悬空引用**：auditory-cortex（language-network、thalamus、olfactory-system页面中的隐式引用现有明确源页面）
+
+**图谱**：165 节点（+4：auditory-cortex, tonotopy, ribbon-synapse, phase-locking），948 边（+16 条新边）
+
+---
+
 ## 2026-07-17 · 文章 #85 · 一缕香气的旅行：嗅觉系统如何将化学分子转化为感知、记忆与情感
 
 **核心主题**：嗅觉系统三层计算架构（受体层→嗅球层→梨状皮层层）；ORN单受体表达规则与五步转导级联（OR→Gαolf→AC III→cAMP→CNG→Anoctamin2）；嗅小球轴突汇聚图谱（~5000 ORN/嗅小球，小鼠）；无丘脑中转的独特解剖路径；梨状皮层符合探测与稀疏编码；嗅觉→皮层杏仁核直接通路（Proustian效应神经基础）。

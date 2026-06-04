@@ -1,7 +1,78 @@
 {
-  "last_updated": "2026-07-17",
-  "total_articles": 85,
+  "last_updated": "2026-07-18",
+  "total_articles": 86,
   "entries": [
+    {
+      "date": "2026-07-18",
+      "title": "大脑如何读懂音调：从耳蜗行波到初级听觉皮层的音调拓扑图",
+      "filename": "2026-07-18-auditory-cortex-tonotopy-dual-coding.md",
+      "wiki_pages_created": [
+        "wiki/systems/auditory-cortex.md",
+        "wiki/concepts/tonotopy.md",
+        "wiki/concepts/ribbon-synapse.md",
+        "wiki/concepts/phase-locking.md"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "听觉系统为什么需要'位置编码'（耳蜗基底膜音调拓扑）和'时间精细结构编码'（听神经相位锁定）两套并行策略表征声音频率——以及初级听觉皮层A1如何继承这双重编码，将基础频率信息转化为可供语音、音乐等复杂感知使用的神经表征？",
+      "layer": ["molecular", "cellular", "synaptic", "brain-region"],
+      "curriculum_track": "3. 大脑如何编码世界（Track 3 第5篇：听觉感觉编码——与已覆盖的V1视觉/嗅觉系统并列，填补感觉编码Track 3的听觉模态空白）；层级设计：#85分子/细胞（嗅觉），#86分子/细胞/突触/脑区多层（听觉），避免单纯重复同一维度",
+      "topic_tags": [
+        "auditory cortex",
+        "A1",
+        "tonotopy",
+        "basilar membrane",
+        "traveling wave",
+        "OHC",
+        "prestin",
+        "inner hair cell",
+        "MET channel",
+        "TMC1",
+        "tip link",
+        "ribbon synapse",
+        "phase locking",
+        "temporal fine structure",
+        "place coding",
+        "von Bekesy",
+        "spiral ganglion neuron",
+        "SGN",
+        "CaV1.3",
+        "dynamic range",
+        "Heschl gyrus",
+        "core belt parabelt",
+        "tonotopic variability",
+        "spectrotemporal integration",
+        "MFCC",
+        "cochlea"
+      ],
+      "main_sources": [
+        "PMID:33871677 (PMC open, Liu et al. 2021 Cell Mol Life Sci, MET通道TMC1梯度)",
+        "PMID:33644871 (PMC8127127, open full text, Rutherford et al. 2021 J Physiol, 受体电位→SGN放电)",
+        "PMID:32420865 (PMC7269667, open full text, Gaucher et al. 2020 eLife, A1拓扑变异性)",
+        "PMID:37800695 (PMC10690447, open full text, Moser et al. 2023 EMBO J, 带状突触异质性)",
+        "PMID:37169827 (PMC10175507, open full text, Kline et al. 2023 Scientific Reports, A1 vs A2并行双流)",
+        "PMID:23217746 (PMC3721062, open full text, Fisher et al. 2012 Neuron, Prestin光灭活/主动放大)",
+        "PMID:36786655 (abstract only, Benner et al. 2023 Cereb Cortex, core-belt-parabelt chronotopy)",
+        "NCBI Bookshelf NBK10867 (官方开放, 毛细胞结构/尖端连接/MET速度)"
+      ],
+      "unresolved_questions": [
+        "Q-aud-01 (新增，高优先级：人类相位锁定上频限)",
+        "Q-aud-02 (新增，中优先级：A1局部异质性是功能性组织还是噪声)",
+        "Q-aud-03 (新增，中优先级：Belt和Parabelt串行vs并行)",
+        "Q-aud-04 (新增，低优先级：TMC1梯度发育机制)"
+      ],
+      "next_suggested_topics": [
+        "体感皮层与身体地图（somatosensory cortex + homunculus）：Track 3最后一个主要感觉模态；桶状皮层（barrel cortex）作为经典模型；体感地图可塑性（幻肢/盲文扩展）",
+        "头向细胞与空间导航完整架构（head direction cells + border cells + conjunctive cells）：填补Track 3空间表征空白；与网格/场所细胞已有wiki形成完整空间导航三角",
+        "听觉运动整合（auditory-motor integration）：听觉皮层→运动皮层→声带/手指运动的闭环回路；镜像神经元与语言模仿的连接",
+        "方法论专题：双光子钙成像（two-photon calcium imaging）——本篇Gaucher 2020和Kline 2023都依赖这一技术；系统梳理GCaMP传感器、颅窗植入、视野大小vs分辨率权衡",
+        "多感觉整合（multisensory integration）：McGurk效应作为听觉-视觉整合窗口；STS作为多感觉整合的皮层枢纽；时间窗口（±200ms）和贝叶斯整合框架"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 86,
+      "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-18；继承自2026-07-17（第85篇，嗅觉系统）；本篇完成Track 3感觉编码三联篇（V1视觉/嗅觉系统/听觉系统）；首次引入听觉系统专属节点（auditory-cortex, tonotopy, ribbon-synapse, phase-locking）；关键跨领域桥梁：phase-locking←→theta-phase-precession（两者均为'放电时刻携带信息'的时间编码），auditory-cortex←→language-network（语言双流起点），tonotopy←→orientation-selectivity（感觉参数→皮层空间维度的两个实例）"
+    },
     {
       "date": "2026-07-17",
       "title": "一缕香气的旅行：嗅觉系统如何将化学分子转化为感知、记忆与情感",
