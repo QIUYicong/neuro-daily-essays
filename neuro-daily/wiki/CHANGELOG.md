@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-07-14 · 文章 #82 · 欲望的叛变：成瘾如何在分子层面重写大脑的奖励规则
+
+**核心主题**：成瘾的三阶段神经回路模型（Koob & Volkow 2016）、ΔFosB 作为持续分子开关（Nestler 2001）、激励显著性 wanting/liking 分离（Robinson & Berridge）、NAc 沉默突触成熟与渴望孵化（Lüscher & Malenka 2011；Ma & Dong 2016）、D2 受体下调与 allostatic 重设。
+
+**新建页面（4）**：
+- `diseases/substance-use-disorder.md` rev1 — 物质使用障碍（成瘾）：三阶段模型（基底节/扩展杏仁核/PFC）；超生理 DA 冲击；D2 下调；习惯系统的病理极端（established, confidence:high）
+- `concepts/deltaFosB.md` rev1 — ΔFosB 成瘾分子开关：截短机制/稳定性；NAc D1-MSN 选择性积累；CDK5/GluA2/dynorphin/G9a 下游靶点；与 CREB 的拮抗（established, confidence:high）
+- `concepts/incentive-salience.md` rev1 — 激励显著性：wanting（多巴胺/中脑边缘）vs liking（阿片/内源大麻素）的神经分离；L-DOPA 实验；cue-triggered wanting（mainstream, confidence:medium）
+- `concepts/incubation-of-craving.md` rev1 — 渴望孵化：沉默突触三阶段动态；CP-AMPA 插入（6-7 周峰值）；BLA→NAc 投射特异性；光遗传 LTD 重沉默实验（Ma & Dong 2016）（established, confidence:high）
+
+**修订页面（2）**：
+- `concepts/habit-formation.md` rev2 — 补充成瘾作为习惯系统病理极端的机制解释（ΔFosB/NAc CP-AMPA + 激励显著性解耦）；updated related 字段（addiction → substance-use-disorder, deltaFosB, incentive-salience）；Q-habit-01 部分解答
+- `concepts/dopamine-reward-prediction-error.md` rev7 — 新增 DA-RPE 系统在成瘾中的 allostatic 崩溃（超生理冲击 20x、D2 下调 PET 证据、wanting/liking 分离）；新增关联 substance-use-disorder、incentive-salience、deltaFosB
+
+**矛盾登记（0）**：未登记新矛盾。ΔFosB 的适应性 vs 促成瘾效应（GluA2↑ 保护 vs CDK5↑ 促进）记录为 Q-addiction-02（未解问题），未达 contested 标准（两种效应非直接冲突，而是同一转录因子的不同下游通路）。
+
+**新增开放问题**：Q-addiction-01（成瘾记忆的消除 vs 覆盖）、Q-addiction-02（ΔFosB 适应性 vs 促成瘾效应的边界）；Q-habit-01 部分解答（成瘾不可逆性的双层机制）
+
+**解决的悬空引用**：`[[addiction]]`（habit-formation 页面中的引用现已由 substance-use-disorder 填补，并更新为正确 slug）
+
+**图谱**：155 节点（+4：substance-use-disorder, deltaFosB, incentive-salience, incubation-of-craving），900 边（+31 条新边）
+
+---
+
 ## 2026-07-13 · 文章 #81 · 行动的仲裁者：纹状体如何决定你该动还是不动，以及习惯是如何在神经回路中悄然生长的
 
 **核心主题**：基底节直接/间接通路的光遗传学因果证据（Kravitz 2010）、Haber螺旋-上升模型、背内侧（目标导向）vs背外侧（习惯）纹状体功能分化、括号化神经动力学（Jog 1999）、演员-批评家计算架构。

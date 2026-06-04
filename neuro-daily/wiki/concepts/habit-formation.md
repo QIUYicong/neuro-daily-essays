@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-13
-updated: 2026-07-13
-revision_count: 1
+updated: 2026-07-14
+revision_count: 2
 dimensions: [microcircuit, brain-region, behavior, cognition]
-related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, addiction]
+related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, substance-use-disorder, deltaFosB, incentive-salience]
 prerequisites: [basal-ganglia, dopamine-reward-prediction-error]
 opens_questions: [Q-bg-habit-goal-split, Q-habit-01, Q-habit-02]
-source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit]
-key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376"]
+source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit, 2026-07-14-addiction-dopamine-deltaFosB]
+key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376", "PMID:27475769", "PMID:21338877"]
 ---
 
 # 习惯形成（目标导向 vs 习惯性行为）(Habit Formation: Goal-Directed vs Habitual Behavior)
@@ -99,7 +99,9 @@ Piray et al. 2016（PMID:26961942，PMC:PMC6601762，开放全文）：
 - [[prefrontal-cortex]] — prelimbic/infralimbic PFC 分别促进目标导向和习惯系统
 - [[working-memory]] — 目标导向行为需要工作记忆维持当前目标和预期结果
 - [[engram-cells]] — 习惯形成可能包含纹状体印迹细胞的括号化重组
-- [[addiction]] — 成瘾可以被理解为习惯系统的病理性固化（devaluation-insensitive compulsive seeking）
+- [[substance-use-disorder]] — 成瘾是习惯系统的病理极端：DLS S-R 联结过度增强，叠加 NAc ΔFosB 积累和 CP-AMPA 突触重塑，形成贬值不敏感的强迫性觅药行为
+- [[deltaFosB]] — 成瘾中驱动 NAc D1-MSN 重编程的"分子叛徒"；其 CDK5 下游靶基因与 DLS 习惯性 S-R 联结增强协同
+- [[incentive-salience]] — 成瘾中 wanting 敏化而 liking 下降，揭示了习惯系统（S-R 联结）之外，动机系统解耦也是强迫觅药的独立驱动力
 
 ## 未解问题
 
@@ -110,7 +112,9 @@ Piray et al. 2016（PMID:26961942，PMC:PMC6601762，开放全文）：
 ## 修订历史
 
 - 2026-07-13 · 创建 · 基于《行动的仲裁者：纹状体如何决定你该动还是不动》(#81) · 初始置信度：高（多实验室、多物种）
+- 2026-07-14 · 修订 · 基于《欲望的叛变》(#82) · 补充成瘾作为习惯系统病理极端的机制（ΔFosB/NAc 突触重塑 + 激励显著性解耦）；更新 related 字段（addiction → substance-use-disorder, deltaFosB, incentive-salience）；Q-habit-01 部分解答（成瘾不可逆性双层机制）
 
 ## 来源文章
 
 - [[2026-07-13-striatum-direct-indirect-pathway-habit]]
+- [[2026-07-14-addiction-dopamine-deltaFosB]]

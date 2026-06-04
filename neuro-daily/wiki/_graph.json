@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-13",
+  "updated": "2026-07-14",
   "node_count": 151,
   "edge_count": 880,
   "edge_types": [
@@ -1372,6 +1372,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/burst-firing-lhb.md"
+    },
+    {
+      "id": "substance-use-disorder",
+      "title": "物质使用障碍（成瘾）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/substance-use-disorder.md"
+    },
+    {
+      "id": "deltaFosB",
+      "title": "ΔFosB（成瘾分子开关）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/deltaFosB.md"
+    },
+    {
+      "id": "incentive-salience",
+      "title": "激励显著性（Incentive Salience）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/incentive-salience.md"
+    },
+    {
+      "id": "incubation-of-craving",
+      "title": "渴望孵化（Incubation of Craving）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/incubation-of-craving.md"
     }
   ],
   "edges": [
@@ -6151,6 +6187,161 @@
     {
       "from": "precision-weighting",
       "to": "lateral-habenula",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "deltaFosB",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "incentive-salience",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "incubation-of-craving",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "lateral-habenula",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "hpa-axis",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "prefrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "substance-use-disorder",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "incubation-of-craving",
+      "type": "supports"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "substance-use-disorder",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "substance-use-disorder",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "ampa-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "nmda-receptor",
+      "type": "related"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "deltaFosB",
+      "type": "related"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "incentive-salience",
+      "type": "supports"
+    },
+    {
+      "from": "habit-formation",
+      "to": "substance-use-disorder",
+      "type": "related"
+    },
+    {
+      "from": "habit-formation",
+      "to": "deltaFosB",
+      "type": "related"
+    },
+    {
+      "from": "habit-formation",
+      "to": "incentive-salience",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "substance-use-disorder",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "incentive-salience",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "deltaFosB",
       "type": "related"
     }
   ],

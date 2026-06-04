@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-13（第81篇·行动的仲裁者·纹状体直接/间接通路与习惯形成）· 主题页总数：**150**（新建2页：habit-formation, actor-critic-model；修订2页：basal-ganglia rev2, dopamine-reward-prediction-error rev6；图谱151节点、~880边；新增Q-habit-01, Q-habit-02, Q-actor-critic-01, Q-actor-critic-02；Q-bg-habit-goal-split部分解答）
+> 最后更新：2026-07-14（第82篇·欲望的叛变·成瘾分子机制）· 主题页总数：**154**（新建4页：substance-use-disorder, deltaFosB, incentive-salience, incubation-of-craving；修订2页：habit-formation rev2, dopamine-reward-prediction-error rev7；图谱155节点、900边；解决悬空引用[[addiction]]；新增Q-addiction-01, Q-addiction-02；Q-habit-01部分解答）
 
 ---
 
@@ -85,8 +85,11 @@
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号；演员-批评家框架中批评家信号的神经实现 **[修订 rev6 2026-07-13]**
-- 🟢 [习惯形成（目标导向 vs 习惯性行为）](concepts/habit-formation.md) — DMS（目标导向/奖励贬值敏感）vs DLS（习惯/S-R联结）双系统并行竞争；括号化（Jog 1999）；奖励贬值测试；prelimbic/infralimbic PFC分工 **[NEW 2026-07-13]**
+- 🟢 [习惯形成（目标导向 vs 习惯性行为）](concepts/habit-formation.md) — DMS（目标导向/奖励贬值敏感）vs DLS（习惯/S-R联结）双系统并行竞争；括号化（Jog 1999）；奖励贬值测试；prelimbic/infralimbic PFC分工；成瘾作为习惯系统的病理极端（**修订 rev2 2026-07-14**）**[NEW 2026-07-13]**
 - 🔵 [演员-批评家模型（基底节的强化学习架构）](concepts/actor-critic-model.md) — NAc=批评家（TD误差/DA-RPE）；背侧纹状体=演员（策略更新）；model-based演员（DMS）vs model-free演员（DLS）对应目标导向vs习惯双系统 **[NEW 2026-07-13]**
+- 🟢 [ΔFosB（成瘾分子开关）](concepts/deltaFosB.md) — FosB截短剪接产物（缺失C端degron）；重复药物暴露后在NAc D1-MSN中积累（持续2-8周）；下游CDK5/树突棘↑、GluA2↑、dynorphin↓、G9a；与CREB拮抗（established, confidence:high）**[NEW 2026-07-14]**
+- 🔵 [激励显著性（Incentive Salience）](concepts/incentive-salience.md) — 多巴胺编码wanting（动机性吸引力）而非liking（快感）；成瘾中wanting被敏化而liking下降；L-DOPA实验直接分离；解释"为什么不再喜欢却仍然想要"（mainstream, confidence:medium）**[NEW 2026-07-14]**
+- 🟢 [渴望孵化（Incubation of Craving）](concepts/incubation-of-craving.md) — 戒断后渴望在6-7周达峰（非递减）；NAc沉默突触→CP-AMPA插入（钙通透）是突触基础；BLA→NAc投射特异性；光遗传LTD重沉默可恢复环境丰富化治疗效果（established, confidence:high）**[NEW 2026-07-14]**
 - 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；填补 hebbian-learning 悬空引用；纹状体直接实验验证 **[NEW 2026-06-07]**
 - 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题 **[NEW 2026-06-07]**
 
@@ -186,6 +189,7 @@
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
+- 🟢 [物质使用障碍（成瘾）](diseases/substance-use-disorder.md) — 三阶段模型（基底节陶醉期/扩展杏仁核戒断负性情绪/PFC渴望期）；ΔFosB 分子开关；NAc CP-AMPA 渴望孵化；D2 受体下调（PET 跨物质一致）；激励显著性 wanting/liking 神经分离 **[NEW 2026-07-14]**
 
 ---
 

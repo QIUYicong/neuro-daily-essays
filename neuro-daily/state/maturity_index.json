@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-12",
+  "last_updated": "2026-07-14",
   "levels": [
     "speculative",
     "emerging",
@@ -972,6 +972,42 @@
       "revision_count": 2,
       "last_updated": "2026-07-12",
       "change_reason": "2026-07-12: Rev 2 - Added direct pharmacological evidence (Haarsma 2020 sulpiride disrupts precision weighting, FEP patients lack precision weighting). Status emerging; dopamine mechanism partially validated."
+    },
+    {
+      "slug": "substance-use-disorder",
+      "page": "wiki/diseases/substance-use-disorder.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-14",
+      "change_reason": "新建（文章 #82，2026-07-14）。Koob & Volkow 2016（PMID:27475769，PMC5705920）三阶段成瘾模型整合了数十年多物种、多物质的证据，是领域的权威框架；Volkow 2001（PMID:11572966，Science）PET 研究提供 D2 受体降低的跨物质人类证据；Nestler 2012（PMID:21338877）ΔFosB 分子开关证据在多实验室验证；Ma & Dong 2016（PMID:27135923）提供 CP-AMPA/渴求孵化的因果光遗传实验；Robinson & Berridge 2008（PMID:18640920）提供激励显著性框架支持。成瘾作为脑部疾病的临床分类是DSM-5和ICD-11的既定标准。整体 established/high；特定机制（渴求孵化在人类的直接证据、allostasis分子底物完整图谱）仍有开放问题。"
+    },
+    {
+      "slug": "deltaFosB",
+      "page": "wiki/concepts/deltaFosB.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-14",
+      "change_reason": "新建（文章 #82，2026-07-14）。ΔFosB 作为成瘾分子开关的核心证据：(1) ΔFosB 因 C 端降解域缺失而在 NAc D1-MSN 中稳定积累（Nestler 2012, PMID:21338877, PMC3301555 全文）——30天后仍可检测；(2) 下游靶基因（CDK5↑, GluA2↑, dynorphin↓, G9a↑）构成一致的分子特征，每条通路有独立验证；(3) 病毒过表达 ΔFosB→放大药物敏化（Nestler lab 多项研究）；(4) ΔFosB 与 CREB 的对抗关系在行为学上表现为急性/慢性奖励解耦。主要不确定性：ΔFosB 在运动/自然奖励中也积累，何种条件导致成瘾 vs 适应（Q-addiction-02）。整体 established/high。"
+    },
+    {
+      "slug": "incentive-salience",
+      "page": "wiki/concepts/incentive-salience.md",
+      "status": "mainstream",
+      "confidence": "medium",
+      "revision_count": 1,
+      "last_changed": "2026-07-14",
+      "change_reason": "新建（文章 #82，2026-07-14）。Wanting/Liking 分离的核心证据：(1) 多巴胺耗竭（6-OHDA）大鼠不再主动寻觅食物但吃到嘴里仍表现享乐反应（Berridge & Robinson 1998）——最有力的双解离证据；(2) L-DOPA 治疗增强 Wanting 行为而不改变 Liking 评分（Robinson & Berridge 2008, PMC2607325）；(3) NAc 壳区 μ-阿片/内源大麻素'热点'介导 Liking（≠ Wanting 底物）。设为 mainstream/medium（非 established）原因：(a) 在人类的直接测量困难，主要依赖间接行为指标；(b) 奖励预测误差（DA-RPE）与激励显著性框架整合尚未完全厘清；(c) 部分研究发现 DA 也影响 Liking（小规模研究）。"
+    },
+    {
+      "slug": "incubation-of-craving",
+      "page": "wiki/concepts/incubation-of-craving.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-14",
+      "change_reason": "新建（文章 #82，2026-07-14）。渴求孵化现象的证据：(1) Pickens & Shaham 2011 综述系统记录了古柯碱、甲基苯丙胺、海洛因等物质的 6-7 周渴求峰值（多实验室重复）；(2) CP-AMPA 插入时程与渴求峰值对应（Conrad 2008，pharmacological evidence）；(3) Ma & Dong 2016（PMID:27135923, PMC4862637）光遗传 LTD 重置 BLA→NAc 静默突触 → 消除孵化行为（直接因果实验，最高标准证据）；(4) BLA→NAc 投射特异性有解剖定位证据。整体 established/high；主要不确定性：人类戒断期渴求峰值的精确时间线（与啮齿类时间尺度差异）；自然奖励渴求孵化的动态是否遵循相同机制。"
     }
   ],
   "embodied-semantics": {

@@ -1,7 +1,84 @@
 {
-  "last_updated": "2026-07-13",
-  "total_articles": 81,
+  "last_updated": "2026-07-14",
+  "total_articles": 82,
   "entries": [
+    {
+      "date": "2026-07-14",
+      "title": "欲望的叛变：成瘾如何在分子层面重写大脑的奖励规则",
+      "filename": "2026-07-14-addiction-dopamine-deltaFosB.md",
+      "wiki_pages_created": [
+        "wiki/diseases/substance-use-disorder.md",
+        "wiki/concepts/deltaFosB.md",
+        "wiki/concepts/incentive-salience.md",
+        "wiki/concepts/incubation-of-craving.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/habit-formation.md",
+        "wiki/concepts/dopamine-reward-prediction-error.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当多巴胺奖励系统被成瘾药物反复激活，ΔFosB如何在NAc D1-MSN中作为持续分子开关驱动基因重编程（CDK5→树突棘↑/dynorphin↓/G9a表观遗传）；沉默突触如何在戒断期成熟并插入CP-AMPA受体导致渴望孵化（6-7周达峰）；以及激励显著性框架如何解释'wanting（多巴胺）vs liking（阿片类）'的神经分离——即为什么成瘾者强迫性追求已不再给予快乐的东西？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "11. 疾病作为窗口（第5篇，直接承接#81习惯形成的病理极端）；回应Q-habit-01（高优先级未解问题）；填补wiki悬空引用[[addiction]]；跨越分子→突触→回路→系统四个层级",
+      "topic_tags": [
+        "addiction",
+        "substance use disorder",
+        "dopamine",
+        "nucleus accumbens",
+        "deltaFosB",
+        "molecular switch",
+        "incentive salience",
+        "wanting vs liking",
+        "Robinson Berridge",
+        "incubation of craving",
+        "silent synapse",
+        "CP-AMPA",
+        "calcium-permeable AMPA",
+        "VTA LTP",
+        "D2 receptor downregulation",
+        "allostasis",
+        "Koob Volkow",
+        "Nestler",
+        "CDK5",
+        "extended amygdala",
+        "CRF dynorphin",
+        "PFC glutamate",
+        "three-stage model",
+        "binge intoxication",
+        "withdrawal negative affect",
+        "preoccupation anticipation",
+        "habit formation disease",
+        "Ma Dong 2016 re-silencing",
+        "environmental enrichment relapse"
+      ],
+      "main_sources": [
+        "PMID:11572966 (PMC58680, open full text, Nestler 2001 PNAS, DeltaFosB molecular switch)",
+        "PMID:21989194 (PMC3272277, open full text, Robison & Nestler 2011 NatRevNeurosci, transcriptional epigenetic mechanisms)",
+        "PMID:21338877 (PMC4046255, open full text, Luscher & Malenka 2011 Neuron, drug-evoked synaptic plasticity)",
+        "PMID:18640920 (PMC2607325, open full text, Robinson & Berridge 2008 Phil Trans R Soc B, incentive sensitization)",
+        "PMID:27475769 (PMC6135092, open full text, Koob & Volkow 2016 Lancet Psychiatry, addiction neurocircuitry)",
+        "PMID:19710631 (PMC2805560, open full text, Koob & Volkow 2010 Neuropsychopharmacology, neurocircuitry of addiction)",
+        "PMID:27091967 (PMC4983865, open full text, Ma & Dong 2016 PNAS, re-silencing silent synapses)",
+        "PMID:23426671 (PMC3865508, open full text, Pitchers & Coolen 2013 J Neurosci, deltaFosB natural rewards)",
+        "PMID:24459410 (PMC3898681, open full text, Nestler 2013 Dialogues, cellular basis of addiction memory)",
+        "PMID:8401595 (abstract only, paywall, Robinson & Berridge 1993 Brain Res Rev, incentive sensitization theory)"
+      ],
+      "unresolved_questions": [
+        "Q-habit-01 (partially answered)",
+        "Q-addiction-01",
+        "Q-addiction-02"
+      ],
+      "note": "系统时钟 UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期 2026-07-14；10个来源，9篇开放全文；填补悬空引用[[addiction]]（habit-formation页面）；Q-habit-01部分解答"
+    },
     {
       "date": "2026-07-13",
       "title": "行动的仲裁者：纹状体如何决定你该动还是不动，以及习惯是如何在神经回路中悄然生长的",

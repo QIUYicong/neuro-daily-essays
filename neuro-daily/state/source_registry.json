@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12",
+  "last_updated": "2026-07-14",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6160,6 +6160,178 @@
       "full_text": false,
       "used_in": "2026-07-12-predictive-coding-cortical-inference",
       "covers": "critical review of empirical support for predictive coding, falsifiability concerns"
+    },
+    {
+      "pmid": "11572966",
+      "pmcid": "PMC58680",
+      "title": "DeltaFosB: a sustained molecular switch for addiction",
+      "authors_short": "Nestler et al.",
+      "journal": "PNAS",
+      "year": 2001,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "deltaFosB",
+        "NAc",
+        "D1-MSN",
+        "molecular switch",
+        "addiction"
+      ]
+    },
+    {
+      "pmid": "21989194",
+      "pmcid": "PMC3272277",
+      "title": "Transcriptional and epigenetic mechanisms of addiction",
+      "authors_short": "Robison & Nestler",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2011,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "deltaFosB",
+        "CREB",
+        "NF-kB",
+        "G9a",
+        "epigenetics",
+        "addiction"
+      ]
+    },
+    {
+      "pmid": "21338877",
+      "pmcid": "PMC4046255",
+      "title": "Drug-evoked synaptic plasticity in addiction: from molecular changes to circuit remodeling",
+      "authors_short": "Lüscher & Malenka",
+      "journal": "Neuron",
+      "year": 2011,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "VTA",
+        "NAc",
+        "silent synapse",
+        "CP-AMPA",
+        "incubation of craving",
+        "D1 D2 MSN"
+      ]
+    },
+    {
+      "pmid": "18640920",
+      "pmcid": "PMC2607325",
+      "title": "The incentive sensitization theory of addiction: some current issues",
+      "authors_short": "Robinson & Berridge",
+      "journal": "Phil Trans R Soc B",
+      "year": 2008,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "incentive salience",
+        "wanting vs liking",
+        "dopamine sensitization"
+      ]
+    },
+    {
+      "pmid": "27475769",
+      "pmcid": "PMC6135092",
+      "title": "Neurobiology of addiction: a neurocircuitry analysis",
+      "authors_short": "Koob & Volkow",
+      "journal": "Lancet Psychiatry",
+      "year": 2016,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "addiction three-stage model",
+        "D2 downregulation",
+        "allostasis",
+        "extended amygdala",
+        "PFC"
+      ]
+    },
+    {
+      "pmid": "19710631",
+      "pmcid": "PMC2805560",
+      "title": "Neurocircuitry of addiction",
+      "authors_short": "Koob & Volkow",
+      "journal": "Neuropsychopharmacology",
+      "year": 2010,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "addiction circuits",
+        "dopamine",
+        "compulsive drug seeking"
+      ]
+    },
+    {
+      "pmid": "27091967",
+      "pmcid": "PMC4983865",
+      "title": "Re-silencing of silent synapses unmasks anti-relapse effects of environmental enrichment",
+      "authors_short": "Ma & Dong",
+      "journal": "PNAS",
+      "year": 2016,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "silent synapse",
+        "CP-AMPA",
+        "optogenetic LTD",
+        "incubation of craving",
+        "relapse"
+      ]
+    },
+    {
+      "pmid": "23426671",
+      "pmcid": "PMC3865508",
+      "title": "Natural and drug rewards act on common neural plasticity mechanisms with deltaFosB as a key mediator",
+      "authors_short": "Pitchers & Coolen et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2013,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "deltaFosB",
+        "natural rewards",
+        "common plasticity mechanisms"
+      ]
+    },
+    {
+      "pmid": "24459410",
+      "pmcid": "PMC3898681",
+      "title": "Cellular basis of memory for addiction",
+      "authors_short": "Nestler",
+      "journal": "Dialogues in Clinical Neuroscience",
+      "year": 2013,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "addiction memory",
+        "epigenetics",
+        "deltaFosB"
+      ]
+    },
+    {
+      "pmid": "8401595",
+      "pmcid": null,
+      "title": "The neural basis of drug craving: an incentive-sensitization theory of addiction",
+      "authors_short": "Robinson & Berridge",
+      "journal": "Brain Research Reviews",
+      "year": 1993,
+      "used_in_articles": [
+        "2026-07-14-addiction-dopamine-deltaFosB"
+      ],
+      "topics_covered": [
+        "incentive salience",
+        "incentive sensitization theory"
+      ],
+      "note": "abstract only"
     }
   ],
   "total_sources": 313,

@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-07-13
-revision_count: 6
+updated: 2026-07-14
+revision_count: 7
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation, substance-use-disorder, incentive-salience, deltaFosB]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-14-addiction-dopamine-deltaFosB]
 key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583"]
 ---
 
@@ -127,6 +127,24 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 | LHb通过RMTg（GABA）提供DA神经元的负预测误差输入 | 灵长类三区同步记录+电刺激（94% DA被抑制）| PMID:21832176（PMC3315151）| 高 |
 | LHb慢性爆发放电→持续DA抑制→抑郁 | 体内电生理+光遗传因果实验 | PMID:29446381 | 高 |
 
+## DA-RPE 在成瘾中的系统性崩溃（2026-07-14 补充）
+
+成瘾是 DA-RPE 系统遭受最极端破坏的病理模型（Koob & Volkow 2016, PMID:27475769, PMC6135092）：
+
+**超生理 RPE 冲击**：可卡因等成瘾药物将 NAc 多巴胺提升至基线约 20 倍（食物奖励约 3-5 倍），产生远超任何自然奖励的 δ 信号，使 D1-MSN 过度激活，并通过 ΔFosB 积累留下持久分子印记。
+
+**RPE 系统的 allostatic 重设**：重复药物暴露后，多巴胺的稳态基线下降（对所有奖励的 phasic 响应减弱），DA 系统整体敏感性降低——但对**药物相关线索**的响应因敏化而增强。这种不对称性是"对自然奖励无感，对药物线索过度敏感"的神经机制。
+
+**D2 受体下调**：PET 成像一致发现，多种物质成瘾者（可卡因、酒精、阿片类、甲基苯丙胺）的纹状体 D2 受体结合力显著降低。D2（间接通路，NoGo）信号减弱 → "刹车"失效 → 药物寻求行为的抑制能力下降。
+
+**连接到激励显著性**：DA-RPE 信号的成瘾性改变与激励显著性（wanting）系统的选择性敏化密切相关，但并不等同——Robinson & Berridge 的框架补充了"DA 编码 wanting 而非 liking"的关键维度，即 DA-RPE 在成瘾中驱动的是动机性接近行为，而非快感体验。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| 可卡因将 NAc DA 提升约 20 倍于基线 | 大鼠 NAc 微透析（体内实时测量） | PMID:27475769 综述 | 高 |
+| 成瘾者纹状体 D2 结合力下降（多种物质） | PET 成像（多实验室，人类） | PMID:27475769 综述 | 高 |
+| 成瘾中 DA 选择性驱动 wanting（激励显著性）而非 liking | L-DOPA 分离实验（人类）；DA 耗竭行为学 | PMID:18640920 (PMC2607325) | 中-高 |
+
 ## DA-RPE作为演员-批评家框架中批评家信号（2026-07-13 补充）
 
 在基底节的演员-批评家架构中，DA-RPE不只是抽象的教学信号，而是有具体神经解剖角色：
@@ -143,6 +161,7 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 - 2026-07-11 · 修订 · 补充LHb→RMTg→DA负预测误差回路底物
 - 2026-07-12 · 修订 · 补充DA-RPE在更广义预测编码框架中的定位
 - 2026-07-13 · 修订 · 基于《行动的仲裁者》(#81) · 补充DA-RPE作为演员-批评家框架批评家信号的解剖角色；新增关联actor-critic-model, habit-formation
+- 2026-07-14 · 修订 · 基于《欲望的叛变》(#82) · 补充 DA-RPE 系统在成瘾中的 allostatic 崩溃（超生理冲击、D2 下调、wanting/liking 分离）；新增关联 substance-use-disorder、incentive-salience、deltaFosB
 
 ## 来源文章
 
@@ -152,3 +171,4 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 - [[2026-07-11-lateral-habenula-depression-ketamine]]
 - [[2026-07-12-predictive-coding-cortical-inference]]
 - [[2026-07-13-striatum-direct-indirect-pathway-habit]]
+- [[2026-07-14-addiction-dopamine-deltaFosB]]
