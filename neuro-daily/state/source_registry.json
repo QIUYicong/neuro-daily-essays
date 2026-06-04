@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-15",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6332,6 +6332,164 @@
         "incentive sensitization theory"
       ],
       "note": "abstract only"
+    },
+    {
+      "pmid": "22766458",
+      "pmcid": "PMC3468690",
+      "title": "The cortical organization of speech processing: feedback control and predictive coding the context of a dual-stream model",
+      "authors": "Hickok G",
+      "journal": "J Commun Disord",
+      "year": 2012,
+      "used_in": [
+        "2026-07-15-language-network-dual-stream"
+      ],
+      "covers": [
+        "dual stream model",
+        "Spt junction",
+        "conduction aphasia",
+        "predictive coding in language"
+      ]
+    },
+    {
+      "pmid": "29183630",
+      "pmcid": "PMC5771843",
+      "title": "Where, When, and How: Are they all sensorimotor? Towards a unified view of the dorsal pathway in vision and audition",
+      "authors": "Rauschecker JP",
+      "journal": "Cortex",
+      "year": 2018,
+      "used_in": [
+        "2026-07-15-language-network-dual-stream"
+      ],
+      "covers": [
+        "dorsal stream",
+        "where/when/how framework",
+        "sensorimotor integration",
+        "language evolution"
+      ]
+    },
+    {
+      "pmid": "35267079",
+      "pmcid": "PMC9098557",
+      "title": "Converting sounds to meaning with ventral semantic language networks",
+      "authors": "Sefcikova V et al.",
+      "journal": "Brain Struct Funct",
+      "year": 2022,
+      "used_in": [
+        "2026-07-15-language-network-dual-stream"
+      ],
+      "covers": [
+        "ventral stream white matter",
+        "IFOF",
+        "UF",
+        "ILF",
+        "MLF",
+        "DES clinical evidence"
+      ]
+    },
+    {
+      "pmid": "32160565",
+      "pmcid": "PMC7211504",
+      "title": "Broca's Area Is Not a Natural Kind",
+      "authors": "Fedorenko E, Blank IA",
+      "journal": "Trends Cogn Sci",
+      "year": 2020,
+      "used_in": [
+        "2026-07-15-language-network-dual-stream"
+      ],
+      "covers": [
+        "Broca area heterogeneity",
+        "LANG network",
+        "MD network",
+        "language-selective component",
+        "individual functional localization"
+      ]
+    },
+    {
+      "pmid": "31874149",
+      "pmcid": "PMC7140726",
+      "title": "fMRI reveals language-specific predictive coding during naturalistic sentence comprehension",
+      "authors": "Shain C, Fedorenko E",
+      "journal": "Neuropsychologia",
+      "year": 2020,
+      "used_in": [
+        "2026-07-15-language-network-dual-stream"
+      ],
+      "covers": [
+        "language-specific predictive coding",
+        "surprisal",
+        "LANG vs MD",
+        "naturalistic fMRI"
+      ]
+    },
+    {
+      "pmid": "28053037",
+      "pmcid": "PMC6705671",
+      "title": "Left Anterior Temporal Lobe and Bilateral Anterior Cingulate Cortex Are Semantic Hub Regions",
+      "authors": "Zhao Y, Han Z et al.",
+      "journal": "J Neurosci",
+      "year": 2017,
+      "used_in": [
+        "2026-07-15-language-network-dual-stream"
+      ],
+      "covers": [
+        "ATL semantic hub",
+        "nodal degree",
+        "disconnection mechanism",
+        "semantic processing"
+      ]
+    },
+    {
+      "pmid": "35094061",
+      "pmcid": "PMC9574238",
+      "title": "Distinct roles for the anterior temporal lobe and angular gyrus in the spatiotemporal cortical semantic network",
+      "authors": "Farahibozorg SR, Hauk O et al.",
+      "journal": "Cereb Cortex",
+      "year": 2022,
+      "used_in": [
+        "2026-07-15-language-network-dual-stream"
+      ],
+      "covers": [
+        "ATL timing",
+        "angular gyrus",
+        "DCM",
+        "EEG MEG",
+        "semantic hub sequence"
+      ]
+    },
+    {
+      "pmid": "19004769",
+      "pmcid": null,
+      "title": "Ventral and dorsal pathways for language",
+      "authors": "Saur D et al.",
+      "journal": "Proc Natl Acad Sci USA",
+      "year": 2008,
+      "full_text_available": false,
+      "used_in": [
+        "2026-07-15-language-network-dual-stream"
+      ],
+      "covers": [
+        "DTI fMRI dual pathway",
+        "extreme capsule",
+        "arcuate fasciculus",
+        "dorsal/ventral language streams"
+      ]
+    },
+    {
+      "pmid": "41750142",
+      "pmcid": "PMC12938411",
+      "title": "The Cortico-Cortical and Subcortical Circuits of the Human Brain Language Centers and Networks",
+      "authors": "Kamali A et al.",
+      "journal": "Brain Sciences",
+      "year": 2026,
+      "used_in": [
+        "2026-07-15-language-network-dual-stream"
+      ],
+      "covers": [
+        "frontal aslant tract",
+        "thalamic language circuits",
+        "subcortical language",
+        "extended language network"
+      ]
     }
   ],
   "total_sources": 313,
@@ -7712,5 +7870,6 @@
     "31018098",
     "10576743",
     "27235078"
-  ]
+  ],
+  "total_count": 349
 }

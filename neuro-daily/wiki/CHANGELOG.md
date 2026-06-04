@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-15 · 文章 #83 · 听懂一句话：大脑如何用双流网络将声音转化为意义
+
+**核心主题**：语言双流模型深化（Hickok & Poeppel）——腹流（ATL语义枢纽→hub-and-spoke）与背流（Spt区→传导性失语症自然实验）的功能解剖；Fedorenko & Blank 2020对"Broca区不是自然种类"的重要证明（LANG/MD三成分分离）；Shain & Fedorenko 2020语言专属surprisal效应（仅在LANG网络，不在MD网络）；腹流四大白质束（IFOF/UF/ILF/MLF）的DES临床证据；ATL作为语义枢纽的病变-网络和EEG/MEG时序证据。
+
+**新建页面（1）**：
+- `concepts/anterior-temporal-lobe-hub.md` rev1 — 前颞叶语义枢纽：hub-and-spoke模型；语义痴呆为自然实验；ATL 0-250ms早期激活、角回 250-450ms晚期接管；fMRI磁敏感低估问题（established, confidence:high）
+
+**修订页面（3）**：
+- `systems/broca-area.md` rev2 — 重大修订：新增LANG/MD三成分框架（语言专属/多需求/发音）；更新一句话定义"Broca区不是自然种类"；新增四条独立证据；说明群体平均fMRI中的6mm混叠问题；依据Fedorenko & Blank 2020 (PMID:32160565)
+- `circuits/ventral-language-stream.md` rev2 — 新增腹流四大白质束详细描述（IFOF/UF/ILF/MLF）及DES临床验证（Sefcikova 2022）；新增ATL语义枢纽为关键节点；新增三条证据表行（Zhao 2017, Farahibozorg 2022, Sefcikova 2022）
+- `systems/language-network.md` rev4 — 新增LANG/MD网络分离（Fedorenko 2020）；新增语言专属预测编码（Shain 2020，surprisal仅在LANG网络）；新增ATL语义枢纽为腹流关键节点
+
+**矛盾登记（0）**：今日无新增矛盾。背流在语言理解中的作用争议（Hickok vs 具身认知阵营）记录为已知争议点，在文章中并列呈现，但因两者研究条件差异大（清晰 vs 模糊语音），未达需登记 contested_claims 的阈值。
+
+**新增开放问题**：Q-lang-01（极端囊 vs 弓状束腹侧段：语义理解的关键白质通路）、Q-lang-02（ATL fMRI低估问题的范围）、Q-lang-03（语言网络左侧化的发育机制）、Q-lang-04（ATL语义整合的计算机制）
+
+**解决的悬空引用**：无（`[[anterior-temporal-lobe-hub]]` 新引用由同日新建页面填补）
+
+**图谱**：156 节点（+1：anterior-temporal-lobe-hub），906 边（+6 条新边）
+
+---
+
 ## 2026-07-14 · 文章 #82 · 欲望的叛变：成瘾如何在分子层面重写大脑的奖励规则
 
 **核心主题**：成瘾的三阶段神经回路模型（Koob & Volkow 2016）、ΔFosB 作为持续分子开关（Nestler 2001）、激励显著性 wanting/liking 分离（Robinson & Berridge）、NAc 沉默突触成熟与渴望孵化（Lüscher & Malenka 2011；Ma & Dong 2016）、D2 受体下调与 allostatic 重设。

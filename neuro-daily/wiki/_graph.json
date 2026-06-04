@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-14",
+  "updated": "2026-07-15",
   "node_count": 151,
   "edge_count": 880,
   "edge_types": [
@@ -1408,6 +1408,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/incubation-of-craving.md"
+    },
+    {
+      "id": "anterior-temporal-lobe-hub",
+      "title": "前颞叶语义枢纽（ATL Hub）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/anterior-temporal-lobe-hub.md"
     }
   ],
   "edges": [
@@ -6343,6 +6352,36 @@
       "from": "dopamine-reward-prediction-error",
       "to": "deltaFosB",
       "type": "related"
+    },
+    {
+      "from": "anterior-temporal-lobe-hub",
+      "to": "ventral-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "anterior-temporal-lobe-hub",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "anterior-temporal-lobe-hub",
+      "to": "embodied-semantics",
+      "type": "related"
+    },
+    {
+      "from": "ventral-language-stream",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "broca-area",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "related"
+    },
+    {
+      "from": "language-network",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

@@ -1,7 +1,78 @@
 {
-  "last_updated": "2026-07-14",
-  "total_articles": 82,
+  "last_updated": "2026-07-15",
+  "total_articles": 83,
   "entries": [
+    {
+      "date": "2026-07-15",
+      "title": "听懂一句话：大脑如何用双流网络将声音转化为意义",
+      "filename": "2026-07-15-language-network-dual-stream.md",
+      "wiki_pages_created": [
+        "wiki/concepts/anterior-temporal-lobe-hub.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/broca-area.md",
+        "wiki/circuits/ventral-language-stream.md",
+        "wiki/systems/language-network.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "为什么Broca-Wernicke二分模型已不成立，而双流模型（腹流：声音→ATL语义枢纽→意义；背流：声音→Spt→运动）加LANG/MD网络分离（Fedorenko 2020），才能准确描述大脑语言处理的神经架构？",
+      "layer": [
+        "whole-brain-network",
+        "cognition",
+        "brain-region"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（第1篇，开启语言课程轨道）；深化双流模型、ATL枢纽、LANG/MD分离三大关键概念",
+      "topic_tags": [
+        "language network",
+        "dual stream model",
+        "Hickok Poeppel",
+        "dorsal stream",
+        "ventral stream",
+        "Broca area",
+        "Wernicke area",
+        "anterior temporal lobe",
+        "ATL hub",
+        "hub-and-spoke",
+        "semantic dementia",
+        "conduction aphasia",
+        "Spt junction",
+        "arcuate fasciculus",
+        "IFOF",
+        "UF",
+        "ILF",
+        "MLF",
+        "LANG network",
+        "MD network",
+        "Fedorenko",
+        "surprisal",
+        "language-specific predictive coding",
+        "Shain Fedorenko 2020",
+        "fMRI individual localization",
+        "DES direct electrical stimulation",
+        "semantic hub",
+        "white matter tracts",
+        "speech comprehension"
+      ],
+      "main_sources": [
+        "PMID:22766458 (PMC3468690, open full text, Hickok 2012 J Commun Disord, dual stream + predictive coding)",
+        "PMID:29183630 (PMC5771843, open full text, Rauschecker 2018 Cortex, dorsal pathway where/when/how)",
+        "PMID:35267079 (PMC9098557, open full text, Sefcikova 2022 Brain Struct Funct, ventral tracts DES)",
+        "PMID:32160565 (PMC7211504, open full text, Fedorenko & Blank 2020 Trends Cogn Sci, Broca not a natural kind)",
+        "PMID:31874149 (PMC7140726, open full text, Shain & Fedorenko 2020, language-specific surprisal)",
+        "PMID:28053037 (PMC6705671, open full text, Zhao 2017 J Neurosci, ATL semantic hub)",
+        "PMID:35094061 (PMC9574238, open full text, Farahibozorg 2022 Cereb Cortex, ATL-AG timing)",
+        "PMID:19004769 (abstract only, paywall, Saur 2008 PNAS, DTI+fMRI dual pathway)",
+        "PMID:41750142 (PMC12938411, open full text, Kamali 2026 Brain Sci, extended language circuits)"
+      ],
+      "unresolved_questions": [
+        "Q-lang-01 (新增)",
+        "Q-lang-02 (新增)",
+        "Q-lang-03 (新增)",
+        "Q-lang-04 (新增)"
+      ],
+      "note": "系统时钟 UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期 2026-07-15；9个来源，7篇开放全文；开启课程第7轨道（语言与抽象思维）；修订3页+新建1页；LANG/MD网络分离是本篇最重要新增知识点"
+    },
     {
       "date": "2026-07-14",
       "title": "欲望的叛变：成瘾如何在分子层面重写大脑的奖励规则",

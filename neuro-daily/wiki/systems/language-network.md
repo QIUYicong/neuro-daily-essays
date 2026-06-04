@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-06-02
-revision_count: 3
+updated: 2026-07-15
+revision_count: 4
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
 opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
-source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302"]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:32160565", "PMID:31874149", "PMID:28053037"]
 ---
 
 # 语言网络（双流模型）(Dual-Stream Language Network)
@@ -30,7 +30,15 @@ key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302"
 
 Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算（"Merge"操作）的节点，属于背侧流；BA45（pars triangularis）是语义工作记忆节点，属于腹侧流。
 
-大脑对语言的处理是**主动预测**：额叶在词汇到达前200ms已生成语义-感觉运动预测，颞叶返回预测误差，构成预测-更新循环（Grisoni et al. 2024）。
+大脑对语言的处理是**主动预测**：额叶在词汇到达前200ms已生成语义-感觉运动预测，颞叶返回预测误差，构成预测-更新循环（Grisoni et al. 2024）。**关键新证据**：这种语言预测（surprisal效应）是**语言专属回路**的产物，而非域通用认知控制的副产品——Shain & Fedorenko 2020（PMC7140726，n=78）用自然语言fMRI证明，surprisal效应仅在LANG网络中显著（β=0.307-0.352，解释37%可解释方差），在MD（多需求）网络中几乎为零（β≈-0.025/0.097）。
+
+**LANG网络 vs MD网络的关键分离**（Fedorenko & Blank 2020，PMC7211504）：
+- LANG网络（语言专属，左侧化额颞）：在清晰有意义的语言中激活最强，在降质语言中减弱
+- MD网络（域通用，双侧额顶）：在认知困难任务中激活最强，在清晰语言中较弱——方向**相反**
+- 两者在IFG（Broca区）解剖上重叠，但功能上相互独立（个体时序相关性≈0或负）
+- 解决了"Broca区在语言 vs 认知控制中的角色"的长期争论
+
+前颞叶（ATL）是腹流的**语义枢纽**（→见[[anterior-temporal-lobe-hub]]），以Hub-and-Spoke架构整合各感觉模态的特异表征。
 
 手语研究（Trettenbrein et al. 2021）证明该网络是**超模态的**——手语使用与口语处理激活相同的左侧Broca区，左半球优势反映的是抽象层级符号运算，而非声音处理的特化。
 
@@ -82,8 +90,10 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
 - 2026-06-21 · 修订 · 新增镜像神经元（F5/BA44同源）与运动皮层的连接，补充语言演化的动作理解背景 · 依据《从意图到动作》（#57）
+- 2026-07-15 · 重要修订 · 新增LANG/MD网络关键分离（Fedorenko 2020）；新增语言专属预测编码（Shain 2020）；新增ATL语义枢纽作为腹流核心节点；更新related/key_sources
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
 - [[2026-06-21-motor-cortex-voluntary-movement]]
+- [[2026-07-15-language-network-dual-stream]]
