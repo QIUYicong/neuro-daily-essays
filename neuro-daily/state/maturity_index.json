@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-12",
   "levels": [
     "speculative",
     "emerging",
@@ -572,7 +572,10 @@
       "status": "mainstream",
       "confidence": "medium",
       "last_changed": "2026-06-16",
-      "reason": "修订rev2：添加DMN作为预测编码层级高层先验生成器的关联；原有框架状态不变（mainstream/medium）"
+      "reason": "修订rev2：添加DMN作为预测编码层级高层先验生成器的关联；原有框架状态不变（mainstream/medium）",
+      "last_updated": "2026-07-12",
+      "revision_count": 6,
+      "change_reason": "2026-07-12: Rev 6 - New direct neuronal evidence (PEONs, Yaron 2025) and pharmacological evidence (precision weighting + dopamine, Haarsma 2020). Hodson 2024 review cautions about limited empirical status, maintaining medium confidence."
     },
     {
       "slug": "amygdala",
@@ -959,6 +962,16 @@
       "revision_count": 1,
       "last_changed": "2026-07-11",
       "change_reason": "新建（文章 #79，2026-07-11）。LHb 爆发放电的两种机制均有直接实验证据：(1) βCaMKII↑→GluA1-AMPAR↑→突触增强机制由 Li 2013（PMID:23990563，光遗传因果）确立，高置信；(2) Kir4.1 星形胶质细胞失调→K⁺ 堆积→超极化→T 型 Ca²⁺ 爆发机制由 Cui 2018（PMID:29446379）确立，但论文为 paywall；Yang 2018（PMID:29446381）NMDAR 依赖性爆发阻断证据强（大鼠 in vivo 光遗传）。有 C-2026-07-11-01 NMDAR 物种差异争议，不足以降低整体 established 状态（只影响 NMDAR 普遍性子主张）。整体 established/high，NMDAR 依赖性子声明的置信度 medium（受 C-2026-07-11-01 限制）。"
+    },
+    {
+      "slug": "precision-weighting",
+      "title": "精度加权",
+      "domain": "concepts",
+      "status": "emerging",
+      "confidence": "medium",
+      "revision_count": 2,
+      "last_updated": "2026-07-12",
+      "change_reason": "2026-07-12: Rev 2 - Added direct pharmacological evidence (Haarsma 2020 sulpiride disrupts precision weighting, FEP patients lack precision weighting). Status emerging; dopamine mechanism partially validated."
     }
   ],
   "embodied-semantics": {

@@ -1,10 +1,67 @@
 {
-  "last_updated": "2026-07-11",
-  "total_articles": 79,
+  "last_updated": "2026-07-12",
+  "total_articles": 80,
   "entries": [
     {
+      "date": "2026-07-12",
+      "title": "世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架",
+      "filename": "2026-07-12-predictive-coding-cortical-inference.md",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/theories/predictive-coding.md",
+        "wiki/concepts/precision-weighting.md",
+        "wiki/concepts/dopamine-reward-prediction-error.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "视觉皮层从V1到IT的反馈连接数量约是前馈连接10倍——这种奢侈的解剖学比例揭示了什么？预测编码框架如何从分子到全脑网络，统一解释感知、注意、学习与精神疾病？",
+      "layer": [
+        "theory",
+        "cognition",
+        "whole-brain-network",
+        "brain-region",
+        "microcircuit",
+        "molecular"
+      ],
+      "curriculum_track": "8. 意识与自我 + 12. 人脑与AI的比较；预测编码作为统一计算框架，将前79篇文章的碎片整合进贝叶斯推断世界模型；从疾病系列（#77-79）转向理论层级",
+      "topic_tags": [
+        "predictive coding",
+        "prediction error",
+        "free energy principle",
+        "active inference",
+        "precision weighting",
+        "Rao Ballard 1999",
+        "Friston",
+        "feedback connections",
+        "surround suppression",
+        "end-stopping",
+        "omission response",
+        "PEON neurons",
+        "auditory cortex",
+        "dopamine precision",
+        "first-episode psychosis",
+        "sulpiride",
+        "hierarchical inference",
+        "Bayesian brain"
+      ],
+      "main_sources": [
+        "PMID:10195184 (abstract only, paywall, Rao & Ballard 1999 Nature Neuroscience)",
+        "PMID:20203213 (PMC6634102, open full text, Spratling 2010 J Neuroscience PC model V1)",
+        "PMID:40532027 (PMC12212881, open full text, Yaron et al. 2025 PLOS Biology PEONs)",
+        "PMID:32576965 (PMC8589669, open full text, Haarsma et al. 2020 Molecular Psychiatry precision weighting)",
+        "PMID:38259953 (PMC10800426, open full text, Shipp 2024 Frontiers Neural Circuits)",
+        "PMID:20068583 (abstract only, paywall, Friston 2010 NatRevNeurosci free energy)",
+        "PMID:38030100 (abstract only, paywall, Hodson et al. 2024 empirical status review)"
+      ],
+      "unresolved_questions": [
+        "Q-pc-06",
+        "Q-prec-02"
+      ],
+      "note": "系统时钟 UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期 2026-07-12；7个来源，4篇开放全文"
+    },
+    {
       "date": "2026-07-11",
-      "title": "大脑的"惩罚计算器"：外侧缰核如何将厌恶信号转化为抑郁，以及氯胺酮为何能在数小时内打破这个恶性循环",
+      "title": "大脑的\"惩罚计算器\"：外侧缰核如何将厌恶信号转化为抑郁，以及氯胺酮为何能在数小时内打破这个恶性循环",
       "filename": "2026-07-11-lateral-habenula-depression-ketamine.md",
       "wiki_pages_created": [
         "wiki/systems/lateral-habenula.md",
@@ -15,7 +72,9 @@
         "wiki/concepts/dopamine-reward-prediction-error.md",
         "wiki/concepts/hpa-axis.md"
       ],
-      "contested_claims_logged": ["C-2026-07-11-01"],
+      "contested_claims_logged": [
+        "C-2026-07-11-01"
+      ],
       "contested_claims_evidence_updated": [],
       "core_question": "外侧缰核（LHb）如何通过编码负奖励预测误差、LHb→RMTg→DA 的 GABA 能抑制回路，以及慢性应激诱导的 βCaMKII↑/Kir4.1 星形胶质细胞失调引发的持续爆发放电，将急性适应性惩罚信号转化为慢性快感缺失与动机缺乏；以及氯胺酮通过使用依赖性 NMDAR 通道捕获阻断 LHb 爆发、24 小时内实现快速抗抑郁效果的分子机制是什么？",
       "layer": [

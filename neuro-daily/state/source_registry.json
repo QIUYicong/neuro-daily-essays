@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11",
+  "last_updated": "2026-07-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6117,6 +6117,49 @@
         "BBB-disruption",
         "microglia-CRH-receptor"
       ]
+    },
+    {
+      "id": "PMID:40532027",
+      "pmcid": "PMC12212881",
+      "title": "Auditory cortex neurons that encode negative prediction errors respond to omissions of sounds in a predictable sequence",
+      "authors": "Yaron A et al.",
+      "journal": "PLOS Biology",
+      "year": 2025,
+      "full_text": true,
+      "used_in": "2026-07-12-predictive-coding-cortical-inference",
+      "covers": "prediction error neurons (PEONs) in auditory cortex, omission responses, probability encoding"
+    },
+    {
+      "id": "PMID:32576965",
+      "pmcid": "PMC8589669",
+      "title": "Precision weighting of cortical unsigned prediction error signals benefits learning, is mediated by dopamine, and is impaired in psychosis",
+      "authors": "Haarsma J, Fletcher PC et al.",
+      "journal": "Molecular Psychiatry",
+      "year": 2020,
+      "full_text": true,
+      "used_in": "2026-07-12-predictive-coding-cortical-inference",
+      "covers": "dopamine precision weighting, sulpiride pharmacology, first-episode psychosis"
+    },
+    {
+      "id": "PMID:20203213",
+      "pmcid": "PMC6634102",
+      "title": "Predictive Coding as a Model of Response Properties in Cortical Area V1",
+      "authors": "Spratling MW",
+      "journal": "Journal of Neuroscience",
+      "year": 2010,
+      "full_text": true,
+      "used_in": "2026-07-12-predictive-coding-cortical-inference",
+      "covers": "predictive coding model unifying V1 response properties (surround suppression, end-stopping, etc.)"
+    },
+    {
+      "id": "PMID:38030100",
+      "title": "The empirical status of predictive coding and active inference",
+      "authors": "Hodson R, Mehta M, Smith R",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": 2024,
+      "full_text": false,
+      "used_in": "2026-07-12-predictive-coding-cortical-inference",
+      "covers": "critical review of empirical support for predictive coding, falsifiability concerns"
     }
   ],
   "total_sources": 313,

@@ -6,8 +6,8 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-07-11
-revision_count: 4
+updated: 2026-07-12
+revision_count: 5
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
 related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
@@ -131,6 +131,7 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 - 2026-06-14 · 修订 · 基于《多巴胺的沉默与节律的失控》（PD文章）· 补充了DA的双重功能（RPE教学 vs 基底节回路调节）及PD作为DA-RPE系统崩溃的极端案例；新增关联 parkinsons-disease、basal-ganglia
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 补充了DA-RPE 与预测编码框架的整合（Diederen & Fletcher 2021）；新增关联 predictive-coding, precision-weighting；新增精神分裂症 aberrant salience 的精度失调解释
 - 2026-07-11 · 修订 · 基于《大脑的"惩罚计算器"》一文（#79）· 补充DA负预测误差的回路底物：LHb→RMTg→DA路径；将LHb连接到DA-RPE框架的负向臂；新增[[lateral-habenula]]和[[rmtg]]到关联
+- 2026-07-12 · 修订 · 基于《世界的倒影》(#80) · 补充 DA-RPE 在更广义预测编码框架中的定位：DA-RPE 是预测编码框架在奖励域的神经货币化实现，与听觉皮层省略响应（PEONs）共享"实际−预期"计算逻辑；精度加权是 DA 调制的完整链路（Haarsma 2020 药理证据）；source_articles 新增 2026-07-12
 
 ## 来源文章
 
@@ -138,3 +139,4 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
 - [[2026-06-15-predictive-coding]]
 - [[2026-07-11-lateral-habenula-depression-ketamine]]
+- [[2026-07-12-predictive-coding-cortical-inference]]

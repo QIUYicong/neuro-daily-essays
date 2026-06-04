@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-11（第79篇·大脑的"惩罚计算器"·外侧缰核与抑郁症）· 主题页总数：**148**（新建3页：lateral-habenula, rmtg, burst-firing-lhb；修订2页：dopamine-reward-prediction-error rev4, hpa-axis rev2；图谱149节点、866边；新登记矛盾1条：NMDAR是否为LHb爆发必要条件）
+> 最后更新：2026-07-12（第80篇·世界的倒影·预测编码统一框架）· 主题页总数：**148**（新建0页；修订3页：predictive-coding rev6, precision-weighting rev2, dopamine-reward-prediction-error rev5；图谱149节点、869边；新增Q-pc-06, Q-prec-02）
 
 ---
 

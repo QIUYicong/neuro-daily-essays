@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-11",
+  "updated": "2026-07-12",
   "node_count": 149,
   "edge_count": 866,
   "edge_types": [
@@ -6118,6 +6118,21 @@
     {
       "from": "burst-firing-lhb",
       "to": "glucocorticoid-hippocampus-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "lateral-habenula",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "lateral-habenula",
       "type": "related"
     }
   ],

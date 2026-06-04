@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-06-23
-revision_count: 5
+updated: 2026-07-12
+revision_count: 6
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
-opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583"]
+opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:40532027", "PMID:32576965"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -89,6 +89,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 | 小鼠 V1 L2/3 在感觉运动失配时强烈激活（预测误差响应） | 清醒小鼠 + VR + 双光子钙成像；操控运动-视觉耦合状态 | PMID:22681686 | 高（体内行为实验）|
 | 注意可被理解为精度加权（ACh 实现 V1 精度调制） | 猕猴 V1 + M1 受体阻断 + 注意任务（Herrero et al. 2008） | PMID:27917138；PMID:30359606 综述 | 高（体内药理+电生理）|
 | 某些感觉皮层间交互不符合简单振荡-方向映射预测 | 灵长类视觉联合皮层新数据（仅读摘要） | PMID:41120233 | 待评估（限于摘要）|
+| 听觉皮层中约 13% 神经元（PEONs）在预期音调被省略时产生爆发放电（直接观测预测误差神经元） | 大鼠 A1 单单元记录 + 规律序列 + 省略测试；省略响应随音调概率升高（Spearman ρ=0.34, p=1.6×10⁻²⁷） | PMID:40532027（PMC12212881）| 高（体内，单细胞，直接测量）|
+| 多巴胺拮抗剂（舒必利）破坏额上回精度加权，首发精神病患者无精度加权 | 药理 fMRI（sulpiride）+ 奖励学习任务；FEP 患者组（n=20）与健康对照对比 | PMID:32576965（PMC8589669）| 高（药理因果 + 临床队列）|
 
 ### 小脑：专用预测误差学习系统
 
@@ -122,6 +124,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - Q-pc-03：环绕抑制和末端停止究竟是预测误差还是侧抑制？如何在体内区分？（中优先级）
 - Q-pc-04：V1 感觉运动失配响应的具体来源（运动皮层反馈 vs 高级视觉 vs 神经调质）？（高优先级）
 - Q-pc-05：层级振荡映射（γ/α-β）的普适性如何？Westerberg 2026 的挑战范围有多大？（高优先级）
+- Q-pc-06：听觉皮层 PEONs（省略响应神经元）在自然感知（非序列学习任务）中是否同样发挥预测误差功能？PEONs 的上游驱动是哪个脑区的反馈（高级听觉皮层 vs 前额叶 vs 海马）？（高优先级）
 
 ## 修订历史
 
@@ -131,8 +134,10 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将预测编码定位为「世界模型误差加权更新层」；新增 world-model 到 related；明确预测编码给出了世界模型的贝叶斯更新方程：Δmodel ∝ precision_weighted_prediction_error
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语言域的预测编码实例：词出现前200ms的语义-感觉运动预测（Grisoni 2024），腹侧流具身语义预测（工具词→运动皮层，动物词→视觉皮层）；related 新增 language-network, ventral-language-stream
 - 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
+- 2026-07-12 · 修订 · 基于《世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架》(#80) · 新增听觉皮层 PEONs 直接证据（Yaron 2025, PMID:40532027）——13% 神经元响应省略音调，响应随概率升高；新增精度加权多巴胺证据（Haarsma 2020, PMID:32576965）——舒必利破坏精度加权，FEP 患者无精度加权；新增 LHb 负 RPE 作为奖励域省略响应的显式说明；新增 Q-pc-06（PEONs 自然感知功能）；related 新增 lateral-habenula；置信度维持 medium（Hodson 2024 综述提醒经验证据有限）
 
 ## 来源文章
 
 - [[2026-06-15-predictive-coding]]
 - [[2026-06-20-language-dual-stream]]
+- [[2026-07-12-predictive-coding-cortical-inference]]

@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-07-12 · 文章 #80 · 世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架
+
+**核心主题**：预测编码作为大脑统一计算框架——从视觉皮层感受野效应到听觉皮层省略响应神经元（Yaron 2025）到多巴胺精度加权（Haarsma 2020），整合前79篇文章的碎片知识。
+
+**新建页面（0）**：无新页（所有核心概念已有页面）
+
+**修订页面（3）**：
+- `theories/predictive-coding.md` rev6 — 新增 Yaron 2025（PEONs，听觉省略响应，13%神经元，ρ=0.34）直接单细胞证据；新增 Haarsma 2020（舒必利破坏额上回精度加权，FEP患者无精度加权）药理因果证据；新增 LHb 作为奖励域"省略响应"类比；Q-pc-06（PEONs 自然感知泛化性）；related 新增 lateral-habenula
+- `concepts/precision-weighting.md` rev2 — 新增 Haarsma 2020 直接药理证据（列入关键证据表）；Q-prec-02（LHb负误差精度加权）；related 新增 lateral-habenula；dimensions 新增 disease
+- `concepts/dopamine-reward-prediction-error.md` rev5 — 明确 DA-RPE 作为预测编码框架在奖励域的神经货币化实现；补充精度加权完整链路说明
+
+**矛盾登记（0）**：无新矛盾（Hodson 2024 提示预测编码证据有限，记录为理论层面不确定性，未达 contested 标准）
+
+**新增开放问题**：Q-pc-06、Q-prec-02
+
+**新增悬空引用（待补）**：无（所有引用的 slug 均已有节点）
+
+**图谱**：149 节点，869 边（+3 边：predictive-coding↔lateral-habenula, precision-weighting→lateral-habenula）
+
+---
+
 ## 2026-07-11（文章 #79·大脑的"惩罚计算器"·外侧缰核与抑郁症）
 
 **源文章**：[[2026-07-11-lateral-habenula-depression-ketamine]] —《大脑的"惩罚计算器"：外侧缰核如何将厌恶信号翻译为抑郁，以及氯胺酮为何能在数小时内打破这个恶性循环》

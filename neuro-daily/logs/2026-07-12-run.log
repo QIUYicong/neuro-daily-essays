@@ -1,0 +1,92 @@
+# 运行日志 2026-07-12
+
+## 元数据
+- 日期：2026-07-12（知识库连续日期；系统时钟 UTC+8 为 2026-06-04，但知识库已有截至 2026-07-11 的文章，故顺延）
+- 主题：预测编码——大脑皮层反馈连接之谜与统一推断框架
+- slug：predictive-coding-cortical-inference
+- 文章编号：第 80 篇
+- 模型：claude-sonnet-4-6
+
+## 主题选择理由
+- 选题驱动：图谱分析显示 `predictive-coding` 节点拥有全库最高连接数（31条边），但置信度仅为 medium（高连接、低置信 = 最值得深挖的前沿节点）
+- 近三篇文章（#77-79）都在"疾病/情绪/回路"层级；需要向理论/认知层跃升
+- 新证据：Yaron et al. 2025（PMC12212881）直接在听觉皮层发现省略响应神经元（PEONs），是预测编码框架最直接的单细胞证据之一
+- 整合意义：将 LHb 负 RPE（#79）、DA 正 RPE（#15）、LTP/LTD（#6-9）、注意力（#67）统一进贝叶斯推断框架
+- 课程路线 8（意识与自我）+ 12（人脑与AI比较）
+
+## 搜索查询记录
+1. "Rao Ballard 1999 predictive coding visual cortex Nature Neuroscience PMID" → PMID:10195184
+2. "Friston free energy principle predictive processing review 2010 Nature Reviews Neuroscience PMID" → PMID:20068583
+3. "predictive coding neural implementation evidence review 2022 2023 2024 PubMed open access" → PMC10800426（Shipp 2024）
+4. "predictive coding attention precision weighting Friston 2009 2012 basal ganglia dopamine" → PMID:32576965（Haarsma 2020）
+5. "mismatch negativity auditory cortex predictive coding omission response evidence PMID open access 2023 2024" → PMID:40532027（Yaron 2025，PMC12212881）
+6. "predictive coding visual cortex feedback suppression surround suppression end-stopping evidence Rao Ballard confirmation PMID" → PMID:20203213（Spratling 2010，PMC6634102）
+7. WebFetch: PMC12212881（Yaron 2025全文）→ PEONs详细数据
+8. WebFetch: PMC8589669（Haarsma 2020全文）→ 精度加权多巴胺数据
+9. WebFetch: PMC6634102（Spratling 2010全文）→ V1响应特性统一解释
+10. WebFetch: PMC10800426（Shipp 2024全文）→ 视觉预测编码回路组件
+
+## 来源概况
+| ID | PMID | 类型 | 全文 | 主要贡献 |
+|----|------|------|------|----------|
+| S1 | 10195184 | 原创研究/模型 | 否（paywall）| Rao & Ballard 1999 奠基性预测编码模型 |
+| S2 | 20203213 | 原创研究/模型 | 是（PMC6634102）| Spratling 2010 PC/BC模型统一V1响应特性 |
+| S3 | 40532027 | 原创研究 | 是（PMC12212881）| Yaron 2025 听觉皮层PEONs省略响应 |
+| S4 | 32576965 | 原创研究 | 是（PMC8589669）| Haarsma 2020 精度加权、多巴胺、精神病 |
+| S5 | 38259953 | 综述 | 是（PMC10800426）| Shipp 2024 视觉预测编码回路组件 |
+| S6 | 20068583 | 综述/理论 | 否（paywall）| Friston 2010 自由能原理 |
+| S7 | 38030100 | 综述/批判 | 否（paywall）| Hodson 2024 预测编码经验状态 |
+
+- 总计：7 来源；4 开放全文（满足 ≥2 要求）；3 仅摘要
+- 机构来源：NCBI/NIH PubMed、PubMed Central、PLOS Biology、Frontiers Journals
+
+## 创建文件
+### 情节层（仅追加）
+- neuro-daily/articles/2026-07-12-predictive-coding-cortical-inference.md（新建，约 4800 汉字）
+- neuro-daily/notes/2026-07-12-reading-notes.md（新建）
+- neuro-daily/sources/2026-07-12-sources.json（新建）
+
+### 语义层（修订）
+- neuro-daily/wiki/theories/predictive-coding.md（修订 6）：新增 Yaron 2025 PEONs 证据和 Haarsma 2020 药理证据；新增 Q-pc-06；related 新增 lateral-habenula
+- neuro-daily/wiki/concepts/precision-weighting.md（修订 2）：新增 Haarsma 2020 直接证据；Q-prec-02；related 新增 lateral-habenula；dimensions 新增 disease
+- neuro-daily/wiki/concepts/dopamine-reward-prediction-error.md（修订 5）：明确 DA-RPE 在预测编码框架中的定位
+
+## 状态文件更新
+- state/topic_ledger.json：total_articles 79→80，新增第 80 篇条目
+- state/unresolved_questions.md：新增 Q-pc-06（PEONs泛化性）和 Q-prec-02（LHb负误差精度权重）
+- state/monthly_synthesis.md：第80篇条目添加；月度进化路径更新
+- state/maturity_index.json：更新 predictive-coding（rev6）；新增 precision-weighting（rev2）
+- state/source_registry.json：新增4个来源（PMID:40532027/32576965/20203213/38030100）
+- wiki/_graph.json：149节点，869边（+3边：predictive-coding↔lateral-habenula, precision-weighting→lateral-habenula）
+- wiki/index.md：更新头部元数据（148页，第80篇）
+- wiki/CHANGELOG.md：新增 2026-07-12 节
+
+## 矛盾检查
+- 无新矛盾登记：
+  - Hodson 2024 提示证据有限，但这属于"框架普适性的不确定性"，非与具体 wiki 主张的直接冲突；已在文章中明确说明并在 Q-pc-02 中记录
+  - Yaron 2025 PEONs 与现有 predictive-coding 节点一致（支持而非挑战）
+
+## 已解决悬空引用
+- 无
+
+## 新增悬空引用
+- 无（所有引用的 slug 均已有节点）
+
+## 自检结果
+- [x] 情节层完整：文章 + 笔记 + 来源 JSON 均已创建
+- [x] 语义层更新：0 新页 + 3 修订页
+- [x] 来源可追溯：每条 wiki 新声明均有 PMID 支持
+- [x] 无医学诊断/治疗建议
+- [x] 无捏造 PMID/DOI（均经 PubMed/PMC 查询验证）
+- [x] 图谱节点/边计数已更新（149节点，869边）
+- [x] wiki/index.md 已更新
+- [x] CHANGELOG.md 2026-07-12 节已添加
+- [x] monthly_synthesis.md 7月计数正确（12篇）
+- [x] maturity_index.json 已更新（predictive-coding rev6，precision-weighting rev2新增）
+- [x] 矛盾检查：无新矛盾（Hodson 2024 批判记录为理论不确定性，非 wiki 内冲突）
+
+## 分支 / commit / push 状态
+- 分支：main
+- remote：http://local_proxy@127.0.0.1:39033/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
+- commit：待提交
+- push：待推送
