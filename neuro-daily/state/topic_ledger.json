@@ -1,7 +1,80 @@
 {
-  "last_updated": "2026-07-09",
-  "total_articles": 77,
+  "last_updated": "2026-07-10",
+  "total_articles": 78,
   "entries": [
+    {
+      "date": "2026-07-10",
+      "title": "当卫士变成刽子手：神经炎症如何将保护性小胶质细胞变成突触的破坏者",
+      "filename": "2026-07-10-neuroinflammation-synaptic-damage.md",
+      "wiki_pages_created": [
+        "wiki/concepts/neuroinflammation.md",
+        "wiki/concepts/inflammatory-cytokines-synapse.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/microglia.md",
+        "wiki/concepts/glucocorticoid-hippocampus-plasticity.md",
+        "wiki/diseases/alzheimers-disease.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "小胶质细胞通过 TNF-α（TNFR1/TNFR2 受体选择）、IL-1β（p38 MAPK → GluA1 Ser831 去磷酸化；NR2B 亚基选择性减少）和 IL-6（STAT3 → synapsin-1↓）三条分子路径损害 LTP 和突触完整性；慢性应激通过 CRH→肥大细胞→小胶质细胞预激和 GC 直接作用（GR 介导）降低小胶质细胞激活阈值；TREM2-DAM 在 AD 早期具有保护性突触清除功能（PtdSer-TREM2）；以及这一系列机制如何将慢性心理社会应激通过 HPA 轴-神经炎症轴链接到 AD 突触病理？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region",
+        "disease"
+      ],
+      "curriculum_track": "6. 情绪与动机 + 11. 疾病作为窗口；应激-神经炎症-AD 系列的第 2 篇（#77 HPA 轴 + #78 神经炎症），将 #70（发育期突触剪枝/小胶质细胞）的知识升维到病理状态；填补了 synaptic-pruning.md 和 complement-cascade-cns.md 的悬空引用（microglia 专页）",
+      "topic_tags": [
+        "neuroinflammation",
+        "microglia",
+        "TNF-alpha",
+        "IL-1beta",
+        "IL-6",
+        "LTP impairment",
+        "AMPA receptor internalization",
+        "GluA1 surface expression",
+        "NR2B subunit",
+        "p38 MAPK",
+        "NF-kB pathway",
+        "TREM2",
+        "DAM disease-associated microglia",
+        "microglial priming",
+        "CRH mast cell microglia",
+        "synaptic scaling homeostatic",
+        "TNFR1 TNFR2 receptor selectivity",
+        "concentration-dependent biphasic",
+        "PtdSer phosphatidylserine",
+        "early AD synaptic protection",
+        "chronic stress neuroinflammation",
+        "HPA-neuroinflammation axis",
+        "CX3CR1",
+        "infliximab rescue LTP",
+        "BDNF suppression IL-1beta"
+      ],
+      "main_sources": [
+        "PMID:20970492 (PMC3098296, open full text, Yirmiya & Goshen 2011 Brain Behav Immun, foundational review)",
+        "PMID:29861718 (PMC5976900, open full text, Rizzo et al. 2018 Neural Plasticity, TNF-alpha/IL-1beta mechanisms)",
+        "PMID:37575021 (PMC10548173, open full text, Rueda-Carrasco et al. 2023 EMBO J, TREM2-PtdSer protective pruning)",
+        "PMID:36482444 (PMC9730634, open full text, Maggi et al. 2022 J Neuroinflammation, CX3CR1-LTP regional specificity)",
+        "PMID:23295855 (abstract only, Di Filippo et al. 2013 Neurobiol Dis, IL-1beta NR2B selective central inflammation)",
+        "PMID:16626814 (abstract only, 2006 J Neuroimmunol, IL-1beta p38 GluA1 surface expression 30-40% reduction)",
+        "PMID:29458298 (abstract only, 2018 Neurol Res, Abeta-TNF-NF-kB-LTP, infliximab rescue)",
+        "PMID:30073573 (abstract only, Maggio & Vlachos 2018 J Mol Med, TNF concentration-dependent biphasic LTP)",
+        "PMID:23968970 (abstract only, 2013 Brain Behav Immun, IL-1beta p38 BDNF presynaptic glutamate)",
+        "PMID:29752066 (abstract only, 2018 Immunity, TREM2 developmental synapse elimination)",
+        "PMID:28622503 (abstract only, 2017 Cell, DAM disease-associated microglia TREM2-dependent)",
+        "PMID:29302258 (open full text CC BY 4.0, Theoharides et al. 2017 Front Neurosci, CRH mast cell neuroinflammation)",
+        "PMID:30837843 (open full text CC BY 4.0, Theoharides et al. 2019 Front Cell Neurosci, CRH-mast cell-microglia-AD)"
+      ],
+      "unresolved_questions": [
+        "Q-inflam-01",
+        "Q-inflam-02",
+        "Q-inflam-03",
+        "Q-inflam-04"
+      ]
+    },
     {
       "date": "2026-07-09",
       "title": "应激的双刃剑：糖皮质激素如何让海马在压力下先锐化、后崩溃",

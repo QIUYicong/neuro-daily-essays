@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-07-10（文章 #78·当卫士变成刽子手·神经炎症与突触损伤）
+
+**源文章**：[[2026-07-10-neuroinflammation-synaptic-damage]] —《当卫士变成刽子手：神经炎症如何从突触守护走向突触破坏》
+
+**新建页面（2 页）**：
+- `concepts/neuroinflammation.md`：神经炎症（CNS）——小胶质细胞/星形胶质细胞过度激活引发的 CNS 慢性低水平炎症；三阶段病理转变（免疫监视→急性保护→慢性损伤）；M1/M2 极化；Aβ 触发 C1q 补体重激活；CRH/肥大细胞桥接 HPA 轴；小胶质细胞预激（established, confidence:high）
+- `concepts/inflammatory-cytokines-synapse.md`：炎症细胞因子对突触的损伤机制——浓度依赖性双向效应（低水平促 LTP，高水平损伤）；TNF-α（TNFR2→AMPA↑，TNFR1/NF-κB→GluA1 内吞）；IL-1β（p38 MAPK→GluA1 Ser831 去磷酸化 + NR2B 选择性↓ + 突触前谷氨酸↓）；IL-6（gp130/STAT3→Arc 过激活 + BDNF-TrkB 阻断）；TREM2 R47H→TNF-α↑→LTP 受损（established, confidence:high）
+
+**修订页面（3 页）**：
+- `neurons/microglia.md`（rev1→rev2）：合并 wiki/systems/microglia.md 的神经炎症内容；新增 CX3CR1-CX3CL1 稳态轴、激活态三路细胞因子损伤、DAM/TREM2 双重角色、慢性应激→小胶质细胞预激；扩展 related/opens_questions/key_sources；填补 2026-06-03 创建后遗留的神经炎症盲区
+- `concepts/glucocorticoid-hippocampus-plasticity.md`（rev1→rev2）：新增慢性应激→CRH/GC→小胶质细胞预激→神经炎症间接损伤路径；related 新增 neuroinflammation/microglia/inflammatory-cytokines-synapse
+- `diseases/alzheimers-disease.md`（rev7→rev8）：新增"神经炎症：AD 突触损伤的早期共同驱动力"完整机制节；related 新增 neuroinflammation/inflammatory-cytokines-synapse；key_sources 新增 PMID:20970492、PMID:37575021、PMID:32579116
+
+**图谱更新**：新增 3 节点（neuroinflammation, inflammatory-cytokines-synapse, trem2）、41 条边；总计 146 节点，855 边
+
+**新登记矛盾**：无
+
+**新增未解问题（4 个）**：
+- Q-inflam-01（高优先）：小胶质细胞预激的可逆性边界
+- Q-inflam-02（高优先）：AD 脑内细胞因子局部浓度是否真正达到损伤 LTP 的阈值
+- Q-inflam-03（高优先）：TREM2 激动剂在 AD 早期的突触保护证据
+- Q-inflam-04（中优先）：炎症细胞因子是否优先损伤 PV+ 中间神经元
+
+**新增悬空引用（待补）**：
+- `trem2`：TREM2 受体专页（已作为图谱节点登记）
+- `disease-associated-microglia`：DAM 疾病相关小胶质细胞专页
+
+---
+
 ## 2026-07-09（文章 #77·应激的双刃剑·糖皮质激素与海马可塑性 MR/GR 双相调节）
 
 **源文章**：[[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]] —《应激的双刃剑：糖皮质激素如何让海马在压力下先锐化、后崩溃》

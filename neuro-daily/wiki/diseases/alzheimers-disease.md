@@ -6,10 +6,10 @@ type: disease
 status: established
 confidence: high
 created: 2026-06-08
-updated: 2026-07-09
-revision_count: 7
+updated: 2026-07-10
+revision_count: 8
 dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis, tau-pathology, microglia, complement-cascade-cns, synaptic-pruning, glymphatic-system, aqp4, hpa-axis, glucocorticoid-hippocampus-plasticity, circadian-clock]
+related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis, tau-pathology, microglia, complement-cascade-cns, synaptic-pruning, glymphatic-system, aqp4, hpa-axis, glucocorticoid-hippocampus-plasticity, circadian-clock, neuroinflammation, inflammatory-cytokines-synapse]
 prerequisites: [ltp, nmda-receptor, hippocampal-circuit, memory-consolidation]
 opens_questions: [Q-ad-vulnerable-synapses, Q-ad-tau-cascade, Q-ad-intervention-window, Q-nmda-alzheimer, Q-glyph-01, Q-glyph-02, Q-stress-02]
 source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-03-microglia-synaptic-pruning, 2026-07-06-glymphatic-system-sleep-clearance, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]
@@ -89,6 +89,39 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 
 **未解因果问题**（→ Q-stress-02）：慢性皮质醇升高究竟是 AD 发病的危险因素（因），还是 SCN 萎缩 + 海马损伤 + HPA 失调的结果（果）？目前横断面证据多，真正的因果时序尚待明确。
 
+### 神经炎症：AD 突触损伤的早期共同驱动力（新增 2026-07-10）
+
+除 Aβ 直接毒性、GC 级联和胶质淋巴清除失效外，**神经炎症**是 AD 突触丢失的第四条关键路径，且时序上可能最早——早于斑块出现，早于 tau 大量磷酸化：
+
+**Aβ → 补体重激活 → 小胶质细胞过度剪枝**：
+- 可溶性 Aβ 寡聚体（AD 最早期）激活经典补体通路：C1q 在突触上沉积，触发 C3 → C3b 调理素化
+- 小胶质细胞通过 CR3 识别 C3b 标记突触 → 物理吞噬突触末梢
+- 这是**斑块出现前**的早期突触丢失机制（Hong et al. 2016，PMID:27033548）
+- 抗 C1q 中和或 CR3 阻断：在 AD 早期模型中保护突触密度（早期干预意义）
+
+**小胶质细胞→慢性 TNF-α/IL-1β → 突触可塑性抑制**：
+- AD 小胶质细胞分泌过量 TNF-α（尤其是携带 TREM2 R47H 等位基因的小胶质细胞）
+- 过量 TNF-α 通过 TNFR1/NF-κB 路径：GluA1 内吞↑ + LTP 损伤（详见 [[inflammatory-cytokines-synapse]]）
+- 慢性应激（HPA 轴/GC）→ 小胶质细胞预激 → 对 Aβ 刺激的炎症放大，形成"应激 × Aβ 的神经炎症协同"
+
+**TREM2：早期保护还是晚期损伤？**
+- 早期 AD（低 Aβ 负荷）：TREM2 依赖的 DAM 状态清除过活跃突触（ePtdSer 信号），保护作用
+- TREM2 功能缺失变体（R47H）→ 无法清除过活跃突触 → 兴奋毒性风险↑ + TNF-α 额外升高
+- 晚期 AD（高 Aβ 负荷）：DAM 持续激活 → 炎症因子量增大 → 突触损伤为主
+
+**三重神经炎症协同**（新模型）：
+```
+慢性应激（HPA/GC/CRH）
+    ↓ 小胶质细胞预激
+         ↓        ×
+           Aβ 寡聚体
+              ↓ 超量 TNF-α/IL-1β
+                   ↓
+       LTP 损伤 + 突触丢失（早于斑块）
+           ↓
+     认知下降提前启动
+```
+
 ### 为什么海马首当其冲
 
 1. **高NR2B密度**：CA3-CA1突触（Schaffer侧支）的NMDA受体中NR2B亚基比例高，对Aβ的毒性通路（突触外NR2B激活）敏感性高
@@ -127,6 +160,8 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 - [[hpa-axis]] — AD 早期 SCN 退化→皮质醇节律崩溃→HPA 失调是 AD 的独立风险放大器；海马受损后 HPA 负反馈减弱形成正反馈恶化循环
 - [[glucocorticoid-hippocampus-plasticity]] — 慢性 GR 激活（因 SCN 萎缩引发皮质醇节律崩溃）叠加 Aβ 毒性，双重攻击海马 LTP 和结构完整性
 - [[circadian-clock]] — SCN VIP 神经元萎缩是 AD 最早期事件之一；昼夜节律崩溃通过皮质醇节律失调和胶质淋巴清洗减少双重路径促进 AD 进展
+- [[neuroinflammation]] — 神经炎症是 AD 早期突触丢失的独立驱动力：Aβ→补体→小胶质 CR3 过度剪枝（早于斑块）；慢性 TNF-α/IL-1β 损伤 LTP；与 GC 级联协同放大
+- [[inflammatory-cytokines-synapse]] — 高浓度 TNF-α（TNFR1/NF-κB/GluA1 内吞）和 IL-1β（p38/GluA1+NR2B 减少）的 LTP 损伤机制在 AD 中被 Aβ+小胶质激活所触发
 
 ## 未解问题
 
@@ -144,8 +179,10 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 - 2026-06-03 · 修订 rev5 · 基于《大脑的"质检员"》一文（第 70 篇）· 补充 C1q/补体-微胶质突触剪枝机制（Hong et al. 2016）：Aβ低聚体触发C1q早期突触沉积（早于斑块），CR3阻断保护突触；related 新增 microglia/complement-cascade-cns/synaptic-pruning；key_sources 新增 PMID:27033548
 - 2026-07-06 · 修订 rev6 · 基于《大脑的"垃圾清运"》一文（第 75 篇）· 新增胶质淋巴清除失效段落（三重衰退机制：NREM 减少/AQP4 去极化/动脉弹性下降）；蓝斑核双重角色（LC tau 早期积累→NREM 振荡↓→清洗↓）；相关人类证据（Dagum 2026、Holth 2019）；related 新增 glymphatic-system、aqp4
 - 2026-07-09 · 修订 rev7 · 基于《应激的双刃剑》(#77) · 新增"糖皮质激素级联假说与 AD"段落（SCN 退化→皮质醇节律崩溃→慢性 GC→海马损伤→负反馈减弱的正反馈环；AD 特有的双重攻击汇聚机制；Lupien 1998 人类纵向证据）；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity、circadian-clock；key_sources 新增 PMID:3527687、PMID:15891777、PMID:10195112；opens_questions 新增 Q-stress-02；连接新增三条
+- 2026-07-10 · 修订 rev8 · 基于《当卫士变成刽子手》(#78) · 新增"神经炎症：AD 突触损伤的早期共同驱动力"段落（Aβ→补体重激活→小胶质 CR3 过度剪枝；TREM2 保护性 vs 损伤性双重角色；慢性应激×Aβ 的神经炎症协同模型）；related 新增 neuroinflammation、inflammatory-cytokines-synapse；连接新增两条
 
 ## 来源文章
 
 - [[2026-06-08-alzheimers-amyloid-synaptic-mechanism]]
 - [[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]]
+- [[2026-07-10-neuroinflammation-synaptic-damage]]

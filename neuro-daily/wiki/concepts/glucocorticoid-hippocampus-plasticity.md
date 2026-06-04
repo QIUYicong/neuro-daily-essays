@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-09
-updated: 2026-07-09
-revision_count: 1
+updated: 2026-07-10
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, brain-region, cognition, disease]
-related: [hpa-axis, ltp, ltd, hippocampal-circuit, hippocampal-neurogenesis, bdnf, amyloid-beta-oligomers, alzheimers-disease, fear-conditioning, amygdala, circadian-clock, homeostatic-plasticity]
+related: [hpa-axis, ltp, ltd, hippocampal-circuit, hippocampal-neurogenesis, bdnf, amyloid-beta-oligomers, alzheimers-disease, fear-conditioning, amygdala, circadian-clock, homeostatic-plasticity, neuroinflammation, microglia, inflammatory-cytokines-synapse]
 prerequisites: [ltp, nmda-receptor, ampa-receptor, hippocampal-circuit, hpa-axis]
 opens_questions: [Q-stress-01, Q-stress-02, Q-stress-03]
 source_articles: [2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]
@@ -99,6 +99,9 @@ key_sources: ["PMID:15891777", "PMID:26286651", "PMID:19317179", "PMID:26741493"
 - [[homeostatic-plasticity]] — 慢性 GC 损害稳态可塑性（突触缩放所依赖的 TNFα 和 BDNF 通路均受 GC 影响）
 - [[alzheimers-disease]] — GC 级联假说：AD 早期 SCN 退化→皮质醇节律崩溃→慢性高 GC→海马损伤→负反馈减弱→进一步升高
 - [[circadian-clock]] — 皮质醇昼夜节律由 SCN 调控；SCN 退化（AD）破坏 MR/GR 系统的节律性工作模式
+- [[neuroinflammation]] — 慢性应激/皮质醇通过 CRH 激活和 GR 耐受使小胶质细胞"预激"，构成 HPA 轴→神经炎症→突触损伤的间接损伤路径（补充 GC 直接路径之外的第二条机制）
+- [[microglia]] — CRH-R1 在小胶质细胞表面表达；慢性 GC 暴露后小胶质细胞对 Aβ 刺激的炎症应答增强 2–5 倍（预激状态）
+- [[inflammatory-cytokines-synapse]] — 预激小胶质细胞分泌的 TNF-α/IL-1β 通过与慢性 GC 相同的 GluA1 内吞路径损伤 LTP，两条路径在分子层面有协同效应
 
 ## 未解问题
 
@@ -109,7 +112,9 @@ key_sources: ["PMID:15891777", "PMID:26286651", "PMID:19317179", "PMID:26741493"
 ## 修订历史
 
 - 2026-07-09 · 创建 · 基于《应激的双刃剑：糖皮质激素如何让海马在压力下先锐化、后崩溃》(第 77 篇) · 初始置信度：高
+- 2026-07-10 · 修订 · 基于《当卫士变成刽子手》(第 78 篇) · 补充慢性应激→小胶质细胞预激→神经炎症的间接损伤路径；新增连接节点 [[neuroinflammation]]、[[microglia]]、[[inflammatory-cytokines-synapse]]
 
 ## 来源文章
 
 - [[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]]
+- [[2026-07-10-neuroinflammation-synaptic-damage]]

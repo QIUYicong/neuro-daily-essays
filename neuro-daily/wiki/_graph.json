@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-09",
-  "node_count": 140,
-  "edge_count": 814,
+  "updated": "2026-07-10",
+  "node_count": 146,
+  "edge_count": 855,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1300,6 +1300,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/glucocorticoid-hippocampus-plasticity.md"
+    },
+    {
+      "id": "neuroinflammation",
+      "title": "神经炎症（CNS）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/neuroinflammation.md"
+    },
+    {
+      "id": "inflammatory-cytokines-synapse",
+      "title": "炎症细胞因子对突触的损伤机制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/inflammatory-cytokines-synapse.md"
+    },
+    {
+      "id": "trem2",
+      "title": "TREM2（触发性骨髓细胞受体2）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/trem2.md"
     }
   ],
   "edges": [
@@ -5925,6 +5952,91 @@
       "to": "fear-conditioning",
       "type": "related",
       "note": "急性应激激活 HPA 轴；GC+NE 协同增强恐惧记忆编码（Joëls 时空特异性原则）"
+    },
+    {
+      "from": "microglia",
+      "to": "neuroinflammation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "microglia",
+      "to": "complement-cascade-cns",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "microglia",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "inflammatory-cytokines-synapse",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "synaptic-pruning",
+      "type": "supports"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "alzheimers-disease",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "microglia",
+      "type": "regulates"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "neuroinflammation",
+      "type": "regulates"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "inflammatory-cytokines-synapse",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "inflammatory-cytokines-synapse",
+      "to": "ampa-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "astrocyte",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "bdnf",
+      "type": "regulates"
+    },
+    {
+      "from": "microglia",
+      "to": "trem2",
+      "type": "related"
     }
   ],
   "dangling_references": [

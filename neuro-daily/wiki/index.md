@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-09（第77篇·应激的双刃剑·糖皮质激素与海马可塑性 MR/GR 双相调节）· 主题页总数：**143**（新建2页：hpa-axis, glucocorticoid-hippocampus-plasticity；补入#76 2页：circadian-clock, scn-circadian-pacemaker；修订6页：amygdala rev2, hippocampal-neurogenesis rev4, ltp rev12, bdnf rev3, alzheimers-disease rev7；图谱140节点、814边；无新矛盾登记）
+> 最后更新：2026-07-10（第78篇·当卫士变成刽子手·神经炎症与突触损伤）· 主题页总数：**145**（新建2页：neuroinflammation, inflammatory-cytokines-synapse；修订4页：microglia rev2, glucocorticoid-hippocampus-plasticity rev2, alzheimers-disease rev8；图谱146节点、855边；无新矛盾登记）
 
 ---
 
@@ -27,7 +27,7 @@
 - 🟢 [电压门控钙通道（VGCCs）](neurons/voltage-gated-calcium-channels.md) — P/Q型在突触前纳米域触发递质释放；L型在树突驱动BTSP平台电位，在核激活基因表达；三亚家族、三地点、三时间尺度 **[NEW 2026-06-01]**
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
-- 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝 **[NEW 2026-06-03]**
+- 🟢 [小胶质细胞](neurons/microglia.md) — CNS 唯一常驻免疫细胞，突触可塑性的双刃卫士：发育期 CR3（C3b）+ TREM2（PtdSer）双通路剪枝；成年稳态下 CX3CR1 轴 + 低水平 TNF-α/IL-1β 支持 LTP；激活态高浓度细胞因子（TNFR1/NF-κB、p38/GluA1内吞、STAT3/Arc）系统性损伤 LTP；DAM/TREM2 在 AD 早期保护性清除过活跃突触；慢性应激→小胶质细胞预激→AD 风险放大 **[修订 rev2 2026-07-10]**
 
 ## circuits（回路）
 
@@ -115,7 +115,9 @@
 - 🔴 [海马神经发生](concepts/hippocampal-neurogenesis.md) — 啮齿类SGZ持续神经发生（证据充分）；阻断神经发生消除SSRI行为效果；人类成人神经发生规模和存在性争议（Sorrells vs Boldrini 2018对立数据）；慢性GC通过GR→VEGF/IGF-1/5-HT1A抑制通路使SGZ增殖↓40-50%（修订rev4 2026-07-09）**[NEW 2026-06-13 · 争议]**
 - 🟢 [昼夜节律分子振荡器（TTFL）](concepts/circadian-clock.md) — CLOCK/BMAL1 E-box 激活→PER/CRY 负反馈→CKIδ/ε 磷酸化延迟约24h振荡；SCN主时钟→全身组织时钟；FASPS 遗传证据；BMAL1 KO 学习损伤；CLOCK/BMAL1调控 PV+ 成熟和关键期时序（Reh 2020）**[NEW 2026-07-08 #76]**
 - 🟢 [下丘脑-垂体-肾上腺轴（HPA 轴）](concepts/hpa-axis.md) — PVN→垂体→肾上腺皮质 CRH→ACTH→皮质醇三步信号链；海马 GR 提供负反馈；超日节律脉冲（每60-90分钟）维持 MR/GR 响应性；SCN 驱动皮质醇昼夜节律；Sapolsky 糖皮质激素级联假说 **[NEW 2026-07-09 #77]**
-- 🟢 [糖皮质激素与海马可塑性（MR/GR 双相调节）](concepts/glucocorticoid-hippocampus-plasticity.md) — 低浓度 MR→LTP 增强/神经元存活；急性高 GR→聚焦巩固（时空特异性原则）；慢性 GR→BDNF↓/GluA1 内吞/CA3 树突退缩/神经发生↓；糖皮质激素脆弱性假说（Conrad 2008）**[NEW 2026-07-09 #77]**
+- 🟢 [糖皮质激素与海马可塑性（MR/GR 双相调节）](concepts/glucocorticoid-hippocampus-plasticity.md) — 低浓度 MR→LTP 增强/神经元存活；急性高 GR→聚焦巩固（时空特异性原则）；慢性 GR→BDNF↓/GluA1 内吞/CA3 树突退缩/神经发生↓；糖皮质激素脆弱性假说（Conrad 2008）；慢性应激→CRH/GC→小胶质细胞预激→神经炎症间接损伤路径（修订 rev2 2026-07-10）**[NEW 2026-07-09 #77]**
+- 🟢 [神经炎症（CNS）](concepts/neuroinflammation.md) — 小胶质细胞/星形胶质细胞过度激活引发的 CNS 低水平慢性炎症；三阶段病理转变（免疫监视→急性保护→慢性损伤）；Aβ 触发 C1q 重激活→补体依赖性突触丢失；CRH/肥大细胞桥接 HPA 轴与神经炎症；小胶质细胞预激作为慢性应激→AD 风险放大的中间机制 **[NEW 2026-07-10 #78]**
+- 🟢 [炎症细胞因子对突触的损伤机制](concepts/inflammatory-cytokines-synapse.md) — 浓度依赖性双向效应：低水平 TNF-α/IL-1β 促 LTP，高水平系统性损伤；TNF-α（TNFR1/NF-κB→GluA1 内吞）、IL-1β（p38 MAPK→GluA1 Ser831 去磷酸化 + NR2B 选择性↓）、IL-6（STAT3/Arc 过激活）三路分子机制；TREM2 R47H→TNF-α↑→LTP 受损（无 Aβ 的因果链）**[NEW 2026-07-10 #78]**
 - 🔵 [β振荡（基底节-皮层）](concepts/beta-oscillations.md) — 13-30 Hz同步振荡；PD中病理性增强构成"抗运动"回路状态；DA和DBS均通过β→θ切换改善运动（Köhler 2024 n=25）；与γ振荡（促运动执行）功能对立 **[NEW 2026-06-14]**
 - 🟢 [恐惧条件反射](concepts/fear-conditioning.md) — 外侧杏仁核（LA）CS+US汇聚→NMDA巧合检测→CaMKII→AMPA插入→LA-LTP；与海马LTP分子机器完全同构；约20%LA神经元形成稀疏恐惧印迹；光遗传双向因果证明（Nabavi 2014）**[NEW 2026-05-30]**
 - 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）**[修订 2026-05-31]**
@@ -191,8 +193,8 @@
 | 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞（2026-06-22 wiki建立）**, **网格细胞（2026-06-22 wiki建立）**, θ振荡/相位编码, **V1方向选择性（2026-06-11）**, **路径整合（2026-06-22）**, **运动编码-旋转动力学（2026-06-21）**, **小脑前向模型（2026-06-23）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
 | 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**, **认知地图（2026-06-22）**；待覆盖：记忆提取机制、网格-场所转化精确机制）|
 | 5. 认知控制 | 🔵 进行中（已覆盖：**工作记忆**、**奖励学习/三因素规则（2026-06-07）**、**注意/增益控制（ACh/NE，2026-06-12）**；待覆盖：执行控制、决策）|
-| 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线、**杏仁核恐惧记忆回路（2026-05-30）**、**恐惧条件反射/消退机制**、**应激/HPA轴/MR-GR双相调节（2026-07-09，#77）**；待覆盖：动机回路深度、PTSD深度机制、下丘脑情绪调控）|
-| 11. 疾病作为窗口 | 🔵 进行中（已覆盖：阿尔茨海默病（AD突触机制+GC级联风险）、**帕金森病（基底节回路失衡/β振荡/DBS机制，2026-06-14）**；待覆盖：ASD、精神分裂症、癫痫、PTSD分子机制）|
+| 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线、**杏仁核恐惧记忆回路（2026-05-30）**、**恐惧条件反射/消退机制**、**应激/HPA轴/MR-GR双相调节（2026-07-09，#77）**、**神经炎症作为应激→AD的中间机制（2026-07-10，#78）**；待覆盖：动机回路深度、PTSD深度机制、下丘脑情绪调控）|
+| 11. 疾病作为窗口 | 🔵 进行中（已覆盖：阿尔茨海默病（AD突触机制+GC级联风险+**神经炎症/小胶质细胞/细胞因子损伤机制，rev8 2026-07-10，#78**）、**帕金森病（基底节回路失衡/β振荡/DBS机制，2026-06-14）**；待覆盖：ASD、精神分裂症、癫痫、PTSD分子机制）|
 | 8. 意识与自我 | 🔵 进行中（已覆盖：**默认模式网络（DMN）**（2026-06-16）、**全局工作空间理论 GWT + 意识点燃**（2026-05-30）、**整合信息理论 IIT + Φ + 后方皮层热区 + PCI**（2026-05-31）、**COGITATE预注册对决（2026-05-31）**、**注意瞬盲（2026-05-31，填补 COGITATE 方法论缺口）**；待覆盖：主动推断/自由能原理、自我参照处理、意识的神经相关物精细解析）|
 | 10. 方法革命 | 🔵 开始（已覆盖：**光遗传学**；待覆盖：电生理、fMRI、钙成像、单细胞测序、空间转录组）|
 | 9. Connectomics | 🔵 开始（已覆盖：**连接组学基础（C. elegans + Drosophila）**；待覆盖：小鼠皮层连接组、人脑功能连接组、Connectomics×AI集成）|

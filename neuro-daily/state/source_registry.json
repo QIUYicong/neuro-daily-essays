@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-10",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5884,6 +5884,238 @@
       "access_type": "abstract_only",
       "article_used_in": [
         "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis"
+      ]
+    },
+    {
+      "pmid": "20970492",
+      "pmcid": "PMC3098296",
+      "title": "Immune modulation of learning, memory, neural plasticity and neurogenesis",
+      "authors_short": "Yirmiya R, Goshen I",
+      "journal": "Brain, Behavior, and Immunity",
+      "year": 2011,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "low-level-cytokine-LTP",
+        "IL-1beta-goldilocks",
+        "TNFa-memory",
+        "neurogenesis-immune",
+        "IL-1RI-KO-LTP"
+      ]
+    },
+    {
+      "pmid": "29861718",
+      "pmcid": "PMC5976900",
+      "title": "Tumor Necrosis Factor and Interleukin-1β Modulate Synaptic Plasticity during Neuroinflammation",
+      "authors_short": "Rizzo FR, Musella A et al.",
+      "journal": "Neural Plasticity",
+      "year": 2018,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "TNFa-TNFR2-Hebbian",
+        "IL-1beta-NR2B",
+        "neuroinflammation-LTP",
+        "EAE-model",
+        "TNFR1-vs-TNFR2-selectivity"
+      ]
+    },
+    {
+      "pmid": "37575021",
+      "pmcid": "PMC10548173",
+      "title": "Microglia-synapse engulfment via PtdSer-TREM2 ameliorates neuronal hyperactivity in Alzheimer's disease models",
+      "authors_short": "Rueda-Carrasco J, Sokolova D et al.",
+      "journal": "EMBO Journal",
+      "year": 2023,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "TREM2-PtdSer",
+        "hyperactive-synapse-elimination",
+        "AD-early-protection",
+        "TREM2-R47H-human",
+        "ePtdSer-apoptotic-signal"
+      ]
+    },
+    {
+      "pmid": "36482444",
+      "pmcid": "PMC9730634",
+      "title": "Microglial diversity along the hippocampal longitudinal axis impacts synaptic plasticity in adult male mice under homeostatic conditions",
+      "authors_short": "De Felice E, Maggi L et al.",
+      "journal": "Journal of Neuroinflammation",
+      "year": 2022,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "CX3CR1-LTP",
+        "microglial-diversity",
+        "dorsal-ventral-hippocampus",
+        "regional-LTP-modulation"
+      ]
+    },
+    {
+      "pmid": "23295855",
+      "pmcid": null,
+      "title": "Effects of central and peripheral inflammation on hippocampal synaptic plasticity",
+      "authors_short": "Di Filippo M, Chiasserini D et al.",
+      "journal": "Neurobiology of Disease",
+      "year": 2013,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "central-vs-peripheral-inflammation",
+        "IL-1beta-NR2B-selective",
+        "CA1-LTP-impairment"
+      ]
+    },
+    {
+      "pmid": "16626814",
+      "pmcid": null,
+      "title": "Interleukin-1β modulates AMPA receptor expression and phosphorylation in hippocampal neurons",
+      "authors_short": "not extracted",
+      "journal": "Journal of Neuroimmunology",
+      "year": 2006,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "IL-1beta-GluA1-surface",
+        "p38-MAPK-Ser831",
+        "AMPA-receptor-internalization"
+      ]
+    },
+    {
+      "pmid": "29458298",
+      "pmcid": null,
+      "title": "β-amyloid inhibits hippocampal LTP through TNFR/IKK/NF-κB pathway",
+      "authors_short": "not extracted",
+      "journal": "Neurological Research",
+      "year": 2018,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "Abeta-TNF-LTP",
+        "TNFR-IKK-NF-kB",
+        "infliximab-rescue-LTP"
+      ]
+    },
+    {
+      "pmid": "30073573",
+      "pmcid": null,
+      "title": "Tumor necrosis factor (TNF) modulates synaptic plasticity in a concentration-dependent manner through intracellular calcium stores",
+      "authors_short": "Maggio N, Vlachos A",
+      "journal": "Journal of Molecular Medicine",
+      "year": 2018,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "TNF-concentration-dependent",
+        "biphasic-LTP",
+        "intracellular-calcium",
+        "pre-LTP-not-post-LTP"
+      ]
+    },
+    {
+      "pmid": "23968970",
+      "pmcid": null,
+      "title": "Molecular mechanisms involved in interleukin-1β-induced memory impairment; modulation by α-MSH",
+      "authors_short": "not extracted",
+      "journal": "Brain, Behavior, and Immunity",
+      "year": 2013,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "IL-1beta-p38-BDNF",
+        "ERK-phosphorylation",
+        "glutamate-release-presynaptic",
+        "fear-memory"
+      ]
+    },
+    {
+      "pmid": "29752066",
+      "pmcid": null,
+      "title": "The Microglial Innate Immune Receptor TREM2 Is Required for Synapse Elimination and Normal Brain Connectivity",
+      "authors_short": "not extracted",
+      "journal": "Immunity",
+      "year": 2018,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "TREM2-developmental-pruning",
+        "synapse-elimination",
+        "brain-connectivity"
+      ]
+    },
+    {
+      "pmid": "28622503",
+      "pmcid": null,
+      "title": "DAMed in (Trem) 2 Steps (commentary)",
+      "authors_short": "not extracted",
+      "journal": "Cell",
+      "year": 2017,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "DAM-microglia",
+        "TREM2-DAM",
+        "disease-associated-microglia"
+      ]
+    },
+    {
+      "pmid": "29302258",
+      "pmcid": null,
+      "title": "Mast Cell Activation in Brain Injury, Stress, and Post-traumatic Stress Disorder and Alzheimer's Disease Pathogenesis",
+      "authors_short": "Theoharides TC et al.",
+      "journal": "Frontiers in Neuroscience",
+      "year": 2017,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "CRH-mast-cell",
+        "stress-neuroinflammation-bridge",
+        "HPA-neuroinflammation",
+        "mast-cell-microglia"
+      ]
+    },
+    {
+      "pmid": "30837843",
+      "pmcid": null,
+      "title": "Mast Cells in Stress, Pain, Blood-Brain Barrier, Neuroinflammation and Alzheimer's Disease",
+      "authors_short": "Theoharides TC et al.",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2019,
+      "first_used": "2026-07-10",
+      "used_in_articles": [
+        "2026-07-10-neuroinflammation-synaptic-damage.md"
+      ],
+      "aspects_covered": [
+        "CRH-pathway",
+        "stress-AD-neuroinflammation",
+        "BBB-disruption",
+        "microglia-CRH-receptor"
       ]
     }
   ],
