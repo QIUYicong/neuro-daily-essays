@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-12（第80篇·世界的倒影·预测编码统一框架）· 主题页总数：**148**（新建0页；修订3页：predictive-coding rev6, precision-weighting rev2, dopamine-reward-prediction-error rev5；图谱149节点、869边；新增Q-pc-06, Q-prec-02）
+> 最后更新：2026-07-13（第81篇·行动的仲裁者·纹状体直接/间接通路与习惯形成）· 主题页总数：**150**（新建2页：habit-formation, actor-critic-model；修订2页：basal-ganglia rev2, dopamine-reward-prediction-error rev6；图谱151节点、~880边；新增Q-habit-01, Q-habit-02, Q-actor-critic-01, Q-actor-critic-02；Q-bg-habit-goal-split部分解答）
 
 ---
 
@@ -32,7 +32,7 @@
 ## circuits（回路）
 
 - 🔵 [吊灯细胞](circuits/chandelier-cell.md) — 特异靶向 AIS 的抑制性中间神经元（修订2次）
-- 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许" **[NEW 2026-06-14]**
+- 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许"；Haber螺旋模型：腹侧（动机）→背侧（习惯）级联 **[修订 rev2 2026-07-13]**
 - 🟢 [丘脑-皮层回路](circuits/thalamocortical-circuit.md) — TRN（CaV3.3 T型）↔TC（CaV3.1）振荡环路是睡眠纺锤波起搏器；Core/Matrix双通路；CT反馈在清醒/睡眠切换中起关键作用；**新增**：一次/高次视丘核（Sherman框架）、驱动/调制型突触、PFC→TRN大型端钮（2026-06-03更新）
 - 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序 **[NEW 2026-06-03]**
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
@@ -84,7 +84,9 @@
 - 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；八层分层贝叶斯预测机器架构；五月月报整合后修订 **[修订 2026-05-31]**
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
-- 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号 **[NEW 2026-06-07]**
+- 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号；演员-批评家框架中批评家信号的神经实现 **[修订 rev6 2026-07-13]**
+- 🟢 [习惯形成（目标导向 vs 习惯性行为）](concepts/habit-formation.md) — DMS（目标导向/奖励贬值敏感）vs DLS（习惯/S-R联结）双系统并行竞争；括号化（Jog 1999）；奖励贬值测试；prelimbic/infralimbic PFC分工 **[NEW 2026-07-13]**
+- 🔵 [演员-批评家模型（基底节的强化学习架构）](concepts/actor-critic-model.md) — NAc=批评家（TD误差/DA-RPE）；背侧纹状体=演员（策略更新）；model-based演员（DMS）vs model-free演员（DLS）对应目标导向vs习惯双系统 **[NEW 2026-07-13]**
 - 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；填补 hebbian-learning 悬空引用；纹状体直接实验验证 **[NEW 2026-06-07]**
 - 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题 **[NEW 2026-06-07]**
 

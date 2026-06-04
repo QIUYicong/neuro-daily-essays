@@ -1,7 +1,81 @@
 {
-  "last_updated": "2026-07-12",
-  "total_articles": 80,
+  "last_updated": "2026-07-13",
+  "total_articles": 81,
   "entries": [
+    {
+      "date": "2026-07-13",
+      "title": "行动的仲裁者：纹状体如何决定你该动还是不动，以及习惯是如何在神经回路中悄然生长的",
+      "filename": "2026-07-13-striatum-direct-indirect-pathway-habit.md",
+      "wiki_pages_created": [
+        "wiki/concepts/habit-formation.md",
+        "wiki/concepts/actor-critic-model.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/circuits/basal-ganglia.md",
+        "wiki/concepts/dopamine-reward-prediction-error.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "基底节的直接通路（D1-MSN）和间接通路（D2-MSN）分别担任Go和NoGo的角色——光遗传学证据如何直接因果地证明这一分工？而当同一套回路在重复训练下将控制权从依赖结果价值的目标导向系统（背内侧纹状体）转移到刺激-反应联结的习惯系统（背外侧纹状体），这一过程的神经动力学和计算框架（演员-批评家架构）是什么？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition",
+        "theory"
+      ],
+      "curriculum_track": "5. 运动系统 + 6. 情绪与动机；基底节双通路架构（#56）的深化；与DA-RPE（#15）、三因素学习规则（#26）的关键汇合；演员-批评家框架为后续成瘾研究铺垫",
+      "topic_tags": [
+        "basal ganglia",
+        "direct pathway",
+        "indirect pathway",
+        "D1-MSN",
+        "D2-MSN",
+        "optogenetics",
+        "Kravitz 2010",
+        "Haber spiral model",
+        "DMS",
+        "DLS",
+        "goal-directed behavior",
+        "habitual behavior",
+        "devaluation test",
+        "chunking",
+        "bracketing",
+        "Jog 1999",
+        "actor-critic model",
+        "temporal difference error",
+        "nucleus accumbens",
+        "habit formation",
+        "model-based",
+        "model-free",
+        "Piray 2016",
+        "Groman 2019",
+        "reinforcement learning",
+        "striato-nigro-striatal spiral",
+        "prelimbic infralimbic PFC"
+      ],
+      "main_sources": [
+        "PMID:27069376 (PMC4826773, open full text, Haber 2016 Corticostriatal circuitry)",
+        "PMID:20613723 (PMC3552484, open full text, Kravitz 2010 Nature optogenetics BG)",
+        "PMID:21469956 (abstract only, paywall, Gerfen & Surmeier 2011 Annu Rev Neurosci D1/D2)",
+        "PMID:26961942 (PMC6601762, open full text, Piray 2016 J Neurosci vmPFC-striatum DTI)",
+        "PMID:30413646 (PMC6325257, open full text, Groman 2019 J Neurosci rodent multistage task)",
+        "PMID:16715055 (abstract only, paywall, Yin & Knowlton 2006 Nat Rev Neurosci habit formation)",
+        "PMID:18558860 (abstract only, paywall, Graybiel 2008 Annu Rev Neurosci habits)",
+        "PMID:9704982 (abstract only, paywall, Balleine & Dickinson 1998 goal-directed behavior)",
+        "PMID:31018098 (abstract only, paywall, Klaus 2019 Annu Rev Neurosci BG self-paced action)",
+        "PMID:10576743 (abstract only, paywall, Jog 1999 Science habit chunking)",
+        "PMID:27235078 (abstract only, paywall, Soares-Cunha 2016 reappraising D1/D2)"
+      ],
+      "unresolved_questions": [
+        "Q-habit-01",
+        "Q-habit-02",
+        "Q-actor-critic-01",
+        "Q-actor-critic-02",
+        "Q-bg-habit-goal-split (partially answered)"
+      ],
+      "note": "系统时钟 UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期 2026-07-13；11个来源，5篇开放全文"
+    },
     {
       "date": "2026-07-12",
       "title": "世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架",

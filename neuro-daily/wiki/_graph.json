@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-12",
-  "node_count": 149,
-  "edge_count": 866,
+  "updated": "2026-07-13",
+  "node_count": 151,
+  "edge_count": 880,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,24 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "habit-formation",
+      "title": "习惯形成（目标导向 vs 习惯性行为）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/habit-formation.md"
+    },
+    {
+      "id": "actor-critic-model",
+      "title": "演员-批评家模型（基底节的强化学习架构）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/actor-critic-model.md"
+    },
     {
       "id": "synaptic-scaling",
       "title": "突触稳态缩放",

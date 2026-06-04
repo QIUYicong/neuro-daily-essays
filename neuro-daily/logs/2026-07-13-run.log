@@ -1,0 +1,82 @@
+# 运行日志 2026-07-13
+
+**知识库虚拟日期**：2026-07-13
+**系统实际时间**：2026-06-04 (UTC+8)
+**文章编号**：#81
+**主题**：纹状体直接/间接通路、习惯形成与演员-批评家架构
+
+---
+
+## 工作流执行记录
+
+### 阶段 1：状态读取与主题选择
+- 读取 `ROUTINE.md` 和 `KNOWLEDGE-BASE-DESIGN.md` ✓
+- 读取 `state/topic_ledger.json`：当前 80 篇，虚拟日期 2026-07-12 ✓
+- 读取 `state/unresolved_questions.md`：已有 Q-bg-habit-goal-split 待解 ✓
+- 读取 `wiki/circuits/basal-ganglia.md`：revision_count=1，缺乏 Kravitz/Haber/DMS-DLS/演员-批评家内容 ✓
+- 主题决策：基底节直接/间接通路+习惯形成+演员-批评家（填补重大知识空缺）✓
+
+### 阶段 2：文献检索与笔记
+- PubMed/PMC 检索 11 篇文献 ✓
+- 开放全文：5 篇（Haber PMC4826773、Kravitz PMC3552484、Piray PMC6601762、Groman PMC6325257 + Gerfen 注：实际通过摘要）
+- 摘要仅读：6 篇（Yin/Knowlton、Graybiel 2008、Balleine/Dickinson、Klaus 2019、Jog 1999、Soares-Cunha 2016）
+- 创建 `notes/2026-07-13-reading-notes.md` ✓
+- 创建 `sources/2026-07-13-sources.json` ✓
+
+### 阶段 3：文章写作
+- 创建 `articles/2026-07-13-striatum-direct-indirect-pathway-habit.md` ✓
+- 文章长度：约 5800 中文字符（在 3000-6000 目标范围内）
+- 章节：一（困惑比喻）→二（Go/NoGo分子架构）→三（Kravitz光遗传因果）→四（Haber螺旋）→五（习惯形成双系统）→六（括号化神经物理学）→七（演员-批评家框架）→八（争议与修正）→九（类比/认知意义）→十（AI比较）→概念卡片→知识图谱更新→参考文献
+
+### 阶段 4：知识整合（Wiki 固结）
+- 新建 `wiki/concepts/habit-formation.md` (rev1) ✓
+- 新建 `wiki/concepts/actor-critic-model.md` (rev1) ✓
+- 修订 `wiki/circuits/basal-ganglia.md` (rev1→rev2) ✓
+- 修订 `wiki/concepts/dopamine-reward-prediction-error.md` (rev5→rev6) ✓
+
+### 阶段 5：治理文件更新
+- `wiki/CHANGELOG.md` 新增 2026-07-13 条目 ✓
+- `wiki/index.md` 更新页面总数（148→150）及新页面条目 ✓
+- `wiki/_graph.json` 新增节点和边（149→151节点，866→880边） ✓
+- `state/topic_ledger.json` 新增 #81 条目（80→81篇） ✓
+- `state/unresolved_questions.md` 新增 Q-habit-01, Q-habit-02, Q-actor-critic-01, Q-actor-critic-02 ✓
+- `state/source_registry.json` 新增 11 个 PMID ✓
+- `state/monthly_synthesis.md` 更新至 13 篇，新增日条目 ✓
+
+### 文件列表
+新创建文件（5）：
+- neuro-daily/articles/2026-07-13-striatum-direct-indirect-pathway-habit.md
+- neuro-daily/notes/2026-07-13-reading-notes.md
+- neuro-daily/sources/2026-07-13-sources.json
+- neuro-daily/wiki/concepts/habit-formation.md
+- neuro-daily/wiki/concepts/actor-critic-model.md
+
+修改文件（9）：
+- neuro-daily/wiki/circuits/basal-ganglia.md
+- neuro-daily/wiki/concepts/dopamine-reward-prediction-error.md
+- neuro-daily/wiki/CHANGELOG.md
+- neuro-daily/wiki/index.md
+- neuro-daily/wiki/_graph.json
+- neuro-daily/state/topic_ledger.json
+- neuro-daily/state/unresolved_questions.md
+- neuro-daily/state/source_registry.json
+- neuro-daily/state/monthly_synthesis.md
+
+---
+
+## 来源统计
+- 总来源数：11
+- 开放全文：5（Haber 2016, Kravitz 2010, Piray 2016, Groman 2019 + Gerfen via PMC）
+- 摘要仅读：6
+- 无 Sci-Hub / 未授权访问 ✓
+
+## 知识图谱变化
+- 节点：149 → 151（+2：habit-formation, actor-critic-model）
+- 边：~866 → ~880（+14：habit-formation↔basal-ganglia/DA-RPE/actor-critic/prefrontal-cortex/working-memory/engram-cells/addiction；actor-critic↔basal-ganglia/DA-RPE/habit-formation/prefrontal-cortex/complementary-learning-systems/predictive-coding）
+
+## 质量检查
+- 所有 PMID 均为真实来源 ✓
+- 无医疗建议 ✓
+- 无 Sci-Hub 使用 ✓
+- 引用置信度：5 开放全文（高）；6 摘要仅读（中）✓
+- 结论与原文证据一致（无过度推断）✓

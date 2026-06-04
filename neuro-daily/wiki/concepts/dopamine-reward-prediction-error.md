@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-07-12
-revision_count: 5
+updated: 2026-07-13
+revision_count: 6
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
 source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding]
@@ -81,6 +81,8 @@ DA 响应有两个时间层次：
 - [[competition-selection-principle]] — DA-RPE 是细胞层面（CREB 竞争）和回路层面（VIP 去抑制）竞争机制的可能上游信号
 - [[parkinsons-disease]] — SNc DA神经元死亡使RPE信号和基底节回路平衡同时崩溃
 - [[basal-ganglia]] — 纹状体D1/D2受体是DA-RPE信号的直接靶点，形成动作选择回路
+- [[actor-critic-model]] — DA-RPE是演员-批评家框架中批评家（NAc）输出的TD误差δ的神经实现；DA爆发/抑制对应δ的正/负
+- [[habit-formation]] — DA-RPE通过D1/D2-MSN突触权重更新驱动目标导向与习惯系统的长期学习
 
 ## 未解问题
 
@@ -125,13 +127,22 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 | LHb通过RMTg（GABA）提供DA神经元的负预测误差输入 | 灵长类三区同步记录+电刺激（94% DA被抑制）| PMID:21832176（PMC3315151）| 高 |
 | LHb慢性爆发放电→持续DA抑制→抑郁 | 体内电生理+光遗传因果实验 | PMID:29446381 | 高 |
 
+## DA-RPE作为演员-批评家框架中批评家信号（2026-07-13 补充）
+
+在基底节的演员-批评家架构中，DA-RPE不只是抽象的教学信号，而是有具体神经解剖角色：
+
+- **批评家（NAc）**：维护状态价值函数V(s)；中脑DA神经元的相位放电量化为TD误差 δ = r(t) + γV(s') − V(s)
+- **通路特异性传递**：SNc→背侧纹状体（演员）的DA信号驱动动作策略的三因素学习规则更新；VTA→NAc（批评家）DA信号更新V(s)
+- **连接到习惯系统**：model-free演员（DLS）使用DA-RPE信号更新S-R权重，但不推断结果——因此即使奖励价值变化（δ < 0），已固化的习惯也难以通过DA信号逆转（DLS S-R权重稳定性高）
+
 ## 修订历史
 
-- 2026-06-07 · 创建 · 基于《多巴胺的时间机器：奖励预测误差如何把大脑变成世界预测器》一文 · 初始置信度：高
-- 2026-06-14 · 修订 · 基于《多巴胺的沉默与节律的失控》（PD文章）· 补充了DA的双重功能（RPE教学 vs 基底节回路调节）及PD作为DA-RPE系统崩溃的极端案例；新增关联 parkinsons-disease、basal-ganglia
-- 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 补充了DA-RPE 与预测编码框架的整合（Diederen & Fletcher 2021）；新增关联 predictive-coding, precision-weighting；新增精神分裂症 aberrant salience 的精度失调解释
-- 2026-07-11 · 修订 · 基于《大脑的"惩罚计算器"》一文（#79）· 补充DA负预测误差的回路底物：LHb→RMTg→DA路径；将LHb连接到DA-RPE框架的负向臂；新增[[lateral-habenula]]和[[rmtg]]到关联
-- 2026-07-12 · 修订 · 基于《世界的倒影》(#80) · 补充 DA-RPE 在更广义预测编码框架中的定位：DA-RPE 是预测编码框架在奖励域的神经货币化实现，与听觉皮层省略响应（PEONs）共享"实际−预期"计算逻辑；精度加权是 DA 调制的完整链路（Haarsma 2020 药理证据）；source_articles 新增 2026-07-12
+- 2026-06-07 · 创建 · 基于《多巴胺的时间机器》 · 初始置信度：高
+- 2026-06-14 · 修订 · 补充DA双重功能（RPE教学 vs 基底节回路调节）
+- 2026-06-15 · 修订 · 补充DA-RPE与预测编码框架整合
+- 2026-07-11 · 修订 · 补充LHb→RMTg→DA负预测误差回路底物
+- 2026-07-12 · 修订 · 补充DA-RPE在更广义预测编码框架中的定位
+- 2026-07-13 · 修订 · 基于《行动的仲裁者》(#81) · 补充DA-RPE作为演员-批评家框架批评家信号的解剖角色；新增关联actor-critic-model, habit-formation
 
 ## 来源文章
 
@@ -140,3 +151,4 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 - [[2026-06-15-predictive-coding]]
 - [[2026-07-11-lateral-habenula-depression-ketamine]]
 - [[2026-07-12-predictive-coding-cortical-inference]]
+- [[2026-07-13-striatum-direct-indirect-pathway-habit]]

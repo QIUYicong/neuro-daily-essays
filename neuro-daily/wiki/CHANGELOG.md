@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-13 · 文章 #81 · 行动的仲裁者：纹状体如何决定你该动还是不动，以及习惯是如何在神经回路中悄然生长的
+
+**核心主题**：基底节直接/间接通路的光遗传学因果证据（Kravitz 2010）、Haber螺旋-上升模型、背内侧（目标导向）vs背外侧（习惯）纹状体功能分化、括号化神经动力学（Jog 1999）、演员-批评家计算架构。
+
+**新建页面（2）**：
+- `concepts/habit-formation.md` rev1 — 习惯形成（目标导向vs习惯性行为）：DMS/DLS解剖分工；奖励贬值测试范式；括号化机制（Jog 1999）；prelimbic/infralimbic PFC分工；Piray 2016人类白质证据（established, confidence:high）
+- `concepts/actor-critic-model.md` rev1 — 演员-批评家模型：NAc=批评家（TD误差）；背侧纹状体=演员（策略更新）；model-based（DMS）vs model-free（DLS）双轨；Haber螺旋作为架构基础（mainstream, confidence:medium）
+
+**修订页面（2）**：
+- `circuits/basal-ganglia.md` rev2 — 新增Kravitz 2010光遗传因果证据（直接/间接通路的第一强因果验证）；Haber螺旋-上升模型（三层功能区划+级联结构）；DMS/DLS习惯/目标导向分工表格；演员-批评家框架作为计算解释；新增关联habit-formation, actor-critic-model, prefrontal-cortex; Q-bg-habit-goal-split部分解答；新增Q-actor-critic-01/02
+- `concepts/dopamine-reward-prediction-error.md` rev6 — 明确DA-RPE作为演员-批评家框架中批评家信号的解剖角色；SNc→背侧纹状体传递路径说明；model-free演员（DLS）S-R权重稳定性的计算解释；新增关联actor-critic-model, habit-formation
+
+**矛盾登记（0）**：Go/NoGo二分法受到Soares-Cunha 2016的批判，但未达到contested标准（知识库内已有dual-pathway模型，观点分歧属于精化而非矛盾）
+
+**新增开放问题**：Q-habit-01、Q-habit-02、Q-actor-critic-01、Q-actor-critic-02；Q-bg-habit-goal-split部分解答（病变行为证据明确；分子切换机制仍未解）
+
+**新增悬空引用（待补）**：`[[addiction]]`（habit-formation页面引用，暂无对应节点）；`[[prefrontal-cortex]]`（已有概念，但无专属页面）
+
+**图谱**：151 节点（+2：habit-formation, actor-critic-model），880 边（估算，+11条主要新边）
+
+---
+
 ## 2026-07-12 · 文章 #80 · 世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架
 
 **核心主题**：预测编码作为大脑统一计算框架——从视觉皮层感受野效应到听觉皮层省略响应神经元（Yaron 2025）到多巴胺精度加权（Haarsma 2020），整合前79篇文章的碎片知识。
