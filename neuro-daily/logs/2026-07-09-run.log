@@ -1,0 +1,79 @@
+# 运行日志 2026-07-09
+
+**文章**：#77《应激的双刃剑：糖皮质激素如何让海马在压力下先锐化、后崩溃》
+**文件名**：2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md
+
+---
+
+## 执行步骤记录
+
+### Step A：主题选择
+- 依据：topic_ledger.json next_suggested_topics 中的"压力系统与 HPA 轴"
+- 课程区段：6（情绪与动机）+ 11（疾病作为窗口）
+- 与前文的层次衔接：#76（昼夜节律/SCN）通过 SCN→皮质醇节律直接连接；#64（BDNF）通过 GR→BDNF 抑制连接；#16（AD）通过 GC 级联→AD 加速连接
+
+### Step B：文献调研
+- PubMed API 搜索多个查询字段
+- PMC 全文读取：PMC4561403（Kim 2015）、PMC2746750（Conrad 2008）、PMC4712151（Sarabdjitsingh 2016）、PMC6782668（Sheline 1999）、PMC3179117（Liston & Gan 2011）
+- 摘要仅读：PMID:15891777、3527687、17615391、10195112、16513410、12042880、26551025
+- 总来源：12 篇；5 开放全文，7 摘要仅读
+
+### Step C：文章写作
+- 文件路径：neuro-daily/articles/2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md
+- 字符数：约 5600 字（中文）
+- 笔记路径：neuro-daily/notes/2026-07-09-reading-notes.md
+- 来源路径：neuro-daily/sources/2026-07-09-sources.json
+
+### Step D：Wiki 建设
+**新建页（2）**：
+- wiki/concepts/hpa-axis.md — HPA 轴完整机制、三速负反馈、超日节律
+- wiki/concepts/glucocorticoid-hippocampus-plasticity.md — MR/GR 双受体表、三相机制、CA3 退缩、8 行证据
+
+**修订页（5）**：
+- wiki/systems/amygdala.md (rev1→rev2) — BLA-海马方向性分离、CeM→PVN 扩展
+- wiki/concepts/hippocampal-neurogenesis.md (rev3→rev4) — GC 抑制 SGZ 机制（↓40-50%）
+- wiki/concepts/ltp.md (rev11→rev12) — MR/GR 双相调节 LTP 完整段落
+- wiki/concepts/bdnf.md (rev2→rev3) — GR 负性 GRE→BDNF exon IV↓30-50%
+- wiki/diseases/alzheimers-disease.md (rev6→rev7) — GC 级联假说与 AD 汇聚机制
+
+### Step E：图谱与导航更新
+- wiki/_graph.json：140 节点（+2）、814 边（+20）
+- wiki/index.md：更新头部（143 页）、新增 4 个条目（含 #76 漏补的 2 个）、更新课程进度
+- wiki/CHANGELOG.md：新增 2026-07-09 变更日志条目（完整格式）
+
+### Step F：状态文件更新
+- state/topic_ledger.json：total_articles 76→77，新增 #77 条目
+- state/unresolved_questions.md：新增 Q-stress-01/02/03 三条（完整描述）
+- state/source_registry.json：新增 12 条来源记录
+- state/monthly_synthesis.md：更新7月条目计数 8→9，新增#77日条目
+- logs/2026-07-09-run.log：本文件
+
+---
+
+## 来源验证
+- 所有 PMID 通过 PubMed API (esearch/efetch) 验证真实存在
+- 5 篇开放全文通过 PMC 全文 API 实际读取并用于写作
+- 无虚构来源、无 Sci-Hub、无非授权访问
+
+## 质量指标
+- 文章层次：分子→突触→细胞→脑区→认知→疾病（6 层覆盖）
+- 真实文献：12 篇（5 PMC 全文 + 7 PubMed 摘要）
+- 知识库连接数：新建 2 个高连接页面（hpa-axis 连接 8 个节点，glucocorticoid-hippocampus-plasticity 连接 10 个节点）
+- 未解问题：3 个新登记（Q-stress-01/02/03）
+- 矛盾登记：无（知识库内部无矛盾，GC 双相效应的浓度阈值差异记录为开放前沿而非矛盾）
+
+## 执行状态
+✅ 文章写作完成
+✅ 阅读笔记写作完成
+✅ 来源 JSON 完成
+✅ 新建 wiki 页 2 个完成
+✅ 修订 wiki 页 5 个完成
+✅ _graph.json 更新完成
+✅ wiki/index.md 更新完成
+✅ wiki/CHANGELOG.md 更新完成
+✅ state/topic_ledger.json 更新完成
+✅ state/unresolved_questions.md 更新完成
+✅ state/source_registry.json 更新完成
+✅ state/monthly_synthesis.md 更新完成
+✅ 运行日志写入
+⬜ Git commit & push（Step G，下一步）

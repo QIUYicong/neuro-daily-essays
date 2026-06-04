@@ -1,7 +1,92 @@
 {
-  "last_updated": "2026-07-08",
-  "total_articles": 76,
+  "last_updated": "2026-07-09",
+  "total_articles": 77,
   "entries": [
+    {
+      "date": "2026-07-09",
+      "title": "应激的双刃剑：糖皮质激素如何让海马在压力下先锐化、后崩溃",
+      "filename": "2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis.md",
+      "wiki_pages_created": [
+        "wiki/concepts/hpa-axis.md",
+        "wiki/concepts/glucocorticoid-hippocampus-plasticity.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/amygdala.md",
+        "wiki/concepts/hippocampal-neurogenesis.md",
+        "wiki/concepts/ltp.md",
+        "wiki/concepts/bdnf.md",
+        "wiki/diseases/alzheimers-disease.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "皮质醇通过高亲和力矿物皮质激素受体（MR，Kd≈0.5 nM）和低亲和力糖皮质激素受体（GR，Kd≈5 nM）对海马突触可塑性（LTP）、树突结构完整性和神经发生产生浓度依赖性双相调节——即在低浓度 MR 主导时增强可塑性，在高浓度急性 GR 激活时实现时空特异性记忆增强，而在慢性 GR 过激活时系统性损害 LTP、抑制神经发生并导致 CA3 树突退缩；以及这一机制如何与 HPA 轴负反馈、昼夜节律（SCN）和阿尔茨海默病风险相互关联？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "6. 情绪与动机 + 11. 疾病作为窗口；睡眠/昼夜节律系列（#74-#76）的自然延伸——皮质醇节律由 SCN 驱动（与 #76 的直接链接）；同时开启新的 '应激-疾病' 线索，将 HPA 轴纳入知识库；关键三角关系：应激→BDNF↓→LTP 失败（连接 #64 BDNF 文章）；CA3 脆弱化 + Aβ 毒性双重攻击（连接 #16 AD 文章）",
+      "topic_tags": [
+        "stress",
+        "HPA axis",
+        "glucocorticoid",
+        "cortisol",
+        "mineralocorticoid receptor",
+        "glucocorticoid receptor",
+        "MR GR biphasic",
+        "LTP hippocampus",
+        "CA3 dendritic retraction",
+        "Conrad vulnerability hypothesis",
+        "Sapolsky cascade hypothesis",
+        "BDNF suppression",
+        "calcineurin PP2B",
+        "GluA1 internalization",
+        "non-genomic signaling",
+        "ultradian rhythm",
+        "Joels temporal spatial specificity",
+        "hippocampal neurogenesis",
+        "amygdala hippocampus divergence",
+        "BLA hypertrophy",
+        "Cushing syndrome",
+        "PTSD",
+        "major depression",
+        "hippocampal atrophy human",
+        "cortisol aging",
+        "AD cortisol cascade",
+        "SCN neurodegeneration circadian cortisol"
+      ],
+      "main_sources": [
+        "PMID:15891777 (abstract only, Nat Rev Neurosci 2005, de Kloet MR/GR theory)",
+        "PMID:26286651 (PMC4561403, open full text, Kim 2015 Learn Mem review)",
+        "PMID:19317179 (PMC2746750, open full text, Conrad 2008 vulnerability hypothesis)",
+        "PMID:26741493 (PMC4712151, open full text, Sarabdjitsingh 2016 PLoS ONE non-genomic)",
+        "PMID:10366636 (PMC6782668, open full text, Sheline 1999 depression duration)",
+        "PMID:21911374 (PMC3179117, open full text, Liston & Gan 2011 PNAS in vivo spine)",
+        "PMID:3527687 (abstract only, Endocr Rev 1986, Sapolsky cascade)",
+        "PMID:17615391 (abstract only, Physiol Rev 2007, McEwen allostasis)",
+        "PMID:10195112 (abstract only, Nat Neurosci 1998, Lupien cortisol hippocampal atrophy)",
+        "PMID:16513410 (abstract only, Trends Cogn Sci 2006, Joels specificity principle)",
+        "PMID:12042880 (abstract only, Nat Rev Neurosci 2002, Kim & Diamond amygdala-hippocampus)",
+        "PMID:26551025 (abstract only, Neurodegener Dis 2016, Sotiropoulos tau stress)"
+      ],
+      "unresolved_questions": [
+        "Q-stress-01",
+        "Q-stress-02",
+        "Q-stress-03"
+      ],
+      "next_suggested_topics": [
+        "神经炎症与突触损伤（neuroinflammation + synaptic loss）：IL-6/TNF-α 对突触可塑性的损害；慢性应激如何激活中枢炎症（CRH 局部毒性→小胶质激活→补体重激活）；连接 HPA 轴（皮质醇一方面是抗炎因子，慢性暴露却最终促进炎症）",
+        "多巴胺系统与奖励记忆（DA reward memory）：应激下 DA 系统如何响应；压力通过 VTA 对奖励回路的影响；DA 与 GC 在记忆选择性增强中的协同机制",
+        "创伤后应激障碍（PTSD）深度机制：杏仁核-海马失衡的分子机制；恐惧消退失败与 CA3 脆弱化的关系；皮质醇节律在 PTSD 中的紊乱模式（与海马萎缩证据整合）",
+        "缰核与抑郁症（habenula + depression）：外侧缰核在无助感和抑郁中的角色；HPA 过激活如何损害奖励回路从而导致快感缺失；与 HPA 轴（本篇）的延伸"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 77,
+      "note": "系统时钟UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期2026-07-09；继承自2026-07-08（第76篇，昼夜节律/SCN 主时钟）；本篇开启 '应激-神经内分泌-疾病' 新主题线索；关键整合：SCN→皮质醇节律（连接#76）+ BDNF下调（连接#64）+ CA3脆弱化→AD双重攻击（连接#16）；12篇来源，5篇开放全文"
+    },
     {
       "date": "2026-07-08",
       "title": "大脑的 24 小时时钟：视交叉上核如何用分子振荡设定时间，协调睡眠、记忆与衰老",
