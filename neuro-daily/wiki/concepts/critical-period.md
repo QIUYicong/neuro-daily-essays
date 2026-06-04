@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 1
+updated: 2026-07-08
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity]
+related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity, circadian-clock]
 prerequisites: [pv-interneurons, ei-balance, perineuronal-nets, synaptic-transmission]
 opens_questions: [Q-cp-01, Q-cp-02, Q-cp-03, Q-cp-04]
-source_articles: [2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181", "PMID:18692473", "PMID:21071629", "PMID:22764251", "PMID:23975100", "PMID:26261347", "PMID:33293360", "PMID:34045309"]
+source_articles: [2026-06-03-critical-period-plasticity, 2026-07-08-circadian-clock-scn-brain-rhythm]
+key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181", "PMID:18692473", "PMID:21071629", "PMID:22764251", "PMID:23975100", "PMID:26261347", "PMID:33293360", "PMID:34045309", "PMID:32503914"]
 ---
 
 # 发育关键期 (Critical Period)
@@ -83,6 +83,7 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 - [[ltp]] — 关键期内眼优势可塑性的突触增强机制
 - [[ltd]] — 关键期内弱势眼突触减弱的机制
 - [[orientation-selectivity]] — V1 方向选择性在关键期完善（同一脑区，邻近功能）
+- [[circadian-clock]] — 时钟基因 CLOCK/BMAL1 通过代谢-氧化应激路径调控 PV+ 中间神经元成熟速率，从而决定关键期的开启时间（Reh et al. 2020, PMID:32503914，PNAS 开放全文）
 
 ## 未解问题
 
@@ -94,7 +95,9 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《时间刻入神经回路：大脑发育关键期的开关机制与可塑性窗口的重启》(#72) · 初始置信度：高 · 综合 19 篇来源（13 篇开放全文）
+- 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 连接节新增 circadian-clock（Reh et al. 2020, PMID:32503914：CLOCK/BMAL1 → PV+ 中间神经元成熟速率 → 关键期时间轴）；related 新增 circadian-clock；key_sources 新增 PMID:32503914
 
 ## 来源文章
 
 - [[2026-06-03-critical-period-plasticity]]
+- [[2026-07-08-circadian-clock-scn-brain-rhythm]]

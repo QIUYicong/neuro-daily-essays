@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-05-31
-revision_count: 1
+updated: 2026-07-08
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition]
-related: [memory-consolidation, sharp-wave-ripples, sleep-spindles, theta-oscillations, fear-extinction, norepinephrine-locus-coeruleus, hippocampal-circuit, amygdala, emotional-memory-depotentiation]
+related: [memory-consolidation, sharp-wave-ripples, sleep-spindles, theta-oscillations, fear-extinction, norepinephrine-locus-coeruleus, hippocampal-circuit, amygdala, emotional-memory-depotentiation, circadian-clock, scn-circadian-pacemaker]
 prerequisites: [theta-oscillations, norepinephrine-locus-coeruleus, hippocampal-circuit, sleep-spindles]
 opens_questions: [Q-rem-01, Q-rem-02, Q-rem-03, Q-rem-04, Q-rem-05]
-source_articles: [2026-05-31-rem-sleep-emotional-memory]
-key_sources: ["PMID:27174984", "PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:28729826", "PMC:PMC5498516"]
+source_articles: [2026-05-31-rem-sleep-emotional-memory, 2026-07-08-circadian-clock-scn-brain-rhythm]
+key_sources: ["PMID:27174984", "PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:28729826", "PMC:PMC5498516", "PMID:12198538", "PMID:7185792"]
 ---
 
 # REM睡眠 (REM Sleep — Rapid Eye Movement Sleep)
@@ -64,8 +64,20 @@ Boyce等人（2016，PMID:27174984）通过光遗传因果实验在小鼠中证�
 | LA-VH θ相位差预测恐惧消退记忆 | 大鼠五区域LFP记录；恐惧条件反射+消退 | PMID:28729826 | 中（n=8，强相关） |
 | REM θ功率与情绪记忆增强正相关 | 人类fMRI+EEG；小睡范式 | PMID:19702380 | 中（间接相关） |
 
+## 昼夜节律对 REM 睡眠的时序门控
+
+（2026-07-08 新增）
+
+REM 睡眠的时序分布并非随机——它受**昼夜节律系统**严格门控：
+
+- **后半夜 REM 优势**：人类 NREM→REM 的 90 分钟周期中，REM 时长随夜间进程递增（第一个周期 5–10 min，最后可达 45 min），这一梯度由 SCN 输出信号（经 DMH→REM 产生核）直接控制，使 REM 集中在昼夜节律的后半段（约 0300–0800h）
+- **两过程模型的协同**（Borbély 1982, PMID:7185792）：过程 S（稳态睡眠压力/腺苷）在前半夜更高 → 驱动 NREM 深慢波睡眠；过程 C（昼夜节律信号）在后半夜"允许"更长 REM 时段 → 情绪记忆处理集中在后半夜
+- **实践意义**：夜班工作和时差破坏后半夜睡眠 → 优先损失 REM 睡眠 → 情绪调节受损（PTSD 脆弱性增加）+ 情绪记忆去饱和化不足
+
 ## 连接
 
+- [[circadian-clock]] — 昼夜节律分子振荡器决定 REM 睡眠集中在后半夜的时序分布
+- [[scn-circadian-pacemaker]] — SCN 通过 DMH→REM 产生核路径门控 REM 时序
 - [[theta-oscillations]] — REM的核心振荡机制；与清醒θ同频但功能不同（相位方向反转）
 - [[norepinephrine-locus-coeruleus]] — NE系统在REM期间沉默是情绪去饱和化的分子前提
 - [[memory-consolidation]] — REM和NREM构成睡眠记忆巩固的双轨系统
@@ -86,7 +98,9 @@ Boyce等人（2016，PMID:27174984）通过光遗传因果实验在小鼠中证�
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《REM睡眠：大脑夜晚的情绪炼金炉》（文章#34）· 初始置信度：高
+- 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对 REM 睡眠的时序门控"小节（两过程模型、后半夜 REM 优势的 SCN 门控机制、临床意义）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节重构以独立于正文；key_sources 新增 PMID:12198538、PMID:7185792
 
 ## 来源文章
 
 - [[2026-05-31-rem-sleep-emotional-memory]]
+- [[2026-07-08-circadian-clock-scn-brain-rhythm]]

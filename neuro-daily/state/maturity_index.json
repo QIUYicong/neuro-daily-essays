@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-05",
+  "last_updated": "2026-07-08",
   "levels": [
     "speculative",
     "emerging",
@@ -896,6 +896,42 @@
       "revision_count": 1,
       "last_changed": "2026-07-02",
       "change_reason": "新建（文章 #68，2026-07-02）。谷氨酸-谷氨酰胺循环（EAAT2 摄取→GS 转化→SNAT3 输出→神经元 PAG 再转化）是突触传递维持的基础机制，由多层次证据（³H示踪、同位素标记、基因敲除）确立。EAAT2 承担约 80% 的突触后摄取是反复测量的结果。定为 established/high。"
+    },
+    {
+      "slug": "memory-allocation",
+      "page": "wiki/concepts/memory-allocation.md",
+      "status": "mainstream",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-05",
+      "change_reason": "首次创建（2026-07-05，文章 #73）。CREB→兴奋性→分配机制由 Han 2007（Science，PMID:17446403）首次证明并已被多个实验室在不同脑区（LA、DG、CA1）重复；Han 2009 选择性消融实验（PMID:19286560）提供了分配细胞因果必要性的直接证明；Josselyn & Frankland 2018（PMC9623596）系统综述提供了整合框架；Park 2016（PMC5101572）扩展到海马 DG；Tarulli 2025（PMC12754038）揭示表观遗传前置层。设为 mainstream（非 established）因为表观遗传层是新结果（需独立复验），且内源性 CREB 的自然分配效应仍是开放问题（Q-alloc-01）"
+    },
+    {
+      "slug": "memory-linking",
+      "page": "wiki/concepts/memory-linking.md",
+      "status": "emerging",
+      "confidence": "medium",
+      "revision_count": 1,
+      "last_changed": "2026-07-05",
+      "change_reason": "首次创建（2026-07-05，文章 #73）。记忆联结机制有来自 CA1 单细胞钙成像（Cai 2016，PMC5063500，Nature）的直接证据：5h 内两情境显著重叠，7天降至机会水平；Jung 2023（PMC10842737）用 scFLARE2 精确确认 3h 联结 vs 27h 不联结边界；老年缺陷+DREADD 救援提供了因果证据。设为 emerging（非 mainstream）因为：(a) 主要来自啮齿类实验，人类证据有限；(b) 联结窗口的分子机制（Q-alloc-02）尚不清楚；(c) PV+ 侧向抑制的记忆联结角色来自综述引用，未经独立直接证明"
+    },
+    {
+      "slug": "circadian-clock",
+      "page": "wiki/concepts/circadian-clock.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-08",
+      "change_reason": "新建（文章 #76，2026-07-08）。TTFL 分子振荡器（CLOCK/BMAL1→Per/Cry→PER/CRY 复合物抑制→约 24h 振荡）是有四十余年多物种、多层次验证的核心机制，2017 年诺贝尔奖认可；CKIδ/ε 磷酸化周期调控有多个 tau 突变因果实验支持（Lowrey 2000, Toh 2001）；REV-ERBα/ROR 辅助环由多实验室独立证实。定为 established/high。"
+    },
+    {
+      "slug": "scn-circadian-pacemaker",
+      "page": "wiki/systems/scn-circadian-pacemaker.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-08",
+      "change_reason": "新建（文章 #76，2026-07-08）。SCN 为主时钟的证据：（1）双侧 SCN 消融→节律全面丧失（多物种独立重复）；（2）胚胎 SCN 移植→节律恢复且周期由供体决定（Ralph 1990, PMID:1546306, Science）；（3）ipRGC→RHT→SCN 光输入通路由黑视素发现（Berson 2002, PMID:11805301）和多项解剖+因果实验确立。定为 established/high。"
     }
   ],
   "embodied-semantics": {
@@ -909,35 +945,6 @@
       "PMID:15733097",
       "PMID:23574587",
       "PMID:34252418"
-    ]
-  },
-  {
-    "slug": "memory-allocation",
-    "status": "mainstream",
-    "confidence": "high",
-    "supporting_sources": 6,
-    "last_status_change": "2026-07-05",
-    "change_reason": "首次创建（2026-07-05，文章 #73）。CREB→兴奋性→分配机制由 Han 2007（Science，PMID:17446403）首次证明并已被多个实验室在不同脑区（LA、DG、CA1）重复；Han 2009 选择性消融实验（PMID:19286560）提供了分配细胞因果必要性的直接证明；Josselyn & Frankland 2018（PMC9623596）系统综述提供了整合框架；Park 2016（PMC5101572）扩展到海马 DG；Tarulli 2025（PMC12754038）揭示表观遗传前置层。设为 mainstream（非 established）因为表观遗传层是新结果（需独立复验），且内源性 CREB 的自然分配效应仍是开放问题（Q-alloc-01）",
-    "key_sources": [
-      "PMID:17446403",
-      "PMID:19286560",
-      "PMID:29709212 (PMC9623596)",
-      "PMID:27187069 (PMC5101572)",
-      "PMID:41470040 (PMC12754038)",
-      "PMID:38561228 (PMC11112642)"
-    ]
-  },
-  {
-    "slug": "memory-linking",
-    "status": "emerging",
-    "confidence": "medium",
-    "supporting_sources": 3,
-    "last_status_change": "2026-07-05",
-    "change_reason": "首次创建（2026-07-05，文章 #73）。记忆联结机制有来自 CA1 单细胞钙成像（Cai 2016，PMC5063500，Nature）的直接证据：5h 内两情境显著重叠，7天降至机会水平；Jung 2023（PMC10842737）用 scFLARE2 精确确认 3h 联结 vs 27h 不联结边界；老年缺陷+DREADD 救援提供了因果证据。设为 emerging（非 mainstream）因为：(a) 主要来自啮齿类实验，人类证据有限；(b) 联结窗口的分子机制（Q-alloc-02）尚不清楚；(c) PV+ 侧向抑制的记忆联结角色来自综述引用，未经独立直接证明",
-    "key_sources": [
-      "PMID:27251287 (PMC5063500)",
-      "PMID:38103203 (PMC10842737)",
-      "PMID:29709212 (PMC9623596)"
     ]
   }
 }

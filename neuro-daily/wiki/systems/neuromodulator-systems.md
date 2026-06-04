@@ -6,13 +6,13 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-06-13
-revision_count: 3
+updated: 2026-07-08
+revision_count: 4
 dimensions: [molecular, cellular, brain-region, whole-brain-network, cognition]
-related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, three-factor-learning-rule, gain-control, multi-timescale-plasticity, short-term-synaptic-plasticity, serotonin-raphe-system, 5-ht-autoreceptor]
+related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, three-factor-learning-rule, gain-control, multi-timescale-plasticity, short-term-synaptic-plasticity, serotonin-raphe-system, 5-ht-autoreceptor, circadian-clock, scn-circadian-pacemaker, glymphatic-system]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-ach-ne-04, Q-gain-timescale-interaction, Q-marder-principle-cortex]
-source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-07-08-circadian-clock-scn-brain-rhythm]
 key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433", "PMID:23040802", "PMID:29470969", "PMID:15309042", "PMID:10462127"]
 ---
 
@@ -54,10 +54,25 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"
 | LC-NE 有相位/紧张双模 | LC 单元记录 + 行为 | Aston-Jones & Cohen 2005, PMID:16254995 | 高 |
 | 基底前脑投射有拓扑特异性 | 高分辨率解剖重建 | Záborszky et al. 2018, PMID:30381436 | 中-高 |
 
+## 昼夜节律对神经调质系统的协调
+
+（2026-07-08 新增）
+
+四大调质系统均受昼夜节律时钟系统协调，构成大脑**时间依赖的认知状态切换**架构：
+
+| 调质 | 昼夜节律模式 | SCN 调控路径 | 功能意义 |
+|------|------------|------------|---------|
+| **NE（LC）** | 日间高基线 + NREM期~0.05 Hz慢振荡 | SCN→DMH→LC | 日间高唤醒；NREM期慢振荡驱动胶质淋巴CSF泵送 |
+| **ACh（基底前脑）** | 清醒/REM 高；NREM 低 | SCN→前脑间接 | 清醒/REM：高ACh→信息编码；NREM：低ACh→SWR巩固模式 |
+| **DA（VTA/SNc）** | 日间活跃期奖励信号更强 | SCN→DMH→DA核团 | 奖励学习的时间门控；动机驱动的昼夜节律 |
+| **5-HT（Raphe）** | 日间高；睡眠时低 | SCN→Raphe间接投射 | 日间情绪稳态；夜间低5-HT是REM生成的必要条件之一 |
+
+这一协调的核心意义：昼夜节律不仅设定睡眠时间，更通过分别调控四大调质系统，将大脑在一天中切换于不同"工作模式"——学习/编码模式（清醒，高NE/ACh/DA）、整合/巩固模式（NREM慢波，低ACh/5-HT+NE振荡）、情绪处理模式（REM，NE≈0，高ACh），形成功能上的昼夜分工。
+
 ## 连接
 
 - [[acetylcholine-cortex]] — ACh 调质系统的详细机制
-- [[norepinephrine-locus-coeruleus]] — NE/LC 系统的详细机制
+- [[norepinephrine-locus-coeruleus]] — NE/LC 系统的详细机制；NREM 期 NE 振荡驱动胶质淋巴泵
 - [[dopamine-reward-prediction-error]] — DA 系统（奖励学习中的第三因子）
 - [[serotonin-raphe-system]] — 5-HT 系统（缝际核，体积传输，情绪/可塑性调控）
 - [[5-ht-autoreceptor]] — 5-HT1A 自受体脱敏机制（SSRI 延迟起效的核心）
@@ -65,6 +80,9 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"
 - [[gain-control]] — 皮层增益控制（调质系统的核心输出，层二）
 - [[multi-timescale-plasticity]] — 调质系统在多层增益控制架构中的位置（层二，嵌套于STP与DA-RPE之间）
 - [[short-term-synaptic-plasticity]] — 层一增益控制，与调质层互补
+- [[circadian-clock]] — 昼夜节律分子振荡器通过 SCN 输出路径协调四大调质系统的昼夜工作模式
+- [[scn-circadian-pacemaker]] — SCN 通过 DMH 和直接投射调控 LC/Raphe/VTA 的节律性活动
+- [[glymphatic-system]] — LC-NE 系统的 NREM 振荡是胶质淋巴泵的直接驱动力，连接调质系统与废物清洗
 
 ## 未解问题
 
@@ -77,9 +95,11 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《第三周综合》 · 新增 Marder 原则（PMID:23040802）作为调质系统理论框架；将调质系统定位为多层增益控制架构（[[multi-timescale-plasticity]]）第二层；更新 related、opens_questions 和 key_sources
 - 2026-06-13 · 修订 · 基于《血清素的慢时钟》 · 补全5-HT系统（第四个调质系统）；新增5-HT系统对比DA/ACh/NE最严格的自受体负反馈机制说明；新增[[serotonin-raphe-system]]和[[5-ht-autoreceptor]]连接；更新 key_sources
+- 2026-07-08 · 修订 rev4 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对神经调质系统的协调"小节（四大调质系统的昼夜节律模式和 SCN 调控路径一览表）；related 新增 circadian-clock、scn-circadian-pacemaker、glymphatic-system；连接节重构扩充三条
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-05-30-week3-synthesis]]
 - [[2026-06-13-serotonin-autoreceptor-ssri-delay]]
+- [[2026-07-08-circadian-clock-scn-brain-rhythm]]

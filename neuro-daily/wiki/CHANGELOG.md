@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-07-08（文章 #76·大脑的 24 小时时钟·昼夜节律与 SCN 主时钟）
+
+**源文章**：[[2026-07-08-circadian-clock-scn-brain-rhythm]] —《大脑的 24 小时时钟：视交叉上核如何用分子振荡设定时间，协调睡眠、记忆与衰老》
+
+**新建页面（2 页）**：
+- `concepts/circadian-clock.md`：昼夜节律分子振荡器（TTFL）——CLOCK/BMAL1 E-box 激活→PER/CRY 负反馈→CKIδ/ε 磷酸化延迟产生约 24h 振荡；REV-ERB/ROR 辅助稳定回路；温度补偿；FASPS 遗传证据（CKIδ T44A）；全身细胞自主振荡；CLOCK/BMAL1 调控 PV+ 成熟和关键期时序（Reh 2020）（established, confidence:high）
+- `systems/scn-circadian-pacemaker.md`：视交叉上核（SCN 主时钟）——ipRGC/黑视素→RHT→VIP 核心区→AVP 壳区；VIP/VPAC2 细胞间耦合同步；三条输出路径（自主神经→褪黑素、神经投射→LC/VLPO/DMH、体液 AVP/PROK2）；SCN 移植实验（Ralph 1990）；星形胶质细胞时钟（Brancaccio 2019）；AD 中 SCN VIP 神经元早期萎缩（established, confidence:high）
+
+**修订页面（6 页）**：
+- `concepts/rem-sleep.md`（rev1→rev2）：新增"昼夜节律对 REM 睡眠的时序门控"小节（后半夜 REM 优势的 SCN 门控、两过程模型、PTSD 脆弱性含义）；related 新增 circadian-clock、scn-circadian-pacemaker；key_sources 新增 PMID:12198538、PMID:7185792
+- `concepts/memory-consolidation.md`（rev6→rev7）：新增"昼夜节律对记忆巩固的时间门控"小节（LTP 昼夜波动、BMAL1 KO 学习损伤、AD SCN 萎缩→记忆功能下降双重恶化）；related 新增 circadian-clock、scn-circadian-pacemaker；key_sources 新增 PMID:12198538
+- `systems/glymphatic-system.md`（rev1→rev2）：连接节新增 circadian-clock、scn-circadian-pacemaker、norepinephrine-locus-coeruleus 三条路径说明（胶质淋巴清洗的昼夜节律门控机制经 SCN→LC→NE 振荡路径）；key_sources 新增 PMID:19798445
+- `concepts/cortical-slow-oscillation.md`（rev2→rev3）：连接节新增 circadian-clock、scn-circadian-pacemaker（两过程模型将 SO 丰富的慢波睡眠定时于前半夜）；key_sources 新增 PMID:7185792
+- `systems/neuromodulator-systems.md`（rev3→rev4）：新增"昼夜节律对神经调质系统的协调"小节（四大调质系统昼夜节律模式 × SCN 调控路径一览表；大脑时间依赖工作模式切换架构）；related 新增 circadian-clock、scn-circadian-pacemaker、glymphatic-system
+- `concepts/critical-period.md`（rev1→rev2）：连接节新增 circadian-clock（Reh 2020：CLOCK/BMAL1→PV+ 成熟速率→关键期时间轴）；related 新增 circadian-clock；key_sources 新增 PMID:32503914
+
+**图谱更新**：新增 2 节点（circadian-clock, scn-circadian-pacemaker）、22 条边；总计 138 节点，794 边
+
+**新登记矛盾**：无（昼夜节律局部时钟 vs SCN 主时钟的相对贡献争议已记录为 Q-circ-01）
+
+**新增未解问题（3 个）**：
+- Q-circ-01（高优先）：局部脑区时钟（海马、PFC）与 SCN 主时钟的相对贡献——SCN 萎缩后局部时钟能否部分代偿？
+- Q-circ-02（高优先）：定时光照 + 褪黑素干预能否稳定昼夜节律进而延缓 AD Aβ 积累？III 期 RCT 证据缺失。
+- Q-circ-03（中优先）：SCN 星形胶质细胞独立功能时钟（Brancaccio 2019）在 AD 反应性胶质增生中的功能改变？
+
+**新增悬空引用（待补）**：无（所有连接指向已有节点或新建节点）
+
+---
+
 ## 2026-07-07（文章 #75·三重协奏·SO-纺锤波-SWR 与 SHY 假说）
 
 **源文章**：[[2026-07-07-sleep-memory-consolidation-so-spindle-swr]] —《三重协奏：皮层慢振荡如何指挥纺锤波与海马涟漪，把白天的经历刻入长期记忆》

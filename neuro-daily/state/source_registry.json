@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-08",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6394,6 +6394,138 @@
       "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
       "aspects_covered": ["REM sleep emotional memory", "hippocampus-amygdala SWR synchrony", "emotional priority replay"],
       "note": "Abstract only (paywall)"
+    },
+    {
+      "pmid": "29618526",
+      "pmcid": null,
+      "title": "Genetics and the Timing of Flowers and Sleep (Nobel Lecture)",
+      "authors_short": "Hall JC",
+      "journal": "Angewandte Chemie International Edition",
+      "year": 2018,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["period gene cloning history", "PER protein nocturnal accumulation", "2017 Nobel Prize context"],
+      "note": "Nobel Lecture; abstract only"
+    },
+    {
+      "pmid": "12198538",
+      "pmcid": null,
+      "title": "Coordination of circadian timing in mammals",
+      "authors_short": "Reppert & Weaver",
+      "journal": "Nature",
+      "year": 2002,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["TTFL positive arm CLOCK/BMAL1", "PER/CRY negative arm", "CKI phosphorylation of PER", "REV-ERBα/ROR auxiliary loop", "peripheral clocks discovery"],
+      "note": "Foundational TTFL review; abstract only (paywall)"
+    },
+    {
+      "pmid": "11805301",
+      "pmcid": null,
+      "title": "Phototransduction by retinal ganglion cells that set the circadian clock",
+      "authors_short": "Berson, Dunn & Takao",
+      "journal": "Science",
+      "year": 2002,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["ipRGC intrinsic photosensitivity", "melanopsin discovery", "non-image-forming photoreception", "RHT light input pathway"],
+      "note": "Landmark ipRGC discovery; abstract only (paywall)"
+    },
+    {
+      "pmid": "19798445",
+      "pmcid": null,
+      "title": "Amyloid-β dynamics are regulated by orexin and the sleep-wake cycle",
+      "authors_short": "Kang et al.",
+      "journal": "Science",
+      "year": 2009,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["CSF Aβ42 circadian oscillation", "sleep deprivation increases Aβ42 ~25-30%", "sleep-wake cycle regulates Aβ clearance", "orexin modulation of Aβ"],
+      "note": "Abstract only (paywall)"
+    },
+    {
+      "pmid": "7185792",
+      "pmcid": null,
+      "title": "A two process model of sleep regulation",
+      "authors_short": "Borbély AA",
+      "journal": "Human Neurobiology",
+      "year": 1982,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["Process S homeostatic sleep pressure", "Process C circadian oscillation", "two-process model framework", "SWA prediction"],
+      "note": "Original two-process model proposal; abstract only (paywall)"
+    },
+    {
+      "pmid": "1546306",
+      "pmcid": null,
+      "title": "Transplanted suprachiasmatic nucleus determines circadian period",
+      "authors_short": "Ralph et al.",
+      "journal": "Science",
+      "year": 1990,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["SCN transplant tau mutant hamster", "circadian period determined by donor SCN", "SCN as master circadian pacemaker causal proof"],
+      "note": "Strongest causal evidence for SCN as master clock; abstract only (paywall)"
+    },
+    {
+      "pmid": "32503914",
+      "pmcid": "PMC7519216",
+      "title": "Critical period regulation across multiple timescales",
+      "authors_short": "Reh et al.",
+      "journal": "PNAS",
+      "year": 2020,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["CLOCK/BMAL1 regulate PV+ interneuron maturation rate", "metabolic-oxidative stress pathway", "critical period timing molecular bridge", "CamKII-Cre Bmal1 flox KO", "ODP measurement monocular deprivation"],
+      "note": "Open full text PMC7519216; establishes molecular link between circadian clock and developmental plasticity"
+    },
+    {
+      "pmid": "30630934",
+      "pmcid": null,
+      "title": "Astrocytes control circadian timekeeping in mice via prototypic cAMP signalling",
+      "authors_short": "Brancaccio et al.",
+      "journal": "Science",
+      "year": 2019,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["SCN astrocyte independent functional clock", "glial TTFL disruption reduces rhythm amplitude", "ATP/glutamate feedback to SCN neurons", "astrocyte as active rhythm network participant"],
+      "note": "Abstract only (paywall)"
+    },
+    {
+      "pmid": "30659148",
+      "pmcid": null,
+      "title": "Reduced non-REM sleep is associated with tau pathology in early Alzheimer's disease",
+      "authors_short": "Lucey et al.",
+      "journal": "Science Translational Medicine",
+      "year": 2019,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["NREM reduction correlates with CSF tau elevation in MCI", "sleep deprivation increases CSF tau", "tau circadian oscillation evidence"],
+      "note": "Abstract only (paywall)"
+    },
+    {
+      "pmid": "12507418",
+      "pmcid": null,
+      "title": "A web of circadian pacemakers",
+      "authors_short": "Schibler & Sassone-Corsi",
+      "journal": "Cell",
+      "year": 2002,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["peripheral clocks oscillate in vitro independent of SCN", "food entrainment resetting peripheral clocks without SCN", "SCN as light-synchronization master clock", "multiple zeitgebers hierarchy"],
+      "note": "Abstract only (paywall)"
+    },
+    {
+      "pmid": "20664079",
+      "pmcid": "PMC3065858",
+      "title": "Physiology of circadian entrainment",
+      "authors_short": "Golombek & Rosenstein",
+      "journal": "Physiological Reviews",
+      "year": 2010,
+      "first_used": "2026-07-08",
+      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
+      "aspects_covered": ["RHT glutamate/PACAP signaling NMDA→CaMKII→CREB→Per induction", "phase response curve cellular mechanism", "SCN VIP/VPAC2 coupling synchronization", "peripheral clock resetting food vs light"],
+      "note": "Open full text PMC3065858; high-quality review; directly citable"
     }
   ]
 }

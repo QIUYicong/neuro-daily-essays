@@ -1,0 +1,122 @@
+# 2026-07-08 运行日志
+
+## 基本信息
+- **文章编号**：#76
+- **虚拟日期**：2026-07-08（系统时钟 UTC+8 = 2026-06-04）
+- **真实执行日期**：2026-06-04
+- **选题来源**：长期课程模式（long_term_curriculum）
+
+## 选题决策
+
+**选题理由**：
+- 前75篇从未以昼夜节律为主题独立成文（仅在多篇文章中作为上下文提及）
+- 第75篇（SO-纺锤波-SWR）在 next_suggested_topics 中明确指向"记忆的昼夜节律与睡眠时序"
+- 第74篇（胶质淋巴系统）引入了 LC-NE 在 NREM 中的低频振荡，为昼夜节律的睡眠清洗角色埋下伏笔
+- 知识库缺少 SCN 和 TTFL 分子机制的专项节点，阻碍其他节点（rem-sleep, memory-consolidation, glymphatic-system 等）建立完整的昼夜节律层连接
+- 已有 Q-circ 系列未解问题缺位：昼夜节律 × AD、昼夜节律 × 记忆 LTP 等长期缺乏核心节点承接
+
+**主题**：大脑 24 小时时钟：SCN 分子振荡器如何协调睡眠、记忆与衰老
+**核心问题**：TTFL 如何以分子振荡实现约 24 小时周期，SCN 如何通过三条输出通路（睡眠-觉醒、内分泌、自主神经）协调全脑时序
+
+## 检索过程
+
+**搜索关键词**：
+- "circadian clock TTFL CLOCK BMAL1 PER CRY molecular mechanism review"
+- "suprachiasmatic nucleus SCN master pacemaker transplant Ralph 1990"
+- "ipRGC melanopsin Berson 2002 retinohypothalamic tract"
+- "Borbély two-process model sleep circadian homeostatic"
+- "Reh 2020 PNAS critical period CLOCK BMAL1 PV interneuron"
+- "Golombek Rosenstein 2010 Physiol Rev circadian entrainment"
+
+**数据源使用**：PubMed 检索（E-utilities API），PMC 开放全文（2篇），WebFetch 获取 PMC 文章全文
+
+**开放全文获取情况**：
+- PMC7519216（Reh et al. 2020）✅ 全文读取
+- PMC3065858（Golombek & Rosenstein 2010）✅ 全文读取（摘要 + 图表 + 光输入章节 + RHT 信号通路章节 + SCN 耦合机制）
+
+**无法获取全文**（摘要仅）：PMID:29618526, PMID:12198538, PMID:11805301, PMID:19798445, PMID:7185792, PMID:1546306, PMID:30630934, PMID:30659148, PMID:39788123, PMID:12507418
+
+## 产出物
+
+### 新建文件
+- `neuro-daily/articles/2026-07-08-circadian-clock-scn-brain-rhythm.md`（主文章，约5000字）
+- `neuro-daily/notes/2026-07-08-reading-notes.md`（10篇来源的详细笔记）
+- `neuro-daily/sources/2026-07-08-sources.json`（12个来源，含完整元数据）
+- `neuro-daily/wiki/concepts/circadian-clock.md`（新建 wiki 页，established/high）
+- `neuro-daily/wiki/systems/scn-circadian-pacemaker.md`（新建 wiki 页，established/high）
+
+### 修订文件
+- `neuro-daily/wiki/concepts/rem-sleep.md`（rev1→rev2：新增昼夜节律时序门控章节）
+- `neuro-daily/wiki/concepts/memory-consolidation.md`（rev6→rev7：新增昼夜节律记忆门控章节）
+- `neuro-daily/wiki/systems/glymphatic-system.md`（rev1→rev2：新增三条连接）
+- `neuro-daily/wiki/concepts/cortical-slow-oscillation.md`（rev2→rev3：新增两条连接）
+- `neuro-daily/wiki/systems/neuromodulator-systems.md`（rev3→rev4：新增昼夜节律协调章节）
+- `neuro-daily/wiki/concepts/critical-period.md`（rev1→rev2：新增 CLOCK/BMAL1→PV+ 连接）
+- `neuro-daily/wiki/_graph.json`（136→138节点，772→794边）
+- `neuro-daily/wiki/CHANGELOG.md`（新增2026-07-08条目）
+- `neuro-daily/state/topic_ledger.json`（总数75→76，新增#76条目）
+- `neuro-daily/state/unresolved_questions.md`（新增Q-circ-01/Q-circ-02/Q-circ-03）
+- `neuro-daily/state/source_registry.json`（新增11个来源，last_updated→2026-07-08）
+- `neuro-daily/state/monthly_synthesis.md`（更新月度概要，新增#76条目）
+- `neuro-daily/state/maturity_index.json`（修复JSON格式错误；新增circadian-clock和scn-circadian-pacemaker条目；memory-allocation和memory-linking条目移入pages数组；last_updated→2026-07-08）
+
+## 知识图谱变化
+
+**新增节点（2个）**：
+- circadian-clock（established, high confidence）
+- scn-circadian-pacemaker（established, high confidence）
+
+**新增边（22条）**：
+- circadian-clock → memory-consolidation (mechanism-of)
+- circadian-clock → glymphatic-system (mechanism-of)
+- circadian-clock → rem-sleep (mechanism-of)
+- circadian-clock → cortical-slow-oscillation (related)
+- circadian-clock → ltp (related)
+- circadian-clock → homeostatic-plasticity (related)
+- circadian-clock → pv-interneurons (mechanism-of)
+- circadian-clock → critical-period (mechanism-of)
+- circadian-clock → alzheimers-disease (related)
+- circadian-clock → bdnf (related)
+- circadian-clock → norepinephrine-locus-coeruleus (related)
+- circadian-clock → neuromodulator-systems (mechanism-of)
+- scn-circadian-pacemaker → circadian-clock (is-a)
+- scn-circadian-pacemaker → memory-consolidation (mechanism-of)
+- scn-circadian-pacemaker → glymphatic-system (mechanism-of)
+- scn-circadian-pacemaker → rem-sleep (mechanism-of)
+- scn-circadian-pacemaker → cortical-slow-oscillation (related)
+- scn-circadian-pacemaker → alzheimers-disease (related)
+- scn-circadian-pacemaker → neuromodulator-systems (mechanism-of)
+- scn-circadian-pacemaker → norepinephrine-locus-coeruleus (related)
+- scn-circadian-pacemaker → thalamus (related)
+- memory-consolidation → circadian-clock (related)
+
+## 矛盾/争议处理
+
+本文无新增 contested_claims。涉及轻微争议点：
+- SCN 胶质细胞时钟（Brancaccio 2019）的 AD 相关性为开放问题（Q-circ-03），但科学事实本身未争议
+- 昼夜节律药理干预能否延缓 AD（Q-circ-02）为科学开放问题，非争议
+
+## 技术问题处理
+
+**maturity_index.json JSON 错误修复**：
+- 问题：memory-allocation 和 memory-linking 两个条目被添加为顶层裸对象（非键值对），导致第 914 行 JSON 语法错误
+- 修复：将这两个条目移入 pages 数组，补充标准字段（page 路径），同时添加新的 circadian-clock 和 scn-circadian-pacemaker 条目
+- 验证：python3 json.load() 验证通过，pages 数组包含 65 个条目
+
+**wiki 重复章节修复**：
+- rem-sleep.md、memory-consolidation.md、neuromodulator-systems.md 在本次修订过程中出现重复章节（旧连接/未解问题节与新章节共存）
+- 逐一通过精确 Edit 替换修复，最终文件无重复结构
+
+## 时间统计
+- 检索+阅读：约12次 web fetch + PubMed 查询
+- 写作：主文章约5000字
+- Wiki 整合：新建2页 + 修订6页 + 图谱/状态文件更新
+- 状态文件更新：8个文件（graph, changelog, topic_ledger, unresolved_questions, source_registry, monthly_synthesis, maturity_index, reading-notes）
+- 日志编写：本文档
+
+## 下一篇预估主题
+
+优先推荐：
+1. **REM 睡眠的θ振荡与情感记忆机制**（承接本文 REM 昼夜节律门控一节）：海马 θ-γ 耦合；杏仁核-海马协调；睡眠纺锤波-情感记忆优先化
+2. **褪黑素的神经内分泌机制**（深化本文第三输出通路）：松果体黑暗信号；MT1/MT2 受体分布；时差 + 时间生物学治疗
+3. **衰老与昼夜节律退化**（深化本文 AD-衰老议题）：SCN 萎缩时间线；老年 melatonin 减少；clock gene 表达变化

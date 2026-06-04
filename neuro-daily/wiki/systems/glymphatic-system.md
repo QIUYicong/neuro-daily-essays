@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-07-06
-updated: 2026-07-06
-revision_count: 1
+updated: 2026-07-08
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, disease]
-related: [astrocyte, aqp4, alzheimers-disease, cortical-slow-oscillation, sleep-spindles, tau-pathology, memory-consolidation, neuromodulator-systems]
+related: [astrocyte, aqp4, alzheimers-disease, cortical-slow-oscillation, sleep-spindles, tau-pathology, memory-consolidation, neuromodulator-systems, circadian-clock, scn-circadian-pacemaker, norepinephrine-locus-coeruleus]
 prerequisites: [astrocyte, synaptic-transmission, cerebrospinal-fluid]
 opens_questions: [Q-glyph-01, Q-glyph-02, Q-glyph-03, Q-glyph-04]
-source_articles: [2026-07-06-glymphatic-system-sleep-clearance]
-key_sources: ["PMID:22896675", "PMID:24136970", "PMID:19779148", "PMID:30679382", "PMID:39788123", "PMID:41593094"]
+source_articles: [2026-07-06-glymphatic-system-sleep-clearance, 2026-07-08-circadian-clock-scn-brain-rhythm]
+key_sources: ["PMID:22896675", "PMID:24136970", "PMID:19779148", "PMID:30679382", "PMID:39788123", "PMID:41593094", "PMID:19798445"]
 ---
 
 # 胶质淋巴系统 (Glymphatic System)
@@ -80,6 +80,9 @@ AQP4 在终足膜上的密度比其他胶质细胞膜区域高约 10 倍。这�
 - [[tau-pathology]] — tau 在睡眠剥夺中积累并传播；LC tau 早期损伤削弱 NE 泵
 - [[neuromodulator-systems]] — LC-NE 系统是胶质淋巴泵的主控模块
 - [[memory-consolidation]] — NREM 慢波睡眠同时服务记忆巩固和代谢废物清洗
+- [[circadian-clock]] — 昼夜节律分子振荡器通过 SCN→LC 路径决定 NE 振荡的时序；胶质淋巴高效清洗窗口本质上是昼夜节律门控的
+- [[scn-circadian-pacemaker]] — SCN 经自主神经和直接神经投射调控 LC 的 NREM 期 NE 振荡节律，是胶质淋巴清洗的昼夜节律上游驱动
+- [[norepinephrine-locus-coeruleus]] — LC 是 NE 振荡泵的直接产生者；NREM 期 ~0.05 Hz NE 慢振荡是胶质淋巴 CSF 驱动力
 
 ## 未解问题
 
@@ -91,7 +94,9 @@ AQP4 在终足膜上的密度比其他胶质细胞膜区域高约 10 倍。这�
 ## 修订历史
 
 - 2026-07-06 · 创建 · 基于《大脑的夜间清洗工程》一文 · 初始置信度：中（核心机制 established，但对流 vs 扩散之争 open）
+- 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 新增 circadian-clock、scn-circadian-pacemaker、norepinephrine-locus-coeruleus 三个 related 节点；连接节新增三条昼夜节律路径说明；明确胶质淋巴清洗的昼夜节律依赖性是经 SCN→LC→NE 振荡路径实现；key_sources 新增 PMID:19798445
 
 ## 来源文章
 
 - [[2026-07-06-glymphatic-system-sleep-clearance]]
+- [[2026-07-08-circadian-clock-scn-brain-rhythm]]

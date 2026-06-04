@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-07-06
-revision_count: 2
+updated: 2026-07-08
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network, glymphatic-system, alzheimers-disease]
+related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network, glymphatic-system, alzheimers-disease, circadian-clock, scn-circadian-pacemaker]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: [Q-so-initiation-site, Q-so-propagation-plasticity]
-source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-06-glymphatic-system-sleep-clearance]
-key_sources: ["PMID:38443198", "PMID:20046194", "PMID:31804897", "PMID:28689981", "PMID:39788123"]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-06-glymphatic-system-sleep-clearance, 2026-07-08-circadian-clock-scn-brain-rhythm]
+key_sources: ["PMID:38443198", "PMID:20046194", "PMID:31804897", "PMID:28689981", "PMID:39788123", "PMID:7185792"]
 ---
 
 # 皮层慢振荡 (Cortical Slow Oscillation, SO)
@@ -86,6 +86,8 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 - [[thalamocortical-circuit]] — SO UP 态的皮层-丘脑反馈触发 TRN → 纺锤波
 - [[glymphatic-system]] — NREM 深度睡眠（SO 主导的慢波睡眠阶段）同时是胶质淋巴系统的高效清洗窗口；SO 减弱意味着记忆巩固和废物清洗双重功能同时受损
 - [[alzheimers-disease]] — 老年性 SO 振幅减弱与胶质淋巴清洗减少协同导致 Aβ/tau 积累加速
+- [[circadian-clock]] — 昼夜节律分子振荡器决定 NREM 慢波睡眠（SO 主导）集中在前半夜的时序安排
+- [[scn-circadian-pacemaker]] — SCN 通过两过程模型（过程 C + 过程 S）协同调控 SO 丰富的深慢波睡眠何时发生
 
 ## 未解问题
 
@@ -94,9 +96,12 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 
 ## 修订历史
 
-- 2026-07-06 · 修订 · 基于《大脑的夜间清洗工程》(#74) · 新增 SO 与胶质淋巴系统的双重功能关系（NREM 慢波睡眠同时驱动记忆巩固和废物清洗）；related 新增 glymphatic-system、alzheimers-disease；key_sources 新增 PMID:39788123
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · SO 页面是 sleep-spindles 和 memory-consolidation 的前置概念 · 初始置信度：高
+- 2026-07-06 · 修订 rev2 · 基于《大脑的夜间清洗工程》(#74) · 新增 SO 与胶质淋巴系统的双重功能关系（NREM 慢波睡眠同时驱动记忆巩固和废物清洗）；related 新增 glymphatic-system、alzheimers-disease；key_sources 新增 PMID:39788123
+- 2026-07-08 · 修订 rev3 · 基于《大脑的 24 小时时钟》(#76) · 新增 circadian-clock、scn-circadian-pacemaker 为 related 节点（两过程模型将 SO 丰富的深慢波睡眠定时于前半夜）；连接节新增两条；key_sources 新增 PMID:7185792
 
 ## 来源文章
 
 - [[2026-06-19-sleep-spindles-nrem]]
+- [[2026-07-06-glymphatic-system-sleep-clearance]]
+- [[2026-07-08-circadian-clock-scn-brain-rhythm]]

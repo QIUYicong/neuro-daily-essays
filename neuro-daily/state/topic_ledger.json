@@ -1,7 +1,100 @@
 {
-  "last_updated": "2026-07-07",
-  "total_articles": 75,
+  "last_updated": "2026-07-08",
+  "total_articles": 76,
   "entries": [
+    {
+      "date": "2026-07-08",
+      "title": "大脑的 24 小时时钟：视交叉上核如何用分子振荡设定时间，协调睡眠、记忆与衰老",
+      "filename": "2026-07-08-circadian-clock-scn-brain-rhythm.md",
+      "wiki_pages_created": [
+        "wiki/concepts/circadian-clock.md",
+        "wiki/systems/scn-circadian-pacemaker.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/rem-sleep.md",
+        "wiki/concepts/memory-consolidation.md",
+        "wiki/systems/glymphatic-system.md",
+        "wiki/concepts/cortical-slow-oscillation.md",
+        "wiki/systems/neuromodulator-systems.md",
+        "wiki/concepts/critical-period.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "视交叉上核（SCN）如何通过 CLOCK/BMAL1-Period/Cryptochrome 转录-翻译负反馈回路（TTFL）自主生成约 24 小时的分子振荡，并通过褪黑素、自主神经系统和直接神经投射将这一「主时钟」广播到全脑——从而协调睡眠-觉醒周期、记忆固结的时间窗口，以及阿尔茨海默病相关蛋白的节律性产生与清除？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "睡眠系列完整三部曲之三：07-06（胶质淋巴清洗机制）→07-07（记忆固结时序机制/SO-SWR-纺锤波）→07-08（整体时序架构/昼夜节律主时钟）；引入知识库首个专属昼夜节律节点；将睡眠系列从'睡眠中发生什么'升维到'睡眠为何发生在这个时候'；关键桥梁：CLOCK/BMAL1→PV+成熟→关键期时序（连接睡眠系列与发育可塑性系列）",
+      "topic_tags": [
+        "circadian rhythm",
+        "suprachiasmatic nucleus",
+        "SCN",
+        "TTFL",
+        "CLOCK",
+        "BMAL1",
+        "PER",
+        "CRY",
+        "CKI delta epsilon",
+        "molecular clock",
+        "melatonin",
+        "melanopsin",
+        "ipRGC",
+        "retinohypothalamic tract",
+        "two-process model",
+        "Borbely",
+        "process C",
+        "process S",
+        "adenosine",
+        "VLPO",
+        "phase response curve",
+        "circadian entrainment",
+        "REV-ERB",
+        "ROR",
+        "temperature compensation",
+        "FASPS",
+        "glymphatic clearance circadian",
+        "Alzheimer circadian",
+        "amyloid-beta diurnal oscillation",
+        "sleep deprivation Abeta",
+        "Nobel Prize 2017 Hall Rosbash Young",
+        "LTP circadian",
+        "GluA1 BMAL1",
+        "critical period timing"
+      ],
+      "main_sources": [
+        "PMID:12198538 (abstract only, Nature 2002, Reppert & Weaver review)",
+        "PMID:1546306 (abstract only, Science 1990, Ralph SCN transplant)",
+        "PMID:11805301 (abstract only, Science 2002, Berson melanopsin)",
+        "PMID:19798445 (abstract only, Science 2009, Kang Abeta diurnal oscillation)",
+        "PMID:7185792 (abstract only, Hum Neurobiol 1982, Borbely two-process model)",
+        "PMID:32503914 (PMC7519216, open full text, Reh 2020 PNAS circadian clock critical period)",
+        "PMID:20664079 (PMC3065858, open full text, Golombek & Rosenstein 2010 Physiol Rev)",
+        "PMID:30630934 (abstract only, Science 2019, Brancaccio astrocyte clock)",
+        "PMID:30659148 (abstract only, Sci Transl Med 2019, Lucey tau and sleep)",
+        "PMID:39788123 (abstract only, Science 2025, Nedergaard LC-NE glymphatic)",
+        "PMID:12507418 (abstract only, Cell 2002, Schibler pacemaker)"
+      ],
+      "unresolved_questions": [
+        "Q-circ-01",
+        "Q-circ-02",
+        "Q-circ-03"
+      ],
+      "next_suggested_topics": [
+        "多巴胺系统与奖励记忆（DA reward memory）：睡眠中 DA 的节律性活动如何影响记忆固结的选择性；奖励预测误差的时间依赖性——连接昼夜节律系列与奖励学习",
+        "神经炎症与突触损伤（neuroinflammation + synaptic loss）：小胶质细胞昼夜节律活动（白天高吞噬活性）与夜间胶质淋巴清洗的功能分工；TNF-α 对 PV+ 中间神经元的节律性损伤（连接昼夜节律→炎症→E/I 平衡→AD）",
+        "睡眠阶段综合（complete sleep architecture）：将昼夜节律门控、SO-纺锤波-SWR 三重协奏、SHY 假说整合为完整睡眠功能图谱；NREM/REM 功能分工的系统性综述",
+        "压力系统与 HPA 轴（stress HPA axis）：皮质醇昼夜节律与 SCN 输出的协同；压力如何通过破坏昼夜节律加速 AD（与文章 #76 昼夜节律-AD 线索直接连接）",
+        "多感觉整合与时间感知（temporal perception + multisensory integration）：昼夜节律如何影响时间感知的精度；连接昼夜节律（宏观时间架构）与神经时序编码（毫秒尺度）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 76,
+      "note": "系统时钟UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期2026-07-08；继承自2026-07-07（第75篇，SO-纺锤波-SWR 三重协奏与 SHY 假说）；本篇完成睡眠系列三部曲，将大脑维护基础设施的时间架构引入知识库；首次引入昼夜节律专属节点（circadian-clock, scn-circadian-pacemaker）；关键跨领域桥梁：CLOCK/BMAL1→PV+成熟→关键期时序（Reh 2020）"
+    },
     {
       "date": "2026-07-03",
       "title": "突触稳态：当赫布规则失控时，大脑如何给自己“归零”",

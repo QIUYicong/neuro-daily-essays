@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-07-07
-revision_count: 6
+updated: 2026-07-08
+revision_count: 7
 dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-rem-sleep-role, Q-replay-human-translation]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm]
 key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710"]
 ---
 
@@ -127,6 +127,19 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 | REM期θ是情境记忆必需（选择性破坏→损害） | 仅REM期光遗传沉默MS GABA神经元 | PMID:27174984 | 高（因果，Boyce 2016） |
 | REM睡眠降低杏仁核情绪反应（人类） | 整夜睡眠+REM选择性剥夺+情绪任务fMRI | PMID:22119526 | 中-高（van der Helm 2011） |
 
+## 昼夜节律对记忆巩固的时间门控
+
+（2026-07-08 新增）
+
+记忆巩固不仅取决于睡眠量，还取决于**睡眠发生的时间**——昼夜节律系统决定了哪个时段的睡眠对哪类记忆最有效（PMID:12198538）：
+
+- **前半夜（NREM 深慢波睡眠主导）**：皮层 SO 振幅最大，SWR 重播最密集，是**陈述性/外显记忆**（海马→皮层转移）巩固的黄金窗口
+- **后半夜（REM 睡眠主导）**：昼夜节律 C 过程允许更长 REM 时段，是**情绪记忆去饱和化**和**程序性/内隐记忆**处理的最优时段
+- **LTP 的昼夜波动**：海马 LTP 诱导阈值和幅度在啮齿类活跃期（夜间）更低/更高，BMAL1/CLOCK 直接调控 *GluA1* 表达，使 AMPA 受体在活跃期峰值 → 清醒-编码期突触可塑性最强
+- **BMAL1 KO 的学习损伤**：全局时钟基因敲除小鼠表现出 Morris 水迷宫和条件恐惧的显著损伤，独立于睡眠缺乏本身，提示分子钟直接参与突触可塑性机制
+
+**临床含义**：早期 AD 中 SCN 萎缩 → 昼夜节律振幅降低 → 慢波睡眠碎片化（SO 振幅减弱）→ SWR-纺锤波-SO 三重耦合精度降低 → 记忆巩固效率下降，与胶质淋巴清除减少叠加，形成认知加速衰退的双重恶化。
+
 ## 连接
 
 - [[so-spindle-swr-coupling]] — SO-纺锤波-SWR 三重耦合是系统巩固的精确时间机制（新专页）
@@ -141,6 +154,8 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 - [[btsp]] — BTSP 是第一阶段（快速编码）的突触机制；系统巩固是第二阶段
 - [[rem-sleep]] — REM睡眠对情绪记忆的特定角色：θ同步驱动杏仁核-海马离线整合，实现情感去饱和化
 - [[emotional-memory-depotentiation]] — 系统巩固的情绪维度：REM期选择性弱化记忆情感色彩（SFSR假说）
+- [[circadian-clock]] — 分子时钟直接调控 GluA1 表达和 LTP 阈值；BMAL1 KO 损害学习
+- [[scn-circadian-pacemaker]] — SCN 编排睡眠时序，决定 NREM/REM 在一夜中的分布，间接决定哪类记忆优先被处理
 
 ## 未解问题
 
@@ -174,8 +189,11 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 证据表新增3行（Robinson 2026因果充分性、Chang 2025微结构分时、Yang 2024清醒标记）；key_sources扩充；related新增norepinephrine-locus-coeruleus；source_articles新增2026-06-17
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · NREM三重奏小节深化：纺锤波的主动丘脑-皮层触发机制（CT→TRN→纺锤波→树突钙预热）和因果实验（Latchoumane 2017）；related/prerequisites新增sleep-spindles、cortical-slow-oscillation、thalamocortical-circuit；key_sources扩充4个
 - 2026-05-31 · 修订 · 基于《REM睡眠与情绪记忆》文章 · 当前理解节新增REM睡眠角色段落（Boyce 2016光遗传因果链、van der Helm 2011人类fMRI、Walker SFSR假说）；关键证据表新增2行；连接新增rem-sleep/emotional-memory-depotentiation；Q-rem-sleep-role标记为部分解答；key_sources扩充3个
+- 2026-07-07 · 修订 rev6 · 基于《三重协奏》(#75) · 新增 so-spindle-swr-coupling、shy-hypothesis 两个 related 节点；证据表新增2行；Q-shy-vs-active-consolidation 部分解答
+- 2026-07-08 · 修订 rev7 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对记忆巩固的时间门控"小节（LTP 昼夜波动、BMAL1 KO 学习损伤、SCN 萎缩→记忆功能下降的 AD 连接）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节扩充2条；key_sources 新增 PMID:12198538
 
 ## 来源文章
 
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-05-31-rem-sleep-emotional-memory]]
+- [[2026-07-08-circadian-clock-scn-brain-rhythm]]

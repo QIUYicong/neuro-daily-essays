@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-07",
-  "node_count": 136,
-  "edge_count": 772,
+  "updated": "2026-07-08",
+  "node_count": 138,
+  "edge_count": 794,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1264,6 +1264,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/shy-hypothesis.md"
+    },
+    {
+      "id": "circadian-clock",
+      "title": "昼夜节律分子振荡器（TTFL）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/circadian-clock.md"
+    },
+    {
+      "id": "scn-circadian-pacemaker",
+      "title": "视交叉上核（SCN 主时钟）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/scn-circadian-pacemaker.md"
     }
   ],
   "edges": [
@@ -5643,6 +5661,138 @@
       "to": "shy-hypothesis",
       "type": "related",
       "note": "SHY（整体下调）通过 down-selection 框架与主动记忆巩固（选择性加固）统一"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "scn-circadian-pacemaker",
+      "type": "mechanism-of",
+      "note": "TTFL 是 SCN 每个神经元的内在分子振荡机制；SCN 是 TTFL 的系统整合层"
+    },
+    {
+      "from": "scn-circadian-pacemaker",
+      "to": "circadian-clock",
+      "type": "supports",
+      "note": "SCN 通过 VIP 细胞间耦合将数万个 TTFL 细胞同步为单一精确主时钟"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "memory-consolidation",
+      "type": "regulates",
+      "note": "分子时钟直接调控 GluA1 表达和 LTP 阈值；BMAL1 KO 损害学习；昼夜节律决定 NREM/REM 的夜间时序分布"
+    },
+    {
+      "from": "scn-circadian-pacemaker",
+      "to": "memory-consolidation",
+      "type": "regulates",
+      "note": "SCN 编排睡眠时序，决定 NREM（前半夜）和 REM（后半夜）的分布，间接决定哪类记忆优先处理"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "glymphatic-system",
+      "type": "regulates",
+      "note": "昼夜节律通过 SCN→LC-NE 路径决定 NE 振荡时序；胶质淋巴高效清洗窗口是昼夜节律门控的"
+    },
+    {
+      "from": "scn-circadian-pacemaker",
+      "to": "glymphatic-system",
+      "type": "regulates",
+      "note": "SCN 经 DMH→LC 调控 NREM 期 ~0.05 Hz NE 慢振荡，是胶质淋巴 CSF 泵的昼夜节律上游驱动"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "rem-sleep",
+      "type": "regulates",
+      "note": "昼夜节律分子振荡器决定 REM 睡眠集中在后半夜的时序分布（两过程模型 C 过程）"
+    },
+    {
+      "from": "scn-circadian-pacemaker",
+      "to": "rem-sleep",
+      "type": "regulates",
+      "note": "SCN 通过 DMH→REM 产生核路径门控 REM 在后半夜的时序优势"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "cortical-slow-oscillation",
+      "type": "regulates",
+      "note": "昼夜节律决定 NREM 深慢波睡眠（SO 主导）集中在前半夜的时序安排"
+    },
+    {
+      "from": "scn-circadian-pacemaker",
+      "to": "cortical-slow-oscillation",
+      "type": "regulates",
+      "note": "SCN 两过程模型将慢波睡眠定时在前半夜高稳态睡眠压力 + C 过程允许期"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "ltp",
+      "type": "regulates",
+      "note": "BMAL1/CLOCK 直接调控 GluA1 转录，使 AMPA 受体和 LTP 幅度在活跃期峰值"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "homeostatic-plasticity",
+      "type": "related",
+      "note": "突触稳态缩放的时间窗口受昼夜节律调控；NREM 期整体突触下调是昼夜节律门控的"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "pv-interneurons",
+      "type": "regulates",
+      "note": "CLOCK/BMAL1 通过代谢-氧化应激路径调控 PV+ 中间神经元成熟速率（Reh 2020）"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "critical-period",
+      "type": "regulates",
+      "note": "时钟基因 CLOCK/BMAL1 调控 PV+ 成熟速率，从而决定视觉关键期的开启时间（Reh 2020）"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "SCN 在 AD 早期萎缩；昼夜节律紊乱破坏 Aβ 清除节律；形成 AD 早期正反馈循环"
+    },
+    {
+      "from": "scn-circadian-pacemaker",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "SCN VIP 神经元密度在 AD Braak 早期就降低，是昼夜节律紊乱和胶质淋巴清除减退的上游节点"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "regulates",
+      "note": "SCN 通过 DMH→LC 路径调控 NE 系统的昼夜节律振荡（日间高基线 + NREM 慢振荡）"
+    },
+    {
+      "from": "scn-circadian-pacemaker",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "regulates",
+      "note": "SCN→DMH→LC 路径调控 LC 的 NREM 期 ~0.05 Hz 慢振荡，是胶质淋巴 CSF 泵驱动力"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "neuromodulator-systems",
+      "type": "regulates",
+      "note": "昼夜节律时钟系统协调四大调质系统（NE/ACh/DA/5-HT）的昼夜工作模式切换"
+    },
+    {
+      "from": "scn-circadian-pacemaker",
+      "to": "neuromodulator-systems",
+      "type": "regulates",
+      "note": "SCN 通过 DMH 和直接投射调控 LC/Raphe/VTA 等调质核团的节律性活动"
+    },
+    {
+      "from": "scn-circadian-pacemaker",
+      "to": "thalamus",
+      "type": "related",
+      "note": "SCN→丘脑室旁核（PVT）通路是昼夜节律信号传递到前脑的重要中间站"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "bdnf",
+      "type": "related",
+      "note": "BDNF 表达受昼夜节律调控，影响 PV+ 成熟时间轴和关键期时序"
     }
   ],
   "dangling_references": [
