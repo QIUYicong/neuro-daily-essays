@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-15（第83篇·听懂一句话·语言双流网络与ATL语义枢纽）· 主题页总数：**155**（新建1页：anterior-temporal-lobe-hub；修订3页：broca-area rev2, ventral-language-stream rev2, language-network rev4；图谱156节点、906边；新增Q-lang-01~04；LANG/MD网络分离证据整合）
+> 最后更新：2026-07-16（第84篇·意义的诞生地·前颞叶语义枢纽与概念空间几何）· 主题页总数：**157**（新建2页：semantic-memory-hub, conceptual-space-geometry；修订4页：anterior-temporal-lobe-hub rev2, grid-cells rev2, embodied-semantics rev2, cognitive-map rev2；图谱158节点、920边；新增Q-sem-01/02；Q-lang-04部分解答）
 
 ---
 
@@ -151,8 +151,10 @@
 - 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；左侧优势；出生时低髓鞘化→随句法习得成熟；损伤→传导性失语 **[NEW 2026-06-20]**
 - 🟢 [背侧语言流](circuits/dorsal-language-stream.md) — A1→颞平面→Spt→弓状束→BA44；音韵缓冲+句法层级运算；左侧主导 **[NEW 2026-06-20]**
 - 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→ATL（语义枢纽）→BA45；声音→词义；双侧；四大白质束（IFOF/UF/ILF/MLF）DES临床验证 **[修订 rev2 2026-07-15]**
-- 🟢 [前颞叶语义枢纽（ATL Hub）](concepts/anterior-temporal-lobe-hub.md) — Hub-and-Spoke模型：ATL整合各感觉模态特征→跨模态概念；语义痴呆自然实验；0-250ms早期枢纽，角回250-450ms接管；fMRI低估问题 **[NEW 2026-07-15]**
-- 🔴 [具身语义](concepts/embodied-semantics.md) — 词义神经基底是感觉运动皮层再激活（Hauk 2004 somatotopy；Pulvermüller 2005 TMS类别特异性因果效应）；面临复制危机（de Zubicaray 2026）；分级具身论+Hub-and-Spoke整合模型取代强具身论 **[NEW 2026-06-02]**（填补图谱唯一悬空引用）
+- 🟢 [前颞叶语义枢纽（ATL Hub）](concepts/anterior-temporal-lobe-hub.md) — Hub-and-Spoke模型：ATL整合各感觉模态特征→跨模态概念；语义痴呆自然实验；0-250ms早期枢纽，角回250-450ms接管；fMRI低估问题；ATL→spoke不对称连接（t₁₉=5.11）；rTMS双离解因果证据；C3计算模型 **[修订rev2 2026-07-16]**
+- 🔵 [语义记忆枢纽（Hub-and-Spoke 模型）](concepts/semantic-memory-hub.md) — ATL枢纽-感觉运动辐条双层架构；ATL→spoke连接不对称（主动广播非被动汇聚）；双侧ATL组织（97项研究元分析）；C3模型：ATL枢纽损伤→跨类别domain-general损伤是数学必然；rTMS双离解因果证据 **[NEW 2026-07-16]**
+- 🟡 [概念空间几何（Conceptual Space Geometry）](concepts/conceptual-space-geometry.md) — 语义知识组织于有度量结构的"意义地图"；内嗅皮层六重旋转对称信号编码概念空间导航方向；mPFC编码类别间距离；DSI统一模型：SR≡PMI（空间导航=语义计算）；词语类比="在概念空间中沿方向移动" **[NEW 2026-07-16]**
+- 🔴 [具身语义](concepts/embodied-semantics.md) — 词义神经基底是感觉运动皮层再激活（Hauk 2004 somatotopy；Pulvermüller 2005 TMS类别特异性因果效应）；面临复制危机（de Zubicaray 2026）；分级具身论+Hub-and-Spoke整合模型取代强具身论；C3模型计算框架支撑辐条作为涌现属性 **[修订rev2 2026-07-16]**（填补图谱唯一悬空引用）
 
 ## systems（系统）
 

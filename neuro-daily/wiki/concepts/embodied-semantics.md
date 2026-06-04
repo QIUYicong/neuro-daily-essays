@@ -6,14 +6,14 @@ type: theory
 status: contested
 confidence: medium
 created: 2026-06-02
-updated: 2026-06-02
-revision_count: 1
+updated: 2026-07-16
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, brain-region, cognition]
-related: [language-network, motor-cortex, ventral-language-stream, mirror-neurons, predictive-coding, working-memory]
+related: [language-network, motor-cortex, ventral-language-stream, mirror-neurons, predictive-coding, working-memory, semantic-memory-hub, anterior-temporal-lobe-hub]
 prerequisites: [action-potential, synaptic-transmission, ltp, motor-cortex]
 opens_questions: [Q-emb-01, Q-emb-02, Q-emb-03, Q-emb-04, Q-emb-05]
-source_articles: [2026-06-02-embodied-semantics]
-key_sources: ["PMID:14741110", "PMID:15733097", "PMID:15969907", "PMID:25452575", "PMID:23574587", "PMID:34252418", "PMID:42039049"]
+source_articles: [2026-06-02-embodied-semantics, 2026-07-16-semantic-hub-atl-conceptual-space]
+key_sources: ["PMID:14741110", "PMID:15733097", "PMID:15969907", "PMID:25452575", "PMID:23574587", "PMID:34252418", "PMID:42039049", "PMID:28480333"]
 ---
 
 # 具身语义 (Embodied Semantics)
@@ -36,7 +36,7 @@ key_sources: ["PMID:14741110", "PMID:15733097", "PMID:15969907", "PMID:25452575"
 - Yang & Shu（2016，PMID:25681159）元分析：运动激活高度任务依赖，在自动/隐性任务中减弱
 - de Zubicaray（2026，预印本）宣告领域存在系统性复制危机
 
-**当前调和立场**（分级具身论，Arbib & Cuccio 2026，PMID:42039049）：具身程度形成梯度——具体行动词（强运动激活）> 中等行动词（视觉运动激活）> 高度抽象词（情感/情境系统激活）；Hub-and-Spoke模型中，ATL枢纽是必要的整合中心，感觉运动"辐条"存储模态特异属性。
+**当前调和立场**（分级具身论，Arbib & Cuccio 2026，PMID:42039049）：具身程度形成梯度——具体行动词（强运动激活）> 中等行动词（视觉运动激活）> 高度抽象词（情感/情境系统激活）；Hub-and-Spoke模型中，ATL枢纽是必要的整合中心，感觉运动"辐条"存储模态特异属性。C3计算模型（Chen, Lambon Ralph, Rogers 2017，PMID:28480333）进一步用神经网络模拟证明，感觉运动辐条存储模态特异属性是涌现的分布式属性（非独立模块），类别特异性损伤（工具 vs 动物）是学习+连接结构的数学必然，不需要先天的模态专用模块假设——这为具身论提供了一个计算框架：具身运动表征作为辐条是真实的，但其"必要性"需由ATL枢纽的整合才能形成完整概念。
 
 ## 关键机制
 
@@ -77,6 +77,8 @@ key_sources: ["PMID:14741110", "PMID:15733097", "PMID:15969907", "PMID:25452575"
 - [[mirror-neurons]] — 神经剥削假说的神经基础（F5/Broca区同源性）
 - [[predictive-coding]] — 大脑在词汇到达前预测感觉运动状态（Grisoni 2024）
 - [[working-memory]] — 具身模拟可能依赖运动工作记忆缓冲
+- [[semantic-memory-hub]] — Hub-and-Spoke模型是具身论的调和框架；ATL枢纽整合感觉运动辐条形成完整概念
+- [[anterior-temporal-lobe-hub]] — ATL是具身辐条的整合中心；C3模型在计算层面厘清辐条与枢纽的分工
 
 ## 未解问题
 
@@ -89,7 +91,9 @@ key_sources: ["PMID:14741110", "PMID:15733097", "PMID:15969907", "PMID:25452575"
 ## 修订历史
 
 - 2026-06-02 · 创建 · 基于《当大脑读到"踢"，脚步已先响》 · 状态：contested · 初始置信度：中
+- 2026-07-16 · 修订 · 基于文章#84《意义的诞生地：前颞叶如何将感官碎片组装成概念》· 新增C3模型对Hub-and-Spoke调和立场的计算支撑；新增连接至semantic-memory-hub和anterior-temporal-lobe-hub
 
 ## 来源文章
 
 - [[2026-06-02-embodied-semantics]]
+- [[2026-07-16-semantic-hub-atl-conceptual-space]]

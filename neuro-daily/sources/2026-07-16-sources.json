@@ -1,0 +1,157 @@
+{
+  "date": "2026-07-16",
+  "article": "2026-07-16-semantic-hub-atl-conceptual-space",
+  "topic": "前颞叶语义枢纽与概念空间几何",
+  "article_number": 84,
+  "total_sources": 9,
+  "open_full_text_count": 5,
+  "abstract_only_count": 4,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "31132452",
+      "pmcid": "PMC6693526",
+      "title": "Unveiling the dynamic interplay between the hub- and spoke-components of the brain's semantic system and its impact on human behaviour",
+      "authors": "Chiou R, Lambon Ralph MA",
+      "journal": "NeuroImage",
+      "year": 2019,
+      "doi": "10.1016/j.neuroimage.2019.07.051",
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6693526/",
+      "relevance": "核心来源：直接证明 ATL hub→spoke 非对称连接（DCM定向分析，t₁₉=5.11，p<0.0001）；ATL是主动广播而非被动汇聚",
+      "coverage": ["hub-and-spoke directional connectivity", "fMRI DCM analysis", "behavior-connectivity correlation"]
+    },
+    {
+      "id": "S2",
+      "pmid": "20451381",
+      "pmcid": "PMC2878637",
+      "title": "Category-specific versus category-general semantic impairment induced by transcranial magnetic stimulation",
+      "authors": "Pobric G, Jefferies E, Lambon Ralph MA",
+      "journal": "Current Biology",
+      "year": 2010,
+      "doi": "10.1016/j.cub.2010.03.030",
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2878637/",
+      "relevance": "因果证据：ATL rTMS → 类别无关语义减慢 [t(8)=3.3, p<0.05]；IPL rTMS → 仅工具类别减慢 [t(8)=4.21, p<0.05]",
+      "coverage": ["ATL causal role", "rTMS double dissociation", "hub vs spoke distinction"]
+    },
+    {
+      "id": "S3",
+      "pmid": "25771223",
+      "pmcid": "PMC4816787",
+      "title": "The Roles of Left Versus Right Anterior Temporal Lobes in Conceptual Knowledge: An ALE Meta-analysis of 97 Functional Neuroimaging Studies",
+      "authors": "Rice GE, Lambon Ralph MA, Hoffman P",
+      "journal": "Cerebral Cortex",
+      "year": 2015,
+      "doi": "10.1093/cercor/bhu292",
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4816787/",
+      "relevance": "元分析（97篇研究，271激活簇）：ATL 双侧激活主导；左偏向书写词汇，右偏向社会概念",
+      "coverage": ["ATL lateralization", "meta-analysis", "graded bilateral organization"]
+    },
+    {
+      "id": "S4",
+      "pmid": "39513090",
+      "pmcid": "PMC11542483",
+      "title": "Social-semantic knowledge in frontotemporal dementia and after anterior temporal lobe resection",
+      "authors": "Rouse MA, Halai AD, Ramanan S, Rogers TT, Garrard P, Patterson K, Rowe JB, Lambon Ralph MA",
+      "journal": "Brain Communications",
+      "year": 2024,
+      "doi": "10.1093/braincomms/fcae358",
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11542483/",
+      "relevance": "社会性与非社会性语义损伤在双侧ATL萎缩中高度相关，无ATL不对称性效应；否定右ATL专门处理社会语义",
+      "coverage": ["bilateral ATL hub", "social vs non-social semantics", "FTD ATL resection"]
+    },
+    {
+      "id": "S5",
+      "pmid": "33603654",
+      "pmcid": "PMC7884611",
+      "title": "Map-Like Representations of an Abstract Conceptual Space in the Human Brain",
+      "authors": "Bokeria L, Henson RN, Mok RM",
+      "journal": "Frontiers in Human Neuroscience",
+      "year": 2021,
+      "doi": "10.3389/fnhum.2021.611278",
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7884611/",
+      "relevance": "内嗅皮层六重对称概念空间导航信号；mPFC 编码类别距离；空间导航与概念学习的神经共享",
+      "coverage": ["conceptual space grid coding", "entorhinal cortex", "mPFC category distances"]
+    },
+    {
+      "id": "S6",
+      "pmid": "40063809",
+      "pmcid": "PMC11929392",
+      "title": "A unified neural representation model for spatial and conceptual computations",
+      "authors": "Haga T, Oseki Y, Fukai T",
+      "journal": "PNAS",
+      "year": 2025,
+      "doi": "10.1073/pnas.2414062122",
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11929392/",
+      "relevance": "DSI 统一模型：后继者表征 ≡ 逐点互信息（数学等价）；网格细胞=概念细胞的空间类比；词语类比与空间三角推断共享同一运算",
+      "coverage": ["successor representation", "semantic computation", "grid cell equivalence", "unified model"]
+    },
+    {
+      "id": "S7",
+      "pmid": "28480333",
+      "pmcid": "PMC5417358",
+      "title": "A unified model of human semantic knowledge and its disorders",
+      "authors": "Chen L, Lambon Ralph MA, Rogers TT",
+      "journal": "Nature Human Behaviour",
+      "year": 2017,
+      "doi": "10.1038/s41562-016-0039",
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5417358/",
+      "relevance": "C3（连接约束认知）计算模型：ATL枢纽损伤→跨类别损伤；类别特异性是学习+连接的涌现属性；模拟4类神经损伤患者模式",
+      "coverage": ["computational model", "hub damage prediction", "category specificity emergence", "connectivity-constrained cognition"]
+    },
+    {
+      "id": "S8",
+      "pmid": "22760181",
+      "pmcid": null,
+      "title": "Concept cells: the building blocks of declarative memory functions",
+      "authors": "Quiroga RQ",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2012,
+      "doi": "10.1038/nrn3251",
+      "access": "abstract_only_paywall",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22760181/",
+      "relevance": "概念细胞综述：内侧颞叶稀疏抽象跨模态概念响应神经元，为情节记忆提供概念身份锚点",
+      "coverage": ["concept cells", "medial temporal lobe", "sparse abstract representation"]
+    },
+    {
+      "id": "S9",
+      "pmid": "29311746",
+      "pmcid": null,
+      "title": "Hexadirectional coding of visual space in human entorhinal cortex",
+      "authors": "Nau M, Navarro Schröder T, Bellmund JLS, Doeller CF",
+      "journal": "Nature Neuroscience",
+      "year": 2018,
+      "doi": "10.1038/s41593-017-0050-8",
+      "access": "abstract_only_paywall",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29311746/",
+      "relevance": "内嗅皮层六重旋转对称信号编码视觉空间维度（非物理导航），支持网格样编码的跨域普遍性",
+      "coverage": ["hexadirectional coding", "entorhinal cortex", "non-spatial grid coding"]
+    }
+  ],
+  "excluded_sources": [
+    {
+      "pmid": "17314521",
+      "reason": "PMID 与目标论文不对应（数据库返回错误）；Patterson 2007 'Where do you know what you know?' 为付费墙文章，需独立验证 PMID"
+    },
+    {
+      "pmid": "28163327",
+      "reason": "PMID 与目标论文不对应（数据库返回错误）；Lambon Ralph 2017 NRN review 已被 PMID:28480333（NHB, open access）覆盖"
+    }
+  ],
+  "search_queries": [
+    "anterior temporal lobe semantic hub conceptual knowledge",
+    "hub-and-spoke semantic memory ATL Lambon Ralph",
+    "conceptual space grid cells entorhinal cortex semantic",
+    "Bellmund conceptual space entorhinal grid",
+    "Quiroga concept cells medial temporal lobe neuron abstract",
+    "Lambon Ralph 2017 review semantic cognition neural computational",
+    "semantic dementia anterior temporal lobe hub Patterson",
+    "Chen Lambon Ralph Rogers 2017 unified semantic model"
+  ]
+}

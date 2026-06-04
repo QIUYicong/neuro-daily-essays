@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-15",
-  "node_count": 151,
-  "edge_count": 880,
+  "updated": "2026-07-16",
+  "node_count": 158,
+  "edge_count": 920,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1417,6 +1417,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/anterior-temporal-lobe-hub.md"
+    },
+    {
+      "id": "semantic-memory-hub",
+      "title": "语义记忆枢纽（Hub-and-Spoke 模型）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/semantic-memory-hub.md"
+    },
+    {
+      "id": "conceptual-space-geometry",
+      "title": "概念空间几何（Conceptual Space Geometry）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/conceptual-space-geometry.md"
     }
   ],
   "edges": [
@@ -6382,6 +6400,90 @@
       "from": "language-network",
       "to": "anterior-temporal-lobe-hub",
       "type": "mechanism-of"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "mechanism-of",
+      "note": "ATL是hub-and-spoke模型的物理枢纽；semantic-memory-hub页面聚焦计算机制，ATL Hub页面聚焦神经解剖"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "embodied-semantics",
+      "type": "related",
+      "note": "具身语义是轮辐理论的极端版本；C3模型将两者调和"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "language-network",
+      "type": "related",
+      "note": "腹侧语言流将词汇知识输入ATL枢纽"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "grid-cells",
+      "type": "related",
+      "note": "概念空间几何可能复用内嗅皮层网格细胞机制"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "cognitive-map",
+      "type": "related",
+      "note": "ATL枢纽组织的语义知识可能是认知地图在概念域的实现"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "conceptual-space-geometry",
+      "type": "related",
+      "note": "ATL整合形成的概念可能在内嗅皮层以网格几何坐标表示"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "semantic-memory-hub",
+      "type": "related",
+      "note": "概念空间几何是hub-and-spoke模型在度量空间层面的延伸"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "grid-cells",
+      "type": "mechanism-of",
+      "note": "内嗅皮层网格细胞是概念空间几何编码的神经底物"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "cognitive-map",
+      "type": "is-a",
+      "note": "概念空间几何是认知地图理论从空间导航到语义领域的直接延伸"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "related",
+      "note": "ATL激活模式可能对应概念空间中的坐标点"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "place-cells",
+      "type": "related",
+      "note": "场所细胞对应概念空间中的概念细胞（稀疏选择性响应）"
+    },
+    {
+      "from": "anterior-temporal-lobe-hub",
+      "to": "semantic-memory-hub",
+      "type": "is-a",
+      "note": "前颞叶枢纽是hub-and-spoke模型的神经解剖实现"
+    },
+    {
+      "from": "grid-cells",
+      "to": "conceptual-space-geometry",
+      "type": "supports",
+      "note": "内嗅皮层六重对称信号在概念空间学习范式中复现"
+    },
+    {
+      "from": "cognitive-map",
+      "to": "conceptual-space-geometry",
+      "type": "supports",
+      "note": "认知地图的DSI统一框架（SR≡PMI）提供概念空间几何的计算基础"
     }
   ],
   "dangling_references": [

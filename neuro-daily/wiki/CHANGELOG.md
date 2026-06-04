@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-07-16 · 文章 #84 · 意义的诞生地：前颞叶如何将感官碎片组装成概念
+
+**核心主题**：ATL语义枢纽的计算机制深化（hub-and-spoke双层架构；ATL→spoke不对称广播；双侧ATL组织）；rTMS双离解因果证据（Pobric 2010）；C3连接约束认知模型（Chen 2017：ATL损伤→跨类别损伤是数学必然）；概念空间几何（内嗅皮层六重对称编码概念类别方向；mPFC编码类别距离）；DSI统一模型（Haga 2025 PNAS：后继者表征≡逐点互信息，网格细胞=概念细胞空间类比）；大型语言模型词嵌入与生物概念空间的几何比较。
+
+**新建页面（2）**：
+- `concepts/semantic-memory-hub.md` rev1 — 语义记忆枢纽（Hub-and-Spoke模型）：ATL→spoke不对称连接（t₁₉=5.11）；双侧ATL组织；C3计算模型；rTMS双离解（mainstream, confidence:high）
+- `concepts/conceptual-space-geometry.md` rev1 — 概念空间几何：内嗅皮层六重对称概念导航编码；mPFC距离编码；DSI统一框架（SR≡PMI）；LLM类比（emerging, confidence:medium）
+
+**修订页面（4）**：
+- `concepts/anterior-temporal-lobe-hub.md` rev2 — 新增：ATL→spoke不对称连接（DCM t₁₉=5.11）、rTMS双离解因果证据、ATL双侧组织元分析、C3计算模型；新增连接至semantic-memory-hub和conceptual-space-geometry；Q-sem-01新增；关键证据表扩展至8行
+- `concepts/grid-cells.md` rev2 — 新增"概念空间中的网格样编码"机制节（Bokeria 2021；Haga 2025 DSI模型）；新增连接至semantic-memory-hub和conceptual-space-geometry
+- `concepts/embodied-semantics.md` rev2 — 新增C3模型对Hub-and-Spoke调和立场的计算支撑；新增连接至semantic-memory-hub和anterior-temporal-lobe-hub
+- `concepts/cognitive-map.md` rev2 — 新增DSI统一计算框架节（Haga 2025，SR≡PMI等价）；新增概念空间fMRI证据行（Bokeria 2021）；新增连接至semantic-memory-hub和conceptual-space-geometry
+
+**矛盾登记（0）**：LLM词嵌入空间与生物概念空间的拓扑等价性（Q-sem-02）及概念空间真实几何（Q-sem-01）登记为新开放问题，未达contested_claims阈值。
+
+**新增开放问题**：Q-sem-01（高优先：概念空间真实几何，六边形网格是否是精确描述）、Q-sem-02（高优先：LLM词嵌入与生物概念空间的拓扑等价性）
+
+**解决的悬空引用**：无新建悬空引用；所有连接指向已有节点或当日新建节点。
+
+**图谱**：158 节点（+2：semantic-memory-hub, conceptual-space-geometry），920 边（+14 条新边）
+
+---
+
 ## 2026-07-15 · 文章 #83 · 听懂一句话：大脑如何用双流网络将声音转化为意义
 
 **核心主题**：语言双流模型深化（Hickok & Poeppel）——腹流（ATL语义枢纽→hub-and-spoke）与背流（Spt区→传导性失语症自然实验）的功能解剖；Fedorenko & Blank 2020对"Broca区不是自然种类"的重要证明（LANG/MD三成分分离）；Shain & Fedorenko 2020语言专属surprisal效应（仅在LANG网络，不在MD网络）；腹流四大白质束（IFOF/UF/ILF/MLF）的DES临床证据；ATL作为语义枢纽的病变-网络和EEG/MEG时序证据。

@@ -1,0 +1,77 @@
+# 运行日志 2026-07-16
+
+**文章编号**：#84
+**虚拟日期**：2026-07-16
+**真实执行日期**：2026-06-04 UTC+8
+**文章标题**：意义的诞生地：前颞叶如何将感官碎片组装成概念
+**文件名**：2026-07-16-semantic-hub-atl-conceptual-space.md
+
+---
+
+## 选题依据
+
+- **主要驱动**：Q-lang-04（高优先级，ATL语义枢纽计算机制，文章#83新增，未解）
+- **课程轨道**：7. 语言与抽象思维（第2篇，续接#83语言双流网络）
+- **横向连接**：轨道3（大脑如何编码世界：网格细胞/认知地图←→语义空间）
+
+## 文献检索
+
+**来源总数**：9篇（5篇开放全文，4篇摘要仅）
+**排除来源**：2篇（PMID:17314521, PMID:28163327 — 数据库返回错误PMID，已记录）
+
+| PMID | 作者 | 标题摘要 | 访问状态 |
+|------|------|---------|---------|
+| 31132452 | Chiou & Lambon Ralph 2019 | ATL→spoke不对称连接（DCM） | 开放全文 |
+| 20451381 | Pobric et al. 2010 | rTMS双离解（ATL vs IPL） | 开放全文 |
+| 25771223 | Rice et al. 2015 | ATL双侧激活元分析（97研究） | 开放全文 |
+| 39513090 | Rouse et al. 2024 | 社会性语义与双侧ATL | 开放全文 |
+| 33603654 | Bokeria et al. 2021 | 概念空间网格编码综述 | 开放全文 |
+| 40063809 | Haga et al. 2025 | DSI统一模型（SR≡PMI） | 开放全文 |
+| 28480333 | Chen et al. 2017 | C3计算模型 | 开放全文 |
+| 22760181 | Quiroga 2012 | 概念细胞综述 | 摘要仅（付费墙） |
+| 29311746 | Nau et al. 2018 | 视觉空间六重编码 | 摘要仅（付费墙） |
+
+## 文章写作
+
+- **字符数**：约5500字
+- **章节**：今日核心问题、一句话摘要、为什么重要、背景、核心机制（4节）、关键证据、解开谜题、认知地图更新、仍然未知、人工智能对照、参考来源
+- **文章文件**：neuro-daily/articles/2026-07-16-semantic-hub-atl-conceptual-space.md
+
+## Wiki 固结
+
+**新建页面（2）**：
+- wiki/concepts/semantic-memory-hub.md（status: mainstream, confidence: high）
+- wiki/concepts/conceptual-space-geometry.md（status: emerging, confidence: medium）
+
+**修订页面（4）**：
+- wiki/concepts/anterior-temporal-lobe-hub.md → rev2（新增不对称连接证据、rTMS双离解、C3模型、ATL元分析；新增连接至semantic-memory-hub和conceptual-space-geometry）
+- wiki/concepts/grid-cells.md → rev2（新增"概念空间中的网格样编码"机制节）
+- wiki/concepts/embodied-semantics.md → rev2（新增C3模型计算支撑）
+- wiki/concepts/cognitive-map.md → rev2（新增DSI统一框架节）
+
+## 状态文件更新
+
+- state/topic_ledger.json：total_articles 83→84，新增条目
+- state/unresolved_questions.md：新增Q-sem-01, Q-sem-02；更新Q-lang-04状态
+- state/source_registry.json：total_count 349→358，新增9个PMID
+- state/monthly_synthesis.md：更新月度文章列表和日条目
+- state/maturity_index.json：新增semantic-memory-hub, conceptual-space-geometry；更新embodied-semantics rev2
+- wiki/_graph.json：158节点（+2），920边（+14）
+- wiki/index.md：更新头部，新增2个概念条目
+- wiki/CHANGELOG.md：新增2026-07-16条目
+
+## 质量检查
+
+- [x] 所有PMID来源已验证（排除错误PMID已记录）
+- [x] 无法律违规行为（无Sci-Hub，无付费墙绕过）
+- [x] 文章结构符合ROUTINE.md要求（9个必要章节均完整）
+- [x] 新建wiki页面使用_TEMPLATE.md规范格式
+- [x] graph.json通过JSON解析验证（158节点，920边）
+- [x] 所有JSON状态文件通过语法验证
+- [x] 无医疗建议内容
+- [x] 数据未伪造/虚构
+
+## 错误与注意事项
+
+1. PMID:17314521（预期为 Patterson et al. 2007 NRN "Where do you know what you know?"）——PubMed返回一篇HIV/HSV2相关论文，疑似数据库录入错误。该论文未在最终文章中引用，记录在sources JSON的excluded_sources字段。
+2. PMID:28163327（预期为 Lambon Ralph 2017 NRN review）——PubMed返回耳硬化症相关论文，疑似数据库录入错误。使用PMID:28480333（Chen et al. 2017 NHB, 开放全文）作为替代，覆盖面更广且可直接引用。

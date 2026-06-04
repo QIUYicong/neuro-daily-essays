@@ -1,7 +1,73 @@
 {
-  "last_updated": "2026-07-15",
-  "total_articles": 83,
+  "last_updated": "2026-07-16",
+  "total_articles": 84,
   "entries": [
+    {
+      "date": "2026-07-16",
+      "title": "意义的诞生地：前颞叶如何将感官碎片组装成概念",
+      "filename": "2026-07-16-semantic-hub-atl-conceptual-space.md",
+      "wiki_pages_created": [
+        "wiki/concepts/semantic-memory-hub.md",
+        "wiki/concepts/conceptual-space-geometry.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/anterior-temporal-lobe-hub.md",
+        "wiki/concepts/grid-cells.md",
+        "wiki/concepts/embodied-semantics.md",
+        "wiki/concepts/cognitive-map.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "ATL语义枢纽的计算机制是什么？为什么hub-and-spoke模型中ATL→spoke方向的连接远强于逆向（t₁₉=5.11），以及概念知识是否组织在一个有度量结构的'概念空间'中、由内嗅皮层的类网格细胞六边形编码支撑？",
+      "layer": [
+        "cognition",
+        "brain-region",
+        "whole-brain-network",
+        "theory"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（第2篇，续接#83语言双流网络，深化ATL枢纽计算机制；回答Q-lang-04）；横跨课程轨道3（大脑如何编码世界：概念空间几何←→认知地图）",
+      "topic_tags": [
+        "hub-and-spoke",
+        "anterior temporal lobe",
+        "semantic memory",
+        "conceptual space",
+        "grid cells",
+        "entorhinal cortex",
+        "concept cells",
+        "DSI model",
+        "successor representation",
+        "PMI",
+        "C3 model",
+        "Lambon Ralph",
+        "Chiou 2019",
+        "Pobric 2010",
+        "Bokeria 2021",
+        "Haga 2025",
+        "semantic dementia",
+        "ATL bilateral",
+        "word embeddings",
+        "LLM analogy",
+        "word2vec",
+        "analog reasoning"
+      ],
+      "main_sources": [
+        "PMID:31132452 (PMC6693526, open full text, Chiou & Lambon Ralph 2019 NeuroImage, ATL→spoke asymmetric connectivity)",
+        "PMID:20451381 (PMC2878637, open full text, Pobric et al. 2010 Curr Biol, rTMS double dissociation)",
+        "PMID:25771223 (PMC4816787, open full text, Rice et al. 2015 Cereb Cortex, bilateral ATL meta-analysis)",
+        "PMID:39513090 (PMC11542483, open full text, Rouse et al. 2024 Brain Commun, social semantics bilateral ATL)",
+        "PMID:33603654 (PMC7884611, open full text, Bokeria et al. 2021 Front Hum Neurosci, conceptual space grid coding)",
+        "PMID:40063809 (PMC11929392, open full text, Haga et al. 2025 PNAS, DSI unified model SR=PMI)",
+        "PMID:28480333 (PMC5417358, open full text, Chen et al. 2017 Nat Hum Behav, C3 computational model)",
+        "PMID:22760181 (abstract only paywall, Quiroga 2012 Nat Rev Neurosci, concept cells)",
+        "PMID:29311746 (abstract only paywall, Nau et al. 2018 Nat Neurosci, hexadirectional visual coding)"
+      ],
+      "unresolved_questions": [
+        "Q-sem-01 (新增，高优先级)",
+        "Q-sem-02 (新增，高优先级)",
+        "Q-lang-04 (部分解答)"
+      ],
+      "note": "系统时钟 UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期 2026-07-16；9个来源（5篇开放全文，4篇摘要仅），2篇PMID验证失败已排除（17314521, 28163327）；新建2页+修订4页；Q-lang-04部分解答（主动广播+C3架构约束确认；线性vs非线性整合仍未解）"
+    },
     {
       "date": "2026-07-15",
       "title": "听懂一句话：大脑如何用双流网络将声音转化为意义",
