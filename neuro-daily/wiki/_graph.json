@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-10",
-  "node_count": 146,
-  "edge_count": 855,
+  "updated": "2026-07-11",
+  "node_count": 149,
+  "edge_count": 866,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1327,6 +1327,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/trem2.md"
+    },
+    {
+      "id": "lateral-habenula",
+      "title": "外侧缰核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/lateral-habenula.md"
+    },
+    {
+      "id": "rmtg",
+      "title": "喙内侧被盖核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/rmtg.md"
+    },
+    {
+      "id": "burst-firing-lhb",
+      "title": "外侧缰核爆发放电（抑郁机制）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/burst-firing-lhb.md"
     }
   ],
   "edges": [
@@ -6036,6 +6063,61 @@
     {
       "from": "microglia",
       "to": "trem2",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "rmtg",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "serotonin-raphe-system",
+      "type": "regulates"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "hpa-axis",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "lateral-habenula",
+      "type": "regulates"
+    },
+    {
+      "from": "rmtg",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "burst-firing-lhb",
+      "to": "lateral-habenula",
+      "type": "part-of"
+    },
+    {
+      "from": "burst-firing-lhb",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "burst-firing-lhb",
+      "to": "glucocorticoid-hippocampus-plasticity",
       "type": "related"
     }
   ],

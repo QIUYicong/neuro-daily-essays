@@ -932,6 +932,33 @@
       "revision_count": 1,
       "last_changed": "2026-07-08",
       "change_reason": "新建（文章 #76，2026-07-08）。SCN 为主时钟的证据：（1）双侧 SCN 消融→节律全面丧失（多物种独立重复）；（2）胚胎 SCN 移植→节律恢复且周期由供体决定（Ralph 1990, PMID:1546306, Science）；（3）ipRGC→RHT→SCN 光输入通路由黑视素发现（Berson 2002, PMID:11805301）和多项解剖+因果实验确立。定为 established/high。"
+    },
+    {
+      "slug": "lateral-habenula",
+      "page": "wiki/systems/lateral-habenula.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-11",
+      "change_reason": "新建（文章 #79，2026-07-11）。LHb 的解剖功能已由数十年电生理研究（Matsumoto & Hikosaka 2007, PMID:17522629，直接单神经元记录负 RPE）确立；LHb→RMTg→DA 回路有 Hong 2011（PMID:21832176）灵长类三脑区同步记录+电刺激因果证据（94% DA 被抑制）；LHb 在慢性应激/抑郁中的爆发放电有 Li 2011/2013、Yang 2018、Cui 2018 多重机制因果实验支持；Wang 2024（PMID:38863324）三条输出子回路有光遗传因果解析。主要不确定性：(1) NMDAR 在 LHb 爆发中的物种普遍性（C-2026-07-11-01）；(2) 人类直接神经回路证据（目前主要来自啮齿类/灵长类）。整体 established/high，药理干预（氯胺酮）路径 mainstream。"
+    },
+    {
+      "slug": "rmtg",
+      "page": "wiki/systems/rmtg.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-11",
+      "change_reason": "新建（文章 #79，2026-07-11）。RMTg 作为 LHb→DA 负反馈中继的证据由 Hong 2011（PMID:21832176）灵长类三区同步记录+电刺激直接确立（LHb→RMTg 谷氨酸能，RMTg→VTA/SNc GABA 能，94% DA 被抑制）。Jhou 2009 的解剖描述（PMID:19204131）和多项 GABA 能中继验证支持 established/high。"
+    },
+    {
+      "slug": "burst-firing-lhb",
+      "page": "wiki/concepts/burst-firing-lhb.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-07-11",
+      "change_reason": "新建（文章 #79，2026-07-11）。LHb 爆发放电的两种机制均有直接实验证据：(1) βCaMKII↑→GluA1-AMPAR↑→突触增强机制由 Li 2013（PMID:23990563，光遗传因果）确立，高置信；(2) Kir4.1 星形胶质细胞失调→K⁺ 堆积→超极化→T 型 Ca²⁺ 爆发机制由 Cui 2018（PMID:29446379）确立，但论文为 paywall；Yang 2018（PMID:29446381）NMDAR 依赖性爆发阻断证据强（大鼠 in vivo 光遗传）。有 C-2026-07-11-01 NMDAR 物种差异争议，不足以降低整体 established 状态（只影响 NMDAR 普遍性子主张）。整体 established/high，NMDAR 依赖性子声明的置信度 medium（受 C-2026-07-11-01 限制）。"
     }
   ],
   "embodied-semantics": {

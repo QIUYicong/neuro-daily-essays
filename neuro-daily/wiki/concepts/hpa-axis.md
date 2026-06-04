@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-09
-updated: 2026-07-09
-revision_count: 1
+updated: 2026-07-11
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [glucocorticoid-hippocampus-plasticity, amygdala, hippocampal-circuit, circadian-clock, scn-circadian-pacemaker, norepinephrine-locus-coeruleus, bdnf, alzheimers-disease]
+related: [glucocorticoid-hippocampus-plasticity, amygdala, hippocampal-circuit, circadian-clock, scn-circadian-pacemaker, norepinephrine-locus-coeruleus, bdnf, alzheimers-disease, lateral-habenula]
 prerequisites: [hippocampal-circuit, amygdala, circadian-clock]
 opens_questions: [Q-stress-01, Q-stress-02, Q-stress-03]
 source_articles: [2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]
@@ -79,7 +79,18 @@ key_sources: ["PMID:15891777", "PMID:3527687", "PMID:17615391", "PMID:26286651"]
 ## 修订历史
 
 - 2026-07-09 · 创建 · 基于《应激的双刃剑：糖皮质激素如何让海马在压力下先锐化、后崩溃》(第 77 篇)· 初始置信度：高
+- 2026-07-11 · 修订 · 基于《大脑的"惩罚计算器"》（#79）· 补充了HPA轴-外侧缰核双向连接：PVN（CRH）→LHb兴奋性输入（LHb是HPA-抑郁回路的关键下游），以及LHb过激活反向激活HPA轴；新增关联lateral-habenula
+
+## HPA 轴与外侧缰核的双向耦合（2026-07-11 补充）
+
+室旁核（PVN）不仅是HPA轴的"起点"，也向**外侧缰核（LHb）**发出含CRH的谷氨酸能兴奋性投射（Lawson & Bhatt 2019，PMC6558383）。这意味着：
+
+- **HPA→LHb路径**：慢性应激→PVN持续激活→CRH释放增加→LHb兴奋性输入增强→LHb过激活→DA/5-HT系统被持续压制→抑郁
+- **LHb→HPA路径**：LHb损毁实验显示HPA轴应激反应消失，说明LHb也是维持HPA正常功能的必要结构（双向调节）
+
+这一双向耦合完善了"应激→抑郁"的回路级图景：HPA轴（#77）→通过PVN-LHb路径驱动外侧缰核爆发放电（#79）→持续压制单胺能系统→快感缺失和无助感。同时，LHb的异常活动本身又能维持HPA轴的慢性激活，形成正反馈环路。
 
 ## 来源文章
 
 - [[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]]
+- [[2026-07-11-lateral-habenula-depression-ketamine]]

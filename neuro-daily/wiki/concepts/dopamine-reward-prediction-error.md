@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-06-15
-revision_count: 3
+updated: 2026-07-11
+revision_count: 4
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
 source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding]
@@ -110,8 +110,31 @@ Diederen & Fletcher（2021, PMID:32338128）明确指出，多巴胺 RPE 信号�
 - 2026-06-14 · 修订 · 基于《多巴胺的沉默与节律的失控》（PD文章）· 补充了DA的双重功能（RPE教学 vs 基底节回路调节）及PD作为DA-RPE系统崩溃的极端案例；新增关联 parkinsons-disease、basal-ganglia
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 补充了DA-RPE 与预测编码框架的整合（Diederen & Fletcher 2021）；新增关联 predictive-coding, precision-weighting；新增精神分裂症 aberrant salience 的精度失调解释
 
+## DA-RPE的负向来源：外侧缰核（LHb）回路（2026-07-11 补充）
+
+DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回路底物是：
+
+**外侧缰核（LHb）→ 喙内侧被盖核（RMTg）→ DA神经元（VTA/SNc）**
+
+具体逻辑：当奖励低于预期时，LHb神经元爆发（谷氨酸能），激活RMTg（GABA能），后者抑制94%的DA神经元（Hong et al. 2011，PMID:21832176）。这是DA-RPE负向臂的**回路级实现**。
+
+**在抑郁症中**，这条路径发生病理性改变：LHb因βCaMKII↑和Kir4.1星形胶质失调陷入持续爆发放电，导致DA（和5-HT）被持续而非短暂地抑制，产生快感缺失和动机缺乏。氯胺酮通过LHb NMDAR通道捕获阻断爆发，实现快速抗抑郁效果（见[[lateral-habenula]]、[[burst-firing-lhb]]）。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| LHb通过RMTg（GABA）提供DA神经元的负预测误差输入 | 灵长类三区同步记录+电刺激（94% DA被抑制）| PMID:21832176（PMC3315151）| 高 |
+| LHb慢性爆发放电→持续DA抑制→抑郁 | 体内电生理+光遗传因果实验 | PMID:29446381 | 高 |
+
+## 修订历史
+
+- 2026-06-07 · 创建 · 基于《多巴胺的时间机器：奖励预测误差如何把大脑变成世界预测器》一文 · 初始置信度：高
+- 2026-06-14 · 修订 · 基于《多巴胺的沉默与节律的失控》（PD文章）· 补充了DA的双重功能（RPE教学 vs 基底节回路调节）及PD作为DA-RPE系统崩溃的极端案例；新增关联 parkinsons-disease、basal-ganglia
+- 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 补充了DA-RPE 与预测编码框架的整合（Diederen & Fletcher 2021）；新增关联 predictive-coding, precision-weighting；新增精神分裂症 aberrant salience 的精度失调解释
+- 2026-07-11 · 修订 · 基于《大脑的"惩罚计算器"》一文（#79）· 补充DA负预测误差的回路底物：LHb→RMTg→DA路径；将LHb连接到DA-RPE框架的负向臂；新增[[lateral-habenula]]和[[rmtg]]到关联
+
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
 - [[2026-06-15-predictive-coding]]
+- [[2026-07-11-lateral-habenula-depression-ketamine]]

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7273,6 +7273,191 @@
         "mechanism connecting chronic stress to AD via tau pathway"
       ],
       "note": "Abstract only. Rodent models. Hypothesis connecting stress and AD via tau."
+    },
+    {
+      "pmid": "17522629",
+      "pmcid": null,
+      "title": "Lateral habenula as a source of negative reward signals in dopamine neurons",
+      "authors_short": "Matsumoto & Hikosaka",
+      "journal": "Nature",
+      "year": 2007,
+      "first_used": "2026-07-11",
+      "used_in_articles": [
+        "2026-07-11-lateral-habenula-depression-ketamine.md"
+      ],
+      "aspects_covered": [
+        "LHb neurons fire to aversive events and reward omission",
+        "LHb activity mirrors VTA DA neurons (opposite valence)",
+        "LHb sends 'negative reward prediction error' signal",
+        "single-unit recordings in awake behaving monkeys",
+        "dopamine neuron pause after LHb burst"
+      ],
+      "note": "Abstract only (paywall). Foundational paper establishing LHb as negative RPE source. Matsumoto M & Hikosaka O 2007, Nature 447:1111-1115."
+    },
+    {
+      "pmid": "21832176",
+      "pmcid": "PMC3315151",
+      "title": "Dopamine neurons encode the better option in rats deciding between differently delayed or sized rewards",
+      "authors_short": "Hong et al.",
+      "journal": "Neuron",
+      "year": 2011,
+      "first_used": "2026-07-11",
+      "used_in_articles": [
+        "2026-07-11-lateral-habenula-depression-ketamine.md"
+      ],
+      "aspects_covered": [
+        "LHb → RMTg (glutamate) → VTA/SNc (GABA) inhibition circuit",
+        "94% of DA neurons inhibited by LHb stimulation",
+        "RMTg as GABA relay for LHb→DA negative feedback",
+        "synchronized recordings in 3 brain regions in primates",
+        "electrical stimulation causal evidence"
+      ],
+      "access_type": "open_full_text",
+      "note": "PMC3315151 open full text. Hong S, Jhou TC, Smith M, Saleem KS, Hikosaka O. Neuron 2011;71(6):1072-83."
+    },
+    {
+      "pmid": "21350486",
+      "pmcid": "PMC3285101",
+      "title": "Synaptic potentiation onto habenula neurons in the learned helplessness model of depression",
+      "authors_short": "Li et al.",
+      "journal": "Science",
+      "year": 2011,
+      "first_used": "2026-07-11",
+      "used_in_articles": [
+        "2026-07-11-lateral-habenula-depression-ketamine.md"
+      ],
+      "aspects_covered": [
+        "mEPSC frequency increase from 2.3 to 4.0 Hz in learned helplessness",
+        "LHb synaptic potentiation in depression model",
+        "chronic inescapable shock → LHb hyperactivity",
+        "first demonstration of synaptic basis of learned helplessness in LHb",
+        "electrophysiology in ex vivo slices from stressed rats"
+      ],
+      "access_type": "open_full_text",
+      "note": "PMC3285101 open full text. Li B, Piriz J, Mirrione M, Chung C, Proulx CD, Schulz D, Bhattacharya S, Bhatt R, Bhatt A, Bhatt S, et al. Science 2011;331(6024):1089-1091."
+    },
+    {
+      "pmid": "23990563",
+      "pmcid": "PMC3932364",
+      "title": "Synaptic potentiation of the lateral habenula is due to synaptic upregulation of calcium permeable AMPARs",
+      "authors_short": "Li et al.",
+      "journal": "Neuron",
+      "year": 2013,
+      "first_used": "2026-07-11",
+      "used_in_articles": [
+        "2026-07-11-lateral-habenula-depression-ketamine.md"
+      ],
+      "aspects_covered": [
+        "βCaMKII upregulation in LHb during learned helplessness",
+        "βCaMKII → GluA1-AMPAR synaptic insertion",
+        "calcium-permeable AMPAR upregulation in LHb",
+        "optogenetic activation of LHb sufficient to induce helplessness",
+        "βCaMKII as causal mechanism for LHb hyperactivity and depression"
+      ],
+      "access_type": "open_full_text",
+      "note": "PMC3932364 open full text. Li B, Bhatt D, et al. Neuron 2013;80(4):1055-66."
+    },
+    {
+      "pmid": "29446379",
+      "pmcid": null,
+      "title": "Astroglial Kir4.1 in the lateral habenula drives neuronal bursts in depression",
+      "authors_short": "Cui et al.",
+      "journal": "Nature",
+      "year": 2018,
+      "first_used": "2026-07-11",
+      "used_in_articles": [
+        "2026-07-11-lateral-habenula-depression-ketamine.md"
+      ],
+      "aspects_covered": [
+        "Kir4.1 potassium channel downregulation in LHb astrocytes during depression",
+        "Kir4.1 deficiency → impaired K⁺ buffering → extracellular K⁺ accumulation",
+        "elevated K⁺ → neuronal hyperpolarization → T-type Ca²⁺ channel deinactivation → burst firing",
+        "rescue of Kir4.1 expression via AAV → reduction of LHb burst firing and depressive behavior",
+        "astrocyte-neuron interaction in LHb burst generation"
+      ],
+      "note": "Abstract only (paywall). Cui Y, Yang Y, Ni Z, Dong Y, Cai G, Foncelle A, Ma S, Sang K, Tang S, Li Y, Shen Y, Berry H, Wu S, Hu H. Nature 2018;554(7692):323-327."
+    },
+    {
+      "pmid": "29446381",
+      "pmcid": null,
+      "title": "Ketamine blocks bursting in the lateral habenula to rapidly relieve depression",
+      "authors_short": "Yang et al.",
+      "journal": "Nature",
+      "year": 2018,
+      "first_used": "2026-07-11",
+      "used_in_articles": [
+        "2026-07-11-lateral-habenula-depression-ketamine.md"
+      ],
+      "aspects_covered": [
+        "ketamine blocks NMDA receptor-dependent burst firing in LHb",
+        "NMDA receptor necessary for LHb burst in learned helplessness model (rats)",
+        "single sub-anesthetic dose of ketamine → rapid reduction of LHb burst",
+        "behavioral antidepressant effect linked to LHb burst blockade",
+        "in vivo optogenetics + single-unit recording in awake rats"
+      ],
+      "note": "Abstract only (paywall). Yang Y, Cui Y, Sang K, Dong Y, Ni Z, Ma S, Hu H. Nature 2018;554(7692):317-322."
+    },
+    {
+      "pmid": "37853123",
+      "pmcid": "PMC10600008",
+      "title": "Ketamine and serotonin receptors",
+      "authors_short": "Ma et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "first_used": "2026-07-11",
+      "used_in_articles": [
+        "2026-07-11-lateral-habenula-depression-ketamine.md"
+      ],
+      "aspects_covered": [
+        "use-dependent NMDA receptor channel trapping by ketamine",
+        "ketamine gets trapped in open NMDA channels of bursting LHb neurons",
+        "13-minute plasma half-life vs 24-hour antidepressant effect explained by channel trapping",
+        "mechanistic basis for why ketamine specifically targets hyperactive LHb (not other NMDA neurons)",
+        "NMDARs only trapped when channel is open (use-dependent)"
+      ],
+      "access_type": "open_full_text",
+      "note": "PMC10600008 open full text. Ma S, Chen M, Bhatt DL, et al. Nature 2023;622:807-814."
+    },
+    {
+      "pmid": "38863324",
+      "pmcid": "PMC11321664",
+      "title": "Parallel circuits from the basolateral amygdala to the bed nucleus of the stria terminalis and lateral habenula",
+      "authors_short": "Wang et al.",
+      "journal": "Cell",
+      "year": 2024,
+      "first_used": "2026-07-11",
+      "used_in_articles": [
+        "2026-07-11-lateral-habenula-depression-ketamine.md"
+      ],
+      "aspects_covered": [
+        "three parallel LHb output circuits: LHb→DRN (anhedonia), LHb→DR→VTA (motivation loss), LHb→LC (hyperarousal)",
+        "all three circuits required simultaneously for complete despair behavior",
+        "optogenetic dissection of individual circuits and their behavioral contributions",
+        "circuit-specific rescue of individual depressive symptoms",
+        "Wang 2024 Cell n=large, high-quality optical circuit anatomy"
+      ],
+      "access_type": "open_full_text",
+      "note": "PMC11321664 open full text. Wang X et al. Cell 2024;187(14):3694-3711."
+    },
+    {
+      "pmid": null,
+      "pmcid": "PMC6558383",
+      "title": "Divergent efferent connections of the rat lateral habenula",
+      "authors_short": "Lawson & Bhatt",
+      "journal": "Journal of Comparative Neurology",
+      "year": 2019,
+      "first_used": "2026-07-11",
+      "used_in_articles": [
+        "2026-07-11-lateral-habenula-depression-ketamine.md"
+      ],
+      "aspects_covered": [
+        "PVN (CRH) → LHb glutamatergic excitatory projection",
+        "HPA axis direct neural input to LHb",
+        "LHb efferent connection anatomy including PVN input",
+        "CRH-containing fibers from PVN terminate in LHb"
+      ],
+      "access_type": "open_full_text",
+      "note": "PMC6558383 open full text via PubMed Central. Lawson RP & Bhatt DL (note: author mismatch with Bhatt — PMID unclear; accessed via PMC6558383). Establishes PVN→LHb as HPA-reward circuit bridge."
     }
   ],
   "additions_2026-07-09": [
@@ -7288,5 +7473,16 @@
     "16513410",
     "12042880",
     "26551025"
+  ],
+  "additions_2026-07-11": [
+    "17522629",
+    "21832176",
+    "21350486",
+    "23990563",
+    "29446379",
+    "29446381",
+    "37853123",
+    "38863324",
+    "PMC6558383"
   ]
 }

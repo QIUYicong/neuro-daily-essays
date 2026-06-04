@@ -80,6 +80,20 @@
       "source_article": "2026-07-02-astrocyte-tripartite-synapse",
       "priority": "high",
       "note": "D-丝氨酸的 Ca²⁺ 依赖释放证据（Henneberger 2010）比谷氨酸胞吐证据更强；核心争议现集中在谷氨酸；D-丝氨酸可能确实通过囊泡机制，而谷氨酸可能主要通过 VRAC 或连接蛋白通道"
+    },
+    {
+      "id": "C-2026-07-11-01",
+      "page": "wiki/concepts/burst-firing-lhb.md",
+      "claim_A": "NMDA 受体依赖性突触增强（mEPSC 频率↑+ βCaMKII→GluA1 AMPAR↑）是外侧缰核（LHb）爆发放电和抑郁表型的必要条件；氯胺酮通过使用依赖性 NMDAR 通道捕获（channel trap）阻断爆发，从而实现快速抗抑郁（Yang 2018, PMID:29446381；Ma 2023, PMID:37853123）",
+      "claim_B": "2026 年 Frontiers in Neuroscience 一项小鼠研究在 NMDA 受体拮抗剂（APV）存在下仍可观察到 LHb 爆发放电，提示 NMDA 受体可能不是所有物种/条件下 LHb 爆发的普遍必要条件；LHb 爆发的其他机制（如 T 型 Ca²⁺ 通道本身、SK 通道减少等）可能在某些情况下不依赖 NMDA",
+      "nature": "物种差异（大鼠 vs 小鼠）+ 方法论差异（体内光遗传-因果 vs 脑片 APV 药理），可能反映 LHb 爆发机制在大鼠/小鼠之间的真实差异，或实验条件（慢性应激预处理 vs 正常小鼠）的差异；claim_A 的证据质量更高（多物种 in vivo 因果），但物种普遍性有待验证",
+      "status": "open",
+      "opened": "2026-07-11",
+      "source_article": "2026-07-11-lateral-habenula-depression-ketamine",
+      "priority": "medium",
+      "note": "Yang 2018 和 Ma 2023 的证据来自大鼠体内实验（光遗传+行为），而 Frontiers 2026 的反证来自小鼠离体实验；两种设置的直接对照研究缺失；若 NMDA 非必需，则氯胺酮的快速抗抑郁机制需要替代解释"
     }
-  ]
+  ],
+  "open_count": 7,
+  "resolved_count": 0
 }

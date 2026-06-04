@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-10（第78篇·当卫士变成刽子手·神经炎症与突触损伤）· 主题页总数：**145**（新建2页：neuroinflammation, inflammatory-cytokines-synapse；修订4页：microglia rev2, glucocorticoid-hippocampus-plasticity rev2, alzheimers-disease rev8；图谱146节点、855边；无新矛盾登记）
+> 最后更新：2026-07-11（第79篇·大脑的"惩罚计算器"·外侧缰核与抑郁症）· 主题页总数：**148**（新建3页：lateral-habenula, rmtg, burst-firing-lhb；修订2页：dopamine-reward-prediction-error rev4, hpa-axis rev2；图谱149节点、866边；新登记矛盾1条：NMDAR是否为LHb爆发必要条件）
 
 ---
 
@@ -118,6 +118,7 @@
 - 🟢 [糖皮质激素与海马可塑性（MR/GR 双相调节）](concepts/glucocorticoid-hippocampus-plasticity.md) — 低浓度 MR→LTP 增强/神经元存活；急性高 GR→聚焦巩固（时空特异性原则）；慢性 GR→BDNF↓/GluA1 内吞/CA3 树突退缩/神经发生↓；糖皮质激素脆弱性假说（Conrad 2008）；慢性应激→CRH/GC→小胶质细胞预激→神经炎症间接损伤路径（修订 rev2 2026-07-10）**[NEW 2026-07-09 #77]**
 - 🟢 [神经炎症（CNS）](concepts/neuroinflammation.md) — 小胶质细胞/星形胶质细胞过度激活引发的 CNS 低水平慢性炎症；三阶段病理转变（免疫监视→急性保护→慢性损伤）；Aβ 触发 C1q 重激活→补体依赖性突触丢失；CRH/肥大细胞桥接 HPA 轴与神经炎症；小胶质细胞预激作为慢性应激→AD 风险放大的中间机制 **[NEW 2026-07-10 #78]**
 - 🟢 [炎症细胞因子对突触的损伤机制](concepts/inflammatory-cytokines-synapse.md) — 浓度依赖性双向效应：低水平 TNF-α/IL-1β 促 LTP，高水平系统性损伤；TNF-α（TNFR1/NF-κB→GluA1 内吞）、IL-1β（p38 MAPK→GluA1 Ser831 去磷酸化 + NR2B 选择性↓）、IL-6（STAT3/Arc 过激活）三路分子机制；TREM2 R47H→TNF-α↑→LTP 受损（无 Aβ 的因果链）**[NEW 2026-07-10 #78]**
+- 🟢 [LHb 爆发放电](concepts/burst-firing-lhb.md) — 外侧缰核病理性超激活的电生理模式；βCaMKII↑→GluA1-AMPAR↑→突触增强；Kir4.1 星形胶质细胞失调→胞外 K⁺ 堆积→神经元超极化→T 型 Ca²⁺→爆发；Yang 2018 证明 NMDA 受体捕获是爆发的必要条件（氯胺酮通过此机制实现快速抗抑郁）；与视丘爆发放电同用 T 型 Ca²⁺ 但功能相反（检测威胁信号而非感觉调制）；新型争议：2026 Frontiers 研究质疑 NMDA 普遍必要性 **[NEW 2026-07-11 #79]**
 - 🔵 [β振荡（基底节-皮层）](concepts/beta-oscillations.md) — 13-30 Hz同步振荡；PD中病理性增强构成"抗运动"回路状态；DA和DBS均通过β→θ切换改善运动（Köhler 2024 n=25）；与γ振荡（促运动执行）功能对立 **[NEW 2026-06-14]**
 - 🟢 [恐惧条件反射](concepts/fear-conditioning.md) — 外侧杏仁核（LA）CS+US汇聚→NMDA巧合检测→CaMKII→AMPA插入→LA-LTP；与海马LTP分子机器完全同构；约20%LA神经元形成稀疏恐惧印迹；光遗传双向因果证明（Nabavi 2014）**[NEW 2026-05-30]**
 - 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）**[修订 2026-05-31]**
@@ -160,6 +161,8 @@
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**
 - 🔵 [胶质淋巴系统](systems/glymphatic-system.md) — 大脑废物清洗网络：CSF 沿动脉旁间隙入流→星形胶质细胞终足 AQP4 穿越脑实质→静脉旁出流；蓝斑核 NE 振荡（~0.05 Hz）驱动血管慢性搏动为物理泵；NREM 深度睡眠期高效清除 Aβ 和 tau；AQP4 KO→70% 清除效率下降；衰老→三重削弱→AD 恶性循环；人类随机交叉试验直接验证（Dagum 2026）**[NEW 2026-07-06]**
 - 🟢 [视交叉上核（SCN 主时钟）](systems/scn-circadian-pacemaker.md) — ipRGC/黑视素→RHT→VIP 核心区→AVP 壳区；VIP/VPAC2 细胞间耦合同步；三条输出路径（自主神经→褪黑素、神经投射→LC/VLPO/DMH、体液 AVP/PROK2）；SCN 移植实验（Ralph 1990）；星形胶质细胞时钟（Brancaccio 2019）；AD 中 SCN VIP 神经元早期萎缩 **[NEW 2026-07-08 #76]**
+- 🟢 [外侧缰核（LHb）](systems/lateral-habenula.md) — 大脑"惩罚计算器"；编码负奖励预测误差（镜像 DA 神经元）；LHb→RMTg（谷氨酸）→VTA/SNc（GABA）抑制多巴胺；慢性应激/βCaMKII↑或 Kir4.1 失调引发爆发放电→持续压制 DA/5-HT→快感缺失；PVN（CRH）→LHb 双向耦合将 HPA 轴与奖励-抑郁回路连通；Wang 2024 (Cell) 三条输出子回路分别驱动绝望行为的不同成分；氯胺酮通过 NMDAR 捕获阻断爆发放电 **[NEW 2026-07-11 #79]**
+- 🟢 [喙内侧被盖核（RMTg）](systems/rmtg.md) — LHb→DA 负反馈的 GABA 能中继核团；接收 LHb 谷氨酸能输入并抑制 94% 的 VTA/SNc 多巴胺神经元（Hong 2011）；是 DA-RPE 负预测误差臂的回路级执行者 **[NEW 2026-07-11 #79]**
 
 ## methods（方法）
 

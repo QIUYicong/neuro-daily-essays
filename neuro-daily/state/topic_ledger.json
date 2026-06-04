@@ -1,7 +1,72 @@
 {
-  "last_updated": "2026-07-10",
-  "total_articles": 78,
+  "last_updated": "2026-07-11",
+  "total_articles": 79,
   "entries": [
+    {
+      "date": "2026-07-11",
+      "title": "大脑的"惩罚计算器"：外侧缰核如何将厌恶信号转化为抑郁，以及氯胺酮为何能在数小时内打破这个恶性循环",
+      "filename": "2026-07-11-lateral-habenula-depression-ketamine.md",
+      "wiki_pages_created": [
+        "wiki/systems/lateral-habenula.md",
+        "wiki/systems/rmtg.md",
+        "wiki/concepts/burst-firing-lhb.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/dopamine-reward-prediction-error.md",
+        "wiki/concepts/hpa-axis.md"
+      ],
+      "contested_claims_logged": ["C-2026-07-11-01"],
+      "contested_claims_evidence_updated": [],
+      "core_question": "外侧缰核（LHb）如何通过编码负奖励预测误差、LHb→RMTg→DA 的 GABA 能抑制回路，以及慢性应激诱导的 βCaMKII↑/Kir4.1 星形胶质细胞失调引发的持续爆发放电，将急性适应性惩罚信号转化为慢性快感缺失与动机缺乏；以及氯胺酮通过使用依赖性 NMDAR 通道捕获阻断 LHb 爆发、24 小时内实现快速抗抑郁效果的分子机制是什么？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "6. 情绪与动机 + 11. 疾病作为窗口；应激-神经炎症-疾病系列的第 3 篇（#77 HPA 轴 + #78 神经炎症 + #79 LHb-抑郁回路）；将 DA-RPE 框架（#15）的'负预测误差'连接到具体回路底物（LHb→RMTg→VTA）；氯胺酮机制为药理学窗口揭示抑郁症神经回路",
+      "topic_tags": [
+        "lateral habenula",
+        "LHb",
+        "RMTg",
+        "negative reward prediction error",
+        "burst firing",
+        "learned helplessness",
+        "βCaMKII",
+        "Kir4.1",
+        "T-type calcium channels",
+        "NMDA receptor trapping",
+        "ketamine",
+        "fast-acting antidepressant",
+        "dopamine suppression",
+        "serotonin suppression",
+        "anhedonia",
+        "depression circuit",
+        "PVN-LHb pathway",
+        "HPA-reward circuit coupling",
+        "Wang 2024 Cell parallel circuits",
+        "Ma 2023 Nature ketamine mechanism"
+      ],
+      "main_sources": [
+        "PMID:17522629 (abstract only, Matsumoto & Hikosaka 2007 Nature, LHb negative RPE mirror of DA)",
+        "PMID:21832176 (PMC3315151, open full text, Hong 2011 Neuron, LHb→RMTg→DA 94% inhibition)",
+        "PMID:21350486 (PMC3285101, open full text, Li 2011 Science, LHb mEPSC 2.3→4.0 Hz learned helplessness)",
+        "PMID:23990563 (PMC3932364, open full text, Li 2013 Neuron, βCaMKII→AMPAR→LHb hyperactivity)",
+        "PMID:29446379 (abstract only, paywall, Cui 2018 Nature, Kir4.1 astrocyte K+ buffering failure → burst)",
+        "PMID:29446381 (abstract only, paywall, Yang 2018 Nature, ketamine NMDAR burst-blocking antidepressant)",
+        "PMID:37853123 (PMC10600008, open full text, Ma 2023 Nature, use-dependent NMDAR trapping 24h effect)",
+        "PMID:38863324 (PMC11321664, open full text, Wang 2024 Cell, three parallel LHb output circuits)",
+        "PMC6558383 (open full text, Lawson & Bhatt 2019, PVN CRH→LHb glutamatergic projection)"
+      ],
+      "unresolved_questions": [
+        "Q-lhb-01",
+        "Q-lhb-02",
+        "Q-lhb-03",
+        "Q-lhb-04"
+      ]
+    },
     {
       "date": "2026-07-10",
       "title": "当卫士变成刽子手：神经炎症如何将保护性小胶质细胞变成突触的破坏者",

@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-07-11（文章 #79·大脑的"惩罚计算器"·外侧缰核与抑郁症）
+
+**源文章**：[[2026-07-11-lateral-habenula-depression-ketamine]] —《大脑的"惩罚计算器"：外侧缰核如何将厌恶信号翻译为抑郁，以及氯胺酮为何能在数小时内打破这个恶性循环》
+
+**新建页面（3 页）**：
+- `systems/lateral-habenula.md`：外侧缰核——上丘脑进化保守核团，编码负向奖励预测误差，通过LHb→RMTg→DA和LHb→DRN→5-HT两条并行路径压制单胺能系统；抑郁中三重分子改变（βCaMKII↑、Kir4.1失调、突触前增益↑）驱动病理性爆发放电；氯胺酮NMDAR使用依赖性捕获机制（established, confidence:high）
+- `systems/rmtg.md`：喙内侧被盖核——LHb到多巴胺神经元的GABA能中继站；接受LHb谷氨酸能输入，输出GABA抑制至VTA/SNc（established, confidence:high）
+- `concepts/burst-firing-lhb.md`：外侧缰核爆发放电（抑郁机制）——LHb从正常紧张性放电转为病理性爆发；需NMDAR+T型Ca²⁺共同激活；氯胺酮使用依赖性捕获的分子靶点；与视丘爆发放电的机制同源但功能意义相反（established, confidence:high）
+
+**修订页面（2 页）**：
+- `concepts/dopamine-reward-prediction-error.md`（rev3→rev4）：补充DA负预测误差的回路底物——LHb→RMTg→DA三节点链；将LHb连接到DA-RPE框架的负向臂；新增related: lateral-habenula, rmtg
+- `concepts/hpa-axis.md`（rev1→rev2）：补充HPA轴-外侧缰核双向耦合：PVN（CRH）→LHb兴奋性输入，以及LHb激活→HPA轴维持；新增related: lateral-habenula
+
+**图谱更新**：新增 3 节点（lateral-habenula, rmtg, burst-firing-lhb）、11 条边；总计 149 节点，866 边
+
+**新登记矛盾（1 个）**：
+- C-2026-07-11-01（open）：NMDA受体是否对LHb爆发放电必要——Yang 2018（必要）vs 2026年Frontiers新论文（可能非必要）
+
+**新增未解问题（4 个）**：
+- Q-lhb-01（高优先）：LHb是否是氯胺酮起效的唯一关键位点？代谢产物在海马/PFC的AMPAR作用多大？
+- Q-lhb-02（高优先）：NMDA受体是否是LHb爆发放电的必要条件（2026年新争议）？
+- Q-lhb-03（中优先）：Kir4.1失调的上游触发器——慢性应激如何通过GR改变星形胶质细胞Kir4.1？
+- Q-lhb-04（中优先）：不同抑郁亚型中LHb活动特征的异质性
+
+**新增悬空引用（待补）**：
+- `t-type-calcium-channels-thalamus`：T型Ca²⁺通道专页（burst-firing-lhb prerequisites中提及）
+
+---
+
 ## 2026-07-10（文章 #78·当卫士变成刽子手·神经炎症与突触损伤）
 
 **源文章**：[[2026-07-10-neuroinflammation-synaptic-damage]] —《当卫士变成刽子手：神经炎症如何从突触守护走向突触破坏》
