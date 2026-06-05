@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-01
-updated: 2026-07-01
-revision_count: 1
+updated: 2026-07-21
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding]
+related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding, alpha-oscillations]
 prerequisites: [prefrontal-cortex, v1-primary-visual-cortex, thalamus]
 opens_questions: [Q-dan-01, Q-dan-02, Q-dan-03]
 source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS]
@@ -68,6 +68,14 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 - FEF → TRN → 视丘核（LGN/枕核等）→ 感觉皮层
 - 与皮层直接反馈通路（FEF→V4→V1）并行，提供更大范围的感觉门控
 
+### α 振荡控制：DAN 对感觉皮层 α 侧向化的指挥
+**新增（2026-07-21）**：DAN 实施注意控制不仅通过增益调制，也通过控制感觉皮层 α 振荡（8–13 Hz）来抑制非目标区域（van Schouwenburg et al. 2017, PMID:28174529）：
+- FEF-IPS 之间的 **α 频段相干性**（10 Hz coherence）是将注意控制信号传递到感觉皮层的振荡载体
+- 结果：**目标区域感觉皮层 α 降低**（去抑制，信号畅通）；**非目标区域感觉皮层 α 升高**（主动压制，信号截断）
+- 这套机制**先于**刺激出现（预期性），是 DAN 预先设置感觉皮层过滤状态的机制
+- 与乘法性增益调制（V4→V1 反馈）并行，两者可能服务于不同感知任务类型（增益 vs 抑制选择性）
+- 见 [[alpha-oscillations]] 页面中的完整机制描述
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -90,6 +98,7 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 - [[attentional-blink]] — 注意瞬盲反映 DAN 广播的时间容量约束
 - [[global-workspace-theory]] — DAN 为 GWT 的广播机制提供空间选择基础
 - [[predictive-coding]] — 注意 = 感觉精度的主动上调（DAN 是精度加权的硬件）
+- [[alpha-oscillations]] — DAN 通过 FEF-IPS α 相干性指挥感觉皮层 α 侧向化，实现感觉门控
 
 ## 未解问题
 
@@ -101,7 +110,9 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 ## 修订历史
 
 - 2026-07-01 · 创建 · 基于《空间注意的神经回路》一文 · 来源：Corbetta & Shulman 2002, Bisley & Goldberg 2010, Moore & Fallah 2004, Debes & Dragoi 2023, Treue & Trujillo 1999 · 初始置信度：高
+- 2026-07-21 · 修订 rev2 · 新增"α 振荡控制"机制节：FEF-IPS α 相干性作为 DAN 控制感觉皮层 α 侧向化的振荡载体；更新 related 字段加入 alpha-oscillations · 来源：van Schouwenburg et al. 2017, PMID:28174529
 
 ## 来源文章
 
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
+- [[2026-07-21-alpha-oscillations-attentional-gating]]

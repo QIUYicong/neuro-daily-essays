@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-04
-revision_count: 3
+updated: 2026-07-21
+revision_count: 4
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
 opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03]
 source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron]
@@ -105,8 +105,24 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 
 - 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192
 
+## α-γ 互补关系（新增 2026-07-21）
+
+注意力研究揭示了 γ 与 α 的核心互补关系（Jensen & Mazaheri 2010, PMID:21119777）：
+
+| 特征 | γ（30–80 Hz） | α（8–13 Hz） |
+|------|--------------|-------------|
+| 功能 | 主动信息处理（门开） | 主动抑制（门关） |
+| 空间 | 目标/任务相关区域 | 非目标/干扰区域 |
+| 注意效应 | 升高（目标侧） | 升高（干扰侧）；降低（目标侧） |
+| 关系 | 互斥：α 高区通常 γ 低；α 低区 γ 可升高 |
+
+这种对立不是竞争而是协同：γ 是被注意区域的"发光"；α 是非目标区域的"遮光"。大脑用这两种节律的组合精确实现感知选择。
+
+- 2026-07-21 · 修订 rev4 · 基于《大脑的频闪滤网》一文 · 新增 α-γ 互补关系节；related 新增 alpha-oscillations · 来源：Jensen & Mazaheri 2010, PMID:21119777
+
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-06-25-gamma-oscillations-neural-binding]]
 - [[2026-07-04-ei-balance-pv-interneuron]]
+- [[2026-07-21-alpha-oscillations-attentional-gating]]

@@ -1172,5 +1172,15 @@
       "PMID:33644871",
       "PMID:37800695"
     ]
+  },
+  "alpha-oscillations": {
+    "status": "established",
+    "confidence": "high",
+    "last_updated": "2026-07-21",
+    "last_change_reason": "New page created; causal TMS evidence (Romei 2010) + multi-lab replication + cross-sensory validation (Foxe & Snyder 2011) warrant established status from creation",
+    "revision_count": 1,
+    "source_articles": [
+      "2026-07-21-alpha-oscillations-attentional-gating"
+    ]
   }
 }

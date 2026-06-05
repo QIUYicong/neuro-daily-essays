@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-21 · 文章 #89 · 大脑的频闪滤网：α 振荡的脉冲抑制机制与注意力门控
+
+**核心主题**：α 振荡（8–13 Hz）从"皮层闲置"到"主动脉冲抑制"的概念革命（Track 5 认知控制 × Track 3 感觉编码交叉篇）——Jensen & Mazaheri 2010 "Gating by Inhibition" 框架：大脑通过主动抑制无关区域（而非增强目标区域）路由信息；α 脉冲抑制（每 ~100ms GABA 超极化）调控 duty-cycle；空间注意时对侧被忽略枕叶 α 升高（视网膜拓扑特异性，Worden 2000）；预刺激 α 反向预测视觉皮层兴奋性（Romei 2008 TMS 光幻视）；节律性 TMS 10Hz 频率特异性因果诱导视野特异感知抑制（Romei 2010）；跨视觉/体感/听觉的 α 抑制普遍性（Foxe & Snyder 2011）；FEF-IPS α 相干性是 DAN 控制感觉皮层 α 侧向化的振荡载体（van Schouwenburg 2017）；α-γ 互补关系（α 高区 = γ 低区）。
+
+**新建页面（1）**：
+- `concepts/alpha-oscillations.md` rev1 — α 振荡：脉冲抑制机制；空间特异 α 侧向化；α-γ 互补；丘脑-皮层生理基础；FEF-IPS 上游控制；跨感觉普遍性；ADHD 相关（established, confidence:high）
+
+**修订页面（3）**：
+- `concepts/dorsal-attention-network.md` rev2 — 新增"α 振荡控制"机制节：FEF-IPS α 相干性指挥感觉皮层 α 侧向化；更新 related 加入 alpha-oscillations；更新 updated/revision_count/修订历史
+- `concepts/gamma-oscillations.md` rev4 — 新增"α-γ 互补关系"对照表节；更新 related 加入 alpha-oscillations；更新 updated/revision_count
+- `wiki/_graph.json` — +1节点（alpha-oscillations），+14边（177总节点，1018总边）
+
+**矛盾登记（0）**：今日无新增矛盾。α 振荡的主动抑制功能已在多个独立实验室获广泛验证（Worden 2000→Romei 2008, 2010→Foxe & Snyder 2011→van Schouwenburg 2017），知识地位已为 established。
+
+**解决的悬空引用（1）**：`alpha-oscillations`（被 dorsal-attention-network、gamma-oscillations、working-memory 中隐含引用，现有明确源页面）
+
+**新增开放问题（3）**：Q-alpha-01（高优先：FEF→枕叶 α 的解剖通路）、Q-alpha-02（中：IAF 个体差异与注意效率）、Q-alpha-03（中：清醒 α 门控与睡眠丘脑纺锤波共享机制）
+
+**图谱**：177 节点（+1），1018 边（+14）
+
+---
+
 ## 2026-07-20 · 文章 #88 · 感官交响曲：多感觉整合的计算神经科学
 
 **核心主题**：多感觉整合（Track 3 感觉编码闭环篇）——贝叶斯因果推断（先判断是否同源）+ 最大似然估计（可靠性加权融合）两级计算架构；上丘三原则（空间对齐、时间一致、逆效性法则）；时间绑定窗口（TBW）测量、发育轨迹和训练可塑性（40-64%缩小）；TBW 在 ASD/阅读障碍/精神分裂症中的扩宽；pSTS 作为视听整合皮层枢纽（嘴型-声音联合选择性）；ALE 荟萃分析确认的多感觉网络（STG/MTG-丘脑-岛叶-IFG）；三经典幻觉（麦格克效应、声音诱导闪光幻觉、腹语效应）作为整合机制的行为证据；与预测编码框架的深层联结（两者共享"感知=贝叶斯推断"认识论）。

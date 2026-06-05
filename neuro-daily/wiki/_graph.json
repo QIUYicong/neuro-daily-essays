@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-20",
-  "node_count": 176,
-  "edge_count": 1004,
+  "updated": "2026-07-21",
+  "node_count": 177,
+  "edge_count": 1018,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1597,6 +1597,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/systems/superior-temporal-sulcus.md"
+    },
+    {
+      "id": "alpha-oscillations",
+      "title": "α 振荡",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/alpha-oscillations.md"
     }
   ],
   "edges": [
@@ -7080,6 +7089,76 @@
     {
       "from": "superior-temporal-sulcus",
       "to": "broca-area",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "dorsal-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "alpha-oscillations",
+      "type": "regulates"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "gamma-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "alpha-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "working-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "thalamus",
+      "type": "part-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "thalamocortical-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "biased-competition",
+      "type": "supports"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "multisensory-integration",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "attentional-blink",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "beta-oscillations",
       "type": "related"
     }
   ],

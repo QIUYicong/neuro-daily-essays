@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-20（第88篇·感官交响曲·多感觉整合/时间绑定窗口/pSTS/贝叶斯整合）· 主题页总数：**175**（新建5页：multisensory-integration, temporal-binding-window, bayesian-sensory-integration, mcgurk-effect, superior-temporal-sulcus；修订2页：auditory-cortex rev2, predictive-coding rev7；图谱176节点、1004边；新增Q-msi-01/02/03）
+> 最后更新：2026-07-21（第89篇·大脑的频闪滤网·α振荡/脉冲抑制/注意力门控/FEF-IPS→α侧向化）· 主题页总数：**176**（新建1页：alpha-oscillations；修订2页：dorsal-attention-network rev2, gamma-oscillations rev4；图谱177节点、1018边；新增Q-alpha-01/02/03）
 
 ---
 
@@ -147,6 +147,7 @@
 - 🟢 [时间绑定窗口（TBW）](concepts/temporal-binding-window.md) — 跨感觉整合的时间容差窗口（~100-500ms，随刺激复杂度变化）；训练可缩小 40-64%（PMC2771316全文）；ASD 扩宽与沟通困难相关；阅读障碍 >2 倍扩宽；发育中从宽到窄 **[NEW 2026-07-20 #88]**
 - 🟢 [贝叶斯感觉整合](concepts/bayesian-sensory-integration.md) — MLE 框架：权重∝1/σ²，整合后方差严格 < 任何单路；因果推断层：先估计 P(common cause)；与逆效性法则数学等价；Ernst & Banks 2002 实验验证 **[NEW 2026-07-20 #88]**
 - 🟢 [麦格克效应](concepts/mcgurk-effect.md) — 视觉/ga/+听觉/ba/→感知/da/；前意识自动过程（知道仍无法消除）；pSTS 嘴型-声音联合选择性是神经基础；ASD 中麦格克效应感知减弱 **[NEW 2026-07-20 #88]**
+- 🟢 [α 振荡](concepts/alpha-oscillations.md) — 人类清醒脑电最强节律（8–13 Hz）；通过脉冲抑制（每~100ms GABA超极化）主动压制非目标感觉区域；空间注意时对侧被忽略枕叶α升高；rhTMS 10Hz 因果诱导感知抑制（Romei 2010）；α 高区 = γ 低区（主动抑制）；FEF-IPS DAN 通过 α 相干性指挥枕叶 α 侧向化；跨视觉/体感/听觉系统普遍 **[NEW 2026-07-21 #89]**
 
 ## motor（运动系统）
 
