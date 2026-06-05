@@ -112,6 +112,7 @@
 ## commit/push 状态
 
 - branch: claude/funny-einstein-DCgGr
-- commit: 待执行
-- push: 待执行
-- remote: http://local_proxy@127.0.0.1:41605/git/QIUYicong/neuro-daily-essays（正确）
+- commit: 200ad79
+- push: **成功** 2026-06-05 UTC+8
+- remote: http://local_proxy@127.0.0.1:41605/git/QIUYicong/neuro-daily-essays（正确，包含 QIUYicong/neuro-daily-essays）
+- GitHub branch URL: https://github.com/QIUYicong/neuro-daily-essays/tree/claude/funny-einstein-DCgGr
