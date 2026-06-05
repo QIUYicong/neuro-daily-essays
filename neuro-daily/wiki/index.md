@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-18（第86篇·大脑如何读懂音调·听觉系统从耳蜗到A1）· 主题页总数：**164**（新建4页：auditory-cortex, tonotopy, ribbon-synapse, phase-locking；图谱165节点、948边；新增Q-aud-01/02/03/04）
+> 最后更新：2026-07-19（第87篇·皮肤的密码·体感皮层与躯体地图）· 主题页总数：**169**（新建5页：somatosensory-cortex, mechanoreceptor-ltmr, piezo2-mechanotransduction, barrel-cortex, cortical-magnification；修订1页：critical-period rev3；图谱170节点、969边；新增Q-soma-01）
 
 ---
 
@@ -138,6 +138,10 @@
 - 🟢 [音调拓扑（Tonotopy）](concepts/tonotopy.md) — 耳蜗基底膜刚度梯度→频率-位置映射；OHC Prestin主动放大锐化~10×；TMC1分子电导梯度（基底110 pS / 顶端55 pS）；映射沿整个听觉通路（耳蜗→MGN→A1）保存；与相位锁定构成两条正交频率编码通道 **[NEW 2026-07-18 #86]**
 - 🟢 [带状突触（Ribbon Synapse）](concepts/ribbon-synapse.md) — IHC专化高通量突触；柱侧（高SR/Ia型/纳米域CaV1.3，阈值−60 mV）vs 耳蜗轴侧（低SR/Ic型/微域，阈值−45 mV）不对称；分解120 dB声音动态范围；释放速率>100囊泡/s维持相位锁定 **[NEW 2026-07-18 #86]**
 - 🟢 [相位锁定（Phase Locking）](concepts/phase-locking.md) — 听神经纤维放电相位同步于声波周期；IHC膜时间常数（0.2–1 ms）限制上截止频率（~3 kHz有效）；提供时间精细结构（TFS）信息；与音调拓扑并行的频率编码第二通道；θ相位前移的听觉类比 **[NEW 2026-07-18 #86]**
+- 🟢 [低阈值机械感受器（LTMRs）](concepts/mechanoreceptor-ltmr.md) — SA1（梅克尔）/ RA1（迈斯纳）/ RA2（帕奇尼）/ SA2（鲁菲尼）四类感受器；慢/快适应×小/大感受野2×2分类矩阵；PIEZO2是共同转导通道；梅克尔细胞-神经突复合体的双位点SA1静态/动态响应叠加 **[NEW 2026-07-19 #87]**
+- 🟢 [PIEZO2机械转导通道](concepts/piezo2-mechanotransduction.md) — 哺乳动物轻触觉的主要机械转导通道；梅克尔细胞+Aβ纤维末梢双定位；双KO小鼠几乎完全丧失轻触觉；与痛觉通道（TRPV1等）完全分离 **[NEW 2026-07-19 #87]**
+- 🟢 [桶状皮层](concepts/barrel-cortex.md) — 啮齿类S1 Layer IV每桶对应一根胡须的模块化结构；结构关键期精确在P4关闭；5-HT（5-HT1B/VPM）/ AC1/cAMP / NMDAR三重分子机制；皮层地图形成与关键期研究的"果蝇"模型系统 **[NEW 2026-07-19 #87]**
+- 🟢 [皮层放大因子与躯体小人图](concepts/cortical-magnification.md) — 皮层面积/体表面积之比；指尖放大因子~100倍于背部皮肤；Penfield homunculus历史（1950s）与Roux et al.2018现代更新（50例患者，MNI坐标）；视觉V1中央凹放大与体感/听觉的平行组织原理 **[NEW 2026-07-19 #87]**
 
 ## motor（运动系统）
 
@@ -178,6 +182,7 @@
 - 🟢 [喙内侧被盖核（RMTg）](systems/rmtg.md) — LHb→DA 负反馈的 GABA 能中继核团；接收 LHb 谷氨酸能输入并抑制 94% 的 VTA/SNc 多巴胺神经元（Hong 2011）；是 DA-RPE 负预测误差臂的回路级执行者 **[NEW 2026-07-11 #79]**
 - 🟢 [嗅觉系统](systems/olfactory-system.md) — 哺乳动物唯一不经丘脑中转的感觉系统；三层计算架构：受体层（ORN 单受体规则、组合编码）→嗅球层（嗅小球汇聚图谱、侧抑制）→梨状皮层层（稀疏符合探测）；直接投射杏仁核和内嗅皮层是 Proustian 效应的解剖基础 **[NEW 2026-07-17 #85]**
 - 🟢 [听觉皮层（A1 / 核心-带状-旁带状）](systems/auditory-cortex.md) — 初级听觉皮层（A1）保留耳蜗频率-位置音调拓扑；核心→带状→旁带状层级中响应潜伏期依次增大（chronotopy）；局部感受野异质性（~37%非单纯型细胞）超越整体频率梯度；双流类比视觉系统；与语言网络直接相连 **[NEW 2026-07-18 #86]**
+- 🟢 [初级体感皮层（S1）](systems/somatosensory-cortex.md) — 四区功能分化（3a/3b/1/2）；VPL（躯体）/ VPM（面部）/ POm（三叉）丘脑三路并行输入；Penfield躯体小人图与皮层放大因子原理；Merzenich 1983/1984证明成体S1在神经损伤后毫米级快速重组；成体可塑性机制通过GABA门控重演关键期 **[NEW 2026-07-19 #87]**
 
 ## methods（方法）
 

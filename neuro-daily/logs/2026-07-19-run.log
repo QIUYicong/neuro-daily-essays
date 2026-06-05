@@ -1,0 +1,148 @@
+# 运行日志 · 第87篇 · 2026-07-19
+
+## 基本信息
+- 虚拟日期：2026-07-19（知识库时间轴）
+- 实际执行日期：~2026-06-05 UTC+8
+- 文章编号：#87
+- 主题：体感皮层与躯体地图（Somatosensory Cortex & Body Map）
+
+## 执行步骤摘要
+
+### A. 状态读取
+- 读取 state/topic_ledger.json：上一篇 #86，主题听觉皮层，虚拟日期 2026-07-18
+- 读取 state/monthly_synthesis.md：7月截至 #86 已 18 篇
+- 读取 state/source_registry.json：截至 2026-07-18 共374条来源
+- 读取 state/unresolved_questions.md：现有未解问题列表
+- 读取 wiki/index.md：确认现有 169 个主题页（+header注明 165 节点 + #86 新建4页后=169 页）
+- 读取 wiki/CHANGELOG.md：确认最新变更记录（#86）
+- 读取 wiki/_graph.json：确认图谱结构（165节点、948边，基于 #86 更新）
+
+### B. 主题选择
+- 选择来源：topic_ledger.json 中 Track 3（感觉编码）next_suggested_topics 首位
+- 主题：体感皮层与躯体地图（somatosensory cortex + homunculus + barrel cortex）
+- 理由：延续听觉系统（#86），完成 Track 3 感觉编码四联篇（视觉/嗅觉/听觉/体感）；桶状皮层提供关键期研究第二经典系统（与 #11 critical-period 形成跨Track联结）；Penfield homunculus是神经科学最著名图像之一，皮层放大因子与听觉皮层音调放大（#86）、V1中央凹放大（#19）形成横跨三个感觉皮层的统一组织原理
+
+### C. 研究与写作
+
+#### 文献检索策略
+PubMed E-utilities 检索词：
+1. "PIEZO2 mechanoreceptor touch" → Handler & Ginty 2021 (PMC8485761)
+2. "PIEZO2 light touch knockout" → Ranade 2014 (PMC4380172); Woo 2014 (PMC4039622)
+3. "barrel cortex critical period serotonin" → Erzurumlu & Gaspar 2012 (PMC3359866)
+4. "somatosensory cortex fMRI body map" → Saadon-Grosman 2020 (PMC7425349)
+5. "adult somatosensory cortex plasticity GABA" → Mowery & Garraghty 2023 (PMC5960459)
+6. "Penfield homunculus electrostimulation" → Roux 2018 (PMC5830421)
+7. "Merzenich somatosensory cortex reorganization" → Merzenich 1983 (PMID:6823301); Merzenich 1984 (PMID:6584948)
+8. "cortical homunculus discontinuity" → Parpia 2011 (PMID:21732862); Dietrich 2017 (PMID:28119344)
+
+#### 已验证开放获取来源（8篇）
+- S1: PMID:34312536 (PMC8485761) Handler & Ginty 2021 Nat Rev Neurosci — LTMR分类与PIEZO2机制全面综述 ✅
+- S2: PMID:24717433 (PMC4380172) Ranade et al. 2014 Nature — PIEZO2双KO小鼠行为实验 ✅
+- S3: PMID:25471886 (PMC4039622) Woo et al. 2014 Nature — 梅克尔细胞特异性PIEZO2 KO ✅
+- S4: PMID:22607000 (PMC3359866) Erzurumlu & Gaspar 2012 Prog Neurobiol — 桶状皮层发育关键期分子机制 ✅
+- S5: PMID:32816652 (PMC7425349) Saadon-Grosman et al. 2020 PNAS — 高级体感区全身fMRI图谱 ✅
+- S6: PMID:29519481 (PMC5960459) Mowery & Garraghty 2023 eLife — 成体S1可塑性通过关键期机制重演 ✅
+- S7: PMID:29285773 (PMC5830421) Roux et al. 2018 Brain — 现代人类S1电刺激图谱MNI坐标 ✅
+- S8: PMID:32954277 (PMC7425349) 与Saadon-Grosman 2020同PMC — 躯干vs手/面部代表区比较 ✅（注：同一PMC ID，两个独立PMID对应同一全文）
+
+#### 摘要获取来源（4篇）
+- S9: PMID:21732862 Parpia 2011 Theor Biosci — 躯体地图不连续性Hebbian模型（仅摘要）
+- S10: PMID:28119344 Dietrich et al. 2017 J Neurosci — 腿部代表区皮节vs解剖连续性（仅摘要）
+- S11: PMID:6823301 Merzenich et al. 1983 Neuroscience — 成体猴S1截断正中神经后重组（仅摘要，经典研究1983年）
+- S12: PMID:6584948 Merzenich et al. 1984 J Comp Neurol — 成体猴指截断后S1重组（仅摘要，经典研究1984年）
+
+#### 创作文件
+- 主文章：neuro-daily/articles/2026-07-19-somatosensory-cortex-body-map.md
+  - 字数：约 6100 字
+  - 结构：引言 → 皮肤的感受器（LTMR四类型）→ PIEZO2分子机制 → 从皮肤到皮层的通路 → S1四区功能分化 → Penfield躯体小人图 → 桶状皮层 → 成体可塑性 → 思考题/延伸阅读
+  - 引用来源：12篇（8开放获取+4摘要）
+  - 对比表格：1个（四类感受器对比）
+  - 类比说明：地图类比（躯体小人=人口分布卡通图）
+  - AI比较：关键期重演=预训练模型微调的神经科学版本
+  - 概念卡：5个（皮层放大因子/PIEZO2/关键期P4/Merzenich实验/成体可塑性关键期重演）
+
+- 阅读笔记：neuro-daily/notes/2026-07-19-reading-notes.md（10篇来源的核心问题、发现、证据质量、局限性）
+
+- 来源文件：neuro-daily/sources/2026-07-19-sources.json（12条来源完整元数据）
+
+### D. Wiki 固结
+
+#### 新建页面（5）
+1. wiki/systems/somatosensory-cortex.md — slug: somatosensory-cortex, domain: systems, type: region
+2. wiki/concepts/mechanoreceptor-ltmr.md — slug: mechanoreceptor-ltmr, domain: concepts, type: mechanism
+3. wiki/concepts/piezo2-mechanotransduction.md — slug: piezo2-mechanotransduction, domain: concepts, type: mechanism
+4. wiki/concepts/barrel-cortex.md — slug: barrel-cortex, domain: concepts, type: structure
+5. wiki/concepts/cortical-magnification.md — slug: cortical-magnification, domain: concepts, type: concept
+
+#### 修订页面（1）
+- wiki/concepts/critical-period.md rev2→rev3：新增"跨系统比较：桶状皮层关键期 vs. 视觉皮层关键期"对比节（分子开关/关键期时间窗口/共同机制比较表）；related新增barrel-cortex、somatosensory-cortex、mechanoreceptor-ltmr；key_sources新增PMID:22607000
+
+#### 图谱更新（_graph.json）
+- 执行方式：Python 内联脚本（避免JSON手动编辑错误）
+- 节点：165 → 170（+5新节点）
+- 边：948 → 969（+21新边）
+- 新增主要边：
+  - mechanoreceptor-ltmr → somatosensory-cortex (mechanism-of)
+  - somatosensory-cortex → thalamus (prerequisite-for)
+  - somatosensory-cortex → critical-period (related)
+  - barrel-cortex → somatosensory-cortex (part-of)
+  - cortical-magnification → somatosensory-cortex (mechanism-of)
+  - piezo2-mechanotransduction → mechanoreceptor-ltmr (mechanism-of)
+  - piezo2-mechanotransduction → action-potential (mechanism-of)
+  - piezo2-mechanotransduction → ion-channels (is-a)
+  - barrel-cortex → critical-period (related)
+  - barrel-cortex → thalamocortical-circuit (related)
+  - barrel-cortex → pv-interneurons (related)
+  - cortical-magnification → tonotopy (related)
+  - cortical-magnification → v1-primary-visual-cortex (related)
+  - cortical-magnification → embodied-semantics (related)
+  - cortical-magnification → barrel-cortex (related)
+  - critical-period → barrel-cortex (related)
+  - somatosensory-cortex → motor-cortex (related)
+  - somatosensory-cortex → embodied-semantics (related)
+  - mechanoreceptor-ltmr → action-potential (mechanism-of)
+  - mechanoreceptor-ltmr → ion-channels (related)
+  - somatosensory-cortex → auditory-cortex (related)
+
+#### Index & CHANGELOG 更新
+- wiki/index.md：header更新为170节点969边；新增systems/somatosensory-cortex条目；新增4个concepts条目（mechanoreceptor-ltmr, piezo2-mechanotransduction, barrel-cortex, cortical-magnification）
+- wiki/CHANGELOG.md：新增2026-07-19条目（置于顶部）
+
+### E. 状态文件更新
+
+- state/topic_ledger.json：total_articles 86→87；last_updated 2026-07-18→2026-07-19；新增#87条目（置于entries数组首位）
+- state/unresolved_questions.md：last_updated更新；新增Q-soma-01（中优先级）
+- state/source_registry.json：last_updated 2026-07-18→2026-07-19；total_count 374→386；新增additions_2026-07-19（12条PMID）
+- state/monthly_synthesis.md：本月截至日期更新；文章摘要表新增#87行；新增2026-07-19日条目
+
+### F. Git 提交
+
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-07-19
+- 提交方式：GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+- 目标分支：claude/funny-einstein-NFqqH（session指定开发分支）
+- 远程仓库：QIUYicong/neuro-daily-essays
+
+## 问题与解决
+
+### 问题1：PubMed E-utilities 复杂查询返回0结果
+- **原因**：查询词过多（3+个以上布尔组合词）时 E-utilities 有时返回空结果
+- **解决**：简化为2-3个关键词/次查询，多次独立查询后合并
+
+### 问题2：上下文延续（从前一会话恢复）
+- **情况**：本会话从压缩前一会话恢复，文章写作和wiki主要页面创建已在前一会话完成
+- **解决**：读取系统提示的会话摘要，验证各已创建文件存在，从wiki/index.md新条目插入步骤继续
+
+## 最终输出统计
+
+| 项目 | 数量/状态 |
+|------|---------|
+| 主文章 | 1篇（~6100字）|
+| 阅读笔记 | 1份 |
+| 来源文件 | 1份（12条来源，8开放获取+4摘要）|
+| 新建wiki页面 | 5页 |
+| 修订wiki页面 | 1页（critical-period rev3）|
+| 图谱新增节点 | 5个 |
+| 图谱新增边 | 21条 |
+| 新增未解问题 | 1条（Q-soma-01）|
+| 新增来源注册 | 12条 |
+| 推送状态 | [见git提交结果] |

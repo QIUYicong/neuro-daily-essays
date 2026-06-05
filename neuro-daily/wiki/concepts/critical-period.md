@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-08
-revision_count: 2
+updated: 2026-07-19
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity, circadian-clock]
+related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity, circadian-clock, barrel-cortex, somatosensory-cortex, mechanoreceptor-ltmr]
 prerequisites: [pv-interneurons, ei-balance, perineuronal-nets, synaptic-transmission]
 opens_questions: [Q-cp-01, Q-cp-02, Q-cp-03, Q-cp-04]
-source_articles: [2026-06-03-critical-period-plasticity, 2026-07-08-circadian-clock-scn-brain-rhythm]
-key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181", "PMID:18692473", "PMID:21071629", "PMID:22764251", "PMID:23975100", "PMID:26261347", "PMID:33293360", "PMID:34045309", "PMID:32503914"]
+source_articles: [2026-06-03-critical-period-plasticity, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-07-19-somatosensory-cortex-body-map]
+key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181", "PMID:18692473", "PMID:21071629", "PMID:22764251", "PMID:23975100", "PMID:26261347", "PMID:33293360", "PMID:34045309", "PMID:32503914", "PMID:22607000"]
 ---
 
 # 发育关键期 (Critical Period)
@@ -52,7 +52,8 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 
 ### 系统/行为层面
 - 视觉关键期（小鼠 ~P21-P35）：双眼输入在 V1 竞争形成眼优势柱
-- 其他关键期：音调地图（听觉皮层）、桶状皮层（体感）、语言习得（可延续至青春期）
+- **桶状皮层关键期（P0–P4）**（见下方"跨系统比较"节）：更早、更短、不同分子机制
+- 其他关键期：音调地图（听觉皮层）、语言习得（可延续至青春期）
 - 弱视（amblyopia）：早期单眼剥夺导致对应眼在 V1 的皮层表征永久萎缩
 
 ## 关键证据
@@ -71,6 +72,23 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 | MeCP2 KO 加速 PV 成熟，关键期提前错位 | MeCP2 KO + GAD67 拯救 | PMID:26261347 | 高 |
 | 成年皮层 PNN 受局部 PV+ 活动动态调节 | 化学遗传学 + PNN 定量 | PMID:34045309 | 中-高 |
 
+## 跨系统比较：桶状皮层关键期 vs. 视觉皮层关键期
+
+（新增于2026-07-19，来源：Erzurumlu & Gaspar 2012, PMC3359866）
+
+| 特征 | 视觉皮层眼优势（ODP） | 桶状皮层结构重塑 |
+|------|---------------------|-----------------|
+| **时间窗口（小鼠/大鼠）** | P21–P35 | P0–P4（精确至24小时） |
+| **触发剥夺** | 单眼遮蔽（眼睑缝合） | 胡囊切除/神经切断 |
+| **可塑性类型** | 突触权重偏移（功能） | 桶状结构完全重组（结构） |
+| **关键分子** | PV+/GABA能成熟、PNN、OTX2、Lynx1 | 5-HT（VPM轴突5-HT1B）、AC1/cAMP、NMDAR |
+| **NMDAR角色** | 必要且与时间相关 | 必要但不决定关键期时间 |
+| **5-HT角色** | 次要（调节背景兴奋性） | **核心**（MAOA KO→5-HT↑→无桶） |
+| **关键期关闭** | PNN沉积、OTX2信号、Lynx1 | 分子时钟尚不完全清楚 |
+| **后续功能可塑性** | 成体V1仍可被视觉训练修改 | 桶状结构固定，但功能图谱仍可塑 |
+
+**核心差异**：桶状皮层结构关键期（P0–P4）比视觉皮层关键期早3周以上，且其分子控制者是5-HT信号（通过丘脑皮层轴突瞬时表达的5-HT1B受体）和AC1/cAMP通路，而非视觉皮层关键期的PV+/GABA能机制。这说明不同感觉皮层的关键期使用了**共同框架**（外周活动驱动竞争性分离）但**不同分子执行器**。
+
 ## 连接
 
 - [[pv-interneurons]] — PV+ 细胞成熟触发关键期开启；去激活是 ODP 的第一个微回路事件
@@ -84,6 +102,8 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 - [[ltd]] — 关键期内弱势眼突触减弱的机制
 - [[orientation-selectivity]] — V1 方向选择性在关键期完善（同一脑区，邻近功能）
 - [[circadian-clock]] — 时钟基因 CLOCK/BMAL1 通过代谢-氧化应激路径调控 PV+ 中间神经元成熟速率，从而决定关键期的开启时间（Reh et al. 2020, PMID:32503914，PNAS 开放全文）
+- [[barrel-cortex]] — 桶状皮层关键期（P0–P4）是关键期研究的第二个经典系统（5-HT/AC1分子机制，比视觉皮层关键期早3周）
+- [[somatosensory-cortex]] — 桶状皮层是S1的一部分；体感皮层地图的终身可塑性与关键期后阶段的成体重组机制有关
 
 ## 未解问题
 
@@ -96,8 +116,10 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 
 - 2026-06-03 · 创建 · 基于《时间刻入神经回路：大脑发育关键期的开关机制与可塑性窗口的重启》(#72) · 初始置信度：高 · 综合 19 篇来源（13 篇开放全文）
 - 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 连接节新增 circadian-clock（Reh et al. 2020, PMID:32503914：CLOCK/BMAL1 → PV+ 中间神经元成熟速率 → 关键期时间轴）；related 新增 circadian-clock；key_sources 新增 PMID:32503914
+- 2026-07-19 · 修订 rev3 · 基于《皮肤的密码：体感皮层》(#87) · 新增"跨系统比较"节（桶状皮层关键期P0-P4 vs. 视觉皮层关键期：5-HT/AC1机制 vs. PV+/GABA机制）；related 新增 barrel-cortex, somatosensory-cortex, mechanoreceptor-ltmr；key_sources 新增 PMID:22607000（Erzurumlu & Gaspar 2012）
 
 ## 来源文章
 
 - [[2026-06-03-critical-period-plasticity]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
+- [[2026-07-19-somatosensory-cortex-body-map]]

@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-07-19 · 文章 #87 · 皮肤的密码：体感皮层如何将皮肤触觉转化为身体地图与成体可塑性
+
+**核心主题**：皮肤低阈值机械感受器（LTMR）四类型分类与PIEZO2转导机制；脊髓背柱→丘脑（VPL/VPM/POm）→S1四区（3a/3b/1/2）感觉通路；Penfield躯体小人图（皮层放大因子=行为优先级原则）；桶状皮层作为S1皮层地图形成与关键期机制的经典模型；Merzenich 1983/1984成体S1可塑性实验；成体可塑性机制通过GABA门控重演发育关键期。
+
+**新建页面（5）**：
+- `systems/somatosensory-cortex.md` rev1 — 初级体感皮层：四区分化（3a/3b/1/2）；VPL/VPM/POm三路丘脑输入；皮层放大因子原理；Merzenich成体重组证据；关键期-成体可塑性连续统一体（established, confidence:high）
+- `concepts/mechanoreceptor-ltmr.md` rev1 — 低阈值机械感受器：SA1（梅克尔）/RA1（迈斯纳）/RA2（帕奇尼）/SA2（鲁菲尼）2×2分类矩阵；有毛皮肤Aδ-LTMR和C-LTMR；PIEZO2共同转导通道；梅克尔细胞-神经突复合体双位点SA1响应叠加（established, confidence:high）
+- `concepts/piezo2-mechanotransduction.md` rev1 — PIEZO2机械转导通道：三聚体结构/~38个跨膜域；梅克尔细胞PIEZO2→静态相；Aβ末梢PIEZO2→动态相；双KO小鼠几乎完全丧失轻触觉；与痛觉通道功能分离（established, confidence:high）
+- `concepts/barrel-cortex.md` rev1 — 桶状皮层：P0-P4发育时程；结构关键期精确在P4关闭；5-HT/5-HT1B抑制VPM谷氨酸释放；AC1/cAMP突触前可塑性；NMDAR聚集桶壁细胞（必要非充分）；VPM-barrel vs POm-septa并行双流（established, confidence:high）
+- `concepts/cortical-magnification.md` rev1 — 皮层放大因子与躯体小人图：CMF定义；指尖~100倍背部皮肤；Penfield 1950s原图；Roux et al. 2018现代更新（50例患者MNI坐标系）；V1中央凹放大平行原理；高级体感区（S2/顶叶）躯干代表区比例增大（established, confidence:high）
+
+**修订页面（1）**：
+- `concepts/critical-period.md` rev3 — 新增"跨系统比较：桶状皮层关键期 vs. 视觉皮层关键期"对比表（P0-P4 vs P21-P35；5-HT/AC1分子机制 vs PV+/GABA机制；共同机制：PV+成熟、PNNs关闭）；related新增barrel-cortex、somatosensory-cortex、mechanoreceptor-ltmr；key_sources新增PMID:22607000；source_articles新增#87文章
+
+**矛盾登记（0）**：今日无新增矛盾（核心机制均为高度确立知识，Parpia 2011 vs Dietrich 2017关于躯体地图不连续性解释的分歧已在cortical-magnification页面标注）
+
+**新增开放问题（1）**：
+- Q-soma-01（中优先级）：barrel柱（VPM输入）和septa柱（POm输入）在感知行为上的功能分工——选择性失活每条通路的因果实验证据仍缺失
+
+**解决的悬空引用**：somatosensory-cortex（critical-period页面中的体感相关悬空引用；embodied-semantics页面通过cortical-magnification→embodied-semantics边间接填补）
+
+**图谱**：170 节点（+5：somatosensory-cortex, mechanoreceptor-ltmr, piezo2-mechanotransduction, barrel-cortex, cortical-magnification），969 边（+21 条新边）
+
+---
+
 ## 2026-07-18 · 文章 #86 · 大脑如何读懂音调：从耳蜗行波到初级听觉皮层的音调拓扑图
 
 **核心主题**：听觉系统双重频率编码策略——位置编码（基底膜行波+OHC Prestin主动放大+TMC1分子梯度）与时间精细结构编码（IHC带状突触+听神经相位锁定）；初级听觉皮层A1全局音调拓扑与局部复杂感受野异质性；core-belt-parabelt层级时间组织；A1与A2并行功能分工。
