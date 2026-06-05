@@ -123,5 +123,5 @@
 - 修订 wiki：wiki/concepts/place-cells.md, wiki/concepts/grid-cells.md, wiki/systems/entorhinal-cortex.md, wiki/concepts/path-integration.md
 - 状态：wiki/_graph.json, wiki/index.md, wiki/CHANGELOG.md, state/topic_ledger.json, state/unresolved_questions.md, state/source_registry.json, state/maturity_index.json, state/monthly_synthesis.md
 - Branch：main
-- Commit hash：（待推送后填写）
-- Push 状态：（待定）
+- Commit hash：8e9fc50
+- Push 状态：✅ 成功推送到 origin/main
