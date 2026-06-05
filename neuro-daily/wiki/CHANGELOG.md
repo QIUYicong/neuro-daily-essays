@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-07-19 · 文章 #87 · 从皮肤到大脑的身体地图：触觉机械感受器、背柱通路与初级体感皮层的拓扑映射
+
+**核心主题**：体感系统（Track 3 感觉编码第 6 篇）——四类皮肤机械感受器的结构-功能分工（梅斯纳/帕西尼/迈克尔/鲁菲尼）；背柱-内侧丘系三级中继通路；S1 四子区（3a本体感觉/3b触觉/1质地/2整合）分工；皮质体感小人（版图大小∝受体密度而非面积）；桶状皮层（一胡须一桶）作为精确拓扑映射的经典模型；发育关键期（P0–P4，MAOA/AC1 KO 机制）；成人皮层重映射（截肢→嘴唇区移位/盲文→视觉皮层跨模态）；S2 对感觉阈值的因果门控（PMID:38346995）。
+
+**新建页面（6）**：
+- `systems/somatosensory-cortex.md` rev1 — 初级体感皮层（S1）：四子区功能分工（3a/3b/1/2）；皮层版图∝受体密度；成人可塑性；S2 层级连接（established, confidence:high）
+- `concepts/barrel-cortex.md` rev1 — 桶状皮层：一胡须一桶；四站传递 ~5 ms；柱约 6500 神经元，稀疏编码响应概率 0.32；发育关键期 P0–P4；MAOA/AC1 KO 遗传解剖（established, confidence:high）
+- `concepts/mechanoreceptors-skin.md` rev1 — 皮肤机械感受器：四类 Aβ 传入；快适应（梅斯纳/帕西尼）vs 慢适应（迈克尔/鲁菲尼）；频率响应范围；受体密度→两点阈值（established, confidence:high）
+- `concepts/cortical-homunculus.md` rev1 — 皮质体感小人：Penfield 电刺激标测；版图大小∝受体密度（非面积）；跨系统设计原则（音调拓扑/V1放大/桶状皮层）（established, confidence:high）
+- `concepts/cortical-remapping.md` rev1 — 皮层重映射：截肢后嘴唇代表区移位 ~8 mm；机制主要为突触解蔽；幻肢痛相关（相关 vs 因果未定）；盲文/跨模态可塑性（mainstream, confidence:medium）
+- `concepts/dorsal-column-pathway.md` rev1 — 背柱-内侧丘系通路：三级中继（DRG→背柱核→内侧丘系→VPL→S1）；薄束/楔束躯体拓扑保持；损伤表现（established, confidence:high）
+
+**修订页面（0）**：今日无修订现有页面（新领域进入，无既有体感皮层页面需修订）。
+
+**矛盾登记（0）**：今日无新增矛盾（体感系统核心机制均为高度确立知识；皮层重映射与幻肢痛因果关系已在 cortical-remapping 页面标注为相关性证据，尚无需登记矛盾）。
+
+**新增开放问题（4）**：Q-som-01（高优先：S1重映射与幻肢痛相关vs因果）、Q-som-02（中优先：桶状皮层局部异质性功能意义）、Q-som-03（中优先：人类3a/3b/1/2在7T fMRI解析）、Q-som-04（低优先：盲文S1扩展与视觉皮层跨模态重映射因果顺序）
+
+**解决的悬空引用**：somatosensory-cortex（被 thalamus, language-network 隐式引用；现有明确源页面）；barrel-cortex（被 critical-period 隐式引用）
+
+**图谱**：171 节点（+6：somatosensory-cortex, barrel-cortex, mechanoreceptors-skin, cortical-homunculus, cortical-remapping, dorsal-column-pathway），974 边（+27 条新边）
+
+---
+
 ## 2026-07-18 · 文章 #86 · 大脑如何读懂音调：从耳蜗行波到初级听觉皮层的音调拓扑图
 
 **核心主题**：听觉系统双重频率编码策略——位置编码（基底膜行波+OHC Prestin主动放大+TMC1分子梯度）与时间精细结构编码（IHC带状突触+听神经相位锁定）；初级听觉皮层A1全局音调拓扑与局部复杂感受野异质性；core-belt-parabelt层级时间组织；A1与A2并行功能分工。

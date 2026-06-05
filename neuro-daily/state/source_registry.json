@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15",
+  "last_updated": "2026-07-19",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6490,9 +6490,154 @@
         "subcortical language",
         "extended language network"
       ]
+    },
+    {
+      "id": "PMID:31367018",
+      "title": "Sensorimotor processing in the rodent barrel cortex",
+      "authors": "Petersen CCH",
+      "journal": "Nat Rev Neurosci",
+      "year": 2019,
+      "pmid": "31367018",
+      "pmcid": "PMC7116865",
+      "open_access": "partial",
+      "used_in": [
+        "2026-07-19"
+      ],
+      "aspects_covered": [
+        "barrel cortex",
+        "whisker somatotopy",
+        "sparse coding",
+        "sensorimotor integration"
+      ]
+    },
+    {
+      "id": "PMID:17622195",
+      "title": "The Functional Microarchitecture of the Mouse Barrel Cortex",
+      "authors": "Kerr JN et al.",
+      "journal": "PLoS Biol",
+      "year": 2007,
+      "pmid": "17622195",
+      "pmcid": "PMC1914403",
+      "open_access": "full",
+      "used_in": [
+        "2026-07-19"
+      ],
+      "aspects_covered": [
+        "barrel cortex microarchitecture",
+        "sparse coding",
+        "local heterogeneity",
+        "two-photon calcium imaging"
+      ]
+    },
+    {
+      "id": "PMCID:PMC7486654",
+      "title": "How the Barrel Cortex Became a Working Model for Developmental Plasticity",
+      "authors": "Feldmeyer D et al.",
+      "journal": "Front Syst Neurosci",
+      "year": 2020,
+      "pmcid": "PMC7486654",
+      "open_access": "full",
+      "used_in": [
+        "2026-07-19"
+      ],
+      "aspects_covered": [
+        "barrel cortex history",
+        "critical period P0-P4",
+        "MAOA knockout",
+        "thalamocortical axons"
+      ]
+    },
+    {
+      "id": "PMID:32428706",
+      "title": "Brain reorganisation following amputation: Implications for phantom limb pain",
+      "authors": "Kikkert S et al.",
+      "journal": "Eur J Pain",
+      "year": 2021,
+      "pmid": "32428706",
+      "pmcid": "PMC7422832",
+      "open_access": "full",
+      "used_in": [
+        "2026-07-19"
+      ],
+      "aspects_covered": [
+        "cortical remapping",
+        "phantom limb pain",
+        "S1 reorganization",
+        "lip shift"
+      ]
+    },
+    {
+      "id": "PMID:10473458",
+      "title": "Phantoms in the brain: adult brain plasticity",
+      "authors": "Ramachandran VS",
+      "journal": "CMAJ",
+      "year": 2000,
+      "pmid": "10473458",
+      "pmcid": "PMC1116476",
+      "open_access": "full",
+      "used_in": [
+        "2026-07-19"
+      ],
+      "aspects_covered": [
+        "adult plasticity",
+        "phantom limb",
+        "cortical remapping",
+        "mirror therapy",
+        "cross-modal plasticity"
+      ]
+    },
+    {
+      "id": "NBK10895",
+      "title": "Mechanoreceptors Specialized to Receive Tactile Information (NCBI Bookshelf)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10895/",
+      "open_access": "full (official)",
+      "used_in": [
+        "2026-07-19"
+      ],
+      "aspects_covered": [
+        "mechanoreceptor types",
+        "Meissner",
+        "Pacinian",
+        "Merkel",
+        "Ruffini",
+        "receptor density"
+      ]
+    },
+    {
+      "id": "NBK11142",
+      "title": "The Dorsal Column-Medial Lemniscus System (NCBI Bookshelf)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11142/",
+      "open_access": "full (official)",
+      "used_in": [
+        "2026-07-19"
+      ],
+      "aspects_covered": [
+        "dorsal column",
+        "medial lemniscus",
+        "VPL thalamus",
+        "somatotopy"
+      ]
+    },
+    {
+      "id": "PMID:38346995",
+      "title": "The secondary somatosensory cortex gates mechanical and heat sensitivity",
+      "authors": "Morales-Quezada L et al.",
+      "journal": "Nat Commun",
+      "year": 2024,
+      "pmid": "38346995",
+      "pmcid": "PMC10861531",
+      "open_access": "full",
+      "used_in": [
+        "2026-07-19"
+      ],
+      "aspects_covered": [
+        "S2 somatosensory cortex",
+        "sensory gating",
+        "optogenetics"
+      ]
     }
   ],
-  "total_sources": 313,
+  "total_sources": 357,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -7902,6 +8047,5 @@
     "36786655",
     "NBK10867-hair-cells-bookshelf"
   ],
-  "last_updated": "2026-07-18",
   "total_count": 374
 }

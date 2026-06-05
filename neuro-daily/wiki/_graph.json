@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-18",
-  "node_count": 165,
-  "edge_count": 948,
+  "updated": "2026-07-19",
+  "node_count": 171,
+  "edge_count": 974,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1498,6 +1498,60 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/phase-locking.md"
+    },
+    {
+      "id": "somatosensory-cortex",
+      "title": "初级体感皮层（S1）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/somatosensory-cortex.md"
+    },
+    {
+      "id": "barrel-cortex",
+      "title": "桶状皮层",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/barrel-cortex.md"
+    },
+    {
+      "id": "mechanoreceptors-skin",
+      "title": "皮肤机械感受器",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/mechanoreceptors-skin.md"
+    },
+    {
+      "id": "cortical-homunculus",
+      "title": "皮质体感小人（Homunculus）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-homunculus.md"
+    },
+    {
+      "id": "cortical-remapping",
+      "title": "皮层重映射",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/cortical-remapping.md"
+    },
+    {
+      "id": "dorsal-column-pathway",
+      "title": "背柱-内侧丘系通路",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/dorsal-column-pathway.md"
     }
   ],
   "edges": [
@@ -6697,6 +6751,141 @@
       "to": "temporal-coding-hierarchy",
       "type": "is-a",
       "note": "相位锁定是时间编码层级中微秒-毫秒尺度的代表实例"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "somatosensory-cortex",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "dorsal-column-pathway",
+      "to": "somatosensory-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "thalamus",
+      "to": "somatosensory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "somatosensory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "cortical-homunculus",
+      "to": "somatosensory-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-remapping",
+      "to": "somatosensory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "barrel-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "cortical-homunculus",
+      "type": "supports"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "barrel-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "tonotopy",
+      "type": "related"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "dorsal-column-pathway",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "cortical-homunculus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "mechanoreceptors-skin",
+      "type": "related"
+    },
+    {
+      "from": "cortical-homunculus",
+      "to": "tonotopy",
+      "type": "related"
+    },
+    {
+      "from": "cortical-homunculus",
+      "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "cortical-homunculus",
+      "to": "cortical-remapping",
+      "type": "related"
+    },
+    {
+      "from": "cortical-remapping",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "cortical-remapping",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "ltp",
+      "to": "cortical-remapping",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dorsal-column-pathway",
+      "to": "thalamus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "dorsal-column-pathway",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

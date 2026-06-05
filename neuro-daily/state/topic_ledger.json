@@ -1,7 +1,91 @@
 {
-  "last_updated": "2026-07-18",
-  "total_articles": 86,
+  "last_updated": "2026-07-19",
+  "total_articles": 87,
   "entries": [
+    {
+      "date": "2026-07-19",
+      "title": "从皮肤到大脑的身体地图：触觉机械感受器、背柱通路与初级体感皮层的拓扑映射",
+      "filename": "2026-07-19-somatosensory-cortex-homunculus-barrel-cortex.md",
+      "wiki_pages_created": [
+        "wiki/systems/somatosensory-cortex.md",
+        "wiki/concepts/barrel-cortex.md",
+        "wiki/concepts/mechanoreceptors-skin.md",
+        "wiki/concepts/cortical-homunculus.md",
+        "wiki/concepts/cortical-remapping.md",
+        "wiki/concepts/dorsal-column-pathway.md"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "初级体感皮层（S1）如何通过四个功能子区（3a/3b/1/2）分层处理来自不同皮肤机械感受器的体感信息？皮质体感小人（cortical homunculus）的夸张扭曲揭示了什么神经计算原则？桶状皮层（barrel cortex）如何从单根胡须对应到单个皮层柱？成人体感地图的可塑性如何挑战'大脑硬连线'的传统观念？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（Track 3 第6篇：体感感觉编码——与已覆盖的V1视觉/路径整合空间/嗅觉系统/听觉皮层并列，完成感觉编码Track 3的体感模态）；层级对比：#85分子/细胞/突触/微回路（嗅觉），#86分子/细胞/突触/脑区（听觉），#87分子/细胞/突触/微回路/脑区（体感，多层）",
+      "topic_tags": [
+        "somatosensory cortex",
+        "S1",
+        "primary somatosensory cortex",
+        "barrel cortex",
+        "cortical homunculus",
+        "mechanoreceptors",
+        "Meissner corpuscle",
+        "Pacinian corpuscle",
+        "Merkel disk",
+        "Ruffini ending",
+        "dorsal column",
+        "medial lemniscus",
+        "VPL thalamus",
+        "two-point discrimination",
+        "somatotopy",
+        "cortical column",
+        "Brodmann area 3a 3b 1 2",
+        "barrel formation",
+        "whisker barrel",
+        "Woolsey Van der Loos 1970",
+        "critical period barrel",
+        "MAOA knockout",
+        "cortical remapping",
+        "phantom limb",
+        "cross-modal plasticity",
+        "Braille readers",
+        "Ramachandran",
+        "secondary somatosensory cortex S2",
+        "sparse coding",
+        "Penfield homunculus",
+        "thalamocortical axons"
+      ],
+      "main_sources": [
+        "PMID:31367018 (PMC7116865, Petersen 2019 Nat Rev Neurosci, 桶状皮层感觉运动处理综述)",
+        "PMID:17622195 (PMC1914403, open full text, Kerr et al. 2007 PLoS Biol, 桶状皮层双光子钙成像)",
+        "PMCID:PMC7486654 (open full text, 桶状皮层发育可塑性历史综述, 2020)",
+        "PMID:32428706 (PMC7422832, open full text, Kikkert et al. 2021 Eur J Pain, 截肢后S1重映射与幻肢痛)",
+        "PMID:10473458 (PMC1116476, open full text, Ramachandran 2000 CMAJ, 成人皮层可塑性经典)",
+        "NBK10895 (NCBI Bookshelf官方开放, 皮肤机械感受器)",
+        "NBK11142 (NCBI Bookshelf官方开放, 背柱-内侧丘系通路)",
+        "PMID:38346995 (PMC10861531, open full text, Morales-Quezada 2024 Nat Commun, S2因果门控感觉阈值)"
+      ],
+      "unresolved_questions": [
+        "Q-som-01 (新增，高优先级：S1重映射与幻肢痛相关vs因果)",
+        "Q-som-02 (新增，中优先级：桶状皮层局部异质性神经元功能意义)",
+        "Q-som-03 (新增，中优先级：人类3a/3b/1/2在7T fMRI单试次解析)",
+        "Q-som-04 (新增，低优先级：盲文S1扩展与视觉皮层跨模态重映射因果顺序)"
+      ],
+      "next_suggested_topics": [
+        "多感觉整合（multisensory integration）：McGurk效应作为听觉-视觉整合窗口；STS作为多感觉整合皮层枢纽；贝叶斯整合框架（±200ms时间窗口）；与已覆盖的听觉皮层、体感皮层、V1视觉形成多模态整合完整图景",
+        "头向细胞与边界细胞（head direction cells + border cells）：Track 3空间导航缺口；与已有的网格细胞/场所细胞/路径整合形成完整空间导航三角",
+        "皮层层状结构与皮层柱（cortical layers and columns）：今日桶状皮层的L4→L2/3→L5回路是皮层柱的精确例子；系统梳理6层皮层的一般组织原理",
+        "触觉运动整合（sensorimotor integration for touch）：体感皮层→运动皮层的感觉-运动闭环；今日文章中10Hz胡须颤动相位锁定的引申；人类手部精细操作的神经机制",
+        "双光子钙成像（two-photon calcium imaging）：今日文章引用多项钙成像研究（Kerr 2007, Gaucher 2020, Kline 2023）；系统梳理GCaMP传感器/颅窗植入/时空分辨率权衡"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 87,
+      "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-19；继承自2026-07-18（第86篇，听觉皮层）；本篇完成Track 3感觉编码四联篇（V1视觉/嗅觉系统/听觉系统/体感皮层）；首次引入体感系统专属节点（somatosensory-cortex, barrel-cortex, mechanoreceptors-skin, cortical-homunculus, cortical-remapping, dorsal-column-pathway）；关键跨领域桥梁：cortical-homunculus←→tonotopy←→orientation-selectivity（三个感觉系统共享'感觉能力→皮层版图'设计原则）；barrel-cortex←→critical-period（发育关键期的啮齿类体感实例）；cortical-remapping←→homeostatic-plasticity（成人皮层地图可塑性的回路机制）"
+    },
     {
       "date": "2026-07-18",
       "title": "大脑如何读懂音调：从耳蜗行波到初级听觉皮层的音调拓扑图",
@@ -16,7 +100,12 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "听觉系统为什么需要'位置编码'（耳蜗基底膜音调拓扑）和'时间精细结构编码'（听神经相位锁定）两套并行策略表征声音频率——以及初级听觉皮层A1如何继承这双重编码，将基础频率信息转化为可供语音、音乐等复杂感知使用的神经表征？",
-      "layer": ["molecular", "cellular", "synaptic", "brain-region"],
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region"
+      ],
       "curriculum_track": "3. 大脑如何编码世界（Track 3 第5篇：听觉感觉编码——与已覆盖的V1视觉/嗅觉系统并列，填补感觉编码Track 3的听觉模态空白）；层级设计：#85分子/细胞（嗅觉），#86分子/细胞/突触/脑区多层（听觉），避免单纯重复同一维度",
       "topic_tags": [
         "auditory cortex",

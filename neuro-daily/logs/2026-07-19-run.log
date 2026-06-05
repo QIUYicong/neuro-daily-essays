@@ -1,0 +1,106 @@
+# 运行日志 · 2026-07-19
+
+**系统时钟（UTC+8）**：2026-06-05 15:xx CST（真实执行时间）
+**知识库虚拟日期**：2026-07-19
+**文章编号**：#87
+
+---
+
+## 搜索词与数据源
+
+### 搜索词
+1. "somatosensory cortex S1 areas 3a 3b 1 2 subregions review PubMed open access 2020 2021 2022 2023 2024"
+2. "barrel cortex whisker somatotopy cortical column mouse review PMC open access"
+3. "mechanoreceptors skin types Meissner Pacinian Merkel Ruffini two-point discrimination review 2020 2024 PMC open access"
+4. "somatosensory cortex plasticity phantom limb braille blind review cortical remapping PMC open access PMID"
+5. "dorsal column medial lemniscal pathway spinothalamic tract somatosensory review anatomy PubMed NIH bookshelf"
+6. "somatosensory cortex homunculus Penfield body map cortical representation size density review 2019-2023 PMC"
+7. "somatosensory cortex S1 S2 secondary somatosensory cortex hierarchy review 2021 2022 2023 PubMed open access"
+
+### 数据源访问
+- PubMed 检索（WebSearch）：完成，找到 8 项主要来源
+- PMC 全文获取（WebFetch）：
+  - PMC7116865（Petersen 2019）：部分开放 ✓
+  - PMC1914403（Kerr 2007）：开放全文 ✓
+  - PMC7486654（桶状皮层历史综述）：开放全文 ✓
+  - PMC7422832（截肢/幻肢综述）：开放全文 ✓
+  - PMC1116476（Ramachandran 2000）：开放全文 ✓
+- NCBI Bookshelf（官方开放）：
+  - NBK10895（机械感受器）：开放 ✓
+  - NBK11142（背柱-内侧丘系通路）：开放 ✓
+  - PMC10861531（S2 门控，2024 Nat Commun）：开放 ✓
+
+---
+
+## 候选来源与采用/排除
+
+| 来源 | 决定 | 原因 |
+|------|------|------|
+| PMID:31367018（Petersen 2019 NRN）| 采用 | 权威桶状皮层综述，Nat Rev Neurosci，PMC部分开放 |
+| PMID:17622195（Kerr 2007 PLoS Biol）| 采用 | 双光子钙成像直接证据，PMC1914403 开放全文 |
+| PMC7486654（桶状皮层历史综述）| 采用 | 发育机制遗传证据完整，开放全文 |
+| PMID:32428706（Kikkert 2021 Eur J Pain）| 采用 | 系统综述，幻肢痛与重映射，PMC7422832 开放全文 |
+| PMID:10473458（Ramachandran 2000）| 采用 | 经典里程碑，成人可塑性，PMC1116476 开放全文 |
+| NBK10895、NBK11142（NCBI Bookshelf）| 采用 | 官方权威参考资料，开放全文 |
+| PMID:38346995（Morales-Quezada 2024 Nat Commun）| 采用 | S2 因果门控，最新 2024 年高质量光遗传学研究 |
+| 多篇人类 fMRI S1 子区研究（PMID:28629975 等）| 未采用 | 数据旧或摘要不足以建立确定结论；以 Bookshelf 和综述为基础 |
+
+**开放全文来源**：7/8（PMID:31367018 为部分开放，已标注）
+**官方机构来源**：2（NCBI Bookshelf NBK10895、NBK11142）
+
+---
+
+## 固结的 wiki 页面
+
+| 操作 | 页面 | 状态/置信度 | 主要内容 |
+|------|------|----------|---------|
+| 新建 | systems/somatosensory-cortex.md | established/high | S1 四子区（3a/3b/1/2）分工；皮层版图原则；成人可塑性 |
+| 新建 | concepts/barrel-cortex.md | established/high | 桶状皮层：一胡须一桶，四站传递 ~5 ms；稀疏编码；发育关键期 |
+| 新建 | concepts/mechanoreceptors-skin.md | established/high | 四类 Aβ 传入感受器；快/慢适应；频率响应；受体密度 |
+| 新建 | concepts/cortical-homunculus.md | established/high | Penfield 标测；版图大小∝受体密度；跨系统设计原则 |
+| 新建 | concepts/cortical-remapping.md | mainstream/medium | 截肢后皮层重映射；解蔽机制；幻肢痛相关（相关vs因果未定）|
+| 新建 | concepts/dorsal-column-pathway.md | established/high | 三级中继（DRG→背柱核→内侧丘系→VPL→S1）；躯体拓扑保持 |
+
+**修订现有页面**：0（今日新领域进入，无既有体感皮层页面需修订）
+
+---
+
+## 登记的矛盾
+
+无新矛盾登记（体感系统核心机制均为高度确立知识；cortical-remapping 与幻肢痛的因果关系以置信度"medium"标注，未登记矛盾，因缺乏对立证据而非证据冲突）。
+
+---
+
+## 失败与限制
+
+- 无网络故障
+- PMID:31367018 的 PMC 版本为部分开放（非全文），已在文章和 sources.json 中标注
+- 人类 S1 四子区的 7T fMRI 精细数据未找到足够开放全文，已作为 Q-som-03 登记待后续追踪
+
+---
+
+## 新增开放问题
+
+- Q-som-01（高优先级）：S1重映射与幻肢痛相关vs因果
+- Q-som-02（中优先级）：桶状皮层局部异质性神经元功能意义
+- Q-som-03（中优先级）：人类3a/3b/1/2在7T fMRI单试次解析
+- Q-som-04（低优先级）：盲文S1扩展与视觉皮层跨模态重映射因果顺序
+
+---
+
+## 图谱更新
+
+- 节点：165 → 171（+6）
+- 边：947 → 974（+27）
+
+---
+
+## Git 状态
+
+- 分支：main
+- 提交：待完成
+- 推送：待完成
+
+---
+
+*日志完成时间：知识库虚拟日期 2026-07-19*
