@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-23（第91篇·皮层六层架构·规范微回路/FF-FB层间法则/Bastos 2012预测编码整合）· 主题页总数：**181**（新建2页：cortical-layers, canonical-microcircuit；修订2页：barrel-cortex rev2, predictive-coding rev8；图谱182节点、1058边；新增Q-cl-01/02/03）
+> 最后更新：2026-07-24（第92篇·时间细胞与速度细胞·时空导航坐标系建立）· 主题页总数：**183**（新建2页：time-cells, speed-cells；修订4页：place-cells rev3, grid-cells rev3, entorhinal-cortex rev2, path-integration rev3；图谱184节点、~1085边；新增Q-tc-01/02/03/04）
 
 ---
 
@@ -41,6 +41,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [时间细胞](concepts/time-cells.md) — 海马CA1在记忆任务延迟期以接力棒式序列放电；可重新校准（标量时间特性）；与场所细胞同源（75%+含空间信息）；人类颅内直接证据（Umbach 2020 PNAS）；是情节记忆时间维度编码的细胞基础 **[NEW 2026-07-24 #92]**
+- 🟢 [速度细胞](concepts/speed-cells.md) — MEC中放电率与运动速度线性正相关神经元；环境无关；~50-80ms前瞻性偏置；PPN→HDB→MEC脑干通路（Carvalho 2020因果证据）；路径整合速度分量的细胞实现 **[NEW 2026-07-24 #92]**
 - 🟢 [皮层六层架构](concepts/cortical-layers.md) — L4 接收丘脑（仅10-20%突触）；相互兴奋放大10倍；L2/3 高阈值门控（45-50个细胞）→ 群体活动检测；L5 双通道输出；L6 丘脑反馈；FF/FB 层间法则（Felleman & Van Essen 1991）；γ-FF / α-β-FB 振荡分工 **[NEW 2026-07-23 #91]**
 - 🟢 [规范微回路（Douglas-Martin 1991）](concepts/canonical-microcircuit.md) — 三群体（浅层锥体/深层锥体/抑制中间神经元）跨脑区通用计算模板；丘脑输入是触发器，相互兴奋是主放大器；状态依赖增益控制；Bastos 2012 整合预测编码框架 **[NEW 2026-07-23 #91]**
 - 🟢 [发育关键期](concepts/critical-period.md) — GABA 阈值触发开启；三道刹车（PNN/OTX2/Lynx1）主动关闭；ChABC/氟西汀/催产素可重开；MeCP2 KO 使 Rett 综合征关键期错位；弱视与语言习得的发育窗口 **[NEW 2026-06-03]**

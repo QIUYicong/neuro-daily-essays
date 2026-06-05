@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-07-16
-revision_count: 2
+updated: 2026-07-24
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [place-cells, path-integration, theta-oscillations, theta-phase-precession, entorhinal-cortex, cognitive-map, head-direction-cells, border-cells, memory-consolidation, semantic-memory-hub, conceptual-space-geometry]
+related: [place-cells, path-integration, theta-oscillations, theta-phase-precession, entorhinal-cortex, cognitive-map, head-direction-cells, border-cells, memory-consolidation, semantic-memory-hub, conceptual-space-geometry, speed-cells, time-cells]
 prerequisites: [action-potential, entorhinal-cortex, theta-oscillations]
 opens_questions: [Q-gc-01, Q-gc-02, Q-gc-03, Q-gc-04]
-source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-16-semantic-hub-atl-conceptual-space]
-key_sources: ["PMID:15965463", "PMID:16675704", "PMID:16858394", "PMID:23222610", "PMID:27023731", "PMID:23354386", "PMID:41887217", "PMID:33603654", "PMID:40063809"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-16-semantic-hub-atl-conceptual-space, 2026-07-24-time-cells-speed-cells-temporal-navigation]
+key_sources: ["PMID:15965463", "PMID:16675704", "PMID:16858394", "PMID:23222610", "PMID:27023731", "PMID:23354386", "PMID:41887217", "PMID:33603654", "PMID:40063809", "PMID:26176924"]
 ---
 
 # 网格细胞 (Grid Cells)
@@ -57,6 +57,8 @@ MEC深层（III、V层）含**联合细胞**：同时具有网格激活 + 头朝
 - 头朝向 + 速度 → 当前运动向量
 - 运动向量积分 → 位置更新
 - 将更新后的位置反映在网格激活状态
+
+联合细胞整合的**速度分量**由专门的速度细胞（speed cells，Kropff 2015，PMID:26176924）提供，后者通过PPN→HDB→MEC通路接收来自脑干运动控制区的速度信号（Carvalho 2020，PMID:32905779）。
 
 ### 4. 路径整合的实现：连续吸引子网络（CAN）模型
 
@@ -108,6 +110,8 @@ McNaughton等2006提出的主流计算模型：
 - [[head-direction-cells]] — 联合细胞整合网格编码+头朝向，两者在路径整合中协作
 - [[semantic-memory-hub]] — ATL枢纽整合多模态特征形成概念，内嗅皮层网格码提供概念在语义空间中的坐标
 - [[conceptual-space-geometry]] — 网格细胞是概念空间几何编码的神经底物候选
+- [[speed-cells]] — MEC速度细胞为联合细胞提供速度分量输入，驱动网格吸引子的位置更新
+- [[time-cells]] — 时间细胞是时间维度的对应坐标：网格/场所细胞编码空间，时间细胞编码时间；两者同属情节记忆时空框架
 
 ## 未解问题
 
@@ -120,8 +124,10 @@ McNaughton等2006提出的主流计算模型：
 
 - 2026-06-22 · 创建 · 填补长期悬空引用（被theta-oscillations等多页引用但无对应页面） · 基于《六边形的秘密》文章 · 初始置信度：高
 - 2026-07-16 · 修订 · 基于文章#84《意义的诞生地：前颞叶如何将感官碎片组装成概念》· 新增"概念空间中的网格样编码"机制节（Bokeria 2021, Haga 2025 DSI模型）；新增连接至semantic-memory-hub和conceptual-space-geometry
+- 2026-07-24 · 修订 rev3 · 基于《大脑的第四维罗盘》文章 #92 · 新增速度细胞补全路径整合速度分量（Kropff 2015, Carvalho 2020）；联合细胞小节补充速度来源；新增连接speed-cells和time-cells；key_sources新增PMID:26176924
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
 - [[2026-07-16-semantic-hub-atl-conceptual-space]]
+- [[2026-07-24-time-cells-speed-cells-temporal-navigation]]

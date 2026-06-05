@@ -1211,5 +1211,21 @@
     "change_reason": "rev8: 解剖底层（canonical-microcircuit）加入 related；框架完整性提升；但振荡分工的普适性争议（Q-pc-05/Q-cl-02）维持 medium confidence",
     "revision_count": 8
   },
-  "_last_updated": "2026-07-23"
+  "time-cells": {
+    "status": "established",
+    "confidence": "high",
+    "supporting_sources": 4,
+    "last_status_change": "2026-07-24",
+    "change_reason": "创建 2026-07-24（文章 #92）。MacDonald 2011（PMID:21867888，PMC开放）是经典实验；Pastalkova 2008（PMID:18772431）提供前驱证据；Eichenbaum 2014综述（PMC开放）；Umbach 2020（PMID:33109718）提供人类直接颅内记录。时间细胞已在多物种（大鼠/猴/人）、多任务类型中重复验证，达到established标准。人类样本量偏小（27名患者），但核心机制高置信。",
+    "revision_count": 1
+  },
+  "speed-cells": {
+    "status": "established",
+    "confidence": "high",
+    "supporting_sources": 3,
+    "last_status_change": "2026-07-24",
+    "change_reason": "创建 2026-07-24（文章 #92）。Kropff 2015（Nature，诺贝尔团队）发现速度细胞；线性速度编码和环境无关性高置信；Carvalho 2020（PMC开放）提供脑干通路的光遗传因果证据；多实验室重复。前瞻性时间偏置（~50-80ms）的精确数值有待更多验证，但整体established。人类直接证据缺失（Q-tc-02），但这不影响大鼠的established状态。",
+    "revision_count": 1
+  },
+  "_last_updated": "2026-07-24"
 }

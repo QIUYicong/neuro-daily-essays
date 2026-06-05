@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-23",
-  "node_count": 182,
-  "edge_count": 1058,
+  "updated": "2026-07-24",
+  "node_count": 184,
+  "edge_count": 1085,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1651,6 +1651,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/ring-attractor.md"
+    },
+    {
+      "id": "time-cells",
+      "title": "时间细胞",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/time-cells.md"
+    },
+    {
+      "id": "speed-cells",
+      "title": "速度细胞",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/speed-cells.md"
     }
   ],
   "edges": [
@@ -7405,6 +7423,102 @@
       "from": "pv-interneurons",
       "to": "canonical-microcircuit",
       "type": "part-of"
+    },
+    {
+      "from": "time-cells",
+      "to": "place-cells",
+      "type": "is-a",
+      "note": "时间细胞与场所细胞是同一CA1神经元群体的不同激活模式：空间导航时=场所细胞，时间延迟时=时间细胞（MacDonald 2011，75%+重叠）"
+    },
+    {
+      "from": "time-cells",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "θ振荡为时间细胞序列提供时间参照框架；时间细胞也表现θ相位前移（Umbach 2020）"
+    },
+    {
+      "from": "time-cells",
+      "to": "memory-consolidation",
+      "type": "supports",
+      "note": "时间细胞提供情节记忆的时间维度编码；稳定性预测情节时序组织质量（Umbach 2020）"
+    },
+    {
+      "from": "time-cells",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "SWR期间场所细胞序列被重播（已知）；时间细胞序列是否同样被重播待确认"
+    },
+    {
+      "from": "time-cells",
+      "to": "entorhinal-cortex",
+      "type": "related",
+      "note": "LEC群体状态漂移可能为海马时间细胞提供外部时间情境信号（Tsao 2018）"
+    },
+    {
+      "from": "time-cells",
+      "to": "grid-cells",
+      "type": "related",
+      "note": "网格细胞是空间坐标；时间细胞是时间坐标；两者共属情节记忆时空编码框架"
+    },
+    {
+      "from": "speed-cells",
+      "to": "path-integration",
+      "type": "mechanism-of",
+      "note": "速度细胞是路径整合速度输入的细胞实现；有~50-80ms前瞻偏置保证精度"
+    },
+    {
+      "from": "speed-cells",
+      "to": "grid-cells",
+      "type": "supports",
+      "note": "速度细胞通过MEC联合细胞为网格细胞吸引子凸块的运动更新提供速度分量（Kropff 2015, Carvalho 2020）"
+    },
+    {
+      "from": "speed-cells",
+      "to": "entorhinal-cortex",
+      "type": "part-of",
+      "note": "速度细胞是MEC的专门亚群（约24%神经元）；与网格/头向/边界细胞功能独立共存"
+    },
+    {
+      "from": "speed-cells",
+      "to": "head-direction-cells",
+      "type": "related",
+      "note": "速度细胞（速度分量）+头向细胞（方向分量）共同驱动路径整合位置更新；两者由MEC联合细胞整合"
+    },
+    {
+      "from": "speed-cells",
+      "to": "time-cells",
+      "type": "related",
+      "note": "速度细胞是空间路径整合的速度输入；时间细胞是时间维度的对应物——两者共同扩展大脑导航的时空坐标系"
+    },
+    {
+      "from": "place-cells",
+      "to": "time-cells",
+      "type": "related",
+      "note": "场所细胞在空间导航时编码位置；同一神经元在时间延迟任务中切换为时间细胞模式"
+    },
+    {
+      "from": "grid-cells",
+      "to": "speed-cells",
+      "type": "related",
+      "note": "网格细胞的连续吸引子位置更新依赖速度细胞提供的实时速度输入"
+    },
+    {
+      "from": "path-integration",
+      "to": "speed-cells",
+      "type": "related",
+      "note": "路径整合的速度输入来自速度细胞（PPN→HDB→MEC通路）"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "speed-cells",
+      "type": "part-of",
+      "note": "MEC速度细胞是EC功能架构的组成部分"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "time-cells",
+      "type": "supports",
+      "note": "LEC时间戳漂移（Tsao 2018）提供时间情境；海马时间细胞在整合此信号后维持精确时序编码"
     }
   ],
   "dangling_references": [

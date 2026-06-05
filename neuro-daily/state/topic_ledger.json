@@ -1,7 +1,74 @@
 {
-  "last_updated": "2026-07-23",
-  "total_articles": 91,
+  "last_updated": "2026-07-24",
+  "total_articles": 92,
   "entries": [
+    {
+      "date": "2026-07-24",
+      "title": "大脑的第四维罗盘：时间细胞与速度细胞如何建立时间坐标系",
+      "filename": "2026-07-24-time-cells-speed-cells-temporal-navigation.md",
+      "wiki_pages_created": [
+        "wiki/concepts/time-cells.md",
+        "wiki/concepts/speed-cells.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/place-cells.md (rev3: 新增场所细胞=时间细胞同一神经元双重模式；related/key_sources更新)",
+        "wiki/concepts/grid-cells.md (rev3: 新增速度细胞补全路径整合速度分量；related/key_sources更新)",
+        "wiki/systems/entorhinal-cortex.md (rev2: 新增MEC速度细胞亚群+LEC时间戳漂移功能；情节编码升级为时空三维)",
+        "wiki/concepts/path-integration.md (rev3: 新增速度细胞为速度输入细胞实现；新增时间细胞类比)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "海马时间细胞如何通过神经元序列激活在记忆间隙中编码时长（MacDonald 2011，PMID:21867888；Pastalkova 2008，PMID:18772431）；内侧内嗅皮层速度细胞如何向空间导航系统实时提供运动速度输入（Kropff 2015，PMID:26176924；脑干通路Carvalho 2020，PMID:32905779）；外侧内嗅皮层群体状态漂移如何在秒到小时尺度提供时间戳（Tsao 2018，PMID:30158699）；人类时间细胞证据（Umbach 2020，PMID:33109718）",
+      "layer": ["cellular", "microcircuit", "brain-region", "behavior", "cognition"],
+      "curriculum_track": "Track 3（大脑如何编码世界）空间/时间导航编码完整套件：填补时间维度（时间细胞）和路径整合速度输入（速度细胞）两个缺口；Track 4（学习和记忆）——情节记忆时空结构的细胞基础；与已有grid-cells/place-cells/head-direction-cells/border-cells形成完整时空导航知识体系；层级：细胞/微回路/脑区/行为/认知",
+      "topic_tags": [
+        "time cells hippocampus",
+        "MacDonald 2011",
+        "Pastalkova 2008",
+        "Eichenbaum 2014",
+        "Umbach 2020",
+        "speed cells MEC",
+        "Kropff 2015",
+        "Carvalho 2020",
+        "PPN HDB MEC circuit",
+        "lateral entorhinal cortex",
+        "Tsao 2018",
+        "LEC temporal context",
+        "re-timing scalar timing",
+        "episodic memory time dimension",
+        "path integration speed input",
+        "temporal navigation",
+        "space time hippocampus",
+        "internally generated sequences",
+        "episode cells",
+        "prospective firing bias"
+      ],
+      "main_sources": [
+        "PMID:21867888 (MacDonald et al. 2011, Neuron, hippocampal time cells, PMC3163062 开放全文)",
+        "PMID:18772431 (Pastalkova et al. 2008, Science, internally generated sequences, PMC2570043 开放全文)",
+        "PMID:25269553 (Eichenbaum 2014, Nat Rev Neurosci, time cells review, PMC4348090 开放全文)",
+        "PMID:26176924 (Kropff et al. 2015, Nature, speed cells MEC, 未读取全文)",
+        "PMID:32905779 (Carvalho et al. 2020, Cell Reports, brainstem circuit for speed cells, PMC7487772 开放全文)",
+        "PMID:30158699 (Tsao et al. 2018, Nature, LEC temporal context, 未读取全文)",
+        "PMID:33109718 (Umbach et al. 2020, PNAS, human time cells, PMC7668099 开放全文)",
+        "PMID:28858612 (Eichenbaum 2017, Neuron, space-time-memory integration, PMC5662113 开放全文)"
+      ],
+      "unresolved_questions": [
+        "Q-tc-01 (新增，高优先级：时间细胞序列内部生成CA3→CA1 vs LEC外部驱动的因果区分)",
+        "Q-tc-02 (新增，中优先级：速度细胞的人类MEC直接单细胞证据缺失)",
+        "Q-tc-03 (新增，高优先级：标量时间特性的神经网络机制——网络动力学vs调制机制)",
+        "Q-tc-04 (新增，低优先级：LEC时间戳漂移的分子基础)"
+      ],
+      "next_suggested_topics": [
+        "工作记忆在感觉皮层（WM in sensory cortex）：Track 3/5 交汇；感觉皮层是否参与短时记忆维持（Romo 1999, de Vries 2023）；与PFC延迟放电的竞争假说；前额叶持续放电（persistent activity wiki页现有）的感觉皮层版本",
+        "时间细胞与情节记忆序列编码（follow-up）：时间细胞SWR期间重播是否发生？时序重播与空间重播的关系；theta sequence的时间细胞版本",
+        "前馈/反馈皮层层级详解（feedforward vs feedback cortical hierarchy）：V1→V2→V4→IT的定量层级（Markov 2014已引用）；填补feedforward-hierarchy节点",
+        "皮层突触类型：驱动型vs调制型（driver vs modulator synapses）：Sherman框架；L4驱动vs L1/5/6调制；一次/高次视丘核分工；完成皮层层级文章的分子层补充"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 92,
+      "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-24；继承自2026-07-23（第91篇，皮层六层架构）；本篇完成空间/时间导航编码套件（场所+网格+头向+边界→时间细胞+速度细胞）；关键跨领域桥梁：时间细胞↔场所细胞（同一神经元双重模式）↔情节记忆时空编码↔速度细胞（路径整合速度输入）↔脑干运动回路（PPN→HDB→MEC）↔LEC时间戳（空间/时间双流内嗅皮层架构完成）"
+    },
     {
       "date": "2026-07-23",
       "title": "皮层六层架构：大脑用六层细胞片实现感知与预测的解剖分工",

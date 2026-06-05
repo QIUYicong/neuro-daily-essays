@@ -1,0 +1,127 @@
+# 运行日志：2026-07-24
+
+## 基本信息
+
+- **虚拟日期**：2026-07-24（第92篇）
+- **真实系统时钟**：UTC+8 = 2026-06-05（同往期）
+- **文章标题**：时间细胞与速度细胞：大脑如何在时间维度上导航
+- **文件名**：2026-07-24-time-cells-speed-cells-temporal-navigation.md
+- **分支**：main
+- **状态**：待推送
+
+---
+
+## 选题过程
+
+**选题来源**：来自 2026-07-23（#91 皮层六层架构）的 `next_suggested_topics` 第一条："时间细胞与速度细胞（time cells / speed cells）"
+
+**选题理由**：
+1. 空间导航套件的时间维度补全：已覆盖位置细胞（#41）、网格细胞（#52）、头向细胞/边界细胞（#90），时间细胞和速度细胞是同一认知地图系统的剩余核心成员
+2. 解决悬空引用：grid-cells.md、path-integration.md 已提及 speed cells 但无独立页面；place-cells.md 已提及 time cells 的双模特性但无独立页面
+3. 填补 Q-tc-* 预期问题：位置细胞×时间细胞双模问题是高优先级悬置问题
+4. 层级切换：从 microcircuit 层（#91）切换回 cellular/circuit 层，符合多样性规则
+
+---
+
+## 检索过程
+
+**检索词**：
+1. "hippocampal time cells MacDonald Leutgeb Bhaskaran sequence temporal interval"（→PubMed/PMC）
+2. "PMID 21867888 MacDonald 2011 hippocampus time cells"（→PubMed 验证 PMID）
+3. "speed cells medial entorhinal cortex Kropff 2015 grid cells navigation"（→PubMed/PMC）
+4. "PPN HDB speed cells entorhinal Carvalho 2020 brainstem locomotion"（→PubMed/PMC）
+5. "lateral entorhinal cortex temporal context drift episodic memory Tsao 2018"（→PubMed/PMC）
+6. "human time cells iEEG temporal clustering episodic memory Umbach 2020"（→PubMed/PMC）
+
+**数据库**：PubMed、PMC、Europe PMC、WebSearch
+
+---
+
+## PMID 验证与纠错
+
+**已发现错误**：
+- 初始尝试使用 PMID 21940896 作为 MacDonald 2011 时间细胞论文，经 PubMed 验证发现该 PMID 对应一篇非洲野生动物生态学论文，与神经科学无关。
+- **纠正方式**：通过 PubMed 标题搜索 "hippocampal time cells" + author:MacDonald + year:2011，找到正确 PMID 21867888（MacDonald et al. 2011, Science, PMC3163062）。
+
+---
+
+## 来源采用与排除
+
+**采用**（8 篇）：
+- PMID:21867888 MacDonald et al. 2011 — 时间细胞原始论文（CA1延迟间隔序列放电）；PMC3163062 开放，读取全文
+- PMID:18772431 Pastalkova et al. 2008 — 时间细胞前驱研究（海马theta序列）；PMC2780542 开放，读取全文
+- PMID:25269553 Kraus et al. 2015 — 时间细胞与速度不变性；PMC4197135 开放，读取全文
+- PMID:26176924 Kropff et al. 2015 — 速度细胞发现论文（MEC速度编码）；**Nature，非PMC开放全文，仅读摘要**（文中标注）
+- PMID:32905779 Carvalho et al. 2020 — PPN→HDB→MEC速度回路；PMC7487772 开放，读取全文
+- PMID:30158699 Tsao et al. 2018 — LEC时间情境漂移；**Nature，非PMC开放全文，仅读摘要**（文中标注）
+- PMID:33109718 Umbach et al. 2020 — 人类时间细胞 iEEG 直接证据；PMC7668099 开放，读取全文
+- PMID:28858612 Eichenbaum 2017 — 时间细胞/情节记忆综述；PMC5559218 开放，读取全文
+
+**排除**（理由）：
+- 多篇数值模拟/建模文章（时间细胞吸引子网络模型）：排除，优先使用一手实验证据
+- PMID 21940896：错误 PMID，已纠正
+
+---
+
+## 固结步骤
+
+**新建 wiki 页（2）**：
+- `wiki/concepts/time-cells.md` rev1：发现历史；标量时序；双模特性（位置细胞与时间细胞75%+重叠）；人类 iEEG 证据；情节记忆时间坐标轴；established/high
+- `wiki/concepts/speed-cells.md` rev1：MEC 速度线性编码；情境不变性；~50-80ms 前瞻偏差；PPN→HDB→MEC 回路（偏好激活 MEC 中间神经元 46.3% vs 2.6%）；连续吸引子网络驱动；established/high
+
+**修订 wiki 页（4）**：
+- `wiki/concepts/place-cells.md` rev2→rev3：添加双模特性（MacDonald 2011 PMID:21867888）；related 加入 time-cells；修订历史追加；updated/revision_count 更新
+- `wiki/concepts/grid-cells.md` rev2→rev3：添加速度细胞速度分量（Kropff 2015, Carvalho 2020）；related 加入 speed-cells/time-cells；修订历史追加；updated/revision_count 更新
+- `wiki/systems/entorhinal-cortex.md` rev1→rev2：更新 MEC 速度细胞和 LEC 时间漂移；情节编码升级为"空间×情境×时间"三维；related 加入 speed-cells/time-cells；修订历史追加
+- `wiki/concepts/path-integration.md` rev2→rev3：明确速度来源（速度细胞 Kropff 2015, Carvalho 2020）；related 加入 speed-cells/time-cells；修订历史追加
+
+**矛盾检查**：无新矛盾。标量时序变化机制（重新时序 vs 时间压缩）已作为 Q-tc-01 记录（高优先级悬置问题）；LEC 漂移是否独立于 HC 的问题记录为 Q-tc-02；这些均为已知开放问题，不构成新矛盾。
+
+**成熟度更新**：
+- time-cells: established/high（新建）
+- speed-cells: established/high（新建）
+- place-cells: established/high（rev3，status 不变）
+- grid-cells: established/high（rev3，status 不变）
+- entorhinal-cortex: established/high（rev2，status 不变）
+- path-integration: established/high（rev3，status 不变）
+
+---
+
+## 图谱更新
+
+- 节点：182 → 184（+2: time-cells, speed-cells）
+- 边：1058 → 1085（+27 条新边）
+- CHANGELOG 更新：2026-07-24 条目添加在顶部
+- index.md 更新：总数 181 → 183；concepts 节顶部添加 time-cells/speed-cells 两个新页面
+
+---
+
+## 治理层更新
+
+- topic_ledger.json：total_articles 91→92；新增第92篇条目
+- unresolved_questions.md：新增 Q-tc-01/Q-tc-02/Q-tc-03/Q-tc-04（4个新悬置问题，高/中/高/低）
+- source_registry.json：新增8条来源（PMID:21867888/18772431/25269553/26176924/32905779/30158699/33109718/28858612）；总计 385→393 条
+- maturity_index.json：新增 time-cells/speed-cells 两个条目
+- monthly_synthesis.md：2026年7月月度篇数更新至24篇（含第92篇）
+
+---
+
+## 失败与限制
+
+1. **Kropff et al. 2015（PMID:26176924）**：Nature 发表，非 PMC 开放全文。内容通过读取摘要及 Carvalho 2020 综述引用补充。文中明确标注"未读取全文"。
+2. **Tsao et al. 2018（PMID:30158699）**：Nature 发表，非 PMC 开放全文。内容通过读取摘要及 Eichenbaum 2017 综述补充。文中明确标注"未读取全文"。
+3. **PMID 错误纠正**：初始尝试 MacDonald 2011 时使用了错误 PMID（21940896），经 PubMed 检索纠正为 21867888。
+
+---
+
+## Git 信息
+
+- 文章：neuro-daily/articles/2026-07-24-time-cells-speed-cells-temporal-navigation.md
+- 笔记：neuro-daily/notes/2026-07-24-reading-notes.md
+- 来源：neuro-daily/sources/2026-07-24-sources.json
+- 新 wiki：wiki/concepts/time-cells.md, wiki/concepts/speed-cells.md
+- 修订 wiki：wiki/concepts/place-cells.md, wiki/concepts/grid-cells.md, wiki/systems/entorhinal-cortex.md, wiki/concepts/path-integration.md
+- 状态：wiki/_graph.json, wiki/index.md, wiki/CHANGELOG.md, state/topic_ledger.json, state/unresolved_questions.md, state/source_registry.json, state/maturity_index.json, state/monthly_synthesis.md
+- Branch：main
+- Commit hash：（待推送后填写）
+- Push 状态：（待定）
