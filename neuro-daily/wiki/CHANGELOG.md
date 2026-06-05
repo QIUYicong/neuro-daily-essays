@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-23 · 文章 #91 · 新皮质六层算法：同一份蓝图如何在视觉、语言和自我意识中运行
+
+**核心主题**：新皮质六层结构（L1–L6）的层特异性功能分工与规范微回路（canonical microcircuit）；桶状皮层的 L4→L2/3→L5 精确信号传递链的定量数据（Feldmeyer 2012）；IT/PT/CT 细胞类型分类（Harris & Shepherd 2015）；L5 PT 厚簇型锥体细胞的 BAC 放电机制（Larkum 2013）；皮层柱概念的两个层面区分（功能偏好柱 vs 规范回路柱，Horton & Adams 2005 争议）；预测编码的解剖基础（Bastos et al. 2012，浅层γ/深层β）。
+
+**新建页面（3）**：
+- `circuits/neocortical-layers.md` rev1 — 六层结构：层特异性细胞类型/输入/输出/功能角色；L4→L2/3→L5 规范通路定量；循环兴奋（皮层主要由自身驱动，丘脑仅提供 L4 突触 10–20%）；预测编码层分离（浅层γ误差/深层β预测）；established, confidence:high
+- `circuits/cortical-column.md` rev1 — 皮层柱：Mountcastle 1957 原始发现；功能偏好柱（方向柱/眼优势柱，物种特异）vs 规范回路柱（普遍保守）的概念区分；Harris & Shepherd 主题-变奏框架；Horton & Adams 批评；mainstream, confidence:medium
+- `neurons/layer-5-pyramidal-cell.md` rev1 — L5 PT 细胞：顶端树突达 L1 / 胞体在 L5 的跨层结构；BAC 放电（前馈×反馈时间符合→高频爆发）；皮质下投射（PT）与高次丘脑反馈回路；established, confidence:high
+
+**修订页面（3）**：
+- `concepts/barrel-cortex.md` rev2 — 新增 L4→L2/3→L5 定量突触数据（Feldmeyer 2012，VPM 仅提供 L4 10–20%，L4→L2/3 EPSP 0.6–1.0 mV 单向，L2/3→L5 EPSP ~0.1 mV 短时易化）；L5B PT 细胞 BAC 放电机制；新增 [[neocortical-layers]]、[[layer-5-pyramidal-cell]] 连接
+- `theories/predictive-coding.md` rev8 — 新增"L5 锥体细胞单细胞层级整合器"段落（BAC 放电是预测编码的细胞级实现）；related 新增 neocortical-layers, layer-5-pyramidal-cell, cortical-column
+- `circuits/thalamocortical-circuit.md` rev3 — 新增量化细节（lemniscal 终止 L4，提供 10–20% L4 突触；L5B→POm 高次回路）；L6 CT 功能仍大部分未知；related 新增 neocortical-layers, layer-5-pyramidal-cell
+
+**矛盾登记（0）**：今日无新增矛盾。皮层柱"功能偏好柱 vs 规范回路柱"的概念区分已有清晰的文献依据（Horton & Adams 2005 vs Harris & Shepherd 2015）；两种框架互补而非冲突，无需登记争议。
+
+**新增开放问题（4）**：Q-layers-01（高：L6 CT 神经元功能）、Q-layers-02（中：皮层区域六层分子差异）、Q-column-01（高：微柱是否真实功能单元）、Q-L5-02（高：BAC 放电是否感知意识必要条件）
+
+**图谱**：184 节点（+4），1050 边（+14）
+
+---
+
 ## 2026-07-22 · 文章 #90 · 大脑的内置罗盘：头向细胞与边界细胞完成空间导航四元组
 
 **核心主题**：头向细胞（Head Direction Cells）与边界细胞（Border Cells/BVCs）——大脑 GPS 系统的方向编码器和边界传感器，完成空间导航四元组（场所细胞/网格细胞/头向细胞/边界细胞）。头向细胞回路（DTN→LMN→ADN→PoS→RSC→MEC深层）以环形吸引子机制由前庭系统驱动，由视觉地标锚定；Peyrache 2015（PMID:25706474）证明 ADN 群体相干旋转说明吸引子内在动力学。边界细胞（Solstad 2008 MEC；Lever 2009 下托）是 O'Keefe & Burgess 1996 BVC 理论的实验验证，拉伸实验证明边界特异性；计算模型提示边界细胞通过重置网格吸引子校正路径整合漂移。

@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-19
-updated: 2026-07-19
-revision_count: 1
+updated: 2026-07-23
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region]
 related: [somatosensory-cortex, cortical-homunculus, critical-period, thalamus, pv-interneurons, orientation-selectivity]
 prerequisites: [somatosensory-cortex, thalamus]
 opens_questions: [Q-som-02]
-source_articles: [2026-07-19-somatosensory-cortex-homunculus-barrel-cortex]
-key_sources: ["PMID:31367018", "PMID:17622195", "PMCID:PMC7486654"]
+source_articles: [2026-07-19-somatosensory-cortex-homunculus-barrel-cortex, 2026-07-23-neocortical-layers-columns-canonical-circuit]
+key_sources: ["PMID:31367018", "PMID:17622195", "PMCID:PMC7486654", "PMCID:PMC3394394"]
 ---
 
 # 桶状皮层（Barrel Cortex）
@@ -39,11 +39,13 @@ key_sources: ["PMID:31367018", "PMID:17622195", "PMCID:PMC7486654"]
   → S1 第 4 层（barrel）
 ```
 
-### 皮层柱内规则回路
-L4（棘星形细胞，接收 VPM 输入）
-→ L2/3（锥体细胞，侧向传播，投射到 S2/M1）
-→ L5（PT 神经元，输出到皮下结构）
+### 皮层柱内规则回路（定量细节见 Feldmeyer 2012）
+L4（棘星形细胞，接收 VPM 输入；但 VPM 仅提供 L4 突触的 10–20%，其余来自 L4 内部循环兴奋）
+→ L2/3（单向，EPSP 0.6–1.0 mV，连接率 10–15%；锥体细胞，侧向传播，投射到 S2/M1）
+→ L5（需多单元时间汇聚，EPSP ~0.1 mV，短时易化；PT 神经元，输出到皮下结构）
 → L6（反馈到 VPM/VPL）
+
+L5B 厚簇型锥体细胞（PT 型）顶端树突延伸至 L1，接收高级皮层反馈预测信号；胞体整合 L2/3 前馈输入，两者符合时发生 BAC 爆发放电。
 
 ### 稀疏编码机制
 PV+ 篮状细胞对主胡须刺激产生快速前馈抑制，将响应时间窗口压缩至约 10–20 ms，使多数神经元在单个刺激试次中不放电（响应概率 ~0.32）。
@@ -73,6 +75,8 @@ PV+ 篮状细胞对主胡须刺激产生快速前馈抑制，将响应时间窗�
 - [[pv-interneurons]] — PV+ 中间神经元提供快速前馈抑制，是稀疏编码的回路实现
 - [[orientation-selectivity]] — V1 方向柱 vs 桶状皮层桶列：两种皮层功能图谱组织的比较
 - [[tonotopy]] — 音调拓扑 vs 胡须拓扑：不同感觉系统中"感觉参数→皮层空间维度"的平行实例
+- [[neocortical-layers]] — 桶柱是六层结构 L4→L2/3→L5 规范回路的最精确研究实例
+- [[layer-5-pyramidal-cell]] — 桶柱 L5B 厚簇型锥体细胞是 BAC 放电机制的主要研究对象
 
 ## 未解问题
 
@@ -81,6 +85,7 @@ PV+ 篮状细胞对主胡须刺激产生快速前馈抑制，将响应时间窗�
 ## 修订历史
 
 - 2026-07-19 · 创建 · 基于《从皮肤到大脑的身体地图》(#87) · 初始置信度：高
+- 2026-07-23 · rev2 · 基于《新皮质六层算法》(#91) · 补充 L4→L2/3→L5 的定量突触数据（Feldmeyer 2012），明确 VPM 仅提供 L4 突触 10–20% 和 L5B PT 细胞 BAC 放电机制；新增 [[layer-5-pyramidal-cell]] 连接
 
 ## 来源文章
 

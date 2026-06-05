@@ -1,0 +1,125 @@
+{
+  "date": "2026-07-23",
+  "article": "2026-07-23-neocortical-layers-columns-canonical-circuit",
+  "topic": "新皮质六层结构与规范微回路",
+  "sources": [
+    {
+      "id": "s1",
+      "type": "primary",
+      "citation": "Mountcastle VB (1957). Modality and topographic properties of single neurons of cat's somatic sensory cortex. J Neurophysiol 20(4):408-434.",
+      "pmid": "13439410",
+      "doi": null,
+      "open_access": false,
+      "access_note": "历史论文，仅摘要；通过二手引用与综述获取主要内容",
+      "relevance": "皮层柱概念原始发现；提出垂直柱为皮层功能组织单元的第一手证据",
+      "used_for": ["cortical-column-concept", "history-of-discovery"]
+    },
+    {
+      "id": "s2",
+      "type": "primary",
+      "citation": "Douglas RJ & Martin KAC (1991). A functional microcircuit for cat visual cortex. J Physiol 440:735-769.",
+      "pmid": "1666655",
+      "pmcid": "PMC1180177",
+      "doi": "10.1113/jphysiol.1991.sp018733",
+      "open_access": true,
+      "access_note": "PMC 开放全文",
+      "relevance": "规范微回路的实验基础；循环兴奋驱动持续皮层活动",
+      "used_for": ["canonical-microcircuit", "recurrent-excitation", "thalamic-drive-vs-intracortical"]
+    },
+    {
+      "id": "s3",
+      "type": "review",
+      "citation": "Petersen CCH (2019). Sensorimotor processing in the rodent barrel cortex. Nat Rev Neurosci 20(9):533-546.",
+      "pmid": "31367018",
+      "doi": "10.1038/s41583-019-0200-y",
+      "open_access": false,
+      "access_note": "NRN 综述，需订阅；摘要和部分内容通过 PubMed 获取",
+      "relevance": "桶状皮层层间回路综合综述，L4→L2/3→L5 规范通路与感觉运动整合",
+      "used_for": ["barrel-cortex-circuit", "canonical-L4-L2/3-L5", "active-sensing"]
+    },
+    {
+      "id": "s4",
+      "type": "primary",
+      "citation": "Feldmeyer D (2012). Excitatory neuronal connectivity in the barrel cortex. Front Neuroanat 6:24.",
+      "pmcid": "PMC3394394",
+      "doi": "10.3389/fnana.2012.00024",
+      "open_access": true,
+      "access_note": "Frontiers 开放全文",
+      "relevance": "L4-L2/3-L5 突触连接的精确定量数据；VPM 仅提供 L4 突触 10-20%",
+      "used_for": ["quantitative-connectivity", "L4-L2/3-synaptic-physiology", "L2/3-L5-facilitation"]
+    },
+    {
+      "id": "s5",
+      "type": "primary",
+      "citation": "Bastos AM, Usrey WM, Adams RA, Mangun GR, Fries P, Friston KJ (2012). Canonical microcircuits for predictive coding. Neuron 76(4):695-711.",
+      "pmid": "23177956",
+      "pmcid": "PMC3777738",
+      "doi": "10.1016/j.neuron.2012.10.038",
+      "open_access": true,
+      "access_note": "PMC 开放全文",
+      "relevance": "皮层层状结构与预测编码的解剖-理论统一；浅层γ/深层β分离",
+      "used_for": ["predictive-coding-anatomy", "gamma-beta-layer-asymmetry", "feedforward-feedback-anatomy"]
+    },
+    {
+      "id": "s6",
+      "type": "review",
+      "citation": "Harris KD & Shepherd GMG (2015). The neocortical circuit: themes and variations. Nat Neurosci 18(2):170-181.",
+      "pmid": "25622573",
+      "pmcid": "PMC4889215",
+      "doi": "10.1038/nn.3917",
+      "open_access": true,
+      "access_note": "PMC 开放全文",
+      "relevance": "IT/PT/CT 细胞类型分类；皮层区域间"主题-变奏"组织原则",
+      "used_for": ["IT-PT-CT-classification", "cortical-circuit-universality", "cell-type-connectivity"]
+    },
+    {
+      "id": "s7",
+      "type": "review",
+      "citation": "Larkum ME (2013). A cellular mechanism for cortical associations: an organizing principle for the cerebral cortex. Trends Neurosci 36(3):141-151.",
+      "pmid": "23273272",
+      "doi": "10.1016/j.tins.2012.11.006",
+      "open_access": false,
+      "access_note": "需订阅；内容通过 PubMed 摘要与二手综述获取，标注：未读取全文",
+      "relevance": "L5 锥体细胞 BAC 放电机制；顶端树突-胞体符合检测；皮层层级整合的细胞基础",
+      "used_for": ["BAC-firing", "L5-apical-dendrite", "coincidence-detection-layers"]
+    },
+    {
+      "id": "s8",
+      "type": "primary",
+      "citation": "Horton JC & Adams DL (2005). The cortical column: a structure without a function. Phil Trans R Soc B 360(1456):837-862.",
+      "pmid": "15937015",
+      "pmcid": "PMC1569491",
+      "doi": "10.1098/rstb.2005.1623",
+      "open_access": true,
+      "access_note": "PMC 开放全文（历史论文开放）",
+      "relevance": "质疑皮层柱功能意义的关键批评；方向柱/眼优势柱的跨物种变异",
+      "used_for": ["column-debate", "functional-columns-critique", "species-variation"]
+    },
+    {
+      "id": "s9",
+      "type": "primary",
+      "citation": "Felleman DJ & Van Essen DC (1991). Distributed hierarchical processing in the primate cerebral cortex. Cereb Cortex 1(1):1-47.",
+      "pmid": "1822724",
+      "doi": "10.1093/cercor/1.1.1",
+      "open_access": false,
+      "access_note": "仅摘要",
+      "relevance": "灵长类皮层层级解剖；前馈(L2/3→L4)与反馈(L5/6→L1/6)的层特异性起源终点",
+      "used_for": ["cortical-hierarchy", "feedforward-feedback-layers", "primate-visual-hierarchy"]
+    },
+    {
+      "id": "s10",
+      "type": "primary",
+      "citation": "Douglas RJ & Martin KAC (1989). A canonical microcircuit for neocortex. Neural Comput 1(4):480-488.",
+      "doi": "10.1162/neco.1989.1.4.480",
+      "open_access": false,
+      "access_note": "仅摘要/DOI；历史论文通过二手引用获取主要内容",
+      "relevance": "规范微回路概念的最早正式提出（早于 1991 年实验论文）",
+      "used_for": ["canonical-microcircuit-origin", "neocortical-circuit-model"]
+    }
+  ],
+  "open_access_count": 5,
+  "abstract_only_count": 3,
+  "with_limitations": ["s7: Larkum 2013 未读取全文，内容通过摘要与引用此文的综述获取"],
+  "official_institution_sources": ["PMCID:PMC3777738 (NIH-funded, Neuron)"],
+  "coverage_summary": "主干覆盖：规范微回路（Douglas & Martin 1989/1991）、桶状皮层定量回路（Feldmeyer 2012，Petersen 2019）、IT/PT/CT 分类（Harris & Shepherd 2015）、L5 BAC 放电（Larkum 2013）、皮层层级预测编码解剖（Bastos 2012）、柱概念起源与争议（Mountcastle 1957, Horton & Adams 2005）、皮层层级框架（Felleman & Van Essen 1991）"
+}

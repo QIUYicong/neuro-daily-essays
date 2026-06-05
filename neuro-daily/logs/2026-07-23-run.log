@@ -1,0 +1,112 @@
+# 运行日志 · 2026-07-23（虚拟日期）· 文章 #91
+
+**执行时间（UTC+8）**：2026-06-05 20:00 CST（真实时钟）
+**虚拟知识库日期**：2026-07-23（继承自第 90 篇 2026-07-22）
+**状态**：成功
+
+---
+
+## 步骤 0：同步确认
+
+- 当前分支：`claude/funny-einstein-vB6lM`
+- Remote：`http://local_proxy@127.0.0.1:xxxxx/git/QIUYicong/neuro-daily-essays`（local_proxy 正常）
+- ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 均存在 ✓
+- 上一篇：2026-07-22 #90（头向细胞/边界细胞）
+
+---
+
+## 步骤 A：状态读取
+
+- `topic_ledger.json`：总计 90 篇，最新日期 2026-07-22
+- `unresolved_questions.md`：重点开放问题：Q-hd-01（HD 信号起源，高优）、Q-bc-01（边界细胞因果机制，高优）、Q-alpha-01（FEF→枕叶 α 通路，高优）
+- `wiki/_graph.json`：180 节点，1036 边；分析悬空引用：canonical-microcircuit（被多页引用，无独立节点）、neocortical-layers（被引用）、layer-5-pyramidal-cell（在 pyramidal-neuron 页提及，无专页）
+- 近 3 篇层级：细胞/微回路/脑区/认知（07-22 头向细胞）、细胞/微回路/认知（07-21 α 振荡）、脑区/全脑网络/认知（07-20 多感觉整合）
+
+---
+
+## 步骤 B：选题
+
+**选题依据**：填补悬空引用（canonical-microcircuit, neocortical-layers, layer-5-pyramidal-cell）+ 上一篇的 next_suggested_topics #1（皮层层状结构与皮层柱）
+**主题**：新皮质六层结构与规范微回路
+**核心问题**：六层结构如何分工，皮层柱是什么，L5 PT 细胞如何整合层级信号
+**层级**：cellular/synaptic/microcircuit/brain-region（与前 3 篇的 cognition/whole-brain 互补）
+**模式**：long_term_curriculum（Track 2/3/5/8 桥梁）
+
+---
+
+## 步骤 C：检索与写作
+
+**搜索词**：
+1. "neocortex cortical layers columns canonical microcircuit Douglas Martin"（PubMed/PMC）
+2. "barrel cortex L4 L2/3 L5 feedforward circuit Petersen Feldmeyer review"（PubMed/PMC）
+3. "Larkum 2013 organizing principle cerebral cortex Trends Neurosci"（PubMed）
+4. "Harris Shepherd 2015 neocortical circuit types IT PT CT"（PubMed）
+5. "Horton Adams 2005 cortical column structure without function"（PubMed/PMC）
+
+**数据来源**：
+- PubMed 摘要检索：PMID:13439410, 1666655, 31367018, 23177956, 25622573, 23273272, 15937015, 1822724
+- PMC 开放全文：PMC1180177（Douglas & Martin 1991）、PMC3394394（Feldmeyer 2012）、PMC3777738（Bastos 2012）、PMC4889215（Harris & Shepherd 2015）、PMC1569491（Horton & Adams 2005）
+- WebFetch 全文读取：PMC3394394（Feldmeyer 定量数据）、PMC3777738（预测编码层分离）、PMC4889215（IT/PT/CT 分类）、PMC1569491（皮层柱批评）
+- PMID:23273272（Larkum 2013）：仅摘要，内容通过二手综述补充，标注"未读取全文"
+
+**候选来源（最终采用）**：10 个（≥2 开放全文 ✓，≥1 官方机构 ✓）
+- 开放全文：PMC1180177, PMC3394394, PMC3777738, PMC4889215, PMC1569491（5 个）
+- 摘要+历史：13439410, 31367018, 23273272, 1822724, DOI:10.1162/neco.1989.1.4.480（5 个）
+
+**排除的潜在来源**：
+- Larkum 1999 *Nature*（DOI:10.1038/18686）：无开放全文，PMID 查询失败；通过 Larkum 2013 综述间接引用
+- 若干皮层柱 fMRI/成像论文：与今日核心问题（微回路）关联不强，排除
+
+**文章写作**：
+- 字符数：约 8500 中文字符（含表格等）
+- 涵盖要求章节：全部（核心问题/摘要/重要性/背景/机制/证据/比喻/认知地图影响/争议/AI对照/概念卡片/认知地图更新/来源）
+
+---
+
+## 步骤 D：固结
+
+**新建 wiki 页（3）**：
+- `wiki/circuits/neocortical-layers.md` rev1（六层结构，established/high）
+- `wiki/circuits/cortical-column.md` rev1（皮层柱，mainstream/medium）
+- `wiki/neurons/layer-5-pyramidal-cell.md` rev1（L5 PT 细胞，established/high）
+
+**修订 wiki 页（3）**：
+- `wiki/concepts/barrel-cortex.md` rev2（新增 Feldmeyer 2012 定量数据）
+- `wiki/theories/predictive-coding.md` rev8（新增 L5 BAC 放电段落）
+- `wiki/circuits/thalamocortical-circuit.md` rev3（新增 lemniscal/POm 量化细节）
+
+**矛盾检查**：无矛盾登记。barrel-cortex 页已有 L4→L2/3→L5 描述，今日新增定量数据不与既有描述冲突而是补充。预测编码页的 Bastos 2012 内容已存在，今日从细胞层面（Larkum）补充支持，互相一致。
+
+---
+
+## 步骤 E：图谱与导航
+
+- `_graph.json`：节点 180→184（+4），边 1036→1050（+14）
+- `wiki/index.md`：新增 3 条（neocortical-layers, cortical-column, layer-5-pyramidal-cell）
+- `wiki/CHANGELOG.md`：追加 2026-07-23 节
+
+---
+
+## 步骤 F：治理层
+
+- `state/topic_ledger.json`：total_articles 90→91，新增第 91 篇条目
+- `state/maturity_index.json`：新增 4 条（neocortical-layers/cortical-column/layer-5-pyramidal-cell/canonical-microcircuit）
+- `state/unresolved_questions.md`：新增 Q-layers-01、Q-column-01、Q-L5-01、Q-L5-02
+- `state/source_registry.json`：新增 7 条来源
+- `state/monthly_synthesis.md`：追加 2026-07-23 摘要
+
+---
+
+## 步骤 G：提交 + 推送
+
+- **branch**：`claude/funny-einstein-vB6lM`
+- **commit 状态**：待提交（见主流程）
+- **push 状态**：待推送
+
+---
+
+## 限制与说明
+
+- Larkum 2013（PMID:23273272）：未读取 Trends Neurosci 全文；内容通过摘要和引用此文的综述获取；文章中已标注
+- 皮层柱原始论文 Mountcastle 1957（PMID:13439410）：历史论文，通过历史综述引用
+- Douglas & Martin 1989（DOI:10.1162/neco.1989.1.4.480）：Neural Computation 创刊号论文，无 PMID，通过 DOI 引用

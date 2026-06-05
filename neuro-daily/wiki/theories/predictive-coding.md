@@ -6,13 +6,13 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-07-20
-revision_count: 7
+updated: 2026-07-23
+revision_count: 8
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration, neocortical-layers, layer-5-pyramidal-cell, cortical-column]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference, 2026-07-23-neocortical-layers-columns-canonical-circuit]
 key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:40532027", "PMID:32576965"]
 ---
 
@@ -61,6 +61,16 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 振荡频段的功能分工：
 - **γ 振荡**：前馈误差信号的载波；灵长类视觉皮层前馈方向以 γ 为主
 - **α/β 振荡**：反馈预测信号的载波；灵长类视觉皮层反馈方向以 α/β 为主
+
+### L5 锥体细胞：单细胞层级整合器（Larkum 2013, PMID:23273272）
+
+L5 PT（Pyramidal Tract）细胞的解剖结构是预测编码的细胞级实现：
+- **胞体/基础树突（L5）**：接收 L2/3 的前馈输入（"实际感觉信号"）
+- **顶端树突簇（L1）**：接收来自高级皮层的反馈输入（"预测/期望"）
+
+当两类输入在时间上接近同步（~5–10 ms 窗口），发生 **BAC 放电**（Backpropagation-Activated Ca²⁺ spike firing）：前馈 AP 与反馈钙平台电位碰撞，触发高频爆发放电。这是"感知 = 预测与感觉的符合"在单个神经元的物理实现。
+
+反馈输入到达 L1（仅有顶端树突簇的层），而非 L4 或 L2/3——这确保了反馈"预测"信号绕过前馈"误差"处理层，直接与 L5 的输出端互动。
 
 ### 精度加权与注意
 
@@ -136,6 +146,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
 - 2026-07-12 · 修订 · 基于《世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架》(#80) · 新增听觉皮层 PEONs 直接证据（Yaron 2025, PMID:40532027）——13% 神经元响应省略音调，响应随概率升高；新增精度加权多巴胺证据（Haarsma 2020, PMID:32576965）——舒必利破坏精度加权，FEP 患者无精度加权；新增 LHb 负 RPE 作为奖励域省略响应的显式说明；新增 Q-pc-06（PEONs 自然感知功能）；related 新增 lateral-habenula；置信度维持 medium（Hodson 2024 综述提醒经验证据有限）
 - 2026-07-20 · 修订 · 基于《感官交响曲》文章（#88）· 多感觉整合的贝叶斯因果推断是预测编码框架在多模态输入层面的具体实现；related 新增 multisensory-integration, bayesian-sensory-integration
+- 2026-07-23 · rev8 · 基于《新皮质六层算法》(#91) · 新增"L5 锥体细胞单细胞层级整合器"段落（Larkum 2013, PMID:23273272）：BAC 放电机制是预测编码"前馈×反馈符合→感知"的细胞级实现；反馈到 L1 绕过误差层直达 PT 输出端；related 新增 neocortical-layers, layer-5-pyramidal-cell, cortical-column
 
 ## 来源文章
 
@@ -143,3 +154,4 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[2026-06-20-language-dual-stream]]
 - [[2026-07-12-predictive-coding-cortical-inference]]
 - [[2026-07-20-multisensory-integration-temporal-binding-sts]]
+- [[2026-07-23-neocortical-layers-columns-canonical-circuit]]

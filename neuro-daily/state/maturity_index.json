@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-23",
   "levels": [
     "speculative",
     "emerging",
@@ -1048,6 +1048,38 @@
       "revision_count": 1,
       "last_changed": "2026-07-14",
       "change_reason": "新建（文章 #82，2026-07-14）。渴求孵化现象的证据：(1) Pickens & Shaham 2011 综述系统记录了古柯碱、甲基苯丙胺、海洛因等物质的 6-7 周渴求峰值（多实验室重复）；(2) CP-AMPA 插入时程与渴求峰值对应（Conrad 2008，pharmacological evidence）；(3) Ma & Dong 2016（PMID:27135923, PMC4862637）光遗传 LTD 重置 BLA→NAc 静默突触 → 消除孵化行为（直接因果实验，最高标准证据）；(4) BLA→NAc 投射特异性有解剖定位证据。整体 established/high；主要不确定性：人类戒断期渴求峰值的精确时间线（与啮齿类时间尺度差异）；自然奖励渴求孵化的动态是否遵循相同机制。"
+    },
+    {
+      "slug": "neocortical-layers",
+      "title": "新皮质六层结构",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-07-23",
+      "change_reason": "创建；六层结构和规范微回路有数十年多物种电生理证据，Feldmeyer 2012 定量数据等级为高"
+    },
+    {
+      "slug": "cortical-column",
+      "title": "皮层柱",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-07-23",
+      "change_reason": "创建；概念本身确立，但功能偏好柱的普遍性受 Horton & Adams 2005 质疑，置信度降为 medium"
+    },
+    {
+      "slug": "layer-5-pyramidal-cell",
+      "title": "第5层厚簇型锥体细胞（PT神经元）",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-07-23",
+      "change_reason": "创建；形态学和突触生理学（Feldmeyer 2012）为高置信度；BAC 放电的清醒体内证据仍需加强（Larkum 2020 初步体内），整体置信度 high"
+    },
+    {
+      "slug": "canonical-microcircuit",
+      "title": "规范微回路（L4→L2/3→L5）",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-07-23",
+      "change_reason": "创建；Douglas & Martin 1991 + Feldmeyer 2012 + Petersen 2019 多独立来源支持，跨物种保守，证据等级高"
     }
   ],
   "embodied-semantics": {

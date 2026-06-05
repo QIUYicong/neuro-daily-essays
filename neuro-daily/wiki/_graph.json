@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-22",
+  "updated": "2026-07-23",
   "node_count": 177,
   "edge_count": 1018,
   "edge_types": [
@@ -1633,6 +1633,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/ring-attractor.md"
+    },
+    {
+      "id": "neocortical-layers",
+      "title": "新皮质六层结构",
+      "domain": "circuits",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/neocortical-layers.md"
+    },
+    {
+      "id": "cortical-column",
+      "title": "皮层柱",
+      "domain": "circuits",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/circuits/cortical-column.md"
+    },
+    {
+      "id": "layer-5-pyramidal-cell",
+      "title": "第5层厚簇型锥体细胞（PT神经元）",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/layer-5-pyramidal-cell.md"
+    },
+    {
+      "id": "canonical-microcircuit",
+      "title": "规范微回路（L4→L2/3→L5）",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/neocortical-layers.md"
     }
   ],
   "edges": [
@@ -7276,6 +7312,76 @@
     {
       "from": "path-integration",
       "to": "border-cells",
+      "type": "related"
+    },
+    {
+      "from": "neocortical-layers",
+      "to": "cortical-column",
+      "type": "part-of"
+    },
+    {
+      "from": "neocortical-layers",
+      "to": "thalamocortical-circuit",
+      "type": "related"
+    },
+    {
+      "from": "neocortical-layers",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "neocortical-layers",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "cortical-column",
+      "to": "neocortical-layers",
+      "type": "part-of"
+    },
+    {
+      "from": "cortical-column",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "layer-5-pyramidal-cell",
+      "to": "neocortical-layers",
+      "type": "part-of"
+    },
+    {
+      "from": "layer-5-pyramidal-cell",
+      "to": "predictive-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "layer-5-pyramidal-cell",
+      "to": "canonical-microcircuit",
+      "type": "part-of"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "neocortical-layers",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "neocortical-layers",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "layer-5-pyramidal-cell",
+      "to": "thalamocortical-circuit",
       "type": "related"
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-23",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6846,6 +6846,82 @@
         "sensorimotor to semantic integration",
         "STS-ATL connection",
         "language evolution phylogenetics"
+      ]
+    },
+    {
+      "id": "PMID:13439410",
+      "title": "Mountcastle 1957 - 皮层柱原始发现",
+      "used_in": [
+        "2026-07-23"
+      ],
+      "covered": [
+        "cortical-column",
+        "somatosensory-cortex"
+      ]
+    },
+    {
+      "id": "PMID:1666655",
+      "title": "Douglas & Martin 1991 - 猫视觉皮层功能微回路",
+      "used_in": [
+        "2026-07-23"
+      ],
+      "covered": [
+        "canonical-microcircuit",
+        "recurrent-excitation"
+      ]
+    },
+    {
+      "id": "PMCID:PMC3394394",
+      "title": "Feldmeyer 2012 - 桶状皮层兴奋性连接定量",
+      "used_in": [
+        "2026-07-23"
+      ],
+      "covered": [
+        "barrel-cortex",
+        "L4-L2/3-L5-connectivity"
+      ]
+    },
+    {
+      "id": "PMID:25622573",
+      "title": "Harris & Shepherd 2015 - 新皮质回路主题变奏",
+      "used_in": [
+        "2026-07-23"
+      ],
+      "covered": [
+        "IT-PT-CT-classification",
+        "cortical-circuit-universality"
+      ]
+    },
+    {
+      "id": "PMID:23273272",
+      "title": "Larkum 2013 - 皮层关联的细胞机制",
+      "used_in": [
+        "2026-07-23"
+      ],
+      "covered": [
+        "layer-5-pyramidal-cell",
+        "BAC-firing"
+      ]
+    },
+    {
+      "id": "PMID:15937015",
+      "title": "Horton & Adams 2005 - 皮层柱结构无功能",
+      "used_in": [
+        "2026-07-23"
+      ],
+      "covered": [
+        "cortical-column-debate"
+      ]
+    },
+    {
+      "id": "PMID:1822724",
+      "title": "Felleman & Van Essen 1991 - 灵长类皮层层级分布",
+      "used_in": [
+        "2026-07-23"
+      ],
+      "covered": [
+        "cortical-hierarchy",
+        "feedforward-feedback-layers"
       ]
     }
   ],

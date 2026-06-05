@@ -705,3 +705,16 @@
 **修订wiki页**：perineuronal-nets rev2（PTPσ-TRKB统一机制），pv-interneurons rev4（关键期微回路详情），bdnf rev2（关键期功能）
 **图谱**：133节点，754边（+1节点，+10边）
 **新增开放问题**：Q-cp-01到Q-cp-04（人类关键期时序、语言关键期机制、SSRI转化安全性、脑区间差异决定因素）
+
+---
+
+### 2026-07-23 · 第 91 篇 · 新皮质六层算法
+
+**核心问题**：新皮质六层结构如何通过层间特异性连接实现感觉输入到认知输出的转化，并在层级间区分预测与预测误差？皮层柱是计算单元还是解剖标记？
+
+**关键发现**：规范微回路（L4→L2/3→L5）在所有哺乳类皮层保守；丘脑仅提供 L4 突触的 10–20%，皮层主要由自身循环兴奋驱动（Douglas & Martin 1991）；IT/PT/CT 三类细胞按投射目标分工（Harris & Shepherd 2015）；L5 PT 细胞 BAC 放电是层级整合的细胞级实现（Larkum 2013）；皮层柱概念需区分功能偏好柱（物种特异，可选）和规范回路柱（普遍，保守）。
+
+**新建wiki页**：neocortical-layers（circuits/）、cortical-column（circuits/）、layer-5-pyramidal-cell（neurons/）
+**修订wiki页**：barrel-cortex rev2、predictive-coding rev8、thalamocortical-circuit rev3
+**图谱**：184节点（+4），1050边（+14）
+**新增开放问题**：Q-layers-01（L6 CT 功能）、Q-column-01（微柱功能单元）、Q-L5-01（BAC 清醒条件）、Q-L5-02（BAC 与感知意识因果）

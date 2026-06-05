@@ -1,7 +1,94 @@
 {
-  "last_updated": "2026-07-22",
-  "total_articles": 90,
+  "last_updated": "2026-07-23",
+  "total_articles": 91,
   "entries": [
+    {
+      "date": "2026-07-23",
+      "title": "新皮质六层算法：同一份蓝图如何在视觉、语言和自我意识中运行",
+      "filename": "2026-07-23-neocortical-layers-columns-canonical-circuit.md",
+      "wiki_pages_created": [
+        "wiki/circuits/neocortical-layers.md",
+        "wiki/circuits/cortical-column.md",
+        "wiki/neurons/layer-5-pyramidal-cell.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/barrel-cortex.md (rev2: 新增 L4→L2/3→L5 定量突触数据和 L5B BAC 放电机制)",
+        "wiki/theories/predictive-coding.md (rev8: 新增 L5 锥体细胞单细胞层级整合器段落)",
+        "wiki/circuits/thalamocortical-circuit.md (rev3: 新增 lemniscal/POm 量化细节)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "新皮质六层结构如何通过层间特异性连接，将感觉输入转化为认知输出——并在层级间区分'预测'与'预测误差'？皮层柱究竟是真正的计算单元，还是进化中偶发的解剖标记？",
+      "layer": [
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "Track 2/3/5 桥梁（神经网络如何建成 + 感觉编码 + 认知控制的共同解剖基础）；本篇填补规范微回路、皮层柱概念、L5 PT 细胞三个关键结构节点；与 Track 8（预测编码 Bastos 2012 解剖基础）强链接",
+      "topic_tags": [
+        "neocortical layers",
+        "cortical column",
+        "canonical microcircuit",
+        "layer 4 L4",
+        "layer 2/3 L2/3",
+        "layer 5 L5",
+        "L5 pyramidal cell",
+        "PT neuron",
+        "BAC firing",
+        "apical dendrite",
+        "IT PT CT classification",
+        "barrel cortex",
+        "Feldmeyer 2012",
+        "Douglas Martin 1991",
+        "recurrent excitation",
+        "feedforward feedback",
+        "gamma beta oscillations",
+        "predictive coding anatomy",
+        "Bastos 2012",
+        "Harris Shepherd 2015",
+        "Mountcastle 1957",
+        "Horton Adams 2005",
+        "cortical column debate",
+        "canonical circuit",
+        "thalamocortical",
+        "Larkum 2013",
+        "backpropagation-activated calcium spike",
+        "coincidence detection",
+        "VPM",
+        "lemniscal pathway",
+        "intratelencephalic"
+      ],
+      "main_sources": [
+        "PMID:13439410 (Mountcastle 1957 J Neurophysiol, 皮层柱原始发现)",
+        "PMID:1666655 (Douglas & Martin 1991 J Physiol, 功能性微回路 + 循环兴奋)",
+        "PMID:31367018 (Petersen 2019 Nat Rev Neurosci, 桶状皮层综述)",
+        "PMCID:PMC3394394 (Feldmeyer 2012 Front Neuroanat, L4-L2/3-L5 定量连接)",
+        "PMID:23177956 (Bastos et al. 2012 Neuron, 规范微回路与预测编码统一)",
+        "PMID:25622573 (Harris & Shepherd 2015 Nat Neurosci, IT/PT/CT 分类框架)",
+        "PMID:23273272 (Larkum 2013 Trends Neurosci, L5 BAC 放电/皮层关联细胞机制)",
+        "PMID:15937015 (Horton & Adams 2005 Phil Trans R Soc B, 皮层柱功能批评)",
+        "PMID:1822724 (Felleman & Van Essen 1991 Cereb Cortex, 灵长类皮层层级框架)"
+      ],
+      "unresolved_questions": [
+        "Q-layers-01 (新增，高优先级：L6 CT 神经元功能)",
+        "Q-layers-02 (新增，中优先级：皮层区域六层分子差异)",
+        "Q-column-01 (新增，高优先级：微柱是否真实功能单元)",
+        "Q-L5-01 (新增，高优先级：BAC 放电在清醒行为中的精确触发条件)",
+        "Q-L5-02 (新增，高优先级：BAC 放电是否感知意识必要条件)",
+        "Q-L5-03 (新增，中优先级：L5 顶端树突长度与认知复杂度跨物种相关)"
+      ],
+      "next_suggested_topics": [
+        "前馈/反馈皮层层级（feedforward vs feedback cortical hierarchy）：V1→V2→V4→IT 层级的前馈感觉处理；高级→低级的调制型反馈；皮层层级解剖（Felleman & Van Essen 基础）的行为学验证与 fMRI 测量",
+        "皮层内抑制回路的层特异性分工：PV+ 对 L4 和 L2/3 的快速前馈抑制；SST+ Martinotti 细胞对 L5 顶端树突的精确调制（L5 BAC 放电的抑制控制）；与规范微回路整合",
+        "速度细胞与时间细胞（speed cells & time cells）：MEC 速度细胞（速度调制放电，与网格/头向系统整合）；海马时间细胞（序列时间编码，与 episodic 记忆）；Track 3/4 交汇",
+        "皮层发育：从胚胎神经元迁移到六层格式化——Fezf2/Satb2/Tbr1 转录因子如何决定 L5 PT vs IT 细胞命运；放射性单位假说（Radial Unit Hypothesis，Rakic 1988）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 91,
+      "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-23；继承自2026-07-22（第90篇，头向细胞/边界细胞）；本篇是 Track 2/3/5 桥梁，同时为预测编码（Track 8）提供关键解剖基础节点；L5 PT BAC 放电机制是今日最重要的新增概念；与已有知识的关键桥接：桶状皮层（2026-07-19）→规范回路（今日定量）；预测编码（多篇）→细胞级解剖实现（今日 L5 BAC）"
+    },
     {
       "date": "2026-07-22",
       "title": "大脑的内置罗盘：头向细胞与边界细胞如何完成空间导航的最后两块拼图",

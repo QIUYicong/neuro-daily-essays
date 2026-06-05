@@ -28,6 +28,7 @@
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 唯一常驻免疫细胞，突触可塑性的双刃卫士：发育期 CR3（C3b）+ TREM2（PtdSer）双通路剪枝；成年稳态下 CX3CR1 轴 + 低水平 TNF-α/IL-1β 支持 LTP；激活态高浓度细胞因子（TNFR1/NF-κB、p38/GluA1内吞、STAT3/Arc）系统性损伤 LTP；DAM/TREM2 在 AD 早期保护性清除过活跃突触；慢性应激→小胶质细胞预激→AD 风险放大 **[修订 rev2 2026-07-10]**
+- 🟢 [第5层厚簇型锥体细胞（PT神经元）](neurons/layer-5-pyramidal-cell.md) — 胞体在 L5/轴突皮质下，顶端树突达 L1；BAC 放电（前馈×反馈时间符合→高频爆发）；预测编码单细胞实现；皮层最重要的层级整合细胞类型 **[NEW 2026-07-23]**
 
 ## circuits（回路）
 
@@ -38,6 +39,8 @@
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
+- 🟢 [新皮质六层结构](circuits/neocortical-layers.md) — 六层层特异性分工；L4→L2/3→L5 规范通路（Feldmeyer 2012 定量）；循环兴奋（丘脑仅提供 10–20% L4 突触）；浅层γ误差/深层β预测的计算分离；主题-变奏普遍性 **[NEW 2026-07-23]**
+- 🟡 [皮层柱](circuits/cortical-column.md) — Mountcastle 1957 原始发现；功能偏好柱（物种特异）vs 规范回路柱（普遍）的概念区分；Horton & Adams 2005 批评 **[NEW 2026-07-23]**
 
 ## concepts（概念/框架）
 

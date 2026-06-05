@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-06-03
-revision_count: 2
+updated: 2026-07-23
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex, thalamus, thalamic-firing-modes, working-memory, prefrontal-cortex, neural-correlates-of-consciousness]
+related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex, thalamus, thalamic-firing-modes, working-memory, prefrontal-cortex, neural-correlates-of-consciousness, neocortical-layers, layer-5-pyramidal-cell]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-gating-mechanism, Q-matrix-vs-core-function, Q-thalamus-burst-awake]
-source_articles: [2026-06-19-sleep-spindles-nrem, 2026-06-03-thalamus-gatekeeper-cognition]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-06-03-thalamus-gatekeeper-cognition, 2026-07-23-neocortical-layers-columns-canonical-circuit]
 key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:27144033", "PMID:35803270", "PMID:29275841", "PMID:22561455", "PMID:16837581"]
 ---
 
@@ -136,8 +136,10 @@ Sherman 和 Guillery（1998, PMID: 9618549；Sherman 2024 综述, J Neurosci）�
 
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · 建立丘脑回路专页，整合TRN/TC机制和Core/Matrix通路 · 初始置信度：高
 - 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增：一次/高次视丘核区分（Sherman框架）、驱动/调制型突触对比表、PFC→TRN大型端钮解剖学证据（Zikopoulos&Barbas）、枕核门控V1（Purushothaman）、MD工作记忆放大（Parnaudeau）；related 新增 thalamus/thalamic-firing-modes/working-memory/prefrontal-cortex/neural-correlates-of-consciousness
+- 2026-07-23 · rev3 · 基于《新皮质六层算法》(#91) · 新增量化细节：特异性丘脑核（lemniscal，如 VPM）终止于 L4，但仅提供 L4 突触的 10–20%；L5B PT 细胞向 POm 等非特异性丘脑核反向投射（高释放概率巨型突触），形成"高次丘脑-皮层回路"；L6 CT 细胞的丘脑反馈功能仍大部分未知；related 新增 neocortical-layers, layer-5-pyramidal-cell
 
 ## 来源文章
 
 - [[2026-06-19-sleep-spindles-nrem]]
 - [[2026-06-03-thalamus-gatekeeper-cognition]]
+- [[2026-07-23-neocortical-layers-columns-canonical-circuit]]
