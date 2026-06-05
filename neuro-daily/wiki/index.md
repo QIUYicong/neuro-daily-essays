@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-28（第96篇·记忆再巩固）· 主题页总数：**190**（新建1页：memory-reconsolidation；修订2页：memory-consolidation rev8、engram-cells rev6；图谱196节点、1133边）
+> 最后更新：2026-07-29（第97篇·OFC价值决策）· 主题页总数：**192**（新建2页：orbitofrontal-cortex、subjective-value-encoding；修订3页：habit-formation rev3、actor-critic-model rev2、dopamine-reward-prediction-error rev9；图谱198节点、1149边）
 
 ---
 
@@ -93,9 +93,10 @@
 - 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；八层分层贝叶斯预测机器架构；五月月报整合后修订 **[修订 2026-05-31]**
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
-- 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号；演员-批评家框架中批评家信号的神经实现 **[修订 rev6 2026-07-13]**
-- 🟢 [习惯形成（目标导向 vs 习惯性行为）](concepts/habit-formation.md) — DMS（目标导向/奖励贬值敏感）vs DLS（习惯/S-R联结）双系统并行竞争；括号化（Jog 1999）；奖励贬值测试；prelimbic/infralimbic PFC分工；成瘾作为习惯系统的病理极端（**修订 rev2 2026-07-14**）**[NEW 2026-07-13]**
-- 🔵 [演员-批评家模型（基底节的强化学习架构）](concepts/actor-critic-model.md) — NAc=批评家（TD误差/DA-RPE）；背侧纹状体=演员（策略更新）；model-based演员（DMS）vs model-free演员（DLS）对应目标导向vs习惯双系统 **[NEW 2026-07-13]**
+- 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号；演员-批评家框架中批评家信号的神经实现；OFC双层学习：快速RPE驱动+慢速CaMKII元学习（Hattori 2023）**[修订 rev9 2026-07-29]**
+- 🟢 [习惯形成（目标导向 vs 习惯性行为）](concepts/habit-formation.md) — DMS（目标导向/奖励贬值敏感）vs DLS（习惯/S-R联结）双系统并行竞争；括号化（Jog 1999）；奖励贬值测试；OFC提供目标导向系统的结果当前价值（Rangel 2008）；成瘾作为习惯系统的病理极端（**修订 rev3 2026-07-29**）**[NEW 2026-07-13]**
+- 🔵 [演员-批评家模型（基底节的强化学习架构）](concepts/actor-critic-model.md) — NAc=批评家（TD误差/DA-RPE）；背侧纹状体=演员（策略更新）；OFC→NAc提供批评家的结果价值输入；OFC元学习扩展（Hattori 2023）（**修订 rev2 2026-07-29**）**[NEW 2026-07-13]**
+- 🟢 [主观价值编码](concepts/subjective-value-encoding.md) — OFC/vmPFC将多维奖励属性整合为单一可比较价值信号；三系统竞争（Pavlovian/习惯/目标导向）；dlPFC调制vmPFC实现自我控制（Hare 2009）**[NEW 2026-07-29 #97]**
 - 🟢 [ΔFosB（成瘾分子开关）](concepts/deltaFosB.md) — FosB截短剪接产物（缺失C端degron）；重复药物暴露后在NAc D1-MSN中积累（持续2-8周）；下游CDK5/树突棘↑、GluA2↑、dynorphin↓、G9a；与CREB拮抗（established, confidence:high）**[NEW 2026-07-14]**
 - 🔵 [激励显著性（Incentive Salience）](concepts/incentive-salience.md) — 多巴胺编码wanting（动机性吸引力）而非liking（快感）；成瘾中wanting被敏化而liking下降；L-DOPA实验直接分离；解释"为什么不再喜欢却仍然想要"（mainstream, confidence:medium）**[NEW 2026-07-14]**
 - 🟢 [渴望孵化（Incubation of Craving）](concepts/incubation-of-craving.md) — 戒断后渴望在6-7周达峰（非递减）；NAc沉默突触→CP-AMPA插入（钙通透）是突触基础；BLA→NAc投射特异性；光遗传LTD重沉默可恢复环境丰富化治疗效果（established, confidence:high）**[NEW 2026-07-14]**
@@ -189,6 +190,7 @@
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；慢性应激下BLA树突增生 vs 海马退缩的方向性分离（修订rev2 2026-07-09）**[NEW 2026-05-30]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
+- 🟢 [眶额叶皮层（OFC）](systems/orbitofrontal-cortex.md) — 大脑"估价系统"；三类商品价值神经元（Padoa-Schioppa 2006）；Rangel 2008 三系统框架中目标导向系统的价值输入源；OFC→NAc 投射为 actor-critic 批评家提供 V(s)；Hattori 2023 CaMKII 元学习扩展；vmPFC/dlPFC 自我控制回路（Hare 2009）**[NEW 2026-07-29 #97]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**

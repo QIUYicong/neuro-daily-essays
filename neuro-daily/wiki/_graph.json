@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-28",
+  "updated": "2026-07-29",
   "node_count": 196,
   "edge_count": 1133,
   "edge_types": [
@@ -1777,6 +1777,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/memory-reconsolidation.md"
+    },
+    {
+      "id": "orbitofrontal-cortex",
+      "title": "眶额叶皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/orbitofrontal-cortex.md"
+    },
+    {
+      "id": "subjective-value-encoding",
+      "title": "主观价值编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/subjective-value-encoding.md"
     }
   ],
   "edges": [
@@ -7921,6 +7939,86 @@
     {
       "from": "memory-reconsolidation",
       "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "subjective-value-encoding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "habit-formation",
+      "type": "regulates"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "actor-critic-model",
+      "type": "supports"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "orbitofrontal-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "actor-critic-model",
+      "type": "supports"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "interoception",
+      "type": "related"
+    },
+    {
+      "from": "habit-formation",
+      "to": "orbitofrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "actor-critic-model",
+      "to": "orbitofrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "orbitofrontal-cortex",
       "type": "related"
     }
   ],

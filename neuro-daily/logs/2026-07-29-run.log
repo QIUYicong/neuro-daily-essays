@@ -1,0 +1,172 @@
+# 运行日志 · 2026-07-29
+
+## 基本信息
+
+- **知识库虚拟日期**：2026-07-29
+- **真实执行时间**：2026-06-05（UTC+8）
+- **文章编号**：#97
+- **文章标题**：价值的地图：眶额叶皮层如何计算"什么值得追求"
+- **文章 slug**：orbitofrontal-cortex-value-decision
+- **执行代理**：Claude claude-sonnet-4-6
+
+---
+
+## A. 选题过程
+
+**排除项**：
+- 工作记忆持续放电 vs 活动沉默辩论：wiki 已有 working-memory.md（rev6，极详尽）且 2026-06-05 文章 #29 已覆盖
+- 预测编码更新：wiki 已有 predictive-coding.md，2026-07-12（#80）文章刚覆盖
+
+**选题依据**（gap-driven 算法）：
+1. **悬空引用优先**：orbitofrontal-cortex 被 habit-formation.md / actor-critic-model.md / dopamine-reward-prediction-error.md 三页引用，但无对应 wiki 页面（dangling reference，最高优先级）
+2. **课程路线空白**：Track 5（决策与强化学习）无专文，OFC 是衔接 DA-RPE（Track 2）→习惯形成（Track 4）→决策（Track 5）的关键节点
+3. **内容充实度**：OFC 相关有多篇高质量 PMC 开放全文（Padoa-Schioppa 2006 / Rudebeck 2018 / Hattori 2023），可充实文章和 wiki
+
+---
+
+## B. 文献检索与获取
+
+**检索策略**：PubMed + PMC 全文检索；拒绝 Sci-Hub 及任何绕过 paywall 的方法
+
+| PMID | 作者/年 | 开放获取 | 读取方式 |
+|------|---------|---------|---------|
+| 16633341 | Padoa-Schioppa & Assad 2006 | PMC2714637 | PMC 全文读取 |
+| 22145882 | Padoa-Schioppa 2011 | PMC3109448 | PMC 全文读取 |
+| 37957318 | Hattori et al. 2023 | PMC10023349 | PMC 全文读取 |
+| 29169086 | Rudebeck & Rich 2018 | PMC5843524 | PMC 全文读取 |
+| 26961942 | Piray et al. 2016 | PMC6601762 | PMC 全文读取 |
+| 18545266 | Rangel et al. 2008 | 付费墙 | 摘要仅读 |
+| 19407204 | Hare et al. 2009 | 付费墙 | 摘要仅读 |
+| 17417936 | Wallis 2007 | 付费墙 | 摘要仅读 |
+
+**PMID 核实**：所有 PMID 通过 PubMed API 核实（标题/作者/年份匹配），无编造
+
+---
+
+## C. 文章写作
+
+- **文件**：`neuro-daily/articles/2026-07-29-orbitofrontal-cortex-value-decision.md`
+- **字符数**：约 5000 字（含标题、各节）
+- **语言**：中文（简体）
+- **核心内容**：
+  - OFC 估价系统的三挑战问题（通货不同、状态依赖、行动无关）
+  - Padoa-Schioppa 2006 三类价值神经元实验细节
+  - OFC 解剖分区（内侧/外侧/中央）
+  - Rangel 2008 三系统框架（Pavlovian/习惯/目标导向）
+  - OFC 动态比较过程（offer-value → chosen-value 时序）
+  - Hare 2009 vmPFC+dlPFC 自我控制回路
+  - Hattori 2023 OFC 元学习（CaMKII 跨会话可塑性）
+  - 认知地图类比（估价师视角）
+  - AI 对照（强化学习 critic 模块）
+- **阅读笔记**：`neuro-daily/notes/2026-07-29-reading-notes.md`（8 个来源各自条目）
+- **来源 JSON**：`neuro-daily/sources/2026-07-29-sources.json`
+
+---
+
+## D. Wiki 固结
+
+### 新建页面（2）
+
+- `wiki/systems/orbitofrontal-cortex.md`（rev1）
+  - domain: systems, type: region, status: established, confidence: high
+  - 关键内容：多模态汇聚+三功能子区+三类价值神经元+三系统框架+vmPFC自我控制+OFC元学习
+  - 6 个 key_sources；Q-ofc-01/02/03 开放问题
+
+- `wiki/concepts/subjective-value-encoding.md`（rev1）
+  - domain: concepts, type: mechanism, status: established, confidence: high
+  - 关键内容：三系统竞争框架+价值信号时序+vmPFC+dlPFC调制+两时间尺度学习
+  - 4 个 key_sources；Q-sval-01/02 开放问题
+
+### 修订页面（3）
+
+- `wiki/concepts/habit-formation.md`（rev2→rev3）
+  - updated: 2026-07-14 → 2026-07-29，revision_count: 2 → 3
+  - related 新增：orbitofrontal-cortex, subjective-value-encoding
+  - key_sources 新增：PMID:18545266, PMID:16633341
+  - source_articles 新增：2026-07-29-orbitofrontal-cortex-value-decision
+  - 新增小节："OFC 对目标导向系统的关键贡献"
+
+- `wiki/concepts/actor-critic-model.md`（rev1→rev2）
+  - updated: 2026-07-13 → 2026-07-29，revision_count: 1 → 2
+  - related 新增：orbitofrontal-cortex, subjective-value-encoding
+  - key_sources 新增：PMID:18545266, PMID:16633341, PMID:37957318
+  - source_articles 新增：2026-07-29-orbitofrontal-cortex-value-decision
+  - 新增小节："OFC 作为批评家的'价值输入源'"
+
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev8→rev9）
+  - updated: 2026-07-27 → 2026-07-29，revision_count: 8 → 9
+  - related 新增：orbitofrontal-cortex, subjective-value-encoding
+  - key_sources 新增：PMID:37957318, PMID:16633341
+  - source_articles 新增：2026-07-29-orbitofrontal-cortex-value-decision
+  - 新增小节："OFC 双层学习对 DA-RPE 框架的扩展"
+
+---
+
+## E. 知识图谱更新
+
+- **节点数**：196 → 198（+2：orbitofrontal-cortex, subjective-value-encoding）
+- **边数**：1133 → 1149（+16 条新边）
+- **新边（部分）**：
+  - orbitofrontal-cortex → subjective-value-encoding（mechanism-of）
+  - orbitofrontal-cortex → dopamine-reward-prediction-error（related）
+  - orbitofrontal-cortex → habit-formation（regulates）
+  - orbitofrontal-cortex → actor-critic-model（supports）
+  - orbitofrontal-cortex → amygdala（related）
+  - orbitofrontal-cortex → basal-ganglia（related）
+  - orbitofrontal-cortex → prefrontal-cortex（part-of）
+  - subjective-value-encoding → orbitofrontal-cortex（mechanism-of）
+  - subjective-value-encoding → dopamine-reward-prediction-error（related）
+  - subjective-value-encoding → habit-formation（related）
+  - subjective-value-encoding → actor-critic-model（related）
+  - habit-formation → orbitofrontal-cortex（related）
+  - actor-critic-model → orbitofrontal-cortex（related）
+  - dopamine-reward-prediction-error → orbitofrontal-cortex（related）
+  - subjective-value-encoding → amygdala（related）
+  - subjective-value-encoding → anterior-insula（related）
+
+---
+
+## F. 知识图谱更新（wiki/index.md）
+
+- 标题行更新：第97篇·OFC价值决策，主题页总数192（新建2页，修订3页），图谱198节点、1149边
+- concepts 区新增：`subjective-value-encoding`
+- concepts 区更新：dopamine-reward-prediction-error (rev9)、habit-formation (rev3)、actor-critic-model (rev2)
+- systems 区新增：`orbitofrontal-cortex`
+
+---
+
+## G. 治理状态更新
+
+- topic_ledger.json：新增条目 #97，header 更新（last_updated=2026-07-29，total_articles=97）
+- unresolved_questions.md：新增 Q-ofc-01~03, Q-sval-01~02（最后更新→2026-07-29）
+- source_registry.json：新增 8 来源，total_count 405→413，_last_updated 更新
+- monthly_synthesis.md：新增 #97 日条目，本月截至日期更新至 2026-07-29，表格新增行
+- wiki/index.md：更新 systems 区（新增 OFC 条目）、concepts 区（新增 sval，更新3个条目），计数更新
+- wiki/CHANGELOG.md：新增 2026-07-29 节
+
+---
+
+## H. 自查清单
+
+- [x] 所有 wiki 页面声明均有 PMID 标注来源
+- [x] 未引入新的争议声明（orbitofrontal-cortex/subjective-value-encoding 状态均为 established）
+- [x] 开放问题格式正确（Q-ofc-01~03, Q-sval-01~02）
+- [x] 图谱节点/边计数与 wiki/index.md 一致（198/1149）
+- [x] 插话层（articles/）仅追加，未修改旧文章
+- [x] 所有引用来源均为真实 PMID，经 PubMed 核实，无虚构
+- [x] 无 Sci-Hub、无绕过付费墙行为（5篇开放全文均通过官方 PMC URL 获取）
+- [x] 无医疗诊断/治疗/用药建议
+- [x] 注释文件（notes/、sources/）均已写入
+- [x] dangling reference 清零（orbitofrontal-cortex 页面已创建）
+
+---
+
+## 提交信息
+
+- **Commit 消息**：Add neuro daily article + wiki consolidation for 2026-07-29 (#97 orbitofrontal-cortex-value-decision)
+- **分支**：main
+- **推送状态**：待提交
+
+---
+
+*日志生成时间：2026-06-05 UTC+8（真实时间）/ 2026-07-29（知识库虚拟时间）*

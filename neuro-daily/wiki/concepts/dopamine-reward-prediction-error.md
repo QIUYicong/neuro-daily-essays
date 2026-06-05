@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-07-27
-revision_count: 8
+updated: 2026-07-29
+revision_count: 9
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation, substance-use-disorder, incentive-salience, deltaFosB, myelination, oligodendrocyte]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation, substance-use-disorder, incentive-salience, deltaFosB, myelination, oligodendrocyte, orbitofrontal-cortex, subjective-value-encoding]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-14-addiction-dopamine-deltaFosB]
-key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision]
+key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:37957318", "PMID:16633341"]
 ---
 
 # 多巴胺奖励预测误差 (Dopamine Reward Prediction Error, DA-RPE)
@@ -163,6 +163,7 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 - 2026-07-13 · 修订 · 基于《行动的仲裁者》(#81) · 补充DA-RPE作为演员-批评家框架批评家信号的解剖角色；新增关联actor-critic-model, habit-formation
 - 2026-07-14 · 修订 · 基于《欲望的叛变》(#82) · 补充 DA-RPE 系统在成瘾中的 allostatic 崩溃（超生理冲击、D2 下调、wanting/liking 分离）；新增关联 substance-use-disorder、incentive-salience、deltaFosB
 - 2026-07-27 · 修订 · 基于《绝缘层的革命》(#95) · 新增 VTA 髓鞘化维度：Yalçın et al. 2024（PMID:38839962）表明 VTA 中 OL 生成（由多巴胺神经元活动驱动）是阿片类奖励的必要条件——OL 可塑性参与 DA 回路的传导时序调节，是 DA-RPE 系统的结构性基础之一；新增关联 myelination、oligodendrocyte
+- 2026-07-29 · 修订 · 基于《价值的地图》文章 #97 · 新增"OFC 双层学习对 DA-RPE 框架的扩展"小节：Hattori 2023 发现 OFC 快速学习依赖 DA-RPE，慢速元学习依赖 CaMKII 独立机制；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:37957318
 
 ## VTA 髓鞘化对多巴胺回路的结构性调节（2026-07-27 补充）
 
@@ -181,6 +182,19 @@ Yalçın et al. 2024（PMID:38839962, Nature）揭示了一个以前被完全忽
 |------|------|------|--------|
 | VTA 多巴胺活动驱动局部 OL 生成；OL 缺失损害多巴胺释放和奖励行为 | 光遗传激活 + 遗传阻断 OL 生成 | PMID:38839962 | 高 |
 
+## OFC 双层学习对 DA-RPE 框架的扩展（2026-07-29 补充）
+
+Hattori et al.（2023, PMID:37957318, PMCID:PMC10689244）发现 OFC 中存在两种学习算法并行运行：
+
+- **快速学习**（within-session）：由即时多巴胺 RPE 信号驱动，这是标准 DA-RPE 框架的范围
+- **慢速元学习**（across-session）：由 CaMKII 依赖的突触可塑性积累跨会话的"任务结构理解"，**不依赖即时 DA-RPE 信号**
+
+这说明 DA-RPE（快速算法）和 OFC-CaMKII 元学习（慢速算法）是两层不同时间尺度的学习机制，分工不同：DA-RPE 负责"此刻这个选择值多少"，OFC 慢速层负责"这类问题该如何高效学习"。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| OFC 快速学习（within-session）依赖 RPE，慢速元学习（across-session）依赖 CaMKII 可塑性 | 小鼠钙成像+光遗传+CaMKII选择性干预 | PMID:37957318（PMC10689244）| 高（仅小鼠直接证据）|
+
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
@@ -191,3 +205,4 @@ Yalçın et al. 2024（PMID:38839962, Nature）揭示了一个以前被完全忽
 - [[2026-07-13-striatum-direct-indirect-pathway-habit]]
 - [[2026-07-14-addiction-dopamine-deltaFosB]]
 - [[2026-07-27-myelination-oligodendrocyte-plasticity]]
+- [[2026-07-29-orbitofrontal-cortex-value-decision]]

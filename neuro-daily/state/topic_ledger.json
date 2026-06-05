@@ -1,7 +1,77 @@
 {
-  "last_updated": "2026-07-28",
-  "total_articles": 96,
+  "last_updated": "2026-07-29",
+  "total_articles": 97,
   "entries": [
+    {
+      "date": "2026-07-29",
+      "title": "价值的地图：眶额叶皮层如何计算'什么值得追求'",
+      "filename": "2026-07-29-orbitofrontal-cortex-value-decision.md",
+      "wiki_pages_created": [
+        "wiki/systems/orbitofrontal-cortex.md",
+        "wiki/concepts/subjective-value-encoding.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/habit-formation.md (rev2→rev3: 新增OFC对目标导向系统贡献小节；related/key_sources更新；updated→2026-07-29)",
+        "wiki/concepts/actor-critic-model.md (rev1→rev2: 新增OFC作为批评家价值输入源小节；Hattori元学习；related/key_sources更新；updated→2026-07-29)",
+        "wiki/concepts/dopamine-reward-prediction-error.md (rev8→rev9: 新增OFC双层学习扩展小节；Hattori 2023证据表；related/key_sources更新；updated→2026-07-29)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "OFC如何将多维奖励属性整合为主观价值（Padoa-Schioppa 2006 PMID:16633341，猕猴三类价值神经元）；目标导向/习惯/巴甫洛夫三系统竞争框架（Rangel 2008 PMID:18545266）；OFC损伤→目标导向退化机制；vmPFC+dlPFC自我控制回路（Hare 2009 PMID:19407204）；OFC元学习通过CaMKII积累任务结构知识（Hattori 2023 PMID:37957318）",
+      "layer": [
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "Track 5（决策与强化学习）首篇OFC专文；填补dangling reference（OFC被habit-formation/actor-critic-model/dopamine-reward-prediction-error三页引用但无wiki页面）；衔接已有BG/DA-RPE/习惯形成文章（#81/#82）的前额叶-纹状体决策闭环",
+      "topic_tags": [
+        "orbitofrontal cortex",
+        "subjective value encoding",
+        "Padoa-Schioppa 2006",
+        "goods-based encoding",
+        "offer value chosen value neurons",
+        "Rangel 2008 three system framework",
+        "goal-directed habitual pavlovian",
+        "OFC devaluation sensitivity",
+        "vmPFC dlPFC self-control",
+        "Hare 2009 dietary self-control",
+        "Hattori 2023 OFC meta-learning",
+        "CaMKII OFC plasticity",
+        "actor-critic critic value input",
+        "OFC NAc projection",
+        "subjective value decision making",
+        "reward prediction multiattribute",
+        "model-based model-free value",
+        "lateral medial OFC functional dissociation"
+      ],
+      "main_sources": [
+        "PMID:16633341 (Padoa-Schioppa & Assad 2006, Nature, OFC value neurons, PMC2714637 开放全文)",
+        "PMID:18545266 (Rangel et al. 2008, Nat Rev Neurosci, three-system framework, 摘要仅读)",
+        "PMID:22145882 (Padoa-Schioppa 2011, Neuron, goods-based encoding review, PMC3109448 开放全文)",
+        "PMID:19407204 (Hare et al. 2009, Science, vmPFC+dlPFC self-control, 摘要仅读)",
+        "PMID:37957318 (Hattori et al. 2023, Neuron, OFC meta-reinforcement learning, PMC10023349 开放全文)",
+        "PMID:17417936 (Wallis 2007, Annu Rev Neurosci, OFC anatomy review, 摘要仅读)",
+        "PMID:29169086 (Rudebeck & Rich 2018, Nat Neurosci, OFC anatomy modern, PMC5843524 开放全文)",
+        "PMID:26961942 (Piray et al. 2016, J Neurosci, vmPFC-striatum WM tract, PMC6601762 开放全文)"
+      ],
+      "unresolved_questions": [
+        "Q-ofc-01 (新增，高优先级：OFC价值编码是标量压缩还是多维向量？)",
+        "Q-ofc-02 (新增，中优先级：外侧vs内侧OFC的价值信号功能分工是否绝对？)",
+        "Q-ofc-03 (新增，低优先级：OFC元学习积累的时间尺度及CaMKII机制细节)",
+        "Q-sval-01 (新增，高优先级：主观价值的标量vs多维向量编码格式)",
+        "Q-sval-02 (新增，中优先级：主观价值编码与自我意识的关系)"
+      ],
+      "next_suggested_topics": [
+        "前额叶决策层级（PFC decision hierarchy）：dlPFC/vmPFC/ACC在决策中的角色分工；自我控制回路细节；与OFC的完整闭环",
+        "杏仁核与情绪价值（amygdala emotional value）：杏仁核如何提供情绪性价值输入（恐惧/吸引）到OFC；Pavlovian系统的神经底物；与BLA-mPFC回路连接",
+        "时间折扣（temporal discounting）：跨期选择中的延迟贬值；双曲折扣vs指数折扣神经底物；vmPFC vs striatum在时间折扣中的分工"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 97,
+      "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-29；文章填补Track 5（决策与强化学习）第一个完整OFC节点；dangling reference清零（orbitofrontal-cortex被3个wiki页面引用但无对应页面）；8个来源中6个开放全文读取，2个摘要仅读（付费墙）；无PMID编造"
+    },
     {
       "date": "2026-07-24",
       "title": "大脑的第四维罗盘：时间细胞与速度细胞如何建立时间坐标系",

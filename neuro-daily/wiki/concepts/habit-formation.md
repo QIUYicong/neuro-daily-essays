@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-13
-updated: 2026-07-14
-revision_count: 2
+updated: 2026-07-29
+revision_count: 3
 dimensions: [microcircuit, brain-region, behavior, cognition]
-related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, substance-use-disorder, deltaFosB, incentive-salience]
+related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, substance-use-disorder, deltaFosB, incentive-salience, orbitofrontal-cortex, subjective-value-encoding]
 prerequisites: [basal-ganglia, dopamine-reward-prediction-error]
 opens_questions: [Q-bg-habit-goal-split, Q-habit-01, Q-habit-02]
-source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit, 2026-07-14-addiction-dopamine-deltaFosB]
-key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376", "PMID:27475769", "PMID:21338877"]
+source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision]
+key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376", "PMID:27475769", "PMID:21338877", "PMID:18545266", "PMID:16633341"]
 ---
 
 # 习惯形成（目标导向 vs 习惯性行为）(Habit Formation: Goal-Directed vs Habitual Behavior)
@@ -109,10 +109,24 @@ Piray et al. 2016（PMID:26961942，PMC:PMC6601762，开放全文）：
 - **Q-habit-01**（新建）：习惯化的"不可逆点"——什么条件下 DLS 的 S-R 联结强到无法通过前额叶干预逆转？成瘾的不可逆性是 DLS 结构性改变还是 DMS 功能损伤？
 - **Q-habit-02**（新建）：人类习惯化测试的稳健性——多步骤决策任务（如 Daw 2011 二步任务）中 model-based/free 比例在个体间差异很大，这是特质（trait）还是状态（state）？压力、睡眠剥夺、年龄等如何系统性改变这一比例？
 
+## OFC 对目标导向系统的关键贡献
+
+（2026-07-29 新增，来自文章 #97）
+
+在 Rangel 等人（2008，PMID:18545266）的框架中，目标导向系统依赖 OFC 提供"结果的当前主观价值"。这是目标导向 vs. 习惯系统区分的分子/回路根基：
+
+- **目标导向系统**：DMS（背内侧纹状体）接收来自 OFC 的**当前结果价值**信号，计算 model-based 策略；OFC 对状态依赖的价值更新是系统灵活性的来源
+- **习惯系统**：DLS（背外侧纹状体）依赖历史的刺激-反应权重（S-R）；不实时更新 OFC 价值信号；这是贬值测试中习惯行为不随价值变化而改变的神经底层
+
+临床含义：OFC 损伤的患者之所以失去贬值敏感性（Iowa Gambling Task 中表现为持续选择高风险选项），正是因为丧失了向目标导向系统实时提供结果价值的能力——强迫其仅依赖 DLS 的历史 S-R 权重做决策。
+
+Padoa-Schioppa & Assad（2006，PMID:16633341）的直接证据：OFC 神经元在选择前延迟期精确编码商品价值（行为无关），为目标导向系统提供了神经回路层面的价值输入。
+
 ## 修订历史
 
 - 2026-07-13 · 创建 · 基于《行动的仲裁者：纹状体如何决定你该动还是不动》(#81) · 初始置信度：高（多实验室、多物种）
 - 2026-07-14 · 修订 · 基于《欲望的叛变》(#82) · 补充成瘾作为习惯系统病理极端的机制（ΔFosB/NAc 突触重塑 + 激励显著性解耦）；更新 related 字段（addiction → substance-use-disorder, deltaFosB, incentive-salience）；Q-habit-01 部分解答（成瘾不可逆性双层机制）
+- 2026-07-29 · 修订 · 基于《价值的地图》文章 #97 · 新增"OFC 对目标导向系统的关键贡献"小节：明确 OFC 是目标导向系统灵活性的神经来源（Rangel 2008 + Padoa-Schioppa 2006）；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:18545266, PMID:16633341
 
 ## 来源文章
 

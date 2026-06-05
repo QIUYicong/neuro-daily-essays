@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-29 · 文章 #97 · 价值的地图：眶额叶皮层如何计算"什么值得追求"
+
+**核心主题**：眶额叶皮层（OFC）作为大脑的"估价系统"，将多维奖励属性（大小、概率、延迟、主观偏好）整合为单一可比较的主观价值信号，是目标导向决策与奖励学习的关键节点。核心细胞证据：Padoa-Schioppa & Assad（2006，PMID:16633341）在猕猴 OFC 发现三类商品价值神经元（offer-value-A、offer-value-B、chosen-value），其编码格式是行为无关的"goods-based"（商品基础）而非"action-based"。Rangel et al.（2008，PMID:18545266）三系统框架：OFC 作为目标导向系统（DMS+OFC）的价值输入源，向腹侧纹状体（NAc）提供结果当前价值信号；OFC 损伤 → 目标导向系统退化为习惯系统（贬值不敏感）。Hattori et al.（2023，PMID:37957318）OFC 元学习：CaMKII 可塑性积累跨会话任务结构知识，使 actor-critic 批评家的 V(s) 初始化更准确。Hare et al.（2009，PMID:19407204）vmPFC+dlPFC 自我控制回路：dlPFC 调制 vmPFC 的多维价值权重，高 dlPFC 活动时认知目标权重↑。
+
+**新建页面（2）**：
+- `systems/orbitofrontal-cortex.md` rev1 — OFC：多模态汇聚（味觉/嗅觉/视觉/内脏/体感）+三功能子区（内侧OFC/外侧OFC/中央OFC）+三类价值神经元（Padoa-Schioppa 2006）+三系统框架角色（目标导向价值输入源）+vmPFC自我控制调制（Hare 2009）+OFC元学习（Hattori 2023）；Q-ofc-01~03 (established, confidence:high)
+- `concepts/subjective-value-encoding.md` rev1 — 主观价值编码：三系统竞争框架（巴甫洛夫/习惯/目标导向）+价值信号时序（offer-value → chosen-value）+vmPFC+dlPFC自我控制+两时间尺度学习（ms-s RPE / days CaMKII）；Q-sval-01~02 (established, confidence:high)
+
+**修订页面（3）**：
+- `concepts/habit-formation.md` rev2→rev3 — 新增"OFC 对目标导向系统的关键贡献"小节：OFC→DMS 价值信号是目标导向系统灵活性的来源；OFC 损伤解释临床"强制习惯"表现；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:18545266, PMID:16633341
+- `concepts/actor-critic-model.md` rev1→rev2 — 新增"OFC 作为批评家的价值输入源"小节：OFC→NAc 价值信号投射使 V(s) 实时更新；Hattori 2023 元学习扩展层；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:18545266, PMID:16633341, PMID:37957318
+- `concepts/dopamine-reward-prediction-error.md` rev8→rev9 — 新增"OFC 双层学习对 DA-RPE 框架的扩展"小节：OFC CaMKII 元学习使 V(s) 初始化不从零开始；证据表（Hattori 2023 证据）；related 新增 orbitofrontal-cortex, subjective-value-encoding
+
+**矛盾登记（0）**：今日无新增矛盾。OFC 为 actor-critic 批评家提供价值输入与现有 DA-RPE 框架完全兼容（补充而非修正）。
+
+**新增开放问题（5）**：
+- Q-ofc-01（高优先）：OFC 价值编码是真正的单一标量压缩还是多维向量保留至下游整合？
+- Q-ofc-02（中）：外侧 OFC 与内侧 OFC 的价值信号功能分工是否绝对（惩罚/奖励双轨）？
+- Q-ofc-03（低）：OFC 元学习在多长时间尺度上积累（跨会话 vs 跨数周）？CaMKII 磷酸化是否参与?
+- Q-sval-01（高优先）：价值信号是单一标量还是多维向量？
+- Q-sval-02（中）：主观价值编码与自我意识的关系——无自我意识系统能否实现"主观价值"？
+
+**图谱**：198 节点（+2：orbitofrontal-cortex, subjective-value-encoding），1149 边（+16 条新边）
+
+---
+
 ## 2026-07-28 · 文章 #96 · 记忆的活书稿：记忆再巩固现象揭示的大脑真相
 
 **核心主题**：记忆再巩固（reconsolidation）——已完全巩固的长期记忆，在每次被提取后会短暂回到蛋白质合成依赖的不稳定状态（去稳定化），需要重新合成蛋白质才能再次固化（再稳定化）。分子机制：NMDA受体激活→GluA2亚基内吞（含GluA2的AMPAR从突触膜移除）→泛素-蛋白酶体激活（支架蛋白降解）→去稳定化；新的基因转录（CREB/C/EBP/Zif268）→翻译→再稳定化，时间窗约6小时。关键计算条件：**预测误差**是必要条件（Sevenster et al. 2013 Science，人类直接证据）。临床应用：普萘洛尔（β受体阻断剂）在记忆激活后给予可削弱PTSD记忆（Debiec & LeDoux 2004；Mallet et al. 2022初步临床证据）。边界条件：强记忆、老记忆、完整提取（无预测误差）不触发再巩固，与GluN2A/GluN2B元可塑性假说相关。
