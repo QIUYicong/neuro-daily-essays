@@ -107,4 +107,5 @@
 - 修订 wiki：wiki/concepts/barrel-cortex.md, wiki/theories/predictive-coding.md
 - 状态：wiki/_graph.json, wiki/index.md, wiki/CHANGELOG.md, state/topic_ledger.json, state/unresolved_questions.md, state/source_registry.json, state/maturity_index.json, state/monthly_synthesis.md
 - Branch：main
-- Push 状态：待记录（见commit hash追加）
+- Commit hash：e1b75e9
+- Push 状态：✅ 成功推送到 origin/main
