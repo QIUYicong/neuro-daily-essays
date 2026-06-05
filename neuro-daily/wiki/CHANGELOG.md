@@ -1860,3 +1860,25 @@
 
 **图谱**：188节点，1090条边（+4节点，+16条边）
 
+
+## 2026-07-26 · 文章 #94 · 感同身受的神经密码：前岛叶皮层如何将内感受转化为共情
+
+**核心主题**：前岛叶皮层（AIC）的共情机制——内感受预测编码（EPIC 模型）、自-他共享表征、与前扣带回（ACC）的功能分工、冯·伊科诺莫神经元的演化与功能；共情的社会调节（种族偏见、专业经验、公平感）
+
+**新建页面（4）**：
+- `systems/anterior-insula.md`（前岛叶皮层）🟢 established/high — 后→前岛叶内感受梯度；AIC 是共情因果必要节点（Gu 2012 损伤研究）；EPIC 内感受预测编码；VEN 第 Vb 层；自动化任务无关响应；来源：PMID:22961548, PMID:20220007, PMID:23749500, PMID:26016744, PMID:30985277
+- `concepts/empathy.md`（共情）🟢 established/high — 情感共情（AIC/ACC）vs 认知共情（TPJ/mPFC）双解离；Singer 2004 开创性实验；Fallon 2020 元分析共享/特异网络；社会调节因素（内群效应、专业经验）；来源：PMID:14976305, PMID:22961548, PMID:32608498, PMID:23898249
+- `concepts/interoception.md`（内感受）🟢 established/high — EPIC 模型（Barrett & Simmons 2015）；内感受预测编码后→前梯度；情感体验作为内感受预测输出；与情感共情的机制关联；来源：PMID:26016744, PMID:30985277, PMID:23749500
+- `neurons/von-economo-neurons.md`（冯·伊科诺莫神经元）🟡 emerging/medium — 形态（纺锤形，~4.6× 邻近锥体细胞）；AIC+ACC 第 Vb 层；物种分布（大猿/鲸豚/大象）；bvFTD 中减少 69% 伴社会认知损失；演化约 2500 万年前；因果作用待确认
+
+**修订页面（2）**：
+- `concepts/theory-of-mind.md` rev2 — 新增 empathy、anterior-insula 连接；明确认知共情（ToM）与情感共情（AIC）的双轨关系
+- `concepts/mentalizing-network.md` rev2 — 新增 empathy、anterior-insula、interoception 连接；明确双轨社会脑框架
+
+**矛盾登记（0）**：无新矛盾；现有 7 条开放矛盾状态不变
+
+**新增开放问题**：Q-empathy-01（特质共情稳定神经基础）、Q-empathy-02（共情培训效果和 AIC 可塑性）、Q-aic-01（AIC 激活特异性：共情专属 vs 情感通用信号）、Q-ven-01（VEN 因果角色 vs 相关性标志）
+
+**新增悬空引用（需补）**：anterior-cingulate-cortex（被 AIC 页多次引用，尚无专页）、social-cognition（empathy 页引用）
+
+**图谱**：192 节点，1111 条边（+4 节点，+21 条边）

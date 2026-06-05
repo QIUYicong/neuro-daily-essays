@@ -9,11 +9,13 @@ created: 2026-07-25
 updated: 2026-07-25
 revision_count: 1
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [theory-of-mind, tpj-temporoparietal-junction, prefrontal-cortex, default-mode-network, mirror-neurons, predictive-coding, global-workspace-theory]
+related: [theory-of-mind, tpj-temporoparietal-junction, prefrontal-cortex, default-mode-network, mirror-neurons, predictive-coding, global-workspace-theory, empathy, anterior-insula, interoception]
 prerequisites: [prefrontal-cortex, action-potential, synaptic-transmission]
 opens_questions: [Q-mn-01, Q-mn-02]
-source_articles: [2026-07-25-social-brain-mirror-neurons-theory-of-mind]
+source_articles: [2026-07-25-social-brain-mirror-neurons-theory-of-mind, 2026-07-26-empathy-anterior-insula-acc]
 key_sources: ["PMID:16701204", "PMID:17714666", "PMID:24012000", "PMID:41245222", "PMID:41300206", "PMID:31572143"]
+updated: 2026-07-26
+revision_count: 2
 ---
 
 # 心智化网络 (Mentalizing Network)
@@ -85,6 +87,9 @@ key_sources: ["PMID:16701204", "PMID:17714666", "PMID:24012000", "PMID:41245222"
 - [[mirror-neurons]] — 镜像系统提供低层动作共享，心智化网络提供高层信念推断；两者间存在自上而下调控
 - [[predictive-coding]] — 心智化是预测编码的社会域扩展：不同节点在不同时间尺度预测他人状态
 - [[prefrontal-cortex]] — mPFC是心智化网络的认知控制组成部分
+- [[empathy]] — 心智化网络（认知共情）与以 AIC 为核心的情感共情网络形成功能双解离；两者在实际社交中协同工作
+- [[anterior-insula]] — AIC 负责情感共情，与心智化网络共同构成"社会脑"的双轨系统
+- [[interoception]] — AIC 的内感受功能是情感共情的机制基础，与心智化网络的推断功能互补
 
 ## 未解问题
 
@@ -94,7 +99,9 @@ key_sources: ["PMID:16701204", "PMID:17714666", "PMID:24012000", "PMID:41245222"
 ## 修订历史
 
 - 2026-07-25 · 创建 · 基于《大脑如何读懂另一颗大脑》（#93）· 整合Frith & Frith 2006/2007、Koster-Hale & Saxe 2013、Merchant 2025元分析、Sobeh & Shamay-Tsoory 2025 · 初始置信度：中（节点分布高一致，功能机制争议仍存）
+- 2026-07-26 · 修订 · 基于《感同身受的神经密码》（#94）· 新增 empathy、anterior-insula、interoception 连接；明确心智化网络（认知共情）与 AIC 网络（情感共情）的双轨关系
 
 ## 来源文章
 
 - [[2026-07-25-social-brain-mirror-neurons-theory-of-mind]]
+- [[2026-07-26-empathy-anterior-insula-acc]]

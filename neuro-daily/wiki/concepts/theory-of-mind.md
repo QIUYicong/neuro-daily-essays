@@ -9,11 +9,13 @@ created: 2026-07-25
 updated: 2026-07-25
 revision_count: 1
 dimensions: [cognition, behavior, brain-region, whole-brain-network]
-related: [mentalizing-network, tpj-temporoparietal-junction, mirror-neurons, predictive-coding, default-mode-network, autism-spectrum, prefrontal-cortex]
+related: [mentalizing-network, tpj-temporoparietal-junction, mirror-neurons, predictive-coding, default-mode-network, autism-spectrum, prefrontal-cortex, empathy, anterior-insula]
 prerequisites: [prefrontal-cortex, action-potential, synaptic-transmission]
 opens_questions: [Q-tom-01, Q-tom-02, Q-tom-03]
-source_articles: [2026-07-25-social-brain-mirror-neurons-theory-of-mind]
+source_articles: [2026-07-25-social-brain-mirror-neurons-theory-of-mind, 2026-07-26-empathy-anterior-insula-acc]
 key_sources: ["PMID:12948738", "PMID:17714666", "PMID:16513098", "PMID:34241539"]
+updated: 2026-07-26
+revision_count: 2
 ---
 
 # 心智理论 (Theory of Mind, ToM)
@@ -75,6 +77,8 @@ ToM本质上是一个**贝叶斯推断过程**：
 - [[predictive-coding]] — ToM是预测编码在社会领域的扩展：大脑持续预测他人的信念/意图
 - [[default-mode-network]] — mPFC是DMN核心节点，休息时大脑默认进行社会心智模拟
 - [[prefrontal-cortex]] — 去中心化、高阶表征维护的皮层基础
+- [[empathy]] — 情感共情（AIC/ACC 主导）是 ToM（认知共情）的互补成分；两者可双解离
+- [[anterior-insula]] — ToM 的认知推断（本页）之外，AIC 负责自动情感共情——两条不同的"理解他人"路径
 
 ## 未解问题
 
@@ -85,7 +89,9 @@ ToM本质上是一个**贝叶斯推断过程**：
 ## 修订历史
 
 - 2026-07-25 · 创建 · 基于《大脑如何读懂另一颗大脑》（#93）· 初始置信度：高（ToM的行为/发育证据坚实；神经机制仍有争议，故神经部分置信度中-高）
+- 2026-07-26 · 修订 · 基于《感同身受的神经密码》（#94）· 新增 empathy 和 anterior-insula 的相关连接，明确认知共情（ToM/本页）与情感共情（AIC/empathy 页面）的双解离关系
 
 ## 来源文章
 
 - [[2026-07-25-social-brain-mirror-neurons-theory-of-mind]]
+- [[2026-07-26-empathy-anterior-insula-acc]]

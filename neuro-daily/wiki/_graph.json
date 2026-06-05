@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "node_count": 184,
   "edge_count": 1085,
   "edge_types": [
@@ -1705,6 +1705,42 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/mentalizing-network.md"
+    },
+    {
+      "id": "anterior-insula",
+      "title": "前岛叶皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/anterior-insula.md"
+    },
+    {
+      "id": "empathy",
+      "title": "共情",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/empathy.md"
+    },
+    {
+      "id": "interoception",
+      "title": "内感受",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/interoception.md"
+    },
+    {
+      "id": "von-economo-neurons",
+      "title": "冯·伊科诺莫神经元",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/neurons/von-economo-neurons.md"
     }
   ],
   "edges": [
@@ -7635,6 +7671,111 @@
       "from": "predictive-coding",
       "to": "theory-of-mind",
       "type": "supports"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "interoception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "empathy",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "von-economo-neurons",
+      "type": "part-of"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "tpj-temporoparietal-junction",
+      "type": "related"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "theory-of-mind",
+      "type": "related"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "default-mode-network",
+      "type": "part-of"
+    },
+    {
+      "from": "empathy",
+      "to": "anterior-insula",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "empathy",
+      "to": "interoception",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "empathy",
+      "to": "theory-of-mind",
+      "type": "related"
+    },
+    {
+      "from": "empathy",
+      "to": "mentalizing-network",
+      "type": "related"
+    },
+    {
+      "from": "empathy",
+      "to": "mirror-neurons",
+      "type": "related"
+    },
+    {
+      "from": "empathy",
+      "to": "von-economo-neurons",
+      "type": "related"
+    },
+    {
+      "from": "empathy",
+      "to": "affective-empathy",
+      "type": "is-a"
+    },
+    {
+      "from": "interoception",
+      "to": "anterior-insula",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "interoception",
+      "to": "empathy",
+      "type": "supports"
+    },
+    {
+      "from": "interoception",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "interoception",
+      "to": "hpa-axis",
+      "type": "related"
+    },
+    {
+      "from": "von-economo-neurons",
+      "to": "anterior-insula",
+      "type": "part-of"
+    },
+    {
+      "from": "von-economo-neurons",
+      "to": "empathy",
+      "type": "supports"
+    },
+    {
+      "from": "von-economo-neurons",
+      "to": "pyramidal-neuron",
+      "type": "is-a"
     }
   ],
   "dangling_references": [

@@ -306,3 +306,28 @@
 - **记忆巩固（memory-consolidation）**（现在最高优先级）：被 hippocampal-circuit、place-cell、sharp-wave-ripples、engram-cells 引用；系统巩固、睡眠阶段分工、皮层侧 LTP；**第二周首要主题**。
 
 **第26篇（2026-06-16）**：**默认模式网络（DMN）——当大脑"休息"时，它在做什么？**——课程路线8（意识与自我）开篇。Raichle 2001 PET元分析发现跨任务一致性去激活区域；Fox 2005 静息态fMRI证实DMN-TPN反相关（r≈-0.15至-0.20）；Andrews-Hanna 2011/2014 揭示双子系统架构（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC作为个人相关信息超加性整合枢纽；Buckner 2009 Aβ优先沉积DMN枢纽节点的功能解剖解释；GSR方法论争议；DMN作为预测编码高层先验生成器。新建1个wiki页面（systems/default-mode-network），修订 predictive-coding、hippocampal-circuit、alzheimers-disease 三页；图谱67节点385条边；新建Q-dmn-01到Q-dmn-04。
+
+---
+
+## 2026-07-26 更新（第 94 篇）
+
+### 新建 wiki 页面
+
+**systems/**
+- `anterior-insula.md` — 前岛叶皮层 | established / high | 内感受枢纽；共情必要节点；VEN 所在地；EPIC 预测编码
+
+**concepts/**
+- `empathy.md` — 共情 | established / high | 情感共情（AIC/ACC）vs 认知共情（TPJ/mPFC）双解离；Singer 2004；Fallon 2020 元分析；社会调节（种族偏见、专业经验）
+- `interoception.md` — 内感受 | established / high | EPIC 模型；身体状态的预测编码；情感体验的生理基础
+
+**neurons/**
+- `von-economo-neurons.md` — 冯·伊科诺莫神经元 | emerging / medium | 前岛叶/ACC 第 Vb 层；大型社会性哺乳动物；bvFTD 损失 69%；因果证据待积累
+
+### 修订 wiki 页面
+
+- `concepts/theory-of-mind.md` rev2 — 新增 empathy/anterior-insula 连接，明确认知共情 vs 情感共情双解离
+- `concepts/mentalizing-network.md` rev2 — 新增三个连接（empathy/anterior-insula/interoception），完善社会脑双轨框架
+
+### 图谱状态
+- 节点：192 | 边：1111
+- 新悬空待补：anterior-cingulate-cortex 页面（被 AIC 引用）、social-cognition 页面

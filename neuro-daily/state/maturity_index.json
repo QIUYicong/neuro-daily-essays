@@ -1259,5 +1259,29 @@
     "change_reason": "创建 2026-07-24（文章 #92）。Kropff 2015（Nature，诺贝尔团队）发现速度细胞；线性速度编码和环境无关性高置信；Carvalho 2020（PMC开放）提供脑干通路的光遗传因果证据；多实验室重复。前瞻性时间偏置（~50-80ms）的精确数值有待更多验证，但整体established。人类直接证据缺失（Q-tc-02），但这不影响大鼠的established状态。",
     "revision_count": 1
   },
-  "_last_updated": "2026-07-24"
+  "_last_updated": "2026-07-24",
+  "anterior-insula": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-26",
+    "reason": "创建；AIC 在共情中的因果必要性有损伤研究支持（Gu 2012）；内感受功能有多重独立研究确认；后→前层级是神经解剖学共识"
+  },
+  "empathy": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-26",
+    "reason": "创建；情感共情的前岛叶基础有元分析级证据（Fallon 2020）；情感 vs 认知共情双解离有临床和实验支持；整体框架已成为领域共识"
+  },
+  "interoception": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-26",
+    "reason": "创建；内感受功能解剖（后→前梯度）是神经解剖学共识；Craig 层级框架被广泛接受；EPIC 模型是影响力极大的理论框架（Nat Rev Neurosci，大量实验支持）"
+  },
+  "von-economo-neurons": {
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-07-26",
+    "reason": "创建；形态和物种分布高置信度确认；bvFTD 相关证据为中等（相关性，非因果性）；VEN 在共情中的因果机制缺乏直接实验；故 status=emerging（相关性证据多，机制证据少）"
+  }
 }

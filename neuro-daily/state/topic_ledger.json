@@ -5586,6 +5586,68 @@
         "empathy-anterior-insula-ACC",
         "joint-attention-shared-intentionality"
       ]
+    },
+    {
+      "date": "2026-07-26",
+      "article_number": 94,
+      "title": "感同身受的神经密码：前岛叶皮层如何将内感受转化为共情",
+      "core_question": "前岛叶皮层（AIC）如何将感知自身身体状态的能力延伸为理解和共鸣他人情感体验的能力？它与前扣带回的功能分工是什么？内感受预测编码（EPIC 模型）如何解释共情的神经机制？",
+      "layer": [
+        "brain-region",
+        "cellular",
+        "cognition",
+        "whole-brain-network"
+      ],
+      "curriculum_track": "6. 情绪与动机——共情的神经机制；承接 2026-07-25（第93篇，镜像神经元与心智理论）；完成社会脑双轨框架：认知共情（ToM/心智化网络）+情感共情（AIC/内感受）",
+      "topic_tags": [
+        "anterior-insula",
+        "empathy",
+        "interoception",
+        "von-economo-neurons",
+        "EPIC-model",
+        "Barrett-Simmons-2015",
+        "affective-empathy",
+        "cognitive-empathy",
+        "Singer-2004",
+        "Gu-2012",
+        "pain-empathy",
+        "shared-representations",
+        "ACC-anterior-cingulate",
+        "in-group-out-group-empathy",
+        "VEN",
+        "bvFTD",
+        "interoceptive-accuracy",
+        "predictive-coding-interoception",
+        "professional-empathy-modulation",
+        "social-neuroscience"
+      ],
+      "main_sources": [
+        "PMID:14976305 (abstract only, Science 2004, Singer et al.)",
+        "PMID:22961548 (PMCID:PMC3437027, open full text, Brain 2012, Gu et al.)",
+        "PMID:20220007 (PMCID:PMC2845539, open full text, J Neurosci 2010, Gu et al.)",
+        "PMID:32608498 (PMCID:PMC7511882, open full text, SCAN 2020, Fallon et al.)",
+        "PMID:26016744 (PMCID:PMC4731102, open full text, Nat Rev Neurosci 2015, Barrett & Simmons)",
+        "PMID:23749500 (PMCID:PMC3999437, open full text, J Comp Neurol 2013, Gu et al.)",
+        "PMID:30542272 (PMCID:PMC6277791, open full text, Front Behav Neurosci 2018, Timmers et al.)",
+        "PMID:23898249 (PMCID:PMC3724165, open full text, Front Hum Neurosci 2013, Bufalari & Ionta)",
+        "PMID:30985277 (PMCID:PMC6488299, open full text, eLife 2019, Wang et al.)",
+        "PMID:24672457 (PMCID:PMC3953677, open full text, Front Hum Neurosci 2014, Cauda et al.)",
+        "PMID:19096369 (abstract only, Nat Rev Neurosci 2009, Craig)"
+      ],
+      "unresolved_questions": [
+        "Q-empathy-01",
+        "Q-empathy-02",
+        "Q-aic-01",
+        "Q-ven-01"
+      ],
+      "next_suggested_topics": [
+        "anterior-cingulate-cortex（ACC 专页）：情感动机整合、共情的行为调控；承接本文 ACC 功能分工；填补悬空引用",
+        "autism-spectrum-social-cognition：ASD 中情感共情 vs 认知共情的差异性缺损；与本文内群效应连接",
+        "compassion-empathy-distinction（同情 vs 共情的神经区别）：Singer & Klimecki 2014 慈悲培训vs情感共情培训 fMRI 比较；AIC vs mPFC 的不同激活",
+        "social-reward-striatum（社会奖励与多巴胺）：社会互动的奖励机制；与共情/公平感/信任博弈的连接"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-26；承接第93篇（社会脑/心智理论），完成情感共情双轨；新建4个wiki页；修订2个wiki页；11个来源，9个开放全文；图谱192节点，1111边"
     }
   ],
   "layer_coverage_recent": {
@@ -5610,7 +5672,8 @@
       "2026-06-11",
       "2026-06-12",
       "2026-06-18",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-07-26"
     ],
     "synaptic": [
       "2026-05-24",
@@ -5662,7 +5725,8 @@
       "2026-06-12",
       "2026-06-16",
       "2026-05-31",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-07-26"
     ],
     "disease": [
       "2026-06-08"
@@ -5677,7 +5741,11 @@
       "2026-06-12"
     ],
     "whole-brain-network": [
-      "2026-06-18"
+      "2026-06-18",
+      "2026-07-26"
+    ],
+    "brain-region": [
+      "2026-07-26"
     ]
   },
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",

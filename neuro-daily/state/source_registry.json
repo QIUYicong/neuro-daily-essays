@@ -7045,6 +7045,127 @@
         "tpj-temporoparietal-junction"
       ],
       "open_access": true
+    },
+    {
+      "pmid": "14976305",
+      "date_used": "2026-07-26",
+      "full_text": false,
+      "coverage": [
+        "empathy-for-pain",
+        "anterior-insula",
+        "shared-representation-pain"
+      ]
+    },
+    {
+      "pmid": "22961548",
+      "pmcid": "PMC3437027",
+      "date_used": "2026-07-26",
+      "full_text": true,
+      "coverage": [
+        "anterior-insula",
+        "empathy",
+        "lesion-study",
+        "causal-evidence"
+      ]
+    },
+    {
+      "pmid": "20220007",
+      "pmcid": "PMC2845539",
+      "date_used": "2026-07-26",
+      "full_text": true,
+      "coverage": [
+        "anterior-insula",
+        "ACC",
+        "functional-dissociation"
+      ]
+    },
+    {
+      "pmid": "32608498",
+      "pmcid": "PMC7511882",
+      "date_used": "2026-07-26",
+      "full_text": true,
+      "coverage": [
+        "empathy",
+        "pain-networks",
+        "meta-analysis"
+      ]
+    },
+    {
+      "pmid": "26016744",
+      "pmcid": "PMC4731102",
+      "date_used": "2026-07-26",
+      "full_text": true,
+      "coverage": [
+        "interoception",
+        "EPIC-model",
+        "predictive-coding",
+        "anterior-insula"
+      ]
+    },
+    {
+      "pmid": "23749500",
+      "pmcid": "PMC3999437",
+      "date_used": "2026-07-26",
+      "full_text": true,
+      "coverage": [
+        "anterior-insula",
+        "von-economo-neurons",
+        "emotional-awareness"
+      ]
+    },
+    {
+      "pmid": "30542272",
+      "pmcid": "PMC6277791",
+      "date_used": "2026-07-26",
+      "full_text": true,
+      "coverage": [
+        "empathy-for-pain-specificity",
+        "mid-insula",
+        "MCC"
+      ]
+    },
+    {
+      "pmid": "23898249",
+      "pmcid": "PMC3724165",
+      "date_used": "2026-07-26",
+      "full_text": true,
+      "coverage": [
+        "empathy-modulation",
+        "in-group-out-group",
+        "racial-bias"
+      ]
+    },
+    {
+      "pmid": "30985277",
+      "pmcid": "PMC6488299",
+      "date_used": "2026-07-26",
+      "full_text": true,
+      "coverage": [
+        "anterior-insula",
+        "interoceptive-attention",
+        "lesion-study"
+      ]
+    },
+    {
+      "pmid": "24672457",
+      "pmcid": "PMC3953677",
+      "date_used": "2026-07-26",
+      "full_text": true,
+      "coverage": [
+        "von-economo-neurons",
+        "evolution",
+        "bvFTD"
+      ]
+    },
+    {
+      "pmid": "19096369",
+      "date_used": "2026-07-26",
+      "full_text": false,
+      "coverage": [
+        "anterior-insula",
+        "interoception-hierarchy",
+        "awareness"
+      ]
     }
   ],
   "total_sources": 386,
