@@ -6847,6 +6847,97 @@
         "STS-ATL connection",
         "language evolution phylogenetics"
       ]
+    },
+    {
+      "pmid": "1666655",
+      "title": "A functional microcircuit for cat visual cortex",
+      "authors": "Douglas RJ, Martin KAC",
+      "journal": "J Physiol",
+      "year": 1991,
+      "open_access": true,
+      "pmcid": "PMC1180177",
+      "used_in": [
+        "2026-07-23-cortical-layers-canonical-microcircuit.md"
+      ],
+      "covers": "规范微回路（canonical microcircuit）原始提出；三群体模型；丘脑输入仅~10%；相互兴奋放大机制"
+    },
+    {
+      "pmid": "23177956",
+      "title": "Canonical microcircuits for predictive coding",
+      "authors": "Bastos AM et al.",
+      "journal": "Neuron",
+      "year": 2012,
+      "open_access": true,
+      "pmcid": "PMC3777738",
+      "used_in": [
+        "2026-07-23-cortical-layers-canonical-microcircuit.md"
+      ],
+      "covers": "规范微回路与预测编码整合；L2/3=误差/γ；L5/6=预测/α-β；解剖-振荡-计算三层统一"
+    },
+    {
+      "pmid": "22798946",
+      "title": "Excitatory neuronal connectivity in the barrel cortex",
+      "authors": "Feldmeyer D",
+      "journal": "Front Neuroanat",
+      "year": 2012,
+      "open_access": true,
+      "pmcid": "PMC3394394",
+      "used_in": [
+        "2026-07-23-cortical-layers-canonical-microcircuit.md"
+      ],
+      "covers": "桶状皮层各层连接定量综述；L4内连接率25-36%；L4→L2/3 EPSP 0.7mV；L5B巨型突触；L6A皮层-丘脑反馈"
+    },
+    {
+      "pmid": "11826166",
+      "title": "Synaptic connections between layer 4 spiny neurone-layer 2/3 pyramidal cell pairs in juvenile rat barrel cortex",
+      "authors": "Feldmeyer D, Lübke J, Silver RA, Sakmann B",
+      "journal": "J Physiol",
+      "year": 2002,
+      "open_access": true,
+      "pmcid": "PMC2290091",
+      "used_in": [
+        "2026-07-23-cortical-layers-canonical-microcircuit.md"
+      ],
+      "covers": "L4→L2/3突触精确定量；45-50个细胞同时激活才能驱动L2/3动作电位；EPSP 0.7mV；NMDAR/AMPAR比值0.50"
+    },
+    {
+      "pmid": "23983048",
+      "title": "Anatomy of hierarchy: Feedforward and feedback pathways in macaque visual cortex",
+      "authors": "Markov NT et al.",
+      "journal": "J Comp Neurol",
+      "year": 2014,
+      "open_access": true,
+      "pmcid": "PMC4255240",
+      "used_in": [
+        "2026-07-23-cortical-layers-canonical-microcircuit.md"
+      ],
+      "covers": "337条连接SLN定量；反馈2:1前馈；V1反馈轴突终末区域12倍前馈；定量层级建模"
+    },
+    {
+      "pmid": "1822724",
+      "title": "Distributed hierarchical processing in the primate cerebral cortex",
+      "authors": "Felleman DJ, Van Essen DC",
+      "journal": "Cereb Cortex",
+      "year": 1991,
+      "open_access": false,
+      "pmcid": null,
+      "used_in": [
+        "2026-07-23-cortical-layers-canonical-microcircuit.md"
+      ],
+      "covers": "305条灵长类视觉连接分析；FF→L4终止，FB→L1/6终止；10级皮层层级框架（未读全文）"
+    },
+    {
+      "pmid": "21647397",
+      "title": "The microcircuit concept applied to cortical evolution: from three-layer to six-layer cortex",
+      "authors": "Shepherd GM",
+      "journal": "Front Neuroanat",
+      "year": 2011,
+      "open_access": true,
+      "pmcid": "PMC3102215",
+      "used_in": [
+        "2026-07-23-cortical-layers-canonical-microcircuit.md"
+      ],
+      "covers": "六层皮层从三层旧皮层（嗅皮层/海马）进化框架；规范回路保守性；三种基本操作（FI/RE/FBI）"
     }
   ],
   "total_sources": 368,
@@ -8272,5 +8363,6 @@
     "29317216",
     "36084305",
     "40330322"
-  ]
+  ],
+  "_last_updated": "2026-07-23"
 }

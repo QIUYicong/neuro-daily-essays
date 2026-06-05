@@ -1,7 +1,79 @@
 {
-  "last_updated": "2026-07-22",
-  "total_articles": 90,
+  "last_updated": "2026-07-23",
+  "total_articles": 91,
   "entries": [
+    {
+      "date": "2026-07-23",
+      "title": "皮层六层架构：大脑用六层细胞片实现感知与预测的解剖分工",
+      "filename": "2026-07-23-cortical-layers-canonical-microcircuit.md",
+      "wiki_pages_created": [
+        "wiki/concepts/cortical-layers.md",
+        "wiki/concepts/canonical-microcircuit.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/barrel-cortex.md (rev2: 新增 cortical-layers 和 canonical-microcircuit 为关联节点)",
+        "wiki/theories/predictive-coding.md (rev8: 新增规范微回路是预测编码解剖底层；canonical-microcircuit 和 cortical-layers 加入 related)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "皮层六层结构如何在解剖上将'自下而上感觉输入'（L4→L2/3→L5）与'自上而下预测调制'（L5/6→L1/6反馈）精确分离？Douglas-Martin规范微回路（1991）如何将三群体（浅层锥体/深层锥体/抑制中间神经元）的相互兴奋确立为皮层主放大机制，而丘脑输入仅为触发器？Bastos等（2012）如何将解剖、振荡和预测编码计算整合为统一框架？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region"
+      ],
+      "curriculum_track": "综合篇：皮层六层结构是 Track 3（感觉编码）/ Track 5（认知控制）/ Track 8（预测处理）所有内容的解剖底层；桶状皮层（已有 wiki）的深化；预测编码（已有 wiki rev8）的解剖实现；层级：细胞/微回路/脑区",
+      "topic_tags": [
+        "cortical layers L1-L6",
+        "canonical microcircuit",
+        "Douglas Martin 1991",
+        "barrel cortex",
+        "Feldmeyer 2012",
+        "Feldmeyer Sakmann 2002",
+        "Felleman Van Essen 1991",
+        "Markov 2014",
+        "Bastos 2012",
+        "feedforward feedback",
+        "supragranular infragranular",
+        "layer 4 input",
+        "layer 2/3 prediction error",
+        "layer 5 output",
+        "layer 6 corticothalamic",
+        "gamma oscillations feedforward",
+        "alpha beta feedback",
+        "recurrent excitation",
+        "spiny stellate cells",
+        "predictive coding anatomy",
+        "SLN supragranular labeled neurons",
+        "agranular cortex",
+        "cortical column Mountcastle",
+        "VPM thalamus",
+        "feedforward inhibition"
+      ],
+      "main_sources": [
+        "PMID:1666655 (Douglas & Martin 1991, J Physiol, canonical microcircuit)",
+        "PMID:23177956 (Bastos et al. 2012, Neuron, canonical microcircuits for predictive coding, PMC3777738 开放全文)",
+        "PMID:22798946 (Feldmeyer 2012, Front Neuroanat, excitatory connectivity in barrel cortex, PMC3394394 开放全文)",
+        "PMID:11826166 (Feldmeyer et al. 2002, J Physiol, L4→L2/3 synaptic connections, PMC2290091 开放全文)",
+        "PMID:23983048 (Markov et al. 2014, J Comp Neurol, feedforward/feedback anatomy, PMC4255240 开放全文)",
+        "PMID:1822724 (Felleman & Van Essen 1991, Cereb Cortex, distributed hierarchical processing, 未读全文)",
+        "PMID:21647397 (Shepherd 2011, Front Neuroanat, three-to-six layer cortex evolution, PMC3102215 开放全文)"
+      ],
+      "unresolved_questions": [
+        "Q-cl-01 (新增，高优先级：agranular皮层规范微回路如何修订？无明显L4的额叶/运动皮层的FF/FB法则如何适配？)",
+        "Q-cl-02 (新增，高优先级：γ-FF/α-β-FB振荡分工在啮齿类和非视觉脑区的普适性，Westerberg 2024挑战待解析)",
+        "Q-cl-03 (新增，中优先级：中间通路（同时终止于L4和L1/L6）的例外如何整合进统一框架？)"
+      ],
+      "next_suggested_topics": [
+        "速度细胞与时间细胞（speed cells & time cells）：完成空间/时间导航编码套件；海马时序记忆（time cells）与 Track 3/4 交汇；与网格细胞速度输入的联结",
+        "前馈/反馈皮层层级详解（feedforward vs feedback cortical hierarchy in visual system）：V1→V2→V4→IT 的定量层级（Markov 2014已引用作为来源）；反馈的解剖特异性与跨物种比较；填补图谱中的 feedforward-hierarchy 节点",
+        "工作记忆在感觉皮层（WM in sensory cortex）：Track 3/5 交汇；感觉皮层是否参与短时记忆维持（Romo 1999, de Vries 2023）；与 PFC 延迟放电的竞争假说",
+        "皮层突触类型：驱动型 vs 调制型（driver vs modulator synapses）：Sherman 框架；L4 接受 driving，L1/5/6 接受 modulating；丘脑一次核（specific）vs 高次核（nonspecific）的解剖分工；完成今日皮层层级文章的分子层补充"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 91,
+      "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-23；继承自2026-07-22（第90篇，头向细胞/边界细胞）；本篇完成皮层六层结构的独立主题页，为之前大量已覆盖主题（barrel-cortex, predictive-coding, orientation-selectivity, alpha/gamma-oscillations, thalamocortical-circuit）提供了共同的解剖底层框架；关键跨领域桥梁：六层架构↔预测编码（Bastos 2012）↔振荡频段分工（γ/α-β）↔注意力（精度加权的层间实现）"
+    },
     {
       "date": "2026-07-22",
       "title": "大脑的内置罗盘：头向细胞与边界细胞如何完成空间导航的最后两块拼图",

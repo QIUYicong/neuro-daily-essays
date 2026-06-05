@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-22",
-  "node_count": 177,
-  "edge_count": 1018,
+  "updated": "2026-07-23",
+  "node_count": 182,
+  "edge_count": 1058,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,24 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "cortical-layers",
+      "title": "皮层六层架构",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-layers.md"
+    },
+    {
+      "id": "canonical-microcircuit",
+      "title": "规范微回路（Douglas-Martin 1991）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/canonical-microcircuit.md"
+    },
     {
       "id": "habit-formation",
       "title": "习惯形成（目标导向 vs 习惯性行为）",
@@ -7277,6 +7295,116 @@
       "from": "path-integration",
       "to": "border-cells",
       "type": "related"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "canonical-microcircuit",
+      "type": "related"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "thalamus",
+      "type": "related"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "alpha-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "somatosensory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "thalamocortical-circuit",
+      "type": "related"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "cortical-layers",
+      "type": "part-of"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "barrel-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "canonical-microcircuit",
+      "type": "supports"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "canonical-microcircuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "cortical-layers",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "cortical-layers",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "cortical-layers",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "orientation-selectivity",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "thalamus",
+      "to": "cortical-layers",
+      "type": "regulates"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "canonical-microcircuit",
+      "type": "part-of"
     }
   ],
   "dangling_references": [

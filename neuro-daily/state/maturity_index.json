@@ -1182,5 +1182,34 @@
     "source_articles": [
       "2026-07-21-alpha-oscillations-attentional-gating"
     ]
-  }
+  },
+  "cortical-layers": {
+    "status": "established",
+    "confidence": "high",
+    "last_change": "2026-07-23",
+    "change_reason": "创建：六层皮层结构是多物种、多实验室高度验证的教科书级解剖事实；FF/FB层间法则已被超过300条连接的定量数据支持（Felleman & Van Essen 1991；Markov 2014）",
+    "revision_count": 1
+  },
+  "canonical-microcircuit": {
+    "status": "established",
+    "confidence": "high",
+    "last_change": "2026-07-23",
+    "change_reason": "创建：Douglas-Martin 1991 规范微回路经超过30年多物种（猫/大鼠/小鼠/灵长类）独立重复验证；丘脑输入仅10-20%的量化结果是高度可重复的解剖事实；振荡分工的计算解释（Bastos 2012）仍有争议，但规范回路本身已 established",
+    "revision_count": 1
+  },
+  "barrel-cortex": {
+    "status": "established",
+    "confidence": "high",
+    "last_change": "2026-07-23",
+    "change_reason": "rev2: 角色扩展为六层规范微回路的最精确量化验证模型系统；status/confidence 不变",
+    "revision_count": 2
+  },
+  "predictive-coding": {
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_change": "2026-07-23",
+    "change_reason": "rev8: 解剖底层（canonical-microcircuit）加入 related；框架完整性提升；但振荡分工的普适性争议（Q-pc-05/Q-cl-02）维持 medium confidence",
+    "revision_count": 8
+  },
+  "_last_updated": "2026-07-23"
 }

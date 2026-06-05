@@ -6,13 +6,13 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-07-20
-revision_count: 7
+updated: 2026-07-23
+revision_count: 8
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration, canonical-microcircuit, cortical-layers]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference, 2026-07-23-cortical-layers-canonical-microcircuit]
 key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:40532027", "PMID:32576965"]
 ---
 
@@ -116,6 +116,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[global-workspace-theory]] — GWT 与预测编码互补：足够大的预测误差（无法被局部层级消解）可能是触发全局工作空间点燃的候选机制；意识 = 大脑在无法预测时召唤全局计算资源
 - [[language-network]] — 语言理解是预测编码在词汇层面的实例化：额叶（Broca区）在词出现前200ms生成语义-感觉运动预测，颞叶返回预测误差，构成词级预测-更新循环（Grisoni 2024, PMC10957213）
 - [[ventral-language-stream]] — 腹侧语言流的具身语义预测（工具词→运动皮层预激活；动物词→视觉皮层预激活）是预测编码具身性的直接神经证据
+- [[canonical-microcircuit]] — 规范微回路（Douglas-Martin 1991）是预测编码框架的解剖底层：三群体（浅层锥体=误差/γ，深层锥体=预测/α-β）由 Bastos 2012 与预测编码整合
+- [[cortical-layers]] — 六层架构提供了前馈（L2/3→L4，γ）/反馈（L5/6→L1/6，α-β）的物理分离
 
 ## 未解问题
 
@@ -136,6 +138,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
 - 2026-07-12 · 修订 · 基于《世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架》(#80) · 新增听觉皮层 PEONs 直接证据（Yaron 2025, PMID:40532027）——13% 神经元响应省略音调，响应随概率升高；新增精度加权多巴胺证据（Haarsma 2020, PMID:32576965）——舒必利破坏精度加权，FEP 患者无精度加权；新增 LHb 负 RPE 作为奖励域省略响应的显式说明；新增 Q-pc-06（PEONs 自然感知功能）；related 新增 lateral-habenula；置信度维持 medium（Hodson 2024 综述提醒经验证据有限）
 - 2026-07-20 · 修订 · 基于《感官交响曲》文章（#88）· 多感觉整合的贝叶斯因果推断是预测编码框架在多模态输入层面的具体实现；related 新增 multisensory-integration, bayesian-sensory-integration
+- 2026-07-23 · 修订 · 基于《皮层六层架构》文章（#91）· 新增"规范微回路是预测编码的解剖底层"（Bastos 2012 整合框架已有记录，本次明确加入 canonical-microcircuit 和 cortical-layers 到 related 列表并在连接节中增加对应条目）
 
 ## 来源文章
 

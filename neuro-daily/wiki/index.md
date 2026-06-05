@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-22（第90篇·大脑的内置罗盘·头向细胞/边界细胞/环形吸引子/空间导航四元组完成）· 主题页总数：**179**（新建3页：head-direction-cells, border-cells, ring-attractor；修订1页：path-integration rev2；图谱180节点、1036边；新增Q-hd-01/02, Q-bc-01）
+> 最后更新：2026-07-23（第91篇·皮层六层架构·规范微回路/FF-FB层间法则/Bastos 2012预测编码整合）· 主题页总数：**181**（新建2页：cortical-layers, canonical-microcircuit；修订2页：barrel-cortex rev2, predictive-coding rev8；图谱182节点、1058边；新增Q-cl-01/02/03）
 
 ---
 
@@ -41,6 +41,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [皮层六层架构](concepts/cortical-layers.md) — L4 接收丘脑（仅10-20%突触）；相互兴奋放大10倍；L2/3 高阈值门控（45-50个细胞）→ 群体活动检测；L5 双通道输出；L6 丘脑反馈；FF/FB 层间法则（Felleman & Van Essen 1991）；γ-FF / α-β-FB 振荡分工 **[NEW 2026-07-23 #91]**
+- 🟢 [规范微回路（Douglas-Martin 1991）](concepts/canonical-microcircuit.md) — 三群体（浅层锥体/深层锥体/抑制中间神经元）跨脑区通用计算模板；丘脑输入是触发器，相互兴奋是主放大器；状态依赖增益控制；Bastos 2012 整合预测编码框架 **[NEW 2026-07-23 #91]**
 - 🟢 [发育关键期](concepts/critical-period.md) — GABA 阈值触发开启；三道刹车（PNN/OTX2/Lynx1）主动关闭；ChABC/氟西汀/催产素可重开；MeCP2 KO 使 Rett 综合征关键期错位；弱视与语言习得的发育窗口 **[NEW 2026-06-03]**
 - 🟢 [突触剪枝](concepts/synaptic-pruning.md) — 先多建再精删策略；C1q/C3b"吃我"+CD47"别吃我"双向博弈；活动依赖（TTX实验）；dLGN/海马/前额叶分窗口；精神分裂症（C4A过度剪枝）与AD（C1q重激活）疾病连接 **[NEW 2026-06-03]**
 - 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异 **[NEW 2026-06-03]**

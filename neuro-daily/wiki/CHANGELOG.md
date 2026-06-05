@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-23 · 文章 #91 · 皮层六层架构：大脑用六层细胞片实现感知与预测的解剖分工
+
+**核心主题**：皮层六层结构（L1–L6）是哺乳动物新皮层的高度保守计算架构——L4 接收丘脑前馈输入（但丘脑输入仅占 L4 突触 10–20%，相互兴奋放大约 10 倍）；L2/3 以高阈值门控（需45–50个 L4 细胞同时激活）实现群体活动检测，发出前馈 γ 振荡；L5/6 发出反馈 α/β 振荡到低级区域 L1/6；L1 接收来自高级区域的远程反馈作用于顶端树突。Douglas & Martin（1991，PMID:1666655）规范微回路（三群体：浅层锥体/深层锥体/抑制中间神经元）是跨脑区通用模板；Felleman & Van Essen（1991，PMID:1822724）确立前馈（浅层→L4）/ 反馈（深层→L1/6）层间法则；Markov 等（2014，PMID:23983048）定量证明反馈连接数量约是前馈的2:1；Bastos 等（2012，PMID:23177956）将规范微回路与预测编码整合：L2/3=误差单元/γ，L5/6=预测单元/α-β。
+
+**新建页面（2）**：
+- `concepts/cortical-layers.md` rev1 — 皮层六层架构：L1–L6 功能分工；丘脑输入仅10-20%；L4内连接率25-36%；L4→L2/3高阈值门控（45-50个细胞）；FF/FB层间法则；γ-FF/α-β-FB振荡分工（established, confidence:high）
+- `concepts/canonical-microcircuit.md` rev1 — 规范微回路（Douglas-Martin 1991）：三群体模型；相互兴奋放大10倍丘脑输入；状态依赖计算；Bastos 2012整合为预测编码解剖底层（established, confidence:high）
+
+**修订页面（2）**：
+- `concepts/barrel-cortex.md` rev2 — 新增 cortical-layers 和 canonical-microcircuit 为关联节点；桶状皮层作为六层回路定量验证最清晰模型系统的角色明确；related 列表更新；updated→2026-07-23
+- `theories/predictive-coding.md` rev8 — 新增 canonical-microcircuit 和 cortical-layers 到 related 和连接节；明确规范微回路是预测编码的解剖底层（Bastos 2012）；source_articles 加入 2026-07-23 文章；updated→2026-07-23
+
+**矛盾登记（0）**：今日无新增矛盾。皮层六层架构和规范微回路是多物种、多实验室高度验证的 established 结论；FF/FB 振荡分工在啮齿类的普适性争议已记录为 Q-cl-02，与 predictive-coding.md 中 Q-pc-05 联动。
+
+**解决的悬空引用（0）**：无（cortical-layers 和 canonical-microcircuit 为今日新增，之前未被显式引用；barrel-cortex 现增加对它们的引用）
+
+**新增开放问题（3）**：Q-cl-01（高优先：agranular 皮层规范微回路如何修订）、Q-cl-02（高优先：振荡分工普适性争议）、Q-cl-03（中：中间通路例外的整合）
+
+**图谱**：182 节点（+2），1058 边（+22）
+
+---
+
 ## 2026-07-22 · 文章 #90 · 大脑的内置罗盘：头向细胞与边界细胞完成空间导航四元组
 
 **核心主题**：头向细胞（Head Direction Cells）与边界细胞（Border Cells/BVCs）——大脑 GPS 系统的方向编码器和边界传感器，完成空间导航四元组（场所细胞/网格细胞/头向细胞/边界细胞）。头向细胞回路（DTN→LMN→ADN→PoS→RSC→MEC深层）以环形吸引子机制由前庭系统驱动，由视觉地标锚定；Peyrache 2015（PMID:25706474）证明 ADN 群体相干旋转说明吸引子内在动力学。边界细胞（Solstad 2008 MEC；Lever 2009 下托）是 O'Keefe & Burgess 1996 BVC 理论的实验验证，拉伸实验证明边界特异性；计算模型提示边界细胞通过重置网格吸引子校正路径整合漂移。
