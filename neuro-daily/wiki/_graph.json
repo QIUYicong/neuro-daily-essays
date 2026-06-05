@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-26",
+  "updated": "2026-07-27",
   "node_count": 184,
   "edge_count": 1085,
   "edge_types": [
@@ -1741,6 +1741,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/neurons/von-economo-neurons.md"
+    },
+    {
+      "id": "oligodendrocyte",
+      "title": "少突胶质细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/oligodendrocyte.md"
+    },
+    {
+      "id": "myelination",
+      "title": "髓鞘化与髓鞘可塑性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/myelination.md"
+    },
+    {
+      "id": "saltatory-conduction",
+      "title": "跳跃式传导",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/myelination.md"
     }
   ],
   "edges": [
@@ -7776,6 +7803,61 @@
       "from": "von-economo-neurons",
       "to": "pyramidal-neuron",
       "type": "is-a"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "myelination",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "myelination",
+      "to": "action-potential",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "myelination",
+      "to": "saltatory-conduction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "action-potential",
+      "type": "regulates"
+    },
+    {
+      "from": "myelination",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "myelination",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "myelination",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "axon-initial-segment",
+      "type": "related"
+    },
+    {
+      "from": "myelination",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "astrocyte",
+      "type": "related"
+    },
+    {
+      "from": "saltatory-conduction",
+      "to": "action-potential",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

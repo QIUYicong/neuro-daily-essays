@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-07-14
-revision_count: 7
+updated: 2026-07-27
+revision_count: 8
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation, substance-use-disorder, incentive-salience, deltaFosB]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation, substance-use-disorder, incentive-salience, deltaFosB, myelination, oligodendrocyte]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
 source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-14-addiction-dopamine-deltaFosB]
@@ -162,6 +162,24 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 - 2026-07-12 · 修订 · 补充DA-RPE在更广义预测编码框架中的定位
 - 2026-07-13 · 修订 · 基于《行动的仲裁者》(#81) · 补充DA-RPE作为演员-批评家框架批评家信号的解剖角色；新增关联actor-critic-model, habit-formation
 - 2026-07-14 · 修订 · 基于《欲望的叛变》(#82) · 补充 DA-RPE 系统在成瘾中的 allostatic 崩溃（超生理冲击、D2 下调、wanting/liking 分离）；新增关联 substance-use-disorder、incentive-salience、deltaFosB
+- 2026-07-27 · 修订 · 基于《绝缘层的革命》(#95) · 新增 VTA 髓鞘化维度：Yalçın et al. 2024（PMID:38839962）表明 VTA 中 OL 生成（由多巴胺神经元活动驱动）是阿片类奖励的必要条件——OL 可塑性参与 DA 回路的传导时序调节，是 DA-RPE 系统的结构性基础之一；新增关联 myelination、oligodendrocyte
+
+## VTA 髓鞘化对多巴胺回路的结构性调节（2026-07-27 补充）
+
+Yalçın et al. 2024（PMID:38839962, Nature）揭示了一个以前被完全忽视的机制：
+
+**多巴胺神经元活动 → VTA 局部 OL 生成 → 调节多巴胺释放动力学**
+
+具体证据：
+- 光遗传激活 VTA 多巴胺神经元 → 局部 OPC 增殖和 OL 分化增加
+- 遗传阻断 VTA 中 OL 生成 → NAc 多巴胺释放减弱
+- 同样阻断 → 小鼠对吗啡的条件性位置偏好（奖励行为）受损
+
+**意义**：DA-RPE 信号的质量不只取决于突触权重（D1/D2-MSN 的学习历史），也取决于多巴胺神经元轴突的**传导时序**——而后者被 OL 可塑性动态调节。这是首次在奖励回路中建立 OL 可塑性的因果必要性，将白质可塑性纳入 DA-RPE 的分析框架。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| VTA 多巴胺活动驱动局部 OL 生成；OL 缺失损害多巴胺释放和奖励行为 | 光遗传激活 + 遗传阻断 OL 生成 | PMID:38839962 | 高 |
 
 ## 来源文章
 
@@ -172,3 +190,4 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 - [[2026-07-12-predictive-coding-cortical-inference]]
 - [[2026-07-13-striatum-direct-indirect-pathway-habit]]
 - [[2026-07-14-addiction-dopamine-deltaFosB]]
+- [[2026-07-27-myelination-oligodendrocyte-plasticity]]

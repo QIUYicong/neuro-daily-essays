@@ -1,0 +1,102 @@
+# 运行日志：2026-07-27（第 95 篇）
+
+## 基本信息
+
+- **执行时间**：2026-06-06（UTC+8 真实日期）/ 2026-07-27（知识库虚拟日期）
+- **分支**：main（直接推送）
+- **文章编号**：第 95 篇
+- **主题**：绝缘层的革命：少突胶质细胞如何重塑大脑的时间地图
+
+## 选题理由
+
+1. **层级平衡**：近 4 篇文章均在认知/社会脑层（social brain, empathy, theory of mind, anterior insula），需切换至分子/细胞层
+2. **知识库空白**：检索 wiki/ 目录确认 myelin / oligodendrocyte 完全没有独立页面，是 Track 2（神经网络如何建成）的重大空白
+3. **富含开放全文**：找到多篇 PMC 开放全文综述
+4. **高影响力新发现**：Yalçın et al. 2024（Nature）VTA 髓鞘化与奖励机制，值得固结进 DA-RPE wiki
+
+## 搜索词（7 组）
+
+1. `myelination oligodendrocyte review CNS function (PubMed, 2019-2024)`
+2. `activity dependent myelination plasticity learning review (PubMed, 2018-2024)`
+3. `oligodendrocyte myelin axon saltatory conduction node Ranvier review (PubMed, 2019-2024)`
+4. `Monje[author] myelination (PubMed, 2018-2024)`
+5. `neuronal activity promotes myelination optogenetic 2014 (PubMed)`
+6. `oligodendrogenesis myelination cortical development plasticity circuit (PMC open access)`
+7. `myelin plasticity activity dependent oligodendrocyte learning memory (PMC, 2018-2024)`
+
+## 数据源
+
+- PubMed NCBI E-utilities — 检索与摘要获取
+- PubMed Central (PMC) — 开放全文（PMC10364045, PMC10859969）
+- NCBI elink — PMID→PMCID 映射
+
+## 候选来源统计
+
+- 初始候选：约 30 篇（各搜索词返回结果）
+- 深度阅读：7 篇（2 开放全文，5 摘要）
+- 最终采用：7 篇
+
+## 来源质量评估
+
+| 来源 | 类型 | 影响力 | 使用方式 |
+|------|------|--------|---------|
+| Gibson et al. 2014, Science (PMID:24727982) | 原始研究 | 极高（Science）| 核心因果实验；未获全文，基于摘要和综述引用 |
+| Bonetto et al. 2021, Science (PMID:34618550) | 综述 | 极高（Science）| 髓鞘可塑性框架；未获全文 |
+| Fletcher et al. 2021, PMC10364045 | 综述 | 高 | **开放全文**，人类/小鼠差异、运动学习数据 |
+| Taylor & Monje 2023, Nat Rev Neurosci (PMID:37857838) | 综述 | 极高 | 神经元-OL互动；未获全文 |
+| García-Montes & Crespo 2023 (PMID:36703503) | 综述 | 中 | 记忆回路髓鞘化；摘要 |
+| Yalçın et al. 2024, Nature (PMID:38839962) | 原始研究 | 极高（Nature）| VTA OL 奖励回路；因果实验；未获全文 |
+| Baba 2022, PMC10859969 | 综述 | 低 | **开放全文**，历史背景 |
+
+## 固结的 Wiki 页面
+
+### 新建（2）
+1. `neurons/oligodendrocyte.md` — 少突胶质细胞；revision_count=1；established/high
+2. `concepts/myelination.md` — 髓鞘化与髓鞘可塑性；revision_count=1；established/high
+
+### 修订（3）
+1. `neurons/action-potential.md` — revision_count 3→4；新增 myelination/oligodendrocyte 关联
+2. `concepts/dopamine-reward-prediction-error.md` — revision_count 7→8；新增 VTA 髓鞘化维度（Yalçın 2024）
+3. `wiki/index.md` — 新增两个词条入索引
+
+## 矛盾协议
+
+- 无新增矛盾（髓鞘可塑性与突触可塑性不冲突，而是互补）
+- 登记重要不确定性（Q-myelin-01）：人类成年 OL 可塑性机制争议（大量新生 OL vs 形态调整），已在文章中明确标注
+
+## 图谱变化
+
+- 节点：192 → 195（+3：oligodendrocyte, myelination, saltatory-conduction）
+- 边：1111 → 1122（+11 条新边）
+- 无悬空引用新增
+
+## 文件操作
+
+- 新建：
+  - `articles/2026-07-27-myelination-oligodendrocyte-plasticity.md`
+  - `notes/2026-07-27-reading-notes.md`
+  - `sources/2026-07-27-sources.json`
+  - `wiki/neurons/oligodendrocyte.md`
+  - `wiki/concepts/myelination.md`
+  - `logs/2026-07-27-run.log`（本文件）
+- 修订：
+  - `wiki/neurons/action-potential.md`
+  - `wiki/concepts/dopamine-reward-prediction-error.md`
+  - `wiki/index.md`
+  - `wiki/CHANGELOG.md`
+  - `state/topic_ledger.json`
+  - `state/unresolved_questions.md`
+  - `state/monthly_synthesis.md`
+  - `wiki/_graph.json`
+
+## 失败与限制
+
+- Gibson et al. 2014（Science）：未获开放全文；内容基于摘要 + Fletcher 2021 综述引用（已在文章中标注）
+- Yalçın et al. 2024（Nature）：未获开放全文；内容基于摘要（已标注）
+- 注：≥2 篇开放全文（PMC10364045, PMC10859969）满足 ROUTINE.md 最低要求
+
+## 分支与推送状态
+
+- **分支**：main
+- **commit**：待执行
+- **push 状态**：待执行

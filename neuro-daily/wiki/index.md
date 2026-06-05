@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-25（第93篇·社会脑·镜像神经元与心智理论）· 主题页总数：**186**（新建3页：theory-of-mind, mentalizing-network, tpj-temporoparietal-junction；修订1页：mirror-neurons rev2；图谱188节点、1090边；新增Q-tom-01/02/03、Q-mn-01/02、Q-mirror-01）
+> 最后更新：2026-07-27（第95篇·髓鞘化与少突胶质细胞可塑性）· 主题页总数：**189**（新建2页：oligodendrocyte, myelination；修订3页：action-potential rev4、dopamine-reward-prediction-error rev8、critical-period；图谱195节点、1122边）
 
 ---
 
@@ -28,6 +28,7 @@
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 唯一常驻免疫细胞，突触可塑性的双刃卫士：发育期 CR3（C3b）+ TREM2（PtdSer）双通路剪枝；成年稳态下 CX3CR1 轴 + 低水平 TNF-α/IL-1β 支持 LTP；激活态高浓度细胞因子（TNFR1/NF-κB、p38/GluA1内吞、STAT3/Arc）系统性损伤 LTP；DAM/TREM2 在 AD 早期保护性清除过活跃突触；慢性应激→小胶质细胞预激→AD 风险放大 **[修订 rev2 2026-07-10]**
+- 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 髓鞘唯一制造者，单个细胞包裹 40–50 段轴突；OPC 终生保持分化潜能并感知神经元活动；VTA 中 OL 对奖励回路的调谐（Yalçın 2024）**[NEW 2026-07-27]**
 
 ## circuits（回路）
 
@@ -46,6 +47,7 @@
 - 🟢 [皮层六层架构](concepts/cortical-layers.md) — L4 接收丘脑（仅10-20%突触）；相互兴奋放大10倍；L2/3 高阈值门控（45-50个细胞）→ 群体活动检测；L5 双通道输出；L6 丘脑反馈；FF/FB 层间法则（Felleman & Van Essen 1991）；γ-FF / α-β-FB 振荡分工 **[NEW 2026-07-23 #91]**
 - 🟢 [规范微回路（Douglas-Martin 1991）](concepts/canonical-microcircuit.md) — 三群体（浅层锥体/深层锥体/抑制中间神经元）跨脑区通用计算模板；丘脑输入是触发器，相互兴奋是主放大器；状态依赖增益控制；Bastos 2012 整合预测编码框架 **[NEW 2026-07-23 #91]**
 - 🟢 [发育关键期](concepts/critical-period.md) — GABA 阈值触发开启；三道刹车（PNN/OTX2/Lynx1）主动关闭；ChABC/氟西汀/催产素可重开；MeCP2 KO 使 Rett 综合征关键期错位；弱视与语言习得的发育窗口 **[NEW 2026-06-03]**
+- 🟢 [髓鞘化与髓鞘可塑性](concepts/myelination.md) — OL 将轴突传导速度提升100倍；活动依赖性髓鞘化（Gibson 2014, Science）是与突触可塑性互补的第二类学习机制；VTA奖励回路中OL的必要性（Yalçín 2024, Nature） **[NEW 2026-07-27]**
 - 🟢 [突触剪枝](concepts/synaptic-pruning.md) — 先多建再精删策略；C1q/C3b"吃我"+CD47"别吃我"双向博弈；活动依赖（TTX实验）；dLGN/海马/前额叶分窗口；精神分裂症（C4A过度剪枝）与AD（C1q重激活）疾病连接 **[NEW 2026-06-03]**
 - 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异 **[NEW 2026-06-03]**
 - 🟢 [Hodgkin-Huxley 模型](concepts/hodgkin-huxley-model.md) — 动作电位的定量数学框架

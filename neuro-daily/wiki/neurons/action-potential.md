@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-24
-updated: 2026-05-26
-revision_count: 3
+updated: 2026-07-27
+revision_count: 4
 dimensions: [molecular, cellular, synaptic, cognition]
-related: [axon-initial-segment, voltage-gated-sodium-channel, hodgkin-huxley-model, synaptic-transmission, active-zone, nmda-receptor, ltp, hebbian-learning]
+related: [axon-initial-segment, voltage-gated-sodium-channel, hodgkin-huxley-model, synaptic-transmission, active-zone, nmda-receptor, ltp, hebbian-learning, myelination, oligodendrocyte]
 prerequisites: [voltage-gated-sodium-channel]
 opens_questions: []
 source_articles: [2026-05-24-axon-initial-segment, 2026-05-25-synaptic-vesicle-exocytosis, 2026-05-26-nmda-receptor-ltp]
@@ -61,8 +61,10 @@ key_sources: ["PMID:23055474", "PMID:22068972", "PMID:22510460"]
 - 2026-05-24 · 创建 · 基于《决策的解剖学：神经元如何在混沌的输入中找到它唯一的声音》· 初始置信度：高
 - 2026-05-25 · 修订 · 新增"突触传递"为动作电位的下游功能连接；补充相关节点（活动区、SNARE复合体）；dimensions扩展为synaptic层 · 来源：《神经信号的化学渡口》
 - 2026-05-26 · 修订 · 补充反向传播动作电位（bAP）在 Hebbian 可塑性（STDP/LTP）中的作用；related 新增 nmda-receptor、ltp、hebbian-learning；dimensions 新增 cognition · 来源：《NMDA 受体：突触的巧合检测器》
+- 2026-07-27 · 修订 · 新增与 myelination、oligodendrocyte 的关联；说明跳跃式传导是髓鞘化的核心功能机制 · 来源：《绝缘层的革命》（第95篇）
 
 ## 来源文章
 
 - [[2026-05-24-axon-initial-segment]]
 - [[2026-05-25-synaptic-vesicle-exocytosis]]
+- [[2026-07-27-myelination-oligodendrocyte-plasticity]]

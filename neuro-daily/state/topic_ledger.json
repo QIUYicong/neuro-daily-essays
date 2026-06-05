@@ -5648,6 +5648,55 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-26；承接第93篇（社会脑/心智理论），完成情感共情双轨；新建4个wiki页；修订2个wiki页；11个来源，9个开放全文；图谱192节点，1111边"
+    },
+    {
+      "date": "2026-07-27",
+      "real_date": "2026-06-06",
+      "article_number": 95,
+      "title": "绝缘层的革命：少突胶质细胞如何重塑大脑的时间地图",
+      "slug": "myelination-oligodendrocyte-plasticity",
+      "core_question": "少突胶质细胞如何通过髓鞘化将轴突信号传导速度提升百倍，以及为什么这个曾被认为是被动绝缘层的结构实际上是终生由神经元活动驱动的主动可塑性机制？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit"
+      ],
+      "topic_tags": [
+        "myelination",
+        "oligodendrocyte",
+        "saltatory-conduction",
+        "activity-dependent-plasticity",
+        "white-matter"
+      ],
+      "main_sources": [
+        "PMID:24727982 (Gibson et al. 2014, Science)",
+        "PMID:34618550 (Bonetto et al. 2021, Science)",
+        "PMID:33863642 (Fletcher et al. 2021, PMC10364045 open)",
+        "PMID:37857838 (Taylor & Monje 2023, Nat Rev Neurosci)",
+        "PMID:38839962 (Yalcin et al. 2024, Nature)"
+      ],
+      "unresolved_questions": [
+        "Q-myelin-01",
+        "Q-myelin-02",
+        "Q-myelin-03"
+      ],
+      "next_suggested_topics": [
+        "multiple-sclerosis: disease window for demyelination and OPC repair failure",
+        "white-matter-tractography-DTI: methods connecting structural white matter to myelination",
+        "prefrontal-cortex-development: frontal lobe myelination to age 30 and cognitive control maturation",
+        "schwann-cell: PNS vs CNS myelination differences and regeneration capacity"
+      ],
+      "wiki_changes": {
+        "created": [
+          "neurons/oligodendrocyte.md",
+          "concepts/myelination.md"
+        ],
+        "revised": [
+          "neurons/action-potential.md rev4",
+          "concepts/dopamine-reward-prediction-error.md rev8"
+        ],
+        "graph": "195 nodes, 1122 edges"
+      }
     }
   ],
   "layer_coverage_recent": {
