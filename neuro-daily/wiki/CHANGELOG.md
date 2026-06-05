@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-20 · 文章 #88 · 感官交响曲：多感觉整合的计算神经科学
+
+**核心主题**：多感觉整合（Track 3 感觉编码闭环篇）——贝叶斯因果推断（先判断是否同源）+ 最大似然估计（可靠性加权融合）两级计算架构；上丘三原则（空间对齐、时间一致、逆效性法则）；时间绑定窗口（TBW）测量、发育轨迹和训练可塑性（40-64%缩小）；TBW 在 ASD/阅读障碍/精神分裂症中的扩宽；pSTS 作为视听整合皮层枢纽（嘴型-声音联合选择性）；ALE 荟萃分析确认的多感觉网络（STG/MTG-丘脑-岛叶-IFG）；三经典幻觉（麦格克效应、声音诱导闪光幻觉、腹语效应）作为整合机制的行为证据；与预测编码框架的深层联结（两者共享"感知=贝叶斯推断"认识论）。
+
+**新建页面（5）**：
+- `concepts/multisensory-integration.md` rev1 — 多感觉整合：贝叶斯因果推断+MLE框架；上丘三原则；pSTS枢纽；TBW可塑性；ASD/精神分裂症临床关联（established, confidence:high）
+- `concepts/temporal-binding-window.md` rev1 — 时间绑定窗口：SJ/TOJ测量；100-500ms范围随刺激复杂度；训练可缩小40-64%（PMC2771316全文）；ASD/阅读障碍/精神分裂症扩宽（established, confidence:high）
+- `concepts/bayesian-sensory-integration.md` rev1 — 贝叶斯感觉整合：MLE公式w_i=σ_j²/Σσ_k²；因果推断层；与逆效性法则数学等价（mainstream, confidence:high）
+- `concepts/mcgurk-effect.md` rev1 — 麦格克效应：视觉/ga/+听觉/ba/→感知/da/；前意识自动过程；pSTS联合选择性是神经基础（established, confidence:high）
+- `systems/superior-temporal-sulcus.md` rev1 — 后颞上沟（pSTS）：位于听觉-视觉皮层交界；嘴型-声音联合选择性；后→前功能梯度（感觉运动→语义）；ALE荟萃分析确认为多感觉整合最一致激活皮层节点（mainstream, confidence:high）
+
+**修订页面（3）**：
+- `systems/auditory-cortex.md` rev2 — 新增 related: superior-temporal-sulcus, multisensory-integration, mcgurk-effect；确认 A1→pSTS 视听整合的上游输入地位
+- `theories/predictive-coding.md` rev7 — 新增 related: multisensory-integration, bayesian-sensory-integration；确认多感觉贝叶斯整合是预测编码框架的多模态输入层实现
+- `wiki/_graph.json` — +5节点，+30边（176总节点，1004总边）
+
+**矛盾登记（0）**：今日无新增矛盾。多感觉整合的核心计算原则（MLE、贝叶斯因果推断）已获广泛实验支持，无需登记分歧。
+
+**新增开放问题（3）**：Q-msi-01（高优先：贝叶斯因果推断的单细胞神经表示）、Q-msi-02（中优先：婴儿期MLE整合能力发展）、Q-msi-03（中优先：ASD的TBW扩宽是原发还是继发）
+
+**解决的悬空引用**：superior-temporal-sulcus（被 language-network, broca-area 隐式引用；现有明确源页面）
+
+**图谱**：176 节点（+5），1004 边（+30）
+
+---
+
 ## 2026-07-19 · 文章 #87 · 从皮肤到大脑的身体地图：触觉机械感受器、背柱通路与初级体感皮层的拓扑映射
 
 **核心主题**：体感系统（Track 3 感觉编码第 6 篇）——四类皮肤机械感受器的结构-功能分工（梅斯纳/帕西尼/迈克尔/鲁菲尼）；背柱-内侧丘系三级中继通路；S1 四子区（3a本体感觉/3b触觉/1质地/2整合）分工；皮质体感小人（版图大小∝受体密度而非面积）；桶状皮层（一胡须一桶）作为精确拓扑映射的经典模型；发育关键期（P0–P4，MAOA/AC1 KO 机制）；成人皮层重映射（截肢→嘴唇区移位/盲文→视觉皮层跨模态）；S2 对感觉阈值的因果门控（PMID:38346995）。

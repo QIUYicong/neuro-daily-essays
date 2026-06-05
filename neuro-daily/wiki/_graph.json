@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-19",
-  "node_count": 171,
-  "edge_count": 974,
+  "updated": "2026-07-20",
+  "node_count": 176,
+  "edge_count": 1004,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1552,6 +1552,51 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/dorsal-column-pathway.md"
+    },
+    {
+      "id": "multisensory-integration",
+      "title": "多感觉整合",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/multisensory-integration.md"
+    },
+    {
+      "id": "temporal-binding-window",
+      "title": "时间绑定窗口",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/temporal-binding-window.md"
+    },
+    {
+      "id": "bayesian-sensory-integration",
+      "title": "贝叶斯感觉整合",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/bayesian-sensory-integration.md"
+    },
+    {
+      "id": "mcgurk-effect",
+      "title": "麦格克效应",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/mcgurk-effect.md"
+    },
+    {
+      "id": "superior-temporal-sulcus",
+      "title": "后颞上沟（pSTS）",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/superior-temporal-sulcus.md"
     }
   ],
   "edges": [
@@ -6886,6 +6931,156 @@
       "from": "mechanoreceptors-skin",
       "to": "dorsal-column-pathway",
       "type": "mechanism-of"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "temporal-binding-window",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "bayesian-sensory-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "superior-temporal-sulcus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "mcgurk-effect",
+      "type": "supports"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "precision-weighting",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "somatosensory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "olfactory-system",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "multisensory-integration",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "bayesian-sensory-integration",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "superior-temporal-sulcus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "mcgurk-effect",
+      "type": "supports"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "phase-locking",
+      "type": "related"
+    },
+    {
+      "from": "bayesian-sensory-integration",
+      "to": "multisensory-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bayesian-sensory-integration",
+      "to": "predictive-coding",
+      "type": "is-a"
+    },
+    {
+      "from": "bayesian-sensory-integration",
+      "to": "precision-weighting",
+      "type": "related"
+    },
+    {
+      "from": "bayesian-sensory-integration",
+      "to": "world-model",
+      "type": "related"
+    },
+    {
+      "from": "mcgurk-effect",
+      "to": "multisensory-integration",
+      "type": "is-a"
+    },
+    {
+      "from": "mcgurk-effect",
+      "to": "superior-temporal-sulcus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mcgurk-effect",
+      "to": "temporal-binding-window",
+      "type": "related"
+    },
+    {
+      "from": "mcgurk-effect",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "multisensory-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "related"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "mcgurk-effect",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "broca-area",
+      "type": "related"
     }
   ],
   "dangling_references": [

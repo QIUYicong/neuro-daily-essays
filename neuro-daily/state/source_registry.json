@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19",
+  "last_updated": "2026-07-20",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6635,9 +6635,221 @@
         "sensory gating",
         "optogenetics"
       ]
+    },
+    {
+      "id": "PMID:1012311",
+      "title": "Hearing lips and seeing voices",
+      "authors": "McGurk H, MacDonald J",
+      "journal": "Nature",
+      "year": 1976,
+      "pmid": "1012311",
+      "pmcid": null,
+      "open_access": "abstract_only",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "McGurk effect",
+        "audiovisual speech integration",
+        "visual speech dominance"
+      ]
+    },
+    {
+      "id": "PMID:11130706",
+      "title": "What you see is what you hear",
+      "authors": "Shams L, Kamitani Y, Shimojo S",
+      "journal": "Nature",
+      "year": 2000,
+      "pmid": "11130706",
+      "pmcid": null,
+      "open_access": "abstract_only",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "sound-induced flash illusion",
+        "auditory dominance over vision in counting",
+        "cross-modal illusion"
+      ]
+    },
+    {
+      "id": "PMID:11807554",
+      "title": "Humans integrate visual and haptic information in a statistically optimal fashion",
+      "authors": "Ernst MO, Banks MS",
+      "journal": "Nature",
+      "year": 2002,
+      "pmid": "11807554",
+      "pmcid": null,
+      "open_access": "abstract_only",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "MLE framework",
+        "Bayesian optimal integration",
+        "reliability-weighted averaging",
+        "visuo-haptic integration"
+      ]
+    },
+    {
+      "id": "PMID:19793985",
+      "title": "Perceptual training narrows the temporal window of multisensory binding",
+      "authors": "Powers AR 3rd, Hillock AR, Wallace MT",
+      "journal": "Journal of Neuroscience",
+      "year": 2009,
+      "pmid": "19793985",
+      "pmcid": "PMC2771316",
+      "open_access": "full",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "TBW training",
+        "40-64% TBW narrowing",
+        "SJ task",
+        "individual training",
+        "group training",
+        "1-week follow-up"
+      ]
+    },
+    {
+      "id": "PMID:19616425",
+      "title": "Multisensory integration: psychophysics, neurophysiology, and computation",
+      "authors": "Angelaki DE, Gu Y, DeAngelis GC",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2009,
+      "pmid": "19616425",
+      "pmcid": null,
+      "open_access": "abstract_only",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "visual-vestibular integration",
+        "MLE in monkey heading perception",
+        "dynamic weight adjustment"
+      ]
+    },
+    {
+      "id": "PMID:24374382",
+      "title": "A model of the temporal dynamics of multisensory enhancement",
+      "authors": "Rowland BA, Stein BE",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": 2014,
+      "pmid": "24374382",
+      "pmcid": null,
+      "open_access": "abstract_only",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "superior colliculus three rules",
+        "spatial register",
+        "temporal coincidence",
+        "inverse effectiveness",
+        "superadditive->linear transition"
+      ]
+    },
+    {
+      "id": "PMID:25128432",
+      "title": "The construct of the multisensory temporal binding window and its dysregulation in developmental disabilities",
+      "authors": "Wallace MT, Stevenson RA",
+      "journal": "Neuropsychologia",
+      "year": 2014,
+      "pmid": "25128432",
+      "pmcid": "PMC4326640",
+      "open_access": "full",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "TBW definition and measurement",
+        "SJ vs TOJ paradigms",
+        "PSS",
+        "developmental trajectory",
+        "ASD TBW widening",
+        "dyslexia TBW widening",
+        "schizophrenia TBW widening"
+      ]
+    },
+    {
+      "id": "PMID:28179553",
+      "title": "Mouth and Voice: A Relationship between Visual and Auditory Preference in the Human Superior Temporal Sulcus",
+      "authors": "Zhu LL, Beauchamp MS",
+      "journal": "Journal of Neuroscience",
+      "year": 2017,
+      "pmid": "28179553",
+      "pmcid": null,
+      "open_access": "abstract_only",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "pSTS mouth-voice joint selectivity",
+        "mouth-preferring STS responds to voices",
+        "audiovisual speech neural basis"
+      ]
+    },
+    {
+      "id": "PMID:29317216",
+      "title": "Multisensory temporal binding window in autism spectrum disorders and schizophrenia spectrum disorders",
+      "authors": "Zhou HY, Cai XL, Weigl M et al.",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": 2018,
+      "pmid": "29317216",
+      "pmcid": null,
+      "open_access": "abstract_only",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "ASD TBW meta-analysis",
+        "schizophrenia TBW meta-analysis",
+        "cross-disorder comparison"
+      ]
+    },
+    {
+      "id": "PMID:36084305",
+      "title": "Neural correlates of multisensory integration in the human brain: an ALE meta-analysis",
+      "authors": "Scheliga S, Kellermann T, Lampert A, Rolke R, Spehr M, Habel U",
+      "journal": "Reviews in the Neurosciences",
+      "year": 2022,
+      "pmid": "36084305",
+      "pmcid": null,
+      "open_access": "abstract_only",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "ALE meta-analysis multisensory",
+        "STG/MTG activation",
+        "thalamus",
+        "right insula",
+        "left IFG",
+        "cross-modal integration network"
+      ]
+    },
+    {
+      "id": "PMID:40330322",
+      "title": "From Multimodal Sensorimotor Integration to Semantic Networks: A Phylogenetic Perspective on Speech and Language Evolution",
+      "authors": "Michon M, Aboitiz F",
+      "journal": "Neurobiology of Language",
+      "year": 2025,
+      "pmid": "40330322",
+      "pmcid": null,
+      "open_access": "abstract_only",
+      "used_in": [
+        "2026-07-20"
+      ],
+      "aspects_covered": [
+        "STS posterior-anterior gradient",
+        "sensorimotor to semantic integration",
+        "STS-ATL connection",
+        "language evolution phylogenetics"
+      ]
     }
   ],
-  "total_sources": 357,
+  "total_sources": 368,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -8047,5 +8259,18 @@
     "36786655",
     "NBK10867-hair-cells-bookshelf"
   ],
-  "total_count": 374
+  "total_count": 385,
+  "additions_2026-07-20": [
+    "1012311",
+    "11130706",
+    "11807554",
+    "19793985",
+    "19616425",
+    "24374382",
+    "25128432",
+    "28179553",
+    "29317216",
+    "36084305",
+    "40330322"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-07-20",
   "levels": [
     "speculative",
     "emerging",
@@ -543,6 +543,46 @@
       "supporting_sources": 8,
       "last_status_change": "2026-06-28",
       "reason": "创建 2026-06-28（文章 #64）。TrkB三通路分子机制有大量独立一手来源；L-LTP依赖性经BDNF KO小鼠反复验证；Val66Met认知效应有人类遗传+fMRI支持（Egan 2003）；有氧运动RCT支持BDNF-认知链（Erickson 2011）；proBDNF/p75NTR→LTD机制由Woo 2005基因敲除实验直接验证；AD中BDNF受损的证据来自多种模型和死后脑组织。status=established（基础分子机制）；AD干预部分为emerging。"
+    },
+    {
+      "slug": "multisensory-integration",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 7,
+      "last_status_change": "2026-07-20",
+      "reason": "创建 2026-07-20（文章 #88）。多感觉整合的贝叶斯框架（Ernst & Banks 2002）是近20年反复验证的理论支柱；上丘三原则由50年以上电生理记录支持；ALE荟萃分析（Scheliga 2022）跨10+个独立研究组确认STG/MTG核心地位。established。"
+    },
+    {
+      "slug": "temporal-binding-window",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-07-20",
+      "reason": "创建 2026-07-20（文章 #88）。TBW作为多感觉整合时间约束的构念由多个独立实验室的SJ/TOJ范式一致支持（Wallace & Stevenson 2014综述）；训练可塑性由Powers 2009 RCT证明；临床扩宽在ASD/精神分裂症的荟萃分析（Zhou 2018）中得到确认。established。"
+    },
+    {
+      "slug": "bayesian-sensory-integration",
+      "status": "mainstream",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-07-20",
+      "reason": "创建 2026-07-20（文章 #88）。MLE框架在视觉-触觉（Ernst & Banks 2002）、视觉-前庭（Angelaki 2009）等通道得到独立验证；但完整贝叶斯因果推断框架（Körding 2007）在高水平认知任务中的适用性仍存争议；单细胞实现机制未明。mainstream而非established。"
+    },
+    {
+      "slug": "mcgurk-effect",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-07-20",
+      "reason": "创建 2026-07-20（文章 #88）。McGurk效应本身（McGurk & MacDonald 1976）已被数百个独立实验室在30+语言中复现；pSTS神经基础（Zhu & Beauchamp 2017）提供了成像层面解释；ASD减弱现象（元分析）提供临床转化价值。established。"
+    },
+    {
+      "slug": "superior-temporal-sulcus",
+      "status": "mainstream",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-07-20",
+      "reason": "创建 2026-07-20（文章 #88）。pSTS作为视听整合枢纽有ALE荟萃分析（Scheliga 2022）跨多研究组确认；嘴-声音联合选择性（Zhu & Beauchamp 2017）是具体功能证据；后→前功能梯度是基于多项fMRI研究的工作假说而非直接因果证明。mainstream。"
     }
   ],
   "entries": [

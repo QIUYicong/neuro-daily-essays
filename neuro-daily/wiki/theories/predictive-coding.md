@@ -6,10 +6,10 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-07-12
-revision_count: 6
+updated: 2026-07-20
+revision_count: 7
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06]
 source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference]
@@ -135,9 +135,11 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语言域的预测编码实例：词出现前200ms的语义-感觉运动预测（Grisoni 2024），腹侧流具身语义预测（工具词→运动皮层，动物词→视觉皮层）；related 新增 language-network, ventral-language-stream
 - 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
 - 2026-07-12 · 修订 · 基于《世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架》(#80) · 新增听觉皮层 PEONs 直接证据（Yaron 2025, PMID:40532027）——13% 神经元响应省略音调，响应随概率升高；新增精度加权多巴胺证据（Haarsma 2020, PMID:32576965）——舒必利破坏精度加权，FEP 患者无精度加权；新增 LHb 负 RPE 作为奖励域省略响应的显式说明；新增 Q-pc-06（PEONs 自然感知功能）；related 新增 lateral-habenula；置信度维持 medium（Hodson 2024 综述提醒经验证据有限）
+- 2026-07-20 · 修订 · 基于《感官交响曲》文章（#88）· 多感觉整合的贝叶斯因果推断是预测编码框架在多模态输入层面的具体实现；related 新增 multisensory-integration, bayesian-sensory-integration
 
 ## 来源文章
 
 - [[2026-06-15-predictive-coding]]
 - [[2026-06-20-language-dual-stream]]
 - [[2026-07-12-predictive-coding-cortical-inference]]
+- [[2026-07-20-multisensory-integration-temporal-binding-sts]]

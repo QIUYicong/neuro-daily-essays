@@ -1,7 +1,88 @@
 {
-  "last_updated": "2026-07-19",
-  "total_articles": 87,
+  "last_updated": "2026-07-20",
+  "total_articles": 88,
   "entries": [
+    {
+      "date": "2026-07-20",
+      "title": "感官交响曲：大脑如何将五路信号融合为统一现实——多感觉整合的计算神经科学",
+      "filename": "2026-07-20-multisensory-integration-temporal-binding-sts.md",
+      "wiki_pages_created": [
+        "wiki/concepts/multisensory-integration.md",
+        "wiki/concepts/temporal-binding-window.md",
+        "wiki/concepts/bayesian-sensory-integration.md",
+        "wiki/concepts/mcgurk-effect.md",
+        "wiki/systems/superior-temporal-sulcus.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/auditory-cortex.md (rev2: 新增 related STS/多感觉整合/麦格克效应)",
+        "wiki/theories/predictive-coding.md (rev7: 新增 related 多感觉整合/贝叶斯感觉整合)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当听到/ba/却看到嘴巴说/ga/时，我们感知到的/da/从哪里来？大脑如何在毫秒内决定何时将来自眼睛、耳朵、皮肤的信号合并为同一事件的感知——上丘三原则（空间对齐/时间一致/逆效性法则）、贝叶斯因果推断（先判定是否同源）、MLE最优整合（可靠性加权融合）、时间绑定窗口（TBW的测量/发育/训练可塑性/临床扩宽）、pSTS作为多感觉整合皮层枢纽（嘴型-声音联合选择性/后→前功能梯度）",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（Track 3 闭环篇：五大感觉通道已覆盖V1视觉/嗅觉/听觉/体感，本篇加入多感觉整合——将已覆盖的所有单感觉通道整合为统一认知世界；跨Track3-8联结：pSTS梯度与ATL语义枢纽（Track7），贝叶斯因果推断与预测编码框架（Track8理论层）；层级：认知/行为/脑区/全脑网络/微回路/细胞）",
+      "topic_tags": [
+        "multisensory integration",
+        "McGurk effect",
+        "sound-induced flash illusion",
+        "ventriloquist effect",
+        "Bayesian causal inference",
+        "maximum likelihood estimation",
+        "MLE",
+        "temporal binding window",
+        "TBW",
+        "Ernst Banks 2002",
+        "superior temporal sulcus",
+        "pSTS",
+        "posterior STS",
+        "inverse effectiveness",
+        "superior colliculus",
+        "audiovisual integration",
+        "simultaneity judgment",
+        "point of subjective simultaneity",
+        "perceptual training",
+        "ASD temporal binding",
+        "dyslexia",
+        "sensory reweighting",
+        "cross-modal integration",
+        "audio-visual speech"
+      ],
+      "main_sources": [
+        "PMID:1012311 (McGurk & MacDonald 1976, Nature, 麦格克效应原始报告)",
+        "PMID:11130706 (Shams et al. 2000, Nature, 声音诱导闪光幻觉)",
+        "PMID:11807554 (Ernst & Banks 2002, Nature, MLE视觉-触觉整合)",
+        "PMID:19793985 (PMC2771316, open full text, Powers et al. 2009 J Neurosci, TBW训练可塑性)",
+        "PMID:19616425 (Angelaki et al. 2009, Curr Opin Neurobiol, 视觉-前庭整合综述)",
+        "PMID:24374382 (Rowland & Stein 2014, Neurosci Biobehav Rev, 上丘多感觉整合三原则)",
+        "PMID:25128432 (PMC4326640, open full text, Wallace & Stevenson 2014, Neuropsychologia, TBW综述)",
+        "PMID:28179553 (Zhu & Beauchamp 2017, J Neurosci, pSTS嘴型-声音联合选择性)",
+        "PMID:29317216 (Zhou et al. 2018, Neurosci Biobehav Rev, ASD/精神分裂症TBW荟萃分析)",
+        "PMID:36084305 (Scheliga et al. 2022, Rev Neurosci, ALE荟萃分析多感觉整合神经网络)",
+        "PMID:40330322 (Michon & Aboitiz 2025, Neurobiology of Language, STS前后梯度与语言进化)"
+      ],
+      "unresolved_questions": [
+        "Q-msi-01 (新增，高优先级：贝叶斯因果推断的单细胞神经表示是否可追踪)",
+        "Q-msi-02 (新增，中优先级：婴儿期MLE整合能力如何发展)",
+        "Q-msi-03 (新增，中优先级：ASD的TBW扩宽是原发还是继发于感觉过敏)"
+      ],
+      "next_suggested_topics": [
+        "头向细胞与边界细胞（head direction cells + border cells）：Track 3空间导航缺口；与已有的网格细胞/场所细胞/路径整合形成完整空间导航三角；头向细胞的环形吸引子网络和前庭-海马整合",
+        "皮层层状结构与皮层柱（cortical layers and columns）：今日桶状皮层的L4→L2/3→L5回路是皮层柱的精确例子；系统梳理6层皮层的一般组织原理；Mountcastle皮层柱假说的支持与挑战",
+        "触觉运动整合（sensorimotor integration）：S1→M1感觉-运动闭环；小脑内部模型在多感觉整合中的角色；运动预测如何减弱自身触感（tickling幻觉）",
+        "时间表征（temporal representation）：不同于空间地图的时间序列表征；海马时间细胞；前额叶的工作记忆时序；小脑的计时精度"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 88,
+      "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-20；继承自2026-07-19（第87篇，体感皮层）；本篇是Track 3感觉编码的整合篇——将已覆盖的V1/嗅觉/听觉/体感四个单模态感觉通道汇聚成一个多感觉整合框架；关键跨领域桥梁：多感觉整合↔预测编码（共享贝叶斯推断认识论）；pSTS梯度↔ATL枢纽（第84篇）；TBW可塑性↔突触稳态（第69篇）；贝叶斯整合↔精度加权（第80篇预测编码）"
+    },
     {
       "date": "2026-07-19",
       "title": "从皮肤到大脑的身体地图：触觉机械感受器、背柱通路与初级体感皮层的拓扑映射",

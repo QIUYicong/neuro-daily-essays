@@ -7,13 +7,14 @@ status: established
 confidence: high
 created: 2026-07-18
 updated: 2026-07-18
-revision_count: 1
+revision_count: 2
+updated: 2026-07-20
 dimensions: [brain-region, microcircuit, whole-brain-network]
-related: [tonotopy, language-network, thalamus, olfactory-system, predictive-coding]
+related: [tonotopy, language-network, thalamus, olfactory-system, predictive-coding, superior-temporal-sulcus, multisensory-integration, mcgurk-effect]
 prerequisites: [tonotopy, thalamic-firing-modes]
 opens_questions: [Q-aud-02, Q-aud-03]
-source_articles: [2026-07-18-auditory-cortex-tonotopy-dual-coding]
-key_sources: ["PMID:32420865", "PMID:37169827", "PMID:36786655"]
+source_articles: [2026-07-18-auditory-cortex-tonotopy-dual-coding, 2026-07-20-multisensory-integration-temporal-binding-sts]
+key_sources: ["PMID:32420865", "PMID:37169827", "PMID:36786655", "PMID:28179553"]
 ---
 
 # 初级听觉皮层（A1）(Primary Auditory Cortex)
@@ -72,7 +73,9 @@ A1是语言双流（腹/背侧流）和音乐感知的共同起点，其音调�
 ## 修订历史
 
 - 2026-07-18 · 创建 · 基于《大脑如何读懂音调》文章 #86 · 初始置信度：高 · 新建core/belt/parabelt组织框架；来源含PMID:32420865/37169827/36786655
+- 2026-07-20 · 修订 · 基于《感官交响曲》文章 #88 · 新增 related: superior-temporal-sulcus, multisensory-integration, mcgurk-effect；A1 输出到 pSTS 参与视听整合的联结被明确
 
 ## 来源文章
 
 - [[2026-07-18-auditory-cortex-tonotopy-dual-coding]]
+- [[2026-07-20-multisensory-integration-temporal-binding-sts]]

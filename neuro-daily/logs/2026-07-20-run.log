@@ -1,0 +1,118 @@
+# 运行日志 · 2026-07-20
+
+**系统时钟（UTC+8）**：2026-06-05 CST（真实执行时间）
+**知识库虚拟日期**：2026-07-20
+**文章编号**：#88
+
+---
+
+## 搜索词与数据源
+
+### 搜索词
+1. "multisensory integration temporal binding window review PubMed PMC open access 2020 2024"
+2. "superior colliculus multisensory neurons spatial register temporal coincidence inverse effectiveness review"
+3. "Bayesian causal inference multisensory integration Körding 2007 PMC open access"
+4. "posterior superior temporal sulcus pSTS audiovisual speech integration fMRI review PMC"
+5. "McGurk effect neural mechanisms pSTS auditory cortex visual speech review"
+6. "temporal binding window ASD autism schizophrenia meta-analysis systematic review"
+7. "multisensory temporal binding window training plasticity PMC open access"
+8. "neural correlates multisensory integration ALE meta-analysis fMRI STG"
+9. "Ernst Banks 2002 MLE maximum likelihood estimation visual haptic integration"
+10. "multisensory integration NINDS NIH official definition"（→ 403 Forbidden，跳过）
+
+### 数据源访问
+- PubMed 检索（WebSearch）：完成，找到 12 项候选来源
+- PMC 全文获取（WebFetch）：
+  - PMC2771316（Powers et al. 2009，TBW训练）：开放全文 ✓
+  - PMC4326640（Wallace & Stevenson 2014，TBW综述）：开放全文 ✓
+- NINDS NIH 官方页面：403 Forbidden，无法访问；以PubMed来源替代
+- Nature 全文（McGurk 1976, Ernst & Banks 2002, Shams 2000）：摘要可及，无开放全文
+
+---
+
+## 候选来源与采用/排除
+
+| 来源 | 决定 | 原因 |
+|------|------|------|
+| PMID:1012311（McGurk & MacDonald 1976，Nature）| 采用 | 麦格克效应原始报告；经典奠基性证据 |
+| PMID:11130706（Shams et al. 2000，Nature）| 采用 | 声音诱导闪光幻觉原始报告；听觉主导视觉 |
+| PMID:11807554（Ernst & Banks 2002，Nature）| 采用 | MLE框架奠基；视触整合实验 |
+| PMID:19793985（Powers et al. 2009，JNeurosci）| 采用 | TBW训练可塑性；PMC开放全文；有控制组 |
+| PMID:19616425（Angelaki et al. 2009，Curr Opin Neurobiol）| 采用 | 视觉-前庭整合MLE验证；综述性强 |
+| PMID:24374382（Rowland & Stein 2014，NBR）| 采用 | 上丘三原则系统综述；神经生理基础 |
+| PMID:25128432（Wallace & Stevenson 2014，Neuropsychologia）| 采用 | TBW临床综述；PMC开放全文；ASD/阅读障碍/精神分裂症数据 |
+| PMID:28179553（Zhu & Beauchamp 2017，JNeurosci）| 采用 | pSTS嘴-声音联合选择性；fMRI直接证据 |
+| PMID:29317216（Zhou et al. 2018，NBR）| 采用 | ASD/精神分裂症TBW荟萃分析；高证据等级 |
+| PMID:36084305（Scheliga et al. 2022，Rev Neurosci）| 采用 | ALE荟萃分析多感觉整合神经关联；跨通道 |
+| PMID:40330322（Michon & Aboitiz 2025，Neurobiol Lang）| 采用 | STS后→前功能梯度；系统发生视角 |
+| 若干2023年综述（via搜索）| 排除 | 重复覆盖，不增加新内容；已有充分的多种证据类型 |
+
+最终：11 来源（2 PMC开放全文，9 摘要可及），满足协议要求（≥5来源，≥2开放全文）
+
+---
+
+## 话题选择理由
+
+- 无紧急悬而未决的有争议主张需要立即处理
+- 无高优先级悬挂参考（#87文章建议多感觉整合为下一话题）
+- 多感觉整合是 Track 3（感觉编码系列）的自然结束；完成后，轨道3向多感觉-行为-知觉接口方向延伸
+- 与已有节点（预测编码、初级听觉皮层、视觉皮层、上丘）的联结丰富，图谱可从该文章扩展≥30条新边
+
+**选择：多感觉整合——时间绑定窗口、贝叶斯最优整合与颞上沟（文章 #88）**
+
+---
+
+## Wiki 整合摘要
+
+### 新建页面（5页）
+| 文件 | slug | 域 | 成熟度 | 置信度 | 初始来源数 |
+|------|------|-----|--------|--------|-----------|
+| concepts/multisensory-integration.md | multisensory-integration | concepts | established | high | 7 |
+| concepts/temporal-binding-window.md | temporal-binding-window | concepts | established | high | 5 |
+| concepts/bayesian-sensory-integration.md | bayesian-sensory-integration | theories | mainstream | high | 4 |
+| concepts/mcgurk-effect.md | mcgurk-effect | concepts | established | high | 4 |
+| systems/superior-temporal-sulcus.md | superior-temporal-sulcus | systems | mainstream | high | 5 |
+
+### 修订页面（3页）
+| 文件 | 修订前版本 | 修订后版本 | 变更摘要 |
+|------|-----------|-----------|---------|
+| wiki/systems/auditory-cortex.md | rev1 | rev2 | 新增related: STG, multisensory-integration, mcgurk-effect；新增source_article |
+| wiki/theories/predictive-coding.md | rev6 | rev7 | 新增related: multisensory-integration, bayesian-sensory-integration；新增source_article |
+| wiki/_graph.json | 171节点/974边（注：前次统计） | 176节点/1004边 | +5节点，+30边（多感觉整合子网） |
+
+### 新增开放问题（3个）
+- Q-msi-01（高优先级）：单个神经元如何实现贝叶斯因果推断？（需单细胞记录+计算建模）
+- Q-msi-02（中优先级）：婴幼儿MLE发育轨迹——先于语言发展？
+- Q-msi-03（中优先级）：ASD时间绑定窗口扩宽是S1/S2低层缺陷还是高层整合权重分配异常？
+
+---
+
+## 治理层更新摘要
+
+| 文件 | 状态 |
+|------|------|
+| state/topic_ledger.json | ✓ 已更新（2026-07-20，第88篇） |
+| state/unresolved_questions.md | ✓ 已更新（+Q-msi-01/02/03） |
+| state/source_registry.json | ✓ 已更新（+11来源，total_count 374→385） |
+| state/maturity_index.json | ✓ 已更新（+5新页面，共70页） |
+| state/monthly_synthesis.md | ✓ 已更新（7月第20篇，总#88） |
+| wiki/CHANGELOG.md | ✓ 已更新（2026-07-20 条目） |
+| wiki/index.md | ✓ 已更新（导航+统计） |
+
+---
+
+## 技术问题与解决方案
+
+| 问题 | 解决方案 |
+|------|---------|
+| PubMed filter参数无效（`filter=simsearch2.fha`） | 改用不含无效filter参数的标准搜索词 |
+| PMC搜索返回PMID而非PMCID | 直接访问pmc.ncbi.nlm.nih.gov/articles/PMCxxxxxx/ |
+| NINDS.nih.gov 403 Forbidden | 以PubMed来源（含NIH资助标注）替代；满足协议≥5来源要求 |
+
+---
+
+## 分支/提交状态
+
+**目标分支**：main（QIUYicong/neuro-daily-essays）
+**提交信息**：Add neuro daily article + wiki consolidation for 2026-07-20
+**状态**：待提交
