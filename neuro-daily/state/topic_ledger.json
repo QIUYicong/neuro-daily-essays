@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-18",
-  "total_articles": 86,
+  "last_updated": "2026-07-19",
+  "total_articles": 87,
   "entries": [
     {
       "date": "2026-07-18",
@@ -16,7 +16,12 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "听觉系统为什么需要'位置编码'（耳蜗基底膜音调拓扑）和'时间精细结构编码'（听神经相位锁定）两套并行策略表征声音频率——以及初级听觉皮层A1如何继承这双重编码，将基础频率信息转化为可供语音、音乐等复杂感知使用的神经表征？",
-      "layer": ["molecular", "cellular", "synaptic", "brain-region"],
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region"
+      ],
       "curriculum_track": "3. 大脑如何编码世界（Track 3 第5篇：听觉感觉编码——与已覆盖的V1视觉/嗅觉系统并列，填补感觉编码Track 3的听觉模态空白）；层级设计：#85分子/细胞（嗅觉），#86分子/细胞/突触/脑区多层（听觉），避免单纯重复同一维度",
       "topic_tags": [
         "auditory cortex",
@@ -5138,6 +5143,63 @@
       "mode": "long_term_curriculum",
       "article_number": 75,
       "note": "系统时钟UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期2026-07-07；继承自2026-07-06（第74篇，胶质淋巴系统）；本篇填补了长期悬空的 Q-shy-vs-active-consolidation 问题（通过 down-selection 框架部分解答）；新建两个核心睡眠记忆机制节点（so-spindle-swr-coupling、shy-hypothesis）；层级：whole-brain-network/brain-region/cellular/microcircuit/cognition（多层跨越）；11 个来源，5 个开放全文"
+    },
+    {
+      "date": "2026-07-19",
+      "article_number": 87,
+      "title": "皮肤之上的地图：体感皮层如何将触摸转化为自我感知，以及大脑如何在失去身体后重写这张地图",
+      "core_question": "大脑如何从皮肤机械感受器出发，构建精确但可被经验改写的身体地图，并将触摸转化为识别物体、维持自我感知和感受情感联结的认知过程？",
+      "layer": [
+        "brain-region",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "cognition"
+      ],
+      "topic_tags": [
+        "somatosensory-cortex",
+        "homunculus",
+        "barrel-cortex",
+        "mechanoreceptor",
+        "cortical-map-plasticity",
+        "phantom-limb",
+        "affective-touch",
+        "body-map"
+      ],
+      "main_sources": [
+        "PMID:23972592 (Abraira & Ginty 2013 Neuron - LTMRs)",
+        "PMID:24853935 (McGlone et al. 2014 Neuron - affective touch)",
+        "PMID:23195880 (Feldmeyer et al. 2013 ProgNeurobiol - barrel cortex)",
+        "PMID:29519481 (Harding-Forrester & Feldman 2018 - somatosensory maps)",
+        "PMID:19038777/PMC2674476 (Fox 2009 - experience-dependent plasticity)",
+        "PMID:34172735/PMC8233353 (Zeiger et al. 2021 NatCommun - post-stroke plasticity)",
+        "PMID:11403816 (Flor et al. 2001 Lancet - phantom limb pain RCT)",
+        "PMID:32428706 (Makin & Flor 2020 NeuroImage - cortical reorganization review)"
+      ],
+      "unresolved_questions": [
+        "Q-s1-01",
+        "Q-s1-02",
+        "Q-s1-03"
+      ],
+      "next_suggested_topics": [
+        "头向细胞与空间导航完整架构（head direction cells + border cells）：填补Track 3空间表征空白；与已有grid/place cells wiki形成完整空间导航系统",
+        "后顶叶皮层（posterior parietal cortex, PPC）：感觉-运动整合；触觉引导的抓握；工具使用的神经基础；3D物体识别；接续体感皮层文章自然延伸",
+        "运动皮层深度专文（M1 microcircuit + preparatory activity + population dynamics）：承接体感皮层与运动系统的连接；课程脊柱5（认知控制→运动控制）"
+      ],
+      "wiki_pages_created": [
+        "systems/somatosensory-cortex",
+        "neurons/mechanoreceptor",
+        "concepts/cortical-map-plasticity"
+      ],
+      "wiki_pages_revised": [
+        "systems/thalamus (rev4)"
+      ],
+      "contested_claims_registered": [
+        "C-MAP-01"
+      ],
+      "track": "Track 3 (大脑如何编码世界) #6 - 体感系统",
+      "virtual_date": "2026-07-19",
+      "actual_execution_date": "2026-06-05"
     }
   ],
   "layer_coverage_recent": {

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15",
+  "last_updated": "2026-07-18",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6490,6 +6490,150 @@
         "subcortical language",
         "extended language network"
       ]
+    },
+    {
+      "pmid": "23972592",
+      "title": "The sensory neurons of touch",
+      "authors": "Abraira VE, Ginty DD",
+      "journal": "Neuron",
+      "year": 2013,
+      "open_access": false,
+      "used_in_articles": [
+        "2026-07-19-somatosensory-cortex-body-map"
+      ],
+      "topics_covered": [
+        "mechanoreceptors",
+        "LTMRs",
+        "FA-I",
+        "SA-I",
+        "FA-II",
+        "SA-II",
+        "C-LTMR",
+        "touch encoding"
+      ]
+    },
+    {
+      "pmid": "24853935",
+      "title": "Discriminative and affective touch: sensing and feeling",
+      "authors": "McGlone F, Wessberg J, Olausson H",
+      "journal": "Neuron",
+      "year": 2014,
+      "open_access": false,
+      "used_in_articles": [
+        "2026-07-19-somatosensory-cortex-body-map"
+      ],
+      "topics_covered": [
+        "affective touch",
+        "CT afferents",
+        "insula",
+        "social touch",
+        "dual touch pathway"
+      ]
+    },
+    {
+      "pmid": "23195880",
+      "title": "Barrel cortex function",
+      "authors": "Feldmeyer D et al.",
+      "journal": "Progress in Neurobiology",
+      "year": 2013,
+      "open_access": false,
+      "used_in_articles": [
+        "2026-07-19-somatosensory-cortex-body-map"
+      ],
+      "topics_covered": [
+        "barrel cortex",
+        "whisker-barrel map",
+        "cortical column",
+        "somatotopy rodent"
+      ]
+    },
+    {
+      "pmid": "29519481",
+      "title": "Somatosensory maps",
+      "authors": "Harding-Forrester S, Feldman DE",
+      "journal": "Handbook of Clinical Neurology",
+      "year": 2018,
+      "open_access": false,
+      "used_in_articles": [
+        "2026-07-19-somatosensory-cortex-body-map"
+      ],
+      "topics_covered": [
+        "somatosensory areas 3a 3b 1 2",
+        "cortical magnification factor",
+        "somatotopy primates",
+        "map plasticity"
+      ]
+    },
+    {
+      "pmid": "19038777",
+      "pmcid": "PMC2674476",
+      "title": "Experience-dependent plasticity mechanisms for neural rehabilitation in somatosensory cortex",
+      "authors": "Fox K",
+      "journal": "Philos Trans R Soc B",
+      "year": 2009,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-07-19-somatosensory-cortex-body-map"
+      ],
+      "topics_covered": [
+        "barrel cortex plasticity",
+        "LTP/LTD S1",
+        "synaptic mechanisms",
+        "neural rehabilitation"
+      ]
+    },
+    {
+      "pmid": "34172735",
+      "pmcid": "PMC8233353",
+      "title": "Barrel cortex plasticity after photothrombotic stroke involves potentiating responses of pre-existing circuits but not functional remapping to new circuits",
+      "authors": "Zeiger WA et al.",
+      "journal": "Nature Communications",
+      "year": 2021,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-07-19-somatosensory-cortex-body-map"
+      ],
+      "topics_covered": [
+        "post-stroke plasticity",
+        "barrel cortex",
+        "no remapping",
+        "circuit potentiation",
+        "two-photon imaging"
+      ]
+    },
+    {
+      "pmid": "11403816",
+      "title": "Effect of sensory discrimination training on cortical reorganisation and phantom limb pain",
+      "authors": "Flor H et al.",
+      "journal": "Lancet",
+      "year": 2001,
+      "open_access": false,
+      "used_in_articles": [
+        "2026-07-19-somatosensory-cortex-body-map"
+      ],
+      "topics_covered": [
+        "phantom limb pain",
+        "cortical reorganization",
+        "sensory discrimination training",
+        "RCT"
+      ]
+    },
+    {
+      "pmid": "32428706",
+      "title": "Brain (re)organisation following amputation: Implications for phantom limb pain",
+      "authors": "Makin TR, Flor H",
+      "journal": "NeuroImage",
+      "year": 2020,
+      "open_access": false,
+      "used_in_articles": [
+        "2026-07-19-somatosensory-cortex-body-map"
+      ],
+      "topics_covered": [
+        "amputation cortical reorganization",
+        "phantom limb pain",
+        "causality review",
+        "neuroimaging"
+      ]
     }
   ],
   "total_sources": 313,
@@ -7902,6 +8046,5 @@
     "36786655",
     "NBK10867-hair-cells-bookshelf"
   ],
-  "last_updated": "2026-07-18",
   "total_count": 374
 }

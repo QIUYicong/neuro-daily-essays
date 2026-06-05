@@ -6,13 +6,13 @@ type: region
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-01
-revision_count: 3
+updated: 2026-07-19
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network]
+related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, somatosensory-cortex, mechanoreceptor]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism, Q-dan-01]
-source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS]
+source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-19-somatosensory-cortex-body-map]
 key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752"]
 ---
 
@@ -45,8 +45,14 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - PFC→TRN 大型端钮（驱动型），感觉皮层→TRN 小型端钮（调制型）
 
 ### 3. 一次视丘核（First-Order Nuclei）
-- LGN（外侧膝状体，视觉）；VPM（腹后内核，触觉/本体）；MGN（内侧膝状体，听觉）
+- LGN（外侧膝状体，视觉）；**VPL**（腹后外侧核，躯干/四肢体感）；**VPM**（腹后内侧核，面部/三叉体感）；MGN（内侧膝状体，听觉）
 - 驱动输入来自外周感觉通路末梢
+
+**VPL/VPM 体感中继（2026-07-19更新）**：
+- **VPL**（ventral posterior lateral）：接受内侧丘系（medial lemniscus）输入，来自躯干和四肢的精细触觉/本体感觉（FA/SA型Aβ纤维→背柱→延髓薄/楔束核→交叉→内侧丘系→VPL）
+- **VPM**（ventral posterior medial）：接受三叉神经脑干核（trigeminal nuclei）输入，代表面部、口腔、牙齿（三叉神经体感）；同时接受来自胡须的桶小体（barreloids）输入，是大鼠/小鼠桶状皮层系统的上级
+- 两者均投射到S1（中央后回），VPL→主要到3b/1区（躯干四肢），VPM→主要到3b（面部）
+- 与视觉（LGN）和听觉（MGN）不同，VPL/VPM保留了机械感受器的类型特异性：FA型和SA型传入的功能分离在丘脑层面已部分保留
 
 ### 4. 高次视丘核（Higher-Order Nuclei）
 - 枕核（Pulvinar）：视觉系统，连接全视觉皮层层级；灭活→V1 反应几乎消失（Purushothaman 2012, PMID: 22561455）
@@ -106,6 +112,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - 2026-06-30 · 修订（rev2） · 基于文章 #66《视丘的双面人格》· 更新"双模放电"小节：加入 Borden 2022 清醒因果实验结果（爆发→时序精度↑非幅度↑）和 Whitmire 2016 爆发-强直连续谱；更新 Q-thalamus-burst-awake 状态为"部分回答"；新增 key_sources 2 条
 
 - 2026-07-01 · 修订（rev3） · 基于文章 #67《空间注意的神经回路》· 新增 DAN（FEF/IPS）→TRN 通路作为皮层注意信号向下传递的接口；回答了 Q-thalamus-gating-mechanism 中关于 FEF→TRN 感觉门控的部分机制；related 新增 dorsal-attention-network；新增 Q-dan-01 交叉引用
+- 2026-07-19 · 修订（rev4） · 基于文章 #87《皮肤之上的地图》· 扩充"一次视丘核"小节，加入VPL/VPM体感中继的详细描述（机械感受器类型特异性在丘脑的保留、VPL→S1躯干四肢 vs VPM→S1面部的投射分工、桶小体barreloids）；related新增somatosensory-cortex/mechanoreceptor
 
 ## 来源文章
 

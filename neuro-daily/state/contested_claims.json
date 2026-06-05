@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 3,
+  "open_count": 7,
   "resolved_count": 0,
   "claims": [
     {
@@ -92,8 +92,18 @@
       "source_article": "2026-07-11-lateral-habenula-depression-ketamine",
       "priority": "medium",
       "note": "Yang 2018 和 Ma 2023 的证据来自大鼠体内实验（光遗传+行为），而 Frontiers 2026 的反证来自小鼠离体实验；两种设置的直接对照研究缺失；若 NMDA 非必需，则氯胺酮的快速抗抑郁机制需要替代解释"
+    },
+    {
+      "id": "C-2026-07-19-01",
+      "label": "C-MAP-01",
+      "page": "wiki/concepts/cortical-map-plasticity.md",
+      "claim_A": "皮层重组（截肢后面区入侵手区）→激活面区触摸时混乱感觉→幻肢痛。来源：Flor et al. 2001 Lancet PMID:11403816；面区移位与VAS幻肢痛评分正相关，感觉辨别训练逆转重组+减痛",
+      "claim_B": "保持幻手功能表征（手区持续活动）可能镇痛；皮层重组可能是幻肢痛的共同结果而非原因，或二者均由第三因素（外周残端伤害性传入、中枢敏化）驱动。来源：Makin & Flor 2020 NeuroImage PMID:32428706",
+      "nature": "解释框架差异：Flor模型（皮层重组→疼痛）vs Makin修订（双向或非因果相关）。数据层面相关性在多研究一致；干预研究（同时减痛+逆转重组）提供部分因果证据，但样本小(n=10+9)。需大样本纵向干预RCT裁决。",
+      "status": "open",
+      "opened": "2026-07-19",
+      "priority": "medium",
+      "related_article": "2026-07-19-somatosensory-cortex-body-map"
     }
-  ],
-  "open_count": 7,
-  "resolved_count": 0
+  ]
 }

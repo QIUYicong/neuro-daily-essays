@@ -1,0 +1,117 @@
+# 运行日志 · 2026-07-19
+
+**虚拟文章日期**：2026-07-19
+**真实执行日期**：2026-06-05（UTC+8 13:00）
+**文章编号**：#87
+**分支**：claude/funny-einstein-DCgGr
+**主题**：体感皮层与身体地图（Somatosensory Cortex & Body Map）
+**课程轨道**：Track 3（大脑如何编码世界）第6篇
+
+---
+
+## 执行状态
+
+- [x] 同步分支，确认仓库
+- [x] 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md
+- [x] 读取状态文件（topic_ledger, contested_claims, unresolved_questions, _graph.json）
+- [x] 确认上一篇为 #86（2026-07-18，听觉皮层），本篇继续为 #87
+- [x] 选题：体感皮层（S1）——Track 3 最后一个主要感觉模态
+- [x] 文献检索（PubMed E-utilities + PMC）
+- [x] 文章写作（~5000字中文）
+- [x] 研究笔记
+- [x] 来源 JSON
+- [x] Wiki 固结（3新建 + 1修订）
+- [x] 图谱更新（_graph.json：168节点，964边）
+- [x] 状态文件更新（topic_ledger, contested_claims, unresolved_questions, source_registry, monthly_synthesis）
+- [x] index.md 更新
+- [x] CHANGELOG.md 更新
+- [ ] git commit（待执行）
+- [ ] git push（待执行）
+
+---
+
+## 检索记录
+
+**搜索词**：
+1. "somatosensory cortex barrel cortex plasticity review" → PubMed → 10 hits
+2. "somatosensory cortex homunculus cortical map plasticity review" → PubMed → 2 hits
+3. "cortical map plasticity phantom limb amputation somatosensory" → PubMed → 3 hits
+4. "(mechanoreceptor OR touch) AND (somatosensory OR haptic) AND review[pt] 2010–2026" → 8 hits
+5. "barrel cortex plasticity stroke remapping" → PMC → multiple
+6. "somatosensory S1 body representation human neuroimaging 2015-2026" → 1 hit
+7. PMC直接访问：PMC2674476（Fox 2009，开放全文）、PMC8233353（Zeiger 2021，开放全文，503部分限制）
+
+**候选来源总数**：约20篇
+**采用**：9篇（2篇开放全文：PMC2674476, PMC8233353）
+**排除原因**：无关主题（寄生虫学等误匹配），重复检索结果，早于2000年的非关键历史文章
+
+---
+
+## 文献质量评估
+
+| 来源 | 质量 | 全文 | 说明 |
+|------|------|------|------|
+| Abraira & Ginty 2013 (PMID:23972592) | 高 | 否 | Neuron综述；LTMRs的权威来源 |
+| McGlone et al. 2014 (PMID:24853935) | 高 | 否 | Neuron综述；CT纤维情感触觉的奠基文章 |
+| Feldmeyer et al. 2013 (PMID:23195880) | 高 | 否 | ProgNeurobiol综述；桶状皮层最全面的综述之一 |
+| Harding-Forrester 2018 (PMID:29519481) | 高 | 否 | 教科书级综述；Feldman lab |
+| Fox 2009 (PMID:19038777) | 高 | **是** | PMC2674476；开放全文读取 |
+| Zeiger et al. 2021 (PMID:34172735) | 高 | **是** | PMC8233353；NatCommun；关键原创研究 |
+| Flor et al. 2001 (PMID:11403816) | 高 | 否 | Lancet RCT；经典幻肢痛干预研究 |
+| Makin & Flor 2020 (PMID:32428706) | 高 | 否 | NeuroImage综述；最新重评 |
+| Henderson et al. 2023 (PMID:37749852) | 中 | 否 | Brain Behav；fMRI meta-分析 |
+
+---
+
+## Wiki 固结记录
+
+**新建（3）**：
+- systems/somatosensory-cortex.md（revision_count=1）
+- neurons/mechanoreceptor.md（revision_count=1）
+- concepts/cortical-map-plasticity.md（revision_count=1，矛盾C-MAP-01）
+
+**修订（1）**：
+- systems/thalamus.md（rev4：VPL/VPM体感中继详细内容）
+
+**矛盾检查**：
+- 新发现矛盾 C-MAP-01（幻肢痛与皮层重组的因果方向，open）
+- 无其他数据层面的矛盾（Zeiger 2021的"无重映射"是新发现，与前述经验依赖可塑性文章不冲突，因为后者讲的是短时程突触变化，前者专门验证"新回路招募"）
+
+**成熟度更新**：
+- somatosensory-cortex：established（核心解剖/功能分区是教科书级）
+- mechanoreceptor：established（四类分型有超过30年的单纤维记录证据）
+- cortical-map-plasticity：established（整体确立，部分机制细节仍争议）
+
+---
+
+## 异常记录
+
+- PMC8233353（Zeiger 2021）在初次访问时返回503，通过重定向URL重试后仍未能完整获取；但从eutils的abstract已获取核心信息
+- 部分搜索（PMC ID搜索）返回了不相关的PMID，已排除
+- Penfield原著（1950）为历史著作，无PMID/DOI，作为历史引用处理
+
+---
+
+## 文章概况
+
+**文件路径**：neuro-daily/articles/2026-07-19-somatosensory-cortex-body-map.md
+**估算字数**：约5200字
+**来源数量**：9篇（含2篇开放全文）
+**核心贡献**：
+1. 四类机械感受器的完整分工描述
+2. 脊髓背柱→延髓→丘脑→S1三段中继路径
+3. S1四亚区（3a/3b/1/2）的功能分工
+4. 感觉人形的含义和皮层放大倍率
+5. 桶状皮层作为模型系统
+6. 皮层地图终生可塑性（截肢/幻肢痛/训练）
+7. 卒中后"回路增强非重映射"（Zeiger 2021）
+8. C触觉纤维的情感触觉通路
+
+---
+
+## commit/push 状态
+
+- branch: claude/funny-einstein-DCgGr
+- commit: 待执行
+- push: 待执行
+- remote: http://local_proxy@127.0.0.1:41605/git/QIUYicong/neuro-daily-essays（正确）

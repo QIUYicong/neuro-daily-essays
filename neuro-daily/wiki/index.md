@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-18（第86篇·大脑如何读懂音调·听觉系统从耳蜗到A1）· 主题页总数：**164**（新建4页：auditory-cortex, tonotopy, ribbon-synapse, phase-locking；图谱165节点、948边；新增Q-aud-01/02/03/04）
+> 最后更新：2026-07-19（第87篇·皮肤之上的地图·体感皮层S1与身体地图）· 主题页总数：**167**（新建3页：somatosensory-cortex, mechanoreceptor, cortical-map-plasticity；修订1页：thalamus rev4（VPL/VPM）；图谱168节点、964边；新增Q-s1-01/02/03；登记矛盾C-MAP-01）
 
 ---
 
@@ -28,6 +28,7 @@
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 唯一常驻免疫细胞，突触可塑性的双刃卫士：发育期 CR3（C3b）+ TREM2（PtdSer）双通路剪枝；成年稳态下 CX3CR1 轴 + 低水平 TNF-α/IL-1β 支持 LTP；激活态高浓度细胞因子（TNFR1/NF-κB、p38/GluA1内吞、STAT3/Arc）系统性损伤 LTP；DAM/TREM2 在 AD 早期保护性清除过活跃突触；慢性应激→小胶质细胞预激→AD 风险放大 **[修订 rev2 2026-07-10]**
+- 🟢 [皮肤机械感受器（LTMR）](neurons/mechanoreceptor.md) — 四类Aβ型LTMRs（FA-I梅斯纳/SA-I默克尔/SA-II鲁菲尼/FA-II环层）并行编码触觉不同维度；CT无髓C纤维→岛叶情感触觉；PIEZO2是SA-I/本体感觉的MET通道（诺贝尔2021）；密度梯度直接对应皮层放大倍率 **[NEW 2026-07-19 #87]**
 
 ## circuits（回路）
 
@@ -178,6 +179,7 @@
 - 🟢 [喙内侧被盖核（RMTg）](systems/rmtg.md) — LHb→DA 负反馈的 GABA 能中继核团；接收 LHb 谷氨酸能输入并抑制 94% 的 VTA/SNc 多巴胺神经元（Hong 2011）；是 DA-RPE 负预测误差臂的回路级执行者 **[NEW 2026-07-11 #79]**
 - 🟢 [嗅觉系统](systems/olfactory-system.md) — 哺乳动物唯一不经丘脑中转的感觉系统；三层计算架构：受体层（ORN 单受体规则、组合编码）→嗅球层（嗅小球汇聚图谱、侧抑制）→梨状皮层层（稀疏符合探测）；直接投射杏仁核和内嗅皮层是 Proustian 效应的解剖基础 **[NEW 2026-07-17 #85]**
 - 🟢 [听觉皮层（A1 / 核心-带状-旁带状）](systems/auditory-cortex.md) — 初级听觉皮层（A1）保留耳蜗频率-位置音调拓扑；核心→带状→旁带状层级中响应潜伏期依次增大（chronotopy）；局部感受野异质性（~37%非单纯型细胞）超越整体频率梯度；双流类比视觉系统；与语言网络直接相连 **[NEW 2026-07-18 #86]**
+- 🟢 [初级体感皮层（S1）](systems/somatosensory-cortex.md) — 位于中央后回，四亚区3a（本体感觉）/3b（主触觉门户）/1区（纹理/运动方向）/2区（形状识别）；感觉人形（homunculus）：皮层放大倍率正比行为重要性；桶状皮层：一根胡须→一个桶柱，最清晰的感觉拓扑模型；终生地图可塑性：使用驱动扩张/截肢后邻区入侵/训练诱导重组；卒中后恢复为已有回路增强非重映射 **[NEW 2026-07-19 #87]**
 
 ## methods（方法）
 
@@ -198,6 +200,7 @@
 - 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退；新增：SCN退化→皮质醇节律崩溃→HPA级联→海马损伤加速（GC级联与AD汇聚）（修订rev7 2026-07-09）**[NEW 2026-06-08]**
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
 
+- 🟢 [皮层地图可塑性](concepts/cortical-map-plasticity.md) — 成体皮层拓扑地图随经验/损伤/训练动态重组；机制：突触LTP/LTD（非轴突出芽）；截肢后邻区入侵（面区占领手区）与幻肢痛；感觉辨别训练逆转重组（RCT，Lancet）；卒中后：已有回路增强非功能重映射（Zeiger 2021 Nat Commun）；登记矛盾C-MAP-01（幻肢痛因果方向open） **[NEW 2026-07-19 #87]**
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
 - 🟢 [物质使用障碍（成瘾）](diseases/substance-use-disorder.md) — 三阶段模型（基底节陶醉期/扩展杏仁核戒断负性情绪/PFC渴望期）；ΔFosB 分子开关；NAc CP-AMPA 渴望孵化；D2 受体下调（PET 跨物质一致）；激励显著性 wanting/liking 神经分离 **[NEW 2026-07-14]**
 
