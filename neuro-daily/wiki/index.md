@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-27（第95篇·髓鞘化与少突胶质细胞可塑性）· 主题页总数：**189**（新建2页：oligodendrocyte, myelination；修订3页：action-potential rev4、dopamine-reward-prediction-error rev8、critical-period；图谱195节点、1122边）
+> 最后更新：2026-07-28（第96篇·记忆再巩固）· 主题页总数：**190**（新建1页：memory-reconsolidation；修订2页：memory-consolidation rev8、engram-cells rev6；图谱196节点、1133边）
 
 ---
 
@@ -79,7 +79,8 @@
 - 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失（修订5次）
 - 🔵 [神经元分配（记忆分配）](concepts/memory-allocation.md) — CREB/内在兴奋性竞争决定哪些神经元进入印迹；零和竞争；PV+侧向抑制赢家通吃；表观遗传前置层（H3K27ac）；训练后5min巩固窗口 **[NEW 2026-07-05]**
 - 🟡 [记忆联结](concepts/memory-linking.md) — 时间接近（~6h）的两段学习因共享高兴奋性印迹神经元而实现联结；Cai 2016 CA1钙成像直接证据；老年小鼠联结缺陷→DREADD救援；scFLARE2精确时间边界（3h vs 27h）**[NEW 2026-07-05]**
-- 🟢 [记忆巩固（系统层面）](concepts/memory-consolidation.md) — SWR驱动的海马→皮层记忆转移；SO-spindle-SWR三重耦合（Maingret 2016因果证据）；SHY down-selection 统一主动巩固与稳态下调；老龄化耦合解锁机制（mPFC萎缩）；SCT vs MTT理论争论**[修订 2026-07-07]**
+- 🟢 [记忆巩固（系统层面）](concepts/memory-consolidation.md) — SWR驱动的海马→皮层记忆转移；SO-spindle-SWR三重耦合（Maingret 2016因果证据）；SHY down-selection 统一主动巩固与稳态下调；老龄化耦合解锁机制（mPFC萎缩）；SCT vs MTT理论争论；**新增：再巩固作为第三种巩固类型 [修订 2026-07-28]**
+- 🟢 [记忆再巩固](concepts/memory-reconsolidation.md) — 已巩固记忆在提取后短暂回到蛋白质合成依赖状态（Nader 2000 Nature）；去稳定化机制：GluA2内吞+UPS激活；再稳定化：CREB/C/EBP/Zif268；预测误差是必要条件（Sevenster 2013 Science）；临床应用：普萘洛尔+创伤激活削弱PTSD记忆；边界条件（强记忆/老记忆耐受）**[NEW 2026-07-28 #96]**
 - 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
 - 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；与海马 NMDA-LTD 共用最终效应器但触发机制根本不同；Schonewille 2011 证明无 LTD 也能运动学习；Hansel 2026 预印本 400ms 时间窗口 **[NEW 2026-06-23]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**

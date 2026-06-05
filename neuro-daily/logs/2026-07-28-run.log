@@ -1,0 +1,161 @@
+# 运行日志 · 2026-07-28
+
+## 基本信息
+
+- **知识库虚拟日期**：2026-07-28
+- **真实执行时间**：2026-06-05（UTC+8）
+- **文章编号**：#96
+- **文章标题**：记忆的活书稿：每次提取都会让记忆变得脆弱——再巩固现象揭示的大脑真相
+- **文章 slug**：memory-reconsolidation
+- **执行代理**：Claude claude-sonnet-4-6
+- **目标分支**：main
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json：最后条目 2026-07-27（#95 髓鞘化），total_articles=93（header 待更新）
+- 层级覆盖分析：分子/突触层最近一次覆盖在 2026-07-03（#69），共 25 天空缺；认知/社会层连续覆盖过多（#88–#95 8篇中5篇为认知层）
+- 决策：选择分子/突触/细胞层主题，填补 memory-reconsolidation 悬空引用
+
+---
+
+## B. 主题选择
+
+**候选**：
+1. 记忆再巩固（memory reconsolidation）——分子/突触/行为，填补 engram-cells/memory-consolidation 的悬空引用
+2. 突触可塑性元规则（metaplasticity）——BCM 规则，分子/突触层
+3. 内源性大麻素系统（endocannabinoid）——逆行抑制，分子/突触层
+
+**选择**：记忆再巩固——最高优先级，原因：
+- engram-cells.md 已有 [[memory-reconsolidation]] 引用（rev6 修订时同步添加）
+- memory-consolidation.md 中"两种巩固"需要升级为"三种巩固"
+- 知识库完整性：若不建立此页面，现有 engram-cells + memory-consolidation 形成逻辑断层
+
+---
+
+## C. 文献检索
+
+### 检索策略
+
+**工具**：NCBI E-utilities API（esearch.fcgi + efetch.fcgi + elink.fcgi），PubMed Central 直接访问
+
+**主检索词**：
+1. "memory reconsolidation molecular mechanism" → 返回 20 结果，选择 Nader 2000、Ferrara 2019
+2. "reconsolidation destabilization GluA2" → 返回 10 结果，确认 Ferrara 2019 (PMID:30914678)
+3. "Alberini reconsolidation" → 返回 10 结果，确认 Alberini & Kandel 2015 (PMID:25475090)
+4. "prediction error reconsolidation boundary" → 返回 12 结果，确认 Sevenster 2013 (PMID:23413355)
+5. "propranolol fear memory reconsolidation PTSD" → 返回 8 结果，确认 Debiec & LeDoux 2004 (PMID:15501585)
+
+### 错误与解决
+
+- **初始 PubMed HTML URL 404**：直接访问 HTML 页面被拒绝，改用 E-utilities API
+- **PMC eSearch 返回 PMID 而非 PMCID**：改用 elink.fcgi 获取 PMC→PMID 映射，直接访问已知 PMC URL
+
+### 来源汇总
+
+| ID | PMID | 类型 | 开放全文 |
+|----|------|------|---------|
+| S1 | 10963596 | 原始论文（Nature）| 否（摘要）|
+| S2 | 30914678 | 原始论文（Scientific Reports）| 是（PMC6435726）|
+| S3 | 25475090 | 综述（Cold Spring Harb Perspect）| 是（PMC4292167）|
+| S4 | 22341662 | 综述（Trends Neurosci）| 是（PMC3348400）|
+| S5 | 23413355 | 原始论文（Science）| 否（摘要）|
+| S6 | 27885549 | 综述（Annu Rev Neurosci）| 否（摘要）|
+| S7 | 29474957 | 原始论文（PLOS ONE）| 否（摘要）|
+| S8 | 32097575 | 原始论文（PNAS）| 否（摘要）|
+| S9 | 15501585 | 原始论文（J Neurosci）| 否（摘要）|
+| S10 | 33422289 | 原始论文（Nat Commun）| 否（摘要）|
+| S11 | 22461616 | 综述（Pharmacol Rev）| 否（摘要）|
+| S12 | 15316794 | 原始论文（Nat Neurosci）| 否（摘要）|
+
+**满足条件**：≥5 来源（12篇）✓，≥2 开放全文（3篇：S2/S3/S4）✓，≥1 官方机构来源（Cold Spring Harbor，NCBI）✓
+
+---
+
+## D. 文章写作
+
+- **字符数**：约 5000 字（含 Markdown 格式，中文字符）
+- **章节**：核心问题、背景（经典巩固模型）、Nader 2000 里程碑、分子机制（去稳定化/再稳定化）、预测误差、边界条件、比喻、临床应用（PTSD/成瘾）、改变理解、争议未解、与AI对照、概念卡片、认知地图更新、参考来源
+- **文章路径**：neuro-daily/articles/2026-07-28-memory-reconsolidation.md
+
+---
+
+## E. Wiki 巩固
+
+### 新建页面
+
+- `wiki/concepts/memory-reconsolidation.md`（revision_count=1，established/high）
+  - 分子机制：去稳定化链（NMDAR→GluA2内吞→UPS→支架蛋白降解），再稳定化链（CREB/C/EBPδ/Zif268→蛋白合成→AMPAR重插入）
+  - 预测误差：Sevenster 2013 的完全匹配不触发再巩固发现
+  - 边界条件：强度、年龄（GluN2A/GluN2B）、时间、无PE
+  - 临床应用：普萘洛尔-PTSD（Debiec 2004），成瘾（Zhai 2008）
+  - 开放问题：Q-recon-01~04
+
+### 修订页面
+
+- `wiki/concepts/memory-consolidation.md`（rev7→rev8）
+  - "两种巩固不可混淆" → "三种巩固不可混淆"（新增再巩固）
+  - related：新增 memory-reconsolidation
+  - 连接节：新增 [[memory-reconsolidation]] 条目
+
+- `wiki/concepts/engram-cells.md`（rev5→rev6）
+  - 当前理解：新增"再巩固作为印迹修改的窗口"段落（GluA2内吞→6h窗口；再巩固失败=真实消除，区别于沉默印迹）
+  - related：新增 memory-reconsolidation
+  - 连接节：新增 [[memory-reconsolidation]] 条目
+
+---
+
+## F. 知识图谱更新
+
+- **节点数**：195 → 196（+1：memory-reconsolidation）
+- **边数**：1122 → 1133（+11 条新边）
+- **新边**：
+  - memory-reconsolidation → memory-consolidation（mechanism-of）
+  - memory-reconsolidation → engram-cells（mechanism-of）
+  - memory-reconsolidation → ltp（related）
+  - memory-reconsolidation → ltd（related）
+  - memory-reconsolidation → ampa-receptor（mechanism-of）
+  - memory-reconsolidation → nmda-receptor（mechanism-of）
+  - memory-reconsolidation → fear-conditioning（related）
+  - memory-reconsolidation → fear-extinction（related）
+  - memory-reconsolidation → dopamine-reward-prediction-error（related）
+  - memory-reconsolidation → incubation-of-craving（related）
+  - memory-reconsolidation → sharp-wave-ripples（related）
+
+---
+
+## G. 治理状态更新
+
+- topic_ledger.json：新增条目 #96，header 更新（last_updated=2026-07-28，total_articles=96）
+- unresolved_questions.md：新增 Q-recon-01~04
+- source_registry.json：新增 12 来源，total_count 393→405，_last_updated 更新
+- monthly_synthesis.md：新增 #96 日条目，本月截至日期更新至 2026-07-28，表格新增行
+- wiki/index.md：新增 memory-reconsolidation 词条，计数更新（190页/196节点/1133边）
+- wiki/CHANGELOG.md：新增 2026-07-28 节
+
+---
+
+## H. 自查清单
+
+- [x] 所有 wiki 页面声明均有 PMID 标注来源
+- [x] 未引入新的争议声明（memory-reconsolidation 状态为 established）
+- [x] 开放问题格式正确（Q-recon-01~04）
+- [x] 图谱节点/边计数与 wiki/index.md 一致（196/1133）
+- [x] 插话层（articles/）仅追加，未修改旧文章
+- [x] 所有引用来源均为真实 PMID，无虚构
+- [x] 无 Sci-Hub、无绕过付费墙行为（3篇开放全文均通过官方 PMC URL 获取）
+- [x] 无医疗诊断/治疗/用药建议（临床应用段落明确标注"研究阶段"）
+- [x] 注释文件（notes/、sources/）均已写入
+
+---
+
+## 提交信息
+
+- **Commit 消息**：Add neuro daily article + wiki consolidation for 2026-07-28 (#96 memory-reconsolidation)
+- **分支**：main
+- **推送状态**：待提交
+
+---
+
+*日志生成时间：2026-06-05 UTC+8（真实时间）/ 2026-07-28（知识库虚拟时间）*

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-27",
-  "node_count": 184,
-  "edge_count": 1085,
+  "updated": "2026-07-28",
+  "node_count": 196,
+  "edge_count": 1133,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1768,6 +1768,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/myelination.md"
+    },
+    {
+      "id": "memory-reconsolidation",
+      "title": "记忆再巩固",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/memory-reconsolidation.md"
     }
   ],
   "edges": [
@@ -7858,6 +7867,61 @@
       "from": "saltatory-conduction",
       "to": "action-potential",
       "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "engram-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "ltd",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "ampa-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "nmda-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "fear-conditioning",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "fear-extinction",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "incubation-of-craving",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "sharp-wave-ripples",
+      "type": "related"
     }
   ],
   "dangling_references": [

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-25",
-  "total_articles": 93,
+  "last_updated": "2026-07-28",
+  "total_articles": 96,
   "entries": [
     {
       "date": "2026-07-24",
@@ -5697,6 +5697,36 @@
         ],
         "graph": "195 nodes, 1122 edges"
       }
+    },
+    {
+      "date": "2026-07-28",
+      "real_date": "2026-06-05",
+      "article_number": 96,
+      "title": "记忆的活书稿：每次提取都会让记忆变得脆弱——再巩固现象揭示的大脑真相",
+      "slug": "memory-reconsolidation",
+      "core_question": "已巩固的记忆在提取后为何必须重新合成蛋白质才能再次稳定？去稳定化（GluA2内吞+UPS）与再稳定化（CREB/Zif268）的分子机制是什么？预测误差如何作为触发器？临床应用如何？",
+      "layer": ["molecular", "synaptic", "cellular", "brain-region", "behavior", "cognition"],
+      "topic_tags": ["memory reconsolidation", "Nader 2000", "GluA2 endocytosis", "destabilization", "restabilization", "prediction error", "Sevenster 2013", "propranolol PTSD", "Debiec LeDoux 2004", "Haubrich Nader", "boundary conditions"],
+      "main_sources": [
+        "PMID:10963596 (Nader 2000, Nature)",
+        "PMID:30914678 (PMC6435726, Ferrara 2019, Scientific Reports)",
+        "PMID:25475090 (PMC4292167, Alberini & Kandel 2015)",
+        "PMID:22341662 (PMC3348400, Alberini & Chen 2012)",
+        "PMID:23413355 (Sevenster 2013, Science)",
+        "PMID:27885549 (Haubrich & Nader 2018)"
+      ],
+      "unresolved_questions": ["Q-recon-01", "Q-recon-02", "Q-recon-03", "Q-recon-04"],
+      "next_suggested_topics": [
+        "fear-extinction vs reconsolidation unified mechanism",
+        "PTSD treatment: reconsolidation update + extinction comparison",
+        "multiple sclerosis reconsolidation analogy (synaptic repair)",
+        "reconsolidation in addiction: NAc CP-AMPA and craving"
+      ],
+      "wiki_changes": {
+        "created": ["concepts/memory-reconsolidation.md"],
+        "revised": ["concepts/memory-consolidation.md rev8", "concepts/engram-cells.md rev6"],
+        "graph": "196 nodes, 1133 edges"
+      }
     }
   ],
   "layer_coverage_recent": {
@@ -5708,7 +5738,8 @@
       "2026-06-04",
       "2026-06-10",
       "2026-06-12",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-07-28"
     ],
     "cellular": [
       "2026-05-24",
@@ -5722,7 +5753,8 @@
       "2026-06-12",
       "2026-06-18",
       "2026-07-03",
-      "2026-07-26"
+      "2026-07-26",
+      "2026-07-28"
     ],
     "synaptic": [
       "2026-05-24",
@@ -5732,7 +5764,8 @@
       "2026-06-01",
       "2026-06-04",
       "2026-06-10",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-07-28"
     ],
     "microcircuit": [
       "2026-05-27",
@@ -5746,7 +5779,8 @@
       "2026-06-07",
       "2026-06-11",
       "2026-06-12",
-      "2026-05-31"
+      "2026-05-31",
+      "2026-07-28"
     ],
     "whole_brain_network": [
       "2026-05-29",
@@ -5761,7 +5795,8 @@
       "2026-05-30",
       "2026-05-31",
       "2026-06-02",
-      "2026-06-03"
+      "2026-06-03",
+      "2026-07-28"
     ],
     "cognition": [
       "2026-05-26",
@@ -5775,7 +5810,8 @@
       "2026-06-16",
       "2026-05-31",
       "2026-07-03",
-      "2026-07-26"
+      "2026-07-26",
+      "2026-07-28"
     ],
     "disease": [
       "2026-06-08"

@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-07-05
-revision_count: 5
-dimensions: [cellular, brain-region, behavior, cognition, methods]
-related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons]
+updated: 2026-07-28
+revision_count: 6
+dimensions: [molecular, synaptic, cellular, brain-region, behavior, cognition, methods]
+related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons, memory-reconsolidation]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
 opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence]
 source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-07-05-engram-allocation-memory-competition]
@@ -32,6 +32,8 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 **竞争性分配**是印迹形成的核心规则：具有更高内在兴奋性（由 CREB 活性调控）的神经元在学习时优先被激活，因此优先"赢得"印迹席位。这种兴奋性优势维持数小时，为时间接近的经历之间建立记忆联结提供了细胞基础。
 
 **沉默印迹**是一个关键的新概念（Ryan et al. 2015，PMID:26023136）：当记忆在逆行性遗忘或早期阿尔茨海默症后被"遗忘"时，印迹细胞可能仍保留连接拓扑，但因突触权重（AMPA/NMDA 比值、树突棘密度）降低而无法被自然感觉线索激活——这称为沉默印迹。关键发现：用光遗传学直接激活这些沉默印迹细胞，仍能重现记忆行为，证明**遗忘可以是提取障碍而非存储障碍**。
+
+**再巩固作为印迹修改的窗口**（2026-07-28 新增）：印迹细胞被再激活时，会经历 GluA2 内吞和泛素-蛋白酶体降解（即"再巩固"的去稳定化过程，Ferrara et al. 2019, PMID:30914678）。这6小时内的不稳定窗口正是外部干预（药物、新信息）可以修改印迹细胞突触权重的唯一时机。从这个角度看，**再巩固是印迹的"在线编辑模式"**，在维持印迹整体结构（谁连着谁）的同时，允许突触权重被更新（改变连接强度）。与沉默印迹的"保留拓扑，减弱权重"不同，再巩固的失败（蛋白合成被阻断）会导致印迹的真实消除（Haubrich et al. 2020, PMID:32097575），而非仅仅沉默。
 
 ## 关键机制
 
@@ -84,6 +86,7 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - [[dendritic-computation]] — 树突钙平台电位（BTSP 触发器）可能是印迹细胞快速建立突触增强的机制
 - [[memory-consolidation]] — SWR 重播可能将海马印迹"复制/转移"至皮层印迹（系统巩固假说）
 - [[sharp-wave-ripples]] — SWR 期间印迹细胞以 20 倍速高速重播，推动海马→皮层固化
+- [[memory-reconsolidation]] — 印迹被再激活时进入再巩固的去稳定化窗口；再巩固是印迹"在线编辑"的分子机会；再巩固失败导致印迹真实消除（区别于沉默印迹）
 
 ## 未解问题
 
@@ -114,6 +117,7 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"印迹细胞分配的竞争机制"小节，将 CREB 竞争纳入嵌套竞争-遴选架构；新增 [[competition-selection-principle]] 到 related 字段
 - 2026-06-09 · 修订 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · 补充 c-fos-tTA 标记系统的技术细节（PMID:24478647 全文，dox 窗口机制，~2-6% DG 细胞稀疏性）；新增 [[optogenetics]] 到 related；补充假记忆实验的完整分子-行为链；将 revision_count 升至 4
 - 2026-07-05 · 修订 · 基于《记忆的竞争法庭》文章（#73）· 分配机制已独立成专页 [[memory-allocation]]，记忆联结已独立成专页 [[memory-linking]]；related 字段新增 memory-allocation、memory-linking、pv-interneurons；key_sources 新增 PMID:29709212、27251287、41470040；重要更新：竞争分配的"时间门控"（训练后 5 min 窗口）和记忆联结（~6h 兴奋性维持窗口）之间的关系在 memory-allocation 和 memory-linking 页面有详细描述
+- 2026-07-28 · 修订 rev6 · 基于《记忆的活书稿》文章（#96）· 当前理解新增"再巩固作为印迹修改的窗口"段落（Ferrara 2019 GluA2内吞+Haubrich 2020记忆消除）；连接节新增 [[memory-reconsolidation]]；related 新增 memory-reconsolidation；dimensions 新增 molecular、synaptic
 
 ## 来源文章
 
