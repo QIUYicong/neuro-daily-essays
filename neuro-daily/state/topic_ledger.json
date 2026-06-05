@@ -1,7 +1,92 @@
 {
-  "last_updated": "2026-07-20",
-  "total_articles": 88,
+  "last_updated": "2026-07-22",
+  "total_articles": 90,
   "entries": [
+    {
+      "date": "2026-07-22",
+      "title": "大脑的内置罗盘：头向细胞与边界细胞如何完成空间导航的最后两块拼图",
+      "filename": "2026-07-22-head-direction-cells-border-cells.md",
+      "wiki_pages_created": [
+        "wiki/systems/head-direction-cells.md",
+        "wiki/concepts/border-cells.md",
+        "wiki/concepts/ring-attractor.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/path-integration.md (rev2: 新增 head-direction-cells 和 border-cells 为已填补的相关节点)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "头向细胞如何通过环形吸引子网络（前庭驱动+视觉锚定）在大脑内部维持稳定的方向表征？边界细胞如何通过沿墙壁全长放电校正路径整合漂移？两者如何与场所细胞和网格细胞共同构成完整的大脑GPS四元组？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（Track 3 空间导航完成篇：填补空间导航四元组中头向细胞/边界细胞两个缺失节点；path-integration.md 的 head-direction-cells 悬空引用今日填补；与已有的 place-cells/grid-cells/path-integration/entorhinal-cortex 形成完整空间导航知识图）；层级：细胞/微回路/脑区/行为/认知",
+      "topic_tags": [
+        "head direction cells",
+        "border cells",
+        "boundary vector cells",
+        "ring attractor",
+        "continuous attractor network",
+        "anterior dorsal nucleus ADN",
+        "postsubiculum PoS",
+        "retrosplenial cortex RSC",
+        "dorsal tegmental nucleus DTN",
+        "lateral mammillary nucleus LMN",
+        "Taube 1990",
+        "Solstad 2008",
+        "Lever 2009",
+        "Peyrache 2015",
+        "Zhang 1996",
+        "Shine 2016",
+        "Cullen Taube 2017",
+        "path integration",
+        "conjunctive cells",
+        "vestibular system",
+        "BVC model",
+        "O'Keefe Burgess 1996",
+        "spatial navigation",
+        "head direction tuning",
+        "preferred direction",
+        "tuning width",
+        "angular head velocity",
+        "landmark anchoring",
+        "drift correction"
+      ],
+      "main_sources": [
+        "PMID:2303851 (Taube et al. 1990a J Neurosci, HD cells in postsubiculum Part I)",
+        "PMID:2303852 (Taube et al. 1990b J Neurosci, HD cells Part II environmental manipulations)",
+        "PMID:7823153 (Taube 1995 J Neurosci, ADN head direction cells)",
+        "PMID:17341158 (Taube 2007 Annu Rev Neurosci, comprehensive HD review, DOI:10.1146/annurev.neuro.29.051605.112854)",
+        "PMID:16675704 (Sargolini et al. 2006 Science, conjunctive cells in MEC)",
+        "PMID:19095945 (Solstad et al. 2008 Science, border cells in MEC)",
+        "PMID:19657030 (Lever et al. 2009 J Neurosci, BVCs in subiculum)",
+        "PMID:25706474 (Peyrache et al. 2015 Nat Neurosci, internally organized HD dynamics)",
+        "PMID:8604055 (Zhang 1996 J Neurosci, ring attractor theory)",
+        "PMID:8632799 (O'Keefe & Burgess 1996 Nature, BVC theoretical prediction)",
+        "PMID:27307227 (Shine et al. 2016 J Neurosci, human RSC+thalamus HD coding fMRI)",
+        "PMID:29073639 (Cullen & Taube 2017 Nat Neurosci, HD controversies review)"
+      ],
+      "unresolved_questions": [
+        "Q-hd-01 (新增，高优先级：HD信号的首发地DTN vs LMN的光遗传学分离实验)",
+        "Q-hd-02 (新增，中优先级：重映射时HD系统是否同步重映射还是保持稳定)",
+        "Q-hd-03 (新增，低优先级：人类iEEG单细胞头向调谐的系统性寻找)",
+        "Q-bc-01 (新增，高优先级：边界细胞重置网格吸引子的因果实验证明)",
+        "Q-bc-02 (新增，中优先级：边界细胞快速响应新边界的感觉模态来源)"
+      ],
+      "next_suggested_topics": [
+        "皮层层状结构与皮层柱（cortical layers and columns）：桶状皮层 L4→L2/3→L5 回路是皮层柱的精确实例；Mountcastle 皮层柱假说的支持与挑战；6层皮层的一般组织原理；前馈（L4←丘脑→L2/3）与反馈（L6←高级皮层）解剖",
+        "速度细胞与时间细胞（speed cells & time cells）：完成空间/时间导航编码套件；与海马时序记忆的联结；Track 3/4 交汇",
+        "前馈/反馈皮层层级（feedforward vs feedback cortical hierarchy）：V1→V2→V4→IT 层级的前馈感觉处理；高级→低级的调制型反馈；预测编码框架的解剖基础（与Track 8直接联结）",
+        "感觉皮层的工作记忆延续（WM in sensory cortex）：Track 5 工作记忆与 Track 3 感觉编码的交汇；感觉皮层是否参与短时间维持（Romo 1999）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 90,
+      "note": "系统时钟UTC+8=2026-06-05（真实执行日期）；知识库虚拟日期2026-07-22；继承自2026-07-21（第89篇，α振荡）；本篇填补 Track 3 空间导航知识图的最后两个关键节点（head-direction-cells, border-cells），完成空间导航四元组；关键跨领域桥梁：环形吸引子↔CA3离散吸引子（同一计算原理，不同参数）；边界细胞↔路径整合漂移校正（物理-计算映射）；头向细胞回路（ADN）↔丘脑-皮层回路（睡眠纺锤波的TRN-TC系统）"
+    },
     {
       "date": "2026-07-20",
       "title": "感官交响曲：大脑如何将五路信号融合为统一现实——多感觉整合的计算神经科学",

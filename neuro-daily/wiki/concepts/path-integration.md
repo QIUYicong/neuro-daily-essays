@@ -6,8 +6,8 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
+updated: 2026-07-22
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, behavior]
 related: [grid-cells, place-cells, entorhinal-cortex, head-direction-cells, theta-oscillations, cognitive-map]
 prerequisites: [grid-cells, entorhinal-cortex, vestibular-system]
@@ -75,6 +75,8 @@ McNaughton等2006（PMID: 16858394）的主流计算模型：
 - [[entorhinal-cortex]] — 路径整合的主要神经底层位于MEC
 - [[cognitive-map]] — 路径整合是认知地图自主更新的机制，使地图不依赖外部输入
 - [[theta-oscillations]] — 振荡干涉模型中，θ振荡参与路径整合状态的相位更新
+- [[head-direction-cells]] — 头向细胞（ADN-PoS-MEC深层）提供路径整合必需的方向分量；联合细胞将HD×速度整合进坐标更新
+- [[border-cells]] — 边界细胞是路径整合漂移的外部锚点：动物到达墙壁时边界细胞激活，校正网格吸引子的累积误差
 
 ## 未解问题
 
@@ -83,7 +85,9 @@ McNaughton等2006（PMID: 16858394）的主流计算模型：
 ## 修订历史
 
 - 2026-06-22 · 创建 · 基于《六边形的秘密》文章 · 初始置信度：高
+- 2026-07-22 · 修订 rev2 · 基于《大脑的内置罗盘》文章 #90 · 新增 head-direction-cells 和 border-cells 为已填补的相关节点（原为悬空引用）；修订历史追加 · 来源：PMID:2303851, PMID:19095945
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
+- [[2026-07-22-head-direction-cells-border-cells]]

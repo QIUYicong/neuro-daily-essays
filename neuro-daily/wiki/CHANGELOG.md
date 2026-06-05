@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-22 · 文章 #90 · 大脑的内置罗盘：头向细胞与边界细胞完成空间导航四元组
+
+**核心主题**：头向细胞（Head Direction Cells）与边界细胞（Border Cells/BVCs）——大脑 GPS 系统的方向编码器和边界传感器，完成空间导航四元组（场所细胞/网格细胞/头向细胞/边界细胞）。头向细胞回路（DTN→LMN→ADN→PoS→RSC→MEC深层）以环形吸引子机制由前庭系统驱动，由视觉地标锚定；Peyrache 2015（PMID:25706474）证明 ADN 群体相干旋转说明吸引子内在动力学。边界细胞（Solstad 2008 MEC；Lever 2009 下托）是 O'Keefe & Burgess 1996 BVC 理论的实验验证，拉伸实验证明边界特异性；计算模型提示边界细胞通过重置网格吸引子校正路径整合漂移。
+
+**新建页面（3）**：
+- `systems/head-direction-cells.md` rev1 — 头向细胞：首选方向/调谐宽度~90°/位置无关；DTN-LMN-ADN-PoS-RSC-MEC回路；环形吸引子内在动力学（Peyrache 2015）；前庭驱动+视觉锚定（established, confidence:high）
+- `concepts/border-cells.md` rev1 — 边界细胞：MEC（Solstad 2008）+下托（Lever 2009）；边界特异性/拉伸实验；BVC模型；路径整合误差校正；对新边界秒级响应（established, confidence:high）
+- `concepts/ring-attractor.md` rev1 — 环形吸引子网络：距离依赖兴奋-抑制；稳定活跃峰；角速度驱动旋转；Zhang 1996 理论+Peyrache 2015 实验；与CA3离散吸引子的对比（established, confidence:high）
+
+**修订页面（1）**：
+- `concepts/path-integration.md` rev2 — 新增 head-direction-cells 和 border-cells 为已填补的相关节点（原为悬空引用 head-direction-cells）；修订历史追加；updated→2026-07-22；revision_count 1→2
+
+**矛盾登记（0）**：今日无新增矛盾。头向细胞的经典放电特性（Taube 1990）和边界细胞的发现（Solstad 2008，Lever 2009）均是多次独立重复的 established 结论。
+
+**解决的悬空引用（1）**：`head-direction-cells`（被 path-integration.md 的 related 列表引用，原为悬空；今日填补）
+
+**新增开放问题（3）**：Q-hd-01（高优先：HD信号首发地DTN vs LMN）、Q-hd-02（中：重映射中HD是否同步重映射）、Q-bc-01（高优先：边界细胞重置网格吸引子的因果机制）
+
+**图谱**：180 节点（+3），1036 边（+18）
+
+---
+
 ## 2026-07-21 · 文章 #89 · 大脑的频闪滤网：α 振荡的脉冲抑制机制与注意力门控
 
 **核心主题**：α 振荡（8–13 Hz）从"皮层闲置"到"主动脉冲抑制"的概念革命（Track 5 认知控制 × Track 3 感觉编码交叉篇）——Jensen & Mazaheri 2010 "Gating by Inhibition" 框架：大脑通过主动抑制无关区域（而非增强目标区域）路由信息；α 脉冲抑制（每 ~100ms GABA 超极化）调控 duty-cycle；空间注意时对侧被忽略枕叶 α 升高（视网膜拓扑特异性，Worden 2000）；预刺激 α 反向预测视觉皮层兴奋性（Romei 2008 TMS 光幻视）；节律性 TMS 10Hz 频率特异性因果诱导视野特异感知抑制（Romei 2010）；跨视觉/体感/听觉的 α 抑制普遍性（Foxe & Snyder 2011）；FEF-IPS α 相干性是 DAN 控制感觉皮层 α 侧向化的振荡载体（van Schouwenburg 2017）；α-γ 互补关系（α 高区 = γ 低区）。

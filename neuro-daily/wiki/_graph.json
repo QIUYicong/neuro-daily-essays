@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-21",
+  "updated": "2026-07-22",
   "node_count": 177,
   "edge_count": 1018,
   "edge_types": [
@@ -1606,6 +1606,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/alpha-oscillations.md"
+    },
+    {
+      "id": "head-direction-cells",
+      "title": "头向细胞",
+      "domain": "systems",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/head-direction-cells.md"
+    },
+    {
+      "id": "border-cells",
+      "title": "边界细胞",
+      "domain": "concepts",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/border-cells.md"
+    },
+    {
+      "id": "ring-attractor",
+      "title": "环形吸引子网络",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ring-attractor.md"
     }
   ],
   "edges": [
@@ -7159,6 +7186,96 @@
     {
       "from": "alpha-oscillations",
       "to": "beta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "grid-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "place-cells",
+      "type": "related"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "border-cells",
+      "type": "related"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "path-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "entorhinal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "attractor-network",
+      "type": "related"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "ring-attractor",
+      "type": "is-a"
+    },
+    {
+      "from": "border-cells",
+      "to": "head-direction-cells",
+      "type": "related"
+    },
+    {
+      "from": "border-cells",
+      "to": "grid-cells",
+      "type": "regulates"
+    },
+    {
+      "from": "border-cells",
+      "to": "place-cells",
+      "type": "supports"
+    },
+    {
+      "from": "border-cells",
+      "to": "path-integration",
+      "type": "regulates"
+    },
+    {
+      "from": "border-cells",
+      "to": "entorhinal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "border-cells",
+      "to": "cognitive-map",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ring-attractor",
+      "to": "head-direction-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ring-attractor",
+      "to": "attractor-network",
+      "type": "is-a"
+    },
+    {
+      "from": "ring-attractor",
+      "to": "grid-cells",
+      "type": "related"
+    },
+    {
+      "from": "ring-attractor",
+      "to": "path-integration",
+      "type": "supports"
+    },
+    {
+      "from": "path-integration",
+      "to": "border-cells",
       "type": "related"
     }
   ],

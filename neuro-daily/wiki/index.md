@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-21（第89篇·大脑的频闪滤网·α振荡/脉冲抑制/注意力门控/FEF-IPS→α侧向化）· 主题页总数：**176**（新建1页：alpha-oscillations；修订2页：dorsal-attention-network rev2, gamma-oscillations rev4；图谱177节点、1018边；新增Q-alpha-01/02/03）
+> 最后更新：2026-07-22（第90篇·大脑的内置罗盘·头向细胞/边界细胞/环形吸引子/空间导航四元组完成）· 主题页总数：**179**（新建3页：head-direction-cells, border-cells, ring-attractor；修订1页：path-integration rev2；图谱180节点、1036边；新增Q-hd-01/02, Q-bc-01）
 
 ---
 
@@ -59,7 +59,9 @@
 - 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重耦合）；Maingret 2016 闭环因果证据**[修订 2026-07-07]**
 - 🟢 [场所细胞](concepts/place-cells.md) — 海马CA1/CA3位置特异放电神经元；稀疏编码（1–5%激活）；重映射（不同环境正交表征）；θ相位前移实现双重位置编码；SWR期间序列以20倍速重播；是认知地图基本编码单元 **[NEW 2026-06-22]**（填补长期悬空引用）
 - 🟢 [网格细胞](concepts/grid-cells.md) — 内侧内嗅皮层MEC以六边形格点激活的神经元；三参数（间距/方向/相位）完全描述；4–7离散模块比√2；背腹向间距梯度（20cm–1.5m）；路径整合的坐标输出；活跃于心理模拟和概念空间（Qu 2026 Cell：发育成熟预测流体智力）**[NEW 2026-06-22]**（填补长期悬空引用）
-- 🟢 [路径整合](concepts/path-integration.md) — 通过持续积累速度矢量估计当前位置；不依赖外部地标；联合细胞（位置+方向+速度）实现；随时间漂移需地标锚定；是黑暗导航的神经机制 **[NEW 2026-06-22]**
+- 🟢 [路径整合](concepts/path-integration.md) — 通过持续积累速度矢量估计当前位置；不依赖外部地标；联合细胞（位置+方向+速度）实现；随时间漂移需地标锚定；是黑暗导航的神经机制 **[NEW 2026-06-22 · 修订 rev2 2026-07-22：填补 head-direction-cells 和 border-cells 悬空引用]**
+- 🟢 [边界细胞（BVC）](concepts/border-cells.md) — 沿环境边界（墙壁/悬崖/水边）全长放电；MEC（Solstad 2008 Science）+ 下托（Lever 2009 J Neurosci）双区域发现；O'Keefe & Burgess 1996 BVC理论的实验验证；拉伸实验证明边界特异性（而非位置特异性）；计算模型提示校正路径整合漂移的关键锚点 **[NEW 2026-07-22 #90]**（完成空间导航四元组）
+- 🟢 [环形吸引子网络](concepts/ring-attractor.md) — 一维连续吸引子；距离依赖兴奋-抑制形成稳定活跃峰；角速度驱动峰旋转；Zhang 1996 理论（PMID:8604055）+Peyrache 2015 ADN群体相干旋转实验验证；头向细胞系统的计算机制；与CA3离散吸引子对比 **[NEW 2026-07-22 #90]**
 - 🟢 [θ相位前移](concepts/theta-phase-precession.md) — 场所细胞放电相位随穿越场所场系统性提前约100–355°；产生θ序列（125ms内压缩数秒路径）；为STDP提供时间压缩框架；O'Keefe & Recce 1993经典发现；CAN vs OI两机制模型仍未决 **[NEW 2026-06-22]**（填补theta-oscillations页面的phase-precession悬空引用）
 - 🔵 [认知地图](concepts/cognitive-map.md) — 海马-EC构建的空间（及概念）关系内部模型；从Tolman 1948捷径行为到场所/网格双系统；扩展至时间序列（情节记忆）、心理模拟（Bellmund 2016）、概念空间（Viganò 2023）；发育研究证据（Qu 2026）**[NEW 2026-06-22]**
 - 🟢 [睡眠纺锤波](concepts/sleep-spindles.md) — TRN CaV3.3→TRN↔TC振荡→12–15 Hz梭形波；皮层树突L型Ca²⁺预热窗口；SO-spindle-SWR三重奏中间层；CACNA1I变异→精神分裂症纺锤波缺陷；三重耦合因果实验（Latchoumane 2017）；老龄化相位偏移 46.3°→记忆损害（Helfrich 2018）**[修订 2026-07-07]**
@@ -190,6 +192,7 @@
 - 🟢 [听觉皮层（A1 / 核心-带状-旁带状）](systems/auditory-cortex.md) — 初级听觉皮层（A1）保留耳蜗频率-位置音调拓扑；核心→带状→旁带状层级中响应潜伏期依次增大（chronotopy）；局部感受野异质性（~37%非单纯型细胞）超越整体频率梯度；双流类比视觉系统；与语言网络直接相连；输出→pSTS 参与视听整合 **[NEW 2026-07-18 #86 · 修订 rev2 2026-07-20]**
 - 🔵 [后颞上沟（pSTS）](systems/superior-temporal-sulcus.md) — 听觉-视觉皮层之间的多感觉整合枢纽；嘴型偏好区同时偏好人声（联合选择性）；后→前功能梯度（感觉运动整合→语义整合）；ALE荟萃分析确认为跨模态多感觉整合最一致激活的皮层节点；麦格克效应的神经解剖基础 **[NEW 2026-07-20 #88]**
 - 🟢 [初级体感皮层（S1）](systems/somatosensory-cortex.md) — 顶叶后中央回四子区（3a本体感觉/3b触觉/1质地振动/2形状整合）分层处理；皮层版图按受体密度（非解剖面积）分配；成人期可塑性（截肢→皮层重映射，盲文→指尖扩展）；桶状皮层为精确拓扑模型 **[NEW 2026-07-19 #87]**
+- 🟢 [头向细胞](systems/head-direction-cells.md) — 仅在面朝特定方向时放电（调谐宽度~90°，360°全覆盖）；回路：DTN→LMN→ADN→PoS→RSC→MEC深层；环形吸引子内在动力学（Peyrache 2015，睡眠期群体相干游走）；前庭驱动+视觉地标校正；人类fMRI证据（RSC+丘脑，Shine 2016）；大脑的内置罗盘 **[NEW 2026-07-22 #90]**（完成空间导航四元组）
 
 ## methods（方法）
 
