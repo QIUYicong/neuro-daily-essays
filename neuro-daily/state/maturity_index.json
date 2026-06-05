@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-25",
   "levels": [
     "speculative",
     "emerging",
@@ -583,6 +583,38 @@
       "supporting_sources": 5,
       "last_status_change": "2026-07-20",
       "reason": "创建 2026-07-20（文章 #88）。pSTS作为视听整合枢纽有ALE荟萃分析（Scheliga 2022）跨多研究组确认；嘴-声音联合选择性（Zhu & Beauchamp 2017）是具体功能证据；后→前功能梯度是基于多项fMRI研究的工作假说而非直接因果证明。mainstream。"
+    },
+    {
+      "slug": "theory-of-mind",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-07-25",
+      "reason": "创建 2026-07-25（文章 #93）。ToM 行为/发育证据极为坚实（错误信念测试、4岁里程碑在全球跨文化复制）；fMRI神经基底（右侧TPJ、mPFC）多实验室一致；ASD领域临床相关性强。confidence=high。神经机制计算细节仍有争议（Q-tom-01/02），但ToM概念本身是established。"
+    },
+    {
+      "slug": "mentalizing-network",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 6,
+      "last_status_change": "2026-07-25",
+      "reason": "创建 2026-07-25（文章 #93）。核心节点（mPFC、TPJ、pSTS）多实验室fMRI一致；Merchant 2025的108项研究元分析大样本支持；但各节点因果分工（TPJ信念归因 vs 注意重定向）仍有争议（Q-mn-01）；镜像/心智化交互的DCM证据（Sobeh 2025）较新待复现。confidence=medium。"
+    },
+    {
+      "slug": "tpj-temporoparietal-junction",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 4,
+      "last_status_change": "2026-07-25",
+      "reason": "创建 2026-07-25（文章 #93）。Saxe & Kanwisher 2003的功能定位（多控制条件双重解离）10+实验室重复；TMS因果证据中等（部分实验室未重复）；注意重定向 vs 心智化双功能假说仍有亚区域争议（Q-tom-01）。confidence=medium。"
+    },
+    {
+      "slug": "mirror-neurons",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 5,
+      "last_status_change": "2026-07-25",
+      "reason": "修订 2026-07-25（文章 #93，第2次修订）。纳入 Hickok 2009 和 Heyes & Catmur 2022 后，经典「动作理解/读心」假说已被严重削弱。当前共识：MNS支持低层动作区分（非高层意图推断），破镜/自闭症假说无经验支持，模仿因果性参与有证据。ASL起源假说（Heyes）尚缺充分因果实验，故 confidence 维持 medium。"
     }
   ],
   "entries": [

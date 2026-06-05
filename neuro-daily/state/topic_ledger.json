@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-24",
-  "total_articles": 92,
+  "last_updated": "2026-07-25",
+  "total_articles": 93,
   "entries": [
     {
       "date": "2026-07-24",
@@ -19,7 +19,13 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "海马时间细胞如何通过神经元序列激活在记忆间隙中编码时长（MacDonald 2011，PMID:21867888；Pastalkova 2008，PMID:18772431）；内侧内嗅皮层速度细胞如何向空间导航系统实时提供运动速度输入（Kropff 2015，PMID:26176924；脑干通路Carvalho 2020，PMID:32905779）；外侧内嗅皮层群体状态漂移如何在秒到小时尺度提供时间戳（Tsao 2018，PMID:30158699）；人类时间细胞证据（Umbach 2020，PMID:33109718）",
-      "layer": ["cellular", "microcircuit", "brain-region", "behavior", "cognition"],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
       "curriculum_track": "Track 3（大脑如何编码世界）空间/时间导航编码完整套件：填补时间维度（时间细胞）和路径整合速度输入（速度细胞）两个缺口；Track 4（学习和记忆）——情节记忆时空结构的细胞基础；与已有grid-cells/place-cells/head-direction-cells/border-cells形成完整时空导航知识体系；层级：细胞/微回路/脑区/行为/认知",
       "topic_tags": [
         "time cells hippocampus",
@@ -5532,6 +5538,54 @@
       "mode": "long_term_curriculum",
       "article_number": 75,
       "note": "系统时钟UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期2026-07-07；继承自2026-07-06（第74篇，胶质淋巴系统）；本篇填补了长期悬空的 Q-shy-vs-active-consolidation 问题（通过 down-selection 框架部分解答）；新建两个核心睡眠记忆机制节点（so-spindle-swr-coupling、shy-hypothesis）；层级：whole-brain-network/brain-region/cellular/microcircuit/cognition（多层跨越）；11 个来源，5 个开放全文"
+    },
+    {
+      "date": "2026-07-25",
+      "article_number": 93,
+      "title": "大脑如何读懂另一颗大脑：镜像神经元、心智理论与社会预测编码",
+      "core_question": "人类大脑如何在毫秒级时间内理解他人的意图和感受？镜像神经元系统（低层动作区分）与心智化网络（高层信念推断）如何协作，以及两者是否都服务于社会预测编码这一统一计算框架？",
+      "layer": [
+        "cognition",
+        "whole-brain-network",
+        "brain-region",
+        "behavior"
+      ],
+      "topic_tags": [
+        "mirror-neurons",
+        "theory-of-mind",
+        "mentalizing-network",
+        "TPJ",
+        "mPFC",
+        "social-cognition",
+        "predictive-coding",
+        "empathy",
+        "autism"
+      ],
+      "main_sources": [
+        "PMID:8800951",
+        "PMID:15217330",
+        "PMID:12948738",
+        "PMID:14976305",
+        "PMID:19199415",
+        "PMID:34241539",
+        "PMCID:PMC8785302",
+        "PMCID:PMC4041537",
+        "PMCID:PMC12617318"
+      ],
+      "unresolved_questions": [
+        "Q-tom-01",
+        "Q-tom-02",
+        "Q-tom-03",
+        "Q-mn-01",
+        "Q-mn-02",
+        "Q-mirror-01"
+      ],
+      "next_suggested_topics": [
+        "autism-spectrum-social-cognition",
+        "social-reward-prediction-error-striatum",
+        "empathy-anterior-insula-ACC",
+        "joint-attention-shared-intentionality"
+      ]
     }
   ],
   "layer_coverage_recent": {

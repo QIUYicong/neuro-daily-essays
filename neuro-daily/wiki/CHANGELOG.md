@@ -1839,3 +1839,24 @@
 **新增悬空引用（需补）**：无新悬空引用（critical-period所需关联节点均已存在）
 
 **图谱**：133节点，754边（+1节点，+10边）
+
+## 2026-07-25 · 文章 #93 · 大脑如何读懂另一颗大脑：镜像神经元、心智理论与社会预测编码
+
+**核心主题**：社会脑——镜像神经元系统（MNS）的功能重新定位（低层动作区分而非意图理解）+ 心智化网络（TPJ/mPFC/pSTS/TP）的神经回路 + 社会预测编码统一框架（Koster-Hale & Saxe 2013：ToM作为神经预测问题）
+
+**新建页面（3）**：
+- `concepts/theory-of-mind.md`（心智理论）🟡 established/high — 错误信念测试机制、多层次ToM（一阶/二阶/更高阶）、神经底层（TPJ/mPFC/STS）、预测编码框架、与镜像系统的区分；来源：PMID:12948738, PMID:17714666, PMID:34241539, PMID:24012000
+- `concepts/mentalizing-network.md`（心智化网络）🟡 mainstream/medium — mPFC+TPJ+pSTS+TP+PCu节点分工表；层级时间尺度预测（Koster-Hale & Saxe 2013）；与镜像系统的效应连接控制（Sobeh & Shamay-Tsoory 2025 PMCID:PMC12651549）；情感共情 vs 认知共情分离；来源：6项（4项开放全文）
+- `systems/tpj-temporoparietal-junction.md`（颞顶联合区）🟡 mainstream/medium — 右侧TPJ-M的功能特异性（Saxe 2003）；TMS因果证据；108项元分析确认跨范式收敛（Merchant 2025 PMCID:PMC12617318）；双功能（心智化 vs 注意重定向）共存的解剖解释；来源：PMID:12948738, PMID:24012000, PMID:41245222
+
+**修订页面（1）**：
+- `circuits/mirror-neurons.md` rev2 — 大幅更新当前理解：纳入Hickok 2009（8个问题）和Heyes & Catmur 2022（PMC8785302，10年系统综述）；明确功能限于低层动作区分；破镜理论无支持；新增related（theory-of-mind/mentalizing-network/predictive-coding）和Q-mirror-01
+
+**矛盾登记（0）**：镜像神经元理论的争议已在mirror-neurons页面如实呈现，属于既知分歧，无新注册矛盾（旧观点弱化而非新冲突出现）
+
+**新增开放问题**：Q-tom-01（TPJ具体计算角色）、Q-tom-02（mPFC去中心化机制）、Q-tom-03（LLM的"ToM"与生物ToM）、Q-mn-01（mentalizing-network节点因果分工）、Q-mn-02（个体差异预测）、Q-mirror-01（ASL模型因果证据）
+
+**新增悬空引用（需补）**：无新悬空引用
+
+**图谱**：188节点，1090条边（+4节点，+16条边）
+

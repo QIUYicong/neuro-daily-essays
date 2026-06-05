@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-24（第92篇·时间细胞与速度细胞·时空导航坐标系建立）· 主题页总数：**183**（新建2页：time-cells, speed-cells；修订4页：place-cells rev3, grid-cells rev3, entorhinal-cortex rev2, path-integration rev3；图谱184节点、~1085边；新增Q-tc-01/02/03/04）
+> 最后更新：2026-07-25（第93篇·社会脑·镜像神经元与心智理论）· 主题页总数：**186**（新建3页：theory-of-mind, mentalizing-network, tpj-temporoparietal-junction；修订1页：mirror-neurons rev2；图谱188节点、1090边；新增Q-tom-01/02/03、Q-mn-01/02、Q-mirror-01）
 
 ---
 
@@ -154,6 +154,8 @@
 - 🟢 [贝叶斯感觉整合](concepts/bayesian-sensory-integration.md) — MLE 框架：权重∝1/σ²，整合后方差严格 < 任何单路；因果推断层：先估计 P(common cause)；与逆效性法则数学等价；Ernst & Banks 2002 实验验证 **[NEW 2026-07-20 #88]**
 - 🟢 [麦格克效应](concepts/mcgurk-effect.md) — 视觉/ga/+听觉/ba/→感知/da/；前意识自动过程（知道仍无法消除）；pSTS 嘴型-声音联合选择性是神经基础；ASD 中麦格克效应感知减弱 **[NEW 2026-07-20 #88]**
 - 🟢 [α 振荡](concepts/alpha-oscillations.md) — 人类清醒脑电最强节律（8–13 Hz）；通过脉冲抑制（每~100ms GABA超极化）主动压制非目标感觉区域；空间注意时对侧被忽略枕叶α升高；rhTMS 10Hz 因果诱导感知抑制（Romei 2010）；α 高区 = γ 低区（主动抑制）；FEF-IPS DAN 通过 α 相干性指挥枕叶 α 侧向化；跨视觉/体感/听觉系统普遍 **[NEW 2026-07-21 #89]**
+- 🟢 [心智理论（Theory of Mind）](concepts/theory-of-mind.md) — 将他人理解为拥有信念/欲望/意图的心理行为体；4岁错误信念测试里程碑；神经基底：右侧TPJ（信念归因专用）+mPFC（去中心化）+STS（入口）；ToM≠镜像神经元（低层动作共享≠高层信念推断）；预测编码框架：大脑前瞻性预测他人心理状态 **[NEW 2026-07-25 #93]**
+- 🔵 [心智化网络（Mentalizing Network）](concepts/mentalizing-network.md) — dmPFC/vmPFC/TPJ/pSTS/TP/楔前叶六节点网络；高阶社会推断的神经底层；层级时间尺度预测（STS毫秒级→TPJ分钟级→mPFC月年级）；镜像系统提供动作共享冲动，心智化网络评估适宜性（Sobeh 2025 DCM）；与DMN高度重叠（休息时=社会心智模拟）；情感共情（AI/ACC）vs认知共情（TPJ/mPFC）双分离 **[NEW 2026-07-25 #93]**
 
 ## motor（运动系统）
 
@@ -163,7 +165,7 @@
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**
 - 🟡 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；动力学引擎而非参数地图；RNN训练后自发出现相同结构 **[NEW 2026-06-21]**
 - 🟡 [输出零空间](concepts/output-null-space.md) — 准备活动集中在对肌肉无效的零空间子空间（调谐比4.5×）；几何机制解释准备不触发运动 **[NEW 2026-06-21]**
-- 🟡 [镜像神经元](circuits/mirror-neurons.md) — F5区17%神经元在执行+观察同一有目标动作时均激活（Gallese/Rizzolatti 1996）；F5/BA44同源；语言演化的动作理解假说 **[NEW 2026-06-21]**
+- 🔵 [镜像神经元](circuits/mirror-neurons.md) — F5区~17%神经元在执行+观察同一有目标动作时均激活（Gallese 1996）；功能定位修订：MNS支持低层动作区分（非高层意图推断）；破镜/自闭症假说无支持；起源：关联序列学习（Heyes & Catmur 2022）**[修订 rev2 2026-07-25 #93]**
 
 ## language（语言）
 
@@ -195,6 +197,7 @@
 - 🟢 [嗅觉系统](systems/olfactory-system.md) — 哺乳动物唯一不经丘脑中转的感觉系统；三层计算架构：受体层（ORN 单受体规则、组合编码）→嗅球层（嗅小球汇聚图谱、侧抑制）→梨状皮层层（稀疏符合探测）；直接投射杏仁核和内嗅皮层是 Proustian 效应的解剖基础 **[NEW 2026-07-17 #85]**
 - 🟢 [听觉皮层（A1 / 核心-带状-旁带状）](systems/auditory-cortex.md) — 初级听觉皮层（A1）保留耳蜗频率-位置音调拓扑；核心→带状→旁带状层级中响应潜伏期依次增大（chronotopy）；局部感受野异质性（~37%非单纯型细胞）超越整体频率梯度；双流类比视觉系统；与语言网络直接相连；输出→pSTS 参与视听整合 **[NEW 2026-07-18 #86 · 修订 rev2 2026-07-20]**
 - 🔵 [后颞上沟（pSTS）](systems/superior-temporal-sulcus.md) — 听觉-视觉皮层之间的多感觉整合枢纽；嘴型偏好区同时偏好人声（联合选择性）；后→前功能梯度（感觉运动整合→语义整合）；ALE荟萃分析确认为跨模态多感觉整合最一致激活的皮层节点；麦格克效应的神经解剖基础 **[NEW 2026-07-20 #88]**
+- 🔵 [颞顶联合区（TPJ）](systems/tpj-temporoparietal-junction.md) — 颞叶/顶叶/枕叶交界皮层；双功能：右侧TPJ-M专用于信念归因（Saxe 2003，10+实验室重复）+腹侧注意网络（意外刺激→注意重定向）；TMS抑制右侧TPJ因果损害信念-道德判断；108项研究元分析收敛激活（Merchant 2025）；预测编码下行为可预测性↓时激活↑ **[NEW 2026-07-25 #93]**
 - 🟢 [初级体感皮层（S1）](systems/somatosensory-cortex.md) — 顶叶后中央回四子区（3a本体感觉/3b触觉/1质地振动/2形状整合）分层处理；皮层版图按受体密度（非解剖面积）分配；成人期可塑性（截肢→皮层重映射，盲文→指尖扩展）；桶状皮层为精确拓扑模型 **[NEW 2026-07-19 #87]**
 - 🟢 [头向细胞](systems/head-direction-cells.md) — 仅在面朝特定方向时放电（调谐宽度~90°，360°全覆盖）；回路：DTN→LMN→ADN→PoS→RSC→MEC深层；环形吸引子内在动力学（Peyrache 2015，睡眠期群体相干游走）；前庭驱动+视觉地标校正；人类fMRI证据（RSC+丘脑，Shine 2016）；大脑的内置罗盘 **[NEW 2026-07-22 #90]**（完成空间导航四元组）
 

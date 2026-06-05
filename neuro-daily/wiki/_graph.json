@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-24",
+  "updated": "2026-07-25",
   "node_count": 184,
   "edge_count": 1085,
   "edge_types": [
@@ -1669,6 +1669,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/speed-cells.md"
+    },
+    {
+      "id": "theory-of-mind",
+      "title": "心智理论",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/theory-of-mind.md"
+    },
+    {
+      "id": "mentalizing-network",
+      "title": "心智化网络",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/mentalizing-network.md"
+    },
+    {
+      "id": "tpj-temporoparietal-junction",
+      "title": "颞顶联合区",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/systems/tpj-temporoparietal-junction.md"
+    },
+    {
+      "id": "affective-empathy",
+      "title": "情感共情",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/mentalizing-network.md"
     }
   ],
   "edges": [
@@ -7519,6 +7555,86 @@
       "to": "time-cells",
       "type": "supports",
       "note": "LEC时间戳漂移（Tsao 2018）提供时间情境；海马时间细胞在整合此信号后维持精确时序编码"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "tpj-temporoparietal-junction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "mentalizing-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "mirror-neurons",
+      "type": "related"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "tpj-temporoparietal-junction",
+      "type": "part-of"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "mirror-neurons",
+      "type": "related"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "tpj-temporoparietal-junction",
+      "to": "dorsal-attention-network",
+      "type": "related"
+    },
+    {
+      "from": "tpj-temporoparietal-junction",
+      "to": "alpha-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "affective-empathy",
+      "to": "mentalizing-network",
+      "type": "related"
+    },
+    {
+      "from": "mirror-neurons",
+      "to": "theory-of-mind",
+      "type": "related"
+    },
+    {
+      "from": "mirror-neurons",
+      "to": "mentalizing-network",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "theory-of-mind",
+      "type": "supports"
     }
   ],
   "dangling_references": [

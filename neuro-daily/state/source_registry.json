@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-25",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6938,9 +6938,116 @@
         "2026-07-23-cortical-layers-canonical-microcircuit.md"
       ],
       "covers": "六层皮层从三层旧皮层（嗅皮层/海马）进化框架；规范回路保守性；三种基本操作（FI/RE/FBI）"
+    },
+    {
+      "pmid": "15217330",
+      "pmcid": null,
+      "title": "The mirror-neuron system (Rizzolatti & Craighero 2004)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "mirror-neurons"
+      ]
+    },
+    {
+      "pmid": "12948738",
+      "pmcid": null,
+      "title": "People thinking about thinking people - TPJ (Saxe & Kanwisher 2003)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "theory-of-mind",
+        "tpj-temporoparietal-junction"
+      ]
+    },
+    {
+      "pmid": "14976305",
+      "pmcid": null,
+      "title": "Empathy for pain (Singer et al. 2004)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "affective-empathy"
+      ]
+    },
+    {
+      "pmid": "19199415",
+      "pmcid": null,
+      "title": "Eight problems for mirror neuron theory (Hickok 2009)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "mirror-neurons"
+      ]
+    },
+    {
+      "pmid": "16701204",
+      "pmcid": null,
+      "title": "The neural basis of mentalizing (Frith & Frith 2006, Neuron)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "mentalizing-network",
+        "theory-of-mind"
+      ]
+    },
+    {
+      "pmid": "17714666",
+      "pmcid": null,
+      "title": "Social cognition in humans (Frith & Frith 2007)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "mentalizing-network"
+      ]
+    },
+    {
+      "pmid": "34241539",
+      "pmcid": "PMC8785302",
+      "title": "What happened to mirror neurons? (Heyes & Catmur 2022)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "mirror-neurons"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "24012000",
+      "pmcid": "PMC4041537",
+      "title": "Theory of Mind: A Neural Prediction Problem (Koster-Hale & Saxe 2013)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "theory-of-mind"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "31572143",
+      "pmcid": "PMC6754072",
+      "title": "Intersections Empathizing vs Mentalizing (Cerniglia 2019)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "mentalizing-network"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "41300206",
+      "pmcid": "PMC12651549",
+      "title": "Goal-Directed Social Alignment (Sobeh & Shamay-Tsoory 2025)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "mentalizing-network"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "41245222",
+      "pmcid": "PMC12617318",
+      "title": "Brain bases of real-time social interaction meta-analysis (Merchant et al. 2025)",
+      "used_in": "2026-07-25",
+      "covers": [
+        "mentalizing-network",
+        "tpj-temporoparietal-junction"
+      ],
+      "open_access": true
     }
   ],
-  "total_sources": 368,
+  "total_sources": 386,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
