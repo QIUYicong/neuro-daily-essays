@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-07",
+  "updated": "2026-08-08",
   "node_count": 203,
   "edge_count": 1179,
   "edge_types": [
@@ -1984,6 +1984,33 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/diseases/autism-spectrum-disorder.md"
+    },
+    {
+      "id": "deep-cerebellar-nuclei",
+      "title": "深部小脑核",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/deep-cerebellar-nuclei.md"
+    },
+    {
+      "id": "inferior-olive",
+      "title": "下橄榄核",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/inferior-olive.md"
+    },
+    {
+      "id": "motor-learning",
+      "title": "运动学习",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/motor-learning.md"
     }
   ],
   "edges": [
@@ -8765,6 +8792,76 @@
       "from": "complement-cascade-cns",
       "to": "autism-spectrum-disorder",
       "type": "related"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "climbing-fiber-error-signal",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "deep-cerebellar-nuclei",
+      "type": "regulates"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "deep-cerebellar-nuclei",
+      "type": "supports"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellum",
+      "to": "motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "motor-learning",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "motor-learning",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "motor-learning",
+      "type": "supports"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "thalamus",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

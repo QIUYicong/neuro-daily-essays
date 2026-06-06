@@ -7313,6 +7313,161 @@
         "CD47",
         "synaptic-pruning"
       ]
+    },
+    {
+      "pmid": "23440175",
+      "pmcid": "PMC3545104",
+      "doi": "10.3389/fncir.2013.00001",
+      "title": "Error detection and representation in the olivo-cerebellar system",
+      "authors_short": "Ito M",
+      "journal": "Front Neural Circuits",
+      "year": 2013,
+      "first_used": "2026-08-08",
+      "used_in_articles": [
+        "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md"
+      ],
+      "aspects_covered": [
+        "两相记忆模型（皮层LTD+DCN LTP）",
+        "CF误差信号分类",
+        "感觉误差vs运动误差",
+        "IO子核团功能"
+      ]
+    },
+    {
+      "pmid": "9378587",
+      "doi": "10.1016/s0074-7742(08)60351-7",
+      "title": "Associative learning (eyeblink conditioning cerebellum)",
+      "authors_short": "Thompson RF et al.",
+      "journal": "Int Rev Neurobiol",
+      "year": 1997,
+      "first_used": "2026-08-08",
+      "used_in_articles": [
+        "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md"
+      ],
+      "aspects_covered": [
+        "间位核因果损毁证据",
+        "眼眨条件反射回路",
+        "DCN作为程序记忆存储"
+      ]
+    },
+    {
+      "pmid": "19684593",
+      "doi": "10.1038/nn.2366",
+      "title": "Elimination of climbing fiber instructive signals during motor learning",
+      "authors_short": "Ke MC et al.",
+      "journal": "Nat Neurosci",
+      "year": 2009,
+      "first_used": "2026-08-08",
+      "used_in_articles": [
+        "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md"
+      ],
+      "aspects_covered": [
+        "学习晚期消除CF信号",
+        "CR记忆转移到DCN",
+        "两相模型实验证据"
+      ]
+    },
+    {
+      "pmid": "29643480",
+      "doi": "10.1038/s41583-018-0002-7",
+      "title": "The basal ganglia and cerebellum: nodes in an integrated network",
+      "authors_short": "Bostan AC, Strick PL",
+      "journal": "Nat Rev Neurosci",
+      "year": 2018,
+      "first_used": "2026-08-08",
+      "used_in_articles": [
+        "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md"
+      ],
+      "aspects_covered": [
+        "小脑-基底神经节直接连接",
+        "两系统整合框架",
+        "丘脑中继"
+      ]
+    },
+    {
+      "pmid": "28858616",
+      "doi": "10.1016/j.neuron.2017.08.010",
+      "title": "Inferior olivary TMEM16B mediates cerebellar motor learning",
+      "authors_short": "Zhang Y et al.",
+      "journal": "Neuron",
+      "year": 2017,
+      "first_used": "2026-08-08",
+      "used_in_articles": [
+        "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md"
+      ],
+      "aspects_covered": [
+        "IO TMEM16B氯离子通道",
+        "VOR适应障碍（KO小鼠）",
+        "IO内在生物物理特性"
+      ]
+    },
+    {
+      "pmid": "40848722",
+      "doi": "10.1016/j.cub.2025.07.064",
+      "title": "Reward-driven cerebellar climbing fiber activity",
+      "authors_short": "Jin S, Hull C",
+      "journal": "Curr Biol",
+      "year": 2025,
+      "first_used": "2026-08-08",
+      "used_in_articles": [
+        "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md"
+      ],
+      "aspects_covered": [
+        "CF编码奖励幅度（低置信度）",
+        "挑战Marr-Albus-Ito纯误差信号模型"
+      ],
+      "note": "单篇2025新发表，待独立重复，低置信度，已登记矛盾C-2026-08-08-01"
+    },
+    {
+      "pmid": "31522332",
+      "title": "The Cerebellar Cognitive Affective/Schmahmann Syndrome: a Task Force Paper",
+      "authors_short": "Schmahmann JD et al.",
+      "journal": "Cerebellum",
+      "year": 2020,
+      "first_used": "2026-08-08",
+      "used_in_articles": [
+        "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md"
+      ],
+      "aspects_covered": [
+        "CCAS临床证据",
+        "156例病例系列",
+        "小脑认知情感功能"
+      ]
+    },
+    {
+      "pmid": "28025812",
+      "doi": "10.1007/7854_2016_455",
+      "title": "The anatomy and physiology of eyeblink classical conditioning",
+      "authors_short": "Takehara-Nishiuchi K",
+      "journal": "Curr Top Behav Neurosci",
+      "year": 2018,
+      "first_used": "2026-08-08",
+      "used_in_articles": [
+        "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md"
+      ],
+      "aspects_covered": [
+        "眼眨条件反射综合综述",
+        "CS/US通路",
+        "ISI时序要求",
+        "DCN可塑性"
+      ]
+    },
+    {
+      "pmid": "29903454",
+      "doi": "10.1016/B978-0-444-63956-1.00006-0",
+      "title": "Physiology of the cerebellum",
+      "authors_short": "D'Angelo E",
+      "journal": "Handb Clin Neurol",
+      "year": 2018,
+      "first_used": "2026-08-08",
+      "used_in_articles": [
+        "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md"
+      ],
+      "aspects_covered": [
+        "小脑生理学综合综述",
+        "DCN可塑性机制",
+        "小脑振荡"
+      ]
     }
   ],
   "total_sources": 386,
@@ -8783,7 +8938,7 @@
     "38396258",
     "36062909"
   ],
-  "_last_updated": "2026-07-31",
+  "_last_updated": "2026-08-08",
   "additions_2026-07-31": [
     "12422216",
     "15113265",
@@ -8794,5 +8949,16 @@
     "29507292",
     "33180308",
     "32970967"
+  ],
+  "additions_2026-08-08": [
+    "23440175",
+    "9378587",
+    "19684593",
+    "29643480",
+    "28858616",
+    "40848722",
+    "31522332",
+    "28025812",
+    "29903454"
   ]
 }

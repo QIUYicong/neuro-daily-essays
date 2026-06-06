@@ -485,5 +485,41 @@
     "revision_count": 2,
     "date": "2026-08-07",
     "reason": "Added SRPX2 inhibitory mechanism and V1 regional heterogeneity note; status maintained"
+  },
+  {
+    "slug": "deep-cerebellar-nuclei",
+    "page": "wiki/systems/deep-cerebellar-nuclei.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-08-08",
+    "change_reason": "新建（文章 #107，2026-08-08）。DCN 解剖功能 established（多物种损毁实验，教科书级）；间位核眼眨条件反射 established（Thompson 1997，高质量多实验室）；DCN LTP 两相记忆模型 medium（Ke 2009 + Ito 2013，证据汇聚但直接分子机制待补充）；小脑-基底神经节直接连接 high（Bostan & Strick 2018，灵长类解剖学）"
+  },
+  {
+    "slug": "inferior-olive",
+    "page": "wiki/systems/inferior-olive.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-08-08",
+    "change_reason": "新建（文章 #107，2026-08-08）。IO 解剖/CF 功能 established；缝隙连接驱动同步 established；TMEM16B 调节 medium（单来源，Zhang 2017）；CF 奖励信号编码 low（Jin & Hull 2025，单篇待复现）"
+  },
+  {
+    "slug": "motor-learning",
+    "page": "wiki/concepts/motor-learning.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-08-08",
+    "change_reason": "新建（文章 #107，2026-08-08）。小脑误差驱动运动学习 established；两相记忆模型 high；基底神经节奖励学习对比 mainstream；小脑-基底神经节互联 high（Bostan 2018）"
+  },
+  {
+    "slug": "climbing-fiber-error-signal",
+    "page": "wiki/concepts/climbing-fiber-error-signal.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 2,
+    "last_changed": "2026-08-08",
+    "change_reason": "修订（文章 #107）：新增 CF 奖励信号证据（PMID:40848722，低置信度）；整体 status 维持 established，因单篇不足以改变基础定性；登记矛盾 C-2026-08-08-01"
   }
 ]

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-01
-updated: 2026-08-01
-revision_count: 1
+updated: 2026-08-08
+revision_count: 2
 dimensions: [cellular, microcircuit, synaptic, behavior]
 related: [cerebellum, cerebellar-ltd, purkinje-cell, inferior-olive, predictive-coding]
 prerequisites: [cerebellum, purkinje-cell, action-potential]
 opens_questions: [Q-cb-02, Q-cb-01]
-source_articles: [2026-08-01-cerebellar-ltd-purkinje-motor-learning]
-key_sources: ["PMID:23440175", "PMID:30995136", "PMID:30069835", "PMID:21482355"]
+source_articles: [2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit]
+key_sources: ["PMID:23440175", "PMID:30995136", "PMID:30069835", "PMID:21482355", "PMID:40848722", "PMID:28858616"]
 ---
 
 # 攀爬纤维误差信号（Climbing Fiber Error Signal）
@@ -67,6 +67,7 @@ LTD 诱导（若同时有 PF 激活）→ 运动学习
 | 最优 PF-CF 配对间隔因区域而异（~120ms 绒球） | 绒球精确间隔调控体外实验 | PMID:30069835 | 高 |
 | CF 信号含运动成分约为感觉成分 2 倍 | 眼球跟踪实验 IO 活动分析 | PMID:23440175 | 中 |
 | IO 缝隙连接驱动 CF 同步，调控学习空间模式 | IO 缝隙连接蛋白（Cx36）敲除实验 | 多来源 | 中-高 |
+| CF 放电随奖励大小系统性增加（非仅误差）| 奖励任务 CF 记录（小鼠）| PMID:40848722 | 低（单篇，2025，待复现）|
 
 ## 连接
 
@@ -81,9 +82,14 @@ LTD 诱导（若同时有 PF 激活）→ 运动学习
 - **Q-cb-02**（高优先级）：CF 究竟主要编码感觉预测误差还是运动结果误差？两者在 IO 的不同子区分别计算，但 PC 接收到的信息是否已经整合，还是仍保持分离？
 - **Q-cb-01**：前向模型的预测在哪里与实际感觉比较——是在 IO 还是在更上游？小脑皮层 PC 的简单放电是否本身就是"预测"输出？
 
+## 矛盾条目
+
+- **C-2026-08-08-01**（open）：CF "纯误差信号"（claim_A）vs "也传递奖励幅度"（claim_B，Jin & Hull 2025）。矛盾性质：claim_B 基于单篇研究，证据等级低；若复现，则需扩展 Marr-Albus-Ito 模型。见 contested_claims.json。
+
 ## 修订历史
 
 - 2026-08-01 · 创建 · 基于《教师信号的困境》（文章#100）· 初始置信度：高（功能和时序特性有高质量体内记录支持）
+- 2026-08-08 · 修订（rev1→rev2）· 基于《深部核团的门与教师》（文章#107）· 新增：CF 奖励信号新发现（Jin & Hull 2025，PMID:40848722，低置信度）；登记矛盾 C-2026-08-08-01；IO TMEM16B 离子通道调节证据（PMID:28858616）；key_sources 更新
 
 ## 来源文章
 

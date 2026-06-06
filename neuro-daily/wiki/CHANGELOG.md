@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-08-08 · 文章 #107 · 深部核团的门与教师：深部小脑核如何接管运动记忆
+
+**核心主题**：深部小脑核（DCN）、下橄榄核（IO）与运动学习——填补三个悬空引用（deep-cerebellar-nuclei、inferior-olive、motor-learning）。内容：DCN 三核团（齿状核/间位核/顶核）的解剖与功能分工；间位核因果损毁证据（Thompson 1997，眼眨条件反射）；两相运动记忆模型（皮层 LTD 快速适应→DCN 苔藓纤维 LTP 缓慢巩固，Ito 2013+Ke 2009）；IO 的缝隙连接同步、阈下振荡（T型Ca²⁺）、TMEM16B 氯通道（Zhang 2017）；攀爬纤维奖励信号新发现（Jin & Hull 2025，待复现）；小脑-基底神经节直接皮层下连接（Bostan & Strick 2018）；CF "纯误差"vs"也编码奖励"矛盾登记。
+
+**新建页面（3）**：
+- `systems/deep-cerebellar-nuclei.md` rev1 — DCN 三核团解剖功能；去抑制输出逻辑；MF-DCN LTP 巩固机制；小脑-基底神经节互联 (established, confidence:high)
+- `systems/inferior-olive.md` rev1 — IO 解剖亚核分工；Cx36 缝隙连接同步；TMEM16B 生物物理调节；CF 奖励信号（low confidence）；DCN→IO 抑制反馈 (established, confidence:high)
+- `concepts/motor-learning.md` rev1 — 运动学习小脑-基底神经节双系统综述；两相记忆模型；眼眨条件反射范式 (established, confidence:high)
+
+**修订页面（2）**：
+- `systems/cerebellum.md` rev2→rev3 — 新增：间位核 CR 因果证据（Thompson 1997）、DCN LTP 两相巩固（Ke 2009）、小脑-基底神经节直接连接（Bostan 2018）；source_articles/key_sources 更新
+- `concepts/climbing-fiber-error-signal.md` rev1→rev2 — 新增 CF 奖励信号证据（PMID:40848722，低置信度）；登记矛盾 C-2026-08-08-01；key_sources/source_articles 更新
+
+**矛盾登记（1）**：C-2026-08-08-01（open，medium 优先级）：CF "纯误差信号"（Marr 经典，极高证据）vs "也传递奖励幅度"（Jin & Hull 2025，单篇待复现，低证据）。见 contested_claims.json。
+
+**新增开放问题（4）**：Q-dcn-01（人类技能学习中 DCN LTP 时间进程，高优先级）、Q-dcn-02（DCN LTP 的 NMDA 依赖性与关键期）、Q-dcn-03（认知功能的 CCAS 是否走两相记忆模型）、Q-io-01（CF 奖励信号的回路来源）。
+
+**图谱更新**：节点 219→222（+3），边 1255→1269（+14）。新节点：deep-cerebellar-nuclei、inferior-olive、motor-learning。悬空引用完全消除（之前：motor-learning/deep-cerebellar-nuclei/inferior-olive 均为悬空）。
+
+---
+
 ## 2026-08-06 · 文章 #105 · 轴突找到伙伴之后：突触如何从分子装配线上诞生
 
 **核心主题**：突触生成——课程脊柱第2章"神经网络如何建成"的续集（轴突导向 #103 的下一步）。核心内容：Neuroligin-Neurexin 跨突触"握手协议"（双向信号诱导前后侧装配）；NL1→兴奋性/NL2→抑制性突触身份二分；NL2-NRXβ1 弱结合×聚集效应的膜牵引+Gephyrin 招募机制（Boyd 2026, PMC12985673）；兴奋性 PSD 三层骨架（PSD-95/GKAP/Shank-Homer）；PSD 纳米亚结构单元（Ramírez-Expósito 2026, PMC12840169）；Gephyrin-Collybistin-Cdc42 格栅定向锚定抑制性受体；LRRTM 平行突触诱导系统（Roppongi 2020）；Kim 2026 "分子连续性"模型（轴突导向分子双重功能）；ASD 窗口（NLGN3 R451C, Shank3 缺失）；脑-AI 比较（结构约束 vs 无约束权重）。

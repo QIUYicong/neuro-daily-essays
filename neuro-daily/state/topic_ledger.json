@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-06",
-  "total_articles": 105,
+  "last_updated": "2026-08-08",
+  "total_articles": 107,
   "entries": [
     {
       "date": "2026-08-06",
@@ -6555,6 +6555,74 @@
         "运动学习的回路基础：深部核团、下橄榄与小脑皮层的三角对话（填补 motor-learning 悬空引用）",
         "GABA 的双重身份：抑制性神经递质的分子多态性与发育转变（填补 gaba 悬空引用）",
         "外侧缰核 LHb 爆发机制的物种差异：裁决 C-2026-07-11-01"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "real_date": "2026-06-07",
+      "article_number": 107,
+      "title": "深部核团的门与教师：深部小脑核如何接管运动记忆，以及下橄榄核为何超越了'误差计算器'",
+      "slug": "deep-cerebellar-nuclei-motor-learning-circuit",
+      "filename": "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md",
+      "article_type": "regular",
+      "core_question": "深部小脑核（DCN）如何将浦肯野细胞 LTD 的快速适应转化为持久运动记忆？下橄榄核的生物物理特性（缝隙连接、TMEM16B、阈下振荡）如何赋予其精密时序计算能力？两相记忆模型（皮层 LTD→DCN LTP）的因果证据？CF 是否超越误差信号还传递奖励？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "1. 神经元如何工作→4. 学习和记忆（小脑运动学习回路系列第3篇，填补 motor-learning/deep-cerebellar-nuclei/inferior-olive 三个悬空引用）",
+      "topic_tags": [
+        "deep-cerebellar-nuclei",
+        "inferior-olive",
+        "motor-learning",
+        "eyeblink-conditioning",
+        "interposed-nucleus",
+        "dentate-nucleus",
+        "fastigial-nucleus",
+        "mossy-fiber-DCN-LTP",
+        "two-phase-memory",
+        "cerebellar-cortex",
+        "Marr-Albus-Ito",
+        "TMEM16B",
+        "ANO2",
+        "Cx36-gap-junction",
+        "reward-climbing-fiber",
+        "program-memory",
+        "cerebellar-cognitive-affective-syndrome"
+      ],
+      "main_sources": [
+        "PMID:9378587",
+        "PMID:23440175",
+        "PMID:19684593",
+        "PMID:29643480",
+        "PMID:28858616",
+        "PMID:40848722",
+        "PMID:21482355"
+      ],
+      "wiki_created": [
+        "deep-cerebellar-nuclei",
+        "inferior-olive",
+        "motor-learning"
+      ],
+      "wiki_revised": [
+        "cerebellum",
+        "climbing-fiber-error-signal"
+      ],
+      "unresolved_questions": [
+        "Q-dcn-01",
+        "Q-dcn-02",
+        "Q-dcn-03",
+        "Q-io-01"
+      ],
+      "contested_registered": [
+        "C-2026-08-08-01"
+      ],
+      "next_suggested_topics": [
+        "GABA 的双重身份：抑制性神经递质的分子多态性与发育转变（填补 gaba 悬空引用）",
+        "外侧缰核 LHb 爆发机制的物种差异：裁决 C-2026-07-11-01",
+        "运动皮层如何编码随意运动：方向调谐、群体向量与持续活动之争（加深 motor-cortex wiki）"
       ]
     }
   ],

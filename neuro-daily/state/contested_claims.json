@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-08-08",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 3,
+  "open_count": 8,
   "resolved_count": 0,
   "claims": [
     {
@@ -92,8 +92,18 @@
       "source_article": "2026-07-11-lateral-habenula-depression-ketamine",
       "priority": "medium",
       "note": "Yang 2018 和 Ma 2023 的证据来自大鼠体内实验（光遗传+行为），而 Frontiers 2026 的反证来自小鼠离体实验；两种设置的直接对照研究缺失；若 NMDA 非必需，则氯胺酮的快速抗抑郁机制需要替代解释"
+    },
+    {
+      "id": "C-2026-08-08-01",
+      "page": "wiki/concepts/climbing-fiber-error-signal.md",
+      "claim_A": "攀爬纤维（CF）/下橄榄核是专用的'误差信号通道'——仅在运动结果与预期不符时发放，编码感觉预测误差或运动结果误差（Marr 1969 经典理论；Ito 2013，PMID:23440175；大量电生理证据）",
+      "claim_B": "CF 放电概率随奖励幅度系统性增加，包括完全可预期的奖励——说明 IO/CF 不只传递误差，还传递'奖励幅度'本身，使 IO 成为更广义的'评价信号系统'（Jin & Hull 2025，Curr Biol，PMID:40848722）",
+      "nature": "真实分歧（若 claim_B 成立，则 Marr-Albus-Ito 模型需要扩展，引入奖励调制）。注：claim_B 基于单篇 2025 年研究，尚未被独立重复；claim_A 有数十年多物种多任务支持（established）；差异可能反映：(a) 小脑学习任务类型（运动适应 vs 奖励导向操作任务）不同激活不同 IO 亚核；(b) 小脑-基底神经节皮层下连接使多巴胺/奖励信号能进入 IO；(c) CF 编码'意外性'（不论误差还是奖励的意外程度）",
+      "status": "open",
+      "opened": "2026-08-08",
+      "source_article": "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit",
+      "priority": "medium",
+      "note": "claim_A 证据等级极高（established，多物种，多实验室）；claim_B 为单篇 2025 年新发表（low evidence）。裁决需要：(1) 独立重复 Jin & Hull 2025；(2) 同一 IO 神经元在误差和奖励任务中的双任务记录；(3) IO 亚核特异性记录"
     }
-  ],
-  "open_count": 7,
-  "resolved_count": 0
+  ]
 }

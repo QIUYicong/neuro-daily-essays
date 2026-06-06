@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-08-01
-revision_count: 2
+updated: 2026-08-08
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, cognition]
 related: [motor-cortex, predictive-coding, cerebellar-ltd, climbing-fiber-error-signal, purkinje-cell, forward-model, ltd, memory-consolidation]
 prerequisites: [purkinje-cell, parallel-fiber, climbing-fiber-error-signal, deep-cerebellar-nuclei]
 opens_questions: [Q-cb-01, Q-cb-02, Q-cb-03, Q-cb-04, Q-cb-05]
-source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning]
-key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:23440175", "PMID:30069835", "PMID:30995136", "PMID:34219651", "PMID:31522332"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit]
+key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:23440175", "PMID:30069835", "PMID:30995136", "PMID:34219651", "PMID:31522332", "PMID:9378587", "PMID:19684593", "PMID:29643480"]
 ---
 
 # 小脑 (Cerebellum)
@@ -98,6 +98,7 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 来源：PMID:33203932, 33288911, 21227230, 11319554, 21482355, 7954803
 - 2026-08-01 · 修订（rev1→rev2）· 基于《教师信号的困境》（文章#100）· 新增：CF 误差信号量化数据（Soetedjo 2019）、绒球 120ms 最优窗口（Suvrathan 2018）、GluA4 膨胀编码因果实验（Kita 2021）、CCAS 156例临床证据（Task Force 2020）、双相记忆轨迹（Ito 2013）；新增 wiki 子页 purkinje-cell、climbing-fiber-error-signal；related/key_sources/prerequisites 更新；新增 Q-cb-04/Q-cb-05
+- 2026-08-08 · 修订（rev2→rev3）· 基于《深部核团的门与教师》（文章#107）· 新增：间位核眼眨条件反射因果证据（Thompson 1997）、DCN LTP 两相记忆巩固（Ito 2013 + Ke 2009）、小脑-基底神经节皮层下直接连接（Bostan & Strick 2018）、CF 奖励信号新发现（Jin & Hull 2025）；新增 wiki 子页 deep-cerebellar-nuclei、inferior-olive、motor-learning；key_sources 更新
 
 ## 来源文章
 

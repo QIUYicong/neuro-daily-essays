@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-06（**第105篇**·轴突找到伙伴之后：突触如何从分子装配线上诞生）· 主题页总数：**207**（新建4页：synaptogenesis、neuroligin-neurexin、postsynaptic-density、gephyrin-scaffold；修订1页：axon-guidance rev2；图谱218节点、1249边）
+> 最后更新：2026-08-08（**第107篇**·深部核团的门与教师：DCN 运动记忆与下橄榄核评价系统）· 主题页总数：**210**（新建3页：deep-cerebellar-nuclei、inferior-olive、motor-learning；修订2页：cerebellum rev3、climbing-fiber-error-signal rev2；图谱222节点、1269边；填补悬空引用3个）
 
 ---
 
@@ -99,6 +99,7 @@
 - 🟢 [记忆再巩固](concepts/memory-reconsolidation.md) — 已巩固记忆在提取后短暂回到蛋白质合成依赖状态（Nader 2000 Nature）；去稳定化机制：GluA2内吞+UPS激活；再稳定化：CREB/C/EBP/Zif268；预测误差是必要条件（Sevenster 2013 Science）；临床应用：普萘洛尔+创伤激活削弱PTSD记忆；边界条件（强记忆/老记忆耐受）**[NEW 2026-07-28 #96]**
 - 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
 - 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；与海马 NMDA-LTD 共用最终效应器但触发机制根本不同；Schonewille 2011 证明无 LTD 也能运动学习；Hansel 2026 预印本 400ms 时间窗口 **[NEW 2026-06-23]**
+- 🟢 [运动学习](concepts/motor-learning.md) — 小脑误差驱动（IO-CF→PC LTD→DCN LTP）与基底神经节奖励强化（DA-RPE）双系统框架；两相记忆模型（皮层快速适应→核团缓慢巩固）；眼眨条件反射因果解剖；小脑-基底神经节皮层下互联 **[NEW 2026-08-08 #107]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
 - 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器 **[NEW 2026-06-04]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
@@ -182,7 +183,9 @@
 ## motor（运动系统）
 
 - 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）；**小脑-运动皮层闭环（修订2026-06-23）**
-- 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[NEW 2026-06-23]**
+- 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订 rev3 2026-08-08 #107]**
+- 🟢 [深部小脑核（DCN）](systems/deep-cerebellar-nuclei.md) — 小脑输出门与程序性运动记忆存储库；三核团（齿状核/间位核/顶核）；前间位核因果损毁→CR消失UR保留（Thompson 1997）；DCN LTP 将皮层 LTD 的快速适应巩固为持久记忆（两相模型）；小脑-基底神经节直接皮层下连接（Bostan 2018）**[NEW 2026-08-08 #107]**
+- 🟢 [下橄榄核（IO）](systems/inferior-olive.md) — 小脑的教师核团；缝隙连接（Cx36）同步振荡；T型Ca²⁺驱动阈下振荡；TMEM16B调节时序精度；CF奖励信号新发现（Jin & Hull 2025，待复现）；DCN抑制性反馈自动关闭学习 **[NEW 2026-08-08 #107]**
 - 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果，使大脑超越反馈延迟；小脑的主要计算角色；逆向模型对称结构 **[NEW 2026-06-23]**
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**
 - 🟡 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；动力学引擎而非参数地图；RNN训练后自发出现相同结构 **[NEW 2026-06-21]**
