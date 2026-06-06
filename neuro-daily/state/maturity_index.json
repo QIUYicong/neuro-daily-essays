@@ -1289,5 +1289,29 @@
     "confidence": "high",
     "last_changed": "2026-07-30",
     "reason": "创建 2026-07-30（文章 #98）。BLA-NAc vs BLA-CeA 投射的对立突触可塑性由 Namburi et al. 2015（Nature，多实验室重复）直接证明，光遗传行为验证（NAc投射自我刺激/CeA投射位置厌恶）因果性强；Beyeler 2016（Neuron）光标记在体记录证实比例差异（77% vs 100%）；Ppp1r1b+/Rspo2+遗传身份在小鼠多实验室确认；BLA-OFC四向协作（Wassum 2022）有大量行为药理学支持。整体框架 established，但人类直接证据和 Ppp1r1b+/Rspo2+ 人类等价物仍为 emerging。"
+  },
+  "cerebellar-ltd": {
+    "status": "contested",
+    "confidence": "medium",
+    "last_changed": "2026-08-01",
+    "reason": "修订 2026-08-01（文章 #100）。分子机制（mGluR1→PKC→GluA2 S880磷酸化→PICK1→AMPAR内吞）高置信度确立（mGluR1 KO实验，多实验室验证）。但 Schonewille et al. 2011（PMC3104468，Neuron，三种独立基因突变）证明阻断 LTD 不影响 VOR/眼睑/步态学习，使 LTD 的运动学习必要性进入 contested 状态。Suvrathan 2018 的区域异质性研究（120ms窗口）支持 LTD 在特定区域的功能性，但也说明没有单一 LTD 规则。综合：分子机制 established，功能必要性 contested。status=contested 反映这一内部张力。revision_count=2。"
+  },
+  "purkinje-cell": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-01",
+    "reason": "创建 2026-08-01（文章 #100）。PC 形态（~150,000 PF 突触、1:1 CF 单一支配）是百年解剖学共识，超分辨成像验证；双重放电（simple ~50-100Hz / complex ~1Hz）有多物种体内记录支持；GABAergic 输出到 DCN 是小脑回路的核心解剖事实。LTD 作为学习机制的必要性 contested（Schonewille 2011），但 PC 作为可塑性发生的细胞位点 established。"
+  },
+  "climbing-fiber-error-signal": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-01",
+    "reason": "创建 2026-08-01（文章 #100）。CF 携带误差信号的功能角色由 Ito 2013（PMC3579189）综合多物种数据确认；Soetedjo 2019（PMC6620692）提供了最精确的时序量化（80–120ms，SC→IO 14.4ms，误差方向/大小编码）；绒球 120ms 窗口（Suvrathan 2018，PMC6550343）将 CF 时序与行为感觉延迟精确对应。CF 作为精密误差时钟的证据高置信度，但其在认知小脑（Crus I/II）的等价物仍 emerging（Q-cb-05）。"
+  },
+  "expansion-coding": {
+    "status": "established",
+    "confidence": "medium",
+    "last_changed": "2026-08-01",
+    "reason": "创建 2026-08-01（文章 #100）。颗粒细胞层 200:1 扩展比是解剖学事实（高置信度）；GluA4 KO（Kita 2021，PMC8291978，eLife）：MF-GC 电流↓80%、放电频率↓44%、眼睑条件反射完全消失——直接因果证明膨胀编码对联合学习的必要性。计算模型（稀疏高维表征→模式分离）与 Marr 理论一致。置信度 medium（而非high）是因人类小脑颗粒细胞的直接功能研究缺失；GluA4 KO效应的具体维度（时序精度 vs 稀疏度）尚在解析中。"
   }
 }

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-06-23
-revision_count: 1
+updated: 2026-08-01
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, microcircuit]
-related: [ltd, cerebellum, mGluR1, forward-model, climbing-fiber, parallel-fiber]
+related: [ltd, cerebellum, forward-model, climbing-fiber-error-signal, purkinje-cell, parallel-fiber]
 prerequisites: [ltd, nmda-receptor, pkc-signaling, ampa-receptor]
-opens_questions: [Q-cb-01, Q-cb-02]
-source_articles: [2026-06-23-cerebellum-motor-prediction]
-key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932"]
+opens_questions: [Q-cb-01, Q-cb-02, Q-cb-04, Q-cb-05]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning]
+key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932", "PMID:30069835", "PMID:23440175", "PMID:30995136"]
 ---
 
 # 小脑 LTD（Cerebellar LTD / PF-PC LTD）
@@ -57,9 +57,12 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932"]
 |------|----------|------|--------|
 | mGluR1 是 LTD 诱导必要条件 | mGluR1 KO → LTD 缺失 + 眼睑学习障碍 | PMID:7954803 | 高 |
 | PKCα/G 是 LTD 关键激酶 | Gαq 敲除阻断 LTD | PMID:15175381 | 高 |
-| 无 PF-LTD 也能运动学习 | 三种 AMPAR 内吞阻断小鼠运动学习正常 | PMID:21482355 | 高 |
+| 无 PF-LTD 也能运动学习 | 三种 AMPAR 内吞阻断小鼠运动学习正常（p > 0.5 vs 野生型） | PMID:21482355 | 高（争议核心） |
 | PF-LTD 可由 LTP 反转 | 体外切片双向可塑性 | PMID:17046686 | 中-高 |
 | LTD 时间窗口可宽至 400ms（预期性）| 清醒小鼠双光子成像（预印本）| PMID:42079241 | 低（预印本）|
+| 绒球最优 PF-CF 配对间隔 ≈ 120ms，匹配视觉反馈延迟 | 绒球体外精确间隔调控实验 | PMID:30069835 | 高 |
+| LTD 为快速适应初期机制，DCN LTP 为慢速巩固 | 双相适应时间进程 + 橄榄核可逆失活后记忆保留 | PMID:23440175 | 中 |
+| 攀爬纤维复杂放电时序：眼跳后 80–120ms，编码误差大小/方向 | 体内 Purkinje 细胞记录 + SC 刺激（14.4ms 延迟）| PMID:30995136 | 高 |
 
 ## 连接
 
@@ -70,13 +73,17 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932"]
 
 ## 未解问题
 
-- Q-cb-01：攀爬纤维携带的"误差"具体信息编码是什么？
+- Q-cb-01：攀爬纤维携带的"误差"具体信息编码是什么（感觉误差 vs 运动误差）？
 - Q-cb-02：400ms 时间窗口（Hansel 2026）若确认，如何修订 Marr-Albus-Ito 理论？
+- Q-cb-04（高优先级）：哪些具体学习范式中 LTD 是必要限速步骤？（见 state/unresolved_questions.md）
+- Q-cb-05（中优先级）：小脑后叶认知区域（Crus I/II）的学习是否使用相同的 PF-PC LTD 机制？
 
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：高（分子机制 established）；LTD 非唯一机制也有 established 证据
+- 2026-08-01 · 修订（rev1→rev2）· 基于《教师信号的困境》（文章#100）· 新增：绒球 120ms 最优窗口（Suvrathan 2018）、攀爬纤维时序量化（Soetedjo 2019）、双相记忆轨迹（Ito 2013）；新增未解问题 Q-cb-04/Q-cb-05；related 新增 climbing-fiber-error-signal/purkinje-cell；key_sources 补充 PMID:30069835/23440175/30995136
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
+- [[2026-08-01-cerebellar-ltd-purkinje-motor-learning]]

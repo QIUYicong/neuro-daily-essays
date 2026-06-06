@@ -1,7 +1,59 @@
 {
-  "last_updated": "2026-07-31",
-  "total_articles": 99,
+  "last_updated": "2026-08-01",
+  "total_articles": 100,
   "entries": [
+    {
+      "date": "2026-08-01",
+      "title": "教师信号的困境：攀爬纤维 LTD 的分子机制与小脑运动学习的"分布式可塑性"革命",
+      "filename": "2026-08-01-cerebellar-ltd-purkinje-motor-learning.md",
+      "wiki_pages_created": [
+        "wiki/neurons/purkinje-cell.md",
+        "wiki/concepts/climbing-fiber-error-signal.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/cerebellar-ltd.md (rev1→rev2: 新增绒球120ms最优窗口/Soetedjo 2019时序量化/双相记忆轨迹；Q-cb-04/05；related/key_sources更新；updated→2026-08-01)",
+        "wiki/systems/cerebellum.md (rev1→rev2: 新增证据表7行；prerequisites更新为实际子页；key_sources扩充至9个；opens_questions新增Q-cb-04/05；updated→2026-08-01)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "小脑LTD（mGluR1→PKC→GluA2 S880磷酸化→PICK1→AMPAR内吞）是Marr-Albus-Ito模型的分子实现；攀爬纤维以80–120ms精确时序编码误差（SC→IO延迟14.4ms，误差大小2–6°/方向编码，Soetedjo 2019）。但 Schonewille 2011（三种独立突变体）阻断LTD→运动学习仍正常，迫使范式转移至分布式可塑性（≥15种机制；双相记忆轨迹：皮层LTD快速→DCN LTP慢速巩固，Ito 2013）。GluA4 KO（Kita 2021）：颗粒细胞膨胀编码↓44%→眼睑条件反射消失，证明颗粒层表征精度是联合学习的必要前提。CCAS（PMC6978293，156例）：前叶=运动障碍/后叶=认知情感障碍，'通用小脑变换'假说——同一算法施加于不同皮层-皮层下回路。",
+      "layer": ["molecular", "synaptic", "cellular", "microcircuit", "brain-region", "cognition"],
+      "curriculum_track": "Track 1（细胞/分子：浦肯野细胞LTD机制）+ Track 12（脑-AI类比：监督学习/稀疏误差信号/时间信用分配/冗余鲁棒性）+ Track 5（程序性学习预测控制）；里程碑第100篇；填补cerebellar-ltd/purkinje-cell/climbing-fiber-error-signal三个悬空prerequisites",
+      "topic_tags": [
+        "Purkinje cell", "cerebellar LTD", "climbing fiber", "parallel fiber",
+        "inferior olive", "mGluR1", "PKC", "GluA2 S880", "PICK1", "AMPAR internalization",
+        "Marr-Albus-Ito model", "Schonewille 2011", "VOR adaptation",
+        "eyeblink conditioning", "Erasmus ladder", "distributed plasticity",
+        "Ito 2013", "Suvrathan 2018", "Soetedjo 2019", "Kita 2021",
+        "expansion coding", "GluA4", "granule cells", "mossy fiber",
+        "CCAS", "dysmetria of thought", "Schmahmann",
+        "cerebellar cognitive affective syndrome", "forward model",
+        "Wolpert Kawato", "supervised learning analogy"
+      ],
+      "main_sources": [
+        "PMID:23440175 (Ito 2013, Front Neural Circ, 橄榄核误差检测综述, PMC3579189 开放全文)",
+        "PMID:21482355 (Schonewille 2011, Neuron, LTD非必要, PMC3104468 开放全文)",
+        "PMID:30069835 (Suvrathan & Raymond 2018, Cerebellum, LTD区域异质性, PMC6550343 开放全文)",
+        "PMID:30995136 (Soetedjo & Fuchs 2019, J Neurophysiol, 眼跳适应CF时序, PMC6620692 开放全文)",
+        "PMID:34219651 (Kita 2021, eLife, GluA4膨胀编码, PMC8291978 开放全文)",
+        "PMID:31522332 (CCAS Task Force 2020, Cerebellum, PMC6978293 开放全文)",
+        "PMID:11427694 (Ito 2001, Physiol Rev, LTD分子综述, 摘要仅读)",
+        "PMID:21227230 (Wolpert et al. 1998, Trends Cogn Sci, 内部模型, 摘要仅读)",
+        "PMID:29997061 (Schmahmann 2019, Neurosci Lett, 小脑认知综述, 摘要仅读)"
+      ],
+      "unresolved_questions": [
+        "Q-cb-04 (新增，高优先级：哪些具体学习范式中LTD是必要限速步骤？)",
+        "Q-cb-05 (新增，中优先级：小脑后叶认知学习是否使用相同的PF-PC LTD机制？)"
+      ],
+      "next_suggested_topics": [
+        "深部小脑核（DCN）的可塑性机制——小脑记忆转移的实现场所（填补悬空引用 deep-cerebellar-nuclei）",
+        "小脑发育与突触竞争：攀爬纤维如何从多支配到单一支配（Track 2：神经发生/突触生成/剪枝）",
+        "运动技能与程序性记忆的系统级框架：小脑+基底节+运动皮层三角协调 Track 4/5 综合节点"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 100,
+      "note": "里程碑第100篇；系统时钟UTC+8=2026-06-06（真实执行日期）；知识库虚拟日期2026-08-01；9个来源中6个开放全文、3个摘要仅读；无PMID编造；无新矛盾登记；cerebellar-ltd状态更新为contested（分子机制established，必要性contested）"
+    },
     {
       "date": "2026-07-31",
       "title": "皮层的"安抚手"：vmPFC 如何通过截获细胞与 BLA 直接投射平息杏仁核的恐惧输出",

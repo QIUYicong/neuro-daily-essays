@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-06-23
-revision_count: 1
+updated: 2026-08-01
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation]
-prerequisites: [purkinje-cell, parallel-fiber, climbing-fiber, deep-cerebellar-nuclei]
-opens_questions: [Q-cb-01, Q-cb-02, Q-cb-03]
-source_articles: [2026-06-23-cerebellum-motor-prediction]
-key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554"]
+related: [motor-cortex, predictive-coding, cerebellar-ltd, climbing-fiber-error-signal, purkinje-cell, forward-model, ltd, memory-consolidation]
+prerequisites: [purkinje-cell, parallel-fiber, climbing-fiber-error-signal, deep-cerebellar-nuclei]
+opens_questions: [Q-cb-01, Q-cb-02, Q-cb-03, Q-cb-04, Q-cb-05]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning]
+key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:23440175", "PMID:30069835", "PMID:30995136", "PMID:34219651", "PMID:31522332"]
 ---
 
 # 小脑 (Cerebellum)
@@ -71,7 +71,11 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 | 无 LTD 也能进行小脑运动学习 | 三种 AMPAR 内吞阻断突变小鼠，VOR/眼睑/步态学习正常 | PMID:21482355 | 高 |
 | 小脑存在上行/下行微区双向学习 | 综合多任务体内记录 | PMID:33203932 | 中-高 |
 | 小脑含前向/逆向内部模型 | 眼球跟踪 + 计算建模 | PMID:21227230 | 中（间接） |
-| 小脑损伤导致认知情感障碍（CCAS） | 临床病例系列 + 损伤定位分析 | PMID:9549520 | 高 |
+| 小脑损伤导致认知情感障碍（CCAS） | 临床病例系列 + 损伤定位分析（156例）| PMID:31522332 | 高 |
+| CF 复杂放电精确编码误差大小/方向（眼跳后 80–120ms）| 体内 PC 记录 + SC 刺激 | PMID:30995136 | 高 |
+| 绒球最优 PF-CF 配对间隔 ≈ 120ms（匹配视觉延迟）| 精确时间窗口调控实验 | PMID:30069835 | 高 |
+| GluA4 KO 小鼠：膨胀编码↓44%，眼睑条件反射消失 | eLife 因果实验 | PMID:34219651 | 高 |
+| 小脑皮层 LTD 为快速适应，DCN LTP 为慢速巩固 | 双相时间进程 + 可逆橄榄核失活实验 | PMID:23440175 | 中 |
 
 ## 连接
 
@@ -93,7 +97,9 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 来源：PMID:33203932, 33288911, 21227230, 11319554, 21482355, 7954803
+- 2026-08-01 · 修订（rev1→rev2）· 基于《教师信号的困境》（文章#100）· 新增：CF 误差信号量化数据（Soetedjo 2019）、绒球 120ms 最优窗口（Suvrathan 2018）、GluA4 膨胀编码因果实验（Kita 2021）、CCAS 156例临床证据（Task Force 2020）、双相记忆轨迹（Ito 2013）；新增 wiki 子页 purkinje-cell、climbing-fiber-error-signal；related/key_sources/prerequisites 更新；新增 Q-cb-04/Q-cb-05
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
+- [[2026-08-01-cerebellar-ltd-purkinje-motor-learning]]

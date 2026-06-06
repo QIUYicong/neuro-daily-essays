@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-08-01 · 文章 #100（里程碑）· 教师信号的困境：攀爬纤维 LTD 的分子机制与小脑运动学习的"分布式可塑性"革命
+
+**核心主题**：小脑 LTD（Marr-Albus-Ito 模型核心）的分子级联（mGluR1→PKC→GluA2 S880磷酸化→PICK1介导AMPAR内吞）详解；攀爬纤维误差信号的精密时序（眼跳后80–120ms，SC→IO延迟14.4ms，编码误差大小2°–6°和方向）；绒球最优 PF-CF 配对间隔≈120ms（匹配视觉反馈延迟，Suvrathan 2018）；颗粒细胞膨胀编码GluA4机制（200:1扩展比，GluA4 KO→电流↓80%、眼睑条件反射消失，Kita 2021）；Schonewille 2011 三种突变小鼠阻断LTD→运动学习仍正常，迫使范式转移；分布式可塑性（≥15种机制）；双相记忆轨迹（皮层LTD快速→DCN LTP慢速巩固，Ito 2013）；CCAS"思维失调"假说（156例，PMC6978293）；脑-AI类比（监督学习、稀疏误差信号、时间信用分配、冗余鲁棒性）。
+
+**新建页面（2）**：
+- `neurons/purkinje-cell.md` rev1 — 浦肯野细胞形态（~150,000树突棘、1:1 CF单一支配）、双重放电（简单50–100Hz/复杂~1Hz）、LTD输入-输出逻辑、GABAergic抑制DCN机制 (established, confidence:high)
+- `concepts/climbing-fiber-error-signal.md` rev1 — CF误差信号全链（IO计算→CF传递→复杂放电→LTD触发）、误差时序量化（80–120ms/14.4ms延迟）、区域特异时窗、IO缝隙连接同步；感觉误差vs运动误差区分 (established, confidence:high)
+
+**修订页面（2）**：
+- `concepts/cerebellar-ltd.md` rev1→rev2 — 新增绒球120ms最优时窗（Suvrathan 2018）、攀爬纤维复杂放电时序量化（Soetedjo 2019）、双相记忆轨迹（Ito 2013）；新增未解问题Q-cb-04/Q-cb-05；related新增climbing-fiber-error-signal/purkinje-cell；key_sources补充3个PMID；updated→2026-08-01
+- `systems/cerebellum.md` rev1→rev2 — 新增关键证据7行（CF时序、绒球窗口、GluA4实验、CCAS 156例、双相记忆轨迹）；相关页链接更新（新子页）；key_sources扩充至9个；opens_questions新增Q-cb-04/Q-cb-05；updated→2026-08-01
+
+**矛盾登记（0）**：今日无新增矛盾。LTD非必要（Schonewille 2011）与LTD是运动误差机制（Ito经典）的张力已在文章#64时在cerebellar-ltd页登记，今日新增证据（Suvrathan 2018、Ito 2013双相轨迹）进一步充实了"分布式可塑性"范式对这个张力的统一解释，但核心矛盾（Q-cb-04：哪些范式中LTD是必要的）仍open。
+
+**新增开放问题（2）**：
+- Q-cb-04（高）：哪些具体学习范式中 LTD 仍是必要限速步骤？
+- Q-cb-05（中）：小脑后叶认知学习（Crus I/II）是否使用相同的PF-PC LTD机制？
+
+**图谱**：201节点（+3：purkinje-cell、climbing-fiber-error-signal；cerebellar-ltd已存在），新增约18条边
+
+---
+
 ## 2026-07-31 · 文章 #99 · 皮层的"安抚手"：vmPFC 如何通过截获细胞与 BLA 直接投射平息杏仁核的恐惧输出
 
 **核心主题**：内侧前额叶皮层下边缘子区（IL/vmPFC）通过三路并联机制实现对杏仁核恐惧输出的自上而下调控：①IL→腹侧ITC（截获细胞）→CeM的GABAergic门控（Likhtik et al. 2008，PMID:18615014；r=−0.67强负相关，选择性损毁因果证明）；②IL→BLA直接投射（消退后内在兴奋性↑，DREADD沉默→消退受损，Bloodgood et al. 2018，PMID:29507292）；③IL→PVT→CeA中继通路（Tao et al. 2021，PMID:33180308）。IL内部机制：消退训练激活mGluR5→AMPAR插入+内在兴奋性↑（Sepulveda-Orengo 2013，PMID:23616528）。时间逻辑：IL在消退训练时必要（写入），而非回忆时（Do-Monte 2015，PMID:25716859）。PL与IL功能可双重解离（Sierra-Mercado 2011）。

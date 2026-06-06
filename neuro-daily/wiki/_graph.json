@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-31",
-  "node_count": 198,
-  "edge_count": 1151,
+  "updated": "2026-08-01",
+  "node_count": 201,
+  "edge_count": 1169,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,33 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "purkinje-cell",
+      "title": "浦肯野细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/purkinje-cell.md"
+    },
+    {
+      "id": "climbing-fiber-error-signal",
+      "title": "攀爬纤维误差信号",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/climbing-fiber-error-signal.md"
+    },
+    {
+      "id": "expansion-coding",
+      "title": "颗粒细胞膨胀编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/cerebellar-ltd.md"
+    },
     {
       "id": "cortical-layers",
       "title": "皮层六层架构",
@@ -1816,6 +1843,108 @@
     }
   ],
   "edges": [
+    {
+      "from": "purkinje-cell",
+      "to": "cerebellum",
+      "type": "part-of",
+      "note": "PC 是小脑皮层唯一输出神经元"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "purkinje-cell",
+      "type": "mechanism-of",
+      "note": "CF 1:1 支配 PC，触发复杂放电和 LTD"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "cerebellar-ltd",
+      "type": "mechanism-of",
+      "note": "CF 激活是 LTD 诱导的必要条件（Ca²⁺ + 时序）"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "purkinje-cell",
+      "type": "mechanism-of",
+      "note": "LTD 在 PF-PC 突触处通过 AMPAR 内吞实现"
+    },
+    {
+      "from": "expansion-coding",
+      "to": "cerebellum",
+      "type": "part-of",
+      "note": "颗粒细胞层的 200:1 扩展比是小脑皮层的核心输入变换"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "LTD 通过误差信号驱动前向模型更新，是预测编码的小脑实现"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "CF 误差信号是小脑预测-实际比较机制的核心"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "deep-cerebellar-nuclei",
+      "type": "regulates",
+      "note": "PC 通过 GABA 持续抑制 DCN，运动学习的关键是暂时解除此抑制"
+    },
+    {
+      "from": "expansion-coding",
+      "to": "cerebellar-ltd",
+      "type": "prerequisite-for",
+      "note": "颗粒细胞的高维表征精度是 PF-PC LTD 发挥模式分离作用的前提"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "forward-model",
+      "type": "supports",
+      "note": "CF 误差信号驱动前向/逆向内部模型的更新（Wolpert 1998）"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "ltp",
+      "type": "related",
+      "note": "小脑 LTD 与 LTP 是 PF-PC 突触的双向可塑性；单独 PF 激活→LTP，PF+CF 同步→LTD"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "gaba",
+      "type": "mechanism-of",
+      "note": "PC 的输出完全通过 GABA 抑制（所有 PC 均为 GABAergic 抑制神经元）"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "inferior-olive",
+      "type": "part-of",
+      "note": "CF 起源于对侧下橄榄核（inferior olive），IO 缝隙连接调控同步"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "motor-learning",
+      "type": "supports",
+      "note": "LTD 是 Marr-Albus-Ito 运动学习模型的分子基础（但非充要条件，Schonewille 2011）"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "cerebellar-ltd",
+      "type": "contradicts",
+      "note": "LTD 分子机制（established）与 LTD 在运动学习中的必要性（contested by Schonewille 2011）自身存在张力"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "ampa-receptor",
+      "type": "mechanism-of",
+      "note": "PC 树突棘的 AMPAR（尤其 GluA2）是 LTD 表达步骤的分子位点"
+    },
+    {
+      "from": "cerebellum",
+      "to": "cognition",
+      "type": "related",
+      "note": "CCAS：小脑后叶损伤导致执行/语言/情感障碍——思维失调假说（Schmahmann）"
+    },
     {
       "from": "synaptic-scaling",
       "to": "homeostatic-plasticity",

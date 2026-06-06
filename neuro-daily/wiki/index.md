@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-31（第99篇·vmPFC对杏仁核的三路并联情绪调控回路）· 主题页总数：**194**（新建1页：pfc-amygdala-emotion-regulation；修订3页：fear-extinction rev3、prefrontal-cortex rev4、amygdala rev5；图谱198节点、1145+边）
+> 最后更新：2026-08-01（**第100篇里程碑**·小脑LTD分子机制与分布式可塑性革命）· 主题页总数：**196**（新建2页：purkinje-cell、climbing-fiber-error-signal；修订2页：cerebellar-ltd rev2、cerebellum rev2；图谱201节点、~1169边）
 
 ---
 
@@ -29,6 +29,7 @@
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 唯一常驻免疫细胞，突触可塑性的双刃卫士：发育期 CR3（C3b）+ TREM2（PtdSer）双通路剪枝；成年稳态下 CX3CR1 轴 + 低水平 TNF-α/IL-1β 支持 LTP；激活态高浓度细胞因子（TNFR1/NF-κB、p38/GluA1内吞、STAT3/Arc）系统性损伤 LTP；DAM/TREM2 在 AD 早期保护性清除过活跃突触；慢性应激→小胶质细胞预激→AD 风险放大 **[修订 rev2 2026-07-10]**
 - 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 髓鞘唯一制造者，单个细胞包裹 40–50 段轴突；OPC 终生保持分化潜能并感知神经元活动；VTA 中 OL 对奖励回路的调谐（Yalçın 2024）**[NEW 2026-07-27]**
+- 🟢 [浦肯野细胞](neurons/purkinje-cell.md) — 小脑皮层唯一输出神经元：~15万平行纤维突触+1根攀爬纤维；双重放电（简单50-100Hz/复杂~1Hz）；LTD发生位点；GABAergic抑制DCN **[NEW 2026-08-01 #100]**
 
 ## circuits（回路）
 
@@ -43,6 +44,8 @@
 
 ## concepts（概念/框架）
 
+- 🔴 [小脑LTD（PF-PC长时程突触压抑）](concepts/cerebellar-ltd.md) — mGluR1→PKC→GluA2 S880磷酸化→PICK1→AMPAR内吞；绒球最优窗口≈120ms（匹配视觉延迟）；但 Schonewille 2011 阻断LTD→运动学习仍正常（contested）；分布式可塑性≥15种机制 **[修订 rev2 2026-08-01 #100]**
+- 🟢 [攀爬纤维误差信号](concepts/climbing-fiber-error-signal.md) — 下橄榄核→CF→Purkinje细胞复杂放电（~1Hz稀疏）；眼跳后80–120ms；SC→IO延迟14.4ms；误差大小（2–6°）和方向编码；LTD诱导的"教师信号" **[NEW 2026-08-01 #100]**
 - 🟢 [BLA 价值极性双通道](concepts/bla-valence-circuits.md) — Ppp1r1b+ 奖励神经元→NAc（恐惧↓突触权重）vs Rspo2+ 恐惧神经元→CeA（恐惧↑突触权重）；BLA-NAc 77% 奖励激活，BLA-CeA 100% 厌恶激活（Beyeler 2016）；DA→BLA 驱动结果特异性奖励记忆（Sias 2024）**[NEW 2026-07-30 #98]**
 - 🟢 [时间细胞](concepts/time-cells.md) — 海马CA1在记忆任务延迟期以接力棒式序列放电；可重新校准（标量时间特性）；与场所细胞同源（75%+含空间信息）；人类颅内直接证据（Umbach 2020 PNAS）；是情节记忆时间维度编码的细胞基础 **[NEW 2026-07-24 #92]**
 - 🟢 [速度细胞](concepts/speed-cells.md) — MEC中放电率与运动速度线性正相关神经元；环境无关；~50-80ms前瞻性偏置；PPN→HDB→MEC脑干通路（Carvalho 2020因果证据）；路径整合速度分量的细胞实现 **[NEW 2026-07-24 #92]**

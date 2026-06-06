@@ -1,0 +1,206 @@
+{
+  "date": "2026-08-01",
+  "article": "2026-08-01-cerebellar-ltd-purkinje-motor-learning",
+  "article_number": 100,
+  "real_execution_date": "2026-06-06",
+  "topic": "小脑LTD分子机制与分布式可塑性革命",
+  "sources": [
+    {
+      "id": "PMID:23440175",
+      "pmcid": "PMC3579189",
+      "title": "Error detection and representation in the olivo-cerebellar system",
+      "authors": "Ito M",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2013,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3579189/",
+      "topics_covered": [
+        "inferior olive error computation",
+        "climbing fiber error signals",
+        "complex spike timing",
+        "sensory vs motor errors",
+        "cortical vs nuclear plasticity",
+        "biphasic memory traces"
+      ],
+      "adoption_reason": "最权威的橄榄-小脑误差检测综述，Masao Ito本人撰写，提供LTD→DCN记忆转移的双相模型",
+      "evidence_quality": "高（综合多物种、多范式数据）"
+    },
+    {
+      "id": "PMID:21482355",
+      "pmcid": "PMC3104468",
+      "title": "Reevaluating the role of LTD in cerebellar motor learning",
+      "authors": "Schonewille M, Gao Z, Boele HJ et al.",
+      "journal": "Neuron",
+      "year": 2011,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3104468/",
+      "topics_covered": [
+        "LTD not required for motor learning",
+        "PICK1 knockout",
+        "GluR2Delta7 knockin",
+        "GluR2K882A knockin",
+        "VOR adaptation",
+        "eyeblink conditioning",
+        "Erasmus ladder",
+        "distributed plasticity"
+      ],
+      "adoption_reason": "对Marr-Albus-Ito模型的最重要实验性挑战，证明阻断LTD不影响运动学习，迫使领域范式转移",
+      "evidence_quality": "高（三种独立遗传策略、三种行为范式）"
+    },
+    {
+      "id": "PMID:30069835",
+      "pmcid": "PMC6550343",
+      "title": "Depressed by learning—heterogeneity of the plasticity rules at parallel fiber synapses onto Purkinje cells",
+      "authors": "Suvrathan A, Raymond JL",
+      "journal": "Cerebellum",
+      "year": 2018,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6550343/",
+      "topics_covered": [
+        "LTD induction timing",
+        "PF-CF pairing interval",
+        "flocculus 120ms optimal window",
+        "regional heterogeneity of plasticity rules",
+        "behavioral feedback delay matching"
+      ],
+      "adoption_reason": "最高质量的LTD区域异质性分析，绒球120ms窗口与视觉反馈延迟匹配是最优雅的实验发现之一",
+      "evidence_quality": "高（Stanford Raymond实验室的精确电生理+行为实验）"
+    },
+    {
+      "id": "PMID:30995136",
+      "pmcid": "PMC6620692",
+      "title": "How cerebellar motor learning keeps saccades accurate",
+      "authors": "Soetedjo R, Fuchs AF",
+      "journal": "Journal of Neurophysiology",
+      "year": 2019,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6620692/",
+      "topics_covered": [
+        "complex spike timing 80-120ms after saccade",
+        "superior colliculus error signal relay",
+        "SC to inferior olive latency 14.4ms",
+        "error magnitude and direction encoding",
+        "saccadic adaptation",
+        "simple spike modulation with adaptation"
+      ],
+      "adoption_reason": "提供了复杂放电时序最精确的量化数据，支持攀爬纤维作为精密误差计时器（而非简单通/断开关）的观点",
+      "evidence_quality": "高（原始体内电生理研究，Washington大学）"
+    },
+    {
+      "id": "PMID:34219651",
+      "pmcid": "PMC8291978",
+      "title": "GluA4 facilitates cerebellar expansion coding and enables associative memory formation",
+      "authors": "Kita K, Albergaria C, Machado AS et al.",
+      "journal": "eLife",
+      "year": 2021,
+      "full_text_available": true,
+      "access_method": "PMC open access (eLife)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8291978/",
+      "topics_covered": [
+        "GluA4 AMPA receptor granule cells",
+        "expansion coding 200:1 ratio",
+        "pattern separation cerebellum",
+        "mossy fiber to granule cell EPSC 80% reduction",
+        "eyeblink conditioning abolished",
+        "locomotion preserved"
+      ],
+      "adoption_reason": "对颗粒细胞膨胀编码在联合学习中必要性的最直接因果证明",
+      "evidence_quality": "高（eLife开放获取，Champalimaud Centre研究）"
+    },
+    {
+      "id": "PMID:31522332",
+      "pmcid": "PMC6978293",
+      "title": "The Cerebellar Cognitive Affective/Schmahmann Syndrome: a Task Force Paper",
+      "authors": "Argyropoulos GPD, van Dun K, Adamaszek M et al.",
+      "journal": "Cerebellum",
+      "year": 2020,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6978293/",
+      "topics_covered": [
+        "CCAS cerebellar cognitive affective syndrome",
+        "executive function visuospatial language emotion",
+        "posterior lobe cognitive cerebellum",
+        "dysmetria of thought hypothesis",
+        "Universal Cerebellar Transform UCT",
+        "156 patient study",
+        "double dissociation motor vs cognitive"
+      ],
+      "adoption_reason": "小脑认知功能的最权威共识文件，提供了CCAS机制框架",
+      "evidence_quality": "高（多中心专家组共识+156例病例分析）"
+    },
+    {
+      "id": "PMID:11427694",
+      "pmcid": null,
+      "title": "Cerebellar long-term depression: characterization, signal transduction, and functional roles",
+      "authors": "Ito M",
+      "journal": "Physiological Reviews",
+      "year": 2001,
+      "full_text_available": false,
+      "access_method": "摘要仅读（付费期刊）",
+      "note": "未读取全文",
+      "topics_covered": [
+        "LTD molecular mechanism mGluR1 PKC AMPAR",
+        "LTD functional roles multiple motor systems"
+      ],
+      "adoption_reason": "LTD分子机制最经典的综述，Ito本人总结mGluR1→PKC→AMPAR通路",
+      "evidence_quality": "高（领域奠基性综述）"
+    },
+    {
+      "id": "PMID:21227230",
+      "pmcid": null,
+      "title": "Internal models in the cerebellum",
+      "authors": "Wolpert DM, Miall RC, Kawato M",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 1998,
+      "full_text_available": false,
+      "access_method": "摘要仅读（付费期刊）",
+      "note": "未读取全文",
+      "topics_covered": [
+        "forward model",
+        "inverse model",
+        "cerebellum internal models",
+        "multiple paired models"
+      ],
+      "adoption_reason": "内部模型框架最重要的理论综述，为小脑计算理解提供框架",
+      "evidence_quality": "中（理论综述，间接证据为主）"
+    },
+    {
+      "id": "PMID:29997061",
+      "pmcid": null,
+      "title": "The cerebellum and cognition",
+      "authors": "Schmahmann JD",
+      "journal": "Neuroscience Letters",
+      "year": 2019,
+      "full_text_available": false,
+      "access_method": "摘要仅读（付费期刊）",
+      "note": "未读取全文",
+      "topics_covered": [
+        "cerebellum cognition emotion",
+        "CCAS spectrum",
+        "posterior lobe cognitive role"
+      ],
+      "adoption_reason": "Schmahmann关于小脑认知功能的权威综述",
+      "evidence_quality": "高（临床神经科学）"
+    }
+  ],
+  "search_queries": [
+    "cerebellar LTD climbing fiber Purkinje cell motor learning review (PubMed)",
+    "cerebellum motor learning Marr Albus Ito theory review (PubMed)",
+    "climbing fiber error signal motor learning review (PubMed)",
+    "cerebellum cognition emotion cerebellar cognitive affective syndrome review (PubMed)",
+    "cerebellum internal model forward model motor control Wolpert Kawato (PubMed)",
+    "cerebellar LTD mGluR1 PKC AMPAR internalization Purkinje (PubMed)",
+    "granule cell cerebellum pattern separation expansion coding mossy fiber (PubMed)"
+  ],
+  "sources_summary": {
+    "total": 9,
+    "open_full_text": 6,
+    "abstract_only": 3,
+    "institutional_sources": 1
+  }
+}
