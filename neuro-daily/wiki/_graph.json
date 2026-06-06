@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-30",
-  "node_count": 197,
-  "edge_count": 1139,
+  "updated": "2026-07-31",
+  "node_count": 198,
+  "edge_count": 1151,
   "edge_types": [
     "is-a",
     "part-of",
@@ -679,6 +679,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/amygdala.md"
+    },
+    {
+      "id": "pfc-amygdala-emotion-regulation",
+      "title": "前额叶-杏仁核情绪调控回路",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/pfc-amygdala-emotion-regulation.md"
     },
     {
       "id": "bla-valence-circuits",
@@ -8059,9 +8068,73 @@
       "from": "bla-valence-circuits",
       "to": "subjective-value-encoding",
       "type": "supports"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "fear-extinction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "amygdala",
+      "type": "regulates"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "fear-conditioning",
+      "type": "related"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "bla-valence-circuits",
+      "type": "regulates"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "pfc-amygdala-emotion-regulation",
+      "type": "supports"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "pfc-amygdala-emotion-regulation",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "amygdala",
+      "to": "pfc-amygdala-emotion-regulation",
+      "type": "related"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "nmda-receptor",
+      "type": "related"
     }
   ],
   "dangling_references": [
+    {
+      "slug": "intercalated-cells",
+      "referenced_by": [
+        "pfc-amygdala-emotion-regulation",
+        "amygdala",
+        "fear-extinction"
+      ],
+      "note": "截获细胞（ITC）专页：BLA与CeA之间的GABAergic神经元群，是恐惧与消退竞争的物理阀门；富含µ-阿片受体；dermorphin-saporin选择性损毁实验（Likhtik 2008）；背侧ICMMD（促恐惧）vs腹侧ICMMV（促消退）功能分工；待建页面"
+    },
     {
       "slug": "complexin",
       "referenced_by": [

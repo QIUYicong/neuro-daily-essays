@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-05-31
-revision_count: 2
+updated: 2026-07-31
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation]
+related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, pfc-amygdala-emotion-regulation, prefrontal-cortex]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
 opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory]
-key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-31-pfc-amygdala-emotion-regulation]
+key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:12422216", "PMID:20962768", "PMID:29507292", "PMID:25716859", "PMID:23616528", "PMID:33180308"]
 ---
 
 # 恐惧消退 (Fear Extinction)
@@ -43,6 +43,28 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - **恐惧表达时**：LA→ICMMD（背侧ITC）激活 → ICMMD抑制ICMMV（腹侧）→ ICMMV无法抑制CeM → CeM活跃→恐惧
 - **消退表达时**：BLA+IL→ICMMV激活 → ICMMV抑制CeM → 恐惧被压制
 - 消退训练后，BLA→ICMMV突触增强（塑性变化）
+
+### IL→BLA 直接投射的消退专门化（Bloodgood et al. 2018）
+- IL 神经元直接投射到 BLA（占 PFC 细胞约 38.2%，独立于 IL→NAc 通路，仅 3.4% 同时投射两者）
+- 消退后 IL-BLA 神经元内在兴奋性↑（rheobase↓）；PL-BLA 神经元无此变化（选择性可塑性）
+- 化学遗传学沉默 IL-BLA 消退训练时→次日消退记忆提取受损（p=0.02）
+- 意义：IL 不只通过 ITC 中继，它还在 BLA 内部直接增强消退神经元的自主驱动
+
+### IL 内部的 mGluR5 依赖性突触可塑性（Sepulveda-Orengo et al. 2013）
+- 消退训练激活 IL 锥体神经元 mGluR5 → AMPAR 插入 IL 突触（AMPA/NMDA 比值↑）
+- 钙渗透性 AMPAR（CP-AMPAR）比例↑，IL 对后续 CS 信号更敏感
+- IL 神经元内在兴奋性↑（与 Bloodgood 2018 中 IL-BLA 神经元可塑性相互印证）
+- 意义：消退训练在 IL 内部建立分子记忆，"自我放大"后续的下行抑制信号
+
+### IL 的关键时间窗：训练时写入，而非回忆时存储（Do-Monte et al. 2015）
+- 消退**训练时**光遗传学沉默 IL → 次日消退记忆受损（写入阶段必要）
+- 消退**回忆时**光遗传学沉默 IL → 当天恐惧重现，但不影响长期消退记忆（短时表达需要，长期存储在下游）
+- 推论：消退记忆的持久痕迹最终编码在 BLA 消退神经元 / ICMMV 突触，IL 是写入引擎而非存储仓库
+
+### IL→PVT→CeA 第三条消退通路（Tao et al. 2021）
+- IL 投射到丘脑室旁核（PVT），PVT 再连接 CeA
+- 选择性沉默 IL→PVT 通路 → 消退提取受损（独立于 IL→杏仁核直接通路）
+- 可能提供情景信号的中继层（PVT 也接收海马信号）；解释了为何单独破坏 IL→杏仁核不能完全消除消退
 
 ### BA双神经元群（情景依赖的开关）
 - **恐惧细胞**：条件反射后CS+，消退后响应消失；投射PL皮层
@@ -82,7 +104,9 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高（啮齿类证据充分，人类转化大体一致）
+- 2026-07-31 · 修订（rev2→rev3）· 基于《皮层的安抚手》一文（#99）· 新增 IL→BLA 直接投射机制（Bloodgood 2018，PMC5838104）；新增 IL 内部 mGluR5→AMPAR 分子可塑性（Sepulveda-Orengo 2013，PMC3690368）；新增 IL 时间窗口（Do-Monte 2015，PMC4339362）；新增 IL→PVT→CeA 替代通路（Tao 2021，PMC7870747）；related 新增 pfc-amygdala-emotion-regulation 和 prefrontal-cortex
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
+- [[2026-07-31-pfc-amygdala-emotion-regulation]]

@@ -1,6 +1,42 @@
 # 未解问题追踪
 
-*最后更新：2026-07-30*
+*最后更新：2026-07-31*
+
+---
+
+## 2026-07-31 新增（来自"vmPFC 对杏仁核情绪调控"文章 #99）
+
+### Q-pfc-amyg-01（中优先级）：PL 与 IL 的相互协调机制
+
+- **关联 wiki**：[[pfc-amygdala-emotion-regulation]]、[[prefrontal-cortex]]、[[fear-extinction]]
+- **来源文章**：2026-07-31-pfc-amygdala-emotion-regulation
+- **问题**：PL 促进恐惧，IL 促进消退，两个子区功能相反且紧邻。消退时 PL 活动是被 IL 通过 mPFC 内部的 GABAergic 中间神经元（PV+？SST+？）主动抑制，还是 PL 自发下调？这两种机制有什么行为预测上的差异（主动拮抗 vs 被动下调会导致不同的消退稳定性）？
+- **当前证据状态**：PL/IL 功能分离（高，Sierra-Mercado 2011）；相互抑制的回路细节（非常弱，几乎无直接研究）
+- **为什么重要**：理解 PL-IL 协调是解释"为什么有些人在消退训练后 PL 仍然过活跃（PTSD）"的关键前提
+
+### Q-pfc-amyg-02（高优先级）：人类 vmPFC/BA25 → 杏仁核 ITC 门控机制的直接验证
+
+- **关联 wiki**：[[pfc-amygdala-emotion-regulation]]、[[amygdala]]
+- **来源文章**：2026-07-31-pfc-amygdala-emotion-regulation
+- **问题**：人类 vmPFC/BA25 是否真的通过 ITC 细胞（µOR+ GABAergic）来实现对 CeM 的门控？目前所有 ITC 直接证据来自大鼠/小鼠。人类杏仁核解剖中虽有 ITC 样细胞群，但其 µOR 表达、与 vmPFC 的突触连接、和功能性门控角色从未被直接体内验证。如何在人类中设计可行的验证研究（术中记录？死后组织功能追踪？）
+- **当前证据状态**：啮齿类 ITC 门控（高，Likhtik 2008）；人类 vmPFC-杏仁核 fMRI 连接性（中-高，Milad 综述）；人类 ITC 直接功能验证（缺失）
+- **为什么重要**：直接决定 ITC 是否可作为 PTSD 和恐惧相关障碍的人类治疗靶点
+
+### Q-pfc-amyg-03（中优先级）：IL mGluR5 可塑性的上游驱动者
+
+- **关联 wiki**：[[pfc-amygdala-emotion-regulation]]、[[fear-extinction]]、[[hippocampal-circuit]]
+- **来源文章**：2026-07-31-pfc-amygdala-emotion-regulation
+- **问题**：消退训练中，是什么信号激活了 IL 锥体神经元上的 mGluR5 并触发 AMPAR 插入？候选信号：①CS 本身（感觉皮层→IL 直接传入）；②腹侧海马（vHPC）的"无 US 预测误差"信号（CS 出现但 US 未到来时 vHPC 的奇异放电）；③BLA 消退神经元的反馈投射（消退神经元→IL 的逆向增强）。三个候选的实验区分需要路径特异性操控。
+- **当前证据状态**：mGluR5 的必要性（中-高，Sepulveda-Orengo 2013）；上游驱动者（弱，推测为 vHPC，无直接因果证据）
+- **为什么重要**：如果 vHPC 是 IL 可塑性的关键上游，则腹侧海马→IL 通路是消退记忆形成的关键接口，为失忆/PTSD 提供新靶点
+
+### Q-pfc-amyg-04（低优先级）：儿童期 IL 未成熟对早期创伤消退障碍的分子机制
+
+- **关联 wiki**：[[pfc-amygdala-emotion-regulation]]、[[critical-period]]、[[myelination]]
+- **来源文章**：2026-07-31-pfc-amygdala-emotion-regulation
+- **问题**：发育研究（Gee et al. 2022）表明儿童期杏仁核→皮层信息流是自下而上的（底-上），青春期后转为自上而下。这种转换的分子机制是什么：是 vmPFC-杏仁核投射的髓鞘化不足（导致传导速度慢、时间不精确）？还是 IL 突触本身的 mGluR5/AMPAR 表达尚未成熟导致消退可塑性无法触发？还是 ITC 细胞本身在发育期密度不足？
+- **当前证据状态**：发育转换的 fMRI 证据（中，Gee 2022）；分子机制（弱，推测）
+- **为什么重要**：若是髓鞘化不足，则早期创伤干预应在髓鞘化完成前（青春期）优先进行；若是 ITC 密度发育问题，则时间窗口和干预策略完全不同
 
 ---
 

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-30（第98篇·BLA奖励-恐惧双通道）· 主题页总数：**193**（新建1页：bla-valence-circuits；修订2页：amygdala rev4、orbitofrontal-cortex rev2；图谱197节点、1139边）
+> 最后更新：2026-07-31（第99篇·vmPFC对杏仁核的三路并联情绪调控回路）· 主题页总数：**194**（新建1页：pfc-amygdala-emotion-regulation；修订3页：fear-extinction rev3、prefrontal-cortex rev4、amygdala rev5；图谱198节点、1145+边）
 
 ---
 
@@ -39,6 +39,7 @@
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
+- 🟢 [前额叶-杏仁核情绪调控回路](circuits/pfc-amygdala-emotion-regulation.md) — IL（vmPFC）通过三路并联（ITC门控/BLA直接投射/PVT中继）压制杏仁核恐惧输出；PL 反向促进恐惧表达；IL内部mGluR5→AMPAR可塑性；IL训练时写入/回忆时表达逻辑 **[NEW 2026-07-31 #99]**
 
 ## concepts（概念/框架）
 

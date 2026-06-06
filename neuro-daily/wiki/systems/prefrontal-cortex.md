@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-01
-revision_count: 3
+updated: 2026-07-31
+revision_count: 4
 dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, amygdala, fear-extinction, pfc-amygdala-emotion-regulation]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
 opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS]
-key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-31-pfc-amygdala-emotion-regulation]
+key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:12422216", "PMID:20962768", "PMID:29507292"]
 ---
 
 # 前额叶皮层（Prefrontal Cortex, PFC）
@@ -53,6 +53,29 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - 猕猴 → 人类：dlPFC 进一步扩大，L3d 锥体细胞更高、棘更多、连接更复杂
 - 人类特有的语言/符号工作记忆是否有独特神经机制，目前无法侵入性记录验证
 
+### vmPFC/IL 的情绪调控功能（情绪调控子区）
+
+内侧前额叶皮层（mPFC）包含两个功能相反的情绪调控子区：
+
+**前边缘皮层（Prelimbic cortex, PL，对应人类约 BA32）**：
+- 激活 PL → 驱动杏仁核恐惧输出；沉默 PL → 恐惧表达减弱
+- PL→BLA 恐惧神经元 / PL→CeA 投射促进防御反应
+
+**下边缘皮层（Infralimbic cortex, IL，对应人类 vmPFC/BA25）**：
+- 激活 IL → 促进消退记忆表达；沉默 IL → 消退记忆形成受损
+- IL 通过三条并行通路实现对恐惧输出的压制：
+  1. IL→腹侧 ITC（截获细胞）→CeM：GABAergic 门控（经典通路）
+  2. IL→BLA 直接投射：消退后 IL-BLA 神经元内在兴奋性↑（Bloodgood 2018）
+  3. IL→丘脑室旁核（PVT）→CeA：情景信号中继通路（Tao 2021）
+- IL 内部机制：消退训练激活 mGluR5 → AMPAR 插入 → IL 自我增强
+
+**功能分离的行为证据**（Sierra-Mercado et al. 2011，PMID:20962768）：
+- IL 失活损害消退记忆形成，不影响恐惧表达
+- PL 失活减弱恐惧表达，不影响消退记忆
+- 双重解离确立两个子区功能的独立性
+
+**人类对应**：vmPFC/BA25 激活预测消退记忆质量；PTSD 患者 vmPFC 激活低于对照，与消退回忆障碍对应（Milad et al. 综述，PMID:22129456）
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -69,6 +92,9 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - [[gamma-oscillations]] — dlPFC 中 γ 爆发是工作记忆的振荡载体
 - [[pv-interneurons]] — dlPFC 中 PV 篮状细胞生成 γ，调控工作记忆时序
 - [[memory-consolidation]] — PFC 是记忆巩固后远端记忆的皮层存储库
+- [[amygdala]] — vmPFC/IL 通过 ITC 门控和 BLA 直接投射对杏仁核恐惧输出实施自上而下调控
+- [[fear-extinction]] — IL 是消退记忆形成（训练时写入）的必要前额叶节点
+- [[pfc-amygdala-emotion-regulation]] — vmPFC/IL 对杏仁核情绪调控的三路并联回路整合页
 - [[global-workspace-theory]] — dlPFC 是全局工作空间神经元的核心解剖节点；参与意识点燃的广播
 - [[consciousness-ignition]] — 意识点燃在 PFC 的神经基础：只有被感知刺激触发 dlPFC 持续放电（van Vugt et al. 2018）
 
@@ -83,8 +109,10 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 新增 dlPFC 在全局工作空间点燃中的角色；添加 global-workspace-theory 和 consciousness-ignition 到 related；新增猕猴 van Vugt 2018 证据
 
 - 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 FEF（额叶眼区，BA8）作为 PFC 注意控制子区域；添加 dorsal-attention-network 和 thalamus 到 related；添加 Moore & Fallah 2004 和 Corbetta & Shulman 2002 到 key_sources；新增未解问题 Q-dan-02
+- 2026-07-31 · 修订（rev3→rev4）· 基于《皮层的安抚手》一文（#99）· 新增 vmPFC/IL 情绪调控功能子区（PL vs IL 功能分工、三路并联机制、人类 vmPFC 对应证据）；related 新增 amygdala/fear-extinction/pfc-amygdala-emotion-regulation；key_sources 新增三个 PMID
 
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
+- [[2026-07-31-pfc-amygdala-emotion-regulation]]

@@ -1,0 +1,114 @@
+# 运行日志 · 2026-07-31
+
+## 基本信息
+- **文章序号**：#99
+- **虚拟日期**：2026-07-31
+- **真实执行日期（UTC+8）**：2026-06-06 08:59:52 CST
+- **选题模式**：长期课程模式（long_term_curriculum）
+- **层级**：microcircuit / brain-region / synaptic / molecular / cognition / disease
+
+## 选题决策
+- 依据 topic_ledger.json (#98) 中 next_suggested_topics 第一条：前额叶-杏仁核情绪调控回路
+- 缩小主题：不写"PFC-amygdala emotion regulation"（过宽），聚焦"vmPFC/IL如何通过ITC截获细胞和BLA直接投射实现恐惧输出的自上而下压制"
+- 符合连续性：衔接 #98（BLA内部奖励-恐惧双通道）→ #99（vmPFC对BLA/CeA的皮层调控）
+- 层级未连续三天相同（#97为认知/脑区层级，#98为突触/细胞/微回路，#99为微回路/脑区/分子/认知）
+
+## 资料检索过程
+- 检索工具：NCBI E-utilities (esearch + efetch)、PMC open access
+- 搜索词：
+  1. "infralimbic cortex amygdala fear extinction ITC intercalated cells"
+  2. "prefrontal cortex amygdala emotion regulation top-down vmPFC"
+  3. "Milad Quirk 2002 infralimbic extinction memory"
+  4. "Likhtik 2008 intercalated amygdala extinction"
+  5. "Sierra-Mercado 2011 infralimbic prelimbic amygdala fear expression extinction"
+  6. "infralimbic cortex fear extinction 2000:2023"
+  7. "prefrontal cortex amygdala fear extinction circuit review 2020:2025"
+- 候选论文数：>20 篇
+- 采用来源：9篇（7开放全文，2摘要仅读）
+
+## 采用来源
+1. PMID:12422216 (Milad & Quirk 2002, Nature) — 摘要仅读（Nature付费）
+2. PMID:15113265 (Milad et al. 2004, Behav Neurosci) — 摘要仅读
+3. PMID:18615014 (Likhtik et al. 2008, Nature, PMC2528060) — **全文读取**
+4. PMID:20962768 (Sierra-Mercado et al. 2011, Neuropsychopharmacology, PMC3005957) — **全文读取**
+5. PMID:23616528 (Sepulveda-Orengo et al. 2013, J Neurosci, PMC3690368) — **全文读取**
+6. PMID:25716859 (Do-Monte et al. 2015, J Neurosci, PMC4339362) — **全文读取**
+7. PMID:29507292 (Bloodgood et al. 2018, Transl Psychiatry, PMC5838104) — **全文读取**
+8. PMID:33180308 (Tao et al. 2021, Neurosci Bull, PMC7870747) — **全文读取**
+9. PMID:32970967 (Bouton et al. 2021, Physiol Rev, PMC8428921) — **全文读取（综述背景）**
+
+## 排除来源
+- PMID:19359671 (Koenigs & Grafman 2009, Neuroscientist, PTSD review) — 已被更新综述涵盖
+- PMID:35080089 (Gee et al. 2022, Dev Sci, 发育转换) — 仅在文章中作背景引述，未列为主要来源
+- PMID:26983799 (Izquierdo 2016, Physiol Rev) — Bouton 2021 综述更新，选后者
+
+## 固结操作（wiki 修订/新建）
+### 新建（1页）
+- `wiki/circuits/pfc-amygdala-emotion-regulation.md` — rev1
+  - 三路并联回路整合节点：IL→ITC门控 / IL→BLA直接投射 / IL→PVT中继
+  - IL内部mGluR5可塑性；训练vs回忆时间逻辑；PL vs IL功能分工；人类vmPFC对应
+  - Q-pfc-amyg-01~04新增
+
+### 修订（3页）
+- `wiki/concepts/fear-extinction.md` rev2→rev3
+  - 新增：IL→BLA直接投射可塑性（Bloodgood 2018）
+  - 新增：mGluR5→AMPAR分子可塑性小节（Sepulveda-Orengo 2013）
+  - 新增：IL训练时写入/回忆时表达时间逻辑（Do-Monte 2015）
+  - 新增：IL→PVT第三通路小节（Tao 2021）
+  - related/key_sources更新
+
+- `wiki/systems/prefrontal-cortex.md` rev3→rev4
+  - 新增vmPFC/IL情绪调控功能子区完整小节
+  - PL vs IL功能分工行为证据、三路并联机制、人类vmPFC对应
+  - related/key_sources更新
+
+- `wiki/systems/amygdala.md` rev4→rev5
+  - ITC小节补充r=-0.67量化数据（Likhtik 2008）
+  - 新增IL→BLA协同ICMMV增强描述
+
+## 矛盾检查
+- 今日无新矛盾登记
+- IL→BLA直接投射（Bloodgood 2018）补充了经典IL→ITC→CeA模型，是并列扩充而非冲突
+- ITC量化数据（r=-0.67，34%损毁）与既有记录（"选择性损毁ITC→消退受损"）一致，只是补充了数值细节
+
+## 新增悬空引用
+- `intercalated-cells`：今日文章频繁引用，已加入 _graph.json dangling_references
+
+## 图谱更新
+- 节点：197→198（+1：pfc-amygdala-emotion-regulation）
+- 边：1139→1151（+12条新边：pfc-amygdala-emotion-regulation 与多节点的机制/调控/部分/关联关系）
+- 新增悬空引用：intercalated-cells
+
+## 文件清单
+情景层（新增）：
+- neuro-daily/articles/2026-07-31-pfc-amygdala-emotion-regulation.md ✓
+- neuro-daily/notes/2026-07-31-reading-notes.md ✓
+- neuro-daily/sources/2026-07-31-sources.json ✓
+
+语义层（新建/修订）：
+- neuro-daily/wiki/circuits/pfc-amygdala-emotion-regulation.md ✓ (新建)
+- neuro-daily/wiki/concepts/fear-extinction.md ✓ (rev3)
+- neuro-daily/wiki/systems/prefrontal-cortex.md ✓ (rev4)
+- neuro-daily/wiki/systems/amygdala.md ✓ (rev5)
+- neuro-daily/wiki/_graph.json ✓ (198节点/1151边)
+- neuro-daily/wiki/index.md ✓
+- neuro-daily/wiki/CHANGELOG.md ✓
+
+治理层（更新）：
+- neuro-daily/state/topic_ledger.json ✓ (第99篇)
+- neuro-daily/state/unresolved_questions.md ✓ (+4问题)
+- neuro-daily/state/source_registry.json ✓
+- neuro-daily/state/monthly_synthesis.md ✓
+
+## Git 操作
+- 分支：main
+- commit message: "Add neuro daily article + wiki consolidation for 2026-07-31"
+- push：git push origin main
+- push 状态：[由 git 操作后填写]
+- commit hash：[由 git 操作后填写]
+
+## 限制说明
+- Milad & Quirk 2002 和 Milad 2004 未找到开放全文，仅读摘要
+- 人类 vmPFC/BA25 与啮齿类 IL 的 ITC 门控机制的直接对应仍是推断（无法体内选择性操控人类 ITC）
+- Tao et al. 2021（IL→PVT通路）为单一研究组，需要独立重复验证，置信度标注为"中"
+- 儿童期发育转换（Gee et al. 2022）在文章中作背景引述，未作主要来源，无独立来源文件记录

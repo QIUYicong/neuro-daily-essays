@@ -1,7 +1,62 @@
 {
-  "last_updated": "2026-07-30",
-  "total_articles": 98,
+  "last_updated": "2026-07-31",
+  "total_articles": 99,
   "entries": [
+    {
+      "date": "2026-07-31",
+      "title": "皮层的"安抚手"：vmPFC 如何通过截获细胞与 BLA 直接投射平息杏仁核的恐惧输出",
+      "filename": "2026-07-31-pfc-amygdala-emotion-regulation.md",
+      "wiki_pages_created": [
+        "wiki/circuits/pfc-amygdala-emotion-regulation.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/fear-extinction.md (rev2→rev3: 新增IL→BLA直接投射机制/mGluR5→AMPAR分子可塑性/IL时间窗口/IL→PVT第三通路；related/key_sources更新；updated→2026-07-31)",
+        "wiki/systems/prefrontal-cortex.md (rev3→rev4: 新增vmPFC/IL情绪调控完整小节；related新增amygdala/fear-extinction/pfc-amygdala-emotion-regulation；key_sources新增三个PMID；updated→2026-07-31)",
+        "wiki/systems/amygdala.md (rev4→rev5: ITC小节补充Likhtik 2008量化数据r=-0.67；新增IL-BLA协同ICMMV增强；updated→2026-07-31)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "IL（vmPFC）通过三路并联实现对恐惧输出的压制：①IL→ICMMV→CeM GABAergic门控（Likhtik 2008，r=-0.67）；②IL→BLA直接投射消退后内在兴奋性↑（Bloodgood 2018，DREADD因果证明p=0.02）；③IL→PVT→CeA独立第三通路（Tao 2021）。IL内部mGluR5→AMPAR插入+内在兴奋性↑（Sepulveda-Orengo 2013）。IL在训练时写入必要/回忆时表达可选（Do-Monte 2015光遗传）。PL与IL双重解离：PL→恐惧表达，IL→消退形成（Sierra-Mercado 2011）。",
+      "layer": ["microcircuit", "brain-region", "synaptic", "molecular", "cognition", "disease"],
+      "curriculum_track": "Track 6（情绪与动机）vmPFC对杏仁核自上而下调控；衔接第98篇BLA回路（杏仁核内部）→ 第99篇vmPFC→杏仁核调控（皮层-皮层下接口）；填补prefrontal-cortex页面vmPFC情绪调控子区缺口",
+      "topic_tags": [
+        "infralimbic cortex", "prelimbic cortex", "vmPFC", "BA25",
+        "intercalated cells", "ITC", "ICMMD", "ICMMV",
+        "fear extinction", "emotion regulation", "top-down control",
+        "Milad Quirk 2002", "Sierra-Mercado 2011", "Likhtik 2008",
+        "Bloodgood 2018", "Do-Monte 2015", "Sepulveda-Orengo 2013", "Tao 2021",
+        "DREADD KOR", "optogenetics halorhodopsin",
+        "mGluR5", "AMPAR insertion", "intrinsic excitability",
+        "IL-BLA projection", "IL-PVT pathway", "dermorphin-saporin",
+        "mu-opioid receptor", "GABAergic gate", "CeM inhibition",
+        "PTSD extinction deficit", "exposure therapy neuroscience"
+      ],
+      "main_sources": [
+        "PMID:12422216 (Milad & Quirk 2002, Nature, IL neurons extinction memory, 摘要仅读)",
+        "PMID:15113265 (Milad et al. 2004, Behav Neurosci, IL stimulation time-specific, 摘要仅读)",
+        "PMID:18615014 (Likhtik et al. 2008, Nature, ITC cells required extinction, PMC2528060 开放全文)",
+        "PMID:20962768 (Sierra-Mercado et al. 2011, Neuropsychopharmacology, IL vs PL dissociation, PMC3005957 开放全文)",
+        "PMID:23616528 (Sepulveda-Orengo et al. 2013, J Neurosci, mGluR5 IL plasticity, PMC3690368 开放全文)",
+        "PMID:25716859 (Do-Monte et al. 2015, J Neurosci, optogenetics IL extinction timing, PMC4339362 开放全文)",
+        "PMID:29507292 (Bloodgood et al. 2018, Transl Psychiatry, IL-BLA projection extinction, PMC5838104 开放全文)",
+        "PMID:33180308 (Tao et al. 2021, Neurosci Bull, IL-PVT pathway extinction, PMC7870747 开放全文)",
+        "PMID:32970967 (Bouton et al. 2021, Physiol Rev, extinction mechanisms review, PMC8428921 开放全文)"
+      ],
+      "unresolved_questions": [
+        "Q-pfc-amyg-01 (新增，中优先级：PL与IL相互协调的回路细节—消退时PL是否被IL经mPFC内中间神经元主动抑制？)",
+        "Q-pfc-amyg-02 (新增，高优先级：人类vmPFC/BA25→杏仁核ITC门控机制的直接验证——无法体内选择性操控人类ITC是核心限制)",
+        "Q-pfc-amyg-03 (新增，中优先级：IL mGluR5可塑性的上游驱动者：CS直接感觉输入 vs vHPC无US预测误差信号？)",
+        "Q-pfc-amyg-04 (新增，低优先级：儿童期IL未成熟的具体分子机制：髓鞘化不足 vs 突触可塑性规则差异？)"
+      ],
+      "next_suggested_topics": [
+        "截获细胞（ITC）专页：从杏仁核解剖到μOR门控—建立独立wiki页面，详细覆盖ITC的发育起源、电生理特性、多物种保守性、与CeL的关系",
+        "vmPFC/IL在PTSD和抑郁症中的功能障碍：脑刺激疗法（TMS、DBS BA25）的神经科学基础",
+        "内侧前额叶（vmPFC/PL/IL/ACC）的完整功能图谱：Track 5/6综合节点，覆盖价值更新（OFC）、情绪调控（vmPFC）、认知控制（dlPFC）的协调关系"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 99,
+      "note": "系统时钟UTC+8=2026-06-06（真实执行日期）；知识库虚拟日期2026-07-31；9个来源中7个开放全文、2个摘要仅读（Milad 2002/2004，Nature/Behav Neurosci付费）；无PMID编造；无新矛盾登记；文章深化Track 6情绪调控前额叶章节，填补vmPFC→杏仁核自上而下调控这一重要缺口"
+    },
     {
       "date": "2026-07-30",
       "title": "情绪的两条轨道：杏仁核如何同时为奖励和恐惧编码价值",

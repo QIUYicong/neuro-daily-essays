@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-07-31 · 文章 #99 · 皮层的"安抚手"：vmPFC 如何通过截获细胞与 BLA 直接投射平息杏仁核的恐惧输出
+
+**核心主题**：内侧前额叶皮层下边缘子区（IL/vmPFC）通过三路并联机制实现对杏仁核恐惧输出的自上而下调控：①IL→腹侧ITC（截获细胞）→CeM的GABAergic门控（Likhtik et al. 2008，PMID:18615014；r=−0.67强负相关，选择性损毁因果证明）；②IL→BLA直接投射（消退后内在兴奋性↑，DREADD沉默→消退受损，Bloodgood et al. 2018，PMID:29507292）；③IL→PVT→CeA中继通路（Tao et al. 2021，PMID:33180308）。IL内部机制：消退训练激活mGluR5→AMPAR插入+内在兴奋性↑（Sepulveda-Orengo 2013，PMID:23616528）。时间逻辑：IL在消退训练时必要（写入），而非回忆时（Do-Monte 2015，PMID:25716859）。PL与IL功能可双重解离（Sierra-Mercado 2011）。
+
+**新建页面（1）**：
+- `circuits/pfc-amygdala-emotion-regulation.md` rev1 — 前额叶-杏仁核三路并联情绪调控回路整合节点；PL vs IL功能分工；ITC门控/BLA直接投射/PVT三通路；IL内部mGluR5可塑性；训练vs回忆时间逻辑；人类vmPFC对应证据；Q-pfc-amyg-01~04新增 (established, confidence:high)
+
+**修订页面（3）**：
+- `concepts/fear-extinction.md` rev2→rev3 — 新增IL→BLA直接投射消退专门化（Bloodgood 2018）；新增IL内部mGluR5→AMPAR分子可塑性（Sepulveda-Orengo 2013）；新增IL时间窗口（Do-Monte 2015）；新增IL→PVT第三通路（Tao 2021）；related/key_sources更新；updated→2026-07-31
+- `systems/prefrontal-cortex.md` rev3→rev4 — 新增vmPFC/IL情绪调控功能子区完整小节（PL vs IL分工、三路并联机制、行为双重解离证据、人类vmPFC对应）；related新增amygdala/fear-extinction/pfc-amygdala-emotion-regulation；key_sources新增三个PMID；updated→2026-07-31
+- `systems/amygdala.md` rev4→rev5 — ITC小节补充Likhtik 2008量化数据（r=−0.67，34%损毁）；新增IL→BLA直接投射对ICMMV协同增强；source_articles更新；updated→2026-07-31
+
+**矛盾登记（0）**：今日无新增矛盾。IL→BLA直接投射（Bloodgood 2018）与经典IL→ITC→CeA模型是并列扩充而非冲突。
+
+**新增开放问题（4）**：
+- Q-pfc-amyg-01（中）：PL与IL的相互协调机制（mPFC内中间神经元？）
+- Q-pfc-amyg-02（高）：人类vmPFC/BA25→杏仁核ITC门控机制的直接验证问题
+- Q-pfc-amyg-03（中）：mGluR5 IL可塑性的上游驱动者（CS直接 vs vHPC预测误差信号？）
+- Q-pfc-amyg-04（低）：儿童期IL未成熟对早期创伤消退障碍的具体分子机制
+
+**图谱**：198节点（+1：pfc-amygdala-emotion-regulation），1145+边（新增：pfc-amygdala-emotion-regulation与amygdala/fear-extinction/prefrontal-cortex/fear-conditioning/hippocampal-circuit/bla-valence-circuits的多条关系边）
+
+---
+
 ## 2026-07-30 · 文章 #98 · 情绪的两条轨道：杏仁核如何同时为奖励和恐惧编码价值
 
 **核心主题**：基底外侧杏仁核（BLA）并非单一"恐惧中枢"，而是一个**价值极性双编码器**——两类神经元群（Ppp1r1b+后部奖励神经元 / Rspo2+前部恐惧神经元）通过**完全相反的突触可塑性规则**和**分叉的投射通道**（BLA-NAc / BLA-CeA），分别向奖励驱动和威胁防御系统传递正向与负向情绪价值信号。核心实验：Namburi et al. 2015（PMID:25925480，Nature）——恐惧学习使 NAc 投射 AMPAR/NMDAR 比值 ↓、CeM 投射 ↑；奖励学习则完全相反。Beyeler et al. 2016（PMID:27041499，Neuron）——光标记发现 BLA-NAc 神经元 77% 被奖励线索激活，BLA-CeA 神经元 100% 被厌恶线索激活。Corbit & Balleine 2005（PMID:15673677）双解离证明 BLA 编码奖励结果身份（outcome-specific PIT）。Sias et al. 2024（PMID:38396258，Nature Neuroscience）——VTA-DA→BLA 投射专门驱动结果特异性奖励记忆的编码。Wassum 2022（PMID:36062909，eLife）——BLA-OFC 四向协作：lOFC→BLA 编码记忆、mOFC→BLA 用于决策、BLA→lOFC 提取奖励身份、BLA→mOFC 传递预期价值。

@@ -6,13 +6,13 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-30
-revision_count: 4
+updated: 2026-07-31
+revision_count: 5
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
 related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, hpa-axis, glucocorticoid-hippocampus-plasticity, olfactory-system, bla-valence-circuits, incentive-salience, subjective-value-encoding]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-stress-01]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis, 2026-07-17-olfactory-system-molecular-to-memory, 2026-07-30-bla-reward-fear-circuits]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis, 2026-07-17-olfactory-system-molecular-to-memory, 2026-07-30-bla-reward-fear-circuits, 2026-07-31-pfc-amygdala-emotion-regulation]
 key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:26286651", "PMID:12042880", "PMID:19804753", "PMID:25925480", "PMID:27041499", "PMID:38396258"]
 ---
 
@@ -42,7 +42,8 @@ key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:26286651"
 - **背侧ITC（ICMMD）**：LA→ICMMD→抑制ICMMV→CeM去抑制 → 恐惧表达
 - **腹侧ITC（ICMMV）**：BLA+IL皮层→ICMMV→直接抑制CeM → 消退表达
 - ITC上富含µ-阿片受体，阿片系统可调节消退
-- 选择性损毁ITC → 恐惧获得正常，消退表达严重受损（Likhtik et al. 2008）
+- 选择性损毁ITC（dermorphin-saporin，靶向µOR+细胞，约减少34%）→ 恐惧获得正常，消退表达严重受损；存活ITC数量与消退测试冻结率呈强负相关（**r=−0.67，p<0.01**，Likhtik et al. 2008，PMID:18615014）
+- 腹侧ITC（ICMMV）同时接收 IL 皮层和 BLA 的汇合信号；IL→BLA 直接投射在消退后也发生内在兴奋性↑（Bloodgood et al. 2018，PMID:29507292），两条通路协同增强消退神经元回路
 
 ### 恐惧表达的完整输出
 CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率↑）；CeM → 下丘脑室旁核（PVN）→ HPA 轴 → CRH → ACTH → 皮质醇/皮质酮；CeM → BNST → 持续焦虑/广泛性焦虑
