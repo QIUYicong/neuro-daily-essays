@@ -120,7 +120,8 @@
 
 - commit message: `Add neuro daily article + wiki consolidation for 2026-08-01`
 - push target: `origin main`
-- 推送状态：[待推送，见下方 git 操作]
+- commit hash: cb7e2e7
+- 推送状态：✅ 成功推送到 origin main（afda92b → cb7e2e7）
 
 ---
 
