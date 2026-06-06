@@ -6,10 +6,10 @@ type: mechanism
 status: emerging
 confidence: medium
 created: 2026-06-26
-updated: 2026-06-28
-revision_count: 2
+updated: 2026-08-09
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf]
+related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf, cortical-neurogenesis]
 prerequisites: [hippocampal-circuit, ltp, pattern-separation]
 opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-neurogenesis-AD, Q-gaba-switch-timing]
 source_articles: [2026-06-26-adult-neurogenesis-dentate-gyrus]
@@ -92,6 +92,7 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 - [[alzheimers-disease]] — AD 中神经发生衰退可能是认知储备损耗的早期贡献变量
 - [[bdnf]] — 神经发生最关键的促进因子；通过 PI3K/Akt（存活）和 MAPK/ERK（分化）双通路支持新生颗粒细胞整合
 - [[memory-consolidation]] — 神经发生在 NREM 睡眠 SWR 重激活中的角色待研究
+- [[cortical-neurogenesis]] — 对照：胚性皮层神经发生（Inside-Out，整个皮层，一次性）vs 成年海马 DG 神经发生（持续，局限于 SGZ，终生）
 
 ## 未解问题
 
@@ -102,9 +103,11 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 
 ## 修订历史
 
+- 2026-08-09 · 修订 · 基于《皮层的诞生》（第 108 篇）· 新增 [[cortical-neurogenesis]] 连接（胚性 vs 成年神经发生对比）；更新 related 字段
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 悬空引用 [[bdnf]] 已建页；补充 BDNF 通过 PI3K/Akt 和 MAPK/ERK 双通路支持新生颗粒细胞存活与分化的具体机制描述
 - 2026-06-26 · 创建 · 基于《大脑的自我更新》一文 · 整合 11 篇来源（含 4 篇 PMC 开放全文）· 初始置信度：中（人类部分 emerging，啮齿类部分 established）
 
 ## 来源文章
 
 - [[2026-06-26-adult-neurogenesis-dentate-gyrus]]
+- [[2026-08-09-cortical-neurogenesis-inside-out-radial-glia]]

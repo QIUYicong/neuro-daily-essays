@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-08-09 · 文章 #108 · 皮层的诞生：从神经干细胞到六层皮质的 Inside-Out 建筑法则
+
+**核心主题**：皮层神经发生（cortical neurogenesis）、Inside-Out 规则、aRGC/IPC 祖细胞系、Pax6→Tbr2→Tbr1 转录因子级联、FEZF2/SATB2 层身份开关、外放射状胶质细胞（oRGC）与 OSVZ、NOTCH2NL 人类皮层扩张分子机制、小头/大头畸形遗传基础。
+
+**新建页面（3）**：
+- `concepts/cortical-neurogenesis.md` rev1 — Inside-Out 规则；aRGC-IPC-神经元三级产出链；Pax6→Tbr2→Tbr1 接力；FEZF2/SATB2 层命运互斥开关；Reelin 迁移终止信号 (established, confidence:high)
+- `concepts/outer-radial-glia.md` rev1 — oRGC vs aRGC 关键差异；OSVZ 作为次级增殖中枢；MST（有丝分裂体向基底迁移）；脑回形成张力-增殖模型 (established, confidence:high)
+- `concepts/notch2nl-cortical-expansion.md` rev1 — NOTCH2NL 人类特有旁系同源体；DLL1-cis 竞争机制延长干细胞自我更新；1q21.1 CNV 剂量效应（缺失→小头，重复→大头）(established, confidence:high)
+
+**修订页面（2）**：
+- `concepts/adult-neurogenesis.md` rev2→rev3 — 新增 [[cortical-neurogenesis]] 连接（胚性 vs 成年神经发生对照）；related 字段更新；修订历史更新
+- `concepts/critical-period.md` rev2→rev3 — 新增 [[cortical-neurogenesis]] 连接（Inside-Out 建造的皮层层结构为关键期提供解剖底座；PV+ 中间神经元 MGE 起源连接到胚性发育时序）；related 字段更新
+
+**矛盾登记（0）**：今日来源未发现与既有 wiki 主张冲突。
+
+**新增悬空引用**：`radial-glia`（在 cortical-neurogenesis.md 文本中引用但未建独立页，次要节点，并入 cortical-neurogenesis）；`intermediate-progenitor-cell`（同上）
+
+---
+
 ## 2026-08-08 · 文章 #107 · 深部核团的门与教师：深部小脑核如何接管运动记忆
 
 **核心主题**：深部小脑核（DCN）、下橄榄核（IO）与运动学习——填补三个悬空引用（deep-cerebellar-nuclei、inferior-olive、motor-learning）。内容：DCN 三核团（齿状核/间位核/顶核）的解剖与功能分工；间位核因果损毁证据（Thompson 1997，眼眨条件反射）；两相运动记忆模型（皮层 LTD 快速适应→DCN 苔藓纤维 LTP 缓慢巩固，Ito 2013+Ke 2009）；IO 的缝隙连接同步、阈下振荡（T型Ca²⁺）、TMEM16B 氯通道（Zhang 2017）；攀爬纤维奖励信号新发现（Jin & Hull 2025，待复现）；小脑-基底神经节直接皮层下连接（Bostan & Strick 2018）；CF "纯误差"vs"也编码奖励"矛盾登记。

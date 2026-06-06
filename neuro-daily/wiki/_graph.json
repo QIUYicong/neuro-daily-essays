@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-08",
+  "updated": "2026-08-09",
   "node_count": 203,
   "edge_count": 1179,
   "edge_types": [
@@ -2011,6 +2011,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/motor-learning.md"
+    },
+    {
+      "id": "cortical-neurogenesis",
+      "title": "皮层神经发生（Inside-Out 规则）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-neurogenesis.md"
+    },
+    {
+      "id": "outer-radial-glia",
+      "title": "外放射状胶质细胞与 OSVZ",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/outer-radial-glia.md"
+    },
+    {
+      "id": "notch2nl-cortical-expansion",
+      "title": "NOTCH2NL 与人类皮层扩张",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/notch2nl-cortical-expansion.md"
     }
   ],
   "edges": [
@@ -8861,6 +8888,66 @@
     {
       "from": "deep-cerebellar-nuclei",
       "to": "thalamus",
+      "type": "regulates"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "outer-radial-glia",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "notch2nl-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "synaptic-pruning",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "axon-guidance",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "cortical-neurogenesis",
+      "type": "part-of"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "notch2nl-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "critical-period",
+      "type": "supports"
+    },
+    {
+      "from": "notch2nl-cortical-expansion",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "notch2nl-cortical-expansion",
+      "to": "outer-radial-glia",
       "type": "regulates"
     }
   ],

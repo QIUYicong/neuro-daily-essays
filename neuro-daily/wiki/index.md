@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-08（**第107篇**·深部核团的门与教师：DCN 运动记忆与下橄榄核评价系统）· 主题页总数：**210**（新建3页：deep-cerebellar-nuclei、inferior-olive、motor-learning；修订2页：cerebellum rev3、climbing-fiber-error-signal rev2；图谱222节点、1269边；填补悬空引用3个）
+> 最后更新：2026-08-09（**第108篇**·皮层的诞生：Inside-Out 规则与神经干细胞到六层皮质的建筑法则）· 主题页总数：**213**（新建3页：cortical-neurogenesis、outer-radial-glia、notch2nl-cortical-expansion；修订2页：adult-neurogenesis rev3、critical-period rev3；图谱225节点、1281边；发育神经科学系列前传）
 
 ---
 

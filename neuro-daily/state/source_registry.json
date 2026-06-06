@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-08-09",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7468,6 +7468,196 @@
         "DCN可塑性机制",
         "小脑振荡"
       ]
+    },
+    {
+      "pmid": "13713536",
+      "pmcid": null,
+      "title": "Autoradiographic and histological studies of postnatal neurogenesis. I. A longitudinal investigation of the kinetics, migration and transformation of cells incorporating tritiated thymidine in neocortex, hippocampus and bulbus olfactorius of albino rat",
+      "authors_short": "Angevine & Sidman",
+      "journal": "Nature",
+      "year": 1961,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "inside-out rule",
+        "cortical neurogenesis",
+        "layer-by-layer neuron production",
+        "autoradiography landmark"
+      ]
+    },
+    {
+      "pmid": "15634788",
+      "pmcid": "PMC1356085",
+      "title": "Pax6, Tbr2, and Tbr1 are expressed sequentially by radial glia, intermediate progenitor cells, and postmitotic neurons in developing neocortex",
+      "authors_short": "Englund et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2005,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "Pax6 aRGC marker",
+        "Tbr2 IPC marker",
+        "Tbr1 postmitotic neuron marker",
+        "three-tier progenitor cascade",
+        "open full text read"
+      ]
+    },
+    {
+      "pmid": "21285371",
+      "pmcid": "PMC3098626",
+      "title": "Tbr1 and Fezf2 regulate alternate corticofugal neuronal identities during neocortical development",
+      "authors_short": "McKenna et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2011,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "Tbr1 represses Fezf2",
+        "L5 CST identity switch",
+        "L6 CT identity",
+        "layer fate determination",
+        "open full text read"
+      ]
+    },
+    {
+      "pmid": "14703572",
+      "pmcid": null,
+      "title": "Molecular mechanisms of cell fate decisions and transcription factor cascades in neocortical development",
+      "authors_short": "Molyneaux et al.",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2007,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "FEZF2/CTIP2 deep layer identity",
+        "SATB2 callosal identity",
+        "CUX1/CUX2 superficial layer markers",
+        "layer identity switches",
+        "abstract only"
+      ]
+    },
+    {
+      "pmid": "20436480",
+      "pmcid": null,
+      "title": "OSVZ progenitors of human and ferret neocortex are epithelial-like and expand by integrin signaling",
+      "authors_short": "Fietz et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2010,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "OSVZ discovery",
+        "outer radial glia",
+        "oRGC characterization",
+        "gyrification progenitor expansion",
+        "abstract only"
+      ]
+    },
+    {
+      "pmid": "20154730",
+      "pmcid": null,
+      "title": "Neurogenic radial glia in the outer subventricular zone of human neocortex",
+      "authors_short": "Hansen et al.",
+      "journal": "Nature",
+      "year": 2010,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "outer radial glia human neocortex",
+        "MST mitotic somatic translocation",
+        "oRGC self-renewal",
+        "human cortical expansion",
+        "abstract only"
+      ]
+    },
+    {
+      "pmid": "29856955",
+      "pmcid": "PMC5987264",
+      "title": "Human-Specific NOTCH2NL Genes Expand Cortical Progenitor Cells during Development",
+      "authors_short": "Suzuki et al.",
+      "journal": "Cell",
+      "year": 2018,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "NOTCH2NL",
+        "DLL1 cis competition",
+        "cortical progenitor self-renewal",
+        "3x clonal expansion in organoids",
+        "in utero electroporation mouse",
+        "open full text read"
+      ]
+    },
+    {
+      "pmid": "29856954",
+      "pmcid": "PMC5986984",
+      "title": "Human-Specific NOTCH2NL Genes Affect Notch Signaling and Cortical Neurogenesis",
+      "authors_short": "Fiddes et al.",
+      "journal": "Cell",
+      "year": 2018,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "NOTCH2NL 1q21.1 CNV",
+        "microcephaly deletion",
+        "macrocephaly duplication",
+        "NOTCH2NL evolution 3.5Mya",
+        "dose sensitivity",
+        "open full text read"
+      ]
+    },
+    {
+      "pmid": "35216663",
+      "pmcid": "PMC8984390",
+      "title": "Outer radial glia-like cancer stem cells contribute to heterogeneity of glioblastoma",
+      "authors_short": "Cardenas et al.",
+      "journal": "Nature",
+      "year": 2022,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "oRGC molecular markers",
+        "HOPX PTPRZ1 CD44",
+        "oRGC properties",
+        "open full text read"
+      ]
+    },
+    {
+      "pmid": "35602606",
+      "pmcid": "PMC9171969",
+      "title": "The cell biology of cortical neurogenesis",
+      "authors_short": "Malatesta & Götz",
+      "journal": "Physiological Reviews",
+      "year": 2022,
+      "first_used": "2026-08-09",
+      "used_in_articles": [
+        "2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md"
+      ],
+      "aspects_covered": [
+        "cortical neurogenesis review",
+        "NEC to RGC transition",
+        "three-tier progenitor",
+        "INM mechanism",
+        "open full text read"
+      ]
     }
   ],
   "total_sources": 386,
@@ -8960,5 +9150,17 @@
     "31522332",
     "28025812",
     "29903454"
+  ],
+  "additions_2026-08-09": [
+    "13713536",
+    "15634788",
+    "21285371",
+    "14703572",
+    "20436480",
+    "20154730",
+    "29856955",
+    "29856954",
+    "35216663",
+    "35602606"
   ]
 }

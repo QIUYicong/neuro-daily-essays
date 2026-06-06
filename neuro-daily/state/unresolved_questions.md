@@ -1,6 +1,33 @@
 # 未解问题追踪
 
-*最后更新：2026-08-08*
+*最后更新：2026-08-09*
+
+---
+
+## 2026-08-09 新增（来自"皮层的诞生"文章 #108）
+
+### Q-cortex-01（高优先级）：人类 Inside-Out 建造时序的体内单细胞分辨率验证
+
+- **关联 wiki**：[[cortical-neurogenesis]]、[[outer-radial-glia]]
+- **来源文章**：2026-08-09-cortical-neurogenesis-inside-out-radial-glia
+- **问题**：Angevine & Sidman（1961）的 Inside-Out 规则来自放射性胸腺嘧啶标记实验（时间分辨率≈天，空间分辨率≈组织切片）。现代单细胞 RNA 测序和谱系追踪技术是否能在人类胚胎皮层中：(a) 以单细胞分辨率确认每一层神经元的出生日期与层归属的严格对应关系？(b) 确定 oRGC（vs aRGC vs IPC）对各层的相对贡献比例？(c) 揭示 Inside-Out 规则是否存在例外（混合层、过渡区神经元）？候选方法：CRISPR 碱基编辑时钟（Shendure 实验室 lineage clock）、人类脑类器官追踪（但缺乏正常皮层应力）。
+- **当前证据状态**：Inside-Out 规则在啮齿类中高度确立；人类早期胚胎的组织学证据支持但分辨率低；单细胞时序数据（弱，现有人类胚胎 scRNA-seq 缺乏精确出生日期信息）
+- **为什么重要**：若人类 Inside-Out 规则存在系统性例外（例如 oRGC 产生的神经元层归属不同于 aRGC 产生的）则需修正现有理解；也影响皮层发育疾病（lissencephaly 等）的层选择性解读
+
+### Q-cortex-02（中优先级）：NOTCH2NL 对 oRGC（而非仅 aRGC）的特异性贡献
+
+- **关联 wiki**：[[notch2nl-cortical-expansion]]、[[outer-radial-glia]]、[[cortical-neurogenesis]]
+- **来源文章**：2026-08-09-cortical-neurogenesis-inside-out-radial-glia
+- **问题**：Suzuki et al.（2018）的 NOTCH2NLB 过表达实验主要在皮层类器官（organoid）和小鼠宫内电转中验证了对 PAX6+ aRGC 的自我更新延长效应。但：(a) NOTCH2NL 是否对 oRGC（HOPX+/PTPRZ1+）有类似的自我更新延长效应——oRGC 是否也表达 DLL1，从而可被 NOTCH2NL 以同样的 cis 竞争机制调节？(b) 若是，人类 NOTCH2NL 功能的主要贡献是通过 aRGC 还是 oRGC 实现？(c) 1q21.1 CNV 的小头畸形患者中，aRGC vs oRGC 的数量减少是否有系统差异？
+- **当前证据状态**：NOTCH2NL 对 aRGC 效应（高，多实验；Suzuki 2018）；NOTCH2NL 对 oRGC 的特异性效应（弱，尚无直接实验）
+- **为什么重要**：若 NOTCH2NL 主要通过 oRGC 扩张发挥功能，则人类皮层扩张的进化逻辑是"先扩张 aRGC 祖细胞池→再特化出 oRGC"，而非直接驱动 oRGC；这影响我们对皮层沟回形成进化机制的理解
+
+### Q-cortex-03（中优先级）：皮层层身份决定的时间窗口与可逆性
+
+- **关联 wiki**：[[cortical-neurogenesis]]、[[critical-period]]
+- **来源文章**：2026-08-09-cortical-neurogenesis-inside-out-radial-glia
+- **问题**：McKenna et al.（2011）证明 TBR1 直接抑制 Fezf2 以防止 L6 神经元采用 L5/CST 命运。但：(a) 层身份决定是否存在类似"关键期"的时间窗口——在此窗口内，改变转录因子表达可改变层归属，而窗口关闭后则不可逆？(b) 若一个 L5 命运的新生神经元被异位移植到 L6 环境中，其轴突投射是否会被改变（即层身份是细胞自主决定还是位置依赖可塑的）？(c) 在皮质发育异常（cortical dysplasia）中，哪些病例对应 FEZF2/SATB2 表达混乱，其皮层层结构与连接组是否可通过单细胞测序量化？
+- **当前证据状态**：TBR1-Fezf2 回路在小鼠中高度确立；层身份关键期（弱，缺直接实验）；移植实验（弱，数量有限）；人类皮质发育异常分子表征（弱，scRNA-seq 刚起步）
 
 ---
 

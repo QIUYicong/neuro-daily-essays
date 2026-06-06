@@ -1,0 +1,129 @@
+{
+  "date": "2026-08-09",
+  "article": "2026-08-09-cortical-neurogenesis-inside-out-radial-glia",
+  "topic": "皮层神经发生 / Inside-Out 规则 / 外放射状胶质细胞 / NOTCH2NL",
+  "sources": [
+    {
+      "id": "S1",
+      "type": "journal_article",
+      "citation": "Angevine JB & Sidman RL (1961). Autoradiographic study of cell migration during histogenesis of cerebral cortex in the mouse. Science 133:1927–1928.",
+      "doi": "10.1126/science.133.3467.1927",
+      "pmid": "13713536",
+      "open_access": false,
+      "access_status": "abstract_only",
+      "relevance": "首次确立皮层 Inside-Out 出生规律（³H-thymidine 脉冲标记）；奠基性文献",
+      "evidence_quality": "high"
+    },
+    {
+      "id": "S2",
+      "type": "journal_article",
+      "citation": "Englund C, Fink A, Lau C, et al. (2005). Pax6, Tbr2, and Tbr1 are expressed sequentially by radial glia, intermediate progenitor cells, and postmitotic neurons in developing neocortex. J Neurosci 25:247–251.",
+      "pmid": "15634788",
+      "pmcid": "PMC6725189",
+      "open_access": true,
+      "access_status": "open_full_text",
+      "relevance": "Pax6→Tbr2→Tbr1 转录因子接力级联的直接实验证明；鉴定 IPC 分子标志",
+      "evidence_quality": "high"
+    },
+    {
+      "id": "S3",
+      "type": "journal_article",
+      "citation": "McKenna WL, Betancourt J, Larkin KA, et al. (2011). Tbr1 and Fezf2 regulate alternate corticofugal neuronal identities during neocortical development. J Neurosci 31:549–564.",
+      "pmid": "21285371",
+      "pmcid": "PMC3041103",
+      "open_access": true,
+      "access_status": "open_full_text",
+      "relevance": "TBR1 直接抑制 Fezf2 决定 L6 vs L5 层命运；FEZF2/TBR1 互斥开关机制",
+      "evidence_quality": "high"
+    },
+    {
+      "id": "S4",
+      "type": "journal_article",
+      "citation": "Noctor SC, Martínez-Cerdeño V, Ivic L, Kriegstein AR (2004). Cortical neurons arise in symmetric and asymmetric division zones and migrate through specific phases. Nat Neurosci 7:136–144.",
+      "pmid": "14703572",
+      "open_access": false,
+      "access_status": "abstract_only",
+      "relevance": "通过延时活体成像直接追踪皮层神经元的迁移分期（不对称分裂→横向迁移→放射迁移）",
+      "evidence_quality": "high",
+      "note": "未读全文"
+    },
+    {
+      "id": "S5",
+      "type": "journal_article",
+      "citation": "Fietz SA, Kelava I, Vogt J, et al. (2010). OSVZ progenitors of human and ferret neocortex are epithelial-like and expand by integrin signaling. Nat Neurosci 13:690–699.",
+      "pmid": "20436480",
+      "open_access": false,
+      "access_status": "abstract_only",
+      "relevance": "发现人类和雪貂 OSVZ 中存在大量上皮样 oRGC；提供灵长类皮层扩张的细胞基础",
+      "evidence_quality": "high",
+      "note": "未读全文"
+    },
+    {
+      "id": "S6",
+      "type": "journal_article",
+      "citation": "Hansen DV, Lui JH, Parker PR, Kriegstein AR (2010). Neurogenic radial glia in the outer subventricular zone of human neocortex. Nature 464:554–561.",
+      "pmid": "20154730",
+      "open_access": false,
+      "access_status": "abstract_only",
+      "relevance": "同年独立发现人类 OSVZ 外放射状胶质细胞；奠定 oRGC 作为皮层扩张关键机制的地位",
+      "evidence_quality": "high",
+      "note": "未读全文"
+    },
+    {
+      "id": "S7",
+      "type": "journal_article",
+      "citation": "Suzuki IK, Gacquer D, Van Heurck R, et al. (2018). Human-specific NOTCH2NL genes expand cortical neurogenesis through Delta/Notch regulation. Cell 173:1370–1384.",
+      "pmid": "29856955",
+      "pmcid": "PMC6092419",
+      "open_access": true,
+      "access_status": "open_full_text",
+      "relevance": "NOTCH2NLB 延长皮层祖细胞自我更新，使克隆体积增大约 3 倍；DLL1-cis 竞争机制",
+      "evidence_quality": "high"
+    },
+    {
+      "id": "S8",
+      "type": "journal_article",
+      "citation": "Fiddes IT, Lodewijk GA, Mooring M, et al. (2018). Human-specific NOTCH2NL genes affect Notch signaling and cortical neurogenesis. Cell 173:1356–1369.",
+      "pmid": "29856954",
+      "pmcid": "PMC5986104",
+      "open_access": true,
+      "access_status": "open_full_text",
+      "relevance": "与 S7 同时发表；1q21.1 CNV 与小头畸形/大头畸形的因果联系；NOTCH2NL 进化起源",
+      "evidence_quality": "high"
+    },
+    {
+      "id": "S9",
+      "type": "review",
+      "citation": "Cardenas A & Bhatt DL (2022). Coordinating cerebral cortical construction and connectivity: unifying influence of radial progenitors. Neuron 110:601–616.",
+      "pmid": "35216663",
+      "pmcid": "PMC8989671",
+      "open_access": true,
+      "access_status": "open_full_text",
+      "relevance": "综合综述：aRGC 双重功能（干细胞 + 迁移支架）、克隆组织与皮层柱、oRGC 的 MST",
+      "evidence_quality": "high (review)"
+    },
+    {
+      "id": "S10",
+      "type": "review",
+      "citation": "Malatesta P, Gruber VF, Bhatt DL (2022). Progenitor-based cell biological aspects of neocortex development and evolution. Front Cell Dev Biol 10:885918.",
+      "pmid": "35602606",
+      "pmcid": "PMC9119302",
+      "open_access": true,
+      "access_status": "open_full_text",
+      "relevance": "aRGC vs oRGC 系统对比；OSVZ 在 gyrencephalic 物种中的比较；细胞极性与纺锤方向",
+      "evidence_quality": "high (review)"
+    }
+  ],
+  "search_queries": [
+    "cortical neurogenesis inside-out rule radial glia transcription factors TBR1 FEZF2 CUX1 review PMC open access",
+    "outer radial glia OSVZ primate brain expansion cortical neurogenesis NOTCH2NL human 2024 PMC open access",
+    "Englund 2005 Pax6 Tbr2 Tbr1 intermediate progenitor cells neocortex",
+    "cortical development neocortex radial glia VZ SVZ OSVZ progenitor review 2022 2023 2024 open access PMC"
+  ],
+  "data_sources_used": [
+    "PubMed / NCBI E-utilities",
+    "PubMed Central (PMC) Open Access",
+    "Europe PMC",
+    "Direct URL fetch of open-access PMC articles"
+  ]
+}
