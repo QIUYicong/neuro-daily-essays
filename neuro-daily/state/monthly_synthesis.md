@@ -816,3 +816,20 @@
 **修订wiki页**：working-memory rev7（On/Off态新增），persistent-activity rev2（Wang 2021 + Panichello 2024 整合）
 **图谱**：209节点，1209边（无变化）
 **新增开放问题**：Q-wm-onoff-01（Off态分子机制）、Q-wm-onoff-02（干扰条件）、Q-wm-onoff-03（人类证据）
+
+---
+
+### 2026-08-04（#103）：大脑如何给自己布线——轴突导向与生长锥的分子导航
+
+**核心问题**：发育中的轴突如何跨越相当于自身直径数千倍的距离，在复杂的细胞环境中精确找到突触伙伴？生长锥如何把化学梯度翻译成方向性延伸？
+
+**一句话答案**：生长锥通过丝状伪足感知四大导向分子家族（Netrin/Slit/Semaphorin/Ephrin）的梯度，将肌动蛋白骨架的不对称聚合/解聚转化为精确方向转向；梯度×梯度逻辑（如 EphA×EphrinA 建立视网膜-上丘体拓扑图）加上活动依赖精化，共同建立大脑精密回路。
+
+**知识链衔接**：本文首次覆盖课程脊柱第2章"神经网络如何建成"的轴突导向核心内容，为后续突触生成（synaptogenesis）、关键期机制深化和神经发育疾病主题建立了分子基础；与 connectomics 文章（#xx，2026-06-18）形成互补——connectomics 描述"布线的静态结构"，本文描述"布线如何动态形成"。
+
+**新建wiki页**：axon-guidance rev1（established/high）、growth-cone rev1（established/high）
+**修订wiki页**：无（新主题）
+**图谱**：203节点（+2），~1189边（+10）
+**新增开放问题**：Q-axon-guidance-01（体内梯度测量）、Q-axon-guidance-02（物种差异）、Q-axon-guidance-03（多信号整合）
+
+**月度视角**：8月主题演进——#100（小脑LTD分子机制，synaptic层）→ #101（DMN自我模型，whole-brain-network层）→ #102（工作记忆神经密码，cellular/cognition层）→ #103（轴突导向发育布线，molecular/cellular层）。层级在分子、细胞、系统、认知之间有节奏地切换，保持了课程脊柱各章的均衡推进。

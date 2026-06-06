@@ -1,0 +1,123 @@
+# 运行日志 · 2026-08-04
+
+**文章编号**：#103
+**运行时间**：2026-08-04（UTC+8）
+**仓库**：QIUYicong/neuro-daily-essays
+**分支**：main
+
+---
+
+## 状态读取
+
+### 当前知识库状态
+- 上一篇：#102（2026-08-03）工作记忆神经密码之争，层级：cellular/microcircuit/cognition
+- 上上篇：#101（2026-08-02）默认模式网络，层级：whole-brain-network/cognition
+- 图谱：201节点，1169边（运行前）
+- topic_ledger：102篇文章，last_updated: 2026-08-03
+- unresolved_questions：最后更新 2026-08-02
+- contested_claims：7条 open，0条 resolved
+
+### 选题决策过程
+
+**排除主题**：
+- 睡眠/SWR记忆巩固 → wiki 中 sharp-wave-ripples、sleep-spindles、so-spindle-swr-coupling、memory-consolidation 均极为详尽（rev8），判断重复度过高
+- DMN（第101篇刚覆盖）
+- 工作记忆持续活动（第102篇刚覆盖）
+
+**最终选题**：轴突导向与生长锥（课程脊柱第2章）
+- 理由1：102篇文章中从未覆盖轴突导向机制，是课程第2章"神经网络如何建成"的核心缺口
+- 理由2：层级为 molecular/cellular/brain-region，与近期 cognition/whole-brain-network 形成好的层级切换
+- 理由3：有优质 PMC 开放全文（PMC10121128、PMC3098670、PMC11624883）
+- 理由4：直接回答"大脑如何建成精密布线"这一长期核心问题
+
+---
+
+## 文献检索记录
+
+### 搜索词
+1. "axon guidance mechanisms growth cone semaphorin netrin slit ephrin review PMC open access 2022 2023 2024"
+2. "growth cone filopodia navigation chemoattraction chemorepulsion semaphorin axon guidance PubMed review"
+3. "Tessier-Lavigne Goodman 1996 molecular biology axon guidance PMID"
+4. "Kolodkin Tessier-Lavigne 2011 mechanisms molecules neuronal wiring PMID PMC"
+5. （对比选题）"hippocampal sharp-wave ripples sleep memory consolidation review 2023 2024"
+
+### 候选来源（已阅读/检索）
+| 来源 | PMID | 状态 | 采用/排除 |
+|------|------|------|---------|
+| Yuasa-Kawada 2022 | 36942388 | PMC开放 | **采用**（主要综述） |
+| Kolodkin & Tessier-Lavigne 2011 | 21123392 | PMC开放 | **采用**（结构机制） |
+| Tessier-Lavigne & Goodman 1996 | 8895455 | 仅摘要 | **采用**（历史基础，注明未读全文）|
+| Liu et al. 2024 | 39075893 | PMC开放 | **采用**（疾病视角）|
+| Sperry 1963 | 14077501 | 无PMC | **采用**（历史背景，注明未读全文）|
+| 多篇体外Sema实验原始研究 | 多个 | 部分开放 | **排除**（体内证据不足，不作为主要来源）|
+
+### 开放全文比例
+- 总来源：5篇
+- PMC 开放全文：3篇（60%）
+- 仅摘要/历史文献：2篇（40%）
+
+---
+
+## 文章生成
+
+**文件**：`articles/2026-08-04-axon-guidance-growth-cone-wiring.md`
+**字数（估计）**：约 5100 字
+**结构**：今日核心问题 / 一句话摘要 / 为什么重要 / 背景（旅程尺度）/ 机制一（生长锥）/ 机制二（四大家族）/ 机制三（视网膜地形图）/ 机制四（Teneurin-LPHN突触靶点）/ 关键证据表 / 比喻（含失效说明）/ 争议与未解 / 疾病窗口 / 与AI对照 / 概念卡片 / 认知地图更新 / 参考来源
+
+---
+
+## 固结步骤（Wiki 更新）
+
+### 新建页面（2）
+
+1. **`wiki/concepts/axon-guidance.md`**
+   - rev1，status: established，confidence: high
+   - 覆盖：四大家族机制、地形图逻辑、Teneurin-LPHN系统、疾病关联
+   - 来源：PMID:8895455, 21123392, 36942388, 39075893
+
+2. **`wiki/concepts/growth-cone.md`**
+   - rev1，status: established，confidence: high
+   - 覆盖：板状/丝状伪足结构、踏车运动、各信号通路骨架效应、动态重编程
+   - 来源：PMID:21123392, 36942388
+
+### 修订页面（0）
+- 无（本次主题为新建，无既有页面需更新）
+
+### 矛盾检查结果
+- 无冲突：axon-guidance 内容与现有 wiki 无矛盾
+- 体内梯度测量不确定性属已知局限，非新矛盾
+
+---
+
+## 图谱与导航更新
+
+- `wiki/_graph.json`：节点 201→203（+axon-guidance, +growth-cone），边 1169→1179（+10条新边）
+- `wiki/index.md`：标题更新为"第103篇"，总页数198→200，新增2个concepts条目
+- `wiki/CHANGELOG.md`：顶部插入2026-08-04条目
+
+---
+
+## 治理层更新
+
+- `state/topic_ledger.json`：新增#103条目，total_articles: 102→103，last_updated: 2026-08-04
+- `state/unresolved_questions.md`：新增 Q-axon-guidance-01/02/03（3条）
+- `state/maturity_index.json`：新增 axon-guidance（established/high）和 growth-cone（established/high）
+- `state/source_registry.json`：**待更新**（在此 log 截止时未完成，5个新来源待登记）
+- `state/monthly_synthesis.md`：**待更新**（应追加8月摘要）
+
+---
+
+## Git 操作
+
+- 分支：main
+- remote：http://local_proxy@127.0.0.1:38629/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，确认正确）
+- 执行：git add neuro-daily/ → git commit → git pull --rebase origin main → git push origin main
+- push 状态：[见 commit hash]
+
+---
+
+## 失败与限制
+
+- 睡眠/SWR 主题放弃：因 wiki 中相关页面已极度饱和（memory-consolidation rev8），改选轴突导向
+- source_registry.json 本次 log 截止时未更新（将在下一次运行时随其他状态更新完成）
+- Tessier-Lavigne 1996 和 Sperry 1963 仅摘要，在文章和来源文件中均注明

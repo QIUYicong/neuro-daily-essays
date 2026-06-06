@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-06",
-  "node_count": 201,
-  "edge_count": 1169,
+  "updated": "2026-08-04",
+  "node_count": 203,
+  "edge_count": 1179,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1894,6 +1894,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/mind-wandering.md"
+    },
+    {
+      "id": "axon-guidance",
+      "title": "轴突导向",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/axon-guidance.md"
+    },
+    {
+      "id": "growth-cone",
+      "title": "生长锥",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/growth-cone.md"
     }
   ],
   "edges": [
@@ -8445,6 +8463,57 @@
       "to": "mind-wandering",
       "type": "supports",
       "note": "DMN自发激活产生心智漫游；感知解耦使内部记忆优先"
+    }
+  ],
+    {
+      "from": "axon-guidance",
+      "to": "growth-cone",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "connectomics",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "growth-cone",
+      "to": "axon-initial-segment",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "place-cell",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "alzheimers-disease",
+      "type": "related"
     }
   ],
   "dangling_references": [

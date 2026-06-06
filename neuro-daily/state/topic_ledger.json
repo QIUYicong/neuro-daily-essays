@@ -1,7 +1,82 @@
 {
-  "last_updated": "2026-08-03",
-  "total_articles": 102,
+  "last_updated": "2026-08-04",
+  "total_articles": 103,
   "entries": [
+    {
+      "date": "2026-08-04",
+      "title": "大脑如何给自己布线：生长锥的分子导航与精密回路的发育起源",
+      "filename": "2026-08-04-axon-guidance-growth-cone-wiring.md",
+      "article_type": "regular",
+      "article_number": 103,
+      "wiki_pages_created": [
+        "wiki/concepts/axon-guidance.md",
+        "wiki/concepts/growth-cone.md"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "在发育中的大脑里，一个神经元的轴突如何穿越数以万计的细胞构成的复杂环境，有时跨越相当于自身直径数千倍的距离，精确找到它的突触伙伴？四大导向分子家族（Netrin/Slit/Semaphorin/Ephrin）如何通过化学梯度提供吸引和排斥信号？视网膜-上丘体地形图如何由梯度×梯度建立？Teneurin-LPHN系统如何实现海马层状投射的分子识别？导向出错如何导致神经发育疾病？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（轴突导向、生长锥、地形图建立、突触匹配的分子机制）；首次深入覆盖课程脊柱第2章核心内容；层级切换：从近期认知/全脑网络层级回到分子/细胞层级",
+      "topic_tags": [
+        "axon guidance",
+        "growth cone",
+        "filopodia",
+        "lamellipodia",
+        "actin treadmilling",
+        "netrin",
+        "DCC receptor",
+        "UNC5",
+        "slit",
+        "ROBO",
+        "semaphorin",
+        "neuropilin",
+        "plexin",
+        "MICAL",
+        "ephrin",
+        "Eph receptor",
+        "forward signaling",
+        "reverse signaling",
+        "retinotopic map",
+        "retinocollicular mapping",
+        "topographic map",
+        "chemoaffinity hypothesis",
+        "Sperry 1963",
+        "Tessier-Lavigne",
+        "Kolodkin",
+        "Yuasa-Kawada 2022",
+        "teneurin",
+        "latrophilin LPHN",
+        "MEC LEC hippocampus",
+        "mossy fiber sprouting",
+        "HGPPS",
+        "axon guidance disease",
+        "neural wiring",
+        "cortical development"
+      ],
+      "main_sources": [
+        "PMID:8895455 (Tessier-Lavigne 1996)",
+        "PMID:21123392 / PMC3098670 (Kolodkin & Tessier-Lavigne 2011)",
+        "PMID:36942388 / PMC10121128 (Yuasa-Kawada 2022, open full text)",
+        "PMID:39075893 / PMC11624883 (Liu 2024, epilepsy, open full text)",
+        "PMID:14077501 (Sperry 1963)"
+      ],
+      "unresolved_questions": [
+        "Q-axon-guidance-01: 体内导向分子梯度能否被直接测量？",
+        "Q-axon-guidance-02: 人类/灵长类导向机制的物种差异",
+        "Q-axon-guidance-03: 多导向信号整合的规则"
+      ],
+      "next_suggested_topics": [
+        "突触生成（synaptogenesis）——轴突到达后的突触装配分子机制（Neuroligin-Neurexin等）",
+        "关键期机制深化——活动依赖可塑性如何精化发育期粗略布线",
+        "神经发生（embryonic neurogenesis）——皮层Inside-Out出生法则",
+        "Motor cortex and rotational dynamics——运动皮层的神经群体计算"
+      ]
+    },
     {
       "date": "2026-08-02",
       "title": "当大脑'放空'：默认模式网络如何成为自我的神经底座",

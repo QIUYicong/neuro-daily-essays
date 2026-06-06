@@ -1313,5 +1313,17 @@
     "confidence": "medium",
     "last_changed": "2026-08-01",
     "reason": "创建 2026-08-01（文章 #100）。颗粒细胞层 200:1 扩展比是解剖学事实（高置信度）；GluA4 KO（Kita 2021，PMC8291978，eLife）：MF-GC 电流↓80%、放电频率↓44%、眼睑条件反射完全消失——直接因果证明膨胀编码对联合学习的必要性。计算模型（稀疏高维表征→模式分离）与 Marr 理论一致。置信度 medium（而非high）是因人类小脑颗粒细胞的直接功能研究缺失；GluA4 KO效应的具体维度（时序精度 vs 稀疏度）尚在解析中。"
+  },
+  "axon-guidance": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-04",
+    "reason": "创建 2026-08-04（文章 #103）。四大导向分子家族（Netrin/Slit/Semaphorin/Ephrin）的核心机制是教科书级共识，跨线虫-果蝇-小鸡-哺乳动物多物种验证；ROBO3 人类突变→HGPPS 提供了人类遗传证据；Ephrin-Eph 地形图逻辑已被多个条件敲除实验直接验证；MICAL 氧化 actin 的生化机制已解析。整体状态 established，但体内梯度测量和多信号整合规则仍 open（Q-axon-guidance-01/03）。"
+  },
+  "growth-cone": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-04",
+    "reason": "创建 2026-08-04（文章 #103）。生长锥的细胞生物学（板状伪足/丝状伪足结构、肌动蛋白踏车运动）是数十年活细胞显微成像建立的共识；Arp2/3 介导的分支 F-actin 网络、肌球蛋白 II 向心性流、整合素介导粘附产生推力均有大量直接证据。信号通路（DCC→Rac1/Arp2/3 吸引；Plexin GAP→R-RAS 排斥）有生化和遗传双重证据。局部 mRNA 翻译的功能贡献仍 emerging。整体 established，高置信度。"
   }
 }
