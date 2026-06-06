@@ -1,10 +1,75 @@
 {
-  "last_updated": "2026-08-01",
-  "total_articles": 100,
+  "last_updated": "2026-06-06",
+  "total_articles": 101,
   "entries": [
     {
+      "date": "2026-06-06",
+      "title": "奖励、运动与认知的统一信使：多巴胺能系统的三重回路如何用一种分子说三种语言",
+      "filename": "2026-06-06-dopamine-systems-anatomy.md",
+      "article_type": "regular",
+      "wiki_pages_created": [
+        "wiki/systems/vta.md",
+        "wiki/systems/substantia-nigra.md",
+        "wiki/concepts/d1-d2-receptor-signaling.md",
+        "wiki/concepts/direct-indirect-pathway.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/dopamine-reward-prediction-error.md (rev9->rev10)"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "VTA(A10)和SNc(A9)的三条投射通路（黑质纹状体/中脑边缘/中脑皮层）、D1/D2受体对立信号（Gs vs Gi, cAMP, DARPP-32）、VTA内部拓扑异质性（内侧/外侧）和遗传亚型（Calb1+/Anxa1+）如何让同一种分子实现奖励、运动和认知的截然不同功能",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "Track 5（认知控制·奖励学习）解剖预备 + Track 1（神经调质）",
+      "topic_tags": [
+        "dopamine",
+        "VTA",
+        "SNc",
+        "mesolimbic",
+        "mesocortical",
+        "nigrostriatal",
+        "D1 receptor",
+        "D2 receptor",
+        "DARPP-32",
+        "direct pathway",
+        "indirect pathway",
+        "VTA heterogeneity",
+        "Calb1+ neurons",
+        "Anxa1+ neurons",
+        "Vglut2+ neurons",
+        "inverted-U working memory",
+        "PFC D1",
+        "volume transmission",
+        "co-transmission"
+      ],
+      "main_sources": [
+        "PMID:35226827 (de Jong 2022, Annu Rev Neurosci, PMC9271543)",
+        "PMID:37537242 (Azcorra 2023, Nat Neurosci, PMC10545540)",
+        "PMID:30716356 (Gallo 2019, Neurochem Int, PMC6450565)",
+        "PMID:24735820 (Yetnikoff 2014, Neuroscience, PMC4195813)",
+        "PMID:35389678 (Weber 2022, Behav Neurosci, PMC9364670)",
+        "PMID:24130517 (Baik 2013, Front Neural Circ, PMC3782727)"
+      ],
+      "unresolved_questions": [
+        "Q-da-anxa1: Anxa1+多巴胺亚型的投射靶区和下游机制",
+        "Q-da-aversion: 内侧VTA厌恶编码的化学基础（DA vs 共递质）",
+        "Q-d1-inverted-u-mechanism: PFC D1倒U型翻转的精确分子节点"
+      ],
+      "next_suggested_topics": [
+        "多巴胺奖励预测误差的计算原理（Schultz RPE，TD学习）",
+        "伏隔核内部结构与D1/D2-MSN分工",
+        "纹状体三因素学习规则与习惯形成"
+      ]
+    },
+    {
       "date": "2026-08-01",
-      "title": "教师信号的困境：攀爬纤维 LTD 的分子机制与小脑运动学习的"分布式可塑性"革命",
+      "title": "教师信号的困境：攀爬纤维 LTD 的分子机制与小脑运动学习的\"分布式可塑性\"革命",
       "filename": "2026-08-01-cerebellar-ltd-purkinje-motor-learning.md",
       "wiki_pages_created": [
         "wiki/neurons/purkinje-cell.md",
@@ -17,18 +82,47 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "小脑LTD（mGluR1→PKC→GluA2 S880磷酸化→PICK1→AMPAR内吞）是Marr-Albus-Ito模型的分子实现；攀爬纤维以80–120ms精确时序编码误差（SC→IO延迟14.4ms，误差大小2–6°/方向编码，Soetedjo 2019）。但 Schonewille 2011（三种独立突变体）阻断LTD→运动学习仍正常，迫使范式转移至分布式可塑性（≥15种机制；双相记忆轨迹：皮层LTD快速→DCN LTP慢速巩固，Ito 2013）。GluA4 KO（Kita 2021）：颗粒细胞膨胀编码↓44%→眼睑条件反射消失，证明颗粒层表征精度是联合学习的必要前提。CCAS（PMC6978293，156例）：前叶=运动障碍/后叶=认知情感障碍，'通用小脑变换'假说——同一算法施加于不同皮层-皮层下回路。",
-      "layer": ["molecular", "synaptic", "cellular", "microcircuit", "brain-region", "cognition"],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
       "curriculum_track": "Track 1（细胞/分子：浦肯野细胞LTD机制）+ Track 12（脑-AI类比：监督学习/稀疏误差信号/时间信用分配/冗余鲁棒性）+ Track 5（程序性学习预测控制）；里程碑第100篇；填补cerebellar-ltd/purkinje-cell/climbing-fiber-error-signal三个悬空prerequisites",
       "topic_tags": [
-        "Purkinje cell", "cerebellar LTD", "climbing fiber", "parallel fiber",
-        "inferior olive", "mGluR1", "PKC", "GluA2 S880", "PICK1", "AMPAR internalization",
-        "Marr-Albus-Ito model", "Schonewille 2011", "VOR adaptation",
-        "eyeblink conditioning", "Erasmus ladder", "distributed plasticity",
-        "Ito 2013", "Suvrathan 2018", "Soetedjo 2019", "Kita 2021",
-        "expansion coding", "GluA4", "granule cells", "mossy fiber",
-        "CCAS", "dysmetria of thought", "Schmahmann",
-        "cerebellar cognitive affective syndrome", "forward model",
-        "Wolpert Kawato", "supervised learning analogy"
+        "Purkinje cell",
+        "cerebellar LTD",
+        "climbing fiber",
+        "parallel fiber",
+        "inferior olive",
+        "mGluR1",
+        "PKC",
+        "GluA2 S880",
+        "PICK1",
+        "AMPAR internalization",
+        "Marr-Albus-Ito model",
+        "Schonewille 2011",
+        "VOR adaptation",
+        "eyeblink conditioning",
+        "Erasmus ladder",
+        "distributed plasticity",
+        "Ito 2013",
+        "Suvrathan 2018",
+        "Soetedjo 2019",
+        "Kita 2021",
+        "expansion coding",
+        "GluA4",
+        "granule cells",
+        "mossy fiber",
+        "CCAS",
+        "dysmetria of thought",
+        "Schmahmann",
+        "cerebellar cognitive affective syndrome",
+        "forward model",
+        "Wolpert Kawato",
+        "supervised learning analogy"
       ],
       "main_sources": [
         "PMID:23440175 (Ito 2013, Front Neural Circ, 橄榄核误差检测综述, PMC3579189 开放全文)",
@@ -56,7 +150,7 @@
     },
     {
       "date": "2026-07-31",
-      "title": "皮层的"安抚手"：vmPFC 如何通过截获细胞与 BLA 直接投射平息杏仁核的恐惧输出",
+      "title": "皮层的\"安抚手\"：vmPFC 如何通过截获细胞与 BLA 直接投射平息杏仁核的恐惧输出",
       "filename": "2026-07-31-pfc-amygdala-emotion-regulation.md",
       "wiki_pages_created": [
         "wiki/circuits/pfc-amygdala-emotion-regulation.md"
@@ -69,19 +163,47 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "IL（vmPFC）通过三路并联实现对恐惧输出的压制：①IL→ICMMV→CeM GABAergic门控（Likhtik 2008，r=-0.67）；②IL→BLA直接投射消退后内在兴奋性↑（Bloodgood 2018，DREADD因果证明p=0.02）；③IL→PVT→CeA独立第三通路（Tao 2021）。IL内部mGluR5→AMPAR插入+内在兴奋性↑（Sepulveda-Orengo 2013）。IL在训练时写入必要/回忆时表达可选（Do-Monte 2015光遗传）。PL与IL双重解离：PL→恐惧表达，IL→消退形成（Sierra-Mercado 2011）。",
-      "layer": ["microcircuit", "brain-region", "synaptic", "molecular", "cognition", "disease"],
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "synaptic",
+        "molecular",
+        "cognition",
+        "disease"
+      ],
       "curriculum_track": "Track 6（情绪与动机）vmPFC对杏仁核自上而下调控；衔接第98篇BLA回路（杏仁核内部）→ 第99篇vmPFC→杏仁核调控（皮层-皮层下接口）；填补prefrontal-cortex页面vmPFC情绪调控子区缺口",
       "topic_tags": [
-        "infralimbic cortex", "prelimbic cortex", "vmPFC", "BA25",
-        "intercalated cells", "ITC", "ICMMD", "ICMMV",
-        "fear extinction", "emotion regulation", "top-down control",
-        "Milad Quirk 2002", "Sierra-Mercado 2011", "Likhtik 2008",
-        "Bloodgood 2018", "Do-Monte 2015", "Sepulveda-Orengo 2013", "Tao 2021",
-        "DREADD KOR", "optogenetics halorhodopsin",
-        "mGluR5", "AMPAR insertion", "intrinsic excitability",
-        "IL-BLA projection", "IL-PVT pathway", "dermorphin-saporin",
-        "mu-opioid receptor", "GABAergic gate", "CeM inhibition",
-        "PTSD extinction deficit", "exposure therapy neuroscience"
+        "infralimbic cortex",
+        "prelimbic cortex",
+        "vmPFC",
+        "BA25",
+        "intercalated cells",
+        "ITC",
+        "ICMMD",
+        "ICMMV",
+        "fear extinction",
+        "emotion regulation",
+        "top-down control",
+        "Milad Quirk 2002",
+        "Sierra-Mercado 2011",
+        "Likhtik 2008",
+        "Bloodgood 2018",
+        "Do-Monte 2015",
+        "Sepulveda-Orengo 2013",
+        "Tao 2021",
+        "DREADD KOR",
+        "optogenetics halorhodopsin",
+        "mGluR5",
+        "AMPAR insertion",
+        "intrinsic excitability",
+        "IL-BLA projection",
+        "IL-PVT pathway",
+        "dermorphin-saporin",
+        "mu-opioid receptor",
+        "GABAergic gate",
+        "CeM inhibition",
+        "PTSD extinction deficit",
+        "exposure therapy neuroscience"
       ],
       "main_sources": [
         "PMID:12422216 (Milad & Quirk 2002, Nature, IL neurons extinction memory, 摘要仅读)",
@@ -5954,8 +6076,27 @@
       "title": "记忆的活书稿：每次提取都会让记忆变得脆弱——再巩固现象揭示的大脑真相",
       "slug": "memory-reconsolidation",
       "core_question": "已巩固的记忆在提取后为何必须重新合成蛋白质才能再次稳定？去稳定化（GluA2内吞+UPS）与再稳定化（CREB/Zif268）的分子机制是什么？预测误差如何作为触发器？临床应用如何？",
-      "layer": ["molecular", "synaptic", "cellular", "brain-region", "behavior", "cognition"],
-      "topic_tags": ["memory reconsolidation", "Nader 2000", "GluA2 endocytosis", "destabilization", "restabilization", "prediction error", "Sevenster 2013", "propranolol PTSD", "Debiec LeDoux 2004", "Haubrich Nader", "boundary conditions"],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "topic_tags": [
+        "memory reconsolidation",
+        "Nader 2000",
+        "GluA2 endocytosis",
+        "destabilization",
+        "restabilization",
+        "prediction error",
+        "Sevenster 2013",
+        "propranolol PTSD",
+        "Debiec LeDoux 2004",
+        "Haubrich Nader",
+        "boundary conditions"
+      ],
       "main_sources": [
         "PMID:10963596 (Nader 2000, Nature)",
         "PMID:30914678 (PMC6435726, Ferrara 2019, Scientific Reports)",
@@ -5964,7 +6105,12 @@
         "PMID:23413355 (Sevenster 2013, Science)",
         "PMID:27885549 (Haubrich & Nader 2018)"
       ],
-      "unresolved_questions": ["Q-recon-01", "Q-recon-02", "Q-recon-03", "Q-recon-04"],
+      "unresolved_questions": [
+        "Q-recon-01",
+        "Q-recon-02",
+        "Q-recon-03",
+        "Q-recon-04"
+      ],
       "next_suggested_topics": [
         "fear-extinction vs reconsolidation unified mechanism",
         "PTSD treatment: reconsolidation update + extinction comparison",
@@ -5972,8 +6118,13 @@
         "reconsolidation in addiction: NAc CP-AMPA and craving"
       ],
       "wiki_changes": {
-        "created": ["concepts/memory-reconsolidation.md"],
-        "revised": ["concepts/memory-consolidation.md rev8", "concepts/engram-cells.md rev6"],
+        "created": [
+          "concepts/memory-reconsolidation.md"
+        ],
+        "revised": [
+          "concepts/memory-consolidation.md rev8",
+          "concepts/engram-cells.md rev6"
+        ],
         "graph": "196 nodes, 1133 edges"
       }
     }

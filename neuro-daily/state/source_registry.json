@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31",
+  "last_updated": "2026-06-06",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7165,6 +7165,94 @@
         "anterior-insula",
         "interoception-hierarchy",
         "awareness"
+      ]
+    },
+    {
+      "pmid": "35226827",
+      "pmcid": "PMC9271543",
+      "title": "Mesoaccumbal Dopamine Heterogeneity (de Jong 2022, Annu Rev Neurosci)",
+      "first_used": "2026-06-06",
+      "articles": [
+        "2026-06-06-dopamine-systems-anatomy"
+      ],
+      "topics": [
+        "VTA heterogeneity",
+        "mesoaccumbal dopamine",
+        "NAc subregions"
+      ]
+    },
+    {
+      "pmid": "37537242",
+      "pmcid": "PMC10545540",
+      "title": "Genetic subtypes of dopamine neurons (Azcorra 2023, Nat Neurosci)",
+      "first_used": "2026-06-06",
+      "articles": [
+        "2026-06-06-dopamine-systems-anatomy"
+      ],
+      "topics": [
+        "SNc subtypes",
+        "Calb1+",
+        "Anxa1+",
+        "Vglut2+",
+        "dopamine heterogeneity"
+      ]
+    },
+    {
+      "pmid": "30716356",
+      "pmcid": "PMC6450565",
+      "title": "D2 receptors diverse roles in striatum (Gallo 2019, Neurochem Int)",
+      "first_used": "2026-06-06",
+      "articles": [
+        "2026-06-06-dopamine-systems-anatomy"
+      ],
+      "topics": [
+        "D2 receptor",
+        "autoreceptor",
+        "direct indirect pathway"
+      ]
+    },
+    {
+      "pmid": "24735820",
+      "pmcid": "PMC4195813",
+      "title": "Connections of ventral mesencephalic dopaminergic complex (Yetnikoff 2014, Neuroscience)",
+      "first_used": "2026-06-06",
+      "articles": [
+        "2026-06-06-dopamine-systems-anatomy"
+      ],
+      "topics": [
+        "VTA anatomy",
+        "SNc anatomy",
+        "A8 A9 A10",
+        "co-transmission"
+      ]
+    },
+    {
+      "pmid": "35389678",
+      "pmcid": "PMC9364670",
+      "title": "Inverted-U prefrontal dopamine working memory meta-analysis (Weber 2022, Behav Neurosci)",
+      "first_used": "2026-06-06",
+      "articles": [
+        "2026-06-06-dopamine-systems-anatomy"
+      ],
+      "topics": [
+        "PFC D1",
+        "working memory",
+        "inverted-U"
+      ]
+    },
+    {
+      "pmid": "24130517",
+      "pmcid": "PMC3782727",
+      "title": "Dopamine signaling in reward-related behaviors (Baik 2013, Front Neural Circ)",
+      "first_used": "2026-06-06",
+      "articles": [
+        "2026-06-06-dopamine-systems-anatomy"
+      ],
+      "topics": [
+        "D1 D2 signaling",
+        "cAMP",
+        "DARPP-32",
+        "mesolimbic"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-01",
+  "updated": "2026-06-06",
   "node_count": 201,
   "edge_count": 1169,
   "edge_types": [
@@ -1840,6 +1840,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/subjective-value-encoding.md"
+    },
+    {
+      "id": "vta",
+      "title": "腹侧被盖区",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/vta.md"
+    },
+    {
+      "id": "substantia-nigra",
+      "title": "黑质",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/substantia-nigra.md"
+    },
+    {
+      "id": "d1-d2-receptor-signaling",
+      "title": "D1/D2多巴胺受体信号",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/d1-d2-receptor-signaling.md"
+    },
+    {
+      "id": "direct-indirect-pathway",
+      "title": "基底神经节直接/间接通路",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/direct-indirect-pathway.md"
     }
   ],
   "edges": [
@@ -8252,6 +8288,91 @@
       "from": "pfc-amygdala-emotion-regulation",
       "to": "nmda-receptor",
       "type": "related"
+    },
+    {
+      "from": "vta",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "vta",
+      "to": "d1-d2-receptor-signaling",
+      "type": "related"
+    },
+    {
+      "from": "vta",
+      "to": "substantia-nigra",
+      "type": "related"
+    },
+    {
+      "from": "vta",
+      "to": "direct-indirect-pathway",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "vta",
+      "type": "regulates"
+    },
+    {
+      "from": "rmtg",
+      "to": "vta",
+      "type": "regulates"
+    },
+    {
+      "from": "substantia-nigra",
+      "to": "direct-indirect-pathway",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "substantia-nigra",
+      "to": "d1-d2-receptor-signaling",
+      "type": "related"
+    },
+    {
+      "from": "substantia-nigra",
+      "to": "vta",
+      "type": "related"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "direct-indirect-pathway",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "working-memory",
+      "type": "regulates"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "habit-formation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "direct-indirect-pathway",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "direct-indirect-pathway",
+      "to": "habit-formation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "vta",
+      "to": "prefrontal-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "vta",
+      "to": "amygdala",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

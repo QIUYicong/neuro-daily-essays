@@ -2023,3 +2023,25 @@
 **新增悬空引用（需补）**：anterior-cingulate-cortex（被 AIC 页多次引用，尚无专页）、social-cognition（empathy 页引用）
 
 **图谱**：192 节点，1111 条边（+4 节点，+21 条边）
+
+## 2026-06-06
+
+### 今日主题：多巴胺能系统三重回路解剖（文章 #101，dopamine-systems-anatomy）
+
+**创建 wiki 页面（4 个）：**
+- `wiki/systems/vta.md`（腹侧被盖区）：建立 VTA 解剖结构、三条主要投射通路、VTA 内部拓扑异质性（内侧 vs 外侧 VTA 对奖励/厌恶的相反响应）；首次在知识库中明确区分 VTA 异质性（来源：de Jong 2022, PMID:35226827）
+- `wiki/systems/substantia-nigra.md`（黑质）：建立 SNc/SN 解剖、黑质纹状体通路、三种遗传功能亚型（Calb1+/Vglut2+/Anxa1+）；Anxa1+ 为首次报告的运动加速专属亚型（来源：Azcorra 2023, PMID:37537242）
+- `wiki/concepts/d1-d2-receptor-signaling.md`（D1/D2 受体信号）：建立 D1→Gs→cAMP↑→PKA 和 D2→Gi→cAMP↓→GIRK 的完整信号级联；DARPP-32 作为汇聚开关节点；D2 三重角色；PFC D1 倒 U 型（Weber 2022）
+- `wiki/concepts/direct-indirect-pathway.md`（直接/间接通路）：建立纹状体 D1-MSN/D2-MSN 分别构成直接（Go）/间接（No-Go）通路；多巴胺协同效应；帕金森病通路失衡逻辑
+
+**修订 wiki 页面（1 个）：**
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev9→rev10）：新增 prerequisites: dopamine-systems-anatomy；related 新增 vta/substantia-nigra/d1-d2-receptor-signaling/direct-indirect-pathway；source_articles 新增今日文章；建立解剖基础—计算逻辑前后序关系
+
+**新增未解问题（3 条）：**
+- Q-da-anxa1（高优先级）：Anxa1+ 亚型的投射靶区和下游机制
+- Q-da-aversion（中优先级）：内侧 VTA 厌恶编码多巴胺的化学身份验证
+- Q-d1-inverted-u-mechanism（中优先级）：PFC D1 倒 U 型翻转的精确分子节点
+
+**登记或裁决矛盾：** 无（今日无新矛盾被发现；现有矛盾不涉及今日主题）
+
+**新增悬空引用待补：** `nucleus-accumbens`（NAc）页面（被今日文章多处引用，但无对应 wiki 页面）
