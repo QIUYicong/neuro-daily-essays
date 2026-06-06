@@ -104,8 +104,8 @@
 - 分支：main
 - commit message: "Add neuro daily article + wiki consolidation for 2026-07-31"
 - push：git push origin main
-- push 状态：[由 git 操作后填写]
-- commit hash：[由 git 操作后填写]
+- push 状态：成功（main bb86c36 → origin/main）
+- commit hash：bb86c36
 
 ## 限制说明
 - Milad & Quirk 2002 和 Milad 2004 未找到开放全文，仅读摘要
