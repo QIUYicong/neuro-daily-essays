@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-25",
+  "last_updated": "2026-08-05",
   "levels": [
     "speculative",
     "emerging",
@@ -500,9 +500,9 @@
       "slug": "connectomics",
       "status": "established",
       "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-06-18",
-      "reason": "创建 2026-06-18。C. elegans 连接组（White 1986）是神经科学经典，果蝇连接组（FlyWire 2024）已完成并经多方法验证。连接组作为结构图谱已达教科书级别，但结构-功能关系仍是前沿（confidence high for the method itself; predictions derived from connectome are emerging-mainstream depending on circuit complexity）。"
+      "supporting_sources": 9,
+      "last_status_change": "2026-08-05",
+      "reason": "修订 2026-08-05（文章 #104，rev2）。新增 FlyWire 2024 网络拓扑统计（Lin 2024）和 MICrONS 2025 功能协注册结果。连接组学作为方法已充分建立；结构-功能关系的部分验证（MICrONS）进一步巩固了连接组学的科学价值。status 保持 established。"
     },
     {
       "slug": "circuit-motifs",
@@ -615,6 +615,30 @@
       "supporting_sources": 5,
       "last_status_change": "2026-07-25",
       "reason": "修订 2026-07-25（文章 #93，第2次修订）。纳入 Hickok 2009 和 Heyes & Catmur 2022 后，经典「动作理解/读心」假说已被严重削弱。当前共识：MNS支持低层动作区分（非高层意图推断），破镜/自闭症假说无经验支持，模仿因果性参与有证据。ASL起源假说（Heyes）尚缺充分因果实验，故 confidence 维持 medium。"
+    },
+    {
+      "slug": "small-world-network",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-08-05",
+      "reason": "创建 2026-08-05（文章 #104）。小世界网络特性在神经系统的存在已在 C.elegans（Varshney 2011）、果蝇全脑（Lin 2024，SΔ=141）和人类 fMRI 网络中多次独立验证。图论分析方法标准，结果高度一致。established。"
+    },
+    {
+      "slug": "rich-club",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-08-05",
+      "reason": "创建 2026-08-05（文章 #104）。果蝇全脑（Lin 2024）突触级精度验证；人类 DTI（Hagmann 2008）宏观验证；C. elegans 和线虫级别的中枢节点概念也有支持。多物种多尺度验证 → established。"
+    },
+    {
+      "slug": "structure-function-relationship",
+      "status": "mainstream",
+      "confidence": "medium",
+      "supporting_sources": 4,
+      "last_status_change": "2026-08-05",
+      "reason": "创建 2026-08-05（文章 #104）。MICrONS 2025 首次直接验证结构预测功能（功能调谐相似性→突触连接概率）；Vishwanathan 2024 的斑马鱼案例提供更完整的结构→预测→验证闭环。但 C.elegans 40年教训（完整连接组仍无法完全预测行为）和神经调质的动态调制说明结构预测不完整。主流框架但有重要限制 → mainstream/medium。"
     }
   ],
   "entries": [

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-04",
-  "total_articles": 103,
+  "last_updated": "2026-08-05",
+  "total_articles": 104,
   "entries": [
     {
       "date": "2026-08-04",
@@ -6344,6 +6344,76 @@
           "concepts/persistent-activity.md rev2 (+Wang 2021 defense, +Panichello 2024 On-state)"
         ],
         "graph": "209 nodes, 1209 edges (no change)"
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "real_date": "2026-06-06",
+      "article_number": 104,
+      "title": "解剖即是命运？当果蝇全脑连接组诞生，神经科学如何向\"结构决定功能\"这个终极问题发起冲击",
+      "slug": "connectomics-flywire-structure-function",
+      "core_question": "完整神经元布线图（连接组）能否揭示神经计算的原理——结构能在多大程度上预测功能？FlyWire 139,255个神经元全脑布线图与 MICrONS 功能协注册给出了什么答案？",
+      "layer": [
+        "methods",
+        "whole-brain-network",
+        "cognition",
+        "theory"
+      ],
+      "topic_tags": [
+        "connectomics",
+        "FlyWire",
+        "Drosophila connectome",
+        "MICrONS",
+        "small-world network",
+        "rich club",
+        "structure-function relationship",
+        "Dorkenwald 2024",
+        "Lin 2024",
+        "Scheffer 2020",
+        "White 1986",
+        "C. elegans",
+        "Human Connectome Project",
+        "SΔ=141",
+        "broadcaster neurons",
+        "integrator neurons",
+        "rich club",
+        "graph theory",
+        "functional co-registration",
+        "axon-guidance"
+      ],
+      "main_sources": [
+        "PMID:39358518 (PMC:11446842, open access, full text read) - FlyWire main paper",
+        "PMID:39358527 (PMC:10402125 preprint, open access, full text read) - network statistics",
+        "PMID:32880371 (PMC:7546738, open access, full text read) - hemibrain",
+        "PMID:40205211 (PMC:11981947, open access, full text read) - MICrONS 2025",
+        "PMID:21304930 (open access, full text) - C.elegans Varshney 2011",
+        "PMID:23684880 (PMC:3724347, open access, full text) - HCP Van Essen 2013",
+        "PMID:22462104 (abstract/historical) - White 1986 C.elegans",
+        "PMID:39737740 (PMC:11702924, open access) - Sprecher 2024 review"
+      ],
+      "unresolved_questions": [
+        "Q-connectome-01",
+        "Q-connectome-02",
+        "Q-connectome-03"
+      ],
+      "next_suggested_topics": [
+        "synaptogenesis: how synapses form after axons reach their targets (spine 2 completion)",
+        "critical period mechanisms: PV maturation, PNN, OTX2, ChABC reopening (spine 2)",
+        "zebrafish oculomotor connectome (Vishwanathan 2024): first structure-to-function prediction closure",
+        "GABA interneurons comprehensive: chandelier/basket/Martinotti synthesis (long-standing gap)",
+        "consciousness theories: IIT vs GWT COGITATE 2025 full resolution attempt (contested claims C-2026-05-31-01/02)"
+      ],
+      "wiki_changes": {
+        "created": [
+          "concepts/small-world-network.md rev1 (established/high)",
+          "concepts/rich-club.md rev1 (established/high)",
+          "concepts/structure-function-relationship.md rev1 (mainstream/medium)"
+        ],
+        "revised": [
+          "methods/connectomics.md rev1→rev2 (+FlyWire 2024 network stats, +MICrONS 2025 functional co-registration)"
+        ],
+        "graph_fix": "_graph.json JSON error fixed at position 207725 (axon-guidance edges were stranded outside array)",
+        "graph": "214 nodes (+3), 1233 edges (+14)"
       }
     }
   ],

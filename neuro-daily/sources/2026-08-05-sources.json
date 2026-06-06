@@ -1,0 +1,226 @@
+{
+  "date": "2026-08-05",
+  "article": "2026-08-05-connectomics-flywire-structure-function",
+  "article_number": 104,
+  "topic": "连接组学：果蝇全脑布线图与结构-功能关系",
+  "total_sources": 9,
+  "open_fulltext_count": 7,
+  "abstract_only_count": 2,
+  "sources": [
+    {
+      "id": "S1",
+      "authors": "White JG, Southgate E, Thomson JN, Brenner S",
+      "title": "The structure of the nervous system of the nematode Caenorhabditis elegans",
+      "journal": "Philosophical Transactions of the Royal Society of London B Biological Sciences",
+      "year": 1986,
+      "volume": "314",
+      "issue": "1165",
+      "pages": "1-340",
+      "pmid": "22462104",
+      "pmcid": null,
+      "doi": "10.1098/rstb.1986.0056",
+      "open_access": false,
+      "fulltext_read": false,
+      "fulltext_note": "历史文献，已知内容，摘要已读；原始论文为1986年，已retroactively indexed到PubMed",
+      "role": "C. elegans 连接组历史起点；第一幅连接组；40年后的教训",
+      "key_facts": [
+        "302个神经元",
+        "约7,000个化学突触",
+        "约600个电突触",
+        "Brenner等2002年诺贝尔奖依据之一"
+      ]
+    },
+    {
+      "id": "S2",
+      "authors": "Varshney LR, Chen BL, Paniagua E, Hall DH, Chklovskii DB",
+      "title": "Structural properties of the Caenorhabditis elegans neuronal network",
+      "journal": "PLoS Computational Biology",
+      "year": 2011,
+      "volume": "7",
+      "issue": "2",
+      "pages": "e1001066",
+      "pmid": "21304930",
+      "pmcid": "PMC3033366",
+      "doi": "10.1371/journal.pcbi.1001066",
+      "open_access": true,
+      "fulltext_read": true,
+      "role": "C. elegans 图论分析；小世界特性（SΔ≈3.21）首次描述",
+      "key_facts": [
+        "C. elegans 小世界系数 SΔ ≈ 3.21",
+        "存在少数中枢神经元（hubs）",
+        "跨个体变异极小，布线高度精确"
+      ]
+    },
+    {
+      "id": "S3",
+      "authors": "Scheffer LK, Xu CS, Januszewski M, et al.",
+      "title": "A connectome and analysis of the adult Drosophila central brain",
+      "journal": "eLife",
+      "year": 2020,
+      "volume": "9",
+      "pages": "e57443",
+      "pmid": "32880371",
+      "pmcid": "PMC7546738",
+      "doi": "10.7554/eLife.57443",
+      "open_access": true,
+      "fulltext_read": true,
+      "role": "果蝇半脑连接组（2020）：25,000神经元，20M突触",
+      "key_facts": [
+        "25,000个神经元",
+        "约20百万个化学突触",
+        "覆盖中枢脑36%体积，54%神经纤维网",
+        "蘑菇体、中央复合体等核心回路首次完整重建",
+        "细胞类型跨个体高度一致"
+      ]
+    },
+    {
+      "id": "S4",
+      "authors": "Dorkenwald S, Matsliah A, Sterling AR, Schlegel P, Yu SC, McKellar CE, et al.; FlyWire Consortium",
+      "title": "Neuronal wiring diagram of an adult brain",
+      "journal": "Nature",
+      "year": 2024,
+      "volume": "634",
+      "issue": "8032",
+      "pages": "124-138",
+      "pmid": "39358518",
+      "pmcid": "PMC11446842",
+      "doi": "10.1038/s41586-024-07558-y",
+      "open_access": true,
+      "fulltext_read": true,
+      "role": "FlyWire 主论文：完整果蝇大脑连接组，139,255个神经元，~5400万突触",
+      "key_facts": [
+        "139,255个神经元",
+        "约5400万个化学突触",
+        "80%神经元完整重建",
+        "超过8,000种细胞类型",
+        "神经递质预测准确率>94%",
+        "AI分割 + 众包校正（>5000名参与者）"
+      ]
+    },
+    {
+      "id": "S5",
+      "authors": "Schlegel P, Yin Y, Bates AS, Dorkenwald S, Eichler K, Brooks P, et al.; FlyWire Consortium",
+      "title": "Whole-brain annotation and multi-connectome cell typing of Drosophila",
+      "journal": "Nature",
+      "year": 2024,
+      "volume": "634",
+      "issue": "8032",
+      "pages": "139-152",
+      "pmid": "39358521",
+      "pmcid": null,
+      "doi": "10.1038/s41586-024-07686-5",
+      "open_access": false,
+      "fulltext_read": false,
+      "fulltext_note": "摘要已读；与S4同期Nature论文，细节内容通过S4等姊妹论文参照",
+      "role": "神经元细胞类型注释：多连接组比对分类，8000+细胞类型",
+      "key_facts": [
+        "超过8,000种细胞类型",
+        "多雄性/雌性果蝇连接组比对",
+        "约一半细胞类型为双侧对称型"
+      ]
+    },
+    {
+      "id": "S6",
+      "authors": "Lin A, Yang R, Dorkenwald S, Matsliah A, Sterling AR, Schlegel P, Yu SC, McKellar CE, Costa M, Eichler K, Bates AS, Eckstein N, Funke J, Jefferis GSXE, Murthy M",
+      "title": "Network statistics of the whole-brain connectome of Drosophila",
+      "journal": "Nature",
+      "year": 2024,
+      "volume": "634",
+      "issue": "8032",
+      "pages": "153-165",
+      "pmid": "39358527",
+      "pmcid": "PMC10402125",
+      "doi": "10.1038/s41586-024-07968-y",
+      "open_access": true,
+      "fulltext_read": true,
+      "fulltext_note": "Nature正式版；预印本PMC全文已读（PMC:10402125）",
+      "role": "全脑网络拓扑分析：小世界、富有节点、广播者/整合者",
+      "key_facts": [
+        "小世界系数 SΔ = 141（远超互联网=98.1，C.elegans=3.21）",
+        "平均最短路径 4.42 跳",
+        "连接密度 0.000161，但93.3%神经元处于强连通分量",
+        "富有节点：~40,218个神经元（约30%），内部连接密度为全脑5.4倍",
+        "13.8%连接对为对称（反馈）连接",
+        "广播者（胆碱能，视觉系统）vs 整合者（多巴胺能）"
+      ]
+    },
+    {
+      "id": "S7",
+      "authors": "MICrONS Consortium",
+      "title": "Functional connectomics reveals general wiring rule in mouse visual cortex",
+      "journal": "Nature",
+      "year": 2025,
+      "volume": "640",
+      "issue": "8058",
+      "pages": "459-469",
+      "pmid": "40205211",
+      "pmcid": "PMC11981947",
+      "doi": "10.1038/s41586-025-08840-3",
+      "open_access": true,
+      "fulltext_read": true,
+      "role": "功能-结构协注册（小鼠V1）：功能相似性预测突触连接",
+      "key_facts": [
+        "约75,000个神经元钙成像（清醒小鼠，自然图像）",
+        "EM重建：200,000+细胞，5亿突触",
+        "约10,000神经元实现功能+结构双重标注",
+        "功能调谐相似性（特征）预测突触连接概率",
+        "空间邻近性不预测连接",
+        "共同突触前输入驱动更强功能对齐（高阶原则）"
+      ]
+    },
+    {
+      "id": "S8",
+      "authors": "Van Essen DC, Smith SM, Barch DM, Behrens TEJ, Yacoub E, Ugurbil K; WU-Minn HCP Consortium",
+      "title": "The WU-Minn Human Connectome Project: an overview",
+      "journal": "NeuroImage",
+      "year": 2013,
+      "volume": "80",
+      "pages": "62-79",
+      "pmid": "23684880",
+      "pmcid": "PMC3724347",
+      "doi": "10.1016/j.neuroimage.2013.05.041",
+      "open_access": true,
+      "fulltext_read": true,
+      "role": "人类宏观连接组（HCP）：尺度对比；白质纤维束与功能连接",
+      "key_facts": [
+        "1,200名健康成年人",
+        "多模态MRI：DWI + resting-state fMRI + MEG",
+        "分辨率~1.25mm（体素）vs EM~20nm（差8个数量级）",
+        "发现180个皮层脑区的连接图谱",
+        "开放数据库：ConnectomeDB"
+      ]
+    },
+    {
+      "id": "S9",
+      "authors": "Sprecher SG",
+      "title": "Disentangling how the brain is wired",
+      "journal": "Fly (Austin)",
+      "year": 2024,
+      "pmid": "39737740",
+      "pmcid": "PMC11702924",
+      "doi": "10.1080/19336934.2024.2440950",
+      "open_access": true,
+      "fulltext_read": true,
+      "role": "FlyWire 学术评述与局限性讨论",
+      "key_facts": [
+        "强调EM连接组不含电突触、体积传递信息",
+        "个体变异性问题（一只果蝇≠所有果蝇）",
+        "下一步需功能+调质图谱整合"
+      ]
+    }
+  ],
+  "search_terms_used": [
+    "FlyWire complete Drosophila brain connectome 2024 Nature PMID PMC open access",
+    "MICrONS consortium mouse cortex connectome 2024 2025 Nature open access PMID",
+    "Drosophila hemibrain connectome Scheffer 2020 eLife PMID PMC open access",
+    "Dorkenwald Matsliah FlyWire neuronal wiring diagram 2024 PMID",
+    "C elegans connectome White 1986 Varshney 2011 PMID",
+    "Human Connectome Project HCP Van Essen 2013 NeuroImage PMID PMC"
+  ],
+  "excluded_sources": [
+    {
+      "reason": "未找到主要MICrONS数据集原始论文（2021 bioRxiv/Nature，如有）；以2025 Nature正式分析论文替代",
+      "note": "2025年Nature论文已包含全部连接组数据统计"
+    }
+  ]
+}

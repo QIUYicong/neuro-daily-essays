@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-08-05 · 文章 #104 · 解剖即是命运？FlyWire 全脑连接组与"结构决定功能"大问题
+
+**核心主题**：连接组学与结构-功能关系——课程脊柱第9章（Connectomics）与第10章（方法革命）首篇。核心内容：C. elegans（1986）→ Drosophila hemibrain（Scheffer 2020）→ FlyWire 完整果蝇大脑（Dorkenwald 2024，139,255神经元，~5400万突触）的历史跃迁；FlyWire 全脑网络拓扑统计（Lin 2024）：小世界系数SΔ=141（迄今最高生物神经网络）、平均路径4.42跳、富有节点（40,218个神经元，内部连接密度5.4倍）、广播者（胆碱能/视觉系统）vs 整合者（多巴胺能）；MICrONS 2025（小鼠V1功能-结构协注册，200,000+细胞，5亿突触）直接验证功能相似性预测突触连接；人类HCP宏观连接组尺度对比；C. elegans 40年教训（完整布线图+仍无法完全预测行为 = 神经调质不在布线图里）；脑-AI权重矩阵类比及其局限。
+
+**新建页面（3）**：
+- `concepts/small-world-network.md` rev1 — 小世界网络定义；SΔ量化指标；果蝇SΔ=141 vs C. elegans SΔ≈3.21 vs 互联网SΔ≈98.1；演化解释（局部专门化+全局整合双重压力）(established, confidence:high)
+- `concepts/rich-club.md` rev1 — 富有节点定义；果蝇全脑约30%（40,218个）内部连接密度5.4倍；跨半球整合枢纽；人类DTI富有节点与DMN核心重叠；形成机制三假说 (established, confidence:high)
+- `concepts/structure-function-relationship.md` rev1 — 结构约束而非决定功能；MICrONS 2025正向验证；C. elegans反例；"共同输入假说"机制；神经调质不变量问题 (mainstream, confidence:medium)
+
+**修订页面（1）**：
+- `methods/connectomics.md` rev1→rev2 — 新增：FlyWire 2024 全脑网络拓扑统计（小世界SΔ=141、富有节点、广播者/整合者、反馈连接13.8%）；MICrONS 2025 功能-结构协注册关键发现；更新 related（+small-world-network, rich-club, structure-function-relationship, axon-guidance）、key_sources（+PMID:39358527, 40205211, 21304930）、source_articles
+
+**矛盾登记（0）**：今日文章内容与现有 wiki 无矛盾。C. elegans 40年局限与 MICrONS 2025 的部分验证属于互补而非矛盾——两者共同支持"结构约束但不决定功能"的框架。
+
+**新增开放问题（3）**：见 Q-connectome-01、Q-connectome-02、Q-connectome-03（追加到 unresolved_questions.md）
+
+**图谱修复 + 更新**：修复了 _graph.json 中 position 207725 的 JSON 语法错误（edges 数组过早关闭，axon-guidance 边组被孤立）；节点 211→214（+3），边 1219→1233（+14）
+
+---
+
 ## 2026-08-04 · 文章 #103 · 大脑如何给自己布线：生长锥的分子导航与精密回路的发育起源
 
 **核心主题**：轴突导向机制全面初始化——首次深入覆盖课程脊柱第2章"神经网络如何建成"中的轴突导向环节。核心内容：生长锥的结构与肌动蛋白踏车运动；四大导向分子家族（Netrin-DCC/UNC5双功能；Slit-ROBO中线单向阀门；Semaphorin-NRP-Plexin-MICAL排斥机制；Ephrin-Eph双向信号）；视网膜-上丘体地形图作为梯度×梯度建图的案例（Sperry化学亲和性假说的分子实现；正向+反向Ephrin信号协同；活动依赖精化的协同冗余）；Teneurin-LPHN系统在海马MEC/LEC层状投射的突触靶点识别机制；疾病窗口（ROBO3突变/水平凝视麻痹；苔藓纤维发芽/癫痫）；脑-AI布线逻辑比较（遗传先验 vs 随机初始化+梯度下降）。

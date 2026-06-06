@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-04",
+  "updated": "2026-08-05",
   "node_count": 203,
   "edge_count": 1179,
   "edge_types": [
@@ -1912,6 +1912,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/growth-cone.md"
+    },
+    {
+      "id": "small-world-network",
+      "title": "小世界网络",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/small-world-network.md"
+    },
+    {
+      "id": "rich-club",
+      "title": "富有节点组织",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/rich-club.md"
+    },
+    {
+      "id": "structure-function-relationship",
+      "title": "结构-功能关系",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/structure-function-relationship.md"
     }
   ],
   "edges": [
@@ -8463,8 +8490,7 @@
       "to": "mind-wandering",
       "type": "supports",
       "note": "DMN自发激活产生心智漫游；感知解耦使内部记忆优先"
-    }
-  ],
+    },
     {
       "from": "axon-guidance",
       "to": "growth-cone",
@@ -8514,6 +8540,76 @@
       "from": "axon-guidance",
       "to": "alzheimers-disease",
       "type": "related"
+    },
+    {
+      "from": "small-world-network",
+      "to": "connectomics",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "small-world-network",
+      "to": "rich-club",
+      "type": "related"
+    },
+    {
+      "from": "rich-club",
+      "to": "connectomics",
+      "type": "part-of"
+    },
+    {
+      "from": "rich-club",
+      "to": "small-world-network",
+      "type": "related"
+    },
+    {
+      "from": "rich-club",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "rich-club",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "structure-function-relationship",
+      "to": "connectomics",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "structure-function-relationship",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "structure-function-relationship",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "structure-function-relationship",
+      "to": "axon-guidance",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "small-world-network",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "rich-club",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "axon-guidance",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "structure-function-relationship",
+      "type": "supports"
     }
   ],
   "dangling_references": [

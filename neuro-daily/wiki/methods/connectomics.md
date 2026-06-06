@@ -6,18 +6,21 @@ type: method
 status: established
 confidence: high
 created: 2026-06-18
-updated: 2026-06-18
-revision_count: 1
+updated: 2026-08-05
+revision_count: 2
 dimensions: [methods, cellular, brain-region, whole-brain-network]
-related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples]
+related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, rich-club, structure-function-relationship, axon-guidance]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-conn-01, Q-conn-02, Q-conn-03]
-source_articles: [2026-06-18-connectomics-wiring-diagram]
+source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-05-connectomics-flywire-structure-function]
 key_sources:
   - "PMID:22462104"
   - "PMID:34349261"
   - "PMID:39358518"
   - "PMID:33315010"
+  - "PMID:39358527"
+  - "PMID:40205211"
+  - "PMID:21304930"
 ---
 
 # 连接组学 (Connectomics)
@@ -104,6 +107,26 @@ Witvliet 2021（PMID:34349261）：线虫发育过程中接线图系统性前馈
 
 **结论原则**：连接组提供了神经计算可能的**结构空间边界**，但要理解在任何给定时刻实际发生了什么计算，需要将接线图与大规模神经活动记录（Neuropixels等）和计算建模三层整合。
 
+### 全脑网络拓扑特征（FlyWire 2024 新增）
+
+Lin 等人（2024，Nature 634:153-165；PMID:39358527）对 FlyWire 完整连接组进行了图论分析，揭示了以下关键特征：
+
+**小世界性质**：果蝇全脑小世界系数（SΔ）= **141**，远超 C. elegans（SΔ ≈ 3.21）和互联网（SΔ ≈ 98.1）。平均最短有向路径 4.42 跳，最大 13 跳。这意味着神经信号可以在极少中间步骤内跨越全脑，而局部聚类（高聚类系数）保证了专门化局部计算的存在。
+
+**富有节点（Rich Club）**：约 30% 的神经元（40,218 个，高连接度阈值以上）形成了一个互相高度连接的核心，其内部连接密度是全脑平均的 **5.4 倍**。富有节点是跨半球信息整合的主要枢纽（18% 跨脑连接 vs 普通神经元的 11%）。
+
+**广播者 vs 整合者**：网络分析揭示两种功能性神经元类型——广播者（少输入/多输出，主要胆碱能，富集于视觉系统）和整合者（多输入/少输出，主要多巴胺能）。这一功能分工直接从拓扑统计中浮现，为感觉-驱动-运动的层次架构提供了结构证据。
+
+**反馈连接比例**：13.8% 的神经元对之间存在对称（反馈）连接，显著高于随机预期，提示回路中普遍存在循环计算。
+
+### 结构预测功能：MICrONS 2025 验证
+
+MICrONS 联合体（2025，Nature 640:459-469；PMID:40205211）在小鼠视觉皮层完成了迄今最大的功能-结构协注册数据集（~75,000 神经元钙成像 + EM 重建 200,000+ 细胞，约 10,000 神经元双重标注），直接检验"结构预测功能"假说。
+
+核心发现：**具有相似功能调谐（如方向选择性）的神经元，突触连接概率显著更高**。但关键区分是：只有"特征性相似"（功能属性相似）能预测连接，"空间邻近"无法预测。更高阶发现：接受同一突触前神经元输入的神经元群，功能对齐程度高于基于两两配对的期望（共同输入驱动共同调谐原则）。
+
+这一结果是对连接组学核心假设的第一次直接实验验证：**结构（谁连谁）确实在一定程度上预测功能（彼此协调工作）**。
+
 ---
 
 ## 关键机制
@@ -140,7 +163,9 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 | 果蝇全脑包含139,255个神经元，5450万个化学突触 | FlyWire全脑连接组（单只成体雌果蝇） | PMID:39358518 (Dorkenwald 2024) | 高 |
 | 线虫发育中接线图前馈化和模块化，个体间有显著差异 | 8只线虫发育阶段纵向比较，图论定量分析 | PMID:34349261 (Witvliet 2021) | 高 |
 | 果蝇蘑菇体含14种KC类型、15个离散学习区室；~8%KC接受视觉输入 | FAFB数据集中蘑菇体系统重建，与已知功能数据对照 | PMID:33315010 (Li 2020) | 高（功能验证部分为预测） |
-| 果蝇全脑网络具有富人俱乐部组织，~30%神经元为枢纽 | FlyWire数据集的图论分析（连接度分布+富人俱乐部系数） | PMID:39358527 (Lin 2024) | 高 |
+| 果蝇全脑网络具有富有节点组织，~30%神经元为枢纽，内部连接密度5.4倍 | FlyWire数据集的图论分析（连接度分布+富有节点系数） | PMID:39358527 (Lin 2024) | 高 |
+| 功能相似性（方向调谐特征）预测突触连接概率（小鼠V1） | 功能-结构协注册（钙成像+EM，~10,000神经元双重标注） | PMID:40205211 (MICrONS 2025) | 高 |
+| 共同突触前输入驱动更强功能对齐（超出两两相关期望） | MICrONS数据集高阶连接分析 | PMID:40205211 (MICrONS 2025) | 中-高 |
 | 从斑马鱼眼动回路接线图可预测吸引子动力学，钙成像验证 | 接线图约束模型 + 双光子钙成像实验 | PMID:39578573 (Vishwanathan 2024) | 高（单一模型系统）|
 | 接线图同类型个体间存在随机差异（非仅遗传决定） | 同基因型线虫对比，可测量的突触数量和有无差异 | PMID:34349261 (Witvliet 2021) | 高 |
 
@@ -172,9 +197,11 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 ## 修订历史
 
 - 2026-06-18 · 创建 · 基于《接线图之上：当我们拥有了完整神经地图，理解大脑的征途才刚刚开始》一文 · methods层第二个页面（继optogenetics.md后）· 初始置信度：高（established）
+- 2026-08-05 · 修订（rev2）· 基于《解剖即是命运？（#104）》· 新增：FlyWire 2024 全脑网络拓扑统计（小世界SΔ=141、富有节点、广播者/整合者、反馈连接比例）；新增 MICrONS 2025 功能-结构协注册关键发现（结构预测功能的直接实验验证）；更新 related、key_sources、source_articles
 
 ---
 
 ## 来源文章
 
 - [[2026-06-18-connectomics-wiring-diagram]]
+- [[2026-08-05-connectomics-flywire-structure-function]]

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-04（**第103篇**·大脑如何给自己布线——轴突导向与生长锥的分子导航）· 主题页总数：**200**（新建2页：axon-guidance、growth-cone；图谱203节点、~1189边）
+> 最后更新：2026-08-05（**第104篇**·解剖即是命运？FlyWire 全脑连接组与结构-功能关系）· 主题页总数：**203**（新建3页：small-world-network、rich-club、structure-function-relationship；修订1页：connectomics rev2；_graph.json JSON错误已修复；图谱214节点、1233边）
 
 ---
 
@@ -44,6 +44,9 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [小世界网络](concepts/small-world-network.md) — 高聚类系数+短平均路径的最优网络拓扑；果蝇全脑 SΔ=141（迄今最高生物神经网络）；在突触级精度上验证了多尺度小世界原则 **[NEW 2026-08-05 #104]**
+- 🟢 [富有节点组织](concepts/rich-club.md) — 高连接度神经元彼此高度互联的核心枢纽；果蝇全脑约30%（40,218个）神经元构成富有节点，内部连接密度为全脑5.4倍；跨半球整合中枢 **[NEW 2026-08-05 #104]**
+- 🔵 [结构-功能关系](concepts/structure-function-relationship.md) — 解剖布线在多大程度上预测神经功能的核心问题；MICrONS 2025 直接验证功能调谐相似性预测突触连接；但C. elegans 40年教训说明结构是约束而非决定 **[NEW 2026-08-05 #104]**
 - 🟢 [轴突导向](concepts/axon-guidance.md) — 发育期轴突借助四大导向分子（Netrin/Slit/Semaphorin/Ephrin）形成的化学梯度精确布线；生长锥整合信号驱动方向性延伸；梯度×梯度建立拓扑地图；活动依赖精化细化细节 **[NEW 2026-08-04 #103]**
 - 🟢 [生长锥](concepts/growth-cone.md) — 轴突顶端的感觉-运动装置，由板状伪足/丝状伪足构成；肌动蛋白踏车运动驱动前进；受体感知化学梯度→骨架不对称重组→方向转向；穿越中线后动态重编程受体敏感性 **[NEW 2026-08-04 #103]**
 - 🟢 [自我参照处理](concepts/self-referential-processing.md) — 大脑对"与自我相关信息"赋予自动优先级的神经认知机制；mPFC和PCC为核心；Rogers 1977自我参照效应增强记忆编码；双子维度（当前vs历时自我）；DMN持续激活的核心功能 **[NEW 2026-08-02 #101]**
