@@ -6517,6 +6517,78 @@
         "graph_fix": "_graph.json JSON error fixed at position 207725 (axon-guidance edges were stranded outside array)",
         "graph": "214 nodes (+3), 1233 edges (+14)"
       }
+    },
+    {
+      "date": "2026-08-07",
+      "title": "围神经元网的分子密码：硫酸化、OTX2 与视觉皮层关键期的精准门控",
+      "article_slug": "pnn-sulfation-otx2-molecular-brakes",
+      "core_question": "大脑如何通过 PNN 的 CS 硫酸化模式（4S/6S 比值）与 OTX2 的非细胞自主捕获机制，以分子级别精确控制视觉皮层关键期可塑性窗口的开启、维持与关闭？",
+      "layer": "molecular/cellular/synaptic/microcircuit",
+      "topic_tags": [
+        "perineuronal nets",
+        "PNN",
+        "chondroitin sulfate",
+        "sulfation code",
+        "4S/6S ratio",
+        "OTX2",
+        "RK peptide",
+        "CS-D",
+        "CS-E",
+        "PTPσ",
+        "TrkB",
+        "ChABC",
+        "fluoxetine",
+        "iPlasticity",
+        "critical period",
+        "Crtl1 link protein",
+        "Gadd45b",
+        "Miyata 2012",
+        "Beurdeley 2012",
+        "Lee & Hensch 2017",
+        "Lesnikova 2021",
+        "Pizzorusso 2002",
+        "Carulli 2010"
+      ],
+      "main_sources": [
+        "PMID:12424383 (PMC:8265812, open access) - Pizzorusso 2002 ChABC landmark",
+        "PMID:16709670 (PMC:7880295, open access) - Pizzorusso 2006 full amblyopia recovery",
+        "PMID:20566484 (PMC:9115720, open access) - Carulli 2010 Crtl1 KO",
+        "PMID:22246436 (abstract only, paywall) - Miyata 2012 sulfation code",
+        "PMID:22764251 (PMC:3419577, open access) - Beurdeley 2012 OTX2 RK domain",
+        "PMID:18692473 (abstract only) - Sugiyama 2008 OTX2 transfer discovery",
+        "PMID:28194008 (PMC:5626782, open access) - Lee & Hensch 2017 brain-wide OTX2",
+        "PMID:29771284 (PMC:5400722, open access) - Apulei 2019 Gadd45b epigenetics",
+        "PMID:33293360 (PMC:8141737, open access) - Lesnikova 2021 PTPσ-TrkB unified mechanism",
+        "PMID:16261181 (PMC:10970535, open access) - Hensch 2005 canonical CP review",
+        "PMID:33670945 (PMC:6047524, open access) - Carulli & Verhaagen 2021 PNN molecular anatomy",
+        "PMID:32503914 (PMC:6899674, open access) - Reh & Hensch 2020 multi-timescale review"
+      ],
+      "unresolved_questions": [
+        "Q-pnn-otx2-01",
+        "Q-pnn-otx2-02",
+        "Q-pnn-otx2-03",
+        "Q-pnn-otx2-04"
+      ],
+      "next_suggested_topics": [
+        "critical period in other senses: auditory cortex tonotopic map (Lee & Hensch 2017 extension)",
+        "synaptic pruning in critical period: complement-microglia mechanism (spine 2 completion)",
+        "myelination and plasticity: Nogo-A receptor as parallel brake on adult plasticity",
+        "HDAC inhibitors and adult plasticity: epigenetic approach to critical period reopening (Reh 2020)",
+        "consciousness theories revisited: IIT vs GWT COGITATE 2025 (contested claims C-2026-05-31-01/02)"
+      ],
+      "wiki_changes": {
+        "created": [
+          "concepts/otx2.md rev1 (established/high)",
+          "concepts/cspg-sulfation-code.md rev1 (established/high)",
+          "concepts/iplasticity.md rev1 (emerging/medium)"
+        ],
+        "revised": [
+          "concepts/critical-period.md rev2→rev3 (+硫酸化密码, +OTX2跨脑区同步, +Gadd45b表观遗传)",
+          "concepts/perineuronal-nets.md rev2→rev3 (+Crtl1 KO结构证据, +4S/6S密码, +OTX2 RK肽 Kd值)",
+          "circuits/pv-interneurons.md rev4→rev5 (+OTX2 RK域结合细节, +Gadd45b通路, +Lee Hensch 2017)"
+        ],
+        "graph": "221 nodes (+3), 1266 edges (+17)"
+      }
     }
   ],
   "layer_coverage_recent": {

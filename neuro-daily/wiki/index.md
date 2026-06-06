@@ -356,3 +356,24 @@
 ### 图谱状态
 - 节点：192 | 边：1111
 - 新悬空待补：anterior-cingulate-cortex 页面（被 AIC 引用）、social-cognition 页面
+
+---
+
+## 2026-08-07 更新（第 107 篇）
+
+### 新建 wiki 页面
+
+**concepts/**
+- `otx2.md` — OTX2 同源蛋白（非细胞自主关键期信号）| established / high | 视网膜分泌 → CSF/血液 → PNN CS-D/E 捕获 → PV 细胞内化；跨脑区关键期同步（V1/A1/mPFC）；Gadd45b 表观遗传下游
+- `cspg-sulfation-code.md` — 硫酸软骨素硫酸化密码 | established / high | 4S/6S 比值作为关键期分子开关；C6ST 过表达维持幼年可塑性；CS-D/E 为 OTX2 高亲和力结合位点
+- `iplasticity.md` — iPlasticity（诱导性可塑性）| emerging / medium | ChABC 和氟西汀通过 PTPσ-TrkB 轴重开成年可塑性；"药物+训练"配对策略；弱视/PTSD/抑郁康复应用
+
+### 修订 wiki 页面
+
+- `concepts/critical-period.md` rev3 — 新增 CS 硫酸化密码、OTX2 跨脑区同步、Gadd45b 表观遗传通路；related 新增 otx2/cspg-sulfation-code/iplasticity
+- `concepts/perineuronal-nets.md` rev3 — Crtl1 KO 结构致密性证据；OTX2 RK 域精确结合参数；硫酸化自动关闭机制；related 新增 otx2/cspg-sulfation-code/iplasticity
+- `circuits/pv-interneurons.md` rev5 — OTX2-PV 细胞内化的分子细节；Gadd45b/g 表观遗传通路；跨脑区同步证据（Lee & Hensch 2017）
+
+### 图谱状态
+- 节点：221（+3）| 边：1266（+17）
+- 新悬空待补：无

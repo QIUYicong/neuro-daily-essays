@@ -6,14 +6,15 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-08
-revision_count: 2
+updated: 2026-08-07
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
 related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity, circadian-clock]
 prerequisites: [pv-interneurons, ei-balance, perineuronal-nets, synaptic-transmission]
 opens_questions: [Q-cp-01, Q-cp-02, Q-cp-03, Q-cp-04]
-source_articles: [2026-06-03-critical-period-plasticity, 2026-07-08-circadian-clock-scn-brain-rhythm]
-key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181", "PMID:18692473", "PMID:21071629", "PMID:22764251", "PMID:23975100", "PMID:26261347", "PMID:33293360", "PMID:34045309", "PMID:32503914"]
+source_articles: [2026-06-03-critical-period-plasticity, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-08-07-pnn-sulfation-otx2-molecular-brakes]
+key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181", "PMID:18692473", "PMID:21071629", "PMID:22246436", "PMID:22764251", "PMID:23975100", "PMID:26261347", "PMID:28194008", "PMID:29771284", "PMID:33293360", "PMID:34045309", "PMID:32503914"]
+related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity, circadian-clock, otx2, cspg-sulfation-code, iplasticity]
 ---
 
 # 发育关键期 (Critical Period)
@@ -30,8 +31,12 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 
 **关闭机制（三道刹车）**：
 1. **PNN 基质封存（主刹车）**：PNN 中的 aggrecan/CSPG 通过 PTPσ（蛋白酪氨酸磷酸酶σ）降低 PV+ 细胞内 TRKB 的磷酸化水平，减弱 BDNF 进入 PV+ 细胞的信号，从而固化 PV+ 细胞状态（Lesnikova et al. 2021，PMID:33293360）。同时，PNN 锚定 OTX2（通过硫酸软骨素 D/E），维持 PV+ 细胞的成熟状态（Beurdeley et al. 2012，PMID:22764251）。
-2. **OTX2 信号减退**：随着年龄增长和感觉经验减少，OTX2 向皮层的转运降低；PNN 硫酸化模式改变降低了对 OTX2 的亲和力。
+2. **OTX2 信号减退 + 硫酸化密码变化**：随着年龄增长，PNN 的 4S/6S 硫酸化比值升高（4-硫酸化增加、6-硫酸化减少），使得 PNN 对 OTX2（需要结合 CS-D/E 即双硫酸化序列）的亲和力降低——OTX2 捕获减少 → PV 细胞 OTX2 水平下降 → 关键期关闭加速（Miyata & Kitagawa 2012, PMID:22246436；Beurdeley et al. 2012, PMID:22764251）。
 3. **Lynx1 胆碱能制动**：关键期结束后 Lynx1 表达上调，直接抑制 nAChR，阻止胆碱能信号通过 VIP 去抑制回路重新激活皮层可塑性（Morishita et al. 2010，PMID:21071629）。
+
+**OTX2 作为全脑关键期同步器**（2026-08-07 新增）：视网膜分泌的 OTX2 是多个脑区关键期的同步信号。Lee & Hensch（2017, PMID:28194008）用 OTX2 GAG 结合域点突变敲入小鼠（R36A/K37A）证明：OTX2 无法与 PNN 正常结合时，**视觉、听觉和前额叶皮层**的关键期全部同步延迟——揭示了 OTX2 是跨模态关键期的中央协调信号。
+
+**OTX2 下游的表观遗传机制**（2026-08-07 新增）：OTX2 在 PV 细胞内不只激活快速靶基因，还通过上调 Gadd45b/g（DNA 去甲基化相关蛋白）在基因组层面建立 PV 细胞的成熟状态——Gadd45b 病毒过表达在成年 V1 即可重开 OD 可塑性（Apulei et al. 2019, PMID:29771284）。
 
 **关键期关闭是主动而非被动**：成年 PNN 密度受局部网络活动持续调节——化学遗传学抑制 PV+ 细胞可导致 PNN 在一周内退化（Devienne et al. 2021，PMID:34045309）。这意味着关键期关闭后的"稳定状态"并非绝对固化，而是需要局部网络活动的持续维持。
 
@@ -84,6 +89,9 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 - [[ltd]] — 关键期内弱势眼突触减弱的机制
 - [[orientation-selectivity]] — V1 方向选择性在关键期完善（同一脑区，邻近功能）
 - [[circadian-clock]] — 时钟基因 CLOCK/BMAL1 通过代谢-氧化应激路径调控 PV+ 中间神经元成熟速率，从而决定关键期的开启时间（Reh et al. 2020, PMID:32503914，PNAS 开放全文）
+- [[otx2]] — OTX2 非细胞自主信号是全脑关键期开启与关闭的中央同步分子；经 PNN 的 CS-D/E 捕获进入 PV 细胞
+- [[cspg-sulfation-code]] — 4S/6S 硫酸化比值变化是关键期关闭的分子化学开关之一
+- [[iplasticity]] — 基于关键期生物学在成年大脑中诱导的可逆性可塑性窗口（ChABC、氟西汀等）
 
 ## 未解问题
 
@@ -96,8 +104,10 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 
 - 2026-06-03 · 创建 · 基于《时间刻入神经回路：大脑发育关键期的开关机制与可塑性窗口的重启》(#72) · 初始置信度：高 · 综合 19 篇来源（13 篇开放全文）
 - 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 连接节新增 circadian-clock（Reh et al. 2020, PMID:32503914：CLOCK/BMAL1 → PV+ 中间神经元成熟速率 → 关键期时间轴）；related 新增 circadian-clock；key_sources 新增 PMID:32503914
+- 2026-08-07 · 修订 rev3 · 基于《围神经元网的分子密码》(#107) · 新增：(1) CS 硫酸化密码（4S/6S 比值变化）作为 OTX2 捕获效率降低、关键期关闭的化学基础（Miyata 2012, PMID:22246436）；(2) OTX2 跨脑区同步效应（V1/A1/mPFC 关键期同步延迟，Lee & Hensch 2017, PMID:28194008）；(3) OTX2 → Gadd45b/g 表观遗传下游通路（Apulei 2019, PMID:29771284）；(4) 连接节新增 otx2、cspg-sulfation-code、iplasticity；related 字段同步更新；key_sources 新增 PMID:22246436、PMID:28194008、PMID:29771284
 
 ## 来源文章
 
 - [[2026-06-03-critical-period-plasticity]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
+- [[2026-08-07-pnn-sulfation-otx2-molecular-brakes]]

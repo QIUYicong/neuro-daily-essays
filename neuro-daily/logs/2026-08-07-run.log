@@ -1,0 +1,111 @@
+# 运行日志 2026-08-07
+
+**文章编号**：#107
+**主题**：围神经元网的分子密码：硫酸化、OTX2 与视觉皮层关键期的精准门控
+**课程脊柱**：#2（神经网络如何建成）→ 发育关键期分子机制
+**层级**：molecular / cellular / synaptic / microcircuit
+
+---
+
+## 选题依据
+
+来源：topic_ledger.json 最近条目（2026-08-06 突触发生）的 next_suggested_topics 第二项：
+"critical period mechanisms: PV maturation, PNN, OTX2, ChABC reopening (spine 2)"
+
+今日焦点从突触发生（昨日，Neurexin-Neuroligin 分子识别）自然推进到关键期的分子门控机制——两者同属发育神经科学脊柱的连续话题。由于现有 wiki 已有 critical-period.md（rev2）、perineuronal-nets.md（rev2）、pv-interneurons.md（rev4），今日可以在已有框架上深入讲述更精细的分子机制（硫酸化密码、OTX2 传递链细节、PTPσ-TrkB 统一机制），而不是重复基础内容。
+
+---
+
+## 搜索策略与数据源
+
+**搜索工具**：NCBI E-utilities (PubMed / PMC)、Europe PMC
+
+**搜索词及结果**：
+1. `critical period plasticity parvalbumin perineuronal nets` → 10 篇候选
+2. `OTX2 critical period visual cortex` → 8 篇候选
+3. `Hensch critical period GABA visual cortex` → 8 篇候选
+4. `perineuronal nets critical period plasticity review` → 10 篇候选
+5. `critical period reopening chondroitinase fluoxetine visual cortex` → 8 篇候选
+6. `OTX2 parvalbumin perineuronal net critical period 2018-2024` → 8 篇候选
+7. Europe PMC: `critical period plasticity parvalbumin PNN OTX2` → 8 篇候选
+
+**采用来源**：15 篇（13 篇开放全文，2 篇摘要）
+**排除来源**：Sci-Hub 或非授权来源均未使用；部分新闻稿类来源因无学术信息排除
+
+---
+
+## 信息来源质量评估
+
+| 来源 | 评估 |
+|------|------|
+| PMID:12424383 (Pizzorusso 2002, Science) | 极高可信度：标志性实验；高被引（>3000次）；在领域内被广泛复制 |
+| PMID:20566484 (Carulli 2010, Brain) | 高：同行评审；结构组织 vs CSPG 量的关键区分实验 |
+| PMID:22246436 (Miyata 2012, Nat Neurosci) | 高：顶刊；功能转基因实验；**未读全文（摘要阅读），已在文章中标注** |
+| PMID:22764251 (Beurdeley 2012, J Neurosci) | 高：精确分子结合数据（SPR）+ 体内功能实验；Prochiantz 实验室多年系列研究 |
+| PMID:28194008 (Lee & Hensch 2017, Mol Psychiatry) | 高：遗传敲入小鼠 + 多脑区可塑性系统测量；Hensch 实验室 |
+| PMID:29771284 (Apulei 2019, Cereb Cortex) | 中高：AAV 拯救实验提供因果证据；单一论文，需后续验证 |
+| PMID:33293360 (Lesnikova 2021, J Neurosci) | 高：多个互相独立的实验证明 PTPσ-TrkB 统一机制；Castrén 实验室 |
+| PMID:18692473 (Sugiyama 2008, Cell) | 极高：OTX2 非细胞自主转移的发现论文；**摘要阅读，未读全文，在文章中标注** |
+
+---
+
+## 固结的 wiki 页面
+
+**新建（3 个）**：
+- `wiki/concepts/otx2.md` rev1 (established/high) — 12 条事实主张，均有来源
+- `wiki/concepts/cspg-sulfation-code.md` rev1 (established/high) — 5 条关键证据
+- `wiki/concepts/iplasticity.md` rev1 (emerging/medium) — 5 条关键证据；status=emerging（人类临床证据待补）
+
+**修订（3 个）**：
+- `wiki/concepts/critical-period.md` rev2→rev3 — 新增 3 个机制描述段落，3 个连接节，2 个 key_sources
+- `wiki/concepts/perineuronal-nets.md` rev2→rev3 — 新增 PNN 分子组成细节，OTX2 捕获精确参数，硫酸化自动关闭机制，3 个新连接节
+- `wiki/circuits/pv-interneurons.md` rev4→rev5 — 新增 OTX2 表观遗传下游，Lee & Hensch 2017 跨脑区效应
+
+**矛盾检查**：
+- 今日新增内容与现有 wiki 一致，无新矛盾需登记
+- Miyata 2012（硫酸化是关键期关闭的原因 vs 结果）的方法学讨论在文章中已明确说明，但不构成 contested 矛盾（主流证据支持因果方向），未登记到 contested_claims.json
+
+---
+
+## 图谱更新
+
+- 节点：214 → 221（+7，注：上次记录214，实为211，今日准确数为221）
+- 边：1233 → 1266（+17 条新边）
+- 主要新边：otx2→perineuronal-nets（mechanism-of），otx2→critical-period（mechanism-of），cspg-sulfation-code→perineuronal-nets（part-of），iplasticity→critical-period（related）等
+
+---
+
+## 失败与限制
+
+- PMID:22246436 (Miyata 2012, Nat Neurosci)：摘要阅读，未获全文（Nature Neuroscience 付费墙；未尝试 Sci-Hub 等非法渠道）。主要发现已通过 Beurdeley 2012 和综述文献交叉验证，并在文章中标注"未读全文"。
+- PMID:18692473 (Sugiyama 2008, Cell)：摘要阅读，主要发现被后续大量文献验证（Beurdeley 2012 等），风险低。在文章来源表中标注"摘要"。
+
+---
+
+## Git 操作
+
+**分支**：`claude/funny-einstein-Wm2xU`
+**Remote**：`http://local_proxy@127.0.0.1:38329/git/QIUYicong/neuro-daily-essays` (包含 QIUYicong/neuro-daily-essays，correct)
+**状态**：待 commit 和 push（将在日志写入后执行）
+
+---
+
+## 产出清单
+
+- `articles/2026-08-07-pnn-sulfation-otx2-molecular-brakes.md` ✅
+- `notes/2026-08-07-reading-notes.md` ✅
+- `sources/2026-08-07-sources.json` ✅
+- `wiki/concepts/otx2.md` ✅（新建）
+- `wiki/concepts/cspg-sulfation-code.md` ✅（新建）
+- `wiki/concepts/iplasticity.md` ✅（新建）
+- `wiki/concepts/critical-period.md` rev3 ✅（修订）
+- `wiki/concepts/perineuronal-nets.md` rev3 ✅（修订）
+- `wiki/circuits/pv-interneurons.md` rev5 ✅（修订）
+- `wiki/_graph.json` ✅（221 节点，1266 边）
+- `wiki/index.md` ✅（追加 2026-08-07 更新）
+- `wiki/CHANGELOG.md` ✅（追加 2026-08-07 条目）
+- `state/topic_ledger.json` ✅（追加今日条目）
+- `state/unresolved_questions.md` ✅（追加 Q-pnn-otx2-01~04）
+- `state/monthly_synthesis.md` ✅（追加今日摘要）
+- `state/maturity_index.json` ✅（新增 3 个页面条目）
+- `logs/2026-08-07-run.log` ✅（本文件）

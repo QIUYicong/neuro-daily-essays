@@ -6,14 +6,15 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-04
-updated: 2026-06-03
-revision_count: 2
+updated: 2026-08-07
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, cognition, disease]
 related: [pv-interneurons, ei-balance, synaptic-pruning, adult-neurogenesis, bdnf, homeostatic-plasticity, critical-period, microglia]
 prerequisites: [pv-interneurons, synaptic-transmission]
 opens_questions: [Q-ei-balance-02, Q-pnn-human-therapy, Q-cp-04]
-source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942", "PMID:12424383", "PMID:22764251", "PMID:33293360", "PMID:34045309"]
+source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-08-07-pnn-sulfation-otx2-molecular-brakes]
+key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942", "PMID:12424383", "PMID:16709670", "PMID:20566484", "PMID:22246436", "PMID:22764251", "PMID:33293360", "PMID:34045309"]
+related: [pv-interneurons, ei-balance, synaptic-pruning, adult-neurogenesis, bdnf, homeostatic-plasticity, critical-period, microglia, otx2, cspg-sulfation-code, iplasticity]
 ---
 
 # 围神经元网 (Perineuronal Nets, PNNs)
@@ -24,21 +25,24 @@ key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942"
 
 我们现在认为，围神经元网不是静态的"胶水"，而是**主动维持回路稳定性的可逆分子刹车**。PNNs 的特异性沉积在 PV+ 中间神经元周围（而非其他神经元类型），反映了发育关键期关闭的精准执行机制。
 
-**PNNs 的组成**（Mueller-Buehl & Faissner 2023，PMID:37143468）：
-- **核心结构**：硫酸软骨素蛋白多糖（CSPGs），以 aggrecan 为主要成分（brevican、neurocan、versican 为次要成分）
-- **骨架**：透明质酸（hyaluronan）链，与 CSPGs 和连接蛋白（link proteins）共同形成三维网状结构
-- **特征分子**：高度硫酸化的硫酸软骨素链，硫酸化模式（4-硫酸化 vs 6-硫酸化）决定其功能
+**PNNs 的组成**（Carulli & Verhaagen 2021, PMID:33670945；Mueller-Buehl & Faissner 2023, PMID:37143468）：
+- **骨架**：透明质酸（hyaluronan）链，由 HAS2/HAS3 合成酶在神经元细胞表面聚合
+- **核心结构**：硫酸软骨素蛋白多糖（CSPGs），以 **aggrecan** 为主要成分（brevican、neurocan、versican 为次要成分），通过非共价键与透明质酸结合
+- **结构交联**：**连接蛋白（Crtl1/Hapln1）**将 CSPGs 牢固锚定在透明质酸链上，维持 PNN 的致密三维蜂窝结构（此步骤是 PNN 功效的关键：Crtl1 KO 小鼠 CSPG 量正常但 PNN 结构减弱，成年 OD 可塑性完全持续，Carulli et al. 2010, PMID:20566484）
+- **封端**：肌腱蛋白-R（tenascin-R），稳定整个网络的空间构型
+- **特征分子**：高度硫酸化的硫酸软骨素链，**4-O / 6-O 硫酸化比值（4S/6S 比值）**决定其功能（见 [[cspg-sulfation-code]]）
 
 **关键期关闭的 PNN 机制**：在视觉皮层，关键期（眼优势可塑性窗口）的高峰期约在鼠出生后 P25–P35（小鼠），此后随 PNNs 沉积密度增加，可塑性逐渐降低。Takesian & Hensch（2013，PMID:24309249）指出，大脑不是"被动失去可塑性"，而是"主动关闭可塑性"——PNNs 是这一主动过程的关键分子工具。
 
 ## 关键机制
 
 ### 机制 1：OTX2 正反馈回路（PV 成熟的加速器）
-1. 视网膜（眼睛）分泌的转录因子 OTX2 通过血液和 CSF 到达大脑
-2. OTX2 通过结合 PNNs 的硫酸软骨素链被 PV+ 细胞**选择性内化**
-3. 胞内 OTX2 激活 Kv3.1（钾通道基因），增强 PV+ 细胞快放电能力
-4. 更成熟的 PV+ 细胞产生更多 PNN 组分 → PNN 更致密 → 关键期加速关闭
-5. 关键实验证据：人工向视觉皮层输注 OTX2 可提前关闭关键期；清除 OTX2 可延迟关闭
+1. 视网膜节细胞和脉络丛分泌的转录因子 OTX2 通过血液和 CSF 到达大脑
+2. OTX2 的 **15 氨基酸 RK 肽域**（富含精氨酸-赖氨酸）以高亲和力（CS-D: Kd=17.9nM，CS-E: Kd=54.5nM）特异结合 PNN 中的 **CS-D 和 CS-E** 双硫酸化序列，被 PV+ 细胞**选择性捕获内化**（Beurdeley et al. 2012, PMID:22764251）
+3. 胞内 OTX2 激活 Kv3.1（钾通道基因）、VGAT 等基因，增强 PV+ 细胞快放电能力
+4. OTX2 还通过 **Gadd45b/g** 介导 DNA 去甲基化，建立长期表观遗传状态（Apulei et al. 2019, PMID:29771284）
+5. 更成熟的 PV+ 细胞产生更多 aggrecan → PNN 更致密 → 捕获更多 OTX2 → 正反馈加速关键期关闭
+6. **硫酸化密码的自动关闭**：随发育 4S/6S 比值升高（见 [[cspg-sulfation-code]]）→ CS-D/E 比例相对降低 → PNN 对 OTX2 亲和力自然下降 → OTX2 输入减少 → 关键期逐渐关闭（Miyata & Kitagawa 2012, PMID:22246436）
 
 ### 机制 2：AMPA 受体固化（突触权重锁定）
 - 正常情况下，突触 AMPA 受体在突触位点（固定态）和树突膜非突触区域（扩散态）之间动态流动
@@ -83,6 +87,9 @@ key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942"
 - [[synaptic-pruning]] — 发育期突触剪枝与 PNN 沉积在时间上协同，共同建立成年回路
 - [[bdnf]] — BDNF 可促进 PV 细胞分化和 PNN 形成；aggrecan-PTPσ 轴抑制 TRKB（BDNF 受体）进入 PV+ 细胞
 - [[critical-period]] — PNN 是关键期关闭的主刹车；ChABC 降解 PNN 可重开关键期
+- [[otx2]] — OTX2 经 PNN 的 CS-D/E 捕获机制进入 PV 细胞；硫酸化密码控制捕获效率
+- [[cspg-sulfation-code]] — CS 硫酸化模式（4S/6S 比值）是 PNN 功能状态的分子量尺
+- [[iplasticity]] — ChABC（PNN 降解）和氟西汀均通过解除 PTPσ-TrkB 压制实现成年可塑性重开
 
 ## 未解问题
 
@@ -94,8 +101,10 @@ key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942"
 
 - 2026-07-04 · 创建 · 基于《信号与噪声之间：皮层 E/I 平衡的回路逻辑》一文 · 初始置信度：高（动物证据强；人类转化有限）
 - 2026-06-03 · 修订 rev2 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增机制3（PTPσ-TRKB 轴统一 ChABC/氟西汀机制，Lesnikova 2021）；新增成年 PNN 动态调节证据（Devienne 2021）；补充 critical-period 链接
+- 2026-08-07 · 修订 rev3 · 基于《围神经元网的分子密码》(#107) · 新增：(1) PNN 分子组成细节（骨架+CSPG+连接蛋白+tenascin-R，Carulli 2021）；(2) Crtl1 KO 关键实验（结构致密性而非 CSPG 量决定 PNN 功效，Carulli 2010, PMID:20566484）；(3) 硫酸化密码机制（4S/6S 比值自动控制 OTX2 捕获效率，Miyata 2012, PMID:22246436）；(4) OTX2 的 RK 肽域精确结合 CS-D/E 的分子细节（Kd=17.9nM，Beurdeley 2012）；(5) Gadd45b 表观遗传下游（Apulei 2019）；(6) 连接节新增 otx2、cspg-sulfation-code、iplasticity；related 和 key_sources 同步更新
 
 ## 来源文章
 
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-06-03-critical-period-plasticity]]
+- [[2026-08-07-pnn-sulfation-otx2-molecular-brakes]]

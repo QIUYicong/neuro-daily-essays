@@ -837,3 +837,7 @@
 **新增开放问题**：Q-axon-guidance-01（体内梯度测量）、Q-axon-guidance-02（物种差异）、Q-axon-guidance-03（多信号整合）
 
 **月度视角**：8月主题演进——#100（小脑LTD分子机制，synaptic层）→ #101（DMN自我模型，whole-brain-network层）→ #102（工作记忆神经密码，cellular/cognition层）→ #103（轴突导向发育布线，molecular/cellular层）。层级在分子、细胞、系统、认知之间有节奏地切换，保持了课程脊柱各章的均衡推进。
+
+### 2026-08-07（#107）围神经元网的分子密码
+
+今日深入了 PNN 分子机制的两个关键层：(1) 硫酸化密码——4S/6S 比值是关键期关闭的化学开关，C6ST 过表达可维持幼年可塑性（Miyata 2012）；(2) OTX2 非细胞自主信号——视网膜分泌的 OTX2 经 RK 肽域-CS-D/E 结合被 PV 细胞捕获，OTX2 GAG 结合域突变导致 V1/A1/mPFC 关键期同步延迟（Lee & Hensch 2017）。ChABC 和氟西汀均通过解除 PTPσ 对 PV 细胞 TrkB 的压制实现成年可塑性重开（Lesnikova 2021）——"iPlasticity"概念统一了 ECM 操控和药理学两条路径。新建 wiki 页面：otx2、cspg-sulfation-code、iplasticity（共 3 页）；修订：critical-period rev3、perineuronal-nets rev3、pv-interneurons rev5。

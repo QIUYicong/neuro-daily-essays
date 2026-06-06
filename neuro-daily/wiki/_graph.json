@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "node_count": 203,
   "edge_count": 1179,
   "edge_types": [
@@ -1975,6 +1975,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/gephyrin-scaffold.md"
+    },
+    {
+      "id": "otx2",
+      "title": "OTX2 同源蛋白",
+      "domain": "concepts",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/otx2.md"
+    },
+    {
+      "id": "cspg-sulfation-code",
+      "title": "硫酸软骨素硫酸化密码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cspg-sulfation-code.md"
+    },
+    {
+      "id": "iplasticity",
+      "title": "iPlasticity（诱导性可塑性）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/iplasticity.md"
     }
   ],
   "edges": [
@@ -8726,6 +8753,91 @@
       "from": "axon-guidance",
       "to": "neuroligin-neurexin",
       "type": "related"
+    },
+    {
+      "from": "otx2",
+      "to": "perineuronal-nets",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "otx2",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "otx2",
+      "to": "critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "otx2",
+      "to": "cspg-sulfation-code",
+      "type": "related"
+    },
+    {
+      "from": "cspg-sulfation-code",
+      "to": "perineuronal-nets",
+      "type": "part-of"
+    },
+    {
+      "from": "cspg-sulfation-code",
+      "to": "otx2",
+      "type": "regulates"
+    },
+    {
+      "from": "cspg-sulfation-code",
+      "to": "critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "iplasticity",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "iplasticity",
+      "to": "perineuronal-nets",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "iplasticity",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "iplasticity",
+      "to": "bdnf",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "otx2",
+      "type": "supports"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "cspg-sulfation-code",
+      "type": "is-a"
+    },
+    {
+      "from": "critical-period",
+      "to": "otx2",
+      "type": "supports"
+    },
+    {
+      "from": "critical-period",
+      "to": "cspg-sulfation-code",
+      "type": "supports"
+    },
+    {
+      "from": "critical-period",
+      "to": "iplasticity",
+      "type": "related"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "otx2",
+      "type": "supports"
     }
   ],
   "dangling_references": [

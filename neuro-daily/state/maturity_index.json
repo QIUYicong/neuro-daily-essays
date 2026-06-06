@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-07",
   "levels": [
     "speculative",
     "emerging",
@@ -639,6 +639,30 @@
       "supporting_sources": 4,
       "last_status_change": "2026-08-05",
       "reason": "创建 2026-08-05（文章 #104）。MICrONS 2025 首次直接验证结构预测功能（功能调谐相似性→突触连接概率）；Vishwanathan 2024 的斑马鱼案例提供更完整的结构→预测→验证闭环。但 C.elegans 40年教训（完整连接组仍无法完全预测行为）和神经调质的动态调制说明结构预测不完整。主流框架但有重要限制 → mainstream/medium。"
+    },
+    {
+      "slug": "otx2",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-08-07",
+      "reason": "创建 2026-08-07（文章 #107）。OTX2 非细胞自主转移到 PV 细胞的机制有多个高质量收敛证据：Beurdeley 2012（体外结合 Kd + 体内 RK 肽实验）、Lee & Hensch 2017（遗传敲入 + 多脑区同步延迟）、Apulei 2019（Gadd45b 表观遗传下游）。established 因为核心机制多实验室多方法验证；注：主要证据来自啮齿类，人类直接验证仍缺（此点在 Q-pnn-otx2-01 追踪）。"
+    },
+    {
+      "slug": "cspg-sulfation-code",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-08-07",
+      "reason": "创建 2026-08-07（文章 #107）。4S/6S 比值控制关键期时序的核心证据：Miyata 2012（C6ST 过表达转基因 = 功能性因果证据）+ Beurdeley 2012（体外 SPR 显示 OTX2 优先结合 6-O 硫酸化序列）+ 多篇综述引用发育时序数据。established（转基因功能实验直接证明因果方向）；注：Miyata 2012 主要来源为摘要阅读，未读全文。"
+    },
+    {
+      "slug": "iplasticity",
+      "status": "emerging",
+      "confidence": "medium",
+      "supporting_sources": 4,
+      "last_status_change": "2026-08-07",
+      "reason": "创建 2026-08-07（文章 #107）。ChABC 和氟西汀通过 PTPσ-TrkB 轴重开成年可塑性有强力啮齿类证据（Lesnikova 2021）；'药物+训练'配对策略有动物行为证据；但人类临床应用证据尚不完整，iPlasticity 作为统一框架的临床有效性处于 emerging 阶段。"
     }
   ],
   "entries": [

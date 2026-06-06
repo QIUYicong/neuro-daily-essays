@@ -2148,3 +2148,25 @@
 **登记或裁决矛盾：** 无。Q-wm-active-vs-silent 从"开放"标注为"部分解答（Panichello 2024）"，尚未完全裁决。
 
 **新增悬空引用：** 无新增。原有悬空引用（motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba）待后续填补。
+
+---
+
+## 2026-08-07（文章 #107：围神经元网的分子密码）
+
+**今日主题：** PNN 的硫酸化密码（4S/6S 比值）与 OTX2 非细胞自主信号轴——视觉皮层关键期精准门控的分子机制
+
+**新建 wiki 页面（3 个）：**
+- `wiki/concepts/otx2.md`（rev1，established/high）：OTX2 非细胞自主关键期信号；RK 肽域-CS-D/E 结合机制（Beurdeley 2012）；跨脑区同步功能（Lee & Hensch 2017）；Gadd45b 表观遗传下游（Apulei 2019）
+- `wiki/concepts/cspg-sulfation-code.md`（rev1，established/high）：CS 硫酸化密码；4S/6S 比值作为关键期分子开关（Miyata 2012）；CS-D/E 作为 OTX2 高亲和力结合位点
+- `wiki/concepts/iplasticity.md`（rev1，emerging/medium）：诱导性可塑性概念；ChABC/氟西汀通过 PTPσ-TrkB 轴实现成年可塑性重开；"药物+训练"配对原则
+
+**修订 wiki 页面（3 个）：**
+- `wiki/concepts/critical-period.md`（rev2→rev3）：新增 CS 硫酸化密码作为关键期关闭化学基础（Miyata 2012）；OTX2 跨脑区同步效应（Lee & Hensch 2017）；OTX2 → Gadd45b 表观遗传通路（Apulei 2019）；related 新增 otx2、cspg-sulfation-code、iplasticity
+- `wiki/concepts/perineuronal-nets.md`（rev2→rev3）：PNN 分子组成细节（骨架+连接蛋白+tenascin-R）；Crtl1 KO 结构证据（Carulli 2010）；OTX2 RK 肽域精确结合细节（Kd=17.9nM）；硫酸化密码与自动关闭机制；related 新增 otx2、cspg-sulfation-code、iplasticity
+- `wiki/circuits/pv-interneurons.md`（rev4→rev5）：OTX2 RK 域-CS-D/E 结合机制；OTX2 → Gadd45b/g 表观遗传下游；Lee & Hensch 2017 跨脑区延迟证据
+
+**图谱状态：** 221 节点（+3），1266 条边（+17）
+
+**登记或裁决矛盾：** 无新矛盾（今日文献结论高度一致；Miyata 2012 硫酸化因果方向存在方法学讨论，但主流证据支持作为原因而非纯结果，暂不登记为 contested）
+
+**新增悬空引用：** 无（新页 otx2/cspg-sulfation-code/iplasticity 均已创建；旧有悬空引用无变化）

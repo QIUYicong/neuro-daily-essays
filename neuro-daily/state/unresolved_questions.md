@@ -2843,3 +2843,35 @@
 - **来源文章**：2026-08-03-working-memory-neural-code-debate
 - **问题**：Panichello 2024 在猕猴中记录。Kamiński & Rutishauser 2019 的人类 iEEG 数据主要来自海马（海马神经元表现出持续活动），而非 dlPFC。问题：(a) 人类 dlPFC 单神经元 iEEG 是否也呈现 On/Off 结构？(b) 人类 dlPFC 的 On 态频率和 Off 态时长是否与猕猴相似（或有物种差异，人类 dlPFC 更大→更长 On 态？）(c) ADHD 和精神分裂症患者的 On/Off 比例异常能否被检测？
 - **当前证据状态**：猕猴 On/Off（高）；人类 dlPFC On/Off（无直接单细胞证据）；精神分裂症/ADHD On/Off（无数据）
+
+---
+
+## 2026-08-07 新增（来自"围神经元网的分子密码"文章 #107）
+
+### Q-pnn-otx2-01（高优先级）：OTX2 非细胞自主转移在人类发育的直接证据
+
+- **关联 wiki**：[[otx2]]、[[critical-period]]、[[perineuronal-nets]]
+- **来源文章**：2026-08-07-pnn-sulfation-otx2-molecular-brakes
+- **问题**：几乎所有 OTX2 非细胞自主转移证据来自啮齿类（Beurdeley 2012、Lee & Hensch 2017 等均为鼠模型）。人类视网膜是否分泌 OTX2 进入 CSF？人类 V1 PV 细胞是否通过相同的 RK-CS-D/E 机制捕获 OTX2？人类 PNN 的硫酸化时序是什么？可能通过死后人脑 CS-D/E 免疫组化、或人类 CSF 中 OTX2 浓度测量（质谱/ELISA）获得初步证据。
+- **当前证据状态**：啮齿类直接证据（高）；人类间接/推断证据（低）
+
+### Q-pnn-otx2-02（中优先级）：PNN 硫酸化的非侵入性活体成像
+
+- **关联 wiki**：[[cspg-sulfation-code]]、[[perineuronal-nets]]
+- **来源文章**：2026-08-07-pnn-sulfation-otx2-molecular-brakes
+- **问题**：4S/6S 比值是关键期状态的分子指示物。能否用非侵入性方法在活体人脑中测量 PNN 硫酸化状态？化学交换饱和转移 MRI（CEST-MRI）对某些糖胺聚糖有信号敏感性——是否可以开发针对 4-O vs 6-O 硫酸化的 CEST 序列？这将为弱视、精神疾病等 PNN 异常疾病提供活体可塑性生物标志物。
+- **当前证据状态**：CEST-MRI 对糖胺聚糖有一般信号（中）；特异性 4S/6S 区分尚无报道
+
+### Q-pnn-otx2-03（中优先级）：非视觉脑区的关键期同步信号
+
+- **关联 wiki**：[[otx2]]、[[critical-period]]
+- **来源文章**：2026-08-07-pnn-sulfation-otx2-molecular-brakes
+- **问题**：Lee & Hensch 2017 证明 OTX2（视网膜来源）也同步延迟了听觉皮层和前额叶皮层的关键期。但对于远离视觉系统的脑区（如 mPFC），视网膜 OTX2 的贡献比例有多大？是否存在其他脑区特异性的非细胞自主同源蛋白（如 Engrailed-1/2 在小脑，其他分泌性同源蛋白在听觉/前额叶）？还是所有脑区关键期都主要依赖同一个视网膜 OTX2 广播？
+- **当前证据状态**：OTX2 跨脑区效应有遗传实验证明（高）；其他脑区特异性同步信号（低，推测）
+
+### Q-pnn-otx2-04（中优先级）：氟西汀 TrkB 效应与 5-HT 效应的临床解偶联
+
+- **关联 wiki**：[[iplasticity]]、[[critical-period]]、[[serotonin-raphe-system]]
+- **来源文章**：2026-08-07-pnn-sulfation-otx2-molecular-brakes
+- **问题**：Lesnikova & Castrén 2021 证明氟西汀通过结合 TrkB 跨膜域（而非 5-HT 再摄取抑制）重开视皮层可塑性。但临床中，氟西汀同时具有 5-HT 效应和 TrkB 效应。问题：(a) 临床有效剂量的氟西汀是否在人类视觉或认知皮层产生可测量的 iPlasticity 效应？(b) 新型 TrkB 激动剂（如 7,8-二羟基黄酮 7,8-DHF）是否能在无 5-HT 副作用的情况下更纯粹地产生 iPlasticity 效应用于弱视治疗？(c) 氟西汀的"关键期重开"机制是否可以解释其在学习和认知增强方面（而非单纯抗抑郁）的部分临床效果？
+- **当前证据状态**：氟西汀通过 TrkB 重开 V1 可塑性（啮齿类高）；人类临床 iPlasticity 证据（低，间接）；TrkB 选择性激动剂比较（无直接对照研究）
