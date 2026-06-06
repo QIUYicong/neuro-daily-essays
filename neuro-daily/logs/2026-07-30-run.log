@@ -81,4 +81,5 @@
 - 分支：main
 - Remote：http://local_proxy@127.0.0.1:40525/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
 - Commit message：Add neuro daily article + wiki consolidation for 2026-07-30
-- Push 状态：[见 commit hash]
+- Commit hash：5764177
+- Push 状态：成功推送至 origin/main（17a51c5 → 5764177）
