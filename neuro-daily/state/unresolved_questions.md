@@ -2843,3 +2843,42 @@
 - **来源文章**：2026-08-03-working-memory-neural-code-debate
 - **问题**：Panichello 2024 在猕猴中记录。Kamiński & Rutishauser 2019 的人类 iEEG 数据主要来自海马（海马神经元表现出持续活动），而非 dlPFC。问题：(a) 人类 dlPFC 单神经元 iEEG 是否也呈现 On/Off 结构？(b) 人类 dlPFC 的 On 态频率和 Off 态时长是否与猕猴相似（或有物种差异，人类 dlPFC 更大→更长 On 态？）(c) ADHD 和精神分裂症患者的 On/Off 比例异常能否被检测？
 - **当前证据状态**：猕猴 On/Off（高）；人类 dlPFC On/Off（无直接单细胞证据）；精神分裂症/ADHD On/Off（无数据）
+
+---
+
+## 2026-08-07 新增（来自"大脑的删除艺术：突触修剪"文章 #106）
+
+### Q-pruning-04（高优先级）：SRPX2-CD47 通路串扰与 NL-NRXN 接合的共同节点
+
+- **关联 wiki**：[[synaptic-pruning]]、[[synaptogenesis]]、[[neuroligin-neurexin]]
+- **来源文章**：2026-08-07-synaptic-pruning-complement-autism-schizophrenia
+- **问题**：SRPX2 优先保护 VGluT2+ 谷氨酸能突触，CD47 在活跃突触高表达。若 NL-NRXN 接合强度（突触生成步骤）能同时上调 CD47 或 SRPX2 的局部表达，则突触生成和修剪共享分子节点——强接合的突触不只是"建好了"，还同时获得了"不被删除"的保护标记。具体：(a) NL3 或 NRXN1β 的敲除是否影响邻近突触的 CD47 表面表达量？(b) NLGN-NRXN 接合后的细胞内信号级联（如 PSD-95 → CaMKII 激活）是否能触发 CD47 的膜插入或 SRPX2 的局部分泌？(c) 若是，则 ASD 中 NLGN3 R451C 突变的致病机制可能同时包含"突触装配缺陷"和"保护信号丢失"两个层面。
+- **当前证据状态**：SRPX2 和 CD47 各自的机制（高）；NL-NRXN 接合与 CD47/SRPX2 的串扰（缺失）
+- **为什么重要**：若串扰成立，将统一突触生成和修剪的分子逻辑，即"强接合 = 强建造 + 强保护"的自强化机制；也将为 ASD 多突变亚型的共同通路提供新框架
+
+### Q-pruning-05（中优先级）：精神分裂症成年期的补体修剪活性
+
+- **关联 wiki**：[[synaptic-pruning]]、[[complement-cascade-cns]]
+- **来源文章**：2026-08-07-synaptic-pruning-complement-autism-schizophrenia
+- **问题**：精神分裂症最明确的遗传机制（Sekar 2016）将病理指向青春期前额叶过度修剪。但这是否意味着损伤是"一次性"的？还是 C4A 过度激活持续存在于成年？具体：(a) 精神分裂症患者（20-40 岁）的 CSF 中，C3 裂解产物（iC3b 或 C3a）水平是否高于健康对照？(b) 精神分裂症患者死后脑组织中，成年期 C1q 突触定位密度是否仍高于对照？(c) 若成年期修剪仍活跃，则 ANX005（抗 C1q 人源化抗体）的 II 期临床试验（Annexon Biosciences，目前针对 AD 的试验设计）是否值得扩展到精神分裂症成年患者群体？
+- **当前证据状态**：青春期损伤证据（高）；成年期持续活跃（弱，几乎无直接数据）
+
+### Q-complement-02（中优先级）：SRPX2 选择性保护 VGluT2+ 突触的分子基础
+
+- **关联 wiki**：[[complement-cascade-cns]]、[[synaptic-pruning]]、[[ei-balance]]
+- **来源文章**：2026-08-07-synaptic-pruning-complement-autism-schizophrenia
+- **问题**：Cong 2020 显示 SRPX2 缺失主要影响 VGluT2+ 谷氨酸能突触（而非 GABAergic）。但 SRPX2 本身是分泌蛋白，不进入突触前末梢——其选择性保护机制是什么？(a) SRPX2 的配体（C1q 结合位点）是否在 VGluT2+ 末梢周围浓度更高（因为这类末梢分泌了更多可与 C1q 结合的表面分子）？(b) SRPX2 的 mRNA 是否在谷氨酸能神经元中特异性高表达（单细胞转录组数据是否支持）？(c) GABA 能突触修剪若使用不同的"吃我"信号（GABA 激活小胶质 GABA 受体；Favuzzi 2021），那么 SRPX2 对抑制性突触的保护缺失是否与这一独立通路有关？
+- **当前证据状态**：现象描述（高，SRPX2 KO 选择性影响 VGluT2+）；机制（缺失）
+
+### Q-asd-01（高优先级）：ASD 不同遗传亚型的突触密度方向性
+
+- **关联 wiki**：[[autism-spectrum-disorder]]、[[synaptic-pruning]]
+- **来源文章**：2026-08-07-synaptic-pruning-complement-autism-schizophrenia
+- **问题**：16p11.2 缺失→CD47 缺陷→修剪不足→突触密度↑。但 NLGN3 R451C 和 SHANK3 缺失的神经生理效应不一（有些 E/I 比下降，有些上升）。核心问题：是否存在一套共同的 ASD 突触密度表型（over-synapsed），还是不同遗传亚型可以有相反的突触密度方向（一些 under-pruned = 过多；一些 over-pruned = 过少）？若方向性相反，则"ASD = 修剪不足"是一个过度简化。候选方法：多遗传亚型 ASD 小鼠系统性比较突触密度（电镜 + 突触标记蛋白量化）。
+
+### Q-asd-02（中优先级）：CD47 通路在非 16p11.2 ASD 亚型中的普遍性
+
+- **关联 wiki**：[[autism-spectrum-disorder]]、[[complement-cascade-cns]]
+- **来源文章**：2026-08-07-synaptic-pruning-complement-autism-schizophrenia
+- **问题**：PNAS 2025 的 CD47 感知障碍数据来自 16p11.2 缺失小鼠。16p11.2 缺失区域包含 100+ 基因，CD47 通路受损可能是多个基因共同作用的结果。(a) NLGN3 R451C、SHANK3 KO 或 SYNGAP1 单倍剂量不足小鼠中，小胶质细胞的 CD47 感知是否也受损？(b) 若 CD47-SIRPα 轴在 ASD 中普遍受损，CD47 激动抗体（恢复 SIRPα 抑制信号）能否改善多种 ASD 小鼠模型的社交行为？(c) 人类 ASD 脑组织（尸检）中，小胶质细胞 SIRPα 的表达量和磷酸化状态是否与对照有差异？
+- **当前证据状态**：16p11.2 CD47 机制（中高）；其他 ASD 亚型普遍性（缺失）

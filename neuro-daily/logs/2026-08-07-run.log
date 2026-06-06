@@ -1,0 +1,136 @@
+# 运行日志 · 2026-08-07（知识库虚拟日期）
+
+**真实执行日期**：2026-06-07（系统时钟 UTC+8）
+**文章编号**：#106
+**运行状态**：✅ 成功
+
+---
+
+## 0. 环境初始化
+
+- 系统时钟 UTC+8：2026-06-07 00:00:02 CST（启动时）
+- 知识库虚拟日期：2026-08-07（接续上次 2026-08-06 #105）
+- 分支：main（从 origin/main 拉取，Fast-forward 到 dc566bd）
+- ROUTINE.md：已读取 ✓
+- KNOWLEDGE-BASE-DESIGN.md：已读取 ✓
+- Git 作者配置：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json：88 条目，最新 2026-08-06（#105 突触生成）
+- unresolved_questions.md：最新更新 2026-08-06，已有 Q-synaptogenesis-01/02/03
+- contested_claims.json：7 条 open（C-2026-05-24-01 至 C-2026-07-11-01）
+- _graph.json（读取前）：218 节点，1249 边
+- 悬空引用（dangling references）：autism-spectrum-disorder, cognition, deep-cerebellar-nuclei, gaba, inferior-olive, motor-learning（共 6 个）
+- 高连接度低置信节点：predictive-coding（48边，medium），competition-selection-principle（22边，medium）
+
+---
+
+## B. 选题决策
+
+**优先级分析**：
+1. 突破追踪：无重大新突破（2026-08-07 范围内未发现近 7 天 Nature/Science 大文章）
+2. 裁决矛盾：7 条 open，但今日证据不足以裁决（LHb/C-07-11-01 需要专项文章）
+3. 填补悬空引用：**autism-spectrum-disorder** 是最适合当日主题的悬空引用
+4. 加深前沿：predictive-coding 已在多篇文章涉及，今日主题与之无直接关联
+5. 课程脊柱：第 11 条"疾病作为窗口"——ASD 尚未有独立页面
+
+**选题**：突触修剪的补体-小胶质机制（自然续接 #105 突触生成）+ autism-spectrum-disorder 悬空填补
+**层级**：disease + molecular + cellular（与前三篇 cognitive/methods/molecular 形成层级切换）
+**核心问题**：补体 C1q/C3b 如何标记弱突触？CD47/SRPX2 如何保护强突触？精神分裂症（C4A 过激活）与 ASD（CD47 缺陷）的镜像失调
+
+---
+
+## C. 文献检索
+
+**搜索词（共 5 轮）**：
+1. `synaptic pruning complement C1q C3 microglia mechanism review 2024 2025`
+2. `synaptic pruning autism schizophrenia complement system neural development 2025`
+3. `Stevens complement C1q synaptic pruning retinogeniculate 2007 PMID landmark paper`
+4. `Sekar C4 complement gene schizophrenia 2016 Nature PMID synaptic pruning GWAS`
+5. `CD47 don't eat me synapse protection active synapses SRPX2 complement inhibitor`
+
+**全文来源读取**：
+- PMC9066608（2022 Frontiers 综述）：全文 ✓
+- PMC11876149（2025 glia-to-glia 综述）：全文 ✓
+- PMC7483802（Cong 2020 SRPX2 Nat Neurosci）：全文 ✓
+- Frontiers Syn Neurosci 2025（schizophrenia pruning 综述）：全文 ✓
+
+**采用来源（9 个）**：
+| 来源 | PMID/PMCID | 全文 |
+|------|-----------|------|
+| Stevens 2007 Cell | PMID:18083105 | OA ✓ |
+| Schafer 2012 Neuron | PMID:22632727 | PMC ✓ |
+| Sekar 2016 Nature | PMID:26814963 | OA ✓ |
+| Lehrman 2018 Neuron | PMID:30308165 | PMC ✓ |
+| Cong 2020 Nat Neurosci | PMID:32661396 | PMC ✓ |
+| Review 2022 Frontiers | PMCID:PMC9066608 | OA ✓ |
+| Review 2025 PMC | PMCID:PMC11876149 | OA ✓ |
+| Frontiers Syn Neurosci 2025 | doi:10.3389/fnsyn.2025.1656232 | OA ✓ |
+| PNAS 2025 CD47 autism | doi:10.1073/pnas.2411080122 | OA ✓ |
+
+**排除来源**：
+- Nature Reviews Immunology 2021（s41577-021-00621-z）：需要登录，无法访问全文（已用标题搜索补充信息）
+- PNAS 2020（2010281117）：403 Forbidden（已用 web search 补充摘要信息）
+
+---
+
+## D. 固结步骤
+
+**触及的主要概念 slug**：synaptic-pruning, complement-cascade-cns, autism-spectrum-disorder, CD47, SRPX2, C1q, C3b, CR3, critical-period, synaptogenesis, schizophrenia（无单独页面，内容整合到 ASD 对比表）
+
+**Wiki 页面处理**：
+1. `wiki/concepts/synaptic-pruning.md` → **修订**（rev1→rev2）：添加 SRPX2 机制段落；胶质-胶质 5-HT 门控；3 条新证据表；Q-pruning-04/05；updated frontmatter
+2. `wiki/concepts/complement-cascade-cns.md` → **修订**（rev1→rev2）：活动依赖调节扩充为三方博弈（CD47+SRPX2+C3b/PS）；V1 ODP 异质性注记；Q-complement-02
+3. `wiki/diseases/autism-spectrum-disorder.md` → **新建**（rev1）：填补悬空引用；三大通路；精神分裂症镜像对比；confidence=medium
+
+**矛盾检查**：无新矛盾。SRPX2 优先保护 VGluT2+ 与既有内容兼容（补充细节，无冲突）。V1 ODP 不依赖 C1q 是新添加的"异质性注记"，不触碰既有主张。
+
+---
+
+## E. 图谱更新
+
+- 新增节点：1（autism-spectrum-disorder）
+- 新增边：6（autism → synaptic-pruning, synaptogenesis, neuroligin-neurexin, ei-balance；synaptic-pruning → autism；complement-cascade-cns → autism）
+- 读取后：219 节点，1255 边
+- 悬空引用填补：autism-spectrum-disorder ✓（残余：deep-cerebellar-nuclei, gaba, inferior-olive, motor-learning, cognition）
+
+---
+
+## F. 治理层
+
+- topic_ledger.json：追加 #106 条目（total=89）
+- unresolved_questions.md：新增 5 条（Q-pruning-04/05, Q-complement-02, Q-asd-01/02）
+- source_registry.json：新增 5 条（total=408）
+- maturity_index.json：新建 autism-spectrum-disorder 条目；更新 synaptic-pruning/complement-cascade-cns 条目
+- monthly_synthesis.md：追加 #106 摘要
+- wiki/index.md：diseases 节新增 ASD 页面；课程进度更新
+- wiki/CHANGELOG.md：追加 2026-08-07 节
+
+---
+
+## G. 提交 + 推送
+
+- commit 命令：`git add neuro-daily/ && git commit -m "Add neuro daily article + wiki consolidation for 2026-08-07"`
+- 推送：`git push origin main`
+- 推送状态：[在 git 操作步骤中填写]
+- branch：main
+
+---
+
+## H. 自检
+
+**真实性**：✓ 所有 wiki 新主张均有 PMID/DOI 来源；区分了事实（Stevens 2007 C1q KO 表型，高）与推测（SRPX2-NL-NRXN 串扰，待验证）；没有把小鼠研究直接写成人类定论
+**一致性**：✓ 无矛盾被静默覆盖；修订页面的 updated/revision_count/修订历史全部同步；_graph.json 无新悬空边（autism-spectrum-disorder 节点已建）
+**可导航**：✓ index.md 和 CHANGELOG.md 反映了今天变化；新页面 related/prerequisites 各≥1
+**情景层**：✓ articles/notes/sources/logs 齐全；未改动旧文件
+
+---
+
+## 局限与失败
+
+- Nature Reviews Immunology 2021 全文不可访问（需认证）→ 已通过 web search 获取足够摘要信息，未显著影响文章质量
+- PNAS 2020 全文 403 → 同上
+- 当前 ASD 机制描述主要基于特定遗传亚型（16p11.2 缺失），其他亚型证据较弱；文章中已明确标注异质性

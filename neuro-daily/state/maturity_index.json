@@ -1,1353 +1,489 @@
-{
-  "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-08-05",
-  "levels": [
-    "speculative",
-    "emerging",
-    "mainstream",
-    "established",
-    "contested"
-  ],
-  "pages": [
-    {
-      "slug": "thalamus",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 8,
-      "last_status_change": "2026-06-03",
-      "reason": "创建 2026-06-03（文章 #66）。视丘解剖学和基本功能（双模放电、TRN）是教科书级共识；MD-PFC 轴、Pulvinar 门控 V1、CM-Pf 与意识均有多个因果性或系统综述证据支持。established 而非 mainstream 因为基础回路机制极为清晰，高次视丘核认知功能是近年更好建立的领域。"
-    },
-    {
-      "slug": "thalamic-firing-modes",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-06-03",
-      "reason": "创建 2026-06-03（文章 #66）。T型Ca²⁺通道介导的tonic/burst双模放电是20年以上多实验室验证的教科书知识；清醒动物的功能性爆发由Borden 2022（PMID:35803270）因果证明；信息论分析由Zeldenrust 2018支持。established。"
-    },
-    {
-      "slug": "thalamocortical-circuit",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 8,
-      "last_status_change": "2026-06-03",
-      "reason": "更新 2026-06-03（文章 #66）。原始创建于2026-06-19（纺锤波文章）；本次修订新增一次/高次视丘核区分（Sherman框架）、驱动/调制型突触证据、PFC→TRN大型端钮解剖证据、Pulvinar门控V1、MD工作记忆放大。成熟度维持established，证据基础更厚实。"
-    },
-    {
-      "slug": "working-memory",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 8,
-      "last_status_change": "2026-06-03",
-      "reason": "更新 2026-06-03（文章 #66，第6次修订）。新增MD视丘对工作记忆的放大器角色（Parnaudeau 2018因果证据）；未改变成熟度（established）；增加了MD-PFC轴这一重要子系统。"
-    },
-    {
-      "slug": "neural-correlates-of-consciousness",
-      "status": "mainstream",
-      "confidence": "high",
-      "supporting_sources": 7,
-      "last_status_change": "2026-06-27",
-      "reason": "创建 2026-06-27（文章 #63）。NCC 纲领是意识科学的成熟研究框架（Crick & Koch 1990s以来），三分法（Koch 2016）是领域共识的工作概念；置信度高。成熟度 mainstream 而非 established 是因为具体机制（哪种神经活动是充分且必要条件）仍有高度争议（COGITATE 2025 结果）。"
-    },
-    {
-      "slug": "action-potential",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-24",
-      "reason": "创建 2026-05-24。教科书级共识，多重独立验证（H-H 模型 70 年持续验证）。2026-05-25：修订，补充突触传递下游连接，无成熟度变化。2026-05-26：修订，补充 bAP 在 STDP/LTP 中的作用，新增 nmda-receptor/ltp/hebbian-learning 连接。"
-    },
-    {
-      "slug": "axon-initial-segment",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 2,
-      "last_status_change": "2026-05-24",
-      "reason": "创建 2026-05-24。结构与功能由多种方法（超分辨成像、膜片钳、敲除实验）独立证实。"
-    },
-    {
-      "slug": "voltage-gated-sodium-channel",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 2,
-      "last_status_change": "2026-05-24",
-      "reason": "创建 2026-05-24。分子结构由晶体学+克隆+电生理三角验证。"
-    },
-    {
-      "slug": "hodgkin-huxley-model",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-24",
-      "reason": "创建 2026-05-24。1952 至今的奠基性框架，诺奖级，持续验证与扩展。"
-    },
-    {
-      "slug": "chandelier-cell",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": 1,
-      "last_status_change": "2026-05-24",
-      "reason": "创建 2026-05-24。靶向特异性确立，但 GABA 极性机制与疾病角色存争议（见 contested_claims C-2026-05-24-01），故置信度中。"
-    },
-    {
-      "slug": "synaptic-transmission",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 8,
-      "last_status_change": "2026-05-25",
-      "reason": "创建 2026-05-25。化学突触传递机制有Nobel Prize级证据支持（Südhof 2013）；2026-05-26 修订增加突触后受体（AMPA/NMDA）及 LTP 关联内容，丰富了后突触侧机制描述，无成熟度变化。注：SNARE就绪态分子模型存在争议（见 contested_claims C-2026-05-25-01）。"
-    },
-    {
-      "slug": "SNARE-complex",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-25",
-      "reason": "创建 2026-05-25。三蛋白四螺旋束结构由晶体学+NMR+功能学验证。就绪态SNARE的部分拉合模型有争议（见contested_claims）。"
-    },
-    {
-      "slug": "synaptotagmin",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-25",
-      "reason": "创建 2026-05-25。Syt1为快速同步释放主要钙传感器，有遗传（敲除）+结构（C2域）+电生理多维证据。Syt7的易化机制证据为中等（计算模型+部分遗传）。"
-    },
-    {
-      "slug": "active-zone",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-25",
-      "reason": "创建 2026-05-25。活动区骨架蛋白（RIM/CAST/Bassoon等）功能由遗传+超分辨成像+电生理多维证实。钙通道-囊泡距离多样性数据来自多个突触类型研究。"
-    },
-    {
-      "slug": "nmda-receptor",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-26",
-      "reason": "创建 2026-05-26。NMDA 受体结构（GluN1/GluN2 四聚体）、双重门控（Mg²⁺ 阻断 + 配体结合）、Ca²⁺ 通透性等均有晶体/冷冻电镜 + 电生理 + 遗传多维验证。GluN2 亚型多样性和 Mg²⁺ 阻断机制有精确的定量数据（IC₅₀、衰减时间常数）。LTP 诱导必需性有经典的 AP5 阻断实验确立。"
-    },
-    {
-      "slug": "ltp",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-05-26",
-      "reason": "创建 2026-05-26。CA1 LTP 机制（NMDA→CaMKII→AMPA 插入）有多重独立证据（MK-801 法、PPF 测量、单通道分析、沉默突触实验）。LTP 与苔藓纤维 LTP 的机制差异已确立。CaMKII 维持 LTP 的必要性有 2021 eLife 实验支持。L-LTP 的蛋白合成依赖性是 mainstream 而非 speculative，但长期维持机制（数十年）仍有争议。整体置信度高，但有若干开放问题。2026-06-04：修订，悬空引用 ltp-ltd 更正为 ltd（已建立页面），related 新增 calcineurin；revision_count 3→4。成熟度不变。2026-07-02（文章 #68）：修订，新增星形胶质细胞 D-丝氨酸节（Henneberger 2010 Ca²⁺钳制实验；LTP 的隐性必要条件），新增 astrocyte/tripartite-synapse/d-serine/astrocyte-calcium-signaling 连接；revision_count 9→10。成熟度不变（established/high），但补充了胶质细胞维度。"
-    },
-    {
-      "slug": "hebbian-learning",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-26",
-      "reason": "创建 2026-05-26。Hebb 规则由 NMDA 受体的双重门控机制在分子层面精确实现，这是 established。STDP 的时间依赖性规律由大量实验证实。三因素学习规则（Hebb × 多巴胺）的理论框架为 emerging-mainstream，实验证据中等。"
-    },
-    {
-      "slug": "ampa-receptor",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-05-26",
-      "reason": "创建 2026-05-26。AMPA 受体作为快速兴奋突触传递执行者是教科书级共识。LTP 期间 AMPA 受体插入的证据来自多种独立方法（静默突触、电流比例分析、单通道记录）。GluA1/GluA2 的功能差异和 TARP 锚定机制有充分的分子证据。2026-06-04：修订，新增 LTD 期间 AMPAR 内吞部分（GluA2 Ser880/PKC → PICK1、Arc/dynamin 通路、GluA2/GluA3 双敲冗余争议）；supporting_sources 3→5（新增 PMID:24183021、PMID:19169250），revision_count 1→2，related 新增 ltd/calcineurin/arc-arg31。成熟度不变。"
-    },
-    {
-      "slug": "camkii",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-26",
-      "reason": "创建 2026-05-26。CaMKII 在 LTP 诱导中的作用是经典共识（T286A 突变消除 LTP，多实验室独立验证）。CaMKII 在 LTP 维持中的必要性由 2021 Tao et al.（eLife）提供新实验支持，但亚基交换机制（长期维持解释）尚未体内验证，属 emerging。总体置信度高，但长期维持机制有开放问题。"
-    },
-    {
-      "slug": "dendritic-computation",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-05-27",
-      "reason": "创建 2026-05-27。离体 NMDA 棘波（Schiller 2000，Polsky 2004）有多实验室独立验证；体内证据（Smith 2013 视觉皮层、Bittner 2015 海马场所场）强有力；两层神经网络模型实验支持充分。悬空引用：突触聚类假说尚有争议，是主要的不确定因素，但不影响整体 established 状态。"
-    },
-    {
-      "slug": "pyramidal-neuron",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-27",
-      "reason": "创建 2026-05-27。锥体神经元的形态特征（顶端树突、基底树突、树突棘）和层次分层是神经解剖学教科书级事实。L5 PC 的顶端 Ca²⁺ 棘波（Larkum 1999/2009）有多重独立实验证实。不同层次锥体细胞的差异性功能是 mainstream 共识。"
-    },
-    {
-      "slug": "nmda-receptor",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 7,
-      "last_status_change": "2026-05-27",
-      "reason": "修订 2026-05-27（原 2026-05-26 创建）。新增'树突棘波'维度：NMDA 受体的再生性正反馈在树突细薄分支上产生 NMDA 棘波，与原有'突触 LTP 门卫'功能并存。两个功能使用同一分子，但空间（单突触 vs 整分支）和时间（ms vs 100-200 ms）尺度不同。体内视觉皮层证据（OSI 0.82→0.45）加强了置信度。"
-    },
-    {
-      "slug": "hodgkin-huxley-model",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-27",
-      "reason": "修订 2026-05-27（元数据更新）：[[树突计算]] 页面已建立，此前悬空引用填补。无成熟度变化。"
-    },
-    {
-      "slug": "place-cell",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-05-28",
-      "reason": "创建 2026-05-28。场所细胞存在有 50+ 年的多物种多实验室验证（O'Keefe 1971 诺贝尔级发现）。BTSP 单次写入机制由 Bittner 等人的胞内记录（金标准）确立，NMDA+L 型钙通道药理验证完整。主要不确定性：BTSP 是否是唯一路径（Sumegi 2025 挑战），但不影响 established 状态。"
-    },
-    {
-      "slug": "btsp",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-05-28",
-      "reason": "创建 2026-05-28。由 Bittner et al. 2017 (Science) 提出并验证：胞内记录 + 脑片 + 体内实验 + 完整药理学验证。CA3 的 BTSP 变体由 Li et al. 2024 (Cell) 确认。Milstein et al. 2021 (eLife) 验证双向 BTSP。主要不确定性：分子机制（哪个分子感受秒级窗口）尚不完全明确，但功能现象 established。"
-    },
-    {
-      "slug": "hippocampal-circuit",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 6,
-      "last_status_change": "2026-05-28",
-      "reason": "创建 2026-05-28。海马解剖回路（DG/CA3/CA1/EC 连接）是几十年解剖学和电生理研究的共识；各亚区的计算角色（模式分离/补全）有大量行为+电生理实验支持。并行回路模型（非严格串行）由 Hainmueller & Bartos 2020 综述。2026-05-29：修订，新增θ/SWR双工作模式内容（key_sources增加 Buzsáki 2013/2015）。"
-    },
-    {
-      "slug": "theta-oscillations",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-05-29",
-      "reason": "创建 2026-05-29。θ振荡的基本现象（频率、状态依赖性、MS-DBB起搏器）经过数十年多物种、多方法验证，属于教科书级共识。相位前进现象（O'Keefe & Recce 1993）经过多个实验室重复。主要不确定性：灵长类中的功能等价物（现象在人类更弱），以及θ对记忆的充分性（必要性已确认，充分性未完全建立）。整体：established，但灵长类方面证据较弱。"
-    },
-    {
-      "slug": "sharp-wave-ripples",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-05-29",
-      "reason": "创建 2026-05-29；2026-06-02 修订：[[memory-consolidation]] 页面建立，SWR 与系统巩固的三重奏嵌套（SO-spindle-SWR）机制得到充分记录；因果破坏实验（Ego-Stengel 2010, Jadhav 2012）补充为关键来源；supporting_sources 3→5，成熟度不变（established）。"
-    },
-    {
-      "slug": "phase-precession",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-05-29",
-      "reason": "创建 2026-05-29。相位前进现象由O'Keefe & Recce 1993首次报告，经过多个实验室在啮齿类和人类中重复验证，属于经典神经科学发现（2014年诺贝尔奖工作的一部分）。振荡干涉 vs 双路径输入的机制争议不影响现象本身的established状态。主要不确定性：灵长类（特别是人类）相位前进的强度和普遍性。"
-    },
-    {
-      "slug": "grid-cell",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-05-28",
-      "reason": "创建 2026-05-28。网格细胞由 Hafting et al. 2005 (Nature) 发现，随后数百项研究重复验证；共同获 2014 年诺贝尔奖。六角网格放电、路径整合能力、背腹轴间距梯度均有充分证据。主要不确定性：生成机制（振荡干涉 vs 吸引子网络），但不影响现象的 established 状态。"
-    },
-    {
-      "slug": "temporal-coding-hierarchy",
-      "status": "emerging",
-      "confidence": "medium",
-      "supporting_sources": 6,
-      "last_status_change": "2026-05-30",
-      "reason": "创建 2026-05-30（第一周综合）。这是对六篇文章机制的综合分析性框架，而非单一实验发现。各层级机制单独均有强证据（SNARE μs 精度、NMDA-LTP ms 窗口、BTSP s 窗口、θ 序列压缩、SWR 因果固化），但将它们统一为'嵌套时间编码层级'这一框架的系统性实验验证尚缺乏，故 status=emerging / confidence=medium。若后续研究系统地证明各层之间的功能性嵌套关系（如 θ 振荡缺失导致 STDP 方向性权重更新失效、同时 BTSP 写入保留），则可升级为 mainstream。"
-    },
-    {
-      "slug": "engram-cells",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-05-31",
-      "reason": "创建 2026-05-31。光遗传学激活印迹细胞的系列实验（Liu 2012, Ramirez 2013, Ryan 2015, Roy 2016）提供了多重独立、跨实验室的直接证据；c-Fos-tTA系统 + ChR2 的方法学已成为领域标准范式；沉默印迹在蛋白质合成抑制和AD模型中均有重复证据；故 status=established / confidence=high。主要局限：所有直接操控实验均在啮齿类，人类证据仍间接；20–40% 重叠率等方法学限制尚待解决；但核心论断（激活印迹细胞充分激活记忆行为）具有高置信度。"
-    },
-    {
-      "slug": "voltage-gated-calcium-channels",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 6,
-      "last_status_change": "2026-06-01",
-      "reason": "创建 2026-06-01。CaV1/CaV2/CaV3三亚家族的α1亚基结构（4域、S4电压传感器、S5-S6孔道）是Catterall等数十年晶体学+电生理+遗传研究的共识（诺贝尔奖级机制）。纳米域耦合（<100 nm）有BAPTA/EGTA差异实验（多实验室独立验证）直接证明。L型通道驱动BTSP平台电位（73%贡献，nimodipine阻断实验，Bittner 2017 Science）和LTP（CaV1.2 cKO实验，Sridharan 2020）均有遗传+药理+电生理多维证据。主要不确定性：CaV1.2 vs CaV1.3在不同树突区室的精确功能分工；纳米域耦合是否在所有快速突触（非脑干calyx特异）中普遍适用；CaV3（T型）在某些突触前的贡献机制。整体：established，不确定性在具体亚型功能分工层面而非核心机制。"
-    },
-    {
-      "slug": "memory-consolidation",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-06-02",
-      "reason": "创建 2026-06-02。系统巩固的现象学（时间梯度逆行遗忘、海马-皮层激活转移）有 H.M. 等病例研究 + 多物种影像学 + 电生理的强证据；SWR 因果作用有闭环破坏实验多个独立验证（Ego-Stengel 2010, Jadhav 2012 等）；SO-spindle-SWR 时间耦合有多通道 LFP 和干预实验支持。主要不确定性：SCT vs MTT 争论（情景记忆是否终生依赖海马）；SHY 与主动系统巩固的整合；REM 的精确功能。核心机制 established，但理论框架层面有重要开放问题。"
-    },
-    {
-      "slug": "pv-interneurons",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-06-03",
-      "reason": "创建 2026-06-03。PV+ 细胞的识别（快速放电、PV 标记、围胞体形态）、功能（γ振荡、时序精度）由数十年多实验室工作确立。突触延迟 0.7 ms（Tremblay 2016 直接测量）。光遗传因果实验证明 PV+ 细胞驱动 γ（Kepecs & Fishell 2014 综述引用）。精神分裂症 GAD67 下调（Curley 2012）和 γ 功率降低（Gonzalez-Burgos 2015）为疾病联系提供临床证据。总体 established，但人类直接数据有限。"
-    },
-    {
-      "slug": "sst-interneurons",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-06-03",
-      "reason": "创建 2026-06-03。SST+ 细胞的树突靶向性（Martinotti → L1）和易化性突触特性由多实验室双细胞膜片钳确立（Tremblay 2016 综述）。O-LM 细胞在 θ 期的活跃放电和 SLM 靶向由 Klausberger & Somogyi 2008 体内记录直接证明。主要不确定性：SST 亚型多样性（Martinotti vs 非 Martinotti）的功能分工；O-LM 细胞究竟是'打开'还是'关闭' EC 输入的时间窗口。整体 established，亚型功能细节尚待明确。"
-    },
-    {
-      "slug": "vip-interneurons",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-06-03",
-      "reason": "创建 2026-06-03。VIP 细胞作为去抑制专家由 Pi et al. 2013（两光子钙成像 + 光遗传 + 行为任务）直接证明；Letzkus et al. 2011 在恐惧学习中建立去抑制链路的必要性。发育起源（CGE）由谱系追踪实验确立（Kepecs & Fishell 2014）。主要不确定性：不同皮层区域 VIP→SST vs VIP→PV 的比例差异；VIP 激活信号的完整范围（胆碱能/血清素/top-down 各自贡献）。整体 established，功能在不同区域的差异待补充。"
-    },
-    {
-      "slug": "disinhibitory-circuit",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-06-03",
-      "reason": "创建 2026-06-03。VIP→SST/PV→锥体细胞三级架构由 Pi 2013 在听觉皮层直接证明；恐惧学习中的必要性由 Letzkus 2011 因果实验确立；Kepecs & Fishell 2014 将其总结为'跨皮层保守模块'。证据来源多（不同皮层区域、不同行为学习类型、多实验室）。主要不确定性：不同皮层区域中 SST vs PV 作为主要靶标的比例；与其他学习相关不确定性。整体 established。"
-    },
-    {
-      "slug": "ltd",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-06-04",
-      "reason": "创建 2026-06-04。NMDA-LTD 机制（低 Ca²⁺ → PP2B/calcineurin → PP1 → GluA1 Ser831/Ser845 去磷酸化 → AMPAR 内吞）有多实验室独立验证；mGluR-LTD（mGluR5 → 局部蛋白合成 → Arc → dynamin/endophilin → AMPAR 内吞）有基因敲除（Arc KO）+ 药理（DHPG）+ 电生理多维证据；小脑 LTD（mGluR1 + P/Q Ca²⁺ → PKC → GluA2 Ser880）有独立机制证据；GluA2/GluA3 双敲小鼠 LTD 仍正常（冗余内吞通路存在）为 contested 细节，但不影响核心机制 established 状态。BCM 理论 Ca²⁺ 阈值模型统一了 LTP 和 LTD 方向选择，有强理论支持。整体 established，部分分子细节（NMDA 受体代谢型信号、长期维持机制）有开放问题。2026-07-02（文章 #68）：修订，新增星形胶质细胞介导 LTD 节（IP3R2 KO小鼠 LTD 缺失；eCB→CB1R→astrocyte→D-丝氨酸/ATP 三条通路；Durkee 2021），新增 astrocyte/tripartite-synapse/gliotransmitter/d-serine 连接；revision_count 2→3。成熟度不变。"
-    },
-    {
-      "slug": "calcineurin",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 2,
-      "last_status_change": "2026-06-04",
-      "reason": "创建 2026-06-04。钙调磷酸酶（PP2B/calcineurin）在 NMDA-LTD 中的角色有直接实验证据：AKAP150/PSD-95 空间定位机制（Bhattacharyya 2009, PMID:19169250）将 PP2B 靶向 NMDAR；PP2B → PP1 → GluA1 去磷酸化级联在多物种、多制备物中重复验证（Huganir & Nicoll 2013, PMID:24183021）。Ca²⁺ 亲和力差异（PP2B Kd ~0.5 μM vs CaMKII Kd ~2-3 μM）是 BCM 理论 Ca²⁺ 阈值区分的分子基础，有定量生化证据支持。AKAP-ΔPP2B 突变体选择性阻断 NMDA-LTD 而不影响 mGluR-LTD 为通路特异性提供因果证据。整体 established。"
-    },
-    {
-      "slug": "arc-arg31",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-06-04",
-      "reason": "创建 2026-06-04。Arc/Arg3.1 在 LTD 中的执行功能（通过 dynamin/endophilin 促进 AMPAR 内吞）有基因敲除实验（Arc KO 小鼠 LTD 受损）+ 生化（dynamin 结合结构域鉴定）+ 体外过表达实验多维证据（Hanley 2014 综述，PMID:25429259）。Arc 在 LTP 巩固中的作用（肌动蛋白稳定）同样有 KO 实验（Arc KO 能诱导但不能巩固 LTP）支持（Bramham et al. 2010，PMID:19690847）。Arc mRNA 的树突靶向和局部翻译是领域内公认机制。主要不确定性：Arc 如何在 LTD 情境（中等活动）vs LTP 情境（强烈活动）之间切换功能的精确分子开关尚未完全解明（见 Q-arc-ltp-ltd-switch）。整体 established，功能开关细节为 open question。"
-    },
-    {
-      "slug": "dopamine-reward-prediction-error",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-06-07",
-      "reason": "创建 2026-06-07。Schultz 1997（PMID:9054347）确立 VTA/SNc DA 神经元编码 RPE 的三种响应模式（经典单细胞记录 + 行为学范式）；Montague-Dayan-Sejnowski 1996（PMID:8774460）提供完整的 TD 学习理论框架，将 DA-RPE 与计算强化学习精确对应；Schultz 2015 PhysRev（PMID:26109341）和 2016 NRN（PMID:27069377）系统综述 20 年后续验证。多实验室、多物种（猕猴、大鼠、人类 fMRI）、多方法（单细胞记录、电生理、药理）三角证实。主要争议：VTA DA 神经元功能异质性（非全部编码 RPE，部分编码厌恶/新奇/运动）尚存争议，但 RPE 信号本身 established 无疑。"
-    },
-    {
-      "slug": "three-factor-learning-rule",
-      "status": "mainstream",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-06-07",
-      "reason": "创建 2026-06-07。Reynolds & Wickens 2002（PMID:12371508）在纹状体皮层-纹状体突触的电生理直接验证三因素规则（DA 突发/凹陷 × 突触前后活动 → LTP/LTD）；Huang & Kandel 1995（PMID:7708662）在海马 CA1 提供 D1/D5→DA-LTP 的分子机制证据；Schultz 等多篇提供 DA-RPE 计算框架理论支撑。三因素规则已是强化学习神经科学的主流理论，但完整分子实现（尤其在不同脑区的差异）仍在研究中，故 mainstream 而非 established。信心度 high 是因核心原理（Δw ∝ pre×post×DA）有多实验室验证。"
-    },
-    {
-      "slug": "synaptic-tagging-capture",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": 2,
-      "last_status_change": "2026-06-07",
-      "reason": "创建 2026-06-07。Frey & Morris 1997（PMID:9020359）原始发现：E-LTP 在约 1-2 h 内设置突触标记，强刺激诱导的 PRP 可被弱路径的标记捕获，确立 E-LTP→L-LTP 转化机制；Huang & Kandel 1995（PMID:7708662）提供 DA→D1→PKA→CREB→PRP 链的实验证据。标记-捕获模型本身 mainstream（多实验室重复，不同突触类型验证），但分子标记的确切身份（CaMKII 磷酸化状态、具体蛋白）尚有争议（见 Q-stc-molecular-tag）；DA 介导 STC 的时间窗口在体内条件下的精确值亦待确认。故 confidence medium。"
-    },
-    {
-      "slug": "alzheimers-disease",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 8,
-      "last_status_change": "2026-06-08",
-      "reason": "创建 2026-06-08。AD作为神经退行性疾病本身是established（百年临床病理学积累）。其突触损伤机制：Terry et al. 1991（PMID:1789684）确立突触密度与认知的高相关（r=0.96）；Walsh et al. 2002（PMID:11932745, Nature）确立可溶性Aβ寡聚体（而非斑块）是LTP抑制的毒性物种；Shankar et al. 2007（PMID:17360908, J Neurosci）提供定量数据（100-300 pM→75%棘丢失，可逆）；Li et al. 2011（PMID:21543591）阐明突触外NR2B/p38/CREB通路；临床三期试验（lecanemab、donanemab）反向验证寡聚体假说。多实验室、多物种、多方法（电生理、成像、临床）交叉验证。confidence high，但分子机制全景（tau与Aβ的时序关系、不同细胞类型贡献）仍有未解方面。"
-    },
-    {
-      "slug": "amyloid-beta-oligomers",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-06-08",
-      "reason": "创建 2026-06-08。Aβ寡聚体为AD核心毒性物种的证据：Walsh 2002（PMID:11932745）天然分泌寡聚体（非单体/纤维）体内LTP抑制——关键鉴别实验；Shankar 2007（PMID:17360908）提供定量剂量和可逆性；Li 2011（PMID:21543591）突触外NR2B/p38/CREB分子机制；2026综述（PMC:13039067）CaMKII降低60%等定量数据。临床：靶向寡聚体抗体减缓认知衰退且斑块清除不与临床获益相关（PMC:8231952），反向验证寡聚体（非斑块）是主要毒性物种。confidence high，不确定性主要在不同寡聚体亚型（大小/构象）的差异毒性（见Q-abeta-oligomer-subtypes）。"
-    },
-    {
-      "slug": "optogenetics",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 10,
-      "last_status_change": "2026-06-09",
-      "reason": "创建 2026-06-09。ChR2 光激活和 NpHR 光沉默的物理原理已由多重独立实验验证（2005-2022年超过10个独立实验室）。奠基论文 Boyden 2005（PMID:16116447）被全球数千实验室复制。双色双向控制（Han & Boyden 2007，全文）的精度数据已有直接测量（33mV 超极化，~10-15ms 时间常数）。晶体结构（Kato 2012）提供分子机制根基。假记忆（Ramirez 2013）和效价翻转（Redondo 2014）实验在独立实验室已得到支持。confidence high，不确定性主要在：深部脑区穿透（工程问题）；分布式表征与单细胞类型操控的因果解释力（方法论问题）。"
-    },
-    {
-      "slug": "v1-primary-visual-cortex",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 6,
-      "last_status_change": "2026-06-11",
-      "reason": "创建 2026-06-11。V1的基本结构和功能特性由 Hubel & Wiesel 1962（诺贝尔奖）及数十年后续工作奠定（方向柱、简单/复杂细胞、感受野结构）；Ohki 2005（Nature，PMID:15660108）用双光子成像在单细胞分辨率验证了方向图结构（包括pinwheel center同样精确）；Niell & Stryker 2010（PMID:20810772）确立小鼠V1盐-胡椒型组织且单细胞OSI精确；Zhao et al. 2013（PMC3693051）证明小鼠LGN方向选择性不依赖皮层反馈；Wilson et al. 2016（PMC5240628）在雪貂V1直接验证突触聚类增强方向选择性。核心现象学（方向选择性、方向柱/盐-胡椒组织、简单/复杂细胞区分）均由多实验室、多物种、多方法独立验证。不确定性：小鼠盐-胡椒型组织的分子决定因素；方向柱的计算优势；突触聚类的普遍性。整体 established。"
-    },
-    {
-      "slug": "orientation-selectivity",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-06-11",
-      "reason": "创建 2026-06-11。方向选择性现象由 Hubel & Wiesel 1962 发现（诺贝尔奖），在猫、猴、雪貂、小鼠中均有充分重复验证。三层机制（前馈LGN排列、E/I平衡、NMDA棘波聚类）的贡献由膜片钳+双光子成像+计算模型等多方法汇聚证据支持：Priebe & Ferster 2012（PMC3477598）阈下膜电位记录；Hansel & van Vreeswijk 2012（PMC6621225）E/I平衡理论；Wilson 2016（PMC5240628）树突证据。CNN Gabor滤波器的独立收敛（Kindel 2019，PMC6485988）也提供了定向处理是自然图像最优特征的工程学旁证。established。"
-    },
-    {
-      "slug": "synaptic-clustering",
-      "status": "emerging",
-      "confidence": "medium",
-      "supporting_sources": 3,
-      "last_status_change": "2026-06-11",
-      "reason": "创建 2026-06-11。突触聚类的体外原理验证（海马切片：相邻突触聚类→NMDA棘波超线性整合）已有多实验室支持（established）。体内直接证据：Wilson et al. 2016（雪貂V1，PMC5240628）是首个单神经元分辨率的体内功能聚类证据——OSI更高神经元的树突聚类程度更高，偏好方向NMDA棘波热点2倍于非偏好方向。Smith et al. 2013（PMID:24162850）在猫V1独立验证了树突棘波增强方向选择性。然而：（1）Wilson 2016仅在雪貂（有方向柱）验证，小鼠/灵长类待确认；（2）因果操控实验（直接干扰聚类→验证OSI下降）尚缺；（3）其他脑区（海马CA1场所细胞、PFC）的聚类直接体内证据极缺。故 emerging / confidence medium。若后续在多物种多脑区得到操控性实验验证，则可升级为 mainstream。"
-    },
-    {
-      "slug": "serotonin-raphe-system",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-06-13",
-      "reason": "创建2026-06-13。DRN/MRN解剖经荧光组化+损毁实验充分验证；14种5-HT受体已全部克隆并功能表征；体积传输机制有充分形态学证据（Barnes & Sharp 1999）。"
-    },
-    {
-      "slug": "5-ht-autoreceptor",
-      "status": "mainstream",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-06-13",
-      "reason": "创建2026-06-13。自受体脱敏机制在啮齿类有直接电生理证据（de Montigny & Blier 1990）；pindolol加速起效有临床RCT支持但结果不一致（7/15显著）；人类直接证据受限。设为 mainstream（非 established）因人类直接验证仍有缺口。"
-    },
-    {
-      "slug": "hippocampal-neurogenesis",
-      "status": "contested",
-      "confidence": "medium",
-      "supporting_sources": 4,
-      "last_status_change": "2026-06-13",
-      "reason": "创建2026-06-13（status=contested）。啮齿类神经发生证据充分；Santarelli 2003证明神经发生是SSRI行为效果的必要条件（啮齿类）；但人类成人神经发生存在Sorrells 2018（几乎无）vs Boldrini 2018（仍有）直接矛盾，方法学分歧未解决。"
-    },
-    {
-      "slug": "predictive-coding",
-      "title": "预测编码",
-      "domain": "theories",
-      "status": "mainstream",
-      "confidence": "medium",
-      "last_changed": "2026-06-15",
-      "change_reason": "新建：预测编码框架已是主流理论（多项高引综述，Rao 1999, Bastos 2012, Clark 2013），但具体机制（误差/预测单元的直接区分、振荡分工的普适性）仍有争议，故置信度为中"
-    },
-    {
-      "slug": "precision-weighting",
-      "title": "精度加权",
-      "domain": "concepts",
-      "status": "emerging",
-      "confidence": "medium",
-      "last_changed": "2026-06-15",
-      "change_reason": "新建：精度加权的计算理论成熟，但神经回路级别的直接验证有限（VIP-SST 去抑制等为间接证据），故状态为 emerging，置信度中"
-    },
-    {
-      "slug": "integrated-information-theory",
-      "status": "contested",
-      "confidence": "medium",
-      "supporting_sources": [
-        "PMID:19098144",
-        "PMID:27225071",
-        "PMID:40307561"
-      ],
-      "last_status_change": "2026-05-31",
-      "reason": "创建即 contested：IIT 是 mainstream 理论，但 COGITATE 2025 核心机制预测（后方皮层同步）被否定"
-    },
-    {
-      "slug": "phi-measure",
-      "status": "contested",
-      "confidence": "medium",
-      "supporting_sources": [
-        "PMID:19098144",
-        "PMID:27225071"
-      ],
-      "last_status_change": "2026-05-31",
-      "reason": "创建：Φ 数学定义清晰，但与真实意识的等同关系被 COGITATE 部分挑战"
-    },
-    {
-      "slug": "posterior-cortical-hot-zone",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": [
-        "PMID:27094080",
-        "PMID:40307561"
-      ],
-      "last_status_change": "2026-05-31",
-      "reason": "创建：PCHZ 解剖定位有一定支持，但 IIT 核心机制预测（后方皮层同步）被 COGITATE 2025 挑战，置信度中"
-    },
-    {
-      "slug": "perturbational-complexity-index",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": [
-        "PMID:23946194",
-        "PMID:26752078"
-      ],
-      "last_status_change": "2026-05-31",
-      "reason": "创建：PCI 临床方法已有多中心验证，置信度高；工具价值独立于 IIT 理论争议"
-    },
-    {
-      "slug": "connectomics",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 9,
-      "last_status_change": "2026-08-05",
-      "reason": "修订 2026-08-05（文章 #104，rev2）。新增 FlyWire 2024 网络拓扑统计（Lin 2024）和 MICrONS 2025 功能协注册结果。连接组学作为方法已充分建立；结构-功能关系的部分验证（MICrONS）进一步巩固了连接组学的科学价值。status 保持 established。"
-    },
-    {
-      "slug": "circuit-motifs",
-      "status": "mainstream",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-06-18",
-      "reason": "创建 2026-06-18。前馈回路（FFL）在多个物种的神经和基因调控网络中均有文献支持（Milo 2002, PMID:12399590；神经科学多项研究）。Drosophila FlyWire 提供了至今最大规模的系统性验证（Lin 2024, PMID:39358527）。功能诠释（这些主题确实执行特定计算）是主流但非全部经实验确认，故 mainstream 而非 established。"
-    },
-    {
-      "slug": "cerebellum",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 6,
-      "last_status_change": "2026-06-23",
-      "reason": "创建 2026-06-23。小脑的解剖和基本功能（运动协调、LTD学习）是教科书级共识；多层可塑性和认知功能（CCAS）有多项高质量独立研究支持（De Zeeuw 2021×2, Wolpert 1998, Schmahmann 1998）。"
-    },
-    {
-      "slug": "cerebellar-ltd",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-06-23",
-      "reason": "创建 2026-06-23。PF-LTD 的分子机制（mGluR1/PKC/AMPAR内吞）是多项独立实验室的一致发现；基因敲除实验（Aiba 1994）提供因果证据。但 Schonewille 2011 证明 LTD 非运动学习唯一机制，整体仍是 established 但不应被过度解读。"
-    },
-    {
-      "slug": "forward-model",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": 2,
-      "last_status_change": "2026-06-23",
-      "reason": "创建 2026-06-23。Wolpert 1998 的前向/逆向模型框架获广泛认可（计算神经科学主流观点），但直接神经元层面证据仍主要来自行为和建模，神经底物细节待确认。置信度中等。"
-    },
-    {
-      "slug": "bdnf",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 8,
-      "last_status_change": "2026-06-28",
-      "reason": "创建 2026-06-28（文章 #64）。TrkB三通路分子机制有大量独立一手来源；L-LTP依赖性经BDNF KO小鼠反复验证；Val66Met认知效应有人类遗传+fMRI支持（Egan 2003）；有氧运动RCT支持BDNF-认知链（Erickson 2011）；proBDNF/p75NTR→LTD机制由Woo 2005基因敲除实验直接验证；AD中BDNF受损的证据来自多种模型和死后脑组织。status=established（基础分子机制）；AD干预部分为emerging。"
-    },
-    {
-      "slug": "multisensory-integration",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 7,
-      "last_status_change": "2026-07-20",
-      "reason": "创建 2026-07-20（文章 #88）。多感觉整合的贝叶斯框架（Ernst & Banks 2002）是近20年反复验证的理论支柱；上丘三原则由50年以上电生理记录支持；ALE荟萃分析（Scheliga 2022）跨10+个独立研究组确认STG/MTG核心地位。established。"
-    },
-    {
-      "slug": "temporal-binding-window",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-07-20",
-      "reason": "创建 2026-07-20（文章 #88）。TBW作为多感觉整合时间约束的构念由多个独立实验室的SJ/TOJ范式一致支持（Wallace & Stevenson 2014综述）；训练可塑性由Powers 2009 RCT证明；临床扩宽在ASD/精神分裂症的荟萃分析（Zhou 2018）中得到确认。established。"
-    },
-    {
-      "slug": "bayesian-sensory-integration",
-      "status": "mainstream",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-07-20",
-      "reason": "创建 2026-07-20（文章 #88）。MLE框架在视觉-触觉（Ernst & Banks 2002）、视觉-前庭（Angelaki 2009）等通道得到独立验证；但完整贝叶斯因果推断框架（Körding 2007）在高水平认知任务中的适用性仍存争议；单细胞实现机制未明。mainstream而非established。"
-    },
-    {
-      "slug": "mcgurk-effect",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-07-20",
-      "reason": "创建 2026-07-20（文章 #88）。McGurk效应本身（McGurk & MacDonald 1976）已被数百个独立实验室在30+语言中复现；pSTS神经基础（Zhu & Beauchamp 2017）提供了成像层面解释；ASD减弱现象（元分析）提供临床转化价值。established。"
-    },
-    {
-      "slug": "superior-temporal-sulcus",
-      "status": "mainstream",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-07-20",
-      "reason": "创建 2026-07-20（文章 #88）。pSTS作为视听整合枢纽有ALE荟萃分析（Scheliga 2022）跨多研究组确认；嘴-声音联合选择性（Zhu & Beauchamp 2017）是具体功能证据；后→前功能梯度是基于多项fMRI研究的工作假说而非直接因果证明。mainstream。"
-    },
-    {
-      "slug": "theory-of-mind",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 5,
-      "last_status_change": "2026-07-25",
-      "reason": "创建 2026-07-25（文章 #93）。ToM 行为/发育证据极为坚实（错误信念测试、4岁里程碑在全球跨文化复制）；fMRI神经基底（右侧TPJ、mPFC）多实验室一致；ASD领域临床相关性强。confidence=high。神经机制计算细节仍有争议（Q-tom-01/02），但ToM概念本身是established。"
-    },
-    {
-      "slug": "mentalizing-network",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": 6,
-      "last_status_change": "2026-07-25",
-      "reason": "创建 2026-07-25（文章 #93）。核心节点（mPFC、TPJ、pSTS）多实验室fMRI一致；Merchant 2025的108项研究元分析大样本支持；但各节点因果分工（TPJ信念归因 vs 注意重定向）仍有争议（Q-mn-01）；镜像/心智化交互的DCM证据（Sobeh 2025）较新待复现。confidence=medium。"
-    },
-    {
-      "slug": "tpj-temporoparietal-junction",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": 4,
-      "last_status_change": "2026-07-25",
-      "reason": "创建 2026-07-25（文章 #93）。Saxe & Kanwisher 2003的功能定位（多控制条件双重解离）10+实验室重复；TMS因果证据中等（部分实验室未重复）；注意重定向 vs 心智化双功能假说仍有亚区域争议（Q-tom-01）。confidence=medium。"
-    },
-    {
-      "slug": "mirror-neurons",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": 5,
-      "last_status_change": "2026-07-25",
-      "reason": "修订 2026-07-25（文章 #93，第2次修订）。纳入 Hickok 2009 和 Heyes & Catmur 2022 后，经典「动作理解/读心」假说已被严重削弱。当前共识：MNS支持低层动作区分（非高层意图推断），破镜/自闭症假说无经验支持，模仿因果性参与有证据。ASL起源假说（Heyes）尚缺充分因果实验，故 confidence 维持 medium。"
-    },
-    {
-      "slug": "small-world-network",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_status_change": "2026-08-05",
-      "reason": "创建 2026-08-05（文章 #104）。小世界网络特性在神经系统的存在已在 C.elegans（Varshney 2011）、果蝇全脑（Lin 2024，SΔ=141）和人类 fMRI 网络中多次独立验证。图论分析方法标准，结果高度一致。established。"
-    },
-    {
-      "slug": "rich-club",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 3,
-      "last_status_change": "2026-08-05",
-      "reason": "创建 2026-08-05（文章 #104）。果蝇全脑（Lin 2024）突触级精度验证；人类 DTI（Hagmann 2008）宏观验证；C. elegans 和线虫级别的中枢节点概念也有支持。多物种多尺度验证 → established。"
-    },
-    {
-      "slug": "structure-function-relationship",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": 4,
-      "last_status_change": "2026-08-05",
-      "reason": "创建 2026-08-05（文章 #104）。MICrONS 2025 首次直接验证结构预测功能（功能调谐相似性→突触连接概率）；Vishwanathan 2024 的斑马鱼案例提供更完整的结构→预测→验证闭环。但 C.elegans 40年教训（完整连接组仍无法完全预测行为）和神经调质的动态调制说明结构预测不完整。主流框架但有重要限制 → mainstream/medium。"
-    }
-  ],
-  "entries": [
-    {
-      "slug": "default-mode-network",
-      "status": "mainstream",
-      "confidence": "high",
-      "last_changed": "2026-06-16",
-      "reason": "新建：DMN核心解剖（mPFC/PCC/MTL/IPL）和功能（情节记忆/心智化/心理时间旅行）有多项独立研究（Raichle 2001, Fox 2005, Buckner 2008, Andrews-Hanna 2011, Buckner 2009）确立；双子系统分化有独立验证；Aβ-DMN联系有PET显像证据；DMN-TPN反相关有GSR方法论争议，故整体置信度高但存在方法论保留"
-    },
-    {
-      "slug": "alzheimers-disease",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-16",
-      "reason": "修订rev2：新增whole-brain-network维度（DMN枢纽节点Aβ优先沉积；Buckner 2009）；原有突触机制内容不变"
-    },
-    {
-      "slug": "hippocampal-circuit",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-16",
-      "reason": "修订rev7：确认MTL（海马）是DMN核心节点；关联new default-mode-network页面；原有内容不变"
-    },
-    {
-      "slug": "predictive-coding",
-      "status": "mainstream",
-      "confidence": "medium",
-      "last_changed": "2026-06-16",
-      "reason": "修订rev2：添加DMN作为预测编码层级高层先验生成器的关联；原有框架状态不变（mainstream/medium）",
-      "last_updated": "2026-07-12",
-      "revision_count": 6,
-      "change_reason": "2026-07-12: Rev 6 - New direct neuronal evidence (PEONs, Yaron 2025) and pharmacological evidence (precision weighting + dopamine, Haarsma 2020). Hodson 2024 review cautions about limited empirical status, maintaining medium confidence."
-    },
-    {
-      "slug": "amygdala",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-05-30",
-      "reason": "杏仁核恐惧回路（LA/ITC/CeA架构）有50+年多实验室重复验证；LA-LTP因果证明（Nabavi 2014）；ITC必要性直接证据（Likhtik 2008）"
-    },
-    {
-      "slug": "fear-conditioning",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-05-30",
-      "reason": "LA-NMDA-LTP机制有30+年证据；光遗传双向因果证明（Nabavi 2014）是最高标准实验"
-    },
-    {
-      "slug": "fear-extinction",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-05-30",
-      "reason": "消退作为新学习的证据充分（自发恢复/再激活/更新三类经典现象）；IL→ITC回路有多项optogenetics确认；vmPFC预测消退的人类fMRI证据多个独立研究"
-    },
-    {
-      "slug": "global-workspace-theory",
-      "page": "wiki/theories/global-workspace-theory.md",
-      "status": "mainstream",
-      "confidence": "medium",
-      "last_changed": "2026-05-30",
-      "reason": "初始创建：GWT 核心框架已是神经科学主流理论（多方法、多实验室证据），但 COGITATE 2025 挑战了 PFC 点燃的具体预测，P3b 地位存疑；confidence=medium 反映理论整体可靠但机制细节争议多"
-    },
-    {
-      "slug": "consciousness-ignition",
-      "page": "wiki/concepts/consciousness-ignition.md",
-      "status": "mainstream",
-      "confidence": "medium",
-      "last_changed": "2026-05-30",
-      "reason": "初始创建：点燃现象的核心证据（行为双峰、MEG分叉、猕猴单单元）汇聚支持全有全无机制，但 P3b 地位存疑（无报告范式），COGITATE 2025 对 PFC 角色提出新问题；confidence=medium"
-    },
-    {
-      "slug": "sharp-wave-ripples",
-      "title": "尖波涟漪（SWR）",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-19",
-      "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性证据（光遗传增强SWR→改善记忆）、Yang 2024清醒SWR标记功能、Giri 2024睡眠剥夺分离证据进一步巩固established地位",
-      "page": "wiki/concepts/sharp-wave-ripples.md",
-      "reason": "Revised: added sleep-spindles/cortical-slow-oscillation links; triple coupling context"
-    },
-    {
-      "slug": "memory-consolidation",
-      "title": "记忆巩固（系统层面）",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-19",
-      "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性和Chang 2025睡眠微结构新证据补充",
-      "page": "wiki/concepts/memory-consolidation.md",
-      "reason": "Revised: deepened SO-spindle mechanism with thalamocortical circuit detail; Latchoumane 2017 causal evidence"
-    },
-    {
-      "slug": "temporal-hierarchy",
-      "title": "时间层级编码",
-      "page": "wiki/concepts/temporal-hierarchy.md",
-      "domain": "concepts",
-      "current_status": "mainstream",
-      "current_confidence": "high",
-      "history": [
-        {
-          "date": "2026-05-31",
-          "status": "mainstream",
-          "confidence": "high",
-          "reason": "描述性框架，各组成机制（突触传递速度、NMDA窗口、θ振荡、SWR、系统巩固）均有独立高质量证据支持；框架本身是整合性组织工具而非可证伪理论，置信度高是对其描述准确性的评估"
-        }
-      ]
-    },
-    {
-      "slug": "sleep-spindles",
-      "page": "wiki/concepts/sleep-spindles.md",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-19",
-      "reason": "Created. TRN CaV3.3 mechanism established (Lee 2013, Fernandez 2019); triple coupling causal evidence (Latchoumane 2017); human validation (Jiang 2019). Fast/slow functional distinction: emerging."
-    },
-    {
-      "slug": "thalamocortical-circuit",
-      "page": "wiki/circuits/thalamocortical-circuit.md",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-19",
-      "reason": "Created. TRN-TC oscillation loop well-established; Core/Matrix pathway: mainstream. Modulation by ACh: established."
-    },
-    {
-      "slug": "cortical-slow-oscillation",
-      "page": "wiki/concepts/cortical-slow-oscillation.md",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-19",
-      "reason": "Created. SO-spindle-SWR triple nesting: multiple independent validations. SO origin in PFC and propagation: established."
-    },
-    {
-      "slug": "rem-sleep",
-      "page": "wiki/concepts/rem-sleep.md",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-05-31",
-      "reason": "Created 2026-05-31. REM sleep as neurobiological state: established (decades of polysomnography + EEG). LC silence/NE suppression during REM: established (Aston-Jones 1981). REM theta oscillations: established. Causal role in contextual memory (Boyce 2016 optogenetics, PMID:27174984): high. LA-VH theta synchrony predicting extinction memory (Totty 2017, R=0.954): high correlational + mechanistic plausibility. Emotional memory depotentiation function (Walker SFSR): mainstream (van der Helm 2011 human fMRI; multiple converging lines). PTSD as depotentiation failure: emerging."
-    },
-    {
-      "slug": "emotional-memory-depotentiation",
-      "page": "wiki/concepts/emotional-memory-depotentiation.md",
-      "status": "emerging",
-      "confidence": "medium",
-      "last_changed": "2026-05-31",
-      "reason": "Created 2026-05-31. Core concept (REM selectively weakens emotional tone while preserving information content) supported by convergent behavioral and neuroimaging evidence (Walker 2009, van der Helm 2011). Proposed LTD-like mechanism (theta trough-driven synaptic weakening at LA) is theoretically coherent (Poe 2017) but lacks direct synaptic evidence in LA-VH circuit. PTSD as depotentiation failure: plausible but mechanistically unproven. Status: emerging (well-supported phenomenology, incomplete mechanistic chain). Anticipate upgrade to mainstream when LA-specific theta-phase LTD is demonstrated."
-    },
-    {
-      "slug": "motor-cortex",
-      "page": "wiki/systems/motor-cortex.md",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-21",
-      "reason": "Created 2026-06-21. M1/PMC/SMA anatomy and somatotopic organization: established (penfield homunculus, decades of lesion/stimulation data). Corticospinal tract as primary motor output: established. Population vector coding (Georgopoulos 1986 Science): established, widely replicated across species and labs. Rotational dynamics (Churchland 2012 Nature): mainstream, replicated with RNNs and multiple datasets. Output-null-space mechanism (Kaufman 2014 Nat Neurosci): mainstream, strong experimental validation. Mirror neurons in F5 (Gallese/Rizzolatti 1996): established in macaque, human evidence more limited. Dynamical engine vs. parameter-map debate: active research. Overall status: established (core motor functions); individual mechanisms at mainstream level."
-    },
-    {
-      "slug": "population-vector-coding",
-      "page": "wiki/concepts/population-vector-coding.md",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-21",
-      "reason": "Created 2026-06-21. Cosine tuning of individual M1 neurons: established (Georgopoulos 1982, 1984, widely replicated). Population vector sum predicting movement direction: established (Georgopoulos 1986 Science, multiple replication labs). Mental rotation analog in neural activity at ~732°/s: established (Georgopoulos 1989 Science). Limitations: coding scheme may be incomplete (doesn't fully explain complex trajectories); rotational dynamics framework challenges strict PV interpretation. Status: established as foundational framework, ongoing refinement."
-    },
-    {
-      "slug": "rotational-dynamics-motor",
-      "page": "wiki/concepts/rotational-dynamics-motor.md",
-      "status": "mainstream",
-      "confidence": "high",
-      "last_changed": "2026-06-21",
-      "reason": "Created 2026-06-21. Rotational structure in M1 population activity during movement (Churchland 2012 Nature, n=218 neurons): well-validated, 2-2.8 Hz frequency, 28% variance explained. Key prediction confirmed: frequency invariant across movement speeds. RNN spontaneous replication (Sussillo 2015) provides strong theoretical grounding. Multiple follow-up papers validate. Primary challenger: rotations may be epiphenomenal rather than causal. Status: mainstream (strong empirical base, active debate on causal role). Would upgrade to established if causal intervention (frequency-specific perturbation) confirmed behavioral relevance."
-    },
-    {
-      "slug": "output-null-space",
-      "page": "wiki/concepts/output-null-space.md",
-      "status": "mainstream",
-      "confidence": "high",
-      "last_changed": "2026-06-21",
-      "reason": "Created 2026-06-21. Linear model M≈WN (output = weighted sum of neural activity): well-validated in motor cortex. Mathematical null space = ker(W): rigorous. Empirical finding that preparatory activity avoids output-potent space (Kaufman 2014 Nat Neurosci): strong experimental design with direct test. Tuning ratio ~4.5× (PMd > M1 during prep): quantitative, replicable. 96% cancellation via coordinated population activity: compelling. Broader applicability to other cortical areas: emerging. Status: mainstream (strong original paper + theoretical coherence; awaits multi-lab replication and test in non-motor contexts)."
-    },
-    {
-      "slug": "mirror-neurons",
-      "page": "wiki/circuits/mirror-neurons.md",
-      "status": "mainstream",
-      "confidence": "medium",
-      "last_changed": "2026-06-21",
-      "reason": "Created 2026-06-21. Mirror neurons in macaque F5 (Gallese 1996, Rizzolatti 1996): established in monkey, direct single-unit recording of ~17% F5 neurons responding to both execution and observation. Goal-directed specificity: established. Human mirror neuron system: evidence from TMS, fMRI, mu-suppression EEG - all indirect (no single-unit human data). F5/BA44 homology and language evolution hypothesis: plausible but speculative. Controversy about whether human 'mirror system' truly reflects same mechanism as macaque mirror neurons. Status: mainstream with medium confidence due to strong monkey data but indirect human evidence; language evolution hypothesis remains speculative (emerging level)."
-    },
-    {
-      "slug": "place-cells",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-22",
-      "reason": "新建：诺贝尔奖研究（O'Keefe 1971）；场所细胞的位置选择性在多物种、多实验室反复验证；θ相位前移（O'Keefe & Recce 1993）有50+年研究支撑；仅少数细节（网格→场所确切机制）待完整阐明"
-    },
-    {
-      "slug": "grid-cells",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-22",
-      "reason": "新建：诺贝尔奖研究（Hafting 2005）；六边形格点已在多物种验证；离散模块结构已确认（Stensola 2012）；人类fMRI六边形信号有多项研究支持；生成机制（CAN vs OI）仍争议，但现象本身established"
-    },
-    {
-      "slug": "path-integration",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-22",
-      "reason": "新建：暗室导航实验证据充分；联合细胞解剖证据（Sargolini 2006）强；CAN模型是主流；漂移与地标锚定的行为证据有多项研究"
-    },
-    {
-      "slug": "cognitive-map",
-      "status": "mainstream",
-      "confidence": "high",
-      "last_changed": "2026-06-22",
-      "reason": "新建：物理空间层（场所/网格）established；情节记忆扩展广泛接受；抽象概念空间泛化（Bellmund 2016, Qu 2026）支持中等，需更多独立验证，故定为mainstream而非established"
-    },
-    {
-      "slug": "theta-phase-precession",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-22",
-      "reason": "新建：O'Keefe & Recce 1993经典；多物种（大鼠、蝙蝠、人类ECoG）验证；速率-相位双重编码共识；机制争议（OI vs dual-path input）不影响现象的established状态"
-    },
-    {
-      "slug": "entorhinal-cortex",
-      "status": "established",
-      "confidence": "high",
-      "last_changed": "2026-06-22",
-      "reason": "新建：MEC功能解剖（网格/联合细胞层级）established；海马主输入门户established；Braak分期（AD最早皮层靶点）established；人类证据（fMRI + iEEG）中-高"
-    },
-    {
-      "slug": "pattern-completion",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_changed": "2026-06-24",
-      "reason": "新建：CA3 NMDA受体依赖性对模式补全的必要性有直接因果遗传证据（Nakazawa 2002, PMID:12040087）；Leutgeb 2004体内电生理支持CA3离散吸引子状态；Treves & Rolls 1992奠基性计算框架；多实验室重复验证，教科书级共识。故定为established/high"
-    },
-    {
-      "slug": "pattern-separation",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 4,
-      "last_changed": "2026-06-24",
-      "reason": "新建：DG稀疏活动（<5%颗粒细胞）和全局重映射（Leutgeb 2007, PMID:17303747）有直接体内电生理证据；Sahay 2011有基因因果证据（增加神经发生→选择性改善模式分离）；计算原理（扩张重编码）被广泛验证。故定为established/high"
-    },
-    {
-      "slug": "attractor-network",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": 3,
-      "last_changed": "2026-06-24",
-      "reason": "新建：Hopfield网络（1982）数学严格；CA3作为吸引子网络的理论框架（Treves & Rolls 1992）获广泛认可；与Transformer注意力等价的数学证明（Ramsauer 2021）严格；但'CA3是吸引子网络'的直接体内证明（伪吸引子、容量限制等预测）尚未完全验证。故定为mainstream/medium"
-    },
-    {
-      "slug": "complementary-learning-systems",
-      "status": "mainstream",
-      "confidence": "medium",
-      "supporting_sources": 3,
-      "last_changed": "2026-06-24",
-      "reason": "新建：CLS理论框架（O'Reilly & McClelland 1994, McClelland et al. 1995）在神经科学和AI领域广泛引用；海马损伤→情景记忆选择性缺失的经典证据支持快/慢双系统分工；SWR重放的因果证据（Girardeau 2009）支持海马→皮层知识转移；但记忆转移的精确时间线和分子机制仍有争议。故定为mainstream/medium"
-    },
-    {
-      "slug": "binding-by-synchrony",
-      "status": "contested",
-      "confidence": "medium",
-      "supporting_sources": 5,
-      "last_changed": "2026-06-25",
-      "reason": "新建：Gray & Singer 1989 的经典发现（跨皮层柱伽马同步依赖刺激全局属性）是基础证据；Fries 2015 CTC 框架有猕猴实验支持；Garrett & Halgren 2024 提供语言绑定的 co-ripples 证据。但 Costa & Castelo-Branco 2024 发现视觉整合时γ反而降低（与假说相反）；Shadlen & Movshon 1999 批评因果证据缺失；因果实验至今极为有限。多方证据不一致，定为contested/medium"
-    },
-    {
-      "slug": "gamma-oscillations",
-      "status": "established",
-      "confidence": "high",
-      "supporting_sources": 12,
-      "last_changed": "2026-06-25",
-      "reason": "修订（revision #2）：原有工作记忆维度保持established/high（Lundqvist 2016等）；新增绑定维度：Gray & Singer 1989（机制发现，经典重复实验）、Buzsáki & Wang 2012（权威机制综述）、Fries 2015（CTC框架，高引用率）；新增 ING-PING 转换（Williams 2026）。核心机制（PING机制、PV中间神经元的关键性）证据充分，定为established/high；绑定假说子维度仍为contested，但不改变整体status"
-    },
-    {
-      "slug": "adult-neurogenesis",
-      "current_status": "emerging",
-      "confidence": "medium",
-      "last_changed": "2026-06-26",
-      "change_reason": "新建页面。啮齿类证据established，人类证据emerging",
-      "source_article": "2026-06-26-adult-neurogenesis-dentate-gyrus"
-    },
-    {
-      "slug": "thalamic-firing-modes",
-      "page": "wiki/neurons/thalamic-firing-modes.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-06-30",
-      "change_reason": "创建：Borden 2022 因果实验（清醒小鼠光遗传），Whitmire 2016 连续谱模型，Sherman 2001 经典框架。核心机制（双模切换、FSU同步、时序门控）有多篇独立证据支持，定为established。"
-    },
-    {
-      "slug": "t-type-calcium-channels",
-      "page": "wiki/neurons/t-type-calcium-channels.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-06-30",
-      "change_reason": "创建：CaV3.1 KO实验（Bayazitov 2013）、PLCβ4 KO失神模型（Cheong 2009）提供强遗传因果证据。T型通道在视丘的核心分子角色为教科书级知识，定为established。"
-    },
-    {
-      "slug": "astrocyte",
-      "page": "wiki/systems/astrocyte.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-02",
-      "change_reason": "新建（文章 #68，2026-07-02）。星形胶质细胞的基本形态（泡状突起覆盖 57% 突触，Zhou 2019）和谷氨酸-谷氨酰胺循环（EAAT2 ~80% 摄取）是教科书级知识。D-丝氨酸作为 NMDAR 共激动剂（Panatier 2006，皮层主要共激动剂）已有多实验室独立确认。三方突触概念（Araque 1999）有 25 年实验积累。定为 established/high。"
-    },
-    {
-      "slug": "tripartite-synapse",
-      "page": "wiki/concepts/tripartite-synapse.md",
-      "status": "mainstream",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-02",
-      "change_reason": "新建（文章 #68，2026-07-02）。三方突触框架（Araque 1999）的双向信号传导有大量电生理和成像证据支持（星形胶质细胞 Ca²⁺ 响应、gliotransmitter 释放均已被多次重复）。但胶质细胞在每个突触类型中的参与程度异质性大，体内生理条件下的真实贡献仍有争议。定为 mainstream/high（而非 established，因为体内证据仍弱于体外）。"
-    },
-    {
-      "slug": "d-serine",
-      "page": "wiki/concepts/d-serine.md",
-      "status": "mainstream",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-02",
-      "change_reason": "新建（文章 #68，2026-07-02）。D-丝氨酸作为皮层/海马 NMDAR 主要共激动剂（vs 甘氨酸）的证据充分（Panatier 2006 膜片钳，Mothet 2000 外消旋酶 KO）。Henneberger 2010 因果证明 Ca²⁺ 依赖的星形胶质细胞释放是 LTP 必要条件。但精确的释放机制（胞吐 vs VRAC vs 通道）存在 C-2026-07-02-01 争议，故整体定为 mainstream/high。"
-    },
-    {
-      "slug": "gliotransmitter",
-      "page": "wiki/concepts/gliotransmitter.md",
-      "status": "mainstream",
-      "confidence": "medium",
-      "revision_count": 1,
-      "last_changed": "2026-07-02",
-      "change_reason": "新建（文章 #68，2026-07-02）。胶质递质（D-丝氨酸、ATP、谷氨酸）的功能性存在有广泛证据。但谷氨酸的 Ca²⁺ 依赖胞吐在生理条件下是否真实发生，存在 C-2026-07-02-01 直接矛盾（Parpura 1994 vs Fiacco 2007/Bhatt 2009）。定为 mainstream/medium，反映功能有支持但关键机制存争议。"
-    },
-    {
-      "slug": "astrocyte-calcium-signaling",
-      "page": "wiki/concepts/astrocyte-calcium-signaling.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-02",
-      "change_reason": "新建（文章 #68，2026-07-02）。mGluR5→Gq→PLC→IP₃→ER Ca²⁺ 释放的信号通路，以及 IP3R2 KO 小鼠（Agulhon 2008）对胞内 Ca²⁺ 波的消除实验，构成强有力的因果证据。钙波传播速度（15–27 μm/s）和介质（connexin43）已由多项独立成像实验确认。定为 established/high。"
-    },
-    {
-      "slug": "glutamate-glutamine-cycle",
-      "page": "wiki/concepts/glutamate-glutamine-cycle.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-02",
-      "change_reason": "新建（文章 #68，2026-07-02）。谷氨酸-谷氨酰胺循环（EAAT2 摄取→GS 转化→SNAT3 输出→神经元 PAG 再转化）是突触传递维持的基础机制，由多层次证据（³H示踪、同位素标记、基因敲除）确立。EAAT2 承担约 80% 的突触后摄取是反复测量的结果。定为 established/high。"
-    },
-    {
-      "slug": "memory-allocation",
-      "page": "wiki/concepts/memory-allocation.md",
-      "status": "mainstream",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-05",
-      "change_reason": "首次创建（2026-07-05，文章 #73）。CREB→兴奋性→分配机制由 Han 2007（Science，PMID:17446403）首次证明并已被多个实验室在不同脑区（LA、DG、CA1）重复；Han 2009 选择性消融实验（PMID:19286560）提供了分配细胞因果必要性的直接证明；Josselyn & Frankland 2018（PMC9623596）系统综述提供了整合框架；Park 2016（PMC5101572）扩展到海马 DG；Tarulli 2025（PMC12754038）揭示表观遗传前置层。设为 mainstream（非 established）因为表观遗传层是新结果（需独立复验），且内源性 CREB 的自然分配效应仍是开放问题（Q-alloc-01）"
-    },
-    {
-      "slug": "memory-linking",
-      "page": "wiki/concepts/memory-linking.md",
-      "status": "emerging",
-      "confidence": "medium",
-      "revision_count": 1,
-      "last_changed": "2026-07-05",
-      "change_reason": "首次创建（2026-07-05，文章 #73）。记忆联结机制有来自 CA1 单细胞钙成像（Cai 2016，PMC5063500，Nature）的直接证据：5h 内两情境显著重叠，7天降至机会水平；Jung 2023（PMC10842737）用 scFLARE2 精确确认 3h 联结 vs 27h 不联结边界；老年缺陷+DREADD 救援提供了因果证据。设为 emerging（非 mainstream）因为：(a) 主要来自啮齿类实验，人类证据有限；(b) 联结窗口的分子机制（Q-alloc-02）尚不清楚；(c) PV+ 侧向抑制的记忆联结角色来自综述引用，未经独立直接证明"
-    },
-    {
-      "slug": "circadian-clock",
-      "page": "wiki/concepts/circadian-clock.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-08",
-      "change_reason": "新建（文章 #76，2026-07-08）。TTFL 分子振荡器（CLOCK/BMAL1→Per/Cry→PER/CRY 复合物抑制→约 24h 振荡）是有四十余年多物种、多层次验证的核心机制，2017 年诺贝尔奖认可；CKIδ/ε 磷酸化周期调控有多个 tau 突变因果实验支持（Lowrey 2000, Toh 2001）；REV-ERBα/ROR 辅助环由多实验室独立证实。定为 established/high。"
-    },
-    {
-      "slug": "scn-circadian-pacemaker",
-      "page": "wiki/systems/scn-circadian-pacemaker.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-08",
-      "change_reason": "新建（文章 #76，2026-07-08）。SCN 为主时钟的证据：（1）双侧 SCN 消融→节律全面丧失（多物种独立重复）；（2）胚胎 SCN 移植→节律恢复且周期由供体决定（Ralph 1990, PMID:1546306, Science）；（3）ipRGC→RHT→SCN 光输入通路由黑视素发现（Berson 2002, PMID:11805301）和多项解剖+因果实验确立。定为 established/high。"
-    },
-    {
-      "slug": "lateral-habenula",
-      "page": "wiki/systems/lateral-habenula.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-11",
-      "change_reason": "新建（文章 #79，2026-07-11）。LHb 的解剖功能已由数十年电生理研究（Matsumoto & Hikosaka 2007, PMID:17522629，直接单神经元记录负 RPE）确立；LHb→RMTg→DA 回路有 Hong 2011（PMID:21832176）灵长类三脑区同步记录+电刺激因果证据（94% DA 被抑制）；LHb 在慢性应激/抑郁中的爆发放电有 Li 2011/2013、Yang 2018、Cui 2018 多重机制因果实验支持；Wang 2024（PMID:38863324）三条输出子回路有光遗传因果解析。主要不确定性：(1) NMDAR 在 LHb 爆发中的物种普遍性（C-2026-07-11-01）；(2) 人类直接神经回路证据（目前主要来自啮齿类/灵长类）。整体 established/high，药理干预（氯胺酮）路径 mainstream。"
-    },
-    {
-      "slug": "rmtg",
-      "page": "wiki/systems/rmtg.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-11",
-      "change_reason": "新建（文章 #79，2026-07-11）。RMTg 作为 LHb→DA 负反馈中继的证据由 Hong 2011（PMID:21832176）灵长类三区同步记录+电刺激直接确立（LHb→RMTg 谷氨酸能，RMTg→VTA/SNc GABA 能，94% DA 被抑制）。Jhou 2009 的解剖描述（PMID:19204131）和多项 GABA 能中继验证支持 established/high。"
-    },
-    {
-      "slug": "burst-firing-lhb",
-      "page": "wiki/concepts/burst-firing-lhb.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-11",
-      "change_reason": "新建（文章 #79，2026-07-11）。LHb 爆发放电的两种机制均有直接实验证据：(1) βCaMKII↑→GluA1-AMPAR↑→突触增强机制由 Li 2013（PMID:23990563，光遗传因果）确立，高置信；(2) Kir4.1 星形胶质细胞失调→K⁺ 堆积→超极化→T 型 Ca²⁺ 爆发机制由 Cui 2018（PMID:29446379）确立，但论文为 paywall；Yang 2018（PMID:29446381）NMDAR 依赖性爆发阻断证据强（大鼠 in vivo 光遗传）。有 C-2026-07-11-01 NMDAR 物种差异争议，不足以降低整体 established 状态（只影响 NMDAR 普遍性子主张）。整体 established/high，NMDAR 依赖性子声明的置信度 medium（受 C-2026-07-11-01 限制）。"
-    },
-    {
-      "slug": "precision-weighting",
-      "title": "精度加权",
-      "domain": "concepts",
-      "status": "emerging",
-      "confidence": "medium",
-      "revision_count": 2,
-      "last_updated": "2026-07-12",
-      "change_reason": "2026-07-12: Rev 2 - Added direct pharmacological evidence (Haarsma 2020 sulpiride disrupts precision weighting, FEP patients lack precision weighting). Status emerging; dopamine mechanism partially validated."
-    },
-    {
-      "slug": "substance-use-disorder",
-      "page": "wiki/diseases/substance-use-disorder.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-14",
-      "change_reason": "新建（文章 #82，2026-07-14）。Koob & Volkow 2016（PMID:27475769，PMC5705920）三阶段成瘾模型整合了数十年多物种、多物质的证据，是领域的权威框架；Volkow 2001（PMID:11572966，Science）PET 研究提供 D2 受体降低的跨物质人类证据；Nestler 2012（PMID:21338877）ΔFosB 分子开关证据在多实验室验证；Ma & Dong 2016（PMID:27135923）提供 CP-AMPA/渴求孵化的因果光遗传实验；Robinson & Berridge 2008（PMID:18640920）提供激励显著性框架支持。成瘾作为脑部疾病的临床分类是DSM-5和ICD-11的既定标准。整体 established/high；特定机制（渴求孵化在人类的直接证据、allostasis分子底物完整图谱）仍有开放问题。"
-    },
-    {
-      "slug": "deltaFosB",
-      "page": "wiki/concepts/deltaFosB.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-14",
-      "change_reason": "新建（文章 #82，2026-07-14）。ΔFosB 作为成瘾分子开关的核心证据：(1) ΔFosB 因 C 端降解域缺失而在 NAc D1-MSN 中稳定积累（Nestler 2012, PMID:21338877, PMC3301555 全文）——30天后仍可检测；(2) 下游靶基因（CDK5↑, GluA2↑, dynorphin↓, G9a↑）构成一致的分子特征，每条通路有独立验证；(3) 病毒过表达 ΔFosB→放大药物敏化（Nestler lab 多项研究）；(4) ΔFosB 与 CREB 的对抗关系在行为学上表现为急性/慢性奖励解耦。主要不确定性：ΔFosB 在运动/自然奖励中也积累，何种条件导致成瘾 vs 适应（Q-addiction-02）。整体 established/high。"
-    },
-    {
-      "slug": "incentive-salience",
-      "page": "wiki/concepts/incentive-salience.md",
-      "status": "mainstream",
-      "confidence": "medium",
-      "revision_count": 1,
-      "last_changed": "2026-07-14",
-      "change_reason": "新建（文章 #82，2026-07-14）。Wanting/Liking 分离的核心证据：(1) 多巴胺耗竭（6-OHDA）大鼠不再主动寻觅食物但吃到嘴里仍表现享乐反应（Berridge & Robinson 1998）——最有力的双解离证据；(2) L-DOPA 治疗增强 Wanting 行为而不改变 Liking 评分（Robinson & Berridge 2008, PMC2607325）；(3) NAc 壳区 μ-阿片/内源大麻素'热点'介导 Liking（≠ Wanting 底物）。设为 mainstream/medium（非 established）原因：(a) 在人类的直接测量困难，主要依赖间接行为指标；(b) 奖励预测误差（DA-RPE）与激励显著性框架整合尚未完全厘清；(c) 部分研究发现 DA 也影响 Liking（小规模研究）。"
-    },
-    {
-      "slug": "incubation-of-craving",
-      "page": "wiki/concepts/incubation-of-craving.md",
-      "status": "established",
-      "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-07-14",
-      "change_reason": "新建（文章 #82，2026-07-14）。渴求孵化现象的证据：(1) Pickens & Shaham 2011 综述系统记录了古柯碱、甲基苯丙胺、海洛因等物质的 6-7 周渴求峰值（多实验室重复）；(2) CP-AMPA 插入时程与渴求峰值对应（Conrad 2008，pharmacological evidence）；(3) Ma & Dong 2016（PMID:27135923, PMC4862637）光遗传 LTD 重置 BLA→NAc 静默突触 → 消除孵化行为（直接因果实验，最高标准证据）；(4) BLA→NAc 投射特异性有解剖定位证据。整体 established/high；主要不确定性：人类戒断期渴求峰值的精确时间线（与啮齿类时间尺度差异）；自然奖励渴求孵化的动态是否遵循相同机制。"
-    }
-  ],
-  "embodied-semantics": {
-    "status": "contested",
-    "confidence": "medium",
-    "revision_count": 2,
-    "last_change": "2026-07-16",
-    "change_reason": "rev2（文章 #84，2026-07-16）：新增C3模型（PMID:28480333）对Hub-and-Spoke调和立场的计算支撑；具身语义作为'辐条'在C3框架中获得了明确地位（涌现属性而非先天模块）。状态维持 contested/medium，因为运动激活是否对词义理解有因果必要性仍未解决（Q-emb-01）。",
-    "key_sources": [
-      "PMID:14741110",
-      "PMID:15733097",
-      "PMID:23574587",
-      "PMID:34252418",
-      "PMID:28480333"
-    ]
-  },
-  "semantic-memory-hub": {
+[
+  {
+    "slug": "default-mode-network",
     "status": "mainstream",
     "confidence": "high",
-    "revision_count": 1,
-    "last_change": "2026-07-16",
-    "change_reason": "首次创建（文章 #84，2026-07-16）。Hub-and-spoke模型支撑证据充分且多元：(1) 语义痴呆临床证据（多实验室，高质量）；(2) ATL rTMS双离解因果证据（Pobric 2010, t₈=3.3，p<0.05）；(3) ATL→spoke不对称连接（Chiou 2019, DCM, t₁₉=5.11, n=20）；(4) ATL双侧主导（97项fMRI研究ALE元分析）；(5) C3计算模型预测性验证。设为mainstream/high（非established）原因：ATL神经元层面计算机制仍不明确（线性整合vs非线性高阶表征，Q-lang-04仍部分开放）。",
-    "key_sources": [
-      "PMID:31132452",
-      "PMID:20451381",
-      "PMID:25771223",
-      "PMID:28480333"
+    "last_changed": "2026-06-16",
+    "reason": "新建：DMN核心解剖（mPFC/PCC/MTL/IPL）和功能（情节记忆/心智化/心理时间旅行）有多项独立研究（Raichle 2001, Fox 2005, Buckner 2008, Andrews-Hanna 2011, Buckner 2009）确立；双子系统分化有独立验证；Aβ-DMN联系有PET显像证据；DMN-TPN反相关有GSR方法论争议，故整体置信度高但存在方法论保留"
+  },
+  {
+    "slug": "alzheimers-disease",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-16",
+    "reason": "修订rev2：新增whole-brain-network维度（DMN枢纽节点Aβ优先沉积；Buckner 2009）；原有突触机制内容不变"
+  },
+  {
+    "slug": "hippocampal-circuit",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-16",
+    "reason": "修订rev7：确认MTL（海马）是DMN核心节点；关联new default-mode-network页面；原有内容不变"
+  },
+  {
+    "slug": "predictive-coding",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-06-16",
+    "reason": "修订rev2：添加DMN作为预测编码层级高层先验生成器的关联；原有框架状态不变（mainstream/medium）",
+    "last_updated": "2026-07-12",
+    "revision_count": 6,
+    "change_reason": "2026-07-12: Rev 6 - New direct neuronal evidence (PEONs, Yaron 2025) and pharmacological evidence (precision weighting + dopamine, Haarsma 2020). Hodson 2024 review cautions about limited empirical status, maintaining medium confidence."
+  },
+  {
+    "slug": "amygdala",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-05-30",
+    "reason": "杏仁核恐惧回路（LA/ITC/CeA架构）有50+年多实验室重复验证；LA-LTP因果证明（Nabavi 2014）；ITC必要性直接证据（Likhtik 2008）"
+  },
+  {
+    "slug": "fear-conditioning",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-05-30",
+    "reason": "LA-NMDA-LTP机制有30+年证据；光遗传双向因果证明（Nabavi 2014）是最高标准实验"
+  },
+  {
+    "slug": "fear-extinction",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-05-30",
+    "reason": "消退作为新学习的证据充分（自发恢复/再激活/更新三类经典现象）；IL→ITC回路有多项optogenetics确认；vmPFC预测消退的人类fMRI证据多个独立研究"
+  },
+  {
+    "slug": "global-workspace-theory",
+    "page": "wiki/theories/global-workspace-theory.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-05-30",
+    "reason": "初始创建：GWT 核心框架已是神经科学主流理论（多方法、多实验室证据），但 COGITATE 2025 挑战了 PFC 点燃的具体预测，P3b 地位存疑；confidence=medium 反映理论整体可靠但机制细节争议多"
+  },
+  {
+    "slug": "consciousness-ignition",
+    "page": "wiki/concepts/consciousness-ignition.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-05-30",
+    "reason": "初始创建：点燃现象的核心证据（行为双峰、MEG分叉、猕猴单单元）汇聚支持全有全无机制，但 P3b 地位存疑（无报告范式），COGITATE 2025 对 PFC 角色提出新问题；confidence=medium"
+  },
+  {
+    "slug": "sharp-wave-ripples",
+    "title": "尖波涟漪（SWR）",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-19",
+    "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性证据（光遗传增强SWR→改善记忆）、Yang 2024清醒SWR标记功能、Giri 2024睡眠剥夺分离证据进一步巩固established地位",
+    "page": "wiki/concepts/sharp-wave-ripples.md",
+    "reason": "Revised: added sleep-spindles/cortical-slow-oscillation links; triple coupling context"
+  },
+  {
+    "slug": "memory-consolidation",
+    "title": "记忆巩固（系统层面）",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-19",
+    "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性和Chang 2025睡眠微结构新证据补充",
+    "page": "wiki/concepts/memory-consolidation.md",
+    "reason": "Revised: deepened SO-spindle mechanism with thalamocortical circuit detail; Latchoumane 2017 causal evidence"
+  },
+  {
+    "slug": "temporal-hierarchy",
+    "title": "时间层级编码",
+    "page": "wiki/concepts/temporal-hierarchy.md",
+    "domain": "concepts",
+    "current_status": "mainstream",
+    "current_confidence": "high",
+    "history": [
+      {
+        "date": "2026-05-31",
+        "status": "mainstream",
+        "confidence": "high",
+        "reason": "描述性框架，各组成机制（突触传递速度、NMDA窗口、θ振荡、SWR、系统巩固）均有独立高质量证据支持；框架本身是整合性组织工具而非可证伪理论，置信度高是对其描述准确性的评估"
+      }
     ]
   },
-  "conceptual-space-geometry": {
+  {
+    "slug": "sleep-spindles",
+    "page": "wiki/concepts/sleep-spindles.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-19",
+    "reason": "Created. TRN CaV3.3 mechanism established (Lee 2013, Fernandez 2019); triple coupling causal evidence (Latchoumane 2017); human validation (Jiang 2019). Fast/slow functional distinction: emerging."
+  },
+  {
+    "slug": "thalamocortical-circuit",
+    "page": "wiki/circuits/thalamocortical-circuit.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-19",
+    "reason": "Created. TRN-TC oscillation loop well-established; Core/Matrix pathway: mainstream. Modulation by ACh: established."
+  },
+  {
+    "slug": "cortical-slow-oscillation",
+    "page": "wiki/concepts/cortical-slow-oscillation.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-19",
+    "reason": "Created. SO-spindle-SWR triple nesting: multiple independent validations. SO origin in PFC and propagation: established."
+  },
+  {
+    "slug": "rem-sleep",
+    "page": "wiki/concepts/rem-sleep.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-05-31",
+    "reason": "Created 2026-05-31. REM sleep as neurobiological state: established (decades of polysomnography + EEG). LC silence/NE suppression during REM: established (Aston-Jones 1981). REM theta oscillations: established. Causal role in contextual memory (Boyce 2016 optogenetics, PMID:27174984): high. LA-VH theta synchrony predicting extinction memory (Totty 2017, R=0.954): high correlational + mechanistic plausibility. Emotional memory depotentiation function (Walker SFSR): mainstream (van der Helm 2011 human fMRI; multiple converging lines). PTSD as depotentiation failure: emerging."
+  },
+  {
+    "slug": "emotional-memory-depotentiation",
+    "page": "wiki/concepts/emotional-memory-depotentiation.md",
     "status": "emerging",
     "confidence": "medium",
-    "revision_count": 1,
-    "last_change": "2026-07-16",
-    "change_reason": "首次创建（文章 #84，2026-07-16）。概念空间网格编码证据来自单实验室二维范式（Bokeria 2021综述Viganò & Piazza实验），六重对称信号统计稳健性受方向采样限制；Nau 2018视觉空间六重编码提供独立域证据；Haga 2025 DSI模型提供强理论框架（SR≡PMI数学等价）但待实验验证。设为emerging/medium（非mainstream）原因：(a) 概念空间实验复证有限（单实验室）；(b) 六重对称信号的fMRI特异性存在方法论质疑（被动导航中未检测到人类网格信号，Q-gc-04）；(c) 真实高维语义空间是否服从欧几里得六边形几何仍不确定（Q-sem-01）。",
-    "key_sources": [
-      "PMID:33603654",
-      "PMID:40063809",
-      "PMID:29311746"
-    ]
+    "last_changed": "2026-05-31",
+    "reason": "Created 2026-05-31. Core concept (REM selectively weakens emotional tone while preserving information content) supported by convergent behavioral and neuroimaging evidence (Walker 2009, van der Helm 2011). Proposed LTD-like mechanism (theta trough-driven synaptic weakening at LA) is theoretically coherent (Poe 2017) but lacks direct synaptic evidence in LA-VH circuit. PTSD as depotentiation failure: plausible but mechanistically unproven. Status: emerging (well-supported phenomenology, incomplete mechanistic chain). Anticipate upgrade to mainstream when LA-specific theta-phase LTD is demonstrated."
   },
-  "olfactory-system": {
+  {
+    "slug": "motor-cortex",
+    "page": "wiki/systems/motor-cortex.md",
     "status": "established",
     "confidence": "high",
-    "revision_count": 1,
-    "last_change": "2026-07-17",
-    "change_reason": "首次创建（文章 #85，2026-07-17）。嗅觉系统基础架构为教科书级共识：OR→嗅小球汇聚→梨状皮层路径经数十年解剖和功能研究积累；单受体表达规则由Buck & Axel 1991（Nobel 2004）建立并被后续单细胞研究充分验证；无丘脑中转路径为解剖学强证据；梨状皮层符合探测证据（中等，体内钙成像+膜片钳）。设为established/high原因：(a) 基础分子-解剖架构Nobel Prize级验证；(b) 多物种独立验证（小鼠/大鼠/人类/果蝇）；(c) 仅Q-olfact-01（表观遗传机制）在机理层面未解，不影响整体框架置信度。",
-    "key_sources": [
-      "PMID:19804753",
-      "PMID:1840504",
-      "PMID:32982699",
-      "PMID:31220213"
-    ]
+    "last_changed": "2026-06-21",
+    "reason": "Created 2026-06-21. M1/PMC/SMA anatomy and somatotopic organization: established (penfield homunculus, decades of lesion/stimulation data). Corticospinal tract as primary motor output: established. Population vector coding (Georgopoulos 1986 Science): established, widely replicated across species and labs. Rotational dynamics (Churchland 2012 Nature): mainstream, replicated with RNNs and multiple datasets. Output-null-space mechanism (Kaufman 2014 Nat Neurosci): mainstream, strong experimental validation. Mirror neurons in F5 (Gallese/Rizzolatti 1996): established in macaque, human evidence more limited. Dynamical engine vs. parameter-map debate: active research. Overall status: established (core motor functions); individual mechanisms at mainstream level."
   },
-  "olfactory-receptor-neuron": {
+  {
+    "slug": "population-vector-coding",
+    "page": "wiki/concepts/population-vector-coding.md",
     "status": "established",
     "confidence": "high",
-    "revision_count": 1,
-    "last_change": "2026-07-17",
-    "change_reason": "首次创建（文章 #85，2026-07-17）。ORN分子机制经三十年研究高度确立：Buck & Axel 1991克隆OR家族（Nobel 2004）→单细胞原位杂交验证单受体表达规则→CNG通道电生理特征明确→Xue 2025冷冻电镜解析CNG通道原子结构（CNGA2₂/CNGA4/CNGB1b 2:1:1）→Anoctamin2/TMEM16B作为Cl⁻放大器经KO实验证实→CaM双位点快速适应经冷冻电镜+电生理验证。设为established/high：所有关键机制均有多实验室独立验证，CNG通道原子结构已解，是感觉生理学中机制最清晰的细胞类型之一。",
-    "key_sources": [
-      "PMID:19804753",
-      "PMID:1840504",
-      "PMID:41131016",
-      "PMID:19822638"
-    ]
+    "last_changed": "2026-06-21",
+    "reason": "Created 2026-06-21. Cosine tuning of individual M1 neurons: established (Georgopoulos 1982, 1984, widely replicated). Population vector sum predicting movement direction: established (Georgopoulos 1986 Science, multiple replication labs). Mental rotation analog in neural activity at ~732°/s: established (Georgopoulos 1989 Science). Limitations: coding scheme may be incomplete (doesn't fully explain complex trajectories); rotational dynamics framework challenges strict PV interpretation. Status: established as foundational framework, ongoing refinement."
   },
-  "olfactory-glomerulus": {
-    "status": "established",
+  {
+    "slug": "rotational-dynamics-motor",
+    "page": "wiki/concepts/rotational-dynamics-motor.md",
+    "status": "mainstream",
     "confidence": "high",
-    "revision_count": 1,
-    "last_change": "2026-07-17",
-    "change_reason": "首次创建（文章 #85，2026-07-17）。嗅小球解剖和功能已高度确立：OR→嗅小球汇聚（基因示踪验证，PMID:19804753）；~5000 ORN/嗅小球汇聚数量（电镜+基因标记，PMID:19804753）；嗅小球位置跨个体保守（功能成像+解剖对比）；梨状皮层只接受僧帽细胞轴突（追踪研究，PMID:32982699）；颗粒细胞侧抑制增强气味判别（电生理+光遗传）。设为established/high：核心事实经多实验室独立验证；唯一中等证据项为嗅小球作为信号噪声增强装置的定量验证（计算模型+有限电生理，PMID:16841172）。",
-    "key_sources": [
-      "PMID:19804753",
-      "PMID:32982699",
-      "PMID:16841172"
-    ]
+    "last_changed": "2026-06-21",
+    "reason": "Created 2026-06-21. Rotational structure in M1 population activity during movement (Churchland 2012 Nature, n=218 neurons): well-validated, 2-2.8 Hz frequency, 28% variance explained. Key prediction confirmed: frequency invariant across movement speeds. RNN spontaneous replication (Sussillo 2015) provides strong theoretical grounding. Multiple follow-up papers validate. Primary challenger: rotations may be epiphenomenal rather than causal. Status: mainstream (strong empirical base, active debate on causal role). Would upgrade to established if causal intervention (frequency-specific perturbation) confirmed behavioral relevance."
   },
-  "auditory-cortex": {
-    "status": "established",
+  {
+    "slug": "output-null-space",
+    "page": "wiki/concepts/output-null-space.md",
+    "status": "mainstream",
     "confidence": "high",
-    "revision_count": 1,
-    "last_change": "2026-07-18",
-    "change_reason": "首次创建（文章 #86，2026-07-18）。A1音调拓扑是高度确立的神经科学事实（多物种、多方法、60年以上研究）；全局tonotopy梯度、等频率带组织、MGN vMGN输入是教科书知识。核心-腰带-副腰带（core-belt-parabelt）层级组织在非人灵长类解剖学和电生理学中高度确立，人类fMRI/MEG已获验证（Benner 2023，PMID:36786655）。局部异质性来自复杂感受野神经元这一结论来自双光子成像直接证据（Gaucher 2020，PMID:32420865）；A1/A2并行双流假说（Kline 2023）为中等置信度（小鼠数据，人类待验证）。整体设为established/high，但A1/A2计算架构（并行vs串行）细节为emerging。",
-    "key_sources": [
-      "PMID:32420865",
-      "PMID:37169827",
-      "PMID:36786655"
-    ]
+    "last_changed": "2026-06-21",
+    "reason": "Created 2026-06-21. Linear model M≈WN (output = weighted sum of neural activity): well-validated in motor cortex. Mathematical null space = ker(W): rigorous. Empirical finding that preparatory activity avoids output-potent space (Kaufman 2014 Nat Neurosci): strong experimental design with direct test. Tuning ratio ~4.5× (PMd > M1 during prep): quantitative, replicable. 96% cancellation via coordinated population activity: compelling. Broader applicability to other cortical areas: emerging. Status: mainstream (strong original paper + theoretical coherence; awaits multi-lab replication and test in non-motor contexts)."
   },
-  "tonotopy": {
-    "status": "established",
-    "confidence": "high",
-    "revision_count": 1,
-    "last_change": "2026-07-18",
-    "change_reason": "首次创建（文章 #86，2026-07-18）。基底膜行波和频率-位置映射（von Békésy，Nobel 1961）是神经科学最高度确立的事实之一。OHC Prestin主动放大（Fisher 2012，PMID:23217746，靶向光灭活因果证明）；TMC1底端-顶端电导梯度（Liu 2021，PMID:33871677，多实验室KO+膜片钳）；皮层tonotopy（多物种成像）。三层机制（力学/分子/皮层）均有直接实验证据。设为established/high；TMC1梯度的发育机制为emerging（Q-aud-04）。",
-    "key_sources": [
-      "PMID:23217746",
-      "PMID:33871677",
-      "PMID:32420865"
-    ]
-  },
-  "ribbon-synapse": {
-    "status": "established",
-    "confidence": "high",
-    "revision_count": 1,
-    "last_change": "2026-07-18",
-    "change_reason": "首次创建（文章 #86，2026-07-18）。带状突触的存在和基本结构（RIBEYE蛋白、突触带支架、CaV1.3触发）是经典听觉神经科学知识；Pillar/Modiolar侧不对称及三型SGN分子分类（Moser 2023，PMID:37800695）由超分辨率成像+scRNA-seq证明（近期）。动态范围分解（并行强度编码）理论与实验结合一致（Rutherford 2021，PMID:33644871）。设为established/high；Pillar/Modiolar不对称的发育建立机制（GPR156/Gai通路）仍为emerging。",
-    "key_sources": [
-      "PMID:37800695",
-      "PMID:33644871"
-    ]
-  },
-  "phase-locking": {
-    "status": "established",
-    "confidence": "high",
-    "revision_count": 1,
-    "last_change": "2026-07-18",
-    "change_reason": "首次创建（文章 #86，2026-07-18）。相位锁定现象本身（Rose et al. 1967）是经典听觉神经生理学，多物种神经纤维记录一致。IHC膜时常数决定相位锁定上限的物理机制（Rutherford 2021，PMID:33644871）有清晰的电生理基础。TFS在音高感知中的必要性由人工耳蜗患者（无TFS）与正常听者对比实验确认。设为established/high；确切的人类相位锁定上频限（1.5 kHz vs 3 kHz vs 更高）存在测量和解释分歧（Q-aud-01），但这是定量细节，不影响基本机制的确立状态。",
-    "key_sources": [
-      "PMID:33644871",
-      "PMID:37800695"
-    ]
-  },
-  "alpha-oscillations": {
-    "status": "established",
-    "confidence": "high",
-    "last_updated": "2026-07-21",
-    "last_change_reason": "New page created; causal TMS evidence (Romei 2010) + multi-lab replication + cross-sensory validation (Foxe & Snyder 2011) warrant established status from creation",
-    "revision_count": 1,
-    "source_articles": [
-      "2026-07-21-alpha-oscillations-attentional-gating"
-    ]
-  },
-  "cortical-layers": {
-    "status": "established",
-    "confidence": "high",
-    "last_change": "2026-07-23",
-    "change_reason": "创建：六层皮层结构是多物种、多实验室高度验证的教科书级解剖事实；FF/FB层间法则已被超过300条连接的定量数据支持（Felleman & Van Essen 1991；Markov 2014）",
-    "revision_count": 1
-  },
-  "canonical-microcircuit": {
-    "status": "established",
-    "confidence": "high",
-    "last_change": "2026-07-23",
-    "change_reason": "创建：Douglas-Martin 1991 规范微回路经超过30年多物种（猫/大鼠/小鼠/灵长类）独立重复验证；丘脑输入仅10-20%的量化结果是高度可重复的解剖事实；振荡分工的计算解释（Bastos 2012）仍有争议，但规范回路本身已 established",
-    "revision_count": 1
-  },
-  "barrel-cortex": {
-    "status": "established",
-    "confidence": "high",
-    "last_change": "2026-07-23",
-    "change_reason": "rev2: 角色扩展为六层规范微回路的最精确量化验证模型系统；status/confidence 不变",
-    "revision_count": 2
-  },
-  "predictive-coding": {
+  {
+    "slug": "mirror-neurons",
+    "page": "wiki/circuits/mirror-neurons.md",
     "status": "mainstream",
     "confidence": "medium",
-    "last_change": "2026-07-23",
-    "change_reason": "rev8: 解剖底层（canonical-microcircuit）加入 related；框架完整性提升；但振荡分工的普适性争议（Q-pc-05/Q-cl-02）维持 medium confidence",
-    "revision_count": 8
+    "last_changed": "2026-06-21",
+    "reason": "Created 2026-06-21. Mirror neurons in macaque F5 (Gallese 1996, Rizzolatti 1996): established in monkey, direct single-unit recording of ~17% F5 neurons responding to both execution and observation. Goal-directed specificity: established. Human mirror neuron system: evidence from TMS, fMRI, mu-suppression EEG - all indirect (no single-unit human data). F5/BA44 homology and language evolution hypothesis: plausible but speculative. Controversy about whether human 'mirror system' truly reflects same mechanism as macaque mirror neurons. Status: mainstream with medium confidence due to strong monkey data but indirect human evidence; language evolution hypothesis remains speculative (emerging level)."
   },
-  "time-cells": {
+  {
+    "slug": "place-cells",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-22",
+    "reason": "新建：诺贝尔奖研究（O'Keefe 1971）；场所细胞的位置选择性在多物种、多实验室反复验证；θ相位前移（O'Keefe & Recce 1993）有50+年研究支撑；仅少数细节（网格→场所确切机制）待完整阐明"
+  },
+  {
+    "slug": "grid-cells",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-22",
+    "reason": "新建：诺贝尔奖研究（Hafting 2005）；六边形格点已在多物种验证；离散模块结构已确认（Stensola 2012）；人类fMRI六边形信号有多项研究支持；生成机制（CAN vs OI）仍争议，但现象本身established"
+  },
+  {
+    "slug": "path-integration",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-22",
+    "reason": "新建：暗室导航实验证据充分；联合细胞解剖证据（Sargolini 2006）强；CAN模型是主流；漂移与地标锚定的行为证据有多项研究"
+  },
+  {
+    "slug": "cognitive-map",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-06-22",
+    "reason": "新建：物理空间层（场所/网格）established；情节记忆扩展广泛接受；抽象概念空间泛化（Bellmund 2016, Qu 2026）支持中等，需更多独立验证，故定为mainstream而非established"
+  },
+  {
+    "slug": "theta-phase-precession",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-22",
+    "reason": "新建：O'Keefe & Recce 1993经典；多物种（大鼠、蝙蝠、人类ECoG）验证；速率-相位双重编码共识；机制争议（OI vs dual-path input）不影响现象的established状态"
+  },
+  {
+    "slug": "entorhinal-cortex",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-22",
+    "reason": "新建：MEC功能解剖（网格/联合细胞层级）established；海马主输入门户established；Braak分期（AD最早皮层靶点）established；人类证据（fMRI + iEEG）中-高"
+  },
+  {
+    "slug": "pattern-completion",
     "status": "established",
     "confidence": "high",
     "supporting_sources": 4,
-    "last_status_change": "2026-07-24",
-    "change_reason": "创建 2026-07-24（文章 #92）。MacDonald 2011（PMID:21867888，PMC开放）是经典实验；Pastalkova 2008（PMID:18772431）提供前驱证据；Eichenbaum 2014综述（PMC开放）；Umbach 2020（PMID:33109718）提供人类直接颅内记录。时间细胞已在多物种（大鼠/猴/人）、多任务类型中重复验证，达到established标准。人类样本量偏小（27名患者），但核心机制高置信。",
-    "revision_count": 1
+    "last_changed": "2026-06-24",
+    "reason": "新建：CA3 NMDA受体依赖性对模式补全的必要性有直接因果遗传证据（Nakazawa 2002, PMID:12040087）；Leutgeb 2004体内电生理支持CA3离散吸引子状态；Treves & Rolls 1992奠基性计算框架；多实验室重复验证，教科书级共识。故定为established/high"
   },
-  "speed-cells": {
+  {
+    "slug": "pattern-separation",
     "status": "established",
     "confidence": "high",
-    "supporting_sources": 3,
-    "last_status_change": "2026-07-24",
-    "change_reason": "创建 2026-07-24（文章 #92）。Kropff 2015（Nature，诺贝尔团队）发现速度细胞；线性速度编码和环境无关性高置信；Carvalho 2020（PMC开放）提供脑干通路的光遗传因果证据；多实验室重复。前瞻性时间偏置（~50-80ms）的精确数值有待更多验证，但整体established。人类直接证据缺失（Q-tc-02），但这不影响大鼠的established状态。",
-    "revision_count": 1
+    "supporting_sources": 4,
+    "last_changed": "2026-06-24",
+    "reason": "新建：DG稀疏活动（<5%颗粒细胞）和全局重映射（Leutgeb 2007, PMID:17303747）有直接体内电生理证据；Sahay 2011有基因因果证据（增加神经发生→选择性改善模式分离）；计算原理（扩张重编码）被广泛验证。故定为established/high"
   },
-  "_last_updated": "2026-07-24",
-  "anterior-insula": {
-    "status": "established",
-    "confidence": "high",
-    "last_changed": "2026-07-26",
-    "reason": "创建；AIC 在共情中的因果必要性有损伤研究支持（Gu 2012）；内感受功能有多重独立研究确认；后→前层级是神经解剖学共识"
-  },
-  "empathy": {
-    "status": "established",
-    "confidence": "high",
-    "last_changed": "2026-07-26",
-    "reason": "创建；情感共情的前岛叶基础有元分析级证据（Fallon 2020）；情感 vs 认知共情双解离有临床和实验支持；整体框架已成为领域共识"
-  },
-  "interoception": {
-    "status": "established",
-    "confidence": "high",
-    "last_changed": "2026-07-26",
-    "reason": "创建；内感受功能解剖（后→前梯度）是神经解剖学共识；Craig 层级框架被广泛接受；EPIC 模型是影响力极大的理论框架（Nat Rev Neurosci，大量实验支持）"
-  },
-  "von-economo-neurons": {
-    "status": "emerging",
+  {
+    "slug": "attractor-network",
+    "status": "mainstream",
     "confidence": "medium",
-    "last_changed": "2026-07-26",
-    "reason": "创建；形态和物种分布高置信度确认；bvFTD 相关证据为中等（相关性，非因果性）；VEN 在共情中的因果机制缺乏直接实验；故 status=emerging（相关性证据多，机制证据少）"
+    "supporting_sources": 3,
+    "last_changed": "2026-06-24",
+    "reason": "新建：Hopfield网络（1982）数学严格；CA3作为吸引子网络的理论框架（Treves & Rolls 1992）获广泛认可；与Transformer注意力等价的数学证明（Ramsauer 2021）严格；但'CA3是吸引子网络'的直接体内证明（伪吸引子、容量限制等预测）尚未完全验证。故定为mainstream/medium"
   },
-  "bla-valence-circuits": {
-    "status": "established",
-    "confidence": "high",
-    "last_changed": "2026-07-30",
-    "reason": "创建 2026-07-30（文章 #98）。BLA-NAc vs BLA-CeA 投射的对立突触可塑性由 Namburi et al. 2015（Nature，多实验室重复）直接证明，光遗传行为验证（NAc投射自我刺激/CeA投射位置厌恶）因果性强；Beyeler 2016（Neuron）光标记在体记录证实比例差异（77% vs 100%）；Ppp1r1b+/Rspo2+遗传身份在小鼠多实验室确认；BLA-OFC四向协作（Wassum 2022）有大量行为药理学支持。整体框架 established，但人类直接证据和 Ppp1r1b+/Rspo2+ 人类等价物仍为 emerging。"
+  {
+    "slug": "complementary-learning-systems",
+    "status": "mainstream",
+    "confidence": "medium",
+    "supporting_sources": 3,
+    "last_changed": "2026-06-24",
+    "reason": "新建：CLS理论框架（O'Reilly & McClelland 1994, McClelland et al. 1995）在神经科学和AI领域广泛引用；海马损伤→情景记忆选择性缺失的经典证据支持快/慢双系统分工；SWR重放的因果证据（Girardeau 2009）支持海马→皮层知识转移；但记忆转移的精确时间线和分子机制仍有争议。故定为mainstream/medium"
   },
-  "cerebellar-ltd": {
+  {
+    "slug": "binding-by-synchrony",
     "status": "contested",
     "confidence": "medium",
-    "last_changed": "2026-08-01",
-    "reason": "修订 2026-08-01（文章 #100）。分子机制（mGluR1→PKC→GluA2 S880磷酸化→PICK1→AMPAR内吞）高置信度确立（mGluR1 KO实验，多实验室验证）。但 Schonewille et al. 2011（PMC3104468，Neuron，三种独立基因突变）证明阻断 LTD 不影响 VOR/眼睑/步态学习，使 LTD 的运动学习必要性进入 contested 状态。Suvrathan 2018 的区域异质性研究（120ms窗口）支持 LTD 在特定区域的功能性，但也说明没有单一 LTD 规则。综合：分子机制 established，功能必要性 contested。status=contested 反映这一内部张力。revision_count=2。"
+    "supporting_sources": 5,
+    "last_changed": "2026-06-25",
+    "reason": "新建：Gray & Singer 1989 的经典发现（跨皮层柱伽马同步依赖刺激全局属性）是基础证据；Fries 2015 CTC 框架有猕猴实验支持；Garrett & Halgren 2024 提供语言绑定的 co-ripples 证据。但 Costa & Castelo-Branco 2024 发现视觉整合时γ反而降低（与假说相反）；Shadlen & Movshon 1999 批评因果证据缺失；因果实验至今极为有限。多方证据不一致，定为contested/medium"
   },
-  "purkinje-cell": {
+  {
+    "slug": "gamma-oscillations",
     "status": "established",
     "confidence": "high",
-    "last_changed": "2026-08-01",
-    "reason": "创建 2026-08-01（文章 #100）。PC 形态（~150,000 PF 突触、1:1 CF 单一支配）是百年解剖学共识，超分辨成像验证；双重放电（simple ~50-100Hz / complex ~1Hz）有多物种体内记录支持；GABAergic 输出到 DCN 是小脑回路的核心解剖事实。LTD 作为学习机制的必要性 contested（Schonewille 2011），但 PC 作为可塑性发生的细胞位点 established。"
+    "supporting_sources": 12,
+    "last_changed": "2026-06-25",
+    "reason": "修订（revision #2）：原有工作记忆维度保持established/high（Lundqvist 2016等）；新增绑定维度：Gray & Singer 1989（机制发现，经典重复实验）、Buzsáki & Wang 2012（权威机制综述）、Fries 2015（CTC框架，高引用率）；新增 ING-PING 转换（Williams 2026）。核心机制（PING机制、PV中间神经元的关键性）证据充分，定为established/high；绑定假说子维度仍为contested，但不改变整体status"
   },
-  "climbing-fiber-error-signal": {
-    "status": "established",
-    "confidence": "high",
-    "last_changed": "2026-08-01",
-    "reason": "创建 2026-08-01（文章 #100）。CF 携带误差信号的功能角色由 Ito 2013（PMC3579189）综合多物种数据确认；Soetedjo 2019（PMC6620692）提供了最精确的时序量化（80–120ms，SC→IO 14.4ms，误差方向/大小编码）；绒球 120ms 窗口（Suvrathan 2018，PMC6550343）将 CF 时序与行为感觉延迟精确对应。CF 作为精密误差时钟的证据高置信度，但其在认知小脑（Crus I/II）的等价物仍 emerging（Q-cb-05）。"
-  },
-  "expansion-coding": {
-    "status": "established",
+  {
+    "slug": "adult-neurogenesis",
+    "current_status": "emerging",
     "confidence": "medium",
-    "last_changed": "2026-08-01",
-    "reason": "创建 2026-08-01（文章 #100）。颗粒细胞层 200:1 扩展比是解剖学事实（高置信度）；GluA4 KO（Kita 2021，PMC8291978，eLife）：MF-GC 电流↓80%、放电频率↓44%、眼睑条件反射完全消失——直接因果证明膨胀编码对联合学习的必要性。计算模型（稀疏高维表征→模式分离）与 Marr 理论一致。置信度 medium（而非high）是因人类小脑颗粒细胞的直接功能研究缺失；GluA4 KO效应的具体维度（时序精度 vs 稀疏度）尚在解析中。"
+    "last_changed": "2026-06-26",
+    "change_reason": "新建页面。啮齿类证据established，人类证据emerging",
+    "source_article": "2026-06-26-adult-neurogenesis-dentate-gyrus"
   },
-  "axon-guidance": {
+  {
+    "slug": "thalamic-firing-modes",
+    "page": "wiki/neurons/thalamic-firing-modes.md",
     "status": "established",
     "confidence": "high",
-    "last_changed": "2026-08-04",
-    "reason": "创建 2026-08-04（文章 #103）。四大导向分子家族（Netrin/Slit/Semaphorin/Ephrin）的核心机制是教科书级共识，跨线虫-果蝇-小鸡-哺乳动物多物种验证；ROBO3 人类突变→HGPPS 提供了人类遗传证据；Ephrin-Eph 地形图逻辑已被多个条件敲除实验直接验证；MICAL 氧化 actin 的生化机制已解析。整体状态 established，但体内梯度测量和多信号整合规则仍 open（Q-axon-guidance-01/03）。"
+    "revision_count": 1,
+    "last_changed": "2026-06-30",
+    "change_reason": "创建：Borden 2022 因果实验（清醒小鼠光遗传），Whitmire 2016 连续谱模型，Sherman 2001 经典框架。核心机制（双模切换、FSU同步、时序门控）有多篇独立证据支持，定为established。"
   },
-  "growth-cone": {
+  {
+    "slug": "t-type-calcium-channels",
+    "page": "wiki/neurons/t-type-calcium-channels.md",
     "status": "established",
     "confidence": "high",
-    "last_changed": "2026-08-04",
-    "reason": "创建 2026-08-04（文章 #103）。生长锥的细胞生物学（板状伪足/丝状伪足结构、肌动蛋白踏车运动）是数十年活细胞显微成像建立的共识；Arp2/3 介导的分支 F-actin 网络、肌球蛋白 II 向心性流、整合素介导粘附产生推力均有大量直接证据。信号通路（DCC→Rac1/Arp2/3 吸引；Plexin GAP→R-RAS 排斥）有生化和遗传双重证据。局部 mRNA 翻译的功能贡献仍 emerging。整体 established，高置信度。"
+    "revision_count": 1,
+    "last_changed": "2026-06-30",
+    "change_reason": "创建：CaV3.1 KO实验（Bayazitov 2013）、PLCβ4 KO失神模型（Cheong 2009）提供强遗传因果证据。T型通道在视丘的核心分子角色为教科书级知识，定为established。"
+  },
+  {
+    "slug": "astrocyte",
+    "page": "wiki/systems/astrocyte.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-02",
+    "change_reason": "新建（文章 #68，2026-07-02）。星形胶质细胞的基本形态（泡状突起覆盖 57% 突触，Zhou 2019）和谷氨酸-谷氨酰胺循环（EAAT2 ~80% 摄取）是教科书级知识。D-丝氨酸作为 NMDAR 共激动剂（Panatier 2006，皮层主要共激动剂）已有多实验室独立确认。三方突触概念（Araque 1999）有 25 年实验积累。定为 established/high。"
+  },
+  {
+    "slug": "tripartite-synapse",
+    "page": "wiki/concepts/tripartite-synapse.md",
+    "status": "mainstream",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-02",
+    "change_reason": "新建（文章 #68，2026-07-02）。三方突触框架（Araque 1999）的双向信号传导有大量电生理和成像证据支持（星形胶质细胞 Ca²⁺ 响应、gliotransmitter 释放均已被多次重复）。但胶质细胞在每个突触类型中的参与程度异质性大，体内生理条件下的真实贡献仍有争议。定为 mainstream/high（而非 established，因为体内证据仍弱于体外）。"
+  },
+  {
+    "slug": "d-serine",
+    "page": "wiki/concepts/d-serine.md",
+    "status": "mainstream",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-02",
+    "change_reason": "新建（文章 #68，2026-07-02）。D-丝氨酸作为皮层/海马 NMDAR 主要共激动剂（vs 甘氨酸）的证据充分（Panatier 2006 膜片钳，Mothet 2000 外消旋酶 KO）。Henneberger 2010 因果证明 Ca²⁺ 依赖的星形胶质细胞释放是 LTP 必要条件。但精确的释放机制（胞吐 vs VRAC vs 通道）存在 C-2026-07-02-01 争议，故整体定为 mainstream/high。"
+  },
+  {
+    "slug": "gliotransmitter",
+    "page": "wiki/concepts/gliotransmitter.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_changed": "2026-07-02",
+    "change_reason": "新建（文章 #68，2026-07-02）。胶质递质（D-丝氨酸、ATP、谷氨酸）的功能性存在有广泛证据。但谷氨酸的 Ca²⁺ 依赖胞吐在生理条件下是否真实发生，存在 C-2026-07-02-01 直接矛盾（Parpura 1994 vs Fiacco 2007/Bhatt 2009）。定为 mainstream/medium，反映功能有支持但关键机制存争议。"
+  },
+  {
+    "slug": "astrocyte-calcium-signaling",
+    "page": "wiki/concepts/astrocyte-calcium-signaling.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-02",
+    "change_reason": "新建（文章 #68，2026-07-02）。mGluR5→Gq→PLC→IP₃→ER Ca²⁺ 释放的信号通路，以及 IP3R2 KO 小鼠（Agulhon 2008）对胞内 Ca²⁺ 波的消除实验，构成强有力的因果证据。钙波传播速度（15–27 μm/s）和介质（connexin43）已由多项独立成像实验确认。定为 established/high。"
+  },
+  {
+    "slug": "glutamate-glutamine-cycle",
+    "page": "wiki/concepts/glutamate-glutamine-cycle.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-02",
+    "change_reason": "新建（文章 #68，2026-07-02）。谷氨酸-谷氨酰胺循环（EAAT2 摄取→GS 转化→SNAT3 输出→神经元 PAG 再转化）是突触传递维持的基础机制，由多层次证据（³H示踪、同位素标记、基因敲除）确立。EAAT2 承担约 80% 的突触后摄取是反复测量的结果。定为 established/high。"
+  },
+  {
+    "slug": "memory-allocation",
+    "page": "wiki/concepts/memory-allocation.md",
+    "status": "mainstream",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-05",
+    "change_reason": "首次创建（2026-07-05，文章 #73）。CREB→兴奋性→分配机制由 Han 2007（Science，PMID:17446403）首次证明并已被多个实验室在不同脑区（LA、DG、CA1）重复；Han 2009 选择性消融实验（PMID:19286560）提供了分配细胞因果必要性的直接证明；Josselyn & Frankland 2018（PMC9623596）系统综述提供了整合框架；Park 2016（PMC5101572）扩展到海马 DG；Tarulli 2025（PMC12754038）揭示表观遗传前置层。设为 mainstream（非 established）因为表观遗传层是新结果（需独立复验），且内源性 CREB 的自然分配效应仍是开放问题（Q-alloc-01）"
+  },
+  {
+    "slug": "memory-linking",
+    "page": "wiki/concepts/memory-linking.md",
+    "status": "emerging",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_changed": "2026-07-05",
+    "change_reason": "首次创建（2026-07-05，文章 #73）。记忆联结机制有来自 CA1 单细胞钙成像（Cai 2016，PMC5063500，Nature）的直接证据：5h 内两情境显著重叠，7天降至机会水平；Jung 2023（PMC10842737）用 scFLARE2 精确确认 3h 联结 vs 27h 不联结边界；老年缺陷+DREADD 救援提供了因果证据。设为 emerging（非 mainstream）因为：(a) 主要来自啮齿类实验，人类证据有限；(b) 联结窗口的分子机制（Q-alloc-02）尚不清楚；(c) PV+ 侧向抑制的记忆联结角色来自综述引用，未经独立直接证明"
+  },
+  {
+    "slug": "circadian-clock",
+    "page": "wiki/concepts/circadian-clock.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-08",
+    "change_reason": "新建（文章 #76，2026-07-08）。TTFL 分子振荡器（CLOCK/BMAL1→Per/Cry→PER/CRY 复合物抑制→约 24h 振荡）是有四十余年多物种、多层次验证的核心机制，2017 年诺贝尔奖认可；CKIδ/ε 磷酸化周期调控有多个 tau 突变因果实验支持（Lowrey 2000, Toh 2001）；REV-ERBα/ROR 辅助环由多实验室独立证实。定为 established/high。"
+  },
+  {
+    "slug": "scn-circadian-pacemaker",
+    "page": "wiki/systems/scn-circadian-pacemaker.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-08",
+    "change_reason": "新建（文章 #76，2026-07-08）。SCN 为主时钟的证据：（1）双侧 SCN 消融→节律全面丧失（多物种独立重复）；（2）胚胎 SCN 移植→节律恢复且周期由供体决定（Ralph 1990, PMID:1546306, Science）；（3）ipRGC→RHT→SCN 光输入通路由黑视素发现（Berson 2002, PMID:11805301）和多项解剖+因果实验确立。定为 established/high。"
+  },
+  {
+    "slug": "lateral-habenula",
+    "page": "wiki/systems/lateral-habenula.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-11",
+    "change_reason": "新建（文章 #79，2026-07-11）。LHb 的解剖功能已由数十年电生理研究（Matsumoto & Hikosaka 2007, PMID:17522629，直接单神经元记录负 RPE）确立；LHb→RMTg→DA 回路有 Hong 2011（PMID:21832176）灵长类三脑区同步记录+电刺激因果证据（94% DA 被抑制）；LHb 在慢性应激/抑郁中的爆发放电有 Li 2011/2013、Yang 2018、Cui 2018 多重机制因果实验支持；Wang 2024（PMID:38863324）三条输出子回路有光遗传因果解析。主要不确定性：(1) NMDAR 在 LHb 爆发中的物种普遍性（C-2026-07-11-01）；(2) 人类直接神经回路证据（目前主要来自啮齿类/灵长类）。整体 established/high，药理干预（氯胺酮）路径 mainstream。"
+  },
+  {
+    "slug": "rmtg",
+    "page": "wiki/systems/rmtg.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-11",
+    "change_reason": "新建（文章 #79，2026-07-11）。RMTg 作为 LHb→DA 负反馈中继的证据由 Hong 2011（PMID:21832176）灵长类三区同步记录+电刺激直接确立（LHb→RMTg 谷氨酸能，RMTg→VTA/SNc GABA 能，94% DA 被抑制）。Jhou 2009 的解剖描述（PMID:19204131）和多项 GABA 能中继验证支持 established/high。"
+  },
+  {
+    "slug": "burst-firing-lhb",
+    "page": "wiki/concepts/burst-firing-lhb.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-11",
+    "change_reason": "新建（文章 #79，2026-07-11）。LHb 爆发放电的两种机制均有直接实验证据：(1) βCaMKII↑→GluA1-AMPAR↑→突触增强机制由 Li 2013（PMID:23990563，光遗传因果）确立，高置信；(2) Kir4.1 星形胶质细胞失调→K⁺ 堆积→超极化→T 型 Ca²⁺ 爆发机制由 Cui 2018（PMID:29446379）确立，但论文为 paywall；Yang 2018（PMID:29446381）NMDAR 依赖性爆发阻断证据强（大鼠 in vivo 光遗传）。有 C-2026-07-11-01 NMDAR 物种差异争议，不足以降低整体 established 状态（只影响 NMDAR 普遍性子主张）。整体 established/high，NMDAR 依赖性子声明的置信度 medium（受 C-2026-07-11-01 限制）。"
+  },
+  {
+    "slug": "precision-weighting",
+    "title": "精度加权",
+    "domain": "concepts",
+    "status": "emerging",
+    "confidence": "medium",
+    "revision_count": 2,
+    "last_updated": "2026-07-12",
+    "change_reason": "2026-07-12: Rev 2 - Added direct pharmacological evidence (Haarsma 2020 sulpiride disrupts precision weighting, FEP patients lack precision weighting). Status emerging; dopamine mechanism partially validated."
+  },
+  {
+    "slug": "substance-use-disorder",
+    "page": "wiki/diseases/substance-use-disorder.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-14",
+    "change_reason": "新建（文章 #82，2026-07-14）。Koob & Volkow 2016（PMID:27475769，PMC5705920）三阶段成瘾模型整合了数十年多物种、多物质的证据，是领域的权威框架；Volkow 2001（PMID:11572966，Science）PET 研究提供 D2 受体降低的跨物质人类证据；Nestler 2012（PMID:21338877）ΔFosB 分子开关证据在多实验室验证；Ma & Dong 2016（PMID:27135923）提供 CP-AMPA/渴求孵化的因果光遗传实验；Robinson & Berridge 2008（PMID:18640920）提供激励显著性框架支持。成瘾作为脑部疾病的临床分类是DSM-5和ICD-11的既定标准。整体 established/high；特定机制（渴求孵化在人类的直接证据、allostasis分子底物完整图谱）仍有开放问题。"
+  },
+  {
+    "slug": "deltaFosB",
+    "page": "wiki/concepts/deltaFosB.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-14",
+    "change_reason": "新建（文章 #82，2026-07-14）。ΔFosB 作为成瘾分子开关的核心证据：(1) ΔFosB 因 C 端降解域缺失而在 NAc D1-MSN 中稳定积累（Nestler 2012, PMID:21338877, PMC3301555 全文）——30天后仍可检测；(2) 下游靶基因（CDK5↑, GluA2↑, dynorphin↓, G9a↑）构成一致的分子特征，每条通路有独立验证；(3) 病毒过表达 ΔFosB→放大药物敏化（Nestler lab 多项研究）；(4) ΔFosB 与 CREB 的对抗关系在行为学上表现为急性/慢性奖励解耦。主要不确定性：ΔFosB 在运动/自然奖励中也积累，何种条件导致成瘾 vs 适应（Q-addiction-02）。整体 established/high。"
+  },
+  {
+    "slug": "incentive-salience",
+    "page": "wiki/concepts/incentive-salience.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_changed": "2026-07-14",
+    "change_reason": "新建（文章 #82，2026-07-14）。Wanting/Liking 分离的核心证据：(1) 多巴胺耗竭（6-OHDA）大鼠不再主动寻觅食物但吃到嘴里仍表现享乐反应（Berridge & Robinson 1998）——最有力的双解离证据；(2) L-DOPA 治疗增强 Wanting 行为而不改变 Liking 评分（Robinson & Berridge 2008, PMC2607325）；(3) NAc 壳区 μ-阿片/内源大麻素'热点'介导 Liking（≠ Wanting 底物）。设为 mainstream/medium（非 established）原因：(a) 在人类的直接测量困难，主要依赖间接行为指标；(b) 奖励预测误差（DA-RPE）与激励显著性框架整合尚未完全厘清；(c) 部分研究发现 DA 也影响 Liking（小规模研究）。"
+  },
+  {
+    "slug": "incubation-of-craving",
+    "page": "wiki/concepts/incubation-of-craving.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-07-14",
+    "change_reason": "新建（文章 #82，2026-07-14）。渴求孵化现象的证据：(1) Pickens & Shaham 2011 综述系统记录了古柯碱、甲基苯丙胺、海洛因等物质的 6-7 周渴求峰值（多实验室重复）；(2) CP-AMPA 插入时程与渴求峰值对应（Conrad 2008，pharmacological evidence）；(3) Ma & Dong 2016（PMID:27135923, PMC4862637）光遗传 LTD 重置 BLA→NAc 静默突触 → 消除孵化行为（直接因果实验，最高标准证据）；(4) BLA→NAc 投射特异性有解剖定位证据。整体 established/high；主要不确定性：人类戒断期渴求峰值的精确时间线（与啮齿类时间尺度差异）；自然奖励渴求孵化的动态是否遵循相同机制。"
+  },
+  {
+    "page": "wiki/diseases/autism-spectrum-disorder.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "revision_count": 1,
+    "date": "2026-08-07",
+    "reason": "Created from multiple converging lines of evidence (genetic GWAS + iPSC + mouse models); mechanism highly heterogeneous across ASD subtypes"
+  },
+  {
+    "page": "wiki/concepts/synaptic-pruning.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 2,
+    "date": "2026-08-07",
+    "reason": "Added SRPX2 mechanism, glia-to-glia signaling, and ASD 2025 data; core established status maintained"
+  },
+  {
+    "page": "wiki/concepts/complement-cascade-cns.md",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 2,
+    "date": "2026-08-07",
+    "reason": "Added SRPX2 inhibitory mechanism and V1 regional heterogeneity note; status maintained"
   }
-}
+]

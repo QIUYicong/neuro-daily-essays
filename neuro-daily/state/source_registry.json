@@ -7254,6 +7254,65 @@
         "DARPP-32",
         "mesolimbic"
       ]
+    },
+    {
+      "pmid": "30308165",
+      "title": "CD47 Protects Synapses from Excess Microglia-Mediated Pruning during Development",
+      "journal": "Neuron",
+      "year": 2018,
+      "first_used": "2026-08-07",
+      "topic_areas": [
+        "synaptic-pruning",
+        "CD47",
+        "activity-dependent"
+      ]
+    },
+    {
+      "pmid": "32661396",
+      "title": "SRPX2 Protects Against Complement-Mediated Synapse Elimination",
+      "journal": "Nature Neuroscience",
+      "year": 2020,
+      "first_used": "2026-08-07",
+      "topic_areas": [
+        "synaptic-pruning",
+        "SRPX2",
+        "complement-inhibitor"
+      ]
+    },
+    {
+      "pmcid": "PMC11876149",
+      "title": "Neuron-to-Glia and Glia-to-Glia Signaling in Critical Period Synapse Pruning",
+      "year": 2025,
+      "first_used": "2026-08-07",
+      "topic_areas": [
+        "critical-period",
+        "glia-signaling",
+        "serotonin"
+      ]
+    },
+    {
+      "doi": "10.3389/fnsyn.2025.1656232",
+      "title": "Is It Possible to Prevent Excessive Synaptic Pruning in Schizophrenia?",
+      "journal": "Frontiers in Synaptic Neuroscience",
+      "year": 2025,
+      "first_used": "2026-08-07",
+      "topic_areas": [
+        "schizophrenia",
+        "synaptic-pruning",
+        "therapeutic"
+      ]
+    },
+    {
+      "doi": "10.1073/pnas.2411080122",
+      "title": "CD47 and Autism-Like Behaviors in 16p11.2 Deletion Mice",
+      "journal": "PNAS",
+      "year": 2025,
+      "first_used": "2026-08-07",
+      "topic_areas": [
+        "autism",
+        "CD47",
+        "synaptic-pruning"
+      ]
     }
   ],
   "total_sources": 386,

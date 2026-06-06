@@ -2148,3 +2148,28 @@
 **登记或裁决矛盾：** 无。Q-wm-active-vs-silent 从"开放"标注为"部分解答（Panichello 2024）"，尚未完全裁决。
 
 **新增悬空引用：** 无新增。原有悬空引用（motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba）待后续填补。
+
+---
+
+## 2026-08-07（文章 #106：突触修剪的补体-小胶质机制与疾病联系）
+
+**今日主题：** 补体 C1q/C3b 标记、小胶质细胞 CR3 吞噬、CD47/SRPX2 保护机制，以及精神分裂症（C4A 过激活→过度修剪）与自闭症（CD47 缺陷→修剪不足）的镜像疾病模型
+
+**新建 wiki 页面（1 个）：**
+- `wiki/diseases/autism-spectrum-disorder.md`（新建）：填补悬空引用；涵盖修剪不足假说（CD47-16p11.2）、突触装配蛋白突变假说（NL/Shank）、E/I 失衡假说三大通路；与精神分裂症镜像对比表；confidence=medium（机制异质性大）
+
+**修订 wiki 页面（2 个）：**
+- `wiki/concepts/synaptic-pruning.md`（rev1→rev2）：新增 SRPX2 机制（binds C1q, 保护 VGluT2+）；新增胶质-胶质 5-HT 时间门控段落（Nelson 2025）；新增 3 条证据表（SRPX2, CD47 autism, 5-HT glial）；添加 autism-spectrum-disorder 和 synaptogenesis 到 related；V1 ODP 不依赖补体的异质性注记；Q-pruning-04/05 新增
+- `wiki/concepts/complement-cascade-cns.md`（rev1→rev2）：活动依赖调节小节扩充为"三方博弈"（CD47 + SRPX2 + C3b/PS）；新增 SRPX2 和 V1 皮层异质性注记；autism-spectrum-disorder 加入 related；Q-complement-02 新增
+
+**图谱状态：** 219 节点（+1），1255 边（+6）；填补悬空引用 autism-spectrum-disorder
+
+**登记或裁决矛盾：** 无新矛盾（SRPX2 保护 VGluT2+ 的不对称性是新信息，与既有内容无冲突，已整合）
+
+**新增未解问题（4 条）：**
+- Q-pruning-04（高优先）：SRPX2 与 CD47 通路串扰及 NL-NRXN 接合对两者的调控
+- Q-pruning-05（中优先）：精神分裂症成年期补体修剪是否持续
+- Q-complement-02（中优先）：SRPX2 优先保护 VGluT2+ 的机制
+- Q-asd-01/02（高/中优先）：ASD 不同亚型突触密度方向性；CD47 通路在 ASD 的普遍性
+
+**原有悬空引用状态：** autism-spectrum-disorder 已填补；motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba 仍待补

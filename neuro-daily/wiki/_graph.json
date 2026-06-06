@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "node_count": 203,
   "edge_count": 1179,
   "edge_types": [
@@ -1975,6 +1975,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/gephyrin-scaffold.md"
+    },
+    {
+      "id": "autism-spectrum-disorder",
+      "title": "自闭症谱系障碍",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/autism-spectrum-disorder.md"
     }
   ],
   "edges": [
@@ -8725,6 +8734,36 @@
     {
       "from": "axon-guidance",
       "to": "neuroligin-neurexin",
+      "type": "related"
+    },
+    {
+      "from": "autism-spectrum-disorder",
+      "to": "synaptic-pruning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "autism-spectrum-disorder",
+      "to": "synaptogenesis",
+      "type": "related"
+    },
+    {
+      "from": "autism-spectrum-disorder",
+      "to": "neuroligin-neurexin",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "autism-spectrum-disorder",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "autism-spectrum-disorder",
+      "type": "supports"
+    },
+    {
+      "from": "complement-cascade-cns",
+      "to": "autism-spectrum-disorder",
       "type": "related"
     }
   ],

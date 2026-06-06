@@ -6517,6 +6517,45 @@
         "graph_fix": "_graph.json JSON error fixed at position 207725 (axon-guidance edges were stranded outside array)",
         "graph": "214 nodes (+3), 1233 edges (+14)"
       }
+    },
+    {
+      "date": "2026-08-07",
+      "title": "大脑的删除艺术：补体标记、小胶质吞噬与发育期突触修剪的神经免疫逻辑",
+      "article_number": 106,
+      "core_question": "大脑如何通过补体标记-小胶质吞噬精准删除弱突触？CD47/SRPX2 保护机制如何？精神分裂症（C4A 过激活）与自闭症（CD47 缺陷）的镜像失调模型",
+      "layer": "disease",
+      "topic_tags": [
+        "synaptic-pruning",
+        "complement",
+        "microglia",
+        "autism",
+        "schizophrenia",
+        "CD47",
+        "SRPX2",
+        "C4A",
+        "critical-period"
+      ],
+      "main_sources": [
+        "PMID:18083105",
+        "PMID:22632727",
+        "PMID:26814963",
+        "PMID:30308165",
+        "PMID:32661396",
+        "PMCID:PMC9066608",
+        "PMCID:PMC11876149"
+      ],
+      "unresolved_questions": [
+        "Q-pruning-04",
+        "Q-pruning-05",
+        "Q-complement-02",
+        "Q-asd-01",
+        "Q-asd-02"
+      ],
+      "next_suggested_topics": [
+        "运动学习的回路基础：深部核团、下橄榄与小脑皮层的三角对话（填补 motor-learning 悬空引用）",
+        "GABA 的双重身份：抑制性神经递质的分子多态性与发育转变（填补 gaba 悬空引用）",
+        "外侧缰核 LHb 爆发机制的物种差异：裁决 C-2026-07-11-01"
+      ]
     }
   ],
   "layer_coverage_recent": {
