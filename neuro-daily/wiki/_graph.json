@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-29",
-  "node_count": 196,
-  "edge_count": 1133,
+  "updated": "2026-07-30",
+  "node_count": 197,
+  "edge_count": 1139,
   "edge_types": [
     "is-a",
     "part-of",
@@ -679,6 +679,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/amygdala.md"
+    },
+    {
+      "id": "bla-valence-circuits",
+      "title": "BLA价值极性双通道",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/bla-valence-circuits.md"
     },
     {
       "id": "fear-conditioning",
@@ -8020,6 +8029,36 @@
       "from": "dopamine-reward-prediction-error",
       "to": "orbitofrontal-cortex",
       "type": "related"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "amygdala",
+      "type": "part-of"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "fear-conditioning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "incentive-salience",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "orbitofrontal-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "subjective-value-encoding",
+      "type": "supports"
     }
   ],
   "dangling_references": [

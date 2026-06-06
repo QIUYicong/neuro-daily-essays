@@ -1283,5 +1283,11 @@
     "confidence": "medium",
     "last_changed": "2026-07-26",
     "reason": "创建；形态和物种分布高置信度确认；bvFTD 相关证据为中等（相关性，非因果性）；VEN 在共情中的因果机制缺乏直接实验；故 status=emerging（相关性证据多，机制证据少）"
+  },
+  "bla-valence-circuits": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-30",
+    "reason": "创建 2026-07-30（文章 #98）。BLA-NAc vs BLA-CeA 投射的对立突触可塑性由 Namburi et al. 2015（Nature，多实验室重复）直接证明，光遗传行为验证（NAc投射自我刺激/CeA投射位置厌恶）因果性强；Beyeler 2016（Neuron）光标记在体记录证实比例差异（77% vs 100%）；Ppp1r1b+/Rspo2+遗传身份在小鼠多实验室确认；BLA-OFC四向协作（Wassum 2022）有大量行为药理学支持。整体框架 established，但人类直接证据和 Ppp1r1b+/Rspo2+ 人类等价物仍为 emerging。"
   }
 }

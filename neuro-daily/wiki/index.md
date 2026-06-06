@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-29（第97篇·OFC价值决策）· 主题页总数：**192**（新建2页：orbitofrontal-cortex、subjective-value-encoding；修订3页：habit-formation rev3、actor-critic-model rev2、dopamine-reward-prediction-error rev9；图谱198节点、1149边）
+> 最后更新：2026-07-30（第98篇·BLA奖励-恐惧双通道）· 主题页总数：**193**（新建1页：bla-valence-circuits；修订2页：amygdala rev4、orbitofrontal-cortex rev2；图谱197节点、1139边）
 
 ---
 
@@ -42,6 +42,7 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [BLA 价值极性双通道](concepts/bla-valence-circuits.md) — Ppp1r1b+ 奖励神经元→NAc（恐惧↓突触权重）vs Rspo2+ 恐惧神经元→CeA（恐惧↑突触权重）；BLA-NAc 77% 奖励激活，BLA-CeA 100% 厌恶激活（Beyeler 2016）；DA→BLA 驱动结果特异性奖励记忆（Sias 2024）**[NEW 2026-07-30 #98]**
 - 🟢 [时间细胞](concepts/time-cells.md) — 海马CA1在记忆任务延迟期以接力棒式序列放电；可重新校准（标量时间特性）；与场所细胞同源（75%+含空间信息）；人类颅内直接证据（Umbach 2020 PNAS）；是情节记忆时间维度编码的细胞基础 **[NEW 2026-07-24 #92]**
 - 🟢 [速度细胞](concepts/speed-cells.md) — MEC中放电率与运动速度线性正相关神经元；环境无关；~50-80ms前瞻性偏置；PPN→HDB→MEC脑干通路（Carvalho 2020因果证据）；路径整合速度分量的细胞实现 **[NEW 2026-07-24 #92]**
 - 🟢 [皮层六层架构](concepts/cortical-layers.md) — L4 接收丘脑（仅10-20%突触）；相互兴奋放大10倍；L2/3 高阈值门控（45-50个细胞）→ 群体活动检测；L5 双通道输出；L6 丘脑反馈；FF/FB 层间法则（Felleman & Van Essen 1991）；γ-FF / α-β-FB 振荡分工 **[NEW 2026-07-23 #91]**
@@ -188,9 +189,9 @@
 - 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
-- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；慢性应激下BLA树突增生 vs 海马退缩的方向性分离（修订rev2 2026-07-09）**[NEW 2026-05-30]**
+- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；**BLA奖励神经元（Ppp1r1b+→NAc）与恐惧神经元（Rspo2+→CeA）通过对立突触可塑性实现正/负价值双通道编码**；与PFC（IL/PL）和海马形成情绪调控三角回路；慢性应激下BLA树突增生 vs 海马退缩的方向性分离（修订rev4 2026-07-30 #98）**[NEW 2026-05-30]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
-- 🟢 [眶额叶皮层（OFC）](systems/orbitofrontal-cortex.md) — 大脑"估价系统"；三类商品价值神经元（Padoa-Schioppa 2006）；Rangel 2008 三系统框架中目标导向系统的价值输入源；OFC→NAc 投射为 actor-critic 批评家提供 V(s)；Hattori 2023 CaMKII 元学习扩展；vmPFC/dlPFC 自我控制回路（Hare 2009）**[NEW 2026-07-29 #97]**
+- 🟢 [眶额叶皮层（OFC）](systems/orbitofrontal-cortex.md) — 大脑"估价系统"；三类商品价值神经元（Padoa-Schioppa 2006）；Rangel 2008 三系统框架中目标导向系统的价值输入源；OFC→NAc 投射为 actor-critic 批评家提供 V(s)；Hattori 2023 CaMKII 元学习扩展；**lOFC⇄BLA 四向协作回路（Wassum 2022）**；vmPFC/dlPFC 自我控制回路（Hare 2009）（修订rev2 2026-07-30 #98）**[NEW 2026-07-29 #97]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**

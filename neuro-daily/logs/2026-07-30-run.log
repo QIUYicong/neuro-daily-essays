@@ -1,0 +1,84 @@
+# 运行日志 · 2026-07-30
+
+## 执行摘要
+- **虚拟日期**：2026-07-30
+- **真实执行日期（UTC+8）**：2026-06-06
+- **文章编号**：#98
+- **文章标题**：情绪的两条轨道：杏仁核如何同时为奖励和恐惧编码价值
+- **Slug**：bla-reward-fear-circuits
+- **选题模式**：long_term_curriculum（Track 6 情绪与动机 + 衔接 Track 5 决策）
+
+## 选题决策
+- 输入：topic_ledger 最近3篇层级（cellular/molecular → synaptic/cellular → cellular/brain-region/cognition）
+- 无悬空引用（图谱健康）；上篇（OFC #97）建议的 next_suggested_topics：PFC hierarchy / amygdala emotional value / temporal discounting
+- 选择：杏仁核奖励-恐惧双通道（BLA valence circuits）
+  - 理由1：直接衔接 OFC 文章（填补 BLA 情绪价值输入到 OFC 的机制细节）
+  - 理由2：现有 amygdala wiki 页缺少奖励编码内容，仅覆盖恐惧通道
+  - 理由3：核心文献（Namburi 2015，Beyeler 2016）均有 PMC 开放全文，证据质量高
+  - 理由4：层级（突触/细胞/微回路/行为）与近3篇不重复
+
+## 检索策略
+- 搜索关键词：
+  - "basolateral amygdala reward fear neurons Janak Tye 2015 Nature Reviews circuits behaviour"
+  - "BLA reward neurons fear neurons divergent populations Beyeler 2016 Nature Neuroscience"
+  - "Namburi 2015 circuit mechanism BLA reward fear competition NAc CeA Nature Neuroscience"
+  - "BLA basolateral amygdala Pavlovian instrumental transfer reward incentive motivation Corbit Janak"
+  - "Balleine Killcross 1994 basolateral amygdala outcome devaluation reward"
+  - "basolateral amygdala reward prediction error dopamine positive valence 2022 2023 2024 open access"
+- 数据源：WebSearch + WebFetch（PMC全文）
+
+## 来源评估
+| 来源ID | PMID | 全文状态 | 采用/排除 | 原因 |
+|--------|------|---------|---------|------|
+| janak-tye-2015 | 25592533 | PMC4565157 开放全文 | 采用 | Nature综述；BLA双通道概念框架 |
+| namburi-2015 | 25925480 | PMC4418228 开放全文 | 采用 | 核心原创；对立突触可塑性直接证据 |
+| beyeler-2016 | 27041499 | PMC4854303 开放全文 | 采用 | 核心原创；光标记在体记录77%/100% |
+| wassum-izquierdo-2015 | 26341938 | PMC4681295 开放全文 | 采用 | 奖励学习综述；outcome-specific表征 |
+| corbit-balleine-2005 | 15673677 | PMC6725628 开放全文 | 采用 | PIT双解离经典实验 |
+| oneill-2018 | 29525574 | 开放 | 采用 | Ppp1r1b+/Rspo2+遗传身份综述 |
+| sias-2024 | 38396258 | PMC11110430 开放全文 | 采用 | 最新原创；DA→BLA奖励记忆写入 |
+| wassum-2022 | 36062909 | eLife 开放全文 | 采用 | BLA-OFC四向协作综述 |
+| johnson-2009 | 19158296 | PMC3230882 开放全文 | 引用为背景 | BLA贬值效应后天损毁 |
+| keefer-2021 | 33887310 | PMC8189324 开放全文 | 引用为背景 | BLA散射通路综述 |
+
+**总来源：8个主要来源，全部开放全文；2个背景引用，全部开放全文**
+**排除：无排除来源**
+
+## 固结步骤
+### 新建 wiki 页面（1）
+- `concepts/bla-valence-circuits.md` rev1 — 建立 BLA 价值极性双通道作为独立概念节点
+
+### 修订 wiki 页面（2）
+- `systems/amygdala.md` rev3→rev4 — 补充奖励通道（原页面只有恐惧通道）
+- `systems/orbitofrontal-cortex.md` rev1→rev2 — 补充 BLA-OFC 四向协作回路
+
+### 矛盾检查
+- 无新矛盾：新内容（BLA奖励通道）是对既有 amygdala 页（恐惧通道）的正交补充，非覆盖
+- BLA-OFC 协作与既有 OFC 页的"杏仁核提供情绪价值信号"描述完全一致
+
+### 图谱更新
+- 新增节点：bla-valence-circuits（197节点，+1）
+- 新增边（6条）：bla-valence-circuits→amygdala（part-of），→fear-conditioning（mechanism-of），→incentive-salience（mechanism-of），→dopamine-reward-prediction-error（regulates），→orbitofrontal-cortex（supports），→subjective-value-encoding（supports）
+- edge_count：1133→1139
+
+## 失败与限制
+- 所有 8 个主要来源均成功读取开放全文，无降级为摘要仅读
+- 无网络访问失败
+- 无 PMID 编造
+
+## 自检清单
+- [x] 每条 wiki 新主张有来源（PMID/DOI）
+- [x] 区分了事实/主流模型/推测/争议（如人类证据不足处已标注）
+- [x] 没把小样本/动物研究写成定论（啮齿类实验在文中明确标注物种）
+- [x] 冲突走了矛盾协议（无新矛盾）
+- [x] 被修订页的 updated/revision_count/修订历史同步更新
+- [x] _graph.json 无新悬空边
+- [x] index.md 与 CHANGELOG.md 反映今天变化
+- [x] 新页 related/prerequisites 各≥1
+- [x] 文章/笔记/来源/日志齐全
+
+## Git 操作
+- 分支：main
+- Remote：http://local_proxy@127.0.0.1:40525/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
+- Commit message：Add neuro daily article + wiki consolidation for 2026-07-30
+- Push 状态：[见 commit hash]

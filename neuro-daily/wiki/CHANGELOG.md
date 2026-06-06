@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-30 · 文章 #98 · 情绪的两条轨道：杏仁核如何同时为奖励和恐惧编码价值
+
+**核心主题**：基底外侧杏仁核（BLA）并非单一"恐惧中枢"，而是一个**价值极性双编码器**——两类神经元群（Ppp1r1b+后部奖励神经元 / Rspo2+前部恐惧神经元）通过**完全相反的突触可塑性规则**和**分叉的投射通道**（BLA-NAc / BLA-CeA），分别向奖励驱动和威胁防御系统传递正向与负向情绪价值信号。核心实验：Namburi et al. 2015（PMID:25925480，Nature）——恐惧学习使 NAc 投射 AMPAR/NMDAR 比值 ↓、CeM 投射 ↑；奖励学习则完全相反。Beyeler et al. 2016（PMID:27041499，Neuron）——光标记发现 BLA-NAc 神经元 77% 被奖励线索激活，BLA-CeA 神经元 100% 被厌恶线索激活。Corbit & Balleine 2005（PMID:15673677）双解离证明 BLA 编码奖励结果身份（outcome-specific PIT）。Sias et al. 2024（PMID:38396258，Nature Neuroscience）——VTA-DA→BLA 投射专门驱动结果特异性奖励记忆的编码。Wassum 2022（PMID:36062909，eLife）——BLA-OFC 四向协作：lOFC→BLA 编码记忆、mOFC→BLA 用于决策、BLA→lOFC 提取奖励身份、BLA→mOFC 传递预期价值。
+
+**新建页面（1）**：
+- `concepts/bla-valence-circuits.md` rev1 — BLA 奖励-恐惧双通道：遗传分化（Ppp1r1b+ vs Rspo2+）、突触对立可塑性（Namburi 2015）、投射路由（Beyeler 2016）、PIT 行为证据（Corbit 2005）、DA→BLA 奖励记忆写入（Sias 2024）；Q-bla-01~03 (established, confidence:high)
+
+**修订页面（2）**：
+- `systems/amygdala.md` rev3→rev4 — 新增"BLA 奖励-恐惧双通道"完整小节（Ppp1r1b+/Rspo2+遗传身份、对立可塑性表格、77%/100%数据、DA→BLA 角色、光遗传行为验证）；一句话定义更新包含双极编码功能；related 新增 bla-valence-circuits, incentive-salience, subjective-value-encoding；key_sources 新增三个 PMID；updated→2026-07-30
+- `systems/orbitofrontal-cortex.md` rev1→rev2 — 新增"BLA-OFC 双向协作"小节（四向回路：lOFC→BLA/mOFC→BLA/BLA→lOFC/BLA→mOFC）；来源 Wassum 2022（PMID:36062909）；related 新增 bla-valence-circuits；updated→2026-07-30
+
+**矛盾登记（0）**：今日无新增矛盾。BLA 奖励-恐惧双通道与既有 amygdala 页（原聚焦恐惧）是互补扩展而非矛盾；与 OFC 的协作已在 OFC 页预留连接，今日补全细节。
+
+**新增开放问题（3）**：
+- Q-bla-01（高优先）：BLA 奖励神经元与恐惧神经元的比例是否可以在成年期通过经验或训练重塑？
+- Q-bla-02（中）：人类 BLA 中 Ppp1r1b+/Rspo2+ 遗传分化是否同样存在？功能等价物是什么？
+- Q-bla-03（中）：DA→BLA 奖励记忆写入的时间窗口（RPE 后多久？是否需要 NMDAR 协同）？
+
+**图谱**：197 节点（+1：bla-valence-circuits），1139 边（+6 条新边：bla-valence-circuits 的部分/机制/调控/支持关系）
+
+---
+
 ## 2026-07-29 · 文章 #97 · 价值的地图：眶额叶皮层如何计算"什么值得追求"
 
 **核心主题**：眶额叶皮层（OFC）作为大脑的"估价系统"，将多维奖励属性（大小、概率、延迟、主观偏好）整合为单一可比较的主观价值信号，是目标导向决策与奖励学习的关键节点。核心细胞证据：Padoa-Schioppa & Assad（2006，PMID:16633341）在猕猴 OFC 发现三类商品价值神经元（offer-value-A、offer-value-B、chosen-value），其编码格式是行为无关的"goods-based"（商品基础）而非"action-based"。Rangel et al.（2008，PMID:18545266）三系统框架：OFC 作为目标导向系统（DMS+OFC）的价值输入源，向腹侧纹状体（NAc）提供结果当前价值信号；OFC 损伤 → 目标导向系统退化为习惯系统（贬值不敏感）。Hattori et al.（2023，PMID:37957318）OFC 元学习：CaMKII 可塑性积累跨会话任务结构知识，使 actor-critic 批评家的 V(s) 初始化更准确。Hare et al.（2009，PMID:19407204）vmPFC+dlPFC 自我控制回路：dlPFC 调制 vmPFC 的多维价值权重，高 dlPFC 活动时认知目标权重↑。

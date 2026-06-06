@@ -1,7 +1,79 @@
 {
-  "last_updated": "2026-07-29",
-  "total_articles": 97,
+  "last_updated": "2026-07-30",
+  "total_articles": 98,
   "entries": [
+    {
+      "date": "2026-07-30",
+      "title": "情绪的两条轨道：杏仁核如何同时为奖励和恐惧编码价值",
+      "filename": "2026-07-30-bla-reward-fear-circuits.md",
+      "wiki_pages_created": [
+        "wiki/concepts/bla-valence-circuits.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/amygdala.md (rev3→rev4: 新增BLA奖励-恐惧双通道小节；Ppp1r1b+/Rspo2+遗传身份；对立突触可塑性；DA→BLA奖励记忆写入；related/key_sources更新；updated→2026-07-30)",
+        "wiki/systems/orbitofrontal-cortex.md (rev1→rev2: 新增BLA-OFC双向协作小节；Wassum 2022四向回路；related/key_sources更新；updated→2026-07-30)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "BLA-NAc投射神经元（奖励神经元）与BLA-CeA投射神经元（恐惧神经元）通过对立突触可塑性分化：恐惧学习使NAc投射AMPAR/NMDAR↓、CeM投射↑；奖励学习则相反（Namburi 2015 PMID:25925480）。Beyeler 2016（PMID:27041499）光标记在体记录：BLA-NAc 77%被奖励线索激活，BLA-CeA 100%被厌恶线索激活。Ppp1r1b+后部奖励神经元 vs Rspo2+前部恐惧神经元遗传预分化（O'Neill 2018 PMID:29525574）。DA→BLA投射专门驱动结果特异性奖励记忆（Sias 2024 PMID:38396258）。BLA-OFC四向协作：lOFC→BLA编码、mOFC→BLA决策、BLA→lOFC身份、BLA→mOFC价值（Wassum 2022 PMID:36062909）",
+      "layer": [
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "Track 6（情绪与动机）奖励-恐惧整合机制；衔接Track 5（OFC决策）的BLA输入侧；填补杏仁核wiki页面的奖励编码缺口（原页面只覆盖恐惧通道）；连接incentive-salience/subjective-value-encoding/orbitofrontal-cortex三个已有概念页",
+      "topic_tags": [
+        "basolateral amygdala",
+        "BLA-NAc projection",
+        "BLA-CeA projection",
+        "reward neurons fear neurons",
+        "Namburi 2015",
+        "Beyeler 2016",
+        "Janak Tye 2015",
+        "divergent routing positive negative",
+        "AMPAR/NMDAR ratio",
+        "opposite synaptic plasticity",
+        "Ppp1r1b",
+        "Rspo2",
+        "valence-specific neurons",
+        "phototagging optogenetics",
+        "Pavlovian instrumental transfer",
+        "Corbit Balleine 2005",
+        "outcome-specific reward",
+        "dopamine BLA encoding",
+        "Sias 2024",
+        "Wassum 2022",
+        "lOFC mOFC BLA collaboration",
+        "emotional value decision making",
+        "BLA valence circuits"
+      ],
+      "main_sources": [
+        "PMID:25592533 (Janak & Tye 2015, Nature, BLA circuits review, PMC4565157 开放全文)",
+        "PMID:25925480 (Namburi et al. 2015, Nature, circuit mechanism positive/negative associations, PMC4418228 开放全文)",
+        "PMID:27041499 (Beyeler et al. 2016, Neuron, divergent routing positive/negative, PMC4854303 开放全文)",
+        "PMID:26341938 (Wassum & Izquierdo 2015, Neurosci Biobehav Rev, BLA reward learning, PMC4681295 开放全文)",
+        "PMID:15673677 (Corbit & Balleine 2005, J Neurosci, double dissociation BLA/CeA, PMC6725628 开放全文)",
+        "PMID:29525574 (O'Neill et al. 2018, Curr Opin Neurobiol, BLA valence circuitry, 开放全文)",
+        "PMID:38396258 (Sias et al. 2024, Nature Neuroscience, DA→BLA identity-specific reward memories, PMC11110430 开放全文)",
+        "PMID:36062909 (Wassum 2022, eLife, amygdala-cortical collaboration, 开放全文)"
+      ],
+      "unresolved_questions": [
+        "Q-bla-01 (新增，高优先级：BLA奖励/恐惧神经元比例是否可经验重塑？)",
+        "Q-bla-02 (新增，中优先级：人类BLA中Ppp1r1b+/Rspo2+遗传分化的等价物？)",
+        "Q-bla-03 (新增，中优先级：DA→BLA奖励记忆写入的时间窗口与NMDAR协同机制)"
+      ],
+      "next_suggested_topics": [
+        "前额叶-杏仁核情绪调控回路（PFC-amygdala circuit for emotion regulation）：vmPFC/IL通过ITC抑制CeA的详细机制；dlPFC调制vmPFC/IL；人类fMRI情绪调控研究；与CBT神经基础连接",
+        "巴甫洛夫-工具转移（Pavlovian-Instrumental Transfer，PIT）：BLA和NAc在结果特异性vs泛化PIT中的分工（Corbit 2005双解离）；PIT与成瘾复发的联系",
+        "内侧前额叶（mPFC/vmPFC）在情绪调控与价值更新中的角色：OFC→vmPFC→dlPFC层级的情绪调控自上而下通路；extinction recall（IL皮层）的具体细胞机制"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 98,
+      "note": "系统时钟UTC+8=2026-06-06（真实执行日期）；知识库虚拟日期2026-07-30；文章深化Track 6（情绪与动机）杏仁核章节，填补奖励-恐惧双通道这一重要缺口；8个来源全部开放全文读取，无摘要仅读，无PMID编造；无新矛盾登记"
+    },
     {
       "date": "2026-07-29",
       "title": "价值的地图：眶额叶皮层如何计算'什么值得追求'",
