@@ -2734,3 +2734,28 @@
 - **来源文章**：2026-06-06-dopamine-systems-anatomy
 - **问题**：Weber 等（2022）荟萃分析确认 PFC D1 激活与工作记忆呈倒 U 型关系（R²=0.26），但"倒转"的分子机制在各实验室存在分歧：Arnsten 实验室提出 HCN 通道（If）磷酸化（过度 PKA→HCN 通道开放→减弱树突棘持续去极化）；其他研究者认为是 AMPAR GluA1 过度磷酸化（Ser845）后的快速内吞；还有研究指向 cAMP 超激活导致 PP-2A 活化反过来去磷酸化关键底物。问题：哪个节点是最主要的"倒转"机制，这些机制是否在不同细胞类型（PV+中间神经元 vs 锥体细胞）中不同？
 - **当前证据状态**：倒 U 型行为学关系（高）；HCN 机制（中，Arnsten 实验室数据）；AMPAR 内吞机制（弱）；细胞类型特异性（弱）
+
+---
+
+## 2026-08-03 新增（来自"工作记忆神经密码之争"文章 #102）
+
+### Q-wm-onoff-01（高优先级）：Off 态信息储存的具体分子机制
+
+- **关联 wiki**：[[working-memory]]、[[short-term-synaptic-plasticity]]、[[persistent-activity]]
+- **来源文章**：2026-08-03-working-memory-neural-code-debate
+- **问题**：Panichello 2024 通过功能连接解码证明 Off 态中有信息储存，但"功能连接"只是信息储存的行为表现，不是机制。问题：(a) 这种储存是 Syt7 驱动的 STP 易化状态（Mongillo 2008 的模型预测）？还是内在后去极化电流（如 Ca²⁺ 激活的 ICAN 电流，Stern & Hasselmo 2022 提出）？还是其他短时程可塑性形式？(b) 可以通过在 Off 态期间用低频 TMS 扰动特定脑区来消除功能连接储存，同时保留 On 态放电，来区分两者的贡献。
+- **当前证据状态**：功能连接储存存在（高，Panichello 2024 直接测量）；STP 为其底层（中，模型预测，间接行为证据）；其他机制（低，推测）
+
+### Q-wm-onoff-02（中优先级）：干扰条件下 On/Off 比例如何变化？
+
+- **关联 wiki**：[[working-memory]]、[[persistent-activity]]
+- **来源文章**：2026-08-03-working-memory-neural-code-debate
+- **问题**：Panichello 2024 使用的是无干扰的简单空间延迟任务。Wang XJ（2021）的核心批评是：活动沉默无法抵抗干扰刺激（新强刺激会覆写 STP 状态）。问题：(a) 当延迟期出现干扰刺激时，On/Off 比例如何改变（是否更多 On 态）？(b) On 态是否通过竞争机制压制干扰刺激的神经表征（Wang 吸引子模型的预测）？(c) 精神分裂症患者 dlPFC 的 On/Off 比例是否不同（工作记忆对干扰的脆弱性是否对应 On 态减少）？
+- **当前证据状态**：无干扰条件 On/Off（高，Panichello 2024）；干扰条件（无直接证据）；精神分裂症 On/Off（无数据）
+
+### Q-wm-onoff-03（中优先级）：人类 dlPFC 是否表现同样的 On/Off 结构？
+
+- **关联 wiki**：[[working-memory]]、[[prefrontal-cortex]]
+- **来源文章**：2026-08-03-working-memory-neural-code-debate
+- **问题**：Panichello 2024 在猕猴中记录。Kamiński & Rutishauser 2019 的人类 iEEG 数据主要来自海马（海马神经元表现出持续活动），而非 dlPFC。问题：(a) 人类 dlPFC 单神经元 iEEG 是否也呈现 On/Off 结构？(b) 人类 dlPFC 的 On 态频率和 Off 态时长是否与猕猴相似（或有物种差异，人类 dlPFC 更大→更长 On 态？）(c) ADHD 和精神分裂症患者的 On/Off 比例异常能否被检测？
+- **当前证据状态**：猕猴 On/Off（高）；人类 dlPFC On/Off（无直接单细胞证据）；精神分裂症/ADHD On/Off（无数据）

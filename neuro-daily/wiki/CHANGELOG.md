@@ -2068,3 +2068,21 @@
 **登记或裁决矛盾：** 无（今日无新矛盾被发现；现有矛盾不涉及今日主题）
 
 **新增悬空引用待补：** `nucleus-accumbens`（NAc）页面（被今日文章多处引用，但无对应 wiki 页面）
+
+---
+
+## 2026-08-03（文章 #102：工作记忆神经密码之争）
+
+**今日主题：** 工作记忆持续放电 vs 活动沉默 vs γ 爆发的三国博弈，以 Panichello 2024 Nature On/Off 态发现为高潮
+
+**修订 wiki 页面（2 个）：**
+- `wiki/concepts/working-memory.md`（rev6 → rev7）：新增 Panichello 2024 Neuropixels 8225 神经元 On/Off 态实验整合证据；新增"On/Off 态交替机制"小节；Q-wm-active-vs-silent 更新为部分解答；新增 Q-wm-onoff-01/02/03；key_sources 新增 PMID:39506106, PMID:34654556
+- `wiki/concepts/persistent-activity.md`（rev1 → rev2）：新增 Wang 2021（吸引子框架与 γ 爆发兼容；活动沉默在主动WM局限）和 Panichello 2024 证据行；更新修订历史
+
+**无新建页面：** 今日核心概念均已有对应 wiki 页面。
+
+**图谱状态：** 209 节点，1209 边（无变化）
+
+**登记或裁决矛盾：** 无。Q-wm-active-vs-silent 从"开放"标注为"部分解答（Panichello 2024）"，尚未完全裁决。
+
+**新增悬空引用：** 无新增。原有悬空引用（motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba）待后续填补。

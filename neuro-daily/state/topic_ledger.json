@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-02",
-  "total_articles": 101,
+  "last_updated": "2026-08-03",
+  "total_articles": 102,
   "entries": [
     {
       "date": "2026-08-02",
@@ -6208,6 +6208,67 @@
           "concepts/engram-cells.md rev6"
         ],
         "graph": "196 nodes, 1133 edges"
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "real_date": "2026-06-06",
+      "article_number": 102,
+      "title": "工作记忆的神经密码之争：持续放电、活动沉默与伽马爆发的三国博弈",
+      "slug": "working-memory-neural-code-debate",
+      "core_question": "大脑在延迟期用什么机制保存工作记忆？持续放电（Goldman-Rakic）、活动沉默（Mongillo/Stokes STP）、还是间歇性γ爆发（Lundqvist/Miller）的哪种假说正确？Panichello 2024 On/Off 态如何整合三种框架？",
+      "layer": [
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "cognition"
+      ],
+      "topic_tags": [
+        "working memory",
+        "persistent activity",
+        "activity-silent",
+        "gamma bursts",
+        "STP",
+        "Neuropixels",
+        "prefrontal cortex",
+        "Goldman-Rakic 1995",
+        "Mongillo 2008",
+        "Stokes 2015",
+        "Lundqvist 2018",
+        "Wang 2021",
+        "Panichello 2024",
+        "On-Off states"
+      ],
+      "main_sources": [
+        "PMID:4998337 (Fuster & Alexander 1971, Science)",
+        "PMID:7695894 (Goldman-Rakic 1995, Neuron)",
+        "PMID:11476885 (Wang XJ 2001, Trends Neurosci)",
+        "PMID:18339943 (Mongillo 2008, Science)",
+        "PMID:26051384 (PMC4509720, Stokes 2015, Trends Cogn Sci)",
+        "PMID:30089640 (Lundqvist et al. 2018, J Neurosci)",
+        "PMID:31407811 (PMC7015771, Kaminski & Rutishauser 2019)",
+        "PMID:34654556 (PMC9087306, Wang XJ 2021, Trends Neurosci)",
+        "PMID:39506106 (PMC11634780, Panichello et al. 2024, Nature)"
+      ],
+      "unresolved_questions": [
+        "Q-wm-onoff-01",
+        "Q-wm-onoff-02",
+        "Q-wm-onoff-03"
+      ],
+      "next_suggested_topics": [
+        "cognitive flexibility: reversal learning and PFC-OFC interaction",
+        "executive function: inhibitory control and conflict monitoring (ACC)",
+        "prefrontal cortex development and working memory maturation",
+        "dopamine D1 in PFC working memory: further mechanistic details",
+        "GABA interneurons full article (fill dangling gaba reference)"
+      ],
+      "wiki_changes": {
+        "created": [],
+        "revised": [
+          "concepts/working-memory.md rev7 (+On/Off section, +Panichello 2024 evidence)",
+          "concepts/persistent-activity.md rev2 (+Wang 2021 defense, +Panichello 2024 On-state)"
+        ],
+        "graph": "209 nodes, 1209 edges (no change)"
       }
     }
   ],

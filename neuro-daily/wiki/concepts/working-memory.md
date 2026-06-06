@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-03
-revision_count: 6
+updated: 2026-08-03
+revision_count: 7
 dimensions: [cognition, brain-region, microcircuit, behavior]
 related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition]
-key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition, 2026-08-03-working-memory-neural-code-debate]
+key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841", "PMID:39506106", "PMID:34654556"]
 ---
 
 # 工作记忆 (Working Memory)
@@ -54,6 +54,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 | STP 可实现活动无声 WM | 计算模型 | Mongillo et al. 2008 (PMID:18339943) | 中 |
 | D1 受体倒 U 型调节 | 猕猴 PFC 微量注射 | Arnsten 2011 (PMID:21345366, PMC:PMC3115784) | 高 |
 | PV 损伤导致 γ 下降和 WM 缺陷 | 人类 dlPFC 尸检 | Hughes et al. 2024 (PMID:39381500, PMC:PMC11458443) | 高 |
+| 延迟期神经元群在 On 态（~192ms 爆发）与 Off 态（~146ms 静默）交替；Off 态中功能连接模式保存方向信息（活动沉默直接验证） | Neuropixels 8225 神经元同步记录，3 只猕猴，空间 WM 任务 | Panichello et al. 2024 (PMID:39506106, PMC:PMC11634780) | 高 |
 
 ## 连接
 
@@ -68,12 +69,25 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[dorsal-language-stream]] — Baddeley语音回路（phonological loop）对应背侧流Spt↔BA44环路：颞顶界面区（Spt）是音韵短期缓冲，弓状束传递信息到BA44进行内部"默读"，是语言工作记忆的神经底层
 - [[language-network]] — 双流语言网络中的背侧流Spt↔BA44子回路 = 语音工作记忆的解剖基础
 
+## On/Off 态交替机制（2026-08-03 新增）
+
+Panichello et al. (2024, PMID:39506106) 通过 Neuropixels 探针同时记录 8,225 个猕猴 lateral PFC 神经元，首次在单试次层面直接证明：
+
+- **On 态**（~192ms）：神经元集群方向特异性爆发，从放电率可解码方向信息
+- **Off 态**（~146ms）：放电接近基线，但方向信息以**功能连接模式**（神经元对之间的相关性）保存，可被解码
+- **两态交替**：不是"持续放电"也不是"纯活动沉默"，而是两种机制的接力协作
+
+这一发现实验性地整合了争论五十年的三个框架：持续放电（On 态确有爆发）、活动沉默（Off 态信息保存在功能连接中）、γ 爆发（On 态即 γ 爆发）都在同一试次中同时正确。
+
 ## 未解问题
 
-- Q-wm-active-vs-silent：在真实任务中，活动性编码与突触静默储存各贡献多少？
+- Q-wm-active-vs-silent（**部分解答 by Panichello 2024**）：On/Off 交替揭示两种机制各有阶段；但干扰条件下的比例变化、Off 态的具体分子机制仍是开放问题
 - Q-wm-capacity-mechanism：约 4 项的容量限制是来自吸引子间的相互干扰还是 θ/γ 嵌套约束？
 - Q-wm-pfc-content-vs-control：PFC 究竟是"内容存储器"还是"调度控制中心"？
 - Q-wm-human-specificity：人类 dlPFC 是否有特有的工作记忆机制？
+- Q-wm-onoff-01（高优先级）：Off 态信息储存的具体分子机制（Syt7 STP？内在钙激活电流？其他？）
+- Q-wm-onoff-02（中优先级）：干扰条件下 On/Off 比例如何变化？
+- Q-wm-onoff-03（中优先级）：人类 dlPFC 是否表现同样的 On/Off 结构（iEEG 单神经元证据）？
 
 ## 工作记忆容量的吸引子竞争机制
 
@@ -113,6 +127,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增 NE/ACh 对工作记忆的调制条目：α2A 受体（高亲和力 NE 受体）抑制 HCN 通道、稳定 PFC 工作记忆表征（Arnsten）；M1 ACh 受体促进持续放电（Hasselmo & Sarter 2011）；α7-nAChR 增强 dlPFC NMDA 信号稳定性（Yang 2013）；related 新增 norepinephrine-locus-coeruleus, acetylcholine-cortex
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语音工作记忆（phonological loop）与背侧语言流的解剖对应：Spt（音韵短期缓冲）↔BA44（内部发声）即Baddeley语音回路的神经底层；related 新增 dorsal-language-stream, language-network
 - 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增背内侧视丘（MD）的工作记忆放大器角色小节：MD 维持延迟期晚期活动（不影响早期）；MD-PFC θ/β 同步；认知灵活性依赖 MD-OFC；精神分裂症中 MD-dlPFC 降低∝认知缺陷；related 新增 thalamus, thalamocortical-circuit
+- 2026-08-03 · 修订 · 基于《工作记忆神经代码之争》一文（#102）· 新增 Panichello 2024 Neuropixels 关键证据（8225神经元，On/Off状态交替，Off态功能连接保存方向信息）；新增"On/Off 态交替机制"小节；Q-wm-active-vs-silent 更新为"部分解答"；新增 Q-wm-onoff-01/02/03；key_sources 新增 PMID:39506106, PMID:34654556
 
 ## NE 和 ACh 对工作记忆的调制
 
@@ -138,3 +153,4 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[2026-06-10-stp-short-term-plasticity]]
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-06-20-language-dual-stream]]
+- [[2026-08-03-working-memory-neural-code-debate]]

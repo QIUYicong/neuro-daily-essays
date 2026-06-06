@@ -1,0 +1,115 @@
+# 运行日志 — 2026-08-03
+
+## 基本信息
+
+- **文章日期**: 2026-08-03
+- **实际执行日期**: 2026-06-06 UTC+8
+- **说明**: 当前系统日期为 2026-06-06，但知识库前序会话已累积至 2026-08-02，故本次生成序列中下一篇文章，日期为 2026-08-03，不重复今日已有的两篇文章（2026-06-06-dopamine-systems-anatomy 和 2026-06-06-week2-synthesis）。
+- **文章编号**: #102
+- **分支**: main
+- **commit**: pending（本日志随提交一并推送）
+
+## 选题过程
+
+### 状态读取
+
+- `topic_ledger.json`：84 条历史记录，最近条目为 2026-08-02（DMN默认模式网络）。
+- `unresolved_questions.md`：高优先级问题包含 Q-wm-active-vs-silent（活动性编码与突触静默储存的贡献比例），该问题由 2026-06-05 文章登记，至今未解决。
+- `contested_claims.json`：3条开放矛盾（GABA at AIS / SNARE complex / IIT vs COGITATE），均不涉及今日主题。
+- `wiki/_graph.json`：209节点，1209边；悬空引用包含 `motor-learning`, `deep-cerebellar-nuclei`, `inferior-olive`, `gaba`。
+
+### 选题决策
+
+- **优先级评估**：高优先级未解问题 Q-wm-active-vs-silent 与 Panichello 2024（Nature，PMID:39506106）的新发现直接对应——这是关键的"突破追踪"机会。
+- **与课程路线的关系**：课程脊柱 5（认知控制/工作记忆）的核心争论；承接 2026-06-05（PFC工作记忆入门）和 2026-06-10（STP机制），在更深层次解析同一主题。
+- **非重复性确认**：2026-06-05 文章讲 gamma 爆发和 STP 的基本概念；今日文章讲三种假说的历史博弈及2024年Neuropixels突破——主题重叠但深度和角度完全不同。
+- **最终选题**：工作记忆的神经密码之争（持续放电 vs 活动沉默 vs 伽马爆发），以 Panichello 2024 的 On/Off 态发现作为叙事高潮。
+
+## 检索过程
+
+### 检索词
+
+- "working memory persistent activity vs activity-silent synaptic short-term potentiation PFC neurons 2024 2025"
+- "Lundqvist Miller gamma bursts working memory prefrontal cortex activity-silent Stokes 2025 review"
+- "Panichello 2024 Nature intermittent rate coding working memory Neuropixels prefrontal PMC open access"
+- "Mongillo Barak Tsodyks 2008 synaptic theory working memory Science PMID PMC"
+- "Goldman-Rakic 1995 cellular basis of working memory Neuron PMID 7695894"
+- "Wang XJ 50 years persistent activity quo vadis 2021 PMC"
+- "working memory activity-silent 2024 2025 evidence PFC monkey human fMRI TMS multivariate decoding"
+
+### 数据源
+
+- PubMed / NCBI（主要来源验证）
+- PubMed Central（PMC全文获取）：PMC4509720, PMC7015771, PMC9087306, PMC11634780
+- Europe PMC（辅助确认）
+- WebSearch（关键词检索）
+- WebFetch（PMC全文获取摘要关键信息）
+
+### 候选文献数
+
+初始候选：约15篇。
+
+### 采用文献（9篇）
+
+1. Fuster & Alexander (1971) PMID:4998337 — 奠基性发现，摘要级别
+2. Goldman-Rakic (1995) PMID:7695894 — 经典框架，摘要级别
+3. Wang XJ (2001) PMID:11476885 — 吸引子模型，摘要级别
+4. Mongillo et al. (2008) PMID:18339943 — 突触理论，摘要级别
+5. Stokes (2015) PMID:26051384 PMC4509720 — 活动沉默综述，**PMC开放全文读取**
+6. Lundqvist et al. (2018) PMID:30089640 — γ爆发挑战，摘要级别
+7. Kamiński & Rutishauser (2019) PMID:31407811 PMC7015771 — 整合框架，**PMC开放全文读取**
+8. Wang XJ (2021) PMID:34654556 PMC9087306 — 50年回顾，**PMC开放全文读取**
+9. Panichello et al. (2024) PMID:39506106 PMC11634780 — 关键突破，**PMC开放全文读取**
+
+**PMC全文读取：4/9（44%）**
+
+### 排除文献（2篇）
+
+- Lundqvist et al. (2016) PMID:26996084：已在 wiki/concepts/working-memory.md 充分记录；2018 综述版本（S6）是更新的整合表述，优先选用。
+- Constantinidis et al. (2018)（同期评论）：在文章讨论中提及争论，但不作为正式来源引用（仅摘要可查，且是争论性评论而非独立研究）。
+
+## Wiki 固结记录
+
+### 修订页面
+
+**`wiki/concepts/working-memory.md`**（rev 6 → rev 7）：
+- 新增 Panichello 2024 的 On/Off 态关键证据（新增证据表行）
+- 新增"On/Off 态交替机制"小节
+- 更新 Q-wm-active-vs-silent：标注 Panichello 2024 部分解决此问题
+- frontmatter: updated → 2026-08-03, revision_count → 7
+- key_sources 新增 PMID:39506106
+
+**`wiki/concepts/persistent-activity.md`**（rev 1 → rev 2）：
+- 新增 Wang 2021 回顾证据
+- 更新"当前理解"段落，反映 On/Off 态框架
+- frontmatter: updated → 2026-08-03, revision_count → 2
+- key_sources 新增 PMID:34654556
+
+### 无新建页面
+
+今日核心概念（工作记忆、持续活动、STP）均已有对应 wiki 页面。图谱节点和边无新增。
+
+## 矛盾检查
+
+- **新证据与既有主张是否冲突**：Panichello 2024 与 working-memory.md 的既有描述兼容（文章已将两种机制整合）；与 persistent-activity.md 的"延迟期放电是 γ 爆发"描述兼容（On 态即 γ 爆发）。无新矛盾需登记。
+- **悬空引用变化**：无新增。原有悬空引用（motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba）未被今日内容触及。
+
+## 未解问题更新
+
+- **Q-wm-active-vs-silent**：Panichello 2024 提供了部分答案——On/Off 交替机制揭示两种模型各自有效，并非互斥。但"在真实认知任务（含干扰）中的比例"仍是开放问题。将在 unresolved_questions.md 中标注为"部分解答"。
+- **新增问题（3条）**：
+  - Q-wm-onoff-01（高优先级）：Off态信息储存的具体分子机制（Syt7 STP？内在钙激活电流？其他？）——需要体内分子操纵实验
+  - Q-wm-onoff-02（中优先级）：干扰条件下 On/Off 比例如何变化（是否更多 On 态用于维持稳定）？
+  - Q-wm-onoff-03（中优先级）：人类 dlPFC 是否表现同样的 On/Off 结构（iEEG 单神经元证据）？
+
+## 失败与限制
+
+- Goldman-Rakic (1995) 和 Wang (2001) 原始论文全文需机构访问，本文内容基于摘要 + 广泛被引的综述描述（包括 Wang 2021 PMC 全文中对自己 2001 年工作的详细引用），标注"未读取全文"。
+- Lundqvist et al. (2018) 全文需机构访问；内容基于摘要和 PMC6083456 中的同篇评论内容。
+- 所有内容限于9篇验证来源，未引入未核实文献。
+
+## Push 状态
+
+- Branch: main
+- 提交包含：articles/2026-08-03-working-memory-neural-code-debate.md, notes/2026-08-03-reading-notes.md, sources/2026-08-03-sources.json, logs/2026-08-03-run.log, 修订的wiki页面, 更新的状态文件
+- push: 待执行
