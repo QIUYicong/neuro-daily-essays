@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "node_count": 203,
   "edge_count": 1179,
   "edge_types": [
@@ -1939,6 +1939,42 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/structure-function-relationship.md"
+    },
+    {
+      "id": "synaptogenesis",
+      "title": "突触生成",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/synaptogenesis.md"
+    },
+    {
+      "id": "neuroligin-neurexin",
+      "title": "Neuroligin-Neurexin 突触粘附系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/neuroligin-neurexin.md"
+    },
+    {
+      "id": "postsynaptic-density",
+      "title": "突触后致密体（兴奋性）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/postsynaptic-density.md"
+    },
+    {
+      "id": "gephyrin-scaffold",
+      "title": "Gephyrin 抑制性突触骨架",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/gephyrin-scaffold.md"
     }
   ],
   "edges": [
@@ -8610,6 +8646,86 @@
       "from": "connectomics",
       "to": "structure-function-relationship",
       "type": "supports"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "synaptogenesis",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "neuroligin-neurexin",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "postsynaptic-density",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "gephyrin-scaffold",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "ltp",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "growth-cone",
+      "to": "synaptogenesis",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "neuroligin-neurexin",
+      "to": "postsynaptic-density",
+      "type": "regulates"
+    },
+    {
+      "from": "neuroligin-neurexin",
+      "to": "gephyrin-scaffold",
+      "type": "regulates"
+    },
+    {
+      "from": "neuroligin-neurexin",
+      "to": "axon-guidance",
+      "type": "related"
+    },
+    {
+      "from": "neuroligin-neurexin",
+      "to": "autism-spectrum-disorder",
+      "type": "related"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "camkii",
+      "type": "related"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "gephyrin-scaffold",
+      "to": "neuroligin-neurexin",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "neuroligin-neurexin",
+      "type": "related"
     }
   ],
   "dangling_references": [

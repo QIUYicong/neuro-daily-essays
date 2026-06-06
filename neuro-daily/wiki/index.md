@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-05（**第104篇**·解剖即是命运？FlyWire 全脑连接组与结构-功能关系）· 主题页总数：**203**（新建3页：small-world-network、rich-club、structure-function-relationship；修订1页：connectomics rev2；_graph.json JSON错误已修复；图谱214节点、1233边）
+> 最后更新：2026-08-06（**第105篇**·轴突找到伙伴之后：突触如何从分子装配线上诞生）· 主题页总数：**207**（新建4页：synaptogenesis、neuroligin-neurexin、postsynaptic-density、gephyrin-scaffold；修订1页：axon-guidance rev2；图谱218节点、1249边）
 
 ---
 
@@ -44,6 +44,10 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [突触生成](concepts/synaptogenesis.md) — 轴突触碰目标后 NL-NRXN 握手双向触发前后侧装配；兴奋性（PSD-95三层骨架）vs 抑制性（Gephyrin格栅）双轨；活动依赖稳定与修剪；ASD（NLGN3/Shank3突变）的分子入口 **[NEW 2026-08-06 #105]**
+- 🟢 [Neuroligin-Neurexin 突触粘附系统](concepts/neuroligin-neurexin.md) — 跨突触间隙双向信号系统；NL1→兴奋性/NL2→抑制性身份二分；弱结合×聚集效应（Boyd 2026）；可变剪接密码；NLGN3 R451C → ASD **[NEW 2026-08-06 #105]**
+- 🟢 [突触后致密体（兴奋性）](concepts/postsynaptic-density.md) — PSD-95/GKAP/Shank-Homer 三层骨架；纳米亚结构单元；LTP 后 5 分钟重组；AMPA/NMDA 受体锚定平台；Shank3 ASD 靶点 **[NEW 2026-08-06 #105]**
+- 🟢 [Gephyrin 抑制性突触骨架](concepts/gephyrin-scaffold.md) — Gephyrin 六角格栅；NL2→Collybistin 解自抑制→Cdc42→格栅定向铺开；GABA-A 受体侧向扩散+陷阱捕获；甘氨酸受体高亲和力锚定 **[NEW 2026-08-06 #105]**
 - 🟢 [小世界网络](concepts/small-world-network.md) — 高聚类系数+短平均路径的最优网络拓扑；果蝇全脑 SΔ=141（迄今最高生物神经网络）；在突触级精度上验证了多尺度小世界原则 **[NEW 2026-08-05 #104]**
 - 🟢 [富有节点组织](concepts/rich-club.md) — 高连接度神经元彼此高度互联的核心枢纽；果蝇全脑约30%（40,218个）神经元构成富有节点，内部连接密度为全脑5.4倍；跨半球整合中枢 **[NEW 2026-08-05 #104]**
 - 🔵 [结构-功能关系](concepts/structure-function-relationship.md) — 解剖布线在多大程度上预测神经功能的核心问题；MICrONS 2025 直接验证功能调谐相似性预测突触连接；但C. elegans 40年教训说明结构是约束而非决定 **[NEW 2026-08-05 #104]**

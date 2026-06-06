@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-08-06 · 文章 #105 · 轴突找到伙伴之后：突触如何从分子装配线上诞生
+
+**核心主题**：突触生成——课程脊柱第2章"神经网络如何建成"的续集（轴突导向 #103 的下一步）。核心内容：Neuroligin-Neurexin 跨突触"握手协议"（双向信号诱导前后侧装配）；NL1→兴奋性/NL2→抑制性突触身份二分；NL2-NRXβ1 弱结合×聚集效应的膜牵引+Gephyrin 招募机制（Boyd 2026, PMC12985673）；兴奋性 PSD 三层骨架（PSD-95/GKAP/Shank-Homer）；PSD 纳米亚结构单元（Ramírez-Expósito 2026, PMC12840169）；Gephyrin-Collybistin-Cdc42 格栅定向锚定抑制性受体；LRRTM 平行突触诱导系统（Roppongi 2020）；Kim 2026 "分子连续性"模型（轴突导向分子双重功能）；ASD 窗口（NLGN3 R451C, Shank3 缺失）；脑-AI 比较（结构约束 vs 无约束权重）。
+
+**新建页面（4）**：
+- `concepts/synaptogenesis.md` rev1 — 突触生成机制全面初始化；NL-NRXN 双向信号；分子连续性模型；兴奋性/抑制性双轨装配；活动依赖稳定与修剪 (established, confidence:high)
+- `concepts/neuroligin-neurexin.md` rev1 — NL-NRXN 系统结构功能；可变剪接密码；NL1/NL2 突触类型二分；弱结合×聚集效应（Boyd 2026）；ASD 突变（NLGN3 R451C） (established, confidence:high)
+- `concepts/postsynaptic-density.md` rev1 — PSD 三层架构（PSD-95/GKAP/Shank-Homer pallium）；纳米亚结构单元；LTP 5分钟重组；CaMKII 进入骨架层 (established, confidence:high)
+- `concepts/gephyrin-scaffold.md` rev1 — Gephyrin 六角格栅；Collybistin/Cdc42 定向锚定；NL2→Collybistin 解自抑制；GABA-A 侧向扩散+陷阱捕获；甘氨酸受体高亲和力 (established, confidence:high)
+
+**修订页面（1）**：
+- `concepts/axon-guidance.md` rev1→rev2 — 新增"分子连续性"模型段落（Kim 2026, PMC13094498）：Latrophilin/Neurexin/NMDAR/Cerebellin 的导向→突触双重功能；更新 related（+neuroligin-neurexin）、key_sources（+PMID:41895449）、source_articles、revision_count
+
+**矛盾登记（0）**：今日内容与现有 wiki 无矛盾。NL2-NRXβ1 弱结合的新证据（Boyd 2026）补充而非推翻已有理解（NL-NRXN 是突触识别中心机制），一致。
+
+**新增开放问题（3）**：见 Q-synaptogenesis-01、Q-synaptogenesis-02、Q-synaptogenesis-03（追加到 unresolved_questions.md）
+
+**图谱更新**：节点 214→218（+4），边 1233→1249（+16）。新节点：synaptogenesis、neuroligin-neurexin、postsynaptic-density、gephyrin-scaffold。新边涵盖轴突导向→突触生成→PSD/Gephyrin/LTP/ASD 的连接链。
+
+---
+
 ## 2026-08-05 · 文章 #104 · 解剖即是命运？FlyWire 全脑连接组与"结构决定功能"大问题
 
 **核心主题**：连接组学与结构-功能关系——课程脊柱第9章（Connectomics）与第10章（方法革命）首篇。核心内容：C. elegans（1986）→ Drosophila hemibrain（Scheffer 2020）→ FlyWire 完整果蝇大脑（Dorkenwald 2024，139,255神经元，~5400万突触）的历史跃迁；FlyWire 全脑网络拓扑统计（Lin 2024）：小世界系数SΔ=141（迄今最高生物神经网络）、平均路径4.42跳、富有节点（40,218个神经元，内部连接密度5.4倍）、广播者（胆碱能/视觉系统）vs 整合者（多巴胺能）；MICrONS 2025（小鼠V1功能-结构协注册，200,000+细胞，5亿突触）直接验证功能相似性预测突触连接；人类HCP宏观连接组尺度对比；C. elegans 40年教训（完整布线图+仍无法完全预测行为 = 神经调质不在布线图里）；脑-AI权重矩阵类比及其局限。

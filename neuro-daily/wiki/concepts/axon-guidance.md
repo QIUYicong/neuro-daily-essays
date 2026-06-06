@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-04
-updated: 2026-08-04
-revision_count: 1
+updated: 2026-08-06
+revision_count: 2
 dimensions: [molecular, cellular, brain-region]
-related: [growth-cone, retinotopic-map, synaptogenesis, critical-period, connectomics, hippocampal-circuit, synaptic-pruning]
+related: [growth-cone, retinotopic-map, synaptogenesis, critical-period, connectomics, hippocampal-circuit, synaptic-pruning, neuroligin-neurexin]
 prerequisites: [synaptic-transmission, action-potential, hebbian-learning]
 opens_questions: [Q-axon-guidance-01, Q-axon-guidance-02, Q-axon-guidance-03]
-source_articles: [2026-08-04-axon-guidance-growth-cone-wiring]
-key_sources: ["PMID:8895455", "PMID:21123392", "PMID:36942388", "PMID:39075893", "PMID:14077501"]
+source_articles: [2026-08-04-axon-guidance-growth-cone-wiring, 2026-08-06-synaptogenesis-molecular-assembly]
+key_sources: ["PMID:8895455", "PMID:21123392", "PMID:36942388", "PMID:39075893", "PMID:14077501", "PMID:41895449"]
 ---
 
 # 轴突导向 (Axon Guidance)
@@ -30,6 +30,8 @@ key_sources: ["PMID:8895455", "PMID:21123392", "PMID:36942388", "PMID:39075893",
 2. **活动依赖的 Hebbian 精化**：在遗传框架基础上，根据神经元的同步活动进一步精化精确的连接模式（关键期）。
 
 两种机制的分工原则：化学梯度确保"视网膜中央凹映射到视觉皮层中心区域"等大局精度；活动精化在局部调整"精确感受野大小和形状"等细节。
+
+**2026-08-06 新增理解——"分子连续性"模型**：Kim et al. 2026（PMC13094498）综合多项证据提出，轴突导向与突触生成并非两个截然分开的阶段，许多导向分子（Latrophilin、Neurexin、NMDA 受体、Cerebellin）在轴突到达靶点后通过**重新偶联 G 蛋白或切换信号模式**，从导向功能无缝转变为突触组织功能。这意味着大脑用同一套分子库高效实现布线和连接装配，进化出了最大化分子经济性的方案。这也暗示导向分子的突变可能**同时损害布线和突触质量**，对神经发育疾病（ASD、精神分裂症）的理解有直接意义。
 
 **这一理解如何改变我们对大脑的认识**：大脑的精密布线不是随机初始化后学习的，而是由进化在数亿年中筛选的基因程序写就的发育先验。这解释了为什么大脑以极少的经验就能学到很多（相比深度学习系统需要百亿训练样本）——结构先验已经内置了大量来自进化的"归纳偏置"（inductive bias）。
 
@@ -108,6 +110,7 @@ key_sources: ["PMID:8895455", "PMID:21123392", "PMID:36942388", "PMID:39075893",
 ## 修订历史
 
 - 2026-08-04 · 创建 · 基于《大脑如何给自己布线》文章（#103）· 课程脊柱第2章核心新节点 · 初始置信度：高（established，多物种、多层次证据）
+- 2026-08-06 · 修订 · 基于《轴突找到伙伴之后：突触如何从分子装配线上诞生》(#105) · 新增"分子连续性"维度（Kim 2026, PMC13094498）；Latrophilin/Neurexin/NMDAR/Cerebellin 的双重功能证据；更新 related 和 key_sources
 
 ---
 
