@@ -1876,6 +1876,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/direct-indirect-pathway.md"
+    },
+    {
+      "id": "self-referential-processing",
+      "title": "自我参照处理",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/self-referential-processing.md"
+    },
+    {
+      "id": "mind-wandering",
+      "title": "心智漫游",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/mind-wandering.md"
     }
   ],
   "edges": [
@@ -8373,6 +8391,60 @@
       "from": "vta",
       "to": "amygdala",
       "type": "regulates"
+    },
+    {
+      "from": "self-referential-processing",
+      "to": "default-mode-network",
+      "type": "part-of",
+      "note": "自我参照处理是DMN持续激活的核心功能；mPFC是自我参照处理的主要神经底座"
+    },
+    {
+      "from": "self-referential-processing",
+      "to": "memory-consolidation",
+      "type": "supports",
+      "note": "自我参照效应显著增强情景记忆编码（Rogers 1977）"
+    },
+    {
+      "from": "self-referential-processing",
+      "to": "theory-of-mind",
+      "type": "related",
+      "note": "dMPFC子系统同时参与自我参照和他心推断，共享神经回路"
+    },
+    {
+      "from": "mind-wandering",
+      "to": "default-mode-network",
+      "type": "mechanism-of",
+      "note": "心智漫游是DMN激活的主要行为表现；感知解耦是其神经标志"
+    },
+    {
+      "from": "mind-wandering",
+      "to": "dorsal-attention-network",
+      "type": "contradicts",
+      "note": "DMN-DAN反相关：心智漫游时DAN活动降低；任务失误时漫游/DAN抑制"
+    },
+    {
+      "from": "mind-wandering",
+      "to": "alpha-oscillations",
+      "type": "related",
+      "note": "α振荡增强是感知解耦的节律机制；漫游期间顶叶α增强"
+    },
+    {
+      "from": "mind-wandering",
+      "to": "self-referential-processing",
+      "type": "related",
+      "note": "大多数心智漫游内容具有自我参照性质（过去回忆/未来规划）"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "self-referential-processing",
+      "type": "supports",
+      "note": "DMN是自我参照处理的神经基础架构"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "mind-wandering",
+      "type": "supports",
+      "note": "DMN自发激活产生心智漫游；感知解耦使内部记忆优先"
     }
   ],
   "dangling_references": [

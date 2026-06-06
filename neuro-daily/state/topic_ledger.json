@@ -1,7 +1,89 @@
 {
-  "last_updated": "2026-06-06",
+  "last_updated": "2026-08-02",
   "total_articles": 101,
   "entries": [
+    {
+      "date": "2026-08-02",
+      "title": "当大脑'放空'：默认模式网络如何成为自我的神经底座",
+      "filename": "2026-08-02-default-mode-network-self-model.md",
+      "article_type": "regular",
+      "article_number": 101,
+      "wiki_pages_created": [
+        "wiki/concepts/self-referential-processing.md",
+        "wiki/concepts/mind-wandering.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/default-mode-network.md (rev3->rev5)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当大脑执行外部任务时被系统性压制、休息时自发激活的后扣带回（PCC）/楔前叶、内侧前额叶（mPFC）和海马旁回（PHC）这一网络，究竟在执行何种计算？Andrews-Hanna 2010 的双子系统分析如何将 DMN 分解为'当前自我（dMPFC子系统）'和'历时自我（MTL子系统）'？PCC 的功能是'自我参照'还是更广泛的'沉浸于体验'（Leech & Sharp 2013）？心智漫游的感知解耦机制如何让内部记忆优先？DMN 为何成为阿尔茨海默病最早的崩溃点？",
+      "layer": [
+        "whole-brain-network",
+        "cognition",
+        "brain-region",
+        "behavior"
+      ],
+      "curriculum_track": "8. 意识与自我（DMN、自我参照、心智漫游、情景性未来思维）；层级切换：从近期分子/突触层级（#100 小脑LTD）到全脑网络/认知层级；填补长期缺口（DMN页面已有但未深化双子系统和PCC执念框架）",
+      "topic_tags": [
+        "default mode network",
+        "DMN",
+        "posterior cingulate cortex",
+        "PCC",
+        "medial prefrontal cortex",
+        "mPFC",
+        "self-referential processing",
+        "mind-wandering",
+        "perceptual decoupling",
+        "episodic future thinking",
+        "mentalizing",
+        "anticorrelation",
+        "task-positive network",
+        "dorsal attention network",
+        "frontoparietal control network",
+        "FPCN",
+        "Andrews-Hanna 2010",
+        "Raichle 2001",
+        "Buckner 2008",
+        "Christoff 2016",
+        "Leech Sharp 2013",
+        "Sheline 2021",
+        "amyloid DMN vulnerability",
+        "resting state fMRI",
+        "OEF",
+        "being caught up in experience",
+        "scene construction",
+        "MTL subsystem",
+        "dMPFC subsystem",
+        "midline core"
+      ],
+      "main_sources": [
+        "PMID:11209064 (PMC14647, open access, full text read)",
+        "PMID:18400922 (abstract only, paywall)",
+        "PMID:20188659 (PMC2848443, open access, full text read)",
+        "PMCID:PMC4039623 (open access, full text read)",
+        "PMID:27681958 (PMC5490683, open access, full text read)",
+        "PMID:25938726 (abstract only, paywall)",
+        "PMID:31492945 (abstract only, paywall)",
+        "PMCID:PMC8490784 (open access, full text read)",
+        "PMCID:PMC3788347 (open access, full text read)"
+      ],
+      "unresolved_questions": [
+        "Q-dmn-05",
+        "Q-dmn-06",
+        "Q-dmn-07",
+        "Q-dmn-08"
+      ],
+      "next_suggested_topics": [
+        "全局工作空间理论深化（GWT）：DMN作为先验生成器+GWT广播基础设施的精确整合——意识点燃的神经机制（填补DMN-GWT接口，课程脊柱8）",
+        "整合信息理论（IIT）与神经相关物（NCC）：Φ值测量与后皮层热区；与预测编码/GWT的比较（课程脊柱8继续）",
+        "睡眠与DMN：睡眠时DMN是否持续活跃？梦境的DMN神经基础；NREM vs REM睡眠中的DMN模式（与#75/SO-纺锤波-SWR系列的深层联结）",
+        "前额叶工作记忆深化：持续性活动的蜂鸣音（persistent activity）机制——递归兴奋vs迟滞离子通道；与DMN-TPN切换的认知控制联结（课程脊柱5）",
+        "Connectomics入门：果蝇全脑connectome（FlyWire 2023）和人脑H01立方毫米——从结构连接到功能网络的跨越（课程脊柱9）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-06（真实执行日期）；知识库虚拟日期2026-08-02；继承自2026-08-01（第100篇里程碑·小脑LTD）；本篇是第101篇，层级从分子/突触转换到全脑网络/认知；DMN页面已有先前基础，本次大幅扩充双子系统分析和PCC功能框架；与此同时填补了长期缺失的'自我参照处理'和'心智漫游'独立概念页"
+    },
     {
       "date": "2026-06-06",
       "title": "奖励、运动与认知的统一信使：多巴胺能系统的三重回路如何用一种分子说三种语言",

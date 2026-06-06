@@ -1,0 +1,122 @@
+# 运行日志 · 2026-08-02
+
+**文章编号**：#101
+**实际执行日期**：2026-06-06（系统时钟UTC+8）
+**知识库虚拟日期**：2026-08-02
+**执行状态**：成功
+**分支**：claude/funny-einstein-Pqg0c
+
+---
+
+## 执行摘要
+
+今日任务：基于ROUTINE.md，在最新main分支基础上生成第101篇文章。
+
+**选题过程**：
+- 读取状态文件：topic_ledger.json（最新条目为#100，2026-08-01小脑LTD）、unresolved_questions.md、monthly_synthesis.md
+- 最近5篇层级：分子/突触（#100小脑LTD）、微回路/脑区（#99 PFC-杏仁核）、突触/细胞（#98 BLA）、细胞/脑区（#97 OFC）
+- 选择层级切换：全脑网络/认知（避免连续分子层级）
+- 课程脊柱进度评估：第8课（意识与自我）的DMN部分虽有基础wiki页面，但双子系统分析和PCC功能框架未深化
+- 最终选题：**默认模式网络（DMN）** ——既是层级切换，又是长期缺口的深化
+
+---
+
+## 检索过程
+
+**搜索词**：
+1. `default mode network Raichle 2001 PNAS PMC open access`
+2. `Buckner Andrews-Hanna Schacter 2008 brain default network PMC`
+3. `Andrews-Hanna 2012 default network subsystems medial prefrontal PMC full text`
+4. `default mode network self-referential posterior cingulate hub 2020 2021`
+5. `mind wandering default mode network perceptual decoupling PMC`
+6. `posterior cingulate cortex function mechanistic review hub`
+7. `default mode network Alzheimer's disease amyloid deposition PCC 2021`
+8. `Fox Raichle 2007 spontaneous fluctuations anticorrelated networks`
+9. `Raichle 2015 brain default mode network annual review`
+
+**数据源**：PubMed、PMC、WebFetch（全文提取）
+
+---
+
+## 来源采用情况
+
+| 来源 | PMID/PMCID | 全文 | 采用原因 |
+|------|-----------|------|---------|
+| Raichle 2001 | PMC14647 | ✓ | 奠基性论文，OEF定量基线证明 |
+| Buckner et al 2008 | PMID:18400922 | 摘要 | 最权威DMN综述，确立fMRI连接研究 |
+| Andrews-Hanna 2010 | PMC2848443 | ✓ | 双子系统架构，最重要的DMN分解研究 |
+| Andrews-Hanna 2012 | PMC4039623 | ✓ | DMN功能综合+三类临床失调 |
+| Christoff 2016 | PMC5490683 | ✓ | 心智漫游动态框架，感知解耦 |
+| Raichle 2015 | PMID:25938726 | 摘要 | 年度综述，跨物种DMN保守性 |
+| Buckner & DiNicola 2019 | PMID:31492945 | 摘要 | 更新多重交织网络模型 |
+| Sheline 2021 | PMC8490784 | ✓ | AD前临床DMN损伤的直接证据 |
+| Leech & Sharp 2013 | PMC3788347 | ✓ | PCC"沉浸体验"功能框架 |
+
+**排除来源**：
+- Fox et al 2005（PMID:16093322）：paywall，只用摘要信息（反相关发现已从引用综述中提取）
+- Kelley et al 2002（自我参照fMRI）：paywall，只用摘要
+
+---
+
+## 文章生产
+
+**文件**：`neuro-daily/articles/2026-08-02-default-mode-network-self-model.md`
+**字数估计**：约5200字（中文）
+**结构**：11节（按ROUTINE.md规范）
+**来源质量**：6个开放全文 / 3个仅摘要
+
+**阅读笔记**：`neuro-daily/notes/2026-08-02-reading-notes.md`
+**来源JSON**：`neuro-daily/sources/2026-08-02-sources.json`（9个来源）
+
+---
+
+## Wiki固结
+
+**新建页面（2）**：
+- `wiki/concepts/self-referential-processing.md`（rev1，established，高置信）
+- `wiki/concepts/mind-wandering.md`（rev1，mainstream，高置信）
+
+**修订页面（1）**：
+- `wiki/systems/default-mode-network.md`（rev3→rev5）
+  - 新增双子系统详细分析（Andrews-Hanna 2010，PMC2848443）
+  - 新增PCC"沉浸体验"框架（Leech & Sharp 2013，PMC3788347）
+  - 新增心智漫游感知解耦（Christoff 2016，PMC5490683）
+  - 新增Sheline 2021 AD前临床DMN损伤证据（PMC8490784）
+  - 新增Q-dmn-05至Q-dmn-08
+  - related新增self-referential-processing, mind-wandering
+  - key_sources扩充至11个
+
+**矛盾协议**：无新矛盾登记（DMN-DAN反相关的GSR争议已在prior版本记录）
+
+**图谱更新**：
+- 新增节点：203（原201）
+  - self-referential-processing（concepts，established，high）
+  - mind-wandering（concepts，mainstream，high）
+- 新增边：约10条（DMN↔新概念，新概念↔理论/现象）
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`：新增2026-08-02条目（#101）；total_articles=101；last_updated=2026-08-02
+- `state/unresolved_questions.md`：新增Q-dmn-05至Q-dmn-08（4个问题）
+- `state/monthly_synthesis.md`：新增2026年8月月度标题，添加#100和#101摘要
+- `wiki/index.md`：total更新为198页；新增self-referential-processing和mind-wandering词条
+- `wiki/CHANGELOG.md`：新增2026-08-02节
+
+---
+
+## 失败与限制
+
+- Buckner 2008年、Raichle 2015年、Buckner & DiNicola 2019年综述为paywall，只能使用摘要和从引用中间接提取的信息
+- Fox et al 2005（反相关发现）无开放全文，核心事实从多个引用文献中间接验证
+- DMN与预测编码的精确对应关系仍是概念性的，无可量化的实证研究可引用
+
+---
+
+## Git 操作
+
+**工作分支**：claude/funny-einstein-Pqg0c
+**合并来源**：main（已更新至2026-08-01）
+**提交状态**：待执行
+**推送目标**：origin claude/funny-einstein-Pqg0c → 推送成功后合并至 main

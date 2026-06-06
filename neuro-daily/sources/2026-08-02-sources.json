@@ -1,0 +1,240 @@
+{
+  "date": "2026-08-02",
+  "article": "2026-08-02-default-mode-network-self-model",
+  "article_number": 101,
+  "real_execution_date": "2026-06-06",
+  "topic": "默认模式网络（DMN）——大脑的内部操作系统与自我模型的神经底座",
+  "sources": [
+    {
+      "id": "PMID:11209064",
+      "pmcid": "PMC14647",
+      "title": "A default mode of brain function",
+      "authors": "Raichle ME, MacLeod AM, Snyder AZ, Powers WJ, Gusnard DA, Shulman GL",
+      "journal": "Proceedings of the National Academy of Sciences USA",
+      "year": 2001,
+      "volume": "98",
+      "issue": "2",
+      "pages": "676-682",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC14647/",
+      "topics_covered": [
+        "default mode discovery",
+        "task-induced deactivation",
+        "oxygen extraction fraction OEF",
+        "PET baseline activity",
+        "posterior cingulate cortex",
+        "medial prefrontal cortex",
+        "spontaneous brain activity"
+      ],
+      "adoption_reason": "创立了'默认模式'概念的奠基性论文，Raichle本人撰写，OEF定量分析确立了静息活动的真实性",
+      "evidence_quality": "高（多任务PET、定量OEF）"
+    },
+    {
+      "id": "PMID:18400922",
+      "pmcid": null,
+      "title": "The brain's default network: anatomy, function, and relevance to disease",
+      "authors": "Buckner RL, Andrews-Hanna JR, Schacter DL",
+      "journal": "Annals of the New York Academy of Sciences",
+      "year": 2008,
+      "volume": "1124",
+      "pages": "1-38",
+      "full_text_available": false,
+      "access_method": "abstract only (paywall)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18400922/",
+      "topics_covered": [
+        "DMN anatomy comprehensive review",
+        "resting state fMRI",
+        "functional connectivity",
+        "disease relevance",
+        "Alzheimer's disease DMN"
+      ],
+      "adoption_reason": "最具影响力的DMN综述，确立了fMRI功能连接作为DMN研究工具；未读全文，基于摘要和后续引用文献",
+      "evidence_quality": "高（综述整合数十项研究）",
+      "note": "未读取全文"
+    },
+    {
+      "id": "PMID:20188659",
+      "pmcid": "PMC2848443",
+      "title": "Functional-anatomic fractionation of the brain's default network",
+      "authors": "Andrews-Hanna JR, Reidler JS, Sepulcre J, Poulin R, Buckner RL",
+      "journal": "Neuron",
+      "year": 2010,
+      "volume": "65",
+      "issue": "4",
+      "pages": "550-562",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2848443/",
+      "topics_covered": [
+        "DMN subsystems",
+        "dorsomedial PFC subsystem",
+        "medial temporal lobe subsystem",
+        "midline core",
+        "self-referential processing present",
+        "episodic future thinking",
+        "mnemonic scene construction",
+        "PCC hub betweenness centrality"
+      ],
+      "adoption_reason": "首次系统解析DMN双子系统架构，建立了dMPFC（现在自我）vs MTL（过去/未来）的功能分离，是当前DMN双子系统模型的直接来源",
+      "evidence_quality": "高（fMRI+主观策略报告双重验证，多分析方法稳定）"
+    },
+    {
+      "id": "PMCID:PMC4039623",
+      "pmcid": "PMC4039623",
+      "title": "The brain's default network and its adaptive role in internal mentation",
+      "authors": "Andrews-Hanna JR",
+      "journal": "Neuroscientist",
+      "year": 2012,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4039623/",
+      "topics_covered": [
+        "DMN component processes",
+        "self-generated thought",
+        "dynamic control",
+        "frontoparietal control network",
+        "mind-wandering regulation",
+        "DMN in depression ADHD schizophrenia AD",
+        "anticorrelation with DAN"
+      ],
+      "adoption_reason": "Andrew-Hanna对DMN功能整合综述，建立了三组分机制（情景记忆/心智化/情感整合）和三类临床失调框架",
+      "evidence_quality": "高质量综述；整合fMRI/临床研究"
+    },
+    {
+      "id": "PMID:27681958",
+      "pmcid": "PMC5490683",
+      "title": "Mind-wandering as spontaneous thought: a dynamic framework",
+      "authors": "Christoff K, Irving ZC, Fox KCR, Spreng RN, Andrews-Hanna JR",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2016,
+      "volume": "17",
+      "issue": "11",
+      "pages": "718-731",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5490683/",
+      "topics_covered": [
+        "mind-wandering",
+        "perceptual decoupling",
+        "spontaneous thought",
+        "DMN subsystem coupling in mind-wandering",
+        "frontoparietal control network",
+        "episodic memory in mind-wandering",
+        "intentional vs unintentional mind-wandering"
+      ],
+      "adoption_reason": "最系统的心智漫游动态框架综述，引入感知解耦概念，区分刻意/非刻意心智漫游的神经基础",
+      "evidence_quality": "综述（fMRI+EEG+经验抽样多方法整合）"
+    },
+    {
+      "id": "PMID:25938726",
+      "pmcid": null,
+      "title": "The brain's default mode network",
+      "authors": "Raichle ME",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2015,
+      "volume": "38",
+      "pages": "433-447",
+      "full_text_available": false,
+      "access_method": "abstract only (paywall)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25938726/",
+      "topics_covered": [
+        "DMN comprehensive review",
+        "evolution across species",
+        "default mode physiology",
+        "spontaneous activity"
+      ],
+      "adoption_reason": "Raichle本人对DMN领域的年度综述，权威总结；未读全文，基于摘要",
+      "evidence_quality": "高（一手综述）",
+      "note": "未读取全文"
+    },
+    {
+      "id": "PMID:31492945",
+      "pmcid": null,
+      "title": "The brain's default network: updated anatomy, physiology and evolving insights",
+      "authors": "Buckner RL, DiNicola LM",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2019,
+      "volume": "20",
+      "issue": "10",
+      "pages": "593-608",
+      "doi": "10.1038/s41583-019-0212-7",
+      "full_text_available": false,
+      "access_method": "abstract only (paywall)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31492945/",
+      "topics_covered": [
+        "DMN as multiple interwoven networks",
+        "thalamic regulation of DMN",
+        "cross-species DMN conservation",
+        "DMN in mental illness",
+        "competitive relationships internal-external networks"
+      ],
+      "adoption_reason": "2019年最新DMN解剖和功能综述，提出'多重交织网络'修订模型，质疑单一DMN概念；未读全文",
+      "evidence_quality": "最高级综述（Nature Reviews）",
+      "note": "未读取全文；基于摘要和搜索引擎摘要"
+    },
+    {
+      "id": "PMCID:PMC8490784",
+      "pmcid": "PMC8490784",
+      "title": "Amyloid-driven disruption of default mode network connectivity in cognitively healthy individuals",
+      "authors": "Sheline YI, Morris JC, Snyder AZ, Price JL, Yan Z, D'Angelo G, Liu C, Dixit S, Benzinger T, Parsons I, Olivier J, Mintun MA",
+      "journal": "Neurobiology of Aging",
+      "year": 2021,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8490784/",
+      "topics_covered": [
+        "amyloid burden and DMN connectivity",
+        "preclinical Alzheimer's disease",
+        "PCC vulnerability",
+        "precuneus DMN disruption",
+        "longitudinal cognitive decline prediction",
+        "amyloid-metabolism feedback loop"
+      ],
+      "adoption_reason": "直接证明认知正常期的淀粉样蛋白积累已导致DMN连接降低，且预测未来认知衰退；建立了DMN作为AD早期生物标志物的证据",
+      "evidence_quality": "高（前瞻纵向+双模态影像amyloid-PET+静息fMRI）"
+    },
+    {
+      "id": "PMCID:PMC3788347",
+      "pmcid": "PMC3788347",
+      "title": "What about the 'Self' is Processed in the Posterior Cingulate Cortex?",
+      "authors": "Leech R, Sharp DJ",
+      "journal": "Frontiers in Human Neuroscience",
+      "year": 2013,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3788347/",
+      "topics_covered": [
+        "posterior cingulate cortex function",
+        "self-referential processing PCC",
+        "being caught up in experience",
+        "meditation PCC deactivation",
+        "craving and PCC",
+        "attentional lapses PCC",
+        "PCC as hub"
+      ],
+      "adoption_reason": "提供了超越'自我参照'框架的PCC功能新假设（沉浸/执念检测器），整合冥想/成瘾/注意等多领域证据",
+      "evidence_quality": "综述（多领域fMRI+神经反馈；框架性假设）"
+    }
+  ],
+  "total_sources": 9,
+  "full_text_read": 6,
+  "abstract_only": 3,
+  "search_queries_used": [
+    "default mode network Raichle 2001 PNAS PMC open access",
+    "Buckner Andrews-Hanna Schacter 2008 brain default network PMC",
+    "Andrews-Hanna 2012 default network subsystems medial prefrontal PMC full text",
+    "default mode network self-referential posterior cingulate hub 2020 2021",
+    "mind wandering default mode network Smallwood perceptual decoupling PMC",
+    "posterior cingulate cortex function mechanistic review hub self-referential",
+    "default mode network Alzheimer's disease biomarker amyloid deposition PCC 2021",
+    "Fox Raichle 2007 spontaneous fluctuations anticorrelated networks",
+    "Raichle 2015 brain default mode network annual review PMC"
+  ],
+  "excluded_sources": [
+    {
+      "reason": "paywall，无开放全文",
+      "papers": ["Fox et al 2005 PNAS anticorrelated networks（PMID:16093322）", "Kelley et al 2002 self-referential processing（仅摘要使用）"]
+    }
+  ]
+}

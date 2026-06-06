@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-08-02 · 文章 #101 · 当大脑"放空"：默认模式网络如何成为自我的神经底座
+
+**核心主题**：默认模式网络（DMN）的全面深化——Raichle 2001 的意外发现（OEF定量证明真实基线）；Andrews-Hanna 2010 双子系统架构精细解剖（dMPFC子系统=当前自我/心智化，MTL子系统=情景记忆/未来模拟，中线核心PCC+aMPFC=枢纽整合器）；PCC的"沉浸体验"框架（Leech & Sharp 2013：非仅自我参照，而是"被体验吸引"的更广泛状态；冥想PCC降低、渴求PCC升高、神经反馈实验验证）；心智漫游的感知解耦机制（Christoff 2016，早期感觉ERP下降，主动带宽切换）；刻意/非刻意漫游的神经差异（FPCN协同/不协同）；DMN-DAN反相关的功能意义（计算资源分配，FPCN作为切换器）；AD早期生物标志物（Sheline 2021，认知正常者DMN连接降低预测未来衰退）；脑-AI类比（无静息态内部网络、无持久自我模型、无情景性未来模拟）。
+
+**新建页面（2）**：
+- `concepts/self-referential-processing.md` rev1 — 自我参照效应历史（Rogers 1977记忆增强）；mPFC/PCC的神经底座；双子维度（当前vs历时自我）；文化差异与普遍神经机制 (established, confidence:high)
+- `concepts/mind-wandering.md` rev1 — 感知解耦机制；刻意/非刻意两类型；DMN子系统的分工（MTL=记忆浮现，dMPFC=社会内容）；功能意义假说（情景性未来模拟/创造性/社会维护/记忆整合） (mainstream, confidence:high)
+
+**修订页面（1）**：
+- `systems/default-mode-network.md` rev3→rev5 — 新增Andrews-Hanna 2010双子系统分析（PMID:20188659）；PCC"沉浸体验/执念检测器"框架（PMC3788347）；心智漫游感知解耦（PMC5490683）；Sheline 2021 AD前临床DMN损伤证据（PMC8490784）；新增Q-dmn-05至Q-dmn-08；related新增self-referential-processing, mind-wandering；key_sources扩充至11个；updated→2026-08-02
+
+**矛盾登记（0）**：今日无新增矛盾。DMN-DAN反相关的方法论争议（GSR问题）已在现有DMN页面登记为Q-dmn-01，今日新增证据支持反相关真实性（无GSR情况下较弱但仍存在），未登记新矛盾。
+
+**新增开放问题（4）**：
+- Q-dmn-05（高）：DMN默认模拟是否真代表情景性未来模拟（有功能目的）？
+- Q-dmn-06（高）：TMS抑制PCC能否在行为层面减少"心理执念"（因果验证PCC沉浸框架）？
+- Q-dmn-07（中）：DMN连接性的经验依赖可塑性——冥想/学习/创伤如何改变连接拓扑？
+- Q-dmn-08（中）：DMN是否可操作化为预测编码的先验项？
+
+**图谱**：203节点（+2：self-referential-processing、mind-wandering），新增约10条边（DMN↔新概念，新概念↔理论/现象）
+
+---
+
 ## 2026-08-01 · 文章 #100（里程碑）· 教师信号的困境：攀爬纤维 LTD 的分子机制与小脑运动学习的"分布式可塑性"革命
 
 **核心主题**：小脑 LTD（Marr-Albus-Ito 模型核心）的分子级联（mGluR1→PKC→GluA2 S880磷酸化→PICK1介导AMPAR内吞）详解；攀爬纤维误差信号的精密时序（眼跳后80–120ms，SC→IO延迟14.4ms，编码误差大小2°–6°和方向）；绒球最优 PF-CF 配对间隔≈120ms（匹配视觉反馈延迟，Suvrathan 2018）；颗粒细胞膨胀编码GluA4机制（200:1扩展比，GluA4 KO→电流↓80%、眼睑条件反射消失，Kita 2021）；Schonewille 2011 三种突变小鼠阻断LTD→运动学习仍正常，迫使范式转移；分布式可塑性（≥15种机制）；双相记忆轨迹（皮层LTD快速→DCN LTP慢速巩固，Ito 2013）；CCAS"思维失调"假说（156例，PMC6978293）；脑-AI类比（监督学习、稀疏误差信号、时间信用分配、冗余鲁棒性）。

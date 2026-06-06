@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-01（**第100篇里程碑**·小脑LTD分子机制与分布式可塑性革命）· 主题页总数：**196**（新建2页：purkinje-cell、climbing-fiber-error-signal；修订2页：cerebellar-ltd rev2、cerebellum rev2；图谱201节点、~1169边）
+> 最后更新：2026-08-02（**第101篇**·默认模式网络——大脑的内部操作系统与自我的神经底座）· 主题页总数：**198**（新建2页：self-referential-processing、mind-wandering；修订1页：default-mode-network rev5；图谱203节点、~1179边）
 
 ---
 
@@ -44,6 +44,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [自我参照处理](concepts/self-referential-processing.md) — 大脑对"与自我相关信息"赋予自动优先级的神经认知机制；mPFC和PCC为核心；Rogers 1977自我参照效应增强记忆编码；双子维度（当前vs历时自我）；DMN持续激活的核心功能 **[NEW 2026-08-02 #101]**
+- 🔵 [心智漫游](concepts/mind-wandering.md) — 思维自发偏离任务、转向内部自发想法的认知状态；清醒时约47%时间（Killingsworth 2010）；感知解耦（早期感觉ERP↓）为神经标志；DMN激活；刻意/非刻意两类型；情景性未来模拟的功能假说 **[NEW 2026-08-02 #101]**
 - 🔴 [小脑LTD（PF-PC长时程突触压抑）](concepts/cerebellar-ltd.md) — mGluR1→PKC→GluA2 S880磷酸化→PICK1→AMPAR内吞；绒球最优窗口≈120ms（匹配视觉延迟）；但 Schonewille 2011 阻断LTD→运动学习仍正常（contested）；分布式可塑性≥15种机制 **[修订 rev2 2026-08-01 #100]**
 - 🟢 [攀爬纤维误差信号](concepts/climbing-fiber-error-signal.md) — 下橄榄核→CF→Purkinje细胞复杂放电（~1Hz稀疏）；眼跳后80–120ms；SC→IO延迟14.4ms；误差大小（2–6°）和方向编码；LTD诱导的"教师信号" **[NEW 2026-08-01 #100]**
 - 🟢 [BLA 价值极性双通道](concepts/bla-valence-circuits.md) — Ppp1r1b+ 奖励神经元→NAc（恐惧↓突触权重）vs Rspo2+ 恐惧神经元→CeA（恐惧↑突触权重）；BLA-NAc 77% 奖励激活，BLA-CeA 100% 厌恶激活（Beyeler 2016）；DA→BLA 驱动结果特异性奖励记忆（Sias 2024）**[NEW 2026-07-30 #98]**
