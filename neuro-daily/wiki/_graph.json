@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-15",
-  "node_count": 240,
-  "edge_count": 1370,
+  "updated": "2026-08-16",
+  "node_count": 244,
+  "edge_count": 1386,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2173,6 +2173,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/retinal-waves.md"
+    },
+    {
+      "id": "inferior-temporal-cortex",
+      "title": "颞下皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/inferior-temporal-cortex.md"
+    },
+    {
+      "id": "v4-visual-area",
+      "title": "V4 视觉区",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "medium",
+      "page": "wiki/systems/v4-visual-area.md"
+    },
+    {
+      "id": "invariant-object-recognition",
+      "title": "不变量物体识别",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/invariant-object-recognition.md"
+    },
+    {
+      "id": "face-patch-system",
+      "title": "面孔块系统",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/face-patch-system.md"
     }
   ],
   "edges": [
@@ -9529,6 +9565,102 @@
       "from": "ocular-dominance-columns",
       "to": "orientation-selectivity",
       "type": "related"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "v4-visual-area",
+      "type": "prerequisite-for",
+      "note": "V1 局部边缘信号是 V4 曲率形状计算的输入基础"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "inferior-temporal-cortex",
+      "type": "prerequisite-for",
+      "note": "V1→V2→V4→IT 腹侧流层级的起始阶段"
+    },
+    {
+      "from": "v4-visual-area",
+      "to": "inferior-temporal-cortex",
+      "type": "prerequisite-for",
+      "note": "V4 中间形状计算（曲率×角度空间）为 IT 物体身份编码提供输入"
+    },
+    {
+      "from": "v4-visual-area",
+      "to": "invariant-object-recognition",
+      "type": "mechanism-of",
+      "note": "V4 位置不变性开始涌现，是不变量识别的中间计算阶段"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "invariant-object-recognition",
+      "type": "mechanism-of",
+      "note": "IT 皮层是不变量物体识别的主要神经底物；高选择性 + 高不变性在此平衡"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "face-patch-system",
+      "type": "part-of",
+      "note": "面孔块系统是 IT 皮层内的面孔特化功能层级"
+    },
+    {
+      "from": "face-patch-system",
+      "to": "invariant-object-recognition",
+      "type": "mechanism-of",
+      "note": "面孔块系统展示了不变量面孔识别的层级计算（ML/MF→AL→AM 视角整合梯度）"
+    },
+    {
+      "from": "face-patch-system",
+      "to": "inferior-temporal-cortex",
+      "type": "part-of",
+      "note": "6 个面孔块（PL/ML/MF/AF/AL/AM）位于 IT 皮层内"
+    },
+    {
+      "from": "invariant-object-recognition",
+      "to": "inferior-temporal-cortex",
+      "type": "related",
+      "note": "不变量识别是 IT 皮层的核心计算目标"
+    },
+    {
+      "from": "critical-period",
+      "to": "face-patch-system",
+      "type": "regulates",
+      "note": "面孔块发育依赖关键期内正常面孔经验；面孔剥夺→面孔块缺失"
+    },
+    {
+      "from": "amygdala",
+      "to": "face-patch-system",
+      "type": "related",
+      "note": "IT 面孔块输出投射到杏仁核，处理面孔情绪价值"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "inferior-temporal-cortex",
+      "type": "regulates",
+      "note": "PFC→IT 自上而下反馈：任务依赖调制、工作记忆维持、注意力门控"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "invariant-object-recognition",
+      "type": "prerequisite-for",
+      "note": "V1 提供局部方向边缘原始数据，是不变量识别计算的起点"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "v4-visual-area",
+      "type": "related",
+      "note": "IT 是 V4 的下游接收区；两者共同构成腹侧流高级视觉层级"
+    },
+    {
+      "from": "invariant-object-recognition",
+      "to": "face-patch-system",
+      "type": "is-a",
+      "note": "面孔身份的不变量识别是不变量物体识别的专门化子类"
+    },
+    {
+      "from": "critical-period",
+      "to": "inferior-temporal-cortex",
+      "type": "regulates",
+      "note": "视觉经验通过活动依赖机制精化 IT 皮层的选择性调谐"
     }
   ],
   "dangling_references": [

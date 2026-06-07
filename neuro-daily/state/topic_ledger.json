@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-14",
-  "total_articles": 113,
+  "last_updated": "2026-08-16",
+  "total_articles": 115,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7215,6 +7215,91 @@
         "弱视（Amblyopia）作为疾病窗口：关键期 ODP 失衡的临床后果——皮层机制、双眼竞争失衡与新型治疗策略（重开关键期）",
         "方位超柱（Orientation Hypercolumn）：V1 中方向图与眼优势图的交织组织——它们是如何协同涌现的？是否存在共同的活动依赖机制？"
       ]
+    },
+    {
+      "date": "2026-08-16",
+      "real_date": "2026-06-07",
+      "article_number": 115,
+      "title": "从线条到身份：腹侧视觉流如何解决不变量物体识别的核心难题",
+      "slug": "inferotemporal-cortex-ventral-stream-object-recognition",
+      "filename": "2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition.md",
+      "article_type": "regular",
+      "core_question": "腹侧视觉流（V1→V2→V4→IT→PFC）如何通过层级计算，将视网膜上位置/大小/视角各异的光强度分布，最终解码为稳定的物体身份？选择性（特征分辨力）与不变性（变换鲁棒性）的精确平衡如何在 IT 皮层群体编码中实现？猕猴 6 个面孔块从 ML/MF（视角特异）到 AM（视角不变、73% 神经元身份调谐）的功能梯度如何揭示不变量识别的层级实现路径？IT 皮层究竟编码全局形状还是纹理统计——这一争论的证据边界在哪里？",
+      "layer": [
+        "cellular",
+        "brain-region",
+        "systems",
+        "cognition"
+      ],
+      "curriculum_track": "3. 感觉加工与感知（视觉通路脊柱第3章：腹侧流对象识别；继 V1/ODC#113-114 之后进入高级视觉区；连接 critical-period、face-patch-system、DNN-neuroscience 三个主题）",
+      "topic_tags": [
+        "inferior temporal cortex",
+        "IT cortex",
+        "ventral visual stream",
+        "invariant object recognition",
+        "selectivity tolerance balance",
+        "sparseness conservation",
+        "V4 visual area",
+        "shape space curvature",
+        "face patch system",
+        "ML MF AL AM face patches",
+        "view-specific view-invariant gradient",
+        "Freiwald Tsao 2010",
+        "FFA fusiform face area",
+        "distributed vs modular",
+        "Jennifer Aniston neurons",
+        "concept cells",
+        "Quiroga 2005",
+        "Halle Berry neuron",
+        "deep learning ventral stream",
+        "DNN neural prediction",
+        "shape vs texture debate",
+        "Ayzenberg Behrmann 2022",
+        "texforms",
+        "Rust DiCarlo 2012",
+        "Conway 2018",
+        "Pasupathy 2020",
+        "critical period face patches",
+        "experience-dependent development"
+      ],
+      "main_sources": [
+        "PMID:30059648 / PMC:PMC6404234 (Conway 2018, Annu Rev Vis Sci, open full text)",
+        "PMID:21051642 / PMC:PMC3181095 (Freiwald & Tsao 2010, Science, open full text)",
+        "PMID:22836252 / PMC:PMC3485085 (Rust & DiCarlo 2012, Neuron, open full text)",
+        "PMID:33431673 / PMC:PMC7826371 (Zhuang et al. 2021, eLife, open full text)",
+        "PMID:36272937 / PMC:PMC11669366 (Ayzenberg & Behrmann 2022, Curr Biol, open full text)",
+        "PMID:39419548 / PMC:PMC11601097 (Amita et al. 2024, Proc Natl Acad Sci, open full text)",
+        "PMID:34292306 / PMC:PMC7501212 (Pasupathy 2020 chapter, open full text)",
+        "PMID:12925854 (Tsao et al. 2003, Science, abstract only)",
+        "PMID:9151747 (Kanwisher et al. 1997, J Neurosci, abstract only)",
+        "PMID:11577229 (Haxby et al. 2001, Science, abstract only)",
+        "PMID:16007583 (Quiroga et al. 2005, Nature, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/inferior-temporal-cortex.md",
+        "wiki/systems/v4-visual-area.md",
+        "wiki/concepts/invariant-object-recognition.md",
+        "wiki/systems/face-patch-system.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/v1-primary-visual-cortex.md (rev5->rev6): 新增 v4-visual-area, inferior-temporal-cortex, invariant-object-recognition 到 related；updated→2026-08-16；source_articles 扩展"
+      ],
+      "contested_claims_logged": [
+        "C-2026-08-16-01"
+      ],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-it-01",
+        "Q-it-02",
+        "Q-it-03"
+      ],
+      "next_suggested_topics": [
+        "背侧视觉流（Dorsal Visual Stream）：V1→MT/V5→MST→顶叶皮层的运动与空间加工——腹侧与背侧的双流分工及信息整合",
+        "方位超柱（Orientation Hypercolumn）与方向选择性：V1 简单细胞/复杂细胞如何通过 LGN 输入汇聚建立方向调谐——ODC 与方位图的交织组织机制",
+        "深度学习与腹侧流对比：卷积神经网络预测 IT 响应的精度及其局限——神经预测准确度 vs 行为对齐 vs 对抗样本的三角张力"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-07（真实执行日期）；知识库虚拟日期2026-08-16；文章延续视觉系统脊柱，衔接 V1/ODC#114 向高级视觉区推进；7个来源开放全文，4个摘要仅读；1个新矛盾登记（形状 vs 纹理 debate）；4个新wiki页创建；1个wiki页修订"
     }
   ],
   "layer_coverage_recent": {

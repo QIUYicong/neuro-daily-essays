@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-15（**第114篇**·左眼还是右眼：视觉皮层如何通过 Hebbian 竞争雕刻眼优势柱）· 主题页总数：**229**（新建2页：ocular-dominance-columns、retinal-waves；修订2页：critical-period rev4、v1-primary-visual-cortex rev5；图谱240节点、1370边）
+> 最后更新：2026-08-16（**第115篇**·从线条到身份：腹侧视觉流如何解决不变量物体识别的核心难题）· 主题页总数：**233**（新建4页：inferior-temporal-cortex、v4-visual-area、invariant-object-recognition、face-patch-system；修订1页：v1-primary-visual-cortex rev6；图谱244节点、~1386边）
 
 ---
 
@@ -44,6 +44,7 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [不变量物体识别](concepts/invariant-object-recognition.md) — 在位置/大小/旋转/光照变换下识别同一物体身份的能力；腹侧流通过选择性↑与不变性↑的精确平衡、维持稀疏度守恒（~10%）实现；形状 vs. 纹理统计之争（Ayzenberg 2022）仍 open **[NEW 2026-08-16 #115]**
 - 🟢 [眼优势柱（ODC）](concepts/ocular-dominance-columns.md) — V1 Layer 4 中双眼 LGN 输入的竞争图谱：视网膜波→LGN 预分层→ODC 解剖前体（出生前）；关键期 ODP 两阶段（剥夺眼 NMDAR-LTD / 开放眼 LTP+稳态缩放）；PV+ 去抑制启动；沉默突触开锁（AMPA/NMDA 0.3→2）；tPA-塑素结构重塑 **[NEW 2026-08-15 #114]**
 - 🟢 [视网膜波](concepts/retinal-waves.md) — 出生前 RGC 自发 Stage I/II/III 波；β2-nAChR 驱动 Stage II 对 LGN 眼特异分层至关重要；与 ephrin-A 梯度协同（双重 KO→V1 视野图消失）；ODC 解剖前体的主要驱动力 **[NEW 2026-08-15 #114]**
 - 🟢 [丘脑皮层轴突（TCA）](concepts/thalamocortical-axons.md) — 丘脑感觉核（LGN/VPM/MGN）→皮层 L4 的感觉布线工程：走廊细胞 NRG1-ErbB4 许可通道、握手假说（下板 CTA 脚手架）、Ephrin-A5/EphA4 拓扑编码、FGF3 双路径排斥（PC-PLC+PI3K→Slit1）、丘脑波（E14）、上丘感觉门控 **[NEW 2026-08-14 #113]**
@@ -227,7 +228,10 @@
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；**BLA奖励神经元（Ppp1r1b+→NAc）与恐惧神经元（Rspo2+→CeA）通过对立突触可塑性实现正/负价值双通道编码**；与PFC（IL/PL）和海马形成情绪调控三角回路；慢性应激下BLA树突增生 vs 海马退缩的方向性分离（修订rev4 2026-07-30 #98）**[NEW 2026-05-30]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
 - 🟢 [眶额叶皮层（OFC）](systems/orbitofrontal-cortex.md) — 大脑"估价系统"；三类商品价值神经元（Padoa-Schioppa 2006）；Rangel 2008 三系统框架中目标导向系统的价值输入源；OFC→NAc 投射为 actor-critic 批评家提供 V(s)；Hattori 2023 CaMKII 元学习扩展；**lOFC⇄BLA 四向协作回路（Wassum 2022）**；vmPFC/dlPFC 自我控制回路（Hare 2009）（修订rev2 2026-07-30 #98）**[NEW 2026-07-29 #97]**
-- 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
+- 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订6次）
+- 🟢 [V4 视觉区](systems/v4-visual-area.md) — 腹侧流中间节点；在物体中心坐标系对边界形状（曲率×角度）进行选择性调谐；区分真实 vs. 遮挡轮廓；平均响应潜伏期 76.6 ms；多维联合调谐（形状×颜色×纹理×深度）；位置不变性的起始点 **[NEW 2026-08-16 #115]**
+- 🟢 [颞下皮层（IT）](systems/inferior-temporal-cortex.md) — 腹侧流最高级视觉区；四阶段偏心率框架（Conway 2018）；选择性与不变性同时增加但稀疏度守恒（~10%，Rust & DiCarlo 2012）；面孔块层级（ML/MF→AM 视角特异→不变）；分布式编码与局部专门化并存 **[NEW 2026-08-16 #115]**
+- 🟢 [面孔块系统](systems/face-patch-system.md) — 猕猴 IT 皮层中 6 个面孔高选择性区域（PL/ML/MF/AF/AL/AM）；从视角特异（ML/MF: 97% 面孔选择性）到视角不变（AM: 73% 身份调谐）的清晰功能梯度（Freiwald & Tsao 2010）；不变量面孔识别的层级神经底物 **[NEW 2026-08-16 #115]**
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**

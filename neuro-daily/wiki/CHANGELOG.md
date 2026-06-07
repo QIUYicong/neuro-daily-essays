@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-08-16（文章 #115 — 腹侧视觉流与颞下皮层不变量物体识别）
+
+**新建页面（4 页）**：
+- `wiki/systems/inferior-temporal-cortex.md`：IT 皮层四阶段偏心率框架（Conway 2018）；选择性与不变性平衡、稀疏度守恒（~10%，Rust & DiCarlo 2012）；面孔块层级（ML/MF→AM）；分布式 vs. 模块论调和
+- `wiki/systems/v4-visual-area.md`：V4 形状选择性在物体中心坐标系（曲率×角度空间）；真实 vs. 偶然轮廓的区分；平均响应潜伏期 76.6 ms；多维联合调谐（形状×纹理×颜色×深度）
+- `wiki/concepts/invariant-object-recognition.md`：不变量识别的核心计算概念；选择性/不变性/稀疏度三角关系；腹侧流各层级实现方式；形状 vs. 纹理统计争论（Q-it-01）
+- `wiki/systems/face-patch-system.md`：猕猴 6 个面孔块（PL/ML/MF/AF/AL/AM）；视角特异→视角不变功能梯度（Freiwald & Tsao 2010）；人类 FFA 与猕猴面孔块对应关系（Q-it-03）
+
+**修订页面（1 页）**：
+- `wiki/systems/v1-primary-visual-cortex.md`（rev6）：related 新增 v4-visual-area, inferior-temporal-cortex, invariant-object-recognition；source_articles 新增 #115；显式连接 V1 作为腹侧流起点与 V4/IT 层级
+
+**图谱更新**：新增 4 节点（inferior-temporal-cortex, v4-visual-area, invariant-object-recognition, face-patch-system），新增约 16 条有类型边；图谱总节点 244，总边 ~1386
+
+**新登记的未解问题**：
+- Q-it-01（高）：腹侧流是否计算全局形状？（Ayzenberg & Behrmann 2022 vs. 经典 IT 研究）
+- Q-it-02（中）：反馈连接（PFC→IT）在日常物体识别中的定量贡献
+- Q-it-03（高）：人类 IT 皮层面孔识别（FFA）与猕猴 6 个面孔块的精确对应关系
+
+**新登记的矛盾**：
+- C-2026-08-16-01（高优先级）：腹侧流是否计算全局形状？claim_A=经典 IT 物体形状表征（established view），claim_B=Ayzenberg & Behrmann 2022 texforms 证据（腹侧流计算纹理统计非全局形状）
+
+---
+
 ## 2026-08-15（文章 #114 — 眼优势柱与视觉关键期可塑性）
 
 **新建页面（2 页）**：

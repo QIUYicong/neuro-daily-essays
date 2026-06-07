@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-08-16",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 9,
+  "open_count": 10,
   "resolved_count": 0,
   "claims": [
     {
@@ -116,6 +116,18 @@
       "source_article": "2026-08-15-ocular-dominance-columns-visual-critical-period",
       "priority": "medium",
       "note": "两种机制均有多个独立实验室支持。裁决需要：(1) 同一动物同一时间点同步记录稳态缩放和沉默突触开锁指标；(2) L4 vs L2/3 分层特异性分析；(3) TNFα + PSD-95 双重操控实验，看两者是否协同或替代"
+    },
+    {
+      "id": "C-2026-08-16-01",
+      "page": "wiki/concepts/invariant-object-recognition.md",
+      "claim_A": "腹侧视觉流（IT 皮层）主要计算全局物体形状（global shape）——形状选择性是 IT 皮层对象表征的核心，IT 神经元对物体整体几何结构编码（经典 IT 研究，Gross 1972; Desimone 1984; Conway 2018 综述，PMID:30059648）",
+      "claim_B": "腹侧视觉流实际计算的是局部特征的统计描述（纹理统计），而非全局物体形状——texforms（纹理重建不可识别图像）在 IT 皮层激活与真实物体相似的拓扑组织；随机打乱特征排列时人类感知到差异但 IT/DNN 无明显区分（Ayzenberg & Behrmann 2022, PMID:36272937）",
+      "nature": "真实分歧（方法论 + 概念层面）：腹侧流计算的主要信息类型存在根本性分歧；调和假说：背侧流负责全局形状/skeletal 描述，腹侧流负责特征统计，共同完成识别",
+      "status": "open",
+      "opened": "2026-08-16",
+      "source_article": "2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition",
+      "priority": "high",
+      "note": "claim_A 为数十年 IT 研究主流（established，多物种多实验室）；claim_B 为近年综述（2022）提出的系统性挑战（中等证据）。裁决需要：(1) 直接比较 IT 神经元对全局形状操控 vs 纹理统计保留的形状扰动刺激的响应；(2) 猕猴单神经元在 texforms vs 真实物体条件下的分辨率匹配实验；(3) 人类 fMRI MVPA 在控制纹理统计后的形状解码残差检验"
     }
   ]
 }

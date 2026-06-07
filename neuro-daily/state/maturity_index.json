@@ -35,9 +35,49 @@
       "last_changed": "2026-08-15",
       "change_reason": "新建：基于 Espinosa & Stryker 2012 综述中整合的 β2-nAChR KO 等多个独立遗传学实验；Stage II 波对 LGN 分层的因果作用有强的遗传学证据",
       "prior_status": null
+    },
+    {
+      "slug": "inferior-temporal-cortex",
+      "title": "颞下皮层",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-08-16",
+      "change_reason": "新建（#115）：数十年灵长类神经科学研究积累，涵盖猕猴单神经元记录、人类 fMRI、深度学习比较；核心计算原则 established；形状 vs 纹理统计争议开放（Q-it-01）",
+      "prior_status": null
+    },
+    {
+      "slug": "v4-visual-area",
+      "title": "V4 视觉区",
+      "status": "established",
+      "confidence": "medium",
+      "revision_count": 1,
+      "last_changed": "2026-08-16",
+      "change_reason": "新建（#115）：Pasupathy 形状调谐数据（猕猴体内单神经元记录）为 high 证据；但 V4 的精确人类对应物（V4 vs V4v vs hV4）有争议，confidence 定为 medium",
+      "prior_status": null
+    },
+    {
+      "slug": "invariant-object-recognition",
+      "title": "不变量物体识别",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-08-16",
+      "change_reason": "新建（#115）：选择性-不变性-稀疏度三角原则由 Rust & DiCarlo 2012 定量验证；核心计算原则 established；纹理统计争议（Q-it-01）和反馈贡献（Q-it-02）待解",
+      "prior_status": null
+    },
+    {
+      "slug": "face-patch-system",
+      "title": "面孔块系统",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-08-16",
+      "change_reason": "新建（#115）：猕猴 6 个面孔块由 fMRI + 单神经元记录双重验证（Tsao 2003, Freiwald & Tsao 2010）；视角特异→视角不变梯度证据强；人类对应关系待解（Q-it-03）",
+      "prior_status": null
     }
   ],
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-08-16",
   "index": [
     {
       "slug": "thalamocortical-axons",

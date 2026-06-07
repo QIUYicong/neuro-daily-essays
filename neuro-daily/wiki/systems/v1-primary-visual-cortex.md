@@ -6,10 +6,10 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-08-15
-revision_count: 5
+updated: 2026-08-16
+revision_count: 6
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons, v4-visual-area, inferior-temporal-cortex, invariant-object-recognition]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
 source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-15-ocular-dominance-columns-visual-critical-period]
@@ -148,6 +148,7 @@ V1 Layer 4 是双眼输入竞争的主战场。在猫和灵长类中，来自左
 
 ## 修订历史
 
+- 2026-08-16 · 修订 rev6 · 基于《从线条到身份》(#115) · related 新增 v4-visual-area, inferior-temporal-cortex, invariant-object-recognition（V1 作为腹侧流起点，现与 V4/IT 层级连接显式链接）
 - 2026-08-15 · 修订 rev5 · 基于《左眼还是右眼：眼优势柱》(#114) · 新增"眼优势柱与 ODP"小节；related 新增 ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons；key_sources 新增 PMID:22841309, PMID:32765222, PMID:23975100
 - 2026-06-11 · 创建 · 基于《V1初级视觉皮层的方向选择性》一文 · 初始置信度：高
 - 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增"神经调质对 V1 的调制"小节（ACh/肌碱受体介导注意调制，Herrero 2008）；related 新增 acetylcholine-cortex, gain-control；opens_questions 新增 Q-ach-ne-02；key_sources 新增 PMID:18633352
@@ -162,3 +163,4 @@ V1 Layer 4 是双眼输入竞争的主战场。在猫和灵长类中，来自左
 - [[2026-06-15-predictive-coding]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-08-15-ocular-dominance-columns-visual-critical-period]]
+- [[2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition]]
