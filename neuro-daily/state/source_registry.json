@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13",
+  "last_updated": "2026-08-14",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8147,6 +8147,42 @@
         "cortical area size regulation"
       ],
       "full_text_available": true
+    },
+    {
+      "pmid": "40745219",
+      "pmcid": "PMC7619050",
+      "title": "Sensory modality-specific wiring of thalamocortical circuits",
+      "authors": "Guillamón-Vivancos T et al.",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2025,
+      "used_in": [
+        "2026-08-14-thalamocortical-axons-guidance-sensory-maps"
+      ],
+      "coverage": "TCA guidance, thalamic waves, superior colliculus gating, cross-modal plasticity"
+    },
+    {
+      "pmid": "38167425",
+      "pmcid": "PMC10759993",
+      "title": "Development and Evolution of Thalamocortical Connectivity",
+      "authors": "Molnár Z & Kwan KY",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2024,
+      "used_in": [
+        "2026-08-14-thalamocortical-axons-guidance-sensory-maps"
+      ],
+      "coverage": "Handshake hypothesis, Arid1a genetics, evolutionary PSPB context"
+    },
+    {
+      "pmid": "40806490",
+      "pmcid": "PMC12347462",
+      "title": "Direct and Indirect Downstream Pathways That Regulate Repulsive Guidance Effects of FGF3 on Developing Thalamocortical Axons",
+      "authors": "Li K et al.",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2025,
+      "used_in": [
+        "2026-08-14-thalamocortical-axons-guidance-sensory-maps"
+      ],
+      "coverage": "FGF3 dual pathway (PC-PLC direct + PI3K→Slit1 indirect)"
     }
   ],
   "total_sources": 455,

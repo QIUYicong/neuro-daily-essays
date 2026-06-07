@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-12（**第111篇**·不完整的礼物：SRGAP2C 与 ARHGAP11B 如何给人类大脑装上更多突触和更多神经元）· 主题页总数：**222**（新建2页：srgap2c-neoteny、arhgap11b-cortical-expansion；修订2页：outer-radial-glia rev2、notch2nl-cortical-expansion rev2；图谱234节点、1338边）
+> 最后更新：2026-08-14（**第113篇**·感觉世界的有线传输：丘脑皮层轴突如何翻越三道关卡、在皮层上刻写感觉地图）· 主题页总数：**227**（新建2页：thalamocortical-axons、subplate-neurons；修订3页：barrel-cortex rev3、cortical-arealization rev2、axon-guidance rev3；图谱238节点、1358边）
 
 ---
 
@@ -44,7 +44,9 @@
 
 ## concepts（概念/框架）
 
-- 🟢 [皮层区域化](concepts/cortical-arealization.md) — EMX2/PAX6/COUP-TFI/Sp8 转录因子梯度建立内在区域蓝图；FGF8 信号中心（连合板）建立梯度；丘脑 NMDAR 依赖活动精细雕刻功能图谱；两阶段综合模型（遗传草稿+活动精修）**[NEW 2026-08-13 #112]**
+- 🟢 [丘脑皮层轴突（TCA）](concepts/thalamocortical-axons.md) — 丘脑感觉核（LGN/VPM/MGN）→皮层 L4 的感觉布线工程：走廊细胞 NRG1-ErbB4 许可通道、握手假说（下板 CTA 脚手架）、Ephrin-A5/EphA4 拓扑编码、FGF3 双路径排斥（PC-PLC+PI3K→Slit1）、丘脑波（E14）、上丘感觉门控 **[NEW 2026-08-14 #113]**
+- 🟢 [下板神经元](concepts/subplate-neurons.md) — 皮层最早出生的神经元；TCA 等待区的宿主与时序调控者；握手假说的中心角色；皮层最早谷氨酸能突触的形成地；人类胎儿期发达（GW13-34）；消亡后影响持久编入皮层回路 **[NEW 2026-08-14 #113]**
+- 🟢 [皮层区域化](concepts/cortical-arealization.md) — EMX2/PAX6/COUP-TFI/Sp8 转录因子梯度建立内在区域蓝图；FGF8 信号中心（连合板）建立梯度；丘脑 NMDAR 依赖活动精细雕刻功能图谱；两阶段综合模型（遗传草稿+活动精修）；新增：上丘为感觉模态守门人（视网膜波驱逐触觉输入→LGN 成纯视觉核） **[NEW 2026-08-13 #112; rev2 2026-08-14 #113]**
 - 🟢 [FGF8 皮层图案化](concepts/fgf8-cortical-patterning.md) — 前端连合板分泌 FGF8；通过抑制 EMX2/COUP-TFI 建立皮层前后坐标；Sp8 正反馈维持；EMX2 负反馈限制；异位 FGF8 可移动整张皮层地图 **[NEW 2026-08-13 #112]**
 - 🟢 [SRGAP2C 与突触幼态化](concepts/srgap2c-neoteny.md) — 人类特异截断基因显性负抑制 SRGAP2A；突触棘密度 +71%（幼鼠）/+40%（成年）；延长可塑性窗口；~240万年前出现 **[NEW 2026-08-12 #111]**
 - 🟢 [ARHGAP11B 与皮层基底祖细胞扩张](concepts/arhgap11b-cortical-expansion.md) — 人类特异 47-aa C 端尾部；线粒体谷氨酰胺酶解→天冬氨酸→bRG 增殖；小鼠皮层折叠诱导；~350万年前出现 **[NEW 2026-08-12 #111]**

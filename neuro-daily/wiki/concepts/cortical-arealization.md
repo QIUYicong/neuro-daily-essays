@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-13
-updated: 2026-08-13
-revision_count: 1
+updated: 2026-08-14
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region]
-related: [cortical-neurogenesis, cortical-layers, fgf8-cortical-patterning, critical-period, thalamocortical-circuit, barrel-cortex, cortical-interneuron-development, reelin-signaling, outer-radial-glia]
+related: [cortical-neurogenesis, cortical-layers, fgf8-cortical-patterning, critical-period, thalamocortical-axons, barrel-cortex, cortical-interneuron-development, reelin-signaling, outer-radial-glia, subplate-neurons]
 prerequisites: [cortical-neurogenesis, cortical-layers, cortical-interneuron-development]
 opens_questions: [Q-area-01, Q-area-02, Q-area-03]
-source_articles: [2026-08-13-cortical-arealization-transcription-gradients]
-key_sources: ["PMID:18524571", "PMID:11567107", "PMID:24105342", "PMID:34616070", "PMID:40369074", "PMID:28412498", "PMID:28155854", "PMID:10764649", "PMID:17828260"]
+source_articles: [2026-08-13-cortical-arealization-transcription-gradients, 2026-08-14-thalamocortical-axons-guidance-sensory-maps]
+key_sources: ["PMID:18524571", "PMID:11567107", "PMID:24105342", "PMID:34616070", "PMID:40369074", "PMID:28412498", "PMID:28155854", "PMID:10764649", "PMID:17828260", "PMID:40745219", "PMID:38167425"]
 ---
 
 # 皮层区域化 (Cortical Arealization)
@@ -83,6 +83,8 @@ key_sources: ["PMID:18524571", "PMID:11567107", "PMID:24105342", "PMID:34616070"
 - [[barrel-cortex]] — 体感区桶皮层是丘脑活动依赖精细化的最佳实验模型
 - [[cortical-interneuron-development]] — 切向迁移来的中间神经元也接受区域化信号（VIP/SST 比例因区而异）
 - [[reelin-signaling]] — Reelin 参与迁移就位，与 EMX2 梯度共同作用于神经元最终定居
+- [[thalamocortical-axons]] — TCA 精化阶段：Ephrin-A5/EphA4 梯度使 TCA 以拓扑精度终止在遗传预编码的目标区域
+- [[subplate-neurons]] — 下板是区域化"最后一道预处理"场所：TCA 在此等待并与下板形成早期突触，接收区域身份信号
 
 ## 未解问题
 
@@ -93,7 +95,9 @@ key_sources: ["PMID:18524571", "PMID:11567107", "PMID:24105342", "PMID:34616070"
 ## 修订历史
 
 - 2026-08-13 · 创建 · 基于《皮层地图学》（文章 #112）· 初始置信度：高
+- 2026-08-14 · 修订 · 基于《感觉世界的有线传输》（文章 #113）· 新增细节：上丘（SC）感觉门控机制（出生前后视网膜波将触觉输入逐出SC浅层→LGN成为纯视觉核，模态分离发生于SC而非皮层）；新增 subplate-neurons 连接；新增 Q-area 与 TCA 相关机制的交叉引用
 
 ## 来源文章
 
 - [[2026-08-13-cortical-arealization-transcription-gradients]]
+- [[2026-08-14-thalamocortical-axons-guidance-sensory-maps]]

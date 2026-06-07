@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-19
-updated: 2026-07-23
-revision_count: 2
+updated: 2026-08-14
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region]
-related: [somatosensory-cortex, cortical-homunculus, critical-period, thalamus, pv-interneurons, orientation-selectivity, cortical-layers, canonical-microcircuit]
-prerequisites: [somatosensory-cortex, thalamus]
+related: [somatosensory-cortex, cortical-homunculus, critical-period, thalamus, pv-interneurons, orientation-selectivity, cortical-layers, canonical-microcircuit, thalamocortical-axons, subplate-neurons, cortical-arealization]
+prerequisites: [somatosensory-cortex, thalamus, thalamocortical-axons]
 opens_questions: [Q-som-02]
-source_articles: [2026-07-19-somatosensory-cortex-homunculus-barrel-cortex]
-key_sources: ["PMID:31367018", "PMID:17622195", "PMCID:PMC7486654"]
+source_articles: [2026-07-19-somatosensory-cortex-homunculus-barrel-cortex, 2026-08-14-thalamocortical-axons-guidance-sensory-maps]
+key_sources: ["PMID:31367018", "PMID:17622195", "PMCID:PMC7486654", "PMID:40745219", "PMID:32817388"]
 ---
 
 # 桶状皮层（Barrel Cortex）
@@ -84,7 +84,9 @@ PV+ 篮状细胞对主胡须刺激产生快速前馈抑制，将响应时间窗�
 
 - 2026-07-19 · 创建 · 基于《从皮肤到大脑的身体地图》(#87) · 初始置信度：高
 - 2026-07-23 · 修订 · 基于《皮层六层架构》(#91) · 新增 cortical-layers 和 canonical-microcircuit 作为关联节点（桶状皮层作为六层回路定量验证的模型系统）；related 列表更新
+- 2026-08-14 · 修订 · 基于《感觉世界的有线传输》(#113) · 新增 thalamocortical-axons 和 subplate-neurons 连接（桶皮层是 TCA 布线的最清晰案例：VPM→S1 Ephrin-A5/EphA4 拓扑、下板等待区、关键期 P0-P4）；key_sources 补充 PMID:40745219, PMID:32817388
 
 ## 来源文章
 
 - [[2026-07-19-somatosensory-cortex-homunculus-barrel-cortex]]
+- [[2026-08-14-thalamocortical-axons-guidance-sensory-maps]]

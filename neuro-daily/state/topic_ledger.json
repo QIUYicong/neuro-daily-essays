@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-13",
-  "total_articles": 112,
+  "last_updated": "2026-08-14",
+  "total_articles": 113,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7037,6 +7037,92 @@
         "丘脑皮层轴突（Thalamocortical Axons）专题：导航机制、分子引导线索、眼优势柱形成",
         "人类大脑进化遗传学综合：HAR1/HAR2、FOXP2、ASPM/microcephalin——人类特异性变化完整清单",
         "皮层区域间的层级连接（feedforward vs feedback）：视觉腹侧流和背侧流"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "real_date": "2026-06-07",
+      "article_number": 113,
+      "title": "感觉世界的有线传输：丘脑皮层轴突如何翻越三道关卡、在皮层上刻写触觉、视觉与听觉地图",
+      "slug": "thalamocortical-axons-guidance-sensory-maps",
+      "filename": "2026-08-14-thalamocortical-axons-guidance-sensory-maps.md",
+      "article_type": "regular",
+      "core_question": "在发育中的大脑，丘脑皮层轴突（TCAs）如何从丘脑出发，穿越三道关卡（DTB→内囊走廊→PSPB握手→下板等待区），最终依据模态特异性抵达对应皮层区域并形成拓扑地图？走廊细胞NRG1-ErbB4、Handshake假说、Ephrin-A5/EphA4梯度、FGF3双路径排斥、自发丘脑波、上丘感觉门控如何协同完成这一精密布线工程？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（皮层发育脊柱第6章：TCA布线，连接神经发生#108/迁移#109/区域化#112与关键期之间）",
+      "topic_tags": [
+        "thalamocortical axons",
+        "TCA",
+        "axon guidance",
+        "sensory maps",
+        "topographic maps",
+        "corridor cells",
+        "NRG1",
+        "ErbB4",
+        "internal capsule",
+        "handshake hypothesis",
+        "subplate neurons",
+        "waiting compartment",
+        "PSPB",
+        "DTB",
+        "Ephrin-A5",
+        "EphA4",
+        "barrel cortex",
+        "VPM",
+        "LGN",
+        "MGN",
+        "thalamic waves",
+        "spontaneous activity",
+        "superior colliculus",
+        "FGF3",
+        "Slit1",
+        "Robo2",
+        "PC-PLC",
+        "PI3K",
+        "Netrin1",
+        "DCC",
+        "cortical arealization",
+        "critical period",
+        "cross-modal plasticity",
+        "Molnar Kwan 2024",
+        "Lopez-Bendito 2025",
+        "Li 2025"
+      ],
+      "main_sources": [
+        "PMID:40745219 / PMC7619050 (Guillamón-Vivancos 2025, Nat Rev Neurosci, open full text read)",
+        "PMID:38167425 / PMC10759993 (Molnár & Kwan 2024, Cold Spring Harb Perspect Biol, open full text read)",
+        "PMID:40806490 / PMC12347462 (Li et al. 2025, IJMS, open full text read)",
+        "PMID:32817388 (Erzurumlu & Gaspar 2020, J Neurosci, abstract only)",
+        "PMID:32659318 (Kostović 2020, Prog Neurobiol, abstract only)",
+        "PMID:29932982 (López-Bendito 2018, Neuroscience, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/thalamocortical-axons.md",
+        "wiki/concepts/subplate-neurons.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/barrel-cortex.md (rev2->rev3): 新增 thalamocortical-axons/subplate-neurons 连接；TCA 布线机制细节",
+        "wiki/concepts/cortical-arealization.md (rev1->rev2): 新增上丘感觉门控机制；thalamocortical-axons/subplate-neurons 连接",
+        "wiki/concepts/axon-guidance.md (rev2->rev3): 新增 TCA 特异性机制；FGF3 双路径排斥（PMID:40806490）"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-tca-01",
+        "Q-tca-02",
+        "Q-tca-03",
+        "Q-subplate-01"
+      ],
+      "next_suggested_topics": [
+        "关键期（Critical Periods）深度解析：什么分子机制开启/关闭关键期？PV+中间神经元成熟与 E/I 平衡、Otx2-CPCP、Brain-derived neurotrophic factor（BDNF）TrkB 信号",
+        "眼优势柱（Ocular Dominance Columns）：视觉关键期的经典模型——单眼剥夺实验（Hubel & Wiesel）、LGN 层segregation、AMPA/NMDA 比值变化",
+        "视网膜拓扑（Retinotopic Map）形成：从视网膜到 LGN 到 V1 的 Ephrin-A 梯度如何建立精确的视觉坐标映射"
       ]
     }
   ],

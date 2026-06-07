@@ -17,5 +17,23 @@
       "source_article": "2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny"
     }
   ],
-  "last_updated": "2026-08-12"
+  "last_updated": "2026-08-14",
+  "index": [
+    {
+      "slug": "thalamocortical-axons",
+      "title": "丘脑皮层轴突",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-08-14",
+      "reason": "创建（#113）：多物种遗传学实验、多篇综述支持，走廊细胞/握手假说/Ephrin梯度有强遗传证据；FGF3双路径部分证据来自鸡胚（confidence: high但需小鼠体内验证补充）"
+    },
+    {
+      "slug": "subplate-neurons",
+      "title": "下板神经元",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-08-14",
+      "reason": "创建（#113）：下板存在与功能有充分组织学和遗传学证据；停止/放行信号身份尚不明确（Q-tca-01）但整体地位established"
+    }
+  ]
 }

@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-08-14（文章 #113 — 丘脑皮层轴突导向与感觉地图）
+
+**新建页面（2 页）**：
+- `wiki/concepts/thalamocortical-axons.md`：TCA 从丘脑出发的三段旅程（DTB→走廊→PSPB握手）；Ephrin-A5/EphA4 拓扑编码；FGF3 双路径排斥（PC-PLC 直接 + PI3K→Slit1 间接）；丘脑自发钙波功能；上丘感觉门控机制
+- `wiki/concepts/subplate-neurons.md`：皮层最早出生的神经元，下板三亚层组织（入侵/导航/等待），握手假说的中心角色，TCA 等待区与皮层最早谷氨酸能突触，人类胎儿下板的特殊发育与临床意义
+
+**修订页面（3 页）**：
+- `wiki/concepts/barrel-cortex.md`（rev3）：新增 thalamocortical-axons 和 subplate-neurons 连接；加入 TCA 布线机制细节（Ephrin 拓扑、下板等待区、关键期 P0-P4）；key_sources 补充 PMID:40745219, PMID:32817388
+- `wiki/concepts/cortical-arealization.md`（rev2）：新增上丘感觉门控机制（视网膜波驱逐触觉→LGN 成为纯视觉核）；新增 thalamocortical-axons 和 subplate-neurons 连接；key_sources 补充 PMID:40745219, PMID:38167425
+- `wiki/concepts/axon-guidance.md`（rev3）：新增 TCA 特异性导向（走廊细胞-NRG1/ErbB4、握手假说、Ephrin-A5/EphA4）；新增 FGF3 双路径排斥机制（PMID:40806490）；related 扩展
+
+**图谱更新**：新增 2 节点（thalamocortical-axons, subplate-neurons），新增 10 条有类型边；图谱总节点 238，总边 1358
+
+**新登记的未解问题**：
+- Q-tca-01（高）：TCA 等待区的停止-放行分子信号身份
+- Q-tca-02（高）：丘脑波体内（in vivo）动力学——频率/振幅/核间同步
+- Q-tca-03（中）：上丘感觉门控在人类胎儿中是否存在同等机制
+- Q-subplate-01（中）：人类早产儿下板损伤与 ASD/CP 的因果关系
+
+**裁决的矛盾**：无新增矛盾；"TCA 自发波调控区域大小"是对已有 cortical-arealization 中相应主张的细化，无冲突
+
+**解决的悬空引用**：CHANGELOG-2026-08-13 中提到的 `thalamocortical-circuit` 悬空引用 — 今日以 `thalamocortical-axons` 形式创建对应页面，覆盖了该悬空引用的主要内容
+
+---
+
 ## 2026-08-13（文章 #112 — 皮层区域化）
 
 **新建页面（2 页）**：

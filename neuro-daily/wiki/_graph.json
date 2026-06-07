@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-13",
-  "node_count": 234,
-  "edge_count": 1338,
+  "updated": "2026-08-14",
+  "node_count": 238,
+  "edge_count": 1358,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2137,6 +2137,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/fgf8-cortical-patterning.md"
+    },
+    {
+      "id": "thalamocortical-axons",
+      "title": "丘脑皮层轴突",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/thalamocortical-axons.md"
+    },
+    {
+      "id": "subplate-neurons",
+      "title": "下板神经元",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/subplate-neurons.md"
     }
   ],
   "edges": [
@@ -9382,6 +9400,56 @@
     {
       "from": "growth-cone",
       "to": "fgf8-cortical-patterning",
+      "type": "related"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "thalamus",
+      "type": "part-of"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "cortical-arealization",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "barrel-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "axon-guidance",
+      "type": "is-a"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "subplate-neurons",
+      "to": "thalamocortical-axons",
+      "type": "regulates"
+    },
+    {
+      "from": "subplate-neurons",
+      "to": "cortical-neurogenesis",
+      "type": "part-of"
+    },
+    {
+      "from": "subplate-neurons",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "subplate-neurons",
+      "to": "synaptogenesis",
+      "type": "related"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "subplate-neurons",
       "type": "related"
     }
   ],

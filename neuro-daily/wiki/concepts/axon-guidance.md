@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-04
-updated: 2026-08-06
-revision_count: 2
+updated: 2026-08-14
+revision_count: 3
 dimensions: [molecular, cellular, brain-region]
-related: [growth-cone, retinotopic-map, synaptogenesis, critical-period, connectomics, hippocampal-circuit, synaptic-pruning, neuroligin-neurexin]
+related: [growth-cone, retinotopic-map, synaptogenesis, critical-period, connectomics, hippocampal-circuit, synaptic-pruning, neuroligin-neurexin, thalamocortical-axons, subplate-neurons]
 prerequisites: [synaptic-transmission, action-potential, hebbian-learning]
 opens_questions: [Q-axon-guidance-01, Q-axon-guidance-02, Q-axon-guidance-03]
-source_articles: [2026-08-04-axon-guidance-growth-cone-wiring, 2026-08-06-synaptogenesis-molecular-assembly]
-key_sources: ["PMID:8895455", "PMID:21123392", "PMID:36942388", "PMID:39075893", "PMID:14077501", "PMID:41895449"]
+source_articles: [2026-08-04-axon-guidance-growth-cone-wiring, 2026-08-06-synaptogenesis-molecular-assembly, 2026-08-14-thalamocortical-axons-guidance-sensory-maps]
+key_sources: ["PMID:8895455", "PMID:21123392", "PMID:36942388", "PMID:39075893", "PMID:14077501", "PMID:41895449", "PMID:40745219", "PMID:40806490"]
 ---
 
 # 轴突导向 (Axon Guidance)
@@ -111,6 +111,7 @@ key_sources: ["PMID:8895455", "PMID:21123392", "PMID:36942388", "PMID:39075893",
 
 - 2026-08-04 · 创建 · 基于《大脑如何给自己布线》文章（#103）· 课程脊柱第2章核心新节点 · 初始置信度：高（established，多物种、多层次证据）
 - 2026-08-06 · 修订 · 基于《轴突找到伙伴之后：突触如何从分子装配线上诞生》(#105) · 新增"分子连续性"维度（Kim 2026, PMC13094498）；Latrophilin/Neurexin/NMDAR/Cerebellin 的双重功能证据；更新 related 和 key_sources
+- 2026-08-14 · 修订 · 基于《感觉世界的有线传输》(#113) · 新增 TCA 特异性导向机制（走廊细胞-NRG1/ErbB4、握手假说、Ephrin-A5/EphA4 拓扑）；新增 FGF3 双路径排斥机制（PC-PLC直接路径 + PI3K→Slit1间接路径，PMID:40806490）；新增 related: thalamocortical-axons, subplate-neurons
 
 ---
 
