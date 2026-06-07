@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-11",
-  "total_articles": 110,
+  "last_updated": "2026-08-12",
+  "total_articles": 111,
   "entries": [
     {
       "date": "2026-08-09",
@@ -6906,6 +6906,74 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8≈2026-06-07；知识库虚拟日期2026-08-11；10个来源2个开放全文；3新wiki页，3修订"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "不完整的礼物：两次截断式基因复制，如何给人类大脑装上更多突触和更多神经元",
+      "filename": "2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny.md",
+      "article_type": "long_term_curriculum",
+      "article_number": 111,
+      "wiki_pages_created": [
+        "wiki/concepts/srgap2c-neoteny.md",
+        "wiki/concepts/arhgap11b-cortical-expansion.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/outer-radial-glia.md",
+        "wiki/concepts/notch2nl-cortical-expansion.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "两个约 240-350 万年前出现的人类特异性截断基因（SRGAP2C、ARHGAP11B）各自通过什么分子机制，分别在突触棘密度和神经元数量这两个维度推动了人类皮层的进化跃迁？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region",
+        "whole-brain-network"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（人类特异性进化机制）—— Inside-Out(#108)、切向迁移(#109)、故障报告(#110)后的进化视角",
+      "topic_tags": [
+        "SRGAP2C",
+        "ARHGAP11B",
+        "human-specific gene duplication",
+        "segmental duplication",
+        "neoteny",
+        "dendritic spine",
+        "basal radial glia",
+        "outer radial glia",
+        "OSVZ",
+        "dominant-negative",
+        "F-BAR dimerization",
+        "glutaminolysis",
+        "GLUD2",
+        "aspartate",
+        "cortical folding",
+        "gyrification",
+        "human brain evolution",
+        "cortical expansion",
+        "synaptic plasticity window",
+        "synaptogenesis"
+      ],
+      "main_sources": [
+        "PMID:22559943 (Cell 2012, open: PMC3365555)",
+        "PMID:22559944 (Cell 2012, open: PMC3357949)",
+        "PMID:25721503 (Science 2015, abstract only)",
+        "PMID:33938018 (EMBO J 2021, abstract only)",
+        "PMID:38658571 (Nat Commun 2024, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-srgap2c-01: SRGAP2C转基因小鼠的电生理表型——高密度突触棘是功能性还是沉默突触？",
+        "Q-srgap2c-02: 人类个体间SRGAP2C拷贝数变异与突触密度/认知能力的相关性",
+        "Q-arhgap11b-03: 人类胎儿脑类器官或CRISPR敲除实验直接验证ARHGAP11B对bRG池的因果贡献",
+        "Q-arhgap11b-04: ARHGAP11B、NOTCH2NL与ASPM三者在人类皮层发育中的协同时序"
+      ],
+      "next_suggested_topics": [
+        "人类大脑进化遗传学综合：HAR1/HAR2、FOXP2、ASPM/microcephalin——人类特异性变化的完整清单",
+        "发育关键期机制深入（OTX2-PNN-BDNF三角）——延伸SRGAP2C幼态化的系统层面",
+        "皮层柱（Cortical Column）：Mountcastle假说的发育基础",
+        "神经元极性建立：轴突-树突不对称的分子机制（Par3/Par6/aPKC; LKB1/STRAD）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "人类特异性进化机制系列第1篇（延续皮层发育系列）。建立SRGAP2C幼态化和ARHGAP11B代谢扩张两个新节点，修订oRG和NOTCH2NL节点。图谱232→234节点，1324→1338边。"
     }
   ],
   "layer_coverage_recent": {

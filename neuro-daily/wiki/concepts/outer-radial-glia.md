@@ -6,10 +6,10 @@ type: structure
 status: established
 confidence: high
 created: 2026-08-09
-updated: 2026-08-09
-revision_count: 1
+updated: 2026-08-12
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, disease]
-related: [cortical-neurogenesis, notch2nl-cortical-expansion, critical-period, adult-neurogenesis]
+related: [cortical-neurogenesis, notch2nl-cortical-expansion, arhgap11b-cortical-expansion, critical-period, adult-neurogenesis]
 prerequisites: [cortical-neurogenesis]
 opens_questions: [Q-cortex-02, Q-cortex-03]
 source_articles: [2026-08-09-cortical-neurogenesis-inside-out-radial-glia]
@@ -71,6 +71,7 @@ oRGC 分裂的标志性行为：分裂开始前，细胞核（有丝分裂体）
 
 - [[cortical-neurogenesis]] — oRGC 是 aRGC 的衍生类型，在 OSVZ 中扩增产量
 - [[notch2nl-cortical-expansion]] — NOTCH2NL 延长干细胞自我更新，部分作用于 oRGC 前体
+- [[arhgap11b-cortical-expansion]] — ARHGAP11B 通过代谢重编程（谷氨酰胺酶解）促进 bRG 自我更新，直接扩大 bRG 池
 - [[critical-period]] — OSVZ 产出的额外神经元最终形成皮层上层，参与关键期可塑性回路
 
 ## 未解问题
@@ -81,7 +82,9 @@ oRGC 分裂的标志性行为：分裂开始前，细胞核（有丝分裂体）
 ## 修订历史
 
 - 2026-08-09 · 创建 · 基于《皮层的诞生》（第 108 篇）· 初始置信度：高
+- 2026-08-12 · 修订 · 新增 ARHGAP11B 作为 bRG 扩张分子机制的连接节点 · 基于《不完整的礼物》文章（#111）
 
 ## 来源文章
 
 - [[2026-08-09-cortical-neurogenesis-inside-out-radial-glia]]
+- [[2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny]]

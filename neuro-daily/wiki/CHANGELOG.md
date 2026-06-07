@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-08-12 · 文章 #111 · 不完整的礼物：SRGAP2C 与 ARHGAP11B 如何给人类大脑装上更多突触和更多神经元
+
+**核心主题**：两个人类特异性截断基因复制（SRGAP2C ~240万年前；ARHGAP11B ~350万年前）——SRGAP2C 通过与祖先蛋白 SRGAP2A 异二聚化产生显性负效应，延缓突触棘成熟（neoteny）、提升密度（+71% 幼鼠，+40% 成年）；ARHGAP11B 通过 47-aa C 端尾部靶向线粒体激活谷氨酰胺酶解、增加天冬氨酸供给，促进基底放射状胶质细胞自我更新、引发皮层折叠——两者分别针对"连接密度"与"神经元数量"这两个维度推动人类皮层进化跃迁。
+
+**新建页面（2）**：
+- `concepts/srgap2c-neoteny.md` rev1 — SRGAP2C 显性负效应；F-BAR 异二聚化机制；突触棘密度 +71%（P18-21）/+40%（成年）；幼态化意义；进化时间点 ~240 万年前 (mechanism, established, confidence:high)
+- `concepts/arhgap11b-cortical-expansion.md` rev1 — ARHGAP11B 发现（人类胎儿 bRG 特异性）；47-aa C 端尾部；谷氨酰胺酶解机制；GLUD2 协同效应；小鼠皮层折叠诱导；认知行为改变 (mechanism, established, confidence:high)
+
+**修订页面（2）**：
+- `concepts/outer-radial-glia.md` rev1→rev2 — related 新增 arhgap11b-cortical-expansion；连接 ARHGAP11B 作为 bRG 扩张驱动因子
+- `concepts/notch2nl-cortical-expansion.md` rev1→rev2 — related 新增 arhgap11b-cortical-expansion/srgap2c-neoteny；建立三种人类特异性皮层进化机制之间的连接网络
+
+**矛盾登记**：无新矛盾（ARHGAP11B 认知效益证据强度有限，标注为"中"置信度）
+
+**新增悬空引用待补**：无新增
+
+**图谱**：232→234 节点（+2），1324→1338 边（+14）
+
+---
+
 ## 2026-08-11 · 文章 #110 · 皮层建造的故障报告：LIS1/DCX/Reelin 突变与无脑回谱系障碍
 
 **核心主题**：I 型无脑回（LIS1 dynein N-C 偶联失败；DCX 微管束化缺陷及 X 染色体随机失活导致双皮层综合征；RELN 终止信号缺失导致层序倒置）；II 型无脑回（α-dystroglycan 糖基化缺陷基底膜破裂过度迁移）；多小脑回（GPR56、tubulinopathies）；三种故障模式揭示 Inside-Out 规则的三个独立模块（迁移机械/导航终止/物理边界）。

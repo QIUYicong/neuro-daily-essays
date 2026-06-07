@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7935,9 +7935,93 @@
         "GPR56/ADGRG1"
       ],
       "open_access": false
+    },
+    {
+      "pmid": "22559943",
+      "pmcid": "PMC3365555",
+      "title": "Evolution of human-specific neural SRGAP2 genes by incomplete segmental duplication",
+      "authors": "Dennis MY et al.",
+      "year": 2012,
+      "journal": "Cell",
+      "date_used": "2026-08-12",
+      "article": "2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny",
+      "topics": [
+        "SRGAP2 duplication history",
+        "evolutionary timing",
+        "human-specific genes"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "22559944",
+      "pmcid": "PMC3357949",
+      "title": "Inhibition of SRGAP2 function by its human-specific paralogs induces neoteny during spine maturation",
+      "authors": "Charrier C et al.",
+      "year": 2012,
+      "journal": "Cell",
+      "date_used": "2026-08-12",
+      "article": "2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny",
+      "topics": [
+        "SRGAP2C mechanism",
+        "dendritic spine neoteny",
+        "dominant-negative"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "25721503",
+      "pmcid": null,
+      "title": "Human-specific gene ARHGAP11B promotes basal progenitor amplification and neocortex expansion",
+      "authors": "Florio M et al.",
+      "year": 2015,
+      "journal": "Science",
+      "date_used": "2026-08-12",
+      "article": "2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny",
+      "topics": [
+        "ARHGAP11B discovery",
+        "cortical gyrification",
+        "basal radial glia"
+      ],
+      "full_text": false,
+      "limitation": "abstract only, paywall"
+    },
+    {
+      "pmid": "33938018",
+      "pmcid": null,
+      "title": "Expression of human-specific ARHGAP11B in mice leads to neocortex expansion and increased memory flexibility",
+      "authors": "Xing L et al.",
+      "year": 2021,
+      "journal": "EMBO Journal",
+      "date_used": "2026-08-12",
+      "article": "2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny",
+      "topics": [
+        "ARHGAP11B transgenic mice",
+        "cognitive effects",
+        "memory flexibility"
+      ],
+      "full_text": false,
+      "limitation": "abstract only"
+    },
+    {
+      "pmid": "38658571",
+      "pmcid": null,
+      "title": "Functional synergy of a human-specific and an ape-specific metabolic regulator in human neocortex development",
+      "authors": "Xing L et al.",
+      "year": 2024,
+      "journal": "Nature Communications",
+      "date_used": "2026-08-12",
+      "article": "2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny",
+      "topics": [
+        "ARHGAP11B mechanism",
+        "glutaminolysis",
+        "GLUD2 synergy",
+        "mitochondria"
+      ],
+      "full_text": false,
+      "limitation": "abstract only"
     }
   ],
-  "total_sources": 386,
+  "total_sources": 455,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-09
-updated: 2026-08-09
-revision_count: 1
+updated: 2026-08-12
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, disease]
-related: [cortical-neurogenesis, outer-radial-glia, adult-neurogenesis]
+related: [cortical-neurogenesis, outer-radial-glia, arhgap11b-cortical-expansion, srgap2c-neoteny, adult-neurogenesis]
 prerequisites: [cortical-neurogenesis, outer-radial-glia]
 opens_questions: []
 source_articles: [2026-08-09-cortical-neurogenesis-inside-out-radial-glia]
@@ -69,6 +69,8 @@ NOTCH2NL 在约 350 万年前（晚期上新世）通过**不完整基因倒置�
 
 - [[cortical-neurogenesis]] — NOTCH2NL 作用于皮层祖细胞（aRGC）的自我更新决策
 - [[outer-radial-glia]] — 延长的自我更新可能有助于产生更多 oRGC
+- [[arhgap11b-cortical-expansion]] — 互补机制（NOTCH2NL 延长自我更新 vs ARHGAP11B 代谢扩张 bRG 池）
+- [[srgap2c-neoteny]] — 另一种人类特异性截断复制，针对不同发育阶段（突触密度 vs 祖细胞扩张）
 
 ## 未解问题
 
@@ -78,7 +80,9 @@ NOTCH2NL 在约 350 万年前（晚期上新世）通过**不完整基因倒置�
 ## 修订历史
 
 - 2026-08-09 · 创建 · 基于《皮层的诞生》（第 108 篇）· 初始置信度：高
+- 2026-08-12 · 修订 · 新增 ARHGAP11B 和 SRGAP2C 的互补机制连接 · 基于《不完整的礼物》文章（#111）
 
 ## 来源文章
 
 - [[2026-08-09-cortical-neurogenesis-inside-out-radial-glia]]
+- [[2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny]]

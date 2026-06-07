@@ -1,6 +1,38 @@
 # 未解问题追踪
 
-*最后更新：2026-08-11*
+*最后更新：2026-08-12*
+
+---
+
+## 2026-08-12 新增（来自"不完整的礼物"文章 #111）
+
+### Q-srgap2c-01（高优先级）：SRGAP2C 转基因小鼠的电生理功能表型
+
+- **关联 wiki**：[[srgap2c-neoteny]]、[[dendritic-computation]]、[[synaptogenesis]]
+- **来源文章**：2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny
+- **问题**：Charrier 2012 的体内实验（PMC3357949）只报告了形态学数据（突触棘密度、颈长、头宽），未包含电生理记录。更高密度的突触棘是否对应更多功能性突触（AMPA 受体就位的成熟突触）？还是更多沉默突触（NMDA-only，缺少 AMPA 受体）？这个区别对评估 SRGAP2C 在认知可塑性窗口延长中的具体作用至关重要。能否用 mEPSC 频率（突触数量）+ AMPA/NMDA 比值（成熟度）+ 钙成像（突触激活率）回答这个问题？
+- **当前证据状态**：形态学（高，体内定量数据精密）；功能性突触比例（缺失）；电生理记录（缺失）
+
+### Q-srgap2c-02（中优先级）：人类个体 SRGAP2C 拷贝数与认知的关系
+
+- **关联 wiki**：[[srgap2c-neoteny]]
+- **来源文章**：2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny
+- **问题**：SRGAP2C 在 1p12 染色体上，存在拷贝数变异（部分个体可能有 2 拷贝）。Dennis et al. 2012 提到 SRGAP2C 固定程度极高，但未报告个体差异。拷贝数更多 → 更强的显性负效应 → 更高的突触棘密度。是否有 GWAS 数据将 1p12 区域的 CNV 与突触密度或神经精神表型相关联？这对理解 SRGAP2C 的"剂量-效应"关系具有重要意义。
+- **当前证据状态**：CNV 存在性（高，基因组已知）；拷贝数-表型关联（缺失，无系统 GWAS）
+
+### Q-arhgap11b-03（高优先级）：人类胎儿类器官中 ARHGAP11B 的因果验证
+
+- **关联 wiki**：[[arhgap11b-cortical-expansion]]、[[outer-radial-glia]]
+- **来源文章**：2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny
+- **问题**：现有所有 ARHGAP11B 功能实验在小鼠脑（Florio 2015）或转基因小鼠（Xing 2021）中进行。是否已有利用 CRISPR-Cas9 敲除 ARHGAP11B 的**人类皮层类器官**实验，直接验证 ARHGAP11B 对人类 bRG 池大小的因果贡献？如果 ARHGAP11B 敲除导致人类类器官中 bRG 数量减少，则会提供最接近人类的因果证据。
+- **当前证据状态**：小鼠体内（高）；人类类器官 CRISPR（如果有则不清楚，需搜索 2020-2025 期间文献）
+
+### Q-arhgap11b-04（低优先级）：三基因协同时序模型（ARHGAP11B + NOTCH2NL + ASPM）
+
+- **关联 wiki**：[[arhgap11b-cortical-expansion]]、[[notch2nl-cortical-expansion]]、[[cortical-neurogenesis]]
+- **来源文章**：2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny
+- **问题**：ARHGAP11B（扩大 bRG 池）、NOTCH2NL（延长顶端 RG 自我更新）、ASPM（调控纺锤体方向，影响对称/非对称分裂）三者在人类皮层发育的哪些具体时间窗口（孕周）发挥各自主导作用？是否有一个统一的"多基因皮层扩张信号整合"模型？它们的效应是否存在上位性（epistasis）关系？
+- **当前证据状态**：各基因独立证据（中-高）；三者协同实验（缺失）
 
 ---
 

@@ -1,0 +1,174 @@
+# 运行日志 · 2026-08-12
+
+**文章编号**：#111（8月·第12篇）
+**运行时间**：2026-08-12 UTC+8（注：系统实际时钟为 2026-06-07 17:01 UTC+8，知识库按序列逻辑日期运行）
+**模式**：long_term_curriculum（长期课程模式）
+**分支**：main
+
+---
+
+## 0. 环境初始化
+
+- 分支确认：已在 main 分支
+- 已拉取最新 main（最新 commit: 449a6ff，2026-08-11 run log 更新）
+- ROUTINE.md：已读取并确认存在
+- KNOWLEDGE-BASE-DESIGN.md：已读取并确认存在
+- git 作者配置：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+- remote：http://local_proxy@127.0.0.1:32777/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，确认正确）
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json：93条目，total_articles=110，最新日期 2026-08-11 (#110)
+- 图谱（_graph.json）：232节点，1324边，悬空引用仅1条（'cognition'，泛化术语，不需单独建页）
+- unresolved_questions.md：最新问题为 Q-lis-01/02/03（lissencephaly）和 Q-interneuron-01/02（PV细胞）
+- contested_claims.json：8条 open 矛盾（今日无裁决，无新登记）
+- monthly_synthesis.md：2026-08 月度综合进行中，截至 08-10
+
+---
+
+## B. 选题
+
+**候题来源**：
+1. 上篇（#110，2026-08-11）的 next_suggested_topics 中明确建议：人类皮层进化遗传学（SRGAP2C、ARHGAP11B）
+2. wiki 图谱分析：outer-radial-glia、notch2nl-cortical-expansion 已建立，但缺乏 ARHGAP11B 节点（悬空引用）
+3. 课程路线 §2"神经网络如何建成"中，Inside-Out（08-09）、切向迁移（08-10）、疾病窗口（08-11）之后的自然延伸：进化视角
+
+**选定主题**：SRGAP2C 与 ARHGAP11B——人类特异性截断基因复制与皮层进化机制
+
+**理由**：
+- 填补 arhgap11b 和 srgap2c 两个重要悬空引用
+- 完成"皮层如何建成"主题的进化层面
+- 连接已建立节点：synaptogenesis、outer-radial-glia、notch2nl-cortical-expansion、critical-period
+- 来源明确，两篇 Cell 2012 论文有 PMC 全文
+
+**核心问题**：两个人类特异性截断基因各自通过什么分子机制，在突触棘密度和神经元数量两个维度推动人类皮层进化跃迁？
+
+---
+
+## C. 文献检索
+
+**检索策略**：
+- 数据库：PubMed E-utilities、PMC Open Access
+- 主要检索词：
+  - "SRGAP2C human specific gene duplication dendritic spine neoteny"
+  - "ARHGAP11B human neocortex cortical expansion basal progenitor"
+  - "human cortical evolution gene duplication"
+  - "ARHGAP11B glutaminolysis basal radial glia"
+
+**最终纳入文献（5篇）**：
+
+| # | PMID | 第一作者 | 年份 | 期刊 | 全文 | 用途 |
+|---|------|---------|------|------|------|------|
+| 1 | 22559943 | Dennis MY | 2012 | Cell | PMC3365555 ✅ | SRGAP2 重复事件时间线、结构域分析 |
+| 2 | 22559944 | Charrier C | 2012 | Cell | PMC3357949 ✅ | SRGAP2C 机制、体内数据、突触棘密度 |
+| 3 | 25721503 | Florio M | 2015 | Science | 摘要 | ARHGAP11B 发现、小鼠皮层折叠 |
+| 4 | 33938018 | Xing L | 2021 | EMBO J | 摘要 | ARHGAP11B 转基因小鼠认知效益 |
+| 5 | 38658571 | Xing L | 2024 | Nat Commun | 摘要 | ARHGAP11B 谷氨酰胺酶解机制 |
+
+开放获取：2 篇（PMC 全文）；摘要仅及：3 篇（付费墙）
+
+---
+
+## D. 文章写作
+
+**文件**：`neuro-daily/articles/2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny.md`
+
+**篇幅**：约 5800 字（中文）
+
+**结构**：
+1. 为什么这个问题难以回答（引入人脑与其他灵长类的差异）
+2. SRGAP2C 的基因组历史（Dennis et al.，三次重复事件）
+3. SRGAP2C 的分子机制（Charrier et al.，F-BAR 异二聚化显性负效应）
+4. 体内实验数据（突触棘密度 +71%，颈长 +55%，幼态化）
+5. ARHGAP11B 的发现（Florio et al.，比较转录组学）
+6. ARHGAP11B 的分子机制（Xing et al. 2024，谷氨酰胺酶解→天冬氨酸→增殖）
+7. 两种机制的比较表格
+8. 比喻与局限
+9. 这改变了我们对大脑演化的理解
+10. 争议、局限与未解问题
+11. AI 对照思考
+12. 今日概念卡片 × 2
+13. 今日认知地图更新
+14. 参考来源表（5篇，含全文可用性）
+
+**来源引用**：5篇，均附 PMID；2篇读取全文，3篇摘要并明确标注
+
+---
+
+## E. Wiki 固结
+
+### 新建页面（2）
+
+1. **`concepts/srgap2c-neoteny.md`**（revision 1）
+   - 成熟度：established / 置信度：high
+   - 关键来源：PMID:22559944（全文），PMID:22559943（全文）
+   - 关联：synaptogenesis、synaptic-pruning、dendritic-computation、critical-period、cortical-neurogenesis、notch2nl-cortical-expansion、arhgap11b-cortical-expansion
+
+2. **`concepts/arhgap11b-cortical-expansion.md`**（revision 1）
+   - 成熟度：established / 置信度：high（发现级别）；medium（认知影响）
+   - 关键来源：PMID:25721503、PMID:33938018、PMID:38658571
+   - 关联：outer-radial-glia、cortical-neurogenesis、notch2nl-cortical-expansion、cortical-layers、srgap2c-neoteny
+
+### 修订页面（2）
+
+3. **`concepts/outer-radial-glia.md`**（revision 1→2）
+   - 新增 ARHGAP11B 作为 bRG 扩张驱动因子连接
+   - related 新增 arhgap11b-cortical-expansion
+
+4. **`concepts/notch2nl-cortical-expansion.md`**（revision 1→2）
+   - 新增 ARHGAP11B 和 SRGAP2C 互补机制连接
+   - related 新增 arhgap11b-cortical-expansion、srgap2c-neoteny
+
+### 知识图谱更新（_graph.json）
+
+- 节点：232 → 234（+2）
+- 边：1324 → 1338（+14）
+- 新增边：srgap2c-neoteny → {synaptogenesis, synaptic-pruning, dendritic-computation, critical-period, cortical-neurogenesis, arhgap11b-cortical-expansion, notch2nl-cortical-expansion}
+  arhgap11b-cortical-expansion → {outer-radial-glia, cortical-neurogenesis, notch2nl-cortical-expansion, cortical-layers, srgap2c-neoteny}
+  outer-radial-glia → arhgap11b-cortical-expansion
+  notch2nl-cortical-expansion → srgap2c-neoteny
+
+### 其他固结文件
+
+- `state/topic_ledger.json`：total_articles 110→111，新增条目 #111
+- `state/unresolved_questions.md`：新增 4 个未解问题（Q-srgap2c-01/02，Q-arhgap11b-03/04）
+- `state/monthly_synthesis.md`：本月文章列表更新至 08-12（12篇）
+- `wiki/index.md`：新增2页（srgap2c-neoteny、arhgap11b-cortical-expansion）；总数222页
+- `wiki/CHANGELOG.md`：新增 2026-08-12 条目
+- `state/source_registry.json`：新增5条来源，last_updated→2026-08-12
+- `state/maturity_index.json`：新增2个页面条目，last_updated→2026-08-12
+
+### 矛盾（contested claims）
+
+无新矛盾登记。ARHGAP11B 认知效益证据强度有限，标注为"中"置信度，但这是证据强度的诚实反映，并非矛盾情况。
+
+---
+
+## F. 自检
+
+- [x] 所有 wiki 断言有来源支持（PMID 可追溯）
+- [x] 新建 2 页均有完整 YAML frontmatter
+- [x] 修订页 revision_count、updated 已更新
+- [x] _graph.json 无新增孤立节点（新节点均有 ≥5 条边）
+- [x] index.md 总数反映新建页面（222）
+- [x] CHANGELOG.md 已追加今日条目
+- [x] topic_ledger.json total_articles=111
+- [x] 来源 3/4/5 明确标注"摘要仅及，付费墙"
+- [x] 对 ARHGAP11B 认知效益的物种局限性在文章和 wiki 中均有说明
+- [x] 无医学诊断建议（无临床建议）
+
+---
+
+## G. Git 提交 + 推送
+
+**提交命令**：
+```
+git add neuro-daily/
+git commit -m "Add neuro daily article + wiki consolidation for 2026-08-12"
+git pull --rebase origin main
+git push origin main
+```
+
+**提交状态**：待更新（见实际执行结果）

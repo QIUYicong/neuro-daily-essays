@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-11",
-  "node_count": 203,
-  "edge_count": 1179,
+  "updated": "2026-08-12",
+  "node_count": 234,
+  "edge_count": 1338,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2101,6 +2101,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/cortical-migration-disorders.md"
+    },
+    {
+      "id": "srgap2c-neoteny",
+      "title": "SRGAP2C 与突触幼态化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/srgap2c-neoteny.md"
+    },
+    {
+      "id": "arhgap11b-cortical-expansion",
+      "title": "ARHGAP11B 与皮层基底祖细胞扩张",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/arhgap11b-cortical-expansion.md"
     }
   ],
   "edges": [
@@ -9226,6 +9244,76 @@
     {
       "from": "tangential-migration",
       "to": "cortical-migration-disorders",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "synaptogenesis",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "dendritic-computation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "cortical-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "arhgap11b-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "notch2nl-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "outer-radial-glia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "notch2nl-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "cortical-layers",
+      "type": "supports"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "srgap2c-neoteny",
+      "type": "related"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "arhgap11b-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "notch2nl-cortical-expansion",
+      "to": "srgap2c-neoteny",
       "type": "related"
     }
   ],

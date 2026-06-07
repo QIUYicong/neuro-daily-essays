@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-12",
+  "article": "2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny",
+  "search_queries": [
+    "SRGAP2C human specific gene duplication dendritic spine neoteny",
+    "ARHGAP11B human neocortex cortical expansion basal progenitor",
+    "human cortical evolution gene duplication segmental duplication",
+    "ARHGAP11B glutaminolysis basal radial glia mechanism"
+  ],
+  "databases_searched": ["PubMed", "PMC Open Access", "Europe PMC"],
+  "total_candidates": 18,
+  "included": 5,
+  "excluded": 13,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "22559943",
+      "pmcid": "PMC3365555",
+      "doi": "10.1016/j.cell.2012.03.033",
+      "authors": "Dennis MY, Nuttle X, Sudmant PH, et al.",
+      "title": "Evolution of human-specific neural SRGAP2 genes by incomplete segmental duplication",
+      "journal": "Cell",
+      "year": 2012,
+      "volume": "149",
+      "issue": "4",
+      "pages": "912-922",
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "confidence": "high",
+      "topics_covered": [
+        "SRGAP2 duplication history",
+        "evolutionary timing (3.4, 2.4, 1 mya)",
+        "genomic structure of SRGAP2C",
+        "positive selection evidence"
+      ],
+      "notes": "Gold standard paper for SRGAP2 evolutionary analysis. Full text read via PMC3365555."
+    },
+    {
+      "id": "S2",
+      "pmid": "22559944",
+      "pmcid": "PMC3357949",
+      "doi": "10.1016/j.cell.2012.03.034",
+      "authors": "Charrier C, Joshi K, Coutinho-Budd J, Kim JE, Lambert N, de Marchena J, Jin WL, Vanderhaeghen P, Ghosh A, Sassa T, Polleux F",
+      "title": "Inhibition of SRGAP2 function by its human-specific paralogs induces neoteny during spine maturation",
+      "journal": "Cell",
+      "year": 2012,
+      "volume": "149",
+      "issue": "4",
+      "pages": "923-935",
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "confidence": "high",
+      "topics_covered": [
+        "SRGAP2C dominant-negative mechanism",
+        "F-BAR heterodimerization",
+        "dendritic spine density increase (+71% P18-21)",
+        "spine maturation delay (neoteny)",
+        "in vivo mouse electroporation data"
+      ],
+      "notes": "Full text read via PMC3357949. Contains quantitative morphological data used in article."
+    },
+    {
+      "id": "S3",
+      "pmid": "25721503",
+      "pmcid": null,
+      "doi": "10.1126/science.aaa1975",
+      "authors": "Florio M, Albert M, Taverna E, Namba T, Brandl H, Lewitus E, Haffner C, Sykes A, Wong FK, Peters J, et al.",
+      "title": "Human-specific gene ARHGAP11B promotes basal progenitor amplification and neocortex expansion",
+      "journal": "Science",
+      "year": 2015,
+      "volume": "347",
+      "issue": "6229",
+      "pages": "1465-1470",
+      "full_text_available": false,
+      "access_type": "abstract only (Science paywall)",
+      "confidence": "high",
+      "limitation_note": "未读取全文，相关内容依据摘要及同组后续论文的引述",
+      "topics_covered": [
+        "ARHGAP11B discovery via transcriptome comparison",
+        "ARHGAP11B in human bRG",
+        "mouse gyrification upon ARHGAP11B overexpression",
+        "ARHGAP11B gene structure and 47-aa C-terminal tail"
+      ],
+      "notes": "Landmark discovery paper. Abstract-only; findings corroborated by numerous follow-up studies."
+    },
+    {
+      "id": "S4",
+      "pmid": "33938018",
+      "pmcid": null,
+      "doi": "10.15252/embj.2020106776",
+      "authors": "Xing L, Kubik-Zahorodna A, Namba T, Sahara M, Florio M, Huttner WB",
+      "title": "Expression of human-specific ARHGAP11B in mice leads to neocortex expansion and increased memory flexibility",
+      "journal": "EMBO Journal",
+      "year": 2021,
+      "volume": "40",
+      "pages": "e106776",
+      "full_text_available": false,
+      "access_type": "abstract only",
+      "confidence": "medium",
+      "limitation_note": "未读取全文，仅基于摘要",
+      "topics_covered": [
+        "ARHGAP11B transgenic mice with physiological expression",
+        "increased neocortical size and upper-layer neurons in adults",
+        "enhanced memory flexibility in behavioral tests",
+        "reduced anxiety"
+      ],
+      "notes": "First behavioral/cognitive phenotype paper for ARHGAP11B."
+    },
+    {
+      "id": "S5",
+      "pmid": "38658571",
+      "pmcid": null,
+      "doi": "10.1038/s41467-024-47544-4",
+      "authors": "Xing L, Gkini V, Nieminen AI, Zhou HC, Aquilino M, Naumann R, Reppe K, Tanaka K, Carmeliet P, Heikinheimo O, Pääbo S, Huttner WB, Namba T",
+      "title": "Functional synergy of a human-specific and an ape-specific metabolic regulator in human neocortex development",
+      "journal": "Nature Communications",
+      "year": 2024,
+      "full_text_available": false,
+      "access_type": "abstract only",
+      "confidence": "medium",
+      "limitation_note": "未读取全文，仅基于摘要",
+      "topics_covered": [
+        "ARHGAP11B stimulates glutaminolysis",
+        "47-aa C-terminal tail targets mitochondria",
+        "GLUD2 synergy (ape-specific gene)",
+        "aspartate production and nucleotide synthesis"
+      ],
+      "notes": "Most mechanistic recent paper on ARHGAP11B function. Metabolic mechanism discovery."
+    }
+  ],
+  "exclusion_reasons": [
+    {
+      "count": 5,
+      "reason": "PMID mismatch / incorrect paper found in search"
+    },
+    {
+      "count": 4,
+      "reason": "Tangentially related (other ARHGAP family members, other brain evolution topics)"
+    },
+    {
+      "count": 4,
+      "reason": "Review articles without primary experimental data relevant to today's topic"
+    }
+  ],
+  "open_access_count": 2,
+  "abstract_only_count": 3,
+  "notes": "Strong open-access coverage for SRGAP2C papers (both 2012 Cell papers are PMC open access). ARHGAP11B papers (2015, 2021, 2024) are behind paywalls. This limitation is noted explicitly in the article."
+}
