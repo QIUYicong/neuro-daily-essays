@@ -8346,6 +8346,87 @@
         "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
       ],
       "covers": "MT光圈问题解决机制，模式细胞vs分量细胞"
+    },
+    {
+      "id": "PMID:17431404",
+      "title": "The cortical organization of speech processing",
+      "authors": [
+        "Hickok G",
+        "Poeppel D"
+      ],
+      "year": 2007,
+      "journal": "Nature Reviews Neuroscience",
+      "used_in": [
+        "2026-08-18-auditory-dual-stream-cortex-hierarchy"
+      ],
+      "covers": [
+        "auditory-dual-stream",
+        "language-network",
+        "dorsal-stream-speech"
+      ]
+    },
+    {
+      "id": "PMID:27956600",
+      "title": "Revealing the dual streams of speech processing",
+      "authors": [
+        "Fridriksson J et al."
+      ],
+      "year": 2016,
+      "journal": "PNAS",
+      "pmcid": "PMC5206517",
+      "used_in": [
+        "2026-08-18-auditory-dual-stream-cortex-hierarchy"
+      ],
+      "covers": [
+        "auditory-dual-stream",
+        "VLSM-speech",
+        "dorsal-ventral-anatomy"
+      ]
+    },
+    {
+      "id": "PMCID:PMC7067489",
+      "title": "Asymmetric sampling in human auditory cortex reveals spectral processing hierarchy",
+      "year": 2020,
+      "used_in": [
+        "2026-08-18-auditory-dual-stream-cortex-hierarchy"
+      ],
+      "covers": [
+        "hemispheric-asymmetry",
+        "auditory-cortex",
+        "spectrotemporal"
+      ]
+    },
+    {
+      "id": "PMCID:PMC3021714",
+      "title": "An expanded role for the dorsal auditory pathway in sensorimotor control and integration",
+      "authors": [
+        "Rauschecker JP"
+      ],
+      "year": 2011,
+      "used_in": [
+        "2026-08-18-auditory-dual-stream-cortex-hierarchy"
+      ],
+      "covers": [
+        "auditory-dual-stream",
+        "sensorimotor-integration",
+        "forward-model"
+      ]
+    },
+    {
+      "id": "PMCID:PMC8253058",
+      "title": "Triple model of auditory sensory processing",
+      "authors": [
+        "Sabri M"
+      ],
+      "year": 2021,
+      "used_in": [
+        "2026-08-18-auditory-dual-stream-cortex-hierarchy"
+      ],
+      "covers": [
+        "gating-stream",
+        "auditory-cortex",
+        "sensory-gating"
+      ]
     }
   ],
   "total_sources": 475,

@@ -1,0 +1,111 @@
+# 每日运行日志 — 2026-08-18
+
+**文章编号**：#100（系列里程碑）
+**主题**：听觉皮层双流架构：从耳蜗到语言
+**分支**：claude/funny-einstein-Z4ZFf（session 指定）/ 推送目标：main
+**运行时间**：2026-08-18 UTC+8
+
+---
+
+## 选题过程
+
+- **状态读取**：topic_ledger（99条），unresolved_questions，contested_claims（10条open），_graph.json（248节点，1397边）
+- **选题模式**：课程脊柱（过去4篇连续覆盖视觉系统腹侧/背侧流，自然过渡到听觉感觉系统）
+- **选定主题**：听觉皮层双流架构（核心-Belt-Parabelt层级 + 腹侧/背侧双流 + 半球不对称 + 与视觉双流的比较）
+- **层级平衡**：近7篇以brain-region/systems/cognition为主，今日继续同层级但切换感觉模态，合理
+- **文章#100里程碑**：选择具有横断面意义的主题（感官系统类比），适合标志性文章
+
+---
+
+## 资料检索
+
+**搜索词**：
+- "auditory cortex dual stream tonotopy speech"（PubMed E-utilities）
+- "auditory cortex hierarchical processing dual stream what where pathway review open access"（WebSearch）
+- "auditory cortex hierarchical processing spectrotemporal asymmetry"（PubMed）
+
+**数据源**：
+- PubMed E-utilities：PMID检索成功（返回10条相关PMID）
+- PMC开放全文：获取 PMC5552542, PMC2846110, PMC3483386, PMC6173113, PMC8253058, PMC3021714, PMC3468690, PMC7067489, PMC5206517（共9篇全文）
+- PubMed摘要：PMID 17431404, 10570492, 26388552（3篇摘要）
+- WebSearch辅助：确认文献来源和PMID
+
+**候选文献**：约18篇
+**采用文献**：10篇（8篇开放全文，2篇摘要）
+
+**排除文献原因**：
+- PMID 32644741（StatPearls关于失语症）：内容质量符合，但与神经科学机制关联较弱，排除
+- PMID 38339788（phase-encoded fMRI）：2024新研究，与核心主题的关联度不如其他文献，排除
+- bioRxiv预印本（hierarchy of timescales）：未使用，作为参考
+
+---
+
+## 固结步骤
+
+**今日文章触及的核心概念及处理**：
+
+1. **auditory-dual-stream**（腹/背侧双流架构）
+   - 状态：wiki中不存在 → **新建** `wiki/systems/auditory-dual-stream.md`
+   - 初始 status: established, confidence: high
+   - 依据：VLSM大样本验证（PMID:27956600）、Hickok-Poeppel经典综述（PMID:17431404）
+
+2. **auditory-cortex**（初级听觉皮层）
+   - 状态：wiki中已存在（rev2，2026-07-20）→ **修订** rev3
+   - 新增内容：双流架构摘要、半球谱-时序不对称
+   - updated: 2026-08-18, revision_count: 3
+
+3. **language-network**（语言网络）
+   - 状态：wiki中已存在（rev4，2026-07-15）→ **无需修订**（本文内容是对已有描述的听觉入口端补充，但不改变语言网络页面的核心主张）
+
+4. **superior-temporal-sulcus**（pSTS）
+   - 状态：已存在（rev1，2026-07-20）→ **无需修订**（今日文章补充了双流背景，但pSTS页面的核心内容（多感觉整合）不受影响）
+
+**矛盾检查**：无新矛盾。门控流（gating stream）为新兴假说，状态标注为low-medium confidence，不与既有主流双流模型冲突。
+
+**成熟度重估**：
+- auditory-dual-stream：新建，established（VLSM大样本直接验证 + Hickok-Poeppel经典综述）
+- auditory-cortex：仍为established（新增内容加强了双流证据）
+
+**新增悬空引用**：
+- `hemispheric-asymmetry`（被 auditory-dual-stream.md 和 auditory-cortex.md 引用，但无对应wiki页面）→ 待填补
+
+---
+
+## 图谱更新
+
+- 新增节点：1（auditory-dual-stream）
+- 新增边：8条
+- 图谱更新日期：2026-08-18
+- 总计：249节点，1405边
+
+---
+
+## 状态文件更新
+
+- `topic_ledger.json`：新增条目（总计100条）✓
+- `unresolved_questions.md`：新增Q-aud-dual-01/02/03 ✓
+- `source_registry.json`：新增5个来源（总计480）✓
+- `monthly_synthesis.md`：追加今日摘要 ✓
+- `wiki/CHANGELOG.md`：追加今日变更 ✓
+- `wiki/index.md`：待更新（见下）
+
+---
+
+## 失败与限制
+
+- PubMed E-utilities第一次搜索返回空结果（查询参数可能太长），第二次简化查询成功
+- PMID 10570492（Romanski et al.）原误以为是Rauschecker & Tian 2000，验证后确认为Romanski et al. 1999——已在文章中使用正确信息
+- 未能找到Rauschecker & Tian (2000) 关于AL vs CL神经元特异性的原始论文的精确PMID，改用更广泛引用的PMC2846110综述作为替代
+
+---
+
+## Git 状态
+
+- 文章：neuro-daily/articles/2026-08-18-auditory-dual-stream-cortex-hierarchy.md ✓
+- 笔记：neuro-daily/notes/2026-08-18-reading-notes.md ✓
+- 来源：neuro-daily/sources/2026-08-18-sources.json ✓
+- Wiki（新建）：neuro-daily/wiki/systems/auditory-dual-stream.md ✓
+- Wiki（修订）：neuro-daily/wiki/systems/auditory-cortex.md ✓
+- 图谱：neuro-daily/wiki/_graph.json ✓
+- 日志：neuro-daily/logs/2026-08-18-run.log（本文件）
+- Commit / Push 状态：待执行

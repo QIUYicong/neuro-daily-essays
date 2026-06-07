@@ -4,6 +4,22 @@
 
 ---
 
+## 2026-08-18（文章 #100 — 听觉皮层双流架构：从耳蜗到语言）
+
+**新建页面（1 页）**：
+- `wiki/systems/auditory-dual-stream.md`：听觉腹侧流（前颞→VLPFC：声音身份→语义，双侧）vs 背侧流（后颞→Spt→顶叶→Broca/运动：空间/言语运动，强左侧化）；VLSM直接验证（PMID:27956600，138例卒中）；半球谱-时序不对称（左AAC快时序/右AAC慢时序，96例颅内SEEG，PMC:7067489）；背侧流前向模型（Spt作为感觉-运动整合枢纽）；门控流第三通路（新兴，低置信度）
+
+**修订页面（1 页）**：
+- `wiki/systems/auditory-cortex.md`（rev3）：新增双流架构摘要节（腹侧/背侧路径概述）；新增半球谱-时序不对称（左快右慢）；related 补充 auditory-dual-stream, hemispheric-asymmetry；key_sources 补充 PMID:17431404/PMC:3483386/PMC:7067489
+
+**图谱更新**：新增 1 节点（auditory-dual-stream），新增 8 条有类型边；图谱总节点 249，总边 1405
+
+**矛盾登记**：无新矛盾（门控流为新兴假说，标注为 emerging/low-confidence，不与既有主流观点冲突）
+
+**新增悬空引用（待填补）**：`hemispheric-asymmetry`（被 auditory-dual-stream 和 auditory-cortex 引用，暂无 wiki 页面）
+
+---
+
 ## 2026-08-17（文章 #116 — 背侧视觉流：MT/V5、MST、LIP 的运动感知与行动决策）
 
 **新建页面（4 页）**：

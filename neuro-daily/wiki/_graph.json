@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "node_count": 244,
   "edge_count": 1386,
   "edge_types": [
@@ -2245,6 +2245,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/systems/lip-lateral-intraparietal.md"
+    },
+    {
+      "id": "auditory-dual-stream",
+      "title": "听觉双流架构",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/auditory-dual-stream.md"
     }
   ],
   "edges": [
@@ -9763,6 +9772,46 @@
       "to": "area-MT-V5",
       "type": "supports",
       "note": "LGN 大细胞层旁路直接投射到 MT（绕过 V1 的平行通路）"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "auditory-dual-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "language-network",
+      "type": "supports"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "superior-temporal-sulcus",
+      "type": "part-of"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "broca-area",
+      "type": "supports"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "motor-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-visual-stream",
+      "to": "auditory-dual-stream",
+      "type": "related"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "inferior-temporal-cortex",
+      "type": "related"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,135 @@
+{
+  "date": "2026-08-18",
+  "article_slug": "auditory-dual-stream-cortex-hierarchy",
+  "article_number": 100,
+  "sources": [
+    {
+      "id": "S1",
+      "type": "journal_article",
+      "title": "The cortical organization of speech processing",
+      "authors": ["Hickok G", "Poeppel D"],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2007,
+      "pmid": "17431404",
+      "doi": "10.1038/nrn2113",
+      "full_text_available": false,
+      "access_note": "摘要可访问；全文付费，未读取全文",
+      "contribution": "人类语音双流经典模型；腹侧流（声音→意义）vs背侧流（声音→发音动作）框架的奠基性综述",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "S2",
+      "type": "journal_article",
+      "title": "Dual streams of auditory afferents target multiple domains in the primate prefrontal cortex",
+      "authors": ["Romanski LM", "Tian B", "Fritz J", "Mishkin M", "Goldman-Rakic PS", "Rauschecker JP"],
+      "journal": "Nature Neuroscience",
+      "year": 1999,
+      "pmid": "10570492",
+      "full_text_available": false,
+      "access_note": "摘要可访问；全文付费，未读取全文",
+      "contribution": "灵长类听觉双流解剖基础：前颞→VLPFC（腹侧）vs后颞→DLPFC（背侧）的神经示踪证据",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "S3",
+      "type": "journal_article",
+      "title": "Revealing the dual streams of speech processing",
+      "authors": ["Fridriksson J", "Yourganov G", "Bonilha L", "Basilakos A", "Den Ouden DB", "Rorden C"],
+      "journal": "Proceedings of the National Academy of Sciences USA",
+      "year": 2016,
+      "pmid": "27956600",
+      "pmcid": "PMC5206517",
+      "full_text_available": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5206517/",
+      "contribution": "138例卒中患者VLSM：最直接的人类双流解剖分离证据；腹侧（语义理解）vs背侧（发音/句法）损伤的解剖分离",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "S4",
+      "type": "journal_article",
+      "title": "The cortical organization of speech processing: feedback control and predictive coding in the context of a dual-stream model",
+      "authors": ["Hickok G"],
+      "journal": "Journal of Communication Disorders",
+      "year": 2012,
+      "pmid": "22766458",
+      "pmcid": "PMC3468690",
+      "full_text_available": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3468690/",
+      "contribution": "背侧流的反馈控制与预测编码视角；Spt作为感觉-运动整合枢纽的详细机制；与前向模型的关系",
+      "evidence_strength": "medium-high"
+    },
+    {
+      "id": "S5",
+      "type": "review_article",
+      "title": "Thalamic and cortical pathways supporting auditory processing",
+      "pmcid": "PMC3483386",
+      "full_text_available": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3483386/",
+      "contribution": "MGB三亚区（vMGB/dMGB/mMGB）→听觉皮层三级（核心/Belt/Parabelt）的投射详细综述；Core-Belt-Parabelt的丘脑基础",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "S6",
+      "type": "journal_article",
+      "title": "Asymmetric sampling in human auditory cortex reveals spectral processing hierarchy",
+      "pmcid": "PMC7067489",
+      "full_text_available": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7067489/",
+      "contribution": "96例颅内SEEG：左AAC theta/gamma（快时序）vs右AAC delta/beta（慢时序）的直接电生理证据；不对称在联合皮层而非初级皮层",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "S7",
+      "type": "review_article",
+      "title": "An expanded role for the dorsal auditory pathway in sensorimotor control and integration",
+      "authors": ["Rauschecker JP"],
+      "year": 2011,
+      "pmcid": "PMC3021714",
+      "full_text_available": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3021714/",
+      "contribution": "背侧流从空间定位扩展到感觉运动控制的综合论证；内部前向模型框架；弓状束直接连接弱于原设想的证据",
+      "evidence_strength": "medium-high"
+    },
+    {
+      "id": "S8",
+      "type": "journal_article",
+      "title": "Triple model of auditory sensory processing: a novel gating stream directly links primary auditory areas to executive prefrontal cortex",
+      "authors": ["Sabri M"],
+      "year": 2021,
+      "pmcid": "PMC8253058",
+      "full_text_available": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8253058/",
+      "contribution": "门控流（gating stream）提案：A1→PFC在50ms内的第三通路；临床相关（AD、精神分裂症的感觉门控异常）",
+      "evidence_strength": "low-medium",
+      "caveats": "新兴假说，证据主要来自MEG和动物研究，尚未成为主流共识"
+    },
+    {
+      "id": "S9",
+      "type": "review_article",
+      "title": "Recent advances in understanding the auditory cortex",
+      "pmcid": "PMC6173113",
+      "full_text_available": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6173113/",
+      "contribution": "STRF的局限与神经网络模型；适应性编码；预测编码框架；听觉皮层与DNN模型的比较",
+      "evidence_strength": "high"
+    },
+    {
+      "id": "S10",
+      "type": "review_article",
+      "title": "Maps and streams in the auditory cortex: nonhuman primates illuminate human speech processing",
+      "pmcid": "PMC2846110",
+      "full_text_available": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2846110/",
+      "contribution": "灵长类与人类听觉皮层比较；Belt区前腹侧（身份）vs后背侧（空间）神经元特化的综述；半球不对称与语音的关系",
+      "evidence_strength": "high"
+    }
+  ],
+  "summary": {
+    "total_sources": 10,
+    "open_full_text": 8,
+    "abstract_only": 2,
+    "official_institution": 0,
+    "primary_research": 4,
+    "review": 6
+  }
+}

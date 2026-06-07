@@ -7381,6 +7381,45 @@
         "v1-primary-visual-cortex",
         "inferior-temporal-cortex"
       ]
+    },
+    {
+      "date": "2026-08-18",
+      "title": "声音的解码器：听觉皮层双流架构如何将空气振动转化为意义（第100篇·感官系统横断面）",
+      "core_question": "从初级听觉皮层（A1）出发，腹侧'what'流和背侧'where/how'流如何分工，将声音信号解码为声音身份与空间/运动信息？这与视觉双流有何深刻相似和根本差异？",
+      "layer": [
+        "brain-region",
+        "systems",
+        "cognition",
+        "whole-brain-network"
+      ],
+      "topic_tags": [
+        "auditory-cortex",
+        "dual-stream",
+        "speech-perception",
+        "tonotopy",
+        "hemispheric-asymmetry",
+        "Hickok-Poeppel",
+        "language",
+        "sensorimotor-integration"
+      ],
+      "main_sources": [
+        "PMID:17431404",
+        "PMID:27956600",
+        "PMCID:PMC7067489",
+        "PMCID:PMC3021714",
+        "PMCID:PMC8253058"
+      ],
+      "unresolved_questions": [
+        "Q-aud-dual-01",
+        "Q-aud-dual-02",
+        "Q-aud-dual-03"
+      ],
+      "next_suggested_topics": [
+        "hemispheric-asymmetry: 左右脑语言/感知不对称的分子细胞基础",
+        "auditory-scene-analysis: 大脑如何在鸡尾酒会中分离声音流",
+        "speech-motor-control: 言语产生的神经回路（背侧流输出端）",
+        "tonotopy-revisit: 听觉关键期与tonotopy可塑性（类比视觉关键期）"
+      ]
     }
   ],
   "layer_coverage_recent": {

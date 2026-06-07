@@ -6,15 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-07-18
-updated: 2026-07-18
-revision_count: 2
-updated: 2026-07-20
-dimensions: [brain-region, microcircuit, whole-brain-network]
-related: [tonotopy, language-network, thalamus, olfactory-system, predictive-coding, superior-temporal-sulcus, multisensory-integration, mcgurk-effect]
+updated: 2026-08-18
+revision_count: 3
+dimensions: [brain-region, microcircuit, whole-brain-network, systems, cognition]
+related: [tonotopy, language-network, thalamus, olfactory-system, predictive-coding, superior-temporal-sulcus, multisensory-integration, mcgurk-effect, auditory-dual-stream, hemispheric-asymmetry]
 prerequisites: [tonotopy, thalamic-firing-modes]
-opens_questions: [Q-aud-02, Q-aud-03]
-source_articles: [2026-07-18-auditory-cortex-tonotopy-dual-coding, 2026-07-20-multisensory-integration-temporal-binding-sts]
-key_sources: ["PMID:32420865", "PMID:37169827", "PMID:36786655", "PMID:28179553"]
+opens_questions: [Q-aud-02, Q-aud-03, Q-aud-dual-01]
+source_articles: [2026-07-18-auditory-cortex-tonotopy-dual-coding, 2026-07-20-multisensory-integration-temporal-binding-sts, 2026-08-18-auditory-dual-stream-cortex-hierarchy]
+key_sources: ["PMID:32420865", "PMID:37169827", "PMID:36786655", "PMID:28179553", "PMID:17431404", "PMCID:PMC3483386", "PMCID:PMC7067489"]
 ---
 
 # 初级听觉皮层（A1）(Primary Auditory Cortex)
@@ -70,10 +69,25 @@ A1是语言双流（腹/背侧流）和音乐感知的共同起点，其音调�
 - Q-aud-03：Belt和Parabelt是严格串行还是并行？
 - 关键期内A1音调拓扑可塑性的分子机制（PNN/OTX2系统是否类同V1？）
 
+## 双流架构（2026-08-18 新增）
+
+A1/Belt/Parabelt之上，信息分叉为两条并行通路（详见 [[auditory-dual-stream]]）：
+
+**腹侧流**（前颞→VLPFC）：声音身份→词义，双侧分布
+**背侧流**（后颞→Spt→顶叶→Broca/运动皮层）：空间/言语运动，强烈左侧化
+
+核心证据：138例卒中VLSM（PMID:27956600）直接验证解剖分离。
+
+**半球谱-时序不对称**（PMC:7067489，96例颅内SEEG）：
+- 左半球听觉联合皮层（AAC）：快时序（theta/gamma 6/40 Hz，~25ms窗）→ 辅音/音素
+- 右半球AAC：慢时序（delta/beta 2.5/15 Hz，~200ms窗）→ 韵律/旋律
+- 此不对称在联合皮层（AAC）产生，初级皮层（A1）左右对称
+
 ## 修订历史
 
 - 2026-07-18 · 创建 · 基于《大脑如何读懂音调》文章 #86 · 初始置信度：高 · 新建core/belt/parabelt组织框架；来源含PMID:32420865/37169827/36786655
 - 2026-07-20 · 修订 · 基于《感官交响曲》文章 #88 · 新增 related: superior-temporal-sulcus, multisensory-integration, mcgurk-effect；A1 输出到 pSTS 参与视听整合的联结被明确
+- 2026-08-18 · 重要修订 · 基于《声音的解码器》文章 #100 · 新增双流架构（腹侧/背侧）及半球谱-时序不对称；新增 related: auditory-dual-stream, hemispheric-asymmetry；更新 key_sources 含 PMID:17431404/PMC:3483386/PMC:7067489
 
 ## 来源文章
 
