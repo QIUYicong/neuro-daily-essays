@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-08-19（文章 #118 — 言语产生：DIVA 模型与前馈/反馈双控制系统）
+
+**新建页面（3 页）**：
+- `wiki/systems/speech-production-circuit.md`：六层分布式架构（SMA启动→左IFG音节程序→vPCSA/dPCSA协调→M1执行→pSTG/SMG感觉监控→右vPMC纠偏）；前馈/反馈功能分工；效应副本预测性抑制机制；双前中央言语区（vPCSA发音/dPCSA音调）；口吃/失用症的网络模型
+- `wiki/concepts/diva-model.md`：Guenther团队DIVA/GODIVA计算神经框架；七个模型组件与神经对应；前馈（左侧化）/反馈（右侧化）；运动等价（声学目标空间控制）；婴儿咿呀学语习得序列；GODIVA双BG环路（运动vPMC+SMA/计划pIFS+preSMA）
+- `wiki/systems/sma-presma.md`：言语启动最早激活节点（pre-SMA峰值-240ms/SMA峰值-170ms）；活动随RT动态伸缩；115人iEEG大样本证据（Bullock 2024, PMID:39807169）；准备协调者而非执行者
+
+**修订页面（1 页）**：
+- `wiki/systems/broca-area.md`（rev3）：整合Hickok et al. 2022（PMID:36746488）——言语运动协调中枢重定位至前中央回（vPCSA/dPCSA），而非IFG pars opercularis本身；布罗卡区功能定位为高层语言（句法/词汇/WM）；更新"三成分"框架中"发音成分"的精确神经解剖；新增证据行、连接和来源文章
+
+**矛盾登记**：无新矛盾（Hickok 2022的vPCSA/dPCSA发现与既有broca-area页面的"三成分框架"一致，而非冲突；"发音成分"重定位是精化而非否定）
+
+**新增悬空引用（待填补）**：
+- `efference-copy-speech`（效应副本在言语产生中的具体机制，被speech-production-circuit引用）
+- `apraxia-of-speech`（言语失用症，被diva-model引用作为疾病窗口）
+
+**图谱更新**：+3节点（speech-production-circuit, diva-model, sma-presma），+12边；总节点252，总边1417
+
+---
+
 ## 2026-08-18（文章 #100 — 听觉皮层双流架构：从耳蜗到语言）
 
 **新建页面（1 页）**：

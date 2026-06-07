@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-17",
-  "total_articles": 116,
+  "last_updated": "2026-08-19",
+  "total_articles": 118,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7419,6 +7419,74 @@
         "auditory-scene-analysis: 大脑如何在鸡尾酒会中分离声音流",
         "speech-motor-control: 言语产生的神经回路（背侧流输出端）",
         "tonotopy-revisit: 听觉关键期与tonotopy可塑性（类比视觉关键期）"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "real_date": "2026-06-08",
+      "article_number": 118,
+      "title": "大脑如何开口说话：从意图到音素的前馈/反馈双控制系统——DIVA 模型、双前中央言语区与言语产生的计算神经科学",
+      "slug": "speech-production-diva-motor-control",
+      "filename": "2026-08-19-speech-production-diva-motor-control.md",
+      "article_type": "regular",
+      "core_question": "大脑从'我想说一个词'到实际发出声音，经历了怎样精密的神经计算过程？SMA/pre-SMA如何作为言语启动的最早皮层节点（开口前~240ms激活）？左IFG/腹侧运动前皮层如何作为音节程序库？前馈与反馈两套控制系统如何分工（前馈主导流利言语/反馈主导学习纠偏）？效应副本机制如何防止自产语音误触发纠偏？Hickok 2022双前中央言语区（dPCSA音调/vPCSA发音）如何颠覆经典Broca区运动中枢假说？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（言语产生；延续#83/84语言双流/语义枢纽，#118听觉双流）",
+      "topic_tags": [
+        "speech production",
+        "DIVA model",
+        "GODIVA model",
+        "feedforward control",
+        "feedback control",
+        "efference copy",
+        "auditory suppression",
+        "SMA",
+        "pre-SMA",
+        "Broca's area",
+        "IFG",
+        "premotor cortex",
+        "vPCSA",
+        "dPCSA",
+        "speech sound map",
+        "auditory target map",
+        "somatosensory target map",
+        "supramarginal gyrus",
+        "apraxia of speech",
+        "stuttering",
+        "motor equivalence",
+        "speech initiation"
+      ],
+      "main_sources": [
+        "PMID:23667281",
+        "PMID:36746488",
+        "PMID:39807169",
+        "PMID:22661828",
+        "PMID:37337871"
+      ],
+      "open_full_text_sources": 5,
+      "unresolved_questions": [
+        "Q-speech-01",
+        "Q-speech-02",
+        "Q-speech-03"
+      ],
+      "wiki_pages_created": [
+        "systems/speech-production-circuit",
+        "concepts/diva-model",
+        "systems/sma-presma"
+      ],
+      "wiki_pages_updated": [
+        "systems/broca-area (rev3: 双前中央言语区发现；言语运动中枢重定位)"
+      ],
+      "next_suggested_topics": [
+        "speech-perception-phonology: 音韵感知——STG如何将声学流切割为音素（时间窗理论/皮层夹带）",
+        "arcuate-fasciculus-deep: 弓状束的纤维分组与语言/言语分工",
+        "language-acquisition-critical-period: 语言习得关键期的神经机制",
+        "prosody-neural-basis: 韵律的dPCSA/右半球神经基础"
       ]
     }
   ],

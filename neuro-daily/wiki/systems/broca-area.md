@@ -6,19 +6,19 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-07-15
-revision_count: 2
+updated: 2026-08-19
+revision_count: 3
 dimensions: [brain-region, cognition]
-related: [language-network, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, prefrontal-cortex, multiple-demand-network]
+related: [language-network, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, prefrontal-cortex, multiple-demand-network, speech-production-circuit, diva-model]
 prerequisites: [language-network, action-potential]
 opens_questions: [Q-lang-03, Q-lang-04]
-source_articles: [2026-06-20-language-dual-stream, 2026-07-15-language-network-dual-stream]
-key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947", "PMID:32160565"]
+source_articles: [2026-06-20-language-dual-stream, 2026-07-15-language-network-dual-stream, 2026-08-19-speech-production-diva-motor-control]
+key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947", "PMID:32160565", "PMID:36746488"]
 ---
 
 # Broca区（额叶下回）(Broca's Area / Inferior Frontal Gyrus)
 
-> **一句话定义**：左额叶下回（IFG）的Broca区包含至少三个功能截然不同的子区——语言专属成分（LANG网络）、多需求网络成分（MD网络）和发音成分——它们在解剖上相互交叠，但功能上相互独立，用群体平均fMRI难以分离；"Broca区"本身不是一个自然种类（natural kind）。
+> **一句话定义**：左额叶下回（IFG）的Broca区包含语言专属（LANG）、多需求（MD）和发音三个功能成分，解剖上交叠、功能上独立；而2022年的重要修订进一步厘清：真正的**言语运动协调**中枢坐落在**前中央回**（vPCSA/dPCSA），而非布罗卡区本身——布罗卡区的核心功能是句法整合、词汇选择和语言工作记忆。
 
 ## 当前理解
 
@@ -45,6 +45,22 @@ key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"
 **关键证明**：LANG成分和MD成分在个体水平的时间序列中几乎不相关，甚至负相关。四条独立证据：(a)任务激活方向相反；(b)自然认知（听故事）时网络内相关强、跨网络相关弱；(c)效应量的个体间相关性弱；(d)病变数据——损伤MD坐标影响流体智力，损伤LANG坐标影响语言能力。
 
 **方法学根源**：群体平均fMRI中，个体间解剖变异约6mm，使LANG成分和MD成分混叠，制造了几十年的假阳性和矛盾结论。正确做法需在个体水平做功能定位（先用功能对比确定每个个体的语言ROI）。
+
+---
+
+**2026-08-19 新增：言语运动协调在哪里？（Hickok et al. 2022 重要修订）**
+
+Hickok, Venezia & Teghipco（2022, PMID:36746488）综合 ~600 名神经外科患者的皮质电刺激数据（"言语中断"位点）、颅内记录和 fMRI 连接性，得出一个与经典教科书相悖的结论：
+
+> **真正的言语运动协调中枢在前中央回（precentral gyrus），而非IFG pars opercularis（BA44）**
+
+两个分离系统：
+- **vPCSA**（腹侧前中央言语区）：控制口面部发音（辅音/元音音节协调）；以体感为权重输入
+- **dPCSA**（背侧前中央言语区）：控制喉部运动（音调/韵律控制）；以听觉为权重输入
+
+而布罗卡区（IFG）自身的主要功能是更高层次的语言处理（句法整合、词汇选择、工作记忆）——这与"三成分框架"中布罗卡区包含LANG和MD成分的观点完全一致，并为此提供了来自运动神经学的独立支持。
+
+**对原有"发音成分"描述的更新**：原本被笼统归入"发音成分"的功能，实际上更精确地定位在前中央回（vPCSA），而非IFG pars opercularis本身。布罗卡区的IFG在言语中激活，更可能反映的是与言语产生相关的语言准备（词汇提取、音韵编码），而非肌肉运动协调。
 
 ---
 
@@ -89,6 +105,7 @@ key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"
 | BA44激活程度随句子层级复杂度线性增加 | fMRI参数化句法实验 | PMID:31735144 | 中高 |
 | IFG内存在功能方向相反的LANG和MD成分，群体平均混叠 | 个体功能定位fMRI；四种独立收敛证据 | PMID:32160565 | 高 |
 | LANG成分与MD成分在个体水平时序相关性极弱（≈0或负） | 个体ROI时间序列相关分析 | PMID:32160565 | 高 |
+| 言语协调中枢在前中央回（vPCSA/dPCSA），而非IFG本身 | ~600人神经外科皮质电刺激+颅内记录+fMRI连接 | PMID:36746488 (2022) | 高 |
 
 ## 连接
 
@@ -98,6 +115,8 @@ key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"
 - [[ventral-language-stream]] — BA45是腹侧流的额叶终点
 - [[working-memory]] — BA45参与语义工作记忆
 - [[prefrontal-cortex]] — Broca区位于PFC的额叶下回，与dlPFC协作认知控制
+- [[speech-production-circuit]] — 布罗卡区的"发音成分"更精确地定位于邻接的前中央回（vPCSA）
+- [[diva-model]] — DIVA模型中的"言语声音图"对应左IFG/vPMC区域
 
 ## 未解问题
 
@@ -107,7 +126,8 @@ key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"
 ## 修订历史
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
-- 2026-07-15 · 重大修订 · 新增LANG/MD三成分框架（Fedorenko & Blank 2020, PMID:32160565）；将"BA44=句法，BA45=语义"的两成分观更新为"LANG专属+MD通用+发音"三成分观；更新一句话定义以反映"Broca区不是自然种类"的核心结论；新增两行证据表；新增multiple-demand-network关联
+- 2026-07-15 · 重大修订 · 新增LANG/MD三成分框架（Fedorenko & Blank 2020, PMID:32160565）；将"BA44=句法，BA45=语义"的两成分观更新为"LANG专属+MD通用+发音"三成分观；更新一句话定义以反映"Broca区不是自然种类"的核心结论
+- 2026-08-19 · 重要更新 · 整合Hickok et al. 2022（PMID:36746488）双前中央言语区发现：言语运动协调中枢在前中央回（vPCSA/dPCSA）而非IFG本身，与三成分框架互洽（"发音成分"重定位）；更新一句话定义；新增证据行、连接；来源文章新增第118篇
 
 ## 来源文章
 

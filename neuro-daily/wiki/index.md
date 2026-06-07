@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-18（**第100篇里程碑**·声音的解码器：听觉皮层双流架构——从耳蜗到语言）· 主题页总数：**234**（新建1页：auditory-dual-stream；修订1页：auditory-cortex rev3；图谱249节点、1405边）
+> 最后更新：2026-08-19（**#118**·大脑如何开口说话：前馈/反馈双控制系统与DIVA模型）· 主题页总数：**237**（新建3页：speech-production-circuit · diva-model · sma-presma；修订1页：broca-area rev3；图谱252节点、1417边）
 
 ---
 
@@ -89,6 +89,7 @@
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；Sahay 2011成人神经发生因果改善分离 **[NEW 2026-06-24]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
+- 🔵 [DIVA模型（言语产生计算-神经框架）](concepts/diva-model.md) — 言语声音图（左IFG/vPMC）+启动图（SMA-BG）+听觉目标/误差图（pSTG）+体感目标图（SMG）+反馈控制图（右vPMC）+小脑前向模型；前馈主导流利言语/反馈主导学习纠偏/效应副本抑制自产语音；GODIVA双BG环路（运动/计划）**[NEW 2026-08-19 #118]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
@@ -211,7 +212,9 @@
 ## language（语言）
 
 - 🟢 [语言网络（双流模型）](systems/language-network.md) — 腹侧流（声音→意义，双侧）+ 背侧流（声音→动作/句法，左侧主导）；超模态（手语激活同一Broca区）；LANG专属网络 vs MD通用网络关键分离（Fedorenko 2020）；语言专属surprisal效应（Shain 2020）；ATL语义枢纽 **[修订 rev4 2026-07-15]**
-- 🟢 [Broca区（额叶下回）](systems/broca-area.md) — 三成分解构：语言专属（LANG）/ 多需求（MD）/ 发音；IFG内两套系统在群体平均fMRI中混叠，造成几十年矛盾；"Broca区不是自然种类" **[修订 rev2 2026-07-15]**
+- 🟢 [Broca区（额叶下回）](systems/broca-area.md) — 三成分解构：语言专属（LANG）/ 多需求（MD）/ 发音；IFG内两套系统在群体平均fMRI中混叠；**新增**：言语运动协调中枢实为前中央回（vPCSA/dPCSA），非IFG本身（Hickok 2022） **[修订 rev3 2026-08-19 #118]**
+- 🔵 [言语产生神经回路](systems/speech-production-circuit.md) — SMA/pre-SMA启动（-240ms）→左IFG/vPMC音节程序→M1执行；前馈（主导流利言语）vs反馈（pSTG听觉+SMG体感→右vPMC纠偏）；效应副本抑制自产语音；双前中央言语区（vPCSA发音/dPCSA音调）；DIVA/GODIVA框架 **[NEW 2026-08-19 #118]**
+- 🔵 [辅助运动区与前辅助运动区](systems/sma-presma.md) — 言语启动最早皮层节点（pre-SMA: -240ms; SMA: -170ms先于开口）；活动随RT动态伸缩；通过BG-丘脑接收时序"go"信号；准备协调者而非执行者 **[NEW 2026-08-19 #118]**
 - 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；左侧优势；出生时低髓鞘化→随句法习得成熟；损伤→传导性失语 **[NEW 2026-06-20]**
 - 🟢 [背侧语言流](circuits/dorsal-language-stream.md) — A1→颞平面→Spt→弓状束→BA44；音韵缓冲+句法层级运算；左侧主导 **[NEW 2026-06-20]**
 - 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→ATL（语义枢纽）→BA45；声音→词义；双侧；四大白质束（IFOF/UF/ILF/MLF）DES临床验证 **[修订 rev2 2026-07-15]**

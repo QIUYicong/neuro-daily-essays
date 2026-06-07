@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "node_count": 244,
   "edge_count": 1386,
   "edge_types": [
@@ -2254,6 +2254,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/auditory-dual-stream.md"
+    },
+    {
+      "id": "speech-production-circuit",
+      "title": "言语产生神经回路",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/speech-production-circuit.md"
+    },
+    {
+      "id": "diva-model",
+      "title": "DIVA模型（言语产生计算-神经框架）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/diva-model.md"
+    },
+    {
+      "id": "sma-presma",
+      "title": "辅助运动区与前辅助运动区（言语启动）",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/sma-presma.md"
     }
   ],
   "edges": [
@@ -9811,6 +9838,66 @@
     {
       "from": "auditory-dual-stream",
       "to": "inferior-temporal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "diva-model",
+      "type": "supports"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "sma-presma",
+      "type": "part-of"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "broca-area",
+      "type": "related"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "motor-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "auditory-dual-stream",
+      "type": "related"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "cerebellum",
+      "type": "related"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "diva-model",
+      "to": "speech-production-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "sma-presma",
+      "to": "speech-production-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "sma-presma",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "sma-presma",
+      "to": "motor-cortex",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "broca-area",
+      "to": "speech-production-circuit",
       "type": "related"
     }
   ],
