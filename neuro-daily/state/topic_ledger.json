@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-09",
-  "total_articles": 108,
+  "last_updated": "2026-08-11",
+  "total_articles": 110,
   "entries": [
     {
       "date": "2026-08-09",
@@ -6829,6 +6829,83 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8≈2026-06-07（真实执行日期）；知识库虚拟日期2026-08-10；课程脊柱第2章'神经网络如何建成'的切向迁移篇；13个来源2个开放全文；填补图谱悬空引用 gaba；4个新wiki页创建，5个修订；知识图谱：229节点，1302条边"
+    },
+    {
+      "date": "2026-08-11",
+      "real_date": "2026-06-07",
+      "article_number": 110,
+      "title": "皮层建造的故障报告：当 LIS1、DCX 与 Reelin 出现突变，大脑六层楼如何以三种不同的方式倒塌",
+      "slug": "lissencephaly-cortical-migration-failure",
+      "filename": "2026-08-11-lissencephaly-cortical-migration-failure.md",
+      "article_type": "regular",
+      "core_question": "控制皮层神经元放射状迁移的三个关键分子（LIS1、DCX、Reelin）中任一突变如何产生不同表型？三种故障如何反向工程出 Inside-Out 建造的必要条件？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "disease"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（疾病作为窗口篇）—— Inside-Out(#108)和切向迁移(#109)后的故障分析",
+      "topic_tags": [
+        "lissencephaly",
+        "LIS1",
+        "PAFAH1B1",
+        "DCX",
+        "doublecortin",
+        "RELN",
+        "reelin",
+        "cortical migration disorders",
+        "MCD",
+        "nucleus-centrosome coupling",
+        "dynein",
+        "Dab1",
+        "ApoER2",
+        "VLDLR",
+        "reeler mouse",
+        "alpha-dystroglycan",
+        "glycosylation",
+        "basement membrane",
+        "polymicrogyria",
+        "Miller-Dieker syndrome",
+        "calpain inhibitor"
+      ],
+      "main_sources": [
+        "PMID:23495356/PMC3593794",
+        "PMID:20688183/PMC2967611",
+        "PMID:28951247",
+        "PMID:18255163",
+        "PMID:31022460",
+        "PMID:12668601",
+        "PMID:11754098",
+        "PMID:20980614",
+        "PMID:30016746",
+        "PMID:21349848"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/lissencephaly.md",
+        "wiki/concepts/reelin-signaling.md",
+        "wiki/concepts/cortical-migration-disorders.md"
+      ],
+      "wiki_pages_revised": [
+        "cortical-neurogenesis (rev2→rev3)",
+        "tangential-migration (rev1→rev2)",
+        "cortical-layers (rev1→rev2)"
+      ],
+      "contested_claims_logged": [],
+      "unresolved_questions": [
+        "Q-lis-01",
+        "Q-lis-02",
+        "Q-lis-03"
+      ],
+      "next_suggested_topics": [
+        "皮层柱（Cortical Column）：Mountcastle假说的发育基础",
+        "人类皮层进化遗传学：SRGAP2C、ARHGAP11B",
+        "神经元极性建立：轴突-树突不对称的分子机制",
+        "髓鞘化：少突胶质细胞形成髓鞘",
+        "关键期机制再深入：OTX2-PNN-BDNF三角"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8≈2026-06-07；知识库虚拟日期2026-08-11；10个来源2个开放全文；3新wiki页，3修订"
     }
   ],
   "layer_coverage_recent": {

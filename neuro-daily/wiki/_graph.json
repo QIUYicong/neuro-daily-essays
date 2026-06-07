@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-10",
+  "updated": "2026-08-11",
   "node_count": 203,
   "edge_count": 1179,
   "edge_types": [
@@ -2074,6 +2074,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/gaba.md"
+    },
+    {
+      "id": "lissencephaly",
+      "title": "无脑回",
+      "domain": "concepts",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/lissencephaly.md"
+    },
+    {
+      "id": "reelin-signaling",
+      "title": "Reelin 信号通路",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/reelin-signaling.md"
+    },
+    {
+      "id": "cortical-migration-disorders",
+      "title": "皮层迁移障碍",
+      "domain": "concepts",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-migration-disorders.md"
     }
   ],
   "edges": [
@@ -9090,6 +9117,116 @@
       "from": "gaba",
       "to": "ltp",
       "type": "regulates"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "cortical-neurogenesis",
+      "type": "contradicts"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "reelin-signaling",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "cortical-migration-disorders",
+      "type": "is-a"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "tangential-migration",
+      "type": "related"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "ei-balance",
+      "type": "regulates"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "sst-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "nmda-receptor",
+      "type": "related"
+    },
+    {
+      "from": "cortical-migration-disorders",
+      "to": "cortical-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "cortical-migration-disorders",
+      "to": "tangential-migration",
+      "type": "related"
+    },
+    {
+      "from": "cortical-migration-disorders",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "cortical-migration-disorders",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "lissencephaly",
+      "type": "related"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "reelin-signaling",
+      "type": "supports"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "cortical-migration-disorders",
+      "type": "related"
+    },
+    {
+      "from": "tangential-migration",
+      "to": "cortical-migration-disorders",
+      "type": "related"
     }
   ],
   "dangling_references": [

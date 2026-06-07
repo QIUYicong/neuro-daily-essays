@@ -6,10 +6,10 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-23
-updated: 2026-07-23
-revision_count: 1
+updated: 2026-08-11
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region]
-related: [canonical-microcircuit, barrel-cortex, somatosensory-cortex, predictive-coding, thalamus, alpha-oscillations, gamma-oscillations, orientation-selectivity, thalamocortical-circuit]
+related: [canonical-microcircuit, barrel-cortex, somatosensory-cortex, predictive-coding, thalamus, alpha-oscillations, gamma-oscillations, orientation-selectivity, thalamocortical-circuit, lissencephaly, cortical-migration-disorders, cortical-neurogenesis]
 prerequisites: [action-potential, synaptic-transmission, cortical-homunculus]
 opens_questions: [Q-cl-01, Q-cl-02, Q-cl-03]
 source_articles: [2026-07-23-cortical-layers-canonical-microcircuit]

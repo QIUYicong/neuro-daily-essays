@@ -9,7 +9,7 @@ created: 2026-08-10
 updated: 2026-08-10
 revision_count: 1
 dimensions: [molecular, cellular, microcircuit, brain-region]
-related: [cortical-interneuron-development, medial-ganglionic-eminence, gaba, pv-interneurons, sst-interneurons, cortical-neurogenesis, axon-guidance]
+related: [cortical-interneuron-development, medial-ganglionic-eminence, gaba, pv-interneurons, sst-interneurons, cortical-neurogenesis, axon-guidance, cortical-migration-disorders, lissencephaly]
 prerequisites: [cortical-neurogenesis, action-potential]
 opens_questions: [Q-interneuron-01]
 source_articles: [2026-08-10-cortical-interneuron-tangential-migration]
@@ -81,7 +81,9 @@ key_sources: ["PMID:15473965", "PMID:18234887", "PMID:18272682", "PMID:17182777"
 ## 修订历史
 
 - 2026-08-10 · 创建 · 基于《皮层的第二种建筑学》(#109) · 初始置信度：高
+- 2026-08-11 · 修订 · 基于《皮层建造的故障报告》(#110) · 新增 cortical-migration-disorders/lissencephaly 连接（切向迁移障碍 vs 放射状迁移障碍并列）
 
 ## 来源文章
 
 - [[2026-08-10-cortical-interneuron-tangential-migration]]
+- [[2026-08-11-lissencephaly-cortical-migration-failure]]

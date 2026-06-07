@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-08-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7789,6 +7789,152 @@
         "2026-08-10-cortical-interneuron-tangential-migration"
       ],
       "coverage": "comprehensive review tangential migration, programmed death, PV maturation"
+    },
+    {
+      "pmid": "23495356",
+      "pmcid": "PMC3593794",
+      "title": "Cytoskeleton in action: lissencephaly",
+      "first_author": "Moon HM",
+      "year": 2013,
+      "journal": "Wiley Interdiscip Rev Dev Biol",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "LIS1 mechanism",
+        "DCX mechanism",
+        "RELN/Dab1 signaling",
+        "microtubule dynamics"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "20688183",
+      "pmcid": "PMC2967611",
+      "title": "Lissencephaly: mechanistic insights from animal models",
+      "first_author": "Wynshaw-Boris A",
+      "year": 2010,
+      "journal": "Semin Cell Dev Biol",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "LIS1/NDEL1/dynein complex",
+        "animal models",
+        "therapeutic strategies"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "28951247",
+      "pmcid": null,
+      "title": "Genetics and mechanisms leading to human cortical malformations",
+      "first_author": "Romero DM",
+      "year": 2018,
+      "journal": "Semin Cell Dev Biol",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "cortical malformation classification",
+        "type I and II lissencephaly"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "18255163",
+      "pmcid": null,
+      "title": "A mechanism for inside-out lamination in the neocortex",
+      "first_author": "Cooper JA",
+      "year": 2008,
+      "journal": "Trends Neurosci",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "Reelin detach-and-go model",
+        "inside-out lamination"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "31022460",
+      "pmcid": null,
+      "title": "Reelin: Diverse roles in CNS development, health and disease",
+      "first_author": "Armstrong NC",
+      "year": 2019,
+      "journal": "Int J Biochem Cell Biol",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "Reelin adult function",
+        "schizophrenia Reelin reduction",
+        "AD"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "12668601",
+      "pmcid": null,
+      "title": "Lissencephaly and the molecular basis of neuronal migration",
+      "first_author": "Kato M",
+      "year": 2003,
+      "journal": "Hum Mol Genet",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "five-gene classification",
+        "genotype-phenotype correlations"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "11754098",
+      "pmcid": null,
+      "title": "Clinical and molecular basis of classical lissencephaly: LIS1 mutations",
+      "first_author": "Cardoso C",
+      "year": 2002,
+      "journal": "Hum Mutat",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "LIS1 mutation spectrum",
+        "dosage effect"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "20980614",
+      "pmcid": null,
+      "title": "Distinct functions of glial and neuronal dystroglycan in brain",
+      "first_author": "Satz JS",
+      "year": 2010,
+      "journal": "J Neurosci",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "cobblestone lissencephaly",
+        "alpha-dystroglycan",
+        "basement membrane"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "30016746",
+      "pmcid": null,
+      "title": "Tubulin genes and malformations of cortical development",
+      "first_author": "Romaniello R",
+      "year": 2018,
+      "journal": "Eur J Med Genet",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "tubulinopathies",
+        "TUBA1A",
+        "polymicrogyria"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "21349848",
+      "pmcid": null,
+      "title": "Disease-associated GPR56 mutations cause bilateral frontoparietal polymicrogyria",
+      "first_author": "Chiang NY",
+      "year": 2011,
+      "journal": "J Biol Chem",
+      "used_in": "2026-08-11",
+      "aspects": [
+        "polymicrogyria",
+        "GPR56/ADGRG1"
+      ],
+      "open_access": false
     }
   ],
   "total_sources": 386,

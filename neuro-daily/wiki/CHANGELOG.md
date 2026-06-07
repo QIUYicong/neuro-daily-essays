@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-08-11 · 文章 #110 · 皮层建造的故障报告：LIS1/DCX/Reelin 突变与无脑回谱系障碍
+
+**核心主题**：I 型无脑回（LIS1 dynein N-C 偶联失败；DCX 微管束化缺陷及 X 染色体随机失活导致双皮层综合征；RELN 终止信号缺失导致层序倒置）；II 型无脑回（α-dystroglycan 糖基化缺陷基底膜破裂过度迁移）；多小脑回（GPR56、tubulinopathies）；三种故障模式揭示 Inside-Out 规则的三个独立模块（迁移机械/导航终止/物理边界）。
+
+**新建页面（3）**：
+- `concepts/lissencephaly.md` rev1 — 无脑回分类（I型/II型）；LIS1 N-C偶联机制；DCX 微管束化+性别二态性表型（SBH）；Reelin/Dab1 终止信号失活层序倒置；α-DG 糖基化缺陷过度迁移；基因治疗前景 (disease, established, confidence:high)
+- `concepts/reelin-signaling.md` rev1 — VLDLR/ApoER2→Dab1磷酸化；PI3K/AKT/GSK3β路径（微管稳定）；LIMK1/cofilin路径（F-actin）；p-Dab1与LIS1的交叉；"脱离并跃迁"模型（Cooper 2008）；成年期突触可塑性功能；精神分裂症/AD连接 (mechanism, established, confidence:high)
+- `concepts/cortical-migration-disorders.md` rev1 — 六类MCD分类（无脑回/双皮层/脑室旁异位/多小脑回/裂脑）；三层独立机制框架（迁移机械/导航终止/物理边界）；与切向迁移障碍的关系 (disease, established, confidence:high)
+
+**修订页面（3）**：
+- `concepts/cortical-neurogenesis.md` rev2→rev3 — related 新增 lissencephaly/reelin-signaling/cortical-migration-disorders；强化 Reelin 在 Inside-Out 终止中的位置
+- `concepts/tangential-migration.md` rev1→rev2 — related 新增 cortical-migration-disorders/lissencephaly（两类迁移障碍并列）
+- `concepts/cortical-layers.md` rev1→rev2 — related 新增 lissencephaly/cortical-migration-disorders/cortical-neurogenesis（六层结构崩溃连接）
+
+**矛盾登记**：无新矛盾（已有矛盾未更新）
+
+**新增悬空引用待补**：无新增（已有遗留悬空引用 `cognition` 仍未填补）
+
+**图谱**：229→232 节点（+3），1302→1324 边（+22）
+
+---
+
 ## 2026-08-10 · 文章 #109 · 皮层的第二种建筑学：GABA 能中间神经元切向迁移与命运决定
 
 **核心主题**：皮层 GABAergic 中间神经元的发育起源（MGE/CGE）、切向迁移（CXCL12/CXCR4 + NRG1/ErbB4）、Nkx2.1→Lhx6 命运决定转录因子接力、程序性细胞死亡筛选 E/I 比（Wong 2018）、PV/SST/VIP 三类分化、精神分裂症/癫痫/ASD 的发育机制联系。**填补图谱悬空引用 `gaba`**。

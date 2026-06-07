@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-10（**第109篇**·皮层的第二种建筑学：GABA 能中间神经元切向迁移与命运决定）· 主题页总数：**217**（新建4页：cortical-interneuron-development、tangential-migration、medial-ganglionic-eminence、gaba；修订5页：pv-interneurons rev5、sst-interneurons rev2、vip-interneurons rev2、cortical-neurogenesis rev2、ei-balance rev2；填补悬空引用 gaba；图谱229节点、1302边）
+> 最后更新：2026-08-11（**第110篇**·皮层建造的故障报告：LIS1/DCX/Reelin 突变与无脑回谱系障碍）· 主题页总数：**220**（新建3页：lissencephaly、reelin-signaling、cortical-migration-disorders；修订3页：cortical-neurogenesis rev3、tangential-migration rev2、cortical-layers rev2；图谱232节点、1324边）
 
 ---
 
@@ -46,6 +46,9 @@
 
 - 🟢 [皮层中间神经元发育](concepts/cortical-interneuron-development.md) — GABA 能中间神经元来自 MGE/CGE，经切向迁移入皮层；Nkx2.1→Lhx6 命运决定；CXCL12/NRG1 导航；30-40% 程序性死亡校准 E/I 比 **[NEW 2026-08-10 #109]**（填补发育系列关键缺口）
 - 🟢 [切向迁移（中间神经元）](concepts/tangential-migration.md) — 盐跃运动；CXCL12/CXCR4 维持流；NRG1/ErbB4 吸引；Semaphorin 排斥；48h 等待期；兴奋性神经元前体"邀请"抑制性细胞的分子握手 **[NEW 2026-08-10 #109]**
+- 🟢 [无脑回（Lissencephaly）](concepts/lissencephaly.md) — LIS1→dynein N-C偶联失败；DCX→微管束化缺陷/X失活双皮层；RELN→终止信号缺失层序倒置；II型→α-DG糖基化缺陷基底膜破裂过度迁移；三种故障揭示 Inside-Out 三独立模块 **[NEW 2026-08-11 #110]**
+- 🟢 [Reelin 信号通路](concepts/reelin-signaling.md) — VLDLR/ApoER2→Dab1磷酸化→PI3K/LIMK1双路径→微管稳定+F-actin调控；"脱离并跃迁"模型；成年期调节AMPA运输/LTP；精神分裂症/AD中Reelin降低 **[NEW 2026-08-11 #110]**
+- 🟢 [皮层迁移障碍（MCD）](concepts/cortical-migration-disorders.md) — 三层独立模块框架（迁移机械/导航终止/物理边界）；六类畸形分类（无脑回/异位/多小脑回/裂脑）；与切向迁移障碍的关系 **[NEW 2026-08-11 #110]**
 - 🟢 [内侧神经节隆起（MGE）](concepts/medial-ganglionic-eminence.md) — 皮层 60% GABA 能中间神经元的诞生地；Nkx2.1 + Lhx6 标记；背侧偏 SST，腹侧偏 PV **[NEW 2026-08-10 #109]**（填补 gaba 悬空引用，建立中间神经元发育的起点节点）
 - 🟢 [GABA（γ-氨基丁酸）](concepts/gaba.md) — 主要抑制性神经递质；GAD65/67 合成；GABA-A（快速 Cl⁻）+ GABA-B（慢速 G 蛋白）受体；发育期去极化→成熟超极化（KCC2 上调）；是 E/I 平衡的分子减法端 **[NEW 2026-08-10 #109]**（填补图谱悬空引用）
 - 🟢 [突触生成](concepts/synaptogenesis.md) — 轴突触碰目标后 NL-NRXN 握手双向触发前后侧装配；兴奋性（PSD-95三层骨架）vs 抑制性（Gephyrin格栅）双轨；活动依赖稳定与修剪；ASD（NLGN3/Shank3突变）的分子入口 **[NEW 2026-08-06 #105]**
