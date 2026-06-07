@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14",
+  "last_updated": "2026-08-17",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8217,9 +8217,138 @@
       ],
       "open_access": true,
       "covers": "ODC in Long-Evans vs albino rats; anatomical ODC pre-eye-opening vs physiological ODP maturation; species comparison"
+    },
+    {
+      "pmid": "1374953",
+      "pmcid": null,
+      "title": "Separate visual pathways for perception and action",
+      "authors": [
+        "Goodale MA",
+        "Milner AD"
+      ],
+      "journal": "Trends in Neurosciences",
+      "year": 1992,
+      "first_used": "2026-08-17",
+      "articles_using": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ],
+      "covers": "双流假说（what/how），D.F.患者腹侧损伤+完整抓握"
+    },
+    {
+      "pmid": "1607944",
+      "pmcid": null,
+      "title": "Microstimulation in visual area MT: effects on direction discrimination performance",
+      "authors": [
+        "Salzman CD",
+        "Murasugi CM",
+        "Britten KH",
+        "Newsome WT"
+      ],
+      "journal": "Journal of Neuroscience",
+      "year": 1992,
+      "first_used": "2026-08-17",
+      "articles_using": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ],
+      "covers": "MT微电刺激影响感知判断，MT运动感知的因果证据"
+    },
+    {
+      "pmid": "3385495",
+      "pmcid": null,
+      "title": "A selective impairment of motion perception following lesions of the middle temporal visual area (MT)",
+      "authors": [
+        "Newsome WT",
+        "Paré EB"
+      ],
+      "journal": "Journal of Neuroscience",
+      "year": 1988,
+      "first_used": "2026-08-17",
+      "articles_using": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ],
+      "covers": "MT损毁→选择性运动感知缺陷，亮度感知正常"
+    },
+    {
+      "pmid": "1875243",
+      "pmcid": null,
+      "title": "Sensitivity of MST neurons to optic flow stimuli. I. A continuum of response selectivity to large-field stimuli",
+      "authors": [
+        "Duffy CJ",
+        "Wurtz RH"
+      ],
+      "journal": "Journal of Neurophysiology",
+      "year": 1991,
+      "first_used": "2026-08-17",
+      "articles_using": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ],
+      "covers": "MSTd神经元对光流成分调谐，自身运动感知"
+    },
+    {
+      "pmid": "11600651",
+      "pmcid": null,
+      "title": "Neural basis of a perceptual decision in the parietal cortex (area LIP) of the rhesus monkey",
+      "authors": [
+        "Shadlen MN",
+        "Newsome WT"
+      ],
+      "journal": "Journal of Neurophysiology",
+      "year": 2001,
+      "first_used": "2026-08-17",
+      "articles_using": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ],
+      "covers": "LIP斜坡活动与感知决策，漂移扩散模型神经实现"
+    },
+    {
+      "pmid": "17600525",
+      "pmcid": null,
+      "title": "The neural basis of decision making",
+      "authors": [
+        "Gold JI",
+        "Shadlen MN"
+      ],
+      "journal": "Annual Review of Neuroscience",
+      "year": 2007,
+      "first_used": "2026-08-17",
+      "articles_using": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ],
+      "covers": "MT→LIP决策通路综述，漂移扩散模型在神经科学中的应用"
+    },
+    {
+      "pmid": "28196647",
+      "pmcid": null,
+      "title": "The dorsal visual stream revisited: Stable circuits or dynamic pathways?",
+      "authors": [
+        "Galletti C",
+        "Fattori P"
+      ],
+      "journal": "Cortex",
+      "year": 2018,
+      "first_used": "2026-08-17",
+      "articles_using": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ],
+      "covers": "背侧流双子通路（背外侧/背内侧），动态网络观"
+    },
+    {
+      "pmid": "31293393",
+      "pmcid": "PMC6598444",
+      "title": "Pattern Motion Processing by MT Neurons",
+      "authors": [
+        "Eskikand Z et al."
+      ],
+      "journal": "Frontiers in Computational Neuroscience",
+      "year": 2019,
+      "first_used": "2026-08-17",
+      "articles_using": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ],
+      "covers": "MT光圈问题解决机制，模式细胞vs分量细胞"
     }
   ],
-  "total_sources": 455,
+  "total_sources": 475,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

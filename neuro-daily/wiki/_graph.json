@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-16",
+  "updated": "2026-08-17",
   "node_count": 244,
   "edge_count": 1386,
   "edge_types": [
@@ -2209,6 +2209,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/face-patch-system.md"
+    },
+    {
+      "id": "dorsal-visual-stream",
+      "title": "背侧视觉流",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/dorsal-visual-stream.md"
+    },
+    {
+      "id": "area-MT-V5",
+      "title": "中颞区（MT/V5）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/area-MT-V5.md"
+    },
+    {
+      "id": "mst-medial-superior-temporal",
+      "title": "内上颞区（MST）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/mst-medial-superior-temporal.md"
+    },
+    {
+      "id": "lip-lateral-intraparietal",
+      "title": "顶内沟外侧区（LIP）",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/systems/lip-lateral-intraparietal.md"
     }
   ],
   "edges": [
@@ -9661,6 +9697,72 @@
       "to": "inferior-temporal-cortex",
       "type": "regulates",
       "note": "视觉经验通过活动依赖机制精化 IT 皮层的选择性调谐"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "area-MT-V5",
+      "type": "supports",
+      "note": "V1 方向选择性神经元为 MT 提供主要运动输入"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "dorsal-visual-stream",
+      "type": "part-of",
+      "note": "V1 是背侧流的起点"
+    },
+    {
+      "from": "area-MT-V5",
+      "to": "dorsal-visual-stream",
+      "type": "part-of",
+      "note": "MT/V5 是背侧流的核心运动提取节点"
+    },
+    {
+      "from": "area-MT-V5",
+      "to": "mst-medial-superior-temporal",
+      "type": "supports",
+      "note": "MT 方向和速度信号输入到 MST 进行光流整合"
+    },
+    {
+      "from": "area-MT-V5",
+      "to": "lip-lateral-intraparietal",
+      "type": "supports",
+      "note": "MT 差分运动证据作为 LIP 决策积分的输入"
+    },
+    {
+      "from": "mst-medial-superior-temporal",
+      "to": "dorsal-visual-stream",
+      "type": "part-of",
+      "note": "MST 是背侧流的光流解析节点"
+    },
+    {
+      "from": "mst-medial-superior-temporal",
+      "to": "lip-lateral-intraparietal",
+      "type": "supports",
+      "note": "MST 自身运动信号输入到 LIP"
+    },
+    {
+      "from": "lip-lateral-intraparietal",
+      "to": "dorsal-visual-stream",
+      "type": "part-of",
+      "note": "LIP 是背侧流的决策整合终点"
+    },
+    {
+      "from": "dorsal-visual-stream",
+      "to": "inferior-temporal-cortex",
+      "type": "related",
+      "note": "背侧流（how）与腹侧流（what）互补双流"
+    },
+    {
+      "from": "ocular-dominance-columns",
+      "to": "area-MT-V5",
+      "type": "prerequisite-for",
+      "note": "V1 的眼优势柱发育为 MT 提供有序的双眼输入"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "area-MT-V5",
+      "type": "supports",
+      "note": "LGN 大细胞层旁路直接投射到 MT（绕过 V1 的平行通路）"
     }
   ],
   "dangling_references": [

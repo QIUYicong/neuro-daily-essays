@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-17",
+  "real_date": "2026-06-07",
+  "article_slug": "dorsal-visual-stream-MT-V5-motion-space",
+  "topic": "背侧视觉流：MT/V5、MST、LIP 与运动感知、自身运动、感知决策",
+  "sources": [
+    {
+      "id": "S1",
+      "type": "journal_article",
+      "pmid": "1374953",
+      "pmcid": null,
+      "doi": "10.1016/0166-2236(92)90344-8",
+      "citation": "Goodale MA, Milner AD (1992). Separate visual pathways for perception and action. Trends Neurosci 15(1):20-25.",
+      "open_access": "abstract_only",
+      "used_for": "双流假说（what/how 的区分）、D.F. 患者证据",
+      "content_read": "abstract_and_summary"
+    },
+    {
+      "id": "S2",
+      "type": "journal_article",
+      "pmid": "1607944",
+      "pmcid": "PMC open via J Neurosci 1992",
+      "doi": "10.1523/JNEUROSCI.12-06-02331.1992",
+      "citation": "Salzman CD, Murasugi CM, Britten KH, Newsome WT (1992). Microstimulation in visual area MT: effects on direction discrimination performance. J Neurosci 12(6):2331-2355.",
+      "open_access": "full_text_available",
+      "used_for": "MT 微电刺激影响感知判断的因果证据",
+      "content_read": "abstract_and_summary"
+    },
+    {
+      "id": "S3",
+      "type": "journal_article",
+      "pmid": "3385495",
+      "pmcid": null,
+      "doi": "10.1523/JNEUROSCI.08-06-02201.1988",
+      "citation": "Newsome WT, Paré EB (1988). A selective impairment of motion perception following lesions of the middle temporal visual area (MT). J Neurosci 8(6):2201-2211.",
+      "open_access": "full_text_available",
+      "used_for": "MT 损毁导致选择性运动感知缺陷",
+      "content_read": "abstract_and_summary"
+    },
+    {
+      "id": "S4",
+      "type": "journal_article",
+      "pmid": "1875243",
+      "pmcid": null,
+      "doi": "10.1152/jn.1991.65.6.1329",
+      "citation": "Duffy CJ, Wurtz RH (1991). Sensitivity of MST neurons to optic flow stimuli. I. A continuum of response selectivity to large-field stimuli. J Neurophysiol 65(6):1329-45.",
+      "open_access": "abstract_only",
+      "used_for": "MST 神经元对光流的调谐，支持自身运动感知",
+      "content_read": "abstract_only",
+      "note": "未读取全文"
+    },
+    {
+      "id": "S5",
+      "type": "journal_article",
+      "pmid": "11600651",
+      "pmcid": null,
+      "doi": "10.1152/jn.2001.86.4.1916",
+      "citation": "Shadlen MN, Newsome WT (2001). Neural basis of a perceptual decision in the parietal cortex (area LIP) of the rhesus monkey. J Neurophysiol 86(4):1916-36.",
+      "open_access": "full_text_available",
+      "used_for": "LIP 斜坡活动与感知决策证据积累",
+      "content_read": "abstract_and_summary"
+    },
+    {
+      "id": "S6",
+      "type": "review_article",
+      "pmid": "17600525",
+      "pmcid": "PMC available",
+      "doi": "10.1146/annurev.neuro.29.051605.113038",
+      "citation": "Gold JI, Shadlen MN (2007). The neural basis of decision making. Annu Rev Neurosci 30:535-574.",
+      "open_access": "full_text_available",
+      "used_for": "MT→LIP 决策通路综述，漂移扩散模型",
+      "content_read": "abstract_and_summary"
+    },
+    {
+      "id": "S7",
+      "type": "review_article",
+      "pmid": "28196647",
+      "pmcid": null,
+      "doi": "10.1016/j.cortex.2017.02.011",
+      "citation": "Galletti C, Fattori P (2018). The dorsal visual stream revisited: Stable circuits or dynamic pathways? Cortex 98:203-217.",
+      "open_access": "abstract_only",
+      "used_for": "背侧流双子流结构（背外侧 vs 背内侧），动态网络观",
+      "content_read": "abstract_only",
+      "note": "未读取全文"
+    },
+    {
+      "id": "S8",
+      "type": "case_report_review",
+      "pmid": null,
+      "doi": null,
+      "citation": "Zihl J, von Cramon D, Mai N (1983). Selective disturbance of movement vision after bilateral brain damage. Brain 106:313-340.",
+      "open_access": "abstract_only",
+      "used_for": "患者 L.M. 运动失认症（akinetopsia）案例",
+      "content_read": "secondary_sources",
+      "note": "1983年文献无PMID；通过二手综述获取信息（PMID:2043951）"
+    },
+    {
+      "id": "S9",
+      "type": "journal_article",
+      "pmid": "31293393",
+      "pmcid": "PMC6598444",
+      "doi": "10.3389/fncom.2019.00049",
+      "citation": "Eskikand Z et al. (2019). Pattern Motion Processing by MT Neurons. Front Comput Neurosci 13:49.",
+      "open_access": "full_text_available",
+      "used_for": "MT 光圈问题解决机制，模式细胞 vs 分量细胞",
+      "content_read": "abstract_and_key_results"
+    },
+    {
+      "id": "S10",
+      "type": "journal_article",
+      "pmid": "15702885",
+      "pmcid": null,
+      "doi": null,
+      "citation": "Riecanský I (2004). Extrastriate area V5 (MT) and its role in the processing of visual motion. Cesk Fysiol 53(1):17-22.",
+      "open_access": "abstract_only",
+      "used_for": "MT/V5 功能综述背景",
+      "content_read": "abstract_only",
+      "note": "未读取全文"
+    }
+  ],
+  "sources_count": 10,
+  "open_full_text_count": 4,
+  "abstract_only_count": 4,
+  "secondary_sources_count": 1,
+  "official_institution_count": 0,
+  "meets_minimum_requirements": true,
+  "notes": "≥5 来源（10个）✓；≥2 开放全文（4个）✓；≥1 综述+原始研究搭配 ✓；无 Sci-Hub 或盗版 ✓"
+}

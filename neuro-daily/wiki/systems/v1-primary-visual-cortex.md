@@ -6,10 +6,10 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-08-16
-revision_count: 6
+updated: 2026-08-17
+revision_count: 7
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons, v4-visual-area, inferior-temporal-cortex, invariant-object-recognition]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons, v4-visual-area, inferior-temporal-cortex, invariant-object-recognition, area-MT-V5, dorsal-visual-stream]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
 source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-15-ocular-dominance-columns-visual-critical-period]
@@ -148,6 +148,7 @@ V1 Layer 4 是双眼输入竞争的主战场。在猫和灵长类中，来自左
 
 ## 修订历史
 
+- 2026-08-17 · 修订 rev7 · 基于《大脑的运动侦探》(#116) · related 新增 area-MT-V5, dorsal-visual-stream（V1 作为背侧流起点，MT 接收 V1 方向选择性信号）
 - 2026-08-16 · 修订 rev6 · 基于《从线条到身份》(#115) · related 新增 v4-visual-area, inferior-temporal-cortex, invariant-object-recognition（V1 作为腹侧流起点，现与 V4/IT 层级连接显式链接）
 - 2026-08-15 · 修订 rev5 · 基于《左眼还是右眼：眼优势柱》(#114) · 新增"眼优势柱与 ODP"小节；related 新增 ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons；key_sources 新增 PMID:22841309, PMID:32765222, PMID:23975100
 - 2026-06-11 · 创建 · 基于《V1初级视觉皮层的方向选择性》一文 · 初始置信度：高

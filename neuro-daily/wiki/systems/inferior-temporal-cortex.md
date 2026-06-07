@@ -9,7 +9,7 @@ created: 2026-08-16
 updated: 2026-08-16
 revision_count: 1
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [v4-visual-area, v1-primary-visual-cortex, face-patch-system, invariant-object-recognition, prefrontal-cortex, amygdala, entorhinal-cortex]
+related: [v4-visual-area, v1-primary-visual-cortex, face-patch-system, invariant-object-recognition, prefrontal-cortex, amygdala, entorhinal-cortex, dorsal-visual-stream, area-MT-V5]
 prerequisites: [v1-primary-visual-cortex, v4-visual-area, action-potential]
 opens_questions: [Q-it-01, Q-it-02, Q-it-03]
 source_articles: [2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition]

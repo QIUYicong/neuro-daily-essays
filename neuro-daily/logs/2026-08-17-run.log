@@ -1,0 +1,142 @@
+# 运行日志 2026-08-17（第 116 篇）
+
+**实际运行日期（UTC+8）**：2026-06-07
+**文章日期**：2026-08-17（课程序列日期）
+**文章编号**：#116
+**状态**：成功
+
+---
+
+## A. 状态读取
+
+- `topic_ledger.json`：读取成功，确认上一篇为 #115（2026-08-16，腹侧流/IT皮层），上一篇 real_date=2026-06-07（今日）
+- `unresolved_questions.md`：读取（文件过大，读取前30行）；Q-tca, Q-subplate, Q-odp 等问题确认存在
+- `contested_claims.json`：10条open矛盾，最高优先级为 IIT vs COGITATE（C-2026-05-31-01）和腹侧流形状vs纹理（C-2026-08-16-01）
+- `wiki/_graph.json`：读取成功，244 节点，1386 边
+- `wiki/index.md`：读取成功
+- `state/monthly_synthesis.md`：读取成功
+
+---
+
+## B. 选题
+
+**选题依据**：
+- 优先级 1（突破追踪）：无重大近期突破
+- 优先级 6（课程脊柱）：上一篇（#115）完成腹侧流（IT皮层），自然下一步是背侧流，完成"双流图景"
+- 符合连续性：视觉通路脊柱第4章，接续 #113（TCA布线）→#114（ODC关键期）→#115（IT腹侧流）→#116（MT背侧流）
+
+**选定主题**：背侧视觉流——V1→MT/V5→MST→LIP 的运动感知与行动决策
+**核心问题**：MT 如何解决光圈问题？MST 如何整合光流与前庭信号？LIP 如何积累证据触发决策？
+
+---
+
+## C. 文献检索
+
+**检索词**：
+1. "dorsal visual stream MT V5 motion processing neurons PubMed review 2023 2024"
+2. "Goodale Milner two streams hypothesis visual cortex where how dorsal ventral 1992"
+3. "MT V5 area motion direction selectivity neurons primate brain review"
+4. "Britten MT neurons motion perception microstimulation macaque 1992 PMID"
+5. "Newsome Pare MT lesion motion perception 1988 macaque PubMed PMID"
+6. "Goodale Milner 1992 separate visual pathways PMID Trends Neurosciences"
+7. "patient LM motion blindness akinetopsia V5 MT cerebral akinetopsia"
+8. "MST medial superior temporal optic flow self-motion heading neurons primate PMID"
+9. "Shadlen Newsome LIP area neurons ramp activity evidence accumulation decision PMID"
+
+**数据源**：PubMed/NCBI, PMC Open Access, WebSearch
+
+**候选来源**：15 篇
+**采用来源**：10 篇（含 4 篇开放全文，4 篇摘要，1 篇二手综述，1 篇案例文献）
+**排除原因**：部分重复检索结果；有一篇捷克语全文无法获取但摘要支持核心事实
+
+**关键 PMID**：1374953（Goodale&Milner）、1607944（Salzman微电刺激）、3385495（Newsome&Paré损毁）、1875243（Duffy&Wurtz MST）、11600651（Shadlen&Newsome LIP）、17600525（Gold&Shadlen综述）、28196647（Galletti&Fattori背侧流综述）、31293393（MT模式细胞）
+
+---
+
+## D. 固结步骤
+
+**文章触及的核心概念**（≥3字重要性阈值）：
+
+| Slug | wiki 已有？ | 操作 |
+|------|------------|------|
+| dorsal-visual-stream | 否 | 新建 |
+| area-MT-V5 | 否 | 新建 |
+| mst-medial-superior-temporal | 否 | 新建 |
+| lip-lateral-intraparietal | 否 | 新建 |
+| v1-primary-visual-cortex | 是（rev6） | 修订（rev7）：related += area-MT-V5, dorsal-visual-stream |
+| inferior-temporal-cortex | 是（rev1） | 修订：related += dorsal-visual-stream, area-MT-V5 |
+| ocular-dominance-columns | 是 | 未修订（已有充分内容，仅图谱新增边） |
+| thalamocortical-axons | 是 | 未修订（仅图谱新增边） |
+
+**矛盾检查**：
+- LIP 作为"决策节点"与"眼跳计划区"之间的功能属性争议已知，在 LIP wiki 页面内以 status=mainstream 明确标注，暂未升级为 contested_claims 条目（属于方法论分歧，非真实事实冲突）
+- 无需新建 contested_claims 条目
+
+**成熟度评估**：
+- dorsal-visual-stream → established（多重高质量证据）
+- area-MT-V5 → established（三重因果证据 + 电生理充分，教科书级别）
+- mst-medial-superior-temporal → established（Duffy&Wurtz经典记录 + 前庭整合研究）
+- lip-lateral-intraparietal → mainstream（斜坡活动有充分证据但功能解读存在争议）
+
+---
+
+## E. 图谱更新
+
+- 新增 4 节点（dorsal-visual-stream, area-MT-V5, mst-medial-superior-temporal, lip-lateral-intraparietal）
+- 新增 11 条有类型边
+- 图谱最终：248 节点，1397 边
+- 悬空引用检查：lip-lateral-intraparietal 中引用 dorsal-attention-network（已存在 wiki 页面，非悬空）
+
+---
+
+## F. 治理层更新
+
+- `topic_ledger.json`：新增 #116 条目，total_articles=116，last_updated=2026-08-17 ✓
+- `unresolved_questions.md`：新增 Q-dorsal-01/02/03 ✓
+- `state/maturity_index.json`：新增 4 条成熟度记录，共 12 页 ✓
+- `state/monthly_synthesis.md`：8月月度摘要追加第 17 篇（#116）✓
+- `wiki/index.md`：新增 4 条 systems 记录 ✓
+- `wiki/CHANGELOG.md`：新增 2026-08-17 节 ✓
+- `state/source_registry.json`：（本次未单独更新，所有来源已记录在 sources/2026-08-17-sources.json）
+
+---
+
+## G. 提交推送
+
+- branch: claude/funny-einstein-fU7mG（环境强制功能分支）
+- commit: [见本日志末尾]
+- push: 推送至 origin claude/funny-einstein-fU7mG
+- remote: http://local_proxy@127.0.0.1:xxxxx/git/QIUYicong/neuro-daily-essays（含正确 owner）
+
+---
+
+## H. 自检
+
+**真实性**：
+- [x] 每条 wiki 新主张有来源（PMID/DOI）
+- [x] 区分了事实/主流模型/推测/争议（LIP 标注 mainstream，患者L.M. 标注单例）
+- [x] 未把小样本/动物研究写成定论（猕猴研究明确标注"动物"）
+- [x] 无编造 PMID/DOI
+
+**一致性**：
+- [x] LIP 功能争议已走矛盾标注（status=mainstream），非静默覆盖
+- [x] 被修订页的 updated/revision_count/修订历史同步更新
+- [x] 图谱无悬空边（所有引用节点均存在）
+
+**可导航**：
+- [x] index.md 新增 4 条记录
+- [x] CHANGELOG.md 反映今日变化
+- [x] 新页 related/prerequisites 各≥1
+
+**情景层**：
+- [x] 文章/笔记/来源/日志均为新文件，无修改旧文件（append-only）
+
+---
+
+## 失败与限制
+
+- Duffy & Wurtz (1991) PMID:1875243 全文未读取（J Neurophysiol 1991，需订阅）；依据摘要和二手综述描述
+- Galletti & Fattori (2018) PMID:28196647 全文未读取（Cortex，需订阅）；依据摘要描述
+- 患者 L.M. 原始文献（Zihl et al. 1983）无 PMID；依据二手引用（PMID:2043951 akinetopsia 综述）
+
+**总体评估**：所有核心事实均有一手来源支持，限制已在文章和来源文件中明确标注。

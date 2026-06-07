@@ -75,9 +75,57 @@
       "last_changed": "2026-08-16",
       "change_reason": "新建（#115）：猕猴 6 个面孔块由 fMRI + 单神经元记录双重验证（Tsao 2003, Freiwald & Tsao 2010）；视角特异→视角不变梯度证据强；人类对应关系待解（Q-it-03）",
       "prior_status": null
+    },
+    {
+      "slug": "dorsal-visual-stream",
+      "title": "背侧视觉流",
+      "domain": "systems",
+      "current_status": "established",
+      "confidence": "high",
+      "last_change": "2026-08-17",
+      "change_reason": "创建。Goodale-Milner 1992框架，MT/MST/LIP三级层次均有多重高质量证据支持。",
+      "source_articles": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ]
+    },
+    {
+      "slug": "area-MT-V5",
+      "title": "中颞区（MT/V5）",
+      "domain": "systems",
+      "current_status": "established",
+      "confidence": "high",
+      "last_change": "2026-08-17",
+      "change_reason": "创建。三重因果证据（病变/微电刺激/患者L.M.）+ 电生理表征充分，教科书级别。",
+      "source_articles": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ]
+    },
+    {
+      "slug": "mst-medial-superior-temporal",
+      "title": "内上颞区（MST）",
+      "domain": "systems",
+      "current_status": "established",
+      "confidence": "high",
+      "last_change": "2026-08-17",
+      "change_reason": "创建。光流调谐和自身运动感知有充分电生理证据；多模态整合有行为实验支持。",
+      "source_articles": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ]
+    },
+    {
+      "slug": "lip-lateral-intraparietal",
+      "title": "顶内沟外侧区（LIP）",
+      "domain": "systems",
+      "current_status": "mainstream",
+      "confidence": "medium",
+      "last_change": "2026-08-17",
+      "change_reason": "创建。LIP斜坡活动有充分证据，但'决策节点 vs 眼跳计划区'争议未止，故status=mainstream，confidence=medium。",
+      "source_articles": [
+        "2026-08-17-dorsal-visual-stream-MT-V5-motion-space"
+      ]
     }
   ],
-  "last_updated": "2026-08-16",
+  "last_updated": "2026-08-17",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -95,5 +143,6 @@
       "last_changed": "2026-08-14",
       "reason": "创建（#113）：下板存在与功能有充分组织学和遗传学证据；停止/放行信号身份尚不明确（Q-tca-01）但整体地位established"
     }
-  ]
+  ],
+  "total_pages": 12
 }

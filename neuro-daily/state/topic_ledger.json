@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-16",
-  "total_articles": 115,
+  "last_updated": "2026-08-17",
+  "total_articles": 116,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7300,6 +7300,87 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-07（真实执行日期）；知识库虚拟日期2026-08-16；文章延续视觉系统脊柱，衔接 V1/ODC#114 向高级视觉区推进；7个来源开放全文，4个摘要仅读；1个新矛盾登记（形状 vs 纹理 debate）；4个新wiki页创建；1个wiki页修订"
+    },
+    {
+      "date": "2026-08-17",
+      "real_date": "2026-06-07",
+      "article_number": 116,
+      "title": "大脑的运动侦探：背侧视觉流如何从光影变化中提取运动方向、空间坐标与行动决策",
+      "slug": "dorsal-visual-stream-MT-V5-motion-space",
+      "filename": "2026-08-17-dorsal-visual-stream-MT-V5-motion-space.md",
+      "article_type": "regular",
+      "core_question": "从 V1 出发，背侧视觉流（V1→MT/V5→MST→LIP/VIP→顶叶）用什么神经计算原理在几十毫秒内将视网膜光影变化翻译成物体运动方向、自身运动（光流与航向）与感知决策？MT 如何解决光圈问题？MST 如何整合光流与前庭信号？LIP 如何将感觉证据积累成决策信号？",
+      "layer": [
+        "brain-region",
+        "systems",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（视觉通路脊柱第4章：背侧流 — 继IT/腹侧流#115之后，完成双流图景；运动感知→光流→决策积分）",
+      "topic_tags": [
+        "dorsal visual stream",
+        "ventral visual stream",
+        "two-stream hypothesis",
+        "Goodale Milner",
+        "area MT",
+        "V5",
+        "middle temporal area",
+        "motion perception",
+        "direction selectivity",
+        "aperture problem",
+        "pattern cells",
+        "component cells",
+        "akinetopsia",
+        "patient LM",
+        "MST",
+        "medial superior temporal",
+        "optic flow",
+        "heading direction",
+        "self-motion",
+        "egomotion",
+        "LIP",
+        "lateral intraparietal",
+        "drift diffusion model",
+        "ramping activity",
+        "evidence accumulation",
+        "perceptual decision-making",
+        "speed-accuracy tradeoff",
+        "visual motion",
+        "microstimulation",
+        "MT lesion",
+        "visuomotor control",
+        "spatial attention"
+      ],
+      "main_sources": [
+        "PMID:1374953",
+        "PMID:1607944",
+        "PMID:3385495",
+        "PMID:1875243",
+        "PMID:11600651",
+        "PMID:17600525",
+        "PMID:28196647",
+        "PMID:31293393"
+      ],
+      "unresolved_questions": [
+        "Q-dorsal-01",
+        "Q-dorsal-02",
+        "Q-dorsal-03"
+      ],
+      "next_suggested_topics": [
+        "深度感知与立体视觉（Binocular Disparity）：MT 视差调谐如何支撑立体视觉？V1/V4/MT 中的双眼视差编码层级",
+        "多感觉整合（Multisensory Integration）：视觉-前庭整合的贝叶斯框架——MSTd/VIP 如何权重整合冲突信号？",
+        "运动与深度知觉：运动视差（motion parallax）与结构-运动（Structure from Motion，SfM）的皮层计算"
+      ],
+      "wiki_pages_created": [
+        "dorsal-visual-stream",
+        "area-MT-V5",
+        "mst-medial-superior-temporal",
+        "lip-lateral-intraparietal"
+      ],
+      "wiki_pages_revised": [
+        "v1-primary-visual-cortex",
+        "inferior-temporal-cortex"
+      ]
     }
   ],
   "layer_coverage_recent": {

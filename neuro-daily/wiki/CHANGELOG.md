@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-08-17（文章 #116 — 背侧视觉流：MT/V5、MST、LIP 的运动感知与行动决策）
+
+**新建页面（4 页）**：
+- `wiki/systems/dorsal-visual-stream.md`：背侧流"how"定位（Goodale-Milner 1992 框架）；三级计算层级（MT→MST→LIP）；双子通路（背外侧：MT→MST→VIP；背内侧：V6A→MIP）；动态网络而非固定层级；临床双分离（D.F. vs L.M.）
+- `wiki/systems/area-MT-V5.md`：MT/V5 方向选择性（>90%神经元）；速度调谐；双眼视差；光圈问题解决（模式细胞 vs 分量细胞）；三条因果证据（病变/微电刺激/患者L.M.运动失认症）；方向柱组织
+- `wiki/systems/mst-medial-superior-temporal.md`：MSTd 大感受野光流调谐（扩张/旋转/平动）；三维航向提取；视觉-前庭双模态整合（64% 神经元前庭调谐）；MSTl vs MSTd 功能分离
+- `wiki/systems/lip-lateral-intraparietal.md`：LIP 斜坡活动（ramping activity）；与漂移扩散模型的定量对应；速度-准确性权衡的神经实现；争议：决策节点 vs 眼跳计划区（status=mainstream）
+
+**修订页面（2 页）**：
+- `wiki/systems/v1-primary-visual-cortex.md`（rev7）：related 新增 area-MT-V5, dorsal-visual-stream，显式链接 V1 作为背侧流起点
+- `wiki/systems/inferior-temporal-cortex.md`（元数据补丁）：related 新增 dorsal-visual-stream, area-MT-V5，完成腹侧-背侧双流对称连接
+
+**图谱更新**：新增 4 节点（dorsal-visual-stream, area-MT-V5, mst-medial-superior-temporal, lip-lateral-intraparietal），新增 11 条有类型边；图谱总节点 248，总边 1397
+
+**新登记的未解问题**：
+- Q-dorsal-01（中）：MSTd 的前庭-视觉整合具体机制？冲突时如何权重？
+- Q-dorsal-02（高）：LIP 斜坡活动的细胞机制（内部积分 vs 持续外部输入）？
+- Q-dorsal-03（中）：两条背侧子通路（背外侧 vs 背内侧）如何协调？
+
+**新登记的矛盾**：
+- 无（LIP 争议已在页面内以 status=mainstream 标注，暂未升级为 contested_claims 条目，因争议尚属方法论分歧而非真实分歧）
+
+---
+
 ## 2026-08-16（文章 #115 — 腹侧视觉流与颞下皮层不变量物体识别）
 
 **新建页面（4 页）**：
