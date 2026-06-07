@@ -74,8 +74,9 @@
 
 ## Git 操作
 - 分支：claude/funny-einstein-POWo7
+- commit hash：998bcad0f46319879906b9d5f59f1cb52a9394ed
 - commit message：Add neuro daily article + wiki consolidation for 2026-08-20
-- push：待执行
+- push：✅ 成功推送至 origin/claude/funny-einstein-POWo7（新分支）
 
 ## 失败与限制
 - Giraud & Poeppel (2012) Nature Neuroscience 付费墙，仅使用摘要；已在文章和sources.json中明确标注
