@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-08-19（文章 #101 — 鸡尾酒会问题：听觉景观分析的神经机制）
+
+**新建页面（2 页）**：
+- `wiki/systems/auditory-scene-analysis.md`：A1全景代表+适应性增益调节+种群分离底层机制；A1→Belt→Parabelt→STG层级流分割放大；Mesgarani & Chang 2012 ECoG直接证明STG选择性表征被关注说话人；时间相干性绑定原理（Shamma 2011）；右TPJ是注意控制→听觉皮层的接口；双稳态感知（ABA双稳）；老年性ASA衰退的三瓶颈假说
+- `wiki/concepts/temporal-coherence.md`：沙玛等人2011时间相干性理论；同步波动特征→同源→绑定为同一流；注意是相干性检测的增益控制；心理物理预测力强；神经实现机制（伽马振荡/循环连接/侧抑制）待直接验证；status=emerging
+
+**修订页面（2 页）**：
+- `wiki/systems/auditory-cortex.md`（rev4）：新增"听觉景观分析角色"节（A1全景代表角色、适应性增益调节、种群分离模型）；related 补充 auditory-scene-analysis, temporal-coherence；key_sources 补充 PMID:28821680/36049112/32273487
+- `wiki/systems/auditory-dual-stream.md`（rev2）：新增"双流的前序"节（ASA是双流前端基础设施，STG是两者共享界面）；related 补充 auditory-scene-analysis
+
+**图谱更新**：新增 2 节点（auditory-scene-analysis, temporal-coherence），新增 11 条有类型边；图谱总节点 251，总边 1416
+
+**矛盾登记**：无新矛盾（temporal-coherence与现有auditory-cortex内容一致，作为新增理论节点）
+
+**新增悬空引用（待填补）**：`selective-attention`（被 auditory-scene-analysis 引用，图谱中有节点但wiki页面可能需扩充）；`auditory-streaming`（流分割现象的独立页面，目前合并在auditory-scene-analysis中）
+
+---
+
 ## 2026-08-18（文章 #100 — 听觉皮层双流架构：从耳蜗到语言）
 
 **新建页面（1 页）**：

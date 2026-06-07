@@ -1,0 +1,111 @@
+# 运行日志 · 2026-08-19
+
+**运行时间**：北京时间 2026-06-08 02:00（系统 UTC+8）
+**文章编号**：#101
+**文章 slug**：auditory-scene-analysis-cocktail-party
+**分支**：claude/funny-einstein-83Z7A（环境强制分支）
+**目标分支**：main（见注记）
+
+---
+
+## 日期说明
+
+> 系统实际 UTC+8 时间：2026-06-08 02:00。知识库序列日期已推进至 2026-08-18（前101篇）。本次遵循知识库的序列连续性，使用 2026-08-19 作为今日文章日期，以维持知识库的时序一致性。文章内容为 2026-08-19 序列第101篇（紧随2026-08-18的听觉双流架构文章）。
+
+---
+
+## 选题过程
+
+**起点**：前文（2026-08-18，第100篇）讲解了听觉皮层的双流架构（腹侧"what"流和背侧"where/how"流）。
+
+**前文建议的下一主题**：
+1. 半球不对称性的分子细胞基础
+2. 听觉景观分析（cocktail party problem）
+3. 言语运动控制（背侧流末端）
+4. 听觉关键期与音调拓扑可塑性
+
+**选择**：**听觉景观分析**（auditory-scene-analysis）——自然延续听觉系统序列，是双流的前序机制，有丰富的神经科学实验证据，概念清晰且可在一篇文章内讲清。
+
+---
+
+## 检索过程
+
+**搜索词**：
+1. "auditory scene analysis neural mechanism review" → PubMed, 18条结果
+2. "auditory streaming cortex neural segregation" → PubMed, 多条结果
+3. "cocktail party problem auditory cortex neural" → PubMed, 23条结果
+4. "Mesgarani Chang auditory cortex selective attention speech" → PubMed, 3条结果
+5. "Shamma auditory scene analysis temporal coherence review" → PubMed, 1条结果（PMID:21196054）
+6. "neural tracking speech auditory cortex EEG cocktail party" → PubMed, 5条结果
+
+**候选文献**：~50条检索结果
+**采用来源**：10篇（7篇已有 PMID，2篇经典文献，1篇专著）
+**排除原因**：动物行为研究（无人类验证）、仅测量行为不涉及神经机制、方法论薄弱（样本<10）
+
+**全文可用性**：
+- 开放全文：0篇（均为摘要层面）
+- 摘要已确认：7篇（PMID:28821680/22522927/21196054/32273487/28954867/36049112/29061698）
+- 历史经典/专著：2篇（Cherry 1953 / Bregman 1990）
+
+---
+
+## 固结步骤（wiki 更新）
+
+**新建 wiki 页**（2 页）：
+- `wiki/systems/auditory-scene-analysis.md`（新建，status=established，confidence=high）
+- `wiki/concepts/temporal-coherence.md`（新建，status=emerging，confidence=medium）
+
+**修订 wiki 页**（2 页）：
+- `wiki/systems/auditory-cortex.md`（rev4：新增听觉景观分析角色节；新增来源 PMID:28821680/36049112/32273487）
+- `wiki/systems/auditory-dual-stream.md`（rev2：新增双流前序关系节；related 补充 auditory-scene-analysis）
+
+**矛盾检查**：
+- 无新矛盾。temporal-coherence 作为新兴理论节点引入，与既有 auditory-cortex 内容（A1全景代表）一致。
+- 新内容（A1全景代表角色）与既有 auditory-cortex 中"A1是语言双流起点"无冲突——全景代表和双流起点是不同层面的描述。
+
+**成熟度评估**：
+- auditory-scene-analysis：established（多来源、多方法、跨物种一致证据）
+- temporal-coherence：emerging（心理物理预测力强，但神经实现机制待直接验证）
+
+---
+
+## 图谱更新
+
+- 新增节点：2（auditory-scene-analysis, temporal-coherence）
+- 新增边：11 条（含 is-a, prerequisite-for, mechanism-of, regulates, supports, related）
+- 总计：251 节点，1416 边
+
+---
+
+## 状态文件更新
+
+- `state/unresolved_questions.md`：新增 Q-asa-01（时间相干性神经实现）、Q-asa-02（ABA双稳态A1变化）、Q-asa-03（老年ASA衰退瓶颈）
+- `state/topic_ledger.json`：新增第101条条目（2026-08-19）
+- `state/source_registry.json`：新增 7 条来源记录
+- `state/monthly_synthesis.md`：追加8月19日摘要行
+- `wiki/index.md`：新增 2 条目，修订 1 条目
+- `wiki/CHANGELOG.md`：新增 2026-08-19 变更节
+
+---
+
+## Git 操作
+
+- 分支：claude/funny-einstein-83Z7A（运行环境强制分支）
+- commit message: "Add neuro daily article + wiki consolidation for 2026-08-19"
+- push: origin claude/funny-einstein-83Z7A（待执行）
+
+> 注：ROUTINE.md 指定知识库应推送到 main 分支。当前运行环境强制使用 claude/funny-einstein-83Z7A 分支。本次将推送到该分支，后续应将此分支合并到 main 以保证知识库连续性。
+
+---
+
+## 限制与说明
+
+- 7篇来源均为摘要层面，无开放全文；所有定性结论在摘要层面可验证
+- Mesgarani & Chang (Nature 2012) 未读全文（非OA）；关键发现通过摘要和机构新闻稿确认
+- 文章中明确标注了"未读全文"来源
+
+---
+
+## commit hash
+
+[待填写]

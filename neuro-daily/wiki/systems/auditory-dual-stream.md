@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-18
-updated: 2026-08-18
-revision_count: 1
+updated: 2026-08-19
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, systems, cognition]
-related: [auditory-cortex, language-network, superior-temporal-sulcus, broca-area, motor-cortex, predictive-coding, hemispheric-asymmetry, dorsal-visual-stream, inferior-temporal-cortex]
+related: [auditory-cortex, language-network, superior-temporal-sulcus, broca-area, motor-cortex, predictive-coding, hemispheric-asymmetry, dorsal-visual-stream, inferior-temporal-cortex, auditory-scene-analysis]
 prerequisites: [auditory-cortex, tonotopy, thalamic-firing-modes]
 opens_questions: [Q-aud-dual-01, Q-aud-dual-02, Q-aud-dual-03]
-source_articles: [2026-08-18-auditory-dual-stream-cortex-hierarchy]
+source_articles: [2026-08-18-auditory-dual-stream-cortex-hierarchy, 2026-08-19-auditory-scene-analysis-cocktail-party]
 key_sources: ["PMID:17431404", "PMID:10570492", "PMID:27956600", "PMID:22766458", "PMCID:PMC7067489", "PMCID:PMC3021714"]
 ---
 
@@ -84,9 +84,18 @@ key_sources: ["PMID:17431404", "PMID:10570492", "PMID:27956600", "PMID:22766458"
 - Q-aud-dual-02：门控流（gating stream，A1→PFC，50ms）是否真正独立于腹/背侧流？
 - Q-aud-dual-03：先天失聪者的手语处理是否使用相同的背侧流架构（超模态验证）？
 
+## 双流的前序：听觉景观分析（2026-08-19 新增）
+
+腹侧流（"what"）和背侧流（"where/how"）接收的输入，在到达它们之前必须已经过**听觉景观分析**（ASA）的组织：声景首先被分解为感知上内聚的"听觉对象"，然后才能进入双流分别进行身份识别和空间/运动处理。因此，ASA是双流加工的前端基础设施。
+
+具体来说：ASA在A1（全景代表）和高阶STG（注意选择性放大）层级实现；被选择的声音流（听觉对象）随后进入腹侧流（声音身份/语义）或背侧流（空间/言语运动）。双流与ASA共享STG作为共同界面，STG是ASA的选择性放大器，也是双流的起点。
+
+详见 [[auditory-scene-analysis]]。
+
 ## 修订历史
 
 - 2026-08-18 · 创建 · 基于《声音的解码器》文章#100 · 初始置信度：高 · 综合了VLSM证据（PMID:27956600）、Hickok-Poeppel模型（PMID:17431404）、SEEG半球不对称（PMC:7067489）
+- 2026-08-19 · 修订 rev2 · 基于《鸡尾酒会问题》文章#101 · 新增双流的前序关系（ASA是双流的前端基础设施）；新增 related: auditory-scene-analysis
 
 ## 来源文章
 

@@ -1,0 +1,139 @@
+{
+  "date": "2026-08-19",
+  "article_slug": "auditory-scene-analysis-cocktail-party",
+  "topic": "听觉景观分析（Auditory Scene Analysis）",
+  "sources": [
+    {
+      "id": "PMID:28821680",
+      "type": "original_research",
+      "authors": "Puvvada KC, Simon JZ",
+      "year": 2017,
+      "title": "Cortical Representations of Speech in Multitalker Scenes",
+      "journal": "Journal of Neuroscience",
+      "full_text_available": "partial",
+      "access_note": "摘要已读；J Neurosci部分文章OA可查",
+      "key_contribution": "MEG证明初级听觉皮层代表全声景，高阶颞叶皮层选择性放大被关注流",
+      "used_in_article": true
+    },
+    {
+      "id": "PMID:22522927",
+      "type": "original_research",
+      "authors": "Mesgarani N, Chang EF",
+      "year": 2012,
+      "title": "Selective cortical representation of attended speaker in multi-talker speech perception",
+      "journal": "Nature",
+      "full_text_available": "abstract_only",
+      "access_note": "未读全文（非OA）；摘要和机构新闻稿验证",
+      "key_contribution": "颅内ECoG直接证明STG选择性表征被关注说话人；注意切换后数百毫秒内完成",
+      "used_in_article": true
+    },
+    {
+      "id": "PMID:21196054",
+      "type": "review",
+      "authors": "Shamma SA, Elhilali M, Micheyl C",
+      "year": 2011,
+      "title": "Temporal Coherence and Attention in Auditory Scene Analysis",
+      "journal": "Trends in Neurosciences",
+      "full_text_available": "abstract_only",
+      "access_note": "摘要已读；理论综述",
+      "key_contribution": "时间相干性理论：同步波动特征绑定为同一流；注意主动参与绑定过程",
+      "used_in_article": true
+    },
+    {
+      "id": "PMID:32273487",
+      "type": "original_research",
+      "authors": "Saderi D, Buran BN, David SV",
+      "year": 2020,
+      "title": "Streaming of Repeated Noise in Primary and Secondary Fields of Auditory Cortex",
+      "journal": "Journal of Neuroscience",
+      "full_text_available": "abstract_only",
+      "access_note": "摘要已读",
+      "key_contribution": "铁鼬多电极记录：流分割信号在A1产生，PEG（次级皮层）中被精细化放大",
+      "used_in_article": true
+    },
+    {
+      "id": "PMID:28954867",
+      "type": "original_research",
+      "authors": "Fishman YI, Kim M, Steinschneider M",
+      "year": 2017,
+      "title": "Testing the Population Separation Model of Auditory Stream Segregation in Macaque Auditory Cortex",
+      "journal": "Journal of Neuroscience",
+      "full_text_available": "abstract_only",
+      "access_note": "摘要已读",
+      "key_contribution": "猕猴A1电极记录：音调拓扑种群空间分离程度与感知流分割相关联",
+      "used_in_article": true
+    },
+    {
+      "id": "PMID:36049112",
+      "type": "review",
+      "authors": "Willmore BDB, King AJ",
+      "year": 2023,
+      "title": "Adaptation in Auditory Processing",
+      "journal": "Physiological Reviews",
+      "full_text_available": "abstract_only",
+      "access_note": "摘要已读；顶级综述期刊",
+      "key_contribution": "多时间尺度适应增益调节是听觉图形-背景分割的关键机制",
+      "used_in_article": true
+    },
+    {
+      "id": "PMID:29061698",
+      "type": "original_research",
+      "authors": "Puschmann S, Steinkamp S, Gillich I, et al.",
+      "year": 2017,
+      "title": "The Right Temporoparietal Junction Supports Speech Tracking During Selective Listening: Evidence from Concurrent EEG-fMRI",
+      "journal": "Journal of Neuroscience",
+      "full_text_available": "abstract_only",
+      "access_note": "摘要已读",
+      "key_contribution": "右TPJ激活与成功的选择性语音追踪正相关；TPJ是注意控制→听觉皮层的接口",
+      "used_in_article": true
+    },
+    {
+      "id": "PMID:17994016",
+      "type": "original_research",
+      "authors": "Narayan R, Best V, Ozmeral E, et al.",
+      "year": 2007,
+      "title": "Cortical Interference Effects in the Cocktail Party Problem",
+      "journal": "Nature Neuroscience",
+      "full_text_available": "abstract_only",
+      "access_note": "摘要已读",
+      "key_contribution": "斑马雀听觉皮层：两种干扰机制（虚假放电+信号抑制）并行存在",
+      "used_in_article": true
+    },
+    {
+      "id": "non-PMID:Cherry1953",
+      "type": "classic_paper",
+      "authors": "Cherry CE",
+      "year": 1953,
+      "title": "Some experiments on the recognition of speech with one and two ears",
+      "journal": "Journal of the Acoustical Society of America",
+      "full_text_available": "historical",
+      "access_note": "历史经典文献；内容来自标准综述转述",
+      "key_contribution": "首次系统描述鸡尾酒会问题；双耳分听实验",
+      "used_in_article": true
+    },
+    {
+      "id": "non-PMID:Bregman1990",
+      "type": "book",
+      "authors": "Bregman AS",
+      "year": 1990,
+      "title": "Auditory Scene Analysis: The Perceptual Organization of Sound",
+      "publisher": "MIT Press",
+      "full_text_available": "book",
+      "access_note": "专著；内容来自标准教科书和综述引用",
+      "key_contribution": "建立听觉景观分析理论框架：原始分割vs图式分割；Gestalt听觉分组原则",
+      "used_in_article": true
+    }
+  ],
+  "search_queries": [
+    "auditory scene analysis neural mechanism review",
+    "auditory streaming cortex neural segregation",
+    "cocktail party problem auditory cortex neural",
+    "Mesgarani Chang auditory cortex selective attention speech",
+    "Shamma auditory scene analysis temporal coherence review",
+    "neural tracking speech auditory cortex EEG cocktail party"
+  ],
+  "open_full_text_count": 0,
+  "abstract_only_count": 8,
+  "classic_historical_count": 2,
+  "note": "本日文章的核心发现均在摘要层面得到验证。Mesgarani & Chang 2012（Nature）和Bregman 1990（专著）未读全文；所有相关描述均基于摘要和标准综述转述，已在文章中明确标注"
+}

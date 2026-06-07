@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-18",
-  "node_count": 244,
-  "edge_count": 1386,
+  "updated": "2026-08-19",
+  "node_count": 251,
+  "edge_count": 1416,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2254,6 +2254,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/auditory-dual-stream.md"
+    },
+    {
+      "id": "auditory-scene-analysis",
+      "title": "听觉景观分析",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/auditory-scene-analysis.md"
+    },
+    {
+      "id": "temporal-coherence",
+      "title": "时间相干性（听觉）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/temporal-coherence.md"
     }
   ],
   "edges": [
@@ -9811,6 +9829,61 @@
     {
       "from": "auditory-dual-stream",
       "to": "inferior-temporal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "auditory-scene-analysis",
+      "type": "supports"
+    },
+    {
+      "from": "tonotopy",
+      "to": "auditory-scene-analysis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "auditory-scene-analysis",
+      "to": "auditory-dual-stream",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "temporal-coherence",
+      "to": "auditory-scene-analysis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "tpj-temporoparietal-junction",
+      "to": "auditory-scene-analysis",
+      "type": "regulates"
+    },
+    {
+      "from": "auditory-scene-analysis",
+      "to": "language-network",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "temporal-coherence",
+      "type": "supports"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "auditory-scene-analysis",
+      "type": "related"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "auditory-scene-analysis",
+      "type": "related"
+    },
+    {
+      "from": "auditory-scene-analysis",
+      "to": "superior-temporal-sulcus",
+      "type": "related"
+    },
+    {
+      "from": "auditory-scene-analysis",
+      "to": "selective-attention",
       "type": "related"
     }
   ],

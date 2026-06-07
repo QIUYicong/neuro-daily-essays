@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-19",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8426,6 +8426,119 @@
         "gating-stream",
         "auditory-cortex",
         "sensory-gating"
+      ]
+    },
+    {
+      "pmid": "28821680",
+      "title": "Cortical Representations of Speech in Multitalker Scenes",
+      "authors_short": "Puvvada & Simon",
+      "journal": "Journal of Neuroscience",
+      "year": 2017,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-auditory-scene-analysis-cocktail-party.md"
+      ],
+      "aspects_covered": [
+        "A1 full-scene representation",
+        "higher cortex selective attention",
+        "MEG auditory hierarchy"
+      ]
+    },
+    {
+      "pmid": "22522927",
+      "title": "Selective cortical representation of attended speaker in multi-talker speech perception",
+      "authors_short": "Mesgarani & Chang",
+      "journal": "Nature",
+      "year": 2012,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-auditory-scene-analysis-cocktail-party.md"
+      ],
+      "aspects_covered": [
+        "STG selective attention ECoG",
+        "speech spectrogram reconstruction",
+        "attention switching dynamics"
+      ],
+      "access_status": "abstract_only"
+    },
+    {
+      "pmid": "21196054",
+      "title": "Temporal Coherence and Attention in Auditory Scene Analysis",
+      "authors_short": "Shamma, Elhilali & Micheyl",
+      "journal": "Trends in Neurosciences",
+      "year": 2011,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-auditory-scene-analysis-cocktail-party.md"
+      ],
+      "aspects_covered": [
+        "temporal coherence theory",
+        "attention role in stream segregation",
+        "feature binding"
+      ]
+    },
+    {
+      "pmid": "32273487",
+      "title": "Streaming of Repeated Noise in Primary and Secondary Fields of Auditory Cortex",
+      "authors_short": "Saderi, Buran & David",
+      "journal": "Journal of Neuroscience",
+      "year": 2020,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-auditory-scene-analysis-cocktail-party.md"
+      ],
+      "aspects_covered": [
+        "A1 vs PEG stream segregation",
+        "hierarchical gain modulation",
+        "ferret recordings"
+      ]
+    },
+    {
+      "pmid": "28954867",
+      "title": "Testing the Population Separation Model of Auditory Stream Segregation",
+      "authors_short": "Fishman, Kim & Steinschneider",
+      "journal": "Journal of Neuroscience",
+      "year": 2017,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-auditory-scene-analysis-cocktail-party.md"
+      ],
+      "aspects_covered": [
+        "population separation model",
+        "tonotopy and stream segregation",
+        "ABA tone sequences"
+      ]
+    },
+    {
+      "pmid": "36049112",
+      "title": "Adaptation in Auditory Processing",
+      "authors_short": "Willmore & King",
+      "journal": "Physiological Reviews",
+      "year": 2023,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-auditory-scene-analysis-cocktail-party.md"
+      ],
+      "aspects_covered": [
+        "multi-timescale adaptation",
+        "figure-ground segregation",
+        "auditory gain control"
+      ]
+    },
+    {
+      "pmid": "29061698",
+      "title": "The Right Temporoparietal Junction Supports Speech Tracking During Selective Listening",
+      "authors_short": "Puschmann et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2017,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-auditory-scene-analysis-cocktail-party.md"
+      ],
+      "aspects_covered": [
+        "TPJ role in selective listening",
+        "EEG-fMRI concurrent",
+        "attention-auditory cortex interface"
       ]
     }
   ],

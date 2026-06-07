@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-17",
-  "total_articles": 116,
+  "last_updated": "2026-08-19",
+  "total_articles": 101,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7420,6 +7420,50 @@
         "speech-motor-control: 言语产生的神经回路（背侧流输出端）",
         "tonotopy-revisit: 听觉关键期与tonotopy可塑性（类比视觉关键期）"
       ]
+    },
+    {
+      "date": "2026-08-19",
+      "article_number": 101,
+      "title": "鸡尾酒会问题：大脑如何从声音混沌中雕刻出听觉秩序",
+      "slug": "auditory-scene-analysis-cocktail-party",
+      "core_question": "当来自不同声源的声波同时抵达耳膜，大脑通过什么机制将混合声学信号分离成独立'听觉流'？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "systems",
+        "cognition"
+      ],
+      "topic_tags": [
+        "auditory-scene-analysis",
+        "cocktail-party-problem",
+        "auditory-streaming",
+        "temporal-coherence",
+        "selective-attention",
+        "A1",
+        "STG",
+        "tonotopy"
+      ],
+      "main_sources": [
+        "PMID:28821680",
+        "PMID:22522927",
+        "PMID:21196054",
+        "PMID:32273487",
+        "PMID:28954867",
+        "PMID:36049112",
+        "PMID:29061698"
+      ],
+      "unresolved_questions": [
+        "Q-asa-01",
+        "Q-asa-02",
+        "Q-asa-03"
+      ],
+      "next_suggested_topics": [
+        "hemispheric-asymmetry: 左右脑语言/感知不对称的分子细胞基础（auditory-cortex.md已列为related）",
+        "speech-motor-control: 言语产生的神经回路——背侧流的运动末端如何生成言语",
+        "selective-attention-mechanism: 前额叶-顶叶注意网络如何通过TPJ调控听觉皮层增益",
+        "auditory-aging: 老年性中枢听觉处理衰退的神经机制（填补Q-asa-03）"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -7447,7 +7491,8 @@
       "2026-06-18",
       "2026-07-03",
       "2026-07-26",
-      "2026-07-28"
+      "2026-07-28",
+      "2026-08-19"
     ],
     "synaptic": [
       "2026-05-24",
@@ -7464,7 +7509,8 @@
       "2026-05-27",
       "2026-06-03",
       "2026-06-11",
-      "2026-06-18"
+      "2026-06-18",
+      "2026-08-19"
     ],
     "brain_region": [
       "2026-05-27",
@@ -7504,7 +7550,8 @@
       "2026-05-31",
       "2026-07-03",
       "2026-07-26",
-      "2026-07-28"
+      "2026-07-28",
+      "2026-08-19"
     ],
     "disease": [
       "2026-06-08"
@@ -7516,14 +7563,16 @@
     ],
     "systems": [
       "2026-06-11",
-      "2026-06-12"
+      "2026-06-12",
+      "2026-08-19"
     ],
     "whole-brain-network": [
       "2026-06-18",
       "2026-07-26"
     ],
     "brain-region": [
-      "2026-07-26"
+      "2026-07-26",
+      "2026-08-19"
     ]
   },
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",
