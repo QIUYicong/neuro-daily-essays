@@ -103,10 +103,11 @@
 
 ## G. 提交推送
 
-- branch: claude/funny-einstein-fU7mG（环境强制功能分支）
-- commit: [见本日志末尾]
-- push: 推送至 origin claude/funny-einstein-fU7mG
-- remote: http://local_proxy@127.0.0.1:xxxxx/git/QIUYicong/neuro-daily-essays（含正确 owner）
+- branch: claude/funny-einstein-fU7mG（环境强制功能分支）→ 同步 push 至 main（确保知识库连续性）
+- commit: 3de653a
+- push branch: origin/claude/funny-einstein-fU7mG ✓
+- push main: origin/main ✓（56fdbac→3de653a）
+- remote: http://local_proxy@127.0.0.1:34295/git/QIUYicong/neuro-daily-essays（含正确 owner）
 
 ---
 
