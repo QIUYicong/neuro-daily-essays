@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-19（**#118**·大脑如何开口说话：前馈/反馈双控制系统与DIVA模型）· 主题页总数：**237**（新建3页：speech-production-circuit · diva-model · sma-presma；修订1页：broca-area rev3；图谱252节点、1417边）
+> 最后更新：2026-08-20（**#119**·聆听的解码器：颞上回如何将声学流切割为音素）· 主题页总数：**239**（新建2页：stg-speech-perception · temporal-sampling-framework；修订2页：speech-production-circuit rev2 · auditory-dual-stream rev2；图谱254节点、1431边）
 
 ---
 
@@ -90,6 +90,7 @@
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；Sahay 2011成人神经发生因果改善分离 **[NEW 2026-06-24]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
 - 🔵 [DIVA模型（言语产生计算-神经框架）](concepts/diva-model.md) — 言语声音图（左IFG/vPMC）+启动图（SMA-BG）+听觉目标/误差图（pSTG）+体感目标图（SMG）+反馈控制图（右vPMC）+小脑前向模型；前馈主导流利言语/反馈主导学习纠偏/效应副本抑制自产语音；GODIVA双BG环路（运动/计划）**[NEW 2026-08-19 #118]**
+- 🔵 [时间采样框架（AST/TSF）](concepts/temporal-sampling-framework.md) — 非对称时间采样（Poeppel 2001/2003）：左STG短时间窗（~25–50ms，音素/γ）vs右STG长时间窗（~150–300ms，音节/θ）；Giraud & Poeppel 2012 θ-γ嵌套振荡扩展；McGettigan & Scott 2012 批判（左侧优势来自语音-运动接口非固有时间常数）；成熟度：mainstream/medium **[NEW 2026-08-20 #119]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
@@ -215,6 +216,7 @@
 - 🟢 [Broca区（额叶下回）](systems/broca-area.md) — 三成分解构：语言专属（LANG）/ 多需求（MD）/ 发音；IFG内两套系统在群体平均fMRI中混叠；**新增**：言语运动协调中枢实为前中央回（vPCSA/dPCSA），非IFG本身（Hickok 2022） **[修订 rev3 2026-08-19 #118]**
 - 🔵 [言语产生神经回路](systems/speech-production-circuit.md) — SMA/pre-SMA启动（-240ms）→左IFG/vPMC音节程序→M1执行；前馈（主导流利言语）vs反馈（pSTG听觉+SMG体感→右vPMC纠偏）；效应副本抑制自产语音；双前中央言语区（vPCSA发音/dPCSA音调）；DIVA/GODIVA框架 **[NEW 2026-08-19 #118]**
 - 🔵 [辅助运动区与前辅助运动区](systems/sma-presma.md) — 言语启动最早皮层节点（pre-SMA: -240ms; SMA: -170ms先于开口）；活动随RT动态伸缩；通过BG-丘脑接收时序"go"信号；准备协调者而非执行者 **[NEW 2026-08-19 #118]**
+- 🟢 [颞上回语音感知](systems/stg-speech-perception.md) — STG 五层音韵解码机制：分布式音韵特征检测（Mesgarani 2014 ECoG：非音素而是特征束）→三时间尺度时间地标（VOT/PeakRate/句子起始）→1.7mm 离散音节处理模块（Cleary 2024, PLoS Biology）→旋转动力学时间上下文编码（Stephen 2023）→IFG预测编码反馈（Kim 2024）；产生-感知闭环：DIVA 听觉目标图在 STG 实现 **[NEW 2026-08-20 #119]**
 - 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；左侧优势；出生时低髓鞘化→随句法习得成熟；损伤→传导性失语 **[NEW 2026-06-20]**
 - 🟢 [背侧语言流](circuits/dorsal-language-stream.md) — A1→颞平面→Spt→弓状束→BA44；音韵缓冲+句法层级运算；左侧主导 **[NEW 2026-06-20]**
 - 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→ATL（语义枢纽）→BA45；声音→词义；双侧；四大白质束（IFOF/UF/ILF/MLF）DES临床验证 **[修订 rev2 2026-07-15]**

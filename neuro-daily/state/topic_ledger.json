@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-19",
-  "total_articles": 118,
+  "last_updated": "2026-08-20",
+  "total_articles": 119,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7487,6 +7487,86 @@
         "arcuate-fasciculus-deep: 弓状束的纤维分组与语言/言语分工",
         "language-acquisition-critical-period: 语言习得关键期的神经机制",
         "prosody-neural-basis: 韵律的dPCSA/右半球神经基础"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "real_date": "2026-06-07",
+      "article_number": 119,
+      "title": "聆听的解码器：颞上回如何将声学流切割为音素",
+      "slug": "stg-speech-perception-phoneme-decoding",
+      "filename": "2026-08-20-stg-speech-perception-phoneme-decoding.md",
+      "article_type": "regular",
+      "core_question": "大脑从听到一串连续声波到感知出离散的音素和音节，这中间发生了什么？STG如何通过分布式特征检测（音韵特征而非音素，Mesgarani 2014）、多时间尺度时间地标提取（VOT/PeakRate/句子起始）、~1.7mm离散音节模块（Cleary 2024）、旋转动力学时间编码（Stephen 2023）以及IFG→STG预测编码反馈（Kim 2024），将连续声波流变换为语言符号系统可用的音韵表征？",
+      "layer": [
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（言语感知；接续#118言语产生DIVA模型，完成产生-感知闭环）",
+      "topic_tags": [
+        "STG",
+        "superior temporal gyrus",
+        "speech perception",
+        "phoneme encoding",
+        "phonetic features",
+        "ECoG",
+        "temporal landmarks",
+        "PeakRate",
+        "VOT",
+        "cortical entrainment",
+        "theta oscillations",
+        "gamma oscillations",
+        "asymmetric sampling in time",
+        "AST",
+        "temporal sampling framework",
+        "phonemic restoration",
+        "predictive coding",
+        "auditory cortex",
+        "syllable processing modules",
+        "rotational dynamics",
+        "IFG top-down feedback",
+        "linguistic modulation",
+        "speech segmentation",
+        "Mesgarani 2014",
+        "Bhaya-Grossman 2021",
+        "Cleary 2024",
+        "Stephen 2023",
+        "Kim 2024",
+        "McGettigan 2012",
+        "Giraud Poeppel 2012"
+      ],
+      "main_sources": [
+        "PMID:24482117 / PMCID:PMC4350233 (Mesgarani et al. 2014, Science, open full text read)",
+        "PMID:34672685 / PMCID:PMC9447996 (Bhaya-Grossman & Chang 2021, Annual Review of Psychology, open full text read)",
+        "PMID:39241107 / PMCID:PMC11410217 (Cleary et al. 2024, PLoS Biology, open full text read)",
+        "PMID:37441880 / PMCID:PMC11182421 (Stephen et al. 2023, Hearing Research, open full text read)",
+        "PMID:38687241 / PMCID:PMC11059272 (Kim et al. 2024, Cerebral Cortex, open full text read)",
+        "PMID:22521208 / PMCID:PMC4083255 (McGettigan & Scott 2012, Trends in Cognitive Sciences, open full text read)",
+        "PMID:22426255 (Giraud & Poeppel 2012, Nature Neuroscience, abstract only - non-open access)",
+        "PMID:31220442 / PMCID:PMC6602075 (Yi, Leonard & Chang 2019, Neuron, open full text read)"
+      ],
+      "open_full_text_sources": 7,
+      "unresolved_questions": [
+        "Q-stg-01",
+        "Q-stg-02",
+        "Q-stg-03"
+      ],
+      "wiki_pages_created": [
+        "systems/stg-speech-perception",
+        "concepts/temporal-sampling-framework"
+      ],
+      "wiki_pages_updated": [
+        "systems/speech-production-circuit (rev2: 新增stg-speech-perception/temporal-sampling-framework连接，完善产生-感知闭环)",
+        "systems/auditory-dual-stream (rev2: 新增stg-speech-perception/temporal-sampling-framework连接，明确STG在双流入口角色)"
+      ],
+      "contested_claims_logged": [],
+      "next_suggested_topics": [
+        "speech-perception-phonology-2: STG内部的词汇-音韵接口——从音素串到单词识别的神经计算",
+        "arcuate-fasciculus-deep: 弓状束的纤维分组（长段/前后段）与语音感知-产生整合的白质基础",
+        "language-acquisition-critical-period: 语言习得关键期的神经机制——婴儿音韵收缩与STG特化",
+        "prosody-neural-basis: 韵律（prosody）的神经基础——dPCSA/右半球的音调模式处理"
       ]
     }
   ],

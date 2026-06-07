@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-19",
-  "node_count": 244,
-  "edge_count": 1386,
+  "updated": "2026-08-20",
+  "node_count": 246,
+  "edge_count": 1400,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2281,6 +2281,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/systems/sma-presma.md"
+    },
+    {
+      "id": "stg-speech-perception",
+      "title": "颞上回语音感知",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/stg-speech-perception.md"
+    },
+    {
+      "id": "temporal-sampling-framework",
+      "title": "时间采样框架（非对称时间采样）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/temporal-sampling-framework.md"
     }
   ],
   "edges": [
@@ -9899,6 +9917,83 @@
       "from": "broca-area",
       "to": "speech-production-circuit",
       "type": "related"
+    },
+    {
+      "from": "stg-speech-perception",
+      "to": "auditory-dual-stream",
+      "type": "part-of",
+      "note": "STG 是双流分叉前的最后共同处理节点"
+    },
+    {
+      "from": "stg-speech-perception",
+      "to": "speech-production-circuit",
+      "type": "related",
+      "note": "产生-感知闭环：DIVA 听觉目标图在 STG 实现"
+    },
+    {
+      "from": "stg-speech-perception",
+      "to": "broca-area",
+      "type": "related",
+      "note": "IFG→STG 预测编码反馈（音韵修复的回路基础）"
+    },
+    {
+      "from": "stg-speech-perception",
+      "to": "auditory-cortex",
+      "type": "is-a",
+      "note": "STG 是非初级听觉皮层的组成部分"
+    },
+    {
+      "from": "stg-speech-perception",
+      "to": "superior-temporal-sulcus",
+      "type": "related",
+      "note": "STS 在 STG 腹侧，负责多模态语音整合"
+    },
+    {
+      "from": "stg-speech-perception",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "prerequisite-for",
+      "note": "STG 音韵表征是 ATL 词汇-语义访问的前提"
+    },
+    {
+      "from": "stg-speech-perception",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "stg-speech-perception",
+      "type": "mechanism-of",
+      "note": "AST 框架描述 STG 时间积分窗口的半球不对称"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "auditory-dual-stream",
+      "type": "related",
+      "note": "AST 的左/右时间窗对应腹/背侧流的功能差异"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "auditory-cortex",
+      "type": "mechanism-of",
+      "note": "时间积分窗口差异源于局部皮层微回路时间常数"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "alpha-oscillations",
+      "type": "related",
+      "note": "θ 夹带与 α 门控均涉及振荡相位对感觉采样的调制"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "stg-speech-perception",
+      "type": "related",
+      "note": "产生-感知双向回路（新增反向边，完成闭环）"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "stg-speech-perception",
+      "type": "related",
+      "note": "修订 rev2：明确 STG 在双流分叉入口的角色"
     }
   ],
   "dangling_references": [

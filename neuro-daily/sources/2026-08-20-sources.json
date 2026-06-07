@@ -1,0 +1,135 @@
+{
+  "article_date": "2026-08-20",
+  "real_date": "2026-06-07",
+  "article_number": 119,
+  "slug": "stg-speech-perception-phoneme-decoding",
+  "title": "聆听的解码器：颞上回如何将声学流切割为音素",
+  "search_queries": [
+    "Poeppel temporal sampling framework speech phonology STG cortical entrainment review PMC open access",
+    "Giraud Poeppel cortical entrainment speech phonemes Nature Neuroscience 2012 PMC open access PMID",
+    "Mesgarani Chang 2012 phonetic feature encoding superior temporal gyrus iEEG Science PMID PMC open access",
+    "STG superior temporal gyrus speech perception review 2023 2024 phoneme syllable cortical oscillations PMC open access",
+    "speech perception STG predictive coding phoneme restoration context top-down review PMC 2022 2023 2024 open access",
+    "asymmetric sampling time speech left right STG temporal integration window phoneme syllable Poeppel review PMC 2022 2023",
+    "linguistic modulation neural encoding phonemes STG STS PMC 2024"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Mesgarani N, Cheung C, Johnson K, Chang EF (2014). Phonetic Feature Encoding in Human Superior Temporal Gyrus. Science, 343(6174), 1006–1010.",
+      "pmid": "24482117",
+      "pmcid": "PMC4350233",
+      "doi": "10.1126/science.1245994",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "type": "original_research",
+      "used_for": "核心发现：STG 编码音韵特征而非音素；ECoG 方法；特征检测分级组织",
+      "evidence_quality": "高（颅内电极直接记录，6名被试，大量刺激）",
+      "limitations": "癫痫患者；以英语为主"
+    },
+    {
+      "id": "S2",
+      "citation": "Bhaya-Grossman I, Chang EF (2021). Speech Computations of the Human Superior Temporal Gyrus. Annual Review of Psychology, 73, 127–153.",
+      "pmid": "34672685",
+      "pmcid": "PMC9447996",
+      "doi": "10.1146/annurev-psych-122319-024603",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "type": "review",
+      "used_for": "时间地标三层框架（VOT/PeakRate/句子起始）；预测编码综合；STG 动态表征",
+      "evidence_quality": "高（权威综述，整合多项 ECoG 原始研究）",
+      "limitations": "综述有选择性；部分框架为作者理论模型"
+    },
+    {
+      "id": "S3",
+      "citation": "Cleary DR, Tchoe Y, Bourhis AM, et al. (2024). Syllable processing is organized in discrete subregions of the human superior temporal gyrus. PLoS Biology.",
+      "pmid": "39241107",
+      "pmcid": "PMC11410217",
+      "doi": "10.1371/journal.pbio.3002788",
+      "full_text_available": true,
+      "access_method": "PMC Open Access (PLoS Biology)",
+      "type": "original_research",
+      "used_for": "1.7mm 音节处理模块；双峰潜期分布；STG 的模块化组织",
+      "evidence_quality": "中（超高分辨率方法创新；7名脑肿瘤手术患者；需复现）",
+      "limitations": "脑肿瘤患者可能有皮层重组；样本量小；刺激集受限"
+    },
+    {
+      "id": "S4",
+      "citation": "Stephen EP, Li Y, Metzger S, Oganian Y, Chang EF (2023). Latent neural dynamics encode temporal context in speech. Hearing Research, 437, 108838.",
+      "pmid": "37441880",
+      "pmcid": "PMC11182421",
+      "doi": "10.1016/j.heares.2023.108838",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "type": "original_research",
+      "used_for": "旋转动力学；潜在状态空间分析；句子起始与 PeakRate 的时间编码机制",
+      "evidence_quality": "中（ECoG 高质量；降维分析依赖模型选择；需更多复现）",
+      "limitations": "降维方法的参数选择影响结果；仅在 ECoG 患者中验证"
+    },
+    {
+      "id": "S5",
+      "citation": "Kim SG, De Martino F, Overath T (2024). Linguistic modulation of the neural encoding of phonemes. Cerebral Cortex, 34(5).",
+      "pmid": "38687241",
+      "pmcid": "PMC11059272",
+      "doi": "10.1093/cercor/bhae127",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "type": "original_research",
+      "used_for": "语言知识调制 STG 音素编码；预测编码框架；母语 vs 外语的 STS 激活差异",
+      "evidence_quality": "中（fMRI 空间分辨率有限；设计严谨；英语-韩语对照合理）",
+      "limitations": "fMRI 无法区分电极尺度的细节；未包含汉语等声调语言"
+    },
+    {
+      "id": "S6",
+      "citation": "McGettigan C, Scott SK (2012). Cortical asymmetries in speech perception: what's wrong, what's right, and what's left? Trends in Cognitive Sciences, 16(5), 269–276.",
+      "pmid": "22521208",
+      "pmcid": "PMC4083255",
+      "doi": "10.1016/j.tics.2012.04.006",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "type": "theory_review",
+      "used_for": "AST 模型的批判性评估；左右 STG 半球功能的实证证据综合",
+      "evidence_quality": "中（批判性理论评论；整合证据充分；本身不提供新实验数据）",
+      "limitations": "评论视角可能有选择偏差；2012年后有新证据"
+    },
+    {
+      "id": "S7",
+      "citation": "Giraud AL, Poeppel D (2012). Cortical oscillations and speech processing: emerging computational principles and operations. Nature Neuroscience, 15(4), 511–517.",
+      "pmid": "22426255",
+      "pmcid": null,
+      "doi": "10.1038/nn.3063",
+      "full_text_available": false,
+      "access_method": "摘要仅（Nature Neuroscience，非开放全文）",
+      "full_text_note": "未读全文；内容基于摘要及文献综述的描述",
+      "type": "theory_review",
+      "used_for": "θ-γ 嵌套振荡模型；AST 的振荡机制延伸",
+      "evidence_quality": "背景引用（未读全文，仅用于理论框架叙述）",
+      "limitations": "付费墙限制；仅使用摘要"
+    },
+    {
+      "id": "S8",
+      "citation": "Yi HG, Leonard MK, Chang EF (2019). The Encoding of Speech Sounds in the Superior Temporal Gyrus. Neuron, 102(6), 1096–1110.",
+      "pmid": "31220442",
+      "pmcid": "PMC6602075",
+      "doi": "10.1016/j.neuron.2019.04.023",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "type": "review",
+      "used_for": "STG 功能区划分（起始响应/包络追踪/特征检测器）；语境依赖音韵表征",
+      "evidence_quality": "高（Chang 实验室 ECoG 系列综合综述）",
+      "limitations": "综述中部分模型成分是推断性的"
+    }
+  ],
+  "source_statistics": {
+    "total_candidates": 14,
+    "adopted": 8,
+    "open_full_text": 7,
+    "abstract_only": 1,
+    "excluded": 6,
+    "exclusion_reasons": [
+      "3篇：相关但不是直接针对 STG 音韵编码的核心机制",
+      "2篇：重复覆盖（内容已被采用来源涵盖）",
+      "1篇：预印本（未经同行评审）"
+    ]
+  }
+}

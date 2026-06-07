@@ -6,8 +6,8 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-18
-updated: 2026-08-18
-revision_count: 1
+updated: 2026-08-20
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, systems, cognition]
 related: [auditory-cortex, language-network, superior-temporal-sulcus, broca-area, motor-cortex, predictive-coding, hemispheric-asymmetry, dorsal-visual-stream, inferior-temporal-cortex]
 prerequisites: [auditory-cortex, tonotopy, thalamic-firing-modes]
@@ -77,6 +77,8 @@ key_sources: ["PMID:17431404", "PMID:10570492", "PMID:27956600", "PMID:22766458"
 - [[predictive-coding]] — 背侧流前向模型 = 预测编码在感觉-运动回路中的实例化
 - [[dorsal-visual-stream]] — 视觉背侧流的类比：空间/行动 vs 听觉背侧流的空间/发音
 - [[inferior-temporal-cortex]] — 视觉腹侧流的类比：物体识别 vs 听觉腹侧流的声音身份
+- [[stg-speech-perception]] — STG 的音韵解码是双流分叉之前的最后一个共同处理节点；详细的音素编码机制见 STG 专页
+- [[temporal-sampling-framework]] — AST/TSF 框架描述 STG 在双流入口处的时间窗机制（左短/右长）
 
 ## 未解问题
 
@@ -86,8 +88,10 @@ key_sources: ["PMID:17431404", "PMID:10570492", "PMID:27956600", "PMID:22766458"
 
 ## 修订历史
 
-- 2026-08-18 · 创建 · 基于《声音的解码器》文章#100 · 初始置信度：高 · 综合了VLSM证据（PMID:27956600）、Hickok-Poeppel模型（PMID:17431404）、SEEG半球不对称（PMC:7067489）
+- 2026-08-18 · 创建 · 基于《声音的解码器》文章 #117 · 初始置信度：高 · 综合了VLSM证据（PMID:27956600）、Hickok-Poeppel模型（PMID:17431404）、SEEG半球不对称（PMC:7067489）
+- 2026-08-20 · 修订（rev2）· 基于《聆听的解码器》第119篇 · 新增 stg-speech-perception 和 temporal-sampling-framework 连接，明确 STG 在双流分叉入口处的角色
 
 ## 来源文章
 
 - [[2026-08-18-auditory-dual-stream-cortex-hierarchy]]
+- [[2026-08-20-stg-speech-perception-phoneme-decoding]]

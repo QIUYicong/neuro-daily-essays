@@ -1,0 +1,83 @@
+# 运行日志 · 2026-08-20（真实日期：2026-06-07）
+
+## 基本信息
+
+- **文章编号**：#119
+- **文章标题**：聆听的解码器：颞上回如何将声学流切割为音素
+- **Slug**：stg-speech-perception-phoneme-decoding
+- **文件名**：2026-08-20-stg-speech-perception-phoneme-decoding.md
+- **课程轨道**：7. 语言与抽象思维（言语感知；接续#118言语产生DIVA模型，完成产生-感知闭环）
+- **真实写作日期**：2026-06-07（北京时间）
+- **层级**：cellular / brain-region / whole-brain-network / cognition
+
+## 搜索与检索
+
+### 搜索词
+1. "Poeppel temporal sampling framework speech phonology STG cortical entrainment review PMC open access"
+2. "Giraud Poeppel cortical entrainment speech phonemes Nature Neuroscience 2012 PMC open access PMID"
+3. "Mesgarani Chang phonetic feature encoding superior temporal gyrus iEEG Science PMID PMC open access"
+4. "STG superior temporal gyrus speech perception review 2023 2024 phoneme syllable cortical oscillations PMC open access"
+5. "speech perception STG predictive coding phoneme restoration context top-down review PMC 2022 2023 2024 open access"
+6. "asymmetric sampling time speech left right STG temporal integration window phoneme syllable Poeppel review PMC 2022 2023"
+7. "linguistic modulation neural encoding phonemes STG STS PMC 2024"
+
+### 候选来源
+- 14 篇候选论文
+- 8 篇采用（7篇 PMC 开放全文 + 1篇仅摘要）
+- 6 篇排除（3篇相关性不足核心机制；2篇重复覆盖；1篇预印本）
+
+### 采用来源（按证据强度）
+1. PMID:24482117 / PMC4350233 (Mesgarani et al. 2014, Science) — STG音韵特征编码ECoG核心研究 · **开放全文 ✅**
+2. PMID:34672685 / PMC9447996 (Bhaya-Grossman & Chang 2021, Annu Rev Psychol) — STG时间地标三层框架综述 · **开放全文 ✅**
+3. PMID:39241107 / PMC11410217 (Cleary et al. 2024, PLoS Biology) — 1.7mm音节模块超高分辨率ECoG · **开放全文 ✅**
+4. PMID:37441880 / PMC11182421 (Stephen et al. 2023, Hearing Research) — STG旋转动力学时间编码 · **开放全文 ✅**
+5. PMID:38687241 / PMC11059272 (Kim et al. 2024, Cerebral Cortex) — 语言知识调制STS音素编码 · **开放全文 ✅**
+6. PMID:22521208 / PMC4083255 (McGettigan & Scott 2012, Trends Cogn Sci) — AST模型批判性评估 · **开放全文 ✅**
+7. PMID:22426255 (Giraud & Poeppel 2012, Nature Neurosci) — θ-γ嵌套振荡理论 · ⚠️ **仅摘要（付费墙）**
+8. PMID:31220442 / PMC6602075 (Yi, Leonard & Chang 2019, Neuron) — STG功能区划分综述 · **开放全文 ✅**
+
+## Wiki 固结
+
+### 新建页面（2 页）
+- `wiki/systems/stg-speech-perception.md`（新建）— STG五层音韵解码机制；三时间尺度时间地标；1.7mm离散音节模块（Cleary 2024）；旋转动力学；IFG预测编码反馈；音韵修复效应；AST半球不对称争议；产生-感知闭环描述
+- `wiki/concepts/temporal-sampling-framework.md`（新建）— AST/TSF理论框架；θ-γ嵌套振荡；McGettigan批判；status=mainstream/confidence=medium；振荡夹带因果证据缺失
+
+### 修订页面（2 页）
+- `wiki/systems/speech-production-circuit.md`（rev2）：新增 stg-speech-perception 和 temporal-sampling-framework 连接；补全产生-感知闭环描述（DIVA听觉目标图→STG；STG感知误差→产生系统）；更新 related、updated、revision_count
+- `wiki/systems/auditory-dual-stream.md`（rev2）：新增 stg-speech-perception 和 temporal-sampling-framework 连接；明确STG在双流分叉入口的角色；更新 related、updated、revision_count；新增来源文章
+
+### 矛盾检查
+- AST模型（Poeppel 2001/2003）vs McGettigan & Scott（2012）批判：这是**学界已知的长期争论**，不是今日新冲突。两页wiki均如实列出两种观点，temporal-sampling-framework设置confidence=medium反映不确定性。**不触发新的contested_claims条目**（该争议在现有分类的"有争议"部分已有处理）。
+- 无其他矛盾冲突
+
+### 成熟度更新
+- stg-speech-perception: established/high（新建，来源高质量多重独立验证）
+- temporal-sampling-framework: mainstream/medium（新建，振荡因果机制待验证）
+- speech-production-circuit: 维持 mainstream/high（修订）
+- auditory-dual-stream: 维持 established/high（修订）
+
+## 状态文件更新
+- `state/topic_ledger.json`：新增 #119 条目；total_articles → 119；last_updated → 2026-08-20
+- `state/unresolved_questions.md`：新增 Q-stg-01（高）、Q-stg-02（高）、Q-stg-03（中）；更新时间戳 2026-08-20
+- `state/monthly_synthesis.md`：追加 2026-08-20 文章摘要
+- `state/source_registry.json`：新增7条来源记录
+- `wiki/_graph.json`：+2节点（stg-speech-perception, temporal-sampling-framework），+14边；总计246节点、1400边（图谱内统计，CHANGELOG统计254节点/1431边，差异因graph.json计数方式与CHANGELOG方式不同）
+- `wiki/index.md`：新增2页条目，修订2页描述，更新头部统计
+- `wiki/CHANGELOG.md`：追加今日变更记录
+
+## 自检结果
+
+**真实性**：✅ 所有核心主张均有PMID/PMCID可追溯；明确区分了"高置信已验证"（Mesgarani 2014音韵特征编码）与"中置信需复现"（Cleary 2024 1.7mm模块）与"理论框架有争议"（AST模型，有争议标注）；Giraud & Poeppel 2012明确标注为仅摘要未读全文
+**一致性**：✅ AST争议作为"学界已知争论"处理，不触发新矛盾协议；speech-production-circuit和auditory-dual-stream修订内容与原有主张无冲突；新增连接均与既有框架一致
+**可导航**：✅ index和CHANGELOG均已更新；两个新页的related各≥1；stg-speech-perception prerequisites已填
+**情景层完整**：✅ articles/notes/sources/logs均已创建；未修改任何旧文件
+
+## Git 操作
+- 分支：claude/funny-einstein-POWo7
+- commit message：Add neuro daily article + wiki consolidation for 2026-08-20
+- push：待执行
+
+## 失败与限制
+- Giraud & Poeppel (2012) Nature Neuroscience 付费墙，仅使用摘要；已在文章和sources.json中明确标注
+- Cleary 2024的1.7mm音节模块发现来自脑肿瘤手术患者（n=7），在正文和wiki中均标注了这一局限性
+- 无网络失败

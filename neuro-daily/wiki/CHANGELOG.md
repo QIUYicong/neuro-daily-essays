@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-08-20（文章 #119 — 聆听的解码器：颞上回如何将声学流切割为音素）
+
+**新建页面（2 页）**：
+- `wiki/systems/stg-speech-perception.md`：STG 音韵解码的五层机制——局部分布式特征检测（Mesgarani 2014：音韵特征非音素；ECoG 高伽马频段）、三时间尺度时间地标（VOT/PeakRate/句子起始，Bhaya-Grossman & Chang 2021）、~1.7mm 离散音节处理模块+双峰潜期（Cleary 2024, PLoS Biology）、旋转/循环潜在动力学（Stephen 2023）、IFG→STG 预测编码反馈（Kim 2024，语言熟悉性调制左 STS 音素编码）；音韵修复效应的神经基础；AST 半球不对称争议
+- `wiki/concepts/temporal-sampling-framework.md`：非对称时间采样（AST，Poeppel 2001/2003）+ θ-γ 嵌套振荡（Giraud & Poeppel 2012）：左 STG 短时间窗（音素/γ）vs 右 STG 长时间窗（音节/θ）；McGettigan & Scott 2012 的批判（左侧优势来自语音-运动接口而非固有时间常数）；成熟度：mainstream/medium（理论框架成熟，因果机制待验证）
+
+**修订页面（2 页）**：
+- `wiki/systems/speech-production-circuit.md`（rev2）：新增 stg-speech-perception 和 temporal-sampling-framework 连接，补全产生-感知闭环的双向描述（DIVA 听觉目标图在 STG 实现；STG 感知误差反馈回产生系统）
+- `wiki/systems/auditory-dual-stream.md`（rev2）：新增 stg-speech-perception 和 temporal-sampling-framework 连接，明确 STG 在双流分叉入口的角色；key_sources 和来源文章更新
+
+**矛盾检查**：
+- AST 模型（Poeppel）vs McGettigan & Scott（2012）的批判：这是**既有争议**（旧分歧，非新冲突）。stg-speech-perception 和 temporal-sampling-framework 两页均已如实列出两种观点，temporal-sampling-framework 的 `confidence: medium`（而非 high）反映了这一不确定性。不触发新的 contested_claims 条目（该争议已在学界公开多年，并非今日新发现的冲突）。
+
+**新增悬空引用（待填补）**：
+- `efference-copy-speech`（被 speech-production-circuit 引用，未建页，延续上日待办）
+- `predictive-coding`（被 auditory-dual-stream 引用为 [[predictive-coding]]，目前是否已有页面待确认）
+
+**图谱更新**：+2 节点（stg-speech-perception, temporal-sampling-framework），+14 边；总节点 **254**，总边 **1431**
+
+---
+
 ## 2026-08-19（文章 #118 — 言语产生：DIVA 模型与前馈/反馈双控制系统）
 
 **新建页面（3 页）**：

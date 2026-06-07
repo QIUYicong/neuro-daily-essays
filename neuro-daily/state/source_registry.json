@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-20",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8427,6 +8427,99 @@
         "auditory-cortex",
         "sensory-gating"
       ]
+    },
+    {
+      "pmid": "24482117",
+      "pmcid": "PMC4350233",
+      "title": "Phonetic Feature Encoding in Human Superior Temporal Gyrus",
+      "authors": "Mesgarani, Cheung, Johnson, Chang",
+      "year": 2014,
+      "journal": "Science",
+      "covered": [
+        "STG phonetic features ECoG",
+        "phoneme encoding",
+        "feature-based speech perception"
+      ]
+    },
+    {
+      "pmid": "34672685",
+      "pmcid": "PMC9447996",
+      "title": "Speech Computations of the Human Superior Temporal Gyrus",
+      "authors": "Bhaya-Grossman, Chang",
+      "year": 2021,
+      "journal": "Annual Review of Psychology",
+      "covered": [
+        "STG temporal landmarks",
+        "PeakRate",
+        "VOT",
+        "sentence onset",
+        "predictive coding speech"
+      ]
+    },
+    {
+      "pmid": "39241107",
+      "pmcid": "PMC11410217",
+      "title": "Syllable processing is organized in discrete subregions of the human STG",
+      "authors": "Cleary, Tchoe, Bourhis et al.",
+      "year": 2024,
+      "journal": "PLoS Biology",
+      "covered": [
+        "STG syllable modules",
+        "cortical columns association cortex",
+        "ultra-high resolution ECoG"
+      ]
+    },
+    {
+      "pmid": "37441880",
+      "pmcid": "PMC11182421",
+      "title": "Latent neural dynamics encode temporal context in speech",
+      "authors": "Stephen, Li, Metzger, Oganian, Chang",
+      "year": 2023,
+      "journal": "Hearing Research",
+      "covered": [
+        "STG rotational dynamics",
+        "latent state space",
+        "temporal context encoding"
+      ]
+    },
+    {
+      "pmid": "38687241",
+      "pmcid": "PMC11059272",
+      "title": "Linguistic modulation of the neural encoding of phonemes",
+      "authors": "Kim, De Martino, Overath",
+      "year": 2024,
+      "journal": "Cerebral Cortex",
+      "covered": [
+        "STG linguistic modulation",
+        "predictive coding speech",
+        "language familiarity STS"
+      ]
+    },
+    {
+      "pmid": "22521208",
+      "pmcid": "PMC4083255",
+      "title": "Cortical asymmetries in speech perception",
+      "authors": "McGettigan, Scott",
+      "year": 2012,
+      "journal": "Trends in Cognitive Sciences",
+      "covered": [
+        "AST model critique",
+        "STG hemispheric asymmetry",
+        "temporal integration window"
+      ]
+    },
+    {
+      "pmid": "22426255",
+      "pmcid": null,
+      "title": "Cortical oscillations and speech processing",
+      "authors": "Giraud, Poeppel",
+      "year": 2012,
+      "journal": "Nature Neuroscience",
+      "covered": [
+        "theta-gamma nesting",
+        "AST model oscillations"
+      ],
+      "access_note": "abstract only - not open access"
     }
   ],
   "total_sources": 475,

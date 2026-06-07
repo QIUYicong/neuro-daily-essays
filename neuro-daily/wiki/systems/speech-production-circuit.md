@@ -6,10 +6,10 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-08-19
-updated: 2026-08-19
-revision_count: 1
+updated: 2026-08-20
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [diva-model, sma-presma, broca-area, motor-cortex, auditory-dual-stream, cerebellum, basal-ganglia, efference-copy-speech]
+related: [diva-model, sma-presma, broca-area, motor-cortex, auditory-dual-stream, cerebellum, basal-ganglia, efference-copy-speech, stg-speech-perception, temporal-sampling-framework]
 prerequisites: [action-potential, synaptic-transmission, motor-cortex, auditory-dual-stream]
 opens_questions: [Q-speech-01, Q-speech-02, Q-speech-03]
 source_articles: [2026-08-19-speech-production-diva-motor-control]
@@ -85,6 +85,8 @@ key_sources: ["PMID:23667281", "PMID:36746488", "PMID:39807169", "PMID:22661828"
 - [[cerebellum]] — 音节计时的前向模型学习（与言语产生回路的小脑臂）
 - [[basal-ganglia]] — GODIVA双BG环路；启动"go"信号的发出者
 - [[efference-copy-speech]] — 效应副本/预测性抑制，防止自产语音误触发纠偏
+- [[stg-speech-perception]] — 产生-感知闭环的感知侧：DIVA 听觉目标图在 STG 中实现；STG 将感知误差反馈给产生回路
+- [[temporal-sampling-framework]] — AST 理论描述 STG 在感知侧的时间窗机制，与产生侧的 θ-β 时序控制形成互补
 
 ## 未解问题
 
@@ -95,6 +97,7 @@ key_sources: ["PMID:23667281", "PMID:36746488", "PMID:39807169", "PMID:22661828"
 ## 修订历史
 
 - 2026-08-19 · 创建 · 基于《大脑如何开口说话：前馈/反馈双控制系统》第118篇 · 初始置信度：高
+- 2026-08-20 · 修订（rev2）· 基于《聆听的解码器》第119篇 · 新增 stg-speech-perception 和 temporal-sampling-framework 连接，完善产生-感知闭环描述
 
 ## 来源文章
 
