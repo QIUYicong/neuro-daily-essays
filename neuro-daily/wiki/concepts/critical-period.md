@@ -6,13 +6,13 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-08-09
-revision_count: 3
+updated: 2026-08-15
+revision_count: 4
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity, circadian-clock, cortical-neurogenesis]
+related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity, circadian-clock, cortical-neurogenesis, ocular-dominance-columns, retinal-waves]
 prerequisites: [pv-interneurons, ei-balance, perineuronal-nets, synaptic-transmission]
 opens_questions: [Q-cp-01, Q-cp-02, Q-cp-03, Q-cp-04]
-source_articles: [2026-06-03-critical-period-plasticity, 2026-07-08-circadian-clock-scn-brain-rhythm]
+source_articles: [2026-06-03-critical-period-plasticity, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-08-15-ocular-dominance-columns-visual-critical-period]
 key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181", "PMID:18692473", "PMID:21071629", "PMID:22764251", "PMID:23975100", "PMID:26261347", "PMID:33293360", "PMID:34045309", "PMID:32503914"]
 ---
 
@@ -85,6 +85,8 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 - [[orientation-selectivity]] — V1 方向选择性在关键期完善（同一脑区，邻近功能）
 - [[circadian-clock]] — 时钟基因 CLOCK/BMAL1 通过代谢-氧化应激路径调控 PV+ 中间神经元成熟速率，从而决定关键期的开启时间（Reh et al. 2020, PMID:32503914，PNAS 开放全文）
 - [[cortical-neurogenesis]] — 关键期本身依赖于皮层回路的先前建造：PV+ 中间神经元（来自 MGE，在胚性皮层发生期间迁入皮层）的成熟是关键期开启的必要条件，Inside-Out 建造的皮层层结构为关键期提供解剖底座
+- [[ocular-dominance-columns]] — 视觉关键期最经典的功能输出：ODP 的两阶段（剥夺眼 LTD → 开放眼 LTP）是关键期内 PV+ 去抑制微回路的直接执行结果
+- [[retinal-waves]] — 出生前的视网膜波为 ODC 提供解剖前体，与关键期形成时序上的连接（波结束 → 关键期开启）
 
 ## 未解问题
 
@@ -95,6 +97,7 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 
 ## 修订历史
 
+- 2026-08-15 · 修订 rev4 · 基于《左眼还是右眼：眼优势柱》(#114) · 新增 [[ocular-dominance-columns]] 和 [[retinal-waves]] 连接；视觉关键期 ODP 两阶段（剥夺眼 LTD / 开放眼 LTP）与 PV+ 去抑制微回路关联被明确补充；related 新增 ocular-dominance-columns/retinal-waves；key_sources 未新增（已有 PMID:23975100）
 - 2026-08-09 · 修订 rev3 · 基于《皮层的诞生》（第 108 篇）· 新增 [[cortical-neurogenesis]] 连接（皮层 Inside-Out 建造为关键期回路提供解剖底座；PV+中间神经元的 MGE 起源连接到胚性发育时序）；related 新增 cortical-neurogenesis
 - 2026-06-03 · 创建 · 基于《时间刻入神经回路：大脑发育关键期的开关机制与可塑性窗口的重启》(#72) · 初始置信度：高 · 综合 19 篇来源（13 篇开放全文）
 - 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 连接节新增 circadian-clock（Reh et al. 2020, PMID:32503914：CLOCK/BMAL1 → PV+ 中间神经元成熟速率 → 关键期时间轴）；related 新增 circadian-clock；key_sources 新增 PMID:32503914
@@ -104,3 +107,4 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 - [[2026-06-03-critical-period-plasticity]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
 - [[2026-08-09-cortical-neurogenesis-inside-out-radial-glia]]
+- [[2026-08-15-ocular-dominance-columns-visual-critical-period]]

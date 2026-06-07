@@ -3075,3 +3075,39 @@
 - **来源文章**：2026-08-07-synaptic-pruning-complement-autism-schizophrenia
 - **问题**：PNAS 2025 的 CD47 感知障碍数据来自 16p11.2 缺失小鼠。16p11.2 缺失区域包含 100+ 基因，CD47 通路受损可能是多个基因共同作用的结果。(a) NLGN3 R451C、SHANK3 KO 或 SYNGAP1 单倍剂量不足小鼠中，小胶质细胞的 CD47 感知是否也受损？(b) 若 CD47-SIRPα 轴在 ASD 中普遍受损，CD47 激动抗体（恢复 SIRPα 抑制信号）能否改善多种 ASD 小鼠模型的社交行为？(c) 人类 ASD 脑组织（尸检）中，小胶质细胞 SIRPα 的表达量和磷酸化状态是否与对照有差异？
 - **当前证据状态**：16p11.2 CD47 机制（中高）；其他 ASD 亚型普遍性（缺失）
+
+---
+
+## 2026-08-15 新增（来自"左眼还是右眼：眼优势柱"文章 #114）
+
+### Q-odc-01（高优先级）：人类 V1 关键期 ODC 竞争的分子时序
+
+- **关联 wiki**：[[ocular-dominance-columns]]、[[critical-period]]
+- **来源文章**：2026-08-15-ocular-dominance-columns-visual-critical-period
+- **问题**：小鼠关键期为 P21–P35（约 2 周）；猫约 3–8 周龄（peak ~5 周）；猕猴约出生后 4–8 周。人类 V1 关键期对应在何时？AMPA/NMDA 比值升高的时间窗口？β2-nAChR 视网膜波在人类胎儿眼睛睁开前是否也存在（现有证据：离体视网膜电生理有波状活动，但体内时序不明）？
+- **当前证据状态**：啮齿类/猫/猴（高，多实验室）；人类关键期分子时序（几乎无直接数据）；弱视流行病学间接提示 ~2–5 岁为高风险窗口
+
+### Q-odc-02（中优先级）：ODC 条带形成与 ODP 竞争的分子可解耦性
+
+- **关联 wiki**：[[ocular-dominance-columns]]、[[retinal-waves]]
+- **来源文章**：2026-08-15-ocular-dominance-columns-visual-critical-period
+- **问题**：小鼠无 ODC 条带但有完整 ODP；Long-Evans 大鼠有 ODC 但 ODP 与小鼠类似。这提示 ODC 解剖条带化和 ODP 功能竞争可能是可解耦的。(a) 具体哪些分子步骤对 ODC 条带形成是充分必要但对 ODP 非必要？(b) 是否与 LGN ipsilateral 投射比例（~5% 小鼠 vs ~10–20% 猫）直接相关？(c) 通过基因操控人为增加小鼠 ipsilateral 投射是否可诱导 ODC 条带？
+
+### Q-odc-03（中优先级）：ODP 阶段二的主导机制（详见 C-2026-08-15-01）
+
+- **关联 wiki**：[[ocular-dominance-columns]]、[[homeostatic-plasticity]]、[[ltp]]
+- **来源文章**：2026-08-15-ocular-dominance-columns-visual-critical-period
+- **问题**：Hebbian LTP（沉默突触开锁，PSD-95 依赖，Xu 2020）vs 稳态突触缩放（TNFα，Kaneko 2017）——哪个是 ODP 阶段二的主导机制？两者的时间窗口和层级分工如何？
+
+### Q-retwave-01（中优先级）：视网膜波 Stage III 在关键期开启中的角色
+
+- **关联 wiki**：[[retinal-waves]]、[[critical-period]]
+- **来源文章**：2026-08-15-ocular-dominance-columns-visual-critical-period
+- **问题**：Stage II 波（乙酰胆碱，P0–P10）对 LGN 分层的作用已明确。但 Stage III 波（谷氨酸，P10–P14，就在关键期开启前）是否通过影响 V1 Layer 4 突触成熟（AMPA/NMDA 比值的初始设定）参与决定关键期何时开启？β2-nAChR KO 已经使 LGN 分层破坏，那么单独阻断 Stage III 波（不影响 Stage II）是否影响关键期开启时间？
+
+### Q-retwave-02（低优先级）：人类早产儿视网膜波完整性与 LGN 分层
+
+- **关联 wiki**：[[retinal-waves]]、[[ocular-dominance-columns]]
+- **来源文章**：2026-08-15-ocular-dominance-columns-visual-critical-period
+- **问题**：人类足月（~40周）在出生前完成了 Stage II 波（对应 β2-nAChR 依赖阶段）；但极早产儿（<28周）在关键的视网膜波期间就暴露于外部光刺激。是否有证据显示早产儿的 LGN 眼特异分层不如足月儿精确？早产儿 V1 的 ODC 发育时序是否延迟？
+

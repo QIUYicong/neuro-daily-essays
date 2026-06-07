@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-14（**第113篇**·感觉世界的有线传输：丘脑皮层轴突如何翻越三道关卡、在皮层上刻写感觉地图）· 主题页总数：**227**（新建2页：thalamocortical-axons、subplate-neurons；修订3页：barrel-cortex rev3、cortical-arealization rev2、axon-guidance rev3；图谱238节点、1358边）
+> 最后更新：2026-08-15（**第114篇**·左眼还是右眼：视觉皮层如何通过 Hebbian 竞争雕刻眼优势柱）· 主题页总数：**229**（新建2页：ocular-dominance-columns、retinal-waves；修订2页：critical-period rev4、v1-primary-visual-cortex rev5；图谱240节点、1370边）
 
 ---
 
@@ -44,6 +44,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [眼优势柱（ODC）](concepts/ocular-dominance-columns.md) — V1 Layer 4 中双眼 LGN 输入的竞争图谱：视网膜波→LGN 预分层→ODC 解剖前体（出生前）；关键期 ODP 两阶段（剥夺眼 NMDAR-LTD / 开放眼 LTP+稳态缩放）；PV+ 去抑制启动；沉默突触开锁（AMPA/NMDA 0.3→2）；tPA-塑素结构重塑 **[NEW 2026-08-15 #114]**
+- 🟢 [视网膜波](concepts/retinal-waves.md) — 出生前 RGC 自发 Stage I/II/III 波；β2-nAChR 驱动 Stage II 对 LGN 眼特异分层至关重要；与 ephrin-A 梯度协同（双重 KO→V1 视野图消失）；ODC 解剖前体的主要驱动力 **[NEW 2026-08-15 #114]**
 - 🟢 [丘脑皮层轴突（TCA）](concepts/thalamocortical-axons.md) — 丘脑感觉核（LGN/VPM/MGN）→皮层 L4 的感觉布线工程：走廊细胞 NRG1-ErbB4 许可通道、握手假说（下板 CTA 脚手架）、Ephrin-A5/EphA4 拓扑编码、FGF3 双路径排斥（PC-PLC+PI3K→Slit1）、丘脑波（E14）、上丘感觉门控 **[NEW 2026-08-14 #113]**
 - 🟢 [下板神经元](concepts/subplate-neurons.md) — 皮层最早出生的神经元；TCA 等待区的宿主与时序调控者；握手假说的中心角色；皮层最早谷氨酸能突触的形成地；人类胎儿期发达（GW13-34）；消亡后影响持久编入皮层回路 **[NEW 2026-08-14 #113]**
 - 🟢 [皮层区域化](concepts/cortical-arealization.md) — EMX2/PAX6/COUP-TFI/Sp8 转录因子梯度建立内在区域蓝图；FGF8 信号中心（连合板）建立梯度；丘脑 NMDAR 依赖活动精细雕刻功能图谱；两阶段综合模型（遗传草稿+活动精修）；新增：上丘为感觉模态守门人（视网膜波驱逐触觉输入→LGN 成纯视觉核） **[NEW 2026-08-13 #112; rev2 2026-08-14 #113]**

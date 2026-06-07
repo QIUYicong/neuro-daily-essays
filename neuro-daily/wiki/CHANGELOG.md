@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-08-15（文章 #114 — 眼优势柱与视觉关键期可塑性）
+
+**新建页面（2 页）**：
+- `wiki/concepts/ocular-dominance-columns.md`：ODC 发育双阶段（视网膜波→LGN 预分层→解剖前体；关键期 ODP→生理成熟）；ODP 两阶段（剥夺眼 NMDAR-LTD / 开放眼 LTP+稳态缩放）；PV+ 去抑制启动微回路；沉默突触开锁（AMPA/NMDA 比值 0.3→2）；tPA-塑素结构重塑；物种差异（猫/猴有 ODC 条带，小鼠无）
+- `wiki/concepts/retinal-waves.md`：Stage I/II/III 视网膜波时序；β2-nAChR 驱动的 Stage II 对 LGN 眼特异分层的关键作用；与 ephrin-A 梯度的协同（双重 KO→V1 视野图几乎消失）；波→LGN 分层→TCA→ODC 的因果链
+
+**修订页面（2 页）**：
+- `wiki/concepts/critical-period.md`（rev4）：新增 [[ocular-dominance-columns]] 和 [[retinal-waves]] 连接；ODP 的去抑制启动（PV+ 先于锥体细胞响应）与关键期 PV+ 机制的直接关联被明确；source_articles 新增 #114
+- `wiki/systems/v1-primary-visual-cortex.md`（rev5）：新增"眼优势柱与 ODP"小节（ODC 形成时间轴、ODP 证据表、小鼠特殊性）；related 新增 ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons；key_sources 新增 PMID:22841309, PMID:32765222, PMID:23975100
+
+**图谱更新**：新增 2 节点（ocular-dominance-columns, retinal-waves），新增 12 条有类型边；图谱总节点 240，总边 1370
+
+**新登记的矛盾（1 条）**：
+- C-2026-08-15-01（中优先级）：ODP 阶段二主导机制争议——Hebbian LTP（沉默突触开锁，Xu 2020）vs. 稳态突触缩放（TNFα，Kaneko 2017）
+
+**新登记的未解问题**：
+- Q-odc-01（高）：人类 V1 ODC 关键期竞争的分子时序
+- Q-odc-02（中）：ODC 形成与 ODP 竞争的分子可解耦性
+- Q-odc-03（中）：ODP 阶段二主导机制分工（详见 C-2026-08-15-01）
+
+**解决的悬空引用**：此前 critical-period.md 和 v1-primary-visual-cortex.md 中提及 ODC 但无对应 wiki 页的悬空引用，今日以 `ocular-dominance-columns.md` 创建解决
+
+---
+
 ## 2026-08-14（文章 #113 — 丘脑皮层轴突导向与感觉地图）
 
 **新建页面（2 页）**：

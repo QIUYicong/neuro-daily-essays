@@ -15,6 +15,26 @@
       "last_changed": "2026-08-12",
       "change_reason": "创建新页面；Science 2015 发现论文为 established 级别，但认知效益证据（小鼠行为学）置信度为 medium",
       "source_article": "2026-08-12-srgap2c-arhgap11b-human-cortical-neoteny"
+    },
+    {
+      "slug": "ocular-dominance-columns",
+      "title": "眼优势柱",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-08-15",
+      "change_reason": "新建：基于 Espinosa & Stryker 2012 + Kuhlman 2013 + Xu et al. 2020 + Takahata 2024，合并 5 篇开放全文来源；ODC 发育和 ODP 机制有数十年多实验室支持，evidence level 高",
+      "prior_status": null
+    },
+    {
+      "slug": "retinal-waves",
+      "title": "视网膜波",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-08-15",
+      "change_reason": "新建：基于 Espinosa & Stryker 2012 综述中整合的 β2-nAChR KO 等多个独立遗传学实验；Stage II 波对 LGN 分层的因果作用有强的遗传学证据",
+      "prior_status": null
     }
   ],
   "last_updated": "2026-08-14",

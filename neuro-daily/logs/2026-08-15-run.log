@@ -1,0 +1,94 @@
+# 运行日志 2026-08-15 | 文章 #114
+
+**运行时间**：2026-08-15（系列真实日期：2026-06-07）
+**系列编号**：第 114 篇
+**分支**：main
+**状态**：成功
+
+---
+
+## 选题过程
+
+**输入**：topic_ledger 最近记录（#113 丘脑皮层轴突导向）；next_suggested_topics 建议；wiki _graph.json 中 ocular-dominance-columns 悬空引用；critical-period.md 中提及 ODC 但缺乏对应 wiki 页
+**选题决策**：选择"眼优势柱与视觉关键期可塑性"（curriculum 2. 神经网络如何建成，第7章）；自然延续 #113（TCA 到达 V1 后的竞争精化）
+**主题缩小**：核心问题聚焦在 ODC 竞争的完整分子机制（LGN 预分层→PV+ 去抑制→LTD/LTP 两阶段→沉默突触开锁），而非泛泛讲"关键期"
+
+---
+
+## 搜索策略
+
+### PubMed E-utilities 检索
+- `ocular dominance plasticity critical period review mechanisms`：返回 12 个 PMID，含 Xu et al. 2020 (32765222)、Levelt & Hübener 2012 (22462544)、Hensch 2005 (16261181)、Kuhlman 2013 (23975100)
+- `ocular dominance columns development LGN eye specific segregation`：无返回（查询过于精确）
+- `monocular deprivation LTP LTD synaptic plasticity V1 critical period`：HTTP 429 速率限制，重试后无返回
+
+### WebSearch 补充
+- "ocular dominance columns critical period plasticity mechanisms review 2020 2021 2022 PubMed"：发现 Takahata 2024 综述（PMC11258045）
+- "Espinosa Stryker 2012 development plasticity primary visual cortex"：确认 PMID:22841309、PMC:PMC3612584
+
+### PMC 全文获取
+- PMC3612584（Espinosa & Stryker 2012）：成功读取，关键内容提取（ODC 形成、ODP 阶段划分、β2-nAChR KO 证据）
+- PMC7380267（Xu et al. 2020）：成功读取，沉默突触框架全文内容提取
+- PMC3154827（Lazarus & Huang 2011）：成功读取，PV+/SST+ 发育轨迹
+- PMC11258045（Takahata 2024）：成功读取，ODC 跨物种综述
+- PMC3962838（Kuhlman et al. 2013）：未直接全文读取，但从 WebSearch 获得关键发现
+
+---
+
+## 来源采用情况
+
+| 来源 | PMID | 全文状态 | 采用/排除 | 原因 |
+|------|------|---------|----------|------|
+| Espinosa & Stryker 2012 | 22841309 | PMC 全文 | 采用 | 综述基准，ODP 机制权威来源 |
+| Xu et al. 2020 | 32765222 | PMC 全文 | 采用 | 沉默突触框架的最新系统综述 |
+| Kuhlman et al. 2013 | 23975100 | PMC 全文 | 采用 | PV+ 去抑制机制直接因果证据 |
+| Takahata 2024 | 39036421 | PMC 全文 | 采用 | 跨物种 ODC 综述，重要物种差异 |
+| Lazarus & Huang 2011 | 21613595 | PMC 全文 | 采用 | PV+/SST+ 成熟分化证据 |
+| Levelt & Hübener 2012 | 22462544 | 摘要 | 采用（摘要） | 标准参考综述 |
+| Hensch 2005 | 16261181 | 摘要 | 采用（摘要） | 关键期机制经典综述 |
+| Min 2025 | 40519698 | 摘要 | 采用（摘要） | 成年 ODP 更新 |
+| Crowley & Katz 2002 | 11861172 | 摘要 | 采用（摘要） | ODC 发育历史综述 |
+
+---
+
+## Wiki 固结
+
+### 新建页面（2页）
+- `wiki/concepts/ocular-dominance-columns.md`（rev1, established, high）
+- `wiki/concepts/retinal-waves.md`（rev1, established, high）
+
+### 修订页面（2页）
+- `wiki/concepts/critical-period.md`（rev3→rev4）：新增 ODC/retinal-waves 连接
+- `wiki/systems/v1-primary-visual-cortex.md`（rev4→rev5）：新增 ODP 节
+
+### 矛盾检查
+- 未发现新内容与现有 wiki 主张直接冲突
+- 新登记 C-2026-08-15-01（ODP 阶段二主导机制争议）
+
+### 图谱更新
+- 新增节点：2（ocular-dominance-columns, retinal-waves）
+- 新增边：12
+- 更新后总节点：240，总边：1370
+
+---
+
+## 失败与限制
+
+- NCBI E-utilities 多次 HTTP 429 速率限制；通过 PMC 直接获取和 WebSearch 补充解决
+- Kaneko & Stryker 2017 (PMID:28093561) 全文未获取（非 PMC 开放全文）；内容通过 Espinosa & Stryker 2012 综述的引用间接获得
+- Espinosa & Stryker 2012 引用的原始论文（如 Frenkel & Bear 2004 LTD 实验）无法单独获取全文；但综述中已有充分描述
+
+---
+
+## Git 状态
+
+**分支**：main
+**文件操作**：
+- 新建：articles/2026-08-15-*.md, notes/2026-08-15-*.md, sources/2026-08-15-*.json
+- 新建 wiki：concepts/ocular-dominance-columns.md, concepts/retinal-waves.md
+- 修订 wiki：concepts/critical-period.md (rev4), systems/v1-primary-visual-cortex.md (rev5)
+- 更新状态：_graph.json, CHANGELOG.md, index.md, topic_ledger.json, unresolved_questions.md, source_registry.json, monthly_synthesis.md, maturity_index.json, contested_claims.json
+- 当前日志：logs/2026-08-15-run.log
+
+**commit 状态**：等待提交
+**push 状态**：等待推送

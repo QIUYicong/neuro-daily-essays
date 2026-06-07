@@ -8183,6 +8183,40 @@
         "2026-08-14-thalamocortical-axons-guidance-sensory-maps"
       ],
       "coverage": "FGF3 dual pathway (PC-PLC direct + PI3K→Slit1 indirect)"
+    },
+    {
+      "pmid": "32765222",
+      "pmcid": "PMC7380267",
+      "title": "Silent Synapse-Based Mechanisms of Critical Period Plasticity",
+      "authors": [
+        "Xu W",
+        "Löwel S",
+        "Schlüter OM"
+      ],
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2020,
+      "first_used": "2026-08-15",
+      "articles_using": [
+        "2026-08-15-ocular-dominance-columns-visual-critical-period"
+      ],
+      "open_access": true,
+      "covers": "Silent synapses as substrate for ODP; gestalt vs innate synapses; PSD-95/93 regulation; AMPA/NMDA ratio 0.3->2; adult vs juvenile ODP differences"
+    },
+    {
+      "pmid": "39036421",
+      "pmcid": "PMC11258045",
+      "title": "Development of ocular dominance columns across rodents and other species",
+      "authors": [
+        "Takahata T"
+      ],
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2024,
+      "first_used": "2026-08-15",
+      "articles_using": [
+        "2026-08-15-ocular-dominance-columns-visual-critical-period"
+      ],
+      "open_access": true,
+      "covers": "ODC in Long-Evans vs albino rats; anatomical ODC pre-eye-opening vs physiological ODP maturation; species comparison"
     }
   ],
   "total_sources": 455,

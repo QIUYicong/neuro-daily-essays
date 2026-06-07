@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-14",
-  "node_count": 238,
-  "edge_count": 1358,
+  "updated": "2026-08-15",
+  "node_count": 240,
+  "edge_count": 1370,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2155,6 +2155,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/subplate-neurons.md"
+    },
+    {
+      "id": "ocular-dominance-columns",
+      "title": "眼优势柱",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ocular-dominance-columns.md"
+    },
+    {
+      "id": "retinal-waves",
+      "title": "视网膜波",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/retinal-waves.md"
     }
   ],
   "edges": [
@@ -9450,6 +9468,66 @@
     {
       "from": "thalamocortical-axons",
       "to": "subplate-neurons",
+      "type": "related"
+    },
+    {
+      "from": "retinal-waves",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "retinal-waves",
+      "to": "thalamocortical-axons",
+      "type": "supports"
+    },
+    {
+      "from": "ocular-dominance-columns",
+      "to": "v1-primary-visual-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "critical-period",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "ocular-dominance-columns",
+      "type": "regulates"
+    },
+    {
+      "from": "ltp",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ltd",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bdnf",
+      "to": "ocular-dominance-columns",
+      "type": "regulates"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "ocular-dominance-columns",
+      "type": "regulates"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "ocular-dominance-columns",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "homeostatic-plasticity",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ocular-dominance-columns",
+      "to": "orientation-selectivity",
       "type": "related"
     }
   ],

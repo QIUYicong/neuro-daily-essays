@@ -7124,6 +7124,97 @@
         "眼优势柱（Ocular Dominance Columns）：视觉关键期的经典模型——单眼剥夺实验（Hubel & Wiesel）、LGN 层segregation、AMPA/NMDA 比值变化",
         "视网膜拓扑（Retinotopic Map）形成：从视网膜到 LGN 到 V1 的 Ephrin-A 梯度如何建立精确的视觉坐标映射"
       ]
+    },
+    {
+      "date": "2026-08-15",
+      "real_date": "2026-06-07",
+      "article_number": 114,
+      "title": "左眼还是右眼：视觉皮层如何通过 Hebbian 竞争从沉默突触中雕刻出眼优势柱",
+      "slug": "ocular-dominance-columns-visual-critical-period",
+      "filename": "2026-08-15-ocular-dominance-columns-visual-critical-period.md",
+      "article_type": "regular",
+      "core_question": "在视觉关键期，来自双眼的 LGN 轴突如何通过 NMDAR 依赖的 Hebbian 竞争在 V1 Layer 4 形成眼优势柱？视网膜波驱动的 LGN 眼特异性分层（Stage II / β2-nAChR）、PV+ 去抑制微回路的 ODP 启动、剥夺眼 AMPAR 内吞（LTD 第1-4天）与开放眼沉默突触开锁（LTP+稳态缩放 第3-7天）、BDNF-tPA-塑素级联，以及 PNN 封印，如何协同完成从'竞争'到'固化'的完整分子程序？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "systems",
+        "cognition"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（皮层发育脊柱第7章：ODC竞争与关键期精化，连接TCA布线#113与下一步感觉加工/方位系统）",
+      "topic_tags": [
+        "ocular dominance columns",
+        "ODC",
+        "ocular dominance plasticity",
+        "ODP",
+        "retinal waves",
+        "beta2-nAChR",
+        "LGN eye-specific segregation",
+        "monocular deprivation",
+        "critical period",
+        "visual cortex V1",
+        "Hebbian competition",
+        "LTP",
+        "LTD",
+        "AMPA receptor",
+        "NMDA receptor",
+        "silent synapse",
+        "AMPA/NMDA ratio",
+        "PV interneurons",
+        "disinhibitory microcircuit",
+        "BDNF",
+        "TrkB",
+        "tPA",
+        "plasmin",
+        "perineuronal nets",
+        "Hubel Wiesel",
+        "binocular vision",
+        "amblyopia",
+        "critical period closure",
+        "homeostatic synaptic scaling",
+        "TNFalpha",
+        "PSD-95",
+        "Espinosa Stryker 2012",
+        "Kuhlman 2013",
+        "Xu Lowel Schluter 2020",
+        "Takahata 2024",
+        "Lazarus Huang 2011"
+      ],
+      "main_sources": [
+        "PMID:22841309 / PMC:PMC3612584 (Espinosa & Stryker 2012, Neuron, open full text)",
+        "PMID:32765222 / PMC:PMC7380267 (Xu et al. 2020, Front Cell Neurosci, open full text)",
+        "PMID:23975100 / PMC:PMC3962838 (Kuhlman et al. 2013, Nature, open full text)",
+        "PMID:39036421 / PMC:PMC11258045 (Takahata 2024, Front Neural Circuits, open full text)",
+        "PMID:21613595 / PMC:PMC3154827 (Lazarus & Huang 2011, J Neurophysiol, open full text)",
+        "PMID:22462544 (Levelt & Hübener 2012, Annu Rev Neurosci, abstract only)",
+        "PMID:16261181 (Hensch 2005, Curr Top Dev Biol, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/ocular-dominance-columns.md",
+        "wiki/concepts/retinal-waves.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/critical-period.md (rev3->rev4): 新增 ocular-dominance-columns 和 retinal-waves 连接；ODP 去抑制启动细节",
+        "wiki/systems/v1-primary-visual-cortex.md (rev4->rev5): 新增眼优势柱与 ODP 小节；related 扩展；key_sources 新增 3 条"
+      ],
+      "contested_claims_logged": [
+        "C-2026-08-15-01"
+      ],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-odc-01",
+        "Q-odc-02",
+        "Q-odc-03",
+        "Q-retwave-01",
+        "Q-retwave-02"
+      ],
+      "next_suggested_topics": [
+        "视网膜拓扑图（Retinotopic Map）形成：从视网膜到 LGN 到 V1 的 Ephrin-A 梯度如何建立精确的视觉坐标映射——与 ODC 形成机制的平行与分工",
+        "弱视（Amblyopia）作为疾病窗口：关键期 ODP 失衡的临床后果——皮层机制、双眼竞争失衡与新型治疗策略（重开关键期）",
+        "方位超柱（Orientation Hypercolumn）：V1 中方向图与眼优势图的交织组织——它们是如何协同涌现的？是否存在共同的活动依赖机制？"
+      ]
     }
   ],
   "layer_coverage_recent": {

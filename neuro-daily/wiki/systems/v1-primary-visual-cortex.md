@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-07-01
-revision_count: 4
+updated: 2026-08-15
+revision_count: 5
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
-source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS]
-key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956"]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-15-ocular-dominance-columns-visual-critical-period]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:22841309", "PMID:32765222", "PMID:23975100"]
 ---
 
 # 初级视觉皮层（V1）
@@ -124,8 +124,31 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 | V1 接受来自高级视觉区的预测反馈（α/β 主导） | 灵长类 MEG/LFP 多脑区记录 | PMID:23177956 | 高 |
 | 环绕抑制/末端停止可由预测编码模型复现 | 计算模型 + 自然图像训练 | PMID:10195184 | 中（模型证据，非直接区分实验）|
 
+## 眼优势柱与 ODP（2026-08-15 新增）
+
+V1 Layer 4 是双眼输入竞争的主战场。在猫和灵长类中，来自左右眼的 LGN 轴突在 Layer 4 形成交替条带状的**眼优势柱（ODC）**（详见 [[ocular-dominance-columns]]）。
+
+**ODC 形成时间轴**：
+- 出生前：[[retinal-waves]]（β2-nAChR 依赖）驱动 LGN 眼特异性分层；LGN 轴突到 V1 Layer 4 形成 ODC 解剖前体
+- 关键期（~P21–P35，小鼠）：视觉经验驱动 ODP——单眼剥夺（MD）→ 剥夺眼 LTD（AMPAR 内吞，第 1–4 天）→ 开放眼 LTP + 稳态缩放（第 3–7 天）→ ODC 版图重组
+
+**ODP 的关键证据**（PMID:22841309）：
+| 主张 | 方法 | 置信度 |
+|------|------|--------|
+| ODP 阶段一不依赖蛋白质合成；阻断 NMDAR 消除 | APV 注射 + VEP | 高 |
+| ODP 阶段二依赖 BDNF-TrkB 和蛋白质合成 | TrkB KO + 放线菌素 D | 高 |
+| PV+ 细胞活动维持（ChR2）阻止 OD 偏移 | 光遗传 + VEP | 高 (PMID:23975100) |
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| β2-nAChR KO → V1 视野图破坏（波 + 分子梯度协同必要） | 双重 KO + intrinsic imaging | PMID:22841309 | 高 |
+| 沉默突触开锁（AMPA/NMDA 比值升高）是关键期底物 | 单突触电生理 | PMID:32765222 | 中-高 |
+
+**小鼠 V1 特点**：小鼠无解剖 ODC（盐-胡椒分布），但有完整 ODP——这表明 ODC 解剖图谱与 ODP 功能可塑性是可解耦的两个现象。
+
 ## 修订历史
 
+- 2026-08-15 · 修订 rev5 · 基于《左眼还是右眼：眼优势柱》(#114) · 新增"眼优势柱与 ODP"小节；related 新增 ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons；key_sources 新增 PMID:22841309, PMID:32765222, PMID:23975100
 - 2026-06-11 · 创建 · 基于《V1初级视觉皮层的方向选择性》一文 · 初始置信度：高
 - 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增"神经调质对 V1 的调制"小节（ACh/肌碱受体介导注意调制，Herrero 2008）；related 新增 acetylcholine-cortex, gain-control；opens_questions 新增 Q-ach-ne-02；key_sources 新增 PMID:18633352
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 新增"预测编码视角下的 V1"小节；新增感觉运动失配实验（Keller 2012）和环绕抑制预测编码解释；related 新增 predictive-coding, precision-weighting；opens_questions 新增 Q-pc-04；key_sources 新增 PMID:22681686, PMID:10195184, PMID:23177956
@@ -138,3 +161,4 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-06-15-predictive-coding]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
+- [[2026-08-15-ocular-dominance-columns-visual-critical-period]]
