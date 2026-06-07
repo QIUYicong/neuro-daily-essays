@@ -521,5 +521,19 @@
     "revision_count": 2,
     "last_changed": "2026-08-08",
     "change_reason": "修订（文章 #107）：新增 CF 奖励信号证据（PMID:40848722，低置信度）；整体 status 维持 established，因单篇不足以改变基础定性；登记矛盾 C-2026-08-08-01"
+  },
+  {
+    "slug": "cortical-column",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-08-12",
+    "reason": "创建。本体论柱（发育）置信度高；宏观功能柱（方向柱/眼优势柱）在物种比较中功能意义受质疑（Horton & Adams 2005），故整体confidence=medium, status=mainstream"
+  },
+  {
+    "slug": "radial-unit-hypothesis",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-12",
+    "reason": "创建。Rakic 1988年提出，遗传工程（β-catenin过表达→皮层折叠）和逆转录病毒标记均验证了核心预测；多物种独立重复；established/high"
   }
 ]

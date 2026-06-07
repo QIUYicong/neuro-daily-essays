@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-11",
+  "updated": "2026-08-12",
   "node_count": 203,
   "edge_count": 1179,
   "edge_types": [
@@ -2101,6 +2101,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/cortical-migration-disorders.md"
+    },
+    {
+      "id": "cortical-column",
+      "title": "皮层功能柱",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/cortical-column.md"
+    },
+    {
+      "id": "radial-unit-hypothesis",
+      "title": "放射单元假说",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/radial-unit-hypothesis.md"
     }
   ],
   "edges": [
@@ -9225,6 +9243,81 @@
     },
     {
       "from": "tangential-migration",
+      "to": "cortical-migration-disorders",
+      "type": "related"
+    },
+    {
+      "from": "cortical-column",
+      "to": "radial-unit-hypothesis",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "radial-unit-hypothesis",
+      "to": "cortical-column",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-column",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "cortical-column",
+      "type": "is-a"
+    },
+    {
+      "from": "cortical-column",
+      "to": "cortical-layers",
+      "type": "part-of"
+    },
+    {
+      "from": "cortical-column",
+      "to": "cortical-neurogenesis",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "cortical-column",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-column",
+      "to": "thalamocortical-circuit",
+      "type": "related"
+    },
+    {
+      "from": "cortical-column",
+      "to": "cortical-interneuron-development",
+      "type": "related"
+    },
+    {
+      "from": "cortical-column",
+      "to": "canonical-microcircuit",
+      "type": "related"
+    },
+    {
+      "from": "radial-unit-hypothesis",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "radial-unit-hypothesis",
+      "to": "outer-radial-glia",
+      "type": "related"
+    },
+    {
+      "from": "radial-unit-hypothesis",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "radial-unit-hypothesis",
+      "to": "notch2nl-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "radial-unit-hypothesis",
       "to": "cortical-migration-disorders",
       "type": "related"
     }

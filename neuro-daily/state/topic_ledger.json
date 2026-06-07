@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-11",
-  "total_articles": 110,
+  "last_updated": "2026-08-12",
+  "total_articles": 111,
   "entries": [
     {
       "date": "2026-08-09",
@@ -6906,6 +6906,90 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8≈2026-06-07；知识库虚拟日期2026-08-11；10个来源2个开放全文；3新wiki页，3修订"
+    },
+    {
+      "date": "2026-08-12",
+      "real_date": "2026-06-07",
+      "article_number": 111,
+      "title": "垂直之谜：皮层功能柱的六十年争议——从 Mountcastle 的猫到无柱松鼠的奇异比较",
+      "slug": "cortical-column-mountcastle-radial-unit",
+      "filename": "2026-08-12-cortical-column-mountcastle-radial-unit.md",
+      "article_type": "regular",
+      "core_question": "皮层功能柱——从 Mountcastle 1957 年在猫的体感皮层发现的垂直感觉模态组织，到 Hubel-Wiesel 的方向柱和眼优势柱，到 Rakic 的放射单元发育假说，再到 Horton & Adams 2005 年发现无方向柱的松鼠同样拥有精确的方向选择性——柱究竟是大脑的基本计算单元、发育程序的必然产物，还是不同物种用不同方式解决的可选方案？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（皮层功能组织；第2章系列收官：Inside-Out(#108)→切向迁移(#109)→迁移障碍(#110)→功能柱(#111)）",
+      "topic_tags": [
+        "cortical column",
+        "Mountcastle",
+        "radial unit hypothesis",
+        "Rakic",
+        "orientation column",
+        "ocular dominance column",
+        "hypercolumn",
+        "barrel cortex",
+        "barrel formation",
+        "AC1",
+        "cAMP-PKA",
+        "NMDA receptor",
+        "Golgi apparatus polarity",
+        "dendrite patterning",
+        "Horton Adams 2005",
+        "orientation selectivity without map",
+        "gray squirrel",
+        "squirrel monkey",
+        "protomap",
+        "ontogenetic column",
+        "minicolumn",
+        "functional column",
+        "beta-catenin",
+        "cortical expansion",
+        "cortical folding",
+        "thalamocortical axons",
+        "activity-dependent refinement",
+        "Hubel Wiesel",
+        "orientation selectivity",
+        "species comparison"
+      ],
+      "main_sources": [
+        "PMID:13439410 (Mountcastle 1957, J Neurophysiol, abstract only - historical landmark)",
+        "PMID:15937015 / PMC1569491 (Horton & Adams 2005, Philos Trans R Soc Lond B, open full text read)",
+        "PMID:27325058 / PMC4914527 (Haueis 2016, Hist Philos Life Sci, open full text read)",
+        "PMID:17467805 / PMC2203611 (Rakic 2007, Brain Res Rev, open full text read)",
+        "PMID:20667930 / PMC2936809 (Schubert et al 2010, Cereb Cortex, open full text read)",
+        "PMID:21534999 / PMC4700879 (Li & Crair 2011, Ann N Y Acad Sci, open full text read)",
+        "PMID:38827189 / PMC11140076 (Nakagawa & Iwasato 2024, Front Neural Circuits, open full text read)",
+        "PMID:19380167 / PMC3601545 (Decision by Division 2009, Trends Neurosci, open full text read)",
+        "PMC6725193 (Orientation Selectivity without Maps in squirrel, open full text read)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/cortical-column.md",
+        "wiki/concepts/radial-unit-hypothesis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/barrel-cortex.md (rev2->rev3): 新增桶形成两步机制（AC1/cAMP+Golgi极化），新增cortical-column/radial-unit-hypothesis连接",
+        "wiki/concepts/cortical-layers.md (rev2->rev3): 新增cortical-column/radial-unit-hypothesis连接",
+        "wiki/concepts/cortical-neurogenesis.md (rev3->rev4): 新增radial-unit-hypothesis/cortical-column连接"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-column-01",
+        "Q-column-02",
+        "Q-column-03"
+      ],
+      "next_suggested_topics": [
+        "方向选择性的回路机制：皮层内如何从等方向的LGN输入中生成方向选择性（简单细胞 vs 复杂细胞模型；Hubel-Wiesel前馈模型 vs Di Carlo中间神经元模型）",
+        "皮层进化遗传学：SRGAP2C、ARHGAP11B——人类特有的皮层扩张基因如何在进化中被选择，以及它们对放射单元数量的影响",
+        "神经元极性建立：轴突-树突不对称的分子机制（MARK2/PAR复合物；tau的轴突偏好；同一神经元如何同时建立极性方向和极性维持）",
+        "突触密度的调控：哺乳动物皮层每立方毫米~1亿个突触是如何被精确调控的？突触密度异常与认知障碍的关系"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8≈2026-06-07（真实执行日期）；知识库虚拟日期2026-08-12；课程脊柱第2章'神经网络如何建成'系列收官篇；9个来源中8个开放全文读取（1个历史原典仅有PubMed记录）；无PMID编造；无新矛盾登记（功能柱功能争议在wiki页面内部呈现，未构成新旧主张冲突）；2个新wiki页创建，3个修订；知识图谱：234节点，1339条边"
     }
   ],
   "layer_coverage_recent": {

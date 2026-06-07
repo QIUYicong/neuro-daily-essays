@@ -1,0 +1,118 @@
+# 运行日志 2026-08-12
+
+**真实执行日期**：2026-06-07（UTC+8）
+**知识库虚拟日期**：2026-08-12
+**文章序号**：#111
+**分支**：claude/funny-einstein-HBbon（目标合并到 main）
+
+## 选题过程
+
+**选题驱动**：课程脊柱第2章"神经网络如何建成"系列（#108 Inside-Out→#109 切向迁移→#110 迁移障碍），今日选择"皮层功能柱"作为收官篇，来自前序文章 #109 和 #110 的 next_suggested_topics。
+
+**选题理由**：
+- 皮层功能柱是理解皮层组织的核心概念，多次出现在建议主题中
+- 放射单元假说（Rakic）直接连接到前序文章的神经发生内容
+- Horton & Adams 2005的物种比较争议提供了丰富的科学叙事空间
+- 桶状皮层（已有wiki页）的详细发育机制（Nakagawa 2024）提供了最新具体证据
+
+**层级平衡**：前三篇（分子/细胞/疾病），今日（细胞/微回路/脑区），层级适当变化
+
+## 文献检索
+
+**搜索词**：
+1. "cortical column Mountcastle radial unit hypothesis Rakic development PubMed review"
+2. "cortical column molecular mechanisms activity-dependent formation barrel cortex review 2020-2023"
+3. "Rakic radial unit hypothesis 1988 Science cortical column development protomap PMID"
+4. "cortical column orientation selectivity rodents squirrel monkey no columns Horton Adams 2005 debate"
+5. "Mountcastle 1957 modality and topographic properties somatosensory cortex PMID Journal Neurophysiology"
+
+**数据源**：PubMed（NCBI）、PMC Open Access、WebSearch
+
+**候选文献**：~15篇
+**采用**：9篇（8篇开放全文读取，1篇历史原典仅摘要/记录）
+
+## 来源采用/排除说明
+
+**采用**：
+- PMID:13439410 (Mountcastle 1957) — 历史原典，仅PubMed记录，无摘要，无开放全文；文章中注明
+- PMID:15937015 / PMC1569491 (Horton & Adams 2005) — 开放全文，核心批评文献
+- PMID:27325058 / PMC4914527 (Haueis 2016) — 开放全文，历史分析
+- PMID:17467805 / PMC2203611 (Rakic 2007) — 开放全文，放射单元假说综述
+- PMID:20667930 / PMC2936809 (Schubert 2010) — 开放全文，桶柱细胞组成
+- PMID:21534999 / PMC4700879 (Li & Crair 2011) — 开放全文，桶形成分子机制
+- PMID:38827189 / PMC11140076 (Nakagawa & Iwasato 2024) — 开放全文，最新高尔基体极化发现
+- PMID:19380167 / PMC3601545 (Decision by Division 2009) — 开放全文，皮层区域化
+- PMC6725193 (灰松鼠方向选择性) — 开放全文，物种比较核心证据
+
+**排除**：
+- Hubel & Wiesel 1962 J Physiol (无开放全文) — 通过Haueis 2016历史综述转引
+- Rakic 1988 Science PMID:3291116 (无开放全文) — 以Rakic 2007综述替代
+- Woolsey & Van der Loos 1970 (无开放全文) — 历史发现，通过其他来源转引
+
+## 固结步骤
+
+**新建 wiki 页面（2）**：
+- `wiki/concepts/cortical-column.md` rev1 — 三层级定义，物种比较，桶形成机制；confidence:medium（宏观功能柱功能意义有争议）
+- `wiki/concepts/radial-unit-hypothesis.md` rev1 — Rakic框架，XY/Z坐标编码，遗传验证；confidence:high
+
+**修订 wiki 页面（3）**：
+- `wiki/concepts/barrel-cortex.md` rev2→rev3 — 新增桶形成两步机制详细内容
+- `wiki/concepts/cortical-layers.md` rev2→rev3 — 新增cortical-column连接
+- `wiki/concepts/cortical-neurogenesis.md` rev3→rev4 — 新增radial-unit-hypothesis连接
+
+**矛盾检查**：
+- 无新矛盾登记。功能柱功能意义的争议在 cortical-column.md 页面"当前理解"中如实呈现
+- 宏观功能柱功能意义有争议，但这与既有页面（barrel-cortex等）的内容不构成直接主张冲突
+
+**成熟度变更**：
+- cortical-column: 新建 mainstream/medium（宏观功能柱功能争议+物种差异）
+- radial-unit-hypothesis: 新建 established/high（多重遗传操作验证）
+
+**图谱更新**：
+- 节点：232→234（+2）
+- 边：1324→1339（+15）
+
+## 状态文件更新
+
+- topic_ledger.json: 添加条目 #111，total_articles=111
+- maturity_index.json: 添加2个新条目
+- source_registry.json: 添加5个新来源，total=455
+- monthly_synthesis.md: 追加2026-08-12条目
+- unresolved_questions.md: 添加Q-column-01/02/03
+- wiki/CHANGELOG.md: 追加2026-08-12条目
+- wiki/index.md: 更新总地图（222页面，234节点，1339边）
+
+## 自检
+
+**真实性**：
+- 所有 wiki 新主张有来源（PMID/PMC）✓
+- 区分了事实/模型/推测：Mountcastle发现=事实；宏观功能柱功能意义=争议；微柱功能=推测 ✓
+- 未把单篇小样本研究写成定论 ✓
+- 灰松鼠研究标注了"中高"置信度而非"高" ✓
+
+**一致性**：
+- barrel-cortex.md 新增内容（桶形成机制）与既有内容相容，无矛盾 ✓
+- 修订页 updated/revision_count 同步 ✓
+- _graph.json 无悬空边（orientation-selectivity.md已存在）✓
+
+**可导航**：
+- index.md 和 CHANGELOG.md 反映今日变化 ✓
+- 新页 related/prerequisites 各≥1 ✓
+
+**情景层完整**：
+- articles/2026-08-12-cortical-column-mountcastle-radial-unit.md ✓
+- notes/2026-08-12-reading-notes.md ✓
+- sources/2026-08-12-sources.json ✓
+- 无修改旧文件 ✓
+
+## Git 操作
+
+**commit message**: Add neuro daily article + wiki consolidation for 2026-08-12
+**目标分支**: main（通过claude/funny-einstein-HBbon推送，按平台规则）
+**推送状态**: [待记录]
+
+## 失败与限制
+
+- Rakic 1988原始Science论文无开放全文，以2007年综述替代并明确标注
+- 灰松鼠方向选择性论文的PMID待核实（PMC6725193，内文说PMID:15634763，未独立核实）
+- Hubel & Wiesel的方向柱原始论文无开放全文，通过历史分析综述转引

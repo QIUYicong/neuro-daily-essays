@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-11（**第110篇**·皮层建造的故障报告：LIS1/DCX/Reelin 突变与无脑回谱系障碍）· 主题页总数：**220**（新建3页：lissencephaly、reelin-signaling、cortical-migration-disorders；修订3页：cortical-neurogenesis rev3、tangential-migration rev2、cortical-layers rev2；图谱232节点、1324边）
+> 最后更新：2026-08-12（**第111篇**·垂直之谜：皮层功能柱的六十年争议——Mountcastle 假说、放射单元与无柱松鼠）· 主题页总数：**222**（新建2页：cortical-column、radial-unit-hypothesis；修订3页：barrel-cortex rev3、cortical-layers rev3、cortical-neurogenesis rev4；图谱234节点、1339边）
 
 ---
 
@@ -44,6 +44,8 @@
 
 ## concepts（概念/框架）
 
+- 🔵 [皮层功能柱](concepts/cortical-column.md) — 三层级：本体论柱（放射单元，普遍）/ 微柱（解剖可见，功能存疑）/ 宏观功能柱（方向柱/眼优势柱，物种条件性）；Mountcastle 1957发现；灰松鼠：强方向选择性但无方向柱（Horton & Adams 2005）；桶形成两步机制 **[NEW 2026-08-12 #111]**
+- 🟢 [放射单元假说](concepts/radial-unit-hypothesis.md) — Rakic 1988：VZ位置→皮层XY坐标，出生时间→Z坐标；皮层表面积∝放射单元数；β-catenin过表达→折叠；原始地图（protomap）预设区域身份 **[NEW 2026-08-12 #111]**
 - 🟢 [皮层中间神经元发育](concepts/cortical-interneuron-development.md) — GABA 能中间神经元来自 MGE/CGE，经切向迁移入皮层；Nkx2.1→Lhx6 命运决定；CXCL12/NRG1 导航；30-40% 程序性死亡校准 E/I 比 **[NEW 2026-08-10 #109]**（填补发育系列关键缺口）
 - 🟢 [切向迁移（中间神经元）](concepts/tangential-migration.md) — 盐跃运动；CXCL12/CXCR4 维持流；NRG1/ErbB4 吸引；Semaphorin 排斥；48h 等待期；兴奋性神经元前体"邀请"抑制性细胞的分子握手 **[NEW 2026-08-10 #109]**
 - 🟢 [无脑回（Lissencephaly）](concepts/lissencephaly.md) — LIS1→dynein N-C偶联失败；DCX→微管束化缺陷/X失活双皮层；RELN→终止信号缺失层序倒置；II型→α-DG糖基化缺陷基底膜破裂过度迁移；三种故障揭示 Inside-Out 三独立模块 **[NEW 2026-08-11 #110]**

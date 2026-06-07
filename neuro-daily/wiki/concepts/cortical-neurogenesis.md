@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-09
-updated: 2026-08-11
-revision_count: 3
+updated: 2026-08-12
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, cognition, disease]
-related: [outer-radial-glia, notch2nl-cortical-expansion, critical-period, adult-neurogenesis, synaptic-pruning, axon-guidance, ei-balance, pv-interneurons, cortical-interneuron-development, tangential-migration, medial-ganglionic-eminence, gaba, lissencephaly, reelin-signaling, cortical-migration-disorders]
+related: [outer-radial-glia, notch2nl-cortical-expansion, critical-period, adult-neurogenesis, synaptic-pruning, axon-guidance, ei-balance, pv-interneurons, cortical-interneuron-development, tangential-migration, medial-ganglionic-eminence, gaba, lissencephaly, reelin-signaling, cortical-migration-disorders, radial-unit-hypothesis, cortical-column]
 prerequisites: [synaptic-transmission, ltp]
 opens_questions: [Q-cortex-01, Q-cortex-02, Q-cortex-03]
 source_articles: [2026-08-09-cortical-neurogenesis-inside-out-radial-glia]

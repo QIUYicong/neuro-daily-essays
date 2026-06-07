@@ -6,10 +6,10 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-23
-updated: 2026-08-11
-revision_count: 2
+updated: 2026-08-12
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region]
-related: [canonical-microcircuit, barrel-cortex, somatosensory-cortex, predictive-coding, thalamus, alpha-oscillations, gamma-oscillations, orientation-selectivity, thalamocortical-circuit, lissencephaly, cortical-migration-disorders, cortical-neurogenesis]
+related: [canonical-microcircuit, barrel-cortex, somatosensory-cortex, predictive-coding, thalamus, alpha-oscillations, gamma-oscillations, orientation-selectivity, thalamocortical-circuit, lissencephaly, cortical-migration-disorders, cortical-neurogenesis, cortical-column, radial-unit-hypothesis]
 prerequisites: [action-potential, synaptic-transmission, cortical-homunculus]
 opens_questions: [Q-cl-01, Q-cl-02, Q-cl-03]
 source_articles: [2026-07-23-cortical-layers-canonical-microcircuit]
@@ -86,6 +86,8 @@ L5B（粗大锥体细胞）的轴突投射到皮下结构（纹状体、上丘�
 - [[gamma-oscillations]] — γ 振荡是 L2/3 浅层前馈投射的振荡特征
 - [[orientation-selectivity]] — V1 方向选择性通过六层层间回路（L4→L2/3前馈+L6反馈调制）实现
 - [[thalamocortical-circuit]] — 皮层六层是丘脑-皮层回路（TC-CT）的皮层侧组织原则
+- [[cortical-column]] — 六层是功能柱的垂直维度；本体论柱（ontogenetic column）按 Inside-Out 规则在六层中建造
+- [[radial-unit-hypothesis]] — 每个放射单元产生的神经元按时间顺序占据六层不同位置
 
 ## 未解问题
 
@@ -96,6 +98,7 @@ L5B（粗大锥体细胞）的轴突投射到皮下结构（纹状体、上丘�
 ## 修订历史
 
 - 2026-07-23 · 创建 · 基于《皮层六层架构：大脑用六层细胞片实现感知与预测的解剖分工》(#91) · 初始置信度：高
+- 2026-08-12 · 修订 · 基于《垂直之谜：皮层功能柱》(#111) · 新增 cortical-column、radial-unit-hypothesis 连接（六层作为功能柱的垂直维度；放射单元按Inside-Out规则建六层）
 
 ## 来源文章
 

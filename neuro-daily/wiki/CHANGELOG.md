@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-08-12 · 文章 #111 · 垂直之谜：皮层功能柱的六十年争议——Mountcastle 假说、放射单元与无柱松鼠
+
+**核心主题**：皮层功能柱（cortical column）三层级区分（本体论柱/微柱/宏观功能柱）；Mountcastle 1957年猫体感皮层发现；Hubel-Wiesel方向柱/眼优势柱/超柱概念；Rakic放射单元假说（VZ位置→皮层XY坐标；出生时间→Z坐标；皮层扩张=增加放射单元数量）；原始地图（protomap）假说；桶状皮层两步形成机制（AC1/cAMP第一步+高尔基体极化第二步，Nakagawa&Iwasato 2024）；Horton & Adams 2005跨物种比较挑战（灰松鼠：强方向选择性无方向柱）；功能柱"物种条件性"的现代共识。
+
+**新建页面（2）**：
+- `concepts/cortical-column.md` rev1 — 三层级定义（本体论柱/微柱/功能柱）；Mountcastle/Hubel-Wiesel历史；物种比较挑战（灰松鼠、松鼠猴）；桶形成两步机制；置信度：中（宏观功能柱功能意义受挑战；本体论柱置信度高）(structure, mainstream, confidence:medium)
+- `concepts/radial-unit-hypothesis.md` rev1 — Rakic 1988/2007；XY坐标由VZ位置决定，Z坐标由出生时间决定；皮层表面积∝放射单元数量；遗传验证（β-catenin过表达→皮层折叠）；原始地图（protomap）与分子区域化 (theory, established, confidence:high)
+
+**修订页面（3）**：
+- `concepts/barrel-cortex.md` rev2→rev3 — 新增桶形成两步机制详细内容（AC1/cAMP+NMDA受体高尔基体极化）；related 新增 cortical-column/radial-unit-hypothesis；key_sources 新增 PMID:21534999/PMID:38827189
+- `concepts/cortical-layers.md` rev2→rev3 — related 新增 cortical-column/radial-unit-hypothesis；连接 段新增两条（六层作为功能柱的垂直维度；放射单元Inside-Out规则）
+- `concepts/cortical-neurogenesis.md` rev3→rev4 — related 新增 radial-unit-hypothesis/cortical-column（放射神经发生是本体论柱的细胞层面机制）
+
+**矛盾登记**：无新矛盾（宏观功能柱功能意义争议已在 cortical-column.md 页面内部"当前理解"中如实呈现，未构成新的矛盾登记条目——既有页面中无与今日证据冲突的主张）
+
+**新增悬空引用待补**：`orientation-selectivity`（cortical-column.md 中引用，检查是否已有页面）
+
+**图谱**：232→234 节点（+2），1324→1339 边（+15）
+
+---
+
 ## 2026-08-11 · 文章 #110 · 皮层建造的故障报告：LIS1/DCX/Reelin 突变与无脑回谱系障碍
 
 **核心主题**：I 型无脑回（LIS1 dynein N-C 偶联失败；DCX 微管束化缺陷及 X 染色体随机失活导致双皮层综合征；RELN 终止信号缺失导致层序倒置）；II 型无脑回（α-dystroglycan 糖基化缺陷基底膜破裂过度迁移）；多小脑回（GPR56、tubulinopathies）；三种故障模式揭示 Inside-Out 规则的三个独立模块（迁移机械/导航终止/物理边界）。

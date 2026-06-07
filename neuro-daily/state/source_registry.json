@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7935,9 +7935,90 @@
         "GPR56/ADGRG1"
       ],
       "open_access": false
+    },
+    {
+      "pmid": "13439410",
+      "title": "Modality and topographic properties of single neurons of cat's somatic sensory cortex",
+      "authors": "Mountcastle VB",
+      "year": 1957,
+      "journal": "J Neurophysiol",
+      "used_in": [
+        "2026-08-12-cortical-column-mountcastle-radial-unit"
+      ],
+      "topics": [
+        "cortical column",
+        "somatosensory cortex",
+        "modality columns"
+      ]
+    },
+    {
+      "pmid": "15937015",
+      "pmc": "PMC1569491",
+      "title": "The cortical column: a structure without a function",
+      "authors": "Horton JC, Adams DL",
+      "year": 2005,
+      "journal": "Philos Trans R Soc Lond B Biol Sci",
+      "used_in": [
+        "2026-08-12-cortical-column-mountcastle-radial-unit"
+      ],
+      "topics": [
+        "cortical column",
+        "orientation column",
+        "ocular dominance column",
+        "species comparison"
+      ]
+    },
+    {
+      "pmid": "27325058",
+      "pmc": "PMC4914527",
+      "title": "The life of the cortical column (1955-1981)",
+      "authors": "Haueis P",
+      "year": 2016,
+      "journal": "Hist Philos Life Sci",
+      "used_in": [
+        "2026-08-12-cortical-column-mountcastle-radial-unit"
+      ],
+      "topics": [
+        "cortical column history",
+        "Hubel Wiesel",
+        "Mountcastle"
+      ]
+    },
+    {
+      "pmid": "17467805",
+      "pmc": "PMC2203611",
+      "title": "The radial edifice of cortical architecture",
+      "authors": "Rakic P",
+      "year": 2007,
+      "journal": "Brain Res Rev",
+      "used_in": [
+        "2026-08-12-cortical-column-mountcastle-radial-unit"
+      ],
+      "topics": [
+        "radial unit hypothesis",
+        "cortical development",
+        "protomap"
+      ]
+    },
+    {
+      "pmid": "38827189",
+      "pmc": "PMC11140076",
+      "title": "Activity-dependent dendrite patterning in the postnatal barrel cortex",
+      "authors": "Nakagawa N, Iwasato T",
+      "year": 2024,
+      "journal": "Front Neural Circuits",
+      "used_in": [
+        "2026-08-12-cortical-column-mountcastle-radial-unit"
+      ],
+      "topics": [
+        "barrel cortex",
+        "dendrite patterning",
+        "Golgi apparatus polarity",
+        "NMDA receptor"
+      ]
     }
   ],
-  "total_sources": 386,
+  "total_sources": 455,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
