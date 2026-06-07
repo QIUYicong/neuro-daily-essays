@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-19",
+  "updated": "2026-06-08",
   "node_count": 244,
   "edge_count": 1386,
   "edge_types": [
@@ -2281,6 +2281,42 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/systems/sma-presma.md"
+    },
+    {
+      "id": "speech-perception-phonology",
+      "title": "音韵感知与颞上回",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/speech-perception-phonology.md"
+    },
+    {
+      "id": "cortical-entrainment-speech",
+      "title": "皮层振荡夹带（语音感知）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/cortical-entrainment-speech.md"
+    },
+    {
+      "id": "categorical-perception",
+      "title": "范畴感知",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/categorical-perception.md"
+    },
+    {
+      "id": "asymmetric-sampling-time",
+      "title": "非对称时间采样假说（AST）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/asymmetric-sampling-time.md"
     }
   ],
   "edges": [
@@ -9898,6 +9934,96 @@
     {
       "from": "broca-area",
       "to": "speech-production-circuit",
+      "type": "related"
+    },
+    {
+      "from": "speech-perception-phonology",
+      "to": "auditory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "speech-perception-phonology",
+      "to": "auditory-dual-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "speech-perception-phonology",
+      "to": "language-network",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "speech-perception-phonology",
+      "to": "cortical-entrainment-speech",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "speech-perception-phonology",
+      "to": "asymmetric-sampling-time",
+      "type": "related"
+    },
+    {
+      "from": "speech-perception-phonology",
+      "to": "categorical-perception",
+      "type": "related"
+    },
+    {
+      "from": "speech-perception-phonology",
+      "to": "speech-production-circuit",
+      "type": "related"
+    },
+    {
+      "from": "speech-perception-phonology",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "cortical-entrainment-speech",
+      "to": "theta-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-entrainment-speech",
+      "to": "speech-perception-phonology",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-entrainment-speech",
+      "to": "asymmetric-sampling-time",
+      "type": "related"
+    },
+    {
+      "from": "categorical-perception",
+      "to": "speech-perception-phonology",
+      "type": "related"
+    },
+    {
+      "from": "categorical-perception",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "asymmetric-sampling-time",
+      "to": "speech-perception-phonology",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "asymmetric-sampling-time",
+      "to": "cortical-entrainment-speech",
+      "type": "related"
+    },
+    {
+      "from": "asymmetric-sampling-time",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "cortical-entrainment-speech",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "speech-perception-phonology",
       "type": "related"
     }
   ],

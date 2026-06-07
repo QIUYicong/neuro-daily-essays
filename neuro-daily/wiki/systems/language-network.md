@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-07-15
-revision_count: 4
+updated: 2026-06-08
+revision_count: 5
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub]
-prerequisites: [action-potential, synaptic-transmission, working-memory]
-opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
-source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:32160565", "PMID:31874149", "PMID:28053037"]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub, speech-perception-phonology, auditory-cortex, cortical-entrainment-speech, asymmetric-sampling-time, speech-production-circuit]
+prerequisites: [action-potential, synaptic-transmission, working-memory, auditory-cortex]
+opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03, Q-speech-percep-01]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream, 2026-06-08-speech-perception-phonology-STG]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:32160565", "PMID:31874149", "PMID:28053037", "PMID:22426255", "PMID:40010659"]
 ---
 
 # 语言网络（双流模型）(Dual-Stream Language Network)
@@ -44,7 +44,9 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 
 ## 关键机制
 
-**1. 声音入口**：初级听觉皮层（A1，Heschl's回，BA41/42）接收MGN上行信号 → 颞平面完成时序模式分析 → 信号分入两流
+**0. 音韵预处理入口（2026-06-08 新增）**：在信号进入腹侧/背侧流之前，颞上回（STG）通过皮层振荡夹带（delta/theta/gamma 三级时间窗）主动将声学流切割为音素和音节单元（见 [[speech-perception-phonology]]）。左 STG 偏好~25ms 窗（音素），右 STG 偏好~150ms 窗（音节）（AST 假说，见 [[asymmetric-sampling-time]]）。STG 还对音韵序列的转移概率敏感——它预测下一音素，对低概率音素响应更强。这一阶段是语言网络的"前端翻译层"：声学符号→语音符号。
+
+**1. 声音入口**：初级听觉皮层（A1，Heschl's回，BA41/42）接收MGN上行信号 → 颞平面完成时序模式分析 → STG 完成音韵切割 → 信号分入两流
 
 **2. 腹侧流（声音→意义）**：
 - 颞上沟（STS）/ 中颞回（MTG）：词义提取（激活动作→运动皮层，激活动物→视觉皮层，具身语义）
@@ -91,9 +93,11 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
 - 2026-06-21 · 修订 · 新增镜像神经元（F5/BA44同源）与运动皮层的连接，补充语言演化的动作理解背景 · 依据《从意图到动作》（#57）
 - 2026-07-15 · 重要修订 · 新增LANG/MD网络关键分离（Fedorenko 2020）；新增语言专属预测编码（Shain 2020）；新增ATL语义枢纽作为腹流核心节点；更新related/key_sources
+- 2026-06-08 · 修订 · 新增"音韵预处理入口"（STG 的三级振荡时间窗、AST 不对称、序列概率预测）；新增 related: speech-perception-phonology, auditory-cortex, cortical-entrainment-speech, asymmetric-sampling-time, speech-production-circuit；prerequisites 加入 auditory-cortex；key_sources 加入 PMID:22426255/40010659 · 基于《声学流如何变成语言》（第119篇）
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
 - [[2026-06-21-motor-cortex-voluntary-movement]]
 - [[2026-07-15-language-network-dual-stream]]
+- [[2026-06-08-speech-perception-phonology-STG]]

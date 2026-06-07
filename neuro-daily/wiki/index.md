@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-19（**#118**·大脑如何开口说话：前馈/反馈双控制系统与DIVA模型）· 主题页总数：**237**（新建3页：speech-production-circuit · diva-model · sma-presma；修订1页：broca-area rev3；图谱252节点、1417边）
+> 最后更新：2026-06-08（**#119**·声学流如何变成语言：颞上回音韵切割机制与大脑时间窗）· 主题页总数：**241**（新建4页：speech-perception-phonology · cortical-entrainment-speech · categorical-perception · asymmetric-sampling-time；修订3页：theta-oscillations rev4 · auditory-cortex rev4 · language-network rev5；图谱256节点、1435边）
 
 ---
 
@@ -211,7 +211,11 @@
 
 ## language（语言）
 
-- 🟢 [语言网络（双流模型）](systems/language-network.md) — 腹侧流（声音→意义，双侧）+ 背侧流（声音→动作/句法，左侧主导）；超模态（手语激活同一Broca区）；LANG专属网络 vs MD通用网络关键分离（Fedorenko 2020）；语言专属surprisal效应（Shain 2020）；ATL语义枢纽 **[修订 rev4 2026-07-15]**
+- 🟢 [语言网络（双流模型）](systems/language-network.md) — 腹侧流（声音→意义，双侧）+ 背侧流（声音→动作/句法，左侧主导）；超模态（手语激活同一Broca区）；LANG专属网络 vs MD通用网络关键分离（Fedorenko 2020）；ATL语义枢纽；**新增**：音韵预处理入口（STG 三级振荡窗） **[修订 rev5 2026-06-08]**
+- 🔵 [音韵感知与颞上回](concepts/speech-perception-phonology.md) — STG 通过 δ/θ/γ 三级振荡时间窗切割声学流；θ-γ CFC 双层架构；AST 半球不对称；预测性音素解码（序列概率）；STG/MTG 相位双重解离（Ten Oever 2024）；"鸡尾酒会效应" **[NEW 2026-06-08 #119]**
+- 🔵 [皮层振荡夹带（语音感知）](concepts/cortical-entrainment-speech.md) — 皮层 delta/theta 振荡与语音节律同步；注意力选择性增强对目标说话人的夹带；因果作用争议（tACS 效果不稳定） **[NEW 2026-06-08 #119]**
+- 🟢 [范畴感知](concepts/categorical-perception.md) — 声学连续体（VOT）被感知系统离散化为音素类别；类内宽容/类间突变；STG 亚区离散表征；跨语言差异 **[NEW 2026-06-08 #119]**
+- 🔵 [非对称时间采样假说（AST）](concepts/asymmetric-sampling-time.md) — 左颞上区~25ms（音素）/ 右颞上区~150ms（音节）；Preisig & Meyer 2025：侧化主要由预测编码+注意驱动（与底层硬件论的 open 争议） **[NEW 2026-06-08 #119]**
 - 🟢 [Broca区（额叶下回）](systems/broca-area.md) — 三成分解构：语言专属（LANG）/ 多需求（MD）/ 发音；IFG内两套系统在群体平均fMRI中混叠；**新增**：言语运动协调中枢实为前中央回（vPCSA/dPCSA），非IFG本身（Hickok 2022） **[修订 rev3 2026-08-19 #118]**
 - 🔵 [言语产生神经回路](systems/speech-production-circuit.md) — SMA/pre-SMA启动（-240ms）→左IFG/vPMC音节程序→M1执行；前馈（主导流利言语）vs反馈（pSTG听觉+SMG体感→右vPMC纠偏）；效应副本抑制自产语音；双前中央言语区（vPCSA发音/dPCSA音调）；DIVA/GODIVA框架 **[NEW 2026-08-19 #118]**
 - 🔵 [辅助运动区与前辅助运动区](systems/sma-presma.md) — 言语启动最早皮层节点（pre-SMA: -240ms; SMA: -170ms先于开口）；活动随RT动态伸缩；通过BG-丘脑接收时序"go"信号；准备协调者而非执行者 **[NEW 2026-08-19 #118]**

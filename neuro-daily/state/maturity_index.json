@@ -144,5 +144,41 @@
       "reason": "创建（#113）：下板存在与功能有充分组织学和遗传学证据；停止/放行信号身份尚不明确（Q-tca-01）但整体地位established"
     }
   ],
-  "total_pages": 12
+  "total_pages": 12,
+  "speech-perception-phonology": {
+    "slug": "speech-perception-phonology",
+    "page": "wiki/concepts/speech-perception-phonology.md",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-06-08",
+    "change_reason": "新建页面；STG音韵处理的三级振荡时间窗框架有多实验室复现支持（mainstream），但θ-γ CFC因果作用和Ten Oever 2024 PNAS的相位双重解离尚需复现",
+    "revision_count": 1
+  },
+  "cortical-entrainment-speech": {
+    "slug": "cortical-entrainment-speech",
+    "page": "wiki/concepts/cortical-entrainment-speech.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-06-08",
+    "change_reason": "新建页面；皮层夹带于语音节律的相关证据强（多实验室），但tACS因果干预证据不稳健——定为medium置信度",
+    "revision_count": 1
+  },
+  "categorical-perception": {
+    "slug": "categorical-perception",
+    "page": "wiki/concepts/categorical-perception.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-08",
+    "change_reason": "新建页面；范畴感知心理物理学证据有几十年积累（established/high）；神经机制层面（A1 vs STG亚区）尚在探索",
+    "revision_count": 1
+  },
+  "asymmetric-sampling-time": {
+    "slug": "asymmetric-sampling-time",
+    "page": "wiki/concepts/asymmetric-sampling-time.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-06-08",
+    "change_reason": "新建页面；AST假说有多项支持但Preisig & Meyer 2025提出自顶向下驱动的修订版，形成争议（C-2026-06-08-01）；定为mainstream/medium",
+    "revision_count": 1
+  }
 }

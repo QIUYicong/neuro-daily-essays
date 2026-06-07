@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-08（文章 #119 — 声学流如何变成语言：颞上回音韵切割机制与大脑时间窗）
+
+**新建页面（4 页）**：
+- `wiki/concepts/speech-perception-phonology.md`：颞上回通过 δ/θ/γ 三级振荡时间窗主动切割声学流为音素/音节；AST 半球不对称；STG 预测性解码（序列概率）；STG/MTG 相位双重解离（Ten Oever 2024）；注意力-皮层夹带选择性
+- `wiki/concepts/cortical-entrainment-speech.md`：皮层振荡夹带机制（自底向上声学驱动 + 自顶向下注意调制）；θ-γ CFC；Brennan & Martin 2020 相位同步与短语层级；因果争论
+- `wiki/concepts/categorical-perception.md`：声学连续体的范畴感知（类内宽容/类间突变）；神经实现（A1 vs STG 亚区）；跨语言差异；词汇反馈的调制作用
+- `wiki/concepts/asymmetric-sampling-time.md`：AST 假说（Poeppel）——左~25ms 窗（音素），右~150ms 窗（音节）；Preisig & Meyer 2025 的顶下调制修订；Zatorre 2022 频谱-时间框架
+
+**修订页面（3 页）**：
+- `wiki/concepts/theta-oscillations.md`（rev4）：新增语音感知中的 θ 角色——颞上回 θ 夹带音节、θ-γ CFC、与海马 θ 的功能类比（两者都是"时间框架组织者"）；新增 related: cortical-entrainment-speech, speech-perception-phonology, auditory-cortex；dimensions 加入 cognition
+- `wiki/systems/auditory-cortex.md`（rev4）：新增"STG 语音感知层级"节（音素特异性表征、预测性解码、振荡夹带、AST 不对称）；新增 related: speech-perception-phonology, cortical-entrainment-speech, asymmetric-sampling-time, categorical-perception
+- `wiki/systems/language-network.md`（rev5）：新增"音韵预处理入口（步骤 0）"——STG 三级振荡窗、AST 不对称、序列概率预测；声音入口补充"STG 完成音韵切割"步骤；新增 related: speech-perception-phonology, cortical-entrainment-speech, asymmetric-sampling-time, speech-production-circuit
+
+**矛盾登记（1 条）**：
+- C-2026-06-08-01（已登记到 contested_claims.json）：AST 的半球时间窗不对称是底层固化的感觉硬件属性（Poeppel 原始版本），还是主要由自顶向下的预测编码和注意力动态生成（Preisig & Meyer 2025）？两种解释对语音感知侧化的可塑性和阈值有不同预测。
+
+**新增悬空引用（待填补）**：无（所有 related 引用均有对应节点）
+
+**图谱状态**：256 节点（+4），1435 条边（+18），最后更新 2026-06-08
+
+---
+
 ## 2026-08-19（文章 #118 — 言语产生：DIVA 模型与前馈/反馈双控制系统）
 
 **新建页面（3 页）**：

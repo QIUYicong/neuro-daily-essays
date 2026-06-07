@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-06-22
-revision_count: 3
-dimensions: [whole-brain-network, brain-region, cellular, behavior, methods]
-related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex]
+updated: 2026-06-08
+revision_count: 4
+dimensions: [whole-brain-network, brain-region, cellular, behavior, cognition, methods]
+related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex, cortical-entrainment-speech, speech-perception-phonology, auditory-cortex]
 prerequisites: [action-potential, hippocampal-circuit, place-cells]
-opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380"]
+opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05, Q-speech-percep-01]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells, 2026-06-08-speech-perception-phonology-STG]
+key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380", "PMID:22426255", "PMID:26023831"]
 ---
 
 # θ振荡 (Theta Oscillations)
@@ -137,9 +137,21 @@ Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡�
 
 - 2026-05-29 · 创建 · 填补高优先级悬空引用（由 place-cell、ltp、hippocampal-circuit、grid-cell 引用） · 基于《θ振荡与相位编码》文章 · 初始置信度：高
 - 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells、grid-cell→grid-cells、phase-precession→theta-phase-precession；新增related条目：path-integration、entorhinal-cortex；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
-- 2026-05-31 · 修订 · 整合REM睡眠θ内容：新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节（LA-VH θ相位差、Boyce 2016光遗传因果证据、清醒/REM θ功能对比表）；补充当前理解段落；关键证据表增加2行；连接增加rem-sleep/fear-extinction/emotional-memory-depotentiation；未解问题增加Q-rem-01/Q-rem-03/Q-rem-05 · 基于《REM睡眠与情绪记忆》文章
+- 2026-05-31 · 修订 · 整合REM睡眠θ内容（LA-VH相位差、Boyce 2016因果证据）
+- 2026-06-08 · 修订 · 新增"θ振荡在语音感知中的角色"节——颞上回语音夹带、θ-γ CFC、与海马θ的功能类比；新增 related: cortical-entrainment-speech, speech-perception-phonology, auditory-cortex；dimensions 加入 cognition；key_sources 加入 PMID:22426255/26023831 · 基于《声学流如何变成语言》（第119篇）：新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节（LA-VH θ相位差、Boyce 2016光遗传因果证据、清醒/REM θ功能对比表）；补充当前理解段落；关键证据表增加2行；连接增加rem-sleep/fear-extinction/emotional-memory-depotentiation；未解问题增加Q-rem-01/Q-rem-03/Q-rem-05 · 基于《REM睡眠与情绪记忆》文章
+
+## θ振荡在语音感知中的角色（2026-06-08 新增）
+
+除了海马空间导航和记忆巩固，θ振荡在**颞上回的语音感知**中扮演另一套截然不同的角色：
+
+- **皮层夹带（Cortical Entrainment）**：听觉皮层 theta（4–8 Hz）振荡夹带于语音的音节节律（自然语音约 ~4–8 个音节/秒），每个 theta 周期（~125–250ms）作为一个音节的时间采样窗口
+- **θ-γ 交叉频率耦合（CFC）在语音中**：与海马中相同的 θ-γ 嵌套逻辑被语音系统利用——theta 的相位调制 gamma 振幅，gamma 周期（~12–40ms）对应音素特征的时间窗口（Hyafil et al. 2015, PMID:26023831）
+- **与海马 θ 的区别**：语音处理的 theta 主要在颞上回（而非海马），由外界语音节律驱动（自外向内），而非内源性由 MS-DBB 驱动；功能是"采样/分段声学流"，而非"组织空间路径的时间序列"
+
+**共同原理**：两个系统中，theta 都扮演**时间框架组织者**的角色——一个组织神经元的何时放电来编码空间路径，另一个组织听觉皮层的何时采样来分段声学流。这可能揭示了 theta 振荡在大脑中的一个普遍功能：为需要时间分段的信息流提供计时基础设施。
 
 ## 来源文章
 
 - [[2026-05-29-theta-oscillations-phase-coding]]
 - [[2026-05-31-rem-sleep-emotional-memory]]
+- [[2026-06-08-speech-perception-phonology-STG]]

@@ -8427,6 +8427,135 @@
         "auditory-cortex",
         "sensory-gating"
       ]
+    },
+    {
+      "pmid": "22426255",
+      "title": "Cortical oscillations and speech processing: emerging computational principles and operations",
+      "authors": "Giraud AL, Poeppel D",
+      "journal": "Nature Neuroscience",
+      "year": 2012,
+      "first_used": "2026-06-08",
+      "used_in_articles": [
+        "2026-06-08-speech-perception-phonology-STG"
+      ],
+      "covers": [
+        "delta/theta/gamma three-tier temporal window model",
+        "cortical oscillations speech processing",
+        "cross-frequency coupling"
+      ]
+    },
+    {
+      "pmid": "40010659",
+      "title": "Asymmetric Sampling in Time: Evidence and perspectives",
+      "authors": "Oderbolz C, Poeppel D, Meyer M",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2025,
+      "first_used": "2026-06-08",
+      "used_in_articles": [
+        "2026-06-08-speech-perception-phonology-STG"
+      ],
+      "covers": [
+        "AST hypothesis review",
+        "hemispheric temporal asymmetry",
+        "left ~25ms right ~150ms windows"
+      ]
+    },
+    {
+      "pmid": "26023831",
+      "pmcid": "PMC4562988",
+      "title": "Speech encoding by coupled cortical theta and gamma oscillations",
+      "authors": "Hyafil A et al.",
+      "journal": "eLife",
+      "year": 2015,
+      "first_used": "2026-06-08",
+      "used_in_articles": [
+        "2026-06-08-speech-perception-phonology-STG"
+      ],
+      "covers": [
+        "theta-gamma CFC speech",
+        "syllable-phoneme two-tier architecture",
+        "neural modeling"
+      ]
+    },
+    {
+      "pmid": "38805278",
+      "title": "Phase-dependent word perception emerges from region-specific sensitivity to the statistics of language",
+      "authors": "Ten Oever S et al.",
+      "journal": "PNAS",
+      "year": 2024,
+      "first_used": "2026-06-08",
+      "used_in_articles": [
+        "2026-06-08-speech-perception-phonology-STG"
+      ],
+      "covers": [
+        "STG phase phoneme perception",
+        "MTG phase lexical perception",
+        "MEG double dissociation"
+      ]
+    },
+    {
+      "pmid": "25948269",
+      "title": "Dynamic encoding of speech sequence probability in human temporal cortex",
+      "authors": "Leonard MK et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2015,
+      "first_used": "2026-06-08",
+      "used_in_articles": [
+        "2026-06-08-speech-perception-phonology-STG"
+      ],
+      "covers": [
+        "STG predictive decoding",
+        "phoneme transition probability",
+        "ECoG temporal cortex"
+      ]
+    },
+    {
+      "pmid": "36605556",
+      "title": "Hemispheric asymmetries for music and speech: Spectrotemporal modulations and top-down influences",
+      "authors": "Zatorre RJ",
+      "journal": "Frontiers in Neuroscience",
+      "year": 2022,
+      "first_used": "2026-06-08",
+      "used_in_articles": [
+        "2026-06-08-speech-perception-phonology-STG"
+      ],
+      "covers": [
+        "spectrotemporal hemispheric asymmetry",
+        "right spectral/left temporal",
+        "music speech lateralization"
+      ]
+    },
+    {
+      "pmid": "40118260",
+      "title": "Predictive coding and dimension-selective attention enhance the lateralization of spoken language processing",
+      "authors": "Preisig BC, Meyer M",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2025,
+      "first_used": "2026-06-08",
+      "used_in_articles": [
+        "2026-06-08-speech-perception-phonology-STG"
+      ],
+      "covers": [
+        "language lateralization predictive coding",
+        "top-down attention speech",
+        "lateralization continuum"
+      ]
+    },
+    {
+      "pmid": "22651956",
+      "title": "Attention modulates 'speech-tracking' at a cocktail party",
+      "authors": "Zion-Golumbic EM, Schroeder CE",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2012,
+      "first_used": "2026-06-08",
+      "used_in_articles": [
+        "2026-06-08-speech-perception-phonology-STG"
+      ],
+      "covers": [
+        "cocktail party effect",
+        "auditory cortex selective entrainment",
+        "delta theta speech tracking attention"
+      ]
     }
   ],
   "total_sources": 475,

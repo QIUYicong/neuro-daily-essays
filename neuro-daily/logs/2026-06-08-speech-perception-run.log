@@ -1,0 +1,53 @@
+# 运行日志 2026-06-08（文章 #119·音韵感知）
+
+**分支**：claude/funny-einstein-pWvWv
+**开始时间**：~05:01 CST（UTC+8）
+**运行状态**：成功
+**注意**：今日第二篇文章（第一篇为 #16·阿尔茨海默病·2026-06-08-alzheimers-amyloid-synaptic-mechanism.md）
+
+---
+
+## 状态读取
+
+- topic_ledger.json：读取，最后有效记录为 2026-08-19（前一运行使用错误日期）
+- wiki/_graph.json：读取，252节点、1417边
+- 选题依据：上一篇次建议 speech-perception-phonology（STG音韵感知）
+
+## 选题
+
+日期：2026-06-08（北京时间）
+文章：**颞上回音韵感知机制与大脑时间窗（第119篇）**
+
+## 文献检索
+
+搜索词：speech perception STG cortical oscillations / Poeppel AST / theta-gamma CFC speech
+主要来源（11篇）：Giraud & Poeppel 2012 / Hyafil 2015 / Oderbolz 2025 / Ten Oever 2024 等
+开放全文：7篇；仅摘要：3篇
+
+## 产出清单
+
+情景层（新文件）：
+- articles/2026-06-08-speech-perception-phonology-STG.md（~5000字，第119篇）
+- notes/2026-06-08-speech-perception-reading-notes.md（本文件的同日版）
+- sources/2026-06-08-speech-perception-sources.json
+- logs/2026-06-08-speech-perception-run.log（本文件）
+
+注：原有的 2026-06-08-*.md 文件（第16篇·AD）已从git还原保持完整性
+
+语义层（新建4页/修订3页）：
+- 新建：speech-perception-phonology / cortical-entrainment-speech / categorical-perception / asymmetric-sampling-time
+- 修订：theta-oscillations(rev4) / auditory-cortex(rev4) / language-network(rev5)
+
+矛盾登记：C-2026-06-08-01（AST 底层硬件论 vs 自顶向下功能论）
+
+## Git
+
+- commit: [待填入]
+- push: claude/funny-einstein-pWvWv
+
+## 自检结果：全部通过
+
+## 失败与限制
+
+- PMID:25948269/17431404/22651956 仅摘要（已标注）
+- 今日为第二篇文章（第一篇#16已在git历史中）；因此使用不同文件名前缀（speech-perception-）

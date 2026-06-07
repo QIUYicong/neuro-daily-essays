@@ -128,6 +128,15 @@
       "source_article": "2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition",
       "priority": "high",
       "note": "claim_A 为数十年 IT 研究主流（established，多物种多实验室）；claim_B 为近年综述（2022）提出的系统性挑战（中等证据）。裁决需要：(1) 直接比较 IT 神经元对全局形状操控 vs 纹理统计保留的形状扰动刺激的响应；(2) 猕猴单神经元在 texforms vs 真实物体条件下的分辨率匹配实验；(3) 人类 fMRI MVPA 在控制纹理统计后的形状解码残差检验"
+    },
+    {
+      "id": "C-2026-06-08-01",
+      "page": "wiki/concepts/asymmetric-sampling-time.md",
+      "claim_A": "AST（非对称时间采样）假说的半球时间窗不对称（左~25ms/右~150ms）是听觉皮层底层固化的感觉硬件属性，不受任务和经验的本质性调制（Poeppel 2003原始版本，多项fMRI/MEG支持）",
+      "claim_B": "语音处理侧化主要由自顶向下机制（预测编码 + 选择性注意）动态生成——侧化在简单声音中弱、有意义语音中最强，说明侧化是高层语言知识反馈强化的结果，而非底层声学偏好（Preisig & Meyer 2025, PMID:40118260）",
+      "nature": "理论层面分歧：底层感觉硬件属性 vs 自顶向下功能性动态属性；两种解释对侧化的可塑性（能否通过训练改变）和阈值有不同预测",
+      "status": "open",
+      "opened": "2026-06-08"
     }
   ]
 }

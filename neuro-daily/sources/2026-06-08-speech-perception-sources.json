@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-08",
+  "article_number": 119,
+  "article_slug": "speech-perception-phonology-STG",
+  "note": "Second article on 2026-06-08 (first was #16 Alzheimer's amyloid synaptic mechanism)",
+  "sources": [
+    {"id": "S1", "pmid": "22426255", "type": "review", "title": "Cortical oscillations and speech processing", "authors": "Giraud AL, Poeppel D", "journal": "Nature Neuroscience", "year": 2012, "full_text_available": true, "key_contribution": "Delta/theta/gamma three-tier temporal window model"},
+    {"id": "S2", "pmid": "40010659", "type": "review", "title": "Asymmetric Sampling in Time", "authors": "Oderbolz C, Poeppel D, Meyer M", "journal": "Neuroscience and Biobehavioral Reviews", "year": 2025, "full_text_available": true, "key_contribution": "AST hypothesis updated review"},
+    {"id": "S3", "pmid": "26023831", "pmcid": "PMC4562988", "type": "theoretical_model", "title": "Speech encoding by coupled cortical theta and gamma oscillations", "authors": "Hyafil A et al.", "journal": "eLife", "year": 2015, "full_text_available": true, "key_contribution": "Theta-gamma CFC implements syllable-phoneme two-tier architecture"},
+    {"id": "S4", "pmid": "38805278", "type": "original_research", "title": "Phase-dependent word perception", "authors": "Ten Oever S et al.", "journal": "PNAS", "year": 2024, "full_text_available": true, "key_contribution": "STG phase bias phoneme perception, MTG phase lexical perception double dissociation"},
+    {"id": "S5", "pmid": "25948269", "type": "original_research", "method": "ECoG", "title": "Dynamic encoding of speech sequence probability", "authors": "Leonard MK et al.", "journal": "J Neurosci", "year": 2015, "full_text_available": false, "key_contribution": "STG predictive decoding of phoneme sequence statistics"},
+    {"id": "S6", "pmid": "17431404", "type": "review", "title": "The cortical organization of speech processing", "authors": "Hickok G, Poeppel D", "journal": "Nat Rev Neurosci", "year": 2007, "full_text_available": false, "key_contribution": "Dual stream model of speech processing"},
+    {"id": "S7", "pmid": "36605556", "type": "review", "title": "Hemispheric asymmetries for music and speech", "authors": "Zatorre RJ", "journal": "Frontiers in Neuroscience", "year": 2022, "full_text_available": true, "key_contribution": "Right spectral/left temporal asymmetry framework"},
+    {"id": "S8", "pmid": "40118260", "type": "review", "title": "Predictive coding and dimension-selective attention enhance lateralization", "authors": "Preisig BC, Meyer M", "journal": "Neuroscience and Biobehavioral Reviews", "year": 2025, "full_text_available": true, "key_contribution": "Top-down predictive coding drives speech lateralization"},
+    {"id": "S9", "pmid": "22651956", "type": "review_comment", "title": "Attention modulates speech-tracking at a cocktail party", "authors": "Zion-Golumbic EM, Schroeder CE", "journal": "Trends Cogn Sci", "year": 2012, "full_text_available": false, "key_contribution": "Selective cortical entrainment implements cocktail party effect"},
+    {"id": "S10", "pmid": "23519170", "type": "theory", "title": "The theta-syllable", "authors": "Ghitza O", "journal": "Front Psychol", "year": 2013, "full_text_available": true, "key_contribution": "Theta-syllable as cortically-defined speech unit"},
+    {"id": "S11", "pmid": "31840584", "type": "original_research", "method": "MEG", "title": "Phase synchronization varies with linguistic structure", "authors": "Brennan JR, Martin AE", "journal": "Phil Trans R Soc B", "year": 2020, "full_text_available": true, "key_contribution": "Phase sync increases with phrasal hierarchy"}
+  ],
+  "open_access_count": 7,
+  "abstract_only_count": 3,
+  "total_sources": 11
+}
