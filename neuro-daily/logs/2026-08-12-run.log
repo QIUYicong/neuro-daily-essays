@@ -108,8 +108,10 @@
 ## Git 操作
 
 **commit message**: Add neuro daily article + wiki consolidation for 2026-08-12
-**目标分支**: main（通过claude/funny-einstein-HBbon推送，按平台规则）
-**推送状态**: [待记录]
+**commit hash**: 09596b3
+**目标分支**: claude/funny-einstein-HBbon（按平台指定分支规则）
+**推送状态**: 成功（git push -u origin claude/funny-einstein-HBbon）
+**远端URL**: http://local_proxy@127.0.0.1:37923/git/QIUYicong/neuro-daily-essays（含QIUYicong/neuro-daily-essays，正确）
 
 ## 失败与限制
 
