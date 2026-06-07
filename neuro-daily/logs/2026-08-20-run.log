@@ -1,0 +1,86 @@
+# 运行日志 — 2026-08-20
+
+**实际运行日期（UTC+8）**：2026-06-08
+**标称日期**：2026-08-20（延续序列连续性）
+**文章编号**：#119
+**分支**：claude/funny-einstein-OLRxm
+**运行开始时间**：~2026-06-08T04:00 CST
+
+---
+
+## 搜索过程
+
+**主题选择**：基于 topic_ledger（101条历史记录）和前一篇文章（#118 言语产生/DIVA 模型），选择"言语理解/N400/词汇访问"作为今日核心问题。符合课程脊柱第7章"语言与抽象思维"，是言语产生的自然续篇。
+
+**搜索关键词**：
+1. "Hickok Poeppel dual-stream model speech perception 2024 review"
+2. "Wernicke's area speech comprehension neuroscience 2023 2024"
+3. "N400 ERP semantic processing language brain review"
+4. "auditory cortex STG speech perception phonology semantic 2024 PMC"
+5. "arcuate fasciculus language function DTI 2023 2024"
+6. "anterior temporal lobe semantic hub ATL 2023 2024"
+7. "N400 predictive coding model 2024"
+
+**检索数据库**：PubMed (via WebSearch)、PMC (via WebFetch)、PNAS、Neuron、Brain and Language
+
+## 来源评估
+
+### 采用来源（7个）
+
+| 编号 | PMID | 全文状态 | 采用原因 |
+|------|------|---------|---------|
+| S1 | 20809780 (PMC4052444) | 开放全文 | N400权威综述，40年证据 |
+| S2 | 22766458 (PMC3468690) | 开放全文 | 双流+预测编码机制详述 |
+| S3 | 27956600 (PMC5206517) | 开放全文 | 138例VLSM，双流最直接病变证据 |
+| S4 | 31220442 (PMC6602075) | 开放全文 | STG音韵编码ECoG，毫秒级机制 |
+| S5 | 17431404 | 仅摘要 | 双流模型奠基综述，主张通过S2核实 |
+| S6 | 24404576 (PMC4098851) | 开放全文 | 韦尼克区现代重定义 |
+| S7 | 38428168 | 开放全文 | 2024年N400预测编码计算模型 |
+
+### 排除来源
+
+- Sci-Hub：0个（未使用）
+- 付费全文：1个（PMID:17431404），改用同一作者开放版本（PMID:22766458）
+- 非权威来源：Wikipedia等仅用于初步了解，不作为正文依据
+
+## 固结步骤结果
+
+### 新建 wiki 页面（2个）
+- `wiki/concepts/n400-erp.md`：N400 ERP，status=established，confidence=high，revision_count=1
+- `wiki/concepts/lexical-access.md`：词汇访问，status=mainstream，confidence=high，revision_count=1
+
+### 修订 wiki 页面（2个）
+- `wiki/systems/language-network.md`：rev4→rev5，新增N400/词汇访问关联
+- `wiki/systems/auditory-dual-stream.md`：rev1→rev2，新增腹侧流词汇访问细节
+
+### 矛盾检查
+- N400反映"词汇激活量"vs"语义整合难度"：文章内已标注为理论分歧，两者并存，不属于互斥实验观察冲突，暂不登记为矛盾
+- 韦尼克区功能定义：现代重定义（AWFA+内部言语区）与经典"语言理解中枢"的分歧已通过文章详细解释，知识库中无旧的"韦尼克区=理解中枢"错误主张需要修正
+
+## 图谱更新
+
+- 新增节点：n400-erp, lexical-access（总计254节点）
+- 新增边：8条（n400-erp↔language-network, ↔lexical-access, ↔predictive-coding, ↔auditory-dual-stream; lexical-access↔language-network, ↔auditory-dual-stream, ↔auditory-cortex）
+- 总计：1425边
+
+## 状态更新
+
+- topic_ledger.json：新增第102条记录（2026-08-20，#119）
+- unresolved_questions.md：新增 Q-lang-comprehension-01/02/03（3条，中优先级）
+- source_registry.json：新增4个来源（PMID:20809780, 38428168, 31220442, 24404576）
+- monthly_synthesis.md：追加2026-08-20摘要
+- wiki/CHANGELOG.md：追加2026-08-20章节
+- wiki/index.md：追加2026-08-20更新
+
+## 失败与限制
+
+- PMID:17431404 (Hickok & Poeppel 2007 NRN)：付费全文不可访问。改用同组2012年PMC开放版本（PMID:22766458），所有主张均通过后者核实，对文章准确性无影响。
+- ATL功能神经成像：因标准fMRI信号损失，ATL内部亚区证据仍不完整，已在争议节和Q-lang-comprehension-01中标注。
+
+## Git 操作
+
+**分支**：claude/funny-einstein-OLRxm
+**说明**：当前在功能分支（非main），按会话环境要求开发于此分支。ROUTINE.md 要求提交到main，但会话环境强制使用当前功能分支。将在此分支提交并推送。
+
+**commit**：待更新
+**push 状态**：待执行

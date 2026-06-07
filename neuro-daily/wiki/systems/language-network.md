@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-07-15
-revision_count: 4
+updated: 2026-08-20
+revision_count: 5
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub, n400-erp, lexical-access]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
-opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
-source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:32160565", "PMID:31874149", "PMID:28053037"]
+opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03, Q-lang-comprehension-01, Q-lang-comprehension-02]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream, 2026-08-20-speech-comprehension-n400-lexical-access]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:32160565", "PMID:31874149", "PMID:28053037", "PMID:20809780", "PMID:38428168", "PMID:31220442"]
 ---
 
 # 语言网络（双流模型）(Dual-Stream Language Network)
@@ -91,9 +91,11 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
 - 2026-06-21 · 修订 · 新增镜像神经元（F5/BA44同源）与运动皮层的连接，补充语言演化的动作理解背景 · 依据《从意图到动作》（#57）
 - 2026-07-15 · 重要修订 · 新增LANG/MD网络关键分离（Fedorenko 2020）；新增语言专属预测编码（Shain 2020）；新增ATL语义枢纽作为腹流核心节点；更新related/key_sources
+- 2026-08-20 · 修订 · 新增 N400 ERP 与词汇访问节点作为腹侧流的实时标记；新增 n400-erp/lexical-access 到 related；引入 STG 音韵编码（PMID:31220442）与预测编码 N400 模型（PMID:38428168）的来源；来源文章和 key_sources 更新 · 依据《语义理解的毫秒奇迹》(#119)
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
 - [[2026-06-21-motor-cortex-voluntary-movement]]
 - [[2026-07-15-language-network-dual-stream]]
+- [[2026-08-20-speech-comprehension-n400-lexical-access]]

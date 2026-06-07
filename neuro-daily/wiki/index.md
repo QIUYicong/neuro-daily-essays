@@ -387,3 +387,19 @@
 ### 图谱状态
 - 节点：192 | 边：1111
 - 新悬空待补：anterior-cingulate-cortex 页面（被 AIC 引用）、social-cognition 页面
+
+---
+
+### 2026-08-20 更新（文章 #119）
+
+**新建页面：**
+- `concepts/n400-erp.md` status=established — N400语义ERP成分，预测编码框架，MEG神经发生器轨迹
+- `concepts/lexical-access.md` status=mainstream — 词汇访问四级层级，内聚点模型，STG谱时感受野，N400时程
+
+**修订页面：**
+- `systems/language-network.md` rev5 — 新增n400-erp/lexical-access关联；引入STG音韵编码和N400预测编码来源
+- `systems/auditory-dual-stream.md` rev2 — 新增腹侧流词汇访问细节（STRFs）；新增n400-erp/lexical-access关联
+
+### 图谱状态
+- 节点：254 | 边：1425
+- 新悬空待补：wernicke-area（被 n400-erp/lexical-access 引用，暂并入 auditory-dual-stream；需独立页面）

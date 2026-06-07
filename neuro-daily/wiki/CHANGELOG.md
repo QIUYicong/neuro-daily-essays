@@ -2437,3 +2437,28 @@
 - Q-asd-01/02（高/中优先）：ASD 不同亚型突触密度方向性；CD47 通路在 ASD 的普遍性
 
 **原有悬空引用状态：** autism-spectrum-disorder 已填补；motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba 仍待补
+
+---
+
+## 2026-08-20（文章 #119：语义理解的毫秒奇迹——N400 信号与词汇访问机制）
+
+**今日主题：** 声音→意义的颞叶腹侧流三级层级（STG音韵→MTG词汇→ATL语义），N400脑电信号与预测编码，韦尼克区的现代重定义，及词汇访问的并行竞争机制
+
+**新建 wiki 页面（2 个）：**
+- `wiki/concepts/n400-erp.md`（新建）：N400 ERP 成分定义、神经发生器（MEG轨迹）、完形概率效应、预测编码框架、与语言网络的连接
+- `wiki/concepts/lexical-access.md`（新建）：词汇访问的四级处理层级、内聚点模型、STG谱时感受野机制、N400与词汇访问的时程关系
+
+**修订 wiki 页面（2 个）：**
+- `wiki/systems/language-network.md`（rev4 → rev5）：新增 n400-erp/lexical-access 到 related；新增 STG音韵编码（PMID:31220442）和 N400预测编码模型（PMID:38428168）来源；更新 key_sources/source_articles
+- `wiki/systems/auditory-dual-stream.md`（rev1 → rev2）：新增腹侧流词汇访问细节（STG谱时感受野）；新增 n400-erp/lexical-access 到 related；key_sources 更新
+
+**图谱状态：** 254 节点（+2），1425 边（+8）
+
+**登记或裁决矛盾：** 无新矛盾（N400反映"词汇激活量"还是"语义整合难度"存在理论分歧，但均记录于文章争议节，暂不登记为矛盾——两种观点均有相当证据支持，属并存理论而非相互排斥的实验观察矛盾）
+
+**新增未解问题（3条）：**
+- Q-lang-comprehension-01（中优先）：ATL亚区（TE/TG/TI/TF）在语义整合中的功能分工
+- Q-lang-comprehension-02（中优先）：候选词汇内聚竞争过程是否有单细胞水平电生理证据
+- Q-lang-comprehension-03（中优先）：双语者L2处理低频词时N400时空轨迹变化
+
+**原有悬空引用状态：** motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba 仍待补；新增 wernicke-area 悬空引用（在本文中引用但暂无独立wiki页，暂并入 auditory-dual-stream 讨论）

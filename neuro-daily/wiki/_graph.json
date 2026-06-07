@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "node_count": 244,
   "edge_count": 1386,
   "edge_types": [
@@ -2281,6 +2281,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/systems/sma-presma.md"
+    },
+    {
+      "id": "n400-erp",
+      "title": "N400 语义ERP成分",
+      "domain": "concepts",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/n400-erp.md"
+    },
+    {
+      "id": "lexical-access",
+      "title": "词汇访问",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/lexical-access.md"
     }
   ],
   "edges": [
@@ -9899,6 +9917,46 @@
       "from": "broca-area",
       "to": "speech-production-circuit",
       "type": "related"
+    },
+    {
+      "from": "n400-erp",
+      "to": "language-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "n400-erp",
+      "to": "lexical-access",
+      "type": "related"
+    },
+    {
+      "from": "n400-erp",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "lexical-access",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "lexical-access",
+      "to": "auditory-dual-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "lexical-access",
+      "to": "auditory-cortex",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "lexical-access",
+      "to": "n400-erp",
+      "type": "related"
+    },
+    {
+      "from": "n400-erp",
+      "to": "auditory-dual-stream",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

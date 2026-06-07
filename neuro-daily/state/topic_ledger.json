@@ -7488,6 +7488,72 @@
         "language-acquisition-critical-period: 语言习得关键期的神经机制",
         "prosody-neural-basis: 韵律的dPCSA/右半球神经基础"
       ]
+    },
+    {
+      "date": "2026-08-20",
+      "real_date": "2026-06-08",
+      "article_number": 119,
+      "title": "语义理解的毫秒奇迹：N400 信号与大脑将声音转化为意义的实时机制",
+      "slug": "speech-comprehension-n400-lexical-access",
+      "filename": "2026-08-20-speech-comprehension-n400-lexical-access.md",
+      "article_type": "regular",
+      "core_question": "当声学信号抵达颞叶，大脑如何在不到400毫秒内从连续声流中切分音素、识别词汇、并将词汇映射到语义意义——N400脑电信号揭示的词汇访问实时机制与颞叶腹侧流的语义转化层级",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（言语理解；N400；词汇访问；延续#118言语产生和#100听觉双流）",
+      "topic_tags": [
+        "N400",
+        "ERP",
+        "lexical access",
+        "speech comprehension",
+        "Wernicke's area",
+        "superior temporal gyrus",
+        "STG",
+        "middle temporal gyrus",
+        "MTG",
+        "anterior temporal lobe",
+        "ATL",
+        "semantic hub",
+        "cloze probability",
+        "predictive coding",
+        "dual-stream",
+        "ventral stream",
+        "cohort model",
+        "pure word deafness",
+        "conduction aphasia",
+        "auditory word-form area"
+      ],
+      "main_sources": [
+        "PMID:20809780",
+        "PMID:22766458",
+        "PMID:27956600",
+        "PMID:31220442",
+        "PMID:24404576",
+        "PMID:38428168"
+      ],
+      "open_full_text_sources": 6,
+      "unresolved_questions": [
+        "Q-lang-comprehension-01",
+        "Q-lang-comprehension-02",
+        "Q-lang-comprehension-03"
+      ],
+      "wiki_pages_created": [
+        "concepts/n400-erp",
+        "concepts/lexical-access"
+      ],
+      "wiki_pages_updated": [
+        "systems/language-network (rev4→rev5: N400/词汇访问节点新增)",
+        "systems/auditory-dual-stream (rev1→rev2: 腹侧流词汇访问细节)"
+      ],
+      "next_suggested_topics": [
+        "syntax-processing-broca: 句法处理的神经机制——Broca区BA44的Merge操作与层级句法计算",
+        "language-acquisition-critical-period: 婴儿如何从连续语音流习得语言词汇——临界期与统计学习",
+        "prosody-neural-basis: 韵律处理——右半球优势与dPCSA的韵律控制",
+        "semantic-dementia: 语义性痴呆作为窗口——ATL损伤如何导致跨模态语义丧失"
+      ]
     }
   ],
   "layer_coverage_recent": {

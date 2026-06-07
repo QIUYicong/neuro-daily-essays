@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-20",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8426,6 +8426,73 @@
         "gating-stream",
         "auditory-cortex",
         "sensory-gating"
+      ]
+    },
+    {
+      "pmid": "20809780",
+      "pmcid": "PMC4052444",
+      "title": "Thirty years and counting: finding meaning in the N400 component of the event related brain potential (ERP)",
+      "authors": "Kutas M, Federmeier KD",
+      "year": 2011,
+      "first_used": "2026-08-20",
+      "articles": [
+        "2026-08-20-speech-comprehension-n400-lexical-access"
+      ],
+      "coverage": [
+        "N400",
+        "semantic processing",
+        "cloze probability",
+        "MEG generators"
+      ]
+    },
+    {
+      "pmid": "38428168",
+      "doi": "10.1016/j.cognition.2024.105755",
+      "title": "A predictive coding model of the N400",
+      "authors": "Grisoni L, et al.",
+      "year": 2024,
+      "first_used": "2026-08-20",
+      "articles": [
+        "2026-08-20-speech-comprehension-n400-lexical-access"
+      ],
+      "coverage": [
+        "N400 computational model",
+        "predictive coding",
+        "lexical-semantic processing"
+      ]
+    },
+    {
+      "pmid": "31220442",
+      "pmcid": "PMC6602075",
+      "title": "The encoding of speech sounds in the superior temporal gyrus",
+      "authors": "Leonard MK, et al.",
+      "year": 2019,
+      "first_used": "2026-08-20",
+      "articles": [
+        "2026-08-20-speech-comprehension-n400-lexical-access"
+      ],
+      "coverage": [
+        "STG speech encoding",
+        "ECoG",
+        "spectrotemporal receptive fields",
+        "phoneme encoding"
+      ]
+    },
+    {
+      "pmid": "24404576",
+      "pmcid": "PMC4098851",
+      "title": "Wernicke's area revisited: parallel streams and word processing",
+      "authors": "Hickok G, Poeppel D",
+      "year": 2014,
+      "first_used": "2026-08-20",
+      "articles": [
+        "2026-08-20-speech-comprehension-n400-lexical-access"
+      ],
+      "coverage": [
+        "Wernicke's area modern interpretation",
+        "AWFA",
+        "pure word deafness",
+        "conduction aphasia"
       ]
     }
   ],
