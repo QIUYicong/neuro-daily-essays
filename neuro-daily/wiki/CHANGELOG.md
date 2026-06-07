@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-08-13（文章 #112 — 皮层区域化）
+
+**新建页面（2 页）**：
+- `wiki/concepts/cortical-arealization.md`：皮层区域化的两阶段机制——EMX2/PAX6/COUP-TFI/Sp8 转录因子梯度 + 丘脑活动雕刻；涵盖原图谱 vs. 原皮层之争历史、FGF8 信号中心、人类 GW20 V1-V2 离散边界
+- `wiki/concepts/fgf8-cortical-patterning.md`：FGF8 如何从连合板作为上游信号中心建立皮层前后轴坐标系；Sp8-FGF8-EMX2 自调节回路
+
+**修订页面（2 页）**：
+- `wiki/concepts/cortical-neurogenesis.md`（rev4）：新增 cortical-arealization 和 fgf8-cortical-patterning 为 related 连接，标注祖细胞阶段 EMX2/Pax6 梯度是区域化的上游入口
+- `wiki/concepts/cortical-layers.md`（rev3）：新增 cortical-arealization 为 related 连接
+
+**图谱更新**：新增 2 个节点（cortical-arealization, fgf8-cortical-patterning），新增 10 条有类型边（regulates/prerequisite-for/related）；图谱总节点 236，总边 1348
+
+**新登记的未解问题**：
+- Q-area-01（高）：人类 PFC 相对扩大的分子基础
+- Q-area-02（中）：V1-V2 离散边界的细胞机制（谱系 vs 丘脑活动）
+- Q-area-03（低）：EMX2/PAX6 梯度在人类中的定量保守性
+
+**裁决的矛盾**：无
+
+**新增的悬空引用**：`thalamocortical-circuit`（在 cortical-arealization 页引用但可能未有独立页，需检查）
+
+---
+
 ## 2026-08-12 · 文章 #111 · 不完整的礼物：SRGAP2C 与 ARHGAP11B 如何给人类大脑装上更多突触和更多神经元
 
 **核心主题**：两个人类特异性截断基因复制（SRGAP2C ~240万年前；ARHGAP11B ~350万年前）——SRGAP2C 通过与祖先蛋白 SRGAP2A 异二聚化产生显性负效应，延缓突触棘成熟（neoteny）、提升密度（+71% 幼鼠，+40% 成年）；ARHGAP11B 通过 47-aa C 端尾部靶向线粒体激活谷氨酰胺酶解、增加天冬氨酸供给，促进基底放射状胶质细胞自我更新、引发皮层折叠——两者分别针对"连接密度"与"神经元数量"这两个维度推动人类皮层进化跃迁。

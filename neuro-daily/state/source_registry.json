@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12",
+  "last_updated": "2026-08-13",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8019,6 +8019,134 @@
       ],
       "full_text": false,
       "limitation": "abstract only"
+    },
+    {
+      "pmid": "18524571",
+      "pmcid": "PMC2677555",
+      "title": "Genetic regulation of arealization of the neocortex",
+      "authors": "O'Leary DM, Sahara S",
+      "journal": "Curr Opin Neurobiol",
+      "year": 2008,
+      "first_used": "2026-08-13",
+      "used_in_articles": [
+        "2026-08-13-cortical-arealization-transcription-gradients"
+      ],
+      "topics_covered": [
+        "cortical arealization",
+        "EMX2 PAX6 gradient",
+        "COUP-TFI",
+        "FGF8 signaling center"
+      ],
+      "full_text_available": true
+    },
+    {
+      "pmid": "11567107",
+      "pmcid": null,
+      "title": "Neocortex patterning by the secreted signaling molecule FGF8",
+      "authors": "Fukuchi-Shimogori T, Grove EA",
+      "journal": "Science",
+      "year": 2001,
+      "first_used": "2026-08-13",
+      "used_in_articles": [
+        "2026-08-13-cortical-arealization-transcription-gradients"
+      ],
+      "topics_covered": [
+        "FGF8 cortical patterning",
+        "barrel cortex duplication",
+        "area map shift"
+      ],
+      "full_text_available": false,
+      "note": "abstract only, Science paywall"
+    },
+    {
+      "pmid": "24105342",
+      "pmcid": "PMC3876965",
+      "title": "Molecular logic of neocortical projection neuron specification, development and diversity",
+      "authors": "Greig LC et al.",
+      "journal": "Nat Rev Neurosci",
+      "year": 2013,
+      "first_used": "2026-08-13",
+      "used_in_articles": [
+        "2026-08-13-cortical-arealization-transcription-gradients"
+      ],
+      "topics_covered": [
+        "cortical arealization",
+        "projection neuron specification",
+        "two-phase model"
+      ],
+      "full_text_available": true
+    },
+    {
+      "pmid": "34616070",
+      "pmcid": "PMC8494648",
+      "title": "An atlas of cortical arealization identifies dynamic molecular signatures",
+      "authors": "Bhaduri A et al.",
+      "journal": "Nature",
+      "year": 2021,
+      "first_used": "2026-08-13",
+      "used_in_articles": [
+        "2026-08-13-cortical-arealization-transcription-gradients"
+      ],
+      "topics_covered": [
+        "human cortical arealization",
+        "single cell RNA-seq",
+        "PFC vs V1 signatures GW14-17"
+      ],
+      "full_text_available": true
+    },
+    {
+      "pmid": "40369074",
+      "pmcid": "PMC12328223",
+      "title": "Spatial transcriptomics reveals human cortical layer and area specification",
+      "authors": "Qian X et al.",
+      "journal": "Nature",
+      "year": 2025,
+      "first_used": "2026-08-13",
+      "used_in_articles": [
+        "2026-08-13-cortical-arealization-transcription-gradients"
+      ],
+      "topics_covered": [
+        "human cortical arealization",
+        "V1-V2 discrete boundary GW20",
+        "MERFISH spatial transcriptomics"
+      ],
+      "full_text_available": true
+    },
+    {
+      "pmid": "28412498",
+      "pmcid": "PMC7610996",
+      "title": "Impact of Thalamocortical Input on Barrel Cortex Development",
+      "authors": "review",
+      "journal": "review",
+      "year": 2017,
+      "first_used": "2026-08-13",
+      "used_in_articles": [
+        "2026-08-13-cortical-arealization-transcription-gradients"
+      ],
+      "topics_covered": [
+        "thalamocortical axons",
+        "barrel cortex",
+        "NMDAR-dependent plasticity",
+        "VGLUT knockout"
+      ],
+      "full_text_available": true
+    },
+    {
+      "pmid": "28155854",
+      "title": "Prenatal thalamic waves regulate cortical area size prior to sensory processing",
+      "authors": "Moreno-Juan V et al.",
+      "journal": "Nat Commun",
+      "year": 2017,
+      "first_used": "2026-08-13",
+      "used_in_articles": [
+        "2026-08-13-cortical-arealization-transcription-gradients"
+      ],
+      "topics_covered": [
+        "prenatal thalamic calcium waves",
+        "cross-modal plasticity",
+        "cortical area size regulation"
+      ],
+      "full_text_available": true
     }
   ],
   "total_sources": 455,

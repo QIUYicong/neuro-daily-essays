@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-09
-updated: 2026-08-11
-revision_count: 3
+updated: 2026-08-13
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, cognition, disease]
-related: [outer-radial-glia, notch2nl-cortical-expansion, critical-period, adult-neurogenesis, synaptic-pruning, axon-guidance, ei-balance, pv-interneurons, cortical-interneuron-development, tangential-migration, medial-ganglionic-eminence, gaba, lissencephaly, reelin-signaling, cortical-migration-disorders]
+related: [outer-radial-glia, notch2nl-cortical-expansion, critical-period, adult-neurogenesis, synaptic-pruning, axon-guidance, ei-balance, pv-interneurons, cortical-interneuron-development, tangential-migration, medial-ganglionic-eminence, gaba, lissencephaly, reelin-signaling, cortical-migration-disorders, cortical-arealization, fgf8-cortical-patterning]
 prerequisites: [synaptic-transmission, ltp]
 opens_questions: [Q-cortex-01, Q-cortex-02, Q-cortex-03]
-source_articles: [2026-08-09-cortical-neurogenesis-inside-out-radial-glia]
+source_articles: [2026-08-09-cortical-neurogenesis-inside-out-radial-glia, 2026-08-13-cortical-arealization-transcription-gradients]
 key_sources: ["PMID:13713536", "PMID:15634788", "PMID:21285371", "PMID:14703572", "PMID:35216663", "PMID:35602606"]
 ---
 
@@ -98,6 +98,7 @@ key_sources: ["PMID:13713536", "PMID:15634788", "PMID:21285371", "PMID:14703572"
 - 2026-08-09 · 创建 · 基于《皮层的诞生》一文（第 108 篇）· 初始置信度：高
 - 2026-08-10 · 修订 rev2 · 基于《皮层的第二种建筑学》(#109) · 新增：cortical-interneuron-development/tangential-migration/MGE/gaba 节点为互补连接，明确"兴奋性放射迁移 vs 抑制性切向迁移"的双架构对比
 - 2026-08-11 · 修订 rev3 · 基于《皮层建造的故障报告》(#110) · 新增：lissencephaly/reelin-signaling/cortical-migration-disorders 三个疾病/机制节点为 related 连接；强化了 Reelin 在 Inside-Out 终止机制中的位置
+- 2026-08-13 · 修订 rev4 · 基于《皮层地图学》(#112) · 新增 cortical-arealization 和 fgf8-cortical-patterning 为 related 连接，标注文中已提及的"EMX2、Pax6 梯度在祖细胞阶段预设区域身份"是区域化的上游入口
 
 ## 来源文章
 

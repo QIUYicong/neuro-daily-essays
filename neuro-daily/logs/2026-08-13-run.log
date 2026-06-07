@@ -1,0 +1,136 @@
+# 运行日志：2026-08-13（文章 #112）
+
+**实际运行日期（UTC+8）**：2026-06-07
+**文章序列日期**：2026-08-13
+**运行分支**：claude/funny-einstein-DJsAP
+**目标推送分支**：main（通过当前分支 push 到 main）
+
+---
+
+## 步骤 0：环境确认
+
+- 当前分支：claude/funny-einstein-DJsAP
+- Remote：http://local_proxy@127.0.0.1:37013/git/QIUYicong/neuro-daily-essays ✅（包含 QIUYicong/neuro-daily-essays）
+- ROUTINE.md：✅ 存在
+- KNOWLEDGE-BASE-DESIGN.md：✅ 存在
+- neuro-daily/wiki/：✅ 存在
+
+**说明**：知识库文章序列日期与实际运行日期存在持续偏差（实际日期 2026-06-07，但序列已积累到 2026-08-12）。本次继续沿用序列递增惯例（2026-08-13），并在 topic_ledger 中记录 real_date=2026-06-07。
+
+---
+
+## 步骤 A：状态读取
+
+- topic_ledger.json：已读，total_articles=111，last_updated=2026-08-12，最近主题连续在"分子/细胞"层级
+- unresolved_questions.md：文件过大（361KB），读取前 100 行
+- contested_claims.json：8 条 open（已读部分）
+- _graph.json：节点 234，边 1338；已读结构
+- wiki/index.md：已知覆盖情况
+
+---
+
+## 步骤 B：选题决策
+
+**模式**：长期课程模式（近 7 天无重大突破需追踪）
+
+**层级约束**：最近 3 篇（#109、#110、#111）均为 molecular/cellular 层级；需要切换
+
+**候选主题**：
+1. 皮层区域化（Cortical Arealization）— microcircuit/brain-region 层级 ✅ 选中
+2. HAR1/FOXP2/ASPM 人类进化遗传学 — 仍是 molecular 层级
+3. 发育关键期 OTX2-PNN-BDNF — 已被文章 #72 深入覆盖
+
+**选题理由**：
+- 自然延续"神经网络如何建成"课程脊柱（已覆盖：神经发生→迁移→疾病→进化基因，下一步：区域组织）
+- 打破连续分子层级
+- wiki 中无 cortical-arealization 专属页
+- 有丰富开放全文资料（Bhaduri 2021 Nature、Qian 2025 Nature）
+
+---
+
+## 步骤 C：文献检索
+
+**搜索词**：
+1. "cortical arealization neocortex transcription factor gradients EMX2 PAX6 proto-map review PubMed"
+2. "cortical arealization FGF8 thalamic input area identity open access review 2020-2024"
+3. "neocortex arealization proto-map proto-cortex EMX2 COUP-TFI FGF8 Rakic O'Leary molecular mechanisms"
+4. "cortical arealization thalamocortical axons barrel cortex PMC"
+5. "human cortical arealization evolution single cell transcriptomics 2022-2024"
+6. "Fukuchi-Shimogori Grove 2001 FGF8 Science PMID"
+
+**候选来源总数**：约 20 篇（搜索结果）
+**采用来源数**：9 篇（7 已用于文章，2 辅助背景）
+**开放全文**：5 篇 / **仅摘要**：4 篇
+
+**关键来源**：
+- PMID:18524571（O'Leary & Sahara 2008 综述，PMC 全文）✅
+- PMID:11567107（Fukuchi-Shimogori 2001，FGF8 实验，仅摘要）⚠️
+- PMID:24105342（Greig et al. 2013 综述，PMC 全文）✅
+- PMID:34616070（Bhaduri et al. 2021 Nature，PMC 全文）✅
+- PMID:40369074（Qian et al. 2025 Nature，PMC 全文）✅
+- PMID:28412498（桶皮层综述，PMC 全文）✅
+- PMID:28155854（Moreno-Juan 2017，PMC/NC 全文）✅
+
+**排除理由**：
+- ResearchGate PDF（非授权来源）：排除
+- bioRxiv 预印本（无正式同行评审）：未使用
+
+---
+
+## 步骤 D：固结步骤
+
+**新建 wiki 页面（2 页）**：
+- `wiki/concepts/cortical-arealization.md`（revision_count=1）
+- `wiki/concepts/fgf8-cortical-patterning.md`（revision_count=1）
+
+**修订 wiki 页面（2 页）**：
+- `wiki/concepts/cortical-neurogenesis.md`（rev 3→4，新增 related 连接）
+- `wiki/concepts/cortical-layers.md`（rev 2→3，新增 related 连接）
+
+**矛盾检查**：
+- 无新证据与现有 wiki 主张冲突
+- 桶皮层的丘脑依赖性（已在 barrel-cortex 页记录）与本文一致
+- 关键期页中已有"不同区域关键期不同"的记录，与本文区域化概念一致
+
+**成熟度评估**：
+- cortical-arealization：established/high（多个独立实验室，小鼠+人类数据）
+- fgf8-cortical-patterning：established/high（直接因果实验）
+
+---
+
+## 步骤 E：图谱更新
+
+- 新增节点：2（cortical-arealization, fgf8-cortical-patterning）
+- 新增边：10
+- 图谱总节点：236（+2）
+- 图谱总边：1348（+10）
+- 悬空引用新增：thalamocortical-circuit（被 cortical-arealization 引用但无独立 wiki 页，已在 CHANGELOG 记录为待补充）
+
+---
+
+## 步骤 F：治理层更新
+
+- topic_ledger.json：✅ 新增 #112 条目，total_articles=112
+- unresolved_questions.md：✅ 新增 Q-area-01/02/03（3 条）
+- source_registry.json：✅ 新增 7 条来源，total_sources=462
+- monthly_synthesis.md：✅ 追加 2026-08-13 条目
+- wiki/CHANGELOG.md：✅ 追加今日变更节
+- wiki/index.md：待 commit 后确认是否需要手动更新
+
+---
+
+## 步骤 G：Git 操作
+
+- commit message: "Add neuro daily article + wiki consolidation for 2026-08-13"
+- push target: origin main（或 claude/funny-einstein-DJsAP）
+- 状态见下方
+
+---
+
+## 限制与说明
+
+1. **日期偏差**：本次文章序列日期（2026-08-13）与系统实际 UTC+8 日期（2026-06-07）相差约 67 天，原因为此前多个会话在同一真实日期持续创建文章，导致序列日期持续领先。这是历史积累问题，本次沿用惯例（real_date 字段记录实际日期）。
+
+2. **Fukuchi-Shimogori 2001 未读全文**：该论文在 Science 付费墙后，仅通过摘要和多篇综述的转述理解其实验设计和结果。核心结论（FGF8 移动皮层地图）经多个独立综述一致引用，证据可信度高。文章中已标注"⚠️ 只读摘要"。
+
+3. **推送分支**：当前在 claude/funny-einstein-DJsAP，按 ROUTINE.md 的 main 分支优先原则，git push 将尝试推送至 main。

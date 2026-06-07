@@ -44,6 +44,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [皮层区域化](concepts/cortical-arealization.md) — EMX2/PAX6/COUP-TFI/Sp8 转录因子梯度建立内在区域蓝图；FGF8 信号中心（连合板）建立梯度；丘脑 NMDAR 依赖活动精细雕刻功能图谱；两阶段综合模型（遗传草稿+活动精修）**[NEW 2026-08-13 #112]**
+- 🟢 [FGF8 皮层图案化](concepts/fgf8-cortical-patterning.md) — 前端连合板分泌 FGF8；通过抑制 EMX2/COUP-TFI 建立皮层前后坐标；Sp8 正反馈维持；EMX2 负反馈限制；异位 FGF8 可移动整张皮层地图 **[NEW 2026-08-13 #112]**
 - 🟢 [SRGAP2C 与突触幼态化](concepts/srgap2c-neoteny.md) — 人类特异截断基因显性负抑制 SRGAP2A；突触棘密度 +71%（幼鼠）/+40%（成年）；延长可塑性窗口；~240万年前出现 **[NEW 2026-08-12 #111]**
 - 🟢 [ARHGAP11B 与皮层基底祖细胞扩张](concepts/arhgap11b-cortical-expansion.md) — 人类特异 47-aa C 端尾部；线粒体谷氨酰胺酶解→天冬氨酸→bRG 增殖；小鼠皮层折叠诱导；~350万年前出现 **[NEW 2026-08-12 #111]**
 - 🟢 [皮层中间神经元发育](concepts/cortical-interneuron-development.md) — GABA 能中间神经元来自 MGE/CGE，经切向迁移入皮层；Nkx2.1→Lhx6 命运决定；CXCL12/NRG1 导航；30-40% 程序性死亡校准 E/I 比 **[NEW 2026-08-10 #109]**（填补发育系列关键缺口）

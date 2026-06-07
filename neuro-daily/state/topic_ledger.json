@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-12",
-  "total_articles": 111,
+  "last_updated": "2026-08-13",
+  "total_articles": 112,
   "entries": [
     {
       "date": "2026-08-09",
@@ -6974,6 +6974,70 @@
       ],
       "mode": "long_term_curriculum",
       "note": "人类特异性进化机制系列第1篇（延续皮层发育系列）。建立SRGAP2C幼态化和ARHGAP11B代谢扩张两个新节点，修订oRG和NOTCH2NL节点。图谱232→234节点，1324→1338边。"
+    },
+    {
+      "date": "2026-08-13",
+      "real_date": "2026-06-07",
+      "article_number": 112,
+      "title": "皮层地图学：转录因子梯度、FGF8 信号与丘脑输入如何将均质神经上皮雕刻成功能各异的皮层区域",
+      "slug": "cortical-arealization-transcription-gradients",
+      "filename": "2026-08-13-cortical-arealization-transcription-gradients.md",
+      "article_type": "regular",
+      "core_question": "新皮层如何从均质神经上皮发育出视觉、运动、听觉、前额叶等功能区？EMX2/PAX6/COUP-TFI/Sp8 转录因子梯度、FGF8 前端信号中心与丘脑活动依赖雕刻三者如何分工协作完成区域化？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region"
+      ],
+      "curriculum_track": "2. 神经网络如何建成（区域化：神经元就位后如何组织进功能区，发育弧顶点）",
+      "topic_tags": [
+        "cortical arealization",
+        "neocortex",
+        "proto-map",
+        "proto-cortex",
+        "EMX2",
+        "PAX6",
+        "COUP-TFI",
+        "Sp8",
+        "FGF8",
+        "commissural plate",
+        "anterior neural ridge",
+        "thalamocortical axons",
+        "barrel cortex",
+        "area identity",
+        "Brodmann areas",
+        "transcription factor gradient",
+        "Rakic",
+        "O'Leary",
+        "NMDA-dependent",
+        "cortical map",
+        "V1",
+        "primary somatosensory",
+        "primary motor",
+        "prefrontal cortex",
+        "spatial transcriptomics",
+        "single cell RNA-seq"
+      ],
+      "main_sources": [
+        "PMID:18524571 (O'Leary & Sahara 2008 review - full text PMC)",
+        "PMID:11567107 (Fukuchi-Shimogori & Grove 2001 FGF8 experiment - abstract only)",
+        "PMID:24105342 (Greig et al. 2013 Nat Rev Neurosci - full text PMC)",
+        "PMID:34616070 (Bhaduri et al. 2021 Nature atlas - full text PMC)",
+        "PMID:40369074 (Qian et al. 2025 Nature spatial - full text PMC)",
+        "PMID:28412498 (barrel cortex development review - full text PMC)",
+        "PMID:28155854 (Moreno-Juan 2017 prenatal thalamic waves - full text)"
+      ],
+      "unresolved_questions": [
+        "Q-area-01",
+        "Q-area-02",
+        "Q-area-03"
+      ],
+      "next_suggested_topics": [
+        "丘脑皮层轴突（Thalamocortical Axons）专题：导航机制、分子引导线索、眼优势柱形成",
+        "人类大脑进化遗传学综合：HAR1/HAR2、FOXP2、ASPM/microcephalin——人类特异性变化完整清单",
+        "皮层区域间的层级连接（feedforward vs feedback）：视觉腹侧流和背侧流"
+      ]
     }
   ],
   "layer_coverage_recent": {

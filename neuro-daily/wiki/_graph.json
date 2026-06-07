@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "node_count": 234,
   "edge_count": 1338,
   "edge_types": [
@@ -2119,6 +2119,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/arhgap11b-cortical-expansion.md"
+    },
+    {
+      "id": "cortical-arealization",
+      "title": "皮层区域化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-arealization.md"
+    },
+    {
+      "id": "fgf8-cortical-patterning",
+      "title": "FGF8 皮层图案化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/fgf8-cortical-patterning.md"
     }
   ],
   "edges": [
@@ -9314,6 +9332,56 @@
     {
       "from": "notch2nl-cortical-expansion",
       "to": "srgap2c-neoteny",
+      "type": "related"
+    },
+    {
+      "from": "fgf8-cortical-patterning",
+      "to": "cortical-arealization",
+      "type": "regulates"
+    },
+    {
+      "from": "fgf8-cortical-patterning",
+      "to": "cortical-neurogenesis",
+      "type": "regulates"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "cortical-arealization",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "thalamocortical-circuit",
+      "type": "related"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "cortical-interneuron-development",
+      "type": "related"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "reelin-signaling",
+      "type": "related"
+    },
+    {
+      "from": "growth-cone",
+      "to": "fgf8-cortical-patterning",
       "type": "related"
     }
   ],
