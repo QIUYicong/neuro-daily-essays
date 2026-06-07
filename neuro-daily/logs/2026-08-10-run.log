@@ -96,6 +96,6 @@
 
 ## Git 状态
 - 分支：main
-- 提交状态：[待提交]
-- commit hash：[待填写]
-- push 状态：[待推送]
+- 提交状态：已提交
+- commit hash：e47e769
+- push 状态：成功推送至 origin/main（ddd695f → e47e769）
