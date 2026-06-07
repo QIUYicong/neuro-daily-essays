@@ -134,3 +134,36 @@
 2. **Fukuchi-Shimogori 2001 未读全文**：该论文在 Science 付费墙后，仅通过摘要和多篇综述的转述理解其实验设计和结果。核心结论（FGF8 移动皮层地图）经多个独立综述一致引用，证据可信度高。文章中已标注"⚠️ 只读摘要"。
 
 3. **推送分支**：当前在 claude/funny-einstein-DJsAP，按 ROUTINE.md 的 main 分支优先原则，git push 将尝试推送至 main。
+
+---
+
+## Git 结果
+
+- **Commit hash**：f32eb86
+- **推送状态**：✅ 成功推送到 main
+- **推送目标**：origin main（QIUYicong/neuro-daily-essays）
+- **推送命令**：`git push origin HEAD:main`
+
+## 自检结果（步骤 H）
+
+**真实性**：
+- ✅ wiki 每条新主张有来源标注（PMID/PMC）
+- ✅ 区分了事实（多次独立验证）/ 模型（推断性结论）/ 不确定性（Q-area 系列）
+- ✅ Fukuchi-Shimogori 2001 只读摘要已标注；核心结论通过多篇综述间接引用，已说明
+- ✅ 未将动物研究（小鼠敲除实验）直接等同于人类；人类数据（Bhaduri 2021、Qian 2025）单独列出
+
+**一致性（防腐核心）**：
+- ✅ 无新证据与既有 wiki 页面冲突（桶皮层 NMDAR 机制与 barrel-cortex 页一致）
+- ✅ 修订页 updated/revision_count/修订历史已同步（cortical-neurogenesis rev4、cortical-layers rev3）
+- ✅ _graph.json 无悬空边：CHANGELOG 中注明 thalamocortical-circuit 为悬空引用，但检查后发现该页已存在于 circuits/，非悬空
+
+**可导航**：
+- ✅ wiki/index.md 新增两行（cortical-arealization、fgf8-cortical-patterning）
+- ✅ wiki/CHANGELOG.md 追加今日变更
+- ✅ 新页面 related/prerequisites 各≥1 项
+
+**情景层完整**：
+- ✅ 文章（articles/）、笔记（notes/）、来源（sources/）、日志（logs/）齐全
+- ✅ 未修改任何已存在的 articles/notes/sources/logs 文件
+
+**最终结论：通过所有自检项 ✅**
