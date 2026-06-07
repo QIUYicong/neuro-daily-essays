@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-09",
+  "updated": "2026-08-10",
   "node_count": 203,
   "edge_count": 1179,
   "edge_types": [
@@ -2038,6 +2038,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/notch2nl-cortical-expansion.md"
+    },
+    {
+      "id": "cortical-interneuron-development",
+      "title": "皮层中间神经元发育（切向迁移与命运决定）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-interneuron-development.md"
+    },
+    {
+      "id": "tangential-migration",
+      "title": "切向迁移（中间神经元）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tangential-migration.md"
+    },
+    {
+      "id": "medial-ganglionic-eminence",
+      "title": "内侧神经节隆起（MGE）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/medial-ganglionic-eminence.md"
+    },
+    {
+      "id": "gaba",
+      "title": "GABA（γ-氨基丁酸）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/gaba.md"
     }
   ],
   "edges": [
@@ -8948,6 +8984,111 @@
     {
       "from": "notch2nl-cortical-expansion",
       "to": "outer-radial-glia",
+      "type": "regulates"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "pv-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "sst-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "vip-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "gaba",
+      "type": "related"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "tangential-migration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "medial-ganglionic-eminence",
+      "type": "part-of"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "cortical-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "ei-balance",
+      "type": "regulates"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "medial-ganglionic-eminence",
+      "to": "pv-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "medial-ganglionic-eminence",
+      "to": "sst-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "medial-ganglionic-eminence",
+      "to": "tangential-migration",
+      "type": "related"
+    },
+    {
+      "from": "tangential-migration",
+      "to": "cortical-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "tangential-migration",
+      "to": "axon-guidance",
+      "type": "related"
+    },
+    {
+      "from": "gaba",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "gaba",
+      "to": "sst-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "gaba",
+      "to": "vip-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "gaba",
+      "to": "ei-balance",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "gaba",
+      "to": "synaptic-transmission",
+      "type": "is-a"
+    },
+    {
+      "from": "gaba",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "gaba",
+      "to": "ltp",
       "type": "regulates"
     }
   ],

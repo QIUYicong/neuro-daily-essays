@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-08-10 · 文章 #109 · 皮层的第二种建筑学：GABA 能中间神经元切向迁移与命运决定
+
+**核心主题**：皮层 GABAergic 中间神经元的发育起源（MGE/CGE）、切向迁移（CXCL12/CXCR4 + NRG1/ErbB4）、Nkx2.1→Lhx6 命运决定转录因子接力、程序性细胞死亡筛选 E/I 比（Wong 2018）、PV/SST/VIP 三类分化、精神分裂症/癫痫/ASD 的发育机制联系。**填补图谱悬空引用 `gaba`**。
+
+**新建页面（4）**：
+- `concepts/cortical-interneuron-development.md` rev1 — 中间神经元发育全流程：MGE/CGE 起源 → 切向迁移 → 命运决定（Nkx2.1-Lhx6/COUP-TFII）→ 程序性死亡（30-40%，Wong 2018）→ PV 功能成熟（KCC2/BDNF）(established, confidence:high)
+- `concepts/tangential-migration.md` rev1 — 盐跃运动；CXCL12-CXCR4/CXCR7 维持迁移流；NRG1/ErbB4 吸引；Semaphorin/Neuropilin 排斥；48h 等待期；"分子握手"（兴奋性神经元前体 → CXCL12） (established, confidence:high)
+- `concepts/medial-ganglionic-eminence.md` rev1 — MGE 空间分区（背侧偏 SST，腹侧偏 PV）；Shh→Nkx2.1→Lhx6 级联；SST 先出生（E11-13），PV 后出生（E13-15）；AP vs BP 分裂模式偏向 (established, confidence:high)
+- `concepts/gaba.md` rev1 — GABA 合成（GAD65/67）分解；GABA-A（快 Cl⁻）/GABA-B（慢 G蛋白）；发育方向翻转（新生儿去极化→成年超极化，NKCC1→KCC2 转变，BDNF 驱动）；三类 GABA 能中间神经元总览 (established, confidence:high)
+
+**修订页面（5）**：
+- `circuits/pv-interneurons.md` rev4→rev5 — 新增：MGE 腹侧来源、Nkx2.1→Lhx6 命运路径、程序性死亡（Wong 2018）；related 新增 cortical-interneuron-development/MGE/gaba/tangential-migration；key_sources 更新（PMID:21154909, 18339674, 29849154）
+- `circuits/sst-interneurons.md` rev1→rev2 — 新增：MGE 背侧来源、SST 早出生（E11-13）、精神分裂症 OFC SST 减少 67%（Joshi 2015）；related 和 dimensions 扩展
+- `circuits/vip-interneurons.md` rev1→rev2 — 新增：CGE 来源（COUP-TFII/Sp8）、5HT3aR 作为 CGE 来源全谱标志（Lee 2010）；related 扩展
+- `concepts/cortical-neurogenesis.md` rev1→rev2 — 新增：中间神经元"第二种建筑学"的互补连接；related 新增 cortical-interneuron-development/tangential-migration/MGE/gaba
+- `concepts/ei-balance.md` rev1→rev2 — 新增：程序性细胞死亡（Wong 2018）作为发育期 E/I 比校准机制；related 新增 cortical-interneuron-development/gaba
+
+**矛盾登记（0）**：今日来源未发现与既有 wiki 主张直接冲突（MGE 背腹分区的 SST/PV 偏向 vs 克隆混合问题已在文章正文争议节中说明，但不冲突现有已登记页面主张）。
+
+**填补悬空引用**：`gaba`（已建 wiki 页 `concepts/gaba.md`，图谱悬空引用消除）
+
+**新增悬空引用**：`cognition`（来自旧边，已知待建，非今日新增）
+
+**知识图谱**：225 → 229 节点（+4），1281 → 1302 边（+21）
+
+---
+
 ## 2026-08-09 · 文章 #108 · 皮层的诞生：从神经干细胞到六层皮质的 Inside-Out 建筑法则
 
 **核心主题**：皮层神经发生（cortical neurogenesis）、Inside-Out 规则、aRGC/IPC 祖细胞系、Pax6→Tbr2→Tbr1 转录因子级联、FEZF2/SATB2 层身份开关、外放射状胶质细胞（oRGC）与 OSVZ、NOTCH2NL 人类皮层扩张分子机制、小头/大头畸形遗传基础。

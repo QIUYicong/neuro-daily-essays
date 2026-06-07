@@ -6,10 +6,10 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-07-04
-updated: 2026-07-04
-revision_count: 1
+updated: 2026-08-10
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, homeostatic-plasticity, synaptic-scaling, synaptic-pruning, perineuronal-nets, working-memory, competition-selection-principle]
+related: [pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, homeostatic-plasticity, synaptic-scaling, synaptic-pruning, perineuronal-nets, working-memory, competition-selection-principle, cortical-interneuron-development, gaba]
 prerequisites: [synaptic-transmission, action-potential, pv-interneurons]
 opens_questions: [Q-ei-balance-01, Q-ei-balance-02, Q-ei-balance-03]
 source_articles: [2026-07-04-ei-balance-pv-interneuron]
@@ -77,6 +77,8 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 - [[perineuronal-nets]] — PV+ 细胞周围的细胞外矩阵"刹车"，发育期固化 E/I 状态
 - [[synaptic-pruning]] — 发育期突触剪枝影响 E/I 平衡（精神分裂症过度剪枝的病理路径）
 - [[competition-selection-principle]] — 侧向抑制是竞争性选择的回路机制
+- [[cortical-interneuron-development]] — 程序性细胞死亡是 E/I 比的发育期校准机制（Wong 2018）
+- [[gaba]] — E/I 平衡的分子基础之一
 
 ## 未解问题
 
@@ -87,7 +89,9 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 ## 修订历史
 
 - 2026-07-04 · 创建 · 基于《信号与噪声之间：皮层 E/I 平衡的回路逻辑》一文 · 初始置信度：中（框架成熟，但异质性和精确测量方法仍有争议）
+- 2026-08-10 · 修订 rev2 · 基于《皮层的第二种建筑学》(#109) · 新增：程序性细胞死亡（Wong 2018）作为发育期 E/I 比校准的新维度——中间神经元数量由活动依赖的凋亡筛选决定；related 新增 cortical-interneuron-development, gaba
 
 ## 来源文章
 
 - [[2026-07-04-ei-balance-pv-interneuron]]
+- [[2026-08-10-cortical-interneuron-tangential-migration]]

@@ -7658,6 +7658,137 @@
         "INM mechanism",
         "open full text read"
       ]
+    },
+    {
+      "id": "PMID:21154909",
+      "title": "Three groups of interneurons",
+      "year": 2011,
+      "journal": "Dev Neurobiol",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "PV/SST/5HT3aR三分类"
+    },
+    {
+      "id": "PMID:18494250",
+      "title": "Perspectives on developmental origins",
+      "year": 2007,
+      "journal": "Novartis Found Symp",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "MGE/CGE比例"
+    },
+    {
+      "id": "PMID:21159951",
+      "title": "Largest group of superficial GABAergic expresses 5HT3a",
+      "year": 2010,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "CGE 5HT3aR"
+    },
+    {
+      "id": "PMID:18339674",
+      "title": "NKX2.1 specifies interneuron fate by activating Lhx6",
+      "year": 2008,
+      "journal": "Development",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "Nkx2.1-Lhx6 cascade"
+    },
+    {
+      "id": "PMID:27889625",
+      "title": "Cortical interneuron specification: genes, time, geometry",
+      "year": 2016,
+      "journal": "Curr Opin Neurobiol",
+      "pmcid": "PMC5699457",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "AP vs BP bias, MGE spatial domains"
+    },
+    {
+      "id": "PMID:15473965",
+      "title": "Short- and long-range attraction by neuregulin-1",
+      "year": 2004,
+      "journal": "Neuron",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "NRG1/ErbB4 migration"
+    },
+    {
+      "id": "PMID:18234887",
+      "title": "CXCL12/CXCR4 distribution and inhibitory tone",
+      "year": 2008,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "CXCL12 migration streams"
+    },
+    {
+      "id": "PMID:18272682",
+      "title": "Chemokine signaling intracortical migration",
+      "year": 2008,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "48h waiting period"
+    },
+    {
+      "id": "PMID:17182777",
+      "title": "CXCL12/CXCR4 projection neuron precursors",
+      "year": 2006,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "molecular handshake"
+    },
+    {
+      "id": "PMID:29849154",
+      "title": "Pyramidal cell regulation of interneuron survival",
+      "year": 2018,
+      "journal": "Nature",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "30-40% programmed death, PTEN/Bax"
+    },
+    {
+      "id": "PMID:27336026",
+      "title": "SST and death receptor schizophrenia OFC",
+      "year": 2015,
+      "journal": "NPJ Schizophrenia",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "SST/PV reduction schizophrenia"
+    },
+    {
+      "id": "PMID:22159125",
+      "title": "PV downregulation reduces gamma oscillations",
+      "year": 2011,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "PV-gamma link schizophrenia"
+    },
+    {
+      "id": "DOI:10.3389/fnins.2022.929469",
+      "title": "Origin, Development, Synaptogenesis of Cortical Interneurons",
+      "year": 2022,
+      "journal": "Front Neurosci",
+      "used_in": [
+        "2026-08-10-cortical-interneuron-tangential-migration"
+      ],
+      "coverage": "comprehensive review tangential migration, programmed death, PV maturation"
     }
   ],
   "total_sources": 386,

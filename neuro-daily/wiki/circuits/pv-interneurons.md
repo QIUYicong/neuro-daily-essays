@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 4
-dimensions: [cellular, synaptic, microcircuit, cognition, disease]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia]
+updated: 2026-08-10
+revision_count: 5
+dimensions: [molecular, cellular, synaptic, microcircuit, cognition, disease]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
@@ -88,6 +88,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 新增 PFC γ爆发WM应用、精神分裂症病理证据
 - 2026-07-04 · 修订 rev3 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增 E/I 平衡执行者角色、关键期初始靶点（Quast & Hensch 2023）、PNN 固化机制、神经炎症脆弱性
 - 2026-06-03 · 修订 rev4 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增：PV+ 细胞去激活是 ODP 的第一个微回路事件（Kuhlman 2013），OTX2 经 PNN 锚定驱动 PV 成熟（Sugiyama 2008, Beurdeley 2012），BDNF 驱动 PV 成熟时间轴（Huang 1999），Rett 综合征中 MeCP2 KO 加速 PV 成熟导致关键期错位（Krishnan 2015），小胶质细胞亚群上游调控 PV 成熟（Wang 2025）；related 新增 critical-period, bdnf, microglia
+- 2026-08-10 · 修订 rev5 · 基于《皮层的第二种建筑学》(#109) · 新增：MGE 腹侧来源、Nkx2.1→Lhx6 命运决定路径、程序性细胞死亡筛选（30-40%，Wong 2018）作为 PV 数量校准机制；related 新增 cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration
 
 ## 来源文章
 
@@ -95,3 +96,4 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-06-03-critical-period-plasticity]]
+- [[2026-08-10-cortical-interneuron-tangential-migration]]

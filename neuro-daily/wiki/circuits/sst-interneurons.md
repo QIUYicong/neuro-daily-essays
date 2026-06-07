@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 1
-dimensions: [cellular, synaptic, microcircuit]
-related: [pv-interneurons, vip-interneurons, disinhibitory-circuit, dendritic-computation, theta-oscillations, hippocampal-circuit, place-cell, ltp, btsp]
+updated: 2026-08-10
+revision_count: 2
+dimensions: [molecular, cellular, synaptic, microcircuit, disease]
+related: [pv-interneurons, vip-interneurons, disinhibitory-circuit, dendritic-computation, theta-oscillations, hippocampal-circuit, place-cell, ltp, btsp, cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration, ei-balance]
 prerequisites: [synaptic-transmission, dendritic-computation, nmda-receptor]
 opens_questions: [Q-sst-dendritic-spike-gate, Q-olm-theta-function]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity]
@@ -75,7 +75,9 @@ SST+ 细胞是**活跃锥体细胞的反馈抑制器**：当锥体细胞高频�
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《回路中的少数精锐》一文 · 初始置信度：高
+- 2026-08-10 · 修订 rev2 · 基于《皮层的第二种建筑学》(#109) · 新增：MGE 背侧来源（Nkx2.1/Lhx6 接力）、SST 早出生（E11-E13 高峰，先于 PV）、精神分裂症 OFC 中 SST mRNA 减少 67%（Joshi 2015）；related 新增发育相关节点
 
 ## 来源文章
 
 - [[2026-06-03-inhibitory-interneuron-diversity]]
+- [[2026-08-10-cortical-interneuron-tangential-migration]]

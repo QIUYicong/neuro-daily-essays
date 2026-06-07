@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-09（**第108篇**·皮层的诞生：Inside-Out 规则与神经干细胞到六层皮质的建筑法则）· 主题页总数：**213**（新建3页：cortical-neurogenesis、outer-radial-glia、notch2nl-cortical-expansion；修订2页：adult-neurogenesis rev3、critical-period rev3；图谱225节点、1281边；发育神经科学系列前传）
+> 最后更新：2026-08-10（**第109篇**·皮层的第二种建筑学：GABA 能中间神经元切向迁移与命运决定）· 主题页总数：**217**（新建4页：cortical-interneuron-development、tangential-migration、medial-ganglionic-eminence、gaba；修订5页：pv-interneurons rev5、sst-interneurons rev2、vip-interneurons rev2、cortical-neurogenesis rev2、ei-balance rev2；填补悬空引用 gaba；图谱229节点、1302边）
 
 ---
 
@@ -44,6 +44,10 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [皮层中间神经元发育](concepts/cortical-interneuron-development.md) — GABA 能中间神经元来自 MGE/CGE，经切向迁移入皮层；Nkx2.1→Lhx6 命运决定；CXCL12/NRG1 导航；30-40% 程序性死亡校准 E/I 比 **[NEW 2026-08-10 #109]**（填补发育系列关键缺口）
+- 🟢 [切向迁移（中间神经元）](concepts/tangential-migration.md) — 盐跃运动；CXCL12/CXCR4 维持流；NRG1/ErbB4 吸引；Semaphorin 排斥；48h 等待期；兴奋性神经元前体"邀请"抑制性细胞的分子握手 **[NEW 2026-08-10 #109]**
+- 🟢 [内侧神经节隆起（MGE）](concepts/medial-ganglionic-eminence.md) — 皮层 60% GABA 能中间神经元的诞生地；Nkx2.1 + Lhx6 标记；背侧偏 SST，腹侧偏 PV **[NEW 2026-08-10 #109]**（填补 gaba 悬空引用，建立中间神经元发育的起点节点）
+- 🟢 [GABA（γ-氨基丁酸）](concepts/gaba.md) — 主要抑制性神经递质；GAD65/67 合成；GABA-A（快速 Cl⁻）+ GABA-B（慢速 G 蛋白）受体；发育期去极化→成熟超极化（KCC2 上调）；是 E/I 平衡的分子减法端 **[NEW 2026-08-10 #109]**（填补图谱悬空引用）
 - 🟢 [突触生成](concepts/synaptogenesis.md) — 轴突触碰目标后 NL-NRXN 握手双向触发前后侧装配；兴奋性（PSD-95三层骨架）vs 抑制性（Gephyrin格栅）双轨；活动依赖稳定与修剪；ASD（NLGN3/Shank3突变）的分子入口 **[NEW 2026-08-06 #105]**
 - 🟢 [Neuroligin-Neurexin 突触粘附系统](concepts/neuroligin-neurexin.md) — 跨突触间隙双向信号系统；NL1→兴奋性/NL2→抑制性身份二分；弱结合×聚集效应（Boyd 2026）；可变剪接密码；NLGN3 R451C → ASD **[NEW 2026-08-06 #105]**
 - 🟢 [突触后致密体（兴奋性）](concepts/postsynaptic-density.md) — PSD-95/GKAP/Shank-Homer 三层骨架；纳米亚结构单元；LTP 后 5 分钟重组；AMPA/NMDA 受体锚定平台；Shank3 ASD 靶点 **[NEW 2026-08-06 #105]**

@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-09
-updated: 2026-08-09
-revision_count: 1
+updated: 2026-08-10
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, cognition, disease]
-related: [outer-radial-glia, notch2nl-cortical-expansion, critical-period, adult-neurogenesis, synaptic-pruning, axon-guidance, ei-balance, pv-interneurons]
+related: [outer-radial-glia, notch2nl-cortical-expansion, critical-period, adult-neurogenesis, synaptic-pruning, axon-guidance, ei-balance, pv-interneurons, cortical-interneuron-development, tangential-migration, medial-ganglionic-eminence, gaba]
 prerequisites: [synaptic-transmission, ltp]
 opens_questions: [Q-cortex-01, Q-cortex-02, Q-cortex-03]
 source_articles: [2026-08-09-cortical-neurogenesis-inside-out-radial-glia]
@@ -79,6 +79,10 @@ key_sources: ["PMID:13713536", "PMID:15634788", "PMID:21285371", "PMID:14703572"
 - [[synaptic-pruning]] — 神经元就位→突触生成→过量突触被剪枝（发育三部曲后段）
 - [[axon-guidance]] — 皮层神经元的轴突导向紧随层命运决定之后
 - [[ei-balance]] — 抑制性中间神经元（PV+/SST+，来自 MGE）与兴奋性投射神经元的协同发育
+- [[cortical-interneuron-development]] — 皮层的"第二种建筑学"：GABA 能中间神经元从 MGE/CGE 切向迁移入皮层
+- [[tangential-migration]] — 中间神经元入皮层的导向机制
+- [[medial-ganglionic-eminence]] — 中间神经元的主要产地（对比：锥体细胞来自皮层 VZ/SVZ）
+- [[gaba]] — 抑制性中间神经元的神经递质
 
 ## 未解问题
 
@@ -89,7 +93,9 @@ key_sources: ["PMID:13713536", "PMID:15634788", "PMID:21285371", "PMID:14703572"
 ## 修订历史
 
 - 2026-08-09 · 创建 · 基于《皮层的诞生》一文（第 108 篇）· 初始置信度：高
+- 2026-08-10 · 修订 rev2 · 基于《皮层的第二种建筑学》(#109) · 新增：cortical-interneuron-development/tangential-migration/MGE/gaba 节点为互补连接，明确"兴奋性放射迁移 vs 抑制性切向迁移"的双架构对比
 
 ## 来源文章
 
 - [[2026-08-09-cortical-neurogenesis-inside-out-radial-glia]]
+- [[2026-08-10-cortical-interneuron-tangential-migration]]

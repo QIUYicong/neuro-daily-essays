@@ -1,6 +1,24 @@
 # 未解问题追踪
 
-*最后更新：2026-08-09*
+*最后更新：2026-08-10*
+
+---
+
+## 2026-08-10 新增（来自"皮层的第二种建筑学"文章 #109）
+
+### Q-interneuron-01（中优先级）：人类皮层 MGE/CGE 来源中间神经元比例与小鼠的差异
+
+- **关联 wiki**：[[cortical-interneuron-development]]、[[medial-ganglionic-eminence]]、[[vip-interneurons]]
+- **来源文章**：2026-08-10-cortical-interneuron-tangential-migration
+- **问题**：小鼠数据：MGE ~60%（PV+SST），CGE ~30%（VIP/5HT3aR），POA ~10%。但人类皮层 VIP+ 细胞（CGE 来源）占比是否更高？Hodge 等（Allen Brain Cell Atlas）的人类转录组数据只提供了类型分布，无谱系追踪。问题：(a) 能否结合人类胎儿脑的单细胞 RNA-seq + 计算谱系推断，估计 MGE/CGE 各自的贡献比例？(b) 人类 CGE 的相对体积（相对于 MGE）是否大于小鼠（类似 oRGC/OSVZ 对兴奋性神经元的扩增）？(c) 如果 CGE 在人类更大，则 VIP 脱抑制回路在人类皮层中可能扮演更重要的角色——这与人类更复杂的注意力和认知控制能力有何关联？
+- **当前证据状态**：小鼠 MGE/CGE 比例（高，谱系追踪金标准）；人类（低，仅有转录组推断，无活体谱系追踪）
+
+### Q-interneuron-02（高优先级）：活体区分精神分裂症中 PV 细胞"数量减少"与"蛋白质下调"
+
+- **关联 wiki**：[[pv-interneurons]]、[[cortical-interneuron-development]]、[[ei-balance]]
+- **来源文章**：2026-08-10-cortical-interneuron-tangential-migration
+- **问题**：现有精神分裂症 PV/GAD67 减少数据全部来自尸检（Joshi 2015，Volman 2011 模型），无法区分：(a) 发育期中间神经元数量减少（过度凋亡/迁移失败）；(b) 成年后 PV 蛋白表达下调（神经元存活但功能性"沉默"）；(c) 抗精神病药物的继发效应。能否用 GABA-A α₁ 特异性 PET 配体（α₁ 亚型在 PV 细胞突触后高表达）在活体精神分裂症患者中量化 PV 细胞密度？这对病理分期（发育缺陷 vs 可逆性功能受损）和治疗窗口（是否还有干预余地）具有直接临床意义。
+- **当前证据状态**：尸检证据（高）；活体 PV 数量估计（缺失）；PET α₁ 配体精度（研究工具，精度仍有限）
 
 ---
 
