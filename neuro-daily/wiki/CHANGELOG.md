@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-08-20（文章 #102 — 声音之刀：颞上回如何将连续声学流切割为音素）
+
+**新建页面（3 页）**：
+- `wiki/systems/stg-phoneme-processing.md`：STG四大核心计算（非线性范畴化/说话者归一化/语境修复/时间标记提取）；pSTG/mSTG/aSTG/STS功能梯度；双尺度表征（局部→特征，群体→音素身份）；key_sources含PMID:34672685/PMC:9447996/PMID:24482117
+- `wiki/concepts/cortical-speech-entrainment.md`：θ-γ嵌套振荡与言语包络相位同步；非对称采样时间（AST，左快右慢）；MEG和颅内SEEG证据；开放争议：主动预测 vs 被动声学驱动
+- `wiki/concepts/phoneme-categorical-perception.md`：范畴感知的非线性神经机制；双尺度（局部特征/群体音素）表征；发育收窄与θ-γ动力学；开放争议：竞争抑制 vs 自上而下词汇反馈的权重
+
+**修订页面（2 页）**：
+- `wiki/systems/auditory-cortex.md`（rev4）：新增STG音素计算层小节（pSTG/mSTG/aSTG功能梯度）；新增 related: stg-phoneme-processing, cortical-speech-entrainment
+- `wiki/systems/auditory-dual-stream.md`（rev2）：新增 related: stg-phoneme-processing, cortical-speech-entrainment, phoneme-categorical-perception；双流起点现有独立STG音素计算页面支撑
+
+**矛盾登记**：无新矛盾（STG言语特异性与通用听觉计算之争已在stg-phoneme-processing页面标注为opens_questions，未成熟到qualified_claim级别）
+
+**新增悬空引用（待填补）**：
+- `efference-copy-speech`（被stg-phoneme-processing引用，尚无独立页面）
+- `hemispheric-asymmetry`（被auditory-cortex/auditory-dual-stream引用，尚无独立页面）
+- `perceptual-learning`（被phoneme-categorical-perception引用，尚无独立页面）
+
+**图谱更新**：+3节点（stg-phoneme-processing, cortical-speech-entrainment, phoneme-categorical-perception），+13边；总节点255，总边1430
+
+---
+
 ## 2026-08-19（文章 #118 — 言语产生：DIVA 模型与前馈/反馈双控制系统）
 
 **新建页面（3 页）**：

@@ -6,13 +6,13 @@ type: region
 status: established
 confidence: high
 created: 2026-07-18
-updated: 2026-08-18
-revision_count: 3
+updated: 2026-08-20
+revision_count: 4
 dimensions: [brain-region, microcircuit, whole-brain-network, systems, cognition]
-related: [tonotopy, language-network, thalamus, olfactory-system, predictive-coding, superior-temporal-sulcus, multisensory-integration, mcgurk-effect, auditory-dual-stream, hemispheric-asymmetry]
+related: [tonotopy, language-network, thalamus, olfactory-system, predictive-coding, superior-temporal-sulcus, multisensory-integration, mcgurk-effect, auditory-dual-stream, hemispheric-asymmetry, stg-phoneme-processing, cortical-speech-entrainment]
 prerequisites: [tonotopy, thalamic-firing-modes]
 opens_questions: [Q-aud-02, Q-aud-03, Q-aud-dual-01]
-source_articles: [2026-07-18-auditory-cortex-tonotopy-dual-coding, 2026-07-20-multisensory-integration-temporal-binding-sts, 2026-08-18-auditory-dual-stream-cortex-hierarchy]
+source_articles: [2026-07-18-auditory-cortex-tonotopy-dual-coding, 2026-07-20-multisensory-integration-temporal-binding-sts, 2026-08-18-auditory-dual-stream-cortex-hierarchy, 2026-08-20-stg-phoneme-speech-perception]
 key_sources: ["PMID:32420865", "PMID:37169827", "PMID:36786655", "PMID:28179553", "PMID:17431404", "PMCID:PMC3483386", "PMCID:PMC7067489"]
 ---
 
@@ -83,13 +83,24 @@ A1/Belt/Parabelt之上，信息分叉为两条并行通路（详见 [[auditory-d
 - 右半球AAC：慢时序（delta/beta 2.5/15 Hz，~200ms窗）→ 韵律/旋律
 - 此不对称在联合皮层（AAC）产生，初级皮层（A1）左右对称
 
+## STG音素计算层（2026-08-20 新增）
+
+HG/A1提供的声学特征在STG中被进一步转化为音素表征（详见 [[stg-phoneme-processing]]）：
+- **pSTG**：声音起始检测，标记词/短语边界
+- **mSTG**：包络变化率峰值（peakRate）追踪，对齐音节边界
+- **aSTG/STS**：语音可理解性响应，腹侧流入口
+
+这一处理依赖 [[cortical-speech-entrainment]]：θ振荡（~5Hz）与言语包络同步，γ振荡（~40Hz）在θ高兴奋相内提取音素特征。
+
 ## 修订历史
 
 - 2026-07-18 · 创建 · 基于《大脑如何读懂音调》文章 #86 · 初始置信度：高 · 新建core/belt/parabelt组织框架；来源含PMID:32420865/37169827/36786655
 - 2026-07-20 · 修订 · 基于《感官交响曲》文章 #88 · 新增 related: superior-temporal-sulcus, multisensory-integration, mcgurk-effect；A1 输出到 pSTS 参与视听整合的联结被明确
 - 2026-08-18 · 重要修订 · 基于《声音的解码器》文章 #100 · 新增双流架构（腹侧/背侧）及半球谱-时序不对称；新增 related: auditory-dual-stream, hemispheric-asymmetry；更新 key_sources 含 PMID:17431404/PMC:3483386/PMC:7067489
+- 2026-08-20 · 修订 · 基于《声音之刀》文章#102 · 新增STG音素计算层小节（pSTG/mSTG/aSTG功能梯度）；新增 related: stg-phoneme-processing, cortical-speech-entrainment
 
 ## 来源文章
 
 - [[2026-07-18-auditory-cortex-tonotopy-dual-coding]]
 - [[2026-07-20-multisensory-integration-temporal-binding-sts]]
+- [[2026-08-20-stg-phoneme-speech-perception]]

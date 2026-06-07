@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "node_count": 244,
   "edge_count": 1386,
   "edge_types": [
@@ -2281,6 +2281,33 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/systems/sma-presma.md"
+    },
+    {
+      "id": "stg-phoneme-processing",
+      "title": "颞上回音素计算",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/stg-phoneme-processing.md"
+    },
+    {
+      "id": "cortical-speech-entrainment",
+      "title": "皮层言语同步（振荡entrainment）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/cortical-speech-entrainment.md"
+    },
+    {
+      "id": "phoneme-categorical-perception",
+      "title": "音素范畴感知",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/phoneme-categorical-perception.md"
     }
   ],
   "edges": [
@@ -9898,6 +9925,71 @@
     {
       "from": "broca-area",
       "to": "speech-production-circuit",
+      "type": "related"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "auditory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "auditory-dual-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "phoneme-categorical-perception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "cortical-speech-entrainment",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "speech-production-circuit",
+      "type": "related"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "superior-temporal-sulcus",
+      "type": "related"
+    },
+    {
+      "from": "cortical-speech-entrainment",
+      "to": "stg-phoneme-processing",
+      "type": "supports"
+    },
+    {
+      "from": "cortical-speech-entrainment",
+      "to": "auditory-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-speech-entrainment",
+      "to": "temporal-coding-hierarchy",
+      "type": "is-a"
+    },
+    {
+      "from": "phoneme-categorical-perception",
+      "to": "stg-phoneme-processing",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "phoneme-categorical-perception",
+      "to": "auditory-dual-stream",
+      "type": "supports"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "stg-phoneme-processing",
       "type": "related"
     }
   ],

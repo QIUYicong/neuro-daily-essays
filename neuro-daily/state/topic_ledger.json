@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19",
+  "last_updated": "2026-08-20",
   "total_articles": 118,
   "entries": [
     {
@@ -7486,6 +7486,57 @@
         "speech-perception-phonology: 音韵感知——STG如何将声学流切割为音素（时间窗理论/皮层夹带）",
         "arcuate-fasciculus-deep: 弓状束的纤维分组与语言/言语分工",
         "language-acquisition-critical-period: 语言习得关键期的神经机制",
+        "prosody-neural-basis: 韵律的dPCSA/右半球神经基础"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "article_number": 102,
+      "slug": "stg-phoneme-speech-perception",
+      "title": "声音之刀：颞上回如何将连续声学流切割为音素",
+      "core_question": "颞上回（STG）通过哪些非线性神经计算，将连续可变的声学输入（~1000次/s的气压波动）映射为离散稳定的约40个音素范畴？四大核心计算（范畴化/归一化/修复/时间标记）和θ-γ双时间窗口各自如何贡献？",
+      "layer": [
+        "brain-region",
+        "systems",
+        "cognition",
+        "whole-brain-network"
+      ],
+      "topic_tags": [
+        "speech-perception",
+        "STG",
+        "phoneme",
+        "cortical-oscillations",
+        "theta-gamma",
+        "auditory-cortex",
+        "ECoG",
+        "AST",
+        "speech-entrainment"
+      ],
+      "main_sources": [
+        "PMID:34672685",
+        "PMC:9447996",
+        "PMID:24482117",
+        "PMID:22426255",
+        "PMC:3364513"
+      ],
+      "wiki_pages_created": [
+        "stg-phoneme-processing",
+        "cortical-speech-entrainment",
+        "phoneme-categorical-perception"
+      ],
+      "wiki_pages_revised": [
+        "auditory-cortex",
+        "auditory-dual-stream"
+      ],
+      "unresolved_questions": [
+        "Q-stg-01",
+        "Q-stg-02",
+        "Q-stg-03"
+      ],
+      "next_suggested_topics": [
+        "arcuate-fasciculus-deep: 弓状束的纤维分组与语言/言语分工",
+        "language-acquisition-critical-period: 语言习得关键期的神经机制（感知收窄+统计学习+社会门控）",
+        "speech-comprehension-predictive: 语音理解的预测处理框架——从词汇到句子的自上而下回路",
         "prosody-neural-basis: 韵律的dPCSA/右半球神经基础"
       ]
     }

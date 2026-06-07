@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-19（**#118**·大脑如何开口说话：前馈/反馈双控制系统与DIVA模型）· 主题页总数：**237**（新建3页：speech-production-circuit · diva-model · sma-presma；修订1页：broca-area rev3；图谱252节点、1417边）
+> 最后更新：2026-08-20（**#102**·声音之刀：颞上回如何将连续声学流切割为音素）· 主题页总数：**240**（新建3页：stg-phoneme-processing · cortical-speech-entrainment · phoneme-categorical-perception；修订2页：auditory-cortex rev4 · auditory-dual-stream rev2；图谱255节点、1430边）
 
 ---
 
@@ -44,6 +44,8 @@
 
 ## concepts（概念/框架）
 
+- 🔵 [皮层言语同步（振荡entrainment）](concepts/cortical-speech-entrainment.md) — STG θ-γ振荡与言语包络相位同步；非对称采样时间（AST，左快右慢）；主动预测 vs 被动驱动争议 **[NEW 2026-08-20 #102]**
+- 🟢 [音素范畴感知](concepts/phoneme-categorical-perception.md) — STG群体活动的非线性跳跃实现离散范畴；双尺度（局部特征/群体音素）表征；发育收窄与θ-γ动力学 **[NEW 2026-08-20 #102]**
 - 🟢 [不变量物体识别](concepts/invariant-object-recognition.md) — 在位置/大小/旋转/光照变换下识别同一物体身份的能力；腹侧流通过选择性↑与不变性↑的精确平衡、维持稀疏度守恒（~10%）实现；形状 vs. 纹理统计之争（Ayzenberg 2022）仍 open **[NEW 2026-08-16 #115]**
 - 🟢 [眼优势柱（ODC）](concepts/ocular-dominance-columns.md) — V1 Layer 4 中双眼 LGN 输入的竞争图谱：视网膜波→LGN 预分层→ODC 解剖前体（出生前）；关键期 ODP 两阶段（剥夺眼 NMDAR-LTD / 开放眼 LTP+稳态缩放）；PV+ 去抑制启动；沉默突触开锁（AMPA/NMDA 0.3→2）；tPA-塑素结构重塑 **[NEW 2026-08-15 #114]**
 - 🟢 [视网膜波](concepts/retinal-waves.md) — 出生前 RGC 自发 Stage I/II/III 波；β2-nAChR 驱动 Stage II 对 LGN 眼特异分层至关重要；与 ephrin-A 梯度协同（双重 KO→V1 视野图消失）；ODC 解剖前体的主要驱动力 **[NEW 2026-08-15 #114]**
@@ -213,6 +215,7 @@
 
 - 🟢 [语言网络（双流模型）](systems/language-network.md) — 腹侧流（声音→意义，双侧）+ 背侧流（声音→动作/句法，左侧主导）；超模态（手语激活同一Broca区）；LANG专属网络 vs MD通用网络关键分离（Fedorenko 2020）；语言专属surprisal效应（Shain 2020）；ATL语义枢纽 **[修订 rev4 2026-07-15]**
 - 🟢 [Broca区（额叶下回）](systems/broca-area.md) — 三成分解构：语言专属（LANG）/ 多需求（MD）/ 发音；IFG内两套系统在群体平均fMRI中混叠；**新增**：言语运动协调中枢实为前中央回（vPCSA/dPCSA），非IFG本身（Hickok 2022） **[修订 rev3 2026-08-19 #118]**
+- 🔵 [颞上回音素计算](systems/stg-phoneme-processing.md) — STG四大核心计算（非线性范畴化/说话者归一化/语境修复提前300ms/时间标记peakRate）；pSTG起始检测/mSTG音节边界/aSTG可理解性；双尺度表征（局部→特征，群体→音素身份）；言语感知的主动预测框架 **[NEW 2026-08-20 #102]**
 - 🔵 [言语产生神经回路](systems/speech-production-circuit.md) — SMA/pre-SMA启动（-240ms）→左IFG/vPMC音节程序→M1执行；前馈（主导流利言语）vs反馈（pSTG听觉+SMG体感→右vPMC纠偏）；效应副本抑制自产语音；双前中央言语区（vPCSA发音/dPCSA音调）；DIVA/GODIVA框架 **[NEW 2026-08-19 #118]**
 - 🔵 [辅助运动区与前辅助运动区](systems/sma-presma.md) — 言语启动最早皮层节点（pre-SMA: -240ms; SMA: -170ms先于开口）；活动随RT动态伸缩；通过BG-丘脑接收时序"go"信号；准备协调者而非执行者 **[NEW 2026-08-19 #118]**
 - 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；左侧优势；出生时低髓鞘化→随句法习得成熟；损伤→传导性失语 **[NEW 2026-06-20]**

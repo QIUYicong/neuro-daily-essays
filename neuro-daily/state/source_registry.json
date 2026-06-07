@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-20",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8427,6 +8427,87 @@
         "auditory-cortex",
         "sensory-gating"
       ]
+    },
+    {
+      "id": "PMID:34672685",
+      "pmcid": "PMC9447996",
+      "title": "Speech Computations of the Human Superior Temporal Gyrus",
+      "authors": "Bhaya-Grossman I, Chang EF",
+      "journal": "Annual Review of Psychology",
+      "year": 2022,
+      "first_used": "2026-08-20",
+      "articles_used_in": [
+        "2026-08-20-stg-phoneme-speech-perception"
+      ],
+      "wiki_pages": [
+        "stg-phoneme-processing"
+      ],
+      "open_access": true,
+      "access_method": "PMC"
+    },
+    {
+      "id": "PMID:24482117",
+      "title": "Phonetic feature encoding in human superior temporal gyrus",
+      "authors": "Mesgarani N, Cheung C, Johnson K, Chang EF",
+      "journal": "Science",
+      "year": 2014,
+      "first_used": "2026-08-20",
+      "articles_used_in": [
+        "2026-08-20-stg-phoneme-speech-perception"
+      ],
+      "wiki_pages": [
+        "stg-phoneme-processing",
+        "phoneme-categorical-perception"
+      ],
+      "open_access": false,
+      "access_method": "abstract only"
+    },
+    {
+      "id": "PMID:22426255",
+      "title": "Cortical oscillations and speech processing: emerging computational principles and operations",
+      "authors": "Giraud AL, Poeppel D",
+      "journal": "Nature Neuroscience",
+      "year": 2012,
+      "first_used": "2026-08-20",
+      "articles_used_in": [
+        "2026-08-20-stg-phoneme-speech-perception"
+      ],
+      "wiki_pages": [
+        "cortical-speech-entrainment"
+      ],
+      "open_access": false,
+      "access_method": "abstract only"
+    },
+    {
+      "id": "PMC:3364513",
+      "title": "Cortical Oscillations in Auditory Perception and Speech: Evidence for Two Temporal Windows",
+      "journal": "Frontiers in Psychology",
+      "year": 2012,
+      "first_used": "2026-08-20",
+      "articles_used_in": [
+        "2026-08-20-stg-phoneme-speech-perception"
+      ],
+      "wiki_pages": [
+        "cortical-speech-entrainment"
+      ],
+      "open_access": true,
+      "access_method": "PMC"
+    },
+    {
+      "id": "PMID:38805278",
+      "title": "Phase-dependent word perception emerges from region-specific sensitivity to the statistics of language",
+      "authors": "Ten Oever S et al.",
+      "journal": "PNAS",
+      "year": 2024,
+      "first_used": "2026-08-20",
+      "articles_used_in": [
+        "2026-08-20-stg-phoneme-speech-perception"
+      ],
+      "wiki_pages": [
+        "stg-phoneme-processing"
+      ],
+      "open_access": false,
+      "access_method": "abstract only"
     }
   ],
   "total_sources": 475,

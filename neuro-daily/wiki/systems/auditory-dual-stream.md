@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-18
-updated: 2026-08-18
-revision_count: 1
+updated: 2026-08-20
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, systems, cognition]
-related: [auditory-cortex, language-network, superior-temporal-sulcus, broca-area, motor-cortex, predictive-coding, hemispheric-asymmetry, dorsal-visual-stream, inferior-temporal-cortex]
+related: [auditory-cortex, language-network, superior-temporal-sulcus, broca-area, motor-cortex, predictive-coding, hemispheric-asymmetry, dorsal-visual-stream, inferior-temporal-cortex, stg-phoneme-processing, cortical-speech-entrainment, phoneme-categorical-perception]
 prerequisites: [auditory-cortex, tonotopy, thalamic-firing-modes]
 opens_questions: [Q-aud-dual-01, Q-aud-dual-02, Q-aud-dual-03]
-source_articles: [2026-08-18-auditory-dual-stream-cortex-hierarchy]
+source_articles: [2026-08-18-auditory-dual-stream-cortex-hierarchy, 2026-08-20-stg-phoneme-speech-perception]
 key_sources: ["PMID:17431404", "PMID:10570492", "PMID:27956600", "PMID:22766458", "PMCID:PMC7067489", "PMCID:PMC3021714"]
 ---
 
@@ -87,7 +87,9 @@ key_sources: ["PMID:17431404", "PMID:10570492", "PMID:27956600", "PMID:22766458"
 ## 修订历史
 
 - 2026-08-18 · 创建 · 基于《声音的解码器》文章#100 · 初始置信度：高 · 综合了VLSM证据（PMID:27956600）、Hickok-Poeppel模型（PMID:17431404）、SEEG半球不对称（PMC:7067489）
+- 2026-08-20 · 修订 · 基于《声音之刀》文章#102 · 新增related: stg-phoneme-processing, cortical-speech-entrainment, phoneme-categorical-perception；双流起点的STG音素计算机制现有独立页面支撑
 
 ## 来源文章
 
 - [[2026-08-18-auditory-dual-stream-cortex-hierarchy]]
+- [[2026-08-20-stg-phoneme-speech-perception]]

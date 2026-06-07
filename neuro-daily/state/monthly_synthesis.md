@@ -917,3 +917,4 @@
 
 **对月度大图的贡献**：完成了听觉双流文章（#118，Aug 18）→言语产生（#118，Aug 19）的感知→产生完整语言环路。核心新知：真正的言语运动协调中枢在前中央回（vPCSA/dPCSA），布罗卡区承担高层语言而非肌肉协调；效应副本使大脑能听到"误差"而非被自产语音淹没。新建3个wiki页面（speech-production-circuit, diva-model, sma-presma），修订broca-area(rev3)。图谱：252节点，1417边。
 
+- STG音素计算机制（#102，Aug 20）：STG不是被动声学传感器，而是主动预测解码器——语境修复发生在噪声出现前300ms；四大核心计算（非线性范畴化/说话者归一化/语境修复/时间标记提取）；双尺度表征（局部→特征，群体→音素身份）；θ-γ振荡嵌套框架；左快右慢AST不对称。完成"感知←→产生"完整环路：今日文章（STG感知侧）与Aug 19（言语产生侧）共同构成言语双向回路的两面。新建3个wiki页面（stg-phoneme-processing, cortical-speech-entrainment, phoneme-categorical-perception），修订auditory-cortex(rev4)/auditory-dual-stream(rev2)。图谱：255节点，1430边。
