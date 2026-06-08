@@ -6,10 +6,10 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-08-25
-updated: 2026-08-25
-revision_count: 1
+updated: 2026-08-26
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, microcircuit]
-related: [ltp, ltd, hebbian-learning, nmda-receptor, ampa-receptor, camkii, backpropagating-action-potential, three-factor-learning-rule, theta-oscillations, btsp, barrel-cortex, place-cell]
+related: [ltp, ltd, hebbian-learning, nmda-receptor, ampa-receptor, camkii, backpropagating-action-potential, three-factor-learning-rule, theta-oscillations, btsp, barrel-cortex, place-cell, a-type-potassium-channel]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential, ltp]
 opens_questions: [Q-stdp-01, Q-stdp-02, Q-stdp-03]
 source_articles: [2026-08-25-stdp-spike-timing-dependent-plasticity]
@@ -101,9 +101,22 @@ STDP 是基础 Hebbian 项，神经调质作为"第三因素"调制：
 - Q-stdp-02（高优先级）：因果 STDP（经典 Bi & Poo 曲线）vs 同步性 STDP（Anisimova 2022）——哪个描述了长期记忆？两者如何整合？ → 登记为矛盾 C-2026-08-25-01
 - Q-stdp-03（中优先级）：不同脑区和突触类型的 STDP 规则差异（皮质 vs 海马 vs 小脑）由什么分子特征（GluN2A/B 比例、树突 bAP 传播速率、棘几何）决定？
 
+## bAP 机制详解（2026-08-26 新增）
+
+bAP 的远端传播受树突 A 型 K+ 通道（I_A）的密度梯度精确调控（Hoffman et al. 1997，PMID:9202119）。CA1 树突 I_A 密度从胞体到远端升高 5–6 倍，使单独的 bAP 无法可靠入侵远端棘。但若该棘在 bAP 到达前 ~10–50 ms 内接受了 EPSP，EPSP 的轻微去极化会使 I_A 部分失活，开放 bAP 的入侵通道——这是 AND 逻辑门的物理实现。
+
+**位置依赖规则**（Letzkus et al. 2006，PMID:17035526）：
+- 近端突触（<100 μm）：标准 STDP 时序规则（单个 AP 即有效）
+- 远端突触（>300 μm）：单个 AP 的 bAP 太弱，需要 200 Hz 高频爆发；且时序规则可能反转
+这意味着同一神经元在不同位置的突触遵守不同的局部学习规则，而非统一的全局规则。
+
+**细胞多样性**（Schamiloglu et al. 2025，PMID:41093758）：
+PFC L5 D3R+ 神经元的 bAP-Ca²⁺ 超线性远强于 D1R+ 和 D2R+ 神经元，说明 STDP 的执行能力在不同细胞类型间可能有根本性差异。
+
 ## 修订历史
 
 - 2026-08-25 · 创建 · 基于《突触的时间守门人》(#123) · 初始置信度：中（核心机制 established，但体内规则形态 contested）
+- 2026-08-26 · 修订 · 基于《逆流而上》(#124) · 新增 bAP 机制详解（I_A 密度梯度、位置依赖规则、细胞多样性）；related 新增 a-type-potassium-channel
 
 ## 来源文章
 

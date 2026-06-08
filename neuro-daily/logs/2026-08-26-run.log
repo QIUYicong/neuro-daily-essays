@@ -1,0 +1,224 @@
+# 运行日志 · 2026-08-26
+
+**文章编号**：#124（第五周·月度第25篇）
+**运行时间**：2026-06-08 UTC+8（真实系统日期）；知识库虚拟日期：2026-08-26
+**模式**：long_term_curriculum（课程脊柱第1章后续 — #123 STDP 的物理基础深探）
+**分支**：main
+
+---
+
+## 0. 环境初始化
+
+- 执行环境初始分支：claude/funny-einstein-9u4v3m（环境指定）
+- 已按 ROUTINE.md 切换至 main：`git checkout main && git pull --rebase origin main`
+- Main 分支拉取状态：成功（含 articles #1–#123，wiki 265节点，1480边）
+- ROUTINE.md：已读取并确认存在
+- KNOWLEDGE-BASE-DESIGN.md：已读取并确认存在
+- git 作者配置：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+- remote：http://local_proxy@127.0.0.1:xxxxx/git/QIUYicong/neuro-daily-essays（包含正确 owner，验证通过）
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json：last_updated=2026-08-25，total_articles=123（最新 #123 STDP）
+- unresolved_questions.md：Q-stdp-01/02/03 为最新（STDP 相关）
+- contested_claims.json：C-2026-08-25-01（open，STDP 因果 vs 同步性），open_count=N（未新增）
+- _graph.json：265 节点，1480 边（操作前）
+- wiki/CHANGELOG.md：最新条目 2026-08-25
+- monthly_synthesis.md：本月最新 #123 (2026-08-25)
+- 今日（2026-06-08）文章 2026-06-08-alzheimers-amyloid-synaptic-mechanism.md 已存在（由先前批次生成，本日无需重写）
+- 图谱悬空引用检查：stdp.md 中 related 包含 backpropagating-action-potential 但无对应节点 → **核心悬空引用，驱动今日选题**
+
+---
+
+## B. 选题
+
+**选题优先级评估**：
+1. 突破追踪：无特别紧急新突破（7天内）
+2. 裁决矛盾：C-2026-08-25-01（STDP 因果 vs 同步性）仍 open，但需要更多新证据，今日无特别新的可用证据
+3. **填补悬空引用（优先级3，今日最高）**：backpropagating-action-potential 在 stdp.md 中已引用但无 wiki 页，作为 STDP 机制的物理基础，是必须填补的关键悬空引用
+4. 课程脊柱：#123（STDP）是 8-25 日文章，bAP 是其物理机制，属自然续集
+
+**选定主题**：回传动作电位（bAP）与 STDP 的时序机制——填补悬空引用、完成 STDP 机制的完整解释
+
+**核心问题**：突触后动作电位沿树突逆向传播（bAP）的物理机制是什么？A 型钾通道如何在树突中构建出"时序符合门"？bAP 衰减动力学如何决定 STDP 学习窗口的时间分辨率？位置依赖的局部学习规则为何让单个神经元的可塑性规则比全局梯度下降更丰富？
+
+---
+
+## C. 文献检索
+
+**检索数据库**：PubMed E-utilities、PMC
+
+**检索词**：
+- "backpropagating action potential dendrite pyramidal neuron"
+- "A-type potassium channel hippocampal dendrite backpropagation"
+- "Stuart Sakmann 1994 dendritic action potential"
+- "Magee Johnston 1997 LTP backpropagating"
+- "Letzkus 2006 STDP dendritic location"
+- "Kampa 2006 dendritic calcium spike LTP"
+- "Schamiloglu 2025 PFC L5 pyramidal"
+- "Spratt 2019 SCN2A dendritic"
+
+**检索结果与处理**：
+- 检索到候选 PMID：8107777, 8985013, 9202119, 9457640, 11731556, 15471594, 15625097, 16675489, 17035526, 18270515, 31230762, 41093758
+- PMC 搜索找到 PMC12660168（Schamiloglu 2025，J Neurosci，开放全文）
+- 读取 PMC12660168 全文，获取 D1R/D2R/D3R 三亚型超线性指数定量数据
+
+**最终纳入来源（12篇）**：
+
+| # | PMID/PMCID | 第一作者 | 年份 | 期刊 | 全文 | 用途 |
+|---|-----------|---------|------|------|------|------|
+| 1 | PMID:8107777 | Stuart & Sakmann | 1994 | Nature | 摘要 | bAP 在新皮质首次发现 |
+| 2 | PMID:8985013 | Magee & Johnston | 1997 | Science | 摘要 | bAP 作为 Hebb 信号 |
+| 3 | PMID:9202119 | Hoffman et al. | 1997 | Nature | 摘要 | A 型 K+ 通道密度梯度 |
+| 4 | PMID:9457640 | Stuart et al. | 1997 | J Physiol | 摘要 | bAP 速率/衰减 |
+| 5 | PMID:11731556 | Golding & Spruston | 2001 | J Neurophysiol | 摘要 | CA1 bAP 二分化 |
+| 6 | PMID:15471594 | Waters et al. | 2005 | Prog Biophys Mol Biol | 摘要 | bAP 综述 |
+| 7 | PMID:15625097 | Rubin et al. | 2005 | J Neurophysiol | 摘要 | Ca²⁺ 动力学模型 |
+| 8 | PMID:16675489 | Kampa et al. | 2006 | J Physiol | 摘要 | 200Hz 爆发 + Ca²⁺ 棘波 |
+| 9 | PMID:17035526 | Letzkus et al. | 2006 | J Neurosci | 摘要 | STDP 位置依赖规则 |
+| 10 | PMID:18270515 | Spruston | 2008 | Nat Rev Neurosci | 摘要 | 锥体神经元综述 |
+| 11 | PMID:31230762 | Spratt et al. | 2019 | Neuron | 摘要 | SCN2A/ASD |
+| 12 | PMC12660168 | Schamiloglu et al. | 2025 | J Neurosci | ✅开放 | PFC L5 亚型 bAP 多样性 |
+
+---
+
+## D. 文章写作
+
+**文件**：`neuro-daily/articles/2026-08-26-backpropagating-action-potential-stdp-signal.md`
+
+**字数**：约 5500 字（中文）
+
+**结构**：
+1. 导言（为何重要）
+2. 背景：1994 年之前的世界观
+3. 机制一：bAP 的物理本质
+4. 机制二：A 型 K+ 通道（智能闸门）
+5. 机制三：bAP 如何成为 STDP 时序裁判
+6. 机制四：位置依赖的学习规则（Letzkus 2006）
+7. 机制五：细胞多样性（Schamiloglu 2025）
+8. 疾病窗口：NaV1.2 与 ASD（Spratt 2019）
+9. 关键证据表（9 条主张，12 来源）
+10. 比喻（AI 反向传播类比及边界）
+11. 争议与未解问题
+12. AI 对照表
+13. 概念卡片
+14. 认知地图更新
+15. 参考来源（12 篇，注明全文/摘要）
+
+---
+
+## E. 笔记写作
+
+**文件**：`neuro-daily/notes/2026-08-26-reading-notes.md`
+- 8 篇关键文献的详细阅读笔记
+- 3 条整合洞见
+- 与已有概念的关联分析
+
+---
+
+## F. 来源记录与状态更新
+
+**文件**：`neuro-daily/sources/2026-08-26-sources.json`
+- 12 篇来源，包含量化数据（Schamiloglu 2025 超线性指数）
+
+**状态更新**：
+- topic_ledger.json：total_articles 123→124，新增 #124 完整条目
+- state/unresolved_questions.md：新增 Q-bap-01、Q-bap-02
+- state/monthly_synthesis.md：新增 #124 行，更新月度截至日期
+- state/maturity_index.json：新增 backpropagating-action-potential (established/high)、a-type-potassium-channel (established/high)
+- state/source_registry.json：新增 12 条来源
+
+---
+
+## G. Wiki 固结
+
+### 新建页面（2）
+
+1. **`wiki/neurons/backpropagating-action-potential.md`**
+   - slug: backpropagating-action-potential
+   - status: established, confidence: high
+   - 填补 stdp.md 的长期悬空引用
+   - revision_count: 1
+   - related: 11 个节点，prerequisites: 4 个
+   - 未解问题: Q-bap-01, Q-bap-02
+
+2. **`wiki/concepts/a-type-potassium-channel.md`**
+   - slug: a-type-potassium-channel
+   - status: established, confidence: high
+   - revision_count: 1
+   - related: 7 个节点
+
+### 修订页面（2）
+
+3. **`wiki/concepts/stdp.md`**（rev1→rev2）
+   - 新增 bAP 机制详解（I_A 密度梯度、位置依赖规则、Schamiloglu 2025 细胞多样性）
+   - related 新增 a-type-potassium-channel
+
+4. **`wiki/neurons/dendritic-computation.md`**（rev4→rev5）
+   - 新增 bAP 作为树突计算前提段落
+   - 新增 Schamiloglu 2025 PFC L5 亚型数据
+   - related 新增 backpropagating-action-potential, a-type-potassium-channel
+
+### 知识图谱更新（_graph.json）
+
+- 节点：265 → 267（+2：backpropagating-action-potential、a-type-potassium-channel）
+- 边：1480 → 1492（+12）
+- 填补悬空引用：backpropagating-action-potential（stdp.md 中已引用，今日建页）
+
+### wiki/index.md
+
+- 总计：249 → 251 页
+- 新增条目：backpropagating-action-potential、a-type-potassium-channel
+
+### wiki/CHANGELOG.md
+
+- 新增 2026-08-26 条目（顶部）
+
+---
+
+## H. 自检
+
+- [x] 所有 wiki 新主张有来源支持（PMID 或 PMCID）
+- [x] 区分了 established/mainstream 和摘要仅及的限制
+- [x] 未有单篇/小样本动物研究写成定论（Schamiloglu 2025 的 n=13/11/13 标注为"中-高"置信度，需独立重复）
+- [x] 新建 2 页均有完整 YAML frontmatter
+- [x] 修订页 revision_count、updated 已更新（stdp 1→2，dendritic-computation 4→5）
+- [x] _graph.json 无新悬空边（所有新边的 from/to 均对应现有节点）
+- [x] index.md 和 CHANGELOG.md 反映今日变化
+- [x] 新页的 related/prerequisites 均已填写（各 ≥1）
+- [x] 情景层文件（articles/notes/sources）齐全，未修改旧文件
+- [x] Q-bap-01/02 已录入 unresolved_questions.md
+- [x] source_registry.json 新增 12 条，last_updated=2026-08-26
+
+---
+
+## I. Git 提交状态
+
+**提交命令**：
+```bash
+GIT_AUTHOR_NAME="QIUYicong" GIT_AUTHOR_EMAIL="169510482+QIUYicong@users.noreply.github.com" \
+GIT_COMMITTER_NAME="QIUYicong" GIT_COMMITTER_EMAIL="169510482+QIUYicong@users.noreply.github.com" \
+git add neuro-daily/ && \
+git commit -m "Add neuro daily article + wiki consolidation for 2026-08-26"
+git pull --rebase origin main
+git push origin main
+```
+
+**提交状态**：见下方实际执行结果（待填写）
+
+---
+
+## J. 今日运行摘要
+
+- 文章类型：regular（课程脊柱第1章后续，bAP 是 STDP 的物理基础）
+- 填补悬空引用：backpropagating-action-potential（stdp.md 中引用的节点）
+- 新建 wiki 页：2（backpropagating-action-potential, a-type-potassium-channel）
+- 修订 wiki 页：2（stdp rev2, dendritic-computation rev5）
+- 矛盾登记：0（无新矛盾）
+- 新增未解问题：2（Q-bap-01, Q-bap-02）
+- 图谱：267节点，1492边
+- 开放全文来源：1/12（Schamiloglu 2025，PMC12660168）
+- 真实系统日期：2026-06-08 UTC+8
+- 知识库虚拟日期：2026-08-26

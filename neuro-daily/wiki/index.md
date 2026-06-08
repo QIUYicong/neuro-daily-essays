@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-24（**#122**·语言为何偏向左脑：解剖不对称、FOXP2进化与新生儿侧化）· 主题页总数：**249**（新建2页：language-lateralization · foxp2-language-gene；修订3页：planum-temporale rev2 · language-network rev6 · language-critical-period rev2；图谱264节点、1471边）
+> 最后更新：2026-08-26（**#124**·逆流而上：回传动作电位如何让树突棘知道何时该加强）· 主题页总数：**251**（新建2页：backpropagating-action-potential · a-type-potassium-channel；修订2页：stdp rev2 · dendritic-computation rev5；图谱267节点、1492边）
 
 ---
 
@@ -19,7 +19,8 @@
 - 🟢 [就绪释放池（RRP）](neurons/readily-releasable-pool.md) — 突触活动区中处于停靠就绪状态的囊泡子集；RRP耗竭是短时程抑制的主要机制 **[NEW 2026-06-10]**
 - 🟢 [活动区（Active Zone）](neurons/active-zone.md) — 突触前终末的纳米级分子发射台
 - 🟢 [CaMKII（钙/钙调素依赖性蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶，"分子记忆开关"
-- 🟢 [树突计算](neurons/dendritic-computation.md) — NMDA 棘波与 Ca²⁺ 棘波使单根树突成为独立计算单元，单神经元等价两层神经网络；Wilson 2016证明V1突触聚类增强方向选择性（修订4次）
+- 🟢 [回传动作电位 (bAP)](neurons/backpropagating-action-potential.md) — 动作电位从 AIS 逆向传播进入树突；A 型 K+ 通道构建"符合门"；bAP 时序决定 STDP 方向；位置依赖的局部学习规则（Letzkus 2006）；PFC L5 三亚型多样性（Schamiloglu 2025）**[NEW 2026-08-26 #124]**
+- 🟢 [树突计算](neurons/dendritic-computation.md) — NMDA 棘波与 Ca²⁺ 棘波使单根树突成为独立计算单元，单神经元等价两层神经网络；Wilson 2016证明V1突触聚类增强方向选择性；bAP 是树突计算的时序前提（修订5次）
 - 🟢 [锥体神经元](neurons/pyramidal-neuron.md) — 皮层主体兴奋性神经元，双树突系统是树突计算和前馈/反馈整合的物理基础
 - 🟢 [场所细胞](neurons/place-cell.md) — 海马 CA1/CA3 的空间位置编码器，通过 BTSP 单次写入场所场，构成大脑认知地图 **[NEW]**
 - 🟢 [海马回路](neurons/hippocampal-circuit.md) — DG（模式分离）→ CA3（模式补全）→ CA1（整合输出）的三突触回路与并行穿孔通路；AD最早受损的回路（修订6次）
@@ -102,7 +103,8 @@
 - 🔵 [DIVA模型（言语产生计算-神经框架）](concepts/diva-model.md) — 言语声音图（左IFG/vPMC）+启动图（SMA-BG）+听觉目标/误差图（pSTG）+体感目标图（SMG）+反馈控制图（右vPMC）+小脑前向模型；前馈主导流利言语/反馈主导学习纠偏/效应副本抑制自产语音；GODIVA双BG环路（运动/计划）**[NEW 2026-08-19 #118]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
-- 🟡 [脉冲时序依赖可塑性（STDP）](concepts/stdp.md) — 赫布规则的毫秒级精化：前先后随→LTP，后先前随→LTD；NMDA+bAP 超线性 Ca²⁺ 信号；生理钙浓度挑战；长期同步性 vs 短期因果性争议 **[NEW 2026-08-25 #123]**（填补 hebbian-learning 悬空引用）
+- 🟡 [脉冲时序依赖可塑性（STDP）](concepts/stdp.md) — 赫布规则的毫秒级精化：前先后随→LTP，后先前随→LTD；NMDA+bAP 超线性 Ca²⁺ 信号；生理钙浓度挑战；长期同步性 vs 短期因果性争议；位置依赖局部规则（Letzkus 2006）（修订2次）**[NEW 2026-08-25 #123]**（填补 hebbian-learning 悬空引用）
+- 🟢 [A 型钾通道（I_A）](concepts/a-type-potassium-channel.md) — Kv4.2 的快激活/快失活特性；CA1 树突密度梯度（远端 5–6 倍胞体）；EPSP 引起失活开放 bAP 入侵通道；是 STDP 符合门的分子执行者 **[NEW 2026-08-26 #124]**
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-06-22]**

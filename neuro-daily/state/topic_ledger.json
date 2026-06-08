@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-25",
-  "total_articles": 123,
+  "last_updated": "2026-08-26",
+  "total_articles": 124,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7882,6 +7882,99 @@
         "language-evolution-comparative: 语言演化比较——FOXP2之外人类语言的解剖先决条件（完成语言系列的演化视角）",
         "cortical-oscillations-gamma-binding: gamma 振荡与结合问题——皮层 gamma 同步是否是特征绑定的机制，还是只是回路的副产品？"
       ]
+    },
+    {
+      "date": "2026-08-26",
+      "real_date": "2026-06-08",
+      "article_number": 124,
+      "title": "逆流而上：回传动作电位如何让树突棘\"知道\"何时该加强",
+      "slug": "backpropagating-action-potential-stdp-signal",
+      "filename": "2026-08-26-backpropagating-action-potential-stdp-signal.md",
+      "article_type": "regular",
+      "core_question": "突触后动作电位沿树突逆向传播（bAP）的物理机制是什么？A 型钾通道如何在树突中构建出\"时序符合门\"？bAP 衰减动力学如何决定 STDP 学习窗口的时间分辨率？位置依赖的局部学习规则为何让单个神经元的可塑性规则比全局梯度下降更丰富？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit"
+      ],
+      "curriculum_track": "1. 神经元如何工作（bAP 是动作电位的逆向传播，是 STDP 的细胞内时序信使；#123 STDP 的自然续集，完成 STDP 机制的物理层解释）",
+      "topic_tags": [
+        "backpropagating action potential",
+        "bAP",
+        "dendritic excitability",
+        "A-type potassium channel",
+        "Kv4.2",
+        "IA current",
+        "dendritic attenuation",
+        "coincidence detector",
+        "STDP",
+        "LTP",
+        "LTD",
+        "calcium superlinearity",
+        "dendritic calcium",
+        "NMDA receptor",
+        "Stuart Sakmann 1994",
+        "Magee Johnston 1997",
+        "Hoffman 1997",
+        "Golding Spruston 2001",
+        "Letzkus 2006",
+        "Kampa 2006",
+        "Spruston 2008",
+        "Spratt 2019",
+        "Schamiloglu 2025",
+        "location-dependent learning rules",
+        "proximal vs distal synapses",
+        "burst firing",
+        "dendritic calcium spike",
+        "200Hz burst",
+        "NaV1.2",
+        "SCN2A",
+        "ASD autism",
+        "PFC L5 subtypes",
+        "D1R D2R D3R pyramidal neurons",
+        "BK channel",
+        "HCN channel",
+        "decremental propagation",
+        "decremental backpropagation",
+        "two-compartment model",
+        "backpropagation algorithm comparison"
+      ],
+      "main_sources": [
+        "PMID:8107777 (Stuart & Sakmann 1994, Nature, abstract only)",
+        "PMID:8985013 (Magee & Johnston 1997, Science, abstract only)",
+        "PMID:9202119 (Hoffman et al. 1997, Nature, abstract only)",
+        "PMID:9457640 (Stuart et al. 1997, J Physiol, abstract only)",
+        "PMID:11731556 (Golding & Spruston 2001, J Neurophysiol, abstract only)",
+        "PMID:15471594 (Waters et al. 2005, Prog Biophys Mol Biol, abstract only)",
+        "PMID:15625097 (Rubin et al. 2005, J Neurophysiol, abstract only)",
+        "PMID:16675489 (Kampa et al. 2006, J Physiol, abstract only)",
+        "PMID:17035526 (Letzkus et al. 2006, J Neurosci, abstract only)",
+        "PMID:18270515 (Spruston 2008, Nat Rev Neurosci, abstract only)",
+        "PMID:31230762 (Spratt et al. 2019, Neuron, abstract only)",
+        "PMID:41093758 / PMC12660168 (Schamiloglu et al. 2025, J Neurosci, open full text read)"
+      ],
+      "wiki_pages_created": [
+        "wiki/neurons/backpropagating-action-potential.md",
+        "wiki/concepts/a-type-potassium-channel.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/stdp.md (rev1->rev2): 新增 bAP 机制详解（I_A 密度梯度、位置依赖规则、Schamiloglu 2025 细胞多样性）",
+        "wiki/neurons/dendritic-computation.md (rev4->rev5): 新增 bAP 作为树突计算前提段落和 Schamiloglu 2025 数据"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-bap-01",
+        "Q-bap-02"
+      ],
+      "next_suggested_topics": [
+        "language-evolution-comparative: 语言演化比较——FOXP2之外人类语言的解剖先决条件（完成语言系列的演化视角）",
+        "cortical-oscillations-gamma-binding: gamma 振荡与结合问题——皮层 gamma 同步是否是特征绑定的机制，还是只是回路的副产品？",
+        "three-factor-learning-rule-deep: 三因素学习规则深度——多巴胺/去甲肾上腺素作为第三因素如何调制 STDP，是否与 bAP-STDP 整合？"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8≈2026-06-08（真实执行日期）；知识库虚拟日期2026-08-26；课程脊柱第1章后续（bAP是STDP的物理载体，#123的自然续集）；12个来源中1个开放全文读取（PMC12660168）；11个摘要仅及；无PMID编造；无新矛盾登记；2个新wiki页创建，2个修订；知识图谱：267节点，1492条边"
     }
   ],
   "layer_coverage_recent": {

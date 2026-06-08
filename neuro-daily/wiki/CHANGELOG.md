@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-08-26（文章 #124 — 逆流而上：回传动作电位如何让树突棘"知道"何时该加强）
+
+**新建页面（2 页）**：
+- `wiki/neurons/backpropagating-action-potential.md`：回传动作电位（bAP）——填补 stdp.md 悬空引用；Stuart & Sakmann 1994 发现；A 型 K+ 通道符合门（Hoffman 1997）；bAP+EPSP 超线性 Ca²⁺（Magee & Johnston 1997）；位置依赖 STDP 规则（Letzkus 2006）；200 Hz 爆发与树突 Ca²⁺ 棘波（Kampa 2006）；PFC L5 亚型多样性（Schamiloglu 2025）；NaV1.2/SCN2A 与 ASD（Spratt 2019）；status=established, confidence=high
+- `wiki/concepts/a-type-potassium-channel.md`：A 型钾通道（I_A）——bAP 的可调节闸门；Kv4.2 分子身份；密度梯度（远端 5–6 倍于胞体）；EPSP 引起的失活开放 bAP 入侵通道；磷酸化/神经调质调控；status=established, confidence=high
+
+**修订页面（2 页）**：
+- `wiki/concepts/stdp.md`（rev1→rev2）：新增 bAP 机制详解（I_A 密度梯度、位置依赖规则、细胞多样性）；related 新增 a-type-potassium-channel
+- `wiki/neurons/dendritic-computation.md`（rev4→rev5）：新增 bAP 作为树突计算前提条件段落；新增 Schamiloglu 2025 PFC L5 亚型多样性数据；related 新增 backpropagating-action-potential, a-type-potassium-channel
+
+**悬空引用解决**：
+- `backpropagating-action-potential`（stdp.md related 中已引用，今日建页）
+
+**新增未解问题**：
+- Q-bap-01（高优先）：清醒行为动物中 bAP 体内传播效果与频率
+- Q-bap-02（中优先）：CA1 bAP 强/弱二分化的分子决定因素
+
+**图谱更新**：+2节点（backpropagating-action-potential, a-type-potassium-channel），+12条边；总节点267，总边1492
+
+---
+
 ## 2026-08-25（文章 #123 — 突触的时间守门人：STDP 如何用毫秒差异决定学习的方向）
 
 **新建页面（1 页）**：

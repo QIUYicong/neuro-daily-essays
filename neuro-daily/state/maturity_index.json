@@ -185,5 +185,17 @@
       "reason": "创建（#113）：下板存在与功能有充分组织学和遗传学证据；停止/放行信号身份尚不明确（Q-tca-01）但整体地位established"
     }
   ],
-  "total_pages": 14
+  "total_pages": 14,
+  "backpropagating-action-potential": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-26",
+    "change_reason": "核心机制（树突 Na+ 通道、A 型 K+ 通道调控、STDP 诱导）由多个独立高质量来源确立；Stuart 1994/Magee 1997/Hoffman 1997 三篇奠基性 Nature/Science 论文"
+  },
+  "a-type-potassium-channel": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-26",
+    "change_reason": "Hoffman et al. 1997 (Nature) 直接测量证明密度梯度；Kv4.2 分子身份由多项遗传研究确认"
+  }
 }

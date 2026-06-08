@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-08-26",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9094,7 +9094,7 @@
       "full_text": true
     }
   ],
-  "total_sources": 525,
+  "total_sources": 12,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -10608,5 +10608,93 @@
     "35142842",
     "37051488",
     "38033540"
+  ],
+  "entries": [
+    {
+      "pmid": "8107777",
+      "citation": "Stuart & Sakmann 1994, Nature",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "bAP discovery in neocortex"
+    },
+    {
+      "pmid": "8985013",
+      "citation": "Magee & Johnston 1997, Science",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "bAP as Hebbian plasticity signal"
+    },
+    {
+      "pmid": "9202119",
+      "citation": "Hoffman et al. 1997, Nature",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "A-type K+ channel density gradient in CA1"
+    },
+    {
+      "pmid": "9457640",
+      "citation": "Stuart et al. 1997, J Physiol",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "bAP velocity and decremental propagation"
+    },
+    {
+      "pmid": "11731556",
+      "citation": "Golding & Spruston 2001, J Neurophysiol",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "CA1 bAP dichotomy"
+    },
+    {
+      "pmid": "15471594",
+      "citation": "Waters et al. 2005, Prog Biophys Mol Biol",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "bAP comprehensive review"
+    },
+    {
+      "pmid": "15625097",
+      "citation": "Rubin et al. 2005, J Neurophysiol",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "Ca2+ time course and STDP"
+    },
+    {
+      "pmid": "16675489",
+      "citation": "Kampa et al. 2006, J Physiol",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "burst firing and dendritic Ca2+ spike for LTP"
+    },
+    {
+      "pmid": "17035526",
+      "citation": "Letzkus et al. 2006, J Neurosci",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "location-dependent STDP rules"
+    },
+    {
+      "pmid": "18270515",
+      "citation": "Spruston 2008, Nat Rev Neurosci",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "pyramidal neuron review"
+    },
+    {
+      "pmid": "31230762",
+      "citation": "Spratt et al. 2019, Neuron",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "SCN2A/NaV1.2 and bAP in PFC"
+    },
+    {
+      "pmid": "41093758",
+      "pmcid": "PMC12660168",
+      "citation": "Schamiloglu et al. 2025, J Neurosci",
+      "date_used": "2026-08-26",
+      "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
+      "covers": "PFC L5 subtypes bAP diversity",
+      "full_text": true
+    }
   ]
 }
