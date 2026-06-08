@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-22",
+  "updated": "2026-08-23",
   "node_count": 256,
   "edge_count": 1436,
   "edge_types": [
@@ -2344,6 +2344,36 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/social-gating-language.md"
+    },
+    {
+      "id": "wernicke-area",
+      "title": "韦尼克区",
+      "domain": "concepts",
+      "type": "region",
+      "status": "contested",
+      "confidence": "medium",
+      "page": "wiki/concepts/wernicke-area.md",
+      "note": "传统语音理解中枢；现代证据表明其核心功能是音韵形式提取/缓冲，非理解总闸；损伤产生传导性失语"
+    },
+    {
+      "id": "planum-temporale",
+      "title": "颞平面",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/planum-temporale.md",
+      "note": "外侧裂深处、HG后方；65%人类左>右；时序声学分析；语言左侧化最古老解剖证据"
+    },
+    {
+      "id": "speech-comprehension-prediction",
+      "title": "语音理解的预测编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/speech-comprehension-prediction.md",
+      "note": "IFG→STG/STS自上而下预测回路；STG编码预测误差；正确理解=误差信号减弱；Sohoglu & Davis 2012/2016；Blank & Davis 2016/2018"
     }
   ],
   "edges": [
@@ -10127,6 +10157,66 @@
       "from": "phoneme-categorical-perception",
       "to": "language-critical-period",
       "type": "related"
+    },
+    {
+      "from": "speech-comprehension-prediction",
+      "to": "stg-phoneme-processing",
+      "type": "mechanism-of",
+      "note": "STG/STS 是预测误差的核心计算节点"
+    },
+    {
+      "from": "speech-comprehension-prediction",
+      "to": "ventral-language-stream",
+      "type": "mechanism-of",
+      "note": "腹侧流的IFG节点是自上而下语音预测的发出地"
+    },
+    {
+      "from": "speech-comprehension-prediction",
+      "to": "world-model",
+      "type": "supports",
+      "note": "语音理解是预测编码世界模型框架的具体实例"
+    },
+    {
+      "from": "wernicke-area",
+      "to": "stg-phoneme-processing",
+      "type": "part-of",
+      "note": "韦尼克区（pSTG/BA22）是STG的后部区域"
+    },
+    {
+      "from": "wernicke-area",
+      "to": "language-network",
+      "type": "part-of",
+      "note": "韦尼克区是语言网络的颞叶节点"
+    },
+    {
+      "from": "wernicke-area",
+      "to": "conduction-aphasia",
+      "type": "related",
+      "note": "韦尼克区损伤的典型临床表现：传导性失语"
+    },
+    {
+      "from": "planum-temporale",
+      "to": "wernicke-area",
+      "type": "part-of",
+      "note": "颞平面是韦尼克区解剖核心的重要组成"
+    },
+    {
+      "from": "planum-temporale",
+      "to": "stg-phoneme-processing",
+      "type": "prerequisite-for",
+      "note": "PT提供时序声学分析作为STG音素计算的输入"
+    },
+    {
+      "from": "planum-temporale",
+      "to": "language-network",
+      "type": "part-of",
+      "note": "PT是语言网络颞叶区的结构基础"
+    },
+    {
+      "from": "speech-comprehension-prediction",
+      "to": "dorsal-language-stream",
+      "type": "related",
+      "note": "Cope & Davis 2023: 语音预测在运动皮层实例化（背侧流节点）"
     }
   ],
   "dangling_references": [

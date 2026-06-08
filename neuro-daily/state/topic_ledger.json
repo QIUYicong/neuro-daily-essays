@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-20",
-  "total_articles": 118,
+  "last_updated": "2026-08-23",
+  "total_articles": 121,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7690,6 +7690,76 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-08（真实执行日期）；知识库虚拟日期2026-08-22；文章延续语言脊柱，衔接AF白质骨干(#119)→语言关键期(#120)；4篇来源开放全文，5篇摘要仅读，1项经典研究通过综述引用；3个新wiki页创建，3个wiki页修订；无新矛盾登记"
+    },
+    {
+      "date": "2026-08-23",
+      "real_date": "2026-06-08",
+      "article_number": 121,
+      "title": "从声波到意义：大脑如何用预测编码完成语音理解",
+      "slug": "speech-comprehension-predictive-coding",
+      "filename": "2026-08-23-speech-comprehension-predictive-coding.md",
+      "article_type": "regular",
+      "core_question": "当一串模糊的声波进入我们的耳朵，颞上回（STG）及其周围的听觉层级网络，如何通过与额叶的双向预测回路，在不到500毫秒内将声学信号转化为确定的语义？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（语音理解预测处理；衔接STG音素感知#118→AF#119→语言关键期#120→语音理解预测处理#121；接下来可进入语言侧化起源或腹侧语言流深度）",
+      "topic_tags": [
+        "speech comprehension predictive coding",
+        "superior temporal sulcus prediction error",
+        "STG prediction error fMRI",
+        "Sohoglu Davis 2012 top-down integration",
+        "Blank Davis 2016 sharpened signals prediction errors",
+        "Sohoglu Davis 2016 perceptual learning prediction error minimization",
+        "Blank Spangenberg Davis 2018 misperception STG",
+        "Cope Davis 2023 motor cortex speech prediction 7T",
+        "Davis Johnsrude 2003 hierarchical speech processing fMRI",
+        "Hickok Poeppel 2007 dual stream model",
+        "wernicke area phonological buffer Binder 2017",
+        "planum temporale asymmetry Geschwind Levitsky 1968",
+        "analysis by synthesis speech",
+        "IFG inferior frontal gyrus top-down prediction",
+        "auditory hierarchy temporal lobe",
+        "speech intelligibility cortex",
+        "conduction aphasia phonological buffer"
+      ],
+      "main_sources": [
+        "PMID:12716950 (Davis & Johnsrude 2003, J Neurosci, PMC open full text) — 颞叶语音处理层级结构fMRI证据",
+        "PMID:17431404 (Hickok & Poeppel 2007, NRN, abstract only) — 双流模型经典综述",
+        "PMID:22723684 / PMCID:PMC6620994 (Sohoglu & Davis 2012, J Neurosci, open full text) — IFG先于STG响应；STG信号因正确先验减弱",
+        "PMID:27846209 (Blank & Davis 2016, PLoS Bio, OA full text) — STS编码预测误差而非增强信号",
+        "PMID:26957596 (Sohoglu & Davis 2016, PNAS, PMC open full text) — 即时先验和长期学习共享预测误差最小化机制",
+        "PMID:29891730 (Blank, Spangenberg & Davis 2018, J Neurosci, PMC open full text) — 误感知时STS预测误差更弱",
+        "PMID:31220442 / PMCID:PMC6602075 (Yi & Chang 2019, Neuron, open full text) — STG内部功能梯度和语境预测激活综述",
+        "PMID:37099422 (Cope & Davis 2023, Cell Reports, abstract only) — 运动皮层实例化语音预测；IFG协调",
+        "PMID:28656532 (Binder 2017, Curr Neurol Neurosci Rep, abstract only) — 韦尼克区功能的现代批判性综述",
+        "PMID:17890189 / PMCID:PMC2606797 (Poeppel et al. 2008, Phil Trans R Soc B, open full text) — 多时间尺度框架和分析-合成假说"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/wernicke-area.md",
+        "wiki/concepts/planum-temporale.md",
+        "wiki/concepts/speech-comprehension-prediction.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/stg-phoneme-processing.md (rev1->rev2): 新增语境修复与预测编码段落；5条新证据行；related+2；key_sources+3",
+        "wiki/circuits/ventral-language-stream.md (rev2->rev3): 新增IFG→STG预测回路段落；key_sources+2"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-stg-01",
+        "Q-wernicke-01",
+        "Q-pt-01"
+      ],
+      "next_suggested_topics": [
+        "language-lateralization: 语言左侧化的起源——为何左半球主导语言？PT左侧化是原因还是结果？FOXP2的进化角色；新生儿已有偏侧（衔接PT和关键期两篇）",
+        "ventral-language-stream-deep: 腹侧语言流深度——IFOF/UF/EmC的功能差异与语义计算的解剖基础（对比背侧流三篇，完成双流解剖架构）",
+        "speech-production-prediction: 语音产出中的预测——效应副本回路如何比较'预期听到的音'与'实际听到的音'，以及这一机制在言语障碍（口吃/耳聋言语退化）中的应用"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-08（真实执行日期）；知识库虚拟日期2026-08-23；文章延续语言脊柱，衔接语言关键期(#120)→语音理解预测处理(#121)；7个来源开放全文，4个摘要仅读；3个新wiki页创建（填补wernicke-area+planum-temporale两个悬空引用）；2个wiki页修订；无新矛盾登记"
     }
   ],
   "layer_coverage_recent": {

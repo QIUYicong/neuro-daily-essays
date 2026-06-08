@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22",
+  "last_updated": "2026-08-23",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8660,6 +8660,135 @@
         "multi-timescale regulation framework"
       ],
       "access_type": "abstract_only"
+    },
+    {
+      "pmid": "12716950",
+      "title": "Hierarchical processing in spoken language comprehension",
+      "authors": "Davis & Johnsrude",
+      "year": 2003,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-08-23-speech-comprehension-predictive-coding"
+      ],
+      "aspects_covered": [
+        "temporal lobe hierarchy",
+        "STG intelligibility",
+        "auditory cortex fMRI"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "22723684",
+      "pmcid": "PMC6620994",
+      "title": "Predictive top-down integration of prior knowledge during speech perception",
+      "authors": "Sohoglu et al.",
+      "year": 2012,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-08-23-speech-comprehension-predictive-coding"
+      ],
+      "aspects_covered": [
+        "predictive coding speech",
+        "IFG top-down",
+        "STG prediction error"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "27846209",
+      "title": "Prediction errors but not sharpened signals simulate multivoxel fMRI patterns during speech perception",
+      "authors": "Blank & Davis",
+      "year": 2016,
+      "journal": "PLoS Biol",
+      "used_in": [
+        "2026-08-23-speech-comprehension-predictive-coding"
+      ],
+      "aspects_covered": [
+        "prediction error vs sharpened signal",
+        "posterior STS MVPA"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "26957596",
+      "title": "Perceptual learning of degraded speech by minimizing prediction error",
+      "authors": "Sohoglu & Davis",
+      "year": 2016,
+      "journal": "PNAS",
+      "used_in": [
+        "2026-08-23-speech-comprehension-predictive-coding"
+      ],
+      "aspects_covered": [
+        "perceptual learning",
+        "prediction error minimization",
+        "STG response reduction"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "29891730",
+      "title": "Neural prediction errors distinguish perception and misperception of speech",
+      "authors": "Blank et al.",
+      "year": 2018,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-08-23-speech-comprehension-predictive-coding"
+      ],
+      "aspects_covered": [
+        "misperception",
+        "STS prediction error",
+        "fMRI RSA"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "37099422",
+      "title": "Temporal lobe perceptual predictions for speech are instantiated in motor cortex and reconciled by inferior frontal cortex",
+      "authors": "Cope & Davis",
+      "year": 2023,
+      "journal": "Cell Reports",
+      "used_in": [
+        "2026-08-23-speech-comprehension-predictive-coding"
+      ],
+      "aspects_covered": [
+        "motor cortex speech prediction",
+        "IFG reconciliation",
+        "7T fMRI"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "28656532",
+      "title": "Current controversies on Wernicke's area and its role in language",
+      "authors": "Binder JR",
+      "year": 2017,
+      "journal": "Curr Neurol Neurosci Rep",
+      "used_in": [
+        "2026-08-23-speech-comprehension-predictive-coding"
+      ],
+      "aspects_covered": [
+        "Wernicke's area critique",
+        "phonological buffer",
+        "conduction aphasia"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "31220442",
+      "pmcid": "PMC6602075",
+      "title": "The encoding of speech sounds in the superior temporal gyrus",
+      "authors": "Yi & Chang",
+      "year": 2019,
+      "journal": "Neuron",
+      "used_in": [
+        "2026-08-23-speech-comprehension-predictive-coding"
+      ],
+      "aspects_covered": [
+        "STG functional gradient",
+        "contextual prediction phoneme",
+        "iEEG speech"
+      ],
+      "open_access": true
     }
   ],
   "total_sources": 485,

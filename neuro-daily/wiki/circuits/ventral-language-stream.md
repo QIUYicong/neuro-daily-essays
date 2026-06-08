@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-07-15
-revision_count: 2
+updated: 2026-08-23
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, cognition]
 related: [language-network, broca-area, dorsal-language-stream, default-mode-network, anterior-temporal-lobe-hub, embodied-semantics]
 prerequisites: [language-network]
 opens_questions: [Q-lang-01, Q-lang-02, Q-lang-07]
 source_articles: [2026-06-20-language-dual-stream, 2026-07-15-language-network-dual-stream]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:38267261", "PMID:35267079", "PMID:28053037", "PMID:35094061"]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:38267261", "PMID:35267079", "PMID:28053037", "PMID:35094061", "PMID:22723684", "PMID:37099422"]
 ---
 
 # 腹侧语言流 (Ventral Language Stream)
@@ -45,6 +45,9 @@ key_sources: ["PMID:17431404", "PMID:29360947", "PMID:38267261", "PMID:35267079"
 - 听到/理解工具词（锤子、剪刀）→ 额顶**运动皮层**激活（模拟使用动作）
 - 听到/理解动物词（狗、老鹰）→ 后部**视觉皮层**激活（模拟动物外观）
 大脑在词出现前200ms就生成这种具身预测，说明语义处理是主动的感觉运动模拟，而非被动符号提取。
+
+**预测回路（IFG → STG/STS 反馈）**：
+腹侧流不只是自下而上的"声音→词义"单向通路。额下回（BA45，腹侧流的额叶终点）持续向颞叶（STG/STS）发送自上而下的语义预测（Sohoglu & Davis 2012，PMID:22723684），IFG 对先验知识的响应早于颞叶。这意味着腹侧流既是上行的意义提取通路，也是下行的语义预测通路——理解是双向循环，而非单向流水线。Cope & Davis 2023（PMID:37099422）进一步发现运动皮层也参与实例化语音预测，提示腹侧流的高层预测部分通过背侧流/运动系统传递。
 
 **右半球的贡献**：
 腹侧流在右半球也有实质性功能，特别是：
@@ -102,6 +105,7 @@ BA45（Broca区前部）：语义工作记忆
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
 - 2026-07-15 · 修订 · 新增腹流四大白质束详细描述（IFOF/UF/ILF/MLF，来自Sefcikova 2022）；新增ATL作为腹流语义枢纽的证据（Zhao 2017/Farahibozorg 2022）；新增三条证据表行；更新related字段添加anterior-temporal-lobe-hub
+- 2026-08-23 · 修订 · 基于文章#121《从声波到意义》· 新增"预测回路（IFG → STG/STS 反馈）"段落；整合 Sohoglu & Davis 2012 和 Cope & Davis 2023 对腹侧流自上而下预测机制的证据；key_sources 新增 PMID:22723684 和 PMID:37099422
 
 ## 来源文章
 

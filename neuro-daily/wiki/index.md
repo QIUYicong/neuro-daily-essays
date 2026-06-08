@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-22（**#120**·语言习得关键期：感知收窄、统计学习与神经成熟的协同舞蹈）· 主题页总数：**244**（新建3页：language-critical-period · statistical-learning · social-gating-language；修订3页：phoneme-categorical-perception rev2 · dorsal-language-stream rev3 · language-network rev5；图谱259节点、约1448边）
+> 最后更新：2026-08-23（**#121**·从声波到意义：大脑如何用预测编码完成语音理解）· 主题页总数：**247**（新建3页：wernicke-area · planum-temporale · speech-comprehension-prediction；修订2页：stg-phoneme-processing rev2 · ventral-language-stream rev3；图谱262节点、1460边）
 
 ---
 
@@ -45,6 +45,9 @@
 ## concepts（概念/框架）
 
 - 🔵 [皮层言语同步（振荡entrainment）](concepts/cortical-speech-entrainment.md) — STG θ-γ振荡与言语包络相位同步；非对称采样时间（AST，左快右慢）；主动预测 vs 被动驱动争议 **[NEW 2026-08-20 #102]**
+- 🔴 [韦尼克区](concepts/wernicke-area.md) — 传统音语理解中枢；现代证据：pSTG/BA22 是音韵形式缓冲区，损伤产生传导性失语而非纯理解崩溃；真正理解依赖双侧分布网络 **[NEW 2026-08-23 #121（填补悬空引用）]**
+- 🔵 [颞平面](concepts/planum-temporale.md) — 外侧裂深处HG后方；65%人类左>右（Geschwind & Levitsky 1968）；时序声学分析；语言左半球优势最古老解剖证据；失聪者/音乐家亦左侧化，提示更一般的时序模式计算 **[NEW 2026-08-23 #121（填补悬空引用）]**
+- 🔵 [语音理解的预测编码](concepts/speech-comprehension-prediction.md) — IFG→STG/STS 自上而下预测回路；STG 编码预测误差（不是增强信号）；正确先验使STG信号减弱；误感知时STS预测误差更弱（Blank & Davis 2018）；学习=预测误差最小化（Sohoglu & Davis 2016） **[NEW 2026-08-23 #121]**
 - 🟢 [音素范畴感知](concepts/phoneme-categorical-perception.md) — STG群体活动的非线性跳跃实现离散范畴；双尺度（局部特征/群体音素）表征；发育收窄、预测力与社会门控依赖性 **[rev2 2026-08-22 #120]**
 - 🟢 [语言习得关键期（分层敏感期）](concepts/language-critical-period.md) — 音位/词义/形态句法/复杂句法分层嵌套的多敏感期；三层机制（统计学习/社会门控/白质成熟约束）；Friederici背侧路径I/II发育双分组；Klein 2026学龄前DTI-句法相关 **[NEW 2026-08-22 #120]**
 - 🟢 [统计学习（语言习得）](concepts/statistical-learning.md) — 转移概率/分布统计/规则提取；新生儿出生即可运转；8月婴儿2分钟词分割（Saffran 1996）；社会门控依赖性 **[NEW 2026-08-22 #120]**

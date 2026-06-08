@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-08-23（文章 #121 — 从声波到意义：大脑如何用预测编码完成语音理解）
+
+**新建页面（3 页）**：
+- `wiki/concepts/wernicke-area.md`（填补悬空引用）：韦尼克区——现代修正观：pSTG/BA22 是音韵形式提取/缓冲区，非理解中枢；损伤主要产生传导性失语；真正理解依赖双侧分布网络（MTG/STS/ATL）；整合 Binder 2017 和 DeWitt & Rauschecker 2013 两模块说；status=contested（经典解读 vs 现代修正存在实质分歧）
+- `wiki/concepts/planum-temporale.md`（填补悬空引用）：颞平面——外侧裂深处、HG 后方；65% 人类左>右（Geschwind & Levitsky 1968）；时序声学分析；失聪者/音乐家中也有左侧化；左 PT 大小与语言左侧化相关但不确定；status=mainstream
+- `wiki/concepts/speech-comprehension-prediction.md`：语音理解的预测编码——IFG→STG/STS 自上而下预测回路；STG 编码预测误差；正确理解=误差信号减弱；Sohoglu & Davis 2012/2016；Blank & Davis 2016/2018；Cope & Davis 2023 运动皮层预测实例化；status=mainstream
+
+**修订页面（2 页）**：
+- `wiki/systems/stg-phoneme-processing.md`（rev1→rev2）：新增"语境修复与预测编码"完整段落；新增5条预测编码证据行（Sohoglu & Davis 2012/2016；Blank & Davis 2016/2018）；related 新增 speech-comprehension-prediction、wernicke-area；连接新增2个节点；key_sources 新增3个PMID
+- `wiki/circuits/ventral-language-stream.md`（rev2→rev3）：新增"预测回路（IFG→STG/STS 反馈）"段落；整合 Sohoglu & Davis 2012 和 Cope & Davis 2023 证据；key_sources 新增2个PMID
+
+**矛盾登记（0条新登记）**：今日证据与既有 wiki 无冲突，均为补充和加深。
+
+**新增未解问题**：
+- Q-wernicke-01（中优先）：纯粹 pSTG/BA22 局灶性损伤（不累及 MTG/白质）的理解缺陷大小，缺乏系统定量 VLSM 研究
+- Q-pt-01（中优先）：PT 左侧化是语言习得的**结果**还是先天**原因**？新生儿影像支持先天假说，但习得塑形程度不明
+
+**新增悬空引用（待填补）**：
+- `language-lateralization`（speech-comprehension-prediction 提及语言左半球优势；待建专页）
+- `analysis-by-synthesis`（运动系统参与感知的完整计算框架；Cope & Davis 2023 引出）
+
+**图谱更新**：+3节点（wernicke-area/planum-temporale/speech-comprehension-prediction），+10条边；总节点262，总边1460
+
+---
+
 ## 2026-08-22（文章 #120 — 语言习得关键期：感知收窄、统计学习与神经成熟的协同舞蹈）
 
 **新建页面（3 页）**：

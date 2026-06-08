@@ -923,3 +923,7 @@
 
 
 - 语言习得关键期（#120，Aug 22）：语言习得不依赖单一关键期，而是依赖分层嵌套的多个敏感期——音位（0-12月，STG感知收窄）、词义（12-30月，词汇爆发，腹侧流）、形态句法（2-5岁，背侧路径I/II逐步约束）、复杂句法（5-7岁，路径II完整成熟）。三层驱动机制：(1)天生统计学习引擎（Saffran 1996: 8月婴儿2分钟学词；Teinonen 2009: 睡眠新生儿ERP）；(2)社会门控（Kuhl 2007: 12次真人普通话课→婴儿习得音素，等量录像/录音→零学习；目光接触预测学习成绩）；(3)白质成熟约束（Friederici 2012: 背侧路径I出生即有/路径II七岁前成熟；Klein 2026 N=120: 4岁断点，路径I/II成熟度与形态句法显著相关，3岁无相关）。Kuhl 2014 MEG双解离：7月婴儿运动/听觉等量激活；11-12月双解离（母语→STG，非母语→Broca），证明感知-动作耦合已母语化。新建3个wiki页（language-critical-period, statistical-learning, social-gating-language），修订3个页面（phoneme-categorical-perception rev2, dorsal-language-stream rev3, language-network rev5）。图谱259节点，1450边。
+
+### 2026-08-23 · 文章 #121 · 从声波到意义：大脑如何用预测编码完成语音理解
+
+语音理解不是单向声学解析，而是 IFG→STG/STS 双向预测回路：IFG 在 STG 响应前先生成预测（Sohoglu & Davis 2012 EEG/MEG 时序证据），STG/STS 只上报预测误差，正确理解时信号减弱而非增强。三项独立 fMRI/MEG 研究（Blank & Davis 2016；Sohoglu & Davis 2016 PNAS；Blank et al. 2018）形成连贯证据链。Cope & Davis 2023（7T fMRI）进一步显示运动皮层实例化语音预测，支持分析-合成框架。韦尼克区现代修正：pSTG/BA22 是音韵缓冲区而非理解中枢（Binder 2017）。颞平面（PT）的左大右小是语言左侧化最古老的解剖学证据。填补了 wernicke-area 和 planum-temporale 两个悬空引用。
