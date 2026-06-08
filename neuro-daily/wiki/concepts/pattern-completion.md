@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-24
-updated: 2026-06-24
-revision_count: 1
+updated: 2026-08-28
+revision_count: 2
 dimensions: [microcircuit, cellular, cognition]
-related: [hippocampal-circuit, attractor-network, pattern-separation, ca3-recurrent-collaterals, nmda-receptor, ltp, place-cells]
+related: [hippocampal-circuit, attractor-network, pattern-separation, ca3-recurrent-collaterals, nmda-receptor, ltp, place-cells, cell-assembly]
 prerequisites: [hippocampal-circuit, ltp, nmda-receptor]
 opens_questions: [Q-pc-01, Q-pc-02]
-source_articles: [2026-06-24-hippocampal-ca3-pattern-completion]
+source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-08-28-hebb-cell-assemblies-memory-network]
 key_sources: ["PMID:12040087", "PMID:1308182", "PMID:15272123", "PMID:35368306"]
 ---
 
@@ -72,6 +72,7 @@ Leutgeb et al. (2004, PMID:15272123) 的体内数据支持这一观点：CA3 对
 - [[nmda-receptor]] — 循环突触 LTP 的关键分子基础
 - [[ltp]] — CA3 循环突触增强是模式编码的突触机制
 - [[place-cells]] — CA3 场所细胞在模式补全中扮演实际的计算角色
+- [[cell-assembly]] — 细胞集群是 CA3 吸引子的生物实现：共同激活的 CA3 锥体细胞通过循环 LTP 形成功能性集群，每个稳定吸引子对应一个训练好的细胞集群
 
 ## 未解问题
 
@@ -80,4 +81,5 @@ Leutgeb et al. (2004, PMID:15272123) 的体内数据支持这一观点：CA3 对
 
 ## 修订历史
 
+- 2026-08-28 · 修订 rev2 · 基于《大脑的记忆拼图》(#128) · related 新增 cell-assembly；连接段落新增 [[cell-assembly]]（CA3 吸引子的生物实现）；source_articles 新增
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 填补了 hippocampal-circuit.md 中长期提到但无专页的悬空引用 · 初始置信度：高

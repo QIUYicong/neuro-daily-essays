@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-27（**#127**·可塑性的守门人：BCM 规则与元可塑性如何防止突触失控）· 主题页总数：**253**（新建2页：metaplasticity · bcm-rule；修订2页：hebbian-learning rev6 · ltp frontmatter；图谱269节点、1504边）
+> 最后更新：2026-08-28（**#128**·大脑的记忆拼图：赫布细胞集群如何将单个突触连接编织成联想记忆网络）· 主题页总数：**254**（新建1页：cell-assembly；修订4页：hebbian-learning rev7 · pattern-completion rev2 · attractor-network rev2 · engram-cells rev7；图谱265节点、1485边）
 
 ---
 
@@ -102,6 +102,7 @@
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；Sahay 2011成人神经发生因果改善分离 **[NEW 2026-06-24]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
+- 🟢 [细胞集群](concepts/cell-assembly.md) — Hebb 1949 理论；共同激活神经元通过循环 LTP 形成高度互连网络；θ/γ嵌套组织；SWR 离线重播；是吸引子网络的生物实现，印迹细胞的拓扑骨架 **[NEW 2026-08-28 #128]**
 - 🔵 [DIVA模型（言语产生计算-神经框架）](concepts/diva-model.md) — 言语声音图（左IFG/vPMC）+启动图（SMA-BG）+听觉目标/误差图（pSTG）+体感目标图（SMG）+反馈控制图（右vPMC）+小脑前向模型；前馈主导流利言语/反馈主导学习纠偏/效应副本抑制自产语音；GODIVA双BG环路（运动/计划）**[NEW 2026-08-19 #118]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑

@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-08-28（文章 #128 — 大脑的记忆拼图：赫布细胞集群如何将单个突触连接编织成联想记忆网络）
+
+**新建页面（1 页）**：
+- `wiki/concepts/cell-assembly.md`：细胞集群（Hebb 1949）——共同激活的神经元通过循环 LTP 形成高度互连的功能网络；四步形成机制（共激活→LTP→突触增强→AMPA 插入）；θ/γ 嵌套组织（gamma = 基本单元 ~20ms，theta = 7±2 集群序列）；DG 苔状纤维去整合器角色；SWR 高速重播（20×压缩）；Nakazawa 2002 CA3-NR1 KO 关键因果证据；与 Hopfield 网络的计算等价；status=established, confidence=high
+
+**修订页面（4 页）**：
+- `wiki/concepts/hebbian-learning.md`（rev6→rev7）：related 新增 cell-assembly；连接段落新增 [[cell-assembly]]（Hebb 原理的宏观细胞体现）；source_articles 新增
+- `wiki/concepts/pattern-completion.md`（rev1→rev2）：related 新增 cell-assembly；连接段落新增 [[cell-assembly]]（CA3 吸引子的生物实现）；source_articles 新增
+- `wiki/concepts/attractor-network.md`（rev1→rev2）：related 新增 cell-assembly；连接段落新增 [[cell-assembly]] 作为吸引子的生物实现（Harris 2003、Wilson & McNaughton 1994 体内证据）；source_articles 新增
+- `wiki/concepts/engram-cells.md`（rev6→rev7）：related 新增 cell-assembly；连接段落新增 [[cell-assembly]]（印迹细胞为节点，循环 LTP 为边的框架）；source_articles 新增
+
+**新增未解问题**：
+- Q-ca-01（高优先）：体内集群边界的定义标准（功能性集群单元的精确识别）
+- Q-ca-02（中优先）：θ/γ 嵌套组织的因果角色与相关性区分
+- Q-ca-03（中优先）：病理状态（AD、精神分裂症）中细胞集群的具体失调机制
+
+**图谱更新**：+1节点（cell-assembly），+14条边；总节点265，总边1485
+
+---
+
 ## 2026-08-27（文章 #127 — 可塑性的守门人：BCM 规则与元可塑性如何防止突触失控）
 
 **新建页面（2 页）**：

@@ -1,0 +1,154 @@
+{
+  "date": "2026-08-28",
+  "article": "hebb-cell-assemblies-memory-network",
+  "topic": "赫布细胞集群与联想记忆网络",
+  "total_sources": 13,
+  "open_full_text": 8,
+  "abstract_only": 5,
+  "sources": [
+    {
+      "id": "S01",
+      "type": "book",
+      "citation": "Hebb, D.O. (1949). The Organization of Behavior. New York: Wiley.",
+      "pmid": null,
+      "pmcid": null,
+      "doi": null,
+      "full_text_available": false,
+      "access_status": "经典专著，无开放全文；通过文献引用和综述间接获取核心内容",
+      "used_for": "细胞集群假说的原始提出；相位序列概念；赫布规则"
+    },
+    {
+      "id": "S02",
+      "type": "journal_article",
+      "citation": "Le Duigou C, Simonnet J, Teleñczuk M, Fricker D, Miles R. (2014). Recurrent synapses and circuits in the CA3 region of the hippocampus: an associative network. Front Cell Neurosci. 7:262.",
+      "pmid": "24409118",
+      "pmcid": "PMC3884140",
+      "doi": "10.3389/fncel.2013.00262",
+      "full_text_available": true,
+      "access_status": "开放全文（PMC 读取）",
+      "used_for": "CA3 循环突触解剖量化（12,000 循环突触/细胞、轴突长度、连接概率）；前馈抑制防止过度兴奋"
+    },
+    {
+      "id": "S03",
+      "type": "journal_article",
+      "citation": "Nakazawa K, Quirk MC, Chitwood RA, Watanabe M, Yeckel MF, Sun LD, Kato A, Carr CA, Johnston D, Wilson MA, Tonegawa S. (2002). Requirement for hippocampal CA3 NMDA receptors in associative memory recall. Science. 297(5579):211-218.",
+      "pmid": "12040087",
+      "pmcid": "PMC2877140",
+      "doi": "10.1126/science.1071795",
+      "full_text_available": true,
+      "access_status": "开放全文（PMC 读取）",
+      "used_for": "CA3-NMDAR KO 实验；完整线索 vs 部分线索行为解离；模式补全的分子因果证据"
+    },
+    {
+      "id": "S04",
+      "type": "journal_article",
+      "citation": "Harris KD, Csicsvari J, Hirase H, Dragoi G, Buzsáki G. (2003). Organization of cell assemblies in the hippocampus. Nature. 424(6948):552-556.",
+      "pmid": "12891358",
+      "pmcid": null,
+      "doi": "10.1038/nature01834",
+      "full_text_available": false,
+      "access_status": "摘要（Nature，付费墙）",
+      "used_for": "体内多细胞协同激发统计结构；最优预测时间窗口 10-30 ms"
+    },
+    {
+      "id": "S05",
+      "type": "journal_article",
+      "citation": "Wilson MA, McNaughton BL. (1994). Reactivation of hippocampal ensemble memories during sleep. Science. 265(5172):676-679.",
+      "pmid": "8036517",
+      "pmcid": null,
+      "doi": "10.1126/science.8036517",
+      "full_text_available": false,
+      "access_status": "摘要（Science，付费墙）",
+      "used_for": "睡眠中细胞集群重播；探索期共激发对在慢波睡眠中保持高共激发"
+    },
+    {
+      "id": "S06",
+      "type": "journal_article",
+      "citation": "Buzsáki G. (2010). Neural syntax: cell assemblies, synapsembles, and readers. Neuron. 68(3):362-385.",
+      "pmid": "21040841",
+      "pmcid": "PMC3005627",
+      "doi": "10.1016/j.neuron.2010.09.023",
+      "full_text_available": true,
+      "access_status": "开放全文（PMC 读取）",
+      "used_for": "神经语法框架；gamma/theta 集群嵌套；读出神经元概念；synapsemble；集群大小估算（150-300 细胞/gamma 周期）"
+    },
+    {
+      "id": "S07",
+      "type": "journal_article",
+      "citation": "Rolls ET. (2013). The mechanisms for pattern completion and pattern separation in the hippocampus. Front Syst Neurosci. 7:74.",
+      "pmid": "24198767",
+      "pmcid": "PMC3812781",
+      "doi": "10.3389/fnsys.2013.00074",
+      "full_text_available": true,
+      "access_status": "开放全文（PMC 读取）",
+      "used_for": "CA3 作为单吸引子/自联想网络；存储容量 ~36,000 个模式；DG 苔状纤维为强制激活器"
+    },
+    {
+      "id": "S08",
+      "type": "journal_article",
+      "citation": "Josselyn SA, Tonegawa S. (2020). Memory engrams: Recalling the past and imagining the future. Science. 367(6473):eaaw4325.",
+      "pmid": "31896692",
+      "pmcid": "PMC7577560",
+      "doi": "10.1126/science.aaw4325",
+      "full_text_available": true,
+      "access_status": "开放全文（PMC 读取）",
+      "used_for": "印迹细胞三条认定标准；节点/边框架（印迹细胞=节点，突触=边）"
+    },
+    {
+      "id": "S09",
+      "type": "journal_article",
+      "citation": "Hopfield JJ. (1982). Neural networks and physical systems with emergent collective computational abilities. Proc Natl Acad Sci USA. 79(8):2554-2558.",
+      "pmid": "6953413",
+      "pmcid": null,
+      "doi": "10.1073/pnas.79.8.2554",
+      "full_text_available": false,
+      "access_status": "摘要（PNAS 1982，历史文献）",
+      "used_for": "Hopfield 网络数学框架；内容可寻址联想记忆；能量函数；标准容量 ~0.14N"
+    },
+    {
+      "id": "S10",
+      "type": "journal_article",
+      "citation": "Rennó-Costa C, Lisman JE, Verschure PF. (2014). A signature of attractor dynamics in the CA3 region of the hippocampus. PLoS Comput Biol. 10(5):e1003641.",
+      "pmid": "24854425",
+      "pmcid": "PMC4031055",
+      "doi": "10.1371/journal.pcbi.1003641",
+      "full_text_available": true,
+      "access_status": "开放全文（PMC 读取）",
+      "used_for": "CA3 吸引子动力学计算模型；环境渐变实验重现 CA3 非线性状态切换；盆地吸引效应数据"
+    },
+    {
+      "id": "S11",
+      "type": "journal_article",
+      "citation": "Sakurai Y, Osako Y, Tanisumi Y, Ishihara E, Hirokawa J, Manabe H. (2018). Multiple approaches to the investigation of cell assembly in memory research—present and future. Front Syst Neurosci. 12:21.",
+      "pmid": "29887797",
+      "pmcid": "PMC5980992",
+      "doi": "10.3389/fnsys.2018.00021",
+      "full_text_available": true,
+      "access_status": "开放全文（PMC 读取）",
+      "used_for": "细胞集群研究方法综述（多电极记录、光遗传学、钙成像）；研究现状与局限"
+    },
+    {
+      "id": "S12",
+      "type": "journal_article",
+      "citation": "McNaughton BL. (2024). Neuronal 'ensemble' recording and the search for the cell assembly: a personal history. Hippocampus. 35(1):e23669.",
+      "pmid": "39676610",
+      "pmcid": "PMC11647560",
+      "doi": "10.1002/hipo.23669",
+      "full_text_available": true,
+      "access_status": "开放全文（PMC 读取）",
+      "used_for": "细胞集群研究历史（McNaughton 第一手叙述）；多电极记录技术发展；赫布关于 phase sequence 的直接引用"
+    },
+    {
+      "id": "S13",
+      "type": "journal_article",
+      "citation": "Dragoi G, Buzsáki G. (2006). Temporal encoding of place sequences by hippocampal cell assemblies. Neuron. 50(1):145-157.",
+      "pmid": "16600862",
+      "pmcid": null,
+      "doi": "10.1016/j.neuron.2006.02.023",
+      "full_text_available": false,
+      "access_status": "摘要（Neuron，付费墙）",
+      "used_for": "Theta 序列中的细胞集群时序编码；theta 压缩约 10× 的行为时间"
+    }
+  ],
+  "coverage_notes": "开放全文 8/13（62%）。主要差距：Harris 2003（Nature）、Wilson & McNaughton 1994（Science）、Hopfield 1982（PNAS 历史文献）、Dragoi & Buzsáki 2006（Neuron）为摘要或历史文献，已明确标注。"
+}

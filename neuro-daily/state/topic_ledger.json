@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-26",
-  "total_articles": 124,
+  "last_updated": "2026-08-28",
+  "total_articles": 128,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8027,6 +8027,62 @@
         "ltp"
       ],
       "article_number": 127
+    },
+    {
+      "date": "2026-08-28",
+      "article_number": 128,
+      "title": "大脑的记忆拼图：赫布细胞集群如何将单个突触连接编织成联想记忆网络",
+      "core_question": "Hebb 1949 提出的'细胞集群'理论如何通过 CA3 循环 LTP 实现？θ/γ 嵌套如何组织集群的时序？SWR 如何离线巩固集群？细胞集群与印迹细胞、吸引子网络的关系是什么？",
+      "layer": "microcircuit",
+      "dimensions": [
+        "microcircuit",
+        "cellular",
+        "cognition",
+        "synaptic",
+        "brain-region"
+      ],
+      "topic_tags": [
+        "cell-assembly",
+        "Hebb-1949",
+        "CA3-recurrent-collaterals",
+        "LTP",
+        "attractor-network",
+        "pattern-completion",
+        "theta-gamma-nesting",
+        "neural-syntax",
+        "sharp-wave-ripples",
+        "offline-replay",
+        "Hopfield-network",
+        "engram-cells"
+      ],
+      "main_sources": [
+        "PMID:12891358",
+        "PMID:8036517",
+        "PMID:12040087",
+        "PMID:20855505",
+        "PMID:24504187",
+        "PMID:31896692",
+        "PMID:18385516"
+      ],
+      "unresolved_questions": [
+        "Q-ca-01",
+        "Q-ca-02",
+        "Q-ca-03"
+      ],
+      "next_suggested_topics": [
+        "CaMKII 的自磷酸化与记忆分子钟（分子层）",
+        "神经调质（多巴胺/ACh）如何门控细胞集群的写入与读出（系统层）",
+        "CA1 尖锐波纹波（SWR）的产生机制及记忆巩固功能（回路层）"
+      ],
+      "wiki_created": [
+        "cell-assembly"
+      ],
+      "wiki_updated": [
+        "hebbian-learning",
+        "pattern-completion",
+        "attractor-network",
+        "engram-cells"
+      ]
     }
   ],
   "layer_coverage_recent": {

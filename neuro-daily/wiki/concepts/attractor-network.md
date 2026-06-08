@@ -6,13 +6,13 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-24
-updated: 2026-06-24
-revision_count: 1
+updated: 2026-08-28
+revision_count: 2
 dimensions: [microcircuit, cellular, cognition]
-related: [pattern-completion, hippocampal-circuit, working-memory, complementary-learning-systems]
+related: [pattern-completion, hippocampal-circuit, working-memory, complementary-learning-systems, cell-assembly]
 prerequisites: [ltp, nmda-receptor, action-potential]
 opens_questions: [Q-pc-01]
-source_articles: [2026-06-24-hippocampal-ca3-pattern-completion]
+source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-08-28-hebb-cell-assemblies-memory-network]
 key_sources: ["PMID:1308182", "PMID:12040087", "PMID:15272123"]
 ---
 
@@ -76,6 +76,7 @@ Ramsauer et al. (2021, arXiv:2008.02217) 将能量函数从二次型推广到指
 - [[hippocampal-circuit]] — CA3 是主要的生物吸引子网络实现
 - [[working-memory]] — 前额叶的持续激活被认为依赖连续吸引子动力学
 - [[complementary-learning-systems]] — 吸引子网络的模式补全是 CLS 理论中海马功能的计算核心
+- [[cell-assembly]] — 细胞集群是吸引子网络在生物神经回路中的具体实现：每个稳定吸引子 = 一个训练完成的细胞集群；Harris 2003（PMID:12891358）和 Wilson & McNaughton 1994（PMID:8036517）是 CA3 吸引子动力学的体内电生理证据
 
 ## 未解问题
 
@@ -83,4 +84,5 @@ Ramsauer et al. (2021, arXiv:2008.02217) 将能量函数从二次型推广到指
 
 ## 修订历史
 
+- 2026-08-28 · 修订 rev2 · 基于《大脑的记忆拼图》(#128) · related 新增 cell-assembly；连接段落新增 [[cell-assembly]] 作为吸引子的生物实现，补充体内电生理证据（Harris 2003、Wilson & McNaughton 1994）；source_articles 新增
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 涵盖 Hopfield 网络基础、CA3 生物对应物和现代 Transformer 联系 · 初始置信度：中（理论框架有大量支持，但 CA3 容量估算和细节机制仍有不确定性）

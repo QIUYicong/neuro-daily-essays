@@ -6,13 +6,13 @@ type: theory
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-08-27
-revision_count: 6
+updated: 2026-08-28
+revision_count: 7
 dimensions: [synaptic, cognition, behavior, whole-brain-network]
-related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy, synaptic-scaling, homeostatic-plasticity, metaplasticity, bcm-rule]
+related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy, synaptic-scaling, homeostatic-plasticity, metaplasticity, bcm-rule, cell-assembly]
 prerequisites: [synaptic-transmission, action-potential, nmda-receptor]
 opens_questions: [Q-hebbian-global-error, Q-hebbian-stability]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error, 2026-08-25-stdp-spike-timing-dependent-plasticity, 2026-08-27-metaplasticity-bcm-sliding-threshold]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error, 2026-08-25-stdp-spike-timing-dependent-plasticity, 2026-08-27-metaplasticity-bcm-sliding-threshold, 2026-08-28-hebb-cell-assemblies-memory-network]
 key_sources: ["PMID:22510460", "PMID:30037851", "PMID:26834568", "PMID:9054347", "PMID:8774460", "PMID:12371508", "PMID:8658594", "PMID:18401345"]
 ---
 
@@ -90,6 +90,7 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 - [[homeostatic-plasticity]] — 稳态可塑性总称，解决了 Hebb 规则的稳定性悖论
 - [[metaplasticity]] — 元可塑性是 Hebb 规则稳定性的另一解决方案：通过历史活动依赖的 θ_m 滑动，动态调整 LTP/LTD 阈值；与稳态缩放互补但机制不同
 - [[bcm-rule]] — BCM 规则是 Hebb 规则的数学稳定化扩展：加入了随活动水平滑动的修改阈值 θ_m
+- [[cell-assembly]] — 细胞集群是 Hebb 原理最直接的宏观体现：共同激活的神经元通过循环 LTP 形成高度互连的集群，构成记忆的细胞载体
 
 ## 未解问题
 
@@ -98,6 +99,7 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 
 ## 修订历史
 
+- 2026-08-28 · 修订 rev7 · 基于《大脑的记忆拼图》(#128) · related 新增 cell-assembly；连接段落新增 [[cell-assembly]]（Hebb 原理的宏观细胞体现）；source_articles 新增
 - 2026-08-27 · 修订 rev6 · 基于《可塑性的守门人：BCM 规则与元可塑性》(#127) · 新增 [[metaplasticity]] 和 [[bcm-rule]] 作为 Hebb 规则稳定性问题的补充解决方案；Q-hebbian-stability 更新；related 新增 metaplasticity、bcm-rule；source_articles 新增
 - 2026-08-25 · 修订 rev5 · 基于《突触的时间守门人》(#123) · 将 [[stdp]] 从"待建页面"升级为已建立连接，补充 STDP 分子机制说明（NMDA+bAP 超线性 Ca²⁺）；source_articles 新增
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；Q-hebbian-stability 从"待解问题"更新为"部分有答案"（突触缩放是已知的负反馈机制）；related 新增 synaptic-scaling、homeostatic-plasticity
@@ -110,3 +112,4 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 - [[2026-05-26-nmda-receptor-ltp]]
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-08-27-metaplasticity-bcm-sliding-threshold]]
+- [[2026-08-28-hebb-cell-assemblies-memory-network]]

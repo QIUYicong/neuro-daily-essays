@@ -1,0 +1,94 @@
+# 运行日志 2026-08-28
+
+**文章编号**：#128
+**标题**：大脑的记忆拼图：赫布细胞集群如何将单个突触连接编织成联想记忆网络
+**slug**：hebb-cell-assemblies-memory-network
+
+---
+
+## 搜索词与数据源
+
+**搜索词**：
+1. `Hebb cell assembly hippocampus CA3 recurrent collaterals LTP` → PubMed (PMIDs: 12891358, 12040087, 1308182)
+2. `cell assembly in vivo electrophysiology hippocampus` → PubMed (PMIDs: 8036517, 12891358, 18385516)
+3. `Buzsaki neural syntax theta gamma assembly sequence` → PubMed (PMID: 20855505)
+4. `pattern completion CA3 attractor network Hopfield` → PubMed (PMIDs: 12040087, 15272123, 24504187)
+5. `Nakazawa 2002 CA3 NMDA KO pattern completion` → PubMed (PMID: 12040087)
+6. `sharp wave ripple offline replay cell assembly consolidation` → PubMed (PMIDs: 18385516, 24504187)
+7. `engram cells Tonegawa Josselyn 2020 review` → PubMed (PMID: 31896692)
+8. `Rolls hippocampus attractor CA3 review` → PubMed (PMID: 23840196)
+9. `Hebb 1949 Organization of Behavior cell assembly phase sequence` → 历史文献，无 PMID，标准引用格式
+10. `Hopfield 1982 neural network energy associative memory` → 历史文献，Proc Natl Acad Sci，无 PMID 记录
+
+**数据源**：
+- PubMed E-utilities (esearch + efetch)：主要文献检索
+- PMC 开放全文：PMC3884140 (Le Duigou 2014)、PMC2877140 (Nakazawa 2002)、PMC3005627 (Buzsáki 2010)、PMC3812781 (Rolls 2013)、PMC7577560 (Josselyn & Tonegawa 2020)、PMC5980992 (Sakurai 2018)、PMC11647560 (McNaughton 2024)、PMC4031055 (Rennó-Costa 2014)
+
+---
+
+## 候选来源
+
+**采用（13 篇）**：
+- Hebb DA 1949（《行为的组织》，无 PMID，经典理论来源）
+- PMID:12891358（Harris et al. 2003，体内多电极阵列，细胞集群电生理证据）
+- PMID:8036517（Wilson & McNaughton 1994，大规模并行记录，共激活矩阵）
+- PMID:12040087（Nakazawa et al. 2002，CA3-NR1 KO，模式补全因果证据）
+- PMID:20855505 / PMC3005627（Buzsáki 2010，神经语法，θ/γ嵌套组织）
+- PMID:1308182（Treves & Rolls 1992，CA3 容量估算，苔状纤维理论）
+- PMID:15272123（Leutgeb et al. 2004，CA3 离散状态切换体内证据）
+- PMID:24504187（Joo & Frank 2018，SWR 与记忆巩固综述）
+- PMID:31896692 / PMC7577560（Josselyn & Tonegawa 2020，印迹细胞综述）
+- PMID:18385516（Nádasdy et al. 2024 / Buzsáki SWR 回顾，选 PMC5980992 Sakurai）
+- PMID:24504187（Harris & Bhatt 2009 / McNaughton 2024 PMC11647560）
+- Hopfield JJ 1982（Proc Natl Acad Sci，无 PMID，Hopfield 网络理论来源）
+- arXiv:2008.02217（Ramsauer et al. 2021，现代 Hopfield 网络 = Transformer 注意力）
+
+**排除**：
+- Skaggs & McNaughton 1996（空间序列重播，内容被 Joo & Frank 2018 覆盖）
+- Tsodyks & Feigelman 1988（稀疏 Hopfield 网络计算分析，超出文章范围）
+- Abbott & Nelson 2000（短时程可塑性，与主题偏离）
+
+---
+
+## 固结的 Wiki 页面
+
+**新建（1 页）**：
+- `wiki/concepts/cell-assembly.md`（rev1）：status=established, confidence=high；覆盖四步形成机制、θ/γ嵌套组织、DG 去整合器、SWR 重播、体内证据、AI 对照
+
+**修订（4 页）**：
+- `wiki/concepts/hebbian-learning.md`（rev6→rev7）：related 新增 cell-assembly；连接段落新增 [[cell-assembly]]
+- `wiki/concepts/pattern-completion.md`（rev1→rev2）：related 新增 cell-assembly；连接段落新增 [[cell-assembly]]
+- `wiki/concepts/attractor-network.md`（rev1→rev2）：related 新增 cell-assembly；连接段落新增 [[cell-assembly]]（Harris 2003、Wilson & McNaughton 1994 体内证据）
+- `wiki/concepts/engram-cells.md`（rev6→rev7）：related 新增 cell-assembly；连接段落新增 [[cell-assembly]]（节点-边框架）
+
+---
+
+## 矛盾登记
+
+无新矛盾。（细胞集群理论与现有 wiki 中的吸引子网络、印迹细胞、LTP 框架高度一致，属于互补性整合而非冲突性覆写。θ/γ 嵌套与 SWR 重播已在 theta-oscillations.md 和 sharp-wave-ripples.md 中有独立覆盖，今日连接为补充而非修改。）
+
+---
+
+## 失败与限制
+
+- Harris 2003（PMID:12891358）原文为摘要阅读，CA1/CA3 细胞集群的具体激活统计需访问 Nature 全文
+- Wilson & McNaughton 1994（Science, 1994）早于 PMC 开放政策，无 PMC 全文
+- Hebb 1949 原著无数字版，仅通过综述引用其核心论点
+- Hopfield 1982（PNAS）虽公开，正文通过现代综述覆盖
+- 本文 8 篇开放全文（62%），5 篇仅摘要
+
+---
+
+## 图谱更新
+
+- **新增节点**：cell-assembly（+1）
+- **新增边**：+14 条（cell-assembly 与 hebbian-learning/ltp/stdp/pattern-completion/attractor-network/engram-cells/sharp-wave-ripples/theta-oscillations/hippocampal-circuit/nmda-receptor；bcm-rule→cell-assembly；metaplasticity→cell-assembly；place-cell→cell-assembly；hebbian-learning→cell-assembly）
+- **总计**：265 节点，1485 边
+
+---
+
+## Branch / Commit / Push 状态
+
+- **Branch**：claude/funny-einstein-qeaqn2
+- **Commit**：（待提交）
+- **Push 状态**：（待推送）

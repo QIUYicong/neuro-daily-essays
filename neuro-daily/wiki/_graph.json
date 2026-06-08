@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-27",
-  "node_count": 264,
-  "edge_count": 1471,
+  "updated": "2026-08-28",
+  "node_count": 265,
+  "edge_count": 1485,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2437,6 +2437,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/bcm-rule.md"
+    },
+    {
+      "id": "cell-assembly",
+      "title": "细胞集群",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cell-assembly.md"
     }
   ],
   "edges": [
@@ -10499,6 +10508,76 @@
     {
       "from": "hebbian-learning",
       "to": "metaplasticity",
+      "type": "related"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "hebbian-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "stdp",
+      "type": "related"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "pattern-completion",
+      "type": "related"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "attractor-network",
+      "type": "related"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "engram-cells",
+      "type": "related"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "cell-assembly",
+      "to": "nmda-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bcm-rule",
+      "to": "cell-assembly",
+      "type": "regulates"
+    },
+    {
+      "from": "metaplasticity",
+      "to": "cell-assembly",
+      "type": "regulates"
+    },
+    {
+      "from": "place-cell",
+      "to": "cell-assembly",
+      "type": "related"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "cell-assembly",
       "type": "related"
     }
   ],

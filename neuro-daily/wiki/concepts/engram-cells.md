@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-07-28
-revision_count: 6
+updated: 2026-08-28
+revision_count: 7
 dimensions: [molecular, synaptic, cellular, brain-region, behavior, cognition, methods]
-related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons, memory-reconsolidation]
+related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons, memory-reconsolidation, cell-assembly]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
 opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence]
-source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-07-05-engram-allocation-memory-competition]
+source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-07-05-engram-allocation-memory-competition, 2026-08-28-hebb-cell-assemblies-memory-network]
 key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647", "PMID:29709212 (PMC9623596)", "PMID:27251287 (PMC5063500)", "PMID:41470040 (PMC12754038)"]
 ---
 
@@ -87,6 +87,7 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - [[memory-consolidation]] — SWR 重播可能将海马印迹"复制/转移"至皮层印迹（系统巩固假说）
 - [[sharp-wave-ripples]] — SWR 期间印迹细胞以 20 倍速高速重播，推动海马→皮层固化
 - [[memory-reconsolidation]] — 印迹被再激活时进入再巩固的去稳定化窗口；再巩固是印迹"在线编辑"的分子机会；再巩固失败导致印迹真实消除（区别于沉默印迹）
+- [[cell-assembly]] — 印迹细胞是细胞集群的节点（哪些细胞参与）；CA3 循环 LTP 是集群的边（如何连接）；两者一起构成记忆的细胞-突触完整图谱
 
 ## 未解问题
 
@@ -117,6 +118,7 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"印迹细胞分配的竞争机制"小节，将 CREB 竞争纳入嵌套竞争-遴选架构；新增 [[competition-selection-principle]] 到 related 字段
 - 2026-06-09 · 修订 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · 补充 c-fos-tTA 标记系统的技术细节（PMID:24478647 全文，dox 窗口机制，~2-6% DG 细胞稀疏性）；新增 [[optogenetics]] 到 related；补充假记忆实验的完整分子-行为链；将 revision_count 升至 4
 - 2026-07-05 · 修订 · 基于《记忆的竞争法庭》文章（#73）· 分配机制已独立成专页 [[memory-allocation]]，记忆联结已独立成专页 [[memory-linking]]；related 字段新增 memory-allocation、memory-linking、pv-interneurons；key_sources 新增 PMID:29709212、27251287、41470040；重要更新：竞争分配的"时间门控"（训练后 5 min 窗口）和记忆联结（~6h 兴奋性维持窗口）之间的关系在 memory-allocation 和 memory-linking 页面有详细描述
+- 2026-08-28 · 修订 rev7 · 基于《大脑的记忆拼图》(#128) · related 新增 cell-assembly；连接段落新增 [[cell-assembly]]（印迹细胞为节点，循环 LTP 为边的框架）；source_articles 新增
 - 2026-07-28 · 修订 rev6 · 基于《记忆的活书稿》文章（#96）· 当前理解新增"再巩固作为印迹修改的窗口"段落（Ferrara 2019 GluA2内吞+Haubrich 2020记忆消除）；连接节新增 [[memory-reconsolidation]]；related 新增 memory-reconsolidation；dimensions 新增 molecular、synaptic
 
 ## 来源文章
@@ -124,3 +126,4 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-06-09-optogenetics-causal-neuroscience]]
+- [[2026-08-28-hebb-cell-assemblies-memory-network]]
