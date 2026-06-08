@@ -218,3 +218,33 @@ git push origin main
 ```
 
 **提交状态**：见下方实际执行结果
+
+---
+
+## J. 实际提交状态（2026-06-08 真实日期首次触发补记）
+
+**注意**：本日志最初由 2026-06-05 的批量生成运行写入（仓库序列逻辑模式），
+彼时系统使用"仓库序列逻辑日期"而非真实 UTC+8 日期，导致文章提前生成至 2026-08-23。
+
+**2026-06-08 真实首次触发**（北京时间 09:00）：
+- 系统检测到 `neuro-daily/articles/2026-06-08-alzheimers-amyloid-synaptic-mechanism.md` 已存在
+- 依据 ROUTINE.md「不要反复生成同一天文章」，本次运行跳过文章重新生成
+- 本次运行目的：补记缺失的 commit hash
+
+**批量生成 commit hash**：`e1b75e9`
+- commit 信息：Add neuro daily article + wiki consolidation for 2026-07-23
+- 实际提交时间：2026-06-05 13:17:30 UTC
+- 包含内容：2026-06-06 至 2026-06-15 共 10 篇文章及对应 wiki、状态、日志
+
+**原始提交 hash（早期批次）**：`4d975940fac9a86eb243ce9acd76e98b6ab3edac`
+- 包含内容：2026-05-24 至 2026-06-06 的初始批量文章
+
+**Main 分支当前最新 commit**：`6bea0f3`（Update run log for 2026-08-23 with commit hash）
+
+**知识库当前状态**：
+- 文章序列：2026-05-24 ～ 2026-08-23（共约 101 篇）
+- 真实系统日期：2026-06-08（UTC+8）
+- 知识库超前真实日期约 76 天（批量序列生成导致）
+
+**今日运行分支**：`claude/funny-einstein-9U39b`（环境指定）
+**今日运行结论**：article_exists，no_new_content，run_log_updated_with_commit_hash
