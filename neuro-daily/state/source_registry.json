@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23",
+  "last_updated": "2026-08-25",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9001,9 +9001,100 @@
         "IFG development"
       ],
       "access": "open_full_text"
+    },
+    {
+      "pmid": "8985014",
+      "title": "Regulation of synaptic efficacy by coincidence of postsynaptic APs and EPSPs",
+      "authors": "Markram H et al.",
+      "journal": "Science",
+      "year": 1997,
+      "date_added": "2026-08-25",
+      "topic": "STDP",
+      "full_text": false
+    },
+    {
+      "pmid": "9852584",
+      "title": "Synaptic modifications in cultured hippocampal neurons: dependence on spike timing, synaptic strength, and postsynaptic cell type",
+      "authors": "Bi GQ, Poo MM",
+      "journal": "J Neurosci",
+      "year": 1998,
+      "date_added": "2026-08-25",
+      "topic": "STDP",
+      "full_text": false
+    },
+    {
+      "pmid": "15450157",
+      "title": "Spike timing-dependent plasticity of neural circuits",
+      "authors": "Dan Y, Poo MM",
+      "journal": "Neuron",
+      "year": 2004,
+      "date_added": "2026-08-25",
+      "topic": "STDP review",
+      "full_text": false
+    },
+    {
+      "pmid": "22920249",
+      "title": "The spike-timing dependence of plasticity",
+      "authors": "Feldman DE",
+      "journal": "Neuron",
+      "year": 2012,
+      "date_added": "2026-08-25",
+      "topic": "STDP in vivo review",
+      "full_text": false
+    },
+    {
+      "pmid": "34616278",
+      "pmcid": "PMC8488271",
+      "title": "Calcium and Spike Timing-Dependent Plasticity",
+      "authors": "Inglebert Y, Debanne D",
+      "journal": "Front Cell Neurosci",
+      "year": 2021,
+      "date_added": "2026-08-25",
+      "topic": "STDP physiological calcium",
+      "full_text": true
+    },
+    {
+      "pmid": "35203089",
+      "title": "Spike-timing-dependent plasticity rewards synchrony rather than causality",
+      "authors": "Anisimova M et al.",
+      "journal": "Cereb Cortex",
+      "year": 2022,
+      "date_added": "2026-08-25",
+      "topic": "STDP synchrony vs causality",
+      "full_text": false
+    },
+    {
+      "pmid": "20798031",
+      "title": "AMPA receptors gate spine Ca2+ transients and spike-timing-dependent potentiation",
+      "authors": "Holbro N et al.",
+      "journal": "PNAS",
+      "year": 2010,
+      "date_added": "2026-08-25",
+      "topic": "STDP AMPA receptor timing",
+      "full_text": false
+    },
+    {
+      "pmid": "30018546",
+      "title": "Modulation of Spike-Timing Dependent Plasticity: Towards the Inclusion of a Third Factor in Computational Models",
+      "authors": "Foncelle A et al.",
+      "journal": "Front Comput Neurosci",
+      "year": 2018,
+      "date_added": "2026-08-25",
+      "topic": "STDP neuromodulation third factor",
+      "full_text": false
+    },
+    {
+      "pmcid": "PMC10188658",
+      "title": "Targeted Modulation of Human Brain Interregional Effective Connectivity With STDP",
+      "authors": "Hernandez-Pavon JC et al.",
+      "journal": "Neuromodulation",
+      "year": 2022,
+      "date_added": "2026-08-25",
+      "topic": "STDP in human motor cortex TMS",
+      "full_text": true
     }
   ],
-  "total_sources": 485,
+  "total_sources": 525,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

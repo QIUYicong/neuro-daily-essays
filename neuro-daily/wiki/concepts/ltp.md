@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-07-09
-revision_count: 12
+updated: 2026-08-25
+revision_count: 13
 dimensions: [synaptic, cellular, cognition, brain-region, disease]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, glucocorticoid-hippocampus-plasticity, hpa-axis]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, stdp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, glucocorticoid-hippocampus-plasticity, hpa-axis]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component, Q-stress-01]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis, 2026-08-25-stdp-spike-timing-dependent-plasticity]
 key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918", "PMID:15891777", "PMID:26286651"]
 ---
 
@@ -140,6 +140,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 - [[nmda-receptor]] — LTP 诱导的必要门卫，提供 Ca²⁺ 内流触发
 - [[ampa-receptor]] — LTP 表达的主要执行机制（受体插入增加突触权重）
 - [[camkii]] — Ca²⁺ 内流的第一个主要下游效应器，对诱导和维持均必要
+- [[stdp]] — STDP 是 LTP 的时序精化形式：前先后随→LTP；后先前随→LTD；同一 NMDA/CaMKII 机器，以毫秒时序为方向信号
 - [[hebbian-learning]] — LTP 是 Hebb 规则在突触层面的分子实现
 - [[synaptic-transmission]] — LTP 增强突触传递效率，是突触传递的可塑性形态
 - [[btsp]] — 与 LTP 并列的第二种突触增强机制；秒级时间窗口，由树突钙平台电位触发；两者互补
@@ -168,6 +169,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 
 ## 修订历史
 
+- 2026-08-25 · 修订 rev13 · 基于《突触的时间守门人》(#123) · related 新增 stdp；连接新增 [[stdp]]（STDP 是 LTP 的时序精化形式）；source_articles 新增；悬空引用 stdp 正式建立
 - 2026-07-09 · 修订 rev12 · 基于《应激的双刃剑》(#77) · 新增糖皮质激素双相调节 LTP 的完整机制段落（MR 促进/急性 GR 时空特异/慢性 GR 损害三相；BDNF 下调、PP2B/calcineurin/GluA1 内吞路径；与 AD 汇聚点）；related 新增 glucocorticoid-hippocampus-plasticity、hpa-axis；key_sources 新增 PMID:15891777、PMID:26286651；opens_questions 新增 Q-stress-01；连接新增两条
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；GluA1（LTP）vs GluA2（稳态缩放）分子路径分叉关系明确化；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-07-02 · 修订 · 基于《大脑的第三方》(#68) · 新增"三方突触条件"段落：星形胶质细胞 D-丝氨酸供给是 LTP 的隐性必要条件（Henneberger 2010 因果证据）；related 新增 astrocyte、tripartite-synapse、d-serine、astrocyte-calcium-signaling；key_sources 新增 PMID:20075918；连接段落新增四条

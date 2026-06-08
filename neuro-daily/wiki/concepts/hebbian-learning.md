@@ -6,13 +6,13 @@ type: theory
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-07-03
-revision_count: 4
+updated: 2026-08-25
+revision_count: 5
 dimensions: [synaptic, cognition, behavior, whole-brain-network]
 related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy, synaptic-scaling, homeostatic-plasticity]
 prerequisites: [synaptic-transmission, action-potential, nmda-receptor]
 opens_questions: [Q-hebbian-global-error, Q-hebbian-stability]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error, 2026-08-25-stdp-spike-timing-dependent-plasticity]
 key_sources: ["PMID:22510460", "PMID:30037851", "PMID:26834568", "PMID:9054347", "PMID:8774460", "PMID:12371508"]
 ---
 
@@ -85,7 +85,7 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 - [[three-factor-learning-rule]] — 将 Hebb 规则扩展为包含全局调制信号的学习算法（2026-06-07 已建立）
 - [[dopamine-reward-prediction-error]] — DA RPE 是奖励学习中三因素规则的调制因子 M
 - [[synaptic-tagging-capture]] — 突触标记假说解决三因素规则的时间延迟问题
-- [[stdp]] — STDP 是 Hebb 规则的时间分辨精化版本（待建页面）
+- [[stdp]] — STDP 是 Hebb 规则的时间分辨精化版本：将"一起激发"升级为"按因果时序激发"（前先后随→LTP，后先前随→LTD）；分子基础是 NMDA 受体 + bAP 超线性 Ca²⁺ 信号
 - [[synaptic-scaling]] — 突触缩放是 Hebbian 正反馈不稳定性的解决方案：乘法性负反馈，GluA2 通路，时间尺度与 LTP 隔离
 - [[homeostatic-plasticity]] — 稳态可塑性总称，解决了 Hebb 规则的稳定性悖论
 
@@ -96,6 +96,7 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 
 ## 修订历史
 
+- 2026-08-25 · 修订 rev5 · 基于《突触的时间守门人》(#123) · 将 [[stdp]] 从"待建页面"升级为已建立连接，补充 STDP 分子机制说明（NMDA+bAP 超线性 Ca²⁺）；source_articles 新增
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；Q-hebbian-stability 从"待解问题"更新为"部分有答案"（突触缩放是已知的负反馈机制）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《第一周综合：时间的阶梯》一文 · 新增"多尺度 Hebb 规则"一节（BTSP/θ 序列/SWR 均为 Hebb 原理在不同时间尺度的实例化）；related 新增 btsp/theta-oscillations/sharp-wave-ripples/temporal-coding-hierarchy；dimensions 扩展为 behavior/whole-brain-network

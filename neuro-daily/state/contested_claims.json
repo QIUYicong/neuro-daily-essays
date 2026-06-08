@@ -141,6 +141,16 @@
       "resolution": null,
       "priority": "medium",
       "clinical_relevance": "脑肿瘤手术中语言保护区域的范围界定；失读症（alexia）的解剖基础"
+    },
+    {
+      "id": "C-2026-08-25-01",
+      "page": "wiki/concepts/stdp.md",
+      "claim_A": "STDP 的经典规则（Bi & Poo 1998）：突触前先于突触后放电（前先后随）→ LTP；突触后先于突触前（后先前随）→ LTD；这一因果方向性规则在体外实验中稳健可见（来源：PMID:9852584，PMID:8985014，PMID:15450157）",
+      "claim_B": "STDP 长期效应更依赖同步性而非因果顺序（Anisimova et al. 2022）：光遗传3天追踪发现，短期（20min）依赖因果顺序；但3天后无论前先后随还是后先前随，只要 |Δt|<50ms（同步），均产生长期LTP；只有异步配对（Δt=50ms）无长期效果（来源：PMID:35203089）",
+      "nature": "时间尺度差异（短期vs长期）+ 实验条件差异（高Ca²⁺vs生理Ca²⁺，Inglebert 2021）。短期STDP依赖因果顺序可能是正确的；长期记忆是否也依赖方向性，或者只需要同步性，尚未在独立实验室重复验证。两者可能均正确，描述不同时间尺度的动态（短期因果→长期同步）",
+      "status": "open",
+      "opened": "2026-08-25",
+      "source_article": "2026-08-25-stdp-spike-timing-dependent-plasticity"
     }
   ]
 }

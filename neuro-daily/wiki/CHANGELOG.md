@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-08-25（文章 #123 — 突触的时间守门人：STDP 如何用毫秒差异决定学习的方向）
+
+**新建页面（1 页）**：
+- `wiki/concepts/stdp.md`：脉冲时序依赖可塑性（STDP）——赫布规则的毫秒级精化；经典学习窗口（Markram 1997/Bi & Poo 1998）；NMDA 受体符合探测+bAP 超线性 Ca²⁺ 机制；AMPA 受体时间精度调控（Holbro 2010）；生理钙浓度挑战（Inglebert & Debanne 2021）；短期因果 vs 长期同步性张力（Anisimova 2022）；神经调质第三因素（Foncelle 2018）；人类 ccPAS 证据（Hernandez-Pavon 2022）；status=mainstream, confidence=medium；填补 hebbian-learning 悬空引用 [[stdp]]
+
+**修订页面（2 页）**：
+- `wiki/concepts/ltp.md`（rev12→rev13）：related 新增 stdp；连接新增 [[stdp]] 说明 STDP 是 LTP 的时序精化形式；source_articles 新增
+- `wiki/concepts/hebbian-learning.md`（rev4→rev5）：[[stdp]] 从"待建页面"升级为已建立连接；补充 STDP 分子机制描述；source_articles 新增
+
+**矛盾登记（1 条新登记）**：
+- C-2026-08-25-01（open）：STDP 的"因果性"（Bi & Poo 1998 经典窗口——前先后随→LTP，后先前随→LTD，短期内方向敏感）vs"同步性"（Anisimova et al. 2022——3天后无论方向，只要同步均→LTP）；nature=真实分歧（短期 vs 长期时间尺度，以及生理钙浓度差异）；status=open
+
+**新增未解问题**：
+- Q-stdp-01（高优先）：体内生理 Ca²⁺ 下，STDP 规则形态——是否需要 θ-burst 才能诱导 LTP？需体内单突触分辨率验证
+- Q-stdp-02（高优先）：短期因果 vs 长期同步性的整合——哪个描述真正稳定的长期记忆？
+- Q-stdp-03（中优先）：不同脑区 STDP 规则差异（皮质/海马/小脑）的分子决定因素
+
+**图谱更新**：+1节点（stdp），+9条边；总节点265，总边1480
+
+---
+
 ## 2026-08-23（文章 #121 — 从声波到意义：大脑如何用预测编码完成语音理解）
 
 **新建页面（3 页）**：

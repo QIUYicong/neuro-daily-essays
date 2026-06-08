@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2392,6 +2392,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/foxp2-language-gene.md"
+    },
+    {
+      "id": "stdp",
+      "title": "脉冲时序依赖可塑性（STDP）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/stdp.md"
     }
   ],
   "edges": [
@@ -10290,6 +10299,51 @@
       "from": "language-critical-period",
       "to": "language-lateralization",
       "type": "prerequisite-for"
+    },
+    {
+      "from": "stdp",
+      "to": "ltp",
+      "type": "is-a"
+    },
+    {
+      "from": "stdp",
+      "to": "ltd",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "hebbian-learning",
+      "type": "supports"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "stdp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stdp",
+      "to": "camkii",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stdp",
+      "to": "three-factor-learning-rule",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "stdp",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "ltp",
+      "to": "stdp",
+      "type": "related"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "stdp",
+      "type": "related"
     }
   ],
   "dangling_references": [

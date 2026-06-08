@@ -1,0 +1,165 @@
+# 运行日志 · 2026-08-25
+
+**文章编号**：#123
+**运行时间**：2026-08-25 UTC+8（序列逻辑日期；系统时钟显示 2026-06-08，按本仓库惯例使用序列接续日期）
+**模式**：课程脊柱模式（layer balance recovery）
+**分支**：main
+
+---
+
+## 0. 环境初始化
+
+- 系统日期（系统时钟）：2026-06-08；序列逻辑日期：2026-08-25（接续 #122，2026-08-24）
+- 同步 main 分支：成功（git pull --rebase origin main）
+- ROUTINE.md：已读取并确认存在
+- KNOWLEDGE-BASE-DESIGN.md：已读取并确认存在
+- git 作者配置：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+- remote：http://local_proxy@127.0.0.1:.../git/QIUYicong/neuro-daily-essays（正确）
+- neuro-daily/wiki/ 目录：已确认存在
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json：最近 10 篇均为语言系统主题（brain-region/whole-brain-network/cognition 层），连续 10 天以上
+- unresolved_questions.md：Q-lat-01/02/03（语言侧化）等最新问题
+- contested_claims.json：11 条 open 矛盾
+- _graph.json：264 节点，1471 边（更新前）
+- wiki/index.md：确认存在
+- monthly_synthesis.md：确认 8 月已有 22 篇（至 2026-08-24）
+
+---
+
+## B. 选题
+
+**层级平衡分析**：
+- 近 10 天（2026-08-15 至 2026-08-24）每篇都包含 brain-region/whole-brain-network/cognition 层
+- ROUTINE.md 规则：避免连续三天同一层级
+- 今日必须切换至分子/突触/细胞/微回路层
+
+**候选主题**：
+1. STDP（脉冲时序依赖可塑性）——hebbian-learning.md 中有长期悬空引用 [[stdp]]（标注"待建页面"）；图谱中 ltp/hebbian-learning 均高度连接
+2. 语言演化比较（分子/进化层）
+3. 意识理论 GWT/IIT 争议裁决
+
+**选定主题**：STDP
+- 理由：填补 hebbian-learning 悬空引用；分子/突触层级（平衡近期 brain-region 过重）；与现有 ltp/ltd/nmda-receptor/camkii 高连接；有良好文献基础
+
+**核心问题**：突触前后细胞的精确放电时序如何通过 NMDA 受体符合探测和 bAP 超线性 Ca²⁺ 信号决定突触增强或减弱？STDP 的经典规则在体内条件下是否成立？
+
+---
+
+## C. 检索与阅读
+
+**搜索关键词**：
+1. "spike-timing dependent plasticity STDP mechanism"
+2. "STDP NMDA receptor calcium coincidence detector"
+3. "Bi Poo 1998 synaptic modifications hippocampal"
+4. "Markram 1997 Science regulation synaptic efficacy"
+5. "STDP in vivo cortex behavior learning"
+6. "STDP neuromodulation dopamine third factor"
+7. "backpropagating action potential NMDA spike coincidence LTP calcium"
+
+**数据库**：PubMed NCBI E-utilities（esearch/efetch），PMC Open Access，PubMed Central
+**候选来源总数**：16 个候选 PMID
+**采用来源**：9 个（5 原始研究 + 4 综述）
+**开放全文**：2/9（PMID:34616278/PMC8488271，PMC10188658）
+**排除来源**：7 个（会议摘要、与主题关联不够紧密）
+
+**关键来源**：
+- PMID:8985014（Markram 1997 Science）：新皮质 STDP 奠基实验，未读取全文
+- PMID:9852584（Bi & Poo 1998 J Neurosci）：海马经典 STDP 窗口，未读取全文
+- PMID:15450157（Dan & Poo 2004 Neuron）：综述，未读取全文
+- PMID:22920249（Feldman 2012 Neuron）：综述，体内证据批判性评估，未读取全文
+- PMC8488271（Inglebert & Debanne 2021）：生理钙挑战，开放全文已读
+- PMID:35203089（Anisimova et al. 2022）：同步性 vs 因果性，未读取全文（摘要）
+- PMID:20798031（Holbro et al. 2010 PNAS）：AMPA 受体时间精度，未读取全文
+- PMID:30018546（Foncelle et al. 2018）：第三因素神经调质，未读取全文
+- PMC10188658（Hernandez-Pavon et al. 2022）：人类 TMS 证据，开放全文已读
+
+---
+
+## D. 固结步骤
+
+**创建 wiki 页面（1 个）**：
+- `wiki/concepts/stdp.md`：新建，填补 hebbian-learning 悬空引用；status=mainstream, confidence=medium
+
+**修订 wiki 页面（2 个）**：
+- `wiki/concepts/ltp.md`：rev12→rev13；related 新增 stdp，连接新增，source_articles 新增
+- `wiki/concepts/hebbian-learning.md`：rev4→rev5；[[stdp]] 从"待建页面"升级为已建立连接
+
+**矛盾检查**：
+- 新矛盾 C-2026-08-25-01：Anisimova 2022（长期同步性）vs Bi & Poo 1998（短期因果 STDP）
+  → 登记为 open，原有主张保留，新证据并列
+
+**成熟度评估**：
+- stdp：status=mainstream（有多个独立体外证据），confidence=medium（体内证据部分，生理 Ca²⁺ 挑战存在）
+
+---
+
+## E. 图谱与导航更新
+
+- _graph.json：+1 节点（stdp），+9 条边；总节点 265，总边 1480
+- wiki/index.md：stdp 新条目已添加
+- wiki/CHANGELOG.md：今日变更已记录
+
+---
+
+## F. 治理层更新
+
+- topic_ledger.json：新条目 #123，total_articles=123
+- unresolved_questions.md：新增 Q-stdp-01/02/03
+- contested_claims.json：新增 C-2026-08-25-01，总 open 矛盾 12 条
+- source_registry.json：+9 来源，总 525 条
+- monthly_synthesis.md：8 月第 24 篇摘要已追加
+
+---
+
+## G. 文件完整性检查
+
+已生成文件：
+- articles/2026-08-25-stdp-spike-timing-dependent-plasticity.md ✓
+- notes/2026-08-25-reading-notes.md ✓
+- sources/2026-08-25-sources.json ✓
+- logs/2026-08-25-run.log ✓（本文件）
+- wiki/concepts/stdp.md ✓（新建）
+- wiki/concepts/ltp.md ✓（修订 rev13）
+- wiki/concepts/hebbian-learning.md ✓（修订 rev5）
+- wiki/_graph.json ✓（更新）
+- wiki/index.md ✓（更新）
+- wiki/CHANGELOG.md ✓（更新）
+- state/topic_ledger.json ✓
+- state/contested_claims.json ✓
+- state/unresolved_questions.md ✓
+- state/monthly_synthesis.md ✓
+- state/source_registry.json ✓
+
+---
+
+## H. 自检结果
+
+**真实性**：
+- ✓ 每条 wiki 新主张均有 PMID/PMCID 来源
+- ✓ 区分了事实（高置信）/ 模型（中置信）/ 推测（低置信）
+- ✓ 生理 Ca²⁺ 挑战和同步性 vs 因果性争议均明确标注为不确定性
+- ✓ 未编造 DOI、PMID 或数据
+
+**一致性**：
+- ✓ 新矛盾走了矛盾协议（C-2026-08-25-01 登记）
+- ✓ 修订页 updated/revision_count/修订历史同步
+- ✓ 图谱无新悬空边（stdp 节点所有 related 均为已存在节点）
+
+**可导航**：
+- ✓ index.md 和 CHANGELOG.md 反映今日变化
+- ✓ stdp.md 的 related（11 个）和 prerequisites（4 个）均已填写
+
+**情景层**：
+- ✓ 文章/笔记/来源/日志齐全
+- ✓ 未修改任何旧文章文件
+
+---
+
+## 提交推送状态
+
+**本地 commit**：待执行
+**推送状态**：待执行

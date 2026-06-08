@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-24",
-  "total_articles": 122,
+  "last_updated": "2026-08-25",
+  "total_articles": 123,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7838,6 +7838,50 @@
         "speech-production-prediction: 语音产出中的预测——效应副本回路如何比较预期音与实际音，以及在口吃/耳聋言语退化中的应用",
         "language-evolution-comparative: 语言演化比较——FOXP2之外，人类语言的解剖先决条件（FOXP2/CNTNAP2/ROBO1；前颞叶扩张；人类特有白质束）"
       ]
+    },
+    {
+      "date": "2026-08-25",
+      "article_number": 123,
+      "title": "突触的时间守门人：STDP 如何用毫秒差异决定学习的方向",
+      "slug": "stdp-spike-timing-dependent-plasticity",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit"
+      ],
+      "core_question": "突触前后细胞的精确放电时序（毫秒级）如何通过 NMDA 受体符合探测和回传动作电位（bAP）决定突触增强还是减弱？STDP 的经典规则在体内条件下是否成立？",
+      "topic_tags": [
+        "STDP",
+        "spike-timing",
+        "synaptic-plasticity",
+        "NMDA-receptor",
+        "backpropagating-AP",
+        "calcium",
+        "Hebbian-learning",
+        "in-vivo-plasticity"
+      ],
+      "main_sources": [
+        "PMID:8985014",
+        "PMID:9852584",
+        "PMID:15450157",
+        "PMID:22920249",
+        "PMID:34616278",
+        "PMID:35203089",
+        "PMID:20798031",
+        "PMID:30018546",
+        "PMCID:PMC10188658"
+      ],
+      "unresolved_questions": [
+        "Q-stdp-01",
+        "Q-stdp-02",
+        "Q-stdp-03"
+      ],
+      "next_suggested_topics": [
+        "backpropagating-action-potential-deep: 回传动作电位的衰减动力学与树突计算——bAP 如何随树突距离衰减，树突分支如何差异化处理不同时序的突触输入",
+        "language-evolution-comparative: 语言演化比较——FOXP2之外人类语言的解剖先决条件（完成语言系列的演化视角）",
+        "cortical-oscillations-gamma-binding: gamma 振荡与结合问题——皮层 gamma 同步是否是特征绑定的机制，还是只是回路的副产品？"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -7850,7 +7894,8 @@
       "2026-06-10",
       "2026-06-12",
       "2026-07-03",
-      "2026-07-28"
+      "2026-07-28",
+      "2026-08-25"
     ],
     "cellular": [
       "2026-05-24",
@@ -7865,7 +7910,8 @@
       "2026-06-18",
       "2026-07-03",
       "2026-07-26",
-      "2026-07-28"
+      "2026-07-28",
+      "2026-08-25"
     ],
     "synaptic": [
       "2026-05-24",
@@ -7876,13 +7922,15 @@
       "2026-06-04",
       "2026-06-10",
       "2026-07-03",
-      "2026-07-28"
+      "2026-07-28",
+      "2026-08-25"
     ],
     "microcircuit": [
       "2026-05-27",
       "2026-06-03",
       "2026-06-11",
-      "2026-06-18"
+      "2026-06-18",
+      "2026-08-25"
     ],
     "brain_region": [
       "2026-05-27",
