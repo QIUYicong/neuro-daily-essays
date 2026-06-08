@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-08-27（文章 #127 — 可塑性的守门人：BCM 规则与元可塑性如何防止突触失控）
+
+**新建页面（2 页）**：
+- `wiki/concepts/metaplasticity.md`：元可塑性——"可塑性的可塑性"；Abraham & Bear 1996 命名；多机制并行（NMDA 亚基切换/Ih/CaM-RC3/mGluR）；异突触元可塑性与星形胶质细胞 ATP/腺苷信号（Hulme 2014）；AD 发育性元可塑性失调（Megill 2015）；AI 灾难性遗忘对照（Jedlicka 2022）；status=established, confidence=high
+- `wiki/concepts/bcm-rule.md`：BCM 规则（Bienenstock, Cooper, Munro 1982）——滑动修改阈值 θ_m；Δw ∝ φ(y,θ_m)·x；视觉皮层验证（Kirkwood & Bear 1994, Clothiaux 1991）；NMDA 亚基切换与 Ih 的分子实现；与 STDP 的互补关系；status=mainstream, confidence=high
+
+**修订页面（2 页）**：
+- `wiki/concepts/hebbian-learning.md`（rev5→rev6）：新增 metaplasticity 和 bcm-rule 连接；Q-hebbian-stability 更新（补充元可塑性为第二解决方案）；related 和 source_articles 扩展
+- `wiki/concepts/ltp.md`（rev13→rev14 frontmatter only）：related 新增 metaplasticity, bcm-rule；source_articles 新增本文
+
+**新增未解问题**：
+- Q-meta-01（高优先）：θ_m 滑动的时间常数在不同实验系统中的差异
+- Q-meta-02（高优先）：Ih 机制在清醒行为动物体内是否真实承担 θ_m 调节
+- Q-meta-03（中优先）：异突触元可塑性传播范围和选择性
+- Q-bcm-01（高优先）：θ_m 确切时间常数及跨脑区差异
+- Q-bcm-02（中优先）：如何体内直接测量 θ_m 变化
+
+**图谱更新**：+2节点（metaplasticity, bcm-rule），+12条边；总节点269，总边1504
+
+---
+
 ## 2026-08-26（文章 #124 — 逆流而上：回传动作电位如何让树突棘"知道"何时该加强）
 
 **新建页面（2 页）**：

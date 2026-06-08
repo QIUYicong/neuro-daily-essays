@@ -197,5 +197,19 @@
     "confidence": "high",
     "last_changed": "2026-08-26",
     "change_reason": "Hoffman et al. 1997 (Nature) 直接测量证明密度梯度；Kv4.2 分子身份由多项遗传研究确认"
+  },
+  "pages": {
+    "metaplasticity": {
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-08-27",
+      "reason": "Abraham & Bear 1996 coinage; multi-mechanism evidence (NMDA subunit, Ih, CaM/RC3, mGluR); astrocyte-mediated heterosynaptic form (Hulme 2014); AD developmental failure (Megill 2015); well-supported across labs"
+    },
+    "bcm-rule": {
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-08-27",
+      "reason": "BCM 1982 theoretical framework validated by Kirkwood & Bear 1994 LTD experiments and Clothiaux 1991 simulations; molecular implementations proposed (Castellani 2001, Narayanan 2010); status mainstream rather than established because body-in full in vivo confirmation of the θ_m mechanism still limited"
+    }
   }
 }

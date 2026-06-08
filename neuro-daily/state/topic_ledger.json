@@ -7975,6 +7975,58 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8≈2026-06-08（真实执行日期）；知识库虚拟日期2026-08-26；课程脊柱第1章后续（bAP是STDP的物理载体，#123的自然续集）；12个来源中1个开放全文读取（PMC12660168）；11个摘要仅及；无PMID编造；无新矛盾登记；2个新wiki页创建，2个修订；知识图谱：267节点，1492条边"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "可塑性的守门人：BCM 规则与元可塑性如何防止突触失控",
+      "core_question": "突触如何通过滑动修改阈值防止 Hebb 规则的正反馈失控？",
+      "layer": "synaptic",
+      "topic_tags": [
+        "metaplasticity",
+        "bcm-rule",
+        "sliding-threshold",
+        "hebbian-stability",
+        "NMDA-subunit",
+        "h-current",
+        "astrocyte",
+        "catastrophic-forgetting",
+        "visual-cortex-plasticity"
+      ],
+      "dimensions": [
+        "synaptic",
+        "molecular",
+        "cellular",
+        "behavior"
+      ],
+      "main_sources": [
+        "PMID:8658594",
+        "PMID:9247968",
+        "PMID:18401345",
+        "PMID:20554832",
+        "PMID:24298150",
+        "PMID:35798611"
+      ],
+      "unresolved_questions": [
+        "Q-meta-01",
+        "Q-meta-02",
+        "Q-meta-03",
+        "Q-bcm-01",
+        "Q-bcm-02"
+      ],
+      "next_suggested_topics": [
+        "CaMKII 的自磷酸化与记忆分子钟（分子层）",
+        "细胞集群 (Cell Assemblies) 与 Hebb 突触如何形成记忆痕迹（网络层）",
+        "神经调质（多巴胺/乙酰胆碱/NE）如何门控元可塑性（认知/系统层）"
+      ],
+      "wiki_created": [
+        "metaplasticity",
+        "bcm-rule"
+      ],
+      "wiki_updated": [
+        "hebbian-learning",
+        "ltp"
+      ],
+      "article_number": 127
     }
   ],
   "layer_coverage_recent": {

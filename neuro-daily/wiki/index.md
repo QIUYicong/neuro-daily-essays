@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-26（**#124**·逆流而上：回传动作电位如何让树突棘知道何时该加强）· 主题页总数：**251**（新建2页：backpropagating-action-potential · a-type-potassium-channel；修订2页：stdp rev2 · dendritic-computation rev5；图谱267节点、1492边）
+> 最后更新：2026-08-27（**#127**·可塑性的守门人：BCM 规则与元可塑性如何防止突触失控）· 主题页总数：**253**（新建2页：metaplasticity · bcm-rule；修订2页：hebbian-learning rev6 · ltp frontmatter；图谱269节点、1504边）
 
 ---
 
@@ -45,6 +45,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [元可塑性](concepts/metaplasticity.md) — "可塑性的可塑性"；BCM 理论的生物实现；多机制并行（NMDA 亚基/Ih/CaM-RC3/mGluR）；异突触元可塑性与星形胶质细胞信号；AD 发育性失调；AI 灾难性遗忘对照 **[NEW 2026-08-27 #127]**
+- 🔵 [BCM 规则](concepts/bcm-rule.md) — Bienenstock-Cooper-Munro 1982；滑动修改阈值 θ_m；Δw ∝ φ(y,θ_m)·x；视觉皮层验证；与 STDP 互补 **[NEW 2026-08-27 #127]**
 - 🔵 [皮层言语同步（振荡entrainment）](concepts/cortical-speech-entrainment.md) — STG θ-γ振荡与言语包络相位同步；非对称采样时间（AST，左快右慢）；主动预测 vs 被动驱动争议 **[NEW 2026-08-20 #102]**
 - 🔴 [韦尼克区](concepts/wernicke-area.md) — 传统音语理解中枢；现代证据：pSTG/BA22 是音韵形式缓冲区，损伤产生传导性失语而非纯理解崩溃；真正理解依赖双侧分布网络 **[NEW 2026-08-23 #121（填补悬空引用）]**
 - 🟢 [颞平面](concepts/planum-temporale.md) — 外侧裂深处HG后方；65%人类左>右（Geschwind 1968）；黑猩猩94%亦左>右（Gannon 1998）；胎儿期即存在；STAP（人类特有颞上不对称坑，Leroy 2015）；语言左侧化最古老解剖证据 **[rev2 2026-08-24 #122]**
