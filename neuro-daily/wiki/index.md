@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-20（**#102**·声音之刀：颞上回如何将连续声学流切割为音素）· 主题页总数：**240**（新建3页：stg-phoneme-processing · cortical-speech-entrainment · phoneme-categorical-perception；修订2页：auditory-cortex rev4 · auditory-dual-stream rev2；图谱255节点、1430边）
+> 最后更新：2026-08-22（**#120**·语言习得关键期：感知收窄、统计学习与神经成熟的协同舞蹈）· 主题页总数：**244**（新建3页：language-critical-period · statistical-learning · social-gating-language；修订3页：phoneme-categorical-perception rev2 · dorsal-language-stream rev3 · language-network rev5；图谱259节点、约1448边）
 
 ---
 
@@ -45,7 +45,10 @@
 ## concepts（概念/框架）
 
 - 🔵 [皮层言语同步（振荡entrainment）](concepts/cortical-speech-entrainment.md) — STG θ-γ振荡与言语包络相位同步；非对称采样时间（AST，左快右慢）；主动预测 vs 被动驱动争议 **[NEW 2026-08-20 #102]**
-- 🟢 [音素范畴感知](concepts/phoneme-categorical-perception.md) — STG群体活动的非线性跳跃实现离散范畴；双尺度（局部特征/群体音素）表征；发育收窄与θ-γ动力学 **[NEW 2026-08-20 #102]**
+- 🟢 [音素范畴感知](concepts/phoneme-categorical-perception.md) — STG群体活动的非线性跳跃实现离散范畴；双尺度（局部特征/群体音素）表征；发育收窄、预测力与社会门控依赖性 **[rev2 2026-08-22 #120]**
+- 🟢 [语言习得关键期（分层敏感期）](concepts/language-critical-period.md) — 音位/词义/形态句法/复杂句法分层嵌套的多敏感期；三层机制（统计学习/社会门控/白质成熟约束）；Friederici背侧路径I/II发育双分组；Klein 2026学龄前DTI-句法相关 **[NEW 2026-08-22 #120]**
+- 🟢 [统计学习（语言习得）](concepts/statistical-learning.md) — 转移概率/分布统计/规则提取；新生儿出生即可运转；8月婴儿2分钟词分割（Saffran 1996）；社会门控依赖性 **[NEW 2026-08-22 #120]**
+- 🔵 [社会门控（语言习得）](concepts/social-gating-language.md) — 真人互动必要，录像/录音=零学习（Kuhl 2007）；目光接触预测音素习得；鸣禽类比（物种保守）；神经机制推测（STS/TPJ/注意/奖励） **[NEW 2026-08-22 #120]**
 - 🟢 [不变量物体识别](concepts/invariant-object-recognition.md) — 在位置/大小/旋转/光照变换下识别同一物体身份的能力；腹侧流通过选择性↑与不变性↑的精确平衡、维持稀疏度守恒（~10%）实现；形状 vs. 纹理统计之争（Ayzenberg 2022）仍 open **[NEW 2026-08-16 #115]**
 - 🟢 [眼优势柱（ODC）](concepts/ocular-dominance-columns.md) — V1 Layer 4 中双眼 LGN 输入的竞争图谱：视网膜波→LGN 预分层→ODC 解剖前体（出生前）；关键期 ODP 两阶段（剥夺眼 NMDAR-LTD / 开放眼 LTP+稳态缩放）；PV+ 去抑制启动；沉默突触开锁（AMPA/NMDA 0.3→2）；tPA-塑素结构重塑 **[NEW 2026-08-15 #114]**
 - 🟢 [视网膜波](concepts/retinal-waves.md) — 出生前 RGC 自发 Stage I/II/III 波；β2-nAChR 驱动 Stage II 对 LGN 眼特异分层至关重要；与 ephrin-A 梯度协同（双重 KO→V1 视野图消失）；ODC 解剖前体的主要驱动力 **[NEW 2026-08-15 #114]**

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-20
-updated: 2026-08-20
-revision_count: 1
+updated: 2026-08-22
+revision_count: 2
 dimensions: [brain-region, systems, cognition, behavior]
-related: [stg-phoneme-processing, cortical-speech-entrainment, auditory-dual-stream, language-network, perceptual-learning]
+related: [stg-phoneme-processing, cortical-speech-entrainment, auditory-dual-stream, language-network, perceptual-learning, language-critical-period, statistical-learning, social-gating-language]
 prerequisites: [auditory-cortex, stg-phoneme-processing]
 opens_questions: [Q-stg-02]
-source_articles: [2026-08-20-stg-phoneme-speech-perception]
-key_sources: ["PMID:34672685", "PMCID:PMC9447996", "PMID:24482117"]
+source_articles: [2026-08-20-stg-phoneme-speech-perception, 2026-08-22-language-acquisition-critical-period]
+key_sources: ["PMID:34672685", "PMCID:PMC9447996", "PMID:24482117", "PMID:15496861", "PMID:8943209"]
 ---
 
 # 音素范畴感知 (Phoneme Categorical Perception)
@@ -37,8 +37,12 @@ key_sources: ["PMID:34672685", "PMCID:PMC9447996", "PMID:24482117"]
 2. 来自MTG/词汇层面的自上而下反馈（语境偏置范畴边界位置）
 3. 两者的结合
 
-**发育角度**
+**发育角度（感知收窄的时间线与预测力）**
 婴儿6–12个月时发生"感知收窄"（perceptual narrowing）：对母语音素的神经响应精锐化（theta减少+gamma增强），对非母语音素范畴辨别力减弱，对应经验依赖的STG可塑性（PMID:27903720）。
+
+感知收窄的**预测力**（Kuhl 2004，PMID:15496861）：6个月时的母语音素辨别能力预测13/16/24个月的语言发展水平；7.5个月时的ERP质量预测14-30个月词汇增长速度。这说明感知收窄不是语言习得的副产品，而是**先决条件**。
+
+感知收窄的触发条件**不止是语音统计输入**：Kuhl社会门控实验（PMID:17181708）证明，仅通过录像/录音提供的语音输入（统计结构完整）不能触发音素范畴化，必须有真人社会互动（→[[social-gating-language]]）。
 
 ## 关键证据
 
@@ -54,6 +58,9 @@ key_sources: ["PMID:34672685", "PMCID:PMC9447996", "PMID:24482117"]
 - [[stg-phoneme-processing]] — 音素范畴化是STG计算的核心输出之一
 - [[cortical-speech-entrainment]] — θ振荡的时间窗口为范畴化提供时序框架
 - [[auditory-dual-stream]] — 范畴化后的音素表征进入腹侧流（词义）和背侧流（运动映射）
+- [[language-critical-period]] — 音位敏感期（0-12个月）以感知收窄为主要机制
+- [[statistical-learning]] — 分布统计学习驱动音素范畴的经验依赖建立
+- [[social-gating-language]] — 真人社会互动是触发感知收窄的必要条件
 
 ## 未解问题
 
@@ -62,6 +69,7 @@ key_sources: ["PMID:34672685", "PMCID:PMC9447996", "PMID:24482117"]
 ## 修订历史
 
 - 2026-08-20 · 创建 · 基于《声音之刀》文章#102 · 初始置信度：高 · 整合Mesgarani 2014和Bhaya-Grossman 2022的双尺度表征证据
+- 2026-08-22 · 修订 · 基于《语言习得关键期》(#120) · 新增感知收窄预测力（Kuhl 2004）；新增社会门控依赖性（Kuhl 2007）；新增related字段：language-critical-period、statistical-learning、social-gating-language；key_sources新增PMID:15496861、PMID:8943209
 
 ## 来源文章
 

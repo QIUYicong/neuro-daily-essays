@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-08-22（文章 #120 — 语言习得关键期：感知收窄、统计学习与神经成熟的协同舞蹈）
+
+**新建页面（3 页）**：
+- `wiki/concepts/language-critical-period.md`：语言习得关键期——分层敏感期框架（音位0-12月/词义12-30月/形态句法2-5岁/复杂句法5-7岁）；三层驱动机制（统计学习/社会门控/白质成熟）；感知收窄时间线与预测力；key_sources含PMID:15496861/17181708/22347185/41886982/8943209
+- `wiki/concepts/statistical-learning.md`：统计学习——转移概率学习/分布学习/规则提取；8月婴儿2分钟学词（Saffran 1996）；新生儿睡眠中统计学习（Teinonen 2009）；社会门控依赖性
+- `wiki/concepts/social-gating-language.md`：社会门控假说——真人vs录像零学习对比（Kuhl 2007/2003）；目光接触预测学习；鸣禽发声学习类比；神经机制推测（STS/TPJ/注意/奖励）；status=mainstream（行为证据高，神经机制待确认）
+
+**修订页面（3 页）**：
+- `wiki/concepts/phoneme-categorical-perception.md`（rev1→rev2）：新增感知收窄预测力（Kuhl 2004 纵向数据）；新增社会门控依赖性（真人互动必要性）；related新增language-critical-period/statistical-learning/social-gating-language；key_sources新增PMID:15496861/8943209
+- `wiki/circuits/dorsal-language-stream.md`（rev2→rev3）：新增Klein 2026行为验证段落（N=120学龄前儿童DTI：4岁断点，句法-白质相关）；related新增language-critical-period；key_sources新增PMID:41886982；source_articles新增#120
+- `wiki/systems/language-network.md`（rev4→rev5）：related新增language-critical-period；key_sources新增PMID:22347185；source_articles新增#120
+
+**矛盾登记（0条新登记）**：今日证据与既有wiki无冲突，均为补充和加深。
+
+**新增未解问题（3条）**：
+- Q-lcp-01（中优先）：成人L2习得局限主要源于皮层可塑性、L1干扰，还是认知控制主导？
+- Q-lcp-02（中优先）：社会门控具体神经回路（注意/奖励/共同注意/感知-动作耦合的相对贡献）
+- Q-lcp-03（高优先）：ASD中社会门控功能受损是否是语言延迟的主要神经路径？
+
+**新增悬空引用（待填补）**：
+- `autism-language-delay`（social-gating-language引用，ASD中语言延迟的社会门控机制专页待建）
+- `gaba-critical-period-closure`（language-critical-period提及GABA调制关闭机制，待专页）
+
+**图谱更新**：+3节点（language-critical-period/statistical-learning/social-gating-language），+约12条边；总节点259，总边约1448（具体见_graph.json）
+
+---
+
 ## 2026-08-21（文章 #119 — 语言之弦：弓状束三段式纤维架构如何编织感知与产生之间的神经桥梁）
 
 **新建页面（1 页）**：

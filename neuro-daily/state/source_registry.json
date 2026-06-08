@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-08-22",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8508,6 +8508,158 @@
       ],
       "open_access": false,
       "access_method": "abstract only"
+    },
+    {
+      "pmid": "15496861",
+      "pmcid": "PMC2947444",
+      "title": "Early language acquisition: cracking the speech code",
+      "authors_short": "Kuhl PK",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2004,
+      "first_used": "2026-08-22",
+      "used_in_articles": [
+        "2026-08-22-language-acquisition-critical-period.md"
+      ],
+      "aspects_covered": [
+        "NLM-e theory (native language magnet extended)",
+        "perceptual narrowing timeline 6-12 months",
+        "statistical learning bimodal/unimodal distributions",
+        "social gating discovery (live tutor vs TV/audio)",
+        "6-month phoneme discrimination predicts 13/16/24-month language"
+      ],
+      "access_type": "open_full_text",
+      "note": "PMC2947444 open full text. Foundational Kuhl review."
+    },
+    {
+      "pmid": "17181708",
+      "pmcid": "PMC2670827",
+      "title": "Is speech learning 'gated' by the social brain?",
+      "authors_short": "Kuhl PK",
+      "journal": "Developmental Science",
+      "year": 2007,
+      "first_used": "2026-08-22",
+      "used_in_articles": [
+        "2026-08-22-language-acquisition-critical-period.md"
+      ],
+      "aspects_covered": [
+        "social gating hypothesis formal proposal",
+        "live tutor vs DVD/audio experimental results",
+        "social attention (gaze) predicts phoneme learning (EEG)",
+        "songbird vocal learning parallel"
+      ],
+      "access_type": "open_full_text",
+      "note": "PMC2670827 open full text. Core social gating paper."
+    },
+    {
+      "pmid": "25024207",
+      "pmcid": null,
+      "title": "Infants' brain responses to speech suggest Analysis by Synthesis",
+      "authors_short": "Kuhl PK et al.",
+      "journal": "PNAS",
+      "year": 2014,
+      "first_used": "2026-08-22",
+      "used_in_articles": [
+        "2026-08-22-language-acquisition-critical-period.md"
+      ],
+      "aspects_covered": [
+        "MEG: 7-month infants STG+Broca equally activated for native/nonnative",
+        "MEG: 11-12-month double dissociation (native→STG, nonnative→Broca)",
+        "analysis by synthesis model for speech perception"
+      ],
+      "access_type": "abstract_only"
+    },
+    {
+      "pmid": "8943209",
+      "pmcid": null,
+      "title": "Statistical learning by 8-month-old infants",
+      "authors_short": "Saffran JR, Aslin RN, Newport EL",
+      "journal": "Science",
+      "year": 1996,
+      "first_used": "2026-08-22",
+      "used_in_articles": [
+        "2026-08-22-language-acquisition-critical-period.md"
+      ],
+      "aspects_covered": [
+        "8-month infants learn word segmentation from 2 minutes of artificial language",
+        "transitional probabilities as cue to word boundaries",
+        "implicit statistical learning before word knowledge"
+      ],
+      "access_type": "abstract_only",
+      "note": "Foundational statistical learning paper."
+    },
+    {
+      "pmid": "19284661",
+      "pmcid": null,
+      "title": "Statistical language learning in neonates revealed by event-related brain potentials",
+      "authors_short": "Teinonen T et al.",
+      "journal": "BMC Neuroscience",
+      "year": 2009,
+      "first_used": "2026-08-22",
+      "used_in_articles": [
+        "2026-08-22-language-acquisition-critical-period.md"
+      ],
+      "aspects_covered": [
+        "sleeping neonates show differential ERP to syllables at different statistical positions",
+        "statistical learning present at birth",
+        "word boundary detection in neonates"
+      ],
+      "access_type": "abstract_only"
+    },
+    {
+      "pmid": "41886982",
+      "pmcid": "PMC4128155",
+      "title": "Grammar acquisition in preschool children is related to white matter maturation of the dorsal language network",
+      "authors_short": "Klein CC et al.",
+      "journal": "Developmental Cognitive Neuroscience",
+      "year": 2026,
+      "first_used": "2026-08-22",
+      "used_in_articles": [
+        "2026-08-22-language-acquisition-critical-period.md"
+      ],
+      "aspects_covered": [
+        "N=120 preschoolers (3-5 years), DTI + morpho-syntax testing",
+        "3-year-olds: no correlation between white matter and morpho-syntax",
+        "4-5-year-olds: significant correlation with dorsal pathway to BA6 and BA44",
+        "4-year threshold for white matter-grammar relationship"
+      ],
+      "access_type": "open_full_text",
+      "note": "PMC4128155 open full text. Friederici lab, 2026."
+    },
+    {
+      "pmid": "37344237",
+      "pmcid": "PMC13053781",
+      "title": "Prerequisites of language acquisition in the newborn brain",
+      "authors_short": "Kujala T et al.",
+      "journal": "Trends in Neurosciences",
+      "year": 2023,
+      "first_used": "2026-08-22",
+      "used_in_articles": [
+        "2026-08-22-language-acquisition-critical-period.md"
+      ],
+      "aspects_covered": [
+        "newborn auditory core abilities: statistical learning, rule extraction, stream segregation",
+        "neonate EEG/ERP review",
+        "neonatal brain ready to acquire language"
+      ],
+      "access_type": "abstract_only"
+    },
+    {
+      "pmid": "32503914",
+      "pmcid": null,
+      "title": "Critical period regulation across multiple timescales",
+      "authors_short": "Reh RK et al.",
+      "journal": "PNAS",
+      "year": 2020,
+      "first_used": "2026-08-22",
+      "used_in_articles": [
+        "2026-08-22-language-acquisition-critical-period.md"
+      ],
+      "aspects_covered": [
+        "E/I balance in critical period regulation",
+        "GABA maturation and closure mechanisms",
+        "multi-timescale regulation framework"
+      ],
+      "access_type": "abstract_only"
     }
   ],
   "total_sources": 485,

@@ -921,3 +921,5 @@
 
 - 弓状束三段式架构（#119，Aug 21）：打破"语言电话线"神话——AF内部分为直接段（pSTG→BA44，音韵时序传输，支撑重复）、间接后段（颞叶→顶下小叶IPL，多模态语义整合）、间接前段（IPL→BA44，句法整合）三条功能各异的通路（Catani 2005）。关键补充：Glasser 2008——左侧AF终止于语音皮层pSTG，右侧终止于韵律皮层MTG，这个靶区差异才是左侧化功能意义的关键；Friederici 2012——背侧路径II（颞叶→BA44）7岁前不完整，与句法关键期精确对应；Balezeau 2020——猕猴/黑猩猩有双侧对称的"听觉AF原型"，人类特有高度左侧化（三重交互p=0.002），语言演化是对祖先通路的定向改写而非从头发明；传导性失语：理解完整/产出流利/重复受损，精确指向直接段-Spt回路；颞叶端延伸争议（C-2026-08-21-01）。新建1个wiki页（conduction-aphasia），修订3个页面（arcuate-fasciculus重大修订rev2，dorsal-language-stream rev2，language-network minor）。图谱256节点，1436边。
 
+
+- 语言习得关键期（#120，Aug 22）：语言习得不依赖单一关键期，而是依赖分层嵌套的多个敏感期——音位（0-12月，STG感知收窄）、词义（12-30月，词汇爆发，腹侧流）、形态句法（2-5岁，背侧路径I/II逐步约束）、复杂句法（5-7岁，路径II完整成熟）。三层驱动机制：(1)天生统计学习引擎（Saffran 1996: 8月婴儿2分钟学词；Teinonen 2009: 睡眠新生儿ERP）；(2)社会门控（Kuhl 2007: 12次真人普通话课→婴儿习得音素，等量录像/录音→零学习；目光接触预测学习成绩）；(3)白质成熟约束（Friederici 2012: 背侧路径I出生即有/路径II七岁前成熟；Klein 2026 N=120: 4岁断点，路径I/II成熟度与形态句法显著相关，3岁无相关）。Kuhl 2014 MEG双解离：7月婴儿运动/听觉等量激活；11-12月双解离（母语→STG，非母语→Broca），证明感知-动作耦合已母语化。新建3个wiki页（language-critical-period, statistical-learning, social-gating-language），修订3个页面（phoneme-categorical-perception rev2, dorsal-language-stream rev3, language-network rev5）。图谱259节点，1450边。

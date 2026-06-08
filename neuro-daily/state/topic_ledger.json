@@ -7618,6 +7618,78 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-08（真实执行日期）；知识库虚拟日期2026-08-21；文章延续语言脊柱，衔接STG音素感知(#120)→AF白质骨干(#119)；4个来源开放全文，6个摘要仅读；1个新矛盾登记（C-2026-08-21-01，AF颞叶端争议）；1个新wiki页创建（conduction-aphasia）；3个wiki页修订"
+    },
+    {
+      "date": "2026-08-22",
+      "real_date": "2026-06-08",
+      "article_number": 120,
+      "title": "语言习得关键期：感知收窄、统计学习与神经成熟的协同舞蹈",
+      "slug": "language-acquisition-critical-period",
+      "filename": "2026-08-22-language-acquisition-critical-period.md",
+      "article_type": "regular",
+      "core_question": "婴儿如何在出生后第一年将泛语言感知收窄为母语特化感知？统计学习、社会门控与弓状束背侧路径I/II发育三者如何协同约束语言习得的分层时间窗口？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（语言习得时间窗口；衔接STG音素感知#118→AF白质骨干#119→语言关键期#120；接下来可进入语音理解预测处理或腹侧语言流深度）",
+      "topic_tags": [
+        "language acquisition critical period",
+        "perceptual narrowing",
+        "phoneme categorical perception development",
+        "statistical learning Saffran 1996",
+        "social gating hypothesis Kuhl",
+        "native language magnet theory NLM-e",
+        "dorsal pathway I II Friederici",
+        "white matter language development Klein 2026",
+        "analysis by synthesis Kuhl 2014 MEG",
+        "sensitive period hierarchy",
+        "morpho-syntax preschool DTI",
+        "transitional probabilities word segmentation",
+        "social interaction speech learning",
+        "live tutor vs TV experiment",
+        "songbird vocal learning parallel",
+        "autism language delay social gating",
+        "critical period closure GABA EI balance"
+      ],
+      "main_sources": [
+        "PMID:15496861 / PMC:PMC2947444 (Kuhl 2004, NRN, open full text) — NLM-e理论；感知收窄时间线；统计学习分布实验；社会门控发现",
+        "PMID:20826304 / PMC:PMC3272640 (Kuhl 2010, Neuron, open full text) — 婴儿语言神经成像综述；早期脑响应预测后续语言",
+        "PMID:17181708 / PMC:PMC2670827 (Kuhl 2007, Dev Sci, open full text) — 社会门控假说；真人vs录像实验",
+        "PMID:25024207 (Kuhl 2014, PNAS, abstract only) — MEG双解离：7月vs11-12月运动-听觉母语化",
+        "PMID:8943209 (Saffran 1996, Science, abstract only) — 8月婴儿2分钟统计词分割",
+        "PMID:19284661 (Teinonen 2009, BMC Neurosci, abstract only) — 睡眠新生儿统计学习ERP",
+        "PMID:22347185 / PMC:PMC3272640 (Friederici 2012, Front Evol Neurosci, open full text) — 背侧路径I/II发育双分组框架",
+        "PMID:41886982 (Klein 2026, Dev Cogn Neurosci, open full text) — 3-5岁儿童DTI：4岁断点，句法-白质相关",
+        "PMID:37344237 (Kujala 2023, Trends Neurosci, abstract only) — 新生儿语言前提综述",
+        "PMID:32503914 (Reh 2020, PNAS, abstract only) — 关键期调控跨时间尺度框架"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/language-critical-period.md",
+        "wiki/concepts/statistical-learning.md",
+        "wiki/concepts/social-gating-language.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/phoneme-categorical-perception.md (rev1->rev2): 新增感知收窄预测力（Kuhl 2004纵向数据）；新增社会门控依赖性；related新增3个节点；key_sources新增2个PMID",
+        "wiki/circuits/dorsal-language-stream.md (rev2->rev3): 新增Klein 2026行为验证（N=120学龄前儿童DTI：4岁断点）；related新增language-critical-period；key_sources新增PMID:41886982",
+        "wiki/systems/language-network.md (rev4->rev5): related新增language-critical-period；key_sources新增PMID:22347185"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-lcp-01",
+        "Q-lcp-02",
+        "Q-lcp-03"
+      ],
+      "next_suggested_topics": [
+        "speech-comprehension-predictive: 语音理解的预测处理框架——从词汇到句子的自上而下预测误差回路（衔接STG#118→AF#119→关键期#120，完成语言感知→理解链条）",
+        "ventral-language-stream-deep: 腹侧语言流深度——IFOF/UF/EmC的功能差异与语义计算的解剖基础（对比背侧流三篇，完成双流解剖架构）",
+        "language-lateralization: 语言左侧化的发育和进化起源——为何左半球主导？发育早期即存在还是逐步偏侧化？FOXP2的角色"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-08（真实执行日期）；知识库虚拟日期2026-08-22；文章延续语言脊柱，衔接AF白质骨干(#119)→语言关键期(#120)；4篇来源开放全文，5篇摘要仅读，1项经典研究通过综述引用；3个新wiki页创建，3个wiki页修订；无新矛盾登记"
     }
   ],
   "layer_coverage_recent": {

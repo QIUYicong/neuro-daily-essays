@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "node_count": 256,
   "edge_count": 1436,
   "edge_types": [
@@ -2317,6 +2317,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/conduction-aphasia.md"
+    },
+    {
+      "id": "language-critical-period",
+      "title": "语言习得关键期（分层敏感期）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/language-critical-period.md"
+    },
+    {
+      "id": "statistical-learning",
+      "title": "统计学习（语言习得）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/statistical-learning.md"
+    },
+    {
+      "id": "social-gating-language",
+      "title": "社会门控（语言习得）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/social-gating-language.md"
     }
   ],
   "edges": [
@@ -10029,6 +10056,76 @@
     {
       "from": "arcuate-fasciculus",
       "to": "ventral-language-stream",
+      "type": "related"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "phoneme-categorical-perception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "statistical-learning",
+      "type": "related"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "social-gating-language",
+      "type": "related"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "dorsal-language-stream",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "arcuate-fasciculus",
+      "type": "related"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "stg-phoneme-processing",
+      "type": "related"
+    },
+    {
+      "from": "statistical-learning",
+      "to": "language-critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "statistical-learning",
+      "to": "phoneme-categorical-perception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "statistical-learning",
+      "to": "social-gating-language",
+      "type": "related"
+    },
+    {
+      "from": "social-gating-language",
+      "to": "language-critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "social-gating-language",
+      "to": "statistical-learning",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-language-stream",
+      "to": "language-critical-period",
+      "type": "related"
+    },
+    {
+      "from": "phoneme-categorical-perception",
+      "to": "language-critical-period",
       "type": "related"
     }
   ],
