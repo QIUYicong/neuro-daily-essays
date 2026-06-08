@@ -7539,6 +7539,85 @@
         "speech-comprehension-predictive: 语音理解的预测处理框架——从词汇到句子的自上而下回路",
         "prosody-neural-basis: 韵律的dPCSA/右半球神经基础"
       ]
+    },
+    {
+      "date": "2026-08-21",
+      "real_date": "2026-06-08",
+      "article_number": 119,
+      "title": "语言之弦：弓状束三段式纤维架构如何编织感知与产生之间的神经桥梁",
+      "slug": "arcuate-fasciculus-three-segment-language",
+      "filename": "2026-08-21-arcuate-fasciculus-three-segment-language.md",
+      "article_type": "regular",
+      "core_question": "弓状束（AF）的直接段（pSTG→BA44音韵传输）、间接后段（颞叶→顶下小叶多模态整合）和间接前段（顶叶→BA44句法整合）如何通过三段式白质架构分别支撑背侧语言流的不同功能？非人灵长类的'听觉AF原型'（双侧对称）与人类高度左侧化AF（物种×通路×半球交互p=0.002）有何根本差异？AF背侧路径II（直接连BA44）7岁前不完整如何解释句法关键期的神经基础？传导性失语症三特征如何精确定位AF直接段功能？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（语言白质基础设施；衔接 STG音素感知#120→AF白质骨干#119→语言双流网络架构；完成感知←→产生→白质链路三角；接下来可进入语言习得关键期或语言理解预测处理）",
+      "topic_tags": [
+        "arcuate fasciculus",
+        "AF three-segment model",
+        "long direct segment",
+        "indirect anterior segment",
+        "indirect posterior segment",
+        "Catani 2005",
+        "DTI tractography",
+        "white matter language",
+        "dorsal language stream",
+        "conduction aphasia",
+        "conduite d'approche",
+        "phonological loop",
+        "Wernicke's area",
+        "Broca's area BA44",
+        "inferior parietal lobule",
+        "Spt sylvian parietal temporal",
+        "language lateralization",
+        "primate arcuate fasciculus",
+        "Balezeau 2020",
+        "Friederici dorsal pathway",
+        "syntax critical period white matter",
+        "Glasser Rilling 2008",
+        "visual word form area VWFA",
+        "AF temporal terminations controversy"
+      ],
+      "main_sources": [
+        "PMID:15597383 (Catani 2005, Ann Neurol, abstract only) — 三段式AF发现论文",
+        "PMID:17431404 (Hickok & Poeppel 2007, NRN, abstract only) — 双流模型框架",
+        "PMID:18281301 (Glasser & Rilling 2008, Cereb Cortex, abstract only) — 左右AF差异化靶区",
+        "PMID:22347185 / PMC:PMC3272640 (Friederici 2012, Front Evol Neurosci, open full text) — 背侧路径I/II发育双分组",
+        "PMID:23643035 (Brauer 2013, Brain Lang, abstract only) — 腹侧路径先于背侧成熟",
+        "PMID:24951631 (Forkel 2014, Brain, abstract only) — 右侧AF与失语恢复",
+        "PMID:32313267 / PMC:PMC7195223 (Balezeau 2020, Nat Neurosci, open full text) — 灵长类AF原型+人类左侧化",
+        "PMID:35142842 (Giampiccolo & Duffau 2022, Brain, abstract only) — AF颞叶端争议",
+        "PMID:37051488 / PMC:PMC10083342 (Shekari & Nozari 2023, Front Hum Neurosci, open full text) — 语言白质通路综述",
+        "PMID:38033540 / PMC:PMC10684764 (Shao 2023, Front Neurosci, open full text) — AF临床综述"
+      ],
+      "wiki_pages_created": [
+        "wiki/diseases/conduction-aphasia.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/arcuate-fasciculus.md (rev1->rev2): 重大修订——加入三段式模型、发育时间线、进化比较、AF-音韵双解离、颞叶端争议；新增related/opens_questions/key_sources",
+        "wiki/circuits/dorsal-language-stream.md (rev1->rev2): 新增AF三段式架构子节、背侧路径I/II发育时间线、进化起源；新增related",
+        "wiki/systems/language-network.md: minor——related字段新增conduction-aphasia"
+      ],
+      "contested_claims_logged": [
+        "C-2026-08-21-01 (AF颞叶端边界：pSTG传统模型 vs MTG/ITG梭状回延伸，Giampiccolo 2022)"
+      ],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-af-01",
+        "Q-af-02",
+        "Q-af-03",
+        "Q-af-conduction-01"
+      ],
+      "next_suggested_topics": [
+        "language-acquisition-critical-period: 语言习得关键期的神经机制（感知收窄+统计学习+社会门控+AF背侧路径II成熟时间线）——衔接今日AF发育数据",
+        "speech-comprehension-predictive: 语音理解的预测处理框架——从词汇到句子的自上而下回路（衔接STG音素感知#120与AF白质传输今日#119）",
+        "ventral-language-stream-deep: 腹侧语言流深度——IFOF/UF/EmC的功能差异与语义计算的解剖基础（对比今日背侧流，完成双流解剖架构）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-08（真实执行日期）；知识库虚拟日期2026-08-21；文章延续语言脊柱，衔接STG音素感知(#120)→AF白质骨干(#119)；4个来源开放全文，6个摘要仅读；1个新矛盾登记（C-2026-08-21-01，AF颞叶端争议）；1个新wiki页创建（conduction-aphasia）；3个wiki页修订"
     }
   ],
   "layer_coverage_recent": {

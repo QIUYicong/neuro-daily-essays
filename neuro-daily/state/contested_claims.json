@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-08-16",
+  "last_updated": "2026-08-21",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 10,
+  "open_count": 11,
   "resolved_count": 0,
   "claims": [
     {
@@ -128,6 +128,19 @@
       "source_article": "2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition",
       "priority": "high",
       "note": "claim_A 为数十年 IT 研究主流（established，多物种多实验室）；claim_B 为近年综述（2022）提出的系统性挑战（中等证据）。裁决需要：(1) 直接比较 IT 神经元对全局形状操控 vs 纹理统计保留的形状扰动刺激的响应；(2) 猕猴单神经元在 texforms vs 真实物体条件下的分辨率匹配实验；(3) 人类 fMRI MVPA 在控制纹理统计后的形状解码残差检验"
+    },
+    {
+      "id": "C-2026-08-21-01",
+      "page": "wiki/concepts/arcuate-fasciculus.md",
+      "claim_A": "AF颞叶端主要（或仅）连接pSTG/BA22（Wernicke区）——传统DTI追踪和Catani 2005三段式模型的默认设置（PMID:15597383）",
+      "claim_B": "AF颞叶端延伸至MTG（声学-音韵）、ITG/梭状回（VWFA视觉词形区）和基底颞叶语言区（词汇编码）——Giampiccolo & Duffau 2022综合DCS皮层下刺激+高分辨率DTI（PMID:35142842）",
+      "nature": "方法差异（不同DTI追踪参数/种子点）+ 可能的真实解剖变异（部分个体AF可能有更广泛的颞叶覆盖）",
+      "status": "open",
+      "opened": "2026-08-21",
+      "resolved": null,
+      "resolution": null,
+      "priority": "medium",
+      "clinical_relevance": "脑肿瘤手术中语言保护区域的范围界定；失读症（alexia）的解剖基础"
     }
   ]
 }

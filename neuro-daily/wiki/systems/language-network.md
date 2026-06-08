@@ -9,7 +9,7 @@ created: 2026-06-20
 updated: 2026-07-15
 revision_count: 4
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub, conduction-aphasia]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
 opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
 source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream]

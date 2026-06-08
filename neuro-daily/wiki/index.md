@@ -218,7 +218,7 @@
 - 🔵 [颞上回音素计算](systems/stg-phoneme-processing.md) — STG四大核心计算（非线性范畴化/说话者归一化/语境修复提前300ms/时间标记peakRate）；pSTG起始检测/mSTG音节边界/aSTG可理解性；双尺度表征（局部→特征，群体→音素身份）；言语感知的主动预测框架 **[NEW 2026-08-20 #102]**
 - 🔵 [言语产生神经回路](systems/speech-production-circuit.md) — SMA/pre-SMA启动（-240ms）→左IFG/vPMC音节程序→M1执行；前馈（主导流利言语）vs反馈（pSTG听觉+SMG体感→右vPMC纠偏）；效应副本抑制自产语音；双前中央言语区（vPCSA发音/dPCSA音调）；DIVA/GODIVA框架 **[NEW 2026-08-19 #118]**
 - 🔵 [辅助运动区与前辅助运动区](systems/sma-presma.md) — 言语启动最早皮层节点（pre-SMA: -240ms; SMA: -170ms先于开口）；活动随RT动态伸缩；通过BG-丘脑接收时序"go"信号；准备协调者而非执行者 **[NEW 2026-08-19 #118]**
-- 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；左侧优势；出生时低髓鞘化→随句法习得成熟；损伤→传导性失语 **[NEW 2026-06-20]**
+- 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；三段式结构（直接段/间接后段/间接前段，Catani 2005）；左半球AF终止于pSTG（语音皮层）而非MTG；背侧路径II（颞叶→BA44）7岁前未完全成熟与句法关键期对应；灵长类听觉原型+人类特有左侧化（Balezeau 2020）；损伤→传导性失语；颞叶端延伸争议（Giampiccolo 2022） **[修订 rev2 2026-08-21 #119]**
 - 🟢 [背侧语言流](circuits/dorsal-language-stream.md) — A1→颞平面→Spt→弓状束→BA44；音韵缓冲+句法层级运算；左侧主导 **[NEW 2026-06-20]**
 - 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→ATL（语义枢纽）→BA45；声音→词义；双侧；四大白质束（IFOF/UF/ILF/MLF）DES临床验证 **[修订 rev2 2026-07-15]**
 - 🟢 [前颞叶语义枢纽（ATL Hub）](concepts/anterior-temporal-lobe-hub.md) — Hub-and-Spoke模型：ATL整合各感觉模态特征→跨模态概念；语义痴呆自然实验；0-250ms早期枢纽，角回250-450ms接管；fMRI低估问题；ATL→spoke不对称连接（t₁₉=5.11）；rTMS双离解因果证据；C3计算模型 **[修订rev2 2026-07-16]**
@@ -281,6 +281,7 @@
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
 - 🟢 [物质使用障碍（成瘾）](diseases/substance-use-disorder.md) — 三阶段模型（基底节陶醉期/扩展杏仁核戒断负性情绪/PFC渴望期）；ΔFosB 分子开关；NAc CP-AMPA 渴望孵化；D2 受体下调（PET 跨物质一致）；激励显著性 wanting/liking 神经分离 **[NEW 2026-07-14]**
 - 🔵 [自闭症谱系障碍](diseases/autism-spectrum-disorder.md) — 高度异质神经发育障碍；三大通路：(1)突触修剪不足（16p11.2缺失→CD47感知障碍→小胶质吞噬↓→突触密度↑）；(2)突触装配蛋白突变（NLGN3/SHANK3/NRXN1β）；(3)E/I失衡偏兴奋；与精神分裂症形成"删除方向"镜像（过多 vs. 过少修剪）；confidence=medium（机制异质性大）**[NEW 2026-08-07 #106]**
+- 🟢 [传导性失语症](diseases/conduction-aphasia.md) — AF直接段/Spt损伤的典型临床表现；三特征：理解完整/产出流利/重复严重受损；conduite d'approche在DIVA前馈/反馈框架中的解释；皮层（Spt）vs 白质（AF）损伤争议 **[NEW 2026-08-21 #119]**
 
 ---
 

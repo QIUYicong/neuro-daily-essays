@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-20",
-  "node_count": 244,
-  "edge_count": 1386,
+  "updated": "2026-08-21",
+  "node_count": 256,
+  "edge_count": 1436,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2308,6 +2308,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/phoneme-categorical-perception.md"
+    },
+    {
+      "id": "conduction-aphasia",
+      "title": "传导性失语症",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/conduction-aphasia.md"
     }
   ],
   "edges": [
@@ -9990,6 +9999,36 @@
     {
       "from": "auditory-dual-stream",
       "to": "stg-phoneme-processing",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "conduction-aphasia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "conduction-aphasia",
+      "to": "dorsal-language-stream",
+      "type": "is-a"
+    },
+    {
+      "from": "conduction-aphasia",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "stg-phoneme-processing",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "speech-production-circuit",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "ventral-language-stream",
       "type": "related"
     }
   ],

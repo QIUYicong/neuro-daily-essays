@@ -918,3 +918,6 @@
 **对月度大图的贡献**：完成了听觉双流文章（#118，Aug 18）→言语产生（#118，Aug 19）的感知→产生完整语言环路。核心新知：真正的言语运动协调中枢在前中央回（vPCSA/dPCSA），布罗卡区承担高层语言而非肌肉协调；效应副本使大脑能听到"误差"而非被自产语音淹没。新建3个wiki页面（speech-production-circuit, diva-model, sma-presma），修订broca-area(rev3)。图谱：252节点，1417边。
 
 - STG音素计算机制（#102，Aug 20）：STG不是被动声学传感器，而是主动预测解码器——语境修复发生在噪声出现前300ms；四大核心计算（非线性范畴化/说话者归一化/语境修复/时间标记提取）；双尺度表征（局部→特征，群体→音素身份）；θ-γ振荡嵌套框架；左快右慢AST不对称。完成"感知←→产生"完整环路：今日文章（STG感知侧）与Aug 19（言语产生侧）共同构成言语双向回路的两面。新建3个wiki页面（stg-phoneme-processing, cortical-speech-entrainment, phoneme-categorical-perception），修订auditory-cortex(rev4)/auditory-dual-stream(rev2)。图谱：255节点，1430边。
+
+- 弓状束三段式架构（#119，Aug 21）：打破"语言电话线"神话——AF内部分为直接段（pSTG→BA44，音韵时序传输，支撑重复）、间接后段（颞叶→顶下小叶IPL，多模态语义整合）、间接前段（IPL→BA44，句法整合）三条功能各异的通路（Catani 2005）。关键补充：Glasser 2008——左侧AF终止于语音皮层pSTG，右侧终止于韵律皮层MTG，这个靶区差异才是左侧化功能意义的关键；Friederici 2012——背侧路径II（颞叶→BA44）7岁前不完整，与句法关键期精确对应；Balezeau 2020——猕猴/黑猩猩有双侧对称的"听觉AF原型"，人类特有高度左侧化（三重交互p=0.002），语言演化是对祖先通路的定向改写而非从头发明；传导性失语：理解完整/产出流利/重复受损，精确指向直接段-Spt回路；颞叶端延伸争议（C-2026-08-21-01）。新建1个wiki页（conduction-aphasia），修订3个页面（arcuate-fasciculus重大修订rev2，dorsal-language-stream rev2，language-network minor）。图谱256节点，1436边。
+

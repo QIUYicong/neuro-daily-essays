@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-08-21（文章 #119 — 语言之弦：弓状束三段式纤维架构如何编织感知与产生之间的神经桥梁）
+
+**新建页面（1 页）**：
+- `wiki/diseases/conduction-aphasia.md`：传导性失语症——三特征（理解完整/产出流利/重复受损）；经典解释（AF直接段损伤）vs. 修订观点（Spt皮层损伤）；conduite d'approche在DIVA模型中的解释；key_sources含PMID:15597383/PMID:17431404/PMID:20720112
+
+**修订页面（3 页）**：
+- `wiki/concepts/arcuate-fasciculus.md`（rev1→rev2）：**重大修订**——整合Catani 2005三段式架构（直接段/间接后段/间接前段）；Glasser 2008左右AF差异化靶区；Friederici 2012背侧路径I/II发育双分组；Balezeau 2020跨物种进化比较（灵长类听觉原型+人类左侧化p=0.002）；Shekari 2023 AF-音韵/IFOF-语义双解离；Giampiccolo 2022颞叶端争议（登记矛盾C-2026-08-21-01）；新增related:conduction-aphasia,stg-phoneme-processing,speech-production-circuit；新增3个未解问题（Q-af-01/02/03）
+- `wiki/circuits/dorsal-language-stream.md`（rev1→rev2）：新增AF三段式架构子节（直接/后间接/前间接段）；新增背侧路径I/II发育时间线；新增进化起源（Balezeau 2020）；新增related:conduction-aphasia,stg-phoneme-processing
+- `wiki/systems/language-network.md`：minor——related字段新增conduction-aphasia
+
+**矛盾登记（1 条）**：
+- `C-2026-08-21-01`（open）：AF颞叶端边界争议——传统模型（AF终止于pSTG/Wernicke区）vs. Giampiccolo & Duffau 2022（DCS+DTI显示AF延伸至MTG/ITG梭状回/VWFA/基底颞叶语言区）；性质：方法差异+可能的真实解剖变异；影响：失读症解释和术中语言保护
+
+**新增悬空引用（待填补）**：
+- `phonological-loop`（被arcuate-fasciculus和dorsal-language-stream引用，Baddeley语音工作记忆专页待建）
+
+**图谱更新**：+1节点（conduction-aphasia），+6边（arcuate-fasciculus→conduction-aphasia:mechanism-of；conduction-aphasia→dorsal-language-stream:is-a；conduction-aphasia→language-network:related；arcuate-fasciculus→stg-phoneme-processing:related；arcuate-fasciculus→speech-production-circuit:related；arcuate-fasciculus→ventral-language-stream:related）；总节点256，总边1436
+
+---
+
 ## 2026-08-20（文章 #102 — 声音之刀：颞上回如何将连续声学流切割为音素）
 
 **新建页面（3 页）**：
