@@ -1,0 +1,96 @@
+# 每日运行日志 2026-08-24（实际执行日期：2026-06-09）
+
+## 运行配置
+- 分支：main
+- 文章编号：#122
+- 知识库虚拟日期：2026-08-24
+- 实际执行日期：2026-06-09（UTC+8）
+
+## 主题选择
+- 依据：topic_ledger 最后一篇 (#121) next_suggested_topics 第一条
+- 选定主题：语言左侧化起源 (language-lateralization-left-hemisphere)
+- 选题逻辑：语言脊柱第 8 篇，衔接前序语言系列；无重大紧迫矛盾或突破；课程脊柱驱动
+
+## 检索记录
+
+### 搜索词
+1. language lateralization brain review
+2. planum temporale asymmetry
+3. FOXP2 language speech evolution review
+4. infant newborn language lateralization fNIRS fMRI
+5. hemispheric asymmetry speech perception newborn
+6. complementary hemispheric specialization language
+
+### 数据源
+- PubMed esummary API（验证 PMID）
+- PMC 开放全文检索
+- 两个并行研究代理（总计 181,760 tokens）
+
+### 关键发现（PMID 更正）
+- 原用 PMID 多处错误（数据库 ID 碰撞问题）：
+  - Geschwind 1968: 5673631 → **5657070**（正确）
+  - Lai 2001: 11408619 → **11586359**（正确）
+  - Vargha-Khadem 2005: 15602775 → **15685218**（正确）
+  - Fisher 2009: 19763087 → **19304338**（正确）
+  - Dehaene-Lambertz 2002: 11935146 → **12471265**（正确）
+  - Gannon 1998: 确认 **9422693**
+
+### 候选来源：15 篇
+- 采用：15 篇
+- 排除：0 篇（全部相关）
+- 开放全文：6 篇（PMC2100148, PMC2947444, PMC4313811, PMC3557046, PMC5083015）
+- 摘要仅读：9 篇
+
+## 文章生产
+- 文件：articles/2026-08-24-language-lateralization-left-hemisphere.md
+- 结构：核心问题/摘要/为何重要/背景（Geschwind时代）/功能侧化证据/AST假说/新生儿发育起源/FOXP2/个体差异/比喻/认知意义/争议/AI对照/概念卡片/认知地图/参考文献（14条）
+- 字数：约 5800 字
+
+## 固结步骤
+
+### 新建 wiki 页（2页）
+1. `wiki/concepts/language-lateralization.md` — 核心页，综合 AST/先天起源/互补专化/侧化指数
+2. `wiki/concepts/foxp2-language-gene.md` — FOXP2 分子机制页
+
+### 修订 wiki 页（3页）
+3. `wiki/concepts/planum-temporale.md` (rev1→rev2)：新增黑猩猩数据、STAP 发现、修正 PMID
+4. `wiki/systems/language-network.md` (rev5→rev6)：minor，新增侧化和 FOXP2 连接
+5. `wiki/concepts/language-critical-period.md` (rev1→rev2)：minor，先天侧化作为关键期前提
+
+### 矛盾检查
+- 无新矛盾（PT 不对称因果方向已有 Q-pt-01 记录，今日更新该问题的证据状态）
+
+### 成熟度更新
+- language-lateralization: 新创建 established/high
+- foxp2-language-gene: 新创建 established/high
+- planum-temporale: status 升级 mainstream → established
+
+## 治理层更新
+- topic_ledger.json：第 122 条已追加
+- unresolved_questions.md：新增 Q-lat-01/02/03, Q-foxp2-01/02（5条新问题）
+- source_registry.json：新增 15 条来源
+- maturity_index.json：新增 2 条
+- monthly_synthesis.md：追加 2026-08-24 摘要
+- wiki/_graph.json：264 节点，1471 边（+8 节点含修正，+35 边）
+- wiki/CHANGELOG.md：追加今日记录
+
+## Git 操作
+- Branch: main
+- Commit: [见提交记录]
+- Push: [见提交记录]
+
+## 限制说明
+- Geschwind 1968 Science 文章无 PMC 全文（1968 年，pre-PMC）；使用摘要
+- Poeppel 2003 Speech Communication 无 PMC 全文；使用 DOI
+- 多篇经典文章（Lai 2001 Nature, Vargha-Khadem 2005 NRN 等）付费墙；使用摘要
+- 无研究造假或数据篡改问题
+
+## 质量自检
+- [x] 每条 wiki 新主张有来源
+- [x] 区分了事实/模型/推测/争议
+- [x] 没有把小样本研究写成定论（Cai 2013 n=28 标注"需大样本复制"）
+- [x] 冲突走了矛盾协议（Q-pt-01 更新，非覆盖）
+- [x] _graph.json 无已知悬空边（handedness-and-language 悬空引用已在 CHANGELOG 记录）
+- [x] index.md 和 CHANGELOG.md 反映今天变化
+- [x] 文章/笔记/来源/日志齐全
+- [x] 没有修改旧文章文件

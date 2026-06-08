@@ -927,3 +927,7 @@
 ### 2026-08-23 · 文章 #121 · 从声波到意义：大脑如何用预测编码完成语音理解
 
 语音理解不是单向声学解析，而是 IFG→STG/STS 双向预测回路：IFG 在 STG 响应前先生成预测（Sohoglu & Davis 2012 EEG/MEG 时序证据），STG/STS 只上报预测误差，正确理解时信号减弱而非增强。三项独立 fMRI/MEG 研究（Blank & Davis 2016；Sohoglu & Davis 2016 PNAS；Blank et al. 2018）形成连贯证据链。Cope & Davis 2023（7T fMRI）进一步显示运动皮层实例化语音预测，支持分析-合成框架。韦尼克区现代修正：pSTG/BA22 是音韵缓冲区而非理解中枢（Binder 2017）。颞平面（PT）的左大右小是语言左侧化最古老的解剖学证据。填补了 wernicke-area 和 planum-temporale 两个悬空引用。
+
+### 2026-08-24 · 文章 #122 · 语言为何偏向左脑：解剖不对称、FOXP2 进化与新生儿侧化的神经起源
+
+语言左侧化不是语言经验的产物，而是大脑为语言准备的先天舞台。四条证据链汇聚：(1)**解剖先天性**——黑猩猩 94% 左 PT > 右 PT（Gannon 1998），胎儿期 PT 不对称已存在，STAP（颞上不对称坑）从出生存在且是人类特有（Leroy 2015, PMID:25583500, PMC4313811）；(2)**功能先天性**——2-3 月龄婴儿 fMRI 已显示左侧颞顶语音激活（Dehaene-Lambertz 2002），6月龄左 STG MEG 响应强度预测 2-5 岁语言能力（Kuhl 2010）；(3)**计算原因**——AST 假说（Poeppel 2003）：左听觉皮层以 ~25-50Hz 快速采样辅音时序，右侧以 ~4-8Hz 慢速采样韵律，Giraud 2007 EEG/MEG 内源振荡证实；(4)**互补专化**——右侧化语言者 100% 为左侧化空间注意力（Cai 2013, PMC3557046），支持两种高要求功能分居两侧的计算效率假说。FOXP2 不是"语言基因"，而是通过调控纹状体-小脑序列运动学习回路发育（Lai 2001；Haesler 2007 鸟类因果；Enard 2009 人源化小鼠），间接支持言语发音精确协调；人类特有两氨基酸替换（约 20-40 万年前）增强纹状体 LTD；尼安德特人携带相同替换。新建2个wiki页（language-lateralization, foxp2-language-gene），修订3个页面（planum-temporale rev2, language-network rev6, language-critical-period rev2）。图谱264节点，1471边。

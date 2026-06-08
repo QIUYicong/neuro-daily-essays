@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-08-22
-revision_count: 5
+updated: 2026-08-24
+revision_count: 6
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub, conduction-aphasia, language-critical-period]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub, conduction-aphasia, language-critical-period, language-lateralization, foxp2-language-gene]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
 opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
-source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream, 2026-08-22-language-acquisition-critical-period]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:32160565", "PMID:31874149", "PMID:28053037", "PMID:22347185"]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream, 2026-08-22-language-acquisition-critical-period, 2026-08-24-language-lateralization-left-hemisphere]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:32160565", "PMID:31874149", "PMID:28053037", "PMID:22347185", "PMID:18093532", "PMID:11586359"]
 ---
 
 # 语言网络（双流模型）(Dual-Stream Language Network)
@@ -92,6 +92,7 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 - 2026-06-21 · 修订 · 新增镜像神经元（F5/BA44同源）与运动皮层的连接，补充语言演化的动作理解背景 · 依据《从意图到动作》（#57）
 - 2026-07-15 · 重要修订 · 新增LANG/MD网络关键分离（Fedorenko 2020）；新增语言专属预测编码（Shain 2020）；新增ATL语义枢纽作为腹流核心节点；更新related/key_sources
 - 2026-08-22 · 修订 · 基于《语言习得关键期》(#120) · related新增language-critical-period；key_sources新增PMID:22347185；source_articles新增#120
+- 2026-08-24 · 修订（minor）· 基于《语言为何偏向左脑》(#122) · related新增language-lateralization/foxp2-language-gene；key_sources新增PMID:18093532（AST电生理支持）/PMID:11586359（FOXP2 KE家族）；source_articles新增#122；语言网络的左侧化有AST计算解释（左侧快时序采样）和FOXP2发育基础（序列运动回路）
 
 ## 来源文章
 
@@ -99,3 +100,4 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 - [[2026-06-21-motor-cortex-voluntary-movement]]
 - [[2026-07-15-language-network-dual-stream]]
 - [[2026-08-22-language-acquisition-critical-period]]
+- [[2026-08-24-language-lateralization-left-hemisphere]]

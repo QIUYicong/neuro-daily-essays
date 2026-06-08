@@ -3,17 +3,17 @@ title: 颞平面
 slug: planum-temporale
 domain: concepts
 type: structure
-status: mainstream
-confidence: medium
+status: established
+confidence: high
 created: 2026-08-23
-updated: 2026-08-23
-revision_count: 1
+updated: 2026-08-24
+revision_count: 2
 dimensions: [brain-region, cognition]
-related: [wernicke-area, stg-phoneme-processing, language-network, dorsal-language-stream, tonotopy]
+related: [wernicke-area, stg-phoneme-processing, language-network, dorsal-language-stream, tonotopy, language-lateralization]
 prerequisites: [auditory-cortex, stg-phoneme-processing]
 opens_questions: [Q-pt-01]
-source_articles: [2026-08-23-speech-comprehension-predictive-coding]
-key_sources: ["PMID:9344480", "PMID:17431404", "PMID:28656532"]
+source_articles: [2026-08-23-speech-comprehension-predictive-coding, 2026-08-24-language-lateralization-left-hemisphere]
+key_sources: ["PMID:5657070", "PMID:9422693", "PMID:25583500", "PMID:17431404", "PMID:28656532"]
 ---
 
 # 颞平面 (Planum Temporale)
@@ -50,10 +50,11 @@ key_sources: ["PMID:9344480", "PMID:17431404", "PMID:28656532"]
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
 |------|----------|------|--------|
-| 约 65% 人类大脑左 PT > 右 PT | 解剖尸检（n=100） | Geschwind & Levitsky 1968（Science，经典文献，全文可用） | 高（已被多项 MRI 研究重复） |
-| PT 左侧化在失聪者和音乐家中也存在 | MRI 结构解剖 + 功能成像 | 多项研究综述（间接来源，通过 Beaton 1997 引用） | 中 |
-| 左 PT 大小与语言左侧化相关但不确定 | 综述（结构 + Wada 功能）| PMID:9344480（Beaton 1997，摘要仅读） | 中 |
-| 失读症中 PT 对称性比例更高 | 解剖学综述 + 影像研究 | PMID:9344480（综述，摘要仅读） | 中 |
+| 约 65% 人类大脑左 PT > 右 PT | 解剖尸检（n=100） | Geschwind & Levitsky 1968, PMID:5657070（摘要可获取） | 高（已被无数 MRI 研究重复） |
+| 黑猩猩 94%（17/18）左 PT > 右 PT | 解剖（n=18 只黑猩猩） | Gannon 1998, PMID:9422693 | 高（先于语言演化存在的不对称） |
+| 颞上不对称坑（STAP）：95%人类右>左，从出生即存在，黑猩猩中罕见 | MRI（177人+73只黑猩猩） | Leroy 2015, PMID:25583500（PMC4313811，开放全文） | 高（大样本；人类特有） |
+| PT 左侧化在失聪者和音乐家中也存在 | MRI 结构解剖 + 功能成像 | 多项研究综述（间接来源） | 中 |
+| 左 PT 大小与语言左侧化相关但不确定 | 综述（结构 + Wada 功能）| Beaton 1997（摘要仅读） | 中 |
 
 ## 连接
 
@@ -62,15 +63,18 @@ key_sources: ["PMID:9344480", "PMID:17431404", "PMID:28656532"]
 - [[language-network]] — PT 是语言网络颞叶区的结构基础
 - [[dorsal-language-stream]] — 颞叶起点（pSTG/Spt 区）紧邻颞平面
 - [[tonotopy]] — PT 的频率调谐特性延伸并超越了 A1 的音调地形图
+- [[language-lateralization]] — PT 左侧化是语言侧化最古老的解剖学相关；两者的因果方向仍有争议
 
 ## 未解问题
 
-- Q-pt-01：PT 的左侧化是语言习得的**结果**（经验塑造了 PT 的不对称生长），还是先天**原因**（PT 的基因决定的不对称性预先偏置了语言偏侧化）？新生儿和胎儿的影像研究（Kujala 2023 综述）显示出生时已有 PT 不对称，偏向于先天起源假说——但习得经验对 PT 的塑形程度目前仍不清楚。
+- Q-pt-01：PT 的左侧化是语言习得的**结果**还是先天**原因**？新证据（Gannon 1998 黑猩猩数据；Leroy 2015 STAP 新生儿数据；胎儿影像）偏向先天起源说——但音乐训练也能改变 PT 大小，说明经验也有塑形作用。最可能的答案：先天不对称是初始条件，经验进一步放大和精细化，两者都参与。
 
 ## 修订历史
 
 - 2026-08-23 · 创建（填补悬空引用）· 基于《从声波到意义》文章#121 · 整合 Geschwind & Levitsky 1968 经典解剖发现和 Beaton 1997 综述（摘要仅读）
+- 2026-08-24 · **重要修订** · 基于《语言为何偏向左脑》文章#122 · 新增：(1) Gannon 1998 黑猩猩数据（94% 左 PT > 右 PT，强化先天起源说）；(2) Leroy 2015 STAP 发现（人类特有颞上不对称坑，开放全文）；(3) 修正 key_sources（更正 Geschwind 1968 PMID：5673631 → 5657070）；(4) related 新增 language-lateralization；(5) Q-pt-01 更新（增加新证据）；status 升级为 established（多项高质量研究支持）
 
 ## 来源文章
 
 - [[2026-08-23-speech-comprehension-predictive-coding]]
+- [[2026-08-24-language-lateralization-left-hemisphere]]

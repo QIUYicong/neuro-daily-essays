@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-23",
-  "total_articles": 121,
+  "last_updated": "2026-08-24",
+  "total_articles": 122,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7760,6 +7760,84 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-08（真实执行日期）；知识库虚拟日期2026-08-23；文章延续语言脊柱，衔接语言关键期(#120)→语音理解预测处理(#121)；7个来源开放全文，4个摘要仅读；3个新wiki页创建（填补wernicke-area+planum-temporale两个悬空引用）；2个wiki页修订；无新矛盾登记"
+    },
+    {
+      "date": "2026-08-24",
+      "real_date": "2026-06-09",
+      "article_number": 122,
+      "title": "语言为何偏向左脑：解剖不对称、FOXP2 进化与新生儿侧化的神经起源",
+      "slug": "language-lateralization-left-hemisphere",
+      "filename": "2026-08-24-language-lateralization-left-hemisphere.md",
+      "article_type": "regular",
+      "core_question": "为什么人类95%的右利手在脑卒中伤及左半球后失去语言，而同等右半球损伤却罕见这种后果？这种语言偏向左脑的格局，究竟是人类大脑先天刻写的遗传密码，还是语言学习经验雕刻出的神经习惯——FOXP2分子如何在其中扮演角色？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（语言侧化起源；衔接STG音素感知#118→AF白质骨干#119→语言关键期#120→语音理解预测处理#121→**语言侧化起源#122**；接下来可进入腹侧语言流深度或语音产出预测回路）",
+      "topic_tags": [
+        "language lateralization",
+        "planum temporale asymmetry",
+        "FOXP2 language gene",
+        "KE family speech disorder",
+        "Geschwind Levitsky 1968",
+        "asymmetric sampling in time",
+        "AST hypothesis Poeppel",
+        "infant speech perception fMRI",
+        "Dehaene-Lambertz 2002",
+        "newborn language left hemisphere",
+        "Wada test handedness",
+        "chimpanzee planum temporale Gannon",
+        "STAP superior temporal asymmetrical pit",
+        "Leroy 2015 PNAS human brain",
+        "complementary hemispheric specialization Cai",
+        "FOXP2 songbird FoxP2 Haesler",
+        "humanized Foxp2 mice Enard",
+        "Giraud cortical rhythms speech",
+        "Knecht handedness language dominance"
+      ],
+      "main_sources": [
+        "PMID:5657070 (Geschwind & Levitsky 1968, Science, 摘要) — PT左侧化经典发现",
+        "PMID:9422693 (Gannon et al. 1998, Science, 摘要) — 黑猩猩94%左PT大",
+        "PMID:11586359 (Lai et al. 2001, Nature, 摘要) — FOXP2突变与KE家族障碍",
+        "PMID:12471265 (Dehaene-Lambertz 2002, Science, 摘要) — 婴儿fMRI左侧化",
+        "PMID:20826304 / PMCID:PMC2947444 (Kuhl 2010, Neuron, 开放全文) — 婴儿语言神经综述+预测价值",
+        "PMID:25583500 / PMCID:PMC4313811 (Leroy 2015, PNAS, 开放全文) — STAP人类特有不对称坑",
+        "PMID:23297206 / PMCID:PMC3557046 (Cai 2013, PNAS, 开放全文) — 互补专化；右侧化语言者100%左侧化空间注意",
+        "PMID:18052609 / PMCID:PMC2100148 (Haesler 2007, PLoS Bio, 开放全文) — 鸣禽FoxP2因果证据",
+        "PMID:19490899 (Enard 2009, Cell, 摘要) — 人源化FOXP2小鼠纹状体增强",
+        "PMID:18093532 (Giraud 2007, Neuron, 摘要) — 内源振荡不对称AST电生理证据",
+        "PMID:11099452 (Knecht 2000, Brain, 摘要) — 326人fTCD手利-侧化梯度",
+        "DOI:10.1016/S0167-6393(02)00114-5 (Poeppel 2003, Speech Comm) — AST假说",
+        "PMID:15685218 (Vargha-Khadem 2005, NRN, 摘要) — FOXP2神经解剖",
+        "PMID:19304338 (Fisher & Scharff 2009, Trends Genet, 摘要) — FOXP2综述",
+        "PMID:27798142 / PMCID:PMC5083015 (Emerson 2016, J Neurosci, 开放全文) — 婴儿语言连接纵向追踪"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/language-lateralization.md",
+        "wiki/concepts/foxp2-language-gene.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/planum-temporale.md (rev1→rev2): 新增Gannon 1998黑猩猩数据+Leroy 2015 STAP；修正PMID(5673631→5657070)；status升级established",
+        "wiki/systems/language-network.md (rev5→rev6): related新增language-lateralization/foxp2-language-gene；key_sources新增AST/FOXP2",
+        "wiki/concepts/language-critical-period.md (rev1→rev2): related+prerequisites新增language-lateralization；key_sources新增PMID:12471265"
+      ],
+      "contested_claims_logged": [],
+      "unresolved_questions": [
+        "Q-lat-01",
+        "Q-lat-02",
+        "Q-lat-03",
+        "Q-foxp2-01",
+        "Q-foxp2-02"
+      ],
+      "next_suggested_topics": [
+        "ventral-language-stream-deep: 腹侧语言流深度——IFOF/UF/EmC的功能差异与语义计算的解剖基础（对比背侧流三篇，完成双流解剖架构）",
+        "speech-production-prediction: 语音产出中的预测——效应副本回路如何比较预期音与实际音，以及在口吃/耳聋言语退化中的应用",
+        "language-evolution-comparative: 语言演化比较——FOXP2之外，人类语言的解剖先决条件（FOXP2/CNTNAP2/ROBO1；前颞叶扩张；人类特有白质束）"
+      ]
     }
   ],
   "layer_coverage_recent": {

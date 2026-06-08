@@ -8789,6 +8789,218 @@
         "iEEG speech"
       ],
       "open_access": true
+    },
+    {
+      "pmid": "5657070",
+      "type": "journal",
+      "title": "Human brain: left-right asymmetries in temporal speech region",
+      "year": 1968,
+      "journal": "Science",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "planum temporale asymmetry",
+        "language lateralization anatomy"
+      ],
+      "access": "abstract"
+    },
+    {
+      "pmid": "9422693",
+      "type": "journal",
+      "title": "Asymmetry of chimpanzee planum temporale",
+      "year": 1998,
+      "journal": "Science",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "non-human primate planum temporale",
+        "innate lateralization"
+      ],
+      "access": "abstract"
+    },
+    {
+      "pmid": "11586359",
+      "type": "journal",
+      "title": "A forkhead-domain gene is mutated in a severe speech and language disorder",
+      "year": 2001,
+      "journal": "Nature",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "FOXP2 mutation",
+        "KE family speech disorder",
+        "genetic basis of language"
+      ],
+      "access": "abstract"
+    },
+    {
+      "pmid": "12471265",
+      "type": "journal",
+      "title": "Functional neuroimaging of speech perception in infants",
+      "year": 2002,
+      "journal": "Science",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "infant fMRI",
+        "speech lateralization newborn",
+        "early language development"
+      ],
+      "access": "abstract"
+    },
+    {
+      "doi": "10.1016/S0167-6393(02)00114-5",
+      "type": "journal",
+      "title": "Asymmetric sampling in time",
+      "year": 2003,
+      "journal": "Speech Communication",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "AST hypothesis",
+        "left hemisphere fast sampling",
+        "right hemisphere slow sampling"
+      ],
+      "access": "institution"
+    },
+    {
+      "pmid": "15685218",
+      "type": "journal",
+      "title": "FOXP2 and the neuroanatomy of speech and language",
+      "year": 2005,
+      "journal": "Nat Rev Neurosci",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "FOXP2 neuroimaging",
+        "KE family caudate nucleus"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "19304338",
+      "type": "journal",
+      "title": "FOXP2 as a molecular window into speech and language",
+      "year": 2009,
+      "journal": "Trends Genet",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "FOXP2 review",
+        "songbird FoxP2",
+        "evolution"
+      ],
+      "access": "abstract"
+    },
+    {
+      "pmid": "18052609",
+      "pmcid": "PMC2100148",
+      "type": "journal",
+      "title": "Incomplete vocal imitation after FoxP2 knockdown",
+      "year": 2007,
+      "journal": "PLoS Biol",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "songbird FOXP2",
+        "Area X",
+        "vocal learning"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "pmid": "19490899",
+      "type": "journal",
+      "title": "A humanized version of Foxp2 affects cortico-basal ganglia circuits",
+      "year": 2009,
+      "journal": "Cell",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "humanized FOXP2 mice",
+        "striatum LTD",
+        "sequence learning"
+      ],
+      "access": "abstract"
+    },
+    {
+      "pmid": "18093532",
+      "type": "journal",
+      "title": "Endogenous cortical rhythms determine cerebral specialization for speech",
+      "year": 2007,
+      "journal": "Neuron",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "cortical oscillations",
+        "AST electrophysiology",
+        "left gamma right theta"
+      ],
+      "access": "abstract"
+    },
+    {
+      "pmid": "20826304",
+      "pmcid": "PMC2947444",
+      "type": "journal",
+      "title": "Brain mechanisms in early language acquisition",
+      "year": 2010,
+      "journal": "Neuron",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "infant language neuroscience review",
+        "neural commitment",
+        "language prediction"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "pmid": "25583500",
+      "pmcid": "PMC4313811",
+      "type": "journal",
+      "title": "New human-specific brain landmark: STAP",
+      "year": 2015,
+      "journal": "PNAS",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "STAP",
+        "human-specific anatomy",
+        "temporal sulcus asymmetry"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "pmid": "23297206",
+      "pmcid": "PMC3557046",
+      "type": "journal",
+      "title": "Complementary hemispheric specialization for language and visuospatial attention",
+      "year": 2013,
+      "journal": "PNAS",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "complementary specialization",
+        "right-language dominance",
+        "visuospatial attention"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "pmid": "11099452",
+      "type": "journal",
+      "title": "Handedness and hemispheric language dominance",
+      "year": 2000,
+      "journal": "Brain",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "handedness language lateralization",
+        "fTCD",
+        "laterality index"
+      ],
+      "access": "abstract"
+    },
+    {
+      "pmid": "27798142",
+      "pmcid": "PMC5083015",
+      "type": "journal",
+      "title": "Emerging functional connectivity asymmetry in infants",
+      "year": 2016,
+      "journal": "J Neurosci",
+      "first_used": "2026-08-24",
+      "covered_topics": [
+        "infant language connectivity",
+        "longitudinal lateralization",
+        "IFG development"
+      ],
+      "access": "open_full_text"
     }
   ],
   "total_sources": 485,

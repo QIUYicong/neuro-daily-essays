@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-23（**#121**·从声波到意义：大脑如何用预测编码完成语音理解）· 主题页总数：**247**（新建3页：wernicke-area · planum-temporale · speech-comprehension-prediction；修订2页：stg-phoneme-processing rev2 · ventral-language-stream rev3；图谱262节点、1460边）
+> 最后更新：2026-08-24（**#122**·语言为何偏向左脑：解剖不对称、FOXP2进化与新生儿侧化）· 主题页总数：**249**（新建2页：language-lateralization · foxp2-language-gene；修订3页：planum-temporale rev2 · language-network rev6 · language-critical-period rev2；图谱264节点、1471边）
 
 ---
 
@@ -46,7 +46,9 @@
 
 - 🔵 [皮层言语同步（振荡entrainment）](concepts/cortical-speech-entrainment.md) — STG θ-γ振荡与言语包络相位同步；非对称采样时间（AST，左快右慢）；主动预测 vs 被动驱动争议 **[NEW 2026-08-20 #102]**
 - 🔴 [韦尼克区](concepts/wernicke-area.md) — 传统音语理解中枢；现代证据：pSTG/BA22 是音韵形式缓冲区，损伤产生传导性失语而非纯理解崩溃；真正理解依赖双侧分布网络 **[NEW 2026-08-23 #121（填补悬空引用）]**
-- 🔵 [颞平面](concepts/planum-temporale.md) — 外侧裂深处HG后方；65%人类左>右（Geschwind & Levitsky 1968）；时序声学分析；语言左半球优势最古老解剖证据；失聪者/音乐家亦左侧化，提示更一般的时序模式计算 **[NEW 2026-08-23 #121（填补悬空引用）]**
+- 🟢 [颞平面](concepts/planum-temporale.md) — 外侧裂深处HG后方；65%人类左>右（Geschwind 1968）；黑猩猩94%亦左>右（Gannon 1998）；胎儿期即存在；STAP（人类特有颞上不对称坑，Leroy 2015）；语言左侧化最古老解剖证据 **[rev2 2026-08-24 #122]**
+- 🟢 [语言侧化](concepts/language-lateralization.md) — 右利手96%左侧化；AST假说（左快时序/右慢时序）；先天起源证据（婴儿fMRI）；互补专化（与空间注意力互锁）；STAP人类特有不对称 **[NEW 2026-08-24 #122]**
+- 🟢 [FOXP2（语言相关转录因子）](concepts/foxp2-language-gene.md) — KE家族突变→言语运动失用；纹状体/小脑发育调控；鸣禽因果证据（Haesler 2007）；人源化小鼠（Enard 2009）；两氨基酸替换20-40万年前；尼安德特人携带 **[NEW 2026-08-24 #122]**
 - 🔵 [语音理解的预测编码](concepts/speech-comprehension-prediction.md) — IFG→STG/STS 自上而下预测回路；STG 编码预测误差（不是增强信号）；正确先验使STG信号减弱；误感知时STS预测误差更弱（Blank & Davis 2018）；学习=预测误差最小化（Sohoglu & Davis 2016） **[NEW 2026-08-23 #121]**
 - 🟢 [音素范畴感知](concepts/phoneme-categorical-perception.md) — STG群体活动的非线性跳跃实现离散范畴；双尺度（局部特征/群体音素）表征；发育收窄、预测力与社会门控依赖性 **[rev2 2026-08-22 #120]**
 - 🟢 [语言习得关键期（分层敏感期）](concepts/language-critical-period.md) — 音位/词义/形态句法/复杂句法分层嵌套的多敏感期；三层机制（统计学习/社会门控/白质成熟约束）；Friederici背侧路径I/II发育双分组；Klein 2026学龄前DTI-句法相关 **[NEW 2026-08-22 #120]**

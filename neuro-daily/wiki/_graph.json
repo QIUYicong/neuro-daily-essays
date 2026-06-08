@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-23",
-  "node_count": 256,
-  "edge_count": 1436,
+  "updated": "2026-08-24",
+  "node_count": 264,
+  "edge_count": 1471,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2374,6 +2374,24 @@
       "confidence": "high",
       "page": "wiki/concepts/speech-comprehension-prediction.md",
       "note": "IFG→STG/STS自上而下预测回路；STG编码预测误差；正确理解=误差信号减弱；Sohoglu & Davis 2012/2016；Blank & Davis 2016/2018"
+    },
+    {
+      "id": "language-lateralization",
+      "title": "语言侧化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/language-lateralization.md"
+    },
+    {
+      "id": "foxp2-language-gene",
+      "title": "FOXP2（语言相关转录因子）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/foxp2-language-gene.md"
     }
   ],
   "edges": [
@@ -10217,6 +10235,61 @@
       "to": "dorsal-language-stream",
       "type": "related",
       "note": "Cope & Davis 2023: 语音预测在运动皮层实例化（背侧流节点）"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "planum-temporale",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "foxp2-language-gene",
+      "type": "related"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "language-critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "language-lateralization",
+      "type": "supports"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "language-network",
+      "type": "supports"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "cerebellum",
+      "type": "regulates"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "motor-learning",
+      "type": "regulates"
+    },
+    {
+      "from": "planum-temporale",
+      "to": "language-lateralization",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "language-lateralization",
+      "type": "prerequisite-for"
     }
   ],
   "dangling_references": [

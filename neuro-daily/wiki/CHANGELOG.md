@@ -2531,3 +2531,24 @@
 - Q-asd-01/02（高/中优先）：ASD 不同亚型突触密度方向性；CD47 通路在 ASD 的普遍性
 
 **原有悬空引用状态：** autism-spectrum-disorder 已填补；motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba 仍待补
+
+## 2026-08-24 (文章 #122：语言左侧化起源)
+
+### 新建 wiki 页面
+- `wiki/concepts/language-lateralization.md` — 语言侧化机制综述；AST假说；先天vs后天；互补专化
+- `wiki/concepts/foxp2-language-gene.md` — FOXP2 转录因子；KE家族；鸟类/小鼠/人类进化三角证据
+
+### 修订 wiki 页面
+- `wiki/concepts/planum-temporale.md` (rev1→rev2)：新增 Gannon 1998 黑猩猩 PT 左侧化数据、Leroy 2015 STAP 发现；修正 Geschwind 1968 PMID（5673631→5657070）；status 升级为 established
+- `wiki/systems/language-network.md` (rev5→rev6)：related 新增 language-lateralization/foxp2-language-gene；key_sources 新增 AST/FOXP2 来源
+- `wiki/concepts/language-critical-period.md` (rev1→rev2)：related+prerequisites 新增 language-lateralization；新增 Dehaene-Lambertz 2002 先天侧化证据
+
+### 新增矛盾登记
+- 无（今日无新矛盾；Q-pt-01 状态更新但未解决）
+
+### 新增悬空引用（待补页面）
+- `handedness-and-language`（在 language-lateralization.md related 中引用，尚无 wiki 页）
+
+### 图谱变化
+- 节点：256 → 264（+8，含原有计数误差修正）
+- 边：1436 → 1471（+35）

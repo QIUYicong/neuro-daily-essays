@@ -148,6 +148,22 @@
         "2026-06-20-language-dual-stream",
         "2026-08-21-arcuate-fasciculus-three-segment-language"
       ]
+    },
+    {
+      "slug": "language-lateralization",
+      "title": "语言侧化",
+      "current_status": "established",
+      "confidence": "high",
+      "last_changed": "2026-08-24",
+      "change_reason": "创建；基于 Knecht 2000 大样本 fTCD + Dehaene-Lambertz 2002 婴儿fMRI + Kuhl 2010 预测价值 + Cai 2013 互补专化 + Giraud 2007 AST 电生理 - 多项独立高质量证据"
+    },
+    {
+      "slug": "foxp2-language-gene",
+      "title": "FOXP2 语言相关转录因子",
+      "current_status": "established",
+      "confidence": "high",
+      "last_changed": "2026-08-24",
+      "change_reason": "创建；基于 Lai 2001 遗传因果 + Vargha-Khadem 2005 神经解剖 + Haesler 2007 鸟类因果 + Enard 2009 人源化小鼠 - 跨物种因果证据链完整"
     }
   ],
   "last_updated": "2026-08-21",

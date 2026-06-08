@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-22
-updated: 2026-08-22
-revision_count: 1
+updated: 2026-08-24
+revision_count: 2
 dimensions: [cognition, brain-region, whole-brain-network, behavior, methods]
-related: [phoneme-categorical-perception, statistical-learning, social-gating-language, dorsal-language-stream, arcuate-fasciculus, language-network, stg-phoneme-processing]
-prerequisites: [language-network, dorsal-language-stream, phoneme-categorical-perception]
+related: [phoneme-categorical-perception, statistical-learning, social-gating-language, dorsal-language-stream, arcuate-fasciculus, language-network, stg-phoneme-processing, language-lateralization]
+prerequisites: [language-network, dorsal-language-stream, phoneme-categorical-perception, language-lateralization]
 opens_questions: [Q-lcp-01, Q-lcp-02, Q-lcp-03]
-source_articles: [2026-08-22-language-acquisition-critical-period]
-key_sources: ["PMID:15496861", "PMID:20826304", "PMID:17181708", "PMID:22347185", "PMID:41886982", "PMID:8943209"]
+source_articles: [2026-08-22-language-acquisition-critical-period, 2026-08-24-language-lateralization-left-hemisphere]
+key_sources: ["PMID:15496861", "PMID:20826304", "PMID:17181708", "PMID:22347185", "PMID:41886982", "PMID:8943209", "PMID:12471265"]
 ---
 
 # 语言习得关键期（分层敏感期）(Language Critical Period / Sensitive Periods)
@@ -88,7 +88,9 @@ key_sources: ["PMID:15496861", "PMID:20826304", "PMID:17181708", "PMID:22347185"
 ## 修订历史
 
 - 2026-08-22 · 创建 · 基于《语言习得关键期》文章#120 · 整合Kuhl 2004/2007/2010、Friederici 2012、Klein 2026的分层敏感期框架 · 初始置信度：高
+- 2026-08-24 · 修订（minor）· 基于《语言为何偏向左脑》文章#122 · related新增language-lateralization（先天左侧偏置是关键期运作的神经解剖前提）；prerequisites新增language-lateralization；key_sources新增PMID:12471265（Dehaene-Lambertz 2002，2-3月婴儿fMRI先天左侧化证据）；新增source_articles #122
 
 ## 来源文章
 
 - [[2026-08-22-language-acquisition-critical-period]]
+- [[2026-08-24-language-lateralization-left-hemisphere]]
