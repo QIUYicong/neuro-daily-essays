@@ -148,9 +148,27 @@
         "2026-06-20-language-dual-stream",
         "2026-08-21-arcuate-fasciculus-three-segment-language"
       ]
+    },
+    {
+      "slug": "foxp2",
+      "title": "FOXP2转录因子",
+      "domain": "concepts",
+      "current_status": "mainstream",
+      "confidence": "high",
+      "last_change": "2026-08-24",
+      "change_reason": "新建页面（#122）；KE家族遗传+人化小鼠+鸣禽实验+皮层发育多层证据支持mainstream；进化历史（正选择信号）有争议，记录在foxp2.md内"
+    },
+    {
+      "slug": "vocal-learning-evolution",
+      "title": "声音习得型发声的趋同进化",
+      "domain": "concepts",
+      "current_status": "mainstream",
+      "confidence": "high",
+      "last_change": "2026-08-24",
+      "change_reason": "新建页面（#122）；多物种趋同进化和FoxP2深度同源性证据充分"
     }
   ],
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-08-24",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -167,7 +185,25 @@
       "confidence": "high",
       "last_changed": "2026-08-14",
       "reason": "创建（#113）：下板存在与功能有充分组织学和遗传学证据；停止/放行信号身份尚不明确（Q-tca-01）但整体地位established"
+    },
+    {
+      "slug": "foxp2",
+      "title": "FOXP2转录因子",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-08-24",
+      "change_reason": "新建页面；多层证据（KE家族遗传+人化小鼠+鸣禽实验）支持mainstream；进化历史细节（正选择信号）有争议",
+      "source_article": "2026-08-24-foxp2-language-evolution-circuits"
+    },
+    {
+      "slug": "vocal-learning-evolution",
+      "title": "声音习得型发声的趋同进化",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-08-24",
+      "change_reason": "新建页面；多物种趋同进化和FoxP2深度同源性证据充分",
+      "source_article": "2026-08-24-foxp2-language-evolution-circuits"
     }
   ],
-  "total_pages": 14
+  "total_pages": 4
 }

@@ -1,0 +1,115 @@
+# 运行日志 — 2026-08-24
+
+**执行时间**：2026-06-08（UTC+8，真实执行日期）
+**知识库虚拟日期**：2026-08-24
+**文章编号**：#122
+**分支**：claude/funny-einstein-fQ060
+
+---
+
+## 选题过程
+
+**上下文扫描**：
+- 最近三篇（#119-121）均为语言系列，维度分别为白质结构（AF）、发育/关键期、认知（预测处理）
+- 避免连续同一层级：已3篇语言，需转换维度
+- 选题决策：下探至语言的分子/进化层——FOXP2，连接到皮层-纹状体回路发育和声音习得型发声的趋同进化
+- 主题评分：(1)不同维度（分子/进化 vs 近期的系统/认知层）；(2)悬空引用填补——topic_ledger中"next_suggested_topics"明确建议语言左侧化/FOXP2；(3)核心问题可讲清（KE家族→人化小鼠→鸣禽→CNTNAP2通路）；(4)与AI对照有趣（优化器超参数类比）
+
+---
+
+## 检索过程
+
+**搜索词**：
+1. "FOXP2 language evolution review" → PubMed (PMIDs: 21592779, 21690130, 39526128等)
+2. "FOXP2 circuit development basal ganglia language" → PubMed (PMIDs: 33976169, 21111790等)
+3. "FOXP2 birdsong vocal learning review" → PubMed (PMIDs: 28271185, 20959859)
+4. "FOXP2 CNTNAP2 language disorder cortical development" → PubMed/WebSearch
+
+**数据库**：PubMed NCBI E-utilities、PMC Open Access、Europe PMC、WebSearch
+
+**候选来源**：约25篇
+**采用来源**：10篇
+
+**排除原因**：
+- PMID 31735153 (蝙蝠发声综述)：相关但非核心，仅在vocal-learning-evolution页提及
+- PMID 39526128 (语法进化)：主题偏离，仅引用其摘要信息
+- 其他早期FOXP2发育论文：缺少足够细节，以综述引用代替
+
+---
+
+## 来源可用性
+
+| 来源 | PMID/PMC | 全文 |
+|------|----------|------|
+| Lai 2001 KE家族 | PMID:11586359 | 摘要仅读 |
+| Enard 2002 进化 | PMID:12192408 | 摘要仅读 |
+| Schreiweis 2014 人化小鼠 | PMID:25225386 PMC4191787 | **全文** |
+| Xiao 2021 鸣禽BG | PMID:33976169 | 摘要仅读 |
+| Scharff 2011 深度同源 | PMID:21690130 PMC3130369 | **全文** |
+| Enard 2011 综述 | PMID:21592779 | 摘要仅读 |
+| Vernes 2008 CNTNAP2 | PMID:18987363 | 摘要仅读 |
+| den Hoed 2021 网络综述 | PMID:34260143 | 摘要仅读 |
+| Zembrzycki 2019 皮层发育 | PMC6618635 | **全文** |
+| Atkinson 2018 无选择证据 | PMC6128738 | **全文** |
+
+开放全文：4篇；摘要仅读：6篇
+
+---
+
+## 固结步骤
+
+**今日文章涉及的概念 slug**：
+- foxp2（新建）
+- vocal-learning-evolution（新建）
+- speech-production-circuit（修订 rev1→rev2）
+- language-network（修订 rev5→rev6）
+
+**矛盾检查**：
+- FOXP2正向选择信号的争议（Enard 2002 vs Atkinson 2018）在foxp2.md内并列记录，无需登记contested_claims（该矛盾在同一新页面内，非与既有页冲突）
+- 其他所有新信息与既有wiki无冲突
+
+**登记的矛盾（今日）**：0条
+
+---
+
+## 治理层更新
+
+- topic_ledger.json：+1条（#122），total_articles=122
+- maturity_index.json：+2个新页（foxp2、vocal-learning-evolution）
+- unresolved_questions.md：+4条（Q-foxp2-01/02/03, Q-vocal-evo-01）
+- monthly_synthesis.md：追加2026-08-24摘要
+- source_registry.json：待更新（见下）
+- _graph.json：节点262→264，边1460→1469
+
+---
+
+## 限制说明
+
+- Xiao 2021 (PMID:33976169) 未获取全文（Nature Communications需机构权限），使用摘要+PubMed摘要关键数据；核心发现（FoxP2敲减→不流畅鸣歌；D1/D2失衡）标注来自摘要
+- 皮层发育论文（PMC6618635）作者信息来自摘要，完整作者列表可能不完整
+- 正向选择争议：Atkinson 2018论文全文已读（PMC开放），其反论证据充分；但该领域仍有专家持不同看法，本文如实呈现两方证据
+
+---
+
+## Git 操作
+
+- 分支：claude/funny-einstein-fQ060
+- 生成文件：
+  - neuro-daily/articles/2026-08-24-foxp2-language-evolution-circuits.md
+  - neuro-daily/notes/2026-08-24-reading-notes.md
+  - neuro-daily/sources/2026-08-24-sources.json
+  - neuro-daily/wiki/concepts/foxp2.md（新建）
+  - neuro-daily/wiki/concepts/vocal-learning-evolution.md（新建）
+  - neuro-daily/wiki/systems/speech-production-circuit.md（修订）
+  - neuro-daily/wiki/systems/language-network.md（修订）
+  - neuro-daily/wiki/_graph.json（更新）
+  - neuro-daily/wiki/index.md（更新）
+  - neuro-daily/wiki/CHANGELOG.md（追加）
+  - neuro-daily/state/topic_ledger.json（追加）
+  - neuro-daily/state/maturity_index.json（追加）
+  - neuro-daily/state/monthly_synthesis.md（追加）
+  - neuro-daily/state/unresolved_questions.md（追加）
+  - neuro-daily/logs/2026-08-24-run.log（本文件）
+
+**commit hash**：（提交后填写）
+**push状态**：（推送后更新）

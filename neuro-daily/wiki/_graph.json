@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-23",
+  "updated": "2026-08-24",
   "node_count": 256,
   "edge_count": 1436,
   "edge_types": [
@@ -2374,6 +2374,24 @@
       "confidence": "high",
       "page": "wiki/concepts/speech-comprehension-prediction.md",
       "note": "IFG→STG/STS自上而下预测回路；STG编码预测误差；正确理解=误差信号减弱；Sohoglu & Davis 2012/2016；Blank & Davis 2016/2018"
+    },
+    {
+      "id": "foxp2",
+      "title": "FOXP2转录因子",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/foxp2.md"
+    },
+    {
+      "id": "vocal-learning-evolution",
+      "title": "声音习得型发声的趋同进化",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/vocal-learning-evolution.md"
     }
   ],
   "edges": [
@@ -10217,6 +10235,51 @@
       "to": "dorsal-language-stream",
       "type": "related",
       "note": "Cope & Davis 2023: 语音预测在运动皮层实例化（背侧流节点）"
+    },
+    {
+      "from": "foxp2",
+      "to": "speech-production-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "foxp2",
+      "to": "language-network",
+      "type": "supports"
+    },
+    {
+      "from": "foxp2",
+      "to": "language-critical-period",
+      "type": "related"
+    },
+    {
+      "from": "foxp2",
+      "to": "broca-area",
+      "type": "related"
+    },
+    {
+      "from": "foxp2",
+      "to": "vocal-learning-evolution",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "vocal-learning-evolution",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "vocal-learning-evolution",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "foxp2",
+      "type": "related"
+    },
+    {
+      "from": "language-network",
+      "to": "foxp2",
+      "type": "related"
     }
   ],
   "dangling_references": [

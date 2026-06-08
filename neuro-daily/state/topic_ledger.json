@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-23",
-  "total_articles": 121,
+  "last_updated": "2026-08-24",
+  "total_articles": 122,
   "entries": [
     {
       "date": "2026-08-09",
@@ -7760,111 +7760,69 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-08（真实执行日期）；知识库虚拟日期2026-08-23；文章延续语言脊柱，衔接语言关键期(#120)→语音理解预测处理(#121)；7个来源开放全文，4个摘要仅读；3个新wiki页创建（填补wernicke-area+planum-temporale两个悬空引用）；2个wiki页修订；无新矛盾登记"
+    },
+    {
+      "date": "2026-08-24",
+      "real_date": "2026-06-08",
+      "article_number": 122,
+      "title": "FOXP2：从KE家族的语音悲剧到大脑语言回路的分子图谱",
+      "slug": "foxp2-language-evolution-circuits",
+      "filename": "2026-08-24-foxp2-language-evolution-circuits.md",
+      "core_question": "FOXP2基因的人类特异性突变如何通过塑造皮层-纹状体回路，使人类大脑适应言语习得——以及这个'语言基因'的故事为何比最初预想的更加复杂？",
+      "layer": "molecular / cellular / brain-region / behavior",
+      "topic_tags": [
+        "FOXP2",
+        "language-evolution",
+        "corticostriatal-learning",
+        "vocal-learning",
+        "KE-family",
+        "deep-homology",
+        "transcription-factor",
+        "basal-ganglia",
+        "songbird"
+      ],
+      "main_sources": [
+        "PMID:11586359",
+        "PMID:12192408",
+        "PMID:25225386",
+        "PMID:33976169",
+        "PMID:21690130",
+        "PMID:18987363",
+        "PMID:34260143",
+        "PMC:6618635",
+        "PMC:6128738"
+      ],
+      "unresolved_questions": [
+        "Q-foxp2-01",
+        "Q-foxp2-02",
+        "Q-foxp2-03",
+        "Q-vocal-evo-01"
+      ],
+      "next_suggested_topics": [
+        "cntnap2-cortical-development: CNTNAP2在皮层发育和语言障碍中的角色",
+        "language-lateralization-foxp2: 语言左侧化的进化与发育机制",
+        "consciousness-global-workspace: 切换到意识系列——全局工作空间理论"
+      ],
+      "wiki_pages_created": [
+        "foxp2",
+        "vocal-learning-evolution"
+      ],
+      "wiki_pages_revised": [
+        "speech-production-circuit",
+        "language-network"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-08（真实执行日期）；知识库虚拟日期2026-08-24；从语言系列系统层(#119-121)下探到分子/进化层(FOXP2)；4篇来源开放全文，6篇摘要仅读；2个新wiki页创建，2个wiki页修订；无新矛盾登记；图谱264节点、1469边"
     }
   ],
   "layer_coverage_recent": {
-    "molecular": [
-      "2026-05-24",
-      "2026-05-25",
-      "2026-05-26",
-      "2026-06-01",
-      "2026-06-04",
-      "2026-06-10",
-      "2026-06-12",
-      "2026-07-03",
-      "2026-07-28"
-    ],
-    "cellular": [
-      "2026-05-24",
-      "2026-05-25",
-      "2026-05-27",
-      "2026-05-28",
-      "2026-06-01",
-      "2026-06-03",
-      "2026-06-07",
-      "2026-06-11",
-      "2026-06-12",
-      "2026-06-18",
-      "2026-07-03",
-      "2026-07-26",
-      "2026-07-28"
-    ],
-    "synaptic": [
-      "2026-05-24",
-      "2026-05-25",
-      "2026-05-26",
-      "2026-05-28",
-      "2026-06-01",
-      "2026-06-04",
-      "2026-06-10",
-      "2026-07-03",
-      "2026-07-28"
-    ],
-    "microcircuit": [
-      "2026-05-27",
-      "2026-06-03",
-      "2026-06-11",
-      "2026-06-18"
-    ],
-    "brain_region": [
-      "2026-05-27",
-      "2026-05-28",
-      "2026-06-07",
-      "2026-06-11",
-      "2026-06-12",
-      "2026-05-31",
-      "2026-07-28"
-    ],
-    "whole_brain_network": [
-      "2026-05-29",
-      "2026-05-30",
-      "2026-06-02",
-      "2026-06-07",
-      "2026-06-16",
-      "2026-05-31"
-    ],
-    "behavior": [
-      "2026-05-29",
-      "2026-05-30",
-      "2026-05-31",
-      "2026-06-02",
-      "2026-06-03",
-      "2026-07-28"
-    ],
-    "cognition": [
-      "2026-05-26",
-      "2026-05-27",
-      "2026-05-28",
-      "2026-05-30",
-      "2026-05-31",
-      "2026-06-02",
-      "2026-06-03",
-      "2026-06-12",
-      "2026-06-16",
-      "2026-05-31",
-      "2026-07-03",
-      "2026-07-26",
-      "2026-07-28"
-    ],
-    "disease": [
-      "2026-06-08"
-    ],
-    "methods": [
-      "2026-06-09",
-      "2026-05-31",
-      "2026-06-18"
-    ],
-    "systems": [
-      "2026-06-11",
-      "2026-06-12"
-    ],
-    "whole-brain-network": [
-      "2026-06-18",
-      "2026-07-26"
-    ],
-    "brain-region": [
-      "2026-07-26"
-    ]
+    "2026-08-24": "molecular / cellular / brain-region / behavior",
+    "2026-08-23": "cognitive",
+    "2026-08-22": "cellular / developmental",
+    "2026-08-21": "brain-region / whole-brain-network",
+    "2026-08-20": "brain-region",
+    "2026-08-19": "brain-region / whole-brain-network",
+    "2026-08-18": "molecular / cellular"
   },
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",
   "layer_tracking": {

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23",
+  "last_updated": "2026-08-24",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8789,9 +8789,71 @@
         "iEEG speech"
       ],
       "open_access": true
+    },
+    {
+      "pmid": "11586359",
+      "title": "Lai 2001 - KE family FOXP2 discovery",
+      "added": "2026-08-24",
+      "article": "#122"
+    },
+    {
+      "pmid": "12192408",
+      "title": "Enard 2002 - FOXP2 molecular evolution",
+      "added": "2026-08-24",
+      "article": "#122"
+    },
+    {
+      "pmid": "25225386",
+      "pmcid": "PMC4191787",
+      "title": "Schreiweis 2014 - Humanized Foxp2",
+      "added": "2026-08-24",
+      "article": "#122"
+    },
+    {
+      "pmid": "33976169",
+      "title": "Xiao 2021 - FoxP2 in songbird BG",
+      "added": "2026-08-24",
+      "article": "#122"
+    },
+    {
+      "pmid": "21690130",
+      "pmcid": "PMC3130369",
+      "title": "Scharff 2011 - Evo-devo FoxP2 deep homology",
+      "added": "2026-08-24",
+      "article": "#122"
+    },
+    {
+      "pmid": "21592779",
+      "title": "Enard 2011 - FoxP2 cortico-BG circuits review",
+      "added": "2026-08-24",
+      "article": "#122"
+    },
+    {
+      "pmid": "18987363",
+      "title": "Vernes 2008 - FOXP2-CNTNAP2 pathway NEJM",
+      "added": "2026-08-24",
+      "article": "#122"
+    },
+    {
+      "pmid": "34260143",
+      "title": "den Hoed 2021 - FOXP2 molecular networks EMBO",
+      "added": "2026-08-24",
+      "article": "#122"
+    },
+    {
+      "pmcid": "PMC6618635",
+      "title": "Zembrzycki 2019 - FoxP2 cortical neurogenesis",
+      "added": "2026-08-24",
+      "article": "#122"
+    },
+    {
+      "pmcid": "PMC6128738",
+      "title": "Atkinson 2018 - No FOXP2 positive selection",
+      "added": "2026-08-24",
+      "article": "#122"
     }
   ],
-  "total_sources": 485,
+  "total_sources": 511,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

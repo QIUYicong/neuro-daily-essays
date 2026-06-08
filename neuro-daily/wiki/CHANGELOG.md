@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-08-24（文章 #122 — FOXP2：从KE家族的语音悲剧到大脑语言回路的分子图谱）
+
+**新建页面（2 页）**：
+- `wiki/concepts/foxp2.md`：FOXP2转录因子——叉头域转录因子；KE家族R553H突变导致发育性言语失用；两个人类特异性氨基酸替换（60倍进化加速率）；皮层-纹状体回路分子调控（D1/D2平衡+LTD）；人化小鼠加速陈述→程序性学习转换；鸣禽Area X功能（流畅性调控）；深度同源性；FOXP2-CNTNAP2通路；皮层神经发生功能；status=mainstream，confidence=high
+- `wiki/concepts/vocal-learning-evolution.md`：声音习得型发声的趋同进化——在鸣禽、鹦鹉、蜂鸟、鲸目、鳍足类、大象、蝙蝠和人类中独立进化；均依赖皮层-基底节回路；FoxP2深度同源性；status=mainstream
+
+**修订页面（2 页）**：
+- `wiki/systems/speech-production-circuit.md`（rev1→rev2）：新增分子层维度（FOXP2在纹状体调控）；related新增foxp2、vocal-learning-evolution；新增分子证据表；修订历史更新；key_sources新增PMID:25225386、PMID:21592779、PMID:11586359
+- `wiki/systems/language-network.md`（rev5→rev6）：dimensions新增molecular；related新增foxp2、vocal-learning-evolution；source_articles新增#122；修订历史追加
+
+**矛盾登记（0条新登记）**：今日证据与既有 wiki 无冲突，FOXP2正向选择争议（Enard 2002 vs Atkinson 2018）在 foxp2.md 内已如实并列两种证据，不构成与其他页面的冲突，无需登记 contested_claims。
+
+**新增未解问题**：Q-foxp2-01（FOXP2数百下游靶基因的功能特异性）、Q-foxp2-02（尼安德特人与现代人共享替换但语言差异）、Q-foxp2-03（增强子区域的物种表达差异）、Q-vocal-evo-01（蝙蝠FoxP2依赖性的普遍性）
+
+**图谱变更**：节点 262→264（+foxp2、+vocal-learning-evolution）；边 1460→1469（+9条边）
+
+---
+
 ## 2026-08-23（文章 #121 — 从声波到意义：大脑如何用预测编码完成语音理解）
 
 **新建页面（3 页）**：

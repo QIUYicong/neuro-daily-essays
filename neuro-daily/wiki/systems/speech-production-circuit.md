@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-08-19
-updated: 2026-08-19
-revision_count: 1
-dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [diva-model, sma-presma, broca-area, motor-cortex, auditory-dual-stream, cerebellum, basal-ganglia, efference-copy-speech]
+updated: 2026-08-24
+revision_count: 2
+dimensions: [molecular, brain-region, whole-brain-network, cognition, behavior]
+related: [diva-model, sma-presma, broca-area, motor-cortex, auditory-dual-stream, cerebellum, basal-ganglia, efference-copy-speech, foxp2, vocal-learning-evolution]
 prerequisites: [action-potential, synaptic-transmission, motor-cortex, auditory-dual-stream]
 opens_questions: [Q-speech-01, Q-speech-02, Q-speech-03]
-source_articles: [2026-08-19-speech-production-diva-motor-control]
-key_sources: ["PMID:23667281", "PMID:36746488", "PMID:39807169", "PMID:22661828", "PMID:37337871"]
+source_articles: [2026-08-19-speech-production-diva-motor-control, 2026-08-24-foxp2-language-evolution-circuits]
+key_sources: ["PMID:23667281", "PMID:36746488", "PMID:39807169", "PMID:22661828", "PMID:37337871", "PMID:25225386", "PMID:21592779", "PMID:11586359"]
 ---
 
 # 言语产生神经回路 (Speech Production Neural Circuit)
@@ -85,6 +85,7 @@ key_sources: ["PMID:23667281", "PMID:36746488", "PMID:39807169", "PMID:22661828"
 - [[cerebellum]] — 音节计时的前向模型学习（与言语产生回路的小脑臂）
 - [[basal-ganglia]] — GODIVA双BG环路；启动"go"信号的发出者
 - [[efference-copy-speech]] — 效应副本/预测性抑制，防止自产语音误触发纠偏
+- [[foxp2]] — 纹状体MSN中调控D1/D2平衡和LTD可塑性的分子基础；人类特异性变化促进陈述→程序性学习转换（言语习得的分子底层）
 
 ## 未解问题
 
@@ -92,10 +93,20 @@ key_sources: ["PMID:23667281", "PMID:36746488", "PMID:39807169", "PMID:22661828"
 - Q-speech-02：言语运动关键期的分子闸门是什么？
 - Q-speech-03：BCI言语解码的精度上限在哪？
 
+## 关键证据（新增 — 分子/进化层）
+
+| 主张 | 证据 / 方法 | 来源 | 置信度 |
+|------|------------|------|--------|
+| FOXP2在纹状体MSN和皮层深层神经元中表达，调控言语回路分子基础 | 原位杂交+ChIP | PMID:21592779 | 高 |
+| 人类特异性FoxP2替换增强纹状体LTD和陈述→程序性转换 | Foxp2hum/hum小鼠行为+电生理 | PMID:25225386 | 高 |
+| FOXP2单倍剂量不足导致发育性言语失用（言语运动程序化障碍） | KE家族遗传学 | PMID:11586359 | 极高 |
+
 ## 修订历史
 
 - 2026-08-19 · 创建 · 基于《大脑如何开口说话：前馈/反馈双控制系统》第118篇 · 初始置信度：高
+- 2026-08-24 · 修订2 · 基于《FOXP2：从KE家族的语音悲剧到大脑语言回路的分子图谱》(#122) · 新增分子/进化层（FOXP2在纹状体的调控）；related和key_sources更新
 
 ## 来源文章
 
 - [[2026-08-19-speech-production-diva-motor-control]]
+- [[2026-08-24-foxp2-language-evolution-circuits]]
