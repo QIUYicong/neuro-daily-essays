@@ -111,7 +111,9 @@
 
 - Git author: GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
 - Commit message: "Add neuro daily article + wiki consolidation for 2026-08-21"
-- Push target: origin main
+- Push target: origin claude/funny-einstein-bDKiL（环境强制功能分支）
+- **commit hash**: 8ffea59
+- **push状态**: ✅ 成功推送到 origin/claude/funny-einstein-bDKiL
 
 ## 步骤 H：自检
 
@@ -142,3 +144,19 @@
 - Catani 2005（PMID:15597383）是Annals of Neurology文章，无PMC开放全文；核心发现（三段式结构）已被大量后续研究独立复现，使用是合理的
 - 每个物种样本量极小（Balezeau 2020 n=3），已在文章和证据表中标注
 - AF与SLF-III的边界争议在文章中提及但无法解决（需要更多研究）
+
+
+---
+
+## 完成输出
+
+- **真实执行日期**：2026-06-08（UTC+8）
+- **虚拟知识库日期**：2026-08-21
+- **文章编号**：#119
+- **commit hash**：8ffea59
+- **分支**：claude/funny-einstein-bDKiL
+- **GitHub branch URL**：https://github.com/QIUYicong/neuro-daily-essays/tree/claude/funny-einstein-bDKiL
+- **今日创建 wiki 页**：wiki/diseases/conduction-aphasia.md（传导性失语症）
+- **今日修订 wiki 页**：wiki/concepts/arcuate-fasciculus.md（rev1→rev2）、wiki/circuits/dorsal-language-stream.md（rev1→rev2）、wiki/systems/language-network.md（minor）
+- **登记矛盾**：C-2026-08-21-01（AF颞叶端边界争议，pSTG传统 vs MTG/ITG梭状回延伸，status=open）
+- **知识图谱**：256 节点，1436 边
