@@ -940,3 +940,9 @@
 **层级切换**：今日从连续7天的脑区/全脑网络/认知层（语言专题）切换至分子/突触/细胞/微回路层，填补 hebbian-learning 长期悬空引用 [[stdp]]。
 
 STDP 是赫布规则的毫秒级精化：突触前先于突触后 5–40 ms 放电→LTP（NMDA 受体+bAP 超线性 Ca²⁺）；反之→LTD（低 Ca²⁺→磷酸酶→AMPA 内吞）。Markram 1997 Science（新皮质，PMID:8985014）和 Bi & Poo 1998 J Neurosci（海马培养，PMID:9852584）奠定经典学习窗口。AMPA 受体是时间精度的调节器（超线性 Ca²⁺，孤立棘最强，Holbro 2010 PNAS）。两个重要挑战：(1) 生理 Ca²⁺（1.3-1.8 mM）下标准配对无法诱导 LTP，需要 θ-burst（Inglebert & Debanne 2021，PMC8488271）；(2) 长期（3天）同步性 vs 因果时序（Anisimova 2022，Cereb Cortex）。多巴胺/乙酰胆碱/去甲肾上腺素作为第三因素调制 STDP 规则（Foncelle 2018）。人类 ccPAS-TMS 直接 STDP 证据（Hernandez-Pavon 2022，PMC10188658）。登记矛盾 C-2026-08-25-01（因果 vs 同步性）。新建 1 个 wiki 页（stdp），修订 ltp/hebbian-learning 两页。图谱：265节点，1480边。
+
+### 2026-08-28 · 文章 #128 · 信用的时间归属：突触标记、资格迹与三因素学习规则如何让大脑实现强化学习
+
+**层级桥接**：分子/突触/细胞（突触可塑性系列第5篇，STDP→bAP→metaplasticity→三因素规则）→行为层，完成"从单突触物理法则到行为强化学习"的垂直整合。
+
+三因素规则的精确数学框架（Gerstner 2018，PMID:30108488，开放全文）：突触资格迹 e_ij（赫布协同激发设置，τ_e 秒级衰减）× 第三因素 M_3rd（多巴胺/NE/5-HT）→ 权重变化 Δw。关键实验证据三角：(1) Yagishita 2014（PMID:25258080）纹状体单棘成像，PDE10A 时钟机制，0.3-2s 多巴胺时窗，直接可视化资格迹寿命；(2) He et al. 2015（via Gerstner 2018）皮层 STDP 单独无持久性→NE 触发 LTP（5-10s），5-HT 触发 LTD（3s）；(3) Bittner 2017（PMID:28883072）BTSP 极端资格迹（±3-4s），单次平台电位写入地点场。Schultz 1997（PMID:9054347）多巴胺 RPE = 三因素 M_3rd 的行为层实现。Izhikevich 2007（PMID:17220510）理论先行：STDP 慢多巴胺动力学解决远端奖励问题。BTSP/三因素/TD-learning 的 AI 对照（E-prop，eligibility traces in RL）。新建 1 个 wiki 页（eligibility-trace），修订 3 个页面（three-factor-learning-rule 重大修订→status=established；btsp rev3；stdp rev3）。图谱：270节点，1514边。

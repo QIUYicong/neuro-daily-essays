@@ -105,7 +105,8 @@
 - 🔵 [DIVA模型（言语产生计算-神经框架）](concepts/diva-model.md) — 言语声音图（左IFG/vPMC）+启动图（SMA-BG）+听觉目标/误差图（pSTG）+体感目标图（SMG）+反馈控制图（右vPMC）+小脑前向模型；前馈主导流利言语/反馈主导学习纠偏/效应副本抑制自产语音；GODIVA双BG环路（运动/计划）**[NEW 2026-08-19 #118]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
-- 🟡 [脉冲时序依赖可塑性（STDP）](concepts/stdp.md) — 赫布规则的毫秒级精化：前先后随→LTP，后先前随→LTD；NMDA+bAP 超线性 Ca²⁺ 信号；生理钙浓度挑战；长期同步性 vs 短期因果性争议；位置依赖局部规则（Letzkus 2006）（修订2次）**[NEW 2026-08-25 #123]**（填补 hebbian-learning 悬空引用）
+- 🟡 [脉冲时序依赖可塑性（STDP）](concepts/stdp.md) — 赫布规则的毫秒级精化：前先后随→LTP，后先前随→LTD；NMDA+bAP 超线性 Ca²⁺ 信号；生理钙浓度挑战；长期同步性 vs 短期因果性争议；位置依赖局部规则（Letzkus 2006）（修订3次）**[NEW 2026-08-25 #123]**（填补 hebbian-learning 悬空引用）
+- 🟡 [资格迹](concepts/eligibility-trace.md) — 突触在 STDP/赫布激发后的亚稳态临时标记；三因素规则中间变量（e_ij → Δw = e_ij × M_3rd）；纹状体 PDE10A 时钟（1.5s 窗口，Yagishita 2014）；皮层 NE/5-HT 门控（5-10s）；BTSP 极端案例（±3-4s）；解决时间信用分配问题 **[NEW 2026-08-28 #128]**（填补 metaplasticity → three-factor-learning-rule 链条缺口）
 - 🟢 [A 型钾通道（I_A）](concepts/a-type-potassium-channel.md) — Kv4.2 的快激活/快失活特性；CA1 树突密度梯度（远端 5–6 倍胞体）；EPSP 引起失活开放 bAP 入侵通道；是 STDP 符合门的分子执行者 **[NEW 2026-08-26 #124]**
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
@@ -151,7 +152,7 @@
 - 🟢 [ΔFosB（成瘾分子开关）](concepts/deltaFosB.md) — FosB截短剪接产物（缺失C端degron）；重复药物暴露后在NAc D1-MSN中积累（持续2-8周）；下游CDK5/树突棘↑、GluA2↑、dynorphin↓、G9a；与CREB拮抗（established, confidence:high）**[NEW 2026-07-14]**
 - 🔵 [激励显著性（Incentive Salience）](concepts/incentive-salience.md) — 多巴胺编码wanting（动机性吸引力）而非liking（快感）；成瘾中wanting被敏化而liking下降；L-DOPA实验直接分离；解释"为什么不再喜欢却仍然想要"（mainstream, confidence:medium）**[NEW 2026-07-14]**
 - 🟢 [渴望孵化（Incubation of Craving）](concepts/incubation-of-craving.md) — 戒断后渴望在6-7周达峰（非递减）；NAc沉默突触→CP-AMPA插入（钙通透）是突触基础；BLA→NAc投射特异性；光遗传LTD重沉默可恢复环境丰富化治疗效果（established, confidence:high）**[NEW 2026-07-14]**
-- 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；填补 hebbian-learning 悬空引用；纹状体直接实验验证 **[NEW 2026-06-07]**
+- 🟢 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = e_ij × M_3rd；资格迹是中间变量；纹状体 PDE10A 1.5s 时钟（Yagishita 2014）；皮层 NE/5-HT 双向门控（He 2015）；BTSP 极端案例（Bittner 2017）；统一 STDP 与多巴胺 RPE；status 升级 established **[NEW 2026-06-07 · 重大修订 2026-08-28 #128]**
 - 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题 **[NEW 2026-06-07]**
 
 - 🔵 [三方突触](concepts/tripartite-synapse.md) — Araque 1999 框架；突触前+突触后+星形胶质细胞 PAPs 三元功能单元；双向神经元-胶质细胞信号；LTP/LTD 的三方必要性因果证明（Henneberger 2010）**[NEW 2026-07-02]**

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -514,7 +514,7 @@
       "title": "三因素学习规则",
       "domain": "concepts",
       "type": "mechanism",
-      "status": "mainstream",
+      "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/three-factor-learning-rule.md"
     },
@@ -2437,6 +2437,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/bcm-rule.md"
+    },
+    {
+      "id": "eligibility-trace",
+      "title": "资格迹",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/eligibility-trace.md"
     }
   ],
   "edges": [
@@ -10500,6 +10509,56 @@
       "from": "hebbian-learning",
       "to": "metaplasticity",
       "type": "related"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "three-factor-learning-rule",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "stdp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "synaptic-tagging-capture",
+      "type": "related"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "btsp",
+      "type": "related"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "eligibility-trace",
+      "type": "supports"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "eligibility-trace",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "btsp",
+      "to": "eligibility-trace",
+      "type": "supports"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "eligibility-trace",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

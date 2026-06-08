@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-08-28（文章 #128 — 信用的时间归属：突触标记、资格迹与三因素学习规则如何让大脑实现强化学习）
+
+**新建页面（1 页）**：
+- `wiki/concepts/eligibility-trace.md`：资格迹——突触在赫布协同激发后进入的亚稳态临时标记；三因素规则中间变量（e_ij → w_ij × M_3rd）；纹状体分子机制（PDE10A/PKA 时钟，Yagishita 2014，PMID:25258080）；皮层机制（NE/5-HT 门控，He et al. 2015）；海马 BTSP（±3-4s 时窗，Bittner 2017，PMID:28883072）；解决时间信用分配问题；status=mainstream, confidence=high
+
+**修订页面（3 页）**：
+- `wiki/concepts/three-factor-learning-rule.md`（rev1→rev2）：**重大修订**——引入资格迹数学框架（Gerstner 2018，PMID:30108488）；更新分子机制为 PDE10A 时钟（Yagishita 2014）；整合 BTSP 为极端案例；新增与 eligibility-trace / stdp / btsp / backpropagating-action-potential 的连接；status 从 mainstream → established；新增 5 条关键证据行
+- `wiki/concepts/btsp.md`（rev2→rev3）：新增与 three-factor-learning-rule / eligibility-trace 的连接；明确 BTSP 是三因素规则极端案例（±3-4s 资格迹）
+- `wiki/concepts/stdp.md`（rev2→rev3）：related 新增 eligibility-trace；补充 STDP → 资格迹中间变量关系；皮层 STDP 单独无持久性实验说明
+
+**矛盾登记 / 裁决**：无新矛盾；无矛盾裁决
+
+**新增未解问题**：无新问题（三因素规则的主要未解问题已在 Q-three-factor-time-window / Q-stc-molecular-tag 中覆盖）
+
+**图谱更新**：+1节点（eligibility-trace），+10条边；三因素规则状态升级 mainstream→established；总节点 270，总边 1514
+
+---
+
 ## 2026-08-27（文章 #127 — 可塑性的守门人：BCM 规则与元可塑性如何防止突触失控）
 
 **新建页面（2 页）**：

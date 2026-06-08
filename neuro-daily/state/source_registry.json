@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-28",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10808,6 +10808,65 @@
       "article": "2026-08-26-backpropagating-action-potential-stdp-signal",
       "covers": "PFC L5 subtypes bAP diversity",
       "full_text": true
+    },
+    {
+      "id": "S-2026-08-28-01",
+      "pmid": "30108488",
+      "pmcid": "PMC6079224",
+      "title": "Eligibility Traces and Plasticity on Behavioral Time Scales",
+      "authors": "Gerstner W et al.",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2018,
+      "open_access": true,
+      "first_used": "2026-08-28",
+      "articles_used_in": [
+        "2026-08-28-three-factor-learning-rule-eligibility-traces"
+      ],
+      "covers": [
+        "three-factor-learning-rule",
+        "eligibility-trace",
+        "BTSP",
+        "He2015-cortex",
+        "Brzosko2015-hippocampus"
+      ]
+    },
+    {
+      "id": "S-2026-08-28-02",
+      "pmid": "25258080",
+      "pmcid": "PMC4225776",
+      "title": "A critical time window for dopamine actions on dendritic spines",
+      "authors": "Yagishita S et al.",
+      "journal": "Science",
+      "year": 2014,
+      "open_access": true,
+      "first_used": "2026-08-28",
+      "articles_used_in": [
+        "2026-08-28-three-factor-learning-rule-eligibility-traces"
+      ],
+      "covers": [
+        "eligibility-trace",
+        "PDE10A-clock",
+        "D1-MSN-plasticity"
+      ]
+    },
+    {
+      "id": "S-2026-08-28-03",
+      "pmid": "28883072",
+      "pmcid": "PMC7289271",
+      "title": "Behavioral time scale synaptic plasticity underlies CA1 place fields",
+      "authors": "Bittner KC et al.",
+      "journal": "Science",
+      "year": 2017,
+      "open_access": true,
+      "first_used": "2026-08-28",
+      "articles_used_in": [
+        "2026-08-28-three-factor-learning-rule-eligibility-traces"
+      ],
+      "covers": [
+        "BTSP",
+        "eligibility-trace",
+        "CA1-place-field"
+      ]
     }
   ]
 }

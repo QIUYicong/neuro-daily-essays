@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-26",
-  "total_articles": 124,
+  "last_updated": "2026-08-28",
+  "total_articles": 128,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8027,6 +8027,98 @@
         "ltp"
       ],
       "article_number": 127
+    },
+    {
+      "date": "2026-08-28",
+      "real_date": "2026-06-08",
+      "article_number": 128,
+      "title": "信用的时间归属：突触标记、资格迹与三因素学习规则如何让大脑实现强化学习",
+      "slug": "three-factor-learning-rule-eligibility-traces",
+      "filename": "2026-08-28-three-factor-learning-rule-eligibility-traces.md",
+      "article_type": "regular",
+      "core_question": "大脑如何跨越毫秒（STDP）与秒（行为奖励）之间的三个数量级鸿沟？三因素学习规则（赫布协同 × 资格迹 × 多巴胺第三因素）如何解决时间信用分配问题，让突触'记住'自己数秒前的状态等待奖励宣判？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "behavior"
+      ],
+      "curriculum_track": "4. 学习和记忆（突触可塑性系列终篇：STDP/bAP/metaplasticity → 三因素规则升维桥接）+ 5. 认知控制（奖励学习机制分子基础）",
+      "topic_tags": [
+        "three-factor learning rule",
+        "eligibility trace",
+        "temporal credit assignment",
+        "distal reward problem",
+        "synaptic tagging",
+        "dopamine",
+        "STDP",
+        "BTSP",
+        "behavioral time-scale synaptic plasticity",
+        "PDE10A",
+        "PKA",
+        "CaMKII",
+        "reward prediction error",
+        "TD learning",
+        "temporal difference",
+        "reinforcement learning",
+        "neuromodulator",
+        "noradrenaline",
+        "serotonin",
+        "D1 receptor",
+        "nucleus accumbens",
+        "Yagishita 2014",
+        "Bittner 2017",
+        "Gerstner 2018",
+        "Schultz 1997",
+        "Izhikevich 2007",
+        "Frey Morris 1997",
+        "synaptic tagging capture"
+      ],
+      "main_sources": [
+        {
+          "pmid": "30108488",
+          "pmcid": "PMC6079224",
+          "title": "Gerstner 2018 - Eligibility Traces and Three-Factor Learning Rules",
+          "open": true
+        },
+        {
+          "pmid": "25258080",
+          "pmcid": "PMC4225776",
+          "title": "Yagishita 2014 - Dopamine time window for spine plasticity",
+          "open": true
+        },
+        {
+          "pmid": "28883072",
+          "pmcid": "PMC7289271",
+          "title": "Bittner 2017 - BTSP underlies CA1 place fields",
+          "open": true
+        },
+        {
+          "pmid": "9054347",
+          "title": "Schultz 1997 - Neural substrate of prediction and reward",
+          "open": false
+        },
+        {
+          "pmid": "9020359",
+          "title": "Frey & Morris 1997 - Synaptic tagging and LTP",
+          "open": false
+        },
+        {
+          "pmid": "17220510",
+          "title": "Izhikevich 2007 - Solving distal reward problem",
+          "open": false
+        }
+      ],
+      "unresolved_questions": [
+        "Q-three-factor-time-window",
+        "Q-stc-molecular-tag"
+      ],
+      "next_suggested_topics": [
+        "前额叶工作记忆机制：持续放电、吸引子动力学与 γ 振荡的角色",
+        "纹状体 D1/D2 通路的结构与功能分工：行动发起与抑制的分子回路",
+        "多巴胺神经元的精细解剖：VTA vs SNc 的功能差异与奖励/运动分工"
+      ]
     }
   ],
   "layer_coverage_recent": {

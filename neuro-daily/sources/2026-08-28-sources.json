@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-28",
+  "article_slug": "three-factor-learning-rule-eligibility-traces",
+  "article_title": "信用的时间归属：突触标记、资格迹与三因素学习规则如何让大脑实现强化学习",
+  "sources": [
+    {
+      "id": "S1",
+      "type": "review",
+      "title": "Eligibility Traces and Plasticity on Behavioral Time Scales: Experimental Support of NeoHebbian Three-Factor Learning Rules",
+      "authors": ["Wulfram Gerstner", "Marco Lehmann", "Vasiliki Liakoni", "Dane Corneil", "Johanni Brea"],
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2018,
+      "pmid": "30108488",
+      "pmcid": "PMC6079224",
+      "doi": "10.3389/fncir.2018.00053",
+      "open_access": true,
+      "full_text_available": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6079224/",
+      "used_for": "三因素学习规则的数学框架、He et al. 2015和Brzosko et al. 2015的引用、各实验证据综合",
+      "notes": "主干综述，完整阅读全文"
+    },
+    {
+      "id": "S2",
+      "type": "original_research",
+      "title": "A neural substrate of prediction and reward",
+      "authors": ["Wolfram Schultz", "Peter Dayan", "P. Read Montague"],
+      "journal": "Science",
+      "year": 1997,
+      "volume": "275",
+      "issue": "5306",
+      "pages": "1593-1599",
+      "pmid": "9054347",
+      "pmcid": null,
+      "open_access": false,
+      "full_text_available": false,
+      "status_note": "经典论文，未读取全文；使用摘要和广泛引用资料",
+      "used_for": "多巴胺RPE的经典证据，与三因素规则M3rd的理论连接"
+    },
+    {
+      "id": "S3",
+      "type": "original_research",
+      "title": "Synaptic tagging and long-term potentiation",
+      "authors": ["U. Frey", "R.G. Morris"],
+      "journal": "Nature",
+      "year": 1997,
+      "volume": "385",
+      "issue": "6616",
+      "pages": "533-536",
+      "pmid": "9020359",
+      "pmcid": null,
+      "open_access": false,
+      "full_text_available": false,
+      "status_note": "经典论文，未读取全文；使用摘要",
+      "used_for": "突触标记与捕获（STC）的原始证据，资格迹概念历史起点"
+    },
+    {
+      "id": "S4",
+      "type": "original_research",
+      "title": "A critical time window for dopamine actions on the structural plasticity of dendritic spines",
+      "authors": ["S. Yagishita", "A. Hayashi-Takagi", "G.C.R. Ellis-Davies", "H. Urakubo", "S. Ishii", "H. Kasai"],
+      "journal": "Science",
+      "year": 2014,
+      "volume": "345",
+      "issue": "6199",
+      "pages": "1616-1620",
+      "pmid": "25258080",
+      "pmcid": "PMC4225776",
+      "doi": "10.1126/science.1254478",
+      "open_access": true,
+      "full_text_available": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4225776/",
+      "used_for": "纹状体D1型MSN中多巴胺0.3-2s时窗的直接成像证据，PDE10A/PKA分子机制",
+      "notes": "关键实验支撑，直接成像，两光子技术"
+    },
+    {
+      "id": "S5",
+      "type": "original_research",
+      "title": "Behavioral time scale synaptic plasticity underlies CA1 place fields",
+      "authors": ["Katie C. Bittner", "Aaron D. Milstein", "Christine Grienberger", "Sandro Romani", "Jeffrey C. Magee"],
+      "journal": "Science",
+      "year": 2017,
+      "volume": "357",
+      "issue": "6355",
+      "pages": "1033-1036",
+      "pmid": "28883072",
+      "pmcid": "PMC7289271",
+      "doi": "10.1126/science.aan3846",
+      "open_access": true,
+      "full_text_available": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7289271/",
+      "used_for": "BTSP（行为时间尺度突触可塑性）的关键证据，海马地点场单次形成",
+      "notes": "揭示极端情形：资格迹窗口可达±3-4秒；违反经典STDP因果性"
+    },
+    {
+      "id": "S6",
+      "type": "original_research",
+      "title": "Solving the distal reward problem through linkage of STDP and dopamine signaling",
+      "authors": ["Eugene M. Izhikevich"],
+      "journal": "Cerebral Cortex",
+      "year": 2007,
+      "volume": "17",
+      "issue": "10",
+      "pages": "2443-2452",
+      "pmid": "17220510",
+      "pmcid": null,
+      "open_access": false,
+      "full_text_available": false,
+      "status_note": "未读取全文；使用摘要和二手引用（Gerstner 2018综述）",
+      "used_for": "理论模型：STDP+多巴胺慢动力学如何解决远端奖励问题（理论先行于实验）"
+    }
+  ],
+  "secondary_citations": [
+    {
+      "description": "He et al. 2015 - 皮层STDP中去甲肾上腺素和血清素门控实验（via Gerstner 2018综述）",
+      "note": "未直接检索，仅通过Gerstner综述引用"
+    },
+    {
+      "description": "Brzosko et al. 2015 - 海马CA1多巴胺可将post-before-pre LTD转为LTP，时窗1分钟（via Gerstner 2018综述）",
+      "note": "未直接检索，仅通过Gerstner综述引用"
+    },
+    {
+      "description": "Frémaux & Gerstner 2016 - 三因素规则的系统理论综述",
+      "note": "未直接检索"
+    }
+  ],
+  "institutional_sources": [],
+  "open_full_text_count": 3,
+  "abstract_only_count": 3,
+  "total_source_count": 6
+}

@@ -1,0 +1,105 @@
+# 运行日志 2026-08-28（文章 #128）
+
+**执行时间**：2026-06-08（UTC+8）
+**文章日期**：2026-08-28
+**分支**：main
+**状态**：完成
+
+---
+
+## 选题过程
+
+**步骤 A 状态读取**：
+- topic_ledger：最新文章 #127（2026-08-27，metaplasticity/BCM），total_articles=127（ledger 标注为 124，已更新）
+- 最近 3 篇：#123 STDP、#124 bAP、#127 metaplasticity——连续 3 天 synaptic/cellular 层，需要切换
+- wiki _graph.json：270 节点（修改后），悬空引用 2 个（cognition, critical-period-plasticity）
+- 资格迹（eligibility-trace）：被 metaplasticity 页面引用，但无独立节点——选题可填补此缺口
+
+**选题依据**：
+1. 层级切换需要（连续 3 天 synaptic/molecular 层后需转换）
+2. three-factor-learning-rule 节点存在但从未被深入文章覆盖（仅在文章 #15 附带创建，内容较浅）
+3. eligibility-trace 被多处引用但没有独立 wiki 页
+4. 自然承接 STDP/bAP/metaplasticity 系列：这是"这些突触机制如何最终产生行为学习"的桥接篇
+5. 近期文章（2026-08-27 metaplasticity）明确指向 metaplasticity → three-factor-learning-rule 的连接方向
+
+**今日主题**：三因素学习规则与资格迹——解决时间信用分配问题
+**核心问题**：大脑如何用 PDE10A 分子时钟实现 1-2 秒的突触资格迹，等待多巴胺 RPE 信号的宣判？
+
+---
+
+## 文献检索
+
+**检索词**：
+- "Gerstner eligibility traces three factor learning rules 2018" → PMID:30108488 (PMC6079224)
+- "Schultz Dayan Montague neural substrate prediction reward 1997 Science" → PMID:9054347
+- "Yagishita dopamine calcium striatum 2014" → PMID:25258080 (PMC4225776)
+- "Bittner behavioral time scale synaptic plasticity hippocampus Science 2017" → PMID:28883072 (PMC7289271)
+- "Izhikevich solving distal reward problem STDP dopamine" → PMID:17220510
+- "Frey Morris synaptic tagging LTP Nature 1997" → PMID:9020359
+
+**数据源**：PubMed E-utilities（esearch + efetch），PMC 全文（PMC6079224, PMC4225776, PMC7289271）
+
+**候选来源**：6 篇主要，2 篇通过综述间接引用（He 2015，Brzosko 2015）
+
+**采用来源（6篇）**：
+- PMID:30108488（开放全文，综述核心，完整阅读）
+- PMID:25258080（开放全文，关键实验，完整阅读）
+- PMID:28883072（开放全文，关键实验，完整阅读）
+- PMID:9054347（付费，使用摘要）
+- PMID:9020359（付费，使用摘要）
+- PMID:17220510（付费，使用摘要）
+
+**排除来源**：试图检索更多 2023-2024 论文但搜索结果不精确；决定以 6 篇核心来源（含 3 篇开放全文）为主要依据，内容足够充分
+
+---
+
+## 文章写作
+
+**文件**：`neuro-daily/articles/2026-08-28-three-factor-learning-rule-eligibility-traces.md`
+**字数**：约 5200 字（符合 3000-6000 字要求）
+**结构**：核心问题 → 摘要 → 重要性 → 背景（Hebb到强化学习历史） → 数学框架 → 三系统实验证据 → TD-RPE连接 → 比喻 → 认知图更新 → 争议 → AI对照 → 概念卡片 → 参考来源
+
+---
+
+## 固结步骤
+
+**创建 wiki 页**：
+- `wiki/concepts/eligibility-trace.md`（新建，revision_count=1）
+  - 覆盖：资格迹定义、三因素规则数学框架、纹状体/皮层/海马三系统分子机制、Yagishita/He/Bittner 证据
+
+**修订 wiki 页**：
+- `wiki/concepts/three-factor-learning-rule.md`（rev1→rev2）
+  - 重大修订：引入资格迹数学框架；PDE10A 时钟分子机制；BTSP 极端案例；status=established；+5 证据行；+4 连接
+- `wiki/concepts/btsp.md`（rev2→rev3）
+  - 小修订：新增 three-factor-learning-rule / eligibility-trace 连接
+- `wiki/concepts/stdp.md`（rev2→rev3）
+  - 小修订：新增 eligibility-trace 连接；补充皮层 STDP 需神经调质门控的证据
+
+**矛盾检查**：无新矛盾
+
+**成熟度更新**：
+- three-factor-learning-rule: mainstream → established（多系统直接实验支持）
+
+---
+
+## 图谱更新
+
+- +1 节点（eligibility-trace）
+- +10 条边
+- 总计：270 节点，1514 条边
+
+---
+
+## 失败与限制
+
+- 尝试检索更多 2023-2024 最新论文失败（PubMed E-utilities 搜索词组合未能精确匹配神经科学三因素学习规则的近期论文）
+- He et al. 2015 和 Brzosko et al. 的原始论文未直接检索，通过 Gerstner 2018 综述（开放全文）间接引用，文章中有明确标注
+- Schultz 1997、Frey & Morris 1997、Izhikevich 2007 三篇经典论文无开放全文，使用摘要；文章中已标注"未读取全文"
+
+---
+
+## Git 操作
+
+**分支**：main
+**Commit message**：`Add neuro daily article + wiki consolidation for 2026-08-28`
+**推送状态**：[见 git 操作结果]

@@ -6,13 +6,13 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-08-25
-updated: 2026-08-26
-revision_count: 2
+updated: 2026-08-28
+revision_count: 3
 dimensions: [molecular, synaptic, cellular, microcircuit]
-related: [ltp, ltd, hebbian-learning, nmda-receptor, ampa-receptor, camkii, backpropagating-action-potential, three-factor-learning-rule, theta-oscillations, btsp, barrel-cortex, place-cell, a-type-potassium-channel]
+related: [ltp, ltd, hebbian-learning, nmda-receptor, ampa-receptor, camkii, backpropagating-action-potential, three-factor-learning-rule, eligibility-trace, theta-oscillations, btsp, barrel-cortex, place-cell, a-type-potassium-channel]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential, ltp]
 opens_questions: [Q-stdp-01, Q-stdp-02, Q-stdp-03]
-source_articles: [2026-08-25-stdp-spike-timing-dependent-plasticity]
+source_articles: [2026-08-25-stdp-spike-timing-dependent-plasticity, 2026-08-28-three-factor-learning-rule-eligibility-traces]
 key_sources: ["PMID:8985014", "PMID:9852584", "PMID:15450157", "PMID:22920249", "PMID:34616278", "PMID:35203089", "PMID:20798031", "PMID:30018546", "PMCID:PMC10188658"]
 ---
 
@@ -89,7 +89,8 @@ STDP 是基础 Hebbian 项，神经调质作为"第三因素"调制：
 - [[nmda-receptor]] — NMDA 受体是 STDP 的分子符合探测器，双重门控（谷氨酸 + 去极化）执行时序 AND 逻辑
 - [[ampa-receptor]] — AMPA 受体调控 STDP 的时间精度，产生超线性 Ca²⁺ 叠加
 - [[camkii]] — Ca²⁺ 内流的主要下游效应器，诱导并维持 LTP（STDP 正向分支）
-- [[three-factor-learning-rule]] — STDP 是三因素规则的 Hebbian 项（pre × post）；神经调质是第三因素
+- [[three-factor-learning-rule]] — STDP 是三因素规则的 Hebbian 项（pre × post）；神经调质是第三因素；皮层 STDP 单独重复 200 次无持久可塑性（需要 NE 或 5-HT 门控）
+- [[eligibility-trace]] — STDP 事件在突触处产生资格迹（临时亚稳态标记），资格迹不等于权重变化；资格迹在第三因素到来前自然衰减（秒级）
 - [[theta-oscillations]] — θ 振荡组织海马神经元的放电时序，使行为时序落入 STDP LTP 窗口（theta phase precession）
 - [[btsp]] — BTSP 是 Hebb 规则的秒级实例（~1–3s），与 STDP（毫秒级）互补；BTSP 由树突 Ca²⁺ 平台电位触发，不依赖 bAP 时序精度
 - [[barrel-cortex]] — 桶状皮质地图重塑（配对胡须刺激实验）是体内 STDP 功能最强的直接证据之一
@@ -117,6 +118,7 @@ PFC L5 D3R+ 神经元的 bAP-Ca²⁺ 超线性远强于 D1R+ 和 D2R+ 神经元�
 
 - 2026-08-25 · 创建 · 基于《突触的时间守门人》(#123) · 初始置信度：中（核心机制 established，但体内规则形态 contested）
 - 2026-08-26 · 修订 · 基于《逆流而上》(#124) · 新增 bAP 机制详解（I_A 密度梯度、位置依赖规则、细胞多样性）；related 新增 a-type-potassium-channel
+- 2026-08-28 · 小修订 · 基于《信用的时间归属》(#128) · related 新增 eligibility-trace；在连接部分补充 STDP → 资格迹的中间变量关系；强调皮层 STDP 单独重复无持久性的实验证据
 
 ## 来源文章
 
