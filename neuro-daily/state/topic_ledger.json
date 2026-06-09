@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-31",
-  "total_articles": 131,
+  "last_updated": "2026-09-01",
+  "total_articles": 132,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8399,6 +8399,69 @@
         "工作记忆活动静默 vs 持续放电（Q-wm-active-vs-silent）：Stokes 2013 动态编码 + Panichello 2024 Neuropixels 证据整合——认知控制系列自然延伸",
         "DLPFC 混合选择性学习机制（Q-ms-01）：三因素规则 + dACC 误差信号 + DA 调制如何共同雕塑 DLPFC 的混合选择性格局",
         "额叶层级：离散级 vs 连续梯度（Q-fh-01）：Badre 2009 病变双解离 vs Nee & D'Esposito fMRI 梯度——需要 7T fMRI 数据"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "real_date": "2026-06-09",
+      "article_number": 132,
+      "title": "变分自由能与主动推断：大脑如何用一个原则统一感知、行动与学习",
+      "slug": "free-energy-principle-active-inference",
+      "filename": "2026-09-01-free-energy-principle-active-inference.md",
+      "article_type": "regular",
+      "core_question": "Friston 的自由能原理（FEP）如何通过变分贝叶斯将感知重构为概率推理，并通过主动推断将行动纳入同一框架？这个统一数学框架如何把感知、行动、学习三者纳入同一计算原理？",
+      "layer": [
+        "whole-brain-network",
+        "cognition",
+        "behavior",
+        "microcircuit"
+      ],
+      "curriculum_track": "8. 意识与自我 + 4. 学习和记忆（数学统一框架）",
+      "topic_tags": [
+        "free energy principle",
+        "FEP",
+        "variational free energy",
+        "active inference",
+        "predictive coding",
+        "Friston",
+        "variational Bayes",
+        "generative model",
+        "prediction error",
+        "precision weighting",
+        "hierarchical dynamics",
+        "generalised coordinates",
+        "surprise",
+        "birdsong simulation",
+        "sensorimotor mismatch",
+        "canonical microcircuit",
+        "VAE",
+        "world model",
+        "active inference motor control",
+        "error units",
+        "representation units",
+        "Rao Ballard",
+        "Clark 2013",
+        "Alexander Brown 2018",
+        "Jiang Rao 2024"
+      ],
+      "main_sources": [
+        "PMID:10195184 (Rao & Ballard 1999, Nat Neurosci, abstract only)",
+        "PMID:19528002 / PMC2666703 (Friston & Kiebel 2009, Phil Trans R Soc B, open full text read)",
+        "PMID:20068583 (Friston 2010, Nat Rev Neurosci, abstract only)",
+        "PMID:23177956 (Bastos et al. 2012, Neuron, abstract only - PMC CAPTCHA blocked)",
+        "PMID:23663408 (Clark 2013, Behav Brain Sci, abstract only)",
+        "PMID:29497060 / PMC5832795 (Alexander & Brown 2018, Sci Rep, open full text read)",
+        "PMID:30359606 (Keller & Mrsic-Flogel 2018, Neuron, abstract only - PMC CAPTCHA blocked)",
+        "PMID:38330098 (Jiang & Rao 2024, PLoS Comput Biol, open access)"
+      ],
+      "unresolved_questions": [
+        "Q-fep-01",
+        "Q-fep-02"
+      ],
+      "next_suggested_topics": [
+        "Q-fep-01 追踪：小脑前向模型如何为主动推断提供精准本体感觉先验？（active inference + cerebellum 整合）",
+        "Q-pc-02 追踪：FEP的可证伪性——Colombo批评与Friston回应，以及近期行为神经科学实验如何检验具体机制假说",
+        "精神分裂症作为精度加权失调：FEP 预测精神病症状（幻觉=过强先验，妄想=精度失调），与 Haarsma 2020 多巴胺拮抗实验对接"
       ]
     }
   ],

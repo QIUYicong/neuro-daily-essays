@@ -6,13 +6,13 @@ type: theory
 status: established
 confidence: high
 created: 2026-07-23
-updated: 2026-07-23
-revision_count: 1
+updated: 2026-09-01
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region]
-related: [cortical-layers, barrel-cortex, predictive-coding, ltp, pv-interneurons, thalamus, gamma-oscillations, alpha-oscillations]
+related: [cortical-layers, barrel-cortex, predictive-coding, ltp, pv-interneurons, thalamus, gamma-oscillations, alpha-oscillations, free-energy-principle, active-inference]
 prerequisites: [cortical-layers, synaptic-transmission, action-potential]
 opens_questions: [Q-cl-01]
-source_articles: [2026-07-23-cortical-layers-canonical-microcircuit]
+source_articles: [2026-07-23-cortical-layers-canonical-microcircuit, 2026-09-01-free-energy-principle-active-inference]
 key_sources: ["PMID:1666655", "PMID:23177956", "PMID:21647397"]
 ---
 
@@ -93,7 +93,9 @@ L4 群体激活（约10倍放大）
 ## 修订历史
 
 - 2026-07-23 · 创建 · 基于《皮层六层架构》文章(#91) · 初始置信度：高
+- 2026-09-01 · 修订 · 基于《变分自由能与主动推断》(#132) · 确认规范微回路与 FEP/主动推断框架的关联；related 新增 free-energy-principle, active-inference
 
 ## 来源文章
 
 - [[2026-07-23-cortical-layers-canonical-microcircuit]]
+- [[2026-09-01-free-energy-principle-active-inference]]

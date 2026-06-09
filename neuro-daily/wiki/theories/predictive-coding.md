@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-07-23
-revision_count: 8
+updated: 2026-09-01
+revision_count: 9
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration, canonical-microcircuit, cortical-layers]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration, canonical-microcircuit, cortical-layers, free-energy-principle]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
-opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference, 2026-07-23-cortical-layers-canonical-microcircuit]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:40532027", "PMID:32576965"]
+opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-fep-01, Q-fep-02]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference, 2026-07-23-cortical-layers-canonical-microcircuit, 2026-09-01-free-energy-principle-active-inference]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:40532027", "PMID:32576965", "PMID:19528002", "PMID:38330098", "PMID:29497060"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -103,6 +103,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 
 ## 连接
 
+- [[free-energy-principle]] — PC 是 FEP 的神经实现；FEP 给出了预测误差最小化的数学基础（变分贝叶斯）
+- [[active-inference]] — 行动作为 FEP 的另一路径：主动推断把运动控制纳入同一框架
 - [[cerebellum]] — 专用预测误差学习系统（前向模型 + 攀爬纤维误差信号）
 - [[forward-model]] — 小脑前向模型是预测编码的一个具身子系统
 - [[precision-weighting]] — 预测编码框架中注意力和神经调质的计算角色
@@ -139,6 +141,15 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-07-12 · 修订 · 基于《世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架》(#80) · 新增听觉皮层 PEONs 直接证据（Yaron 2025, PMID:40532027）——13% 神经元响应省略音调，响应随概率升高；新增精度加权多巴胺证据（Haarsma 2020, PMID:32576965）——舒必利破坏精度加权，FEP 患者无精度加权；新增 LHb 负 RPE 作为奖励域省略响应的显式说明；新增 Q-pc-06（PEONs 自然感知功能）；related 新增 lateral-habenula；置信度维持 medium（Hodson 2024 综述提醒经验证据有限）
 - 2026-07-20 · 修订 · 基于《感官交响曲》文章（#88）· 多感觉整合的贝叶斯因果推断是预测编码框架在多模态输入层面的具体实现；related 新增 multisensory-integration, bayesian-sensory-integration
 - 2026-07-23 · 修订 · 基于《皮层六层架构》文章（#91）· 新增"规范微回路是预测编码的解剖底层"（Bastos 2012 整合框架已有记录，本次明确加入 canonical-microcircuit 和 cortical-layers 到 related 列表并在连接节中增加对应条目）
+- 2026-09-01 · 修订 · 基于《变分自由能与主动推断》(#132) · 新增"动态预测编码（Jiang & Rao 2024）"段落——时间层级扩展；新增"自由能原理数学基础"段落；related 新增 free-energy-principle；连接节新增 free-energy-principle / active-inference 条目；key_sources 新增 PMID:19528002, PMID:38330098, PMID:29497060；opens_questions 新增 Q-fep-01, Q-fep-02
+
+### 动态预测编码：时间层级的扩展（Jiang & Rao 2024，PMID:38330098）
+
+Jiang & Rao（2024, PLoS Comput Biol）将 Rao-Ballard 框架扩展到时间序列处理——高层调制低层的**时间动态**（而非仅空间特征），实现"高层编码慢时间尺度，低层编码快时间尺度"的层级分工。在自然视频训练后，低层网络自发涌现类 V1 简单细胞的时空感受野；系统展现预测性和后溯性效应（类似人类闪光滞后幻觉）；与联想记忆结合后，系统支持情景记忆的时间序列贝叶斯重建。
+
+### 自由能原理的数学基础
+
+预测编码是自由能原理（FEP, 见 [[free-energy-principle]]）在神经回路层面的具体实现。FEP 给出了一个更严格的数学框架：大脑最小化变分自由能 F（感觉惊喜的上界），等价于最小化近似后验与真实后验的 KL 散度。预测误差最小化 = 变分自由能最小化的感知路径；主动推断（[[active-inference]]）= 通过行动改变感觉输入以最小化 F 的行动路径。
 
 ## 来源文章
 
@@ -146,3 +157,4 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[2026-06-20-language-dual-stream]]
 - [[2026-07-12-predictive-coding-cortical-inference]]
 - [[2026-07-20-multisensory-integration-temporal-binding-sts]]
+- [[2026-09-01-free-energy-principle-active-inference]]

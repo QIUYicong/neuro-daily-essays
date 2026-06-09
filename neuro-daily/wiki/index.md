@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-31（**#131**·振荡路由：γ 相干性如何让大脑把注意力变成专用通信线路）· 主题页总数：**257**（新建1页：communication-through-coherence；修订3页：gamma-oscillations rev5 · dorsal-attention-network rev3 · alpha-oscillations rev2；图谱275节点、1544边）
+> 最后更新：2026-09-01（**#132**·变分自由能与主动推断：大脑如何用一个原则统一感知、行动与学习）· 主题页总数：**259**（新建2页：free-energy-principle · active-inference；修订3页：predictive-coding rev9 · canonical-microcircuit rev2；图谱278节点、1560边）
 
 ---
 
@@ -288,7 +288,9 @@
 ## theories（理论）
 
 - 🔵 [全局工作空间理论（GWT）](theories/global-workspace-theory.md) — 意识点燃机制；Dehaene-Changeux 神经工作空间；有意识知觉的全有全无广播事件；GWT vs IIT 2025 年对抗性合作 **[NEW 2026-05-30]**
-- 🟡 [预测编码](theories/predictive-coding.md) — 皮层层级通过自上而下的预测反馈 + 自下而上的预测误差前馈实现贝叶斯推断；Rao & Ballard 1999 奠基模型；Bastos 2012 皮层分层映射（γ=误差前馈，α/β=预测反馈）；Keller 2012 V1感觉运动失配实验；注意=精度加权；与DA-RPE同一计算结构 **[NEW 2026-06-15]**
+- 🟡 [预测编码](theories/predictive-coding.md) — 皮层层级通过自上而下的预测反馈 + 自下而上的预测误差前馈实现贝叶斯推断；Rao & Ballard 1999 奠基模型；Bastos 2012 皮层分层映射（γ=误差前馈，α/β=预测反馈）；Keller 2018 V1感觉运动失配实验；注意=精度加权；Jiang & Rao 2024动态预测编码（时间层级）；FEP数学基础 **[修订 2026-09-01 rev9]**
+- 🟡 [自由能原理（FEP）](theories/free-energy-principle.md) — Friston 统一框架：最小化变分自由能（惊喜上界）= 感知+行动的共同目标；感知=更新内部模型，行动=改变感觉输入；学习=更新模型参数；VAE数学等价 **[NEW 2026-09-01]**
+- 🟡 [主动推断](theories/active-inference.md) — FEP中行动的计算含义：实现本体感觉预测而非输出运动命令；感知与行动统一于同一优化目标；期望自由能最小化 = 目标导向行为的FEP导出 **[NEW 2026-09-01]**
 - 🔴 [整合信息理论（IIT）](theories/integrated-information-theory.md) — 意识 = Φ（整合信息量）；五公理推导物理约束；意识基质在后方皮层热区（而非前额叶）；小脑/视网膜低 Φ 预测与临床一致；COGITATE 2025 挑战核心机制预测（后方皮层同步缺失）；泛心论蕴含；前馈网络 Φ ≈ 0 **[NEW 2026-05-31 · 争议]**
 - 🟡 [精度加权](concepts/precision-weighting.md) — 预测误差信号携带精度权重，注意力形式化为选择性提升误差精度；ACh/NE/DA是分子层面的精度调节器；VIP-SST去抑制回路是回路层面的实现候选 **[NEW 2026-06-15]**
 

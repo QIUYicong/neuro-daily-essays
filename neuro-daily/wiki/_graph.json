@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2501,6 +2501,24 @@
       "confidence": "high",
       "page": "wiki/systems/frontal-eye-field.md",
       "note": "placeholder — no wiki page yet; covered partially in dorsal-attention-network.md"
+    },
+    {
+      "id": "free-energy-principle",
+      "title": "自由能原理",
+      "domain": "theories",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/theories/free-energy-principle.md"
+    },
+    {
+      "id": "active-inference",
+      "title": "主动推断",
+      "domain": "theories",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/theories/active-inference.md"
     }
   ],
   "edges": [
@@ -10774,6 +10792,76 @@
       "from": "dorsal-attention-network",
       "to": "frontal-eye-field",
       "type": "part-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "predictive-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "active-inference",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "precision-weighting",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "bayesian-sensory-integration",
+      "type": "related"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "world-model",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "canonical-microcircuit",
+      "type": "related"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "free-energy-principle",
+      "type": "is-a"
+    },
+    {
+      "from": "active-inference",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "forward-model",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "motor-learning",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "precision-weighting",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "free-energy-principle",
+      "type": "related"
     }
   ],
   "dangling_references": [

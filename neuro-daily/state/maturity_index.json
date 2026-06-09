@@ -164,6 +164,24 @@
       "confidence": "high",
       "last_changed": "2026-08-24",
       "change_reason": "创建；基于 Lai 2001 遗传因果 + Vargha-Khadem 2005 神经解剖 + Haesler 2007 鸟类因果 + Enard 2009 人源化小鼠 - 跨物种因果证据链完整"
+    },
+    {
+      "slug": "free-energy-principle",
+      "title": "自由能原理",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-09-01",
+      "change_reason": "新建页面。框架在理论神经科学中主流，但可证伪性批评有效；具体实现假说（规范微回路、精度加权）置信度各异",
+      "source_article": "2026-09-01-free-energy-principle-active-inference"
+    },
+    {
+      "slug": "active-inference",
+      "title": "主动推断",
+      "status": "emerging",
+      "confidence": "medium",
+      "last_changed": "2026-09-01",
+      "change_reason": "新建页面。行动=本体感觉预测实现的理论框架 emerging；脊髓执行层机制 established；与小脑整合尚未实验验证",
+      "source_article": "2026-09-01-free-energy-principle-active-inference"
     }
   ],
   "last_updated": "2026-08-21",

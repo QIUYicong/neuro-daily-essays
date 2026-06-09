@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-09-01（文章 #132 — 变分自由能与主动推断：大脑如何用一个原则统一感知、行动与学习）
+
+**新建页面（2 页）**：
+- `wiki/theories/free-energy-principle.md`：自由能原理（FEP）——变分自由能是感觉惊喜的可计算上界；最小化 F 的两条路径（感知=更新信念，行动=改变感觉输入）；层级生成模型（广义运动坐标，时间尺度分离）；精度加权；学习=长期模型参数更新；VAE 数学等价；status=mainstream, confidence=medium
+- `wiki/theories/active-inference.md`：主动推断——行动理解为实现本体感觉预测而非运动命令输出；感知与行动统一于同一优化目标；期望自由能最小化推导目标导向行为；与小脑前向模型的整合（Q-fep-01 未解）；status=emerging, confidence=medium
+
+**修订页面（3 页）**：
+- `wiki/theories/predictive-coding.md`（rev8→rev9）：新增"动态预测编码（Jiang & Rao 2024）"段落（时间层级扩展，低层→快时间尺度，高层→慢时间尺度，自然视频训练涌现类 V1 RFs）；新增"自由能原理数学基础"段落；related 新增 free-energy-principle；连接节新增 FEP/主动推断条目；key_sources 新增 PMID:19528002, 38330098, 29497060；opens_questions 新增 Q-fep-01, Q-fep-02
+- `wiki/concepts/canonical-microcircuit.md`（rev1→rev2）：related 新增 free-energy-principle, active-inference；确认 FEP/主动推断与规范微回路的关联
+- `wiki/index.md`：新增 free-energy-principle 和 active-inference 条目；更新 predictive-coding 条目（rev9）；更新页面总数（259页）和图谱统计（278节点，1560边）
+
+**图谱更新**：+2 节点（free-energy-principle, active-inference），+14 条边；278 节点，1560 条边
+
+**矛盾登记 / 裁决**：无新矛盾。Q-fep-01（主动推断与小脑前向模型整合）和 Q-fep-02（VAE等价与生物反向传播）作为新未解问题登记。
+
+---
+
 ## 2026-08-31（文章 #131 — 振荡路由：γ 相干性如何让大脑把注意力变成专用通信线路）
 
 **新建页面（1 页）**：

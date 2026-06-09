@@ -960,3 +960,15 @@ dACC 的核心问题不是"它检测什么"而是"它为什么检测"——答�
 **层级桥接**：分子/突触/细胞（突触可塑性系列第5篇，STDP→bAP→metaplasticity→三因素规则）→行为层，完成"从单突触物理法则到行为强化学习"的垂直整合。
 
 三因素规则的精确数学框架（Gerstner 2018，PMID:30108488，开放全文）：突触资格迹 e_ij（赫布协同激发设置，τ_e 秒级衰减）× 第三因素 M_3rd（多巴胺/NE/5-HT）→ 权重变化 Δw。关键实验证据三角：(1) Yagishita 2014（PMID:25258080）纹状体单棘成像，PDE10A 时钟机制，0.3-2s 多巴胺时窗，直接可视化资格迹寿命；(2) He et al. 2015（via Gerstner 2018）皮层 STDP 单独无持久性→NE 触发 LTP（5-10s），5-HT 触发 LTD（3s）；(3) Bittner 2017（PMID:28883072）BTSP 极端资格迹（±3-4s），单次平台电位写入地点场。Schultz 1997（PMID:9054347）多巴胺 RPE = 三因素 M_3rd 的行为层实现。Izhikevich 2007（PMID:17220510）理论先行：STDP 慢多巴胺动力学解决远端奖励问题。BTSP/三因素/TD-learning 的 AI 对照（E-prop，eligibility traces in RL）。新建 1 个 wiki 页（eligibility-trace），修订 3 个页面（three-factor-learning-rule 重大修订→status=established；btsp rev3；stdp rev3）。图谱：270节点，1514边。
+
+### 2026-09-01 · 文章 #132 · 变分自由能与主动推断：大脑如何用一个原则统一感知、行动与学习
+
+**层级切换**：从连续3篇脑区/全脑网络/认知层（dACC→DLPFC→FEF-V4 γ routing）切换至理论层——用统一数学框架（FEP）为前面所有机制提供计算基础。
+
+自由能原理（Friston 2010, PMID:20068583）是预测编码框架的数学精确化版本：大脑最小化变分自由能 F（感觉惊喜的可计算上界），感知=更新内部信念（使 Q 接近真实后验），行动=改变感觉输入（使其符合 Q 的预测）。两者统一于同一优化目标，区别仅在于优化哪个变量。Friston & Kiebel（2009, PMC2666703, 开放全文读取）给出了层级实现：广义运动坐标捕捉时间结构，高层编码慢时间尺度，低层编码快时间尺度——这直接被 Jiang & Rao 2024（PMID:38330098）用动态预测编码的计算模型实验验证。
+
+规范微回路（Bastos 2012，PMID:23177956）在解剖上实现 FEP：L2/3 浅层锥体=误差单元（γ）→前馈；L5/6 深层锥体=表征/预测单元（α/β）→反馈。精度加权（注意=提升 π）通过多巴胺（奖励域精度）和 ACh（感觉域精度）实现。Alexander & Brown 2018（PMC5832795, 开放全文）将 FEP 拓展到前额叶：dlPFC 学习预测预测误差（meta-prediction），混合选择性在这一框架中自然涌现——精准衔接了 #130（DLPFC 混合选择性）的机制缺口。
+
+与 AI 的数学等价：FEP 与变分自编码器（VAE）的 ELBO 损失函数数学同构，与世界模型（DreamerV2）的期望自由能最小化概念对齐，但生物系统在局部学习规则、能效和多时间尺度并行方面根本不同。
+
+**新建 wiki 页**：free-energy-principle（mainstream, medium）、active-inference（emerging, medium）。**修订**：predictive-coding rev9（新增FEP数学基础段落、Jiang & Rao 2024动态延伸）、canonical-microcircuit rev2。**新登记未解问题**：Q-fep-01（主动推断与小脑前向模型整合）、Q-fep-02（VAE等价与生物反向传播关系）。图谱：278节点，1560边。
