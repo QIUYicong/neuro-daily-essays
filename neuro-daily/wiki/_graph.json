@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2546,6 +2546,24 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/pc-learning.md"
+    },
+    {
+      "id": "equilibrium-propagation",
+      "title": "平衡传播",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/equilibrium-propagation.md"
+    },
+    {
+      "id": "hopfield-network",
+      "title": "霍普菲尔德网络",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/hopfield-network.md"
     }
   ],
   "edges": [
@@ -10984,6 +11002,78 @@
       "from": "pc-learning",
       "to": "active-inference",
       "type": "related"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "credit-assignment",
+      "type": "mechanism-of",
+      "note": "EP是空间信用分配的能量极小化路径"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "hopfield-network",
+      "type": "is-a",
+      "note": "EP在Hopfield能量框架上添加代价项"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "pc-learning",
+      "type": "related",
+      "note": "并行路径：能量语言 vs 误差语言；极限下等价"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "stdp",
+      "type": "related",
+      "note": "EP权重规则积分后等价STDP形式"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "cortical-slow-oscillation",
+      "type": "related",
+      "note": "UP/DOWN态是EP两相结构的生物候选（假说）"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "hebbian-learning",
+      "type": "related",
+      "note": "对比赫布规则是EP的离散版本"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "free-energy-principle",
+      "type": "related",
+      "note": "EP变分版本与FEP数学同源"
+    },
+    {
+      "from": "hopfield-network",
+      "to": "equilibrium-propagation",
+      "type": "prerequisite-for",
+      "note": "EP扩展Hopfield能量框架"
+    },
+    {
+      "from": "hopfield-network",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "Hopfield存储规则是Hebb规则的精确形式化"
+    },
+    {
+      "from": "cortical-slow-oscillation",
+      "to": "equilibrium-propagation",
+      "type": "related",
+      "note": "UP/DOWN态切换可能对应EP两相（假说）"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "equilibrium-propagation",
+      "type": "related",
+      "note": "EP提供空间信用分配的能量路径"
+    },
+    {
+      "from": "pc-learning",
+      "to": "equilibrium-propagation",
+      "type": "related",
+      "note": "PCL(误差语言)和EP(能量语言)是信用分配的并行方案"
     }
   ],
   "dangling_references": [

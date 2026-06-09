@@ -992,3 +992,13 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 **信用分配双维度整合**：PC-Learning（空间，多层皮层）+ 三因素规则（时间，行为到奖励延迟）——两套机制合力解决完整的信用分配问题，这是大脑实现高效强化学习的深层架构。
 
 **新建 wiki 页**：credit-assignment（established, high）、pc-learning（emerging, medium）。**修订**：predictive-coding rev10（新增 PC-Learning = 反向传播近似段落）。图谱：281节点，1579边。
+
+---
+
+## 2026-09-04（#135）— 大脑的能量景观学习：平衡传播与皮层慢波振荡的两相对比机制
+
+平衡传播（EP，Scellier & Bengio 2017，PMID:28522969，开放全文）是继PC-Learning之后第二种理论严谨的无全局误差信号梯度近似：能量极小化网络在自由相（β=0）和弱锁定相（β>0）两次弛豫后，局部活动差除以β的极限精确等于代价函数梯度（数学定理）。EP的权重更新规则积分后等价STDP，为其生物可行性提供直接分子支撑。Altun et al.（2025，PMID:40038254，PMC11880436，Nature Communications，开放全文）证明积分反馈产生隐式非平衡记忆，使EP无需显式全局相位信号——这是EP框架在生物实现道路上的重要突破。皮层慢振荡的UP/DOWN态（约500ms / 400ms，Miyamoto et al. 2017，PMID:29213231，开放全文）是EP两相结构的生物候选：UP态=自由弛豫，DOWN态后的SWR重播=弱目标锁定（假说）。Yoshida & Toyoizumi（2022，PMID:36712943，开放全文）的信息最大化框架发现UP态放电率（4.9Hz）高于DOWN态（2.1Hz），全局SO偏向LTD（稳态缩减），局部SWR激活区偏向LTP（选择性强化）——与EP的自由相排除噪声/锁定相强化目标的逻辑并行。
+
+**PC-Learning vs EP对比**：PC-Learning（误差语言，层级前向传播，无时间相位）vs EP（能量语言，两相弛豫比较，需要相位切换）；极限下数学等价（Millidge 2022统一框架）。**核心贡献**：大脑的睡眠不仅是"清场"（SHY假说），也可能是"选择性梯度精调"（EP框架），两者并行发生。
+
+**新建wiki页**：equilibrium-propagation（emerging, medium）、hopfield-network（established, high）。**修订**：credit-assignment rev2、pc-learning rev2、cortical-slow-oscillation rev4。图谱：283节点，1591边。

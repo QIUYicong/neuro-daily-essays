@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-03",
-  "total_articles": 134,
+  "last_updated": "2026-09-04",
+  "total_articles": 135,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8597,6 +8597,71 @@
       ],
       "new_contested_claims": [],
       "resolved_contested_claims": []
+    },
+    {
+      "date": "2026-09-04",
+      "real_date": "2026-06-10 UTC+8",
+      "article_number": 135,
+      "title": "大脑的能量景观学习：从霍普菲尔德网络到皮层慢波振荡的两相对比机制",
+      "slug": "equilibrium-propagation-cortical-two-phase-learning",
+      "filename": "2026-09-04-equilibrium-propagation-cortical-two-phase-learning.md",
+      "article_type": "regular",
+      "core_question": "大脑是否通过自由相-对比相两阶段神经活动实现等价于反向传播的学习？皮层慢振荡UP/DOWN态如何对应平衡传播框架？",
+      "layer": [
+        "theory",
+        "whole-brain-network",
+        "synaptic"
+      ],
+      "curriculum_track": "12. 人脑与AI的比较（平衡传播/对比赫布学习/能量极小化） + 4. 学习和记忆（皮层慢波睡眠与对比学习）",
+      "topic_tags": [
+        "equilibrium propagation",
+        "contrastive Hebbian learning",
+        "Hopfield network",
+        "energy landscape",
+        "two-phase learning",
+        "free phase",
+        "clamped phase",
+        "biologically plausible backpropagation",
+        "cortical slow oscillation",
+        "UP state",
+        "DOWN state",
+        "STDP equivalence",
+        "implicit non-equilibrium memory",
+        "Scellier Bengio 2017",
+        "synaptic homeostasis",
+        "information maximization sleep",
+        "Nobel Prize 2024 Hopfield",
+        "credit assignment",
+        "gradient descent biology"
+      ],
+      "main_sources": [
+        "PMID:28522969 / PMC5415673 (Scellier & Bengio 2017, Front Comput Neurosci, open full text)",
+        "PMID:40038254 / PMC11880436 (Altun et al. 2025, Nature Communications, open full text)",
+        "PMID:29213231 / PMC5703076 (Miyamoto et al. 2017, Front Neural Circuits, open full text)",
+        "PMID:36712943 / PMC9833047 (Yoshida & Toyoizumi 2022, PNAS Nexus, open full text)",
+        "PMID:30704969 / PMC6382460 (Whittington & Bogacz 2019, Trends Cogn Sci, open full text)"
+      ],
+      "unresolved_questions": [
+        "Q-ep-01: 皮层UP态约500ms是否足以让EP类弛豫在两相内完成收敛？",
+        "Q-ep-02: EP的锁定目标在无监督皮层学习中由谁提供？SWR重播是否构成足够的弱目标锁定？"
+      ],
+      "next_suggested_topics": [
+        "Contrastive Hebbian Learning完整历史：Movellan 1991 → Hinton RBM → Boltzmann机",
+        "神经形态硬件中的局部学习规则实现（Intel Loihi 2, BrainScaleS）",
+        "Q-ep-02：SWR重播作为弱锁定目标的直接实验证据",
+        "睡眠离线学习的跨物种比较：昆虫/鸟类/哺乳动物的两相振荡异同"
+      ],
+      "wiki_created": [
+        "equilibrium-propagation",
+        "hopfield-network"
+      ],
+      "wiki_updated": [
+        "credit-assignment (rev2)",
+        "pc-learning (rev2)",
+        "cortical-slow-oscillation (rev4)"
+      ],
+      "new_contested_claims": [],
+      "resolved_contested_claims": []
     }
   ],
   "layer_coverage_recent": {
@@ -8638,7 +8703,8 @@
       "2026-06-10",
       "2026-07-03",
       "2026-07-28",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-09-04"
     ],
     "microcircuit": [
       "2026-05-27",
@@ -8702,11 +8768,15 @@
     ],
     "whole-brain-network": [
       "2026-06-18",
-      "2026-07-26"
+      "2026-07-26",
+      "2026-09-04"
     ],
     "brain-region": [
       "2026-07-26",
       "2026-08-29"
+    ],
+    "theory": [
+      "2026-09-04"
     ]
   },
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",

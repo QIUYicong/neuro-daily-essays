@@ -6,14 +6,14 @@ type: mechanism
 status: emerging
 confidence: medium
 created: 2026-09-03
-updated: 2026-09-03
-revision_count: 1
+updated: 2026-09-04
+revision_count: 2
 dimensions: [synaptic, cellular, microcircuit, cognition, methods]
-related: [predictive-coding, hebbian-learning, three-factor-learning-rule, backpropagating-action-potential, canonical-microcircuit, active-inference, free-energy-principle, credit-assignment, eligibility-trace, cortical-layers]
+related: [predictive-coding, hebbian-learning, three-factor-learning-rule, backpropagating-action-potential, canonical-microcircuit, active-inference, free-energy-principle, credit-assignment, eligibility-trace, cortical-layers, equilibrium-propagation, hopfield-network]
 prerequisites: [predictive-coding, hebbian-learning, ltp, nmda-receptor]
 opens_questions: [Q-fep-02]
-source_articles: [2026-09-03-pc-learning-biological-backpropagation]
-key_sources: ["PMID:28333583", "PMID:41996333", "PMID:37818157"]
+source_articles: [2026-09-03-pc-learning-biological-backpropagation, 2026-09-04-equilibrium-propagation-cortical-two-phase-learning]
+key_sources: ["PMID:28333583", "PMID:41996333", "PMID:37818157", "PMID:28522969"]
 ---
 
 # 预测编码学习 (PC-Learning)
@@ -104,6 +104,8 @@ PC-Learning 是自由能原理（FEP，[[free-energy-principle]]）在突触可�
 - [[hebbian-learning]] — PC-Learning 使用的基础规则，但赋予了梯度语义
 - [[canonical-microcircuit]] — PC-Learning 的解剖底层：L2/3（误差）/L5（表征）分工
 - [[cortical-layers]] — 六层架构为前馈误差流（L2/3，γ）和反馈表征流（L5/6，α/β）提供物理分离
+- [[equilibrium-propagation]] — EP 是 PC-Learning 的并行路径：同样无全局误差信号，但用能量语言（两相比较）而非误差语言（层级传播）；两者在某些极限下等价（Millidge 2022 统一框架）
+- [[hopfield-network]] — Hopfield 能量框架是 EP 的基础，也是 PC-Learning 变分自由能框架的物理类比
 - [[active-inference]] — 主动推断是 PC-Learning 在行动维度的扩展
 - [[free-energy-principle]] — FEP 是 PC-Learning 的数学精确化框架
 - [[backpropagating-action-potential]] — bAP 为表征神经元提供树突-胞体间的信号传递，参与 PC-Learning 的误差计算
@@ -115,6 +117,7 @@ PC-Learning 是自由能原理（FEP，[[free-energy-principle]]）在突触可�
 ## 修订历史
 
 - 2026-09-03 · 创建 · 基于《大脑的反向传播幻觉》(#134) · 初始置信度：中（理论证明扎实，皮层实现仍需体内验证）
+- 2026-09-04 · 修订 rev2 · 基于《大脑的能量景观学习》(#135) · 新增 equilibrium-propagation 和 hopfield-network 为 related 节点（EP 是 PCL 的并行路径，能量语言 vs 误差语言）；连接节更新；key_sources 新增 PMID:28522969
 
 ## 来源文章
 

@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-09-03
-updated: 2026-09-03
-revision_count: 1
+updated: 2026-09-04
+revision_count: 2
 dimensions: [synaptic, cellular, microcircuit, cognition, methods]
-related: [three-factor-learning-rule, eligibility-trace, stdp, hebbian-learning, predictive-coding, pc-learning, active-inference, dopamine-reward-prediction-error, backpropagating-action-potential]
+related: [three-factor-learning-rule, eligibility-trace, stdp, hebbian-learning, predictive-coding, pc-learning, equilibrium-propagation, hopfield-network, active-inference, dopamine-reward-prediction-error, backpropagating-action-potential]
 prerequisites: [hebbian-learning, ltp, synaptic-transmission]
 opens_questions: [Q-fep-02]
-source_articles: [2026-09-03-pc-learning-biological-backpropagation]
-key_sources: ["PMID:28333583", "PMID:30205266", "PMID:29449713"]
+source_articles: [2026-09-03-pc-learning-biological-backpropagation, 2026-09-04-equilibrium-propagation-cortical-two-phase-learning]
+key_sources: ["PMID:28333583", "PMID:30205266", "PMID:29449713", "PMID:28522969"]
 ---
 
 # 信用分配问题 (Credit Assignment Problem)
@@ -44,6 +44,8 @@ key_sources: ["PMID:28333583", "PMID:30205266", "PMID:29449713"]
 
 在推断收敛极限（Whittington & Bogacz 2017，PMID:28333583），这等价于精确的反向传播梯度。
 
+> **平衡传播（EP）路径**（2017 年以来的并行方案）：PC-Learning 通过误差前向传播解决空间信用分配，**平衡传播**（Scellier & Bengio 2017，PMID:28522969）则通过**能量极小化的两相比较**到达同一数学结果。自由相（β=0）弛豫到能量极小值 $s^0$；弱锁定相（β>0）弛豫到 $s^\beta$；权重更新 $\Delta W_{ij} \propto \frac{1}{\beta}(s_i^\beta s_j^\beta - s_i^0 s_j^0)$，极限下精确等于梯度。EP 的关键区别：无需误差单元，不需要前馈/反馈分流，信号以"稳态活动差"形式在时序上自然编码。其 STDP 等价性（权重规则积分 ≈ STDP 形式）为生物实现提供了可信的分子基础。
+
 ### 时间信用分配：三因素规则
 
 $$\frac{d}{dt} e_{ij}(t) = \text{pre}(t) \cdot \text{post}(t) - \frac{e_{ij}(t)}{\tau_e}$$
@@ -71,7 +73,9 @@ $$\frac{d}{dt} w_{ij}(t) = e_{ij}(t) \cdot M_{3rd}(t)$$
 
 - [[three-factor-learning-rule]] — 时间维度信用分配的具体实现
 - [[eligibility-trace]] — 三因素规则中的时间桥梁分子机制
-- [[pc-learning]] — 空间维度信用分配的计算方案（PC-Learning）
+- [[pc-learning]] — 空间维度信用分配的计算方案（PC-Learning，误差传播路径）
+- [[equilibrium-propagation]] — 空间维度信用分配的能量极小化路径（EP，两相比较路径）
+- [[hopfield-network]] — EP 的数学基础：能量极小化框架
 - [[predictive-coding]] — PC-Learning 的理论框架
 - [[hebbian-learning]] — 信用分配问题的出发点：纯 Hebbian 规则缺少方向
 - [[dopamine-reward-prediction-error]] — 多巴胺 RPE = 时间信用分配的第三因素
@@ -86,6 +90,7 @@ $$\frac{d}{dt} w_{ij}(t) = e_{ij}(t) \cdot M_{3rd}(t)$$
 ## 修订历史
 
 - 2026-09-03 · 创建 · 基于《大脑的反向传播幻觉》(#134) · 初始置信度：高（概念本身已确立，机制解答仍有争议）
+- 2026-09-04 · 修订 rev2 · 基于《大脑的能量景观学习》(#135) · 新增"平衡传播（EP）路径"为空间信用分配的第二条方案；related 新增 equilibrium-propagation、hopfield-network；key_sources 新增 PMID:28522969
 
 ## 来源文章
 

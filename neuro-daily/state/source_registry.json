@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-04",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9565,9 +9565,114 @@
         "deep cortical plasticity control",
         "neuromodulatory regulation"
       ]
+    },
+    {
+      "pmid": "28522969",
+      "pmcid": "PMC5415673",
+      "doi": "10.3389/fncom.2017.00024",
+      "title": "Equilibrium Propagation: Bridging the Gap between Energy-Based Models and Backpropagation",
+      "authors": "Scellier B, Bengio Y",
+      "journal": "Front Comput Neurosci",
+      "year": 2017,
+      "open_access": true,
+      "first_used": "2026-09-04",
+      "used_in_articles": [
+        "2026-09-04"
+      ],
+      "topics_covered": [
+        "equilibrium propagation",
+        "biologically plausible backpropagation",
+        "STDP equivalence",
+        "energy-based models",
+        "two-phase learning"
+      ]
+    },
+    {
+      "pmid": "40038254",
+      "pmcid": "PMC11880436",
+      "doi": "10.1038/s41467-025-57043-x",
+      "title": "Temporal Contrastive Learning through implicit non-equilibrium memory",
+      "authors": "Altun K et al.",
+      "journal": "Nature Communications",
+      "year": 2025,
+      "open_access": true,
+      "first_used": "2026-09-04",
+      "used_in_articles": [
+        "2026-09-04"
+      ],
+      "topics_covered": [
+        "temporal contrastive learning",
+        "implicit memory",
+        "integral feedback",
+        "no global phase signal"
+      ]
+    },
+    {
+      "pmid": "29213231",
+      "pmcid": "PMC5703076",
+      "doi": "10.3389/fncir.2017.00092",
+      "title": "The Roles of Cortical Slow Waves in Synaptic Plasticity and Memory Consolidation",
+      "authors": "Miyamoto D, Hirai D, Murayama M",
+      "journal": "Front Neural Circuits",
+      "year": 2017,
+      "open_access": true,
+      "first_used": "2026-09-04",
+      "used_in_articles": [
+        "2026-09-04"
+      ],
+      "topics_covered": [
+        "cortical slow oscillation",
+        "UP state",
+        "DOWN state",
+        "synaptic plasticity",
+        "memory consolidation"
+      ]
+    },
+    {
+      "pmid": "36712943",
+      "pmcid": "PMC9833047",
+      "doi": "10.1093/pnasnexus/pgac265",
+      "title": "Information maximization explains state-dependent synaptic plasticity and memory reorganization during NREM sleep",
+      "authors": "Yoshida T, Toyoizumi T",
+      "journal": "PNAS Nexus",
+      "year": 2022,
+      "open_access": true,
+      "first_used": "2026-09-04",
+      "used_in_articles": [
+        "2026-09-04"
+      ],
+      "topics_covered": [
+        "information maximization",
+        "UP state STDP",
+        "state-dependent plasticity",
+        "global vs local SO",
+        "SWR selective consolidation"
+      ]
+    },
+    {
+      "pmid": "30704969",
+      "pmcid": "PMC6382460",
+      "doi": "10.1016/j.tics.2018.12.005",
+      "title": "Theories of Error Back-Propagation in the Brain",
+      "authors": "Whittington JCR, Bogacz R",
+      "journal": "Trends Cogn Sci",
+      "year": 2019,
+      "open_access": true,
+      "first_used": "2026-09-04",
+      "used_in_articles": [
+        "2026-09-04"
+      ],
+      "topics_covered": [
+        "CHL",
+        "temporal error models",
+        "explicit error models",
+        "weight transport problem",
+        "two-phase coordination",
+        "IT cortex error neurons"
+      ]
     }
   ],
-  "total_sources": 553,
+  "total_sources": 563,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

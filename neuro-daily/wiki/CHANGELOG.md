@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-09-04（#135 · 平衡传播与皮层两相学习）
+
+**新建页面（2页）**：
+- `concepts/equilibrium-propagation.md`（emerging/medium）— Scellier & Bengio 2017 框架：两相活动差精确等于代价梯度；STDP 等价；2025 年隐式非平衡记忆解决两相协调问题
+- `concepts/hopfield-network.md`（established/high）— Hopfield 1982 能量极小化联想记忆；诺贝尔物理学奖 2024；Transformer attention = 连续 Hopfield 检索
+
+**修订页面（3页）**：
+- `concepts/credit-assignment.md`（rev2）— 新增 EP 作为空间信用分配的能量极小化路径（与 PC-Learning 并列）；related 新增 equilibrium-propagation、hopfield-network
+- `concepts/pc-learning.md`（rev2）— 新增 EP 与 PC-Learning 的并行关系说明（能量语言 vs 误差语言）；related 新增 equilibrium-propagation、hopfield-network
+- `concepts/cortical-slow-oscillation.md`（rev4）— 新增 EP 框架视角（UP/DOWN 态两态切换 = EP 两相候选，假说）；新增信息最大化视角（全局 SO → 均一下调，局部 SWR → 选择性强化）
+
+**矛盾登记**：无
+
+**悬空引用（新增待补）**：
+- `contrastive-hebbian-learning`（EP 页中引用，暂无独立页）
+- `associative-memory`（Hopfield 页中引用，暂无独立页）
+- `energy-based-models`（EP 和 Hopfield 页中引用，暂无独立页）
+
+**图谱**：283 节点 / 1591 条边（+2节点 +12条边）
+
+---
+
 ## 2026-09-03（文章 #134 — 大脑的反向传播幻觉：预测编码如何近似梯度下降 / Q-fep-02 部分回答）
 
 **新建页面（2 页）**：
