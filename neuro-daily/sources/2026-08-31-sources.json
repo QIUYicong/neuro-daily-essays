@@ -1,0 +1,127 @@
+{
+  "date": "2026-08-31",
+  "real_date": "2026-06-09",
+  "article": "2026-08-31-hippocampal-prefrontal-theta-coupling",
+  "article_number": 131,
+  "total_sources": 10,
+  "open_full_text": 6,
+  "abstract_only": 4,
+  "sources": [
+    {
+      "pmid": "23986255",
+      "pmcid": "PMC3756763",
+      "title": "Theta oscillations in the medial prefrontal cortex are modulated by spatial working memory and synchronize with the hippocampus through its ventral subregion",
+      "authors": "O'Neill PK, Gordon JA, Sigurdsson T",
+      "journal": "J Neurosci",
+      "year": 2013,
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "key_contribution": "vHPC作为dHPC-mPFC同步的协调枢纽；mPFC theta与工作记忆正确率相关"
+    },
+    {
+      "pmid": "26053122",
+      "pmcid": "PMC4505751",
+      "title": "Hippocampal-prefrontal input supports spatial encoding in working memory",
+      "authors": "Spellman T, Rigotti M, Ahmari SE, Fusi S, Gogos JA, Gordon JA",
+      "journal": "Nature",
+      "year": 2015,
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "key_contribution": "vHPC→mPFC投射对编码期（非维持/取回期）的空间信息写入是必要的；编码期gamma同步"
+    },
+    {
+      "pmid": "20360742",
+      "pmcid": "PMC2864584",
+      "title": "Impaired hippocampal-prefrontal synchrony in a genetic mouse model of schizophrenia",
+      "authors": "Sigurdsson T, Stark KL, Karayiorgou M, Gogos JA, Gordon JA",
+      "journal": "Nature",
+      "year": 2010,
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "key_contribution": "22q11.2缺失→HPC-PFC同步破坏；基线同步强度预测学习速率"
+    },
+    {
+      "pmid": "30318409",
+      "pmcid": "PMC6262834",
+      "title": "Somatostatin Interneurons Facilitate Hippocampal-Prefrontal Synchrony and Prefrontal Spatial Encoding",
+      "authors": "Abbas AI, Sundiang MJM, Henoch B, Morton MP, Bolkan SS, Park AJ, Harris AZ, Kellendonk C, Gordon JA",
+      "journal": "Neuron",
+      "year": 2018,
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "key_contribution": "SST（非PV）中间神经元是HPC-PFC长程同步的必要门控；抑制SST消除mPFC空间编码"
+    },
+    {
+      "pmid": "28420200",
+      "pmcid": "PMC5406700",
+      "title": "Integrating Spatial Working Memory and Remote Memory: Interactions between the Medial Prefrontal Cortex and Hippocampus",
+      "authors": "Wirt RA, Hyman JM",
+      "journal": "Brain Sciences",
+      "year": 2017,
+      "full_text_available": true,
+      "access_type": "open access",
+      "key_contribution": "错误试次中mPFC相位锁定神经元骤减；NRe抑制同时破坏同步和工作记忆"
+    },
+    {
+      "pmid": "25805977",
+      "pmcid": "PMC4354269",
+      "title": "Role of the thalamic nucleus reuniens in mediating interactions between the hippocampus and medial prefrontal cortex during spatial working memory",
+      "authors": "Griffin AL",
+      "journal": "Front Syst Neurosci",
+      "year": 2015,
+      "full_text_available": true,
+      "access_type": "open access",
+      "key_contribution": "NRe是HPC和mPFC双向通信的唯一丘脑枢纽综述"
+    },
+    {
+      "pmid": "20620877",
+      "pmcid": null,
+      "title": "Coherent theta oscillations and reorganization of spike timing in the hippocampal-prefrontal network upon learning",
+      "authors": "Benchenane K, Peyrache A, Khamassi M, et al.",
+      "journal": "Neuron",
+      "year": 2010,
+      "full_text_available": false,
+      "access_type": "abstract only",
+      "key_contribution": "学习后theta相干性在选择点骤增；高相干期细胞集合在睡眠中优先重激活"
+    },
+    {
+      "pmid": "9856467",
+      "pmcid": null,
+      "title": "Coordinated interactions between hippocampal ripples and cortical spindles during slow-wave sleep",
+      "authors": "Siapas AG, Wilson MA",
+      "journal": "Neuron",
+      "year": 1998,
+      "full_text_available": false,
+      "access_type": "abstract only",
+      "key_contribution": "SWR与皮层纺锤波时间协调的最早证据；奠定HPC→皮层睡眠巩固转运机制"
+    },
+    {
+      "pmid": "28655882",
+      "pmcid": null,
+      "title": "Prefrontal-hippocampal interactions in episodic memory",
+      "authors": "Eichenbaum H",
+      "journal": "Nat Rev Neurosci",
+      "year": 2017,
+      "full_text_available": false,
+      "access_type": "abstract only",
+      "key_contribution": "综述HPC-PFC在情景记忆中双向信息流框架；NRe三角回路综述"
+    },
+    {
+      "pmid": "10985280",
+      "pmcid": null,
+      "title": "Hippocampo-prefrontal cortex pathway: anatomical and electrophysiological characteristics",
+      "authors": "Thierry AM, Gioanni Y, Dégénétais E, Glowinski J",
+      "journal": "Hippocampus",
+      "year": 2000,
+      "full_text_available": false,
+      "access_type": "abstract only",
+      "key_contribution": "CA1/subiculum→mPFC单突触投射的解剖电生理特性；兴奋-抑制序列"
+    }
+  ],
+  "minimum_requirements": {
+    "sources_5_plus": true,
+    "open_full_text_2_plus": true,
+    "official_institutional_source": true,
+    "notes": "PubMed/PMC官方来源；6/10篇全文读取；无PMID编造；Spellman 2015和Sigurdsson 2010为Nature论文通过PMC开放获取"
+  }
+}

@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-08-31（文章 #131 — 海马与前额叶的 theta 对话：记忆如何在振荡节律中变为认知控制）
+
+**新建页面（2 页）**：
+- `wiki/circuits/hippocampal-prefrontal-coupling.md`：海马—前额叶 theta 耦合——vHPC→mPFC 直接单突触投射 + NRe 三角回路；theta 相干性在决策选择点骤增；vHPC→mPFC 编码特异性（Spellman 2015）；SST 中间神经元长程同步门控（Abbas 2018）；精神分裂症中同步瓦解（Sigurdsson 2010）；睡眠 SWR-纺锤波协调；status=established, confidence=high
+- `wiki/systems/nucleus-reuniens.md`：丘脑中缝核（NRe）——唯一能同时双向投射海马 CA1 SLM 和 mPFC 的丘脑核；mPFC→NRe→CA1 反馈路径使 PFC 可向海马发"查询指令"；NRe 失活破坏 HPC-mPFC 协作的工作记忆；status=emerging, confidence=medium
+
+**修订页面（2 页）**：
+- `wiki/concepts/theta-oscillations.md`（rev3→rev4）：新增第6节「θ振荡与海马—前额叶长程耦合」（vHPC 驱动 mPFC theta、选择点相干性骤增、gamma 嵌套信息传输、SST 门控、精神分裂症同步瓦解）；related 新增 hippocampal-prefrontal-coupling/working-memory/nucleus-reuniens；key_sources 新增3个PMID；opens_questions 新增 Q-hpfc-01
+- `wiki/circuits/sst-interneurons.md`（rev2→rev3）：新增「mPFC SST+ 在 HPC-mPFC 长程同步中的门控作用」子节（Abbas 2018 双解离，编码特异性，顶端树突抑制提高信噪比机制）；关键证据表增加1行；related 新增 hippocampal-prefrontal-coupling/working-memory；dimensions 新增 whole-brain-network/cognition
+
+**图谱更新**：+2 节点（hippocampal-prefrontal-coupling, nucleus-reuniens），+11 条边；276 节点，1546 条边
+
+**矛盾登记 / 裁决**：无新矛盾（theta 相干性的因果 vs 相关争议已在 Q-hpfc-01 中记录）
+
+**新增未解问题**：Q-hpfc-01（高优先级）、Q-hpfc-02（高优先级）、Q-hpfc-03（中优先级）、Q-hpfc-04（中优先级）
+
+---
+
 ## 2026-08-30（文章 #130 — 前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则）
 
 **新建页面（3 页）**：

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-30",
-  "node_count": 264,
-  "edge_count": 1471,
+  "updated": "2026-08-31",
+  "node_count": 276,
+  "edge_count": 1546,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2482,6 +2482,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/frontal-hierarchy.md"
+    },
+    {
+      "id": "hippocampal-prefrontal-coupling",
+      "title": "海马—前额叶 theta 耦合",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/hippocampal-prefrontal-coupling.md"
+    },
+    {
+      "id": "nucleus-reuniens",
+      "title": "丘脑中缝核",
+      "domain": "systems",
+      "type": "structure",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/systems/nucleus-reuniens.md"
     }
   ],
   "edges": [
@@ -10700,6 +10718,61 @@
       "from": "anterior-cingulate-cortex",
       "to": "frontal-hierarchy",
       "type": "related"
+    },
+    {
+      "from": "hippocampal-prefrontal-coupling",
+      "to": "theta-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "hippocampal-prefrontal-coupling",
+      "to": "working-memory",
+      "type": "supports"
+    },
+    {
+      "from": "hippocampal-prefrontal-coupling",
+      "to": "memory-consolidation",
+      "type": "supports"
+    },
+    {
+      "from": "hippocampal-prefrontal-coupling",
+      "to": "nucleus-reuniens",
+      "type": "part-of"
+    },
+    {
+      "from": "hippocampal-prefrontal-coupling",
+      "to": "sst-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "hippocampal-prefrontal-coupling",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "nucleus-reuniens",
+      "to": "hippocampal-prefrontal-coupling",
+      "type": "supports"
+    },
+    {
+      "from": "nucleus-reuniens",
+      "to": "thalamus",
+      "type": "part-of"
+    },
+    {
+      "from": "nucleus-reuniens",
+      "to": "working-memory",
+      "type": "supports"
+    },
+    {
+      "from": "sst-interneurons",
+      "to": "hippocampal-prefrontal-coupling",
+      "type": "regulates"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "hippocampal-prefrontal-coupling",
+      "type": "supports"
     }
   ],
   "dangling_references": [

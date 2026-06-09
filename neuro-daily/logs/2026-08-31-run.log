@@ -1,0 +1,94 @@
+## Run Log — 2026-08-31 (Article #131)
+
+**Real date**: 2026-06-09
+**Virtual date**: 2026-08-31
+**Branch**: claude/funny-einstein-0eeaye
+**Session**: Continued from previous context window
+
+---
+
+### A. Pre-flight
+
+- Confirmed remote: QIUYicong/neuro-daily-essays ✅
+- Read ROUTINE.md and KNOWLEDGE-BASE-DESIGN.md ✅
+- Checked last article: #130 (2026-08-30, commit 2026-06-09 04:30 UTC)
+- Determined next: #131 (virtual 2026-08-31)
+
+---
+
+### B. Topic Selection
+
+**Topic**: 海马—前额叶 theta 耦合（hippocampal-prefrontal theta coupling）
+**Rationale**: Natural bridge connecting Track 4 (记忆/海马) and Track 5 (认知控制/PFC). Sequence: #128 三因子学习 → #129 ACC → #130 DLPFC → #131 HPC-PFC 界面。
+**Core question**: 海马与前额叶如何通过 theta 振荡实现实时通信，并支撑空间记忆的编码与提取？
+
+---
+
+### C. Literature Search
+
+**PubMed searches performed**:
+- "hippocampal prefrontal theta coherence working memory"
+- "hippocampal prefrontal coupling spatial memory theta oscillations"
+- "vHPC mPFC projection encoding specificity"
+- "nucleus reuniens thalamus hippocampus prefrontal"
+- "SST interneurons mPFC theta synchrony"
+
+**Sources retrieved**: 10 total
+- 6 open full text (PMC): O'Neill 2013, Spellman 2015, Sigurdsson 2010, Abbas 2018, Wirt & Hyman 2017, Griffin 2015
+- 4 abstract only: Benchenane 2010, Siapas & Wilson 1998, Jones & Wilson 2005, Jadhav 2016
+
+**PMIDs confirmed**: 23986255, 26053122, 20360742, 30318409, 28041652, 24857720, 18003917, 9607773, 15958793, 27263969
+
+---
+
+### D. Files Created
+
+**Article**:
+- `articles/2026-08-31-hippocampal-prefrontal-theta-coupling.md` (~5000 Chinese words)
+
+**Notes**:
+- `notes/2026-08-31-reading-notes.md` (detailed notes for 6 full-text papers)
+
+**Sources**:
+- `sources/2026-08-31-sources.json` (10 sources with PMIDs, access status, key contributions)
+
+**Wiki — New pages** (2):
+- `wiki/circuits/hippocampal-prefrontal-coupling.md` (revision_count=1, status=established, confidence=high)
+- `wiki/systems/nucleus-reuniens.md` (revision_count=1, status=emerging, confidence=medium)
+
+**Wiki — Revised pages** (2):
+- `wiki/concepts/theta-oscillations.md` (rev3→rev4): Added HPC-PFC coupling mechanism section, 3 new connections, 3 new sources
+- `wiki/circuits/sst-interneurons.md` (rev2→rev3): Added mPFC SST+ gate section, Abbas 2018 evidence row, 2 new connections
+
+---
+
+### E. Knowledge Graph Update
+
+- `wiki/_graph.json`: 274→276 nodes, 1535→1546 edges (+2 nodes, +11 edges)
+- New nodes: hippocampal-prefrontal-coupling (circuits/mechanism/established/high), nucleus-reuniens (systems/structure/emerging/medium)
+- New edges: 11 typed relationships connecting new nodes to existing theta-oscillations, working-memory, sst-interneurons, place-cell, sleep-consolidation, hippocampal-circuit, pv-interneurons, nmda-receptor, spatial-navigation, attention
+
+---
+
+### F. Governance Updates
+
+- `wiki/index.md`: total pages 258, 276节点/1546边
+- `wiki/CHANGELOG.md`: prepended 2026-08-31 entry
+- `state/monthly_synthesis.md`: updated header + added row for #131
+- `state/unresolved_questions.md`: added 4 new questions (Q-hpfc-01 through Q-hpfc-04)
+- `state/topic_ledger.json`: total_articles=131, last_updated=2026-08-31
+
+---
+
+### G. Unresolved Questions Registered
+
+| ID | Priority | Question |
+|----|----------|---------|
+| Q-hpfc-01 | high | HPC-PFC theta 相干性是否因果性地驱动 mPFC 编码，还是仅反映共同输入？ |
+| Q-hpfc-02 | high | NRe 回路在 HPC-PFC 耦合中是否必要，还是仅为调制性？ |
+| Q-hpfc-03 | medium | 睡眠中 SWR-纺锤波协调在多大程度上选择性地巩固高相干细胞集合？ |
+| Q-hpfc-04 | medium | HPC-PFC theta 耦合如何与前额叶内部 gamma 振荡整合实现信息编码？ |
+
+---
+
+### Status: COMPLETE ✅

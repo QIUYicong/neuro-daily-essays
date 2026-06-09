@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-08-10
-revision_count: 2
-dimensions: [molecular, cellular, synaptic, microcircuit, disease]
-related: [pv-interneurons, vip-interneurons, disinhibitory-circuit, dendritic-computation, theta-oscillations, hippocampal-circuit, place-cell, ltp, btsp, cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration, ei-balance]
+updated: 2026-08-31
+revision_count: 3
+dimensions: [molecular, cellular, synaptic, microcircuit, whole-brain-network, disease, cognition]
+related: [pv-interneurons, vip-interneurons, disinhibitory-circuit, dendritic-computation, theta-oscillations, hippocampal-circuit, place-cell, ltp, btsp, cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration, ei-balance, hippocampal-prefrontal-coupling, working-memory]
 prerequisites: [synaptic-transmission, dendritic-computation, nmda-receptor]
 opens_questions: [Q-sst-dendritic-spike-gate, Q-olm-theta-function]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630"]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:30318409"]
 ---
 
 # SST+ 中间神经元（Somatostatin-expressing Interneurons）
@@ -47,6 +47,18 @@ SST+ 细胞是**活跃锥体细胞的反馈抑制器**：当锥体细胞高频�
 - 在 θ 振荡期间，O-LM 细胞在特定相位强放电，压制内嗅皮层输入
 - 这创造了一个"时间窗口"效应：θ 的不同相位分别允许/禁止 EC 输入进入 CA1
 
+### mPFC SST+ 中间神经元在 HPC-mPFC 长程同步中的门控作用
+
+Abbas 等人（2018, PMID:30318409, PMC6262834）发现，mPFC 内 SST+（而非 PV+）中间神经元是海马—前额叶长程 theta 同步的**必要门控元件**：
+
+- 细胞类型特异光遗传抑制 mPFC SST+（编码阶段）→ HPC→mPFC theta 相干性降低 + 空间工作记忆受损 + mPFC 空间调谐消除
+- 细胞类型特异光遗传抑制 mPFC PV+ → 无效果
+- SST 效果具有**编码特异性**：仅编码阶段产生损害，延迟期抑制无效
+
+机制推断：vHPC 投射激活 mPFC 锥体细胞 → 高频放电通过短时程易化激活 mPFC SST+ → SST+ 抑制其他锥体细胞顶端树突 → 提高"海马信号传输集合"的信噪比 → 增强这些神经元与 HPC theta 的相位锁定。
+
+这一发现揭示了 SST 中间神经元功能的**跨区扩展**：不只是局部抑制树突计算，还通过顶端树突门控维持跨脑区的长程同步。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -56,6 +68,7 @@ SST+ 细胞是**活跃锥体细胞的反馈抑制器**：当锥体细胞高频�
 | O-LM 细胞在 θ 期间放电活跃，靶向内嗅皮层输入区 | 清醒大鼠 CA1 体内记录 | PMID:18599766 | 高 |
 | O-LM 细胞在 SWR 期间被压制（O-LM firing suppressed）| 清醒大鼠 CA1 体内记录 | PMID:18599766 | 高 |
 | SST+ 约占皮层 GABA 能神经元 30% | 分子标记 + 细胞计数 | PMID:21154909 | 高 |
+| mPFC SST+（非 PV+）光遗传抑制破坏 HPC→mPFC 相干性、空间编码（双解离）| Cre 特异 halorhodopsin，分三阶段干预 | PMID:30318409（全文） | 高 |
 
 ## 连接
 
@@ -66,6 +79,8 @@ SST+ 细胞是**活跃锥体细胞的反馈抑制器**：当锥体细胞高频�
 - [[theta-oscillations]] — O-LM 细胞（SST+ 亚类）在 θ 期间活跃，门控 EC 输入
 - [[hippocampal-circuit]] — O-LM 细胞、bistratified 细胞是海马主要 SST+ 类型
 - [[btsp]] — SST+ 抑制可能调控 BTSP 所需钙平台电位的阈值
+- [[hippocampal-prefrontal-coupling]] — mPFC 内 SST+ 是 HPC-PFC 长程 theta 同步的必要门控元件（Abbas 2018）
+- [[working-memory]] — SST 抑制 mPFC 编码阶段的空间工作记忆（编码特异性）
 
 ## 未解问题
 
@@ -76,6 +91,7 @@ SST+ 细胞是**活跃锥体细胞的反馈抑制器**：当锥体细胞高频�
 
 - 2026-06-03 · 创建 · 基于《回路中的少数精锐》一文 · 初始置信度：高
 - 2026-08-10 · 修订 rev2 · 基于《皮层的第二种建筑学》(#109) · 新增：MGE 背侧来源（Nkx2.1/Lhx6 接力）、SST 早出生（E11-E13 高峰，先于 PV）、精神分裂症 OFC 中 SST mRNA 减少 67%（Joshi 2015）；related 新增发育相关节点
+- 2026-08-31 · 修订 rev3 · 基于《海马与前额叶的theta对话》(#131) · 新增：mPFC SST+ 在 HPC-mPFC 长程同步中的必要门控功能（Abbas et al. 2018 光遗传双解离，PV vs SST 编码特异性区分）；related 新增 hippocampal-prefrontal-coupling/working-memory；dimensions 新增 whole-brain-network/cognition；key_sources 新增 PMID:30318409
 
 ## 来源文章
 

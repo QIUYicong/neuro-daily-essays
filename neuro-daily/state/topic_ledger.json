@@ -1,7 +1,89 @@
 {
-  "last_updated": "2026-08-30",
-  "total_articles": 130,
+  "last_updated": "2026-08-31",
+  "total_articles": 131,
   "entries": [
+    {
+      "date": "2026-08-31",
+      "real_date": "2026-06-09",
+      "article_number": 131,
+      "title": "海马与前额叶的 theta 对话：记忆如何在振荡节律中变为认知控制",
+      "slug": "hippocampal-prefrontal-theta-coupling",
+      "filename": "2026-08-31-hippocampal-prefrontal-theta-coupling.md",
+      "article_type": "regular",
+      "core_question": "海马 CA1/vHPC 通过直接单突触投射和 NRe 三角回路与 mPFC 相连——为什么决策选择点时 theta 相干性骤增？vHPC→mPFC 编码特异性的机制（Spellman 2015）？SST 中间神经元如何门控长程同步（Abbas 2018）？睡眠 SWR-纺锤波如何协调记忆巩固？精神分裂症 22q11.2 缺失如何破坏同步？",
+      "layer": [
+        "whole-brain-network",
+        "brain-region",
+        "microcircuit",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "Track 4（记忆巩固：theta 振荡+SWR 的睡眠巩固联系）× Track 5（认知控制：PFC 工作记忆的 HPC 输入依赖）的跨轨整合节点；填补 hippocampal-prefrontal-coupling 和 nucleus-reuniens 两个悬空概念",
+      "topic_tags": [
+        "hippocampal-prefrontal coupling",
+        "theta synchrony",
+        "vHPC mPFC",
+        "nucleus reuniens",
+        "NRe",
+        "working memory",
+        "spatial encoding",
+        "Spellman 2015",
+        "Abbas 2018",
+        "O'Neill 2013",
+        "Sigurdsson 2010",
+        "Benchenane 2010",
+        "Siapas Wilson 1998",
+        "Wirt Hyman 2017",
+        "Griffin 2015",
+        "Eichenbaum 2017",
+        "SST interneurons",
+        "gamma synchrony",
+        "sleep consolidation",
+        "SWR spindle coupling",
+        "encoding specificity",
+        "schizophrenia",
+        "22q11.2 deletion",
+        "LFP coherence",
+        "theta-gamma nesting",
+        "complementary learning systems"
+      ],
+      "main_sources": [
+        "PMID:23986255 / PMC3756763 (O'Neill 2013, J Neurosci, open full text read)",
+        "PMID:26053122 / PMC4505751 (Spellman 2015, Nature, PMC open full text read)",
+        "PMID:20360742 / PMC2864584 (Sigurdsson 2010, Nature, PMC open full text read)",
+        "PMID:30318409 / PMC6262834 (Abbas 2018, Neuron, PMC open full text read)",
+        "PMID:28420200 / PMC5406700 (Wirt & Hyman 2017, Brain Sci, open full text read)",
+        "PMID:25805977 / PMC4354269 (Griffin 2015, Front Syst Neurosci, open full text read)",
+        "PMID:20620877 (Benchenane 2010, Neuron, abstract only)",
+        "PMID:9856467 (Siapas & Wilson 1998, Neuron, abstract only)",
+        "PMID:28655882 (Eichenbaum 2017, Nat Rev Neurosci, abstract only)",
+        "PMID:10985280 (Thierry 2000, Hippocampus, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/circuits/hippocampal-prefrontal-coupling.md",
+        "wiki/systems/nucleus-reuniens.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/theta-oscillations.md (rev3->rev4): 新增第6节'theta振荡与海马-前额叶长程耦合'；related新增3节点；key_sources新增3个PMID",
+        "wiki/circuits/sst-interneurons.md (rev2->rev3): 新增mPFC SST+门控长程同步子节；关键证据表增加1行；related新增2节点"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-hpfc-01",
+        "Q-hpfc-02",
+        "Q-hpfc-03",
+        "Q-hpfc-04"
+      ],
+      "next_suggested_topics": [
+        "海马-前额叶睡眠记忆巩固的机制细节：NREM 3期 SO-纺锤-SWR 三重嵌套序列（从知识库历史文章#75延伸，聚焦于 mPFC 的主动参与而非被动接受）",
+        "前额叶-海马交互中的 theta 预测编码：mPFC 如何通过 NRe→CA1 通路发送'预测'信号，影响海马的内容编码——预测处理视角的 HPC-PFC 关系",
+        "工作记忆的双系统整合：vHPC 提供情景内容 vs DLPFC 维持抽象规则，两者在 N-back 和延迟匹配任务中如何协调分工",
+        "精神分裂症的神经回路缺陷：22q11.2 微缺失下，HPC-PFC 同步下降是 SST 减少的结果还是 vHPC→mPFC 解剖连接的减少？能否用单细胞测序+连接组学区分？"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-09（真实执行日期）；知识库虚拟日期2026-08-31；Track 4×Track 5 跨轨整合节点；10个来源中6个开放全文读取；无PMID编造；无新矛盾登记；2个新wiki页创建，2个修订；知识图谱：276节点，1546条边"
+    },
     {
       "date": "2026-08-09",
       "real_date": "2026-06-07",

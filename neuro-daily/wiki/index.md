@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-30（**#130**·前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则）· 主题页总数：**256**（新建3页：mixed-selectivity · dlpfc-rule-encoding · frontal-hierarchy；修订3页：prefrontal-cortex rev5 · anterior-cingulate-cortex rev2 · working-memory rev9；图谱274节点、1535边）
+> 最后更新：2026-08-31（**#131**·海马与前额叶的 theta 对话：记忆如何在振荡节律中变为认知控制）· 主题页总数：**258**（新建2页：hippocampal-prefrontal-coupling · nucleus-reuniens；修订2页：theta-oscillations rev4 · sst-interneurons rev3；图谱276节点、1546边）
 
 ---
 
@@ -38,7 +38,8 @@
 - 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许"；Haber螺旋模型：腹侧（动机）→背侧（习惯）级联 **[修订 rev2 2026-07-13]**
 - 🟢 [丘脑-皮层回路](circuits/thalamocortical-circuit.md) — TRN（CaV3.3 T型）↔TC（CaV3.1）振荡环路是睡眠纺锤波起搏器；Core/Matrix双通路；CT反馈在清醒/睡眠切换中起关键作用；**新增**：一次/高次视丘核（Sherman框架）、驱动/调制型突触、PFC→TRN大型端钮（2026-06-03更新）
 - 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序 **[NEW 2026-06-03]**
-- 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
+- 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入；mPFC SST+ 是 HPC-PFC 长程 theta 同步的必要门控元件（Abbas 2018） **[NEW 2026-06-03; rev3 2026-08-31]**
+- 🟢 [海马—前额叶 theta 耦合](circuits/hippocampal-prefrontal-coupling.md) — vHPC→mPFC 直接投射+NRe 三角回路；编码特异性（Spellman 2015）；SST 门控长程同步（Abbas 2018）；决策选择点相干性骤增；精神分裂症同步瓦解 **[NEW 2026-08-31 #131]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
 - 🟢 [前额叶-杏仁核情绪调控回路](circuits/pfc-amygdala-emotion-regulation.md) — IL（vmPFC）通过三路并联（ITC门控/BLA直接投射/PVT中继）压制杏仁核恐惧输出；PL 反向促进恐惧表达；IL内部mGluR5→AMPAR可塑性；IL训练时写入/回忆时表达逻辑 **[NEW 2026-07-31 #99]**
@@ -243,6 +244,7 @@
 ## systems（系统）
 
 - 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
+- 🟡 [丘脑中缝核（NRe）](systems/nucleus-reuniens.md) — 丘脑唯一能同时双向投射海马 CA1（SLM）和 mPFC 的核；HPC-mPFC 三角回路枢纽；NRe 抑制选择性破坏 HPC-mPFC 协作工作记忆 **[NEW 2026-08-31 #131]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；**BLA奖励神经元（Ppp1r1b+→NAc）与恐惧神经元（Rspo2+→CeA）通过对立突触可塑性实现正/负价值双通道编码**；与PFC（IL/PL）和海马形成情绪调控三角回路；慢性应激下BLA树突增生 vs 海马退缩的方向性分离（修订rev4 2026-07-30 #98）**[NEW 2026-05-30]**

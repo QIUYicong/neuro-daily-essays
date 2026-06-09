@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-06-22
-revision_count: 3
-dimensions: [whole-brain-network, brain-region, cellular, behavior, methods]
-related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex]
+updated: 2026-08-31
+revision_count: 4
+dimensions: [whole-brain-network, brain-region, cellular, behavior, cognition, methods]
+related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex, hippocampal-prefrontal-coupling, working-memory, nucleus-reuniens]
 prerequisites: [action-potential, hippocampal-circuit, place-cells]
-opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380"]
+opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05, Q-hpfc-01]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells, 2026-08-31-hippocampal-prefrontal-theta-coupling]
+key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380", "PMID:23986255", "PMID:26053122", "PMID:20360742"]
 ---
 
 # θ振荡 (Theta Oscillations)
@@ -93,7 +93,19 @@ key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611",
 
 **因果链**：MS GABA神经元节律性抑制 → 海马PV+中间神经元去抑制 → θ振荡驱动 → REM期维持LA-VH θ同步 → 情绪记忆去饱和化。Boyce 2016通过在REM睡眠（而非NREM）期间光遗传激活MS GABA神经元以打乱θ，证明了MS-θ-记忆这条因果链。
 
-### 6. θ与BTSP的协调（新假说）
+### 6. θ振荡与海马—前额叶长程耦合
+
+θ振荡不只在海马局部发挥作用，它也是**海马—前额叶（HPC-mPFC）长程同步**的载体（O'Neill et al., 2013）：
+
+- **腹侧海马（vHPC）驱动 mPFC theta**：mPFC 局部生成 theta 振荡，但其功率和相位与 vHPC theta 密切耦合；药理学抑制 vHPC 后，dHPC-mPFC theta 相干性显著下降
+- **决策选择点的"theta 爆发"**：工作记忆任务的选择关键时刻，HPC-mPFC theta 相干性骤增（Benchenane et al., 2010, PMID:20620877）；正确选择前的 theta 功率高于错误选择前
+- **Theta 窗口内的 gamma 信息传输**：vHPC→mPFC 直接投射在 theta 同步窗口内，通过 **gamma 振荡（30–80 Hz）**的相位锁定传输具体空间信息（Spellman et al., 2015）
+- **SST 中间神经元门控**：mPFC 内 SST+ 中间神经元（Martinotti 细胞）通过顶端树突抑制维持 HPC-mPFC theta 相干性；抑制 SST 就破坏长程同步（Abbas et al., 2018）
+- **精神分裂症中的 theta 同步瓦解**：Df(16)A 小鼠（22q11.2 缺失模型）的 HPC-mPFC theta 相干性减少约 50%，前额叶神经元几乎不再相位锁定（Sigurdsson et al., 2010, PMID:20360742）
+
+这一功能扩展了 theta 振荡的角色：从"海马内部的时间组织者"升级为"海马与前额叶之间的信息传输协议"。
+
+### 7. θ与BTSP的协调（新假说）
 
 Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡的时机，使特定输入更容易触发**树突钙平台电位**（BTSP的触发器）。如果成立，θ不只是记录时间的时钟，也是主动创造BTSP"机会窗口"的调制机制。
 
@@ -123,6 +135,9 @@ Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡�
 - [[rem-sleep]] — REM睡眠中θ振荡持续活跃，驱动情绪记忆的离线巩固；REM θ是清醒θ功能的情景变体
 - [[fear-extinction]] — LA-VH θ相位差（约180°）预测消退记忆质量，REM θ同步是消退记忆巩固的神经底物
 - [[emotional-memory-depotentiation]] — REM θ振荡的功能结果之一：通过LA-VH去耦合，减弱情绪记忆的情感色彩
+- [[hippocampal-prefrontal-coupling]] — theta 振荡是 HPC-mPFC 长程同步的载体；决策时刻相干性骤增
+- [[working-memory]] — vHPC→mPFC theta 耦合在编码阶段写入空间信息到 PFC 工作记忆
+- [[nucleus-reuniens]] — 丘脑中缝核通过 mPFC→NRe→CA1 路径在三角回路中调节 theta 同步
 
 ## 未解问题
 
@@ -138,6 +153,7 @@ Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡�
 - 2026-05-29 · 创建 · 填补高优先级悬空引用（由 place-cell、ltp、hippocampal-circuit、grid-cell 引用） · 基于《θ振荡与相位编码》文章 · 初始置信度：高
 - 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells、grid-cell→grid-cells、phase-precession→theta-phase-precession；新增related条目：path-integration、entorhinal-cortex；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
 - 2026-05-31 · 修订 · 整合REM睡眠θ内容：新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节（LA-VH θ相位差、Boyce 2016光遗传因果证据、清醒/REM θ功能对比表）；补充当前理解段落；关键证据表增加2行；连接增加rem-sleep/fear-extinction/emotional-memory-depotentiation；未解问题增加Q-rem-01/Q-rem-03/Q-rem-05 · 基于《REM睡眠与情绪记忆》文章
+- 2026-08-31 · 修订 · 新增第6节「θ振荡与海马—前额叶长程耦合」；related新增hippocampal-prefrontal-coupling/working-memory/nucleus-reuniens；key_sources新增PMID:23986255/26053122/20360742；opens_questions新增Q-hpfc-01；连接新增3条 · 基于《海马与前额叶的theta对话》文章（#131）
 
 ## 来源文章
 

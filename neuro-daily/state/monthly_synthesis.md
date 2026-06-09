@@ -4,8 +4,8 @@
 
 ## 2026年8月（进行中）
 
-*本月截至日期：2026-08-30*
-*本月新增文章：#100–#130；共 31 篇（月度第1–31篇）。8-18至8-24连续7篇语言系统深度专题；8-25 切换至分子/突触（STDP）；8-26 深挖 STDP 的物理基础（bAP 回传动作电位），填补 stdp.md 悬空引用；8-27 完成突触可塑性三部曲（STDP→bAP→元可塑性），在 wiki 新建 metaplasticity 和 bcm-rule 页面，打通"为什么突触不会失控"这一根本问题；8-28 开启认知控制系列：三因素学习规则打通突触-系统两层；8-29 前扣带回皮层 EVC 认知控制调度框架；8-30 DLPFC 混合选择性与高维规则编码*
+*本月截至日期：2026-08-31*
+*本月新增文章：#100–#131；共 32 篇（月度第1–32篇）。8-18至8-24连续7篇语言系统深度专题；8-25 切换至分子/突触（STDP）；8-26 深挖 STDP 的物理基础（bAP 回传动作电位），填补 stdp.md 悬空引用；8-27 完成突触可塑性三部曲（STDP→bAP→元可塑性），在 wiki 新建 metaplasticity 和 bcm-rule 页面，打通"为什么突触不会失控"这一根本问题；8-28 开启认知控制系列：三因素学习规则打通突触-系统两层；8-29 前扣带回皮层 EVC 认知控制调度框架；8-30 DLPFC 混合选择性与高维规则编码；8-31 海马—前额叶 theta 耦合：Track 4×Track 5 跨轨桥梁节点*
 
 ### 本月文章摘要
 
@@ -34,6 +34,7 @@
 | 128 | 2026-08-28 | 信用的时间归属：突触标记、资格迹与三因素学习规则如何让大脑实现强化学习 | 分子/突触/细胞/微回路/行为 |
 | 129 | 2026-08-29 | 大脑的成本-效益计算器：前扣带回皮层如何决定值不值得控制自己 | 脑区/认知 |
 | 130 | 2026-08-30 | 前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则 | 细胞/微回路/脑区/认知 |
+| 131 | 2026-08-31 | 海马与前额叶的 theta 对话：记忆如何在振荡节律中变为认知控制 | 全脑网络/脑区/微回路/认知/疾病 |
 
 ### 本月核心主题（进行中）
 
@@ -41,7 +42,7 @@
 
 8月中旬转向**课程脊柱第2章（神经网络如何建成）的发育序列**：#103（轴突导向）→ #105（突触生成）→ #106（突触修剪）→ #107（DCN 运动记忆）→ #108（皮层神经发生，兴奋性侧）→ **#109（皮层中间神经元发育，抑制性侧）**→ #110（无脑回畸形：LIS1/DCX/Reelin 突变）→ #111（SRGAP2C/ARHGAP11B 人类进化）→ #112（皮层区域化：转录因子梯度与 FGF8 信号）→ **#113（丘脑皮层轴突布线：走廊细胞/握手假说/Ephrin梯度/丘脑波/上丘门控）**→ **#114（眼优势柱与关键期：Hebbian 竞争、沉默突触开锁、PNN 封印的完整分子程序）**→ **#115（腹侧视觉流不变量识别：V1→V4→IT 层级、面孔块 ML/MF→AM 视角整合梯度、选择性-不变性-稀疏度三角）**。第 113–115 篇完成"接线工程 → 关键期竞争 → 高级感知计算"的视觉系统三章逻辑闭环。核心新发现：AM 面孔块 73% 神经元对面孔身份调谐且几乎完全视角不变（Freiwald & Tsao 2010）；稀疏度守恒（~10% IT 激活率）在腹侧流各层级精确维持（Rust & DiCarlo 2012）；面孔块发育依赖经验（无面孔暴露→无面孔块，Conway 2018）。本月知识图谱：244节点，1386条边。新wiki页（本月累计）：cortical-neurogenesis、outer-radial-glia、notch2nl-cortical-expansion、cortical-interneuron-development、tangential-migration、medial-ganglionic-eminence、gaba、lissencephaly、srgap2c-neoteny、cortical-arealization、fgf8-cortical-patterning、thalamocortical-axons、subplate-neurons、ocular-dominance-columns、retinal-waves、inferior-temporal-cortex、v4-visual-area、invariant-object-recognition、face-patch-system（19 页）。
 
-8月末从突触可塑性转向**认知控制的跨层级整合**：**#128**（三因素学习规则）将突触标记/资格迹与多巴胺 RPE 信号贯通，回答"突触如何解决时间信用分配问题"；**#129**（ACC/EVC）将系统层面的"是否值得控制"决策机制（dACC 计算期望控制价值）与突触层面的 DA-RPE 整合，新建 anterior-cingulate-cortex 和 error-related-negativity wiki 页，修订 prefrontal-cortex 等4页；**#130**（DLPFC 混合选择性）深入揭示前额叶如何用高维非线性混合选择性编码无数认知规则，引入 Cover 定理、参与比（PR score）、动态编码（Stokes 2013）等核心概念，新建 mixed-selectivity、dlpfc-rule-encoding、frontal-hierarchy 3 个 wiki 页，修订 prefrontal-cortex/working-memory/anterior-cingulate-cortex，知识图谱升至 274 节点/1535 条边。三篇合力完成"突触可塑性机制 → 全脑认知控制调度（ACC/EVC）→ 前额叶高维计算"的认知控制基础三部曲。
+8月末从突触可塑性转向**认知控制的跨层级整合**：**#128**（三因素学习规则）将突触标记/资格迹与多巴胺 RPE 信号贯通，回答"突触如何解决时间信用分配问题"；**#129**（ACC/EVC）将系统层面的"是否值得控制"决策机制（dACC 计算期望控制价值）与突触层面的 DA-RPE 整合；**#130**（DLPFC 混合选择性）深入揭示前额叶如何用高维非线性混合选择性编码无数认知规则，引入 Cover 定理、参与比（PR score）、动态编码（Stokes 2013），知识图谱升至 274 节点/1535 条边；**#131**（海马-前额叶 theta 耦合）正式焊接 Track 4（记忆系统）与 Track 5（认知控制）的知识桥梁——揭示 vHPC→mPFC 直接投射的编码特异性（Spellman 2015）、NRe 三角回路、SST 长程同步门控（Abbas 2018）、决策选择点 theta 相干性峰值（Benchenane 2010），以及睡眠 SWR-纺锤波记忆巩固机制，新建 hippocampal-prefrontal-coupling 和 nucleus-reuniens 两个 wiki 页，知识图谱升至 276 节点/1546 条边。
 
 ---
 

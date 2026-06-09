@@ -1,6 +1,38 @@
 # 未解问题追踪
 
-*最后更新：2026-08-30*
+*最后更新：2026-08-31*
+
+---
+
+## 2026-08-31 新增（来自"海马与前额叶的 theta 对话"文章 #131 — HPC-PFC theta 耦合）
+
+### Q-hpfc-01（高优先级）：vHPC→mPFC 编码期 gamma 锁定是否依赖 NMDA 受体？
+
+- **关联 wiki**：[[hippocampal-prefrontal-coupling]]、[[theta-oscillations]]、[[working-memory]]
+- **来源文章**：2026-08-31-hippocampal-prefrontal-theta-coupling
+- **问题**：Spellman 2015 发现编码阶段 vHPC→mPFC 投射活跃时，mPFC 神经元与 vHPC gamma 振荡相位锁定。这种 gamma 锁定是通过 NMDA 受体依赖的突触整合实现的吗？若用 APV（NMDA 拮抗剂）阻断 mPFC NMDA 受体，能否选择性消除 gamma 锁定而不影响 theta 相干性？这将区分"theta 是传输通道"和"gamma 是信息载体"的假说。
+- **当前证据状态**：gamma 锁定在编码阶段更强（中-高，Spellman 2015）；NMDA 依赖性机制尚无直接证明（低）
+
+### Q-hpfc-02（高优先级）：人类侵入性 EEG 是否能重现 HPC-mPFC theta 相干性的任务依赖性变化？
+
+- **关联 wiki**：[[hippocampal-prefrontal-coupling]]、[[working-memory]]
+- **来源文章**：2026-08-31-hippocampal-prefrontal-theta-coupling
+- **问题**：目前的啮齿类证据（O'Neill 2013、Spellman 2015、Abbas 2018 等）非常可靠，但人类直接证据极为缺乏。癫痫患者的侵入性 EEG（sEEG/ECoG）是目前唯一能在人类中直接测量 HPC-mPFC 相干性的方法，但：(a) 癫痫患者的 HPC 功能可能受损；(b) 电极布置受临床需要约束，不一定覆盖 vHPC 和 mPFC；(c) 空间分辨率有限。能否在健康人类中用 MEG（磁脑图）间接验证？
+- **当前证据状态**：人类 HPC-mPFC theta 耦合的侵入性证据（emerging，少量 sEEG 研究提示 theta 相关变化，但尚未有直接系统量化）
+
+### Q-hpfc-03（中优先级）：NRe 内部神经元亚型的时序分工？
+
+- **关联 wiki**：[[nucleus-reuniens]]、[[hippocampal-prefrontal-coupling]]
+- **来源文章**：2026-08-31-hippocampal-prefrontal-theta-coupling
+- **问题**：丘脑中缝核（NRe）内部有兴奋性（谷氨酸能）和抑制性（GABA 能）神经元。在 theta 振荡和工作记忆任务中，这两种细胞类型是否有不同的时序激活模式？NRe 是单纯"门控器"（在 theta 峰时允许信号通过）还是"整合器"（合并 HPC 输入和 mPFC 输入后再分发）？NRe 在睡眠中（SWR 期间）的作用尚不清楚。
+- **当前证据状态**：NRe 细胞类型特异性功能数据（低，大多数研究只是整体失活 NRe）
+
+### Q-hpfc-04（中优先级）：精神分裂症的 HPC-PFC 同步下降优先破坏什么？
+
+- **关联 wiki**：[[hippocampal-prefrontal-coupling]]、[[sst-interneurons]]
+- **来源文章**：2026-08-31-hippocampal-prefrontal-theta-coupling
+- **问题**：Sigurdsson 2010 发现 22q11.2 缺失小鼠 HPC-mPFC 同步几乎消失，但内部回路相对完整。SST 中间神经元在 22q11.2 模型中的功能如何？Abbas 2018 发现 mPFC SST+ 功能是长程同步的必要条件，那么精神分裂症（SST mRNA 系统性减少 67%）的同步下降是主要通过 SST 功能受损介导的吗？还是主要来自 vHPC→mPFC 解剖连接的减少？
+- **当前证据状态**：22q11.2 模型中 SST 功能分析（低）；精神分裂症皮质 SST 减少与 HPC-PFC 同步的直接关联（低）
 
 ---
 
