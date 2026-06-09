@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2446,6 +2446,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/eligibility-trace.md"
+    },
+    {
+      "id": "anterior-cingulate-cortex",
+      "title": "前扣带回皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/anterior-cingulate-cortex.md"
     }
   ],
   "edges": [
@@ -10559,6 +10568,46 @@
       "from": "dopamine-reward-prediction-error",
       "to": "eligibility-trace",
       "type": "regulates"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "anterior-cingulate-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "working-memory",
+      "type": "regulates"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "anterior-cingulate-cortex",
+      "type": "related"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "orbitofrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "pv-interneurons",
+      "type": "related"
     }
   ],
   "dangling_references": [

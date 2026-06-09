@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-08-28
-revision_count: 2
+updated: 2026-08-29
+revision_count: 3
 dimensions: [molecular, synaptic, cellular, microcircuit, behavior, cognition]
-related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, eligibility-trace, stdp, btsp, backpropagating-action-potential]
+related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, eligibility-trace, stdp, btsp, backpropagating-action-potential, anterior-cingulate-cortex]
 prerequisites: [hebbian-learning, ltp, synaptic-transmission, nmda-receptor, stdp]
 opens_questions: [Q-three-factor-time-window, Q-stc-molecular-tag]
 source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-08-28-three-factor-learning-rule-eligibility-traces]
@@ -121,6 +121,7 @@ DA 抑制（δ < 0）时，通过 D2 受体 → Gi → cAMP↓ → PP2B/PP1 级�
 
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 填补 [[hebbian-learning]] 页面的悬空引用 [[three-factor-learning-rule]] · 初始置信度：高
 - 2026-08-28 · 重大修订 · 基于《信用的时间归属》一文（#128）· 核心升级：引入资格迹（e_ij）数学框架（Gerstner 2018，PMID:30108488）；更新分子机制为 PDE10A 时钟（Yagishita 2014，PMID:25258080）；整合 BTSP 为极端案例（Bittner 2017，PMID:28883072）；新增与 eligibility-trace / stdp / btsp 的连接；status 从 mainstream → established（多系统实验证据）；confidence 保持 high
+- 2026-08-29 · 修订 · 基于《大脑的成本-效益计算器》(#129，ACC) · 新增 related: anterior-cingulate-cortex；三因素规则（突触 DA）与 dACC-ERN（系统 DA）使用同一多巴胺通路，在不同时间-空间尺度上并行运作
 
 ## 来源文章
 

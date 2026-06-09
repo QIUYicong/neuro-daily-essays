@@ -1,6 +1,31 @@
 # 未解问题追踪
 
-*最后更新：2026-08-27*
+*最后更新：2026-08-29*
+
+---
+
+## 2026-08-29 新增（来自"大脑的成本-效益计算器"文章 #129 — 前扣带回皮层）
+
+### Q-acc-evc-vs-conflict（高优先级）：dACC 的核心计算是冲突检测还是 EVC？
+
+- **关联 wiki**：[[anterior-cingulate-cortex]]、[[working-memory]]
+- **来源文章**：2026-08-29-anterior-cingulate-cortex-evc-cognitive-control
+- **问题**：冲突监测假说（Botvinick 2001）预言 dACC 专门响应反应竞争（conflict）；EVC 框架（Shenhav 2013）预言 dACC 响应所有影响控制价值的因素（奖励、努力成本、不确定性等）。两个框架的核心分歧在于：(a) dACC 的基础计算是检测局部竞争激活，还是综合多维信息的价值评估？(b) 当奖励大幅提升但冲突为零时（例如：高奖励无冲突条件），dACC 是否激活？EVC 预言激活，冲突假说预言不激活；(c) 实验中两者常共变，需要特殊设计分离。需要在系统控制冲突和 EVC 分别变化的条件下测量 dACC 单细胞放电或高分辨率 fMRI。
+- **当前证据状态**：冲突激活 dACC（高）；奖励独立激活 dACC（中，部分证据支持）；EVC 的全预言集直接验证（低）
+
+### Q-acc-subregion-boundary（高优先级）：人类 dACC 和 aMCC 的精确功能边界
+
+- **关联 wiki**：[[anterior-cingulate-cortex]]
+- **来源文章**：2026-08-29-anterior-cingulate-cortex-evc-cognitive-control
+- **问题**：Vogt 等将 ACC 细分为 pgACC、dACC 和 aMCC（前中扣带回）。在猕猴中，解剖学和细胞结构研究支持 dACC 和 aMCC 的功能差异（dACC 更多与认知评估，aMCC/CMA 更多与运动-结果联系）。但：(a) 在人类中，标准 3T fMRI 的分辨率（~3×3×3 mm 体素）无法精确区分这两个亚区；(b) 7T fMRI（~1×1×1 mm 体素）原则上可以，但大量认知控制任务的 7T 数据尚缺；(c) 颅内 iEEG 数据（癫痫手术患者）可以提供毫秒级分辨率但解剖覆盖有限。需要系统性的 7T 多任务 fMRI 数据集明确人类 dACC/aMCC 的功能边界。
+- **当前证据状态**：猕猴亚区功能差异（中-高，若干病变研究）；人类亚区边界（低，技术分辨率限制）
+
+### Q-acc-ern-dopamine-causal（中优先级）：ERN 与 dACC 多巴胺的直接因果链
+
+- **关联 wiki**：[[anterior-cingulate-cortex]]、[[dopamine-reward-prediction-error]]
+- **来源文章**：2026-08-29-anterior-cingulate-cortex-evc-cognitive-control
+- **问题**：Holroyd & Coles（2002）提出 ERN 反映 DA-RPE 信号传递到 ACC 的效果，但这一因果链一直缺乏直接证据：(a) 没有人能在人类被试中同时测量 ACC 的 DA 释放和 EEG ERN 波形；(b) 动物研究中可以测量 DA 释放（voltammetry、光纤光度计），但 ERN 是人类 EEG 特有指标（动物 EEG 中有类似信号但不完全对等）；(c) COMT 基因型研究（影响 DA 代谢速率）发现 COMT 变体与 ERN 的关联不稳定（不同研究结论相反）；(d) 药理 DA 操控（溴隐亭）对 ERN 的影响方向不一致。需要 fMRS（功能磁共振波谱）结合 EEG 同步测量 GABA/谷氨酸在 dACC 中的变化，以及更系统的 PET-EEG 联合实验。
+- **当前证据状态**：间接药理支持（中，方向不完全一致）；遗传关联（低，不稳定）；直接 DA 释放-ERN 关联（低，技术瓶颈）
 
 ---
 

@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-08-29（文章 #129 — 大脑的成本-效益计算器：前扣带回皮层如何决定"值不值得控制自己"）
+
+**新建页面（1 页）**：
+- `wiki/systems/anterior-cingulate-cortex.md`：前扣带回皮层——认知控制调度中心；涵盖冲突监测假说（Botvinick 2001）、ERN-多巴胺理论（Holroyd & Coles 2002）、行动价值学习（Kennerley 2006, Rudebeck 2008）、反事实奖励编码（Hayden 2009）、EVC 框架（Shenhav 2013）、自下而上单细胞视角（Heilbronner & Hayden 2016）；status=established, confidence=high
+
+**修订页面（3 页）**：
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev10→rev11）：related 新增 anterior-cingulate-cortex；补充 DA-RPE 通过 ERN 机制（D2 去抑制→ACC 激活）产生系统级行为调整信号的说明
+- `wiki/concepts/three-factor-learning-rule.md`（rev2→rev3）：related 新增 anterior-cingulate-cortex；补充突触层面 DA（三因素规则）与系统层面 DA（dACC ERN）共享多巴胺通路的架构
+- `wiki/concepts/working-memory.md`（rev7→rev8）：related 新增 anterior-cingulate-cortex；补充 dACC 通过 EVC 调度 DLPFC 工作记忆激活的元层控制关系
+
+**图谱更新**：+1 节点（anterior-cingulate-cortex），+8 条边；271 节点，1522 条边
+
+**矛盾登记 / 裁决**：无新矛盾；无矛盾裁决
+
+**新增未解问题**：Q-acc-evc-vs-conflict（高优先级）、Q-acc-subregion-boundary（高优先级）、Q-acc-ern-dopamine-causal（中优先级）
+
+---
+
 ## 2026-08-28（文章 #128 — 信用的时间归属：突触标记、资格迹与三因素学习规则如何让大脑实现强化学习）
 
 **新建页面（1 页）**：

@@ -210,6 +210,12 @@
       "confidence": "high",
       "last_changed": "2026-08-27",
       "reason": "BCM 1982 theoretical framework validated by Kirkwood & Bear 1994 LTD experiments and Clothiaux 1991 simulations; molecular implementations proposed (Castellani 2001, Narayanan 2010); status mainstream rather than established because body-in full in vivo confirmation of the θ_m mechanism still limited"
+    },
+    "anterior-cingulate-cortex": {
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-08-29",
+      "reason": "Anatomical features well-characterized (agranular, direct spinal projections); conflict monitoring fMRI replicated across many labs; ERN from ACC source well-localized; ACC lesion studies (monkey, rat) showing action value learning impairment are causal; EVC framework has multiple direct experimental validations; status established for the core findings, medium confidence for EVC as the complete explanatory framework"
     }
   }
 }

@@ -941,6 +941,14 @@
 
 STDP 是赫布规则的毫秒级精化：突触前先于突触后 5–40 ms 放电→LTP（NMDA 受体+bAP 超线性 Ca²⁺）；反之→LTD（低 Ca²⁺→磷酸酶→AMPA 内吞）。Markram 1997 Science（新皮质，PMID:8985014）和 Bi & Poo 1998 J Neurosci（海马培养，PMID:9852584）奠定经典学习窗口。AMPA 受体是时间精度的调节器（超线性 Ca²⁺，孤立棘最强，Holbro 2010 PNAS）。两个重要挑战：(1) 生理 Ca²⁺（1.3-1.8 mM）下标准配对无法诱导 LTP，需要 θ-burst（Inglebert & Debanne 2021，PMC8488271）；(2) 长期（3天）同步性 vs 因果时序（Anisimova 2022，Cereb Cortex）。多巴胺/乙酰胆碱/去甲肾上腺素作为第三因素调制 STDP 规则（Foncelle 2018）。人类 ccPAS-TMS 直接 STDP 证据（Hernandez-Pavon 2022，PMC10188658）。登记矛盾 C-2026-08-25-01（因果 vs 同步性）。新建 1 个 wiki 页（stdp），修订 ltp/hebbian-learning 两页。图谱：265节点，1480边。
 
+### 2026-08-29 · 文章 #129 · 大脑的成本-效益计算器：前扣带回皮层如何决定"值不值得控制自己"
+
+**层级切换**：从连续4篇分子/突触/细胞层（STDP→bAP→metaplasticity→三因素规则）切换至脑区/认知层，开启"认知控制系列"。
+
+dACC 的核心问题不是"它检测什么"而是"它为什么检测"——答案是 EVC（期望控制价值）框架（Shenhav et al. 2013，PMID:23889930，PMC3767969）：dACC 计算投入控制的期望收益减努力成本，将结果传递给 DLPFC 等执行区域。这统一了三种历史模型：(1) 冲突监测假说（Botvinick 2001，PMID:11488380）——冲突=需要更多控制的信号；(2) ERN-多巴胺假说（Holroyd & Coles 2002，PMID:12374324）——ERN（80-100ms 内侧额叶 EEG 负波）= 负 DA-RPE 在 ACC 通过 D2 受体去抑制的表达；(3) 行动价值学习（Kennerley 2006，PMID:16783368；Rudebeck 2008，PMID:19091968）——ACC 专门积累行动-结果历史。Hayden 2009（PMID:19443783，PMC3096846）发现 dACC 神经元对反事实奖励放电——这是探索-利用决策的神经基础。Heilbronner & Hayden 2016（PMID:27090954，PMC5512175）从单细胞自下而上视角：dACC 编码任务状态-策略对，类比"前运动皮层的上一级"。
+
+**关键架构发现**：三因素学习规则的 DA-RPE（突触级）与 dACC-ERN（系统级）使用同一条多巴胺通路——但在不同空间尺度和时间分辨率运作，揭示学习机制从突触到脑区的连贯性。新建 1 个 wiki 页（anterior-cingulate-cortex），修订 3 个页面（dopamine-reward-prediction-error rev11；three-factor-learning-rule rev3；working-memory rev8）。图谱：271节点，1522边。
+
 ### 2026-08-28 · 文章 #128 · 信用的时间归属：突触标记、资格迹与三因素学习规则如何让大脑实现强化学习
 
 **层级桥接**：分子/突触/细胞（突触可塑性系列第5篇，STDP→bAP→metaplasticity→三因素规则）→行为层，完成"从单突触物理法则到行为强化学习"的垂直整合。

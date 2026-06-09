@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-06-06
-revision_count: 10
+updated: 2026-08-29
+revision_count: 11
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation, substance-use-disorder, incentive-salience, deltaFosB, myelination, oligodendrocyte, orbitofrontal-cortex, subjective-value-encoding, vta, substantia-nigra, d1-d2-receptor-signaling, direct-indirect-pathway]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation, substance-use-disorder, incentive-salience, deltaFosB, myelination, oligodendrocyte, orbitofrontal-cortex, subjective-value-encoding, vta, substantia-nigra, d1-d2-receptor-signaling, direct-indirect-pathway, anterior-cingulate-cortex]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning, dopamine-systems-anatomy]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
 source_articles: [2026-06-06-dopamine-systems-anatomy, 2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision]
@@ -165,6 +165,7 @@ DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回
 - 2026-07-27 · 修订 · 基于《绝缘层的革命》(#95) · 新增 VTA 髓鞘化维度：Yalçın et al. 2024（PMID:38839962）表明 VTA 中 OL 生成（由多巴胺神经元活动驱动）是阿片类奖励的必要条件——OL 可塑性参与 DA 回路的传导时序调节，是 DA-RPE 系统的结构性基础之一；新增关联 myelination、oligodendrocyte
 - 2026-07-29 · 修订 · 基于《价值的地图》文章 #97 · 新增"OFC 双层学习对 DA-RPE 框架的扩展"小节：Hattori 2023 发现 OFC 快速学习依赖 DA-RPE，慢速元学习依赖 CaMKII 独立机制；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:37957318
 - 2026-06-06 · 修订（回溯补充） · 基于《奖励、运动与认知的统一信使》(#15，多巴胺系统解剖基础) · 新增 prerequisites: dopamine-systems-anatomy；related 新增 vta, substantia-nigra, d1-d2-receptor-signaling, direct-indirect-pathway；建立完整的解剖基础—计算逻辑前后序关系
+- 2026-08-29 · 修订 · 基于《大脑的成本-效益计算器》(#129，前扣带回皮层) · 新增 related: anterior-cingulate-cortex；DA-RPE 信号通过 ERN 机制（D2 受体介导的 ACC 去抑制）在系统级产生行为调整信号；三因素规则的突触 DA 与 dACC 的 ERN 共享分子通路
 
 ## VTA 髓鞘化对多巴胺回路的结构性调节（2026-07-27 补充）
 

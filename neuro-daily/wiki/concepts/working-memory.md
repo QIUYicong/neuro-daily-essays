@@ -6,10 +6,10 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-08-03
-revision_count: 7
+updated: 2026-08-29
+revision_count: 8
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit]
+related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit, anterior-cingulate-cortex]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
 source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition, 2026-08-03-working-memory-neural-code-debate]
@@ -128,6 +128,7 @@ Panichello et al. (2024, PMID:39506106) 通过 Neuropixels 探针同时记录 8,
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语音工作记忆（phonological loop）与背侧语言流的解剖对应：Spt（音韵短期缓冲）↔BA44（内部发声）即Baddeley语音回路的神经底层；related 新增 dorsal-language-stream, language-network
 - 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增背内侧视丘（MD）的工作记忆放大器角色小节：MD 维持延迟期晚期活动（不影响早期）；MD-PFC θ/β 同步；认知灵活性依赖 MD-OFC；精神分裂症中 MD-dlPFC 降低∝认知缺陷；related 新增 thalamus, thalamocortical-circuit
 - 2026-08-03 · 修订 · 基于《工作记忆神经代码之争》一文（#102）· 新增 Panichello 2024 Neuropixels 关键证据（8225神经元，On/Off状态交替，Off态功能连接保存方向信息）；新增"On/Off 态交替机制"小节；Q-wm-active-vs-silent 更新为"部分解答"；新增 Q-wm-onoff-01/02/03；key_sources 新增 PMID:39506106, PMID:34654556
+- 2026-08-29 · 修订 · 基于《大脑的成本-效益计算器》(#129，ACC) · 新增 related: anterior-cingulate-cortex；dACC 通过 EVC 计算决定是否向 DLPFC 分配更多工作记忆资源，是工作记忆激活的元层调度节点
 
 ## NE 和 ACh 对工作记忆的调制
 
