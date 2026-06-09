@@ -8119,6 +8119,92 @@
         "纹状体 D1/D2 通路的结构与功能分工：行动发起与抑制的分子回路",
         "多巴胺神经元的精细解剖：VTA vs SNc 的功能差异与奖励/运动分工"
       ]
+    },
+    {
+      "date": "2026-06-09",
+      "article_number": 129,
+      "title": "纹状体的极性开关：D1/D2 通路相反的突触可塑性逻辑如何实现动作选择学习",
+      "slug": "striatum-d1-d2-plasticity-dichotomy",
+      "core_question": "多巴胺如何对直接通路（D1-MSN）和间接通路（D2-MSN）施加相反的长时程可塑性，从而将奖励信号转化为持久的动作选择偏好？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior"
+      ],
+      "topic_tags": [
+        "striatum",
+        "D1-MSN",
+        "D2-MSN",
+        "LTP",
+        "LTD",
+        "dopamine",
+        "direct pathway",
+        "indirect pathway",
+        "STDP",
+        "endocannabinoid",
+        "PKA",
+        "DARPP-32",
+        "A2A receptor",
+        "Shen 2008",
+        "Kravitz 2010",
+        "Kravitz 2012",
+        "three-factor learning rule",
+        "habit formation",
+        "Parkinson's disease"
+      ],
+      "main_sources": [
+        {
+          "pmid": "18687967",
+          "pmcid": "PMC2833421",
+          "title": "Shen 2008 - Dichotomous dopaminergic control of striatal synaptic plasticity",
+          "open": true
+        },
+        {
+          "pmid": "22544310",
+          "pmcid": "PMC3410042",
+          "title": "Kravitz 2012 - Distinct roles for direct and indirect pathway striatal neurons in reinforcement",
+          "open": true
+        },
+        {
+          "pmid": "25562526",
+          "pmcid": "PMC4285402",
+          "title": "Gurney 2015 - New framework for cortico-striatal plasticity",
+          "open": true
+        },
+        {
+          "pmid": "20613723",
+          "pmcid": null,
+          "title": "Kravitz 2010 - Regulation of parkinsonian motor behaviours by optogenetic control",
+          "open": false
+        },
+        {
+          "pmid": "38370850",
+          "pmcid": "PMC10871330",
+          "title": "Phillips 2024 - Striatal dopamine contributions to skilled motor learning",
+          "open": true
+        }
+      ],
+      "wiki_pages_created": [
+        "striatal-synaptic-plasticity"
+      ],
+      "wiki_pages_updated": [
+        "d1-d2-receptor-signaling",
+        "three-factor-learning-rule",
+        "habit-formation"
+      ],
+      "unresolved_questions": [
+        "Q-striatum-a2a-d2-dimer",
+        "Q-striatum-d1-affinity-logic",
+        "Q-striatum-anatomical-specificity"
+      ],
+      "next_suggested_topics": [
+        "内源性大麻素（2-AG/eCB）信号通路：纹状体 LTD 的逆行传递机制与 CB1 受体",
+        "前额叶皮层-纹状体回路的双向通讯：DA 如何同步调节 PFC 工作记忆门控与纹状体学习",
+        "β 振荡在基底节功能中的角色：为什么多巴胺耗竭会导致 β 同步增强？"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -8132,7 +8218,8 @@
       "2026-06-12",
       "2026-07-03",
       "2026-07-28",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-06-09"
     ],
     "cellular": [
       "2026-05-24",
@@ -8148,7 +8235,8 @@
       "2026-07-03",
       "2026-07-26",
       "2026-07-28",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-06-09"
     ],
     "synaptic": [
       "2026-05-24",
@@ -8160,14 +8248,16 @@
       "2026-06-10",
       "2026-07-03",
       "2026-07-28",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-06-09"
     ],
     "microcircuit": [
       "2026-05-27",
       "2026-06-03",
       "2026-06-11",
       "2026-06-18",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-06-09"
     ],
     "brain_region": [
       "2026-05-27",
@@ -8192,7 +8282,8 @@
       "2026-05-31",
       "2026-06-02",
       "2026-06-03",
-      "2026-07-28"
+      "2026-07-28",
+      "2026-06-09"
     ],
     "cognition": [
       "2026-05-26",
@@ -8226,7 +8317,8 @@
       "2026-07-26"
     ],
     "brain-region": [
-      "2026-07-26"
+      "2026-07-26",
+      "2026-06-09"
     ]
   },
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",

@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-06-09（文章 #129 — 纹状体的极性开关：D1/D2 通路相反的突触可塑性逻辑）
+
+**新建页面（1 页）**：
+- `wiki/concepts/striatal-synaptic-plasticity.md`：纹状体突触可塑性——D1-MSN（D1/PKA→LTP，屏蔽 eCB-LTD）vs D2-MSN（D2/eCB/2-AG/CB1→LTD，A2A/PKA→LTP，双向可塑性保留）；PD 模型下极性逆转（D1-MSN→单向 LTD，D2-MSN→单向 LTP）；体内行为证据（Kravitz 2012，PMID:22544310）；三因素规则的纹状体实例化；status=established, confidence=high
+
+**修订页面（3 页）**：
+- `wiki/concepts/d1-d2-receptor-signaling.md`（rev1→rev2）：新增内源性大麻素（eCB/2-AG/DAGLα/CB1）LTD 通路；A2A 腺苷受体在 D2-MSN LTP 中的角色；PD 极性逆转数据；D1 低亲和力 vs D2 高亲和力的功能意义（Phillips 2024）；新增关联页 striatal-synaptic-plasticity/endocannabinoid-signaling/three-factor-learning-rule；新增 key_sources PMID:18687967/22544310
+- `wiki/concepts/three-factor-learning-rule.md`（rev2→rev3）：补充：第三因素（DA）在纹状体 D1/D2 MSN 上产生相反方向效果的分子答案；新增关联页 striatal-synaptic-plasticity/d1-d2-receptor-signaling；新增 key_sources PMID:18687967/22544310
+- `wiki/concepts/habit-formation.md`（rev3→rev4）：新增习惯形成的突触底物（D1-dSPN 皮层→纹状体 LTP 积累 = S-R 联结固化）；新增关联页和 prerequisite striatal-synaptic-plasticity；新增 key_sources PMID:18687967
+
+**图谱变化**：271 节点（+1），1524 条边（+10）
+
+**登记矛盾**：无新矛盾（D1/D2 极性数据与既有主张一致，强化了三因素规则的纹状体实例化）
+
+**新增悬空引用待补**：`endocannabinoid-signaling`（D2-MSN LTD 的 eCB 通路，尚无专页）
+
+---
+
 ## 2026-08-28（文章 #128 — 信用的时间归属：突触标记、资格迹与三因素学习规则如何让大脑实现强化学习）
 
 **新建页面（1 页）**：

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-13
-updated: 2026-07-29
-revision_count: 3
+updated: 2026-06-09
+revision_count: 4
 dimensions: [microcircuit, brain-region, behavior, cognition]
-related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, substance-use-disorder, deltaFosB, incentive-salience, orbitofrontal-cortex, subjective-value-encoding]
-prerequisites: [basal-ganglia, dopamine-reward-prediction-error]
-opens_questions: [Q-bg-habit-goal-split, Q-habit-01, Q-habit-02]
-source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision]
-key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376", "PMID:27475769", "PMID:21338877", "PMID:18545266", "PMID:16633341"]
+related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, substance-use-disorder, deltaFosB, incentive-salience, orbitofrontal-cortex, subjective-value-encoding, striatal-synaptic-plasticity, d1-d2-receptor-signaling, three-factor-learning-rule]
+prerequisites: [basal-ganglia, dopamine-reward-prediction-error, striatal-synaptic-plasticity]
+opens_questions: [Q-bg-habit-goal-split, Q-habit-01, Q-habit-02, Q-striatum-anatomical-specificity]
+source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision, 2026-06-09-striatum-d1-d2-plasticity-dichotomy]
+key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376", "PMID:27475769", "PMID:21338877", "PMID:18545266", "PMID:16633341", "PMID:18687967"]
 ---
 
 # 习惯形成（目标导向 vs 习惯性行为）(Habit Formation: Goal-Directed vs Habitual Behavior)
@@ -127,8 +127,10 @@ Padoa-Schioppa & Assad（2006，PMID:16633341）的直接证据：OFC 神经元�
 - 2026-07-13 · 创建 · 基于《行动的仲裁者：纹状体如何决定你该动还是不动》(#81) · 初始置信度：高（多实验室、多物种）
 - 2026-07-14 · 修订 · 基于《欲望的叛变》(#82) · 补充成瘾作为习惯系统病理极端的机制（ΔFosB/NAc 突触重塑 + 激励显著性解耦）；更新 related 字段（addiction → substance-use-disorder, deltaFosB, incentive-salience）；Q-habit-01 部分解答（成瘾不可逆性双层机制）
 - 2026-07-29 · 修订 · 基于《价值的地图》文章 #97 · 新增"OFC 对目标导向系统的关键贡献"小节：明确 OFC 是目标导向系统灵活性的神经来源（Rangel 2008 + Padoa-Schioppa 2006）；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:18545266, PMID:16633341
+- 2026-06-09 · 补充修订 · 基于"纹状体极性开关"文章 · 新增：习惯形成的突触底物为 D1-dSPN 皮层→纹状体突触的 LTP 积累（Shen 2008，PMID:18687967）；重复奖励→D1-MSN 突触持续增强→DLS S-R 权重固化；新增关联页 striatal-synaptic-plasticity/d1-d2-receptor-signaling/three-factor-learning-rule；added prerequisite: striatal-synaptic-plasticity
 
 ## 来源文章
 
 - [[2026-07-13-striatum-direct-indirect-pathway-habit]]
 - [[2026-07-14-addiction-dopamine-deltaFosB]]
+- [[2026-06-09-striatum-d1-d2-plasticity-dichotomy]]

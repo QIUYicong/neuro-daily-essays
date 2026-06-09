@@ -9205,6 +9205,58 @@
         "mGluR"
       ],
       "used_in": "2026-08-27"
+    },
+    {
+      "pmid": "18687967",
+      "pmcid": "PMC2833421",
+      "title": "Dichotomous dopaminergic control of striatal synaptic plasticity",
+      "authors": "Shen W, Flajolet M, Greengard P, Surmeier DJ",
+      "journal": "Science",
+      "year": 2008,
+      "open_access": true,
+      "used_in": [
+        "2026-06-09-striatum-d1-d2-plasticity-dichotomy"
+      ],
+      "coverage": "D1/D2 MSN STDP 极性实验；PD 模型极性逆转；eCB-LTD 通路"
+    },
+    {
+      "pmid": "22544310",
+      "pmcid": "PMC3410042",
+      "title": "Distinct roles for direct and indirect pathway striatal neurons in reinforcement",
+      "authors": "Kravitz AV, Tye LD, Kreitzer AC",
+      "journal": "Nature Neuroscience",
+      "year": 2012,
+      "open_access": true,
+      "used_in": [
+        "2026-06-09-striatum-d1-d2-plasticity-dichotomy"
+      ],
+      "coverage": "光遗传激活 D1-dSPN→正强化，D2-iSPN→惩罚；行为因果证据"
+    },
+    {
+      "pmid": "25562526",
+      "pmcid": "PMC4285402",
+      "title": "A new framework for cortico-striatal plasticity: behavioural theory meets in vitro data",
+      "authors": "Gurney KN, Humphries MD, Redgrave P",
+      "journal": "PLOS Biology",
+      "year": 2015,
+      "open_access": true,
+      "used_in": [
+        "2026-06-09-striatum-d1-d2-plasticity-dichotomy"
+      ],
+      "coverage": "STDE 框架；D1/D2 协同而非纯拮抗的行为学理论整合"
+    },
+    {
+      "pmid": "38370850",
+      "pmcid": "PMC10871330",
+      "title": "Striatal dopamine contributions to skilled motor learning",
+      "authors": "Phillips CD, Hodge AT, Myers CC, Leventhal DK, Burgess CR",
+      "journal": "Journal of Neuroscience",
+      "year": 2024,
+      "open_access": true,
+      "used_in": [
+        "2026-06-09-striatum-d1-d2-plasticity-dichotomy"
+      ],
+      "coverage": "运动学习 DA 时序重加权；D1 低亲和力/D2 高亲和力功能分工"
     }
   ],
   "total_sources": 12,

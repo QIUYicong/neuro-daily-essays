@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-27（**#127**·可塑性的守门人：BCM 规则与元可塑性如何防止突触失控）· 主题页总数：**253**（新建2页：metaplasticity · bcm-rule；修订2页：hebbian-learning rev6 · ltp frontmatter；图谱269节点、1504边）
+> 最后更新：2026-06-09（**#129**·纹状体的极性开关：D1/D2 通路相反的突触可塑性逻辑）· 主题页总数：**254**（新建1页：striatal-synaptic-plasticity；修订3页：d1-d2-receptor-signaling rev2·three-factor-learning-rule rev3·habit-formation rev4；图谱271节点、1524边）
 
 ---
 
@@ -144,7 +144,8 @@
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号；演员-批评家框架中批评家信号的神经实现；OFC双层学习：快速RPE驱动+慢速CaMKII元学习（Hattori 2023）**[修订 rev10 2026-06-06 #101，新增解剖基础 prerequisites]**
-- 🟢 [D1/D2 多巴胺受体信号](concepts/d1-d2-receptor-signaling.md) — D1→Gs→cAMP↑→PKA→DARPP-32 Thr34磷酸化（直接通路兴奋）vs D2→Gi→cAMP↓→GIRK（间接通路抑制）；D2三重角色（突触后/自受体/皮层谷氨酸末梢）；PFC D1倒U型（Weber 2022，75项研究荟萃，R²=0.26）**[NEW 2026-06-06 #101]**
+- 🟢 [D1/D2 多巴胺受体信号](concepts/d1-d2-receptor-signaling.md) — D1→Gs→cAMP↑→PKA→DARPP-32 Thr34磷酸化（直接通路兴奋）vs D2→Gi→cAMP↓→GIRK（间接通路抑制）；D2三重角色（突触后/自受体/皮层谷氨酸末梢）；PFC D1倒U型；**修订 rev2 2026-06-09**：新增 eCB-LTD 通路、A2A 拮抗、PD 极性逆转**[NEW 2026-06-06 #101]**
+- 🟢 [纹状体突触可塑性](concepts/striatal-synaptic-plasticity.md) — D1-MSN（D1/PKA→LTP，屏蔽 eCB-LTD）vs D2-MSN（D2/eCB/2-AG/CB1→LTD，双向可塑性）；PD 下极性逆转（D1→单向 LTD，D2→单向 LTP）；Kravitz 2012 行为证据（D1激活=强化，D2激活=惩罚）；三因素规则纹状体实例 **[NEW 2026-06-09 #129]**
 - 🟢 [基底神经节直接/间接通路](concepts/direct-indirect-pathway.md) — D1-MSN→直接通路（Go：纹状体→SNr/GPi→丘脑去抑制→运动促进）vs D2-MSN→间接通路（No-Go：纹状体→GPe→STN→SNr/GPi→丘脑抑制→运动抑制）；多巴胺协同效应（D1激活+D2抑制=双重绿灯）；PD：多巴胺耗竭→间接通路过度激活→β振荡 **[NEW 2026-06-06 #101]**
 - 🟢 [习惯形成（目标导向 vs 习惯性行为）](concepts/habit-formation.md) — DMS（目标导向/奖励贬值敏感）vs DLS（习惯/S-R联结）双系统并行竞争；括号化（Jog 1999）；奖励贬值测试；OFC提供目标导向系统的结果当前价值（Rangel 2008）；成瘾作为习惯系统的病理极端（**修订 rev3 2026-07-29**）**[NEW 2026-07-13]**
 - 🔵 [演员-批评家模型（基底节的强化学习架构）](concepts/actor-critic-model.md) — NAc=批评家（TD误差/DA-RPE）；背侧纹状体=演员（策略更新）；OFC→NAc提供批评家的结果价值输入；OFC元学习扩展（Hattori 2023）（**修订 rev2 2026-07-29**）**[NEW 2026-07-13]**

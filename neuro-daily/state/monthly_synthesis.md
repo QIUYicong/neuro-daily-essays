@@ -946,3 +946,14 @@ STDP 是赫布规则的毫秒级精化：突触前先于突触后 5–40 ms 放�
 **层级桥接**：分子/突触/细胞（突触可塑性系列第5篇，STDP→bAP→metaplasticity→三因素规则）→行为层，完成"从单突触物理法则到行为强化学习"的垂直整合。
 
 三因素规则的精确数学框架（Gerstner 2018，PMID:30108488，开放全文）：突触资格迹 e_ij（赫布协同激发设置，τ_e 秒级衰减）× 第三因素 M_3rd（多巴胺/NE/5-HT）→ 权重变化 Δw。关键实验证据三角：(1) Yagishita 2014（PMID:25258080）纹状体单棘成像，PDE10A 时钟机制，0.3-2s 多巴胺时窗，直接可视化资格迹寿命；(2) He et al. 2015（via Gerstner 2018）皮层 STDP 单独无持久性→NE 触发 LTP（5-10s），5-HT 触发 LTD（3s）；(3) Bittner 2017（PMID:28883072）BTSP 极端资格迹（±3-4s），单次平台电位写入地点场。Schultz 1997（PMID:9054347）多巴胺 RPE = 三因素 M_3rd 的行为层实现。Izhikevich 2007（PMID:17220510）理论先行：STDP 慢多巴胺动力学解决远端奖励问题。BTSP/三因素/TD-learning 的 AI 对照（E-prop，eligibility traces in RL）。新建 1 个 wiki 页（eligibility-trace），修订 3 个页面（three-factor-learning-rule 重大修订→status=established；btsp rev3；stdp rev3）。图谱：270节点，1514边。
+
+
+### 2026-06-09 · 文章 #129 · 纹状体的极性开关：D1/D2 通路相反的突触可塑性逻辑
+
+**主题**：纹状体 D1/D2 MSN 突触可塑性的极性逻辑
+
+**一句话**：多巴胺通过 D1/PKA 偏向 D1-MSN（直接通路）LTP、D2/eCB 偏向 D2-MSN（间接通路）LTD 的极性逻辑，将一次奖励信号自动翻译成"同时推强 go 回路、拉弱 no-go 回路"的双向突触修改——这是大脑强化学习的直接突触底物，帕金森病中极性逆转（D1-MSN→单向 LTD，D2-MSN→单向 LTP）从突触层面解释了运动启动障碍的来源。
+
+**关键来源**：Shen et al. 2008 Science（PMID:18687967，开放全文）——D1/D2-EGFP 小鼠 STDP 实验，细胞类型分辨率下首次直接证明极性差异；Kravitz et al. 2012 Nat Neurosci（PMID:22544310）——光遗传激活 D1-dSPN→持续正强化，D2-iSPN→短暂惩罚；Gurney et al. 2015 PLOS Biol（PMID:25562526）——D1/D2 协同而非简单拮抗的理论框架
+
+**对月度大图景的贡献**：完成了突触可塑性系列（STDP→bAP→BCM/metaplasticity→三因素规则→今日）的最终"落地"——从抽象的三因素规则框架下降到具体的受体/分子/细胞类型层面，给出了"第三因素（DA）如何在两类神经元上产生相反方向效果"的分子答案。新建 striatal-synaptic-plasticity wiki 页面（established/high），修订 d1-d2-receptor-signaling（rev1→rev2）、three-factor-learning-rule（rev2→rev3）、habit-formation（rev3→rev4）。图谱：271节点（+1），1524条边（+10）。

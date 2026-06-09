@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-06
-updated: 2026-06-06
-revision_count: 1
+updated: 2026-06-09
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, microcircuit, brain-region]
-related: [dopamine-reward-prediction-error, direct-indirect-pathway, vta, substantia-nigra, dopamine-systems-anatomy, working-memory, prefrontal-cortex, basal-ganglia, parkinsons-disease]
+related: [dopamine-reward-prediction-error, direct-indirect-pathway, vta, substantia-nigra, dopamine-systems-anatomy, working-memory, prefrontal-cortex, basal-ganglia, parkinsons-disease, striatal-synaptic-plasticity, endocannabinoid-signaling, three-factor-learning-rule]
 prerequisites: [synaptic-transmission, action-potential, g-protein-signaling]
-opens_questions: [Q-d1-inverted-u-mechanism, Q-darpp32-network-state]
-source_articles: [2026-06-06-dopamine-systems-anatomy]
-key_sources: ["PMID:30716356", "PMID:24130517", "PMID:35389678"]
+opens_questions: [Q-d1-inverted-u-mechanism, Q-darpp32-network-state, Q-striatum-a2a-d2-dimer]
+source_articles: [2026-06-06-dopamine-systems-anatomy, 2026-06-09-striatum-d1-d2-plasticity-dichotomy]
+key_sources: ["PMID:30716356", "PMID:24130517", "PMID:35389678", "PMID:18687967", "PMID:22544310"]
 ---
 
 # D1/D2 多巴胺受体信号 (D1/D2 Dopamine Receptor Signaling)
@@ -97,6 +97,8 @@ D2R 激活
 - [[working-memory]] — PFC D1 受体的倒 U 型门控工作记忆信噪比
 - [[basal-ganglia]] — D1/D2 分布的解剖基础在纹状体 MSN 中
 - [[parkinsons-disease]] — DA 耗竭→D1/D2 平衡崩溃→直接/间接通路失衡
+- [[striatal-synaptic-plasticity]] — D1/D2 信号如何产生相反的 STDP 极性（核心延伸）
+- [[three-factor-learning-rule]] — D1/D2 极性逻辑是三因素规则在纹状体的实例化
 
 ## 未解问题
 
@@ -106,7 +108,9 @@ D2R 激活
 ## 修订历史
 
 - 2026-06-06 · 创建 · 基于《奖励、运动与认知的统一信使》(#15) · 初始置信度：高
+- 2026-06-09 · 修订 · 基于"纹状体极性开关"文章 · 新增：D1-MSN vs D2-MSN 的 STDP 极性差异（Shen 2008）；内源性大麻素（eCB/2-AG/DAGLα/CB1）LTD 通路；PD 模型下极性逆转；A2A 腺苷受体在 D2-MSN LTP 中的角色；新增 key_sources PMID:18687967/22544310；新增关联页 striatal-synaptic-plasticity/endocannabinoid-signaling
 
 ## 来源文章
 
 - [[2026-06-06-dopamine-systems-anatomy]]
+- [[2026-06-09-striatum-d1-d2-plasticity-dichotomy]]

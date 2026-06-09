@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-28",
+  "updated": "2026-06-09",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2446,6 +2446,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/eligibility-trace.md"
+    },
+    {
+      "id": "striatal-synaptic-plasticity",
+      "title": "纹状体突触可塑性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/striatal-synaptic-plasticity.md"
     }
   ],
   "edges": [
@@ -10559,6 +10568,56 @@
       "from": "dopamine-reward-prediction-error",
       "to": "eligibility-trace",
       "type": "regulates"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "d1-d2-receptor-signaling",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "three-factor-learning-rule",
+      "type": "supports"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "basal-ganglia",
+      "type": "part-of"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "habit-formation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "actor-critic-model",
+      "type": "supports"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "stdp",
+      "type": "related"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "parkinsons-disease",
+      "type": "related"
+    },
+    {
+      "from": "striatal-synaptic-plasticity",
+      "to": "eligibility-trace",
+      "type": "related"
     }
   ],
   "dangling_references": [

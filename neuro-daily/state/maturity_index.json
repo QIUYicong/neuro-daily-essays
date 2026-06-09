@@ -211,5 +211,11 @@
       "last_changed": "2026-08-27",
       "reason": "BCM 1982 theoretical framework validated by Kirkwood & Bear 1994 LTD experiments and Clothiaux 1991 simulations; molecular implementations proposed (Castellani 2001, Narayanan 2010); status mainstream rather than established because body-in full in vivo confirmation of the θ_m mechanism still limited"
     }
+  },
+  "striatal-synaptic-plasticity": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-09",
+    "reason": "创建新页：核心来源 Shen 2008 Science（直接实验）+ Kravitz 2012 Nat Neurosci（行为证据）+ 多实验室重复验证的 D1/D2 STDP 规则"
   }
 }

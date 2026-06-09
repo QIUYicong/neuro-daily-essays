@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-08-28
-revision_count: 2
+updated: 2026-06-09
+revision_count: 3
 dimensions: [molecular, synaptic, cellular, microcircuit, behavior, cognition]
-related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, eligibility-trace, stdp, btsp, backpropagating-action-potential]
+related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, eligibility-trace, stdp, btsp, backpropagating-action-potential, striatal-synaptic-plasticity, d1-d2-receptor-signaling, habit-formation]
 prerequisites: [hebbian-learning, ltp, synaptic-transmission, nmda-receptor, stdp]
-opens_questions: [Q-three-factor-time-window, Q-stc-molecular-tag]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-08-28-three-factor-learning-rule-eligibility-traces]
-key_sources: ["PMID:12371508", "PMID:9054347", "PMID:9020359", "PMID:7708662", "PMID:30108488", "PMID:25258080", "PMID:28883072", "PMID:17220510"]
+opens_questions: [Q-three-factor-time-window, Q-stc-molecular-tag, Q-striatum-d1-affinity-logic]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-08-28-three-factor-learning-rule-eligibility-traces, 2026-06-09-striatum-d1-d2-plasticity-dichotomy]
+key_sources: ["PMID:12371508", "PMID:9054347", "PMID:9020359", "PMID:7708662", "PMID:30108488", "PMID:25258080", "PMID:28883072", "PMID:17220510", "PMID:18687967", "PMID:22544310"]
 ---
 
 # 三因素学习规则 (Three-Factor Learning Rule)
@@ -121,8 +121,10 @@ DA 抑制（δ < 0）时，通过 D2 受体 → Gi → cAMP↓ → PP2B/PP1 级�
 
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 填补 [[hebbian-learning]] 页面的悬空引用 [[three-factor-learning-rule]] · 初始置信度：高
 - 2026-08-28 · 重大修订 · 基于《信用的时间归属》一文（#128）· 核心升级：引入资格迹（e_ij）数学框架（Gerstner 2018，PMID:30108488）；更新分子机制为 PDE10A 时钟（Yagishita 2014，PMID:25258080）；整合 BTSP 为极端案例（Bittner 2017，PMID:28883072）；新增与 eligibility-trace / stdp / btsp 的连接；status 从 mainstream → established（多系统实验证据）；confidence 保持 high
+- 2026-06-09 · 补充修订 · 基于"纹状体极性开关"文章 · 新增：第三因素（DA）在纹状体 D1/D2 MSN 上产生相反方向效果的具体分子机制（Shen 2008, PMID:18687967）；D1-MSN 偏向 LTP、D2-MSN 双向可塑性；新增关联页 striatal-synaptic-plasticity；新增 key_sources PMID:18687967/22544310
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-08-28-three-factor-learning-rule-eligibility-traces]]
+- [[2026-06-09-striatum-d1-d2-plasticity-dichotomy]]
