@@ -118,6 +118,6 @@
 ## Git 操作
 
 - 分支：claude/funny-einstein-i20ed2（环境约束）
-- commit：待完成
-- push：待完成
-- push 目标：主分支（main，via session git push）
+- commit：e234612
+- push：成功
+- push 目标：claude/funny-einstein-i20ed2（新建分支）+ main（快进合并，a64d495→e234612）
