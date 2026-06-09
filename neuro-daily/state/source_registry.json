@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28",
+  "last_updated": "2026-08-30",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9205,6 +9205,150 @@
         "mGluR"
       ],
       "used_in": "2026-08-27"
+    },
+    {
+      "pmid": "11283309",
+      "title": "An integrative theory of prefrontal cortex function",
+      "authors": "Miller EK, Cohen JD",
+      "year": 2001,
+      "journal": "Annu Rev Neurosci",
+      "used_in_articles": [
+        "2026-08-30-dlpfc-mixed-selectivity-rule-encoding"
+      ],
+      "aspects_covered": [
+        "PFC 认知控制偏置信号理论",
+        "目标表征维持",
+        "自上而下调制"
+      ],
+      "full_text": false
+    },
+    {
+      "pmid": "23685452",
+      "pmcid": "PMC4412347",
+      "title": "The importance of mixed selectivity in complex cognitive tasks",
+      "authors": "Rigotti M et al.",
+      "year": 2013,
+      "journal": "Nature",
+      "used_in_articles": [
+        "2026-08-30-dlpfc-mixed-selectivity-rule-encoding"
+      ],
+      "aspects_covered": [
+        "混合选择性",
+        "高维表征",
+        "维度坍塌与行为错误"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "23562541",
+      "pmcid": "PMC3898895",
+      "title": "Dynamic coding for cognitive control in prefrontal cortex",
+      "authors": "Stokes MG et al.",
+      "year": 2013,
+      "journal": "Neuron",
+      "used_in_articles": [
+        "2026-08-30-dlpfc-mixed-selectivity-rule-encoding"
+      ],
+      "aspects_covered": [
+        "动态编码",
+        "低活动稳态",
+        "活动静默工作记忆"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "23172774",
+      "pmcid": "PMC3920771",
+      "title": "Encoding of rules by neurons in the human dorsolateral prefrontal cortex",
+      "authors": "Mian MK et al.",
+      "year": 2014,
+      "journal": "Cereb Cortex",
+      "used_in_articles": [
+        "2026-08-30-dlpfc-mixed-selectivity-rule-encoding"
+      ],
+      "aspects_covered": [
+        "人类 DLPFC 单神经元规则编码",
+        "左半球优势"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "26851755",
+      "title": "Why neurons mix: high dimensionality for higher cognition",
+      "authors": "Fusi S, Miller EK, Rigotti M",
+      "year": 2016,
+      "journal": "Curr Opin Neurobiol",
+      "used_in_articles": [
+        "2026-08-30-dlpfc-mixed-selectivity-rule-encoding"
+      ],
+      "aspects_covered": [
+        "混合选择性理论解释",
+        "Cover 定理"
+      ],
+      "full_text": false
+    },
+    {
+      "pmid": "19252496",
+      "pmcid": "PMC2990342",
+      "title": "Hierarchical cognitive control deficits following damage to the human frontal lobe",
+      "authors": "Badre D et al.",
+      "year": 2009,
+      "journal": "Nat Neurosci",
+      "used_in_articles": [
+        "2026-08-30-dlpfc-mixed-selectivity-rule-encoding"
+      ],
+      "aspects_covered": [
+        "额叶前后轴层级",
+        "BA46 情境级规则"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "35422418",
+      "pmcid": "PMC9045476",
+      "title": "More Prominent Nonlinear Mixed Selectivity in the Dorsolateral Prefrontal than Posterior Parietal Cortex",
+      "authors": "Dang W et al.",
+      "year": 2022,
+      "journal": "eNeuro",
+      "used_in_articles": [
+        "2026-08-30-dlpfc-mixed-selectivity-rule-encoding"
+      ],
+      "aspects_covered": [
+        "DLPFC NMS > PPC NMS",
+        "NMS 时间变化"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "36868856",
+      "pmcid": "PMC10089245",
+      "title": "Monkey Dorsolateral Prefrontal Cortex Represents Abstract Visual Sequences during a No-Report Task",
+      "authors": "Yusif Rodriguez N et al.",
+      "year": 2023,
+      "journal": "J Neurosci",
+      "used_in_articles": [
+        "2026-08-30-dlpfc-mixed-selectivity-rule-encoding"
+      ],
+      "aspects_covered": [
+        "猕猴 DLPFC 抽象序列",
+        "跨物种保守性"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "31570859",
+      "pmcid": "PMC8855692",
+      "title": "Widespread temporal coding of cognitive control in human prefrontal cortex",
+      "authors": "Spitmaan MP et al.",
+      "year": 2020,
+      "journal": "eLife",
+      "used_in_articles": [
+        "2026-08-30-dlpfc-mixed-selectivity-rule-encoding"
+      ],
+      "aspects_covered": [
+        "人类 dlPFC 时间编码"
+      ],
+      "full_text": true
     }
   ],
   "total_sources": 12,

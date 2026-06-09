@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-08-29
-revision_count: 8
+updated: 2026-08-30
+revision_count: 9
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit, anterior-cingulate-cortex]
+related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit, anterior-cingulate-cortex, mixed-selectivity, dlpfc-rule-encoding]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition, 2026-08-03-working-memory-neural-code-debate]
-key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841", "PMID:39506106", "PMID:34654556"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition, 2026-08-03-working-memory-neural-code-debate, 2026-08-30-dlpfc-mixed-selectivity-rule-encoding]
+key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841", "PMID:39506106", "PMID:34654556", "PMID:23562541"]
 ---
 
 # 工作记忆 (Working Memory)
@@ -129,6 +129,7 @@ Panichello et al. (2024, PMID:39506106) 通过 Neuropixels 探针同时记录 8,
 - 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增背内侧视丘（MD）的工作记忆放大器角色小节：MD 维持延迟期晚期活动（不影响早期）；MD-PFC θ/β 同步；认知灵活性依赖 MD-OFC；精神分裂症中 MD-dlPFC 降低∝认知缺陷；related 新增 thalamus, thalamocortical-circuit
 - 2026-08-03 · 修订 · 基于《工作记忆神经代码之争》一文（#102）· 新增 Panichello 2024 Neuropixels 关键证据（8225神经元，On/Off状态交替，Off态功能连接保存方向信息）；新增"On/Off 态交替机制"小节；Q-wm-active-vs-silent 更新为"部分解答"；新增 Q-wm-onoff-01/02/03；key_sources 新增 PMID:39506106, PMID:34654556
 - 2026-08-29 · 修订 · 基于《大脑的成本-效益计算器》(#129，ACC) · 新增 related: anterior-cingulate-cortex；dACC 通过 EVC 计算决定是否向 DLPFC 分配更多工作记忆资源，是工作记忆激活的元层调度节点
+- 2026-08-30 · 修订（rev8→rev9）· 基于《前额叶皮层的高维秘密》(#130) · Stokes 2013（动态编码）为 Q-wm-active-vs-silent 提供新的群体层面证据：规则信息在延迟期通过低活动稳态维持（不同规则对应不同稳态），而非高频持续放电；与 STP 活动静默假说高度吻合；related 新增 mixed-selectivity, dlpfc-rule-encoding；key_sources 新增 PMID:23562541
 
 ## NE 和 ACh 对工作记忆的调制
 
@@ -155,3 +156,4 @@ Panichello et al. (2024, PMID:39506106) 通过 Neuropixels 探针同时记录 8,
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-06-20-language-dual-stream]]
 - [[2026-08-03-working-memory-neural-code-debate]]
+- [[2026-08-30-dlpfc-mixed-selectivity-rule-encoding]]

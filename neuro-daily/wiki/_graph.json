@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2455,6 +2455,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/anterior-cingulate-cortex.md"
+    },
+    {
+      "id": "mixed-selectivity",
+      "title": "混合选择性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/mixed-selectivity.md"
+    },
+    {
+      "id": "dlpfc-rule-encoding",
+      "title": "DLPFC 规则编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/dlpfc-rule-encoding.md"
+    },
+    {
+      "id": "frontal-hierarchy",
+      "title": "额叶认知控制层级",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/frontal-hierarchy.md"
     }
   ],
   "edges": [
@@ -10607,6 +10634,71 @@
     {
       "from": "anterior-cingulate-cortex",
       "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "dlpfc-rule-encoding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "three-factor-learning-rule",
+      "type": "related"
+    },
+    {
+      "from": "dlpfc-rule-encoding",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "dlpfc-rule-encoding",
+      "to": "frontal-hierarchy",
+      "type": "part-of"
+    },
+    {
+      "from": "dlpfc-rule-encoding",
+      "to": "anterior-cingulate-cortex",
+      "type": "related"
+    },
+    {
+      "from": "dlpfc-rule-encoding",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "frontal-hierarchy",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "frontal-hierarchy",
+      "to": "anterior-cingulate-cortex",
+      "type": "related"
+    },
+    {
+      "from": "frontal-hierarchy",
+      "to": "motor-cortex",
+      "type": "related"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "dlpfc-rule-encoding",
+      "type": "regulates"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "frontal-hierarchy",
       "type": "related"
     }
   ],

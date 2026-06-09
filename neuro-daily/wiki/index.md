@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-27（**#127**·可塑性的守门人：BCM 规则与元可塑性如何防止突触失控）· 主题页总数：**253**（新建2页：metaplasticity · bcm-rule；修订2页：hebbian-learning rev6 · ltp frontmatter；图谱269节点、1504边）
+> 最后更新：2026-08-30（**#130**·前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则）· 主题页总数：**256**（新建3页：mixed-selectivity · dlpfc-rule-encoding · frontal-hierarchy；修订3页：prefrontal-cortex rev5 · anterior-cingulate-cortex rev2 · working-memory rev9；图谱274节点、1535边）
 
 ---
 
@@ -248,6 +248,9 @@
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；**BLA奖励神经元（Ppp1r1b+→NAc）与恐惧神经元（Rspo2+→CeA）通过对立突触可塑性实现正/负价值双通道编码**；与PFC（IL/PL）和海马形成情绪调控三角回路；慢性应激下BLA树突增生 vs 海马退缩的方向性分离（修订rev4 2026-07-30 #98）**[NEW 2026-05-30]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
 - 🟢 [前扣带回皮层（ACC/dACC）](systems/anterior-cingulate-cortex.md) — 认知控制调度中心；EVC（期望控制价值）计算器：收益-努力成本→分配 DLPFC 资源；ERN（错误相关负波）的来源脑区；行动价值学习（Kennerley 2006）；反事实奖励编码（Hayden 2009）；冲突监测→Stroop 适应（Kerns 2004）；DA-RPE 在系统级的 ERN 对应物 **[NEW 2026-08-29 #129]**
+- 🔵 [混合选择性](concepts/mixed-selectivity.md) — DLPFC 神经元对多变量非线性组合响应；NMS 神经元创造高维表征（Cover 定理）；维度坍塌与行为错误；DLPFC NMS(8.7%) > PPC NMS(4.4%)；学习形成机制待解 **[NEW 2026-08-30 #130]**
+- 🔵 [DLPFC 规则编码](concepts/dlpfc-rule-encoding.md) — 分布式高维动态编码；偏置信号框架（Miller & Cohen 2001）；动态状态轨迹维持规则（Stokes 2013）；人类 24% 神经元规则选择性左半球优势；跨物种保守（猕猴 area 46） **[NEW 2026-08-30 #130]**
+- 🔵 [额叶认知控制层级](concepts/frontal-hierarchy.md) — 前后轴层级：BA46（情境级）→IFS（维度级）→PrePMd（特征级）→M1（反应级）；Badre 2009 病变双解离证据；离散层级 vs 连续梯度争议 **[NEW 2026-08-30 #130]**
 - 🟢 [眶额叶皮层（OFC）](systems/orbitofrontal-cortex.md) — 大脑"估价系统"；三类商品价值神经元（Padoa-Schioppa 2006）；Rangel 2008 三系统框架中目标导向系统的价值输入源；OFC→NAc 投射为 actor-critic 批评家提供 V(s)；Hattori 2023 CaMKII 元学习扩展；**lOFC⇄BLA 四向协作回路（Wassum 2022）**；vmPFC/dlPFC 自我控制回路（Hare 2009）（修订rev2 2026-07-30 #98）**[NEW 2026-07-29 #97]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订6次）
 - 🟢 [V4 视觉区](systems/v4-visual-area.md) — 腹侧流中间节点；在物体中心坐标系对边界形状（曲率×角度）进行选择性调谐；区分真实 vs. 遮挡轮廓；平均响应潜伏期 76.6 ms；多维联合调谐（形状×颜色×纹理×深度）；位置不变性的起始点 **[NEW 2026-08-16 #115]**

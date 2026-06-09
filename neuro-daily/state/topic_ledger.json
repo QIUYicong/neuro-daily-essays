@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-29",
-  "total_articles": 129,
+  "last_updated": "2026-08-30",
+  "total_articles": 130,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8232,6 +8232,103 @@
         "注意的神经机制：顶叶-前额叶网络如何选择性地增强相关信号",
         "前岛叶与内感受性：大脑如何将身体状态转化为情绪和决策信号"
       ]
+    },
+    {
+      "date": "2026-08-30",
+      "real_date": "2026-06-09",
+      "article_number": 130,
+      "title": "前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则",
+      "slug": "dlpfc-mixed-selectivity-rule-encoding",
+      "filename": "2026-08-30-dlpfc-mixed-selectivity-rule-encoding.md",
+      "article_type": "regular",
+      "core_question": "当大脑需要根据不同任务规则对相同感觉输入作出截然不同的反应时，DLPFC 如何在神经元层面编码这种抽象规则？Rigotti 等（2013）发现的'混合选择性'（同时对多个任务变量非线性响应）如何在高维表征空间中创造出任意规则都能线性分离的神经几何？Stokes 等（2013）的'动态编码'与'活动静默'工作记忆如何挑战'持续性放电维持规则'的经典模型？Badre 等（2009）的额叶层级如何告诉我们 DLPFC 在最高抽象层工作？这些发现如何统一在 Miller & Cohen（2001）的认知控制偏置信号框架下？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "Track 5（认知控制）认知控制系列第二篇；ACC EVC (#129) 的执行层续集；填补 DLPFC 规则编码/混合选择性/额叶层级三个核心概念缺口；连接三因素学习规则(#128)→ACC(#129)→DLPFC规则编码(#130)的认知控制完整链",
+      "topic_tags": [
+        "DLPFC",
+        "dorsolateral prefrontal cortex",
+        "area 46",
+        "BA46",
+        "mixed selectivity",
+        "nonlinear mixed selectivity",
+        "NMS",
+        "pure selectivity",
+        "high-dimensional representation",
+        "neural dimensionality",
+        "participation ratio",
+        "PR score",
+        "dimensionality collapse",
+        "cognitive flexibility",
+        "rule encoding",
+        "abstract rules",
+        "task context",
+        "dynamic coding",
+        "activity-silent working memory",
+        "low-activity stable state",
+        "short-term synaptic plasticity",
+        "frontal hierarchy",
+        "rostrocaudal gradient",
+        "bias signal",
+        "top-down control",
+        "Miller Cohen 2001",
+        "Rigotti 2013",
+        "Stokes 2013",
+        "Badre 2009",
+        "Mian 2014",
+        "Fusi 2016",
+        "Dang 2022",
+        "Yusif Rodriguez 2023",
+        "Cover theorem",
+        "SVM kernel",
+        "neural geometry",
+        "prefrontal cortex",
+        "cognitive control",
+        "task switching",
+        "working memory",
+        "rule representation"
+      ],
+      "main_sources": [
+        "PMID:11283309 (Miller & Cohen 2001, Annu Rev Neurosci, 摘要仅读)",
+        "PMID:23685452 / PMC4412347 (Rigotti 2013, Nature, 开放全文读取)",
+        "PMID:23562541 / PMC3898895 (Stokes 2013, Neuron, 开放全文读取)",
+        "PMID:23172774 / PMC3920771 (Mian 2014, Cereb Cortex, 开放全文读取)",
+        "PMID:26851755 (Fusi 2016, Curr Opin Neurobiol, 摘要仅读)",
+        "PMID:19252496 / PMC2990342 (Badre 2009, Nat Neurosci, 开放全文读取)",
+        "PMID:35422418 / PMC9045476 (Dang 2022, eNeuro, 开放全文读取)",
+        "PMID:36868856 / PMC10089245 (Yusif Rodriguez 2023, J Neurosci, 开放全文读取)",
+        "PMID:31570859 / PMC8855692 (Spitmaan 2020, eLife, 开放全文读取)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/mixed-selectivity.md",
+        "wiki/concepts/dlpfc-rule-encoding.md",
+        "wiki/concepts/frontal-hierarchy.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/prefrontal-cortex.md (rev4->rev5): 新增 dlPFC 规则编码与混合选择性子节",
+        "wiki/systems/anterior-cingulate-cortex.md (rev1->rev2): related 新增 DLPFC 连接",
+        "wiki/concepts/working-memory.md (rev8->rev9): 新增 Stokes 动态编码对 Q-wm-active-vs-silent 的证据"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-ms-01",
+        "Q-ms-02",
+        "Q-ms-03",
+        "Q-fh-01",
+        "Q-fh-02"
+      ],
+      "next_suggested_topics": [
+        "注意的神经机制（顶叶-前额叶网络）：FEF→顶叶 α 抑制→V1-V4 感觉增益，DLPFC 偏置信号如何通过顶叶注意调节转化为感觉皮层的选择性增强——认知控制系列第三篇",
+        "前额叶工作记忆的持续活动 vs 活动静默的最新证据：Q-wm-active-vs-silent 深化——Panichello 2024 Neuropixels 结果与 Stokes 动态编码的整合；当 STP 活动静默与持续放电并行时，两者如何分工",
+        "DLPFC 混合选择性的学习机制（Q-ms-01 的系统性文章）：三因素规则 + dACC 误差信号 + DA 调制 如何共同雕塑 DLPFC 的混合选择性格局"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8≈2026-06-09（真实执行日期）；知识库虚拟日期2026-08-30；课程脊柱第5章'认知控制'系列第二篇；9个来源中7个开放全文读取，2个摘要仅读；无PMID编造；无新矛盾登记（NMS因果性争议记为未解问题，暂不登记contested_claim）；3个新wiki页创建，3个修订；知识图谱：274节点，1535条边"
     }
   ],
   "layer_coverage_recent": {

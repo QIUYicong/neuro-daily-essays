@@ -6,13 +6,13 @@ type: region
 status: established
 confidence: high
 created: 2026-08-29
-updated: 2026-08-29
-revision_count: 1
+updated: 2026-08-30
+revision_count: 2
 dimensions: [brain-region, cognition, behavior, microcircuit]
-related: [working-memory, dopamine-reward-prediction-error, prefrontal-cortex, three-factor-learning-rule, error-related-negativity, basal-ganglia, orbitofrontal-cortex, pv-interneurons]
+related: [working-memory, dopamine-reward-prediction-error, prefrontal-cortex, three-factor-learning-rule, error-related-negativity, basal-ganglia, orbitofrontal-cortex, pv-interneurons, dlpfc-rule-encoding, frontal-hierarchy, mixed-selectivity]
 prerequisites: [dopamine-reward-prediction-error, prefrontal-cortex, synaptic-transmission]
 opens_questions: [Q-acc-evc-vs-conflict, Q-acc-subregion-boundary, Q-acc-ern-dopamine-causal]
-source_articles: [2026-08-29-anterior-cingulate-cortex-evc-cognitive-control]
+source_articles: [2026-08-29-anterior-cingulate-cortex-evc-cognitive-control, 2026-08-30-dlpfc-mixed-selectivity-rule-encoding]
 key_sources: ["PMID:11488380", "PMID:12374324", "PMID:14963333", "PMID:23889930", "PMID:27090954", "PMID:19443783", "PMID:19385990", "PMID:16783368", "PMID:19091968"]
 ---
 
@@ -93,6 +93,9 @@ RPE 信号（来自多巴胺系统）    →  dACC/aMCC
 - [[working-memory]] — dACC 计算 EVC，向 DLPFC 发送激活信号；工作记忆任务中 dACC 检测冲突
 - [[dopamine-reward-prediction-error]] — DA-RPE 是 ERN 的分子基础；RPE 是 EVC 计算的关键输入
 - [[prefrontal-cortex]] — dACC（调度）→ DLPFC（执行）是认知控制的核心双节点
+- [[dlpfc-rule-encoding]] — dACC EVC 计算决定是否激活 DLPFC 的规则编码/执行资源
+- [[frontal-hierarchy]] — dACC 是额叶层级中的调度节点，DLPFC 是规则编码顶端
+- [[mixed-selectivity]] — dACC 的错误/冲突信号可能是 DLPFC 混合选择性形成的学习输入
 - [[three-factor-learning-rule]] — 突触层面的 DA-RPE（三因素规则）与系统层面的 ERN 使用同一条多巴胺通路
 - [[orbitofrontal-cortex]] — 功能分工：ACC=行动价值；OFC=刺激价值（Rudebeck 2008）
 - [[basal-ganglia]] — 纹状体接收来自 ACC 的行动价值信号；BG-ACC 共同构成动作选择回路
@@ -107,7 +110,9 @@ RPE 信号（来自多巴胺系统）    →  dACC/aMCC
 ## 修订历史
 
 - 2026-08-29 · 创建 · 基于《大脑的成本-效益计算器》一文（#129） · 涵盖冲突监测、ERN-DA理论、行动价值学习、EVC框架、反事实奖励 · 初始置信度：高（脑区解剖+功能有强实验证据；EVC整合框架有部分直接验证）
+- 2026-08-30 · 修订（rev1→rev2）· 基于《前额叶皮层的高维秘密》(#130) · 新增 dACC→DLPFC 控制调度连接；related 新增 dlpfc-rule-encoding/frontal-hierarchy/mixed-selectivity；来源文章新增 #130
 
 ## 来源文章
 
 - [[2026-08-29-anterior-cingulate-cortex-evc-cognitive-control]]
+- [[2026-08-30-dlpfc-mixed-selectivity-rule-encoding]]

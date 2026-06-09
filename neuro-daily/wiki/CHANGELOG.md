@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-08-30（文章 #130 — 前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则）
+
+**新建页面（3 页）**：
+- `wiki/concepts/mixed-selectivity.md`：混合选择性——DLPFC 神经元同时对多任务变量非线性组合响应；非线性 NMS 是高维表征的来源；维度坍塌与行为错误的关联；status=mainstream, confidence=high
+- `wiki/concepts/dlpfc-rule-encoding.md`：DLPFC 规则编码——分布式高维动态编码；额叶层级顶端；Miller & Cohen 偏置信号框架；Stokes 动态编码；人类 24% 规则选择性神经元；status=mainstream, confidence=high
+- `wiki/concepts/frontal-hierarchy.md`：额叶认知控制层级——前后轴层级（情境→维度→特征→反应）；BA46 是情境级顶端；Badre 2009 病变双解离证据；离散层级 vs 连续梯度争议；status=mainstream, confidence=medium
+
+**修订页面（3 页）**：
+- `wiki/systems/prefrontal-cortex.md`（rev4→rev5）：新增 dlPFC 规则编码与混合选择性子节（偏置信号框架、混合选择性、动态编码、额叶层级、人类证据、维度坍塌）；related 新增 4 个节点；key_sources 新增 4 个 PMID
+- `wiki/systems/anterior-cingulate-cortex.md`（rev1→rev2）：related 新增 dlpfc-rule-encoding/frontal-hierarchy/mixed-selectivity；补充 dACC→DLPFC 调度连接说明
+- `wiki/concepts/working-memory.md`（rev8→rev9）：key_sources 新增 PMID:23562541（Stokes 2013 动态编码）；Q-wm-active-vs-silent 新增群体层面低活动稳态证据；related 新增 mixed-selectivity, dlpfc-rule-encoding
+
+**图谱更新**：+3 节点（mixed-selectivity, dlpfc-rule-encoding, frontal-hierarchy），+13 条边；274 节点，1535 条边
+
+**矛盾登记 / 裁决**：无新矛盾（NMS 因果性争议已在 Q-ms-02 中记录，暂不达到登记 contested_claim 标准）
+
+**新增未解问题**：Q-ms-01（高优先级）、Q-ms-02（高优先级）、Q-ms-03（中优先级）、Q-fh-01（高优先级）、Q-fh-02（中优先级）
+
+---
+
 ## 2026-08-29（文章 #129 — 大脑的成本-效益计算器：前扣带回皮层如何决定"值不值得控制自己"）
 
 **新建页面（1 页）**：

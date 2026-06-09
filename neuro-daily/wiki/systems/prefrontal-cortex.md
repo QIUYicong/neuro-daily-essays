@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-31
-revision_count: 4
+updated: 2026-08-30
+revision_count: 5
 dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, amygdala, fear-extinction, pfc-amygdala-emotion-regulation]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, amygdala, fear-extinction, pfc-amygdala-emotion-regulation, mixed-selectivity, dlpfc-rule-encoding, frontal-hierarchy, anterior-cingulate-cortex]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
-opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-31-pfc-amygdala-emotion-regulation]
-key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:12422216", "PMID:20962768", "PMID:29507292"]
+opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02, Q-ms-01, Q-ms-02]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-31-pfc-amygdala-emotion-regulation, 2026-08-30-dlpfc-mixed-selectivity-rule-encoding]
+key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:12422216", "PMID:20962768", "PMID:29507292", "PMID:11283309", "PMID:23685452", "PMID:23562541", "PMID:19252496"]
 ---
 
 # 前额叶皮层（Prefrontal Cortex, PFC）
@@ -85,6 +85,17 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 | dlPFC L3d 在精神分裂症中选择性损伤 | 人类尸检 | Arnsten 2011; Hughes 2024 | 高 |
 | PFC 中间神经元多样性支撑认知功能 | 灵长类 + 啮齿类综述 | Boroujeni et al. 2026 (PMID:41478518, PMC:PMC12924665) | 高 |
 
+### dlPFC 规则编码与混合选择性（认知控制层面）
+
+DLPFC 的认知控制能力不来自"专属规则细胞"，而来自**混合选择性神经元**的高维表征（Rigotti et al. 2013，PMID:23685452）：
+
+- **混合选择性（mixed selectivity）**：大量 DLPFC 锥体神经元同时对规则×感觉刺激×奖励历史等多维变量进行非线性组合响应，创造出高维神经表征空间。这使得有限数量的神经元能支撑近乎无限的输入-输出映射组合（Cover 定理）。
+- **动态编码（dynamic coding）**：规则在延迟期通过"低活动稳态"（而非持续高频放电）维持，不同规则对应不同稳态——支持活动静默工作记忆假说（Stokes et al. 2013，PMID:23562541）。
+- **额叶层级（frontal hierarchy）**：DLPFC/BA46 在额叶前后轴层级顶端，处理"情境级规则"（规则的规则）；向后依次为 IFS（维度级）→ PrePMd（特征级）→ M1（反应级）（Badre et al. 2009，PMID:19252496）。
+- **维度坍塌与行为错误**：当 DLPFC 群体表征维度坍塌时（如认知过载），行为正确率下降——高维混合表征是认知灵活性的可测量神经底层。
+
+**人类证据**：约 24% 的人类 DLPFC 神经元选择性编码抽象规则，左半球优势（Mian et al. 2014，PMID:23172774）。猕猴与人类在 area 46 对抽象序列的响应具有跨物种保守性（Yusif Rodriguez et al. 2023，PMID:36868856）。
+
 ## 连接
 
 - [[working-memory]] — dlPFC 是工作记忆的关键脑区
@@ -97,6 +108,10 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - [[pfc-amygdala-emotion-regulation]] — vmPFC/IL 对杏仁核情绪调控的三路并联回路整合页
 - [[global-workspace-theory]] — dlPFC 是全局工作空间神经元的核心解剖节点；参与意识点燃的广播
 - [[consciousness-ignition]] — 意识点燃在 PFC 的神经基础：只有被感知刺激触发 dlPFC 持续放电（van Vugt et al. 2018）
+- [[mixed-selectivity]] — dlPFC 混合选择性是认知灵活性的核心计算机制
+- [[dlpfc-rule-encoding]] — dlPFC 规则编码的分布式高维动态实现
+- [[frontal-hierarchy]] — DLPFC 是额叶前后轴功能层级的顶端（情境级规则）
+- [[anterior-cingulate-cortex]] — dACC 通过 EVC 计算调度 DLPFC 控制资源
 
 ## 未解问题
 
@@ -110,9 +125,11 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 
 - 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 FEF（额叶眼区，BA8）作为 PFC 注意控制子区域；添加 dorsal-attention-network 和 thalamus 到 related；添加 Moore & Fallah 2004 和 Corbetta & Shulman 2002 到 key_sources；新增未解问题 Q-dan-02
 - 2026-07-31 · 修订（rev3→rev4）· 基于《皮层的安抚手》一文（#99）· 新增 vmPFC/IL 情绪调控功能子区（PL vs IL 功能分工、三路并联机制、人类 vmPFC 对应证据）；related 新增 amygdala/fear-extinction/pfc-amygdala-emotion-regulation；key_sources 新增三个 PMID
+- 2026-08-30 · 修订（rev4→rev5）· 基于《前额叶皮层的高维秘密》(#130) · 新增 dlPFC 规则编码与混合选择性子节（偏置信号框架、混合选择性高维表征、动态编码、额叶层级、人类证据）；related 新增 mixed-selectivity/dlpfc-rule-encoding/frontal-hierarchy/anterior-cingulate-cortex；key_sources 新增 4 个 PMID；opens_questions 新增 Q-ms-01/Q-ms-02
 
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-07-31-pfc-amygdala-emotion-regulation]]
+- [[2026-08-30-dlpfc-mixed-selectivity-rule-encoding]]
