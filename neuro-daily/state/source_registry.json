@@ -9349,6 +9349,202 @@
         "人类 dlPFC 时间编码"
       ],
       "full_text": true
+    },
+    {
+      "id": "S-2026-08-31-01",
+      "pmid": "11994752",
+      "pmcid": null,
+      "title": "Control of goal-directed and stimulus-driven attention in the brain",
+      "authors": "Corbetta M, Shulman GL",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2002,
+      "open_access": false,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "dorsal-attention-network",
+        "DAN-VAN",
+        "FEF",
+        "IPS",
+        "TPJ"
+      ]
+    },
+    {
+      "id": "S-2026-08-31-02",
+      "pmid": "10845067",
+      "pmcid": null,
+      "title": "Mechanisms of visual attention in the human cortex",
+      "authors": "Kastner S, Ungerleider LG",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2000,
+      "open_access": false,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "biased-competition",
+        "top-down attention",
+        "sensory competition"
+      ]
+    },
+    {
+      "id": "S-2026-08-31-03",
+      "pmid": "15217345",
+      "pmcid": null,
+      "title": "Attentional modulation of visual processing",
+      "authors": "Reynolds JH, Chelazzi L",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2004,
+      "open_access": false,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "multiplicative-gain",
+        "attention-V4",
+        "biased-competition"
+      ]
+    },
+    {
+      "id": "S-2026-08-31-04",
+      "pmid": "12540901",
+      "pmcid": null,
+      "title": "Selective gating of visual signals by microstimulation of frontal cortex",
+      "authors": "Moore T, Armstrong KM",
+      "journal": "Nature",
+      "year": 2003,
+      "open_access": false,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "frontal-eye-fields",
+        "FEF-V4-causal",
+        "sub-saccadic-stimulation"
+      ]
+    },
+    {
+      "id": "S-2026-08-31-05",
+      "pmid": "19478185",
+      "pmcid": "PMC2849291",
+      "title": "High-frequency, long-range coupling between prefrontal and visual cortex during attention",
+      "authors": "Gregoriou GG et al.",
+      "journal": "Science",
+      "year": 2009,
+      "open_access": true,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "frontal-eye-fields",
+        "gamma-oscillations",
+        "communication-through-coherence",
+        "FEF-V4-gamma"
+      ]
+    },
+    {
+      "id": "S-2026-08-31-06",
+      "pmid": "26447583",
+      "pmcid": "PMC4605134",
+      "title": "Rhythms for Cognition: Communication through Coherence",
+      "authors": "Fries P",
+      "journal": "Neuron",
+      "year": 2015,
+      "open_access": true,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "communication-through-coherence",
+        "gamma-oscillations",
+        "alpha-oscillations",
+        "CTC-framework"
+      ]
+    },
+    {
+      "id": "S-2026-08-31-07",
+      "pmid": "25585017",
+      "pmcid": "PMC4334664",
+      "title": "A DCM study of spectral asymmetries in feedforward and feedback connections between visual areas V1 and V4",
+      "authors": "Bastos AM et al.",
+      "journal": "NeuroImage",
+      "year": 2015,
+      "open_access": true,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "communication-through-coherence",
+        "gamma-oscillations",
+        "visual-hierarchy",
+        "V1-V4"
+      ]
+    },
+    {
+      "id": "S-2026-08-31-08",
+      "pmid": "25205663",
+      "pmcid": "PMC4712792",
+      "title": "Top-down modulation of neural activity in anticipatory visual attention: control mechanisms revealed by simultaneous EEG-fMRI",
+      "authors": "Liu Y et al.",
+      "journal": "Cerebral Cortex",
+      "year": 2016,
+      "open_access": true,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "dorsal-attention-network",
+        "alpha-oscillations",
+        "DLPFC-DAN-alpha",
+        "IPS-alpha"
+      ]
+    },
+    {
+      "id": "S-2026-08-31-09",
+      "pmid": "29074278",
+      "pmcid": null,
+      "title": "High-alpha band synchronization across frontal, parietal and visual cortex mediates behavioral and neuronal effects of visuospatial attention",
+      "authors": "Lobier M, Palva JM, Palva S",
+      "journal": "NeuroImage",
+      "year": 2018,
+      "open_access": false,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "alpha-oscillations",
+        "frontal-parietal-visual-alpha",
+        "visuospatial-attention"
+      ]
+    },
+    {
+      "id": "S-2026-08-31-10",
+      "pmid": "24702458",
+      "pmcid": null,
+      "title": "Dynamics of alpha control: preparatory suppression of posterior alpha oscillations by frontal modulators",
+      "authors": "Mathewson KE et al.",
+      "journal": "Journal of Cognitive Neuroscience",
+      "year": 2014,
+      "open_access": false,
+      "first_used": "2026-08-31",
+      "articles_used_in": [
+        "2026-08-31-attention-frontoparietal-fef-alpha-gamma"
+      ],
+      "covers": [
+        "alpha-oscillations",
+        "DAN-alpha-control",
+        "frontal-to-posterior-direction"
+      ]
     }
   ],
   "total_sources": 12,
@@ -10819,7 +11015,7 @@
     "38396258",
     "36062909"
   ],
-  "_last_updated": "2026-08-08",
+  "_last_updated": "2026-08-31",
   "additions_2026-07-31": [
     "12422216",
     "15113265",
@@ -11012,5 +11208,17 @@
         "CA1-place-field"
       ]
     }
+  ],
+  "additions_2026-08-31": [
+    "S-2026-08-31-01",
+    "S-2026-08-31-02",
+    "S-2026-08-31-03",
+    "S-2026-08-31-04",
+    "S-2026-08-31-05",
+    "S-2026-08-31-06",
+    "S-2026-08-31-07",
+    "S-2026-08-31-08",
+    "S-2026-08-31-09",
+    "S-2026-08-31-10"
   ]
 }

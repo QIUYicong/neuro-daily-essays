@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-21
-revision_count: 4
+updated: 2026-08-31
+revision_count: 5
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations, frontal-eye-fields, communication-through-coherence, dorsal-attention-network]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
-opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron]
-key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192"]
+opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-ctc-01, Q-ctc-02]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-08-31-attention-frontoparietal-fef-alpha-gamma]
+key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:19478185", "PMID:25585017"]
 ---
 
 # γ 振荡 (Gamma Oscillations, 30–80 Hz)
@@ -67,6 +67,8 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 | 精神分裂症 dlPFC γ 功率降低 | 人类 dlPFC 尸检 + 影像 | Hughes et al. 2024 (PMID:39381500, PMC:PMC11458443) | 高 |
 | 猫 V1 神经元以约 40 Hz 同步振荡（皮层内生） | 单单元记录 + LFP | Gray & Singer 1989 (PMID:2922407, PMC:PMC286768) | 高 |
 | 注意使被注意刺激的 V1 γ 驱动 V4 γ（被忽视不能） | 猕猴 V1+V4 记录 | Bosman 2012，引用于 Fries 2015 (PMID:26447583, PMC:PMC4605134) | 中-高 |
+| 注意时 FEF-V4 出现 8–13ms 时移 γ 相干耦合，FEF 先行；时移≈传导+突触延迟 | 猕猴 FEF+V4 同步 LFP+单元记录 | Gregoriou et al. 2009 (PMID:19478185, PMC:PMC2849291) | 高（摘要仅读）|
+| V1→V4 前馈连接偏好 γ；V4→V1 反馈连接偏好 α/β（DCM 统计确认） | 猕猴 ECoG + 动态因果模型 | Bastos et al. 2015 (PMID:25585017, PMC:PMC4334664) | 中-高（摘要仅读）|
 | 感知整合时 γ 在纹外视觉皮层降低（α/β 升高）| MEG + sEEG，健康成人 | Costa & Castelo-Branco 2024 (PMID:39185735, PMC:PMC11345702) | 中（与绑定假说相反，需复制） |
 | 语言绑定时跨区 co-ripples（~90 Hz）增加 | 颅内 EEG，人类 | Garrett & Halgren 2024 (PMID:39134741) | 中（未读全文，癫痫患者样本） |
 | 精神分裂症首发患者听觉 γ 减弱，与阴性症状相关 | MEG，n=35 | Sklar & Salisbury 2024 (PMID:38581829, PMC:PMC11102840) | 中 |
@@ -119,6 +121,7 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 这种对立不是竞争而是协同：γ 是被注意区域的"发光"；α 是非目标区域的"遮光"。大脑用这两种节律的组合精确实现感知选择。
 
 - 2026-07-21 · 修订 rev4 · 基于《大脑的频闪滤网》一文 · 新增 α-γ 互补关系节；related 新增 alpha-oscillations · 来源：Jensen & Mazaheri 2010, PMID:21119777
+- 2026-08-31 · 修订 rev5 · 基于《规则变感知》(#131) · 新增：FEF-V4 8–13ms 时移 γ 耦合证据（Gregoriou 2009）；V1-V4 频段不对称证据（Bastos 2015）；related 新增 frontal-eye-fields, communication-through-coherence, dorsal-attention-network；key_sources 新增 PMID:19478185, 25585017；opens_questions 新增 Q-ctc-01, Q-ctc-02
 
 ## 来源文章
 
@@ -126,3 +129,4 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 - [[2026-06-25-gamma-oscillations-neural-binding]]
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-07-21-alpha-oscillations-attentional-gating]]
+- [[2026-08-31-attention-frontoparietal-fef-alpha-gamma]]

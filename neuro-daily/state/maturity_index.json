@@ -216,6 +216,30 @@
       "confidence": "high",
       "last_changed": "2026-08-29",
       "reason": "Anatomical features well-characterized (agranular, direct spinal projections); conflict monitoring fMRI replicated across many labs; ERN from ACC source well-localized; ACC lesion studies (monkey, rat) showing action value learning impairment are causal; EVC framework has multiple direct experimental validations; status established for the core findings, medium confidence for EVC as the complete explanatory framework"
+    },
+    "frontal-eye-fields": {
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-08-31",
+      "reason": "新建（#131）：Moore & Fallah 2004 微电刺激因果证据（高质量）；Gregoriou 2009 FEF-V4 γ 耦合（Science，高质量摘要）；FEF 双重功能（眼动+注意）有多实验室支持"
+    },
+    "communication-through-coherence": {
+      "status": "emerging",
+      "confidence": "medium",
+      "last_changed": "2026-08-31",
+      "reason": "新建（#131）：Fries 2015 CTC 框架理论严谨；Bastos 2015 V1-V4 频段不对称支持；Gregoriou 2009 FEF-V4 直接证据；但 Costa 2024 感知整合反例尚未解决；overall emerging, confidence medium"
+    },
+    "dorsal-attention-network": {
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-08-31",
+      "reason": "修订 rev3（#131）：新增人类 EEG-fMRI 证据（Liu 2016，DLPFC→DAN→α 链）和 FEF-V4 γ 耦合（Gregoriou 2009）；status 维持 established"
+    },
+    "biased-competition": {
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-08-31",
+      "reason": "修订 rev2（#131）：新增振荡机制实现节；Desimone & Duncan 1995 奠基理论有强实验支持；status mainstream（广泛接受但非定论）"
     }
   }
 }

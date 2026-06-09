@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-08-31（文章 #131 — 规则变感知：前额叶偏置信号如何通过 FEF 与 α/γ 振荡选择性增强感觉皮层）
+
+**新建页面（2 页）**：
+- `wiki/systems/frontal-eye-fields.md`：额叶眼区（FEF）——次发放阈值 FEF 微电刺激因果增强 V4 对应位置响应（Moore & Armstrong 2003）；注意期间 FEF-V4 8–13ms 时移 γ 耦合（Gregoriou 2009）；DLPFC→FEF→V4 的偏置传递接口；status=established, confidence=high
+- `wiki/concepts/communication-through-coherence.md`：相干通信（CTC）——γ 是前馈通信载体，α/β 是反馈通信载体；FEF-V4 8–13ms 时移是 CTC 在注意中的直接例证；Bastos 2015 视觉层级频段不对称实验验证；Costa 2024 γ 降低反例（contested 元素）；status=emerging, confidence=medium
+
+**修订页面（3 页）**：
+- `wiki/concepts/dorsal-attention-network.md`（rev2→rev3）：新增 DLPFC/dACC→DAN→α 人类 EEG-fMRI 证据（Liu 2016）；新增 FEF-V4 γ 耦合机制节；related 新增 frontal-eye-fields, communication-through-coherence, mixed-selectivity；key_sources 新增 PMID:19478185, 25205663；opens_questions 新增 Q-fef-01, Q-fef-02
+- `wiki/concepts/gamma-oscillations.md`（rev4→rev5）：新增 FEF-V4 8–13ms 时移 γ 耦合（Gregoriou 2009）、V1-V4 频段不对称（Bastos 2015）至关键证据表；related 新增 frontal-eye-fields, communication-through-coherence, dorsal-attention-network；key_sources 新增 PMID:19478185, 25585017；opens_questions 新增 Q-ctc-01, Q-ctc-02
+- `wiki/concepts/biased-competition.md`（rev1→rev2）：新增振荡机制实现节（γ 增强目标 + α 压制竞争者 = 偏置竞争的振荡实现）；related 新增 frontal-eye-fields, communication-through-coherence, alpha-oscillations, gamma-oscillations；key_sources 新增 PMID:19478185, 26447583；opens_questions 新增 Q-ctc-01, Q-fef-02
+
+**图谱更新**：+2 节点（frontal-eye-fields, communication-through-coherence），+15 条边；276 节点，1550 条边
+
+**矛盾登记 / 裁决**：无新矛盾登记（Costa 2024 γ 降低与 CTC 的矛盾记录在 Q-ctc-01 中，暂不够单独登记 contested_claim 的证据等级）
+
+**新增未解问题**：Q-fef-01（高优先级，FEF-V4 时移复现性）、Q-fef-02（高优先级，多目标振荡机制）、Q-ctc-01（高优先级，CTC γ=前馈与反例的调和）、Q-ctc-02（中优先级，CTC 因果干预实验）
+
+**开放全文说明**：本文为"开放全文不足版"——PMC 全文 CAPTCHA 阻碍，BioC API 404；Europe PMC EBI REST API 成功返回 4 篇核心摘要（Gregoriou 2009, Fries 2015, Bastos 2015, Liu 2016）
+
+---
+
 ## 2026-08-30（文章 #130 — 前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则）
 
 **新建页面（3 页）**：

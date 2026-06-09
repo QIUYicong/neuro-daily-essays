@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-30",
-  "total_articles": 130,
+  "last_updated": "2026-08-31",
+  "total_articles": 131,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8329,6 +8329,91 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8≈2026-06-09（真实执行日期）；知识库虚拟日期2026-08-30；课程脊柱第5章'认知控制'系列第二篇；9个来源中7个开放全文读取，2个摘要仅读；无PMID编造；无新矛盾登记（NMS因果性争议记为未解问题，暂不登记contested_claim）；3个新wiki页创建，3个修订；知识图谱：274节点，1535条边"
+    },
+    {
+      "date": "2026-08-31",
+      "real_date": "2026-06-09",
+      "article_number": 131,
+      "title": "规则变感知：前额叶偏置信号如何通过 FEF 与 α/γ 振荡选择性增强感觉皮层（开放全文不足版）",
+      "slug": "attention-frontoparietal-fef-alpha-gamma",
+      "filename": "2026-08-31-attention-frontoparietal-fef-alpha-gamma.md",
+      "article_type": "regular",
+      "core_question": "当 DLPFC 完成任务规则编码后，这个抽象规则如何转化为感觉皮层的具体感知增强？FEF 通过什么机制将 DAN 的注意控制信号传递给视觉皮层？α 振荡如何主动压制非目标区域？γ 振荡如何驱动目标区域的感知表征？Communication through Coherence（CTC）框架如何统一这些振荡机制？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "Track 5（认知控制）认知控制系列第三篇；DLPFC规则编码(#130)的感觉执行续集；完成认知控制→注意执行→感觉皮层的完整链",
+      "topic_tags": [
+        "frontal eye fields",
+        "FEF",
+        "BA8",
+        "dorsal attention network",
+        "DAN",
+        "FEF-V4 gamma coupling",
+        "8-13ms time shift",
+        "biased competition",
+        "alpha oscillations",
+        "alpha lateralization",
+        "gamma oscillations",
+        "CTC",
+        "communication through coherence",
+        "visuospatial attention",
+        "top-down attention",
+        "IPS",
+        "LIP",
+        "selective attention",
+        "sensory gain modulation",
+        "multiplicative gain",
+        "pulsed inhibition",
+        "attentional suppression",
+        "Gregoriou 2009",
+        "Fries 2015",
+        "Bastos 2015",
+        "Liu 2016",
+        "Moore Armstrong 2003",
+        "Corbetta Shulman 2002",
+        "DLPFC",
+        "EEG-fMRI"
+      ],
+      "main_sources": [
+        "PMID:11994752 (Corbetta & Shulman 2002, Nat Rev Neurosci, 摘要仅读)",
+        "PMID:10845067 (Kastner & Ungerleider 2000, Annu Rev Neurosci, 摘要仅读)",
+        "PMID:15217345 (Reynolds & Chelazzi 2004, Annu Rev Neurosci, 摘要仅读)",
+        "PMID:12540901 (Moore & Armstrong 2003, Nature, 摘要仅读)",
+        "PMID:19478185 / PMC2849291 (Gregoriou 2009, Science, Europe PMC摘要读取)",
+        "PMID:26447583 / PMC4605134 (Fries 2015, Neuron, Europe PMC摘要读取)",
+        "PMID:25585017 / PMC4334664 (Bastos 2015, NeuroImage, Europe PMC摘要读取)",
+        "PMID:25205663 / PMC4712792 (Liu 2016, Cereb Cortex, Europe PMC摘要读取)",
+        "PMID:29074278 (Lobier 2018, NeuroImage, 摘要仅读)",
+        "PMID:24702458 (Mathewson 2014, J Cogn Neurosci, 摘要仅读)"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/frontal-eye-fields.md",
+        "wiki/concepts/communication-through-coherence.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/dorsal-attention-network.md (rev2->rev3): 新增 DLPFC→DAN→α 人类 EEG-fMRI 证据（Liu 2016）；FEF-V4 γ 耦合（Gregoriou 2009）",
+        "wiki/concepts/gamma-oscillations.md (rev4->rev5): 新增 FEF-V4 8-13ms 时移 γ 证据；V1-V4 频段不对称（Bastos 2015）",
+        "wiki/concepts/biased-competition.md (rev1->rev2): 新增振荡机制实现节（γ 驱动目标 + α 压制竞争者）"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-fef-01",
+        "Q-fef-02",
+        "Q-ctc-01",
+        "Q-ctc-02"
+      ],
+      "next_suggested_topics": [
+        "注意与工作记忆的互动：注意门控与工作记忆容量上限（~4项）的关系，θ/γ 嵌套是否是容量的振荡基础（Q-gamma-capacity）",
+        "注意瞬盲的神经机制深化：Stage 2 工作记忆巩固的竞争资源限制与全局工作空间广播的时间容量",
+        "预测编码与注意的统一：精度加权（DAN→增加感觉精度权重）如何与 CTC γ 通信机制整合"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8≈2026-06-09（真实执行日期）；知识库虚拟日期2026-08-31；课程脊柱第5章'认知控制'系列第三篇；开放全文不足版（PMC CAPTCHA阻断，Europe PMC EBI REST API获取4篇摘要，6篇摘要仅读）；无PMID编造；无新矛盾登记；2个新wiki页创建，3个修订；知识图谱：276节点，1550条边"
     }
   ],
   "layer_coverage_recent": {

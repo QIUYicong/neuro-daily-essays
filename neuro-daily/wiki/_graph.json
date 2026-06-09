@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2482,6 +2482,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/frontal-hierarchy.md"
+    },
+    {
+      "id": "frontal-eye-fields",
+      "title": "额叶眼区（FEF）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/frontal-eye-fields.md"
+    },
+    {
+      "id": "communication-through-coherence",
+      "title": "相干通信（CTC）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/communication-through-coherence.md"
     }
   ],
   "edges": [
@@ -10700,6 +10718,81 @@
       "from": "anterior-cingulate-cortex",
       "to": "frontal-hierarchy",
       "type": "related"
+    },
+    {
+      "from": "frontal-eye-fields",
+      "to": "dorsal-attention-network",
+      "type": "part-of"
+    },
+    {
+      "from": "frontal-eye-fields",
+      "to": "biased-competition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "frontal-eye-fields",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "frontal-eye-fields",
+      "to": "alpha-oscillations",
+      "type": "regulates"
+    },
+    {
+      "from": "frontal-eye-fields",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "frontal-eye-fields",
+      "to": "communication-through-coherence",
+      "type": "supports"
+    },
+    {
+      "from": "frontal-eye-fields",
+      "to": "mixed-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "alpha-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "biased-competition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "dorsal-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "frontal-eye-fields",
+      "type": "related"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "frontal-eye-fields",
+      "type": "related"
+    },
+    {
+      "from": "dlpfc-rule-encoding",
+      "to": "frontal-eye-fields",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-30（**#130**·前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则）· 主题页总数：**256**（新建3页：mixed-selectivity · dlpfc-rule-encoding · frontal-hierarchy；修订3页：prefrontal-cortex rev5 · anterior-cingulate-cortex rev2 · working-memory rev9；图谱274节点、1535边）
+> 最后更新：2026-08-31（**#131**·规则变感知：前额叶偏置信号如何通过 FEF 与 α/γ 振荡选择性增强感觉皮层）· 主题页总数：**258**（新建2页：frontal-eye-fields · communication-through-coherence；修订3页：dorsal-attention-network rev3 · gamma-oscillations rev5 · biased-competition rev2；图谱276节点、1550边）
 
 ---
 
@@ -210,6 +210,7 @@
 - 🟢 [贝叶斯感觉整合](concepts/bayesian-sensory-integration.md) — MLE 框架：权重∝1/σ²，整合后方差严格 < 任何单路；因果推断层：先估计 P(common cause)；与逆效性法则数学等价；Ernst & Banks 2002 实验验证 **[NEW 2026-07-20 #88]**
 - 🟢 [麦格克效应](concepts/mcgurk-effect.md) — 视觉/ga/+听觉/ba/→感知/da/；前意识自动过程（知道仍无法消除）；pSTS 嘴型-声音联合选择性是神经基础；ASD 中麦格克效应感知减弱 **[NEW 2026-07-20 #88]**
 - 🟢 [α 振荡](concepts/alpha-oscillations.md) — 人类清醒脑电最强节律（8–13 Hz）；通过脉冲抑制（每~100ms GABA超极化）主动压制非目标感觉区域；空间注意时对侧被忽略枕叶α升高；rhTMS 10Hz 因果诱导感知抑制（Romei 2010）；α 高区 = γ 低区（主动抑制）；FEF-IPS DAN 通过 α 相干性指挥枕叶 α 侧向化；跨视觉/体感/听觉系统普遍 **[NEW 2026-07-21 #89]**
+- 🟡 [相干通信（CTC）](concepts/communication-through-coherence.md) — Fries 2015 框架：振荡相干性创造通信窗口；γ（30–80 Hz）= 前馈/注意驱动信号；α/β（8–30 Hz）= 反馈/预测信号；FEF-V4 8–13ms 时移 γ 相干耦合（Gregoriou 2009）是注意中 CTC 的直接实验证据；Bastos 2015 V1→V4 γ 前馈/V4→V1 α 反馈的层级不对称验证；争议：感知整合时 γ 降低反例（Costa 2024）**[NEW 2026-08-31 #131]**
 - 🟢 [心智理论（Theory of Mind）](concepts/theory-of-mind.md) — 将他人理解为拥有信念/欲望/意图的心理行为体；4岁错误信念测试里程碑；神经基底：右侧TPJ（信念归因专用）+mPFC（去中心化）+STS（入口）；ToM≠镜像神经元（低层动作共享≠高层信念推断）；预测编码框架：大脑前瞻性预测他人心理状态 **[NEW 2026-07-25 #93]**
 - 🔵 [心智化网络（Mentalizing Network）](concepts/mentalizing-network.md) — dmPFC/vmPFC/TPJ/pSTS/TP/楔前叶六节点网络；高阶社会推断的神经底层；层级时间尺度预测（STS毫秒级→TPJ分钟级→mPFC月年级）；镜像系统提供动作共享冲动，心智化网络评估适宜性（Sobeh 2025 DCM）；与DMN高度重叠（休息时=社会心智模拟）；情感共情（AI/ACC）vs认知共情（TPJ/mPFC）双分离 **[NEW 2026-07-25 #93]**
 
@@ -247,6 +248,7 @@
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；**BLA奖励神经元（Ppp1r1b+→NAc）与恐惧神经元（Rspo2+→CeA）通过对立突触可塑性实现正/负价值双通道编码**；与PFC（IL/PL）和海马形成情绪调控三角回路；慢性应激下BLA树突增生 vs 海马退缩的方向性分离（修订rev4 2026-07-30 #98）**[NEW 2026-05-30]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
+- 🟢 [额叶眼区（FEF）](systems/frontal-eye-fields.md) — PFC 的注意控制执行节点（BA8 前缘）；双重功能：扫视规划（运动场拓扑）+ 注意增益控制（因果：次阈值刺激↑视觉检测灵敏度 d'，Moore & Armstrong 2003）；通过 8–13ms 时移 γ 相干耦合主动驱动 V4 目标区域（Gregoriou 2009）；DAN（FEF+IPS）的额叶执行节点；微电刺激≡空间注意转移 **[NEW 2026-08-31 #131]**
 - 🟢 [前扣带回皮层（ACC/dACC）](systems/anterior-cingulate-cortex.md) — 认知控制调度中心；EVC（期望控制价值）计算器：收益-努力成本→分配 DLPFC 资源；ERN（错误相关负波）的来源脑区；行动价值学习（Kennerley 2006）；反事实奖励编码（Hayden 2009）；冲突监测→Stroop 适应（Kerns 2004）；DA-RPE 在系统级的 ERN 对应物 **[NEW 2026-08-29 #129]**
 - 🔵 [混合选择性](concepts/mixed-selectivity.md) — DLPFC 神经元对多变量非线性组合响应；NMS 神经元创造高维表征（Cover 定理）；维度坍塌与行为错误；DLPFC NMS(8.7%) > PPC NMS(4.4%)；学习形成机制待解 **[NEW 2026-08-30 #130]**
 - 🔵 [DLPFC 规则编码](concepts/dlpfc-rule-encoding.md) — 分布式高维动态编码；偏置信号框架（Miller & Cohen 2001）；动态状态轨迹维持规则（Stokes 2013）；人类 24% 神经元规则选择性左半球优势；跨物种保守（猕猴 area 46） **[NEW 2026-08-30 #130]**

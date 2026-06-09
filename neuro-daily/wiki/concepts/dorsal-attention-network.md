@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-01
-updated: 2026-07-21
-revision_count: 2
+updated: 2026-08-31
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding, alpha-oscillations]
+related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding, alpha-oscillations, frontal-eye-fields, communication-through-coherence, mixed-selectivity]
 prerequisites: [prefrontal-cortex, v1-primary-visual-cortex, thalamus]
-opens_questions: [Q-dan-01, Q-dan-02, Q-dan-03]
-source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS]
-key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965"]
+opens_questions: [Q-dan-01, Q-dan-02, Q-dan-03, Q-fef-01, Q-fef-02]
+source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-31-attention-frontoparietal-fef-alpha-gamma]
+key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965", "PMID:19478185", "PMID:25205663"]
 ---
 
 # 背侧注意网络（Dorsal Attention Network, DAN）
@@ -76,6 +76,18 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 - 与乘法性增益调制（V4→V1 反馈）并行，两者可能服务于不同感知任务类型（增益 vs 抑制选择性）
 - 见 [[alpha-oscillations]] 页面中的完整机制描述
 
+### DLPFC→DAN→α 的人类证据（新增 2026-08-31）
+Liu 等（2016, PMID:25205663）同步 EEG-fMRI 实验提供了人类体内从 DLPFC/dACC 到感觉皮层 α 控制的直接证据链：
+- **IPS BOLD ↑ → 对侧枕叶 α ↓**（负相关）：IPS 是将 DAN 控制指令传递给感觉皮层 α 的关键中继
+- **DLPFC 和 dACC BOLD ↑ → α 侧向化幅度 ↑**（正相关）：执行控制网络的激活越强，感觉皮层过滤效果越好
+- 这将认知控制三联（dACC→控制评估；DLPFC→规则编码；DAN→感觉门控）与振荡机制（α 侧向化）直接连接
+
+### FEF-V4 γ 频段耦合（新增 2026-08-31）
+FEF 还通过精密的 γ 频段相干耦合主动驱动 V4（Gregoriou et al. 2009, PMID:19478185）：
+- 注意时 FEF-V4 γ（30–80 Hz）相干增强，**8–13 ms 时移，FEF 先行**
+- 时移约等于轴突传导+突触延迟，使 FEF 的 γ 爆发在 V4 兴奋相到达，最大化跨区通信效率
+- 这是 CTC（相干通信）框架在注意中的直接实验证据——见 [[communication-through-coherence]]
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -86,6 +98,8 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 | V4→V1 反馈是 V1 注意调制的必要通道 | 猕猴 AAV 反馈末梢标记 + 光遗传抑制 | Debes & Dragoi 2023, PMID:36730414 | 高（需重复）|
 | 注意通过乘法增益调制 MT 神经元 | 猕猴 MT 方向调谐曲线测量 | Treue & Trujillo 1999, PMID:10376597 | 高 |
 | 人类 fMRI 确认 FEF/IPS 在空间注意中的角色 | 人类 fMRI + Posner 线索任务 | Chen et al. 2026, PMID:42125965 | 中-高 |
+| DLPFC/dACC BOLD 与 α 侧向化幅度正相关；IPS 与枕叶 α 负相关 | 人类同步 EEG-fMRI，空间注意 | Liu et al. 2016, PMID:25205663 | 中-高（摘要仅读）|
+| 注意时 FEF-V4 出现 8–13ms 时移 γ 耦合，FEF 先行 | 猕猴 FEF+V4 同步 LFP+单元记录 | Gregoriou et al. 2009, PMID:19478185 | 高（摘要仅读）|
 
 ## 连接
 
@@ -99,6 +113,9 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 - [[global-workspace-theory]] — DAN 为 GWT 的广播机制提供空间选择基础
 - [[predictive-coding]] — 注意 = 感觉精度的主动上调（DAN 是精度加权的硬件）
 - [[alpha-oscillations]] — DAN 通过 FEF-IPS α 相干性指挥感觉皮层 α 侧向化，实现感觉门控
+- [[frontal-eye-fields]] — FEF 是 DAN 的关键执行节点，因果控制视觉皮层增益并发送 γ 驱动信号
+- [[communication-through-coherence]] — FEF-V4 γ 耦合（8–13ms 时移）是 CTC 框架在注意控制中的直接实现
+- [[mixed-selectivity]] — DLPFC 混合选择性规则编码通过 FEF 转化为 DAN 的具体空间注意输出
 
 ## 未解问题
 
@@ -111,8 +128,10 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 
 - 2026-07-01 · 创建 · 基于《空间注意的神经回路》一文 · 来源：Corbetta & Shulman 2002, Bisley & Goldberg 2010, Moore & Fallah 2004, Debes & Dragoi 2023, Treue & Trujillo 1999 · 初始置信度：高
 - 2026-07-21 · 修订 rev2 · 新增"α 振荡控制"机制节：FEF-IPS α 相干性作为 DAN 控制感觉皮层 α 侧向化的振荡载体；更新 related 字段加入 alpha-oscillations · 来源：van Schouwenburg et al. 2017, PMID:28174529
+- 2026-08-31 · 修订 rev3 · 基于《规则变感知》(#131) · 新增：DLPFC→DAN→α 人类 EEG-fMRI 证据（Liu 2016）；FEF-V4 γ 耦合（Gregoriou 2009）；related 新增 frontal-eye-fields, communication-through-coherence, mixed-selectivity；key_sources 新增 PMID:19478185, 25205663；opens_questions 新增 Q-fef-01, Q-fef-02
 
 ## 来源文章
 
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-07-21-alpha-oscillations-attentional-gating]]
+- [[2026-08-31-attention-frontoparietal-fef-alpha-gamma]]

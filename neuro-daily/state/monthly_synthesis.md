@@ -959,3 +959,11 @@ dACC 的核心问题不是"它检测什么"而是"它为什么检测"——答�
 **层级桥接**：分子/突触/细胞（突触可塑性系列第5篇，STDP→bAP→metaplasticity→三因素规则）→行为层，完成"从单突触物理法则到行为强化学习"的垂直整合。
 
 三因素规则的精确数学框架（Gerstner 2018，PMID:30108488，开放全文）：突触资格迹 e_ij（赫布协同激发设置，τ_e 秒级衰减）× 第三因素 M_3rd（多巴胺/NE/5-HT）→ 权重变化 Δw。关键实验证据三角：(1) Yagishita 2014（PMID:25258080）纹状体单棘成像，PDE10A 时钟机制，0.3-2s 多巴胺时窗，直接可视化资格迹寿命；(2) He et al. 2015（via Gerstner 2018）皮层 STDP 单独无持久性→NE 触发 LTP（5-10s），5-HT 触发 LTD（3s）；(3) Bittner 2017（PMID:28883072）BTSP 极端资格迹（±3-4s），单次平台电位写入地点场。Schultz 1997（PMID:9054347）多巴胺 RPE = 三因素 M_3rd 的行为层实现。Izhikevich 2007（PMID:17220510）理论先行：STDP 慢多巴胺动力学解决远端奖励问题。BTSP/三因素/TD-learning 的 AI 对照（E-prop，eligibility traces in RL）。新建 1 个 wiki 页（eligibility-trace），修订 3 个页面（three-factor-learning-rule 重大修订→status=established；btsp rev3；stdp rev3）。图谱：270节点，1514边。
+
+### 2026-08-31 · 文章 #131 · 规则变感知：前额叶偏置信号如何通过 FEF 与 α/γ 振荡选择性增强感觉皮层（开放全文不足版）
+
+**层级与课程定位**：认知控制系列第三篇（三因素规则 #128→ACC-EVC #129→DLPFC混合选择性 #130→注意执行 #131）。今日切换至脑区/全脑网络层，完成"抽象规则→感觉感知"的执行链最后一环。
+
+DLPFC 编码的抽象规则（"找蓝色目标"）如何最终具体化为 V1/V4 感觉皮层的增益变化？答案是通过 DAN（FEF+IPS）→α/γ 振荡双路径实现的。核心机制链：(1) **偏置竞争模型**（Desimone & Duncan 1995）提供理论框架——多刺激竞争有限皮层表征资源，注意通过 DAN 自上而下偏置竞争结果；(2) **FEF 的双重因果控制**——Moore & Armstrong 2003 次阈值微电刺激实验证明 FEF 直接因果增强对应视野区检测灵敏度，等效于消除竞争干扰物；(3) **FEF-V4 γ 相干耦合**（Gregoriou 2009, PMID:19478185）——注意时 FEF-V4 出现 8–13 ms 时移 γ 耦合，FEF 先行，时移≈轴突传导+突触延迟，使 FEF γ 爆发恰好在 V4 兴奋相到达，最大化通信效率（CTC 框架的直接实验证据）；(4) **α 侧向化抑制竞争者**——DAN 通过 IPS 控制非目标区域 α 升高（脉冲抑制），主动关闭竞争信道；(5) **DLPFC→DAN→α 人类 EEG-fMRI 证据**（Liu 2016, PMID:25205663）——IPS BOLD 与枕叶 α 负相关，DLPFC 与 α 侧向化幅度正相关，提供人类体内直接证据链。
+
+新建2个wiki页（frontal-eye-fields rev1；communication-through-coherence rev1），修订3个页面（dorsal-attention-network rev3；gamma-oscillations rev5；biased-competition rev2）。图谱276节点，1550边。开放全文不足版（PMC CAPTCHA阻断，4篇摘要经 Europe PMC EBI REST API 获取）。

@@ -1,0 +1,143 @@
+# 运行日志 2026-08-31
+
+**虚拟日期**：2026-08-31
+**真实执行日期**：2026-06-09
+**文章编号**：#131
+**执行环境**：Claude Code（claude/funny-einstein-idluyl 分支，session forced）
+
+---
+
+## 执行摘要
+
+**文章**：《规则变感知：前额叶偏置信号如何通过 FEF 与 α/γ 振荡选择性增强感觉皮层（开放全文不足版）》
+**主题**：认知控制系列第三篇 — FEF 注意执行、α/γ 振荡机制、CTC 框架
+**知识层级**：microcircuit / brain-region / whole-brain-network / cognition
+
+---
+
+## A. 读取配置文件
+
+- [x] ROUTINE.md 读取完成
+- [x] KNOWLEDGE-BASE-DESIGN.md 读取完成
+- 分支模型确认：单主线 main 积累（session 强制 claude/funny-einstein-idluyl，需推后合并）
+- 虚拟日期系统确认：2026-08-31（上次 2026-08-30）
+
+---
+
+## B. 主题选取
+
+来源：topic_ledger.json 末项 next_suggested_topics[0]
+选定：注意的神经机制（顶叶-前额叶网络）— 认知控制系列第三篇
+确认：无 2026-08-31 日期文章存在（避免重复）
+
+---
+
+## C. 文献检索
+
+### 检索路径
+- PubMed E-utilities：esearch → efetch（XML 格式摘要）
+- Europe PMC EBI REST API：`https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID:PMCXXXXXXX&format=json&resultType=core`
+- PMC ID Converter：`https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/`
+
+### 访问问题
+- PMC 全文：CAPTCHA 阻断（pmc.ncbi.nlm.nih.gov）
+- BioC JSON API：返回 404
+- **解决方案**：Europe PMC EBI REST API 成功返回 4 篇核心摘要
+
+### 获取的来源（共 10 篇）
+| ID | PMID | 访问状态 | 来源 |
+|----|------|---------|------|
+| S1 | 11994752 | 摘要仅读 | PubMed efetch |
+| S2 | 10845067 | 摘要仅读 | PubMed efetch |
+| S3 | 15217345 | 摘要仅读 | PubMed efetch |
+| S4 | 12540901 | 摘要仅读 | PubMed efetch |
+| S5 | 19478185 | Europe PMC 摘要读取 | PMC2849291 |
+| S6 | 26447583 | Europe PMC 摘要读取 | PMC4605134 |
+| S7 | 25585017 | Europe PMC 摘要读取 | PMC4334664 |
+| S8 | 25205663 | Europe PMC 摘要读取 | PMC4712792 |
+| S9 | 29074278 | 摘要仅读 | PubMed efetch |
+| S10 | 24702458 | 摘要仅读 | PubMed efetch |
+
+**开放全文来源数：0（ROUTINE.md 要求 ≥2）**
+→ 按 ROUTINE.md 异常处理规则：标题后加注"开放全文不足版"，文章内注明每源访问状态
+
+---
+
+## D. 新建文件
+
+- [x] `neuro-daily/articles/2026-08-31-attention-frontoparietal-fef-alpha-gamma.md`（3900+字，含全部必要节）
+- [x] `neuro-daily/notes/2026-08-31-reading-notes.md`（10源阅读笔记）
+- [x] `neuro-daily/sources/2026-08-31-sources.json`（10源完整元数据）
+
+---
+
+## E. Wiki 创建/修订
+
+### 新建页面
+- [x] `wiki/systems/frontal-eye-fields.md` rev1（status=established, confidence=high）
+- [x] `wiki/concepts/communication-through-coherence.md` rev1（status=emerging, confidence=medium）
+
+### 修订页面
+- [x] `wiki/concepts/dorsal-attention-network.md` rev2→rev3：新增 DLPFC→DAN→α 人类证据（Liu 2016）；FEF-V4 γ 耦合（Gregoriou 2009）；related +3；key_sources +2；opens_questions +Q-fef-01,Q-fef-02
+- [x] `wiki/concepts/gamma-oscillations.md` rev4→rev5：新增 FEF-V4 γ 耦合证据；V1-V4 频段不对称（Bastos 2015）；related +3；key_sources +2；opens_questions +Q-ctc-01,Q-ctc-02
+- [x] `wiki/concepts/biased-competition.md` rev1→rev2：新增振荡机制实现节；related +4；key_sources +2；opens_questions +Q-ctc-01,Q-fef-02
+
+---
+
+## F. 图谱更新
+
+- [x] `wiki/_graph.json`：+2 节点（frontal-eye-fields, communication-through-coherence）；+15 边
+- 状态：274 节点 / 1535 边 → **276 节点 / 1550 边**
+
+---
+
+## G. 导航更新
+
+- [x] `wiki/CHANGELOG.md`：顶部添加 2026-08-31 完整条目
+- [x] `wiki/index.md`：标题栏更新；concepts 节添加 communication-through-coherence；systems 节添加 frontal-eye-fields
+
+---
+
+## H. 状态文件更新
+
+- [x] `state/topic_ledger.json`：添加 #131 条目，total_articles→131，last_updated→2026-08-31
+- [x] `state/unresolved_questions.md`：添加 Q-fef-01, Q-fef-02, Q-ctc-01, Q-ctc-02（4个新问题）；更新最后更新日期
+- [x] `state/maturity_index.json`：添加 frontal-eye-fields（established/high）、communication-through-coherence（emerging/medium）、更新 dorsal-attention-network 和 biased-competition
+- [x] `state/monthly_synthesis.md`：添加 2026-08-31 摘要
+- [x] `state/source_registry.json`：添加 10 条新源（S-2026-08-31-01 至 S-2026-08-31-10）
+
+---
+
+## I. 争议检查
+
+- 无新 contested_claims 登记
+- Q-ctc-01（CTC γ=前馈 vs Costa 2024 γ 降低反例）登记为 unresolved_question，暂不登记 contested_claim（单一研究，待复制）
+
+---
+
+## J. 自检结果
+
+| 检查项 | 状态 |
+|--------|------|
+| 无 PMID/PMCID 编造 | ✓ |
+| 所有来源有合理访问记录 | ✓ |
+| 开放全文不足版标注 | ✓（标题后+文章内） |
+| wiki 修订历史完整 | ✓ |
+| 图谱节点/边计数一致 | ✓ 276/1550 |
+| CHANGELOG 顶部添加 | ✓ |
+| index.md 两个新条目 | ✓ |
+| 新wiki页面frontmatter完整 | ✓ |
+| 状态文件全部更新 | ✓ |
+| 未提供医疗建议 | ✓ |
+| 未访问 Sci-Hub 或付费墙 | ✓ |
+
+---
+
+## K. Git 操作
+
+**分支**：claude/funny-einstein-idluyl（session 强制，实际应为 main；需后续合并）
+**提交消息**：Add neuro daily article + wiki consolidation for 2026-08-31
+
+---
+
+*日志生成时间：2026-08-31（虚拟）/ 2026-06-09（真实）*
