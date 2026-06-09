@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-09-03（文章 #134 — 大脑的反向传播幻觉：预测编码如何近似梯度下降 / Q-fep-02 部分回答）
+
+**新建页面（2 页）**：
+- `wiki/concepts/credit-assignment.md`：信用分配问题——双维度解析（空间维度：PC-Learning 层级误差传播；时间维度：三因素规则 + 资格迹）；顶树突物理分区作为解剖底层；status=established, confidence=high
+- `wiki/concepts/pc-learning.md`：预测编码学习——Whittington & Bogacz 2017 数学等价证明（局部 Hebbian ↔ 反向传播梯度）；Max et al. 2026 皮层实现（L2/3=误差单元，L5=表征单元）；实验预测（扰动误差神经元损害 > 表征神经元）；status=emerging, confidence=medium
+
+**修订页面（1 页）**：
+- `wiki/theories/predictive-coding.md`（rev9→rev10）：新增"PC-Learning = 反向传播的生物近似"段落（Whittington & Bogacz 2017 证明 + Max et al. 2026 皮层实现 + Brucklacher 2023 计算验证）；key_sources 新增 3 篇；related_learning 新增 pc-learning, credit-assignment；source_articles 新增 #134
+
+**图谱更新**：+2 节点（credit-assignment, pc-learning），+13 条边；281 节点，1579 条边
+
+**矛盾登记 / 裁决**：无新矛盾
+
+**未解问题进展**：
+- Q-fep-02（"VAE 等价与生物反向传播"）状态更新：权重更新维度已由 PC-Learning 等价定理部分回答；剩余开放问题 A（时间维度信用分配与 PC-Learning 协同）、B（非 IID 感觉流下推断稳定性）
+
+**悬空引用**：
+- `cortical-layers → pc-learning`（在 pc-learning.md 的 prerequisites 中引用）：cortical-layers 节点已存在 ✅
+- `backpropagating-action-potential → pc-learning`：已有 bAP 节点 ✅
+
+---
+
 ## 2026-09-02（文章 #133 — 小脑作为主动推断引擎：本体感觉先验、精度校准 / Q-fep-01 追踪）
 
 **新建页面（1 页）**：

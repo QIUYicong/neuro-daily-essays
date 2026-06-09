@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2528,6 +2528,24 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/proprioceptive-prediction.md"
+    },
+    {
+      "id": "credit-assignment",
+      "title": "信用分配问题",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/credit-assignment.md"
+    },
+    {
+      "id": "pc-learning",
+      "title": "预测编码学习",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/pc-learning.md"
     }
   ],
   "edges": [
@@ -10901,6 +10919,71 @@
       "from": "proprioceptive-prediction",
       "to": "cerebellum",
       "type": "prerequisite-for"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "three-factor-learning-rule",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "eligibility-trace",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "predictive-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "pc-learning",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "pc-learning",
+      "to": "predictive-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pc-learning",
+      "to": "hebbian-learning",
+      "type": "is-a"
+    },
+    {
+      "from": "pc-learning",
+      "to": "credit-assignment",
+      "type": "supports"
+    },
+    {
+      "from": "pc-learning",
+      "to": "canonical-microcircuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pc-learning",
+      "to": "free-energy-principle",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pc-learning",
+      "to": "three-factor-learning-rule",
+      "type": "related"
+    },
+    {
+      "from": "pc-learning",
+      "to": "active-inference",
+      "type": "related"
     }
   ],
   "dangling_references": [

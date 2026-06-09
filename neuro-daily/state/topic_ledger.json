@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-01",
-  "total_articles": 132,
+  "last_updated": "2026-09-03",
+  "total_articles": 134,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8529,6 +8529,74 @@
         "Q-fep-02 追踪：VAE 数学等价与生物反向传播——三因素规则是否是预测编码局部实现",
         "小脑 CCAS 深化：小脑认知情感综合征的神经回路机制——大脑小脑与 DLPFC/ACC 的反馈环路"
       ]
+    },
+    {
+      "date": "2026-09-03",
+      "real_date": "2026-06-10",
+      "article_number": 134,
+      "title": "大脑的反向传播幻觉：预测编码如何在没有全局误差信号的情况下学习一切",
+      "slug": "pc-learning-biological-backpropagation",
+      "filename": "2026-09-03-pc-learning-biological-backpropagation.md",
+      "article_type": "regular",
+      "core_question": "当大脑缺少反向传播算法所需的工具（无全局误差广播、无对称权重、无两阶段时间切换），局部突触规则如何近似实现梯度下降？预测编码网络（PC-Learning）的数学等价性如何实现？",
+      "layer": [
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "cognition"
+      ],
+      "curriculum_track": "12. 人脑与 AI 的比较（信用分配问题·局部学习规则·反向传播等价性）",
+      "topic_tags": [
+        "credit assignment problem",
+        "backpropagation",
+        "predictive coding learning",
+        "PC-Learning",
+        "Hebbian learning",
+        "local learning rules",
+        "Whittington Bogacz 2017",
+        "Max et al 2026",
+        "L2/3 error neurons",
+        "L5 representation neurons",
+        "biological backpropagation",
+        "gradient descent",
+        "dendritic compartmentalization",
+        "apical dendrite",
+        "Richards Lillicrap 2019",
+        "Brucklacher 2023",
+        "invariant object recognition",
+        "temporal hierarchy",
+        "Roelfsema Holtmaat 2018",
+        "FEP VAE equivalence",
+        "neural network learning",
+        "synaptic plasticity"
+      ],
+      "main_sources": [
+        "PMID:28333583 / PMC5467749 (Whittington & Bogacz 2017, Neural Computation, open full text)",
+        "PMID:41996333 / PMC13089762 (Max et al. 2026, PLoS Comput Biol, open full text)",
+        "PMID:37818157 / PMC10561268 (Brucklacher et al. 2023, Front Comput Neurosci, open full text)",
+        "PMID:30205266 (Richards & Lillicrap 2019, Curr Opin Neurobiol, abstract only)",
+        "PMID:29449713 (Roelfsema & Holtmaat 2018, Nat Rev Neurosci, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-fep-02 (partially answered): PC-Learning 回答了权重更新维度，但 FEP/VAE 等价的时间维度（非 IID 感觉流稳定性）和多目标优化权衡仍开放",
+        "Max et al. 2026 的关键实验预测（扰动 L2/3 vs L5 的损害差异）是否已有体内验证？",
+        "PC-Learning（空间信用分配）和三因素规则（时间信用分配）如何在同一学习事件中协同？"
+      ],
+      "next_suggested_topics": [
+        "PC-Learning 体内验证：L2/3 选择性光遗传扰动对学习的因果实验",
+        "Contrastive Hebbian Learning（平衡传播）作为反向传播的另一生物近似",
+        "神经形态硬件中的局部学习规则实现（Intel Loihi 2）",
+        "Q-fep-02 剩余问题 A：三因素规则 + PC-Learning 的时间-空间整合框架"
+      ],
+      "wiki_created": [
+        "credit-assignment",
+        "pc-learning"
+      ],
+      "wiki_updated": [
+        "predictive-coding (rev10)"
+      ],
+      "new_contested_claims": [],
+      "resolved_contested_claims": []
     }
   ],
   "layer_coverage_recent": {

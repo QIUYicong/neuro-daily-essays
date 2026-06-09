@@ -182,9 +182,29 @@
       "last_changed": "2026-09-01",
       "change_reason": "新建页面。行动=本体感觉预测实现的理论框架 emerging；脊髓执行层机制 established；与小脑整合尚未实验验证",
       "source_article": "2026-09-01-free-energy-principle-active-inference"
+    },
+    {
+      "slug": "credit-assignment",
+      "title": "信用分配问题",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-09-03",
+      "change_reason": "新建（2026-09-03 #134）：信用分配问题是计算神经科学教科书级概念；双维度解法（PC-Learning + 三因素规则）基于强证据体系",
+      "previous_status": null,
+      "source_article": "2026-09-03-pc-learning-biological-backpropagation"
+    },
+    {
+      "slug": "pc-learning",
+      "title": "预测编码学习",
+      "status": "emerging",
+      "confidence": "medium",
+      "last_changed": "2026-09-03",
+      "change_reason": "新建（2026-09-03 #134）：Whittington & Bogacz 2017 数学证明扎实（high）；Max et al. 2026 皮层实现为 medium（计算模型，体内验证有限）；整体评为 emerging/medium",
+      "previous_status": null,
+      "source_article": "2026-09-03-pc-learning-biological-backpropagation"
     }
   ],
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-09-03",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -201,9 +221,29 @@
       "confidence": "high",
       "last_changed": "2026-08-14",
       "reason": "创建（#113）：下板存在与功能有充分组织学和遗传学证据；停止/放行信号身份尚不明确（Q-tca-01）但整体地位established"
+    },
+    {
+      "slug": "credit-assignment",
+      "title": "信用分配问题",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-09-03",
+      "change_reason": "新建（2026-09-03 #134）：信用分配问题是计算神经科学教科书级概念；双维度解法（PC-Learning + 三因素规则）基于强证据体系",
+      "previous_status": null,
+      "source_article": "2026-09-03-pc-learning-biological-backpropagation"
+    },
+    {
+      "slug": "pc-learning",
+      "title": "预测编码学习",
+      "status": "emerging",
+      "confidence": "medium",
+      "last_changed": "2026-09-03",
+      "change_reason": "新建（2026-09-03 #134）：Whittington & Bogacz 2017 数学证明扎实（high）；Max et al. 2026 皮层实现为 medium（计算模型，体内验证有限）；整体评为 emerging/medium",
+      "previous_status": null,
+      "source_article": "2026-09-03-pc-learning-biological-backpropagation"
     }
   ],
-  "total_pages": 14,
+  "total_pages": 16,
   "backpropagating-action-potential": {
     "status": "established",
     "confidence": "high",
@@ -235,5 +275,25 @@
       "last_changed": "2026-08-29",
       "reason": "Anatomical features well-characterized (agranular, direct spinal projections); conflict monitoring fMRI replicated across many labs; ERN from ACC source well-localized; ACC lesion studies (monkey, rat) showing action value learning impairment are causal; EVC framework has multiple direct experimental validations; status established for the core findings, medium confidence for EVC as the complete explanatory framework"
     }
+  },
+  "credit-assignment": {
+    "slug": "credit-assignment",
+    "title": "信用分配问题",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-03",
+    "change_reason": "新建（2026-09-03 #134）：信用分配问题是计算神经科学教科书级概念；双维度解法（PC-Learning + 三因素规则）基于强证据体系",
+    "previous_status": null,
+    "source_article": "2026-09-03-pc-learning-biological-backpropagation"
+  },
+  "pc-learning": {
+    "slug": "pc-learning",
+    "title": "预测编码学习",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-09-03",
+    "change_reason": "新建（2026-09-03 #134）：Whittington & Bogacz 2017 数学证明扎实（high）；Max et al. 2026 皮层实现为 medium（计算模型，体内验证有限）；整体评为 emerging/medium",
+    "previous_status": null,
+    "source_article": "2026-09-03-pc-learning-biological-backpropagation"
   }
 }

@@ -9457,6 +9457,114 @@
         "granule cell proprioceptive + efference copy mixing",
         "active proprioception accuracy"
       ]
+    },
+    {
+      "id": "PMID:28333583",
+      "pmcid": "PMC5467749",
+      "doi": "10.1162/NECO_a_00949",
+      "title": "An Approximation of the Error Backpropagation Algorithm in a Predictive Coding Network with Local Hebbian Synaptic Plasticity",
+      "authors": [
+        "Whittington JCR",
+        "Bogacz R"
+      ],
+      "journal": "Neural Computation",
+      "year": 2017,
+      "used_in": [
+        "2026-09-03-pc-learning-biological-backpropagation"
+      ],
+      "open_access": true,
+      "aspects_covered": [
+        "PC-Learning mathematical proof",
+        "backpropagation equivalence",
+        "local Hebbian rules"
+      ]
+    },
+    {
+      "id": "PMID:41996333",
+      "pmcid": "PMC13089762",
+      "doi": "10.1371/journal.pcbi.1014164",
+      "title": "'Backpropagation and the brain' realized in cortical error neuron microcircuits",
+      "authors": [
+        "Max K",
+        "Jaras I",
+        "Granier A",
+        "Wilmes KA",
+        "Petrovici MA"
+      ],
+      "journal": "PLoS Computational Biology",
+      "year": 2026,
+      "used_in": [
+        "2026-09-03-pc-learning-biological-backpropagation"
+      ],
+      "open_access": true,
+      "aspects_covered": [
+        "L2/3 error units",
+        "L5 representation units",
+        "multi-area cortical model",
+        "task validation"
+      ]
+    },
+    {
+      "id": "PMID:37818157",
+      "pmcid": "PMC10561268",
+      "doi": null,
+      "title": "Local minimization of prediction errors drives learning of invariant object representations in a generative network model of visual perception",
+      "authors": [
+        "Brucklacher M",
+        "Bohté SM",
+        "Mejias JF",
+        "Pennartz CMA"
+      ],
+      "journal": "Frontiers in Computational Neuroscience",
+      "year": 2023,
+      "used_in": [
+        "2026-09-03-pc-learning-biological-backpropagation"
+      ],
+      "open_access": true,
+      "aspects_covered": [
+        "invariant representations",
+        "temporal hierarchy emergence",
+        "error neuron dynamics"
+      ]
+    },
+    {
+      "id": "PMID:30205266",
+      "doi": "10.1016/j.conb.2018.08.003",
+      "title": "Dendritic solutions to the credit assignment problem",
+      "authors": [
+        "Richards BA",
+        "Lillicrap TP"
+      ],
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2019,
+      "used_in": [
+        "2026-09-03-pc-learning-biological-backpropagation"
+      ],
+      "open_access": false,
+      "full_text_available": false,
+      "aspects_covered": [
+        "apical dendrite credit signal",
+        "spatial signal separation"
+      ]
+    },
+    {
+      "id": "PMID:29449713",
+      "title": "Control of synaptic plasticity in deep cortical networks",
+      "authors": [
+        "Roelfsema PR",
+        "Holtmaat A"
+      ],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2018,
+      "used_in": [
+        "2026-09-03-pc-learning-biological-backpropagation"
+      ],
+      "open_access": false,
+      "full_text_available": false,
+      "aspects_covered": [
+        "deep cortical plasticity control",
+        "neuromodulatory regulation"
+      ]
     }
   ],
   "total_sources": 553,

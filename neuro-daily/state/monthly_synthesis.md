@@ -982,3 +982,13 @@ dACC 的核心问题不是"它检测什么"而是"它为什么检测"——答�
 临床连接：意向性震颤 = DCN 时间精度失调（Kakei et al. 2021, PMID:34262527）；测距失准 = 轨迹预测不准；CCAS = 小脑预测扩展到认知域。Q-fep-01 进展：问题 A 有理论框架（机制待验证），问题 B/C 仍开放。
 
 **新建 wiki 页**：proprioceptive-prediction（emerging, medium）。**修订**：forward-model rev2（新增主动推断视角+Tanaka 2019 证据+C-2026-09-02-01 矛盾）、cerebellum rev4（新增精度先验计算段落）、active-inference rev2（深化小脑整合）。图谱：279节点，1566边。
+
+### 2026-09-03 · 文章 #134 · 大脑的反向传播幻觉：预测编码如何近似梯度下降（Q-fep-02 部分回答）
+
+**层级桥接**：突触/细胞/微回路层——从前两天的理论层（FEP）和脑区层（小脑主动推断）下沉至计算机制层，追踪学习算法在突触层面的实现。Q-fep-02（VAE等价与生物反向传播）的权重更新维度获部分回答。
+
+Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学证明：局部 Hebbian 规则的预测编码网络（PC-Learning）在推断收敛极限等价于精确反向传播梯度，权重更新 Δw_ij ∝ ε_i^(l-1) × f(x_j^(l))——纯局部规则，无需全局误差广播。Max et al.（2026，PMID:41996333，PLoS Comput Biol，开放全文）基于灵长类视觉皮层解剖约束：L5 锥体细胞（表征单元，加法整合）+ L2/3 锥体细胞（误差单元，乘法整合），无相位切换，5 区域任务成功扩展；关键可测预测：L2/3 扰动对学习损害 >> L5 扰动。Brucklacher et al.（2023，PMID:37818157，开放全文）验证局部 Hebbian PC 网络自发涌现不变性表征、时间层级分离、误差/表征神经元差异动力学。Richards & Lillicrap（2019，PMID:30205266，摘要）提供树突空间分区的解剖解释。
+
+**信用分配双维度整合**：PC-Learning（空间，多层皮层）+ 三因素规则（时间，行为到奖励延迟）——两套机制合力解决完整的信用分配问题，这是大脑实现高效强化学习的深层架构。
+
+**新建 wiki 页**：credit-assignment（established, high）、pc-learning（emerging, medium）。**修订**：predictive-coding rev10（新增 PC-Learning = 反向传播近似段落）。图谱：281节点，1579边。

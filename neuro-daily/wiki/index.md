@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-02（**#133**·小脑作为主动推断引擎：本体感觉先验与精度校准 / Q-fep-01 追踪）· 主题页总数：**260**（新建1页：proprioceptive-prediction；修订3页：forward-model rev2 · cerebellum rev4 · active-inference rev2；图谱279节点、1566边）
+> 最后更新：2026-09-03（**#134**·大脑的反向传播幻觉：PC-Learning 如何近似梯度下降 / Q-fep-02 部分回答）· 主题页总数：**262**（新建2页：credit-assignment · pc-learning；修订1页：predictive-coding rev10；图谱281节点、1579边）
 
 ---
 
@@ -45,6 +45,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [信用分配问题](concepts/credit-assignment.md) — 空间维度（PC-Learning 层级误差传播）+时间维度（三因素规则+资格迹）双解法；顶树突物理分区为解剖底层 **[NEW 2026-09-03 #134]**
+- 🟡 [预测编码学习 (PC-Learning)](concepts/pc-learning.md) — Whittington & Bogacz 2017 数学证明（局部 Hebbian ↔ 反向传播梯度）；Max 2026 皮层实现（L2/3=误差，L5=表征）；Q-fep-02 部分回答 **[NEW 2026-09-03 #134]**
 - 🟢 [元可塑性](concepts/metaplasticity.md) — "可塑性的可塑性"；BCM 理论的生物实现；多机制并行（NMDA 亚基/Ih/CaM-RC3/mGluR）；异突触元可塑性与星形胶质细胞信号；AD 发育性失调；AI 灾难性遗忘对照 **[NEW 2026-08-27 #127]**
 - 🔵 [BCM 规则](concepts/bcm-rule.md) — Bienenstock-Cooper-Munro 1982；滑动修改阈值 θ_m；Δw ∝ φ(y,θ_m)·x；视觉皮层验证；与 STDP 互补 **[NEW 2026-08-27 #127]**
 - 🔵 [皮层言语同步（振荡entrainment）](concepts/cortical-speech-entrainment.md) — STG θ-γ振荡与言语包络相位同步；非对称采样时间（AST，左快右慢）；主动预测 vs 被动驱动争议 **[NEW 2026-08-20 #102]**
