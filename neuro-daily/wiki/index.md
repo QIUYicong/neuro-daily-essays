@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-02（**#133**·小脑作为主动推断引擎：本体感觉先验与精度校准 / Q-fep-01 追踪）· 主题页总数：**260**（新建1页：proprioceptive-prediction；修订3页：forward-model rev2 · cerebellum rev4 · active-inference rev2；图谱279节点、1566边）
+> 最后更新：2026-09-03（**#134**·信用归属的生物学：反向传播的生物近似 / Q-fep-02 追踪）· 主题页总数：**261**（新建1页：credit-assignment-problem；修订1页：predictive-coding rev10；图谱280节点、1576边）
 
 ---
 
@@ -153,6 +153,7 @@
 - 🔵 [激励显著性（Incentive Salience）](concepts/incentive-salience.md) — 多巴胺编码wanting（动机性吸引力）而非liking（快感）；成瘾中wanting被敏化而liking下降；L-DOPA实验直接分离；解释"为什么不再喜欢却仍然想要"（mainstream, confidence:medium）**[NEW 2026-07-14]**
 - 🟢 [渴望孵化（Incubation of Craving）](concepts/incubation-of-craving.md) — 戒断后渴望在6-7周达峰（非递减）；NAc沉默突触→CP-AMPA插入（钙通透）是突触基础；BLA→NAc投射特异性；光遗传LTD重沉默可恢复环境丰富化治疗效果（established, confidence:high）**[NEW 2026-07-14]**
 - 🟢 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = e_ij × M_3rd；资格迹是中间变量；纹状体 PDE10A 1.5s 时钟（Yagishita 2014）；皮层 NE/5-HT 双向门控（He 2015）；BTSP 极端案例（Bittner 2017）；统一 STDP 与多巴胺 RPE；status 升级 established **[NEW 2026-06-07 · 重大修订 2026-08-28 #128]**
+- 🟢 [信用归属问题](concepts/credit-assignment-problem.md) — 多层网络将误差分配给中间步骤的核心工程挑战；三条生物路径（预测编码平衡态等价 / 树突双室误差信号 / 反馈对齐）；Whittington 2017 MNIST 等效性（~1.7%）；实验验证缺口；Q-fep-02 / Q-credit-01 **[NEW 2026-09-03 #134]**
 - 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题 **[NEW 2026-06-07]**
 
 - 🔵 [三方突触](concepts/tripartite-synapse.md) — Araque 1999 框架；突触前+突触后+星形胶质细胞 PAPs 三元功能单元；双向神经元-胶质细胞信号；LTP/LTD 的三方必要性因果证明（Henneberger 2010）**[NEW 2026-07-02]**

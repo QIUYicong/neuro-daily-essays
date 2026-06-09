@@ -234,6 +234,12 @@
       "confidence": "high",
       "last_changed": "2026-08-29",
       "reason": "Anatomical features well-characterized (agranular, direct spinal projections); conflict monitoring fMRI replicated across many labs; ERN from ACC source well-localized; ACC lesion studies (monkey, rat) showing action value learning impairment are causal; EVC framework has multiple direct experimental validations; status established for the core findings, medium confidence for EVC as the complete explanatory framework"
+    },
+    "credit-assignment-problem": {
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-09-03",
+      "reason": "新建（#134）：Whittington & Bogacz 2017 数学证明预测编码等价梯度下降；Lillicrap 2016 反馈对齐随机权重可行性实验；Sacramento 2018 树突双室模型；三条路径均有独立文献支持。整体信用归属问题框架 established；各路径的体内（in vivo）直接验证（Q-credit-01）仍是开放问题"
     }
   }
 }

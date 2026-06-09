@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-03",
+  "real_date": "2026-06-09",
+  "article_number": 134,
+  "topic": "信用归属问题与生物反向传播近似",
+  "sources": [
+    {
+      "id": "S-134-01",
+      "type": "original_research",
+      "title": "An approximation of the error backpropagation algorithm in a predictive coding network with local Hebbian synaptic plasticity",
+      "authors": "Whittington JCR, Bogacz R",
+      "journal": "Neural Computation",
+      "year": 2017,
+      "volume": "29(5)",
+      "pages": "1229-1262",
+      "pmid": null,
+      "pmcid": "PMC5467749",
+      "doi": "10.1162/NECO_a_00949",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5467749/",
+      "open_access": true,
+      "full_text_read": true,
+      "key_findings": [
+        "预测编码网络在推断平衡态下权重更新精确等价于随机梯度下降",
+        "MNIST 验证误差与标准反向传播相同（~1.7-1.8%）",
+        "20次推断迭代已足够（无需完全收敛）"
+      ],
+      "used_in_sections": ["路径一：预测编码", "三框架对比", "Q-fep-02进展"]
+    },
+    {
+      "id": "S-134-02",
+      "type": "review",
+      "title": "Theories of Error Back-Propagation in the Brain",
+      "authors": "Whittington JCR, Bogacz R",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2019,
+      "volume": "23(3)",
+      "pages": "235-250",
+      "pmid": "30704969",
+      "pmcid": "PMC6382460",
+      "doi": "10.1016/j.tics.2018.12.005",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6382460/",
+      "open_access": true,
+      "full_text_read": true,
+      "key_findings": [
+        "系统对比时序误差模型 vs 显式误差模型两大框架",
+        "均衡传播将多数框架统一为能量最小化特例",
+        "各框架在简单任务上与人工神经网络效率相当"
+      ],
+      "used_in_sections": ["背景", "三框架对比", "争议"]
+    },
+    {
+      "id": "S-134-03",
+      "type": "original_research",
+      "title": "Random synaptic feedback weights support error backpropagation for deep learning",
+      "authors": "Lillicrap TP, Cownden D, Tweed DB, Akerman CJ",
+      "journal": "Nature Communications",
+      "year": 2016,
+      "volume": "7",
+      "pages": "13276",
+      "pmid": "27824044",
+      "pmcid": "PMC5105169",
+      "doi": "10.1038/ncomms13276",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5105169/",
+      "open_access": true,
+      "full_text_read": true,
+      "key_findings": [
+        "随机反馈权重（非W转置）仍可支持有效学习",
+        "训练过程中前向权重自发对齐到反馈权重",
+        "浅层网络效果好，深层性能下降"
+      ],
+      "used_in_sections": ["路径三：反馈对齐", "三框架对比"]
+    },
+    {
+      "id": "S-134-04",
+      "type": "review",
+      "title": "Backpropagation and the brain",
+      "authors": "Lillicrap TP, Santoro A, Marris L, Akerman CJ, Hinton G",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2020,
+      "volume": "21",
+      "pages": "335-346",
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.1038/s41583-020-0277-3",
+      "url": "https://www.nature.com/articles/s41583-020-0277-3",
+      "open_access": false,
+      "full_text_read": false,
+      "access_note": "摘要仅；Nature Reviews 未开放全文",
+      "key_findings": [
+        "反向传播的原则（信用归属）可能在大脑存在，算法细节不同",
+        "树突双室机制是当前最有潜力的生物候选"
+      ],
+      "used_in_sections": ["路径二：树突双室", "争议"]
+    },
+    {
+      "id": "S-134-05",
+      "type": "conference_paper",
+      "title": "Dendritic cortical microcircuits approximate the backpropagation algorithm",
+      "authors": "Sacramento J, Ponte Costa R, Bengio Y, Senn W",
+      "journal": "NeurIPS 31 (Advances in Neural Information Processing Systems)",
+      "year": 2018,
+      "pmid": null,
+      "pmcid": null,
+      "doi": null,
+      "url": "https://arxiv.org/abs/1810.11393",
+      "open_access": false,
+      "full_text_read": false,
+      "access_note": "arXiv预印本（1810.11393）；NeurIPS会议论文；非PMC收录；同行评审通过（NeurIPS）但非期刊正式发表",
+      "key_findings": [
+        "锥体细胞基底（前向）× 顶端（反馈误差）的局部Hebbian规则近似反向传播",
+        "不需要全局误差广播；2-3层网络效果好"
+      ],
+      "used_in_sections": ["路径二：树突双室", "三框架对比"]
+    }
+  ],
+  "search_terms": [
+    "biologically plausible backpropagation predictive coding",
+    "credit assignment problem neuroscience",
+    "Whittington Bogacz 2017 predictive coding backpropagation PMC",
+    "feedback alignment neural networks PMC",
+    "Sacramento dendritic cortical microcircuits backpropagation",
+    "Lillicrap 2020 backpropagation brain Nature Reviews"
+  ],
+  "open_access_count": 3,
+  "abstract_only_count": 2,
+  "minimum_met": true,
+  "coverage_notes": "5来源（3开放全文 + 1摘要仅 + 1arXiv预印本）。所有三条生物近似路径均有对应原始文献，其中预测编码路径有2篇PMC全文支持。Sacramento 2018 使用arXiv预印本，与NeurIPS会议版本内容一致。"
+}

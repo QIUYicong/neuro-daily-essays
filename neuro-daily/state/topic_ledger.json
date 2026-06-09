@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-01",
-  "total_articles": 132,
+  "last_updated": "2026-09-03",
+  "total_articles": 134,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8528,6 +8528,58 @@
         "Q-fep-01 (B) 深化：皮层 vs 小脑的运动先验分工——大脑小脑（AA/DLPFC）负责目标状态，脊髓小脑负责轨迹精度",
         "Q-fep-02 追踪：VAE 数学等价与生物反向传播——三因素规则是否是预测编码局部实现",
         "小脑 CCAS 深化：小脑认知情感综合征的神经回路机制——大脑小脑与 DLPFC/ACC 的反馈环路"
+      ],
+      "real_date": "2026-06-09"
+    },
+    {
+      "date": "2026-09-03",
+      "real_date": "2026-06-09",
+      "article_number": 134,
+      "title": "信用归属的生物学：神经元如何不用反向传播解决深度网络的学习难题",
+      "slug": "credit-assignment-backpropagation-biological",
+      "filename": "2026-09-03-credit-assignment-backpropagation-biological.md",
+      "article_type": "regular",
+      "core_question": "大脑如何解决信用归属问题（credit assignment）？预测编码、树突双室误差信号、反馈对齐三条路径各自如何近似反向传播？在什么条件下等价？有哪些关键局限？Q-fep-02 追踪。",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "cognition"
+      ],
+      "curriculum_track": "12. 人脑与 AI 的比较（反向传播 vs 局部规则）+ 4. 学习与记忆（突触可塑性系列延伸：信用归属机制）",
+      "topic_tags": [
+        "credit assignment",
+        "backpropagation",
+        "biologically plausible learning",
+        "predictive coding",
+        "dendritic error signals",
+        "feedback alignment",
+        "three-factor learning rule",
+        "Whittington Bogacz 2017",
+        "Lillicrap 2016",
+        "Sacramento 2018",
+        "weight symmetry problem",
+        "non-locality problem",
+        "Hebbian learning",
+        "local learning rules",
+        "equilibrium propagation"
+      ],
+      "main_sources": [
+        "PMC5467749 (Whittington & Bogacz 2017)",
+        "PMC6382460 / PMID:30704969 (Whittington & Bogacz 2019)",
+        "PMC5105169 / PMID:27824044 (Lillicrap et al. 2016)",
+        "arXiv:1810.11393 (Sacramento et al. 2018)",
+        "DOI:10.1038/s41583-020-0277-3 (Lillicrap et al. 2020, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-fep-02 (部分进展：三条路径的数学框架建立，但实验验证缺口仍开放)",
+        "Q-credit-01 (新): 组合多条路径是否足以覆盖大脑所有信用归属需求？能否设计直接体内验证实验？"
+      ],
+      "next_suggested_topics": [
+        "颞叶时间层级（不同皮层区域的时间整合窗口）",
+        "成年神经发生人类证据最新进展（Q-adult-neurogenesis-human-controversy）",
+        "竞争-选择原则（competition-selection-principle，22 edges，medium confidence）",
+        "E/I 平衡的微回路实现（ei-balance，19 edges，medium confidence）"
       ]
     }
   ],

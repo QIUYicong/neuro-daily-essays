@@ -9,7 +9,7 @@ created: 2026-08-27
 updated: 2026-08-27
 revision_count: 1
 dimensions: [synaptic, cellular, molecular, behavior, cognition]
-related: [bcm-rule, ltp, ltd, hebbian-learning, stdp, nmda-receptor, homeostatic-plasticity, synaptic-scaling, camkii, critical-period-plasticity, astrocyte-calcium-signaling, alzheimers-disease]
+related: [bcm-rule, ltp, ltd, hebbian-learning, stdp, nmda-receptor, homeostatic-plasticity, synaptic-scaling, camkii, critical-period, astrocyte-calcium-signaling, alzheimers-disease]
 prerequisites: [ltp, hebbian-learning, nmda-receptor, synaptic-transmission]
 opens_questions: [Q-meta-01, Q-meta-02, Q-meta-03]
 source_articles: [2026-08-27-metaplasticity-bcm-sliding-threshold]
@@ -81,7 +81,7 @@ key_sources: ["PMID:8658594", "PMID:9247968", "PMID:18401345", "PMID:20554832", 
 - [[stdp]] — STDP 时序规则受元可塑性调控（近期活动改变时序窗口）
 - [[nmda-receptor]] — GluN2 亚基切换是元可塑性的分子基础之一
 - [[homeostatic-plasticity]] — 元可塑性与稳态可塑性的区别：元可塑性调节阈值/方向，稳态可塑性调节绝对强度
-- [[critical-period-plasticity]] — 发育性元可塑性（θ_m 随年龄下降）是关键期开闭的机制组成
+- [[critical-period]] — 发育性元可塑性（θ_m 随年龄下降）是关键期开闭的机制组成
 - [[astrocyte-calcium-signaling]] — 异突触元可塑性的信号中介
 - [[alzheimers-disease]] — 发育性元可塑性失调是 AD 突触缺陷的机制之一
 

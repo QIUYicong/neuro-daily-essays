@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-03",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11164,6 +11164,92 @@
         "alpha/beta feedback",
         "theta sampling",
         "frequency hierarchy"
+      ]
+    },
+    {
+      "id": "SR-2026-09-03-01",
+      "pmid": null,
+      "pmcid": "PMC5467749",
+      "citation": "Whittington JCR, Bogacz R. 2017 Neural Computation. An approximation of the error backpropagation algorithm in a predictive coding network with local Hebbian synaptic plasticity.",
+      "doi": "10.1162/NECO_a_00949",
+      "used_in": [
+        "2026-09-03-credit-assignment-backpropagation-biological"
+      ],
+      "covers": [
+        "predictive coding as approximate backpropagation",
+        "Hebbian local learning rule equivalence",
+        "MNIST validation ~1.7% error",
+        "inference equilibrium weight update",
+        "20 iterations convergence"
+      ]
+    },
+    {
+      "id": "SR-2026-09-03-02",
+      "pmid": "30704969",
+      "pmcid": "PMC6382460",
+      "citation": "Whittington JCR, Bogacz R. 2019 Trends in Cognitive Sciences. Theories of Error Back-Propagation in the Brain.",
+      "doi": "10.1016/j.tics.2018.12.005",
+      "used_in": [
+        "2026-09-03-credit-assignment-backpropagation-biological"
+      ],
+      "covers": [
+        "temporal error models vs explicit error models",
+        "equilibrium propagation unification",
+        "credit assignment frameworks comparison",
+        "three-factor learning rules overview",
+        "biological plausibility constraints"
+      ]
+    },
+    {
+      "id": "SR-2026-09-03-03",
+      "pmid": "27824044",
+      "pmcid": "PMC5105169",
+      "citation": "Lillicrap TP, Cownden D, Tweed DB, Akerman CJ. 2016 Nature Communications. Random synaptic feedback weights support error backpropagation for deep learning.",
+      "doi": "10.1038/ncomms13276",
+      "used_in": [
+        "2026-09-03-credit-assignment-backpropagation-biological"
+      ],
+      "covers": [
+        "feedback alignment algorithm",
+        "random feedback weights",
+        "forward-backward weight alignment",
+        "weight symmetry problem bypass",
+        "shallow vs deep network performance"
+      ]
+    },
+    {
+      "id": "SR-2026-09-03-04",
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.1038/s41583-020-0277-3",
+      "citation": "Lillicrap TP, Santoro A, Marris L, Akerman CJ, Hinton G. 2020 Nature Reviews Neuroscience. Backpropagation and the brain. [ABSTRACT ONLY]",
+      "access_note": "摘要仅；Nature Reviews 未开放全文",
+      "used_in": [
+        "2026-09-03-credit-assignment-backpropagation-biological"
+      ],
+      "covers": [
+        "credit assignment principles in brain",
+        "dendritic dual-compartment mechanism overview",
+        "biological backpropagation debate"
+      ]
+    },
+    {
+      "id": "SR-2026-09-03-05",
+      "pmid": null,
+      "pmcid": null,
+      "doi": null,
+      "arxiv": "1810.11393",
+      "citation": "Sacramento J, Ponte Costa R, Bengio Y, Senn W. 2018 NeurIPS. Dendritic cortical microcircuits approximate the backpropagation algorithm. [arXiv preprint]",
+      "access_note": "arXiv预印本1810.11393；NeurIPS 2018会议论文；同行评审通过",
+      "used_in": [
+        "2026-09-03-credit-assignment-backpropagation-biological"
+      ],
+      "covers": [
+        "dendritic dual-compartment model",
+        "basal feedforward apical feedback error",
+        "local Hebbian rule approximates backprop",
+        "pyramidal neuron microcircuit",
+        "2-3 layer network performance"
       ]
     }
   ]

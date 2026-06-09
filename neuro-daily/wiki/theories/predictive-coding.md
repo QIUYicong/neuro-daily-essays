@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-09-01
-revision_count: 9
+updated: 2026-09-03
+revision_count: 10
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration, canonical-microcircuit, cortical-layers, free-energy-principle]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration, canonical-microcircuit, cortical-layers, free-energy-principle, credit-assignment-problem]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-fep-01, Q-fep-02]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference, 2026-07-23-cortical-layers-canonical-microcircuit, 2026-09-01-free-energy-principle-active-inference]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:40532027", "PMID:32576965", "PMID:19528002", "PMID:38330098", "PMID:29497060"]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference, 2026-07-23-cortical-layers-canonical-microcircuit, 2026-09-01-free-energy-principle-active-inference, 2026-09-03-credit-assignment-backpropagation-biological]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:40532027", "PMID:32576965", "PMID:19528002", "PMID:38330098", "PMID:29497060", "PMCID:PMC5467749", "PMID:30704969"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -101,6 +101,22 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 
 小脑的预测编码是**局部的、运动-感觉专用的**；皮层的预测编码是**层级的、多模态的**。两者可能共享"预测 → 误差 → 更新"这一核心循环。
 
+## 预测编码作为近似反向传播（信用归属的生物路径）
+
+Whittington & Bogacz（2017，PMC5467749；2019，PMC6382460）的关键发现：**当预测编码网络通过迭代推断达到误差最小化平衡态时，误差单元驱动的局部 Hebbian 权重更新规则，在数学上精确等价于随机梯度下降（反向传播）**。
+
+这一等价性意味着预测编码框架不只是一个感知模型，同时也是一个潜在的**信用归属机制**——皮层的误差-值单元层级结构可以在不需要全局误差广播的情况下，通过局部迭代推断实现等价于深度学习反向传播的权重学习。
+
+**定量验证**（MNIST 手写数字分类，784-600-600-10 架构）：
+- 标准反向传播：验证误差 ~1.7–1.8%
+- 预测编码（局部 Hebbian 规则）：验证误差 ~1.7–1.8%（**等效**）
+
+**等价成立的条件**：推断阶段需充分迭代（达到或接近平衡态）；每次权重更新前完成推断；监督信号（输出目标）可用。
+
+**重要限制**（Bartunov et al. 2018）：在更复杂的任务（CIFAR-10/100）上，预测编码等局部规则显著落后于反向传播，提示 MNIST 等效性可能受到任务复杂度的限制。
+
+更完整的讨论见 [[credit-assignment-problem]]。
+
 ## 连接
 
 - [[free-energy-principle]] — PC 是 FEP 的神经实现；FEP 给出了预测误差最小化的数学基础（变分贝叶斯）
@@ -120,6 +136,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[ventral-language-stream]] — 腹侧语言流的具身语义预测（工具词→运动皮层预激活；动物词→视觉皮层预激活）是预测编码具身性的直接神经证据
 - [[canonical-microcircuit]] — 规范微回路（Douglas-Martin 1991）是预测编码框架的解剖底层：三群体（浅层锥体=误差/γ，深层锥体=预测/α-β）由 Bastos 2012 与预测编码整合
 - [[cortical-layers]] — 六层架构提供了前馈（L2/3→L4，γ）/反馈（L5/6→L1/6，α-β）的物理分离
+- [[credit-assignment-problem]] — 预测编码是三条生物近似反向传播路径之一；在推断平衡态下，误差单元 Hebbian 更新 = 梯度下降（Whittington & Bogacz 2017）
 
 ## 未解问题
 
@@ -142,6 +159,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-07-20 · 修订 · 基于《感官交响曲》文章（#88）· 多感觉整合的贝叶斯因果推断是预测编码框架在多模态输入层面的具体实现；related 新增 multisensory-integration, bayesian-sensory-integration
 - 2026-07-23 · 修订 · 基于《皮层六层架构》文章（#91）· 新增"规范微回路是预测编码的解剖底层"（Bastos 2012 整合框架已有记录，本次明确加入 canonical-microcircuit 和 cortical-layers 到 related 列表并在连接节中增加对应条目）
 - 2026-09-01 · 修订 · 基于《变分自由能与主动推断》(#132) · 新增"动态预测编码（Jiang & Rao 2024）"段落——时间层级扩展；新增"自由能原理数学基础"段落；related 新增 free-energy-principle；连接节新增 free-energy-principle / active-inference 条目；key_sources 新增 PMID:19528002, PMID:38330098, PMID:29497060；opens_questions 新增 Q-fep-01, Q-fep-02
+- 2026-09-03 · 修订 rev10 · 基于《信用归属的生物学》(#134，Q-fep-02 追踪) · 新增"预测编码作为近似反向传播"段落（Whittington & Bogacz 2017/2019 MNIST 等效证据；Bartunov 2018 限制）；related 新增 credit-assignment-problem；连接节新增 [[credit-assignment-problem]] 条目；key_sources 新增 PMC5467749、PMID:30704969
 
 ### 动态预测编码：时间层级的扩展（Jiang & Rao 2024，PMID:38330098）
 
@@ -158,3 +176,4 @@ Jiang & Rao（2024, PLoS Comput Biol）将 Rao-Ballard 框架扩展到时间序�
 - [[2026-07-12-predictive-coding-cortical-inference]]
 - [[2026-07-20-multisensory-integration-temporal-binding-sts]]
 - [[2026-09-01-free-energy-principle-active-inference]]
+- [[2026-09-03-credit-assignment-backpropagation-biological]]

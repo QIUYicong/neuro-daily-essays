@@ -9,7 +9,7 @@ created: 2026-08-27
 updated: 2026-08-27
 revision_count: 1
 dimensions: [synaptic, cellular, cognition, behavior]
-related: [metaplasticity, hebbian-learning, ltp, ltd, stdp, critical-period-plasticity, visual-cortex-plasticity, homeostatic-plasticity]
+related: [metaplasticity, hebbian-learning, ltp, ltd, stdp, critical-period, visual-cortex-plasticity, homeostatic-plasticity]
 prerequisites: [hebbian-learning, ltp, nmda-receptor, synaptic-transmission]
 opens_questions: [Q-bcm-01, Q-bcm-02]
 source_articles: [2026-08-27-metaplasticity-bcm-sliding-threshold]
@@ -92,7 +92,7 @@ STDP（见 [[stdp]]）描述的是"毫秒时序差异决定 LTP/LTD 方向"，�
 - [[ltp]] — y > θ_m 时的突触增强过程
 - [[ltd]] — 0 < y < θ_m 时的突触减弱过程
 - [[stdp]] — 毫秒时序规则，与 BCM 在不同时间尺度上互补
-- [[critical-period-plasticity]] — 关键期结束部分由 θ_m 系统性升高解释
+- [[critical-period]] — 关键期结束部分由 θ_m 系统性升高解释
 
 ## 未解问题
 

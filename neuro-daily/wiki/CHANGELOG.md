@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-09-03（文章 #134 — 信用归属的生物学：神经元如何不用反向传播解决深度学习难题 / Q-fep-02 追踪）
+
+**新建页面（1 页）**：
+- `wiki/concepts/credit-assignment-problem.md`：信用归属问题——多层网络中将误差责任分配给中间步骤的核心工程挑战；三条生物近似路径（预测编码平衡态等价、树突双室误差信号、反馈对齐）；Whittington & Bogacz 2017 MNIST 等效性证据（~1.7-1.8% 验证误差）；实验验证现状（计算证据强，体内证据极弱）；opens Q-credit-01；status=established, confidence=high
+
+**修订页面（1 页）**：
+- `wiki/theories/predictive-coding.md`（rev9→rev10）：新增"预测编码作为近似反向传播"段落（推断平衡态等价定理 + MNIST 等效数据 + Bartunov 2018 限制）；related 新增 credit-assignment-problem；连接节新增 [[credit-assignment-problem]] 条目；key_sources 新增 PMC5467749、PMID:30704969
+
+**悬空引用修复**：
+- `critical-period-plasticity`（由 metaplasticity 引用）→ **已修复**：`metaplasticity.md` frontmatter related 列表 + 正文连接节均从 `critical-period-plasticity` 更正为 `critical-period`；`bcm-rule.md` 同样修复；`_graph.json` 边 metaplasticity→critical-period-plasticity 更正为 metaplasticity→critical-period
+
+**矛盾**：无新增
+
+**图谱**：280 节点，1576 边（新增节点 1，新增边 10）
+
+---
+
 ## 2026-09-02（文章 #133 — 小脑作为主动推断引擎：本体感觉先验、精度校准 / Q-fep-01 追踪）
 
 **新建页面（1 页）**：
