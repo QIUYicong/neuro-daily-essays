@@ -972,3 +972,13 @@ dACC 的核心问题不是"它检测什么"而是"它为什么检测"——答�
 与 AI 的数学等价：FEP 与变分自编码器（VAE）的 ELBO 损失函数数学同构，与世界模型（DreamerV2）的期望自由能最小化概念对齐，但生物系统在局部学习规则、能效和多时间尺度并行方面根本不同。
 
 **新建 wiki 页**：free-energy-principle（mainstream, medium）、active-inference（emerging, medium）。**修订**：predictive-coding rev9（新增FEP数学基础段落、Jiang & Rao 2024动态延伸）、canonical-microcircuit rev2。**新登记未解问题**：Q-fep-01（主动推断与小脑前向模型整合）、Q-fep-02（VAE等价与生物反向传播关系）。图谱：278节点，1560边。
+
+### 2026-09-02 · 文章 #133 · 小脑作为主动推断引擎：当预测本体感觉取代计算运动指令（Q-fep-01 追踪）
+
+**层级切换**：从昨日的理论层（FEP）下沉至细胞/微回路/脑区层——为 FEP 框架的小脑实现提供机制细节，填补 Q-fep-01 空白。
+
+关键框架整合：Parr, Ramstead & Friston（2025, PMID:41451122, 开放全文）提出主动推断框架下运动命令 = 本体感觉先验（均值+协方差），精度分解为空间分量（高尔基细胞调节颗粒细胞活跃度）和时间分量（DCN 调节轨迹平滑度先验）。这一视角将运动控制与感知统一，并只需一个前向模型（脊髓反射代替逆向模型）。Tanaka et al.（2019, PMID:30627965, 开放全文）提供直接神经证据：猕猴齿状核在 t 时刻放电可预测 t+20ms 苔藓纤维输入（R²=0.89），数学上类似卡尔曼滤波器预测-更新步骤。Nguyen & Person（2025, PMID:40523942, Nat Rev Neurosci, 开放全文）综述颗粒细胞时间基础集和 PC 异质性，但提出内部模型 vs 前馈映射的重要理论争议（登记 C-2026-09-02-01）。Palacios et al.（2021, PMID:33757352）提出高尔基细胞作为精度加权机制的具体回路模型。
+
+临床连接：意向性震颤 = DCN 时间精度失调（Kakei et al. 2021, PMID:34262527）；测距失准 = 轨迹预测不准；CCAS = 小脑预测扩展到认知域。Q-fep-01 进展：问题 A 有理论框架（机制待验证），问题 B/C 仍开放。
+
+**新建 wiki 页**：proprioceptive-prediction（emerging, medium）。**修订**：forward-model rev2（新增主动推断视角+Tanaka 2019 证据+C-2026-09-02-01 矛盾）、cerebellum rev4（新增精度先验计算段落）、active-inference rev2（深化小脑整合）。图谱：279节点，1566边。

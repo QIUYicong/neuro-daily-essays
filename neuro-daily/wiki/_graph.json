@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2519,6 +2519,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/theories/active-inference.md"
+    },
+    {
+      "id": "proprioceptive-prediction",
+      "title": "本体感觉预测",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/proprioceptive-prediction.md"
     }
   ],
   "edges": [
@@ -10862,6 +10871,36 @@
       "from": "predictive-coding",
       "to": "free-energy-principle",
       "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "proprioceptive-prediction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "proprioceptive-prediction",
+      "to": "active-inference",
+      "type": "is-a"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "proprioceptive-prediction",
+      "type": "regulates"
+    },
+    {
+      "from": "active-inference",
+      "to": "proprioceptive-prediction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "forward-model",
+      "to": "proprioceptive-prediction",
+      "type": "supports"
+    },
+    {
+      "from": "proprioceptive-prediction",
+      "to": "cerebellum",
+      "type": "prerequisite-for"
     }
   ],
   "dangling_references": [

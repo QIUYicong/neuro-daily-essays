@@ -151,6 +151,20 @@
       "status": "open",
       "opened": "2026-08-25",
       "source_article": "2026-08-25-stdp-spike-timing-dependent-plasticity"
+    },
+    {
+      "id": "C-2026-09-02-01",
+      "page": "wiki/concepts/forward-model.md",
+      "claim_A": "小脑实现显式内部模型（前向+逆向）：小脑维护对运动状态转换的显式状态空间模型，前向模型预测感觉后果，可泛化到新奇运动情境。来源：Wolpert, Miall, Kawato 1998；主动推断框架（Parr et al. 2025）",
+      "claim_B": "小脑实现模型无关前馈映射：小脑将高维感知运动情境直接映射到输出，不维护显式状态空间模型；颗粒细胞时间基础集提供情境编码，PC 读出做前馈控制。来源：Nguyen & Person, Nat Rev Neurosci 2025 (PMID:40523942)",
+      "nature": "计算级理论分歧：两者在正常运动表现上难以区分，但在运动泛化（generalization to novel kinematics）和学习速率上有不同预测",
+      "experimental_test": "比较小脑受损患者在（1）重复练习运动 vs（2）新奇运动泛化任务上的表现；或在动物实验中通过钙成像分析颗粒细胞/PC 的情境特异性 vs 泛化编码模式",
+      "status": "open",
+      "opened": "2026-09-02",
+      "related_wiki": [
+        "wiki/concepts/forward-model.md",
+        "wiki/systems/cerebellum.md"
+      ]
     }
   ]
 }

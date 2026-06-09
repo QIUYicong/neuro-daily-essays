@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-23
-updated: 2026-06-23
-revision_count: 1
-dimensions: [brain-region, cognition, behavior]
-related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy]
+updated: 2026-09-02
+revision_count: 2
+dimensions: [brain-region, cognition, behavior, cellular, microcircuit]
+related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy, active-inference, proprioceptive-prediction, deep-cerebellar-nuclei]
 prerequisites: [cerebellum, motor-cortex]
-opens_questions: [Q-cb-01, Q-fm-01]
-source_articles: [2026-06-23-cerebellum-motor-prediction]
-key_sources: ["PMID:21227230", "PMID:33203932"]
+opens_questions: [Q-cb-01, Q-fm-01, Q-fep-01]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-02-cerebellum-active-inference-proprioceptive-prior]
+key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942", "PMID:30627965"]
 ---
 
 # 前向模型 (Forward Model)
@@ -22,7 +22,7 @@ key_sources: ["PMID:21227230", "PMID:33203932"]
 
 ## 当前理解
 
-感觉反馈存在神经传导延迟（末梢到皮层约 20–100ms），这使"等待反馈再纠错"无法实现快速精确的运动。Wolpert、Miall 和 Kawato（1998, PMID:21227230）提出，小脑包含两类**内部模型**：
+感觉反馈存在神经传导延迟（末梢到皮层约 20–100ms），这使"等待反馈再纠错"无法实现快速精确的运动。Wolpert、Miall 和 Kawato（1998, DOI:10.1016/S1364-6613(98)01221-2）提出，小脑包含两类**内部模型**：
 
 **前向模型（Forward Model）**：
 - 输入：运动指令的副本（**传出拷贝 / efference copy**）
@@ -36,7 +36,11 @@ key_sources: ["PMID:21227230", "PMID:33203932"]
 
 前向模型输出的预测，与通过下橄榄核→攀爬纤维到达浦肯野细胞的实际感觉信号**对比**，产生**预测误差**。这个误差驱动小脑可塑性（LTD/LTP）更新内部模型，使预测越来越准确。
 
-这一框架的深远意义：小脑不是被动等待误差来纠正，而是**主动预测以超越延迟**。"闭眼精准接球"成为可能，正是因为大脑在球飞来的过程中持续更新前向模型的输出，在接触发生之前就完成了运动调整。
+**主动推断视角（2025 年更新）**：Parr、Ramstead 和 Friston（2025，PMID:41451122）提出了一个重要的重新解读：在主动推断框架中，**只需要前向模型**，逆向模型的计算被脊髓牵张反射弧代替。"运动命令"本质上是向脊髓发送的**本体感觉先验**（期望感觉状态），反射弧消除本体感觉预测误差，从而实现运动。这一视角使运动控制和感知统一在相同的自由能最小化目标下。
+
+**直接神经证据**（Tanaka et al., 2019，PMID:30627965）：在猕猴多位点电生理记录中，齿状核在 t 时刻的放电率可预测 t+20ms 的苔藓纤维输入（R²=0.89），覆盖全部感觉反馈延迟窗口，网络级计算结构类似卡尔曼滤波器。
+
+**与前馈映射框架的争议（2025，登记矛盾 C-2026-09-02-01）**：Nguyen & Person（2025，PMID:40523942）的综述提出，小脑可能实现"模型无关的前馈映射"（将情境直接映射到输出），而非维护显式的状态空间内部模型。这一分歧在运动泛化和新奇学习任务上有不同预测，尚待实验裁决（见矛盾 C-2026-09-02-01）。
 
 ## 关键机制
 
@@ -52,10 +56,12 @@ key_sources: ["PMID:21227230", "PMID:33203932"]
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
 |------|----------|------|--------|
-| 小脑参与前向预测（间接） | 眼球跟踪（VOR/OKR）延迟补偿；计算建模 | PMID:21227230 | 中（间接） |
+| 小脑参与前向预测（间接） | 眼球跟踪（VOR/OKR）延迟补偿；计算建模 | DOI:10.1016/S1364-6613(98)01221-2 | 中（间接） |
 | 传出拷贝在运动前到达小脑 | 解剖学：皮质-脊髓投射侧支 → 小脑 | 解剖学证据 | 高 |
 | 前向模型更新依赖小脑可塑性 | 小脑损伤患者 VOR 适应受损 | 临床证据 | 高 |
-| 小脑实现多模块前向模型 | 间接行为学证据；fMRI 研究 | 多项研究 | 中 |
+| 齿状核放电预测未来苔藓纤维输入（R²=0.89 @ 20ms） | 猕猴多位点电生理记录；线性重建 | PMID:30627965 | 高（单物种，间接） |
+| 小脑实现多模块前向模型（MOSAIC） | 间接行为学证据；fMRI 研究 | 多项研究 | 中 |
+| 小脑可能实现前馈映射而非内部模型 | 行为学；钙成像 | PMID:40523942 | 中（综述，争议中，见 C-2026-09-02-01）|
 
 ## 连接
 
@@ -70,10 +76,16 @@ key_sources: ["PMID:21227230", "PMID:33203932"]
 - Q-cb-01：前向模型的时序预测在颗粒细胞层面如何实现？时间基础是什么？
 - Q-fm-01：前向模型框架能否扩展到语言（预测下一个词）和社会认知（预测他人反应）？与 CCAS 的关联？
 
+## 矛盾条目
+
+- **C-2026-09-02-01**（open）：小脑实现"显式内部模型"（claim_A，Wolpert-Kawato + 主动推断框架）vs "模型无关前馈映射"（claim_B，Nguyen & Person 2025）。nature: 计算级理论分歧；实验上需要运动泛化/新奇学习任务来裁决。
+
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：中（间接证据为主，计算框架合理但神经底物细节待确认）
+- 2026-09-02 · 修订（rev1→rev2）· 基于《小脑作为主动推断引擎》· 新增：主动推断视角（本体感觉先验，逆向模型被脊髓代替，Parr et al. 2025）；直接神经证据（Tanaka 2019，R²=0.89）；登记新矛盾 C-2026-09-02-01（内部模型 vs 前馈映射）；扩展 dimensions、related、key_sources
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
+- [[2026-09-02-cerebellum-active-inference-proprioceptive-prior]]

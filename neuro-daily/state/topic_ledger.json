@@ -8463,6 +8463,72 @@
         "Q-pc-02 追踪：FEP的可证伪性——Colombo批评与Friston回应，以及近期行为神经科学实验如何检验具体机制假说",
         "精神分裂症作为精度加权失调：FEP 预测精神病症状（幻觉=过强先验，妄想=精度失调），与 Haarsma 2020 多巴胺拮抗实验对接"
       ]
+    },
+    {
+      "date": "2026-09-02",
+      "article_number": 133,
+      "title": "小脑作为主动推断引擎：当预测本体感觉取代计算运动指令",
+      "slug": "cerebellum-active-inference-proprioceptive-prior",
+      "core_question": "小脑在主动推断框架中承担什么计算角色？本体感觉先验的精度分量如何被小脑核团和高尔基细胞实现？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior"
+      ],
+      "topic_tags": [
+        "cerebellum",
+        "active inference",
+        "proprioceptive prediction",
+        "precision prior",
+        "forward model",
+        "inverse model",
+        "MOSAIC",
+        "Wolpert Kawato",
+        "Parr Ramstead Friston 2025",
+        "deep cerebellar nuclei DCN",
+        "Golgi cell",
+        "granule cell temporal basis set",
+        "Purkinje cell",
+        "Kalman filter",
+        "state predictor",
+        "Tanaka 2019",
+        "intention tremor",
+        "cerebellar ataxia",
+        "inferior olive",
+        "proprioception",
+        "efference copy",
+        "Nguyen Person 2025",
+        "feedforward mapping",
+        "internal model debate",
+        "Friston Herreros 2016",
+        "eyeblink conditioning",
+        "free energy principle",
+        "variational Bayes"
+      ],
+      "main_sources": [
+        "PMID:41451122",
+        "PMID:40523942",
+        "PMID:30627965",
+        "PMID:34262527",
+        "PMID:33757352",
+        "PMID:24782740",
+        "PMID:27391681",
+        "DOI:10.1016/S1364-6613(98)01221-2"
+      ],
+      "unresolved_questions": [
+        "Q-fep-01-A (partial)",
+        "Q-fep-01-B (open)",
+        "Q-fep-01-C (open)"
+      ],
+      "new_contested_claims": [
+        "C-2026-09-02-01: 内部模型 vs 前馈映射"
+      ],
+      "next_suggested_topics": [
+        "Q-fep-01 (B) 深化：皮层 vs 小脑的运动先验分工——大脑小脑（AA/DLPFC）负责目标状态，脊髓小脑负责轨迹精度",
+        "Q-fep-02 追踪：VAE 数学等价与生物反向传播——三因素规则是否是预测编码局部实现",
+        "小脑 CCAS 深化：小脑认知情感综合征的神经回路机制——大脑小脑与 DLPFC/ACC 的反馈环路"
+      ]
     }
   ],
   "layer_coverage_recent": {

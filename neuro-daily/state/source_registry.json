@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-02",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9349,9 +9349,117 @@
         "人类 dlPFC 时间编码"
       ],
       "full_text": true
+    },
+    {
+      "pmid": "41451122",
+      "pmcid": "PMC7618530",
+      "title": "Priors and Proprioceptive Predictions",
+      "authors_short": "Parr et al.",
+      "journal": "Curr Opin Behav Sci",
+      "year": 2025,
+      "used_in_articles": [
+        "2026-09-02"
+      ],
+      "topics_covered": [
+        "active inference motor control",
+        "proprioceptive prediction",
+        "precision prior",
+        "DCN temporal precision"
+      ]
+    },
+    {
+      "pmid": "40523942",
+      "pmcid": "PMC12643008",
+      "title": "Cerebellar circuit computations for predictive motor control",
+      "authors_short": "Nguyen & Person",
+      "journal": "Nat Rev Neurosci",
+      "year": 2025,
+      "used_in_articles": [
+        "2026-09-02"
+      ],
+      "topics_covered": [
+        "granule cell temporal basis set",
+        "feedforward mapping vs internal model",
+        "Purkinje cell heterogeneity"
+      ]
+    },
+    {
+      "pmid": "30627965",
+      "pmcid": "PMC6517560",
+      "title": "Neural Evidence of the Cerebellum as a State Predictor",
+      "authors_short": "Tanaka et al.",
+      "journal": "Cerebellum",
+      "year": 2019,
+      "used_in_articles": [
+        "2026-09-02"
+      ],
+      "topics_covered": [
+        "dentate nucleus state prediction R2=0.89",
+        "Kalman filter analogy"
+      ]
+    },
+    {
+      "pmid": "34262527",
+      "pmcid": "PMC8273235",
+      "title": "Pathophysiology of Cerebellar Tremor",
+      "authors_short": "Kakei et al.",
+      "journal": "Front Neurosci",
+      "year": 2021,
+      "used_in_articles": [
+        "2026-09-02"
+      ],
+      "topics_covered": [
+        "forward model tremor",
+        "inferior olive oscillation tremor",
+        "cerebellar ataxia"
+      ]
+    },
+    {
+      "pmid": "33757352",
+      "pmcid": "PMC8059656",
+      "title": "Accounting for uncertainty: inhibition for neural inference in the cerebellum",
+      "authors_short": "Palacios et al.",
+      "journal": "Proc R Soc B",
+      "year": 2021,
+      "used_in_articles": [
+        "2026-09-02"
+      ],
+      "topics_covered": [
+        "Golgi cell precision encoding",
+        "granule layer Bayesian inference"
+      ]
+    },
+    {
+      "pmid": "27391681",
+      "title": "Active Inference and Learning in the Cerebellum",
+      "authors_short": "Friston & Herreros",
+      "journal": "Neural Comput",
+      "year": 2016,
+      "used_in_articles": [
+        "2026-09-02"
+      ],
+      "topics_covered": [
+        "cerebellar active inference",
+        "eyeblink conditioning"
+      ]
+    },
+    {
+      "pmid": "24782740",
+      "pmcid": "PMC3988398",
+      "title": "Proprioception in the cerebellum",
+      "authors_short": "Boisgontier & Swinnen",
+      "journal": "Front Hum Neurosci",
+      "year": 2014,
+      "used_in_articles": [
+        "2026-09-02"
+      ],
+      "topics_covered": [
+        "granule cell proprioceptive + efference copy mixing",
+        "active proprioception accuracy"
+      ]
     }
   ],
-  "total_sources": 12,
+  "total_sources": 553,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

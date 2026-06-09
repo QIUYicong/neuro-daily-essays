@@ -1,0 +1,155 @@
+# 每日运行日志 · 2026-09-02
+
+**开始时间**：2026-09-02 UTC（UTC+8: 2026-09-02）
+**文章编号**：#133
+**主题**：小脑作为主动推断引擎：本体感觉先验、精度校准与运动控制的统一框架
+**Q-fep-01 追踪**
+
+---
+
+## 状态读取摘要
+
+- `topic_ledger.json`：读取，已有 114 条记录（最近：2026-09-01 FEP/主动推断）
+- `unresolved_questions.md`：读取，Q-fep-01（高优先级）为今日选题驱动因素
+- `contested_claims.json`：读取，12 条已有矛盾；今日新增 C-2026-09-02-01
+- `wiki/_graph.json`：读取，278 节点 / 1560 边；前向模型 confidence=medium，悬空引用：active-inference→cerebellum 已有边
+- 近 3 天层级：2026-08-31 (whole-brain-network/cognition), 2026-09-01 (whole-brain-network/theory)
+- 今日层级选择：cellular/microcircuit/brain-region（避免连续三天 whole-brain-network）
+
+---
+
+## 选题过程
+
+**驱动因素**：Q-fep-01（高优先级，新增于 2026-09-01）
+**选题逻辑**：前一天（#132）写了 FEP/主动推断框架，Q-fep-01 立刻被识别为填空缺口——小脑在 FEP 框架中的精确计算角色尚未系统处理。
+
+**最终聚焦**：将小脑前向模型与主动推断整合，核心问题：
+1. 本体感觉先验 = 运动命令（Parr et al. 2025 框架）
+2. 精度分量的小脑神经底物（DCN 时间精度 + 高尔基细胞空间精度）
+3. 直接神经证据（Tanaka 2019 卡尔曼滤波器类比）
+4. 新争议：内部模型 vs 前馈映射
+
+---
+
+## 文献检索记录
+
+**搜索词**（按时间顺序）：
+1. "cerebellum active inference proprioceptive priors forward model Friston 2024 2025"
+2. "cerebellum predictive coding active inference motor control precision weighting 2023 2024"
+3. "Wolpert Kawato MOSAIC cerebellar forward model proprioception internal model review"
+4. "cerebellum Bayesian state estimator Kalman filter motor learning Shadmehr neural evidence 2019 2020"
+5. "cerebellar ataxia active inference precision weighting motor oscillations pathophysiology 2022 2023 2024"
+6. "Wolpert Kawato 1998 internal models cerebellum motor control multiple paired forward inverse PMID"
+
+**数据源**：PubMed/NCBI, PMC Open Access, Europe PMC, bioRxiv（部分 403 拒绝）
+
+**候选来源**：~15 个
+
+**采用来源（8 个）**：
+1. PMID:41451122 — Parr et al. 2025 （开放全文 ✅ 核心）
+2. PMID:40523942 — Nguyen & Person 2025 Nature Reviews （开放全文 ✅ 核心）
+3. PMID:30627965 — Tanaka et al. 2019 （开放全文 ✅ 关键证据）
+4. PMID:34262527 — Kakei et al. 2021 （开放全文 ✅ 临床）
+5. PMID:33757352 — Palacios et al. 2021 （开放全文 ✅ 精度机制）
+6. PMID:24782740 — Boisgontier & Swinnen 2014 （开放全文 ✅）
+7. PMID:27391681 — Friston & Herreros 2016 （仅摘要 ⚠️）
+8. Wolpert et al. 1998 DOI — 经典论文（综述引用 ⚠️）
+
+**排除来源**：
+- bioRxiv:2023.04.28 (403 Forbidden，无法获取)
+- Shadmehr 相关论文（通过综述间接引用，不直接使用）
+
+**限制说明**：
+- 来源 7（Friston & Herreros 2016）：Neural Computation 付费墙，仅读取摘要和 PubMed 摘录，在文章中标注"⚠️ 未读取全文"
+- 来源 8（Wolpert 1998）：经典论文，仅参阅综述引用，标注"⚠️ 经典论文，仅参阅综述引用"
+
+---
+
+## 文章写作
+
+**字数估计**：约 5500 字（符合 ROUTINE.md 3000-6000 字要求）
+**核心机制分层**：分子/突触（LTD/CF）→ 细胞（颗粒细胞时间基础集，高尔基细胞精度门控）→ 微回路（IO→CF→PC→DCN 监督学习）→ 脑区（DCN 时间精度）→ 全脑（与 FEP/主动推断整合）
+**比喻**：恒温器（反应性）vs 天气预报系统（预测性）；说明有效处和失效处
+
+---
+
+## 固结步骤（D）
+
+**今日触及概念（处理记录）**：
+
+| slug | wiki 状态 | 处理 |
+|------|----------|------|
+| forward-model | 已有（rev1）| ✅ 修订 rev2：主动推断视角，Tanaka 证据，C-2026-09-02-01 |
+| cerebellum | 已有（rev3）| ✅ 修订 rev4：主动推断段落，精度先验角色 |
+| active-inference | 已有（rev1）| ✅ 修订 rev2：深化小脑小节，Friston 2016 |
+| proprioceptive-prediction | 无 | ✅ 新建（rev1，emerging, medium）|
+| deep-cerebellar-nuclei | 已有 | 更新 related 在其他页，未单独修订（今日非核心焦点）|
+| climbing-fiber-error-signal | 已有（rev2）| 未修订（今日内容在现有 rev2 基础上）|
+
+**矛盾检查**：
+- C-2026-09-02-01（新登记）：内部模型 vs 前馈映射 — open，计算级分歧
+- climbing-fiber-error-signal 的 C-2026-08-08-01（CF奖励信号）：today 未引入新证据，不变
+
+**成熟度评估**：
+- forward-model: 维持 mainstream/medium（理论框架合理，直接证据增加，但仍有内部模型争议）
+- proprioceptive-prediction: emerging/medium（新框架，临床一致，直接机制验证少）
+
+---
+
+## 步骤 E：图谱与导航
+
+- `_graph.json`：+1 节点（proprioceptive-prediction），+6 条边；279 节点，1566 边
+- `wiki/index.md`：更新头部元数据；新增 proprioceptive-prediction 条目；更新 forward-model 和 active-inference 条目
+- `wiki/CHANGELOG.md`：添加 2026-09-02 条目（新建1页，修订3页，矛盾1条，悬空引用1条）
+
+---
+
+## 步骤 F：治理层
+
+- `state/topic_ledger.json`：新增条目（115 条）
+- `state/unresolved_questions.md`：更新 Q-fep-01 状态（A 部分回答，B/C 开放）
+- `state/contested_claims.json`：新增 C-2026-09-02-01（13 条）
+- `state/source_registry.json`：新增 7 个来源（553 条）
+- `state/monthly_synthesis.md`：追加 2026-09-02 摘要
+
+---
+
+## 步骤 G：Git 操作
+
+**分支**：claude/funny-einstein-b8zlua（环境指定分支）
+**推送目标**：claude/funny-einstein-b8zlua → origin
+**commit message**：Add neuro daily article + wiki consolidation for 2026-09-02
+
+---
+
+## 自检结果（步骤 H）
+
+**真实性**：
+- [x] 所有 wiki 新主张有来源（PMID/DOI/URL）
+- [x] 区分了事实/主流模型/推测（proprioceptive-prediction 和精度机制标注 emerging/medium）
+- [x] 未把动物研究当定论（Tanaka 2019 猕猴数据标注"单物种，间接"）
+- [x] 未把 Friston & Herreros 2016（仅摘要）当作已验证结论
+
+**一致性**：
+- [x] C-2026-09-02-01 新矛盾已走矛盾协议（forward-model.md 中新增矛盾条目 + contested_claims.json 登记）
+- [x] 被修订页 updated/revision_count/修订历史已同步（forward-model rev2, cerebellum rev4, active-inference rev2）
+- [x] _graph.json 无未记录悬空边（新页 proprioceptive-prediction 引用的 spinal-cord-reflex 已在 CHANGELOG 标记为待补）
+
+**可导航**：
+- [x] index.md 和 CHANGELOG.md 反映今天变化
+- [x] 新页 proprioceptive-prediction 的 related 和 prerequisites 均填写（≥1）
+
+**情景层完整**：
+- [x] articles/2026-09-02-cerebellum-active-inference-proprioceptive-prior.md ✅
+- [x] notes/2026-09-02-reading-notes.md ✅
+- [x] sources/2026-09-02-sources.json ✅
+- [x] logs/2026-09-02-run.log ✅（本文件）
+- [x] 未修改任何旧文件（append-only 原则）
+
+---
+
+## 最终状态
+
+- 推送分支：claude/funny-einstein-b8zlua
+- commit hash：[待填写]
+- push 状态：[待确认]

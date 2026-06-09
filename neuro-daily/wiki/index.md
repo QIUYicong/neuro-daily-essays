@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-01（**#132**·变分自由能与主动推断：大脑如何用一个原则统一感知、行动与学习）· 主题页总数：**259**（新建2页：free-energy-principle · active-inference；修订3页：predictive-coding rev9 · canonical-microcircuit rev2；图谱278节点、1560边）
+> 最后更新：2026-09-02（**#133**·小脑作为主动推断引擎：本体感觉先验与精度校准 / Q-fep-01 追踪）· 主题页总数：**260**（新建1页：proprioceptive-prediction；修订3页：forward-model rev2 · cerebellum rev4 · active-inference rev2；图谱279节点、1566边）
 
 ---
 
@@ -220,7 +220,8 @@
 - 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订 rev3 2026-08-08 #107]**
 - 🟢 [深部小脑核（DCN）](systems/deep-cerebellar-nuclei.md) — 小脑输出门与程序性运动记忆存储库；三核团（齿状核/间位核/顶核）；前间位核因果损毁→CR消失UR保留（Thompson 1997）；DCN LTP 将皮层 LTD 的快速适应巩固为持久记忆（两相模型）；小脑-基底神经节直接皮层下连接（Bostan 2018）**[NEW 2026-08-08 #107]**
 - 🟢 [下橄榄核（IO）](systems/inferior-olive.md) — 小脑的教师核团；缝隙连接（Cx36）同步振荡；T型Ca²⁺驱动阈下振荡；TMEM16B调节时序精度；CF奖励信号新发现（Jin & Hull 2025，待复现）；DCN抑制性反馈自动关闭学习 **[NEW 2026-08-08 #107]**
-- 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果，使大脑超越反馈延迟；小脑的主要计算角色；逆向模型对称结构 **[NEW 2026-06-23]**
+- 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果；主动推断框架下只需前向模型（逆向由脊髓代替）；齿状核预测苔藓纤维活动（R²=0.89）；内部模型 vs 前馈映射争议（C-2026-09-02-01） **[修订 rev2 2026-09-02]**
+- 🟡 [本体感觉预测](concepts/proprioceptive-prediction.md) — 主动推断中运动命令=本体感觉先验（均值+精度）；空间精度（高尔基细胞）+ 时间精度（DCN）；脊髓反射弧执行；DCN损坏→意向性震颤 **[NEW 2026-09-02]**
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**
 - 🟡 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；动力学引擎而非参数地图；RNN训练后自发出现相同结构 **[NEW 2026-06-21]**
 - 🟡 [输出零空间](concepts/output-null-space.md) — 准备活动集中在对肌肉无效的零空间子空间（调谐比4.5×）；几何机制解释准备不触发运动 **[NEW 2026-06-21]**
@@ -290,7 +291,7 @@
 - 🔵 [全局工作空间理论（GWT）](theories/global-workspace-theory.md) — 意识点燃机制；Dehaene-Changeux 神经工作空间；有意识知觉的全有全无广播事件；GWT vs IIT 2025 年对抗性合作 **[NEW 2026-05-30]**
 - 🟡 [预测编码](theories/predictive-coding.md) — 皮层层级通过自上而下的预测反馈 + 自下而上的预测误差前馈实现贝叶斯推断；Rao & Ballard 1999 奠基模型；Bastos 2012 皮层分层映射（γ=误差前馈，α/β=预测反馈）；Keller 2018 V1感觉运动失配实验；注意=精度加权；Jiang & Rao 2024动态预测编码（时间层级）；FEP数学基础 **[修订 2026-09-01 rev9]**
 - 🟡 [自由能原理（FEP）](theories/free-energy-principle.md) — Friston 统一框架：最小化变分自由能（惊喜上界）= 感知+行动的共同目标；感知=更新内部模型，行动=改变感觉输入；学习=更新模型参数；VAE数学等价 **[NEW 2026-09-01]**
-- 🟡 [主动推断](theories/active-inference.md) — FEP中行动的计算含义：实现本体感觉预测而非输出运动命令；感知与行动统一于同一优化目标；期望自由能最小化 = 目标导向行为的FEP导出 **[NEW 2026-09-01]**
+- 🟡 [主动推断](theories/active-inference.md) — FEP中行动的计算含义：实现本体感觉预测而非输出运动命令；感知与行动统一于同一优化目标；小脑精度先验角色（DCN时间精度+高尔基细胞空间精度）；单前向模型优势；Friston & Herreros 2016 眼睑模型 **[修订 rev2 2026-09-02]**
 - 🔴 [整合信息理论（IIT）](theories/integrated-information-theory.md) — 意识 = Φ（整合信息量）；五公理推导物理约束；意识基质在后方皮层热区（而非前额叶）；小脑/视网膜低 Φ 预测与临床一致；COGITATE 2025 挑战核心机制预测（后方皮层同步缺失）；泛心论蕴含；前馈网络 Φ ≈ 0 **[NEW 2026-05-31 · 争议]**
 - 🟡 [精度加权](concepts/precision-weighting.md) — 预测误差信号携带精度权重，注意力形式化为选择性提升误差精度；ACh/NE/DA是分子层面的精度调节器；VIP-SST去抑制回路是回路层面的实现候选 **[NEW 2026-06-15]**
 

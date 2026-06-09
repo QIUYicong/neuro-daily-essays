@@ -6,14 +6,14 @@ type: theory
 status: emerging
 confidence: medium
 created: 2026-09-01
-updated: 2026-09-01
-revision_count: 1
+updated: 2026-09-02
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [free-energy-principle, predictive-coding, forward-model, cerebellum, motor-learning, precision-weighting, world-model, dopamine-reward-prediction-error]
+related: [free-energy-principle, predictive-coding, forward-model, cerebellum, motor-learning, precision-weighting, world-model, dopamine-reward-prediction-error, proprioceptive-prediction, deep-cerebellar-nuclei]
 prerequisites: [predictive-coding, free-energy-principle, forward-model]
-opens_questions: [Q-fep-01]
-source_articles: [2026-09-01-free-energy-principle-active-inference]
-key_sources: ["PMID:20068583", "PMID:23663408", "PMID:19528002"]
+opens_questions: [Q-fep-01, Q-fep-02]
+source_articles: [2026-09-01-free-energy-principle-active-inference, 2026-09-02-cerebellum-active-inference-proprioceptive-prior]
+key_sources: ["PMID:20068583", "PMID:23663408", "PMID:19528002", "PMID:41451122", "PMID:27391681"]
 ---
 
 # 主动推断（Active Inference）
@@ -55,12 +55,19 @@ key_sources: ["PMID:20068583", "PMID:23663408", "PMID:19528002"]
 
 这等价于（但不需要显式计算）最大化期望效用（奖励）——正因如此，FEP 框架可以把奖励最大化（强化学习）作为其特例处理，只要把"奖励状态"定义为"预期的低惊喜状态"即可。
 
-### 与小脑的关系
+### 与小脑的关系（2026-09-02 深化）
 
-小脑前向模型是主动推断的关键组成部分（见 [[forward-model]] 和 [[cerebellum]]）：
-- 小脑提供精准的本体感觉前向预测（给定运动命令，预测感觉后果）
-- 这些预测是主动推断所依赖的"先验"的主要来源之一
-- 尚未解决的问题（Q-fep-01）：主动推断框架如何完整整合小脑的前向模型？
+小脑在主动推断层次结构中承担**本体感觉先验的精度校准**角色（Parr et al. 2025，PMID:41451122）：
+
+**本体感觉预测**不仅包含均值（期望状态），还包含**协方差**（预测确信度），分解为两个分量：
+1. **空间精度分量**：调节脊髓反射弧的响应增益（γ 运动神经元）
+   → 高尔基细胞通过对颗粒细胞的抑制门控来实现（Palacios et al. 2021，PMID:33757352）
+2. **时间精度分量**：基于信号自相关结构，决定预测轨迹的时间平滑度
+   → 深部小脑核（DCN）调节时间精度估计；DCN 损坏 → 时间精度失调 → 意向性震颤
+
+**关键区别**：在主动推断中，只需要**一个前向模型**（小脑），逆向模型的计算被脊髓反射代替——这解决了 Wolpert-Kawato 框架中"逆向模型在哪里"的悬而未决问题。
+
+**Friston & Herreros（2016，PMID:27391681）**：将眼睑条件化建模为变分自由能最小化，提供小脑主动推断的最早计算实现，再现了时间/轨迹条件化的损伤模式。
 
 ## 关键证据
 
@@ -86,7 +93,9 @@ key_sources: ["PMID:20068583", "PMID:23663408", "PMID:19528002"]
 ## 修订历史
 
 - 2026-09-01 · 创建 · 基于《变分自由能与主动推断》(#132) · 初始置信度：中（概念框架 emerging，脊髓执行层机制 established，目标导向行为的完整 FEP 导出仍为 emerging）
+- 2026-09-02 · 修订（rev1→rev2）· 基于《小脑作为主动推断引擎》(#133，Q-fep-01 追踪）· 深化：小脑精度先验角色（DCN 时间精度 + 高尔基细胞空间精度）；主动推断只需前向模型（逆向模型被脊髓代替）；Friston & Herreros 2016 眼睑条件化模型；key_sources、related、opens_questions 更新
 
 ## 来源文章
 
 - [[2026-09-01-free-energy-principle-active-inference]]
+- [[2026-09-02-cerebellum-active-inference-proprioceptive-prior]]

@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-09-02（文章 #133 — 小脑作为主动推断引擎：本体感觉先验、精度校准 / Q-fep-01 追踪）
+
+**新建页面（1 页）**：
+- `wiki/concepts/proprioceptive-prediction.md`：本体感觉预测——主动推断框架中运动命令重定义为本体感觉先验（均值+精度）；精度两分量（空间分量=高尔基细胞门控，时间分量=DCN 调节）；脊髓反射弧执行层；只需一个前向模型；DCN 损坏→时间精度失调→意向性震颤；status=emerging, confidence=medium
+
+**修订页面（3 页）**：
+- `wiki/concepts/forward-model.md`（rev1→rev2）：新增主动推断视角（逆向模型被脊髓代替，只需前向模型，Parr et al. 2025）；新增 Tanaka 2019 直接神经证据（R²=0.89）；登记新矛盾 C-2026-09-02-01（内部模型 vs 前馈映射）；扩展 dimensions、related、key_sources
+- `wiki/systems/cerebellum.md`（rev3→rev4）：新增主动推断视角段落（DCN 时间精度 + 高尔基细胞空间精度）；颗粒细胞时间基础集（Nguyen & Person 2025）；更新 key_sources（+5）、related（+3）、opens_questions
+- `wiki/theories/active-inference.md`（rev1→rev2）：深化小脑精度先验角色（DCN 时间 + 高尔基细胞空间）；主动推断单前向模型优势；Friston & Herreros 2016 眼睑模型；key_sources、related 更新
+
+**图谱更新**：+1 节点（proprioceptive-prediction），+6 条边；279 节点，1566 条边
+
+**矛盾登记 / 裁决**：
+- 登记矛盾 C-2026-09-02-01（open）：小脑实现"显式内部模型"（Wolpert-Kawato + 主动推断框架）vs "模型无关前馈映射"（Nguyen & Person 2025）；性质=计算级理论分歧；需运动泛化/新奇学习实验裁决
+- Q-fep-01（部分回答）：问题 A 有理论框架支持（神经机制待验证）；问题 B/C 仍为 open
+
+**悬空引用**：新页 proprioceptive-prediction 引用 spinal-cord-reflex（尚无独立 wiki 页，待补）
+
+---
+
 ## 2026-09-01（文章 #132 — 变分自由能与主动推断：大脑如何用一个原则统一感知、行动与学习）
 
 **新建页面（2 页）**：
