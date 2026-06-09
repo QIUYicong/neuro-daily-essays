@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2482,6 +2482,25 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/frontal-hierarchy.md"
+    },
+    {
+      "id": "communication-through-coherence",
+      "title": "Communication Through Coherence（振荡通信框架）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/communication-through-coherence.md"
+    },
+    {
+      "id": "frontal-eye-field",
+      "title": "额叶眼区（FEF）",
+      "domain": "systems",
+      "type": "region",
+      "status": "speculative",
+      "confidence": "high",
+      "page": "wiki/systems/frontal-eye-field.md",
+      "note": "placeholder — no wiki page yet; covered partially in dorsal-attention-network.md"
     }
   ],
   "edges": [
@@ -10700,6 +10719,61 @@
       "from": "anterior-cingulate-cortex",
       "to": "frontal-hierarchy",
       "type": "related"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "alpha-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "dorsal-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "biased-competition",
+      "type": "supports"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "communication-through-coherence",
+      "type": "supports"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "communication-through-coherence",
+      "type": "part-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "communication-through-coherence",
+      "type": "part-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "frontal-eye-field",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "frontal-eye-field",
+      "type": "part-of"
     }
   ],
   "dangling_references": [

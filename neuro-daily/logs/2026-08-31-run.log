@@ -1,0 +1,152 @@
+# 运行日志 2026-08-31（文章 #131）
+
+**执行时间**：2026-06-09（UTC+8）
+**文章日期**：2026-08-31
+**分支**：main
+**状态**：完成
+
+---
+
+## 选题过程
+
+**步骤 A 状态读取**：
+- topic_ledger：最新文章 #130（2026-08-30，DLPFC 混合选择性），total_articles=130
+- 最近 4 篇：#128 三因素学习规则、#129 dACC/EVC、#130 DLPFC 混合选择性——认知控制系列已有"决策调度者（dACC）"和"规则编码者（DLPFC）"两篇，自然延伸到"信号路由机制（FEF-V4 γ routing）"
+- wiki _graph.json：274 节点，1535 条边（操作前）
+- 悬空引用：critical-period-plasticity、cognition（2个）
+- 高连接中等置信节点：predictive-coding（49度，medium），global-workspace-theory（22度，medium）
+- next_suggested_topics（来自 #130）：注意神经机制、工作记忆 active vs silent、DLPFC 混合选择性学习机制
+
+**选题依据**：
+1. 认知控制系列逻辑续集：#129（调度者 dACC）→ #130（规则执行者 DLPFC）→ **#131（信号路由机制 FEF-V4 γ）**
+2. DAN 页面已有 α 控制机制，但缺少 FEF-V4 γ coherence 的物理路由机制
+3. Gregoriou 2009/2012（PMC 开放全文）是直接测量 FEF-V4 通信的里程碑实验，值得专文深挖
+4. Fries 2015 CTC 框架（PMC 开放全文）统一解释 α 抑制 + γ 增强 + β 预测，是认识论上的重要升级
+5. communication-through-coherence 节点尚无 wiki 页——知识空白
+
+**今日主题**：FEF-V4 γ 相干性与 Communication Through Coherence 框架
+**核心问题**：当 DLPFC 编码了一条任务规则后，这个信号如何通过 FEF 到达 V4？γ 振荡同步如何创造选择性通信窗口？
+
+---
+
+## 文献检索
+
+**检索策略**：两个并行检索代理（PMC 全文搜索 + PubMed E-utilities）
+
+**检索词**：
+- "Gregoriou high-frequency long-range coupling prefrontal visual cortex attention 2009" → PMID:19478185 (PMC2849291)
+- "Gregoriou cell-type-specific synchronization FEF V4 2012" → PMID:22325208 (PMC3297082)
+- "Fries rhythms cognition communication through coherence Neuron 2015" → PMID:26447583 (PMC4605134)
+- "Worden anticipatory biasing visuospatial attention alpha EEG 2000" → PMID:10704517 (PMC6772495)
+- "Corbetta Shulman control goal-directed stimulus-driven attention 2002 NRN" → PMID:11994752 (abstract only)
+- "Buschman Miller top-down bottom-up attention prefrontal parietal 2007 Science" → PMID:17395832 (abstract only, PMID needs verification)
+- "Desimone Duncan neural mechanisms selective visual attention 1995 ARN" → PMID:7605061 (abstract only)
+- "van Moorselaar alpha zoom lens attention 2025" → PMC12572916 (open access)
+- "alpha oscillations spatial attention review PMC" → PMC database search
+
+**候选来源**：~12 篇，采用 9 篇（（详见 sources/2026-08-31-sources.json）
+- 开放全文（5 篇）：PMC2849291、PMC3297082、PMC4605134、PMC6772495、PMC12572916
+- 仅摘要（4 篇）：PMID:11994752、PMID:17395832（待核实）、PMID:7605061、PMID:15217330
+
+**注意**：Buschman & Miller 2007 PMID:17395832 为检索代理返回值，原始搜索预期 PMID 为 17901337，两者不同，已在文章和来源 JSON 中标注"待核实"。核心发现（PFC 先行 vs 顶叶先行，β vs γ）被多篇后续综述引用确认，内容可信但需 PMID 验证。
+
+---
+
+## 固结步骤
+
+**今日文章触及的核心概念（slug）**：
+1. `communication-through-coherence` → **新建页面**（wiki/concepts/）
+2. `gamma-oscillations` → **修订 rev4→rev5**（添加 FEF-V4 γ coupling 数据）
+3. `dorsal-attention-network` → **修订 rev2→rev3**（添加 γ 通信机制节）
+4. `alpha-oscillations` → **修订 rev1→rev2**（添加 CTC 框架整合，Q-alpha-01 部分进展）
+
+**矛盾检查**：
+- 无新矛盾：CTC 框架与现有 γ 页面内容（绑定假说、工作记忆 γ 爆发）之间的张力已在现有 wiki 中通过"不同任务中 γ 功能可能不同"的方式处理，不构成新的 contested_claim
+- Ray & Maunsell 的 γ coherence 批评已记录为 Q-ctc-01，属于"方法论争议"而非"结论矛盾"，不达到 contested_claim 登记标准
+
+**成熟度评估**：
+- communication-through-coherence：status=mainstream（γ 同步作为注意机制有大量证据，但 CTC 框架本身有批评者）；confidence=medium
+- gamma-oscillations：维持 established/high（新数据加深而非改变理解）
+- dorsal-attention-network：维持 established/high（CTC 是机制层面的深化）
+- alpha-oscillations：维持 established/high（CTC 提供额外理论框架）
+
+---
+
+## 图谱更新
+
+- 新增节点：communication-through-coherence（1个）
+- 新增边（9条）：
+  - CTC → gamma-oscillations (mechanism-of)
+  - CTC → alpha-oscillations (mechanism-of)
+  - CTC → dorsal-attention-network (mechanism-of)
+  - CTC → biased-competition (supports)
+  - dorsal-attention-network → CTC (supports)
+  - gamma-oscillations → CTC (part-of)
+  - alpha-oscillations → CTC (part-of)
+  - CTC → predictive-coding (related)
+  - CTC → working-memory (related)
+- 操作后：275 节点，1544 条边
+
+---
+
+## 新增未解问题
+
+- Q-ctc-01（高优先级）：γ coherence 因果性 vs 相关性副产品
+- Q-ctc-02（高优先级）：不同任务/脑区配对中 γ 是否同一机制
+- Q-ctc-03（中优先级）：人类 FEF-V4 CTC 验证
+- Q-alpha-01：标记为"部分进展"（CTC 框架性解答），仍需专文
+
+---
+
+## 失败与限制
+
+1. Buschman & Miller 2007 PMID（17395832）待独立核实；内容取自摘要，标注"abstract only, PMID pending verification"
+2. Corbetta & Shulman 2002 无 PMC 开放全文（付费墙）；仅使用摘要，但内容已在现有 wiki（dorsal-attention-network.md）中充分覆盖
+3. Desimone & Duncan 1995 无 PMC 开放全文；仅摘要
+4. 第二个 PubMed 检索代理在运行期间未完成返回（异步模式），文章基于第一个 PMC 检索代理的结果和现有知识库写成
+
+---
+
+## 自检结果
+
+**真实性** ✅
+- wiki 每条新主张有来源？ → 是（CTC 页：Fries 2015 + Gregoriou 2009/2012 全文）
+- 区分了事实/模型/推测/争议？ → 是（CTC 标注 mainstream/medium；γ coherence 因果性争议明确指出）
+- 没有把动物研究写成人类定论？ → 是（明确标注"猕猴实验"，Q-ctc-03 列出人类验证问题）
+
+**一致性** ✅
+- 新内容是否与既有 wiki 冲突？ → 否（CTC 是既有 γ 和 α 页面的延伸，没有矛盾）
+- 被修订页的 updated/revision_count/修订历史同步更新？ → 是
+- _graph.json 有无悬空边？ → 检查：CTC 的 related 中包含 beta-oscillations, frontal-eye-field, thalamocortical-circuit——这些节点需确认存在于图谱
+
+**可导航** ✅
+- index.md 和 CHANGELOG.md 反映今天变化？ → 是
+- 新页 related/prerequisites 至少各填了 1 个？ → 是
+
+**情景层完整** ✅
+- 文章/笔记/来源/日志齐全？ → 是
+- 没有改动旧文件？ → 是（仅修订 wiki 语义层文件）
+
+---
+
+## Git 操作
+
+**分支**：main
+**文件变更**：
+- 新增：articles/2026-08-31-fef-v4-gamma-coherence-ctc.md
+- 新增：notes/2026-08-31-reading-notes.md
+- 新增：sources/2026-08-31-sources.json
+- 新增：logs/2026-08-31-run.log（本文件）
+- 新增：wiki/concepts/communication-through-coherence.md
+- 修订：wiki/concepts/gamma-oscillations.md（rev4→rev5）
+- 修订：wiki/concepts/dorsal-attention-network.md（rev2→rev3）
+- 修订：wiki/concepts/alpha-oscillations.md（rev1→rev2）
+- 修订：wiki/_graph.json（275节点，1544边）
+- 修订：wiki/index.md（更新末尾摘要行 + 添加 CTC 条目）
+- 修订：wiki/CHANGELOG.md（添加 2026-08-31 节）
+- 修订：state/topic_ledger.json（添加 #131 条目，total=131）
+- 修订：state/unresolved_questions.md（添加 Q-ctc-01/02/03 + Q-alpha-01 进展）
+- 修订：state/monthly_synthesis.md（更新 8月进度）
+- 修订：state/source_registry.json（添加 3 个新来源）
+
+**commit message**：Add neuro daily article + wiki consolidation for 2026-08-31

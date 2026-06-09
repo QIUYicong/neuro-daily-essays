@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-08-31",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11010,6 +11010,52 @@
         "BTSP",
         "eligibility-trace",
         "CA1-place-field"
+      ]
+    },
+    {
+      "id": "SR-2026-08-31-01",
+      "pmid": "19478185",
+      "pmcid": "PMC2849291",
+      "citation": "Gregoriou GG et al. 2009 Science. High-frequency, long-range coupling between prefrontal and visual cortex during attention.",
+      "used_in": [
+        "2026-08-31-fef-v4-gamma-coherence-ctc"
+      ],
+      "covers": [
+        "FEF-V4 gamma coherence",
+        "spatial attention",
+        "Granger causality",
+        "oscillatory synchrony"
+      ]
+    },
+    {
+      "id": "SR-2026-08-31-02",
+      "pmid": "22325208",
+      "pmcid": "PMC3297082",
+      "citation": "Gregoriou GG et al. 2012 Neuron. Cell-type-specific synchronization of neural activity in FEF with V4 during attention.",
+      "used_in": [
+        "2026-08-31-fef-v4-gamma-coherence-ctc"
+      ],
+      "covers": [
+        "FEF cell types",
+        "visual vs movement neurons",
+        "gamma coherence specificity",
+        "laminar structure"
+      ]
+    },
+    {
+      "id": "SR-2026-08-31-03",
+      "pmid": "26447583",
+      "pmcid": "PMC4605134",
+      "citation": "Fries P. 2015 Neuron. Rhythms for cognition: communication through coherence.",
+      "used_in": [
+        "2026-08-31-fef-v4-gamma-coherence-ctc"
+      ],
+      "covers": [
+        "CTC framework",
+        "gamma feedforward",
+        "alpha/beta feedback",
+        "theta sampling",
+        "frequency hierarchy"
       ]
     }
   ]

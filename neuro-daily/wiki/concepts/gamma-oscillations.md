@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-21
-revision_count: 4
+updated: 2026-08-31
+revision_count: 5
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations, communication-through-coherence, dorsal-attention-network]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
-opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron]
-key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192"]
+opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-ctc-01]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-08-31-fef-v4-gamma-coherence-ctc]
+key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:19478185", "PMID:22325208"]
 ---
 
 # γ 振荡 (Gamma Oscillations, 30–80 Hz)
@@ -120,9 +120,35 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 
 - 2026-07-21 · 修订 rev4 · 基于《大脑的频闪滤网》一文 · 新增 α-γ 互补关系节；related 新增 alpha-oscillations · 来源：Jensen & Mazaheri 2010, PMID:21119777
 
+## FEF-V4 注意 γ 相干性（新增 2026-08-31）
+
+Gregoriou 等 2009 年提供了迄今最直接的 γ coherence 跨区通信证据（PMID:19478185，PMC2849291，开放全文）：
+
+**实验**：猕猴 FEF + V4 同步记录；空间注意任务
+**关键发现**：
+- 注意使 FEF-V4 **γ coherence 升高 26–37%**（空间特异性，忽视侧无显著变化）
+- **FEF 先行**：注意调制出现时间 FEF(80 ms) vs V4(130 ms)；先行约 50 ms
+- **Granger 因果**：早期 FEF→V4 主导，维持期 V4→FEF 增强
+- **8–13 ms 时间偏移**：与 FEF-V4 轴突传导延迟完全匹配
+
+**细胞类型特异性**（Gregoriou et al. 2012，PMID:22325208，PMC3297082）：
+- 只有 **visual FEF 神经元**（L2/3，浅层）与 V4 建立 γ coherence
+- **Movement FEF 神经元**（L5/6）：注意时 β 升高，γ coupling 无显著变化
+- 注意与眼跳通路在 FEF 内部完全解离
+
+**对 CTC 框架的支持**：这一数据是 Communication Through Coherence（CTC，Fries 2015）的核心实验基础之一。见 [[communication-through-coherence]] 页面。
+
+| 主张 | 证据/方法 | 来源 | 置信度 |
+|------|----------|------|--------|
+| 注意使 FEF-V4 γ coherence 升高 26–37% | 猕猴同步记录 + 相干性分析 | PMID:19478185 | 高 |
+| 只有 visual FEF 神经元参与 γ coupling | 细胞类型分类 + 相干性分析 | PMID:22325208 | 高 |
+
+- 2026-08-31 · 修订 rev5 · 基于《振荡路由：γ 相干性与 CTC 框架》#131 文章 · 新增 FEF-V4 注意 γ 相干性节（Gregoriou 2009, 2012 开放全文数据）；related 新增 communication-through-coherence, dorsal-attention-network；key_sources 新增 PMID:19478185, PMID:22325208；opens_questions 新增 Q-ctc-01
+
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-06-25-gamma-oscillations-neural-binding]]
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-07-21-alpha-oscillations-attentional-gating]]
+- [[2026-08-31-fef-v4-gamma-coherence-ctc]]

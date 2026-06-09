@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-01
-updated: 2026-07-21
-revision_count: 2
+updated: 2026-08-31
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding, alpha-oscillations]
+related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding, alpha-oscillations, gamma-oscillations, communication-through-coherence, dlpfc-rule-encoding]
 prerequisites: [prefrontal-cortex, v1-primary-visual-cortex, thalamus]
-opens_questions: [Q-dan-01, Q-dan-02, Q-dan-03]
-source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS]
-key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965"]
+opens_questions: [Q-dan-01, Q-dan-02, Q-dan-03, Q-ctc-01, Q-alpha-01]
+source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc]
+key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965", "PMID:19478185", "PMID:22325208"]
 ---
 
 # 背侧注意网络（Dorsal Attention Network, DAN）
@@ -107,12 +107,35 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 - Q-dan-03：DAN 是否调控全局警觉状态，还是只负责局部位置注意
 - Q-thalamus-burst-awake：清醒视丘爆发放电与 DAN 注意转移的关系（已登记）
 
+## FEF 的 γ 通信机制（新增 2026-08-31）
+
+DAN 不只通过乘法增益和 α 抑制实施注意控制，还通过 **FEF-V4 γ 频段相干性**建立动态通信通道：
+
+**Gregoriou et al. 2009（PMID:19478185，PMC2849291，开放全文）关键数据**：
+- 注意期间 FEF-V4 γ coherence（50–90 Hz）升高 **26–37%**（空间特异性）
+- FEF 注意调制时间（80 ms）早于 V4（130 ms），Granger 因果确认 FEF→V4 方向
+- 维持期 V4→FEF 反馈增强，形成双向维持环路
+
+**细胞类型分离（Gregoriou et al. 2012，PMID:22325208，PMC3297082）**：
+- FEF **视觉神经元**（L2/3）→ V4：γ coupling（注意通路）
+- FEF **运动神经元**（L5/6）→ SC/脑干：无 γ coupling，注意期 β 升高（眼跳准备通路）
+- 注意与眼跳在 FEF 内部完全解离（细胞类型 + 皮层层级）
+
+**与 CTC 框架整合**：这些发现是 Fries 2015 CTC（Communication Through Coherence，PMID:26447583）框架的核心实验基础。CTC 统一解释了：
+- γ coherence（FEF-V4）= 前馈通信窗口打开（被注意刺激）
+- α 升高（非目标枕叶）= 竞争通信窗口关闭
+- β 同步（PFC-顶叶）= top-down 预期/注意信号的反馈载体
+
+见 [[communication-through-coherence]] 页面完整框架。
+
 ## 修订历史
 
 - 2026-07-01 · 创建 · 基于《空间注意的神经回路》一文 · 来源：Corbetta & Shulman 2002, Bisley & Goldberg 2010, Moore & Fallah 2004, Debes & Dragoi 2023, Treue & Trujillo 1999 · 初始置信度：高
 - 2026-07-21 · 修订 rev2 · 新增"α 振荡控制"机制节：FEF-IPS α 相干性作为 DAN 控制感觉皮层 α 侧向化的振荡载体；更新 related 字段加入 alpha-oscillations · 来源：van Schouwenburg et al. 2017, PMID:28174529
+- 2026-08-31 · 修订 rev3 · 新增"FEF 的 γ 通信机制"节：FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009 开放全文）；FEF 细胞类型解离（Gregoriou 2012 开放全文）；整合 CTC 框架；related 新增 gamma-oscillations, communication-through-coherence, dlpfc-rule-encoding；opens_questions 新增 Q-ctc-01, Q-alpha-01；key_sources 新增 PMID:19478185, PMID:22325208
 
 ## 来源文章
 
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-07-21-alpha-oscillations-attentional-gating]]
+- [[2026-08-31-fef-v4-gamma-coherence-ctc]]

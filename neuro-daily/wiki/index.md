@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-30（**#130**·前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则）· 主题页总数：**256**（新建3页：mixed-selectivity · dlpfc-rule-encoding · frontal-hierarchy；修订3页：prefrontal-cortex rev5 · anterior-cingulate-cortex rev2 · working-memory rev9；图谱274节点、1535边）
+> 最后更新：2026-08-31（**#131**·振荡路由：γ 相干性如何让大脑把注意力变成专用通信线路）· 主题页总数：**257**（新建1页：communication-through-coherence；修订3页：gamma-oscillations rev5 · dorsal-attention-network rev3 · alpha-oscillations rev2；图谱275节点、1544边）
 
 ---
 
@@ -167,8 +167,9 @@
 - 🔵 [兴奋-抑制平衡（E/I 平衡）](concepts/ei-balance.md) — 皮层回路信噪比控制机制；PV+/SST+/VIP+ 三类中间神经元分工维持；失衡是 ASD/精神分裂症/癫痫的共同汇流点；多维度（不同细胞类型→不同靶点），非单一数字 **[NEW 2026-07-04]**
 - 🟢 [围神经元网（PNNs）](concepts/perineuronal-nets.md) — 包裹 PV+ 细胞的细胞外基质网络（aggrecan+透明质酸+连接蛋白）；OTX2 正反馈驱动 PV 成熟；固化 AMPA 受体、关闭发育关键期；ChABC 处理可逆转（动物） **[NEW 2026-07-04]**
 
-- 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）**[NEW 2026-07-01]**
+- 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）；**rev3 新增**：FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009）；CTC 振荡路由框架整合（2026-08-31）**[NEW 2026-07-01]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
+- 🔵 [Communication Through Coherence（CTC）](concepts/communication-through-coherence.md) — 振荡相位对齐创造通信窗口；γ 前馈（感觉内容）/α-β 反馈（预测控制）/θ 采样节律；FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009 开放全文）；visual vs movement FEF 神经元解离（Gregoriou 2012）；Fries 2015 综述框架（PMC4605134）**[NEW 2026-08-31 #131]**
 - 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性 **[NEW 2026-06-28]**（填补多页悬空引用）
 - 🟢 [Aβ寡聚体](concepts/amyloid-beta-oligomers.md) — AD的核心毒性物种；通过PrPC/NR2B/calcineurin/BDNF/tau五路并行瓦解海马LTP机器 **[NEW 2026-06-08]**
 - 🟢 [短时程突触可塑性（STP）](concepts/short-term-synaptic-plasticity.md) — 毫秒至分钟尺度内突触效率的使用依赖性动态变化；Syt7驱动易化（高p→低通）、RRP耗竭驱动抑制（低p→高通）；是工作记忆活动无声储存的分子基础 **[NEW 2026-06-10]**

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-21
-updated: 2026-07-21
-revision_count: 1
+updated: 2026-08-31
+revision_count: 2
 dimensions: [whole-brain-network, brain-region, cognition, cellular, behavior]
-related: [dorsal-attention-network, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, biased-competition, thalamus, thalamocortical-circuit, pv-interneurons, ei-balance, attentional-blink, multisensory-integration, predictive-coding]
+related: [dorsal-attention-network, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, biased-competition, thalamus, thalamocortical-circuit, pv-interneurons, ei-balance, attentional-blink, multisensory-integration, predictive-coding, communication-through-coherence]
 prerequisites: [action-potential, synaptic-transmission, pv-interneurons, thalamus]
 opens_questions: [Q-alpha-01, Q-alpha-02, Q-alpha-03]
-source_articles: [2026-07-21-alpha-oscillations-attentional-gating]
-key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905", "PMID:21779269", "PMID:23141428"]
+source_articles: [2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc]
+key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905", "PMID:21779269", "PMID:23141428", "PMID:26447583"]
 ---
 
 # α 振荡 (Alpha Oscillations, 8–13 Hz)
@@ -96,10 +96,28 @@ key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905"
 - **Q-alpha-02**（中优先级）：个体 IAF 差异（8–13 Hz）是否与注意效率指标（d'、RT 变异性）系统性相关？高 IAF 是否提供更精细的时间门控？
 - **Q-alpha-03**（中优先级）：清醒时 α 门控（感觉过滤）与睡眠时丘脑纺锤波（记忆保护）是否共享相同的 TRN 硬件，但通过不同的神经调质状态（NE/ACh 高 vs 低）切换功能？
 
+## α 在 CTC 框架中的角色（新增 2026-08-31）
+
+在 Fries 2015 的 Communication Through Coherence（CTC）框架（PMID:26447583，PMC4605134）中，α 振荡是大脑路由系统的**关闭门**：
+
+**CTC 视角下的 α 功能**：
+- γ（30–90 Hz）= 通信窗口**打开**（被注意区域，前馈）
+- α/β（8–30 Hz）= 通信窗口**关闭**（非目标区域，反馈抑制）
+- 两者互补协同，共同实现选择性信息路由
+
+**FEF-V4 γ coupling 与 α 抑制的协同**（Gregoriou et al. 2009，PMID:19478185）：
+- FEF 向被注意位置的 V4 发出 γ coherence 信号（打开通信），同时
+- FEF/IPS 向非目标视觉皮层发出 α/β 信号，使非目标区域 α 升高（关闭竞争通信）
+- 这一双向机制共同实现了偏置竞争（biased competition）的物理路由
+
+**对 Q-alpha-01 的部分回答**：CTC 框架提供了一个框架性答案——FEF 向非目标区域枕叶发送反馈投射，这些反馈在 α/β 频段传递（皮层深层 L5/6 → 非颗粒层反馈通路），使目标 α 降低、非目标 α 升高。但 FEF 的反馈是通过**直接皮层回路**还是**丘脑 TRN 中继**还有争议（Q-alpha-01 未完全解决）。
+
 ## 修订历史
 
 - 2026-07-21 · 创建 · 基于《大脑的频闪滤网》第89篇文章 · 初始置信度：高（10个来源，9个开放全文，包含 rhTMS 因果证据）
+- 2026-08-31 · 修订 rev2 · 新增"α 在 CTC 框架中的角色"节：将 α 抑制整合进 Fries CTC 框架；说明 FEF-V4 γ coupling 与 α 抑制的协同机制；related 新增 communication-through-coherence；key_sources 新增 PMID:26447583；Q-alpha-01 部分回答进展
 
 ## 来源文章
 
 - [[2026-07-21-alpha-oscillations-attentional-gating]]
+- [[2026-08-31-fef-v4-gamma-coherence-ctc]]

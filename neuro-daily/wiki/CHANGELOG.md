@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-08-31（文章 #131 — 振荡路由：γ 相干性如何让大脑把注意力变成专用通信线路）
+
+**新建页面（1 页）**：
+- `wiki/concepts/communication-through-coherence.md`：Communication Through Coherence（CTC）——振荡相位对齐创造通信窗口；γ（30–90 Hz）前馈感觉内容，α/β（8–30 Hz）反馈预测控制；FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009 开放全文）；频段-方向皮层层级对应（Bastos 2015）；status=mainstream, confidence=medium（框架有争议）
+
+**修订页面（3 页）**：
+- `wiki/concepts/gamma-oscillations.md`（rev4→rev5）：新增 FEF-V4 注意 γ 相干性节（Gregoriou 2009, 2012 两篇开放全文数据）；visual FEF 神经元解离；related 新增 communication-through-coherence, dorsal-attention-network；key_sources 新增 PMID:19478185, PMID:22325208
+- `wiki/concepts/dorsal-attention-network.md`（rev2→rev3）：新增 FEF γ 通信机制节（Gregoriou 2009, 2012）；整合 CTC 框架；related 新增 gamma-oscillations, communication-through-coherence, dlpfc-rule-encoding
+- `wiki/concepts/alpha-oscillations.md`（rev1→rev2）：新增 α 在 CTC 框架中的角色节；Q-alpha-01 部分进展（CTC 框架性解释）；related 新增 communication-through-coherence
+
+**图谱更新**：+1 节点（communication-through-coherence），+9 条边；275 节点，1544 条边
+
+**矛盾登记 / 裁决**：无新矛盾（CTC 的 Q-ctc-01 γ coherence 因果性争议已在 opens_questions 中记录，相关议题 Ray & Maunsell 批评尚未达到裁决阶段）
+
+**新增未解问题**：Q-ctc-01（高优先级，γ coherence 是否因果机制）、Q-ctc-02（高优先级，不同任务中 γ 功能一致性）、Q-ctc-03（中优先级，人类 FEF-V4 CTC 验证）；Q-alpha-01 获得部分进展
+
+---
+
 ## 2026-08-30（文章 #130 — 前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则）
 
 **新建页面（3 页）**：

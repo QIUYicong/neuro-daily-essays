@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-30",
-  "total_articles": 130,
+  "last_updated": "2026-08-31",
+  "total_articles": 131,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8329,6 +8329,77 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8≈2026-06-09（真实执行日期）；知识库虚拟日期2026-08-30；课程脊柱第5章'认知控制'系列第二篇；9个来源中7个开放全文读取，2个摘要仅读；无PMID编造；无新矛盾登记（NMS因果性争议记为未解问题，暂不登记contested_claim）；3个新wiki页创建，3个修订；知识图谱：274节点，1535条边"
+    },
+    {
+      "date": "2026-08-31",
+      "real_date": "2026-06-09",
+      "article_number": 131,
+      "title": "振荡路由：γ 相干性如何让大脑把注意力变成专用通信线路",
+      "slug": "fef-v4-gamma-coherence-ctc",
+      "filename": "2026-08-31-fef-v4-gamma-coherence-ctc.md",
+      "article_type": "regular",
+      "core_question": "当大脑决定注意某个目标时，FEF（额叶眼区）发出的注意信号如何通过 γ 振荡相干性（50–90 Hz）在皮层区域之间建立临时专用通信通道，使被注意刺激的信号优先路由到决策系统？Communication Through Coherence（CTC）框架如何统一解释 γ 前馈路由、α 竞争抑制和 β 反馈预测信号在注意控制中的协同？",
+      "layer": [
+        "whole-brain-network",
+        "brain-region",
+        "cognition",
+        "cellular"
+      ],
+      "curriculum_track": "5. 认知控制（注意机制；认知控制系列第三篇：dACC→DLPFC→FEF-V4 γ routing）",
+      "topic_tags": [
+        "gamma coherence",
+        "FEF",
+        "V4",
+        "attention",
+        "communication through coherence",
+        "CTC",
+        "oscillatory synchrony",
+        "Gregoriou 2009",
+        "Fries 2015",
+        "spatial attention",
+        "alpha oscillations",
+        "beta oscillations",
+        "top-down attention",
+        "bottom-up attention",
+        "biased competition",
+        "Buschman Miller 2007",
+        "dorsal attention network",
+        "frontal eye field",
+        "visual FEF neurons",
+        "movement FEF neurons",
+        "Granger causality",
+        "coherence",
+        "supragranular layers",
+        "infragranular layers",
+        "Bastos 2015",
+        "frequency hierarchy",
+        "Worden 2000",
+        "alpha lateralization"
+      ],
+      "main_sources": [
+        "PMID:19478185 / PMC2849291 (Gregoriou et al. 2009, Science, open full text read) - FEF-V4 gamma coherence 26-37% during attention",
+        "PMID:22325208 / PMC3297082 (Gregoriou et al. 2012, Neuron, open full text read) - cell-type specificity: visual FEF neurons only",
+        "PMID:26447583 / PMC4605134 (Fries 2015, Neuron, open full text read) - CTC framework review",
+        "PMID:10704517 / PMC6772495 (Worden et al. 2000, J Neurosci, open full text read) - alpha lateralization spatial attention",
+        "PMID:11994752 (Corbetta & Shulman 2002, NRN, abstract only) - DAN/VAN dual network",
+        "PMID:17395832 (Buschman & Miller 2007, Science, abstract only, PMID to verify) - top-down beta vs bottom-up gamma",
+        "PMID:7605061 (Desimone & Duncan 1995, ARN, abstract only) - biased competition model",
+        "PMID:15217330 (Reynolds & Chelazzi 2004, ARN, abstract only) - attentional modulation V4/MT",
+        "PMC12572916 (van Moorselaar et al. 2025, J Neurosci, open full text) - alpha zoom-lens model"
+      ],
+      "open_full_text_count": 5,
+      "abstract_only_count": 4,
+      "unresolved_questions": [
+        "Q-ctc-01",
+        "Q-ctc-02",
+        "Q-ctc-03",
+        "Q-alpha-01 (partial progress)"
+      ],
+      "next_suggested_topics": [
+        "工作记忆活动静默 vs 持续放电（Q-wm-active-vs-silent）：Stokes 2013 动态编码 + Panichello 2024 Neuropixels 证据整合——认知控制系列自然延伸",
+        "DLPFC 混合选择性学习机制（Q-ms-01）：三因素规则 + dACC 误差信号 + DA 调制如何共同雕塑 DLPFC 的混合选择性格局",
+        "额叶层级：离散级 vs 连续梯度（Q-fh-01）：Badre 2009 病变双解离 vs Nee & D'Esposito fMRI 梯度——需要 7T fMRI 数据"
+      ]
     }
   ],
   "layer_coverage_recent": {
