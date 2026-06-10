@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-06",
   "total_articles": 136,
   "entries": [
     {
@@ -8707,6 +8707,87 @@
         "Q-ss-01",
         "Q-ss-02"
       ]
+    },
+    {
+      "date": "2026-09-06",
+      "real_date": "2026-06-10",
+      "article_number": 136,
+      "title": "PSD-95：兴奋性突触的主控分子",
+      "slug": "psd95-synaptic-scaffold",
+      "filename": "2026-09-06-psd95-synaptic-scaffold.md",
+      "article_type": "dangling_reference_fill",
+      "core_question": "PSD-95（DLG4）如何通过五域结构（PDZ1/2/3 + SH3 + GK）同时执行 NMDA 受体锚定、AMPA 受体槽位提供和深部骨架连接三项功能？TARP-PSD-95 轴是 AMPAR 突触定位的必要条件还是调节层？SynGAP 与 TARP 在 PDZ 槽位上的竞争如何在 LTP 时序中发挥作用？棕榈酰化循环（ZDHHC2）如何把神经元活动史写入突触强度？PSD-95/PSD-93 竞争比值如何设定关键期时间轴？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "disease"
+      ],
+      "curriculum_track": "1. 突触分子生物学（PSD 骨架子系统深入；衔接 突触后致密体#105 → PSD-95主控分子#136 → 沉默突触#119（关键期开锁执行者）；填补 silent-synapse 和 postsynaptic-density 悬空引用；完成PSD三层架构的分子解析）",
+      "topic_tags": [
+        "PSD-95",
+        "DLG4",
+        "MAGUK",
+        "PDZ domain",
+        "synaptic scaffold",
+        "postsynaptic density",
+        "AMPA receptor",
+        "NMDA receptor",
+        "TARP",
+        "Stargazin",
+        "synaptic slot",
+        "SynGAP",
+        "LTP",
+        "critical period",
+        "palmitoylation",
+        "ZDHHC2",
+        "liquid-liquid phase separation",
+        "silent synapse",
+        "PSD-93",
+        "SAP102",
+        "SAP97",
+        "GluN2B",
+        "GluA1-S831",
+        "CaMKII",
+        "GluN2B ESDV motif",
+        "TARP PDZ binding motif",
+        "ocular dominance plasticity",
+        "DLG4 syndrome"
+      ],
+      "main_sources": [
+        "PMID:7569905 (Cho 1992 / Morgan Bhattacharyya Bhattacharyya 1995, Science, abstract only) — PSD-95 PDZ1/2 直接结合 NMDAR GluN2B -ESDV 发现论文",
+        "PMID:11082065 (El-Husseini 2000, Science, abstract only) — PSD-95 过表达驱动突触成熟",
+        "PMID:12359873 / PMC129795 (Schnell 2002, PNAS, open full text) — Stargazin 直接结合 PSD-95 PDZ，控制突触 AMPAR 数量",
+        "PMID:14749436 / PMC6729816 (Bhattacharyya 2004, J Neurosci, open full text) — PSD-95 PDZ1/2 是 LTP 中 AMPAR 插入的必要结构",
+        "PMID:16061821 / PMC1182136 (Bhattacharyya 2005, PNAS, open full text) — 每个 PSD 约 300 个 PSD-95 分子",
+        "PMID:21525273 / PMC3099547 (Bhattacharyya 2011, J Neurosci, open full text) — PSD-95 垂直纤维阵列；敲低→AMPAR 相关结构消失",
+        "PMID:27623146 / PMC5040590 (Bhattacharyya 2016, eLife, open full text) — SynGAP 竞争 PDZ 槽位；CaMKII 磷酸化释放槽位",
+        "PMID:27565345 / PMC5564291 (Zeng 2016, Cell, open full text) — PSD 液液相分离由 SynGAP/PSD-95 驱动",
+        "PMID:23926273 / PMC6619720 (Nair 2013, J Neurosci, open full text) — AMPAR 纳米域（70-100 nm）由 PSD-95 维持",
+        "PMID:26015564 / PMC4475980 (Bhattacharyya 2015, PNAS, open full text) — PSD-95 KO→关键期无限延长"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/psd-95.md (NEW, established/high) — 填补 silent-synapse 和 postsynaptic-density 悬空引用",
+        "wiki/concepts/tarp-auxiliary-subunit.md (NEW, established/high) — 填补 ampa-receptor 悬空引用"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md (rev13->rev14): related 新增 psd-95、tarp-auxiliary-subunit、silent-synapse；source_articles 新增 2026-09-06-psd95-synaptic-scaffold",
+        "wiki/concepts/postsynaptic-density.md (rev1->rev2): related 新增 psd-95、tarp-auxiliary-subunit、silent-synapse；source_articles 新增 2026-09-06-psd95-synaptic-scaffold"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-psd95-01",
+        "Q-psd95-02"
+      ],
+      "next_suggested_topics": [
+        "syngap-rasopathy: SynGAP/SYNGAP1 的疾病生物学——杂合截断突变导致 PDZ 槽位过度占用（无 CaMKII 磷酸化调控的永久性 SynGAP）→ LTP 受损 + ASD/ID；PSD-95 槽位竞争机制直接延伸",
+        "dlg4-syndrome: DLG4 单倍剂量不足（OMIM #616831）——PSD-95 蛋白减少50%时突触槽位减少、AMPAR 不稳定、智力障碍+自闭谱系症状；填补当前悬空引用",
+        "ampa-receptor-trafficking: AMPAR 突触运输的完整故事——内质网→再循环内体→突触的三阶段旅程；GluA1/GluA2 亚基特异性规则（GluA1:CaMKII-S831/PKA-S845 vs GluA2:NSF-mediated basal）；与TARP和PSD-95槽位整合"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-06；文章为悬空引用填补型（psd-95 在上一篇 silent-synapse 文章中产生悬空引用）；18个开放全文来源（69%），4个摘要仅读，2个付费墙（有PMC替代）；2个新 wiki 页面；2个 wiki 页修订；2个新未解问题（Q-psd95-01, Q-psd95-02）"
     }
   ],
   "layer_coverage_recent": {

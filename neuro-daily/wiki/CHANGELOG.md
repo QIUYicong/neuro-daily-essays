@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-09-06（#136 · PSD-95：兴奋性突触的主控分子）
+
+**新建页面（2页）**：
+- `concepts/psd-95.md`（established/high）— PSD-95（DLG4）：兴奋性突触最丰富的支架蛋白（~300分子/突触）；PDZ1/2锚定NMDAR-GluN2B；经TARP（Stargazin）间接稳定AMPAR；突触槽位（synaptic slot）的物理基础；SynGAP竞争PDZ槽位的LTP机制；棕榈酰化动态循环（ZDHHC2活动依赖）；液液相变（SynGAP/PSD-95凝聚体）；PSD-95/PSD-93竞争设定关键期时间轴；填补 silent-synapse / postsynaptic-density 悬空引用
+- `concepts/tarp-auxiliary-subunit.md`（established/high）— TARP（跨膜 AMPAR 调控蛋白）：AMPA受体辅助亚基；Stargazin（γ-2）C末端(-TTPV)直接结合PSD-95 PDZ1/2（Schnell 2002 PNAS）；AMPAR-TARP-PSD95三元复合物是突触AMPAR锚定的必要中介；调控AMPAR门控动力学和表面运输；填补 ampa-receptor 悬空引用
+
+**修订页面（2页）**：
+- `concepts/ltp.md`（rev14）— related 新增 psd-95、tarp-auxiliary-subunit、silent-synapse；source_articles 新增 2026-09-06-psd95-synaptic-scaffold；PSD-95槽位机制是LTP物理底层的明确说明
+- `concepts/postsynaptic-density.md`（rev2）— related 新增 psd-95、tarp-auxiliary-subunit、silent-synapse；source_articles 新增 2026-09-06-psd95-synaptic-scaffold；PSD-95 专页链接已激活
+
+**矛盾登记**：无新矛盾
+
+**解决悬空引用**：
+- `psd-95` ✅ 已建立（被 silent-synapse、postsynaptic-density 引用）
+- `tarp-auxiliary-subunit` ✅ 已建立（被 ampa-receptor 引用）
+
+**新增未解问题**：
+- Q-psd95-01：LTP 时 PSD-95 分子绝对数量是否真的增加，还是只是槽位占用率变化？
+- Q-psd95-02：PSD-95 棕榈酰化-去棕榈酰化周期是否在睡眠期参与突触强度全局下调（SHY 假说）？
+
+**图谱**：287 节点 / 1628 条边（+2节点 +22条边）
+
+---
+
 ## 2026-09-05（#119 · ODP 第二阶段机制之争：开放眼的胜利）
 
 **新建页面（2页）**：

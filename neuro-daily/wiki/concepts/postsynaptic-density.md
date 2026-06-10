@@ -6,10 +6,10 @@ type: structure
 status: established
 confidence: high
 created: 2026-08-06
-updated: 2026-08-06
-revision_count: 1
+updated: 2026-09-06
+revision_count: 2
 dimensions: [molecular, synaptic, cellular]
-related: [synaptogenesis, neuroligin-neurexin, gephyrin-scaffold, ltp, camkii, working-memory]
+related: [synaptogenesis, neuroligin-neurexin, gephyrin-scaffold, ltp, camkii, working-memory, psd-95, tarp-auxiliary-subunit, silent-synapse]
 prerequisites: [synaptic-transmission, neuroligin-neurexin]
 opens_questions: [Q-synaptogenesis-01]
 source_articles: [2026-08-06-synaptogenesis-molecular-assembly]
@@ -86,8 +86,10 @@ PSD 的三层架构（从膜近端到深部）：
 
 ## 修订历史
 
+- 2026-09-06 · 修订 rev2 · 基于《PSD-95：兴奋性突触的主控分子》(#136) · related 新增 psd-95、tarp-auxiliary-subunit、silent-synapse；独立 psd-95 页面已创建（填补 silent-synapse 文章创建的悬空引用）
 - 2026-08-06 · 创建 · 基于《轴突找到伙伴之后：突触如何从分子装配线上诞生》(#105) · 初始置信度：高
 
 ## 来源文章
 
+- [[2026-09-06-psd95-synaptic-scaffold]]
 - [[2026-08-06-synaptogenesis-molecular-assembly]]

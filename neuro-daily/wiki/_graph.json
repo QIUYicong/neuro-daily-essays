@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-05",
-  "node_count": 264,
-  "edge_count": 1471,
+  "updated": "2026-09-06",
+  "node_count": 287,
+  "edge_count": 1628,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2582,6 +2582,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/critical-period-plasticity.md"
+    },
+    {
+      "id": "psd-95",
+      "title": "PSD-95（突触后密度-95）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/psd-95.md"
+    },
+    {
+      "id": "tarp-auxiliary-subunit",
+      "title": "TARP（跨膜 AMPAR 调控蛋白）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tarp-auxiliary-subunit.md"
     }
   ],
   "edges": [
@@ -11167,6 +11185,116 @@
       "from": "ocular-dominance-columns",
       "to": "critical-period-plasticity",
       "type": "is-a"
+    },
+    {
+      "source": "psd-95",
+      "target": "postsynaptic-density",
+      "type": "part-of"
+    },
+    {
+      "source": "psd-95",
+      "target": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "source": "psd-95",
+      "target": "ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "source": "psd-95",
+      "target": "ampa-receptor",
+      "type": "regulates"
+    },
+    {
+      "source": "psd-95",
+      "target": "nmda-receptor",
+      "type": "regulates"
+    },
+    {
+      "source": "psd-95",
+      "target": "silent-synapse",
+      "type": "regulates"
+    },
+    {
+      "source": "psd-95",
+      "target": "critical-period-plasticity",
+      "type": "regulates"
+    },
+    {
+      "source": "psd-95",
+      "target": "camkii",
+      "type": "related"
+    },
+    {
+      "source": "psd-95",
+      "target": "synaptogenesis",
+      "type": "related"
+    },
+    {
+      "source": "psd-95",
+      "target": "gephyrin-scaffold",
+      "type": "related"
+    },
+    {
+      "source": "psd-95",
+      "target": "working-memory",
+      "type": "related"
+    },
+    {
+      "source": "psd-95",
+      "target": "tarp-auxiliary-subunit",
+      "type": "related"
+    },
+    {
+      "source": "tarp-auxiliary-subunit",
+      "target": "psd-95",
+      "type": "related"
+    },
+    {
+      "source": "tarp-auxiliary-subunit",
+      "target": "ampa-receptor",
+      "type": "regulates"
+    },
+    {
+      "source": "tarp-auxiliary-subunit",
+      "target": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "source": "tarp-auxiliary-subunit",
+      "target": "postsynaptic-density",
+      "type": "part-of"
+    },
+    {
+      "source": "tarp-auxiliary-subunit",
+      "target": "synaptogenesis",
+      "type": "related"
+    },
+    {
+      "source": "ltp",
+      "target": "psd-95",
+      "type": "related"
+    },
+    {
+      "source": "postsynaptic-density",
+      "target": "psd-95",
+      "type": "related"
+    },
+    {
+      "source": "ampa-receptor",
+      "target": "tarp-auxiliary-subunit",
+      "type": "related"
+    },
+    {
+      "source": "silent-synapse",
+      "target": "psd-95",
+      "type": "related"
+    },
+    {
+      "source": "critical-period-plasticity",
+      "target": "psd-95",
+      "type": "related"
     }
   ],
   "dangling_references": [
@@ -11248,7 +11376,8 @@
       "referenced_by": [
         "ampa-receptor"
       ],
-      "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"
+      "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面；已于2026-09-06创建 wiki/concepts/tarp-auxiliary-subunit.md，同时随PSD-95文章建立",
+      "resolved": "2026-09-06"
     },
     {
       "slug": "mglur-ltd",
@@ -11391,6 +11520,15 @@
         "gamma-oscillations"
       ],
       "note": "高频共振波专页（~90 Hz，~100 ms）；Garrett & Halgren 2024 在语言绑定中发现；与 SWR（海马）的机制同源性；与经典 40 Hz 伽马的关系；待建页面"
+    },
+    {
+      "slug": "psd-95",
+      "referenced_by": [
+        "silent-synapse",
+        "postsynaptic-density"
+      ],
+      "note": "PSD-95支架蛋白专页；兴奋性突触最丰富的骨架蛋白，AMPAR槽位的物理基础；关键期时间轴调控；已于2026-09-06创建 wiki/concepts/psd-95.md，基于《PSD-95：兴奋性突触的主控分子》(#136)",
+      "resolved": "2026-09-06"
     }
   ]
 }

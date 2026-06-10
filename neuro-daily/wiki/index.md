@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-05（**#119**·ODP 第二阶段——开放眼的胜利）· 主题页总数：**266**（新建2页：silent-synapse · critical-period-plasticity；修订1页：ocular-dominance-columns rev2；矛盾 C-2026-08-15-01 更新为部分整合；图谱285节点、1606边）
+> 最后更新：2026-09-06（**#136**·PSD-95：兴奋性突触的主控分子）· 主题页总数：**268**（新建2页：psd-95 · tarp-auxiliary-subunit；修订2页：ltp rev14 · postsynaptic-density rev2；图谱287节点、1628边）
 
 ---
 
@@ -45,6 +45,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [PSD-95（突触后密度-95）](concepts/psd-95.md) — 兴奋性突触最丰富的支架蛋白（~300分子/突触）；PDZ1/2锚定NMDAR-GluN2B；经TARP间接稳定AMPAR；突触槽位分子基础；SynGAP竞争PDZ控制LTP；棕榈酰化动态循环；PSD-95/93竞争设定关键期时间轴 **[NEW 2026-09-06 #136（填补悬空引用）]**
+- 🟢 [TARP（跨膜 AMPAR 调控蛋白）](concepts/tarp-auxiliary-subunit.md) — AMPA受体辅助亚基；Stargazin C末端(-TTPV)直接结合PSD-95 PDZ1/2；AMPAR-TARP-PSD95三元复合物是突触AMPAR锚定的必要中介；调控AMPAR门控动力学和表面运输 **[NEW 2026-09-06 #136]**
 - 🟢 [沉默突触](concepts/silent-synapse.md) — AMPAR-silent 突触：关键期 Hebbian LTP 的分子底物；PSD-95 依赖开锁；耗竭机制决定关键期时间轴（Huang 2015, Xu 2020）**[NEW 2026-09-05 #119]**
 - 🟢 [关键期可塑性](concepts/critical-period-plasticity.md) — ODP 两阶段分子机制：稳态缩放（TNFα 许可先）+ Hebbian LTP（PSD-95 精修后）时序协同；与 [[critical-period]] 区分（本页聚焦突触机制）**[NEW 2026-09-05 #119]**
 - 🟢 [信用分配问题](concepts/credit-assignment.md) — 空间维度：PC-Learning（误差层级传播）+ 平衡传播（能量极小化两相比较）双路径；时间维度：三因素规则+资格迹；顶树突物理分区为解剖底层 **[rev2 2026-09-04 #135]**
@@ -377,7 +379,8 @@
 - ~~`synaptic-clustering`（突触聚类假说）~~ ✅ **2026-06-11 已建立**（Wilson 2016体内证据；V1雪貂，聚类程度与OSI正相关；普遍性待验证）
 - `apical-tuft`（顶端簇）— 被 [[树突计算]]、[[锥体神经元]] 引用，Ca²⁺ 棘波的主要发生地
 - ~~`three-factor-learning-rule`（三因素学习规则）~~ ✅ **2026-06-07 已建立**（同时建立 dopamine-reward-prediction-error 和 synaptic-tagging-capture，填补 hebbian-learning 悬空引用）
-- `tarp-auxiliary-subunit`（TARP 辅助亚基）— 被 [[ampa-receptor]] 引用，AMPA 受体突触锚定关键
+- ~~`tarp-auxiliary-subunit`（TARP 辅助亚基）~~ ✅ **2026-09-06 已建立**（填补 ampa-receptor 悬空引用，随 PSD-95 文章 #136 创建）
+- ~~`psd-95`（PSD-95 支架蛋白）~~ ✅ **2026-09-06 已建立**（填补 silent-synapse / postsynaptic-density 悬空引用，#136 主角）
 - ~~`readily-releasable-pool`（可释放池/RRP）~~ ✅ **2026-06-10 已建立**（填补突触传递页引用，新建 neurons/readily-releasable-pool 专页）
 - `complexin`（复合素）— 被 SNARE-complex 等引用
 

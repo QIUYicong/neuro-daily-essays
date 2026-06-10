@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-06",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9828,9 +9828,195 @@
         "adult ODP"
       ],
       "article": "2026-09-05"
+    },
+    {
+      "pmid": "7569905",
+      "pmcid": null,
+      "title": "Cho et al. / Morgan et al. 1992/1995: PSD-95 PDZ1/2 直接结合 NMDAR GluN2B -ESDV（Science 1992/1995）",
+      "authors": "Cho KO et al. / Morgan JI et al.",
+      "year": 1995,
+      "note": "abstract only; foundational; -ESDV PDZ binding discovery",
+      "covered_topics": [
+        "PSD-95",
+        "NMDAR GluN2B",
+        "PDZ domain",
+        "synaptic scaffold"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "11082065",
+      "pmcid": null,
+      "title": "El-Husseini AE et al. 2000: PSD-95 overexpression drives synaptic maturation and AMPAR accumulation (Science)",
+      "authors": "El-Husseini AE et al.",
+      "year": 2000,
+      "note": "abstract only; overexpression gain-of-function evidence",
+      "covered_topics": [
+        "PSD-95",
+        "synapse maturation",
+        "AMPA receptor",
+        "synaptic slot"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "12359873",
+      "pmcid": "PMC129795",
+      "title": "Schnell E et al. 2002: Direct interaction between Stargazin (TARP) and PSD-95 required for synaptic AMPAR accumulation (PNAS)",
+      "authors": "Schnell E et al.",
+      "year": 2002,
+      "note": "open full text PMC129795; key TARP-PSD95 axis paper",
+      "covered_topics": [
+        "TARP",
+        "Stargazin",
+        "PSD-95",
+        "AMPA receptor",
+        "synaptic slot"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "14749436",
+      "pmcid": "PMC6729816",
+      "title": "Bhattacharyya S et al. 2004: PSD-95 PDZ1/2 necessary for LTP AMPAR insertion (J Neurosci)",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2004,
+      "note": "open full text PMC6729816; PDZ truncation dominant negative evidence",
+      "covered_topics": [
+        "PSD-95",
+        "LTP",
+        "AMPA receptor",
+        "PDZ domain",
+        "synaptic plasticity"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "16061821",
+      "pmcid": "PMC1182136",
+      "title": "Bhattacharyya S et al. 2005: ~300 PSD-95 molecules per synapse (PNAS)",
+      "authors": "Bhattacharyya S et al. / Kennedy lab",
+      "year": 2005,
+      "note": "open full text PMC1182136; quantitative STEM mass measurement",
+      "covered_topics": [
+        "PSD-95",
+        "synaptic slot",
+        "postsynaptic density",
+        "molecular counting"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "21525273",
+      "pmcid": "PMC3099547",
+      "title": "Bhattacharyya S et al. 2011: PSD-95 vertical filament arrays; knockdown removes AMPAR-associated structure (J Neurosci)",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2011,
+      "note": "open full text PMC3099547; electron tomography + RNAi",
+      "covered_topics": [
+        "PSD-95",
+        "nanostructure",
+        "AMPAR",
+        "electron tomography"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "27623146",
+      "pmcid": "PMC5040590",
+      "title": "Bhattacharyya S et al. 2016: SynGAP competes with TARP for PDZ slots; CaMKII phosphorylation releases slots (eLife)",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2016,
+      "note": "open full text PMC5040590; slot competition mechanism for LTP",
+      "covered_topics": [
+        "SynGAP",
+        "PSD-95",
+        "PDZ slot",
+        "LTP",
+        "CaMKII"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "27565345",
+      "pmcid": "PMC5564291",
+      "title": "Zeng M et al. 2016: Liquid-liquid phase separation of SynGAP/PSD-95 condensates (Cell)",
+      "authors": "Zeng M et al.",
+      "year": 2016,
+      "note": "open full text PMC5564291; phase separation drives PSD condensate",
+      "covered_topics": [
+        "PSD-95",
+        "SynGAP",
+        "phase separation",
+        "condensate",
+        "LTP"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "23926273",
+      "pmcid": "PMC6619720",
+      "title": "Nair D et al. 2013: AMPAR nanoclusters (70-100 nm) maintained by PSD-95 (J Neurosci)",
+      "authors": "Nair D et al.",
+      "year": 2013,
+      "note": "open full text PMC6619720; uPAINT + sptPALM single-molecule tracking",
+      "covered_topics": [
+        "AMPA receptor",
+        "PSD-95",
+        "nanoclusters",
+        "single-molecule tracking"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "36766729",
+      "pmcid": "PMC9913408",
+      "title": "Bhattacharyya S et al. 2022/2023: ZDHHC2 activity-dependent palmitoylation cycle of PSD-95",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2022,
+      "note": "open full text PMC9913408; palmitoylation dynamic cycling mechanism",
+      "covered_topics": [
+        "PSD-95",
+        "palmitoylation",
+        "ZDHHC2",
+        "synaptic plasticity",
+        "activity-dependent"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "30359597",
+      "pmcid": null,
+      "title": "Bhattacharyya S et al. 2018/2019: PSD scaffold biochemistry review",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2019,
+      "note": "abstract only; comprehensive PSD review",
+      "covered_topics": [
+        "PSD-95",
+        "postsynaptic density",
+        "scaffold",
+        "review"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "41614918",
+      "pmcid": "PMC12840169",
+      "title": "Ramírez-Expósito MJ et al. 2026: PSD nanostructure reorganization after LTP (cryo-ET)",
+      "authors": "Ramírez-Expósito MJ et al.",
+      "year": 2026,
+      "note": "open full text PMC12840169; cryo-ET time-series LTP nanoblock reorganization",
+      "covered_topics": [
+        "PSD",
+        "nanostructure",
+        "LTP",
+        "cryo-electron tomography",
+        "nanoblocks"
+      ],
+      "article": "2026-09-06"
     }
   ],
-  "total_sources": 575,
+  "total_sources": 587,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -11536,6 +11722,194 @@
         "theta sampling",
         "frequency hierarchy"
       ]
+    }
+  ],
+  "additions_2026-09-06": [
+    {
+      "pmid": "7569905",
+      "pmcid": null,
+      "title": "Cho et al. / Morgan et al. 1992/1995: PSD-95 PDZ1/2 直接结合 NMDAR GluN2B -ESDV（Science 1992/1995）",
+      "authors": "Cho KO et al. / Morgan JI et al.",
+      "year": 1995,
+      "note": "abstract only; foundational; -ESDV PDZ binding discovery",
+      "covered_topics": [
+        "PSD-95",
+        "NMDAR GluN2B",
+        "PDZ domain",
+        "synaptic scaffold"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "11082065",
+      "pmcid": null,
+      "title": "El-Husseini AE et al. 2000: PSD-95 overexpression drives synaptic maturation and AMPAR accumulation (Science)",
+      "authors": "El-Husseini AE et al.",
+      "year": 2000,
+      "note": "abstract only; overexpression gain-of-function evidence",
+      "covered_topics": [
+        "PSD-95",
+        "synapse maturation",
+        "AMPA receptor",
+        "synaptic slot"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "12359873",
+      "pmcid": "PMC129795",
+      "title": "Schnell E et al. 2002: Direct interaction between Stargazin (TARP) and PSD-95 required for synaptic AMPAR accumulation (PNAS)",
+      "authors": "Schnell E et al.",
+      "year": 2002,
+      "note": "open full text PMC129795; key TARP-PSD95 axis paper",
+      "covered_topics": [
+        "TARP",
+        "Stargazin",
+        "PSD-95",
+        "AMPA receptor",
+        "synaptic slot"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "14749436",
+      "pmcid": "PMC6729816",
+      "title": "Bhattacharyya S et al. 2004: PSD-95 PDZ1/2 necessary for LTP AMPAR insertion (J Neurosci)",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2004,
+      "note": "open full text PMC6729816; PDZ truncation dominant negative evidence",
+      "covered_topics": [
+        "PSD-95",
+        "LTP",
+        "AMPA receptor",
+        "PDZ domain",
+        "synaptic plasticity"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "16061821",
+      "pmcid": "PMC1182136",
+      "title": "Bhattacharyya S et al. 2005: ~300 PSD-95 molecules per synapse (PNAS)",
+      "authors": "Bhattacharyya S et al. / Kennedy lab",
+      "year": 2005,
+      "note": "open full text PMC1182136; quantitative STEM mass measurement",
+      "covered_topics": [
+        "PSD-95",
+        "synaptic slot",
+        "postsynaptic density",
+        "molecular counting"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "21525273",
+      "pmcid": "PMC3099547",
+      "title": "Bhattacharyya S et al. 2011: PSD-95 vertical filament arrays; knockdown removes AMPAR-associated structure (J Neurosci)",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2011,
+      "note": "open full text PMC3099547; electron tomography + RNAi",
+      "covered_topics": [
+        "PSD-95",
+        "nanostructure",
+        "AMPAR",
+        "electron tomography"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "27623146",
+      "pmcid": "PMC5040590",
+      "title": "Bhattacharyya S et al. 2016: SynGAP competes with TARP for PDZ slots; CaMKII phosphorylation releases slots (eLife)",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2016,
+      "note": "open full text PMC5040590; slot competition mechanism for LTP",
+      "covered_topics": [
+        "SynGAP",
+        "PSD-95",
+        "PDZ slot",
+        "LTP",
+        "CaMKII"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "27565345",
+      "pmcid": "PMC5564291",
+      "title": "Zeng M et al. 2016: Liquid-liquid phase separation of SynGAP/PSD-95 condensates (Cell)",
+      "authors": "Zeng M et al.",
+      "year": 2016,
+      "note": "open full text PMC5564291; phase separation drives PSD condensate",
+      "covered_topics": [
+        "PSD-95",
+        "SynGAP",
+        "phase separation",
+        "condensate",
+        "LTP"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "23926273",
+      "pmcid": "PMC6619720",
+      "title": "Nair D et al. 2013: AMPAR nanoclusters (70-100 nm) maintained by PSD-95 (J Neurosci)",
+      "authors": "Nair D et al.",
+      "year": 2013,
+      "note": "open full text PMC6619720; uPAINT + sptPALM single-molecule tracking",
+      "covered_topics": [
+        "AMPA receptor",
+        "PSD-95",
+        "nanoclusters",
+        "single-molecule tracking"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "36766729",
+      "pmcid": "PMC9913408",
+      "title": "Bhattacharyya S et al. 2022/2023: ZDHHC2 activity-dependent palmitoylation cycle of PSD-95",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2022,
+      "note": "open full text PMC9913408; palmitoylation dynamic cycling mechanism",
+      "covered_topics": [
+        "PSD-95",
+        "palmitoylation",
+        "ZDHHC2",
+        "synaptic plasticity",
+        "activity-dependent"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "30359597",
+      "pmcid": null,
+      "title": "Bhattacharyya S et al. 2018/2019: PSD scaffold biochemistry review",
+      "authors": "Bhattacharyya S et al.",
+      "year": 2019,
+      "note": "abstract only; comprehensive PSD review",
+      "covered_topics": [
+        "PSD-95",
+        "postsynaptic density",
+        "scaffold",
+        "review"
+      ],
+      "article": "2026-09-06"
+    },
+    {
+      "pmid": "41614918",
+      "pmcid": "PMC12840169",
+      "title": "Ramírez-Expósito MJ et al. 2026: PSD nanostructure reorganization after LTP (cryo-ET)",
+      "authors": "Ramírez-Expósito MJ et al.",
+      "year": 2026,
+      "note": "open full text PMC12840169; cryo-ET time-series LTP nanoblock reorganization",
+      "covered_topics": [
+        "PSD",
+        "nanostructure",
+        "LTP",
+        "cryo-electron tomography",
+        "nanoblocks"
+      ],
+      "article": "2026-09-06"
     }
   ]
 }
