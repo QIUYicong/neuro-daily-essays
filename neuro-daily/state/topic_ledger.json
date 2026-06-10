@@ -8967,6 +8967,104 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-08；直接回应Q-syngap1-02（成年期关键期干预可能性）；11个来源（3个开放全文读取）；2个新wiki页创建，2个修订；2个新未解问题；无争议声明新增；图谱：291节点，1654边"
+    },
+    {
+      "date": "2026-09-09",
+      "real_date": "2026-06-10",
+      "article_number": 139,
+      "title": "成人大脑的秘密育儿所：齿状回新生神经元如何同时承担记忆精刻与优雅遗忘",
+      "slug": "adult-hippocampal-neurogenesis",
+      "filename": "2026-09-09-adult-hippocampal-neurogenesis.md",
+      "article_type": "regular",
+      "core_question": "成年海马齿状回新生颗粒细胞如何在8周内完成回路整合（GABA去极化→超极化；4-6周关键期）？它们通过什么机制同时承担模式分离（高可塑性差异编码+前馈抑制→稀疏化）和记忆遗忘诱导（突触竞争改写旧连接组）两种看似相反的功能？人类神经发生的真实规模如何（Sorrells vs Boldrini vs Moreno-Jiménez 2019方法论争议）？2025年活性vs数量解耦（氯胺酮机制）意味着什么？",
+      "layer": [
+        "cellular",
+        "brain-region",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "2. 神经网络如何建成 → 4. 学习和记忆（成年可塑性补充机制；承接#138关键期重开的第五条路径——增加新单元而非解除旧制动）",
+      "topic_tags": [
+        "adult hippocampal neurogenesis",
+        "AHN",
+        "dentate gyrus",
+        "DG",
+        "subgranular zone",
+        "SGZ",
+        "granule cells",
+        "new neurons",
+        "GABA depolarization",
+        "GABA switch",
+        "NKCC1",
+        "KCC2",
+        "NR2B NMDA receptor",
+        "LTP critical period",
+        "4-6 week hyperplasticity",
+        "mossy fiber",
+        "CA3",
+        "pattern separation",
+        "pattern separation mechanism",
+        "feedback inhibition",
+        "sparseness",
+        "PV interneurons",
+        "hilar mossy cells",
+        "neurogenesis-induced forgetting",
+        "infantile amnesia",
+        "Akers 2014",
+        "Sahay 2011",
+        "Bax knockout",
+        "contextual fear discrimination",
+        "Sorrells 2018",
+        "Boldrini 2018",
+        "Moreno-Jimenez 2019",
+        "DCX doublecortin",
+        "human neurogenesis controversy",
+        "fixation protocol",
+        "activity vs quantity",
+        "Betters 2025",
+        "ketamine antidepressant",
+        "SSRI neurogenesis",
+        "exercise neurogenesis",
+        "chronic stress neurogenesis",
+        "aging neurogenesis",
+        "Vivar van Praag 2013",
+        "Toni Schinder 2016",
+        "McAvoy Sahay 2015"
+      ],
+      "main_sources": [
+        "PMID:27814520 (Gonçalves & Gage 2016, Cell, abstract only)",
+        "PMID:21460835 / PMC3084370 (Sahay et al. 2011, Nature, open full text read)",
+        "PMID:23443839 / PMC3580993 (Vivar & van Praag 2013, Front Neural Circuits, open full text read)",
+        "PMID:24812394 (Akers et al. 2014, Science, abstract only)",
+        "PMID:26347621 / PMC4542503 (McAvoy, Besnard & Sahay 2015, Front Syst Neurosci, open full text read)",
+        "PMID:29513649 (Sorrells et al. 2018, Nature, abstract only)",
+        "PMID:29625071 (Boldrini & Hen et al. 2018, Cell Stem Cell, abstract only)",
+        "PMID:30911133 (Moreno-Jiménez et al. 2019, Nat Med, abstract only)",
+        "PMID:26637288 / PMC4691791 (Toni & Schinder 2016, Cold Spring Harb, open full text read)",
+        "PMID:36875670 / PMC9975346 (Fölsz et al. 2023, Front Neurosci, open full text read)",
+        "DOI:10.3389/fnins.2025.1709208 (Betters et al. 2025, Front Neurosci, open full text read)",
+        "PMID:20354534 (Deng, Aimone & Gage 2010, Nat Rev Neurosci, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/neurogenesis-induced-forgetting.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/adult-neurogenesis.md (rev3→rev4): 新增遗忘功能段落（Akers 2014）；活性 vs 数量解耦（Betters 2025）；Bax凋亡率更新；证据表+2行；related/key_sources/opens_questions 扩充",
+        "wiki/concepts/pattern-separation.md (rev2→rev3): 前馈抑制机制深化（McAvoy 2015 hilar mossy cells + PV+ 双路径；8周 vs 4周龄抑制强度差异）；key_sources/source_articles 扩充"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-ahn-01",
+        "Q-ahn-02"
+      ],
+      "next_suggested_topics": [
+        "trkb-bdnf-signaling: TRKB完整信号通路——TrkB磷酸化后PLCγ/MAPK/PI3K三分叉；不同配体（BDNF vs NT-4/5）的选择性；截短型TrkB的主导负性作用；BDNF/TrkB在PV细胞成熟、关键期开启和AHN中的三重角色；从发育到成年可塑性的统一信号机制",
+        "memory-consolidation-sleep: 记忆巩固与睡眠——SWR（锐波涟漪）驱动记忆重播；睡眠纺锤波与皮层-海马对话；NREM vs REM的分工；新生神经元在SWR期间的激活；离线重播和系统巩固的神经机制",
+        "complementary-learning-systems: 互补学习系统（CLS）理论——海马快速稀疏编码 vs 新皮层慢速分布式学习；交错重播机制；模式分离（DG）和模式补全（CA3）在CLS中的角色；与深度学习中灾难性遗忘问题的对比"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-09；层级突破（cellular+brain-region+cognition+behavior，避免连续molecular/synaptic）；6个开放全文来源，5个摘要仅读；1个新wiki页创建，2个修订；2个新未解问题；无争议声明新增；图谱：292节点，1658边"
     }
   ],
   "layer_coverage_recent": {
@@ -8998,7 +9096,8 @@
       "2026-07-26",
       "2026-07-28",
       "2026-08-25",
-      "2026-09-05"
+      "2026-09-05",
+      "2026-09-09"
     ],
     "synaptic": [
       "2026-05-24",
@@ -9028,7 +9127,8 @@
       "2026-06-11",
       "2026-06-12",
       "2026-05-31",
-      "2026-07-28"
+      "2026-07-28",
+      "2026-09-09"
     ],
     "whole_brain_network": [
       "2026-05-29",
@@ -9044,7 +9144,8 @@
       "2026-05-31",
       "2026-06-02",
       "2026-06-03",
-      "2026-07-28"
+      "2026-07-28",
+      "2026-09-09"
     ],
     "cognition": [
       "2026-05-26",
@@ -9060,7 +9161,8 @@
       "2026-07-03",
       "2026-07-26",
       "2026-07-28",
-      "2026-08-29"
+      "2026-08-29",
+      "2026-09-09"
     ],
     "disease": [
       "2026-06-08"

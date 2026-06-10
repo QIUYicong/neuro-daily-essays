@@ -10074,6 +10074,196 @@
         "2026-09-08-critical-period-reopening"
       ],
       "coverage": "PNN关闭CP综述；多脑区PNN功能；治疗靶向性挑战"
+    },
+    {
+      "pmid": "27814520",
+      "pmcid": null,
+      "title": "Gonçalves JT, Schafer ST, Gage FH 2016: Adult Neurogenesis in the Hippocampus: From Stem Cells to Behavior",
+      "authors": "Gonçalves JT, Schafer ST, Gage FH",
+      "year": 2016,
+      "note": "abstract only; Cell review; comprehensive framework from stem cells to behavior; Gage lab",
+      "covered_topics": [
+        "adult neurogenesis",
+        "hippocampus",
+        "dentate gyrus",
+        "stem cells",
+        "behavior",
+        "learning and memory"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": "21460835",
+      "pmcid": "PMC3084370",
+      "title": "Sahay A et al. 2011: Increasing adult hippocampal neurogenesis is sufficient to improve pattern separation",
+      "authors": "Sahay A, Hen R et al.",
+      "year": 2011,
+      "note": "open full text PMC3084370; Nature; Bax KO increases neurogenesis 3.6x; contextual fear discrimination task; causal sufficiency proof",
+      "covered_topics": [
+        "adult neurogenesis",
+        "pattern separation",
+        "Bax",
+        "contextual fear discrimination",
+        "dentate gyrus",
+        "causal evidence"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": "23443839",
+      "pmcid": "PMC3580993",
+      "title": "Vivar C, van Praag H 2013: Functional circuits of new neurons in the dentate gyrus",
+      "authors": "Vivar C, van Praag H",
+      "year": 2013,
+      "note": "open full text PMC3580993; Front Neural Circuits; trans-neuronal tracing; circuit integration timeline weeks 1-8; LEC preference",
+      "covered_topics": [
+        "dentate gyrus",
+        "circuit integration",
+        "maturation timeline",
+        "LEC input",
+        "CA3 output",
+        "hilar interneurons"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": "24812394",
+      "pmcid": null,
+      "title": "Akers KG et al. 2014: Hippocampal neurogenesis regulates forgetting during adulthood and infancy",
+      "authors": "Akers KG, Frankland PW et al.",
+      "year": 2014,
+      "note": "abstract only; Science; neurogenesis-induced forgetting; bidirectional causal evidence; infantile amnesia mechanism",
+      "covered_topics": [
+        "neurogenesis-induced forgetting",
+        "infantile amnesia",
+        "hippocampal neurogenesis",
+        "forgetting",
+        "adult mouse",
+        "guinea pig",
+        "degu"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": "26347621",
+      "pmcid": "PMC4542503",
+      "title": "McAvoy K, Besnard A, Sahay A 2015: Adult hippocampal neurogenesis and pattern separation via feedback inhibition",
+      "authors": "McAvoy K, Besnard A, Sahay A",
+      "year": 2015,
+      "note": "open full text PMC4542503; Front Syst Neurosci; hilar interneurons + PV+ basket cells; sparseness mechanism; non-cell-autonomous",
+      "covered_topics": [
+        "pattern separation",
+        "feedback inhibition",
+        "sparseness",
+        "hilar mossy cells",
+        "PV interneurons",
+        "non-cell-autonomous",
+        "dentate gyrus"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": "29513649",
+      "pmcid": null,
+      "title": "Sorrells SF et al. 2018: Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults",
+      "authors": "Sorrells SF, Alvarez-Buylla A et al.",
+      "year": 2018,
+      "note": "abstract only; Nature; negative result for human adult neurogenesis; 59 samples; DCX undetectable after age 13",
+      "covered_topics": [
+        "human neurogenesis",
+        "doublecortin",
+        "immunohistochemistry",
+        "controversy",
+        "adult humans"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": "29625071",
+      "pmcid": null,
+      "title": "Boldrini M, Hen R et al. 2018: Human Hippocampal Neurogenesis Persists throughout Aging",
+      "authors": "Boldrini M, Hen R et al.",
+      "year": 2018,
+      "note": "abstract only; Cell Stem Cell; positive result; 28 healthy subjects 14-79y; stereology; thousands of immature neurons",
+      "covered_topics": [
+        "human neurogenesis",
+        "aging",
+        "dentate gyrus",
+        "stereology",
+        "controversy"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": "30911133",
+      "pmcid": null,
+      "title": "Moreno-Jiménez EP, Llorens-Martín M et al. 2019: Adult hippocampal neurogenesis abundant in healthy subjects, drops in Alzheimer's disease",
+      "authors": "Moreno-Jiménez EP et al.",
+      "year": 2019,
+      "note": "abstract only; Nature Medicine; optimized fixation protocol; 43,000 neuroblasts/mm² in healthy aged subjects; systematic decline in AD stages",
+      "covered_topics": [
+        "human neurogenesis",
+        "DCX",
+        "fixation protocol",
+        "Alzheimer's disease",
+        "aging",
+        "methodological resolution"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": "26637288",
+      "pmcid": "PMC4691791",
+      "title": "Toni N, Schinder AF 2016: Maturation and Functional Integration of New Granule Cells into the Adult Hippocampus",
+      "authors": "Toni N, Schinder AF",
+      "year": 2016,
+      "note": "open full text PMC4691791; Cold Spring Harb Perspect Biol; detailed timeline weeks 1-8; GABA depolarization; NR2B NMDA; LTP critical period 4-6 weeks; dendritic spine density 2/um",
+      "covered_topics": [
+        "granule cell maturation",
+        "GABA depolarization",
+        "NR2B NMDA receptor",
+        "LTP threshold",
+        "critical period",
+        "mossy fiber",
+        "dendritic spine"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": "36875670",
+      "pmcid": "PMC9975346",
+      "title": "Fölsz O, Trouche S, Croset V 2023: Adult-born neurons add flexibility to hippocampal memories",
+      "authors": "Fölsz O, Trouche S, Croset V",
+      "year": 2023,
+      "note": "open full text PMC9975346; Front Neurosci; dual function review (pattern separation + forgetting); cell turnover rate 0.2%/day rats; REM sleep",
+      "covered_topics": [
+        "adult-born neurons",
+        "memory flexibility",
+        "pattern separation",
+        "forgetting",
+        "REM sleep",
+        "critical period",
+        "dentate gyrus"
+      ],
+      "article": "2026-09-09"
+    },
+    {
+      "pmid": null,
+      "pmcid": null,
+      "doi": "10.3389/fnins.2025.1709208",
+      "title": "Betters RK et al. 2025: Extent and activity of adult hippocampal neurogenesis",
+      "authors": "Betters RK, Manly RW, Huynh PM, Tunc-Ozcan E",
+      "year": 2025,
+      "note": "open full text; Front Neurosci 2025; activity vs quantity decoupling; ketamine rapid antidepressant requires new neuron activity not proliferation; SSRI 5-HT2B dependence; aging effects",
+      "covered_topics": [
+        "adult neurogenesis",
+        "activity vs quantity",
+        "ketamine antidepressant",
+        "SSRI neurogenesis",
+        "aging",
+        "newborn neuron activity"
+      ],
+      "article": "2026-09-09"
     }
   ],
   "total_sources": 592,

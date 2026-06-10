@@ -1046,3 +1046,9 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 视觉关键期内，单眼遮蔽导致初级视皮层的眼优势发生两阶段转变：第一阶段（MD 1–4天）受剥夺眼突触减弱（NMDAR-LTD，AMPAR 内吞），第二阶段（MD 3–7天）开放眼突触增强。今日文章深入解剖第二阶段的分子争议：Kaneko et al. 2008（PMID:18549780, PMC2884387）用 TNFα KO 小鼠证明第二阶段需要稳态突触缩放；Huang et al. 2015（PMID:26015564, PMC4475980）用 PSD-95 KO 证明沉默突触（Hebbian LTP 底物）的耗竭控制关键期时间轴。关键约束来自 Ranson 2012（PMID:22232689）：稳态机制为幼年必需，成年 ODP 改为依赖 CaMKII。整合框架：稳态缩放（TNFα）作为"许可信号"（全局兴奋性抬升）先于 Hebbian LTP（PSD-95/沉默突触开锁），两者时序协同而非互斥。矛盾 C-2026-08-15-01 从"互斥"更新为"时序协同（部分整合）"，裁决仍 open（同步双指标实验缺失）。
 
 **新建 wiki 页**：silent-synapse（established, high）、critical-period-plasticity（established, high）。**修订**：ocular-dominance-columns rev2（Stage 2 机制整合更新，新增 5 行证据）。**图谱**：285 节点，1606 条边。**来源**：14 篇（11 篇开放全文，2 篇摘要，2 篇预印本）。
+
+## 2026-09-09（#139）— 成人大脑的秘密育儿所：齿状回新生神经元的双重身份
+
+今日文章聚焦成年海马神经发生（AHN）——大脑终生保有的特殊可塑性机制，揭示了新生颗粒细胞在短短8周内从沉默前体细胞演化为功能性记忆编码单元的精确程序（GABA 去极化 → 超极化；4-6 周关键期 NR2B NMDA 低阈值 LTP；苔状纤维至 CA3 输出；Toni & Schinder 2016）。核心主题是新生神经元的**双重悖论功能**：一方面通过高可塑性差异编码和前馈抑制诱导颗粒细胞层活动稀疏化，增强对相似记忆的模式分离（Sahay 2011 充分性证据，Bax KO 3.6 倍 → 恐惧辨别提早 4 天）；另一方面通过突触竞争改写旧连接组，主动诱导对已有记忆的遗忘（Akers 2014 双向跨物种因果）——婴儿失忆症由此获得机制解释。人类神经发生争议（Sorrells 2018 假阴性归因于过度固定；Moreno-Jiménez 2019 在 43-87 岁健康个体发现 43,000 神经母细胞/mm²）和 2025 年"活性 vs 数量解耦"新认识（氯胺酮快速抗抑郁依赖活性而非增殖）是重要补充。
+
+**新建 wiki 页**：neurogenesis-induced-forgetting（emerging, medium）。**修订**：adult-neurogenesis rev4（遗忘功能+活性解耦）、pattern-separation rev3（前馈抑制机制加深）。**图谱**：292 节点，1658 条边。**来源**：11 篇（6 篇开放全文，5 篇摘要）。**层级**：cellular + brain-region + cognition + behavior（与前四篇的 molecular/synaptic 层形成对比）。

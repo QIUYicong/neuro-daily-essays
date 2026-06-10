@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-08（**#138**·当大脑的"学习窗口"再次开启：成年关键期重开的四条分子路径——ChABC/PNN 降解、Lynx1 胆碱能制动、HDAC 表观遗传重置、感觉剥夺 E/I 再平衡，以及 PTPσ–TRKB 统一下游节点）· 主题页总数：**272**（新建2页：critical-period-reopening · lynx1；修订2页：critical-period rev5 · perineuronal-nets rev3；图谱291节点、1654边）
+> 最后更新：2026-09-09（**#139**·成人大脑的秘密育儿所：齿状回新生神经元如何同时承担模式分离与记忆遗忘——发育时间表（GABA去极化→超极化；4-6周关键期）、模式分离双重机制、Akers 2014神经发生诱导遗忘双向因果、人类神经发生争议（Sorrells vs Boldrini vs Moreno-Jiménez 2019）、活性vs数量解耦（Betters 2025））· 主题页总数：**273**（新建1页：neurogenesis-induced-forgetting；修订2页：adult-neurogenesis rev4 · pattern-separation rev3；图谱292节点、1658边）
 
 ---
 
@@ -45,6 +45,7 @@
 
 ## concepts（概念/框架）
 
+- 🟡 [神经发生诱导遗忘](concepts/neurogenesis-induced-forgetting.md) — 增加神经发生主动加速遗忘（突触竞争改写连接组）；降低婴儿期神经发生减轻婴儿失忆症；Akers 2014 双向跨物种因果证据；遗忘是进化保留的主动容量管理策略 **[NEW 2026-09-09 #139]**
 - 🟢 [PSD-95（突触后密度-95）](concepts/psd-95.md) — 兴奋性突触最丰富的支架蛋白（~300分子/突触）；PDZ1/2锚定NMDAR-GluN2B；经TARP间接稳定AMPAR；突触槽位分子基础；SynGAP竞争PDZ控制LTP；棕榈酰化动态循环；PSD-95/93竞争设定关键期时间轴 **[NEW 2026-09-06 #136（填补悬空引用）]**
 - 🟢 [TARP（跨膜 AMPAR 调控蛋白）](concepts/tarp-auxiliary-subunit.md) — AMPA受体辅助亚基；Stargazin C末端(-TTPV)直接结合PSD-95 PDZ1/2；AMPAR-TARP-PSD95三元复合物是突触AMPAR锚定的必要中介；调控AMPAR门控动力学和表面运输 **[NEW 2026-09-06 #136]**
 - 🟢 [沉默突触](concepts/silent-synapse.md) — AMPAR-silent 突触：关键期 Hebbian LTP 的分子底物；PSD-95 依赖开锁；耗竭机制决定关键期时间轴（Huang 2015, Xu 2020）**[NEW 2026-09-05 #119]**

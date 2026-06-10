@@ -2859,3 +2859,26 @@
 ### 图谱变化
 - 节点：256 → 264（+8，含原有计数误差修正）
 - 边：1436 → 1471（+35）
+
+## 2026-09-09 (文章 #139：成人大脑的秘密育儿所)
+
+### 新建 wiki 页面（1 个）
+- `wiki/concepts/neurogenesis-induced-forgetting.md` — 神经发生诱导遗忘 | emerging / medium | Akers 2014 双向因果证据（增加神经发生加速遗忘；降低婴儿期神经发生减轻婴儿失忆症；跨物种验证）；机制：突触竞争改写连接组
+
+### 修订 wiki 页面（2 个）
+- `wiki/concepts/adult-neurogenesis.md`（rev3→rev4）：新增遗忘功能段落（Akers 2014）；新增"数量 vs 活性解耦"认识（Betters 2025 氯胺酮活性依赖机制）；Bax KO 凋亡率数据更新（60-80%）；证据表新增2行；related 新增 neurogenesis-induced-forgetting/depression；key_sources 新增4条；opens_questions 新增 Q-ahn-01/02
+- `wiki/concepts/pattern-separation.md`（rev2→rev3）：前馈抑制机制描述加深（McAvoy 2015 hilar mossy cells + PV+篮状细胞双路径；8周 vs 4周龄抑制强度差异）；key_sources 新增 PMID:26347621；source_articles 新增
+
+### 登记或裁决矛盾
+- 无新矛盾（今日来源与既有 wiki 主张一致，进一步强化而非冲突）
+
+### 新增悬空引用（待补页面）
+- 无新悬空引用（今日涉及概念均已有对应页面或已在本次创建）
+
+### 图谱变化
+- 节点：291 → 292（+1：neurogenesis-induced-forgetting）
+- 边：1654 → 1658（+4）
+
+### 新增未解问题（2 条）
+- Q-ahn-01（中优先）：神经发生诱导遗忘的记忆类型选择性（恐惧条件化之外的记忆类型是否同样受影响）
+- Q-ahn-02（中优先）：人类神经元数量 vs 活性的独立调控机制（SSRI/氯胺酮解耦现象是否存在独立的分子开关）
