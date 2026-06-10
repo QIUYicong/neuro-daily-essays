@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -12043,6 +12043,58 @@
         "theta sampling",
         "frequency hierarchy"
       ]
+    },
+    {
+      "pmid": "19261866",
+      "pmcid": "PMC2724892",
+      "title": "To see or not to see: prestimulus alpha phase predicts visual awareness",
+      "authors": "Mathewson KE, Gratton G, Fabiani M, Beck DM, Ro T",
+      "journal": "Journal of Neuroscience",
+      "year": 2009,
+      "first_used": "2026-09-11",
+      "articles_using": [
+        "2026-09-11-alpha-phase-cellular-mechanism-surprise-window"
+      ],
+      "coverage": "Alpha 相位-知觉关系（波谷→更高检测率）；脉冲抑制模型行为证据"
+    },
+    {
+      "pmid": "34035240",
+      "pmcid": "PMC8149416",
+      "title": "Transcranial alternating current stimulation entrains alpha oscillations by preferential phase synchronization of fast-spiking cortical neurons",
+      "authors": "Huang WA, Fröhlich F",
+      "journal": "Nature Communications",
+      "year": 2021,
+      "first_used": "2026-09-11",
+      "articles_using": [
+        "2026-09-11-alpha-phase-cellular-mechanism-surprise-window"
+      ],
+      "coverage": "PV+ 快速放电中间神经元是 Alpha 相位锁定主要载体；弱电场机制"
+    },
+    {
+      "pmid": "35219922",
+      "pmcid": "PMC8975618",
+      "title": "Cell type-specific excitability probed by optogenetic stimulation depends on the phase of the alpha oscillation",
+      "authors": "Zhang M, Fröhlich F",
+      "journal": "Brain Stimulation",
+      "year": 2022,
+      "first_used": "2026-09-11",
+      "articles_using": [
+        "2026-09-11-alpha-phase-cellular-mechanism-surprise-window"
+      ],
+      "coverage": "锥体细胞 F-I 悖论：静默相外部输入敏感性最大（r=-0.72/-0.71）；PV+ 无此效应"
+    },
+    {
+      "pmid": "39259769",
+      "pmcid": "PMC11419396",
+      "title": "Oscillations in an artificial neural network convert competing inputs into a temporal code",
+      "authors": "Duecker K, Idiart M, van Gerven M, Jensen O",
+      "journal": "PLoS Computational Biology",
+      "year": 2024,
+      "first_used": "2026-09-11",
+      "articles_using": [
+        "2026-09-11-alpha-phase-cellular-mechanism-surprise-window"
+      ],
+      "coverage": "ANN 中振荡性抑制解决叠加灾难，实现时间多路复用（99% vs 59%）"
     }
   ],
   "additions_2026-09-06": [

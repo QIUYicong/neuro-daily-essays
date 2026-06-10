@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-10",
-  "total_articles": 140,
+  "last_updated": "2026-09-11",
+  "total_articles": 141,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9121,6 +9121,70 @@
         "trkb-bdnf-signaling: TRKB完整信号通路——从PSD-95结合到PLCγ/MAPK/PI3K三分叉；截短型TrkB的主导负性作用；BDNF在PV细胞成熟、关键期开启、AHN中的三重角色",
         "engram-cells-systems-consolidation: 印迹细胞的系统巩固——海马印迹如何转写到皮层印迹？沉默印迹的时间动态？Roy 2016 光遗传重激活与系统巩固的关系",
         "prefrontal-cortex-memory-consolidation: 前额叶皮层在记忆系统巩固中的角色——从海马依赖到PFC依赖的转变；ACC作为远期记忆的主要皮层储存位点；PFC涟漪的选择性功能"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "real_date": "2026-06-10",
+      "article_number": 141,
+      "title": "注意力的悖论之钟：Alpha 振荡的'静默相'为何是感知的真正窗口",
+      "slug": "alpha-phase-cellular-mechanism-surprise-window",
+      "filename": "2026-09-11-alpha-phase-cellular-mechanism-surprise-window.md",
+      "article_type": "regular",
+      "core_question": "Alpha 振荡的低放电半周期（理论上的'抑制相'）为何是锥体神经元对外部输入最敏感的时刻？PV+ 快速放电中间神经元如何扮演 Alpha 载体角色？这个反直觉的 F-I 曲线饱和发现如何修订脉冲抑制模型，揭示大脑内部处理与外部感知的时间分工？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "cognition",
+        "brain-region",
+        "methods"
+      ],
+      "curriculum_track": "5. 认知控制（注意力神经机制——从行为层 Alpha 侧向化到细胞层 PV+/锥体细胞分工，加深 #89 的行为描述到细胞机制）",
+      "topic_tags": [
+        "alpha oscillations",
+        "attention",
+        "pulsed inhibition",
+        "PV interneurons",
+        "fast-spiking interneurons",
+        "F-I curve",
+        "phase-dependent excitability",
+        "temporal multiplexing",
+        "surprise detector",
+        "oscillatory inhibition",
+        "visual cortex",
+        "optogenetics",
+        "tACS",
+        "ferret",
+        "Fröhlich lab",
+        "temporal coding",
+        "ANN oscillations",
+        "Mathewson",
+        "Worden",
+        "Jensen"
+      ],
+      "main_sources": [
+        "PMID:10704517 (PMC6772495) - Worden et al. 2000, J Neurosci",
+        "PMID:19261866 (PMC2724892) - Mathewson & Beck 2009, J Neurosci",
+        "PMID:34035240 (PMC8149416) - Huang & Fröhlich 2021, Nat Commun",
+        "PMID:35219922 (PMC8975618) - Zhang & Fröhlich 2022, Brain Stimul",
+        "PMID:39259769 (PMC11419396) - Duecker et al. 2024, PLoS Comput Biol"
+      ],
+      "unresolved_questions": [
+        "Q-alpha-cellular-01: F-I 悖论在清醒行为状态下是否保持？",
+        "Q-alpha-cellular-02: 高/低 Alpha 功率区域静默相深度差异与注意捕获率的关系"
+      ],
+      "next_suggested_topics": [
+        "前额叶如何通过涟漪门控记忆巩固（Q-cls-cortical-gating-01，高优先）",
+        "注意力的背侧/腹侧网络（DAN/VAN）与上行控制",
+        "注意失察（inattentional blindness）的神经机制",
+        "Beta 振荡与运动准备/认知控制的关系"
+      ],
+      "wiki_created": [
+        "oscillatory-temporal-multiplexing"
+      ],
+      "wiki_updated": [
+        "alpha-oscillations (rev3)",
+        "pv-interneurons (rev6)"
       ]
     }
   ],

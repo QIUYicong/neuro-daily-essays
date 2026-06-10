@@ -1,0 +1,112 @@
+# 运行日志 2026-09-11（real: 2026-06-10）
+# 文章 #141：注意力的悖论之钟：Alpha 振荡的"静默相"为何是感知的真正窗口
+
+## 运行摘要
+
+- **运行时间**：2026-06-10 UTC+8（scheduled date: 2026-09-11）
+- **文章编号**：#141
+- **分支**：claude/funny-einstein-l8wp2p
+- **目标 repo**：QIUYicong/neuro-daily-essays
+
+---
+
+## 选题流程
+
+**选题依据**：
+1. 最近文章（#136–140）覆盖了分子/突触层（PSD-95、SynGAP1）→ 微回路层（关键期重开）→ 细胞/脑区层（成年神经发生）→ 认知/全脑网络层（CLS+SWR），当前需切换回细胞/微回路层
+2. Alpha 振荡 wiki 页（rev2）已有行为层和 CTC 框架内容，但**细胞层机制**（张 & 弗罗利克 2022 的 F-I 悖论）是新内容，可构成独立深度文章
+3. Q-alpha-01（高优先级，来自 alpha-oscillations wiki）指出细胞层机制为悬而未答的关键问题
+4. 2024 年 Duecker et al. PLoS Comput Biol 论文提供计算视角的新进展
+
+**层级**：cellular + microcircuit + cognition（不同于 #140 的认知/全脑网络）
+
+---
+
+## 资料检索记录
+
+**搜索词**：
+- "alpha oscillations attention visual cortex inhibition"
+- "alpha oscillations pulsed inhibition model 2020-2026"
+- "alpha oscillation phase spiking inhibitory interneurons cortex mechanism"
+- "Mathewson alpha phase visual perception"
+- "Bonnefond Jensen alpha inhibition gamma temporal"
+- "visual attention alpha top-down frontoparietal 2023-2026"
+- "shaping functional architecture oscillatory alpha activity"
+- "Buschman Miller top-down bottom-up attention frontal 2007"
+- "alpha power attention spatial cue parieto-occipital lateralization"
+
+**数据源**：PubMed NCBI E-utilities（esearch + efetch）；PMC（efetch 全文）
+
+**候选文献**：~25 篇（通过 PubMed esearch 获取 PMID 列表）
+
+**采用文献（8 篇）**：
+1. PMID:10704517 (PMC6772495) - Worden et al. 2000 - OPEN - 行为层基础
+2. PMID:19261866 (PMC2724892) - Mathewson & Beck 2009 - OPEN - Alpha 相位预测知觉
+3. PMID:21119777 - Jensen & Mazaheri 2010 - 仅摘要 - 理论框架
+4. PMID:34035240 (PMC8149416) - Huang & Fröhlich 2021 - OPEN - PV+载体
+5. PMID:35219922 (PMC8975618) - Zhang & Fröhlich 2022 - OPEN - F-I 悖论（★核心）
+6. PMID:39259769 (PMC11419396) - Duecker et al. 2024 - OPEN - ANN 计算证明
+7. PMID:39668059 - Bonnefond & Jensen 2025 - 仅摘要 - 最新综述
+8. PMID:24836381 - Jensen & Bonnefond 2014 - 仅摘要 - 理论框架
+
+**排除文献（主要原因）**：
+- 多篇关于 rTMS/tACS 临床应用（不直接支持机制论点）
+- 年代过老或与核心问题关联度低的 EEG 研究
+- 无法区分 alpha 因果作用的相关研究（已在 Q-alpha-01 标注）
+
+---
+
+## 固结步骤
+
+**wiki 页面创建（1 页）**：
+- `wiki/concepts/oscillatory-temporal-multiplexing.md` — 新建，emerging/medium，整合 Duecker 2024 ANN、Jensen-Bonnefond 理论框架、Zhang & Fröhlich 细胞机制
+
+**wiki 页面修订（2 页）**：
+- `wiki/concepts/alpha-oscillations.md`（rev2→rev3）— 新增"细胞层面的新发现：F-I 悖论与时间分工"节；related +1；新增 Q-alpha-cellular-01/02；key_sources +4
+- `wiki/circuits/pv-interneurons.md`（rev5→rev6）— 新增 Alpha 载体角色段落；related +2；key_sources +2
+
+**矛盾检查**：无新矛盾。F-I 悖论是对现有脉冲抑制模型的**细化**（增加细胞层分辨率），而非推翻。以"时间分工"框架整合，两者在不同层级均成立。
+
+**成熟度重估**：
+- oscillatory-temporal-multiplexing → emerging/medium（新建）
+- alpha-oscillations → 保持 established/high（新细节来自麻醉动物实验，但整体行为/因果/计算支持充分）
+
+---
+
+## 图谱更新
+
+**变化**：293 节点（+1），1671 边（+8）
+**新节点**：oscillatory-temporal-multiplexing（emerging/medium）
+**新边（8 条）**：
+- oscillatory-temporal-multiplexing → alpha-oscillations (mechanism-of)
+- oscillatory-temporal-multiplexing → gamma-oscillations (mechanism-of)
+- oscillatory-temporal-multiplexing → pv-interneurons (mechanism-of)
+- oscillatory-temporal-multiplexing → working-memory (supports)
+- pv-interneurons → alpha-oscillations (mechanism-of)
+- alpha-oscillations → oscillatory-temporal-multiplexing (supports)
+- oscillatory-temporal-multiplexing → communication-through-coherence (related)
+- oscillatory-temporal-multiplexing → binding-by-synchrony (related)
+
+---
+
+## 登记的矛盾
+
+无新矛盾登记。
+
+---
+
+## 失败与限制
+
+1. **Worden et al. 2000 全文无法完整提取**（PMC HTML 未返回正文），依据摘要和已知文献记录写作；已标注
+2. **Mathewson 全文**：提取到关键量化结果（67% vs 71%，N1 延迟 34ms），细节已包含
+3. **Bonnefond & Jensen 2025、Jensen 2010、Jensen 2014**：仅摘要，已在文章参考来源表和正文中注明"仅摘要"
+
+---
+
+## branch/commit/push 状态
+
+- **branch**：claude/funny-einstein-l8wp2p
+- **commit**：[待写入]
+- **push**：[待完成]
+
+*日志将在 push 后更新*

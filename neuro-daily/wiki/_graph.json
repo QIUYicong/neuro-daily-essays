@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-10",
-  "node_count": 287,
-  "edge_count": 1628,
+  "updated": "2026-09-11",
+  "node_count": 293,
+  "edge_count": 1671,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2645,6 +2645,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/neurogenesis-induced-forgetting.md"
+    },
+    {
+      "id": "oscillatory-temporal-multiplexing",
+      "title": "振荡时间多路复用",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/oscillatory-temporal-multiplexing.md"
     }
   ],
   "edges": [
@@ -11515,6 +11524,46 @@
       "from": "prefrontal-cortex",
       "to": "sharp-wave-ripples",
       "type": "regulates"
+    },
+    {
+      "from": "oscillatory-temporal-multiplexing",
+      "to": "alpha-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oscillatory-temporal-multiplexing",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oscillatory-temporal-multiplexing",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oscillatory-temporal-multiplexing",
+      "to": "working-memory",
+      "type": "supports"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "alpha-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "oscillatory-temporal-multiplexing",
+      "type": "supports"
+    },
+    {
+      "from": "oscillatory-temporal-multiplexing",
+      "to": "communication-through-coherence",
+      "type": "related"
+    },
+    {
+      "from": "oscillatory-temporal-multiplexing",
+      "to": "binding-by-synchrony",
+      "type": "related"
     }
   ],
   "dangling_references": [

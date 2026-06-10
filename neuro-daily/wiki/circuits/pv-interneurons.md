@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-08-10
-revision_count: 5
+updated: 2026-09-11
+revision_count: 6
 dimensions: [molecular, cellular, synaptic, microcircuit, cognition, disease]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration, alpha-oscillations, oscillatory-temporal-multiplexing]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
-source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468"]
+source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-09-11-alpha-phase-cellular-mechanism-surprise-window]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468", "PMID:34035240 (PMC8149416)", "PMID:35219922 (PMC8975618)"]
 ---
 
 # PV+ 中间神经元（Parvalbumin-expressing Interneurons）
@@ -31,6 +31,8 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 在精神分裂症中，前额叶 PV+ 细胞的 GAD67 下调导致 γ 振荡受损，与工作记忆缺陷直接相关，为 PV+ 细胞在认知控制中的必要性提供了临床证据。
 
 **2026-07-04 更新（E/I 平衡与关键期视角）**：PV+ 细胞还是皮层 E/I 平衡的核心执行者（见 [[ei-balance]]）。在发育关键期，PV+ 细胞是可塑性的**初始突触靶点**——单侧眼遮蔽后数小时内，丘脑皮层突触选择性减弱 PV+（而非兴奋性）细胞，触发 40 Hz 伽马振荡爆发（Quast & Hensch 2023，PMID:36598942）。关键期末随**围神经元网（PNNs）**沉积于 PV+ 细胞周围，回路状态被固化（见 [[perineuronal-nets]]）。PV+ 细胞特别易受神经炎症损伤（TNF-α 等细胞因子优先损伤 PV+，Allami et al. 2025，PMID:39842401），这是精神分裂症和 AD 病理的共同节点。
+
+**2026-09-11 更新（Alpha 振荡载体角色）**：Huang & Fröhlich 2021（PMID:34035240, PMC:PMC8149416, Nat Commun）证明 PV+ 中间神经元（narrow-spiking）对 Alpha 振荡（8–13 Hz）的相位锁定**显著强于锥体细胞**，是 Alpha 振荡的主要相位锁定载体。弱电场（tACS <0.5 mV/mm）优先同步 PV+ 网络，进而通过抑制性连接影响整体 Alpha 功率。这意味着**PV+ 细胞不只是 γ 振荡的驱动者，在低/中皮层兴奋度状态下也作为 Alpha 的起搏器**——频率角色随状态切换。与此相关，Zhang & Fröhlich 2022（PMID:35219922）发现锥体细胞（而非 PV+ 细胞）在 Alpha 静默相对外部输入最敏感（F-I 曲线悖论），说明 PV+ 与锥体细胞在 Alpha 周期中分工：PV+ 驱动振荡节律，锥体细胞在 PV+ 网络安静时接收外部信号（"惊奇检测"）。
 
 ## 关键机制
 
@@ -89,6 +91,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 2026-07-04 · 修订 rev3 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增 E/I 平衡执行者角色、关键期初始靶点（Quast & Hensch 2023）、PNN 固化机制、神经炎症脆弱性
 - 2026-06-03 · 修订 rev4 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增：PV+ 细胞去激活是 ODP 的第一个微回路事件（Kuhlman 2013），OTX2 经 PNN 锚定驱动 PV 成熟（Sugiyama 2008, Beurdeley 2012），BDNF 驱动 PV 成熟时间轴（Huang 1999），Rett 综合征中 MeCP2 KO 加速 PV 成熟导致关键期错位（Krishnan 2015），小胶质细胞亚群上游调控 PV 成熟（Wang 2025）；related 新增 critical-period, bdnf, microglia
 - 2026-08-10 · 修订 rev5 · 基于《皮层的第二种建筑学》(#109) · 新增：MGE 腹侧来源、Nkx2.1→Lhx6 命运决定路径、程序性细胞死亡筛选（30-40%，Wong 2018）作为 PV 数量校准机制；related 新增 cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration
+- 2026-09-11 · 修订 rev6 · 基于文章#141《注意力的悖论之钟》· 新增 Alpha 载体角色（Huang & Fröhlich 2021, PMID:34035240）：PV+ 是 Alpha 相位锁定主要驱动者，状态依赖频率切换（低兴奋度→Alpha，高兴奋度→γ）；新增 Zhang & Fröhlich 2022（PMID:35219922）发现 PV+ 与锥体细胞的 Alpha 分工（PV+ 驱动节律，锥体细胞在静默相检测外部信号）；related 新增 alpha-oscillations, oscillatory-temporal-multiplexing；key_sources 新增 2 篇 PMC 全文
 
 ## 来源文章
 
@@ -97,3 +100,4 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-06-03-critical-period-plasticity]]
 - [[2026-08-10-cortical-interneuron-tangential-migration]]
+- [[2026-09-11-alpha-phase-cellular-mechanism-surprise-window]]

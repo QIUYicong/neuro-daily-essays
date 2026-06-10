@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-09-11（#141 · 注意力的悖论之钟：Alpha 振荡的"静默相"为何是感知的真正窗口）
+
+**新建页面（1页）**：
+- `concepts/oscillatory-temporal-multiplexing.md`（emerging/medium）— 振荡时间多路复用：大脑利用 Alpha 振荡（8–13 Hz）相位时隙解决竞争表征的叠加灾难；Duecker 2024 ANN 计算证明（99% vs 59% 注意/忽视准确率）；Alpha-Gamma 嵌套的时间编码框架；与 PV+ 细胞、海马 theta-gamma 耦合、CTC 的关系
+
+**修订页面（2页）**：
+- `concepts/alpha-oscillations.md`（rev2→rev3）— 新增"细胞层面的新发现：F-I 悖论与时间分工"节：（1）确立 PV+ 中间神经元为 Alpha 主要相位锁定载体（Huang & Fröhlich 2021, PMID:34035240, PMC8149416）；（2）记录 Zhang & Fröhlich 2022（PMID:35219922, PMC8975618）的反直觉 F-I 饱和发现（锥体细胞在静默相对外部输入最敏感，r = −0.72/−0.71）；（3）修订脉冲抑制模型为"内部处理 vs 外部感知"时间分工框架；（4）增补 Duecker 2024 ANN 计算证明；（5）related +1（oscillatory-temporal-multiplexing）；新增 Q-alpha-cellular-01/02；key_sources +4 篇 PMC 全文
+- `circuits/pv-interneurons.md`（rev5→rev6）— 新增 Alpha 载体角色（Huang & Fröhlich 2021）：PV+ 是 Alpha 相位锁定主要驱动者（状态依赖频率切换：低兴奋度→Alpha，高兴奋度→γ）；新增 PV+ vs 锥体细胞在 Alpha 周期中的功能分工（Zhang & Fröhlich 2022）；related +2（alpha-oscillations, oscillatory-temporal-multiplexing）；key_sources +2 篇 PMC 全文
+
+**图谱更新**：+1节点（oscillatory-temporal-multiplexing, emerging/medium），+8条新边（oscillatory-temporal-multiplexing→alpha-oscillations mechanism-of；→gamma-oscillations；→pv-interneurons；→working-memory supports；pv-interneurons→alpha-oscillations mechanism-of；alpha-oscillations→oscillatory-temporal-multiplexing supports；→communication-through-coherence related；→binding-by-synchrony related）；总计 293 节点、1671 边
+
+**矛盾登记**：无新矛盾；Zhang & Fröhlich 2022 的 F-I 悖论是对现有脉冲抑制模型的细化（而非推翻），以"时间分工"框架整合，不冲突既有主张
+
+**悬空引用**：无；所有新边目标节点均已存在
+
+---
+
 ## 2026-09-10（#140 · 海马给新皮层写的信：互补学习系统与尖波涟漪驱动的记忆系统巩固）
 
 **新建页面（0页）**：今日无新建页面；所有概念在既有页面中处理。

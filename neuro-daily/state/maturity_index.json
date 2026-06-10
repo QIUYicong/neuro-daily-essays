@@ -202,9 +202,23 @@
       "change_reason": "新建（2026-09-03 #134）：Whittington & Bogacz 2017 数学证明扎实（high）；Max et al. 2026 皮层实现为 medium（计算模型，体内验证有限）；整体评为 emerging/medium",
       "previous_status": null,
       "source_article": "2026-09-03-pc-learning-biological-backpropagation"
+    },
+    {
+      "slug": "oscillatory-temporal-multiplexing",
+      "status": "emerging",
+      "confidence": "medium",
+      "last_change": "2026-09-11",
+      "reason": "新建：多篇理论/计算模型支持（Duecker 2024 ANN；Jensen & Bonnefond 2014）；直接神经生理验证有限"
+    },
+    {
+      "slug": "alpha-oscillations",
+      "status": "established",
+      "confidence": "high",
+      "last_change": "2026-09-11",
+      "reason": "rev3：新增 F-I 悖论细胞机制（Zhang & Fröhlich 2022）和 PV+ 载体证据（Huang & Fröhlich 2021）；整体仍高置信（行为/因果/计算层多方验证），新细节为麻醉动物中验证，标注中等证据强度"
     }
   ],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-11",
   "index": [
     {
       "slug": "thalamocortical-axons",

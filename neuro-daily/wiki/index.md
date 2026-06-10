@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-10（**#140**·海马给新皮层写的信——互补学习系统（CLS）与尖波涟漪驱动的记忆系统巩固：稳定性-可塑性困境解法、SO-spindle-SWR 三重协奏、清醒 SWR 主动记忆标记（Yang 2023, R=0.86）、PFC 涟漪顶-下门控（Shin & Jadhav 2023）、大振幅 SWR 因果证据（Robinson 2026）、SHY vs 主动巩固调和框架）· 主题页总数：**273**（新建0页；修订3页：complementary-learning-systems rev2 · sharp-wave-ripples rev7 · memory-consolidation rev9；图谱292节点、1663边）
+> 最后更新：2026-09-11（**#141**·注意力的悖论之钟——Alpha 振荡的"静默相"为何是感知的真正窗口：F-I 曲线饱和悖论（锥体细胞静默相对外部输入最敏感）、PV+ 中间神经元是 Alpha 主要载体（Huang & Fröhlich 2021）、时间分工框架（内部处理 vs 外部感知）、Duecker 2024 ANN 计算证明时间多路复用）· 主题页总数：**274**（新建1页：oscillatory-temporal-multiplexing；修订2页：alpha-oscillations rev3 · pv-interneurons rev6；图谱293节点、1671边）
 
 ---
 
@@ -45,6 +45,7 @@
 
 ## concepts（概念/框架）
 
+- 🟡 [振荡时间多路复用](concepts/oscillatory-temporal-multiplexing.md) — Alpha 振荡相位时隙解决竞争表征叠加灾难；Duecker 2024 ANN证明（99% vs 59%）；PV+ 驱动框架，锥体细胞静默相最敏感；与 theta-gamma 耦合的关系 **[NEW 2026-09-11 #141]**
 - 🟡 [神经发生诱导遗忘](concepts/neurogenesis-induced-forgetting.md) — 增加神经发生主动加速遗忘（突触竞争改写连接组）；降低婴儿期神经发生减轻婴儿失忆症；Akers 2014 双向跨物种因果证据；遗忘是进化保留的主动容量管理策略 **[NEW 2026-09-09 #139]**
 - 🟢 [PSD-95（突触后密度-95）](concepts/psd-95.md) — 兴奋性突触最丰富的支架蛋白（~300分子/突触）；PDZ1/2锚定NMDAR-GluN2B；经TARP间接稳定AMPAR；突触槽位分子基础；SynGAP竞争PDZ控制LTP；棕榈酰化动态循环；PSD-95/93竞争设定关键期时间轴 **[NEW 2026-09-06 #136（填补悬空引用）]**
 - 🟢 [TARP（跨膜 AMPAR 调控蛋白）](concepts/tarp-auxiliary-subunit.md) — AMPA受体辅助亚基；Stargazin C末端(-TTPV)直接结合PSD-95 PDZ1/2；AMPAR-TARP-PSD95三元复合物是突触AMPAR锚定的必要中介；调控AMPAR门控动力学和表面运输 **[NEW 2026-09-06 #136]**

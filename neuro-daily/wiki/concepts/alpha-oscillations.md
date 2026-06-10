@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-21
-updated: 2026-08-31
-revision_count: 2
-dimensions: [whole-brain-network, brain-region, cognition, cellular, behavior]
-related: [dorsal-attention-network, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, biased-competition, thalamus, thalamocortical-circuit, pv-interneurons, ei-balance, attentional-blink, multisensory-integration, predictive-coding, communication-through-coherence]
+updated: 2026-09-11
+revision_count: 3
+dimensions: [whole-brain-network, brain-region, cognition, cellular, behavior, molecular]
+related: [dorsal-attention-network, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, biased-competition, thalamus, thalamocortical-circuit, pv-interneurons, ei-balance, attentional-blink, multisensory-integration, predictive-coding, communication-through-coherence, oscillatory-temporal-multiplexing]
 prerequisites: [action-potential, synaptic-transmission, pv-interneurons, thalamus]
-opens_questions: [Q-alpha-01, Q-alpha-02, Q-alpha-03]
-source_articles: [2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc]
-key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905", "PMID:21779269", "PMID:23141428", "PMID:26447583"]
+opens_questions: [Q-alpha-01, Q-alpha-02, Q-alpha-03, Q-alpha-cellular-01, Q-alpha-cellular-02]
+source_articles: [2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc, 2026-09-11-alpha-phase-cellular-mechanism-surprise-window]
+key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905", "PMID:21779269", "PMID:23141428", "PMID:26447583", "PMID:19261866 (PMC2724892)", "PMID:34035240 (PMC8149416)", "PMID:35219922 (PMC8975618)", "PMID:39259769 (PMC11419396)"]
 ---
 
 # α 振荡 (Alpha Oscillations, 8–13 Hz)
@@ -95,6 +95,41 @@ key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905"
 - **Q-alpha-01**（高优先级）：FEF 激活如何通过何种解剖通路（直接皮层反馈 vs 丘脑中继）精确调控特定视网膜拓扑位置的枕叶 α？
 - **Q-alpha-02**（中优先级）：个体 IAF 差异（8–13 Hz）是否与注意效率指标（d'、RT 变异性）系统性相关？高 IAF 是否提供更精细的时间门控？
 - **Q-alpha-03**（中优先级）：清醒时 α 门控（感觉过滤）与睡眠时丘脑纺锤波（记忆保护）是否共享相同的 TRN 硬件，但通过不同的神经调质状态（NE/ACh 高 vs 低）切换功能？
+- **Q-alpha-cellular-01**（中优先级，新增 2026-09-11）：Zhang & Fröhlich 2022 的 F-I 悖论在麻醉动物中获得，清醒主动注意状态下（更高兴奋性、更强背景噪音），锥体细胞是否仍在 Alpha 静默相保持更高外部输入增益？还是兴奋性升高将锥体细胞整体推入 F-I 饱和区，抹除相位依赖差异？
+- **Q-alpha-cellular-02**（中优先级，新增 2026-09-11）：若静默相是"意外捕获"窗口，则高 Alpha 功率区域（被忽略位置）vs 低 Alpha 功率区域（被注意位置），静默相的深度和持续时间是否系统性不同？这种差异是否系统地影响意外显著刺激引发注意转移的概率？
+
+## ★ 细胞层面的新发现：F-I 悖论与时间分工（2026-09-11 新增）
+
+### PV+ 中间神经元是 Alpha 的主要相位锁定载体
+
+Huang & Fröhlich 2021（PMID:34035240, PMC:PMC8149416, Nat Commun）用 tACS 在雪貂皮层证明：**快速放电 PV+ 中间神经元（narrow-spiking）对 Alpha 振荡的相位锁定显著强于锥体细胞（broad-spiking）**。弱电场（<0.5 mV/mm）优先同步 PV+ 网络，通过抑制性连接传播至整体回路，间接影响宏观 Alpha 功率和相位。
+
+含义：PV+ 细胞不只驱动 γ 振荡（在高兴奋度状态下）——在低/中兴奋度状态下，**同一 PV+ 网络也可能切换为 Alpha 振荡的起搏器**，体现了"状态依赖频率切换"的多态性。
+
+### 锥体细胞的 F-I 悖论：静默相是外部信号检测的最大增益窗口
+
+Zhang & Fröhlich 2022（PMID:35219922, PMC:PMC8975618, Brain Stimul）在雪貂视觉皮层使用相位特异性光遗传学刺激，发现了一个颠覆直觉的结果：
+
+- **锥体细胞**对外部光遗传输入的响应敏感性与其内在相位偏好呈显著负相关（r = −0.72/−0.71，p < 0.01）：内在放电率最**低**的那一相位（理论上的"抑制相"），反而是外部输入响应**最大**的时刻
+- **PV+ 快速放电中间神经元**不存在这种相位依赖性敏感调制
+
+**机制**：F-I 曲线饱和效应——锥体细胞在高放电率（活跃相）时处于 F-I 曲线饱和区，额外外部输入的增量效应极小；在低放电率（静默相）时处于 F-I 线性区，相同增量输入引起的放电变化最大。
+
+**概念修订**：
+| 旧的脉冲抑制框架 | 修订后的时间分工框架 |
+|----------------|-------------------|
+| 静默相 = 抑制 = 感觉关闭 | 静默相 = 外部信号检测窗口（F-I 线性区，最大增益） |
+| 活跃相 = 去抑制 = 感觉开放 | 活跃相 = 内部自主处理（循环/预测活动，F-I 接近饱和） |
+
+**功能意义**：
+- Alpha 静默相是大脑的"惊奇检测器"（surprise detector）窗口：即使在被"忽略"的感觉区域，每个 Alpha 周期（~100 ms）仍存在一个外部输入增益最大的时刻，能够捕获足够高显著性的意外刺激——这为"注意力可被抓夺"（attention capture）提供了细胞层面的底物
+- Alpha 振荡由此实现**内部处理（预测/循环）与外部感知（误差检测）的节律性时间分工**，与预测编码框架中上行"预测误差"和下行"预测"的分离逻辑相吻合
+
+**当前置信度**：中（动物麻醉条件；清醒行为状态下的稳健性尚未充分验证；见 Q-alpha-cellular-01/02）
+
+### 计算层面的验证：振荡将竞争输入转为时间码
+
+Duecker et al. 2024（PMID:39259769, PMC:PMC11419396, PLoS Comput Biol）在 ANN 中引入 10 Hz 振荡性抑制：两个竞争输入被分配到不同相位时隙（注意刺激准确率 99% vs 忽视 ~59%），直接证明时间多路复用（temporal multiplexing）是解决竞争表征"叠加灾难"的有效计算策略。
 
 ## α 在 CTC 框架中的角色（新增 2026-08-31）
 
@@ -116,6 +151,7 @@ key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905"
 
 - 2026-07-21 · 创建 · 基于《大脑的频闪滤网》第89篇文章 · 初始置信度：高（10个来源，9个开放全文，包含 rhTMS 因果证据）
 - 2026-08-31 · 修订 rev2 · 新增"α 在 CTC 框架中的角色"节：将 α 抑制整合进 Fries CTC 框架；说明 FEF-V4 γ coupling 与 α 抑制的协同机制；related 新增 communication-through-coherence；key_sources 新增 PMID:26447583；Q-alpha-01 部分回答进展
+- 2026-09-11 · 修订 rev3 · 新增"细胞层面的新发现：F-I 悖论与时间分工"节（基于文章#141）：（1）确立 PV+ 中间神经元为 Alpha 振荡的主要相位锁定载体（Huang & Fröhlich 2021, PMID:34035240）；（2）记录 Zhang & Fröhlich 2022（PMID:35219922）的反直觉 F-I 饱和发现——Alpha 静默相是锥体细胞外部输入最大增益窗口；（3）增补 Duecker 2024 ANN 计算证明；（4）新增 Q-alpha-cellular-01/02；（5）related 新增 oscillatory-temporal-multiplexing；key_sources 新增 4 篇 PMC 开放全文
 
 ## 来源文章
 

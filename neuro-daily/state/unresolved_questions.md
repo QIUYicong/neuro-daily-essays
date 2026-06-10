@@ -1,6 +1,32 @@
 # 未解问题追踪
 
-*最后更新：2026-09-10*
+*最后更新：2026-09-11*
+
+---
+
+## 2026-09-11 新增（来自"注意力的悖论之钟"文章 #141）
+
+### Q-alpha-cellular-01（中优先级）：F-I 悖论的清醒态稳健性
+
+- **关联 wiki**：[[alpha-oscillations]]、[[pv-interneurons]]、[[oscillatory-temporal-multiplexing]]
+- **来源文章**：2026-09-11-alpha-phase-cellular-mechanism-surprise-window
+- **问题**：Zhang & Fröhlich 2022（PMID:35219922）在雪貂麻醉皮层中发现锥体细胞在 Alpha 静默相对外部光遗传输入敏感性最大（r = −0.72/−0.71）。但在**清醒主动注意**的皮层中（更高基线兴奋度、更强 ACh/NE 调制、动态任务背景）：
+  - 问题 A：高兴奋度状态是否将锥体细胞整体推入 F-I 饱和区，抹除相位依赖性敏感差异？
+  - 问题 B：任务相关 Alpha 侧向化（注意任务中忽视侧 Alpha 升高）是否特异性改变忽视侧锥体细胞的 F-I 工作点（可能推入更深饱和）？
+  - 问题 C：可否在清醒猕猴 V4 中用相同光遗传相位追踪实验复现此发现？
+- **当前证据状态**：麻醉动物（中，Zhang & Fröhlich 2022）；清醒行为（极低，未见报道）
+
+### Q-alpha-cellular-02（中优先级）：静默相深度与注意捕获率的因果关系
+
+- **关联 wiki**：[[alpha-oscillations]]、[[oscillatory-temporal-multiplexing]]、[[attentional-blink]]
+- **来源文章**：2026-09-11-alpha-phase-cellular-mechanism-surprise-window
+- **问题**：若 Alpha 静默相是"意外输入最大增益窗口"，且高 Alpha 功率区域（忽视侧）的静默相更深/更窄，那么：
+  - 问题 A：忽视侧突然出现的高显著性刺激（突然出现的亮点、动物/面孔等）诱发注意转移的概率，是否与当前 Alpha 静默相深度（振荡振幅）负相关？
+  - 问题 B：用 TMS 或 tACS 人工加深忽视侧 Alpha（增大振幅），是否也加深了忽视侧每个静默相的绝对接收窗口深度，从而矛盾地增加突破注意门的刺激成功率？
+  - 问题 C：这一预测是否与 Bonnefond & Jensen 2025（PMID:39668059）提出的"Alpha 在抵制干扰中的角色"形成可验证的矛盾？
+- **当前证据状态**：行为层 Alpha-注意关系（高，多项 EEG 研究）；因果操控（中，tACS）；细胞层 F-I-注意捕获联系（极低，推测）
+
+---
 
 ---
 
