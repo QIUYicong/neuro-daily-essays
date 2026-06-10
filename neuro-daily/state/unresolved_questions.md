@@ -1,6 +1,30 @@
 # 未解问题追踪
 
-*最后更新：2026-09-07*
+*最后更新：2026-09-08*
+
+---
+
+## 2026-09-08 新增（来自"当大脑的学习窗口再次开启"文章 #138）
+
+### Q-cp-reopening-01（高优先级）：Lynx1/HDAC 路径是否也汇聚到 PV+ 细胞 TRKB？
+
+- **关联 wiki**：[[critical-period-reopening]]、[[lynx1]]、[[perineuronal-nets]]、[[pv-interneurons]]
+- **来源文章**：2026-09-08-critical-period-reopening
+- **问题**：Lesnikova 2021（PMID:33293360）证明 ChABC 和 fluoxetine 两种干预均通过释放 PV+ 细胞内 TRKB 的 PTPσ 磷酸酶抑制来重开可塑性。但 Lynx1 路径（路径二）和 HDAC 抑制路径（路径三）是否也最终汇聚到 TRKB？
+  - 问题 A：Lynx1 KO → nAChR 增强 → VIP-PV 去抑制 → 锥体神经元去抑制。这条路径的最终效果是否也通过提高 PV+ 细胞内 TRKB 磷酸化？还是通过完全不同的下游机制实现（如改变回路 E/I 平衡而非改变 TRKB 信号）？
+  - 问题 B：TSA（HDAC 抑制）→ 组蛋白乙酰化维持 → BDNF/Arc 表达恢复。BDNF 升高必然激活 TRKB。但是，TSA 的效果是否依赖于 PV+ 细胞中的 TRKB，还是主要通过锥体神经元的 TRKB？PV-TRKB cKO × TSA 实验尚未见报道。
+  - 问题 C：如果所有四条路径均汇聚到 PV+ 细胞 TRKB，那么可否开发一种直接且选择性地在 PV+ 细胞中激活 TRKB 的分子工具（如 PV 启动子驱动的 TRKB 过激活），获得比任何单一路径更可靠的关键期重开？
+- **当前证据状态**：ChABC/fluoxetine → PV+ TRKB（高，Lesnikova 2021）；Lynx1 路径 → PV+ TRKB（极低，推测）；TSA → PV+ TRKB（低，BDNF 间接推测）
+
+### Q-cp-reopening-02（中优先级）：成年重开后的可塑性与原始关键期的质量差异
+
+- **关联 wiki**：[[critical-period-reopening]]、[[silent-synapse]]、[[critical-period-plasticity]]
+- **来源文章**：2026-09-08-critical-period-reopening
+- **问题**：所有成年重开实验均观察到 ODP 的幅度低于原始关键期、持续时间更短。
+  - 问题 A：是否因为沉默突触池在关键期已部分或完全耗尽（关键期可塑性的底物）？成年重开时是否有新的沉默突触产生？
+  - 问题 B：ChABC 处理后，PNN 会随时间重新沉积（实验表明约 2–4 周）。重新沉积后关键期是否重新关闭？是否可以通过周期性 ChABC 处理维持慢性可塑性？
+  - 问题 C：多条路径组合干预（例如 ChABC + Lynx1 KO + HDAC 抑制剂三联）是否能获得与原始关键期幅度相当的可塑性？是否会带来不可控的副作用（全脑回路随机重塑）？
+- **当前证据状态**：组合干预效果（低，未见系统研究）；沉默突触再生（极低，理论推测）
 
 ---
 

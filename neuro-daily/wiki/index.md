@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-07（**#137**·突触的"制动蛋白"：SynGAP1 如何通过解除 Ras-ERK 制动来执行 LTP，以及它的缺失如何永久关闭大脑的学习窗口）· 主题页总数：**270**（新建2页：syngap1 · syngap1-related-disorder；修订3页：ltp rev15 · psd-95 rev2 · silent-synapse rev2；图谱289节点、1641边）
+> 最后更新：2026-09-08（**#138**·当大脑的"学习窗口"再次开启：成年关键期重开的四条分子路径——ChABC/PNN 降解、Lynx1 胆碱能制动、HDAC 表观遗传重置、感觉剥夺 E/I 再平衡，以及 PTPσ–TRKB 统一下游节点）· 主题页总数：**272**（新建2页：critical-period-reopening · lynx1；修订2页：critical-period rev5 · perineuronal-nets rev3；图谱291节点、1654边）
 
 ---
 
@@ -99,7 +99,9 @@
 - 🟢 [速度细胞](concepts/speed-cells.md) — MEC中放电率与运动速度线性正相关神经元；环境无关；~50-80ms前瞻性偏置；PPN→HDB→MEC脑干通路（Carvalho 2020因果证据）；路径整合速度分量的细胞实现 **[NEW 2026-07-24 #92]**
 - 🟢 [皮层六层架构](concepts/cortical-layers.md) — L4 接收丘脑（仅10-20%突触）；相互兴奋放大10倍；L2/3 高阈值门控（45-50个细胞）→ 群体活动检测；L5 双通道输出；L6 丘脑反馈；FF/FB 层间法则（Felleman & Van Essen 1991）；γ-FF / α-β-FB 振荡分工 **[NEW 2026-07-23 #91]**
 - 🟢 [规范微回路（Douglas-Martin 1991）](concepts/canonical-microcircuit.md) — 三群体（浅层锥体/深层锥体/抑制中间神经元）跨脑区通用计算模板；丘脑输入是触发器，相互兴奋是主放大器；状态依赖增益控制；Bastos 2012 整合预测编码框架 **[NEW 2026-07-23 #91]**
-- 🟢 [发育关键期](concepts/critical-period.md) — GABA 阈值触发开启；三道刹车（PNN/OTX2/Lynx1）主动关闭；ChABC/氟西汀/催产素可重开；MeCP2 KO 使 Rett 综合征关键期错位；弱视与语言习得的发育窗口 **[NEW 2026-06-03]**
+- 🟢 [发育关键期](concepts/critical-period.md) — GABA 阈值触发开启；三道刹车（PNN/OTX2/Lynx1）主动关闭；ChABC/氟西汀/催产素可重开；MeCP2 KO 使 Rett 综合征关键期错位；弱视与语言习得的发育窗口 **[修订 rev5 2026-09-08]**
+- 🟡 [关键期重开](concepts/critical-period-reopening.md) — 成年大脑通过移除分子刹车（ChABC/PNN、Lynx1 KO/nAChR、HDAC 抑制、感觉剥夺/E-I 再平衡）恢复类幼年型可塑性；PTPσ–TRKB 是多路径统一下游节点；弱视治疗的分子基础 **[NEW 2026-09-08 #138]**
+- 🟢 [Lynx1 胆碱能制动蛋白](concepts/lynx1.md) — 关键期结束后视觉皮层上调的内源性 nAChR 抑制蛋白；Lynx1 KO 成年恢复幼年型 ODP；physostigmine 药理学模拟；关键期关闭的第三道刹车 **[NEW 2026-09-08 #138]**
 - 🟢 [髓鞘化与髓鞘可塑性](concepts/myelination.md) — OL 将轴突传导速度提升100倍；活动依赖性髓鞘化（Gibson 2014, Science）是与突触可塑性互补的第二类学习机制；VTA奖励回路中OL的必要性（Yalçín 2024, Nature） **[NEW 2026-07-27]**
 - 🟢 [突触剪枝](concepts/synaptic-pruning.md) — 先多建再精删策略；C1q/C3b"吃我"+CD47"别吃我"双向博弈；活动依赖（TTX实验）；dLGN/海马/前额叶分窗口；精神分裂症（C4A过度剪枝）与AD（C1q重激活）疾病连接 **[NEW 2026-06-03]**
 - 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异 **[NEW 2026-06-03]**

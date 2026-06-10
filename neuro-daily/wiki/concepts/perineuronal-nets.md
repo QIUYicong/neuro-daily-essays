@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-04
-updated: 2026-06-03
-revision_count: 2
+updated: 2026-09-08
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, cognition, disease]
-related: [pv-interneurons, ei-balance, synaptic-pruning, adult-neurogenesis, bdnf, homeostatic-plasticity, critical-period, microglia]
+related: [pv-interneurons, ei-balance, synaptic-pruning, adult-neurogenesis, bdnf, homeostatic-plasticity, critical-period, microglia, critical-period-reopening, lynx1]
 prerequisites: [pv-interneurons, synaptic-transmission]
 opens_questions: [Q-ei-balance-02, Q-pnn-human-therapy, Q-cp-04]
-source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
+source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-09-08-critical-period-reopening]
 key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942", "PMID:12424383", "PMID:22764251", "PMID:33293360", "PMID:34045309"]
 ---
 

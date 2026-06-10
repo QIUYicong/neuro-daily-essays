@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-08",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10014,9 +10014,69 @@
         "nanoblocks"
       ],
       "article": "2026-09-06"
+    },
+    {
+      "pmid": "10724170",
+      "doi": "10.1038/35004581",
+      "title": "Inhibitory threshold for critical-period activation",
+      "authors": "Fagiolini & Hensch",
+      "year": 2000,
+      "journal": "Nature",
+      "used_in": [
+        "2026-09-08-critical-period-reopening"
+      ],
+      "coverage": "GABA阈值门控关键期；BZD在成年GAD65-KO中恢复CP"
+    },
+    {
+      "pmid": "17329213",
+      "doi": "10.1016/j.neuron.2007.01.017",
+      "title": "Developmental downregulation of histone posttranslational modifications regulates visual cortical plasticity",
+      "authors": "Putignano et al.",
+      "year": 2007,
+      "journal": "Neuron",
+      "used_in": [
+        "2026-09-08-critical-period-reopening"
+      ],
+      "coverage": "TSA（HDAC抑制剂）恢复成年ODP；H3乙酰化发育下调机制"
+    },
+    {
+      "pmid": "17694050",
+      "doi": "10.1038/nn1965",
+      "title": "Experience-dependent recovery of vision following chronic deprivation amblyopia",
+      "authors": "He et al.",
+      "year": 2007,
+      "journal": "Nat Neurosci",
+      "used_in": [
+        "2026-09-08-critical-period-reopening"
+      ],
+      "coverage": "黑暗饲养10天+弱视眼重开→成年大鼠ODP恢复"
+    },
+    {
+      "pmid": "18420937",
+      "doi": "10.1126/science.1150516",
+      "title": "The antidepressant fluoxetine restores plasticity in the adult visual cortex",
+      "authors": "Maya Vetencourt et al.",
+      "year": 2008,
+      "journal": "Science",
+      "used_in": [
+        "2026-09-08-critical-period-reopening"
+      ],
+      "coverage": "慢性SSRI恢复成年ODP；BDNF上调；地西泮阻断"
+    },
+    {
+      "pmid": "33670945",
+      "doi": "10.3390/ijms22052434",
+      "title": "An extracellular perspective on CNS maturation: perineuronal nets and the control of plasticity",
+      "authors": "Carulli & Verhaagen",
+      "year": 2021,
+      "journal": "Int J Mol Sci",
+      "used_in": [
+        "2026-09-08-critical-period-reopening"
+      ],
+      "coverage": "PNN关闭CP综述；多脑区PNN功能；治疗靶向性挑战"
     }
   ],
-  "total_sources": 587,
+  "total_sources": 592,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

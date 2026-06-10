@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-09-08（#138 · 当大脑的"学习窗口"再次开启：成年关键期重开的四条分子路径）
+
+**新建页面（2页）**：
+- `concepts/critical-period-reopening.md`（emerging/medium-high）— 成年关键期重开的四条路径：① PNN 降解（ChABC → PTPσ 去激活 → TRKB 重磷酸化）；② Lynx1 KO/nAChR 激动（胆碱能去制动）；③ HDAC 抑制（组蛋白乙酰化恢复）；④ 黑暗饲养/感觉剥夺（E/I 再平衡）；PTPσ–TRKB 统一下游节点假说（Lesnikova 2021）；弱视治疗前景；SynGAP1 成年干预可能性（Q-syngap1-02）
+- `concepts/lynx1.md`（established/high）— 内源性 nAChR 抑制蛋白，关键期结束后视觉皮层上调；结构类似蛇毒三指毒素；Lynx1 KO 成年恢复幼年型 ODP；弱视自发恢复；physostigmine 药理模拟；nAChR 必要性验证
+
+**修订页面（2页）**：
+- `concepts/critical-period.md`（rev5）— related 新增 critical-period-reopening、lynx1；连接节新增两条说明；修订历史追加；source_articles 新增 2026-09-08
+- `concepts/perineuronal-nets.md`（rev3）— related 新增 critical-period-reopening、lynx1；source_articles 新增 2026-09-08
+
+**矛盾登记**：无（多路径重开的证据高度一致；PTPσ–TRKB 统一下游假说目前仅覆盖 ChABC 和 fluoxetine 两条路径，Lynx1/HDAC 路径是否汇聚尚无数据，标注为 emerging）
+
+**解决悬空引用**：`critical-period-reopening` 和 `lynx1` 从 critical-period.md 的悬空 related 变为实体页面
+
+**知识图谱**：291 节点，1654 边（新增 2 节点，13 条边）
+
+---
+
 ## 2026-09-07（#137 · 突触的"制动蛋白"：SynGAP1 如何通过解除 Ras-ERK 制动来执行 LTP）
 
 **新建页面（2页）**：

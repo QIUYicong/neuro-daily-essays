@@ -204,7 +204,7 @@
       "source_article": "2026-09-03-pc-learning-biological-backpropagation"
     }
   ],
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -243,7 +243,7 @@
       "source_article": "2026-09-03-pc-learning-biological-backpropagation"
     }
   ],
-  "total_pages": 18,
+  "total_pages": 20,
   "syngap1": {
     "status": "established",
     "confidence": "high",
@@ -290,6 +290,20 @@
       "confidence": "high",
       "last_changed": "2026-08-29",
       "reason": "Anatomical features well-characterized (agranular, direct spinal projections); conflict monitoring fMRI replicated across many labs; ERN from ACC source well-localized; ACC lesion studies (monkey, rat) showing action value learning impairment are causal; EVC framework has multiple direct experimental validations; status established for the core findings, medium confidence for EVC as the complete explanatory framework"
+    },
+    "critical-period-reopening": {
+      "status": "emerging",
+      "confidence": "medium-high",
+      "last_changed": "2026-09-08",
+      "change_reason": "新建页面：首次系统整理关键期重开四条路径；PTPσ–TRKB 下游统一节点假说仅有2篇来源验证，动物模型充分但人类临床数据早期，定为 emerging",
+      "revision_count": 1
+    },
+    "lynx1": {
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-09-08",
+      "change_reason": "新建页面：Morishita 2010 发现完整，方法学严格，nAChR 机制有强因果验证，定为 established/high",
+      "revision_count": 1
     }
   },
   "credit-assignment": {

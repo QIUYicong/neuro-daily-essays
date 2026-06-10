@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-07",
-  "total_articles": 137,
+  "last_updated": "2026-09-08",
+  "total_articles": 138,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8797,7 +8797,7 @@
       "slug": "syngap1-synaptic-brake-intellectual-disability",
       "filename": "2026-09-07-syngap1-synaptic-brake-intellectual-disability.md",
       "article_type": "frontier_node",
-      "core_question": "SynGAP1 作为 Ras/Rap1 双 GTPase 抑制剂如何在突触静息状态维持低 Ras-ERK 活性（制动）？CaMKII 磷酸化如何触发 SynGAP1 从 PSD 弥散（解制动）并激活 Ras-ERK-AMPAR 插入轴完成 LTP 表达？SYNGAP1 单倍剂量不足为何导致"四重打击"（基础 Ras-ERK 升高 + 沉默突触过早耗尽 + LTP 堵塞 + 关键期提前关闭），从而产生智力障碍/ASD/癫痫三联征？成年期 SYNGAP1 剂量恢复是否有治疗窗口？",
+      "core_question": "SynGAP1 作为 Ras/Rap1 双 GTPase 抑制剂如何在突触静息状态维持低 Ras-ERK 活性（制动）？CaMKII 磷酸化如何触发 SynGAP1 从 PSD 弥散（解制动）并激活 Ras-ERK-AMPAR 插入轴完成 LTP 表达？SYNGAP1 单倍剂量不足为何导致\"四重打击\"（基础 Ras-ERK 升高 + 沉默突触过早耗尽 + LTP 堵塞 + 关键期提前关闭），从而产生智力障碍/ASD/癫痫三联征？成年期 SYNGAP1 剂量恢复是否有治疗窗口？",
       "layer": [
         "molecular",
         "synaptic",
@@ -8867,6 +8867,106 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-07；本文为前沿节点文章（PSD-95#136 直接推荐 SynGAP1 后续）；5个开放全文来源（PMC7046327, PMC4753466, PMC2925262, PMC12935682, PMC4642239），1个摘要仅读（PMID:9620694）；2个新 wiki 页面；3个 wiki 页修订；2个新未解问题（Q-syngap1-01, Q-syngap1-02）；无争议声明新增"
+    },
+    {
+      "date": "2026-09-08",
+      "real_date": "2026-06-10",
+      "article_number": 138,
+      "title": "当大脑的\"学习窗口\"再次开启：成年关键期重开的四条分子路径",
+      "slug": "critical-period-reopening",
+      "filename": "2026-09-08-critical-period-reopening.md",
+      "article_type": "regular",
+      "core_question": "成年大脑中，哪四条独立且相互补充的路径（PNN降解、Lynx1/nAChR胆碱能去制动、HDAC抑制/表观遗传重置、感觉剥夺/E-I再平衡）能重新打开已关闭的关键期？各路径在分子层面攻击哪个靶点？2021年发现的PTPσ-TRKB轴是否揭示了一个统一的下游汇聚机制？对SynGAP1等关键期提前关闭疾病，成年期主动重开是否可能成为治疗策略？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "2. 神经网络如何建成 → 3. 大脑如何编码世界（发育可塑性与成年干预；关键期关闭后的可逆性；承接#137 SynGAP1关键期提前关闭的治疗延伸）",
+      "topic_tags": [
+        "critical period",
+        "critical period reopening",
+        "adult plasticity",
+        "ocular dominance plasticity",
+        "perineuronal nets",
+        "PNN",
+        "ChABC",
+        "chondroitinase ABC",
+        "CSPGs",
+        "aggrecan",
+        "PTPσ",
+        "TRKB",
+        "Lynx1",
+        "nAChR",
+        "nicotinic acetylcholine receptor",
+        "physostigmine",
+        "HDAC inhibitor",
+        "trichostatin A",
+        "TSA",
+        "valproic acid",
+        "histone acetylation",
+        "dark rearing",
+        "dark exposure",
+        "fluoxetine",
+        "SSRI",
+        "amblyopia",
+        "strabismus",
+        "visual cortex",
+        "V1",
+        "parvalbumin interneuron",
+        "PV cells",
+        "GABA",
+        "excitatory inhibitory balance",
+        "Hensch",
+        "Pizzorusso",
+        "Morishita",
+        "Bavelier",
+        "Maya Vetencourt",
+        "Lesnikova",
+        "PTPsigma",
+        "BDNF",
+        "molecular brakes",
+        "ocular dominance columns",
+        "visual critical period",
+        "adult brain plasticity"
+      ],
+      "main_sources": [
+        "PMID:10724170 (Fagiolini & Hensch 2000, Nature, abstract only)",
+        "PMID:12424383 (Pizzorusso 2002, Science, abstract only)",
+        "PMID:16261181 (Hensch 2005, Nat Rev Neurosci, abstract only)",
+        "PMID:17329213 (Putignano 2007, Neuron, abstract only)",
+        "PMID:17694050 (He 2007, Nat Neurosci, abstract only)",
+        "PMID:18420937 (Maya Vetencourt 2008, Science, abstract only)",
+        "PMID:21068299 / PMC2992973 (Bavelier 2010, J Neurosci, open full text read)",
+        "PMID:21071629 / PMC3387538 (Morishita 2010, Science, open full text read)",
+        "PMID:22764251 (Beurdeley 2012, J Neurosci, abstract only)",
+        "PMID:33293360 / PMC7880295 (Lesnikova 2021, J Neurosci, open full text read)",
+        "PMID:33670945 (Carulli & Verhaagen 2021, Int J Mol Sci, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/critical-period-reopening.md",
+        "wiki/concepts/lynx1.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/critical-period.md (rev4→rev5): related新增critical-period-reopening、lynx1；连接节补充两条；source_articles新增",
+        "wiki/concepts/perineuronal-nets.md (rev2→rev3): related新增critical-period-reopening、lynx1；source_articles新增"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-cp-reopening-01",
+        "Q-cp-reopening-02"
+      ],
+      "next_suggested_topics": [
+        "trkb-bdnf-signaling: TRKB完整信号通路——TrkB磷酸化后PLCγ/MAPK/PI3K三分叉；不同配体（BDNF vs NT-4）的选择性；截短型TrkB的主导负性作用；BDNF/TrkB在PV细胞成熟和关键期中的双重角色",
+        "adult-neurogenesis-and-plasticity: 成年海马神经发生（dentate gyrus）是否也是一种成年'关键期'的类似机制——新生神经元在整合进回路前的高可塑性时间窗，以及BDNF/运动对这一窗口的影响",
+        "amblyopia-clinical-treatment: 弱视的临床治疗进展——传统遮蔽疗法 vs 双眼训练 vs 氟西汀临床试验；SSRI用于成人弱视的II期试验结果；结合关键期重开与行为训练的最新临床设计"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-08；直接回应Q-syngap1-02（成年期关键期干预可能性）；11个来源（3个开放全文读取）；2个新wiki页创建，2个修订；2个新未解问题；无争议声明新增；图谱：291节点，1654边"
     }
   ],
   "layer_coverage_recent": {

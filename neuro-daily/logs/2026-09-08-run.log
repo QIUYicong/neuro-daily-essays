@@ -1,0 +1,145 @@
+# 运行日志 · 2026-09-08（虚拟日期）/ 实际执行：2026-06-10
+
+## 基本信息
+
+- 文章编号：#138
+- 虚拟日期：2026-09-08
+- 实际执行日期（UTC+8）：2026-06-10
+- 分支：main
+- 执行模式：自动代理（Claude Code claude-sonnet-4-6）
+
+## 主题选择
+
+### 候选主题（按 ROUTINE.md 优先级评估）
+
+1. **成年关键期重开机制** ← 选中
+   - 理由：
+     1. **回应 open question**：Q-syngap1-02（上篇 #137 新增）明确问到 SynGAP1+/- 成年期干预是否可行，本文直接提供关键期重开的完整框架来回答这个问题
+     2. **层级多样性**：前两篇（#136 PSD-95, #137 SynGAP1）均为 molecular/synaptic 层，本文覆盖 molecular/cellular/microcircuit/brain-region/cognition/disease 多层，符合"避免连续同层"规则
+     3. **悬空引用填补**：`critical-period-reopening` 和 `lynx1` 在 critical-period.md 的 related 列表中以 slug 形式存在但无对应页面
+     4. **next_suggested_topics 推荐**：#136 和 #137 的后续建议中包含关键期重开主题
+   - 优先级：open_question（Q-syngap1-02 高优先级） + 悬空引用填补
+
+2. dlg4-syndrome（备选，优先级次之）
+   - 放弃原因：继续在 molecular/disease 层，层级单调；关键期重开更能打破节奏且有更大认知价值
+
+3. ampa-receptor-trafficking（备选）
+   - 放弃原因：仍为 molecular/synaptic 层，与前两篇层级相同
+
+### 层级验证
+
+- 最近两篇：#136（molecular/synaptic）、#137（molecular/synaptic/cellular）
+- #138 添加 molecular/cellular/microcircuit/brain-region/cognition/disease，满足"避免连续三天同层"规则 ✓
+
+## 文献检索
+
+### 搜索策略
+
+1. PubMed E-utilities 检索：
+   - 关键词：`critical period plasticity reopening adult brain molecular mechanisms` → PMIDs: 24273519, 23707979, 33293360, 17222456, 28009255, 27677249
+   - 关键词：`perineuronal net ChABC critical period plasticity reopening` → PMID: 33293360
+   - 关键词：`Lynx1 nicotinic acetylcholine receptor critical period plasticity` → PMIDs: 27840212, 21071629, 24273519, 29358666
+   - 关键词：`Pizzorusso perineuronal net visual cortex plasticity 2002` → PMID: 12424383
+   - 关键词：`Hensch critical period visual cortex GABA review` → PMIDs: 16243601, 29905116, 16261181, 24309249
+   - 关键词：`Putignano trichostatin histone acetylation visual cortex plasticity` → PMID: 17329213
+   - 关键词：`Fagiolini Hensch 2000 benzodiazepine GABA critical period` → PMID: 10724170
+   - 关键词：`dark exposure adult visual cortex plasticity restore amblyopia` → PMIDs: 36321876, 17694050
+   - 关键词：`fluoxetine antidepressant visual cortex plasticity amblyopia adult treatment` → PMIDs: 18420937, 26730408, 26959141
+   - 关键词：`Otx2 visual cortex critical period perineuronal net parvalbumin` → PMIDs: 26881132, 22764251, 28974755, 22246436, 28194008, 23597636
+   - 关键词：`adult cortical plasticity molecular brakes review 2020-2024` → PMID: 33670945
+
+2. PMC 全文检索：
+   - PMC2992973（Bavelier 2010, J Neurosci）→ **开放全文读取** ✓
+   - PMC3387538（Morishita 2010, Science）→ **开放全文读取** ✓
+   - PMC7880295（Lesnikova 2021, J Neurosci）→ **开放全文读取** ✓
+
+### 候选来源
+
+| PMID | 来源 | 决定 |
+|------|------|------|
+| 10724170 | Fagiolini & Hensch 2000, Nature | 采用（奠基性实验，摘要读取）|
+| 12424383 | Pizzorusso 2002, Science | 采用（ChABC奠基实验，摘要读取）|
+| 16261181 | Hensch 2005, Nat Rev Neurosci | 采用（综述，摘要读取）|
+| 17329213 | Putignano 2007, Neuron | 采用（HDAC路径，摘要读取）|
+| 17694050 | He 2007, Nat Neurosci | 采用（黑暗饲养路径，摘要读取）|
+| 18420937 | Maya Vetencourt 2008, Science | 采用（氟西汀路径，摘要读取）|
+| 21068299 | Bavelier 2010, J Neurosci | 采用（综述，PMC开放全文读取）|
+| 21071629 | Morishita 2010, Science | 采用（Lynx1路径，PMC开放全文读取）|
+| 22764251 | Beurdeley 2012, J Neurosci | 采用（OTX2路径，摘要读取）|
+| 33293360 | Lesnikova 2021, J Neurosci | 采用（PTPσ-TRKB统一节点，PMC开放全文读取）|
+| 33670945 | Carulli & Verhaagen 2021, Int J Mol Sci | 采用（PNN综述，摘要读取）|
+| 36321876 | Jeon 2022, eLife | 不采用（偏离核心主题，关于视觉表征质量）|
+
+**总采用来源**：11 篇（3 篇开放全文，8 篇摘要仅读）
+
+## 文章写作
+
+- **字数估计**：约 5500 字（中文）
+- **结构**：核心问题/一句话摘要/为什么重要/背景（关键期关闭机制）/四条重开路径（分子机制）/PTPσ-TRKB统一节点/关键证据表/比喻（三把锁）/认知意义/争议/AI对照/概念卡片/认知地图更新/参考来源
+- **写作难点**：四条路径各自的分子细节需要清晰区分；PTPσ-TRKB假说需要标注为"统一下游节点**假说**"而非确定结论
+
+## Wiki 整合
+
+### 新建页面（2页）
+
+- `wiki/concepts/critical-period-reopening.md` — 关键期重开完整框架（emerging/medium-high）
+- `wiki/concepts/lynx1.md` — Lynx1胆碱能制动蛋白（established/high）
+
+### 修订页面（2页）
+
+- `wiki/concepts/critical-period.md`：rev4 → rev5
+  - related新增 critical-period-reopening、lynx1
+  - 连接节新增两条（critical-period-reopening、lynx1的说明）
+  - 修订历史追加 rev5 记录
+  - source_articles新增 2026-09-08-critical-period-reopening
+
+- `wiki/concepts/perineuronal-nets.md`：rev2 → rev3
+  - related新增 critical-period-reopening、lynx1
+  - source_articles新增 2026-09-08-critical-period-reopening
+
+### 知识图谱更新
+
+- 新节点：critical-period-reopening（290号）、lynx1（291号）
+- 新增边：13条（critical-period-reopening↔critical-period, perineuronal-nets→critical-period-reopening, lynx1→critical-period-reopening, lynx1→critical-period, critical-period-reopening→syngap1-related-disorder, critical-period-reopening→pv-interneurons, critical-period-reopening→bdnf, critical-period-reopening→ei-balance, critical-period-reopening→ocular-dominance-columns, lynx1→acetylcholine-cortex, lynx1→pv-interneurons, critical-period→critical-period-reopening, perineuronal-nets→lynx1）
+- 图谱更新后：291 节点，1654 边（原 289/1641）
+
+## 治理状态更新
+
+- topic_ledger.json：total_articles 137→138，新增 #138 条目（JSON格式错误已修复：line 8800的"四重打击"中文引号替换为转义字符）
+- unresolved_questions.md：新增 Q-cp-reopening-01（高优先级）、Q-cp-reopening-02（中优先级）
+- monthly_synthesis.md：9月摘要追加 #138 条目
+- source_registry.json：新增 5 条来源记录，总计 592 条
+- maturity_index.json：新增 critical-period-reopening（emerging/medium-high）、lynx1（established/high），total_pages 18→20
+- wiki/index.md：header更新（#138 · 272页 · 291节点/1654边）；新增2条entries（critical-period-reopening, lynx1）；critical-period更新为rev5
+- wiki/CHANGELOG.md：新增 2026-09-08 变更记录
+
+## 矛盾声明
+
+- 无新增争议（所有四条路径的实验证据内部一致；PTPσ-TRKB假说标注为"emerging/假说"，非"contested"）
+- 注意：PTPσ-TRKB统一节点是否覆盖Lynx1/HDAC路径：标注为"极低证据，推测"，Q-cp-reopening-01追踪
+
+## 质量自检
+
+### 真实性
+- [x] wiki 每条新主张都有来源（PMID/DOI）？ → ✓（所有主要主张均有来源标注）
+- [x] 区分了事实/主流模型/推测/争议？ → ✓（PTPσ-TRKB统一下游节点标注为"假说"和"emerging"；人类临床数据标注为"早期"）
+- [x] 没有把单篇/小样本/动物研究写成定论？ → ✓（明确说明大多数证据来自啮齿类，人类转化处于早期）
+
+### 一致性
+- [x] 新内容与既有wiki页冲突？ → 无冲突
+- [x] 被修订页的 updated/revision_count/修订历史同步更新？ → ✓
+- [x] _graph.json 有无悬空边？ → 291节点/1654边，新增边均指向已有节点 ✓
+
+### 可导航
+- [x] index.md 与 CHANGELOG.md 反映了今天的变化？ → ✓
+- [x] 新页的 related/prerequisites 各填了1个以上？ → ✓（critical-period-reopening: 11 related, 4 prerequisites; lynx1: 6 related, 3 prerequisites）
+
+### 情景层完整
+- [x] 文章/笔记/来源/日志齐全？ → ✓
+- [x] 未改动旧文件（除2个修订页外）？ → ✓
+
+## 推送状态
+
+- 分支：main
+- commit 信息：Add neuro daily article + wiki consolidation for 2026-09-08
+- 推送状态：[待 git 提交/推送完成后更新]

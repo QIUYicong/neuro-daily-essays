@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "node_count": 287,
   "edge_count": 1628,
   "edge_types": [
@@ -2618,6 +2618,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/syngap1-related-disorder.md"
+    },
+    {
+      "id": "critical-period-reopening",
+      "title": "关键期重开",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium-high",
+      "page": "wiki/concepts/critical-period-reopening.md"
+    },
+    {
+      "id": "lynx1",
+      "title": "Lynx1 胆碱能制动蛋白",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/lynx1.md"
     }
   ],
   "edges": [
@@ -11378,6 +11396,71 @@
       "from": "psd-95",
       "to": "syngap1",
       "type": "regulates"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "critical-period",
+      "type": "part-of"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "critical-period-reopening",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "lynx1",
+      "to": "critical-period-reopening",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "lynx1",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "syngap1-related-disorder",
+      "type": "related"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "bdnf",
+      "type": "related"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "ocular-dominance-columns",
+      "type": "related"
+    },
+    {
+      "from": "lynx1",
+      "to": "acetylcholine-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "lynx1",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "critical-period",
+      "to": "critical-period-reopening",
+      "type": "related"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "lynx1",
+      "type": "related"
     }
   ],
   "dangling_references": [
