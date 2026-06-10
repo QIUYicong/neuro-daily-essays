@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-11",
-  "total_articles": 124,
+  "last_updated": "2026-09-12",
+  "total_articles": 142,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9182,6 +9182,79 @@
         "prefrontal-cortex-memory-consolidation: PFC 完整角色——PFC 印迹成熟机制；ACC 远期记忆储存；PFC 涟漪顶-下门控（Q-cls-cortical-gating-01）",
         "trkb-bdnf-signaling: TRKB 完整信号通路；截短型 TrkB；BDNF-PV-关键期-AHN 三重角色（Q-cp-reopening-01 分子背景）",
         "adult-neurogenesis-memory: AHN 与记忆——模式分离、系统性再巩固（Lei 2025）、BDNF→AHN 轴、应激与抑郁"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "real_date": "2026-06-10",
+      "article_number": 142,
+      "title": "TrkB：隐藏在三个故事里的分子开关",
+      "slug": "trkb-receptor-three-roles",
+      "filename": "2026-09-12-trkb-receptor-three-roles.md",
+      "article_type": "regular",
+      "core_question": "为什么同一个受体（TrkB）在三个截然不同的场景中执行精确的时间判决？PV细胞成熟时钟（Huang 1999）：BDNF→TrkB→GABAergic成熟加速→关键期提前开启；关键期分子闸门（Lesnikova 2021）：PNN-PTPσ持续去磷酸化TrkB→关键期维持关闭；成年新生神经元4-6周存活判决（PNAS 2008）：TrkB→PI3K/Akt→抗凋亡信号。统一解释：三条下游通路（PLCγ/MAPK-ERK/PI3K-Akt）在不同细胞类型和发育时间窗内被选择性调用。2024年新发现：TrkB跨膜域是氟西汀/氯胺酮的共同变构靶点（Li 2024）。2026年：TrkB/mGluR5双模式交叉对话（Arefin 2026）。",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "4. 学习和记忆 → 突触可塑性分子机制 → TrkB受体（BDNF主受体；PV细胞成熟；关键期闸门；AHN存活；抗抑郁药靶点）",
+      "topic_tags": [
+        "TrkB receptor",
+        "NTRK2",
+        "BDNF",
+        "neurotrophin receptor",
+        "receptor tyrosine kinase",
+        "PV interneurons",
+        "GABAergic maturation",
+        "critical period",
+        "perineuronal nets",
+        "PTPsigma",
+        "PNN-TrkB axis",
+        "adult hippocampal neurogenesis",
+        "survival decision",
+        "PI3K/Akt",
+        "MAPK/ERK",
+        "PLCgamma",
+        "TrkB transmembrane domain",
+        "fluoxetine allosteric",
+        "ketamine allosteric",
+        "antidepressant mechanism",
+        "TrkB.T1",
+        "truncated TrkB",
+        "mGluR5 cross-talk",
+        "LTP L-LTP",
+        "Huang 1999",
+        "Lesnikova 2021",
+        "Li 2024",
+        "Arefin 2026"
+      ],
+      "main_sources": [
+        "PMID:10499792",
+        "PMID:33293360",
+        "PMID:36944718",
+        "PMID:18832146",
+        "PMID:38433044",
+        "PMID:42066082",
+        "PMID:42249912",
+        "PMID:22341689",
+        "PMID:8627351",
+        "PMID:12676795",
+        "PMID:15689544",
+        "PMID:41729684"
+      ],
+      "unresolved_questions": [
+        "Q-trkb-01",
+        "Q-trkb-02",
+        "Q-trkb-03"
+      ],
+      "next_suggested_topics": [
+        "pv-interneurons-circuits: PV细胞完整回路角色——快速前馈抑制/GABA-E/I平衡/关键期/精神分裂症（从今日TrkB→PV成熟时钟延伸）",
+        "perineuronal-nets-plasticity: PNN完整功能——ECM稳定/关键期锁定/ChABC重开可塑性/ASD-SCZ病理（从今日PNN-PTPσ-TrkB轴延伸）",
+        "critical-period-reopening-mechanisms: 关键期重开完整策略——ChABC/fluoxetine/环境丰化/TrkB跨膜药物（从今日闸门机制延伸）"
       ]
     }
   ],

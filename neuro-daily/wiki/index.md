@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-11（**#141**·皮层记忆印迹的诞生——Kitamura 2017 颠覆"记忆漂移"图像：皮层印迹在学习当天已形成但初始沉默；Refaeli 2023 电路重组（CA1→ACC↑，ACC→CA1↓，EC/PVT↑）；Roy 2016 早期AD沉默印迹=提取障碍；Lei 2025 系统性再巩固的新印迹机制）· 主题页总数：**274**（新建1页：engram-systems-consolidation；修订3页：engram-cells rev7 · memory-consolidation rev10；图谱293节点、1671边）
+> 最后更新：2026-09-12（**#142**·TrkB受体的三重角色——PV细胞成熟时钟（Huang 1999）、PNN-PTPσ-TrkB关键期闸门（Lesnikova 2021）、成年海马新生神经元4-6周TrkB依赖存活判决（PNAS 2008）；TrkB跨膜域作为多类抗抑郁药共同变构靶点（Li 2024）；TrkB/mGluR5双模式交叉对话（Arefin 2026）；截断型TrkB.T1的主动信号功能扩展）· 主题页总数：**275**（新建1页：trkb-receptor；修订2页：bdnf rev4 · adult-neurogenesis rev5；图谱294节点、1683边）
 
 ---
 

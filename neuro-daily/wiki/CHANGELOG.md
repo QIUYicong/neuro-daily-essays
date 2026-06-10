@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-09-12（文章 #142：TrkB受体的三重角色）
+
+**今日主题：** TrkB受体结构（Y490/Y816磷酸化节点，三通路）、PV细胞成熟时钟（Huang 1999）、PNN-PTPσ-TrkB关键期闸门（Lesnikova 2021）、成年海马新生神经元4-6周存活判决（PNAS 2008）、TrkB跨膜域变构靶点（Li 2024）、TrkB/mGluR5交叉对话（Arefin 2026）、截断型TrkB.T1独立信号功能
+
+**新建 wiki 页面（1 个）：**
+- `wiki/concepts/trkb-receptor.md`（新建，rev1）：TrkB受体完整机制页；三通路分工表（MAPK/ERK、PI3K/Akt、PLCγ）；PNN-PTPσ封锁机制；TrkB.T1主动信号功能表；三个生理角色（PV细胞时钟/关键期闸门/AHN存活判决）；Q-trkb-01/02/03新增；confidence=high（基础结构/三通路），medium（TrkB.T1独立信号/2026新发现）
+
+**修订 wiki 页面（2 个）：**
+- `wiki/concepts/bdnf.md`（rev3→rev4）：新增TrkB跨膜域作为多类抗抑郁药变构靶点段落（Li 2024，PMID:38433044）；新增TrkB/mGluR5双模式交叉对话段落（Arefin 2026，PMID:42066082）；related新增trkb-receptor；key_sources新增2条
+- `wiki/concepts/adult-neurogenesis.md`（rev4→rev5）：新增"TrkB依赖的存活判决"子节（PI3K/Akt→Bcl-2抗凋亡；TrkB KO→焦虑；抗抑郁药增殖 vs BDNF/TrkB存活的分工）；related新增trkb-receptor；key_sources新增PMID:18832146、PMID:15689544
+
+**登记或裁决矛盾：** 无新矛盾（TrkB.T1的dominant negative vs 主动信号争议已在既有contested_claims登记框架外；作为已知概念扩展而非新矛盾处理，因为两种功能在不同实验系统中均有证据支持）
+
+**新增悬空引用（待补）：** 无（本次新建trkb-receptor填补了bdnf/adult-neurogenesis等页面的关键引用空缺；synaptic-transmission已有页面）
+
+**图谱变化：** 293→294节点（+1：trkb-receptor），1671→1683边（+12）
+
+**新增未解问题（3条）：**
+- Q-trkb-01（高优先）：TrkB.T1在体内 dominant negative vs 独立Rho信号的功能平衡——细胞类型和发育阶段依赖性如何分布
+- Q-trkb-02（中优先）：人类PNN-PTPσ-TrkB轴与认知老化的关系——是否部分解释成年认知灵活性下降
+- Q-trkb-03（中优先）：TrkB跨膜域不同抗抑郁药的差异性变构构象——是否产生不同的下游效应器激活模式
+
+---
+
 ## 2026-09-11（#141 · 皮层记忆印迹的诞生：当"沉默"走向"成熟"）
 
 **新建页面（1页）**：

@@ -6,14 +6,14 @@ type: mechanism
 status: emerging
 confidence: medium
 created: 2026-06-26
-updated: 2026-09-09
-revision_count: 4
+updated: 2026-09-12
+revision_count: 5
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, neurogenesis-induced-forgetting, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf, cortical-neurogenesis, depression]
+related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, neurogenesis-induced-forgetting, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf, trkb-receptor, cortical-neurogenesis, depression]
 prerequisites: [hippocampal-circuit, ltp, pattern-separation]
 opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-neurogenesis-AD, Q-gaba-switch-timing, Q-ahn-01, Q-ahn-02]
 source_articles: [2026-06-26-adult-neurogenesis-dentate-gyrus]
-key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133", "PMID:34137370", "PMID:40816272", "PMID:24812394", "PMID:26637288", "PMID:36875670", "DOI:10.3389/fnins.2025.1709208"]
+key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133", "PMID:34137370", "PMID:40816272", "PMID:24812394", "PMID:26637288", "PMID:36875670", "DOI:10.3389/fnins.2025.1709208", "PMID:18832146", "PMID:15689544"]
 ---
 
 # 成年神经发生 (Adult Neurogenesis)
@@ -67,6 +67,18 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 - 高输入阻抗（小电流 → 大电压变化）
 - 对 NMDA 受体拮抗剂高度敏感
 
+### 四b、TrkB依赖的存活判决（分子层）
+
+4-6周的关键期同时是TrkB依赖的**存活判决窗口**（PNAS 2008, PMID:18832146）：
+
+- 整合期的新生神经元接受苔藓纤维区域释放的BDNF→TrkB激活
+- **TrkB→PI3K/Akt→Bcl-2/Bcl-xL**：抗凋亡，使细胞通过存活筛选
+- **TrkB→MAPK/ERK→CREB**：驱动树突分支和突触形成，加速整合
+- 条件性TrkB KO（成年SGZ前体后代）→树突复杂性↓、突触整合失败→最终大批凋亡→焦虑样行为↑
+- **抗抑郁药增加增殖（进水量），BDNF/TrkB控制长期存活（存活筛选）**——两者分工明确（Scharfman 2005, PMID:15689544）
+
+这意味着：神经发生的功能输出不仅取决于产生多少新细胞，还取决于TrkB信号在整合期是否充分。活动剥夺和慢性应激通过降低BDNF→TrkB信号同时损害两个阶段。
+
 ### 五、前馈抑制与模式分离（微回路层）
 
 新生颗粒细胞激活 → PV+ 篮状细胞激活 → 成熟颗粒细胞受抑制 → 表征更稀疏 → 模式分离↑
@@ -109,6 +121,7 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 
 ## 修订历史
 
+- 2026-09-12 · 修订 rev5 · 基于《TrkB：隐藏在三个故事里的分子开关》(#142) · 新增"TrkB依赖的存活判决"子节（PI3K/Akt→Bcl-2抗凋亡；ERK→CREB→树突分支；TrkB KO→焦虑；抗抑郁药增殖 vs BDNF/TrkB存活的分工）；key_sources 新增 PMID:18832146、PMID:15689544；related 新增 trkb-receptor
 - 2026-09-09 · 修订 rev4 · 基于《成人大脑的秘密育儿所》(#139) · 新增遗忘功能段落（Akers 2014 双向因果）；新增"数量 vs 活性解耦"认识（Betters 2025 氯胺酮活性依赖）；Bax KO 凋亡率更新（60-80%）；证据表新增 2 行；连接新增 neurogenesis-induced-forgetting、depression；opens_questions 新增 Q-ahn-01、Q-ahn-02；key_sources 新增 4 条
 - 2026-08-09 · 修订 · 基于《皮层的诞生》（第 108 篇）· 新增 [[cortical-neurogenesis]] 连接（胚性 vs 成年神经发生对比）；更新 related 字段
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 悬空引用 [[bdnf]] 已建页；补充 BDNF 通过 PI3K/Akt 和 MAPK/ERK 双通路支持新生颗粒细胞存活与分化的具体机制描述

@@ -3785,3 +3785,33 @@
   - 问题 A：能否利用神经外科手术机会（颅内电极）在人类中追踪学习后数天至数周的印迹细胞动态（稳定性、选择性）？
   - 问题 B：fMRI 多体素模式分析（MVPA）是否可以作为"非侵入性印迹成像"工具，追踪皮层记忆表征的形成和成熟？
 - **当前证据状态**：人类概念细胞（中，间接）；fMRI 皮层重激活（中，间接）；直接人类印迹实验（缺失）
+
+### Q-trkb-01（高优先级）：TrkB.T1在体内的功能平衡——dominant negative vs. 独立Rho GTPase信号
+
+- **关联 wiki**：[[trkb-receptor]]、[[adult-neurogenesis]]、[[bdnf]]
+- **来源文章**：2026-09-12-trkb-receptor-three-roles
+- **问题**：TrkB.T1缺失激酶域，但通过胞内短尾激活Rho GEF，独立调控突起形态（Gomes 2012）；同时作为dominant negative抑制全长TrkB（Eide 1996）。Paulo-Ramos 2026（PMID:41729684）在SOD1^G93A小鼠显示TrkB.T1缺失延迟ALS表型。
+  - 问题 A：在同一细胞内，dominant negative功能和独立Rho GTPase信号哪个主导？这一平衡是否取决于细胞类型（神经元 vs. 星形胶质细胞）、发育阶段（胚胎 vs. 成体）和TrkB.T1表达水平？
+  - 问题 B：TrkB.T1在星形胶质细胞中大量表达——其BDNF sequestration功能是否构成调节突触局部BDNF浓度梯度的主要机制？不同脑区星形胶质细胞TrkB.T1密度差异是否解释了区域BDNF可用性差异？
+  - 问题 C：TrkB.T1在病理条件（如ALS、AD、抑郁症）下是否发生选择性上调或下调？其水平变化是保护性（减少excess TrkB信号）还是损害性（降低BDNF有效浓度）？
+- **当前证据状态**：dominant negative（高，体外；Eide 1996）；独立Rho GTPase信号（中，细胞系；Gomes 2012）；ALS病理（中，单物种；Paulo-Ramos 2026）；体内平衡（低，未直接测量）
+
+### Q-trkb-02（中优先级）：人类PNN-PTPσ-TrkB轴与认知老化的关系
+
+- **关联 wiki**：[[trkb-receptor]]、[[perineuronal-nets]]、[[critical-period]]、[[pv-interneurons]]
+- **来源文章**：2026-09-12-trkb-receptor-three-roles
+- **问题**：PNN随年龄在皮层（特别是PV细胞周围）逐渐沉积，PTPσ通过去磷酸化TrkB封锁可塑性。成年认知灵活性下降是否部分由此轴的增强解释？
+  - 问题 A：人类死后脑组织研究——PNN密度、PTPσ-TrkB相互作用强度是否与认知灵活性测量（生前神经心理测试得分）相关？
+  - 问题 B：在年龄相关PNN沉积增加的背景下，是否存在"TrkB活性年龄曲线"？老年人海马或前额叶TrkB磷酸化水平是否系统性低于年轻人？
+  - 问题 C：ChABC/fluoxetine在老年动物模型中是否能有效恢复认知灵活性（reversal learning）？如果是，效果大小是否与PNN降解程度相关？
+- **当前证据状态**：啮齿类PNN-PTPσ-TrkB机制（高）；fluoxetine-PV-TrkB认知灵活性（高，小鼠；PMID:36944718）；人类年龄相关（低，间接推断）
+
+### Q-trkb-03（中优先级）：TrkB跨膜域不同药物结合的功能差异
+
+- **关联 wiki**：[[trkb-receptor]]、[[bdnf]]、[[critical-period-reopening]]
+- **来源文章**：2026-09-12-trkb-receptor-three-roles
+- **问题**：Li 2024（PMID:38433044）证明氟西汀、氯胺酮、LSD等均结合TrkB跨膜域同一区域。但这些药物的临床效果截然不同（SSRI需4-6周起效；氯胺酮数小时；LSD数小时致幻）。
+  - 问题 A：不同药物结合TrkB跨膜域后，是否产生不同的变构构象变化（conformational fingerprint）？结构生物学方法（cryo-EM/FRET）能否分辨氟西汀-TrkB和氯胺酮-TrkB结合状态？
+  - 问题 B：不同变构构象是否选择性激活下游不同效应器（偏向性信号传导，biased agonism）？氯胺酮快速效应是否因为它偏向激活PLCγ→CaMKII（快速突触）而非ERK→CREB（基因转录需数小时）？
+  - 问题 C：TrkB/mGluR5双模式交叉对话（Arefin 2026）——氯胺酮增加TrkB表面表达（前向转运，依赖Y433）的机制是否与fluoxetine相同？两者在驱动mGluR5内吞和抑制mGluR-LTD上是否有定量差异？
+- **当前证据状态**：共同跨膜域结合位点（中，体外+动物；综述）；变构构象差异（极低，无直接结构数据）；偏向信号（推测，无直接证据）；TrkB/mGluR5（中，2026年单团队）

@@ -313,6 +313,16 @@
       "last_changed": "2026-09-08",
       "change_reason": "新建页面：Morishita 2010 发现完整，方法学严格，nAChR 机制有强因果验证，定为 established/high",
       "revision_count": 1
+    },
+    "trkb-receptor": {
+      "slug": "trkb-receptor",
+      "title": "TrkB受体",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-09-12",
+      "change_reason": "新建（2026-09-12 #142）：基础结构（三通路/Y490/Y816）和三个核心功能（PV成熟/关键期闸门/AHN存活）均有高置信度小鼠实验支持；TrkB.T1独立信号和2026年新发现（mGluR5交叉对话）为 medium（待独立重复）；整体评为 established/high",
+      "previous_status": null,
+      "source_article": "2026-09-12-trkb-receptor-three-roles"
     }
   },
   "credit-assignment": {

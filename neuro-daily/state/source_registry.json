@@ -10388,6 +10388,169 @@
         "new hippocampal engram",
         "adult hippocampal neurogenesis in reconsolidation"
       ]
+    },
+    {
+      "pmid": "36944718",
+      "title": "TrkB in PV interneurons mediates fluoxetine-induced improvement in reversal learning",
+      "authors_short": "Karpova NN et al.",
+      "journal": "Neuropsychopharmacology",
+      "year": 2023,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "PV-TrkB cKO",
+        "reversal learning",
+        "cognitive flexibility fluoxetine"
+      ]
+    },
+    {
+      "pmid": "18832146",
+      "title": "TrkB regulates adult hippocampal neurogenesis and spatial memory",
+      "authors_short": "Bergami M et al.",
+      "journal": "PNAS",
+      "year": 2008,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "AHN TrkB survival",
+        "4-6 week integration",
+        "PI3K Akt antiapoptotic",
+        "anxiety cKO"
+      ]
+    },
+    {
+      "pmid": "38433044",
+      "title": "TrkB transmembrane domain as common allosteric target for antidepressants",
+      "authors_short": "Li Z et al.",
+      "journal": "Trends in Biochemical Sciences",
+      "year": 2024,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "TrkB transmembrane allosteric",
+        "fluoxetine ketamine LSD direct binding",
+        "cholesterol interface"
+      ]
+    },
+    {
+      "pmid": "42066082",
+      "pmcid": "PMC13134641",
+      "title": "Dual-mode TrkB-mGluR5 cross-talk",
+      "authors_short": "Arefin AS et al.",
+      "journal": "Science Advances",
+      "year": 2026,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "TrkB mGluR5 cross-talk",
+        "ERK synergy",
+        "mGluR5 endocytosis",
+        "mGluR-LTD suppression",
+        "ketamine Y433"
+      ]
+    },
+    {
+      "pmid": "42249912",
+      "pmcid": "PMC13105406",
+      "title": "Cryo-EM structure of TrkB-BDNF complex",
+      "authors_short": "Zhang Y et al.",
+      "journal": "Nat Struct Mol Biol",
+      "year": 2026,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "TrkB cryo-EM structure",
+        "BDNF Ig2 binding",
+        "Y490 Y816 sites"
+      ]
+    },
+    {
+      "pmid": "22341689",
+      "title": "TrkB.T1 activates Rho GTPase independently",
+      "authors_short": "Gomes RA et al.",
+      "journal": "J Neurosci",
+      "year": 2012,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "TrkB.T1 Rho GTPase",
+        "filopodia",
+        "astrocyte independent signaling"
+      ]
+    },
+    {
+      "pmid": "8627351",
+      "title": "TrkB and TrkC in CNS neurons (dominant negative TrkB.T1)",
+      "authors_short": "Eide FF et al.",
+      "journal": "J Neurosci",
+      "year": 1996,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "TrkB.T1 dominant negative",
+        "truncated heterodimer"
+      ]
+    },
+    {
+      "pmid": "12676795",
+      "title": "BDNF-TrkB signaling pathways Y490 Y816",
+      "authors_short": "Bhattacharyya A et al.",
+      "journal": "Neuron",
+      "year": 2003,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "TrkB Y490 MAPK PI3K",
+        "TrkB Y816 PLCgamma",
+        "three pathways"
+      ]
+    },
+    {
+      "pmid": "15689544",
+      "title": "BDNF promotes newborn granule cell survival and dendritic branching",
+      "authors_short": "Scharfman HE et al.",
+      "journal": "Eur J Neurosci",
+      "year": 2005,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "BDNF AHN survival",
+        "dendritic growth TrkB"
+      ]
+    },
+    {
+      "pmid": "41729684",
+      "pmcid": "PMC13242386",
+      "title": "TrkB.T1 deletion delays ALS in SOD1 G93A mice",
+      "authors_short": "Paulo-Ramos A et al.",
+      "journal": "Brain Research",
+      "year": 2026,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-trkb-receptor-three-roles.md"
+      ],
+      "aspects_covered": [
+        "TrkB.T1 ALS protective",
+        "SOD1 G93A motor neuron"
+      ]
     }
   ],
   "total_sources": 592,
@@ -11800,7 +11963,7 @@
     "36786655",
     "NBK10867-hair-cells-bookshelf"
   ],
-  "total_count": 413,
+  "total_count": 621,
   "additions_2026-07-20": [
     "1012311",
     "11130706",
@@ -11858,7 +12021,7 @@
     "38396258",
     "36062909"
   ],
-  "_last_updated": "2026-08-08",
+  "_last_updated": "2026-09-12",
   "additions_2026-07-31": [
     "12422216",
     "15113265",
@@ -12390,5 +12553,19 @@
       ],
       "article": "2026-09-07"
     }
+  ],
+  "additions_2026-09-12": [
+    "10499792",
+    "33293360",
+    "36944718",
+    "18832146",
+    "38433044",
+    "42066082",
+    "42249912",
+    "22341689",
+    "8627351",
+    "12676795",
+    "15689544",
+    "41729684"
   ]
 }
