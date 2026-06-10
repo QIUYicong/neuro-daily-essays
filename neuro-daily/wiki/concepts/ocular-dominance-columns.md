@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-15
-updated: 2026-08-15
-revision_count: 1
+updated: 2026-09-05
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, systems, cognition]
-related: [v1-primary-visual-cortex, critical-period, retinal-waves, pv-interneurons, perineuronal-nets, ltp, ltd, silent-synapse, bdnf, thalamocortical-axons, ei-balance, orientation-selectivity, homeostatic-plasticity]
+related: [v1-primary-visual-cortex, critical-period, critical-period-plasticity, retinal-waves, pv-interneurons, perineuronal-nets, ltp, ltd, silent-synapse, bdnf, thalamocortical-axons, ei-balance, orientation-selectivity, homeostatic-plasticity, synaptic-scaling]
 prerequisites: [synaptic-transmission, ltp, ltd, critical-period, v1-primary-visual-cortex, thalamocortical-axons]
 opens_questions: [Q-odc-01, Q-odc-02, Q-odc-03]
-source_articles: [2026-08-15-ocular-dominance-columns-visual-critical-period]
-key_sources: ["PMID:22841309", "PMID:32765222", "PMID:23975100", "PMID:39036421", "PMID:11861172"]
+source_articles: [2026-08-15-ocular-dominance-columns-visual-critical-period, 2026-09-05-odp-stage2-hebbian-vs-homeostatic]
+key_sources: ["PMID:22841309", "PMID:32765222", "PMID:23975100", "PMID:39036421", "PMID:11861172", "PMID:18549780", "PMID:22232689", "PMID:26015564", "PMID:15603735", "PMID:41240337"]
 ---
 
 # 眼优势柱 (Ocular Dominance Columns, ODC)
@@ -54,9 +54,10 @@ key_sources: ["PMID:22841309", "PMID:32765222", "PMID:23975100", "PMID:39036421"
 - NMDAR 不足激活（低 Ca²⁺）→ PP2B/PP1 激活 → GluA2 AMPAR 内吞 → 剥夺眼突触权重↓
 - 不依赖蛋白质合成；阻断 NMDAR 或 AMPAR 内吞均阻止阶段一
 
-**阶段二：开放眼 LTP + 稳态缩放（MD 第 3–7 天）**
-- NMDAR 充分激活（高 Ca²⁺）→ CaMKII 激活 → GluA1 磷酸化 → AMPAR 插入 → 开放眼突触权重↑
-- 稳态缩放（TNFα 介导）：总活动下降 → 全局上调 AMPAR 密度 → 维持活动稳态
+**阶段二：开放眼增强（MD 第 3–7 天）——两机制协同（2026-09-05 更新，见 C-2026-08-15-01）**
+- *稳态许可信号*（先）：整体活动下降 → 星形胶质细胞 TNFα → TNFR1 → PI3K/PKA → GluA1-AMPAR 全局乘法性插入；TNFα KO 特异性阻断第二阶段（Kaneko 2008, PMID:18549780）；幼年专用（成年不需 TNFα）
+- *Hebbian LTP 精修*（后）：开放眼视觉活动 + TNFα 抬升兴奋性背景 → NMDAR 充分激活 → Ca²⁺ → CaMKII → GluA1 AMPAR 插入沉默突触（PSD-95 依赖）→ 开放眼路径特异性增强；PSD-95 KO 减弱 Stage 2，无限延长关键期（Huang 2015, PMID:26015564）
+- 稳态缩放是许可机制，Hebbian LTP 是特异性精修机制；两者缺一不可（见矛盾登记 C-2026-08-15-01）
 - 依赖 BDNF-TrkB 信号和蛋白质合成
 
 ### 3. 沉默突触的开锁（AMPA/NMDA 比值上升）
@@ -82,8 +83,11 @@ key_sources: ["PMID:22841309", "PMID:32765222", "PMID:23975100", "PMID:39036421"
 | MD 后 PV+ 活动先于锥体细胞下降（~24h） | 双光子 Ca 成像 | PMID:23975100 | 高 |
 | ChR2 维持 PV+→OD 偏移被阻止 | 光遗传 + VEP | PMID:23975100 | 高 |
 | ODP 阶段一（剥夺眼）：NMDAR-LTD，不依赖蛋白质合成 | APV/放线菌素 D/AMPAR 内吞阻断 | PMID:22841309 | 高 |
-| ODP 阶段二（开放眼）：BDNF-TrkB 依赖；TNFα KO 破坏稳态缩放 | TrkB KO + TNFα KO + VEP | PMID:22841309 | 高 |
-| 沉默突触开锁→AMPA/NMDA 比值 ~0.3→~2 | 单突触电生理 | PMID:32765222 (综述) | 中-高 |
+| ODP 阶段二：TNFα KO 特异性阻断开放眼增强，第一阶段正常 | TNFα KO + VEP/单细胞 | PMID:18549780, PMC2884387 | 高 |
+| ODP 阶段二（幼年）需要稳态机制；成年需要 CaMKII 而非 TNFα | 年龄对比 + TNFα KO | PMID:22232689, PMC3268335 | 高 |
+| PSD-95 KO 无限延长关键期；AMPA/NMDA 比值升高减弱 | PSD-95 KO + ODP P90+ | PMID:26015564, PMC4475980 | 高 |
+| 沉默突触开锁→AMPA/NMDA 比值 ~0.3→~2 | 单突触电生理 | PMID:32765222, PMC7380267 | 中-高 |
+| 丘脑 CaV3.1 爆发放电驱动弱视逆转中开放眼增强 | 光遗传+TTX+CaV3.1 KO | PMID:41240337, PMC12723367 | 中（新发现）|
 | Long-Evans 大鼠有 ODC；白化大鼠无 | 解剖+功能成像 | PMID:39036421 | 中-高 |
 
 ## 连接
@@ -97,7 +101,10 @@ key_sources: ["PMID:22841309", "PMID:32765222", "PMID:23975100", "PMID:39036421"
 - [[bdnf]] — TrkB 信号驱动开放眼阶段二增强；依赖蛋白质合成
 - [[perineuronal-nets]] — PNN 封印关键期结束，固化 ODC 最终格局
 - [[thalamocortical-axons]] — TCA 是 ODC 形成的物质基础；TCA 到达 V1 Layer 4 是 ODC 竞争的前提
-- [[homeostatic-plasticity]] — 稳态突触缩放是 ODP 阶段二的并行机制（TNFα 介导）
+- [[homeostatic-plasticity]] — 稳态突触缩放是 ODP 阶段二的许可机制（TNFα 介导）
+- [[synaptic-scaling]] — TNFα → AMPAR 乘法性上调是突触缩放的分子路径
+- [[critical-period-plasticity]] — ODP 两阶段是关键期可塑性的典型实例
+- [[silent-synapse]] — ODP 第二阶段 Hebbian LTP 的底物（PSD-95 依赖开锁）
 - [[orientation-selectivity]] — ODC 与方向图在 V1 重叠；两种图谱形成机制有平行之处
 
 ## 未解问题
@@ -108,6 +115,7 @@ key_sources: ["PMID:22841309", "PMID:32765222", "PMID:23975100", "PMID:39036421"
 
 ## 修订历史
 
+- 2026-09-05 · 修订 rev2 · 基于《开放眼的胜利》(#119) · ODP 第二阶段机制更新：从"两机制并列"修订为"稳态许可在先、Hebbian 精修在后"的时序整合框架；新增 TNFα KO 关键实验（PMID:18549780）、Ranson 2012 幼年/成年分工（PMID:22232689）、丘脑 CaV3.1 爆发放电（PMID:41240337）；关键证据表扩展 3 行；related 新增 critical-period-plasticity、synaptic-scaling、silent-synapse；矛盾 C-2026-08-15-01 更新（见 contested_claims）
 - 2026-08-15 · 创建 rev1 · 基于《左眼还是右眼：视觉皮层如何通过 Hebbian 竞争从沉默突触中雕刻出眼优势柱》(#114) · 初始置信度：高
 
 ## 来源文章

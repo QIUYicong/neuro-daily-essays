@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-05",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9670,9 +9670,167 @@
         "two-phase coordination",
         "IT cortex error neurons"
       ]
+    },
+    {
+      "pmid": "18549780",
+      "pmcid": "PMC2884387",
+      "title": "TNF-alpha mediates one component of competitive ODP in developing visual cortex",
+      "authors": "Kaneko et al.",
+      "year": 2008,
+      "covered_topics": [
+        "ODP Stage 2",
+        "homeostatic synaptic scaling",
+        "TNFα"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "22232689",
+      "pmcid": "PMC3268335",
+      "title": "Homeostatic plasticity mechanisms are required for juvenile, but not adult, ODP",
+      "authors": "Ranson et al.",
+      "year": 2012,
+      "covered_topics": [
+        "ODP Stage 2",
+        "juvenile vs adult plasticity",
+        "CaMKII"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "26015564",
+      "pmcid": "PMC4475980",
+      "title": "Progressive maturation of silent synapses governs the duration of a critical period",
+      "authors": "Huang et al.",
+      "year": 2015,
+      "covered_topics": [
+        "silent synapse",
+        "PSD-95",
+        "critical period closure"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "28093561",
+      "pmcid": "PMC5247599",
+      "title": "Homeostatic plasticity mechanisms in mouse V1",
+      "authors": "Kaneko & Stryker",
+      "year": 2017,
+      "covered_topics": [
+        "homeostatic plasticity",
+        "ODP",
+        "visual cortex"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "15603735",
+      "pmcid": null,
+      "title": "How monocular deprivation shifts ocular dominance in visual cortex of young mice",
+      "authors": "Frenkel & Bear",
+      "year": 2004,
+      "covered_topics": [
+        "ODP two-phase model",
+        "monocular deprivation",
+        "TTX experiment"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "30586380",
+      "pmcid": "PMC6324823",
+      "title": "An opposing function of paralogs in balancing developmental synapse maturation",
+      "authors": "Favaro et al.",
+      "year": 2018,
+      "covered_topics": [
+        "PSD-93",
+        "PSD-95",
+        "silent synapse maturation"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "33649238",
+      "pmcid": "PMC7958355",
+      "title": "Spine dynamics of PSD-95-deficient neurons link silent synapses to structural cortical plasticity",
+      "authors": "Yusifov et al.",
+      "year": 2021,
+      "covered_topics": [
+        "PSD-95",
+        "spine dynamics",
+        "critical period"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "18977732",
+      "pmcid": "PMC2674473",
+      "title": "Bidirectional synaptic mechanisms of ocular dominance plasticity in visual cortex",
+      "authors": "Smith, Heynen, Bear",
+      "year": 2009,
+      "covered_topics": [
+        "ODP LTP/LTD",
+        "BCM metaplasticity",
+        "NR2B/NR2A"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "25701075",
+      "pmcid": null,
+      "title": "TNFα is required for T-type Ca2+ channel-dependent LTP in visual cortex",
+      "authors": "Sugimura et al.",
+      "year": 2015,
+      "covered_topics": [
+        "TNFα",
+        "LTP",
+        "CaV3.1"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "41240337",
+      "pmcid": "PMC12723367",
+      "title": "Temporary retinal inactivation reverses long-term monocular deprivation via thalamic burst firing",
+      "authors": "Echavarri-Leet et al.",
+      "year": 2025,
+      "covered_topics": [
+        "CaV3.1",
+        "thalamic burst",
+        "amblyopia reversal"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "41556652",
+      "pmcid": "PMC12826708",
+      "title": "Non-Synaptic Mechanism of Ocular Dominance Plasticity",
+      "authors": "Foote et al.",
+      "year": 2026,
+      "covered_topics": [
+        "myelination",
+        "non-synaptic ODP",
+        "node of Ranvier"
+      ],
+      "article": "2026-09-05"
+    },
+    {
+      "pmid": "41757096",
+      "pmcid": "PMC12934821",
+      "title": "Tuning metaplasticity in the adult visual cortex using flickering light",
+      "authors": "Reilly-Andújar et al.",
+      "year": 2026,
+      "note": "preprint",
+      "covered_topics": [
+        "flickering light",
+        "metaplasticity",
+        "PNN",
+        "adult ODP"
+      ],
+      "article": "2026-09-05"
     }
   ],
-  "total_sources": 563,
+  "total_sources": 575,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-09-05（#119 · ODP 第二阶段机制之争：开放眼的胜利）
+
+**新建页面（2页）**：
+- `concepts/silent-synapse.md`（established/high）— 沉默突触（AMPAR-silent）：关键期 Hebbian LTP 的分子底物；PSD-95 依赖的开锁机制；关键期关闭的底物耗竭理论；填补悬空引用
+- `concepts/critical-period-plasticity.md`（established/high）— 关键期可塑性：ODP 两阶段分子机制综合（TNFα 稳态许可 + Hebbian LTP 精修）；与 [[critical-period]] 区分（本页聚焦突触机制）；填补悬空引用（被 metaplasticity 引用）
+
+**修订页面（1页）**：
+- `concepts/ocular-dominance-columns.md`（rev2）— ODP 第二阶段机制从"两机制并列"更新为"稳态许可在先、Hebbian 精修在后"的整合框架；新增 TNFα KO（PMID:18549780）、幼年/成年分工（PMID:22232689）、丘脑 CaV3.1（PMID:41240337）；关键证据表扩充 3 行；related 新增 critical-period-plasticity、synaptic-scaling、silent-synapse
+
+**矛盾更新**：
+- C-2026-08-15-01（ODP Stage 2 机制分歧）**→ 新增整合模型证据**：Kaneko 2008（TNFα）、Ranson 2012（幼年/成年差异）、Sugimura 2015（TNFα→LTP 桥接）、Echavarri-Leet 2025（CaV3.1 成年替代机制）。两机制从"互相排斥"修订为"时序协同（稳态先、Hebbian 后）"；裁决从 open 更新为 open（部分整合），直接实验（同一动物同时测量两种指标）仍缺失。
+
+**悬空引用（新增待补）**：
+- `psd-95`（silent-synapse 和 critical-period-plasticity 页中引用，暂无独立页 → 下次填补）
+
+**解决悬空引用**：
+- `critical-period-plasticity` ✅ 已建立（被 metaplasticity 引用）
+
+**图谱**：285 节点 / 1606 条边（+2节点 +15条边）
+
+---
+
 ## 2026-09-04（#135 · 平衡传播与皮层两相学习）
 
 **新建页面（2页）**：

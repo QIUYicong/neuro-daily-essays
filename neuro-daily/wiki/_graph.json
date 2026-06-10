@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "node_count": 264,
   "edge_count": 1471,
   "edge_types": [
@@ -2564,6 +2564,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/hopfield-network.md"
+    },
+    {
+      "id": "silent-synapse",
+      "title": "沉默突触",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/silent-synapse.md"
+    },
+    {
+      "id": "critical-period-plasticity",
+      "title": "关键期可塑性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/critical-period-plasticity.md"
     }
   ],
   "edges": [
@@ -11074,6 +11092,81 @@
       "to": "equilibrium-propagation",
       "type": "related",
       "note": "PCL(误差语言)和EP(能量语言)是信用分配的并行方案"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "nmda-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "ampa-receptor",
+      "type": "related"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "psd-95",
+      "type": "related"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "hebbian-learning",
+      "type": "supports"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "critical-period",
+      "type": "is-a"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "silent-synapse",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "metaplasticity",
+      "type": "related"
+    },
+    {
+      "from": "ocular-dominance-columns",
+      "to": "critical-period-plasticity",
+      "type": "is-a"
     }
   ],
   "dangling_references": [

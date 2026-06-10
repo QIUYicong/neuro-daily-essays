@@ -1002,3 +1002,11 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 **PC-Learning vs EP对比**：PC-Learning（误差语言，层级前向传播，无时间相位）vs EP（能量语言，两相弛豫比较，需要相位切换）；极限下数学等价（Millidge 2022统一框架）。**核心贡献**：大脑的睡眠不仅是"清场"（SHY假说），也可能是"选择性梯度精调"（EP框架），两者并行发生。
 
 **新建wiki页**：equilibrium-propagation（emerging, medium）、hopfield-network（established, high）。**修订**：credit-assignment rev2、pc-learning rev2、cortical-slow-oscillation rev4。图谱：283节点，1591边。
+
+---
+
+## 2026-09-05（#119）— 开放眼的胜利：ODP 第二阶段 Hebbian 与稳态之争的整合
+
+视觉关键期内，单眼遮蔽导致初级视皮层的眼优势发生两阶段转变：第一阶段（MD 1–4天）受剥夺眼突触减弱（NMDAR-LTD，AMPAR 内吞），第二阶段（MD 3–7天）开放眼突触增强。今日文章深入解剖第二阶段的分子争议：Kaneko et al. 2008（PMID:18549780, PMC2884387）用 TNFα KO 小鼠证明第二阶段需要稳态突触缩放；Huang et al. 2015（PMID:26015564, PMC4475980）用 PSD-95 KO 证明沉默突触（Hebbian LTP 底物）的耗竭控制关键期时间轴。关键约束来自 Ranson 2012（PMID:22232689）：稳态机制为幼年必需，成年 ODP 改为依赖 CaMKII。整合框架：稳态缩放（TNFα）作为"许可信号"（全局兴奋性抬升）先于 Hebbian LTP（PSD-95/沉默突触开锁），两者时序协同而非互斥。矛盾 C-2026-08-15-01 从"互斥"更新为"时序协同（部分整合）"，裁决仍 open（同步双指标实验缺失）。
+
+**新建 wiki 页**：silent-synapse（established, high）、critical-period-plasticity（established, high）。**修订**：ocular-dominance-columns rev2（Stage 2 机制整合更新，新增 5 行证据）。**图谱**：285 节点，1606 条边。**来源**：14 篇（11 篇开放全文，2 篇摘要，2 篇预印本）。

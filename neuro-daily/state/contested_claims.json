@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-08-21",
+  "last_updated": "2026-09-05",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -108,14 +108,15 @@
     {
       "id": "C-2026-08-15-01",
       "page": "wiki/concepts/ocular-dominance-columns.md",
-      "claim_A": "ODP 阶段二（开放眼增强，MD 第 3–7 天）的主要机制是 NMDAR 依赖的 Hebbian LTP——沉默突触被开锁，AMPAR 插入，突触选择性增强（Xu, Löwel & Schlüter 2020, PMID:32765222；Espinosa & Stryker 2012, PMID:22841309 中 LTP 框架）",
-      "claim_B": "ODP 阶段二的主要机制是稳态突触缩放（homeostatic synaptic scaling）——总活动下降触发 TNFα 介导的全局 AMPAR 上调，恢复活动稳态，而非特异性地强化开放眼突触（Kaneko & Stryker 2017, PMID:28093561；TNFα KO 阻断阶段二）",
-      "nature": "真实分歧（均有遗传学支持）。两种机制可能在不同时间窗口或不同皮层层级各自主导：稳态缩放快（小时-天），Hebbian LTP 慢（天）；L4 vs L2/3 可能机制侧重不同。TNFα KO 阻断阶段二支持稳态缩放主导；沉默突触耗竭动力学（Xu 2020）支持 Hebbian 主导；两实验室使用不同测量指标（VEP vs 单神经元记录），可能测量不同机制的贡献",
+      "claim_A": "ODP 阶段二（开放眼 LTP + 沉默突触开锁）的主要机制是 NMDAR 依赖的 Hebbian LTP——沉默突触被开锁，AMPAR 插入，突触选择性增强（Xu, Löwel & Schlüter 2020, PMID:32765222；Huang et al. 2015, PMID:26015564 PSD-95 KO 延长关键期）",
+      "claim_B": "ODP 阶段二的主要机制是稳态突触缩放——总活动下降触发 TNFα 介导的全局 AMPAR 上调（Kaneko et al. 2008, PMID:18549780 TNFα KO 阻断第二阶段；Kaneko & Stryker 2017, PMID:28093561）",
+      "nature": "两机制均有遗传学支持，但两者不互斥。2026-09-05 更新：Ranson 2012（PMID:22232689）关键约束——稳态机制为幼年所必需，成年 ODP 不需要 TNFα 而需要 CaMKII。当前最佳整合模型：稳态缩放（TNFα）提供许可信号（全局兴奋性抬升），Hebbian LTP（PSD-95/沉默突触）执行输入特异性精修，时序上稳态先于 Hebbian",
       "status": "open",
       "opened": "2026-08-15",
       "source_article": "2026-08-15-ocular-dominance-columns-visual-critical-period",
       "priority": "medium",
-      "note": "两种机制均有多个独立实验室支持。裁决需要：(1) 同一动物同一时间点同步记录稳态缩放和沉默突触开锁指标；(2) L4 vs L2/3 分层特异性分析；(3) TNFα + PSD-95 双重操控实验，看两者是否协同或替代"
+      "note": "裁决需要：(1) 同一动物同一时间点同步记录稳态缩放（乘法性 mEPSC 幅度变化）和沉默突触开锁（AMPA/NMDA 比值）；(2) L4 vs L2/3 分层特异性分析；(3) TNFα + PSD-95 双重操控实验，看两者是否协同或替代",
+      "evidence_update": "2026-09-05 (#119): 新增证据——Kaneko 2008（PMID:18549780, TNFα KO 直接证明第二阶段缺失）；Ranson 2012（PMID:22232689, 幼年/成年机制分离）；Sugimura 2015（PMID:25701075, TNFα 也促进 LTP，桥接 A+B）；Echavarri-Leet 2025（PMID:41240337, 丘脑 CaV3.1 爆发放电为成年替代许可机制）。两机制从'互斥'更新为'时序协同'——稳态提供许可，Hebbian 执行特异性。裁决仍 open，因直接同步测量实验缺失。"
     },
     {
       "id": "C-2026-08-16-01",

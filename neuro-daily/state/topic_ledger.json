@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-04",
-  "total_articles": 135,
+  "total_articles": 136,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8662,6 +8662,51 @@
       ],
       "new_contested_claims": [],
       "resolved_contested_claims": []
+    },
+    {
+      "date": "2026-09-05",
+      "article_number": 119,
+      "title": "开放眼的胜利：视觉关键期第二阶段是 Hebbian 竞争还是稳态自救？",
+      "slug": "2026-09-05-odp-stage2-hebbian-vs-homeostatic",
+      "core_question": "ODP 第二阶段（开放眼增强）的主导机制是 Hebbian LTP（沉默突触开锁）还是稳态突触缩放（TNFα），还是时序协同？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region"
+      ],
+      "topic_tags": [
+        "ocular-dominance-plasticity",
+        "silent-synapse",
+        "homeostatic-scaling",
+        "TNFalpha",
+        "critical-period",
+        "Hebbian-LTP",
+        "PSD-95"
+      ],
+      "main_sources": [
+        "PMID:18549780",
+        "PMID:26015564",
+        "PMID:32765222",
+        "PMID:22232689",
+        "PMID:22841309",
+        "PMID:28093561"
+      ],
+      "contested_claims_addressed": [
+        "C-2026-08-15-01"
+      ],
+      "wiki_created": [
+        "silent-synapse",
+        "critical-period-plasticity"
+      ],
+      "wiki_updated": [
+        "ocular-dominance-columns"
+      ],
+      "unresolved_questions": [
+        "Q-odc-03",
+        "Q-ss-01",
+        "Q-ss-02"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -8675,7 +8720,8 @@
       "2026-06-12",
       "2026-07-03",
       "2026-07-28",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-09-05"
     ],
     "cellular": [
       "2026-05-24",
@@ -8691,7 +8737,8 @@
       "2026-07-03",
       "2026-07-26",
       "2026-07-28",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-09-05"
     ],
     "synaptic": [
       "2026-05-24",
@@ -8704,7 +8751,8 @@
       "2026-07-03",
       "2026-07-28",
       "2026-08-25",
-      "2026-09-04"
+      "2026-09-04",
+      "2026-09-05"
     ],
     "microcircuit": [
       "2026-05-27",
@@ -8773,7 +8821,8 @@
     ],
     "brain-region": [
       "2026-07-26",
-      "2026-08-29"
+      "2026-08-29",
+      "2026-09-05"
     ],
     "theory": [
       "2026-09-04"

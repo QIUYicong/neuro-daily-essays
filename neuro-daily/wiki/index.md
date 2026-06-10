@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-04（**#135**·大脑的能量景观学习：平衡传播与皮层慢波振荡的两相对比机制）· 主题页总数：**264**（新建2页：equilibrium-propagation · hopfield-network；修订3页：credit-assignment rev2 · pc-learning rev2 · cortical-slow-oscillation rev4；图谱283节点、1591边）
+> 最后更新：2026-09-05（**#119**·ODP 第二阶段——开放眼的胜利）· 主题页总数：**266**（新建2页：silent-synapse · critical-period-plasticity；修订1页：ocular-dominance-columns rev2；矛盾 C-2026-08-15-01 更新为部分整合；图谱285节点、1606边）
 
 ---
 
@@ -45,6 +45,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [沉默突触](concepts/silent-synapse.md) — AMPAR-silent 突触：关键期 Hebbian LTP 的分子底物；PSD-95 依赖开锁；耗竭机制决定关键期时间轴（Huang 2015, Xu 2020）**[NEW 2026-09-05 #119]**
+- 🟢 [关键期可塑性](concepts/critical-period-plasticity.md) — ODP 两阶段分子机制：稳态缩放（TNFα 许可先）+ Hebbian LTP（PSD-95 精修后）时序协同；与 [[critical-period]] 区分（本页聚焦突触机制）**[NEW 2026-09-05 #119]**
 - 🟢 [信用分配问题](concepts/credit-assignment.md) — 空间维度：PC-Learning（误差层级传播）+ 平衡传播（能量极小化两相比较）双路径；时间维度：三因素规则+资格迹；顶树突物理分区为解剖底层 **[rev2 2026-09-04 #135]**
 - 🟡 [预测编码学习 (PC-Learning)](concepts/pc-learning.md) — Whittington & Bogacz 2017 数学证明（局部 Hebbian ↔ 反向传播梯度）；Max 2026 皮层实现（L2/3=误差，L5=表征）；EP 是并行路径（能量语言）**[rev2 2026-09-04 #135]**
 - 🟡 [平衡传播 (EP)](concepts/equilibrium-propagation.md) — Scellier & Bengio 2017：两相活动差精确等于梯度（定理）；STDP 积分等价；2025 隐式非平衡记忆解决两相协调；皮层 UP/DOWN 态候选（假说）**[NEW 2026-09-04 #135]**
