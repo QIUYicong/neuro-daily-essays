@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10335,9 +10335,109 @@
         "systems consolidation mechanisms",
         "hippocampal replay"
       ]
+    },
+    {
+      "id": "PMID:12367511",
+      "title": "Mechanism of TrkB-mediated hippocampal long-term potentiation",
+      "authors": "Minichiello L et al.",
+      "journal": "Neuron",
+      "year": 2002,
+      "pmcid": "PMC6673845",
+      "open_access": true,
+      "first_used": "2026-09-11",
+      "covers": [
+        "TrkB docking sites",
+        "Y816/PLCγ and LTP",
+        "Y490/Shc and LTP",
+        "hippocampal LTP mechanism"
+      ]
+    },
+    {
+      "id": "PMID:19675247",
+      "title": "TrkB modulates fear learning and amygdalar synaptic plasticity by specific docking sites",
+      "authors": "Musumeci G et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2009,
+      "pmcid": "PMC2872928",
+      "open_access": true,
+      "first_used": "2026-09-11",
+      "covers": [
+        "TrkB docking sites",
+        "fear conditioning",
+        "Y816 acquisition",
+        "Y490 consolidation",
+        "CaMKII/Akt"
+      ]
+    },
+    {
+      "id": "PMID:16571757",
+      "title": "Hippocampal long-term potentiation is supported by presynaptic and postsynaptic TrkB-mediated PLCgamma signaling",
+      "authors": "Gärtner A et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2006,
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-09-11",
+      "covers": [
+        "TrkB PLCgamma",
+        "LTP",
+        "presynaptic TrkB",
+        "postsynaptic TrkB"
+      ]
+    },
+    {
+      "id": "PMID:22341689",
+      "title": "Truncated TrkB: Beyond a dominant negative receptor",
+      "authors": "Fenner BM",
+      "journal": "Cytokine and Growth Factor Reviews",
+      "year": 2012,
+      "pmcid": "PMC4367905",
+      "open_access": true,
+      "first_used": "2026-09-11",
+      "covers": [
+        "TrkB-T1",
+        "truncated TrkB",
+        "dominant negative",
+        "RhoGDI1",
+        "BDNF sequestration",
+        "astrocyte TrkB"
+      ]
+    },
+    {
+      "id": "PMID:22586092",
+      "title": "NFATc4 is required for BDNF-dependent survival of adult-born neurons",
+      "authors": "Quadrato G et al.",
+      "journal": "PNAS",
+      "year": 2012,
+      "pmcid": "PMC3384134",
+      "open_access": true,
+      "first_used": "2026-09-11",
+      "covers": [
+        "BDNF",
+        "adult hippocampal neurogenesis",
+        "NFATc4",
+        "calcineurin",
+        "new neuron survival"
+      ]
+    },
+    {
+      "id": "PMID:10559430",
+      "title": "Brain-derived neurotrophic factor overexpression induces precocious critical period in mouse visual cortex",
+      "authors": "Hanover JL et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 1999,
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-09-11",
+      "covers": [
+        "BDNF",
+        "critical period",
+        "visual cortex",
+        "precocious critical period"
+      ]
     }
   ],
-  "total_sources": 592,
+  "total_sources": 614,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

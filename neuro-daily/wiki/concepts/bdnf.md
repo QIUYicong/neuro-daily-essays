@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-28
-updated: 2026-07-09
-revision_count: 3
+updated: 2026-09-11
+revision_count: 4
 dimensions: [molecular, cellular, synaptic, cognition, disease]
-related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, pv-interneurons, perineuronal-nets, glucocorticoid-hippocampus-plasticity, hpa-axis]
+related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, pv-interneurons, perineuronal-nets, glucocorticoid-hippocampus-plasticity, hpa-axis, trkb-receptor]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-bdnf-01, Q-bdnf-02, Q-bdnf-03, Q-stress-01]
-source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-03-critical-period-plasticity, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]
-key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053", "PMID:15891777", "PMID:19317179"]
+source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-03-critical-period-plasticity, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis, 2026-09-11-trkb-receptor-docking-signaling]
+key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053", "PMID:15891777", "PMID:19317179", "PMID:12367511", "PMID:19675247", "PMID:22341689"]
 ---
 
 # 脑源性神经营养因子 (BDNF, Brain-Derived Neurotrophic Factor)
@@ -58,11 +58,18 @@ proBDNF (32 kDa)
 
 ### 二、TrkB 三条信号通路
 
-| 通路 | 触发点 | 效果 | 时间尺度 |
-|------|--------|------|---------|
-| PLCγ→PKC/CaMKII | TrkB-Y816 | 突触可塑性（AMPA 受体修饰） | 秒-分钟 |
-| MAPK/ERK→CREB | TrkB-Y490 | 基因转录（Arc、c-Fos、结构蛋白） | 分钟 |
-| PI3K/Akt/mTOR | TrkB-Y490 | 存活（抗凋亡）、蛋白合成 | 分钟-小时 |
+| 通路 | 触发点 | 关键适配蛋白 | 效果 | 时间尺度 |
+|------|--------|-------------|------|---------|
+| PLCγ→IP3/DAG→PKC/CaMKII | TrkB-Y816 | PLCγ（SH2域） | 突触可塑性（AMPA 受体修饰）；新生神经元存活（NFATc4） | 秒-分钟 |
+| MAPK/ERK→CREB | TrkB-Y490 | Shc→Grb2-SOS→Ras | 基因转录（Arc、c-Fos、结构蛋白） | 分钟-小时 |
+| PI3K/Akt/mTOR | TrkB-Y490 | Grb2-Gab1→PI3K | 存活（抗凋亡）、蛋白合成、记忆巩固 | 分钟-小时 |
+
+**关键路由功能分工**（Minichiello 2002，PMID:12367511；Musumeci 2009，PMID:19675247）：
+- Y816/PLCγ/CaMKII通路是**海马LTP和恐惧记忆获得**的主要分子执行者（trkB^PLC/PLC敲入小鼠LTP严重受损，Y816F→获得受损）
+- Y490/PI3K/Akt通路对**记忆巩固和神经元长期存活**更重要（Y490F→巩固受损）
+- 截断型TrkB-T1（成体脑中最丰富的TrkB异构体）缺乏激酶域→dominant negative效应；同时通过RhoGDI1独立信号调节星形胶质细胞骨架（Fenner 2012，PMID:22341689）
+
+详细路由机制见 [[trkb-receptor]]。
 
 ### 三、BDNF 与 L-LTP 的正反馈循环
 
@@ -107,6 +114,7 @@ L-LTP 不能维持 · 新生神经元减少 →
 - [[engram-cells]] — 印迹细胞 AMPA/NMDA 比值高，可能部分由 BDNF 驱动的 L-LTP 解释
 - [[glucocorticoid-hippocampus-plasticity]] — 慢性 GR 激活通过负性 GRE 直接抑制 BDNF exon IV 转录（BDNF↓30-50%）；BDNF 是 GC 慢性损害 LTP 的主要下游中间子
 - [[hpa-axis]] — HPA 轴慢性过激活→皮质醇持续升高→GR 负性调控 BDNF→突触可塑性下降；是 HPA 失调的认知后果链
+- [[trkb-receptor]] — TrkB 是 BDNF 的高亲和力受体；详细路由机制（Y490 vs Y816）、截断型 TrkB-T1 功能见该页面
 
 ## 未解问题
 
@@ -119,6 +127,7 @@ L-LTP 不能维持 · 新生神经元减少 →
 - 2026-06-28 · 创建 · 基于《BDNF：大脑给自己的成长信号》一文 (#64) · 初始置信度：高（基础机制）/中（AD 及 Val66Met 部分）
 - 2026-06-03 · 修订 rev2 · 基于《时间刻入神经回路：关键期》(#72) · 新增关键期相关角色：BDNF 通过 TrkB 加速 GABAergic 成熟（Huang 1999）、驱动 PV+ 细胞成熟时间轴、PNN-aggrecan-PTPσ 轴抑制 BDNF 信号进入 PV+ 细胞（Lesnikova 2021）；related 新增 critical-period, pv-interneurons, perineuronal-nets
 - 2026-07-09 · 修订 rev3 · 基于《应激的双刃剑》(#77) · 新增"慢性应激/糖皮质激素对 BDNF 的抑制"段落（GR 负性 GRE→BDNF exon IV↓30-50%；L-LTP 失败和神经发生减少双重后果）；related 新增 glucocorticoid-hippocampus-plasticity、hpa-axis；key_sources 新增 PMID:15891777、PMID:19317179；opens_questions 新增 Q-stress-01；连接新增两条
+- 2026-09-11 · 修订 rev4 · 基于《分子路由器》文章（#141）· TrkB三条通路表格增加适配蛋白列；新增Y816/Y490路由功能分工说明（Minichiello 2002, Musumeci 2009）；新增截断型TrkB-T1信息（Fenner 2012）；related新增trkb-receptor；key_sources新增PMID:12367511、PMID:19675247、PMID:22341689；连接新增trkb-receptor
 
 ## 来源文章
 

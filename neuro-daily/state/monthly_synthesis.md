@@ -1059,3 +1059,9 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 
 **新建页面**：0。**修订**：complementary-learning-systems rev2（重大扩充）、sharp-wave-ripples rev7、memory-consolidation rev9。**图谱**：292 节点，1663 条边（+5边）。**来源**：12篇（7篇开放全文）。**层级**：cognition + whole-brain-network + cellular（层级换挡，与近期 molecular/synaptic 主题形成互补）。
 
+
+## 2026-09-11（#141）— TrkB受体：分子路由器将BDNF翻译成LTP、恐惧记忆与关键期
+
+今日文章深入TrkB受体的**分子路由逻辑**——这是知识库中BDNF-TrkB-LTP链条中一直缺失的分子决策层。核心发现来自Minichiello等人的经典分子敲入实验（2002, PMID:12367511）：TrkB胞内域Y816位点（→PLCγ→Ca²⁺→CaMKII）对海马LTP的诱导是**必要的**，而Y490位点（→Shc→MAPK）对LTP贡献较小。Musumeci 2009（PMID:19675247）进一步揭示了**时间分工**：Y816驱动恐惧记忆的快速获得（通过杏仁核CaMKII），Y490/PI3K/Akt驱动记忆的长期巩固。这一分工解释了为什么突触可塑性既需要"快速写入"又需要"长期固化"——同一个受体通过两个磷酸化位点同时启动了两种不同时间尺度的分子程序。截断型TrkB-T1（成体脑中最丰富的TrkB异构体）通过dominant-negative效应和BDNF扣押调节信号空间范围，同时通过RhoGDI1/RhoA拥有独立的细胞骨架功能。BDNF在关键期（Huang 1999）和AHN（Chan 2008, Quadrato 2012）中的角色通过TrkB路由逻辑获得了统一解释：PLCγ-Ca²⁺-NFATc4轴在成熟神经元中写入LTP，在新生神经元中触发存活转录程序。
+
+**新建 wiki 页**：trkb-receptor（established, high）。**修订**：bdnf rev4（三通路表格精细化+TrkB-T1信息）。**图谱**：293 节点，1671 条边（+1节点，+8边）。**来源**：10篇（3篇部分全文，7篇摘要）。**层级**：molecular + synaptic + cellular（与近期 cognition/whole-brain-network 层形成向下的层级换挡）。**新增 4 个未解问题**：Q-trkb-01（体内磷酸化动力学）、Q-trkb-02（人类对应性）、Q-trkb-03（TrkB-T1净效应）、Q-trkb-04（转激活路由特异性）。

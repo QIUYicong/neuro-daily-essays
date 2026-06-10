@@ -4,6 +4,22 @@
 
 ---
 
+## 2026-09-11（#141 · 分子路由器：TrkB受体的两个磷酸位点如何将BDNF翻译成LTP、恐惧记忆与关键期）
+
+**新建页面（1页）**：
+- `concepts/trkb-receptor.md`（established/high）— TrkB受体两个关键磷酸位点（Y490→Shc-MAPK/PI3K轴；Y816→PLCγ-Ca²⁺-CaMKII轴）的路由逻辑；Minichiello 2002分子敲入实验（Y816/PLCγ对海马LTP必要，Y490/Shc不必要）；Musumeci 2009（Y816→获得；Y490→巩固）；Gärtner 2006（突触前+突触后PLCγ协同）；截断型TrkB-T1（dominant negative + RhoGDI1独立信号）；BDNF/TrkB在关键期（Huang 1999）和AHN（Chan 2008, Quadrato 2012）中的角色；4个新未解问题（Q-trkb-01到04）
+
+**修订页面（1页）**：
+- `concepts/bdnf.md`（rev3→rev4）— TrkB三条通路表格增加适配蛋白列；新增Y816/Y490路由功能分工段落（Minichiello 2002, Musumeci 2009）；新增截断型TrkB-T1说明（Fenner 2012）；related新增trkb-receptor；key_sources新增PMID:12367511、PMID:19675247、PMID:22341689；来源文章新增
+
+**图谱更新**：+1节点（trkb-receptor）；+8条新边（trkb-receptor→ltp/bdnf/critical-period/adult-neurogenesis/camkii/nmda-receptor/pv-interneurons；bdnf→trkb-receptor）；总计293节点、1671边
+
+**矛盾登记**：无新矛盾（TrkB Y816/Y490路由分工有强遗传学证据，与既有LTP机制描述一致）
+
+**悬空引用**：无新悬空引用
+
+---
+
 ## 2026-09-10（#140 · 海马给新皮层写的信：互补学习系统与尖波涟漪驱动的记忆系统巩固）
 
 **新建页面（0页）**：今日无新建页面；所有概念在既有页面中处理。

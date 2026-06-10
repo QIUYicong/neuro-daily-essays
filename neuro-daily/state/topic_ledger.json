@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-10",
-  "total_articles": 140,
+  "total_articles": 141,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9122,6 +9122,98 @@
         "engram-cells-systems-consolidation: 印迹细胞的系统巩固——海马印迹如何转写到皮层印迹？沉默印迹的时间动态？Roy 2016 光遗传重激活与系统巩固的关系",
         "prefrontal-cortex-memory-consolidation: 前额叶皮层在记忆系统巩固中的角色——从海马依赖到PFC依赖的转变；ACC作为远期记忆的主要皮层储存位点；PFC涟漪的选择性功能"
       ]
+    },
+    {
+      "date": "2026-09-11",
+      "real_date": "2026-06-10",
+      "article_number": 141,
+      "title": "分子路由器：TrkB受体的两个磷酸位点如何将BDNF翻译成LTP、恐惧记忆与关键期",
+      "slug": "trkb-receptor-docking-signaling",
+      "filename": "2026-09-11-trkb-receptor-docking-signaling.md",
+      "article_type": "regular",
+      "core_question": "TrkB受体如何通过Y490（→Shc-MAPK/PI3K）和Y816（→PLCγ-Ca²⁺-CaMKII）两个磷酸化位点将BDNF信号路由到不同的神经计算目标（LTP获得/恐惧记忆获得/记忆巩固/PV细胞成熟/新生神经元存活）？截断型TrkB-T1通过哪些机制调节信号幅度？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region"
+      ],
+      "curriculum_track": "1. 神经元如何工作（神经营养因子信号机制，深入TrkB受体）→ 4. 学习和记忆（LTP分子路由）→ 2. 神经网络如何建成（关键期分子基础）",
+      "topic_tags": [
+        "BDNF",
+        "TrkB",
+        "TrkB receptor",
+        "receptor tyrosine kinase",
+        "RTK",
+        "Y490",
+        "Y816",
+        "phosphotyrosine",
+        "docking site",
+        "PLCgamma",
+        "IP3",
+        "DAG",
+        "CaMKII",
+        "PKC",
+        "Shc",
+        "Grb2",
+        "Ras",
+        "MAPK",
+        "ERK",
+        "CREB",
+        "PI3K",
+        "Akt",
+        "mTOR",
+        "NFATc4",
+        "LTP",
+        "fear conditioning",
+        "critical period",
+        "TrkB-T1",
+        "truncated TrkB",
+        "dominant negative",
+        "RhoGDI1",
+        "RhoA",
+        "filopodia",
+        "Minichiello 2002",
+        "Musumeci 2009",
+        "Gartner 2006",
+        "PV interneurons",
+        "BDNF critical period",
+        "adult hippocampal neurogenesis",
+        "AHN"
+      ],
+      "main_sources": [
+        "PMID:12367511 (Minichiello et al. 2002, Neuron, partial full text)",
+        "PMID:19675247 (Musumeci et al. 2009, J Neurosci, partial full text)",
+        "PMID:16571757 (Gärtner et al. 2006, J Neurosci, abstract only)",
+        "PMID:19927149 (Minichiello 2009, Nat Rev Neurosci, abstract only)",
+        "PMID:12676795 (Huang & Reichardt 2003, Annu Rev Biochem, abstract only)",
+        "PMID:10499792 (Huang et al. 1999, Cell, abstract only)",
+        "PMID:10559430 (Hanover et al. 1999, J Neurosci, abstract only)",
+        "PMID:22341689 (Fenner 2012, Cytokine Growth Factor Rev, partial full text)",
+        "PMID:22586092 (Quadrato et al. 2012, PNAS, abstract only)",
+        "PMID:18718867 (Chan et al. 2008, Mol Cell Neurosci, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/trkb-receptor.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/bdnf.md (rev3→rev4): 三通路表格增加适配蛋白列；新增Y816/Y490路由功能分工段落；新增TrkB-T1信息；related/key_sources/来源文章扩充"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-trkb-01",
+        "Q-trkb-02",
+        "Q-trkb-03",
+        "Q-trkb-04"
+      ],
+      "next_suggested_topics": [
+        "engram-cells-systems-consolidation: 印迹细胞的系统巩固——海马印迹如何转写到皮层印迹？沉默印迹的时间动态？Roy 2016光遗传重激活与系统巩固的关系；恐惧印迹与愉快印迹的相互竞争",
+        "p75ntr-signaling: p75NTR（低亲和力神经营养因子受体）信号——proBDNF→p75NTR→JNK→凋亡；与TrkB的协同/拮抗；p75NTR在髓鞘修复和突触消除中的角色",
+        "camp-pka-creb-transcription: cAMP/PKA/CREB转录轴——苔藓纤维LTP的预突触cAMP机制；CREB与Arc/BDNF/c-Fos的基因调控；CREB在记忆巩固中的必要性（Bourtchuladze 1994）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-11；Y816/PLCγ路由机制有强遗传学证据（分子敲入小鼠，Minichiello 2002, Musumeci 2009）；10个来源（3个部分全文，7个摘要仅读）；1个新wiki页创建，1个修订；4个新未解问题；无矛盾新增；图谱：293节点，1671边"
     }
   ],
   "layer_coverage_recent": {
@@ -9136,7 +9228,8 @@
       "2026-07-03",
       "2026-07-28",
       "2026-08-25",
-      "2026-09-05"
+      "2026-09-05",
+      "2026-09-11"
     ],
     "cellular": [
       "2026-05-24",
@@ -9154,7 +9247,8 @@
       "2026-07-28",
       "2026-08-25",
       "2026-09-05",
-      "2026-09-09"
+      "2026-09-09",
+      "2026-09-11"
     ],
     "synaptic": [
       "2026-05-24",
@@ -9168,7 +9262,8 @@
       "2026-07-28",
       "2026-08-25",
       "2026-09-04",
-      "2026-09-05"
+      "2026-09-05",
+      "2026-09-11"
     ],
     "microcircuit": [
       "2026-05-27",
@@ -9241,7 +9336,8 @@
     "brain-region": [
       "2026-07-26",
       "2026-08-29",
-      "2026-09-05"
+      "2026-09-05",
+      "2026-09-11"
     ],
     "theory": [
       "2026-09-04"

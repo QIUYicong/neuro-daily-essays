@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "node_count": 287,
   "edge_count": 1628,
   "edge_types": [
@@ -2645,6 +2645,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/neurogenesis-induced-forgetting.md"
+    },
+    {
+      "id": "trkb-receptor",
+      "title": "TrkB受体",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/trkb-receptor.md"
     }
   ],
   "edges": [
@@ -11515,6 +11524,46 @@
       "from": "prefrontal-cortex",
       "to": "sharp-wave-ripples",
       "type": "regulates"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "bdnf",
+      "type": "part-of"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "adult-neurogenesis",
+      "type": "supports"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "camkii",
+      "type": "regulates"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "nmda-receptor",
+      "type": "related"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "bdnf",
+      "to": "trkb-receptor",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,127 @@
+# 运行日志 · 2026-09-11
+
+**文章编号**：#141
+**标题**：分子路由器：TrkB受体的两个磷酸位点如何将BDNF翻译成LTP、恐惧记忆与关键期
+**文件**：`neuro-daily/articles/2026-09-11-trkb-receptor-docking-signaling.md`
+**系统时钟UTC+8**：2026-06-10（真实执行日期）
+**知识库虚拟日期**：2026-09-11
+
+---
+
+## 执行时间线
+
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md：✅
+- 读取状态文件（topic_ledger, unresolved_questions, graph）：✅
+- 选题：trkb-bdnf-signaling（三篇连续文章的next_suggested_topics第一优先；填补trkb-receptor节点缺口）
+- 文献检索：PubMed E-utilities（esearch, efetch, elink）
+- 主要文章写作：✅
+- Wiki固结（新建1页，修订1页）：✅
+- 图谱更新（+1节点+8边）：✅
+- 状态文件更新：✅
+
+---
+
+## 文献检索
+
+**搜索词**：
+- "Minichiello TrkB PLCgamma hippocampus" → PMID:12367511, 20445044, 19675247, 16571757, 15140939
+- "BDNF TrkB signaling PLCgamma MAPK PI3K review" → PMID:23602987, 20186705 etc
+- "Huang Reichardt Trk receptors neuronal signal transduction review" → PMID:12676795
+- "BDNF visual cortex critical period ocular dominance Huang 1999" → PMID:10499792, 10559430
+- "Brigadski Lessmann BDNF review" → PMID:32944867
+- "truncated TrkB isoform dominant negative" → PMID:22341689
+- "BDNF adult hippocampal neurogenesis TrkB dentate gyrus" → PMID:22586092, 18718867
+
+**来源使用情况**：
+- PMID:12367511 (Minichiello et al. 2002, Neuron) — PMC6673845 部分全文 ✅
+- PMID:19675247 (Musumeci et al. 2009, J Neurosci) — PMC2872928 部分全文 ✅
+- PMID:16571757 (Gärtner et al. 2006, J Neurosci) — 摘要仅读
+- PMID:19927149 (Minichiello 2009, Nat Rev Neurosci) — 摘要仅读
+- PMID:12676795 (Huang & Reichardt 2003, Annu Rev Biochem) — 摘要仅读
+- PMID:10499792 (Huang et al. 1999, Cell) — 摘要仅读
+- PMID:10559430 (Hanover et al. 1999, J Neurosci) — 摘要仅读
+- PMID:22341689 (Fenner 2012, Cytokine Growth Factor Rev) — PMC4367905 部分全文 ✅
+- PMID:22586092 (Quadrato et al. 2012, PNAS) — 摘要仅读（PMC3384134 记录在册）
+- PMID:18718867 (Chan et al. 2008, Mol Cell Neurosci) — 摘要仅读
+
+**说明**：Nat Rev Neurosci 2009和Annu Rev Biochem 2003均为封闭付费期刊，无开放全文；其他来源为Cell/Neuron年代较早文章，或无PMC版本。核心机制（Y816/PLCγ路由）有分子遗传学证据（PMID:12367511）且内容与知识库既有条目相符。
+
+---
+
+## 文件变更清单
+
+### 新建文件（4）
+
+| 文件 | 类型 | 说明 |
+|------|------|------|
+| `neuro-daily/articles/2026-09-11-trkb-receptor-docking-signaling.md` | 文章 | 主文章，约5200字，10个来源 |
+| `neuro-daily/notes/2026-09-11-reading-notes.md` | 笔记 | 10篇文献的详细阅读笔记 |
+| `neuro-daily/sources/2026-09-11-sources.json` | 来源 | 10条来源记录 |
+| `neuro-daily/wiki/concepts/trkb-receptor.md` | wiki | 新TrkB受体概念页，revision_count=1 |
+| `neuro-daily/logs/2026-09-11-run.log` | 日志 | 本文件 |
+
+### 修订文件（5+状态文件）
+
+| 文件 | 变更 |
+|------|------|
+| `wiki/concepts/bdnf.md` | rev3→rev4：三通路表格增加适配蛋白列；Y816/Y490路由功能分工段落；TrkB-T1信息；related/key_sources/来源文章更新 |
+| `wiki/_graph.json` | +1节点（trkb-receptor）+8边；293节点，1671边 |
+| `wiki/index.md` | BDNF条目更新为rev4；新增TrkB受体条目 |
+| `wiki/CHANGELOG.md` | 新增2026-09-11条目 |
+| `state/topic_ledger.json` | total_articles 140→141；新增#141条目 |
+| `state/unresolved_questions.md` | 新增Q-trkb-01到04（4个问题） |
+| `state/source_registry.json` | 新增6条来源；total 608→614 |
+| `state/monthly_synthesis.md` | 新增2026-09-11条目 |
+
+---
+
+## Wiki 图谱更新
+
+**新增节点**（292→293）：
+- `trkb-receptor`（concepts, mechanism, established, high）
+
+**新增边**（1663→1671，+8）：
+1. trkb-receptor → ltp（mechanism-of）
+2. trkb-receptor → bdnf（part-of）
+3. trkb-receptor → critical-period（regulates）
+4. trkb-receptor → adult-neurogenesis（supports）
+5. trkb-receptor → camkii（regulates）
+6. trkb-receptor → nmda-receptor（related）
+7. trkb-receptor → pv-interneurons（regulates）
+8. bdnf → trkb-receptor（mechanism-of）
+
+**悬空引用**：无新悬空引用
+
+---
+
+## 矛盾检查
+
+今日无新矛盾登记。TrkB Y816/Y490路由机制有强遗传学证据（PMID:12367511, PMID:19675247），与知识库既有内容（bdnf.md的三通路描述）一致，无冲突。
+
+---
+
+## 未解问题
+
+**新增（4）**：
+- Q-trkb-01（高）：体内Y490/Y816磷酸化动力学
+- Q-trkb-02（中）：人类TrkB路由对应性
+- Q-trkb-03（高）：TrkB-T1成体学习净效应
+- Q-trkb-04（中）：转激活路由特异性
+
+---
+
+## 自检结果
+
+**真实性**：✅ 所有主张有具体来源（PMID）；区分了事实（分子遗传学实验）和推测（T1在成体学习的净效应）；注明了哪些来源只读了摘要
+**一致性**：✅ 无新矛盾；bdnf.md rev4与新文章内容一致；_graph.json无悬空边
+**可导航**：✅ index.md和CHANGELOG.md更新；trkb-receptor页面related/prerequisites各≥1
+**情景层**：✅ 文章/笔记/来源/日志均新建；未修改旧文件
+
+---
+
+## Git 提交信息
+
+Branch: `claude/funny-einstein-ypstlx`（环境分配，系统要求在此分支开发）
+Author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+Commit: [待填写]
+Push 状态: [待填写]
