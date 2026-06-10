@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-10（**#140**·海马给新皮层写的信——互补学习系统（CLS）与尖波涟漪驱动的记忆系统巩固：稳定性-可塑性困境解法、SO-spindle-SWR 三重协奏、清醒 SWR 主动记忆标记（Yang 2023, R=0.86）、PFC 涟漪顶-下门控（Shin & Jadhav 2023）、大振幅 SWR 因果证据（Robinson 2026）、SHY vs 主动巩固调和框架）· 主题页总数：**273**（新建0页；修订3页：complementary-learning-systems rev2 · sharp-wave-ripples rev7 · memory-consolidation rev9；图谱292节点、1663边）
+> 最后更新：2026-09-11（**#141**·皮层记忆印迹的诞生——Kitamura 2017 颠覆"记忆漂移"图像：皮层印迹在学习当天已形成但初始沉默；Refaeli 2023 电路重组（CA1→ACC↑，ACC→CA1↓，EC/PVT↑）；Roy 2016 早期AD沉默印迹=提取障碍；Lei 2025 系统性再巩固的新印迹机制）· 主题页总数：**274**（新建1页：engram-systems-consolidation；修订3页：engram-cells rev7 · memory-consolidation rev10；图谱293节点、1671边）
 
 ---
 
@@ -136,7 +136,8 @@
 - 🔵 [突触稳态假说（SHY）](concepts/shy-hypothesis.md) — Tononi & Cirelli：清醒期 LTP 积累→睡眠期 SO 驱动 ~18% 突触下调（de Vivo 2017 超微结构证据）；down-selection：被 SWR 重播激活的突触受保护，多数突触弱化；与主动记忆巩固统一 **[NEW 2026-07-07]**
 - 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现
 - 🟡 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）
-- 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失（修订5次）
+- 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失；皮层印迹并行成熟模型（Kitamura 2017）（修订7次）
+- 🟡 [印迹细胞的系统巩固](concepts/engram-systems-consolidation.md) — 皮层印迹在学习当天形成但初始沉默；双印迹并行成熟模型；电路重组（CA1→ACC↑）；早期AD沉默印迹=提取障碍（Roy 2016）（新建 2026-09-11）
 - 🔵 [神经元分配（记忆分配）](concepts/memory-allocation.md) — CREB/内在兴奋性竞争决定哪些神经元进入印迹；零和竞争；PV+侧向抑制赢家通吃；表观遗传前置层（H3K27ac）；训练后5min巩固窗口 **[NEW 2026-07-05]**
 - 🟡 [记忆联结](concepts/memory-linking.md) — 时间接近（~6h）的两段学习因共享高兴奋性印迹神经元而实现联结；Cai 2016 CA1钙成像直接证据；老年小鼠联结缺陷→DREADD救援；scFLARE2精确时间边界（3h vs 27h）**[NEW 2026-07-05]**
 - 🟢 [记忆巩固（系统层面）](concepts/memory-consolidation.md) — SWR驱动的海马→皮层记忆转移；SO-spindle-SWR三重耦合；SHY down-selection 统一主动巩固与稳态下调；SCT vs MTT理论争论；再巩固为第三种类型；**新增：PFC涟漪顶-下门控（Shin & Jadhav 2023）；Yang 2023 清醒SWR直接预测睡眠重播（R=0.86）[修订 2026-09-10 rev9]**

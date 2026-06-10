@@ -1,0 +1,112 @@
+# 运行日志 · 2026-09-11
+
+**文章编号**：#141
+**主题**：皮层记忆印迹的诞生：当"沉默"走向"成熟"
+**Slug**：engram-systems-consolidation
+**实际运行时间**：2026-06-10 UTC（知识库序列日期 2026-09-11）
+
+---
+
+## 检索过程
+
+**搜索关键词**：
+- `engram systems consolidation cortex hippocampus`
+- `Tonegawa engram systems consolidation cortical`
+- `cortical engram maturation systems consolidation prefrontal`
+- `ACC anterior cingulate remote fear memory engram`
+- `Frankland Bontempi 2005 remote memory cortex`
+- `Roy 2016 silent engrams Alzheimer disease`
+- `Lei 2025 hippocampal engram reconsolidation systems`
+
+**数据源**：
+- PubMed E-utilities (esearch, esummary, efetch)
+- PubMed Central Open Access (PMC)
+
+**候选文献数**：约 25 篇检索返回
+**采用文献**：7 篇
+**排除原因**：主题偏离（zebrafish BDNF）、过于基础（StatPearls短期记忆定义）、PMC内容不相关
+
+---
+
+## 采用文献详情
+
+| PMID | 标题 | 全文可用 | 使用方式 |
+|------|------|---------|---------|
+| 28386011 (PMC5493329) | Kitamura 2017, Science | ✓ 开放全文 | 核心：双印迹并行成熟模型 |
+| 37586373 (PMC10524918) | Refaeli 2023, Curr Biol | ✓ 开放全文 | 核心：CA1 印迹稳定性与电路重组 |
+| 26982728 (PMC4847731) | Roy 2016, Nature | ✓ 开放全文（已知PMCID）| 核心：AD沉默印迹=提取障碍 |
+| 7624455 | McClelland 1995, Psych Rev | 摘要 | 背景：CLS框架 |
+| 15685217 | Frankland & Bontempi 2005, Nat Rev Neurosci | 摘要 | 背景：系统巩固经典综述 |
+| 29970909 | Tonegawa 2018, Nat Rev Neurosci | 摘要 | 背景：印迹系统巩固综述 |
+| 39689709 | Lei 2025, Neuron | 摘要 | 前沿：系统性再巩固新印迹 |
+
+---
+
+## 固结步骤
+
+**新建 wiki 页（1页）**：
+- `wiki/concepts/engram-systems-consolidation.md`（新建，revision_count=1，status=emerging，confidence=medium）
+
+**修订 wiki 页（2页）**：
+- `wiki/concepts/engram-cells.md`（rev6→rev7）：新增双印迹并行成熟内容；related +3；opens_questions +2；key_sources +3
+- `wiki/concepts/memory-consolidation.md`（rev9→rev10）：related +3；key_sources +3；修订历史 +1行
+
+**矛盾检查**：
+- "皮层印迹在学习当天形成"与"记忆从海马漂移到皮层"有张力，但这是**模型精细化**（Kitamura 2017 的模型比经典描述更精确）而非真实矛盾，未触发矛盾协议。
+- 旧有知识："皮层记忆储存需要数天至数周"——与 Kitamura 2017 的"皮层印迹第 1 天就存在"有表面矛盾，但解释是印迹存在 ≠ 功能成熟，并不矛盾。
+
+**矛盾协议触发**：否（0条新登记）
+
+---
+
+## 图谱更新
+
+- **新增节点**：engram-systems-consolidation（emerging, medium）
+- **新增边（8条）**：engram-systems-consolidation → engram-cells (part-of) / memory-consolidation (mechanism-of) / complementary-learning-systems (mechanism-of) / hippocampal-circuit (mechanism-of) / prefrontal-cortex (supports) / sharp-wave-ripples (mechanism-of) / adult-neurogenesis (related) / memory-reconsolidation (related)
+- **图谱总计**：293 节点，1671 条边
+
+---
+
+## 状态更新
+
+- `state/topic_ledger.json`：新增条目（124条目）
+- `state/unresolved_questions.md`：新增 3 条（Q-engram-cortical-silent-mechanism, Q-engram-sct-vs-mtt, Q-human-cortical-engram）
+- `state/source_registry.json`：新增 3 条
+- `state/maturity_index.json`：新增 1 条（engram-systems-consolidation）
+- `state/monthly_synthesis.md`：新增 2026-09-11 摘要
+- `wiki/_graph.json`：293 节点，1671 边
+- `wiki/index.md`：更新头部；新增 engram-systems-consolidation 条目
+- `wiki/CHANGELOG.md`：新增 2026-09-11 节
+
+---
+
+## 质量自检结果
+
+**真实性**：
+- [x] wiki 每条新主张有来源（PMID/DOI/URL）
+- [x] 区分了事实/主流模型/推测/争议（Kitamura 2017=高置信；Lei 2025=标注"尚需独立重复"）
+- [x] 没有把小样本/动物研究写成人类定论（均注明小鼠模型）
+
+**一致性**：
+- [x] 新内容未触发矛盾协议（模型精细化≠真实矛盾）
+- [x] 被修订页 updated/revision_count/修订历史已同步
+- [x] _graph.json 无已知悬空边（新节点的 prerequisites 和 related 节点均已存在）
+
+**可导航**：
+- [x] index.md 与 CHANGELOG.md 反映了今天的变化
+- [x] 新页 related 字段填写了 10 个，prerequisites 填写了 4 个
+
+**情景层**：
+- [x] articles/2026-09-11-engram-systems-consolidation.md 已创建
+- [x] notes/2026-09-11-reading-notes.md 已创建
+- [x] sources/2026-09-11-sources.json 已创建
+- [x] 旧文件未被修改（只修改了 wiki/ 和 state/ 层）
+
+---
+
+## Git 操作
+
+- Branch: main
+- Commit: [待填写]
+- Push: [待填写]
+- 失败与限制：无

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-09-10
-revision_count: 9
+updated: 2026-09-11
+revision_count: 10
 dimensions: [molecular, synaptic, whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker, memory-reconsolidation]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker, memory-reconsolidation, engram-systems-consolidation, prefrontal-cortex, anterior-cingulate-cortex]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-rem-sleep-role, Q-replay-human-translation]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-09-10-complementary-learning-systems-sleep-consolidation]
-key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:37987008", "PMID:38168420", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710"]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-09-10-complementary-learning-systems-sleep-consolidation, 2026-09-11-engram-systems-consolidation]
+key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:37987008", "PMID:38168420", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710", "PMID:28386011 (PMC5493329)", "PMID:37586373 (PMC10524918)", "PMID:15685217"]
 ---
 
 # 记忆巩固（系统层面）(Memory Consolidation — Systems Level)
@@ -197,9 +197,11 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-07-08 · 修订 rev7 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对记忆巩固的时间门控"小节（LTP 昼夜波动、BMAL1 KO 学习损伤、SCN 萎缩→记忆功能下降的 AD 连接）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节扩充2条；key_sources 新增 PMID:12198538
 - 2026-07-28 · 修订 rev8 · 基于《记忆的活书稿》文章（#96）· 新增"再巩固"为第三种巩固类型；连接节新增 [[memory-reconsolidation]]；related 新增 memory-reconsolidation；dimensions 新增 molecular、synaptic
 - 2026-09-10 · 修订 rev9 · 基于《海马给新皮层写的信》文章 (#140) · 证据表 +3行（Yang 2023 PMID:37987008 直接预测睡眠重播；PFC涟漪顶-下门控 PMID:38168420；前条更新标注区分两个Yang来源）；key_sources +2（PMID:37987008, PMID:38168420）；source_articles 新增 2026-09-10
+- 2026-09-11 · 修订 rev10 · 基于《皮层记忆印迹的诞生》文章（#141）· related 新增 engram-systems-consolidation、prefrontal-cortex、anterior-cingulate-cortex；key_sources 新增 PMID:28386011、37586373、15685217；source_articles 新增 2026-09-11；指向新创建的 [[engram-systems-consolidation]] 页面（印迹视角的系统巩固机制）
 
 ## 来源文章
 
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-05-31-rem-sleep-emotional-memory]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
+- [[2026-09-11-engram-systems-consolidation]]

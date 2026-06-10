@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-09-11（#141 · 皮层记忆印迹的诞生：当"沉默"走向"成熟"）
+
+**新建页面（1页）**：
+- `concepts/engram-systems-consolidation.md`（新建）— 印迹细胞的系统巩固专页：双印迹并行成熟模型（Kitamura 2017）；皮层沉默印迹→成熟的机制；电路重组（Refaeli 2023，CA1→ACC↑，ACC→CA1↓，EC/PVT↑）；病理性沉默印迹与 AD（Roy 2016）；系统性再巩固的新印迹（Lei 2025）；status=emerging（主要证据来自小鼠），confidence=medium
+
+**修订页面（2页）**：
+- `concepts/engram-cells.md`（rev6→rev7）— 当前理解新增"皮层印迹：并行成熟而非顺序迁移"段落（Kitamura 2017 双印迹框架；Refaeli 2023 电路重组）；related +3（engram-systems-consolidation, complementary-learning-systems, adult-neurogenesis）；opens_questions +2（Q-engram-cortical-silent-mechanism, Q-engram-sct-vs-mtt）；connections +3条；key_sources +3（PMID:28386011, 37586373, 29970909）；dimensions 新增 whole-brain-network
+- `concepts/memory-consolidation.md`（rev9→rev10）— related +3（engram-systems-consolidation, prefrontal-cortex, anterior-cingulate-cortex）；key_sources +3（PMID:28386011, 37586373, 15685217）；source_articles +1；修订历史 +1行
+
+**图谱更新**：+1节点（engram-systems-consolidation）；+8条新边（engram-systems-consolidation→engram-cells/memory-consolidation/complementary-learning-systems/hippocampal-circuit/prefrontal-cortex/sharp-wave-ripples/adult-neurogenesis/memory-reconsolidation）；总计293节点、1671边
+
+**矛盾登记**：无新矛盾。Kitamura 2017"皮层印迹在学习当天形成"与既有"记忆从海马漂移到皮层"的描述性说法有张力，但这是模型精细化而非真实矛盾（两者描述的不同层面）；未触发矛盾协议。
+
+**新增悬空引用**：Q-engram-cortical-silent-mechanism 依赖 pv-interneurons（已有页面 ✓）；Q-human-cortical-engram 提及 Quiroga 2005 概念细胞（无专页，后续可建 concept-cells.md）
+
+---
+
 ## 2026-09-10（#140 · 海马给新皮层写的信：互补学习系统与尖波涟漪驱动的记忆系统巩固）
 
 **新建页面（0页）**：今日无新建页面；所有概念在既有页面中处理。

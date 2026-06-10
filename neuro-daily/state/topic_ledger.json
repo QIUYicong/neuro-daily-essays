@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-10",
-  "total_articles": 140,
+  "last_updated": "2026-09-11",
+  "total_articles": 124,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9122,131 +9122,78 @@
         "engram-cells-systems-consolidation: 印迹细胞的系统巩固——海马印迹如何转写到皮层印迹？沉默印迹的时间动态？Roy 2016 光遗传重激活与系统巩固的关系",
         "prefrontal-cortex-memory-consolidation: 前额叶皮层在记忆系统巩固中的角色——从海马依赖到PFC依赖的转变；ACC作为远期记忆的主要皮层储存位点；PFC涟漪的选择性功能"
       ]
+    },
+    {
+      "date": "2026-09-11",
+      "real_date": "2026-06-10",
+      "article_number": 141,
+      "title": "皮层记忆印迹的诞生：当\"沉默\"走向\"成熟\"",
+      "slug": "engram-systems-consolidation",
+      "filename": "2026-09-11-engram-systems-consolidation.md",
+      "article_type": "regular",
+      "core_question": "海马印迹如何\"写入\"皮层？Kitamura 2017：皮层印迹在学习当天就已形成但初始沉默，双印迹并行成熟（DG Day1→沉默；PFC Day1沉默→Day15成熟）。Refaeli 2023：CA1→ACC投射↑，ACC→CA1↓，EC/PVT输入↑——选择性电路重连。Roy 2016：早期AD沉默印迹=提取障碍。Lei 2025：系统性再巩固需新AHN印迹。",
+      "layer": [
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "4. 学习和记忆 → 印迹细胞 → 系统巩固（印迹视角；双印迹并行成熟；电路重组）",
+      "topic_tags": [
+        "engram cells",
+        "systems consolidation",
+        "cortical engram",
+        "hippocampal engram",
+        "silent engram",
+        "prefrontal cortex",
+        "anterior cingulate cortex",
+        "engram maturation",
+        "circuit rewiring",
+        "CA1 to ACC",
+        "BLA input switching",
+        "remote memory",
+        "systems reconsolidation",
+        "adult hippocampal neurogenesis",
+        "Alzheimer silent engram",
+        "Roy 2016",
+        "Kitamura 2017",
+        "Refaeli 2023",
+        "Lei 2025",
+        "complementary learning systems",
+        "CLS",
+        "memory transfer"
+      ],
+      "main_sources": [
+        "PMID:28386011",
+        "PMID:37586373",
+        "PMID:26982728",
+        "PMID:7624455",
+        "PMID:15685217",
+        "PMID:29970909",
+        "PMID:39689709"
+      ],
+      "unresolved_questions": [
+        "Q-engram-cortical-silent-mechanism",
+        "Q-engram-sct-vs-mtt",
+        "Q-cortical-engram-active-inhibition",
+        "Q-human-cortical-engram"
+      ],
+      "next_suggested_topics": [
+        "prefrontal-cortex-memory-consolidation: PFC 完整角色——PFC 印迹成熟机制；ACC 远期记忆储存；PFC 涟漪顶-下门控（Q-cls-cortical-gating-01）",
+        "trkb-bdnf-signaling: TRKB 完整信号通路；截短型 TrkB；BDNF-PV-关键期-AHN 三重角色（Q-cp-reopening-01 分子背景）",
+        "adult-neurogenesis-memory: AHN 与记忆——模式分离、系统性再巩固（Lei 2025）、BDNF→AHN 轴、应激与抑郁"
+      ]
     }
   ],
-  "layer_coverage_recent": {
-    "molecular": [
-      "2026-05-24",
-      "2026-05-25",
-      "2026-05-26",
-      "2026-06-01",
-      "2026-06-04",
-      "2026-06-10",
-      "2026-06-12",
-      "2026-07-03",
-      "2026-07-28",
-      "2026-08-25",
-      "2026-09-05"
-    ],
-    "cellular": [
-      "2026-05-24",
-      "2026-05-25",
-      "2026-05-27",
-      "2026-05-28",
-      "2026-06-01",
-      "2026-06-03",
-      "2026-06-07",
-      "2026-06-11",
-      "2026-06-12",
-      "2026-06-18",
-      "2026-07-03",
-      "2026-07-26",
-      "2026-07-28",
-      "2026-08-25",
-      "2026-09-05",
-      "2026-09-09"
-    ],
-    "synaptic": [
-      "2026-05-24",
-      "2026-05-25",
-      "2026-05-26",
-      "2026-05-28",
-      "2026-06-01",
-      "2026-06-04",
-      "2026-06-10",
-      "2026-07-03",
-      "2026-07-28",
-      "2026-08-25",
-      "2026-09-04",
-      "2026-09-05"
-    ],
-    "microcircuit": [
-      "2026-05-27",
-      "2026-06-03",
-      "2026-06-11",
-      "2026-06-18",
-      "2026-08-25"
-    ],
-    "brain_region": [
-      "2026-05-27",
-      "2026-05-28",
-      "2026-06-07",
-      "2026-06-11",
-      "2026-06-12",
-      "2026-05-31",
-      "2026-07-28",
-      "2026-09-09"
-    ],
-    "whole_brain_network": [
-      "2026-05-29",
-      "2026-05-30",
-      "2026-06-02",
-      "2026-06-07",
-      "2026-06-16",
-      "2026-05-31"
-    ],
-    "behavior": [
-      "2026-05-29",
-      "2026-05-30",
-      "2026-05-31",
-      "2026-06-02",
-      "2026-06-03",
-      "2026-07-28",
-      "2026-09-09"
-    ],
-    "cognition": [
-      "2026-05-26",
-      "2026-05-27",
-      "2026-05-28",
-      "2026-05-30",
-      "2026-05-31",
-      "2026-06-02",
-      "2026-06-03",
-      "2026-06-12",
-      "2026-06-16",
-      "2026-05-31",
-      "2026-07-03",
-      "2026-07-26",
-      "2026-07-28",
-      "2026-08-29",
-      "2026-09-09"
-    ],
-    "disease": [
-      "2026-06-08"
-    ],
-    "methods": [
-      "2026-06-09",
-      "2026-05-31",
-      "2026-06-18"
-    ],
-    "systems": [
-      "2026-06-11",
-      "2026-06-12"
-    ],
-    "whole-brain-network": [
-      "2026-06-18",
-      "2026-07-26",
-      "2026-09-04"
-    ],
-    "brain-region": [
-      "2026-07-26",
-      "2026-08-29",
-      "2026-09-05"
-    ],
-    "theory": [
-      "2026-09-04"
-    ]
-  },
+  "layer_coverage_recent": [
+    "cellular",
+    "whole-brain-network",
+    "cellular",
+    "brain-region",
+    "whole-brain-network",
+    "cognition",
+    "cognition"
+  ],
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",
   "layer_tracking": {
     "whole-brain-network": [

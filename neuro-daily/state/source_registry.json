@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10334,6 +10334,59 @@
       "covers": [
         "systems consolidation mechanisms",
         "hippocampal replay"
+      ]
+    },
+    {
+      "pmid": "28386011",
+      "pmcid": "PMC5493329",
+      "title": "Engrams and circuits crucial for systems consolidation of a memory",
+      "authors": "Kitamura T et al.",
+      "journal": "Science",
+      "year": 2017,
+      "first_used": "2026-09-11",
+      "used_in": [
+        "2026-09-11-engram-systems-consolidation"
+      ],
+      "covers": [
+        "engram systems consolidation",
+        "cortical silent engram",
+        "dual engram model",
+        "BLA input switching",
+        "MEC Layer Va"
+      ]
+    },
+    {
+      "pmid": "37586373",
+      "pmcid": "PMC10524918",
+      "title": "Engram stability and maturation during systems consolidation",
+      "authors": "Refaeli R et al.",
+      "journal": "Current Biology",
+      "year": 2023,
+      "first_used": "2026-09-11",
+      "used_in": [
+        "2026-09-11-engram-systems-consolidation"
+      ],
+      "covers": [
+        "CA1 engram stability",
+        "CA1 to ACC circuit rewiring",
+        "selective rewiring",
+        "EC PVT inputs"
+      ]
+    },
+    {
+      "pmid": "39689709",
+      "title": "Reconstructing a new hippocampal engram for systems reconsolidation",
+      "authors": "Lei B et al.",
+      "journal": "Neuron",
+      "year": 2025,
+      "first_used": "2026-09-11",
+      "used_in": [
+        "2026-09-11-engram-systems-consolidation"
+      ],
+      "covers": [
+        "systems reconsolidation",
+        "new hippocampal engram",
+        "adult hippocampal neurogenesis in reconsolidation"
       ]
     }
   ],

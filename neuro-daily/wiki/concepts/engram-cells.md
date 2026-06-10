@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-07-28
-revision_count: 6
-dimensions: [molecular, synaptic, cellular, brain-region, behavior, cognition, methods]
-related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons, memory-reconsolidation]
+updated: 2026-09-11
+revision_count: 7
+dimensions: [molecular, synaptic, cellular, brain-region, behavior, cognition, methods, whole-brain-network]
+related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons, memory-reconsolidation, engram-systems-consolidation, complementary-learning-systems, adult-neurogenesis]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
-opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence]
-source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-07-05-engram-allocation-memory-competition]
-key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647", "PMID:29709212 (PMC9623596)", "PMID:27251287 (PMC5063500)", "PMID:41470040 (PMC12754038)"]
+opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence, Q-engram-cortical-silent-mechanism, Q-engram-sct-vs-mtt]
+source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-07-05-engram-allocation-memory-competition, 2026-09-11-engram-systems-consolidation]
+key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647", "PMID:29709212 (PMC9623596)", "PMID:27251287 (PMC5063500)", "PMID:41470040 (PMC12754038)", "PMID:28386011 (PMC5493329)", "PMID:37586373 (PMC10524918)", "PMID:29970909"]
 ---
 
 # 印迹细胞 (Engram Cells)
@@ -34,6 +34,8 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 **沉默印迹**是一个关键的新概念（Ryan et al. 2015，PMID:26023136）：当记忆在逆行性遗忘或早期阿尔茨海默症后被"遗忘"时，印迹细胞可能仍保留连接拓扑，但因突触权重（AMPA/NMDA 比值、树突棘密度）降低而无法被自然感觉线索激活——这称为沉默印迹。关键发现：用光遗传学直接激活这些沉默印迹细胞，仍能重现记忆行为，证明**遗忘可以是提取障碍而非存储障碍**。
 
 **再巩固作为印迹修改的窗口**（2026-07-28 新增）：印迹细胞被再激活时，会经历 GluA2 内吞和泛素-蛋白酶体降解（即"再巩固"的去稳定化过程，Ferrara et al. 2019, PMID:30914678）。这6小时内的不稳定窗口正是外部干预（药物、新信息）可以修改印迹细胞突触权重的唯一时机。从这个角度看，**再巩固是印迹的"在线编辑模式"**，在维持印迹整体结构（谁连着谁）的同时，允许突触权重被更新（改变连接强度）。与沉默印迹的"保留拓扑，减弱权重"不同，再巩固的失败（蛋白合成被阻断）会导致印迹的真实消除（Haubrich et al. 2020, PMID:32097575），而非仅仅沉默。
+
+**皮层印迹：并行成熟而非顺序迁移**（2026-09-11 新增）：Kitamura 等 2017（PMID:28386011，Science）发现，前额叶皮层（PFC）记忆印迹并非从海马"漂移"而来，而是在学习当天就已形成，但初始处于**沉默状态**（树突棘稀少，无法被感觉线索激活）。约 2 周内，在持续的海马齿状回（DG）输入支持下，皮层印迹逐渐成熟——树突棘密度增加，情境选择性出现，成为远期记忆的主要提取节点。同期，海马 DG 印迹从活跃转为沉默（但光遗传激活仍可恢复）。因此，系统巩固是**双印迹并行成熟**而非单印迹顺序迁移：海马印迹（Day 1 活跃→Day 13 沉默）+ 皮层印迹（Day 1 沉默→Day 15 成熟）。Refaeli 等 2023（PMID:37586373，Curr Biol）进一步发现，CA1 印迹核心在近期与远期之间高度稳定（重叠率 197%），但电路连接发生重组：CA1→ACC 投射增强，ACC→CA1 反馈减弱，EC 和 PVT 向 CA1 的输入增加——**系统巩固的核心是选择性电路重连，而非权重的单纯积累**。详见 [[engram-systems-consolidation]]。
 
 ## 关键机制
 
@@ -87,6 +89,9 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - [[memory-consolidation]] — SWR 重播可能将海马印迹"复制/转移"至皮层印迹（系统巩固假说）
 - [[sharp-wave-ripples]] — SWR 期间印迹细胞以 20 倍速高速重播，推动海马→皮层固化
 - [[memory-reconsolidation]] — 印迹被再激活时进入再巩固的去稳定化窗口；再巩固是印迹"在线编辑"的分子机会；再巩固失败导致印迹真实消除（区别于沉默印迹）
+- [[engram-systems-consolidation]] — 海马印迹与皮层印迹的并行成熟；皮层沉默印迹的成熟机制；电路重组（Kitamura 2017、Refaeli 2023）
+- [[complementary-learning-systems]] — CLS 框架是印迹系统巩固的理论背景：海马快速编码 + 皮层慢速整合
+- [[adult-neurogenesis]] — Lei 2025 发现成人海马神经发生是系统性再巩固的必要条件，新神经元参与重建远期记忆的海马表征
 
 ## 未解问题
 
@@ -94,6 +99,8 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - Q-engram-necessity-vs-sufficiency：印迹细胞的充分性已证，必要性（消融印迹后记忆是否永久消失）尚存疑问
 - Q-silent-engram-information-locus：沉默印迹中，信息究竟编码在连接拓扑（谁连着谁）还是连接权重（连接有多强）？
 - Q-human-engram-evidence：人类是否存在印迹细胞集合？Quiroga 2005 的"概念细胞"是否是其表现？如何在人类进行实验验证？
+- Q-engram-cortical-silent-mechanism：皮层印迹的"沉默"是结构性（树突棘不足）还是包含主动抑制成分（PV 中间神经元介导的抑制）？两者对于开发恢复沉默印迹的干预方案有不同含义。
+- Q-engram-sct-vs-mtt：Kitamura 2017 的恐惧记忆实验（最远 Day 15）不能区分 SCT（情景记忆完全皮层化）和 MTT（情景记忆终生海马依赖）——更长时间点（数月至数年）或情景细节更丰富的记忆类型能否提供区分证据？
 
 ## 印迹细胞分配的竞争机制
 
@@ -118,9 +125,11 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - 2026-06-09 · 修订 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · 补充 c-fos-tTA 标记系统的技术细节（PMID:24478647 全文，dox 窗口机制，~2-6% DG 细胞稀疏性）；新增 [[optogenetics]] 到 related；补充假记忆实验的完整分子-行为链；将 revision_count 升至 4
 - 2026-07-05 · 修订 · 基于《记忆的竞争法庭》文章（#73）· 分配机制已独立成专页 [[memory-allocation]]，记忆联结已独立成专页 [[memory-linking]]；related 字段新增 memory-allocation、memory-linking、pv-interneurons；key_sources 新增 PMID:29709212、27251287、41470040；重要更新：竞争分配的"时间门控"（训练后 5 min 窗口）和记忆联结（~6h 兴奋性维持窗口）之间的关系在 memory-allocation 和 memory-linking 页面有详细描述
 - 2026-07-28 · 修订 rev6 · 基于《记忆的活书稿》文章（#96）· 当前理解新增"再巩固作为印迹修改的窗口"段落（Ferrara 2019 GluA2内吞+Haubrich 2020记忆消除）；连接节新增 [[memory-reconsolidation]]；related 新增 memory-reconsolidation；dimensions 新增 molecular、synaptic
+- 2026-09-11 · 修订 rev7 · 基于《皮层记忆印迹的诞生》文章（#141）· 当前理解新增"皮层印迹：并行成熟而非顺序迁移"段落（Kitamura 2017 双印迹框架；Refaeli 2023 电路重组）；related 新增 engram-systems-consolidation、complementary-learning-systems、adult-neurogenesis；opens_questions 新增 Q-engram-cortical-silent-mechanism、Q-engram-sct-vs-mtt；连接节新增三条；key_sources 新增 PMID:28386011、37586373、29970909；dimensions 新增 whole-brain-network
 
 ## 来源文章
 
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-06-09-optogenetics-causal-neuroscience]]
+- [[2026-09-11-engram-systems-consolidation]]

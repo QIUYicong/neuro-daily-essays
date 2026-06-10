@@ -1059,3 +1059,9 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 
 **新建页面**：0。**修订**：complementary-learning-systems rev2（重大扩充）、sharp-wave-ripples rev7、memory-consolidation rev9。**图谱**：292 节点，1663 条边（+5边）。**来源**：12篇（7篇开放全文）。**层级**：cognition + whole-brain-network + cellular（层级换挡，与近期 molecular/synaptic 主题形成互补）。
 
+
+## 2026-09-11（#141）— 皮层记忆印迹的诞生：当"沉默"走向"成熟"
+
+今日文章在昨日 CLS/SWR 宏观框架之后，下钻到印迹细胞层面，揭示系统巩固在细胞/回路尺度的精确图像。核心贡献：**颠覆"记忆漂移"图像**——Kitamura 等 2017（Science, PMID:28386011）证明皮层（PFC）印迹在学习当天就已形成，并非从海马漂移而来；皮层印迹初始沉默（树突棘稀少），在海马持续输入支持下约 2 周成熟；同期海马 DG 印迹逐渐沉默（但信息保留，光遗传可激活）。这是"双印迹并行成熟"而非"单印迹顺序迁移"。Refaeli 等 2023（Curr Biol, PMID:37586373）补充电路重组机制：CA1→ACC 投射翻倍，ACC→CA1 反馈减弱，EC/PVT 输入增加——选择性重连，总量守恒。Roy 等 2016（Nature, PMID:26982728）揭示病理性沉默印迹：早期 AD 小鼠中 DG 印迹树突棘减少导致提取失败（非储存失败），光学 LTP 可恢复。Lei 等 2025（Neuron, PMID:39689709）发现系统性再巩固依赖 AHN 生成的新印迹细胞——连接了 AHN（#139）和 CLS（#140）的研究脉络。
+
+**新建 wiki 页**：engram-systems-consolidation（emerging, medium）。**修订**：engram-cells rev7（双印迹框架新增）、memory-consolidation rev10（印迹视角连接）。**图谱**：293 节点，1671 条边（+8边）。**来源**：7篇（3篇开放全文，4篇摘要）。**层级**：cellular + brain-region + whole-brain-network + cognition（横跨四个层级，与前文形成纵向整合）。**新增未解问题**：Q-engram-cortical-silent-mechanism（高）、Q-engram-sct-vs-mtt（中）、Q-human-cortical-engram（中）。

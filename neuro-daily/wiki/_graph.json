@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "node_count": 287,
   "edge_count": 1628,
   "edge_types": [
@@ -2645,6 +2645,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/neurogenesis-induced-forgetting.md"
+    },
+    {
+      "id": "engram-systems-consolidation",
+      "title": "印迹细胞的系统巩固",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/engram-systems-consolidation.md"
     }
   ],
   "edges": [
@@ -11515,6 +11524,46 @@
       "from": "prefrontal-cortex",
       "to": "sharp-wave-ripples",
       "type": "regulates"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "engram-cells",
+      "type": "part-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "complementary-learning-systems",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "prefrontal-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "memory-reconsolidation",
+      "type": "related"
     }
   ],
   "dangling_references": [

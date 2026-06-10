@@ -202,9 +202,18 @@
       "change_reason": "新建（2026-09-03 #134）：Whittington & Bogacz 2017 数学证明扎实（high）；Max et al. 2026 皮层实现为 medium（计算模型，体内验证有限）；整体评为 emerging/medium",
       "previous_status": null,
       "source_article": "2026-09-03-pc-learning-biological-backpropagation"
+    },
+    {
+      "slug": "engram-systems-consolidation",
+      "page": "wiki/concepts/engram-systems-consolidation.md",
+      "status": "emerging",
+      "confidence": "medium",
+      "last_changed": "2026-09-11",
+      "reason": "新建页面；主要证据来自小鼠恐惧记忆（Kitamura 2017, Refaeli 2023）；人类推广有限；Lei 2025 尚需独立重复",
+      "revision_count": 1
     }
   ],
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-11",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -243,7 +252,7 @@
       "source_article": "2026-09-03-pc-learning-biological-backpropagation"
     }
   ],
-  "total_pages": 20,
+  "total_pages": 21,
   "syngap1": {
     "status": "established",
     "confidence": "high",
