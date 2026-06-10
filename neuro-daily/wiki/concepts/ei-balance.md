@@ -6,14 +6,14 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-07-04
-updated: 2026-08-10
-revision_count: 2
+updated: 2026-09-13
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, homeostatic-plasticity, synaptic-scaling, synaptic-pruning, perineuronal-nets, working-memory, competition-selection-principle, cortical-interneuron-development, gaba]
+related: [pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, homeostatic-plasticity, synaptic-scaling, synaptic-pruning, perineuronal-nets, working-memory, competition-selection-principle, cortical-interneuron-development, gaba, schizophrenia, autism-spectrum-disorder, nmda-receptor]
 prerequisites: [synaptic-transmission, action-potential, pv-interneurons]
-opens_questions: [Q-ei-balance-01, Q-ei-balance-02, Q-ei-balance-03]
-source_articles: [2026-07-04-ei-balance-pv-interneuron]
-key_sources: ["PMID:31089192", "PMID:37143468", "PMID:36598942", "PMID:34887320", "PMID:36008036"]
+opens_questions: [Q-ei-balance-01, Q-ei-balance-02, Q-ei-balance-03, Q-scz-pv-01]
+source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-09-13-pv-gamma-schizophrenia-cognition]
+key_sources: ["PMID:31089192", "PMID:37143468", "PMID:36598942", "PMID:34887320", "PMID:36008036", "PMID:12867516", "PMID:22355184", "PMID:33822178"]
 ---
 
 # 兴奋-抑制平衡 (Excitation-Inhibition Balance, E/I Balance)
@@ -90,8 +90,25 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 
 - 2026-07-04 · 创建 · 基于《信号与噪声之间：皮层 E/I 平衡的回路逻辑》一文 · 初始置信度：中（框架成熟，但异质性和精确测量方法仍有争议）
 - 2026-08-10 · 修订 rev2 · 基于《皮层的第二种建筑学》(#109) · 新增：程序性细胞死亡（Wong 2018）作为发育期 E/I 比校准的新维度——中间神经元数量由活动依赖的凋亡筛选决定；related 新增 cortical-interneuron-development, gaba
+- 2026-09-13 · 修订 rev3 · 基于《当 γ 节奏失声》(#143) · 新增精神分裂症 E/I 失衡的特异性机制（NMDAR→PV功能缄默→前额叶 E/I 偏移→认知症状）；related 新增 schizophrenia/autism-spectrum-disorder/nmda-receptor；key_sources 新增 PMID:12867516/22355184/33822178；source_articles 新增 #143；opens_questions 新增 Q-scz-pv-01
+
+## 精神分裂症中的 E/I 失衡（2026-09-13 新增）
+
+精神分裂症中的 E/I 失衡有其特定的空间（DLPFC）和细胞类型（PV 细胞）特异性，与 ASD 的 E/I 模式不同：
+
+- **表现形式**：DLPFC 中抑制性驱动减弱（PV 细胞 GAD67/GABA 不足），导致局部兴奋相对过高，但不是全脑兴奋增加
+- **级联后果**：前额叶 E/I 偏移 → DLPFC 对皮下多巴胺核团（VTA、黑质）的抑制性控制减弱 → 纹状体多巴胺脱抑制 → 正性症状（幻觉、妄想）
+- **认知症状路径**：前额叶 E/I 偏移 → PING 机制受损 → γ 振荡质量下降 → 工作记忆时序编码失败
+- **与 ASD 的区别**：ASD 的 E/I 失衡主要表现为皮层整体兴奋性升高（突触剪枝不足 + E/I 比增加），而 SCZ 主要是前额叶特异性的 PV 细胞抑制减弱；两者的治疗靶点不同
+
+| 主张 | 证据/方法 | 来源 | 置信度 |
+|------|----------|------|--------|
+| SCZ DLPFC PV 细胞 GAD67 下调 → GABA 减少 | 死后脑原位杂交 | PMID:12867516 | 高 |
+| PV 特异 NMDAR 缺失 → PFC 锥体细胞 E/I 失衡 | cKO 小鼠在体电生理 | PMID:33822178 | 中 |
+| NMDAR 低激活通过 PV 细胞损伤产生 E/I 失衡 | 综述 | PMID:22355184 | 中-高 |
 
 ## 来源文章
 
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-08-10-cortical-interneuron-tangential-migration]]
+- [[2026-09-13-pv-gamma-schizophrenia-cognition]]

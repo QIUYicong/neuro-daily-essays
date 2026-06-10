@@ -1,0 +1,189 @@
+# Run Log — 2026-09-13
+
+**文章编号**：#143
+**虚拟日期**：2026-09-13
+**实际执行日期**：2026-06-11（UTC+8）
+**主题**：当 γ 节奏失声：精神分裂症中 PV 中间神经元、NMDA 受体与认知崩溃
+**Slug**：pv-gamma-schizophrenia-cognition
+**分支**：main
+
+---
+
+## 主题选择
+
+**选题逻辑**：
+
+前一篇文章（#142，trkb-receptor-three-roles）的 next_suggested_topics 中列出：
+> "pv-interneurons-circuits: PV细胞完整回路角色——快速前馈抑制/GABA-E/I平衡/关键期/精神分裂症"
+
+选题理由：
+1. 知识图谱中 `schizophrenia` 节点完全缺失（294节点中无精神分裂症页面）
+2. `pv-interneurons.md`（rev5）已有基本 SCZ 提及但缺乏完整疾病机制叙述
+3. `gamma-oscillations.md`（rev5）和 `ei-balance.md`（rev2）均需要 SCZ 疾病视角补充
+4. 近期层级（cellular/brain-region/cognition），此次主题为 microcircuit/disease（层级变换）
+5. 课程脊柱第 11 条（疾病作为窗口）尚未覆盖精神分裂症
+6. 连接了 TrkB（#142）→ PV 成熟时钟 → 关键期 → 精神分裂症的完整因果链
+
+---
+
+## 文献检索
+
+### 搜索词（按执行顺序）
+
+1. `parvalbumin interneurons schizophrenia gamma oscillations NMDA receptor` (PubMed, 29 results)
+2. `PV interneuron deficit schizophrenia NMDA hypofunction cognitive 2019:2026` (PubMed, 4 results)
+3. `Sohal parvalbumin gamma oscillations working memory 2009` (PubMed)
+4. `Lewis Gonzalez-Burgos GABAergic inhibition schizophrenia` (PubMed, 3 results)
+5. `Hashimoto GAD67 parvalbumin schizophrenia 2003:2008` (PubMed, 3 results)
+6. `parvalbumin schizophrenia NMDA gamma review 2022:2026` (PubMed, 1 result)
+7. `Cardin parvalbumin gamma optogenetic 2009` (PubMed, 2 results)
+8. `working memory gamma oscillations schizophrenia DLPFC prefrontal` (PubMed, 6 results)
+9. `Javitt Zukin NMDA phencyclidine schizophrenia 1991` (PubMed, 1 result)
+10. PMC open access search for relevant review articles
+
+### 检索数据库
+
+- PubMed (NCBI E-utilities API)
+- PubMed efetch for abstracts of selected PMIDs
+- PMC direct article access (PMC3446219, PMC4444373)
+
+### 候选文献及取舍
+
+| PMID | 采用/排除 | 原因 |
+|------|---------|------|
+| PMID:1654746 | 采用 | Javitt & Zukin 1991，PCP→NMDAR 假说起源；经典证据 |
+| PMID:12867516 | 采用 | Hashimoto 2003，J Neurosci；死后脑 GAD67/PV 下调；核心证据 |
+| PMID:15647480 | 采用 | Hashimoto 2005，J Neurosci；BDNF-TrkB 与 GAD67/PV 相关 |
+| PMID:19396156 | 采用 | Cardin 2009，Nature；PV 细胞→γ 光遗传因果证据 |
+| PMID:19396159 | 采用 | Sohal 2009，Nature；PV 细胞→γ 光遗传因果证据 |
+| PMID:22355184 (PMC3446219) | 采用 | Gonzalez-Burgos & Lewis 2012；核心综述，开放全文 |
+| PMID:22718616 | 采用 | Rotaru 2012；NMDAR→PV 直接 vs 间接机制约束 |
+| PMID:22983435 | 采用 | Volk 2012；Lhx6 发育转录因子缺陷 |
+| PMID:24749063 | 采用 | Chen 2014，NeuroImage Clin；GABA-γ-WM 相关性 |
+| PMID:25863358 (PMC4444373) | 采用 | Gonzalez-Burgos, Cho, Lewis 2015；临床 γ 证据综述，开放全文 |
+| PMID:26281716 | 排除 | Jadi 2016 计算模型，信息已被 Gonzalez-Burgos 综述覆盖 |
+| PMID:28148460 | 采用 | Barr 2017；θ-γ 耦合受损与 WM 相关 |
+| PMID:29934499 | 采用 | Hasam-Henderson 2018；NMDAR + 氧化应激 → PV 表达 |
+| PMID:31786371 | 采用 | Hudson 2020；PV vs 锥体细胞 NMDAR 对 γ 的不同贡献 |
+| PMID:32859995 | 采用 | Nakao 2020；GSK3β 抑制剂恢复 γ 在 NMDAR 低激活模型 |
+| PMID:33822178 | 采用 | Pafundo 2021；PV 特异性 NMDAR KO → E/I 失衡 |
+| PMID:35989397 | 采用 | Shu 2023；γ 神经反馈干预 WM 在 SCZ |
+| PMID:37247333 | 采用 | Musselman 2023；Kv3.1/3.2 调制剂治疗逻辑 |
+| PMID:40436282 | 采用 | Hosseini 2025；GluN2A 缺失选择性 PV 损伤，最新证据 |
+| PMID:40999235 | 采用 | García-Cerro 2025；氯氮平 PNN 重塑机制，最新证据 |
+
+**最终采用**：19 篇（5 篇开放全文：PMC3446219、PMC4444373、NeuroImage Clin PMC、Sci Rep PMC、Neuropsychopharm PMC；14 篇摘要）
+**满足 ROUTINE.md 最低要求**：≥5篇（✓，19篇），≥2篇全文（✓，5篇），≥1官方机构来源（✓，PMC J Neurosci）
+
+---
+
+## 文章创作
+
+**文件**：`neuro-daily/articles/2026-09-13-pv-gamma-schizophrenia-cognition.md`
+
+**叙事架构**：从 Javitt & Zukin 1991 的 PCP 模型入手（NMDAR 假说的起源和意义）→ Hashimoto 2003 死后脑的"分子缄默"发现（非细胞死亡）→ NMDAR→PV 的连接（Gonzalez-Burgos 2012 综述 + 约束）→ PV→γ 的因果链（Sohal/Cardin 2009）→ γ→认知的临床证据（Gonzalez-Burgos 2015 + Barr 2017）→ 认知崩溃机制（θ-γ 耦合，工作记忆时序编码）→ 新治疗逻辑（Kv3 调制剂）→ 争议框架
+
+**字符数估计**：约 5200 中文字符（符合 3000–6000 范围）
+**所有 13 个必要章节**：已包含 ✓
+
+---
+
+## Wiki 固结
+
+### 新建页面
+
+| 页面 | Slug | 状态 | 置信度 |
+|------|------|------|--------|
+| 精神分裂症 | schizophrenia | mainstream | medium |
+
+**新建 wiki 页**：`neuro-daily/wiki/diseases/schizophrenia.md`
+- 覆盖：γ-PV 假说、GAD67/PV 分子缄默证据、NMDAR 机制、Lhx6 发育因子、Kv3 治疗靶点、SCZ vs ASD E/I 比较、关键证据表、连接图（10 个相关节点）、未解问题（3 条）、修订历史
+
+### 修订页面
+
+| 页面 | 版本 | 修改内容 |
+|------|------|---------|
+| pv-interneurons.md | rev5→rev6 | 新增"精神分裂症疾病视角"小节；related 新增 3个slug；key_sources 新增5条；opens_questions 新增Q-scz-pv-01/02 |
+| gamma-oscillations.md | rev5→rev6 | 新增"精神分裂症中的 γ 振荡缺陷"小节+证据表；related 新增 schizophrenia/nmda-receptor；dimensions 新增 disease；key_sources 新增 4条 |
+| ei-balance.md | rev2→rev3 | 新增"精神分裂症中的 E/I 失衡"小节（DLPFC特异性、多巴胺级联、vs ASD 对比）+证据表；related 新增 3个slug；key_sources 新增3条 |
+
+---
+
+## 知识图谱更新
+
+**文件**：`neuro-daily/wiki/_graph.json`
+
+| 变化 | 数量 |
+|------|------|
+| 新节点 | +1（schizophrenia） |
+| 新边 | +12 |
+| 总节点 | 294→295 |
+| 总边 | 1683→1695 |
+
+新增边（schizophrenia ↔ 其他节点）：
+- schizophrenia → pv-interneurons (mechanism-of)
+- schizophrenia → gamma-oscillations (mechanism-of)
+- schizophrenia → ei-balance (related)
+- schizophrenia → working-memory (related)
+- schizophrenia → dopamine-system (related)
+- schizophrenia → prefrontal-cortex (related)
+- nmda-receptor → schizophrenia (mechanism-of)
+- pv-interneurons → schizophrenia (supports)
+- gamma-oscillations → schizophrenia (supports)
+- perineuronal-nets → schizophrenia (related)
+- trkb-receptor → schizophrenia (related)
+- bdnf → schizophrenia (related)
+
+**新增悬空引用**：`nmda-receptor`（多处引用，尚无独立 wiki 页）、`dopamine-system`（引用但未建页）
+
+---
+
+## 治理层更新
+
+| 文件 | 操作 |
+|------|------|
+| state/topic_ledger.json | 新增条目 #143（entry 126） |
+| state/unresolved_questions.md | 新增 Q-scz-pv-01/02/03 |
+| state/maturity_index.json | 新增 schizophrenia 条目 |
+| state/monthly_synthesis.md | 追加 2026-09-13 摘要 |
+| state/source_registry.json | 新增 15 篇（2篇已存在，略过）|
+| logs/2026-09-13-run.log | 本文件 |
+
+---
+
+## 失败与限制
+
+1. **PMC 访问**：部分 PMC 链接触发重定向到 `pmc.ncbi.nlm.nih.gov`，已成功改用新 URL 访问 PMC3446219 和 PMC4444373
+2. **主要来源仅摘要**：14 篇来源仅有摘要（Hashimoto 2003/2005, Cardin 2009, Sohal 2009, Volk 2012 等）；核心事实来自摘要+已有综述文献的间接引用
+3. **5 篇开放全文**：PMC3446219（Gonzalez-Burgos 2012）、PMC4444373（Gonzalez-Burgos 2015）、NeuroImage Clin（Chen 2014）、Sci Rep（Hasam-Henderson 2018）、Neuropsychopharmacology（Nakao 2020）
+4. **直接 vs 间接 NMDAR 机制争议**：Gonzalez-Burgos 2012 的约束（NMDAR 在成熟 PV 细胞 γ 状态下直接贡献相对小）与 Hosseini 2025 GluN2A KO 直接损伤 PV 的数据存在张力——文章中如实呈现两种机制，未强行统一
+5. **人类证据局限**：死后脑研究（药物混杂）和 EEG（相关性）是主要人类证据；光遗传因果证据来自啮齿类；外推到人类时保持适当谨慎
+
+---
+
+## 注册矛盾
+
+- 无新矛盾登记（今日证据与既有 wiki 主张一致；NMDAR 直接/间接机制争议已在文章和 wiki 中如实呈现两种视角，属于"已知张力"而非新矛盾）
+
+---
+
+## Commit & Push 状态
+
+- **Branch**：main
+- **Files committed**：
+  - neuro-daily/articles/2026-09-13-pv-gamma-schizophrenia-cognition.md（新建）
+  - neuro-daily/notes/2026-09-13-reading-notes.md（新建）
+  - neuro-daily/sources/2026-09-13-sources.json（新建）
+  - neuro-daily/wiki/diseases/schizophrenia.md（新建）
+  - neuro-daily/wiki/circuits/pv-interneurons.md（修订 rev6）
+  - neuro-daily/wiki/concepts/gamma-oscillations.md（修订 rev6）
+  - neuro-daily/wiki/concepts/ei-balance.md（修订 rev3）
+  - neuro-daily/wiki/_graph.json（+1节点+12边）
+  - neuro-daily/wiki/CHANGELOG.md（新增2026-09-13条目）
+  - neuro-daily/wiki/index.md（更新头部+diseases条目）
+  - neuro-daily/state/topic_ledger.json（新增条目#143）
+  - neuro-daily/state/unresolved_questions.md（新增Q-scz-pv-01/02/03）
+  - neuro-daily/state/maturity_index.json（新增schizophrenia）
+  - neuro-daily/state/monthly_synthesis.md（追加2026-09-13）
+  - neuro-daily/state/source_registry.json（新增15篇）
+  - neuro-daily/logs/2026-09-13-run.log（本文件）

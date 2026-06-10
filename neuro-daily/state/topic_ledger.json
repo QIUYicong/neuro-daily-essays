@@ -9256,6 +9256,73 @@
         "perineuronal-nets-plasticity: PNN完整功能——ECM稳定/关键期锁定/ChABC重开可塑性/ASD-SCZ病理（从今日PNN-PTPσ-TrkB轴延伸）",
         "critical-period-reopening-mechanisms: 关键期重开完整策略——ChABC/fluoxetine/环境丰化/TrkB跨膜药物（从今日闸门机制延伸）"
       ]
+    },
+    {
+      "date": "2026-09-13",
+      "real_date": "2026-06-11",
+      "article_number": 143,
+      "title": "当 γ 节奏失声：精神分裂症中 PV 中间神经元、NMDA 受体与认知崩溃",
+      "slug": "pv-gamma-schizophrenia-cognition",
+      "filename": "2026-09-13-pv-gamma-schizophrenia-cognition.md",
+      "article_type": "regular",
+      "core_question": "PV+ 中间神经元的 γ 振荡生成功能如何通过 NMDA 受体低激活机制在精神分裂症中遭到破坏，从而导致工作记忆等认知缺陷？DLPFC PV 细胞 GAD67/PV 分子缄默（Hashimoto 2003，非细胞死亡）→ PING 机制受损 → γ 功率降低 + θ-γ 耦合解体 → 认知症状。NMDAR 低激活（Javitt 1991 PCP/氯胺酮）→ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；Gonzalez-Burgos 2012 约束：成熟 γ 状态下 NMDAR 对 PV 直接贡献相对小（AMPAR 主导），机制可能主要发育性/间接；新治疗靶点：Kv3.1/3.2 调制剂/PNN 重塑",
+      "layer": [
+        "microcircuit",
+        "disease",
+        "cognition",
+        "cellular",
+        "molecular"
+      ],
+      "curriculum_track": "11. 疾病作为窗口 → 精神分裂症 → PV 中间神经元 γ 振荡缺陷机制与认知症状",
+      "topic_tags": [
+        "schizophrenia",
+        "parvalbumin interneurons",
+        "GAD67",
+        "gamma oscillations",
+        "NMDA receptor hypofunction",
+        "PING mechanism",
+        "theta-gamma coupling",
+        "working memory",
+        "DLPFC",
+        "postmortem DLPFC",
+        "Hashimoto 2003",
+        "Gonzalez-Burgos Lewis",
+        "Sohal 2009",
+        "Cardin 2009",
+        "Kv3 potassium channel",
+        "AUT00206",
+        "PNN perineuronal nets",
+        "clozapine",
+        "PV cell molecular silencing",
+        "E/I imbalance",
+        "Lhx6",
+        "GluN2A GRIN2A",
+        "cognitive deficits schizophrenia"
+      ],
+      "main_sources": [
+        "PMID:1654746",
+        "PMID:12867516",
+        "PMID:15647480",
+        "PMID:19396156",
+        "PMID:19396159",
+        "PMID:22355184",
+        "PMID:22983435",
+        "PMID:25863358",
+        "PMID:28148460",
+        "PMID:40436282",
+        "PMID:40999235",
+        "PMID:37247333"
+      ],
+      "unresolved_questions": [
+        "Q-scz-pv-01",
+        "Q-scz-pv-02",
+        "Q-scz-pv-03"
+      ],
+      "next_suggested_topics": [
+        "nmda-receptor-subtypes: NMDA 受体完整结构——GluN2A/2B 亚基功能差异；SCZ 和 AD 中 GluN2A/2B 变化；阳性变构调制剂（PAM）靶点设计",
+        "dopamine-prefrontal-interaction: 多巴胺-前额叶交互——D1 vs D2 受体在 WM 中的倒 U 形作用；DA 对 PV 细胞和锥体细胞的差异调制；SCZ 正性症状的顶-下机制",
+        "schizophrenia-genetics-circuits: SCZ 遗传学与回路——DISC1/NRG1/GRIN2A 变异如何汇聚到 PV-γ 回路缺陷"
+      ]
     }
   ],
   "layer_coverage_recent": [

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "node_count": 287,
   "edge_count": 1628,
   "edge_types": [
@@ -2663,6 +2663,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/trkb-receptor.md"
+    },
+    {
+      "id": "schizophrenia",
+      "title": "精神分裂症",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/schizophrenia.md"
     }
   ],
   "edges": [
@@ -11632,6 +11641,66 @@
     {
       "from": "trkb-receptor",
       "to": "synaptic-transmission",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "schizophrenia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "schizophrenia",
+      "type": "supports"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "schizophrenia",
+      "type": "supports"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "schizophrenia",
+      "type": "related"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "schizophrenia",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "schizophrenia",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "dopamine-system",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "prefrontal-cortex",
       "type": "related"
     }
   ],

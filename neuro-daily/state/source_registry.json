@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-13",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10551,9 +10551,144 @@
         "TrkB.T1 ALS protective",
         "SOD1 G93A motor neuron"
       ]
+    },
+    {
+      "pmid": "1654746",
+      "title": "Recent advances in the PCP model of schizophrenia",
+      "first_author": "Javitt DC",
+      "year": 1991,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "19396156",
+      "title": "Driving fast-spiking cells induces gamma rhythm",
+      "first_author": "Cardin JA",
+      "year": 2009,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "22355184",
+      "title": "NMDA receptor hypofunction, PV neurons, gamma in schizophrenia",
+      "first_author": "Gonzalez-Burgos G",
+      "year": 2012,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "22718616",
+      "title": "Glutamatergic inputs onto PV interneurons: relevance for schizophrenia",
+      "first_author": "Rotaru DC",
+      "year": 2012,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "22983435",
+      "title": "Deficits in transcriptional regulators of PV neurons in schizophrenia",
+      "first_author": "Volk DW",
+      "year": 2012,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "24749063",
+      "title": "GABA level, gamma oscillation, and working memory in schizophrenia",
+      "first_author": "Chen CM",
+      "year": 2014,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "28148460",
+      "title": "Impaired theta-gamma coupling in working memory in schizophrenia",
+      "first_author": "Barr MS",
+      "year": 2017,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "29934499",
+      "title": "NMDAR inhibition and oxidative stress alter PV expression and gamma",
+      "first_author": "Hasam-Henderson LA",
+      "year": 2018,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "31786371",
+      "title": "NMDA receptors on PV+ and pyramidal neurons contribute to MK-801 gamma disturbances",
+      "first_author": "Hudson MR",
+      "year": 2020,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "32859995",
+      "title": "GSK3beta inhibition restores cortical gamma in NMDAR hypofunction SCZ model",
+      "first_author": "Nakao K",
+      "year": 2020,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "33822178",
+      "title": "Early NMDA receptor ablation in interneurons causes E/I imbalance in SCZ model PFC",
+      "first_author": "Pafundo DE",
+      "year": 2021,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "35989397",
+      "title": "Targeting frontal gamma with neurofeedback in schizophrenia",
+      "first_author": "Shu IW",
+      "year": 2023,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "37247333",
+      "title": "Potassium channel modulators and schizophrenia",
+      "first_author": "Musselman M",
+      "year": 2023,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "40436282",
+      "title": "Global Grin2a loss causes divergent impairments to PV+ and SST+ interneurons",
+      "first_author": "Hosseini H",
+      "year": 2025,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "40999235",
+      "title": "Clozapine induces perineuronal net remodeling in schizophrenia mouse model",
+      "first_author": "Garcia-Cerro S",
+      "year": 2025,
+      "used_in": [
+        "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
     }
   ],
-  "total_sources": 592,
+  "total_sources": 636,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

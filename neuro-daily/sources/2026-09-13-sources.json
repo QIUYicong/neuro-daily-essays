@@ -1,0 +1,202 @@
+{
+  "date": "2026-09-13",
+  "actual_execution_date": "2026-06-11",
+  "article": "#143 pv-gamma-schizophrenia-cognition",
+  "total_sources": 19,
+  "open_full_text": 5,
+  "abstract_only": 14,
+  "sources": [
+    {
+      "pmid": "1654746",
+      "title": "Recent advances in the phencyclidine model of schizophrenia",
+      "authors": "Javitt DC, Zukin SR",
+      "journal": "The American Journal of Psychiatry",
+      "year": 1991,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "NMDAR hypofunction hypothesis origin; PCP model produces both positive and cognitive symptoms of SCZ"
+    },
+    {
+      "pmid": "12867516",
+      "title": "Gene expression deficits in a subclass of GABA neurons in the prefrontal cortex of subjects with schizophrenia",
+      "authors": "Hashimoto T et al.",
+      "journal": "The Journal of Neuroscience",
+      "year": 2003,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "Core postmortem evidence: GAD67/PV mRNA reduced in ~45% of PV+ neurons in DLPFC; cell count unchanged"
+    },
+    {
+      "pmid": "15647480",
+      "title": "Relationship of brain-derived neurotrophic factor and its receptor TrkB to altered inhibitory prefrontal circuitry in schizophrenia",
+      "authors": "Hashimoto T et al.",
+      "journal": "The Journal of Neuroscience",
+      "year": 2005,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "BDNF/TrkB correlated with GAD67/PV reduction in SCZ DLPFC; links TrkB pathway to PV dysfunction"
+    },
+    {
+      "pmid": "19396156",
+      "title": "Driving fast-spiking cells induces gamma rhythm and controls sensory responses",
+      "authors": "Cardin JA et al.",
+      "journal": "Nature",
+      "year": 2009,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "Optogenetic causal evidence: activating PV/FS cells at specific frequency induces gamma rhythm"
+    },
+    {
+      "pmid": "19396159",
+      "title": "Parvalbumin neurons and gamma rhythms enhance cortical circuit performance",
+      "authors": "Sohal VS, Zhang F, Yizhar O, Deisseroth K",
+      "journal": "Nature",
+      "year": 2009,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "Optogenetic causal evidence: PV cells are necessary and sufficient for gamma; gamma enhances circuit signal/noise"
+    },
+    {
+      "pmid": "22355184",
+      "pmcid": "PMC3446219",
+      "title": "NMDA receptor hypofunction, parvalbumin-positive neurons, and cortical gamma oscillations in schizophrenia",
+      "authors": "Gonzalez-Burgos G, Lewis DA",
+      "journal": "Schizophrenia Bulletin",
+      "year": 2012,
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "relevance": "Key review: links NMDAR hypofunction → PV dysfunction → gamma deficits → cognitive symptoms in SCZ; raises key constraint about NMDAR direct role in mature PV cells"
+    },
+    {
+      "pmid": "22718616",
+      "title": "The role of glutamatergic inputs onto parvalbumin-positive interneurons: relevance for schizophrenia",
+      "authors": "Rotaru DC et al.",
+      "journal": "Reviews in the Neurosciences",
+      "year": 2012,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "Questions whether NMDAR antagonism directly affects mature PV neurons; proposes cortical disinhibition via alternative mechanisms"
+    },
+    {
+      "pmid": "22983435",
+      "title": "Deficits in transcriptional regulators of cortical parvalbumin neurons in schizophrenia",
+      "authors": "Volk DW et al.",
+      "journal": "The American Journal of Psychiatry",
+      "year": 2012,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "Lhx6 (MGE fate TF) also reduced in SCZ DLPFC, along with PV/SST/GAD67; suggests developmental origin"
+    },
+    {
+      "pmid": "24749063",
+      "title": "GABA level, gamma oscillation, and working memory performance in schizophrenia",
+      "authors": "Chen CM et al.",
+      "journal": "NeuroImage Clinical",
+      "year": 2014,
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "relevance": "GABA levels correlate with gamma amplitude in SCZ; reduced gamma during WM tasks"
+    },
+    {
+      "pmid": "25863358",
+      "pmcid": "PMC4444373",
+      "title": "Alterations in cortical network oscillations and parvalbumin neurons in schizophrenia",
+      "authors": "Gonzalez-Burgos G, Cho RY, Lewis DA",
+      "journal": "Biological Psychiatry",
+      "year": 2015,
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "relevance": "Comprehensive review: SCZ gamma power reduced in DLPFC during cognitive tasks; PV basket cell GAD67 loss; two competing mechanistic models (intrinsic PV vs. pyramidal driver)"
+    },
+    {
+      "pmid": "28148460",
+      "title": "Impaired theta-gamma coupling during working memory performance in schizophrenia",
+      "authors": "Barr MS et al.",
+      "journal": "Schizophrenia Research",
+      "year": 2017,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "SCZ patients show selectively impaired theta-gamma coupling during WM; coupling correlates with task accuracy"
+    },
+    {
+      "pmid": "29934499",
+      "title": "NMDA-receptor inhibition and oxidative stress during hippocampal maturation differentially alter parvalbumin expression and gamma-band activity",
+      "authors": "Hasam-Henderson LA et al.",
+      "journal": "Scientific Reports",
+      "year": 2018,
+      "full_text_available": true,
+      "access_type": "PMC open access (Scientific Reports)",
+      "relevance": "NMDAR inhibition + oxidative stress synergistically reduce PV expression; separate pathological mechanisms"
+    },
+    {
+      "pmid": "31786371",
+      "title": "NMDA receptors on parvalbumin-positive interneurons and pyramidal neurons both contribute to MK-801 induced gamma oscillatory disturbances",
+      "authors": "Hudson MR et al.",
+      "journal": "Neurobiology of Disease",
+      "year": 2020,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "Both PV interneurons and pyramidal neurons contribute to MK-801 gamma disruption; complex relationships"
+    },
+    {
+      "pmid": "32859995",
+      "title": "GSK3β inhibition restores cortical gamma oscillation and cognitive behavior in a mouse model of NMDA receptor hypofunction relevant to schizophrenia",
+      "authors": "Nakao K et al.",
+      "journal": "Neuropsychopharmacology",
+      "year": 2020,
+      "full_text_available": true,
+      "access_type": "PMC open access (Neuropsychopharmacology)",
+      "relevance": "GSK3β inhibition restores synchronous GABA release, spike firing, and evoked gamma in NMDAR hypofunction SCZ model"
+    },
+    {
+      "pmid": "33822178",
+      "title": "Early NMDA receptor ablation in interneurons causes an activity-dependent E/I imbalance in PFC pyramidal neurons of a schizophrenia model",
+      "authors": "Pafundo DE et al.",
+      "journal": "Schizophrenia Bulletin",
+      "year": 2021,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "PV-specific NMDAR KO → E/I imbalance in PFC pyramidal neurons; confirms direct PV-NMDAR contribution"
+    },
+    {
+      "pmid": "37247333",
+      "title": "Potassium channel modulators and schizophrenia: an overview of investigational drugs",
+      "authors": "Musselman M et al.",
+      "journal": "Expert Opinion on Investigational Drugs",
+      "year": 2023,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "Kv3.1/3.2 channel modulators (AUT00206) as therapeutic approach targeting PV cell fast-spiking capacity in SCZ"
+    },
+    {
+      "pmid": "35989397",
+      "title": "Targeting frontal gamma activity with neurofeedback to improve working memory in schizophrenia",
+      "authors": "Shu IW et al.",
+      "journal": "Current Topics in Behavioral Neurosciences",
+      "year": 2023,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "EEG gamma neurofeedback to improve WM in SCZ; gamma as therapeutic target"
+    },
+    {
+      "pmid": "40436282",
+      "title": "Global Grin2a loss causes divergent impairments to PV+ and SST+ interneurons and alters gamma oscillations in prefrontal cortex",
+      "authors": "Hosseini H et al.",
+      "journal": "Neurobiology of Disease",
+      "year": 2025,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "GluN2A-specific PV vulnerability: GluN2A KO selectively impairs PV+ cells while enhancing SST+; gamma power altered in PFC"
+    },
+    {
+      "pmid": "40999235",
+      "title": "Clozapine induces perineuronal net remodeling in a developmental mouse model exhibiting schizophrenia-relevant phenotypes",
+      "authors": "García-Cerro S et al.",
+      "journal": "Neuropsychopharmacology",
+      "year": 2025,
+      "full_text_available": false,
+      "access_type": "abstract",
+      "relevance": "Clozapine restores PNN microarchitecture in SCZ model; antipsychotic effects involve extracellular matrix remodeling around PV cells"
+    }
+  ]
+}

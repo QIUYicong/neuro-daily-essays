@@ -2940,3 +2940,29 @@
 ### 新增未解问题（2 条）
 - Q-ahn-01（中优先）：神经发生诱导遗忘的记忆类型选择性（恐惧条件化之外的记忆类型是否同样受影响）
 - Q-ahn-02（中优先）：人类神经元数量 vs 活性的独立调控机制（SSRI/氯胺酮解耦现象是否存在独立的分子开关）
+
+## 2026-09-13 (文章 #143：当 γ 节奏失声)
+
+### 新建 wiki 页面（1 个）
+- `wiki/diseases/schizophrenia.md` — 精神分裂症 | mainstream / medium | γ-PV 假说：DLPFC PV+ 细胞 GAD67/PV 分子缄默（非细胞死亡，Hashimoto 2003）→ PING 受损 → γ 功率降低 → θ-γ 耦合解体 → 工作记忆缺陷；NMDAR 低激活（Javitt 1991）→ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；Kv3.1/3.2 治疗靶点
+
+### 修订 wiki 页面（3 个）
+- `wiki/circuits/pv-interneurons.md`（rev5→rev6）：新增"精神分裂症疾病视角"小节（GAD67缄默机制、NMDAR约束引用Gonzalez-Burgos 2012、Kv3靶点）；related 新增 schizophrenia/trkb-receptor/nmda-receptor；key_sources 新增 5 条；opens_questions 新增 Q-scz-pv-01/02
+- `wiki/concepts/gamma-oscillations.md`（rev5→rev6）：新增"精神分裂症中的 γ 振荡缺陷"小节（SCZ γ功率临床证据、θ-γ耦合、Cardin/Sohal 2009 因果证据、GABA-γ相关性）；related 新增 schizophrenia/nmda-receptor；dimensions 新增 disease；key_sources 新增 4 条
+- `wiki/concepts/ei-balance.md`（rev2→rev3）：新增"精神分裂症中的 E/I 失衡"小节（PV GAD67下调→前额叶E/I偏移→多巴胺脱抑制→正性症状；与ASD E/I失衡的对比）；related 新增 schizophrenia/autism-spectrum-disorder/nmda-receptor；key_sources 新增 3 条
+
+### 登记或裁决矛盾
+- 无新矛盾（今日证据内部一致；Q-pv-schizophrenia-causal 转移为新的 Q-scz-pv-01 但仍 open）
+
+### 新增悬空引用（待补页面）
+- `nmda-receptor`（在 schizophrenia.md 的 related 和多处引用，尚无独立 wiki 页）
+- `dopamine-system`（在 schizophrenia.md 中引用，尚无独立 wiki 页）
+
+### 图谱变化
+- 节点：294 → 295（+1：schizophrenia）
+- 边：1683 → 1695（+12）
+
+### 新增未解问题（3 条）
+- Q-scz-pv-01（高）：PV 细胞 GAD67 下调时间窗——UHR 中 γ 振荡变化能否预测发病？
+- Q-scz-pv-02（高）：PV 细胞功能缄默的分子可逆性——Lhx6 再激活/TrkB 激动剂能否恢复 GAD67？
+- Q-scz-pv-03（中）：GluN2A vs GluN2B 亚基在 SCZ PV 细胞缺陷中的相对贡献

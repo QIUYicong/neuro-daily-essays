@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-12（**#142**·TrkB受体的三重角色——PV细胞成熟时钟（Huang 1999）、PNN-PTPσ-TrkB关键期闸门（Lesnikova 2021）、成年海马新生神经元4-6周TrkB依赖存活判决（PNAS 2008）；TrkB跨膜域作为多类抗抑郁药共同变构靶点（Li 2024）；TrkB/mGluR5双模式交叉对话（Arefin 2026）；截断型TrkB.T1的主动信号功能扩展）· 主题页总数：**275**（新建1页：trkb-receptor；修订2页：bdnf rev4 · adult-neurogenesis rev5；图谱294节点、1683边）
+> 最后更新：2026-09-13（**#143**·精神分裂症中 PV 中间神经元 γ 振荡缺陷的 NMDAR 机制——DLPFC PV 细胞 GAD67/PV 分子缄默（Hashimoto 2003）→ PING 机制受损 → γ 功率降低 → θ-γ 耦合解体 → 工作记忆认知症状；NMDAR 低激活（Javitt 1991）→ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；Kv3.1/3.2 调节剂新治疗策略（Musselman 2023））· 主题页总数：**276**（新建1页：schizophrenia；修订3页：pv-interneurons rev6 · gamma-oscillations rev6 · ei-balance rev3；图谱295节点、1695边）
 
 ---
 
@@ -317,6 +317,7 @@
 - 🔵 [自闭症谱系障碍](diseases/autism-spectrum-disorder.md) — 高度异质神经发育障碍；三大通路：(1)突触修剪不足（16p11.2缺失→CD47感知障碍→小胶质吞噬↓→突触密度↑）；(2)突触装配蛋白突变（NLGN3/SHANK3/NRXN1β）；(3)E/I失衡偏兴奋；与精神分裂症形成"删除方向"镜像（过多 vs. 过少修剪）；confidence=medium（机制异质性大）**[NEW 2026-08-07 #106]**
 - 🟢 [传导性失语症](diseases/conduction-aphasia.md) — AF直接段/Spt损伤的典型临床表现；三特征：理解完整/产出流利/重复严重受损；conduite d'approche在DIVA前馈/反馈框架中的解释；皮层（Spt）vs 白质（AF）损伤争议 **[NEW 2026-08-21 #119]**
 - 🟢 [SYNGAP1 相关神经发育障碍](diseases/syngap1-related-disorder.md) — de novo SYNGAP1截短突变→SynGAP1单倍剂量不足→Ras-ERK制动减弱→突触提前过度成熟→LTP遮蔽→关键期提前关闭；约1%非综合征性ID；>70%癫痫、~50% ASD；成年期基因治疗前景 **[NEW 2026-09-07 #137]**
+- 🔵 [精神分裂症](diseases/schizophrenia.md) — 回路节律失调的发育性疾病；DLPFC PV+ 细胞 GAD67/PV 分子缄默（非细胞死亡，Hashimoto 2003）→ PING 机制受损 → γ 振荡功率降低 + θ-γ 耦合解体 → 工作记忆认知缺陷；上游机制：NMDAR 低激活（PCP/氯胺酮模型 Javitt 1991）+ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；新治疗靶点：Kv3.1/3.2 调节剂/PNN重塑/NMDAR正向调制 **[NEW 2026-09-13 #143]**
 
 ---
 
