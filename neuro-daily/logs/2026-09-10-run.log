@@ -169,6 +169,6 @@
 - 文件：articles/, notes/, sources/, logs/, wiki/, state/ 均已更新
 - commit message: "Add neuro daily article + wiki consolidation for 2026-09-10"
 - branch: main
-- commit: [待写入]
+- commit: c84f0c3
 - push: git push origin main
-- push_status: [待确认]
+- push_status: ✅ 成功（b30e1cc..c84f0c3 main -> main）
