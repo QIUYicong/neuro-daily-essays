@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-13",
-  "node_count": 287,
-  "edge_count": 1628,
+  "updated": "2026-09-14",
+  "node_count": 288,
+  "edge_count": 1637,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2672,6 +2672,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/diseases/schizophrenia.md"
+    },
+    {
+      "id": "dopamine-pfc-inverted-u",
+      "title": "多巴胺-前额叶倒 U 型调控",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/dopamine-pfc-inverted-u.md"
     }
   ],
   "edges": [
@@ -11702,6 +11711,54 @@
       "from": "schizophrenia",
       "to": "prefrontal-cortex",
       "type": "related"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "working-memory",
+      "type": "mechanism-of",
+      "note": "D1R 倒 U 型调控是 WM 信噪比门控的核心多巴胺机制"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "d1-d2-receptor-signaling",
+      "type": "is-a",
+      "note": "D1R PFC 倒 U 型是 D1 信号在 PFC 中的专一化表现"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "dopamine-pfc-inverted-u",
+      "type": "supports",
+      "note": "D1R cAMP-PKA 信号级联是倒 U 型的分子基础"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of",
+      "note": "该机制在 dlPFC 深层 III 锥体细胞棘上实现"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "dopamine-pfc-inverted-u",
+      "type": "regulates",
+      "note": "NE 通过 α2A-AR 拮抗 D1R-HCN 通道，维持 PFC 网络稳定性"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "schizophrenia",
+      "type": "related",
+      "note": "SCZ 认知症状 ≈ dlPFC D1R 功能不足；Okubo 1997 PET 证据"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "dopamine-pfc-inverted-u",
+      "type": "related",
+      "note": "PV 细胞也接受 DA 输入，两条路径在 E/I 平衡层面协同影响 WM"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "persistent-activity",
+      "type": "regulates",
+      "note": "D1R 倒 U 型通过改变循环回路吸引子稳定性调节持续放电"
     }
   ],
   "dangling_references": [

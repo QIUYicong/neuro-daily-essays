@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-09-14（文章 #144：多巴胺双面刃——前额叶 D1 受体倒 U 型工作记忆调控）
+
+**今日主题：** 多巴胺 D1 受体对前额叶 dlPFC 工作记忆的倒 U 型调控机制；D1R-cAMP-HCN 通道分子级联；低剂量滤噪 vs 高剂量全面压制；D1R（层III棘 Delay cells）vs D2R（层V树突干 Response cells）解剖分工；应激→DA/NE过载→HCN开放→PFC关闭；SCZ认知症状（Okubo 1997 PET）；胍法辛 α2A 机制；解答 Q-d1-inverted-u-mechanism
+
+**新建 wiki 页面（1 个）：**
+- `wiki/concepts/dopamine-pfc-inverted-u.md`（新建，rev1）：D1R→cAMP→HCN/KCNQ门控机制完整页；低/高剂量细胞级联；D1/D2解剖分工表；α2A拮抗对；应激路径；D1R vs WM方差26%（荟萃分析）；Q-d1-pfc-01/02/03新增；confidence=high；Q-d1-inverted-u-mechanism标注已解答
+
+**修订 wiki 页面（2 个）：**
+- `wiki/concepts/d1-d2-receptor-signaling.md`（rev1→rev2）：opens_questions 删除已解答 Q-d1-inverted-u-mechanism；在未解问题中标注"✅已解答"并指向 dopamine-pfc-inverted-u 页；related 新增 dopamine-pfc-inverted-u, hcn-channel；dimensions 新增 cognition；source_articles 新增今日文章
+- `wiki/concepts/working-memory.md`（rev9→rev10）：related 新增 dopamine-pfc-inverted-u, d1-d2-receptor-signaling；dimensions 新增 molecular；source_articles 新增今日文章；修订历史追加今日条目；key_sources 新增 PMID:17277774, PMID:25731884, PMID:35389678
+
+**登记或裁决矛盾：**
+- Q-d1-inverted-u-mechanism：今日文章因果确认 HCN 通道大量开放是高剂量 D1R 损害 WM 的充要机制（ZD7288 逆转实验），此前 d1-d2-receptor-signaling.md 的 open question 已标注为 resolved（非矛盾，是机制补全）
+- SCZ 的 D1R PET 发现仍存在争议（Okubo 1997 vs Cumming 2021 综述提及部分研究反而上调），登记为 contested（见 state/contested_claims.json，C-2026-09-14-01）
+
+**新增悬空引用（待补）：**
+- `hcn-channel`：HCN 通道页面在本文中多次被提及（dopamine-pfc-inverted-u.md 的 related 和 working-memory.md 中的 NE 段落引用），尚无独立 wiki 页，建议下次写"HCN 通道与 PFC 认知"时创建
+
+**图谱变化：** 288节点（+1：dopamine-pfc-inverted-u），1637边（+9）
+
+**新增未解问题（3 条）：**
+- Q-d1-pfc-01（中）：人类 dlPFC D1R-HCN2 共定位的解剖证据——目前主要来自猕猴，人类解剖学验证缺失
+- Q-d1-pfc-02（高）：SCZ 患者 dlPFC D1R PET 结合力变化方向（减少 vs 增加）——不同研究结论矛盾，是否与发病阶段/药物史相关？
+- Q-d1-pfc-03（中）：D1R 激活 PV 中间神经元（增强抑制）vs D1R 直接激活锥体棘（HCN 门控）两条路径在活体 WM 任务中各自贡献比例
+
+---
+
 ## 2026-09-12（文章 #142：TrkB受体的三重角色）
 
 **今日主题：** TrkB受体结构（Y490/Y816磷酸化节点，三通路）、PV细胞成熟时钟（Huang 1999）、PNN-PTPσ-TrkB关键期闸门（Lesnikova 2021）、成年海马新生神经元4-6周存活判决（PNAS 2008）、TrkB跨膜域变构靶点（Li 2024）、TrkB/mGluR5交叉对话（Arefin 2026）、截断型TrkB.T1独立信号功能

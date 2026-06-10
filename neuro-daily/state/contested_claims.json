@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-09-05",
+  "last_updated": "2026-09-14",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -166,6 +166,18 @@
         "wiki/concepts/forward-model.md",
         "wiki/systems/cerebellum.md"
       ]
+    },
+    {
+      "id": "C-2026-09-14-01",
+      "page": "wiki/concepts/dopamine-pfc-inverted-u.md",
+      "claim_A": "SCZ 患者 dlPFC D1R 结合力降低：Okubo 等人 1997 年 PET 研究（[¹¹C]SCH-23390）发现 SCZ 患者 dlPFC D1R 结合力显著低于健康对照，且降低程度与 WCST 表现和阴性症状严重性相关（PMID:9024661）",
+      "claim_B": "部分研究发现 SCZ 患者 dlPFC D1R 结合力反而升高：Cumming 等人 2021 年综述（PMID:33197459）提及有研究发现 frontal D1R 上调（尤其与认知缺陷相关时），可能反映受体上调代偿或 DA 功能减退的适应性补偿",
+      "nature": "可能的原因：(1) 发病阶段差异——急性期 vs 慢性期 D1R 密度变化方向不同；(2) 药物史混杂——抗精神病药物可能改变 D1R 表达；(3) PET 方法学差异（示踪剂、ROI 定义）；(4) SCZ 的异质性（D1R 变化只在认知受损亚群中出现）",
+      "status": "open",
+      "opened": "2026-09-14",
+      "source_article": "2026-09-14-dopamine-d1-prefrontal-working-memory",
+      "priority": "high",
+      "clinical_relevance": "D1R 增强疗法（D1 PAM）治疗 SCZ 认知症状的前提是 D1R 功能不足，若部分患者实际是代偿性上调，则 PAM 可能推到倒 U 右侧进一步损害认知"
     }
   ]
 }

@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-06
-updated: 2026-06-06
-revision_count: 1
-dimensions: [molecular, synaptic, cellular, microcircuit, brain-region]
-related: [dopamine-reward-prediction-error, direct-indirect-pathway, vta, substantia-nigra, dopamine-systems-anatomy, working-memory, prefrontal-cortex, basal-ganglia, parkinsons-disease]
+updated: 2026-09-14
+revision_count: 2
+dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, cognition]
+related: [dopamine-reward-prediction-error, direct-indirect-pathway, vta, substantia-nigra, dopamine-systems-anatomy, working-memory, prefrontal-cortex, basal-ganglia, parkinsons-disease, dopamine-pfc-inverted-u, hcn-channel]
 prerequisites: [synaptic-transmission, action-potential, g-protein-signaling]
-opens_questions: [Q-d1-inverted-u-mechanism, Q-darpp32-network-state]
-source_articles: [2026-06-06-dopamine-systems-anatomy]
+opens_questions: [Q-darpp32-network-state]
+source_articles: [2026-06-06-dopamine-systems-anatomy, 2026-09-14-dopamine-d1-prefrontal-working-memory]
 key_sources: ["PMID:30716356", "PMID:24130517", "PMID:35389678"]
 ---
 
@@ -100,12 +100,13 @@ D2R 激活
 
 ## 未解问题
 
-- Q-d1-inverted-u-mechanism：PFC D1 倒 U 型翻转的精确分子节点（HCN 磷酸化？AMPAR 内吞？cAMP 超激活导致 PP-2A 活化？）各实验室的结论是否一致？
+- **Q-d1-inverted-u-mechanism**（✅ 2026-09-14 已解答）：倒 U 翻转的精确分子节点已确认为 **HCN2/KCNQ 通道大量开放**——高 cAMP → HCN 通道 CNBD 结合 cAMP → 通道大量开放 → K⁺ 电流（Ih + IKM）→ 树突棘输入阻抗崩溃 → EPSP 被普遍压制。ZD7288（HCN 阻断剂）完全逆转高剂量 D1 激动剂的损害效果证明了因果关系（Gamo 2015, PMID:25731884）。详见独立页 [[dopamine-pfc-inverted-u]]。
 - Q-darpp32-network-state：DARPP-32 磷酸化状态的网络级动态（是否存在局部回路级同步 DARPP-32 状态转换？）
 
 ## 修订历史
 
 - 2026-06-06 · 创建 · 基于《奖励、运动与认知的统一信使》(#15) · 初始置信度：高
+- 2026-09-14 · 修订 · 基于《多巴胺双面刃》(#144) · 解答 Q-d1-inverted-u-mechanism（HCN 通道大量开放是高剂量 D1R 损害 WM 的充要节点）；新增 related: dopamine-pfc-inverted-u, hcn-channel；dimensions 新增 cognition；opens_questions 删除已解答条目
 
 ## 来源文章
 
