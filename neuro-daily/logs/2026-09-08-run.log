@@ -1,0 +1,110 @@
+# 运行日志 · 2026-09-08（虚拟日期）/ 实际执行：2026-06-10
+
+## 基本信息
+
+- 文章编号：#138
+- 虚拟日期：2026-09-08
+- 实际执行日期（UTC+8）：2026-06-10
+- 分支：claude/funny-einstein-nnzc62（会话强制分支）
+- 执行模式：自动代理（Claude Code claude/funny-einstein-nnzc62）
+- 知识库图谱状态：289 节点 / 约 1645 边（更新后）
+
+## 主题选择
+
+### 候选主题（按 ROUTINE.md 优先级评估）
+
+1. **SWR 主动记忆编辑：CA3 CCK/PV 调控与记忆更新** ← 选中
+   - 理由1：近期文章（#135-#137）连续 3 篇 molecular/synaptic 层级（ODP、PSD-95、SynGAP1），需切换到 cellular/microcircuit/brain-region 层级
+   - 理由2：三项新 2025-2026 文献（Yang & Sun 2025 CCK 中间神经元、Liao 2024 抑制性 STDP、Tong 2026 记忆更新）可添加到已有 SWR wiki 页面（rev6→rev7），有真实增量价值
+   - 理由3：填补 sharp-wave-ripples.md wiki 的空白（CCK interneurons in CA3、inhibitory plasticity in replay filtering）
+   - 优先级：fill_wiki_gap + layer_contrast
+
+2. 意识理论 IIT vs GWT（C-2026-05-31-01 争议裁决）（备选）
+   - 放弃原因：近期已有多篇理论类文章（#132-#134），层级重叠；且需新文献搜索
+
+### 层级验证
+
+- 最近三篇：#135（microcircuit/theory）、#136（molecular/synaptic）、#137（molecular/synaptic/disease）
+- #138 添加 cellular/microcircuit/brain-region，满足"避免连续三天同层"规则 ✓
+
+## 文献检索
+
+### 检索策略
+
+1. PubMed/PMC 搜索：`sharp wave ripples memory consolidation review`
+2. PubMed 搜索：`Buzsaki sharp wave ripples`（获取旗舰综述）
+3. PubMed 搜索：`Girardeau sharp wave ripple memory`
+4. PubMed 搜索：`hippocampal replay sleep memory consolidation`
+5. PMC 全文获取：PMC12146282, PMC12806511, PMC12576410, PMC4648295
+
+### 采用来源（12 篇）
+
+| PMID | 标题 | PMC 开放 | 结论 |
+|------|------|---------|------|
+| 26135716 | Buzsáki 2015 SWR 旗舰综述 | PMC4648295 ✓ | 采用（主要机制来源） |
+| 30356103 | Joo & Frank 2018 SWR 综述 | PMC6794196 ✓ | 采用 |
+| 25143618 | Schlingloff 2014 PV 细胞机制 | 未找到 PMC | 采用（摘要+综述摘录） |
+| 33833054 | Zhang 2021 胆碱能抑制 SWR | 无 PMC | 采用（摘要仅读） |
+| 31197012 | Fernández-Ruiz 2019 延长 SWR | 无 PMC | 采用（摘要仅读） |
+| 38547293 | Yang 2024 清醒 SWR 标记 | 无 PMC | 采用（摘要仅读） |
+| 39227715 | Liao 2024 抑制性 STDP | 无 PMC | 采用（摘要仅读） |
+| 41205608 | Robinson 2026 大振幅 SWR | PMC12626426 ✓ | 采用（开放全文） |
+| 41190818 | Tong 2026 记忆更新重放 | PMC12806511 ✓ | 采用（开放全文） |
+| 40492140 | Yang & Sun 2025 CCK/PV | PMC12146282 ✓ | 采用（开放全文） |
+| 40962324 | Kim 2025 神经调质综述 | PMC12576410 ✓ | 采用（开放全文） |
+| 39874961 | Swanson 2025 双向耦合 | 无 PMC | 摘要仅读，未直接引用 |
+
+### 拒绝/排除来源
+
+- 任何 Sci-Hub 或付费绕过：0 篇 ✓
+- 编造来源：0 篇 ✓
+
+### 来源质量总结
+
+- 开放全文（PMC 或作者 PDF）：6 篇（50%）
+- 摘要仅读（付费墙，无 PMC）：6 篇（50%）
+- Sci-Hub 或付费绕过：0 篇 ✓
+
+## 写作
+
+- 文章字数：约 5200 字（含章节标题和表格）
+- 语言：中文
+- 核心主张：
+  - SWR 不是被动录像机，是主动世界模型编辑系统
+  - CA3 CCK/PV 中间神经元互补调控 SWR 发生门限（Yang & Sun 2025）
+  - 抑制性 STDP 主动筛选重放内容（Liao 2024）
+  - 奖励环境变化后 SWR 偏向新规则（Tong 2026）
+  - 大振幅 SWR 是 HPC-PFC 对话的效能单元（Robinson 2026）
+- 争议部分：CCK 2025 结论来自计算模型，CA1 vs CA3 的 CCK 角色可能不同
+- AI 对照：Experience Replay，Prioritized ER，Continual Learning
+
+## Wiki 整合
+
+### 修订页面
+
+- `wiki/concepts/sharp-wave-ripples.md`（rev6 → rev7）：新增 CCK 双视角、抑制性 STDP 小节、记忆更新小节；证据表 +3 行；未解问题 +2 条；key_sources +4个
+- `wiki/concepts/memory-consolidation.md`（rev8 → rev9）：新增记忆更新小节；key_sources +2个
+
+### 新建页面
+
+- 无（CCK interneurons 内容并入 sharp-wave-ripples.md 而非新建独立页）
+
+## 治理状态更新
+
+- topic_ledger.json：total_articles 137→138，新增 #138 条目（注：ledger 在上一次 run 末尾有 JSON 解析错误，本次追加尽量修复）
+- unresolved_questions.md：新增 Q-swr-cck-in-vivo（高优先级）、Q-swr-updating-mechanism（高优先级）
+- monthly_synthesis.md：2026-09 摘要追加 #138 条目
+- source_registry.json：新增 12 条来源记录
+- maturity_index.json：sharp-wave-ripples（established/high）保持不变（已有来源+新增补充）；memory-consolidation（established/high）保持不变
+- wiki/index.md：header 更新（#138 · 约 271 页面 · 289节点/约1645边）
+- wiki/CHANGELOG.md：新增 2026-09-08 变更记录
+
+## 争议声明
+
+- 无新登记矛盾（CCK 2025 CA3 计算模型 vs Buzsáki 2015 CA1 在体结果定性为"区域差异、互补视角"，非矛盾；已在 wiki 中明确标注）
+
+## 推送状态
+
+- 目标分支：claude/funny-einstein-nnzc62（会话要求；main 分支仅至 #76，需合并但会话限制禁止跨分支推送）
+- 推送结果：[见 git 提交记录]
+- 注意：本分支已领先 main 约 62 篇文章，需要合并回 main 以维持 ROUTINE.md 的"单分支累积"原则。请仓库所有者在会话结束后手动合并 claude/funny-einstein-nnzc62 → main，或通过 PR 方式合并。

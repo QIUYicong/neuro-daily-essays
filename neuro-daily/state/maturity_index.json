@@ -204,7 +204,7 @@
       "source_article": "2026-09-03-pc-learning-biological-backpropagation"
     }
   ],
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -311,5 +311,21 @@
     "change_reason": "新建（2026-09-03 #134）：Whittington & Bogacz 2017 数学证明扎实（high）；Max et al. 2026 皮层实现为 medium（计算模型，体内验证有限）；整体评为 emerging/medium",
     "previous_status": null,
     "source_article": "2026-09-03-pc-learning-biological-backpropagation"
+  },
+  "sharp-wave-ripples": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-08",
+    "change_reason": "修订 rev7（2026-09-08 #138）：新增 CCK/PV 互补调控双视角（Yang & Sun 2025），抑制性 STDP 内容筛选（Liao 2024），记忆更新重放偏向（Tong 2026）；核心机制 established/high 保持不变",
+    "previous_status": "established",
+    "source_article": "2026-09-08-swr-memory-updating-ca3-circuit"
+  },
+  "memory-consolidation": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-08",
+    "change_reason": "修订 rev9（2026-09-08 #138）：新增记忆更新动态维度小节（Tong 2026），抑制性 STDP 与记忆泛化关联（Liao 2024）；核心机制 established/high 保持不变",
+    "previous_status": "established",
+    "source_article": "2026-09-08-swr-memory-updating-ca3-circuit"
   }
 }

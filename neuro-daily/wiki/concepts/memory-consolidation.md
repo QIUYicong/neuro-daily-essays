@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-07-28
-revision_count: 8
+updated: 2026-09-08
+revision_count: 9
 dimensions: [molecular, synaptic, whole-brain-network, brain-region, behavior, cognition]
 related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker, memory-reconsolidation]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-rem-sleep-role, Q-replay-human-translation]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm]
-key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710"]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-09-08-swr-memory-updating-ca3-circuit]
+key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710", "PMID:41190818", "PMID:39227715"]
 ---
 
 # 记忆巩固（系统层面）(Memory Consolidation — Systems Level)
@@ -128,6 +128,21 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 | REM期θ是情境记忆必需（选择性破坏→损害） | 仅REM期光遗传沉默MS GABA神经元 | PMID:27174984 | 高（因果，Boyce 2016） |
 | REM睡眠降低杏仁核情绪反应（人类） | 整夜睡眠+REM选择性剥夺+情绪任务fMRI | PMID:22119526 | 中-高（van der Helm 2011） |
 
+## 记忆更新：巩固的动态维度
+
+（2026-09-08 新增）
+
+传统记忆固化模型将睡眠中的 SWR 重放视为**单向的"新→旧"写入过程**——把当天经历固化到皮层。但 Tong 等（2026, PMID:41190818, PMC12806511）的发现要求对这一图景进行重要修订：**SWR 系统具有主动的"世界模型更新"能力**，当环境规则改变时，SWR 重放内容可以偏向新规则，实现记忆地图的动态重写。
+
+关键实验：大鼠在奖励位置改变后经历一个"偏好丧失"（LOS）期（行为上不能快速转向新位置），此期间：
+- NREM 睡眠 SWR 重放内容**显著偏向新奖励侧**（F(2,15)=20.30, p<1e⁻⁴）
+- 奖励消费时的在线重放具有**预测下次选择的能力**（65.7%, p=0.0057）——仅在 LOS 期出现
+- 睡眠（而非清醒休息）是此更新的关键窗口
+
+这一发现与记忆再巩固（reconsolidation）理论相呼应：已巩固的记忆在被提取或挑战时可以回到不稳定状态，再次受到修改。Tong 2026 表明这一过程在日常"世界模型更新"中持续发生，而非只在创伤或强化实验中出现。
+
+**与抑制性突触可塑性的连接**：Liao et al. 2024（PMID:39227715）进一步表明，SWR 期间 GABA 突触上的 Hebbian 型可塑性主动筛选重放内容——反复重放的神经元集合抑制性输入增强，信号更纯净但竞争力降低。这为"新信息如何打破旧模式的固定重放"提供了一个分子层面的机制假说：新的、奖励驱动的场所细胞集合（CCK/PV 门控下的新激活模式）进入 SWR 重放后，逐渐通过抑制性可塑性优化，而旧的、不再被奖励的路径随之被抑制筛除。
+
 ## 昼夜节律对记忆巩固的时间门控
 
 （2026-07-08 新增）
@@ -194,6 +209,7 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-07-07 · 修订 rev6 · 基于《三重协奏》(#75) · 新增 so-spindle-swr-coupling、shy-hypothesis 两个 related 节点；证据表新增2行；Q-shy-vs-active-consolidation 部分解答
 - 2026-07-08 · 修订 rev7 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对记忆巩固的时间门控"小节（LTP 昼夜波动、BMAL1 KO 学习损伤、SCN 萎缩→记忆功能下降的 AD 连接）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节扩充2条；key_sources 新增 PMID:12198538
 - 2026-07-28 · 修订 rev8 · 基于《记忆的活书稿》文章（#96）· 新增"再巩固"为第三种巩固类型；连接节新增 [[memory-reconsolidation]]；related 新增 memory-reconsolidation；dimensions 新增 molecular、synaptic
+- 2026-09-08 · 修订 rev9 · 基于《大脑的夜班编辑》文章(#138) · 新增"记忆更新"小节（Tong 2026 LOS 期偏向重放）；整合 Liao 2024 抑制性可塑性作为更新机制假说；key_sources 新增 PMID:41190818, PMID:39227715
 
 ## 来源文章
 

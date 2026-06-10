@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-08",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10014,9 +10014,225 @@
         "nanoblocks"
       ],
       "article": "2026-09-06"
+    },
+    {
+      "pmid": "26135716",
+      "pmcid": "PMC4648295",
+      "title": "Hippocampal sharp wave-ripple: A cognitive biomarker for episodic memory and planning",
+      "authors": "Buzsáki G",
+      "journal": "Hippocampus",
+      "year": 2015,
+      "open_access": true,
+      "access_method": "PMC open full text + author PDF",
+      "article": "2026-09-08",
+      "source_id": "S138-01",
+      "topics": [
+        "SWR",
+        "CA3",
+        "PV interneurons",
+        "CCK interneurons",
+        "memory consolidation",
+        "cholinergic gate"
+      ]
+    },
+    {
+      "pmid": "30356103",
+      "pmcid": "PMC6794196",
+      "title": "The hippocampal sharp wave-ripple in memory retrieval for immediate use and consolidation",
+      "authors": "Joo HR, Frank LM",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2018,
+      "open_access": true,
+      "access_method": "PMC open full text",
+      "article": "2026-09-08",
+      "source_id": "S138-02",
+      "topics": [
+        "SWR",
+        "forward/reverse replay",
+        "awake SWR",
+        "HPC-PFC dialogue"
+      ]
+    },
+    {
+      "pmid": "25143618",
+      "pmcid": null,
+      "title": "Mechanisms of sharp wave initiation and ripple generation",
+      "authors": "Schlingloff D, Káli S, Freund TF, Hájos N, Gulyás AI",
+      "journal": "Journal of Neuroscience",
+      "year": 2014,
+      "open_access": false,
+      "access_method": "摘要仅读",
+      "article": "2026-09-08",
+      "source_id": "S138-03",
+      "topics": [
+        "PV interneurons",
+        "ripple generation",
+        "sharp wave initiation"
+      ]
+    },
+    {
+      "pmid": "33833054",
+      "pmcid": null,
+      "title": "Cholinergic suppression of hippocampal sharp-wave ripples impairs working memory",
+      "authors": "Zhang Y, Cao L, Varga V, et al.",
+      "journal": "PNAS",
+      "year": 2021,
+      "open_access": false,
+      "access_method": "摘要仅读（PNAS 付费墙）",
+      "article": "2026-09-08",
+      "source_id": "S138-04",
+      "topics": [
+        "cholinergic gate",
+        "SWR suppression",
+        "working memory"
+      ]
+    },
+    {
+      "pmid": "31197012",
+      "pmcid": null,
+      "title": "Long-duration hippocampal sharp wave ripples improve memory",
+      "authors": "Fernández-Ruiz A, Oliva A, et al.",
+      "journal": "Science",
+      "year": 2019,
+      "open_access": false,
+      "access_method": "摘要仅读（Science 付费墙）",
+      "article": "2026-09-08",
+      "source_id": "S138-05",
+      "topics": [
+        "SWR duration",
+        "memory improvement",
+        "replay quality"
+      ]
+    },
+    {
+      "pmid": "38547293",
+      "pmcid": null,
+      "title": "Selection of experience for memory by hippocampal sharp wave ripples",
+      "authors": "Yang W, Sun C, Huszár R, et al.",
+      "journal": "Science",
+      "year": 2024,
+      "open_access": false,
+      "access_method": "摘要仅读（Science 付费墙）",
+      "article": "2026-09-08",
+      "source_id": "S138-06",
+      "topics": [
+        "awake SWR",
+        "memory tagging",
+        "sleep priority replay"
+      ]
+    },
+    {
+      "pmid": "39227715",
+      "pmcid": null,
+      "title": "Inhibitory plasticity supports replay generalization in the hippocampus",
+      "authors": "Liao Z, Terada S, Raikov IG, et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2024,
+      "open_access": false,
+      "access_method": "摘要仅读（Nat Neurosci 付费墙）",
+      "article": "2026-09-08",
+      "source_id": "S138-07",
+      "topics": [
+        "inhibitory STDP",
+        "SWR replay",
+        "memory generalization",
+        "GABA synapses"
+      ]
+    },
+    {
+      "pmid": "41205608",
+      "pmcid": "PMC12626426",
+      "title": "Large sharp-wave ripples promote hippocampo-cortical memory reactivation and consolidation during sleep",
+      "authors": "Robinson HL, Todorova R, Nagy GA, et al.",
+      "journal": "Neuron",
+      "year": 2026,
+      "open_access": true,
+      "access_method": "PMC open full text",
+      "article": "2026-09-08",
+      "source_id": "S138-08",
+      "topics": [
+        "large-amplitude SWR",
+        "HPC-PFC consolidation",
+        "memory consolidation"
+      ]
+    },
+    {
+      "pmid": "41190818",
+      "pmcid": "PMC12806511",
+      "title": "Long-Term Memory Updating Parallels Altered Awake and Sleep Hippocampal Replays",
+      "authors": "Tong J, Xing Y, Zheng Y, Wang L, et al.",
+      "journal": "Advanced Science",
+      "year": 2026,
+      "open_access": true,
+      "access_method": "PMC open full text",
+      "article": "2026-09-08",
+      "source_id": "S138-09",
+      "topics": [
+        "memory updating",
+        "NREM replay",
+        "online replay",
+        "LOS period"
+      ]
+    },
+    {
+      "pmid": "40492140",
+      "pmcid": "PMC12146282",
+      "title": "Regulation of sharp wave-ripples by cholecystokinin-expressing interneurons and parvalbumin-expressing basket cells in the hippocampal CA3 region",
+      "authors": "Yang Y, Sun X",
+      "journal": "Frontiers in Computational Neuroscience",
+      "year": 2025,
+      "open_access": true,
+      "access_method": "PMC open full text (Frontiers open access)",
+      "article": "2026-09-08",
+      "source_id": "S138-10",
+      "topics": [
+        "CCK interneurons",
+        "PV basket cells",
+        "CA3",
+        "SWR generation",
+        "computational model"
+      ]
+    },
+    {
+      "pmid": "40962324",
+      "pmcid": "PMC12576410",
+      "title": "Systems memory consolidation during sleep: oscillations, neuromodulators, and synaptic remodeling",
+      "authors": "Kim J et al.",
+      "journal": "BMB Reports",
+      "year": 2025,
+      "open_access": true,
+      "access_method": "PMC open full text",
+      "article": "2026-09-08",
+      "source_id": "S138-11",
+      "topics": [
+        "memory consolidation",
+        "sleep oscillations",
+        "neuromodulators",
+        "DA",
+        "NE"
+      ]
+    },
+    {
+      "pmid": "39874961",
+      "pmcid": null,
+      "title": "Topography of putative bi-directional interaction between hippocampal sharp-wave ripples and neocortical slow oscillations",
+      "authors": "Swanson RA, Chinigò E, et al.",
+      "journal": "Neuron",
+      "year": 2025,
+      "open_access": false,
+      "access_method": "摘要仅读（Neuron 付费墙）",
+      "article": "2026-09-08",
+      "source_id": "S138-12",
+      "topics": [
+        "SWR-cortex coupling",
+        "slow oscillations",
+        "RSC",
+        "DMN"
+      ],
+      "used_in_article": false
     }
   ],
-  "total_sources": 587,
+  "total_sources": 599,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -12016,5 +12232,19 @@
       ],
       "article": "2026-09-07"
     }
+  ],
+  "additions_2026-09-08": [
+    "26135716",
+    "30356103",
+    "25143618",
+    "33833054",
+    "31197012",
+    "38547293",
+    "39227715",
+    "41205608",
+    "41190818",
+    "40492140",
+    "40962324",
+    "39874961"
   ]
 }

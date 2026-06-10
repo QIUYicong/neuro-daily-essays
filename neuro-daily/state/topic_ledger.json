@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-07",
-  "total_articles": 137,
+  "last_updated": "2026-09-08",
+  "total_articles": 138,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8797,7 +8797,7 @@
       "slug": "syngap1-synaptic-brake-intellectual-disability",
       "filename": "2026-09-07-syngap1-synaptic-brake-intellectual-disability.md",
       "article_type": "frontier_node",
-      "core_question": "SynGAP1 作为 Ras/Rap1 双 GTPase 抑制剂如何在突触静息状态维持低 Ras-ERK 活性（制动）？CaMKII 磷酸化如何触发 SynGAP1 从 PSD 弥散（解制动）并激活 Ras-ERK-AMPAR 插入轴完成 LTP 表达？SYNGAP1 单倍剂量不足为何导致"四重打击"（基础 Ras-ERK 升高 + 沉默突触过早耗尽 + LTP 堵塞 + 关键期提前关闭），从而产生智力障碍/ASD/癫痫三联征？成年期 SYNGAP1 剂量恢复是否有治疗窗口？",
+      "core_question": "SynGAP1 作为 Ras/Rap1 双 GTPase 抑制剂如何在突触静息状态维持低 Ras-ERK 活性（制动）？CaMKII 磷酸化如何触发 SynGAP1 从 PSD 弥散（解制动）并激活 Ras-ERK-AMPAR 插入轴完成 LTP 表达？SYNGAP1 单倍剂量不足为何导致\"四重打击\"（基础 Ras-ERK 升高 + 沉默突触过早耗尽 + LTP 堵塞 + 关键期提前关闭），从而产生智力障碍/ASD/癫痫三联征？成年期 SYNGAP1 剂量恢复是否有治疗窗口？",
       "layer": [
         "molecular",
         "synaptic",
@@ -8867,6 +8867,62 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-07；本文为前沿节点文章（PSD-95#136 直接推荐 SynGAP1 后续）；5个开放全文来源（PMC7046327, PMC4753466, PMC2925262, PMC12935682, PMC4642239），1个摘要仅读（PMID:9620694）；2个新 wiki 页面；3个 wiki 页修订；2个新未解问题（Q-syngap1-01, Q-syngap1-02）；无争议声明新增"
+    },
+    {
+      "article_number": 138,
+      "date": "2026-09-08",
+      "real_date": "2026-06-10",
+      "title": "大脑的夜班编辑：海马尖波涟漪如何选择与更新记忆中的世界模型",
+      "slug": "swr-memory-updating-ca3-circuit",
+      "filename": "2026-09-08-swr-memory-updating-ca3-circuit.md",
+      "article_type": "frontier_node",
+      "core_question": "SWR（尖波涟漪）是被动的记忆录像机还是主动的世界模型编辑器？CA3 CCK/PV 中间神经元如何互补调控 SWR 发生门限？抑制性 STDP 如何主动筛选重放内容以区分相关与无关记忆？记忆更新（奖励规则改变）如何通过 SWR 偏向新规则的重放来实现？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "4. 学习和记忆（海马记忆巩固系列：SWR机制深化 → 连接 12. 人脑与AI比较：Experience Replay / Prioritized ER）",
+      "topic_tags": [
+        "sharp-wave-ripples",
+        "SWR",
+        "hippocampus",
+        "CA3",
+        "CCK interneurons",
+        "PV interneurons",
+        "inhibitory STDP",
+        "memory consolidation",
+        "memory updating",
+        "hippocampal replay",
+        "cholinergic gate",
+        "HPC-PFC dialogue"
+      ],
+      "main_sources": [
+        "PMID:26135716 / PMC4648295 (Buzsáki 2015, Hippocampus, open full text) — SWR 旗舰综述：CA3 主发生器、PV 振荡、CCK 抑制（CA1）、胆碱能门控",
+        "PMID:30356103 / PMC6794196 (Joo & Frank 2018, NRN, open full text) — SWR 检索/巩固双功能综述",
+        "PMID:40492140 / PMC12146282 (Yang & Sun 2025, Front Comput Neurosci, open full text) — CA3 CCK/PV 互补调控 SWR 门限（计算模型）",
+        "PMID:39227715 (Liao 2024, Nat Neurosci, abstract only) — 抑制性 STDP 主动筛选 SWR 重放内容，支持记忆泛化",
+        "PMID:41190818 / PMC12806511 (Tong 2026, Adv Sci, open full text) — 记忆更新后 NREM 重放偏向新奖励（F(2,15)=20.30, p<1e-4）",
+        "PMID:41205608 / PMC12626426 (Robinson 2026, Neuron, open full text) — 大振幅 SWR 亚群是 HPC-PFC 巩固效能单元"
+      ],
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/sharp-wave-ripples.md (rev6->rev7): 新增 CCK 双视角（CA1 vs CA3）、抑制性 STDP 内容筛选（Liao 2024）、记忆更新模式（Tong 2026）；证据表 +3 行；未解问题 +2；key_sources +4",
+        "wiki/concepts/memory-consolidation.md (rev8->rev9): 新增记忆更新动态维度小节；key_sources +2；source_articles +1"
+      ],
+      "contested_claims_logged": [],
+      "unresolved_questions": [
+        "Q-swr-cck-in-vivo",
+        "Q-swr-updating-mechanism"
+      ],
+      "next_suggested_topics": [
+        "place-cells: 海马位置细胞（place cells）的完整机制——方向细胞/网格细胞/边界细胞的空间导航系统；与 SWR 重放的空间内容关系",
+        "theta-oscillations: 海马 θ 振荡（4-12 Hz）——与 γ 振荡的 theta-gamma coupling；LTP 门控（theta peak vs trough）；与 SWR 的交替关系",
+        "memory-reconsolidation: 记忆再巩固（reconsolidation）——激活-不稳定-再稳定三阶段；PKMζ 和蛋白合成依赖性；治疗 PTSD 的潜力"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-08；层级切换：前3篇 molecular/synaptic → 本篇 cellular/microcircuit/brain-region；12个来源（6个开放全文PMC，6个摘要仅读，0个盗版）；0个新 wiki 页；2个 wiki 页修订（sharp-wave-ripples rev7, memory-consolidation rev9）；新增未解问题 Q-swr-cck-in-vivo、Q-swr-updating-mechanism"
     }
   ],
   "layer_coverage_recent": {
@@ -8898,7 +8954,8 @@
       "2026-07-26",
       "2026-07-28",
       "2026-08-25",
-      "2026-09-05"
+      "2026-09-05",
+      "2026-09-08"
     ],
     "synaptic": [
       "2026-05-24",
@@ -8919,7 +8976,8 @@
       "2026-06-03",
       "2026-06-11",
       "2026-06-18",
-      "2026-08-25"
+      "2026-08-25",
+      "2026-09-08"
     ],
     "brain_region": [
       "2026-05-27",
@@ -8960,7 +9018,8 @@
       "2026-07-03",
       "2026-07-26",
       "2026-07-28",
-      "2026-08-29"
+      "2026-08-29",
+      "2026-09-08"
     ],
     "disease": [
       "2026-06-08"
@@ -8982,7 +9041,8 @@
     "brain-region": [
       "2026-07-26",
       "2026-08-29",
-      "2026-09-05"
+      "2026-09-05",
+      "2026-09-08"
     ],
     "theory": [
       "2026-09-04"

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-07（**#137**·突触的"制动蛋白"：SynGAP1 如何通过解除 Ras-ERK 制动来执行 LTP，以及它的缺失如何永久关闭大脑的学习窗口）· 主题页总数：**270**（新建2页：syngap1 · syngap1-related-disorder；修订3页：ltp rev15 · psd-95 rev2 · silent-synapse rev2；图谱289节点、1641边）
+> 最后更新：2026-09-08（**#138**·大脑的夜班编辑：海马尖波涟漪如何选择与更新记忆中的世界模型）· 主题页总数：**270**（新建0页；修订2页：sharp-wave-ripples rev7 · memory-consolidation rev9；图谱289节点、约1645边）
 
 ---
 

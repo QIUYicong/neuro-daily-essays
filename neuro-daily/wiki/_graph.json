@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "node_count": 287,
-  "edge_count": 1628,
+  "edge_count": 1645,
   "edge_types": [
     "is-a",
     "part-of",
@@ -11378,6 +11378,30 @@
       "from": "psd-95",
       "to": "syngap1",
       "type": "regulates"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "stdp",
+      "type": "related",
+      "note": "抑制性 STDP（Liao 2024）在 SWR 重放期间通过 GABA 突触选择性筛选重放内容，支持记忆泛化；STDP 的一种系统-回路层面表现"
+    },
+    {
+      "from": "stdp",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of",
+      "note": "抑制性 STDP（Hebbian GABA 突触可塑性）在 SWR 期间主动筛选重放序列，是 SWR 内容选择的分子机制之一（Liao 2024）"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "memory-reconsolidation",
+      "type": "related",
+      "note": "Tong 2026 证明 SWR 重放不仅固化新记忆，也参与记忆更新（旧规则→新规则的转换），是记忆动态维持的机制"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "memory-reconsolidation",
+      "type": "related",
+      "note": "记忆更新（Tong 2026 LOS 期在线重放+NREM 重放偏向新奖励）是记忆巩固的动态维度——巩固不仅是写入，也包括改写"
     }
   ],
   "dangling_references": [

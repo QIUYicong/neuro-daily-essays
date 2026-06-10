@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-07-07
-revision_count: 6
+updated: 2026-09-08
+revision_count: 7
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
 related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-09-08-swr-memory-updating-ca3-circuit]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:40492140", "PMID:39227715", "PMID:41190818", "PMID:25143618"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -47,6 +47,11 @@ CA3群体爆发通过**Schaffer侧支**传至CA1：
 - 电流源密度（CSD）分析显示：辐射层汇（sink）与锥体层源（source）同步
 
 涟漪的产生依赖**兴奋-抑制的精确平衡**：PV+篮细胞和其他快速抑制性中间神经元的精密介入，将锥体细胞的去极化塑形成规律的高频振荡。
+
+**关于 CCK 中间神经元的两种视角**（CA1 vs CA3 可能不同）：
+- **CA1**（Buzsáki 2015）：CCK+ 篮细胞在 SWR 期间被**抑制**（沉默）；其 CB1 受体接受锥体细胞强爆发时的内源大麻素逆行信号 → CCK 细胞沉默 → 锥体细胞自脱抑制（auto-disinhibition），增强 SWR 期间的爆发。
+- **CA3**（Yang & Sun 2025, PMID:40492140）：计算建模表明 CA3 CCK 细胞通过**直接抑制锥体细胞**设定 SWR 的发生**门限**；CCK 刺激增强时 SWR 频率下降，机制为 CCK→PC 通路（而非 CCK→BC 通路）。PV 篮细胞通过 BC→BC 互相抑制决定涟漪时序频率。
+- 两种视角**可能互补**：CA3 CCK 细胞设定 SWR 生成阈值；CA1 CCK 细胞在 SWR 发生时被内源大麻素沉默，协助 CA1 放电。注意：CA3 视角仅来自计算模型，待体内验证。
 
 ### 3. 序列重播
 
@@ -91,6 +96,9 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 | NREM睡眠微结构（NE/瞳孔状态）区隔新旧记忆重放 | CA1大规模记录 + 瞳孔追踪 | PMID:39743590 | 中（新发现） |
 | 情绪效价也在SWR期间重播 | 联合情绪学习+SWR记录 | PMID:31334590 | 中（新兴） |
 | 闭环增强 SO-纺锤波-SWR 三重耦合 → 隔天空间记忆改善（因果） | 大鼠 NREM 闭环刺激，对照组（非同步刺激）无效 | PMID:27182818 | 高（因果） |
+| CCK 中间神经元（CA3）通过直接抑制锥体细胞设定 SWR 发生门限 | AdEx 神经元计算模型；CCK→PC 通路效应 > CCK→BC | PMID:40492140 (Yang & Sun 2025) | 中（计算模型，待体内验证） |
+| SWR 期间抑制性 STDP 主动筛选重放内容，防止过拟合 | 光遗传植入集合+体内 GABA 突触权重测量 | PMID:39227715 (Liao et al. 2024) | 中-高（Nature Neuroscience 体内验证） |
+| 奖励环境变化后 NREM SWR 重放偏向新奖励区域，支持记忆更新 | 大鼠空间迷宫奖励改变，NREM 重放量化 | PMID:41190818 (Tong et al. 2026) | 中-高（多行为期对照） |
 
 ## 连接
 
@@ -101,6 +109,19 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 - [[so-spindle-swr-coupling]] — SWR 是三重耦合的"载荷"，嵌套在纺锤波波谷，将压缩记忆序列写入皮层
 - [[ltp]] — SWR重播可能通过反复激活强化海马-皮层突触（LTP机制）
 - [[hebbian-learning]] — SWR重播序列中前后神经元的同步激活可能触发Hebbian型突触修改
+
+### 5b. 重放内容的主动筛选——抑制性突触可塑性（Liao et al. 2024）
+
+Liao 等（2024, PMID:39227715, Nature Neuroscience）发现 SWR 期间 GABA 突触上的 Hebbian STDP 型可塑性：反复参与重放的神经元集合，其接受的抑制性输入增强 → 下次 SWR 中竞争能力降低但信号更纯净。光遗传植入非相关集合 → 该集合逐渐被抑制性机制排除。这是大脑在 SWR 中实现**记忆泛化而非过拟合**的生物机制。
+
+### 5c. 记忆更新模式——当世界改变时 SWR 重写旧地图（Tong et al. 2026）
+
+Tong 等（2026, PMID:41190818, PMC12806511）发现：当奖励环境改变时，大鼠经历一个"偏好丧失"（loss of preference, LOS）时期，此期间：
+- **NREM 睡眠 SWR 重放内容偏向新奖励区域**（F(2,15)=20.30, p<1e⁻⁴）
+- 在线重放在 LOS 期显著预测下次选择（65.7%准确率，p=0.0057）
+- 睡眠（而非清醒休息）是长期记忆更新的关键窗口
+
+这表明 SWR 不只是"固化旧记忆"，还能在**世界模型需要更新时主动偏向新信息**的重放，实现动态地图重写。
 
 ## 新发现（2024-2026）
 
@@ -126,6 +147,8 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - Q-swr-cortical-consolidation：SWR期间海马的信号如何精确地在新皮层留下持久印记？是Schaffer-皮层的直接突触修改，还是通过下丘脑/脑干/睡眠调节因子介导？
 - Q-swr-large-vs-small：是什么决定了一次SWR的振幅（大 vs 小）？CA3群体爆发规模、CA1 PV细胞同步度、局部兴奋-抑制平衡的作用分别是什么？睡眠剥夺如何精确降低SWR振幅？
 - Q-swr-tagging-mechanism：清醒SWR是什么触发了对特定经历的选择性"标记"？DA/NE的角色？与奖励系统（VTA）的连接是必要的吗？
+- Q-swr-cck-in-vivo：Yang & Sun 2025 的 CA3 CCK 中间神经元抑制 SWR 门限的结论来自计算建模，需体内光遗传验证：选择性沉默 CA3 CCK 细胞是否增加 SWR 发生率？CA1 和 CA3 的 CCK 细胞在 SWR 调控中是否真的扮演不同角色（门限设定 vs 自脱抑制）？
+- Q-swr-updating-mechanism：记忆更新时（Tong 2026 的 LOS 期）SWR 偏向新奖励区域的机制是多巴胺/NE 标记（优先激活奖励相关场所细胞集合），还是新旧集合的竞争性重放？
 - Q-swr-human-translation：大振幅SWR的特殊功能是否在人类中也成立？颅内电极研究能否提供类似证据？
 
 ## 修订历史
@@ -136,6 +159,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · related新增sleep-spindles和cortical-slow-oscillation（SWR作为SO-spindle-SWR三重奏的第三层）；key_sources扩充3个（Latchoumane 2017三重耦合因果、Staresina 2024综述、Jiang 2019人类颅内验证）；source_articles新增2026-06-19
 - 2026-07-07 · 修订 · 基于《三重协奏》文章(#75) · 新增 Maingret 2016 闭环刺激因果证据（PMID:27182818）；related 新增 so-spindle-swr-coupling；connections 增加三重耦合页面链接
+- 2026-09-08 · 修订 rev7 · 基于《大脑的夜班编辑》文章(#138) · 新增 CA3 CCK 中间神经元双视角（Yang & Sun 2025 CA3 门限模型 vs Buzsáki 2015 CA1 自脱抑制）；新增 Liao 2024 抑制性 STDP 内容筛选小节；新增 Tong 2026 记忆更新偏向小节；证据表新增3行；未解问题新增2条（Q-swr-cck-in-vivo、Q-swr-updating-mechanism）；key_sources 新增4个
 
 ## 来源文章
 

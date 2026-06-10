@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-09-08（#138 · 大脑的夜班编辑：SWR 如何选择与更新记忆中的世界模型）
+
+**新建页面（0页）**：今日无新建独立页面（CCK 中间神经元内容整合入现有页面）
+
+**修订页面（2页）**：
+- `concepts/sharp-wave-ripples.md`（rev7）— 新增 CA3 CCK 中间神经元双视角（Yang & Sun 2025 计算模型：CCK→PC 抑制设定 SWR 门限；vs Buzsáki 2015 CA1 视角：CCK 在 SWR 时被内源大麻素沉默实现自脱抑制）；新增抑制性 STDP 内容筛选小节（Liao 2024）；新增记忆更新偏向小节（Tong 2026，LOS 期 NREM 重放偏向新奖励区 p<1e⁻⁴）；证据表 +3 行；未解问题 +2 条（Q-swr-cck-in-vivo、Q-swr-updating-mechanism）
+- `concepts/memory-consolidation.md`（rev9）— 新增"记忆更新"小节（Tong 2026 + 与 Liao 2024 抑制性可塑性的连接）；key_sources 新增2个
+
+**矛盾登记**：无新矛盾（Yang & Sun 2025 的 CCK 结论与 Buzsáki 2015 CA1 视角可能互补，CA3 vs CA1 区域差异可解释，标注为"待体内验证"而非矛盾）
+
+**解决悬空引用**：无（所有引用均已有页面）
+
+**新增未解问题**：
+- Q-swr-cck-in-vivo：CA3 CCK 细胞 SWR 门限调控需体内光遗传验证（高优先级）
+- Q-swr-updating-mechanism：记忆更新时的 SWR 偏向机制（DA 标记 vs 竞争性重放）
+
+**图谱**：289 节点 / 约 1645 条边（+0节点 +3-4条边：inhibitory-stdp-swr 边，memory-updating-swr 边）
+
+---
+
 ## 2026-09-07（#137 · 突触的"制动蛋白"：SynGAP1 如何通过解除 Ras-ERK 制动来执行 LTP）
 
 **新建页面（2页）**：
