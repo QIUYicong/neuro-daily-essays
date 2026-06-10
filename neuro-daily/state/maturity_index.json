@@ -204,7 +204,7 @@
       "source_article": "2026-09-03-pc-learning-biological-backpropagation"
     }
   ],
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-07",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -243,7 +243,23 @@
       "source_article": "2026-09-03-pc-learning-biological-backpropagation"
     }
   ],
-  "total_pages": 16,
+  "total_pages": 18,
+  "syngap1": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-07",
+    "change_reason": "新建（2026-09-07 #137）：SynGAP1 分子机制由多个独立实验室的高质量体内/体外研究确立（Chen 1998, Kim 2009/Chang 2009, Gamache 2020 综述）；SYNGAP1 疾病关联（Hamdan 2009 NEJM）；status established，核心机制 confidence high",
+    "previous_status": null,
+    "source_article": "2026-09-07-syngap1-synaptic-brake-intellectual-disability"
+  },
+  "syngap1-related-disorder": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-07",
+    "change_reason": "新建（2026-09-07 #137）：SYNGAP1 单倍剂量不足→ID/ASD/癫痫三联征由多个大型队列研究确立（>1000 患者，Hamdan 2009/2011）；de novo 突变率、癫痫发生率、ASD 共现率均有充分数据；治疗前沿（AAV, ASO）尚为 emerging；整体 status established/high",
+    "previous_status": null,
+    "source_article": "2026-09-07-syngap1-synaptic-brake-intellectual-disability"
+  },
   "backpropagating-action-potential": {
     "status": "established",
     "confidence": "high",

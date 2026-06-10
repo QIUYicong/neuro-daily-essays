@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-09-05
-updated: 2026-09-05
-revision_count: 1
-dimensions: [molecular, synaptic, cellular, microcircuit]
-related: [ampa-receptor, nmda-receptor, ltp, psd-95, critical-period, ocular-dominance-columns, synaptic-transmission, hebbian-learning]
+updated: 2026-09-07
+revision_count: 2
+dimensions: [molecular, synaptic, cellular, microcircuit, disease]
+related: [ampa-receptor, nmda-receptor, ltp, psd-95, critical-period, ocular-dominance-columns, synaptic-transmission, hebbian-learning, syngap1, syngap1-related-disorder]
 prerequisites: [nmda-receptor, ampa-receptor, synaptic-transmission, ltp]
 opens_questions: [Q-ss-01, Q-ss-02]
 source_articles: [2026-09-05-odp-stage2-hebbian-vs-homeostatic]
@@ -90,8 +90,10 @@ key_sources: ["PMID:26015564", "PMID:32765222", "PMID:30586380", "PMID:33649238"
 
 ## 修订历史
 
+- 2026-09-07 · 修订 rev2 · 基于《突触的"制动蛋白"》(#137) · 新增"SYNGAP1 单倍剂量不足使静默突触提前耗尽"角度：SynGAP1 是防止静默突触自发开锁的关键制动器——制动失灵导致 AMPAR 自发插入静默突触→静默突触池提前耗尽→关键期可塑性"原材料"耗尽；related 新增 syngap1、syngap1-related-disorder；dimensions 新增 disease；source_articles 新增
 - 2026-09-05 · 创建 rev1 · 基于《开放眼的胜利》(#119) · 填补悬空引用（被 [[ocular-dominance-columns]] 和 [[metaplasticity]] 引用但无对应页） · 初始置信度：高
 
 ## 来源文章
 
+- [[2026-09-07-syngap1-synaptic-brake-intellectual-disability]]
 - [[2026-09-05-odp-stage2-hebbian-vs-homeostatic]]

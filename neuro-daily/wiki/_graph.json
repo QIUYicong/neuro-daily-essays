@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "node_count": 287,
   "edge_count": 1628,
   "edge_types": [
@@ -2600,6 +2600,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/tarp-auxiliary-subunit.md"
+    },
+    {
+      "id": "syngap1",
+      "title": "SynGAP1（突触 Ras GTPase 激活蛋白 1）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/syngap1.md"
+    },
+    {
+      "id": "syngap1-related-disorder",
+      "title": "SYNGAP1 相关神经发育障碍",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/syngap1-related-disorder.md"
     }
   ],
   "edges": [
@@ -11295,6 +11313,71 @@
       "source": "critical-period-plasticity",
       "target": "psd-95",
       "type": "related"
+    },
+    {
+      "from": "syngap1",
+      "to": "psd-95",
+      "type": "part-of"
+    },
+    {
+      "from": "syngap1",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "syngap1",
+      "to": "nmda-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1",
+      "to": "ampa-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1",
+      "to": "camkii",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1",
+      "to": "silent-synapse",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "syngap1",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "autism-spectrum-disorder",
+      "type": "related"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "silent-synapse",
+      "type": "related"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "psd-95",
+      "to": "syngap1",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

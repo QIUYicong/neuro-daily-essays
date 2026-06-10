@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-06（**#136**·PSD-95：兴奋性突触的主控分子）· 主题页总数：**268**（新建2页：psd-95 · tarp-auxiliary-subunit；修订2页：ltp rev14 · postsynaptic-density rev2；图谱287节点、1628边）
+> 最后更新：2026-09-07（**#137**·突触的"制动蛋白"：SynGAP1 如何通过解除 Ras-ERK 制动来执行 LTP，以及它的缺失如何永久关闭大脑的学习窗口）· 主题页总数：**270**（新建2页：syngap1 · syngap1-related-disorder；修订3页：ltp rev15 · psd-95 rev2 · silent-synapse rev2；图谱289节点、1641边）
 
 ---
 
@@ -312,6 +312,7 @@
 - 🟢 [物质使用障碍（成瘾）](diseases/substance-use-disorder.md) — 三阶段模型（基底节陶醉期/扩展杏仁核戒断负性情绪/PFC渴望期）；ΔFosB 分子开关；NAc CP-AMPA 渴望孵化；D2 受体下调（PET 跨物质一致）；激励显著性 wanting/liking 神经分离 **[NEW 2026-07-14]**
 - 🔵 [自闭症谱系障碍](diseases/autism-spectrum-disorder.md) — 高度异质神经发育障碍；三大通路：(1)突触修剪不足（16p11.2缺失→CD47感知障碍→小胶质吞噬↓→突触密度↑）；(2)突触装配蛋白突变（NLGN3/SHANK3/NRXN1β）；(3)E/I失衡偏兴奋；与精神分裂症形成"删除方向"镜像（过多 vs. 过少修剪）；confidence=medium（机制异质性大）**[NEW 2026-08-07 #106]**
 - 🟢 [传导性失语症](diseases/conduction-aphasia.md) — AF直接段/Spt损伤的典型临床表现；三特征：理解完整/产出流利/重复严重受损；conduite d'approche在DIVA前馈/反馈框架中的解释；皮层（Spt）vs 白质（AF）损伤争议 **[NEW 2026-08-21 #119]**
+- 🟢 [SYNGAP1 相关神经发育障碍](diseases/syngap1-related-disorder.md) — de novo SYNGAP1截短突变→SynGAP1单倍剂量不足→Ras-ERK制动减弱→突触提前过度成熟→LTP遮蔽→关键期提前关闭；约1%非综合征性ID；>70%癫痫、~50% ASD；成年期基因治疗前景 **[NEW 2026-09-07 #137]**
 
 ---
 

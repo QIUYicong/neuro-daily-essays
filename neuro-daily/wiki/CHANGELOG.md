@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-09-07（#137 · 突触的"制动蛋白"：SynGAP1 如何通过解除 Ras-ERK 制动来执行 LTP）
+
+**新建页面（2页）**：
+- `concepts/syngap1.md`（established/high）— SynGAP1：PSD第三丰富蛋白，通过PDZ2与PSD-95结合；双向GAP制动器（Ras-GAP抑制AMPAR插入、Rap1-GAP调控AMPAR移除）；LTP时CaMKII磷酸化→弥散→Ras-ERK解制动→AMPAR插入；弥散幅度与LTP强度正相关；SYNGAP1+/-导致静默突触提前耗尽、LTP遮蔽、关键期提前关闭
+- `diseases/syngap1-related-disorder.md`（established/high）— SRD（SYNGAP1相关神经发育障碍）：de novo SYNGAP1截短突变→单倍剂量不足；约1%非综合征性ID；>70%癫痫、~50% ASD；首次人类关联（Hamdan NEJM 2009）；治疗前沿（AAV基因补充、ASO）
+
+**修订页面（3页）**：
+- `concepts/ltp.md`（rev15）— related 新增 syngap1、syngap1-related-disorder；SynGAP1弥散明确为LTP表达必要解制动步骤；SYNGAP1+/-的LTP occlusion补充
+- `concepts/psd-95.md`（rev2）— related 中 syngap→syngap1 slug 更新；related 新增 syngap1-related-disorder；SynGAP1-PDZ2相互作用细节明确
+- `concepts/silent-synapse.md`（rev2）— related 新增 syngap1、syngap1-related-disorder；dimensions 新增 disease；SynGAP1是防止静默突触自发开锁的制动器明确写入
+
+**矛盾登记**：无新矛盾（SynGAP1机制高度一致，各来源无分歧）
+
+**解决悬空引用**：
+- `syngap1` ✅ 已建立（被 psd-95、ltp 等引用）
+- `syngap1-related-disorder` ✅ 已建立（填补疾病维度）
+
+**新增未解问题**：
+- Q-syngap1-01：不同 SynGAP1 亚型（α1 vs α2 vs β/γ）在海马 vs 前额叶的功能差异？
+- Q-syngap1-02：成年期基因治疗的治疗窗口上限在哪里？
+
+**图谱**：289 节点 / 1641 条边（+2节点 +13条边）
+
+---
+
 ## 2026-09-06（#136 · PSD-95：兴奋性突触的主控分子）
 
 **新建页面（2页）**：

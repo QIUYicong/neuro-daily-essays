@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-09-06
-updated: 2026-09-06
-revision_count: 1
+updated: 2026-09-07
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, microcircuit]
-related: [silent-synapse, ltp, ltd, nmda-receptor, ampa-receptor, camkii, synaptogenesis, postsynaptic-density, critical-period, critical-period-plasticity, gephyrin-scaffold, tarp-auxiliary-subunit, syngap, dlg4-syndrome, working-memory]
+related: [silent-synapse, ltp, ltd, nmda-receptor, ampa-receptor, camkii, synaptogenesis, postsynaptic-density, critical-period, critical-period-plasticity, gephyrin-scaffold, tarp-auxiliary-subunit, syngap1, syngap1-related-disorder, dlg4-syndrome, working-memory]
 prerequisites: [synaptic-transmission, nmda-receptor, ampa-receptor, postsynaptic-density]
 opens_questions: [Q-psd95-01, Q-psd95-02]
 source_articles: [2026-09-06-psd95-synaptic-scaffold, 2026-09-05-odp-stage2-hebbian-vs-homeostatic]
@@ -111,9 +111,11 @@ SynGAP/PSD-95 多价复合物驱动液-液相分离（Zeng 2016, PMID:27565345, 
 
 ## 修订历史
 
+- 2026-09-07 · 修订 rev2 · 基于《突触的"制动蛋白"》(#137) · SynGAP1-PDZ2 相互作用的分子细节明确（CaMKII磷酸化→亲和力降低→SynGAP1弥散）；related 新增 syngap1、syngap1-related-disorder；syngap→syngap1 slug 更新；source_articles 新增
 - 2026-09-06 · 创建 · 基于《PSD-95：兴奋性突触的主控分子》(#136) · 初始置信度：高 · 填补 2026-09-05 沉默突触文章创建的悬空引用
 
 ## 来源文章
 
+- [[2026-09-07-syngap1-synaptic-brake-intellectual-disability]]
 - [[2026-09-06-psd95-synaptic-scaffold]]
 - [[2026-09-05-odp-stage2-hebbian-vs-homeostatic]]

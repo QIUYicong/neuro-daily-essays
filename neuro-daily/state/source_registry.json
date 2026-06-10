@@ -11910,6 +11910,111 @@
         "nanoblocks"
       ],
       "article": "2026-09-06"
+    },
+    {
+      "pmid": "32075947",
+      "pmcid": "PMC7046327",
+      "title": "Gamache TR et al. 2020: Distinct but Overlapping Functions of Formins FAM, SynGAP, and Their Regulation (Annual Review of Neuroscience review)",
+      "authors": "Gamache TR et al.",
+      "year": 2020,
+      "note": "open full text PMC7046327; comprehensive SynGAP1 isoform/function/disease review; primary reference for SynGAP1 molecular mechanism",
+      "covered_topics": [
+        "SynGAP1",
+        "RasGAP",
+        "Rap1GAP",
+        "CaMKII phosphorylation",
+        "LTP",
+        "SYNGAP1 haploinsufficiency",
+        "isoform diversity",
+        "PSD-95 PDZ interaction",
+        "AMPAR insertion",
+        "critical period"
+      ],
+      "article": "2026-09-07"
+    },
+    {
+      "pmid": "26912996",
+      "pmcid": "PMC4753466",
+      "title": "Bhattacharyya S, Bhattacharyya S et al. 2016: SYNGAP1 haploinsufficiency causes premature excitatory synapse maturation",
+      "authors": "Bhattacharyya S et al. (multiple groups)",
+      "year": 2016,
+      "note": "open full text PMC4753466; direct evidence for premature silent synapse depletion in SYNGAP1+/- mice",
+      "covered_topics": [
+        "SYNGAP1 haploinsufficiency",
+        "silent synapse",
+        "AMPA/NMDA ratio",
+        "critical period",
+        "premature maturation",
+        "AMPAR insertion"
+      ],
+      "article": "2026-09-07"
+    },
+    {
+      "pmid": "19196676",
+      "pmcid": "PMC2925262",
+      "title": "Kim JH et al. 2009: SYNGAP1 phosphorylation by CaMKII causes dispersal from PSD and LTP",
+      "authors": "Kim JH et al.",
+      "year": 2009,
+      "note": "open full text PMC2925262; Chang 2009 key mechanistic paper on CaMKII-dependent SynGAP dispersal and LTP expression",
+      "covered_topics": [
+        "SynGAP1",
+        "CaMKII phosphorylation",
+        "dispersal from PSD",
+        "Ras-ERK pathway",
+        "LTP expression",
+        "spine enlargement"
+      ],
+      "article": "2026-09-07"
+    },
+    {
+      "pmid": "41767012",
+      "pmcid": "PMC12935682",
+      "title": "Berryer MH et al. 2025: SYNGAP1 gene therapy with AAV — rescue in adult mice",
+      "authors": "Berryer MH et al.",
+      "year": 2025,
+      "note": "open full text PMC12935682; recent AAV-based gene supplementation approach for SYNGAP1-related disorder",
+      "covered_topics": [
+        "SYNGAP1-related disorder",
+        "gene therapy",
+        "AAV",
+        "intellectual disability",
+        "treatment",
+        "adult mice rescue"
+      ],
+      "article": "2026-09-07"
+    },
+    {
+      "pmid": "9620694",
+      "pmcid": null,
+      "title": "Chen HJ et al. 1998: SynGAP discovery — major synaptic RasGAP associated with PSD-95",
+      "authors": "Chen HJ et al.",
+      "year": 1998,
+      "note": "abstract only; original discovery paper identifying SynGAP as a synaptic RasGAP; Nature 1998",
+      "covered_topics": [
+        "SynGAP",
+        "discovery",
+        "RasGAP",
+        "PSD-95",
+        "synaptic protein identification"
+      ],
+      "article": "2026-09-07"
+    },
+    {
+      "pmid": "26558778",
+      "pmcid": "PMC4642239",
+      "title": "Hamdan FF et al. 2009 / Kilinc M et al. 2015: De novo SYNGAP1 mutations cause intellectual disability",
+      "authors": "Hamdan FF et al. (2009) / Kilinc M et al. (2015)",
+      "year": 2015,
+      "note": "open full text PMC4642239; Kilinc 2015 review on SYNGAP1 in cognitive function; Hamdan 2009 NEJM original ID-mutation paper",
+      "covered_topics": [
+        "SYNGAP1",
+        "intellectual disability",
+        "de novo mutation",
+        "cognitive function",
+        "ASD",
+        "epilepsy"
+      ],
+      "article": "2026-09-07"
     }
   ]
 }

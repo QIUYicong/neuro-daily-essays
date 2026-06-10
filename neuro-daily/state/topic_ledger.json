@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-06",
-  "total_articles": 136,
+  "last_updated": "2026-09-07",
+  "total_articles": 137,
   "entries": [
     {
       "date": "2026-08-09",
@@ -8788,6 +8788,85 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-06；文章为悬空引用填补型（psd-95 在上一篇 silent-synapse 文章中产生悬空引用）；18个开放全文来源（69%），4个摘要仅读，2个付费墙（有PMC替代）；2个新 wiki 页面；2个 wiki 页修订；2个新未解问题（Q-psd95-01, Q-psd95-02）"
+    },
+    {
+      "date": "2026-09-07",
+      "real_date": "2026-06-10",
+      "article_number": 137,
+      "title": "突触的\"制动蛋白\"：SynGAP1 如何通过解除 Ras-ERK 制动来执行 LTP，以及它的缺失如何永久关闭大脑的学习窗口",
+      "slug": "syngap1-synaptic-brake-intellectual-disability",
+      "filename": "2026-09-07-syngap1-synaptic-brake-intellectual-disability.md",
+      "article_type": "frontier_node",
+      "core_question": "SynGAP1 作为 Ras/Rap1 双 GTPase 抑制剂如何在突触静息状态维持低 Ras-ERK 活性（制动）？CaMKII 磷酸化如何触发 SynGAP1 从 PSD 弥散（解制动）并激活 Ras-ERK-AMPAR 插入轴完成 LTP 表达？SYNGAP1 单倍剂量不足为何导致"四重打击"（基础 Ras-ERK 升高 + 沉默突触过早耗尽 + LTP 堵塞 + 关键期提前关闭），从而产生智力障碍/ASD/癫痫三联征？成年期 SYNGAP1 剂量恢复是否有治疗窗口？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "disease",
+        "cognition"
+      ],
+      "curriculum_track": "1. 突触分子生物学（延续 PSD-95#136 的 SynGAP 槽位竞争故事 → SynGAP1 完整机制解析 → 疾病延伸 SYNGAP1-related-disorder；连接突触分子→关键期→神经遗传疾病三条叙事线）",
+      "topic_tags": [
+        "SynGAP1",
+        "SYNGAP1",
+        "RasGAP",
+        "Rap1GAP",
+        "CaMKII",
+        "LTP",
+        "de-braking",
+        "Ras-ERK pathway",
+        "AMPA receptor insertion",
+        "spine enlargement",
+        "silent synapse",
+        "critical period",
+        "SYNGAP1-related disorder",
+        "intellectual disability",
+        "autism spectrum disorder",
+        "epilepsy",
+        "PSD-95",
+        "PDZ domain",
+        "haploinsufficiency",
+        "de novo mutation",
+        "AAV gene therapy",
+        "antisense oligonucleotide",
+        "mGluR5",
+        "ERK",
+        "Ras",
+        "Rap1",
+        "synaptic slot",
+        "phase separation",
+        "coiled-coil trimerization"
+      ],
+      "main_sources": [
+        "PMID:32075947 / PMC7046327 (Gamache 2020, Annu Rev Neurosci, open full text) — SynGAP1 综合综述：isoform 多样性、CaMKII 磷酸化机制、疾病关联",
+        "PMID:26912996 / PMC4753466 (multiple groups 2016, open full text) — SYNGAP1 单倍剂量不足导致沉默突触过早耗尽的直接证据",
+        "PMID:19196676 / PMC2925262 (Kim/Chang 2009, open full text) — CaMKII 磷酸化 SynGAP1 导致 PSD 弥散、Ras-ERK 激活、LTP 表达的核心机制论文",
+        "PMID:41767012 / PMC12935682 (Berryer 2025, open full text) — 成年期 AAV 基因补充治疗 SYNGAP1 相关疾病的最新进展",
+        "PMID:9620694 (Chen 1998, Nature, abstract only) — SynGAP 发现论文：第一篇鉴定突触 RasGAP 与 PSD-95 关联",
+        "PMID:26558778 / PMC4642239 (Kilinc 2015 review, open full text) — SYNGAP1 在认知功能中的角色综述；涵盖 Hamdan 2009 NEJM 疾病发现"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/syngap1.md (NEW, established/high) — SynGAP1 分子机制、LTP 解制动、SYNGAP1+/- 四重打击模型",
+        "wiki/diseases/syngap1-related-disorder.md (NEW, established/high) — SYNGAP1 相关神经发育障碍疾病页"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md (rev14->rev15): related 新增 syngap1、syngap1-related-disorder；source_articles 新增；修订历史记录 SynGAP1 弥散为 LTP 解制动步骤",
+        "wiki/concepts/psd-95.md (rev1->rev2): related syngap→syngap1（slug 校正）+ syngap1-related-disorder 新增；SynGAP-PDZ2 相互作用分子细节更新；source_articles 新增",
+        "wiki/concepts/silent-synapse.md (rev1->rev2): dimensions 新增 disease；related 新增 syngap1、syngap1-related-disorder；修订历史记录 SynGAP1 为防止沉默突触自发开锁的制动器"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-syngap1-01",
+        "Q-syngap1-02"
+      ],
+      "next_suggested_topics": [
+        "dlg4-syndrome: DLG4（SYNGAP1 互作伙伴 PSD-95 基因）单倍剂量不足综合征（OMIM #616831）——PSD-95 蛋白减少50%→突触槽位减少→AMPAR 不稳定→ID+ASD+癫痫；与 SYNGAP1-related-disorder 的分子机制对比（同一 PDZ 复合物的不同成员）",
+        "ampa-receptor-trafficking: AMPAR 突触运输完整故事——ER→再循环内体→突触的三阶段旅程；GluA1/GluA2 亚基特异性规则；与TARP和PSD-95槽位整合；CaMKII-S831 和 PKA-S845 的不同磷酸化效应",
+        "critical-period-reopening: 成年期关键期重新打开的完整机制图谱——PNN 降解（ChABC）、Lynx1 阻断（α7-nAChR）、HDAC 抑制（丙戊酸）、黑暗饲养这四条路径的分子机制对比及叠加效应"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-07；本文为前沿节点文章（PSD-95#136 直接推荐 SynGAP1 后续）；5个开放全文来源（PMC7046327, PMC4753466, PMC2925262, PMC12935682, PMC4642239），1个摘要仅读（PMID:9620694）；2个新 wiki 页面；3个 wiki 页修订；2个新未解问题（Q-syngap1-01, Q-syngap1-02）；无争议声明新增"
     }
   ],
   "layer_coverage_recent": {

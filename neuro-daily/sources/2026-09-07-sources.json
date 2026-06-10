@@ -1,0 +1,94 @@
+{
+  "date": "2026-09-07",
+  "article": "2026-09-07-syngap1-synaptic-brake-intellectual-disability",
+  "actual_execution_date": "2026-06-10",
+  "sources": [
+    {
+      "id": "PMID:32075947",
+      "pmcid": "PMC7046327",
+      "type": "review",
+      "title": "Twenty Years of SynGAP Research: From Synapses to Cognition",
+      "authors": "Gamache TR, Araki Y, Huganir RL",
+      "journal": "Journal of Neuroscience",
+      "year": 2020,
+      "doi": "10.1523/JNEUROSCI.1526-19.2020",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "full_text_read": true,
+      "coverage": "Main review: SynGAP1 structure, PDZ-PSD-95 interaction, LTP dispersal mechanism, SYNGAP1 +/- mouse phenotype, human mutations"
+    },
+    {
+      "id": "PMID:26912996",
+      "pmcid": "PMC4753466",
+      "type": "review",
+      "title": "SYNGAP1: Mind the Gap",
+      "authors": "Jeyabalan N, Clement JP",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2016,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "full_text_read": false,
+      "coverage": "Disease-focused review: SYNGAP1 ID/ASD/epilepsy, dendritic spine structure, AMPAR trafficking, developmental critical period"
+    },
+    {
+      "id": "PMID:19196676",
+      "pmcid": "PMC2925262",
+      "type": "original_research",
+      "title": "Mutations in SYNGAP1 in Autosomal Nonsyndromic Mental Retardation",
+      "authors": "Hamdan FF et al. (Synapse to Disease Group)",
+      "journal": "New England Journal of Medicine",
+      "year": 2009,
+      "doi": "10.1056/NEJMoa0805392",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "full_text_read": false,
+      "coverage": "First human genetics study: 3 de novo SYNGAP1 truncating mutations in 94 ID patients; established human causality"
+    },
+    {
+      "id": "PMID:41767012",
+      "pmcid": "PMC12935682",
+      "type": "review",
+      "title": "Research Progress in SYNGAP1-Related Neurodevelopmental Disorders",
+      "authors": "Zhang J, Xue G, Wang X, Rao X, Chen J, Fan L, Liu L, Gan J",
+      "journal": "Frontiers in Neurology",
+      "year": 2026,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "full_text_read": true,
+      "coverage": "Latest (2026) clinical review: SRD phenotype spectrum, >200 patients, emerging precision therapies (AAV, ASO)"
+    },
+    {
+      "id": "PMID:9620694",
+      "pmcid": null,
+      "type": "original_research",
+      "title": "A synaptic Ras-GTPase activating protein (p135 SynGAP) inhibited by CaM kinase II",
+      "authors": "Chen HJ, Rojas-Soto M, Oguni A, Kennedy MB",
+      "journal": "Neuron",
+      "year": 1998,
+      "full_text_available": false,
+      "access_method": "abstract only (paywall)",
+      "full_text_read": false,
+      "coverage": "Original SynGAP1 discovery paper; CaMKII regulation; NMDAR association"
+    },
+    {
+      "id": "PMID:26558778",
+      "pmcid": "PMC4642239",
+      "type": "original_research",
+      "title": "Convergence of Hippocampal Pathophysiology in Syngap+/- and Fmr1-/y Mice",
+      "authors": "Barnes SA, Wijetunge LS, Jackson AD et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2015,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "full_text_read": false,
+      "coverage": "Syngap+/- mouse model: elevated ERK, abnormal dendritic spine morphology, enhanced LTD; convergence with Fragile X pathophysiology via mGluR5-Ras-ERK axis"
+    }
+  ],
+  "summary": {
+    "total_sources": 6,
+    "open_full_text": 5,
+    "abstract_only": 1,
+    "paywall_bypassed": false,
+    "fabricated_sources": false
+  }
+}
