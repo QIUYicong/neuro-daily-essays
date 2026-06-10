@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-08",
-  "total_articles": 138,
+  "last_updated": "2026-09-10",
+  "total_articles": 140,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9065,6 +9065,63 @@
       ],
       "mode": "long_term_curriculum",
       "note": "系统时钟UTC+8=2026-06-10（真实执行日期）；知识库虚拟日期2026-09-09；层级突破（cellular+brain-region+cognition+behavior，避免连续molecular/synaptic）；6个开放全文来源，5个摘要仅读；1个新wiki页创建，2个修订；2个新未解问题；无争议声明新增；图谱：292节点，1658边"
+    },
+    {
+      "date": "2026-09-10",
+      "real_date": "2026-06-10",
+      "article_number": 140,
+      "title": "海马给新皮层写的信：互补学习系统与尖波涟漪驱动的记忆系统巩固",
+      "slug": "complementary-learning-systems-sleep-consolidation",
+      "filename": "2026-09-10-complementary-learning-systems-sleep-consolidation.md",
+      "article_type": "regular",
+      "core_question": "大脑如何同时做到快速学习新信息而不覆盖旧知识？互补学习系统（CLS）框架：海马快速稀疏编码+新皮层慢速分布式整合，通过 NREM 睡眠中 SO-spindle-SWR 三重协奏驱动的压缩重播实现系统性记忆巩固。清醒 SWR 如何主动标记经历（Yang 2023 R=0.86）？PFC 涟漪如何顶-下门控海马再激活（Shin & Jadhav 2023）？SHY 突触稳态与主动巩固如何调和？",
+      "layer": [
+        "cognition",
+        "whole-brain-network",
+        "cellular"
+      ],
+      "curriculum_track": "4. 学习和记忆 → 记忆巩固与系统整合（CLS理论；SWR机制；睡眠分期；皮层化漂移）",
+      "topic_tags": [
+        "complementary learning systems",
+        "CLS",
+        "memory consolidation",
+        "sharp wave ripples",
+        "sleep",
+        "NREM",
+        "slow oscillation",
+        "sleep spindles",
+        "SO-spindle-SWR coupling",
+        "interleaved replay",
+        "catastrophic forgetting",
+        "stability-plasticity dilemma",
+        "hippocampus",
+        "neocortex",
+        "prefrontal cortex",
+        "systems consolidation",
+        "synaptic homeostasis",
+        "SHY",
+        "awake replay",
+        "memory tagging"
+      ],
+      "main_sources": [
+        "PMID:7624455",
+        "PMID:21541757",
+        "PMID:26135716",
+        "PMID:37987008",
+        "PMID:41205608",
+        "PMID:38168420",
+        "PMID:24411729"
+      ],
+      "unresolved_questions": [
+        "Q-cls-cortical-gating-01",
+        "Q-cls-interleaved-replay-01",
+        "Q-cls-human-01"
+      ],
+      "next_suggested_topics": [
+        "trkb-bdnf-signaling: TRKB完整信号通路——从PSD-95结合到PLCγ/MAPK/PI3K三分叉；截短型TrkB的主导负性作用；BDNF在PV细胞成熟、关键期开启、AHN中的三重角色",
+        "engram-cells-systems-consolidation: 印迹细胞的系统巩固——海马印迹如何转写到皮层印迹？沉默印迹的时间动态？Roy 2016 光遗传重激活与系统巩固的关系",
+        "prefrontal-cortex-memory-consolidation: 前额叶皮层在记忆系统巩固中的角色——从海马依赖到PFC依赖的转变；ACC作为远期记忆的主要皮层储存位点；PFC涟漪的选择性功能"
+      ]
     }
   ],
   "layer_coverage_recent": {

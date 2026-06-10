@@ -1,6 +1,39 @@
 # 未解问题追踪
 
-*最后更新：2026-09-08*
+*最后更新：2026-09-10*
+
+---
+
+## 2026-09-10 新增（来自"海马给新皮层写的信"文章 #140）
+
+### Q-cls-cortical-gating-01（高优先级）：PFC 涟漪的顶-下抑制——选择标准是什么？
+
+- **关联 wiki**：[[complementary-learning-systems]]、[[sharp-wave-ripples]]、[[prefrontal-cortex]]、[[memory-consolidation]]
+- **来源文章**：2026-09-10-complementary-learning-systems-sleep-consolidation
+- **问题**：Shin & Jadhav 2023（PMID:38168420）发现 PFC 涟漪独立于海马 SWR 时主动抑制海马再激活，但同步耦合时逆转为增强。
+  - 问题 A：PFC 涟漪发生的"独立"还是"同步"模式，由什么决定？是奖励预期？记忆强度？情绪效价？还是 ACh/NE 等神经调质的瞬时水平？
+  - 问题 B：被 PFC 涟漪单独抑制的记忆（无耦合的海马 SWR）是否就此无法被巩固，还是只是被延迟到后续夜晚？
+  - 问题 C：能否通过闭环刺激（检测到独立 PFC 涟漪时立即触发海马 SWR）来人为增强记忆巩固？是否会有副作用（过度巩固）？
+- **当前证据状态**：PFC 涟漪顶-下抑制基础相关证据（中，Shin & Jadhav 2023）；选择标准（极低，未知）；因果干预（无）
+
+### Q-cls-interleaved-replay-01（中优先级）：睡眠重播的结构——随机还是有序？
+
+- **关联 wiki**：[[complementary-learning-systems]]、[[sharp-wave-ripples]]、[[memory-consolidation]]
+- **来源文章**：2026-09-10-complementary-learning-systems-sleep-consolidation
+- **问题**：原版 CLS（McClelland 1995）预测"交错重播"（interleaved replay）需要接近随机采样，才能避免皮层的序列干扰。但实验观察到重播存在时间结构（前向、反向、新颖路径）和优先级（清醒 SWR 标记的 → 睡眠优先重播）。
+  - 问题 A：是否存在跨夜晚的有序性——第一晚重播近期记忆（近期优先），后续夜晚逐渐重播更早的记忆？Chang 2025（PMID:39743590）的 NE/瞳孔门控是否是这一机制的一部分？
+  - 问题 B：随机性 vs 有序性对皮层语义提炼效率的影响——有序重播是否反而更有助于构建皮层的序列性结构（如语言、运动序列）？
+- **当前证据状态**：随机 vs 有序重播（中，两方向均有数据，但系统比较缺乏）
+
+### Q-cls-human-01（中优先级）：人类 CLS 系统巩固的时间线与衰老干预
+
+- **关联 wiki**：[[complementary-learning-systems]]、[[memory-consolidation]]、[[sleep-spindles]]
+- **来源文章**：2026-09-10-complementary-learning-systems-sleep-consolidation
+- **问题**：Frankland & Bontempi 2005 描述大鼠约数周完成系统巩固，人类可能数年。
+  - 问题 A：人类系统巩固时间线的个体差异多大？是否与海马体积、睡眠质量、年龄成系统关系？
+  - 问题 B：老年人 mPFC 萎缩→SO-spindle-SWR 时间耦合精度降低（Walker 2017, PMID:29249289，相位偏移 46.3°）→系统巩固效率下降。是否可以通过经颅电刺激（tACS）在 SO 上行相触发纺锤波来改善老年人的记忆巩固？现有 tACS 临床试验的效果如何？
+  - 问题 C：阿尔茨海默病早期 SCN 萎缩→睡眠碎片化→系统巩固受损。如果通过睡眠干预（睡眠质量改善而非认知训练）能延缓 AD 认知下降，这是否为 CLS 框架提供了治疗靶点？
+- **当前证据状态**：tACS 临床试验（低-中，少数小样本研究）；AD 睡眠干预认知效果（低，缺乏大型 RCT）
 
 ---
 

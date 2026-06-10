@@ -1052,3 +1052,10 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 今日文章聚焦成年海马神经发生（AHN）——大脑终生保有的特殊可塑性机制，揭示了新生颗粒细胞在短短8周内从沉默前体细胞演化为功能性记忆编码单元的精确程序（GABA 去极化 → 超极化；4-6 周关键期 NR2B NMDA 低阈值 LTP；苔状纤维至 CA3 输出；Toni & Schinder 2016）。核心主题是新生神经元的**双重悖论功能**：一方面通过高可塑性差异编码和前馈抑制诱导颗粒细胞层活动稀疏化，增强对相似记忆的模式分离（Sahay 2011 充分性证据，Bax KO 3.6 倍 → 恐惧辨别提早 4 天）；另一方面通过突触竞争改写旧连接组，主动诱导对已有记忆的遗忘（Akers 2014 双向跨物种因果）——婴儿失忆症由此获得机制解释。人类神经发生争议（Sorrells 2018 假阴性归因于过度固定；Moreno-Jiménez 2019 在 43-87 岁健康个体发现 43,000 神经母细胞/mm²）和 2025 年"活性 vs 数量解耦"新认识（氯胺酮快速抗抑郁依赖活性而非增殖）是重要补充。
 
 **新建 wiki 页**：neurogenesis-induced-forgetting（emerging, medium）。**修订**：adult-neurogenesis rev4（遗忘功能+活性解耦）、pattern-separation rev3（前馈抑制机制加深）。**图谱**：292 节点，1658 条边。**来源**：11 篇（6 篇开放全文，5 篇摘要）。**层级**：cellular + brain-region + cognition + behavior（与前四篇的 molecular/synaptic 层形成对比）。
+
+## 2026-09-10（#140）— 海马给新皮层写的信：互补学习系统与记忆系统巩固
+
+今日文章从分子/突触层的六篇文章（#134-#139）向上一跃，聚焦**认知/全脑网络层**——互补学习系统（CLS）理论。McClelland 等 1995 年提出的框架在 30 年后仍是记忆研究的组织轴心：海马（快速稀疏编码）+ 新皮层（慢速分布式整合）通过 NREM 睡眠中 SO-spindle-SWR 三重协奏完成知识转移。今日新增三个关键更新：（1）Yang et al. 2023（Nature, PMID:37987008）发现清醒 SWR 主动标记当前试次，与睡眠重播相关高达 R=0.86——记忆选择性不只在夜晚发生；（2）Shin & Jadhav 2023（PMID:38168420）揭示 PFC 涟漪的顶-下双向门控——皮层是主动编辑者；（3）Robinson et al. 2026（PMID:41205608）的大振幅 SWR 光遗传因果证据。Tononi & Cirelli 2014 的 SHY 框架与主动巩固的调和方案（down-selection）也作为"已有 open 矛盾的新视角"整合入 CLS 页面。CLS 与 AI 的对照（DQN 经验回放、连续学习）提供了双向理解的窗口。
+
+**新建页面**：0。**修订**：complementary-learning-systems rev2（重大扩充）、sharp-wave-ripples rev7、memory-consolidation rev9。**图谱**：292 节点，1663 条边（+5边）。**来源**：12篇（7篇开放全文）。**层级**：cognition + whole-brain-network + cellular（层级换挡，与近期 molecular/synaptic 主题形成互补）。
+

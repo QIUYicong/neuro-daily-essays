@@ -1,0 +1,174 @@
+# 运行日志 2026-09-10（真实日期：2026-06-10）
+
+## 基本信息
+
+- 文章编号：#140
+- 虚拟日期：2026-09-10
+- 真实执行日期：2026-06-10（约 15:00 CST）
+- 分支：main
+- 执行耗时：约20分钟
+
+---
+
+## 步骤 0：分支同步
+
+- git checkout main → 成功（通过 --rebase 解决本地与远程分支分叉）
+- git pull --rebase origin main → 成功
+- 确认 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 存在 ✓
+- 确认 neuro-daily/wiki/ 目录结构正常 ✓
+- Remote 指向 QIUYicong/neuro-daily-essays（via local_proxy）✓
+- 注：本次运行为今日（2026-06-10）第 6 次触发，前 5 次已生成 #135-#139；今日继续生成 #140
+
+---
+
+## 步骤 A：读取状态
+
+- topic_ledger.json：末条目为 #139（2026-09-09），下一篇为 #140（2026-09-10）
+- 最近层级：molecular/synaptic/cellular 连续主导（#134-#139），需切换到 cognition/whole-brain-network 层
+- unresolved_questions.md：末条来自 #139（Q-ahn-01, Q-ahn-02）
+- contested_claims.json：13条 open 矛盾，今日无新矛盾
+- 图谱：292节点，1658边
+
+---
+
+## 步骤 B：选题
+
+**选题逻辑**：
+1. 层级平衡：最近 6 篇均重度 molecular/synaptic/cellular → 必须切换到 cognition/whole-brain-network
+2. 前文建议（#139）：CLS（互补学习系统）标记为"下一次可用"
+3. CLS 页面（rev1，创建于 2026-06-24）内容较薄，需要重大扩充
+4. 今日可用文献：Born & Wilhelm 2011、Yang 2023 Nature、Robinson 2026 Neuron、Shin & Jadhav 2023 等多篇新发现
+5. 选定：**互补学习系统（CLS）与记忆系统巩固**
+
+**未选主题**：
+- TRKB/BDNF signaling（molecular层，与近期主题层级相同，暂缓）
+- 印迹细胞系统巩固（下次可用）
+
+---
+
+## 步骤 C：检索与阅读
+
+### 搜索词
+
+1. "sharp-wave ripples hippocampus memory consolidation sleep reactivation review 2023 2024 2025" → PubMed/搜索
+2. "complementary learning systems hippocampus neocortex McClelland McNaughton review" → PubMed/搜索
+3. "sleep memory consolidation hippocampus neocortex systems consolidation review Diekelmann Born 2010" → PubMed/搜索
+4. "Wilson McNaughton 1994 Science hippocampal place cells reactivation sleep replay memory" → 搜索
+5. "Tononi Cirelli synaptic homeostasis hypothesis SHY NREM downscaling review 2014" → PubMed/搜索
+
+### 候选文献
+
+| PMID/DOI | 状态 | 采用/排除理由 |
+|----------|------|--------------|
+| PMID:7624455 (McClelland 1995, Psychological Review) | 摘要 | 采用：CLS 理论奠基 |
+| PMID:22141588 (O'Reilly 2014, Cognitive Science) | 摘要 | 采用：CLS 15年综述 |
+| PMID:21541757 / PMC3278619 (Born & Wilhelm 2011) | **开放全文** | 采用：SO-spindle-SWR 机制最详细 |
+| PMID:20046194 (Diekelmann & Born 2010, NRN) | 摘要 | 采用：记忆功能经典综述 |
+| PMID:31451802 (Klinzing 2019, Nat Neurosci) | 摘要 | 采用：最新机制综述 |
+| PMID:26135716 / PMC4648295 (Buzsáki 2015) | **开放全文** | 采用：SWR 综述权威 |
+| PMID:37987008 / PMC10659301 (Yang 2023, Nature) | **开放全文** | 采用：清醒 SWR 标记机制核心 |
+| PMID:41205608 (Robinson 2026, Neuron) | **部分**（PMC403 Forbidden）| 采用：大振幅 SWR 因果证据；已在 sharp-wave-ripples.md 中有详细记录 |
+| PMID:38168420 / PMC10760112 (Shin & Jadhav 2023) | **开放全文** | 采用：PFC 涟漪顶-下门控新发现 |
+| PMID:24411729 / PMC3921176 (Tononi & Cirelli 2014) | **开放全文** | 采用：SHY vs 主动巩固调和 |
+| PMID:29723670 / PMC6649660 (Malerba 2018) | **开放全文** | 采用：CA3→CA1 电路机制 |
+| PMID:15685217 (Frankland & Bontempi 2005) | 未读取全文 | 采用（间接）：系统巩固时间尺度；通过综述引用使用 |
+| PMID:8036517 (Wilson & McNaughton 1994) | 摘要 | 采用：经典重播发现历史背景 |
+
+**来源质量小结**：
+- 开放全文读取：7篇 ✓（≥2条要求满足）
+- 官方机构来源：PubMed/PMC ✓
+- 禁止来源：无（无Sci-Hub，无paywall绕过）
+
+---
+
+## 步骤 D：固结步骤
+
+### 处理的概念（共3页修订，0页新建）
+
+1. **complementary-learning-systems**（rev1→rev2）**重大修订**：
+   - 新增 SO-spindle-SWR 三重协奏机制小节（Born & Wilhelm 2011 详细描述）
+   - 新增清醒 SWR 主动标记小节（Yang 2023, R=0.86）
+   - 新增 PFC 涟漪顶-下门控小节（Shin & Jadhav 2023）
+   - 当前理解段落更新：说明 2023-2026 年对"双向主动调控"的修正
+   - 证据表 +5行；related +5；key_sources +8；opens_questions +3
+   - 纠正 PMID:7704110（无效）→ PMID:7624455（正确 McClelland 1995 PMID）
+
+2. **sharp-wave-ripples**（rev6→rev7）：
+   - 新增"皮层涟漪顶-下抑制与门控"新发现节（Shin & Jadhav 2023）
+   - key_sources 新增 PMID:38168420 和 PMID:37987008
+
+3. **memory-consolidation**（rev8→rev9）：
+   - 证据表新增3行：Yang 2023 R=0.86预测（PMID:37987008）；PFC涟漪顶-下门控（PMID:38168420）；更新清醒SWR标记注释区分两个Yang来源
+   - key_sources 新增 PMID:37987008, PMID:38168420
+
+### 矛盾检查
+
+- PFC 涟漪顶-下抑制（Shin & Jadhav 2023）：与既有 memory-consolidation 页面的"皮层被动接收"框架潜在冲突，但不是事实性矛盾——这是对机制更完整描述，补充而非否定。**无新矛盾登记**。
+- SHY vs 主动巩固（调和框架）：已在 memory-consolidation.md 中标注为"open"（Q-shy-vs-active-consolidation）。今日 Tononi & Cirelli 2014 的内容进一步充实了调和方案，该矛盾状态维持 open（需要单突触分辨率实验裁决），无需降级。
+
+---
+
+## 步骤 E：图谱更新
+
+- 新增节点：0
+- 新增边：5
+  - complementary-learning-systems → prefrontal-cortex (related)
+  - complementary-learning-systems → sleep-spindles (mechanism-of)
+  - complementary-learning-systems → adult-neurogenesis (related)
+  - complementary-learning-systems → shy-hypothesis (related)
+  - prefrontal-cortex → sharp-wave-ripples (regulates)
+- 最终：292节点，1663边
+
+---
+
+## 步骤 F：治理层更新
+
+- topic_ledger.json：添加 #140 条目，total_articles=140 ✓
+- unresolved_questions.md：添加 Q-cls-cortical-gating-01, Q-cls-interleaved-replay-01, Q-cls-human-01 ✓
+- source_registry.json：新增5条来源（总608条）✓
+- monthly_synthesis.md：追加 #140 摘要 ✓
+- wiki/index.md：更新头部描述（#140）；更新3个页面条目 ✓
+- wiki/CHANGELOG.md：追加今日变更节 ✓
+
+---
+
+## 步骤 G & H：自检结果
+
+**真实性**：
+- ✅ wiki 每条新主张有来源（PMID/PMCID）
+- ✅ 区分了已建立（教科书级：CLS框架、SWR重播）/ 主流模型（SO-spindle-SWR三重奏）/ 新发现-待验证（Yang 2023 R=0.86、Shin & Jadhav 2023 PFC门控）/ 推测（婴儿失忆症的CLS贡献）
+- ✅ 未将鼠类证据直接推广到人类（已明确标注"鼠类因果证据"）
+
+**一致性**：
+- ✅ 无新矛盾（PFC 涟漪顶-下门控是新发现，与现有理解互补）
+- ✅ 修订页的 updated/revision_count/修订历史同步更新
+- ✅ 图谱所有新边的 from/to 节点均已存在（无悬空边）
+
+**可导航**：
+- ✅ index.md 和 CHANGELOG.md 已反映今日变化
+- ✅ complementary-learning-systems.md 的 related/prerequisites 均满足 ≥1
+
+**情景层完整**：
+- ✅ articles/2026-09-10-complementary-learning-systems-sleep-consolidation.md ✓
+- ✅ notes/2026-09-10-reading-notes.md ✓
+- ✅ sources/2026-09-10-sources.json ✓
+- ✅ logs/2026-09-10-run.log ✓（本文件）
+- ✅ 未修改任何旧文章/笔记/来源/日志文件
+
+---
+
+## 失败与限制
+
+- PMC12626426（Robinson 2026 Neuron）全文：返回 HTTP 403 Forbidden；仅使用 PubMed 摘要和搜索结果摘录——在文章中已明确标注
+- Frankland & Bontempi 2005 全文：付费墙，仅通过二手综述引用
+
+---
+
+## Git 操作
+
+- 文件：articles/, notes/, sources/, logs/, wiki/, state/ 均已更新
+- commit message: "Add neuro daily article + wiki consolidation for 2026-09-10"
+- branch: main
+- commit: [待写入]
+- push: git push origin main
+- push_status: [待确认]

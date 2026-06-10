@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "node_count": 287,
   "edge_count": 1628,
   "edge_types": [
@@ -11490,6 +11490,31 @@
       "from": "neurogenesis-induced-forgetting",
       "to": "hippocampal-neurogenesis",
       "type": "part-of"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "prefrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "sleep-spindles",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "shy-hypothesis",
+      "type": "related"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "sharp-wave-ripples",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

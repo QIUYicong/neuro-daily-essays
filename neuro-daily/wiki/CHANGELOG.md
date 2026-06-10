@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-09-10（#140 · 海马给新皮层写的信：互补学习系统与尖波涟漪驱动的记忆系统巩固）
+
+**新建页面（0页）**：今日无新建页面；所有概念在既有页面中处理。
+
+**修订页面（3页）**：
+- `concepts/complementary-learning-systems.md`（rev1→rev2）— **重大扩充**：新增 SO-spindle-SWR 三重协奏详细机制（Born & Wilhelm 2011）；新增清醒 SWR 主动记忆标记机制（Yang et al. 2023, PMID:37987008, R=0.86 睡眠重播预测）；新增 PFC 涟漪顶-下门控（Shin & Jadhav 2023, PMID:38168420）；新增 SHY vs 主动巩固调和框架（Tononi & Cirelli 2014）；证据表 +5行；related +5个（prefrontal-cortex、sleep-spindles、adult-neurogenesis、shy-hypothesis、so-spindle-swr-coupling）；key_sources +8个；opens_questions +3（Q-cls-cortical-gating-01/Q-cls-interleaved-replay-01/Q-cls-human-01）；纠正 PMID:7704110→PMID:7624455（McClelland 1995 正确 PMID）
+- `concepts/sharp-wave-ripples.md`（rev6→rev7）— 新增"皮层涟漪顶-下抑制与门控"新发现节（Shin & Jadhav 2023, PMID:38168420）：PFC涟漪独立时抑制海马；同步时选择性增强；时序：纺锤波→PFC涟漪→SWR；key_sources +2（PMID:38168420, PMID:37987008）
+- `concepts/memory-consolidation.md`（rev8→rev9）— 证据表 +3行（Yang 2023 R=0.86直接预测 PMID:37987008；PFC涟漪顶-下门控 PMID:38168420；更新清醒SWR标记条目区分两个Yang来源）；key_sources +2
+
+**图谱更新**：+5条新边（complementary-learning-systems→prefrontal-cortex；complementary-learning-systems→sleep-spindles；complementary-learning-systems→adult-neurogenesis；complementary-learning-systems→shy-hypothesis；prefrontal-cortex→sharp-wave-ripples(regulates)）；总计292节点、1663边
+
+**矛盾登记**：无新矛盾（PFC涟漪门控是新发现但不冲突既有主张；SHY vs 主动巩固调和框架在既有memory-consolidation页面已登记为open，今日新信息互补而非矛盾）
+
+**悬空引用**：无新悬空引用；所有新边的目标节点均已存在
+
+---
+
 ## 2026-09-08（#138 · 当大脑的"学习窗口"再次开启：成年关键期重开的四条分子路径）
 
 **新建页面（2页）**：

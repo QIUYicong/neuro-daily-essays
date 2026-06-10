@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-10",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10264,6 +10264,77 @@
         "newborn neuron activity"
       ],
       "article": "2026-09-09"
+    },
+    {
+      "pmid": "37987008",
+      "title": "Selection of experience for memory by hippocampal sharp wave ripples",
+      "journal": "Nature",
+      "year": 2023,
+      "used_in": [
+        "2026-09-10"
+      ],
+      "covers": [
+        "awake SWR tagging",
+        "memory selection",
+        "sleep replay prediction"
+      ]
+    },
+    {
+      "pmid": "38168420",
+      "title": "Cortical ripples mediate top-down suppression of hippocampal reactivation",
+      "journal": "Current Biology",
+      "year": 2023,
+      "used_in": [
+        "2026-09-10"
+      ],
+      "covers": [
+        "PFC ripple gating",
+        "top-down suppression",
+        "sleep consolidation"
+      ]
+    },
+    {
+      "pmid": "21541757",
+      "title": "System consolidation of memory during sleep",
+      "journal": "Psychological Research",
+      "year": 2011,
+      "pmcid": "PMC3278619",
+      "used_in": [
+        "2026-09-10"
+      ],
+      "covers": [
+        "SO-spindle-SWR coupling",
+        "NREM memory consolidation",
+        "active systems consolidation"
+      ]
+    },
+    {
+      "pmid": "24411729",
+      "title": "Sleep and the price of plasticity: SHY",
+      "journal": "Neuron",
+      "year": 2014,
+      "pmcid": "PMC3921176",
+      "used_in": [
+        "2026-09-10"
+      ],
+      "covers": [
+        "synaptic homeostasis hypothesis",
+        "AMPAR downscaling",
+        "SHY"
+      ]
+    },
+    {
+      "pmid": "31451802",
+      "title": "Mechanisms of systems memory consolidation during sleep",
+      "journal": "Nature Neuroscience",
+      "year": 2019,
+      "used_in": [
+        "2026-09-10"
+      ],
+      "covers": [
+        "systems consolidation mechanisms",
+        "hippocampal replay"
+      ]
     }
   ],
   "total_sources": 592,

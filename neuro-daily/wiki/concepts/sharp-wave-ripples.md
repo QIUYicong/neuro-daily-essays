@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-07-07
-revision_count: 6
+updated: 2026-09-10
+revision_count: 7
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
 related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-09-10-complementary-learning-systems-sleep-consolidation]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:37987008", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38168420"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -120,6 +120,15 @@ Chang等（2025，PMID:39743590）发现NREM睡眠中瞳孔收缩期（NE低）�
 
 Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学习依赖的突触权重结构（对称STDP）既决定重放内容也决定SWR能否产生。对称STDP→前向+逆向重放；非对称STDP→仅前向。**"学什么"和"重放什么"共用同一张突触地图。**
 
+### 皮层涟漪的顶-下抑制与门控（Shin & Jadhav 2023）
+
+Shin 和 Jadhav（2023，PMID:38168420，PMCID:PMC10760112）揭示了一个反直觉的双向调控机制：
+- **PFC 涟漪独立发生时（与海马 SWR 不同步）**：PFC 涟漪**主动抑制**海马活动，减少海马神经元的放电
+- **PFC 涟漪与海马 SWR 同步耦合时**：被抑制的海马细胞集合转为**强烈的再激活**
+- 事件时序严格有序：**纺锤波 → PFC 涟漪 → 海马 SWR**（三层门控序列）
+
+**含义**：SWR 不仅向皮层传递信息，皮层也通过自身涟漪主动筛选哪些 SWR 内容可以"上传"巩固。这表明系统巩固存在**双向的精密调控**，皮层是主动的编辑者而非被动接收者。**SWR 的巩固效果部分取决于与 PFC 涟漪的协调程度。**
+
 ## 未解问题
 
 - Q-swr-reverse-forward：前向重播、反向重播、新颖路径重播分别在何种条件下产生？是否对应不同的认知功能（强化 vs. 规划 vs. 泛化）？
@@ -135,7 +144,8 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 新增4个关键新发现（Robinson 2026大型SWR因果证据、Yang 2024清醒SWR标记、Giri 2024睡眠剥夺分离、Chang 2025睡眠微结构）、Ecker 2022 CA3模型；扩充证据表（+6行）；新增"新发现"小节；新增3个未解问题；related新增norepinephrine-locus-coeruleus和dopamine-reward-prediction-error
 - 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · related新增sleep-spindles和cortical-slow-oscillation（SWR作为SO-spindle-SWR三重奏的第三层）；key_sources扩充3个（Latchoumane 2017三重耦合因果、Staresina 2024综述、Jiang 2019人类颅内验证）；source_articles新增2026-06-19
-- 2026-07-07 · 修订 · 基于《三重协奏》文章(#75) · 新增 Maingret 2016 闭环刺激因果证据（PMID:27182818）；related 新增 so-spindle-swr-coupling；connections 增加三重耦合页面链接
+- 2026-07-07 · 修订 rev6 · 基于《三重协奏》文章(#75) · 新增 Maingret 2016 闭环刺激因果证据（PMID:27182818）；related 新增 so-spindle-swr-coupling；connections 增加三重耦合页面链接
+- 2026-09-10 · 修订 rev7 · 基于《海马给新皮层写的信》文章 (#140) · 新增"皮层涟漪的顶-下抑制与门控"（Shin & Jadhav 2023, PMID:38168420）；新增 PMID:37987008（Yang 2023 Nature，清醒SWR标记的正确PMID，与已有的 PMID:38547293 互补）；key_sources +2 个；source_articles 新增 2026-09-10
 
 ## 来源文章
 

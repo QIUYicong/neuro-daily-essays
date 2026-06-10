@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-09（**#139**·成人大脑的秘密育儿所：齿状回新生神经元如何同时承担模式分离与记忆遗忘——发育时间表（GABA去极化→超极化；4-6周关键期）、模式分离双重机制、Akers 2014神经发生诱导遗忘双向因果、人类神经发生争议（Sorrells vs Boldrini vs Moreno-Jiménez 2019）、活性vs数量解耦（Betters 2025））· 主题页总数：**273**（新建1页：neurogenesis-induced-forgetting；修订2页：adult-neurogenesis rev4 · pattern-separation rev3；图谱292节点、1658边）
+> 最后更新：2026-09-10（**#140**·海马给新皮层写的信——互补学习系统（CLS）与尖波涟漪驱动的记忆系统巩固：稳定性-可塑性困境解法、SO-spindle-SWR 三重协奏、清醒 SWR 主动记忆标记（Yang 2023, R=0.86）、PFC 涟漪顶-下门控（Shin & Jadhav 2023）、大振幅 SWR 因果证据（Robinson 2026）、SHY vs 主动巩固调和框架）· 主题页总数：**273**（新建0页；修订3页：complementary-learning-systems rev2 · sharp-wave-ripples rev7 · memory-consolidation rev9；图谱292节点、1663边）
 
 ---
 
@@ -114,7 +114,7 @@
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；Sahay 2011成人神经发生因果改善分离 **[NEW 2026-06-24]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
 - 🔵 [DIVA模型（言语产生计算-神经框架）](concepts/diva-model.md) — 言语声音图（左IFG/vPMC）+启动图（SMA-BG）+听觉目标/误差图（pSTG）+体感目标图（SMG）+反馈控制图（右vPMC）+小脑前向模型；前馈主导流利言语/反馈主导学习纠偏/效应副本抑制自产语音；GODIVA双BG环路（运动/计划）**[NEW 2026-08-19 #118]**
-- 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
+- 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SO-spindle-SWR三重协奏是物理通信协议；清醒SWR主动标记（Yang 2023）；PFC涟漪顶-下门控（Shin & Jadhav 2023）；SHY调和框架；深度学习经验回放先驱 **[修订 2026-09-10 rev2]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
 - 🟡 [脉冲时序依赖可塑性（STDP）](concepts/stdp.md) — 赫布规则的毫秒级精化：前先后随→LTP，后先前随→LTD；NMDA+bAP 超线性 Ca²⁺ 信号；生理钙浓度挑战；长期同步性 vs 短期因果性争议；位置依赖局部规则（Letzkus 2006）（修订3次）**[NEW 2026-08-25 #123]**（填补 hebbian-learning 悬空引用）
 - 🟡 [资格迹](concepts/eligibility-trace.md) — 突触在 STDP/赫布激发后的亚稳态临时标记；三因素规则中间变量（e_ij → Δw = e_ij × M_3rd）；纹状体 PDE10A 时钟（1.5s 窗口，Yagishita 2014）；皮层 NE/5-HT 门控（5-10s）；BTSP 极端案例（±3-4s）；解决时间信用分配问题 **[NEW 2026-08-28 #128]**（填补 metaplasticity → three-factor-learning-rule 链条缺口）
@@ -122,7 +122,7 @@
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-06-22]**
-- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重耦合）；Maingret 2016 闭环因果证据**[修订 2026-07-07]**
+- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR主动记忆标记（Yang 2023/2024）；SWR嵌套在纺锤波内；**新增：PFC涟漪顶-下抑制/增强门控（Shin & Jadhav 2023）**；Maingret 2016 闭环因果证据 **[修订 2026-09-10 rev7]**
 - 🟢 [场所细胞](concepts/place-cells.md) — 海马CA1/CA3位置特异放电神经元；稀疏编码（1–5%激活）；重映射（不同环境正交表征）；θ相位前移实现双重位置编码；SWR期间序列以20倍速重播；是认知地图基本编码单元 **[NEW 2026-06-22]**（填补长期悬空引用）
 - 🟢 [网格细胞](concepts/grid-cells.md) — 内侧内嗅皮层MEC以六边形格点激活的神经元；三参数（间距/方向/相位）完全描述；4–7离散模块比√2；背腹向间距梯度（20cm–1.5m）；路径整合的坐标输出；活跃于心理模拟和概念空间（Qu 2026 Cell：发育成熟预测流体智力）**[NEW 2026-06-22]**（填补长期悬空引用）
 - 🟢 [路径整合](concepts/path-integration.md) — 通过持续积累速度矢量估计当前位置；不依赖外部地标；联合细胞（位置+方向+速度）实现；随时间漂移需地标锚定；是黑暗导航的神经机制 **[NEW 2026-06-22 · 修订 rev2 2026-07-22：填补 head-direction-cells 和 border-cells 悬空引用]**
@@ -139,7 +139,7 @@
 - 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失（修订5次）
 - 🔵 [神经元分配（记忆分配）](concepts/memory-allocation.md) — CREB/内在兴奋性竞争决定哪些神经元进入印迹；零和竞争；PV+侧向抑制赢家通吃；表观遗传前置层（H3K27ac）；训练后5min巩固窗口 **[NEW 2026-07-05]**
 - 🟡 [记忆联结](concepts/memory-linking.md) — 时间接近（~6h）的两段学习因共享高兴奋性印迹神经元而实现联结；Cai 2016 CA1钙成像直接证据；老年小鼠联结缺陷→DREADD救援；scFLARE2精确时间边界（3h vs 27h）**[NEW 2026-07-05]**
-- 🟢 [记忆巩固（系统层面）](concepts/memory-consolidation.md) — SWR驱动的海马→皮层记忆转移；SO-spindle-SWR三重耦合（Maingret 2016因果证据）；SHY down-selection 统一主动巩固与稳态下调；老龄化耦合解锁机制（mPFC萎缩）；SCT vs MTT理论争论；**新增：再巩固作为第三种巩固类型 [修订 2026-07-28]**
+- 🟢 [记忆巩固（系统层面）](concepts/memory-consolidation.md) — SWR驱动的海马→皮层记忆转移；SO-spindle-SWR三重耦合；SHY down-selection 统一主动巩固与稳态下调；SCT vs MTT理论争论；再巩固为第三种类型；**新增：PFC涟漪顶-下门控（Shin & Jadhav 2023）；Yang 2023 清醒SWR直接预测睡眠重播（R=0.86）[修订 2026-09-10 rev9]**
 - 🟢 [记忆再巩固](concepts/memory-reconsolidation.md) — 已巩固记忆在提取后短暂回到蛋白质合成依赖状态（Nader 2000 Nature）；去稳定化机制：GluA2内吞+UPS激活；再稳定化：CREB/C/EBP/Zif268；预测误差是必要条件（Sevenster 2013 Science）；临床应用：普萘洛尔+创伤激活削弱PTSD记忆；边界条件（强记忆/老记忆耐受）**[NEW 2026-07-28 #96]**
 - 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
 - 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；与海马 NMDA-LTD 共用最终效应器但触发机制根本不同；Schonewille 2011 证明无 LTD 也能运动学习；Hansel 2026 预印本 400ms 时间窗口 **[NEW 2026-06-23]**
