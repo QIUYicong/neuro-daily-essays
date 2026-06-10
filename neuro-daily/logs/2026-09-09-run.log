@@ -163,6 +163,6 @@
 ## Git 操作
 
 - branch: main
-- commit: 待执行
-- push: 待执行
-- push_status: 待更新
+- commit: 941e5a1
+- push: git push origin main
+- push_status: ✅ 成功（747ceed..941e5a1 main -> main）
