@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-09-23
-updated: 2026-09-23
-revision_count: 1
+updated: 2026-09-24
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [dorsal-attention-network, tpj-temporoparietal-junction, alpha-oscillations, prefrontal-cortex, spatial-neglect-concept, default-mode-network, norepinephrine-locus-coeruleus, theory-of-mind, communication-through-coherence]
+related: [dorsal-attention-network, tpj-temporoparietal-junction, alpha-oscillations, prefrontal-cortex, spatial-neglect, default-mode-network, norepinephrine-locus-coeruleus, theory-of-mind, communication-through-coherence]
 prerequisites: [dorsal-attention-network, alpha-oscillations, tpj-temporoparietal-junction]
 opens_questions: [Q-van-01, Q-van-02, Q-dan-03]
-source_articles: [2026-09-23-ventral-attention-network-reorienting]
+source_articles: [2026-09-23-ventral-attention-network-reorienting, 2026-09-24-hemispatial-neglect-attention-imbalance]
 key_sources: ["PMID:11994752", "PMID:18466742", "PMID:21692662", "PMID:23835449"]
 ---
 
@@ -121,7 +121,9 @@ VAN 激活时的 α 动力学变化（EEG/MEG 研究）：
 ## 修订历史
 
 - 2026-09-23 · 创建 · 基于《大脑的断路器》（#153）文章 · 核心来源：Corbetta & Shulman 2002 (PMID:11994752)、Corbetta et al. 2008 (PMID:18466742，开放全文)、Corbetta & Shulman 2011 (PMID:21692662)、Vossel et al. 2014 (PMID:23835449) · 初始置信度：高
+- 2026-09-24 · Rev2 · 基于《当大脑的一半世界消失》（#154）文章 · 将悬空引用 spatial-neglect-concept 更新为正式节点 spatial-neglect；确认 VAN 损伤→DAN 失衡→空间忽视的机制链；来源：PMID:21692662（开放全文）
 
 ## 来源文章
 
 - [[2026-09-23-ventral-attention-network-reorienting]]
+- [[2026-09-24-hemispatial-neglect-attention-imbalance]]

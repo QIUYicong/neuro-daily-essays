@@ -6,14 +6,14 @@ type: region
 status: mainstream
 confidence: medium
 created: 2026-07-25
-updated: 2026-09-23
-revision_count: 2
-dimensions: [brain-region, whole-brain-network, cognition]
-related: [theory-of-mind, mentalizing-network, dorsal-attention-network, ventral-attention-network, alpha-oscillations, default-mode-network, norepinephrine-locus-coeruleus]
+updated: 2026-09-24
+revision_count: 3
+dimensions: [brain-region, whole-brain-network, cognition, disease]
+related: [theory-of-mind, mentalizing-network, dorsal-attention-network, ventral-attention-network, alpha-oscillations, default-mode-network, norepinephrine-locus-coeruleus, spatial-neglect]
 prerequisites: [action-potential, synaptic-transmission]
-opens_questions: [Q-tom-01]
-source_articles: [2026-07-25-social-brain-mirror-neurons-theory-of-mind, 2026-09-23-ventral-attention-network-reorienting]
-key_sources: ["PMID:12948738", "PMID:24012000", "PMID:16701204", "PMID:41245222", "PMID:18466742", "PMID:11994752"]
+opens_questions: [Q-tom-01, Q-neglect-01]
+source_articles: [2026-07-25-social-brain-mirror-neurons-theory-of-mind, 2026-09-23-ventral-attention-network-reorienting, 2026-09-24-hemispatial-neglect-attention-imbalance]
+key_sources: ["PMID:12948738", "PMID:24012000", "PMID:16701204", "PMID:41245222", "PMID:18466742", "PMID:11994752", "PMID:21692662", "PMID:23300283"]
 ---
 
 # 颞顶联合区 (Temporo-Parietal Junction, TPJ)
@@ -116,7 +116,10 @@ TPJ在分钟尺度上对他人信念/意图进行预测：
 
 - 2026-07-25 · 创建 · 基于《大脑如何读懂另一颗大脑》（#93）· 整合Saxe 2003、Koster-Hale & Saxe 2013、Merchant 2025、Frith & Frith 2007 · 初始置信度：中（功能定位高度一致；具体计算机制争议仍存）
 - 2026-09-23 · 修订 rev2 · 新增"TPJ 作为 VAN 核心感知节点"节：VAN 角色详述（多流汇聚、预测违背检测、P3a 激活时序）；双重功能统一框架（广义"模型违背检测器"）；空间忽视机制；related 新增 ventral-attention-network, norepinephrine-locus-coeruleus；key_sources 新增 PMID:18466742, PMID:11994752；opens_questions 新增 Q-van-01 · 来源：Corbetta & Shulman 2002/2008（PMID:11994752/18466742）
+- 2026-09-24 · 修订 rev3 · 空间忽视文章 #154：确认 TPJ/STG 作为最重要忽视病灶解剖节点（Smith et al. 2013，PMID:23300283）；在 related 中新增 spatial-neglect；新增 Q-neglect-01（STG vs IPL 解剖争论）；dimensions 新增 disease · 来源：PMID:21692662, PMID:23300283
 
 ## 来源文章
 
 - [[2026-07-25-social-brain-mirror-neurons-theory-of-mind]]
+- [[2026-09-23-ventral-attention-network-reorienting]]
+- [[2026-09-24-hemispatial-neglect-attention-imbalance]]

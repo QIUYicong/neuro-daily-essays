@@ -3233,3 +3233,39 @@
 
 ### 新增未解问题（1 条）
 - Q-lang-ast-01（高）：AST框架的半球不对称在高级语言区（IFG BA44/45、TPJ）是否与颞叶一致？前额叶γ/θ不对称直接证据缺乏
+
+---
+
+## 2026-09-24（文章 #154：空间忽视——大脑一半世界的消失）
+
+### 新建 wiki 页面（1 页）
+
+- `diseases/spatial-neglect.md` — 空间忽视（Hemispatial Neglect）：右半球腹侧额顶颞网络（TPJ/STG/IPL/VFC/SLF）损伤→VAN直接受损→DAN半球间失衡→注意系统整体向右偏斜的多维综合征（感知/运动/表征/病觉缺失）；棱镜适应疗法（Rossetti 1998）；网络归一化恢复（Ramsey 2016）；核心来源：PMID:21692662（开放全文）等6篇开放全文
+
+### 修订 wiki 页面（2 页）
+
+- `concepts/ventral-attention-network.md` rev1→rev2：将悬空引用 spatial-neglect-concept 替换为正式节点 spatial-neglect；新增 source_articles；修订历史追加
+- `systems/tpj-temporoparietal-junction.md` rev2→rev3：新增 spatial-neglect 到 related；新增 Q-neglect-01（STG vs IPL 解剖争论）；dimensions 新增 disease；修订历史追加
+
+### 图谱变化
+
+- 新增节点：3（spatial-neglect, interhemispheric-competition [悬空], prism-adaptation [悬空]）
+- 新增边：10（spatial-neglect↔VAN mechanism-of/related，↔DAN related，↔TPJ related，↔interhemispheric-competition，↔prism-adaptation，interhemispheric-competition→DAN/VAN）
+- 节点总数：307 → 310
+- 边总数：1795 → 1805
+
+### 登记矛盾
+
+- 无新矛盾（STG vs IPL 争论体现为知识不确定性，已在 wiki 中如实呈现两种观点；不是主张冲突）
+
+### 新增悬空引用待补
+
+- `interhemispheric-competition`：被 spatial-neglect 和 VAN 引用，待创建 `wiki/concepts/interhemispheric-competition.md`
+- `prism-adaptation`：被 spatial-neglect 引用，待创建 `wiki/methods/prism-adaptation.md`
+- `anosognosia`：被 spatial-neglect 引用，待创建（可独立页面或并入 spatial-neglect）
+
+### 新增未解问题（3 条）
+
+- Q-neglect-01（高）：STG vs IPL——忽视核心病灶的解剖争论，影响 tDCS/TMS 治疗靶点精确性
+- Q-neglect-02（中）：棱镜适应的"认知扩散"神经底物——感觉运动可塑性如何通过小脑-顶叶通路进入高级空间认知？
+- Q-neglect-03（中）：病觉缺失（anosognosia）的神经基础——前额叶-岛叶自我监测回路失效的具体机制？

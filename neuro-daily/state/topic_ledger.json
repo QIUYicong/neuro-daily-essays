@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-22",
-  "total_articles": 152,
+  "last_updated": "2026-09-24",
+  "total_articles": 154,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10112,6 +10112,80 @@
         "hemispatial-neglect: 空间忽视的完整神经机制（右侧VAN/顶叶损坏→网络失衡）；行为特征（忽视/消退/病觉缺失）；棱镜适应疗法机制；与脑损伤康复的关系——创建diseases/spatial-neglect.md",
         "attention-capture-vs-suppression: 注意捕获（VAN/bottom-up）与主动抑制（DAN/top-down）的时序竞争；与ADHD（过度捕获）的关系；α振荡在捕获抵抗中的角色",
         "default-mode-network-revision: DMN不只是任务负网络——它与VAN的关系（TPJ双属于DMN和VAN）；DMN在自我参照、预测更新中的正面角色；与注意网络的动态切换"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "real_date": "2026-06-11",
+      "article_number": 154,
+      "title": "当大脑的一半世界消失：空间忽视的网络失衡与重建之路",
+      "slug": "hemispatial-neglect-attention-imbalance",
+      "filename": "2026-09-24-hemispatial-neglect-attention-imbalance.md",
+      "article_type": "regular",
+      "core_question": "右半球顶叶-颞叶损伤如何通过摧毁腹侧注意网络的断路器，引发注意、感知、表征与觉知的四维崩塌——空间忽视综合征？棱镜适应疗法如何经由小脑-顶叶可塑性通路把偏斜的世界模型重新拨回中心？",
+      "layer": [
+        "disease",
+        "whole-brain-network",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "11. 疾病作为窗口 × 5. 认知控制（注意系统）",
+      "topic_tags": [
+        "hemispatial neglect",
+        "spatial neglect",
+        "unilateral neglect",
+        "ventral attention network",
+        "VAN",
+        "dorsal attention network",
+        "DAN",
+        "TPJ",
+        "STG",
+        "superior temporal gyrus",
+        "SLF",
+        "superior longitudinal fasciculus",
+        "interhemispheric competition",
+        "right hemisphere",
+        "prism adaptation",
+        "Rossetti 1998",
+        "anosognosia",
+        "extinction",
+        "representational neglect",
+        "Bisiach",
+        "Corbetta Shulman",
+        "network normalization",
+        "tDCS",
+        "stroke rehabilitation",
+        "connectome lesion symptom mapping"
+      ],
+      "main_sources": [
+        "PMID:21692662 / PMC3790661 (Corbetta & Shulman 2011 ARN, open full text read)",
+        "PMID:35263271 / PMC8762585 (Saxena et al. 2022 Neurology, open full text read)",
+        "PMID:27277836 / PMC5682026 (Ramsey et al. 2016 Ann Neurol, open full text read)",
+        "PMID:33189929 / PMC7885523 (Schintu et al. 2021 NeuroImage, open full text read)",
+        "PMID:36138161 / PMC9618519 (González-Rodriguez et al. 2022 J Neurol, open full text read)",
+        "PMID:9744273 (Rossetti et al. 1998 Nature, abstract only)",
+        "PMID:38115162 (Ahsan et al. 2024 J Neuroimaging, abstract only)",
+        "PMID:23300283 (Smith et al. 2013 PNAS, abstract only)",
+        "PMID:26004064 (Karnath 2015 Neuropsychologia, abstract only)",
+        "PMID:23428624 (Jacquin-Courtois et al. 2013, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-neglect-01",
+        "Q-neglect-02",
+        "Q-neglect-03"
+      ],
+      "wiki_created": [
+        "spatial-neglect"
+      ],
+      "wiki_revised": [
+        "ventral-attention-network",
+        "tpj-temporoparietal-junction"
+      ],
+      "next_suggested_topics": [
+        "interhemispheric-competition: 半球间竞争模型的完整机制（经胼胝体的跨半球抑制；DAN双侧对称性背后的不对称调节；模型的发育意义）——创建concepts/interhemispheric-competition.md",
+        "ADHD-attention-dysregulation: ADHD作为VAN-DAN调节失衡的另一个病理窗口（注意捕获过度/目标聚焦不稳定/DA/NE失衡）——diseases/adhd.md",
+        "default-mode-network-revision: DMN与注意网络的动态切换——TPJ双归属（DMN和VAN）的功能意义；自我参照与注意的张力；更新wiki/concepts/default-mode-network.md"
       ]
     }
   ],

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "node_count": 302,
   "edge_count": 1752,
   "edge_types": [
@@ -2780,6 +2780,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/ventral-attention-network.md"
+    },
+    {
+      "id": "spatial-neglect",
+      "title": "空间忽视（Hemispatial Neglect）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/spatial-neglect.md"
+    },
+    {
+      "id": "interhemispheric-competition",
+      "title": "半球间竞争模型",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/interhemispheric-competition.md [待创建]"
+    },
+    {
+      "id": "prism-adaptation",
+      "title": "棱镜适应",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/prism-adaptation.md [待创建]"
     }
   ],
   "edges": [
@@ -12338,6 +12365,56 @@
     },
     {
       "from": "dorsal-attention-network",
+      "to": "ventral-attention-network",
+      "type": "related"
+    },
+    {
+      "from": "spatial-neglect",
+      "to": "ventral-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ventral-attention-network",
+      "to": "spatial-neglect",
+      "type": "related"
+    },
+    {
+      "from": "spatial-neglect",
+      "to": "dorsal-attention-network",
+      "type": "related"
+    },
+    {
+      "from": "spatial-neglect",
+      "to": "tpj-temporoparietal-junction",
+      "type": "related"
+    },
+    {
+      "from": "spatial-neglect",
+      "to": "interhemispheric-competition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "spatial-neglect",
+      "to": "prism-adaptation",
+      "type": "related"
+    },
+    {
+      "from": "prism-adaptation",
+      "to": "spatial-neglect",
+      "type": "related"
+    },
+    {
+      "from": "interhemispheric-competition",
+      "to": "spatial-neglect",
+      "type": "supports"
+    },
+    {
+      "from": "interhemispheric-competition",
+      "to": "dorsal-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "interhemispheric-competition",
       "to": "ventral-attention-network",
       "type": "related"
     }

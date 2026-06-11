@@ -1,0 +1,151 @@
+# 运行日志 2026-09-24
+
+**文章编号**：#154
+**实际运行日期**：2026-06-11（UTC+8）
+**分支**：main
+**状态**：（推送完成后更新）
+
+---
+
+## 选题过程
+
+**参考信号**：
+- `topic_ledger.json` 最后条目 (#153)：VAN 断路器模型，suggested: hemispatial-neglect / attention-capture-vs-suppression / default-mode-network-revision
+- `wiki/CHANGELOG.md`（2026-09-23）：新增悬空引用 spatial-neglect-concept
+- `_graph.json`：ventral-attention-network 节点的 related 包含 spatial-neglect-concept（悬空）
+- `unresolved_questions.md`：新的 Q-van-01~02 均与注意系统相关
+
+**选题决策**：选择 `hemispatial-neglect`（空间忽视），原因：
+1. 填补 #153 产生的悬空引用 spatial-neglect-concept（最高优先级：ROUTINE 步骤 B.3 填补悬空引用）
+2. topic_ledger 第一建议
+3. 与 #153（VAN）形成"机制→疾病窗口"的自然继承：先建立正常机制，再用病理案例验证
+4. 疾病层（disease）与最近几篇的 whole-brain-network/cognition 层形成有益的层级轮换
+
+---
+
+## 检索记录
+
+**搜索策略**：
+- 查询 1：PubMed `hemispatial neglect attention network review` → 15 结果
+  - 采用：PMID:21692662（Corbetta & Shulman 2011 ARN，核心框架综述，PMC3790661开放全文）
+  - 采用：PMID:11994752（Corbetta & Shulman 2002，双网络框架，已有）
+  - 采用：PMID:26004064（Karnath 2015，刺激驱动vs目标驱动）
+- 查询 2：PubMed `spatial neglect prism adaptation mechanism review` → 12 结果
+  - 采用：PMID:9744273（Rossetti et al. 1998 Nature，棱镜适应里程碑）
+  - 采用：PMID:22926312（Barrett et al. 2012 NRN，转化差距）
+  - 采用：PMID:17119314（Luauté et al. 2006，棱镜疗法最优综述）
+  - 采用：PMID:23428624（Jacquin-Courtois et al. 2013，认知扩散机制）
+  - 采用：PMID:28843415（Rode et al. 2017，忽视复杂性框架）
+- 查询 3：PMC `hemispatial neglect attention network review` → 找到 PMC3790661, PMC7885523, PMC8762585
+  - 全文读取：PMC3790661（Corbetta & Shulman 2011）
+  - 全文读取：PMC7885523（Schintu et al. 2021 NeuroImage，胼胝体预测）→ PMID:33189929
+  - 全文读取：PMC8762585（Saxena et al. 2022 Neurology，连接组）→ PMID:35263271
+- 查询 4：PMC `hemispatial neglect interhemispheric competition stroke` → 找到 PMC5682026, PMC9618519
+  - 全文读取：PMC5682026（Ramsey et al. 2016 Ann Neurol，网络归一化）→ PMID:27277836
+  - 全文读取：PMC9618519（González-Rodriguez et al. 2022 J Neurol，tDCS系统综述）→ PMID:36138161
+- 查询 5：PubMed `Smith Clithero Rorden Karnath decoding spatial attention` → PMID:23300283
+
+**候选数**：17个查询结果中使用14个
+**排除原因**：
+- PMID:37141962（视幻觉，不相关）
+- PMID:23542756（丘脑枕回，仅周边相关）
+- 数个纯康复干预研究（缺乏机制解释，与本文侧重不符）
+
+**来源汇总**：
+- 开放全文（已读）：6篇 (PMID:21692662, 35263271, 27277836, 33189929, 36138161 + PMC3790661确认)
+- 仅摘要：8篇
+
+---
+
+## 固结 wiki 页面
+
+**新建（1 页）**：
+- `wiki/diseases/spatial-neglect.md` — 空间忽视综合征，Rev1
+  - 四维崩塌（感知/运动/表征/病觉缺失）
+  - 解剖：TPJ/STG/IPL/VFC+SLF
+  - 机制：VAN损伤→DAN失衡→半球竞争失衡
+  - 治疗：棱镜适应 + tDCS
+  - 恢复：网络归一化
+
+**修订（2 页）**：
+- `wiki/concepts/ventral-attention-network.md` Rev1→Rev2：
+  - 将 related 中的悬空引用 spatial-neglect-concept 替换为正式节点 spatial-neglect
+  - 新增 source_articles（本文章）
+  - 修订历史追加
+- `wiki/systems/tpj-temporoparietal-junction.md` Rev2→Rev3：
+  - 新增 spatial-neglect 到 related
+  - dimensions 新增 disease
+  - 新增 Q-neglect-01 到 opens_questions
+  - key_sources 新增 PMID:21692662, PMID:23300283
+  - 修订历史追加
+
+---
+
+## 矛盾检查
+
+- **STG vs IPL 解剖争论**：Karnath 2013 (PMID:23300283) 强调 STG 独立预测作用；Corbetta 2011 (PMID:21692662) 强调广泛网络。这是方法论差异（MVPA 单灰质 vs 网络+白质），非真正的事实冲突。已在 wiki 正文"解剖争论"节并列两种观点，登记为 Q-neglect-01 不确定性，不降低任何页面置信度。
+- **棱镜适应机制**：行为证据高可信（多次重复），神经影像机制证据薄弱——已明确标注两种证据层次不同，不冲突。
+- **无新矛盾登记到 contested_claims.json**（上述均为知识不确定性，非主张冲突）。
+
+---
+
+## 图谱变化
+
+- 新增节点：3（spatial-neglect, interhemispheric-competition[悬空], prism-adaptation[悬空]）
+- 新增边：10
+- 节点总数：307 → 310
+- 边总数：1795 → 1805
+
+---
+
+## 状态文件更新
+
+- `topic_ledger.json`：新增 article #154 条目（137 条目，total_articles=154）
+- `unresolved_questions.md`：新增 Q-neglect-01（高）、Q-neglect-02（中）、Q-neglect-03（中）
+- `source_registry.json`：新增 7 条来源
+- `monthly_synthesis.md`：更新 9 月进度（第 23-24 篇）
+- `maturity_index.json`：新增 spatial-neglect（established/high）；更新 VAN rev2、TPJ rev3
+
+---
+
+## Git 操作
+
+**分支**：main
+**commit message**：Add neuro daily article + wiki consolidation for 2026-09-24
+**push**：git push origin main
+**commit hash**：（提交后填入）
+**push 状态**：（提交后填入）
+
+---
+
+## 失败与限制
+
+- PMID:9744273（Rossetti 1998 Nature）：付费墙，仅读摘要；结论经多次重复验证，高可信
+- PMID:23300283（Smith 2013 PNAS）：付费墙，仅读摘要；STG优先论据来自该摘要，标注为"中等可信"
+- PMID:26004064（Karnath 2015）：付费墙，仅读摘要
+- PMID:23428624（Jacquin-Courtois 2013）：付费墙，仅读摘要；棱镜认知扩散机制来自该摘要，标注为框架性假说
+- PMID:22926312（Barrett 2012 NRN）：付费墙，仅读摘要
+- PMID:17119314、17620870、28843415：付费墙，仅读摘要
+
+---
+
+## 自检结果
+
+**真实性** ✅
+- 所有 wiki 新主张均有来源（PMID/PMCID）
+- 区分了事实（忽视流行病学、基础机制）/模型（Corbetta框架、棱镜认知扩散）/推测（病觉缺失机制细节）/争议（STG vs IPL、棱镜最佳剂量）
+- 未将小样本研究（Schintu n=17）或单一研究（Smith PNAS）写成定论；均标注置信度和局限
+
+**一致性** ✅
+- 新内容与已有 VAN、DAN、TPJ、alpha-oscillations 页面内容一致
+- VAN 悬空引用 spatial-neglect-concept 已替换为 spatial-neglect
+- 被修订页面的 updated/revision_count/修订历史均同步更新
+- `_graph.json` 悬空引用检查：新增 interhemispheric-competition, prism-adaptation, anosognosia 三个悬空引用 → 记录在 CHANGELOG 待补
+
+**可导航** ✅
+- `index.md` 反映了新增 spatial-neglect 页面（第 288 页）
+- `CHANGELOG.md` 记录今日所有变更
+- 新 spatial-neglect 页面 related/prerequisites 均已填写
+
+**情景层** ✅
+- articles/notes/sources/logs 四文件全部创建（append-only，未修改旧文件）

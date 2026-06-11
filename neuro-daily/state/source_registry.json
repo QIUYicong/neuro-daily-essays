@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-24",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -13041,6 +13041,129 @@
       "journal": "Trends Neurosci",
       "article": "2026-09-19-cortical-oscillation-hierarchy",
       "access": "abstract_only"
+    },
+    {
+      "id": "PMID:21692662",
+      "pmcid": "PMC3790661",
+      "title": "Spatial neglect and attention networks",
+      "authors": "Corbetta M, Shulman GL",
+      "journal": "Annu Rev Neurosci",
+      "year": 2011,
+      "type": "review",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-hemispatial-neglect-attention-imbalance"
+      ],
+      "covers": [
+        "空间忽视机制",
+        "注意网络双系统",
+        "VAN损伤→DAN失衡"
+      ]
+    },
+    {
+      "id": "PMID:35263271",
+      "pmcid": "PMC8762585",
+      "title": "Disruptions of the Human Connectome Associated With Hemispatial Neglect",
+      "authors": "Saxena S et al.",
+      "journal": "Neurology",
+      "year": 2022,
+      "type": "observational",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-hemispatial-neglect-attention-imbalance"
+      ],
+      "covers": [
+        "白质束离断与忽视",
+        "忽视亚型解剖",
+        "连接组"
+      ]
+    },
+    {
+      "id": "PMID:27277836",
+      "pmcid": "PMC5682026",
+      "title": "Normalization of network connectivity in hemispatial neglect recovery",
+      "authors": "Ramsey LE et al.",
+      "journal": "Ann Neurol",
+      "year": 2016,
+      "type": "longitudinal",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-hemispatial-neglect-attention-imbalance"
+      ],
+      "covers": [
+        "网络归一化恢复",
+        "忽视康复机制",
+        "功能连接纵向研究"
+      ]
+    },
+    {
+      "id": "PMID:33189929",
+      "pmcid": "PMC7885523",
+      "title": "Callosal anisotropy predicts attentional network changes after parietal inhibitory stimulation",
+      "authors": "Schintu S et al.",
+      "journal": "NeuroImage",
+      "year": 2021,
+      "type": "experimental",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-hemispatial-neglect-attention-imbalance"
+      ],
+      "covers": [
+        "胼胝体结构与半球间失衡",
+        "TMS模拟忽视"
+      ]
+    },
+    {
+      "id": "PMID:36138161",
+      "pmcid": "PMC9618519",
+      "title": "Transcranial direct current stimulation in neglect rehabilitation after stroke",
+      "authors": "González-Rodriguez B et al.",
+      "journal": "J Neurol",
+      "year": 2022,
+      "type": "systematic_review",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-hemispatial-neglect-attention-imbalance"
+      ],
+      "covers": [
+        "tDCS忽视康复",
+        "半球间竞争失衡干预"
+      ]
+    },
+    {
+      "id": "PMID:9744273",
+      "pmcid": null,
+      "title": "Prism adaptation to a rightward optical deviation rehabilitates left hemispatial neglect",
+      "authors": "Rossetti Y et al.",
+      "journal": "Nature",
+      "year": 1998,
+      "type": "original_research",
+      "access": "abstract_only",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-hemispatial-neglect-attention-imbalance"
+      ],
+      "covers": [
+        "棱镜适应疗法里程碑"
+      ]
+    },
+    {
+      "id": "PMID:23428624",
+      "pmcid": null,
+      "title": "Rehabilitation of spatial neglect by prism adaptation",
+      "authors": "Jacquin-Courtois S et al.",
+      "journal": "Neurosci Biobehav Rev",
+      "year": 2013,
+      "type": "review",
+      "access": "abstract_only",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-hemispatial-neglect-attention-imbalance"
+      ],
+      "covers": [
+        "棱镜适应认知扩散机制",
+        "小脑-皮层通路"
+      ]
     }
   ],
   "additions_2026-09-06": [

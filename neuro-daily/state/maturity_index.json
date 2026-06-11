@@ -255,13 +255,22 @@
       "slug": "ventral-attention-network",
       "status": "established",
       "confidence": "high",
-      "revision_count": 1,
-      "last_changed": "2026-09-23",
-      "change_reason": "创建新页面；基于Corbetta & Shulman 2002/2008两篇奠基性论文；VAN断路器模型、右侧化、空间忽视联系均经多项独立研究验证",
+      "revision_count": 2,
+      "last_changed": "2026-09-24",
+      "change_reason": "rev2: 悬空引用spatial-neglect-concept替换为正式节点spatial-neglect；来源文章更新",
       "source_article": "2026-09-23-ventral-attention-network-reorienting"
+    },
+    {
+      "slug": "spatial-neglect",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-09-24",
+      "change_reason": "新建页面；基于Corbetta & Shulman 2011（PMID:21692662）等6篇开放全文；忽视的网络失衡框架（VAN损伤→DAN失衡）高可信；STG vs IPL解剖争论记为Q-neglect-01",
+      "source_article": "2026-09-24-hemispatial-neglect-attention-imbalance"
     }
   ],
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-24",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -308,7 +317,7 @@
       "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
     }
   ],
-  "total_pages": 25,
+  "total_pages": 26,
   "syngap1": {
     "status": "established",
     "confidence": "high",

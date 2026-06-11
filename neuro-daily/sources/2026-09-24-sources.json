@@ -1,0 +1,256 @@
+{
+  "date": "2026-09-24",
+  "real_date": "2026-06-11",
+  "article": "2026-09-24-hemispatial-neglect-attention-imbalance.md",
+  "topic": "空间忽视（Hemispatial Neglect）",
+  "sources": [
+    {
+      "id": "PMID:21692662",
+      "pmcid": "PMC3790661",
+      "type": "review",
+      "authors": "Corbetta M, Shulman GL",
+      "title": "Spatial neglect and attention networks",
+      "journal": "Annu Rev Neurosci",
+      "year": 2011,
+      "open_fulltext": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3790661/",
+      "role": "主框架来源：注意网络双系统模型与忽视机制",
+      "key_claims_used": [
+        "空间忽视是分布式皮层注意网络功能障碍的结果，而非局部损伤",
+        "腹侧区域损伤（含非空间功能）通过网络机制导致空间偏斜",
+        "急性忽视患者右半球广泛低活动，而非仅损伤灶",
+        "忽视的右侧化源于腹侧区域的右半球偏侧化",
+        "恢复与半球间功能连接归一化相关"
+      ]
+    },
+    {
+      "id": "PMID:35263271",
+      "pmcid": "PMC8762585",
+      "type": "observational_study",
+      "evidence_class": "II",
+      "authors": "Saxena S, Keser Z, Rorden C, et al.",
+      "title": "Disruptions of the Human Connectome Associated With Hemispatial Neglect",
+      "journal": "Neurology",
+      "year": 2022,
+      "open_fulltext": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8762585/",
+      "role": "白质束离断与忽视亚型的解剖基础",
+      "key_claims_used": [
+        "42%急性右半球卒中患者有至少一种忽视",
+        "任何忽视与右侧顶下-眶额-丘脑连接束破坏相关",
+        "不同忽视亚型有不同解剖基础（VCN vs SCN vs 混合）"
+      ]
+    },
+    {
+      "id": "PMID:27277836",
+      "pmcid": "PMC5682026",
+      "type": "longitudinal_study",
+      "authors": "Ramsey LE, Siegel JS, Baldassarre A, Metcalf NV, Zinn K, Shulman GL, Corbetta M",
+      "title": "Normalization of network connectivity in hemispatial neglect recovery",
+      "journal": "Ann Neurol",
+      "year": 2016,
+      "open_fulltext": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5682026/",
+      "role": "忽视恢复的网络归一化机制",
+      "key_claims_used": [
+        "注意改善主要在3个月内完成（32%→18%→11%）",
+        "恢复与功能连接归一化（非代偿重组）相关",
+        "多个网络（DAN、运动、听觉、视觉）的半球间连接增强"
+      ]
+    },
+    {
+      "id": "PMID:33189929",
+      "pmcid": "PMC7885523",
+      "type": "experimental_study",
+      "authors": "Schintu S, Cunningham CA, Freedberg M, et al.",
+      "title": "Callosal anisotropy predicts attentional network changes after parietal inhibitory stimulation",
+      "journal": "Neuroimage",
+      "year": 2021,
+      "open_fulltext": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7885523/",
+      "role": "胼胝体结构预测TMS后注意网络半球间失衡",
+      "key_claims_used": [
+        "抑制右PPC诱发向右偏斜的忽视样效应",
+        "后胼胝体FA负向预测TMS效应量（r=-0.54）",
+        "右半球抑制增加右IPS-左STG功能连接"
+      ],
+      "limitations": "小样本（n=17），健康被试"
+    },
+    {
+      "id": "PMID:36138161",
+      "pmcid": "PMC9618519",
+      "type": "systematic_review",
+      "authors": "González-Rodriguez B, Serradell-Ribé N, et al.",
+      "title": "Transcranial direct current stimulation in neglect rehabilitation after stroke: a systematic review",
+      "journal": "J Neurol",
+      "year": 2022,
+      "open_fulltext": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9618519/",
+      "role": "tDCS在忽视康复中的系统综述",
+      "key_claims_used": [
+        "中度证据支持tDCS对忽视康复有效",
+        "联合干预效果更好",
+        "主要机制：恢复半球竞争平衡"
+      ],
+      "limitations": "11项研究152名患者，方法学异质性高"
+    },
+    {
+      "id": "PMID:9744273",
+      "pmcid": null,
+      "type": "original_research",
+      "authors": "Rossetti Y, Rode G, Pisella L, Farné A, Li L, Boisson D, Perenin MT",
+      "title": "Prism adaptation to a rightward optical deviation rehabilitates left hemispatial neglect",
+      "journal": "Nature",
+      "year": 1998,
+      "open_fulltext": false,
+      "access_note": "摘要（付费墙）",
+      "role": "棱镜适应疗法的里程碑原始论文",
+      "key_claims_used": [
+        "右偏棱镜适应（10分钟）后多项忽视测试显著改善",
+        "效果持续≥2小时",
+        "感觉运动可塑性可扩散至高级认知空间系统"
+      ]
+    },
+    {
+      "id": "PMID:38115162",
+      "pmcid": null,
+      "type": "meta_analysis",
+      "authors": "Ahsan SA, Dadario NB, Dhaliwal J, et al.",
+      "title": "A parcellation-based connectomic model of hemispatial neglect",
+      "journal": "J Neuroimaging",
+      "year": 2024,
+      "open_fulltext": false,
+      "access_note": "摘要",
+      "role": "连接组分区模型：13个区域的额顶颞网络",
+      "key_claims_used": [
+        "13个右半球分区通过SLF连接组成忽视核心网络",
+        "与DAN/VAN部分重叠但超出注意网络范围"
+      ]
+    },
+    {
+      "id": "PMID:23300283",
+      "pmcid": null,
+      "type": "lesion_symptom_mapping",
+      "authors": "Smith DV, Clithero JA, Rorden C, Karnath HO",
+      "title": "Decoding the anatomical network of spatial attention",
+      "journal": "Proc Natl Acad Sci USA",
+      "year": 2013,
+      "open_fulltext": false,
+      "access_note": "摘要",
+      "role": "STG作为预测忽视最重要的解剖区域",
+      "key_claims_used": [
+        "STG预测忽视的独立贡献超过角回和岛叶",
+        "多变量模式分析（n=191）"
+      ]
+    },
+    {
+      "id": "PMID:26004064",
+      "pmcid": null,
+      "type": "review",
+      "authors": "Karnath HO",
+      "title": "Spatial attention systems in spatial neglect",
+      "journal": "Neuropsychologia",
+      "year": 2015,
+      "open_fulltext": false,
+      "access_note": "摘要",
+      "role": "刺激驱动vs目标驱动注意在忽视中的分离",
+      "key_claims_used": [
+        "忽视主要累及刺激驱动注意，目标驱动注意相对保留",
+        "底层是身体中心的空间编码矩阵失衡"
+      ]
+    },
+    {
+      "id": "PMID:23428624",
+      "pmcid": null,
+      "type": "review",
+      "authors": "Jacquin-Courtois S, O'Shea J, Luauté J, et al.",
+      "title": "Rehabilitation of spatial neglect by prism adaptation: a peculiar expansion of sensorimotor after-effects to spatial cognition",
+      "journal": "Neurosci Biobehav Rev",
+      "year": 2013,
+      "open_fulltext": false,
+      "access_note": "摘要",
+      "role": "棱镜适应认知扩散机制：小脑-皮层通路",
+      "key_claims_used": [
+        "棱镜效应通过小脑-顶叶-额叶通路扩散至高级认知",
+        "为棱镜适应提供神经机制框架"
+      ]
+    },
+    {
+      "id": "PMID:22926312",
+      "pmcid": null,
+      "type": "review",
+      "authors": "Barrett AM, Goedert KM, Basso JC",
+      "title": "Prism adaptation for spatial neglect after stroke: translational practice gaps",
+      "journal": "Nat Rev Neurol",
+      "year": 2012,
+      "open_fulltext": false,
+      "access_note": "摘要",
+      "role": "棱镜适应转化差距：无法识别响应者、剂量不明",
+      "key_claims_used": [
+        "无法识别哪50-75%患者对棱镜治疗响应",
+        "关键8周内疗效数据不足"
+      ]
+    },
+    {
+      "id": "PMID:17119314",
+      "pmcid": null,
+      "type": "review",
+      "authors": "Luauté J, Halligan P, Rode G, et al.",
+      "title": "Prism adaptation first among equals in alleviating left neglect: a review",
+      "journal": "Restor Neurol Neurosci",
+      "year": 2006,
+      "open_fulltext": false,
+      "access_note": "摘要",
+      "role": "棱镜适应在忽视康复中的领先地位",
+      "key_claims_used": [
+        "棱镜适应相对短期使用能产生较长期功能获益",
+        "在多种忽视康复方法中证据最强"
+      ]
+    },
+    {
+      "id": "PMID:17620870",
+      "pmcid": null,
+      "type": "review",
+      "authors": "Bartolomeo P",
+      "title": "Visual neglect",
+      "journal": "Curr Opin Neurol",
+      "year": 2007,
+      "open_fulltext": false,
+      "access_note": "摘要",
+      "role": "视觉忽视的网络断联机制综述",
+      "key_claims_used": [
+        "白质断联（SLF）是产生严重持久忽视的关键"
+      ]
+    },
+    {
+      "id": "PMID:28843415",
+      "pmcid": null,
+      "type": "review",
+      "authors": "Rode G, Fourtassi M, Pagliari C, Pisella L, Rossetti Y",
+      "title": "Complexity vs. unity in unilateral spatial neglect",
+      "journal": "Rev Neurol",
+      "year": 2017,
+      "open_fulltext": false,
+      "access_note": "摘要",
+      "role": "忽视的四维复杂性框架（感知/运动/表征/病觉缺失）",
+      "key_claims_used": [
+        "忽视涉及对侧空间注意定向偏斜和空间表征建构障碍",
+        "多个维度（感知/运动/表征）相对独立"
+      ]
+    }
+  ],
+  "open_fulltext_count": 6,
+  "abstract_only_count": 8,
+  "search_queries": [
+    "PubMed: hemispatial neglect attention network review",
+    "PubMed: spatial neglect prism adaptation mechanism review",
+    "PMC: spatial neglect attention network review",
+    "PMC: hemispatial neglect interhemispheric competition",
+    "PubMed: Rossetti Rode Pisella prism adaptation neglect 1998 Nature",
+    "PubMed: Karnath neglect superior temporal cortex anatomy",
+    "PubMed: Bisiach Luzzatti unilateral neglect mental imagery 1978"
+  ],
+  "databases_used": ["PubMed (NCBI E-utilities)", "PMC (full text)"],
+  "institutional_sources": ["NCBI", "PMC"],
+  "paywalled_unavailable": ["PMID:9744273 (Nature)", "PMID:38115162 (J Neuroimaging)", "PMID:23300283 (PNAS)", "PMID:26004064 (Neuropsychologia)", "PMID:23428624", "PMID:22926312 (NRN)", "PMID:17119314", "PMID:17620870", "PMID:28843415"]
+}

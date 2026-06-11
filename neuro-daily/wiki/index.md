@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-23（**#153**·腹侧注意网络——新建ventral-attention-network（VAN，断路器模型，右侧化，P3a，空间忽视联系）；修订dorsal-attention-network rev4（DAN-VAN动态对话节）、tpj-temporoparietal-junction rev2（VAN角色详述）、alpha-oscillations rev4（注意重定向中α快速重组）；核心认识：DAN-VAN双网络通过相互抑制和断路器机制平衡目标追踪与意外刺激监控；右侧化是全景监控的功能性必然）· 主题页总数：**287**（新建1页：ventral-attention-network；修订3页：DAN rev4、TPJ rev2、α振荡 rev4；图谱 307 节点，1795 边）
+> 最后更新：2026-09-24（**#154**·空间忽视——新建diseases/spatial-neglect（VAN损伤→DAN失衡→注意网络失衡综合征；四维：感知/运动/表征/病觉缺失；棱镜适应疗法；网络归一化恢复机制）；修订ventral-attention-network rev2（悬空引用spatial-neglect-concept→正式节点spatial-neglect）、tpj-temporoparietal-junction rev3（确认TPJ/STG是忽视最重要病灶节点）；核心认识：空间忽视是"疾病作为窗口"理解注意网络平衡机制的最直接证据）· 主题页总数：**288**（新建1页：spatial-neglect；修订2页：VAN rev2、TPJ rev3；图谱 310 节点，1805 边）
 
 ---
 
@@ -329,6 +329,7 @@
 - 🟢 [传导性失语症](diseases/conduction-aphasia.md) — AF直接段/Spt损伤的典型临床表现；三特征：理解完整/产出流利/重复严重受损；conduite d'approche在DIVA前馈/反馈框架中的解释；皮层（Spt）vs 白质（AF）损伤争议 **[NEW 2026-08-21 #119]**
 - 🟢 [SYNGAP1 相关神经发育障碍](diseases/syngap1-related-disorder.md) — de novo SYNGAP1截短突变→SynGAP1单倍剂量不足→Ras-ERK制动减弱→突触提前过度成熟→LTP遮蔽→关键期提前关闭；约1%非综合征性ID；>70%癫痫、~50% ASD；成年期基因治疗前景 **[NEW 2026-09-07 #137]**
 - 🔵 [精神分裂症](diseases/schizophrenia.md) — 回路节律失调的发育性疾病；DLPFC PV+ 细胞 GAD67/PV 分子缄默（非细胞死亡，Hashimoto 2003）→ PING 机制受损 → γ 振荡功率降低 + θ-γ 耦合解体 → 工作记忆认知缺陷；上游机制：NMDAR 低激活（PCP/氯胺酮模型 Javitt 1991）+ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；遗传汇聚：DISC1/NRG1-ErbB4/GRIN2A 三路径汇聚于 PV 细胞，287 GWAS 位点富集于突触生物学（Trubetskoy 2022）；新治疗靶点：Kv3.1/3.2 调节剂/PNN重塑/NMDAR正向调制 **[NEW 2026-09-13 #143; rev2 2026-09-16 #146]**
+- 🟢 [空间忽视（Hemispatial Neglect）](diseases/spatial-neglect.md) — 右半球腹侧额顶颞网络（TPJ/STG/IPL/VFC及SLF白质）损伤后的多维注意综合征；VAN损伤→DAN半球间失衡→空间偏斜（Corbetta & Shulman 2011）；四维崩塌：感知忽视/运动忽视/表征忽视（Bisiach米兰实验）/病觉缺失；25-50%右侧卒中患者受累；棱镜适应疗法（Rossetti 1998）；恢复依赖网络功能连接归一化（Ramsey et al. 2016）**[NEW 2026-09-24 #154]**
 
 ---
 
