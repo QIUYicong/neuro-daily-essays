@@ -129,8 +129,8 @@
 ## Git 状态
 
 - 分支：main
-- 本地 commit：待执行
-- push：待执行
+- 本地 commit：8bb69439043467bd9266fa284d83bc8ed46479d4
+- push：✅ 成功
 - remote：http://local_proxy@127.0.0.1:38989/git/QIUYicong/neuro-daily-essays（✅ 正确）
 
 ---
