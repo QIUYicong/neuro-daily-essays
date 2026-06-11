@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-01
-updated: 2026-08-31
-revision_count: 3
+updated: 2026-09-23
+revision_count: 4
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding, alpha-oscillations, gamma-oscillations, communication-through-coherence, dlpfc-rule-encoding]
+related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding, alpha-oscillations, gamma-oscillations, communication-through-coherence, dlpfc-rule-encoding, ventral-attention-network]
 prerequisites: [prefrontal-cortex, v1-primary-visual-cortex, thalamus]
 opens_questions: [Q-dan-01, Q-dan-02, Q-dan-03, Q-ctc-01, Q-alpha-01]
-source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc]
-key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965", "PMID:19478185", "PMID:22325208"]
+source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc, 2026-09-23-ventral-attention-network-reorienting]
+key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965", "PMID:19478185", "PMID:22325208", "PMID:18466742", "PMID:21692662"]
 ---
 
 # 背侧注意网络（Dorsal Attention Network, DAN）
@@ -128,11 +128,31 @@ DAN 不只通过乘法增益和 α 抑制实施注意控制，还通过 **FEF-V4
 
 见 [[communication-through-coherence]] 页面完整框架。
 
+## DAN-VAN 的动态对话（新增 2026-09-23）
+
+DAN 并不是孤立运作的——它与腹侧注意网络（VAN，右侧 TPJ+VFC）通过相互抑制和断路器机制形成动态平衡（Corbetta et al. 2008，**PMID:18466742**）：
+
+**正常专注任务（DAN 主导）**：
+- DAN（FEF+IPS）激活，控制感觉皮层的注意聚焦
+- **VAN 被 DAN 主动抑制**（而非被动不活跃）——防止任务执行被无关刺激打断
+- fMRI 中两者呈负相关：DAN BOLD 信号高 ↔ VAN BOLD 信号低于基线
+
+**意外显著刺激出现（VAN 断路）**：
+- 右侧 TPJ 激活（~150-200 ms），P3a ERP 成分出现
+- VAN 作为"断路器"：中断 DAN 当前注意聚焦
+- DAN 重配置（~200-350 ms）：将资源重定向至新刺激
+- 重定向完成后，VAN 再次被抑制
+
+**临床意义**：右侧 VAN 损坏（卒中）不只影响 VAN 本身，还破坏 DAN 的连接性，导致左侧半侧空间忽视——注意被锁定在右侧视野，即使主动尝试也无法持续向左注意。
+
+见 [[腹侧注意网络]] 页面完整描述。
+
 ## 修订历史
 
 - 2026-07-01 · 创建 · 基于《空间注意的神经回路》一文 · 来源：Corbetta & Shulman 2002, Bisley & Goldberg 2010, Moore & Fallah 2004, Debes & Dragoi 2023, Treue & Trujillo 1999 · 初始置信度：高
 - 2026-07-21 · 修订 rev2 · 新增"α 振荡控制"机制节：FEF-IPS α 相干性作为 DAN 控制感觉皮层 α 侧向化的振荡载体；更新 related 字段加入 alpha-oscillations · 来源：van Schouwenburg et al. 2017, PMID:28174529
 - 2026-08-31 · 修订 rev3 · 新增"FEF 的 γ 通信机制"节：FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009 开放全文）；FEF 细胞类型解离（Gregoriou 2012 开放全文）；整合 CTC 框架；related 新增 gamma-oscillations, communication-through-coherence, dlpfc-rule-encoding；opens_questions 新增 Q-ctc-01, Q-alpha-01；key_sources 新增 PMID:19478185, PMID:22325208
+- 2026-09-23 · 修订 rev4 · 新增"DAN-VAN 动态对话"节：断路器模型详述（Corbetta et al. 2008，PMID:18466742，开放全文）；正常专注时 VAN 被主动抑制；意外刺激触发 VAN 断路并重定向；空间忽视的网络破坏机制；related 新增 ventral-attention-network；key_sources 新增 PMID:18466742, PMID:21692662
 
 ## 来源文章
 

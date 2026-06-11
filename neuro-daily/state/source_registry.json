@@ -11233,6 +11233,33 @@
         "4.7-6.4 Hz theta shift",
         "dynamic frequency tracking"
       ]
+    },
+    {
+      "pmid": "18466742",
+      "pmcid": "PMC2441869",
+      "title": "The reorienting system of the human brain",
+      "year": 2008,
+      "journal": "Neuron",
+      "first_used": "2026-09-23",
+      "open_access": true
+    },
+    {
+      "pmid": "21692662",
+      "pmcid": null,
+      "title": "Spatial neglect and attention networks",
+      "year": 2011,
+      "journal": "Ann Rev Neurosci",
+      "first_used": "2026-09-23",
+      "open_access": false
+    },
+    {
+      "pmid": "23835449",
+      "pmcid": null,
+      "title": "Dorsal and ventral attention systems",
+      "year": 2014,
+      "journal": "Neuroscientist",
+      "first_used": "2026-09-23",
+      "open_access": false
     }
   ],
   "total_sources": 675,

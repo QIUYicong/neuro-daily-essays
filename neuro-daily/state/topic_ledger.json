@@ -10051,6 +10051,68 @@
           "wiki/concepts/delta-oscillations.md (rev2)"
         ]
       }
+    },
+    {
+      "date": "2026-09-23",
+      "real_date": "2026-06-11",
+      "article_number": 153,
+      "title": "大脑的断路器：腹侧注意网络如何在专注中守护感知完整性",
+      "slug": "ventral-attention-network-reorienting",
+      "filename": "2026-09-23-ventral-attention-network-reorienting.md",
+      "article_type": "deep_dive",
+      "core_question": "当大脑全神贯注时，腹侧注意网络如何在不打断目标追踪的情况下，同时监控整个感知场中的行为显著刺激？VAN断路器模型如何平衡专注与监控？",
+      "layer": [
+        "whole-brain-network",
+        "brain-region",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "5. 认知控制 × 3. 大脑如何编码世界",
+      "topic_tags": [
+        "ventral attention network",
+        "VAN",
+        "dorsal attention network",
+        "DAN",
+        "TPJ",
+        "temporoparietal junction",
+        "VFC",
+        "inferior frontal cortex",
+        "attention reorienting",
+        "circuit breaker",
+        "right lateralization",
+        "hemispatial neglect",
+        "spatial neglect",
+        "P3a",
+        "alpha oscillations",
+        "Corbetta Shulman",
+        "LC-NE",
+        "norepinephrine",
+        "stimulus-driven attention"
+      ],
+      "main_sources": [
+        "PMID:11994752",
+        "PMID:18466742",
+        "PMID:21692662",
+        "PMID:23835449",
+        "PMID:26447583"
+      ],
+      "unresolved_questions": [
+        "Q-van-01",
+        "Q-van-02"
+      ],
+      "wiki_created": [
+        "ventral-attention-network"
+      ],
+      "wiki_revised": [
+        "dorsal-attention-network",
+        "tpj-temporoparietal-junction",
+        "alpha-oscillations"
+      ],
+      "next_suggested_topics": [
+        "hemispatial-neglect: 空间忽视的完整神经机制（右侧VAN/顶叶损坏→网络失衡）；行为特征（忽视/消退/病觉缺失）；棱镜适应疗法机制；与脑损伤康复的关系——创建diseases/spatial-neglect.md",
+        "attention-capture-vs-suppression: 注意捕获（VAN/bottom-up）与主动抑制（DAN/top-down）的时序竞争；与ADHD（过度捕获）的关系；α振荡在捕获抵抗中的角色",
+        "default-mode-network-revision: DMN不只是任务负网络——它与VAN的关系（TPJ双属于DMN和VAN）；DMN在自我参照、预测更新中的正面角色；与注意网络的动态切换"
+      ]
     }
   ],
   "layer_coverage_recent": [

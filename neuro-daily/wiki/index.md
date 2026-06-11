@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-22（**#152**·语言振荡时间采样——新建temporal-sampling-framework（AST框架，Poeppel 2003）；修订language-network（+振荡实现机制节）、cortical-speech-entrainment（+双流映射）、delta-oscillations（+背侧/腹侧流对应）；核心认识：双流架构与δ/θ/γ振荡的完整映射——左γ→背侧流，双侧θ-δ→腹侧流；语言左侧化的振荡机制解释）· 主题页总数：**286**（新建1页：temporal-sampling-framework；修订3页：language-network rev7、cortical-speech-entrainment rev2、delta-oscillations rev2；图谱 306 节点，1788 边）
+> 最后更新：2026-09-23（**#153**·腹侧注意网络——新建ventral-attention-network（VAN，断路器模型，右侧化，P3a，空间忽视联系）；修订dorsal-attention-network rev4（DAN-VAN动态对话节）、tpj-temporoparietal-junction rev2（VAN角色详述）、alpha-oscillations rev4（注意重定向中α快速重组）；核心认识：DAN-VAN双网络通过相互抑制和断路器机制平衡目标追踪与意外刺激监控；右侧化是全景监控的功能性必然）· 主题页总数：**287**（新建1页：ventral-attention-network；修订3页：DAN rev4、TPJ rev2、α振荡 rev4；图谱 307 节点，1795 边）
 
 ---
 
@@ -188,7 +188,8 @@
 - 🔵 [兴奋-抑制平衡（E/I 平衡）](concepts/ei-balance.md) — 皮层回路信噪比控制机制；PV+/SST+/VIP+ 三类中间神经元分工维持；失衡是 ASD/精神分裂症/癫痫的共同汇流点；多维度（不同细胞类型→不同靶点），非单一数字 **[NEW 2026-07-04]**
 - 🟢 [围神经元网（PNNs）](concepts/perineuronal-nets.md) — 包裹 PV+ 细胞的细胞外基质网络（aggrecan+透明质酸+连接蛋白）；OTX2 正反馈驱动 PV 成熟；固化 AMPA 受体、关闭发育关键期；ChABC 处理可逆转（动物） **[NEW 2026-07-04]**
 
-- 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）；**rev3 新增**：FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009）；CTC 振荡路由框架整合（2026-08-31）**[NEW 2026-07-01]**
+- 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）；**rev4 新增**：DAN-VAN 断路器模型（VAN 正常任务被 DAN 抑制，意外时 VAN 断路并重定向，2026-09-23）**[NEW 2026-07-01]**
+- 🟢 [腹侧注意网络（VAN）](concepts/ventral-attention-network.md) — 右侧 TPJ+VFC；显著性驱动注意；"断路器"打断 DAN 聚焦；右侧化=双侧视野全景监控；P3a ERP 标志；LC-NE 调节阈值；空间忽视联系（右侧损坏→左侧半侧空间忽视）；Corbetta & Shulman 2002/2008 框架 **[NEW 2026-09-23 #153]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
 - 🔵 [Communication Through Coherence（CTC）](concepts/communication-through-coherence.md) — 振荡相位对齐创造通信窗口；γ 前馈（感觉内容）/α-β 反馈（预测控制）/θ 采样节律；FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009 开放全文）；visual vs movement FEF 神经元解离（Gregoriou 2012）；Fries 2015 综述框架（PMC4605134）**[NEW 2026-08-31 #131]**
 - 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性 **[NEW 2026-06-28]**（填补多页悬空引用）

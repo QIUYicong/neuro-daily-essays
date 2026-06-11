@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-21
-updated: 2026-09-19
-revision_count: 3
+updated: 2026-09-23
+revision_count: 4
 dimensions: [whole-brain-network, brain-region, cognition, cellular, behavior]
-related: [dorsal-attention-network, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, biased-competition, thalamus, thalamocortical-circuit, pv-interneurons, ei-balance, attentional-blink, multisensory-integration, predictive-coding, communication-through-coherence, neural-oscillations, canonical-microcircuit]
+related: [dorsal-attention-network, ventral-attention-network, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, biased-competition, thalamus, thalamocortical-circuit, pv-interneurons, ei-balance, attentional-blink, multisensory-integration, predictive-coding, communication-through-coherence, neural-oscillations, canonical-microcircuit]
 prerequisites: [action-potential, synaptic-transmission, pv-interneurons, thalamus]
 opens_questions: [Q-alpha-01, Q-alpha-02, Q-alpha-03, Q-osc-02]
-source_articles: [2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc, 2026-09-19-cortical-oscillation-hierarchy]
+source_articles: [2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc, 2026-09-19-cortical-oscillation-hierarchy, 2026-09-23-ventral-attention-network-reorienting]
 key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905", "PMID:21779269", "PMID:23141428", "PMID:26447583", "PMID:15218136", "PMID:15901760", "PMID:20932795"]
 ---
 
@@ -112,11 +112,24 @@ key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905"
 
 **对 Q-alpha-01 的部分回答**：CTC 框架提供了一个框架性答案——FEF 向非目标区域枕叶发送反馈投射，这些反馈在 α/β 频段传递（皮层深层 L5/6 → 非颗粒层反馈通路），使目标 α 降低、非目标 α 升高。但 FEF 的反馈是通过**直接皮层回路**还是**丘脑 TRN 中继**还有争议（Q-alpha-01 未完全解决）。
 
+## α 振荡在注意重定向中的快速重组（新增 2026-09-23）
+
+当腹侧注意网络（VAN）激活、注意重定向被触发时，α 侧向化状态发生**快速重组**（而非慢速恢复-重建）：
+
+- 正常专注态：α 侧向化稳定（目标侧低，非目标侧高），通常稳定维持数百毫秒至数秒
+- VAN 激活（~150-200 ms）后：α **快速反转**：原目标区域 α 升高；新目标区域（意外刺激位置）α 降低
+- 重组时间：约 150-250 ms，远快于常规自主注意转换（~400 ms）
+
+这说明 VAN 不只是告知 DAN"需要重定向"，还**直接参与了感觉皮层 α 过滤器的紧急重配置**——两个系统的协调比"DAN 指挥 → 感觉皮层执行"的线性模型更为直接。
+
+**P3a 与 α 时序关系**：P3a（VAN 激活标志，~250-350 ms）出现时，α 侧向化的重组通常已经开始，但尚未完成——提示两者是并行进行的，而非 P3a 触发 α 重组。
+
 ## 修订历史
 
 - 2026-07-21 · 创建 · 基于《大脑的频闪滤网》第89篇文章 · 初始置信度：高（10个来源，9个开放全文，包含 rhTMS 因果证据）
 - 2026-08-31 · 修订 rev2 · 新增"α 在 CTC 框架中的角色"节：将 α 抑制整合进 Fries CTC 框架；说明 FEF-V4 γ coupling 与 α 抑制的协同机制；related 新增 communication-through-coherence；key_sources 新增 PMID:26447583；Q-alpha-01 部分回答进展
 - 2026-09-19 · 修订 rev3 · 基于《节律的层级》(#149) · 补充 α 在振荡层级（PAC）中的位置：α 是 δ→θ→α 嵌套框架中的"节律采样频段"（PAC：θ相位调制γ，α调制更低频的采样阈值）；补充 α 与 PAC 中 Canolty & Knight 2010（PMID:20932795）的整合；related 新增 neural-oscillations/canonical-microcircuit；opens_questions 新增 Q-osc-02
+- 2026-09-23 · 修订 rev4 · 新增"α 在注意重定向中的快速重组"节：VAN 激活触发 α 侧向化快速反转（150-250 ms）；P3a 与 α 重组的并行时序；related 新增 ventral-attention-network；source_articles 新增 2026-09-23-ventral-attention-network-reorienting
 
 ## 来源文章
 

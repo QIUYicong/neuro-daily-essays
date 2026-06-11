@@ -1,0 +1,119 @@
+# 运行日志 2026-09-23
+
+**文章编号**：#153
+**实际运行日期**：2026-06-11（UTC+8 18:xx）
+**分支**：main
+**状态**：✅ 完成
+
+---
+
+## 选题过程
+
+**参考信号**：
+- `topic_ledger.json` 最后条目 (#152)：语言振荡时间采样，suggested: attention-networks / dyslexia / semantic-composition
+- `_graph.json` 悬空引用：'aging', 'cognition', 'dopamine-system'（均较模糊，未立即创建）
+- `unresolved_questions.md`：Q-delta-01~03, Q-osc-01~02, Q-ts-01~02（均为高/中优先级）
+
+**选题决策**：选择 `ventral-attention-network`（VAN），原因：
+1. 是 topic_ledger 第一建议 "attention-networks" 的核心子主题
+2. `dorsal-attention-network.md` 已深度覆盖 DAN，但 VAN 无专用 wiki 页面（gap）
+3. 自然承接近期振荡系列（α振荡侧向化已建立），为认知控制章节提供注意系统的第二半（先有 DAN，今补 VAN）
+4. 双网络 DAN-VAN 框架是理解空间忽视、ADHD、精神分裂注意障碍的基础
+
+---
+
+## 检索记录
+
+**搜索策略**：
+- 查询 1：PubMed `dorsal attention network ventral attention network review` → 124 结果
+  - 采用：PMID:11994752（Corbetta & Shulman 2002，奠基框架）
+  - 采用：PMID:18466742（Corbetta et al. 2008，VAN断路器模型，开放全文 PMC2441869）
+  - 采用：PMID:21692662（Corbetta & Shulman 2011，空间忽视综述）
+  - 采用：PMID:23835449（Vossel et al. 2014，DAN-VAN协作）
+- 查询 2：PMC `alpha oscillations attention gating review` → 补充确认 CTC 框架来源
+- 已有来源：PMID:26447583（Fries 2015 CTC）、PMID:12948738（Saxe 2003 TPJ-ToM）、PMID:24012000（Koster-Hale 2013 TPJ预测编码）
+- 使用 NCBI E-utilities 通过子代理检索（实际网络访问由子代理执行）
+
+**候选数**：7 个最终使用
+**排除原因**：
+- PMC 检索的数学神经科学相关结果：与主题不相关
+- 一些 2020-2025 发育/双相障碍研究：与 VAN 核心机制相关性低
+
+---
+
+## 固结 wiki 页面
+
+**新建（1 页）**：
+- `wiki/concepts/ventral-attention-network.md` — VAN断路器模型，Rev1
+
+**修订（3 页）**：
+- `wiki/concepts/dorsal-attention-network.md` Rev3 → Rev4：DAN-VAN动态对话节
+- `wiki/systems/tpj-temporoparietal-junction.md` Rev1 → Rev2：VAN感知节点角色详述
+- `wiki/concepts/alpha-oscillations.md` Rev3 → Rev4：注意重定向中α快速重组
+
+---
+
+## 矛盾检查
+
+- **无新矛盾登记**：VAN的功能模糊性（DAN/VAN边界问题）是程度差异而非相互冲突的事实主张
+- **检查 Vossel 2014 对 Corbetta 2002 框架的挑战**：Vossel 指出 DAN-VAN 边界比最初描述更模糊，但这是对框架的精细化而非否定，现有证据不足以降低任何页面的 confidence；记录在 VAN 页面的"争议"节
+
+---
+
+## 图谱变化
+
+- 新增节点：1（ventral-attention-network）
+- 新增边：7（VAN↔TPJ part-of，VAN↔DAN regulates，VAN→α mechanism-of，VAN→NE related，DAN→VAN related）
+- 节点总数：306 → 307
+- 边总数：1788 → 1795
+
+---
+
+## 状态文件更新
+
+- `topic_ledger.json`：新增 article #153 条目（136 条目）
+- `unresolved_questions.md`：新增 Q-van-01（高），Q-van-02（中）
+- `source_registry.json`：新增 3 条来源（PMID:18466742, 21692662, 23835449）
+- `monthly_synthesis.md`：更新 9 月进度（第22篇）
+- `maturity_index.json`：新增 ventral-attention-network（established/high）；更新 DAN, TPJ, α 修订计数
+
+---
+
+## Git 操作
+
+**分支**：main
+**commit message**：Add neuro daily article + wiki consolidation for 2026-09-23
+**push**：git push origin main
+**commit hash**：（待填入）
+**push 状态**：（待填入）
+
+---
+
+## 失败与限制
+
+- PMID:11994752（Corbetta & Shulman 2002 NRN）：付费墙，仅读摘要。内容经由多个综述二次确认，高置信度
+- PMID:21692662（Corbetta & Shulman 2011 ARN）：付费墙，仅读摘要
+- PMID:23835449（Vossel et al. 2014）：付费墙，仅读摘要
+- 无网络不可用问题；无编造来源
+
+---
+
+## 自检结果
+
+**真实性** ✅
+- 所有 wiki 新主张均有来源（PMID/PMCID）
+- 区分了事实（VAN解剖，基本机制）/模型（断路器模型）/推测（LC-NE调制细节）/争议（DAN-VAN功能边界）
+- 未把任何单篇小样本研究写成定论；Vossel 2014 的"模糊边界"观点被明确呈现为对框架的修正
+
+**一致性** ✅
+- VAN 新内容与已有 DAN、α振荡、TPJ、CTC 页面内容一致
+- 被修订页面的 updated/revision_count/修订历史均同步更新
+- `_graph.json` 悬空引用检查：新增 spatial-neglect-concept（悬空）→ 记录在 CHANGELOG 待补
+
+**可导航** ✅
+- `index.md` 反映了新增 VAN 页面（第 287 页）
+- `CHANGELOG.md` 记录今日所有变更
+- 新 VAN 页面 related/prerequisites 均已填写
+
+**情景层** ✅
+- articles/notes/sources/logs 四文件全部创建（append-only，未修改旧文件）

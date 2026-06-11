@@ -250,6 +250,15 @@
       "last_changed": "2026-09-20",
       "change_reason": "创建。θ-γ嵌套和θ序列作为时序多路复用的两个实例均有高置信证据；'时序多路复用作为统一框架'是合理整合但尚未作为明确假说被独立验证，故 mainstream/medium",
       "source_article": "2026-09-20-week-synthesis-pv-oscillation-cognition-architecture"
+    },
+    {
+      "slug": "ventral-attention-network",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-09-23",
+      "change_reason": "创建新页面；基于Corbetta & Shulman 2002/2008两篇奠基性论文；VAN断路器模型、右侧化、空间忽视联系均经多项独立研究验证",
+      "source_article": "2026-09-23-ventral-attention-network-reorienting"
     }
   ],
   "last_updated": "2026-09-20",

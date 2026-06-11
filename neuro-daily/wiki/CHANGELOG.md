@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-09-23（文章 #153：大脑的断路器——腹侧注意网络如何在专注中守护感知完整性）
+
+**今日主题：** 腹侧注意网络（VAN）的解剖（TPJ+VFC）、功能（断路器模型）、右侧化机制、注意重定向的振荡动力学（P3a, α快速重组）和空间忽视（半侧空间忽视）的网络机制。从振荡/语言主题（#151-152）切换到认知控制×感觉编码轨道。
+
+### 新建 wiki 页面（1 个）
+- `wiki/concepts/ventral-attention-network.md` — 腹侧注意网络（VAN） | established / high | 核心节点 rTPJ+VFC；断路器模型（正常任务被 DAN 抑制，意外时激活打断 DAN）；右侧化机制；LC-NE 调制；P3a/α 振荡标志；空间忽视联系；PMID:11994752, 18466742, 21692662, 23835449
+
+### 修订 wiki 页面（3 个）
+- `wiki/concepts/dorsal-attention-network.md`（rev3→rev4）：新增"DAN-VAN 动态对话"节（断路器模型、反相关、空间忽视网络破坏）；related 新增 ventral-attention-network；key_sources 新增 PMID:18466742, 21692662
+- `wiki/systems/tpj-temporoparietal-junction.md`（rev1→rev2）：新增"TPJ 作为 VAN 核心感知节点"节（多流汇聚、预测违背检测、P3a 时序、双重功能统一框架、空间忽视）；related 新增 ventral-attention-network, norepinephrine-locus-coeruleus；opens_questions 新增 Q-van-01
+- `wiki/concepts/alpha-oscillations.md`（rev3→rev4）：新增"α 在注意重定向中的快速重组"节（VAN 激活触发 α 反转、P3a 时序关系）；related 新增 ventral-attention-network
+
+### 图谱更新
+- 新增节点：`ventral-attention-network`（VAN）；图谱节点数：306 → 307
+- 新增边（7 条）：VAN→TPJ（part-of），TPJ→VAN（part-of），VAN→DAN（regulates），DAN→VAN（regulates），VAN→α-oscillations（mechanism-of），VAN→NE-系统（related），DAN→VAN（related）；图谱边数：1788 → 1795
+
+### 登记或裁决矛盾
+- 无新矛盾登记（VAN的功能模糊性是程度/边界问题，不是真正的相互冲突主张）
+
+### 新增未解问题
+- Q-van-01（高）：VAN/TPJ 激活的"行为相关性门控"机制——如何区分行为无关意外噪声 vs 行为相关意外信号？
+- Q-van-02（中）：VAN 抑制深度是否随任务难度非线性变化？是否存在注意捕获的"最大抑制"上限？
+
+### 新增悬空引用待补
+- `spatial-neglect-concept`（在 ventral-attention-network.md 中作为 related 引用，建议为空间忽视建立专用 wiki 页面）
+
+---
+
 ## 2026-09-21（文章 #151：δ振荡——大脑解析语音层级的慢速时钟）
 
 **今日主题：** δ振荡（1–4 Hz）在语音处理和语言层级追踪中的功能。填补图谱中 `delta-oscillations` 悬空引用。核心发现：δ追踪抽象语法结构（Ding 2016）；δ是语音特异性的（Molinaro 2018）；清醒语音δ与睡眠δ的机制区别；阅读障碍的TSF框架（Goswami 2011）。
