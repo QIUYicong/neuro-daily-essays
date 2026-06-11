@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-26",
-  "total_articles": 156,
+  "last_updated": "2026-09-27",
+  "total_articles": 157,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10312,6 +10312,71 @@
         "split-brain: 裂脑综合征专页（异手综合征/左右手意志冲突/各意识理论的预测/Gazzaniga vs Pinto的实验对比）——填补新悬空引用 split-brain",
         "anterior-commissure: 前连合专页（嗅觉/颞叶前端连接；AgCC代偿机制；与胼胝体功能分工）——填补 agenesis-corpus-callosum 悬空引用",
         "prefrontal-working-memory-alpha: α振荡在前额叶工作记忆中的角色（与海马θ的跨区耦合；切换注意→工作记忆层级；课程脊柱ch.5）"
+      ]
+    },
+    {
+      "article_number": 157,
+      "date": "2026-09-27",
+      "actual_run_date": "2026-06-11",
+      "title": "当胼胝体被切断：裂脑患者的两个世界、左半球的诠释者与Pinto的统一意识论",
+      "slug": "split-brain-unified-consciousness",
+      "core_question": "裂脑患者到底是拥有两个独立的意识代理人，还是一个意识统一但感知通道分裂的单一代理人？Pinto 2017 如何在 Gazzaniga 的经典框架之外找到统一意识的行为证据？",
+      "layer": [
+        "cognition",
+        "whole-brain-network"
+      ],
+      "curriculum_track": "8. 意识与自我（意识理论的压力测试）× 9. Connectomics（胼胝体结构与功能后续）",
+      "topic_tags": [
+        "split-brain",
+        "corpus-callosum",
+        "callosotomy",
+        "Gazzaniga",
+        "interpreter-module",
+        "left-hemisphere-language",
+        "Pinto-2017",
+        "unified-consciousness",
+        "split-perception",
+        "cross-cueing",
+        "de-Haan-2020",
+        "tactile-localization",
+        "resting-state-fMRI",
+        "singularity",
+        "IIT-split-brain",
+        "GWT-split-brain",
+        "RPT-Lamme",
+        "alien-hand-syndrome",
+        "agency-dissociation",
+        "consciousness-theories"
+      ],
+      "main_sources": [
+        "PMID:32399946/PMC7305066 (de Haan et al. 2020 Neuropsychology Review, open full text read)",
+        "PMID:31923846/PMC7061321 (de Haan et al. 2020 Cortex, open full text read)",
+        "PMC8048575 (de Haan et al. 2021 J Neuropsychology, open full text read)",
+        "PMID:30057510/PMC6057762 (Rosen 2018 JUNE, open full text read)",
+        "PMID:28958646 (Pinto et al. 2017 TCS, abstract only - accessed via PMC7305066)",
+        "PMID:16062172 (Gazzaniga 2005 NRN, abstract only)",
+        "PMID:29177496 (Volz & Gazzaniga 2017 Brain, abstract only)",
+        "PMID:41053873/PMC12502178 (Moghib et al. 2025 Orphanet, open full text read)"
+      ],
+      "unresolved_questions": [
+        "Q-cc-01",
+        "Q-split-01",
+        "Q-split-02",
+        "Q-split-03"
+      ],
+      "wiki_created": [
+        "split-brain",
+        "alien-hand-syndrome"
+      ],
+      "wiki_revised": [
+        "integrated-information-theory",
+        "global-workspace-theory",
+        "corpus-callosum"
+      ],
+      "next_suggested_topics": [
+        "recurrent-processing-theory: Lamme 的递归处理理论完整页面（视觉皮层内的反馈回路；attention vs consciousness 解离；无报告范式；与 GWT/IIT 的根本分歧）——为裂脑意识框架提供理论底座",
+        "anterior-commissure: 前连合专页（AgCC 中的代偿；嗅觉/颞叶前端连接；胼胝体 vs 前连合的功能分工）——填补 agenesis-corpus-callosum 悬空引用",
+        "prefrontal-working-memory-alpha: α振荡在前额叶工作记忆中的角色（与海马θ的跨区耦合；从注意层切换到工作记忆层级；课程脊柱 ch.5）"
       ]
     }
   ],

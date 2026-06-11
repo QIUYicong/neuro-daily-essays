@@ -1,0 +1,149 @@
+# 运行日志 2026-09-27（实际运行日期：2026-06-11）
+
+## 基本信息
+
+- 文章编号：#157
+- 叙事日期：2026-09-27
+- 实际运行日期：2026-06-11
+- 主题：当胼胝体被切断——裂脑患者的两个世界、左半球的诠释者与 Pinto 的统一意识论
+- slug：split-brain-unified-consciousness
+- 分支：main
+- 触发：手动（Claude Code Web）
+
+---
+
+## 选题逻辑
+
+1. 读取 `state/topic_ledger.json`：上一篇（#156）"胼胝体解剖"的 `next_suggested_topics` 首位是 `split-brain`（裂脑综合征专页）
+2. 读取 `wiki/_graph.json`：检测悬空引用，`split-brain` 在 5 条边中被引用但无节点 → **缺口驱动（第3优先级）**
+3. 上篇层级为 brain-region/cellular（#156），今日选 cognition/whole-brain-network 为主层级，切换层级，且连续三天均为 whole-brain-network 相关，此选题延续意识章节，与上两篇形成三联叙事（胼胝体解剖→裂脑意识），层级切换合理
+4. Q-cc-01（高优先级未解问题）直接对应今日主题：裂脑意识分裂问题
+5. 最终选题：裂脑综合征与意识理论检验（填补悬空引用 + 回应高优先级问题 + 意识章节 ch.8 推进）
+
+---
+
+## 文献检索记录
+
+### 搜索词与数据库
+
+| 搜索词 | 数据库 | 结果数 | 采用 |
+|--------|--------|--------|------|
+| split-brain consciousness Gazzaniga | PubMed | 10 | 4 |
+| Pinto 2017 split-brain unified consciousness | PubMed | 3 | 2 |
+| split brain callosotomy consciousness review | PMC | 8 | 2 |
+| alien hand syndrome corpus callosum supplementary motor | PubMed | 8 | 1 |
+| IIT integrated information theory split brain Tononi | PubMed | 0 | - |
+| Gazzaniga 2005 forty-five years split-brain | PubMed | 1 | 1 |
+
+### 候选来源
+
+**采用（开放全文）**：
+- PMC7305066 (PMID:32399946)：de Haan et al. 2020 综述 — 裂脑研究现状与意识理论检验
+- PMC7061321 (PMID:31923846)：de Haan et al. 2020 Cortex — 触觉检测/定位实验
+- PMC8048575：de Haan et al. 2021 J Neuropsychology — 单一性与意识理论，resting-state fMRI
+- PMC6057762 (PMID:30057510)：Rosen 2018 教育评论 — 裂脑争议简介
+- PMC12502178 (PMID:41053873)：Moghib et al. 2025 — 异手综合征系统综述
+
+**采用（摘要）**：
+- PMID:28958646 (Pinto et al. 2017 TCS) — 核心概念文章，通过 PMC7305066 详细综述引用
+- PMID:16062172 (Gazzaniga 2005 NRN) — 诠释者模块经典综述
+- PMID:29177496 (Volz & Gazzaniga 2017 Brain) — Gazzaniga 阵营的50年回顾
+
+**排除**：
+- PMC3021584：方法学论文，不相关
+- PMC3653219：综合意识理论，不聚焦裂脑
+- 多篇动物/神经影像技术论文：与今日主题相关性低
+
+### 来源质量统计
+
+- 总来源数：8
+- 开放全文：5（符合要求 ≥2 开放全文）
+- 摘要：3
+- 官方机构来源：PubMed/PMC（NIH 下属）
+
+---
+
+## 今日产出
+
+### 情景层（append-only）
+
+- `neuro-daily/articles/2026-09-27-split-brain-unified-consciousness.md` — 创建（~6200字）
+- `neuro-daily/notes/2026-09-27-reading-notes.md` — 创建
+- `neuro-daily/sources/2026-09-27-sources.json` — 创建
+
+### 固结步骤（wiki 层）
+
+**新建 wiki 页面（2 页）**：
+- `wiki/concepts/split-brain.md` — 裂脑综合征（填补悬空引用）
+- `wiki/diseases/alien-hand-syndrome.md` — 异手综合征
+
+**修订 wiki 页面（3 页）**：
+- `wiki/theories/integrated-information-theory.md` rev4 — 新增裂脑Φ分裂预测节、split-brain到related、Q-cc-01
+- `wiki/theories/global-workspace-theory.md` rev7 — 新增裂脑双工作空间预测、split-brain到related、Q-cc-01
+- `wiki/systems/corpus-callosum.md` rev2 — 新增意识证据来源到source_articles
+
+### 图谱与导航更新
+
+- `wiki/_graph.json`：313→315 节点，1823→1832 边；填补悬空引用 split-brain
+- `wiki/index.md`：新增2页条目；更新header统计（总页数292→294）
+- `wiki/CHANGELOG.md`：追加今日节
+
+### 治理层更新
+
+- `state/topic_ledger.json`：新增文章#157条目；total_articles=157
+- `state/unresolved_questions.md`：新增 Q-split-01（高）、Q-split-02（中）、Q-split-03（中）
+- `state/source_registry.json`：新增2来源（PMC7061321、PMC12502178）；total=693（PMC7305066和PMC8048575已存在）
+- `state/monthly_synthesis.md`：追加今日摘要（#157）
+
+---
+
+## 矛盾检查
+
+**裂脑意识争议**（Q-cc-01 深化）：
+- 今日文章系统呈现了 Pinto 2017（统一意识）与 Volz/Gazzaniga 2018（双代理人+交叉提示）的冲突框架
+- 这是理论解读冲突，两者使用相同实验受试者但不同测量视角，并非证据直接矛盾
+- 决定：不登记到 `contested_claims.json`（理论框架分歧），而是维持在 Q-cc-01 未解问题状态，今日加深了证据描述
+- 新增 Pinto 证据（de Haan 2020/2021）：倾向支持统一意识，但 de Haan 2020 综述的共识是"证据不足以裁决"
+- 整体：Q-cc-01 仍保持 open
+
+---
+
+## 自检清单
+
+**真实性**：
+- [x] 所有主要数字/结论都有明确的 PMID/PMC 来源标注
+- [x] 区分了事实/模型/争议：诠释者模块（established/high）与裂脑意识分裂（contested/medium）明确区分
+- [x] 未把单篇小样本研究当定论（Pinto 2017 n=2, de Haan 2020 n=1 均标注"中"置信度）
+- [x] 动物研究与人类研究的区别：本文全部基于人类研究
+- [x] 论文未提供医学诊断、治疗建议
+
+**一致性**：
+- [x] 无新内容与既有 wiki 页面冲突（split-brain 为新页；IIT/GWT 修订与原框架兼容）
+- [x] 新页 updated/revision_count/修订历史同步
+- [x] _graph.json 无新悬空边（所有新边的节点均存在，新增悬空引用 recurrent-processing-theory/supplementary-motor-area 已记入 CHANGELOG）
+
+**可导航**：
+- [x] index.md 和 CHANGELOG.md 已更新
+- [x] 新页 related 各≥1（split-brain 有8+相关，alien-hand-syndrome 有4+相关）
+- [x] 新页 prerequisites 各≥1
+
+**情景层完整**：
+- [x] article/notes/sources/log 均创建
+- [x] 未修改任何旧的情景层文件（只新建和修改 wiki/state）
+
+---
+
+## Git 状态
+
+- 分支：main
+- 本地 commit：（待填写，提交后更新）
+- push：（待完成）
+- remote：http://local_proxy@127.0.0.1:33109/git/QIUYicong/neuro-daily-essays（✅ 正确）
+
+---
+
+## 失败与限制
+
+- PMID:28958646（Pinto 2017 Trends Cogn Sci）无开放全文；通过 de Haan 2020 综述（PMC7305066）的详细引用获得核心内容。文章中已标注"未读取全文（通过综述引用）"。
+- PMID:16062172（Gazzaniga 2005 NRN）无开放全文；诠释者模块的概念描述基于摘要和广泛引用的二手文献。
+- 裂脑意识问题因哲学层面的概念不清（phenomenal vs access consciousness）和实验限制（n 极小，只有约 20 名活着的裂脑患者）无法定论，文章诚实呈现争议状态。

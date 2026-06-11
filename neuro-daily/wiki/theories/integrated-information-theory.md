@@ -9,11 +9,13 @@ created: 2026-05-31
 updated: 2026-06-27
 revision_count: 3
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model, neural-correlates-of-consciousness]
+related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model, neural-correlates-of-consciousness, split-brain]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
-opens_questions: [Q-iit-01, Q-iit-02, Q-iit-03, Q-iit-04, Q-iit-05]
-source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-06-27-ncc-consciousness-where]
-key_sources: ["PMID:19098144", "PMID:27225071", "PMID:27094080", "PMID:23946194", "PMID:40307561", "PMID:36763595", "PMID:32135090"]
+opens_questions: [Q-iit-01, Q-iit-02, Q-iit-03, Q-iit-04, Q-iit-05, Q-cc-01]
+source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-unified-consciousness]
+key_sources: ["PMID:19098144", "PMID:27225071", "PMID:27094080", "PMID:23946194", "PMID:40307561", "PMID:36763595", "PMID:32135090", "PMID:32399946/PMC7305066"]
+updated: 2026-09-27
+revision_count: 4
 ---
 
 # 整合信息理论 (Integrated Information Theory, IIT)
@@ -103,12 +105,25 @@ IIT 主张，正是这些连接特征使后方皮层具有高 Φ，成为意识�
 - **Q-iit-04**（中优先级）：前馈深度学习网络的 Φ 究竟有多小？能否实际测量？
 - **Q-iit-05**（中优先级）："排他性公理"的哲学后果（复合意识消灭问题）能否被修订？
 
+## 裂脑综合征对 IIT 的挑战
+
+IIT 对裂脑有明确的（且不利的）预测：切断胼胝体后，两侧半球的整合程度大幅降低，每侧半球的 Φ 分别高于切断前的整合系统的 Φ——即 Φ(左) + Φ(右) > Φ(整合)。根据 IIT 的"排他性"公理，每个具有最高 Φ 的子系统对应一个独立的意识。因此 IIT 的铁板定论是：裂脑必然产生两个意识（de Haan et al. 2020, PMID:32399946）。
+
+然而 Pinto et al. 2017（PMID:28958646）及后续触觉和 fMRI 研究提供了行为证据，暗示意识主体可能仍然是统一的。若这些证据站得住脚，IIT 必须提供以下解释之一：
+1. 皮层下通路（上丘等）足以维持足够的 Φ，使两侧半球仍构成一个"复合体"
+2. Pinto 的"统一意识"解读本身是错误的（交叉提示假说）
+3. IIT 的"排他性公理"需要修订
+
+这一问题目前尚未解决，登记为 Q-cc-01。
+
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《意识等于整合信息》(#29) · 初始置信度：中（IIT 是 mainstream 理论，但 COGITATE 2025 核心机制预测受挑战 → 降为 contested）
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 全文精确数字（3.8% 电极持续激活，BF₀₁=1.15–4.9，<0.75s 同步）；新增 adversarial-collaboration 相关页面；新增 COGITATE 精确数字段落；补充 key_source PMID:32135090
 - 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增 NCC 三分法框架定位（IIT 主要描述内容特异 NCC——后方皮层 Φ 框架）；新增可证伪性问题讨论（gamma 同步只是 Φ 的代理，IIT 框架"辅助假说带"保护核心）；新增 neural-correlates-of-consciousness 到 related；更新 source_articles
+- 2026-09-27 · 修订 · 基于《当胼胝体被切断》(#157) · 新增"裂脑综合征对 IIT 的挑战"节；补充 split-brain 到 related；新增 Q-cc-01；来源 PMID:32399946
 
 ## 来源文章
 
 - [[2026-05-31-integrated-information-theory]]
+- [[2026-09-27-split-brain-unified-consciousness]]

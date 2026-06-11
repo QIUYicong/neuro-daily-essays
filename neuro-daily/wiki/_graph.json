@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "node_count": 303,
   "edge_count": 1760,
   "edge_types": [
@@ -2834,6 +2834,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/agenesis-corpus-callosum.md"
+    },
+    {
+      "id": "split-brain",
+      "title": "裂脑综合征",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/split-brain.md"
+    },
+    {
+      "id": "alien-hand-syndrome",
+      "title": "异手综合征",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/alien-hand-syndrome.md"
     }
   ],
   "edges": [
@@ -12540,6 +12558,51 @@
       "from": "corpus-callosum",
       "to": "alpha-oscillations",
       "type": "related"
+    },
+    {
+      "from": "split-brain",
+      "to": "corpus-callosum",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "split-brain",
+      "to": "integrated-information-theory",
+      "type": "contradicts"
+    },
+    {
+      "from": "split-brain",
+      "to": "global-workspace-theory",
+      "type": "contradicts"
+    },
+    {
+      "from": "split-brain",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "split-brain",
+      "to": "language-lateralization",
+      "type": "related"
+    },
+    {
+      "from": "split-brain",
+      "to": "interhemispheric-competition",
+      "type": "related"
+    },
+    {
+      "from": "alien-hand-syndrome",
+      "to": "split-brain",
+      "type": "related"
+    },
+    {
+      "from": "alien-hand-syndrome",
+      "to": "corpus-callosum",
+      "type": "part-of"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "split-brain",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

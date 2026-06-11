@@ -4,6 +4,39 @@
 
 ---
 
+## 2026-09-27（文章 #157：当胼胝体被切断——裂脑患者的意识、诠释者与 Pinto 的统一意识论）
+
+**今日主题：** 裂脑综合征（Gazzaniga 经典"双意识"与 Pinto 2017"统一意识+分裂感知"框架）、意识理论检验（IIT/GWT/RPT 各自的裂脑预测）、诠释者模块、跨提示争议、触觉/fMRI 后续证据（de Haan 2020/2021）、异手综合征（agency 解离）、填补图谱悬空引用 `split-brain`。
+
+### 新建 wiki 页面（2 个）
+
+- `wiki/concepts/split-brain.md` — 裂脑综合征 | mainstream / medium | 填补悬空引用；Sperry/Gazzaniga 经典实验（视野测试、诠释者效应）；Pinto 2017 三报告通道实验；de Haan 2020 触觉（任意手可报告任意侧触觉）；de Haan 2021 resting-state fMRI（双侧相关持续）；IIT/GWT/RPT 对裂脑的不同预测；交叉提示争议；PMID:32399946/PMC7305066、31923846/PMC7061321、PMC8048575、28958646
+- `wiki/diseases/alien-hand-syndrome.md` — 异手综合征 | mainstream / medium | 三种亚型（前型/SMA、后型/后顶叶、胼胝体型）；agency 解离机制；与 split-brain 的关系；PMID:41053873/PMC12502178
+
+### 修订 wiki 页面（3 个）
+
+- `wiki/theories/integrated-information-theory.md` rev4 — 新增"裂脑综合征对 IIT 的挑战"节（Φ分裂预测 → 两个意识；Pinto 统一证据是对 IIT 排他性公理的直接挑战；可能的逃避路线）；新增 split-brain 到 related；补充 Q-cc-01；PMID:32399946
+- `wiki/theories/global-workspace-theory.md` rev7 — 新增裂脑的 GWT 预测（两侧前额叶分别形成独立工作空间→两个意识）；补充 Pinto 证据对 GWT 的挑战；新增 split-brain 到 related；新增 Q-cc-01
+- `wiki/systems/corpus-callosum.md` rev2 — 新增意识章节（裂脑意识深入证据的来源标注）；补充 split-brain 文章到 source_articles
+
+### 图谱更新
+
+- 新增节点：`split-brain`、`alien-hand-syndrome`；图谱节点数：313 → 315
+- 新增边（9 条）：split-brain→corpus-callosum（mechanism-of）；split-brain→integrated-information-theory（contradicts）；split-brain→global-workspace-theory（contradicts）；split-brain→neural-correlates-of-consciousness（related）；split-brain→language-lateralization（related）；split-brain→interhemispheric-competition（related）；alien-hand-syndrome→split-brain（related）；alien-hand-syndrome→corpus-callosum（part-of）；corpus-callosum→split-brain（mechanism-of）；图谱边数：1823 → 1832
+
+### 登记或裁决矛盾
+
+- **Q-cc-01（深化但仍 open）**：裂脑意识分裂问题——今日文章系统整理了 Pinto 2017/de Haan 2020/2021 的支持统一意识的证据，以及 Volz/Gazzaniga 的交叉提示批评。证据深化但无法裁决，Q-cc-01 仍保持 open 状态。
+- 无新矛盾登记到 contested_claims.json（两种意识框架基于理论预设，非直接数据矛盾）
+
+### 新增悬空引用待补
+
+- `recurrent-processing-theory`（Lamme RPT，split-brain.md 连接中需要，今日未建）
+- `supplementary-motor-area`（SMA，alien-hand-syndrome.md 连接中引用，今日未建）
+- `anterior-commissure`（corpus-callosum.md 中已存在悬空引用，本日文章再次引用）
+
+---
+
 ## 2026-09-26（文章 #156：连接两个大脑——胼胝体的解剖地图、发育时钟与裂脑之谜）
 
 **今日主题：** 胼胝体解剖拓扑（五段/纤维直径梯度）、发育时序（后→前髓鞘化，前额叶连接约25岁成熟）、跨胼抑制（TMS-iSP范式、发育与老化轨迹）、胼胝体缺失症（AgCC，1/4000，复杂推理损害+晶体智力保留）、裂脑综合征与意识分裂争议（Pinto 2017 vs Sperry/Gazzaniga）。填补图谱悬空引用 `corpus-callosum`。

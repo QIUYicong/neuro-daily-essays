@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-26
-updated: 2026-09-26
-revision_count: 1
+updated: 2026-09-27
+revision_count: 2
 dimensions: [cellular, brain-region, whole-brain-network, cognition]
 related: [interhemispheric-competition, transcallosal-inhibition, motor-cortex, prefrontal-cortex, agenesis-corpus-callosum, split-brain, anterior-commissure, white-matter]
 prerequisites: [action-potential, myelination, white-matter]
 opens_questions: [Q-cc-01, Q-cc-02, Q-cc-03]
-source_articles: [2026-09-26-corpus-callosum-anatomy-splitbrain]
+source_articles: [2026-09-26-corpus-callosum-anatomy-splitbrain, 2026-09-27-split-brain-unified-consciousness]
 key_sources: ["PMID:25550994/PMC4278150", "PMID:32399946/PMC7305066", "PMID:30691545/PMC7989584", "PMID:17375041"]
 ---
 
@@ -102,7 +102,9 @@ key_sources: ["PMID:25550994/PMC4278150", "PMID:32399946/PMC7305066", "PMID:3069
 ## 修订历史
 
 - 2026-09-26 · 创建 · 填补图谱悬空引用 · 基于《连接两个大脑》一文 · 5篇开放全文 + 3篇摘要 · 初始置信度：高
+- 2026-09-27 · 修订 · 基于《当胼胝体被切断》(#157) · 新增裂脑意识深入证据（Pinto 2017, de Haan 2020/2021 触觉与 fMRI）到 source_articles；更新 Q-cc-01 至深化研究状态
 
 ## 来源文章
 
 - [[2026-09-26-corpus-callosum-anatomy-splitbrain]]
+- [[2026-09-27-split-brain-unified-consciousness]]

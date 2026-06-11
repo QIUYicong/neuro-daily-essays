@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-09-27",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11488,9 +11488,45 @@
         "TMS_iSP",
         "motor_control"
       ]
+    },
+    {
+      "pmid": "31923846",
+      "pmcid": "PMC7061321",
+      "title": "Unified Tactile Detection and Localisation in Split-Brain Patients",
+      "authors_short": "de Haan EHF et al.",
+      "journal": "Cortex",
+      "year": 2020,
+      "first_used": "2026-09-27",
+      "used_in_articles": [
+        "2026-09-27-split-brain-unified-consciousness"
+      ],
+      "aspects_covered": [
+        "split-brain tactile",
+        "cross-hemispheric access",
+        "subcortical pathways",
+        "unified perception"
+      ]
+    },
+    {
+      "pmid": "41053873",
+      "pmcid": "PMC12502178",
+      "title": "Unraveling the mystery of alien hand syndrome",
+      "authors_short": "Moghib K et al.",
+      "journal": "Orphanet Journal of Rare Diseases",
+      "year": 2025,
+      "first_used": "2026-09-27",
+      "used_in_articles": [
+        "2026-09-27-split-brain-unified-consciousness"
+      ],
+      "aspects_covered": [
+        "alien hand syndrome",
+        "agency dissociation",
+        "corpus callosum",
+        "SMA"
+      ]
     }
   ],
-  "total_sources": 691,
+  "total_sources": 693,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -13722,5 +13758,11 @@
       "29283465",
       "21093350"
     ]
-  }
+  },
+  "additions_2026-09-27": [
+    "PMC7305066",
+    "PMC7061321",
+    "PMC8048575",
+    "PMC12502178"
+  ]
 }
