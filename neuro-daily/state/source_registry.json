@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-25",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11260,6 +11260,145 @@
       "journal": "Neuroscientist",
       "first_used": "2026-09-23",
       "open_access": false
+    },
+    {
+      "pmid": "23516306",
+      "pmcid": "PMC3651512",
+      "title": "Shifting Attentional Priorities: Control of Spatial Attention through Hemispheric Competition",
+      "authors": "Szczepanski SM, Kastner S",
+      "journal": "J Neurosci",
+      "year": 2013,
+      "first_used": "2026-09-25",
+      "articles": [
+        "2026-09-25-interhemispheric-competition-corpus-callosum"
+      ],
+      "covered_aspects": [
+        "Kinsbourne竞争模型TMS因果证明",
+        "单侧TMS注意偏移",
+        "双侧无净偏移",
+        "个体差异"
+      ]
+    },
+    {
+      "pmid": "26586822",
+      "pmcid": "PMC4649006",
+      "title": "Structural Organization of the Corpus Callosum Predicts Attentional Shifts after Continuous Theta Burst Stimulation",
+      "authors": "Chechlacz M, Humphreys GW, Sotiropoulos SN, Kennard C, Cazzoli D",
+      "journal": "J Neurosci",
+      "year": 2015,
+      "first_used": "2026-09-25",
+      "articles": [
+        "2026-09-25-interhemispheric-competition-corpus-callosum"
+      ],
+      "covered_aspects": [
+        "后部胼胝体FA与注意偏移预测",
+        "DTI+cTBS联合研究",
+        "双重抑制/兴奋模型"
+      ]
+    },
+    {
+      "pmid": "21677180",
+      "pmcid": null,
+      "title": "Asymmetry of parietal interhemispheric connections in humans",
+      "authors": "Koch G, Cercignani M, Bonnì S et al.",
+      "journal": "J Neurosci",
+      "year": 2011,
+      "first_used": "2026-09-25",
+      "articles": [
+        "2026-09-25-interhemispheric-competition-corpus-callosum"
+      ],
+      "covered_aspects": [
+        "右PPC单向跨胼胝体抑制",
+        "半球间连接不对称性",
+        "忽视的神经生理基础"
+      ],
+      "access_note": "摘要+检索结果；未读全文"
+    },
+    {
+      "pmid": "23110177",
+      "pmcid": "PMC3480503",
+      "title": "Microstructural Damage of the Posterior Corpus Callosum Contributes to the Clinical Severity of Neglect",
+      "authors": "Bozzali M, Mastropasqua C, Cercignani M et al.",
+      "journal": "PLoS ONE",
+      "year": 2012,
+      "first_used": "2026-09-25",
+      "articles": [
+        "2026-09-25-interhemispheric-competition-corpus-callosum"
+      ],
+      "covered_aspects": [
+        "后部胼胝体FA与忽视严重度r=0.91",
+        "结构-功能映射",
+        "DTI临床研究"
+      ]
+    },
+    {
+      "pmid": "20053897",
+      "pmcid": "PMC2809378",
+      "title": "Mechanisms of Spatial Attention Control in Frontal and Parietal Cortex",
+      "authors": "Szczepanski SM, Konen CS, Kastner S",
+      "journal": "J Neurosci",
+      "year": 2010,
+      "first_used": "2026-09-25",
+      "articles": [
+        "2026-09-25-interhemispheric-competition-corpus-callosum"
+      ],
+      "covered_aspects": [
+        "右SPL1独特调制",
+        "前额顶叶不对称性",
+        "左FEF/IPS更强对侧偏向"
+      ]
+    },
+    {
+      "pmid": "35140674",
+      "pmcid": "PMC8818689",
+      "title": "Therapeutic Effects of TMS on Visuospatial Neglect Revealed With Event-Related Potentials",
+      "authors": "Ye X, Xie X, Cao Y, Song W",
+      "journal": "Front Neurol",
+      "year": 2022,
+      "first_used": "2026-09-25",
+      "articles": [
+        "2026-09-25-interhemispheric-competition-corpus-callosum"
+      ],
+      "covered_aspects": [
+        "低频rTMS改善忽视",
+        "P300 ERP恢复证据",
+        "重平衡神经动力学"
+      ]
+    },
+    {
+      "pmid": "20678510",
+      "pmcid": "PMC2956832",
+      "title": "Effects of parietal TMS on somatosensory judgments challenge interhemispheric rivalry accounts",
+      "authors": "Eshel N, Ruff CC, Spitzer B, Blankenburg F, Driver J",
+      "journal": "Neuropsychologia",
+      "year": 2010,
+      "first_used": "2026-09-25",
+      "articles": [
+        "2026-09-25-interhemispheric-competition-corpus-callosum"
+      ],
+      "covered_aspects": [
+        "纯竞争模型挑战",
+        "同侧改善无对侧代价",
+        "兴奋性跨半球机制",
+        "任务依赖性"
+      ]
+    },
+    {
+      "pmid": "21530590",
+      "pmcid": null,
+      "title": "How does the corpus callosum mediate interhemispheric transfer? A review",
+      "authors": "van der Knaap LJ, van der Ham IJM",
+      "journal": "Behav Brain Res",
+      "year": 2011,
+      "first_used": "2026-09-25",
+      "articles": [
+        "2026-09-25-interhemispheric-competition-corpus-callosum"
+      ],
+      "covered_aspects": [
+        "胼胝体抑制vs兴奋综述",
+        "双重机制结论"
+      ],
+      "access_note": "摘要；未读全文"
     }
   ],
   "total_sources": 675,

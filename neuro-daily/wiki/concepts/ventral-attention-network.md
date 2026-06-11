@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-09-23
-updated: 2026-09-24
-revision_count: 2
+updated: 2026-09-25
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
 related: [dorsal-attention-network, tpj-temporoparietal-junction, alpha-oscillations, prefrontal-cortex, spatial-neglect, default-mode-network, norepinephrine-locus-coeruleus, theory-of-mind, communication-through-coherence]
 prerequisites: [dorsal-attention-network, alpha-oscillations, tpj-temporoparietal-junction]
 opens_questions: [Q-van-01, Q-van-02, Q-dan-03]
-source_articles: [2026-09-23-ventral-attention-network-reorienting, 2026-09-24-hemispatial-neglect-attention-imbalance]
-key_sources: ["PMID:11994752", "PMID:18466742", "PMID:21692662", "PMID:23835449"]
+source_articles: [2026-09-23-ventral-attention-network-reorienting, 2026-09-24-hemispatial-neglect-attention-imbalance, 2026-09-25-interhemispheric-competition-corpus-callosum]
+key_sources: ["PMID:11994752", "PMID:18466742", "PMID:21692662", "PMID:23835449", "PMID:23516306", "PMID:21677180"]
 ---
 
 # 腹侧注意网络（Ventral Attention Network, VAN）
@@ -68,6 +68,7 @@ VAN 右侧化的功能性解释（Corbetta et al. 2008）：
 - **双侧监控需求**：目标导向注意（DAN）只需为当前目标分配资源；但 VAN 必须持续监控**整个**感知场，覆盖两侧视野
 - **右半球的弥散连接优势**：右半球具有更大范围的功能连接，与"广域监控"需求更匹配
 - **与左侧 DAN 的不对称互补**：左侧 DAN 主要控制对侧（右侧）视野的主动注意；右侧 VAN 覆盖双侧视野的被动监控
+- **跨胼胝体单向抑制**：右侧 PPC 通过后部胼胝体对左侧 PPC 施加单向短潜伏期抑制（Koch et al. 2011，**PMID:21677180**），反向路径极弱——这使右半球不只拥有"更强"的注意资源，还主动压制对侧，是右半球主导地位的解剖基础（见 [[interhemispheric-competition]]）
 
 ### 神经调质调节：LC-NE 系统
 
@@ -96,6 +97,7 @@ VAN 激活时的 α 动力学变化（EEG/MEG 研究）：
 
 ## 连接
 
+- [[interhemispheric-competition]] — 右半球的跨胼胝体单向抑制使 VAN 右侧化具有不对称的系统调控权
 - [[dorsal-attention-network]] — 功能互补；任务中互抑；VAN 是 DAN 的断路器
 - [[tpj-temporoparietal-junction]] — VAN 的核心感知节点（part-of）
 - [[alpha-oscillations]] — VAN 激活时触发 α 快速重组（目标区域 α 侧向化翻转）
@@ -122,8 +124,10 @@ VAN 激活时的 α 动力学变化（EEG/MEG 研究）：
 
 - 2026-09-23 · 创建 · 基于《大脑的断路器》（#153）文章 · 核心来源：Corbetta & Shulman 2002 (PMID:11994752)、Corbetta et al. 2008 (PMID:18466742，开放全文)、Corbetta & Shulman 2011 (PMID:21692662)、Vossel et al. 2014 (PMID:23835449) · 初始置信度：高
 - 2026-09-24 · Rev2 · 基于《当大脑的一半世界消失》（#154）文章 · 将悬空引用 spatial-neglect-concept 更新为正式节点 spatial-neglect；确认 VAN 损伤→DAN 失衡→空间忽视的机制链；来源：PMID:21692662（开放全文）
+- 2026-09-25 · Rev3 · 基于《半球间竞争》（#155）文章 · 补充右 PPC 跨胼胝体单向抑制机制（Koch 2011, PMID:21677180）到右侧化机制节；新增 [[interhemispheric-competition]] 连接；更新 key_sources
 
 ## 来源文章
 
 - [[2026-09-23-ventral-attention-network-reorienting]]
 - [[2026-09-24-hemispatial-neglect-attention-imbalance]]
+- [[2026-09-25-interhemispheric-competition-corpus-callosum]]

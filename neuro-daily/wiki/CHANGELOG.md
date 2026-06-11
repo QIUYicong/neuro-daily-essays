@@ -3269,3 +3269,38 @@
 - Q-neglect-01（高）：STG vs IPL——忽视核心病灶的解剖争论，影响 tDCS/TMS 治疗靶点精确性
 - Q-neglect-02（中）：棱镜适应的"认知扩散"神经底物——感觉运动可塑性如何通过小脑-顶叶通路进入高级空间认知？
 - Q-neglect-03（中）：病觉缺失（anosognosia）的神经基础——前额叶-岛叶自我监测回路失效的具体机制？
+
+---
+
+## 2026-09-25（文章 #155：半球间竞争——两个大脑如何通过胼胝体争夺注意控制权）
+
+### 新建 wiki 页面（1 页）
+
+- `concepts/interhemispheric-competition.md` — 半球间竞争机制，Rev1：Kinsbourne 对立处理器框架；TMS 因果证明（Szczepanski & Kastner 2013，PMID:23516306，双侧 TMS 无净效果）；右 PPC 单向跨胼胝体抑制优势（Koch 2011，PMID:21677180）；后部胼胝体 FA 与竞争效率及忽视严重程度（Bozzali 2012，r=0.91）；纯竞争模型的挑战（Eshel 2010，PMID:20678510）；临床治疗逻辑（抑制对侧→重平衡）；status: established, confidence: high
+
+### 修订 wiki 页面（3 页）
+
+- `diseases/spatial-neglect.md` rev1→rev2：补充右 PPC 单向跨胼胝体抑制证据（Koch 2011）；更新后部胼胝体 FA 与忽视严重度数据（Bozzali 2012，r=0.91）；将 interhemispheric-competition 从悬空引用更新为正式节点；新增 prerequisites: interhemispheric-competition；key_sources 新增 PMID:23516306, PMID:23110177, PMID:21677180
+- `concepts/ventral-attention-network.md` rev2→rev3：补充跨胼胝体单向抑制到右侧化机制节；新增 [[interhemispheric-competition]] 连接；key_sources 新增 PMID:23516306, PMID:21677180
+- `concepts/dorsal-attention-network.md` rev4→rev5：related 新增 interhemispheric-competition, spatial-neglect；key_sources 新增 PMID:23516306, PMID:20053897；修订历史追加
+
+### 图谱变化
+
+- interhemispheric-competition 节点从"待创建"升级为正式节点（status: established, confidence: high）
+- 新增边：8（interhemispheric-competition↔TPJ mechanism-of；↔alpha-oscillations related；↔SLF related；corpus-callosum→interhemispheric-competition mechanism-of；VAN/DAN→interhemispheric-competition related）
+- 节点总数：302 → 303（+1：interhemispheric-competition 正式化；prism-adaptation 保持待创建）
+- 边总数：1752 → 1760
+
+### 登记矛盾（0 条）
+
+- 纯竞争模型 vs 兴奋性跨半球机制（Eshel 2010）：体现为知识争议，已在 wiki 中如实呈现（竞争模型通常成立，但不完全是零和；任务依赖）；不降低 interhemispheric-competition 整体置信度，因为竞争抑制证据来自多个独立来源
+
+### 新增悬空引用待补
+
+- `corpus-callosum`：被 interhemispheric-competition 和 spatial-neglect 引用，待创建 `wiki/concepts/corpus-callosum.md`（胼胝体结构、区段功能、发育时程、split-brain）
+
+### 新增未解问题（3 条）
+
+- Q-ihc-01（高）：胼胝体跨半球传递净效果（抑制 vs 兴奋）如何随任务/脑区/年龄变化？是否有生物标志物？
+- Q-ihc-02（中）：右半球单向抑制优势的发育起源——天生固定还是可重塑？
+- Q-ihc-03（中）：忽视患者左侧 PPC 过激活：被动去抑制 vs 主动代偿——两种解释有不同的治疗含义

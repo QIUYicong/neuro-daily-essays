@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-09-24
-updated: 2026-09-24
-revision_count: 1
+updated: 2026-09-25
+revision_count: 2
 dimensions: [disease, whole-brain-network, brain-region, behavior, cognition]
 related: [ventral-attention-network, dorsal-attention-network, tpj-temporoparietal-junction, interhemispheric-competition, superior-longitudinal-fasciculus, prism-adaptation, anosognosia]
-prerequisites: [ventral-attention-network, dorsal-attention-network, tpj-temporoparietal-junction]
+prerequisites: [ventral-attention-network, dorsal-attention-network, tpj-temporoparietal-junction, interhemispheric-competition]
 opens_questions: [Q-neglect-01, Q-neglect-02, Q-neglect-03]
-source_articles: [2026-09-24-hemispatial-neglect-attention-imbalance]
-key_sources: ["PMID:21692662", "PMID:35263271", "PMID:27277836", "PMID:9744273", "PMID:33189929", "PMID:36138161"]
+source_articles: [2026-09-24-hemispatial-neglect-attention-imbalance, 2026-09-25-interhemispheric-competition-corpus-callosum]
+key_sources: ["PMID:21692662", "PMID:35263271", "PMID:27277836", "PMID:9744273", "PMID:33189929", "PMID:36138161", "PMID:23516306", "PMID:23110177", "PMID:21677180"]
 ---
 
 # 空间忽视（Hemispatial Neglect / Unilateral Spatial Neglect）
@@ -30,9 +30,9 @@ key_sources: ["PMID:21692662", "PMID:35263271", "PMID:27277836", "PMID:9744273",
 3. **半球竞争失衡**：右侧低活动导致左侧 DAN（左 IPS/FEF）从跨半球抑制中"释放"，产生对右侧空间的过度偏向
 4. **空间偏斜的涌现**：整体注意系统向右倾斜，表现为对左侧感知空间的系统性忽略
 
-**为什么是右半球导致更严重的忽视**：VAN 本身右侧化（因为需要双侧全景监控），右半球损伤直接摧毁非对称分布的 VAN；而左半球损伤只产生较轻的（对右侧的）忽视，因为右 VAN 仍可部分补偿。
+**为什么是右半球导致更严重的忽视**：VAN 本身右侧化（因为需要双侧全景监控），右半球损伤直接摧毁非对称分布的 VAN；而左半球损伤只产生较轻的（对右侧的）忽视，因为右 VAN 仍可部分补偿。此外，Koch et al.（2011，**PMID:21677180**）发现右侧 PPC 对左侧 PPC 具有单向跨胼胝体抑制，而反向通路不存在——右半球不仅本身强大，还主动压制对侧，右侧损伤因此产生"双重失联"（自身失去功能 + 对侧从抑制中释放）。
 
-**白质离断的关键性**：多项连接组研究（Saxena et al. 2022，**PMID:35263271**；Ahsan et al. 2024，**PMID:38115162**）表明白质束离断（尤其 SLF）是比灰质损伤更好的预测因子——这解释了为什么"相对小的灰质病变但广泛的白质离断"可产生严重持久忽视。
+**白质离断的双重作用**：多项连接组研究（Saxena et al. 2022，**PMID:35263271**；Ahsan et al. 2024，**PMID:38115162**）表明白质束离断（尤其 SLF）是比灰质损伤更好的预测因子；后部胼胝体微结构损伤（FA 降低）同样独立预测忽视严重程度（r=0.91，Bozzali et al. 2012，**PMID:23110177**）——胼胝体损伤直接阻断了"重建跨半球平衡"所需的调控通路，是忽视持续性的关键白质因素。
 
 ## 临床表现与分型
 
@@ -103,8 +103,8 @@ key_sources: ["PMID:21692662", "PMID:35263271", "PMID:27277836", "PMID:9744273",
 - [[ventral-attention-network]] — VAN 损伤是忽视的直接原因
 - [[dorsal-attention-network]] — DAN 半球间失衡是空间偏斜的机制
 - [[tpj-temporoparietal-junction]] — TPJ 是 VAN 核心节点，也是忽视最重要的病灶区域之一
-- [[interhemispheric-competition]] — 右侧低活动→左侧过度激活的竞争失衡（悬空引用，待创建）
-- [[prism-adaptation]] — 棱镜适应疗法（悬空引用，待创建 methods/prism-adaptation.md）
+- [[interhemispheric-competition]] — 右 PPC 单向跨胼胝体抑制左 PPC；损伤后抑制丧失→左侧去抑制→注意右漂
+- [[prism-adaptation]] — 棱镜适应疗法（待创建 methods/prism-adaptation.md）
 
 ## 未解问题
 
@@ -115,7 +115,9 @@ key_sources: ["PMID:21692662", "PMID:35263271", "PMID:27277836", "PMID:9744273",
 ## 修订历史
 
 - 2026-09-24 · 创建 · 基于《当大脑的一半世界消失》文章 #154 · 初始置信度：高（机制框架）；中（某些解剖细节和治疗机制）
+- 2026-09-25 · Rev2 · 基于《半球间竞争》文章 #155 · 补充右 PPC 单向跨胼胝体抑制证据（Koch 2011）；更新后部胼胝体 FA 与忽视严重度相关数据（Bozzali 2012，r=0.91）；将 interhemispheric-competition 从悬空引用更新为正式节点；新增 prerequisites: interhemispheric-competition
 
 ## 来源文章
 
 - [[2026-09-24-hemispatial-neglect-attention-imbalance]]
+- [[2026-09-25-interhemispheric-competition-corpus-callosum]]

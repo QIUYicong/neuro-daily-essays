@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-24",
-  "node_count": 302,
-  "edge_count": 1752,
+  "updated": "2026-09-25",
+  "node_count": 303,
+  "edge_count": 1760,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2792,12 +2792,12 @@
     },
     {
       "id": "interhemispheric-competition",
-      "title": "半球间竞争模型",
+      "title": "半球间竞争（Interhemispheric Competition）",
       "domain": "concepts",
       "type": "mechanism",
-      "status": "mainstream",
-      "confidence": "medium",
-      "page": "wiki/concepts/interhemispheric-competition.md [待创建]"
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/interhemispheric-competition.md"
     },
     {
       "id": "prism-adaptation",
@@ -12417,6 +12417,42 @@
       "from": "interhemispheric-competition",
       "to": "ventral-attention-network",
       "type": "related"
+    },
+    {
+      "from": "interhemispheric-competition",
+      "to": "tpj-temporoparietal-junction",
+      "type": "mechanism-of",
+      "note": "TPJ 是右 PPC 的核心节点，承载跨胼胝体单向抑制功能（Koch 2011）"
+    },
+    {
+      "from": "interhemispheric-competition",
+      "to": "alpha-oscillations",
+      "type": "related",
+      "note": "α 侧向化是竞争平衡状态的振荡标志"
+    },
+    {
+      "from": "interhemispheric-competition",
+      "to": "superior-longitudinal-fasciculus",
+      "type": "related",
+      "note": "SLF 提供半球内注意通路，与胼胝体跨半球路径协同"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "interhemispheric-competition",
+      "type": "mechanism-of",
+      "note": "后部胼胝体（压部）是跨半球竞争抑制的物理基础（Bozzali 2012）"
+    },
+    {
+      "from": "ventral-attention-network",
+      "to": "interhemispheric-competition",
+      "type": "related",
+      "note": "VAN 右侧化是半球间竞争不对称性的功能来源"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "interhemispheric-competition",
+      "type": "related",
+      "note": "DAN 双侧分支参与半球间竞争；右 SPL1 的独特调制"
     }
   ],
   "dangling_references": [
@@ -12643,6 +12679,14 @@
         "gamma-oscillations"
       ],
       "note": "高频共振波专页（~90 Hz，~100 ms）；Garrett & Halgren 2024 在语言绑定中发现；与 SWR（海马）的机制同源性；与经典 40 Hz 伽马的关系；待建页面"
+    },
+    {
+      "slug": "corpus-callosum",
+      "referenced_by": [
+        "interhemispheric-competition",
+        "spatial-neglect"
+      ],
+      "note": "胼胝体专页：人脑最大的白质束（~2 亿轴突），连接左右半球同源皮层区域；区段功能特异性（前部膝部抑制性/后部压部兴奋性）；FA 值预测半球间竞争效率（Chechlacz 2015）和忽视严重程度（Bozzali 2012，r=0.91）；发育时程（青春期后期完全髓鞘化）；Split-brain 患者的认知解离；待建 wiki/concepts/corpus-callosum.md"
     },
     {
       "slug": "psd-95",

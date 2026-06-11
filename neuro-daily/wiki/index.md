@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-24（**#154**·空间忽视——新建diseases/spatial-neglect（VAN损伤→DAN失衡→注意网络失衡综合征；四维：感知/运动/表征/病觉缺失；棱镜适应疗法；网络归一化恢复机制）；修订ventral-attention-network rev2（悬空引用spatial-neglect-concept→正式节点spatial-neglect）、tpj-temporoparietal-junction rev3（确认TPJ/STG是忽视最重要病灶节点）；核心认识：空间忽视是"疾病作为窗口"理解注意网络平衡机制的最直接证据）· 主题页总数：**288**（新建1页：spatial-neglect；修订2页：VAN rev2、TPJ rev3；图谱 310 节点，1805 边）
+> 最后更新：2026-09-25（**#155**·半球间竞争——新建concepts/interhemispheric-competition（填补悬空引用；Kinsbourne对立处理器框架；右PPC单向跨胼胝体抑制优势；TMS因果证明；后部胼胝体FA r=0.91；临床治疗逻辑）；修订spatial-neglect rev2（补充胼胝体机制细节和Koch 2011证据）、VAN rev3（补充跨胼胝体单向抑制说明）、DAN rev5（新增interhemispheric-competition关联）；新增悬空引用corpus-callosum待补）· 主题页总数：**289**（新建1页：interhemispheric-competition；修订3页：spatial-neglect rev2、VAN rev3、DAN rev5；图谱 303 节点，1760 边）
 
 ---
 
@@ -190,6 +190,7 @@
 
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）；**rev4 新增**：DAN-VAN 断路器模型（VAN 正常任务被 DAN 抑制，意外时 VAN 断路并重定向，2026-09-23）**[NEW 2026-07-01]**
 - 🟢 [腹侧注意网络（VAN）](concepts/ventral-attention-network.md) — 右侧 TPJ+VFC；显著性驱动注意；"断路器"打断 DAN 聚焦；右侧化=双侧视野全景监控；P3a ERP 标志；LC-NE 调节阈值；空间忽视联系（右侧损坏→左侧半侧空间忽视）；Corbetta & Shulman 2002/2008 框架 **[NEW 2026-09-23 #153]**
+- 🟢 [半球间竞争（Interhemispheric Competition）](concepts/interhemispheric-competition.md) — Kinsbourne 对立处理器框架：两侧半球各自产生对侧注意偏向，通过后部胼胝体互相抑制；右 PPC 对左 PPC 的单向跨胼胝体抑制（Koch 2011）；TMS 双侧同时刺激无净偏移（Szczepanski & Kastner 2013）；后部胼胝体 FA 预测忽视严重度（r=0.91）；治疗逻辑：抑制对侧→重平衡 **[NEW 2026-09-25 #155]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
 - 🔵 [Communication Through Coherence（CTC）](concepts/communication-through-coherence.md) — 振荡相位对齐创造通信窗口；γ 前馈（感觉内容）/α-β 反馈（预测控制）/θ 采样节律；FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009 开放全文）；visual vs movement FEF 神经元解离（Gregoriou 2012）；Fries 2015 综述框架（PMC4605134）**[NEW 2026-08-31 #131]**
 - 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性 **[NEW 2026-06-28]**（填补多页悬空引用）

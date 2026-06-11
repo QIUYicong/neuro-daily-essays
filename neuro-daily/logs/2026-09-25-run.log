@@ -1,0 +1,154 @@
+# 运行日志 2026-09-25
+
+**文章编号**：#155
+**实际运行日期**：2026-06-11（UTC+8）
+**分支**：main
+**状态**：✅ 完成
+
+---
+
+## 选题过程
+
+**参考信号**：
+- `topic_ledger.json` 最后条目 (#154)：空间忽视，suggested: interhemispheric-competition / prism-adaptation / DMN-revision
+- `wiki/CHANGELOG.md`（2026-09-24）：新增悬空引用 interhemispheric-competition（被 spatial-neglect 和 VAN 引用）
+- `_graph.json`：interhemispheric-competition 节点状态为"待创建"
+- `unresolved_questions.md`：Q-neglect-01~03 均指向注意系统机制
+
+**选题决策**：选择 `interhemispheric-competition`（半球间竞争），原因：
+1. 填补 #154 产生的悬空引用（最高优先级：ROUTINE 步骤 B.3 填补悬空引用）
+2. topic_ledger 第一建议
+3. 自然延伸"机制"维度：先理解"VAN/DAN 失衡是怎么回事"（#153），再理解"为什么失衡会那么严重"（#154），再理解"失衡的物理基础是什么"（#155）
+4. 层级从 disease 切换回 whole-brain-network（防连续同层级）
+
+---
+
+## 检索记录
+
+**搜索策略**：
+- 查询 1：`interhemispheric competition spatial attention corpus callosum inhibition review PubMed` → PMC3651512, PMC4649006, PMID:16211466, PMID:21530590
+  - 采用：PMC3651512（Szczepanski & Kastner 2013，核心 TMS 因果实验）
+  - 采用：PMC4649006（Chechlacz et al. 2015，DTI+cTBS）
+  - 采用：PMID:21530590（van der Knaap 2011 综述，抑制 vs 兴奋）
+- 查询 2：`Kinsbourne hemispheric rivalry spatial attention model transcallosal inhibition neglect` → PMC3651512, PMC6892765, PMC2809378, PMID:23574586
+  - 采用：PMC2809378（Szczepanski et al. 2010，前额顶叶不对称性）
+  - 采用：PMID:21677180（Koch et al. 2011，右 PPC 单向抑制）
+- 查询 3：`interhemispheric inhibition TMS spatial neglect recovery rebalancing PMC` → PMC8818689, PMC8764600, PMC7688780, PMC2956832
+  - 采用：PMC8818689（Ye et al. 2022，rTMS+ERP）
+  - 采用：PMC7688780（Zhang et al. 2020，fMRI 综述）
+  - 采用：PMC2956832（Eshel et al. 2010，挑战纯竞争模型）
+- 查询 4：`corpus callosum interhemispheric inhibition excitatory debate DAN asymmetry neglect review PMC` → PMC3480503（Bozzali 2012）
+  - 采用：PMC3480503（Bozzali et al. 2012，后部 CC FA r=0.91）
+
+**候选数**：22 个检索结果，采用 9 个
+**排除原因**：
+- PMC8764600（theta-burst TMS 系统综述）：治疗为主，机制论述不足；部分内容已被 Ye 2022 覆盖
+- PMC6892765（非侵入性脑刺激综述）：reCAPTCHA 阻断，改用其他来源替代
+- PMID:23574586（右半球额叶在注意控制的优势）：相关但内容可通过已采用来源覆盖
+
+**来源汇总**：
+- 开放全文（已读）：7篇（PMC3651512, PMC4649006, PMC3480503, PMC2809378, PMC8818689, PMC7688780, PMC2956832）
+- 仅摘要：2篇（PMID:21677180 Koch 2011 J Neurosci；PMID:21530590 van der Knaap 2011）
+
+---
+
+## 固结 wiki 页面
+
+**新建（1 页）**：
+- `wiki/concepts/interhemispheric-competition.md` — 半球间竞争机制，Rev1
+  - Kinsbourne 对立处理器框架（多重独立 TMS 证据）
+  - 右 PPC 单向跨胼胝体抑制（Koch 2011）
+  - 后部胼胝体 FA 预测竞争效率和忽视严重度（Bozzali 2012，r=0.91）
+  - 纯竞争模型的挑战（Eshel 2010）
+  - 临床治疗逻辑
+  - status: established / confidence: high
+
+**修订（3 页）**：
+- `wiki/diseases/spatial-neglect.md` Rev1→Rev2：
+  - 补充右 PPC 单向跨胼胝体抑制证据（Koch 2011）
+  - 更新后部胼胝体 FA 与忽视严重度相关数据（Bozzali 2012，r=0.91）
+  - 将 interhemispheric-competition 从悬空引用更新为正式节点
+  - 新增 prerequisites: interhemispheric-competition
+- `wiki/concepts/ventral-attention-network.md` Rev2→Rev3：
+  - 补充跨胼胝体单向抑制到右侧化机制节
+  - 新增 [[interhemispheric-competition]] 连接
+  - key_sources 新增 PMID:23516306, PMID:21677180
+- `wiki/concepts/dorsal-attention-network.md` Rev4→Rev5：
+  - related 新增 interhemispheric-competition, spatial-neglect
+  - key_sources 新增 PMID:23516306, PMID:20053897
+  - 修订历史追加
+
+---
+
+## 矛盾检查
+
+- **竞争模型 vs 兴奋性机制（Eshel 2010 vs Koch 2011 等）**：
+  - Koch 2011 及 Szczepanski & Kastner 2013 强力支持竞争性抑制（多个独立实验室，多个来源）
+  - Eshel 2010 的体感任务中发现同侧改善无对侧代价，违反纯零和预测
+  - 这不是真正的事实矛盾，而是模型边界条件的问题：竞争抑制在视觉空间注意中有充分支持，在体感检测中可能有不同权重
+  - 处理方式：在 wiki 正文"争议"节如实呈现两种机制，标注任务依赖性；不降低 interhemispheric-competition 的整体置信度（主要证据体仍支持 established/high）
+  - 无新矛盾登记到 contested_claims.json（已有证据是互补的边界条件说明，非直接事实冲突）
+
+---
+
+## 图谱变化
+
+- interhemispheric-competition 节点从"待创建"升级为正式节点（status: established → high）
+- 新增边：8（↔TPJ mechanism-of；↔alpha-oscillations related；↔SLF related；corpus-callosum→IHC mechanism-of；VAN/DAN↔IHC related x2）
+- 节点总数：302 → 303
+- 边总数：1752 → 1760
+
+---
+
+## 状态文件更新
+
+- `topic_ledger.json`：新增 article #155 条目（138 条目，total_articles=155）
+- `unresolved_questions.md`：新增 Q-ihc-01（高）、Q-ihc-02（中）、Q-ihc-03（中）
+- `source_registry.json`：新增 8 条来源（总计 686 条）
+- `monthly_synthesis.md`：更新 9 月进度（第 25 篇）
+- `maturity_index.json`：新增 interhemispheric-competition（established/high）
+- `wiki/index.md`：新增 interhemispheric-competition 条目；更新总页数至 289
+- `wiki/CHANGELOG.md`：追加今日节
+- `wiki/_graph.json`：updated→2026-09-25；node_count→303；edge_count→1760；IHC 节点升级
+
+---
+
+## Git 操作
+
+**分支**：main
+**commit message**：Add neuro daily article + wiki consolidation for 2026-09-25
+**push**：git push origin main
+**commit hash**：（见后续更新）
+**push 状态**：（见后续更新）
+
+---
+
+## 失败与限制
+
+- PMID:21677180（Koch 2011 J Neurosci）：付费墙，仅读摘要 + 检索结果提取；关键主张（右 PPC 单向抑制）来自摘要，标注为"摘要读取"
+- PMID:21530590（van der Knaap 2011）：付费墙，仅读摘要；综述结论来自摘要
+- PMC6892765（Frontiers Neurology 综述）：reCAPTCHA 阻断；通过其他来源（Zhang 2020）替代覆盖
+
+---
+
+## 自检结果
+
+**真实性** ✅
+- 所有 wiki 新主张均有来源（PMID/PMCID）
+- 区分了核心机制（高可信，TMS 因果，多实验室）/ 结构预测（中-高，r=0.91 但样本量未知）/ 挑战证据（中，单一实验室，特定体感范式）/ 临床应用（中，小样本治疗研究）
+- 未将 Koch 2011（仅摘要）当成定论；已明确标注"摘要"
+- 未将 Eshel 2010 的单一实验推广到"竞争模型整体不成立"
+
+**一致性** ✅
+- 新内容与已有 VAN、DAN、spatial-neglect 页面内容一致
+- interhemispheric-competition 节点从待创建升级为正式节点，悬空引用已消除
+- 被修订页面的 updated/revision_count/修订历史均同步更新
+- _graph.json 悬空引用新增 corpus-callosum → 已记录在 CHANGELOG
+
+**可导航** ✅
+- index.md 反映了新增 interhemispheric-competition 页面（第 289 页）
+- CHANGELOG.md 记录今日所有变更
+- 新 interhemispheric-competition 页面 related/prerequisites 均已填写（related ≥ 7，prerequisites = 2）
+
+**情景层** ✅
+- articles/notes/sources/logs 四文件全部创建（append-only，未修改旧文件）

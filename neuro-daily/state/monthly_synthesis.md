@@ -1136,3 +1136,7 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 **#154（2026-09-24）**：当大脑的一半世界消失：空间忽视的网络失衡与重建之路
 
 填补 #153 产生的悬空引用 spatial-neglect-concept，完成注意系统章节的"疾病窗口"环节。空间忽视不是感觉盲区，而是 VAN 损伤后全脑网络失衡的综合征（Corbetta & Shulman 2011）：右侧腹侧额顶颞网络（TPJ/STG/IPL/VFC+SLF）被摧毁→右半球整体低活动→左侧 DAN 从跨半球抑制中释放→注意系统向右偏斜。四维崩塌：感知忽视（外部空间）、运动忽视、表征忽视（Bisiach 想象实验）、病觉缺失。棱镜适应疗法（Rossetti 1998）经由小脑-顶叶可塑性重新校准偏斜世界模型。恢复依赖网络功能连接归一化（Ramsey 2016，纵向77名患者）而非结构修复。**新建**：diseases/spatial-neglect（Rev1，高置信度）。**修订**：VAN rev2（悬空→正式节点）、TPJ rev3（忽视病灶角色）。**图谱**：310节点，1805边。**层级**：disease + whole-brain-network + brain-region + cognition。**来源**：6篇开放全文（PMID:21692662等）。**新增未解**：Q-neglect-01~03（解剖争论/棱镜扩散机制/病觉缺失）。
+
+**#155（2026-09-25）**：半球间竞争：两个大脑如何通过胼胝体争夺注意控制权
+
+填补 #154 产生的悬空引用 interhemispheric-competition，深入揭示空间忽视机制链中的关键环节。Kinsbourne 1977 的对立处理器假说在 21 世纪获得精确因果验证（Szczepanski & Kastner 2013）：左右 IPS 各自产生对侧注意偏向，通过后部胼胝体互相制衡；双侧同时抑制无净偏移——竞争的数学证明。核心不对称性（Koch et al. 2011）：右 PPC 对左 PPC 有单向短潜伏期跨胼胝体抑制，反向路径不存在——这是右半球"主导地位"的神经生理学基础，也解释了为什么右半球损伤产生比左半球损伤严重得多的注意失衡。结构-功能映射（Bozzali 2012）：后部胼胝体 FA 与忽视严重程度 r=0.91——胼胝体白质质量直接决定竞争调控效率，也预测 TMS 治疗响应。治疗逻辑：抑制对侧（左侧）半球→重建平衡，已有 ERP 证据（Ye 2022）。挑战：Eshel 2010 提示纯竞争模型不完整（存在兴奋性跨半球通路），任务依赖。**新建**：concepts/interhemispheric-competition（Rev1，established/high，填补悬空引用）。**修订**：spatial-neglect rev2、VAN rev3、DAN rev5。**图谱**：303节点（interhemispheric-competition正式化），1760边。**层级**：whole-brain-network + brain-region + cognition。**来源**：7篇开放全文（PMID:23516306等）。**新增未解**：Q-ihc-01~03（胼胝体净效果/发育起源/被动去抑制vs主动代偿）。**新悬空**：corpus-callosum。

@@ -270,7 +270,7 @@
       "source_article": "2026-09-24-hemispatial-neglect-attention-imbalance"
     }
   ],
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-25",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -419,5 +419,15 @@
     "change_reason": "新建（2026-09-13 #143）：γ-PV 假说是当前主流认识，死后脑和临床 EEG 证据高度一致；NMDAR→PV 机制中直接/间接争议（Gonzalez-Burgos 2012 约束）导致 confidence=medium；GluN2A KO（Hosseini 2025）为单团队 2025 年数据，待独立重复",
     "previous_status": null,
     "source_article": "2026-09-13-pv-gamma-schizophrenia-cognition"
+  },
+  "interhemispheric-competition": {
+    "slug": "interhemispheric-competition",
+    "title": "半球间竞争（Interhemispheric Competition）",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-25",
+    "change_reason": "新建（2026-09-25 #155）：Kinsbourne对立处理器框架有多个独立TMS因果实验支持（Szczepanski & Kastner 2013，双侧无净偏移）；右PPC单向抑制有因果实验（Koch 2011，PMID:21677180）；后部胼胝体FA与忽视严重度r=0.91（Bozzali 2012）——多独立证据线→established/high；Eshel 2010挑战提示竞争非纯零和但不推翻核心框架",
+    "previous_status": "pending（悬空引用）",
+    "source_article": "2026-09-25-interhemispheric-competition-corpus-callosum"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-24",
-  "total_articles": 154,
+  "last_updated": "2026-09-25",
+  "total_articles": 155,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10186,6 +10186,60 @@
         "interhemispheric-competition: 半球间竞争模型的完整机制（经胼胝体的跨半球抑制；DAN双侧对称性背后的不对称调节；模型的发育意义）——创建concepts/interhemispheric-competition.md",
         "ADHD-attention-dysregulation: ADHD作为VAN-DAN调节失衡的另一个病理窗口（注意捕获过度/目标聚焦不稳定/DA/NE失衡）——diseases/adhd.md",
         "default-mode-network-revision: DMN与注意网络的动态切换——TPJ双归属（DMN和VAN）的功能意义；自我参照与注意的张力；更新wiki/concepts/default-mode-network.md"
+      ]
+    },
+    {
+      "article_number": 155,
+      "date": "2026-09-25",
+      "actual_run_date": "2026-06-11",
+      "title": "半球间竞争：两个大脑如何通过胼胝体争夺注意控制权",
+      "slug": "interhemispheric-competition-corpus-callosum",
+      "core_question": "两个半球如何通过后部胼胝体实现互相调控？右半球的单向抑制优势从何而来？为什么右半球损伤会如此系统性地破坏空间注意平衡？",
+      "layer": "whole-brain-network",
+      "topic_tags": [
+        "interhemispheric-competition",
+        "Kinsbourne-model",
+        "opponent-processor",
+        "corpus-callosum",
+        "posterior-callosum",
+        "transcallosal-inhibition",
+        "right-hemisphere-dominance",
+        "TMS-attention",
+        "Koch-PPC-asymmetry",
+        "Bozzali-FA-neglect",
+        "Szczepanski-Kastner",
+        "spatial-attention-balance",
+        "hemispatial-neglect-mechanism",
+        "rTMS-rehabilitation"
+      ],
+      "main_sources": [
+        "PMID:23516306 / PMC3651512 (Szczepanski & Kastner 2013 J Neurosci, open full text read)",
+        "PMID:26586822 / PMC4649006 (Chechlacz et al. 2015 J Neurosci, open full text read)",
+        "PMID:21677180 (Koch et al. 2011 J Neurosci, abstract only)",
+        "PMID:23110177 / PMC3480503 (Bozzali et al. 2012 PLoS ONE, open full text read)",
+        "PMID:20053897 / PMC2809378 (Szczepanski et al. 2010 J Neurosci, open full text read)",
+        "PMID:35140674 / PMC8818689 (Ye et al. 2022 Front Neurol, open full text read)",
+        "PMID:33281698 / PMC7688780 (Zhang et al. 2020 Front Neurol, open full text read)",
+        "PMID:20678510 / PMC2956832 (Eshel et al. 2010 Neuropsychologia, open full text read)",
+        "PMID:21530590 (van der Knaap & van der Ham 2011 Behav Brain Res, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-ihc-01",
+        "Q-ihc-02",
+        "Q-ihc-03"
+      ],
+      "wiki_created": [
+        "interhemispheric-competition"
+      ],
+      "wiki_revised": [
+        "spatial-neglect",
+        "ventral-attention-network",
+        "dorsal-attention-network"
+      ],
+      "next_suggested_topics": [
+        "corpus-callosum: 胼胝体结构与功能完整页面（区段特异性、发育髓鞘化时程、split-brain认知解离、DTI临床应用）——填补新悬空引用",
+        "prism-adaptation: 棱镜适应疗法机制（小脑-顶叶可塑性、后效认知扩散、临床试验设计）——填补 spatial-neglect 悬空引用",
+        "prefrontal-working-memory-alpha: α振荡在前额叶工作记忆中的角色（与海马θ的跨区耦合；从注意层切换到工作记忆层——课程脊柱 ch.5 认知控制）"
       ]
     }
   ],
