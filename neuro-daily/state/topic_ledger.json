@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-28",
-  "total_articles": 158,
+  "last_updated": "2026-09-29",
+  "total_articles": 159,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10464,6 +10464,83 @@
         "anterior-commissure: 前连合专页（AgCC中的代偿；嗅觉/颞叶前端连接；胼胝体 vs 前连合的功能分工）——继续填补悬空引用，从意识系列自然转入解剖连接系列",
         "figure-ground-segregation: 图像-背景分离作为独立概念页（Gestalt传统；Lamme V1信号；反馈机制；与注意的解离；适用范围从视觉到其他模态）——从今日RPT主题延伸出来的核心概念",
         "no-report-paradigm: 无报告范式方法论页（Koch-Tsuchiya-Lamme 2015；双目竞争；SSVEP；NCC研究的方法论革命）——连接RPT到更广泛的NCC实验方法"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "real_date": "2026-06-11",
+      "article_number": 159,
+      "title": "当意识被计算：整合信息 Φ 的 NP-Hard 困境、整合-放电网络的新实验，以及扰动复杂性指数的临床十年",
+      "slug": "phi-computation-pci-consciousness-measurement",
+      "filename": "2026-09-29-phi-computation-pci-consciousness-measurement.md",
+      "article_type": "regular",
+      "core_question": "Φ（整合信息量）的 NP-hard 计算困境能否被近似克服？新的计算神经科学实验（Danilczuk 2026）和宏观 fMRI 方法（Onoda 2025）如何推进 IIT 的实验验证？PCI 在意识障碍、rTMS 治疗和阿尔茨海默病中的十年临床扩展说明了什么？临界动力学（Maschke 2024）和非平衡有效连接（Stikvoort 2025）能否替代 Φ 解释 PCI？",
+      "layer": ["molecular", "methods", "whole-brain-network", "disease"],
+      "curriculum_track": "8. 意识与自我（意识系列之四：从理论到测量——IIT 的计算障碍与 PCI 的临床实践）",
+      "topic_tags": [
+        "phi",
+        "integrated information theory",
+        "IIT 4.0",
+        "NP-hard",
+        "perturbational complexity index",
+        "PCI",
+        "PCIst",
+        "TMS-EEG",
+        "Lempel-Ziv",
+        "integrate-and-fire network",
+        "recurrent connections",
+        "macro phi",
+        "fMRI",
+        "anesthesia",
+        "NREM sleep",
+        "disorders of consciousness",
+        "DOC",
+        "rTMS",
+        "MCS",
+        "Alzheimer's disease",
+        "critical dynamics",
+        "nonequilibrium dynamics",
+        "effective connectivity",
+        "LLM",
+        "artificial intelligence"
+      ],
+      "main_sources": [
+        "PMID:41801929 (Danilczuk et al. 2026, PLoS Comput Biol, open full text read)",
+        "PMID:40901488 (Onoda et al. 2025, Neurosci Conscious, open full text read)",
+        "PMID:39103539 (Maschke et al. 2024, Neurosci Conscious, open full text read)",
+        "PMID:40478900 (Stikvoort et al. 2025, open full text read)",
+        "PMID:39300529 (Xu et al. 2024, J Neuroeng Rehabil, open full text read)",
+        "PMID:41574278 (Hagan et al. 2026, open full text read)",
+        "PMID:42090748 (Fecchio et al. 2026, 待确认 open access)",
+        "PMID:41331515 (Shin et al. 2025, 待确认 open access)",
+        "PMID:19098144 (Tononi 2008, IIT 2.0, abstract only)",
+        "PMID:27225071 (Tononi et al. 2016, IIT 3.0, abstract only)",
+        "PMID:23946194 (Casali et al. 2013, PCI original, abstract only)",
+        "PMID:40307561/PMC12137136 (COGITATE Consortium 2025, open full text read)"
+      ],
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/phi-measure.md (rev1→rev2): 新增 Danilczuk 2026（IF 网络 Φ：递归提升、噪声降低、时间常数扩大）；Onoda 2025（宏观 fMRI Φ）；IIT 4.0/ΦID；AI Φ 分析（Shin 2025、Aaronson XOR 批评）；扩展近似方法表；新增 Q-iit-06",
+        "wiki/methods/perturbational-complexity-index.md (rev1→rev2): 新增 Maschke 2024（临界动力学替代解释）；Stikvoort 2025（非平衡动力学框架）；Xu 2024（rTMS RCT，PCIst 预测疗效，35%响应率）；Hagan 2026（AD PCIst：20.1 vs 28.2）；Fecchio 2026（ICU）；PCI vs Φ 比较表；新增 Q-pci-01/02/03",
+        "wiki/theories/integrated-information-theory.md (rev5→rev6): 新增 IIT 4.0（ΦID）；Onoda 2025（宏观 Φ 支持意识水平预测）；区分 level prediction（Onoda 支持）vs mechanism prediction（COGITATE 否定）；新增 Q-iit-06；新增 Danilczuk 2026（IF 网络 Φ）"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": ["C-2026-05-31-01"],
+      "unresolved_questions": [
+        "Q-pci-01",
+        "Q-pci-02",
+        "Q-pci-03",
+        "Q-iit-06"
+      ],
+      "dangling_references_filled": [],
+      "new_dangling_references": [
+        "critical-dynamics",
+        "alzheimers-disease"
+      ],
+      "next_suggested_topics": [
+        "anterior-commissure: 前连合专页（AgCC 中的代偿；嗅觉/颞叶前端连接；胼胝体 vs 前连合的功能分工）——持续填补 agenesis-corpus-callosum 悬空引用",
+        "critical-dynamics: 临界动力学专页（神经皮层二阶相变；幂律衰减；最大动态范围；临界性与意识/癫痫/睡眠的关系）——填补今日新产生的悬空引用",
+        "no-report-paradigm: 无报告范式方法论页（Koch-Tsuchiya-Lamme 2015；双目竞争；SSVEP；NCC研究的方法论革命）——连接 RPT/IIT/NCC 到实验方法"
       ]
     }
   ],

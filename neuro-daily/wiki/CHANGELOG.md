@@ -4,6 +4,42 @@
 
 ---
 
+## 2026-09-29（文章 #159：当意识被计算——整合信息 Φ 的 NP-Hard 困境、整合-放电网络的新实验，以及扰动复杂性指数的临床十年）
+
+### 修订 wiki 页面（3 页，无新建）
+
+- `concepts/phi-measure.md` rev1→rev2：新增 IIT 4.0 版本（ΦID 近似框架）；新增 Danilczuk 2026（IF 网络 Φ：递归提升、噪声降低、时间常数扩大、规模扩大）；新增 Onoda 2025（宏观 fMRI Φ，5网络，麻醉/NREM 下降，REM 不变）；新增 Shin 2025 AI Φ 分析（LLM 前馈 Φ≈0）和 Aaronson XOR 批评；扩展近似方法表（ΦID/pyphi/平均场/宏观Φ）；新增证据行（Danilczuk 2026、Onoda 2025、Shin 2025）；新增 Q-iit-06（宏观 vs 微观 Φ 关系）；related 增加 recurrent-processing-theory、critical-dynamics
+- `methods/perturbational-complexity-index.md` rev1→rev2：新增 Maschke 2024（临界动力学作为 PCI 替代机制解释：皮层距相变临界点越近，响应越复杂）；新增 Stikvoort 2025（非平衡有效连接框架：有效连接非对称性驱动传播复杂性）；新增 Xu 2024（rTMS RCT，N=40，35%响应者，PCIst 预测疗效，6月随访）；新增 Hagan 2026（AD PCIst：M=20.1 vs 对照 M=28.2，与 MMSE 相关）；新增 Fecchio 2026（ICU 应用）；新增 PCI vs Φ vs 宏观Φ 三方比较表；新增 Q-pci-01/02/03；related 增加 critical-dynamics、default-mode-network、neural-correlates-of-consciousness
+- `theories/integrated-information-theory.md` rev5→rev6：增加 IIT 4.0（ΦID，ΦID 近似操作化排他性公理）；新增 Onoda 2025（宏观 Φ 随麻醉/NREM 显著下降，支持 IIT 意识水平预测）；新增区分"意识水平预测（Onoda 支持）"vs"机制预测（COGITATE 否定）"；新增 Danilczuk 2026（IF 网络：递归提升 Φ）；新增证据行（Onoda 2025 宏观 Φ，Danilczuk 2026 递归 Φ）；新增 Q-iit-06；source_articles 增加 2026-09-29-phi-computation-pci-consciousness-measurement；key_sources 增加 PMID:40901488、PMID:41801929
+
+### 矛盾条目更新（1 条）
+
+- C-2026-05-31-01（IIT 后方皮层同步 vs COGITATE）：新增 2026-09-29 证据更新——Onoda 2025 宏观 Φ 证据支持 IIT 的"意识水平预测"（Φ 随麻醉下降），但不能否定 COGITATE 的"机制预测失败"（gamma 同步缺失）。关键新维度：level prediction（宏观 Φ 支持）vs mechanism prediction（微观 gamma 同步否定）属于不同层次，不直接矛盾。裁决仍 open，但证据图景更丰富。
+
+### 图谱变化
+
+- 节点数：316（无变化；critical-dynamics 记录为悬空引用，未建正式节点）
+- 边变化：phi-measure 和 perturbational-complexity-index 的 related 字段各新增 critical-dynamics（待正式化）
+- 受更新节点（3个）：phi-measure（rev1→rev2）、perturbational-complexity-index（rev1→rev2）、integrated-information-theory（rev5→rev6）
+
+### 登记矛盾（0 条新增）
+
+- 无新矛盾登记（Onoda 2025 宏观 Φ 与 COGITATE 微观否定，属于不同实验层次，不构成新矛盾；已在 C-2026-05-31-01 的证据更新中记录为"层次区分"）
+
+### 新增悬空引用待补
+
+- `critical-dynamics`：被 phi-measure 和 perturbational-complexity-index 的 related 字段引用；待创建 `wiki/concepts/critical-dynamics.md`（临界动力学：二阶相变、幂律、大脑临界性假说、与意识/癫痫的关系）
+- `alzheimers-disease`：被 perturbational-complexity-index 的 related 字段引用（Hagan 2026 AD 应用）；若已有 diseases/alzheimers.md 则补充相关；否则待创建
+
+### 新增未解问题（4 条）
+
+- Q-pci-01（高）：PCI 究竟测量什么——Φ 代理、临界动力学，还是非平衡有效连接？三种理论解释之间能否设计实验区分？
+- Q-pci-02（高）：PCIst 作为 rTMS 疗效预测指标的最优切割点和临床价值，能否在 N>200 的 RCT 中复现？
+- Q-pci-03（中）：AD 患者 PCIst 下降能否先于认知症状出现？与淀粉样蛋白 PET 的相关性如何？MCI 阶段是否已可检测？
+- Q-iit-06（高）：宏观 Φ（fMRI 网络层面）与微观 Φ（神经元层面）是否测量同一现象？宏观支持（Onoda 2025）能否为 IIT 提供充分验证？
+
+---
+
 ## 2026-09-28（文章 #158：前馈与递归——Victor Lamme 的递归处理理论如何把意识锚定在视觉皮层的反馈回路中）
 
 **今日主题：** 递归处理理论（RPT）——前馈扫描 vs 递归处理的两种视觉模式；V1 图像-背景分离信号作为 RPT 核心神经标记；麻醉/掩蔽实验证据；四阶段视觉意识模型；RPT vs GWT vs IIT 三方比较；无报告范式方法论；Allen et al. 2020 的 TMS 挑战；"缺失要素"（NMDA+网络可塑性）。填补图谱悬空引用 `recurrent-processing-theory`（在 2026-09-27 CHANGELOG 中已标记为待建）。

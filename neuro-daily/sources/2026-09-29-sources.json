@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-29",
+  "article": "2026-09-29-phi-computation-pci-consciousness-measurement",
+  "article_number": 159,
+  "sources": [
+    {
+      "id": "src-159-01",
+      "pmid": "41801929",
+      "citation": "Danilczuk M, et al. (2026). Integrated information in integrate-and-fire neural networks. PLoS Comput Biol.",
+      "access": "open_full_text",
+      "used_for": "Φ 在 IF 网络中的影响因素：递归连接提升 Φ；噪声降低 Φ；时间常数扩大 Φ；网络规模与 Φ 的关系",
+      "key_data": "递归连接 > 前馈连接（Φ）；纯前馈 Φ ≈ 0；噪声单调降低 Φ；τ_m 增大 → Φ 增大"
+    },
+    {
+      "id": "src-159-02",
+      "pmid": "40901488",
+      "citation": "Onoda K, et al. (2025). Macroscopic integrated information during human consciousness. Neurosci Conscious.",
+      "access": "open_full_text",
+      "used_for": "首次将 IIT 4.0 ΦID 框架应用于人类 7T fMRI；宏观 Φ 随麻醉和 NREM 睡眠显著下降",
+      "key_data": "异丙酚全麻 → 宏观 Φ 下降；NREM → 宏观 Φ 下降；REM vs 清醒 → 无显著差异"
+    },
+    {
+      "id": "src-159-03",
+      "pmid": "39103539",
+      "citation": "Maschke C, et al. (2024). Criticality as a unifying explanation for PCI. Neurosci Conscious.",
+      "access": "open_full_text",
+      "used_for": "临界动力学作为 PCI 的替代机制解释；皮层临界性与意识状态的关系",
+      "key_data": "自发 EEG 临界性指标（DCC）与 PCI 强相关；麻醉推离临界态 → PCI 下降"
+    },
+    {
+      "id": "src-159-04",
+      "pmid": "40478900",
+      "citation": "Stikvoort P, et al. (2025). Nonequilibrium dynamics explains perturbational complexity. [Journal TBC]",
+      "access": "open_full_text",
+      "used_for": "非对称有效连接作为 PCI 的第三种解释；非平衡动力学框架",
+      "key_data": "有效连接非对称性 ∝ PCI；意识减弱时有效连接趋于对称"
+    },
+    {
+      "id": "src-159-05",
+      "pmid": "39300529",
+      "citation": "Xu Y, et al. (2024). PCIst as a biomarker for rTMS response in MCS patients. J Neuroeng Rehabil.",
+      "access": "open_full_text",
+      "used_for": "PCIst 作为 rTMS 疗效预测指标；MCS 患者 rTMS RCT",
+      "key_data": "N=40 RCT；35% 响应者；PCIst 基线预测响应；PCIst 变化量 ∝ CRS-R 改善；6月随访"
+    },
+    {
+      "id": "src-159-06",
+      "pmid": "41574278",
+      "citation": "Hagan M, et al. (2026). Perturbational complexity index in Alzheimer's disease. [Journal TBC]",
+      "access": "open_full_text",
+      "used_for": "AD 患者 PCIst 显著低于健康对照",
+      "key_data": "AD: M=20.1 vs 对照: M=28.2（降低~28%）；与 MMSE 显著相关"
+    },
+    {
+      "id": "src-159-07",
+      "pmid": "42090748",
+      "citation": "Fecchio M, et al. (2026). TMS-EEG in ICU disorders of consciousness. [Journal TBC]",
+      "access": "pending_confirmation",
+      "used_for": "PCI 在 ICU 意识障碍患者中的系统性应用",
+      "key_data": "ICU 环境下 PCI 可行性和诊断价值"
+    },
+    {
+      "id": "src-159-08",
+      "pmid": "41331515",
+      "citation": "Shin J, et al. (2025). Integrated information theory and large language models. [Journal TBC]",
+      "access": "pending_confirmation",
+      "used_for": "LLM 的 Φ 分析；前馈 Transformer 架构 Φ ≈ 0",
+      "key_data": "前向传递 Φ ≈ 0；递归推理链可能产生语义整合"
+    },
+    {
+      "id": "src-159-09",
+      "pmid": "19098144",
+      "citation": "Tononi G. (2008). Consciousness as integrated information: a provisional manifesto. Biol Bull.",
+      "access": "abstract_only",
+      "used_for": "IIT 2.0 框架；Φ 的互信息定义",
+      "key_data": "IIT 2.0；Φ 基于互信息框架"
+    },
+    {
+      "id": "src-159-10",
+      "pmid": "27225071",
+      "citation": "Tononi G, et al. (2016). Integrated information theory: from consciousness to its physical substrate. Nat Rev Neurosci.",
+      "access": "abstract_only",
+      "used_for": "IIT 3.0 框架；五公理到物理约束；因果力框架",
+      "key_data": "IIT 3.0；五公理；因果力；Earth Mover's Distance"
+    },
+    {
+      "id": "src-159-11",
+      "pmid": "23946194",
+      "citation": "Casali AG, et al. (2013). A theoretically based index of consciousness independent of sensory processing and behavior. Sci Transl Med.",
+      "access": "abstract_only",
+      "used_for": "PCI 原始验证；清醒/NREM/麻醉/意识障碍状态区分",
+      "key_data": "N=151；PCI 区分各意识状态；临界值 ~0.44"
+    },
+    {
+      "id": "src-159-12",
+      "pmid": "40307561",
+      "pmcid": "PMC12137136",
+      "citation": "Cogitate Consortium. (2025). Adversarial testing of IIT and GWT. Nature.",
+      "access": "open_full_text",
+      "used_for": "COGITATE 2025 结果再解读；IIT 机制预测失败与意识水平预测区分",
+      "key_data": "3.8% 后方电极持续激活（IIT 机制预测失败）；0/655 PFC 电极 offset 点燃（GWT 机制失败）"
+    }
+  ],
+  "open_full_texts_count": 6,
+  "abstract_only_count": 3,
+  "pending_count": 2,
+  "new_pmids_registered": ["41801929", "40901488", "39103539", "40478900", "39300529", "41574278", "42090748", "41331515"]
+}

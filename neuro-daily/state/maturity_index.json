@@ -429,5 +429,27 @@
     "change_reason": "新建（2026-09-25 #155）：Kinsbourne对立处理器框架有多个独立TMS因果实验支持（Szczepanski & Kastner 2013，双侧无净偏移）；右PPC单向抑制有因果实验（Koch 2011，PMID:21677180）；后部胼胝体FA与忽视严重度r=0.91（Bozzali 2012）——多独立证据线→established/high；Eshel 2010挑战提示竞争非纯零和但不推翻核心框架",
     "previous_status": "pending（悬空引用）",
     "source_article": "2026-09-25-interhemispheric-competition-corpus-callosum"
+  },
+  "phi-measure": {
+    "slug": "phi-measure",
+    "title": "Φ（整合信息度量）",
+    "status": "contested",
+    "confidence": "medium",
+    "revision_count": 2,
+    "last_changed": "2026-09-29",
+    "change_reason": "修订 rev1→rev2（2026-09-29 #159）：新增 IIT 4.0/ΦID 框架；新增 Danilczuk 2026（IF 网络 Φ：递归提升，噪声降低）；新增 Onoda 2025（宏观 fMRI Φ，麻醉/NREM 下降）；新增 Shin 2025 AI Φ 分析。状态保持 contested/medium：IIT 的宏观意识水平预测获新支持（Onoda 2025），但 Φ 与意识的直接等同仍受 COGITATE 机制预测失败的挑战；NP-hard 计算困境未解决",
+    "previous_status": "contested/medium",
+    "source_article": "2026-09-29-phi-computation-pci-consciousness-measurement"
+  },
+  "perturbational-complexity-index": {
+    "slug": "perturbational-complexity-index",
+    "title": "扰动复杂性指数（PCI）",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 2,
+    "last_changed": "2026-09-29",
+    "change_reason": "修订 rev1→rev2（2026-09-29 #159）：新增 Maschke 2024（临界动力学作为 PCI 机制替代解释）；新增 Stikvoort 2025（非平衡有效连接框架）；新增 Xu 2024 rTMS RCT（N=40，35%响应者，PCIst预测疗效）；新增 Hagan 2026 AD 应用（PCIst 20.1 vs 28.2）；新增 Fecchio 2026 ICU 应用。状态保持 established/high：PCI 方法本身有强多中心验证（Casali 2013，Casarotto 2016），临床扩展持续增长；但机制解释（Φ vs 临界性 vs 非平衡）有三方竞争（Q-pci-01）——这影响理论意义而不影响临床有效性",
+    "previous_status": "established/high",
+    "source_article": "2026-09-29-phi-computation-pci-consciousness-measurement"
   }
 }
