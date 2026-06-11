@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-08-24
-revision_count: 6
+updated: 2026-09-22
+revision_count: 7
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub, conduction-aphasia, language-critical-period, language-lateralization, foxp2-language-gene]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, anterior-temporal-lobe-hub, conduction-aphasia, language-critical-period, language-lateralization, foxp2-language-gene, temporal-sampling-framework, cortical-speech-entrainment, delta-oscillations, neural-oscillations]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
-opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
-source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream, 2026-08-22-language-acquisition-critical-period, 2026-08-24-language-lateralization-left-hemisphere]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:32160565", "PMID:31874149", "PMID:28053037", "PMID:22347185", "PMID:18093532", "PMID:11586359"]
+opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03, Q-lang-ast-01]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-15-language-network-dual-stream, 2026-08-22-language-acquisition-critical-period, 2026-08-24-language-lateralization-left-hemisphere, 2026-09-22-language-oscillations-temporal-sampling]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:32160565", "PMID:31874149", "PMID:28053037", "PMID:22347185", "PMID:18093532", "PMID:11586359", "PMID:22426255", "PMID:26642090", "PMC:3839250"]
 ---
 
 # 语言网络（双流模型）(Dual-Stream Language Network)
@@ -41,6 +41,16 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 前颞叶（ATL）是腹流的**语义枢纽**（→见[[anterior-temporal-lobe-hub]]），以Hub-and-Spoke架构整合各感觉模态的特异表征。
 
 手语研究（Trettenbrein et al. 2021）证明该网络是**超模态的**——手语使用与口语处理激活相同的左侧Broca区，左半球优势反映的是抽象层级符号运算，而非声音处理的特化。
+
+## 振荡实现机制：双流如何利用时间节律
+
+语言双流架构不只是解剖结构，还有与之对应的**振荡计算机制**（Giraud & Poeppel 2012，PMID:22426255；Ding et al. 2016，PMID:26642090）：
+
+**背侧流与快时序振荡（γ，左侧主导）**：背侧流的核心功能是音位精确性（区分音素、实时语音→运动映射）。这需要左半球的快时序窗口（~25ms，γ频段）——γ振荡在每个周期内捕捉音素级精细声学特征（如VOT）。左IFG（BA44）是句子级δ追踪（~1 Hz）的关键区域（Ding 2016 ECoG）：背侧流在自上而下建立语法层级框架时也参与δ振荡。阅读障碍患者左侧γ采样不对称性降低，导致音素辨别困难，印证了背侧流-γ连接。
+
+**腹侧流与慢时序振荡（θ-δ，双侧）**：腹侧流需要在更长时间窗口内积累语义信息（从词义激活到短语整合到句子级推断）。这与θ（4-8 Hz，音节窗口）和δ（1-4 Hz，短语/句子窗口）匹配。Ding 2016证明δ振荡能追踪**抽象语法层级**（无声学标记的2 Hz词组级、1 Hz句子级），这与腹侧流的语义整合功能吻合。前颞叶（ATL，腹侧流语义枢纽）处理时间窗口估计>500ms，正好与δ频段对应。
+
+**两流的半球分工与振荡**：左半球γ优势（快时序）→ 背侧流左侧化；右半球θ优势（慢时序）→ 腹侧流双侧分布（右侧参与韵律/语用）。这一映射由**非对称时间采样（AST）框架**（→见[[temporal-sampling-framework]]）解释，提供了语言左侧化的振荡计算机制。
 
 ## 关键机制
 
@@ -93,6 +103,7 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 - 2026-07-15 · 重要修订 · 新增LANG/MD网络关键分离（Fedorenko 2020）；新增语言专属预测编码（Shain 2020）；新增ATL语义枢纽作为腹流核心节点；更新related/key_sources
 - 2026-08-22 · 修订 · 基于《语言习得关键期》(#120) · related新增language-critical-period；key_sources新增PMID:22347185；source_articles新增#120
 - 2026-08-24 · 修订（minor）· 基于《语言为何偏向左脑》(#122) · related新增language-lateralization/foxp2-language-gene；key_sources新增PMID:18093532（AST电生理支持）/PMID:11586359（FOXP2 KE家族）；source_articles新增#122；语言网络的左侧化有AST计算解释（左侧快时序采样）和FOXP2发育基础（序列运动回路）
+- 2026-09-22 · 重要修订 · 基于《大脑读懂语言的双轨时钟》(#152) · 新增"振荡实现机制"节，将双流架构与γ/θ/δ振荡对应（背侧流←γ/左侧；腹侧流←θ-δ/双侧）；新增AST框架（temporal-sampling-framework）和delta-oscillations、cortical-speech-entrainment到related；新增Giraud-Poeppel 2012和Ding 2016到key_sources；opens_questions新增Q-lang-ast-01
 
 ## 来源文章
 
@@ -101,3 +112,4 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 - [[2026-07-15-language-network-dual-stream]]
 - [[2026-08-22-language-acquisition-critical-period]]
 - [[2026-08-24-language-lateralization-left-hemisphere]]
+- [[2026-09-22-language-oscillations-temporal-sampling]]

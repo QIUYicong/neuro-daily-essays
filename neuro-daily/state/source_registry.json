@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-22",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11162,9 +11162,80 @@
         "2026-09-20"
       ],
       "coverage": "谱依赖性框架质疑PAC因果性"
+    },
+    {
+      "pmid": "22426255",
+      "pmcid": "PMC4461038",
+      "title": "Cortical oscillations and speech processing: emerging computational principles and operations",
+      "authors_short": "Giraud & Poeppel",
+      "journal": "Nature Neuroscience",
+      "year": 2012,
+      "first_used": "2026-09-21",
+      "used_in_articles": [
+        "2026-09-21-delta-oscillations-speech-prosody-hierarchy",
+        "2026-09-22-language-oscillations-temporal-sampling"
+      ],
+      "aspects_covered": [
+        "theta-gamma nesting",
+        "delta/theta/gamma hierarchy",
+        "hemispheric asymmetry gamma vs theta",
+        "dyslexia oscillations"
+      ]
+    },
+    {
+      "pmid": "26642090",
+      "pmcid": "PMC4809195",
+      "title": "Cortical tracking of hierarchical linguistic structures in connected speech",
+      "authors_short": "Ding et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2016,
+      "first_used": "2026-09-21",
+      "used_in_articles": [
+        "2026-09-21-delta-oscillations-speech-prosody-hierarchy",
+        "2026-09-22-language-oscillations-temporal-sampling"
+      ],
+      "aspects_covered": [
+        "abstract syntax tracking",
+        "4Hz word / 2Hz phrase / 1Hz sentence",
+        "left IFG pSTG TPJ ECoG"
+      ]
+    },
+    {
+      "pmid": null,
+      "pmcid": "PMC3839250",
+      "title": "Acoustic landmarks drive delta-theta oscillations to enable speech comprehension",
+      "authors_short": "Doelling et al.",
+      "journal": "NeuroImage",
+      "year": 2014,
+      "first_used": "2026-09-22",
+      "used_in_articles": [
+        "2026-09-22-language-oscillations-temporal-sampling"
+      ],
+      "aspects_covered": [
+        "acoustic landmarks and theta causality",
+        "R2=0.47 intelligibility-entrainment",
+        "MEG speech coherence"
+      ]
+    },
+    {
+      "pmid": null,
+      "pmcid": "PMC6850406",
+      "title": "Phase-amplitude coupling between theta and gamma oscillations adapts to speech rate",
+      "authors_short": "Drijvers et al.",
+      "journal": "Journal of Neurophysiology",
+      "year": 2019,
+      "first_used": "2026-09-22",
+      "used_in_articles": [
+        "2026-09-22-language-oscillations-temporal-sampling"
+      ],
+      "aspects_covered": [
+        "theta-gamma PAC speech rate adaptation",
+        "4.7-6.4 Hz theta shift",
+        "dynamic frequency tracking"
+      ]
     }
   ],
-  "total_sources": 668,
+  "total_sources": 675,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -13263,7 +13334,15 @@
   "additions_meta_2026-09-21": {
     "article": "2026-09-21-delta-oscillations-speech-prosody-hierarchy",
     "topic": "δ振荡语音层级追踪；清醒语音处理δ；睡眠记忆巩固δ；TSF阅读障碍",
-    "open_full_texts_used": ["22426255", "34083380", "37838945"],
-    "abstract_only": ["26642090", "29283465", "21093350"]
+    "open_full_texts_used": [
+      "22426255",
+      "34083380",
+      "37838945"
+    ],
+    "abstract_only": [
+      "26642090",
+      "29283465",
+      "21093350"
+    ]
   }
 }

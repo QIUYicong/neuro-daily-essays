@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-21",
-  "total_articles": 151,
+  "last_updated": "2026-09-22",
+  "total_articles": 152,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9972,6 +9972,85 @@
       },
       "graph_nodes_after": 302,
       "graph_edges_after": 1752
+    },
+    {
+      "date": "2026-09-22",
+      "real_date": "2026-06-11",
+      "article_number": 152,
+      "title": "大脑读懂语言的双轨时钟：振荡节律如何为双流架构驱动语音解析",
+      "slug": "language-oscillations-temporal-sampling",
+      "filename": "2026-09-22-language-oscillations-temporal-sampling.md",
+      "article_type": "regular",
+      "core_question": "腹侧流（声音→意义）和背侧流（声音→运动）如何分别利用δ/θ/γ三层振荡完成语音解析？Hickok-Poeppel双流模型与AST时间采样框架如何统一成大脑理解语言的完整机制？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（语言网络×振荡机制整合）+ 3. 大脑如何编码世界（时间采样框架）",
+      "topic_tags": [
+        "dual-stream language model",
+        "Hickok Poeppel",
+        "asymmetric sampling in time",
+        "AST",
+        "temporal sampling framework",
+        "Poeppel 2003",
+        "cortical oscillations speech",
+        "Giraud Poeppel 2012",
+        "delta oscillations language",
+        "theta oscillations syllables",
+        "gamma oscillations phonemes",
+        "theta-gamma nesting",
+        "Ding 2016",
+        "abstract syntax tracking",
+        "cortical tracking hierarchical linguistic structures",
+        "Doelling 2014",
+        "acoustic landmarks delta-theta",
+        "hemispheric asymmetry",
+        "left hemisphere gamma",
+        "right hemisphere theta",
+        "ventral language stream",
+        "dorsal language stream",
+        "Broca area",
+        "Spt",
+        "arcuate fasciculus",
+        "auditory cortex",
+        "speech comprehension",
+        "speech entrainment",
+        "predictive coding language",
+        "dyslexia oscillations",
+        "temporal sampling"
+      ],
+      "main_sources": [
+        "PMID:17431404 (Hickok & Poeppel 2007, Nat Rev Neurosci, abstract only)",
+        "PMID:22426255 / PMC4461038 (Giraud & Poeppel 2012, Nat Neurosci, full text)",
+        "PMID:26642090 / PMC4809195 (Ding et al. 2016, Nat Neurosci, full text)",
+        "PMID:22766458 / PMC3468690 (Hickok 2012, J Commun Disord, full text)",
+        "PMC3839250 (Doelling et al. 2014, NeuroImage, full text)",
+        "PMC6850406 (Drijvers et al. 2019, J Neurophysiol, full text)",
+        "PMID:22013214 (Friederici 2011, Physiol Rev, abstract only)",
+        "PMC2584675 (Friederici et al. 2009, PNAS, full text)",
+        "PMC7546279 (Meyer et al. 2020, oscillations review, full text)"
+      ],
+      "unresolved_questions": [
+        "Q-lang-ast-01",
+        "Q-delta-01"
+      ],
+      "next_suggested_topics": [
+        "attention-networks: 背侧（DAN）vs 腹侧（VAN）注意网络；填补attention-networks悬空引用；δ/α/β振荡在注意力调控中的角色",
+        "dyslexia-neural-mechanism: 阅读障碍的振荡子型（γ采样不对称 vs θ采样异常）；脑干FFR vs 皮层δ/θ机制的上下游关系（Q-delta-02）；DCOMP基因证据",
+        "semantic-composition-temporal-lobe: 前颞叶（ATL）的Hub-and-Spoke语义整合机制；ATL病变产生的语义性痴呆；时序处理窗口>500ms的神经基础"
+      ],
+      "wiki_updates": {
+        "created": [
+          "wiki/concepts/temporal-sampling-framework.md"
+        ],
+        "revised": [
+          "wiki/systems/language-network.md (rev7)",
+          "wiki/concepts/cortical-speech-entrainment.md (rev2)",
+          "wiki/concepts/delta-oscillations.md (rev2)"
+        ]
+      }
     }
   ],
   "layer_coverage_recent": [

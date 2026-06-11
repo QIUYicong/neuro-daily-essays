@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-09-21
-updated: 2026-09-21
-revision_count: 1
+updated: 2026-09-22
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [neural-oscillations, theta-oscillations, gamma-oscillations, cortical-slow-oscillation, predictive-coding, communication-through-coherence, language-network-dual-stream, theta-gamma-coupling, memory-consolidation, thalamocortical-circuit]
+related: [neural-oscillations, theta-oscillations, gamma-oscillations, cortical-slow-oscillation, predictive-coding, communication-through-coherence, language-network-dual-stream, theta-gamma-coupling, memory-consolidation, thalamocortical-circuit, language-network, temporal-sampling-framework, cortical-speech-entrainment, dorsal-language-stream, ventral-language-stream]
 prerequisites: [action-potential, synaptic-transmission, neural-oscillations, ei-balance]
 opens_questions: [Q-delta-01, Q-delta-02, Q-delta-03]
-source_articles: [2026-09-21-delta-oscillations-speech-prosody-hierarchy]
-key_sources: ["PMID:22426255", "PMID:26642090", "PMID:29283465", "PMID:34083380", "PMID:21093350", "PMID:37838945"]
+source_articles: [2026-09-21-delta-oscillations-speech-prosody-hierarchy, 2026-09-22-language-oscillations-temporal-sampling]
+key_sources: ["PMID:22426255", "PMID:26642090", "PMID:29283465", "PMID:34083380", "PMID:21093350", "PMID:37838945", "PMC:3839250", "PMC:6850406"]
 ---
 
 # δ振荡 (Delta Oscillations)
@@ -84,7 +84,11 @@ key_sources: ["PMID:22426255", "PMID:26642090", "PMID:29283465", "PMID:34083380"
 - [[communication-through-coherence]] — δ-θ-γ 语音层级是 CTC 框架在听觉语言网络中的应用
 - [[thalamocortical-circuit]] — 睡眠 δ 波由丘脑 T 型钙通道驱动；清醒语音 δ 主要为皮层机制
 - [[memory-consolidation]] — 睡眠 δ（内嗅皮层 TA 通路）通过 HPC 通路参与情景记忆巩固
-- [[language-network-dual-stream]] — δ 语法追踪主要在左侧颞-额网络（腹侧流）（待后续文章加深）
+- [[language-network]] — δ 语法追踪与双流架构的具体映射：左IFG（BA44，背侧流）+pSTG追踪句子级δ；腹侧流（ATL）处理的语义积累时间窗口与δ频段对应（Ding 2016 ECoG, PMID:26642090）
+- [[temporal-sampling-framework]] — AST框架解释了δ追踪语法层级的半球分工背景
+- [[cortical-speech-entrainment]] — δ是三层振荡（δ/θ/γ）中最外层框架，与θ/γ嵌套构成完整的语音采样层级
+- [[dorsal-language-stream]] — 左IFG（BA44，Broca区）是δ语法追踪的关键区域，是背侧流的核心节点
+- [[ventral-language-stream]] — 前颞叶（ATL）处理时间窗>500ms，与δ频段匹配；腹侧流语义整合利用δ时间框架
 
 ## 未解问题
 
@@ -95,7 +99,9 @@ key_sources: ["PMID:22426255", "PMID:26642090", "PMID:29283465", "PMID:34083380"
 ## 修订历史
 
 - 2026-09-21 · 创建 · 基于《δ振荡：大脑解析语音层级的慢速时钟》(#151) · 初始置信度：中（主动预测性夹带证据强；因果验证仍需加强）；双重功能（语音处理 vs 睡眠记忆巩固）并列记录
+- 2026-09-22 · 修订 · 基于《大脑读懂语言的双轨时钟》(#152) · 新增δ与双流架构的具体映射（左IFG对应背侧流，ATL对应腹侧流）；连接页扩展（temporal-sampling-framework, cortical-speech-entrainment, dorsal/ventral-language-stream）；key_sources新增Doelling 2014（PMC:3839250）和Drijvers 2019（PMC:6850406）
 
 ## 来源文章
 
 - [[2026-09-21-delta-oscillations-speech-prosody-hierarchy]]
+- [[2026-09-22-language-oscillations-temporal-sampling]]

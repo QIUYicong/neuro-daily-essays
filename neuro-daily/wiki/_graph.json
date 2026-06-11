@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "node_count": 302,
   "edge_count": 1752,
   "edge_types": [
@@ -2762,6 +2762,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/temporal-multiplexing.md"
+    },
+    {
+      "id": "temporal-sampling-framework",
+      "title": "非对称时间采样框架（AST）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/temporal-sampling-framework.md"
     }
   ],
   "edges": [
@@ -12232,6 +12241,61 @@
       "from": "delta-oscillations",
       "to": "memory-consolidation",
       "type": "supports"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "language-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "language-lateralization",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "cortical-speech-entrainment",
+      "type": "related"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "gamma-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "temporal-sampling-framework",
+      "to": "delta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "language-network",
+      "to": "temporal-sampling-framework",
+      "type": "related"
+    },
+    {
+      "from": "delta-oscillations",
+      "to": "dorsal-language-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "delta-oscillations",
+      "to": "ventral-language-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-speech-entrainment",
+      "to": "language-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-speech-entrainment",
+      "to": "temporal-sampling-framework",
+      "type": "related"
     }
   ],
   "dangling_references": [

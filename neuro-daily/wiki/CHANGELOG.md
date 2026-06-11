@@ -3183,3 +3183,25 @@
 - Q-tgc-02（中）：人类 θ 节律弱且不规则——人类嵌套编码的神经基础是否与大鼠不同？
 - Q-tgc-03（高）：AD/SCZ 中 θ-γ 耦合损伤原发还是继发？恢复耦合能否改善记忆？
 - Q-tgc-04（中）：相邻 γ 槽之间是否存在串扰？防止串扰的抑制性边界机制？
+
+---
+
+## 2026-09-22（文章 #152）
+
+### 新建页面（1 个）
+- `wiki/concepts/temporal-sampling-framework.md`（rev1）— 非对称时间采样（AST）框架专属页面；Poeppel 2003 起源；左半球γ快时序窗口（~25ms，音素精度）和右半球θ慢时序窗口（~200ms，韵律整合）；AAC层级产生（非A1）；连接振荡机制与语言左侧化
+
+### 修订页面（3 个）
+- `wiki/systems/language-network.md`（rev6→rev7）— 新增"振荡实现机制"节：背侧流与左半球γ对应，腹侧流与双侧θ-δ对应；related扩展（temporal-sampling-framework/cortical-speech-entrainment/delta-oscillations/neural-oscillations）；key_sources新增Giraud 2012/Ding 2016/Doelling 2014；opens_questions新增Q-lang-ast-01
+- `wiki/concepts/cortical-speech-entrainment.md`（rev1→rev2）— 新增"与双流架构的映射"节（γ→背侧流，θ-δ→腹侧流，δ语法追踪→左IFG/pSTG）；增加Doelling 2014因果证据（R²=0.47）；related扩展（language-network/temporal-sampling-framework/delta-oscillations）；opens_questions新增Q-delta-01
+- `wiki/concepts/delta-oscillations.md`（rev1→rev2）— 新增与双流架构的具体映射（左IFG对应背侧流，ATL>500ms时间窗对应腹侧流）；连接页扩展（temporal-sampling-framework/cortical-speech-entrainment/dorsal-language-stream/ventral-language-stream）；key_sources新增Doelling 2014（PMC:3839250）和Drijvers 2019（PMC:6850406）
+
+### 登记矛盾（0 条）
+- 无新矛盾；现有Q-delta-01（声学驱动vs语法驱动δ分离）仍open
+
+### 图谱变化
+- 节点：305 → 306（+1：temporal-sampling-framework）
+- 边：1777 → 1788（+11：temporal-sampling-framework与language-network/language-lateralization/cortical-speech-entrainment/gamma/theta/delta的有类型边；delta-oscillations到dorsal/ventral-language-stream；cortical-speech-entrainment到language-network/temporal-sampling-framework）
+
+### 新增未解问题（1 条）
+- Q-lang-ast-01（高）：AST框架的半球不对称在高级语言区（IFG BA44/45、TPJ）是否与颞叶一致？前额叶γ/θ不对称直接证据缺乏

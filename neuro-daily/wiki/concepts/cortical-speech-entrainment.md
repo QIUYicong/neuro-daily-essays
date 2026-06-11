@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-08-20
-updated: 2026-08-20
-revision_count: 1
+updated: 2026-09-22
+revision_count: 2
 dimensions: [brain-region, systems, cognition, molecular]
-related: [stg-phoneme-processing, auditory-cortex, auditory-dual-stream, temporal-coding-hierarchy, alpha-oscillations, phoneme-categorical-perception]
+related: [stg-phoneme-processing, auditory-cortex, auditory-dual-stream, temporal-coding-hierarchy, alpha-oscillations, phoneme-categorical-perception, language-network, temporal-sampling-framework, delta-oscillations, theta-oscillations]
 prerequisites: [auditory-cortex, tonotopy]
-opens_questions: [Q-stg-01]
-source_articles: [2026-08-20-stg-phoneme-speech-perception]
-key_sources: ["PMID:22426255", "PMCID:PMC3364513", "PMID:34672685", "PMCID:PMC7067489"]
+opens_questions: [Q-stg-01, Q-delta-01]
+source_articles: [2026-08-20-stg-phoneme-speech-perception, 2026-09-22-language-oscillations-temporal-sampling]
+key_sources: ["PMID:22426255", "PMCID:PMC3364513", "PMID:34672685", "PMCID:PMC7067489", "PMC:3839250", "PMID:26642090"]
 ---
 
 # 皮层言语同步 (Cortical Speech Entrainment)
@@ -55,12 +55,25 @@ key_sources: ["PMID:22426255", "PMCID:PMC3364513", "PMID:34672685", "PMCID:PMC70
 | 左快右慢的半球不对称（颅内直接证据） | 96例SEEG | PMC:7067489 | 高 |
 | θ-γ嵌套结构在言语感知中存在 | 综述整合多项ECoG研究 | PMID:22426255 | 中 |
 
+## 与双流架构的映射
+
+皮层言语同步不只是听觉系统的机制，而与语言双流架构深度耦合（→见[[language-network]]）：
+
+- **γ夹带（左侧主导）→ 背侧流**：左半球γ频带的fast entrainment对应背侧流（声音→运动/句法）的音位精度需求，是左侧化的振荡基础
+- **θ夹带（双侧）→ 腹侧流**：双侧θ追踪音节节律，腹侧流（声音→意义）利用这一窗口积累词义和短语语义
+- **δ夹带（左IFG/pSTG为主）→ 语法层级**：Ding 2016（PMID:26642090）证明δ可追踪无声学标记的抽象语法结构；左IFG（Broca区 BA44）和pSTG是δ语法追踪的关键区域，两者均为双流的核心节点
+
+Doelling et al. 2014（PMC3839250）因果证据：声学起伏特征（acoustic landmarks）驱动δ-θ夹带；去除这些特征 → θ相干性↓ + 可懂度↓（R²=0.47）；恢复特征 → 两者恢复。支持θ夹带是**可懂度必要条件**，而非副产物。
+
 ## 连接
 
 - [[stg-phoneme-processing]] — 皮层振荡entrainment是STG音素计算的时间组织机制
 - [[auditory-cortex]] — entrainment主要发生在Belt/Parabelt和STG，非A1
 - [[temporal-coding-hierarchy]] — 多时间尺度振荡是大脑时间编码层级的一个具体实例
 - [[alpha-oscillations]] — alpha（8-13Hz）可能也参与注意性抑制调控，与言语entrainment共享部分基础设施
+- [[language-network]] — 双流架构与振荡采样窗口的具体映射关系
+- [[temporal-sampling-framework]] — AST框架解释了γ/θ夹带的半球不对称起源
+- [[delta-oscillations]] — δ振荡在语法层级追踪中的角色（Ding 2016）
 
 ## 未解问题
 
@@ -69,7 +82,9 @@ key_sources: ["PMID:22426255", "PMCID:PMC3364513", "PMID:34672685", "PMCID:PMC70
 ## 修订历史
 
 - 2026-08-20 · 创建 · 基于《声音之刀》文章#102 · 初始置信度：中 · 整合Giraud-Poeppel 2012理论框架、PMC:3364513 MEG实验和PMC:7067489 SEEG证据；争议点已标注
+- 2026-09-22 · 修订 · 基于《大脑读懂语言的双轨时钟》(#152) · 新增与双流架构的映射节；新增Doelling 2014因果证据（R²=0.47）；related扩展至language-network/temporal-sampling-framework/delta-oscillations；opens_questions新增Q-delta-01
 
 ## 来源文章
 
 - [[2026-08-20-stg-phoneme-speech-perception]]
+- [[2026-09-22-language-oscillations-temporal-sampling]]
