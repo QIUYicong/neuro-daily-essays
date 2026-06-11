@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-13（**#143**·精神分裂症中 PV 中间神经元 γ 振荡缺陷的 NMDAR 机制——DLPFC PV 细胞 GAD67/PV 分子缄默（Hashimoto 2003）→ PING 机制受损 → γ 功率降低 → θ-γ 耦合解体 → 工作记忆认知症状；NMDAR 低激活（Javitt 1991）→ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；Kv3.1/3.2 调节剂新治疗策略（Musselman 2023））· 主题页总数：**276**（新建1页：schizophrenia；修订3页：pv-interneurons rev6 · gamma-oscillations rev6 · ei-balance rev3；图谱295节点、1695边）
+> 最后更新：2026-09-15（**#145**·NMDA 受体 GluN2B→GluN2A 发育切换机制——REST 表观遗传驱动 + GluN2A 浓度独立上升；人类皮层切换峰值约 36 岁（Siu 2017, PMC6596503）；老年期 GluN2A 骤降 75%；CaMKII-GluN2B 物理结合是 LTP 充要条件（Nicoll 2023）；GluN2A 过量损害 LTP+LTD+认知（Li 2022）；部分解答 Q-glun2-switch-development）· 主题页总数：**278**（新建1页：glun2-developmental-switch；修订1页：nmda-receptor rev5；图谱 297 节点，1711 边）
 
 ---
 
@@ -108,7 +108,8 @@
 - 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异 **[NEW 2026-06-03]**
 - 🟢 [Hodgkin-Huxley 模型](concepts/hodgkin-huxley-model.md) — 动作电位的定量数学框架
 - 🟢 [SNARE复合体](concepts/SNARE-complex.md) — 突触囊泡融合的核心分子机器（四螺旋束拉链）
-- 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP（修订4次）
+- 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + GluN2B→GluN2A 发育切换改变可塑性阈值（修订5次）
+- 🟢 [GluN2 亚单位发育切换](concepts/glun2-developmental-switch.md) — REST 表观遗传沉默 Grin2b + GluN2A 浓度主导；人类 V1 峰值约 36 岁，老年期 GluN2A 丢失 75%；CaMKII-GluN2B 锚定是 LTP 充要条件；BCM 修改阈值的分子底层 **[NEW 2026-09-15 #145（解答 Q-glun2-switch-development）]**
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础（修订8次）
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；Sahay 2011成人神经发生因果改善分离 **[NEW 2026-06-24]**

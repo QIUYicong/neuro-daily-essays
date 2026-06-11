@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13",
+  "last_updated": "2026-09-15",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10685,6 +10685,96 @@
       "year": 2025,
       "used_in": [
         "2026-09-13-pv-gamma-schizophrenia-cognition"
+      ]
+    },
+    {
+      "pmid": "28554889",
+      "pmcid": "PMC6596503",
+      "title": "Development of Glutamatergic Proteins in Human Visual Cortex across the Lifespan",
+      "authors": "Siu CR, Beshara SP, Jones DG, Murphy KM",
+      "journal": "Journal of Neuroscience",
+      "year": 2017,
+      "full_text": true,
+      "first_used": "2026-09-15",
+      "articles_using": [
+        "2026-09-15-nmda-receptor-subunit-developmental-switch"
+      ],
+      "aspects_covered": [
+        "human GluN2A:2B developmental timeline",
+        "5 stages of visual cortex development",
+        "aging GluN2A loss 75%"
+      ]
+    },
+    {
+      "pmid": "37290118",
+      "pmcid": "PMC10642921",
+      "title": "Synaptic memory and CaMKII",
+      "authors": "Nicoll RA, Bhattacharyya S",
+      "journal": "Physiological Reviews",
+      "year": 2023,
+      "full_text": true,
+      "first_used": "2026-09-15",
+      "articles_using": [
+        "2026-09-15-nmda-receptor-subunit-developmental-switch"
+      ],
+      "aspects_covered": [
+        "CaMKII-GluN2B physical binding",
+        "LTP mechanism 7 steps",
+        "I205K mutation blocks LTP"
+      ]
+    },
+    {
+      "pmid": "22960932",
+      "pmcid": null,
+      "title": "REST-dependent epigenetic remodeling promotes the developmental switch in synaptic NMDA receptors",
+      "authors": "Rodenas-Ruano A, Zukin RS",
+      "journal": "Nature Neuroscience",
+      "year": 2012,
+      "full_text": false,
+      "first_used": "2026-09-15",
+      "articles_using": [
+        "2026-09-15-nmda-receptor-subunit-developmental-switch"
+      ],
+      "aspects_covered": [
+        "REST drives Grin2b epigenetic silencing",
+        "maternal deprivation disrupts switch",
+        "experience-dependent regulation"
+      ]
+    },
+    {
+      "pmid": "30355491",
+      "pmcid": null,
+      "title": "The Developmental Shift of NMDA Receptor Composition Proceeds Independently of GluN2 Subunit-Specific GluN2 C-Terminal Sequences",
+      "authors": "McKay S, Ryan TJ et al.",
+      "journal": "Cell Reports",
+      "year": 2018,
+      "full_text": false,
+      "first_used": "2026-09-15",
+      "articles_using": [
+        "2026-09-15-nmda-receptor-subunit-developmental-switch"
+      ],
+      "aspects_covered": [
+        "GluN2A protein level drives switch (not CTD)",
+        "haploinsufficiency delays switch"
+      ]
+    },
+    {
+      "pmid": "35484243",
+      "pmcid": null,
+      "title": "Enhancing GluN2A-type NMDA receptors impairs long-term synaptic plasticity and learning and memory",
+      "authors": "Li QQ et al.",
+      "journal": "Molecular Psychiatry",
+      "year": 2022,
+      "full_text": false,
+      "first_used": "2026-09-15",
+      "articles_using": [
+        "2026-09-15-nmda-receptor-subunit-developmental-switch"
+      ],
+      "aspects_covered": [
+        "K879R GluN2A gain-of-function",
+        "both LTP and LTD impaired",
+        "cognitive deficits",
+        "GluN2A:2B balance importance"
       ]
     }
   ],

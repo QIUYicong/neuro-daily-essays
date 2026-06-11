@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-12",
-  "total_articles": 142,
+  "last_updated": "2026-09-15",
+  "total_articles": 145,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9393,6 +9393,96 @@
         "nmda-receptor-subtypes: GluN2A/2B 发育切换——回答Q-glun2-switch-development；GluN2A在成年PFC认知中的时间精度功能 vs GluN2B在学习可塑性中的灵活性；连接今日D1R与SCZ-NMDA低激活两条路径",
         "schizophrenia-genetics-circuits: DISC1/NRG1/GRIN2A变异如何汇聚到PV-γ回路缺陷和D1R-HCN路径",
         "anterior-cingulate-cortex-deeper: ACC在认知控制和错误监控中的深层机制——EVC计算如何与PFC WM资源分配形成反馈"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "real_date": "2026-06-11",
+      "article_number": 145,
+      "title": "NMDA 受体的两张脸：GluN2B 与 GluN2A 的发育接力，与大脑学习阈值的一生漂移",
+      "slug": "nmda-receptor-subunit-developmental-switch",
+      "filename": "2026-09-15-nmda-receptor-subunit-developmental-switch.md",
+      "article_type": "regular",
+      "core_question": "幼年大脑的 NMDA 受体以 GluN2B 亚单位为主，成年后 GluN2A 逐渐取代——这一发育切换是如何被 REST 表观遗传机制和 GluN2A 蛋白浓度共同驱动的？切换如何通过 CaMKII-GluN2B 锚定机制改变 LTP 阈值？人类大脑的切换时间线为何延续至约 40 岁？老年期 GluN2A 骤降 75% 意味着什么？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "4. 学习和记忆 → 突触可塑性分子机制 → NMDA 受体亚单位切换（LTP 阈值机制；关键期与 BCM 的分子底层；人类发育时间线）",
+      "topic_tags": [
+        "NMDA receptor",
+        "GluN2A",
+        "GluN2B",
+        "developmental switch",
+        "GluN1",
+        "REST transcription factor",
+        "Grin2b",
+        "Grin2a",
+        "epigenetic silencing",
+        "synaptic plasticity",
+        "LTP threshold",
+        "LTD",
+        "BCM rule",
+        "CaMKII",
+        "GluN2B CTD",
+        "CaMKII-GluN2B complex",
+        "triheteromeric receptor",
+        "human visual cortex",
+        "lifespan",
+        "aging",
+        "GluN2A loss",
+        "critical period",
+        "amblyopia",
+        "REST maternal deprivation",
+        "McKay 2018",
+        "Siu 2017",
+        "Nicoll 2023",
+        "radiprodil",
+        "GRIN2A",
+        "GRIN2B",
+        "epilepsy",
+        "ASD",
+        "ID",
+        "metaplasticity",
+        "experience-dependent plasticity"
+      ],
+      "main_sources": [
+        "PMID:23686171 (Paoletti 2013, Nat Rev Neurosci, abstract only - review framework)",
+        "PMID:22960932 (Rodenas-Ruano 2012, Nat Neurosci, abstract only - REST mechanism)",
+        "PMID:30355491 (McKay 2018, Cell Reports, abstract only - GluN2A level drives switch)",
+        "PMID:28554889 / PMC6596503 (Siu 2017, J Neurosci, open full text read - human lifespan data)",
+        "PMID:37290118 / PMC10642921 (Nicoll 2023, Physiol Rev, open full text read - CaMKII-GluN2B mechanism)",
+        "PMID:35484243 (Li 2022, Mol Psychiatry, abstract only - GluN2A excess impairs LTP+LTD)",
+        "PMID:25727316 (Yasuda 2015, Hippocampus, abstract only - GluN2B and LTD timing)",
+        "PMID:38836461 (Korinek 2024, Physiol Res, abstract only - GRIN variants and disease)",
+        "PMID:40994429 (Banke 2026, Brain, abstract only - radiprodil GluN2B antagonist)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/glun2-developmental-switch.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/nmda-receptor.md (rev4->rev5): 新增 GluN2 亚单位切换专节（第五重角色）；人类峰值数据；CaMKII-GluN2B 充要条件；平衡重要性；related/key_sources/opens_questions 扩充"
+      ],
+      "contested_claims_logged": [
+        "C-2026-09-15-01"
+      ],
+      "contested_claims_evidence_updated": [],
+      "open_questions_addressed": [
+        "Q-glun2-switch-development (部分解答)"
+      ],
+      "unresolved_questions": [
+        "Q-glun2-switch-upstream-rest",
+        "Q-glun2-triheteromeric-region-ratio",
+        "Q-aging-glun2a-loss-mechanism"
+      ],
+      "next_suggested_topics": [
+        "aging-nmda-receptor-cognition: 老年期 GluN2A 骤降 75% 的精确机制——是 REST 再激活？是 Grin2a 转录下调？老年期 GluN2B 主导与谷氨酸毒性关联（DAPK1 通路；AD 早期突触外 GluN2B 增多）",
+        "glun2b-synaptic-extrasynaptic-balance: 突触内 vs 突触外 GluN2B 的精确比例——完整 AD 分子通路（Aβ→PrPC→mGluR5→Fyn→GluN2B Y1472 磷酸化→外漂）",
+        "schizophrenia-genetics-circuits: DISC1/NRG1/GRIN2A 变异如何汇聚到 PV-γ 回路缺陷和 D1R-HCN 路径（连接 #143/144/145）"
       ]
     }
   ],

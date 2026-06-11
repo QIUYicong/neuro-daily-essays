@@ -211,9 +211,17 @@
       "last_changed": "2026-09-11",
       "reason": "新建页面；主要证据来自小鼠恐惧记忆（Kitamura 2017, Refaeli 2023）；人类推广有限；Lei 2025 尚需独立重复",
       "revision_count": 1
+    },
+    {
+      "slug": "glun2-developmental-switch",
+      "title": "GluN2 亚单位发育切换",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-09-15",
+      "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
     }
   ],
-  "last_updated": "2026-09-11",
+  "last_updated": "2026-09-15",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -250,9 +258,17 @@
       "change_reason": "新建（2026-09-03 #134）：Whittington & Bogacz 2017 数学证明扎实（high）；Max et al. 2026 皮层实现为 medium（计算模型，体内验证有限）；整体评为 emerging/medium",
       "previous_status": null,
       "source_article": "2026-09-03-pc-learning-biological-backpropagation"
+    },
+    {
+      "slug": "glun2-developmental-switch",
+      "title": "GluN2 亚单位发育切换",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-09-15",
+      "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
     }
   ],
-  "total_pages": 21,
+  "total_pages": 22,
   "syngap1": {
     "status": "established",
     "confidence": "high",

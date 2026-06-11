@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-09-15（文章 #145：NMDA 受体的两张脸——GluN2B→GluN2A 发育切换与突触可塑性阈值的终身漂移）
+
+**今日主题：** NMDA 受体 GluN2B→GluN2A 亚单位发育切换的分子机制（REST 表观遗传沉默 + GluN2A 浓度驱动）；切换如何升高 LTP 阈值（CaMKII-GluN2B 锚定机制）；人类皮层切换峰值约 36 岁（Siu 2017）；老年期 GluN2A 骤降 75%；"更多 GluN2A ≠ 更好"（Li 2022）；部分解答 Q-glun2-switch-development
+
+### 新建 wiki 页面（1 个）
+- `wiki/concepts/glun2-developmental-switch.md` — GluN2 亚单位发育切换 | established / high | REST 驱动 GluN2B 下调 + GluN2A 浓度主导切换（McKay 2018）；人类皮层 GluN2A:2B 峰值约 36 岁、老年期骤降 75%（Siu 2017）；CaMKII-GluN2B 物理结合是 LTP 充要条件（Nicoll 2023）；GluN2A 过量损害 LTP+LTD+认知（Li 2022）；BCM 修改阈值的分子底层
+
+### 修订 wiki 页面（1 个）
+- `wiki/concepts/nmda-receptor.md`（rev4→rev5）：新增第五重角色"GluN2 亚单位切换与突触可塑性阈值的终身调节"小节；GluN2B/2A 衰减时间常数对比；人类峰值数据；CaMKII-GluN2B 锚定机制；"平衡优于最大化"；related 新增 glun2-developmental-switch, bcm-rule, critical-period-plasticity；key_sources 新增 PMID:22960932, 28554889, 37290118, 35484243；opens_questions 新增 Q-glun2-triheteromeric-region-ratio；source_articles 新增 2026-09-15 文章
+
+### 登记或裁决矛盾
+- **新登记 C-2026-09-15-01**："GluN2A 促 LTP / GluN2B 促 LTD" 历史模型 vs 当前证据（over-simplified claim）→ 登记为 contested，见 state/contested_claims.json
+
+### 新增悬空引用（待补页面）
+- 无新增（aging 页面尚未创建，但为 glun2-developmental-switch 的 related，已标记）
+
+### 图谱变化
+- 节点：296 → 297（+1：glun2-developmental-switch）
+- 边：1703 → 1711（+8）
+
+### 新增未解问题（3 条）
+- Q-glun2-switch-upstream-rest（高）：REST 激活本身的上游信号是什么？
+- Q-glun2-triheteromeric-region-ratio（中）：成熟突触三异四聚体比例的脑区特异性？
+- Q-aging-glun2a-loss-mechanism（中）：老年期 GluN2A 选择性骤降的精确机制？
+
+### 部分解答开放问题（1 条）
+- Q-glun2-switch-development（部分解答）：切换由 REST 表观遗传沉默 + GluN2A 浓度共同驱动，非 CTD 特异性机制；人类切换漫长（峰值约 36 岁）。未解部分：REST 激活上游信号、三异四聚体脑区比例、老年期骤降机制
+
+---
+
 ## 2026-09-14（文章 #144：多巴胺双面刃——前额叶 D1 受体倒 U 型工作记忆调控）
 
 **今日主题：** 多巴胺 D1 受体对前额叶 dlPFC 工作记忆的倒 U 型调控机制；D1R-cAMP-HCN 通道分子级联；低剂量滤噪 vs 高剂量全面压制；D1R（层III棘 Delay cells）vs D2R（层V树突干 Response cells）解剖分工；应激→DA/NE过载→HCN开放→PFC关闭；SCZ认知症状（Okubo 1997 PET）；胍法辛 α2A 机制；解答 Q-d1-inverted-u-mechanism

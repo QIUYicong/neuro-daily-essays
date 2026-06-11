@@ -3851,3 +3851,38 @@
   - 问题 B：SCZ 基因组数据（GRIN2A 变异是 SCZ GWAS 的确定性位点之一）——SCZ 相关 GRIN2A 变异是功能缺失型、错义型还是调控型？它们是否直接减少 GluN2A 在 PV 细胞突触的表达/功能？
   - 问题 C：GluN2B 正向变构调制剂（ifenprodil 反向：GluN2B 增强剂），是否与 GluN2A 正向调制剂对 PV 细胞功能的效果相同？有没有理论支持"GluN2B 增强 → PV 活动增加 → γ 改善"的路径？
 - **当前证据状态**：GRIN2A SCZ 关联（高，GWAS）；GluN2A KO → PV 脆弱性（中，2025 单团队）；PV 细胞 GluN2A/GluN2B 比例（低，方法学困难）；GluN2B 调制剂 PV 效应（推测）
+
+---
+
+## 2026-09-15 新增（来自"NMDA 受体的两张脸"文章 #145）
+
+### Q-glun2-switch-upstream-rest（高优先级）：REST 激活本身的上游信号是什么？
+
+- **关联 wiki**：[[glun2-developmental-switch]]、[[nmda-receptor]]、[[critical-period-plasticity]]
+- **来源文章**：2026-09-15-nmda-receptor-subunit-developmental-switch
+- **问题**：Rodenas-Ruano 等（2012，PMID:22960932）证明 REST 驱动 Grin2b 表观遗传沉默，而母婴分离可干扰 REST 激活。但 REST 激活本身的上游信号是什么？
+  - 问题 A：是神经元活动模式（NMDA 受体激活本身反馈驱动 REST）？是激素水平（应激激素影响 REST 表达）？还是遗传性发育程序（内在时钟）？
+  - 问题 B：母婴分离的分离时间窗与 REST 敏感窗口是否重叠？如果在 REST 激活窗口前恢复正常育儿，切换能否被"补救"？
+  - 问题 C：REST 被激活所需的活动模式（阈值、持续时间、频率）是否在不同皮层区域相同？能否通过光遗传学诱发适当活动模式在体内触发 REST 激活？
+- **当前证据状态**：REST 驱动切换（高，Rodenas-Ruano 2012）；REST 上游信号（极低，几乎未知）
+
+### Q-glun2-triheteromeric-region-ratio（中优先级）：成熟突触三异四聚体比例是否有脑区特异性？
+
+- **关联 wiki**：[[glun2-developmental-switch]]、[[nmda-receptor]]、[[prefrontal-cortex]]
+- **来源文章**：2026-09-15-nmda-receptor-subunit-developmental-switch
+- **问题**：Korinek 2024（PMID:38836461）指出成年海马突触主要由三异四聚体（GluN1/GluN2A/GluN2B）组成。但这一比例是否在不同脑区、皮层层次间相同？
+  - 问题 A：dlPFC 层 III 棘状神经元（D1R-WM Delay cells）的 GluN2A:2B 比例是否与海马 CA1 不同？更多 GluN2B（慢衰减）支持更长延迟期积分的 WM 功能？
+  - 问题 B：精神分裂症（#143）中 PV 细胞 NMDA 受体的亚单位比例是否发生改变——GluN2A 选择性丢失是否导致 PV 细胞 NMDA 激活不足？
+  - 问题 C：三异四聚体内部是否存在"次级平衡"——一个 GluN2A + 一个 GluN2B，还是两个 GluN2A，还是两个 GluN2B，各自占比多少？
+- **当前证据状态**：三异四聚体主导成年海马突触（高，Korinek 2024）；脑区比例差异（低，数据分散）
+
+### Q-aging-glun2a-loss-mechanism（中优先级）：老年期 GluN2A 选择性骤降 75% 的精确机制
+
+- **关联 wiki**：[[glun2-developmental-switch]]、[[aging]]、[[alzheimers-disease]]
+- **来源文章**：2026-09-15-nmda-receptor-subunit-developmental-switch
+- **问题**：Siu 等（2017，PMID:28554889）记录了人类视觉皮层老年期（>55 岁）GluN2A 骤降约 75%，而 GluN2B 不变——此选择性丢失的机制完全未知。
+  - 问题 A：是 *Grin2a* 转录下调（REST 再激活？）、GluN2A 蛋白降解加速（泛素化通路），还是选择性突触修剪（含 GluN2A 的突触优先被小胶质细胞补体标记）？
+  - 问题 B：老年期 GluN2A 丢失的时间线是否与认知下降的时间线相关？能否用 GluN2A:2B 比值作为认知老化的生物标志物？
+  - 问题 C：如果通过 AAV 驱动 *Grin2a* 过表达来对抗老年期 GluN2A 丢失，能否延缓认知下降或降低谷氨酸毒性风险？
+- **当前证据状态**：老年期 GluN2A 骤降（高，Siu 2017）；丢失机制（极低，未知）
+

@@ -1,0 +1,110 @@
+# 运行日志 · 2026-09-15 (#145)
+# 主题：NMDA 受体 GluN2B→GluN2A 发育切换机制
+
+---
+
+## 运行信息
+
+- **运行时间（UTC+8）**：2026-06-11（真实日期）
+- **分支**：main
+- **前置状态**：拉取最新 main（git pull --rebase origin main 成功）
+
+---
+
+## 选题过程
+
+### 状态读取结果
+- topic_ledger: 最近 5 篇文章层级以 molecular/cellular/synaptic 为主
+- 未解问题：Q-glun2-switch-development（开放自 2026-05-26，已被 #142、#143、#144 多次标注为"next suggested"但未正面解答）
+- next_suggested_topics（来自 #144）：nmda-receptor-subtypes（明确指向 GluN2B→GluN2A 切换）
+- 图谱缺口：nmda-receptor 页面存在但 GluN2 发育切换无专门页面
+- 既有 wiki：nmda-receptor.md（rev4，知道切换但无深度机制）
+
+### 选题决定
+**主题：NMDA 受体亚单位 GluN2B→GluN2A 发育切换**
+
+理由：
+1. Q-glun2-switch-development 是高优先级开放问题（自 2026-05-26 未解）
+2. 连续 5+ 篇 molecular/cellular 主题——此主题虽仍在分子层，但有人类生命周期维度（brain-region/cognition/disease 延伸）提供层级多样性
+3. 直接填补 wiki 知识缺口（无 glun2-developmental-switch 专门页面）
+4. 连接近期多篇文章（PV/SCZ 的 NMDAR 敏感性、DA/WM 的 NMDA 积分器、SynGAP1 的 LTP）
+
+---
+
+## 文献检索
+
+### 检索词
+1. GluN2B GluN2A developmental switch synaptic plasticity → 10 results (PMIDs: 41329672, 22960932, 25727316, 26797520, 30355491...)
+2. NMDA receptor GluN2 subunit switch critical period plasticity → 2 results (38380828, 25727316)
+3. NR2B NR2A developmental regulation LTP learning memory → 3 results (10827202, 19243221, 21544578)
+4. GluN2B GluN2A NMDA receptor subunit LTP LTD → 5 results (32720424, 34002905, 35484243, 33766086, 39994965)
+5. NMDA receptor subunit review (2022-2026) → 10 results
+6. 多条复杂 AND 查询 → 返回零结果（E-utilities 可能对过长查询有限制）
+
+### 获取情况
+- **开放全文（2篇）**：
+  1. PMC6596503 = PMID:28554889（Siu 2017, J Neurosci）— 读取完整发育阶段数据、GluN2A:2B 比值时间线
+  2. PMC10642921 = PMID:37290118（Nicoll 2023, Physiol Rev）— 读取 CaMKII-GluN2B 机制、LTP 充要条件
+- **摘要读取（7篇）**：
+  - PMID:23686171（Paoletti 2013 NRN 综述）
+  - PMID:22960932（Rodenas-Ruano 2012 REST 机制）
+  - PMID:30355491（McKay 2018 GluN2A 水平驱动）
+  - PMID:35484243（Li 2022 GluN2A 过量损害 LTP+LTD）
+  - PMID:25727316（Yasuda 2015 GluN2B 介导 LTD 时间窗）
+  - PMID:38836461（Korinek 2024 GRIN 变异综述）
+  - PMID:40994429（Banke 2026 radiprodil GluN2B 靶向治疗）
+
+### 限制与排除
+- 多条 E-utilities 复杂查询返回零结果（可能是查询参数格式问题）；已通过简化查询逐步找到关键论文
+- 经典论文（Quinlan 1999, Sheng 1994）无法通过今日 API 验证 PMID，未在文章中直接引用
+- Paoletti 2013、Rodenas-Ruano 2012 均为付费墙论文，仅读摘要；明确标注
+- 未读取 Korinek 2024 全文（Physiological Research，未确认 PMC 权限）
+
+---
+
+## 固结步骤
+
+### 创建的 Wiki 页面（1个）
+- `wiki/concepts/glun2-developmental-switch.md`（新建，established/high）
+  - 涵盖：REST 机制（PMID:22960932）、GluN2A 水平驱动（PMID:30355491）、人类时间线（PMID:28554889）、CaMKII-GluN2B 充要条件（PMID:37290118）、平衡重要性（PMID:35484243）、LTD 时间窗（PMID:25727316）
+
+### 修订的 Wiki 页面（1个）
+- `wiki/concepts/nmda-receptor.md`（rev4 → rev5）
+  - 新增第五重角色小节（GluN2 切换与 LTP 阈值终身调节）
+  - 添加连接：glun2-developmental-switch, bcm-rule, critical-period-plasticity
+  - 新增 key_sources、opens_questions、source_articles
+
+### 矛盾检查
+- 新证据与 nmda-receptor.md 现有内容无直接冲突（GluN2B 在幼年重要已知，切换方向性已在原页面提及）
+- **新增争议登记 C-2026-09-15-01**：历史"GluN2A促LTP/GluN2B促LTD"简化模型 vs 当前证据，记录为 contested claim，open
+
+### 成熟度评估
+- glun2-developmental-switch：established（多独立高质量来源，核心机制清晰）
+
+---
+
+## 文件生成情况
+
+- ✅ articles/2026-09-15-nmda-receptor-subunit-developmental-switch.md（~4800 中文字符）
+- ✅ notes/2026-09-15-reading-notes.md
+- ✅ sources/2026-09-15-sources.json（9 sources）
+- ✅ wiki/concepts/glun2-developmental-switch.md（新建）
+- ✅ wiki/concepts/nmda-receptor.md（rev4→rev5 修订）
+- ✅ wiki/_graph.json（297节点, 1711边）
+- ✅ wiki/index.md（更新头部 + 新增条目）
+- ✅ wiki/CHANGELOG.md（新增今日条目）
+- ✅ state/topic_ledger.json（新增条目 #145）
+- ✅ state/unresolved_questions.md（新增 3 条）
+- ✅ state/contested_claims.json（新增 C-2026-09-15-01）
+- ✅ state/maturity_index.json（新增 glun2-developmental-switch）
+- ✅ state/monthly_synthesis.md（追加今日摘要）
+- ✅ state/source_registry.json（新增 5 条来源）
+- ✅ logs/2026-09-15-run.log（本文件）
+
+---
+
+## Git 与推送状态
+
+- Branch: main
+- Commit: [见下方更新]
+- Push status: [见下方更新]

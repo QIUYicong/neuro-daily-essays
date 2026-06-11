@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "node_count": 288,
   "edge_count": 1637,
   "edge_types": [
@@ -2681,6 +2681,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/dopamine-pfc-inverted-u.md"
+    },
+    {
+      "id": "glun2-developmental-switch",
+      "title": "GluN2 亚单位发育切换",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/glun2-developmental-switch.md"
     }
   ],
   "edges": [
@@ -11759,6 +11768,46 @@
       "to": "persistent-activity",
       "type": "regulates",
       "note": "D1R 倒 U 型通过改变循环回路吸引子稳定性调节持续放电"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "nmda-receptor",
+      "type": "part-of"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "camkii",
+      "type": "regulates"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "bcm-rule",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "critical-period-plasticity",
+      "type": "regulates"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "aging",
+      "type": "related"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "glun2-developmental-switch",
+      "type": "related"
     }
   ],
   "dangling_references": [

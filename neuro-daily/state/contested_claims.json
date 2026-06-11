@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-15",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 11,
+  "open_count": 12,
   "resolved_count": 0,
   "claims": [
     {
@@ -178,6 +178,17 @@
       "source_article": "2026-09-14-dopamine-d1-prefrontal-working-memory",
       "priority": "high",
       "clinical_relevance": "D1R 增强疗法（D1 PAM）治疗 SCZ 认知症状的前提是 D1R 功能不足，若部分患者实际是代偿性上调，则 PAM 可能推到倒 U 右侧进一步损害认知"
+    },
+    {
+      "id": "C-2026-09-15-01",
+      "page": "wiki/concepts/glun2-developmental-switch.md",
+      "claim_A": "经典模型（2000年代主流）：GluN2A 优先介导 LTP，GluN2B 优先介导 LTD——支持者：Liu et al. 2004 (Science) 使用 NVP-AAM077 区分 LTP/LTD 的亚单位依赖性",
+      "claim_B": "修正模型（当前证据）：GluN2A:2B 比值影响的不是可塑性方向（LTP/LTD），而是可塑性阈值和时间窗口；GluN2A 过量增强同时损害 LTP 和 LTD + 认知（Li 2022, PMID:35484243）；NVP-AAM077 的亚单位选择性本身存疑",
+      "nature": "方法论差异（NVP-AAM077 选择性存疑）+ 真实分歧（GluN2 亚单位对 LTP/LTD 方向的控制 vs 阈值的控制）",
+      "status": "open",
+      "opened": "2026-09-15",
+      "priority": "medium",
+      "source_article": "2026-09-15-nmda-receptor-subunit-developmental-switch"
     }
   ]
 }
