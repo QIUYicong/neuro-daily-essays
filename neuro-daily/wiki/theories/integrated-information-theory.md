@@ -9,13 +9,13 @@ created: 2026-05-31
 updated: 2026-06-27
 revision_count: 3
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model, neural-correlates-of-consciousness, split-brain]
+related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model, neural-correlates-of-consciousness, split-brain, recurrent-processing-theory]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
 opens_questions: [Q-iit-01, Q-iit-02, Q-iit-03, Q-iit-04, Q-iit-05, Q-cc-01]
 source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-unified-consciousness]
 key_sources: ["PMID:19098144", "PMID:27225071", "PMID:27094080", "PMID:23946194", "PMID:40307561", "PMID:36763595", "PMID:32135090", "PMID:32399946/PMC7305066"]
-updated: 2026-09-27
-revision_count: 4
+updated: 2026-09-28
+revision_count: 5
 ---
 
 # 整合信息理论 (Integrated Information Theory, IIT)
@@ -87,7 +87,8 @@ IIT 主张，正是这些连接特征使后方皮层具有高 Φ，成为意识�
 
 ## 连接
 
-- [[global-workspace-theory]] — 主要竞争理论；两者在"前额叶 vs 后方皮层"上有根本分歧；COGITATE 2025 对双方同时构成挑战
+- [[global-workspace-theory]] — 主要竞争理论之一；两者在"前额叶 vs 后方皮层"上有根本分歧；COGITATE 2025 对双方同时构成挑战
+- [[recurrent-processing-theory]] — RPT 与 IIT 在"后方皮层是意识基质"上有部分重叠，但分歧在于机制：IIT 强调因果结构（Φ），RPT 强调时间动态（递归处理）；RPT 不接受 IIT 的泛心论推论
 - [[adversarial-collaboration]] — COGITATE 实验所采用的方法论；该方法直接催生了本页的最关键证据
 - [[consciousness-ignition]] — GWT 的点燃机制；IIT 预测"持续激活"而非"瞬态点燃"
 - [[phi-measure]] — Φ 是 IIT 的核心量化度量，本页的数学核心
@@ -122,6 +123,7 @@ IIT 对裂脑有明确的（且不利的）预测：切断胼胝体后，两侧�
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 全文精确数字（3.8% 电极持续激活，BF₀₁=1.15–4.9，<0.75s 同步）；新增 adversarial-collaboration 相关页面；新增 COGITATE 精确数字段落；补充 key_source PMID:32135090
 - 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增 NCC 三分法框架定位（IIT 主要描述内容特异 NCC——后方皮层 Φ 框架）；新增可证伪性问题讨论（gamma 同步只是 Φ 的代理，IIT 框架"辅助假说带"保护核心）；新增 neural-correlates-of-consciousness 到 related；更新 source_articles
 - 2026-09-27 · 修订 · 基于《当胼胝体被切断》(#157) · 新增"裂脑综合征对 IIT 的挑战"节；补充 split-brain 到 related；新增 Q-cc-01；来源 PMID:32399946
+- 2026-09-28 · 修订 · 基于《前馈与递归：RPT》(#158) · 新增 recurrent-processing-theory 到 related；在连接节新增 RPT 对照（IIT vs RPT 机制差异：Φ vs 时间动态）
 
 ## 来源文章
 

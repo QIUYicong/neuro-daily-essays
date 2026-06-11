@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-28",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11524,9 +11524,177 @@
         "corpus callosum",
         "SMA"
       ]
+    },
+    {
+      "pmid": "11074267",
+      "pmcid": null,
+      "title": "The distinct modes of vision offered by feedforward and recurrent processing",
+      "authors_short": "Lamme VA, Roelfsema PR.",
+      "journal": "Trends in Neurosciences",
+      "year": 2000,
+      "open_access": false,
+      "full_text_read": false,
+      "used_in": [
+        "2026-09-28-recurrent-processing-theory-visual-consciousness"
+      ],
+      "covered_topics": [
+        "recurrent processing theory",
+        "feedforward sweep",
+        "visual consciousness",
+        "RPT foundation"
+      ]
+    },
+    {
+      "pmid": "9501251",
+      "pmcid": "PMC19730",
+      "title": "Figure-ground activity in primary visual cortex is suppressed by anesthesia",
+      "authors_short": "Lamme VA, Zipser K, Spekreijse H.",
+      "journal": "PNAS",
+      "year": 1998,
+      "open_access": true,
+      "full_text_read": true,
+      "used_in": [
+        "2026-09-28-recurrent-processing-theory-visual-consciousness"
+      ],
+      "covered_topics": [
+        "V1 figure-ground signal",
+        "anesthesia recurrent processing",
+        "contextual modulation"
+      ]
+    },
+    {
+      "pmid": "12419127",
+      "pmcid": null,
+      "title": "Masking interrupts figure-ground signals in V1",
+      "authors_short": "Lamme VA, Zipser K, Spekreijse H.",
+      "journal": "Journal of Cognitive Neuroscience",
+      "year": 2002,
+      "open_access": false,
+      "full_text_read": false,
+      "used_in": [
+        "2026-09-28-recurrent-processing-theory-visual-consciousness"
+      ],
+      "covered_topics": [
+        "backward masking",
+        "V1 figure-ground",
+        "subjective visibility",
+        "RPT masking evidence"
+      ]
+    },
+    {
+      "pmid": "12716948",
+      "pmcid": "PMC6742343",
+      "title": "Internal State of Monkey Primary Visual Cortex (V1) Predicts Figure-Ground Perception",
+      "authors_short": "Supèr H, van der Togt C, Spekreijse H, Lamme VA.",
+      "journal": "Journal of Neuroscience",
+      "year": 2003,
+      "open_access": true,
+      "full_text_read": true,
+      "used_in": [
+        "2026-09-28-recurrent-processing-theory-visual-consciousness"
+      ],
+      "covered_topics": [
+        "V1 internal state",
+        "perceptual prediction",
+        "neural synchrony",
+        "figure-ground perception"
+      ]
+    },
+    {
+      "pmid": "16997611",
+      "pmcid": null,
+      "title": "Towards a true neural stance on consciousness",
+      "authors_short": "Lamme VA.",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2006,
+      "open_access": false,
+      "full_text_read": false,
+      "used_in": [
+        "2026-09-28-recurrent-processing-theory-visual-consciousness"
+      ],
+      "covered_topics": [
+        "neural stance consciousness",
+        "RPT methodology",
+        "neural vs behavioral evidence"
+      ]
+    },
+    {
+      "pmid": "30061458",
+      "pmcid": "PMC6074090",
+      "title": "Challenges for theories of consciousness: seeing or knowing, the missing ingredient and how to deal with panpsychism",
+      "authors_short": "Lamme VA.",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 2018,
+      "open_access": true,
+      "full_text_read": true,
+      "used_in": [
+        "2026-09-28-recurrent-processing-theory-visual-consciousness"
+      ],
+      "covered_topics": [
+        "RPT missing ingredient",
+        "seeing vs knowing",
+        "NMDA network plasticity",
+        "panpsychism challenge"
+      ]
+    },
+    {
+      "pmid": "32116908",
+      "pmcid": "PMC7034432",
+      "title": "Visual Functions Generating Conscious Seeing",
+      "authors_short": "Lamme VA.",
+      "journal": "Frontiers in Psychology",
+      "year": 2020,
+      "open_access": true,
+      "full_text_read": true,
+      "used_in": [
+        "2026-09-28-recurrent-processing-theory-visual-consciousness"
+      ],
+      "covered_topics": [
+        "four-stage model visual consciousness",
+        "perceptual organization",
+        "RPT vs GWT vs IIT vs HOT"
+      ]
+    },
+    {
+      "pmid": "26585549",
+      "pmcid": null,
+      "title": "No-Report Paradigms: Extracting the True Neural Correlates of Consciousness",
+      "authors_short": "Tsuchiya N, Wilke M, Frässl S, Lamme VA.",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2015,
+      "open_access": false,
+      "full_text_read": false,
+      "used_in": [
+        "2026-09-28-recurrent-processing-theory-visual-consciousness"
+      ],
+      "covered_topics": [
+        "no-report paradigm",
+        "neural correlates of consciousness",
+        "NCC methodology",
+        "report vs consciousness"
+      ]
+    },
+    {
+      "pmid": "32922860",
+      "pmcid": "PMC7475771",
+      "title": "Causal manipulation of feed-forward and recurrent processing differentially affects measures of consciousness",
+      "authors_short": "Allen C, Viola T, Irvine E et al.",
+      "journal": "Neuroscience of Consciousness",
+      "year": 2020,
+      "open_access": true,
+      "full_text_read": true,
+      "used_in": [
+        "2026-09-28-recurrent-processing-theory-visual-consciousness"
+      ],
+      "covered_topics": [
+        "TMS feedforward recurrent",
+        "RPT TMS challenge",
+        "perception vs report",
+        "causal consciousness"
+      ]
     }
   ],
-  "total_sources": 693,
+  "total_sources": 702,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

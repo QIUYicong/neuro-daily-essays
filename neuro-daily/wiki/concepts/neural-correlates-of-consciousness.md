@@ -7,9 +7,10 @@ status: mainstream
 confidence: high
 created: 2026-06-27
 updated: 2026-06-27
-revision_count: 1
+revision_count: 2
+updated: 2026-09-28
 dimensions: [whole-brain-network, brain-region, cognition]
-related: [global-workspace-theory, integrated-information-theory, predictive-coding, consciousness-ignition, posterior-cortical-hot-zone, phi-measure, perturbational-complexity-index, prefrontal-cortex, v1-primary-visual-cortex]
+related: [global-workspace-theory, integrated-information-theory, predictive-coding, consciousness-ignition, posterior-cortical-hot-zone, phi-measure, perturbational-complexity-index, prefrontal-cortex, v1-primary-visual-cortex, recurrent-processing-theory]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex]
 opens_questions: [Q-ncc-01, Q-ncc-02, Q-ncc-03]
 source_articles: [2026-06-27-ncc-consciousness-where]
@@ -52,12 +53,14 @@ Koch 等人（2016, PMID:27094080）进一步区分了三类常被混淆的神�
 
 ### 两个竞争框架对 NCC 的预测
 
-| 维度 | GWT/GNWT | IIT/PCHZ |
-|------|----------|----------|
-| NCC 解剖位置 | 前额-顶叶（广播网络） | 后方皮层（整合网络） |
-| NCC 时间动力学 | 瞬态点燃（onset/offset ~270-300ms） | 持续整合活动 |
-| NCC 神经振荡 | 长程 gamma/beta 同步（前后向） | 局部后方皮层 gamma 同步 |
-| COGITATE 支持程度 | 部分（脑范围广播被确认；点燃特异性预测失败） | 部分（内容解码位置支持；持续整合机制失败） |
+| 维度 | GWT/GNWT | IIT/后方热区 | RPT |
+|------|----------|-------------|-----|
+| NCC 解剖位置 | 前额-顶叶（广播网络） | 后方皮层（整合网络） | 后方皮层（V1 及早期视觉皮层） |
+| NCC 时间动力学 | 瞬态点燃（onset ~270-300ms） | 持续整合活动 | 递归回路启动（~100-160ms 后延迟响应） |
+| NCC 核心机制 | 全局广播 | Φ（整合因果结构） | 递归处理（前馈→反馈→前馈循环） |
+| 注意是否必要 | 是（使能 NCC 需要注意分配） | 否（Φ 独立于注意） | 否（递归可在注意缺席时发生） |
+| 报告是否等于意识 | 基本是（报告是可达意识的标志） | 否 | 否（无报告范式是更干净的检验） |
+| COGITATE 支持程度 | 部分（广播被确认；点燃预测失败） | 部分（内容解码后方支持；持续同步失败） | 未直接检验（COGITATE 不针对 RPT）；TMS 研究有挑战（PMID:32922860） |
 
 ## 关键证据
 
@@ -73,6 +76,7 @@ Koch 等人（2016, PMID:27094080）进一步区分了三类常被混淆的神�
 
 ## 连接
 
+- [[recurrent-processing-theory]] — RPT 认为内容特异 NCC 就是后方皮层内的递归回路（V1 图像-背景信号）；不需要广播也不依赖 Φ；强调无报告范式是正确的检验方法
 - [[global-workspace-theory]] — GWT 描述使能 NCC 和完整 NCC（前额叶广播机制）
 - [[integrated-information-theory]] — IIT 描述内容特异 NCC（后方皮层 Φ 机制）
 - [[posterior-cortical-hot-zone]] — IIT/Koch 对内容特异 NCC 解剖位置的具体假说
@@ -92,6 +96,7 @@ Koch 等人（2016, PMID:27094080）进一步区分了三类常被混淆的神�
 ## 修订历史
 
 - 2026-06-27 · 创建 · 基于《意识在哪里？》(#63) · 首次将 NCC 作为独立概念建页；整合了 COGITATE 2025 实验裁决结果和 Koch 等（2016）三分法；初始置信度：高（NCC 纲领的价值和框架是 established，但具体机制仍 emerging/contested）
+- 2026-09-28 · 修订 · 基于《前馈与递归：RPT》(#158) · 新增 recurrent-processing-theory 到 related 和连接节；RPT 代表了第三种 NCC 机制框架（后方皮层递归，区别于 GWT 的前额广播和 IIT 的 Φ）
 
 ## 来源文章
 

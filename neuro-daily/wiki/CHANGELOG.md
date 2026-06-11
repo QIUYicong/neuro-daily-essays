@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-09-28（文章 #158：前馈与递归——Victor Lamme 的递归处理理论如何把意识锚定在视觉皮层的反馈回路中）
+
+**今日主题：** 递归处理理论（RPT）——前馈扫描 vs 递归处理的两种视觉模式；V1 图像-背景分离信号作为 RPT 核心神经标记；麻醉/掩蔽实验证据；四阶段视觉意识模型；RPT vs GWT vs IIT 三方比较；无报告范式方法论；Allen et al. 2020 的 TMS 挑战；"缺失要素"（NMDA+网络可塑性）。填补图谱悬空引用 `recurrent-processing-theory`（在 2026-09-27 CHANGELOG 中已标记为待建）。
+
+### 新建 wiki 页面（1 个）
+
+- `wiki/theories/recurrent-processing-theory.md` — 递归处理理论 | mainstream / medium | 填补 2026-09-27 悬空引用；前馈（无意识）vs 递归（有意识）两种处理模式；V1 图像-背景分离信号三条证据链（麻醉 PMID:9501251、掩蔽 PMID:12419127、刺激前状态 PMID:12716948）；四阶段模型（PMID:32116908）；RPT vs GWT（无前额叶广播必要）vs IIT（时间动态 vs 因果结构）；无报告范式（PMID:26585549）；Allen TMS 挑战（PMID:32922860）；缺失要素（PMID:30061458）
+
+### 修订 wiki 页面（3 个）
+
+- `wiki/theories/global-workspace-theory.md` rev8 — 新增 recurrent-processing-theory 到 related；在连接节新增 RPT 对照说明（意识是否需要前额叶广播的核心分歧）
+- `wiki/theories/integrated-information-theory.md` rev5 — 新增 recurrent-processing-theory 到 related；在连接节新增 RPT vs IIT 机制差异（Φ vs 时间动态；RPT 不接受 IIT 泛心论推论）
+- `wiki/concepts/neural-correlates-of-consciousness.md` rev2 — 新增 recurrent-processing-theory 到 related 和连接节；更新三理论对比表（GWT/IIT/RPT 三列比较：NCC 位置/时间动力学/核心机制/注意是否必要/报告是否等于意识/COGITATE 支持程度）
+
+### 图谱更新
+
+- 新增节点：`recurrent-processing-theory`；图谱节点数：315 → 316
+- 新增边（6 条）：recurrent-processing-theory→global-workspace-theory（contradicts）；recurrent-processing-theory→integrated-information-theory（related）；recurrent-processing-theory→neural-correlates-of-consciousness（mechanism-of）；recurrent-processing-theory→v1-primary-visual-cortex（mechanism-of）；recurrent-processing-theory→predictive-coding（related）；recurrent-processing-theory→consciousness-ignition（contradicts）；图谱边数：1832 → 1838
+
+### 登记或裁决矛盾
+
+- **无新矛盾登记**：Allen et al. 2020 的 TMS 结果（早期 TMS 比晚期 TMS 更大破坏意识）被记入 wiki/theories/recurrent-processing-theory.md 关键证据表，作为"挑战简单二分法"的反例，置信度"中"，不构成裂脑级别的直接矛盾——更多是 RPT 简化版本的修正信号
+
+### 新增悬空引用待补
+
+- `figure-ground-segregation`（RPT 页面连接中引用，独立概念页尚未建立）
+- `no-report-paradigm`（RPT 页面连接中引用，方法论页面尚未建立）
+- `feedforward-processing`（RPT 页面 prerequisites 中引用，概念页尚未建立）
+
+---
+
 ## 2026-09-27（文章 #157：当胼胝体被切断——裂脑患者的意识、诠释者与 Pinto 的统一意识论）
 
 **今日主题：** 裂脑综合征（Gazzaniga 经典"双意识"与 Pinto 2017"统一意识+分裂感知"框架）、意识理论检验（IIT/GWT/RPT 各自的裂脑预测）、诠释者模块、跨提示争议、触觉/fMRI 后续证据（de Haan 2020/2021）、异手综合征（agency 解离）、填补图谱悬空引用 `split-brain`。

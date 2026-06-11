@@ -1,0 +1,131 @@
+{
+  "date": "2026-09-28",
+  "real_date": "2026-06-11",
+  "article_number": 158,
+  "topic": "递归处理理论（Recurrent Processing Theory, RPT）",
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Lamme VA, Roelfsema PR. The distinct modes of vision offered by feedforward and recurrent processing. Trends Neurosci. 2000 Nov;23(11):571-9.",
+      "pmid": "11074267",
+      "pmcid": null,
+      "doi": "10.1016/s0166-2236(00)01657-x",
+      "type": "review_theory",
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "奠基性理论综述：前馈与递归两种视觉处理模式的区分；RPT 理论框架的主要来源",
+      "notes": "只读摘要；Trends in Neuroscience 综述，高被引（>5000次）"
+    },
+    {
+      "id": "S2",
+      "citation": "Lamme VA, Zipser K, Spekreijse H. Figure-ground activity in primary visual cortex is suppressed by anesthesia. Proc Natl Acad Sci USA. 1998 Mar 17;95(6):3263-8.",
+      "pmid": "9501251",
+      "pmcid": "PMC19730",
+      "doi": "10.1073/pnas.95.6.3263",
+      "type": "original_research",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "关键实验：麻醉消除 V1 图像-背景分离信号，保留前馈响应；RPT 核心证据之一",
+      "notes": "猕猴在体电生理；开放全文 PMC 已读"
+    },
+    {
+      "id": "S3",
+      "citation": "Lamme VA, Zipser K, Spekreijse H. Masking interrupts figure-ground signals in V1. J Cogn Neurosci. 2002 Oct 1;14(7):1044-53.",
+      "pmid": "12419127",
+      "pmcid": null,
+      "doi": "10.1162/089892902320474490",
+      "type": "original_research",
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "掩蔽实验：视觉掩蔽精确对应 V1 图像-背景信号消失与主观不可见；RPT 核心证据之一",
+      "notes": "只读摘要和二手引用"
+    },
+    {
+      "id": "S4",
+      "citation": "Supèr H, van der Togt C, Spekreijse H, Lamme VA. Internal State of Monkey Primary Visual Cortex (V1) Predicts Figure-Ground Perception. J Neurosci. 2003 Apr 15;23(8):3407-3414.",
+      "pmid": "12716948",
+      "pmcid": "PMC6742343",
+      "doi": "10.1523/JNEUROSCI.23-08-03407.2003",
+      "type": "original_research",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "V1 刺激前内部状态（神经元同步性）预测图像检测成功率；RPT 递归网络基线状态作用的证据",
+      "notes": "猕猴在体电生理；开放全文 PMC 已读"
+    },
+    {
+      "id": "S5",
+      "citation": "Lamme VA. Towards a true neural stance on consciousness. Trends Cogn Sci. 2006 Nov;10(11):494-501.",
+      "pmid": "16997611",
+      "pmcid": null,
+      "doi": "10.1016/j.tics.2006.09.001",
+      "type": "review_theory",
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "方法论立场：神经证据与行为报告同等权重；RPT 从相关理论升级为神经定义理论的论证",
+      "notes": "只读摘要"
+    },
+    {
+      "id": "S6",
+      "citation": "Lamme VA. Challenges for theories of consciousness: seeing or knowing, the missing ingredient and how to deal with panpsychism. Philos Trans R Soc Lond B Biol Sci. 2018 Sep 19;373(1755):20170344.",
+      "pmid": "30061458",
+      "pmcid": "PMC6074090",
+      "doi": "10.1098/rstb.2017.0344",
+      "type": "review_theory",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "缺失要素问题（NMDA 依赖的网络可塑性）；seeing vs knowing 分歧；对 GWT/IIT 的批评",
+      "notes": "开放全文 PMC 已读"
+    },
+    {
+      "id": "S7",
+      "citation": "Lamme VA. Visual Functions Generating Conscious Seeing. Front Psychol. 2020 Feb 14;11:83.",
+      "pmid": "32116908",
+      "pmcid": "PMC7034432",
+      "doi": "10.3389/fpsyg.2020.00083",
+      "type": "review_theory",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "最新四阶段视觉意识模型；感知觉组织作为意识的关键运算；RPT 与 GWT/IIT/HOT 的对比",
+      "notes": "开放全文 PMC 已读；2020 年最新综述"
+    },
+    {
+      "id": "S8",
+      "citation": "Tsuchiya N, Wilke M, Frässle S, Lamme VA. No-Report Paradigms: Extracting the True Neural Correlates of Consciousness. Trends Cogn Sci. 2015 Dec;19(12):757-770.",
+      "pmid": "26585549",
+      "pmcid": null,
+      "doi": "10.1016/j.tics.2015.10.002",
+      "type": "review_methods",
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "无报告范式理论框架；如何区分报告相关神经活动与意识相关神经活动",
+      "notes": "只读摘要"
+    },
+    {
+      "id": "S9",
+      "citation": "Allen C, Viola T, Irvine E, Sedgmond J, Castle H, Gray R, Chambers CD. Causal manipulation of feed-forward and recurrent processing differentially affects measures of consciousness. Neurosci Conscious. 2020;2020(1):niaa015.",
+      "pmid": "32922860",
+      "pmcid": "PMC7475771",
+      "doi": "10.1093/nc/niaa015",
+      "type": "original_research",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "对 RPT 简化版的挑战：早期 TMS（前馈期）比晚期 TMS 更大破坏意识；前馈/递归区分可能更好对应感知/报告",
+      "notes": "人类 TMS；预注册实验；开放全文 PMC 已读；重要反例"
+    },
+    {
+      "id": "S10",
+      "citation": "Koch C, Massimini M, Boly M, Tononi G. Neural correlates of consciousness: progress and problems. Nat Rev Neurosci. 2016 May;17(5):307-321.",
+      "pmid": "27094080",
+      "pmcid": null,
+      "doi": "10.1038/nrn.2016.22",
+      "type": "review_theory",
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "后方皮层热区背景；NCC 三分法框架；为 RPT 后方皮层立场提供跨理论支撑",
+      "notes": "只读摘要；Nature Reviews Neuroscience 综述"
+    }
+  ],
+  "open_full_text_count": 5,
+  "abstract_only_count": 5,
+  "notes": "5篇开放全文：PMID:9501251 (PMC19730), PMID:12716948 (PMC6742343), PMID:30061458 (PMC6074090), PMID:32116908 (PMC7034432), PMID:32922860 (PMC7475771)。满足≥2篇开放全文要求。来源均为官方 PubMed/PMC，无盗版。"
+}

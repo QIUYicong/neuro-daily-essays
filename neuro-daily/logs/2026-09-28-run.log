@@ -1,0 +1,104 @@
+# 运行日志 2026-09-28
+
+**叙事日期**：2026-09-28
+**实际运行日期**：2026-06-11
+**文章编号**：#158
+**运行状态**：成功
+
+---
+
+## 搜索词与数据源
+
+### PubMed 检索
+
+1. `Lamme recurrent processing theory consciousness visual cortex RPT PubMed 2020 2021 2022 2023 2024`
+2. `Victor Lamme recurrent processing visual awareness feedforward feedback consciousness review 2019 2020`
+3. `Lamme Super Spekreijse 1998 figure ground V1 monkey recurrent processing`
+4. `Lamme 2006 "towards a true neural stance on consciousness" PMID`
+5. `no-report paradigm consciousness research PMID Koch Tsuchiya Lamme 2016`
+6. `consciousness posterior cortex hot zone Koch Massimini 2016 neural correlate`
+7. `Lamme recurrent processing theory V1 masking backward masking figure PMID`
+
+### 数据源
+
+- PubMed/NCBI E-utilities：用于检索 PMID、DOI、摘要
+- PMC Open Access：获取开放全文（5篇）
+- WebFetch：直接获取 PMC 页面内容
+
+---
+
+## 候选来源与采用/排除
+
+### 采用来源（10篇）
+
+| PMID | 标题简述 | 来源类型 | 全文状态 | 采用原因 |
+|------|---------|---------|---------|---------|
+| 11074267 | Lamme & Roelfsema 2000 前馈/递归两模式 | 奠基综述 | 摘要 | RPT 理论核心来源 |
+| 9501251 | Lamme et al. 1998 麻醉消除V1图像-背景信号 | 原始研究 | PMC 全文 | RPT 最重要实验证据 |
+| 12419127 | Lamme et al. 2002 掩蔽中断V1信号 | 原始研究 | 摘要 | RPT 掩蔽证据 |
+| 12716948 | Super et al. 2003 V1准备状态预测感知 | 原始研究 | PMC 全文 | 递归网络状态影响意识 |
+| 16997611 | Lamme 2006 神经视角立场 | 理论综述 | 摘要 | 方法论基础 |
+| 30061458 | Lamme 2018 挑战与缺失要素 | 理论综述 | PMC 全文 | seeing vs knowing; 缺失要素 |
+| 32116908 | Lamme 2020 四阶段模型 | 理论综述 | PMC 全文 | 最新 RPT 综合框架 |
+| 26585549 | Tsuchiya et al. 2015 无报告范式 | 方法综述 | 摘要 | 无报告范式理论框架 |
+| 32922860 | Allen et al. 2020 TMS 因果操控 | 原始研究 | PMC 全文 | 对 RPT 的重要挑战 |
+| 27094080 | Koch et al. 2016 后方皮层热区 | 理论综述 | 摘要 | 背景；后方皮层立场支撑 |
+
+### 排除来源
+
+- ResearchGate PDF：版权不明确，不使用
+- ArXiv 非同行评审论文：不作为神经科学事实主张的来源
+- 其他非 PubMed/PMC 官方来源：不使用
+
+---
+
+## 固结步骤执行记录
+
+### 今日文章触及的概念
+
+1. `recurrent-processing-theory` — **新建** `wiki/theories/recurrent-processing-theory.md`
+2. `feedforward-processing` — **悬空引用**（已标记，待下次补建）
+3. `figure-ground-segregation` — **悬空引用**（已标记，待下次补建）
+4. `no-report-paradigm` — **悬空引用**（已标记，待下次补建）
+5. `global-workspace-theory` — **修订** rev7→rev8（新增 RPT 相关条目）
+6. `integrated-information-theory` — **修订** rev4→rev5（新增 RPT 相关条目）
+7. `neural-correlates-of-consciousness` — **修订** rev1→rev2（更新三理论对比表）
+
+### 矛盾检查
+
+- 无新矛盾需要登记到 contested_claims.json
+- Allen et al. 2020 TMS 结果（早期 TMS 更有效）被记入 wiki 关键证据表作为"挑战简单二分法"的反例，置信度"中"
+- Lamme 2018 的"缺失要素"问题（纯递归可能不是充分条件）与简单 RPT 的修订需求一致
+
+### 成熟度评估
+
+- `recurrent-processing-theory`：首次建立，设为 mainstream/medium（多个独立实验支持基本框架，但 Allen 2020 挑战简单版本，缺失要素问题仍 open）
+
+---
+
+## 图谱更新
+
+- 节点 315 → 316（新增 `recurrent-processing-theory`）
+- 边 1832 → 1838（新增 6 条）
+
+---
+
+## Git 操作记录
+
+- 分支：main
+- commit message: Add neuro daily article + wiki consolidation for 2026-09-28
+- push: origin main
+
+---
+
+## 失败与限制
+
+- PMID:12419127（掩蔽实验全文）无 PMC 开放全文，仅读摘要 → 已在来源文件和文章中标注"未读全文"
+- PMID:16997611（Trends Cogn Sci 2006）无 PMC 开放全文，仅读摘要
+- PMID:26585549（无报告范式 Trends Cogn Sci 2015）无 PMC 开放全文，仅读摘要
+- PMID:27094080（Nat Rev Neurosci 2016）无 PMC 开放全文，仅读摘要
+- 以上均在文章参考来源部分明确标注
+
+---
+
+*日志生成时间：2026-06-11（实际）/ 2026-09-28（叙事）*

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "node_count": 303,
   "edge_count": 1760,
   "edge_types": [
@@ -2852,6 +2852,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/diseases/alien-hand-syndrome.md"
+    },
+    {
+      "id": "recurrent-processing-theory",
+      "title": "递归处理理论",
+      "domain": "theories",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/theories/recurrent-processing-theory.md"
     }
   ],
   "edges": [
@@ -12603,6 +12612,36 @@
       "from": "corpus-callosum",
       "to": "split-brain",
       "type": "mechanism-of"
+    },
+    {
+      "from": "recurrent-processing-theory",
+      "to": "global-workspace-theory",
+      "type": "contradicts"
+    },
+    {
+      "from": "recurrent-processing-theory",
+      "to": "integrated-information-theory",
+      "type": "related"
+    },
+    {
+      "from": "recurrent-processing-theory",
+      "to": "neural-correlates-of-consciousness",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "recurrent-processing-theory",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "recurrent-processing-theory",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "recurrent-processing-theory",
+      "to": "consciousness-ignition",
+      "type": "contradicts"
     }
   ],
   "dangling_references": [

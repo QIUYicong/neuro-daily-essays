@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-27（**#157**·裂脑综合征与意识理论——填补悬空引用split-brain；新建2页：split-brain（Gazzaniga诠释者/Pinto统一意识/IIT-GWT-RPT预测/de Haan系列证据）、alien-hand-syndrome（三亚型/agency解离）；修订3页：IIT rev4、GWT rev7、corpus-callosum rev2；图谱 315 节点，1832 边）· 主题页总数：**294**（新建2页）
+> 最后更新：2026-09-28（**#158**·递归处理理论——填补悬空引用recurrent-processing-theory；新建1页：recurrent-processing-theory（RPT前馈/递归两模式/V1图像-背景分离/麻醉掩蔽证据/四阶段模型/RPT-GWT-IIT三方比较）；修订3页：IIT rev5、GWT rev8、NCC rev2；图谱 316 节点，1838 边）· 主题页总数：**295**（新建1页）
 
 ---
 
@@ -320,6 +320,7 @@
 - 🟡 [自由能原理（FEP）](theories/free-energy-principle.md) — Friston 统一框架：最小化变分自由能（惊喜上界）= 感知+行动的共同目标；感知=更新内部模型，行动=改变感觉输入；学习=更新模型参数；VAE数学等价 **[NEW 2026-09-01]**
 - 🟡 [主动推断](theories/active-inference.md) — FEP中行动的计算含义：实现本体感觉预测而非输出运动命令；感知与行动统一于同一优化目标；小脑精度先验角色（DCN时间精度+高尔基细胞空间精度）；单前向模型优势；Friston & Herreros 2016 眼睑模型 **[修订 rev2 2026-09-02]**
 - 🔴 [整合信息理论（IIT）](theories/integrated-information-theory.md) — 意识 = Φ（整合信息量）；五公理推导物理约束；意识基质在后方皮层热区（而非前额叶）；小脑/视网膜低 Φ 预测与临床一致；COGITATE 2025 挑战核心机制预测（后方皮层同步缺失）；泛心论蕴含；前馈网络 Φ ≈ 0 **[NEW 2026-05-31 · 争议]**
+- 🔵 [递归处理理论（RPT）](theories/recurrent-processing-theory.md) — Lamme：意识 = 视觉皮层后方递归处理（前馈无意识，反馈+水平连接产生感知觉组织）；V1图像-背景分离信号三证据链（麻醉/掩蔽/预处理状态）；四阶段模型；不需要前额叶广播；无报告范式支持；Allen TMS挑战；缺失要素（NMDA+网络可塑性）**[NEW 2026-09-28 #158 · 填补悬空引用]**
 - 🟡 [精度加权](concepts/precision-weighting.md) — 预测误差信号携带精度权重，注意力形式化为选择性提升误差精度；ACh/NE/DA是分子层面的精度调节器；VIP-SST去抑制回路是回路层面的实现候选 **[NEW 2026-06-15]**
 
 ## diseases（疾病）

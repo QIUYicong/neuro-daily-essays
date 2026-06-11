@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-27",
-  "total_articles": 157,
+  "last_updated": "2026-09-28",
+  "total_articles": 158,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10377,6 +10377,93 @@
         "recurrent-processing-theory: Lamme 的递归处理理论完整页面（视觉皮层内的反馈回路；attention vs consciousness 解离；无报告范式；与 GWT/IIT 的根本分歧）——为裂脑意识框架提供理论底座",
         "anterior-commissure: 前连合专页（AgCC 中的代偿；嗅觉/颞叶前端连接；胼胝体 vs 前连合的功能分工）——填补 agenesis-corpus-callosum 悬空引用",
         "prefrontal-working-memory-alpha: α振荡在前额叶工作记忆中的角色（与海马θ的跨区耦合；从注意层切换到工作记忆层级；课程脊柱 ch.5）"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "real_date": "2026-06-11",
+      "article_number": 158,
+      "title": "前馈与递归：Victor Lamme 的递归处理理论如何把意识锚定在视觉皮层的反馈回路中",
+      "slug": "recurrent-processing-theory-visual-consciousness",
+      "filename": "2026-09-28-recurrent-processing-theory-visual-consciousness.md",
+      "article_type": "regular",
+      "core_question": "Victor Lamme 的递归处理理论（RPT）如何通过区分前馈（无意识特征路由，50-100ms）和递归处理（有意识感知觉组织，100ms后）两种视觉处理模式，把意识的神经基础锚定在视觉皮层（特别是V1）内的反馈回路中？关键实验证据（麻醉/掩蔽/V1准备状态）是什么？RPT与GWT（前额叶广播）和IIT（Φ因果结构）的根本分歧在哪里？无报告范式如何支持RPT的后方皮层立场？Allen et al. 2020的TMS挑战如何修正简化版RPT？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "cognition",
+        "theories"
+      ],
+      "curriculum_track": "8. 意识与自我（意识理论三篇系列之三：继GWT #29/IIT #29之后，RPT第三个主流理论框架）",
+      "topic_tags": [
+        "recurrent processing theory",
+        "RPT",
+        "Victor Lamme",
+        "feedforward sweep",
+        "recurrent processing",
+        "figure-ground segregation",
+        "V1",
+        "primary visual cortex",
+        "contextual modulation",
+        "anesthesia",
+        "backward masking",
+        "visual consciousness",
+        "neural correlates of consciousness",
+        "NCC",
+        "no-report paradigm",
+        "perceptual organization",
+        "phenomenal consciousness",
+        "access consciousness",
+        "posterior cortex",
+        "four-stage model",
+        "NMDA receptor",
+        "network plasticity",
+        "missing ingredient",
+        "TMS",
+        "Allen 2020",
+        "feedforward processing",
+        "feedback connections",
+        "horizontal connections"
+      ],
+      "main_sources": [
+        "PMID:11074267 (Lamme & Roelfsema 2000, Trends Neurosci, abstract only - foundational theory)",
+        "PMID:9501251 / PMC19730 (Lamme, Zipser, Spekreijse 1998, PNAS, open full text read - anesthesia experiment)",
+        "PMID:12419127 (Lamme, Zipser, Spekreijse 2002, J Cogn Neurosci, abstract only - masking experiment)",
+        "PMID:12716948 / PMC6742343 (Super et al. 2003, J Neurosci, open full text read - V1 state predicts perception)",
+        "PMID:16997611 (Lamme 2006, Trends Cogn Sci, abstract only - neural stance)",
+        "PMID:30061458 / PMC6074090 (Lamme 2018, Phil Trans R Soc B, open full text read - missing ingredient)",
+        "PMID:32116908 / PMC7034432 (Lamme 2020, Front Psychol, open full text read - four-stage model)",
+        "PMID:26585549 (Tsuchiya et al. 2015, Trends Cogn Sci, abstract only - no-report paradigm)",
+        "PMID:32922860 / PMC7475771 (Allen et al. 2020, Neurosci Conscious, open full text read - TMS challenge)",
+        "PMID:27094080 (Koch et al. 2016, Nat Rev Neurosci, abstract only - posterior hot zone background)"
+      ],
+      "wiki_pages_created": [
+        "wiki/theories/recurrent-processing-theory.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/global-workspace-theory.md (rev7->rev8): 新增 recurrent-processing-theory 到 related；连接节新增 RPT 对照",
+        "wiki/theories/integrated-information-theory.md (rev4->rev5): 新增 recurrent-processing-theory 到 related；连接节新增 RPT vs IIT 机制差异对比",
+        "wiki/concepts/neural-correlates-of-consciousness.md (rev1->rev2): 新增 recurrent-processing-theory 到 related；连接节新增 RPT 作为第三种 NCC 框架；更新三理论对比表（加入 RPT 列）"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-rpt-01",
+        "Q-rpt-02",
+        "Q-rpt-03"
+      ],
+      "dangling_references_filled": [
+        "recurrent-processing-theory"
+      ],
+      "new_dangling_references": [
+        "figure-ground-segregation",
+        "no-report-paradigm",
+        "feedforward-processing"
+      ],
+      "next_suggested_topics": [
+        "anterior-commissure: 前连合专页（AgCC中的代偿；嗅觉/颞叶前端连接；胼胝体 vs 前连合的功能分工）——继续填补悬空引用，从意识系列自然转入解剖连接系列",
+        "figure-ground-segregation: 图像-背景分离作为独立概念页（Gestalt传统；Lamme V1信号；反馈机制；与注意的解离；适用范围从视觉到其他模态）——从今日RPT主题延伸出来的核心概念",
+        "no-report-paradigm: 无报告范式方法论页（Koch-Tsuchiya-Lamme 2015；双目竞争；SSVEP；NCC研究的方法论革命）——连接RPT到更广泛的NCC实验方法"
       ]
     }
   ],
