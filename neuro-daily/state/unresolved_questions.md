@@ -1,6 +1,49 @@
 # 未解问题追踪
 
-*最后更新：2026-09-10*
+*最后更新：2026-09-18*
+
+---
+
+## 2026-09-18 新增（来自"大脑的时间机器"文章 #148）
+
+### Q-hsr-01（高优先级）：单细胞分辨率直接测量后继者表征矩阵
+
+- **关联 wiki**：[[successor-representation]]、[[place-cells]]、[[hippocampal-circuit]]
+- **来源文章**：2026-09-18-hippocampal-successor-representation-simulation
+- **问题**：Stachenfeld 2017 的 SR 框架是理论推断——场所细胞编码 SR 矩阵的证据来自对激活模式的间接拟合，而非直接测量 M(s,s') 矩阵。
+  - 问题 A：能否设计实验，在受控环境中系统改变动物的行走政策（从而改变 SR），并在单细胞水平上直接验证场所细胞激活模式随之系统变化？
+  - 问题 B：一次 SWR 内重放序列是否对应 M 矩阵的一行（从当前状态到多个未来状态）？还是多次 SWR 才覆盖 M 矩阵的完整行？
+- **当前证据状态**：理论拟合（强，间接）；单细胞直接验证（缺乏）
+
+### Q-hsr-02（高优先级）：前额皮层如何触发海马仿真？
+
+- **关联 wiki**：[[successor-representation]]、[[prefrontal-cortex]]、[[sharp-wave-ripples]]、[[world-model]]
+- **来源文章**：2026-09-18-hippocampal-successor-representation-simulation
+- **问题**：Jensen 2024 的模型中，PFC 是"元控制者"（meta-controller），但具体机制不明。
+  - 问题 A：PFC 触发海马仿真的信号是什么？是特定的振荡同步（θ/δ）、特定的神经调质（ACh/NE）水平变化，还是 PFC 特定神经元的投射激活？
+  - 问题 B：PFC 如何决定"这里需要仿真多少步"（折扣因子 γ 等价物）？是通过前额叶激活的持续时间，还是通过调质系统动态调节？
+  - 问题 C：当仿真成功时（找到路径），PFC 如何"停止"海马继续展开？
+- **当前证据状态**：PFC-海马功能耦合（高，Sun 2024 PMID:38872470）；具体触发/调度机制（极低）
+
+### Q-hsr-03（中优先级）：后继者表征是否延伸至社会性和概念性仿真？
+
+- **关联 wiki**：[[successor-representation]]、[[cognitive-map]]、[[default-mode-network]]
+- **来源文章**：2026-09-18-hippocampal-successor-representation-simulation
+- **问题**：SR 框架已在空间导航中得到良好验证，但大脑明显也能仿真社会情境（"如果我说了那句话，对方会如何反应"）和概念关系（类比推理）。
+  - 问题 A：社会仿真是否也使用海马 SR 框架，或者由 mPFC/TPJ 的独立机制完成？
+  - 问题 B：概念空间中的"网格样"激活（EC 六边形对称，Bellmund 2016）是否对应概念 SR？
+  - 问题 C：能否设计实验，让被试在社会/概念场景中"规划"，并测量 SWR 统计特征与策略展开的相似度？
+- **当前证据状态**：概念空间网格编码（中，Bellmund 2016 等）；社会仿真的 SR 证据（缺乏）
+
+### Q-hsr-04（中优先级）：海马损伤后的想象能力是否能恢复？
+
+- **关联 wiki**：[[successor-representation]]、[[world-model]]、[[hippocampal-circuit]]
+- **来源文章**：2026-09-18-hippocampal-successor-representation-simulation
+- **问题**：Hassabis 2007 证明双侧海马损伤者不能构建新场景，但：
+  - 问题 A：单侧海马损伤是否也显著损害场景构建？双侧完整的哪侧更重要？
+  - 问题 B：儿童期海马损伤（在想象能力发育前）与成年期损伤，哪种更严重损害想象力？
+  - 问题 C：随着时间推移，部分遗忘症患者是否能通过前额皮层的代偿策略恢复一定程度的场景构建能力？
+- **当前证据状态**：双侧HPC损伤→场景构建受损（高，Hassabis 2007）；恢复/单侧/发育差异（极低）
 
 ---
 

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-09-10
-revision_count: 7
+updated: 2026-09-18
+revision_count: 8
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
-related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling]
+related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, successor-representation, world-model]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-09-10-complementary-learning-systems-sleep-consolidation]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:37987008", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38168420"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-09-10-complementary-learning-systems-sleep-consolidation, 2026-09-18-hippocampal-successor-representation-simulation]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:37987008", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38168420", "PMID:38849521"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -101,6 +101,8 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 - [[so-spindle-swr-coupling]] — SWR 是三重耦合的"载荷"，嵌套在纺锤波波谷，将压缩记忆序列写入皮层
 - [[ltp]] — SWR重播可能通过反复激活强化海马-皮层突触（LTP机制）
 - [[hebbian-learning]] — SWR重播序列中前后神经元的同步激活可能触发Hebbian型突触修改
+- [[successor-representation]] — 清醒SWR重放在统计特征上等价于SR空间上的策略展开；SWR是SR仿真的物理载体
+- [[world-model]] — SWR重放是大脑世界模型离线仿真的核心执行机制
 
 ## 新发现（2024-2026）
 
@@ -119,6 +121,18 @@ Chang等（2025，PMID:39743590）发现NREM睡眠中瞳孔收缩期（NE低）�
 ### CA3突触结构双重决定（Ecker et al. 2022）
 
 Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学习依赖的突触权重结构（对称STDP）既决定重放内容也决定SWR能否产生。对称STDP→前向+逆向重放；非对称STDP→仅前向。**"学什么"和"重放什么"共用同一张突触地图。**
+
+### 重放作为策略展开（Jensen et al. 2024）
+
+Jensen、Hennequin和Mattar（2024，PMID:38849521，Nature Neuroscience，开放全文PMC11239510）通过元强化学习计算模型，对大鼠海马重放数据的重新分析表明：**重放序列在统计特征上与"在世界模型上执行政策展开（policy rollout）"完全一致**：
+
+- 重放序列避开物理不可能路径（墙壁）
+- 重放序列向奖励/目标区域聚焦（不是均匀探索）
+- 连续多次重放的目标到达成功率递增
+
+这三个特征同时出现在计算模型的策略展开和真实大鼠的SWR重放中，且不太可能是巧合。该研究还将人类"思考时间"（更难的任务→更长思考时间）与模型的展开次数成功关联，提供了跨物种的会聚证据。
+
+**含义**：重放不只是记忆的历史录像，**清醒状态的SWR重放至少部分功能是主动的前向规划仿真**——前额皮层作为元控制者调度这一过程，海马作为执行引擎生成具体展开序列。这为"重放的功能"争论（记忆巩固 vs 规划）提供了新的解决框架：两种功能可能在时间上分布（清醒SWR主要规划，睡眠SWR主要巩固），不互斥。
 
 ### 皮层涟漪的顶-下抑制与门控（Shin & Jadhav 2023）
 
@@ -146,6 +160,7 @@ Shin 和 Jadhav（2023，PMID:38168420，PMCID:PMC10760112）揭示了一个反�
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · related新增sleep-spindles和cortical-slow-oscillation（SWR作为SO-spindle-SWR三重奏的第三层）；key_sources扩充3个（Latchoumane 2017三重耦合因果、Staresina 2024综述、Jiang 2019人类颅内验证）；source_articles新增2026-06-19
 - 2026-07-07 · 修订 rev6 · 基于《三重协奏》文章(#75) · 新增 Maingret 2016 闭环刺激因果证据（PMID:27182818）；related 新增 so-spindle-swr-coupling；connections 增加三重耦合页面链接
 - 2026-09-10 · 修订 rev7 · 基于《海马给新皮层写的信》文章 (#140) · 新增"皮层涟漪的顶-下抑制与门控"（Shin & Jadhav 2023, PMID:38168420）；新增 PMID:37987008（Yang 2023 Nature，清醒SWR标记的正确PMID，与已有的 PMID:38547293 互补）；key_sources +2 个；source_articles 新增 2026-09-10
+- 2026-09-18 · 修订 rev8 · 基于《大脑的时间机器》文章 (#148) · 新增"重放作为策略展开"小节（Jensen 2024, PMID:38849521，清醒SWR=policy rollout的统计证据）；related 新增 successor-representation、world-model；connections 新增两条；key_sources 新增 PMID:38849521；source_articles 新增 2026-09-18
 
 ## 来源文章
 

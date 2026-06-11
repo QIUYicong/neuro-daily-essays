@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: high
 created: 2026-06-22
-updated: 2026-07-16
-revision_count: 2
+updated: 2026-09-18
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, behavior, cognition]
-related: [place-cells, grid-cells, path-integration, entorhinal-cortex, hippocampal-circuit, memory-consolidation, sharp-wave-ripples, theta-oscillations, world-model, semantic-memory-hub, conceptual-space-geometry]
+related: [place-cells, grid-cells, path-integration, entorhinal-cortex, hippocampal-circuit, memory-consolidation, sharp-wave-ripples, theta-oscillations, world-model, semantic-memory-hub, conceptual-space-geometry, successor-representation]
 prerequisites: [place-cells, grid-cells, hippocampal-circuit]
 opens_questions: [Q-gc-01, Q-cogmap-01, Q-cogmap-02]
-source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-16-semantic-hub-atl-conceptual-space]
-key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056", "PMID:38065931", "PMID:41887217", "PMID:40063809", "PMID:33603654"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-16-semantic-hub-atl-conceptual-space, 2026-09-18-hippocampal-successor-representation-simulation]
+key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056", "PMID:38065931", "PMID:41887217", "PMID:40063809", "PMID:33603654", "PMID:28967910", "PMID:38849521"]
 ---
 
 # 认知地图 (Cognitive Map)
@@ -89,6 +89,7 @@ Haga, Oseki, Fukai（2025，PNAS，PMID:40063809）的**DSI（Disentangled Succe
 - [[world-model]] — 认知地图是"世界模型"在空间/结构层面的神经实现
 - [[semantic-memory-hub]] — ATL枢纽组织的语义知识可能是认知地图在概念领域的实现
 - [[conceptual-space-geometry]] — 概念空间几何是认知地图理论向语义域的直接延伸；DSI模型提供统一计算基础
+- [[successor-representation]] — SR是认知地图的计算形式化：场所细胞可能编码SR矩阵行，网格细胞可能是SR特征向量分解
 
 ## 未解问题
 
@@ -100,6 +101,7 @@ Haga, Oseki, Fukai（2025，PNAS，PMID:40063809）的**DSI（Disentangled Succe
 
 - 2026-06-22 · 创建 · 基于《六边形的秘密》文章 · 初始置信度：高
 - 2026-07-16 · 修订 · 基于文章#84《意义的诞生地：前颞叶如何将感官碎片组装成概念》· 新增DSI统一计算框架节（Haga 2025，SR≡PMI等价），新增概念空间fMRI证据行（Bokeria 2021），新增连接至semantic-memory-hub和conceptual-space-geometry
+- 2026-09-18 · 修订 rev3 · 基于《大脑的时间机器》文章 (#148) · related 新增 successor-representation；connections 新增SR作为认知地图计算形式化的关系说明；key_sources 新增 PMID:28967910、PMID:38849521；source_articles 新增 2026-09-18
 
 ## 来源文章
 

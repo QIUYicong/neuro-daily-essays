@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "node_count": 290,
   "edge_count": 1649,
   "edge_types": [
@@ -2717,6 +2717,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/theta-gamma-coupling.md"
+    },
+    {
+      "id": "successor-representation",
+      "title": "后继者表征",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/successor-representation.md"
     }
   ],
   "edges": [
@@ -11955,6 +11964,46 @@
       "to": "theta-gamma-coupling",
       "type": "supports",
       "note": "γ振荡是θ-γ耦合的必要前提"
+    },
+    {
+      "from": "successor-representation",
+      "to": "cognitive-map",
+      "type": "related"
+    },
+    {
+      "from": "successor-representation",
+      "to": "place-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "successor-representation",
+      "to": "world-model",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "successor-representation",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "successor-representation",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cognitive-map",
+      "to": "successor-representation",
+      "type": "related"
+    },
+    {
+      "from": "world-model",
+      "to": "successor-representation",
+      "type": "part-of"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "successor-representation",
+      "type": "supports"
     }
   ],
   "dangling_references": [

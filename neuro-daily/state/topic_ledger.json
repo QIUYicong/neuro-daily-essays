@@ -9658,6 +9658,70 @@
       ],
       "graph_nodes_after": 300,
       "graph_edges_after": 1733
+    },
+    {
+      "date": "2026-09-18",
+      "article_number": 148,
+      "slug": "hippocampal-successor-representation-simulation",
+      "title": "大脑的时间机器：海马后继者表征如何让神经元预演从未发生的未来",
+      "core_question": "海马的后继者表征（SR）如何将空间认知地图升级为通用仿真引擎，使大脑能够预演未来、执行规划、以及在想象中使用与真实导航相同的神经动力学？",
+      "layer": [
+        "brain-region",
+        "cognition",
+        "whole-brain-network",
+        "behavior"
+      ],
+      "topic_tags": [
+        "successor-representation",
+        "hippocampal-replay",
+        "planning",
+        "imagination",
+        "cognitive-map",
+        "world-model",
+        "policy-rollout",
+        "theta-oscillations",
+        "sharp-wave-ripples",
+        "prefrontal-cortex",
+        "default-mode-network",
+        "model-based-learning",
+        "Stachenfeld-2017",
+        "Jensen-2024",
+        "Seeber-2025",
+        "Hassabis-2007",
+        "Brunec-Momennejad-2022",
+        "Huang-2024"
+      ],
+      "main_sources": [
+        "PMID:28967910",
+        "PMID:38849521",
+        "PMID:17229836",
+        "PMID:40065137",
+        "PMID:34799416",
+        "PMID:39169063",
+        "PMID:23354386"
+      ],
+      "unresolved_questions": [
+        "Q-hsr-01",
+        "Q-hsr-02",
+        "Q-hsr-03",
+        "Q-hsr-04"
+      ],
+      "next_suggested_topics": [
+        "model-based vs model-free decision-making: OFC-striatum-hippocampus三角",
+        "default-mode-network的内部结构与功能子网络",
+        "大脑的时间感知：时间细胞（time cells）与情节记忆的时间轴",
+        "人类海马的亚区功能分工（CA1/CA2/CA3/DG）"
+      ],
+      "wiki_created": [
+        "successor-representation"
+      ],
+      "wiki_revised": [
+        "sharp-wave-ripples",
+        "world-model",
+        "cognitive-map"
+      ],
+      "graph_nodes_after": 301,
+      "graph_edges_after": 1741
     }
   ],
   "layer_coverage_recent": [

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-09-18",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11035,6 +11035,84 @@
         "CFC critique"
       ],
       "access": "abstract_only"
+    },
+    {
+      "pmid": "38849521",
+      "pmcid": "PMC11239510",
+      "title": "A recurrent network model of planning explains hippocampal replay and human behavior",
+      "journal": "Nat Neurosci",
+      "year": 2024,
+      "used_date": "2026-09-18",
+      "aspects_covered": [
+        "hippocampal replay",
+        "policy rollout",
+        "planning",
+        "successor representation"
+      ]
+    },
+    {
+      "pmid": "40065137",
+      "pmcid": "PMC12018265",
+      "title": "Human neural dynamics of real-world and imagined navigation",
+      "journal": "Nat Hum Behav",
+      "year": 2025,
+      "used_date": "2026-09-18",
+      "aspects_covered": [
+        "imagined navigation",
+        "theta oscillations",
+        "human hippocampus"
+      ]
+    },
+    {
+      "pmid": "28967910",
+      "title": "The hippocampus as a predictive map",
+      "journal": "Nat Neurosci",
+      "year": 2017,
+      "used_date": "2026-09-18",
+      "aspects_covered": [
+        "successor representation",
+        "place cells",
+        "grid cells",
+        "predictive coding"
+      ]
+    },
+    {
+      "pmid": "17229836",
+      "title": "Patients with hippocampal amnesia cannot imagine new experiences",
+      "journal": "PNAS",
+      "year": 2007,
+      "used_date": "2026-09-18",
+      "aspects_covered": [
+        "hippocampal amnesia",
+        "imagination",
+        "scene construction"
+      ]
+    },
+    {
+      "pmid": "34799416",
+      "title": "Predictive Representations in Hippocampal and Prefrontal Hierarchies",
+      "journal": "J Neurosci",
+      "year": 2022,
+      "used_date": "2026-09-18",
+      "aspects_covered": [
+        "hierarchical planning",
+        "prediction horizon",
+        "fMRI"
+      ]
+    },
+    {
+      "pmid": "39169063",
+      "pmcid": "PMC11339350",
+      "title": "Replay-triggered brain-wide activation in humans",
+      "journal": "Nat Commun",
+      "year": 2024,
+      "used_date": "2026-09-18",
+      "aspects_covered": [
+        "memory replay",
+        "default mode network",
+        "EEG-fMRI",
+        "human"
+      ]
     }
   ],
   "total_sources": 636,

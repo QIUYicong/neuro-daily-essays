@@ -6,14 +6,14 @@ type: theory
 status: emerging
 confidence: medium
 created: 2026-05-31
-updated: 2026-05-31
-revision_count: 2
+updated: 2026-09-18
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [predictive-coding, default-mode-network, global-workspace-theory, fear-conditioning, dopamine-reward-prediction-error, serotonin-raphe-system, basal-ganglia, hippocampal-circuit, memory-consolidation, engram-cells, temporal-hierarchy, sharp-wave-ripples, integrated-information-theory]
+related: [predictive-coding, default-mode-network, global-workspace-theory, fear-conditioning, dopamine-reward-prediction-error, serotonin-raphe-system, basal-ganglia, hippocampal-circuit, memory-consolidation, engram-cells, temporal-hierarchy, sharp-wave-ripples, integrated-information-theory, successor-representation, cognitive-map]
 prerequisites: [predictive-coding, ltp, hebbian-learning, synaptic-transmission, temporal-hierarchy]
 opens_questions: [Q-pc-02, Q-dmn-04, Q-gwt-04, Q-iit-02, Q-iit-03]
-source_articles: [2026-05-31-week4-synthesis, 2026-05-31-may-monthly-synthesis]
-key_sources: ["PMID:20068583", "PMID:10195184", "PMID:23177956", "PMID:21677128", "PMID:32135090", "PMID:40307561", "PMID:24206127"]
+source_articles: [2026-05-31-week4-synthesis, 2026-05-31-may-monthly-synthesis, 2026-09-18-hippocampal-successor-representation-simulation]
+key_sources: ["PMID:20068583", "PMID:10195184", "PMID:23177956", "PMID:21677128", "PMID:32135090", "PMID:40307561", "PMID:24206127", "PMID:28967910", "PMID:38849521", "PMID:17229836", "PMID:40065137"]
 ---
 
 # 世界模型 (World Model / Internal Generative Model)
@@ -99,10 +99,29 @@ key_sources: ["PMID:20068583", "PMID:10195184", "PMID:23177956", "PMID:21677128"
 - **Q-gwt-04**：GWT 与预测编码能否整合为统一框架？整合点在哪里？
 - **世界模型的「自我」层**（新问题，无编号）：自我参照处理（mPFC 的自传体记忆功能）如何与上述六层整合？「主观体验者」如何在神经层面涌现？
 
+## 世界模型的仿真引擎层（2026-09-18 更新）
+
+第148篇文章《大脑的时间机器》提供了关于世界模型**仿真执行层**的关键新证据：
+
+**海马作为仿真引擎**：Stachenfeld等（2017，PMID:28967910）提出的**后继者表征（SR）**框架表明，海马编码的不是几何坐标，而是"从当前状态出发，未来状态分布"的预测表征。这使海马认知地图天然成为仿真的底层引擎。
+
+**重放=策略展开**：Jensen等（2024，PMID:38849521）证明，海马SWR重放在统计特征上与AI世界模型中的"政策展开（policy rollout）"完全一致。这将世界模型的"离线仿真层"从概念层面下沉到了具体的神经机制：**SWR期间的重放是世界模型执行前向仿真的物理载体**。
+
+**想象与记忆共享引擎**：Hassabis等（2007，PMID:17229836）发现，海马损伤遗忘症患者不只是不能回忆过去，也不能想象从未经历的新场景——这将"世界模型的预测/仿真功能"直接定位到海马这一底层设施。
+
+**人类颅内证据**：Seeber等（2025，PMID:40065137）首次在人类颅内记录中证明，想象导航时海马θ振荡与真实导航统计上完全一致，进一步支持"想象是世界模型在θ框架驱动下的主动仿真"这一机制。
+
+**六层架构的修订**：在原六层框架中，"离线仿真层（DMN/海马/mPFC）"现可以细化为：
+- **SR底层**：海马场所细胞编码SR矩阵；网格细胞提供SR的基函数分解
+- **SWR执行层**：SWR驱动SR空间上的策略展开，生成具体仿真序列
+- **mPFC调度层**：前额皮层作为元控制者，决定何时/多深地展开仿真
+- **DMN整合层**：默认模式网络提供情节/社会背景的整合（Huang 2024，PMID:39169063）
+
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 初始置信度：中（整合框架，非单一实验结论）
 - 2026-05-31 · 修订（月度综合）· 基于《五月月报·大图景》(#31) · 将六层架构升级为八层、补充时间层级维度（分子→终身）、新增 COGITATE 2025 对 GWT/IIT 两个顶层意识理论的挑战作为关键证据 · related 新增 temporal-hierarchy、sharp-wave-ripples、integrated-information-theory
+- 2026-09-18 · 修订 rev3 · 基于《大脑的时间机器》文章 (#148) · 新增"世界模型仿真引擎层"小节（SR框架/SWR=策略展开/想象共享神经底物/θ框架的人类证据）；related 新增 successor-representation、cognitive-map；key_sources +4（SR/仿真核心论文）；六层架构离线仿真层细化
 
 ## 来源文章
 

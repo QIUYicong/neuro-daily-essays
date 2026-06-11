@@ -1,0 +1,98 @@
+# 运行日志：2026-09-18
+
+**运行时间**：2026-09-18（北京时间，实际系统时间 2026-06-11 12:00 CST）
+**文章编号**：#148
+**分支**：claude/funny-einstein-o9ze9n
+
+---
+
+## 搜索词与数据源
+
+### PubMed/PMC 检索
+- 检索词1：`hippocampal replay future planning world model`（PubMed，2022-2026）→ PMID:35907087
+- 检索词2：`hippocampal cognitive map planning imagination prefrontal`（PubMed）→ 无结果
+- 检索词3：`hippocampal replay planning future simulation forward model`（PubMed）→ PMID:38872470,29251801,32243859,31677957,38849521
+- 检索词4：`hippocampus cognitive map mental simulation imagination cortex`（PubMed，2022-2026）→ 10 结果，获取PMID:40108460,39004032,36879142,40945253,39475597,39169063等
+- 检索词5：`hippocampus simulation imagination prospection cortex`（PubMed，2023-2026）→ 多结果
+
+### Web 搜索
+- "hippocampal world model cognitive map predictive planning 2024 2025 neuroscience"
+- "brain internal model prefrontal cortex simulation imagination neural mechanism 2024 2025"
+- "Stachenfeld hippocampus predictive map successor representation 2017"
+- "model-based vs model-free reinforcement learning hippocampus prefrontal 2023 2024"
+- "default mode network mental simulation spontaneous thought hippocampus future planning 2023 2024"
+
+---
+
+## 候选来源（共10篇）
+
+### 采用（10篇）
+
+| PMID | 标题（缩写） | 状态 | 原因 |
+|------|-----------|------|------|
+| 38849521 | Jensen 2024 Nat Neurosci RNN planning | 开放全文（PMC11239510）| 核心2024新证据 |
+| 40065137 | Seeber 2025 NHB imagined navigation | 开放全文（PMC12018265）| 核心2025人类颅内证据 |
+| 39169063 | Huang 2024 Nat Commun replay brain-wide | 开放全文（PMC11339350）| 全脑仿真网络证据 |
+| 17229836 | Hassabis 2007 PNAS amnesia imagination | 摘要 | 经典奠基实验 |
+| 28967910 | Stachenfeld 2017 Nat Neurosci predictive map | 摘要 | 核心SR理论框架 |
+| 34799416 | Brunec 2022 J Neurosci hierarchical SR | 摘要 | PFC-海马层级规划 |
+| 23354386 | Buzsáki & Moser 2013 Nat Neurosci | 摘要 | 记忆-导航统一框架 |
+| 30871859 | Vikbladh 2019 Neuron model-based planning | 摘要 | 海马规划因果证据 |
+| 38872470 | Sun 2024 Science Progress mPFC-HPC | 摘要 | PFC-海马规划/回忆分工 |
+| 39939774 | Sun 2025 Nature orthogonalized HPC | 摘要 | SR挑战/补充视角 |
+
+### 排除
+- PMID:40108460（空间转录组学，与今日主题无关）
+- PMID:39004032（中草药干预脑缺血，无关）
+- PMID:36879142（40Hz光刺激AD，无关）
+
+---
+
+## 固结决策
+
+### 新建 wiki 页
+- `wiki/concepts/successor-representation.md`（rev1）—— 填补知识图谱中 SR 这一重要节点的缺口；此前多篇文章间接引用 SR 概念但无专页
+
+### 修订 wiki 页
+- `wiki/concepts/sharp-wave-ripples.md`（rev7→rev8）—— 新增"重放=策略展开"小节（Jensen 2024）；这与该页已有的"记忆巩固"功能平行，不冲突
+- `wiki/concepts/world-model.md`（rev2→rev3）—— 新增仿真引擎层细化（SR/SWR/θ/DMN）
+- `wiki/concepts/cognitive-map.md`（rev2→rev3）—— 新增SR作为认知地图的计算形式化
+
+### 矛盾检查
+- 重放功能（巩固 vs 规划）：两种功能在SWR页面已被明确记录为"平行功能"，新证据加强了规划功能的地位，不构成冲突
+- SR框架 vs "正交化状态机"（Sun 2025）：两者在计算原理上有区别（渐进预测积累 vs 学习驱动的表征正交化），已在SR页面未解问题中记录，不降低现有任何页面的confidence
+
+---
+
+## 失败与限制
+
+- `PMID:17229836`（Hassabis 2007）：PNAS全文需机构访问，仅读摘要；经典结论已被大量综述引用，摘要信息充分
+- `PMID:28967910`（Stachenfeld 2017）：Nature Neuroscience全文需机构访问，仅读摘要；PDF可在Gershman实验室主页获取但未验证URL
+- `PMID:34799416`（Brunec 2022）：J Neurosci全文需机构访问，仅读摘要
+- `PMID:30871859`（Vikbladh 2019）：Neuron全文需机构访问，仅读摘要
+- 开放全文 3/10（要求≥2），满足最低要求
+
+---
+
+## Git 操作
+
+- 分支：`claude/funny-einstein-o9ze9n`
+- 添加文件：articles/2026-09-18-*.md, notes/2026-09-18-*.md, sources/2026-09-18-*.json, logs/2026-09-18-run.log, wiki/concepts/successor-representation.md
+- 修改文件：wiki/concepts/sharp-wave-ripples.md, wiki/concepts/world-model.md, wiki/concepts/cognitive-map.md, wiki/_graph.json, wiki/CHANGELOG.md, wiki/index.md, state/topic_ledger.json, state/unresolved_questions.md, state/source_registry.json, state/monthly_synthesis.md
+- Commit message: "Add neuro daily article + wiki consolidation for 2026-09-18"
+- Push: 待执行
+
+---
+
+## 状态
+
+- [x] 文章已写（3000+字，有机制分层/证据/比喻/争议/AI对照/概念卡片）
+- [x] 笔记已写
+- [x] 来源 JSON 已写（10篇，3篇开放全文）
+- [x] 新建 wiki 页：successor-representation.md
+- [x] 修订 wiki 页：sharp-wave-ripples, world-model, cognitive-map
+- [x] 图谱更新（301节点，1741边）
+- [x] CHANGELOG 更新
+- [x] 状态文件更新（topic_ledger, unresolved_questions, source_registry, monthly_synthesis）
+- [ ] 日志 commit hash（待推送后更新）
+- [ ] push 状态（待执行）

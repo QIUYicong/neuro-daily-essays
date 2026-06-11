@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-09-18（文章 #148：大脑的时间机器——海马后继者表征如何让神经元预演从未发生的未来）
+
+**今日主题：** 后继者表征（SR）框架（Stachenfeld 2017）将海马认知地图从"位置记录器"升格为"未来状态预测分布的编码器"；Jensen 2024（Nature Neuroscience）证明SWR重放统计特征等价于策略展开（policy rollout）；Seeber 2025（Nature Human Behaviour）首次在人类颅内记录中证明想象导航的θ动力学与真实导航无差异；Hassabis 2007（PNAS）的遗忘症患者不能想象新场景；Brunec & Momennejad 2022 PFC-海马层级SR；Huang 2024 全脑重放网络
+
+### 新建页面（1 个）
+- `wiki/concepts/successor-representation.md`（rev1）— 后继者表征专属页面；介绍SR的数学定义、与场所细胞/网格细胞的关联、重放作为策略展开的证据、与规划层级的关联
+
+### 修订页面（3 个）
+- `wiki/concepts/sharp-wave-ripples.md`（rev7→rev8）— 新增"重放作为策略展开"小节（Jensen 2024，PMID:38849521）；related 新增 successor-representation、world-model；connections +2；key_sources +1
+- `wiki/concepts/world-model.md`（rev2→rev3）— 新增"世界模型仿真引擎层"小节（SR框架/SWR=策略展开/想象共享底物/θ人类证据/六层架构仿真细化）；related 新增 successor-representation、cognitive-map；key_sources +4
+- `wiki/concepts/cognitive-map.md`（rev2→rev3）— related 新增 successor-representation；connections 新增SR关系说明；key_sources +2；source_articles +1
+
+### 登记矛盾
+- 无新矛盾登记（重放"规划 vs 巩固"争议在SWR页面已作为已知张力处理；SR作为计算框架与"正交化状态机"（Sun 2025）的分歧不构成与既有wiki直接冲突，在SR页面的未解问题中记录）
+
+### 图谱变化
+- 节点：300 → 301（+1：successor-representation）
+- 边：1733 → 1741（+8：SR与cognitive-map/place-cells/world-model/sharp-wave-ripples/hippocampal-circuit的新边）
+
+### 新增未解问题（4 条）
+- Q-hsr-01（高）：单细胞分辨率直接测量SR矩阵
+- Q-hsr-02（高）：PFC触发海马仿真的神经调质机制
+- Q-hsr-03（中）：SR是否延伸至社会/概念仿真
+- Q-hsr-04（中）：海马损伤后想象能力恢复证据
+
+---
+
 ## 2026-09-15（文章 #145：NMDA 受体的两张脸——GluN2B→GluN2A 发育切换与突触可塑性阈值的终身漂移）
 
 **今日主题：** NMDA 受体 GluN2B→GluN2A 亚单位发育切换的分子机制（REST 表观遗传沉默 + GluN2A 浓度驱动）；切换如何升高 LTP 阈值（CaMKII-GluN2B 锚定机制）；人类皮层切换峰值约 36 岁（Siu 2017）；老年期 GluN2A 骤降 75%；"更多 GluN2A ≠ 更好"（Li 2022）；部分解答 Q-glun2-switch-development

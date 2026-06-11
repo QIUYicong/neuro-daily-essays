@@ -1105,3 +1105,10 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 今日文章是 #143–146 SCZ/PV/NMDA 四联叙事的自然延伸：理解了 PV 细胞损伤如何破坏 γ 振荡之后，今天从"健康状态下这套机制如何工作"的正向角度，系统讲解 θ-γ 耦合（Phase-Amplitude Coupling, PAC）作为大脑多项目工作记忆时间编码框架的机制。核心叙事：**θ 振荡的每个周期（~125 ms）内嵌套 4–8 个 γ 爆发（每个~25 ms），每个 γ 爆发承载一个独立记忆项目——这不只是振荡现象，而是大脑实现 Miller 容量极限的生物物理机制**。2010 年 Axmacher 等的人类颅内电极直接验证了负荷依赖的 θ 频率下降（7.5→6.4 Hz）和恒定频率比（4:1），2024 年 Daume 等在单神经元层面揭示了专门的"PAC 细胞"群体（~37% 海马神经元）——不储存内容，而是通过"信息增益性噪声相关"优化内容细胞的群体编码几何，提升记忆可读性，并接受 vmPFC 的 θ 节律顶-下调控。Colgin 2009 的 CA1 快/慢 γ 双通道路由揭示了感觉输入（MEC, 快γ）与内部记忆（CA3, 慢γ）如何在 θ 不同相位分时复用，Besosa 2026 谱依赖性框架提出了理论挑战（C-2026-09-17-01, open）。
 
 **新建 wiki 页**：theta-gamma-coupling（mainstream, high）。**修订**：theta-oscillations rev4、gamma-oscillations rev7、working-memory rev11。**图谱**：300 节点，1733 条边（+1节点，+10边）。**来源**：9篇（3篇开放全文，6篇摘要）。**层级**：whole-brain-network + microcircuit + cellular + cognition + synaptic（五层）。**新增矛盾**：C-2026-09-17-01（谱依赖性 vs 专用机制）。**新增未解问题**：Q-tgc-01（高，频率比变异）、Q-tgc-02（中，人类特异性）、Q-tgc-03（高，疾病原发/继发）、Q-tgc-04（中，γ槽独立性）。
+
+
+**#148（2026-09-18）**：大脑的时间机器——海马后继者表征如何让神经元预演从未发生的未来
+
+今日文章从上一篇（#147 θ-γ工作记忆编码）的"在线时间编码"转向"离线仿真"角度，聚焦海马认知地图的另一半功能：不只记录"曾经在哪里"，而且主动仿真"将来可能去哪里"。核心叙事：**后继者表征（SR）框架（Stachenfeld 2017）将海马场所细胞重新定义为"未来状态分布的预测编码器"；Jensen 2024（Nature Neuroscience）证明SWR重放的三个统计特征等价于策略展开（policy rollout）；Seeber 2025（Nature Human Behaviour）首次在人类颅内记录中证明想象导航与真实导航的θ动力学统计无差异；Hassabis 2007的遗忘症患者实验揭示海马是想象未来的必要底物，而非只是记忆存储**。Brunec & Momennejad 2022 fMRI研究显示前额叶-海马存在SR预测视野的时间梯度（PFC最长，后部海马最短），Huang 2024（同步EEG-fMRI）证明精神仿真触发全脑HPC-mPFC-DMN协同激活网络。文章最后对比了AI世界模型（Dreamer/JEPA）与生物前额-海马系统的深层相似（SR底层+元控制者+策略选择）和根本差异（情感渗透/情境特异性/高效紧凑表征）。
+
+**新建 wiki 页**：successor-representation（emerging, medium）。**修订**：sharp-wave-ripples rev8（重放=策略展开）、world-model rev3（仿真引擎层细化）、cognitive-map rev3（SR作为计算形式化）。**图谱**：301 节点，1741 条边（+1节点，+8边）。**来源**：10篇（3篇开放全文，7篇摘要）。**层级**：brain-region + cognition + whole-brain-network + behavior（四层，转向系统/认知层，平衡近期大量分子层文章）。**新增未解问题**：Q-hsr-01（高，单细胞直接测量SR）、Q-hsr-02（高，PFC触发海马仿真的神经调质机制）、Q-hsr-03（中，SR延伸至概念/社会仿真）、Q-hsr-04（中，损伤后想象恢复证据）。
