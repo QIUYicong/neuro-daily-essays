@@ -94,5 +94,5 @@
 - [x] 图谱更新（301节点，1741边）
 - [x] CHANGELOG 更新
 - [x] 状态文件更新（topic_ledger, unresolved_questions, source_registry, monthly_synthesis）
-- [ ] 日志 commit hash（待推送后更新）
-- [ ] push 状态（待执行）
+- [x] 日志 commit hash：5a864bb
+- [x] push 成功：origin/claude/funny-einstein-o9ze9n（新建远端分支，包含本日及全部历史提交）
