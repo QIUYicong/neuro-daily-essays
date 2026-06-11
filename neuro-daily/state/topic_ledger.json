@@ -9484,16 +9484,98 @@
         "glun2b-synaptic-extrasynaptic-balance: 突触内 vs 突触外 GluN2B 的精确比例——完整 AD 分子通路（Aβ→PrPC→mGluR5→Fyn→GluN2B Y1472 磷酸化→外漂）",
         "schizophrenia-genetics-circuits: DISC1/NRG1/GRIN2A 变异如何汇聚到 PV-γ 回路缺陷和 D1R-HCN 路径（连接 #143/144/145）"
       ]
+    },
+    {
+      "date": "2026-09-16",
+      "real_date": "2026-06-11",
+      "article_number": 146,
+      "title": "当遗传学汇聚于同一个回路：DISC1、NRG1 与 GRIN2A 如何共同侵蚀大脑的 PV-γ 守门机制",
+      "slug": "schizophrenia-genetics-circuits",
+      "filename": "2026-09-16-schizophrenia-genetics-circuits.md",
+      "article_type": "regular",
+      "core_question": "三条看似独立的 SCZ 遗传路径（DISC1 调控 MGE 发育和细胞骨架、NRG1-ErbB4 塑造 PV 突触布线、GRIN2A 控制 PV 细胞 NMDA 受体亚单位）如何在 PV+ 中间神经元处汇聚？汇聚点证据：Gawande 2023 发现 GluN2D KO in PV 细胞导致 DISC1/NRG1/ErbB4 转录同步下调。DISC1 的 GWAS 争议（不在 287 位点名单中）。",
+      "layer": [
+        "molecular",
+        "cellular",
+        "disease",
+        "cognition"
+      ],
+      "curriculum_track": "11. 疾病作为窗口 → 精神分裂症 → 遗传学与回路的汇聚（#146完成#143-146四联叙事）",
+      "topic_tags": [
+        "schizophrenia",
+        "DISC1",
+        "NRG1",
+        "ErbB4",
+        "GRIN2A",
+        "GluN2A",
+        "GluN2D",
+        "PV interneurons",
+        "genetics",
+        "GWAS",
+        "Trubetskoy 2022",
+        "Fazzari 2010",
+        "Pitcher 2011",
+        "Yang 2013",
+        "Delevich 2020",
+        "Gawande 2023",
+        "convergence",
+        "GAD67",
+        "GABA circuit",
+        "thalamo-prefrontal",
+        "NRG1-ErbB4 signaling",
+        "DBZ",
+        "NUDEL",
+        "GSK3-beta",
+        "Dlx2",
+        "MGE development",
+        "basket cells",
+        "chandelier cells",
+        "Src kinase",
+        "NMDA receptor",
+        "LTP",
+        "gamma oscillations",
+        "working memory cognitive deficit"
+      ],
+      "main_sources": [
+        "PMID:35396580",
+        "PMID:20393464",
+        "PMID:21441918",
+        "PMID:24336736",
+        "PMID:32029441",
+        "PMID:37004850",
+        "PMID:32546684",
+        "PMID:23912123"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/nrg1-erbb4.md",
+        "wiki/concepts/disc1.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/diseases/schizophrenia.md (rev1->rev2): 新增遗传汇聚视角节（DISC1/NRG1-ErbB4/GRIN2A三路径；Trubetskoy 2022 GWAS；Gawande 2023汇聚点证据）；related/key_sources/opens_questions扩充"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "open_questions_addressed": [],
+      "unresolved_questions": [
+        "Q-scz-gen-01",
+        "Q-scz-gen-02",
+        "Q-scz-gen-03"
+      ],
+      "next_suggested_topics": [
+        "aging-nmda-receptor-cognition: 老年期 GluN2A 骤降 75% 的精确机制——REST 再激活？Grin2a 转录下调？老年期 GluN2B 主导与谷氨酸毒性的 DAPK1 通路；AD 早期突触外 GluN2B 增多（连接 #145 和 AD 病理）",
+        "glun2b-synaptic-extrasynaptic-balance: 突触内 vs 突触外 GluN2B 的精确比例——完整 AD 分子通路（Aβ→PrPC→mGluR5→Fyn→GluN2B Y1472 磷酸化→外漂）",
+        "cortical-oscillation-hierarchy: 从分子（PV-γ）到全脑（delta-theta-alpha-beta-gamma 层次）的振荡结构——第五周综合框架，连接#143/#146 SCZ、#144 DA-D1R、#145 NMDA-aub四联叙事"
+      ]
     }
   ],
   "layer_coverage_recent": [
+    "molecular",
     "cellular",
-    "whole-brain-network",
-    "cellular",
+    "synaptic",
     "brain-region",
     "whole-brain-network",
     "cognition",
-    "cognition"
+    "disease"
   ],
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",
   "layer_tracking": {

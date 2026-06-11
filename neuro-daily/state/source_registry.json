@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-16",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10775,6 +10775,130 @@
         "both LTP and LTD impaired",
         "cognitive deficits",
         "GluN2A:2B balance importance"
+      ]
+    },
+    {
+      "pmid": "35396580",
+      "title": "Mapping genomic loci implicates genes and synaptic biology in schizophrenia",
+      "authors": "Trubetskoy V et al. (PGC)",
+      "year": 2022,
+      "journal": "Nature",
+      "used_in": [
+        "2026-09-16-schizophrenia-genetics-circuits"
+      ],
+      "covers": [
+        "SCZ GWAS 287 loci",
+        "GRIN2A",
+        "synaptic biology",
+        "common+rare variant convergence"
+      ]
+    },
+    {
+      "pmid": "20393464",
+      "title": "Control of cortical GABA circuitry development by Nrg1 and ErbB4 signalling",
+      "authors": "Fazzari P et al.",
+      "year": 2010,
+      "journal": "Nature",
+      "used_in": [
+        "2026-09-16-schizophrenia-genetics-circuits"
+      ],
+      "covers": [
+        "ErbB4 in PV cells",
+        "NRG1-ErbB4 GABA circuit development",
+        "inhibitory synapse wiring"
+      ]
+    },
+    {
+      "pmid": "21441918",
+      "title": "Schizophrenia susceptibility pathway neuregulin 1-ErbB4 suppresses Src upregulation of NMDA receptors",
+      "authors": "Pitcher GM et al.",
+      "year": 2011,
+      "journal": "Nature Medicine",
+      "used_in": [
+        "2026-09-16-schizophrenia-genetics-circuits"
+      ],
+      "covers": [
+        "NRG1-ErbB4 Src inhibition",
+        "NMDA receptor suppression",
+        "LTP blockade"
+      ]
+    },
+    {
+      "pmid": "24336736",
+      "title": "Development of GABA circuitry of fast-spiking basket interneurons in medial prefrontal cortex of erbb4-mutant mice",
+      "authors": "Yang JM et al.",
+      "year": 2013,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-09-16-schizophrenia-genetics-circuits"
+      ],
+      "covers": [
+        "ErbB4 glutamate synapse maturation on PV cells",
+        "mPFC basket cell development"
+      ]
+    },
+    {
+      "pmid": "32029441",
+      "title": "Parvalbumin Interneuron Dysfunction in a Thalamo-Prefrontal Cortical Circuit in Disc1 Locus Impairment Mice",
+      "authors": "Delevich K et al.",
+      "year": 2020,
+      "journal": "eNeuro",
+      "pmcid": "PMC7054897",
+      "used_in": [
+        "2026-09-16-schizophrenia-genetics-circuits"
+      ],
+      "covers": [
+        "DISC1 LI mice",
+        "PV-specific GABA reduction",
+        "thalamo-PFC feedforward inhibition"
+      ]
+    },
+    {
+      "pmid": "37004850",
+      "title": "GluN2D Subunit in Parvalbumin Interneurons Regulates Prefrontal Cortex Feedforward Inhibitory Circuit and Molecular Networks Relevant to Schizophrenia",
+      "authors": "Gawande DY et al.",
+      "year": 2023,
+      "journal": "Biological Psychiatry",
+      "pmcid": "PMC10524289",
+      "used_in": [
+        "2026-09-14-dopamine-d1-prefrontal-working-memory",
+        "2026-09-16-schizophrenia-genetics-circuits"
+      ],
+      "covers": [
+        "GluN2D KO in PV cells",
+        "DISC1/NRG1/ErbB4 downregulation",
+        "convergence point",
+        "behavior deficits"
+      ]
+    },
+    {
+      "pmid": "32546684",
+      "title": "Neuregulin 1: an intriguing therapeutic target for neurodevelopmental disorders",
+      "authors": "Shi L, Bergson CM",
+      "year": 2020,
+      "journal": "Translational Psychiatry",
+      "used_in": [
+        "2026-09-16-schizophrenia-genetics-circuits"
+      ],
+      "covers": [
+        "NRG1-ErbB4 review",
+        "therapeutic potential",
+        "cortical plasticity reactivation"
+      ]
+    },
+    {
+      "pmid": "23912123",
+      "title": "DBZ-deficient mice display abnormalities in basket cells in the somatosensory cortices",
+      "authors": "Koyama Y et al.",
+      "year": 2013,
+      "journal": "J Chem Neuroanatomy",
+      "used_in": [
+        "2026-09-16-schizophrenia-genetics-circuits"
+      ],
+      "covers": [
+        "DBZ DISC1-binding protein",
+        "basket cell morphology",
+        "GAD67 downregulation"
       ]
     }
   ],

@@ -3023,3 +3023,27 @@
 - Q-scz-pv-01（高）：PV 细胞 GAD67 下调时间窗——UHR 中 γ 振荡变化能否预测发病？
 - Q-scz-pv-02（高）：PV 细胞功能缄默的分子可逆性——Lhx6 再激活/TrkB 激动剂能否恢复 GAD67？
 - Q-scz-pv-03（中）：GluN2A vs GluN2B 亚基在 SCZ PV 细胞缺陷中的相对贡献
+
+## 2026-09-16 (文章 #146：当遗传学汇聚于同一个回路)
+
+### 新建 wiki 页面（2 个）
+- `wiki/concepts/nrg1-erbb4.md` — NRG1-ErbB4 信号轴 | mainstream / medium | ErbB4 专门表达于 PV+ 中间神经元（Fazzari 2010）；控制 PV 细胞抑制性突触布线 + 谷氨酸突触成熟（Yang 2013）；通过 Src 抑制压制 NMDAR 功能（Pitcher 2011）；SCZ 遗传路径之一；GluN2D KO 导致 Nrg1/ErbB4 下调（汇聚证据 Gawande 2023）
+- `wiki/concepts/disc1.md` — DISC1（精神分裂症中断基因 1）| emerging / medium | NUDEL/LIS1 微管调控 + GSK3β-Dlx2 MGE 发育；DBZ 结合蛋白维护 PV 篮状细胞形态（Koyama 2013）；DISC1 LI 小鼠选择性 PV GABA 减少（Delevich 2020）；GWAS 未确认 DISC1 为常见变异风险位点——重要争议
+
+### 修订 wiki 页面（1 个）
+- `wiki/diseases/schizophrenia.md`（rev1→rev2）：新增"遗传汇聚视角"节（DISC1/NRG1-ErbB4/GRIN2A 三路径汇聚；Trubetskoy 2022 GWAS 287 位点概述；Gawande 2023 分子汇聚点证据）；related 新增 nrg1-erbb4/disc1/cortical-interneuron-development；key_sources 新增 4 条；opens_questions 新增 Q-scz-gen-01/02/03
+
+### 登记或裁决矛盾
+- 无新矛盾登记（DISC1 的 GWAS 缺席情况在 disc1.md 中已作为内部争议详述，不构成与既有 wiki 主张的新矛盾；无需写入 contested_claims.json）
+
+### 新增悬空引用（待补页面）
+- 无新悬空引用（今日涉及概念的主要 wiki 页面均已建立）
+
+### 图谱变化
+- 节点：288 → 290（+2：nrg1-erbb4、disc1）
+- 边：1637 → 1649（+12）
+
+### 新增未解问题（3 条）
+- Q-scz-gen-01（高）：DISC1、NRG1、GRIN2A 三路径是否有时间先后顺序？哪条是原发，哪条是继发？
+- Q-scz-gen-02（高）：NMDAR 低激活（GluN2D/GluN2A）是否是 SCZ 遗传回路崩溃的上游触发因素，DISC1/NRG1 下调是继发结果？
+- Q-scz-gen-03（中）：ErbB4 正向变构调制是否可作为 SCZ PV 细胞突触布线修复的基因治疗靶点？

@@ -1091,3 +1091,11 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 
 **新建 wiki 页**：glun2-developmental-switch（established, high）。**修订**：nmda-receptor rev5（第五重角色）。**图谱**：297 节点，1711 条边（+1节点，+8边）。**来源**：9篇（2篇开放全文，7篇摘要）。**层级**：molecular + synaptic + cellular + brain-region + cognition + disease（六层覆盖，与近期专一分子主题互补）。**部分解答未解问题**：Q-glun2-switch-development。**新增未解问题**：Q-glun2-switch-upstream-rest（高）、Q-glun2-triheteromeric-region-ratio（中）、Q-aging-glun2a-loss-mechanism（中）。**新增矛盾**：C-2026-09-15-01（"GluN2A促LTP/GluN2B促LTD"历史简化模型 vs 现代证据）。
 
+
+---
+
+**#146（2026-09-16）**：当遗传学汇聚于同一个回路——DISC1、NRG1 与 GRIN2A 如何共同侵蚀 PV-γ 守门机制
+
+今日文章是 #143–146 四联叙事（SCZ PV-γ回路 → DA D1R倒U型WM → NMDA亚单位切换 → SCZ遗传汇聚）的收尾篇，从遗传学视角解释为什么前三篇描述的分子机制都汇聚于 PV 细胞。核心叙事：**SCZ 不是一个基因的问题，而是数百个遗传位点在功能上高度收敛于 PV 细胞的 GABAergic 回路**。Trubetskoy 2022 的 287 位点 GWAS 揭示富集于突触生物学（GRIN2A 是最典型）；三条独立遗传路径（DISC1/NRG1-ErbB4/GRIN2A）在分子机制层面分别通过 MGE 发育、PV 突触布线、NMDAR 激活损伤 PV 功能，最终汇聚于 GAD67 下调和 γ 振荡崩溃。关键汇聚证据：Gawande 2023 发现 GluN2D KO in PV 细胞导致 DISC1/NRG1/ErbB4 同步转录下调——这三条路径在 PV 细胞内部形成相互依赖的分子网络。重要争议：DISC1 不在 GWAS 287 位点中——其 SCZ 关联主要来自罕见高外显率变异（苏格兰家系），而非普通人群常见变异风险。
+
+**新建 wiki 页**：nrg1-erbb4（mainstream, medium）、disc1（emerging, medium）。**修订**：schizophrenia rev2（遗传汇聚节）。**图谱**：290 节点，1649 条边（+2节点，+12边）。**来源**：8篇（3篇开放全文，5篇摘要）。**层级**：molecular + cellular + disease + cognition（四层）。**新增未解问题**：Q-scz-gen-01（高，三路径时间先后）、Q-scz-gen-02（高，NMDAR 作为上游枢纽）、Q-scz-gen-03（中，ErbB4 PAM 治疗潜力）。

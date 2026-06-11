@@ -3886,3 +3886,39 @@
   - 问题 C：如果通过 AAV 驱动 *Grin2a* 过表达来对抗老年期 GluN2A 丢失，能否延缓认知下降或降低谷氨酸毒性风险？
 - **当前证据状态**：老年期 GluN2A 骤降（高，Siu 2017）；丢失机制（极低，未知）
 
+
+---
+
+## 2026-09-16 新增（来自"当遗传学汇聚于同一个回路"文章 #146）
+
+### Q-scz-gen-01（高优先级）：DISC1、NRG1、GRIN2A 路径是否有时间先后顺序？
+
+- **关联 wiki**：[[schizophrenia]]、[[disc1]]、[[nrg1-erbb4]]、[[nmda-receptor]]、[[pv-interneurons]]
+- **来源文章**：2026-09-16-schizophrenia-genetics-circuits
+- **问题**：DISC1 通过 MGE 发育（产前）、NRG1-ErbB4 通过产后突触布线、GRIN2A 通过成熟期 NMDAR 功能——这三条路径在时间轴上分布在 PV 细胞生命周期的不同阶段。
+  - 问题 A：它们是串行的（DISC1 产前损伤 → MGE 细胞数量/质量减少 → 随后 NRG1-ErbB4 也因 ErbB4+ PV 细胞不足而减弱 → NMDAR 激活不足进一步恶化）？还是并行的（三条路径在各自发育时间窗内独立工作，只是最终汇聚于同一表型）？
+  - 问题 B：如果是串行的，哪条路径是最上游的"主触发因素"？能否通过仅修复一条路径（如产前恢复 DISC1，或产后恢复 NRG1-ErbB4 信号）来预防 SCZ 表型？
+  - 问题 C：Gawande 2023 的数据显示 GluN2D KO 导致 DISC1/NRG1/ErbB4 下调，提示 NMDAR 激活可能是上游调控因素——这是否意味着在 PV 细胞功能维护阶段（成年期），NMDAR 是整个调控网络的枢纽？
+- **当前证据状态**：三条路径发育时间窗各自独立的证据（高）；汇聚点处的相互调控（中，Gawande 2023 单团队）；串行 vs 并行的直接实验证据（极低）
+- **为什么重要**：如果知道哪条路径最上游，理论上可以在那个时间窗内进行单次靶向干预，而不需要多靶点联合治疗
+
+### Q-scz-gen-02（高优先级）：NMDAR 低激活是否是 SCZ 遗传回路崩溃的上游触发因素？
+
+- **关联 wiki**：[[nmda-receptor]]、[[pv-interneurons]]、[[schizophrenia]]、[[nrg1-erbb4]]、[[disc1]]
+- **来源文章**：2026-09-16-schizophrenia-genetics-circuits
+- **问题**：Gawande 2023 表明 PV 细胞上 GluN2D 的减少（代理 NMDAR 低激活）会导致 DISC1/NRG1/ErbB4 基因表达下调。如果这一方向是正确的（NMDAR 激活状态→调控这三个基因的表达），则"NMDAR 低激活假说"不只是描述一个上游触发因素，而是描述了 SCZ 遗传风险基因在 PV 细胞中如何被 NMDAR 活性所调控。
+  - 问题 A：在 NMDAR 低激活（如氯胺酮模型）中，是否确实观察到 DISC1 和 NRG1/ErbB4 的转录下调（而非只是功能受损）？
+  - 问题 B：如果 NMDAR 激活恢复（使用 D-serine、甘氨酸位点激动剂等），是否能够上调 DISC1/NRG1/ErbB4 表达，从而"解锁"下游修复？
+  - 问题 C：这一调控方向（NMDAR→DISC1/NRG1 表达）是否也在人类死后脑中得到 mRNA 或蛋白质层面的间接支持？
+- **当前证据状态**：GluN2D KO→DISC1/NRG1/ErbB4 转录下调（中，Gawande 2023 单团队）；氯胺酮模型→DISC1/NRG1 转录影响（基本未知）；人类死后脑中 NMDAR-DISC1-NRG1 相关性（未知）
+- **为什么重要**：如果 NMDAR 激活是上游枢纽，现有的 NMDAR 正向调制治疗策略可能具有比假设的更广泛的修复效果
+
+### Q-scz-gen-03（中优先级）：ErbB4 正向变构调制能否修复 SCZ 患者 PV 细胞突触布线？
+
+- **关联 wiki**：[[nrg1-erbb4]]、[[pv-interneurons]]、[[schizophrenia]]、[[critical-period-reopening]]
+- **来源文章**：2026-09-16-schizophrenia-genetics-circuits
+- **问题**：Shi & Bergson 2020（PMID:32546684）提出 NRG1-ErbB4 信号轴可以重激活皮层可塑性，作为 SCZ 和 ADHD 的潜在基因治疗靶点。但具体如何？
+  - 问题 A：ErbB4 是否有可用的正向变构调制剂（PAM）？目前 ErbB4 靶向小分子（如阿法替尼、来那替尼）主要用于肿瘤，以抑制 ErbB4 过度激活为目的——SCZ 需要的是增强，而非抑制。是否存在特异性增强 ErbB4 信号的小分子？
+  - 问题 B：NRG1-ErbB4 信号的增强会通过抑制 Src→NMDAR，还是这一副作用可以通过剂量窗口避免？（PAM 可能在不完全激活 ErbB4 的剂量范围内增强突触布线而不过度压制 NMDAR）
+  - 问题 C：如果 ErbB4 在成年 SCZ 患者的 PV 细胞上表达已经下调（遗传性或活动依赖性），可以用 AAV 靶向 PV-Cre 细胞过表达 ErbB4 来恢复突触布线吗？安全性如何？
+- **当前证据状态**：NRG1-ErbB4 治疗潜力（低，基本是理论阶段）；ErbB4 特异性 PAM（几乎不存在，大多数是肿瘤靶向抑制剂）；人类 PV 细胞 ErbB4 靶向的药物试验（无）

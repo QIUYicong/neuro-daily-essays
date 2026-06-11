@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-15",
-  "node_count": 288,
-  "edge_count": 1637,
+  "updated": "2026-09-16",
+  "node_count": 290,
+  "edge_count": 1649,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2690,6 +2690,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/glun2-developmental-switch.md"
+    },
+    {
+      "id": "nrg1-erbb4",
+      "title": "NRG1-ErbB4 信号轴",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/nrg1-erbb4.md"
+    },
+    {
+      "id": "disc1",
+      "title": "DISC1（精神分裂症中断基因 1）",
+      "domain": "concepts",
+      "type": "entity",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/disc1.md"
     }
   ],
   "edges": [
@@ -11807,6 +11825,66 @@
     {
       "from": "nmda-receptor",
       "to": "glun2-developmental-switch",
+      "type": "related"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "schizophrenia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "nmda-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "gamma-oscillations",
+      "type": "regulates"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "disc1",
+      "type": "related"
+    },
+    {
+      "from": "disc1",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "disc1",
+      "to": "schizophrenia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "disc1",
+      "to": "cortical-interneuron-development",
+      "type": "related"
+    },
+    {
+      "from": "disc1",
+      "to": "medial-ganglionic-eminence",
+      "type": "related"
+    },
+    {
+      "from": "disc1",
+      "to": "nrg1-erbb4",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "nrg1-erbb4",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "disc1",
       "type": "related"
     }
   ],

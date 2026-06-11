@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-15（**#145**·NMDA 受体 GluN2B→GluN2A 发育切换机制——REST 表观遗传驱动 + GluN2A 浓度独立上升；人类皮层切换峰值约 36 岁（Siu 2017, PMC6596503）；老年期 GluN2A 骤降 75%；CaMKII-GluN2B 物理结合是 LTP 充要条件（Nicoll 2023）；GluN2A 过量损害 LTP+LTD+认知（Li 2022）；部分解答 Q-glun2-switch-development）· 主题页总数：**278**（新建1页：glun2-developmental-switch；修订1页：nmda-receptor rev5；图谱 297 节点，1711 边）
+> 最后更新：2026-09-16（**#146**·SCZ 遗传汇聚——DISC1（细胞骨架/MGE发育）、NRG1-ErbB4（PV细胞特异性突触布线）、GRIN2A（PV细胞NMDAR）三路径汇聚于同一终点：PV细胞GABA输出不足→γ振荡崩溃；Gawande 2023提供分子汇聚点证据（GluN2D KO→DISC1/NRG1/ErbB4全部下调）；DISC1 GWAS地位争议详述；新建 nrg1-erbb4 + disc1 两页；SCZ rev2新增遗传汇聚节）· 主题页总数：**280**（新建2页：nrg1-erbb4、disc1；修订1页：schizophrenia rev2；图谱 290 节点，1649 边）
 
 ---
 
@@ -110,6 +110,8 @@
 - 🟢 [SNARE复合体](concepts/SNARE-complex.md) — 突触囊泡融合的核心分子机器（四螺旋束拉链）
 - 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + GluN2B→GluN2A 发育切换改变可塑性阈值（修订5次）
 - 🟢 [GluN2 亚单位发育切换](concepts/glun2-developmental-switch.md) — REST 表观遗传沉默 Grin2b + GluN2A 浓度主导；人类 V1 峰值约 36 岁，老年期 GluN2A 丢失 75%；CaMKII-GluN2B 锚定是 LTP 充要条件；BCM 修改阈值的分子底层 **[NEW 2026-09-15 #145（解答 Q-glun2-switch-development）]**
+- 🔵 [NRG1-ErbB4 信号轴](concepts/nrg1-erbb4.md) — ErbB4 几乎专门表达于 PV+ 中间神经元（吊灯细胞+篮状细胞）；NRG1-ErbB4 控制 PV 细胞抑制性突触布线（Fazzari 2010）和谷氨酸突触成熟（Yang 2013）；通过 Src 抑制压制 NMDAR 功能（Pitcher 2011）；SCZ 遗传路径之一；对兴奋性突触不必要 **[NEW 2026-09-16 #146]**
+- 🟡 [DISC1（精神分裂症中断基因 1）](concepts/disc1.md) — 多功能支架蛋白；通过 NUDEL/LIS1 调控微管、GSK3β-Dlx2 影响 MGE 发育；DBZ 结合蛋白维护 PV 篮状细胞形态；DISC1 LI 小鼠选择性 PV GABA 减少（Delevich 2020）；**警告：DISC1 不在 SCZ GWAS 287 位点中**，主要通过苏格兰家系罕见变异关联 **[NEW 2026-09-16 #146]**
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础（修订8次）
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；Sahay 2011成人神经发生因果改善分离 **[NEW 2026-06-24]**
@@ -319,7 +321,7 @@
 - 🔵 [自闭症谱系障碍](diseases/autism-spectrum-disorder.md) — 高度异质神经发育障碍；三大通路：(1)突触修剪不足（16p11.2缺失→CD47感知障碍→小胶质吞噬↓→突触密度↑）；(2)突触装配蛋白突变（NLGN3/SHANK3/NRXN1β）；(3)E/I失衡偏兴奋；与精神分裂症形成"删除方向"镜像（过多 vs. 过少修剪）；confidence=medium（机制异质性大）**[NEW 2026-08-07 #106]**
 - 🟢 [传导性失语症](diseases/conduction-aphasia.md) — AF直接段/Spt损伤的典型临床表现；三特征：理解完整/产出流利/重复严重受损；conduite d'approche在DIVA前馈/反馈框架中的解释；皮层（Spt）vs 白质（AF）损伤争议 **[NEW 2026-08-21 #119]**
 - 🟢 [SYNGAP1 相关神经发育障碍](diseases/syngap1-related-disorder.md) — de novo SYNGAP1截短突变→SynGAP1单倍剂量不足→Ras-ERK制动减弱→突触提前过度成熟→LTP遮蔽→关键期提前关闭；约1%非综合征性ID；>70%癫痫、~50% ASD；成年期基因治疗前景 **[NEW 2026-09-07 #137]**
-- 🔵 [精神分裂症](diseases/schizophrenia.md) — 回路节律失调的发育性疾病；DLPFC PV+ 细胞 GAD67/PV 分子缄默（非细胞死亡，Hashimoto 2003）→ PING 机制受损 → γ 振荡功率降低 + θ-γ 耦合解体 → 工作记忆认知缺陷；上游机制：NMDAR 低激活（PCP/氯胺酮模型 Javitt 1991）+ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；新治疗靶点：Kv3.1/3.2 调节剂/PNN重塑/NMDAR正向调制 **[NEW 2026-09-13 #143]**
+- 🔵 [精神分裂症](diseases/schizophrenia.md) — 回路节律失调的发育性疾病；DLPFC PV+ 细胞 GAD67/PV 分子缄默（非细胞死亡，Hashimoto 2003）→ PING 机制受损 → γ 振荡功率降低 + θ-γ 耦合解体 → 工作记忆认知缺陷；上游机制：NMDAR 低激活（PCP/氯胺酮模型 Javitt 1991）+ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；遗传汇聚：DISC1/NRG1-ErbB4/GRIN2A 三路径汇聚于 PV 细胞，287 GWAS 位点富集于突触生物学（Trubetskoy 2022）；新治疗靶点：Kv3.1/3.2 调节剂/PNN重塑/NMDAR正向调制 **[NEW 2026-09-13 #143; rev2 2026-09-16 #146]**
 
 ---
 

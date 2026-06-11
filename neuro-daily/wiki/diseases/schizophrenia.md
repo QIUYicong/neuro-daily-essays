@@ -6,14 +6,14 @@ type: disease
 status: mainstream
 confidence: medium
 created: 2026-09-13
-updated: 2026-09-13
-revision_count: 1
+updated: 2026-09-16
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [pv-interneurons, gamma-oscillations, ei-balance, nmda-receptor, perineuronal-nets, trkb-receptor, bdnf, working-memory, prefrontal-cortex, dopamine-system, critical-period]
+related: [pv-interneurons, gamma-oscillations, ei-balance, nmda-receptor, perineuronal-nets, trkb-receptor, bdnf, working-memory, prefrontal-cortex, dopamine-system, critical-period, nrg1-erbb4, disc1, cortical-interneuron-development]
 prerequisites: [pv-interneurons, gamma-oscillations, ei-balance, action-potential]
-opens_questions: [Q-scz-pv-01, Q-scz-pv-02, Q-scz-pv-03]
-source_articles: [2026-09-13-pv-gamma-schizophrenia-cognition]
-key_sources: ["PMID:12867516", "PMID:22355184", "PMID:25863358", "PMID:19396159", "PMID:1654746", "PMID:22983435", "PMID:40436282"]
+opens_questions: [Q-scz-pv-01, Q-scz-pv-02, Q-scz-pv-03, Q-scz-gen-01, Q-scz-gen-02, Q-scz-gen-03]
+source_articles: [2026-09-13-pv-gamma-schizophrenia-cognition, 2026-09-16-schizophrenia-genetics-circuits]
+key_sources: ["PMID:12867516", "PMID:22355184", "PMID:25863358", "PMID:19396159", "PMID:1654746", "PMID:22983435", "PMID:40436282", "PMID:35396580", "PMID:20393464", "PMID:32029441", "PMID:37004850"]
 ---
 
 # 精神分裂症 (Schizophrenia)
@@ -38,6 +38,20 @@ key_sources: ["PMID:12867516", "PMID:22355184", "PMID:25863358", "PMID:19396159"
 - **认知症状**（工作记忆、执行功能减退）：与 DLPFC PV-γ 回路损伤直接相关；最影响预后；对多巴胺拮抗剂不敏感
 
 **治疗状态**：多巴胺 D2 拮抗剂有效控制正性症状，但对认知症状几乎无效。新兴靶点：Kv3.1/3.2 调节剂（靶向 PV 细胞复极化能力）；NMDAR 正向变构调制剂（甘氨酸位点）；PNN 重塑（氯氮平机制）。
+
+## 遗传汇聚视角（2026-09-16 新增）
+
+SCZ 最大规模 GWAS（Trubetskoy 2022，PMID:35396580，76,755 例 + 243,649 对照）发现 287 个基因组风险位点，其中相关基因高度富集于突触生物学（突触组织、分化和传递）和中枢神经系统的抑制性与兴奋性神经元。**GRIN2A**（GluN2A）是同时承载常见变异和罕见破坏性变异双重信号的关键候选基因。
+
+三条独立的遗传路径在 PV 细胞处汇聚：
+
+1. **DISC1 路径**（细胞骨架/MGE 发育）：DISC1 通过 NUDEL/LIS1 调控微管、GSK3β-Dlx2 影响 MGE 祖细胞发育，通过结合蛋白 DBZ 维护 PV 篮状细胞形态。DISC1 功能损伤→选择性 PV 细胞（非 SST）GABA 减少，丘脑-PFC 前馈抑制受损（PMID:32029441）。*注：DISC1 主要通过高外显率罕见变异而非 GWAS 常见变异与 SCZ 关联。*
+
+2. **NRG1-ErbB4 路径**（生长因子信号/PV 突触布线）：ErbB4 在大脑中几乎专门表达于 PV 细胞（PMID:20393464）；NRG1-ErbB4 信号负责 PV 细胞的抑制性突触布线（输出侧）和谷氨酸突触最终成熟（输入侧，PMID:24336736）；同时通过 Src 抑制来压制 NMDA 受体功能（PMID:21441918）。
+
+3. **GRIN2A 路径**（NMDA 受体亚单位）：GluN2A 在 PV 细胞上的 NMDA 受体中起关键作用，GluN2A 缺失选择性损伤 PV 细胞（PMID:40436282）。Gawande 2023（PMID:37004850）发现 PV 特异性 GluN2D KO 导致 *Disc1*、*Nrg1*、*ErbB4* 转录同步下调——**三条路径在 PV 细胞内形成相互依赖的分子网络**，NMDAR 激活不足可能触发级联性崩溃。
+
+详见 [[nrg1-erbb4]] 和 [[disc1]] 页面。
 
 ## 关键机制
 
@@ -112,7 +126,9 @@ PING 机制（Pyramidal-Interneuron Network Gamma）需要：
 ## 修订历史
 
 - 2026-09-13 · 创建 · 基于《当 γ 节奏失声》(#143) · 初始置信度：中（γ-PV 假说为主流，但直接因果机制在人类中部分仍为关联证据）
+- 2026-09-16 · 修订（rev2）· 基于《当遗传学汇聚于同一个回路》(#146) · 新增"遗传汇聚视角"节，整合 DISC1/NRG1-ErbB4/GRIN2A 三条路径的机制证据；related 新增 nrg1-erbb4/disc1/cortical-interneuron-development；key_sources 新增 4 条；opens_questions 新增 3 条（Q-scz-gen-01/02/03）；source_articles 新增 2026-09-16 文章
 
 ## 来源文章
 
 - [[2026-09-13-pv-gamma-schizophrenia-cognition]]
+- [[2026-09-16-schizophrenia-genetics-circuits]]

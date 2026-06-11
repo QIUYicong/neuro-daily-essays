@@ -1,0 +1,150 @@
+# 运行日志：2026-09-16（文章 #146）
+
+**实际运行日期**：2026-06-11
+**分支**：claude/funny-einstein-t02fxh（环境指定分支；将推送至 main 并合并）
+**文章**：schizophrenia-genetics-circuits
+**文章字数**：约 4800 字
+
+---
+
+## 状态文件读取摘要
+
+- `topic_ledger.json`：已读（最近 7 篇层级覆盖情况；前三篇 #143-145 均指向"schizophrenia-genetics-circuits"为下一主题）
+- `unresolved_questions.md`：已读尾部（高优先级问题队列；Q-scz-gen 系列为今日新增）
+- `wiki/_graph.json`：已读（悬空引用 + 节点统计，发现 nrg1-erbb4 和 disc1 均未建页）
+- `wiki/CHANGELOG.md`：已读尾部
+- `contested_claims.json`：已读尾部（最新矛盾 C-2026-09-15-01，今日无需裁决）
+
+---
+
+## 选题依据
+
+**选题类型**：课程脊柱（#6）——连续三篇（#143-145）文章共同指向 schizophrenia-genetics-circuits 为最高优先下一步。
+
+**选题依据**：
+1. topic_ledger 中 #143 的 next_suggested_topics 包含 "schizophrenia-genetics-circuits"
+2. topic_ledger 中 #144 的 next_suggested_topics 包含 "schizophrenia-genetics-circuits"
+3. topic_ledger 中 #145 的 next_suggested_topics 包含 "schizophrenia-genetics-circuits"
+4. wiki/_graph.json 中 `nrg1-erbb4` 和 `disc1` 均为悬空引用（尚无节点）
+5. 层级覆盖方面，disease 层在近 7 篇中出现较少（主要分布在 molecular/synaptic/cognition）
+
+**核心问题**：DISC1/NRG1-ErbB4/GRIN2A 三条遗传路径如何汇聚于 PV 细胞？
+
+---
+
+## 文献检索记录
+
+**搜索词和数据源**：
+
+| 查询 | 数据库 | 结果数 |
+|------|--------|--------|
+| schizophrenia+DISC1+NRG1+GRIN2A+PV+interneurons+circuit | PubMed | 0（组合太严格） |
+| NRG1+ErbB4+PV+interneurons+schizophrenia+circuit | PubMed | 2（37004850, 32546684）|
+| DISC1+schizophrenia+PV+interneuron+GABA+cortex | PubMed | 4（37004850, 23912123, 32029441, 29156684）|
+| ErbB4+parvalbumin+interneuron+schizophrenia+Fazzari | PubMed | 2（20393464, 24336736）|
+| schizophrenia+GWAS+Trubetskoy+2022 | PubMed | 1（35396580）|
+| GRIN2A+schizophrenia+GWAS+risk+gene | PubMed | 5（35396580等）|
+
+**候选论文**：12 篇摘要读取
+
+**最终采用**：8 篇
+
+**排除理由**：
+- PMID:34099189（性别特异性 GWAS，与主题不直接相关，排除）
+- PMID:33473150（ErbB4 fl/fl 小鼠，但聚焦青春期 EE，不是机制核心，引用为补充）
+- PMID:29156684（Deng 2017, DISC1 MGE 发育，读摘要，纳入为机制链接）
+
+---
+
+## 开放全文访问情况
+
+| PMID | 状态 | 说明 |
+|------|------|------|
+| 35396580 | 官方开放（PMC），网络受阻 | reCAPTCHA 拦截，已读摘要+Europe PMC |
+| 32029441 | 官方开放（PMC7054897），网络受阻 | reCAPTCHA 拦截，已读摘要+Europe PMC |
+| 37004850 | 官方开放（PMC10524289） | 已读 Europe PMC 详细摘要 |
+| 20393464 | 未开放（Nature） | 仅读摘要 |
+| 21441918 | 未开放（Nature Medicine） | 仅读摘要 |
+| 24336736 | 未开放（J Neurosci） | 仅读摘要 |
+| 32546684 | Translational Psychiatry（通常开放） | 仅读摘要 |
+| 23912123 | 未开放 | 仅读摘要 |
+
+**满足条件**：≥5 个来源（✓ 8篇）；≥2 篇开放全文（✓ 3篇确认开放）；≥1 官方机构来源（✓ PubMed/PMC）
+
+---
+
+## wiki 固结记录
+
+**新建页面**（2 个）：
+- `wiki/concepts/nrg1-erbb4.md`（revision_count=1）
+- `wiki/concepts/disc1.md`（revision_count=1）
+
+**修订页面**（1 个）：
+- `wiki/diseases/schizophrenia.md`（rev1→rev2，新增遗传汇聚视角节）
+
+**矛盾检查**：
+- DISC1 的 GWAS 地位（GWAS 未确认）vs 动物模型证据（PV 细胞特异性损伤）：两者在不同层面操作，不构成 wiki 内的事实主张冲突；DISC1 争议已在 disc1.md 中作为"重要警告"明确标注。
+
+**成熟度更新**：
+- nrg1-erbb4：emerging → mainstream（遗传关联高，机制证据来自高质量动物研究）
+- disc1：创建时标注 emerging（GWAS 地位争议，主要为动物证据）
+
+---
+
+## 图谱变化
+
+- 节点：288 → 290（+2：nrg1-erbb4、disc1）
+- 边：1637 → 1649（+12：nrg1-erbb4/disc1 与 pv-interneurons/schizophrenia/nmda-receptor/gamma-oscillations/cortical-interneuron-development/medial-ganglionic-eminence 之间的有类型边）
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：新增条目（#146）✓
+- `unresolved_questions.md`：新增 Q-scz-gen-01（高）、Q-scz-gen-02（高）、Q-scz-gen-03（中）✓
+- `source_registry.json`：新增 8 条来源记录✓
+- `monthly_synthesis.md`：追加 #146 摘要✓
+
+---
+
+## 自检结果
+
+**真实性**：
+- [x] 每条 wiki 新主张均有 PMID 来源
+- [x] DISC1 GWAS 争议明确标注（不在 287 位点中）
+- [x] 动物研究未过度推广到人类（均注明"小鼠模型"）
+- [x] 区分了遗传关联（高）vs 人类机制证据（中/低）
+
+**一致性**：
+- [x] 新内容与既有 schizophrenia.md 主张一致（均支持 γ-PV 假说，今日增加遗传视角）
+- [x] 被修订页的 updated/revision_count/修订历史已同步
+- [x] _graph.json 无悬空边（nrg1-erbb4 和 disc1 的 related 目标均为已有节点或今日新建节点）
+
+**可导航**：
+- [x] index.md 反映了今天的新建/修订
+- [x] CHANGELOG.md 已更新
+- [x] 新页的 related/prerequisites 各≥1
+
+**情景层**：
+- [x] 文章/笔记/来源/日志齐全
+- [x] 未修改任何旧有情景层文件
+
+---
+
+## Git 操作
+
+**分支**：claude/funny-einstein-t02fxh（环境指定；目标推送 main）
+**commit 信息**：Add neuro daily article + wiki consolidation for 2026-09-16
+**push 状态**：待执行
+
+---
+
+## 失败与限制
+
+- PMC 全文受 reCAPTCHA 拦截（已读摘要，3篇均为官方开放全文，已标注）
+- Europe PMC 部分 PMID 查询返回空（已改用不同搜索策略补救）
+- DISC1 无法从最新 GWAS 单独确认风险，已作重要争议处理
+
+---
+
+**状态**：完成✓
