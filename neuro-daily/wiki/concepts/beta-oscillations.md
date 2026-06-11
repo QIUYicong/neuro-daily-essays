@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-06-14
-updated: 2026-06-14
-revision_count: 1
-dimensions: [molecular, microcircuit, brain-region, whole-brain-network, behavior, disease]
-related: [parkinsons-disease, basal-ganglia, gamma-oscillations, theta-oscillations, dopamine-reward-prediction-error, working-memory]
+updated: 2026-09-19
+revision_count: 2
+dimensions: [molecular, microcircuit, brain-region, whole-brain-network, behavior, cognition, disease]
+related: [parkinsons-disease, basal-ganglia, gamma-oscillations, theta-oscillations, dopamine-reward-prediction-error, working-memory, alpha-oscillations, neural-oscillations, predictive-coding, communication-through-coherence, canonical-microcircuit]
 prerequisites: [basal-ganglia, dopamine-reward-prediction-error]
-opens_questions: [Q-pd-beta-causality, Q-beta-gamma-transitions]
-source_articles: [2026-06-14-parkinson-basal-ganglia-circuit]
-key_sources: ["PMID:20463229", "PMID:38954651", "PMID:29381817"]
+opens_questions: [Q-pd-beta-causality, Q-beta-gamma-transitions, Q-osc-02]
+source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-09-19-cortical-oscillation-hierarchy]
+key_sources: ["PMID:20463229", "PMID:38954651", "PMID:29381817", "PMID:20359884", "PMID:26447583"]
 ---
 
 # β振荡（基底节-皮层）(Beta Oscillations, Basal Ganglia-Cortical)
@@ -78,16 +78,33 @@ key_sources: ["PMID:20463229", "PMID:38954651", "PMID:29381817"]
 - [[gamma-oscillations]] — 正常运动规划中的γ振荡与β振荡在功能上对立
 - [[theta-oscillations]] — DA和DBS通过促进θ耦合来对抗β的"抗运动"效应
 - [[working-memory]] — PFC中的β振荡有不同功能（工作记忆内容维持），注意不同于PD中的基底节β振荡
+- [[neural-oscillations]] — β振荡在振荡层级中是反馈-预测通道，与α共同构成top-down控制频段
+- [[predictive-coding]] — β/α作为反馈预测载体，与γ（前馈误差）共同构成预测编码的振荡实现
+- [[communication-through-coherence]] — β在CTC框架中的角色：反馈方向的相干信号，将高层预测传递到低层
+- [[canonical-microcircuit]] — β主要由深层皮层（L5/6）产生，解剖上与反馈投射的层级分离一致
+
+### β振荡在皮层通信中的全局角色（新增来自#149）
+
+β振荡不只是帕金森病的"坏角色"——在健康脑中，它是自上而下（top-down）反馈通信的重要载体（Engel & Fries 2010，PMID:20359884）：
+
+- **"状态保持"信号**：β在预期维持当前行为状态时增强；预期行为改变时，β提前降低（ERD，event-related desynchronization）
+- **CTC框架中的反馈载体**：在灵长类皮层层级中，从高级区域到低级区域的**反馈投射**（深层 L5/6 → 下级 L1/6）主要以 α/β 频段为主，与前馈方向的 γ 形成频率-方向分工
+- **运动完成后的反弹（PMBR）**：运动结束后 β 在 ~200-600 ms 出现大幅反弹（post-movement beta rebound），可能代表皮层重新宣告"当前运动状态 = 静止"
+
+这将 PD 病理中的β过增强理解为：原本有益的"状态保持"机制在多巴胺缺失下失控，导致系统无法从"等待"状态切换到"运动"状态。
 
 ## 未解问题
 
 - Q-pd-beta-causality：β振荡是PD症状的原因（因）还是症状的伴生物（果）？
 - Q-beta-gamma-transitions：正常→PD状态中，γ→β振荡转变的分子触发机制是什么？
+- Q-osc-02：β/α的反馈方向角色在人类全脑网络中的普适性？DMN、语言网络中是否同样成立？
 
 ## 修订历史
 
 - 2026-06-14 · 创建 · 基于《多巴胺的沉默与节律的失控》一文 · 初始置信度：中
+- 2026-09-19 · 修订 · 基于《节律的层级》(#149) · 新增β振荡在全脑振荡层级中的角色（Engel & Fries 2010反馈预测载体；CTC框架中的top-down方向；PMBR机制）；扩充 related/key_sources
 
 ## 来源文章
 
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
+- [[2026-09-19-cortical-oscillation-hierarchy]]

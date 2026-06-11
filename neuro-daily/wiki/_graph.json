@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "node_count": 302,
   "edge_count": 1745,
   "edge_types": [
@@ -2735,6 +2735,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/medial-septum.md"
+    },
+    {
+      "id": "neural-oscillations",
+      "title": "神经振荡层级",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/neural-oscillations.md"
+    },
+    {
+      "id": "delta-oscillations",
+      "title": "δ振荡",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "medium",
+      "page": "wiki/concepts/delta-oscillations.md"
     }
   ],
   "edges": [
@@ -12045,6 +12063,96 @@
       "to": "hippocampal-circuit",
       "type": "mechanism-of",
       "note": "CA3驱动前向序列，CA1整合双向输入"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "gamma-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "theta-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "alpha-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "beta-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "cortical-slow-oscillation",
+      "type": "part-of"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "delta-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "theta-gamma-coupling",
+      "type": "related"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "communication-through-coherence",
+      "type": "supports"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "predictive-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "canonical-microcircuit",
+      "type": "related"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "memory-consolidation",
+      "type": "supports"
+    },
+    {
+      "from": "neural-oscillations",
+      "to": "working-memory",
+      "type": "supports"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "neural-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "neural-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "neural-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "neural-oscillations",
+      "type": "part-of"
     }
   ],
   "dangling_references": [

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-21
-updated: 2026-08-31
-revision_count: 2
+updated: 2026-09-19
+revision_count: 3
 dimensions: [whole-brain-network, brain-region, cognition, cellular, behavior]
-related: [dorsal-attention-network, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, biased-competition, thalamus, thalamocortical-circuit, pv-interneurons, ei-balance, attentional-blink, multisensory-integration, predictive-coding, communication-through-coherence]
+related: [dorsal-attention-network, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, biased-competition, thalamus, thalamocortical-circuit, pv-interneurons, ei-balance, attentional-blink, multisensory-integration, predictive-coding, communication-through-coherence, neural-oscillations, canonical-microcircuit]
 prerequisites: [action-potential, synaptic-transmission, pv-interneurons, thalamus]
-opens_questions: [Q-alpha-01, Q-alpha-02, Q-alpha-03]
-source_articles: [2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc]
-key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905", "PMID:21779269", "PMID:23141428", "PMID:26447583"]
+opens_questions: [Q-alpha-01, Q-alpha-02, Q-alpha-03, Q-osc-02]
+source_articles: [2026-07-21-alpha-oscillations-attentional-gating, 2026-08-31-fef-v4-gamma-coherence-ctc, 2026-09-19-cortical-oscillation-hierarchy]
+key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905", "PMID:21779269", "PMID:23141428", "PMID:26447583", "PMID:15218136", "PMID:15901760", "PMID:20932795"]
 ---
 
 # α 振荡 (Alpha Oscillations, 8–13 Hz)
@@ -116,8 +116,10 @@ key_sources: ["PMID:10704517", "PMID:21119777", "PMID:20573914", "PMID:18093905"
 
 - 2026-07-21 · 创建 · 基于《大脑的频闪滤网》第89篇文章 · 初始置信度：高（10个来源，9个开放全文，包含 rhTMS 因果证据）
 - 2026-08-31 · 修订 rev2 · 新增"α 在 CTC 框架中的角色"节：将 α 抑制整合进 Fries CTC 框架；说明 FEF-V4 γ coupling 与 α 抑制的协同机制；related 新增 communication-through-coherence；key_sources 新增 PMID:26447583；Q-alpha-01 部分回答进展
+- 2026-09-19 · 修订 rev3 · 基于《节律的层级》(#149) · 补充 α 在振荡层级（PAC）中的位置：α 是 δ→θ→α 嵌套框架中的"节律采样频段"（PAC：θ相位调制γ，α调制更低频的采样阈值）；补充 α 与 PAC 中 Canolty & Knight 2010（PMID:20932795）的整合；related 新增 neural-oscillations/canonical-microcircuit；opens_questions 新增 Q-osc-02
 
 ## 来源文章
 
 - [[2026-07-21-alpha-oscillations-attentional-gating]]
 - [[2026-08-31-fef-v4-gamma-coherence-ctc]]
+- [[2026-09-19-cortical-oscillation-hierarchy]]

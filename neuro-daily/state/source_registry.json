@@ -12837,6 +12837,79 @@
         "theta sampling",
         "frequency hierarchy"
       ]
+    },
+    {
+      "pmid": "15218136",
+      "title": "Neuronal Oscillations in Cortical Networks",
+      "authors": "Buzsáki & Draguhn",
+      "year": 2004,
+      "journal": "Science",
+      "article": "2026-09-19-cortical-oscillation-hierarchy",
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "20664082",
+      "title": "Neurophysiological and Computational Principles of Cortical Rhythms in Cognition",
+      "authors": "Wang XJ",
+      "year": 2010,
+      "journal": "Physiol Rev",
+      "article": "2026-09-19-cortical-oscillation-hierarchy",
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "26447583",
+      "pmcid": "PMC4605134",
+      "title": "Rhythms for Cognition: Communication through Coherence",
+      "authors": "Fries P",
+      "year": 2015,
+      "journal": "Neuron",
+      "article": "2026-09-19-cortical-oscillation-hierarchy",
+      "access": "open_full_text"
+    },
+    {
+      "pmid": "15901760",
+      "title": "An oscillatory hierarchy controlling neuronal excitability and stimulus processing in the auditory cortex",
+      "authors": "Lakatos et al.",
+      "year": 2005,
+      "journal": "J Neurophysiol",
+      "article": "2026-09-19-cortical-oscillation-hierarchy",
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "20932795",
+      "title": "The functional role of cross-frequency coupling",
+      "authors": "Canolty & Knight",
+      "year": 2010,
+      "journal": "Trends Cogn Sci",
+      "article": "2026-09-19-cortical-oscillation-hierarchy",
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "20359884",
+      "title": "Beta-band oscillations--signalling the status quo?",
+      "authors": "Engel & Fries",
+      "year": 2010,
+      "journal": "Curr Opin Neurobiol",
+      "article": "2026-09-19-cortical-oscillation-hierarchy",
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "8340807",
+      "title": "Intracellular analysis of relations between the slow (<1 Hz) neocortical oscillation and other sleep rhythms",
+      "authors": "Steriade et al.",
+      "year": 1993,
+      "journal": "J Neurosci",
+      "article": "2026-09-19-cortical-oscillation-hierarchy",
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "14624852",
+      "title": "Interneuron diversity series: inhibitory interneurons and network oscillations in vitro",
+      "authors": "Whittington & Traub",
+      "year": 2003,
+      "journal": "Trends Neurosci",
+      "article": "2026-09-19-cortical-oscillation-hierarchy",
+      "access": "abstract_only"
     }
   ],
   "additions_2026-09-06": [

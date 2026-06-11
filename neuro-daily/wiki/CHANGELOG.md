@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-09-19（文章 #149：节律的层级——大脑振荡频段如何通过相位嵌套构建多时间尺度通信架构）
+
+**今日主题：** 皮层振荡层级综合——从慢振荡（<1 Hz）到 γ（>30 Hz）的六个频段产生机制（Steriade 1993、Lakatos 2005、Whittington 2003、Engel & Fries 2010）；相位振幅耦合（PAC）三层嵌套直接证据（δ→θ→γ，Lakatos 2005）；通信通道假说（CTC，Fries 2015，全文读）；频率-方向分工（γ前馈 vs α-β反馈）与预测编码框架的统一；振荡层级的多时间尺度整合功能
+
+### 新建 wiki 页面（1 个）
+- `wiki/concepts/neural-oscillations.md` — 神经振荡层级 | mainstream / medium | 六频段产生机制总结；PAC三层嵌套（Lakatos 2005）；CTC框架（Fries 2015）；频率-方向分工；与预测编码统一
+
+### 修订 wiki 页面（3 个）
+- `wiki/concepts/beta-oscillations.md`（rev1→rev2）：新增β在全脑振荡层级中的角色（Engel & Fries 2010状态保持假说；CTC反馈方向；PMBR机制）；related新增neural-oscillations/predictive-coding/communication-through-coherence/canonical-microcircuit；key_sources新增PMID:20359884/26447583
+- `wiki/concepts/gamma-oscillations.md`（rev7→rev8）：新增γ在振荡层级中的位置节（PAC嵌套层级；前馈载体角色；频率-方向分工与预测编码对应）；related新增neural-oscillations/predictive-coding/canonical-microcircuit；key_sources新增PMID:15218136/15901760
+- `wiki/concepts/alpha-oscillations.md`（rev2→rev3）：补充α与PAC层级框架的关系（Canolty & Knight 2010）；related新增neural-oscillations/canonical-microcircuit；opens_questions新增Q-osc-02
+
+### 登记或裁决矛盾
+- **无新矛盾登记**（振荡层级框架是 mainstream，已有广泛独立证据支持；PAC的功能因果性争议已在 Q-osc-01 中登记，但程度不足以登记 contested_claim）
+
+### 新增未解问题
+- `Q-osc-01`：振荡是功能性计算机制还是能量耗散副产品？（高优先级）
+- `Q-osc-02`：CTC框架中频率-方向分工的跨区普适性？（中优先级）
+
+### 填补悬空引用
+- `delta-oscillations` — 文章中提到δ振荡但无wiki节点，已在图谱中添加stub节点，待后续补页
+
+### 新增悬空引用（待补页面）
+- `delta-oscillations` — 今天文章详细讨论了δ振荡但尚无独立wiki页面
+
+### 图谱变化
+- 节点：302 → 304（+2：neural-oscillations、delta-oscillations）
+- 边：1745 → 1763（+18）
+
+---
+
 ## 2026-09-18（文章 #148：θ序列——大脑如何在每个节律脉冲中同时容纳过去、当下与未来）
 
 **今日主题：** θ序列（theta sequences）的完整机制——相位进动的群体效应、10:1时间压缩、CA3/CA1分工（Dragoi & Buzsáki 2006）、θ振荡内前向/逆向双序列（Wang et al. 2020, Science）、前瞻性扫描（Pfeiffer & Foster 2013, Nature）、内侧隔核相位框架（Petersen & Buzsáki 2020, Neuron）、DG/MEC回路分工（Ahmadi 2025）、人类证据（Reddy 2021）；填补medial-septum悬空引用

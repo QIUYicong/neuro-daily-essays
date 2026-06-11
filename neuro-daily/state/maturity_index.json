@@ -235,6 +235,13 @@
       "last_changed": "2026-09-18",
       "change_reason": "初始创建（填补theta-oscillations悬空引用）；MS作为θ起搏器是经典established知识；距离-相位压缩保留实验（Petersen 2020）揭示相位框架角色",
       "source_article": "2026-09-18-theta-sequences-episodic-memory"
+    },
+    {
+      "slug": "neural-oscillations",
+      "status": "mainstream",
+      "confidence": "medium",
+      "date": "2026-09-19",
+      "reason": "框架是mainstream（广泛实验证据支持），但振荡的因果作用和CTC普适性仍有争议（Q-osc-01/Q-osc-02），保持medium置信"
     }
   ],
   "last_updated": "2026-09-18",

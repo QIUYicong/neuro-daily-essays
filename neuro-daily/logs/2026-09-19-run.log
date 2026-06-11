@@ -1,0 +1,133 @@
+# 运行日志：2026-09-19
+
+**文章编号**：#149
+**实际生成日期**：2026-06-11（UTC）
+**文章日期标签**：2026-09-19
+**分支**：main
+
+---
+
+## 选题过程
+
+**读取状态文件**：
+- topic_ledger.json：最后文章 #148（2026-09-18），θ序列与情节记忆
+- unresolved_questions.md：高优先级包括 Q-ts-01（θ序列非空间记忆），Q-osc 类目尚无
+- contested_claims.json：16条open矛盾，无直接裁决机会
+- _graph.json：
+  - 悬空引用：`aging`（1边）、`cognition`（1边）、`dopamine-system`（1边）——均仅1条引用，优先级低
+  - 最高优先前沿节点：predictive-coding（度数55，medium）；但该页已10次修订，内容丰富
+  - 无 `neural-oscillations` 或 `oscillation-hierarchy` 综合综述节点
+
+**选题决策**：
+- 优先级4（加深前沿节点）：`predictive-coding`（度55）是最突出的前沿节点，但已有10次修订
+- 综合考虑：最近5天（#143-148）密集覆盖了微回路/细胞层级；今天适合切换到 whole-brain-network 层级
+- 缺口分析：知识库中各振荡频段均有独立wiki页（gamma/alpha/beta/theta），但**无综合节点**（`neural-oscillations`），且缺乏频段间整合叙事
+- **最终选题**：皮层振荡层级综合（`cortical-oscillation-hierarchy`），创建 `neural-oscillations` wiki 综合页，修订 beta/gamma/alpha 三页以补充 CTC 框架和层级背景
+
+---
+
+## 文献检索记录
+
+**检索工具**：PubMed NCBI E-utilities（WebFetch），PMC Open Access（直接URL）
+
+**主要检索词**：
+- "Buzsaki Draguhn neuronal oscillations cortical networks 2004 Science" → PMID:15218136 ✓
+- "Wang XJ neurophysiological computational principles cortical rhythms cognition 2010" → PMID:20664082 ✓
+- "Fries rhythms cognition communication coherence 2015 Neuron" → PMID:26447583 ✓
+- "Lakatos oscillatory hierarchy auditory cortex 2005" → PMID:15901760 ✓
+- "Canolty Knight cross-frequency coupling 2010" → PMID:20932795 ✓
+- "Engel Fries beta band oscillations status quo 2010" → PMID:20359884 ✓
+- "Steriade Nunez Amzica slow oscillation 1993" → PMID:8340807 ✓
+- "Whittington Traub interneuron gamma oscillations 2003" → PMID:14624852 ✓
+
+**开放全文获取**：
+- PMC4605134（Fries 2015）：开放全文，直接访问 pmc.ncbi.nlm.nih.gov
+- PMC3648857（Lisman & Jensen 2013，来自#147）：开放全文，已在前文读取
+
+**未能获取全文的重要论文**（使用摘要）：
+- Buzsáki & Draguhn 2004 (Science) - 付费墙
+- Wang XJ 2010 (Physiol Rev) - 付费墙
+- Lakatos 2005 (J Neurophysiol) - 付费墙
+- Canolty & Knight 2010 (Trends Cogn Sci) - 付费墙
+- Engel & Fries 2010 (Curr Opin Neurobiol) - 付费墙
+- Steriade 1993 (J Neurosci) - 付费墙
+- Whittington & Traub 2003 (Trends Neurosci) - 付费墙
+
+**最终来源**：9个（2个开放全文，7个仅读摘要）
+
+---
+
+## 固结步骤（D步骤）
+
+**新建 wiki 页面**：
+- `wiki/concepts/neural-oscillations.md`（神经振荡层级，mainstream/medium）
+
+**修订 wiki 页面**：
+- `wiki/concepts/beta-oscillations.md`（rev1→rev2）：新增CTC反馈方向/状态保持/PMBR
+- `wiki/concepts/gamma-oscillations.md`（rev7→rev8）：新增振荡层级位置/前馈载体/PAC层级
+- `wiki/concepts/alpha-oscillations.md`（rev2→rev3）：补充PAC层级框架/CTC反馈方向
+
+**矛盾检查**：
+- 无新矛盾（振荡层级框架是mainstream，现有wiki与新证据一致）
+- Q-osc-01 关于振荡因果性的争议已在文章中如实表述，但不构成 `contested_claim`（是已知的认识论限制，非两项相互冲突的经验主张）
+
+**成熟度更新**：
+- neural-oscillations：新创建，mainstream/medium
+
+---
+
+## 图谱更新（E步骤）
+
+- 节点：302 → 304（+2：neural-oscillations、delta-oscillations stub）
+- 边：1745 → 1763（+18条）
+- 新增边包括：neural-oscillations → {gamma, theta, alpha, beta, cortical-slow-oscillation, delta-oscillations}（part-of × 6）；neural-oscillations → {theta-gamma-coupling, communication-through-coherence, memory-consolidation, working-memory}（supports/related × 4）；neural-oscillations → predictive-coding（mechanism-of）；neural-oscillations → {canonical-microcircuit, pv-interneurons, ei-balance}（related × 3）；各振荡频段 → neural-oscillations（part-of × 4，双向）
+
+---
+
+## 治理层更新（F步骤）
+
+- topic_ledger.json：新增条目#149
+- unresolved_questions.md：新增Q-osc-01（振荡因果性，高优先）、Q-osc-02（CTC普适性，中优先）
+- source_registry.json：新增8个来源
+- maturity_index.json：新增neural-oscillations条目
+- monthly_synthesis.md：追加本月第18篇摘要
+- wiki/index.md：新增neural-oscillations条目（🔵 mainstream）；标题更新至#149
+- wiki/CHANGELOG.md：追加#149节
+
+---
+
+## 失败与限制
+
+- 多数核心来源（7/9）为摘要Only（因付费墙），已在文章和来源文件中标注
+- 未找到合适的官方机构来源（NIH/NINDS）直接针对振荡层级综合，略低于"≥1个官方机构来源"要求；来源质量高（Science/Nature/Neuron/Physiol Rev），已标注此限制
+- 搜索中遇到多次 PubMed 查询"No items found"（通常是短语搜索条件过于严格），通过调整搜索词解决
+
+---
+
+## 自检（H步骤）
+
+**真实性**：
+- [x] wiki每条新主张有来源（PMID）
+- [x] 区分了事实/主流模型/推测/争议（Q-osc-01/Q-osc-02明确标注）
+- [x] 未把单篇研究或动物研究写成定论（"高置信"来自多项独立研究；人类证据标注局限）
+
+**一致性**：
+- [x] 新内容与既有wiki一致；无矛盾（已检查）
+- [x] 修订页的updated/revision_count/修订历史已同步更新
+- [x] _graph.json：新边均指向已存在节点（除delta-oscillations stub，已显式添加）
+
+**可导航**：
+- [x] index.md 和 CHANGELOG.md 已反映今天的变化
+- [x] 新页 neural-oscillations 的 related/prerequisites 均已填写（各≥1）
+
+**情景层完整**：
+- [x] 文章/笔记/来源/日志齐全
+- [x] 未修改任何旧文章文件
+
+---
+
+## 提交信息
+
+- **Commit message**: Add neuro daily article + wiki consolidation for 2026-09-19
+- **Branch**: main
+- **Push status**: 见下方

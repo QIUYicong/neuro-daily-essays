@@ -9742,6 +9742,88 @@
       "contested_claims_registered": [],
       "graph_nodes_after": 302,
       "graph_edges_after": 1745
+    },
+    {
+      "date": "2026-09-19",
+      "real_date": "2026-06-11",
+      "article_number": 149,
+      "title": "节律的层级：大脑振荡频段如何通过相位嵌套构建多时间尺度通信架构",
+      "slug": "cortical-oscillation-hierarchy",
+      "filename": "2026-09-19-cortical-oscillation-hierarchy.md",
+      "article_type": "regular",
+      "core_question": "从慢振荡（<1 Hz）到γ（>30 Hz），不同频率振荡是如何通过不同回路机制产生的，各自承担什么计算角色，以及如何通过PAC层级嵌套构建多时间尺度通信架构",
+      "layer": [
+        "whole-brain-network",
+        "microcircuit",
+        "cellular",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "4. 学习和记忆 × 5. 认知控制 × 全脑网络综合（θ系列升维→振荡层级架构）",
+      "topic_tags": [
+        "cortical oscillations",
+        "neural oscillation hierarchy",
+        "slow oscillation",
+        "delta oscillations",
+        "theta oscillations",
+        "alpha oscillations",
+        "beta oscillations",
+        "gamma oscillations",
+        "phase-amplitude coupling",
+        "PAC",
+        "communication through coherence",
+        "CTC",
+        "Fries 2015",
+        "Lakatos 2005",
+        "Buzsaki 2004",
+        "Wang 2010",
+        "Engel Fries 2010",
+        "Steriade 1993",
+        "Whittington Traub 2003",
+        "Canolty Knight 2010",
+        "feedforward gamma",
+        "feedback alpha-beta",
+        "oscillation hierarchy",
+        "frequency-direction segregation",
+        "inhibitory gating",
+        "status quo",
+        "up down states",
+        "ING PING",
+        "thalamocortical",
+        "PV interneurons"
+      ],
+      "main_sources": [
+        "PMID:15218136",
+        "PMID:20664082",
+        "PMID:26447583 / PMC4605134 (open full text)",
+        "PMID:15901760",
+        "PMID:20932795",
+        "PMID:20359884",
+        "PMID:8340807",
+        "PMID:14624852",
+        "PMID:23522038 / PMC3648857 (open full text)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/neural-oscillations.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/beta-oscillations.md (rev1->rev2): 新增β在全脑振荡层级中的CTC反馈方向角色；PMBR机制；related/key_sources扩充",
+        "wiki/concepts/gamma-oscillations.md (rev7->rev8): 新增γ在振荡层级中的位置（PAC嵌套层级，前馈载体，频率-方向分工）；related/key_sources扩充",
+        "wiki/concepts/alpha-oscillations.md (rev2->rev3): 补充α与PAC层级框架关系；related/key_sources扩充"
+      ],
+      "contested_claims_logged": [],
+      "open_questions_addressed": [],
+      "unresolved_questions": [
+        "Q-osc-01",
+        "Q-osc-02"
+      ],
+      "next_suggested_topics": [
+        "delta-oscillations: δ振荡在语音处理中的具体机制——Giraud & Poeppel 2012 模型（delta追踪音节，theta追踪音素）；HPC-PFC慢振荡在情节记忆巩固中的精确时序功能；直接填补 delta-oscillations dangling reference",
+        "attention-networks-comprehensive: 背侧（DAN）vs 腹侧（VAN）注意网络的完整回路和振荡机制——与今天α-γ分工的整合；TPJ在注意重定向中的角色；连接neural-oscillations页面",
+        "week-synthesis-5-week-integration: 第5周（#143-149）综合——从PV-γ（#143）→ DA-D1R（#144）→ NMDA switch（#145）→ SCZ遗传汇聚（#146）→ θ-γ（#147）→ θ序列（#148）→ 振荡层级（#149）的七篇叙事构成了什么图景？"
+      ],
+      "graph_nodes_after": 304,
+      "graph_edges_after": 1763
     }
   ],
   "layer_coverage_recent": [

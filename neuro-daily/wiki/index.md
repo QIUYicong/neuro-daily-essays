@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-18（**#148**·θ序列——相位进动群体效应→10:1时间压缩→前向/逆向双序列（Wang 2020 Science）→前瞻性扫描（Pfeiffer 2013 Nature）→内侧隔核相位框架（Petersen 2020 Neuron）→DG/MEC回路分工（Ahmadi 2025）→人类MTL证据（Reddy 2021）；填补medial-septum悬空引用；新建theta-sequences + medial-septum两页；修订theta-phase-precession + theta-oscillations）· 主题页总数：**282**（新建2页：theta-sequences、medial-septum；修订2页：theta-phase-precession rev2、theta-oscillations rev5；图谱 302 节点，1745 边）
+> 最后更新：2026-09-19（**#149**·皮层振荡层级——六频段机制（慢振荡/δ/θ/α/β/γ）；PAC三层嵌套（Lakatos 2005）；CTC通信通道假说（Fries 2015 全文）；频率-方向分工（γ前馈 vs α-β反馈）与预测编码统一；新建neural-oscillations综合页；修订beta/gamma/alpha振荡三页；新问题Q-osc-01/Q-osc-02）· 主题页总数：**283**（新建1页：neural-oscillations；修订3页：beta-oscillations rev2、gamma-oscillations rev8、alpha-oscillations rev3；图谱 304 节点，1763 边）
 
 ---
 
@@ -45,6 +45,7 @@
 
 ## concepts（概念/框架）
 
+- 🔵 [神经振荡层级](concepts/neural-oscillations.md) — 慢振荡/δ/θ/α/β/γ 六频段产生机制综合；PAC三层嵌套（δ→θ→γ，Lakatos 2005）；CTC通信通道假说（Fries 2015）；频率-方向分工（γ前馈误差 vs α/β反馈预测）；振荡层级与预测编码框架统一 **[NEW 2026-09-19 #149]**
 - 🟢 [θ序列](concepts/theta-sequences.md) — 单个θ周期（~125ms）内场所细胞按空间顺序（过去→当下→未来）依次激活的有序序列；10:1时间压缩；前向（CA3）/逆向（EC III）双向结构（Wang 2020 Science）；前瞻性扫描预测行为（Pfeiffer 2013）；以相位为坐标（Petersen 2020）；DG控制晚期相位起点（Ahmadi 2025）；人类MTL证据（Reddy 2021） **[NEW 2026-09-18 #148]**
 - 🟡 [神经发生诱导遗忘](concepts/neurogenesis-induced-forgetting.md) — 增加神经发生主动加速遗忘（突触竞争改写连接组）；降低婴儿期神经发生减轻婴儿失忆症；Akers 2014 双向跨物种因果证据；遗忘是进化保留的主动容量管理策略 **[NEW 2026-09-09 #139]**
 - 🟢 [PSD-95（突触后密度-95）](concepts/psd-95.md) — 兴奋性突触最丰富的支架蛋白（~300分子/突触）；PDZ1/2锚定NMDAR-GluN2B；经TARP间接稳定AMPAR；突触槽位分子基础；SynGAP竞争PDZ控制LTP；棕榈酰化动态循环；PSD-95/93竞争设定关键期时间轴 **[NEW 2026-09-06 #136（填补悬空引用）]**

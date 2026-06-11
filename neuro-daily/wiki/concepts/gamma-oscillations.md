@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-09-17
-revision_count: 7
+updated: 2026-09-19
+revision_count: 8
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular, disease]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, theta-gamma-coupling, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations, communication-through-coherence, dorsal-attention-network, schizophrenia, nmda-receptor]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, theta-gamma-coupling, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations, communication-through-coherence, dorsal-attention-network, schizophrenia, nmda-receptor, neural-oscillations, predictive-coding, canonical-microcircuit]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
-opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-ctc-01, Q-scz-pv-01]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-08-31-fef-v4-gamma-coherence-ctc, 2026-09-13-pv-gamma-schizophrenia-cognition]
-key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:19478185", "PMID:22325208", "PMID:25863358", "PMID:28148460", "PMID:19396156", "PMID:19396159"]
+opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-ctc-01, Q-scz-pv-01, Q-osc-01]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-08-31-fef-v4-gamma-coherence-ctc, 2026-09-13-pv-gamma-schizophrenia-cognition, 2026-09-19-cortical-oscillation-hierarchy]
+key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:19478185", "PMID:22325208", "PMID:25863358", "PMID:28148460", "PMID:19396156", "PMID:19396159", "PMID:15218136", "PMID:15901760"]
 ---
 
 # γ 振荡 (Gamma Oscillations, 30–80 Hz)
@@ -165,6 +165,16 @@ Gregoriou 等 2009 年提供了迄今最直接的 γ coherence 跨区通信证�
 
 详见 [[schizophrenia]] 页面。
 
+### γ 在振荡层级中的位置（新增来自 #149）
+
+在大脑振荡层级中（Buzsáki & Draguhn 2004，PMID:15218136；Lakatos 2005，PMID:15901760）：
+- γ 是**最高频的局部计算层**，嵌套于 θ 相位的低功率区（θ 相位调制 γ 幅度 = PAC）
+- γ 是**前馈通信的物理载体**：在皮层层级（Bastos 2012，PMID:23177956）中，浅层（L2/3）的前馈投射以 γ 为主
+- γ 所以高频：每个 GABA_A 抑制周期约 10–15 ms，对应 γ 峰值 ~65–100 Hz；这是 PV 细胞 GABA_A 动力学的物理约束
+- **频率-方向分工**：γ（前馈/bottom-up） vs α/β（反馈/top-down）——两者共同实现预测编码的振荡版本
+
+- 2026-09-19 · 修订 rev8 · 基于《节律的层级》(#149) · 新增γ在振荡层级中的位置节（PAC嵌套层级，前馈载体角色，频率-方向分工与预测编码对应）；related 新增 neural-oscillations/predictive-coding/canonical-microcircuit；key_sources 新增 PMID:15218136/15901760
+
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
@@ -173,3 +183,4 @@ Gregoriou 等 2009 年提供了迄今最直接的 γ coherence 跨区通信证�
 - [[2026-07-21-alpha-oscillations-attentional-gating]]
 - [[2026-08-31-fef-v4-gamma-coherence-ctc]]
 - [[2026-09-13-pv-gamma-schizophrenia-cognition]]
+- [[2026-09-19-cortical-oscillation-hierarchy]]
