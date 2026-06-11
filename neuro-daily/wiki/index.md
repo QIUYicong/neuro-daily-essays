@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-20（**#150 周综合**·PV-振荡-认知架构整合——新建temporal-multiplexing综合页；修订pv-interneurons（超级节点视角）、neural-oscillations（新增时序多路复用连接）；周综合整合#143-149七篇主题：PV细胞作为认知超级节点，振荡作为认知时序基础设施，两个分子旋钮（NMDA亚单位+DA-D1R）协同设定回路状态）· 主题页总数：**284**（新建1页：temporal-multiplexing；修订2页：pv-interneurons rev7、neural-oscillations rev2；图谱 305 节点，1771 边）
+> 最后更新：2026-09-21（**#151**·δ振荡语音层级追踪——新建delta-oscillations专页（填补悬空引用）；修订neural-oscillations（δ双重功能细化）、cortical-slow-oscillation（明确SO vs δ机制区别）；核心认识：δ追踪抽象语法结构（Ding 2016），是语法计算的神经电标志而非声学回声；阅读障碍TSF框架）· 主题页总数：**285**（新建1页：delta-oscillations；修订2页：neural-oscillations rev3、cortical-slow-oscillation rev5；图谱 302 节点，1752 边）
 
 ---
 
@@ -45,7 +45,8 @@
 
 ## concepts（概念/框架）
 
-- 🔵 [神经振荡层级](concepts/neural-oscillations.md) — 慢振荡/δ/θ/α/β/γ 六频段产生机制综合；PAC三层嵌套（δ→θ→γ，Lakatos 2005）；CTC通信通道假说（Fries 2015）；频率-方向分工（γ前馈误差 vs α/β反馈预测）；振荡层级与预测编码框架统一 **[NEW 2026-09-19 #149]**
+- 🔵 [神经振荡层级](concepts/neural-oscillations.md) — 慢振荡/δ/θ/α/β/γ 六频段产生机制综合；PAC三层嵌套（δ→θ→γ，Lakatos 2005）；CTC通信通道假说（Fries 2015）；频率-方向分工（γ前馈误差 vs α/β反馈预测）；振荡层级与预测编码框架统一 **[修订 rev3 2026-09-21 #151]**
+- 🔵 [δ振荡](concepts/delta-oscillations.md) — 语音处理中的语言层级时间框架（追踪抽象句法结构，Ding 2016）；语言特异性（Molinaro 2018）；清醒语音δ与睡眠记忆δ的双重功能及机制区别；阅读障碍TSF框架（Goswami 2011）；左颞-额网络 **[NEW 2026-09-21 #151（填补悬空引用）]**
 - 🔵 [时序多路复用](concepts/temporal-multiplexing.md) — 大脑利用振荡节律的时间结构在同一神经基底上通过时间槽并行编码多个信息流的原理；θ-γ嵌套为工作记忆实现4-8项并行存储；θ序列为情节记忆实现跨时间尺度压缩（~20-40倍）；与Transformer位置编码的AI对比 **[NEW 2026-09-20 #150周综合]**
 - 🟢 [θ序列](concepts/theta-sequences.md) — 单个θ周期（~125ms）内场所细胞按空间顺序（过去→当下→未来）依次激活的有序序列；10:1时间压缩；前向（CA3）/逆向（EC III）双向结构（Wang 2020 Science）；前瞻性扫描预测行为（Pfeiffer 2013）；以相位为坐标（Petersen 2020）；DG控制晚期相位起点（Ahmadi 2025）；人类MTL证据（Reddy 2021） **[NEW 2026-09-18 #148]**
 - 🟡 [神经发生诱导遗忘](concepts/neurogenesis-induced-forgetting.md) — 增加神经发生主动加速遗忘（突触竞争改写连接组）；降低婴儿期神经发生减轻婴儿失忆症；Akers 2014 双向跨物种因果证据；遗忘是进化保留的主动容量管理策略 **[NEW 2026-09-09 #139]**

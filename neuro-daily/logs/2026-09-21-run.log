@@ -1,0 +1,96 @@
+# 运行日志 — 2026-09-21
+
+**文章编号**：#151
+**真实运行日期**：2026-06-11（UTC+8）
+**模拟文章日期**：2026-09-21
+**主题**：δ振荡：大脑解析语音层级的慢速时钟
+**文章类型**：regular（填补悬空引用）
+
+---
+
+## 选题依据
+
+- 主要依据：`delta-oscillations` 在 `_graph.json` 中为悬空引用（节点存在但无 wiki 页面），在 #150 周综合的 CHANGELOG 中被明确标注为优先填补
+- 课程轨道：路线 3（大脑如何编码世界）× 路线 7（语言与抽象思维）
+- 层级：`whole-brain-network, brain-region, behavior, cognition`（与近期 molecular/cellular 层级不同，符合避免连续三天同一层级的规则）
+
+---
+
+## 检索与资料汇总
+
+**搜索词**：
+1. "Giraud Poeppel delta theta oscillations speech processing cortical tracking 2012"
+2. "delta oscillations 1-4 Hz neural entrainment speech syllable tracking auditory cortex"
+3. "Ding 2016 cortical tracking hierarchical linguistic structures"
+4. "delta speech-specific processing Molinaro 2018"
+5. "Goswami temporal sampling framework dyslexia delta"
+6. "entorhinal cortical delta oscillations memory consolidation"
+
+**主要数据库**：PubMed、PMC（通过 WebSearch + WebFetch）
+
+**候选来源**：7项主要来源，所有均为已发表期刊论文或综述
+
+**采用来源**（7项）：
+1. Giraud & Poeppel 2012 (PMID:22426255) — PMC 开放全文读取 ✅
+2. Ding et al. 2016 (PMID:26642090) — 仅摘要（付费文章）⚠️
+3. Molinaro & Lizarazu 2018 (PMID:29283465) — 仅摘要 ⚠️
+4. Rimmele et al. 2021 (PMID:34083380) — PMC 开放全文读取 ✅
+5. Goswami 2011 (PMID:21093350) — 仅摘要 ⚠️
+6. Yakel et al. 2023 (PMID:37838945) — PMC 开放全文读取 ✅
+7. Lakatos et al. 2005 (PMID:15901760) — 已在 #149 引用，此处援引
+
+**开放全文**：4项（Giraud 2012、Rimmele 2021、Yakel 2023，以及 Lakatos 2005 已处理过）
+**仅摘要**：3项（Ding 2016、Molinaro 2018、Goswami 2011）
+**排除来源**：无（所有找到的相关来源均为正规期刊，无盗版/绕paywall情况）
+
+---
+
+## 今日固结 wiki 页面
+
+**新建（1页）**：
+- `wiki/concepts/delta-oscillations.md` — δ振荡 | mainstream / medium | 填补悬空引用 | revision_count=1
+
+**修订（2页）**：
+- `wiki/concepts/neural-oscillations.md`（rev2→rev3）：δ频段功能细化；related新增delta-oscillations；key_sources新增2项
+- `wiki/concepts/cortical-slow-oscillation.md`（rev4→rev5）：SO与δ的区别明确化；related新增delta-oscillations和neural-oscillations
+
+---
+
+## 登记的矛盾
+
+无新矛盾（delta的双重功能描述的是机制区别，非冲突主张）
+
+---
+
+## 新增未解问题
+
+- Q-delta-01（高）：声学驱动 vs 句法计算驱动的 δ 相位分离方法论——见 unresolved_questions.md
+- Q-delta-02（中）：阅读障碍 δ 缺陷的皮层 vs 脑干上游起源——见 unresolved_questions.md
+- Q-delta-03（中）：清醒语音 δ 与睡眠 δ 的机制关联性——见 unresolved_questions.md
+
+---
+
+## 图谱变化
+
+- 悬空引用 `delta-oscillations`：由 dangling → 已填补（wiki 页面创建）
+- 新增边数：7条（delta-oscillations → neural-oscillations, theta-oscillations, predictive-coding, cortical-slow-oscillation, communication-through-coherence, memory-consolidation; neural-oscillations ← delta-oscillations part-of）
+- 总边数：1745 → 1752
+
+---
+
+## Git 操作
+
+**分支**：claude/funny-einstein-2tk80j
+**Commit**：待提交
+**Push 目标**：origin main（按 ROUTINE.md 要求），或若失败则尝试 GitHub MCP
+
+---
+
+## 异常与限制
+
+- Ding 2016、Molinaro 2018、Goswami 2011 为付费文章，仅读取摘要；文章中对其结论的陈述均来自摘要/官方描述，并标注"未读取全文"
+- 本次工作在 `claude/funny-einstein-2tk80j` 分支上进行（环境分配），按计划推送后应合并到 main
+
+---
+
+**Push 状态**：待更新（commit 后填写）

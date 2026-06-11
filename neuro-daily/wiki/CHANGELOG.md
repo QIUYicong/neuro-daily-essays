@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-09-21（文章 #151：δ振荡——大脑解析语音层级的慢速时钟）
+
+**今日主题：** δ振荡（1–4 Hz）在语音处理和语言层级追踪中的功能。填补图谱中 `delta-oscillations` 悬空引用。核心发现：δ追踪抽象语法结构（Ding 2016）；δ是语音特异性的（Molinaro 2018）；清醒语音δ与睡眠δ的机制区别；阅读障碍的TSF框架（Goswami 2011）。
+
+### 新建 wiki 页面（1 个）
+- `wiki/concepts/delta-oscillations.md` — δ振荡 | mainstream / medium | 清醒语音处理（预测性夹带，语法层级追踪，语言特异性）与睡眠记忆巩固（HCN/T型钙通道，内嗅皮层TA通路）的双重功能；PMID:22426255, 26642090, 29283465, 34083380, 21093350, 37838945
+
+### 修订 wiki 页面（2 个）
+- `wiki/concepts/neural-oscillations.md`（rev2→rev3）：细化 δ 频段说明（语音语法追踪 + 睡眠记忆巩固双重功能；与 SO 的区别）；related 新增 delta-oscillations（填补悬空引用）；key_sources 新增 PMID:22426255、26642090
+- `wiki/concepts/cortical-slow-oscillation.md`（rev4→rev5）：明确 SO（<1 Hz）与 δ（1–4 Hz）的机制区别；related 新增 delta-oscillations、neural-oscillations
+
+### 图谱更新
+- delta-oscillations 节点从"悬空引用"状态转为"已有 wiki 页面"；新增 7 条边（delta-oscillations → neural-oscillations, theta-oscillations, predictive-coding, cortical-slow-oscillation, communication-through-coherence, memory-consolidation）；图谱边数：1745 → 1752
+
+### 登记或裁决矛盾
+- 无新矛盾登记（δ的双重功能是机制区别，非冲突主张）
+
+### 新增未解问题
+- Q-delta-01（高）：声学驱动 vs 句法计算驱动的 δ 相位分离方法论
+- Q-delta-02（中）：阅读障碍 δ 缺陷的皮层 vs 脑干起源
+- Q-delta-03（中）：清醒语音 δ 与睡眠 δ 的机制关联性
+
+### 新增悬空引用待补
+- `dyslexia`（在 delta-oscillations 中引用，TSF框架建议创建专页）
+- `language-network-dual-stream`（已存在，但与 delta 的连接较稀疏，建议后续加深）
+
+---
+
 ## 2026-09-20（文章 #150 周综合：当节律守门人遇见认知层级——七天思考的汇聚点）
 
 **今日主题：** 周综合（#143-149）——从PV-γ精神分裂症（#143）→多巴胺D1R倒U型（#144）→NMDA GluN2亚单位发育切换（#145）→遗传汇聚PV-γ回路（#146）→θ-γ嵌套工作记忆（#147）→θ序列情节记忆（#148）→振荡层级全脑架构（#149）的七篇整合叙事。核心新概念：**时序多路复用**（temporal multiplexing）；核心合成认识：PV中间神经元是认知超级节点，振荡是认知计算的时序基础设施。

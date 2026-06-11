@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-09-04
-revision_count: 4
+updated: 2026-09-21
+revision_count: 5
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network, glymphatic-system, alzheimers-disease, circadian-clock, scn-circadian-pacemaker, equilibrium-propagation, shy-hypothesis]
+related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network, glymphatic-system, alzheimers-disease, circadian-clock, scn-circadian-pacemaker, equilibrium-propagation, shy-hypothesis, delta-oscillations, neural-oscillations]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: [Q-so-initiation-site, Q-so-propagation-plasticity]
 source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-06-glymphatic-system-sleep-clearance, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-09-04-equilibrium-propagation-cortical-two-phase-learning]
@@ -102,6 +102,7 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 - 2026-07-06 · 修订 rev2 · 基于《大脑的夜间清洗工程》(#74) · 新增 SO 与胶质淋巴系统的双重功能关系（NREM 慢波睡眠同时驱动记忆巩固和废物清洗）；related 新增 glymphatic-system、alzheimers-disease；key_sources 新增 PMID:39788123
 - 2026-07-08 · 修订 rev3 · 基于《大脑的 24 小时时钟》(#76) · 新增 circadian-clock、scn-circadian-pacemaker 为 related 节点（两过程模型将 SO 丰富的深慢波睡眠定时于前半夜）；连接节新增两条；key_sources 新增 PMID:7185792
 - 2026-09-04 · 修订 rev4 · 基于《大脑的能量景观学习》(#135) · 新增平衡传播（EP）框架视角：UP/DOWN 态两态切换可能是 EP 自由相/弱锁定相的生物候选（假说）；新增信息最大化视角（Yoshida & Toyoizumi 2022，全局 SO → 整体下调；局部 SWR → 选择性强化）；related 新增 equilibrium-propagation、shy-hypothesis；key_sources 新增 PMID:29213231、PMID:36712943
+- 2026-09-21 · 修订 rev5 · 基于《δ振荡：大脑解析语音层级的慢速时钟》(#151) · 明确 SO（<1 Hz）与 δ（1–4 Hz）的区别：SO 是 SWR-纺锤波-SO 三重奏的最顶层时间框架（睡眠记忆巩固），δ 是其下一级频段——既在睡眠语境中作为 SO 的次级成分，又在清醒语境中以不同机制（皮层预测性夹带）服务于语音语法层级追踪；related 新增 delta-oscillations、neural-oscillations
 
 ## 来源文章
 

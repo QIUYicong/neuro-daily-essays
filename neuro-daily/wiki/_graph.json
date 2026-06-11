@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "node_count": 302,
-  "edge_count": 1745,
+  "edge_count": 1752,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2750,7 +2750,7 @@
       "title": "δ振荡",
       "domain": "concepts",
       "type": "mechanism",
-      "status": "established",
+      "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/delta-oscillations.md"
     },
@@ -12202,6 +12202,36 @@
       "from": "temporal-multiplexing",
       "to": "neural-oscillations",
       "type": "is-a"
+    },
+    {
+      "from": "delta-oscillations",
+      "to": "neural-oscillations",
+      "type": "part-of"
+    },
+    {
+      "from": "delta-oscillations",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "delta-oscillations",
+      "to": "predictive-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "delta-oscillations",
+      "to": "cortical-slow-oscillation",
+      "type": "related"
+    },
+    {
+      "from": "delta-oscillations",
+      "to": "communication-through-coherence",
+      "type": "supports"
+    },
+    {
+      "from": "delta-oscillations",
+      "to": "memory-consolidation",
+      "type": "supports"
     }
   ],
   "dangling_references": [

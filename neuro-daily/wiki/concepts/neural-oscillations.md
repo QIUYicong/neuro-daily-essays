@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-09-19
-updated: 2026-09-20
-revision_count: 2
+updated: 2026-09-21
+revision_count: 3
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
 related: [gamma-oscillations, theta-oscillations, alpha-oscillations, beta-oscillations, cortical-slow-oscillation, theta-gamma-coupling, communication-through-coherence, predictive-coding, canonical-microcircuit, cortical-layers, working-memory, attention, memory-consolidation, ei-balance, pv-interneurons, thalamus, temporal-multiplexing, theta-sequences]
 prerequisites: [action-potential, synaptic-transmission, ei-balance, pv-interneurons]
 opens_questions: [Q-osc-01, Q-osc-02]
-source_articles: [2026-09-19-cortical-oscillation-hierarchy, 2026-09-20-week-synthesis-pv-oscillation-cognition-architecture]
-key_sources: ["PMID:15218136", "PMID:20664082", "PMID:26447583", "PMID:15901760", "PMID:20932795", "PMID:20359884", "PMID:8340807", "PMID:14624852"]
+source_articles: [2026-09-19-cortical-oscillation-hierarchy, 2026-09-20-week-synthesis-pv-oscillation-cognition-architecture, 2026-09-21-delta-oscillations-speech-prosody-hierarchy]
+key_sources: ["PMID:15218136", "PMID:20664082", "PMID:26447583", "PMID:15901760", "PMID:20932795", "PMID:20359884", "PMID:8340807", "PMID:14624852", "PMID:22426255", "PMID:26642090"]
 ---
 
 # 神经振荡层级 (Neural Oscillation Hierarchy)
@@ -29,7 +29,7 @@ key_sources: ["PMID:15218136", "PMID:20664082", "PMID:26447583", "PMID:15901760"
 | 频段 | 范围 | 主导功能 | 通信方向 |
 |------|------|---------|---------|
 | 慢振荡 | <1 Hz | NREM睡眠记忆巩固框架；up/down states | 皮层内 |
-| δ | 1–4 Hz | 节律采样阈（语音、环境节律）；丘脑节拍 | 皮层-丘脑 |
+| δ | 1–4 Hz | 语音语法层级追踪（清醒）；记忆巩固辅助（睡眠）；丘脑节拍 | 皮层-丘脑 / 颞-额网络 |
 | θ | 4–12 Hz | 情节记忆序列编码；海马空间导航 | 海马-皮层 |
 | α | 8–13 Hz | 主动抑制任务无关区域（inhibitory gating） | 反馈（top-down）|
 | β | 13–30 Hz | 维持当前状态（status quo）；顶-下预测 | 反馈（top-down）|
@@ -45,7 +45,7 @@ key_sources: ["PMID:15218136", "PMID:20664082", "PMID:26447583", "PMID:15901760"
 
 **慢振荡（<1 Hz）**：由皮层内在的兴奋性-抑制性动力学产生（up state = 多神经元集体去极化；down state = 集体超极化），**不依赖丘脑**（Steriade et al. 1993，PMID:8340807，丘脑损毁实验）。慢振荡是 NREM 睡眠中海马 SWR、丘脑纺锤波的"嵌套容器"。
 
-**δ（1–4 Hz）**：来源于丘脑继电神经元的 T 型钙通道（IT）介导的低阈值爆发，以及皮层深层神经元的 HCN 通道（IH）。清醒时负责追踪环境节律（语音音节、步行节拍）。
+**δ（1–4 Hz）**：来源于丘脑继电神经元的 T 型钙通道（IT）介导的低阈值爆发，以及皮层深层神经元的 HCN 通道（IH）。**功能双重性**：清醒时，皮层 δ 追踪语音韵律短语和抽象句法层级（Giraud & Poeppel 2012）——Ding et al. 2016 证明 δ 能追踪无声学对应的抽象语法结构，是语言解析过程的神经电学标志；NREM 睡眠时，δ 以不同的丘脑-皮层机制参与记忆巩固（内嗅皮层 δ 振荡，PMID:37838945）。**注意**：δ（1–4 Hz）与慢振荡（SO，<1 Hz）频率相邻但机制和功能不同——SO 是睡眠记忆巩固的最外层时间框架，δ 是其下一级频段成分（睡眠语境）或语音时序预测振荡（清醒语境）。
 
 **θ（4–12 Hz）**：由内侧隔核（MS-DBB）通过胆碱能+GABA 能投射驱动海马产生，同时海马 PING/ING 机制维持局部 θ 节律。与 γ 通过 PAC 嵌套构成 θ-γ 工作记忆编码（Lisman & Jensen 2013，PMID:23522038）。
 
@@ -83,7 +83,8 @@ Fries（2015）提出：**两区域振荡相干（coherence）是有效神经通
 - [[theta-oscillations]] — θ是记忆和空间导航的时间组织器；θ-γ嵌套是记忆编码的核心
 - [[alpha-oscillations]] — α通过"inhibitory gating"实现注意力的主动空间抑制
 - [[beta-oscillations]] — β维持当前状态；与α共同构成反馈-预测通道
-- [[cortical-slow-oscillation]] — 慢振荡是NREM睡眠中记忆巩固的"外层嵌套框架"
+- [[cortical-slow-oscillation]] — 慢振荡是NREM睡眠中记忆巩固的"外层嵌套框架"；与 δ 频率相邻（SO<1Hz，δ 1-4Hz），但机制不同
+- [[delta-oscillations]] — δ 是振荡层级中的慢速频段；清醒语境中追踪语音语法层级（语言特异性）；睡眠语境中参与记忆巩固（丘脑-皮层机制）
 - [[theta-gamma-coupling]] — θ-γ PAC是振荡层级在工作记忆和情节记忆中的具体机制实例
 - [[communication-through-coherence]] — CTC假说：振荡相干=有效神经通信的充分条件
 - [[predictive-coding]] — 振荡频率-方向分工（γ前馈误差，α-β反馈预测）是预测编码的物理实现
@@ -102,6 +103,7 @@ Fries（2015）提出：**两区域振荡相干（coherence）是有效神经通
 
 - 2026-09-19 · 创建 · 基于《节律的层级》一文（#149）· 初始置信度：中（框架是 mainstream，但振荡的因果作用和 CTC 的普适性仍有争议）
 - 2026-09-20 · 修订 rev2 · 基于周综合《当节律守门人遇见认知层级》(#150) · 新增 related：temporal-multiplexing/theta-sequences（振荡层级的两个核心认知用例）；source_articles 新增周综合文章
+- 2026-09-21 · 修订 rev3 · 基于《δ振荡：大脑解析语音层级的慢速时钟》(#151) · 细化 δ 频段表格说明（语音语法追踪 vs 记忆巩固双重功能）；在产生机制节新增 δ 语音功能细节及其与 SO 的区别；related 新增 delta-oscillations 节点（填补悬空引用）；key_sources 新增 PMID:22426255、PMID:26642090
 
 ## 来源文章
 

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-20",
-  "total_articles": 150,
+  "last_updated": "2026-09-21",
+  "total_articles": 151,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9904,6 +9904,74 @@
         "new_contested": [],
         "resolved_contested": []
       }
+    },
+    {
+      "date": "2026-09-21",
+      "real_date": "2026-06-11",
+      "article_number": 151,
+      "title": "δ振荡：大脑解析语音层级的慢速时钟",
+      "slug": "delta-oscillations-speech-prosody-hierarchy",
+      "filename": "2026-09-21-delta-oscillations-speech-prosody-hierarchy.md",
+      "article_type": "regular",
+      "core_question": "δ振荡（1–4 Hz）如何在语音理解中追踪语言层级结构——从韵律短语到句法层级——以及其双重功能（清醒语音处理vs睡眠记忆巩固）的机制区别？",
+      "layer": [
+        "whole-brain-network",
+        "brain-region",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界 × 7. 语言与抽象思维 × 填补delta-oscillations悬空引用",
+      "topic_tags": [
+        "delta oscillations",
+        "speech processing",
+        "cortical entrainment",
+        "linguistic hierarchy",
+        "Giraud Poeppel 2012",
+        "Ding 2016",
+        "Molinaro 2018",
+        "dyslexia",
+        "TSF",
+        "Goswami",
+        "predictive coding",
+        "AST",
+        "language network",
+        "STG",
+        "IFG",
+        "delta-theta separation",
+        "sleep delta",
+        "prosodic chunking"
+      ],
+      "main_sources": [
+        "PMID:22426255",
+        "PMID:26642090",
+        "PMID:29283465",
+        "PMID:34083380",
+        "PMID:21093350",
+        "PMID:37838945"
+      ],
+      "unresolved_questions": [
+        "Q-delta-01",
+        "Q-delta-02",
+        "Q-delta-03"
+      ],
+      "next_suggested_topics": [
+        "language-network-dual-stream: δ振荡与腹侧流语音理解通路的完整整合；双流模型（Hickok & Poeppel）与振荡层级的关系；连接今天的delta-oscillations到语言网络结构",
+        "attention-networks: 背侧（DAN）vs 腹侧（VAN）注意网络；δ振荡在注意力门控语音中的角色（已在delta文章中提到TPJ）；填补 tpj-temporoparietal-junction 稀疏连接",
+        "aging-nmda: 老年期GluN2亚单位比值反转与认知可塑性；老年δ振荡追踪质量下降与语音理解困难的关联；填补 aging 悬空引用"
+      ],
+      "wiki_changes": {
+        "new_pages": [
+          "delta-oscillations"
+        ],
+        "revised_pages": [
+          "neural-oscillations (rev3)",
+          "cortical-slow-oscillation (rev5)"
+        ],
+        "new_contested": [],
+        "resolved_contested": []
+      },
+      "graph_nodes_after": 302,
+      "graph_edges_after": 1752
     }
   ],
   "layer_coverage_recent": [
