@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-16（**#146**·SCZ 遗传汇聚——DISC1（细胞骨架/MGE发育）、NRG1-ErbB4（PV细胞特异性突触布线）、GRIN2A（PV细胞NMDAR）三路径汇聚于同一终点：PV细胞GABA输出不足→γ振荡崩溃；Gawande 2023提供分子汇聚点证据（GluN2D KO→DISC1/NRG1/ErbB4全部下调）；DISC1 GWAS地位争议详述；新建 nrg1-erbb4 + disc1 两页；SCZ rev2新增遗传汇聚节）· 主题页总数：**280**（新建2页：nrg1-erbb4、disc1；修订1页：schizophrenia rev2；图谱 290 节点，1649 边）
+> 最后更新：2026-09-18（**#148**·θ序列——相位进动群体效应→10:1时间压缩→前向/逆向双序列（Wang 2020 Science）→前瞻性扫描（Pfeiffer 2013 Nature）→内侧隔核相位框架（Petersen 2020 Neuron）→DG/MEC回路分工（Ahmadi 2025）→人类MTL证据（Reddy 2021）；填补medial-septum悬空引用；新建theta-sequences + medial-septum两页；修订theta-phase-precession + theta-oscillations）· 主题页总数：**282**（新建2页：theta-sequences、medial-septum；修订2页：theta-phase-precession rev2、theta-oscillations rev5；图谱 302 节点，1745 边）
 
 ---
 
@@ -45,6 +45,7 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [θ序列](concepts/theta-sequences.md) — 单个θ周期（~125ms）内场所细胞按空间顺序（过去→当下→未来）依次激活的有序序列；10:1时间压缩；前向（CA3）/逆向（EC III）双向结构（Wang 2020 Science）；前瞻性扫描预测行为（Pfeiffer 2013）；以相位为坐标（Petersen 2020）；DG控制晚期相位起点（Ahmadi 2025）；人类MTL证据（Reddy 2021） **[NEW 2026-09-18 #148]**
 - 🟡 [神经发生诱导遗忘](concepts/neurogenesis-induced-forgetting.md) — 增加神经发生主动加速遗忘（突触竞争改写连接组）；降低婴儿期神经发生减轻婴儿失忆症；Akers 2014 双向跨物种因果证据；遗忘是进化保留的主动容量管理策略 **[NEW 2026-09-09 #139]**
 - 🟢 [PSD-95（突触后密度-95）](concepts/psd-95.md) — 兴奋性突触最丰富的支架蛋白（~300分子/突触）；PDZ1/2锚定NMDAR-GluN2B；经TARP间接稳定AMPAR；突触槽位分子基础；SynGAP竞争PDZ控制LTP；棕榈酰化动态循环；PSD-95/93竞争设定关键期时间轴 **[NEW 2026-09-06 #136（填补悬空引用）]**
 - 🟢 [TARP（跨膜 AMPAR 调控蛋白）](concepts/tarp-auxiliary-subunit.md) — AMPA受体辅助亚基；Stargazin C末端(-TTPV)直接结合PSD-95 PDZ1/2；AMPAR-TARP-PSD95三元复合物是突触AMPAR锚定的必要中介；调控AMPAR门控动力学和表面运输 **[NEW 2026-09-06 #136]**
@@ -260,6 +261,7 @@
 
 ## systems（系统）
 
+- 🟢 [内侧隔核](systems/medial-septum.md) — MS-DBB：θ振荡主要起搏器；胆碱能+GABAergic向海马投射；MS冷却实验（Petersen 2020）：距离-相位压缩保留（P=0.92）但行为错误+3倍；θ序列以相位为坐标而非绝对时间的直接证据；填补悬空引用 **[NEW 2026-09-18 #148]**
 - 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**

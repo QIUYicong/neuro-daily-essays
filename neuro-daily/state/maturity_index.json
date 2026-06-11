@@ -219,9 +219,25 @@
       "confidence": "high",
       "last_changed": "2026-09-15",
       "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
+    },
+    {
+      "slug": "theta-sequences",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-09-18",
+      "change_reason": "初始创建；相位进动（1993起多物种验证）、压缩比（Skaggs 1996）、命名（Foster 2007）均是established；前向/逆向双成分（Wang 2020 Science）为近年扩展；DG回路分工（Ahmadi 2025）为中-高证据",
+      "source_article": "2026-09-18-theta-sequences-episodic-memory"
+    },
+    {
+      "slug": "medial-septum",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-09-18",
+      "change_reason": "初始创建（填补theta-oscillations悬空引用）；MS作为θ起搏器是经典established知识；距离-相位压缩保留实验（Petersen 2020）揭示相位框架角色",
+      "source_article": "2026-09-18-theta-sequences-episodic-memory"
     }
   ],
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-18",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -268,7 +284,7 @@
       "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
     }
   ],
-  "total_pages": 22,
+  "total_pages": 24,
   "syngap1": {
     "status": "established",
     "confidence": "high",

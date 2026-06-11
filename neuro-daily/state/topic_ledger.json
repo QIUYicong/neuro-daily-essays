@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-17",
-  "total_articles": 147,
+  "last_updated": "2026-09-18",
+  "total_articles": 148,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9658,6 +9658,90 @@
       ],
       "graph_nodes_after": 300,
       "graph_edges_after": 1733
+    },
+    {
+      "date": "2026-09-18",
+      "real_date": "2026-06-11",
+      "article_number": 148,
+      "title": "θ序列：大脑如何在每个节律脉冲中同时容纳过去、当下与未来",
+      "slug": "theta-sequences-episodic-memory",
+      "filename": "2026-09-18-theta-sequences-episodic-memory.md",
+      "article_type": "regular",
+      "core_question": "在单个θ振荡周期（约125ms）内，海马场所细胞如何通过相位进动和θ序列将跨越数秒的空间轨迹压缩成一段毫秒级的神经活动，为情节记忆打下时序印记？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "4. 学习和记忆 → 海马时间压缩机制；θ系列第三篇（#29基础→#147 θ-γ嵌套→#148 θ序列）",
+      "topic_tags": [
+        "theta sequences",
+        "phase precession",
+        "hippocampus",
+        "place cells",
+        "temporal compression",
+        "episodic memory",
+        "theta oscillations",
+        "medial septum",
+        "CA3",
+        "CA1",
+        "entorhinal cortex",
+        "forward sequences",
+        "reverse sequences",
+        "prospective sweeps",
+        "neural syntax",
+        "STDP",
+        "memory encoding",
+        "time binding problem",
+        "bidirectional sequences",
+        "Buzsaki",
+        "Foster",
+        "Pfeiffer",
+        "O'Keefe Recce",
+        "Skaggs",
+        "Petersen 2020",
+        "Wang 2020",
+        "Reddy 2021",
+        "Ahmadi 2025"
+      ],
+      "main_sources": [
+        "PMID:8353611 (O'Keefe & Recce 1993, Hippocampus, phase precession, abstract only)",
+        "PMID:8797016 (Skaggs et al. 1996, Hippocampus, theta sequence compression ~10:1, abstract only)",
+        "PMID:16600862 (Dragoi & Buzsaki 2006, Neuron, temporal encoding CA3/CA1, abstract only)",
+        "PMID:17663452 (Foster & Wilson 2007, Hippocampus, theta sequences named, abstract only)",
+        "PMID:23594744 (Pfeiffer & Foster 2013, Nature, prospective sweeps, abstract only)",
+        "PMID:21040841 (Buzsaki 2010, Neuron, neural syntax, abstract only)",
+        "PMID:32526196 / PMC7442698 (Petersen & Buzsaki 2020, Neuron, MS cooling, open full text)",
+        "PMID:33033222 / PMC8594055 (Wang et al. 2020, Science, bidirectional theta sequences, open full text)",
+        "PMID:34376673 / PMC8355141 (Reddy et al. 2021, Nat Commun, human MTL theta-phase coding, open full text)",
+        "PMID:39746924 / PMC11696047 (Ahmadi et al. 2025, Nat Commun, DG/MEC CA3 roles, open full text)",
+        "PMID:27929374 / PMC5245972 (Chadwick et al. 2016, eLife, flexible theta compression, open full text)",
+        "PMID:40447449 / PMC12199547 (Jiang et al. 2025, J Neurosci, human hippocampal theta backward memory, open full text)"
+      ],
+      "unresolved_questions": [
+        "Q-ts-01",
+        "Q-ts-02",
+        "Q-ts-03",
+        "Q-ts-04"
+      ],
+      "next_suggested_topics": [
+        "theta-sequences-episodic-memory-beyond-space: θ序列在非空间情节记忆中的工作方式——人类iEEG证据（Qasim等）；时间细胞如何编码非空间序列；DG-CA3-CA1环路如何处理非空间序列；直接回答Q-ts-01",
+        "hippocampal-ca3-ca1-asymmetry-prospective-retrospective: CA3（前瞻性，回路连接）vs CA1（整合当下感知）的功能不对称性深入分析——与θ序列的前向/逆向双成分如何对应；schematica理论；light遗传学验证CA3→CA1前向通路",
+        "path-integration-grid-cell-mechanism: 路径整合与网格细胞——无外部地标时内源机制如何维持空间表征；attractor network模型；与前瞻性扫描的关系；填补path-integration悬空引用"
+      ],
+      "wiki_pages_created": [
+        "theta-sequences",
+        "medial-septum"
+      ],
+      "wiki_pages_revised": [
+        "theta-phase-precession",
+        "theta-oscillations"
+      ],
+      "contested_claims_registered": [],
+      "graph_nodes_after": 302,
+      "graph_edges_after": 1745
     }
   ],
   "layer_coverage_recent": [

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-17",
-  "node_count": 290,
-  "edge_count": 1649,
+  "updated": "2026-09-18",
+  "node_count": 302,
+  "edge_count": 1745,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2717,6 +2717,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/theta-gamma-coupling.md"
+    },
+    {
+      "id": "theta-sequences",
+      "title": "θ序列",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/theta-sequences.md"
+    },
+    {
+      "id": "medial-septum",
+      "title": "内侧隔核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/medial-septum.md"
     }
   ],
   "edges": [
@@ -11304,114 +11322,114 @@
       "type": "is-a"
     },
     {
-      "source": "psd-95",
-      "target": "postsynaptic-density",
-      "type": "part-of"
+      "type": "part-of",
+      "from": "psd-95",
+      "to": "postsynaptic-density"
     },
     {
-      "source": "psd-95",
-      "target": "ltp",
-      "type": "mechanism-of"
+      "type": "mechanism-of",
+      "from": "psd-95",
+      "to": "ltp"
     },
     {
-      "source": "psd-95",
-      "target": "ltd",
-      "type": "mechanism-of"
+      "type": "mechanism-of",
+      "from": "psd-95",
+      "to": "ltd"
     },
     {
-      "source": "psd-95",
-      "target": "ampa-receptor",
-      "type": "regulates"
+      "type": "regulates",
+      "from": "psd-95",
+      "to": "ampa-receptor"
     },
     {
-      "source": "psd-95",
-      "target": "nmda-receptor",
-      "type": "regulates"
+      "type": "regulates",
+      "from": "psd-95",
+      "to": "nmda-receptor"
     },
     {
-      "source": "psd-95",
-      "target": "silent-synapse",
-      "type": "regulates"
+      "type": "regulates",
+      "from": "psd-95",
+      "to": "silent-synapse"
     },
     {
-      "source": "psd-95",
-      "target": "critical-period-plasticity",
-      "type": "regulates"
+      "type": "regulates",
+      "from": "psd-95",
+      "to": "critical-period-plasticity"
     },
     {
-      "source": "psd-95",
-      "target": "camkii",
-      "type": "related"
+      "type": "related",
+      "from": "psd-95",
+      "to": "camkii"
     },
     {
-      "source": "psd-95",
-      "target": "synaptogenesis",
-      "type": "related"
+      "type": "related",
+      "from": "psd-95",
+      "to": "synaptogenesis"
     },
     {
-      "source": "psd-95",
-      "target": "gephyrin-scaffold",
-      "type": "related"
+      "type": "related",
+      "from": "psd-95",
+      "to": "gephyrin-scaffold"
     },
     {
-      "source": "psd-95",
-      "target": "working-memory",
-      "type": "related"
+      "type": "related",
+      "from": "psd-95",
+      "to": "working-memory"
     },
     {
-      "source": "psd-95",
-      "target": "tarp-auxiliary-subunit",
-      "type": "related"
+      "type": "related",
+      "from": "psd-95",
+      "to": "tarp-auxiliary-subunit"
     },
     {
-      "source": "tarp-auxiliary-subunit",
-      "target": "psd-95",
-      "type": "related"
+      "type": "related",
+      "from": "tarp-auxiliary-subunit",
+      "to": "psd-95"
     },
     {
-      "source": "tarp-auxiliary-subunit",
-      "target": "ampa-receptor",
-      "type": "regulates"
+      "type": "regulates",
+      "from": "tarp-auxiliary-subunit",
+      "to": "ampa-receptor"
     },
     {
-      "source": "tarp-auxiliary-subunit",
-      "target": "ltp",
-      "type": "mechanism-of"
+      "type": "mechanism-of",
+      "from": "tarp-auxiliary-subunit",
+      "to": "ltp"
     },
     {
-      "source": "tarp-auxiliary-subunit",
-      "target": "postsynaptic-density",
-      "type": "part-of"
+      "type": "part-of",
+      "from": "tarp-auxiliary-subunit",
+      "to": "postsynaptic-density"
     },
     {
-      "source": "tarp-auxiliary-subunit",
-      "target": "synaptogenesis",
-      "type": "related"
+      "type": "related",
+      "from": "tarp-auxiliary-subunit",
+      "to": "synaptogenesis"
     },
     {
-      "source": "ltp",
-      "target": "psd-95",
-      "type": "related"
+      "type": "related",
+      "from": "ltp",
+      "to": "psd-95"
     },
     {
-      "source": "postsynaptic-density",
-      "target": "psd-95",
-      "type": "related"
+      "type": "related",
+      "from": "postsynaptic-density",
+      "to": "psd-95"
     },
     {
-      "source": "ampa-receptor",
-      "target": "tarp-auxiliary-subunit",
-      "type": "related"
+      "type": "related",
+      "from": "ampa-receptor",
+      "to": "tarp-auxiliary-subunit"
     },
     {
-      "source": "silent-synapse",
-      "target": "psd-95",
-      "type": "related"
+      "type": "related",
+      "from": "silent-synapse",
+      "to": "psd-95"
     },
     {
-      "source": "critical-period-plasticity",
-      "target": "psd-95",
-      "type": "related"
+      "type": "related",
+      "from": "critical-period-plasticity",
+      "to": "psd-95"
     },
     {
       "from": "syngap1",
@@ -11955,6 +11973,78 @@
       "to": "theta-gamma-coupling",
       "type": "supports",
       "note": "γ振荡是θ-γ耦合的必要前提"
+    },
+    {
+      "from": "theta-phase-precession",
+      "to": "theta-sequences",
+      "type": "mechanism-of",
+      "note": "相位进动在群体层面产生θ序列"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "θ序列需要θ振荡提供相位坐标框架"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "theta-phase-precession",
+      "type": "related",
+      "note": "θ序列是相位进动的群体效应"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "place-cells",
+      "type": "mechanism-of",
+      "note": "场所细胞是θ序列的组成单元"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "ltp",
+      "type": "supports",
+      "note": "θ序列时间压缩使相邻细胞激活落入STDP/LTP窗口"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "memory-consolidation",
+      "type": "supports",
+      "note": "θ序列提供情节记忆实时初始编码"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "双峰细胞连接θ序列（在线）与SWR（离线）"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "theta-gamma-coupling",
+      "type": "related",
+      "note": "θ-γ耦合提供多项目框架；θ序列提供序列压缩框架"
+    },
+    {
+      "from": "medial-septum",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "MS-DBB是θ振荡的主要起搏器"
+    },
+    {
+      "from": "medial-septum",
+      "to": "theta-sequences",
+      "type": "supports",
+      "note": "MS冷却实验证明MS维持θ序列相位框架"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "entorhinal-cortex",
+      "type": "related",
+      "note": "EC层III驱动θ振荡内的逆向序列成分"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "CA3驱动前向序列，CA1整合双向输入"
     }
   ],
   "dangling_references": [
@@ -12086,7 +12176,8 @@
       "referenced_by": [
         "theta-oscillations"
       ],
-      "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"
+      "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面；已于2026-09-18创建wiki/systems/medial-septum.md，填补此悬空引用",
+      "resolved": "2026-09-18"
     },
     {
       "slug": "bdnf-trkb",

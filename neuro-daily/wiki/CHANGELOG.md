@@ -4,6 +4,39 @@
 
 ---
 
+## 2026-09-18（文章 #148：θ序列——大脑如何在每个节律脉冲中同时容纳过去、当下与未来）
+
+**今日主题：** θ序列（theta sequences）的完整机制——相位进动的群体效应、10:1时间压缩、CA3/CA1分工（Dragoi & Buzsáki 2006）、θ振荡内前向/逆向双序列（Wang et al. 2020, Science）、前瞻性扫描（Pfeiffer & Foster 2013, Nature）、内侧隔核相位框架（Petersen & Buzsáki 2020, Neuron）、DG/MEC回路分工（Ahmadi 2025）、人类证据（Reddy 2021）；填补medial-septum悬空引用
+
+### 新建 wiki 页面（2 个）
+- `wiki/concepts/theta-sequences.md` — θ序列 | established / high | 核心机制：相位进动→群体θ序列（10:1压缩）→前向（CA3）/逆向（EC III）双向序列（PMID:33033222）→前瞻性扫描（PMID:23594744）→相位坐标框架（PMID:32526196）→DG/MEC回路分工（PMID:39746924）→人类MTL证据（PMID:34376673）
+- `wiki/systems/medial-septum.md` — 内侧隔核 | established / high | 填补dangling reference；MS-DBB为θ振荡主要起搏器；MS冷却实验：距离-相位压缩保留（P=0.92）但行为错误增加3倍；θ序列以相位为坐标
+
+### 修订 wiki 页面（2 个）
+- `wiki/concepts/theta-phase-precession.md`（rev1→rev2）：关键证据表从4行扩展至10行（新增：Skaggs 1996压缩比、Dragoi 2006 CA3/CA1分工、Pfeiffer 2013前瞻性扫描、Petersen 2020 MS冷却、Wang 2020双向序列、Ahmadi 2025 DG回路、Reddy 2021人类证据）；连接新增theta-sequences/medial-septum/entorhinal-cortex/sharp-wave-ripples；opens_questions新增Q-ts-01/Q-ts-02/Q-ts-03；key_sources从2个扩展到10个
+- `wiki/concepts/theta-oscillations.md`（rev4→rev5）：related新增theta-sequences/medial-septum；key_sources新增PMID:32526196/33033222；opens_questions新增Q-ts-01；source_articles新增2026-09-18
+
+### 登记或裁决矛盾
+- **无新矛盾登记**（今日文章的证据与既有wiki主张一致；双向序列属于新发现而非与旧观点冲突）
+
+### 填补悬空引用
+- `medial-septum` → 已于本日创建wiki/systems/medial-septum.md，填补theta-oscillations页面的dangling reference
+
+### 新增悬空引用（待补页面）
+- `path-integration` — θ序列的前瞻性扫描（prospective sweeps）与路径整合密切相关；theta-sequences页面引用
+
+### 图谱变化
+- 节点：300 → 302（+2：theta-sequences、medial-septum）
+- 边：1733 → 1745（+12）
+
+### 新增未解问题（4 条）
+- **Q-ts-01**（高优先）：θ序列/相位进动在非空间情节记忆中是否存在？
+- **Q-ts-02**（高优先）：双向θ序列的CA3/EC III回路假说需光遗传学因果验证
+- **Q-ts-03**（中优先）：STDP vs BTSP的相对贡献？两者是否分管不同时间尺度？
+- **Q-ts-04**（中优先）：MS冷却后行为错误增加3倍但相位框架保留——确切原因？
+
+---
+
 ## 2026-09-15（文章 #145：NMDA 受体的两张脸——GluN2B→GluN2A 发育切换与突触可塑性阈值的终身漂移）
 
 **今日主题：** NMDA 受体 GluN2B→GluN2A 亚单位发育切换的分子机制（REST 表观遗传沉默 + GluN2A 浓度驱动）；切换如何升高 LTP 阈值（CaMKII-GluN2B 锚定机制）；人类皮层切换峰值约 36 岁（Siu 2017）；老年期 GluN2A 骤降 75%；"更多 GluN2A ≠ 更好"（Li 2022）；部分解答 Q-glun2-switch-development

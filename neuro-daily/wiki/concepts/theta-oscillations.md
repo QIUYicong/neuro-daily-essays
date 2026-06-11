@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-09-17
-revision_count: 4
+updated: 2026-09-18
+revision_count: 5
 dimensions: [whole-brain-network, brain-region, cellular, behavior, methods, cognition]
-related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex, theta-gamma-coupling, working-memory, gamma-oscillations]
+related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, theta-sequences, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex, theta-gamma-coupling, working-memory, gamma-oscillations, medial-septum]
 prerequisites: [action-potential, hippocampal-circuit, place-cells]
-opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05, Q-tgc-02]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells, 2026-09-17-theta-gamma-coupling-working-memory]
-key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380", "PMID:23522038", "PMID:20133762", "PMID:38632400"]
+opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05, Q-tgc-02, Q-ts-01]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells, 2026-09-17-theta-gamma-coupling-working-memory, 2026-09-18-theta-sequences-episodic-memory]
+key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380", "PMID:23522038", "PMID:20133762", "PMID:38632400", "PMID:32526196", "PMID:33033222"]
 ---
 
 # θ振荡 (Theta Oscillations)
@@ -139,8 +139,10 @@ Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡�
 - 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells、grid-cell→grid-cells、phase-precession→theta-phase-precession；新增related条目：path-integration、entorhinal-cortex；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
 - 2026-05-31 · 修订 · 整合REM睡眠θ内容：新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节（LA-VH θ相位差、Boyce 2016光遗传因果证据、清醒/REM θ功能对比表）；补充当前理解段落；关键证据表增加2行；连接增加rem-sleep/fear-extinction/emotional-memory-depotentiation；未解问题增加Q-rem-01/Q-rem-03/Q-rem-05 · 基于《REM睡眠与情绪记忆》文章
 - 2026-09-17 · 修订 rev4 · 基于《θ-γ 嵌套》文章（#147）· 新增 related：theta-gamma-coupling、working-memory、gamma-oscillations；新增 dimensions：cognition；新增 source_articles：2026-09-17；key_sources 新增 PMID:23522038/20133762/38632400（θ-γ 耦合直接证据）；Q-tgc-02 加入 opens_questions（人类 θ 节律差异问题）
+- 2026-09-18 · 修订 rev5 · 基于《θ序列》文章（#148）· 新增 related：theta-sequences、medial-septum；key_sources 新增 PMID:32526196/33033222（MS冷却和双向θ序列）；opens_questions 新增 Q-ts-01（非空间情节θ序列）；source_articles 新增 2026-09-18
 
 ## 来源文章
 
 - [[2026-05-29-theta-oscillations-phase-coding]]
 - [[2026-05-31-rem-sleep-emotional-memory]]
+- [[2026-09-18-theta-sequences-episodic-memory]]
