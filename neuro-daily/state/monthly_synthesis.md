@@ -1099,3 +1099,9 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 今日文章是 #143–146 四联叙事（SCZ PV-γ回路 → DA D1R倒U型WM → NMDA亚单位切换 → SCZ遗传汇聚）的收尾篇，从遗传学视角解释为什么前三篇描述的分子机制都汇聚于 PV 细胞。核心叙事：**SCZ 不是一个基因的问题，而是数百个遗传位点在功能上高度收敛于 PV 细胞的 GABAergic 回路**。Trubetskoy 2022 的 287 位点 GWAS 揭示富集于突触生物学（GRIN2A 是最典型）；三条独立遗传路径（DISC1/NRG1-ErbB4/GRIN2A）在分子机制层面分别通过 MGE 发育、PV 突触布线、NMDAR 激活损伤 PV 功能，最终汇聚于 GAD67 下调和 γ 振荡崩溃。关键汇聚证据：Gawande 2023 发现 GluN2D KO in PV 细胞导致 DISC1/NRG1/ErbB4 同步转录下调——这三条路径在 PV 细胞内部形成相互依赖的分子网络。重要争议：DISC1 不在 GWAS 287 位点中——其 SCZ 关联主要来自罕见高外显率变异（苏格兰家系），而非普通人群常见变异风险。
 
 **新建 wiki 页**：nrg1-erbb4（mainstream, medium）、disc1（emerging, medium）。**修订**：schizophrenia rev2（遗传汇聚节）。**图谱**：290 节点，1649 条边（+2节点，+12边）。**来源**：8篇（3篇开放全文，5篇摘要）。**层级**：molecular + cellular + disease + cognition（四层）。**新增未解问题**：Q-scz-gen-01（高，三路径时间先后）、Q-scz-gen-02（高，NMDAR 作为上游枢纽）、Q-scz-gen-03（中，ErbB4 PAM 治疗潜力）。
+
+**#147（2026-09-17）**：θ-γ 嵌套：大脑如何用两种节律的耦合打包、传送与提取记忆
+
+今日文章是 #143–146 SCZ/PV/NMDA 四联叙事的自然延伸：理解了 PV 细胞损伤如何破坏 γ 振荡之后，今天从"健康状态下这套机制如何工作"的正向角度，系统讲解 θ-γ 耦合（Phase-Amplitude Coupling, PAC）作为大脑多项目工作记忆时间编码框架的机制。核心叙事：**θ 振荡的每个周期（~125 ms）内嵌套 4–8 个 γ 爆发（每个~25 ms），每个 γ 爆发承载一个独立记忆项目——这不只是振荡现象，而是大脑实现 Miller 容量极限的生物物理机制**。2010 年 Axmacher 等的人类颅内电极直接验证了负荷依赖的 θ 频率下降（7.5→6.4 Hz）和恒定频率比（4:1），2024 年 Daume 等在单神经元层面揭示了专门的"PAC 细胞"群体（~37% 海马神经元）——不储存内容，而是通过"信息增益性噪声相关"优化内容细胞的群体编码几何，提升记忆可读性，并接受 vmPFC 的 θ 节律顶-下调控。Colgin 2009 的 CA1 快/慢 γ 双通道路由揭示了感觉输入（MEC, 快γ）与内部记忆（CA3, 慢γ）如何在 θ 不同相位分时复用，Besosa 2026 谱依赖性框架提出了理论挑战（C-2026-09-17-01, open）。
+
+**新建 wiki 页**：theta-gamma-coupling（mainstream, high）。**修订**：theta-oscillations rev4、gamma-oscillations rev7、working-memory rev11。**图谱**：300 节点，1733 条边（+1节点，+10边）。**来源**：9篇（3篇开放全文，6篇摘要）。**层级**：whole-brain-network + microcircuit + cellular + cognition + synaptic（五层）。**新增矛盾**：C-2026-09-17-01（谱依赖性 vs 专用机制）。**新增未解问题**：Q-tgc-01（高，频率比变异）、Q-tgc-02（中，人类特异性）、Q-tgc-03（高，疾病原发/继发）、Q-tgc-04（中，γ槽独立性）。

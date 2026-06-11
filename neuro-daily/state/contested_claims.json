@@ -189,6 +189,20 @@
       "opened": "2026-09-15",
       "priority": "medium",
       "source_article": "2026-09-15-nmda-receptor-subunit-developmental-switch"
+    },
+    {
+      "id": "C-2026-09-17-01",
+      "page": "wiki/concepts/theta-gamma-coupling.md",
+      "claim_A": "θ-γ PAC是专门演化出的通信和记忆组织机制（ING/PING回路产生γ，θ相位通过CCK/PV协调调制，PAC细胞发挥专门读取控制功能）—— PMID:23522038, 20133762, 38632400, 40161984",
+      "claim_B": "θ-γ 耦合是回路能量耗散的涌现效应（谱依赖性框架：γ功率协变于θ功率，CFC可能只是共享物理约束的结果，而非专门信号机制）—— PMID:42205487",
+      "nature": "理论框架分歧：一方强调 PAC 是专用计算机制（有细胞类型特异性证据支撑），另一方强调 PAC 可能主要来自回路能量耗散的物理约束",
+      "status": "open",
+      "opened": "2026-09-17",
+      "related_questions": [
+        "Q-tgc-01",
+        "Q-tgc-03"
+      ],
+      "current_weight": "claim_A 证据更强（单神经元数据、人类直接证据、因果机制链），但 claim_B 提出了重要的方法论警告"
     }
   ]
 }

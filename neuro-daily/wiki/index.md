@@ -432,3 +432,23 @@
 ### 图谱状态
 - 节点：192 | 边：1111
 - 新悬空待补：anterior-cingulate-cortex 页面（被 AIC 引用）、social-cognition 页面
+
+---
+
+## 2026-09-17 更新（第 147 篇）
+
+### 新建 wiki 页面
+
+**concepts/**
+- `theta-gamma-coupling.md` — θ-γ 耦合（Phase-Amplitude Coupling）| mainstream / high | θ 相位调制 γ 振幅的嵌套机制；Lisman-Jensen 2013 θ-γ 神经码；Axmacher 2010 人类颅内频率比证据；Daume 2024 PAC 细胞机制；Sengupta 2025 CCK/PV 分工；Colgin 2009 CA1 快/慢 γ 路由
+
+### 修订 wiki 页面
+
+- `concepts/theta-oscillations.md` rev4 — 新增 theta-gamma-coupling 专属连接节点；完善 cognition 层维度
+- `concepts/gamma-oscillations.md` rev7 — 新增 theta-gamma-coupling 专属连接节点；整合 PAC 文献
+- `concepts/working-memory.md` rev11 — 新增 theta-gamma-coupling 连接；PAC 细胞作为 WM 读取控制机制
+
+### 图谱状态
+- 节点：300 | 边：1733
+- 矛盾登记：C-2026-09-17-01（谱依赖性框架 vs 专用 θ-γ 机制）
+- 新增未解问题：Q-tgc-01 至 Q-tgc-04

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "node_count": 290,
   "edge_count": 1649,
   "edge_types": [
@@ -2708,6 +2708,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/disc1.md"
+    },
+    {
+      "id": "theta-gamma-coupling",
+      "title": "θ-γ 耦合（Phase-Amplitude Coupling）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/theta-gamma-coupling.md"
     }
   ],
   "edges": [
@@ -11886,6 +11895,66 @@
       "from": "schizophrenia",
       "to": "disc1",
       "type": "related"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "θ振荡提供相位框架，是PAC的调制侧"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of",
+      "note": "γ振荡振幅被θ相位调制，是PAC的被调制侧"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "working-memory",
+      "type": "mechanism-of",
+      "note": "每个θ周期内4–8个γ槽承载多个WM项目的时序分隔编码"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "theta-gamma-coupling",
+      "type": "regulates",
+      "note": "PV篮状细胞在θ特定相位生成γ爆发，增强θ和γ振幅"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "CA1快/慢γ双通道路由是θ-γ耦合的解剖底物"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "theta-phase-precession",
+      "type": "related",
+      "note": "相位进动依赖θ-γ嵌套中θ特定相位的精确γ激活"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "theta-gamma-coupling",
+      "type": "contradicts",
+      "note": "SCZ中PV细胞损伤导致γ减弱→θ-γ耦合受损→WM缺陷（Barr 2017，PMID:28148460）"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "θ-γ嵌套在情节记忆形成（而非仅WM维持）中的可能角色待深入"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "theta-gamma-coupling",
+      "type": "supports",
+      "note": "θ振荡是θ-γ耦合的必要前提"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "theta-gamma-coupling",
+      "type": "supports",
+      "note": "γ振荡是θ-γ耦合的必要前提"
     }
   ],
   "dangling_references": [

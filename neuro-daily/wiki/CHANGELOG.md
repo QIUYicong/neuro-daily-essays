@@ -3047,3 +3047,28 @@
 - Q-scz-gen-01（高）：DISC1、NRG1、GRIN2A 三路径是否有时间先后顺序？哪条是原发，哪条是继发？
 - Q-scz-gen-02（高）：NMDAR 低激活（GluN2D/GluN2A）是否是 SCZ 遗传回路崩溃的上游触发因素，DISC1/NRG1 下调是继发结果？
 - Q-scz-gen-03（中）：ErbB4 正向变构调制是否可作为 SCZ PV 细胞突触布线修复的基因治疗靶点？
+
+---
+
+## 2026-09-17（文章 #147）
+
+### 新建页面（1 个）
+- `wiki/concepts/theta-gamma-coupling.md`（rev1）— θ-γ 耦合机制专属页面，填补此前缺失的关键节点；整合了 Lisman-Jensen 2013 理论、Axmacher 2010 人类颅内证据、Daume 2024 PAC 细胞机制、Colgin 2009 CA1 路由机制、Sengupta 2025 细胞类型分工
+
+### 修订页面（3 个）
+- `wiki/concepts/theta-oscillations.md`（rev3→rev4）— related 新增 theta-gamma-coupling/working-memory/gamma-oscillations；dimensions 新增 cognition；key_sources 新增 PMID:23522038/20133762/38632400
+- `wiki/concepts/gamma-oscillations.md`（rev6→rev7）— related 新增 theta-gamma-coupling；key_sources 新增 PAC 相关文献；修订历史追加
+- `wiki/concepts/working-memory.md`（rev10→rev11）— related 新增 theta-gamma-coupling；key_sources 新增 PAC 直接证据；修订历史追加
+
+### 登记矛盾（1 条）
+- C-2026-09-17-01（open）— Besosa 2026 谱依赖性框架 vs 传统 θ-γ 专用机制解释：γ 功率协变于 θ 功率是否说明耦合只是涌现效应？
+
+### 图谱变化
+- 节点：299 → 300（+1：theta-gamma-coupling）
+- 边：1723 → 1733（+10：theta-gamma-coupling 与 theta/gamma/working-memory/hippocampal-circuit/theta-phase-precession/schizophrenia/memory-consolidation 之间的有类型边）
+
+### 新增未解问题（4 条）
+- Q-tgc-01（高）：工作记忆容量约 4 项（Cowan）与频率比 4:1 的对应——不同研究报告 2:1 到 8:1 的变异来源？
+- Q-tgc-02（中）：人类 θ 节律弱且不规则——人类嵌套编码的神经基础是否与大鼠不同？
+- Q-tgc-03（高）：AD/SCZ 中 θ-γ 耦合损伤原发还是继发？恢复耦合能否改善记忆？
+- Q-tgc-04（中）：相邻 γ 槽之间是否存在串扰？防止串扰的抑制性边界机制？

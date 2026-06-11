@@ -10900,6 +10900,141 @@
         "basket cell morphology",
         "GAD67 downregulation"
       ]
+    },
+    {
+      "pmid": "23522038",
+      "pmcid": "PMC3648857",
+      "title": "The Theta-Gamma Neural Code",
+      "authors": "Lisman JE, Jensen O",
+      "journal": "Neuron",
+      "year": 2013,
+      "used_in": [
+        "2026-09-17-theta-gamma-coupling-working-memory"
+      ],
+      "aspects_covered": [
+        "theta-gamma-coupling theory",
+        "working-memory capacity",
+        "theta-gamma frequency ratio",
+        "neural code review"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "pmid": "20133762",
+      "pmcid": "PMC2840289",
+      "title": "Cross-frequency coupling supports multi-item working memory in the human hippocampus",
+      "authors": "Axmacher N et al.",
+      "journal": "PNAS",
+      "year": 2010,
+      "used_in": [
+        "2026-09-17-theta-gamma-coupling-working-memory"
+      ],
+      "aspects_covered": [
+        "human intracranial PAC",
+        "memory load theta frequency decrease",
+        "gamma modulation precision behavior correlation"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "pmid": "38632400",
+      "pmcid": "PMC11078732",
+      "title": "Control of working memory by phase-amplitude coupling of human hippocampal neurons",
+      "authors": "Daume J et al.",
+      "journal": "Nature",
+      "year": 2024,
+      "used_in": [
+        "2026-09-17-theta-gamma-coupling-working-memory"
+      ],
+      "aspects_covered": [
+        "PAC neurons",
+        "category neurons",
+        "noise correlations",
+        "vmPFC-hippocampus theta synchrony",
+        "single neuron WM"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "pmid": "19924214",
+      "title": "Frequency of gamma oscillations routes flow of information in the hippocampus",
+      "authors": "Colgin LL et al.",
+      "journal": "Nature",
+      "year": 2009,
+      "used_in": [
+        "2026-09-17-theta-gamma-coupling-working-memory"
+      ],
+      "aspects_covered": [
+        "CA1 fast gamma MEC",
+        "CA1 slow gamma CA3",
+        "theta phase routing"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "16973878",
+      "title": "High gamma power is phase-locked to theta oscillations in human neocortex",
+      "authors": "Canolty RT et al.",
+      "journal": "Science",
+      "year": 2006,
+      "used_in": [
+        "2026-09-17-theta-gamma-coupling-working-memory"
+      ],
+      "aspects_covered": [
+        "human neocortex PAC",
+        "ECoG theta-gamma",
+        "task-dependent spatial PAC patterns"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "29259151",
+      "title": "Hippocampal-prefrontal theta-gamma coupling during performance of a spatial working memory task",
+      "authors": "Tamura M et al.",
+      "journal": "Nature Communications",
+      "year": 2017,
+      "used_in": [
+        "2026-09-17-theta-gamma-coupling-working-memory"
+      ],
+      "aspects_covered": [
+        "HPC-mPFC theta-gamma coupling",
+        "spatial WM",
+        "compensatory enhancement"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "40161984",
+      "title": "Cell-type-specific contributions to theta-gamma coupled rhythms in the hippocampus",
+      "authors": "Sengupta S et al.",
+      "journal": "Network Neuroscience",
+      "year": 2025,
+      "used_in": [
+        "2026-09-17-theta-gamma-coupling-working-memory"
+      ],
+      "aspects_covered": [
+        "CCK interneurons theta stability",
+        "PV interneurons gamma amplitude",
+        "cell-type specific contributions"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "42205487",
+      "title": "Spectral dependence as a framework for neural coordination",
+      "authors": "Besosa C et al.",
+      "journal": "Current Research in Neurobiology",
+      "year": 2026,
+      "used_in": [
+        "2026-09-17-theta-gamma-coupling-working-memory"
+      ],
+      "aspects_covered": [
+        "spectral dependence",
+        "theta-gamma covariation",
+        "energy cascade",
+        "CFC critique"
+      ],
+      "access": "abstract_only"
     }
   ],
   "total_sources": 636,

@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-09-13
-revision_count: 6
+updated: 2026-09-17
+revision_count: 7
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular, disease]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations, communication-through-coherence, dorsal-attention-network, schizophrenia, nmda-receptor]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, theta-gamma-coupling, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations, communication-through-coherence, dorsal-attention-network, schizophrenia, nmda-receptor]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
 opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-ctc-01, Q-scz-pv-01]
 source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-08-31-fef-v4-gamma-coherence-ctc, 2026-09-13-pv-gamma-schizophrenia-cognition]
@@ -145,6 +145,7 @@ Gregoriou 等 2009 年提供了迄今最直接的 γ coherence 跨区通信证�
 
 - 2026-08-31 · 修订 rev5 · 基于《振荡路由：γ 相干性与 CTC 框架》#131 文章 · 新增 FEF-V4 注意 γ 相干性节（Gregoriou 2009, 2012 开放全文数据）；related 新增 communication-through-coherence, dorsal-attention-network；key_sources 新增 PMID:19478185, PMID:22325208；opens_questions 新增 Q-ctc-01
 - 2026-09-13 · 修订 rev6 · 基于《当 γ 节奏失声》(#143) · 新增精神分裂症 γ 缺陷证据（Gonzalez-Burgos 2015 综述 + Barr 2017 θ-γ 耦合 + Cardin/Sohal 2009 因果证据）；related 新增 schizophrenia/nmda-receptor；dimensions 新增 disease；key_sources 新增 PMID:25863358/28148460/19396156/19396159
+- 2026-09-17 · 修订 rev7 · 基于《θ-γ 嵌套》文章（#147）· 新增 related：theta-gamma-coupling；key_sources 新增 PMID:23522038/20133762/38632400（θ-γ PAC 专属机制文献）；连接新增 [[theta-gamma-coupling]]（dedicated mechanism page）；θ-γ 耦合从散见提及升级为专属连接节点
 
 ## 精神分裂症中的 γ 振荡缺陷（2026-09-13 新增）
 

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-15",
-  "total_articles": 145,
+  "last_updated": "2026-09-17",
+  "total_articles": 147,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9566,6 +9566,98 @@
         "glun2b-synaptic-extrasynaptic-balance: 突触内 vs 突触外 GluN2B 的精确比例——完整 AD 分子通路（Aβ→PrPC→mGluR5→Fyn→GluN2B Y1472 磷酸化→外漂）",
         "cortical-oscillation-hierarchy: 从分子（PV-γ）到全脑（delta-theta-alpha-beta-gamma 层次）的振荡结构——第五周综合框架，连接#143/#146 SCZ、#144 DA-D1R、#145 NMDA-aub四联叙事"
       ]
+    },
+    {
+      "date": "2026-09-17",
+      "real_date": "2026-06-11",
+      "article_number": 147,
+      "title": "θ-γ 嵌套：大脑如何用两种节律的耦合打包、传送与提取记忆",
+      "slug": "theta-gamma-coupling-working-memory",
+      "filename": "2026-09-17-theta-gamma-coupling-working-memory.md",
+      "article_type": "regular",
+      "core_question": "θ振荡（4–12 Hz）和γ振荡（30–100 Hz）如何在海马与前额叶中构成θ相位调制γ振幅的跨频率耦合（PAC）？这种嵌套机制如何让大脑同时存储多个工作记忆项目？CCK vs PV中间神经元如何分工？2024年Daume等人的人类单神经元记录揭示了PAC细胞如何通过信息增益性噪声相关优化记忆可读性？Besosa 2026谱依赖性框架对传统解释的挑战。",
+      "layer": [
+        "whole-brain-network",
+        "microcircuit",
+        "cellular",
+        "cognition",
+        "synaptic"
+      ],
+      "curriculum_track": "4. 学习和记忆（θ-γ耦合机制；WM容量的振荡基础）× 5. 认知控制（vmPFC-海马顶-下控制）",
+      "topic_tags": [
+        "theta-gamma coupling",
+        "phase-amplitude coupling",
+        "PAC",
+        "working memory",
+        "theta oscillations",
+        "gamma oscillations",
+        "hippocampus",
+        "CA1",
+        "PV interneurons",
+        "CCK interneurons",
+        "Lisman-Jensen model",
+        "Lisman-Idiart 1995",
+        "Axmacher 2010",
+        "Daume 2024",
+        "Colgin 2009",
+        "Canolty 2006",
+        "Tamura 2017",
+        "Sengupta 2025",
+        "Besosa 2026",
+        "slow gamma",
+        "fast gamma",
+        "CA3",
+        "MEC",
+        "vmPFC",
+        "hippocampal-prefrontal",
+        "cross-frequency coupling",
+        "CFC",
+        "memory capacity",
+        "Miller 1956",
+        "PAC neurons",
+        "category neurons",
+        "noise correlations",
+        "temporal coding",
+        "multi-item working memory",
+        "theta frequency",
+        "gamma frequency ratio",
+        "spectral dependence"
+      ],
+      "main_sources": [
+        "PMID:23522038 / PMC3648857 (Lisman & Jensen 2013, Neuron, θ-γ neural code, open full text read)",
+        "PMID:20133762 / PMC2840289 (Axmacher 2010, PNAS, human hippocampal PAC and WM load, open full text read)",
+        "PMID:38632400 / PMC11078732 (Daume 2024, Nature, PAC neurons in human hippocampus, open full text read)",
+        "PMID:19924214 (Colgin 2009, Nature, CA1 fast/slow gamma routing, abstract only)",
+        "PMID:16973878 (Canolty 2006, Science, human neocortex PAC, abstract only)",
+        "PMID:29259151 (Tamura 2017, Nat Commun, HPC-mPFC theta-gamma coupling, abstract only)",
+        "PMID:40161984 (Sengupta 2025, Network Neuroscience, CCK/PV contributions, abstract only)",
+        "PMID:42205487 (Besosa 2026, Curr Res Neurobiol, spectral dependence challenge, abstract only)",
+        "PMID:28148460 (Barr 2017, schizophrenia theta-gamma coupling, abstract only - in DB)"
+      ],
+      "unresolved_questions": [
+        "Q-tgc-01",
+        "Q-tgc-02",
+        "Q-tgc-03",
+        "Q-tgc-04"
+      ],
+      "next_suggested_topics": [
+        "theta-sequences-episodic-memory: θ序列（theta sequences）的详细机制——在单个θ周期内，场所细胞如何依次放电以压缩空间轨迹？Buzsaki 2010神经语法（neural syntax）；连接 #147 PAC 框架与情节记忆编码（而非仅工作记忆维持）",
+        "hippocampal-memory-encoding-consolidation: 从工作记忆到情节记忆的转换——hippocampal LTP/LTD如何把 θ-γ 嵌套编码的内容写入长期记忆；SWR在记忆巩固中与θ-γ的关系",
+        "ad-theta-gamma-disruption: AD早期θ-γ耦合破坏机制——Aβ寡聚体如何损伤内侧隔核θ起搏器→海马θ-γ解耦；与Q-tgc-03直接相关；40Hz光声刺激GENUS的证据"
+      ],
+      "wiki_pages_created": [
+        "theta-gamma-coupling"
+      ],
+      "wiki_pages_revised": [
+        "theta-oscillations",
+        "gamma-oscillations",
+        "working-memory"
+      ],
+      "contested_claims_registered": [
+        "C-2026-09-17-01"
+      ],
+      "graph_nodes_after": 300,
+      "graph_edges_after": 1733
     }
   ],
   "layer_coverage_recent": [

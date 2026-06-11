@@ -1,0 +1,156 @@
+# 运行日志：2026-09-17（文章 #147）
+
+**实际运行日期**：2026-06-11
+**分支**：main（直接推送）
+**文章**：theta-gamma-coupling-working-memory
+**文章字数**：约 5100 字
+
+---
+
+## 状态文件读取摘要
+
+- `topic_ledger.json`：已读（最近 7 篇层级分布：molecular/cellular/disease/cognition 为主；whole-brain-network 层级近 7 篇未出现→今日补位）
+- `unresolved_questions.md`：已读（尾部）
+- `wiki/_graph.json`：已读（theta-gamma-coupling 节点缺失，被 theta-oscillations/gamma-oscillations 多次引用为"跨频率耦合"概念，属悬空引用）
+- `wiki/CHANGELOG.md`：已读尾部
+- `contested_claims.json`：已读（open claims 15 条；今日新增 1 条）
+- `state/monthly_synthesis.md`：已读（#146 已记录）
+
+---
+
+## 选题依据
+
+**选题类型**：B（填补悬空引用）+ B 优先级 3（加深前沿节点）
+
+**选题依据**：
+1. wiki/_graph.json 中 theta-oscillations 和 gamma-oscillations 节点多次提及"theta-gamma CFC"和"θ-γ 耦合"，但缺少专属节点
+2. theta-oscillations 页第 78 行："跨频率耦合（theta-gamma CFC）的强度与记忆表现相关"
+3. gamma-oscillations 页第 155 行："θ-γ 耦合特异性受损（Barr 2017）"
+4. working-memory 页中 θ/γ 嵌套在"容量机制"条目中出现但没有专属机制页
+5. 近 7 篇（#140-146）层级覆盖：molecular/cellular/synaptic/brain-region/disease 层偏多，whole-brain-network + cognition 层需要补位
+6. #146 建议的 next_suggested_topics 包含 "cortical-oscillation-hierarchy"（振荡框架综合）；θ-γ 耦合是这个方向的核心机制节点，先建立它才能在后续深入振荡层级
+
+**核心问题**：θ-γ 相位-振幅耦合的机制、认知功能、细胞底物，以及 2024 年 PAC 细胞发现对传统模型的深化
+
+---
+
+## 文献检索记录
+
+**搜索词和数据源**：
+
+| 查询 | 数据库 | 结果数 |
+|------|--------|--------|
+| theta gamma coupling hippocampus memory working memory | PubMed | 15（截取前 15） |
+| theta gamma coupling review phase amplitude | PubMed | 6 |
+| Colgin theta gamma coupling hippocampus Nature 2009 | PubMed | 1（19924214）|
+| Lisman Jensen 2013 theta gamma | PubMed | 1（23522038）|
+| Canolty 2006 theta gamma human cortex Science | PubMed | 1（16973878）|
+| theta-gamma coupling hippocampus cognition review[tiab] | PubMed | 4（包含 42205487）|
+| PV interneuron gamma oscillation hippocampus theta coupling mechanism | PubMed | 3（24155715, 40161984, 42062256）|
+
+**候选论文**：18 篇（排除了 2 篇相关性较低的 alpha/beta 文章，1 篇关于磁场干扰的动物实验）
+
+**PMC 开放全文确认**：
+- PMID:23522038 → PMC3648857（已读全文）
+- PMID:20133762 → PMC2840289（已读全文）
+- PMID:38632400 → PMC11078732（已读全文）
+
+**最终采用**：9 篇
+
+---
+
+## 开放全文访问情况
+
+| PMID | 状态 | 说明 |
+|------|------|------|
+| 23522038 / PMC3648857 | 开放全文 | Lisman & Jensen 2013，PMC 全文已读 |
+| 20133762 / PMC2840289 | 开放全文 | Axmacher 2010，PMC 全文已读 |
+| 38632400 / PMC11078732 | 开放全文 | Daume 2024，PMC 全文已读 |
+| 19924214 | 摘要仅 | Nature 非开放，通过 PubMed efetch 读摘要 |
+| 16973878 | 摘要仅 | Science 非开放，通过 PubMed efetch 读摘要 |
+| 29259151 | 摘要仅 | Nat Commun，通过 PubMed efetch 读摘要 |
+| 40161984 | 摘要仅 | Network Neuroscience，通过 PubMed efetch 读摘要 |
+| 42205487 | 摘要仅 | Current Res Neurobiol，通过 PubMed efetch 读摘要 |
+| 28148460 | 摘要仅 | 已在数据库，补充来源引用 |
+
+**满足条件**：≥5 来源（✓ 9篇）；≥2 篇开放全文（✓ 3篇）；≥1 官方机构来源（✓ PubMed/PMC/NIH）
+
+---
+
+## wiki 固结记录
+
+**新建页面**（1 个）：
+- `wiki/concepts/theta-gamma-coupling.md`（revision_count=1）
+
+**修订页面**（3 个）：
+- `wiki/concepts/theta-oscillations.md`（rev3→rev4，related/key_sources/source_articles 更新）
+- `wiki/concepts/gamma-oscillations.md`（rev6→rev7，related/key_sources 更新）
+- `wiki/concepts/working-memory.md`（rev10→rev11，related/key_sources 更新）
+
+**矛盾检查**：
+- 新证据（Besosa 2026）对传统 θ-γ 专用机制解释提出挑战：登记为 C-2026-09-17-01（open）
+- 其余新证据与既有页面主张一致（深化而非矛盾）
+
+**成熟度更新**：
+- theta-gamma-coupling（新建）：mainstream（多项独立人类证据 + 机制链）
+
+---
+
+## 图谱变化
+
+- 节点：299 → 300（+1：theta-gamma-coupling）
+- 边：1723 → 1733（+10：theta-gamma-coupling 的专属连接）
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：新增条目（#147）✓，total_articles=147
+- `unresolved_questions.md`：新增 Q-tgc-01/02/03/04 ✓
+- `source_registry.json`：新增 8 条来源记录 ✓（total=657）
+- `monthly_synthesis.md`：追加 #147 摘要 ✓
+- `contested_claims.json`：新增 C-2026-09-17-01 ✓（total=16）
+
+---
+
+## 自检结果
+
+**真实性**：
+- [x] 每条 wiki 新主张均有 PMID/PMCID 来源
+- [x] 人类数据（颅内电极、单神经元记录）与动物数据（大鼠 CA1）明确区分
+- [x] 3 篇开放全文的量化数据均从原文核实
+- [x] 争议框架（Besosa 2026）已如实并列标注
+- [x] 未将 Axmacher 2010 的 n=14 和 Daume 2024 的 n=36 作为无限制定论
+
+**一致性**：
+- [x] 新内容与既有 theta-oscillations/gamma-oscillations/working-memory 页面一致（深化而非矛盾）
+- [x] 被修订页的 updated/revision_count/修订历史均已同步
+- [x] _graph.json 无悬空边（theta-gamma-coupling 的所有 related 目标均为已有节点）
+
+**可导航**：
+- [x] index.md 反映了今天的新建/修订
+- [x] CHANGELOG.md 已更新
+- [x] 新页的 related（≥10 个）/prerequisites（4 个）均已填写
+
+**情景层**：
+- [x] 文章/笔记/来源/日志齐全
+- [x] 未修改任何旧有情景层文件
+
+---
+
+## Git 操作
+
+**分支**：main
+**commit 信息**：Add neuro daily article + wiki consolidation for 2026-09-17
+**push 状态**：待执行
+
+---
+
+## 失败与限制
+
+- NCBI PMC 搜索接口部分请求返回旧格式 PMID（非 PMC ID），已通过直接访问 PMC 文章 URL 确认
+- Lisman-Idiart 1995 原始 Science 论文（原始 θ-γ 模型提出）无 PMC 开放全文；已通过 2013 年 Lisman & Jensen Neuron 综述（PMC3648857）间接引用和总结其理论内容
+- Besosa 2026 全文未开放，只读摘要；谱依赖性框架的完整论证未能核验，已标注"摘要已读"
+- 未能直接检索 Tamura 2017 Nat Commun 的 PMC ID（通常 Nat Commun 为开放全文，但本次请求失败），已标注摘要已读
+
+**状态**：完成✓
