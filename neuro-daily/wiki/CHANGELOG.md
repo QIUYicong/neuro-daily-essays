@@ -4,6 +4,38 @@
 
 ---
 
+## 2026-09-30（文章 #160：高阶意识理论与无报告范式——当神经科学开始质疑自己的测量尺子）
+
+### 新建 wiki 页面（5 页）
+
+- `theories/higher-order-theory.md` rev1：高阶意识理论（HOT）——Rosenthal→Lau&Rosenthal 2011→LeDoux&Brown 2017 HOROR；高阶表征的两级结构（感觉一阶 + PFC 高阶）；一般认知网络（GNC）；情绪意识的皮层起源；与 GWT/RPT/IIT 的对比定位；Q-hot-01/02/03
+- `methods/no-report-paradigm.md` rev1：无报告范式——Pitts 2014（VAN 持续，P3b 消失）+ Cohen 2020（F=151.13，P3b 6.55→0.462 µV）+ Siclari 2017（睡眠 87% 准确率）；Duman 2022 批评（过度/不足包含，心智游荡）；Q-nrp-01/02
+- `concepts/visual-awareness-negativity.md` rev1：VAN（100-300ms，后枕区，报告独立性）——P3b 的对比与分离；神经发生器争议（V1 递归 vs 注意增益）；PAN 跨模态泛化；Q-van-01
+- `concepts/access-consciousness.md` rev1：通达意识（Block A-consciousness）——与 P-consciousness 的概念区分；P3b 为 A-consciousness NCC；溢出争议；各理论对 A-P 关系的立场；Q-ac-01
+- `concepts/phenomenal-consciousness.md` rev1：现象意识（Block P-consciousness）——qualia/what-it's-like；四大理论对 P-consciousness 神经基础的预测矩阵；VAN 和 Siclari 睡眠高频活动的 NCC 候选；Q-pc-01
+
+### 修订 wiki 页面（3 页）
+
+- `theories/recurrent-processing-theory.md` rev1→rev2：新增 Siclari 2017（PMID:28394322）NREM 睡眠无报告证据行（87% 准确率，前额叶对感知性梦非必要，支持后方皮层是意识基质）；related 增加 higher-order-theory、visual-awareness-negativity、phenomenal-consciousness；key_sources 增加 PMID:28394322
+- `concepts/posterior-cortical-hot-zone.md` rev2→rev3：新增 Siclari 2017 精确数据行（后方顶枕高频，87% 预测，91.6%/80.7%，面孔梦→梭状回，空间梦→海马旁回）——PCHZ 的最强无报告证据；related 增加 no-report-paradigm、higher-order-theory、phenomenal-consciousness、visual-awareness-negativity；key_sources 增加 PMID:28394322
+- `theories/global-workspace-theory.md` rev8→rev9：新增 Cohen 2020（PMID:32409620）精确统计数据行（P3b 6.55→0.462 µV，F=151.13，p<0.001，86.3% 记忆识别）——P3b 不是意识 NCC 而是报告 NCC 的最直接量化证据；related 增加 higher-order-theory、no-report-paradigm、visual-awareness-negativity、access-consciousness；key_sources 增加 PMID:32409620
+
+### 矛盾条目更新（0 条新增）
+
+- 无新矛盾登记。P3b 不是意识 NCC 与 GWT 主张可调和（GWT 可以主张 P3b 反映的是 A-consciousness 广播，而非意识内容本身），不构成直接矛盾；仅作为 Q-gwt-01 的强化证据记录在 GWT 修订历史中。
+
+### 图谱变化
+
+- 节点数：321（新增 5 个：higher-order-theory, no-report-paradigm, visual-awareness-negativity, access-consciousness, phenomenal-consciousness）
+- 新增边：15 条（HOT→GWT, HOT→RPT 对立, HOT→PFC 机制, VAN→PCHZ 支持, 等）
+- 修订节点（3 个）：recurrent-processing-theory（rev2），posterior-cortical-hot-zone（rev3），global-workspace-theory（rev9）
+
+### 新增悬空引用待补
+
+- `eeg-erp`：visual-awareness-negativity.md 的 prerequisites 中引用，尚无独立页面（可纳入 methods 领域）
+
+---
+
 ## 2026-09-29（文章 #159：当意识被计算——整合信息 Φ 的 NP-Hard 困境、整合-放电网络的新实验，以及扰动复杂性指数的临床十年）
 
 ### 修订 wiki 页面（3 页，无新建）

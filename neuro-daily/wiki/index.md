@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-28（**#158**·递归处理理论——填补悬空引用recurrent-processing-theory；新建1页：recurrent-processing-theory（RPT前馈/递归两模式/V1图像-背景分离/麻醉掩蔽证据/四阶段模型/RPT-GWT-IIT三方比较）；修订3页：IIT rev5、GWT rev8、NCC rev2；图谱 316 节点，1838 边）· 主题页总数：**295**（新建1页）
+> 最后更新：2026-09-30（**#160**·高阶意识理论（HOT）与无报告范式——P3b 在无报告条件消失（F=151.13），VAN 持续，Siclari 2017 睡眠87%后方热区预测，Duman 2022 批评；新建5页：higher-order-theory, no-report-paradigm, visual-awareness-negativity, access-consciousness, phenomenal-consciousness；修订3页：RPT rev2, PCHZ rev3, GWT rev9；图谱 321 节点，1852 边）· 主题页总数：**300**（新建5页）
 
 ---
 
@@ -218,8 +218,11 @@
 - 🟢 [REM睡眠](concepts/rem-sleep.md) — 去甲肾上腺素真空（LC沉默）+θ振荡+杏仁核-海马θ同步；情绪记忆去饱和化（SFSR假说）；Boyce 2016光遗传因果证明REM θ是情境记忆必需条件；van der Helm 2011人类fMRI证实REM降低杏仁核情绪反应 **[NEW 2026-05-31]**
 - 🟡 [情绪记忆去饱和化](concepts/emotional-memory-depotentiation.md) — REM睡眠NE真空→θ相位驱动LA突触选择性LTD→情绪色彩弱化、事实内容保留；Walker SFSR假说的机制底层；PTSD可能是去饱和化失败 **[NEW 2026-05-31]**
 - 🔴 [Φ（整合信息度量）](concepts/phi-measure.md) — IIT 核心量；衡量系统最优分割时损失的因果信息量；NP-hard 计算；IIT 声称 Φ = 意识的量；COGITATE 2025 对相关机制预测构成挑战 **[NEW 2026-05-31]**
-- 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据（完全额叶切除不影响意识）**[修订 2026-06-27]**
+- 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据；Siclari 2017 NREM 睡眠后方顶枕热区 87% 梦境预测（最强无报告 NCC 证据）**[修订 rev3 2026-09-30 #160]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
+- 🔵 [视觉意识负波（VAN）](concepts/visual-awareness-negativity.md) — 100-300ms 后枕区负波；有意识时出现、无报告时仍持续（vs P3b 无报告时消失）；Pitts 2014 掩蔽×任务无关 2×2 确立；跨模态版本（PAN）；RPT 递归信号 vs 注意调制神经发生器争议 **[NEW 2026-09-30 #160]**
+- 🟢 [通达意识（A-consciousness）](concepts/access-consciousness.md) — Block 1995 区分：信息可被认知系统使用/报告即为通达意识；P3b 是 A-consciousness NCC（无报告时消失）；GWT 广播描述的是 A-consciousness；HOT 的高阶表征使 A-consciousness 成为 P-consciousness 的必要条件；溢出争议（P>A？） **[NEW 2026-09-30 #160]**
+- 🔵 [现象意识（P-consciousness）](concepts/phenomenal-consciousness.md) — Block 1995 区分：主观内在体验质/qualia（"红色看起来的样子"）；Chalmers 难问题的所指；Siclari 2017 睡眠无报告梦境与后方皮层高频活动相关；VAN 是比 P3b 更好的 P-consciousness NCC 候选；四大理论对 P 的不同机制预测 **[NEW 2026-09-30 #160]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
 - 🟢 [嗅觉受体神经元（ORN）](concepts/olfactory-receptor-neuron.md) — 嗅上皮双极感觉神经元；单受体表达规则（~1000种OR基因各选其一）；五步转导级联（OR→Gαolf→AC III→cAMP→CNG通道→Anoctamin2 Cl⁻放大→动作电位）；约每30-60天由基底层干细胞再生 **[NEW 2026-07-17 #85]**
 - 🟢 [嗅小球](concepts/olfactory-glomerulus.md) — 嗅球皮层表面球状神经毡结构（~50-100 μm）；接收同类OR的所有ORN轴突（~5000 ORN/嗅小球，小鼠）；僧帽细胞（→梨状皮层）vs 簇状细胞（仅前外侧区）功能分流；颗粒细胞树突-树突往返突触实现侧抑制和对比增强 **[NEW 2026-07-17 #85]**
@@ -312,6 +315,7 @@
 - 🟢 [扰动复杂性指数（PCI）](methods/perturbational-complexity-index.md) — IIT 的临床代理工具；TMS 扰动 + EEG 记录 + Lempel-Ziv 复杂度算法；区分清醒/NREM/麻醉/植物状态/最小意识状态；Casali 2013 奠基，多中心验证 **[NEW 2026-05-31]**
 - 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元，White 1986）→ 果蝇（139,255神经元，FlyWire 2024）；揭示网络拓扑（小世界、富人俱乐部、前馈回路）；结构约束功能但不充分描述动力学（结构-功能鸿沟）**[NEW 2026-06-18]**
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**
+- 🔵 [无报告范式](methods/no-report-paradigm.md) — P3b 在无报告条件下完全消失（Cohen 2020，F=151.13，P3b 6.55→0.462 µV）；VAN 持续（候选真实意识 NCC）；Siclari 2017 睡眠无报告最强证据（87% 后方热区预测）；Duman 2022：范式本身存在过度/不足包含问题 **[NEW 2026-09-30 #160]**
 
 ## theories（理论）
 
@@ -320,7 +324,8 @@
 - 🟡 [自由能原理（FEP）](theories/free-energy-principle.md) — Friston 统一框架：最小化变分自由能（惊喜上界）= 感知+行动的共同目标；感知=更新内部模型，行动=改变感觉输入；学习=更新模型参数；VAE数学等价 **[NEW 2026-09-01]**
 - 🟡 [主动推断](theories/active-inference.md) — FEP中行动的计算含义：实现本体感觉预测而非输出运动命令；感知与行动统一于同一优化目标；小脑精度先验角色（DCN时间精度+高尔基细胞空间精度）；单前向模型优势；Friston & Herreros 2016 眼睑模型 **[修订 rev2 2026-09-02]**
 - 🔴 [整合信息理论（IIT）](theories/integrated-information-theory.md) — 意识 = Φ（整合信息量）；五公理推导物理约束；意识基质在后方皮层热区（而非前额叶）；小脑/视网膜低 Φ 预测与临床一致；COGITATE 2025 挑战核心机制预测（后方皮层同步缺失）；泛心论蕴含；前馈网络 Φ ≈ 0 **[NEW 2026-05-31 · 争议]**
-- 🔵 [递归处理理论（RPT）](theories/recurrent-processing-theory.md) — Lamme：意识 = 视觉皮层后方递归处理（前馈无意识，反馈+水平连接产生感知觉组织）；V1图像-背景分离信号三证据链（麻醉/掩蔽/预处理状态）；四阶段模型；不需要前额叶广播；无报告范式支持；Allen TMS挑战；缺失要素（NMDA+网络可塑性）**[NEW 2026-09-28 #158 · 填补悬空引用]**
+- 🔵 [递归处理理论（RPT）](theories/recurrent-processing-theory.md) — Lamme：意识 = 视觉皮层后方递归处理（前馈无意识，反馈+水平连接产生感知觉组织）；V1图像-背景分离信号三证据链（麻醉/掩蔽/预处理状态）；四阶段模型；不需要前额叶广播；无报告范式支持；Allen TMS挑战；缺失要素（NMDA+网络可塑性）；Siclari 2017 睡眠热区87%准确率支持后方皮层基础 **[NEW 2026-09-28 #158 · rev2 2026-09-30 #160]**
+- 🔵 [高阶意识理论（HOT）](theories/higher-order-theory.md) — Rosenthal→Lau&Rosenthal 2011→LeDoux&Brown 2017 HOROR；意识需要高阶表征（"知道自己处于该状态"）；一般认知网络（GNC：PFC+后顶叶+岛叶）；情绪意识来自皮层而非杏仁核；与 GWT（广播）和 RPT（后方递归）的三方定位 **[NEW 2026-09-30 #160]**
 - 🟡 [精度加权](concepts/precision-weighting.md) — 预测误差信号携带精度权重，注意力形式化为选择性提升误差精度；ACh/NE/DA是分子层面的精度调节器；VIP-SST去抑制回路是回路层面的实现候选 **[NEW 2026-06-15]**
 
 ## diseases（疾病）

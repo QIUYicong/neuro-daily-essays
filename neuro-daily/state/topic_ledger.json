@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-29",
-  "total_articles": 159,
+  "last_updated": "2026-09-30",
+  "total_articles": 160,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10475,7 +10475,12 @@
       "filename": "2026-09-29-phi-computation-pci-consciousness-measurement.md",
       "article_type": "regular",
       "core_question": "Φ（整合信息量）的 NP-hard 计算困境能否被近似克服？新的计算神经科学实验（Danilczuk 2026）和宏观 fMRI 方法（Onoda 2025）如何推进 IIT 的实验验证？PCI 在意识障碍、rTMS 治疗和阿尔茨海默病中的十年临床扩展说明了什么？临界动力学（Maschke 2024）和非平衡有效连接（Stikvoort 2025）能否替代 Φ 解释 PCI？",
-      "layer": ["molecular", "methods", "whole-brain-network", "disease"],
+      "layer": [
+        "molecular",
+        "methods",
+        "whole-brain-network",
+        "disease"
+      ],
       "curriculum_track": "8. 意识与自我（意识系列之四：从理论到测量——IIT 的计算障碍与 PCI 的临床实践）",
       "topic_tags": [
         "phi",
@@ -10525,7 +10530,9 @@
         "wiki/theories/integrated-information-theory.md (rev5→rev6): 新增 IIT 4.0（ΦID）；Onoda 2025（宏观 Φ 支持意识水平预测）；区分 level prediction（Onoda 支持）vs mechanism prediction（COGITATE 否定）；新增 Q-iit-06；新增 Danilczuk 2026（IF 网络 Φ）"
       ],
       "contested_claims_logged": [],
-      "contested_claims_evidence_updated": ["C-2026-05-31-01"],
+      "contested_claims_evidence_updated": [
+        "C-2026-05-31-01"
+      ],
       "unresolved_questions": [
         "Q-pci-01",
         "Q-pci-02",
@@ -10541,6 +10548,79 @@
         "anterior-commissure: 前连合专页（AgCC 中的代偿；嗅觉/颞叶前端连接；胼胝体 vs 前连合的功能分工）——持续填补 agenesis-corpus-callosum 悬空引用",
         "critical-dynamics: 临界动力学专页（神经皮层二阶相变；幂律衰减；最大动态范围；临界性与意识/癫痫/睡眠的关系）——填补今日新产生的悬空引用",
         "no-report-paradigm: 无报告范式方法论页（Koch-Tsuchiya-Lamme 2015；双目竞争；SSVEP；NCC研究的方法论革命）——连接 RPT/IIT/NCC 到实验方法"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "real_date": "2026-06-11",
+      "article_number": 160,
+      "title": "高阶意识理论与无报告范式：当神经科学开始质疑自己的测量尺子",
+      "slug": "higher-order-theory-no-report-consciousness",
+      "filename": "2026-09-30-higher-order-theory-no-report-consciousness.md",
+      "article_type": "regular",
+      "core_question": "如果 P3b、前额叶广播和 PCI 测量的都是'意识+报告行为'而非'意识本身'，那么意识的真正神经基础在哪里？高阶意识理论（HOT）与无报告范式如何改变我们对 NCC 的理解？",
+      "layer": [
+        "cognition",
+        "theories",
+        "methods",
+        "brain-region"
+      ],
+      "curriculum_track": "8. 意识与自我（意识理论系列 Day 4：HOT + 无报告范式方法论）",
+      "topic_tags": [
+        "higher-order theory",
+        "HOT",
+        "HOROR",
+        "no-report paradigm",
+        "visual awareness negativity",
+        "VAN",
+        "perceptual awareness negativity",
+        "PAN",
+        "access consciousness",
+        "phenomenal consciousness",
+        "A-consciousness",
+        "P-consciousness",
+        "Block",
+        "Rosenthal",
+        "Lau Rosenthal",
+        "LeDoux Brown",
+        "P3b",
+        "NCC",
+        "neural correlates of consciousness",
+        "Cohen 2020",
+        "Pitts 2014",
+        "Siclari 2017",
+        "Duman 2022",
+        "sleep consciousness",
+        "dreaming",
+        "posterior hot zone",
+        "no-report EEG",
+        "qualia",
+        "overflow debate",
+        "hard problem"
+      ],
+      "main_sources": [
+        "PMID:35634201 / PMC9130851 (Duman et al. 2022, Front Hum Neurosci, 开放全文)",
+        "PMID:28202735 / PMC5347624 (LeDoux & Brown 2017, PNAS, 开放全文)",
+        "PMID:32409620 / PMC7326348 (Cohen et al. 2020, J Neurosci, 开放全文)",
+        "PMID:25339922 / PMC4189413 (Pitts et al. 2014, Front Psychol, 开放全文)",
+        "PMID:28394322 / PMC5462120 (Siclari et al. 2017, Nat Neurosci, 开放全文)",
+        "PMID:21737339 (Lau & Rosenthal 2011, Trends Cogn Sci, 摘要)",
+        "DOI:10.1016/j.tics.2019.06.009 (Brown, Lau & LeDoux 2019, Trends Cogn Sci, 摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-hot-01: 前额叶广泛损伤不导致意识丧失如何与 HOT 相容？",
+        "Q-hot-02: HOT 与 GWT 的广播机制能否在实验上区分？",
+        "Q-nrp-01: 是否存在真正消除所有报告前处理的实验设计？",
+        "Q-van-01: VAN 的神经发生器是哪里？RPT 递归信号还是注意调制？",
+        "Q-ac-01: P-consciousness 是否真的能在没有 A-consciousness 的情况下存在？",
+        "Q-pc-01: P-consciousness 的后方皮层基础与 A-consciousness 的前额叶基础能否完全独立？"
+      ],
+      "next_suggested_topics": [
+        "意识理论的第五种声音：高阶感知理论（HOPT）vs 高阶思维理论（HOTT）的内部分歧",
+        "注意与意识的双重解离：无注意有意识、有注意无意识的实验证据",
+        "意识的时间维度：意识知觉需要多长时间？Dehaene 的 300ms 门控与连续感知幻觉",
+        "意识与感知觉统合：图形完整性判断如何在 V1 递归与前额叶广播之间形成？",
+        "意识障碍（MCS vs VS）的神经基础回顾：各理论对患者状态的预测与 PCI 临床应用"
       ]
     }
   ],

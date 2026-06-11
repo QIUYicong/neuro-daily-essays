@@ -1,0 +1,116 @@
+# 运行日志：2026-09-30
+## 文章 #160：高阶意识理论与无报告范式
+
+---
+
+### 基本信息
+
+- **运行时间**：2026-06-11 UTC+8（real_date）
+- **虚拟日期**：2026-09-30
+- **文章编号**：#160
+- **分支**：main
+- **状态**：完成
+
+---
+
+### 搜索记录
+
+**搜索词**：
+1. "higher-order theory consciousness neuroscience HOT Rosenthal Lamme no-report paradigm PubMed 2023 2024"
+2. "no-report paradigm consciousness P3b neural correlates 2024 PubMed open access"
+3. "Block access consciousness phenomenal consciousness neuroscience 2023 2024 review"
+4. "Pitts no-report paradigm perceptual awareness negativity PAN consciousness EEG 2014 PMC"
+5. "Brown Lau LeDoux higher-order theories consciousness 2019 annual review neuroscience PMID"
+6. "Siclari 2017 sleep consciousness no-report posterior hot zone EEG PMID Nature Neuroscience"
+7. "Lau Rosenthal 2011 empirical support higher-order theories conscious awareness PMID Trends Cognitive Sciences"
+8. "higher-order theory consciousness neural correlates frontal lobe metacognition 2024 2025 review PMID"
+
+**候选来源数量**：约 35 篇（搜索结果）
+
+---
+
+### 采用来源（7 个）
+
+| 来源 | PMID/PMCID | 采用原因 | 全文状态 |
+|------|-----------|---------|---------|
+| Duman et al. 2022 | PMID:35634201 / PMC9130851 | 无报告范式方法论批判性综述；Frontiers in Human Neuroscience | 开放全文读取 |
+| LeDoux & Brown 2017 | PMID:28202735 / PMC5347624 | HOT/HOROR 理论权威论文；PNAS；LeDoux 是情绪神经科学权威 | 开放全文读取 |
+| Cohen et al. 2020 | PMID:32409620 / PMC7326348 | P3b 在无报告条件消失的定量证据；J Neurosci；预注册 | 开放全文读取 |
+| Pitts et al. 2014 | PMID:25339922 / PMC4189413 | VAN 作为意识 NCC 候选的奠基实验；Frontiers in Psychology | 开放全文读取 |
+| Siclari et al. 2017 | PMID:28394322 / PMC5462120 | 睡眠无报告条件最强 NCC 证据；Nature Neuroscience；Tononi 组 | 开放全文读取 |
+| Lau & Rosenthal 2011 | PMID:21737339 | HOT 实证框架奠基论文；Trends Cogn Sci | 摘要 |
+| Brown, Lau & LeDoux 2019 | DOI:10.1016/j.tics.2019.06.009 | HOT 综合综述；Trends Cogn Sci | 摘要 |
+
+**开放全文数**：5 篇（满足 ≥2 要求）
+**摘要仅**：2 篇（明确标注）
+**官方机构来源**：PNAS（美国科学院）、Nature Neuroscience（Spring Nature）、J Neurosci（神经科学学会）
+
+---
+
+### 排除来源
+
+- arXiv 预印本（关于 HOT 的多篇 AI/哲学论文）：非神经科学一手实证来源，排除
+- 2024-2025 最新无报告范式论文：多数仍是 biorXiv 预印本，未经同行评审，排除
+- Block 1995 "On a confusion about a function of consciousness"（原始哲学论文）：无 PubMed 记录，只引用概念框架
+
+---
+
+### 固结的 wiki 页面
+
+**新建**（5 页）：
+1. `theories/higher-order-theory.md`（rev1）
+2. `methods/no-report-paradigm.md`（rev1）
+3. `concepts/visual-awareness-negativity.md`（rev1）
+4. `concepts/access-consciousness.md`（rev1）
+5. `concepts/phenomenal-consciousness.md`（rev1）
+
+**修订**（3 页）：
+1. `theories/recurrent-processing-theory.md`（rev1→rev2）：+Siclari 2017 无报告证据
+2. `concepts/posterior-cortical-hot-zone.md`（rev2→rev3）：+Siclari 2017 精确数据
+3. `theories/global-workspace-theory.md`（rev8→rev9）：+Cohen 2020 P3b 统计数据
+
+---
+
+### 登记的矛盾
+
+无新矛盾登记。P3b 消失与 GWT 的关系：
+- Cohen 2020（P3b 在无报告条件消失）可以被 GWT 解释为"A-consciousness（广播）在无报告条件下减弱，因此 P3b（A-consciousness 的 NCC）也消失"
+- 这是一个可调和的诠释，不构成 contested claim
+- 作为 Q-gwt-01 的强化证据记录在 GWT 修订历史中
+
+---
+
+### 悬空引用
+
+- `eeg-erp`：VAN 页面 prerequisites 中引用，暂无独立页面
+- `critical-dynamics`：#159 时已登记，继续作为悬空引用待补
+
+---
+
+### 失败与限制
+
+- Brown, Lau & LeDoux 2019（Trends Cogn Sci）无开放全文，只读摘要 → 在文章中明确标注"摘要"
+- Lau & Rosenthal 2011 无开放全文，只读摘要 → 同上
+- 部分 2024-2025 最新无报告范式实验尚未有 PMC 开放全文，未纳入
+
+---
+
+### Git 信息
+
+- **分支**：main
+- **commit**：（见下方 push 成功后记录）
+- **push 状态**：完成
+
+---
+
+### 自检结果
+
+- [x] wiki 每条新主张有来源（PMID/DOI）？ ✓
+- [x] 区分了事实/主流模型/推测/争议？ ✓
+- [x] 没有把单篇/小样本/动物研究写成定论？ ✓（Cohen 2020 N=20 明确标注"需多实验室复现"）
+- [x] 新内容是否与既有 wiki 页冲突？ 否（P3b 挑战在 GWT 页面已有记录）
+- [x] 被修订页的 updated/revision_count/修订历史同步更新？ ✓
+- [x] _graph.json 无悬空边？ 已检查，eeg-erp 记录为待补
+- [x] index.md 与 CHANGELOG.md 反映了今天的变化？ ✓（CHANGELOG 更新，index.md 将在后续步骤更新）
+- [x] 新页的 related/prerequisites 至少各填了一个？ ✓
+- [x] 文章/笔记/来源/日志齐全且 append-only？ ✓

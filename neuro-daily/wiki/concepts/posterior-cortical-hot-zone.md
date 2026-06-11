@@ -6,14 +6,14 @@ type: region
 status: mainstream
 confidence: medium
 created: 2026-05-31
-updated: 2026-06-27
-revision_count: 2
+updated: 2026-09-30
+revision_count: 3
 dimensions: [brain-region, cognition, whole-brain-network]
-related: [integrated-information-theory, global-workspace-theory, consciousness-ignition, v1-primary-visual-cortex, phi-measure, prefrontal-cortex, neural-correlates-of-consciousness]
+related: [integrated-information-theory, global-workspace-theory, consciousness-ignition, v1-primary-visual-cortex, phi-measure, prefrontal-cortex, neural-correlates-of-consciousness, no-report-paradigm, higher-order-theory, phenomenal-consciousness, visual-awareness-negativity]
 prerequisites: [v1-primary-visual-cortex, integrated-information-theory, global-workspace-theory]
 opens_questions: [Q-iit-02, Q-iit-03]
 source_articles: [2026-05-31-integrated-information-theory, 2026-06-27-ncc-consciousness-where]
-key_sources: ["PMID:27094080", "PMID:40307561", "PMID:23946194"]
+key_sources: ["PMID:27094080", "PMID:40307561", "PMID:23946194", "PMID:28394322"]
 ---
 
 # 后方皮层热区 (Posterior Cortical Hot Zone)
@@ -75,6 +75,7 @@ Koch et al. 2016 提出了一个重要区分：
 | V4 损伤 → 意识颜色消失（色盲）；前额叶损伤不导致此 | 脑损伤病例研究 | Koch 2016 综述（摘要） | 高（多例独立验证） |
 | 无报告范式：后方皮层更强地预测意识知觉 | 无报告范式 fMRI/EEG | Koch 2016 综述（摘要） | 中（无报告范式方法学仍有争议） |
 | 后方皮层内部持续同步（IIT/PCHZ 核心机制预测） | COGITATE 2025 MEG/iEEG | PMID:40307561（全文） | **低**（COGITATE 否定此预测） |
+| NREM 睡眠梦境（天然无报告）与**后方顶枕高频活动**（>20 Hz）正相关、与 δ 低频负相关；面孔梦→梭状回，空间梦→海马旁回；后方热区实时预测梦境准确率 **87%**（有梦 91.6%，无梦 80.7%） | 高密度 EEG（256 导） + 阶段性唤醒报告 + 闭环实时预测；NREM 和 REM 睡眠 | PMID:28394322（PMC5462120，Nat Neurosci，全文） | **高**（PCHZ 定位最强无报告证据；前额叶仅在思维性梦境中激活，对基本感知梦非必要） |
 
 ## 连接
 
@@ -94,6 +95,7 @@ Koch et al. 2016 提出了一个重要区分：
 
 - 2026-05-31 · 创建 · 基于《意识等于整合信息》(#29) · 初始置信度：中（PCHZ 解剖定位有一定支持，但 IIT 的核心机制预测被 COGITATE 2025 挑战）
 - 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 补充 NCC 三分法视角：PCHZ 对应内容特异 NCC 的解剖定位假说；COGITATE 2025 iEEG ~95% 解码支持了 PCHZ 的定位，但持续整合机制仍未获确认；新增 Boly et al. 2017（PMC5628406）的临床证据（完全额叶切除不影响意识；后方皮层损伤与 214 倍植物状态风险）；新增 neural-correlates-of-consciousness 到 related
+- 2026-09-30 · 修订 · 基于《高阶意识理论与无报告范式》(#160) · 新增 Siclari et al. 2017（PMID:28394322）睡眠无报告证据行：NREM 梦境与后方顶枕高频活动相关，87% 实时预测准确率，前额叶对基本感知梦非必要——迄今最强的无报告 PCHZ 证据；新增 no-report-paradigm、higher-order-theory、phenomenal-consciousness、visual-awareness-negativity 到 related；PMID:28394322 加入 key_sources；整体置信度维持"中"（COGITATE 对持续整合机制的否定仍有效，但 Siclari 2017 加强了定位支持）
 
 ## 来源文章
 

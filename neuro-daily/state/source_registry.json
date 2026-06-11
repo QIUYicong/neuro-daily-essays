@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-09-30",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11692,9 +11692,134 @@
         "perception vs report",
         "causal consciousness"
       ]
+    },
+    {
+      "id": "duman2022_noreport",
+      "pmid": "35634201",
+      "pmcid": "PMC9130851",
+      "title": "The No-Report Paradigm: A Revolution in Consciousness Research?",
+      "authors": "Duman I et al.",
+      "journal": "Front Hum Neurosci",
+      "year": 2022,
+      "open_access": true,
+      "used_in": [
+        "2026-09-30-higher-order-theory-no-report-consciousness"
+      ],
+      "covers": [
+        "no-report paradigm critique",
+        "NCC methodology",
+        "over-inclusion under-inclusion"
+      ]
+    },
+    {
+      "id": "ledoux2017_horor",
+      "pmid": "28202735",
+      "pmcid": "PMC5347624",
+      "title": "A higher-order theory of emotional consciousness",
+      "authors": "LeDoux JE, Brown R",
+      "journal": "PNAS",
+      "year": 2017,
+      "open_access": true,
+      "used_in": [
+        "2026-09-30-higher-order-theory-no-report-consciousness"
+      ],
+      "covers": [
+        "HOROR theory",
+        "emotional consciousness",
+        "GNC network",
+        "amygdala vs cortex"
+      ]
+    },
+    {
+      "id": "cohen2020_p3b",
+      "pmid": "32409620",
+      "pmcid": "PMC7326348",
+      "title": "Distinguishing the Neural Correlates of Perceptual Awareness and Postperceptual Processing",
+      "authors": "Cohen MA et al.",
+      "journal": "J Neurosci",
+      "year": 2020,
+      "open_access": true,
+      "used_in": [
+        "2026-09-30-higher-order-theory-no-report-consciousness"
+      ],
+      "covers": [
+        "P3b no-report disappearance",
+        "VAN",
+        "F=151.13",
+        "NCC methodology"
+      ]
+    },
+    {
+      "id": "pitts2014_van",
+      "pmid": "25339922",
+      "pmcid": "PMC4189413",
+      "title": "Isolating neural correlates of conscious perception from neural correlates of reporting one's perception",
+      "authors": "Pitts MA et al.",
+      "journal": "Front Psychol",
+      "year": 2014,
+      "open_access": true,
+      "used_in": [
+        "2026-09-30-higher-order-theory-no-report-consciousness"
+      ],
+      "covers": [
+        "VAN as NCC candidate",
+        "P3b as report correlate",
+        "2x2 masking ERP"
+      ]
+    },
+    {
+      "id": "siclari2017_dreaming",
+      "pmid": "28394322",
+      "pmcid": "PMC5462120",
+      "title": "The neural correlates of dreaming",
+      "authors": "Siclari F et al.",
+      "journal": "Nat Neurosci",
+      "year": 2017,
+      "open_access": true,
+      "used_in": [
+        "2026-09-30-higher-order-theory-no-report-consciousness"
+      ],
+      "covers": [
+        "posterior hot zone sleep",
+        "87% dream prediction",
+        "no-report NCC",
+        "PCHZ"
+      ]
+    },
+    {
+      "id": "lau2011_hot",
+      "pmid": "21737339",
+      "title": "Empirical support for higher-order theories of conscious awareness",
+      "authors": "Lau H, Rosenthal D",
+      "journal": "Trends Cogn Sci",
+      "year": 2011,
+      "open_access": false,
+      "used_in": [
+        "2026-09-30-higher-order-theory-no-report-consciousness"
+      ],
+      "covers": [
+        "HOT empirical framework",
+        "prefrontal cortex consciousness"
+      ]
+    },
+    {
+      "id": "brown2019_hot",
+      "doi": "10.1016/j.tics.2019.06.009",
+      "title": "Understanding the higher-order approach to consciousness",
+      "authors": "Brown R, Lau H, LeDoux JE",
+      "journal": "Trends Cogn Sci",
+      "year": 2019,
+      "open_access": false,
+      "used_in": [
+        "2026-09-30-higher-order-theory-no-report-consciousness"
+      ],
+      "covers": [
+        "HOT comprehensive review",
+        "HOT vs other theories"
+      ]
     }
   ],
-  "total_sources": 702,
+  "total_sources": 709,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-28",
+  "updated": "2026-09-30",
   "node_count": 303,
   "edge_count": 1760,
   "edge_types": [
@@ -2861,6 +2861,51 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/theories/recurrent-processing-theory.md"
+    },
+    {
+      "id": "higher-order-theory",
+      "title": "高阶意识理论",
+      "domain": "theories",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/theories/higher-order-theory.md"
+    },
+    {
+      "id": "no-report-paradigm",
+      "title": "无报告范式",
+      "domain": "methods",
+      "type": "method",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/methods/no-report-paradigm.md"
+    },
+    {
+      "id": "visual-awareness-negativity",
+      "title": "视觉意识负波",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/visual-awareness-negativity.md"
+    },
+    {
+      "id": "access-consciousness",
+      "title": "通达意识",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/access-consciousness.md"
+    },
+    {
+      "id": "phenomenal-consciousness",
+      "title": "现象意识",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/phenomenal-consciousness.md"
     }
   ],
   "edges": [
@@ -12642,6 +12687,76 @@
       "from": "recurrent-processing-theory",
       "to": "consciousness-ignition",
       "type": "contradicts"
+    },
+    {
+      "from": "higher-order-theory",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "higher-order-theory",
+      "to": "recurrent-processing-theory",
+      "type": "contradicts"
+    },
+    {
+      "from": "higher-order-theory",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "higher-order-theory",
+      "to": "access-consciousness",
+      "type": "supports"
+    },
+    {
+      "from": "higher-order-theory",
+      "to": "phenomenal-consciousness",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "no-report-paradigm",
+      "to": "visual-awareness-negativity",
+      "type": "supports"
+    },
+    {
+      "from": "no-report-paradigm",
+      "to": "neural-correlates-of-consciousness",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "no-report-paradigm",
+      "to": "posterior-cortical-hot-zone",
+      "type": "supports"
+    },
+    {
+      "from": "visual-awareness-negativity",
+      "to": "posterior-cortical-hot-zone",
+      "type": "supports"
+    },
+    {
+      "from": "visual-awareness-negativity",
+      "to": "phenomenal-consciousness",
+      "type": "supports"
+    },
+    {
+      "from": "access-consciousness",
+      "to": "phenomenal-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "access-consciousness",
+      "to": "global-workspace-theory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "phenomenal-consciousness",
+      "to": "recurrent-processing-theory",
+      "type": "supports"
+    },
+    {
+      "from": "phenomenal-consciousness",
+      "to": "posterior-cortical-hot-zone",
+      "type": "related"
     }
   ],
   "dangling_references": [
