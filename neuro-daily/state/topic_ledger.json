@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-30",
-  "total_articles": 160,
+  "last_updated": "2026-10-01",
+  "total_articles": 161,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10621,6 +10621,72 @@
         "意识的时间维度：意识知觉需要多长时间？Dehaene 的 300ms 门控与连续感知幻觉",
         "意识与感知觉统合：图形完整性判断如何在 V1 递归与前额叶广播之间形成？",
         "意识障碍（MCS vs VS）的神经基础回顾：各理论对患者状态的预测与 PCI 临床应用"
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "real_date": "2026-06-11",
+      "article_number": 161,
+      "title": "第七期周综合（意识科学专辑）：当四种理论相遇同一张实验桌——振荡、胼胝体与高阶表征如何共同描绘意识神经科学的坐标系",
+      "slug": "week-synthesis-consciousness-theories-landscape",
+      "filename": "2026-10-01-week-synthesis-consciousness-theories-landscape.md",
+      "article_type": "weekly_synthesis",
+      "core_question": "过去十篇文章涵盖了 δ 振荡、语言处理、注意控制、半球竞争、胼胝体、裂脑、RPT、IIT/Φ、HOT/无报告范式——当它们放在一起时，我们对意识的神经科学理解向前推进了多少？COGITATE 2025 的双重挑战意味着什么？A-consciousness 和 P-consciousness 的分离是意识科学的方法论转折点吗？",
+      "layer": [
+        "cognition",
+        "theories",
+        "methods",
+        "whole-brain-network"
+      ],
+      "curriculum_track": "8. 意识与自我（意识理论系列第7期周综合：GWT × IIT × RPT × HOT × 无报告范式 × COGITATE 2025 综合）",
+      "topic_tags": [
+        "weekly synthesis",
+        "consciousness theories",
+        "GWT",
+        "IIT",
+        "RPT",
+        "HOT",
+        "COGITATE 2025",
+        "adversarial collaboration",
+        "no-report paradigm",
+        "VAN",
+        "A-consciousness",
+        "P-consciousness",
+        "delta oscillations",
+        "language oscillations",
+        "ventral attention network",
+        "hemispatial neglect",
+        "corpus callosum",
+        "split brain",
+        "Pinto 2017",
+        "posterior hot zone",
+        "phi measure",
+        "PCI",
+        "Melloni 2025",
+        "Sattin 2021"
+      ],
+      "main_sources": [
+        "PMID:40307561 / PMCID:PMC12137136 (Melloni et al. 2025, Nature, COGITATE adversarial collaboration, open full text)",
+        "PMID:33923218 / PMCID:PMC8146510 (Sattin et al. 2021, Brain Sciences, 29 consciousness theories scoping review, open full text)",
+        "PMID:25339922 / PMC4189413 (Pitts et al. 2014, Front Psychol, VAN no-report marker, open full text)",
+        "PMID:32409620 / PMC7326348 (Cohen et al. 2020, J Neurosci, P3b no-report dissociation, open full text)",
+        "PMID:28334999 (Pinto et al. 2017, Brain, split brain unified consciousness, abstract only)",
+        "PMID:27225071 (Tononi et al. 2016, Nat Rev Neurosci, IIT 3.0, abstract only)",
+        "PMID:16996305 (Lamme 2006, Trends Cogn Sci, RPT core paper, abstract only)",
+        "DOI:10.1126/science.aan8871 (Dehaene et al. 2017, Science, A/P consciousness distinction, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-unified-01: 裂脑患者统一意识的冗余整合通路是什么（上丘/丘脑枕核）？",
+        "Q-ncc-01: VAN 能否在 MCS/VS 患者中稳定检测为无报告意识标志？",
+        "Q-cogitate-01: 下一轮对抗性协作应使用双阈限刺激范式测试 GWT 核心预测？",
+        "Q-phi-01: 宏观 Φ（Onoda 2025）与 COGITATE gamma 同步测量的关系？"
+      ],
+      "next_suggested_topics": [
+        "意识的时间维度：意识知觉需要多少毫秒？Dehaene 300ms 门控与 Lamme 递归延迟的实验对比",
+        "注意与意识的双重解离：无注意有意识（背景意识）和有注意无意识（无意识注意驱动）的实验证据",
+        "意识障碍的临床谱系：VS/MCS/LIS 患者如何成为意识理论的体内检验台？PCI 十年临床数据评估",
+        "HOPT vs HOTT：高阶感知理论与高阶思维理论的内部分歧，以及与神经成像的对比",
+        "预测处理框架下的意识：自由能原理如何整合感知/记忆/情绪/意识？"
       ]
     }
   ],

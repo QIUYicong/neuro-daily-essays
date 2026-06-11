@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-01",
+  "real_date": "2026-06-11",
+  "article": "2026-10-01-week-synthesis-consciousness-theories-landscape.md",
+  "article_number": 161,
+  "article_type": "weekly_synthesis",
+  "total_sources": 8,
+  "open_fulltext_count": 4,
+  "abstract_only_count": 4,
+  "official_institution_count": 2,
+  "sources": [
+    {
+      "id": "S-161-01",
+      "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": "Melloni L et al. (Cogitate Consortium)",
+      "journal": "Nature",
+      "year": 2025,
+      "pmid": "40307561",
+      "pmcid": "PMC12137136",
+      "doi": "10.1038/s41586-025-08888-1",
+      "fulltext_status": "open_fulltext_pmc",
+      "used_for": "COGITATE adversarial collaboration main results; IIT and GWT dual challenges; specific numerical data",
+      "key_data": {
+        "n_subjects": 256,
+        "modalities": ["fMRI", "MEG", "iEEG"],
+        "gwt_offset_ignition": "0/655 electrodes",
+        "iit_gamma_sync": "3.8% electrodes (BF01=1.15-4.9)",
+        "pfc_category_decoding": "~70% but 0.2-0.4s window only"
+      }
+    },
+    {
+      "id": "S-161-02",
+      "title": "Theoretical Models of Consciousness: A Scoping Review",
+      "authors": "Sattin D, Magnani FG, Bartesaghi L, Caputo M, Fittipaldo AV, Cacciatore M, Picozzi M, Leonardi M",
+      "journal": "Brain Sciences",
+      "year": 2021,
+      "pmid": "33923218",
+      "pmcid": "PMC8146510",
+      "doi": "10.3390/brainsci11050535",
+      "fulltext_status": "open_fulltext_pmc",
+      "used_for": "Classification framework for 29 consciousness theories; systematic analysis structure"
+    },
+    {
+      "id": "S-161-03",
+      "title": "What is consciousness, and could machines have it?",
+      "authors": "Dehaene S, Lau H, Kouider S",
+      "journal": "Science",
+      "year": 2017,
+      "doi": "10.1126/science.aan8871",
+      "fulltext_status": "abstract_摘要only",
+      "note": "No PMID found on initial search; DOI cited",
+      "used_for": "GWT perspective on consciousness definition; A-consciousness vs P-consciousness distinction"
+    },
+    {
+      "id": "S-161-04",
+      "title": "Towards a true neural stance on consciousness",
+      "authors": "Lamme VAF",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2006,
+      "pmid": "16996305",
+      "fulltext_status": "abstract_only",
+      "used_for": "RPT core paper; recurrent processing vs feedforward; V1 as consciousness site"
+    },
+    {
+      "id": "S-161-05",
+      "title": "Split brain: divided perception but undivided consciousness",
+      "authors": "Pinto Y et al.",
+      "journal": "Brain",
+      "year": 2017,
+      "pmid": "28334999",
+      "fulltext_status": "abstract_only",
+      "used_for": "Split brain unified consciousness evidence; challenge to IIT phi-split prediction"
+    },
+    {
+      "id": "S-161-06",
+      "title": "Integrated information theory: from consciousness to its physical substrate",
+      "authors": "Tononi G, Boly M, Massimini M, Koch C",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2016,
+      "pmid": "27225071",
+      "fulltext_status": "abstract_only",
+      "used_for": "IIT 3.0 core formulation; Phi definition; posterior cortex predictions"
+    },
+    {
+      "id": "S-161-07",
+      "title": "Electrophysiological indicators of stimulus processing without awareness",
+      "authors": "Pitts MA, Metzler S, Hillyard SA",
+      "journal": "Frontiers in Psychology",
+      "year": 2014,
+      "pmid": "25339922",
+      "pmcid": "PMC4189413",
+      "fulltext_status": "open_fulltext_pmc",
+      "used_for": "VAN as no-report consciousness marker; P-consciousness / A-consciousness separation"
+    },
+    {
+      "id": "S-161-08",
+      "title": "Robust, reliable and repeatable: Electrophysiological markers of consciousness across waking, sleep and anesthesia",
+      "authors": "Cohen MA, Ortego KM, Kyroudis A, Pitts MA",
+      "journal": "Journal of Neuroscience",
+      "year": 2020,
+      "pmid": "32409620",
+      "pmcid": "PMC7326348",
+      "fulltext_status": "open_fulltext_pmc",
+      "used_for": "P3b disappears in no-report condition; VAN persists; A/P consciousness dissociation evidence"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "title": "Multiple 2024-2025 preprints on consciousness theories",
+      "reason": "Not peer-reviewed; biorXiv preprints not yet in PMC"
+    },
+    {
+      "title": "Block 1995 On a confusion about a function of consciousness",
+      "reason": "Philosophy paper, no PubMed record; only used as conceptual framework reference"
+    }
+  ]
+}

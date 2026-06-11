@@ -6,16 +6,14 @@ type: theory
 status: contested
 confidence: medium
 created: 2026-05-31
-updated: 2026-06-27
-revision_count: 3
+updated: 2026-10-01
+revision_count: 7
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
 related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model, neural-correlates-of-consciousness, split-brain, recurrent-processing-theory]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
 opens_questions: [Q-iit-01, Q-iit-02, Q-iit-03, Q-iit-04, Q-iit-05, Q-cc-01]
-source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-unified-consciousness, 2026-09-29-phi-computation-pci-consciousness-measurement]
-key_sources: ["PMID:19098144", "PMID:27225071", "PMID:27094080", "PMID:23946194", "PMID:40307561", "PMID:36763595", "PMID:32135090", "PMID:32399946/PMC7305066", "PMID:40901488", "PMID:41801929"]
-updated: 2026-09-29
-revision_count: 6
+source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-unified-consciousness, 2026-09-29-phi-computation-pci-consciousness-measurement, 2026-10-01-week-synthesis-consciousness-theories-landscape]
+key_sources: ["PMID:19098144", "PMID:27225071", "PMID:27094080", "PMID:23946194", "PMID:40307561", "PMID:36763595", "PMID:32135090", "PMID:32399946/PMC7305066", "PMID:40901488", "PMID:41801929", "PMID:33923218"]
 ---
 
 # 整合信息理论 (Integrated Information Theory, IIT)
@@ -128,9 +126,11 @@ IIT 对裂脑有明确的（且不利的）预测：切断胼胝体后，两侧�
 - 2026-09-27 · 修订 · 基于《当胼胝体被切断》(#157) · 新增"裂脑综合征对 IIT 的挑战"节；补充 split-brain 到 related；新增 Q-cc-01；来源 PMID:32399946
 - 2026-09-28 · 修订 · 基于《前馈与递归：RPT》(#158) · 新增 recurrent-processing-theory 到 related；在连接节新增 RPT 对照（IIT vs RPT 机制差异：Φ vs 时间动态）
 - 2026-09-29 · 修订 · 基于《当意识被计算》(#159) · 新增 IIT 4.0 版本（ΦID 近似框架）；新增 Onoda 2025（宏观 Φ 在麻醉/NREM 下降，支持 IIT 意识水平预测）；新增 Danilczuk 2026（IF 网络 Φ：递归提升 Φ）；区分"意识水平预测（Onoda 支持）"vs"机制预测（COGITATE 否定）"；新增 Q-iit-06；更新证据表
+- 2026-10-01 · 修订 · 基于《第七期周综合：意识科学坐标系》(#161) · 补充 IIT 在意识理论四方对比中的位置；强调 IIT 与 RPT 的共同点（均预测意识在后方皮层，均强调 P-consciousness）；强调 IIT 对裂脑的特有预测（Pinto 2017 构成张力）；加入 Sattin 2021 综述（PMID:33923218）作为背景框架来源
 
 ## 来源文章
 
 - [[2026-05-31-integrated-information-theory]]
+- [[2026-10-01-week-synthesis-consciousness-theories-landscape]]
 - [[2026-09-27-split-brain-unified-consciousness]]
 - [[2026-09-29-phi-computation-pci-consciousness-measurement]]

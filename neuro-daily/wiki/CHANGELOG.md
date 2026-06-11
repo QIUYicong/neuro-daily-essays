@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-10-01（文章 #161：第七期周综合——振荡、胼胝体与高阶表征如何共同描绘意识神经科学的坐标系）
+
+### 新建 wiki 页面（0 页）
+
+- 无新建页面（综合文章涉及的概念均已有 wiki 页面）
+
+### 修订 wiki 页面（3 页）
+
+- `methods/adversarial-collaboration.md` rev1→rev2：补充 Sattin 2021 综述（PMID:33923218，29 种意识理论均能事后解释数据）作为对抗性协作必要性的独立证据；related 补充 recurrent-processing-theory、higher-order-theory、neural-correlates-of-consciousness；updated: 2026-10-01
+- `theories/global-workspace-theory.md` rev9→rev10：综合文章新增 A/P consciousness 分离讨论——VAN 报告无关持续存在是对 GWT 作为 P-consciousness 解释的挑战；GWT 最合适作为 A-consciousness（可报告性）而非 P-consciousness 的解释框架；updated: 2026-10-01
+- `theories/integrated-information-theory.md` rev6→rev7：综合文章补充 IIT 与 RPT 共同点（后方皮层、P-consciousness）；强调 Pinto 2017 对 IIT 裂脑预测的挑战；加入 Sattin 2021（PMID:33923218）作为背景框架来源；updated: 2026-10-01
+
+### 矛盾条目更新（0 条新增）
+
+- 无新矛盾登记。综合文章确认了已有矛盾条目（GWT vs VAN、IIT vs COGITATE）的当前状态，无新发现。
+
+### 图谱变化
+
+- 节点数：321（无新增节点，所有相关概念已在图谱中）
+- 更新 `_graph.json` updated 字段为 2026-10-01
+- 悬空引用（已知，待补）：aging, anterior-commissure, cognition, dopamine-system, superior-longitudinal-fasciculus
+
+---
+
 ## 2026-09-30（文章 #160：高阶意识理论与无报告范式——当神经科学开始质疑自己的测量尺子）
 
 ### 新建 wiki 页面（5 页）

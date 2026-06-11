@@ -6,14 +6,14 @@ type: method
 status: emerging
 confidence: high
 created: 2026-05-31
-updated: 2026-05-31
-revision_count: 1
-dimensions: [methods, cognition]
-related: [integrated-information-theory, global-workspace-theory, consciousness-ignition, posterior-cortical-hot-zone]
+updated: 2026-10-01
+revision_count: 2
+dimensions: [methods, cognition, theories]
+related: [integrated-information-theory, global-workspace-theory, consciousness-ignition, posterior-cortical-hot-zone, recurrent-processing-theory, higher-order-theory, neural-correlates-of-consciousness]
 prerequisites: [integrated-information-theory, global-workspace-theory]
 opens_questions: [Q-cogitate-01, Q-cogitate-02, Q-cogitate-03]
-source_articles: [2026-05-31-cogitate-adversarial-test-consciousness]
-key_sources: ["PMID:40307561", "PMID:36763595"]
+source_articles: [2026-05-31-cogitate-adversarial-test-consciousness, 2026-10-01-week-synthesis-consciousness-theories-landscape]
+key_sources: ["PMID:40307561", "PMID:36763595", "PMID:33923218"]
 ---
 
 # 对抗性协作 (Adversarial Collaboration)
@@ -82,7 +82,9 @@ key_sources: ["PMID:40307561", "PMID:36763595"]
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 初始置信度：高（方法论本身可靠，COGITATE 已成功实施）
+- 2026-10-01 · 修订 · 基于《第七期周综合：意识科学坐标系》(#161) · 补充：Sattin 2021 系统综述作为独立证据（29 种意识理论均能事后解释数据，印证对抗性协作的必要性）；将 RPT、HOT 补入 related；说明 COGITATE 是 Lakatos"进步的研究纲领"的体现（使理论从失败中学习而非崩溃）
 
 ## 来源文章
 
 - [[2026-05-31-cogitate-adversarial-test-consciousness]]
+- [[2026-10-01-week-synthesis-consciousness-theories-landscape]]

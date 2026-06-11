@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11817,9 +11817,47 @@
         "HOT comprehensive review",
         "HOT vs other theories"
       ]
+    },
+    {
+      "id": "PMID:40307561",
+      "pmcid": "PMC12137136",
+      "doi": "10.1038/s41586-025-08888-1",
+      "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": "Melloni L et al. (Cogitate Consortium)",
+      "journal": "Nature",
+      "year": 2025,
+      "first_used": "2026-05-31",
+      "also_used": [
+        "2026-09-29",
+        "2026-10-01"
+      ],
+      "covered_aspects": [
+        "COGITATE adversarial collaboration",
+        "GWT offset ignition absent",
+        "IIT posterior gamma sync absent",
+        "PFC content decoding",
+        "fMRI MEG iEEG multimodal"
+      ]
+    },
+    {
+      "id": "PMID:33923218",
+      "pmcid": "PMC8146510",
+      "doi": "10.3390/brainsci11050535",
+      "title": "Theoretical Models of Consciousness: A Scoping Review",
+      "authors": "Sattin D et al.",
+      "journal": "Brain Sciences",
+      "year": 2021,
+      "first_used": "2026-10-01",
+      "covered_aspects": [
+        "29 consciousness theories",
+        "six dimensions analysis",
+        "GWT IIT quantum theories",
+        "clinical translation gaps",
+        "quantification gaps"
+      ]
     }
   ],
-  "total_sources": 709,
+  "total_sources": 711,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

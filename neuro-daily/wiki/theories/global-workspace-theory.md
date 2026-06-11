@@ -12,10 +12,10 @@ dimensions: [whole-brain-network, cognition, brain-region, behavior]
 related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink, neural-correlates-of-consciousness, split-brain, recurrent-processing-theory, higher-order-theory, no-report-paradigm, visual-awareness-negativity, access-consciousness]
 prerequisites: [prefrontal-cortex, working-memory, action-potential, synaptic-transmission]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-gwt-04, Q-gwt-05, Q-cc-01]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-unified-consciousness]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-unified-consciousness, 2026-10-01-week-synthesis-consciousness-theories-landscape]
 key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443", "PMC:PMC12510449", "PMID:32399946/PMC7305066", "PMID:32409620"]
-updated: 2026-09-30
-revision_count: 9
+updated: 2026-10-01
+revision_count: 10
 ---
 
 # 全局工作空间理论 (Global Workspace Theory, GWT)
@@ -145,6 +145,7 @@ COGITATE 2025 确认了 GWT 的一个**非平凡预测**：有意识刺激即使
 - 2026-09-27 · 修订 · 基于《当胼胝体被切断》(#157) · 新增 split-brain 到 related；补充 GWT 的裂脑预测（两侧前额叶分别形成独立工作空间 → 预测两个意识）和对 Pinto 统一意识框架的张力；新增 Q-cc-01 到 opens_questions；新增裂脑来源 PMID:32399946
 - 2026-09-28 · 修订 · 基于《前馈与递归：RPT》(#158) · 新增 recurrent-processing-theory 到 related；在连接节新增 RPT 对照说明（注意/报告是否必要的核心分歧）
 - 2026-09-30 · 修订 · 基于《高阶意识理论与无报告范式》(#160) · 新增 Cohen et al. 2020（PMID:32409620）的精确 P3b 统计数据（6.55→0.462 µV，F=151.13，p<0.001，记忆识别 86.3%）——这是对 GWT 核心证据（P3b）最直接的挑战：P3b 在有意识但无报告条件下完全消失，说明 P3b 是报告/决策的 NCC 而非意识本身的 NCC；GWT 需要回应这一挑战（通常的回应是：P3b 是 A-consciousness 的标志，而 GWT 本来就描述 A-consciousness/全局可通达性，因此 P3b 消失是因为 A-consciousness 在无报告条件下也降低了）
+- 2026-10-01 · 修订 · 基于《第七期周综合：意识科学坐标系》(#161) · 综合意识理论系列十篇文章；新增 A-consciousness（广播/GWT）与 P-consciousness（感知体验/VAN）的分离讨论：VAN 报告无关持续存在是对 GWT 作为 P-consciousness 解释的挑战；GWT 最合适作为 A-consciousness（可报告性）的解释框架，而非 P-consciousness 的解释框架；新增未解问题 Q-gwt-06（下一轮对抗性协作应设计阈限刺激范式）
 
 ### GWT 作为世界模型的意识广播层
 
@@ -155,3 +156,4 @@ COGITATE 2025 确认了 GWT 的一个**非平凡预测**：有意识刺激即使
 ## 来源文章
 
 - [[2026-05-30-global-workspace-theory]]
+- [[2026-10-01-week-synthesis-consciousness-theories-landscape]]

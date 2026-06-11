@@ -1,0 +1,137 @@
+# 运行日志：2026-10-01
+## 文章 #161：第七期周综合（意识科学专辑）
+
+---
+
+### 基本信息
+
+- **运行时间**：2026-06-11 UTC+8（real_date）
+- **虚拟日期**：2026-10-01
+- **文章编号**：#161
+- **文章类型**：weekly_synthesis
+- **综合范围**：#151–#160
+- **分支**：main
+- **状态**：完成
+
+---
+
+### 流程执行记录
+
+1. 切换到 main 分支，拉取最新：`git checkout main && git pull origin main`（成功，fast-forward）
+2. 确认 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 存在
+3. 读取状态文件（topic_ledger.json, unresolved_questions.md, contested_claims.json, _graph.json, wiki/index.md）
+4. 判断当前状态：文章 #160 已完成，下一篇应为 #161（显示日期 2026-10-01）
+5. 选题：距上次周综合（#150）已过 10 篇，超出 7 篇门限，执行周综合
+6. 综合范围：#151–#160（δ 振荡 / 语言振荡 / 注意网络 / 空间忽视 / 半球竞争 / 胼胝体 / 裂脑 / RPT / IIT-Φ-PCI / HOT-无报告范式）
+
+---
+
+### 搜索记录
+
+**搜索词**：
+1. "consciousness theories comparison GWT IIT RPT HOT review PubMed 2023 2024 open access"
+2. "COGITATE adversarial collaboration consciousness GWT IIT 2023 Science Nature Neuroscience PMID"
+3. 直接获取：PMC 40307561（COGITATE 2025 Nature 原文）
+4. 直接获取：PMC 8146510（Sattin 2021 综述）
+
+**候选来源数量**：约 15 篇
+**新增采用来源**：2 篇（PMID:40307561 详细全文获取，PMID:33923218）
+**复用已采用来源**：6 篇（Pitts 2014, Cohen 2020, Pinto 2017, Tononi 2016, Lamme 2006, Dehaene 2017）
+
+---
+
+### 采用来源（8 个）
+
+| 来源 | PMID/PMCID | 采用原因 | 全文状态 |
+|------|-----------|---------|---------|
+| Melloni et al. 2025 (COGITATE) | PMID:40307561 / PMC12137136 | COGITATE 对抗性协作 GWT+IIT 双重挑战核心论文；Nature | 开放全文读取（PMC） |
+| Sattin et al. 2021 | PMID:33923218 / PMC8146510 | 29 种意识理论系统综述；对抗性协作必要性的背景证据 | 开放全文读取（PMC） |
+| Pitts et al. 2014 | PMID:25339922 / PMC4189413 | VAN 作为无报告意识 NCC 的奠基实验 | 开放全文（已在 #160 读取） |
+| Cohen et al. 2020 | PMID:32409620 / PMC7326348 | P3b 在无报告条件消失的定量证据 | 开放全文（已在 #160 读取） |
+| Pinto et al. 2017 | PMID:28334999 | 裂脑统一意识的关键证据 | 摘要（已在 #157 使用） |
+| Tononi et al. 2016 | PMID:27225071 | IIT 3.0 核心框架 | 摘要（已在 #159 使用） |
+| Lamme 2006 | PMID:16996305 | RPT 核心论文 | 摘要（已在 #158 使用） |
+| Dehaene et al. 2017 | DOI:10.1126/science.aan8871 | A/P consciousness 区分；GWT 视角 | 摘要 |
+
+**开放全文数**：4 篇（满足 ≥2 要求）
+**摘要仅**：4 篇（均明确标注）
+**官方机构来源**：Nature（Springer Nature）、Brain Sciences（MDPI）、PNAS（美国科学院期刊引用）
+
+---
+
+### 排除来源
+
+- 多篇 2024-2025 意识理论预印本（biorXiv）：未经同行评审
+- Kahneman 1995 原始对抗性协作方法论论文：非神经科学来源，仅概念引用
+
+---
+
+### 固结的 wiki 页面
+
+**新建**（0 页）：
+- 无新建页面（所有相关概念已有 wiki 页面）
+
+**修订**（3 页）：
+1. `methods/adversarial-collaboration.md`（rev1→rev2）：
+   - 补充 Sattin 2021（PMID:33923218）作为独立证据（29种理论均可事后解释数据）
+   - related 增加 recurrent-processing-theory、higher-order-theory、neural-correlates-of-consciousness
+   - 修订历史追加一行
+2. `theories/global-workspace-theory.md`（rev9→rev10）：
+   - 补充 A/P consciousness 分离讨论（VAN 对 GWT 作为 P-consciousness 解释的挑战）
+   - source_articles 增加本文
+   - 修订历史追加一行
+3. `theories/integrated-information-theory.md`（rev6→rev7）：
+   - 补充 IIT 与 RPT 共同点（后方皮层、P-consciousness）
+   - 补充 Sattin 2021（PMID:33923218）作为来源
+   - source_articles 增加本文
+   - 修订历史追加一行
+   - 修复 frontmatter 重复字段
+
+---
+
+### 登记的矛盾
+
+**无新矛盾登记**。
+综合文章确认了已有矛盾条目（GWT vs VAN（C-open）、IIT vs COGITATE（C-open））的当前状态，无新矛盾发现。
+
+---
+
+### 悬空引用
+
+已知待补悬空引用（维持）：
+- `aging`（被 hippocampal-circuit 等引用）
+- `anterior-commissure`（被 corpus-callosum 引用）
+- `cognition`（通用概念节点）
+- `dopamine-system`（被多个页面引用）
+- `superior-longitudinal-fasciculus`（被语言网络页面引用）
+
+---
+
+### 失败与限制
+
+- Dehaene et al. 2017 Science 无开放全文，只读摘要 → 明确标注
+- Lamme 2006 Trends Cogn Sci 无开放全文，只读摘要 → 明确标注
+- Pinto 2017 Brain 无开放全文，只读摘要 → 明确标注
+- 综合文章性质：不要求完整新检索，主要来自已有文章的综合；新鲜文献检索聚焦于 COGITATE 2025 全文数据验证和 Sattin 2021 框架验证
+
+---
+
+### Git 信息
+
+- **分支**：main
+- **commit**：（待填充）
+- **push 状态**：（待填充）
+
+---
+
+### 自检结果
+
+- [x] wiki 每条新主张有来源（PMID/DOI）？ ✓
+- [x] 区分了事实/主流模型/推测/争议？ ✓（明确区分"相对稳固共识" vs "仍无共识"）
+- [x] 没有把单篇/小样本/动物研究写成定论？ ✓（COGITATE N=256，但注明全程阈上刺激的局限）
+- [x] 新内容是否与既有 wiki 页冲突？ 否（综合文章强化和澄清了已有 contested_claims，未引入新矛盾）
+- [x] 被修订页的 updated/revision_count/修订历史同步更新？ ✓
+- [x] _graph.json 无悬空边（未记录的）？ ✓（已知悬空引用继续记录为待补）
+- [x] index.md 与 CHANGELOG.md 反映了今天的变化？ ✓
+- [x] 新页的 related/prerequisites 至少各填了一个？ N/A（无新页）
+- [x] 文章/笔记/来源/日志齐全且 append-only？ ✓

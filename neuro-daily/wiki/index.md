@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-30（**#160**·高阶意识理论（HOT）与无报告范式——P3b 在无报告条件消失（F=151.13），VAN 持续，Siclari 2017 睡眠87%后方热区预测，Duman 2022 批评；新建5页：higher-order-theory, no-report-paradigm, visual-awareness-negativity, access-consciousness, phenomenal-consciousness；修订3页：RPT rev2, PCHZ rev3, GWT rev9；图谱 321 节点，1852 边）· 主题页总数：**300**（新建5页）
+> 最后更新：2026-10-01（**#161** 周综合·意识科学坐标系——综合 #151–#160 十篇文章（δ振荡/语言/注意/胼胝体/裂脑/RPT/IIT/GWT/HOT）；新建0页；修订3页：adversarial-collaboration rev2, GWT rev10, IIT rev7；图谱 321 节点，1852 边；悬空引用5个待补）· 主题页总数：**300**（无新增）
 
 ---
 

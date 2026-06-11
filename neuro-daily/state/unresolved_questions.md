@@ -1,6 +1,48 @@
 # 未解问题追踪
 
-*最后更新：2026-09-30*
+*最后更新：2026-10-01*
+
+---
+
+## 2026-10-01 新增（来自"第七期周综合：意识科学坐标系" #161）
+
+### Q-unified-01（高优先级）：裂脑患者统一意识的冗余整合通路是什么？
+
+- **关联 wiki**：[[split-brain]]、[[corpus-callosum]]、[[integrated-information-theory]]、[[global-workspace-theory]]
+- **来源文章**：2026-10-01-week-synthesis-consciousness-theories-landscape
+- **问题**：Pinto 2017（PMID:28334999）提供行为证据表明裂脑患者在某些任务中保持统一意识（跨视野整合）。这与 IIT 的预测（胼胝体切断→Φ 下降→两个独立意识体）直接冲突，也与 GWT 的预测（两个独立工作空间→两个意识流）不一致。
+  - 问题 A：皮层下结构（上丘、丘脑枕核、前连合、SCPS/前丘脑）是否提供了绕过胼胝体的整合通路？具体哪条通路足以维持"统一意识"所需的整合？
+  - 问题 B：Pinto 实验（视野双侧同时呈现不同刺激，被试能整合两侧颜色-形状对）能否用 fMRI 或 MEG 验证跨半球的神经激活同步？
+  - 问题 C：对于 IIT 来说，如果皮层下通路维持了足够的 Φ，这意味着什么？胼胝体切断是否真的大幅降低全脑 Φ，还是只改变了 Φ 的分布？
+- **当前证据状态**：行为证据（Pinto 2017）暗示统一意识保留；理论预测均预测分裂；神经机制尚未验证
+
+### Q-ncc-01（高优先级）：VAN 能否在意识障碍患者中稳定检测？
+
+- **关联 wiki**：[[visual-awareness-negativity]]、[[neural-correlates-of-consciousness]]、[[perturbational-complexity-index]]
+- **来源文章**：2026-10-01-week-synthesis-consciousness-theories-landscape
+- **问题**：VAN（Visual Awareness Negativity，~100-300ms，后枕区）是目前最佳的"报告无关意识 NCC"候选（Pitts 2014，Cohen 2020）。如果它能在 MCS（最小意识状态）患者中被可靠检测，将成为首个不依赖报告的临床意识标志，与 PCI 形成互补。
+  - 问题 A：MCS 患者的 EEG 信号质量是否支持 VAN 的可靠测量？高密度 EEG（>64 通道）是否足以在床边测量 VAN？
+  - 问题 B：VS（植物状态）患者是否会完全缺失 VAN？如果 VS 患者出现 VAN，这是否意味着意识存在但无行为输出？
+  - 问题 C：VAN 与 PCI 的临床诊断互补关系：PCI 是"自发放电复杂度"的测量，VAN 是"刺激诱发后期分化"的测量——两者结合能否提高诊断准确率？
+- **当前证据状态**：正常被试中 VAN 的报告独立性已建立；障碍患者中未经验证；PCI 在 MCS/VS 区分中有约 90% 准确率（Casarotto 2016）
+
+### Q-cogitate-01（高优先级）：下一轮意识对抗性协作应该用双阈限刺激范式吗？
+
+- **关联 wiki**：[[adversarial-collaboration]]、[[global-workspace-theory]]、[[integrated-information-theory]]
+- **来源文章**：2026-10-01-week-synthesis-consciousness-theories-landscape
+- **问题**：COGITATE 2025 的主要方法论局限是全程使用阈上刺激（suprathreshold），无法检验 GWT 最核心的预测（意识/无意识的"全有或全无"分叉，需要在阈限附近设计）。
+  - 问题 A：若使用双阈限设计（同一刺激在稍弱于/稍强于阈限的两种条件下呈现），GWT 预测：强→点燃（P3b，前额叶激活，长程同步）；弱→无点燃（仅局部早期响应）。IIT 预测：强→后方皮层整合（Φ 高）；弱→后方皮层整合减弱（Φ 低）。这两个预测能否在同一实验中被同时检验？
+  - 问题 B：是否应该邀请 RPT（Lamme）和 HOT（Lau/Rosenthal）也参与第二轮对抗性协作？
+- **当前证据状态**：COGITATE 2025 已完成，双阈限范式的对抗性协作尚未设计
+
+### Q-phi-01（中优先级）：宏观 Φ（fMRI）和微观 Φ（神经元/iEEG）的关系是什么？
+
+- **关联 wiki**：[[phi-measure]]、[[integrated-information-theory]]、[[perturbational-complexity-index]]
+- **来源文章**：2026-10-01-week-synthesis-consciousness-theories-landscape
+- **问题**：Onoda 2025 用 fMRI 网络层面测量宏观 Φ（近似值），发现它随意识水平（麻醉/NREM）下降，支持 IIT 的意识水平预测。但 COGITATE 2025 用 iEEG 测量微观 gamma 同步（IIT 的机制预测），发现它不随意识存在/不存在变化。两个结果是否矛盾？
+  - 问题 A：IIT 的宏观框架（Φ 在网络层面）和微观机制预测（gamma 同步）是否是同一理论的不同层次，还是可以各自独立成立/失败？
+  - 问题 B：Φ 的 NP-hard 计算困境意味着所有实证测量都是近似值——这是否根本限制了 IIT 的可证伪性？
+- **当前证据状态**：宏观 Φ（Onoda 2025）支持意识水平预测；微观 gamma 同步（COGITATE 2025）否定机制预测；两者关系未明
 
 ---
 
