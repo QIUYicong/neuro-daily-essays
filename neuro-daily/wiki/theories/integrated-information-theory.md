@@ -6,13 +6,13 @@ type: theory
 status: contested
 confidence: medium
 created: 2026-05-31
-updated: 2026-06-27
-revision_count: 3
+updated: 2026-09-27
+revision_count: 4
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model, neural-correlates-of-consciousness]
+related: [global-workspace-theory, consciousness-ignition, predictive-coding, phi-measure, posterior-cortical-hot-zone, perturbational-complexity-index, default-mode-network, world-model, neural-correlates-of-consciousness, split-brain]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
 opens_questions: [Q-iit-01, Q-iit-02, Q-iit-03, Q-iit-04, Q-iit-05]
-source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-06-27-ncc-consciousness-where]
+source_articles: [2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-consciousness-debate]
 key_sources: ["PMID:19098144", "PMID:27225071", "PMID:27094080", "PMID:23946194", "PMID:40307561", "PMID:36763595", "PMID:32135090"]
 ---
 
@@ -82,6 +82,7 @@ IIT 主张，正是这些连接特征使后方皮层具有高 Φ，成为意识�
 | PCI 预测行为无响应患者的内在意识水平 | 意识障碍患者纵向 TMS-EEG | PMID:23946194；Casarotto 2016 | 中（样本量适中） |
 | 后方皮层内部持续同步（IIT 核心机制） | fMRI + MEG + iEEG（COGITATE） | PMID:40307561（全文） | **低**（COGITATE 否定此预测） |
 | 意识内容在后方皮层可解码 | COGITATE fMRI 解码 | PMID:40307561（全文） | 中（部分支持） |
+| 裂脑产生两个独立意识（IIT 预测：两个 Φ 局部最大值） | 行为实验（感知分裂）；尚无 Φ 直接测量 | PMC7305066（间接，全文）；PMID:28958646（摘要） | 低（预测有推导逻辑，但无实验验证；Pinto 2017 框架提出反驳） |
 
 ## 连接
 
@@ -94,6 +95,7 @@ IIT 主张，正是这些连接特征使后方皮层具有高 Φ，成为意识�
 - [[predictive-coding]] — 预测编码是独立理论，与 IIT 有部分重叠（精度加权 ~ 因果力）但框架不同
 - [[default-mode-network]] — DMN 在 IIT 中未有明确角色；静息态 DMN 激活与高整合状态的关系待厘清
 - [[world-model]] — 世界模型框架：IIT 对意识的处理是把世界模型的"存在性"内在化
+- [[split-brain]] — 裂脑是 IIT 最清晰的预测测试场：胼胝体切断后 Φ 在半球内部最大化，IIT 预测意识分裂；Pinto 2017 行动统一证据对此提出挑战
 
 ## 未解问题
 
@@ -108,6 +110,7 @@ IIT 主张，正是这些连接特征使后方皮层具有高 Φ，成为意识�
 - 2026-05-31 · 创建 · 基于《意识等于整合信息》(#29) · 初始置信度：中（IIT 是 mainstream 理论，但 COGITATE 2025 核心机制预测受挑战 → 降为 contested）
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 全文精确数字（3.8% 电极持续激活，BF₀₁=1.15–4.9，<0.75s 同步）；新增 adversarial-collaboration 相关页面；新增 COGITATE 精确数字段落；补充 key_source PMID:32135090
 - 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增 NCC 三分法框架定位（IIT 主要描述内容特异 NCC——后方皮层 Φ 框架）；新增可证伪性问题讨论（gamma 同步只是 Φ 的代理，IIT 框架"辅助假说带"保护核心）；新增 neural-correlates-of-consciousness 到 related；更新 source_articles
+- 2026-09-27 · 修订 · 基于《当胼胝体被切断》(#157) · 新增裂脑作为 IIT 预测的关键测试案例（Φ 在半球内部局部最大化 → IIT 预测意识分裂）；新增 split-brain 到 related；证据置信度：低（预测合理但无 Φ 直接测量；Pinto 2017 行动统一证据提出竞争性解释）
 
 ## 来源文章
 

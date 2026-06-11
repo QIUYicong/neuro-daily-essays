@@ -11488,6 +11488,118 @@
         "TMS_iSP",
         "motor_control"
       ]
+    },
+    {
+      "id": "PMC7305066",
+      "pmid": "32399946",
+      "title": "Split-Brain: What We Know Now and Why This is Important for Understanding Consciousness",
+      "journal": "Neuropsychol Rev",
+      "year": 2020,
+      "first_used": "2026-09-26",
+      "used_in": [
+        "2026-09-26-corpus-callosum-anatomy-splitbrain",
+        "2026-09-27-split-brain-consciousness-debate"
+      ],
+      "topics_covered": [
+        "split-brain",
+        "corpus-callosum",
+        "consciousness",
+        "IIT",
+        "GWT",
+        "subcortical-integration",
+        "alien-hand-syndrome"
+      ],
+      "full_text": true
+    },
+    {
+      "id": "PMID-28958646",
+      "pmid": "28958646",
+      "title": "The Split-Brain Phenomenon Revisited: A Single Conscious Agent with Split Perception",
+      "journal": "Trends Cogn Sci",
+      "year": 2017,
+      "first_used": "2026-09-27",
+      "used_in": [
+        "2026-09-27-split-brain-consciousness-debate"
+      ],
+      "topics_covered": [
+        "split-brain",
+        "unified-consciousness",
+        "Pinto-framework",
+        "phenomenal-access-consciousness"
+      ],
+      "full_text": false,
+      "notes": "abstract only"
+    },
+    {
+      "id": "PMID-31923846",
+      "pmid": "31923846",
+      "title": "Unified Tactile Detection and Localisation in Split-Brain Patients",
+      "journal": "Cortex",
+      "year": 2020,
+      "first_used": "2026-09-27",
+      "used_in": [
+        "2026-09-27-split-brain-consciousness-debate"
+      ],
+      "topics_covered": [
+        "split-brain",
+        "tactile-detection",
+        "action-unity"
+      ],
+      "full_text": false,
+      "notes": "abstract only"
+    },
+    {
+      "id": "PMC10963944",
+      "pmid": "38544960",
+      "title": "Alien hand syndrome: Pathophysiology, semiology and differential diagnosis with psychiatric disorders",
+      "journal": "Biomed Reports",
+      "year": 2024,
+      "first_used": "2026-09-27",
+      "used_in": [
+        "2026-09-27-split-brain-consciousness-debate"
+      ],
+      "topics_covered": [
+        "alien-hand-syndrome",
+        "SMA",
+        "callosal-disconnection",
+        "motor-volition"
+      ],
+      "full_text": true
+    },
+    {
+      "id": "PMC5038474",
+      "pmid": "27698701",
+      "title": "Alien hand syndrome following corpus callosum infarction: A case report",
+      "journal": "Exp Ther Med",
+      "year": 2016,
+      "first_used": "2026-09-27",
+      "used_in": [
+        "2026-09-27-split-brain-consciousness-debate"
+      ],
+      "topics_covered": [
+        "alien-hand-syndrome",
+        "corpus-callosum-infarction",
+        "intermanual-conflict"
+      ],
+      "full_text": true
+    },
+    {
+      "id": "Sperry-Nobel-1981",
+      "url": "https://www.nobelprize.org/prizes/medicine/1981/sperry/lecture/",
+      "title": "Some Effects of Disconnecting the Cerebral Hemispheres (Nobel Lecture)",
+      "authors": "Sperry RW",
+      "year": 1981,
+      "first_used": "2026-09-27",
+      "used_in": [
+        "2026-09-27-split-brain-consciousness-debate"
+      ],
+      "topics_covered": [
+        "split-brain",
+        "two-conscious-agents",
+        "hemisphere-specialization"
+      ],
+      "full_text": true,
+      "institution": "Nobel Foundation"
     }
   ],
   "total_sources": 691,
@@ -13722,5 +13834,6 @@
       "29283465",
       "21093350"
     ]
-  }
+  },
+  "total": 697
 }

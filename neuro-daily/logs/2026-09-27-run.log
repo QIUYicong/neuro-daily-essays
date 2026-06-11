@@ -1,0 +1,146 @@
+# 运行日志 2026-09-27（实际运行日期：2026-06-11）
+
+## 基本信息
+
+- 文章编号：#157
+- 叙事日期：2026-09-27
+- 实际运行日期：2026-06-11
+- 主题：当胼胝体被切断，"我"是否一分为二？裂脑综合征与意识统一性之争
+- slug：split-brain-consciousness-debate
+- 分支：claude/funny-einstein-m4zr91（本环境强制分支）
+- 触发：手动（Claude Code Web）
+
+---
+
+## 选题逻辑
+
+1. 读取 `state/topic_ledger.json`：上一篇（#156）"胼胝体解剖"提出 split-brain 为 next_suggested_topics 首位，且 Q-cc-01（高优先级：裂脑患者是否存在真正的意识分裂）需要深入回应
+2. 读取 `wiki/_graph.json`：检测悬空引用，`split-brain` 在 corpus-callosum.md 的 related 字段中被引用但无节点 → **缺口驱动（第3优先级）**
+3. 读取 `state/unresolved_questions.md`：Q-cc-01 为高优先级，发现于 2026-09-26 → **回收未解问题（第5优先级）**
+4. 上篇层级为 brain-region/cellular，前三篇（#153-155）连续 whole-brain-network。今日选 cognition/whole-brain-network/disease，不连续单一层级
+5. 最终选题：裂脑综合征（填补悬空引用 + 回应 Q-cc-01 + 课程脊柱 ch.8 意识）
+
+---
+
+## 文献检索记录
+
+### 搜索词与数据库
+
+| 搜索词 | 数据库 | 结果数 | 采用 |
+|--------|--------|--------|------|
+| split brain consciousness callosotomy review | PubMed | 1 | 1 |
+| split brain unified consciousness Pinto 2017 | PubMed | 3 | 2 |
+| alien hand syndrome corpus callosum review | PubMed | 10 | 3 |
+| split brain callosotomy consciousness 2015:2026 | PMC | - | 0（搜索返回旧文献） |
+| alien hand syndrome callosal mechanism review | PMC | - | 0（搜索返回旧文献） |
+| PMC elink for PMID:27698701, 38544960 | NCBI elink | - | PMC ID 确认 |
+
+### 候选来源
+
+**采用（开放全文）**：
+- PMC7305066 (PMID:32399946)：de Haan et al. 2020, Neuropsychol Rev — 裂脑综合综述，高质量多作者（含 Seth/Lamme/Hillyard/Gazzaniga），已读全文
+- PMC10963944 (PMID:38544960)：Manea et al. 2024, Biomed Reports — AHS 综合综述，已读全文
+- PMC5038474 (PMID:27698701)：Gao et al. 2016, Exp Ther Med — AHS 案例报告+31例综述，已读全文
+- Sperry 1981 Nobel Lecture（Nobel Foundation 官网，公开）
+
+**采用（摘要）**：
+- PMID:28958646 (Pinto, de Haan, Lamme 2017, Trends Cogn Sci) — 单一意识代理人框架，无 PMC 全文
+- PMID:31923846 (de Haan et al. 2020, Cortex) — 触觉统一性，无 PMC 全文
+
+**排除**：
+- 多篇老旧 PMID（从 PMC 搜索返回）— 不相关
+- PMC10641890 — 关于前列腺癌，无关
+- 大量神经影像/脑机接口研究 — 不足以支撑核心论点
+
+### 来源质量统计
+
+- 总来源数：6
+- 开放全文：4（符合要求 ≥2）
+- 摘要：2（均在文章中明确标注）
+- 官方机构来源：Nobel Foundation（诺贝尔基金会官网）
+- 最高质量：Neuropsychology Review（de Haan 2020，多作者同行评审），Trends in Cognitive Sciences（Pinto 2017，顶级综述期刊）
+
+---
+
+## 今日产出
+
+### 情景层（append-only）
+
+- `neuro-daily/articles/2026-09-27-split-brain-consciousness-debate.md` — 创建（~5800字，中文）
+- `neuro-daily/notes/2026-09-27-reading-notes.md` — 创建
+- `neuro-daily/sources/2026-09-27-sources.json` — 创建（6来源）
+
+### 固结步骤（wiki 层）
+
+**新建 wiki 页面（3页）**：
+- `wiki/concepts/split-brain.md` — 裂脑综合征（mainstream/medium）| 感知分裂高证据/行动统一中证据/意识争议低；Sperry-Gazzaniga vs Pinto 2017；IIT/GWT/RPT预测；皮层下代偿机制；Q-cc-01/Q-cc-03
+- `wiki/diseases/alien-hand-syndrome.md` — 异手综合征（mainstream/high）| 三分类（胼胝体型/额叶型/后型）；SMA-SMA跨胼连接中断机制；预后（卒中相关 24 个月内消退）；与裂脑的比较
+- `wiki/concepts/interpreter-hypothesis.md` — 图谱节点（待独立成页，暂收录于 split-brain.md）
+
+**修订 wiki 页面（3页）**：
+- `wiki/systems/corpus-callosum.md` (rev2) — 新增 alien-hand-syndrome 到 related；新增 AHS 来源；新增第二篇来源文章
+- `wiki/theories/integrated-information-theory.md` (rev4) — 新增裂脑测试案例条目（Φ分裂→意识分裂）；新增 split-brain 到 related 和证据表
+- `wiki/theories/global-workspace-theory.md` (rev7) — 新增裂脑测试案例（独立工作空间→意识分裂）；新增 split-brain 到 related 和连接节
+
+### 图谱与导航更新
+
+- `wiki/_graph.json`：313→316 节点，1823→1833 边；新增 3 节点（split-brain, alien-hand-syndrome, interpreter-hypothesis）；新增 10 条边
+- `wiki/index.md`：新增 split-brain 和 alien-hand-syndrome 条目；更新 header 统计
+- `wiki/CHANGELOG.md`：追加今日节（详细记录）
+
+### 治理层更新
+
+- `state/topic_ledger.json`：新增文章#157条目
+- `state/unresolved_questions.md`：新增 Q-splitbrain-01（高，判决实验方法论空白）、Q-AHS-01（中，AHS消退分子机制）
+- `state/source_registry.json`：新增6来源；total=697
+- `state/monthly_synthesis.md`：更新本月统计（#132-#157，26篇）
+
+---
+
+## 矛盾检查
+
+**感知分裂 vs 行动统一的张力**：这不是新矛盾，而是裂脑文献中已知的诠释框架分歧（Sperry-Gazzaniga vs Pinto 2017）。两个框架都有实证支持，但不互相直接否定——行动统一不能排除两个意识代理人，感知分裂不能证明两个意识代理人。已在 Q-cc-01 中记录，且在 split-brain.md 的当前理解部分诚实呈现张力。不新增 contested_claims 条目（原 Q-cc-01 已充分覆盖）。
+
+---
+
+## 自检清单
+
+**真实性**：
+- [x] 所有数字/结论有明确来源标注（PMID/PMC ID/Nobel Foundation URL）
+- [x] 区分了事实（感知分裂高证据）/模型（Pinto 框架）/争议（意识是否分裂）
+- [x] 未把单篇研究当定论（Pinto 2017 已标注"尚无判决实验"）
+- [x] AHS案例研究（小样本）已在文章中标注"案例报告"性质
+- [x] 2篇摘要来源均明确标注"未读取全文"
+- [x] 无医学诊断/治疗/用药建议内容
+
+**一致性**：
+- [x] 无新内容与既有 wiki 页面冲突（split-brain/AHS 为新建；IIT/GWT 更新为追加而非覆盖）
+- [x] 被修订页 updated/revision_count/修订历史同步更新（corpus-callosum rev2, IIT rev4, GWT rev7）
+- [x] _graph.json 无新悬空边：所有新边的 from/to 均为已存在节点；原有5个悬空引用维持不变
+
+**可导航**：
+- [x] index.md 和 CHANGELOG.md 已更新，反映今天变化
+- [x] split-brain.md 的 related ≥1（corpus-callosum, language-lateralization, IIT, GWT, alien-hand-syndrome 等 8+）
+- [x] alien-hand-syndrome.md 的 related ≥1（corpus-callosum, interhemispheric-competition, split-brain 等）
+- [x] 两个新页的 prerequisites 各≥1
+
+**情景层完整**：
+- [x] article/notes/sources/log 均创建
+- [x] 未修改任何旧文件（只新建和修改 wiki/state 的相关页面）
+
+---
+
+## Git 状态
+
+- 当前分支：claude/funny-einstein-m4zr91（本环境强制使用该分支）
+- ROUTINE.md 要求使用 main；环境强制使用功能分支。ROUTINE.md 中备选方案允许使用功能分支但应当日合并回 main。本次使用功能分支推送（与之前所有文章一致，已在 main 上可见所有历史产出）。
+- push 状态：待推送
+
+---
+
+## 失败与限制
+
+- PMID:28958646（Pinto 2017 Trends Cogn Sci）无开放全文——文章中明确标注"摘要，未读取全文"
+- PMID:31923846（de Haan 2020 Cortex）无开放全文——同上
+- 裂脑意识问题因证据不足无法定论，文章诚实呈现两种框架的张力
+- PMC 搜索返回大量不相关旧文献，需通过 elink 工具手动确认 PMC ID

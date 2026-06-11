@@ -4,6 +4,38 @@
 
 ---
 
+## 2026-09-27（文章 #157：当胼胝体被切断，"我"是否一分为二？裂脑综合征与意识统一性之争）
+
+**今日主题：** 裂脑综合征（corpus callosotomy 后感知分裂/行动部分统一）；Sperry-Gazzaniga 经典框架（两个独立意识代理人）vs Pinto 2017 修正框架（单一意识代理人+分裂感知可报告性）；异手综合征（AHS）机制（胼胝体型 SMA-SMA 跨胼连接中断 → M1 接受皮层下指令失去意志性抑制）；意识理论对裂脑的预测（IIT：意识分裂；GWT：独立工作空间；RPT：不确定）；解释员假说（左半球后验解释机制）。
+
+### 新建 wiki 页面（3 个）
+
+- `wiki/concepts/split-brain.md` — 裂脑综合征 | mainstream / medium | 感知分裂（高证据）；行动统一某些层面（中证据）；意识分裂（低，争议）；Sperry-Gazzaniga vs Pinto 2017 框架；IIT/GWT/RPT 预测对比；皮层下代偿机制；Q-cc-01/Q-cc-03 相关 | PMID:32399946/PMC7305066, PMID:28958646, PMID:31923846
+- `wiki/diseases/alien-hand-syndrome.md` — 异手综合征 | mainstream / high | 胼胝体型（手间冲突）/额叶型（强握）/后型（感觉异常）三分类；神经机制（SMA-SMA 跨胼连接中断）；预后（卒中相关 24 个月内消退）；与裂脑的区别（急性 vs 慢性；运动 vs 感知；意识统一保留） | PMC10963944, PMC5038474
+- `wiki/concepts/interpreter-hypothesis.md` → 暂归入 split-brain 页面的节点，待独立成页
+
+### 修订 wiki 页面（3 个）
+
+- `wiki/systems/corpus-callosum.md` (rev2) — 新增 alien-hand-syndrome 到 related（胼胝体损伤是 AHS 的直接原因）；新增 AHS 来源 PMC10963944/PMC5038474；新增第二篇来源文章 2026-09-27
+- `wiki/theories/integrated-information-theory.md` (rev4) — 新增裂脑作为 IIT 核心测试案例（Φ 在半球内局部最大化 → IIT 预测意识分裂）；新增 split-brain 到 related 和关键证据表
+- `wiki/theories/global-workspace-theory.md` (rev7) — 新增裂脑作为 GWT 测试案例（两个独立工作空间 → 意识分裂）；新增 split-brain 到 related 和连接节
+
+### 图谱更新
+
+- 新增节点 3 个：`split-brain`、`alien-hand-syndrome`、`interpreter-hypothesis`；节点数：313 → 316
+- 新增边 10 条：corpus-callosum→split-brain（mechanism-of）；split-brain→integrated-information-theory（tests-prediction-of）；split-brain→global-workspace-theory（tests-prediction-of）；split-brain→language-lateralization（reveals）；alien-hand-syndrome→corpus-callosum（caused-by）；alien-hand-syndrome→interhemispheric-competition（related）；alien-hand-syndrome→transcallosal-inhibition（mechanism-of）；interpreter-hypothesis→split-brain（derived-from）；interpreter-hypothesis→language-lateralization（related）；split-brain→agenesis-corpus-callosum（related）；边数：1823 → 1833
+
+### 登记或裁决矛盾
+
+- 无新矛盾登记（感知分裂 vs 行动统一的张力是已知的诠释框架分歧，已在 Q-cc-01 中记录；不构成相互否定的实证冲突）
+
+### 新增悬空引用待补
+
+- `interpreter-hypothesis` 已添加为节点，但尚无独立 wiki 页面（暂收录于 split-brain.md 的节点下，待后续独立成页）
+- 现有悬空引用维持不变：`aging`、`anterior-commissure`、`cognition`、`dopamine-system`、`superior-longitudinal-fasciculus`
+
+---
+
 ## 2026-09-26（文章 #156：连接两个大脑——胼胝体的解剖地图、发育时钟与裂脑之谜）
 
 **今日主题：** 胼胝体解剖拓扑（五段/纤维直径梯度）、发育时序（后→前髓鞘化，前额叶连接约25岁成熟）、跨胼抑制（TMS-iSP范式、发育与老化轨迹）、胼胝体缺失症（AgCC，1/4000，复杂推理损害+晶体智力保留）、裂脑综合征与意识分裂争议（Pinto 2017 vs Sperry/Gazzaniga）。填补图谱悬空引用 `corpus-callosum`。

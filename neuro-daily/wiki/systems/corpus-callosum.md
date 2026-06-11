@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-26
-updated: 2026-09-26
-revision_count: 1
+updated: 2026-09-27
+revision_count: 2
 dimensions: [cellular, brain-region, whole-brain-network, cognition]
-related: [interhemispheric-competition, transcallosal-inhibition, motor-cortex, prefrontal-cortex, agenesis-corpus-callosum, split-brain, anterior-commissure, white-matter]
+related: [interhemispheric-competition, transcallosal-inhibition, motor-cortex, prefrontal-cortex, agenesis-corpus-callosum, split-brain, anterior-commissure, white-matter, alien-hand-syndrome]
 prerequisites: [action-potential, myelination, white-matter]
 opens_questions: [Q-cc-01, Q-cc-02, Q-cc-03]
-source_articles: [2026-09-26-corpus-callosum-anatomy-splitbrain]
-key_sources: ["PMID:25550994/PMC4278150", "PMID:32399946/PMC7305066", "PMID:30691545/PMC7989584", "PMID:17375041"]
+source_articles: [2026-09-26-corpus-callosum-anatomy-splitbrain, 2026-09-27-split-brain-consciousness-debate]
+key_sources: ["PMID:25550994/PMC4278150", "PMID:32399946/PMC7305066", "PMID:30691545/PMC7989584", "PMID:17375041", "PMID:38544960/PMC10963944", "PMID:27698701/PMC5038474"]
 ---
 
 # 胼胝体 (Corpus Callosum)
@@ -102,7 +102,9 @@ key_sources: ["PMID:25550994/PMC4278150", "PMID:32399946/PMC7305066", "PMID:3069
 ## 修订历史
 
 - 2026-09-26 · 创建 · 填补图谱悬空引用 · 基于《连接两个大脑》一文 · 5篇开放全文 + 3篇摘要 · 初始置信度：高
+- 2026-09-27 · 修订 · 基于《当胼胝体被切断》(#157) · 新增 alien-hand-syndrome 到 related（胼胝体型 AHS 是跨胼抑制失效的临床证明）；新增 AHS 相关来源 PMC10963944 / PMC5038474；新增第二篇来源文章
 
 ## 来源文章
 
 - [[2026-09-26-corpus-callosum-anatomy-splitbrain]]
+- [[2026-09-27-split-brain-consciousness-debate]]

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-26（**#156**·胼胝体——填补悬空引用corpus-callosum；新建3页：corpus-callosum（五段拓扑/纤维直径梯度/AgCC/裂脑意识争议）、transcallosal-inhibition（TMS-iSP范式/发育老化轨迹）、agenesis-corpus-callosum（1/4000/复杂推理损害/晶体智力保留/先天可塑性代偿）；图谱 313 节点，1823 边）· 主题页总数：**292**（新建3页）
+> 最后更新：2026-09-27（**#157**·裂脑综合征——Q-cc-01高优先级问题深度回应；新建3页：split-brain（感知分裂高/行动统一中/意识争议低；IIT/GWT/RPT预测）、alien-hand-syndrome（胼胝体型/额叶型/后型；SMA-SMA断连机制；预后）、interpreter-hypothesis（图谱节点，待独立成页）；修订3页：corpus-callosum（rev2）、integrated-information-theory（rev4）、global-workspace-theory（rev7）；图谱 316 节点，1833 边）· 主题页总数：**295**（新建3页，修订3页）
 
 ---
 
@@ -191,6 +191,7 @@
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）；**rev4 新增**：DAN-VAN 断路器模型（VAN 正常任务被 DAN 抑制，意外时 VAN 断路并重定向，2026-09-23）**[NEW 2026-07-01]**
 - 🟢 [腹侧注意网络（VAN）](concepts/ventral-attention-network.md) — 右侧 TPJ+VFC；显著性驱动注意；"断路器"打断 DAN 聚焦；右侧化=双侧视野全景监控；P3a ERP 标志；LC-NE 调节阈值；空间忽视联系（右侧损坏→左侧半侧空间忽视）；Corbetta & Shulman 2002/2008 框架 **[NEW 2026-09-23 #153]**
 - 🟢 [半球间竞争（Interhemispheric Competition）](concepts/interhemispheric-competition.md) — Kinsbourne 对立处理器框架：两侧半球各自产生对侧注意偏向，通过后部胼胝体互相抑制；右 PPC 对左 PPC 的单向跨胼胝体抑制（Koch 2011）；TMS 双侧同时刺激无净偏移（Szczepanski & Kastner 2013）；后部胼胝体 FA 预测忽视严重度（r=0.91）；治疗逻辑：抑制对侧→重平衡 **[NEW 2026-09-25 #155]**
+- 🔵 [裂脑综合征（Split-Brain Syndrome）](concepts/split-brain.md) — corpus callosotomy后感知分裂（高证据）/行动部分统一（中证据）/意识状态争议（低，Sperry-Gazzaniga两个代理人vs Pinto 2017单一主体框架）；IIT预测Φ分裂→意识分裂；GWT预测两个独立工作空间；皮层下代偿（上丘/前连合/交叉提示）；解释员假说（左半球后验解释机制） **[NEW 2026-09-27 #157]**
 - 🟢 [跨胼抑制](concepts/transcallosal-inhibition.md) — TMS-iSP范式：刺激同侧 M1→对侧肌肉 iSP（潜伏期~35-40ms）；发育：潜伏期随年龄缩短（r=−0.631）、抑制强度增加；女孩比男孩早约5ms；老化：iSP面积减少57%（73岁vs年轻）；物理基础：单侧运动精确性和注意偏侧化 **[NEW 2026-09-26 #156]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
 - 🔵 [Communication Through Coherence（CTC）](concepts/communication-through-coherence.md) — 振荡相位对齐创造通信窗口；γ 前馈（感觉内容）/α-β 反馈（预测控制）/θ 采样节律；FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009 开放全文）；visual vs movement FEF 神经元解离（Gregoriou 2012）；Fries 2015 综述框架（PMC4605134）**[NEW 2026-08-31 #131]**
@@ -333,6 +334,7 @@
 - 🟢 [SYNGAP1 相关神经发育障碍](diseases/syngap1-related-disorder.md) — de novo SYNGAP1截短突变→SynGAP1单倍剂量不足→Ras-ERK制动减弱→突触提前过度成熟→LTP遮蔽→关键期提前关闭；约1%非综合征性ID；>70%癫痫、~50% ASD；成年期基因治疗前景 **[NEW 2026-09-07 #137]**
 - 🔵 [精神分裂症](diseases/schizophrenia.md) — 回路节律失调的发育性疾病；DLPFC PV+ 细胞 GAD67/PV 分子缄默（非细胞死亡，Hashimoto 2003）→ PING 机制受损 → γ 振荡功率降低 + θ-γ 耦合解体 → 工作记忆认知缺陷；上游机制：NMDAR 低激活（PCP/氯胺酮模型 Javitt 1991）+ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；遗传汇聚：DISC1/NRG1-ErbB4/GRIN2A 三路径汇聚于 PV 细胞，287 GWAS 位点富集于突触生物学（Trubetskoy 2022）；新治疗靶点：Kv3.1/3.2 调节剂/PNN重塑/NMDAR正向调制 **[NEW 2026-09-13 #143; rev2 2026-09-16 #146]**
 - 🟢 [空间忽视（Hemispatial Neglect）](diseases/spatial-neglect.md) — 右半球腹侧额顶颞网络（TPJ/STG/IPL/VFC及SLF白质）损伤后的多维注意综合征；VAN损伤→DAN半球间失衡→空间偏斜（Corbetta & Shulman 2011）；四维崩塌：感知忽视/运动忽视/表征忽视（Bisiach米兰实验）/病觉缺失；25-50%右侧卒中患者受累；棱镜适应疗法（Rossetti 1998）；恢复依赖网络功能连接归一化（Ramsey et al. 2016）**[NEW 2026-09-24 #154]**
+- 🟢 [异手综合征（Alien Hand Syndrome）](diseases/alien-hand-syndrome.md) — 胼胝体损伤或SMA损伤后非优势手出现不受意志控制的"独立行动"；三分类：胼胝体型（手间冲突为主，SMA-SMA跨胼连接中断）/额叶型（强握/探索，SMA本身损伤）/后型（感觉异常）；卒中相关24个月内消退；意识在AHS中保留（"我的手自己动了"报告说明统一主体感）**[NEW 2026-09-27 #157]**
 - 🟢 [胼胝体缺失症（AgCC）](diseases/agenesis-corpus-callosum.md) — 胼胝体先天部分/完全缺失，1/4000；核心缺陷：跨半球传递速度、处理速度、复杂推理/流体智力、社会认知；保留：晶体智力、过度学习技能（IQ通常>80）；代偿：前连合+发育可塑性；先天缺失比成年切除损害更轻（揭示可塑性关键期） **[NEW 2026-09-26 #156]**
 
 ---

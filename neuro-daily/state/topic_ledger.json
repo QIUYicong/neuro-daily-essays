@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-09-26",
-  "total_articles": 156,
+  "total_articles": 157,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10312,6 +10312,75 @@
         "split-brain: 裂脑综合征专页（异手综合征/左右手意志冲突/各意识理论的预测/Gazzaniga vs Pinto的实验对比）——填补新悬空引用 split-brain",
         "anterior-commissure: 前连合专页（嗅觉/颞叶前端连接；AgCC代偿机制；与胼胝体功能分工）——填补 agenesis-corpus-callosum 悬空引用",
         "prefrontal-working-memory-alpha: α振荡在前额叶工作记忆中的角色（与海马θ的跨区耦合；切换注意→工作记忆层级；课程脊柱ch.5）"
+      ]
+    },
+    {
+      "article_number": 157,
+      "date": "2026-09-27",
+      "actual_run_date": "2026-06-11",
+      "title": "当胼胝体被切断，\"我\"是否一分为二？裂脑综合征与意识统一性之争",
+      "slug": "split-brain-consciousness-debate",
+      "core_question": "胼胝体切断后，统一的'我'是否真的分裂为两个独立意识主体？Sperry-Gazzaniga经典框架与Pinto 2017修正模型如何挑战彼此，各意识理论对这一终极实验有怎样的预测？",
+      "layer": [
+        "cognition",
+        "whole-brain-network",
+        "disease",
+        "behavior"
+      ],
+      "curriculum_track": "8. 意识与自我 × 11. 疾病作为窗口",
+      "topic_tags": [
+        "split-brain",
+        "corpus-callosotomy",
+        "consciousness-unity",
+        "Sperry-Nobel",
+        "Gazzaniga",
+        "interpreter-hypothesis",
+        "Pinto-2017",
+        "unified-consciousness",
+        "split-perception",
+        "alien-hand-syndrome",
+        "intermanual-conflict",
+        "phenomenal-consciousness",
+        "access-consciousness",
+        "IIT-split-brain-prediction",
+        "GWT-split-brain-prediction",
+        "RPT-Lamme",
+        "subcortical-compensation",
+        "superior-colliculus",
+        "anterior-commissure",
+        "cross-cueing",
+        "SMA",
+        "supplementary-motor-area",
+        "de-Haan-2020",
+        "language-lateralization",
+        "two-hemispheres"
+      ],
+      "main_sources": [
+        "PMID:32399946 / PMC7305066 (de Haan et al. 2020, Neuropsychol Rev, open full text read)",
+        "PMID:28958646 (Pinto, de Haan, Lamme 2017, Trends Cogn Sci, abstract only)",
+        "PMID:31923846 (de Haan et al. 2020, Cortex, abstract only)",
+        "PMID:38544960 / PMC10963944 (Manea et al. 2024, Biomed Reports, open full text read)",
+        "PMID:27698701 / PMC5038474 (Gao et al. 2016, Exp Ther Med, open full text read)",
+        "Sperry RW. 1981 Nobel Lecture (Nobel Foundation, open access)"
+      ],
+      "unresolved_questions": [
+        "Q-cc-01",
+        "Q-cc-03"
+      ],
+      "wiki_created": [
+        "split-brain",
+        "alien-hand-syndrome",
+        "interpreter-hypothesis"
+      ],
+      "wiki_revised": [
+        "corpus-callosum (rev2)",
+        "integrated-information-theory (rev4)",
+        "global-workspace-theory (rev7)"
+      ],
+      "next_suggested_topics": [
+        "interpreter-hypothesis: 解释员假说专页（左半球对行为生成后验解释；与confabulation的关系；对自由意志研究的启示；与language-lateralization的关系）——interpreter-hypothesis 已在图谱中但无专页",
+        "anterior-commissure: 前连合专页（嗅觉和颞叶前端连接；AgCC中的代偿机制；与胼胝体功能分工）——填补现有悬空引用",
+        "consciousness-unity: 意识统一性概念专页（多感知模态的绑定；时间整合；跨半球统一；IIT/GWT/RPT 对统一性的解释）——裂脑是最重要的证据来源"
       ]
     }
   ],

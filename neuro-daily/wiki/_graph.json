@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "node_count": 303,
   "edge_count": 1760,
   "edge_types": [
@@ -2834,6 +2834,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/agenesis-corpus-callosum.md"
+    },
+    {
+      "id": "split-brain",
+      "title": "裂脑综合征",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/split-brain.md"
+    },
+    {
+      "id": "alien-hand-syndrome",
+      "title": "异手综合征",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/diseases/alien-hand-syndrome.md"
+    },
+    {
+      "id": "interpreter-hypothesis",
+      "title": "解释员假说",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/split-brain.md"
     }
   ],
   "edges": [
@@ -12539,6 +12566,56 @@
     {
       "from": "corpus-callosum",
       "to": "alpha-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "split-brain",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "split-brain",
+      "to": "integrated-information-theory",
+      "type": "tests-prediction-of"
+    },
+    {
+      "from": "split-brain",
+      "to": "global-workspace-theory",
+      "type": "tests-prediction-of"
+    },
+    {
+      "from": "split-brain",
+      "to": "language-lateralization",
+      "type": "reveals"
+    },
+    {
+      "from": "alien-hand-syndrome",
+      "to": "corpus-callosum",
+      "type": "caused-by"
+    },
+    {
+      "from": "alien-hand-syndrome",
+      "to": "interhemispheric-competition",
+      "type": "related"
+    },
+    {
+      "from": "alien-hand-syndrome",
+      "to": "transcallosal-inhibition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "interpreter-hypothesis",
+      "to": "split-brain",
+      "type": "derived-from"
+    },
+    {
+      "from": "interpreter-hypothesis",
+      "to": "language-lateralization",
+      "type": "related"
+    },
+    {
+      "from": "split-brain",
+      "to": "agenesis-corpus-callosum",
       "type": "related"
     }
   ],

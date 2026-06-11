@@ -6,13 +6,13 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-05-30
-updated: 2026-06-27
-revision_count: 6
+updated: 2026-09-27
+revision_count: 7
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
 related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink, neural-correlates-of-consciousness]
 prerequisites: [prefrontal-cortex, working-memory, action-potential, synaptic-transmission]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-gwt-04, Q-gwt-05]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-consciousness-debate]
 key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443", "PMC:PMC12510449"]
 ---
 
@@ -105,6 +105,7 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 - [[working-memory]] — 工作记忆是工作空间的一种持续状态；但两者不等同
 - [[competition-selection-principle]] — GWT 的意识广播是最高层级的竞争-遴选：全局资源选择当前最重要内容
 - [[dopamine-reward-prediction-error]] — DA 的 RPE 信号在奖励域中扮演类似"全局广播"角色（预测误差驱动全脑更新）
+- [[split-brain]] — 裂脑是 GWT 的关键测试案例：胼胝体切断后两个半球各自维持独立前额-顶叶工作空间，GWT 预测意识分裂；Pinto 2017 行动统一证据对此提出挑战
 
 ## 未解问题
 
@@ -138,6 +139,7 @@ COGITATE 2025 确认了 GWT 的一个**非平凡预测**：有意识刺激即使
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 全文精确数字（0/655 电极 offset ignition，PFC 70% 类别解码 0.2–0.4s，BF₀₁=1.94×10⁴）；更新证据表（拆分 PFC 解码条目，新增 offset ignition 失败行）；新增 adversarial-collaboration 相关页面
 - 2026-05-31 · 修订 · 基于《注意瞬盲：当意识成为稀缺资源》(#36) · 新增注意瞬盲相关证据行（270ms 神经分叉、双峰分布、掩蔽 vs 瞬盲分离）；新增 attentional-blink 到 related 和连接节；注意瞬盲是 COGITATE 未能检验的 GWT 核心有/无意识分叉场景的直接证据
 - 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增 NCC 三分法框架定位（GWT 主要描述使能 NCC + 完整 NCC）；补充 GNW 回应论文（PMC12510449）的四个关键论点（偏移点燃非核心预测；PFC 解码困难原因；阈限刺激范式是真正检验；脑范围广播被确认）；新增 neural-correlates-of-consciousness 到 related；新增 PMC12510449 到 key_sources
+- 2026-09-27 · 修订 · 基于《当胼胝体被切断》(#157) · 新增裂脑作为 GWT 预测的测试案例（两个独立工作空间 → 意识分裂）；新增 split-brain 到 related；新增来源文章
 
 ### GWT 作为世界模型的意识广播层
 
