@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-04
-revision_count: 3
-dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets]
+updated: 2026-09-17
+revision_count: 7
+dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular, disease]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, theta-gamma-coupling, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, alpha-oscillations, communication-through-coherence, dorsal-attention-network, schizophrenia, nmda-receptor]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
-opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron]
-key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192"]
+opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-ctc-01, Q-scz-pv-01]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-08-31-fef-v4-gamma-coherence-ctc, 2026-09-13-pv-gamma-schizophrenia-cognition]
+key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:19478185", "PMID:22325208", "PMID:25863358", "PMID:28148460", "PMID:19396156", "PMID:19396159"]
 ---
 
 # γ 振荡 (Gamma Oscillations, 30–80 Hz)
@@ -105,8 +105,71 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 
 - 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192
 
+## α-γ 互补关系（新增 2026-07-21）
+
+注意力研究揭示了 γ 与 α 的核心互补关系（Jensen & Mazaheri 2010, PMID:21119777）：
+
+| 特征 | γ（30–80 Hz） | α（8–13 Hz） |
+|------|--------------|-------------|
+| 功能 | 主动信息处理（门开） | 主动抑制（门关） |
+| 空间 | 目标/任务相关区域 | 非目标/干扰区域 |
+| 注意效应 | 升高（目标侧） | 升高（干扰侧）；降低（目标侧） |
+| 关系 | 互斥：α 高区通常 γ 低；α 低区 γ 可升高 |
+
+这种对立不是竞争而是协同：γ 是被注意区域的"发光"；α 是非目标区域的"遮光"。大脑用这两种节律的组合精确实现感知选择。
+
+- 2026-07-21 · 修订 rev4 · 基于《大脑的频闪滤网》一文 · 新增 α-γ 互补关系节；related 新增 alpha-oscillations · 来源：Jensen & Mazaheri 2010, PMID:21119777
+
+## FEF-V4 注意 γ 相干性（新增 2026-08-31）
+
+Gregoriou 等 2009 年提供了迄今最直接的 γ coherence 跨区通信证据（PMID:19478185，PMC2849291，开放全文）：
+
+**实验**：猕猴 FEF + V4 同步记录；空间注意任务
+**关键发现**：
+- 注意使 FEF-V4 **γ coherence 升高 26–37%**（空间特异性，忽视侧无显著变化）
+- **FEF 先行**：注意调制出现时间 FEF(80 ms) vs V4(130 ms)；先行约 50 ms
+- **Granger 因果**：早期 FEF→V4 主导，维持期 V4→FEF 增强
+- **8–13 ms 时间偏移**：与 FEF-V4 轴突传导延迟完全匹配
+
+**细胞类型特异性**（Gregoriou et al. 2012，PMID:22325208，PMC3297082）：
+- 只有 **visual FEF 神经元**（L2/3，浅层）与 V4 建立 γ coherence
+- **Movement FEF 神经元**（L5/6）：注意时 β 升高，γ coupling 无显著变化
+- 注意与眼跳通路在 FEF 内部完全解离
+
+**对 CTC 框架的支持**：这一数据是 Communication Through Coherence（CTC，Fries 2015）的核心实验基础之一。见 [[communication-through-coherence]] 页面。
+
+| 主张 | 证据/方法 | 来源 | 置信度 |
+|------|----------|------|--------|
+| 注意使 FEF-V4 γ coherence 升高 26–37% | 猕猴同步记录 + 相干性分析 | PMID:19478185 | 高 |
+| 只有 visual FEF 神经元参与 γ coupling | 细胞类型分类 + 相干性分析 | PMID:22325208 | 高 |
+
+- 2026-08-31 · 修订 rev5 · 基于《振荡路由：γ 相干性与 CTC 框架》#131 文章 · 新增 FEF-V4 注意 γ 相干性节（Gregoriou 2009, 2012 开放全文数据）；related 新增 communication-through-coherence, dorsal-attention-network；key_sources 新增 PMID:19478185, PMID:22325208；opens_questions 新增 Q-ctc-01
+- 2026-09-13 · 修订 rev6 · 基于《当 γ 节奏失声》(#143) · 新增精神分裂症 γ 缺陷证据（Gonzalez-Burgos 2015 综述 + Barr 2017 θ-γ 耦合 + Cardin/Sohal 2009 因果证据）；related 新增 schizophrenia/nmda-receptor；dimensions 新增 disease；key_sources 新增 PMID:25863358/28148460/19396156/19396159
+- 2026-09-17 · 修订 rev7 · 基于《θ-γ 嵌套》文章（#147）· 新增 related：theta-gamma-coupling；key_sources 新增 PMID:23522038/20133762/38632400（θ-γ PAC 专属机制文献）；连接新增 [[theta-gamma-coupling]]（dedicated mechanism page）；θ-γ 耦合从散见提及升级为专属连接节点
+
+## 精神分裂症中的 γ 振荡缺陷（2026-09-13 新增）
+
+精神分裂症提供了 γ 振荡功能重要性的最清晰临床证据之一：
+
+- **死后脑证据**：DLPFC 中 PV+ 细胞 GAD67/PV 分子下调（Hashimoto 2003, PMID:12867516），GAD67 减少直接削弱 GABA 驱动 PING 机制的能力
+- **EEG/MEG 临床证据**：SCZ 患者 DLPFC γ 功率在工作记忆任务期间持续低于对照（Gonzalez-Burgos et al. 2015，PMID:25863358，PMC4444373 开放全文）
+- **θ-γ 耦合特异性受损**（Barr et al. 2017，PMID:28148460）：SCZ 患者 θ-γ 耦合显著降低且与 WM 成绩正相关——耦合受损早于并可能导致工作记忆缺陷
+- **光遗传因果闭环**（Sohal 2009 PMID:19396159；Cardin 2009 PMID:19396156）：PV 细胞是 γ 的充分必要发生器；PV 功能下降 → γ 功率下降因果链已有动物实验支持
+
+| 主张 | 证据/方法 | 来源 | 置信度 |
+|------|----------|------|--------|
+| SCZ DLPFC γ 功率在 WM 任务期间降低 | EEG/MEG 综述 | PMID:25863358 | 高 |
+| SCZ 患者 θ-γ 耦合受损，与 WM 成绩相关 | EEG 病例对照 | PMID:28148460 | 中-高 |
+| 光遗传激活 PV 细胞诱导 γ（动物实验因果） | 小鼠光遗传 + EEG | PMID:19396156 | 高 |
+| GABA 水平与 γ 振幅在 SCZ 中正相关 | MR 波谱 + EEG | PMID:24749063 | 中 |
+
+详见 [[schizophrenia]] 页面。
+
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-06-25-gamma-oscillations-neural-binding]]
 - [[2026-07-04-ei-balance-pv-interneuron]]
+- [[2026-07-21-alpha-oscillations-attentional-gating]]
+- [[2026-08-31-fef-v4-gamma-coherence-ctc]]
+- [[2026-09-13-pv-gamma-schizophrenia-cognition]]

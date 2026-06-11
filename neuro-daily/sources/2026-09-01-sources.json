@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-01",
+  "article": "2026-09-01-free-energy-principle-active-inference.md",
+  "topic": "自由能原理与主动推断",
+  "search_terms": [
+    "predictive coding hierarchical cortex prediction error",
+    "free energy principle Friston predictive processing",
+    "Rao Ballard 1999 predictive coding visual cortex",
+    "Keller Mrsic-Flogel predictive processing canonical cortical computation 2018",
+    "Friston free-energy principle unified brain theory 2010 Nature Reviews Neuroscience",
+    "Clark whatever next predictive brains behavioral brain sciences",
+    "Bastos predictive coding canonical microcircuit 2012",
+    "mismatch negativity prediction error auditory cortex EEG"
+  ],
+  "sources_used": [
+    {
+      "id": "rao-ballard-1999",
+      "pmid": "10195184",
+      "pmcid": null,
+      "doi": "10.1038/4580",
+      "title": "Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects",
+      "authors": ["Rao RP", "Ballard DH"],
+      "journal": "Nature Neuroscience",
+      "year": 1999,
+      "full_text_available": false,
+      "access_status": "abstract_only",
+      "notes": "Foundational paper. Subscription journal, no PMC. Abstract only.",
+      "used_for": ["framework_background", "hierarchical_prediction_error_model"]
+    },
+    {
+      "id": "friston-kiebel-2009",
+      "pmid": "19528002",
+      "pmcid": "PMC2666703",
+      "doi": "10.1098/rstb.2009.0006",
+      "title": "Predictive coding under the free-energy principle",
+      "authors": ["Friston K", "Kiebel S"],
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 2009,
+      "full_text_available": true,
+      "access_status": "pmc_open_full_text_read",
+      "notes": "PMC2666703. Full text read. Core computational framework: variational free energy, generalised coordinates, birdsong simulations, state/error units.",
+      "used_for": ["free_energy_formulation", "hierarchical_dynamics", "birdsong_simulation", "core_mechanism"]
+    },
+    {
+      "id": "friston-2010-nrn",
+      "pmid": "20068583",
+      "pmcid": null,
+      "doi": "10.1038/nrn2787",
+      "title": "The free-energy principle: a unified brain theory?",
+      "authors": ["Friston KJ"],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2010,
+      "full_text_available": false,
+      "access_status": "abstract_only",
+      "notes": "Unified theory review. Nature Reviews subscription. Abstract only.",
+      "used_for": ["unified_theory", "perception_action_learning_integration"]
+    },
+    {
+      "id": "bastos-2012",
+      "pmid": "23177956",
+      "pmcid": "PMC (available but CAPTCHA blocked)",
+      "doi": "10.1016/j.neuron.2012.10.038",
+      "title": "Canonical microcircuits for predictive coding",
+      "authors": ["Bastos AM", "Usrey WM", "Adams RA", "Mangun GR", "Fries P", "Friston KJ"],
+      "journal": "Neuron",
+      "year": 2012,
+      "full_text_available": false,
+      "access_status": "abstract_only_pmc_captcha_blocked",
+      "notes": "PMC available but blocked by CAPTCHA. Used abstract level. L2/3 error units gamma, L5/6 prediction units alpha/beta.",
+      "used_for": ["canonical_microcircuit", "laminar_implementation", "oscillation_asymmetry"]
+    },
+    {
+      "id": "clark-2013",
+      "pmid": "23663408",
+      "pmcid": null,
+      "doi": "10.1017/S0140525X12000477",
+      "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+      "authors": ["Clark A"],
+      "journal": "Behavioral and Brain Sciences",
+      "year": 2013,
+      "full_text_available": false,
+      "access_status": "abstract_only",
+      "notes": "Philosophical synthesis. Abstract only. Key contribution: active inference and situated agency.",
+      "used_for": ["active_inference_framework", "philosophical_synthesis"]
+    },
+    {
+      "id": "alexander-brown-2018",
+      "pmid": "29497060",
+      "pmcid": "PMC5832795",
+      "doi": "10.1038/s41598-018-22245-1",
+      "title": "Frontal cortex function as derived from hierarchical predictive coding",
+      "authors": ["Alexander WH", "Brown JW"],
+      "journal": "Scientific Reports",
+      "year": 2018,
+      "full_text_available": true,
+      "access_status": "pmc_open_full_text_read",
+      "notes": "PMC5832795. Full text read. HER model: dlPFC learns to predict prediction errors. 7 experimental paradigms simulated. Mixed selectivity emergent from error prediction.",
+      "used_for": ["frontal_cortex_predictive_coding", "dlpfc_mechanism", "mixed_selectivity_explanation"]
+    },
+    {
+      "id": "keller-mrsic-flogel-2018",
+      "pmid": "30359606",
+      "pmcid": "PMC (available, CAPTCHA blocked)",
+      "doi": "10.1016/j.neuron.2018.10.003",
+      "title": "Predictive Processing: A Canonical Cortical Computation",
+      "authors": ["Keller GB", "Mrsic-Flogel TD"],
+      "journal": "Neuron",
+      "year": 2018,
+      "full_text_available": false,
+      "access_status": "abstract_only_pmc_captcha_blocked",
+      "notes": "PMC available but blocked. Abstract used. Sensorimotor mismatch experiment (VR + V1 L2/3 imaging). 10 experimental predictions listed.",
+      "used_for": ["experimental_evidence", "sensorimotor_mismatch", "falsification_predictions"]
+    },
+    {
+      "id": "jiang-rao-2024",
+      "pmid": "38330098",
+      "pmcid": "PMC10854412",
+      "doi": "10.1371/journal.pcbi.1011280",
+      "title": "Dynamic predictive coding: A model of hierarchical sequence learning and prediction in the neocortex",
+      "authors": ["Jiang LP", "Rao RPN"],
+      "journal": "PLoS Computational Biology",
+      "year": 2024,
+      "full_text_available": true,
+      "access_status": "plos_open_access",
+      "notes": "Open access PLoS. Dynamic extension of Rao-Ballard to temporal sequences. Natural video training → V1-like spatiotemporal RFs. Predictive/postdictive effects. Episodic memory retrieval.",
+      "used_for": ["temporal_extension", "dynamic_predictive_coding", "ai_comparison"]
+    }
+  ],
+  "sources_excluded": [
+    {
+      "pmid": "24062658",
+      "title": "Minimal self-models and the free energy principle",
+      "reason": "Relevant to self-consciousness but too narrow for today's focus; note for future article on interoception/self"
+    },
+    {
+      "pmid": "28782642",
+      "title": "Great Expectations: Is there Evidence for Predictive Coding in Auditory Cortex?",
+      "reason": "Good review but would overlap with auditory section already covered in #80 (PEONs article)"
+    }
+  ],
+  "coverage_summary": {
+    "total_sources": 8,
+    "open_full_text_count": 3,
+    "abstract_only_count": 5,
+    "official_institution_sources": ["NIH-referenced via Friston NRN (PMID:20068583)", "PMC open access system"],
+    "time_range": "1999-2024",
+    "quality_assessment": "Good coverage of foundational (Rao-Ballard 1999), mathematical (Friston 2009/2010), circuit (Bastos 2012), philosophical (Clark 2013), experimental (Keller 2018), and recent computational (Jiang & Rao 2024) literature"
+  }
+}

@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 1
-dimensions: [cellular, microcircuit, behavior, cognition]
-related: [pv-interneurons, sst-interneurons, disinhibitory-circuit, theta-oscillations, hebbian-learning, memory-consolidation, engram-cells]
+updated: 2026-08-10
+revision_count: 2
+dimensions: [molecular, cellular, microcircuit, behavior, cognition]
+related: [pv-interneurons, sst-interneurons, disinhibitory-circuit, theta-oscillations, hebbian-learning, memory-consolidation, engram-cells, cortical-interneuron-development, gaba, tangential-migration, ei-balance]
 prerequisites: [synaptic-transmission, sst-interneurons, pv-interneurons]
 opens_questions: [Q-vip-behavioral-universality, Q-vip-sst-pv-ratio]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity]
@@ -77,7 +77,9 @@ Pi 等（2013）在听觉皮层显示，奖励和惩罚信号**强烈且一致�
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《回路中的少数精锐》一文 · 初始置信度：高
+- 2026-08-10 · 修订 rev2 · 基于《皮层的第二种建筑学》(#109) · 新增：CGE 来源（COUP-TFII/Sp8 标记）、5HT3aR 作为 CGE 来源的全谱标志（Lee 2010），程序性死亡中 SST 的早期脆弱性对 VIP 数量设定的影响；related 新增发育相关节点
 
 ## 来源文章
 
 - [[2026-06-03-inhibitory-interneuron-diversity]]
+- [[2026-08-10-cortical-interneuron-tangential-migration]]

@@ -6,14 +6,15 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-06-23
-revision_count: 5
+updated: 2026-09-03
+revision_count: 10
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, lateral-habenula, multisensory-integration, bayesian-sensory-integration, canonical-microcircuit, cortical-layers, free-energy-principle]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
-opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583"]
+opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-fep-01, Q-fep-02]
+related_learning: [pc-learning, credit-assignment]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-12-predictive-coding-cortical-inference, 2026-07-23-cortical-layers-canonical-microcircuit, 2026-09-01-free-energy-principle-active-inference, 2026-09-03-pc-learning-biological-backpropagation]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:40532027", "PMID:32576965", "PMID:19528002", "PMID:38330098", "PMID:29497060", "PMID:28333583", "PMID:41996333", "PMID:37818157"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -89,6 +90,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 | 小鼠 V1 L2/3 在感觉运动失配时强烈激活（预测误差响应） | 清醒小鼠 + VR + 双光子钙成像；操控运动-视觉耦合状态 | PMID:22681686 | 高（体内行为实验）|
 | 注意可被理解为精度加权（ACh 实现 V1 精度调制） | 猕猴 V1 + M1 受体阻断 + 注意任务（Herrero et al. 2008） | PMID:27917138；PMID:30359606 综述 | 高（体内药理+电生理）|
 | 某些感觉皮层间交互不符合简单振荡-方向映射预测 | 灵长类视觉联合皮层新数据（仅读摘要） | PMID:41120233 | 待评估（限于摘要）|
+| 听觉皮层中约 13% 神经元（PEONs）在预期音调被省略时产生爆发放电（直接观测预测误差神经元） | 大鼠 A1 单单元记录 + 规律序列 + 省略测试；省略响应随音调概率升高（Spearman ρ=0.34, p=1.6×10⁻²⁷） | PMID:40532027（PMC12212881）| 高（体内，单细胞，直接测量）|
+| 多巴胺拮抗剂（舒必利）破坏额上回精度加权，首发精神病患者无精度加权 | 药理 fMRI（sulpiride）+ 奖励学习任务；FEP 患者组（n=20）与健康对照对比 | PMID:32576965（PMC8589669）| 高（药理因果 + 临床队列）|
 
 ### 小脑：专用预测误差学习系统
 
@@ -101,6 +104,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 
 ## 连接
 
+- [[free-energy-principle]] — PC 是 FEP 的神经实现；FEP 给出了预测误差最小化的数学基础（变分贝叶斯）
+- [[active-inference]] — 行动作为 FEP 的另一路径：主动推断把运动控制纳入同一框架
 - [[cerebellum]] — 专用预测误差学习系统（前向模型 + 攀爬纤维误差信号）
 - [[forward-model]] — 小脑前向模型是预测编码的一个具身子系统
 - [[precision-weighting]] — 预测编码框架中注意力和神经调质的计算角色
@@ -114,6 +119,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[global-workspace-theory]] — GWT 与预测编码互补：足够大的预测误差（无法被局部层级消解）可能是触发全局工作空间点燃的候选机制；意识 = 大脑在无法预测时召唤全局计算资源
 - [[language-network]] — 语言理解是预测编码在词汇层面的实例化：额叶（Broca区）在词出现前200ms生成语义-感觉运动预测，颞叶返回预测误差，构成词级预测-更新循环（Grisoni 2024, PMC10957213）
 - [[ventral-language-stream]] — 腹侧语言流的具身语义预测（工具词→运动皮层预激活；动物词→视觉皮层预激活）是预测编码具身性的直接神经证据
+- [[canonical-microcircuit]] — 规范微回路（Douglas-Martin 1991）是预测编码框架的解剖底层：三群体（浅层锥体=误差/γ，深层锥体=预测/α-β）由 Bastos 2012 与预测编码整合
+- [[cortical-layers]] — 六层架构提供了前馈（L2/3→L4，γ）/反馈（L5/6→L1/6，α-β）的物理分离
 
 ## 未解问题
 
@@ -122,6 +129,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - Q-pc-03：环绕抑制和末端停止究竟是预测误差还是侧抑制？如何在体内区分？（中优先级）
 - Q-pc-04：V1 感觉运动失配响应的具体来源（运动皮层反馈 vs 高级视觉 vs 神经调质）？（高优先级）
 - Q-pc-05：层级振荡映射（γ/α-β）的普适性如何？Westerberg 2026 的挑战范围有多大？（高优先级）
+- Q-pc-06：听觉皮层 PEONs（省略响应神经元）在自然感知（非序列学习任务）中是否同样发挥预测误差功能？PEONs 的上游驱动是哪个脑区的反馈（高级听觉皮层 vs 前额叶 vs 海马）？（高优先级）
 
 ## 修订历史
 
@@ -131,8 +139,40 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将预测编码定位为「世界模型误差加权更新层」；新增 world-model 到 related；明确预测编码给出了世界模型的贝叶斯更新方程：Δmodel ∝ precision_weighted_prediction_error
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语言域的预测编码实例：词出现前200ms的语义-感觉运动预测（Grisoni 2024），腹侧流具身语义预测（工具词→运动皮层，动物词→视觉皮层）；related 新增 language-network, ventral-language-stream
 - 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
+- 2026-07-12 · 修订 · 基于《世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架》(#80) · 新增听觉皮层 PEONs 直接证据（Yaron 2025, PMID:40532027）——13% 神经元响应省略音调，响应随概率升高；新增精度加权多巴胺证据（Haarsma 2020, PMID:32576965）——舒必利破坏精度加权，FEP 患者无精度加权；新增 LHb 负 RPE 作为奖励域省略响应的显式说明；新增 Q-pc-06（PEONs 自然感知功能）；related 新增 lateral-habenula；置信度维持 medium（Hodson 2024 综述提醒经验证据有限）
+- 2026-07-20 · 修订 · 基于《感官交响曲》文章（#88）· 多感觉整合的贝叶斯因果推断是预测编码框架在多模态输入层面的具体实现；related 新增 multisensory-integration, bayesian-sensory-integration
+- 2026-07-23 · 修订 · 基于《皮层六层架构》文章（#91）· 新增"规范微回路是预测编码的解剖底层"（Bastos 2012 整合框架已有记录，本次明确加入 canonical-microcircuit 和 cortical-layers 到 related 列表并在连接节中增加对应条目）
+- 2026-09-01 · 修订 · 基于《变分自由能与主动推断》(#132) · 新增"动态预测编码（Jiang & Rao 2024）"段落——时间层级扩展；新增"自由能原理数学基础"段落；related 新增 free-energy-principle；连接节新增 free-energy-principle / active-inference 条目；key_sources 新增 PMID:19528002, PMID:38330098, PMID:29497060；opens_questions 新增 Q-fep-01, Q-fep-02
+- 2026-09-03 · 修订 · 基于《大脑的反向传播幻觉》(#134) · 新增"PC-Learning = 反向传播的生物近似"段落（Whittington & Bogacz 2017 证明 + Max et al. 2026 皮层实现 + Brucklacher 2023 计算验证）；key_sources 新增 PMID:28333583, PMID:41996333, PMID:37818157；related_learning 新增 pc-learning, credit-assignment；source_articles 新增 2026-09-03；Q-fep-02 状态在 unresolved_questions.md 中更新为"部分回答（权重更新维度）"
+
+### PC-Learning：预测编码框架中的学习算法——反向传播的生物近似
+
+Whittington & Bogacz（2017，PMID:28333583，PMCID:PMC5467749）的奠基性证明：使用**局部 Hebbian 规则**的预测编码网络（PC-Learning）在推断收敛极限等价于精确反向传播的权重更新。
+
+权重更新规则：
+
+$$\Delta w_{ij}^{(l)} \propto \varepsilon_i^{(l-1)} \cdot f(x_j^{(l)})$$
+
+其中 $\varepsilon_i^{(l-1)}$ 是下层误差神经元活动，$f(x_j^{(l)})$ 是表征神经元激活——纯局部规则，等价于全局梯度（在收敛极限）。
+
+**皮层回路实现**（Max et al. 2026，PMID:41996333，PMCID:PMC13089762）：L5 锥体细胞（加法整合）= 表征单元；L2/3 锥体细胞（乘法整合）= 误差单元。两流对向传播（表征流反馈 vs 误差流前馈），无需时间相位切换。在 5 类任务上验证，性能接近 ANN；扩展到 5 个皮层区域成功。关键实验预测：选择性扰动 L2/3（误差单元）对学习的损害远大于扰动 L5（表征单元）。
+
+**计算验证**（Brucklacher et al. 2023，PMID:37818157）：纯局部 Hebbian PC 网络自发涌现：(1) 位置/角度不变性表征；(2) 高层神经元时间尺度长于低层（匹配皮层时间层级数据）；(3) 误差神经元活动去相关比表征神经元更快——提供可体内检验的动力学预测。
+
+PC-Learning 将**感知（推断）**和**学习（权重更新）**统一于"预测误差最小化"——这是 FEP 框架的突触层面具体实现路径，也为 Q-fep-02 提供了"大脑如何近似 ELBO 优化"的权重更新维度的回答。详见 [[pc-learning]]、[[credit-assignment]]。
+
+### 动态预测编码：时间层级的扩展（Jiang & Rao 2024，PMID:38330098）
+
+Jiang & Rao（2024, PLoS Comput Biol）将 Rao-Ballard 框架扩展到时间序列处理——高层调制低层的**时间动态**（而非仅空间特征），实现"高层编码慢时间尺度，低层编码快时间尺度"的层级分工。在自然视频训练后，低层网络自发涌现类 V1 简单细胞的时空感受野；系统展现预测性和后溯性效应（类似人类闪光滞后幻觉）；与联想记忆结合后，系统支持情景记忆的时间序列贝叶斯重建。
+
+### 自由能原理的数学基础
+
+预测编码是自由能原理（FEP, 见 [[free-energy-principle]]）在神经回路层面的具体实现。FEP 给出了一个更严格的数学框架：大脑最小化变分自由能 F（感觉惊喜的上界），等价于最小化近似后验与真实后验的 KL 散度。预测误差最小化 = 变分自由能最小化的感知路径；主动推断（[[active-inference]]）= 通过行动改变感觉输入以最小化 F 的行动路径。
 
 ## 来源文章
 
 - [[2026-06-15-predictive-coding]]
 - [[2026-06-20-language-dual-stream]]
+- [[2026-07-12-predictive-coding-cortical-inference]]
+- [[2026-07-20-multisensory-integration-temporal-binding-sts]]
+- [[2026-09-01-free-energy-principle-active-inference]]

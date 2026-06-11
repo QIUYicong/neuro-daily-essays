@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-24
-updated: 2026-06-26
-revision_count: 2
+updated: 2026-09-09
+revision_count: 3
 dimensions: [microcircuit, cellular, cognition]
 related: [hippocampal-circuit, attractor-network, pattern-completion, place-cells, adult-neurogenesis, dentate-gyrus, engram-cells]
 prerequisites: [hippocampal-circuit, place-cells]
 opens_questions: [Q-pc-03]
-source_articles: [2026-06-24-hippocampal-ca3-pattern-completion]
-key_sources: ["PMID:17303747", "PMID:21460835", "PMID:15272123", "PMID:7704110", "PMID:35368306", "PMID:19590004", "PMID:34137370"]
+source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-09-09-adult-hippocampal-neurogenesis]
+key_sources: ["PMID:17303747", "PMID:21460835", "PMID:15272123", "PMID:7704110", "PMID:35368306", "PMID:19590004", "PMID:34137370", "PMID:26347621"]
 ---
 
 # 模式分离 (Pattern Separation)
@@ -68,7 +68,7 @@ DG 是成人大脑中神经发生最活跃的区域之一。新生颗粒细胞�
 
 **关键期（约 4-6 周龄）**：NR2B 主导的 NMDA 受体（低 LTP 阈值）+ 超高输入阻抗 → 最大可塑性窗口
 
-**前馈抑制机制**：新生颗粒细胞激活 PV+ 篮状细胞 → 抑制成熟颗粒细胞 → 整体表征更稀疏
+**前馈抑制机制（McAvoy, Besnard & Sahay 2015，PMID:26347621）**：新生颗粒细胞激活 hilar 苔状细胞 + PV+ 篮状细胞 → 成熟颗粒细胞受反馈抑制 → 整体颗粒细胞层活动更稀疏。电压敏感染料成像（体外）确认：增强神经发生 → DG 激活信号扩散减小；8 周龄成熟新生神经元通过 PV+ 中间神经元施加比 4 周龄时更强的抑制，说明抑制强度随神经元成熟增加。
 
 **双向因果证据**：
 - **充分**：Sahay et al. 2011（PMID:21460835）：遗传提高新生细胞存活率（↑50%）→ 情景恐惧辨别改善
@@ -101,5 +101,6 @@ DG 是成人大脑中神经发生最活跃的区域之一。新生颗粒细胞�
 
 ## 修订历史
 
+- 2026-09-09 · 修订 rev3 · 基于《成人大脑的秘密育儿所》(#139) · 前馈抑制机制描述加深（McAvoy 2015 hilar mossy cells + PV+ 篮状细胞双路径；8周龄 vs 4周龄抑制强度差异）；key_sources 新增 PMID:26347621；source_articles 新增
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 新建专页，整合 DG 机制、成人神经发生因果证据和 CA3 双重功能 · 初始置信度：高
 - 2026-06-26 · 修订 · 基于《大脑的自我更新》一文 · 加深神经发生机制部分：GABA 开关两阶段程序、关键期分子特性（NR2B/高输入阻抗）、前馈抑制机制、Clelland 2009 必要性证据；证据表新增 2 行；连接新增 adult-neurogenesis

@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-06",
+  "article": "2026-06-06-dopamine-systems-anatomy",
+  "topic": "多巴胺能系统解剖与分子基础：三重回路、D1/D2对立信号、VTA拓扑异质性与遗传亚型",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "24130517",
+      "pmcid": "PMC3782727",
+      "doi": "10.3389/fncir.2013.00152",
+      "title": "Dopamine signaling in reward-related behaviors",
+      "authors": ["Baik J-H"],
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2013,
+      "type": "review",
+      "access": "open_full_text",
+      "used_for": "D1/D2 受体分子信号通路综述（Gs/Gi, cAMP, PKA, DARPP-32）；中脑边缘系统概述",
+      "key_facts": [
+        "D1→Gs/olf→cAMP↑→PKA→DARPP-32 Thr34磷酸化",
+        "D2→Gi/o→cAMP↓→GIRK开放→超极化",
+        "DARPP-32 是 D1/D2 信号汇聚的开关分子"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "35226827",
+      "pmcid": "PMC9271543",
+      "doi": "10.1146/annurev-neuro-110920-012422",
+      "title": "Mesoaccumbal Dopamine Heterogeneity: What Do Dopamine Firing and Release Have to Do with It?",
+      "authors": ["de Jong JW", "Fraser KM", "Lammel S"],
+      "journal": "Annual Review of Neuroscience",
+      "year": 2022,
+      "type": "annual_review",
+      "access": "open_full_text",
+      "used_for": "VTA 拓扑异质性；内侧vs外侧VTA对奖励/厌恶的相反响应；NAc亚区功能分化；方法论坐标错位问题",
+      "key_facts": [
+        "内侧VTA→NAc内侧壳；外侧VTA→NAc外侧壳（拓扑对应）",
+        "外侧VTA：奖励激活，厌恶抑制；内侧VTA：厌恶激活",
+        "大多数研究记录外侧VTA但在NAc核心测量（解剖错位导致认知偏差）"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "37537242",
+      "pmcid": "PMC10545540",
+      "doi": "10.1038/s41593-023-01401-9",
+      "title": "Unique functional responses differentially map onto genetic subtypes of dopamine neurons",
+      "authors": ["Azcorra M", "Gaertner Z", "Davidson C", "He Q", "Kim H", "Nagappan S", "Hayes CK", "Ramakrishnan C", "Fenno L", "Kim YS", "Deisseroth K", "Longnecker R", "Awatramani R", "Dombeck DA"],
+      "journal": "Nature Neuroscience",
+      "year": 2023,
+      "type": "original_research",
+      "access": "open_full_text",
+      "used_for": "SNc多巴胺亚型功能分化：Calb1+（奖励+减速）/ Vglut2+（中等奖励）/ Anxa1+（无奖励，加速）；91%分类准确率",
+      "key_facts": [
+        "Anxa1+：奖励响应几乎缺失，运动加速时激活（首次报告）",
+        "Calb1+：奖励量越大激活越强（价值编码）",
+        "非监督聚类以91%准确率区分遗传亚型"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "30716356",
+      "pmcid": "PMC6450565",
+      "doi": "10.1016/j.neuint.2019.01.022",
+      "title": "Disentangling the diverse roles of dopamine D2 receptors in striatal function and behavior",
+      "authors": ["Gallo EF"],
+      "journal": "Neurochemistry International",
+      "year": 2019,
+      "type": "review",
+      "access": "open_full_text",
+      "used_for": "D2受体三重角色：突触后间接通路 / 自受体负反馈 / 皮层谷氨酸末梢D2R；自受体遗传敲除实验",
+      "key_facts": [
+        "D2自受体敲除→DA过度释放+过度运动",
+        "皮层谷氨酸末梢D2R激活减少corticostriatal传递",
+        "D2R功能障碍关联PD/精神分裂/成瘾/肥胖/ADHD"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "24735820",
+      "pmcid": "PMC4195813",
+      "doi": "10.1016/j.neuroscience.2014.04.010",
+      "title": "An update on the connections of the ventral mesencephalic dopaminergic complex",
+      "authors": ["Yetnikoff L", "Lavezzi HN", "Reichard RA", "Zahm DS"],
+      "journal": "Neuroscience",
+      "year": 2014,
+      "type": "review",
+      "access": "open_full_text",
+      "used_for": "中脑多巴胺复合体（A8/A9/A10）解剖分类；VTA/SNc的完整传入传出连接；三层传入组织；多巴胺共递质发现",
+      "key_facts": [
+        "A9=SNc（背侧纹状体）, A10=VTA（NAc/PFC/边缘系统）, A8=RRF",
+        "三层传入：①下丘脑-苍白球延续带；②NAc/嗅球MSN；③皮层谷氨酸",
+        "DA神经元共释放谷氨酸和GABA"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "35389678",
+      "pmcid": "PMC9364670",
+      "doi": "10.1037/bne0000511",
+      "title": "Quantifying the inverted U: a meta-analysis of prefrontal dopamine, D1-receptors, and working memory",
+      "authors": ["Weber MA", "Conlon MM", "Stutt HR", "Wendt L", "Ten Eyck P", "Narayanan NS"],
+      "journal": "Behavioral Neuroscience",
+      "year": 2022,
+      "type": "meta-analysis",
+      "access": "open_full_text",
+      "used_for": "PFC D1受体倒U型与工作记忆的定量荟萃分析（75项研究，156数据点）；R²=0.26",
+      "key_facts": [
+        "D1R解释工作记忆方差26%（DA浓度仅10%）",
+        "倒U型：过少或过多D1激活均损害工作记忆",
+        "受体激活水平比浓度本身更重要"
+      ]
+    },
+    {
+      "id": "S7",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/parkinsons-disease",
+      "title": "Parkinson's Disease - NINDS Official Page",
+      "institution": "National Institute of Neurological Disorders and Stroke (NINDS/NIH)",
+      "type": "institutional_official",
+      "access": "open",
+      "used_for": "帕金森病黑质纹状体通路损伤的官方背景信息"
+    }
+  ],
+  "search_queries": [
+    "dopamine VTA SNc mesolimbic mesocortical D1 D2 receptor signaling review PubMed",
+    "dopamine D1 D2 receptor opposing effects striatum prefrontal cortex open access review 2020 2021 2022",
+    "VTA dopamine neurons heterogeneity molecular identity reward aversion 2021 2022 2023 PMC open access",
+    "dopamine receptor D1 Gs cAMP PKA DARPP-32 D2 Gi striatum direct indirect pathway mechanism review PMC",
+    "substantia nigra VTA anatomy dopamine neurons A8 A9 A10 review",
+    "prefrontal cortex dopamine D1 receptor inverted-U working memory Goldman-Rakic Arnsten review PMC open access",
+    "dopamine neurons glutamate GABA co-release VTA nucleus accumbens PMC open access 2019 2020 2021"
+  ],
+  "excluded_sources": [
+    {
+      "pmid": "9054347",
+      "reason": "Schultz 1997 (RPE经典论文) - 今日文章不聚焦计算原理，留给明天的RPE文章引用"
+    }
+  ],
+  "full_text_count": 6,
+  "abstract_only_count": 0,
+  "institutional_sources": 1,
+  "total_sources": 7
+}

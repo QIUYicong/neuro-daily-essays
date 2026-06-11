@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 1
+updated: 2026-08-07
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, disease]
-related: [microglia, synaptic-pruning, alzheimers-disease, astrocyte]
+related: [microglia, synaptic-pruning, alzheimers-disease, astrocyte, autism-spectrum-disorder]
 prerequisites: [synaptic-transmission, microglia]
-opens_questions: [Q-complement-01]
-source_articles: [2026-06-03-microglia-synaptic-pruning]
-key_sources: ["PMID:18083105", "PMID:22632727", "PMID:22715882", "PMID:27033548", "PMID:34738335"]
+opens_questions: [Q-complement-01, Q-complement-02]
+source_articles: [2026-06-03-microglia-synaptic-pruning, 2026-08-07-synaptic-pruning-complement-autism-schizophrenia]
+key_sources: ["PMID:18083105", "PMID:22632727", "PMID:22715882", "PMID:27033548", "PMID:34738335", "PMID:32661396", "PMID:26814963"]
 ---
 
 # 补体级联（CNS 中的突触功能）(Complement Cascade in CNS Synaptic Function)
@@ -51,10 +51,17 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:22715882", "PMID:27033548"
 9. CR3 激活下游吞噬信号
 10. 吞噬体形成，包裹突触末梢，与溶酶体融合降解
 
-### 活动依赖调节（与 CD47 的双向博弈）
+### 活动依赖调节（与 CD47 和 SRPX2 的三方博弈）
 
-- 活跃突触：高 CD47 → 与 SIRPα 结合 → 磷酸酶 SHP-1 抑制吞噬体形成 → 受保护
-- 沉默突触：低 CD47 + C3b 沉积 → 吞噬信号净优势 → 优先被删除
+**"别吃我"信号（保护活跃突触）**：
+- **CD47-SIRPα 轴**：活跃突触高表达 CD47 → 与小胶质 SIRPα 结合 → SHP-1/SHP-2 抑制吞噬体形成（PMID:30308165）
+- **SRPX2**（2020 新增）：神经元分泌，直接结合 C1q，阻止 C2 裂解，截断源头。优先保护 VGluT2+ 谷氨酸能突触（PMID:32661396）
+
+**"吃我"信号（弱突触自我暴露）**：
+- C3b 沉积（主通道）
+- PS 外翻（LTD/caspase-3 后，作用于 TREM2/MERTK）
+
+注：V1 皮层的眼势力优势可塑性**不依赖** C1q 或 CX3CR1，说明不同脑区可能存在替代通路，补体-CR3 并非所有关键期修剪的普遍机制。
 
 ### 发育期与成年期的表达差异
 
@@ -81,15 +88,19 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:22715882", "PMID:27033548"
 - [[synaptic-pruning]] — 补体-CR3 通路是突触剪枝的核心机制
 - [[astrocyte]] — TGF-β 来源，上调神经元 C1q 表达
 - [[alzheimers-disease]] — Aβ 低聚体触发 C1q 病理性重激活
+- [[autism-spectrum-disorder]] — CD47 感知障碍导致修剪不足（与精神分裂症 C4A 过激活形成互补）
 
 ## 未解问题
 
 - Q-complement-01（高优先）：CNS 中 C1q 结合突触膜的具体配体是什么？为何弱突触积累更多 C1q？是 C1q 直接检测活动，还是通过抗体样分子间接识别？
+- Q-complement-02（中优先）：SRPX2 抑制 C1q 只保护 VGluT2+ 突触的机制是什么？是 SRPX2 在谷氨酸能终末优先表达，还是 C1q 在这些突触的配体差异？这种不对称性是否对 E/I 平衡的最终比例有决定性影响？
 
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《大脑的"质检员"》(#70) · 初始置信度：高
+- 2026-08-07 · 修订 · 基于《大脑的删除艺术》(#106) · 新增 SRPX2 机制；活动依赖调节小节扩充为"三方博弈"框架；注记 V1 皮层 ODP 不依赖补体的异质性；添加 Q-complement-02
 
 ## 来源文章
 
 - [[2026-06-03-microglia-synaptic-pruning]]
+- [[2026-08-07-synaptic-pruning-complement-autism-schizophrenia]]

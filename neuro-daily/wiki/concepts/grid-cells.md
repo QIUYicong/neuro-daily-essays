@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
+updated: 2026-07-24
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [place-cells, path-integration, theta-oscillations, theta-phase-precession, entorhinal-cortex, cognitive-map, head-direction-cells, border-cells, memory-consolidation]
+related: [place-cells, path-integration, theta-oscillations, theta-phase-precession, entorhinal-cortex, cognitive-map, head-direction-cells, border-cells, memory-consolidation, semantic-memory-hub, conceptual-space-geometry, speed-cells, time-cells]
 prerequisites: [action-potential, entorhinal-cortex, theta-oscillations]
 opens_questions: [Q-gc-01, Q-gc-02, Q-gc-03, Q-gc-04]
-source_articles: [2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:15965463", "PMID:16675704", "PMID:16858394", "PMID:23222610", "PMID:27023731", "PMID:23354386", "PMID:41887217"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-16-semantic-hub-atl-conceptual-space, 2026-07-24-time-cells-speed-cells-temporal-navigation]
+key_sources: ["PMID:15965463", "PMID:16675704", "PMID:16858394", "PMID:23222610", "PMID:27023731", "PMID:23354386", "PMID:41887217", "PMID:33603654", "PMID:40063809", "PMID:26176924"]
 ---
 
 # 网格细胞 (Grid Cells)
@@ -58,6 +58,8 @@ MEC深层（III、V层）含**联合细胞**：同时具有网格激活 + 头朝
 - 运动向量积分 → 位置更新
 - 将更新后的位置反映在网格激活状态
 
+联合细胞整合的**速度分量**由专门的速度细胞（speed cells，Kropff 2015，PMID:26176924）提供，后者通过PPN→HDB→MEC通路接收来自脑干运动控制区的速度信号（Carvalho 2020，PMID:32905779）。
+
 ### 4. 路径整合的实现：连续吸引子网络（CAN）模型
 
 McNaughton等2006提出的主流计算模型：
@@ -70,6 +72,19 @@ McNaughton等2006提出的主流计算模型：
 ### 5. 网格→场所细胞转化
 
 多模块叠加机制：不同间距的网格模块同时激活，只有在某个特定位置，所有模块的格点激活同时处于极大值附近。加权整合这些模块输入，可在海马产生唯一的单活跃峰——即场所场。
+
+### 6. 概念空间中的网格样编码
+
+**Bokeria, Henson, Mok（2021，PMID:33603654）** 综述了 Viganò & Piazza 的实验：被试学习二维类别空间（图像大小×音调高低）后：
+- **内嗅皮层（EHC）** 出现六重旋转对称信号，编码被试在概念空间中"移动"的方向——直接将空间导航的网格机制延伸至抽象类别空间
+- **mPFC** 通过神经适应幅度编码类别间距离（越不相似→适应越小）
+
+**Haga, Oseki, Fukai（2025，PNAS，PMID:40063809）** 的DSI统一模型从数学上证明，空间导航中的后继者表征（successor representation）与NLP中的逐点互信息（PMI）完全等价。这意味着：
+- 网格细胞的计算不是空间专用，而是"连续高维结构信息"的通用压缩
+- DSI-decorr变体自然产生六角网格表征（类网格细胞），DSI-sparse变体产生稀疏选择性表征（类概念细胞/场所细胞）
+- 词语类比推理（"国王−男人+女人=女王"）与空间三角推断是同一算术运算
+
+这一证据链支持：网格细胞提供的六角格点编码不只是空间导航的专用硬件，而是大脑处理任何具有连续度量结构的高维信息空间（物理空间、概念空间、时间序列）的通用计算格式。
 
 ## 关键证据
 
@@ -93,6 +108,10 @@ McNaughton等2006提出的主流计算模型：
 - [[entorhinal-cortex]] — 网格细胞位于MEC（内侧内嗅皮层），Layer II为纯网格；深层含联合细胞
 - [[cognitive-map]] — 网格细胞是认知地图度量坐标系的物理基础；泛化至抽象概念空间
 - [[head-direction-cells]] — 联合细胞整合网格编码+头朝向，两者在路径整合中协作
+- [[semantic-memory-hub]] — ATL枢纽整合多模态特征形成概念，内嗅皮层网格码提供概念在语义空间中的坐标
+- [[conceptual-space-geometry]] — 网格细胞是概念空间几何编码的神经底物候选
+- [[speed-cells]] — MEC速度细胞为联合细胞提供速度分量输入，驱动网格吸引子的位置更新
+- [[time-cells]] — 时间细胞是时间维度的对应坐标：网格/场所细胞编码空间，时间细胞编码时间；两者同属情节记忆时空框架
 
 ## 未解问题
 
@@ -104,7 +123,11 @@ McNaughton等2006提出的主流计算模型：
 ## 修订历史
 
 - 2026-06-22 · 创建 · 填补长期悬空引用（被theta-oscillations等多页引用但无对应页面） · 基于《六边形的秘密》文章 · 初始置信度：高
+- 2026-07-16 · 修订 · 基于文章#84《意义的诞生地：前颞叶如何将感官碎片组装成概念》· 新增"概念空间中的网格样编码"机制节（Bokeria 2021, Haga 2025 DSI模型）；新增连接至semantic-memory-hub和conceptual-space-geometry
+- 2026-07-24 · 修订 rev3 · 基于《大脑的第四维罗盘》文章 #92 · 新增速度细胞补全路径整合速度分量（Kropff 2015, Carvalho 2020）；联合细胞小节补充速度来源；新增连接speed-cells和time-cells；key_sources新增PMID:26176924
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
+- [[2026-07-16-semantic-hub-atl-conceptual-space]]
+- [[2026-07-24-time-cells-speed-cells-temporal-navigation]]

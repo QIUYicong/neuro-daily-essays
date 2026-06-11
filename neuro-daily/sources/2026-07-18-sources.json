@@ -1,0 +1,128 @@
+{
+  "article_date": "2026-07-18",
+  "article_title": "大脑如何读懂音调：从耳蜗行波到初级听觉皮层的音调拓扑图",
+  "article_slug": "2026-07-18-auditory-cortex-tonotopy-dual-coding",
+  "total_sources": 8,
+  "open_full_text_count": 7,
+  "abstract_only_count": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "33871677",
+      "pmcid": null,
+      "doi": "10.1007/s00018-021-03840-8",
+      "title": "Mechanisms in cochlear hair cell mechano-electrical transduction for acquisition of sound frequency and intensity",
+      "authors": "Liu S, Wang S, Zou L, Xiong W",
+      "journal": "Cell Mol Life Sci",
+      "year": 2021,
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11072359/",
+      "note": "PMC11072359; PMID verified via WebFetch",
+      "used_for": ["MET通道分子组成（TMC1/TMC2/LHFPL5/TMIE/PCDH15/CIB2）", "TMC1底端-顶端电导梯度（~2倍，110 vs 55 pS）", "分子层面的音调拓扑"]
+    },
+    {
+      "id": "S2",
+      "pmid": "33644871",
+      "pmcid": "PMC8127127",
+      "doi": "10.1113/JP279189",
+      "title": "Encoding sound in the cochlea: from receptor potential to afferent discharge",
+      "authors": "Rutherford MA, von Gersdorff H, Goutman JD",
+      "journal": "J Physiol",
+      "year": 2021,
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8127127/",
+      "note": "PMID verified via WebFetch",
+      "used_for": ["相位锁定机制", "带状突触延迟<1 ms", "IHC膜时常数对高频的低通滤波", "受体电位→SGN放电转导链"]
+    },
+    {
+      "id": "S3",
+      "pmid": "32420865",
+      "pmcid": "PMC7269667",
+      "doi": "10.7554/eLife.53462",
+      "title": "Complexity of frequency receptive fields predicts tonotopic variability across species",
+      "authors": "Gaucher Q, Panniello M, Ivanov AZ, Dahmen JC, King AJ, Walker KMM",
+      "journal": "eLife",
+      "year": 2020,
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7269667/",
+      "note": "PMID verified via WebFetch",
+      "used_for": ["A1全局拓扑vs局部异质性", "单峰90%vs复杂感受野30%遵循拓扑", "物种比较（雪貂vs小鼠）", "采样偏差解释"]
+    },
+    {
+      "id": "S4",
+      "pmid": "37800695",
+      "pmcid": "PMC10690447",
+      "doi": "10.15252/embj.2023114587",
+      "title": "Diversity matters — extending sound intensity coding by inner hair cells via heterogeneous synapses",
+      "authors": "Moser T, Karagulyan N, Neef J, Jaime Tobón LM",
+      "journal": "EMBO J",
+      "year": 2023,
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10690447/",
+      "note": "PMID verified via WebFetch",
+      "used_for": ["带状突触Pillar vs Modiolar侧异质性", "三型SGN（Ia/Ib/Ic）", "6个数量级动态范围的并行编码", "紧密vs松散Ca2+耦合"]
+    },
+    {
+      "id": "S5",
+      "pmid": "37169827",
+      "pmcid": "PMC10175507",
+      "doi": "10.1038/s41598-023-34731-6",
+      "title": "Distinct nonlinear spectrotemporal integration in primary and secondary auditory cortices",
+      "authors": "Kline AM, Aponte DA, Kato HK",
+      "journal": "Scientific Reports",
+      "year": 2023,
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10175507/",
+      "note": "PMID verified via WebFetch",
+      "used_for": ["A1 vs A2功能差异", "A1时间不对称vs A2符合检测", "并行双流假说"]
+    },
+    {
+      "id": "S6",
+      "pmid": "23217746",
+      "pmcid": "PMC3721062",
+      "doi": "10.1016/j.neuron.2012.09.031",
+      "title": "The spatial pattern of cochlear amplification",
+      "authors": "Fisher JAN, Nin F, Reichenbach T, Uthaiah RC, Hudspeth AJ",
+      "journal": "Neuron",
+      "year": 2012,
+      "access": "open_full_text",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3721062/",
+      "note": "PMID verified via WebFetch",
+      "used_for": ["OHC Prestin靶向光灭活", "主动放大位于行波峰值基底侧", "调谐曲线锐化~10倍"]
+    },
+    {
+      "id": "S7",
+      "pmid": "36786655",
+      "pmcid": null,
+      "doi": "10.1093/cercor/bhad020",
+      "title": "Temporal hierarchy of cortical responses reflects core-belt-parabelt organization of auditory cortex in musicians",
+      "authors": "Benner J, Reinhardt J, Christiner M, Wengenroth M, Stippich C, Schneider P, Blatow M",
+      "journal": "Cereb Cortex",
+      "year": 2023,
+      "access": "abstract_only",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36786655/",
+      "note": "PMID verified via WebFetch; no open full text",
+      "used_for": ["人类core-belt-parabelt chronotopy", "Core/Belt/Parabelt响应潜伏期递增", "绝对音感的右侧PT时序优势"]
+    },
+    {
+      "id": "S8",
+      "pmid": null,
+      "pmcid": null,
+      "doi": null,
+      "title": "Hair Cells and the Mechanoelectrical Transduction of Sound Waves",
+      "authors": "Purves D et al. (Neuroscience textbook)",
+      "journal": "NCBI Bookshelf (NBK10867)",
+      "year": 2001,
+      "access": "open_official",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10867/",
+      "note": "NIH官方开放教材；验证：WebFetch直接读取",
+      "used_for": ["立体纤毛结构", "尖端连接", "MET通道开放速度10μs", "阈值0.3 nm", "内淋巴电位~80 mV"]
+    }
+  ],
+  "excluded_sources": [
+    {
+      "reason": "paywall_not_open_access",
+      "description": "PMC6524635（TFS上频限综述）——虽然相关性高，但核心内容可从其他开放来源推导，未纳入为直接来源"
+    }
+  ]
+}

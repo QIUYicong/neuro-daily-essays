@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-24
-revision_count: 2
+updated: 2026-07-24
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [grid-cells, theta-oscillations, sharp-wave-ripples, theta-phase-precession, memory-consolidation, hippocampal-circuit, cognitive-map, remapping, path-integration, pattern-separation, pattern-completion]
+related: [grid-cells, theta-oscillations, sharp-wave-ripples, theta-phase-precession, memory-consolidation, hippocampal-circuit, cognitive-map, remapping, path-integration, pattern-separation, pattern-completion, time-cells]
 prerequisites: [hippocampal-circuit, action-potential, synaptic-transmission]
 opens_questions: [Q-gc-01, Q-gc-03]
-source_articles: [2026-06-22-grid-cells-place-cells, 2026-06-24-hippocampal-ca3-pattern-completion]
-key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-24-time-cells-speed-cells-temporal-navigation]
+key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394", "PMID:21867888"]
 ---
 
 # 场所细胞 (Place Cells)
@@ -26,7 +26,7 @@ key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 
 场所细胞的核心计算贡献是：在任意连续空间（物理环境、虚拟环境）中，以稀疏编码维护一张"当前位置的唯一标识"——任何时刻仅约1–5%的CA1锥体细胞激活，避免表征之间的相互干扰。
 
-最重要的进展是理解了两点：（1）场所细胞通过"重映射"使不同环境的记忆完全正交，避免了知识的相互覆盖；（2）场所细胞不只编码当前位置，还通过θ相位前移机制在时间维度上编码过去-当前-未来的轨迹序列（θ序列），这与情节记忆的序列组织同构。
+最重要的进展是理解了三点：（1）场所细胞通过"重映射"使不同环境的记忆完全正交，避免了知识的相互覆盖；（2）场所细胞不只编码当前位置，还通过θ相位前移机制在时间维度上编码过去-当前-未来的轨迹序列（θ序列），这与情节记忆的序列组织同构；（3）**场所细胞与时间细胞是同一群神经元的不同激活模式**：MacDonald等（2011，PMID:21867888）发现75%以上的CA1"时间细胞"同时含有空间信息，反映出海马神经元是通用的"时空情节情境编码器"，而非空间专用系统。
 
 ## 关键机制
 
@@ -82,6 +82,7 @@ key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 - [[hippocampal-circuit]] — 场所细胞主要位于CA1（少数CA3）；依赖EC输入和海马内部回路
 - [[cognitive-map]] — 场所细胞是认知地图的基本构成单元
 - [[path-integration]] — 在无外部地标时，场所场由路径整合（网格细胞）维持
+- [[time-cells]] — 时间细胞是场所细胞的时间模式：同一CA1神经元在空间导航时是场所细胞，在时间延迟期是时间细胞
 
 ## 未解问题
 
@@ -90,6 +91,7 @@ key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 
 ## 修订历史
 
+- 2026-07-24 · 修订 rev3 · 基于《大脑的第四维罗盘》文章 #92 · 新增"场所细胞=时间细胞同一神经元双重模式"关键认识（MacDonald 2011，PMID:21867888）；related新增time-cells；来源新增PMID:21867888
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 加入模式分离/补全视角：场所细胞的"重映射"行为是模式分离在空间记忆中的具体体现；Leutgeb 2004 的 CA3 vs CA1 不同计算策略与场所细胞的率重映射 vs 全局重映射直接相关；related 新增 pattern-separation、pattern-completion
 - 2026-06-22 · 创建 · 填补长期悬空引用（被theta-oscillations、sharp-wave-ripples等多页引用但无对应页面） · 基于《六边形的秘密》文章 · 初始置信度：高
 

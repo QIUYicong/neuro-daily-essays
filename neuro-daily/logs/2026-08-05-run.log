@@ -1,0 +1,149 @@
+# 运行日志 · 2026-08-05
+
+**文章编号**：#104
+**运行时间**：2026-08-05（虚拟日期）；系统时钟 UTC+8：2026-06-06
+**仓库**：QIUYicong/neuro-daily-essays
+**分支**：main
+
+---
+
+## 状态读取
+
+### 当前知识库状态（运行前）
+- 上一篇：#103（2026-08-04）轴突导向与生长锥，层级：molecular/cellular/brain-region
+- 上上篇：#102（2026-08-03）工作记忆神经密码，层级：cellular/synaptic/microcircuit/cognition
+- 图谱：211节点，1219边（修复前有JSON语法错误——edges数组在position 207725提前关闭，axon-guidance相关10条边被孤立）
+- topic_ledger：103篇文章，last_updated: 2026-08-04
+- unresolved_questions：最后更新 2026-08-04，最新问题 Q-axon-guidance-01/02/03
+- contested_claims：7条 open（IIT/GWT关于意识理论的两条为高优先级）
+- monthly_synthesis：2026-08-02 截止
+
+### _graph.json 修复
+- 发现位置：position 207725，错误类型：JSON array 在 mind-wandering 边之后提前关闭 `]`，导致 axon-guidance 相关边（10条）处于顶层 `]}` 结构之外，无法解析
+- 修复方式：将 `}\n  ],\n    {\n      "from": "axon-guidance"` 替换为 `},\n    {\n      "from": "axon-guidance"`（去除多余的 `]`）
+- 修复后验证：211节点，1219边，JSON 完整无误
+
+---
+
+## 选题决策过程
+
+### 排除主题
+- 意识理论（IIT vs GWT）：两条高优先级矛盾（C-2026-05-31-01/02）已有大量积累证据更新（文章#35、#63），但核心矛盾在无法直接测量Φ的条件下技术上不可裁决；今日不选，等待更具体的新证据
+- 突触发生（synaptogenesis）/关键期：层级 molecular/cellular，连续第3天同一层级 → 违反连续三天同层规则
+- 工作记忆后续（PFC-OFC交互/认知弹性）：连续微回路/认知层 → 同层重复
+
+### 最终选题：连接组学与结构-功能关系（课程脊柱 #9 + #10）
+- **理由1**：课程脊柱第9章（Connectomics）此前仅有2026-06-18一篇基础介绍文（wiki/methods/connectomics.md rev1），但缺乏FlyWire 2024完整果蝇大脑的详细分析和MICrONS 2025的功能协注册重大发现
+- **理由2**：层级为 methods/whole-brain-network/cognition/theory，与近期三篇（molecular, cognitive, molecular）形成好的层级切换
+- **理由3**：FlyWire 2024是迄今最复杂动物的完整连接组，是神经科学的历史性里程碑
+- **理由4**：MICrONS 2025直接回答"结构预测功能吗"这个核心问题，是领域突破
+- **理由5**：直接回答知识库的终极目标："大脑如何从细胞、突触和网络中构建认知"
+
+---
+
+## 文献检索记录
+
+### 搜索词
+1. "FlyWire complete Drosophila brain connectome 2024 Nature PMID PMC open access"
+2. "MICrONS consortium mouse cortex connectome 2024 2025 Nature open access PMID"
+3. "Drosophila hemibrain connectome Scheffer 2020 eLife PMID PMC open access"
+4. "Dorkenwald Matsliah FlyWire neuronal wiring diagram 2024 PMID"
+5. "C elegans connectome White 1986 Varshney 2011 PMID"
+6. "Human Connectome Project HCP Van Essen 2013 NeuroImage PMID PMC"
+
+### 候选来源（已阅读/检索）
+| 来源 | PMID | PMC状态 | 采用/排除 |
+|------|------|---------|---------|
+| Dorkenwald 2024 (FlyWire main) | 39358518 | PMC:11446842 开放全文 | **采用**（主要数据来源）|
+| Schlegel 2024 (cell typing) | 39358521 | 无PMC | **采用**（摘要，细胞类型注释）|
+| Lin 2024 (network statistics) | 39358527 | PMC:10402125（预印本）| **采用**（网络拓扑核心数据）|
+| Matsliah 2024 (visual system) | 39358525 | 无PMC | 部分参考（聚焦主论文，未列入主要来源）|
+| Scheffer 2020 (hemibrain) | 32880371 | PMC:7546738 开放全文 | **采用**（历史背景）|
+| MICrONS 2025 | 40205211 | PMC:11981947 开放全文 | **采用**（功能-结构协注册）|
+| Varshney 2011 (C.elegans) | 21304930 | 开放全文 | **采用**（图论分析基础）|
+| White 1986 (C.elegans) | 22462104 | 无PMC | **采用**（历史里程碑，摘要/已知内容）|
+| Van Essen 2013 (HCP) | 23684880 | PMC:3724347 开放全文 | **采用**（宏观连接组对照）|
+| Sprecher 2024 (FlyWire review) | 39737740 | PMC:11702924 开放全文 | **采用**（局限性讨论综述）|
+
+### 开放全文比例
+- 总来源：9篇（实际采用）
+- PMC 开放全文：7篇（78%）
+- 仅摘要/历史文献：2篇（22%）
+
+---
+
+## 文章生成
+
+**文件**：`articles/2026-08-05-connectomics-flywire-structure-function.md`
+**字数（估计）**：约 5500 字
+**结构**：今日核心问题 / 一句话摘要 / 为什么重要 / 背景（C.elegans→hemibrain→FlyWire历史跃迁）/ 机制一（FlyWire全脑网络拓扑）/ 机制二（MICrONS功能协注册）/ 机制三（人类HCP宏观视野）/ 关键证据表 / 比喻（城市道路网，含失效说明）/ 改变理解 / 争议与未解问题 / 与AI对照（权重矩阵类比与差异）/ 概念卡片 / 认知地图更新 / 参考来源
+
+---
+
+## 固结步骤（Wiki 更新）
+
+### _graph.json 修复
+- 修复了 edges 数组在 position 207725 的 JSON 语法错误（多余的 `]` 导致 axon-guidance 边组孤立）
+- 修复后节点：211，边：1219
+
+### 新建页面（3）
+1. **`wiki/concepts/small-world-network.md`**
+   - rev1，status: established，confidence: high
+   - 覆盖：SΔ定义、C.elegans vs 果蝇 vs 互联网比较、演化解释
+   - 来源：PMID:39358527, 21304930, 9623998
+
+2. **`wiki/concepts/rich-club.md`**
+   - rev1，status: established，confidence: high
+   - 覆盖：果蝇全脑40,218个富有节点（5.4倍密度）、跨半球功能、人类DTI对比、形成机制
+   - 来源：PMID:39358527, 22903843
+
+3. **`wiki/concepts/structure-function-relationship.md`**
+   - rev1，status: mainstream，confidence: medium（而非established，因为C.elegans反例说明不完整）
+   - 覆盖：MICrONS 2025正向验证、C.elegans 40年教训、共同输入假说、神经调质不变量问题
+   - 来源：PMID:40205211, 39358527, 22462104
+
+### 修订页面（1）
+- **`wiki/methods/connectomics.md`** rev1→rev2：
+  - 新增：FlyWire 2024全脑网络拓扑统计（小世界SΔ=141、富有节点、广播者/整合者、反馈连接13.8%）
+  - 新增：MICrONS 2025功能-结构协注册关键发现（结构预测功能直接验证）
+  - 更新：related（+small-world-network, rich-club, structure-function-relationship, axon-guidance）
+  - 更新：key_sources（+PMID:39358527, 40205211, 21304930）、source_articles（+#104）
+
+### 矛盾检查结果
+- 无冲突：今日内容与现有wiki无矛盾
+- C.elegans教训（无法预测行为）与MICrONS正向验证（功能调谐预测连接）是互补而非矛盾——前者说明静态结构不够用，后者说明结构确实约束功能
+
+---
+
+## 图谱与导航更新
+
+- `wiki/_graph.json`：JSON修复+新增节点（211→214）、边（1219→1233，+14条新边）
+- `wiki/index.md`：标题更新为"第104篇"，总页数200→203，新增3个concepts条目
+- `wiki/CHANGELOG.md`：顶部插入2026-08-05条目
+
+---
+
+## 治理层更新
+
+- `state/topic_ledger.json`：新增#104条目，last_updated: 2026-08-05
+- `state/unresolved_questions.md`：新增 Q-connectome-01/02/03（3条）
+- `state/maturity_index.json`：新增 small-world-network（established/high）、rich-club（established/high）、structure-function-relationship（mainstream/medium）；更新 connectomics（rev2，supporting_sources: 9）
+- `state/monthly_synthesis.md`：添加#102-104条目到摘要表，更新截止日期为2026-08-05
+- `state/source_registry.json`：本次未更新（下次运行时随其他状态更新完成）
+
+---
+
+## 失败与限制
+
+- Matsliah 2024（FlyWire视觉系统）: 无PMC开放全文，仅摘要参考，非主要来源
+- Schlegel 2024（细胞类型注释）: 无PMC，通过主论文（Dorkenwald 2024 PMC:11446842）参照
+- source_registry.json 未在本次运行中更新（非关键，下次运行补充）
+- 富有节点与人类 DTI 对比（Hagmann 2008）：在文章中通过rich-club.md页面提及但未列为主要来源（无PMC全文，需要确认PMID）
+
+---
+
+## Git 操作
+
+- 分支：main
+- remote：http://local_proxy@127.0.0.1:xxxxx/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，确认正确）
+- 执行：git add neuro-daily/ → git commit → git pull --rebase origin main → git push origin main

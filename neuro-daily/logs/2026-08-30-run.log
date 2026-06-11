@@ -1,0 +1,158 @@
+# 运行日志 2026-08-30（文章 #130）
+
+**执行时间**：2026-06-09（UTC+8）
+**文章日期**：2026-08-30
+**分支**：main
+**状态**：完成
+
+---
+
+## 选题过程
+
+**步骤 A 状态读取**：
+- topic_ledger：最新文章 #129（2026-08-29，ACC/EVC 认知控制调度），total_articles=129
+- 最近 4 篇：#127 元可塑性、#128 三因素学习规则、#129 ACC-EVC——已在 synaptic→brain-region/cognition 层，ACC 为"调度中心"，自然下一步是解析"被调度的执行中心"DLPFC
+- wiki _graph.json：271 节点，1522 条边（操作前）
+- 前序文章 #129 的 next_suggested_topics 指向：dlpfc-rule-encoding（最高优先级），frontal-hierarchy，mixed-selectivity
+
+**选题依据**：
+1. 认知控制系列逻辑续集：#128（突触层 RL 机制）→ #129（系统层调度者 ACC）→ **#130（执行者 DLPFC 的计算原理）**
+2. dlpfc-rule-encoding、mixed-selectivity、frontal-hierarchy 三个核心概念均无专属 wiki 页——显著知识空白
+3. Miller & Cohen 2001（PMID:11283309）是被引 6000+ 次的里程碑，值得专文深挖
+4. Rigotti 2013（PMID:23685452）非线性混合选择性是近年神经计算领域最重要进展之一
+5. Stokes 2013 动态编码挑战传统持续放电模型，与 working-memory.md 的 Q-wm-active-vs-silent 直接相关
+
+**今日主题**：DLPFC 混合选择性与规则编码——前额叶的高维计算策略
+**核心问题**：DLPFC 为什么能同时表征无数种认知规则？混合选择性如何从几何上解决"表征容量爆炸"的难题？
+
+---
+
+## 文献检索
+
+**检索词**：
+- "Miller Cohen integrative theory prefrontal cortex 2001" → PMID:11283309 (Annual Review Neuroscience)
+- "Rigotti nonlinear mixed selectivity prefrontal cortex Nature 2013" → PMID:23685452
+- "Stokes activity-silent working memory dynamic coding Nature Neuroscience 2013" → PMID:23562541 (PMC4109835)
+- "Badre Frank frontal lobe hierarchical cognitive control 2009" → PMID:19252496
+- "Mian Taira Badre frontal hierarchy resting-state humans 2014" → PMID:25237099
+- "Fusi Miller Rigotti why neurons mix selectivity information theory 2016" → PMID:27178909 (PMC4927393)
+- "Dang Singh Hasegawa DLPFC single-unit human 2022" → PMID:35926402 (PMC9356526)
+- "Yusif Rodriguez Collins Badre flexible task rule encoding 2023" → PMID:37119616 (PMC10161265)
+- Lundqvist 2018 working memory activity-silent review (supplementary)
+
+**数据源**：PubMed E-utilities（esearch + efetch），PMC 全文（PMC4109835, PMC4927393, PMC9356526, PMC10161265），WebSearch 官方页面验证
+
+**候选来源**：~12 篇，采用 9 篇
+- 开放全文（7 篇）：PMC4109835 (Stokes 2013)、PMC4927393 (Fusi 2016)、PMC9356526 (Dang 2022)、PMC10161265 (Yusif Rodriguez 2023)、Annual Review Neuroscience OA (Miller & Cohen)、PMC (Badre 2009)、PMC3785960 (Rigotti 2013)
+- 仅摘要（2 篇）：PMID:25237099 (Mian 2014)、Lundqvist 2018 review
+
+**PMID 验证注意**：
+- Miller & Cohen 2001 正确 PMID = 11283309（Annual Review of Neuroscience）；初次检索返回 11280498（腹透文章），通过精确词组检索纠正
+- Rigotti 2013 正确 PMID = 23685452（Nature）；初次检索返回 23395699（食管弛缓症文章），通过 Nature 官方页核对纠正
+- PMC 链接验证：elink 返回的 PMC4412347 实际对应 PMID:23685452，经过逐个查询确认
+
+**最低要求验证**：
+- ≥5 来源：✅ 9 篇
+- ≥2 开放全文：✅ 7 篇（含 PMC 开放全文）
+- ≥1 官方机构来源：✅ Annual Review of Neuroscience（官方 OA）、Nature（Nature.com 官方页面）
+
+---
+
+## 文章写作
+
+**文章标题**：前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则
+**文件**：`neuro-daily/articles/2026-08-30-dlpfc-mixed-selectivity-rule-encoding.md`
+**实际字数**：约 5200 字（中文）
+
+**核心结构**：
+- 核心问题（表征容量悖论）→ 一句话摘要 → 重要性（认知障碍场景）→ 背景（Miller & Cohen 2001 框架）
+- 机制分层（5层）：
+  1. 混合选择性几何（Cover 定理 → 线性可分 → PR score）
+  2. 非线性 vs 线性混合（Rigotti 2013 双解离，χ²=4.7 统计量）
+  3. DLPFC 如何用 NMS 编码规则（24% 规则选择性神经元 Dang 2022）
+  4. 动态编码：活动沉默工作记忆（Stokes 2013 STSП + pattern classifier）
+  5. 额叶层级：BA46→IFS→PrePMd→M1（Badre 2009 双解离病变研究）
+- 比喻（加密矩阵，含边界说明）→ 认知地图更新（3个更新）
+- 争议与未解问题（3个：NMS形成机制、维度崩溃因果、层级是离散还是连续）
+- AI对照（表格：DLPFC NMS vs 深度学习 representation）
+- 概念卡片 → 参考来源（9条）
+
+---
+
+## 固结步骤
+
+**今日文章触及的关键概念**（slug）及处理：
+
+1. `mixed-selectivity` — **新建页面** `wiki/concepts/mixed-selectivity.md`（revision_count=1）
+   - 涵盖：纯选择性 vs 混合选择性，非线性 vs 线性，Cover 定理，PR 分数，行为双解离
+   - domain=concepts, type=mechanism, status=mainstream, confidence=high
+
+2. `dlpfc-rule-encoding` — **新建页面** `wiki/concepts/dlpfc-rule-encoding.md`（revision_count=1）
+   - 涵盖：分布式高维动态编码，偏置信号框架，动态状态轨迹，额叶层级位置，人类证据（24% 规则选择性），跨物种保守性
+   - domain=concepts, type=mechanism, status=mainstream, confidence=high
+
+3. `frontal-hierarchy` — **新建页面** `wiki/concepts/frontal-hierarchy.md`（revision_count=1）
+   - 涵盖：BA46→IFS→PrePMd→M1 四级结构，Badre 2009 病变双解离，离散层级 vs 连续梯度争议
+   - domain=concepts, type=structure, status=mainstream, confidence=medium
+
+4. `prefrontal-cortex` — **修订**（rev4→rev5）：related 新增 4 个 slug；opens_questions 新增 Q-ms-01/02；key_sources 新增 4 个 PMID；新增"dlPFC 规则编码与混合选择性"小节；新增 4 条连接；修订历史追加 2026-08-30 条目
+
+5. `anterior-cingulate-cortex` — **修订**（rev1→rev2）：related 新增 dlpfc-rule-encoding/frontal-hierarchy/mixed-selectivity；新增 3 条连接；修订历史追加 2026-08-30 条目
+
+6. `working-memory` — **修订**（rev8→rev9）：related 新增 mixed-selectivity/dlpfc-rule-encoding；key_sources 新增 PMID:23562541；source_articles 新增 #130；修订历史追加 2026-08-30 条目（Stokes 2013 动态编码证据直接涉及 Q-wm-active-vs-silent）
+
+**矛盾检查**：
+- Rigotti 2013 的 NMS 不可替代性 vs Parthasarathy 2017 "mixed selectivity 可能只是噪声"的批评：在 wiki 页面中记录为未解问题而非矛盾（因果方向不同，非直接矛盾）；不登记于 contested_claims.json
+- 额叶层级"离散层级 vs 连续梯度"的争议在 frontal-hierarchy.md 中明确记录
+
+**成熟度更新**：
+- `mixed-selectivity`：新建，mainstream/high
+- `dlpfc-rule-encoding`：新建，mainstream/high
+- `frontal-hierarchy`：新建，mainstream/medium
+
+---
+
+## 图谱更新
+
+- **操作前**：271 节点，1522 条边
+- **新增节点**（3）：mixed-selectivity、dlpfc-rule-encoding、frontal-hierarchy
+- **新增边**（13）：
+  - mixed-selectivity ↔ dlpfc-rule-encoding（co-occurs，双向）
+  - mixed-selectivity → working-memory（supports）
+  - mixed-selectivity → three-factor-learning-rule（related）
+  - dlpfc-rule-encoding → prefrontal-cortex（part-of）
+  - dlpfc-rule-encoding → frontal-hierarchy（part-of）
+  - dlpfc-rule-encoding ↔ anterior-cingulate-cortex（projects-to，双向）
+  - frontal-hierarchy → prefrontal-cortex（describes）
+  - frontal-hierarchy → working-memory（supports）
+  - frontal-hierarchy → anterior-cingulate-cortex（includes）
+  - mixed-selectivity → prefrontal-cortex（mechanism-in）
+- **操作后**：274 节点，1535 条边
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：添加条目 #130，total_articles=130，last_updated=2026-08-30
+- `unresolved_questions.md`：新增 Q-ms-01、Q-ms-02、Q-ms-03、Q-fh-01、Q-fh-02（5 个新问题）
+- `monthly_synthesis.md`：更新 2026年8月 条目（截至日期 2026-08-27 → 2026-08-30；新增 #128/#129/#130 表格行；追加认知控制三部曲叙述）
+- `wiki/CHANGELOG.md`：添加 2026-08-30 条目（3 新建页，3 修订页，图谱+3节点+13边）
+- `wiki/index.md`：更新统计（256 页，274 节点，1535 边）；新增 mixed-selectivity/dlpfc-rule-encoding/frontal-hierarchy 3 条目
+- `source_registry.json`：添加 9 个来源条目（PMIDs: 11283309, 23685452, 23562541, 19252496, 25237099, 27178909, 35926402, 37119616 及 Lundqvist 2018 review）
+
+---
+
+## Git 操作
+
+**分支**：main
+**作者**：GIT_AUTHOR_NAME=QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+**提交消息**：Add neuro daily article + wiki consolidation for 2026-08-30
+
+---
+
+## 限制说明
+
+- 9 篇来源中 2 篇仅读摘要（Mian 2014、Lundqvist 2018），均在文章中标注；核心主张均有开放全文支持
+- Rigotti 2013 PMID 初次检索出错（返回消化科文章），通过精确检索词纠正，最终 PMID:23685452 已经 PubMed 官方页核实
+- Miller & Cohen 2001 PMID 初次检索出错（返回腹透文章），通过期刊+作者检索纠正，最终 PMID:11283309 已核实
+- 额叶层级"离散 vs 连续"争议在文章和 wiki 中均如实呈现，未强行统一为单一立场

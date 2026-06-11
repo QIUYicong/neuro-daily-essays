@@ -1,0 +1,51 @@
+# 运行日志 — 2026-07-10
+
+**执行时间**：2026-07-10（系统时钟 2026-06-04 UTC+8）
+**文章编号**：#78
+**文章标题**：当卫士变成刽子手：神经炎症如何从突触守护走向突触破坏
+
+---
+
+## 选题决策
+
+- 延续 #77（HPA 轴/应激）的间接炎症路径
+- 填补 synaptic-pruning.md 和 complement-cascade-cns.md 的长期悬空引用 [[microglia]]
+- 推进高优先级问题 Q-stress-02（应激→AD 因果链的中间机制）
+
+## 来源研究
+
+- 来源总数：13篇（6篇开放全文，7篇摘要仅读）
+- 开放全文：PMC3098296、PMC5976900、PMC10548173、PMC9730634（4篇 PMC）+ CC BY 4.0 两篇（Frontiers）
+- 摘要仅读：7篇 PubMed 摘要（已标注 abstract_only）
+- 无 Sci-Hub，无付费内容，无伪造来源
+
+## Wiki 更新
+
+**新建页面（2页）**：
+- wiki/concepts/neuroinflammation.md（rev1，established/high）
+- wiki/concepts/inflammatory-cytokines-synapse.md（rev1，established/high）
+
+**修订页面（3页）**：
+- wiki/neurons/microglia.md（rev1→rev2）：合并 neuroinflammation 内容，新增 CX3CR1 轴、激活态细胞因子损伤、DAM/TREM2、慢性应激预激；related 和 opens_questions 扩展
+- wiki/concepts/glucocorticoid-hippocampus-plasticity.md（rev1→rev2）：新增小胶质细胞预激连接、CRH-mast cell-microglia 路径
+- wiki/diseases/alzheimers-disease.md（rev7→rev8）：新增神经炎症与突触损伤章节
+
+**重命名处理**：
+- wiki/systems/microglia.md 已合并至 wiki/neurons/microglia.md 后删除（防止重复节点）
+
+## 知识图谱
+
+- 节点：140→146（+6：neuroinflammation, inflammatory-cytokines-synapse, trem2, microglia-related edges update）
+- 边：814→855（+41）
+
+## 问题追踪
+
+新增 Q-inflam-01 到 Q-inflam-04
+
+## 提交信息
+
+- 提交格式：Add neuro daily article + wiki consolidation for 2026-07-10
+- 分支：main
+- 远端：QIUYicong/neuro-daily-essays
+
+## 状态：成功完成

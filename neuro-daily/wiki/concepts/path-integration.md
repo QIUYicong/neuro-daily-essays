@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
+updated: 2026-07-24
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, behavior]
-related: [grid-cells, place-cells, entorhinal-cortex, head-direction-cells, theta-oscillations, cognitive-map]
+related: [grid-cells, place-cells, entorhinal-cortex, head-direction-cells, theta-oscillations, cognitive-map, speed-cells, time-cells]
 prerequisites: [grid-cells, entorhinal-cortex, vestibular-system]
 opens_questions: [Q-gc-04]
-source_articles: [2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:16858394", "PMID:16675704", "PMID:23354386"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-24-time-cells-speed-cells-temporal-navigation]
+key_sources: ["PMID:16858394", "PMID:16675704", "PMID:23354386", "PMID:26176924", "PMID:32905779"]
 ---
 
 # 路径整合 (Path Integration)
@@ -36,6 +36,8 @@ key_sources: ["PMID:16858394", "PMID:16675704", "PMID:23354386"]
 - **前庭信号**：检测头部旋转（半规管）和线性加速度（耳石器），提供方向和加速度信息
 - **本体感受**：肢体位置和关节角度，提供运动的身体坐标信号
 - **视觉光流**（部分）：地面/环境的视觉流动模式，提供估计速度的视觉线索
+
+在细胞实现层面，**方向分量**由头向细胞（ADN→PoS→MEC联合细胞）提供，**速度分量**由MEC速度细胞（speed cells，Kropff 2015）提供——后者通过脑干PPN→基底前脑HDB→MEC通路接收运动速度信号，有约50–80ms的前瞻性偏置（Carvalho 2020，PMID:32905779）。
 
 ### 2. 神经实现：MEC联合细胞
 
@@ -75,6 +77,10 @@ McNaughton等2006（PMID: 16858394）的主流计算模型：
 - [[entorhinal-cortex]] — 路径整合的主要神经底层位于MEC
 - [[cognitive-map]] — 路径整合是认知地图自主更新的机制，使地图不依赖外部输入
 - [[theta-oscillations]] — 振荡干涉模型中，θ振荡参与路径整合状态的相位更新
+- [[head-direction-cells]] — 头向细胞（ADN-PoS-MEC深层）提供路径整合必需的方向分量；联合细胞将HD×速度整合进坐标更新
+- [[border-cells]] — 边界细胞是路径整合漂移的外部锚点：动物到达墙壁时边界细胞激活，校正网格吸引子的累积误差
+- [[speed-cells]] — MEC速度细胞是路径整合速度输入的细胞实现，通过PPN→HDB→MEC通路从脑干运动区获取速度信号
+- [[time-cells]] — 时间细胞是时间维度的路径整合类比：在记忆任务中以序列激活追踪时间流逝，类似场所细胞追踪空间位置
 
 ## 未解问题
 
@@ -83,7 +89,10 @@ McNaughton等2006（PMID: 16858394）的主流计算模型：
 ## 修订历史
 
 - 2026-06-22 · 创建 · 基于《六边形的秘密》文章 · 初始置信度：高
+- 2026-07-22 · 修订 rev2 · 基于《大脑的内置罗盘》文章 #90 · 新增 head-direction-cells 和 border-cells 为已填补的相关节点（原为悬空引用）；修订历史追加 · 来源：PMID:2303851, PMID:19095945
+- 2026-07-24 · 修订 rev3 · 基于《大脑的第四维罗盘》文章 #92 · 新增速度细胞为速度输入的细胞实现（Kropff 2015, Carvalho 2020）；新增时间细胞作为时间路径整合的类比连接；related/key_sources更新
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
+- [[2026-07-22-head-direction-cells-border-cells]]

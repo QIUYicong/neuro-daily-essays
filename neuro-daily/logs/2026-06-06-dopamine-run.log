@@ -1,0 +1,122 @@
+# 运行日志：2026-06-06 多巴胺能系统解剖
+
+**运行时间**：2026-06-06 UTC+8 11:00
+**文章编号**：#101
+**分支**：main（从 claude/funny-einstein-zeldE 切换至 main 并同步最新）
+**状态**：✅ 完成（本地产出完整，推送待执行）
+
+---
+
+## 选题过程
+
+**背景**：仓库已有 100 篇文章（至 2026-08-01），但 2026-06-06 日期仅有周综合（#14），缺少正式研究文章。今日系统日期确认为 2026-06-06，按 ROUTINE.md 执行今日任务。
+
+**选题优先级评估**：
+- 突破追踪：无近期（7天内）重大发现需追踪
+- 裁决矛盾：现有矛盾（IIT/GNW，SNARE，gliotransmitter，LHb）均不在今日主题范围
+- 填补悬空引用：前序文章（2026-06-05 前额叶工作记忆）和后序文章（2026-06-07 多巴胺RPE）之间存在解剖基础缺口
+- 课程脊柱：Track 5（认知控制·奖励学习·预测误差）在此阶段需要多巴胺系统解剖作为计算原理的先决条件
+
+**最终选题**：多巴胺能系统的三重回路解剖（VTA/SNc/D1/D2/VTA异质性/遗传亚型）
+
+---
+
+## 文献检索
+
+**搜索词**：
+1. "dopamine VTA SNc mesolimbic mesocortical D1 D2 receptor signaling review PubMed"
+2. "dopamine D1 D2 receptor opposing effects striatum prefrontal cortex open access review 2020 2021 2022"
+3. "VTA dopamine neurons heterogeneity molecular identity reward aversion 2021 2022 2023 PMC open access"
+4. "dopamine receptor D1 Gs cAMP PKA DARPP-32 D2 Gi striatum direct indirect pathway mechanism review PMC"
+5. "substantia nigra VTA anatomy dopamine neurons A8 A9 A10 review"
+6. "prefrontal cortex dopamine D1 receptor inverted-U working memory Goldman-Rakic Arnsten review PMC open access"
+7. "dopamine neurons glutamate GABA co-release co-transmission VTA NAc PMC 2019 2020 2021"
+
+**数据库**：PubMed, PubMed Central (PMC), Europe PMC
+
+**候选文章**：~15 篇（包含综述、原始研究、荟萃分析）
+
+---
+
+## 采用来源
+
+| # | PMID | 类型 | 全文 | 用途 |
+|---|------|------|------|------|
+| 1 | 24130517 (PMC3782727) | 综述 | ✅ | D1/D2 信号通路基础，中脑边缘概述 |
+| 2 | 35226827 (PMC9271543) | 年度综述 | ✅ | VTA 拓扑异质性，NAc 亚区分化 |
+| 3 | 37537242 (PMC10545540) | 原始研究 | ✅ | SNc 遗传亚型功能分化（Anxa1+新发现）|
+| 4 | 30716356 (PMC6450565) | 综述 | ✅ | D2 三重角色，自受体遗传敲除 |
+| 5 | 24735820 (PMC4195813) | 解剖综述 | ✅ | VTA/SNc 连接全图，三层传入，共递质 |
+| 6 | 35389678 (PMC9364670) | 荟萃分析 | ✅ | PFC D1 倒U型定量分析（75项研究）|
+| 7 | NINDS 官方页面 | 官方机构 | ✅ | 帕金森病黑质纹状体通路背景 |
+
+**排除来源**：
+- Schultz 1997 (PMID:9054347) —— RPE经典论文，保留给明天的计算原理文章
+
+**全文可用数**：6/7（100%）
+**官方机构来源**：1（NINDS）
+
+---
+
+## 文章质量评估
+
+**字数估算**：~4500 字（符合 3000-6000 字要求）
+**核心问题**：✅ 明确（三重回路如何用一种分子说三种语言）
+**机制分层**：✅ 六层（合成路径→三条通路→D1/D2信号→D2三重角色→VTA拓扑异质性→遗传亚型→PFC倒U型→共递质）
+**比喻**：✅ 有（交响乐团/三声部）且明确说明失效范围
+**不确定性标注**：✅ 明确标注 Anxa1+ 亚型"首次报告，待复制"
+**来源引用**：✅ 每条核心主张都对应来源 PMID/PMCID
+**医学建议**：无（符合规范）
+
+---
+
+## wiki 固结步骤
+
+**新建 wiki 页面（4）**：
+- wiki/systems/vta.md（腹侧被盖区）— revision_count=1
+- wiki/systems/substantia-nigra.md（黑质）— revision_count=1
+- wiki/concepts/d1-d2-receptor-signaling.md（D1/D2 受体信号）— revision_count=1
+- wiki/concepts/direct-indirect-pathway.md（直接/间接通路）— revision_count=1
+
+**修订 wiki 页面（1）**：
+- wiki/concepts/dopamine-reward-prediction-error.md：rev9→rev10；新增 prerequisites, related, source_articles
+
+**矛盾检查**：无矛盾（今日内容与现有 wiki 主张一致；dopamine-reward-prediction-error.md 中已有 D1/D2 简述，今日内容为扩充而非冲突）
+
+**成熟度评估**：
+- 三条通路解剖：established → 无变化
+- VTA 拓扑异质性：emerging → mainstream（多实验室验证，年度综述确认）
+- SNc Anxa1+亚型：speculative → emerging（Nat Neurosci 单篇，高质量，需复制）
+- D1/D2 信号机制：established → 无变化
+
+---
+
+## 状态文件更新
+
+- topic_ledger.json：✅ 新增条目（同时修复了现有 JSON 转义 bug）
+- unresolved_questions.md：✅ 追加 Q-da-anxa1 / Q-da-aversion / Q-d1-inverted-u-mechanism
+- source_registry.json：✅ 追加 6 条新来源
+- monthly_synthesis.md：✅ 追加今日条目
+
+---
+
+## Git 操作
+
+**分支**：main
+**待推送文件**：
+- neuro-daily/articles/2026-06-06-dopamine-systems-anatomy.md
+- neuro-daily/notes/2026-06-06-dopamine-reading-notes.md
+- neuro-daily/sources/2026-06-06-dopamine-sources.json
+- neuro-daily/logs/2026-06-06-dopamine-run.log
+- neuro-daily/wiki/systems/vta.md（新）
+- neuro-daily/wiki/systems/substantia-nigra.md（新）
+- neuro-daily/wiki/concepts/d1-d2-receptor-signaling.md（新）
+- neuro-daily/wiki/concepts/direct-indirect-pathway.md（新）
+- neuro-daily/wiki/concepts/dopamine-reward-prediction-error.md（修订）
+- neuro-daily/wiki/CHANGELOG.md（追加）
+- neuro-daily/state/topic_ledger.json（修复+追加）
+- neuro-daily/state/unresolved_questions.md（追加）
+- neuro-daily/state/source_registry.json（追加）
+- neuro-daily/state/monthly_synthesis.md（追加）
+
+**推送目标**：origin main（QIUYicong/neuro-daily-essays）

@@ -1,0 +1,138 @@
+# 运行日志 — 2026-09-14
+
+**实际执行时间**：2026-06-11 UTC+8（系统 UTC 时间：2026-06-10 23:00）
+**文章编号**：#144
+**文章标题**：多巴胺双面刃：前额叶 D1 受体如何雕刻工作记忆的倒 U 型曲线
+**Slug**：dopamine-d1-prefrontal-working-memory
+
+---
+
+## 0. 分支/仓库确认
+
+- **仓库**：QIUYicong/neuro-daily-essays（origin 包含正确 owner）
+- **分支**：main（已 reset --hard 至 origin/main 83a5df6，消除本地与 origin 的历史分叉）
+- **理由**：本地 main 与 origin/main 存在不相关历史（各自 51/50 commits）；origin/main 为权威状态（最新至 2026-09-13），reset 后以 origin/main 为基础继续工作
+
+---
+
+## A. 状态读取
+
+- `state/topic_ledger.json`：文件 450KB+，尾部读取成功；最新条目为 2026-09-13（#143，PV-γ-SCZ）；next_suggested_topics 包含 nmda-receptor-subtypes、dopamine-prefrontal-interaction、schizophrenia-genetics-circuits
+- `state/contested_claims.json`：最新矛盾为 C-2026-09-02-01（小脑前向模型 vs 前馈映射，open）
+- `wiki/_graph.json`：287 节点，1628 边（更新前）；无严重悬空引用
+- `wiki/index.md`、`state/monthly_synthesis.md`：读取尾部确认最新条目
+
+---
+
+## B. 选题
+
+**选题依据**：优先级 B2（next_suggested_topics 中的 dopamine-prefrontal-interaction）；同时响应层级平衡（前两日 molecular/microcircuit，今日 brain-region/cognition）
+
+**今日选题**：多巴胺 D1 受体 PFC 倒 U 型工作记忆调控机制
+
+**缩小策略**：主题不是"多巴胺与认知"（过大），而是"dlPFC D1R 如何通过 HCN 通道在树突棘上实现倒 U 型信噪比调控"
+
+**同时解答 wiki 开放问题**：Q-d1-inverted-u-mechanism（D1 倒 U 翻转的精确分子节点）
+
+---
+
+## C. 检索记录
+
+### 检索词
+- `dopamine D1 receptor prefrontal cortex working memory inverted U`
+- `Arnsten dopamine prefrontal stress working memory`
+- `Goldman-Rakic dopamine D1 working memory primate`
+- `Arnsten Wang dopamine D1 cAMP HCN prefrontal spine working memory`
+- `PET D1 receptor prefrontal schizophrenia reduced cognitive`
+- `guanfacine alpha2A adrenergic prefrontal working memory ADHD HCN`
+
+### 数据来源
+- PubMed（摘要检索）：WebFetch 访问多个 PubMed 搜索页
+- PMC 开放全文：PMC4524795（Gamo 2015）、PMC3649671（Paspalas 2013）、PMC9364670（Weber 2022）、PMC4485013（Arnsten 2015 Pharmacol Rev）
+- Arnsten 实验室官方网站（Yale medicine）：获取机制概述
+- WebSearch：补充获取关键 PMID 和机制描述
+
+### 检索候选数
+- 初始检索：约 20 篇相关论文
+- 采用：14 篇（8 篇确认 PMC 开放全文，6 篇摘要）
+- 排除原因：部分综述重复覆盖相同内容；部分动物行为研究与本日核心机制叙述关联度低
+
+### 来源质量评估
+- 核心机制证据（高质量）：PMID:17277774（Nature Neuroscience 原始研究），PMID:25731884（Biological Psychiatry，因果验证），PMID:22693343（Cerebral Cortex，解剖证据）
+- 统计基础（荟萃分析）：PMID:35389678
+- 奠基研究：PMID:1825731（Science 1991），PMID:9334425（J Neurosci 1997）
+- 人类证据：PMID:9024661（PET Nature 1997）——摘要确认，未读全文（标注于文章来源表）
+- 综述：PMID:26106146, PMID:26946382, PMID:15118803
+
+---
+
+## D. 固结
+
+### 今日触及概念及处理
+1. **dopamine-pfc-inverted-u**：新建 `wiki/concepts/dopamine-pfc-inverted-u.md`（rev1）
+2. **d1-d2-receptor-signaling**：修订 rev1→rev2（解答 Q-d1-inverted-u-mechanism，更新 related/dimensions/opens_questions）
+3. **working-memory**：修订 rev9→rev10（新增 DA 调控分子层内容，更新 related/key_sources/修订历史）
+
+### 矛盾检查
+- 新内容与 working-memory.md 现有内容一致（NE/α2A 机制已在 2026-06-12 修订中提到，今日深化）
+- 新矛盾登记：C-2026-09-14-01（SCZ D1R PET 结果方向争议，open）
+
+---
+
+## E. 图谱与导航更新
+
+- `wiki/_graph.json`：288 节点（+1），1637 边（+9），更新日期 2026-09-14
+- `wiki/index.md`：新增 dopamine-pfc-inverted-u 条目；d1-d2-receptor-signaling 更新说明
+- `wiki/CHANGELOG.md`：2026-09-14 新条目置于顶部
+
+---
+
+## F. 治理层更新
+
+- `state/topic_ledger.json`：追加今日条目（#144）
+- `state/contested_claims.json`：追加 C-2026-09-14-01；last_updated 更新
+- `state/monthly_synthesis.md`：追加 2026-09-14 摘要段落
+
+---
+
+## G. 提交与推送
+
+- **文章**：`neuro-daily/articles/2026-09-14-dopamine-d1-prefrontal-working-memory.md` ✅
+- **笔记**：`neuro-daily/notes/2026-09-14-reading-notes.md` ✅
+- **来源**：`neuro-daily/sources/2026-09-14-sources.json` ✅
+- **新建 wiki**：`neuro-daily/wiki/concepts/dopamine-pfc-inverted-u.md` ✅
+- **修订 wiki**：`d1-d2-receptor-signaling.md`（rev2）、`working-memory.md`（rev10）✅
+- **图谱/导航**：`_graph.json`、`index.md`、`CHANGELOG.md` ✅
+- **状态**：`topic_ledger.json`、`contested_claims.json`、`monthly_synthesis.md` ✅
+- **Push 结果**：[待更新]
+
+---
+
+## H. 自检清单
+
+- [x] wiki 每条新主张有来源（PMID/DOI/URL）
+- [x] 区分了事实 / 主流模型 / 推测 / 争议（Okubo 1997 PET 争议已登记）
+- [x] 没有把单篇/小样本/动物研究写成定论（特别注明猴子→大鼠→人类的推广限制）
+- [x] 被修订页 updated/revision_count/修订历史同步更新
+- [x] _graph.json 新悬空边已登记（hcn-channel 待建页面）
+- [x] index.md 与 CHANGELOG.md 反映今日变化
+- [x] 新页 related/prerequisites 各填≥1
+- [x] 文章/笔记/来源/日志齐全
+
+---
+
+## 失败与限制
+
+- Okubo 1997 (Nature, PMID:9024661) 原文无法开放获取，使用摘要；在文章中明确标注
+- Vijayraghavan 2007 (Nature Neuroscience, PMID:17277774) 原文付费；使用 PubMed 摘要确认 + 第三方摘要信息；已标注
+- `state/topic_ledger.json` 文件大（450KB），使用 Python 脚本尾部追加，未全文重写
+- PMC ID PMC3787958 尝试访问但返回错误内容（非目标论文），改用其他 PMC 来源
+
+---
+
+## Commit/Push 信息
+
+- **Commit Hash**：7e9ecc2
+- **Push 状态**：✅ 成功推送至 origin/main
+- **Branch**：main
+- **Remote**：origin → QIUYicong/neuro-daily-essays

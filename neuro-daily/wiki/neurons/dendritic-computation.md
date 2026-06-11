@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-27
-updated: 2026-06-11
-revision_count: 4
+updated: 2026-08-26
+revision_count: 5
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission, place-cell, btsp, hippocampal-circuit, sst-interneurons, pv-interneurons, synaptic-clustering, orientation-selectivity, v1-primary-visual-cortex]
+related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission, place-cell, btsp, hippocampal-circuit, sst-interneurons, pv-interneurons, synaptic-clustering, orientation-selectivity, v1-primary-visual-cortex, backpropagating-action-potential, a-type-potassium-channel]
 prerequisites: [action-potential, nmda-receptor, synaptic-transmission]
 opens_questions: [Q-synaptic-clustering-prevalence, Q-dendritic-spike-in-vivo-frequency, Q-inhibition-dendritic-spike-control]
 source_articles: [2026-05-27-dendritic-computation, 2026-05-28-place-cells-btsp, 2026-06-11-v1-orientation-selectivity]
@@ -95,12 +95,25 @@ key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147"
 - Q-dendritic-spike-in-vivo-frequency：清醒自由行为动物中，正常行为条件下树突棘波的发生频率是多少？
 - Q-inhibition-dendritic-spike-control：不同类型抑制性中间神经元（SST+、PV+、VIP+）如何精确调控树突棘波的阈值和时间窗？
 
+## bAP 作为树突计算的前提条件（2026-08-26 新增）
+
+树突计算（NMDA 棘波、Ca²⁺ 棘波）的可塑性效果依赖于一个关键的**"学习信号传递"机制**：bAP（回传动作电位）。
+
+bAP 是树突上发生突触学习的必要前提（对于 STDP 机制而言）——它将"细胞体刚刚放电"的信息逆向传播至每根树突棘，与局部 EPSP 的时序叠加决定 Ca²⁺ 动力学方向。树突 A 型 K+ 通道（I_A）密度梯度（Hoffman et al. 1997）将 bAP 变成一个位置依赖的选择性信号：只有近期有突触活动的棘（I_A 因 EPSP 而部分失活）才能收到充分的 bAP 去极化。
+
+**细胞多样性对树突计算的影响**（Schamiloglu et al. 2025，PMID:41093758）：
+PFC L5 三类锥体神经元亚型（D1R+、D2R+、D3R+）的 bAP-Ca²⁺ 超线性从近线性（D2R+）到高度非线性（D3R+）差异显著：
+- D3R+ 细胞的树突计算是**高度非线性**的（Cav1/Cav3 依赖）
+- D2R+ 细胞更接近线性整合
+这说明树突的"计算模式"不是所有锥体神经元统一的，而是由细胞类型身份决定的。
+
 ## 修订历史
 
 - 2026-05-27 · 创建 · 基于《树突：神经元内部的神经网络》一文 · 填补 Hodgkin-Huxley 模型页的悬空引用 · 初始置信度：高
 - 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增钙平台电位→BTSP 连接；更新 related 增加 place-cell, btsp, hippocampal-circuit；dimensions 增加 brain-region
 - 2026-06-03 · 修订 · 基于《回路中的少数精锐》文章 · 新增 SST+ 和 PV+ 中间神经元对树突计算的调控连接；Q-inhibition-dendritic-spike-control 现有对应 wiki 页面（sst-interneurons）
 - 2026-06-11 · 修订 · 基于《V1初级视觉皮层方向选择性》文章 · 新增突触聚类（synaptic-clustering）体内证据（Wilson 2016）；部分解答 Q-synaptic-clustering-prevalence；related 新增 synaptic-clustering, orientation-selectivity, v1-primary-visual-cortex；key_sources 新增 PMID:27383898
+- 2026-08-26 · 修订 · 基于《逆流而上》(#124) · 新增 bAP 作为树突计算前提条件的段落；新增 Schamiloglu 2025 细胞多样性数据；related 新增 backpropagating-action-potential, a-type-potassium-channel
 
 ## V1 中的突触聚类证据（2026-06-11 新增）
 

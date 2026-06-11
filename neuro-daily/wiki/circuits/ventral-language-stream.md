@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-06-20
-revision_count: 1
+updated: 2026-08-23
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [language-network, broca-area, dorsal-language-stream, default-mode-network]
+related: [language-network, broca-area, dorsal-language-stream, default-mode-network, anterior-temporal-lobe-hub, embodied-semantics]
 prerequisites: [language-network]
-opens_questions: [Q-lang-02, Q-lang-07]
-source_articles: [2026-06-20-language-dual-stream]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:38267261"]
+opens_questions: [Q-lang-01, Q-lang-02, Q-lang-07]
+source_articles: [2026-06-20-language-dual-stream, 2026-07-15-language-network-dual-stream]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:38267261", "PMID:35267079", "PMID:28053037", "PMID:35094061", "PMID:22723684", "PMID:37099422"]
 ---
 
 # 腹侧语言流 (Ventral Language Stream)
@@ -31,16 +31,23 @@ key_sources: ["PMID:17431404", "PMID:29360947", "PMID:38267261"]
 4. **角回（BA39）/ 缘上回（SMG）**：多模态语义整合，是默认模式网络（DMN）节点
 5. **BA45（pars triangularis，Broca区前部）**：语义工作记忆
 
-**主要白质通路**：
-- 下额枕束（IFOF）：连接枕叶/颞下到额叶
-- 钩束（UF）：连接前颞叶到额叶眶部/BA45
-- 注意：**弓状束（AF）不是腹侧流主要通路**（AF是背侧流的）
+**主要白质通路**（Sefcikova et al. 2022, PMID:35267079，DES临床验证）：
+- **下额枕束（IFOF）**：连接枕叶/颞叶/顶叶到前额叶，四叶联通，是最广泛的腹流束，支持语义处理和多模态整合；DES刺激→语义性错语
+- **钩束（uncinate fasciculus, UF）**：连接前颞叶←→额叶前极，三段式结构（颞侧/岛叶/额侧），对命名（著名面孔、专有名称）关键；DES刺激→命名失败
+- **下纵束（ILF）**：连接枕叶←→颞叶前部（ATL），三支（舌回/梭状回/枕外侧），对阅读和视觉词形识别（VWFA）关键；DES刺激→纯失读
+- **中纵束（MLF）**：连接颞上回←→颞顶-枕，可能在腹流与背流之间架桥；临床数据有限
+- 注意：**弓状束（AF）背侧段不是腹侧流主要通路**（AF是背侧流的）
+
+**关键枢纽：前颞叶（ATL）**：前颞叶（anterior temporal lobe）是腹侧流的语义整合枢纽，hub-and-spoke模型的hub（→见[[anterior-temporal-lobe-hub]]）。
 
 **具身语义（Embodied Semantics）**：
 腹侧流的词义提取不只是"查字典"——词义与感觉运动模拟密不可分（Grisoni et al. 2024）：
 - 听到/理解工具词（锤子、剪刀）→ 额顶**运动皮层**激活（模拟使用动作）
 - 听到/理解动物词（狗、老鹰）→ 后部**视觉皮层**激活（模拟动物外观）
 大脑在词出现前200ms就生成这种具身预测，说明语义处理是主动的感觉运动模拟，而非被动符号提取。
+
+**预测回路（IFG → STG/STS 反馈）**：
+腹侧流不只是自下而上的"声音→词义"单向通路。额下回（BA45，腹侧流的额叶终点）持续向颞叶（STG/STS）发送自上而下的语义预测（Sohoglu & Davis 2012，PMID:22723684），IFG 对先验知识的响应早于颞叶。这意味着腹侧流既是上行的意义提取通路，也是下行的语义预测通路——理解是双向循环，而非单向流水线。Cope & Davis 2023（PMID:37099422）进一步发现运动皮层也参与实例化语音预测，提示腹侧流的高层预测部分通过背侧流/运动系统传递。
 
 **右半球的贡献**：
 腹侧流在右半球也有实质性功能，特别是：
@@ -78,6 +85,9 @@ BA45（Broca区前部）：语义工作记忆
 | MTG是词义提取核心位点（激活名词和动词） | fMRI词汇激活研究 | 多项fMRI综述 | 高 |
 | 工具词预测→运动皮层预激活；动物词预测→视觉皮层预激活 | 高密度EEG预测电位 | PMID:38267261 | 中高 |
 | 角回（BA39）是腹侧流和DMN的共享语义节点 | fMRI休息态 + 任务态元分析 | 多项综述 | 高 |
+| 左ATL的网络连接度与语义成绩正相关（r=0.35-0.46），网络断连效应 | 86名脑损伤患者病变-网络分析 | PMID:28053037 | 高 |
+| ATL在0-250ms激活（早期语义枢纽），角回在250-450ms接管（晚期协调枢纽） | 同步EEG/MEG + DCM | PMID:35094061 | 高 |
+| 腹流四大白质束（IFOF/UF/ILF/MLF）功能可被DES直接分离 | 清醒脑肿瘤手术DES | PMID:35267079 | 高 |
 
 ## 连接
 
@@ -94,7 +104,10 @@ BA45（Broca区前部）：语义工作记忆
 ## 修订历史
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
+- 2026-07-15 · 修订 · 新增腹流四大白质束详细描述（IFOF/UF/ILF/MLF，来自Sefcikova 2022）；新增ATL作为腹流语义枢纽的证据（Zhao 2017/Farahibozorg 2022）；新增三条证据表行；更新related字段添加anterior-temporal-lobe-hub
+- 2026-08-23 · 修订 · 基于文章#121《从声波到意义》· 新增"预测回路（IFG → STG/STS 反馈）"段落；整合 Sohoglu & Davis 2012 和 Cope & Davis 2023 对腹侧流自上而下预测机制的证据；key_sources 新增 PMID:22723684 和 PMID:37099422
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
+- [[2026-07-15-language-network-dual-stream]]

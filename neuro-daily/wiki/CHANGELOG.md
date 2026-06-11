@@ -4,6 +4,1426 @@
 
 ---
 
+## 2026-09-18（文章 #148：θ序列——大脑如何在每个节律脉冲中同时容纳过去、当下与未来）
+
+**今日主题：** θ序列（theta sequences）的完整机制——相位进动的群体效应、10:1时间压缩、CA3/CA1分工（Dragoi & Buzsáki 2006）、θ振荡内前向/逆向双序列（Wang et al. 2020, Science）、前瞻性扫描（Pfeiffer & Foster 2013, Nature）、内侧隔核相位框架（Petersen & Buzsáki 2020, Neuron）、DG/MEC回路分工（Ahmadi 2025）、人类证据（Reddy 2021）；填补medial-septum悬空引用
+
+### 新建 wiki 页面（2 个）
+- `wiki/concepts/theta-sequences.md` — θ序列 | established / high | 核心机制：相位进动→群体θ序列（10:1压缩）→前向（CA3）/逆向（EC III）双向序列（PMID:33033222）→前瞻性扫描（PMID:23594744）→相位坐标框架（PMID:32526196）→DG/MEC回路分工（PMID:39746924）→人类MTL证据（PMID:34376673）
+- `wiki/systems/medial-septum.md` — 内侧隔核 | established / high | 填补dangling reference；MS-DBB为θ振荡主要起搏器；MS冷却实验：距离-相位压缩保留（P=0.92）但行为错误增加3倍；θ序列以相位为坐标
+
+### 修订 wiki 页面（2 个）
+- `wiki/concepts/theta-phase-precession.md`（rev1→rev2）：关键证据表从4行扩展至10行（新增：Skaggs 1996压缩比、Dragoi 2006 CA3/CA1分工、Pfeiffer 2013前瞻性扫描、Petersen 2020 MS冷却、Wang 2020双向序列、Ahmadi 2025 DG回路、Reddy 2021人类证据）；连接新增theta-sequences/medial-septum/entorhinal-cortex/sharp-wave-ripples；opens_questions新增Q-ts-01/Q-ts-02/Q-ts-03；key_sources从2个扩展到10个
+- `wiki/concepts/theta-oscillations.md`（rev4→rev5）：related新增theta-sequences/medial-septum；key_sources新增PMID:32526196/33033222；opens_questions新增Q-ts-01；source_articles新增2026-09-18
+
+### 登记或裁决矛盾
+- **无新矛盾登记**（今日文章的证据与既有wiki主张一致；双向序列属于新发现而非与旧观点冲突）
+
+### 填补悬空引用
+- `medial-septum` → 已于本日创建wiki/systems/medial-septum.md，填补theta-oscillations页面的dangling reference
+
+### 新增悬空引用（待补页面）
+- `path-integration` — θ序列的前瞻性扫描（prospective sweeps）与路径整合密切相关；theta-sequences页面引用
+
+### 图谱变化
+- 节点：300 → 302（+2：theta-sequences、medial-septum）
+- 边：1733 → 1745（+12）
+
+### 新增未解问题（4 条）
+- **Q-ts-01**（高优先）：θ序列/相位进动在非空间情节记忆中是否存在？
+- **Q-ts-02**（高优先）：双向θ序列的CA3/EC III回路假说需光遗传学因果验证
+- **Q-ts-03**（中优先）：STDP vs BTSP的相对贡献？两者是否分管不同时间尺度？
+- **Q-ts-04**（中优先）：MS冷却后行为错误增加3倍但相位框架保留——确切原因？
+
+---
+
+## 2026-09-15（文章 #145：NMDA 受体的两张脸——GluN2B→GluN2A 发育切换与突触可塑性阈值的终身漂移）
+
+**今日主题：** NMDA 受体 GluN2B→GluN2A 亚单位发育切换的分子机制（REST 表观遗传沉默 + GluN2A 浓度驱动）；切换如何升高 LTP 阈值（CaMKII-GluN2B 锚定机制）；人类皮层切换峰值约 36 岁（Siu 2017）；老年期 GluN2A 骤降 75%；"更多 GluN2A ≠ 更好"（Li 2022）；部分解答 Q-glun2-switch-development
+
+### 新建 wiki 页面（1 个）
+- `wiki/concepts/glun2-developmental-switch.md` — GluN2 亚单位发育切换 | established / high | REST 驱动 GluN2B 下调 + GluN2A 浓度主导切换（McKay 2018）；人类皮层 GluN2A:2B 峰值约 36 岁、老年期骤降 75%（Siu 2017）；CaMKII-GluN2B 物理结合是 LTP 充要条件（Nicoll 2023）；GluN2A 过量损害 LTP+LTD+认知（Li 2022）；BCM 修改阈值的分子底层
+
+### 修订 wiki 页面（1 个）
+- `wiki/concepts/nmda-receptor.md`（rev4→rev5）：新增第五重角色"GluN2 亚单位切换与突触可塑性阈值的终身调节"小节；GluN2B/2A 衰减时间常数对比；人类峰值数据；CaMKII-GluN2B 锚定机制；"平衡优于最大化"；related 新增 glun2-developmental-switch, bcm-rule, critical-period-plasticity；key_sources 新增 PMID:22960932, 28554889, 37290118, 35484243；opens_questions 新增 Q-glun2-triheteromeric-region-ratio；source_articles 新增 2026-09-15 文章
+
+### 登记或裁决矛盾
+- **新登记 C-2026-09-15-01**："GluN2A 促 LTP / GluN2B 促 LTD" 历史模型 vs 当前证据（over-simplified claim）→ 登记为 contested，见 state/contested_claims.json
+
+### 新增悬空引用（待补页面）
+- 无新增（aging 页面尚未创建，但为 glun2-developmental-switch 的 related，已标记）
+
+### 图谱变化
+- 节点：296 → 297（+1：glun2-developmental-switch）
+- 边：1703 → 1711（+8）
+
+### 新增未解问题（3 条）
+- Q-glun2-switch-upstream-rest（高）：REST 激活本身的上游信号是什么？
+- Q-glun2-triheteromeric-region-ratio（中）：成熟突触三异四聚体比例的脑区特异性？
+- Q-aging-glun2a-loss-mechanism（中）：老年期 GluN2A 选择性骤降的精确机制？
+
+### 部分解答开放问题（1 条）
+- Q-glun2-switch-development（部分解答）：切换由 REST 表观遗传沉默 + GluN2A 浓度共同驱动，非 CTD 特异性机制；人类切换漫长（峰值约 36 岁）。未解部分：REST 激活上游信号、三异四聚体脑区比例、老年期骤降机制
+
+---
+
+## 2026-09-14（文章 #144：多巴胺双面刃——前额叶 D1 受体倒 U 型工作记忆调控）
+
+**今日主题：** 多巴胺 D1 受体对前额叶 dlPFC 工作记忆的倒 U 型调控机制；D1R-cAMP-HCN 通道分子级联；低剂量滤噪 vs 高剂量全面压制；D1R（层III棘 Delay cells）vs D2R（层V树突干 Response cells）解剖分工；应激→DA/NE过载→HCN开放→PFC关闭；SCZ认知症状（Okubo 1997 PET）；胍法辛 α2A 机制；解答 Q-d1-inverted-u-mechanism
+
+**新建 wiki 页面（1 个）：**
+- `wiki/concepts/dopamine-pfc-inverted-u.md`（新建，rev1）：D1R→cAMP→HCN/KCNQ门控机制完整页；低/高剂量细胞级联；D1/D2解剖分工表；α2A拮抗对；应激路径；D1R vs WM方差26%（荟萃分析）；Q-d1-pfc-01/02/03新增；confidence=high；Q-d1-inverted-u-mechanism标注已解答
+
+**修订 wiki 页面（2 个）：**
+- `wiki/concepts/d1-d2-receptor-signaling.md`（rev1→rev2）：opens_questions 删除已解答 Q-d1-inverted-u-mechanism；在未解问题中标注"✅已解答"并指向 dopamine-pfc-inverted-u 页；related 新增 dopamine-pfc-inverted-u, hcn-channel；dimensions 新增 cognition；source_articles 新增今日文章
+- `wiki/concepts/working-memory.md`（rev9→rev10）：related 新增 dopamine-pfc-inverted-u, d1-d2-receptor-signaling；dimensions 新增 molecular；source_articles 新增今日文章；修订历史追加今日条目；key_sources 新增 PMID:17277774, PMID:25731884, PMID:35389678
+
+**登记或裁决矛盾：**
+- Q-d1-inverted-u-mechanism：今日文章因果确认 HCN 通道大量开放是高剂量 D1R 损害 WM 的充要机制（ZD7288 逆转实验），此前 d1-d2-receptor-signaling.md 的 open question 已标注为 resolved（非矛盾，是机制补全）
+- SCZ 的 D1R PET 发现仍存在争议（Okubo 1997 vs Cumming 2021 综述提及部分研究反而上调），登记为 contested（见 state/contested_claims.json，C-2026-09-14-01）
+
+**新增悬空引用（待补）：**
+- `hcn-channel`：HCN 通道页面在本文中多次被提及（dopamine-pfc-inverted-u.md 的 related 和 working-memory.md 中的 NE 段落引用），尚无独立 wiki 页，建议下次写"HCN 通道与 PFC 认知"时创建
+
+**图谱变化：** 288节点（+1：dopamine-pfc-inverted-u），1637边（+9）
+
+**新增未解问题（3 条）：**
+- Q-d1-pfc-01（中）：人类 dlPFC D1R-HCN2 共定位的解剖证据——目前主要来自猕猴，人类解剖学验证缺失
+- Q-d1-pfc-02（高）：SCZ 患者 dlPFC D1R PET 结合力变化方向（减少 vs 增加）——不同研究结论矛盾，是否与发病阶段/药物史相关？
+- Q-d1-pfc-03（中）：D1R 激活 PV 中间神经元（增强抑制）vs D1R 直接激活锥体棘（HCN 门控）两条路径在活体 WM 任务中各自贡献比例
+
+---
+
+## 2026-09-12（文章 #142：TrkB受体的三重角色）
+
+**今日主题：** TrkB受体结构（Y490/Y816磷酸化节点，三通路）、PV细胞成熟时钟（Huang 1999）、PNN-PTPσ-TrkB关键期闸门（Lesnikova 2021）、成年海马新生神经元4-6周存活判决（PNAS 2008）、TrkB跨膜域变构靶点（Li 2024）、TrkB/mGluR5交叉对话（Arefin 2026）、截断型TrkB.T1独立信号功能
+
+**新建 wiki 页面（1 个）：**
+- `wiki/concepts/trkb-receptor.md`（新建，rev1）：TrkB受体完整机制页；三通路分工表（MAPK/ERK、PI3K/Akt、PLCγ）；PNN-PTPσ封锁机制；TrkB.T1主动信号功能表；三个生理角色（PV细胞时钟/关键期闸门/AHN存活判决）；Q-trkb-01/02/03新增；confidence=high（基础结构/三通路），medium（TrkB.T1独立信号/2026新发现）
+
+**修订 wiki 页面（2 个）：**
+- `wiki/concepts/bdnf.md`（rev3→rev4）：新增TrkB跨膜域作为多类抗抑郁药变构靶点段落（Li 2024，PMID:38433044）；新增TrkB/mGluR5双模式交叉对话段落（Arefin 2026，PMID:42066082）；related新增trkb-receptor；key_sources新增2条
+- `wiki/concepts/adult-neurogenesis.md`（rev4→rev5）：新增"TrkB依赖的存活判决"子节（PI3K/Akt→Bcl-2抗凋亡；TrkB KO→焦虑；抗抑郁药增殖 vs BDNF/TrkB存活的分工）；related新增trkb-receptor；key_sources新增PMID:18832146、PMID:15689544
+
+**登记或裁决矛盾：** 无新矛盾（TrkB.T1的dominant negative vs 主动信号争议已在既有contested_claims登记框架外；作为已知概念扩展而非新矛盾处理，因为两种功能在不同实验系统中均有证据支持）
+
+**新增悬空引用（待补）：** 无（本次新建trkb-receptor填补了bdnf/adult-neurogenesis等页面的关键引用空缺；synaptic-transmission已有页面）
+
+**图谱变化：** 293→294节点（+1：trkb-receptor），1671→1683边（+12）
+
+**新增未解问题（3条）：**
+- Q-trkb-01（高优先）：TrkB.T1在体内 dominant negative vs 独立Rho信号的功能平衡——细胞类型和发育阶段依赖性如何分布
+- Q-trkb-02（中优先）：人类PNN-PTPσ-TrkB轴与认知老化的关系——是否部分解释成年认知灵活性下降
+- Q-trkb-03（中优先）：TrkB跨膜域不同抗抑郁药的差异性变构构象——是否产生不同的下游效应器激活模式
+
+---
+
+## 2026-09-11（#141 · 皮层记忆印迹的诞生：当"沉默"走向"成熟"）
+
+**新建页面（1页）**：
+- `concepts/engram-systems-consolidation.md`（新建）— 印迹细胞的系统巩固专页：双印迹并行成熟模型（Kitamura 2017）；皮层沉默印迹→成熟的机制；电路重组（Refaeli 2023，CA1→ACC↑，ACC→CA1↓，EC/PVT↑）；病理性沉默印迹与 AD（Roy 2016）；系统性再巩固的新印迹（Lei 2025）；status=emerging（主要证据来自小鼠），confidence=medium
+
+**修订页面（2页）**：
+- `concepts/engram-cells.md`（rev6→rev7）— 当前理解新增"皮层印迹：并行成熟而非顺序迁移"段落（Kitamura 2017 双印迹框架；Refaeli 2023 电路重组）；related +3（engram-systems-consolidation, complementary-learning-systems, adult-neurogenesis）；opens_questions +2（Q-engram-cortical-silent-mechanism, Q-engram-sct-vs-mtt）；connections +3条；key_sources +3（PMID:28386011, 37586373, 29970909）；dimensions 新增 whole-brain-network
+- `concepts/memory-consolidation.md`（rev9→rev10）— related +3（engram-systems-consolidation, prefrontal-cortex, anterior-cingulate-cortex）；key_sources +3（PMID:28386011, 37586373, 15685217）；source_articles +1；修订历史 +1行
+
+**图谱更新**：+1节点（engram-systems-consolidation）；+8条新边（engram-systems-consolidation→engram-cells/memory-consolidation/complementary-learning-systems/hippocampal-circuit/prefrontal-cortex/sharp-wave-ripples/adult-neurogenesis/memory-reconsolidation）；总计293节点、1671边
+
+**矛盾登记**：无新矛盾。Kitamura 2017"皮层印迹在学习当天形成"与既有"记忆从海马漂移到皮层"的描述性说法有张力，但这是模型精细化而非真实矛盾（两者描述的不同层面）；未触发矛盾协议。
+
+**新增悬空引用**：Q-engram-cortical-silent-mechanism 依赖 pv-interneurons（已有页面 ✓）；Q-human-cortical-engram 提及 Quiroga 2005 概念细胞（无专页，后续可建 concept-cells.md）
+
+---
+
+## 2026-09-10（#140 · 海马给新皮层写的信：互补学习系统与尖波涟漪驱动的记忆系统巩固）
+
+**新建页面（0页）**：今日无新建页面；所有概念在既有页面中处理。
+
+**修订页面（3页）**：
+- `concepts/complementary-learning-systems.md`（rev1→rev2）— **重大扩充**：新增 SO-spindle-SWR 三重协奏详细机制（Born & Wilhelm 2011）；新增清醒 SWR 主动记忆标记机制（Yang et al. 2023, PMID:37987008, R=0.86 睡眠重播预测）；新增 PFC 涟漪顶-下门控（Shin & Jadhav 2023, PMID:38168420）；新增 SHY vs 主动巩固调和框架（Tononi & Cirelli 2014）；证据表 +5行；related +5个（prefrontal-cortex、sleep-spindles、adult-neurogenesis、shy-hypothesis、so-spindle-swr-coupling）；key_sources +8个；opens_questions +3（Q-cls-cortical-gating-01/Q-cls-interleaved-replay-01/Q-cls-human-01）；纠正 PMID:7704110→PMID:7624455（McClelland 1995 正确 PMID）
+- `concepts/sharp-wave-ripples.md`（rev6→rev7）— 新增"皮层涟漪顶-下抑制与门控"新发现节（Shin & Jadhav 2023, PMID:38168420）：PFC涟漪独立时抑制海马；同步时选择性增强；时序：纺锤波→PFC涟漪→SWR；key_sources +2（PMID:38168420, PMID:37987008）
+- `concepts/memory-consolidation.md`（rev8→rev9）— 证据表 +3行（Yang 2023 R=0.86直接预测 PMID:37987008；PFC涟漪顶-下门控 PMID:38168420；更新清醒SWR标记条目区分两个Yang来源）；key_sources +2
+
+**图谱更新**：+5条新边（complementary-learning-systems→prefrontal-cortex；complementary-learning-systems→sleep-spindles；complementary-learning-systems→adult-neurogenesis；complementary-learning-systems→shy-hypothesis；prefrontal-cortex→sharp-wave-ripples(regulates)）；总计292节点、1663边
+
+**矛盾登记**：无新矛盾（PFC涟漪门控是新发现但不冲突既有主张；SHY vs 主动巩固调和框架在既有memory-consolidation页面已登记为open，今日新信息互补而非矛盾）
+
+**悬空引用**：无新悬空引用；所有新边的目标节点均已存在
+
+---
+
+## 2026-09-08（#138 · 当大脑的"学习窗口"再次开启：成年关键期重开的四条分子路径）
+
+**新建页面（2页）**：
+- `concepts/critical-period-reopening.md`（emerging/medium-high）— 成年关键期重开的四条路径：① PNN 降解（ChABC → PTPσ 去激活 → TRKB 重磷酸化）；② Lynx1 KO/nAChR 激动（胆碱能去制动）；③ HDAC 抑制（组蛋白乙酰化恢复）；④ 黑暗饲养/感觉剥夺（E/I 再平衡）；PTPσ–TRKB 统一下游节点假说（Lesnikova 2021）；弱视治疗前景；SynGAP1 成年干预可能性（Q-syngap1-02）
+- `concepts/lynx1.md`（established/high）— 内源性 nAChR 抑制蛋白，关键期结束后视觉皮层上调；结构类似蛇毒三指毒素；Lynx1 KO 成年恢复幼年型 ODP；弱视自发恢复；physostigmine 药理模拟；nAChR 必要性验证
+
+**修订页面（2页）**：
+- `concepts/critical-period.md`（rev5）— related 新增 critical-period-reopening、lynx1；连接节新增两条说明；修订历史追加；source_articles 新增 2026-09-08
+- `concepts/perineuronal-nets.md`（rev3）— related 新增 critical-period-reopening、lynx1；source_articles 新增 2026-09-08
+
+**矛盾登记**：无（多路径重开的证据高度一致；PTPσ–TRKB 统一下游假说目前仅覆盖 ChABC 和 fluoxetine 两条路径，Lynx1/HDAC 路径是否汇聚尚无数据，标注为 emerging）
+
+**解决悬空引用**：`critical-period-reopening` 和 `lynx1` 从 critical-period.md 的悬空 related 变为实体页面
+
+**知识图谱**：291 节点，1654 边（新增 2 节点，13 条边）
+
+---
+
+## 2026-09-07（#137 · 突触的"制动蛋白"：SynGAP1 如何通过解除 Ras-ERK 制动来执行 LTP）
+
+**新建页面（2页）**：
+- `concepts/syngap1.md`（established/high）— SynGAP1：PSD第三丰富蛋白，通过PDZ2与PSD-95结合；双向GAP制动器（Ras-GAP抑制AMPAR插入、Rap1-GAP调控AMPAR移除）；LTP时CaMKII磷酸化→弥散→Ras-ERK解制动→AMPAR插入；弥散幅度与LTP强度正相关；SYNGAP1+/-导致静默突触提前耗尽、LTP遮蔽、关键期提前关闭
+- `diseases/syngap1-related-disorder.md`（established/high）— SRD（SYNGAP1相关神经发育障碍）：de novo SYNGAP1截短突变→单倍剂量不足；约1%非综合征性ID；>70%癫痫、~50% ASD；首次人类关联（Hamdan NEJM 2009）；治疗前沿（AAV基因补充、ASO）
+
+**修订页面（3页）**：
+- `concepts/ltp.md`（rev15）— related 新增 syngap1、syngap1-related-disorder；SynGAP1弥散明确为LTP表达必要解制动步骤；SYNGAP1+/-的LTP occlusion补充
+- `concepts/psd-95.md`（rev2）— related 中 syngap→syngap1 slug 更新；related 新增 syngap1-related-disorder；SynGAP1-PDZ2相互作用细节明确
+- `concepts/silent-synapse.md`（rev2）— related 新增 syngap1、syngap1-related-disorder；dimensions 新增 disease；SynGAP1是防止静默突触自发开锁的制动器明确写入
+
+**矛盾登记**：无新矛盾（SynGAP1机制高度一致，各来源无分歧）
+
+**解决悬空引用**：
+- `syngap1` ✅ 已建立（被 psd-95、ltp 等引用）
+- `syngap1-related-disorder` ✅ 已建立（填补疾病维度）
+
+**新增未解问题**：
+- Q-syngap1-01：不同 SynGAP1 亚型（α1 vs α2 vs β/γ）在海马 vs 前额叶的功能差异？
+- Q-syngap1-02：成年期基因治疗的治疗窗口上限在哪里？
+
+**图谱**：289 节点 / 1641 条边（+2节点 +13条边）
+
+---
+
+## 2026-09-06（#136 · PSD-95：兴奋性突触的主控分子）
+
+**新建页面（2页）**：
+- `concepts/psd-95.md`（established/high）— PSD-95（DLG4）：兴奋性突触最丰富的支架蛋白（~300分子/突触）；PDZ1/2锚定NMDAR-GluN2B；经TARP（Stargazin）间接稳定AMPAR；突触槽位（synaptic slot）的物理基础；SynGAP竞争PDZ槽位的LTP机制；棕榈酰化动态循环（ZDHHC2活动依赖）；液液相变（SynGAP/PSD-95凝聚体）；PSD-95/PSD-93竞争设定关键期时间轴；填补 silent-synapse / postsynaptic-density 悬空引用
+- `concepts/tarp-auxiliary-subunit.md`（established/high）— TARP（跨膜 AMPAR 调控蛋白）：AMPA受体辅助亚基；Stargazin（γ-2）C末端(-TTPV)直接结合PSD-95 PDZ1/2（Schnell 2002 PNAS）；AMPAR-TARP-PSD95三元复合物是突触AMPAR锚定的必要中介；调控AMPAR门控动力学和表面运输；填补 ampa-receptor 悬空引用
+
+**修订页面（2页）**：
+- `concepts/ltp.md`（rev14）— related 新增 psd-95、tarp-auxiliary-subunit、silent-synapse；source_articles 新增 2026-09-06-psd95-synaptic-scaffold；PSD-95槽位机制是LTP物理底层的明确说明
+- `concepts/postsynaptic-density.md`（rev2）— related 新增 psd-95、tarp-auxiliary-subunit、silent-synapse；source_articles 新增 2026-09-06-psd95-synaptic-scaffold；PSD-95 专页链接已激活
+
+**矛盾登记**：无新矛盾
+
+**解决悬空引用**：
+- `psd-95` ✅ 已建立（被 silent-synapse、postsynaptic-density 引用）
+- `tarp-auxiliary-subunit` ✅ 已建立（被 ampa-receptor 引用）
+
+**新增未解问题**：
+- Q-psd95-01：LTP 时 PSD-95 分子绝对数量是否真的增加，还是只是槽位占用率变化？
+- Q-psd95-02：PSD-95 棕榈酰化-去棕榈酰化周期是否在睡眠期参与突触强度全局下调（SHY 假说）？
+
+**图谱**：287 节点 / 1628 条边（+2节点 +22条边）
+
+---
+
+## 2026-09-05（#119 · ODP 第二阶段机制之争：开放眼的胜利）
+
+**新建页面（2页）**：
+- `concepts/silent-synapse.md`（established/high）— 沉默突触（AMPAR-silent）：关键期 Hebbian LTP 的分子底物；PSD-95 依赖的开锁机制；关键期关闭的底物耗竭理论；填补悬空引用
+- `concepts/critical-period-plasticity.md`（established/high）— 关键期可塑性：ODP 两阶段分子机制综合（TNFα 稳态许可 + Hebbian LTP 精修）；与 [[critical-period]] 区分（本页聚焦突触机制）；填补悬空引用（被 metaplasticity 引用）
+
+**修订页面（1页）**：
+- `concepts/ocular-dominance-columns.md`（rev2）— ODP 第二阶段机制从"两机制并列"更新为"稳态许可在先、Hebbian 精修在后"的整合框架；新增 TNFα KO（PMID:18549780）、幼年/成年分工（PMID:22232689）、丘脑 CaV3.1（PMID:41240337）；关键证据表扩充 3 行；related 新增 critical-period-plasticity、synaptic-scaling、silent-synapse
+
+**矛盾更新**：
+- C-2026-08-15-01（ODP Stage 2 机制分歧）**→ 新增整合模型证据**：Kaneko 2008（TNFα）、Ranson 2012（幼年/成年差异）、Sugimura 2015（TNFα→LTP 桥接）、Echavarri-Leet 2025（CaV3.1 成年替代机制）。两机制从"互相排斥"修订为"时序协同（稳态先、Hebbian 后）"；裁决从 open 更新为 open（部分整合），直接实验（同一动物同时测量两种指标）仍缺失。
+
+**悬空引用（新增待补）**：
+- `psd-95`（silent-synapse 和 critical-period-plasticity 页中引用，暂无独立页 → 下次填补）
+
+**解决悬空引用**：
+- `critical-period-plasticity` ✅ 已建立（被 metaplasticity 引用）
+
+**图谱**：285 节点 / 1606 条边（+2节点 +15条边）
+
+---
+
+## 2026-09-04（#135 · 平衡传播与皮层两相学习）
+
+**新建页面（2页）**：
+- `concepts/equilibrium-propagation.md`（emerging/medium）— Scellier & Bengio 2017 框架：两相活动差精确等于代价梯度；STDP 等价；2025 年隐式非平衡记忆解决两相协调问题
+- `concepts/hopfield-network.md`（established/high）— Hopfield 1982 能量极小化联想记忆；诺贝尔物理学奖 2024；Transformer attention = 连续 Hopfield 检索
+
+**修订页面（3页）**：
+- `concepts/credit-assignment.md`（rev2）— 新增 EP 作为空间信用分配的能量极小化路径（与 PC-Learning 并列）；related 新增 equilibrium-propagation、hopfield-network
+- `concepts/pc-learning.md`（rev2）— 新增 EP 与 PC-Learning 的并行关系说明（能量语言 vs 误差语言）；related 新增 equilibrium-propagation、hopfield-network
+- `concepts/cortical-slow-oscillation.md`（rev4）— 新增 EP 框架视角（UP/DOWN 态两态切换 = EP 两相候选，假说）；新增信息最大化视角（全局 SO → 均一下调，局部 SWR → 选择性强化）
+
+**矛盾登记**：无
+
+**悬空引用（新增待补）**：
+- `contrastive-hebbian-learning`（EP 页中引用，暂无独立页）
+- `associative-memory`（Hopfield 页中引用，暂无独立页）
+- `energy-based-models`（EP 和 Hopfield 页中引用，暂无独立页）
+
+**图谱**：283 节点 / 1591 条边（+2节点 +12条边）
+
+---
+
+## 2026-09-03（文章 #134 — 大脑的反向传播幻觉：预测编码如何近似梯度下降 / Q-fep-02 部分回答）
+
+**新建页面（2 页）**：
+- `wiki/concepts/credit-assignment.md`：信用分配问题——双维度解析（空间维度：PC-Learning 层级误差传播；时间维度：三因素规则 + 资格迹）；顶树突物理分区作为解剖底层；status=established, confidence=high
+- `wiki/concepts/pc-learning.md`：预测编码学习——Whittington & Bogacz 2017 数学等价证明（局部 Hebbian ↔ 反向传播梯度）；Max et al. 2026 皮层实现（L2/3=误差单元，L5=表征单元）；实验预测（扰动误差神经元损害 > 表征神经元）；status=emerging, confidence=medium
+
+**修订页面（1 页）**：
+- `wiki/theories/predictive-coding.md`（rev9→rev10）：新增"PC-Learning = 反向传播的生物近似"段落（Whittington & Bogacz 2017 证明 + Max et al. 2026 皮层实现 + Brucklacher 2023 计算验证）；key_sources 新增 3 篇；related_learning 新增 pc-learning, credit-assignment；source_articles 新增 #134
+
+**图谱更新**：+2 节点（credit-assignment, pc-learning），+13 条边；281 节点，1579 条边
+
+**矛盾登记 / 裁决**：无新矛盾
+
+**未解问题进展**：
+- Q-fep-02（"VAE 等价与生物反向传播"）状态更新：权重更新维度已由 PC-Learning 等价定理部分回答；剩余开放问题 A（时间维度信用分配与 PC-Learning 协同）、B（非 IID 感觉流下推断稳定性）
+
+**悬空引用**：
+- `cortical-layers → pc-learning`（在 pc-learning.md 的 prerequisites 中引用）：cortical-layers 节点已存在 ✅
+- `backpropagating-action-potential → pc-learning`：已有 bAP 节点 ✅
+
+---
+
+## 2026-09-02（文章 #133 — 小脑作为主动推断引擎：本体感觉先验、精度校准 / Q-fep-01 追踪）
+
+**新建页面（1 页）**：
+- `wiki/concepts/proprioceptive-prediction.md`：本体感觉预测——主动推断框架中运动命令重定义为本体感觉先验（均值+精度）；精度两分量（空间分量=高尔基细胞门控，时间分量=DCN 调节）；脊髓反射弧执行层；只需一个前向模型；DCN 损坏→时间精度失调→意向性震颤；status=emerging, confidence=medium
+
+**修订页面（3 页）**：
+- `wiki/concepts/forward-model.md`（rev1→rev2）：新增主动推断视角（逆向模型被脊髓代替，只需前向模型，Parr et al. 2025）；新增 Tanaka 2019 直接神经证据（R²=0.89）；登记新矛盾 C-2026-09-02-01（内部模型 vs 前馈映射）；扩展 dimensions、related、key_sources
+- `wiki/systems/cerebellum.md`（rev3→rev4）：新增主动推断视角段落（DCN 时间精度 + 高尔基细胞空间精度）；颗粒细胞时间基础集（Nguyen & Person 2025）；更新 key_sources（+5）、related（+3）、opens_questions
+- `wiki/theories/active-inference.md`（rev1→rev2）：深化小脑精度先验角色（DCN 时间 + 高尔基细胞空间）；主动推断单前向模型优势；Friston & Herreros 2016 眼睑模型；key_sources、related 更新
+
+**图谱更新**：+1 节点（proprioceptive-prediction），+6 条边；279 节点，1566 条边
+
+**矛盾登记 / 裁决**：
+- 登记矛盾 C-2026-09-02-01（open）：小脑实现"显式内部模型"（Wolpert-Kawato + 主动推断框架）vs "模型无关前馈映射"（Nguyen & Person 2025）；性质=计算级理论分歧；需运动泛化/新奇学习实验裁决
+- Q-fep-01（部分回答）：问题 A 有理论框架支持（神经机制待验证）；问题 B/C 仍为 open
+
+**悬空引用**：新页 proprioceptive-prediction 引用 spinal-cord-reflex（尚无独立 wiki 页，待补）
+
+---
+
+## 2026-09-01（文章 #132 — 变分自由能与主动推断：大脑如何用一个原则统一感知、行动与学习）
+
+**新建页面（2 页）**：
+- `wiki/theories/free-energy-principle.md`：自由能原理（FEP）——变分自由能是感觉惊喜的可计算上界；最小化 F 的两条路径（感知=更新信念，行动=改变感觉输入）；层级生成模型（广义运动坐标，时间尺度分离）；精度加权；学习=长期模型参数更新；VAE 数学等价；status=mainstream, confidence=medium
+- `wiki/theories/active-inference.md`：主动推断——行动理解为实现本体感觉预测而非运动命令输出；感知与行动统一于同一优化目标；期望自由能最小化推导目标导向行为；与小脑前向模型的整合（Q-fep-01 未解）；status=emerging, confidence=medium
+
+**修订页面（3 页）**：
+- `wiki/theories/predictive-coding.md`（rev8→rev9）：新增"动态预测编码（Jiang & Rao 2024）"段落（时间层级扩展，低层→快时间尺度，高层→慢时间尺度，自然视频训练涌现类 V1 RFs）；新增"自由能原理数学基础"段落；related 新增 free-energy-principle；连接节新增 FEP/主动推断条目；key_sources 新增 PMID:19528002, 38330098, 29497060；opens_questions 新增 Q-fep-01, Q-fep-02
+- `wiki/concepts/canonical-microcircuit.md`（rev1→rev2）：related 新增 free-energy-principle, active-inference；确认 FEP/主动推断与规范微回路的关联
+- `wiki/index.md`：新增 free-energy-principle 和 active-inference 条目；更新 predictive-coding 条目（rev9）；更新页面总数（259页）和图谱统计（278节点，1560边）
+
+**图谱更新**：+2 节点（free-energy-principle, active-inference），+14 条边；278 节点，1560 条边
+
+**矛盾登记 / 裁决**：无新矛盾。Q-fep-01（主动推断与小脑前向模型整合）和 Q-fep-02（VAE等价与生物反向传播）作为新未解问题登记。
+
+---
+
+## 2026-08-31（文章 #131 — 振荡路由：γ 相干性如何让大脑把注意力变成专用通信线路）
+
+**新建页面（1 页）**：
+- `wiki/concepts/communication-through-coherence.md`：Communication Through Coherence（CTC）——振荡相位对齐创造通信窗口；γ（30–90 Hz）前馈感觉内容，α/β（8–30 Hz）反馈预测控制；FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009 开放全文）；频段-方向皮层层级对应（Bastos 2015）；status=mainstream, confidence=medium（框架有争议）
+
+**修订页面（3 页）**：
+- `wiki/concepts/gamma-oscillations.md`（rev4→rev5）：新增 FEF-V4 注意 γ 相干性节（Gregoriou 2009, 2012 两篇开放全文数据）；visual FEF 神经元解离；related 新增 communication-through-coherence, dorsal-attention-network；key_sources 新增 PMID:19478185, PMID:22325208
+- `wiki/concepts/dorsal-attention-network.md`（rev2→rev3）：新增 FEF γ 通信机制节（Gregoriou 2009, 2012）；整合 CTC 框架；related 新增 gamma-oscillations, communication-through-coherence, dlpfc-rule-encoding
+- `wiki/concepts/alpha-oscillations.md`（rev1→rev2）：新增 α 在 CTC 框架中的角色节；Q-alpha-01 部分进展（CTC 框架性解释）；related 新增 communication-through-coherence
+
+**图谱更新**：+1 节点（communication-through-coherence），+9 条边；275 节点，1544 条边
+
+**矛盾登记 / 裁决**：无新矛盾（CTC 的 Q-ctc-01 γ coherence 因果性争议已在 opens_questions 中记录，相关议题 Ray & Maunsell 批评尚未达到裁决阶段）
+
+**新增未解问题**：Q-ctc-01（高优先级，γ coherence 是否因果机制）、Q-ctc-02（高优先级，不同任务中 γ 功能一致性）、Q-ctc-03（中优先级，人类 FEF-V4 CTC 验证）；Q-alpha-01 获得部分进展
+
+---
+
+## 2026-08-30（文章 #130 — 前额叶皮层的高维秘密：混合选择性如何让 DLPFC 同时编码无数种规则）
+
+**新建页面（3 页）**：
+- `wiki/concepts/mixed-selectivity.md`：混合选择性——DLPFC 神经元同时对多任务变量非线性组合响应；非线性 NMS 是高维表征的来源；维度坍塌与行为错误的关联；status=mainstream, confidence=high
+- `wiki/concepts/dlpfc-rule-encoding.md`：DLPFC 规则编码——分布式高维动态编码；额叶层级顶端；Miller & Cohen 偏置信号框架；Stokes 动态编码；人类 24% 规则选择性神经元；status=mainstream, confidence=high
+- `wiki/concepts/frontal-hierarchy.md`：额叶认知控制层级——前后轴层级（情境→维度→特征→反应）；BA46 是情境级顶端；Badre 2009 病变双解离证据；离散层级 vs 连续梯度争议；status=mainstream, confidence=medium
+
+**修订页面（3 页）**：
+- `wiki/systems/prefrontal-cortex.md`（rev4→rev5）：新增 dlPFC 规则编码与混合选择性子节（偏置信号框架、混合选择性、动态编码、额叶层级、人类证据、维度坍塌）；related 新增 4 个节点；key_sources 新增 4 个 PMID
+- `wiki/systems/anterior-cingulate-cortex.md`（rev1→rev2）：related 新增 dlpfc-rule-encoding/frontal-hierarchy/mixed-selectivity；补充 dACC→DLPFC 调度连接说明
+- `wiki/concepts/working-memory.md`（rev8→rev9）：key_sources 新增 PMID:23562541（Stokes 2013 动态编码）；Q-wm-active-vs-silent 新增群体层面低活动稳态证据；related 新增 mixed-selectivity, dlpfc-rule-encoding
+
+**图谱更新**：+3 节点（mixed-selectivity, dlpfc-rule-encoding, frontal-hierarchy），+13 条边；274 节点，1535 条边
+
+**矛盾登记 / 裁决**：无新矛盾（NMS 因果性争议已在 Q-ms-02 中记录，暂不达到登记 contested_claim 标准）
+
+**新增未解问题**：Q-ms-01（高优先级）、Q-ms-02（高优先级）、Q-ms-03（中优先级）、Q-fh-01（高优先级）、Q-fh-02（中优先级）
+
+---
+
+## 2026-08-29（文章 #129 — 大脑的成本-效益计算器：前扣带回皮层如何决定"值不值得控制自己"）
+
+**新建页面（1 页）**：
+- `wiki/systems/anterior-cingulate-cortex.md`：前扣带回皮层——认知控制调度中心；涵盖冲突监测假说（Botvinick 2001）、ERN-多巴胺理论（Holroyd & Coles 2002）、行动价值学习（Kennerley 2006, Rudebeck 2008）、反事实奖励编码（Hayden 2009）、EVC 框架（Shenhav 2013）、自下而上单细胞视角（Heilbronner & Hayden 2016）；status=established, confidence=high
+
+**修订页面（3 页）**：
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev10→rev11）：related 新增 anterior-cingulate-cortex；补充 DA-RPE 通过 ERN 机制（D2 去抑制→ACC 激活）产生系统级行为调整信号的说明
+- `wiki/concepts/three-factor-learning-rule.md`（rev2→rev3）：related 新增 anterior-cingulate-cortex；补充突触层面 DA（三因素规则）与系统层面 DA（dACC ERN）共享多巴胺通路的架构
+- `wiki/concepts/working-memory.md`（rev7→rev8）：related 新增 anterior-cingulate-cortex；补充 dACC 通过 EVC 调度 DLPFC 工作记忆激活的元层控制关系
+
+**图谱更新**：+1 节点（anterior-cingulate-cortex），+8 条边；271 节点，1522 条边
+
+**矛盾登记 / 裁决**：无新矛盾；无矛盾裁决
+
+**新增未解问题**：Q-acc-evc-vs-conflict（高优先级）、Q-acc-subregion-boundary（高优先级）、Q-acc-ern-dopamine-causal（中优先级）
+
+---
+
+## 2026-08-28（文章 #128 — 信用的时间归属：突触标记、资格迹与三因素学习规则如何让大脑实现强化学习）
+
+**新建页面（1 页）**：
+- `wiki/concepts/eligibility-trace.md`：资格迹——突触在赫布协同激发后进入的亚稳态临时标记；三因素规则中间变量（e_ij → w_ij × M_3rd）；纹状体分子机制（PDE10A/PKA 时钟，Yagishita 2014，PMID:25258080）；皮层机制（NE/5-HT 门控，He et al. 2015）；海马 BTSP（±3-4s 时窗，Bittner 2017，PMID:28883072）；解决时间信用分配问题；status=mainstream, confidence=high
+
+**修订页面（3 页）**：
+- `wiki/concepts/three-factor-learning-rule.md`（rev1→rev2）：**重大修订**——引入资格迹数学框架（Gerstner 2018，PMID:30108488）；更新分子机制为 PDE10A 时钟（Yagishita 2014）；整合 BTSP 为极端案例；新增与 eligibility-trace / stdp / btsp / backpropagating-action-potential 的连接；status 从 mainstream → established；新增 5 条关键证据行
+- `wiki/concepts/btsp.md`（rev2→rev3）：新增与 three-factor-learning-rule / eligibility-trace 的连接；明确 BTSP 是三因素规则极端案例（±3-4s 资格迹）
+- `wiki/concepts/stdp.md`（rev2→rev3）：related 新增 eligibility-trace；补充 STDP → 资格迹中间变量关系；皮层 STDP 单独无持久性实验说明
+
+**矛盾登记 / 裁决**：无新矛盾；无矛盾裁决
+
+**新增未解问题**：无新问题（三因素规则的主要未解问题已在 Q-three-factor-time-window / Q-stc-molecular-tag 中覆盖）
+
+**图谱更新**：+1节点（eligibility-trace），+10条边；三因素规则状态升级 mainstream→established；总节点 270，总边 1514
+
+---
+
+## 2026-08-27（文章 #127 — 可塑性的守门人：BCM 规则与元可塑性如何防止突触失控）
+
+**新建页面（2 页）**：
+- `wiki/concepts/metaplasticity.md`：元可塑性——"可塑性的可塑性"；Abraham & Bear 1996 命名；多机制并行（NMDA 亚基切换/Ih/CaM-RC3/mGluR）；异突触元可塑性与星形胶质细胞 ATP/腺苷信号（Hulme 2014）；AD 发育性元可塑性失调（Megill 2015）；AI 灾难性遗忘对照（Jedlicka 2022）；status=established, confidence=high
+- `wiki/concepts/bcm-rule.md`：BCM 规则（Bienenstock, Cooper, Munro 1982）——滑动修改阈值 θ_m；Δw ∝ φ(y,θ_m)·x；视觉皮层验证（Kirkwood & Bear 1994, Clothiaux 1991）；NMDA 亚基切换与 Ih 的分子实现；与 STDP 的互补关系；status=mainstream, confidence=high
+
+**修订页面（2 页）**：
+- `wiki/concepts/hebbian-learning.md`（rev5→rev6）：新增 metaplasticity 和 bcm-rule 连接；Q-hebbian-stability 更新（补充元可塑性为第二解决方案）；related 和 source_articles 扩展
+- `wiki/concepts/ltp.md`（rev13→rev14 frontmatter only）：related 新增 metaplasticity, bcm-rule；source_articles 新增本文
+
+**新增未解问题**：
+- Q-meta-01（高优先）：θ_m 滑动的时间常数在不同实验系统中的差异
+- Q-meta-02（高优先）：Ih 机制在清醒行为动物体内是否真实承担 θ_m 调节
+- Q-meta-03（中优先）：异突触元可塑性传播范围和选择性
+- Q-bcm-01（高优先）：θ_m 确切时间常数及跨脑区差异
+- Q-bcm-02（中优先）：如何体内直接测量 θ_m 变化
+
+**图谱更新**：+2节点（metaplasticity, bcm-rule），+12条边；总节点269，总边1504
+
+---
+
+## 2026-08-26（文章 #124 — 逆流而上：回传动作电位如何让树突棘"知道"何时该加强）
+
+**新建页面（2 页）**：
+- `wiki/neurons/backpropagating-action-potential.md`：回传动作电位（bAP）——填补 stdp.md 悬空引用；Stuart & Sakmann 1994 发现；A 型 K+ 通道符合门（Hoffman 1997）；bAP+EPSP 超线性 Ca²⁺（Magee & Johnston 1997）；位置依赖 STDP 规则（Letzkus 2006）；200 Hz 爆发与树突 Ca²⁺ 棘波（Kampa 2006）；PFC L5 亚型多样性（Schamiloglu 2025）；NaV1.2/SCN2A 与 ASD（Spratt 2019）；status=established, confidence=high
+- `wiki/concepts/a-type-potassium-channel.md`：A 型钾通道（I_A）——bAP 的可调节闸门；Kv4.2 分子身份；密度梯度（远端 5–6 倍于胞体）；EPSP 引起的失活开放 bAP 入侵通道；磷酸化/神经调质调控；status=established, confidence=high
+
+**修订页面（2 页）**：
+- `wiki/concepts/stdp.md`（rev1→rev2）：新增 bAP 机制详解（I_A 密度梯度、位置依赖规则、细胞多样性）；related 新增 a-type-potassium-channel
+- `wiki/neurons/dendritic-computation.md`（rev4→rev5）：新增 bAP 作为树突计算前提条件段落；新增 Schamiloglu 2025 PFC L5 亚型多样性数据；related 新增 backpropagating-action-potential, a-type-potassium-channel
+
+**悬空引用解决**：
+- `backpropagating-action-potential`（stdp.md related 中已引用，今日建页）
+
+**新增未解问题**：
+- Q-bap-01（高优先）：清醒行为动物中 bAP 体内传播效果与频率
+- Q-bap-02（中优先）：CA1 bAP 强/弱二分化的分子决定因素
+
+**图谱更新**：+2节点（backpropagating-action-potential, a-type-potassium-channel），+12条边；总节点267，总边1492
+
+---
+
+## 2026-08-25（文章 #123 — 突触的时间守门人：STDP 如何用毫秒差异决定学习的方向）
+
+**新建页面（1 页）**：
+- `wiki/concepts/stdp.md`：脉冲时序依赖可塑性（STDP）——赫布规则的毫秒级精化；经典学习窗口（Markram 1997/Bi & Poo 1998）；NMDA 受体符合探测+bAP 超线性 Ca²⁺ 机制；AMPA 受体时间精度调控（Holbro 2010）；生理钙浓度挑战（Inglebert & Debanne 2021）；短期因果 vs 长期同步性张力（Anisimova 2022）；神经调质第三因素（Foncelle 2018）；人类 ccPAS 证据（Hernandez-Pavon 2022）；status=mainstream, confidence=medium；填补 hebbian-learning 悬空引用 [[stdp]]
+
+**修订页面（2 页）**：
+- `wiki/concepts/ltp.md`（rev12→rev13）：related 新增 stdp；连接新增 [[stdp]] 说明 STDP 是 LTP 的时序精化形式；source_articles 新增
+- `wiki/concepts/hebbian-learning.md`（rev4→rev5）：[[stdp]] 从"待建页面"升级为已建立连接；补充 STDP 分子机制描述；source_articles 新增
+
+**矛盾登记（1 条新登记）**：
+- C-2026-08-25-01（open）：STDP 的"因果性"（Bi & Poo 1998 经典窗口——前先后随→LTP，后先前随→LTD，短期内方向敏感）vs"同步性"（Anisimova et al. 2022——3天后无论方向，只要同步均→LTP）；nature=真实分歧（短期 vs 长期时间尺度，以及生理钙浓度差异）；status=open
+
+**新增未解问题**：
+- Q-stdp-01（高优先）：体内生理 Ca²⁺ 下，STDP 规则形态——是否需要 θ-burst 才能诱导 LTP？需体内单突触分辨率验证
+- Q-stdp-02（高优先）：短期因果 vs 长期同步性的整合——哪个描述真正稳定的长期记忆？
+- Q-stdp-03（中优先）：不同脑区 STDP 规则差异（皮质/海马/小脑）的分子决定因素
+
+**图谱更新**：+1节点（stdp），+9条边；总节点265，总边1480
+
+---
+
+## 2026-08-23（文章 #121 — 从声波到意义：大脑如何用预测编码完成语音理解）
+
+**新建页面（3 页）**：
+- `wiki/concepts/wernicke-area.md`（填补悬空引用）：韦尼克区——现代修正观：pSTG/BA22 是音韵形式提取/缓冲区，非理解中枢；损伤主要产生传导性失语；真正理解依赖双侧分布网络（MTG/STS/ATL）；整合 Binder 2017 和 DeWitt & Rauschecker 2013 两模块说；status=contested（经典解读 vs 现代修正存在实质分歧）
+- `wiki/concepts/planum-temporale.md`（填补悬空引用）：颞平面——外侧裂深处、HG 后方；65% 人类左>右（Geschwind & Levitsky 1968）；时序声学分析；失聪者/音乐家中也有左侧化；左 PT 大小与语言左侧化相关但不确定；status=mainstream
+- `wiki/concepts/speech-comprehension-prediction.md`：语音理解的预测编码——IFG→STG/STS 自上而下预测回路；STG 编码预测误差；正确理解=误差信号减弱；Sohoglu & Davis 2012/2016；Blank & Davis 2016/2018；Cope & Davis 2023 运动皮层预测实例化；status=mainstream
+
+**修订页面（2 页）**：
+- `wiki/systems/stg-phoneme-processing.md`（rev1→rev2）：新增"语境修复与预测编码"完整段落；新增5条预测编码证据行（Sohoglu & Davis 2012/2016；Blank & Davis 2016/2018）；related 新增 speech-comprehension-prediction、wernicke-area；连接新增2个节点；key_sources 新增3个PMID
+- `wiki/circuits/ventral-language-stream.md`（rev2→rev3）：新增"预测回路（IFG→STG/STS 反馈）"段落；整合 Sohoglu & Davis 2012 和 Cope & Davis 2023 证据；key_sources 新增2个PMID
+
+**矛盾登记（0条新登记）**：今日证据与既有 wiki 无冲突，均为补充和加深。
+
+**新增未解问题**：
+- Q-wernicke-01（中优先）：纯粹 pSTG/BA22 局灶性损伤（不累及 MTG/白质）的理解缺陷大小，缺乏系统定量 VLSM 研究
+- Q-pt-01（中优先）：PT 左侧化是语言习得的**结果**还是先天**原因**？新生儿影像支持先天假说，但习得塑形程度不明
+
+**新增悬空引用（待填补）**：
+- `language-lateralization`（speech-comprehension-prediction 提及语言左半球优势；待建专页）
+- `analysis-by-synthesis`（运动系统参与感知的完整计算框架；Cope & Davis 2023 引出）
+
+**图谱更新**：+3节点（wernicke-area/planum-temporale/speech-comprehension-prediction），+10条边；总节点262，总边1460
+
+---
+
+## 2026-08-22（文章 #120 — 语言习得关键期：感知收窄、统计学习与神经成熟的协同舞蹈）
+
+**新建页面（3 页）**：
+- `wiki/concepts/language-critical-period.md`：语言习得关键期——分层敏感期框架（音位0-12月/词义12-30月/形态句法2-5岁/复杂句法5-7岁）；三层驱动机制（统计学习/社会门控/白质成熟）；感知收窄时间线与预测力；key_sources含PMID:15496861/17181708/22347185/41886982/8943209
+- `wiki/concepts/statistical-learning.md`：统计学习——转移概率学习/分布学习/规则提取；8月婴儿2分钟学词（Saffran 1996）；新生儿睡眠中统计学习（Teinonen 2009）；社会门控依赖性
+- `wiki/concepts/social-gating-language.md`：社会门控假说——真人vs录像零学习对比（Kuhl 2007/2003）；目光接触预测学习；鸣禽发声学习类比；神经机制推测（STS/TPJ/注意/奖励）；status=mainstream（行为证据高，神经机制待确认）
+
+**修订页面（3 页）**：
+- `wiki/concepts/phoneme-categorical-perception.md`（rev1→rev2）：新增感知收窄预测力（Kuhl 2004 纵向数据）；新增社会门控依赖性（真人互动必要性）；related新增language-critical-period/statistical-learning/social-gating-language；key_sources新增PMID:15496861/8943209
+- `wiki/circuits/dorsal-language-stream.md`（rev2→rev3）：新增Klein 2026行为验证段落（N=120学龄前儿童DTI：4岁断点，句法-白质相关）；related新增language-critical-period；key_sources新增PMID:41886982；source_articles新增#120
+- `wiki/systems/language-network.md`（rev4→rev5）：related新增language-critical-period；key_sources新增PMID:22347185；source_articles新增#120
+
+**矛盾登记（0条新登记）**：今日证据与既有wiki无冲突，均为补充和加深。
+
+**新增未解问题（3条）**：
+- Q-lcp-01（中优先）：成人L2习得局限主要源于皮层可塑性、L1干扰，还是认知控制主导？
+- Q-lcp-02（中优先）：社会门控具体神经回路（注意/奖励/共同注意/感知-动作耦合的相对贡献）
+- Q-lcp-03（高优先）：ASD中社会门控功能受损是否是语言延迟的主要神经路径？
+
+**新增悬空引用（待填补）**：
+- `autism-language-delay`（social-gating-language引用，ASD中语言延迟的社会门控机制专页待建）
+- `gaba-critical-period-closure`（language-critical-period提及GABA调制关闭机制，待专页）
+
+**图谱更新**：+3节点（language-critical-period/statistical-learning/social-gating-language），+约12条边；总节点259，总边约1448（具体见_graph.json）
+
+---
+
+## 2026-08-21（文章 #119 — 语言之弦：弓状束三段式纤维架构如何编织感知与产生之间的神经桥梁）
+
+**新建页面（1 页）**：
+- `wiki/diseases/conduction-aphasia.md`：传导性失语症——三特征（理解完整/产出流利/重复受损）；经典解释（AF直接段损伤）vs. 修订观点（Spt皮层损伤）；conduite d'approche在DIVA模型中的解释；key_sources含PMID:15597383/PMID:17431404/PMID:20720112
+
+**修订页面（3 页）**：
+- `wiki/concepts/arcuate-fasciculus.md`（rev1→rev2）：**重大修订**——整合Catani 2005三段式架构（直接段/间接后段/间接前段）；Glasser 2008左右AF差异化靶区；Friederici 2012背侧路径I/II发育双分组；Balezeau 2020跨物种进化比较（灵长类听觉原型+人类左侧化p=0.002）；Shekari 2023 AF-音韵/IFOF-语义双解离；Giampiccolo 2022颞叶端争议（登记矛盾C-2026-08-21-01）；新增related:conduction-aphasia,stg-phoneme-processing,speech-production-circuit；新增3个未解问题（Q-af-01/02/03）
+- `wiki/circuits/dorsal-language-stream.md`（rev1→rev2）：新增AF三段式架构子节（直接/后间接/前间接段）；新增背侧路径I/II发育时间线；新增进化起源（Balezeau 2020）；新增related:conduction-aphasia,stg-phoneme-processing
+- `wiki/systems/language-network.md`：minor——related字段新增conduction-aphasia
+
+**矛盾登记（1 条）**：
+- `C-2026-08-21-01`（open）：AF颞叶端边界争议——传统模型（AF终止于pSTG/Wernicke区）vs. Giampiccolo & Duffau 2022（DCS+DTI显示AF延伸至MTG/ITG梭状回/VWFA/基底颞叶语言区）；性质：方法差异+可能的真实解剖变异；影响：失读症解释和术中语言保护
+
+**新增悬空引用（待填补）**：
+- `phonological-loop`（被arcuate-fasciculus和dorsal-language-stream引用，Baddeley语音工作记忆专页待建）
+
+**图谱更新**：+1节点（conduction-aphasia），+6边（arcuate-fasciculus→conduction-aphasia:mechanism-of；conduction-aphasia→dorsal-language-stream:is-a；conduction-aphasia→language-network:related；arcuate-fasciculus→stg-phoneme-processing:related；arcuate-fasciculus→speech-production-circuit:related；arcuate-fasciculus→ventral-language-stream:related）；总节点256，总边1436
+
+---
+
+## 2026-08-20（文章 #102 — 声音之刀：颞上回如何将连续声学流切割为音素）
+
+**新建页面（3 页）**：
+- `wiki/systems/stg-phoneme-processing.md`：STG四大核心计算（非线性范畴化/说话者归一化/语境修复/时间标记提取）；pSTG/mSTG/aSTG/STS功能梯度；双尺度表征（局部→特征，群体→音素身份）；key_sources含PMID:34672685/PMC:9447996/PMID:24482117
+- `wiki/concepts/cortical-speech-entrainment.md`：θ-γ嵌套振荡与言语包络相位同步；非对称采样时间（AST，左快右慢）；MEG和颅内SEEG证据；开放争议：主动预测 vs 被动声学驱动
+- `wiki/concepts/phoneme-categorical-perception.md`：范畴感知的非线性神经机制；双尺度（局部特征/群体音素）表征；发育收窄与θ-γ动力学；开放争议：竞争抑制 vs 自上而下词汇反馈的权重
+
+**修订页面（2 页）**：
+- `wiki/systems/auditory-cortex.md`（rev4）：新增STG音素计算层小节（pSTG/mSTG/aSTG功能梯度）；新增 related: stg-phoneme-processing, cortical-speech-entrainment
+- `wiki/systems/auditory-dual-stream.md`（rev2）：新增 related: stg-phoneme-processing, cortical-speech-entrainment, phoneme-categorical-perception；双流起点现有独立STG音素计算页面支撑
+
+**矛盾登记**：无新矛盾（STG言语特异性与通用听觉计算之争已在stg-phoneme-processing页面标注为opens_questions，未成熟到qualified_claim级别）
+
+**新增悬空引用（待填补）**：
+- `efference-copy-speech`（被stg-phoneme-processing引用，尚无独立页面）
+- `hemispheric-asymmetry`（被auditory-cortex/auditory-dual-stream引用，尚无独立页面）
+- `perceptual-learning`（被phoneme-categorical-perception引用，尚无独立页面）
+
+**图谱更新**：+3节点（stg-phoneme-processing, cortical-speech-entrainment, phoneme-categorical-perception），+13边；总节点255，总边1430
+
+---
+
+## 2026-08-19（文章 #118 — 言语产生：DIVA 模型与前馈/反馈双控制系统）
+
+**新建页面（3 页）**：
+- `wiki/systems/speech-production-circuit.md`：六层分布式架构（SMA启动→左IFG音节程序→vPCSA/dPCSA协调→M1执行→pSTG/SMG感觉监控→右vPMC纠偏）；前馈/反馈功能分工；效应副本预测性抑制机制；双前中央言语区（vPCSA发音/dPCSA音调）；口吃/失用症的网络模型
+- `wiki/concepts/diva-model.md`：Guenther团队DIVA/GODIVA计算神经框架；七个模型组件与神经对应；前馈（左侧化）/反馈（右侧化）；运动等价（声学目标空间控制）；婴儿咿呀学语习得序列；GODIVA双BG环路（运动vPMC+SMA/计划pIFS+preSMA）
+- `wiki/systems/sma-presma.md`：言语启动最早激活节点（pre-SMA峰值-240ms/SMA峰值-170ms）；活动随RT动态伸缩；115人iEEG大样本证据（Bullock 2024, PMID:39807169）；准备协调者而非执行者
+
+**修订页面（1 页）**：
+- `wiki/systems/broca-area.md`（rev3）：整合Hickok et al. 2022（PMID:36746488）——言语运动协调中枢重定位至前中央回（vPCSA/dPCSA），而非IFG pars opercularis本身；布罗卡区功能定位为高层语言（句法/词汇/WM）；更新"三成分"框架中"发音成分"的精确神经解剖；新增证据行、连接和来源文章
+
+**矛盾登记**：无新矛盾（Hickok 2022的vPCSA/dPCSA发现与既有broca-area页面的"三成分框架"一致，而非冲突；"发音成分"重定位是精化而非否定）
+
+**新增悬空引用（待填补）**：
+- `efference-copy-speech`（效应副本在言语产生中的具体机制，被speech-production-circuit引用）
+- `apraxia-of-speech`（言语失用症，被diva-model引用作为疾病窗口）
+
+**图谱更新**：+3节点（speech-production-circuit, diva-model, sma-presma），+12边；总节点252，总边1417
+
+---
+
+## 2026-08-18（文章 #100 — 听觉皮层双流架构：从耳蜗到语言）
+
+**新建页面（1 页）**：
+- `wiki/systems/auditory-dual-stream.md`：听觉腹侧流（前颞→VLPFC：声音身份→语义，双侧）vs 背侧流（后颞→Spt→顶叶→Broca/运动：空间/言语运动，强左侧化）；VLSM直接验证（PMID:27956600，138例卒中）；半球谱-时序不对称（左AAC快时序/右AAC慢时序，96例颅内SEEG，PMC:7067489）；背侧流前向模型（Spt作为感觉-运动整合枢纽）；门控流第三通路（新兴，低置信度）
+
+**修订页面（1 页）**：
+- `wiki/systems/auditory-cortex.md`（rev3）：新增双流架构摘要节（腹侧/背侧路径概述）；新增半球谱-时序不对称（左快右慢）；related 补充 auditory-dual-stream, hemispheric-asymmetry；key_sources 补充 PMID:17431404/PMC:3483386/PMC:7067489
+
+**图谱更新**：新增 1 节点（auditory-dual-stream），新增 8 条有类型边；图谱总节点 249，总边 1405
+
+**矛盾登记**：无新矛盾（门控流为新兴假说，标注为 emerging/low-confidence，不与既有主流观点冲突）
+
+**新增悬空引用（待填补）**：`hemispheric-asymmetry`（被 auditory-dual-stream 和 auditory-cortex 引用，暂无 wiki 页面）
+
+---
+
+## 2026-08-17（文章 #116 — 背侧视觉流：MT/V5、MST、LIP 的运动感知与行动决策）
+
+**新建页面（4 页）**：
+- `wiki/systems/dorsal-visual-stream.md`：背侧流"how"定位（Goodale-Milner 1992 框架）；三级计算层级（MT→MST→LIP）；双子通路（背外侧：MT→MST→VIP；背内侧：V6A→MIP）；动态网络而非固定层级；临床双分离（D.F. vs L.M.）
+- `wiki/systems/area-MT-V5.md`：MT/V5 方向选择性（>90%神经元）；速度调谐；双眼视差；光圈问题解决（模式细胞 vs 分量细胞）；三条因果证据（病变/微电刺激/患者L.M.运动失认症）；方向柱组织
+- `wiki/systems/mst-medial-superior-temporal.md`：MSTd 大感受野光流调谐（扩张/旋转/平动）；三维航向提取；视觉-前庭双模态整合（64% 神经元前庭调谐）；MSTl vs MSTd 功能分离
+- `wiki/systems/lip-lateral-intraparietal.md`：LIP 斜坡活动（ramping activity）；与漂移扩散模型的定量对应；速度-准确性权衡的神经实现；争议：决策节点 vs 眼跳计划区（status=mainstream）
+
+**修订页面（2 页）**：
+- `wiki/systems/v1-primary-visual-cortex.md`（rev7）：related 新增 area-MT-V5, dorsal-visual-stream，显式链接 V1 作为背侧流起点
+- `wiki/systems/inferior-temporal-cortex.md`（元数据补丁）：related 新增 dorsal-visual-stream, area-MT-V5，完成腹侧-背侧双流对称连接
+
+**图谱更新**：新增 4 节点（dorsal-visual-stream, area-MT-V5, mst-medial-superior-temporal, lip-lateral-intraparietal），新增 11 条有类型边；图谱总节点 248，总边 1397
+
+**新登记的未解问题**：
+- Q-dorsal-01（中）：MSTd 的前庭-视觉整合具体机制？冲突时如何权重？
+- Q-dorsal-02（高）：LIP 斜坡活动的细胞机制（内部积分 vs 持续外部输入）？
+- Q-dorsal-03（中）：两条背侧子通路（背外侧 vs 背内侧）如何协调？
+
+**新登记的矛盾**：
+- 无（LIP 争议已在页面内以 status=mainstream 标注，暂未升级为 contested_claims 条目，因争议尚属方法论分歧而非真实分歧）
+
+---
+
+## 2026-08-16（文章 #115 — 腹侧视觉流与颞下皮层不变量物体识别）
+
+**新建页面（4 页）**：
+- `wiki/systems/inferior-temporal-cortex.md`：IT 皮层四阶段偏心率框架（Conway 2018）；选择性与不变性平衡、稀疏度守恒（~10%，Rust & DiCarlo 2012）；面孔块层级（ML/MF→AM）；分布式 vs. 模块论调和
+- `wiki/systems/v4-visual-area.md`：V4 形状选择性在物体中心坐标系（曲率×角度空间）；真实 vs. 偶然轮廓的区分；平均响应潜伏期 76.6 ms；多维联合调谐（形状×纹理×颜色×深度）
+- `wiki/concepts/invariant-object-recognition.md`：不变量识别的核心计算概念；选择性/不变性/稀疏度三角关系；腹侧流各层级实现方式；形状 vs. 纹理统计争论（Q-it-01）
+- `wiki/systems/face-patch-system.md`：猕猴 6 个面孔块（PL/ML/MF/AF/AL/AM）；视角特异→视角不变功能梯度（Freiwald & Tsao 2010）；人类 FFA 与猕猴面孔块对应关系（Q-it-03）
+
+**修订页面（1 页）**：
+- `wiki/systems/v1-primary-visual-cortex.md`（rev6）：related 新增 v4-visual-area, inferior-temporal-cortex, invariant-object-recognition；source_articles 新增 #115；显式连接 V1 作为腹侧流起点与 V4/IT 层级
+
+**图谱更新**：新增 4 节点（inferior-temporal-cortex, v4-visual-area, invariant-object-recognition, face-patch-system），新增约 16 条有类型边；图谱总节点 244，总边 ~1386
+
+**新登记的未解问题**：
+- Q-it-01（高）：腹侧流是否计算全局形状？（Ayzenberg & Behrmann 2022 vs. 经典 IT 研究）
+- Q-it-02（中）：反馈连接（PFC→IT）在日常物体识别中的定量贡献
+- Q-it-03（高）：人类 IT 皮层面孔识别（FFA）与猕猴 6 个面孔块的精确对应关系
+
+**新登记的矛盾**：
+- C-2026-08-16-01（高优先级）：腹侧流是否计算全局形状？claim_A=经典 IT 物体形状表征（established view），claim_B=Ayzenberg & Behrmann 2022 texforms 证据（腹侧流计算纹理统计非全局形状）
+
+---
+
+## 2026-08-15（文章 #114 — 眼优势柱与视觉关键期可塑性）
+
+**新建页面（2 页）**：
+- `wiki/concepts/ocular-dominance-columns.md`：ODC 发育双阶段（视网膜波→LGN 预分层→解剖前体；关键期 ODP→生理成熟）；ODP 两阶段（剥夺眼 NMDAR-LTD / 开放眼 LTP+稳态缩放）；PV+ 去抑制启动微回路；沉默突触开锁（AMPA/NMDA 比值 0.3→2）；tPA-塑素结构重塑；物种差异（猫/猴有 ODC 条带，小鼠无）
+- `wiki/concepts/retinal-waves.md`：Stage I/II/III 视网膜波时序；β2-nAChR 驱动的 Stage II 对 LGN 眼特异分层的关键作用；与 ephrin-A 梯度的协同（双重 KO→V1 视野图几乎消失）；波→LGN 分层→TCA→ODC 的因果链
+
+**修订页面（2 页）**：
+- `wiki/concepts/critical-period.md`（rev4）：新增 [[ocular-dominance-columns]] 和 [[retinal-waves]] 连接；ODP 的去抑制启动（PV+ 先于锥体细胞响应）与关键期 PV+ 机制的直接关联被明确；source_articles 新增 #114
+- `wiki/systems/v1-primary-visual-cortex.md`（rev5）：新增"眼优势柱与 ODP"小节（ODC 形成时间轴、ODP 证据表、小鼠特殊性）；related 新增 ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons；key_sources 新增 PMID:22841309, PMID:32765222, PMID:23975100
+
+**图谱更新**：新增 2 节点（ocular-dominance-columns, retinal-waves），新增 12 条有类型边；图谱总节点 240，总边 1370
+
+**新登记的矛盾（1 条）**：
+- C-2026-08-15-01（中优先级）：ODP 阶段二主导机制争议——Hebbian LTP（沉默突触开锁，Xu 2020）vs. 稳态突触缩放（TNFα，Kaneko 2017）
+
+**新登记的未解问题**：
+- Q-odc-01（高）：人类 V1 ODC 关键期竞争的分子时序
+- Q-odc-02（中）：ODC 形成与 ODP 竞争的分子可解耦性
+- Q-odc-03（中）：ODP 阶段二主导机制分工（详见 C-2026-08-15-01）
+
+**解决的悬空引用**：此前 critical-period.md 和 v1-primary-visual-cortex.md 中提及 ODC 但无对应 wiki 页的悬空引用，今日以 `ocular-dominance-columns.md` 创建解决
+
+---
+
+## 2026-08-14（文章 #113 — 丘脑皮层轴突导向与感觉地图）
+
+**新建页面（2 页）**：
+- `wiki/concepts/thalamocortical-axons.md`：TCA 从丘脑出发的三段旅程（DTB→走廊→PSPB握手）；Ephrin-A5/EphA4 拓扑编码；FGF3 双路径排斥（PC-PLC 直接 + PI3K→Slit1 间接）；丘脑自发钙波功能；上丘感觉门控机制
+- `wiki/concepts/subplate-neurons.md`：皮层最早出生的神经元，下板三亚层组织（入侵/导航/等待），握手假说的中心角色，TCA 等待区与皮层最早谷氨酸能突触，人类胎儿下板的特殊发育与临床意义
+
+**修订页面（3 页）**：
+- `wiki/concepts/barrel-cortex.md`（rev3）：新增 thalamocortical-axons 和 subplate-neurons 连接；加入 TCA 布线机制细节（Ephrin 拓扑、下板等待区、关键期 P0-P4）；key_sources 补充 PMID:40745219, PMID:32817388
+- `wiki/concepts/cortical-arealization.md`（rev2）：新增上丘感觉门控机制（视网膜波驱逐触觉→LGN 成为纯视觉核）；新增 thalamocortical-axons 和 subplate-neurons 连接；key_sources 补充 PMID:40745219, PMID:38167425
+- `wiki/concepts/axon-guidance.md`（rev3）：新增 TCA 特异性导向（走廊细胞-NRG1/ErbB4、握手假说、Ephrin-A5/EphA4）；新增 FGF3 双路径排斥机制（PMID:40806490）；related 扩展
+
+**图谱更新**：新增 2 节点（thalamocortical-axons, subplate-neurons），新增 10 条有类型边；图谱总节点 238，总边 1358
+
+**新登记的未解问题**：
+- Q-tca-01（高）：TCA 等待区的停止-放行分子信号身份
+- Q-tca-02（高）：丘脑波体内（in vivo）动力学——频率/振幅/核间同步
+- Q-tca-03（中）：上丘感觉门控在人类胎儿中是否存在同等机制
+- Q-subplate-01（中）：人类早产儿下板损伤与 ASD/CP 的因果关系
+
+**裁决的矛盾**：无新增矛盾；"TCA 自发波调控区域大小"是对已有 cortical-arealization 中相应主张的细化，无冲突
+
+**解决的悬空引用**：CHANGELOG-2026-08-13 中提到的 `thalamocortical-circuit` 悬空引用 — 今日以 `thalamocortical-axons` 形式创建对应页面，覆盖了该悬空引用的主要内容
+
+---
+
+## 2026-08-13（文章 #112 — 皮层区域化）
+
+**新建页面（2 页）**：
+- `wiki/concepts/cortical-arealization.md`：皮层区域化的两阶段机制——EMX2/PAX6/COUP-TFI/Sp8 转录因子梯度 + 丘脑活动雕刻；涵盖原图谱 vs. 原皮层之争历史、FGF8 信号中心、人类 GW20 V1-V2 离散边界
+- `wiki/concepts/fgf8-cortical-patterning.md`：FGF8 如何从连合板作为上游信号中心建立皮层前后轴坐标系；Sp8-FGF8-EMX2 自调节回路
+
+**修订页面（2 页）**：
+- `wiki/concepts/cortical-neurogenesis.md`（rev4）：新增 cortical-arealization 和 fgf8-cortical-patterning 为 related 连接，标注祖细胞阶段 EMX2/Pax6 梯度是区域化的上游入口
+- `wiki/concepts/cortical-layers.md`（rev3）：新增 cortical-arealization 为 related 连接
+
+**图谱更新**：新增 2 个节点（cortical-arealization, fgf8-cortical-patterning），新增 10 条有类型边（regulates/prerequisite-for/related）；图谱总节点 236，总边 1348
+
+**新登记的未解问题**：
+- Q-area-01（高）：人类 PFC 相对扩大的分子基础
+- Q-area-02（中）：V1-V2 离散边界的细胞机制（谱系 vs 丘脑活动）
+- Q-area-03（低）：EMX2/PAX6 梯度在人类中的定量保守性
+
+**裁决的矛盾**：无
+
+**新增的悬空引用**：`thalamocortical-circuit`（在 cortical-arealization 页引用但可能未有独立页，需检查）
+
+---
+
+## 2026-08-12 · 文章 #111 · 不完整的礼物：SRGAP2C 与 ARHGAP11B 如何给人类大脑装上更多突触和更多神经元
+
+**核心主题**：两个人类特异性截断基因复制（SRGAP2C ~240万年前；ARHGAP11B ~350万年前）——SRGAP2C 通过与祖先蛋白 SRGAP2A 异二聚化产生显性负效应，延缓突触棘成熟（neoteny）、提升密度（+71% 幼鼠，+40% 成年）；ARHGAP11B 通过 47-aa C 端尾部靶向线粒体激活谷氨酰胺酶解、增加天冬氨酸供给，促进基底放射状胶质细胞自我更新、引发皮层折叠——两者分别针对"连接密度"与"神经元数量"这两个维度推动人类皮层进化跃迁。
+
+**新建页面（2）**：
+- `concepts/srgap2c-neoteny.md` rev1 — SRGAP2C 显性负效应；F-BAR 异二聚化机制；突触棘密度 +71%（P18-21）/+40%（成年）；幼态化意义；进化时间点 ~240 万年前 (mechanism, established, confidence:high)
+- `concepts/arhgap11b-cortical-expansion.md` rev1 — ARHGAP11B 发现（人类胎儿 bRG 特异性）；47-aa C 端尾部；谷氨酰胺酶解机制；GLUD2 协同效应；小鼠皮层折叠诱导；认知行为改变 (mechanism, established, confidence:high)
+
+**修订页面（2）**：
+- `concepts/outer-radial-glia.md` rev1→rev2 — related 新增 arhgap11b-cortical-expansion；连接 ARHGAP11B 作为 bRG 扩张驱动因子
+- `concepts/notch2nl-cortical-expansion.md` rev1→rev2 — related 新增 arhgap11b-cortical-expansion/srgap2c-neoteny；建立三种人类特异性皮层进化机制之间的连接网络
+
+**矛盾登记**：无新矛盾（ARHGAP11B 认知效益证据强度有限，标注为"中"置信度）
+
+**新增悬空引用待补**：无新增
+
+**图谱**：232→234 节点（+2），1324→1338 边（+14）
+
+---
+
+## 2026-08-11 · 文章 #110 · 皮层建造的故障报告：LIS1/DCX/Reelin 突变与无脑回谱系障碍
+
+**核心主题**：I 型无脑回（LIS1 dynein N-C 偶联失败；DCX 微管束化缺陷及 X 染色体随机失活导致双皮层综合征；RELN 终止信号缺失导致层序倒置）；II 型无脑回（α-dystroglycan 糖基化缺陷基底膜破裂过度迁移）；多小脑回（GPR56、tubulinopathies）；三种故障模式揭示 Inside-Out 规则的三个独立模块（迁移机械/导航终止/物理边界）。
+
+**新建页面（3）**：
+- `concepts/lissencephaly.md` rev1 — 无脑回分类（I型/II型）；LIS1 N-C偶联机制；DCX 微管束化+性别二态性表型（SBH）；Reelin/Dab1 终止信号失活层序倒置；α-DG 糖基化缺陷过度迁移；基因治疗前景 (disease, established, confidence:high)
+- `concepts/reelin-signaling.md` rev1 — VLDLR/ApoER2→Dab1磷酸化；PI3K/AKT/GSK3β路径（微管稳定）；LIMK1/cofilin路径（F-actin）；p-Dab1与LIS1的交叉；"脱离并跃迁"模型（Cooper 2008）；成年期突触可塑性功能；精神分裂症/AD连接 (mechanism, established, confidence:high)
+- `concepts/cortical-migration-disorders.md` rev1 — 六类MCD分类（无脑回/双皮层/脑室旁异位/多小脑回/裂脑）；三层独立机制框架（迁移机械/导航终止/物理边界）；与切向迁移障碍的关系 (disease, established, confidence:high)
+
+**修订页面（3）**：
+- `concepts/cortical-neurogenesis.md` rev2→rev3 — related 新增 lissencephaly/reelin-signaling/cortical-migration-disorders；强化 Reelin 在 Inside-Out 终止中的位置
+- `concepts/tangential-migration.md` rev1→rev2 — related 新增 cortical-migration-disorders/lissencephaly（两类迁移障碍并列）
+- `concepts/cortical-layers.md` rev1→rev2 — related 新增 lissencephaly/cortical-migration-disorders/cortical-neurogenesis（六层结构崩溃连接）
+
+**矛盾登记**：无新矛盾（已有矛盾未更新）
+
+**新增悬空引用待补**：无新增（已有遗留悬空引用 `cognition` 仍未填补）
+
+**图谱**：229→232 节点（+3），1302→1324 边（+22）
+
+---
+
+## 2026-08-10 · 文章 #109 · 皮层的第二种建筑学：GABA 能中间神经元切向迁移与命运决定
+
+**核心主题**：皮层 GABAergic 中间神经元的发育起源（MGE/CGE）、切向迁移（CXCL12/CXCR4 + NRG1/ErbB4）、Nkx2.1→Lhx6 命运决定转录因子接力、程序性细胞死亡筛选 E/I 比（Wong 2018）、PV/SST/VIP 三类分化、精神分裂症/癫痫/ASD 的发育机制联系。**填补图谱悬空引用 `gaba`**。
+
+**新建页面（4）**：
+- `concepts/cortical-interneuron-development.md` rev1 — 中间神经元发育全流程：MGE/CGE 起源 → 切向迁移 → 命运决定（Nkx2.1-Lhx6/COUP-TFII）→ 程序性死亡（30-40%，Wong 2018）→ PV 功能成熟（KCC2/BDNF）(established, confidence:high)
+- `concepts/tangential-migration.md` rev1 — 盐跃运动；CXCL12-CXCR4/CXCR7 维持迁移流；NRG1/ErbB4 吸引；Semaphorin/Neuropilin 排斥；48h 等待期；"分子握手"（兴奋性神经元前体 → CXCL12） (established, confidence:high)
+- `concepts/medial-ganglionic-eminence.md` rev1 — MGE 空间分区（背侧偏 SST，腹侧偏 PV）；Shh→Nkx2.1→Lhx6 级联；SST 先出生（E11-13），PV 后出生（E13-15）；AP vs BP 分裂模式偏向 (established, confidence:high)
+- `concepts/gaba.md` rev1 — GABA 合成（GAD65/67）分解；GABA-A（快 Cl⁻）/GABA-B（慢 G蛋白）；发育方向翻转（新生儿去极化→成年超极化，NKCC1→KCC2 转变，BDNF 驱动）；三类 GABA 能中间神经元总览 (established, confidence:high)
+
+**修订页面（5）**：
+- `circuits/pv-interneurons.md` rev4→rev5 — 新增：MGE 腹侧来源、Nkx2.1→Lhx6 命运路径、程序性死亡（Wong 2018）；related 新增 cortical-interneuron-development/MGE/gaba/tangential-migration；key_sources 更新（PMID:21154909, 18339674, 29849154）
+- `circuits/sst-interneurons.md` rev1→rev2 — 新增：MGE 背侧来源、SST 早出生（E11-13）、精神分裂症 OFC SST 减少 67%（Joshi 2015）；related 和 dimensions 扩展
+- `circuits/vip-interneurons.md` rev1→rev2 — 新增：CGE 来源（COUP-TFII/Sp8）、5HT3aR 作为 CGE 来源全谱标志（Lee 2010）；related 扩展
+- `concepts/cortical-neurogenesis.md` rev1→rev2 — 新增：中间神经元"第二种建筑学"的互补连接；related 新增 cortical-interneuron-development/tangential-migration/MGE/gaba
+- `concepts/ei-balance.md` rev1→rev2 — 新增：程序性细胞死亡（Wong 2018）作为发育期 E/I 比校准机制；related 新增 cortical-interneuron-development/gaba
+
+**矛盾登记（0）**：今日来源未发现与既有 wiki 主张直接冲突（MGE 背腹分区的 SST/PV 偏向 vs 克隆混合问题已在文章正文争议节中说明，但不冲突现有已登记页面主张）。
+
+**填补悬空引用**：`gaba`（已建 wiki 页 `concepts/gaba.md`，图谱悬空引用消除）
+
+**新增悬空引用**：`cognition`（来自旧边，已知待建，非今日新增）
+
+**知识图谱**：225 → 229 节点（+4），1281 → 1302 边（+21）
+
+---
+
+## 2026-08-09 · 文章 #108 · 皮层的诞生：从神经干细胞到六层皮质的 Inside-Out 建筑法则
+
+**核心主题**：皮层神经发生（cortical neurogenesis）、Inside-Out 规则、aRGC/IPC 祖细胞系、Pax6→Tbr2→Tbr1 转录因子级联、FEZF2/SATB2 层身份开关、外放射状胶质细胞（oRGC）与 OSVZ、NOTCH2NL 人类皮层扩张分子机制、小头/大头畸形遗传基础。
+
+**新建页面（3）**：
+- `concepts/cortical-neurogenesis.md` rev1 — Inside-Out 规则；aRGC-IPC-神经元三级产出链；Pax6→Tbr2→Tbr1 接力；FEZF2/SATB2 层命运互斥开关；Reelin 迁移终止信号 (established, confidence:high)
+- `concepts/outer-radial-glia.md` rev1 — oRGC vs aRGC 关键差异；OSVZ 作为次级增殖中枢；MST（有丝分裂体向基底迁移）；脑回形成张力-增殖模型 (established, confidence:high)
+- `concepts/notch2nl-cortical-expansion.md` rev1 — NOTCH2NL 人类特有旁系同源体；DLL1-cis 竞争机制延长干细胞自我更新；1q21.1 CNV 剂量效应（缺失→小头，重复→大头）(established, confidence:high)
+
+**修订页面（2）**：
+- `concepts/adult-neurogenesis.md` rev2→rev3 — 新增 [[cortical-neurogenesis]] 连接（胚性 vs 成年神经发生对照）；related 字段更新；修订历史更新
+- `concepts/critical-period.md` rev2→rev3 — 新增 [[cortical-neurogenesis]] 连接（Inside-Out 建造的皮层层结构为关键期提供解剖底座；PV+ 中间神经元 MGE 起源连接到胚性发育时序）；related 字段更新
+
+**矛盾登记（0）**：今日来源未发现与既有 wiki 主张冲突。
+
+**新增悬空引用**：`radial-glia`（在 cortical-neurogenesis.md 文本中引用但未建独立页，次要节点，并入 cortical-neurogenesis）；`intermediate-progenitor-cell`（同上）
+
+---
+
+## 2026-08-08 · 文章 #107 · 深部核团的门与教师：深部小脑核如何接管运动记忆
+
+**核心主题**：深部小脑核（DCN）、下橄榄核（IO）与运动学习——填补三个悬空引用（deep-cerebellar-nuclei、inferior-olive、motor-learning）。内容：DCN 三核团（齿状核/间位核/顶核）的解剖与功能分工；间位核因果损毁证据（Thompson 1997，眼眨条件反射）；两相运动记忆模型（皮层 LTD 快速适应→DCN 苔藓纤维 LTP 缓慢巩固，Ito 2013+Ke 2009）；IO 的缝隙连接同步、阈下振荡（T型Ca²⁺）、TMEM16B 氯通道（Zhang 2017）；攀爬纤维奖励信号新发现（Jin & Hull 2025，待复现）；小脑-基底神经节直接皮层下连接（Bostan & Strick 2018）；CF "纯误差"vs"也编码奖励"矛盾登记。
+
+**新建页面（3）**：
+- `systems/deep-cerebellar-nuclei.md` rev1 — DCN 三核团解剖功能；去抑制输出逻辑；MF-DCN LTP 巩固机制；小脑-基底神经节互联 (established, confidence:high)
+- `systems/inferior-olive.md` rev1 — IO 解剖亚核分工；Cx36 缝隙连接同步；TMEM16B 生物物理调节；CF 奖励信号（low confidence）；DCN→IO 抑制反馈 (established, confidence:high)
+- `concepts/motor-learning.md` rev1 — 运动学习小脑-基底神经节双系统综述；两相记忆模型；眼眨条件反射范式 (established, confidence:high)
+
+**修订页面（2）**：
+- `systems/cerebellum.md` rev2→rev3 — 新增：间位核 CR 因果证据（Thompson 1997）、DCN LTP 两相巩固（Ke 2009）、小脑-基底神经节直接连接（Bostan 2018）；source_articles/key_sources 更新
+- `concepts/climbing-fiber-error-signal.md` rev1→rev2 — 新增 CF 奖励信号证据（PMID:40848722，低置信度）；登记矛盾 C-2026-08-08-01；key_sources/source_articles 更新
+
+**矛盾登记（1）**：C-2026-08-08-01（open，medium 优先级）：CF "纯误差信号"（Marr 经典，极高证据）vs "也传递奖励幅度"（Jin & Hull 2025，单篇待复现，低证据）。见 contested_claims.json。
+
+**新增开放问题（4）**：Q-dcn-01（人类技能学习中 DCN LTP 时间进程，高优先级）、Q-dcn-02（DCN LTP 的 NMDA 依赖性与关键期）、Q-dcn-03（认知功能的 CCAS 是否走两相记忆模型）、Q-io-01（CF 奖励信号的回路来源）。
+
+**图谱更新**：节点 219→222（+3），边 1255→1269（+14）。新节点：deep-cerebellar-nuclei、inferior-olive、motor-learning。悬空引用完全消除（之前：motor-learning/deep-cerebellar-nuclei/inferior-olive 均为悬空）。
+
+---
+
+## 2026-08-06 · 文章 #105 · 轴突找到伙伴之后：突触如何从分子装配线上诞生
+
+**核心主题**：突触生成——课程脊柱第2章"神经网络如何建成"的续集（轴突导向 #103 的下一步）。核心内容：Neuroligin-Neurexin 跨突触"握手协议"（双向信号诱导前后侧装配）；NL1→兴奋性/NL2→抑制性突触身份二分；NL2-NRXβ1 弱结合×聚集效应的膜牵引+Gephyrin 招募机制（Boyd 2026, PMC12985673）；兴奋性 PSD 三层骨架（PSD-95/GKAP/Shank-Homer）；PSD 纳米亚结构单元（Ramírez-Expósito 2026, PMC12840169）；Gephyrin-Collybistin-Cdc42 格栅定向锚定抑制性受体；LRRTM 平行突触诱导系统（Roppongi 2020）；Kim 2026 "分子连续性"模型（轴突导向分子双重功能）；ASD 窗口（NLGN3 R451C, Shank3 缺失）；脑-AI 比较（结构约束 vs 无约束权重）。
+
+**新建页面（4）**：
+- `concepts/synaptogenesis.md` rev1 — 突触生成机制全面初始化；NL-NRXN 双向信号；分子连续性模型；兴奋性/抑制性双轨装配；活动依赖稳定与修剪 (established, confidence:high)
+- `concepts/neuroligin-neurexin.md` rev1 — NL-NRXN 系统结构功能；可变剪接密码；NL1/NL2 突触类型二分；弱结合×聚集效应（Boyd 2026）；ASD 突变（NLGN3 R451C） (established, confidence:high)
+- `concepts/postsynaptic-density.md` rev1 — PSD 三层架构（PSD-95/GKAP/Shank-Homer pallium）；纳米亚结构单元；LTP 5分钟重组；CaMKII 进入骨架层 (established, confidence:high)
+- `concepts/gephyrin-scaffold.md` rev1 — Gephyrin 六角格栅；Collybistin/Cdc42 定向锚定；NL2→Collybistin 解自抑制；GABA-A 侧向扩散+陷阱捕获；甘氨酸受体高亲和力 (established, confidence:high)
+
+**修订页面（1）**：
+- `concepts/axon-guidance.md` rev1→rev2 — 新增"分子连续性"模型段落（Kim 2026, PMC13094498）：Latrophilin/Neurexin/NMDAR/Cerebellin 的导向→突触双重功能；更新 related（+neuroligin-neurexin）、key_sources（+PMID:41895449）、source_articles、revision_count
+
+**矛盾登记（0）**：今日内容与现有 wiki 无矛盾。NL2-NRXβ1 弱结合的新证据（Boyd 2026）补充而非推翻已有理解（NL-NRXN 是突触识别中心机制），一致。
+
+**新增开放问题（3）**：见 Q-synaptogenesis-01、Q-synaptogenesis-02、Q-synaptogenesis-03（追加到 unresolved_questions.md）
+
+**图谱更新**：节点 214→218（+4），边 1233→1249（+16）。新节点：synaptogenesis、neuroligin-neurexin、postsynaptic-density、gephyrin-scaffold。新边涵盖轴突导向→突触生成→PSD/Gephyrin/LTP/ASD 的连接链。
+
+---
+
+## 2026-08-05 · 文章 #104 · 解剖即是命运？FlyWire 全脑连接组与"结构决定功能"大问题
+
+**核心主题**：连接组学与结构-功能关系——课程脊柱第9章（Connectomics）与第10章（方法革命）首篇。核心内容：C. elegans（1986）→ Drosophila hemibrain（Scheffer 2020）→ FlyWire 完整果蝇大脑（Dorkenwald 2024，139,255神经元，~5400万突触）的历史跃迁；FlyWire 全脑网络拓扑统计（Lin 2024）：小世界系数SΔ=141（迄今最高生物神经网络）、平均路径4.42跳、富有节点（40,218个神经元，内部连接密度5.4倍）、广播者（胆碱能/视觉系统）vs 整合者（多巴胺能）；MICrONS 2025（小鼠V1功能-结构协注册，200,000+细胞，5亿突触）直接验证功能相似性预测突触连接；人类HCP宏观连接组尺度对比；C. elegans 40年教训（完整布线图+仍无法完全预测行为 = 神经调质不在布线图里）；脑-AI权重矩阵类比及其局限。
+
+**新建页面（3）**：
+- `concepts/small-world-network.md` rev1 — 小世界网络定义；SΔ量化指标；果蝇SΔ=141 vs C. elegans SΔ≈3.21 vs 互联网SΔ≈98.1；演化解释（局部专门化+全局整合双重压力）(established, confidence:high)
+- `concepts/rich-club.md` rev1 — 富有节点定义；果蝇全脑约30%（40,218个）内部连接密度5.4倍；跨半球整合枢纽；人类DTI富有节点与DMN核心重叠；形成机制三假说 (established, confidence:high)
+- `concepts/structure-function-relationship.md` rev1 — 结构约束而非决定功能；MICrONS 2025正向验证；C. elegans反例；"共同输入假说"机制；神经调质不变量问题 (mainstream, confidence:medium)
+
+**修订页面（1）**：
+- `methods/connectomics.md` rev1→rev2 — 新增：FlyWire 2024 全脑网络拓扑统计（小世界SΔ=141、富有节点、广播者/整合者、反馈连接13.8%）；MICrONS 2025 功能-结构协注册关键发现；更新 related（+small-world-network, rich-club, structure-function-relationship, axon-guidance）、key_sources（+PMID:39358527, 40205211, 21304930）、source_articles
+
+**矛盾登记（0）**：今日文章内容与现有 wiki 无矛盾。C. elegans 40年局限与 MICrONS 2025 的部分验证属于互补而非矛盾——两者共同支持"结构约束但不决定功能"的框架。
+
+**新增开放问题（3）**：见 Q-connectome-01、Q-connectome-02、Q-connectome-03（追加到 unresolved_questions.md）
+
+**图谱修复 + 更新**：修复了 _graph.json 中 position 207725 的 JSON 语法错误（edges 数组过早关闭，axon-guidance 边组被孤立）；节点 211→214（+3），边 1219→1233（+14）
+
+---
+
+## 2026-08-04 · 文章 #103 · 大脑如何给自己布线：生长锥的分子导航与精密回路的发育起源
+
+**核心主题**：轴突导向机制全面初始化——首次深入覆盖课程脊柱第2章"神经网络如何建成"中的轴突导向环节。核心内容：生长锥的结构与肌动蛋白踏车运动；四大导向分子家族（Netrin-DCC/UNC5双功能；Slit-ROBO中线单向阀门；Semaphorin-NRP-Plexin-MICAL排斥机制；Ephrin-Eph双向信号）；视网膜-上丘体地形图作为梯度×梯度建图的案例（Sperry化学亲和性假说的分子实现；正向+反向Ephrin信号协同；活动依赖精化的协同冗余）；Teneurin-LPHN系统在海马MEC/LEC层状投射的突触靶点识别机制；疾病窗口（ROBO3突变/水平凝视麻痹；苔藓纤维发芽/癫痫）；脑-AI布线逻辑比较（遗传先验 vs 随机初始化+梯度下降）。
+
+**新建页面（2）**：
+- `concepts/axon-guidance.md` rev1 — 轴突导向全面概述；四大家族、地形图逻辑、Teneurin-LPHN系统；疾病关联；连接 connectomics、critical-period、hippocampal-circuit (established, confidence:high)
+- `concepts/growth-cone.md` rev1 — 生长锥结构（板状/丝状伪足）；踏车运动机制；各信号通路的骨架效应；动态重编程（Robo3→Robo1切换）；局部翻译 (established, confidence:high)
+
+**修订页面（0）**：今日无修订（新建主题，无既有页面需更新）。
+
+**矛盾登记（0）**：今日文章内容与现有 wiki 无矛盾。（体内梯度测量不确定性为已知局限，非新矛盾。）
+
+**新增开放问题（3）**：
+- Q-axon-guidance-01（高）：体内导向分子梯度的实际形态——体内测量方法突破是整个领域瓶颈
+- Q-axon-guidance-02（中）：人类/灵长类 vs 小鼠的导向机制差异
+- Q-axon-guidance-03（高）：多导向信号整合规则——生长锥如何计算矛盾信号的合力向量
+
+**图谱**：203节点（+2：axon-guidance、growth-cone），~1189边（+10条）
+
+---
+
+## 2026-08-02 · 文章 #101 · 当大脑"放空"：默认模式网络如何成为自我的神经底座
+
+**核心主题**：默认模式网络（DMN）的全面深化——Raichle 2001 的意外发现（OEF定量证明真实基线）；Andrews-Hanna 2010 双子系统架构精细解剖（dMPFC子系统=当前自我/心智化，MTL子系统=情景记忆/未来模拟，中线核心PCC+aMPFC=枢纽整合器）；PCC的"沉浸体验"框架（Leech & Sharp 2013：非仅自我参照，而是"被体验吸引"的更广泛状态；冥想PCC降低、渴求PCC升高、神经反馈实验验证）；心智漫游的感知解耦机制（Christoff 2016，早期感觉ERP下降，主动带宽切换）；刻意/非刻意漫游的神经差异（FPCN协同/不协同）；DMN-DAN反相关的功能意义（计算资源分配，FPCN作为切换器）；AD早期生物标志物（Sheline 2021，认知正常者DMN连接降低预测未来衰退）；脑-AI类比（无静息态内部网络、无持久自我模型、无情景性未来模拟）。
+
+**新建页面（2）**：
+- `concepts/self-referential-processing.md` rev1 — 自我参照效应历史（Rogers 1977记忆增强）；mPFC/PCC的神经底座；双子维度（当前vs历时自我）；文化差异与普遍神经机制 (established, confidence:high)
+- `concepts/mind-wandering.md` rev1 — 感知解耦机制；刻意/非刻意两类型；DMN子系统的分工（MTL=记忆浮现，dMPFC=社会内容）；功能意义假说（情景性未来模拟/创造性/社会维护/记忆整合） (mainstream, confidence:high)
+
+**修订页面（1）**：
+- `systems/default-mode-network.md` rev3→rev5 — 新增Andrews-Hanna 2010双子系统分析（PMID:20188659）；PCC"沉浸体验/执念检测器"框架（PMC3788347）；心智漫游感知解耦（PMC5490683）；Sheline 2021 AD前临床DMN损伤证据（PMC8490784）；新增Q-dmn-05至Q-dmn-08；related新增self-referential-processing, mind-wandering；key_sources扩充至11个；updated→2026-08-02
+
+**矛盾登记（0）**：今日无新增矛盾。DMN-DAN反相关的方法论争议（GSR问题）已在现有DMN页面登记为Q-dmn-01，今日新增证据支持反相关真实性（无GSR情况下较弱但仍存在），未登记新矛盾。
+
+**新增开放问题（4）**：
+- Q-dmn-05（高）：DMN默认模拟是否真代表情景性未来模拟（有功能目的）？
+- Q-dmn-06（高）：TMS抑制PCC能否在行为层面减少"心理执念"（因果验证PCC沉浸框架）？
+- Q-dmn-07（中）：DMN连接性的经验依赖可塑性——冥想/学习/创伤如何改变连接拓扑？
+- Q-dmn-08（中）：DMN是否可操作化为预测编码的先验项？
+
+**图谱**：203节点（+2：self-referential-processing、mind-wandering），新增约10条边（DMN↔新概念，新概念↔理论/现象）
+
+---
+
+## 2026-08-01 · 文章 #100（里程碑）· 教师信号的困境：攀爬纤维 LTD 的分子机制与小脑运动学习的"分布式可塑性"革命
+
+**核心主题**：小脑 LTD（Marr-Albus-Ito 模型核心）的分子级联（mGluR1→PKC→GluA2 S880磷酸化→PICK1介导AMPAR内吞）详解；攀爬纤维误差信号的精密时序（眼跳后80–120ms，SC→IO延迟14.4ms，编码误差大小2°–6°和方向）；绒球最优 PF-CF 配对间隔≈120ms（匹配视觉反馈延迟，Suvrathan 2018）；颗粒细胞膨胀编码GluA4机制（200:1扩展比，GluA4 KO→电流↓80%、眼睑条件反射消失，Kita 2021）；Schonewille 2011 三种突变小鼠阻断LTD→运动学习仍正常，迫使范式转移；分布式可塑性（≥15种机制）；双相记忆轨迹（皮层LTD快速→DCN LTP慢速巩固，Ito 2013）；CCAS"思维失调"假说（156例，PMC6978293）；脑-AI类比（监督学习、稀疏误差信号、时间信用分配、冗余鲁棒性）。
+
+**新建页面（2）**：
+- `neurons/purkinje-cell.md` rev1 — 浦肯野细胞形态（~150,000树突棘、1:1 CF单一支配）、双重放电（简单50–100Hz/复杂~1Hz）、LTD输入-输出逻辑、GABAergic抑制DCN机制 (established, confidence:high)
+- `concepts/climbing-fiber-error-signal.md` rev1 — CF误差信号全链（IO计算→CF传递→复杂放电→LTD触发）、误差时序量化（80–120ms/14.4ms延迟）、区域特异时窗、IO缝隙连接同步；感觉误差vs运动误差区分 (established, confidence:high)
+
+**修订页面（2）**：
+- `concepts/cerebellar-ltd.md` rev1→rev2 — 新增绒球120ms最优时窗（Suvrathan 2018）、攀爬纤维复杂放电时序量化（Soetedjo 2019）、双相记忆轨迹（Ito 2013）；新增未解问题Q-cb-04/Q-cb-05；related新增climbing-fiber-error-signal/purkinje-cell；key_sources补充3个PMID；updated→2026-08-01
+- `systems/cerebellum.md` rev1→rev2 — 新增关键证据7行（CF时序、绒球窗口、GluA4实验、CCAS 156例、双相记忆轨迹）；相关页链接更新（新子页）；key_sources扩充至9个；opens_questions新增Q-cb-04/Q-cb-05；updated→2026-08-01
+
+**矛盾登记（0）**：今日无新增矛盾。LTD非必要（Schonewille 2011）与LTD是运动误差机制（Ito经典）的张力已在文章#64时在cerebellar-ltd页登记，今日新增证据（Suvrathan 2018、Ito 2013双相轨迹）进一步充实了"分布式可塑性"范式对这个张力的统一解释，但核心矛盾（Q-cb-04：哪些范式中LTD是必要的）仍open。
+
+**新增开放问题（2）**：
+- Q-cb-04（高）：哪些具体学习范式中 LTD 仍是必要限速步骤？
+- Q-cb-05（中）：小脑后叶认知学习（Crus I/II）是否使用相同的PF-PC LTD机制？
+
+**图谱**：201节点（+3：purkinje-cell、climbing-fiber-error-signal；cerebellar-ltd已存在），新增约18条边
+
+---
+
+## 2026-07-31 · 文章 #99 · 皮层的"安抚手"：vmPFC 如何通过截获细胞与 BLA 直接投射平息杏仁核的恐惧输出
+
+**核心主题**：内侧前额叶皮层下边缘子区（IL/vmPFC）通过三路并联机制实现对杏仁核恐惧输出的自上而下调控：①IL→腹侧ITC（截获细胞）→CeM的GABAergic门控（Likhtik et al. 2008，PMID:18615014；r=−0.67强负相关，选择性损毁因果证明）；②IL→BLA直接投射（消退后内在兴奋性↑，DREADD沉默→消退受损，Bloodgood et al. 2018，PMID:29507292）；③IL→PVT→CeA中继通路（Tao et al. 2021，PMID:33180308）。IL内部机制：消退训练激活mGluR5→AMPAR插入+内在兴奋性↑（Sepulveda-Orengo 2013，PMID:23616528）。时间逻辑：IL在消退训练时必要（写入），而非回忆时（Do-Monte 2015，PMID:25716859）。PL与IL功能可双重解离（Sierra-Mercado 2011）。
+
+**新建页面（1）**：
+- `circuits/pfc-amygdala-emotion-regulation.md` rev1 — 前额叶-杏仁核三路并联情绪调控回路整合节点；PL vs IL功能分工；ITC门控/BLA直接投射/PVT三通路；IL内部mGluR5可塑性；训练vs回忆时间逻辑；人类vmPFC对应证据；Q-pfc-amyg-01~04新增 (established, confidence:high)
+
+**修订页面（3）**：
+- `concepts/fear-extinction.md` rev2→rev3 — 新增IL→BLA直接投射消退专门化（Bloodgood 2018）；新增IL内部mGluR5→AMPAR分子可塑性（Sepulveda-Orengo 2013）；新增IL时间窗口（Do-Monte 2015）；新增IL→PVT第三通路（Tao 2021）；related/key_sources更新；updated→2026-07-31
+- `systems/prefrontal-cortex.md` rev3→rev4 — 新增vmPFC/IL情绪调控功能子区完整小节（PL vs IL分工、三路并联机制、行为双重解离证据、人类vmPFC对应）；related新增amygdala/fear-extinction/pfc-amygdala-emotion-regulation；key_sources新增三个PMID；updated→2026-07-31
+- `systems/amygdala.md` rev4→rev5 — ITC小节补充Likhtik 2008量化数据（r=−0.67，34%损毁）；新增IL→BLA直接投射对ICMMV协同增强；source_articles更新；updated→2026-07-31
+
+**矛盾登记（0）**：今日无新增矛盾。IL→BLA直接投射（Bloodgood 2018）与经典IL→ITC→CeA模型是并列扩充而非冲突。
+
+**新增开放问题（4）**：
+- Q-pfc-amyg-01（中）：PL与IL的相互协调机制（mPFC内中间神经元？）
+- Q-pfc-amyg-02（高）：人类vmPFC/BA25→杏仁核ITC门控机制的直接验证问题
+- Q-pfc-amyg-03（中）：mGluR5 IL可塑性的上游驱动者（CS直接 vs vHPC预测误差信号？）
+- Q-pfc-amyg-04（低）：儿童期IL未成熟对早期创伤消退障碍的具体分子机制
+
+**图谱**：198节点（+1：pfc-amygdala-emotion-regulation），1145+边（新增：pfc-amygdala-emotion-regulation与amygdala/fear-extinction/prefrontal-cortex/fear-conditioning/hippocampal-circuit/bla-valence-circuits的多条关系边）
+
+---
+
+## 2026-07-30 · 文章 #98 · 情绪的两条轨道：杏仁核如何同时为奖励和恐惧编码价值
+
+**核心主题**：基底外侧杏仁核（BLA）并非单一"恐惧中枢"，而是一个**价值极性双编码器**——两类神经元群（Ppp1r1b+后部奖励神经元 / Rspo2+前部恐惧神经元）通过**完全相反的突触可塑性规则**和**分叉的投射通道**（BLA-NAc / BLA-CeA），分别向奖励驱动和威胁防御系统传递正向与负向情绪价值信号。核心实验：Namburi et al. 2015（PMID:25925480，Nature）——恐惧学习使 NAc 投射 AMPAR/NMDAR 比值 ↓、CeM 投射 ↑；奖励学习则完全相反。Beyeler et al. 2016（PMID:27041499，Neuron）——光标记发现 BLA-NAc 神经元 77% 被奖励线索激活，BLA-CeA 神经元 100% 被厌恶线索激活。Corbit & Balleine 2005（PMID:15673677）双解离证明 BLA 编码奖励结果身份（outcome-specific PIT）。Sias et al. 2024（PMID:38396258，Nature Neuroscience）——VTA-DA→BLA 投射专门驱动结果特异性奖励记忆的编码。Wassum 2022（PMID:36062909，eLife）——BLA-OFC 四向协作：lOFC→BLA 编码记忆、mOFC→BLA 用于决策、BLA→lOFC 提取奖励身份、BLA→mOFC 传递预期价值。
+
+**新建页面（1）**：
+- `concepts/bla-valence-circuits.md` rev1 — BLA 奖励-恐惧双通道：遗传分化（Ppp1r1b+ vs Rspo2+）、突触对立可塑性（Namburi 2015）、投射路由（Beyeler 2016）、PIT 行为证据（Corbit 2005）、DA→BLA 奖励记忆写入（Sias 2024）；Q-bla-01~03 (established, confidence:high)
+
+**修订页面（2）**：
+- `systems/amygdala.md` rev3→rev4 — 新增"BLA 奖励-恐惧双通道"完整小节（Ppp1r1b+/Rspo2+遗传身份、对立可塑性表格、77%/100%数据、DA→BLA 角色、光遗传行为验证）；一句话定义更新包含双极编码功能；related 新增 bla-valence-circuits, incentive-salience, subjective-value-encoding；key_sources 新增三个 PMID；updated→2026-07-30
+- `systems/orbitofrontal-cortex.md` rev1→rev2 — 新增"BLA-OFC 双向协作"小节（四向回路：lOFC→BLA/mOFC→BLA/BLA→lOFC/BLA→mOFC）；来源 Wassum 2022（PMID:36062909）；related 新增 bla-valence-circuits；updated→2026-07-30
+
+**矛盾登记（0）**：今日无新增矛盾。BLA 奖励-恐惧双通道与既有 amygdala 页（原聚焦恐惧）是互补扩展而非矛盾；与 OFC 的协作已在 OFC 页预留连接，今日补全细节。
+
+**新增开放问题（3）**：
+- Q-bla-01（高优先）：BLA 奖励神经元与恐惧神经元的比例是否可以在成年期通过经验或训练重塑？
+- Q-bla-02（中）：人类 BLA 中 Ppp1r1b+/Rspo2+ 遗传分化是否同样存在？功能等价物是什么？
+- Q-bla-03（中）：DA→BLA 奖励记忆写入的时间窗口（RPE 后多久？是否需要 NMDAR 协同）？
+
+**图谱**：197 节点（+1：bla-valence-circuits），1139 边（+6 条新边：bla-valence-circuits 的部分/机制/调控/支持关系）
+
+---
+
+## 2026-07-29 · 文章 #97 · 价值的地图：眶额叶皮层如何计算"什么值得追求"
+
+**核心主题**：眶额叶皮层（OFC）作为大脑的"估价系统"，将多维奖励属性（大小、概率、延迟、主观偏好）整合为单一可比较的主观价值信号，是目标导向决策与奖励学习的关键节点。核心细胞证据：Padoa-Schioppa & Assad（2006，PMID:16633341）在猕猴 OFC 发现三类商品价值神经元（offer-value-A、offer-value-B、chosen-value），其编码格式是行为无关的"goods-based"（商品基础）而非"action-based"。Rangel et al.（2008，PMID:18545266）三系统框架：OFC 作为目标导向系统（DMS+OFC）的价值输入源，向腹侧纹状体（NAc）提供结果当前价值信号；OFC 损伤 → 目标导向系统退化为习惯系统（贬值不敏感）。Hattori et al.（2023，PMID:37957318）OFC 元学习：CaMKII 可塑性积累跨会话任务结构知识，使 actor-critic 批评家的 V(s) 初始化更准确。Hare et al.（2009，PMID:19407204）vmPFC+dlPFC 自我控制回路：dlPFC 调制 vmPFC 的多维价值权重，高 dlPFC 活动时认知目标权重↑。
+
+**新建页面（2）**：
+- `systems/orbitofrontal-cortex.md` rev1 — OFC：多模态汇聚（味觉/嗅觉/视觉/内脏/体感）+三功能子区（内侧OFC/外侧OFC/中央OFC）+三类价值神经元（Padoa-Schioppa 2006）+三系统框架角色（目标导向价值输入源）+vmPFC自我控制调制（Hare 2009）+OFC元学习（Hattori 2023）；Q-ofc-01~03 (established, confidence:high)
+- `concepts/subjective-value-encoding.md` rev1 — 主观价值编码：三系统竞争框架（巴甫洛夫/习惯/目标导向）+价值信号时序（offer-value → chosen-value）+vmPFC+dlPFC自我控制+两时间尺度学习（ms-s RPE / days CaMKII）；Q-sval-01~02 (established, confidence:high)
+
+**修订页面（3）**：
+- `concepts/habit-formation.md` rev2→rev3 — 新增"OFC 对目标导向系统的关键贡献"小节：OFC→DMS 价值信号是目标导向系统灵活性的来源；OFC 损伤解释临床"强制习惯"表现；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:18545266, PMID:16633341
+- `concepts/actor-critic-model.md` rev1→rev2 — 新增"OFC 作为批评家的价值输入源"小节：OFC→NAc 价值信号投射使 V(s) 实时更新；Hattori 2023 元学习扩展层；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:18545266, PMID:16633341, PMID:37957318
+- `concepts/dopamine-reward-prediction-error.md` rev8→rev9 — 新增"OFC 双层学习对 DA-RPE 框架的扩展"小节：OFC CaMKII 元学习使 V(s) 初始化不从零开始；证据表（Hattori 2023 证据）；related 新增 orbitofrontal-cortex, subjective-value-encoding
+
+**矛盾登记（0）**：今日无新增矛盾。OFC 为 actor-critic 批评家提供价值输入与现有 DA-RPE 框架完全兼容（补充而非修正）。
+
+**新增开放问题（5）**：
+- Q-ofc-01（高优先）：OFC 价值编码是真正的单一标量压缩还是多维向量保留至下游整合？
+- Q-ofc-02（中）：外侧 OFC 与内侧 OFC 的价值信号功能分工是否绝对（惩罚/奖励双轨）？
+- Q-ofc-03（低）：OFC 元学习在多长时间尺度上积累（跨会话 vs 跨数周）？CaMKII 磷酸化是否参与?
+- Q-sval-01（高优先）：价值信号是单一标量还是多维向量？
+- Q-sval-02（中）：主观价值编码与自我意识的关系——无自我意识系统能否实现"主观价值"？
+
+**图谱**：198 节点（+2：orbitofrontal-cortex, subjective-value-encoding），1149 边（+16 条新边）
+
+---
+
+## 2026-07-28 · 文章 #96 · 记忆的活书稿：记忆再巩固现象揭示的大脑真相
+
+**核心主题**：记忆再巩固（reconsolidation）——已完全巩固的长期记忆，在每次被提取后会短暂回到蛋白质合成依赖的不稳定状态（去稳定化），需要重新合成蛋白质才能再次固化（再稳定化）。分子机制：NMDA受体激活→GluA2亚基内吞（含GluA2的AMPAR从突触膜移除）→泛素-蛋白酶体激活（支架蛋白降解）→去稳定化；新的基因转录（CREB/C/EBP/Zif268）→翻译→再稳定化，时间窗约6小时。关键计算条件：**预测误差**是必要条件（Sevenster et al. 2013 Science，人类直接证据）。临床应用：普萘洛尔（β受体阻断剂）在记忆激活后给予可削弱PTSD记忆（Debiec & LeDoux 2004；Mallet et al. 2022初步临床证据）。边界条件：强记忆、老记忆、完整提取（无预测误差）不触发再巩固，与GluN2A/GluN2B元可塑性假说相关。
+
+**新建页面（1）**：
+- `concepts/memory-reconsolidation.md` rev1 — 记忆再巩固：去稳定化（GluA2内吞+UPS）→再稳定化（CREB/Zif268/蛋白合成）；预测误差驱动；边界条件；PTSD临床应用；与消退的关系 (established, confidence:high)
+
+**修订页面（2）**：
+- `concepts/memory-consolidation.md` rev8 — 新增"再巩固"作为第三种巩固类型（突触巩固、系统巩固、再巩固三分类）；连接节新增 [[memory-reconsolidation]]；related扩充；dimensions新增molecular/synaptic；updated→2026-07-28
+- `concepts/engram-cells.md` rev6 — 当前理解新增"再巩固作为印迹修改的窗口"段落（GluA2内吞使印迹进入可编辑状态；再巩固失败→印迹真实消除，区别于沉默印迹）；连接节新增 [[memory-reconsolidation]]；related扩充；dimensions新增molecular/synaptic；updated→2026-07-28
+
+**矛盾登记（0）**：今日无新增矛盾。再巩固与消退均为提取后可塑性过程，不冲突，而是同一现象的不同表现（已在 Q-recon-02 记录为未解问题）。
+
+**新增开放问题（4）**：
+- Q-recon-01（高优先）：能否开发特异性靶向单一记忆的再巩固干预手段？
+- Q-recon-02（高优先）：再巩固与消退是否共享底层分子机制？分叉点在哪里？
+- Q-recon-03（中）：强记忆/老记忆的边界条件全貌（元可塑性是否是唯一机制？）
+- Q-recon-04（中）：人类再巩固的突触层面直接证据（现有仅为行为/fMRI间接证据）
+
+**图谱**：196 节点（+1：memory-reconsolidation），1133 边（+11条新边）
+
+---
+
+## 2026-07-27 · 文章 #95 · 绝缘层的革命：少突胶质细胞与活动依赖性髓鞘化
+
+**核心主题**：少突胶质细胞（OL）是 CNS 唯一的髓鞘制造者，单个细胞可包裹 40–50 段来自不同神经元的轴突，通过致密脂质膜（MBP+PLP）和兰维耶节（Nav1.6）实现跳跃式传导（saltatory conduction），速度提升约 100 倍（0.5→120 m/s）、能耗降低约 100 倍。关键新认知：活动依赖性髓鞘化（Gibson et al. 2014, Science PMID:24727982）——光遗传激活运动前区 → OPC 增殖分化 → 髓鞘化增加 → 行为改善；阻断 OL 分化则消除行为改善（因果确定）。Yalçín et al. 2024（Nature）进一步揭示 VTA 多巴胺神经元活动驱动局部 OL 生成，OL 缺失损害多巴胺释放和阿片类奖励行为，将白质可塑性纳入奖励回路分析。人类额叶髓鞘化延续至 30 岁。髓鞘可塑性与突触可塑性是互补的学习双轴：前者改变传导**时机**，后者改变信号**强度**。
+
+**新建页面（2）**：
+- `neurons/oligodendrocyte.md` rev1 — 少突胶质细胞：1对40–50轴突包裹；OPC终生分化潜能；活动依赖信号（谷氨酸/ATP→AMPA/NMDA受体）；代谢支持（乳酸穿梭）；VTA奖励回路中必要性 (established, confidence:high)
+- `concepts/myelination.md` rev1 — 髓鞘化：跳跃式传导原理（Rm×1000/Cm÷50）；发育时间表（额叶至30岁）；活动依赖可塑性（Gibson 2014因果证据）；人类特异性（OPC更新速度比小鼠慢100倍）；三个未解问题 (established, confidence:high)
+
+**修订页面（3）**：
+- `neurons/action-potential.md` rev4 — 新增与 myelination、oligodendrocyte 的关联；说明跳跃式传导是髓鞘化的核心功能输出；updated→2026-07-27
+- `concepts/dopamine-reward-prediction-error.md` rev8 — 新增 VTA 髓鞘化维度：Yalçın 2024（PMID:38839962）表明 OL 可塑性参与 DA 回路传导时序调节；related新增myelination、oligodendrocyte；updated→2026-07-27
+- `concepts/critical-period.md` （updated→2026-07-27，新增连接额叶髓鞘化延迟至30岁的维度）
+
+**矛盾登记（0）**：今日无新增矛盾。但 Q-myelin-01 登记一个重要不确定性：人类成年期 OL 可塑性机制（新 OL 生成 vs 既有 OL 形态调整）缺乏直接证据，人类与小鼠不可直接类比。
+
+**新增开放问题（3）**：
+- Q-myelin-01（高优先）：人类成年 OL 可塑性主导机制
+- Q-myelin-02（中）：OPC 选择包裹哪条轴突的竞争机制
+- Q-myelin-03（中）：MS 再髓鞘化不完整的分子原因
+
+**图谱**：195 节点（+3），1122 边（+11）
+
+---
+
+## 2026-07-24 · 文章 #92 · 大脑的第四维罗盘：时间细胞与速度细胞如何建立时间坐标系
+
+**核心主题**：时间细胞（time cells）是海马CA1神经元在记忆任务延迟期以接力棒式序列放电的功能状态，与场所细胞同源（同一神经元，不同激活模式）；标量特性（可重新校准，延迟时长改变→放电峰值按比例调整）对应行为韦伯律；人类证据来自Umbach等2020（PMID:33109718）颅内记录。速度细胞（speed cells）是MEC中放电率与运动速度线性正相关的神经元，通过脑干PPN→基底前脑HDB→MEC通路接收运动速度信号（Carvalho 2020，PMID:32905779），为路径整合提供速度输入（有~50-80ms前瞻偏置）。外侧内嗅皮层（LEC）群体状态漂移在秒到小时时间尺度编码经历时间（Tsao 2018，PMID:30158699），提供情节记忆的时间戳。三者共同将空间认知地图升级为完整的时空情节坐标系。
+
+**新建页面（2）**：
+- `concepts/time-cells.md` rev1 — 时间细胞：海马CA1接力棒式时间序列；可重新校准标量特性；与场所细胞同源（75%+含空间信息）；人类颅内记录证据（Umbach 2020）（established, confidence:high）
+- `concepts/speed-cells.md` rev1 — 速度细胞：MEC线性速度编码；环境无关；50-80ms前瞻偏置；PPN→HDB→MEC脑干通路（Carvalho 2020）（established, confidence:high）
+
+**修订页面（4）**：
+- `concepts/place-cells.md` rev3 — 新增"场所细胞=时间细胞同一神经元双重模式"认识（MacDonald 2011）；related新增time-cells；key_sources新增PMID:21867888；updated→2026-07-24
+- `concepts/grid-cells.md` rev3 — 新增速度细胞补全路径整合速度分量；联合细胞小节补充速度来源；related新增speed-cells/time-cells；key_sources新增PMID:26176924；updated→2026-07-24
+- `systems/entorhinal-cortex.md` rev2 — 新增MEC速度细胞亚群（Kropff 2015, Carvalho 2020）；新增LEC时间戳漂移功能（Tsao 2018）；情节编码框架升级为"空间×情境×时间"三维；related/key_sources更新；updated→2026-07-24
+- `concepts/path-integration.md` rev3 — 新增速度细胞为速度输入细胞实现（Carvalho 2020）；新增时间细胞作为时间路径整合类比；related/key_sources更新；updated→2026-07-24
+
+**矛盾登记（0）**：今日无新增矛盾。时间细胞（MacDonald 2011）和速度细胞（Kropff 2015）均为教科书级established知识，多实验室重复；LEC时间戳（Tsao 2018）人类证据待补但现有大鼠证据高置信。
+
+**新增开放问题（4）**：Q-tc-01（高优先：时间细胞序列内部生成vs外部驱动）、Q-tc-02（中：速度细胞人类直接证据缺失）、Q-tc-03（高优先：标量特性的网络机制）、Q-tc-04（低：LEC漂移分子基础）
+
+**图谱**：184 节点（+2），~1085 边（估计+27）
+
+---
+
+## 2026-07-23 · 文章 #91 · 皮层六层架构：大脑用六层细胞片实现感知与预测的解剖分工
+
+**核心主题**：皮层六层结构（L1–L6）是哺乳动物新皮层的高度保守计算架构——L4 接收丘脑前馈输入（但丘脑输入仅占 L4 突触 10–20%，相互兴奋放大约 10 倍）；L2/3 以高阈值门控（需45–50个 L4 细胞同时激活）实现群体活动检测，发出前馈 γ 振荡；L5/6 发出反馈 α/β 振荡到低级区域 L1/6；L1 接收来自高级区域的远程反馈作用于顶端树突。Douglas & Martin（1991，PMID:1666655）规范微回路（三群体：浅层锥体/深层锥体/抑制中间神经元）是跨脑区通用模板；Felleman & Van Essen（1991，PMID:1822724）确立前馈（浅层→L4）/ 反馈（深层→L1/6）层间法则；Markov 等（2014，PMID:23983048）定量证明反馈连接数量约是前馈的2:1；Bastos 等（2012，PMID:23177956）将规范微回路与预测编码整合：L2/3=误差单元/γ，L5/6=预测单元/α-β。
+
+**新建页面（2）**：
+- `concepts/cortical-layers.md` rev1 — 皮层六层架构：L1–L6 功能分工；丘脑输入仅10-20%；L4内连接率25-36%；L4→L2/3高阈值门控（45-50个细胞）；FF/FB层间法则；γ-FF/α-β-FB振荡分工（established, confidence:high）
+- `concepts/canonical-microcircuit.md` rev1 — 规范微回路（Douglas-Martin 1991）：三群体模型；相互兴奋放大10倍丘脑输入；状态依赖计算；Bastos 2012整合为预测编码解剖底层（established, confidence:high）
+
+**修订页面（2）**：
+- `concepts/barrel-cortex.md` rev2 — 新增 cortical-layers 和 canonical-microcircuit 为关联节点；桶状皮层作为六层回路定量验证最清晰模型系统的角色明确；related 列表更新；updated→2026-07-23
+- `theories/predictive-coding.md` rev8 — 新增 canonical-microcircuit 和 cortical-layers 到 related 和连接节；明确规范微回路是预测编码的解剖底层（Bastos 2012）；source_articles 加入 2026-07-23 文章；updated→2026-07-23
+
+**矛盾登记（0）**：今日无新增矛盾。皮层六层架构和规范微回路是多物种、多实验室高度验证的 established 结论；FF/FB 振荡分工在啮齿类的普适性争议已记录为 Q-cl-02，与 predictive-coding.md 中 Q-pc-05 联动。
+
+**解决的悬空引用（0）**：无（cortical-layers 和 canonical-microcircuit 为今日新增，之前未被显式引用；barrel-cortex 现增加对它们的引用）
+
+**新增开放问题（3）**：Q-cl-01（高优先：agranular 皮层规范微回路如何修订）、Q-cl-02（高优先：振荡分工普适性争议）、Q-cl-03（中：中间通路例外的整合）
+
+**图谱**：182 节点（+2），1058 边（+22）
+
+---
+
+## 2026-07-22 · 文章 #90 · 大脑的内置罗盘：头向细胞与边界细胞完成空间导航四元组
+
+**核心主题**：头向细胞（Head Direction Cells）与边界细胞（Border Cells/BVCs）——大脑 GPS 系统的方向编码器和边界传感器，完成空间导航四元组（场所细胞/网格细胞/头向细胞/边界细胞）。头向细胞回路（DTN→LMN→ADN→PoS→RSC→MEC深层）以环形吸引子机制由前庭系统驱动，由视觉地标锚定；Peyrache 2015（PMID:25706474）证明 ADN 群体相干旋转说明吸引子内在动力学。边界细胞（Solstad 2008 MEC；Lever 2009 下托）是 O'Keefe & Burgess 1996 BVC 理论的实验验证，拉伸实验证明边界特异性；计算模型提示边界细胞通过重置网格吸引子校正路径整合漂移。
+
+**新建页面（3）**：
+- `systems/head-direction-cells.md` rev1 — 头向细胞：首选方向/调谐宽度~90°/位置无关；DTN-LMN-ADN-PoS-RSC-MEC回路；环形吸引子内在动力学（Peyrache 2015）；前庭驱动+视觉锚定（established, confidence:high）
+- `concepts/border-cells.md` rev1 — 边界细胞：MEC（Solstad 2008）+下托（Lever 2009）；边界特异性/拉伸实验；BVC模型；路径整合误差校正；对新边界秒级响应（established, confidence:high）
+- `concepts/ring-attractor.md` rev1 — 环形吸引子网络：距离依赖兴奋-抑制；稳定活跃峰；角速度驱动旋转；Zhang 1996 理论+Peyrache 2015 实验；与CA3离散吸引子的对比（established, confidence:high）
+
+**修订页面（1）**：
+- `concepts/path-integration.md` rev2 — 新增 head-direction-cells 和 border-cells 为已填补的相关节点（原为悬空引用 head-direction-cells）；修订历史追加；updated→2026-07-22；revision_count 1→2
+
+**矛盾登记（0）**：今日无新增矛盾。头向细胞的经典放电特性（Taube 1990）和边界细胞的发现（Solstad 2008，Lever 2009）均是多次独立重复的 established 结论。
+
+**解决的悬空引用（1）**：`head-direction-cells`（被 path-integration.md 的 related 列表引用，原为悬空；今日填补）
+
+**新增开放问题（3）**：Q-hd-01（高优先：HD信号首发地DTN vs LMN）、Q-hd-02（中：重映射中HD是否同步重映射）、Q-bc-01（高优先：边界细胞重置网格吸引子的因果机制）
+
+**图谱**：180 节点（+3），1036 边（+18）
+
+---
+
+## 2026-07-21 · 文章 #89 · 大脑的频闪滤网：α 振荡的脉冲抑制机制与注意力门控
+
+**核心主题**：α 振荡（8–13 Hz）从"皮层闲置"到"主动脉冲抑制"的概念革命（Track 5 认知控制 × Track 3 感觉编码交叉篇）——Jensen & Mazaheri 2010 "Gating by Inhibition" 框架：大脑通过主动抑制无关区域（而非增强目标区域）路由信息；α 脉冲抑制（每 ~100ms GABA 超极化）调控 duty-cycle；空间注意时对侧被忽略枕叶 α 升高（视网膜拓扑特异性，Worden 2000）；预刺激 α 反向预测视觉皮层兴奋性（Romei 2008 TMS 光幻视）；节律性 TMS 10Hz 频率特异性因果诱导视野特异感知抑制（Romei 2010）；跨视觉/体感/听觉的 α 抑制普遍性（Foxe & Snyder 2011）；FEF-IPS α 相干性是 DAN 控制感觉皮层 α 侧向化的振荡载体（van Schouwenburg 2017）；α-γ 互补关系（α 高区 = γ 低区）。
+
+**新建页面（1）**：
+- `concepts/alpha-oscillations.md` rev1 — α 振荡：脉冲抑制机制；空间特异 α 侧向化；α-γ 互补；丘脑-皮层生理基础；FEF-IPS 上游控制；跨感觉普遍性；ADHD 相关（established, confidence:high）
+
+**修订页面（3）**：
+- `concepts/dorsal-attention-network.md` rev2 — 新增"α 振荡控制"机制节：FEF-IPS α 相干性指挥感觉皮层 α 侧向化；更新 related 加入 alpha-oscillations；更新 updated/revision_count/修订历史
+- `concepts/gamma-oscillations.md` rev4 — 新增"α-γ 互补关系"对照表节；更新 related 加入 alpha-oscillations；更新 updated/revision_count
+- `wiki/_graph.json` — +1节点（alpha-oscillations），+14边（177总节点，1018总边）
+
+**矛盾登记（0）**：今日无新增矛盾。α 振荡的主动抑制功能已在多个独立实验室获广泛验证（Worden 2000→Romei 2008, 2010→Foxe & Snyder 2011→van Schouwenburg 2017），知识地位已为 established。
+
+**解决的悬空引用（1）**：`alpha-oscillations`（被 dorsal-attention-network、gamma-oscillations、working-memory 中隐含引用，现有明确源页面）
+
+**新增开放问题（3）**：Q-alpha-01（高优先：FEF→枕叶 α 的解剖通路）、Q-alpha-02（中：IAF 个体差异与注意效率）、Q-alpha-03（中：清醒 α 门控与睡眠丘脑纺锤波共享机制）
+
+**图谱**：177 节点（+1），1018 边（+14）
+
+---
+
+## 2026-07-20 · 文章 #88 · 感官交响曲：多感觉整合的计算神经科学
+
+**核心主题**：多感觉整合（Track 3 感觉编码闭环篇）——贝叶斯因果推断（先判断是否同源）+ 最大似然估计（可靠性加权融合）两级计算架构；上丘三原则（空间对齐、时间一致、逆效性法则）；时间绑定窗口（TBW）测量、发育轨迹和训练可塑性（40-64%缩小）；TBW 在 ASD/阅读障碍/精神分裂症中的扩宽；pSTS 作为视听整合皮层枢纽（嘴型-声音联合选择性）；ALE 荟萃分析确认的多感觉网络（STG/MTG-丘脑-岛叶-IFG）；三经典幻觉（麦格克效应、声音诱导闪光幻觉、腹语效应）作为整合机制的行为证据；与预测编码框架的深层联结（两者共享"感知=贝叶斯推断"认识论）。
+
+**新建页面（5）**：
+- `concepts/multisensory-integration.md` rev1 — 多感觉整合：贝叶斯因果推断+MLE框架；上丘三原则；pSTS枢纽；TBW可塑性；ASD/精神分裂症临床关联（established, confidence:high）
+- `concepts/temporal-binding-window.md` rev1 — 时间绑定窗口：SJ/TOJ测量；100-500ms范围随刺激复杂度；训练可缩小40-64%（PMC2771316全文）；ASD/阅读障碍/精神分裂症扩宽（established, confidence:high）
+- `concepts/bayesian-sensory-integration.md` rev1 — 贝叶斯感觉整合：MLE公式w_i=σ_j²/Σσ_k²；因果推断层；与逆效性法则数学等价（mainstream, confidence:high）
+- `concepts/mcgurk-effect.md` rev1 — 麦格克效应：视觉/ga/+听觉/ba/→感知/da/；前意识自动过程；pSTS联合选择性是神经基础（established, confidence:high）
+- `systems/superior-temporal-sulcus.md` rev1 — 后颞上沟（pSTS）：位于听觉-视觉皮层交界；嘴型-声音联合选择性；后→前功能梯度（感觉运动→语义）；ALE荟萃分析确认为多感觉整合最一致激活皮层节点（mainstream, confidence:high）
+
+**修订页面（3）**：
+- `systems/auditory-cortex.md` rev2 — 新增 related: superior-temporal-sulcus, multisensory-integration, mcgurk-effect；确认 A1→pSTS 视听整合的上游输入地位
+- `theories/predictive-coding.md` rev7 — 新增 related: multisensory-integration, bayesian-sensory-integration；确认多感觉贝叶斯整合是预测编码框架的多模态输入层实现
+- `wiki/_graph.json` — +5节点，+30边（176总节点，1004总边）
+
+**矛盾登记（0）**：今日无新增矛盾。多感觉整合的核心计算原则（MLE、贝叶斯因果推断）已获广泛实验支持，无需登记分歧。
+
+**新增开放问题（3）**：Q-msi-01（高优先：贝叶斯因果推断的单细胞神经表示）、Q-msi-02（中优先：婴儿期MLE整合能力发展）、Q-msi-03（中优先：ASD的TBW扩宽是原发还是继发）
+
+**解决的悬空引用**：superior-temporal-sulcus（被 language-network, broca-area 隐式引用；现有明确源页面）
+
+**图谱**：176 节点（+5），1004 边（+30）
+
+---
+
+## 2026-07-19 · 文章 #87 · 从皮肤到大脑的身体地图：触觉机械感受器、背柱通路与初级体感皮层的拓扑映射
+
+**核心主题**：体感系统（Track 3 感觉编码第 6 篇）——四类皮肤机械感受器的结构-功能分工（梅斯纳/帕西尼/迈克尔/鲁菲尼）；背柱-内侧丘系三级中继通路；S1 四子区（3a本体感觉/3b触觉/1质地/2整合）分工；皮质体感小人（版图大小∝受体密度而非面积）；桶状皮层（一胡须一桶）作为精确拓扑映射的经典模型；发育关键期（P0–P4，MAOA/AC1 KO 机制）；成人皮层重映射（截肢→嘴唇区移位/盲文→视觉皮层跨模态）；S2 对感觉阈值的因果门控（PMID:38346995）。
+
+**新建页面（6）**：
+- `systems/somatosensory-cortex.md` rev1 — 初级体感皮层（S1）：四子区功能分工（3a/3b/1/2）；皮层版图∝受体密度；成人可塑性；S2 层级连接（established, confidence:high）
+- `concepts/barrel-cortex.md` rev1 — 桶状皮层：一胡须一桶；四站传递 ~5 ms；柱约 6500 神经元，稀疏编码响应概率 0.32；发育关键期 P0–P4；MAOA/AC1 KO 遗传解剖（established, confidence:high）
+- `concepts/mechanoreceptors-skin.md` rev1 — 皮肤机械感受器：四类 Aβ 传入；快适应（梅斯纳/帕西尼）vs 慢适应（迈克尔/鲁菲尼）；频率响应范围；受体密度→两点阈值（established, confidence:high）
+- `concepts/cortical-homunculus.md` rev1 — 皮质体感小人：Penfield 电刺激标测；版图大小∝受体密度（非面积）；跨系统设计原则（音调拓扑/V1放大/桶状皮层）（established, confidence:high）
+- `concepts/cortical-remapping.md` rev1 — 皮层重映射：截肢后嘴唇代表区移位 ~8 mm；机制主要为突触解蔽；幻肢痛相关（相关 vs 因果未定）；盲文/跨模态可塑性（mainstream, confidence:medium）
+- `concepts/dorsal-column-pathway.md` rev1 — 背柱-内侧丘系通路：三级中继（DRG→背柱核→内侧丘系→VPL→S1）；薄束/楔束躯体拓扑保持；损伤表现（established, confidence:high）
+
+**修订页面（0）**：今日无修订现有页面（新领域进入，无既有体感皮层页面需修订）。
+
+**矛盾登记（0）**：今日无新增矛盾（体感系统核心机制均为高度确立知识；皮层重映射与幻肢痛因果关系已在 cortical-remapping 页面标注为相关性证据，尚无需登记矛盾）。
+
+**新增开放问题（4）**：Q-som-01（高优先：S1重映射与幻肢痛相关vs因果）、Q-som-02（中优先：桶状皮层局部异质性功能意义）、Q-som-03（中优先：人类3a/3b/1/2在7T fMRI解析）、Q-som-04（低优先：盲文S1扩展与视觉皮层跨模态重映射因果顺序）
+
+**解决的悬空引用**：somatosensory-cortex（被 thalamus, language-network 隐式引用；现有明确源页面）；barrel-cortex（被 critical-period 隐式引用）
+
+**图谱**：171 节点（+6：somatosensory-cortex, barrel-cortex, mechanoreceptors-skin, cortical-homunculus, cortical-remapping, dorsal-column-pathway），974 边（+27 条新边）
+
+---
+
+## 2026-07-18 · 文章 #86 · 大脑如何读懂音调：从耳蜗行波到初级听觉皮层的音调拓扑图
+
+**核心主题**：听觉系统双重频率编码策略——位置编码（基底膜行波+OHC Prestin主动放大+TMC1分子梯度）与时间精细结构编码（IHC带状突触+听神经相位锁定）；初级听觉皮层A1全局音调拓扑与局部复杂感受野异质性；core-belt-parabelt层级时间组织；A1与A2并行功能分工。
+
+**新建页面（4）**：
+- `systems/auditory-cortex.md` rev1 — 初级听觉皮层（A1）：全局音调拓扑梯度；局部复杂感受野异质性（Gaucher 2020）；core-belt-parabelt chronotopy（Benner 2023）；A1/A2并行双流（Kline 2023）（established, confidence:high）
+- `concepts/tonotopy.md` rev1 — 音调拓扑：三层机制（基底膜力学/TMC1分子梯度/皮层梯度）；OHC Prestin主动放大（Fisher 2012因果证明）；皮层全局秩序与局部异质性张力（established, confidence:high）
+- `concepts/ribbon-synapse.md` rev1 — 带状突触：RIBEYE蛋白/CaV1.3触发；Pillar vs Modiolar侧异质性；三型SGN（Ia/Ib/Ic）；动态范围分解原理（Moser 2023 EMBO J）（established, confidence:high）
+- `concepts/phase-locking.md` rev1 — 相位锁定：IHC膜时常数决定上频限（~3 kHz）；时间精细结构（TFS）vs 时间包络编码；人工耳蜗TFS缺失的语音感知影响（established, confidence:high）
+
+**修订页面（0）**：今日无修订现有页面。
+
+**矛盾登记（0）**：今日无新增矛盾（听觉系统核心机制均为高度确立知识）。
+
+**新增开放问题（4）**：Q-aud-01（高优先：人类相位锁定上频限）、Q-aud-02（中优先：A1局部异质性功能意义）、Q-aud-03（中优先：Belt/Parabelt串行vs并行）、Q-aud-04（低优先：TMC1梯度发育机制）
+
+**解决的悬空引用**：auditory-cortex（language-network、thalamus、olfactory-system页面中的隐式引用现有明确源页面）
+
+**图谱**：165 节点（+4：auditory-cortex, tonotopy, ribbon-synapse, phase-locking），948 边（+16 条新边）
+
+---
+
+## 2026-07-17 · 文章 #85 · 一缕香气的旅行：嗅觉系统如何将化学分子转化为感知、记忆与情感
+
+**核心主题**：嗅觉系统三层计算架构（受体层→嗅球层→梨状皮层层）；ORN单受体表达规则与五步转导级联（OR→Gαolf→AC III→cAMP→CNG→Anoctamin2）；嗅小球轴突汇聚图谱（~5000 ORN/嗅小球，小鼠）；无丘脑中转的独特解剖路径；梨状皮层符合探测与稀疏编码；嗅觉→皮层杏仁核直接通路（Proustian效应神经基础）。
+
+**新建页面（3）**：
+- `systems/olfactory-system.md` rev1 — 嗅觉系统：三层架构；无丘脑中转路径；组合编码；梨状皮层计算；Proustian效应（established, confidence:high）
+- `concepts/olfactory-receptor-neuron.md` rev1 — 嗅觉受体神经元：单受体规则；五步转导级联（OR→Gαolf→AC III→cAMP→CNG通道→Anoctamin2 Cl⁻放大）；CaM双位点快速适应；终身再生（established, confidence:high）
+- `concepts/olfactory-glomerulus.md` rev1 — 嗅小球：OR功能地图；~5000 ORN/嗅小球汇聚；僧帽vs簇状细胞功能分流；颗粒细胞侧抑制（established, confidence:high）
+
+**修订页面（1）**：
+- `systems/amygdala.md` rev3 — 新增嗅觉→皮层杏仁核直接通路（唯一不经丘脑的感觉-情绪通路）；related新增olfactory-system；key_sources新增PMID:19804753；source_articles新增文章#85
+
+**矛盾登记（0）**：今日无新增矛盾。
+
+**新增开放问题**：Q-olfact-01（高优先：OR排他性表达的表观遗传机制）、Q-olfact-02（中优先：梨状皮层语义/情感拓扑图）、Q-olfact-03（中优先：COVID-19相关嗅觉丧失神经修复机制）
+
+**解决的悬空引用**：olfactory-receptor-neuron、olfactory-glomerulus（amygdala页面新增嗅觉通路填补"丘脑低路"相关空白）
+
+**图谱**：161 节点（+3：olfactory-system, olfactory-receptor-neuron, olfactory-glomerulus），932 边（+12 条新边）
+
+---
+
+## 2026-07-16 · 文章 #84 · 意义的诞生地：前颞叶如何将感官碎片组装成概念
+
+**核心主题**：ATL语义枢纽的计算机制深化（hub-and-spoke双层架构；ATL→spoke不对称广播；双侧ATL组织）；rTMS双离解因果证据（Pobric 2010）；C3连接约束认知模型（Chen 2017：ATL损伤→跨类别损伤是数学必然）；概念空间几何（内嗅皮层六重对称编码概念类别方向；mPFC编码类别距离）；DSI统一模型（Haga 2025 PNAS：后继者表征≡逐点互信息，网格细胞=概念细胞空间类比）；大型语言模型词嵌入与生物概念空间的几何比较。
+
+**新建页面（2）**：
+- `concepts/semantic-memory-hub.md` rev1 — 语义记忆枢纽（Hub-and-Spoke模型）：ATL→spoke不对称连接（t₁₉=5.11）；双侧ATL组织；C3计算模型；rTMS双离解（mainstream, confidence:high）
+- `concepts/conceptual-space-geometry.md` rev1 — 概念空间几何：内嗅皮层六重对称概念导航编码；mPFC距离编码；DSI统一框架（SR≡PMI）；LLM类比（emerging, confidence:medium）
+
+**修订页面（4）**：
+- `concepts/anterior-temporal-lobe-hub.md` rev2 — 新增：ATL→spoke不对称连接（DCM t₁₉=5.11）、rTMS双离解因果证据、ATL双侧组织元分析、C3计算模型；新增连接至semantic-memory-hub和conceptual-space-geometry；Q-sem-01新增；关键证据表扩展至8行
+- `concepts/grid-cells.md` rev2 — 新增"概念空间中的网格样编码"机制节（Bokeria 2021；Haga 2025 DSI模型）；新增连接至semantic-memory-hub和conceptual-space-geometry
+- `concepts/embodied-semantics.md` rev2 — 新增C3模型对Hub-and-Spoke调和立场的计算支撑；新增连接至semantic-memory-hub和anterior-temporal-lobe-hub
+- `concepts/cognitive-map.md` rev2 — 新增DSI统一计算框架节（Haga 2025，SR≡PMI等价）；新增概念空间fMRI证据行（Bokeria 2021）；新增连接至semantic-memory-hub和conceptual-space-geometry
+
+**矛盾登记（0）**：LLM词嵌入空间与生物概念空间的拓扑等价性（Q-sem-02）及概念空间真实几何（Q-sem-01）登记为新开放问题，未达contested_claims阈值。
+
+**新增开放问题**：Q-sem-01（高优先：概念空间真实几何，六边形网格是否是精确描述）、Q-sem-02（高优先：LLM词嵌入与生物概念空间的拓扑等价性）
+
+**解决的悬空引用**：无新建悬空引用；所有连接指向已有节点或当日新建节点。
+
+**图谱**：158 节点（+2：semantic-memory-hub, conceptual-space-geometry），920 边（+14 条新边）
+
+---
+
+## 2026-07-15 · 文章 #83 · 听懂一句话：大脑如何用双流网络将声音转化为意义
+
+**核心主题**：语言双流模型深化（Hickok & Poeppel）——腹流（ATL语义枢纽→hub-and-spoke）与背流（Spt区→传导性失语症自然实验）的功能解剖；Fedorenko & Blank 2020对"Broca区不是自然种类"的重要证明（LANG/MD三成分分离）；Shain & Fedorenko 2020语言专属surprisal效应（仅在LANG网络，不在MD网络）；腹流四大白质束（IFOF/UF/ILF/MLF）的DES临床证据；ATL作为语义枢纽的病变-网络和EEG/MEG时序证据。
+
+**新建页面（1）**：
+- `concepts/anterior-temporal-lobe-hub.md` rev1 — 前颞叶语义枢纽：hub-and-spoke模型；语义痴呆为自然实验；ATL 0-250ms早期激活、角回 250-450ms晚期接管；fMRI磁敏感低估问题（established, confidence:high）
+
+**修订页面（3）**：
+- `systems/broca-area.md` rev2 — 重大修订：新增LANG/MD三成分框架（语言专属/多需求/发音）；更新一句话定义"Broca区不是自然种类"；新增四条独立证据；说明群体平均fMRI中的6mm混叠问题；依据Fedorenko & Blank 2020 (PMID:32160565)
+- `circuits/ventral-language-stream.md` rev2 — 新增腹流四大白质束详细描述（IFOF/UF/ILF/MLF）及DES临床验证（Sefcikova 2022）；新增ATL语义枢纽为关键节点；新增三条证据表行（Zhao 2017, Farahibozorg 2022, Sefcikova 2022）
+- `systems/language-network.md` rev4 — 新增LANG/MD网络分离（Fedorenko 2020）；新增语言专属预测编码（Shain 2020，surprisal仅在LANG网络）；新增ATL语义枢纽为腹流关键节点
+
+**矛盾登记（0）**：今日无新增矛盾。背流在语言理解中的作用争议（Hickok vs 具身认知阵营）记录为已知争议点，在文章中并列呈现，但因两者研究条件差异大（清晰 vs 模糊语音），未达需登记 contested_claims 的阈值。
+
+**新增开放问题**：Q-lang-01（极端囊 vs 弓状束腹侧段：语义理解的关键白质通路）、Q-lang-02（ATL fMRI低估问题的范围）、Q-lang-03（语言网络左侧化的发育机制）、Q-lang-04（ATL语义整合的计算机制）
+
+**解决的悬空引用**：无（`[[anterior-temporal-lobe-hub]]` 新引用由同日新建页面填补）
+
+**图谱**：156 节点（+1：anterior-temporal-lobe-hub），906 边（+6 条新边）
+
+---
+
+## 2026-07-14 · 文章 #82 · 欲望的叛变：成瘾如何在分子层面重写大脑的奖励规则
+
+**核心主题**：成瘾的三阶段神经回路模型（Koob & Volkow 2016）、ΔFosB 作为持续分子开关（Nestler 2001）、激励显著性 wanting/liking 分离（Robinson & Berridge）、NAc 沉默突触成熟与渴望孵化（Lüscher & Malenka 2011；Ma & Dong 2016）、D2 受体下调与 allostatic 重设。
+
+**新建页面（4）**：
+- `diseases/substance-use-disorder.md` rev1 — 物质使用障碍（成瘾）：三阶段模型（基底节/扩展杏仁核/PFC）；超生理 DA 冲击；D2 下调；习惯系统的病理极端（established, confidence:high）
+- `concepts/deltaFosB.md` rev1 — ΔFosB 成瘾分子开关：截短机制/稳定性；NAc D1-MSN 选择性积累；CDK5/GluA2/dynorphin/G9a 下游靶点；与 CREB 的拮抗（established, confidence:high）
+- `concepts/incentive-salience.md` rev1 — 激励显著性：wanting（多巴胺/中脑边缘）vs liking（阿片/内源大麻素）的神经分离；L-DOPA 实验；cue-triggered wanting（mainstream, confidence:medium）
+- `concepts/incubation-of-craving.md` rev1 — 渴望孵化：沉默突触三阶段动态；CP-AMPA 插入（6-7 周峰值）；BLA→NAc 投射特异性；光遗传 LTD 重沉默实验（Ma & Dong 2016）（established, confidence:high）
+
+**修订页面（2）**：
+- `concepts/habit-formation.md` rev2 — 补充成瘾作为习惯系统病理极端的机制解释（ΔFosB/NAc CP-AMPA + 激励显著性解耦）；updated related 字段（addiction → substance-use-disorder, deltaFosB, incentive-salience）；Q-habit-01 部分解答
+- `concepts/dopamine-reward-prediction-error.md` rev7 — 新增 DA-RPE 系统在成瘾中的 allostatic 崩溃（超生理冲击 20x、D2 下调 PET 证据、wanting/liking 分离）；新增关联 substance-use-disorder、incentive-salience、deltaFosB
+
+**矛盾登记（0）**：未登记新矛盾。ΔFosB 的适应性 vs 促成瘾效应（GluA2↑ 保护 vs CDK5↑ 促进）记录为 Q-addiction-02（未解问题），未达 contested 标准（两种效应非直接冲突，而是同一转录因子的不同下游通路）。
+
+**新增开放问题**：Q-addiction-01（成瘾记忆的消除 vs 覆盖）、Q-addiction-02（ΔFosB 适应性 vs 促成瘾效应的边界）；Q-habit-01 部分解答（成瘾不可逆性的双层机制）
+
+**解决的悬空引用**：`[[addiction]]`（habit-formation 页面中的引用现已由 substance-use-disorder 填补，并更新为正确 slug）
+
+**图谱**：155 节点（+4：substance-use-disorder, deltaFosB, incentive-salience, incubation-of-craving），900 边（+31 条新边）
+
+---
+
+## 2026-07-13 · 文章 #81 · 行动的仲裁者：纹状体如何决定你该动还是不动，以及习惯是如何在神经回路中悄然生长的
+
+**核心主题**：基底节直接/间接通路的光遗传学因果证据（Kravitz 2010）、Haber螺旋-上升模型、背内侧（目标导向）vs背外侧（习惯）纹状体功能分化、括号化神经动力学（Jog 1999）、演员-批评家计算架构。
+
+**新建页面（2）**：
+- `concepts/habit-formation.md` rev1 — 习惯形成（目标导向vs习惯性行为）：DMS/DLS解剖分工；奖励贬值测试范式；括号化机制（Jog 1999）；prelimbic/infralimbic PFC分工；Piray 2016人类白质证据（established, confidence:high）
+- `concepts/actor-critic-model.md` rev1 — 演员-批评家模型：NAc=批评家（TD误差）；背侧纹状体=演员（策略更新）；model-based（DMS）vs model-free（DLS）双轨；Haber螺旋作为架构基础（mainstream, confidence:medium）
+
+**修订页面（2）**：
+- `circuits/basal-ganglia.md` rev2 — 新增Kravitz 2010光遗传因果证据（直接/间接通路的第一强因果验证）；Haber螺旋-上升模型（三层功能区划+级联结构）；DMS/DLS习惯/目标导向分工表格；演员-批评家框架作为计算解释；新增关联habit-formation, actor-critic-model, prefrontal-cortex; Q-bg-habit-goal-split部分解答；新增Q-actor-critic-01/02
+- `concepts/dopamine-reward-prediction-error.md` rev6 — 明确DA-RPE作为演员-批评家框架中批评家信号的解剖角色；SNc→背侧纹状体传递路径说明；model-free演员（DLS）S-R权重稳定性的计算解释；新增关联actor-critic-model, habit-formation
+
+**矛盾登记（0）**：Go/NoGo二分法受到Soares-Cunha 2016的批判，但未达到contested标准（知识库内已有dual-pathway模型，观点分歧属于精化而非矛盾）
+
+**新增开放问题**：Q-habit-01、Q-habit-02、Q-actor-critic-01、Q-actor-critic-02；Q-bg-habit-goal-split部分解答（病变行为证据明确；分子切换机制仍未解）
+
+**新增悬空引用（待补）**：`[[addiction]]`（habit-formation页面引用，暂无对应节点）；`[[prefrontal-cortex]]`（已有概念，但无专属页面）
+
+**图谱**：151 节点（+2：habit-formation, actor-critic-model），880 边（估算，+11条主要新边）
+
+---
+
+## 2026-07-12 · 文章 #80 · 世界的倒影：大脑皮层反馈连接之谜与预测编码的统一框架
+
+**核心主题**：预测编码作为大脑统一计算框架——从视觉皮层感受野效应到听觉皮层省略响应神经元（Yaron 2025）到多巴胺精度加权（Haarsma 2020），整合前79篇文章的碎片知识。
+
+**新建页面（0）**：无新页（所有核心概念已有页面）
+
+**修订页面（3）**：
+- `theories/predictive-coding.md` rev6 — 新增 Yaron 2025（PEONs，听觉省略响应，13%神经元，ρ=0.34）直接单细胞证据；新增 Haarsma 2020（舒必利破坏额上回精度加权，FEP患者无精度加权）药理因果证据；新增 LHb 作为奖励域"省略响应"类比；Q-pc-06（PEONs 自然感知泛化性）；related 新增 lateral-habenula
+- `concepts/precision-weighting.md` rev2 — 新增 Haarsma 2020 直接药理证据（列入关键证据表）；Q-prec-02（LHb负误差精度加权）；related 新增 lateral-habenula；dimensions 新增 disease
+- `concepts/dopamine-reward-prediction-error.md` rev5 — 明确 DA-RPE 作为预测编码框架在奖励域的神经货币化实现；补充精度加权完整链路说明
+
+**矛盾登记（0）**：无新矛盾（Hodson 2024 提示预测编码证据有限，记录为理论层面不确定性，未达 contested 标准）
+
+**新增开放问题**：Q-pc-06、Q-prec-02
+
+**新增悬空引用（待补）**：无（所有引用的 slug 均已有节点）
+
+**图谱**：149 节点，869 边（+3 边：predictive-coding↔lateral-habenula, precision-weighting→lateral-habenula）
+
+---
+
+## 2026-07-11（文章 #79·大脑的"惩罚计算器"·外侧缰核与抑郁症）
+
+**源文章**：[[2026-07-11-lateral-habenula-depression-ketamine]] —《大脑的"惩罚计算器"：外侧缰核如何将厌恶信号翻译为抑郁，以及氯胺酮为何能在数小时内打破这个恶性循环》
+
+**新建页面（3 页）**：
+- `systems/lateral-habenula.md`：外侧缰核——上丘脑进化保守核团，编码负向奖励预测误差，通过LHb→RMTg→DA和LHb→DRN→5-HT两条并行路径压制单胺能系统；抑郁中三重分子改变（βCaMKII↑、Kir4.1失调、突触前增益↑）驱动病理性爆发放电；氯胺酮NMDAR使用依赖性捕获机制（established, confidence:high）
+- `systems/rmtg.md`：喙内侧被盖核——LHb到多巴胺神经元的GABA能中继站；接受LHb谷氨酸能输入，输出GABA抑制至VTA/SNc（established, confidence:high）
+- `concepts/burst-firing-lhb.md`：外侧缰核爆发放电（抑郁机制）——LHb从正常紧张性放电转为病理性爆发；需NMDAR+T型Ca²⁺共同激活；氯胺酮使用依赖性捕获的分子靶点；与视丘爆发放电的机制同源但功能意义相反（established, confidence:high）
+
+**修订页面（2 页）**：
+- `concepts/dopamine-reward-prediction-error.md`（rev3→rev4）：补充DA负预测误差的回路底物——LHb→RMTg→DA三节点链；将LHb连接到DA-RPE框架的负向臂；新增related: lateral-habenula, rmtg
+- `concepts/hpa-axis.md`（rev1→rev2）：补充HPA轴-外侧缰核双向耦合：PVN（CRH）→LHb兴奋性输入，以及LHb激活→HPA轴维持；新增related: lateral-habenula
+
+**图谱更新**：新增 3 节点（lateral-habenula, rmtg, burst-firing-lhb）、11 条边；总计 149 节点，866 边
+
+**新登记矛盾（1 个）**：
+- C-2026-07-11-01（open）：NMDA受体是否对LHb爆发放电必要——Yang 2018（必要）vs 2026年Frontiers新论文（可能非必要）
+
+**新增未解问题（4 个）**：
+- Q-lhb-01（高优先）：LHb是否是氯胺酮起效的唯一关键位点？代谢产物在海马/PFC的AMPAR作用多大？
+- Q-lhb-02（高优先）：NMDA受体是否是LHb爆发放电的必要条件（2026年新争议）？
+- Q-lhb-03（中优先）：Kir4.1失调的上游触发器——慢性应激如何通过GR改变星形胶质细胞Kir4.1？
+- Q-lhb-04（中优先）：不同抑郁亚型中LHb活动特征的异质性
+
+**新增悬空引用（待补）**：
+- `t-type-calcium-channels-thalamus`：T型Ca²⁺通道专页（burst-firing-lhb prerequisites中提及）
+
+---
+
+## 2026-07-10（文章 #78·当卫士变成刽子手·神经炎症与突触损伤）
+
+**源文章**：[[2026-07-10-neuroinflammation-synaptic-damage]] —《当卫士变成刽子手：神经炎症如何从突触守护走向突触破坏》
+
+**新建页面（2 页）**：
+- `concepts/neuroinflammation.md`：神经炎症（CNS）——小胶质细胞/星形胶质细胞过度激活引发的 CNS 慢性低水平炎症；三阶段病理转变（免疫监视→急性保护→慢性损伤）；M1/M2 极化；Aβ 触发 C1q 补体重激活；CRH/肥大细胞桥接 HPA 轴；小胶质细胞预激（established, confidence:high）
+- `concepts/inflammatory-cytokines-synapse.md`：炎症细胞因子对突触的损伤机制——浓度依赖性双向效应（低水平促 LTP，高水平损伤）；TNF-α（TNFR2→AMPA↑，TNFR1/NF-κB→GluA1 内吞）；IL-1β（p38 MAPK→GluA1 Ser831 去磷酸化 + NR2B 选择性↓ + 突触前谷氨酸↓）；IL-6（gp130/STAT3→Arc 过激活 + BDNF-TrkB 阻断）；TREM2 R47H→TNF-α↑→LTP 受损（established, confidence:high）
+
+**修订页面（3 页）**：
+- `neurons/microglia.md`（rev1→rev2）：合并 wiki/systems/microglia.md 的神经炎症内容；新增 CX3CR1-CX3CL1 稳态轴、激活态三路细胞因子损伤、DAM/TREM2 双重角色、慢性应激→小胶质细胞预激；扩展 related/opens_questions/key_sources；填补 2026-06-03 创建后遗留的神经炎症盲区
+- `concepts/glucocorticoid-hippocampus-plasticity.md`（rev1→rev2）：新增慢性应激→CRH/GC→小胶质细胞预激→神经炎症间接损伤路径；related 新增 neuroinflammation/microglia/inflammatory-cytokines-synapse
+- `diseases/alzheimers-disease.md`（rev7→rev8）：新增"神经炎症：AD 突触损伤的早期共同驱动力"完整机制节；related 新增 neuroinflammation/inflammatory-cytokines-synapse；key_sources 新增 PMID:20970492、PMID:37575021、PMID:32579116
+
+**图谱更新**：新增 3 节点（neuroinflammation, inflammatory-cytokines-synapse, trem2）、41 条边；总计 146 节点，855 边
+
+**新登记矛盾**：无
+
+**新增未解问题（4 个）**：
+- Q-inflam-01（高优先）：小胶质细胞预激的可逆性边界
+- Q-inflam-02（高优先）：AD 脑内细胞因子局部浓度是否真正达到损伤 LTP 的阈值
+- Q-inflam-03（高优先）：TREM2 激动剂在 AD 早期的突触保护证据
+- Q-inflam-04（中优先）：炎症细胞因子是否优先损伤 PV+ 中间神经元
+
+**新增悬空引用（待补）**：
+- `trem2`：TREM2 受体专页（已作为图谱节点登记）
+- `disease-associated-microglia`：DAM 疾病相关小胶质细胞专页
+
+---
+
+## 2026-07-09（文章 #77·应激的双刃剑·糖皮质激素与海马可塑性 MR/GR 双相调节）
+
+**源文章**：[[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]] —《应激的双刃剑：糖皮质激素如何让海马在压力下先锐化、后崩溃》
+
+**新建页面（2 页）**：
+- `concepts/hpa-axis.md`：下丘脑-垂体-肾上腺轴——PVN→垂体→肾上腺皮质 CRH→ACTH→皮质醇三步信号链；海马/杏仁核/PFC 对 PVN 的差异性调控；三速负反馈机制（快速/中速/慢速）；超日节律（每60-90分钟脉冲）与昼夜节律双时间结构；Sapolsky 1986 糖皮质激素级联假说；SCN→皮质醇节律的起搏器角色（established, confidence:high）
+- `concepts/glucocorticoid-hippocampus-plasticity.md`：糖皮质激素与海马可塑性（MR/GR 双相调节）——MR（Kd≈0.5nM）/GR（Kd≈5nM）双受体亲和力与占用率对比表；MR 主导相（非基因组 AMPA 上调/基因组 BDNF 维持）；急性 GR 相（eCB/CB1R 去抑制 + 时空特异性增强原则）；慢性 GR 相（BDNF exon IV 负调控/PP2B-GluA1 内吞/CaMKII↓）；CA3 树突退缩细胞机制（NMDA 过激活/CRH 毒性/MAP2 去磷酸化）；8 行关键证据表（Conrad 2008 因果；Lupien 1998 人类纵向）（established, confidence:high）
+
+**修订页面（5 页）**：
+- `systems/amygdala.md`（rev1→rev2）：新增"应激下杏仁核-海马方向性分离"段落（慢性应激→BLA树突增生 vs CA3退缩；Kim & Diamond 2002证据）；CeM→PVN→HPA轴输出路径扩展；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity；opens_questions 新增 Q-stress-01；连接新增两条
+- `concepts/hippocampal-neurogenesis.md`（rev3→rev4）：新增"糖皮质激素对神经发生的抑制"机制段落（GR→VEGF/IGF-1/5-HT1A 通路抑制；SGZ 增殖↓40-50%；BDNF 间接路径；Conrad 2008 可逆性证据）；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity；key_sources 新增 PMID:19317179、PMID:26286651；连接新增两条
+- `concepts/ltp.md`（rev11→rev12）：新增"糖皮质激素双相调节 LTP"完整机制段落（MR 促进/急性 GR 时空特异/慢性 GR 损害三相；BDNF 下调、PP2B/calcineurin/GluA1 内吞；与 AD 汇聚点）；related 新增 glucocorticoid-hippocampus-plasticity、hpa-axis；key_sources 新增 PMID:15891777、PMID:26286651；连接新增两条
+- `concepts/bdnf.md`（rev2→rev3）：新增"慢性应激/糖皮质激素对 BDNF 的抑制"段落（GR 负性 GRE→BDNF exon IV↓30-50%；L-LTP 失败和神经发生减少双重后果；HPA 失调链条）；related 新增 glucocorticoid-hippocampus-plasticity、hpa-axis；key_sources 新增 PMID:15891777、PMID:19317179；连接新增两条
+- `diseases/alzheimers-disease.md`（rev6→rev7）：新增"糖皮质激素级联假说与 AD"段落（SCN 退化→皮质醇节律崩溃→慢性 GC→海马损伤→负反馈减弱正反馈环；双重攻击汇聚机制；Lupien 1998 人类纵向证据）；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity、circadian-clock；key_sources 新增 PMID:3527687、PMID:15891777、PMID:10195112；opens_questions 新增 Q-stress-02；连接新增三条
+
+**图谱更新**：新增 2 节点（hpa-axis, glucocorticoid-hippocampus-plasticity）、20 条边；总计 140 节点，814 边
+
+**新登记矛盾**：无（GC 双相效应的浓度阈值在不同海马亚区可能有差异，已记录为 Q-stress-01 研究前沿而非知识库内矛盾）
+
+**新增未解问题（3 个）**：
+- Q-stress-01（中优先）：慢性应激海马损伤的可逆性边界——Cushing 恢复 10%、PTSD 部分恢复，但叠加 Aβ 的可逆性阈值未知
+- Q-stress-02（高优先）：慢性压力是 AD 的因还是果？海马萎缩先于还是后于 Aβ 积累？纵向因果时序问题
+- Q-stress-03（中优先）：慢性 GC 是否首先通过损伤 PV+ 中间神经元（破坏 E/I 平衡）间接损害 LTP，而非直接作用于锥体细胞？
+
+**新增悬空引用（待补）**：无（所有连接指向已有节点）
+
+---
+
 ## 2026-07-08（文章 #76·大脑的 24 小时时钟·昼夜节律与 SCN 主时钟）
 
 **源文章**：[[2026-07-08-circadian-clock-scn-brain-rhythm]] —《大脑的 24 小时时钟：视交叉上核如何用分子振荡设定时间，协调睡眠、记忆与衰老》
@@ -1458,3 +2878,230 @@
 **新增悬空引用（需补）**：无新悬空引用（critical-period所需关联节点均已存在）
 
 **图谱**：133节点，754边（+1节点，+10边）
+
+## 2026-07-25 · 文章 #93 · 大脑如何读懂另一颗大脑：镜像神经元、心智理论与社会预测编码
+
+**核心主题**：社会脑——镜像神经元系统（MNS）的功能重新定位（低层动作区分而非意图理解）+ 心智化网络（TPJ/mPFC/pSTS/TP）的神经回路 + 社会预测编码统一框架（Koster-Hale & Saxe 2013：ToM作为神经预测问题）
+
+**新建页面（3）**：
+- `concepts/theory-of-mind.md`（心智理论）🟡 established/high — 错误信念测试机制、多层次ToM（一阶/二阶/更高阶）、神经底层（TPJ/mPFC/STS）、预测编码框架、与镜像系统的区分；来源：PMID:12948738, PMID:17714666, PMID:34241539, PMID:24012000
+- `concepts/mentalizing-network.md`（心智化网络）🟡 mainstream/medium — mPFC+TPJ+pSTS+TP+PCu节点分工表；层级时间尺度预测（Koster-Hale & Saxe 2013）；与镜像系统的效应连接控制（Sobeh & Shamay-Tsoory 2025 PMCID:PMC12651549）；情感共情 vs 认知共情分离；来源：6项（4项开放全文）
+- `systems/tpj-temporoparietal-junction.md`（颞顶联合区）🟡 mainstream/medium — 右侧TPJ-M的功能特异性（Saxe 2003）；TMS因果证据；108项元分析确认跨范式收敛（Merchant 2025 PMCID:PMC12617318）；双功能（心智化 vs 注意重定向）共存的解剖解释；来源：PMID:12948738, PMID:24012000, PMID:41245222
+
+**修订页面（1）**：
+- `circuits/mirror-neurons.md` rev2 — 大幅更新当前理解：纳入Hickok 2009（8个问题）和Heyes & Catmur 2022（PMC8785302，10年系统综述）；明确功能限于低层动作区分；破镜理论无支持；新增related（theory-of-mind/mentalizing-network/predictive-coding）和Q-mirror-01
+
+**矛盾登记（0）**：镜像神经元理论的争议已在mirror-neurons页面如实呈现，属于既知分歧，无新注册矛盾（旧观点弱化而非新冲突出现）
+
+**新增开放问题**：Q-tom-01（TPJ具体计算角色）、Q-tom-02（mPFC去中心化机制）、Q-tom-03（LLM的"ToM"与生物ToM）、Q-mn-01（mentalizing-network节点因果分工）、Q-mn-02（个体差异预测）、Q-mirror-01（ASL模型因果证据）
+
+**新增悬空引用（需补）**：无新悬空引用
+
+**图谱**：188节点，1090条边（+4节点，+16条边）
+
+
+## 2026-07-26 · 文章 #94 · 感同身受的神经密码：前岛叶皮层如何将内感受转化为共情
+
+**核心主题**：前岛叶皮层（AIC）的共情机制——内感受预测编码（EPIC 模型）、自-他共享表征、与前扣带回（ACC）的功能分工、冯·伊科诺莫神经元的演化与功能；共情的社会调节（种族偏见、专业经验、公平感）
+
+**新建页面（4）**：
+- `systems/anterior-insula.md`（前岛叶皮层）🟢 established/high — 后→前岛叶内感受梯度；AIC 是共情因果必要节点（Gu 2012 损伤研究）；EPIC 内感受预测编码；VEN 第 Vb 层；自动化任务无关响应；来源：PMID:22961548, PMID:20220007, PMID:23749500, PMID:26016744, PMID:30985277
+- `concepts/empathy.md`（共情）🟢 established/high — 情感共情（AIC/ACC）vs 认知共情（TPJ/mPFC）双解离；Singer 2004 开创性实验；Fallon 2020 元分析共享/特异网络；社会调节因素（内群效应、专业经验）；来源：PMID:14976305, PMID:22961548, PMID:32608498, PMID:23898249
+- `concepts/interoception.md`（内感受）🟢 established/high — EPIC 模型（Barrett & Simmons 2015）；内感受预测编码后→前梯度；情感体验作为内感受预测输出；与情感共情的机制关联；来源：PMID:26016744, PMID:30985277, PMID:23749500
+- `neurons/von-economo-neurons.md`（冯·伊科诺莫神经元）🟡 emerging/medium — 形态（纺锤形，~4.6× 邻近锥体细胞）；AIC+ACC 第 Vb 层；物种分布（大猿/鲸豚/大象）；bvFTD 中减少 69% 伴社会认知损失；演化约 2500 万年前；因果作用待确认
+
+**修订页面（2）**：
+- `concepts/theory-of-mind.md` rev2 — 新增 empathy、anterior-insula 连接；明确认知共情（ToM）与情感共情（AIC）的双轨关系
+- `concepts/mentalizing-network.md` rev2 — 新增 empathy、anterior-insula、interoception 连接；明确双轨社会脑框架
+
+**矛盾登记（0）**：无新矛盾；现有 7 条开放矛盾状态不变
+
+**新增开放问题**：Q-empathy-01（特质共情稳定神经基础）、Q-empathy-02（共情培训效果和 AIC 可塑性）、Q-aic-01（AIC 激活特异性：共情专属 vs 情感通用信号）、Q-ven-01（VEN 因果角色 vs 相关性标志）
+
+**新增悬空引用（需补）**：anterior-cingulate-cortex（被 AIC 页多次引用，尚无专页）、social-cognition（empathy 页引用）
+
+**图谱**：192 节点，1111 条边（+4 节点，+21 条边）
+
+## 2026-06-06
+
+### 今日主题：多巴胺能系统三重回路解剖（文章 #101，dopamine-systems-anatomy）
+
+**创建 wiki 页面（4 个）：**
+- `wiki/systems/vta.md`（腹侧被盖区）：建立 VTA 解剖结构、三条主要投射通路、VTA 内部拓扑异质性（内侧 vs 外侧 VTA 对奖励/厌恶的相反响应）；首次在知识库中明确区分 VTA 异质性（来源：de Jong 2022, PMID:35226827）
+- `wiki/systems/substantia-nigra.md`（黑质）：建立 SNc/SN 解剖、黑质纹状体通路、三种遗传功能亚型（Calb1+/Vglut2+/Anxa1+）；Anxa1+ 为首次报告的运动加速专属亚型（来源：Azcorra 2023, PMID:37537242）
+- `wiki/concepts/d1-d2-receptor-signaling.md`（D1/D2 受体信号）：建立 D1→Gs→cAMP↑→PKA 和 D2→Gi→cAMP↓→GIRK 的完整信号级联；DARPP-32 作为汇聚开关节点；D2 三重角色；PFC D1 倒 U 型（Weber 2022）
+- `wiki/concepts/direct-indirect-pathway.md`（直接/间接通路）：建立纹状体 D1-MSN/D2-MSN 分别构成直接（Go）/间接（No-Go）通路；多巴胺协同效应；帕金森病通路失衡逻辑
+
+**修订 wiki 页面（1 个）：**
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev9→rev10）：新增 prerequisites: dopamine-systems-anatomy；related 新增 vta/substantia-nigra/d1-d2-receptor-signaling/direct-indirect-pathway；source_articles 新增今日文章；建立解剖基础—计算逻辑前后序关系
+
+**新增未解问题（3 条）：**
+- Q-da-anxa1（高优先级）：Anxa1+ 亚型的投射靶区和下游机制
+- Q-da-aversion（中优先级）：内侧 VTA 厌恶编码多巴胺的化学身份验证
+- Q-d1-inverted-u-mechanism（中优先级）：PFC D1 倒 U 型翻转的精确分子节点
+
+**登记或裁决矛盾：** 无（今日无新矛盾被发现；现有矛盾不涉及今日主题）
+
+**新增悬空引用待补：** `nucleus-accumbens`（NAc）页面（被今日文章多处引用，但无对应 wiki 页面）
+
+---
+
+## 2026-08-03（文章 #102：工作记忆神经密码之争）
+
+**今日主题：** 工作记忆持续放电 vs 活动沉默 vs γ 爆发的三国博弈，以 Panichello 2024 Nature On/Off 态发现为高潮
+
+**修订 wiki 页面（2 个）：**
+- `wiki/concepts/working-memory.md`（rev6 → rev7）：新增 Panichello 2024 Neuropixels 8225 神经元 On/Off 态实验整合证据；新增"On/Off 态交替机制"小节；Q-wm-active-vs-silent 更新为部分解答；新增 Q-wm-onoff-01/02/03；key_sources 新增 PMID:39506106, PMID:34654556
+- `wiki/concepts/persistent-activity.md`（rev1 → rev2）：新增 Wang 2021（吸引子框架与 γ 爆发兼容；活动沉默在主动WM局限）和 Panichello 2024 证据行；更新修订历史
+
+**无新建页面：** 今日核心概念均已有对应 wiki 页面。
+
+**图谱状态：** 209 节点，1209 边（无变化）
+
+**登记或裁决矛盾：** 无。Q-wm-active-vs-silent 从"开放"标注为"部分解答（Panichello 2024）"，尚未完全裁决。
+
+**新增悬空引用：** 无新增。原有悬空引用（motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba）待后续填补。
+
+---
+
+## 2026-08-07（文章 #106：突触修剪的补体-小胶质机制与疾病联系）
+
+**今日主题：** 补体 C1q/C3b 标记、小胶质细胞 CR3 吞噬、CD47/SRPX2 保护机制，以及精神分裂症（C4A 过激活→过度修剪）与自闭症（CD47 缺陷→修剪不足）的镜像疾病模型
+
+**新建 wiki 页面（1 个）：**
+- `wiki/diseases/autism-spectrum-disorder.md`（新建）：填补悬空引用；涵盖修剪不足假说（CD47-16p11.2）、突触装配蛋白突变假说（NL/Shank）、E/I 失衡假说三大通路；与精神分裂症镜像对比表；confidence=medium（机制异质性大）
+
+**修订 wiki 页面（2 个）：**
+- `wiki/concepts/synaptic-pruning.md`（rev1→rev2）：新增 SRPX2 机制（binds C1q, 保护 VGluT2+）；新增胶质-胶质 5-HT 时间门控段落（Nelson 2025）；新增 3 条证据表（SRPX2, CD47 autism, 5-HT glial）；添加 autism-spectrum-disorder 和 synaptogenesis 到 related；V1 ODP 不依赖补体的异质性注记；Q-pruning-04/05 新增
+- `wiki/concepts/complement-cascade-cns.md`（rev1→rev2）：活动依赖调节小节扩充为"三方博弈"（CD47 + SRPX2 + C3b/PS）；新增 SRPX2 和 V1 皮层异质性注记；autism-spectrum-disorder 加入 related；Q-complement-02 新增
+
+**图谱状态：** 219 节点（+1），1255 边（+6）；填补悬空引用 autism-spectrum-disorder
+
+**登记或裁决矛盾：** 无新矛盾（SRPX2 保护 VGluT2+ 的不对称性是新信息，与既有内容无冲突，已整合）
+
+**新增未解问题（4 条）：**
+- Q-pruning-04（高优先）：SRPX2 与 CD47 通路串扰及 NL-NRXN 接合对两者的调控
+- Q-pruning-05（中优先）：精神分裂症成年期补体修剪是否持续
+- Q-complement-02（中优先）：SRPX2 优先保护 VGluT2+ 的机制
+- Q-asd-01/02（高/中优先）：ASD 不同亚型突触密度方向性；CD47 通路在 ASD 的普遍性
+
+**原有悬空引用状态：** autism-spectrum-disorder 已填补；motor-learning, deep-cerebellar-nuclei, inferior-olive, gaba 仍待补
+
+## 2026-08-24 (文章 #122：语言左侧化起源)
+
+### 新建 wiki 页面
+- `wiki/concepts/language-lateralization.md` — 语言侧化机制综述；AST假说；先天vs后天；互补专化
+- `wiki/concepts/foxp2-language-gene.md` — FOXP2 转录因子；KE家族；鸟类/小鼠/人类进化三角证据
+
+### 修订 wiki 页面
+- `wiki/concepts/planum-temporale.md` (rev1→rev2)：新增 Gannon 1998 黑猩猩 PT 左侧化数据、Leroy 2015 STAP 发现；修正 Geschwind 1968 PMID（5673631→5657070）；status 升级为 established
+- `wiki/systems/language-network.md` (rev5→rev6)：related 新增 language-lateralization/foxp2-language-gene；key_sources 新增 AST/FOXP2 来源
+- `wiki/concepts/language-critical-period.md` (rev1→rev2)：related+prerequisites 新增 language-lateralization；新增 Dehaene-Lambertz 2002 先天侧化证据
+
+### 新增矛盾登记
+- 无（今日无新矛盾；Q-pt-01 状态更新但未解决）
+
+### 新增悬空引用（待补页面）
+- `handedness-and-language`（在 language-lateralization.md related 中引用，尚无 wiki 页）
+
+### 图谱变化
+- 节点：256 → 264（+8，含原有计数误差修正）
+- 边：1436 → 1471（+35）
+
+## 2026-09-09 (文章 #139：成人大脑的秘密育儿所)
+
+### 新建 wiki 页面（1 个）
+- `wiki/concepts/neurogenesis-induced-forgetting.md` — 神经发生诱导遗忘 | emerging / medium | Akers 2014 双向因果证据（增加神经发生加速遗忘；降低婴儿期神经发生减轻婴儿失忆症；跨物种验证）；机制：突触竞争改写连接组
+
+### 修订 wiki 页面（2 个）
+- `wiki/concepts/adult-neurogenesis.md`（rev3→rev4）：新增遗忘功能段落（Akers 2014）；新增"数量 vs 活性解耦"认识（Betters 2025 氯胺酮活性依赖机制）；Bax KO 凋亡率数据更新（60-80%）；证据表新增2行；related 新增 neurogenesis-induced-forgetting/depression；key_sources 新增4条；opens_questions 新增 Q-ahn-01/02
+- `wiki/concepts/pattern-separation.md`（rev2→rev3）：前馈抑制机制描述加深（McAvoy 2015 hilar mossy cells + PV+篮状细胞双路径；8周 vs 4周龄抑制强度差异）；key_sources 新增 PMID:26347621；source_articles 新增
+
+### 登记或裁决矛盾
+- 无新矛盾（今日来源与既有 wiki 主张一致，进一步强化而非冲突）
+
+### 新增悬空引用（待补页面）
+- 无新悬空引用（今日涉及概念均已有对应页面或已在本次创建）
+
+### 图谱变化
+- 节点：291 → 292（+1：neurogenesis-induced-forgetting）
+- 边：1654 → 1658（+4）
+
+### 新增未解问题（2 条）
+- Q-ahn-01（中优先）：神经发生诱导遗忘的记忆类型选择性（恐惧条件化之外的记忆类型是否同样受影响）
+- Q-ahn-02（中优先）：人类神经元数量 vs 活性的独立调控机制（SSRI/氯胺酮解耦现象是否存在独立的分子开关）
+
+## 2026-09-13 (文章 #143：当 γ 节奏失声)
+
+### 新建 wiki 页面（1 个）
+- `wiki/diseases/schizophrenia.md` — 精神分裂症 | mainstream / medium | γ-PV 假说：DLPFC PV+ 细胞 GAD67/PV 分子缄默（非细胞死亡，Hashimoto 2003）→ PING 受损 → γ 功率降低 → θ-γ 耦合解体 → 工作记忆缺陷；NMDAR 低激活（Javitt 1991）→ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；Kv3.1/3.2 治疗靶点
+
+### 修订 wiki 页面（3 个）
+- `wiki/circuits/pv-interneurons.md`（rev5→rev6）：新增"精神分裂症疾病视角"小节（GAD67缄默机制、NMDAR约束引用Gonzalez-Burgos 2012、Kv3靶点）；related 新增 schizophrenia/trkb-receptor/nmda-receptor；key_sources 新增 5 条；opens_questions 新增 Q-scz-pv-01/02
+- `wiki/concepts/gamma-oscillations.md`（rev5→rev6）：新增"精神分裂症中的 γ 振荡缺陷"小节（SCZ γ功率临床证据、θ-γ耦合、Cardin/Sohal 2009 因果证据、GABA-γ相关性）；related 新增 schizophrenia/nmda-receptor；dimensions 新增 disease；key_sources 新增 4 条
+- `wiki/concepts/ei-balance.md`（rev2→rev3）：新增"精神分裂症中的 E/I 失衡"小节（PV GAD67下调→前额叶E/I偏移→多巴胺脱抑制→正性症状；与ASD E/I失衡的对比）；related 新增 schizophrenia/autism-spectrum-disorder/nmda-receptor；key_sources 新增 3 条
+
+### 登记或裁决矛盾
+- 无新矛盾（今日证据内部一致；Q-pv-schizophrenia-causal 转移为新的 Q-scz-pv-01 但仍 open）
+
+### 新增悬空引用（待补页面）
+- `nmda-receptor`（在 schizophrenia.md 的 related 和多处引用，尚无独立 wiki 页）
+- `dopamine-system`（在 schizophrenia.md 中引用，尚无独立 wiki 页）
+
+### 图谱变化
+- 节点：294 → 295（+1：schizophrenia）
+- 边：1683 → 1695（+12）
+
+### 新增未解问题（3 条）
+- Q-scz-pv-01（高）：PV 细胞 GAD67 下调时间窗——UHR 中 γ 振荡变化能否预测发病？
+- Q-scz-pv-02（高）：PV 细胞功能缄默的分子可逆性——Lhx6 再激活/TrkB 激动剂能否恢复 GAD67？
+- Q-scz-pv-03（中）：GluN2A vs GluN2B 亚基在 SCZ PV 细胞缺陷中的相对贡献
+
+## 2026-09-16 (文章 #146：当遗传学汇聚于同一个回路)
+
+### 新建 wiki 页面（2 个）
+- `wiki/concepts/nrg1-erbb4.md` — NRG1-ErbB4 信号轴 | mainstream / medium | ErbB4 专门表达于 PV+ 中间神经元（Fazzari 2010）；控制 PV 细胞抑制性突触布线 + 谷氨酸突触成熟（Yang 2013）；通过 Src 抑制压制 NMDAR 功能（Pitcher 2011）；SCZ 遗传路径之一；GluN2D KO 导致 Nrg1/ErbB4 下调（汇聚证据 Gawande 2023）
+- `wiki/concepts/disc1.md` — DISC1（精神分裂症中断基因 1）| emerging / medium | NUDEL/LIS1 微管调控 + GSK3β-Dlx2 MGE 发育；DBZ 结合蛋白维护 PV 篮状细胞形态（Koyama 2013）；DISC1 LI 小鼠选择性 PV GABA 减少（Delevich 2020）；GWAS 未确认 DISC1 为常见变异风险位点——重要争议
+
+### 修订 wiki 页面（1 个）
+- `wiki/diseases/schizophrenia.md`（rev1→rev2）：新增"遗传汇聚视角"节（DISC1/NRG1-ErbB4/GRIN2A 三路径汇聚；Trubetskoy 2022 GWAS 287 位点概述；Gawande 2023 分子汇聚点证据）；related 新增 nrg1-erbb4/disc1/cortical-interneuron-development；key_sources 新增 4 条；opens_questions 新增 Q-scz-gen-01/02/03
+
+### 登记或裁决矛盾
+- 无新矛盾登记（DISC1 的 GWAS 缺席情况在 disc1.md 中已作为内部争议详述，不构成与既有 wiki 主张的新矛盾；无需写入 contested_claims.json）
+
+### 新增悬空引用（待补页面）
+- 无新悬空引用（今日涉及概念的主要 wiki 页面均已建立）
+
+### 图谱变化
+- 节点：288 → 290（+2：nrg1-erbb4、disc1）
+- 边：1637 → 1649（+12）
+
+### 新增未解问题（3 条）
+- Q-scz-gen-01（高）：DISC1、NRG1、GRIN2A 三路径是否有时间先后顺序？哪条是原发，哪条是继发？
+- Q-scz-gen-02（高）：NMDAR 低激活（GluN2D/GluN2A）是否是 SCZ 遗传回路崩溃的上游触发因素，DISC1/NRG1 下调是继发结果？
+- Q-scz-gen-03（中）：ErbB4 正向变构调制是否可作为 SCZ PV 细胞突触布线修复的基因治疗靶点？
+
+---
+
+## 2026-09-17（文章 #147）
+
+### 新建页面（1 个）
+- `wiki/concepts/theta-gamma-coupling.md`（rev1）— θ-γ 耦合机制专属页面，填补此前缺失的关键节点；整合了 Lisman-Jensen 2013 理论、Axmacher 2010 人类颅内证据、Daume 2024 PAC 细胞机制、Colgin 2009 CA1 路由机制、Sengupta 2025 细胞类型分工
+
+### 修订页面（3 个）
+- `wiki/concepts/theta-oscillations.md`（rev3→rev4）— related 新增 theta-gamma-coupling/working-memory/gamma-oscillations；dimensions 新增 cognition；key_sources 新增 PMID:23522038/20133762/38632400
+- `wiki/concepts/gamma-oscillations.md`（rev6→rev7）— related 新增 theta-gamma-coupling；key_sources 新增 PAC 相关文献；修订历史追加
+- `wiki/concepts/working-memory.md`（rev10→rev11）— related 新增 theta-gamma-coupling；key_sources 新增 PAC 直接证据；修订历史追加
+
+### 登记矛盾（1 条）
+- C-2026-09-17-01（open）— Besosa 2026 谱依赖性框架 vs 传统 θ-γ 专用机制解释：γ 功率协变于 θ 功率是否说明耦合只是涌现效应？
+
+### 图谱变化
+- 节点：299 → 300（+1：theta-gamma-coupling）
+- 边：1723 → 1733（+10：theta-gamma-coupling 与 theta/gamma/working-memory/hippocampal-circuit/theta-phase-precession/schizophrenia/memory-consolidation 之间的有类型边）
+
+### 新增未解问题（4 条）
+- Q-tgc-01（高）：工作记忆容量约 4 项（Cowan）与频率比 4:1 的对应——不同研究报告 2:1 到 8:1 的变异来源？
+- Q-tgc-02（中）：人类 θ 节律弱且不规则——人类嵌套编码的神经基础是否与大鼠不同？
+- Q-tgc-03（高）：AD/SCZ 中 θ-γ 耦合损伤原发还是继发？恢复耦合能否改善记忆？
+- Q-tgc-04（中）：相邻 γ 槽之间是否存在串扰？防止串扰的抑制性边界机制？

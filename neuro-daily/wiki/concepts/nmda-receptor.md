@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-08
-revision_count: 4
+updated: 2026-09-15
+revision_count: 5
 dimensions: [molecular, synaptic, cellular, cognition, brain-region, disease]
-related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex, alzheimers-disease, amyloid-beta-oligomers, calcineurin]
+related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex, alzheimers-disease, amyloid-beta-oligomers, calcineurin, glun2-developmental-switch, bcm-rule, critical-period-plasticity]
 prerequisites: [synaptic-transmission, action-potential, membrane-potential]
-opens_questions: [Q-nmda-coincidence-window, Q-glun2-switch-development, Q-abeta-oligomer-subtypes]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation, 2026-06-05-prefrontal-working-memory, 2026-06-08-alzheimers-amyloid-synaptic-mechanism]
-key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230", "PMID:21543591", "PMID:17360908"]
+opens_questions: [Q-nmda-coincidence-window, Q-glun2-switch-development, Q-abeta-oligomer-subtypes, Q-glun2-triheteromeric-region-ratio]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation, 2026-06-05-prefrontal-working-memory, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-09-15-nmda-receptor-subunit-developmental-switch]
+key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230", "PMID:21543591", "PMID:17360908", "PMID:22960932", "PMID:28554889", "PMID:37290118", "PMID:35484243"]
 ---
 
 # NMDA 受体 (NMDA Receptor / N-Methyl-D-Aspartate Receptor)
@@ -40,7 +40,7 @@ NMDA 受体是四聚体，标准构型为两个 GluN1 + 两个 GluN2，按 1-2-1
 | GluN2B | ~300–400 ms | ~0.1 | 幼年→成年均有 |
 | GluN2D | ~4 s | <0.02 | 丘脑、脑干 |
 
-GluN2B 在幼年期高表达，其更长的衰减时间常数意味着更宽的时间整合窗口，可能是关键期可塑性的分子基础之一。
+GluN2B 在幼年期高表达，其更长的衰减时间常数意味着更宽的时间整合窗口，是关键期可塑性的分子基础之一。随发育进行，GluN2A:2B 比值逐渐向 GluN2A 偏移；在人类视觉皮层，这一比值在约 **36 岁**才达到峰值，老年期（>55 岁）GluN2A 骤降约 75%，比值回归婴儿水平（详见 [[glun2-developmental-switch]]）。成年期突触主要由**三异四聚体**（GluN1/GluN2A/GluN2B）组成，保留 GluN2B 以维持 CaMKII 锚定。
 
 ### Mg²⁺ 阻断——电压感应锁（突触/分子层面）
 
@@ -93,8 +93,25 @@ Aβ寡聚体**优先激活突触外NR2B**（Li et al. 2011, PMID:21543591），�
 
 这两个功能使用同一分子，但在空间尺度（单突触 vs 整分支）和时间尺度（毫秒 vs 数百毫秒）上都不同。它们分别对应"突触强度调整"和"分支计算"两个层次的信息处理。
 
+## NMDA 受体的第五重角色：GluN2 亚单位切换——可塑性阈值的终身调节（2026-09-15 新增）
+
+**核心新增（来自《NMDA 受体的两张脸》一文 #145，解答 Q-glun2-switch-development）**
+
+NMDA 受体的 GluN2B→GluN2A 发育切换不仅是一个成熟标志，它是大脑在整个生命周期动态调节突触可塑性阈值的核心分子机制：
+
+- **切换驱动力**：REST 转录因子表观遗传沉默 *Grin2b* + GluN2A 蛋白浓度独立上升（非 CTD 机制）；经验/感觉活动参与调速
+- **功能效果**：GluN2A 取代 GluN2B → 衰减时间常数从 ~300–400 ms 收窄至 ~40–50 ms → LTP 阈值升高（需更强、更同步的输入）→ BCM 修改阈值 θ 右移
+- **CaMKII 连接**：GluN2B CTD 是 CaMKII 的直接锚定位点；此结合是 LTP 的充要条件之一（I205K 突变 → LTP 消失，PMID:37290118）；成年三异四聚体保留 GluN2B 以维持此锚定
+- **平衡的重要性**：GluN2A 过量表达（K879R）同时损害 LTP 和 LTD + 认知（PMID:35484243）；大脑追求的是 GluN2A:2B 的动态平衡，而非单纯 GluN2A 最大化
+- **人类独特性**：峰值约 36 岁（远超关键期闭合时间）；老年期 GluN2A 骤降 75%（PMID:28554889）
+
+详见专门页面 [[glun2-developmental-switch]]。
+
 ## 连接
 
+- [[glun2-developmental-switch]] — NMDA 受体亚单位切换的专门页面（GluN2B→GluN2A 的分子机制、时间线、可塑性效果）
+- [[bcm-rule]] — GluN2A:2B 比值漂移在分子层面实现 BCM 滑动修改阈值 θ
+- [[critical-period-plasticity]] — GluN2B 主导期与关键期高度重叠；REST 是共同调控因子
 - [[alzheimers-disease]] — NMDA受体（特别是突触外NR2B）是AD中LTP失效的核心分子靶点
 - [[amyloid-beta-oligomers]] — Aβ寡聚体通过将NMDA激活从突触内偏转至突触外来阻断LTP
 - [[ltp]] — NMDA 受体是 LTP 诱导的必要门卫（单突触层面）
@@ -117,6 +134,7 @@ Aβ寡聚体**优先激活突触外NR2B**（Li et al. 2011, PMID:21543591），�
 - 2026-05-27 · 修订 · 基于《树突：神经元内部的神经网络》一文 · 新增"NMDA 受体的双重身份"概念（突触层面巧合检测器 vs 分支层面 NMDA 棘波计算单元）；关键证据表新增 Smith 2013 体内视觉皮层证据 + Schiller 2000 NMDA 棘波证据；连接新增 dendritic-computation；dimensions 新增 cellular
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 新增第三重角色：PFC 工作记忆回路中作为时间积分器（慢衰减 τ ~100–300 ms 支撑循环激活的吸引子状态）；related 新增 persistent-activity, working-memory, prefrontal-cortex；dimensions 新增 brain-region（PMID:11476885；Wang 2001 吸引子模型）
 - 2026-06-08 · 修订 · 基于《记忆的分子遗忘》一文 · 新增第四重角色：突触外NR2B-LTP反向信号路径；解答 Q-nmda-alzheimer（Aβ通过优先激活突触外NR2B/p38 MAPK阻断LTP，非直接破坏受体）；related 新增 alzheimers-disease、amyloid-beta-oligomers、calcineurin；dimensions 新增 disease；连接新增 alzheimers-disease、amyloid-beta-oligomers；key_sources 新增 PMID:21543591、PMID:17360908
+- 2026-09-15 · 修订 · 基于《NMDA 受体的两张脸》一文（#145）· 新增第五重角色：GluN2 亚单位切换与突触可塑性阈值的终身调节；GluN2B 衰减时间 ~300–400ms vs GluN2A ~40–50ms 对比详述；人类皮层 GluN2A:2B 峰值约36岁 + 老年期骤降75%（PMID:28554889）；CaMKII-GluN2B 物理结合是 LTP 充要条件（PMID:37290118）；"平衡优于最大化"：GluN2A 过量损害 LTP+LTD（PMID:35484243）；部分解答 Q-glun2-switch-development；新建专门 wiki 页 glun2-developmental-switch；related 新增 glun2-developmental-switch, bcm-rule, critical-period-plasticity；key_sources 新增 PMID:22960932, 28554889, 37290118, 35484243
 
 ## 来源文章
 

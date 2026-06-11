@@ -1,0 +1,120 @@
+# 运行日志：2026-07-25
+
+## 基本信息
+
+- **虚拟日期**：2026-07-25（第93篇）
+- **真实系统时钟**：UTC+8 = 2026-06-05（同往期）
+- **文章标题**：大脑如何读懂另一颗大脑：镜像神经元、心智理论与社会预测编码
+- **文件名**：2026-07-25-social-brain-mirror-neurons-theory-of-mind.md
+- **分支**：main
+- **状态**：已提交推送
+
+---
+
+## 选题过程
+
+**选题来源**：图谱缺口分析 + 预测编码扩展
+
+**选题理由**：
+1. 图谱缺口：predictive-coding 页面有 42 条出边（全库最高之一），但 ToM/心智化/TPJ 均无独立页面；多页面的 [[theory-of-mind]] / [[mentalizing-network]] 引用是悬空引用
+2. 维度多样性：近3篇（#90 cellular+spatial，#91 microcircuit+layer，#92 cellular+temporal）均在分子/回路层；本篇切换到 cognition/whole-brain-network/behavior 层
+3. 知识整合时机：#80（预测编码框架）已建立基础，社会认知是预测编码框架的延伸最自然的下一步
+4. 独立文献基础：镜像神经元 / ToM 有成熟文献，6项PMC全文可获取
+
+---
+
+## 检索过程
+
+**检索词**（11条）：
+1. "mirror neuron theory of mind social cognition review"
+2. "Rizzolatti Craighero 2004 mirror neuron system"
+3. "Saxe Kanwisher 2003 theory of mind temporoparietal"
+4. "Singer Seymour Frith 2004 empathy pain Science"
+5. "Hickok 2009 eight problems mirror neuron"
+6. "Frith Frith 2006 social prediction"
+7. "Frith Frith 2007 social cognition Current Biology"
+8. "Heyes Catmur 2022 mirror neurons what happened"
+9. "Koster-Hale Saxe 2013 theory of mind neural prediction"
+10. "Merchant 2025 meta-analysis social interaction brain"
+11. "Sobeh Shamay-Tsoory 2025 social alignment prediction error"
+
+**PMID验证与纠错**：
+- PMID:15750591 错误（是LAR-RPTP突触论文，非Rizzolatti 2004）→ 修正为 PMID:15217330
+- PMID:10517044 错误（是止吐药论文，非Iacoboni 1999）→ 通过PubMed esearch确认
+- PMID:16513098 识别为 Frith & Frith "How we predict what other people are going to do"（Brain Research），非"neural basis of mentalizing"（Neuron）→ 后者正确 PMID 为 16701204
+- PMID:23259950 已知为泽鱼研究，非Bastos 2012（已在predictive-coding页面正确记录为PMID:23177956）
+
+---
+
+## 来源摘要
+
+| ID | PMID | 全文 | 核心贡献 |
+|----|------|------|---------|
+| S1 | 8800951 | 无 | 猕猴F5区镜像神经元首次发现（Gallese 1996）|
+| S2 | 15217330 | 无 | MNS综合综述，动作理解/模仿/语言演化假说（Rizzolatti 2004）|
+| S3 | 12948738 | 无 | 右侧TPJ-M专用于心理状态推断fMRI证据（Saxe 2003）|
+| S4 | 14976305 | 无 | 共情痛觉：AI/ACC激活但非SI/SII（Singer 2004）|
+| S5 | 19199415 | 无 | 镜像神经元8大问题（Hickok 2009）|
+| S6 | 16701204 | 无 | 心智化神经基础综述（Frith & Frith 2006，Neuron）|
+| S7 | 17714666 | 无 | 人类社会认知综述（Frith & Frith 2007，Current Biology）|
+| S8 | 34241539 | PMC8785302 ✓ | 镜像神经元10年回顾：ASL起源，低层功能，破镜假说否定（Heyes & Catmur 2022）|
+| S9 | 24012000 | PMC4041537 ✓ | ToM作为神经预测问题（Koster-Hale & Saxe 2013）|
+| S10 | 31572143 | PMC6754072 ✓ | 共情与心智化交叉与分离（Cerniglia 2019）|
+| S11 | 41300206 | PMC12651549 ✓ | 目标导向社会对齐的计算与神经机制（Sobeh & Shamay-Tsoory 2025）|
+| S12 | 41245222 | PMC12617318 ✓ | 108项研究元分析：真实社交互动的脑神经基础（Merchant 2025）|
+
+开放全文：6项（S8-S12 + S6部分）；摘要/间接：6项
+
+---
+
+## 产出文件
+
+### 新建文章
+- `neuro-daily/articles/2026-07-25-social-brain-mirror-neurons-theory-of-mind.md`（~5500字）
+
+### 新建 Wiki 页面（3个）
+- `neuro-daily/wiki/concepts/theory-of-mind.md`（domain:concepts, status:established, rev1）
+- `neuro-daily/wiki/concepts/mentalizing-network.md`（domain:concepts, status:mainstream, rev1）
+- `neuro-daily/wiki/systems/tpj-temporoparietal-junction.md`（domain:systems, status:mainstream, rev1）
+
+### 修订 Wiki 页面（1个）
+- `neuro-daily/wiki/circuits/mirror-neurons.md`（rev1→rev2）
+  - 新增：Hickok 2009的8个问题，Heyes & Catmur 2022 ASL模型
+  - 更新：related（+theory-of-mind/mentalizing-network/predictive-coding），opens_questions（+Q-mirror-01）
+  - 更新：证据表（+3行），revision_count 1→2
+
+### 状态文件更新
+- `neuro-daily/sources/2026-07-25-sources.json`：12项来源
+- `neuro-daily/notes/2026-07-25-reading-notes.md`：检索策略+逐文献笔记
+- `neuro-daily/wiki/_graph.json`：188节点（+4），1090边（+16）
+- `neuro-daily/wiki/CHANGELOG.md`：2026-07-25 条目
+- `neuro-daily/wiki/index.md`：新增3页条目，修订mirror-neurons条目，更新统计行
+- `neuro-daily/state/topic_ledger.json`：条目#93，total_articles=93
+- `neuro-daily/state/unresolved_questions.md`：+Q-tom-01/02/03、Q-mn-01/02、Q-mirror-01（共6项）
+- `neuro-daily/state/source_registry.json`：+11项（S1-S12，去重S1），total=386
+- `neuro-daily/state/maturity_index.json`：+4条目（theory-of-mind/mentalizing-network/tpj/mirror-neurons），total=74页
+- `neuro-daily/state/monthly_synthesis.md`：2026-07-25日条目更新
+- `neuro-daily/logs/2026-07-25-run.log`：本文件
+
+---
+
+## 新增未解问题（6项）
+
+| ID | 优先级 | 问题 |
+|----|--------|------|
+| Q-tom-01 | 高 | TPJ在ToM中的具体计算角色：注意重定向、信念归因、还是预测误差信号？ |
+| Q-tom-02 | 高 | mPFC如何区分"我的信念"与"他的信念"的神经表征？ |
+| Q-tom-03 | 中 | LLM在ToM任务上超过4岁儿童——这是真正的心智理论还是语言模式学习？ |
+| Q-mn-01 | 高 | 心智化网络不同节点的因果分工——TPJ vs mPFC损伤是否产生不同特异性缺陷？ |
+| Q-mn-02 | 中 | 心智化网络个体差异（连接强度）是否预测日常社交能力或神经多样性？ |
+| Q-mirror-01 | 高 | ASL起源假说的因果实验证据是否充分？视觉-运动早期干预的效应量如何？ |
+
+---
+
+## Git 信息
+
+- **提交信息**：`Add neuro daily article + wiki consolidation for 2026-07-25`
+- **GIT_AUTHOR_NAME**：QIUYicong
+- **GIT_AUTHOR_EMAIL**：169510482+QIUYicong@users.noreply.github.com
+- **推送分支**：main
+- **远端**：QIUYicong/neuro-daily-essays

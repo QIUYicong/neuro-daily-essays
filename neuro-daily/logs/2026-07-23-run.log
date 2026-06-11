@@ -1,0 +1,111 @@
+# 运行日志：2026-07-23
+
+## 基本信息
+
+- **虚拟日期**：2026-07-23（第91篇）
+- **真实系统时钟**：UTC+8 = 2026-06-05（同往期）
+- **文章标题**：皮层六层架构：大脑用六层细胞片实现感知与预测的解剖分工
+- **文件名**：2026-07-23-cortical-layers-canonical-microcircuit.md
+- **分支**：main
+- **状态**：待推送
+
+---
+
+## 选题过程
+
+**选题来源**：来自 2026-07-22（#90 头向细胞/边界细胞）的 `next_suggested_topics` 第一条："皮层层状结构与皮层柱（cortical layers and columns）"
+
+**选题理由**：
+1. 尚未独立覆盖的基础性结构概念，是已有多个主题页（barrel-cortex、predictive-coding、alpha/gamma-oscillations、thalamocortical-circuit）的共同解剖底层
+2. 可同时深化 barrel-cortex（rev2）和 predictive-coding（rev8）两个已有页面
+3. 层级切换：从最近大量 brain-region/behavior 层内容切换到 microcircuit 层，符合"避免连续三天同一层级"规则
+4. 填补悬空引用：barrel-cortex.md 已有 L4→L2/3→L5 回路描述但无对应的 cortical-layers 独立页面
+
+---
+
+## 检索过程
+
+**检索词**：
+1. "cortical layers columns canonical microcircuit Douglas Martin 1989 review"（→PubMed/PMC）
+2. "cortical column Mountcastle 1997 feedforward feedback laminar projections review neuroscience"（→PubMed/PMC）
+3. "Felleman Van Essen 1991 distributed hierarchical cortical areas feedforward feedback laminar patterns"（→PubMed）
+4. "barrel cortex layer 4 2/3 5 circuit feedforward feedback Petersen Feldmeyer review PMC open access"（→PMC）
+5. "Douglas Martin 1991 functional microcircuit visual cortex PubMed PMID"（→PubMed）
+
+**数据库**：PubMed、PMC、Europe PMC、WebSearch
+
+---
+
+## 来源采用与排除
+
+**采用**（7 篇）：
+- PMID:1666655 Douglas & Martin 1991 — 规范微回路原始论文；PMC1180177 开放，读取全文
+- PMID:23177956 Bastos et al. 2012 — 预测编码-规范微回路整合综述；PMC3777738 开放，读取全文
+- PMID:22798946 Feldmeyer 2012 — 桶状皮层连接定量综述；PMC3394394 开放，读取全文
+- PMID:11826166 Feldmeyer et al. 2002 — L4→L2/3突触定量；PMC2290091 开放，读取全文
+- PMID:23983048 Markov et al. 2014 — FF/FB层间法则定量化；PMC4255240 开放，读取全文
+- PMID:1822724 Felleman & Van Essen 1991 — 经典层间法则论文；**非PMC开放全文，仅读摘要+综述引用**（文中已标注"未读取全文"）
+- PMID:21647397 Shepherd 2011 — 皮层进化综述；PMC3102215 开放，读取全文
+
+**排除**（理由）：
+- Mountcastle 1957 经典文章（原始柱假说）：历史经典，内容通过综述文章补充
+- 多篇 biorXiv 预印本（皮层层级计算模型）：排除，优先使用已发表同行评审文章
+
+---
+
+## 固结步骤
+
+**新建 wiki 页（2）**：
+- `wiki/concepts/cortical-layers.md` rev1：六层架构；FF/FB法则；L4放大机制；L2/3高阈值门控；γ-FF/α-β-FB分工；established/high
+- `wiki/concepts/canonical-microcircuit.md` rev1：三群体模型；丘脑10%触发；相互兴奋放大；状态依赖增益；Bastos 2012整合；established/high
+
+**修订 wiki 页（2）**：
+- `wiki/concepts/barrel-cortex.md` rev2：related 加入 cortical-layers/canonical-microcircuit；连接节新增2条；修订历史追加；updated/revision_count 更新
+- `wiki/theories/predictive-coding.md` rev8：related 加入 canonical-microcircuit/cortical-layers；连接节新增2条；source_articles 加入今日文章；修订历史追加；updated/revision_count 更新
+
+**矛盾检查**：无新矛盾。γ-FF/α-β-FB 振荡分工在啮齿类的不一致性已记录为 Q-cl-02，与 predictive-coding.md 中 Q-pc-05 联动，不构成新矛盾（已知争议点）。
+
+**成熟度更新**：
+- cortical-layers: established/high（新建）
+- canonical-microcircuit: established/high（新建）
+- barrel-cortex: established/high（rev2，status不变）
+- predictive-coding: mainstream/medium（rev8，status不变）
+
+---
+
+## 图谱更新
+
+- 节点：180 → 182（+2: cortical-layers, canonical-microcircuit）
+- 边：1036 → 1058（+22 条新边）
+- CHANGELOG 更新：2026-07-23 条目添加在顶部
+- index.md 更新：总数 179 → 181；concepts 节顶部添加两个新页面
+
+---
+
+## 治理层更新
+
+- topic_ledger.json：total_articles 90→91；新增第91篇条目
+- unresolved_questions.md：新增 Q-cl-01/Q-cl-02/Q-cl-03（最高优先级2个，中1个）
+- source_registry.json：新增7条来源；总计375条
+- maturity_index.json：新增/更新4个条目
+- monthly_synthesis.md：2026年7月月度篇数更新至23篇
+
+---
+
+## 失败与限制
+
+1. **Felleman & Van Essen 1991（PMID:1822724）**：未能获取 PMC 全文。该论文发表于 1991 年，不在 PMC 开放获取范围内。内容通过 Markov et al. 2014 综述和多篇引用该文的综述补充。文中已明确标注"未读取全文"。不影响结论——Felleman-Van Essen 层间法则已在后续大量文献中被验证和引用。
+
+---
+
+## Git 信息
+
+- 文章：neuro-daily/articles/2026-07-23-cortical-layers-canonical-microcircuit.md
+- 笔记：neuro-daily/notes/2026-07-23-reading-notes.md
+- 来源：neuro-daily/sources/2026-07-23-sources.json
+- 新 wiki：wiki/concepts/cortical-layers.md, wiki/concepts/canonical-microcircuit.md
+- 修订 wiki：wiki/concepts/barrel-cortex.md, wiki/theories/predictive-coding.md
+- 状态：wiki/_graph.json, wiki/index.md, wiki/CHANGELOG.md, state/topic_ledger.json, state/unresolved_questions.md, state/source_registry.json, state/maturity_index.json, state/monthly_synthesis.md
+- Branch：main
+- Commit hash：e1b75e9
+- Push 状态：✅ 成功推送到 origin/main

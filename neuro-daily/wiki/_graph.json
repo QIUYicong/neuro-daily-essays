@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-08",
-  "node_count": 138,
-  "edge_count": 794,
+  "updated": "2026-09-18",
+  "node_count": 302,
+  "edge_count": 1745,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,69 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "purkinje-cell",
+      "title": "浦肯野细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/purkinje-cell.md"
+    },
+    {
+      "id": "climbing-fiber-error-signal",
+      "title": "攀爬纤维误差信号",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/climbing-fiber-error-signal.md"
+    },
+    {
+      "id": "expansion-coding",
+      "title": "颗粒细胞膨胀编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/cerebellar-ltd.md"
+    },
+    {
+      "id": "cortical-layers",
+      "title": "皮层六层架构",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-layers.md"
+    },
+    {
+      "id": "canonical-microcircuit",
+      "title": "规范微回路（Douglas-Martin 1991）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/canonical-microcircuit.md"
+    },
+    {
+      "id": "habit-formation",
+      "title": "习惯形成（目标导向 vs 习惯性行为）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/habit-formation.md"
+    },
+    {
+      "id": "actor-critic-model",
+      "title": "演员-批评家模型（基底节的强化学习架构）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/actor-critic-model.md"
+    },
     {
       "id": "synaptic-scaling",
       "title": "突触稳态缩放",
@@ -451,7 +514,7 @@
       "title": "三因素学习规则",
       "domain": "concepts",
       "type": "mechanism",
-      "status": "mainstream",
+      "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/three-factor-learning-rule.md"
     },
@@ -643,6 +706,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/amygdala.md"
+    },
+    {
+      "id": "pfc-amygdala-emotion-regulation",
+      "title": "前额叶-杏仁核情绪调控回路",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/pfc-amygdala-emotion-regulation.md"
+    },
+    {
+      "id": "bla-valence-circuits",
+      "title": "BLA价值极性双通道",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/bla-valence-circuits.md"
     },
     {
       "id": "fear-conditioning",
@@ -1282,9 +1363,1483 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/scn-circadian-pacemaker.md"
+    },
+    {
+      "id": "hpa-axis",
+      "title": "下丘脑-垂体-肾上腺轴（HPA 轴）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/hpa-axis.md"
+    },
+    {
+      "id": "glucocorticoid-hippocampus-plasticity",
+      "title": "糖皮质激素与海马可塑性（MR/GR 双相调节）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/glucocorticoid-hippocampus-plasticity.md"
+    },
+    {
+      "id": "neuroinflammation",
+      "title": "神经炎症（CNS）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/neuroinflammation.md"
+    },
+    {
+      "id": "inflammatory-cytokines-synapse",
+      "title": "炎症细胞因子对突触的损伤机制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/inflammatory-cytokines-synapse.md"
+    },
+    {
+      "id": "trem2",
+      "title": "TREM2（触发性骨髓细胞受体2）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/trem2.md"
+    },
+    {
+      "id": "lateral-habenula",
+      "title": "外侧缰核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/lateral-habenula.md"
+    },
+    {
+      "id": "rmtg",
+      "title": "喙内侧被盖核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/rmtg.md"
+    },
+    {
+      "id": "burst-firing-lhb",
+      "title": "外侧缰核爆发放电（抑郁机制）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/burst-firing-lhb.md"
+    },
+    {
+      "id": "substance-use-disorder",
+      "title": "物质使用障碍（成瘾）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/substance-use-disorder.md"
+    },
+    {
+      "id": "deltaFosB",
+      "title": "ΔFosB（成瘾分子开关）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/deltaFosB.md"
+    },
+    {
+      "id": "incentive-salience",
+      "title": "激励显著性（Incentive Salience）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/incentive-salience.md"
+    },
+    {
+      "id": "incubation-of-craving",
+      "title": "渴望孵化（Incubation of Craving）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/incubation-of-craving.md"
+    },
+    {
+      "id": "anterior-temporal-lobe-hub",
+      "title": "前颞叶语义枢纽（ATL Hub）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/anterior-temporal-lobe-hub.md"
+    },
+    {
+      "id": "semantic-memory-hub",
+      "title": "语义记忆枢纽（Hub-and-Spoke 模型）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/semantic-memory-hub.md"
+    },
+    {
+      "id": "conceptual-space-geometry",
+      "title": "概念空间几何（Conceptual Space Geometry）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/conceptual-space-geometry.md"
+    },
+    {
+      "id": "olfactory-system",
+      "title": "嗅觉系统",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/olfactory-system.md"
+    },
+    {
+      "id": "olfactory-receptor-neuron",
+      "title": "嗅觉受体神经元",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/olfactory-receptor-neuron.md"
+    },
+    {
+      "id": "olfactory-glomerulus",
+      "title": "嗅小球",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/olfactory-glomerulus.md"
+    },
+    {
+      "id": "auditory-cortex",
+      "title": "初级听觉皮层（A1）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/auditory-cortex.md"
+    },
+    {
+      "id": "tonotopy",
+      "title": "音调拓扑（Tonotopy）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tonotopy.md"
+    },
+    {
+      "id": "ribbon-synapse",
+      "title": "带状突触（Ribbon Synapse）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ribbon-synapse.md"
+    },
+    {
+      "id": "phase-locking",
+      "title": "相位锁定（Phase Locking）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/phase-locking.md"
+    },
+    {
+      "id": "somatosensory-cortex",
+      "title": "初级体感皮层（S1）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/somatosensory-cortex.md"
+    },
+    {
+      "id": "barrel-cortex",
+      "title": "桶状皮层",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/barrel-cortex.md"
+    },
+    {
+      "id": "mechanoreceptors-skin",
+      "title": "皮肤机械感受器",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/mechanoreceptors-skin.md"
+    },
+    {
+      "id": "cortical-homunculus",
+      "title": "皮质体感小人（Homunculus）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-homunculus.md"
+    },
+    {
+      "id": "cortical-remapping",
+      "title": "皮层重映射",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/cortical-remapping.md"
+    },
+    {
+      "id": "dorsal-column-pathway",
+      "title": "背柱-内侧丘系通路",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/dorsal-column-pathway.md"
+    },
+    {
+      "id": "multisensory-integration",
+      "title": "多感觉整合",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/multisensory-integration.md"
+    },
+    {
+      "id": "temporal-binding-window",
+      "title": "时间绑定窗口",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/temporal-binding-window.md"
+    },
+    {
+      "id": "bayesian-sensory-integration",
+      "title": "贝叶斯感觉整合",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/bayesian-sensory-integration.md"
+    },
+    {
+      "id": "mcgurk-effect",
+      "title": "麦格克效应",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/mcgurk-effect.md"
+    },
+    {
+      "id": "superior-temporal-sulcus",
+      "title": "后颞上沟（pSTS）",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/superior-temporal-sulcus.md"
+    },
+    {
+      "id": "alpha-oscillations",
+      "title": "α 振荡",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/alpha-oscillations.md"
+    },
+    {
+      "id": "head-direction-cells",
+      "title": "头向细胞",
+      "domain": "systems",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/head-direction-cells.md"
+    },
+    {
+      "id": "border-cells",
+      "title": "边界细胞",
+      "domain": "concepts",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/border-cells.md"
+    },
+    {
+      "id": "ring-attractor",
+      "title": "环形吸引子网络",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ring-attractor.md"
+    },
+    {
+      "id": "time-cells",
+      "title": "时间细胞",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/time-cells.md"
+    },
+    {
+      "id": "speed-cells",
+      "title": "速度细胞",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/speed-cells.md"
+    },
+    {
+      "id": "theory-of-mind",
+      "title": "心智理论",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/theory-of-mind.md"
+    },
+    {
+      "id": "mentalizing-network",
+      "title": "心智化网络",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/mentalizing-network.md"
+    },
+    {
+      "id": "tpj-temporoparietal-junction",
+      "title": "颞顶联合区",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/systems/tpj-temporoparietal-junction.md"
+    },
+    {
+      "id": "affective-empathy",
+      "title": "情感共情",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/mentalizing-network.md"
+    },
+    {
+      "id": "anterior-insula",
+      "title": "前岛叶皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/anterior-insula.md"
+    },
+    {
+      "id": "empathy",
+      "title": "共情",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/empathy.md"
+    },
+    {
+      "id": "interoception",
+      "title": "内感受",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/interoception.md"
+    },
+    {
+      "id": "von-economo-neurons",
+      "title": "冯·伊科诺莫神经元",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/neurons/von-economo-neurons.md"
+    },
+    {
+      "id": "oligodendrocyte",
+      "title": "少突胶质细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/oligodendrocyte.md"
+    },
+    {
+      "id": "myelination",
+      "title": "髓鞘化与髓鞘可塑性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/myelination.md"
+    },
+    {
+      "id": "saltatory-conduction",
+      "title": "跳跃式传导",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/myelination.md"
+    },
+    {
+      "id": "memory-reconsolidation",
+      "title": "记忆再巩固",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/memory-reconsolidation.md"
+    },
+    {
+      "id": "orbitofrontal-cortex",
+      "title": "眶额叶皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/orbitofrontal-cortex.md"
+    },
+    {
+      "id": "subjective-value-encoding",
+      "title": "主观价值编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/subjective-value-encoding.md"
+    },
+    {
+      "id": "vta",
+      "title": "腹侧被盖区",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/vta.md"
+    },
+    {
+      "id": "substantia-nigra",
+      "title": "黑质",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/substantia-nigra.md"
+    },
+    {
+      "id": "d1-d2-receptor-signaling",
+      "title": "D1/D2多巴胺受体信号",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/d1-d2-receptor-signaling.md"
+    },
+    {
+      "id": "direct-indirect-pathway",
+      "title": "基底神经节直接/间接通路",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/direct-indirect-pathway.md"
+    },
+    {
+      "id": "self-referential-processing",
+      "title": "自我参照处理",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/self-referential-processing.md"
+    },
+    {
+      "id": "mind-wandering",
+      "title": "心智漫游",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/mind-wandering.md"
+    },
+    {
+      "id": "axon-guidance",
+      "title": "轴突导向",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/axon-guidance.md"
+    },
+    {
+      "id": "growth-cone",
+      "title": "生长锥",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/growth-cone.md"
+    },
+    {
+      "id": "small-world-network",
+      "title": "小世界网络",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/small-world-network.md"
+    },
+    {
+      "id": "rich-club",
+      "title": "富有节点组织",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/rich-club.md"
+    },
+    {
+      "id": "structure-function-relationship",
+      "title": "结构-功能关系",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/structure-function-relationship.md"
+    },
+    {
+      "id": "synaptogenesis",
+      "title": "突触生成",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/synaptogenesis.md"
+    },
+    {
+      "id": "neuroligin-neurexin",
+      "title": "Neuroligin-Neurexin 突触粘附系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/neuroligin-neurexin.md"
+    },
+    {
+      "id": "postsynaptic-density",
+      "title": "突触后致密体（兴奋性）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/postsynaptic-density.md"
+    },
+    {
+      "id": "gephyrin-scaffold",
+      "title": "Gephyrin 抑制性突触骨架",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/gephyrin-scaffold.md"
+    },
+    {
+      "id": "autism-spectrum-disorder",
+      "title": "自闭症谱系障碍",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/autism-spectrum-disorder.md"
+    },
+    {
+      "id": "deep-cerebellar-nuclei",
+      "title": "深部小脑核",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/deep-cerebellar-nuclei.md"
+    },
+    {
+      "id": "inferior-olive",
+      "title": "下橄榄核",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/inferior-olive.md"
+    },
+    {
+      "id": "motor-learning",
+      "title": "运动学习",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/motor-learning.md"
+    },
+    {
+      "id": "cortical-neurogenesis",
+      "title": "皮层神经发生（Inside-Out 规则）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-neurogenesis.md"
+    },
+    {
+      "id": "outer-radial-glia",
+      "title": "外放射状胶质细胞与 OSVZ",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/outer-radial-glia.md"
+    },
+    {
+      "id": "notch2nl-cortical-expansion",
+      "title": "NOTCH2NL 与人类皮层扩张",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/notch2nl-cortical-expansion.md"
+    },
+    {
+      "id": "cortical-interneuron-development",
+      "title": "皮层中间神经元发育（切向迁移与命运决定）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-interneuron-development.md"
+    },
+    {
+      "id": "tangential-migration",
+      "title": "切向迁移（中间神经元）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tangential-migration.md"
+    },
+    {
+      "id": "medial-ganglionic-eminence",
+      "title": "内侧神经节隆起（MGE）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/medial-ganglionic-eminence.md"
+    },
+    {
+      "id": "gaba",
+      "title": "GABA（γ-氨基丁酸）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/gaba.md"
+    },
+    {
+      "id": "lissencephaly",
+      "title": "无脑回",
+      "domain": "concepts",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/lissencephaly.md"
+    },
+    {
+      "id": "reelin-signaling",
+      "title": "Reelin 信号通路",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/reelin-signaling.md"
+    },
+    {
+      "id": "cortical-migration-disorders",
+      "title": "皮层迁移障碍",
+      "domain": "concepts",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-migration-disorders.md"
+    },
+    {
+      "id": "srgap2c-neoteny",
+      "title": "SRGAP2C 与突触幼态化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/srgap2c-neoteny.md"
+    },
+    {
+      "id": "arhgap11b-cortical-expansion",
+      "title": "ARHGAP11B 与皮层基底祖细胞扩张",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/arhgap11b-cortical-expansion.md"
+    },
+    {
+      "id": "cortical-arealization",
+      "title": "皮层区域化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-arealization.md"
+    },
+    {
+      "id": "fgf8-cortical-patterning",
+      "title": "FGF8 皮层图案化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/fgf8-cortical-patterning.md"
+    },
+    {
+      "id": "thalamocortical-axons",
+      "title": "丘脑皮层轴突",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/thalamocortical-axons.md"
+    },
+    {
+      "id": "subplate-neurons",
+      "title": "下板神经元",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/subplate-neurons.md"
+    },
+    {
+      "id": "ocular-dominance-columns",
+      "title": "眼优势柱",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ocular-dominance-columns.md"
+    },
+    {
+      "id": "retinal-waves",
+      "title": "视网膜波",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/retinal-waves.md"
+    },
+    {
+      "id": "inferior-temporal-cortex",
+      "title": "颞下皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/inferior-temporal-cortex.md"
+    },
+    {
+      "id": "v4-visual-area",
+      "title": "V4 视觉区",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "medium",
+      "page": "wiki/systems/v4-visual-area.md"
+    },
+    {
+      "id": "invariant-object-recognition",
+      "title": "不变量物体识别",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/invariant-object-recognition.md"
+    },
+    {
+      "id": "face-patch-system",
+      "title": "面孔块系统",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/face-patch-system.md"
+    },
+    {
+      "id": "dorsal-visual-stream",
+      "title": "背侧视觉流",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/dorsal-visual-stream.md"
+    },
+    {
+      "id": "area-MT-V5",
+      "title": "中颞区（MT/V5）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/area-MT-V5.md"
+    },
+    {
+      "id": "mst-medial-superior-temporal",
+      "title": "内上颞区（MST）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/mst-medial-superior-temporal.md"
+    },
+    {
+      "id": "lip-lateral-intraparietal",
+      "title": "顶内沟外侧区（LIP）",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/systems/lip-lateral-intraparietal.md"
+    },
+    {
+      "id": "auditory-dual-stream",
+      "title": "听觉双流架构",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/auditory-dual-stream.md"
+    },
+    {
+      "id": "speech-production-circuit",
+      "title": "言语产生神经回路",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/speech-production-circuit.md"
+    },
+    {
+      "id": "diva-model",
+      "title": "DIVA模型（言语产生计算-神经框架）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/diva-model.md"
+    },
+    {
+      "id": "sma-presma",
+      "title": "辅助运动区与前辅助运动区（言语启动）",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/sma-presma.md"
+    },
+    {
+      "id": "stg-phoneme-processing",
+      "title": "颞上回音素计算",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/stg-phoneme-processing.md"
+    },
+    {
+      "id": "cortical-speech-entrainment",
+      "title": "皮层言语同步（振荡entrainment）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/cortical-speech-entrainment.md"
+    },
+    {
+      "id": "phoneme-categorical-perception",
+      "title": "音素范畴感知",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/phoneme-categorical-perception.md"
+    },
+    {
+      "id": "conduction-aphasia",
+      "title": "传导性失语症",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/conduction-aphasia.md"
+    },
+    {
+      "id": "language-critical-period",
+      "title": "语言习得关键期（分层敏感期）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/language-critical-period.md"
+    },
+    {
+      "id": "statistical-learning",
+      "title": "统计学习（语言习得）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/statistical-learning.md"
+    },
+    {
+      "id": "social-gating-language",
+      "title": "社会门控（语言习得）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/social-gating-language.md"
+    },
+    {
+      "id": "wernicke-area",
+      "title": "韦尼克区",
+      "domain": "concepts",
+      "type": "region",
+      "status": "contested",
+      "confidence": "medium",
+      "page": "wiki/concepts/wernicke-area.md",
+      "note": "传统语音理解中枢；现代证据表明其核心功能是音韵形式提取/缓冲，非理解总闸；损伤产生传导性失语"
+    },
+    {
+      "id": "planum-temporale",
+      "title": "颞平面",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/planum-temporale.md",
+      "note": "外侧裂深处、HG后方；65%人类左>右；时序声学分析；语言左侧化最古老解剖证据"
+    },
+    {
+      "id": "speech-comprehension-prediction",
+      "title": "语音理解的预测编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/speech-comprehension-prediction.md",
+      "note": "IFG→STG/STS自上而下预测回路；STG编码预测误差；正确理解=误差信号减弱；Sohoglu & Davis 2012/2016；Blank & Davis 2016/2018"
+    },
+    {
+      "id": "language-lateralization",
+      "title": "语言侧化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/language-lateralization.md"
+    },
+    {
+      "id": "foxp2-language-gene",
+      "title": "FOXP2（语言相关转录因子）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/foxp2-language-gene.md"
+    },
+    {
+      "id": "stdp",
+      "title": "脉冲时序依赖可塑性（STDP）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/stdp.md"
+    },
+    {
+      "id": "backpropagating-action-potential",
+      "title": "回传动作电位",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/backpropagating-action-potential.md"
+    },
+    {
+      "id": "a-type-potassium-channel",
+      "title": "A 型钾通道",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/a-type-potassium-channel.md"
+    },
+    {
+      "id": "metaplasticity",
+      "title": "元可塑性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/metaplasticity.md"
+    },
+    {
+      "id": "bcm-rule",
+      "title": "BCM 规则",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/bcm-rule.md"
+    },
+    {
+      "id": "eligibility-trace",
+      "title": "资格迹",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/eligibility-trace.md"
+    },
+    {
+      "id": "anterior-cingulate-cortex",
+      "title": "前扣带回皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/anterior-cingulate-cortex.md"
+    },
+    {
+      "id": "mixed-selectivity",
+      "title": "混合选择性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/mixed-selectivity.md"
+    },
+    {
+      "id": "dlpfc-rule-encoding",
+      "title": "DLPFC 规则编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/dlpfc-rule-encoding.md"
+    },
+    {
+      "id": "frontal-hierarchy",
+      "title": "额叶认知控制层级",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/frontal-hierarchy.md"
+    },
+    {
+      "id": "communication-through-coherence",
+      "title": "Communication Through Coherence（振荡通信框架）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/communication-through-coherence.md"
+    },
+    {
+      "id": "frontal-eye-field",
+      "title": "额叶眼区（FEF）",
+      "domain": "systems",
+      "type": "region",
+      "status": "speculative",
+      "confidence": "high",
+      "page": "wiki/systems/frontal-eye-field.md",
+      "note": "placeholder — no wiki page yet; covered partially in dorsal-attention-network.md"
+    },
+    {
+      "id": "free-energy-principle",
+      "title": "自由能原理",
+      "domain": "theories",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/theories/free-energy-principle.md"
+    },
+    {
+      "id": "active-inference",
+      "title": "主动推断",
+      "domain": "theories",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/theories/active-inference.md"
+    },
+    {
+      "id": "proprioceptive-prediction",
+      "title": "本体感觉预测",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/proprioceptive-prediction.md"
+    },
+    {
+      "id": "credit-assignment",
+      "title": "信用分配问题",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/credit-assignment.md"
+    },
+    {
+      "id": "pc-learning",
+      "title": "预测编码学习",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/pc-learning.md"
+    },
+    {
+      "id": "equilibrium-propagation",
+      "title": "平衡传播",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/equilibrium-propagation.md"
+    },
+    {
+      "id": "hopfield-network",
+      "title": "霍普菲尔德网络",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/hopfield-network.md"
+    },
+    {
+      "id": "silent-synapse",
+      "title": "沉默突触",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/silent-synapse.md"
+    },
+    {
+      "id": "critical-period-plasticity",
+      "title": "关键期可塑性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/critical-period-plasticity.md"
+    },
+    {
+      "id": "psd-95",
+      "title": "PSD-95（突触后密度-95）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/psd-95.md"
+    },
+    {
+      "id": "tarp-auxiliary-subunit",
+      "title": "TARP（跨膜 AMPAR 调控蛋白）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tarp-auxiliary-subunit.md"
+    },
+    {
+      "id": "syngap1",
+      "title": "SynGAP1（突触 Ras GTPase 激活蛋白 1）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/syngap1.md"
+    },
+    {
+      "id": "syngap1-related-disorder",
+      "title": "SYNGAP1 相关神经发育障碍",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/syngap1-related-disorder.md"
+    },
+    {
+      "id": "critical-period-reopening",
+      "title": "关键期重开",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium-high",
+      "page": "wiki/concepts/critical-period-reopening.md"
+    },
+    {
+      "id": "lynx1",
+      "title": "Lynx1 胆碱能制动蛋白",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/lynx1.md"
+    },
+    {
+      "id": "neurogenesis-induced-forgetting",
+      "title": "神经发生诱导遗忘",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/neurogenesis-induced-forgetting.md"
+    },
+    {
+      "id": "engram-systems-consolidation",
+      "title": "印迹细胞的系统巩固",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/engram-systems-consolidation.md"
+    },
+    {
+      "id": "trkb-receptor",
+      "title": "TrkB受体",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/trkb-receptor.md"
+    },
+    {
+      "id": "schizophrenia",
+      "title": "精神分裂症",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/schizophrenia.md"
+    },
+    {
+      "id": "dopamine-pfc-inverted-u",
+      "title": "多巴胺-前额叶倒 U 型调控",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/dopamine-pfc-inverted-u.md"
+    },
+    {
+      "id": "glun2-developmental-switch",
+      "title": "GluN2 亚单位发育切换",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/glun2-developmental-switch.md"
+    },
+    {
+      "id": "nrg1-erbb4",
+      "title": "NRG1-ErbB4 信号轴",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/nrg1-erbb4.md"
+    },
+    {
+      "id": "disc1",
+      "title": "DISC1（精神分裂症中断基因 1）",
+      "domain": "concepts",
+      "type": "entity",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/disc1.md"
+    },
+    {
+      "id": "theta-gamma-coupling",
+      "title": "θ-γ 耦合（Phase-Amplitude Coupling）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/theta-gamma-coupling.md"
+    },
+    {
+      "id": "theta-sequences",
+      "title": "θ序列",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/theta-sequences.md"
+    },
+    {
+      "id": "medial-septum",
+      "title": "内侧隔核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/medial-septum.md"
     }
   ],
   "edges": [
+    {
+      "from": "purkinje-cell",
+      "to": "cerebellum",
+      "type": "part-of",
+      "note": "PC 是小脑皮层唯一输出神经元"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "purkinje-cell",
+      "type": "mechanism-of",
+      "note": "CF 1:1 支配 PC，触发复杂放电和 LTD"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "cerebellar-ltd",
+      "type": "mechanism-of",
+      "note": "CF 激活是 LTD 诱导的必要条件（Ca²⁺ + 时序）"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "purkinje-cell",
+      "type": "mechanism-of",
+      "note": "LTD 在 PF-PC 突触处通过 AMPAR 内吞实现"
+    },
+    {
+      "from": "expansion-coding",
+      "to": "cerebellum",
+      "type": "part-of",
+      "note": "颗粒细胞层的 200:1 扩展比是小脑皮层的核心输入变换"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "LTD 通过误差信号驱动前向模型更新，是预测编码的小脑实现"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "CF 误差信号是小脑预测-实际比较机制的核心"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "deep-cerebellar-nuclei",
+      "type": "regulates",
+      "note": "PC 通过 GABA 持续抑制 DCN，运动学习的关键是暂时解除此抑制"
+    },
+    {
+      "from": "expansion-coding",
+      "to": "cerebellar-ltd",
+      "type": "prerequisite-for",
+      "note": "颗粒细胞的高维表征精度是 PF-PC LTD 发挥模式分离作用的前提"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "forward-model",
+      "type": "supports",
+      "note": "CF 误差信号驱动前向/逆向内部模型的更新（Wolpert 1998）"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "ltp",
+      "type": "related",
+      "note": "小脑 LTD 与 LTP 是 PF-PC 突触的双向可塑性；单独 PF 激活→LTP，PF+CF 同步→LTD"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "gaba",
+      "type": "mechanism-of",
+      "note": "PC 的输出完全通过 GABA 抑制（所有 PC 均为 GABAergic 抑制神经元）"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "inferior-olive",
+      "type": "part-of",
+      "note": "CF 起源于对侧下橄榄核（inferior olive），IO 缝隙连接调控同步"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "motor-learning",
+      "type": "supports",
+      "note": "LTD 是 Marr-Albus-Ito 运动学习模型的分子基础（但非充要条件，Schonewille 2011）"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "cerebellar-ltd",
+      "type": "contradicts",
+      "note": "LTD 分子机制（established）与 LTD 在运动学习中的必要性（contested by Schonewille 2011）自身存在张力"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "ampa-receptor",
+      "type": "mechanism-of",
+      "note": "PC 树突棘的 AMPAR（尤其 GluA2）是 LTD 表达步骤的分子位点"
+    },
+    {
+      "from": "cerebellum",
+      "to": "cognition",
+      "type": "related",
+      "note": "CCAS：小脑后叶损伤导致执行/语言/情感障碍——思维失调假说（Schmahmann）"
+    },
     {
       "from": "synaptic-scaling",
       "to": "homeostatic-plasticity",
@@ -5793,9 +7348,4715 @@
       "to": "bdnf",
       "type": "related",
       "note": "BDNF 表达受昼夜节律调控，影响 PV+ 成熟时间轴和关键期时序"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "glucocorticoid-hippocampus-plasticity",
+      "type": "mechanism-of",
+      "note": "HPA 轴输出的皮质醇通过 MR/GR 双受体系统调节海马突触可塑性"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "amygdala",
+      "type": "regulates",
+      "note": "BLA→BNST→PVN 提供 HPA 轴威胁信号输入；CeM→PVN 激活 CRH 释放"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "hippocampal-circuit",
+      "type": "regulates",
+      "note": "海马 GR 激活提供 HPA 轴负反馈；海马损伤→负反馈减弱→皮质醇级联升高"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "circadian-clock",
+      "type": "related",
+      "note": "SCN 驱动皮质醇昼夜节律（清晨高峰）；节律性 MR/GR 激活模式依赖 SCN 完整性"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "scn-circadian-pacemaker",
+      "type": "regulates",
+      "note": "SCN 通过 AVP 和自主神经调节肾上腺皮质对 ACTH 的敏感性，产生皮质醇昼夜节律"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related",
+      "note": "LC-NE 系统与 HPA 轴在应激急性期协同激活（快速 NE + 慢速 GC 双系统）"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "bdnf",
+      "type": "regulates",
+      "note": "慢性 GR 激活通过负性 GRE 抑制 BDNF exon IV 转录；是 HPA 失调损伤突触可塑性的下游机制"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "AD 早期 SCN 退化→皮质醇节律崩溃→HPA 失调→海马损伤加速；负反馈减弱形成恶性循环"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "ltp",
+      "type": "regulates",
+      "note": "MR 激活增强 LTP（低浓度），慢性 GR 激活损害 LTP（PP2B/calcineurin/GluA1 内吞路径）"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "ltd",
+      "type": "related",
+      "note": "慢性 GR→PP2B→GluA1 去磷酸化 = 与 LTD 共用 calcineurin/AMPA 内吞路径"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "bdnf",
+      "type": "regulates",
+      "note": "慢性 GR 激活通过 GRE 负调控元件抑制 BDNF 转录；BDNF 是 GC 慢性损害 LTP 的主要下游中间子"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "hippocampal-neurogenesis",
+      "type": "regulates",
+      "note": "慢性 GC 通过抑制 VEGF/IGF-1/5-HT1A 通路减少 SGZ 增殖（↓40-50%）；是成体神经发生的主要内源性抑制因素"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "hippocampal-circuit",
+      "type": "regulates",
+      "note": "CA3 是 GC 损害最早节点（苔状纤维-CA3 突触）；21天慢性应激→CA3 树突退缩→空间记忆损害"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "amygdala",
+      "type": "related",
+      "note": "慢性应激同时增强 BLA 反应性（树突增生）vs 削弱海马 LTP——方向性分离"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "homeostatic-plasticity",
+      "type": "related",
+      "note": "慢性 GC 损害稳态可塑性所依赖的 TNFα 和 BDNF 通路"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "GC 级联假说：AD 早期 SCN 退化→皮质醇节律崩溃→慢性高 GC→海马损伤→负反馈减弱→进一步升高"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "circadian-clock",
+      "type": "related",
+      "note": "皮质醇昼夜节律由 SCN 调控；节律崩溃（AD）破坏 MR/GR 系统的节律性工作模式"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "fear-conditioning",
+      "type": "related",
+      "note": "急性 GR 激活 + NE（β-AR）在应激窗口内放大当前威胁情景记忆（时空特异性增强原则）"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "fear-conditioning",
+      "type": "related",
+      "note": "急性应激激活 HPA 轴；GC+NE 协同增强恐惧记忆编码（Joëls 时空特异性原则）"
+    },
+    {
+      "from": "microglia",
+      "to": "neuroinflammation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "microglia",
+      "to": "complement-cascade-cns",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "microglia",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "inflammatory-cytokines-synapse",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "synaptic-pruning",
+      "type": "supports"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "alzheimers-disease",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "microglia",
+      "type": "regulates"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "neuroinflammation",
+      "type": "regulates"
+    },
+    {
+      "from": "glucocorticoid-hippocampus-plasticity",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "inflammatory-cytokines-synapse",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "inflammatory-cytokines-synapse",
+      "to": "ampa-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "astrocyte",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "microglia",
+      "to": "bdnf",
+      "type": "regulates"
+    },
+    {
+      "from": "microglia",
+      "to": "trem2",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "rmtg",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "serotonin-raphe-system",
+      "type": "regulates"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "hpa-axis",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "lateral-habenula",
+      "type": "regulates"
+    },
+    {
+      "from": "rmtg",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "burst-firing-lhb",
+      "to": "lateral-habenula",
+      "type": "part-of"
+    },
+    {
+      "from": "burst-firing-lhb",
+      "to": "neuroinflammation",
+      "type": "related"
+    },
+    {
+      "from": "burst-firing-lhb",
+      "to": "glucocorticoid-hippocampus-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "lateral-habenula",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "lateral-habenula",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "deltaFosB",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "incentive-salience",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "incubation-of-craving",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "lateral-habenula",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "hpa-axis",
+      "type": "related"
+    },
+    {
+      "from": "substance-use-disorder",
+      "to": "prefrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "substance-use-disorder",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "deltaFosB",
+      "to": "incubation-of-craving",
+      "type": "supports"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "substance-use-disorder",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "substance-use-disorder",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "ampa-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "nmda-receptor",
+      "type": "related"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "deltaFosB",
+      "type": "related"
+    },
+    {
+      "from": "incubation-of-craving",
+      "to": "incentive-salience",
+      "type": "supports"
+    },
+    {
+      "from": "habit-formation",
+      "to": "substance-use-disorder",
+      "type": "related"
+    },
+    {
+      "from": "habit-formation",
+      "to": "deltaFosB",
+      "type": "related"
+    },
+    {
+      "from": "habit-formation",
+      "to": "incentive-salience",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "substance-use-disorder",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "incentive-salience",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "deltaFosB",
+      "type": "related"
+    },
+    {
+      "from": "anterior-temporal-lobe-hub",
+      "to": "ventral-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "anterior-temporal-lobe-hub",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "anterior-temporal-lobe-hub",
+      "to": "embodied-semantics",
+      "type": "related"
+    },
+    {
+      "from": "ventral-language-stream",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "broca-area",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "related"
+    },
+    {
+      "from": "language-network",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "mechanism-of",
+      "note": "ATL是hub-and-spoke模型的物理枢纽；semantic-memory-hub页面聚焦计算机制，ATL Hub页面聚焦神经解剖"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "embodied-semantics",
+      "type": "related",
+      "note": "具身语义是轮辐理论的极端版本；C3模型将两者调和"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "language-network",
+      "type": "related",
+      "note": "腹侧语言流将词汇知识输入ATL枢纽"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "grid-cells",
+      "type": "related",
+      "note": "概念空间几何可能复用内嗅皮层网格细胞机制"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "cognitive-map",
+      "type": "related",
+      "note": "ATL枢纽组织的语义知识可能是认知地图在概念域的实现"
+    },
+    {
+      "from": "semantic-memory-hub",
+      "to": "conceptual-space-geometry",
+      "type": "related",
+      "note": "ATL整合形成的概念可能在内嗅皮层以网格几何坐标表示"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "semantic-memory-hub",
+      "type": "related",
+      "note": "概念空间几何是hub-and-spoke模型在度量空间层面的延伸"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "grid-cells",
+      "type": "mechanism-of",
+      "note": "内嗅皮层网格细胞是概念空间几何编码的神经底物"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "cognitive-map",
+      "type": "is-a",
+      "note": "概念空间几何是认知地图理论从空间导航到语义领域的直接延伸"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "related",
+      "note": "ATL激活模式可能对应概念空间中的坐标点"
+    },
+    {
+      "from": "conceptual-space-geometry",
+      "to": "place-cells",
+      "type": "related",
+      "note": "场所细胞对应概念空间中的概念细胞（稀疏选择性响应）"
+    },
+    {
+      "from": "anterior-temporal-lobe-hub",
+      "to": "semantic-memory-hub",
+      "type": "is-a",
+      "note": "前颞叶枢纽是hub-and-spoke模型的神经解剖实现"
+    },
+    {
+      "from": "grid-cells",
+      "to": "conceptual-space-geometry",
+      "type": "supports",
+      "note": "内嗅皮层六重对称信号在概念空间学习范式中复现"
+    },
+    {
+      "from": "cognitive-map",
+      "to": "conceptual-space-geometry",
+      "type": "supports",
+      "note": "认知地图的DSI统一框架（SR≡PMI）提供概念空间几何的计算基础"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "olfactory-glomerulus",
+      "type": "part-of"
+    },
+    {
+      "from": "olfactory-glomerulus",
+      "to": "olfactory-system",
+      "type": "part-of"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "olfactory-system",
+      "type": "part-of"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "amygdala",
+      "type": "regulates"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "hippocampal-circuit",
+      "type": "regulates"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "memory-consolidation",
+      "type": "supports"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "olfactory-system",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "olfactory-glomerulus",
+      "to": "amygdala",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "action-potential",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "voltage-gated-calcium-channels",
+      "type": "related"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "tonotopy",
+      "type": "part-of",
+      "note": "音调拓扑是A1的组织原则"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "language-network",
+      "type": "prerequisite-for",
+      "note": "听觉皮层是语言双流（腹侧+背侧流）的皮层起点"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "thalamus",
+      "type": "part-of",
+      "note": "MGN vMGN→A1投射；听觉皮层必须经丘脑中继"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "olfactory-system",
+      "type": "related",
+      "note": "对比：嗅觉无丘脑中继（唯一例外）；听觉必须经MGN"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "A1展示失配响应（mismatch negativity），是预测编码的听觉皮层实例"
+    },
+    {
+      "from": "tonotopy",
+      "to": "auditory-cortex",
+      "type": "mechanism-of",
+      "note": "音调拓扑是A1的组织机制"
+    },
+    {
+      "from": "tonotopy",
+      "to": "phase-locking",
+      "type": "related",
+      "note": "位置编码（tonotopy）与时间编码（phase-locking）是频率表征的两套正交策略"
+    },
+    {
+      "from": "tonotopy",
+      "to": "ribbon-synapse",
+      "type": "related",
+      "note": "带状突触异质性叠加在音调拓扑框架内：IHC的Pillar/Modiolar分工在音调地图的每个位置并行存在"
+    },
+    {
+      "from": "tonotopy",
+      "to": "orientation-selectivity",
+      "type": "related",
+      "note": "两者均是'感觉物理参数→皮层空间维度映射'的并列实例（频率→A1位置；方向→V1方向柱）"
+    },
+    {
+      "from": "ribbon-synapse",
+      "to": "active-zone",
+      "type": "is-a",
+      "note": "带状突触是活动区的高通量特化形式；共享Bassoon/Piccolo脚手架蛋白"
+    },
+    {
+      "from": "ribbon-synapse",
+      "to": "voltage-gated-calcium-channels",
+      "type": "mechanism-of",
+      "note": "CaV1.3（L型）是IHC带状突触的囊泡释放触发通道，区别于突触前CaV2.1 P/Q型"
+    },
+    {
+      "from": "ribbon-synapse",
+      "to": "synaptic-transmission",
+      "type": "is-a",
+      "note": "带状突触是突触传递的特化极端形式，与常规突触共享SNARE机制但具有ribbon支架和CaV1.3特异性"
+    },
+    {
+      "from": "ribbon-synapse",
+      "to": "phase-locking",
+      "type": "prerequisite-for",
+      "note": "带状突触亚毫秒延迟是SGN相位锁定精确性的突触前提"
+    },
+    {
+      "from": "phase-locking",
+      "to": "theta-phase-precession",
+      "type": "related",
+      "note": "两者均是'放电时刻携带信息'的时间编码原理，分属听觉（微秒-毫秒）和海马（秒）不同系统和尺度"
+    },
+    {
+      "from": "phase-locking",
+      "to": "temporal-coding-hierarchy",
+      "type": "is-a",
+      "note": "相位锁定是时间编码层级中微秒-毫秒尺度的代表实例"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "somatosensory-cortex",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "dorsal-column-pathway",
+      "to": "somatosensory-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "thalamus",
+      "to": "somatosensory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "somatosensory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "cortical-homunculus",
+      "to": "somatosensory-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-remapping",
+      "to": "somatosensory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "critical-period",
+      "to": "barrel-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "cortical-homunculus",
+      "type": "supports"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "barrel-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "tonotopy",
+      "type": "related"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "dorsal-column-pathway",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "cortical-homunculus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "olfactory-receptor-neuron",
+      "to": "mechanoreceptors-skin",
+      "type": "related"
+    },
+    {
+      "from": "cortical-homunculus",
+      "to": "tonotopy",
+      "type": "related"
+    },
+    {
+      "from": "cortical-homunculus",
+      "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "cortical-homunculus",
+      "to": "cortical-remapping",
+      "type": "related"
+    },
+    {
+      "from": "cortical-remapping",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "cortical-remapping",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "ltp",
+      "to": "cortical-remapping",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dorsal-column-pathway",
+      "to": "thalamus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mechanoreceptors-skin",
+      "to": "dorsal-column-pathway",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "temporal-binding-window",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "bayesian-sensory-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "superior-temporal-sulcus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "mcgurk-effect",
+      "type": "supports"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "precision-weighting",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "somatosensory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "olfactory-system",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "multisensory-integration",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "bayesian-sensory-integration",
+      "type": "part-of"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "superior-temporal-sulcus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "mcgurk-effect",
+      "type": "supports"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "phase-locking",
+      "type": "related"
+    },
+    {
+      "from": "bayesian-sensory-integration",
+      "to": "multisensory-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bayesian-sensory-integration",
+      "to": "predictive-coding",
+      "type": "is-a"
+    },
+    {
+      "from": "bayesian-sensory-integration",
+      "to": "precision-weighting",
+      "type": "related"
+    },
+    {
+      "from": "bayesian-sensory-integration",
+      "to": "world-model",
+      "type": "related"
+    },
+    {
+      "from": "mcgurk-effect",
+      "to": "multisensory-integration",
+      "type": "is-a"
+    },
+    {
+      "from": "mcgurk-effect",
+      "to": "superior-temporal-sulcus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mcgurk-effect",
+      "to": "temporal-binding-window",
+      "type": "related"
+    },
+    {
+      "from": "mcgurk-effect",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "multisensory-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "related"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "mcgurk-effect",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "superior-temporal-sulcus",
+      "to": "broca-area",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "dorsal-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "alpha-oscillations",
+      "type": "regulates"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "gamma-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "alpha-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "working-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "thalamus",
+      "type": "part-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "thalamocortical-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "biased-competition",
+      "type": "supports"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "multisensory-integration",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "attentional-blink",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "beta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "grid-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "place-cells",
+      "type": "related"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "border-cells",
+      "type": "related"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "path-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "entorhinal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "attractor-network",
+      "type": "related"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "ring-attractor",
+      "type": "is-a"
+    },
+    {
+      "from": "border-cells",
+      "to": "head-direction-cells",
+      "type": "related"
+    },
+    {
+      "from": "border-cells",
+      "to": "grid-cells",
+      "type": "regulates"
+    },
+    {
+      "from": "border-cells",
+      "to": "place-cells",
+      "type": "supports"
+    },
+    {
+      "from": "border-cells",
+      "to": "path-integration",
+      "type": "regulates"
+    },
+    {
+      "from": "border-cells",
+      "to": "entorhinal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "border-cells",
+      "to": "cognitive-map",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ring-attractor",
+      "to": "head-direction-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ring-attractor",
+      "to": "attractor-network",
+      "type": "is-a"
+    },
+    {
+      "from": "ring-attractor",
+      "to": "grid-cells",
+      "type": "related"
+    },
+    {
+      "from": "ring-attractor",
+      "to": "path-integration",
+      "type": "supports"
+    },
+    {
+      "from": "path-integration",
+      "to": "border-cells",
+      "type": "related"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "canonical-microcircuit",
+      "type": "related"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "thalamus",
+      "type": "related"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "alpha-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "somatosensory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "thalamocortical-circuit",
+      "type": "related"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "cortical-layers",
+      "type": "part-of"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "barrel-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "canonical-microcircuit",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "canonical-microcircuit",
+      "type": "supports"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "canonical-microcircuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "cortical-layers",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "cortical-layers",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "cortical-layers",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "orientation-selectivity",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "thalamus",
+      "to": "cortical-layers",
+      "type": "regulates"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "canonical-microcircuit",
+      "type": "part-of"
+    },
+    {
+      "from": "time-cells",
+      "to": "place-cells",
+      "type": "is-a",
+      "note": "时间细胞与场所细胞是同一CA1神经元群体的不同激活模式：空间导航时=场所细胞，时间延迟时=时间细胞（MacDonald 2011，75%+重叠）"
+    },
+    {
+      "from": "time-cells",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "θ振荡为时间细胞序列提供时间参照框架；时间细胞也表现θ相位前移（Umbach 2020）"
+    },
+    {
+      "from": "time-cells",
+      "to": "memory-consolidation",
+      "type": "supports",
+      "note": "时间细胞提供情节记忆的时间维度编码；稳定性预测情节时序组织质量（Umbach 2020）"
+    },
+    {
+      "from": "time-cells",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "SWR期间场所细胞序列被重播（已知）；时间细胞序列是否同样被重播待确认"
+    },
+    {
+      "from": "time-cells",
+      "to": "entorhinal-cortex",
+      "type": "related",
+      "note": "LEC群体状态漂移可能为海马时间细胞提供外部时间情境信号（Tsao 2018）"
+    },
+    {
+      "from": "time-cells",
+      "to": "grid-cells",
+      "type": "related",
+      "note": "网格细胞是空间坐标；时间细胞是时间坐标；两者共属情节记忆时空编码框架"
+    },
+    {
+      "from": "speed-cells",
+      "to": "path-integration",
+      "type": "mechanism-of",
+      "note": "速度细胞是路径整合速度输入的细胞实现；有~50-80ms前瞻偏置保证精度"
+    },
+    {
+      "from": "speed-cells",
+      "to": "grid-cells",
+      "type": "supports",
+      "note": "速度细胞通过MEC联合细胞为网格细胞吸引子凸块的运动更新提供速度分量（Kropff 2015, Carvalho 2020）"
+    },
+    {
+      "from": "speed-cells",
+      "to": "entorhinal-cortex",
+      "type": "part-of",
+      "note": "速度细胞是MEC的专门亚群（约24%神经元）；与网格/头向/边界细胞功能独立共存"
+    },
+    {
+      "from": "speed-cells",
+      "to": "head-direction-cells",
+      "type": "related",
+      "note": "速度细胞（速度分量）+头向细胞（方向分量）共同驱动路径整合位置更新；两者由MEC联合细胞整合"
+    },
+    {
+      "from": "speed-cells",
+      "to": "time-cells",
+      "type": "related",
+      "note": "速度细胞是空间路径整合的速度输入；时间细胞是时间维度的对应物——两者共同扩展大脑导航的时空坐标系"
+    },
+    {
+      "from": "place-cells",
+      "to": "time-cells",
+      "type": "related",
+      "note": "场所细胞在空间导航时编码位置；同一神经元在时间延迟任务中切换为时间细胞模式"
+    },
+    {
+      "from": "grid-cells",
+      "to": "speed-cells",
+      "type": "related",
+      "note": "网格细胞的连续吸引子位置更新依赖速度细胞提供的实时速度输入"
+    },
+    {
+      "from": "path-integration",
+      "to": "speed-cells",
+      "type": "related",
+      "note": "路径整合的速度输入来自速度细胞（PPN→HDB→MEC通路）"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "speed-cells",
+      "type": "part-of",
+      "note": "MEC速度细胞是EC功能架构的组成部分"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "time-cells",
+      "type": "supports",
+      "note": "LEC时间戳漂移（Tsao 2018）提供时间情境；海马时间细胞在整合此信号后维持精确时序编码"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "tpj-temporoparietal-junction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "mentalizing-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "mirror-neurons",
+      "type": "related"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "tpj-temporoparietal-junction",
+      "type": "part-of"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "mirror-neurons",
+      "type": "related"
+    },
+    {
+      "from": "mentalizing-network",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "tpj-temporoparietal-junction",
+      "to": "dorsal-attention-network",
+      "type": "related"
+    },
+    {
+      "from": "tpj-temporoparietal-junction",
+      "to": "alpha-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "affective-empathy",
+      "to": "mentalizing-network",
+      "type": "related"
+    },
+    {
+      "from": "mirror-neurons",
+      "to": "theory-of-mind",
+      "type": "related"
+    },
+    {
+      "from": "mirror-neurons",
+      "to": "mentalizing-network",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "theory-of-mind",
+      "type": "supports"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "interoception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "empathy",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "von-economo-neurons",
+      "type": "part-of"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "tpj-temporoparietal-junction",
+      "type": "related"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "theory-of-mind",
+      "type": "related"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "default-mode-network",
+      "type": "part-of"
+    },
+    {
+      "from": "empathy",
+      "to": "anterior-insula",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "empathy",
+      "to": "interoception",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "empathy",
+      "to": "theory-of-mind",
+      "type": "related"
+    },
+    {
+      "from": "empathy",
+      "to": "mentalizing-network",
+      "type": "related"
+    },
+    {
+      "from": "empathy",
+      "to": "mirror-neurons",
+      "type": "related"
+    },
+    {
+      "from": "empathy",
+      "to": "von-economo-neurons",
+      "type": "related"
+    },
+    {
+      "from": "empathy",
+      "to": "affective-empathy",
+      "type": "is-a"
+    },
+    {
+      "from": "interoception",
+      "to": "anterior-insula",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "interoception",
+      "to": "empathy",
+      "type": "supports"
+    },
+    {
+      "from": "interoception",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "interoception",
+      "to": "hpa-axis",
+      "type": "related"
+    },
+    {
+      "from": "von-economo-neurons",
+      "to": "anterior-insula",
+      "type": "part-of"
+    },
+    {
+      "from": "von-economo-neurons",
+      "to": "empathy",
+      "type": "supports"
+    },
+    {
+      "from": "von-economo-neurons",
+      "to": "pyramidal-neuron",
+      "type": "is-a"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "myelination",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "myelination",
+      "to": "action-potential",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "myelination",
+      "to": "saltatory-conduction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "action-potential",
+      "type": "regulates"
+    },
+    {
+      "from": "myelination",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "myelination",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "myelination",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "axon-initial-segment",
+      "type": "related"
+    },
+    {
+      "from": "myelination",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "astrocyte",
+      "type": "related"
+    },
+    {
+      "from": "saltatory-conduction",
+      "to": "action-potential",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "engram-cells",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "ltd",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "ampa-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "nmda-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "fear-conditioning",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "fear-extinction",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "incubation-of-craving",
+      "type": "related"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "subjective-value-encoding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "habit-formation",
+      "type": "regulates"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "actor-critic-model",
+      "type": "supports"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "orbitofrontal-cortex",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "orbitofrontal-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "actor-critic-model",
+      "type": "supports"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "subjective-value-encoding",
+      "to": "interoception",
+      "type": "related"
+    },
+    {
+      "from": "habit-formation",
+      "to": "orbitofrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "actor-critic-model",
+      "to": "orbitofrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "orbitofrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "amygdala",
+      "type": "part-of"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "fear-conditioning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "incentive-salience",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "orbitofrontal-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "bla-valence-circuits",
+      "to": "subjective-value-encoding",
+      "type": "supports"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "fear-extinction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "amygdala",
+      "type": "regulates"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "fear-conditioning",
+      "type": "related"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "bla-valence-circuits",
+      "type": "regulates"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "pfc-amygdala-emotion-regulation",
+      "type": "supports"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "pfc-amygdala-emotion-regulation",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "amygdala",
+      "to": "pfc-amygdala-emotion-regulation",
+      "type": "related"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "pfc-amygdala-emotion-regulation",
+      "to": "nmda-receptor",
+      "type": "related"
+    },
+    {
+      "from": "vta",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "vta",
+      "to": "d1-d2-receptor-signaling",
+      "type": "related"
+    },
+    {
+      "from": "vta",
+      "to": "substantia-nigra",
+      "type": "related"
+    },
+    {
+      "from": "vta",
+      "to": "direct-indirect-pathway",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "vta",
+      "type": "regulates"
+    },
+    {
+      "from": "rmtg",
+      "to": "vta",
+      "type": "regulates"
+    },
+    {
+      "from": "substantia-nigra",
+      "to": "direct-indirect-pathway",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "substantia-nigra",
+      "to": "d1-d2-receptor-signaling",
+      "type": "related"
+    },
+    {
+      "from": "substantia-nigra",
+      "to": "vta",
+      "type": "related"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "direct-indirect-pathway",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "working-memory",
+      "type": "regulates"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "habit-formation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "direct-indirect-pathway",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "direct-indirect-pathway",
+      "to": "habit-formation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "vta",
+      "to": "prefrontal-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "vta",
+      "to": "amygdala",
+      "type": "regulates"
+    },
+    {
+      "from": "self-referential-processing",
+      "to": "default-mode-network",
+      "type": "part-of",
+      "note": "自我参照处理是DMN持续激活的核心功能；mPFC是自我参照处理的主要神经底座"
+    },
+    {
+      "from": "self-referential-processing",
+      "to": "memory-consolidation",
+      "type": "supports",
+      "note": "自我参照效应显著增强情景记忆编码（Rogers 1977）"
+    },
+    {
+      "from": "self-referential-processing",
+      "to": "theory-of-mind",
+      "type": "related",
+      "note": "dMPFC子系统同时参与自我参照和他心推断，共享神经回路"
+    },
+    {
+      "from": "mind-wandering",
+      "to": "default-mode-network",
+      "type": "mechanism-of",
+      "note": "心智漫游是DMN激活的主要行为表现；感知解耦是其神经标志"
+    },
+    {
+      "from": "mind-wandering",
+      "to": "dorsal-attention-network",
+      "type": "contradicts",
+      "note": "DMN-DAN反相关：心智漫游时DAN活动降低；任务失误时漫游/DAN抑制"
+    },
+    {
+      "from": "mind-wandering",
+      "to": "alpha-oscillations",
+      "type": "related",
+      "note": "α振荡增强是感知解耦的节律机制；漫游期间顶叶α增强"
+    },
+    {
+      "from": "mind-wandering",
+      "to": "self-referential-processing",
+      "type": "related",
+      "note": "大多数心智漫游内容具有自我参照性质（过去回忆/未来规划）"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "self-referential-processing",
+      "type": "supports",
+      "note": "DMN是自我参照处理的神经基础架构"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "mind-wandering",
+      "type": "supports",
+      "note": "DMN自发激活产生心智漫游；感知解耦使内部记忆优先"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "growth-cone",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "connectomics",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "growth-cone",
+      "to": "axon-initial-segment",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "place-cell",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "small-world-network",
+      "to": "connectomics",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "small-world-network",
+      "to": "rich-club",
+      "type": "related"
+    },
+    {
+      "from": "rich-club",
+      "to": "connectomics",
+      "type": "part-of"
+    },
+    {
+      "from": "rich-club",
+      "to": "small-world-network",
+      "type": "related"
+    },
+    {
+      "from": "rich-club",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "rich-club",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "structure-function-relationship",
+      "to": "connectomics",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "structure-function-relationship",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "structure-function-relationship",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "structure-function-relationship",
+      "to": "axon-guidance",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "small-world-network",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "rich-club",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "axon-guidance",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "structure-function-relationship",
+      "type": "supports"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "synaptogenesis",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "neuroligin-neurexin",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "postsynaptic-density",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "gephyrin-scaffold",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "ltp",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "synaptogenesis",
+      "to": "synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "growth-cone",
+      "to": "synaptogenesis",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "neuroligin-neurexin",
+      "to": "postsynaptic-density",
+      "type": "regulates"
+    },
+    {
+      "from": "neuroligin-neurexin",
+      "to": "gephyrin-scaffold",
+      "type": "regulates"
+    },
+    {
+      "from": "neuroligin-neurexin",
+      "to": "axon-guidance",
+      "type": "related"
+    },
+    {
+      "from": "neuroligin-neurexin",
+      "to": "autism-spectrum-disorder",
+      "type": "related"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "camkii",
+      "type": "related"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "gephyrin-scaffold",
+      "to": "neuroligin-neurexin",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "axon-guidance",
+      "to": "neuroligin-neurexin",
+      "type": "related"
+    },
+    {
+      "from": "autism-spectrum-disorder",
+      "to": "synaptic-pruning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "autism-spectrum-disorder",
+      "to": "synaptogenesis",
+      "type": "related"
+    },
+    {
+      "from": "autism-spectrum-disorder",
+      "to": "neuroligin-neurexin",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "autism-spectrum-disorder",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "synaptic-pruning",
+      "to": "autism-spectrum-disorder",
+      "type": "supports"
+    },
+    {
+      "from": "complement-cascade-cns",
+      "to": "autism-spectrum-disorder",
+      "type": "related"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "climbing-fiber-error-signal",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "deep-cerebellar-nuclei",
+      "type": "regulates"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "deep-cerebellar-nuclei",
+      "type": "supports"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellum",
+      "to": "motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "motor-learning",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "motor-learning",
+      "to": "habit-formation",
+      "type": "related"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "motor-learning",
+      "type": "supports"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "thalamus",
+      "type": "regulates"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "outer-radial-glia",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "notch2nl-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "synaptic-pruning",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "axon-guidance",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "cortical-neurogenesis",
+      "type": "part-of"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "notch2nl-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "critical-period",
+      "type": "supports"
+    },
+    {
+      "from": "notch2nl-cortical-expansion",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "notch2nl-cortical-expansion",
+      "to": "outer-radial-glia",
+      "type": "regulates"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "pv-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "sst-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "vip-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "gaba",
+      "type": "related"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "tangential-migration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "medial-ganglionic-eminence",
+      "type": "part-of"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "cortical-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "ei-balance",
+      "type": "regulates"
+    },
+    {
+      "from": "cortical-interneuron-development",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "medial-ganglionic-eminence",
+      "to": "pv-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "medial-ganglionic-eminence",
+      "to": "sst-interneurons",
+      "type": "produces"
+    },
+    {
+      "from": "medial-ganglionic-eminence",
+      "to": "tangential-migration",
+      "type": "related"
+    },
+    {
+      "from": "tangential-migration",
+      "to": "cortical-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "tangential-migration",
+      "to": "axon-guidance",
+      "type": "related"
+    },
+    {
+      "from": "gaba",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "gaba",
+      "to": "sst-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "gaba",
+      "to": "vip-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "gaba",
+      "to": "ei-balance",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "gaba",
+      "to": "synaptic-transmission",
+      "type": "is-a"
+    },
+    {
+      "from": "gaba",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "gaba",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "cortical-neurogenesis",
+      "type": "contradicts"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "reelin-signaling",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "cortical-migration-disorders",
+      "type": "is-a"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "tangential-migration",
+      "type": "related"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "lissencephaly",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "ei-balance",
+      "type": "regulates"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "sst-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "reelin-signaling",
+      "to": "nmda-receptor",
+      "type": "related"
+    },
+    {
+      "from": "cortical-migration-disorders",
+      "to": "cortical-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "cortical-migration-disorders",
+      "to": "tangential-migration",
+      "type": "related"
+    },
+    {
+      "from": "cortical-migration-disorders",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "cortical-migration-disorders",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "lissencephaly",
+      "type": "related"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "reelin-signaling",
+      "type": "supports"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "cortical-migration-disorders",
+      "type": "related"
+    },
+    {
+      "from": "tangential-migration",
+      "to": "cortical-migration-disorders",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "synaptogenesis",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "synaptic-pruning",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "dendritic-computation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "cortical-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "arhgap11b-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "srgap2c-neoteny",
+      "to": "notch2nl-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "outer-radial-glia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "cortical-neurogenesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "notch2nl-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "cortical-layers",
+      "type": "supports"
+    },
+    {
+      "from": "arhgap11b-cortical-expansion",
+      "to": "srgap2c-neoteny",
+      "type": "related"
+    },
+    {
+      "from": "outer-radial-glia",
+      "to": "arhgap11b-cortical-expansion",
+      "type": "related"
+    },
+    {
+      "from": "notch2nl-cortical-expansion",
+      "to": "srgap2c-neoteny",
+      "type": "related"
+    },
+    {
+      "from": "fgf8-cortical-patterning",
+      "to": "cortical-arealization",
+      "type": "regulates"
+    },
+    {
+      "from": "fgf8-cortical-patterning",
+      "to": "cortical-neurogenesis",
+      "type": "regulates"
+    },
+    {
+      "from": "cortical-neurogenesis",
+      "to": "cortical-arealization",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "thalamocortical-circuit",
+      "type": "related"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "barrel-cortex",
+      "type": "related"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "cortical-interneuron-development",
+      "type": "related"
+    },
+    {
+      "from": "cortical-arealization",
+      "to": "reelin-signaling",
+      "type": "related"
+    },
+    {
+      "from": "growth-cone",
+      "to": "fgf8-cortical-patterning",
+      "type": "related"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "thalamus",
+      "type": "part-of"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "cortical-arealization",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "barrel-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "axon-guidance",
+      "type": "is-a"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "subplate-neurons",
+      "to": "thalamocortical-axons",
+      "type": "regulates"
+    },
+    {
+      "from": "subplate-neurons",
+      "to": "cortical-neurogenesis",
+      "type": "part-of"
+    },
+    {
+      "from": "subplate-neurons",
+      "to": "critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "subplate-neurons",
+      "to": "synaptogenesis",
+      "type": "related"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "subplate-neurons",
+      "type": "related"
+    },
+    {
+      "from": "retinal-waves",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "retinal-waves",
+      "to": "thalamocortical-axons",
+      "type": "supports"
+    },
+    {
+      "from": "ocular-dominance-columns",
+      "to": "v1-primary-visual-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "critical-period",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "ocular-dominance-columns",
+      "type": "regulates"
+    },
+    {
+      "from": "ltp",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ltd",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bdnf",
+      "to": "ocular-dominance-columns",
+      "type": "regulates"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "ocular-dominance-columns",
+      "type": "regulates"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "ocular-dominance-columns",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "homeostatic-plasticity",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ocular-dominance-columns",
+      "to": "orientation-selectivity",
+      "type": "related"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "v4-visual-area",
+      "type": "prerequisite-for",
+      "note": "V1 局部边缘信号是 V4 曲率形状计算的输入基础"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "inferior-temporal-cortex",
+      "type": "prerequisite-for",
+      "note": "V1→V2→V4→IT 腹侧流层级的起始阶段"
+    },
+    {
+      "from": "v4-visual-area",
+      "to": "inferior-temporal-cortex",
+      "type": "prerequisite-for",
+      "note": "V4 中间形状计算（曲率×角度空间）为 IT 物体身份编码提供输入"
+    },
+    {
+      "from": "v4-visual-area",
+      "to": "invariant-object-recognition",
+      "type": "mechanism-of",
+      "note": "V4 位置不变性开始涌现，是不变量识别的中间计算阶段"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "invariant-object-recognition",
+      "type": "mechanism-of",
+      "note": "IT 皮层是不变量物体识别的主要神经底物；高选择性 + 高不变性在此平衡"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "face-patch-system",
+      "type": "part-of",
+      "note": "面孔块系统是 IT 皮层内的面孔特化功能层级"
+    },
+    {
+      "from": "face-patch-system",
+      "to": "invariant-object-recognition",
+      "type": "mechanism-of",
+      "note": "面孔块系统展示了不变量面孔识别的层级计算（ML/MF→AL→AM 视角整合梯度）"
+    },
+    {
+      "from": "face-patch-system",
+      "to": "inferior-temporal-cortex",
+      "type": "part-of",
+      "note": "6 个面孔块（PL/ML/MF/AF/AL/AM）位于 IT 皮层内"
+    },
+    {
+      "from": "invariant-object-recognition",
+      "to": "inferior-temporal-cortex",
+      "type": "related",
+      "note": "不变量识别是 IT 皮层的核心计算目标"
+    },
+    {
+      "from": "critical-period",
+      "to": "face-patch-system",
+      "type": "regulates",
+      "note": "面孔块发育依赖关键期内正常面孔经验；面孔剥夺→面孔块缺失"
+    },
+    {
+      "from": "amygdala",
+      "to": "face-patch-system",
+      "type": "related",
+      "note": "IT 面孔块输出投射到杏仁核，处理面孔情绪价值"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "inferior-temporal-cortex",
+      "type": "regulates",
+      "note": "PFC→IT 自上而下反馈：任务依赖调制、工作记忆维持、注意力门控"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "invariant-object-recognition",
+      "type": "prerequisite-for",
+      "note": "V1 提供局部方向边缘原始数据，是不变量识别计算的起点"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "v4-visual-area",
+      "type": "related",
+      "note": "IT 是 V4 的下游接收区；两者共同构成腹侧流高级视觉层级"
+    },
+    {
+      "from": "invariant-object-recognition",
+      "to": "face-patch-system",
+      "type": "is-a",
+      "note": "面孔身份的不变量识别是不变量物体识别的专门化子类"
+    },
+    {
+      "from": "critical-period",
+      "to": "inferior-temporal-cortex",
+      "type": "regulates",
+      "note": "视觉经验通过活动依赖机制精化 IT 皮层的选择性调谐"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "area-MT-V5",
+      "type": "supports",
+      "note": "V1 方向选择性神经元为 MT 提供主要运动输入"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "dorsal-visual-stream",
+      "type": "part-of",
+      "note": "V1 是背侧流的起点"
+    },
+    {
+      "from": "area-MT-V5",
+      "to": "dorsal-visual-stream",
+      "type": "part-of",
+      "note": "MT/V5 是背侧流的核心运动提取节点"
+    },
+    {
+      "from": "area-MT-V5",
+      "to": "mst-medial-superior-temporal",
+      "type": "supports",
+      "note": "MT 方向和速度信号输入到 MST 进行光流整合"
+    },
+    {
+      "from": "area-MT-V5",
+      "to": "lip-lateral-intraparietal",
+      "type": "supports",
+      "note": "MT 差分运动证据作为 LIP 决策积分的输入"
+    },
+    {
+      "from": "mst-medial-superior-temporal",
+      "to": "dorsal-visual-stream",
+      "type": "part-of",
+      "note": "MST 是背侧流的光流解析节点"
+    },
+    {
+      "from": "mst-medial-superior-temporal",
+      "to": "lip-lateral-intraparietal",
+      "type": "supports",
+      "note": "MST 自身运动信号输入到 LIP"
+    },
+    {
+      "from": "lip-lateral-intraparietal",
+      "to": "dorsal-visual-stream",
+      "type": "part-of",
+      "note": "LIP 是背侧流的决策整合终点"
+    },
+    {
+      "from": "dorsal-visual-stream",
+      "to": "inferior-temporal-cortex",
+      "type": "related",
+      "note": "背侧流（how）与腹侧流（what）互补双流"
+    },
+    {
+      "from": "ocular-dominance-columns",
+      "to": "area-MT-V5",
+      "type": "prerequisite-for",
+      "note": "V1 的眼优势柱发育为 MT 提供有序的双眼输入"
+    },
+    {
+      "from": "thalamocortical-axons",
+      "to": "area-MT-V5",
+      "type": "supports",
+      "note": "LGN 大细胞层旁路直接投射到 MT（绕过 V1 的平行通路）"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "auditory-dual-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "language-network",
+      "type": "supports"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "superior-temporal-sulcus",
+      "type": "part-of"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "broca-area",
+      "type": "supports"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "motor-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-visual-stream",
+      "to": "auditory-dual-stream",
+      "type": "related"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "inferior-temporal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "diva-model",
+      "type": "supports"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "sma-presma",
+      "type": "part-of"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "broca-area",
+      "type": "related"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "motor-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "auditory-dual-stream",
+      "type": "related"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "cerebellum",
+      "type": "related"
+    },
+    {
+      "from": "speech-production-circuit",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "diva-model",
+      "to": "speech-production-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "sma-presma",
+      "to": "speech-production-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "sma-presma",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "sma-presma",
+      "to": "motor-cortex",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "broca-area",
+      "to": "speech-production-circuit",
+      "type": "related"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "auditory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "auditory-dual-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "phoneme-categorical-perception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "cortical-speech-entrainment",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "speech-production-circuit",
+      "type": "related"
+    },
+    {
+      "from": "stg-phoneme-processing",
+      "to": "superior-temporal-sulcus",
+      "type": "related"
+    },
+    {
+      "from": "cortical-speech-entrainment",
+      "to": "stg-phoneme-processing",
+      "type": "supports"
+    },
+    {
+      "from": "cortical-speech-entrainment",
+      "to": "auditory-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cortical-speech-entrainment",
+      "to": "temporal-coding-hierarchy",
+      "type": "is-a"
+    },
+    {
+      "from": "phoneme-categorical-perception",
+      "to": "stg-phoneme-processing",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "phoneme-categorical-perception",
+      "to": "auditory-dual-stream",
+      "type": "supports"
+    },
+    {
+      "from": "auditory-dual-stream",
+      "to": "stg-phoneme-processing",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "conduction-aphasia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "conduction-aphasia",
+      "to": "dorsal-language-stream",
+      "type": "is-a"
+    },
+    {
+      "from": "conduction-aphasia",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "stg-phoneme-processing",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "speech-production-circuit",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "ventral-language-stream",
+      "type": "related"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "phoneme-categorical-perception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "statistical-learning",
+      "type": "related"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "social-gating-language",
+      "type": "related"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "dorsal-language-stream",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "arcuate-fasciculus",
+      "type": "related"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "stg-phoneme-processing",
+      "type": "related"
+    },
+    {
+      "from": "statistical-learning",
+      "to": "language-critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "statistical-learning",
+      "to": "phoneme-categorical-perception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "statistical-learning",
+      "to": "social-gating-language",
+      "type": "related"
+    },
+    {
+      "from": "social-gating-language",
+      "to": "language-critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "social-gating-language",
+      "to": "statistical-learning",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-language-stream",
+      "to": "language-critical-period",
+      "type": "related"
+    },
+    {
+      "from": "phoneme-categorical-perception",
+      "to": "language-critical-period",
+      "type": "related"
+    },
+    {
+      "from": "speech-comprehension-prediction",
+      "to": "stg-phoneme-processing",
+      "type": "mechanism-of",
+      "note": "STG/STS 是预测误差的核心计算节点"
+    },
+    {
+      "from": "speech-comprehension-prediction",
+      "to": "ventral-language-stream",
+      "type": "mechanism-of",
+      "note": "腹侧流的IFG节点是自上而下语音预测的发出地"
+    },
+    {
+      "from": "speech-comprehension-prediction",
+      "to": "world-model",
+      "type": "supports",
+      "note": "语音理解是预测编码世界模型框架的具体实例"
+    },
+    {
+      "from": "wernicke-area",
+      "to": "stg-phoneme-processing",
+      "type": "part-of",
+      "note": "韦尼克区（pSTG/BA22）是STG的后部区域"
+    },
+    {
+      "from": "wernicke-area",
+      "to": "language-network",
+      "type": "part-of",
+      "note": "韦尼克区是语言网络的颞叶节点"
+    },
+    {
+      "from": "wernicke-area",
+      "to": "conduction-aphasia",
+      "type": "related",
+      "note": "韦尼克区损伤的典型临床表现：传导性失语"
+    },
+    {
+      "from": "planum-temporale",
+      "to": "wernicke-area",
+      "type": "part-of",
+      "note": "颞平面是韦尼克区解剖核心的重要组成"
+    },
+    {
+      "from": "planum-temporale",
+      "to": "stg-phoneme-processing",
+      "type": "prerequisite-for",
+      "note": "PT提供时序声学分析作为STG音素计算的输入"
+    },
+    {
+      "from": "planum-temporale",
+      "to": "language-network",
+      "type": "part-of",
+      "note": "PT是语言网络颞叶区的结构基础"
+    },
+    {
+      "from": "speech-comprehension-prediction",
+      "to": "dorsal-language-stream",
+      "type": "related",
+      "note": "Cope & Davis 2023: 语音预测在运动皮层实例化（背侧流节点）"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "planum-temporale",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "foxp2-language-gene",
+      "type": "related"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "language-critical-period",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "language-lateralization",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "language-lateralization",
+      "type": "supports"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "language-network",
+      "type": "supports"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "cerebellum",
+      "type": "regulates"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "motor-learning",
+      "type": "regulates"
+    },
+    {
+      "from": "planum-temporale",
+      "to": "language-lateralization",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "language-critical-period",
+      "to": "language-lateralization",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "stdp",
+      "to": "ltp",
+      "type": "is-a"
+    },
+    {
+      "from": "stdp",
+      "to": "ltd",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "hebbian-learning",
+      "type": "supports"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "stdp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stdp",
+      "to": "camkii",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stdp",
+      "to": "three-factor-learning-rule",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "stdp",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "ltp",
+      "to": "stdp",
+      "type": "related"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "stdp",
+      "type": "related"
+    },
+    {
+      "from": "backpropagating-action-potential",
+      "to": "action-potential",
+      "type": "is-a"
+    },
+    {
+      "from": "backpropagating-action-potential",
+      "to": "stdp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "backpropagating-action-potential",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "backpropagating-action-potential",
+      "to": "ltd",
+      "type": "supports"
+    },
+    {
+      "from": "backpropagating-action-potential",
+      "to": "nmda-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "backpropagating-action-potential",
+      "to": "dendritic-computation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "backpropagating-action-potential",
+      "to": "axon-initial-segment",
+      "type": "related"
+    },
+    {
+      "from": "backpropagating-action-potential",
+      "to": "voltage-gated-sodium-channel",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "a-type-potassium-channel",
+      "to": "backpropagating-action-potential",
+      "type": "regulates"
+    },
+    {
+      "from": "a-type-potassium-channel",
+      "to": "stdp",
+      "type": "supports"
+    },
+    {
+      "from": "a-type-potassium-channel",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "a-type-potassium-channel",
+      "to": "dendritic-computation",
+      "type": "regulates"
+    },
+    {
+      "from": "metaplasticity",
+      "to": "bcm-rule",
+      "type": "supports"
+    },
+    {
+      "from": "bcm-rule",
+      "to": "hebbian-learning",
+      "type": "is-a"
+    },
+    {
+      "from": "metaplasticity",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "metaplasticity",
+      "to": "hebbian-learning",
+      "type": "regulates"
+    },
+    {
+      "from": "metaplasticity",
+      "to": "stdp",
+      "type": "regulates"
+    },
+    {
+      "from": "metaplasticity",
+      "to": "nmda-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "metaplasticity",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "metaplasticity",
+      "to": "critical-period-plasticity",
+      "type": "supports"
+    },
+    {
+      "from": "metaplasticity",
+      "to": "astrocyte-calcium-signaling",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bcm-rule",
+      "to": "ltp",
+      "type": "regulates"
+    },
+    {
+      "from": "bcm-rule",
+      "to": "metaplasticity",
+      "type": "is-a"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "metaplasticity",
+      "type": "related"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "three-factor-learning-rule",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "stdp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "synaptic-tagging-capture",
+      "type": "related"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "btsp",
+      "type": "related"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "eligibility-trace",
+      "type": "supports"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "eligibility-trace",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "btsp",
+      "to": "eligibility-trace",
+      "type": "supports"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "eligibility-trace",
+      "type": "regulates"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "anterior-cingulate-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "working-memory",
+      "type": "regulates"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "anterior-cingulate-cortex",
+      "type": "related"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "orbitofrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "dlpfc-rule-encoding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "three-factor-learning-rule",
+      "type": "related"
+    },
+    {
+      "from": "dlpfc-rule-encoding",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "dlpfc-rule-encoding",
+      "to": "frontal-hierarchy",
+      "type": "part-of"
+    },
+    {
+      "from": "dlpfc-rule-encoding",
+      "to": "anterior-cingulate-cortex",
+      "type": "related"
+    },
+    {
+      "from": "dlpfc-rule-encoding",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "frontal-hierarchy",
+      "to": "prefrontal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "frontal-hierarchy",
+      "to": "anterior-cingulate-cortex",
+      "type": "related"
+    },
+    {
+      "from": "frontal-hierarchy",
+      "to": "motor-cortex",
+      "type": "related"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "dlpfc-rule-encoding",
+      "type": "regulates"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "frontal-hierarchy",
+      "type": "related"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "alpha-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "dorsal-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "biased-competition",
+      "type": "supports"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "communication-through-coherence",
+      "type": "supports"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "communication-through-coherence",
+      "type": "part-of"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "communication-through-coherence",
+      "type": "part-of"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "communication-through-coherence",
+      "to": "frontal-eye-field",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "frontal-eye-field",
+      "type": "part-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "predictive-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "active-inference",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "precision-weighting",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "bayesian-sensory-integration",
+      "type": "related"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "world-model",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "canonical-microcircuit",
+      "type": "related"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "free-energy-principle",
+      "type": "is-a"
+    },
+    {
+      "from": "active-inference",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "forward-model",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "motor-learning",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "precision-weighting",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "free-energy-principle",
+      "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "proprioceptive-prediction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "proprioceptive-prediction",
+      "to": "active-inference",
+      "type": "is-a"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "proprioceptive-prediction",
+      "type": "regulates"
+    },
+    {
+      "from": "active-inference",
+      "to": "proprioceptive-prediction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "forward-model",
+      "to": "proprioceptive-prediction",
+      "type": "supports"
+    },
+    {
+      "from": "proprioceptive-prediction",
+      "to": "cerebellum",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "three-factor-learning-rule",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "eligibility-trace",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "predictive-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "pc-learning",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "pc-learning",
+      "to": "predictive-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pc-learning",
+      "to": "hebbian-learning",
+      "type": "is-a"
+    },
+    {
+      "from": "pc-learning",
+      "to": "credit-assignment",
+      "type": "supports"
+    },
+    {
+      "from": "pc-learning",
+      "to": "canonical-microcircuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pc-learning",
+      "to": "free-energy-principle",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pc-learning",
+      "to": "three-factor-learning-rule",
+      "type": "related"
+    },
+    {
+      "from": "pc-learning",
+      "to": "active-inference",
+      "type": "related"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "credit-assignment",
+      "type": "mechanism-of",
+      "note": "EP是空间信用分配的能量极小化路径"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "hopfield-network",
+      "type": "is-a",
+      "note": "EP在Hopfield能量框架上添加代价项"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "pc-learning",
+      "type": "related",
+      "note": "并行路径：能量语言 vs 误差语言；极限下等价"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "stdp",
+      "type": "related",
+      "note": "EP权重规则积分后等价STDP形式"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "cortical-slow-oscillation",
+      "type": "related",
+      "note": "UP/DOWN态是EP两相结构的生物候选（假说）"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "hebbian-learning",
+      "type": "related",
+      "note": "对比赫布规则是EP的离散版本"
+    },
+    {
+      "from": "equilibrium-propagation",
+      "to": "free-energy-principle",
+      "type": "related",
+      "note": "EP变分版本与FEP数学同源"
+    },
+    {
+      "from": "hopfield-network",
+      "to": "equilibrium-propagation",
+      "type": "prerequisite-for",
+      "note": "EP扩展Hopfield能量框架"
+    },
+    {
+      "from": "hopfield-network",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "Hopfield存储规则是Hebb规则的精确形式化"
+    },
+    {
+      "from": "cortical-slow-oscillation",
+      "to": "equilibrium-propagation",
+      "type": "related",
+      "note": "UP/DOWN态切换可能对应EP两相（假说）"
+    },
+    {
+      "from": "credit-assignment",
+      "to": "equilibrium-propagation",
+      "type": "related",
+      "note": "EP提供空间信用分配的能量路径"
+    },
+    {
+      "from": "pc-learning",
+      "to": "equilibrium-propagation",
+      "type": "related",
+      "note": "PCL(误差语言)和EP(能量语言)是信用分配的并行方案"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "nmda-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "ampa-receptor",
+      "type": "related"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "psd-95",
+      "type": "related"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "critical-period",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "silent-synapse",
+      "to": "hebbian-learning",
+      "type": "supports"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "critical-period",
+      "type": "is-a"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "silent-synapse",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "homeostatic-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-plasticity",
+      "to": "metaplasticity",
+      "type": "related"
+    },
+    {
+      "from": "ocular-dominance-columns",
+      "to": "critical-period-plasticity",
+      "type": "is-a"
+    },
+    {
+      "type": "part-of",
+      "from": "psd-95",
+      "to": "postsynaptic-density"
+    },
+    {
+      "type": "mechanism-of",
+      "from": "psd-95",
+      "to": "ltp"
+    },
+    {
+      "type": "mechanism-of",
+      "from": "psd-95",
+      "to": "ltd"
+    },
+    {
+      "type": "regulates",
+      "from": "psd-95",
+      "to": "ampa-receptor"
+    },
+    {
+      "type": "regulates",
+      "from": "psd-95",
+      "to": "nmda-receptor"
+    },
+    {
+      "type": "regulates",
+      "from": "psd-95",
+      "to": "silent-synapse"
+    },
+    {
+      "type": "regulates",
+      "from": "psd-95",
+      "to": "critical-period-plasticity"
+    },
+    {
+      "type": "related",
+      "from": "psd-95",
+      "to": "camkii"
+    },
+    {
+      "type": "related",
+      "from": "psd-95",
+      "to": "synaptogenesis"
+    },
+    {
+      "type": "related",
+      "from": "psd-95",
+      "to": "gephyrin-scaffold"
+    },
+    {
+      "type": "related",
+      "from": "psd-95",
+      "to": "working-memory"
+    },
+    {
+      "type": "related",
+      "from": "psd-95",
+      "to": "tarp-auxiliary-subunit"
+    },
+    {
+      "type": "related",
+      "from": "tarp-auxiliary-subunit",
+      "to": "psd-95"
+    },
+    {
+      "type": "regulates",
+      "from": "tarp-auxiliary-subunit",
+      "to": "ampa-receptor"
+    },
+    {
+      "type": "mechanism-of",
+      "from": "tarp-auxiliary-subunit",
+      "to": "ltp"
+    },
+    {
+      "type": "part-of",
+      "from": "tarp-auxiliary-subunit",
+      "to": "postsynaptic-density"
+    },
+    {
+      "type": "related",
+      "from": "tarp-auxiliary-subunit",
+      "to": "synaptogenesis"
+    },
+    {
+      "type": "related",
+      "from": "ltp",
+      "to": "psd-95"
+    },
+    {
+      "type": "related",
+      "from": "postsynaptic-density",
+      "to": "psd-95"
+    },
+    {
+      "type": "related",
+      "from": "ampa-receptor",
+      "to": "tarp-auxiliary-subunit"
+    },
+    {
+      "type": "related",
+      "from": "silent-synapse",
+      "to": "psd-95"
+    },
+    {
+      "type": "related",
+      "from": "critical-period-plasticity",
+      "to": "psd-95"
+    },
+    {
+      "from": "syngap1",
+      "to": "psd-95",
+      "type": "part-of"
+    },
+    {
+      "from": "syngap1",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "syngap1",
+      "to": "nmda-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1",
+      "to": "ampa-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1",
+      "to": "camkii",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1",
+      "to": "silent-synapse",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "syngap1",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "autism-spectrum-disorder",
+      "type": "related"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "silent-synapse",
+      "type": "related"
+    },
+    {
+      "from": "syngap1-related-disorder",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "psd-95",
+      "to": "syngap1",
+      "type": "regulates"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "critical-period",
+      "type": "part-of"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "critical-period-reopening",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "lynx1",
+      "to": "critical-period-reopening",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "lynx1",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "syngap1-related-disorder",
+      "type": "related"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "bdnf",
+      "type": "related"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "critical-period-reopening",
+      "to": "ocular-dominance-columns",
+      "type": "related"
+    },
+    {
+      "from": "lynx1",
+      "to": "acetylcholine-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "lynx1",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "critical-period",
+      "to": "critical-period-reopening",
+      "type": "related"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "lynx1",
+      "type": "related"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "neurogenesis-induced-forgetting",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neurogenesis-induced-forgetting",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "neurogenesis-induced-forgetting",
+      "to": "pattern-separation",
+      "type": "related"
+    },
+    {
+      "from": "neurogenesis-induced-forgetting",
+      "to": "hippocampal-neurogenesis",
+      "type": "part-of"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "prefrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "sleep-spindles",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "shy-hypothesis",
+      "type": "related"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "sharp-wave-ripples",
+      "type": "regulates"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "engram-cells",
+      "type": "part-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "complementary-learning-systems",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "prefrontal-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "engram-systems-consolidation",
+      "to": "memory-reconsolidation",
+      "type": "related"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "bdnf",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "bdnf",
+      "to": "trkb-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "perineuronal-nets",
+      "type": "related"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "trkb-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "critical-period",
+      "type": "regulates"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "critical-period-reopening",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "adult-neurogenesis",
+      "type": "supports"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "camkii",
+      "type": "regulates"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "arc-arg31",
+      "type": "regulates"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "synaptic-transmission",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "schizophrenia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "schizophrenia",
+      "type": "supports"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "schizophrenia",
+      "type": "supports"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "schizophrenia",
+      "type": "related"
+    },
+    {
+      "from": "trkb-receptor",
+      "to": "schizophrenia",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "schizophrenia",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "dopamine-system",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "prefrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "working-memory",
+      "type": "mechanism-of",
+      "note": "D1R 倒 U 型调控是 WM 信噪比门控的核心多巴胺机制"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "d1-d2-receptor-signaling",
+      "type": "is-a",
+      "note": "D1R PFC 倒 U 型是 D1 信号在 PFC 中的专一化表现"
+    },
+    {
+      "from": "d1-d2-receptor-signaling",
+      "to": "dopamine-pfc-inverted-u",
+      "type": "supports",
+      "note": "D1R cAMP-PKA 信号级联是倒 U 型的分子基础"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of",
+      "note": "该机制在 dlPFC 深层 III 锥体细胞棘上实现"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "dopamine-pfc-inverted-u",
+      "type": "regulates",
+      "note": "NE 通过 α2A-AR 拮抗 D1R-HCN 通道，维持 PFC 网络稳定性"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "schizophrenia",
+      "type": "related",
+      "note": "SCZ 认知症状 ≈ dlPFC D1R 功能不足；Okubo 1997 PET 证据"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "dopamine-pfc-inverted-u",
+      "type": "related",
+      "note": "PV 细胞也接受 DA 输入，两条路径在 E/I 平衡层面协同影响 WM"
+    },
+    {
+      "from": "dopamine-pfc-inverted-u",
+      "to": "persistent-activity",
+      "type": "regulates",
+      "note": "D1R 倒 U 型通过改变循环回路吸引子稳定性调节持续放电"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "nmda-receptor",
+      "type": "part-of"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "camkii",
+      "type": "regulates"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "bcm-rule",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "critical-period-plasticity",
+      "type": "regulates"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "aging",
+      "type": "related"
+    },
+    {
+      "from": "glun2-developmental-switch",
+      "to": "alzheimers-disease",
+      "type": "related"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "glun2-developmental-switch",
+      "type": "related"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "schizophrenia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "nmda-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "gamma-oscillations",
+      "type": "regulates"
+    },
+    {
+      "from": "nrg1-erbb4",
+      "to": "disc1",
+      "type": "related"
+    },
+    {
+      "from": "disc1",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "disc1",
+      "to": "schizophrenia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "disc1",
+      "to": "cortical-interneuron-development",
+      "type": "related"
+    },
+    {
+      "from": "disc1",
+      "to": "medial-ganglionic-eminence",
+      "type": "related"
+    },
+    {
+      "from": "disc1",
+      "to": "nrg1-erbb4",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "nrg1-erbb4",
+      "type": "related"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "disc1",
+      "type": "related"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "θ振荡提供相位框架，是PAC的调制侧"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of",
+      "note": "γ振荡振幅被θ相位调制，是PAC的被调制侧"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "working-memory",
+      "type": "mechanism-of",
+      "note": "每个θ周期内4–8个γ槽承载多个WM项目的时序分隔编码"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "theta-gamma-coupling",
+      "type": "regulates",
+      "note": "PV篮状细胞在θ特定相位生成γ爆发，增强θ和γ振幅"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "CA1快/慢γ双通道路由是θ-γ耦合的解剖底物"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "theta-phase-precession",
+      "type": "related",
+      "note": "相位进动依赖θ-γ嵌套中θ特定相位的精确γ激活"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "theta-gamma-coupling",
+      "type": "contradicts",
+      "note": "SCZ中PV细胞损伤导致γ减弱→θ-γ耦合受损→WM缺陷（Barr 2017，PMID:28148460）"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "θ-γ嵌套在情节记忆形成（而非仅WM维持）中的可能角色待深入"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "theta-gamma-coupling",
+      "type": "supports",
+      "note": "θ振荡是θ-γ耦合的必要前提"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "theta-gamma-coupling",
+      "type": "supports",
+      "note": "γ振荡是θ-γ耦合的必要前提"
+    },
+    {
+      "from": "theta-phase-precession",
+      "to": "theta-sequences",
+      "type": "mechanism-of",
+      "note": "相位进动在群体层面产生θ序列"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "θ序列需要θ振荡提供相位坐标框架"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "theta-phase-precession",
+      "type": "related",
+      "note": "θ序列是相位进动的群体效应"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "place-cells",
+      "type": "mechanism-of",
+      "note": "场所细胞是θ序列的组成单元"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "ltp",
+      "type": "supports",
+      "note": "θ序列时间压缩使相邻细胞激活落入STDP/LTP窗口"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "memory-consolidation",
+      "type": "supports",
+      "note": "θ序列提供情节记忆实时初始编码"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "双峰细胞连接θ序列（在线）与SWR（离线）"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "theta-gamma-coupling",
+      "type": "related",
+      "note": "θ-γ耦合提供多项目框架；θ序列提供序列压缩框架"
+    },
+    {
+      "from": "medial-septum",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "MS-DBB是θ振荡的主要起搏器"
+    },
+    {
+      "from": "medial-septum",
+      "to": "theta-sequences",
+      "type": "supports",
+      "note": "MS冷却实验证明MS维持θ序列相位框架"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "entorhinal-cortex",
+      "type": "related",
+      "note": "EC层III驱动θ振荡内的逆向序列成分"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "CA3驱动前向序列，CA1整合双向输入"
     }
   ],
   "dangling_references": [
+    {
+      "slug": "intercalated-cells",
+      "referenced_by": [
+        "pfc-amygdala-emotion-regulation",
+        "amygdala",
+        "fear-extinction"
+      ],
+      "note": "截获细胞（ITC）专页：BLA与CeA之间的GABAergic神经元群，是恐惧与消退竞争的物理阀门；富含µ-阿片受体；dermorphin-saporin选择性损毁实验（Likhtik 2008）；背侧ICMMD（促恐惧）vs腹侧ICMMV（促消退）功能分工；待建页面"
+    },
     {
       "slug": "complexin",
       "referenced_by": [
@@ -5865,7 +12126,8 @@
       "referenced_by": [
         "ampa-receptor"
       ],
-      "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"
+      "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面；已于2026-09-06创建 wiki/concepts/tarp-auxiliary-subunit.md，同时随PSD-95文章建立",
+      "resolved": "2026-09-06"
     },
     {
       "slug": "mglur-ltd",
@@ -5914,7 +12176,8 @@
       "referenced_by": [
         "theta-oscillations"
       ],
-      "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"
+      "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面；已于2026-09-18创建wiki/systems/medial-septum.md，填补此悬空引用",
+      "resolved": "2026-09-18"
     },
     {
       "slug": "bdnf-trkb",
@@ -6008,6 +12271,15 @@
         "gamma-oscillations"
       ],
       "note": "高频共振波专页（~90 Hz，~100 ms）；Garrett & Halgren 2024 在语言绑定中发现；与 SWR（海马）的机制同源性；与经典 40 Hz 伽马的关系；待建页面"
+    },
+    {
+      "slug": "psd-95",
+      "referenced_by": [
+        "silent-synapse",
+        "postsynaptic-density"
+      ],
+      "note": "PSD-95支架蛋白专页；兴奋性突触最丰富的骨架蛋白，AMPAR槽位的物理基础；关键期时间轴调控；已于2026-09-06创建 wiki/concepts/psd-95.md，基于《PSD-95：兴奋性突触的主控分子》(#136)",
+      "resolved": "2026-09-06"
     }
   ]
 }

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-07-03
-revision_count: 11
+updated: 2026-09-07
+revision_count: 15
 dimensions: [synaptic, cellular, cognition, brain-region, disease]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, stdp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, glucocorticoid-hippocampus-plasticity, hpa-axis, metaplasticity, bcm-rule, psd-95, tarp-auxiliary-subunit, silent-synapse, syngap1, syngap1-related-disorder]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
-opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918"]
+opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component, Q-stress-01]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis, 2026-08-25-stdp-spike-timing-dependent-plasticity, 2026-08-27-metaplasticity-bcm-sliding-threshold, 2026-09-06-psd95-synaptic-scaffold]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918", "PMID:15891777", "PMID:26286651"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -86,6 +86,27 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 
 **含义**：LTP 的诱导需要**三方参与者**的协同：突触前（谷氨酸/去极化）+ 突触后（NMDA 受体开放、CaMKII）+ 星形胶质细胞（D-丝氨酸供给认证）。每个星形胶质细胞是其局部域（约 100 μm，覆盖数万突触）内所有突触 LTP 资格的"认证控制器"——其 Ca²⁺ 信号状态成为 LTP 写入的门控变量之一。
 
+### 8. 糖皮质激素对 LTP 的双相调节（MR/GR 系统）
+
+**2026-07-09 新增（来自《应激的双刃剑》文章，#77）**：皮质醇/皮质酮通过高亲和力 MR（Kd≈0.5 nM）和低亲和力 GR（Kd≈5 nM）对 LTP 产生浓度依赖的双相效应：
+
+**MR 主导相（低浓度 / 基础状态）**：
+- 膜 MR 激活 → cAMP → GluA1 Ser831 磷酸化 → AMPA 受体表面表达↑（mEPSC↑，数分钟内，非基因组路径）
+- 基因组路径（数小时）：维持 BDNF 表达和 CaMKII 自磷酸化水平
+- **净效应**：LTP 诱导阈值降低，LTP 幅度增大（选择性 MR 激动剂醛固酮模拟此效应）
+
+**GR 主导相（急性应激高浓度）**：
+- 非基因组 GR → eCB（2-AG）→ 逆行 CB1R → 突触前 GABA 释放↓ → 去抑制 → 短时兴奋
+- 联合 NE（蓝斑 β-AR）：放大激活回路的 LTP，产生"时空特异性增强"（Joëls 2006 原则，PMID:16513410）
+- **条件**：只在应激时间窗（±30 min）内、对当前正在编码的回路有效；否则干扰记忆
+
+**慢性 GR 过激活相（慢性应激）**：
+- GR 基因组路径：① BDNF exon IV 启动子 GRE 负调控 → BDNF↓30-50% → L-LTP 不能维持；② PP2B（钙调磷酸酶）表达↑ → GluA1 Ser845 去磷酸化 → AMPA 内吞↑（与 LTD 共用 calcineurin 路径）；③ CaMKII α 亚基表达↓
+- **净效应**：LTP 诱导阈值显著升高，LTP 幅度减小，HFS 诱导的 LTP 甚至转变为 LTD
+- **关键证据**：选择性 MR 激动剂 vs DEX（地塞米松）在海马切片 LTP 实验中产生相反效果（综述于 PMID:26286651）；MR/GR KO 小鼠表型确认双向调节
+
+**与 AD 病理的汇聚**：Aβ 聚集（老年斑）→ 局部皮质醇（神经元自身产生 GC）↑ + HPA 轴失调 → 上述慢性 GR 抑制通路叠加 Aβ 直接攻击路径 → LTP 双重受损。
+
 ### 6. BDNF 对 L-LTP 的催化作用（突触固结机制）
 
 **2026-06-28 新增（来自《BDNF：大脑给自己的成长信号》文章，#64）**：
@@ -119,6 +140,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 - [[nmda-receptor]] — LTP 诱导的必要门卫，提供 Ca²⁺ 内流触发
 - [[ampa-receptor]] — LTP 表达的主要执行机制（受体插入增加突触权重）
 - [[camkii]] — Ca²⁺ 内流的第一个主要下游效应器，对诱导和维持均必要
+- [[stdp]] — STDP 是 LTP 的时序精化形式：前先后随→LTP；后先前随→LTD；同一 NMDA/CaMKII 机器，以毫秒时序为方向信号
 - [[hebbian-learning]] — LTP 是 Hebb 规则在突触层面的分子实现
 - [[synaptic-transmission]] — LTP 增强突触传递效率，是突触传递的可塑性形态
 - [[btsp]] — 与 LTP 并列的第二种突触增强机制；秒级时间窗口，由树突钙平台电位触发；两者互补
@@ -136,6 +158,8 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 - [[astrocyte-calcium-signaling]] — 星形胶质细胞 Ca²⁺ 信号是 D-丝氨酸释放的上游门控
 - [[synaptic-scaling]] — 突触缩放是 LTP 的互补机制：LTP 用 GluA1 通路写入（快），缩放用 GluA2 通路归一化（慢）；两者时间尺度隔离，共时运行
 - [[homeostatic-plasticity]] — 稳态可塑性是 Hebbian 正反馈的必要负反馈，LTP 之所以能维持学习能力，正是因为稳态可塑性持续维护网络工作区间
+- [[glucocorticoid-hippocampus-plasticity]] — MR/GR 双相系统对 LTP 的浓度依赖性双向调节：低浓度 MR 增强 LTP，慢性高浓度 GR 损害 LTP（calcineurin/BDNF 路径）
+- [[hpa-axis]] — HPA 轴决定皮质醇浓度（进而决定 MR vs GR 激活比例），是 LTP 可塑性窗口的神经内分泌上游调控
 
 ## 未解问题
 
@@ -145,6 +169,10 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 
 ## 修订历史
 
+- 2026-09-07 · 修订 rev15 · 基于《突触的"制动蛋白"》(#137) · 明确 SynGAP1 弥散为 LTP 表达的必要解制动步骤（CaMKII磷酸化→SynGAP1从PSD弥散→Ras-ERK解制动→AMPAR插入）；related 新增 syngap1、syngap1-related-disorder；source_articles 新增；SYNGAP1单倍剂量不足导致LTP遮蔽（occlusion）机制补充
+- 2026-09-06 · 修订 rev14 · 基于《PSD-95：兴奋性突触的主控分子》(#136) · related 新增 psd-95、tarp-auxiliary-subunit、silent-synapse；source_articles 新增；PSD-95 槽位机制（TARP-PSD-95链、SynGAP竞争、每个PSD约300个PSD-95）明确写入LTP表达机制
+- 2026-08-25 · 修订 rev13 · 基于《突触的时间守门人》(#123) · related 新增 stdp；连接新增 [[stdp]]（STDP 是 LTP 的时序精化形式）；source_articles 新增；悬空引用 stdp 正式建立
+- 2026-07-09 · 修订 rev12 · 基于《应激的双刃剑》(#77) · 新增糖皮质激素双相调节 LTP 的完整机制段落（MR 促进/急性 GR 时空特异/慢性 GR 损害三相；BDNF 下调、PP2B/calcineurin/GluA1 内吞路径；与 AD 汇聚点）；related 新增 glucocorticoid-hippocampus-plasticity、hpa-axis；key_sources 新增 PMID:15891777、PMID:26286651；opens_questions 新增 Q-stress-01；连接新增两条
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；GluA1（LTP）vs GluA2（稳态缩放）分子路径分叉关系明确化；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-07-02 · 修订 · 基于《大脑的第三方》(#68) · 新增"三方突触条件"段落：星形胶质细胞 D-丝氨酸供给是 LTP 的隐性必要条件（Henneberger 2010 因果证据）；related 新增 astrocyte、tripartite-synapse、d-serine、astrocyte-calcium-signaling；key_sources 新增 PMID:20075918；连接段落新增四条
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 新增 BDNF/TrkB→Arc→L-LTP 突触固结机制段落；related 新增 bdnf、arc-arg31；key_sources 新增 PMID:16099088、PMID:17942328；source_articles 新增 2026-06-28-bdnf-trk-b-plasticity-memory；悬空引用 [[bdnf]] 已建页
@@ -159,6 +187,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 
 ## 来源文章
 
+- [[2026-09-07-syngap1-synaptic-brake-intellectual-disability]]
 - [[2026-05-26-nmda-receptor-ltp]]
 - [[2026-05-28-place-cells-btsp]]
 - [[2026-05-31-engram-cells-optogenetic-proof]]

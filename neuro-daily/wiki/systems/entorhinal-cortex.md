@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
+updated: 2026-07-24
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cellular, microcircuit]
-related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease]
+related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease, speed-cells, time-cells]
 prerequisites: [hippocampal-circuit, grid-cells]
 opens_questions: [Q-gc-02, Q-gc-04]
-source_articles: [2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386", "PMID:24366130", "PMID:29073644"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-24-time-cells-speed-cells-temporal-navigation]
+key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386", "PMID:24366130", "PMID:29073644", "PMID:26176924", "PMID:32905779", "PMID:30158699"]
 ---
 
 # 内嗅皮层 (Entorhinal Cortex, EC)
@@ -27,7 +27,9 @@ key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386"
 - **内侧内嗅皮层（MEC）**：主要编码空间信息。含网格细胞（Layer II）、头朝向细胞、联合细胞（Layer III/V）、边界细胞；为海马提供空间坐标和路径整合更新
 - **外侧内嗅皮层（LEC）**：编码非空间情境信息（物体、气味、社会情境）；整合当前感觉情境为海马编码提供"什么"信息
 
-两者的整合在海马形成完整的情节编码（"在哪里"×"有什么"）。MEC-LEC双流整合是情节记忆空间-情境双重编码的解剖基础。
+两者的整合在海马形成完整的情节编码（"在哪里"×"有什么"×"何时"）。MEC-LEC双流整合是情节记忆时空-情境三重编码的解剖基础。
+
+更精细的分工（2018年后认识）：MEC内部还含有**速度细胞**（speed cells，Kropff 2015）——一类放电率与运动速度线性相关的专门神经元，通过PPN→HDB→MEC通路接收脑干运动信号，为网格细胞的路径整合提供速度输入。而**LEC群体状态**则以从不重复的漂移轨迹在秒到小时时间尺度上编码"经历的时间"（Tsao 2018），提供情节记忆的时间戳——与海马时间细胞（time cells）形成配合关系。
 
 阿尔茨海默病中，EC（尤其是内嗅皮层第II层星状细胞）是神经纤维缠结（Tau病理）最早侵入的皮层区域——在临床症状出现之前，EC Layer II 的MEC网格细胞就已开始退化，这解释了AD早期空间迷失先于语言退化的临床现象。
 
@@ -76,6 +78,8 @@ Braak分期（1991）：AD神经纤维缠结（Tau病理）的扩散从**EC Laye
 - [[cognitive-map]] — MEC的网格/联合细胞是认知地图度量基础设施的主要解剖位置
 - [[alzheimers-disease]] — EC Layer II 是AD最早受损的皮层区域，其网格细胞退化导致早期空间定向障碍
 - [[memory-consolidation]] — EC作为海马-皮层信息中继，在两阶段记忆巩固中扮演关键中间站
+- [[speed-cells]] — MEC内的速度细胞亚群（~24%神经元）通过PPN→HDB→MEC通路接收脑干运动速度信号，驱动路径整合
+- [[time-cells]] — LEC的时间戳漂移状态可能为海马时间细胞提供外部时间情境信号（Tsao 2018）
 
 ## 未解问题
 
@@ -85,6 +89,7 @@ Braak分期（1991）：AD神经纤维缠结（Tau病理）的扩散从**EC Laye
 ## 修订历史
 
 - 2026-06-22 · 创建 · 基于《六边形的秘密》文章 · 初始置信度：高
+- 2026-07-24 · 修订 rev2 · 基于《大脑的第四维罗盘》文章 #92 · 新增MEC速度细胞亚群（Kropff 2015, Carvalho 2020）；新增LEC时间戳漂移功能（Tsao 2018）；情节编码框架升级为"空间×情境×时间"三维；related/key_sources更新
 
 ## 来源文章
 

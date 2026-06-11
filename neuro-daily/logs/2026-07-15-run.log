@@ -1,0 +1,83 @@
+# 运行日志 2026-07-15
+
+## 元数据
+- 日期：2026-07-15（知识库连续日期；系统时钟 UTC+8=2026-06-04 真实执行日期）
+- 主题：语言网络双流模型与前颞叶语义枢纽
+- Slug：language-network-dual-stream
+- 文章编号：第 83 篇
+- 模型：claude-sonnet-4-6
+
+## 主题选择理由
+- 图谱分析：`global-workspace-theory`（22连接，中等置信度）、`competition-selection-principle`（22连接，emerging）是高连接前沿节点；但这些在第 63 篇（2026-06-27 NCC）已覆盖意识理论
+- 课程缺口：课程第7轨（语言与抽象思维）在 2026-06-20 有语言双流基础篇（#51），但未覆盖ATL语义枢纽、LANG/MD网络分离等关键新进展
+- 近期主题：成瘾→习惯→预测编码→LHb/抑郁→神经炎症→应激；已连续多篇疾病+行为+认知，需转换到不同课程区域
+- 选题决策：深化语言网络，聚焦于今日具体核心问题：腹流如何将声音转化为意义，以及ATL枢纽的整合机制；同时整合Fedorenko 2020的LANG/MD新框架（文献发表于2020年但知识库尚未整合）
+
+## 搜索查询记录
+1. "dual stream model language auditory cortex review" → PubMed E-utilities搜索，返回13条结果，识别Hickok & Poeppel关键文献
+2. "Hickok Poeppel dual stream language" → 确认PMID: 17431404（2007 Nat Rev Neurosci，无PMC）和PMID: 22766458（2012 J Commun Disord，PMC3468690）
+3. "dual stream language dorsal ventral pathway speech review" → 识别Rauschecker 2018 (PMC5771843), Sefcikova 2022 (PMC9098557)
+4. "language network fMRI review 2020-2025" → 266条结果，但其中多为不相关；筛选得到Kamali 2026 (PMC12938411)
+5. "Fedorenko language network specificity fMRI" → 识别Fedorenko & Blank 2020 (PMC7211504), Shain & Fedorenko 2020 (PMC7140726)
+6. "anterior temporal lobe language semantic hub" → 识别Zhao 2017 (PMC6705671), Farahibozorg 2022 (PMC9574238)
+7. "Saur 2008 dual pathway language DTI fMRI" → 确认PMID: 19004769（摘要，paywall）
+
+## 来源概况
+| ID | PMID | 类型 | 全文 | 主要贡献 |
+|----|------|------|------|---------|
+| S1 | 22766458 | 综述 | 是（PMC3468690）| 双流模型+预测编码+传导性失语症 |
+| S2 | 29183630 | 综述 | 是（PMC5771843）| 背流统一框架，进化视角 |
+| S3 | 35267079 | 综述 | 是（PMC9098557）| 腹流四大白质束，DES证据 |
+| S4 | 32160565 | 综述 | 是（PMC7211504）| Broca区解构，LANG/MD分离 |
+| S5 | 31874149 | 原创研究 | 是（PMC7140726）| 语言专属surprisal效应（78名被试）|
+| S6 | 28053037 | 原创研究 | 是（PMC6705671）| 左ATL语义枢纽（86名脑损伤患者）|
+| S7 | 35094061 | 原创研究 | 是（PMC9574238）| ATL-AG时序分离（EEG/MEG DCM）|
+| S8 | 19004769 | 原创研究 | **否**（摘要）| DTI+fMRI双流直接解剖证据 |
+| S9 | 41750142 | 综述 | 是（PMC12938411）| 扩展语言网络，2026最新综述 |
+
+- 总计：9 来源；7 开放全文（满足 ≥2 要求）；1 仅摘要（S8）；1 官方来源（PubMed/PMC/NIH）
+
+## 创建文件
+### 情节层（仅追加）
+- neuro-daily/articles/2026-07-15-language-network-dual-stream.md（新建，约 5500 汉字）
+- neuro-daily/notes/2026-07-15-reading-notes.md（新建）
+- neuro-daily/sources/2026-07-15-sources.json（新建）
+
+### 语义层（修订）
+- neuro-daily/wiki/systems/broca-area.md（修订 rev2）：新增LANG/MD三成分框架；更新一句话定义；新增两行证据
+- neuro-daily/wiki/circuits/ventral-language-stream.md（修订 rev2）：新增四大白质束详细描述；新增ATL枢纽；新增三行证据
+- neuro-daily/wiki/systems/language-network.md（修订 rev4）：新增LANG/MD分离；新增surprisal证据；新增ATL枢纽关联
+- neuro-daily/wiki/concepts/anterior-temporal-lobe-hub.md（新建 rev1）：Hub-and-Spoke模型；语义痴呆自然实验；时序证据
+
+## 状态文件更新
+- state/topic_ledger.json：total_articles 82→83，last_updated 2026-07-14→2026-07-15，新增 2026-07-15 条目
+- state/unresolved_questions.md：新增4个问题（Q-lang-01至Q-lang-04）
+- state/monthly_synthesis.md：本月文章数 14→15，新增#83行
+- state/source_registry.json：新增9个来源（total 340→349）
+- wiki/_graph.json：156节点（+1：anterior-temporal-lobe-hub），906边（+6条新边）；updated 2026-07-14→2026-07-15
+- wiki/index.md：主题页总数154→155；5条目更新（新建1条，修订描述3条）
+- wiki/CHANGELOG.md：新增 2026-07-15 节
+
+## 矛盾检查
+- 无新增矛盾登记
+- Broca区LANG/MD分离（Fedorenko 2020）与既有"BA44=句法，BA45=语义"描述不冲突（后者是LANG成分内部的分工，前者是LANG vs MD的更高层分离）；已在broca-area.md中同时保留两层描述，注明它们的层级关系
+- 背流在语言理解中的作用：Hickok（背流不增强感知）vs 具身认知阵营（背流运动模拟辅助理解）。这是既有争议，未达新矛盾标准；在文章中并列呈现
+
+## 自检结果
+- [x] 情节层完整：文章 + 笔记 + 来源 JSON 均已创建
+- [x] 语义层更新：1 新页 + 3 修订页
+- [x] 来源可追溯：每条 wiki 声明均有 PMID/PMCID 支持
+- [x] S8（Saur 2008）标注为"未读取全文（paywall）"，只用摘要信息
+- [x] 无医学诊断/治疗建议（失语症、语义痴呆仅作为科学解释）
+- [x] 无捏造 PMID/DOI（均经 PubMed E-utilities 查询验证）
+- [x] 悬空引用处理：[[anterior-temporal-lobe-hub]] 新引用由同日新建页面填补
+- [x] 知识图谱节点/边计数已更新
+- [x] wiki/index.md 条目已反映今日变化
+- [x] CHANGELOG.md 2026-07-15 节已添加
+- [x] monthly_synthesis.md 2026-07 计数正确（15篇）
+- [x] LANG/MD矛盾检查通过（不冲突，是不同层级的描述）
+
+## 分支与提交
+- 分支：main
+- Push目标：origin main（包含 QIUYicong/neuro-daily-essays）
+- 状态：待提交

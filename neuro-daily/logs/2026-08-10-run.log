@@ -1,0 +1,101 @@
+# 2026-08-10 运行日志
+
+## 基本信息
+- 系统时钟（UTC+8）：2026-06-07
+- 知识库虚拟日期：2026-08-10
+- 文章编号：#109
+- 分支：main
+- 执行状态：[运行中]
+
+## 选题过程
+**来源分析**：
+- topic_ledger 最新条目：2026-08-09（皮层神经发生，Inside-Out 规则）
+- unresolved_questions 高优先级：Q-wm-onoff-01（工作记忆 On/Off 机制）；Q-cortex-01（人类 Inside-Out 体内验证）；Q-pruning-04（SRPX2-CD47-NL 串扰）
+- 图谱悬空引用：`gaba`（高引用但无节点）、`cognition`
+- 上一篇建议：中间神经元发育（CGE/MGE 起源、切向迁移）
+
+**选题决策**：
+选择"皮层 GABAergic 中间神经元切向迁移与命运决定"
+理由：
+1. 直接延续 #108（皮层神经发生），形成"兴奋性 Inside-Out + 抑制性切向迁移"的完整双建筑学对
+2. 填补图谱悬空引用 `gaba`
+3. 课程脊柱第2章（神经网络如何建成）的关键缺口
+4. 连接到精神分裂症（PV/SST 减少）和 ASD（E/I 失衡）疾病机制
+
+## 检索过程
+**搜索词**：
+- PubMed: "cortical interneuron MGE CGE diversity development"
+- PubMed: "interneuron tangential migration CXCR4 CXCL12 ErbB4 cortex"
+- PubMed: "parvalbumin somatostatin VIP interneuron cortex specification review"
+- PubMed: "Rudy Fishell interneuron classification cortex"
+- PubMed: "disinhibition VIP SST cortex interneuron circuit"
+- WebSearch: "cortical interneuron diversity MGE CGE PV SST VIP development review 2021 2022 2023"
+- WebSearch: "Nkx2.1 Lhx6 Lhx8 MGE interneuron parvalbumin somatostatin cortex fate determination"
+
+**来源候选数**：~30 篇（PMIDs 检索）
+**采用来源**：14 篇（含 2 篇开放全文：PMC5699457，DOI:10.3389/fnins.2022.929469）
+**排除来源**：~16 篇（重复主题、非开放全文无法读取摘要、与主题关联弱）
+
+**开放全文来源详情**：
+1. Bandler RC et al. 2016 (PMID:27889625 / PMC5699457) - Curr Opin Neurobiol - 全文读取 via PMC
+2. Llorca A & Deogracias R 2022 (DOI:10.3389/fnins.2022.929469) - Front Neurosci - 全文读取 via Frontiers open access
+
+## 固结步骤
+**新建 wiki 页面（4）**：
+- concepts/cortical-interneuron-development.md（rev1，established，high）
+- concepts/tangential-migration.md（rev1，established，high）
+- concepts/medial-ganglionic-eminence.md（rev1，established，high）
+- concepts/gaba.md（rev1，established，high）—— 填补图谱悬空引用
+
+**修订 wiki 页面（5）**：
+- circuits/pv-interneurons.md rev4→rev5（新增发育起源、程序性死亡、related 字段）
+- circuits/sst-interneurons.md rev1→rev2（新增发育起源、精神分裂症数据）
+- circuits/vip-interneurons.md rev1→rev2（新增 CGE 来源、COUP-TFII）
+- concepts/cortical-neurogenesis.md rev1→rev2（新增互补连接）
+- concepts/ei-balance.md rev1→rev2（新增程序性死亡 E/I 校准机制）
+
+**矛盾登记**：0 条新矛盾（MGE 背腹偏向 vs 克隆混合的张力已在文章争议节说明，未新建 contested_claims 条目，因无具体知识库页面间冲突）
+
+## 知识图谱更新
+- 节点：225 → 229（+4）
+- 边：1281 → 1302（+21）
+- 悬空引用：`gaba`（已填补），`cognition`（仍悬空，已知）
+
+## 文件生成
+- articles/2026-08-10-cortical-interneuron-tangential-migration.md ✓
+- notes/2026-08-10-reading-notes.md ✓
+- sources/2026-08-10-sources.json ✓
+- wiki/concepts/cortical-interneuron-development.md ✓
+- wiki/concepts/tangential-migration.md ✓
+- wiki/concepts/medial-ganglionic-eminence.md ✓
+- wiki/concepts/gaba.md ✓
+- wiki/circuits/pv-interneurons.md（修订）✓
+- wiki/circuits/sst-interneurons.md（修订）✓
+- wiki/circuits/vip-interneurons.md（修订）✓
+- wiki/concepts/cortical-neurogenesis.md（修订）✓
+- wiki/concepts/ei-balance.md（修订）✓
+- wiki/_graph.json（更新）✓
+- wiki/index.md（更新）✓
+- wiki/CHANGELOG.md（更新）✓
+- state/topic_ledger.json（更新，entry 92）✓
+- state/unresolved_questions.md（新增 Q-interneuron-01, Q-interneuron-02）✓
+- state/source_registry.json（新增 13 条来源）✓
+- state/monthly_synthesis.md（8月第10篇）✓
+- logs/2026-08-10-run.log（本文件）✓
+
+## 质量自检
+- [x] 每条 wiki 新主张有来源（PMID/DOI）
+- [x] 区分了事实/主流模型/推测/争议
+- [x] 未把动物研究写成人类定论（明确标注"小鼠"数据）
+- [x] 冲突走矛盾协议（MGE 偏向争议在文章争议节讨论）
+- [x] 被修订页的 updated/revision_count/修订历史同步更新
+- [x] _graph.json 无新悬空边（`cognition` 是已知遗留悬空引用）
+- [x] index.md 和 CHANGELOG.md 反映今天变化
+- [x] 新页 related/prerequisites 各≥1
+- [x] 文章/笔记/来源/日志齐全且 append-only（未改旧文件，只修订已有 wiki 页的 metadata 字段）
+
+## Git 状态
+- 分支：main
+- 提交状态：已提交
+- commit hash：e47e769
+- push 状态：成功推送至 origin/main（ddd695f → e47e769）

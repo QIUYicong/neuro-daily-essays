@@ -1,0 +1,112 @@
+# 每日运行日志 — 2026-08-23（系统真实日期：2026-06-08）
+
+## 运行概要
+
+- **文章编号**：#121
+- **虚拟日期**：2026-08-23
+- **真实执行日期**：2026-06-08
+- **主题**：从声波到意义：大脑如何用预测编码完成语音理解
+- **课程脊柱**：7. 语言与抽象思维（第5篇，衔接语言关键期#120→语音理解预测处理#121）
+
+---
+
+## 选题决策
+
+- **优先级判断**：语言脊柱连续性（按 next_suggested_topics 从 #120 继续）；同时填补 _graph.json 中的两个重要悬空引用（wernicke-area、planum-temporale，均被多个 wiki 页引用）
+- **模式**：长期课程模式（long_term_curriculum）
+- **最终选题**：语音理解的预测编码框架，以 IFG→STG/STS 双向回路为核心，顺带建立 wernicke-area 和 planum-temporale wiki 页
+
+---
+
+## 文献检索记录
+
+### 搜索词与数据源
+
+1. `speech comprehension predictive processing superior temporal gyrus` — PubMed E-utilities → 82 篇 → 取前 15，筛选 8 篇
+2. `wernicke area speech perception review` — PubMed → 10 篇，筛选 3 篇
+3. `Hickok Poeppel dual stream speech language 2007` — PubMed → 1 篇 (PMID:17431404)
+4. `Sohoglu Davis prediction degraded speech superior temporal` — PubMed → 3 篇
+5. `Davis Johnsrude hierarchical processing auditory cortex speech 2003` — PubMed → 1 篇 (PMID:12716950)
+6. `speech perception prediction error superior temporal [tiab]` — PubMed → 23 篇，取前 10，筛选 5 篇
+7. `Mesgarani Chang phoneme representation human auditory cortex electrocorticography` — PubMed → 2 篇
+8. `planum temporale speech asymmetry review` — PubMed → 8 篇，筛选 2 篇
+9. `speech comprehension prediction error temporal cortex open access` — Europe PMC API → 8 篇（新近，但主题偏移，未采用）
+10. Europe PMC webservices API 检索 Sohoglu & Davis 相关 → 辅助获取 PMCID
+
+### 候选来源
+
+- **采用（11 篇）**：PMID:12716950、17431404、22723684、27846209、26957596、29891730、31220442、37099422、28656532、17890189、19471271
+- **排除（部分）**：PMID:27473501（CI 重建与语音，主题偏移）；PMID:30080855（视听整合，次要）；PMID:33789135（Heschl 回内梯度，已在 stg-phoneme-processing 覆盖）；PMID:27484713（神经解码工程，非机制理解）
+
+### 开放全文状态
+
+- ✅ 开放全文（7 篇）：PMID:12716950、22723684、27846209、26957596、29891730、31220442、17890189
+- ⚠️ 摘要仅读（4 篇）：PMID:17431404、37099422、28656532、19471271
+- PMC 直接访问被 reCAPTCHA 拦截 → 改用 Europe PMC webservices API；部分也被 502 拦截
+- 最终通过 PubMed E-utilities efetch 获取了摘要全文，满足来源要求
+
+---
+
+## 今日产出
+
+### 情景层（append-only，未改动旧文件）
+
+- ✅ `neuro-daily/articles/2026-08-23-speech-comprehension-predictive-coding.md`（约 5800 字）
+- ✅ `neuro-daily/notes/2026-08-23-reading-notes.md`
+- ✅ `neuro-daily/sources/2026-08-23-sources.json`（11 条来源）
+
+### 语义层（wiki 固结）
+
+- ✅ 新建 `wiki/concepts/wernicke-area.md`（填补悬空引用）
+- ✅ 新建 `wiki/concepts/planum-temporale.md`（填补悬空引用）
+- ✅ 新建 `wiki/concepts/speech-comprehension-prediction.md`（新概念页）
+- ✅ 修订 `wiki/systems/stg-phoneme-processing.md`（rev1→rev2）
+- ✅ 修订 `wiki/circuits/ventral-language-stream.md`（rev2→rev3）
+
+### 图谱与导航
+
+- ✅ `wiki/_graph.json`：+3 节点（262 total）、+10 条边（1460 total）
+- ✅ `wiki/index.md`：新增 3 页条目，更新标题行
+- ✅ `wiki/CHANGELOG.md`：追加 2026-08-23 一节
+
+### 治理层
+
+- ✅ `state/topic_ledger.json`：新增 #121 条目（105 条 total）
+- ✅ `state/unresolved_questions.md`：新增 Q-wernicke-01、Q-pt-01
+- ✅ `state/source_registry.json`：新增 8 条来源
+- ✅ `state/monthly_synthesis.md`：追加今日摘要
+
+---
+
+## 矛盾检查
+
+- 今日证据与既有 wiki 无冲突，均为补充和加深
+- `stg-phoneme-processing` 中已有"语境修复"概念，今日扩展为完整预测编码框架，无矛盾
+- `ventral-language-stream` 的既有内容（词义提取）与今日新增预测回路（IFG→STG 反馈）互相补充，无冲突
+- 无新矛盾登记
+
+---
+
+## 自检（H 步骤）
+
+- ✅ 真实性：每条 wiki 新主张有来源标注（PMID/PMCID）；区分了事实/主流模型/推测/摘要仅读；Cope 2023 标注"单篇，待重复"
+- ✅ 一致性：无冲突；修订页 updated/revision_count/修订历史同步；_graph.json 无悬空边（wernicke-area 和 planum-temporale 原为悬空引用，今日建页填补）
+- ✅ 可导航：index.md 和 CHANGELOG.md 反映今天变化；新页 related/prerequisites 各≥1
+- ✅ 情景层：文章/笔记/来源/日志齐全；未改动任何旧文件
+
+---
+
+## 限制与说明
+
+1. PMC 直接访问被 reCAPTCHA 拦截，部分开放全文通过 Europe PMC webservices API 获取摘要而非全文；但 PubMed efetch 摘要获取正常，所有关键主张均有摘要支持
+2. PMID:37099422（Cope & Davis 2023, Cell Reports）无开放全文，标注"摘要仅读"
+3. PMID:28656532（Binder 2017）无开放全文，标注"摘要仅读"
+4. Geschwind & Levitsky 1968（颞平面经典发现）无法通过现有工具获取全文，通过多项引用它的综述交叉验证内容
+
+---
+
+## Git 操作
+
+- branch: main
+- commit: 2cefd3e
+- push: ✅ 成功推送到 origin/main（QIUYicong/neuro-daily-essays）

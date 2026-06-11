@@ -1,0 +1,139 @@
+# Run Log: 2026-08-09
+
+## 基本信息
+- 日期：2026-08-09
+- 文章编号：#108
+- 主题：皮层神经发生、Inside-Out 规则、放射状胶质细胞与 NOTCH2NL
+- 执行时间：~2026-08-09T09:00+08:00（自动触发；跨会话继续执行）
+
+## Step A：状态读取
+
+读取文件：
+- `state/topic_ledger.json`（107篇，最后日期 2026-08-08）
+- `state/unresolved_questions.md`（含 Q-dcn-01/02/03, Q-io-01 等）
+- `state/contested_claims.json`（8 个 open 矛盾）
+- `wiki/_graph.json`（222节点，1269边）
+- `wiki/index.md`（第107篇，210主题页）
+- `state/monthly_synthesis.md`
+
+## Step B：选题
+
+**选定主题**：皮层神经发生（cortical neurogenesis）——Inside-Out 建筑法则与人类皮层的进化扩张
+
+**选题理由**：
+1. 课程脊柱第2章的**发育前传**：前几篇（#103 轴突导向 → #105 突触生成 → #106 突触修剪）均在神经元已"入座"后才追踪；本篇往前推：神经元如何制造、如何放置
+2. 填补 wiki 空白：cortical-neurogenesis、outer-radial-glia、notch2nl-cortical-expansion 均无对应页面
+3. 关联热度高：与已有的 critical-period、adult-neurogenesis、pv-interneurons、ei-balance 等多个 wiki 页均有自然连接
+4. 备选话题（多巴胺/奖励预测误差）已有完整 wiki 页（revision_count:3）且文章已覆盖（#81纹状体），排除重复
+
+**备选话题排除理由**：
+- 多巴胺-奖励预测误差：wiki 已有 dopamine-reward-prediction-error.md（rev3），且 #81 已深度覆盖
+- 关键期机制：critical-period.md 已有（rev2），可从本篇皮层神经发生角度补充连接而无需专篇
+
+## Step C：研究与写作
+
+### 搜索词
+1. `cortical neurogenesis radial glia inside-out rule neocortex`
+2. `outer radial glia OSVZ human cortex expansion`
+3. `NOTCH2NL human cortical expansion progenitor`
+4. `Pax6 Tbr2 Tbr1 cortical progenitor cascade`
+5. `FEZF2 SATB2 cortical layer identity`
+
+### 数据源
+- PubMed（摘要）
+- PMC（开放全文：6篇）
+
+### 候选来源：10篇
+| PMID | 作者 | 年份 | 证据强度 | 采用/排除 |
+|------|------|------|----------|----------|
+| 13713536 | Angevine & Sidman | 1961 | 高 | 采用（摘要，历史奠基文献） |
+| 15634788 | Englund et al. | 2005 | 高 | 采用（PMC 开放全文） |
+| 21285371 | McKenna et al. | 2011 | 高 | 采用（PMC 开放全文） |
+| 14703572 | Molyneaux et al. | 2007 | 高 | 采用（摘要） |
+| 20436480 | Fietz et al. | 2010 | 高 | 采用（摘要，OSVZ 首次报道） |
+| 20154730 | Hansen et al. | 2010 | 高 | 采用（摘要，oRGC 首次报道） |
+| 29856955 | Suzuki et al. | 2018 | 高 | 采用（PMC 开放全文，NOTCH2NL） |
+| 29856954 | Fiddes et al. | 2018 | 高 | 采用（PMC 开放全文，NOTCH2NL CNV） |
+| 35216663 | Cardenas et al. | 2022 | 中 | 采用（PMC 开放全文，oRGC 分子标志物） |
+| 35602606 | Malatesta & Götz | 2022 | 高 | 采用（PMC 开放全文，综述） |
+
+开放全文读取：6篇（PMID:15634788, 21285371, 29856955, 29856954, 35216663, 35602606）
+仅摘要：4篇（PMID:13713536, 14703572, 20436480, 20154730）
+
+### 写作产出
+- 文章：`articles/2026-08-09-cortical-neurogenesis-inside-out-radial-glia.md`（约5000字，六幕结构）
+- 笔记：`notes/2026-08-09-reading-notes.md`
+- 来源：`sources/2026-08-09-sources.json`
+
+文章结构：
+- 第一幕：神经上皮的蜕变——从 NEC 到放射状胶质细胞
+- 第二幕：三级祖细胞生产线（aRGC→IPC→神经元）与 Pax6→Tbr2→Tbr1 身份接力
+- 第三幕：Inside-Out 建筑法则与 Reelin 停止信号
+- 第四幕：层身份开关——FEZF2/SATB2 的二元对立
+- 第五幕：进化的跃升——oRGC 与 OSVZ 的人类特化
+- 第六幕：NOTCH2NL 的分子魔法与 1q21.1 剂量敏感性
+
+## Step D：Wiki 固结
+
+### 新建页面（3个）
+1. `wiki/concepts/cortical-neurogenesis.md`（rev1）
+   - 覆盖：Inside-Out 规则，三级祖细胞，Pax6→Tbr2→Tbr1，层身份开关，Reelin 机制
+   - 未解问题：Q-cortex-01, Q-cortex-02, Q-cortex-03
+   - key_sources: PMID:13713536, 15634788, 21285371, 14703572, 35216663, 35602606
+
+2. `wiki/concepts/outer-radial-glia.md`（rev1）
+   - 覆盖：aRGC vs oRGC 对比表，MST 机制，HOPX/PTPRZ1 标志物，OSVZ 分区
+   - key_sources: PMID:20436480, 20154730, 35216663, 35602606
+
+3. `wiki/concepts/notch2nl-cortical-expansion.md`（rev1）
+   - 覆盖：DLL1-cis 竞争机制，3倍克隆扩增，1q21.1 CNV 剂量效应，进化时间轴 ~350万年
+   - key_sources: PMID:29856955, 29856954
+
+### 修订页面（2个）
+4. `wiki/concepts/adult-neurogenesis.md`（rev2→rev3）
+   - 新增 cortical-neurogenesis 到 related 字段
+   - 新增连接："对照：胚性皮层神经发生 vs 成年海马 DG 神经发生"
+   - 新增修订历史条目
+
+5. `wiki/concepts/critical-period.md`（rev2→rev3）
+   - 新增 cortical-neurogenesis 到 related 字段
+   - 新增连接："皮层 Inside-Out 建造为关键期回路提供解剖底座；PV+ 中间神经元的 MGE 起源连接到胚性发育时序"
+   - 新增修订历史条目和 source_articles
+
+### 矛盾检查
+无新矛盾登记（cortical-neurogenesis 领域主要机制为 established，无明显争议）
+
+## Step E：图与索引更新
+
+### _graph.json
+- 前：222节点，1269边
+- 后：225节点，1281边
+- 新增节点：cortical-neurogenesis, outer-radial-glia, notch2nl-cortical-expansion
+- 新增边：12条
+
+### wiki/index.md
+- 更新为"第108篇"，"主题页总数：213"，"225节点、1281边"
+
+### wiki/CHANGELOG.md
+- 添加 2026-08-09 条目
+
+## Step F：状态文件更新
+
+- `state/topic_ledger.json`：第108篇，total_articles=108，entries=91
+- `state/unresolved_questions.md`：Q-cortex-01, Q-cortex-02, Q-cortex-03（新增）
+- `state/monthly_synthesis.md`：8月文章数 8→9，#108 条目
+- `state/source_registry.json`：新增10个 PMID，total_sources=427
+
+## Step G：提交与推送
+
+- branch: main
+- commit message: Add neuro daily article + wiki consolidation for 2026-08-09
+- push: git push -u origin main
+
+## 限制与说明
+
+1. 10篇来源中6篇读取开放全文，4篇仅读取摘要（均明确标注 access_status）
+2. Angevine & Sidman（1961）为摘要+摘要引用，作为历史奠基文献处理，其核心发现已被数十年后续研究独立证实
+3. oRGC 对 NOTCH2NL 的特异性效应尚无直接实验，已登记为 Q-cortex-02
+4. NOTCH2NL 相关人类皮层类器官研究受类器官局限性制约（缺血管/正常力学环境）
+5. 执行跨越两个会话（上下文压缩后恢复），所有已生成文件在 Step G 提交前均已确认存在

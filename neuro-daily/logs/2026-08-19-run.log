@@ -1,0 +1,77 @@
+# 运行日志 · 2026-08-19（真实日期：2026-06-08）
+
+## 基本信息
+
+- **文章编号**：#118
+- **文章标题**：大脑如何开口说话：从意图到音素的前馈/反馈双控制系统
+- **Slug**：speech-production-diva-motor-control
+- **文件名**：2026-08-19-speech-production-diva-motor-control.md
+- **课程轨道**：7. 语言与抽象思维（言语产生）
+- **真实写作日期**：2026-06-08 (北京时间)
+
+## 搜索与检索
+
+### 搜索词
+1. "DIVA model speech production neural circuit SMA Broca cerebellum review PMC"
+2. "speech production cortical network IFG premotor SMA fMRI review PMC 2023 2024"
+3. "Hickok DIVA speech motor control neural basis review PMC"
+4. "supplementary motor area SMA speech initiation stuttering PMC 2022 2023"
+5. "apraxia speech Broca IFG motor program neural mechanism review 2023 2024"
+
+### 候选来源
+- 12 篇候选论文
+- 5 篇采用（均为 PMC 开放全文）
+- 7 篇排除（3篇付费墙/仅摘要；2篇预印本；2篇相关性不足）
+
+### 采用来源
+1. PMC3650855 (PMID:23667281) — Tourville & Guenther 2010 · DIVA模型完整框架 · **开放全文 ✅**
+2. PMC10411947 (PMID:36746488) — Hickok, Venezia & Teghipco 2022 · 双前中央言语区 · **开放全文 ✅**
+3. PMC11729016 (PMID:39807169) — Bullock et al. 2024 · SMA iEEG言语启动 · **开放全文 ✅**
+4. PMC3361736 (PMID:22661828) — Perkell 2012 · 前馈/反馈扰动范式 · **开放全文 ✅**
+5. PMC10615680 (PMID:37337871) — Meier & Guenther 2023 · DIVA/GODIVA发育 · **开放全文 ✅**
+
+## Wiki 固结
+
+### 新建页面（3 页）
+- `wiki/systems/speech-production-circuit.md`（新建）
+- `wiki/concepts/diva-model.md`（新建）
+- `wiki/systems/sma-presma.md`（新建）
+
+### 修订页面（1 页）
+- `wiki/systems/broca-area.md`（rev3）：整合Hickok 2022双前中央言语区发现；言语运动协调中枢重定位
+
+### 矛盾检查
+- 无新矛盾：Hickok 2022发现与既有broca-area三成分框架互洽（"发音成分"精化而非否定）
+- contested_claims.json 无新增条目
+
+### 成熟度更新
+- speech-production-circuit: mainstream/high（新建）
+- diva-model: mainstream/high（新建）
+- sma-presma: mainstream/high（新建）
+- broca-area: 维持 established/high（修订）
+
+## 状态文件更新
+- `state/topic_ledger.json`：新增 #118 条目；total_articles → 118；last_updated → 2026-08-19
+- `state/unresolved_questions.md`：新增 Q-speech-01 (高)、Q-speech-02 (中)、Q-speech-03 (中)
+- `state/monthly_synthesis.md`：追加 2026-08-19 文章摘要
+- `wiki/_graph.json`：+3节点，+12边；总计252节点、1417边
+- `wiki/index.md`：新增3页条目，修订1页描述，更新头部统计
+- `wiki/CHANGELOG.md`：追加今日变更记录
+
+## 自检结果
+
+**真实性**：✅ 所有主张均有PMID/PMCID可追溯来源；明确区分了"已证实的高置信"（SMA时序）与"模型推断/中置信"（GODIVA环路细节）
+**一致性**：✅ Hickok 2022发现与既有broca-area三成分框架一致；无需矛盾协议；更新了broca-area连接
+**可导航**：✅ index和CHANGELOG均已更新；新页related各≥1
+**情景层完整**：✅ articles/notes/sources/logs均已创建；未修改任何旧文件
+
+## Git 操作
+- 分支：main
+- commit message：Add neuro daily article + wiki consolidation for 2026-08-19
+- commit hash：0637bf6
+- push：✅ 成功推送到 origin/main
+
+## 失败与限制
+- 无网络失败
+- 5篇来源均为开放全文，无"仅摘要"限制
+- 韵律（prosody）神经基础未深入（DIVA模型的已知空白，在文章和wiki中均已标注为未解问题）

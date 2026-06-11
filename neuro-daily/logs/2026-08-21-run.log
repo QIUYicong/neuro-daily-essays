@@ -1,0 +1,144 @@
+# 运行日志 2026-08-21
+
+**真实执行日期**：2026-06-08 (UTC+8)
+**知识库虚拟日期**：2026-08-21
+**文章编号**：#119
+**分支**：main
+**运行结果**：成功
+
+---
+
+## 步骤 0：环境初始化
+
+- Git remote 确认：`http://local_proxy@127.0.0.1:39201/git/QIUYicong/neuro-daily-essays`（正确，包含 QIUYicong/neuro-daily-essays）
+- 切换分支：`claude/funny-einstein-UoVDo` → `main`（成功）
+- `git pull --rebase origin main`：成功（强制更新，rebase 完成）
+- `ROUTINE.md` 存在：✓
+- `KNOWLEDGE-BASE-DESIGN.md` 存在：✓
+- `neuro-daily/wiki/` 存在：✓
+
+## 步骤 A：读取状态
+
+- `topic_ledger.json`：读取最近3条条目，确认最后虚拟日期为2026-08-20（#102 STG音素感知），今日虚拟日期为2026-08-21
+- `unresolved_questions.md`：读取末尾100行，确认近期未解问题
+- `contested_claims.json`：读取头部，确认当前10个open矛盾，0个resolved
+- `_graph.json`：255节点，1430边；确认arcuate-fasciculus、language-network节点存在
+- 状态文件均存在，无初始化需要
+
+## 步骤 B：选题
+
+**决策**：选择"弓状束三段式纤维架构"作为今日主题
+
+**理由**：
+1. 连续三篇文章（听觉双流#118、言语产生#119、STG音素#120）均在脑区/系统层级，白质通路文章属于结构层级，层级有所切换
+2. topic_ledger中所有最近3篇next_suggested_topics均包含"arcuate-fasciculus-deep"
+3. 现有`arcuate-fasciculus.md` wiki页面内容基础薄弱（仅rev1，2026-06-20创建），需要深度扩充
+4. 与近期文章（STG音素感知、言语产生DIVA）的接口清晰：AF是连接感知端（STG/pSTG）和产生端（BA44）的白质桥梁
+5. 传导性失语症作为AF研究的天然实验，没有独立wiki页面——今日可新建
+
+**选题模式**：长期课程（long_term_curriculum，课程7：语言与抽象思维）
+
+## 步骤 C：检索与文章写作
+
+**搜索词与数据源**：
+- PubMed: "arcuate fasciculus three segment Catani"
+- PubMed: "arcuate fasciculus language DTI tractography lateralization"
+- PubMed: "Friederici arcuate fasciculus language"
+- PubMed: "arcuate fasciculus review language 2020-2024"
+- PubMed: "Thiebaut de Schotten arcuate fasciculus lateralization"
+- Direct PMC fetch: PMC7195223 (Balezeau 2020, Nature Neuroscience)
+- Direct PMC fetch: PMC3272640 (Friederici 2012)
+- Direct PMC fetch: PMC10083342 (Shekari & Nozari 2023)
+- PubMed: individual PMIDs (15597383, 18281301, 24951631, 35142842, 38033540)
+
+**候选文献**：检索到约20篇相关论文
+
+**采用来源（10篇）**：
+1. PMID:15597383 (Catani 2005) — 三段式模型发现论文，摘要仅读
+2. PMID:17431404 (Hickok & Poeppel 2007) — 双流模型框架，摘要仅读
+3. PMID:18281301 (Glasser & Rilling 2008) — 左右AF靶区差异，摘要仅读
+4. PMID:22347185 (Friederici 2012) / PMC:PMC3272640 — 背侧路径发育，**开放全文已读**
+5. PMID:23643035 (Brauer 2013) — 腹侧/背侧发育时序，摘要仅读
+6. PMID:24951631 (Forkel 2014) — 右侧AF与失语恢复，摘要仅读
+7. PMID:32313267 (Balezeau 2020) / PMC:PMC7195223 — 灵长类AF进化，**开放全文已读**
+8. PMID:35142842 (Giampiccolo & Duffau 2022) — 颞叶端争议，摘要仅读
+9. PMID:37051488 (Shekari & Nozari 2023) / PMC:PMC10083342 — 语言白质通路综述，**开放全文已读**
+10. PMID:38033540 (Shao 2023) / PMC:PMC10684764 — AF临床综述，**开放全文已读**
+
+**排除的来源**：
+- 数个DTI追踪方法学论文（方法细节而非核心内容，篇幅限制）
+- Becker 2022 PMID:34914937（摘要仅读，内容与Balezeau 2020高度重叠，以Balezeau为代表）
+
+**文章写作**：
+- 文件：`articles/2026-08-21-arcuate-fasciculus-three-segment-language.md`
+- 字数：约4500-5000中文字（估计）
+- 读书笔记：`notes/2026-08-21-reading-notes.md`
+- 来源JSON：`sources/2026-08-21-sources.json`
+
+## 步骤 D：固结步骤
+
+**触及的主要概念**：
+1. `arcuate-fasciculus` — 已有wiki页，进行重大修订（rev1→rev2）
+2. `conduction-aphasia` — 无wiki页，新建
+3. `dorsal-language-stream` — 已有wiki页，进行中等修订（rev1→rev2）
+4. `language-network` — 已有wiki页，进行微小修订（related字段更新）
+5. `phonological-loop` — 引用存在但无独立wiki页（新增悬空引用，待后续创建）
+
+**矛盾检查**：
+- 新矛盾C-2026-08-21-01：AF颞叶端边界争议（传统pSTG vs Giampiccolo 2022 MTG/ITG/梭状回）
+- 无已有矛盾被解决
+
+**成熟度更新**：
+- `conduction-aphasia`：新建，status=established，confidence=high
+- `arcuate-fasciculus`：修订，status维持established，confidence维持high（颞叶端争议局限于边界，不影响核心三段式架构）
+
+## 步骤 E：图谱与导航更新
+
+- `wiki/_graph.json`：+1节点（conduction-aphasia），+6边，总计256节点、1436边
+- `wiki/index.md`：diseases部分新增conduction-aphasia，concepts中arcuate-fasciculus描述更新
+- `wiki/CHANGELOG.md`：新增2026-08-21条目
+
+## 步骤 F：治理层更新
+
+- `topic_ledger.json`：新增第103条条目（虚拟日期2026-08-21）
+- `unresolved_questions.md`：新增Q-af-01/02/03/conduction-01共4个问题
+- `source_registry.json`：新增additions_2026-08-21（10个PMID）
+- `monthly_synthesis.md`：新增今日摘要条目
+- `contested_claims.json`：新增C-2026-08-21-01
+- `maturity_index.json`：新增conduction-aphasia条目，更新arcuate-fasciculus条目
+
+## 步骤 G：提交与推送
+
+- Git author: GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+- Commit message: "Add neuro daily article + wiki consolidation for 2026-08-21"
+- Push target: origin main
+
+## 步骤 H：自检
+
+**真实性**：
+- ✓ wiki每条新主张都有PMID/DOI来源
+- ✓ 区分了事实（教科书级别传导性失语三特征）/ 模型（Catani三段式，Friederici发育时间线）/ 推测（颞叶端延伸，DIVA解释）/ 争议（C-2026-08-21-01）
+- ✓ Forkel 2014样本量(n=16)明确标注为"样本量小，待复现"
+- ✓ Balezeau 2020物种数量极小(n=3每组)已在文章中说明局限性
+
+**一致性**：
+- ✓ 新矛盾(C-2026-08-21-01)已走矛盾协议（登记contested_claims，标注confidence不降但争议已登记）
+- ✓ arcuate-fasciculus修订页的updated/revision_count/修订历史已同步
+- ✓ _graph.json无未记录的悬空边（phonological-loop记录为待填补悬空引用）
+
+**可导航**：
+- ✓ index.md和CHANGELOG.md反映了今天变化
+- ✓ 新页conduction-aphasia的related/prerequisites各≥1个
+
+**情景层**：
+- ✓ 文章/笔记/来源/日志均创建
+- ✓ 未改动任何已存在的旧文章/笔记/来源/日志文件
+
+---
+
+## 失败与限制
+
+- 6个关键来源为摘要仅读（含三段式模型发现论文Catani 2005本身）
+- Catani 2005（PMID:15597383）是Annals of Neurology文章，无PMC开放全文；核心发现（三段式结构）已被大量后续研究独立复现，使用是合理的
+- 每个物种样本量极小（Balezeau 2020 n=3），已在文章和证据表中标注
+- AF与SLF-III的边界争议在文章中提及但无法解决（需要更多研究）

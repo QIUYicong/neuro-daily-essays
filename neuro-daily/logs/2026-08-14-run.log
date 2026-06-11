@@ -1,0 +1,86 @@
+# 运行日志 2026-08-14
+## 实际执行日期：2026-06-07（UTC+8）
+
+---
+
+### 运行状态：成功
+
+---
+
+### 搜索词与数据源
+
+**PubMed E-utilities 查询**：
+- `thalamocortical axon guidance review`：返回 15 个 PMID（首批：38167425, 34899198, 31642652, 29932982, 27739248...）
+- `thalamocortical projection development cortical map formation`：返回 10 个 PMID
+- `subplate neurons thalamocortical axon waiting period cortical development`：返回 11 个 PMID
+- `somatosensory barrel cortex development thalamus topographic`：返回 10 个 PMID
+
+**Europe PMC REST API 查询**：
+- `thalamocortical axon guidance molecular review`：返回 8 篇，识别 PMID:40745219（PMC7619050，开放全文）、PMID:40806490（PMC12347462，开放全文）
+- `subplate neurons thalamocortical waiting compartment cortical development`：返回部分摘要
+
+**PMC 全文读取**：
+- PMC7619050（Guillamón-Vivancos 2025, Nat Rev Neurosci）：全文读取 ✓
+- PMC10759993（Molnár & Kwan 2024, Cold Spring Harb Perspect Biol）：全文读取 ✓
+- PMC12347462（Li et al. 2025, IJMS）：全文读取 ✓
+
+---
+
+### 候选来源与采用/排除
+
+| 来源 | 采用/排除 | 原因 |
+|------|---------|------|
+| PMID:40745219 (Guillamón-Vivancos 2025) | 采用 | 最新综述，Lopez-Bendito 实验室，全文开放 |
+| PMID:38167425 (Molnár & Kwan 2024) | 采用 | 权威综述，Molnár 实验室，全文开放 |
+| PMID:40806490 (Li et al. 2025) | 采用 | 最新原始研究，FGF3 双路径新发现，全文开放 |
+| PMID:32817388 (Erzurumlu & Gaspar 2020) | 采用（仅摘要） | 经典桶皮层历史综述，标注未读全文 |
+| PMID:32659318 (Kostović 2020) | 采用（仅摘要） | 下板结构标准参考，标注未读全文 |
+| PMID:29932982 (López-Bendito 2018) | 采用（仅摘要） | 背景综述 |
+| PMID:31504267 (De Gregorio 2020) | 排除 | 主题偏（SERT/内化肌），与 TCA 导向核心问题相关性低 |
+| PMID:31310785 (Zhang 2019) | 排除 | AKAP5 与突触成熟，具体，不是今日核心 |
+
+---
+
+### 固结的 wiki 页
+
+**新建（2 页）**：
+- wiki/concepts/thalamocortical-axons.md（revision_count=1）
+- wiki/concepts/subplate-neurons.md（revision_count=1）
+
+**修订（3 页）**：
+- wiki/concepts/barrel-cortex.md（rev2→rev3）
+- wiki/concepts/cortical-arealization.md（rev1→rev2）
+- wiki/concepts/axon-guidance.md（rev2→rev3）
+
+---
+
+### 登记的矛盾
+
+无新矛盾登记。
+
+**矛盾检查**：
+- "TCA 自发波调控皮层区域大小"与 cortical-arealization 现有主张（丘脑活动雕刻区域精细化）一致，是细化而非冲突
+- "HO 核为默认态"与 thalamus.md 不冲突（后者描述功能，未涉及发育默认状态）
+→ 无需走矛盾协议
+
+---
+
+### 新增悬空引用
+
+无新悬空引用（走廊细胞 corridor-cells 未建独立页，但在 thalamocortical-axons.md 中有充分描述，下一次如有需要可建独立页）
+
+---
+
+### 失败与限制
+
+- 开放全文不足：2/6 来源只读摘要（barrel-cortex 历史综述、下板 Kostović 综述）；已在文章中标注"仅摘要"
+- PMC 搜索部分查询返回空（因搜索词过于宽泛），改用 Europe PMC API 有效
+
+---
+
+### Git 信息
+
+- **分支**：main
+- **文章**：2026-08-14-thalamocortical-axons-guidance-sensory-maps.md
+- **commit**：9c729f8
+- **push 状态**：成功推送到 origin/main

@@ -1,0 +1,103 @@
+# 2026-08-16 运行日志
+
+## 元信息
+- 执行日期：2026-06-07（UTC+8 真实日期）
+- 知识库虚拟日期：2026-08-16
+- 文章序号：#115
+- 模型：claude-sonnet-4-6
+
+## 步骤 A：状态文件读取
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md
+- 读取 topic_ledger.json（total_articles=113，last_updated=2026-08-14）
+- 读取 unresolved_questions.md（最新条目 2026-08-14，Q-tca/Q-odc/Q-subplate）
+- 读取 wiki/index.md（第114篇，230 wiki页面）
+- 读取 wiki/CHANGELOG.md（最新 2026-08-15）
+- 确认最后一篇文章：#114，2026-08-15，眼优势柱
+
+## 步骤 B：主题选择
+选题逻辑：
+- 前两篇（#113 丘脑皮层轴突布线，#114 眼优势柱/关键期）完成了视觉系统"接线工程"和"关键期竞争"两章
+- 自然延伸：进入视觉皮层功能处理——腹侧视觉流与高级视觉区
+- 核心问题：从 V1 局部边缘到 IT 不变量识别，中间发生了什么？
+- 选题：颞下皮层（IT）与腹侧视觉流不变量物体识别
+
+核心问题定位：
+- 选择性与不变性的精确平衡（Rust & DiCarlo 2012）
+- 面孔块六区层级功能梯度（Freiwald & Tsao 2010）
+- IT 稀疏编码（~10% 激活率守恒）
+- 形状 vs 纹理统计计算争论（Ayzenberg & Behrmann 2022）
+
+## 步骤 C：文献检索
+检索策略：PubMed / PMC，开放全文优先
+
+### 成功获取开放全文（7篇）
+1. Conway 2018 (PMC6404234) - Annual Review of Vision Science，IT 皮层综述
+2. Freiwald & Tsao 2010 (PMC3181095) - Science，面孔块层级单神经元记录
+3. Rust & DiCarlo 2012 (PMC3485085) - Neuron，选择性/不变性/稀疏度定量
+4. Zhuang et al. 2021 (PMC7826371) - eLife，DNN 预测 IT 响应
+5. Ayzenberg & Behrmann 2022 (PMC11669366) - Current Biology，纹理统计 vs 形状
+6. Amita et al. 2024 (PMC11601097) - PNAS，灵长类 IT 功能组织
+7. Pasupathy 2020 (PMC7501212) - 教科书章节，V4 形状调谐
+
+### 摘要仅读（4篇）
+- Tsao et al. 2003 (PMID:12925854) - Science，猕猴 fMRI 面孔块发现
+- Kanwisher et al. 1997 (PMID:9151747) - J Neurosci，FFA 发现
+- Haxby et al. 2001 (PMID:11577229) - Science，分布式面孔编码
+- Quiroga et al. 2005 (PMID:16007583) - Nature，Jennifer Aniston 神经元
+
+## 步骤 D：文章写作
+- 文件：neuro-daily/articles/2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition.md
+- 标题：从线条到身份：腹侧视觉流如何解决不变量物体识别的核心难题
+- 字数：约 5200 汉字（含标题/导言/正文/来源说明）
+- 层级：细胞/脑区/系统/认知
+- 关键发现覆盖：V1→V4→IT 层级原则；选择性-不变性-稀疏度三角；V4 曲率×角度形状空间；6 个面孔块的视角梯度；Jennifer Aniston 神经元；DNN 比较；形状 vs 纹理统计争论
+
+阅读笔记：neuro-daily/notes/2026-08-16-reading-notes.md
+来源记录：neuro-daily/sources/2026-08-16-sources.json（11 条来源）
+
+## 步骤 E：Wiki 整合
+
+### 新建 wiki 页面（4 页）
+1. wiki/systems/inferior-temporal-cortex.md（颞下皮层，region，confidence=high）
+2. wiki/systems/v4-visual-area.md（V4 视觉区，region，confidence=medium）
+3. wiki/concepts/invariant-object-recognition.md（不变量物体识别，concept，confidence=high）
+4. wiki/systems/face-patch-system.md（面孔块系统，structure，confidence=high）
+
+### 修订 wiki 页面（1 页）
+- wiki/systems/v1-primary-visual-cortex.md（rev5→rev6）：
+  - related 新增：v4-visual-area, inferior-temporal-cortex, invariant-object-recognition
+  - updated→2026-08-16；source_articles 扩展
+
+### 更新导航与图谱
+- wiki/CHANGELOG.md：新增 2026-08-16 节（4 新建，1 修订，244 节点，~1386 边，3 新问题，1 新争议）
+- wiki/index.md：更新统计（第115篇，233页，244节点）；systems/concepts 各增项目
+- wiki/_graph.json：node_count 240→244，edge_count 1370→1386；新增 4 节点 + 16 条带类型边
+
+## 步骤 F：治理层更新
+- state/contested_claims.json：open_count 9→10；新增 C-2026-08-16-01（形状 vs 纹理统计争论）
+- state/topic_ledger.json：total_articles 113→115；last_updated→2026-08-16；新增 #115 完整条目
+- state/unresolved_questions.md：last_updated→2026-08-16；新增 Q-it-01/Q-it-02/Q-it-03 三条
+- state/maturity_index.json：last_updated→2026-08-16；新增 4 个新页面条目
+- state/monthly_synthesis.md：8月统计更新（16 篇，19 wiki 页，244 节点）
+
+## 步骤 G：提交与推送
+- git add neuro-daily/
+- git commit（详见 commit 消息）
+- git push origin main
+
+## 质量检查
+- [x] 无 Sci-Hub/盗版 PDF 使用
+- [x] 无 PMID 编造（所有来源已在 PMC 验证）
+- [x] 无医疗建议
+- [x] 仓库使用 QIUYicong/neuro-daily-essays（非 lianyichuan/cqiuyicong）
+- [x] wiki 页面有完整 frontmatter
+- [x] 争议登记（C-2026-08-16-01）合规
+- [x] 图谱节点/边数与 CHANGELOG 一致
+
+## 统计
+- 新文章：1
+- 新 wiki 页：4
+- 修订 wiki 页：1
+- 新未解问题：3（Q-it-01/02/03）
+- 新争议：1（C-2026-08-16-01）
+- 知识图谱：244 节点，~1386 边

@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-14",
+  "real_date": "2026-06-07",
+  "article_slug": "thalamocortical-axons-guidance-sensory-maps",
+  "topic": "丘脑皮层轴突导向机制与感觉皮层地图形成",
+  "search_strategy": {
+    "pubmed_queries": [
+      "thalamocortical axon guidance review",
+      "thalamocortical projection development cortical map formation",
+      "subplate neurons thalamocortical axon waiting period cortical development",
+      "somatosensory barrel cortex development thalamus topographic",
+      "Lopez-Bendito thalamocortical corridor cells handshake"
+    ],
+    "europe_pmc_queries": [
+      "thalamocortical axon guidance molecular review",
+      "subplate neurons thalamocortical waiting compartment cortical development"
+    ],
+    "pmc_full_text": [
+      "PMC7619050",
+      "PMC10759993",
+      "PMC12347462"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "40745219",
+      "pmcid": "PMC7619050",
+      "doi": "10.1038/s41583-025-00936-1",
+      "type": "review",
+      "title": "Sensory modality-specific wiring of thalamocortical circuits",
+      "authors": ["Guillamón-Vivancos T", "Aníbal-Martínez M", "Puche-Aroca L", "Martini FJ", "López-Bendito G"],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2025,
+      "volume": "26",
+      "pages": "623-641",
+      "full_text_available": true,
+      "full_text_source": "PMC7619050",
+      "open_access": true,
+      "coverage": "TCA guidance mechanisms (DTB/corridor cells/PSPB/handshake), subplate waiting compartment, Ephrin-A5/EphA4 topographic gradients, thalamic waves (E14+), superior colliculus as sensory gatekeeper, cross-modal plasticity, intrinsic vs activity-dependent specification, FO vs HO nuclei identity",
+      "confidence_rating": "high",
+      "notes": "Definitive 2025 review from López-Bendito lab, comprehensive and well-cited"
+    },
+    {
+      "id": "S2",
+      "pmid": "38167425",
+      "pmcid": "PMC10759993",
+      "type": "review",
+      "title": "Development and Evolution of Thalamocortical Connectivity",
+      "authors": ["Molnár Z", "Kwan KY"],
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2024,
+      "full_text_available": true,
+      "full_text_source": "PMC10759993",
+      "open_access": true,
+      "coverage": "Handshake hypothesis with Arid1a Emx1-Cre/hGFAP-Cre genetic evidence, subplate neuron origins, TCA topographic targeting (FGF8 repositioning), PSPB crossing mechanisms, evolutionary context",
+      "confidence_rating": "high",
+      "notes": "Molnár lab (Oxford) comprehensive review with strong genetic evidence for handshake hypothesis"
+    },
+    {
+      "id": "S3",
+      "pmid": "40806490",
+      "pmcid": "PMC12347462",
+      "doi": "10.3390/ijms26157361",
+      "type": "original_research",
+      "title": "Direct and Indirect Downstream Pathways That Regulate Repulsive Guidance Effects of FGF3 on Developing Thalamocortical Axons",
+      "authors": ["Li K", "Li J", "Chen Q", "Dong Y", "Gao H", "Liu F"],
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2025,
+      "volume": "26",
+      "pages": "7361",
+      "full_text_available": true,
+      "full_text_source": "PMC12347462",
+      "open_access": true,
+      "coverage": "FGF3 dual mechanism: direct PC-PLC pathway + indirect PI3K→Slit1 pathway; chick embryo in vitro turning assay + in vivo bead implantation",
+      "confidence_rating": "medium-high",
+      "notes": "First demonstration of dual-pathway FGF3 guidance in TCAs; chick model, translation to mice pending"
+    },
+    {
+      "id": "S4",
+      "pmid": "32817388",
+      "type": "historical_review",
+      "title": "How the Barrel Cortex Became a Working Model for Developmental Plasticity: A Historical Perspective",
+      "authors": ["Erzurumlu RS", "Gaspar P"],
+      "journal": "Journal of Neuroscience",
+      "year": 2020,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "open_access": false,
+      "coverage": "Barrel cortex 50-year history, whisker-barrelette-barreloid-barrel four-station relay, critical period mechanisms",
+      "confidence_rating": "high",
+      "notes": "Abstract only - noted in article"
+    },
+    {
+      "id": "S5",
+      "pmid": "32659318",
+      "type": "review",
+      "title": "The enigmatic fetal subplate compartment forms an early tangential cortical nexus and provides the framework for construction of cortical connectivity",
+      "authors": ["Kostović I"],
+      "journal": "Progress in Neurobiology",
+      "year": 2020,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "open_access": false,
+      "coverage": "Subplate trilaminar organization (ingrowth zone / navigation zone / waiting compartment), role in TCA timing and target selection, clinical relevance",
+      "confidence_rating": "high",
+      "notes": "Abstract only - noted in article"
+    },
+    {
+      "id": "S6",
+      "pmid": "29932982",
+      "type": "review",
+      "title": "Development of the Thalamocortical Interactions: Past, Present and Future",
+      "authors": ["López-Bendito G"],
+      "journal": "Neuroscience",
+      "year": 2018,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "open_access": false,
+      "coverage": "Overview of TCA development fields including axon guidance, thalamic influence on cortical specification, spontaneous thalamic activity",
+      "confidence_rating": "high",
+      "notes": "Background overview"
+    }
+  ],
+  "open_full_text_count": 3,
+  "abstract_only_count": 3,
+  "institutional_source_count": 0,
+  "minimum_requirements_met": {
+    "at_least_5_sources": true,
+    "at_least_2_open_full_text": true,
+    "at_least_1_institutional": false,
+    "note": "NINDS Brain Development Research Program referenced as background but URL not retrieved as formal source"
+  }
+}

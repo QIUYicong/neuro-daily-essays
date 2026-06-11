@@ -1,0 +1,153 @@
+# 每日运行日志 · 2026-09-04
+
+**开始时间**：2026-06-10 UTC+8（UTC: 2026-06-09 23:XX UTC）
+**文章编号**：#135
+**主题**：大脑的能量景观学习：从霍普菲尔德网络到皮层慢波振荡的两相对比机制
+**选题驱动**：next_suggested_topics 中的"对比赫布学习作为反向传播的另一生物近似"；课程轨迹 12（AI比较）自然延续
+
+---
+
+## 状态读取摘要
+
+- `topic_ledger.json`：读取，已有 116 条记录（最近：2026-09-03 PC-Learning/反向传播）
+- `unresolved_questions.md`：读取，Q-ep-x 为今日新增（由今日文章产生）
+- `contested_claims.json`：读取，12 条已有矛盾（无今日新增）
+- `wiki/_graph.json`：读取，281 节点 / 1579 条边；equilibrium-propagation 和 hopfield-network 均不存在
+- 近 3 天层级：2026-09-01（whole-brain-network/theory）, 2026-09-02（cellular/microcircuit/brain-region）, 2026-09-03（synaptic/cellular/microcircuit）
+- 今日层级选择：theory/whole-brain-network/synaptic（避免重复最近3天的 cellular/microcircuit 主导）
+
+---
+
+## 选题过程
+
+**驱动因素**：2026-09-03 文章末尾 next_suggested_topics 中"Contrastive Hebbian Learning（平衡传播）作为反向传播的另一生物近似"
+**选题逻辑**：
+- #132-134 建立了 FEP → 主动推断 → PC-Learning 的连贯弧线
+- PC-Learning（#134）是误差传播路径；EP 是能量语言路径——两者互补，构成"生物反向传播"图景的完整版本
+- 同时 Hopfield Nobel 2024 是重要背景知识节点，是填补悬空引用的机会
+
+**最终聚焦**：平衡传播（EP）的两相结构 + 皮层慢振荡 UP/DOWN 态的生物对应 + 2025 年最新突破（隐式非平衡记忆）
+
+---
+
+## 文献检索记录
+
+**搜索词**（按时间顺序）：
+1. "equilibrium propagation Scellier Bengio 2017 biologically plausible backpropagation PubMed PMC"
+2. "contrastive Hebbian learning cortical two-phase oscillations biological backpropagation 2024 2025 2026 neuroscience"
+3. "sleep slow wave cortical up down states contrastive learning synaptic plasticity 2025 2026 PubMed"
+4. "Whittington Bogacz 2019 theories error back-propagation brain PubMed open access PMC"
+5. "John Hopfield Nobel Prize 2024 Physics neural network memory associative memory biological plausibility"
+
+**数据源**：WebSearch (PubMed/NCBI, PMC)
+
+**候选来源**：约 15 个
+
+**采用来源（5 个，全部开放全文）**：
+1. PMID:28522969 / PMC5415673 — Scellier & Bengio 2017（开放全文 ✅ 核心）
+2. PMID:40038254 / PMC11880436 — Altun et al. 2025, Nature Communications（开放全文 ✅ 核心，2025年新突破）
+3. PMID:29213231 / PMC5703076 — Miyamoto et al. 2017（开放全文 ✅ 支持）
+4. PMID:36712943 / PMC9833047 — Yoshida & Toyoizumi 2022（开放全文 ✅ 支持）
+5. PMID:30704969 / PMC6382460 — Whittington & Bogacz 2019（开放全文 ✅ 背景综述）
+
+**排除来源**：
+- Sacramento et al. 2018 (NeurIPS): 不在PMC，仅摘要
+- Rao & Ballard 1999 (Nat Neurosci): 不在PMC
+- Ramsauer et al. 2020 (Hopfield Networks is All You Need): arXiv only
+- Hopfield 1982 PNAS: 老文章，PMC状态不明确，未直接检索全文
+
+**限制**：无来源需要标注"未读取全文"——5篇均为开放全文
+
+---
+
+## 文章写作
+
+**字数估计**：约 5200 字（符合 ROUTINE.md 3000-6000 字要求）
+**层级结构**：分子（突触可塑性/STDP）→ 细胞/微回路（UP/DOWN态）→ 理论（EP数学框架）→ 全脑（睡眠记忆）
+**比喻**：自动调温器学习（有效：局部差值替代全局积分；失效：目标从何而来 / 过频繁更新干扰推断）
+
+---
+
+## 固结步骤（D）
+
+**今日触及概念（处理记录）**：
+
+| slug | wiki 状态 | 处理 |
+|------|----------|------|
+| equilibrium-propagation | 无 | ✅ 新建（rev1，emerging, medium）|
+| hopfield-network | 无 | ✅ 新建（rev1，established, high）|
+| credit-assignment | 已有（rev1）| ✅ 修订 rev2：新增EP路径说明 |
+| pc-learning | 已有（rev1）| ✅ 修订 rev2：新增EP并行关系 |
+| cortical-slow-oscillation | 已有（rev3）| ✅ 修订 rev4：新增EP视角和信息最大化视角 |
+| contrastive-hebbian-learning | 无 | ⚠️ 悬空引用，记入CHANGELOG待补 |
+| stdp | 已有 | 未修订（EP-STDP关系已在EP新建页中引用，现有stdp页足够）|
+| shy-hypothesis | 已有 | 未修订（new connection added to cortical-slow-oscillation page）|
+
+**矛盾检查**：
+- 无新矛盾：EP框架是新概念，不与现有wiki主张冲突
+- SHY vs EP竞争：两者不互斥（信息最大化框架提示并行），不触发矛盾协议；已在cortical-slow-oscillation页注明
+
+**成熟度评估**：
+- equilibrium-propagation：emerging/medium（算法理论定理级，MNIST验证；皮层实现是假说）
+- hopfield-network：established/high（1982年经典，数学严谨，Nobel 2024，多方验证）
+
+---
+
+## 步骤 E：图谱与导航
+
+- `_graph.json`：+2 节点（equilibrium-propagation, hopfield-network），+12 条边；283 节点，1591 边
+- `wiki/index.md`：更新头部元数据；新增 equilibrium-propagation 和 hopfield-network 条目；更新 credit-assignment 和 pc-learning 条目
+- `wiki/CHANGELOG.md`：添加 2026-09-04 条目（新建2页，修订3页，矛盾0条，悬空引用3个待补）
+
+---
+
+## 步骤 F：治理层
+
+- `state/topic_ledger.json`：新增条目（117 条，total_articles=135）
+- `state/unresolved_questions.md`：追加 Q-ep-01（高）、Q-ep-02（中）
+- `state/source_registry.json`：新增 5 个来源（总计 563 个）
+- `state/monthly_synthesis.md`：追加 2026-09-04 摘要
+- `state/contested_claims.json`：无变化（无新矛盾）
+- `state/maturity_index.json`：未单独更新（如文件存在，依赖 wiki frontmatter 为主要状态记录）
+
+---
+
+## 步骤 G：Git 操作
+
+**分支**：claude/funny-einstein-9v670h（Web 环境分支；内容同步自 main 最新）
+**commit message**：Add neuro daily article + wiki consolidation for 2026-09-04
+
+---
+
+## 自检结果（步骤 H）
+
+**真实性**：
+- [x] 所有 wiki 新主张有来源（PMID/DOI）
+- [x] 区分了事实/主流模型/推测（EP皮层实现标注"假说"；EP数学定理标注"高"；STDP等价标注"高"）
+- [x] 未把单篇/小样本研究写成定论（Altun 2025 标注"中（理论严谨；神经实现待验证）"）
+- [x] 所有来源均为开放全文，无"未读取全文"标注
+
+**一致性**：
+- [x] 无新矛盾，未触发矛盾协议
+- [x] 修订页的 updated/revision_count/修订历史已同步
+- [x] _graph.json 无悬空边（EP的related中contrastive-hebbian-learning暂无节点页，已在CHANGELOG登记为悬空引用）
+
+**可导航**：
+- [x] index.md 和 CHANGELOG.md 反映今天变化
+- [x] 新页 equilibrium-propagation 的 related（9个）和 prerequisites（4个）均已填写
+- [x] 新页 hopfield-network 的 related（5个）和 prerequisites（3个）均已填写
+
+**情景层完整**：
+- [x] articles/2026-09-04-equilibrium-propagation-cortical-two-phase-learning.md ✅
+- [x] notes/2026-09-04-reading-notes.md ✅
+- [x] sources/2026-09-04-sources.json ✅
+- [x] logs/2026-09-04-run.log ✅（本文件）
+- [x] 未修改任何旧情景层文件（append-only 原则严格遵守）
+
+---
+
+## 最终状态
+
+- 分支：claude/funny-einstein-9v670h（推送至 origin/claude/funny-einstein-9v670h + origin/main）
+- commit hash：13cfe8a
+- push 状态：✅ 成功（claude/funny-einstein-9v670h → origin claude/funny-einstein-9v670h AND main）

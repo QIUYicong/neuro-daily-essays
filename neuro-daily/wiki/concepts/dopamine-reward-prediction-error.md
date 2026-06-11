@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-06-15
-revision_count: 3
+updated: 2026-08-29
+revision_count: 11
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting]
-prerequisites: [synaptic-transmission, ltp, hebbian-learning]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, lateral-habenula, rmtg, actor-critic-model, habit-formation, substance-use-disorder, incentive-salience, deltaFosB, myelination, oligodendrocyte, orbitofrontal-cortex, subjective-value-encoding, vta, substantia-nigra, d1-d2-receptor-signaling, direct-indirect-pathway, anterior-cingulate-cortex]
+prerequisites: [synaptic-transmission, ltp, hebbian-learning, dopamine-systems-anatomy]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding]
-key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583"]
+source_articles: [2026-06-06-dopamine-systems-anatomy, 2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision]
+key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:37957318", "PMID:16633341"]
 ---
 
 # 多巴胺奖励预测误差 (Dopamine Reward Prediction Error, DA-RPE)
@@ -81,6 +81,8 @@ DA 响应有两个时间层次：
 - [[competition-selection-principle]] — DA-RPE 是细胞层面（CREB 竞争）和回路层面（VIP 去抑制）竞争机制的可能上游信号
 - [[parkinsons-disease]] — SNc DA神经元死亡使RPE信号和基底节回路平衡同时崩溃
 - [[basal-ganglia]] — 纹状体D1/D2受体是DA-RPE信号的直接靶点，形成动作选择回路
+- [[actor-critic-model]] — DA-RPE是演员-批评家框架中批评家（NAc）输出的TD误差δ的神经实现；DA爆发/抑制对应δ的正/负
+- [[habit-formation]] — DA-RPE通过D1/D2-MSN突触权重更新驱动目标导向与习惯系统的长期学习
 
 ## 未解问题
 
@@ -110,8 +112,99 @@ Diederen & Fletcher（2021, PMID:32338128）明确指出，多巴胺 RPE 信号�
 - 2026-06-14 · 修订 · 基于《多巴胺的沉默与节律的失控》（PD文章）· 补充了DA的双重功能（RPE教学 vs 基底节回路调节）及PD作为DA-RPE系统崩溃的极端案例；新增关联 parkinsons-disease、basal-ganglia
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 补充了DA-RPE 与预测编码框架的整合（Diederen & Fletcher 2021）；新增关联 predictive-coding, precision-weighting；新增精神分裂症 aberrant salience 的精度失调解释
 
+## DA-RPE的负向来源：外侧缰核（LHb）回路（2026-07-11 补充）
+
+DA-RPE框架的"负预测误差（δ<0）→DA被抑制"这一半，其神经回路底物是：
+
+**外侧缰核（LHb）→ 喙内侧被盖核（RMTg）→ DA神经元（VTA/SNc）**
+
+具体逻辑：当奖励低于预期时，LHb神经元爆发（谷氨酸能），激活RMTg（GABA能），后者抑制94%的DA神经元（Hong et al. 2011，PMID:21832176）。这是DA-RPE负向臂的**回路级实现**。
+
+**在抑郁症中**，这条路径发生病理性改变：LHb因βCaMKII↑和Kir4.1星形胶质失调陷入持续爆发放电，导致DA（和5-HT）被持续而非短暂地抑制，产生快感缺失和动机缺乏。氯胺酮通过LHb NMDAR通道捕获阻断爆发，实现快速抗抑郁效果（见[[lateral-habenula]]、[[burst-firing-lhb]]）。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| LHb通过RMTg（GABA）提供DA神经元的负预测误差输入 | 灵长类三区同步记录+电刺激（94% DA被抑制）| PMID:21832176（PMC3315151）| 高 |
+| LHb慢性爆发放电→持续DA抑制→抑郁 | 体内电生理+光遗传因果实验 | PMID:29446381 | 高 |
+
+## DA-RPE 在成瘾中的系统性崩溃（2026-07-14 补充）
+
+成瘾是 DA-RPE 系统遭受最极端破坏的病理模型（Koob & Volkow 2016, PMID:27475769, PMC6135092）：
+
+**超生理 RPE 冲击**：可卡因等成瘾药物将 NAc 多巴胺提升至基线约 20 倍（食物奖励约 3-5 倍），产生远超任何自然奖励的 δ 信号，使 D1-MSN 过度激活，并通过 ΔFosB 积累留下持久分子印记。
+
+**RPE 系统的 allostatic 重设**：重复药物暴露后，多巴胺的稳态基线下降（对所有奖励的 phasic 响应减弱），DA 系统整体敏感性降低——但对**药物相关线索**的响应因敏化而增强。这种不对称性是"对自然奖励无感，对药物线索过度敏感"的神经机制。
+
+**D2 受体下调**：PET 成像一致发现，多种物质成瘾者（可卡因、酒精、阿片类、甲基苯丙胺）的纹状体 D2 受体结合力显著降低。D2（间接通路，NoGo）信号减弱 → "刹车"失效 → 药物寻求行为的抑制能力下降。
+
+**连接到激励显著性**：DA-RPE 信号的成瘾性改变与激励显著性（wanting）系统的选择性敏化密切相关，但并不等同——Robinson & Berridge 的框架补充了"DA 编码 wanting 而非 liking"的关键维度，即 DA-RPE 在成瘾中驱动的是动机性接近行为，而非快感体验。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| 可卡因将 NAc DA 提升约 20 倍于基线 | 大鼠 NAc 微透析（体内实时测量） | PMID:27475769 综述 | 高 |
+| 成瘾者纹状体 D2 结合力下降（多种物质） | PET 成像（多实验室，人类） | PMID:27475769 综述 | 高 |
+| 成瘾中 DA 选择性驱动 wanting（激励显著性）而非 liking | L-DOPA 分离实验（人类）；DA 耗竭行为学 | PMID:18640920 (PMC2607325) | 中-高 |
+
+## DA-RPE作为演员-批评家框架中批评家信号（2026-07-13 补充）
+
+在基底节的演员-批评家架构中，DA-RPE不只是抽象的教学信号，而是有具体神经解剖角色：
+
+- **批评家（NAc）**：维护状态价值函数V(s)；中脑DA神经元的相位放电量化为TD误差 δ = r(t) + γV(s') − V(s)
+- **通路特异性传递**：SNc→背侧纹状体（演员）的DA信号驱动动作策略的三因素学习规则更新；VTA→NAc（批评家）DA信号更新V(s)
+- **连接到习惯系统**：model-free演员（DLS）使用DA-RPE信号更新S-R权重，但不推断结果——因此即使奖励价值变化（δ < 0），已固化的习惯也难以通过DA信号逆转（DLS S-R权重稳定性高）
+
+## 修订历史
+
+- 2026-06-07 · 创建 · 基于《多巴胺的时间机器》 · 初始置信度：高
+- 2026-06-14 · 修订 · 补充DA双重功能（RPE教学 vs 基底节回路调节）
+- 2026-06-15 · 修订 · 补充DA-RPE与预测编码框架整合
+- 2026-07-11 · 修订 · 补充LHb→RMTg→DA负预测误差回路底物
+- 2026-07-12 · 修订 · 补充DA-RPE在更广义预测编码框架中的定位
+- 2026-07-13 · 修订 · 基于《行动的仲裁者》(#81) · 补充DA-RPE作为演员-批评家框架批评家信号的解剖角色；新增关联actor-critic-model, habit-formation
+- 2026-07-14 · 修订 · 基于《欲望的叛变》(#82) · 补充 DA-RPE 系统在成瘾中的 allostatic 崩溃（超生理冲击、D2 下调、wanting/liking 分离）；新增关联 substance-use-disorder、incentive-salience、deltaFosB
+- 2026-07-27 · 修订 · 基于《绝缘层的革命》(#95) · 新增 VTA 髓鞘化维度：Yalçın et al. 2024（PMID:38839962）表明 VTA 中 OL 生成（由多巴胺神经元活动驱动）是阿片类奖励的必要条件——OL 可塑性参与 DA 回路的传导时序调节，是 DA-RPE 系统的结构性基础之一；新增关联 myelination、oligodendrocyte
+- 2026-07-29 · 修订 · 基于《价值的地图》文章 #97 · 新增"OFC 双层学习对 DA-RPE 框架的扩展"小节：Hattori 2023 发现 OFC 快速学习依赖 DA-RPE，慢速元学习依赖 CaMKII 独立机制；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:37957318
+- 2026-06-06 · 修订（回溯补充） · 基于《奖励、运动与认知的统一信使》(#15，多巴胺系统解剖基础) · 新增 prerequisites: dopamine-systems-anatomy；related 新增 vta, substantia-nigra, d1-d2-receptor-signaling, direct-indirect-pathway；建立完整的解剖基础—计算逻辑前后序关系
+- 2026-08-29 · 修订 · 基于《大脑的成本-效益计算器》(#129，前扣带回皮层) · 新增 related: anterior-cingulate-cortex；DA-RPE 信号通过 ERN 机制（D2 受体介导的 ACC 去抑制）在系统级产生行为调整信号；三因素规则的突触 DA 与 dACC 的 ERN 共享分子通路
+
+## VTA 髓鞘化对多巴胺回路的结构性调节（2026-07-27 补充）
+
+Yalçın et al. 2024（PMID:38839962, Nature）揭示了一个以前被完全忽视的机制：
+
+**多巴胺神经元活动 → VTA 局部 OL 生成 → 调节多巴胺释放动力学**
+
+具体证据：
+- 光遗传激活 VTA 多巴胺神经元 → 局部 OPC 增殖和 OL 分化增加
+- 遗传阻断 VTA 中 OL 生成 → NAc 多巴胺释放减弱
+- 同样阻断 → 小鼠对吗啡的条件性位置偏好（奖励行为）受损
+
+**意义**：DA-RPE 信号的质量不只取决于突触权重（D1/D2-MSN 的学习历史），也取决于多巴胺神经元轴突的**传导时序**——而后者被 OL 可塑性动态调节。这是首次在奖励回路中建立 OL 可塑性的因果必要性，将白质可塑性纳入 DA-RPE 的分析框架。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| VTA 多巴胺活动驱动局部 OL 生成；OL 缺失损害多巴胺释放和奖励行为 | 光遗传激活 + 遗传阻断 OL 生成 | PMID:38839962 | 高 |
+
+## OFC 双层学习对 DA-RPE 框架的扩展（2026-07-29 补充）
+
+Hattori et al.（2023, PMID:37957318, PMCID:PMC10689244）发现 OFC 中存在两种学习算法并行运行：
+
+- **快速学习**（within-session）：由即时多巴胺 RPE 信号驱动，这是标准 DA-RPE 框架的范围
+- **慢速元学习**（across-session）：由 CaMKII 依赖的突触可塑性积累跨会话的"任务结构理解"，**不依赖即时 DA-RPE 信号**
+
+这说明 DA-RPE（快速算法）和 OFC-CaMKII 元学习（慢速算法）是两层不同时间尺度的学习机制，分工不同：DA-RPE 负责"此刻这个选择值多少"，OFC 慢速层负责"这类问题该如何高效学习"。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| OFC 快速学习（within-session）依赖 RPE，慢速元学习（across-session）依赖 CaMKII 可塑性 | 小鼠钙成像+光遗传+CaMKII选择性干预 | PMID:37957318（PMC10689244）| 高（仅小鼠直接证据）|
+
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
 - [[2026-06-15-predictive-coding]]
+- [[2026-07-11-lateral-habenula-depression-ketamine]]
+- [[2026-07-12-predictive-coding-cortical-inference]]
+- [[2026-07-13-striatum-direct-indirect-pathway-habit]]
+- [[2026-07-14-addiction-dopamine-deltaFosB]]
+- [[2026-07-27-myelination-oligodendrocyte-plasticity]]
+- [[2026-07-29-orbitofrontal-cortex-value-decision]]

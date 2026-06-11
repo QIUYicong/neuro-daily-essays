@@ -1,0 +1,192 @@
+# 运行日志 · 2026-09-06
+
+**真实执行日期**：2026-06-10（UTC+8）
+**知识库虚拟日期**：2026-09-06
+**文章编号**：#136
+**文章标题**：PSD-95：兴奋性突触的主控分子
+**文章文件**：neuro-daily/articles/2026-09-06-psd95-synaptic-scaffold.md
+
+---
+
+## 选题过程
+
+**优先级层级判断**：Priority 3（填补悬空引用）
+
+**上游触发**：2026-09-05 文章《开放眼的胜利》（#119）创建了 `silent-synapse` 和 `critical-period-plasticity` 两个新 wiki 页，两页均引用 `psd-95` 为内部链接，在 2026-09-05 run log 中被标注为新的悬空引用（「下次填补」）。
+
+**选题理由**：
+- psd-95 是 silent-synapse 机制的核心执行蛋白（沉默突触"开锁"依赖 PSD-95 的 AMPAR 槽位提供）
+- psd-95 也是 postsynaptic-density 页面的核心分子（PSD 三层架构第一层主骨架），postsynaptic-density.md 的 related 字段引用了尚无页面的 psd-95
+- 同时，`tarp-auxiliary-subunit` 被 ampa-receptor 页面引用但无独立页面——随 psd-95 文章一并填补
+
+---
+
+## 文献检索
+
+**检索工具**：NCBI E-utilities（PubMed API）、PMC 全文检索
+**拒绝使用**：Sci-Hub、机构代理、任何付费墙绕过方式
+
+**主要检索词**：
+- "PSD-95 postsynaptic density scaffold"
+- "PSD-95 TARP Stargazin AMPA receptor"
+- "PSD-95 synaptic slot LTP"
+- "SynGAP PSD-95 PDZ slot competition"
+- "PSD-95 palmitoylation ZDHHC"
+- "PSD-95 critical period PSD-93"
+- "DLG4 intellectual disability ASD"
+
+**关键来源验证**（所有 PMID 通过 NCBI E-utilities 确认真实性）：
+
+| PMID | 作者 | 期刊 | 年份 | 获取状态 |
+|------|------|------|------|---------|
+| 7569905 | Cho / Morgan et al. | Science | 1992/1995 | 摘要仅读 |
+| 11082065 | El-Husseini et al. | Science | 2000 | 摘要仅读 |
+| 12359873 | Schnell et al. | PNAS | 2002 | **PMC129795 全文** |
+| 14749436 | Bhattacharyya et al. | J Neurosci | 2004 | **PMC6729816 全文** |
+| 16061821 | Kennedy lab | PNAS | 2005 | **PMC1182136 全文** |
+| 21525273 | Bhattacharyya et al. | J Neurosci | 2011 | **PMC3099547 全文** |
+| 27623146 | Bhattacharyya et al. | eLife | 2016 | **PMC5040590 全文** |
+| 27565345 | Zeng et al. | Cell | 2016 | **PMC5564291 全文** |
+| 23926273 | Nair et al. | J Neurosci | 2013 | **PMC6619720 全文** |
+| 26015564 | Bhattacharyya et al. | PNAS | 2015 | **PMC4475980 全文** |
+| 30586380 | Bhattacharyya et al. | PLoS Biol | 2018/2019 | **PMC6324823 全文**（already in registry） |
+| 36766729 | Bhattacharyya et al. | 2022/23 | 2022 | **PMC9913408 全文** |
+| 30359597 | Bhattacharyya et al. | 2019 | 2019 | 摘要仅读 |
+| 41614918 | Ramírez-Expósito et al. | 2026 | 2026 | **PMC12840169 全文** |
+
+**来源统计**（含笔记、Sources.json 中记录）：
+- 总来源：26条
+- 开放全文：18条（69%）
+- 摘要仅读：4条
+- 付费墙：2条（有 PMC 替代方案）
+- 已在注册表中：2条（复用）
+
+---
+
+## 写作过程
+
+**文章结构**（约5500字）：
+1. 入场（从一个 AMPAR 看 PSD-95 的槽位功能）
+2. 物质基础：PSD-95 分子的五域结构与定量（300分子/突触）
+3. 第一条链：PDZ1/2 → NMDAR GluN2B -ESDV 锚定
+4. 第二条链（核心）：TARP-PSD-95 轴——AMPAR 不直接结合 PSD-95，Stargazin 是桥
+5. SynGAP 槽位竞争：LTP 的分子时序（CaMKII → SynGAP 解离 → 槽位释放 → AMPAR 捕获）
+6. 纳米结构：垂直纤维阵列（超分辨证据）+ 液液相变（SynGAP/PSD-95 凝聚体）
+7. 发育轴：SAP102→PSD-95 的关键期切换（Bhattacharyya 2004 抗体蛋白组学）
+8. 关键期时间轴：PSD-95/PSD-93 竞争（KO 实验双向证明）
+9. 疾病窗口：DLG4 单倍剂量不足、SynGAP1 杂合截断突变
+10. 尾声（信息写入突触的分子实质）
+
+---
+
+## Wiki 固结
+
+### 新建页面（2页）
+
+**`wiki/concepts/psd-95.md`**（established/high）
+- 填补悬空引用：被 `silent-synapse` 和 `postsynaptic-density` 引用
+- 内容：五域结构、TARP-PSD95轴、SynGAP竞争、棕榈酰化循环、液液相变、关键期调控、11行证据表
+- related：silent-synapse, ltp, ltd, nmda-receptor, ampa-receptor, camkii, synaptogenesis, postsynaptic-density, critical-period, critical-period-plasticity, gephyrin-scaffold, tarp-auxiliary-subunit, syngap, dlg4-syndrome, working-memory
+- 未解问题：Q-psd95-01, Q-psd95-02
+
+**`wiki/concepts/tarp-auxiliary-subunit.md`**（established/high）
+- 填补悬空引用：被 `ampa-receptor` 引用
+- 内容：TARP家族（γ-1 to γ-8），Stargazin C末端 -TTPV → PSD-95 PDZ1/2 直接结合，突变体证据，门控调节，表面运输
+
+### 修订页面（2页）
+
+**`wiki/concepts/ltp.md`**（rev13 → rev14）
+- related 新增：psd-95, tarp-auxiliary-subunit, silent-synapse
+- source_articles 新增：2026-09-06-psd95-synaptic-scaffold
+- 修订历史注记添加
+
+**`wiki/concepts/postsynaptic-density.md`**（rev1 → rev2）
+- related 新增：psd-95, tarp-auxiliary-subunit, silent-synapse
+- source_articles 新增：2026-09-06-psd95-synaptic-scaffold
+- 修订历史注记添加
+
+---
+
+## 知识图谱更新
+
+**新增节点（2）**：
+- `psd-95`：mechanism / established / high
+- `tarp-auxiliary-subunit`：mechanism / established / high
+
+**新增边（22）**：
+- psd-95 → postsynaptic-density (part-of)
+- psd-95 → ltp (mechanism-of)
+- psd-95 → ltd (mechanism-of)
+- psd-95 → ampa-receptor (regulates)
+- psd-95 → nmda-receptor (regulates)
+- psd-95 → silent-synapse (regulates)
+- psd-95 → critical-period-plasticity (regulates)
+- psd-95 → camkii (related)
+- psd-95 → synaptogenesis (related)
+- psd-95 → gephyrin-scaffold (related)
+- psd-95 → working-memory (related)
+- psd-95 → tarp-auxiliary-subunit (related)
+- tarp-auxiliary-subunit → psd-95 (related)
+- tarp-auxiliary-subunit → ampa-receptor (regulates)
+- tarp-auxiliary-subunit → ltp (mechanism-of)
+- tarp-auxiliary-subunit → postsynaptic-density (part-of)
+- tarp-auxiliary-subunit → synaptogenesis (related)
+- ltp → psd-95 (related)
+- postsynaptic-density → psd-95 (related)
+- ampa-receptor → tarp-auxiliary-subunit (related)
+- silent-synapse → psd-95 (related)
+- critical-period-plasticity → psd-95 (related)
+
+**解决悬空引用**：
+- `tarp-auxiliary-subunit` ✅（resolved 2026-09-06）
+- `psd-95` ✅（resolved 2026-09-06，新增到悬空引用表并标记为已解）
+
+**图谱状态**：285 → 287 节点；1606 → 1628 条边
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`：新增条目 #136，total_articles=136，last_updated=2026-09-06
+- `state/unresolved_questions.md`：新增 Q-psd95-01, Q-psd95-02
+- `state/source_registry.json`：新增 12 条新来源（已有 2 条复用），total_sources=587
+- `state/monthly_synthesis.md`：新增 2026年9月 月度区块，包含本月5篇摘要和核心主题综述
+
+---
+
+## 新增笔记与来源文件
+
+- `notes/2026-09-06-reading-notes.md`：11个关键来源的详细阅读笔记
+- `sources/2026-09-06-sources.json`：26条来源完整元数据
+
+---
+
+## 新增未解问题
+
+- **Q-psd95-01**（中优先级）：LTP 时 PSD-95 分子绝对数量是否真的增加，还是只是槽位占用率变化？
+- **Q-psd95-02**（低优先级）：PSD-95 棕榈酰化-去棕榈酰化周期是否在睡眠期参与突触强度全局下调（SHY 假说）？
+
+---
+
+## Git 状态
+
+**暂存**：所有 neuro-daily/ 变更
+**提交信息**：`Add neuro daily article + wiki consolidation for 2026-09-06`
+**推送目标**：origin main
+
+**变更文件清单**：
+- neuro-daily/articles/2026-09-06-psd95-synaptic-scaffold.md（新建）
+- neuro-daily/notes/2026-09-06-reading-notes.md（新建）
+- neuro-daily/sources/2026-09-06-sources.json（新建）
+- neuro-daily/wiki/concepts/psd-95.md（新建）
+- neuro-daily/wiki/concepts/tarp-auxiliary-subunit.md（新建）
+- neuro-daily/wiki/concepts/ltp.md（修订 rev14）
+- neuro-daily/wiki/concepts/postsynaptic-density.md（修订 rev2）
+- neuro-daily/wiki/_graph.json（图谱更新 287节点/1628边）
+- neuro-daily/wiki/index.md（新增2页条目，更新状态行）
+- neuro-daily/wiki/CHANGELOG.md（新增2026-09-06条目）
+- neuro-daily/state/topic_ledger.json（新增条目#136）
+- neuro-daily/state/unresolved_questions.md（新增Q-psd95-01/02）
+- neuro-daily/state/source_registry.json（新增12来源，total=587）
+- neuro-daily/state/monthly_synthesis.md（新增九月区块）
+- neuro-daily/logs/2026-09-06-run.log（本文件）

@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-14
-updated: 2026-06-14
-revision_count: 1
-dimensions: [microcircuit, brain-region, behavior, cognition]
-related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit]
+updated: 2026-07-13
+revision_count: 2
+dimensions: [microcircuit, brain-region, behavior, cognition, theory]
+related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit, habit-formation, actor-critic-model, prefrontal-cortex, complementary-learning-systems]
 prerequisites: [dopamine-reward-prediction-error, synaptic-transmission, ltp]
-opens_questions: [Q-pd-beta-causality, Q-bg-habit-goal-split]
-source_articles: [2026-06-14-parkinson-basal-ganglia-circuit]
-key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439"]
+opens_questions: [Q-pd-beta-causality, Q-bg-habit-goal-split, Q-actor-critic-01, Q-actor-critic-02]
+source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-07-13-striatum-direct-indirect-pathway-habit]
+key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439", "PMID:20613723", "PMID:27069376", "PMID:16715055", "PMID:9054347"]
 ---
 
 # 基底节 (Basal Ganglia)
@@ -88,24 +88,78 @@ SNc DA神经元的放电率编码奖励预测误差（RPE）。高RPE时（超�
 | 双通路失衡解释运动减少与运动过多 | 人类/灵长类病理和生理研究综合 | PMID:2479133, PMID:1695404 | 高 |
 | 两通路实际上结构/功能相互交织 | 光遗传学同时激活实验；突触可塑性数据 | PMID:25065439 | 中 |
 
+## 光遗传学因果证据（2026-07-13 补充）
+
+Kravitz et al. 2010（PMID:20613723，PMC3552484，开放全文）用D1-Cre/D2-Cre转基因小鼠在背内侧纹状体分别表达ChR2，提供了迄今最直接的因果证明：
+
+- **激活直接通路（D1-ChR2）**：运动频率和持续时间显著增加，冻结减少——"Go"效应
+- **激活间接通路（D2-ChR2）**：运动减少，步态僵化，类帕金森症状——"NoGo"效应
+- **6-OHDA病变+直接通路激活**：运动完全恢复至病变前水平，证明帕金森运动缺陷本质上是直接通路功能不足
+
+这是对Albin-DeLong双通路模型的第一个强因果验证（非相关或病变推断）。
+
+## Haber螺旋-上升模型：动机到行动的级联（2026-07-13 补充）
+
+Haber 2016（PMID:27069376，PMC4826773，开放全文）用灵长类解剖示踪和人类DWI揭示纹状体的精细拓扑：
+
+**三层功能区划**：
+- 腹侧纹状体（NAc/伏隔核）← 边缘/奖励皮层（vmPFC/OFC/海马/杏仁核）：奖励、动机
+- 认知纹状体（尾状核头部）← 认知皮层（dlPFC/dACC）：工作记忆、认知灵活性
+- 感觉运动纹状体（壳核感觉运动区）← 初级感觉运动皮层（M1/SMA）：习惯、运动序列
+
+**螺旋-上升连接**（Striato-nigro-striatal spiral）：
+腹侧纹状体 → 腹侧中脑DA → 背侧一层纹状体 → 更背侧中脑DA → 再背侧纹状体……
+
+这个单向级联意味着奖励动机（腹侧）通过多突触级联影响运动执行（背侧），解释了动机状态如何驱动运动输出。
+
+## 习惯形成与目标导向双系统（2026-07-13 补充）
+
+纹状体背侧的功能分化是习惯/目标导向双系统的解剖底物：
+
+| 特征 | 背内侧纹状体（DMS）| 背外侧纹状体（DLS）|
+|------|------------------|------------------|
+| 对应系统 | 目标导向（goal-directed）| 习惯（habitual）|
+| 对奖励价值敏感性 | 高（实时追踪A-O关联）| 低（S-R联结）|
+| 皮层输入 | vmPFC/OFC驱动 | 感觉运动皮层驱动 |
+| 奖励贬值反应 | 敏感（减少行为）| 不敏感（继续行为）|
+| 计算范式 | Model-based | Model-free |
+
+Yin & Knowlton 2006（PMID:16715055）通过精确神经毒素病变证明：DMS病变损害目标导向但保留习惯；DLS病变损害习惯但保留目标导向。两系统**并行竞争**，训练深度决定哪个系统赢得控制权。
+
+## 演员-批评家框架作为基底节计算架构（2026-07-13 补充）
+
+演员-批评家模型（[[actor-critic-model]]）为基底节功能分区提供了计算解释：
+
+- **批评家（Critic）= 腹侧纹状体（NAc）**：估算状态价值V(s)，输出TD误差δ = r(t) + γV(s') − V(s)；中脑DA神经元的相位放电 = δ的神经实现
+- **演员（Actor）= 背侧纹状体（DMS + DLS）**：维护动作策略π(a|s)，根据δ更新突触权重
+- **DMS演员**：model-based（有内部世界模型），接近批评家，受vmPFC/OFC驱动
+- **DLS演员**：model-free（纯S-R权重），解剖上远离批评家，习惯系统的底物
+
 ## 连接
 
 - [[parkinsons-disease]] — DA神经元死亡导致基底节回路的范本性失衡
-- [[dopamine-reward-prediction-error]] — SNc的RPE信号是基底节学习的"第三因子"
+- [[dopamine-reward-prediction-error]] — SNc的RPE信号是基底节学习的"第三因子"；DA-RPE = 批评家输出的TD误差
 - [[three-factor-learning-rule]] — DA × dSPN/iSPN活动 = 基底节的三因素可塑性
 - [[beta-oscillations]] — PD状态的病理振荡；正常基底节中被γ替代
 - [[disinhibitory-circuit]] — 基底节-丘脑-皮层本质上是一个去抑制回路
 - [[working-memory]] — 前额叶纹状体回路参与工作记忆和认知控制
+- [[habit-formation]] — DMS（目标导向）vs DLS（习惯）是基底节功能分化的核心
+- [[actor-critic-model]] — 演员-批评家框架是基底节双系统的计算抽象
+- [[prefrontal-cortex]] — vmPFC/OFC驱动DMS（model-based演员）；prelimbic/infralimbic分工调节习惯/目标导向切换
 
 ## 未解问题
 
 - Q-pd-beta-causality：β振荡是PD中回路失衡的直接原因还是伴生物？
-- Q-bg-habit-goal-split：背外侧纹状体（习惯性学习）vs 背内侧纹状体（目标导向学习）的分工机制
+- Q-bg-habit-goal-split：DMS/DLS双系统动态竞争的分子开关是什么？（2026-07-13部分回答：解剖和行为证据明确，但分子层面切换机制未明）
+- Q-actor-critic-01：批评家/演员功能分工是否绝对？（Groman 2019数据提示背侧纹状体DA张力也参与model-based策略，与纯粹批评家-腹侧定位矛盾）
+- Q-actor-critic-02：新颖环境中的探索行为如何整合进演员-批评家框架？
 
 ## 修订历史
 
 - 2026-06-14 · 创建 · 基于《多巴胺的沉默与节律的失控》一文 · 初始置信度：高
+- 2026-07-13 · 修订 · 基于《行动的仲裁者》(#81) · 新增：Kravitz 2010光遗传因果证据；Haber螺旋-上升模型；DMS/DLS功能分化表格；演员-批评家架构；新增关联habit-formation, actor-critic-model, prefrontal-cortex, complementary-learning-systems；Q-bg-habit-goal-split部分解答；新增Q-actor-critic-01/02
 
 ## 来源文章
 
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
+- [[2026-07-13-striatum-direct-indirect-pathway-habit]]

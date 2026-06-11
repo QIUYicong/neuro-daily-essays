@@ -1,0 +1,142 @@
+{
+  "date": "2026-08-04",
+  "article_slug": "axon-guidance-growth-cone-wiring",
+  "article_number": 103,
+  "topic": "轴突导向与生长锥的分子导航机制",
+  "total_sources": 5,
+  "open_full_text_count": 3,
+  "abstract_only_count": 1,
+  "historical_no_pmc": 1,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "8895455",
+      "pmcid": null,
+      "doi": "10.1126/science.274.5290.1123",
+      "title": "The molecular biology of axon guidance",
+      "authors": ["Tessier-Lavigne M", "Goodman CS"],
+      "journal": "Science",
+      "year": 1996,
+      "volume": "274",
+      "issue": "5290",
+      "pages": "1123-1133",
+      "type": "review_foundational",
+      "full_text_available": false,
+      "full_text_note": "1996年历史文献，PubMed仅摘要，全文需机构授权。此综述首次系统阐明四大导向分子家族，被后续研究奉为奠基性文献。",
+      "key_claims_used": [
+        "Netrin-DCC 吸引/Netrin-UNC5 排斥的双功能性",
+        "Semaphorin 排斥；Slit-ROBO 排斥；Ephrin-Eph 双向信号框架",
+        "四大家族的跨物种保守性（线虫到哺乳动物）"
+      ],
+      "coverage_notes": "仅用摘要与引用二手综述。核心内容被后续综述充分引用描述，标注：仅摘要。"
+    },
+    {
+      "id": "S2",
+      "pmid": "21123392",
+      "pmcid": "PMC3098670",
+      "doi": "10.1101/cshperspect.a001727",
+      "title": "Mechanisms and molecules of neuronal wiring: a primer",
+      "authors": ["Kolodkin AL", "Tessier-Lavigne M"],
+      "journal": "Cold Spring Harb Perspect Biol",
+      "year": 2011,
+      "volume": "3",
+      "issue": "6",
+      "pages": "a001727",
+      "type": "review",
+      "full_text_available": true,
+      "full_text_source": "PMC3098670（开放全文）",
+      "key_claims_used": [
+        "生长锥肌动蛋白踏车运动的细胞骨架机制",
+        "DCC 信号通路：FAK→Rac1/Cdc42→Arp2/3→F-actin 分支聚合（吸引）",
+        "Plexin GAP 域抑制 R-RAS→降低整合素粘附（Semaphorin 排斥机制）",
+        "Ephrin/Eph 正向+反向双向信号的分子细节",
+        "Wnt/Shh 作为非经典导向分子的新角色"
+      ],
+      "coverage_notes": "开放全文已阅读。"
+    },
+    {
+      "id": "S3",
+      "pmid": "36942388",
+      "pmcid": "PMC10121128",
+      "doi": "10.1093/procel/pwad020",
+      "title": "Neuronal guidance genes in health and diseases",
+      "authors": ["Yuasa-Kawada J", "Kinoshita-Kawada M", "Tsuboi Y", "Wu JY"],
+      "journal": "Protein Cell",
+      "year": 2023,
+      "volume": "14",
+      "issue": "4",
+      "pages": "258-288",
+      "type": "review_comprehensive",
+      "full_text_available": true,
+      "full_text_source": "PMC10121128（开放全文）",
+      "key_claims_used": [
+        "SLIT-ROBO 信号通路：ARF6、PAK1 via RAC1-GTP/NCK1、WAVE/Arp2/3",
+        "SLIT-ROBO 抑制 N-cadherin 粘附（ROBO-CDH2 cis-complex）",
+        "MICAL 单加氧酶氧化肌动蛋白 Met44/Met47 → F-actin 解聚（Semaphorin 排斥机制）",
+        "Ephrin 正向（ROBO→ephexin1→RhoA）+反向（Src→EphrinB-ICD 磷酸化）信号协同建立视网膜 RC 地形图",
+        "嗅球地图：OR→cAMP→NRP1/NRP2 比例→Sema3A/3F 敏感性→投射位置",
+        "海马层状投射：TEN3-TEN3 同质吸引 + TEN3-LPHN2 异质排斥（MEC→CA1近端 / LEC→CA1远端）",
+        "视网膜地图：删除 EphrinA 和视网膜波任一不足以破坏地图，联合删除才完全崩溃（协同冗余）",
+        "ROBO3 人类突变 → HGPPS（水平凝视麻痹+脊柱侧弯）"
+      ],
+      "coverage_notes": "开放全文已阅读，是今日文章最重要的现代综述来源。"
+    },
+    {
+      "id": "S4",
+      "pmid": "39075893",
+      "pmcid": "PMC11624883",
+      "doi": "10.4103/NRR.NRR-D-24-00126",
+      "title": "The role of axon guidance molecules in the pathogenesis of epilepsy",
+      "authors": ["Liu Z", "Pan C", "Huang H"],
+      "journal": "Neural Regen Res",
+      "year": 2024,
+      "volume": "20",
+      "issue": "4",
+      "pages": "1004-1017",
+      "type": "review_disease",
+      "full_text_available": true,
+      "full_text_source": "PMC11624883（开放全文）",
+      "key_claims_used": [
+        "慢性癫痫中 Sema3F/NRP2 表达改变导致苔藓纤维发芽，形成异常兴奋性回路",
+        "RGM 上调与癫痫发作频率降低的相关性",
+        "Netrin-1/DCC 调控 GluA1-AMPAR 转运，影响 E/I 平衡",
+        "导向分子在癫痫神经炎症中的作用（Sema7A 促炎症因子表达）"
+      ],
+      "coverage_notes": "开放全文已阅读，提供了疾病维度的重要补充。"
+    },
+    {
+      "id": "S5",
+      "pmid": "14077501",
+      "pmcid": null,
+      "doi": "10.1073/pnas.50.4.703",
+      "title": "Chemoaffinity in the orderly growth of nerve fiber patterns and connections",
+      "authors": ["Sperry RW"],
+      "journal": "Proc Natl Acad Sci USA",
+      "year": 1963,
+      "volume": "50",
+      "issue": "4",
+      "pages": "703-710",
+      "type": "original_research_historical",
+      "full_text_available": false,
+      "full_text_note": "历史文献（1963年），无 PMC 全文，仅供引用背景介绍。化学亲和性假说原始论文，Sperry 因此工作分享 1981 年诺贝尔生理学或医学奖。",
+      "key_claims_used": [
+        "化学亲和性假说：视网膜和顶盖细胞上有分子标签指导拓扑投射",
+        "旋转视网膜实验：再生轴突恢复原有拓扑，不依赖视觉反馈"
+      ],
+      "coverage_notes": "仅用于历史背景介绍，标注：未读全文（历史文献）。"
+    }
+  ],
+  "search_queries_used": [
+    "axon guidance mechanisms growth cone semaphorin netrin slit ephrin review PMC open access 2022 2023 2024",
+    "growth cone filopodia navigation chemoattraction chemorepulsion semaphorin axon guidance PubMed review",
+    "Tessier-Lavigne Goodman 1996 molecular biology axon guidance PMID",
+    "Kolodkin Tessier-Lavigne 2011 mechanisms molecules neuronal wiring PMID PMC",
+    "hippocampal sharp-wave ripples sleep memory consolidation review 2023 2024"
+  ],
+  "sources_excluded": [
+    {
+      "reason": "体外实验，体内相关性不明确",
+      "description": "多个关于体外生长锥转向实验的原始研究；对机制理解有贡献但体内证据不足，不作为主要来源引用"
+    }
+  ]
+}

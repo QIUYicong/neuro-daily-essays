@@ -1,0 +1,106 @@
+# 运行日志 2026-08-06（知识库虚拟日期）
+
+**真实执行日期**：2026-06-06（系统时钟 UTC+8）
+**文章编号**：#105
+**运行状态**：✅ 成功
+
+---
+
+## 搜索词与数据源
+
+**PubMed E-utilities 搜索**：
+- `synaptogenesis neuroligin neurexin review` → 候选15个 PMIDs
+- `synaptogenesis molecular mechanism excitatory inhibitory review` → 候选15个 PMIDs
+- `LRRTM neurexin synapse formation` → 候选5个 PMIDs
+- `gephyrin inhibitory synapse formation review` → 候选5个 PMIDs
+- `Scheiffele neuroligin synaptogenesis 2000` → PMID:10892652
+- `Sudhof neuroligin neurexin synaptic 2008` → PMID:18923512
+- `neuroligin-3 R451C autism mouse model` → 候选5个 PMIDs
+
+**Europe PMC 搜索**（开放全文）：
+- `synaptogenesis neuroligin neurexin review` + hasFullText=true → 8条结果
+- `postsynaptic density scaffold excitatory synapse review PSD95 Shank` + hasFullText=true → 6条结果
+
+---
+
+## 候选来源（共检索约35个 PMIDs/PMCIDs）
+
+**采用来源（10个）**：
+| PMID/PMCID | 标题摘要 | 采用原因 | 全文状态 |
+|------------|---------|---------|---------|
+| PMID:10892652 | Scheiffele 2000, Cell | 历史性突破，NL 诱导突触前分化 | 摘要仅读 |
+| PMID:30359597 | Sudhof 2018, Neuron | 突触形成顶级综述，CAM 双向信号 | 摘要仅读 |
+| PMID:18923512 | Sudhof 2008, Nature | NL-NRXN 与认知疾病权威综述 | 摘要仅读 |
+| PMID:26209464 | Bemben 2015, Trends Neurosci | NL 细胞分子全景综述 | 摘要仅读 |
+| PMID:12669065 | Jamain 2003, Nat Genet | NLGN3 R451C ASD 遗传证据 | 摘要仅读 |
+| PMC12840169 | Ramirez-Exposito 2026, CIMB | PSD 三层骨架+Gephyrin+纳米结构 | **开放全文已读** |
+| PMC12985673 | Boyd 2026, Sci Adv | NL2-NRXβ1 弱结合×聚集效应 | **开放全文已读** |
+| PMC13094498 | Kim 2026, Mol Cells | 分子连续性：导向→突触双功能 | **开放全文已读** |
+| PMC13014944 | Li 2026, Mol Cells | CAMs 在神经调质系统中的作用 | **开放全文已读** |
+| PMID:31995730 | Roppongi 2020, Neuron | LRRTM-NRXN 与硫酸乙酰肝素 | 摘要仅读 |
+
+**排除来源**：
+- PMID:15389766（Gauthier 2005）：NLGN3/4 突变在魁北克自闭症人群中未重复——文章侧重机制而非流行率，排除
+- 多个 gephyrin 相关搜索结果（关于抑郁/GABAergic）：主题偏离，排除
+
+---
+
+## 固结步骤 D 结果
+
+**新建 wiki 页（4）**：
+1. `wiki/concepts/synaptogenesis.md` rev1 — 突触生成机制全面初始化
+2. `wiki/concepts/neuroligin-neurexin.md` rev1 — NL-NRXN 系统
+3. `wiki/concepts/postsynaptic-density.md` rev1 — PSD 三层骨架
+4. `wiki/concepts/gephyrin-scaffold.md` rev1 — Gephyrin 抑制性格栅
+
+**修订 wiki 页（1）**：
+- `wiki/concepts/axon-guidance.md` rev1→rev2：新增分子连续性模型（Kim 2026）
+
+**矛盾检查**：
+- NL2-NRXβ1 弱结合（Boyd 2026）与已有"NL-NRXN 是突触识别中心机制"的主流理解无冲突，属于机制细化（不是否定）。无新矛盾登记。
+
+---
+
+## 图谱更新
+
+- 节点：214 → 218（+4）
+- 边：1233 → 1249（+16）
+- 新节点 slug：synaptogenesis、neuroligin-neurexin、postsynaptic-density、gephyrin-scaffold
+
+---
+
+## 自检结果
+
+- [x] 每条 wiki 新主张有来源（PMID/PMCID）？✅
+- [x] 区分了事实/模型/推测/争议？✅（标注了开放全文读 vs 摘要仅读；标注了证据强度）
+- [x] 没把单篇/小样本/动物研究写成定论？✅（NL3 R451C 单家族证据明确标注）
+- [x] 冲突走了矛盾协议？✅（无新冲突）
+- [x] 被修订页 updated/revision_count/修订历史同步？✅
+- [x] _graph.json 无悬空边？✅（所有边的节点均已存在）
+- [x] index.md 和 CHANGELOG.md 反映今日变化？✅
+- [x] 新页 related/prerequisites 至少各填了一个？✅
+- [x] 文章/笔记/来源/日志齐全 append-only？✅
+
+---
+
+## Git 操作
+
+- 分支：main
+- 提交信息：`Add neuro daily article + wiki consolidation for 2026-08-06`
+- 推送目标：origin main（QIUYicong/neuro-daily-essays）
+
+---
+
+## 失败与限制
+
+- 部分重要来源（Sudhof 2018/2008, Scheiffele 2000, Bemben 2015, Jamain 2003, Roppongi 2020）为付费期刊，只读了摘要。PSD 三层架构主要依赖 2026 年开放全文综述（PMC12840169），机制描述可靠但部分细节来源是近期综述引用（非原始研究直接引用）。
+
+---
+
+## 推送状态
+
+推送到：https://github.com/QIUYicong/neuro-daily-essays/tree/main
+
+---
+
+*日志完成时间：2026-06-06（真实执行日期）*

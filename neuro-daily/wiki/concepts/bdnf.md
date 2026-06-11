@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-28
-updated: 2026-06-03
-revision_count: 2
+updated: 2026-09-12
+revision_count: 4
 dimensions: [molecular, cellular, synaptic, cognition, disease]
-related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, pv-interneurons, perineuronal-nets]
+related: [trkb-receptor, ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, pv-interneurons, perineuronal-nets, glucocorticoid-hippocampus-plasticity, hpa-axis]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-bdnf-01, Q-bdnf-02, Q-bdnf-03]
-source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053"]
+opens_questions: [Q-bdnf-01, Q-bdnf-02, Q-bdnf-03, Q-stress-01]
+source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-03-critical-period-plasticity, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]
+key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053", "PMID:15891777", "PMID:19317179", "PMID:38433044", "PMID:42066082"]
 ---
 
 # 脑源性神经营养因子 (BDNF, Brain-Derived Neurotrophic Factor)
@@ -34,6 +34,12 @@ BDNF 对晚期 LTP（L-LTP）不可或缺，但对早期 LTP（E-LTP）影响较
 在成年海马神经发生（SGZ）中，BDNF/TrkB 信号通过 PI3K/Akt（抗凋亡）和 MAPK/ERK（分化促进）分别支持新生颗粒细胞的存活和成熟。有氧运动上调血清 BDNF 水平，与人类海马体积增大相关（Erickson et al. 2011, PMID:21282661, RCT, n=120, 前海马体积+2%）。
 
 在阿尔茨海默病中，BDNF/TrkB 信号是早期受损的靶点：死后脑组织研究显示海马和前额叶 BDNF 水平下降；Aβ 通过截断 TrkB→CREB 信号轴干扰 BDNF 信号（Colucci-D'Amato et al. 2020, PMID:33096634）。5×FAD 小鼠实验表明，单独增加 BDNF 或单独增加神经发生均不足以改善认知，而两者联合干预能完全模拟运动的认知改善效果（Choi et al. 2018, PMID:30190379）。
+
+**TrkB跨膜域作为抗抑郁药的共同变构靶点**（2024年新认识）：传统认为抗抑郁药（SSRI/SNRI/氯胺酮等）通过增加突触间BDNF浓度间接激活TrkB。Li et al. 2024（PMID:38433044，Trends Biochem Sci）综合多项研究指出，氟西汀、氯胺酮、LSD等多类不同机制的抗抑郁/精神药物均是TrkB**跨膜域的直接变构结合分子**，能在BDNF存在下放大TrkB信号。TrkB跨膜域与膜胆固醇的相互作用双向调节信号效率。这一发现重新定义了"抗抑郁药作用靶点"的核心分子。
+
+**TrkB/mGluR5跨受体对话**（2026年新认识）：Arefin et al. 2026（PMID:42066082，PMC13134641，Science Advances）揭示了TrkB与代谢型谷氨酸受体mGluR5之间的双模式交叉对话：(1) 信号协同：mGluR5的Gq信号放大TrkB激活的ERK信号；(2) 转运拮抗：BDNF-TrkB驱动mGluR5内吞→mGluR-LTD抑制。氯胺酮通过增加TrkB表面表达（前向转运↑，依赖跨膜域Y433）触发此交叉对话，可能是快速抗抑郁效果的部分机制。
+
+**慢性应激/糖皮质激素对 BDNF 的抑制**：慢性糖皮质激素过量是 BDNF 下调的重要内源性因素。GR 在慢性应激条件下通过**基因组路径**直接抑制 BDNF 转录：GR 结合 BDNF exon IV 启动子区域的负性糖皮质激素反应元件（negative GRE），使 BDNF exon IV mRNA↓30-50%（该亚型是海马最主要的活动依赖性 BDNF 异构体）。后果：① L-LTP 不能维持（E-LTP→L-LTP 转化需要 BDNF 驱动的 Arc 局部翻译）；② SGZ 新生神经元存活率↓（TrkB→PI3K/Akt 存活信号减弱）。这一路径使 BDNF 成为"慢性应激→突触损伤→认知下降"链条的**中间枢纽**：HPA 失调（慢性高皮质醇）→ GR 负调控 BDNF → L-LTP 失败 + 神经发生减少 → 海马记忆编码能力下降（综述于 de Kloet et al. 2005，PMID:15891777；Conrad 2008，PMID:19317179）。
 
 ## 关键机制
 
@@ -103,6 +109,8 @@ L-LTP 不能维持 · 新生神经元减少 →
 - [[nmda-receptor]] — NMDA 受体 Ca²⁺ 内流是 BDNF 上调的上游触发信号
 - [[camkii]] — PLCγ/Ca²⁺ 通路激活 CaMKII；与 NMDA 通路并行的 LTP 维持机制
 - [[engram-cells]] — 印迹细胞 AMPA/NMDA 比值高，可能部分由 BDNF 驱动的 L-LTP 解释
+- [[glucocorticoid-hippocampus-plasticity]] — 慢性 GR 激活通过负性 GRE 直接抑制 BDNF exon IV 转录（BDNF↓30-50%）；BDNF 是 GC 慢性损害 LTP 的主要下游中间子
+- [[hpa-axis]] — HPA 轴慢性过激活→皮质醇持续升高→GR 负性调控 BDNF→突触可塑性下降；是 HPA 失调的认知后果链
 
 ## 未解问题
 
@@ -114,8 +122,12 @@ L-LTP 不能维持 · 新生神经元减少 →
 
 - 2026-06-28 · 创建 · 基于《BDNF：大脑给自己的成长信号》一文 (#64) · 初始置信度：高（基础机制）/中（AD 及 Val66Met 部分）
 - 2026-06-03 · 修订 rev2 · 基于《时间刻入神经回路：关键期》(#72) · 新增关键期相关角色：BDNF 通过 TrkB 加速 GABAergic 成熟（Huang 1999）、驱动 PV+ 细胞成熟时间轴、PNN-aggrecan-PTPσ 轴抑制 BDNF 信号进入 PV+ 细胞（Lesnikova 2021）；related 新增 critical-period, pv-interneurons, perineuronal-nets
+- 2026-07-09 · 修订 rev3 · 基于《应激的双刃剑》(#77) · 新增"慢性应激/糖皮质激素对 BDNF 的抑制"段落（GR 负性 GRE→BDNF exon IV↓30-50%；L-LTP 失败和神经发生减少双重后果）；related 新增 glucocorticoid-hippocampus-plasticity、hpa-axis；key_sources 新增 PMID:15891777、PMID:19317179；opens_questions 新增 Q-stress-01；连接新增两条
+- 2026-09-12 · 修订 rev4 · 基于《TrkB：隐藏在三个故事里的分子开关》(#142) · 新增 TrkB 跨膜域作为多类抗抑郁药变构靶点（Li 2024，PMID:38433044）；新增 TrkB/mGluR5 双模式交叉对话（Arefin 2026，PMID:42066082）；related 新增 trkb-receptor；key_sources 新增 PMID:38433044、PMID:42066082
 
 ## 来源文章
 
 - [[2026-06-28-bdnf-trk-b-plasticity-memory]]
 - [[2026-06-03-critical-period-plasticity]]
+- [[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]]
+- [[2026-09-12-trkb-receptor-three-roles]]

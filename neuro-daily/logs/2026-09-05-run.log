@@ -1,0 +1,130 @@
+# 运行日志 · 2026-09-05
+
+**文章编号**：#119（关键期可塑性子系列·ODP第二阶段）
+**标题**：开放眼的胜利：视觉关键期第二阶段是 Hebbian 竞争还是稳态自救？
+**文件**：`neuro-daily/articles/2026-09-05-odp-stage2-hebbian-vs-homeostatic.md`
+
+---
+
+## 执行时间线
+
+- 启动：读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md 确认流程完整
+- 切换到 main 分支 + `git pull --rebase origin main` 同步成功
+- 状态文件读取：topic_ledger（117条），contested_claims（12条 open），图谱（283节点/1591边）
+- 选题分析：
+  - 悬空引用：`critical-period-plasticity`（被 metaplasticity 引用），`cognition`（低优先级）
+  - 高优先级矛盾：C-2026-08-15-01（ODP Stage 2 机制分歧，medium）
+  - 近 7 日层级覆盖：theory/whole-brain-network/cognition 密集 → 本日转向 molecular/synaptic/cellular
+- 选题确定：ODP 第二阶段机制（直接解决 C-2026-08-15-01 + 填补悬空引用 critical-period-plasticity）
+- 文献检索：三个并行代理
+  1. 关键期可塑性一般综述（返回 11 篇论文，5 篇开放全文）
+  2. ODP Stage 2 专项检索（返回 18 篇论文，14 篇开放全文）
+  3. 关键 PMID 验证（确认 4 个 PMID，纠正 Kaneko 2017 期刊名，Kaneko 2008 PMID 错误 → 18549780）
+- 文章写作完成（~4500 字）
+- Wiki 固结：新建 2 页，修订 1 页，更新矛盾登记
+- 状态文件更新完成
+- Git commit + push
+
+---
+
+## 文献检索
+
+**搜索词**：
+- "ODP Stage 2 open-eye potentiation mechanism"
+- "Kaneko Stryker TNFalpha homeostatic ODP"
+- "PSD-95 silent synapse critical period"
+- "Huang Löwel Schlüter 2015 silent synapse PNAS"
+- "Frenkel Bear 2004 monocular deprivation"
+- "Ranson homeostatic juvenile adult ODP"
+- "critical period plasticity GABA PV perineuronal nets review"
+
+**来源使用情况**：
+- PMID:18549780 (Kaneko 2008 Neuron) — PMC2884387 ✅ 开放全文
+- PMID:15603735 (Frenkel & Bear 2004) — ❌ 付费，摘要
+- PMID:22841309 (Espinosa & Stryker 2012) — PMC3612584 ✅ 开放全文（已有）
+- PMID:26015564 (Huang 2015 PNAS) — PMC4475980 ✅ 开放全文
+- PMID:32765222 (Xu et al. 2020 Front Cell Neurosci) — PMC7380267 ✅（已有）
+- PMID:28093561 (Kaneko & Stryker 2017 Phil Trans R Soc B) — PMC5247599 ✅
+- PMID:22232689 (Ranson 2012 PNAS) — PMC3268335 ✅
+- PMID:30586380 (Favaro 2018 PLoS Biol) — PMC6324823 ✅
+- PMID:18977732 (Smith Bear 2009 Phil Trans) — PMC2674473 ✅
+- PMID:25701075 (Sugimura 2015) — ❌ 付费，摘要
+- PMID:33649238 (Yusifov 2021 PNAS) — PMC7958355 ✅
+- PMID:41240337 (Echavarri-Leet 2025 Cell Reports) — PMC12723367 ✅
+- PMID:41556652 (Foote 2026 ASN Neuro) — PMC12826708 ✅
+- PMID:41757096 (Reilly-Andújar 2026 bioRxiv) — PMC12934821（预印本）
+
+**注意事项**：
+- Kaneko & Stryker 2017 期刊非 eLife，而是 Phil Trans R Soc B（PMID:28093561 验证正确）
+- Kaneko 2008 Neuron 正确 PMID 是 18549780，非 18619582（后者是碳水化学论文）
+- Xu 2020 是 Frontiers in Cellular Neuroscience（综述），非 Science
+
+---
+
+## 文件变更清单
+
+### 新建文件（5个）
+
+| 文件 | 类型 | 说明 |
+|------|------|------|
+| `articles/2026-09-05-odp-stage2-hebbian-vs-homeostatic.md` | 文章 | ~4500字，14来源，ODP Stage 2 机制整合 |
+| `notes/2026-09-05-reading-notes.md` | 笔记 | 9篇文献阅读笔记 |
+| `sources/2026-09-05-sources.json` | 来源 | 14条来源（11开放+2摘要+2预印本）|
+| `wiki/concepts/silent-synapse.md` | wiki | 新概念页，revision_count=1；填补悬空引用 |
+| `wiki/concepts/critical-period-plasticity.md` | wiki | 新概念页，revision_count=1；填补悬空引用 |
+| `logs/2026-09-05-run.log` | 日志 | 本文件 |
+
+### 修订文件
+
+| 文件 | 变更 |
+|------|------|
+| `wiki/concepts/ocular-dominance-columns.md` | rev1→rev2；Stage 2 机制整合更新；新增 3 条证据；related+3页 |
+| `wiki/_graph.json` | 283→285节点，1591→1606条边；解决 critical-period-plasticity 悬空引用 |
+| `wiki/index.md` | 主题页总数264→266；新增2页条目；更新标题行 |
+| `wiki/CHANGELOG.md` | 新增 2026-09-05 条目 |
+| `state/topic_ledger.json` | total_articles 135→136；新增#119条目 |
+| `state/contested_claims.json` | C-2026-08-15-01 evidence_update 新增整合模型 |
+| `state/source_registry.json` | 新增12条来源；total 563→575 |
+| `state/monthly_synthesis.md` | 新增#119摘要 |
+
+---
+
+## Wiki 图谱更新
+
+**新增节点**（283→285）：
+- `silent-synapse`（concepts，established/high）
+- `critical-period-plasticity`（concepts，established/high）
+
+**解决悬空引用**：
+- `critical-period-plasticity` ✅（被 metaplasticity 引用，现已建立）
+
+**新增悬空引用（待补）**：
+- `psd-95`（silent-synapse 和 critical-period-plasticity 引用，暂无独立页）
+
+---
+
+## 矛盾检查
+
+**C-2026-08-15-01（ODP Stage 2 主导机制）**：
+- 状态：open → 新增整合模型证据（稳态许可先、Hebbian 精修后的时序协同框架）
+- 新增 evidence_update 条目（Kaneko 2008, Ranson 2012, Sugimura 2015, Echavarri-Leet 2025）
+- 裁决仍 open（直接同步测量实验缺失）
+- 未新增其他矛盾登记
+
+---
+
+## 未解问题
+
+**新增（3）**：
+- Q-ss-01（高优先级）：成年皮层沉默突触储备是否仍存在？是否可用于弱视治疗？
+- Q-ss-02（中优先级）：不同脑区沉默突触耗竭动力学是否相同？
+- Q-odc-03（已存在，更新）：Stage 2 直接双指标实验仍为高优先级开放问题
+
+---
+
+## Git 提交信息
+
+Branch: main
+Author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+Commit: 88c71e1
+Push 状态: ✅ 成功（`git push origin main`，remote: QIUYicong/neuro-daily-essays）

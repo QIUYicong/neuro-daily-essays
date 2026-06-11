@@ -1,0 +1,239 @@
+{
+  "date": "2026-07-13",
+  "topic": "纹状体直接/间接通路、习惯形成与演员-批评家架构",
+  "article_number": 81,
+  "total_sources": 11,
+  "open_full_text_count": 5,
+  "abstract_only_count": 6,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "27069376",
+      "pmcid": "PMC4826773",
+      "doi": "10.31887/DCNS.2016.18.1/shaber",
+      "title": "Corticostriatal circuitry",
+      "authors": "Haber SN",
+      "journal": "Dialogues in Clinical Neuroscience",
+      "year": 2016,
+      "volume": "18",
+      "issue": "1",
+      "pages": "7-21",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826773/",
+      "role": "主要来源：皮层-纹状体功能拓扑和螺旋-上升模型",
+      "key_contributions": [
+        "三区功能分化（腹侧/认知/感觉运动纹状体）",
+        "螺旋-上升连接：从腹侧到背侧的信息流",
+        "收敛区域：动机与行动计划的整合枢纽",
+        "直接/间接/超直接通路解剖"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "20613723",
+      "pmcid": "PMC3552484",
+      "doi": "10.1038/nature09159",
+      "title": "Regulation of parkinsonian motor behaviours by optogenetic control of basal ganglia circuitry",
+      "authors": "Kravitz AV, Freeze BS, Parker PRL, Kay K, Thwin MT, Deisseroth K, Bhatt AH",
+      "journal": "Nature",
+      "year": 2010,
+      "volume": "466",
+      "pages": "622-626",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3552484/",
+      "role": "关键证据：光遗传学直接/间接通路的因果控制实验",
+      "key_contributions": [
+        "直接通路激活→促进运动（减少冻结，增加运动起始）",
+        "间接通路激活→类帕金森症状（bradykinesia，冻结增加）",
+        "6-OHDA病变+直接通路激活→完全恢复运动到病变前水平"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "21469956",
+      "pmcid": null,
+      "doi": "10.1146/annurev-neuro-061010-113641",
+      "title": "Modulation of striatal projection systems by dopamine",
+      "authors": "Gerfen CR, Surmeier DJ",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2011,
+      "volume": "34",
+      "pages": "441-466",
+      "open_access": false,
+      "full_text_read": false,
+      "note": "未读取全文（付费），利用摘要和已知综述内容",
+      "role": "D1/D2受体分子机制的权威综述",
+      "key_contributions": [
+        "D1-MSN与D2-MSN的分子、解剖和生理二分性",
+        "D1（Gs/cAMP↑）vs D2（Gi/cAMP↓）信号级联",
+        "BAC转基因小鼠分类证据"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "26961942",
+      "pmcid": "PMC6601762",
+      "doi": "10.1523/JNEUROSCI.1905-15.2016",
+      "title": "Human Choice Strategy Varies with Anatomical Projections from Ventromedial Prefrontal Cortex to Medial Striatum",
+      "authors": "Piray P, Toni I, Cools R",
+      "journal": "Journal of Neuroscience",
+      "year": 2016,
+      "volume": "36",
+      "issue": "10",
+      "pages": "2972-2981",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6601762/",
+      "role": "人类研究：vmPFC→内侧纹状体白质束预测goal-directed策略",
+      "key_contributions": [
+        "vmPFC→内侧纹状体DTI-FA与model-based策略正相关",
+        "提供了goal-directed系统解剖底物的人类in vivo证据"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "30413646",
+      "pmcid": "PMC6325257",
+      "doi": "10.1523/JNEUROSCI.1704-18.2018",
+      "title": "Neurochemical and Behavioral Dissections of Decision-Making in a Rodent Multistage Task",
+      "authors": "Groman SM, Massi B, Mathias SR, Lee D, Taylor JR",
+      "journal": "Journal of Neuroscience",
+      "year": 2019,
+      "volume": "39",
+      "issue": "7",
+      "pages": "1356-1365",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6325257/",
+      "role": "大鼠中model-based学习与皮层纹状体多巴胺张力的关系",
+      "key_contributions": [
+        "Model-based（非model-free）学习与皮层-纹状体DA张力相关",
+        "大鼠和人类共享类似的model-based/free计算架构"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "16715055",
+      "doi": "10.1038/nrn1919",
+      "title": "The role of the basal ganglia in habit formation",
+      "authors": "Yin HH, Knowlton BJ",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2006,
+      "volume": "7",
+      "issue": "6",
+      "pages": "464-476",
+      "open_access": false,
+      "full_text_read": false,
+      "note": "未读取全文（付费），利用摘要内容",
+      "role": "DMS vs DLS功能分化的权威综述",
+      "key_contributions": [
+        "DMS病变→损害目标导向，保留习惯",
+        "DLS病变→损害习惯，保留目标导向",
+        "奖励贬值测试作为区分两系统的行为标准"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "18558860",
+      "doi": "10.1146/annurev.neuro.29.051605.112851",
+      "title": "Habits, rituals, and the evaluative brain",
+      "authors": "Graybiel AM",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2008,
+      "volume": "31",
+      "pages": "359-387",
+      "open_access": false,
+      "full_text_read": false,
+      "note": "未读取全文（付费），利用摘要内容",
+      "role": "习惯神经科学的全面综述，包括分块化机制",
+      "key_contributions": [
+        "基底节介导的分块（chunking）机制",
+        "习惯到神经精神症状的连续谱",
+        "习惯代表意志控制与自动控制的二分"
+      ]
+    },
+    {
+      "id": "S8",
+      "pmid": "9704982",
+      "doi": "10.1016/s0028-3908(98)00033-1",
+      "title": "Goal-directed instrumental action: contingency and incentive learning and their cortical substrates",
+      "authors": "Balleine BW, Dickinson A",
+      "journal": "Neuropharmacology",
+      "year": 1998,
+      "volume": "37",
+      "issue": "4-5",
+      "pages": "407-419",
+      "open_access": false,
+      "full_text_read": false,
+      "note": "未读取全文（付费），利用摘要内容",
+      "role": "目标导向行为双系统（条件依赖+激励价值）及皮层底物",
+      "key_contributions": [
+        "S-R刺激反应vs A-O动作结果两种控制系统",
+        "prelimbic PFC→条件依赖学习",
+        "insular cortex→激励价值学习"
+      ]
+    },
+    {
+      "id": "S9",
+      "pmid": "31018098",
+      "doi": "10.1146/annurev-neuro-080317-062843",
+      "title": "What, If, and When to Move: Basal Ganglia Circuits and Self-Paced Action Initiation",
+      "authors": "Klaus A, Alves da Silva J, Costa RM",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2019,
+      "volume": "42",
+      "pages": "459-480",
+      "open_access": false,
+      "full_text_read": false,
+      "note": "未读取全文（付费），利用摘要内容",
+      "role": "基底节自主运动起始的最新综述",
+      "key_contributions": [
+        "纹状体整合皮层/丘脑的what/if/when信息",
+        "直接/间接通路的动态平衡控制运动起始"
+      ]
+    },
+    {
+      "id": "S10",
+      "pmid": "10576743",
+      "doi": "10.1126/science.286.5445.1745",
+      "title": "Building neural representations of habits",
+      "authors": "Jog MS, Kubota Y, Connolly CI, Hillegaart V, Graybiel AM",
+      "journal": "Science",
+      "year": 1999,
+      "volume": "286",
+      "issue": "5445",
+      "pages": "1745-1749",
+      "open_access": false,
+      "full_text_read": false,
+      "note": "未读取全文（付费），利用摘要内容",
+      "role": "纹状体活动随习惯形成的括号化经典研究",
+      "key_contributions": [
+        "训练中纹状体活动从广泛分布→任务边界集中",
+        "\"括号化\"（chunking）的神经解剖学证据",
+        "习惯形成伴随纹状体活动重组"
+      ]
+    },
+    {
+      "id": "S11",
+      "pmid": "27235078",
+      "doi": "10.1016/j.neubiorev.2016.04.014",
+      "title": "Reappraising striatal D1- and D2-neurons in reward and aversion",
+      "authors": "Soares-Cunha C, Coimbra B, Sousa N, Rodrigues AJ",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": 2016,
+      "volume": "68",
+      "pages": "370-386",
+      "open_access": false,
+      "full_text_read": false,
+      "note": "未读取全文（付费），利用摘要内容",
+      "role": "挑战简单Go/NoGo二元模型的批判性综述",
+      "key_contributions": [
+        "奖励和厌恶刺激均激活D1/D2-MSN",
+        "两条通路协调（非纯粹对立）计算结果特异性选择",
+        "context-dependent协同模型"
+      ]
+    }
+  ]
+}

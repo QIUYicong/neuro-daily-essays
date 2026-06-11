@@ -1,0 +1,142 @@
+# Run Log: 2026-08-08
+
+## 基本信息
+- 日期：2026-08-08
+- 文章编号：#107
+- 主题：深部小脑核、下橄榄核与运动学习回路
+- 执行时间：~2026-08-08T09:00+08:00（自动触发）
+
+## Step A：状态读取
+
+读取文件：
+- `state/topic_ledger.json`（106篇，最后日期 2026-08-07）
+- `state/unresolved_questions.md`（含 Q-cb-01, Q-cb-02 等）
+- `state/contested_claims.json`（7 个 open 矛盾）
+- `wiki/_graph.json`（219节点，1255边）
+- `wiki/index.md`（第106篇，209主题页）
+- `state/monthly_synthesis.md`
+
+图分析发现3个悬空引用：
+- `motor-learning`（被 cerebellum, cerebellar-ltd, purkinje-cell 引用，无对应 wiki 页）
+- `deep-cerebellar-nuclei`（被 cerebellum, purkinje-cell 引用，无对应 wiki 页）
+- `inferior-olive`（被 climbing-fiber-error-signal 引用，无对应 wiki 页）
+
+## Step B：选题
+
+**选定主题**：深部小脑核（DCN）、下橄榄核（IO）与运动学习回路
+
+**选题理由**：
+1. 一篇文章可填补3个悬空引用（deep-cerebellar-nuclei, inferior-olive, motor-learning）
+2. 承接前篇（#100 攀爬纤维误差信号，#103 小脑 LTD）自然推进到"记忆存储在哪里"
+3. 未解问题 Q-cb-01 和 Q-cb-02 相关性高
+4. 科学价值：两相记忆模型是小脑学习理论的关键未解之谜
+
+## Step C：研究与写作
+
+### 搜索词
+1. `cerebellum motor learning climbing fiber inferior olive`
+2. `deep cerebellar nuclei motor learning review`
+3. `cerebellar LTD parallel fiber Purkinje cell motor adaptation`
+4. `eyeblink conditioning cerebellum interpositus`
+
+### 数据源
+- PubMed（摘要）
+- PMC（开放全文：PMID:23440175, PMID:21482355）
+
+### 候选来源：11篇
+| PMID | 作者 | 年份 | 证据强度 | 采用/排除 |
+|------|------|------|----------|----------|
+| 23440175 | Ito M | 2013 | 高 | 采用（开放全文） |
+| 21482355 | Schonewille M et al. | 2011 | 高 | 采用（开放全文，前篇已引用但新角度） |
+| 33203932 | De Zeeuw CI et al. | 2021 | 高 | 采用（摘要） |
+| 9378587 | Thompson RF et al. | 1997 | 高 | 采用（摘要，经典文献） |
+| 28025812 | Takehara-Nishiuchi K | 2018 | 中 | 采用（摘要） |
+| 19684593 | Ke MC et al. | 2009 | 中 | 采用（摘要，两相模型关键证据） |
+| 29643480 | Bostan & Strick | 2018 | 中 | 采用（摘要） |
+| 28858616 | Zhang Y et al. | 2017 | 中 | 采用（摘要） |
+| 29903454 | D'Angelo E | 2018 | 中 | 采用（摘要） |
+| 40848722 | Jin & Hull | 2025 | 低 | 采用（摘要，新发现，低置信度）|
+| 31522332 | Schmahmann JD et al. | 2020 | 高 | 采用（摘要，CCAS） |
+
+排除：
+- PMID:23493515（Hansel 等 2001）：DOI 10.1038/87419 与 PMID 不匹配，可能搜索代理错误，拒绝引用
+
+开放全文读取：2篇（PMID:23440175, PMID:21482355）
+仅摘要：9篇
+
+### 写作产出
+- 文章：`articles/2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit.md`
+- 笔记：`notes/2026-08-08-reading-notes.md`
+- 来源：`sources/2026-08-08-sources.json`
+
+## Step D：Wiki 固结
+
+### 新建页面（3个）
+1. `wiki/systems/deep-cerebellar-nuclei.md`（rev1）
+   - 填补悬空引用 deep-cerebellar-nuclei
+   - 覆盖：齿状核/间位核/顶核解剖功能表，去抑制逻辑，MF-DCN LTP 机制，小脑-BG直接连接
+   - 未解问题：Q-dcn-01, Q-dcn-02, Q-dcn-03
+
+2. `wiki/systems/inferior-olive.md`（rev1）
+   - 填补悬空引用 inferior-olive
+   - 覆盖：PO/DAO/MAO 三子核，缝隙连接同步，阈下振荡，TMEM16B，CF奖励信号（低置信度）
+   - 矛盾登记：C-2026-08-08-01
+
+3. `wiki/concepts/motor-learning.md`（rev1）
+   - 填补悬空引用 motor-learning
+   - 覆盖：小脑误差驱动 vs BG 奖励驱动双系统，两相记忆模型对比表，经典范式表
+
+### 修订页面（2个）
+4. `wiki/systems/cerebellum.md`（rev2→rev3）
+   - 添加今日文章 source_articles
+   - 新增 key_sources: PMID:9378587, 19684593, 29643480
+
+5. `wiki/concepts/climbing-fiber-error-signal.md`（rev1→rev2）
+   - 新增 key_sources: PMID:40848722, 28858616
+   - 证据表新增 CF 奖励信号行（低置信度）
+   - 新增"矛盾条目"章节，登记 C-2026-08-08-01
+
+### 矛盾检查
+登记新矛盾 1 个：
+- **C-2026-08-08-01**（open）：CF "纯误差信号" vs "也传递奖励幅度"（Jin & Hull 2025，PMID:40848722）
+  - claim_A：经典 Marr-Albus-Ito 模型，CF 仅传递预测误差
+  - claim_B：CF 放电随奖励大小系统性增加（单篇2025研究，低置信度，待复现）
+
+## Step E：图与索引更新
+
+### _graph.json
+- 前：219节点，1255边
+- 后：222节点，1269边
+- 新增节点：deep-cerebellar-nuclei, inferior-olive, motor-learning
+- 新增边：14条（含 inferior-olive→climbing-fiber-error-signal, deep-cerebellar-nuclei→motor-learning 等）
+- 所有3个悬空引用已消解
+
+### wiki/index.md
+- 更新为"第107篇"，"主题页总数：210"，"222节点、1269边"
+- motor 区新增：deep-cerebellar-nuclei, inferior-olive
+- concepts 区新增：motor-learning
+
+### wiki/CHANGELOG.md
+- 添加 2026-08-08 条目
+
+## Step F：状态文件更新
+
+- `state/topic_ledger.json`：第107篇，total_articles=107
+- `state/contested_claims.json`：C-2026-08-08-01，open_count=8
+- `state/maturity_index.json`：新增 deep-cerebellar-nuclei, inferior-olive, motor-learning, climbing-fiber-error-signal(rev2)
+- `state/unresolved_questions.md`：Q-dcn-01, Q-dcn-02, Q-dcn-03, Q-io-01
+- `state/monthly_synthesis.md`：8月文章数 6→8，#107 条目
+- `state/source_registry.json`：新增9个 PMID
+
+## Step G：提交与推送
+
+- branch: main
+- commit message: Add neuro daily article + wiki consolidation for 2026-08-08
+- push: git push origin main
+
+## 限制与说明
+
+1. 11篇来源中仅2篇读取开放全文，其余9篇仅读取摘要
+2. PMID:40848722（Jin & Hull 2025）为单篇新研究，置信度低，已明确标注并登记矛盾
+3. 两相记忆模型（皮层LTD + DCN LTP）的确切时序和分子机制仍有争议，文章中已说明
+4. DCN LTP 的临床时间进程（人类技能学习）为高优先级未解问题（Q-dcn-01）

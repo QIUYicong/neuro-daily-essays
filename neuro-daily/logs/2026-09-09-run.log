@@ -1,0 +1,168 @@
+# 运行日志 2026-09-09（真实日期：2026-06-10）
+
+## 基本信息
+
+- 文章编号：#139
+- 虚拟日期：2026-09-09
+- 真实执行日期：2026-06-10
+- 分支：main
+- 执行耗时：约15分钟
+
+---
+
+## 步骤 0：分支同步
+
+- git checkout main → 成功
+- git pull --rebase origin main → 成功（rebase后同步）
+- 确认 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 存在 ✓
+- 确认 neuro-daily/wiki/ 目录结构正常 ✓
+- Remote 指向 QIUYicong/neuro-daily-essays（via local_proxy）✓
+
+---
+
+## 步骤 A：读取状态
+
+- topic_ledger.json：末条目为 #138（2026-09-08），下一篇应为 #139（2026-09-09）
+- 最近层级：molecular/cellular/synaptic 连续出现（#135-#138），需换层
+- unresolved_questions.md：末条来自 #138（Q-cp-reopening-01, Q-cp-reopening-02）
+- contested_claims.json：11条 open 矛盾，今日无新矛盾可裁决
+- 图谱：291节点，1654边
+
+---
+
+## 步骤 B：选题
+
+**选题逻辑**：
+1. 层级平衡优先：最近4篇均重度 molecular/synaptic → 必须换到 cellular/brain-region/cognition
+2. 前文建议：#138 建议下一篇写 TRKB/BDNF 或 adult neurogenesis
+3. adult-neurogenesis.md 虽已存在（rev3），但今日从更深层面（回路整合时间表、双重功能机制、人类争议）重新研究，可大幅修订现有页面并创建新的 neurogenesis-induced-forgetting 页面
+4. 选定：**成年海马神经发生——新生神经元的回路整合与双重功能（模式分离 + 遗忘诱导）**
+
+**候选主题（未选）**：
+- TRKB/BDNF signaling（molecular层，与最近4篇层级相同，本轮暂缓）
+- Complementary Learning Systems（认知层，下下次可用）
+
+---
+
+## 步骤 C：检索与阅读
+
+### 搜索词
+
+1. "adult hippocampal neurogenesis dentate gyrus integration memory circuit" → PubMed E-utilities (15 PMID)
+2. "adult hippocampal neurogenesis dentate gyrus new neurons memory circuit integration review 2023 2024 2025" → WebSearch
+3. "neurogenesis-induced forgetting Akers 2014 Science infantile amnesia" → WebSearch
+4. "human adult hippocampal neurogenesis Sorrells Boldrini debate 2018" → WebSearch
+5. "adult hippocampal neurogenesis pattern separation behavioral evidence lesion mice" → WebSearch
+6. "adult hippocampal neurogenesis subgranular zone stages maturation weeks GABA depolarization" → WebSearch
+
+### 候选文献
+
+| PMID/DOI | 状态 | 采用/排除理由 |
+|----------|------|--------------|
+| PMID:27814520 (Gonçalves & Gage 2016, Cell) | 摘要 | 采用：权威综述 |
+| PMID:21460835 / PMC3084370 (Sahay 2011, Nature) | **开放全文** | 采用：模式分离因果充分性核心证据 |
+| PMID:23443839 / PMC3580993 (Vivar & van Praag 2013) | **开放全文** | 采用：回路整合时间表最详细 |
+| PMID:24812394 (Akers 2014, Science) | 摘要 | 采用：神经发生诱导遗忘双向因果核心 |
+| PMID:26347621 / PMC4542503 (McAvoy 2015) | **开放全文** | 采用：反馈抑制→稀疏化回路机制 |
+| PMID:29513649 (Sorrells 2018, Nature) | 摘要 | 采用：人类争议阴性代表 |
+| PMID:29625071 (Boldrini 2018, Cell Stem Cell) | 摘要 | 采用：人类争议阳性代表 |
+| PMID:30911133 (Moreno-Jiménez 2019, Nat Med) | 摘要 | 采用：方法论解析（过度固定） |
+| PMID:26637288 / PMC4691791 (Toni & Schinder 2016) | **开放全文** | 采用：发育时间表详细数据 |
+| PMID:36875670 / PMC9975346 (Fölsz 2023) | **开放全文** | 采用：双重功能综述 |
+| DOI:10.3389/fnins.2025.1709208 (Betters 2025) | **开放全文** | 采用：2025年活性vs数量解耦最新数据 |
+| PMID:20354534 (Deng, Aimone & Gage 2010, Nat Rev Neurosci) | 摘要 | 采用：模式分离综述背景 |
+| PMID:31377252 (Tuncdemir 2019) | 未读 | 排除：时间有限，已有足够来源 |
+| PMID:32949641 (Besnard & Sahay 2020) | 未读 | 排除：时间有限 |
+| PMID:34271133 (Wander & Song 2021) | 未读 | 排除：AD专注偏离今日主题 |
+
+**来源质量小结**：
+- 开放全文读取：6篇 ✓（≥2条要求满足）
+- 官方机构来源：PubMed/PMC/Europe PMC ✓
+- 禁止来源：无（无Sci-Hub，无paywall绕过）
+
+---
+
+## 步骤 D：固结步骤
+
+### 处理的概念
+
+1. **adult-neurogenesis**（已有 rev3）→ 修订为 rev4：
+   - 新增遗忘功能段落（Akers 2014）
+   - 新增活性 vs 数量解耦（Betters 2025）
+   - Bax 凋亡率更新（60-80%）
+   - 证据表 +2行；related/key_sources/opens_questions 扩充
+   - 无矛盾冲突（新内容与既有主张相互补充）
+
+2. **pattern-separation**（已有 rev2）→ 修订为 rev3：
+   - 前馈抑制机制加深（McAvoy 2015）
+   - key_sources 新增 PMID:26347621
+   - 无矛盾冲突
+
+3. **neurogenesis-induced-forgetting**（新建）→ rev1：
+   - 核心概念：遗忘是主动进化保留机制
+   - 双向因果证据（Akers 2014）
+   - 婴儿失忆症机制框架
+
+4. **hippocampal-neurogenesis**（rev4，本次未修订）：
+   - 已有 Betters 2025 相关内容的上游连接（SSRI部分）；今日新信息已整合进 adult-neurogenesis.md；避免重复修订
+   - 将在下一次涉及该主题时统一修订
+
+### 矛盾检查
+
+- 今日来源与所有已修订页面既有主张**无冲突**
+- 人类神经发生争议（Sorrells vs Boldrini）已在 hippocampal-neurogenesis rev4 中有登记，未变化
+- Betters 2025 的"活性 vs 数量解耦"是对既有内容（"SSRI增加细胞数量"）的补充，不构成矛盾
+
+---
+
+## 步骤 E：图谱更新
+
+- 新增节点：1（neurogenesis-induced-forgetting）
+- 新增边：4
+- 最终：292节点，1658边
+
+---
+
+## 步骤 F：治理层更新
+
+- topic_ledger.json：添加 #139 条目 ✓
+- unresolved_questions.md：添加 Q-ahn-01, Q-ahn-02 ✓
+- source_registry.json：添加11条新来源（总603条）✓
+- monthly_synthesis.md：追加 #139 摘要 ✓
+- wiki/index.md：更新标题（#139, 273页）；添加 neurogenesis-induced-forgetting 条目 ✓
+- wiki/CHANGELOG.md：追加今日变更 ✓
+
+---
+
+## 步骤 G：自检结果
+
+**真实性**：
+- ✅ wiki 每条新主张有来源（PMID/PMCID/DOI）
+- ✅ 区分了事实（关键期4-6周：已建立）/ 主流模型（稀疏化机制）/ 推测（人类遗忘选择性）/ 争议（人类神经发生规模）
+- ✅ Akers 2014 为啮齿类证据，文章已明确注明"尚未在人类直接验证"
+
+**一致性**：
+- ✅ 无冲突（今日内容与既有页面补充而非矛盾）
+- ✅ 修订页 updated/revision_count/修订历史已同步
+- ✅ 图谱无悬空边（所有新边的from/to节点均已存在）
+
+**可导航**：
+- ✅ index.md 已反映今日变化
+- ✅ CHANGELOG.md 已更新
+- ✅ neurogenesis-induced-forgetting.md 的 related/prerequisites 均已填写（≥1）
+
+**情景层完整**：
+- ✅ articles/2026-09-09-adult-hippocampal-neurogenesis.md ✓
+- ✅ notes/2026-09-09-reading-notes.md ✓
+- ✅ sources/2026-09-09-sources.json ✓
+- ✅ logs/2026-09-09-run.log ✓（本文件）
+- ✅ 未修改任何旧文章/笔记/来源/日志文件
+
+---
+
+## Git 操作
+
+- branch: main
+- commit: 941e5a1
+- push: git push origin main
+- push_status: ✅ 成功（747ceed..941e5a1 main -> main）

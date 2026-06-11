@@ -1,0 +1,90 @@
+# 运行日志 2026-08-20
+
+**系列编号**: #102
+**主题**: 声音之刀——颞上回如何将连续声学流切割为音素（STG Phoneme Speech Perception）
+**运行时间（UTC）**: 2026-06-07 23:xx (实际系统时间)
+**逻辑日期（序列）**: 2026-08-20（序列延续上一篇2026-08-19）
+
+---
+
+## 搜索词与检索结果
+
+| 检索词 | 数据源 | 候选 | 采用 |
+|--------|--------|------|------|
+| speech perception superior temporal gyrus phoneme cortical oscillations | PubMed | 8 | 2 |
+| cortical entrainment speech envelope review | PubMed | 0（无结果） | 0 |
+| superior temporal gyrus speech perception phoneme cortical hierarchy review 2020-2024 | WebSearch + PubMed | 9 | 3 |
+| Poeppel temporal asymmetric sampling speech theta gamma oscillations | WebSearch | 8 | 2 |
+| PMC:9447996 full text | PMC | 1 | 1（全文）|
+| PMC:3364513 full text | PMC | 1 | 1（全文）|
+
+---
+
+## 来源采用与排除
+
+### 采用（8个来源）
+
+| 来源 | PMID/PMCID | 全文 | 原因 |
+|------|-----------|------|------|
+| Bhaya-Grossman & Chang 2022 | PMID:34672685/PMC:9447996 | ✅ | 最全面的STG音素计算综述；主要骨架来源 |
+| Mesgarani et al. 2014 | PMID:24482117 | 摘要 | 直接ECoG实验证据；Science发表 |
+| Giraud & Poeppel 2012 | PMID:22426255 | 摘要 | 奠基性振荡框架理论 |
+| Two temporal windows MEG | PMC:3364513 | ✅ | 双时间窗口的直接MEG实验证据 |
+| Ten Oever et al. 2024 | PMID:38805278 | 摘要 | STG/MTG振荡相位双解离的最新预注册研究 |
+| Ortiz-Mantilla et al. 2016 | PMID:27903720 | 摘要 | 发育收窄与theta-gamma动力学 |
+| Hickok & Poeppel 2007 | PMID:17431404 | 摘要（旧） | 背景参考（已在wiki中广泛使用）|
+| SEEG半球不对称 | PMC:7067489 | ✅（旧） | 左快右慢96例颅内直接证据（已在wiki中）|
+
+### 排除
+
+- 多篇Nature/Science付费文章：绕过paywall被禁止，仅用摘要
+- 几篇发育相关EEG小样本研究：样本量<30，不作为主要证据
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页面（3页）
+
+1. `wiki/systems/stg-phoneme-processing.md`（mainstream, confidence:high）
+   - 整合四大核心计算、双尺度表征、功能梯度
+2. `wiki/concepts/cortical-speech-entrainment.md`（mainstream, confidence:medium）
+   - 整合θ-γ嵌套振荡、AST、MEG/SEEG证据；标注主动vs被动争议
+3. `wiki/concepts/phoneme-categorical-perception.md`（established, confidence:high）
+   - 整合非线性范畴化、双尺度表征、发育收窄
+
+### 修订 wiki 页面（2页）
+
+4. `wiki/systems/auditory-cortex.md`（rev4）：新增STG音素计算层节；添加related
+5. `wiki/systems/auditory-dual-stream.md`（rev2）：添加related；更新来源文章
+
+### 矛盾检查
+
+无新矛盾。已存在的contest:
+- 振荡entrainment主动vs被动（新登记为Q-stg-01未解问题，尚未构成与既有claim冲突）
+- STG言语特异性（归为opens_questions，不是qualified claim级别的矛盾）
+
+---
+
+## 图谱更新
+
+- 新增节点：3（stg-phoneme-processing, cortical-speech-entrainment, phoneme-categorical-perception）
+- 新增边：13
+- 当前总节点：255，总边：1430
+
+---
+
+## 失败与限制
+
+- 多个核心实验论文（Mesgarani 2014 Science, Giraud & Poeppel 2012 Nat Neurosci）无法获取全文（付费墙），只能使用摘要
+- 相关发现（具体数字、图表细节）主要来自 Bhaya-Grossman & Chang 2022 综述的引用描述，应被视为综述转述而非一手数据
+- 原始 Leonard et al.（语境修复）和 Oganian & Chang（peakRate）等ECoG论文未被独立检索全文，通过综述间接引用
+- 标注"未读取全文"已在文章参考来源表中注明
+
+---
+
+## Git 信息
+
+- **分支**: main
+- **commit hash**: 6d274e2
+- **push状态**: ✅ 成功推送到 origin/main

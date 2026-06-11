@@ -1,0 +1,87 @@
+# 运行日志 2026-08-27
+
+**文章编号**：#127
+**标题**：可塑性的守门人：BCM 规则与元可塑性如何防止突触失控
+**slug**：metaplasticity-bcm-sliding-threshold
+
+---
+
+## 搜索词与数据源
+
+**搜索词**：
+1. `metaplasticity BCM rule synaptic plasticity threshold` → PubMed (PMIDs: 20554832, 19956610, 25788686)
+2. `metaplasticity Abraham Bear sliding threshold` → PubMed (0 hits 精确词组，改泛查)
+3. `BCM bienenstock cooper munro synaptic modification` → PubMed (PMIDs: 35763483, 23080416, 35764852, 36094025, 20554832, 28220467, 33825082, 25788686, 1765807, 27485552)
+4. `metaplasticity sliding threshold LTP LTD` → PubMed (PMIDs: 36685084, 9247968, 26269641, 11675507, 12097504)
+5. `metaplasticity review Abraham` → PubMed (PMIDs: 24298150, 34919905)
+6. `Abraham metaplasticity review hippocampus` → PubMed (PMIDs: 24298150, 34919905)
+7. `Kirkwood Bear 1994 homosynaptic LTD visual cortex` → PubMed (PMID: 8182481)
+8. `Abraham 2008 metaplasticity review philosophical` → 0 hits，改为 `Abraham metaplasticity 2008 philosophical` → PMID: 18401345
+9. `mGluR primed metaplasticity DHPG LTP inhibition hippocampus` → PMID: 11516563
+10. BCM Scholarpedia 网页 → 503 错误
+11. JNeurosci BCM metaplasticity calcium-dependent (PMID: 32/20/6785) → 摘要可获取
+
+**数据源**：
+- PubMed E-utilities (esearch + efetch)：主要文献检索
+- PMC 开放全文：PMC2934916 (Narayanan & Johnston 2010)
+
+---
+
+## 候选来源
+
+**采用（15 篇）**：
+- PMID:8658594（Abraham & Bear 1996，命名元可塑性）
+- PMID:9247968（Abraham & Tate 1997，系统综述）
+- PMID:18401345（Abraham 2008，Nat Rev Neurosci，最全综述）
+- PMID:1765807（Clothiaux, Bear & Cooper 1991，BCM 理论 vs 实验）
+- PMID:8182481（Kirkwood & Bear 1994，视觉皮层 LTD）
+- PMID:11675507（Castellani et al. 2001，NMDA 亚基模型）
+- PMID:12097504（Krucker et al. 2002，RC3/CaM 机制）
+- PMID:11516563（Mellentin & Abraham 2001，mGluR II 型元可塑性）
+- PMID:20554832 / PMC2934916（Narayanan & Johnston 2010，h 电流）
+- PMID:24298150（Hulme et al. 2014，异突触星形胶质细胞）
+- PMID:26269641（Megill et al. 2015，AD 发育性元可塑性失调）
+- PMID:35798611（Jedlicka et al. 2022，元可塑性与灾难性遗忘）
+- PMID:33128937（Chiamulera et al. 2021，成瘾中的元可塑性）
+- PMID:36685084（Lee 2023，跨模态元可塑性）
+- Bienenstock, Cooper & Munro 1982（J Neurosci，原始 BCM 论文，无 PubMed 记录，引用其标准文献格式）
+
+**排除**：
+- PMID:28672189（Matsuzawa 2017，专注 AD 中 Aβ 影响，本文只做间接提及）
+- PMID:34919905（Collingridge & Abraham 2022，历史综述，内容被其他来源覆盖）
+- 计算模型类次要论文（Anirudhan & Narayanan 2015, PMID:25788686）
+
+---
+
+## 固结的 Wiki 页面
+
+**新建（2 页）**：
+- `wiki/concepts/metaplasticity.md`（rev1）：status=established, confidence=high
+- `wiki/concepts/bcm-rule.md`（rev1）：status=mainstream, confidence=high
+
+**修订（2 页）**：
+- `wiki/concepts/hebbian-learning.md`（rev5→rev6）：新增 metaplasticity/bcm-rule 连接，Q-hebbian-stability 扩展
+- `wiki/concepts/ltp.md`（frontmatter）：related 新增 metaplasticity, bcm-rule
+
+---
+
+## 矛盾登记
+
+无新矛盾。（今日文章主要介绍 BCM/元可塑性框架，核心机制无已知直接冲突。Q-meta-02 反映了体内证据不足的不确定性，但这是知识缺口而非矛盾。）
+
+---
+
+## 失败与限制
+
+- Scholarpedia BCM theory 页面 HTTP 503 不可用
+- BCM 原始论文（Bienenstock et al. 1982）早于 PubMed 索引，无 PMID，未读取全文
+- 大多数来源（14/15）为摘要阅读，仅 PMC2934916 为开放全文
+- Quinlan et al. GluN2B/2A 视觉皮层实验（原著不知道确切 PMID，相关机制通过 Castellani et al. 2001 模型论文间接覆盖）
+
+---
+
+## Branch / Commit / Push 状态
+
+- **Branch**：main
+- **Commit**：5e15519
+- **Push 状态**：✅ 成功推送至 origin/main

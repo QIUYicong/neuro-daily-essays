@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-09-15",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 3,
+  "open_count": 12,
   "resolved_count": 0,
   "claims": [
     {
@@ -80,6 +80,129 @@
       "source_article": "2026-07-02-astrocyte-tripartite-synapse",
       "priority": "high",
       "note": "D-丝氨酸的 Ca²⁺ 依赖释放证据（Henneberger 2010）比谷氨酸胞吐证据更强；核心争议现集中在谷氨酸；D-丝氨酸可能确实通过囊泡机制，而谷氨酸可能主要通过 VRAC 或连接蛋白通道"
+    },
+    {
+      "id": "C-2026-07-11-01",
+      "page": "wiki/concepts/burst-firing-lhb.md",
+      "claim_A": "NMDA 受体依赖性突触增强（mEPSC 频率↑+ βCaMKII→GluA1 AMPAR↑）是外侧缰核（LHb）爆发放电和抑郁表型的必要条件；氯胺酮通过使用依赖性 NMDAR 通道捕获（channel trap）阻断爆发，从而实现快速抗抑郁（Yang 2018, PMID:29446381；Ma 2023, PMID:37853123）",
+      "claim_B": "2026 年 Frontiers in Neuroscience 一项小鼠研究在 NMDA 受体拮抗剂（APV）存在下仍可观察到 LHb 爆发放电，提示 NMDA 受体可能不是所有物种/条件下 LHb 爆发的普遍必要条件；LHb 爆发的其他机制（如 T 型 Ca²⁺ 通道本身、SK 通道减少等）可能在某些情况下不依赖 NMDA",
+      "nature": "物种差异（大鼠 vs 小鼠）+ 方法论差异（体内光遗传-因果 vs 脑片 APV 药理），可能反映 LHb 爆发机制在大鼠/小鼠之间的真实差异，或实验条件（慢性应激预处理 vs 正常小鼠）的差异；claim_A 的证据质量更高（多物种 in vivo 因果），但物种普遍性有待验证",
+      "status": "open",
+      "opened": "2026-07-11",
+      "source_article": "2026-07-11-lateral-habenula-depression-ketamine",
+      "priority": "medium",
+      "note": "Yang 2018 和 Ma 2023 的证据来自大鼠体内实验（光遗传+行为），而 Frontiers 2026 的反证来自小鼠离体实验；两种设置的直接对照研究缺失；若 NMDA 非必需，则氯胺酮的快速抗抑郁机制需要替代解释"
+    },
+    {
+      "id": "C-2026-08-08-01",
+      "page": "wiki/concepts/climbing-fiber-error-signal.md",
+      "claim_A": "攀爬纤维（CF）/下橄榄核是专用的'误差信号通道'——仅在运动结果与预期不符时发放，编码感觉预测误差或运动结果误差（Marr 1969 经典理论；Ito 2013，PMID:23440175；大量电生理证据）",
+      "claim_B": "CF 放电概率随奖励幅度系统性增加，包括完全可预期的奖励——说明 IO/CF 不只传递误差，还传递'奖励幅度'本身，使 IO 成为更广义的'评价信号系统'（Jin & Hull 2025，Curr Biol，PMID:40848722）",
+      "nature": "真实分歧（若 claim_B 成立，则 Marr-Albus-Ito 模型需要扩展，引入奖励调制）。注：claim_B 基于单篇 2025 年研究，尚未被独立重复；claim_A 有数十年多物种多任务支持（established）；差异可能反映：(a) 小脑学习任务类型（运动适应 vs 奖励导向操作任务）不同激活不同 IO 亚核；(b) 小脑-基底神经节皮层下连接使多巴胺/奖励信号能进入 IO；(c) CF 编码'意外性'（不论误差还是奖励的意外程度）",
+      "status": "open",
+      "opened": "2026-08-08",
+      "source_article": "2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit",
+      "priority": "medium",
+      "note": "claim_A 证据等级极高（established，多物种，多实验室）；claim_B 为单篇 2025 年新发表（low evidence）。裁决需要：(1) 独立重复 Jin & Hull 2025；(2) 同一 IO 神经元在误差和奖励任务中的双任务记录；(3) IO 亚核特异性记录"
+    },
+    {
+      "id": "C-2026-08-15-01",
+      "page": "wiki/concepts/ocular-dominance-columns.md",
+      "claim_A": "ODP 阶段二（开放眼 LTP + 沉默突触开锁）的主要机制是 NMDAR 依赖的 Hebbian LTP——沉默突触被开锁，AMPAR 插入，突触选择性增强（Xu, Löwel & Schlüter 2020, PMID:32765222；Huang et al. 2015, PMID:26015564 PSD-95 KO 延长关键期）",
+      "claim_B": "ODP 阶段二的主要机制是稳态突触缩放——总活动下降触发 TNFα 介导的全局 AMPAR 上调（Kaneko et al. 2008, PMID:18549780 TNFα KO 阻断第二阶段；Kaneko & Stryker 2017, PMID:28093561）",
+      "nature": "两机制均有遗传学支持，但两者不互斥。2026-09-05 更新：Ranson 2012（PMID:22232689）关键约束——稳态机制为幼年所必需，成年 ODP 不需要 TNFα 而需要 CaMKII。当前最佳整合模型：稳态缩放（TNFα）提供许可信号（全局兴奋性抬升），Hebbian LTP（PSD-95/沉默突触）执行输入特异性精修，时序上稳态先于 Hebbian",
+      "status": "open",
+      "opened": "2026-08-15",
+      "source_article": "2026-08-15-ocular-dominance-columns-visual-critical-period",
+      "priority": "medium",
+      "note": "裁决需要：(1) 同一动物同一时间点同步记录稳态缩放（乘法性 mEPSC 幅度变化）和沉默突触开锁（AMPA/NMDA 比值）；(2) L4 vs L2/3 分层特异性分析；(3) TNFα + PSD-95 双重操控实验，看两者是否协同或替代",
+      "evidence_update": "2026-09-05 (#119): 新增证据——Kaneko 2008（PMID:18549780, TNFα KO 直接证明第二阶段缺失）；Ranson 2012（PMID:22232689, 幼年/成年机制分离）；Sugimura 2015（PMID:25701075, TNFα 也促进 LTP，桥接 A+B）；Echavarri-Leet 2025（PMID:41240337, 丘脑 CaV3.1 爆发放电为成年替代许可机制）。两机制从'互斥'更新为'时序协同'——稳态提供许可，Hebbian 执行特异性。裁决仍 open，因直接同步测量实验缺失。"
+    },
+    {
+      "id": "C-2026-08-16-01",
+      "page": "wiki/concepts/invariant-object-recognition.md",
+      "claim_A": "腹侧视觉流（IT 皮层）主要计算全局物体形状（global shape）——形状选择性是 IT 皮层对象表征的核心，IT 神经元对物体整体几何结构编码（经典 IT 研究，Gross 1972; Desimone 1984; Conway 2018 综述，PMID:30059648）",
+      "claim_B": "腹侧视觉流实际计算的是局部特征的统计描述（纹理统计），而非全局物体形状——texforms（纹理重建不可识别图像）在 IT 皮层激活与真实物体相似的拓扑组织；随机打乱特征排列时人类感知到差异但 IT/DNN 无明显区分（Ayzenberg & Behrmann 2022, PMID:36272937）",
+      "nature": "真实分歧（方法论 + 概念层面）：腹侧流计算的主要信息类型存在根本性分歧；调和假说：背侧流负责全局形状/skeletal 描述，腹侧流负责特征统计，共同完成识别",
+      "status": "open",
+      "opened": "2026-08-16",
+      "source_article": "2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition",
+      "priority": "high",
+      "note": "claim_A 为数十年 IT 研究主流（established，多物种多实验室）；claim_B 为近年综述（2022）提出的系统性挑战（中等证据）。裁决需要：(1) 直接比较 IT 神经元对全局形状操控 vs 纹理统计保留的形状扰动刺激的响应；(2) 猕猴单神经元在 texforms vs 真实物体条件下的分辨率匹配实验；(3) 人类 fMRI MVPA 在控制纹理统计后的形状解码残差检验"
+    },
+    {
+      "id": "C-2026-08-21-01",
+      "page": "wiki/concepts/arcuate-fasciculus.md",
+      "claim_A": "AF颞叶端主要（或仅）连接pSTG/BA22（Wernicke区）——传统DTI追踪和Catani 2005三段式模型的默认设置（PMID:15597383）",
+      "claim_B": "AF颞叶端延伸至MTG（声学-音韵）、ITG/梭状回（VWFA视觉词形区）和基底颞叶语言区（词汇编码）——Giampiccolo & Duffau 2022综合DCS皮层下刺激+高分辨率DTI（PMID:35142842）",
+      "nature": "方法差异（不同DTI追踪参数/种子点）+ 可能的真实解剖变异（部分个体AF可能有更广泛的颞叶覆盖）",
+      "status": "open",
+      "opened": "2026-08-21",
+      "resolved": null,
+      "resolution": null,
+      "priority": "medium",
+      "clinical_relevance": "脑肿瘤手术中语言保护区域的范围界定；失读症（alexia）的解剖基础"
+    },
+    {
+      "id": "C-2026-08-25-01",
+      "page": "wiki/concepts/stdp.md",
+      "claim_A": "STDP 的经典规则（Bi & Poo 1998）：突触前先于突触后放电（前先后随）→ LTP；突触后先于突触前（后先前随）→ LTD；这一因果方向性规则在体外实验中稳健可见（来源：PMID:9852584，PMID:8985014，PMID:15450157）",
+      "claim_B": "STDP 长期效应更依赖同步性而非因果顺序（Anisimova et al. 2022）：光遗传3天追踪发现，短期（20min）依赖因果顺序；但3天后无论前先后随还是后先前随，只要 |Δt|<50ms（同步），均产生长期LTP；只有异步配对（Δt=50ms）无长期效果（来源：PMID:35203089）",
+      "nature": "时间尺度差异（短期vs长期）+ 实验条件差异（高Ca²⁺vs生理Ca²⁺，Inglebert 2021）。短期STDP依赖因果顺序可能是正确的；长期记忆是否也依赖方向性，或者只需要同步性，尚未在独立实验室重复验证。两者可能均正确，描述不同时间尺度的动态（短期因果→长期同步）",
+      "status": "open",
+      "opened": "2026-08-25",
+      "source_article": "2026-08-25-stdp-spike-timing-dependent-plasticity"
+    },
+    {
+      "id": "C-2026-09-02-01",
+      "page": "wiki/concepts/forward-model.md",
+      "claim_A": "小脑实现显式内部模型（前向+逆向）：小脑维护对运动状态转换的显式状态空间模型，前向模型预测感觉后果，可泛化到新奇运动情境。来源：Wolpert, Miall, Kawato 1998；主动推断框架（Parr et al. 2025）",
+      "claim_B": "小脑实现模型无关前馈映射：小脑将高维感知运动情境直接映射到输出，不维护显式状态空间模型；颗粒细胞时间基础集提供情境编码，PC 读出做前馈控制。来源：Nguyen & Person, Nat Rev Neurosci 2025 (PMID:40523942)",
+      "nature": "计算级理论分歧：两者在正常运动表现上难以区分，但在运动泛化（generalization to novel kinematics）和学习速率上有不同预测",
+      "experimental_test": "比较小脑受损患者在（1）重复练习运动 vs（2）新奇运动泛化任务上的表现；或在动物实验中通过钙成像分析颗粒细胞/PC 的情境特异性 vs 泛化编码模式",
+      "status": "open",
+      "opened": "2026-09-02",
+      "related_wiki": [
+        "wiki/concepts/forward-model.md",
+        "wiki/systems/cerebellum.md"
+      ]
+    },
+    {
+      "id": "C-2026-09-14-01",
+      "page": "wiki/concepts/dopamine-pfc-inverted-u.md",
+      "claim_A": "SCZ 患者 dlPFC D1R 结合力降低：Okubo 等人 1997 年 PET 研究（[¹¹C]SCH-23390）发现 SCZ 患者 dlPFC D1R 结合力显著低于健康对照，且降低程度与 WCST 表现和阴性症状严重性相关（PMID:9024661）",
+      "claim_B": "部分研究发现 SCZ 患者 dlPFC D1R 结合力反而升高：Cumming 等人 2021 年综述（PMID:33197459）提及有研究发现 frontal D1R 上调（尤其与认知缺陷相关时），可能反映受体上调代偿或 DA 功能减退的适应性补偿",
+      "nature": "可能的原因：(1) 发病阶段差异——急性期 vs 慢性期 D1R 密度变化方向不同；(2) 药物史混杂——抗精神病药物可能改变 D1R 表达；(3) PET 方法学差异（示踪剂、ROI 定义）；(4) SCZ 的异质性（D1R 变化只在认知受损亚群中出现）",
+      "status": "open",
+      "opened": "2026-09-14",
+      "source_article": "2026-09-14-dopamine-d1-prefrontal-working-memory",
+      "priority": "high",
+      "clinical_relevance": "D1R 增强疗法（D1 PAM）治疗 SCZ 认知症状的前提是 D1R 功能不足，若部分患者实际是代偿性上调，则 PAM 可能推到倒 U 右侧进一步损害认知"
+    },
+    {
+      "id": "C-2026-09-15-01",
+      "page": "wiki/concepts/glun2-developmental-switch.md",
+      "claim_A": "经典模型（2000年代主流）：GluN2A 优先介导 LTP，GluN2B 优先介导 LTD——支持者：Liu et al. 2004 (Science) 使用 NVP-AAM077 区分 LTP/LTD 的亚单位依赖性",
+      "claim_B": "修正模型（当前证据）：GluN2A:2B 比值影响的不是可塑性方向（LTP/LTD），而是可塑性阈值和时间窗口；GluN2A 过量增强同时损害 LTP 和 LTD + 认知（Li 2022, PMID:35484243）；NVP-AAM077 的亚单位选择性本身存疑",
+      "nature": "方法论差异（NVP-AAM077 选择性存疑）+ 真实分歧（GluN2 亚单位对 LTP/LTD 方向的控制 vs 阈值的控制）",
+      "status": "open",
+      "opened": "2026-09-15",
+      "priority": "medium",
+      "source_article": "2026-09-15-nmda-receptor-subunit-developmental-switch"
+    },
+    {
+      "id": "C-2026-09-17-01",
+      "page": "wiki/concepts/theta-gamma-coupling.md",
+      "claim_A": "θ-γ PAC是专门演化出的通信和记忆组织机制（ING/PING回路产生γ，θ相位通过CCK/PV协调调制，PAC细胞发挥专门读取控制功能）—— PMID:23522038, 20133762, 38632400, 40161984",
+      "claim_B": "θ-γ 耦合是回路能量耗散的涌现效应（谱依赖性框架：γ功率协变于θ功率，CFC可能只是共享物理约束的结果，而非专门信号机制）—— PMID:42205487",
+      "nature": "理论框架分歧：一方强调 PAC 是专用计算机制（有细胞类型特异性证据支撑），另一方强调 PAC 可能主要来自回路能量耗散的物理约束",
+      "status": "open",
+      "opened": "2026-09-17",
+      "related_questions": [
+        "Q-tgc-01",
+        "Q-tgc-03"
+      ],
+      "current_weight": "claim_A 证据更强（单神经元数据、人类直接证据、因果机制链），但 claim_B 提出了重要的方法论警告"
     }
   ]
 }

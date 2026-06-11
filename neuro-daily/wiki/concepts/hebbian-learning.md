@@ -6,14 +6,14 @@ type: theory
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-07-03
-revision_count: 4
+updated: 2026-08-27
+revision_count: 6
 dimensions: [synaptic, cognition, behavior, whole-brain-network]
-related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy, synaptic-scaling, homeostatic-plasticity]
+related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy, synaptic-scaling, homeostatic-plasticity, metaplasticity, bcm-rule]
 prerequisites: [synaptic-transmission, action-potential, nmda-receptor]
 opens_questions: [Q-hebbian-global-error, Q-hebbian-stability]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error]
-key_sources: ["PMID:22510460", "PMID:30037851", "PMID:26834568", "PMID:9054347", "PMID:8774460", "PMID:12371508"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error, 2026-08-25-stdp-spike-timing-dependent-plasticity, 2026-08-27-metaplasticity-bcm-sliding-threshold]
+key_sources: ["PMID:22510460", "PMID:30037851", "PMID:26834568", "PMID:9054347", "PMID:8774460", "PMID:12371508", "PMID:8658594", "PMID:18401345"]
 ---
 
 # Hebbian 学习 (Hebbian Learning)
@@ -85,17 +85,21 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 - [[three-factor-learning-rule]] — 将 Hebb 规则扩展为包含全局调制信号的学习算法（2026-06-07 已建立）
 - [[dopamine-reward-prediction-error]] — DA RPE 是奖励学习中三因素规则的调制因子 M
 - [[synaptic-tagging-capture]] — 突触标记假说解决三因素规则的时间延迟问题
-- [[stdp]] — STDP 是 Hebb 规则的时间分辨精化版本（待建页面）
+- [[stdp]] — STDP 是 Hebb 规则的时间分辨精化版本：将"一起激发"升级为"按因果时序激发"（前先后随→LTP，后先前随→LTD）；分子基础是 NMDA 受体 + bAP 超线性 Ca²⁺ 信号
 - [[synaptic-scaling]] — 突触缩放是 Hebbian 正反馈不稳定性的解决方案：乘法性负反馈，GluA2 通路，时间尺度与 LTP 隔离
 - [[homeostatic-plasticity]] — 稳态可塑性总称，解决了 Hebb 规则的稳定性悖论
+- [[metaplasticity]] — 元可塑性是 Hebb 规则稳定性的另一解决方案：通过历史活动依赖的 θ_m 滑动，动态调整 LTP/LTD 阈值；与稳态缩放互补但机制不同
+- [[bcm-rule]] — BCM 规则是 Hebb 规则的数学稳定化扩展：加入了随活动水平滑动的修改阈值 θ_m
 
 ## 未解问题
 
 - Q-hebbian-global-error：纯 Hebb 规则没有全局误差信号；大脑如何通过多巴胺等调制器将 Hebbian 可塑性与全局目标对齐？三因素规则是否足以解释有监督学习？
-- Q-hebbian-stability：纯 Hebb 规则是正反馈的（强的突触变得更强），缺乏稳定机制——突触稳态缩放通过乘法性重新标定（GluA2 通路）解决了这个问题（见 [[synaptic-scaling]]）；但缩放是否真的是"纯乘法"本身仍有争议（见 Q-scale-01）
+- Q-hebbian-stability：纯 Hebb 规则是正反馈的（强的突触变得更强），缺乏稳定机制——突触稳态缩放（乘法性重新标定）和元可塑性（BCM θ_m 滑动调节 LTP/LTD 阈值）是两种已知的解决方案，两者在时间尺度和机制上互补
 
 ## 修订历史
 
+- 2026-08-27 · 修订 rev6 · 基于《可塑性的守门人：BCM 规则与元可塑性》(#127) · 新增 [[metaplasticity]] 和 [[bcm-rule]] 作为 Hebb 规则稳定性问题的补充解决方案；Q-hebbian-stability 更新；related 新增 metaplasticity、bcm-rule；source_articles 新增
+- 2026-08-25 · 修订 rev5 · 基于《突触的时间守门人》(#123) · 将 [[stdp]] 从"待建页面"升级为已建立连接，补充 STDP 分子机制说明（NMDA+bAP 超线性 Ca²⁺）；source_articles 新增
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；Q-hebbian-stability 从"待解问题"更新为"部分有答案"（突触缩放是已知的负反馈机制）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《第一周综合：时间的阶梯》一文 · 新增"多尺度 Hebb 规则"一节（BTSP/θ 序列/SWR 均为 Hebb 原理在不同时间尺度的实例化）；related 新增 btsp/theta-oscillations/sharp-wave-ripples/temporal-coding-hierarchy；dimensions 扩展为 behavior/whole-brain-network
@@ -105,3 +109,4 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 
 - [[2026-05-26-nmda-receptor-ltp]]
 - [[2026-06-07-dopamine-reward-prediction-error]]
+- [[2026-08-27-metaplasticity-bcm-sliding-threshold]]

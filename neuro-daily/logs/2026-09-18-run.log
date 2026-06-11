@@ -1,0 +1,151 @@
+# 运行日志：2026-09-18
+
+**文章编号**：#148
+**实际生成日期**：2026-06-11（UTC 05:00）
+**文章日期标签**：2026-09-18
+**分支**：claude/funny-einstein-bc11aq（目标推送到 main）
+
+---
+
+## 选题过程
+
+**读取状态文件**：
+- topic_ledger.json：最后文章 #147（2026-09-17），θ-γ嵌套与工作记忆
+- unresolved_questions.md：高优先级问题包括 Q-tgc-01 至 Q-tgc-04（来自上篇θ-γ文章）
+- contested_claims.json：12条open矛盾，无直接裁决机会
+- _graph.json：medial-septum是dangling reference（referenced by theta-oscillations）
+
+**选题决策**：
+- 优先级3（填补悬空引用）：`medial-septum` 有1个引用，但单独写MS文章不足以支撑3000字文章
+- 优先级6（课程脊柱）：上篇 #147 建议的3个next_suggested_topics，θ序列（theta-sequences-episodic-memory）是最高优先
+- 综合：以θ序列为主题（课程脊柱+解决多个unresolved questions），同时创建medial-septum wiki页填补悬空引用
+
+**最终选题**：θ序列与情节记忆编码（Article #148, date: 2026-09-18）
+
+---
+
+## 文献检索记录
+
+**检索工具**：PubMed/NCBI E-utilities（通过WebFetch），PMC Open Access，WebSearch
+
+**检索词（主要）**：
+- "theta sequences phase precession hippocampus episodic memory"
+- "theta sequences hippocampus Buzsaki"
+- "phase precession hippocampus O'Keefe Recce"
+- "theta sequences forward reverse replay"
+- "human hippocampus theta phase precession single neurons"
+- "Petersen Buzsaki 2020 medial septum cooling"
+- "Pfeiffer Foster 2013 Nature hippocampal look-ahead"
+- "Wang Foster Pfeiffer 2020 Science bidirectional sequences"
+- "Ahmadi Leutgeb 2025 dentate gyrus phase precession CA3"
+- "Reddy 2021 human theta phase sequence learning"
+
+**候选来源数量**：约35篇（从各搜索结果）
+
+**采用来源（12篇）**：
+1. PMID:8353611 - O'Keefe & Recce 1993（原始发现）- 摘要
+2. PMID:8797016 - Skaggs et al. 1996（压缩比）- 摘要
+3. PMID:16600862 - Dragoi & Buzsaki 2006（CA3/CA1分工）- 摘要
+4. PMID:17663452 - Foster & Wilson 2007（命名验证）- 摘要
+5. PMID:23594744 - Pfeiffer & Foster 2013（前瞻扫描）- 摘要
+6. PMID:21040841 - Buzsaki 2010（神经语法理论）- 摘要
+7. PMID:32526196 / PMC7442698 - Petersen & Buzsaki 2020（MS冷却）- 全文 ✅
+8. PMID:33033222 / PMC8594055 - Wang et al. 2020 Science（双向序列）- 全文 ✅
+9. PMID:34376673 / PMC8355141 - Reddy et al. 2021（人类MTL）- 全文 ✅
+10. PMID:39746924 / PMC11696047 - Ahmadi et al. 2025（DG/MEC分工）- 全文 ✅
+11. PMID:27929374 / PMC5245972 - Chadwick et al. 2016（中间神经元模型）- 全文 ✅
+12. PMID:40447449 / PMC12199547 - Jiang et al. 2025（人类逆向记忆）- 全文 ✅
+
+**排除来源（原因）**：
+- 各类计算模型论文（限于理论推测，缺直接实验）
+- 过于细节的相位进动机制论文（单细胞/双路径模型，与今日主题层级不符）
+- 仅与工作记忆而非情节记忆相关的来源（已在#147覆盖）
+
+**开放全文比例**：6/12（50%）；满足≥2篇要求 ✅
+**官方机构来源**：PubMed/NCBI，PMC ✅
+
+---
+
+## 文章质量自检
+
+### 真实性检查
+- [x] 每条wiki新主张都有来源（PMID/DOI/URL）
+- [x] 区分了事实（O'Keefe 1993多次验证）/ 主流模型（θ序列STDP机制）/ 推测（前向CA3驱动）/ 争议（STDP vs BTSP）
+- [x] Reddy 2021的人类证据明确标注"小样本（9人）、任务特异"
+- [x] Ahmadi 2025标注"2025年，首次直接回路证据，待独立复现"
+- [x] 没有将动物研究直接等同于人类结论
+
+### 一致性检查
+- [x] 新内容与既有wiki主张（theta-phase-precession, theta-oscillations, place-cells）无矛盾
+- [x] 被修订页面的updated/revision_count/修订历史同步更新
+- [x] medial-septum dangling reference已标记为resolved
+
+### 可导航性检查
+- [x] index.md和CHANGELOG.md反映了今天的变化
+- [x] 新页面theta-sequences的related/prerequisites各填≥1个
+
+### 情景层完整性检查
+- [x] articles/2026-09-18-theta-sequences-episodic-memory.md 已创建
+- [x] notes/2026-09-18-reading-notes.md 已创建
+- [x] sources/2026-09-18-sources.json 已创建
+- [x] logs/2026-09-18-run.log（本文件）正在创建
+- [x] 没有修改任何旧文件（情景层append-only）
+
+---
+
+## Wiki 固结摘要
+
+**新建 wiki 页面（2）**：
+- wiki/concepts/theta-sequences.md（revision_count=1，established/high）
+- wiki/systems/medial-septum.md（revision_count=1，established/high，填补dangling reference）
+
+**修订 wiki 页面（2）**：
+- wiki/concepts/theta-phase-precession.md（rev1→rev2：10条新证据，4个新连接）
+- wiki/concepts/theta-oscillations.md（rev4→rev5：新增theta-sequences/medial-septum）
+
+**填补悬空引用（1）**：
+- medial-septum（referenced by theta-oscillations）→ 已创建wiki/systems/medial-septum.md
+
+**新增悬空引用（1）**：
+- path-integration（theta-sequences 引用，待建页面）
+
+**登记矛盾（0）**：今日证据与既有wiki无冲突
+
+**图谱更新**：
+- 节点：300 → 302（+2）
+- 边：1733 → 1745（+12）
+
+---
+
+## 新增未解问题（4条）
+
+- Q-ts-01（高）：θ序列在非空间情节记忆中是否存在？
+- Q-ts-02（高）：双向序列的CA3/EC III假说需光遗传学验证
+- Q-ts-03（中）：θ序列的可塑性机制STDP vs BTSP分工
+- Q-ts-04（中）：MS冷却后行为错误增加的确切原因
+
+---
+
+## Git 操作记录
+
+**commit message**：Add neuro daily article + wiki consolidation for 2026-09-18
+
+**push 状态**：（待更新）
+
+---
+
+## 异常与限制
+
+1. **PubMed 搜索部分失败**：部分搜索查询返回"No results"（可能是服务器临时问题或参数问题）。通过直接PMID查询和WebSearch成功获取了所有目标来源。无功能影响。
+
+2. **Pfeiffer & Foster 2013（Nature付费墙）**：只有摘要，已在文章中明确标注"仅摘要"。摘要已足够描述核心发现（前瞻性扫描）。
+
+3. **O'Keefe & Recce 1993（经典旧文献无PMC）**：已在文章中明确标注"仅摘要（经典文献）"。
+
+4. **Buzsaki 2010（Neuron，付费墙）**：只有摘要，已标注。
+
+5. **edge格式不一致问题**：图谱中有22条边使用'source'/'target'而非'from'/'to'格式，已在更新时统一归一化处理。
+
+---
+
+*日志记录结束*

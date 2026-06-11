@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-07-08
-revision_count: 3
+updated: 2026-09-04
+revision_count: 4
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network, glymphatic-system, alzheimers-disease, circadian-clock, scn-circadian-pacemaker]
+related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network, glymphatic-system, alzheimers-disease, circadian-clock, scn-circadian-pacemaker, equilibrium-propagation, shy-hypothesis]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: [Q-so-initiation-site, Q-so-propagation-plasticity]
-source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-06-glymphatic-system-sleep-clearance, 2026-07-08-circadian-clock-scn-brain-rhythm]
-key_sources: ["PMID:38443198", "PMID:20046194", "PMID:31804897", "PMID:28689981", "PMID:39788123", "PMID:7185792"]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-06-glymphatic-system-sleep-clearance, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-09-04-equilibrium-propagation-cortical-two-phase-learning]
+key_sources: ["PMID:38443198", "PMID:20046194", "PMID:31804897", "PMID:28689981", "PMID:39788123", "PMID:7185792", "PMID:29213231", "PMID:36712943"]
 ---
 
 # 皮层慢振荡 (Cortical Slow Oscillation, SO)
@@ -88,6 +88,8 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 - [[alzheimers-disease]] — 老年性 SO 振幅减弱与胶质淋巴清洗减少协同导致 Aβ/tau 积累加速
 - [[circadian-clock]] — 昼夜节律分子振荡器决定 NREM 慢波睡眠（SO 主导）集中在前半夜的时序安排
 - [[scn-circadian-pacemaker]] — SCN 通过两过程模型（过程 C + 过程 S）协同调控 SO 丰富的深慢波睡眠何时发生
+- [[equilibrium-propagation]] — UP/DOWN 态的两态切换是 EP 两相结构（自由相/弱锁定相）的潜在生物实现（假说，2026-09-04 新增视角）
+- [[shy-hypothesis]] — SHY（突触稳态假说）和 EP 框架均解释睡眠期突触权重变化，但从不同角度：SHY 强调全局均一缩减，EP 强调选择性对比精炼；信息最大化模型（Yoshida & Toyoizumi 2022）提示两者并行发生
 
 ## 未解问题
 
@@ -99,6 +101,7 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · SO 页面是 sleep-spindles 和 memory-consolidation 的前置概念 · 初始置信度：高
 - 2026-07-06 · 修订 rev2 · 基于《大脑的夜间清洗工程》(#74) · 新增 SO 与胶质淋巴系统的双重功能关系（NREM 慢波睡眠同时驱动记忆巩固和废物清洗）；related 新增 glymphatic-system、alzheimers-disease；key_sources 新增 PMID:39788123
 - 2026-07-08 · 修订 rev3 · 基于《大脑的 24 小时时钟》(#76) · 新增 circadian-clock、scn-circadian-pacemaker 为 related 节点（两过程模型将 SO 丰富的深慢波睡眠定时于前半夜）；连接节新增两条；key_sources 新增 PMID:7185792
+- 2026-09-04 · 修订 rev4 · 基于《大脑的能量景观学习》(#135) · 新增平衡传播（EP）框架视角：UP/DOWN 态两态切换可能是 EP 自由相/弱锁定相的生物候选（假说）；新增信息最大化视角（Yoshida & Toyoizumi 2022，全局 SO → 整体下调；局部 SWR → 选择性强化）；related 新增 equilibrium-propagation、shy-hypothesis；key_sources 新增 PMID:29213231、PMID:36712943
 
 ## 来源文章
 

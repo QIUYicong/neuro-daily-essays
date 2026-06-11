@@ -1,0 +1,106 @@
+# 运行日志：2026-08-22
+
+**实际执行日期**：2026-06-08
+**文章编号**：#120
+**虚拟日期**：2026-08-22
+**分支**：claude/funny-einstein-Rg0RS（推送至main）
+
+---
+
+## 搜索策略
+
+**搜索词**（PubMed/PMC）：
+1. `language acquisition critical period neuroscience` → 10 PMIDs
+2. `phoneme perception narrowing infant critical period` → 1 PMID (32321833, 相关性有限)
+3. `statistical learning language infant brain` → 10 PMIDs
+4. `Kuhl native language magnet neural commitment phoneme` → 0 results
+5. `Kuhl social gating learning infant` → 2 PMIDs (17181708, 25024207)
+6. `Friederici language development dorsal pathway syntax children` → 2 PMIDs (22347185, 41886982)
+7. `language sensitive period arcuate fasciculus development` → 3 PMIDs (28588536, 32119984, 32797080 - 不够相关)
+
+**数据源**：PubMed E-utilities、PMC Open Access、Europe PMC（通过elink查找PMCID）
+
+---
+
+## 来源候选与筛选
+
+**采用来源（10篇）**：
+1. PMID:15496861 (Kuhl 2004, NRN) — 开放全文 — NLM-e理论核心
+2. PMID:20826304 (Kuhl 2010, Neuron) — 开放全文 — 综述框架
+3. PMID:17181708 (Kuhl 2007, Dev Sci) — 开放全文 — 社会门控实验核心
+4. PMID:25024207 (Kuhl 2014, PNAS) — 摘要 — MEG双解离
+5. PMID:8943209 (Saffran 1996, Science) — 摘要 — 统计学习奠基
+6. PMID:19284661 (Teinonen 2009, BMC Neurosci) — 摘要 — 新生儿统计学习
+7. PMID:22347185 (Friederici 2012, Front Evol Neurosci) — 开放全文 — 背侧路径I/II框架
+8. PMID:41886982 (Klein 2026, Dev Cogn Neurosci) — 开放全文 — DTI-句法相关
+9. PMID:37344237 (Kujala 2023, Trends Neurosci) — 摘要 — 新生儿前提综述
+10. PMID:32503914 (Reh 2020, PNAS) — 摘要 — 关键期调控框架
+
+**排除来源**：
+- 28588536 (Yamamoto 2017) — 成人L2，与今日核心主题相关性低，留作Q-lcp-01的背景
+- 32119984 (Vaquero 2020) — 双语/音乐经验，非主题
+- 32797080 (Geeraert 2020) — 主成分分析，非主题
+
+**经典文献（无PMID，通过综述引用）**：
+- Johnson & Newport (1989, Cognition) — 经典关键期行为证据（年龄到达曲线）
+
+---
+
+## 固结步骤
+
+**新建 wiki 页面（3页）**：
+- `wiki/concepts/language-critical-period.md` — 分层敏感期框架，三层机制
+- `wiki/concepts/statistical-learning.md` — 统计学习机制与局限
+- `wiki/concepts/social-gating-language.md` — 社会门控假说与证据
+
+**修订 wiki 页面（3页）**：
+- `wiki/concepts/phoneme-categorical-perception.md` rev1→rev2
+- `wiki/circuits/dorsal-language-stream.md` rev2→rev3
+- `wiki/systems/language-network.md` rev4→rev5
+
+**矛盾检查**：无新矛盾。今日证据均为补充和加深，无与既有主张冲突的情况。
+
+**成熟度更新**：
+- language-critical-period：established/high（多实验室行为证据高，白质发育框架成立）
+- statistical-learning：established/high（经典结果多次重复）
+- social-gating-language：mainstream/medium（行为证据高，神经机制待阐明）
+
+---
+
+## 图谱更新
+
+- 新增节点：3（language-critical-period, statistical-learning, social-gating-language）
+- 新增边：14
+- 总节点：259，总边：1450
+
+---
+
+## 登记矛盾
+
+无新矛盾。
+
+---
+
+## 新增未解问题
+
+- Q-lcp-01：成人L2局限来源（中优先级）
+- Q-lcp-02：社会门控神经回路（中优先级）
+- Q-lcp-03：ASD社会门控功能受损（高优先级）
+
+---
+
+## Git操作
+
+**分支**：claude/funny-einstein-Rg0RS（环境指定），内容推送至main
+**commit message**：Add neuro daily article + wiki consolidation for 2026-08-22
+
+---
+
+## 限制与说明
+
+1. Kuhl 2014 PNAS（PMID:25024207）无PMC开放全文，仅摘要
+2. Saffran 1996 Science（PMID:8943209）无开放全文，仅摘要（经典论文，摘要信息充分）
+3. Teinonen 2009、Kujala 2023、Reh 2020 均摘要仅读
+4. PMC页面有时重定向至不同论文（如PMC3272640实际返回Friederici内容）——已注记
+5. Johnson & Newport 1989 无PMID，通过多项综述引用内容；不视为单独来源
+6. 完全遵守：未使用Sci-Hub或绕过付费墙；未编造数据/来源/PMID/结论；无医学诊断建议

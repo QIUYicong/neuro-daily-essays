@@ -1,0 +1,167 @@
+# 2026-08-11 运行日志
+
+## 基本信息
+- 系统时钟（UTC+8）：2026-06-07
+- 知识库虚拟日期：2026-08-11
+- 文章编号：#110
+- 分支：main（本地 claude/funny-einstein-DnUmO → push 到 origin/main）
+- 执行状态：完成
+
+## 选题过程
+
+**状态读取**：
+- topic_ledger 最新条目：2026-08-10（皮层 GABA 能中间神经元切向迁移，#109）
+- 上篇建议 next_suggested_topics：皮层中间神经元人类特异性、lissencephaly 迁移障碍、皮层柱、人类皮层进化遗传学、关键期机制深化
+- unresolved_questions 高优先级：Q-interneuron-02（精神分裂症 PV 减少机制）、Q-cortex-01（人类 Inside-Out 体内验证）
+- 图谱悬空引用：仅 `cognition`（1条边，已知遗留）
+
+**选题决策**：
+选择"皮层建造的故障报告——LIS1、DCX 与 Reelin 突变如何导致无脑回谱系障碍"
+
+理由：
+1. 直接延续 #108（皮层神经发生/Inside-Out）和 #109（切向迁移），形成课程脊柱第2章"神经网络如何建成"的疾病窗口篇
+2. LIS1/DCX/Reelin 三种基因突变通过不同机制产生不同表型，提供了对 Inside-Out 规则最清晰的逆向工程机会
+3. 将疾病（lissencephaly）作为理解正常发育的窗口——课程脊柱第11章（疾病作为窗口）的核心方法论
+4. 文献质量高，有两篇高质量 PMC 开放全文（PMC3593794/PMC2967611）
+
+## 检索过程
+
+**搜索词**：
+- PubMed: "lissencephaly LIS1 PAFAH1B1 cortical migration review"
+- PubMed: "DCX doublecortin lissencephaly cortical neuronal migration review"
+- PubMed: "reelin RELN cortical lamination inside-out neuronal migration"
+- PubMed: "cobblestone lissencephaly glycosylation dystroglycan cortical malformation"
+- PubMed: "periventricular heterotopia FLNA filamin neuronal migration review"
+- PubMed: "polymicrogyria GPR56 ADGRG1 cortical malformation mechanism"
+- PubMed: "lissencephaly polymicrogyria cortical malformation neuronal migration 2018-2026"
+
+**候选来源数**：~35 篇（PMID 检索）
+
+**采用来源（10 篇）**：
+
+| # | PMID | 作者 | 年份 | 期刊 | 全文 | 用途 |
+|---|------|------|------|------|------|------|
+| 1 | 23495356 | Moon HM | 2013 | Wiley Interdiscip Rev Dev Biol | PMC3593794 ✅ | LIS1/DCX/RELN 分子机制主要来源 |
+| 2 | 20688183 | Wynshaw-Boris A | 2010 | Semin Cell Dev Biol | PMC2967611 ✅ | 动物模型+治疗策略 |
+| 3 | 28951247 | Romero DM | 2018 | Semin Cell Dev Biol | 摘要 | 综合分类综述 |
+| 4 | 18255163 | Cooper JA | 2008 | Trends Neurosci | 摘要 | "脱离并跃迁"模型 |
+| 5 | 31022460 | Armstrong NC | 2019 | Int J Biochem Cell Biol | 摘要 | Reelin 成年功能/疾病 |
+| 6 | 12668601 | Kato M | 2003 | Hum Mol Genet | 摘要 | 五基因分类 |
+| 7 | 11754098 | Cardoso C | 2002 | Hum Mutat | 摘要 | LIS1 突变谱 |
+| 8 | 20980614 | Satz JS | 2010 | J Neurosci | 摘要 | II型/鹅卵石型/α-DG |
+| 9 | 30016746 | Romaniello R | 2018 | Eur J Med Genet | 摘要 | Tubulinopathies |
+| 10 | 21349848 | Chiang NY | 2011 | J Biol Chem | 摘要 | 多小脑回/GPR56 |
+
+开放全文：2 篇（PMC3593794、PMC2967611）；摘要仅及：8 篇
+
+**排除来源**：
+- PMID:27184850（GPR56 在 NK 细胞中的功能，非神经发育主题）
+- PMID:31747049（代谢疾病继发迁移缺陷，超出主题范围）
+- PMID:36113924（放射影像学分类，缺乏分子机制内容）
+- 其余约 22 篇：重复主题或与主题关联过弱
+
+## 文章写作
+
+**文件**：`articles/2026-08-11-lissencephaly-cortical-migration-failure.md`
+**篇幅**：约 5200 字（中文）
+**结构**：
+1. 核心问题与一句话摘要
+2. 为什么研究"坏掉的建造"（逆向工程策略）
+3. 什么是无脑回（临床背景）
+4. I 型：LIS1 — 微管动力机失灵（N-C 偶联/dynein/YWHAE）
+5. I 型：DCX — X 染色体剂量实验（双皮层综合征机制）
+6. I 型：RELN — 终止信号消失（Reeler 表型/信号通路）
+7. II 型：鹅卵石型 — 过度迁移（α-DG 糖基化/基底膜破裂）
+8. 多小脑回（异质机制）
+9. 三种故障比较表（反推 Inside-Out 必要条件）
+10. 比喻与局限（电梯系统）
+11. 改变理解的意义
+12. 争议与未解问题（3个）
+13. 与 AI 比较
+14. 概念卡片 + 认知地图更新
+15. 参考来源（10篇，全文/摘要状态标注）
+
+## 固结步骤
+
+### 新建 wiki 页面（3）
+
+1. **`concepts/lissencephaly.md`** rev1
+   - 成熟度：established / 置信度：high
+   - 关键来源：PMID:23495356, 20688183, 28951247, 12668601, 11754098
+   - 连接：8 个既有节点 + 2 个新节点
+
+2. **`concepts/reelin-signaling.md`** rev1
+   - 成熟度：established / 置信度：high（发育）/ medium（成年突触功能）
+   - 关键来源：PMID:23495356, 18255163, 31022460, 9321693
+   - 连接：8 个既有节点
+
+3. **`concepts/cortical-migration-disorders.md`** rev1
+   - 成熟度：established / 置信度：high
+   - 关键来源：PMID:28951247, 12668601, 29298944, 30016746
+   - 连接：6 个既有节点
+
+### 修订 wiki 页面（3）
+
+4. `concepts/cortical-neurogenesis.md` rev2→rev3
+   - related 新增 3 节点（lissencephaly, reelin-signaling, cortical-migration-disorders）
+   - 修订历史追加
+
+5. `concepts/tangential-migration.md` rev1→rev2
+   - related 新增 2 节点
+   - 修订历史追加
+
+6. `concepts/cortical-layers.md` rev1→rev2
+   - related 新增 3 节点
+   - updated 日期更新
+
+### 矛盾登记：0 条新矛盾
+
+无新矛盾。Reelin 在成年期与精神分裂症的关系记录为未解问题（Q-lis-02），而非矛盾（相关性与机制尚不确定，但无既有 wiki 主张与之直接冲突）。
+
+## 知识图谱更新
+
+- 节点：229 → 232（+3）
+- 边：1302 → 1324（+22）
+- 悬空引用：无新增（已知 `cognition` 仍悬空，1条边）
+- 新增未解问题：Q-lis-01（高）、Q-lis-02（中）、Q-lis-03（中）
+
+## 文件生成
+
+- articles/2026-08-11-lissencephaly-cortical-migration-failure.md ✓
+- notes/2026-08-11-reading-notes.md ✓
+- sources/2026-08-11-sources.json ✓
+- wiki/concepts/lissencephaly.md ✓
+- wiki/concepts/reelin-signaling.md ✓
+- wiki/concepts/cortical-migration-disorders.md ✓
+- wiki/concepts/cortical-neurogenesis.md（修订）✓
+- wiki/concepts/tangential-migration.md（修订）✓
+- wiki/concepts/cortical-layers.md（修订）✓
+- wiki/_graph.json（更新）✓
+- wiki/index.md（更新）✓
+- wiki/CHANGELOG.md（更新）✓
+- state/topic_ledger.json（更新，entry 93，total=110）✓
+- state/unresolved_questions.md（新增 Q-lis-01/02/03）✓
+- state/source_registry.json（新增 10 条来源）✓
+- state/monthly_synthesis.md（8月第11篇追加）✓
+- logs/2026-08-11-run.log（本文件）✓
+
+## 质量自检
+
+- [x] 每条 wiki 新主张有来源（PMID/PMC）
+- [x] 区分了事实/主流模型/推测/争议（特别是 Reelin 成年功能、治疗前景标注了置信度）
+- [x] 未把动物研究（小鼠 reeler/Lis1+/−）直接写成人类定论（均标注"小鼠"）
+- [x] 无新矛盾（已有矛盾未产生新冲突）
+- [x] 被修订页的 updated/revision_count/修订历史同步更新
+- [x] _graph.json 无新悬空边（所有边的 from/to 均已在节点中存在，`cognition` 为已知遗留）
+- [x] index.md 和 CHANGELOG.md 反映今天变化
+- [x] 新页 related/prerequisites 各≥1
+- [x] 文章/笔记/来源/日志齐全且 append-only（未改旧文件，只修订 wiki 页的 metadata/连接字段）
+
+## Git 状态
+
+- 分支：本地 claude/funny-einstein-DnUmO → push 到 origin/main
+- 提交状态：已提交（committer: noreply@anthropic.com）
+- commit hash（文章主体）：1398198
+- commit hash（日志更新）：7194d46
+- push 状态：成功推送至 origin/main（7222d57 → 7194d46，含 committer 修正强推）
+- push 命令：git push origin claude/funny-einstein-DnUmO:main --force-with-lease

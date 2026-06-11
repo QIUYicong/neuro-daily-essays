@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 4
-dimensions: [cellular, synaptic, microcircuit, cognition, disease]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia]
+updated: 2026-09-13
+revision_count: 6
+dimensions: [molecular, cellular, synaptic, microcircuit, cognition, disease]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration, schizophrenia, trkb-receptor, nmda-receptor]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
-opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
-source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468"]
+opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01, Q-scz-pv-01, Q-scz-pv-02]
+source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-09-13-pv-gamma-schizophrenia-cognition]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468", "PMID:12867516", "PMID:22983435", "PMID:40436282", "PMID:37247333", "PMID:1654746"]
 ---
 
 # PV+ 中间神经元（Parvalbumin-expressing Interneurons）
@@ -82,12 +82,24 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - Q-pv-schizophrenia-causal：精神分裂症中 PV+ 细胞 GAD67 下调是病因、代偿还是继发改变？
 - Q-pv-gamma-necessary：PV+ 细胞是 γ 振荡的必要产生者，还是只是与 γ 相关的贡献者之一？
 
+## 精神分裂症疾病视角（2026-09-13 新增）
+
+PV+ 中间神经元是精神分裂症认知症状的关键回路节点。其详细机制见 [[schizophrenia]] 页，以下为核心要点：
+
+**GAD67/PV 分子缄默**（非细胞死亡）：Hashimoto et al. 2003（PMID:12867516）在死后 DLPFC 中发现约 45% 的 PV+ 细胞检测不到 GAD67 mRNA，细胞总数正常。Volk et al. 2012（PMID:22983435）发现上游转录因子 Lhx6 同步降低，提示发育性起源。
+
+**NMDAR→PV 细胞脆弱性**：NMDA 受体拮抗剂（PCP、氯胺酮）可在健康人中复现 SCZ 全谱症状（Javitt & Zukin 1991, PMID:1654746）。GluN2A 亚基（GRIN2A）全局缺失选择性损伤 PV+ 细胞（Hosseini 2025, PMID:40436282）。Gonzalez-Burgos & Lewis 2012（PMID:22355184）的重要约束：成熟皮层 γ 振荡状态下 NMDAR 对 PV 细胞激活的直接贡献相对小（AMPAR 主导）——NMDAR 对 PV 功能的损害可能主要为发育性/间接机制。
+
+**Kv3.1/3.2 作为治疗靶点**：PV 细胞的 fast-spiking 表型依赖 Kv3.1/3.2 钾通道（快速复极化）；SCZ 中这些通道表达降低；正向 Kv3 调制剂（AUT00206）正处于早期临床试验（Musselman 2023, PMID:37247333）。
+
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《回路中的少数精锐》一文 · 初始置信度：高
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 新增 PFC γ爆发WM应用、精神分裂症病理证据
 - 2026-07-04 · 修订 rev3 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增 E/I 平衡执行者角色、关键期初始靶点（Quast & Hensch 2023）、PNN 固化机制、神经炎症脆弱性
 - 2026-06-03 · 修订 rev4 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增：PV+ 细胞去激活是 ODP 的第一个微回路事件（Kuhlman 2013），OTX2 经 PNN 锚定驱动 PV 成熟（Sugiyama 2008, Beurdeley 2012），BDNF 驱动 PV 成熟时间轴（Huang 1999），Rett 综合征中 MeCP2 KO 加速 PV 成熟导致关键期错位（Krishnan 2015），小胶质细胞亚群上游调控 PV 成熟（Wang 2025）；related 新增 critical-period, bdnf, microglia
+- 2026-08-10 · 修订 rev5 · 基于《皮层的第二种建筑学》(#109) · 新增：MGE 腹侧来源、Nkx2.1→Lhx6 命运决定路径、程序性细胞死亡筛选（30-40%，Wong 2018）作为 PV 数量校准机制；related 新增 cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration
+- 2026-09-13 · 修订 rev6 · 基于《当 γ 节奏失声》(#143) · 新增"精神分裂症疾病视角"小节（GAD67缄默机制、NMDAR约束、Kv3靶点）；related 新增 schizophrenia/trkb-receptor/nmda-receptor；key_sources 新增 PMID:12867516/22983435/40436282/37247333/1654746；opens_questions 新增 Q-scz-pv-01/02
 
 ## 来源文章
 
@@ -95,3 +107,4 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-06-03-critical-period-plasticity]]
+- [[2026-08-10-cortical-interneuron-tangential-migration]]

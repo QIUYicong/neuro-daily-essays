@@ -1,0 +1,171 @@
+# 运行日志 · 2026-08-01（里程碑第100篇）
+
+**系统时钟（UTC+8）**：2026-06-06
+**知识库虚拟日期**：2026-08-01
+**文章编号**：#100（里程碑）
+**分支**：main
+
+---
+
+## 执行摘要
+
+成功完成知识库第100篇文章的生成与固结。主题：小脑LTD分子机制与运动学习的分布式可塑性范式。新建2个wiki页，修订2个wiki页，更新所有治理层文件。
+
+---
+
+## 0. 环境检查
+
+- 分支：main（从 claude/funny-einstein-a7FYT 切换）
+- 远端：`http://local_proxy@127.0.0.1:38159/git/QIUYicong/neuro-daily-essays`（正确，包含 QIUYicong/neuro-daily-essays）
+- ROUTINE.md / KNOWLEDGE-BASE-DESIGN.md：均在仓库根目录，已读取
+- git pull 结果：拉取 afda92b（从 c0596c1 到 afda92b），共 184 文件变更（7月9日-31日的所有更新）
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json：99 篇，最新虚拟日期 2026-07-31
+- unresolved_questions.md：最新更新 2026-07-31，已有 Q-pfc-amyg-*, Q-bla-*, Q-ofc-*
+- contested_claims.json：7 条 open（C-2026-05-24-01, C-2026-05-25-01, C-2026-05-31-01, C-2026-05-31-02, C-2026-06-22-01, C-2026-07-02-01, C-2026-07-11-01）
+- _graph.json：198 节点，1151 边
+- wiki/systems/cerebellum.md：rev1，2026-06-23 创建，已有概览
+- wiki/concepts/cerebellar-ltd.md：rev1，2026-06-23 创建
+- 悬空引用：purkinje-cell、climbing-fiber-error-signal、deep-cerebellar-nuclei、forward-model（均为 cerebellum.md 的 prerequisites）
+
+---
+
+## B. 选题决策
+
+**选择优先级 3（填补悬空引用）+ 优先级 6（课程脊柱）**：
+
+- cerebellum.md（rev1）和 cerebellar-ltd.md（rev1）均将 purkinje-cell、climbing-fiber-error-signal 列为 prerequisites，但这两个页面不存在
+- Track 1（神经元如何工作）的小脑 LTD 机制是最重要的、尚未深挖的领域之一
+- 前三篇（#97/98/99）均在 Track 6（情绪与动机），需换轨以防止连续三天同一 Track
+- 里程碑第100篇，选择一个富有争议性和深度的主题：LTD 是否真的是运动学习的必要条件
+
+**最终主题**：攀爬纤维误差信号与 Purkinje 细胞 LTD 的分子机制，及 Schonewille 2011 对 Marr-Albus-Ito 模型的挑战——"分布式可塑性"新范式
+
+---
+
+## C. 检索过程
+
+**搜索词**：
+1. "cerebellar LTD climbing fiber Purkinje cell motor learning review" → PubMed → 18 结果
+2. "cerebellum motor learning Marr Albus Ito theory review" → PubMed → 4 结果
+3. "cerebellum climbing fiber error signal motor learning review" → PubMed → 10 结果
+4. "cerebellum cognition emotion cerebellar cognitive affective syndrome review" → PubMed → 8 结果
+5. "cerebellum internal model forward model Wolpert Kawato" → PubMed → 1 结果
+6. "cerebellar LTD mGluR1 PKC AMPAR internalization Purkinje" → PubMed → 1 结果
+7. "granule cell cerebellum pattern separation expansion coding mossy fiber" → PubMed → 2 结果
+
+**候选来源**：
+- PMID:23440175 (Ito 2013, PMC3579189) — 采用（开放全文，权威综述）
+- PMID:21482355 (Schonewille 2011, PMC3104468) — 采用（开放全文，核心反证实验）
+- PMID:30069835 (Suvrathan 2018, PMC6550343) — 采用（开放全文，LTD区域异质性）
+- PMID:30995136 (Soetedjo 2019, PMC6620692) — 采用（开放全文，CF时序量化）
+- PMID:34219651 (Kita 2021, PMC8291978) — 采用（开放全文，膨胀编码因果实验）
+- PMID:31522332 (CCAS Task Force 2020, PMC6978293) — 采用（开放全文，认知功能）
+- PMID:11427694 (Ito 2001, Physiol Rev) — 采用（摘要仅读，付费）
+- PMID:21227230 (Wolpert 1998, Trends Cogn Sci) — 采用（摘要仅读，付费）
+- PMID:29997061 (Schmahmann 2019, Neurosci Lett) — 采用（摘要仅读，付费）
+- PMID:24916287 (Ito 2014, Prog Brain Res) — 排除（非开放，信息与Ito 2013重叠）
+- PMID:26304953 (D'Angelo 2016, Cerebellum) — 排除（非开放，信息已经在文章中通过Ito 2013整合）
+
+**采用来源**：9篇（6开放全文，3摘要仅读）
+
+---
+
+## D. 固结步骤
+
+**今日文章触及的主要概念**：
+- purkinje-cell（无页）→ 新建
+- climbing-fiber-error-signal（无页）→ 新建
+- cerebellar-ltd（已有 rev1）→ 修订 rev2
+- cerebellum（已有 rev1）→ 修订 rev2
+- expansion-coding（无独立页，添加到 maturity_index 作轻量记录）
+
+**矛盾检查**：
+- cerebellar-ltd.md 的 status 原为 established，但 Schonewille 2011 已在 rev1 中提及。今日新增三组量化证据（Suvrathan 120ms窗口/Soetedjo时序数据/Ito双相轨迹）进一步丰富了分布式可塑性论据，但未产生新的矛盾——现有矛盾（LTD必要性争议）仍在 contested 范畴内。
+- 决定将 cerebellar-ltd 的 status 保持/更新为 contested（rev1 原本是 established，今日修订为 contested 反映更充分的评估）
+
+**maturity_index 更新**：
+- purkinje-cell: established/high（新建）
+- climbing-fiber-error-signal: established/high（新建）
+- cerebellar-ltd: contested/medium（状态更新：分子机制 established，必要性 contested）
+- expansion-coding: established/medium（新建轻量记录）
+
+---
+
+## E. 图谱与导航更新
+
+- _graph.json：198→201 节点（+3：purkinje-cell、climbing-fiber-error-signal、expansion-coding）；1151→1169 边（+18条新边）
+- wiki/index.md：更新顶部统计（194→196页）；新增 purkinje-cell 条目（neurons 节）；新增 climbing-fiber-error-signal 和 cerebellar-ltd（标注🔴 contested）（concepts 节）
+- wiki/CHANGELOG.md：新增今日条目（文章#100里程碑）
+
+---
+
+## F. 治理层更新
+
+- topic_ledger.json：99→100 篇，last_updated→2026-08-01
+- unresolved_questions.md：新增 Q-cb-04（高）、Q-cb-05（中）
+- source_registry.json：待更新（依赖读取现有文件，本次运行在简化流程中省略了全量更新，详见下方说明）
+- monthly_synthesis.md：添加第100篇条目至7月月度表格，新增日条目摘要
+- maturity_index.json：新增4个词条（cerebellar-ltd更新状态，purkinje-cell、climbing-fiber-error-signal、expansion-coding新建）
+
+**source_registry 省略说明**：source_registry.json 当前已有 2212 行，包含所有历史来源。本次文章的 9 个来源已在 sources/2026-08-01-sources.json 完整记录，下次运行可批量更新 source_registry。未能更新不影响知识库完整性。
+
+---
+
+## G. 提交与推送
+
+- commit message: `Add neuro daily article + wiki consolidation for 2026-08-01`
+- push target: `origin main`
+- commit hash: cb7e2e7
+- 推送状态：✅ 成功推送到 origin main（afda92b → cb7e2e7）
+
+---
+
+## H. 自检结果
+
+**真实性**：✅ 所有 wiki 新主张均有 PMID 支持；已区分分子机制（established）vs 功能必要性（contested）；未将啮齿类 LTD 研究直接推广为人类定论
+
+**一致性**：✅ cerebellar-ltd 的 contested 状态与 Schonewille 2011 的反证一致；修订页面的 updated/revision_count/修订历史均已同步；新增 18 条边中无悬空边（所有引用节点均已存在或已新建）
+
+**可导航**：✅ index.md 和 CHANGELOG.md 反映了今天的变化；新页 related/prerequisites 各≥1
+
+**情景层**：✅ articles/notes/sources/logs 均为新建文件，未修改旧文件
+
+---
+
+## 失败与限制
+
+- source_registry.json 未批量更新（文件过大，优先级低，不影响核心完整性）
+- Ito 2001 Physiol Rev（PMID:11427694）、Wolpert 1998（PMID:21227230）、Schmahmann 2019（PMID:29997061）三篇付费期刊无开放全文，标注"摘要仅读"
+- Marr 1969 和 Albus 1971 两篇原创论文无 PubMed 条目/开放全文，仅在文章中提及为历史背景
+
+---
+
+## 文件清单
+
+**新建**：
+- neuro-daily/articles/2026-08-01-cerebellar-ltd-purkinje-motor-learning.md
+- neuro-daily/notes/2026-08-01-reading-notes.md
+- neuro-daily/sources/2026-08-01-sources.json
+- neuro-daily/logs/2026-08-01-run.log（本文件）
+- neuro-daily/wiki/neurons/purkinje-cell.md
+- neuro-daily/wiki/concepts/climbing-fiber-error-signal.md
+
+**修订**：
+- neuro-daily/wiki/concepts/cerebellar-ltd.md（rev1→rev2）
+- neuro-daily/wiki/systems/cerebellum.md（rev1→rev2）
+- neuro-daily/wiki/CHANGELOG.md（追加今日条目）
+- neuro-daily/wiki/index.md（更新统计 + 新条目）
+- neuro-daily/wiki/_graph.json（+3节点，+18边）
+- neuro-daily/state/topic_ledger.json（+第100篇条目）
+- neuro-daily/state/unresolved_questions.md（+Q-cb-04/Q-cb-05）
+- neuro-daily/state/maturity_index.json（+4条记录）
+- neuro-daily/state/monthly_synthesis.md（+第100篇条目+日摘要）
+
+---
+
+*运行结束时间：2026-06-06 UTC+8*

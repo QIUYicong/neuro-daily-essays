@@ -1,0 +1,106 @@
+# 运行日志 · 2026-09-07（虚拟日期）/ 实际执行：2026-06-10
+
+## 基本信息
+
+- 文章编号：#137
+- 虚拟日期：2026-09-07
+- 实际执行日期（UTC+8）：2026-06-10
+- 分支：main
+- 执行模式：自动代理（Claude Code claude/funny-einstein-6vm9c8）
+
+## 主题选择
+
+### 候选主题（按 ROUTINE.md 优先级评估）
+
+1. **SynGAP1 突触制动蛋白** ← 选中
+   - 理由：前一篇文章（#136 PSD-95）的 next_suggested_topics 明确推荐 syngap-rasopathy；PSD-95 页中 SynGAP PDZ 竞争机制已充分铺垫，续写逻辑自然；添加 disease/cognition 维度，打破连续 molecular/synaptic 层级单调性；wiki 中 syngap1.md 和 syngap1-related-disorder.md 均为悬空引用（在 psd-95.md 的 related 中提及但无对应页）
+   - 优先级：frontier_node（前沿节点：PSD-95 槽位竞争故事的直接延续，同时开辟疾病叙事线）
+
+2. DLG4 综合征（备选，优先级略低）
+   - 放弃原因：SYNGAP1 机制更核心，DLG4 综合征可在后续专门覆盖
+
+3. AMPAR 运输（备选）
+   - 放弃原因：需要更系统的 AMPAR 内吞/外排文献准备；作为后续文章更合适
+
+### 层级验证
+
+- 最近两篇：#135（microcircuit/theory）、#136（molecular/synaptic）
+- #137 添加 disease/cognition，满足"避免连续同层"规则 ✓
+
+## 文献检索
+
+### 检索策略
+
+1. PubMed 搜索：`SynGAP1 LTP CaMKII phosphorylation dispersal`
+2. PubMed 搜索：`SYNGAP1 haploinsufficiency intellectual disability silent synapse critical period`
+3. PubMed 搜索：`SynGAP1 RasGAP Rap1GAP isoform review`
+4. Europe PMC 搜索：`SYNGAP1 gene therapy AAV`
+
+### 候选来源（评估）
+
+| PMID | 标题摘要 | PMC开放 | 结论 |
+|------|---------|--------|------|
+| 32075947 | Gamache 2020 SynGAP1 综合综述（Annu Rev Neurosci） | PMC7046327 ✓ | 采用（主参考） |
+| 26912996 | 2016 SYNGAP1+/- 沉默突触过早耗尽 | PMC4753466 ✓ | 采用 |
+| 19196676 | Kim/Chang 2009 CaMKII→SynGAP1 弥散→LTP | PMC2925262 ✓ | 采用 |
+| 41767012 | Berryer 2025 AAV 基因治疗 SYNGAP1 | PMC12935682 ✓ | 采用 |
+| 9620694 | Chen 1998 SynGAP 发现论文（Nature） | 无 PMC | 采用（摘要仅读） |
+| 26558778 | Kilinc 2015 SYNGAP1 认知功能综述 | PMC4642239 ✓ | 采用 |
+
+### 拒绝/排除来源
+
+- PMID:28441121（Watabe-Uchida 2017 多巴胺回路）— 与主题无关，错误搜索结果
+- 任何付费全文 — 拒绝，均使用 PMC 替代或摘要
+
+### 来源质量总结
+
+- 开放全文：5篇（PMC7046327、PMC4753466、PMC2925262、PMC12935682、PMC4642239）
+- 摘要仅读：1篇（PMID:9620694，发现论文，主要用于引用归属而非论据）
+- Sci-Hub 或付费绕过：0篇 ✓
+- 捏造来源：0篇 ✓
+
+## 写作
+
+- 文章字数：~4500 词（含引文、章节标题）
+- 语言：中文
+- 核心主张：SynGAP1 双向制动模型（Ras+Rap1 同时抑制 → 精确调控 ERK 极性）；CaMKII 磷酸化解制动（Ser1116+Ser1289）→ 弥散 → Ras-ERK 激活 → AMPAR 插入
+- 争议部分：SynGAP1 三聚化体积排除假说 vs 亲和力降低模型（两者均无强体内证据区分）
+- 疾病延伸：SYNGAP1+/- 四重打击 → ID/ASD/癫痫三联征 → 治疗前沿（AAV/ASO/mGluR5 拮抗剂）
+
+## Wiki 整合
+
+### 新建页面
+
+- `wiki/concepts/syngap1.md` — SynGAP1 分子机制页（established/high）
+- `wiki/diseases/syngap1-related-disorder.md` — SYNGAP1 相关神经发育障碍（established/high）
+
+### 修订页面
+
+- `wiki/concepts/ltp.md`：rev14 → rev15（SynGAP1 解制动作为 LTP 表达必要步骤）
+- `wiki/concepts/psd-95.md`：rev1 → rev2（SynGAP-PDZ2 分子细节；slug 修正 syngap→syngap1）
+- `wiki/concepts/silent-synapse.md`：rev1 → rev2（SynGAP1 作为沉默突触自发开锁制动器；disease 维度）
+
+### 知识图谱更新
+
+- 新节点：syngap1（289号）、syngap1-related-disorder（290号 / 实际 id 289）
+- 新增边：13条（syngap1↔psd-95, syngap1→ltp, syngap1→nmda-receptor, syngap1→ampa-receptor, syngap1→camkii, syngap1→silent-synapse, syngap1→critical-period, syngap1-related-disorder→syngap1, syngap1-related-disorder→autism-spectrum-disorder, syngap1-related-disorder→ltp, syngap1-related-disorder→silent-synapse, syngap1-related-disorder→critical-period, psd-95→syngap1）
+- 图谱更新后：289 节点，1641 边（原 287/1628）
+
+## 治理状态更新
+
+- topic_ledger.json：total_articles 136→137，新增 #137 条目
+- unresolved_questions.md：新增 Q-syngap1-01（高优先级）、Q-syngap1-02（高优先级）
+- monthly_synthesis.md：9月摘要追加 #137 条目
+- source_registry.json：新增 6 条来源记录
+- maturity_index.json：新增 syngap1（established/high）、syngap1-related-disorder（established/high），total_pages 16→18
+- wiki/index.md：header 更新（#137 · 270页 · 289节点/1641边）
+- wiki/CHANGELOG.md：新增 2026-09-07 变更记录
+
+## 争议声明
+
+- 无新增争议声明（contested_claims.json 未更新）
+
+## 推送状态
+
+- 推送分支：main
+- 推送结果：[见 git 提交记录]

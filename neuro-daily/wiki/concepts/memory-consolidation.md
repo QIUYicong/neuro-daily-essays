@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-07-08
-revision_count: 7
-dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker]
+updated: 2026-09-11
+revision_count: 10
+dimensions: [molecular, synaptic, whole-brain-network, brain-region, behavior, cognition]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker, memory-reconsolidation, engram-systems-consolidation, prefrontal-cortex, anterior-cingulate-cortex]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-rem-sleep-role, Q-replay-human-translation]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm]
-key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710"]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-09-10-complementary-learning-systems-sleep-consolidation, 2026-09-11-engram-systems-consolidation]
+key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:37987008", "PMID:38168420", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710", "PMID:28386011 (PMC5493329)", "PMID:37586373 (PMC10524918)", "PMID:15685217"]
 ---
 
 # 记忆巩固（系统层面）(Memory Consolidation — Systems Level)
@@ -24,9 +24,10 @@ key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517",
 
 我们现在认为，系统层面记忆巩固是一个**主动的神经程序**，而非被动的时间等待（Rasch & Born 2013, PMID:23589831）。其本质是海马（快速单次编码器）和新皮层（慢速分布式学习器）之间通过 NREM 睡眠的反复对话。
 
-**两种巩固不可混淆**：
+**三种巩固不可混淆**：
 - **突触巩固**：数分钟至数小时，LTP 的蛋白合成依赖阶段，发生在单个突触
 - **系统巩固**：数天至数十年，海马→皮层转移，发生在全脑网络层面——今日页面的主题
+- **再巩固**（Reconsolidation）：已巩固的记忆在每次被提取后，短暂回到蛋白质合成依赖的不稳定状态，需要重新固化——证明巩固是可以反复触发的迭代过程而非一次性事件（Nader et al. 2000, PMID:10963596）。详见 [[memory-reconsolidation]]。
 
 **关键设计逻辑**：McClelland 等（1995, PMID:7624455）的**互补学习系统（CLS）模型**解释了为什么需要两个系统：若皮层直接快速学习新事件，会发生"灾难性遗忘"（覆盖旧知识）；通过海马快速存储 + 夜间 SWR 向皮层反复重播（interleaved replay），皮层可缓慢整合新知识而不破坏旧知识。
 
@@ -116,7 +117,9 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 | SWR 是系统巩固的因果机制（破坏） | 闭环 SWR 破坏 → 次日空间记忆损害 | PMID:19749750; PMID:22555434 | 高 |
 | 大振幅SWR光遗传增强→改善记忆（充分性证据） | 闭环光遗传SWR增强 + 行为测试 | PMID:41205608 | 中-高（新因果证据，鼠类） |
 | 睡眠微结构（NE/瞳孔）分时处理新旧记忆 | CA1记录+瞳孔追踪：收缩期→新记忆；扩张期→旧记忆 | PMID:39743590 | 中（新发现） |
-| 清醒SWR标记特定经历供睡眠优先巩固 | 群体记录+跨状态解码 | PMID:38547293 | 中（新发现，需验证） |
+| 清醒SWR标记特定经历供睡眠优先巩固（PMID:38547293） | 群体记录+跨状态解码 | PMID:38547293 | 中（新发现，需验证） |
+| 清醒SWR直接解码当前试次并预测睡眠重播内容（R=0.86） | 大规模群体记录+UMAP+跨状态解码（数百神经元） | PMID:37987008 | 中-高（Yang 2023，Nature）|
+| PFC涟漪顶-下门控：独立发生→抑制海马再激活；同步耦合→增强再激活；时序：纺锤波→PFC涟漪→SWR | 双区域LFP+时序分析 | PMID:38168420 | 中（新兴，Shin & Jadhav 2023）|
 | SO-spindle-SWR 三重奏时间嵌套 | 多通道 LFP 记录 + 相位分析 | PMID:23589831; PMID:26238360 | 高 |
 | 海马场所细胞在睡眠中重激活 | 双细胞对交叉相关图：探索 ≈ 睡眠 | PMID:8036517 | 高 |
 | 记忆提取从海马→皮层转移 | 纵向 fMRI：1天/1月/1年后激活变化 | PMID:26238360 | 高 |
@@ -156,6 +159,7 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 - [[emotional-memory-depotentiation]] — 系统巩固的情绪维度：REM期选择性弱化记忆情感色彩（SFSR假说）
 - [[circadian-clock]] — 分子时钟直接调控 GluA1 表达和 LTP 阈值；BMAL1 KO 损害学习
 - [[scn-circadian-pacemaker]] — SCN 编排睡眠时序，决定 NREM/REM 在一夜中的分布，间接决定哪类记忆优先被处理
+- [[memory-reconsolidation]] — 已巩固记忆在每次提取后重回蛋白质合成依赖状态；证明巩固是迭代过程；为临床修改病理记忆提供理论基础
 
 ## 未解问题
 
@@ -191,9 +195,13 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-05-31 · 修订 · 基于《REM睡眠与情绪记忆》文章 · 当前理解节新增REM睡眠角色段落（Boyce 2016光遗传因果链、van der Helm 2011人类fMRI、Walker SFSR假说）；关键证据表新增2行；连接新增rem-sleep/emotional-memory-depotentiation；Q-rem-sleep-role标记为部分解答；key_sources扩充3个
 - 2026-07-07 · 修订 rev6 · 基于《三重协奏》(#75) · 新增 so-spindle-swr-coupling、shy-hypothesis 两个 related 节点；证据表新增2行；Q-shy-vs-active-consolidation 部分解答
 - 2026-07-08 · 修订 rev7 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对记忆巩固的时间门控"小节（LTP 昼夜波动、BMAL1 KO 学习损伤、SCN 萎缩→记忆功能下降的 AD 连接）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节扩充2条；key_sources 新增 PMID:12198538
+- 2026-07-28 · 修订 rev8 · 基于《记忆的活书稿》文章（#96）· 新增"再巩固"为第三种巩固类型；连接节新增 [[memory-reconsolidation]]；related 新增 memory-reconsolidation；dimensions 新增 molecular、synaptic
+- 2026-09-10 · 修订 rev9 · 基于《海马给新皮层写的信》文章 (#140) · 证据表 +3行（Yang 2023 PMID:37987008 直接预测睡眠重播；PFC涟漪顶-下门控 PMID:38168420；前条更新标注区分两个Yang来源）；key_sources +2（PMID:37987008, PMID:38168420）；source_articles 新增 2026-09-10
+- 2026-09-11 · 修订 rev10 · 基于《皮层记忆印迹的诞生》文章（#141）· related 新增 engram-systems-consolidation、prefrontal-cortex、anterior-cingulate-cortex；key_sources 新增 PMID:28386011、37586373、15685217；source_articles 新增 2026-09-11；指向新创建的 [[engram-systems-consolidation]] 页面（印迹视角的系统巩固机制）
 
 ## 来源文章
 
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-05-31-rem-sleep-emotional-memory]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
+- [[2026-09-11-engram-systems-consolidation]]

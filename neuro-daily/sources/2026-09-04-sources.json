@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-04",
+  "article": "2026-09-04-equilibrium-propagation-cortical-two-phase-learning",
+  "article_number": 135,
+  "topic": "平衡传播与皮层两相学习：反向传播的第二种生物近似",
+  "sources": [
+    {
+      "id": "S1",
+      "type": "primary_research",
+      "pmid": "28522969",
+      "pmcid": "PMC5415673",
+      "doi": "10.3389/fncom.2017.00024",
+      "title": "Equilibrium Propagation: Bridging the Gap between Energy-Based Models and Backpropagation",
+      "authors": "Scellier B, Bengio Y",
+      "journal": "Frontiers in Computational Neuroscience",
+      "year": 2017,
+      "full_text_available": true,
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5415673/",
+      "role": "core",
+      "used_for": "平衡传播算法的数学定义、核心定理（两相差=精确梯度）、MNIST验证、STDP等价性推导",
+      "notes": "开放全文 ✅"
+    },
+    {
+      "id": "S2",
+      "type": "primary_research",
+      "pmid": "40038254",
+      "pmcid": "PMC11880436",
+      "doi": "10.1038/s41467-025-57043-x",
+      "title": "Temporal Contrastive Learning through implicit non-equilibrium memory",
+      "authors": "Altun K et al.",
+      "journal": "Nature Communications",
+      "year": 2025,
+      "full_text_available": true,
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11880436/",
+      "role": "core",
+      "used_for": "2025年最新进展：积分反馈绕过显式两相信号；隐式非平衡记忆机制；锯齿波协议",
+      "notes": "开放全文 ✅ | Nature Communications 2025年3月发表"
+    },
+    {
+      "id": "S3",
+      "type": "review",
+      "pmid": "29213231",
+      "pmcid": "PMC5703076",
+      "doi": "10.3389/fncir.2017.00092",
+      "title": "The Roles of Cortical Slow Waves in Synaptic Plasticity and Memory Consolidation",
+      "authors": "Miyamoto D, Hirai D, Murayama M",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2017,
+      "full_text_available": true,
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5703076/",
+      "role": "supporting",
+      "used_for": "皮层慢振荡UP/DOWN态时序参数；记忆巩固功能；光遗传实验证据",
+      "notes": "开放全文 ✅"
+    },
+    {
+      "id": "S4",
+      "type": "primary_research",
+      "pmid": "36712943",
+      "pmcid": "PMC9833047",
+      "doi": "10.1093/pnasnexus/pgac265",
+      "title": "Information maximization explains state-dependent synaptic plasticity and memory reorganization during non-rapid eye movement sleep",
+      "authors": "Yoshida T, Toyoizumi T",
+      "journal": "PNAS Nexus",
+      "year": 2022,
+      "full_text_available": true,
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9833047/",
+      "role": "supporting",
+      "used_for": "UP/DOWN态内STDP方向差异（UP偏LTD, 4.9Hz vs DOWN 2.1Hz）；全局SO vs 局部SWR的对比效应；信息最大化框架",
+      "notes": "开放全文 ✅"
+    },
+    {
+      "id": "S5",
+      "type": "review",
+      "pmid": "30704969",
+      "pmcid": "PMC6382460",
+      "doi": "10.1016/j.tics.2018.12.005",
+      "title": "Theories of Error Back-Propagation in the Brain",
+      "authors": "Whittington JCR, Bogacz R",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2019,
+      "full_text_available": true,
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6382460/",
+      "role": "background",
+      "used_for": "对比赫布学习（CHL）的两相机制介绍；CHL的生物可行性挑战（权重转运、相位协调）；IT皮层误差节点证据；各算法性能对比",
+      "notes": "开放全文 ✅"
+    }
+  ],
+  "search_queries": [
+    "equilibrium propagation Scellier Bengio 2017 biologically plausible backpropagation PubMed PMC",
+    "contrastive Hebbian learning cortical two-phase oscillations biological backpropagation 2024 2025 2026 neuroscience",
+    "sleep slow wave cortical up down states contrastive learning synaptic plasticity 2025 2026 PubMed",
+    "Whittington Bogacz 2019 theories error back-propagation brain PubMed open access PMC",
+    "Hopfield network attractor dynamics energy landscape associative memory biological neural circuit 2024 2025 PubMed"
+  ],
+  "search_databases": ["PubMed/NCBI", "PubMed Central (PMC)", "WebSearch"],
+  "candidates_found": 15,
+  "sources_adopted": 5,
+  "sources_excluded": [
+    {
+      "reason": "ArXiv only, not in PMC",
+      "examples": ["Dual Propagation (2302.01228)", "Dendritic error backpropagation (1801.00062)", "Ramsauer 2020 Hopfield Networks is All You Need"]
+    },
+    {
+      "reason": "Not directly relevant to core topic",
+      "examples": ["Memory capacity papers (MNIST capacity analysis)", "On stability and associative recall of memories in attractor neural networks (PMC7498056) - useful but too tangential"]
+    }
+  ],
+  "limitations": [
+    "Sacramento et al. 2018 (NeurIPS, dendritic microcircuits) not in PMC - 仅摘要可用",
+    "Rao & Ballard 1999 (Nature Neuroscience, predictive coding) 经典但非OA",
+    "Hopfield 1982 原始论文（PMID:6953413）为PNAS老文章，PMC状态不明确，未直接检索全文",
+    "Scellier 2022 EP for deep convolutional networks - 新工程进展，未纳入（非核心神经科学内容）"
+  ]
+}

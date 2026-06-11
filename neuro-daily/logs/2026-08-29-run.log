@@ -1,0 +1,136 @@
+# 运行日志 2026-08-29（文章 #129）
+
+**执行时间**：2026-06-09（UTC+8）
+**文章日期**：2026-08-29
+**分支**：main
+**状态**：完成
+
+---
+
+## 选题过程
+
+**步骤 A 状态读取**：
+- topic_ledger：最新文章 #128（2026-08-28，三因素学习规则/资格迹），total_articles=128
+- 最近 4 篇：#123 STDP、#126 bAP、#127 metaplasticity、#128 三因素规则——连续 4 天 synaptic/molecular/cellular 层，必须切换层级
+- wiki _graph.json：270 节点，1514 条边（操作前），methods 层已有 wiki 页，systems 层缺少 dACC 专属页面
+- 前序文章 #128 的 next_suggested_topics 指向：前额叶工作记忆（已有深度文章）、纹状体 D1/D2（已有文章 #46）、多巴胺神经元 VTA vs SNc（已有部分覆盖）
+
+**选题依据**：
+1. 层级切换需要（连续 4 天 synaptic/molecular 层后需转换）
+2. dACC 在知识库中无专属文章或 wiki 页（缺口）
+3. 自然衔接三因素规则：DA-RPE 在突触层的作用（三因素规则）→ DA-RPE 在系统层的作用（dACC ERN）
+4. 未解问题 Q-three-factor-time-window 和 Q-acc 系列相互关联
+5. 认知控制系列第一篇——为后续 DLPFC/注意/决策系列奠基
+
+**今日主题**：前扣带回皮层（dACC）——期望控制价值与认知控制调度
+**核心问题**：dACC 是错误检测器、冲突监控仪，还是通用的期望控制价值计算器？三种理论如何统一？
+
+---
+
+## 文献检索
+
+**检索词**：
+- "anterior cingulate cortex conflict monitoring cognitive control" → PMID:11488380 (Botvinick 2001)
+- "error related negativity ERN dopamine anterior cingulate" → PMID:12374324 (Holroyd & Coles 2002)
+- "anterior cingulate conflict monitoring adjustments control" → PMID:14963333 (Kerns 2004, Science)
+- "Kennerley Walton anterior cingulate reinforcement learning action" → PMID:16783368 (Kennerley 2006, Nat Neurosci)
+- "Rudebeck frontal cortex action stimulus learning" → PMID:19091968 (PMC6671924)
+- "Hayden fictive reward anterior cingulate" → PMID:19443783 (PMC3096846)
+- "Walton Rushworth anterior cingulate effort decision" → PMID:19385990 (PMC2954046)
+- "Shenhav expected value control cingulate 2013" → PMID:23889930 (PMC3767969)
+- "Heilbronner Hayden dorsal anterior cingulate bottom-up" → PMID:27090954 (PMC5512175)
+- "Shenhav mental effort rational account 2017" → PMID:28375769
+
+**数据源**：PubMed E-utilities（esearch + efetch），PMC 全文（PMC3767969, PMC5512175, PMC3096846, PMC2954046, PMC6671924）
+
+**候选来源**：~15 篇，采用 11 篇
+- 开放全文（5 篇）：PMC3767969 (Shenhav 2013)、PMC5512175 (Heilbronner & Hayden 2016)、PMC3096846 (Hayden 2009)、PMC2954046 (Walton 2009)、PMC6671924 (Rudebeck 2008)
+- 仅摘要（6 篇）：PMID:11488380、12374324、14963333、16783368、28375769、15705613
+
+**排除原因**：
+- 近期 2026 ACC 论文多为临床/精神科应用文章，缺乏对核心机制的基础研究深度，排除
+- midcingulate subregion 细分文章（Vogt 系列）信息量丰富但分区争议大，仅采用概念，不作为主要来源
+
+**最低要求验证**：
+- ≥5 来源：✅ 11 篇
+- ≥2 开放全文：✅ 5 篇
+- ≥1 官方机构来源：✅ Annual Review of Neuroscience, J Neurosci
+
+---
+
+## 文章写作
+
+**文章标题**：大脑的成本-效益计算器：前扣带回皮层如何决定"值不值得控制自己"
+**文件**：`neuro-daily/articles/2026-08-29-anterior-cingulate-cortex-evc-cognitive-control.md`
+**预估字数**：约 5500 字（中文）
+
+**核心结构**：
+- 核心问题 → 摘要 → 重要性（三个场景）→ 背景（N2/ERN发现史→两种假说碰撞）
+- 机制分层：解剖学 → ERN多巴胺理论 → 行动价值学习 → 虚拟奖励 → 努力成本 → EVC整合框架 → 自下而上单细胞视角
+- 关键证据表 → 比喻（财务-战略总监，含边界说明） → 认知影响
+- 争议与未解问题（3个） → AI对照（表格：EVC vs 价值网络，代谢成本差异）
+- 概念卡片 → 认知地图更新 → 参考来源
+
+---
+
+## 固结步骤
+
+**今日文章触及的关键概念**（slug）及处理：
+
+1. `anterior-cingulate-cortex` — **新建页面** `wiki/systems/anterior-cingulate-cortex.md`（revision_count=1）
+   - 涵盖：EVC框架、冲突监测、ERN-DA理论、行动价值学习、反事实奖励、努力成本、解剖分区
+   - status=established, confidence=high
+
+2. `dopamine-reward-prediction-error` — **修订**（rev10→rev11）：related 新增 anterior-cingulate-cortex；补充 ERN-DA 连接
+
+3. `three-factor-learning-rule` — **修订**（rev2→rev3）：related 新增 anterior-cingulate-cortex；DA通路共享说明
+
+4. `working-memory` — **修订**（rev7→rev8）：related 新增 anterior-cingulate-cortex；EVC调度 DLPFC 说明
+
+**矛盾检查**：
+- Fellows & Farah 2005 发现 dACC 病变患者认知控制正常——这与"dACC 是认知控制必要条件"的观点存在张力。
+- 决策：不登记为新矛盾（已有较好解释：永久病变代偿、EVC功能vs任务完成）；在 wiki 页面中明确记录为"已知争议"，不独立登记于 contested_claims.json（因证据状态差异过大）。
+
+**成熟度更新**：
+- `anterior-cingulate-cortex`：新建，established/high
+
+---
+
+## 图谱更新
+
+- +1 节点（anterior-cingulate-cortex）
+- +8 条边
+- 总计：271 节点，1522 条边
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：添加条目 #129，total_articles=129，last_updated=2026-08-29
+- `unresolved_questions.md`：新增 Q-acc-evc-vs-conflict、Q-acc-subregion-boundary、Q-acc-ern-dopamine-causal
+- `monthly_synthesis.md`：新增 2026-08-29 条目
+- `maturity_index.json`：添加 anterior-cingulate-cortex（established/high）
+- `wiki/CHANGELOG.md`：添加 2026-08-29 条目
+- `wiki/index.md`：新增 ACC 条目（systems 脑区层）
+- `source_registry.json`：待更新（11 个来源，已在 sources JSON 中记录）
+
+---
+
+## Git 操作
+
+**分支**：main
+**作者**：GIT_AUTHOR_NAME=QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+**Remote**：http://local_proxy@127.0.0.1:40681/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
+
+**提交消息**：Add neuro daily article + wiki consolidation for 2026-08-29
+
+**Push 状态**：✅ 成功推送至 origin/main，commit hash: e6afdf8
+
+---
+
+## 限制说明
+
+- 6 篇来源仅读摘要，均已在文章中标注
+- Botvinick 2001 和 Holroyd & Coles 2002 为 Psychological Review 付费论文，通过其后的 Shenhav 2013 综述（开放全文）验证相关主张
+- Fellows & Farah 2005 的反例在文章中明确呈现，未强行统一
+- 精确 ACC/aMCC 亚区分界在人类中的证据有限，已在文章中如实说明

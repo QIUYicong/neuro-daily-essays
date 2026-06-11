@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-27",
+  "article_slug": "metaplasticity-bcm-sliding-threshold",
+  "topic": "元可塑性与 BCM 规则：可塑性的可塑性",
+  "search_terms": [
+    "metaplasticity BCM rule synaptic plasticity threshold",
+    "metaplasticity Abraham Bear sliding threshold",
+    "BCM bienenstock cooper munro synaptic modification",
+    "metaplasticity NMDA receptor subunit composition",
+    "metaplasticity mGluR priming hippocampus",
+    "Abraham metaplasticity review hippocampus",
+    "metaplasticity catastrophic forgetting continual learning 2022",
+    "Quinlan Bear NMDA NR2A NR2B visual cortex dark rearing",
+    "Kirkwood Bear homosynaptic LTD visual cortex 1994",
+    "h current BCM sliding modification threshold"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": null,
+      "citation": "Bienenstock EL, Cooper LN, Munro PW (1982). Theory for the development of neuron selectivity: orientation specificity and binocular interaction in visual cortex. J Neurosci 2(1):32-48.",
+      "doi": null,
+      "url": null,
+      "access_type": "no_open_full_text",
+      "note": "Original BCM paper; predates PubMed/PMC coverage. Could not retrieve from database.",
+      "role": "Primary theoretical framework: BCM rule and sliding modification threshold θ_m"
+    },
+    {
+      "id": "S2",
+      "pmid": "8658594",
+      "citation": "Abraham WC, Bear MF (1996). Metaplasticity: the plasticity of synaptic plasticity. Trends Neurosci 19(4):126-130.",
+      "doi": "10.1016/S0166-2236(96)80018-X",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8658594/",
+      "access_type": "abstract_only",
+      "role": "Coined the term 'metaplasticity'; defined it as higher-order plasticity of plasticity"
+    },
+    {
+      "id": "S3",
+      "pmid": "9247968",
+      "citation": "Abraham WC, Tate WP (1997). Metaplasticity: a new vista across the field of synaptic plasticity. Prog Neurobiol 52(4):303-323.",
+      "doi": "10.1016/S0301-0082(97)00018-X",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9247968/",
+      "access_type": "abstract_only",
+      "role": "Systematic review of metaplasticity mechanisms; multi-mechanism nature; BCM connection"
+    },
+    {
+      "id": "S4",
+      "pmid": "1765807",
+      "citation": "Clothiaux EE, Bear MF, Cooper LN (1991). Synaptic plasticity in visual cortex: comparison of theory with experiment. J Neurophysiol 66(5):1694-1716.",
+      "doi": "10.1152/jn.1991.66.5.1694",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1765807/",
+      "access_type": "abstract_only",
+      "role": "BCM theory validated against visual cortex experimental data"
+    },
+    {
+      "id": "S5",
+      "pmid": "8182481",
+      "citation": "Kirkwood A, Bear MF (1994). Homosynaptic long-term depression in the visual cortex. J Neurosci 14(5 Pt 2):3404-3408.",
+      "doi": "10.1523/JNEUROSCI.14-05-03404.1994",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8182481/",
+      "access_type": "abstract_only",
+      "role": "Experimental demonstration of homosynaptic LTD in visual cortex; NMDA and phosphatase dependent"
+    },
+    {
+      "id": "S6",
+      "pmid": "11675507",
+      "citation": "Castellani GC, Quinlan EM, Cooper LN, Shouval HZ (2001). A biophysical model of bidirectional synaptic plasticity: dependence on AMPA and NMDA receptors. Proc Natl Acad Sci USA 98(22):12772-12777.",
+      "doi": "10.1073/pnas.201404598",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11675507/",
+      "access_type": "abstract_only",
+      "role": "Biophysical model linking NMDA subunit composition to BCM sliding threshold"
+    },
+    {
+      "id": "S7",
+      "pmid": "12097504",
+      "citation": "Krucker T, Siggins GR, McNamara RK, et al. (2002). Targeted disruption of RC3 reveals a calmodulin-based mechanism for regulating metaplasticity in the hippocampus. J Neurosci 22(13):5525-5535.",
+      "doi": "10.1523/JNEUROSCI.22-13-05525.2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12097504/",
+      "access_type": "abstract_only",
+      "role": "RC3/neurogranin knockout reveals CaM-based metaplasticity mechanism; mGluR-CaMKII pathway"
+    },
+    {
+      "id": "S8",
+      "pmid": "11516563",
+      "citation": "Mellentin C, Abraham WC (2001). Priming stimulation of group II metabotropic glutamate receptors inhibits the subsequent induction of rat hippocampal long-term depression in vitro. Neurosci Lett 311(3):193-196.",
+      "doi": "10.1016/S0304-3940(01)02167-5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11516563/",
+      "access_type": "abstract_only",
+      "role": "Group II mGluR priming inhibits subsequent LTD >50%; bidirectional metaplasticity restriction"
+    },
+    {
+      "id": "S9",
+      "pmid": "20554832",
+      "pmcid": "PMC2934916",
+      "citation": "Narayanan R, Johnston D (2010). The h current is a candidate mechanism for regulating the sliding modification threshold in a BCM-like synaptic learning rule. J Neurophysiol 104(2):1020-1033.",
+      "doi": "10.1152/jn.00020.2010",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2934916/",
+      "access_type": "open_full_text",
+      "role": "Computational evidence that Ih regulates θ_m through dendritic excitability; spatial spread of metaplasticity"
+    },
+    {
+      "id": "S10",
+      "pmid": "18401345",
+      "citation": "Abraham WC (2008). Metaplasticity: tuning synapses and networks for plasticity. Nat Rev Neurosci 9(5):387-399.",
+      "doi": "10.1038/nrn2356",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18401345/",
+      "access_type": "abstract_only",
+      "role": "Comprehensive review of metaplasticity mechanisms; Nature Reviews Neuroscience"
+    },
+    {
+      "id": "S11",
+      "pmid": "24298150",
+      "citation": "Hulme SR, Jones OD, Raymond CR, Sah P, Abraham WC (2014). Mechanisms of heterosynaptic metaplasticity. Philos Trans R Soc Lond B Biol Sci 369(1633):20130148.",
+      "doi": "10.1098/rstb.2013.0148",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24298150/",
+      "access_type": "abstract_only",
+      "role": "Astrocyte-mediated heterosynaptic metaplasticity via ATP/adenosine signaling and gap junctions"
+    },
+    {
+      "id": "S12",
+      "pmid": "26269641",
+      "citation": "Megill A, Tran T, Eldred K, et al. (2015). Defective Age-Dependent Metaplasticity in a Mouse Model of Alzheimer's Disease. J Neurosci 35(24):9078-9096.",
+      "doi": "10.1523/JNEUROSCI.5193-14.2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26269641/",
+      "access_type": "abstract_only",
+      "role": "Developmental metaplasticity failure in AD mouse model; θ_m adjustment disrupted"
+    },
+    {
+      "id": "S13",
+      "pmid": "35798611",
+      "citation": "Jedlicka P, Tomko M, Robins A, Abraham WC (2022). Contributions by metaplasticity to solving the Catastrophic Forgetting Problem. Trends Neurosci 45(6):431-445.",
+      "doi": "10.1016/j.tins.2022.03.003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35798611/",
+      "access_type": "abstract_only",
+      "role": "Metaplasticity and catastrophic forgetting: biological parallels for AI continual learning"
+    },
+    {
+      "id": "S14",
+      "pmid": "33128937",
+      "citation": "Chiamulera C, Piva A, Abraham WC (2021). Glutamate receptors and metaplasticity in addiction. Curr Opin Pharmacol 56:15-22.",
+      "doi": "10.1016/j.coph.2020.07.009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33128937/",
+      "access_type": "abstract_only",
+      "role": "Metaplasticity in addiction; drug-induced persistent neuroadaptations via glutamate receptors"
+    },
+    {
+      "id": "S15",
+      "pmid": "36685084",
+      "citation": "Lee HK (2023). Metaplasticity framework for cross-modal synaptic plasticity in adults. Front Synaptic Neurosci 15:1105124.",
+      "doi": "10.3389/fnsyn.2023.1105124",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36685084/",
+      "access_type": "abstract_only",
+      "role": "BCM sliding threshold explains cross-modal plasticity after sensory loss in adults"
+    }
+  ],
+  "open_full_text_count": 1,
+  "abstract_only_count": 14,
+  "total_sources": 15,
+  "official_institution_sources": [
+    "PubMed / NCBI E-utilities (search and abstract retrieval)",
+    "PMC (PubMed Central, PMC2934916 open full text)"
+  ]
+}

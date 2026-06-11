@@ -6,14 +6,14 @@ type: mechanism
 status: emerging
 confidence: medium
 created: 2026-06-15
-updated: 2026-06-15
-revision_count: 1
-dimensions: [molecular, cellular, microcircuit, brain-region, cognition]
-related: [predictive-coding, gain-control, acetylcholine-cortex, norepinephrine-locus-coeruleus, vip-interneurons, dopamine-reward-prediction-error, working-memory]
+updated: 2026-07-12
+revision_count: 2
+dimensions: [molecular, cellular, microcircuit, brain-region, cognition, disease]
+related: [predictive-coding, gain-control, acetylcholine-cortex, norepinephrine-locus-coeruleus, vip-interneurons, dopamine-reward-prediction-error, working-memory, lateral-habenula]
 prerequisites: [predictive-coding, gain-control]
-opens_questions: [Q-pc-01, Q-prec-01]
-source_articles: [2026-06-15-predictive-coding]
-key_sources: ["PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:30359606"]
+opens_questions: [Q-pc-01, Q-prec-01, Q-prec-02]
+source_articles: [2026-06-15-predictive-coding, 2026-07-12-predictive-coding-cortical-inference]
+key_sources: ["PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:30359606", "PMID:32576965"]
 ---
 
 # 精度加权 (Precision Weighting)
@@ -72,6 +72,7 @@ key_sources: ["PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:30359606"
 | 注意 ↔ 精度加权（计算等价性） | 理论分析 + 贝叶斯模型与注意数据拟合 | PMID:23663408 | 中（理论层面高，直接神经元标记证据不足）|
 | ACh M1 受体实现 V1 注意性增益 | 猕猴 V1 + M1 阻断 + 注意任务（Herrero et al. 2008, PMID:18651663） | PMID:27917138 | 高（体内药理+电生理）|
 | VIP-SST-锥体细胞去抑制回路实现局部增益 | 小鼠皮层光遗传 + 电生理（Pfeffer et al. 2013, Pi et al. 2013） | PMID:27917138; PMID:38259953 | 高（直接光遗传操控）|
+| 多巴胺拮抗剂（舒必利）直接破坏额上回精度加权；首发精神病患者无精度加权 | 药理 fMRI（n=86 健康人 + n=20 FEP）+ 计算模型分解精度加权分量 | PMID:32576965（PMC8589669）| 高（药理因果 + 临床比较）|
 
 ## 连接
 
@@ -86,11 +87,14 @@ key_sources: ["PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:30359606"
 
 - Q-pc-01：精度单元是否可以被在体内直接鉴定和操控（独立于增益控制）？
 - Q-prec-01：不同神经调质（ACh/NE/DA）对精度调节的分工是否有清晰的空间-时间结构？它们的精度调节是否真的是在最小化预测误差，还是只是一般性的信噪比调节？
+- Q-prec-02：LHb 负预测误差是否也带有精度权重？LHb→RMTg→DA 的抑制信号的"精度"（即惩罚信息的可靠性）是否同样由多巴胺系统（或类似机制）调制？
 
 ## 修订历史
 
 - 2026-06-15 · 创建 · 基于《当大脑主动预测而非被动接收》一文 · 初始置信度：中（计算理论清晰，但神经回路级别的直接验证有限）
+- 2026-07-12 · 修订 · 基于《世界的倒影》(#80) · 新增多巴胺药理学直接证据（Haarsma 2020, PMID:32576965）：舒必利破坏额上回精度加权，FEP 患者无精度加权；related 新增 lateral-habenula；新增 Q-prec-02（LHb 负误差精度加权问题）；dimensions 新增 disease
 
 ## 来源文章
 
 - [[2026-06-15-predictive-coding]]
+- [[2026-07-12-predictive-coding-cortical-inference]]

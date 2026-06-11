@@ -1,0 +1,145 @@
+# 每日运行日志 · 2026-07-22
+
+**文章编号**：#90
+**知识库虚拟日期**：2026-07-22
+**系统时钟（UTC+8）**：2026-06-05（真实执行日期）
+**主题**：大脑的内置罗盘：头向细胞与边界细胞如何完成空间导航的最后两块拼图
+**文章 slug**：head-direction-cells-border-cells
+**选题模式**：长期课程模式（long_term_curriculum）
+**课程轨道**：Track 3（大脑如何编码世界）空间导航四元组完成篇；填补 path-integration.md 的 head-direction-cells 悬空引用
+
+---
+
+## 选题依据
+
+- `path-integration.md` 的 `related` 列表中 `head-direction-cells` 已有悬空引用（创建于 2026-06-22，至今未填补）
+- 图谱分析（_graph.json）：180节点中无 head-direction-cells 和 border-cells 节点，而 grid-cells/place-cells/path-integration/entorhinal-cortex 均已存在——四元组缺失两个节点
+- 多个前篇（2026-06-22, 2026-07-19, 2026-07-20）的 next_suggested_topics 中均建议"头向细胞+边界细胞"
+- 层级检查：近7天（2026-07-16 至 2026-07-21）以脑区/全脑网络/认知层级为主，今日细胞/微回路/脑区层级适当
+
+---
+
+## 来源检索记录
+
+**检索工具**：PubMed E-utilities (esearch/efetch) via 研究代理
+
+**检索词（代理报告）**：
+- "Taube Author head direction cells subiculum"（30结果）
+- "border cells entorhinal cortex Solstad"（4结果）
+- "head direction cells ring attractor network"（26结果）
+- "head direction cells review 2018-2024"（404结果）
+- "boundary vector cells hippocampus Burgess"（9结果）
+- "head direction cells fMRI human"（122结果，精细化后4结果）
+
+**候选来源总数**：约 600 篇（检索集合）
+**最终采用来源**：12 篇
+
+---
+
+## 采用与排除来源
+
+### 采用（12 篇）
+
+1. **PMID:2303851** — Taube, Muller, Ranck 1990a J Neurosci（HD cells Part I）
+   - 采用理由：头向细胞的原始发现和基本放电特性
+   - 全文状态：摘要公开；机构全文
+
+2. **PMID:2303852** — Taube, Muller, Ranck 1990b J Neurosci（HD cells Part II）
+   - 采用理由：地标操控实验；全文状态：同上
+
+3. **PMID:7823153** — Taube 1995 J Neurosci（ADN HD cells）
+   - 采用理由：前背侧丘脑首次系统报道；全文状态：摘要公开
+
+4. **PMID:17341158** — Taube 2007 Annu Rev Neurosci（HD综述）
+   - 采用理由：最全面的综述，回路解剖和感觉整合；全文状态：摘要公开；DOI:10.1146/annurev.neuro.29.051605.112854
+
+5. **PMID:16675704** — Sargolini et al. 2006 Science（联合细胞）
+   - 采用理由：MEC联合细胞（HD×网格×速度）；已在path-integration.md中使用
+
+6. **PMID:19095945** — Solstad et al. 2008 Science（MEC边界细胞）
+   - 采用理由：边界细胞原始发现，拉伸实验；全文状态：摘要公开
+
+7. **PMID:19657030** — Lever et al. 2009 J Neurosci（下托BVC）
+   - 采用理由：下托边界细胞发现，新边界快速响应；全文状态：摘要公开
+
+8. **PMID:25706474** — Peyrache et al. 2015 Nat Neurosci（ADN内在动力学）
+   - 采用理由：环形吸引子内在动力学实验证据；全文状态：摘要公开；**未读取 Nat Neurosci 全文**
+
+9. **PMID:8632799** — O'Keefe & Burgess 1996 Nature（BVC理论预测）
+   - 采用理由：边界向量细胞概念首次提出；全文状态：摘要公开
+
+10. **PMID:8604055** — Zhang K 1996 J Neurosci（环形吸引子理论）
+    - 采用理由：环形吸引子模型奠基论文；全文状态：摘要公开
+    - **注意**：研究代理确认了此PMID，初始搜索不知道此PMID
+
+11. **PMID:27307227** — Shine et al. 2016 J Neurosci（人类RSC+丘脑fMRI）
+    - 采用理由：人类HD编码的fMRI证据；全文状态：摘要公开
+    - **注意**：初始写作时误用了27307230，研究代理确认正确PMID为27307227
+
+12. **PMID:29073639** — Cullen & Taube 2017 Nat Neurosci（HD综述+争议）
+    - 采用理由：多模态整合争议综述；全文状态：摘要公开；**未读取全文**
+    - **注意**：由研究代理检索新发现，未在初始文献清单中
+
+### 初始错误纠正
+
+- Taube 2007 PMID：初写17558513 → 研究代理确认正确PMID为17341158
+- Shine 2016 PMID：初写27307230 → 研究代理确认正确PMID为27307227
+- 两处已在文章和来源文件中更正
+
+### 排除来源
+
+- Peyrache 2015 全文：Nat Neurosci机构付费，未获取；基于摘要和引用此文的开放综述
+- Cullen & Taube 2017 全文：同上
+- Taube 2007 Annu Rev 全文：机构付费，基于摘要
+- 多篇2020-2024年近期综述：E-utilities搜索有结果，但确认PMID困难，选择使用经典、可追踪的文献
+
+---
+
+## 固结的 Wiki 页面
+
+**新建（3）**：
+- `wiki/systems/head-direction-cells.md` rev1 (established, high) — 头向细胞完整节点：首选方向/调谐宽度~90°/DTN-LMN-ADN-PoS-RSC-MEC回路/环形吸引子/前庭驱动/视觉锚定/联合细胞接口/人类fMRI证据
+- `wiki/concepts/border-cells.md` rev1 (established, high) — 边界细胞完整节点：MEC（Solstad 2008）+下托（Lever 2009）/拉伸实验证明边界特异性/BVC理论来源/路径整合漂移校正/新边界秒级响应/功能性边界扩展
+- `wiki/concepts/ring-attractor.md` rev1 (established, high) — 环形吸引子网络：距离依赖兴奋-抑制/稳定活跃峰/角速度驱动旋转/Zhang 1996理论+Peyrache 2015实验/与CA3离散吸引子对比
+
+**修订（1）**：
+- `wiki/concepts/path-integration.md` rev2 — 新增 head-direction-cells（原悬空引用，现有实际节点）和 border-cells 为已填补的相关节点；修订历史追加；updated→2026-07-22；revision_count 1→2
+
+---
+
+## 登记的矛盾
+
+无新增矛盾。头向细胞（Taube 1990 × 多实验室重复）和边界细胞（Solstad 2008 × Lever 2009 双区域验证）的核心事实均为 established。HD 信号首发地（DTN vs LMN）的分歧属于开放研究问题而非互相矛盾的发表结论，记入 Q-hd-01。
+
+---
+
+## 图谱更新
+
+- 节点：177 → 180（+3: head-direction-cells, border-cells, ring-attractor）
+- 边：1018 → 1036（+18）
+
+---
+
+## 新增未解问题（5个）
+
+- Q-hd-01（高优先）：HD信号首发地DTN vs LMN，需光遗传学分离
+- Q-hd-02（中优先）：重映射中HD系统稳定性 vs 场所/网格重映射
+- Q-hd-03（低优先）：人类iEEG单细胞HD调谐的系统性寻找
+- Q-bc-01（高优先）：边界细胞重置网格吸引子的因果实验
+- Q-bc-02（中优先）：边界细胞快速响应新边界的感觉模态来源
+
+---
+
+## 失败与限制
+
+- 所有12篇核心文献均未读取全文（Peyrache 2015, Cullen & Taube 2017为Nat Neurosci机构付费；其余为较早年份J Neurosci/Science，PMC开放获取覆盖不足）
+- 文章已标注每个来源的全文访问状态，无虚构内容
+- 初始有两个PMID错误（Taube 2007: 17558513→17341158；Shine 2016: 27307230→27307227），均由研究代理检索纠正，文章和来源文件已更新
+
+---
+
+## 分支 / 提交 / 推送状态
+
+- **分支**：main
+- **commit**：69917ae
+- **push 状态**：成功（origin/main）

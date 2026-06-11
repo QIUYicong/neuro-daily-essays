@@ -1,0 +1,60 @@
+# 运行日志 — 2026-07-11
+
+**执行时间**：2026-07-11（系统时钟 2026-06-04 UTC+8）
+**文章编号**：#79
+**文章标题**：大脑的"惩罚计算器"：外侧缰核如何将厌恶信号转化为抑郁，以及氯胺酮为何能在数小时内打破这个恶性循环
+
+---
+
+## 选题决策
+
+- 延续 #77（HPA 轴）和 #78（神经炎症）的应激-疾病系列
+- 填补 DA-RPE wiki 页面（#15）的长期悬空路径：负预测误差的回路底物（LHb→RMTg→DA）
+- 连通 HPA 轴（PVN）与奖励回路（LHb）的直接神经投射桥梁
+- 以氯胺酮机制为药理窗口揭示抑郁症的回路级机制
+
+## PMID 勘误
+
+- 初始猜测 PMID:17507583 为 Matsumoto & Hikosaka 2007 — 经 WebFetch 验证为老年病学论文，错误
+- 通过 WebSearch 确认正确 PMID 为 17522629（Matsumoto & Hikosaka, Nature 2007）
+
+## 来源研究
+
+- 来源总数：9篇（5篇开放全文，4篇摘要仅读）
+- 开放全文：PMC3315151、PMC3285101、PMC3932364、PMC10600008（4篇 PMC）+ PMC6558383（1篇 PMC）
+- 摘要仅读：17522629（Matsumoto 2007, abstract）、29446379（Cui 2018 paywall）、29446381（Yang 2018 paywall）
+- 注：Yang 2018 和 Cui 2018 因付费墙仅读摘要，关键机制信息来自 Ma 2023 全文的引用描述
+- 无 Sci-Hub，无付费内容，无伪造来源
+- 争议来源（2026 Frontiers 关于 NMDA 非必需）：具体 PMID 未确认，作为新争议 C-2026-07-11-01 登记
+
+## Wiki 更新
+
+**新建页面（3页）**：
+- wiki/systems/lateral-habenula.md（rev1，established/high）：LHb 完整机制、输入/输出表、爆发放电机制、关键证据表
+- wiki/systems/rmtg.md（rev1，established/high）：RMTg 解剖功能、LHb→DA 中继机制
+- wiki/concepts/burst-firing-lhb.md（rev1，established/high）：βCaMKII 路径 + Kir4.1 路径双机制、Yang 2018 NMDAR 争议登记
+
+**修订页面（2页）**：
+- wiki/concepts/dopamine-reward-prediction-error.md（rev3→rev4）：补充 LHb→RMTg→DA 负向臂回路底物；新增 lateral-habenula 和 rmtg 到关联列表
+- wiki/concepts/hpa-axis.md（rev1→rev2）：补充 PVN→LHb 双向耦合章节；新增 lateral-habenula 到关联列表
+
+## 知识图谱
+
+- 节点：146→149（+3：lateral-habenula, rmtg, burst-firing-lhb）
+- 边：855→866（+11）
+
+## 问题追踪
+
+新增 Q-lhb-01 到 Q-lhb-04
+
+## 矛盾登记
+
+新增 C-2026-07-11-01：NMDAR 是否为 LHb 爆发的普遍必要条件（Yang 2018 大鼠体内 vs 2026 Frontiers 小鼠离体）
+
+## 提交信息
+
+- 提交格式：Add neuro daily article + wiki consolidation for 2026-07-11
+- 分支：main
+- 远端：QIUYicong/neuro-daily-essays
+
+## 状态：成功完成

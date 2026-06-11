@@ -1,0 +1,147 @@
+{
+  "date": "2026-08-20",
+  "article_slug": "stg-phoneme-speech-perception",
+  "topic": "STG音素感知神经计算机制",
+  "search_terms_used": [
+    "speech perception superior temporal gyrus phoneme cortical oscillations",
+    "auditory cortex phoneme perception theta gamma oscillations",
+    "cortical entrainment speech envelope review",
+    "superior temporal gyrus speech perception phoneme cortical hierarchy review neuroscience 2020 2021 2022 2023 2024",
+    "Poeppel temporal asymmetric sampling speech perception theta gamma oscillations phoneme syllable",
+    "Mesgarani Chang phonetic feature encoding STG ECoG"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "type": "review",
+      "pmid": "34672685",
+      "pmcid": "PMC9447996",
+      "authors": "Bhaya-Grossman I, Chang EF",
+      "title": "Speech Computations of the Human Superior Temporal Gyrus",
+      "journal": "Annual Review of Psychology",
+      "year": 2022,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9447996/",
+      "relevance": "primary — comprehensive review of STG phoneme computation mechanisms",
+      "key_claims_used": [
+        "STG四大核心计算：非线性范畴化、说话者归一化、语境修复、时间标记提取",
+        "双尺度表征：局部→特征，群体→音素身份",
+        "pSTG/mSTG/aSTG/STS功能分工",
+        "STG反应是主动预测性的而非被动前馈"
+      ]
+    },
+    {
+      "id": "S2",
+      "type": "original_research",
+      "pmid": "24482117",
+      "pmcid": null,
+      "authors": "Mesgarani N, Cheung C, Johnson K, Chang EF",
+      "title": "Phonetic feature encoding in human superior temporal gyrus",
+      "journal": "Science",
+      "year": 2014,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "note": "paid journal, abstract only accessible",
+      "relevance": "key empirical — direct ECoG evidence of phonetic feature encoding at single-electrode level; full phoneme inventory decoding from population patterns",
+      "key_claims_used": [
+        "单个STG电极选择性响应音素特征（发音方式/部位）",
+        "英语40+音素可从群体激活模式解码"
+      ]
+    },
+    {
+      "id": "S3",
+      "type": "theory_review",
+      "pmid": "22426255",
+      "pmcid": null,
+      "authors": "Giraud AL, Poeppel D",
+      "title": "Cortical oscillations and speech processing: emerging computational principles and operations",
+      "journal": "Nature Neuroscience",
+      "year": 2012,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "note": "Nature Neuroscience paid journal, abstract only accessible",
+      "relevance": "foundational theory — theta/gamma dual oscillatory framework for speech sampling"
+    },
+    {
+      "id": "S4",
+      "type": "original_research",
+      "pmid": null,
+      "pmcid": "PMC3364513",
+      "authors": "Ghitza and colleagues",
+      "title": "Cortical Oscillations in Auditory Perception and Speech: Evidence for Two Temporal Windows in Human Auditory Cortex",
+      "journal": "Frontiers in Psychology",
+      "year": 2012,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3364513/",
+      "relevance": "direct experimental evidence — MEG phase coherence analysis demonstrating two privileged temporal windows; right-hemisphere theta lateralization",
+      "key_claims_used": [
+        "25ms gamma窗和200ms theta窗的MEG实验验证",
+        "右半球theta相位追踪更强",
+        "振荡锁相不依赖声学功率变化"
+      ]
+    },
+    {
+      "id": "S5",
+      "type": "original_research",
+      "pmid": "38805278",
+      "pmcid": null,
+      "authors": "Ten Oever S, Titone L, Te Rietmolen N, Martin AE",
+      "title": "Phase-dependent word perception emerges from region-specific sensitivity to the statistics of language",
+      "journal": "Proceedings of the National Academy of Sciences USA",
+      "year": 2024,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "relevance": "recent — STG phase encodes phoneme statistics; MTG phase encodes lexical statistics; double dissociation evidence"
+    },
+    {
+      "id": "S6",
+      "type": "original_research",
+      "pmid": "27903720",
+      "pmcid": null,
+      "authors": "Ortiz-Mantilla S, Hämäläinen JA, Realpe-Bonilla T, Benasich AA",
+      "title": "Oscillatory Dynamics Underlying Perceptual Narrowing of Native Phoneme Mapping from 6 to 12 Months of Age",
+      "journal": "Journal of Neuroscience",
+      "year": 2016,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "relevance": "developmental evidence — theta-gamma dynamics during perceptual narrowing in infancy"
+    },
+    {
+      "id": "S7",
+      "type": "review",
+      "pmid": "17431404",
+      "pmcid": null,
+      "authors": "Hickok G, Poeppel D",
+      "title": "The cortical organization of speech processing",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2007,
+      "full_text_available": false,
+      "access_method": "abstract (previously cited in auditory-dual-stream wiki)",
+      "relevance": "foundational dual-stream model referenced as background context"
+    },
+    {
+      "id": "S8",
+      "type": "original_research",
+      "pmid": null,
+      "pmcid": "PMC7067489",
+      "authors": "SEEG hemispheric asymmetry study",
+      "title": "Left-right hemispheric temporal sampling asymmetry in AAC — SEEG study",
+      "journal": "unknown",
+      "year": "unknown",
+      "full_text_available": true,
+      "access_method": "PMC open access (previously cited in auditory-cortex and auditory-dual-stream wiki)",
+      "relevance": "direct intracranial evidence of left fast (theta/gamma) vs right slow (delta/beta) temporal sampling in auditory association cortex"
+    }
+  ],
+  "sources_excluded": [
+    {
+      "reason": "non_open_access_paywall",
+      "description": "Several other STG papers found in search were behind Nature/Science paywalls and were not accessed"
+    }
+  ],
+  "full_text_count": 3,
+  "abstract_only_count": 5,
+  "official_institution_sources_count": 1
+}

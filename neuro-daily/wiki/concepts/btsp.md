@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-06-01
-revision_count: 2
+updated: 2026-08-28
+revision_count: 3
 dimensions: [synaptic, cellular, cognition]
-related: [ltp, place-cell, dendritic-computation, hebbian-learning, nmda-receptor, camkii, voltage-gated-calcium-channels]
+related: [ltp, place-cell, dendritic-computation, hebbian-learning, nmda-receptor, camkii, voltage-gated-calcium-channels, three-factor-learning-rule, eligibility-trace]
 prerequisites: [ltp, dendritic-computation, nmda-receptor, voltage-gated-calcium-channels]
 opens_questions: [Q-btsp-human-conservation, Q-btsp-nmda-role, Q-btsp-vs-stdp-interaction, Q-btsp-ltype-vs-nmda]
-source_articles: [2026-05-28-place-cells-btsp, 2026-06-01-voltage-gated-calcium-channels]
+source_articles: [2026-05-28-place-cells-btsp, 2026-06-01-voltage-gated-calcium-channels, 2026-08-28-three-factor-learning-rule-eligibility-traces]
 key_sources: ["PMID:28883072", "PMID:26167906", "PMID:34882093", "PMID:39454575", "PMID:21746798", "PMID:32799605"]
 ---
 
@@ -86,6 +86,8 @@ BTSP 不只能写入新场所场，也能**修改已有场所场**：
 - [[place-cell]] — BTSP 是场所场形成的核心突触机制
 - [[dendritic-computation]] — 树突钙平台电位是 BTSP 的触发机制；BTSP 是树突计算在可塑性层面的体现
 - [[hebbian-learning]] — BTSP 不遵从严格的 Hebb 因果律（可以强化"非因果"输入）；但仍与 Hebb 精神相通（活动依赖的突触修改）
+- [[three-factor-learning-rule]] — BTSP 是三因素规则的极端案例：树突平台电位既是"赫布触发"又是内源教学信号，时间窗 ±3-4s
+- [[eligibility-trace]] — BTSP 产生的是秒级资格迹（vs. 纹状体 1-2s），资格迹时间常数因系统而异
 - [[nmda-receptor]] — NMDA 受体在 BTSP 中提供主要 Ca²⁺（APV 阻断→84% BTSP 降低）；两种 Ca²⁺ 来源协同维持平台电位
 - [[voltage-gated-calcium-channels]] — L型通道（CaV1.2/1.3）提供平台电位的持续Ca²⁺内流（尼莫地平阻断→73% BTSP降低）；是 BTSP 的必要分子参与者
 
@@ -99,6 +101,7 @@ BTSP 不只能写入新场所场，也能**修改已有场所场**：
 
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 提出 BTSP 作为独立学习规则 · 初始置信度：高
 - 2026-06-01 · 修订 · 基于《神经元的三重钙门》一文 · 明确 L 型钙通道（CaV1.2/1.3）为平台电位的必要分子成分（尼莫地平降低 73% BTSP）；新增与 voltage-gated-calcium-channels 的连接；添加 Q-btsp-ltype-vs-nmda 未解问题
+- 2026-08-28 · 修订 · 基于《信用的时间归属》一文（#128）· 新增与 three-factor-learning-rule / eligibility-trace 的连接；明确 BTSP 是三因素学习规则的极端案例（平台电位作为内源教学信号，资格迹时窗 ±3-4s）
 
 ## 来源文章
 

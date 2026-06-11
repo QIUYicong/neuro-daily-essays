@@ -1,0 +1,91 @@
+# 运行日志：2026-07-26（第 94 篇）
+
+## 基本信息
+
+- **执行时间**：2026-06-05（UTC+8 真实日期）/ 2026-07-26（知识库虚拟日期）
+- **分支**：claude/funny-einstein-mFR1m（平台强制功能分支）
+- **文章编号**：第 94 篇
+- **主题**：感同身受的神经密码：前岛叶皮层如何将内感受转化为共情
+
+## 搜索与检索
+
+### 搜索词（8 组）
+1. `anterior insula empathy pain neural mechanism fMRI open access 2020-2024`
+2. `anterior cingulate cortex empathy shared pain representation PMC open access review`
+3. `insular cortex interoception Craig 2009 "how do you feel" PMC open access anterior insula hierarchy`
+4. `Singer Lamm empathy review 2009 social neuroscience anterior insula ACC predictive coding PMC`
+5. `von Economo neurons anterior insula empathy social cognition evolution role PMC 2018-2022`
+6. `insula empathy predictive coding allostasis interoception Barrett Feldman 2017 PMC open access`
+7. `empathy burnout depletion oxytocin modulation compassion fatigue anterior insula PMC 2020-2023`
+8. `empathy insula in-group out-group racial bias pain perception PMC open access 2020-2022`
+
+### 数据源
+- PubMed Central (PMC) — 主要开放全文来源
+- PubMed NCBI — 摘要与元数据
+- eLife — 开放全文期刊
+
+### 候选来源统计
+- 初始候选：约 30 篇（各搜索词返回 5-10 结果）
+- 深度阅读：11 篇（9 开放全文，2 摘要）
+- 最终采用：11 篇
+
+### 来源采用/排除
+
+**采用（11 篇）**：
+- PMID:14976305（Singer 2004，Science）— 摘要，开创性实验
+- PMID:22961548（PMC3437027，Gu 2012，Brain）— 开放全文，损伤研究
+- PMID:20220007（PMC2845539，Gu 2010，J Neurosci）— 开放全文，功能分工
+- PMID:32608498（PMC7511882，Fallon 2020，SCAN）— 开放全文，系统综述
+- PMID:26016744（PMC4731102，Barrett & Simmons 2015，NRN）— 开放全文，EPIC 模型
+- PMID:23749500（PMC3999437，Gu et al. 2013，J Comp Neurol）— 开放全文，VEN 综述
+- PMID:30542272（PMC6277791，Timmers 2018，Front Behav Neurosci）— 开放全文，元分析
+- PMID:23898249（PMC3724165，Bufalari & Ionta 2013，Front Hum Neurosci）— 开放全文，社会调节
+- PMID:30985277（PMC6488299，Wang 2019，eLife）— 开放全文，损伤研究
+- PMID:24672457（PMC3953677，Cauda 2014，Front Hum Neurosci）— 开放全文，VEN 演化
+- PMID:19096369（Craig 2009，Nat Rev Neurosci）— 摘要（期刊付费）
+
+**排除**：
+- Sci-Hub/盗版来源：全部排除
+- 未经同行评审的博客/新闻稿：未使用
+- Singer & Klimecki 2014（慈悲 vs 共情培训）：未能获得开放全文，仅引用为待读资源
+
+## Wiki 固结
+
+**新建（4 页）**：
+- `systems/anterior-insula.md` — established/high
+- `concepts/empathy.md` — established/high
+- `concepts/interoception.md` — established/high
+- `neurons/von-economo-neurons.md` — emerging/medium
+
+**修订（2 页）**：
+- `concepts/theory-of-mind.md` rev2 — 新增 empathy/anterior-insula 连接
+- `concepts/mentalizing-network.md` rev2 — 新增三个连接，完善社会脑双轨
+
+**矛盾登记**：无新矛盾；现有 7 条 open 状态不变
+
+**新增未解问题**：Q-aic-01（高）、Q-empathy-01（高）、Q-empathy-02（中）、Q-ven-01（高）
+
+## 图谱更新
+
+- 新增节点：4（anterior-insula, empathy, interoception, von-economo-neurons）
+- 新增边：21
+- 总计：192 节点，1111 边
+- 悬空边：0（已验证）
+
+## 新增悬空引用（下一篇候选）
+
+- `anterior-cingulate-cortex`：被 anterior-insula 页多次引用，尚无专页
+- `social-cognition`：被 empathy 页引用，尚无专页
+
+## 失败与限制
+
+- Singer & Klimecki 2014（慈悲培训 vs 共情培训 fMRI 比较）无 PMC 开放全文，仅在未解问题中提及
+- Craig 2009（NRN）无 PMC 开放全文，只使用摘要
+- Oxytocin-insula 相关研究（搜索词 #7）返回结果相关性中等，未深度纳入正文（防止文章范围过宽）
+
+## 提交信息
+
+- **分支**：claude/funny-einstein-mFR1m
+- **commit**：dab7a8b
+- **push 状态**：✅ 成功推送至 origin/main 和 origin/claude/funny-einstein-mFR1m
+- **目标合并**：已合并到 main ✅
