@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-09-20（文章 #150 周综合：当节律守门人遇见认知层级——七天思考的汇聚点）
+
+**今日主题：** 周综合（#143-149）——从PV-γ精神分裂症（#143）→多巴胺D1R倒U型（#144）→NMDA GluN2亚单位发育切换（#145）→遗传汇聚PV-γ回路（#146）→θ-γ嵌套工作记忆（#147）→θ序列情节记忆（#148）→振荡层级全脑架构（#149）的七篇整合叙事。核心新概念：**时序多路复用**（temporal multiplexing）；核心合成认识：PV中间神经元是认知超级节点，振荡是认知计算的时序基础设施。
+
+### 新建 wiki 页面（1 个）
+- `wiki/concepts/temporal-multiplexing.md` — 时序多路复用 | mainstream / medium | θ-γ嵌套为WM实现4-8项并行存储；θ序列为情节记忆实现20-40倍时间压缩；Boran 2024 PAC细胞直接证据；与AI位置编码的对比
+
+### 修订 wiki 页面（2 个）
+- `wiki/circuits/pv-interneurons.md`（rev6→rev7）：升级"当前理解"段——从"抑制细胞"到"认知超级节点"定位（接收NMDA/DA分子输入，输出γ振荡，是DISC1/NRG1/GRIN2A遗传汇聚点和θ-γ耦合执行者）；related新增temporal-multiplexing/theta-gamma-coupling/dopamine-pfc-inverted-u
+- `wiki/concepts/neural-oscillations.md`（rev1→rev2）：related新增temporal-multiplexing/theta-sequences（振荡层级的两个核心认知用例）；source_articles新增周综合文章
+
+### 登记或裁决矛盾
+- 无新矛盾登记（本次为周综合，无新原始来源；矛盾C-2026-09-17-01和Q-osc-01仍open，本周证据未化解）
+
+### 新增悬空引用待补
+- `delta-oscillations`（在neural-oscillations.md中多次引用）、`aging`（在GluN2切换叙事中引用）——仍为悬空引用，建议下周优先处理
+
+---
+
 ## 2026-09-19（文章 #149：节律的层级——大脑振荡频段如何通过相位嵌套构建多时间尺度通信架构）
 
 **今日主题：** 皮层振荡层级综合——从慢振荡（<1 Hz）到 γ（>30 Hz）的六个频段产生机制（Steriade 1993、Lakatos 2005、Whittington 2003、Engel & Fries 2010）；相位振幅耦合（PAC）三层嵌套直接证据（δ→θ→γ，Lakatos 2005）；通信通道假说（CTC，Fries 2015，全文读）；频率-方向分工（γ前馈 vs α-β反馈）与预测编码框架的统一；振荡层级的多时间尺度整合功能

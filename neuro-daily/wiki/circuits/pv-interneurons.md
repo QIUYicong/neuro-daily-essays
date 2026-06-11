@@ -6,13 +6,13 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-09-13
-revision_count: 6
+updated: 2026-09-20
+revision_count: 7
 dimensions: [molecular, cellular, synaptic, microcircuit, cognition, disease]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration, schizophrenia, trkb-receptor, nmda-receptor]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration, schizophrenia, trkb-receptor, nmda-receptor, temporal-multiplexing, theta-gamma-coupling, dopamine-pfc-inverted-u]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01, Q-scz-pv-01, Q-scz-pv-02]
-source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-09-13-pv-gamma-schizophrenia-cognition]
+source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-09-13-pv-gamma-schizophrenia-cognition, 2026-09-20-week-synthesis-pv-oscillation-cognition-architecture]
 key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468", "PMID:12867516", "PMID:22983435", "PMID:40436282", "PMID:37247333", "PMID:1654746"]
 ---
 
@@ -22,7 +22,9 @@ key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337"
 
 ## 当前理解
 
-我们现在认为，PV+ 中间神经元构成新皮层 GABA 能神经元中最大的一类（约占 40%），并在皮层局部回路的时序控制中发挥核心作用。它们主要分化为**篮状细胞（basket cells）**（靶向胞体和近端树突）和**吊灯细胞（chandelier cells）**（靶向轴突始段，详见 [[chandelier-cell]]），两者均发育自内侧神经节隆起（MGE），受 Nkx2.1 基因调控。
+我们现在认为，PV+ 中间神经元不仅仅是"产生抑制的细胞"，而是皮层认知回路的**时序仲裁器**，同时也是一个**认知超级节点**：它接受来自多个分子调节系统（NMDA受体亚单位组成、多巴胺D1/D2通路的间接调制）的状态输入，向上输出γ振荡作为认知计算的时间载体，并且是多个精神疾病遗传风险基因（DISC1、NRG1-ErbB4、GRIN2A）的共同汇聚靶点（#150周综合）。其在知识图谱中的高连接度（47条有类型边，全库第7位）在生物学上对应真实的网络枢纽地位。
+
+PV+ 中间神经元构成新皮层 GABA 能神经元中最大的一类（约占 40%），并在皮层局部回路的时序控制中发挥核心作用。它们主要分化为**篮状细胞（basket cells）**（靶向胞体和近端树突）和**吊灯细胞（chandelier cells）**（靶向轴突始段，详见 [[chandelier-cell]]），两者均发育自内侧神经节隆起（MGE），受 Nkx2.1 基因调控。
 
 PV+ 细胞的核心特征是"快速放电"（fast-spiking）：动作电位极短（峰宽约 300 μs），高频刺激下几乎不适应，大而快的后超极化（AHP）使其能快速复极并再放电。在突触传递层面，PV+ 篮状细胞到锥体细胞的突触延迟平均仅 **0.7 ms**，抖动（jitter）仅 **0.19 ms**（Tremblay et al., 2016, PMID:27477017），是已知皮层突触中时间精度最高的类型之一。
 
@@ -100,6 +102,7 @@ PV+ 中间神经元是精神分裂症认知症状的关键回路节点。其详�
 - 2026-06-03 · 修订 rev4 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增：PV+ 细胞去激活是 ODP 的第一个微回路事件（Kuhlman 2013），OTX2 经 PNN 锚定驱动 PV 成熟（Sugiyama 2008, Beurdeley 2012），BDNF 驱动 PV 成熟时间轴（Huang 1999），Rett 综合征中 MeCP2 KO 加速 PV 成熟导致关键期错位（Krishnan 2015），小胶质细胞亚群上游调控 PV 成熟（Wang 2025）；related 新增 critical-period, bdnf, microglia
 - 2026-08-10 · 修订 rev5 · 基于《皮层的第二种建筑学》(#109) · 新增：MGE 腹侧来源、Nkx2.1→Lhx6 命运决定路径、程序性细胞死亡筛选（30-40%，Wong 2018）作为 PV 数量校准机制；related 新增 cortical-interneuron-development, medial-ganglionic-eminence, gaba, tangential-migration
 - 2026-09-13 · 修订 rev6 · 基于《当 γ 节奏失声》(#143) · 新增"精神分裂症疾病视角"小节（GAD67缄默机制、NMDAR约束、Kv3靶点）；related 新增 schizophrenia/trkb-receptor/nmda-receptor；key_sources 新增 PMID:12867516/22983435/40436282/37247333/1654746；opens_questions 新增 Q-scz-pv-01/02
+- 2026-09-20 · 修订 rev7 · 基于周综合《当节律守门人遇见认知层级》(#150) · 升级"当前理解"：从"抑制细胞"到"认知超级节点"定位（接收NMDA/DA分子输入，输出γ振荡，是DISC1/NRG1/GRIN2A遗传汇聚点和θ-γ耦合执行者）；related 新增 temporal-multiplexing/theta-gamma-coupling/dopamine-pfc-inverted-u
 
 ## 来源文章
 

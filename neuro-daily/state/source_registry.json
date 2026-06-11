@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-20",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11129,6 +11129,39 @@
         "2026-09-18-theta-sequences-episodic-memory"
       ],
       "coverage": "人类海马θ在逆向记忆检索中增强（Jiang 2025 J Neurosci）"
+    },
+    {
+      "id": "PMID:38632400",
+      "type": "journal_article",
+      "title": "PAC neurons in human hippocampus",
+      "authors": "Boran et al. 2024",
+      "used_in": [
+        "2026-09-17",
+        "2026-09-20"
+      ],
+      "coverage": "人类单神经元PAC细胞直接证据"
+    },
+    {
+      "id": "PMID:32526196",
+      "type": "journal_article",
+      "title": "Theta sequences and hippocampal firing",
+      "authors": "Drieu & Zugaro 2019",
+      "used_in": [
+        "2026-09-18",
+        "2026-09-20"
+      ],
+      "coverage": "θ序列综述，时间压缩机制"
+    },
+    {
+      "id": "PMID:42205487",
+      "type": "journal_article",
+      "title": "Spectral dependence framework",
+      "authors": "Besosa et al. 2026",
+      "used_in": [
+        "2026-09-19",
+        "2026-09-20"
+      ],
+      "coverage": "谱依赖性框架质疑PAC因果性"
     }
   ],
   "total_sources": 668,

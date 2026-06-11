@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "node_count": 302,
   "edge_count": 1745,
   "edge_types": [
@@ -2753,6 +2753,15 @@
       "status": "established",
       "confidence": "medium",
       "page": "wiki/concepts/delta-oscillations.md"
+    },
+    {
+      "id": "temporal-multiplexing",
+      "title": "时序多路复用",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/temporal-multiplexing.md"
     }
   ],
   "edges": [
@@ -12153,6 +12162,46 @@
       "from": "theta-oscillations",
       "to": "neural-oscillations",
       "type": "part-of"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "temporal-multiplexing",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theta-sequences",
+      "to": "temporal-multiplexing",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "temporal-multiplexing",
+      "to": "working-memory",
+      "type": "supports"
+    },
+    {
+      "from": "temporal-multiplexing",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "temporal-multiplexing",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "temporal-multiplexing",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "temporal-multiplexing",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "temporal-multiplexing",
+      "to": "neural-oscillations",
+      "type": "is-a"
     }
   ],
   "dangling_references": [

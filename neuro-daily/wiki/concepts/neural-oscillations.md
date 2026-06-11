@@ -6,13 +6,13 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-09-19
-updated: 2026-09-19
-revision_count: 1
+updated: 2026-09-20
+revision_count: 2
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [gamma-oscillations, theta-oscillations, alpha-oscillations, beta-oscillations, cortical-slow-oscillation, theta-gamma-coupling, communication-through-coherence, predictive-coding, canonical-microcircuit, cortical-layers, working-memory, attention, memory-consolidation, ei-balance, pv-interneurons, thalamus]
+related: [gamma-oscillations, theta-oscillations, alpha-oscillations, beta-oscillations, cortical-slow-oscillation, theta-gamma-coupling, communication-through-coherence, predictive-coding, canonical-microcircuit, cortical-layers, working-memory, attention, memory-consolidation, ei-balance, pv-interneurons, thalamus, temporal-multiplexing, theta-sequences]
 prerequisites: [action-potential, synaptic-transmission, ei-balance, pv-interneurons]
 opens_questions: [Q-osc-01, Q-osc-02]
-source_articles: [2026-09-19-cortical-oscillation-hierarchy]
+source_articles: [2026-09-19-cortical-oscillation-hierarchy, 2026-09-20-week-synthesis-pv-oscillation-cognition-architecture]
 key_sources: ["PMID:15218136", "PMID:20664082", "PMID:26447583", "PMID:15901760", "PMID:20932795", "PMID:20359884", "PMID:8340807", "PMID:14624852"]
 ---
 
@@ -101,7 +101,9 @@ Fries（2015）提出：**两区域振荡相干（coherence）是有效神经通
 ## 修订历史
 
 - 2026-09-19 · 创建 · 基于《节律的层级》一文（#149）· 初始置信度：中（框架是 mainstream，但振荡的因果作用和 CTC 的普适性仍有争议）
+- 2026-09-20 · 修订 rev2 · 基于周综合《当节律守门人遇见认知层级》(#150) · 新增 related：temporal-multiplexing/theta-sequences（振荡层级的两个核心认知用例）；source_articles 新增周综合文章
 
 ## 来源文章
 
 - [[2026-09-19-cortical-oscillation-hierarchy]]
+- [[2026-09-20-week-synthesis-pv-oscillation-cognition-architecture]]

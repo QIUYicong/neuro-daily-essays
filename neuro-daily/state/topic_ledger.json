@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-18",
-  "total_articles": 148,
+  "last_updated": "2026-09-20",
+  "total_articles": 150,
   "entries": [
     {
       "date": "2026-08-09",
@@ -9824,6 +9824,86 @@
       ],
       "graph_nodes_after": 304,
       "graph_edges_after": 1763
+    },
+    {
+      "date": "2026-09-20",
+      "real_date": "2026-06-11",
+      "article_number": 150,
+      "title": "当节律守门人遇见认知层级：七天思考的汇聚点",
+      "slug": "week-synthesis-pv-oscillation-cognition-architecture",
+      "filename": "2026-09-20-week-synthesis-pv-oscillation-cognition-architecture.md",
+      "article_type": "weekly_synthesis",
+      "synthesis_range": "#143-#149",
+      "core_question": "把#143-#149七篇文章放在一起：PV中间神经元、NMDA受体、多巴胺调制与振荡层级如何组成一个统一的认知计算框架？三条叙事线（分子旋钮、遗传疾病显微镜、振荡计算语言）如何汇聚于PV节点？",
+      "layer": [
+        "whole-brain-network",
+        "microcircuit",
+        "cellular",
+        "molecular",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "5. 认知控制 × 11. 疾病作为窗口 × 4. 学习与记忆 × 振荡架构（周综合）",
+      "topic_tags": [
+        "weekly synthesis",
+        "PV interneurons",
+        "gamma oscillations",
+        "theta-gamma coupling",
+        "theta sequences",
+        "neural oscillations",
+        "temporal multiplexing",
+        "working memory",
+        "schizophrenia",
+        "NMDA receptor",
+        "GluN2 subunit switch",
+        "dopamine D1R",
+        "DISC1",
+        "NRG1",
+        "ErbB4",
+        "GRIN2A",
+        "oscillation hierarchy",
+        "CTC",
+        "PAC",
+        "cognitive super-node",
+        "time compression",
+        "episodic memory"
+      ],
+      "main_sources": [
+        "PMID:41478518",
+        "PMID:39381500",
+        "PMID:26996084",
+        "PMID:35484243",
+        "PMID:35396580",
+        "PMID:23522038",
+        "PMID:38632400",
+        "PMID:32526196",
+        "PMID:33033222",
+        "PMID:15218136",
+        "PMID:26447583",
+        "PMID:15901760",
+        "PMID:42205487"
+      ],
+      "unresolved_questions": [
+        "Q-osc-01: 振荡是功能性计算机制还是物理耗散副产品？",
+        "Q-ts-01: θ序列在非空间情节记忆中是否普遍？",
+        "Q-osc-02: CTC频率-方向分工在人类全脑网络中的普适性？"
+      ],
+      "next_suggested_topics": [
+        "delta-oscillations: δ振荡在语音处理中的具体机制（Giraud & Poeppel 2012 delta追踪音节模型）；填补 delta-oscillations 悬空引用；连接振荡层级叙事到语言处理",
+        "attention-networks: 背侧（DAN）vs 腹侧（VAN）注意网络完整回路——与本周α-γ振荡分工的整合；TPJ在注意重定向中的角色；填补 tpj-temporoparietal-junction 连接稀疏问题",
+        "aging-nmda: 老年期GluN2亚单位比值反转与认知可塑性/谷氨酸毒性；填补 aging 悬空引用；将发育切换叙事延伸到生命周期末端"
+      ],
+      "wiki_changes": {
+        "new_pages": [
+          "temporal-multiplexing"
+        ],
+        "revised_pages": [
+          "pv-interneurons (rev7)",
+          "neural-oscillations (rev2)"
+        ],
+        "new_contested": [],
+        "resolved_contested": []
+      }
     }
   ],
   "layer_coverage_recent": [

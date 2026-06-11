@@ -242,9 +242,17 @@
       "confidence": "medium",
       "date": "2026-09-19",
       "reason": "框架是mainstream（广泛实验证据支持），但振荡的因果作用和CTC普适性仍有争议（Q-osc-01/Q-osc-02），保持medium置信"
+    },
+    {
+      "slug": "temporal-multiplexing",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-09-20",
+      "change_reason": "创建。θ-γ嵌套和θ序列作为时序多路复用的两个实例均有高置信证据；'时序多路复用作为统一框架'是合理整合但尚未作为明确假说被独立验证，故 mainstream/medium",
+      "source_article": "2026-09-20-week-synthesis-pv-oscillation-cognition-architecture"
     }
   ],
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-20",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -291,7 +299,7 @@
       "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
     }
   ],
-  "total_pages": 24,
+  "total_pages": 25,
   "syngap1": {
     "status": "established",
     "confidence": "high",

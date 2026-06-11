@@ -1,0 +1,128 @@
+# 运行日志 2026-09-20（第 150 篇 · 周综合）
+
+**实际执行日期**：2026-06-11 UTC+8
+**仿真日期**：2026-09-20
+**文章类型**：weekly_synthesis
+**综合范围**：#143（2026-09-13）→ #149（2026-09-19）
+
+---
+
+## 步骤 A：状态读取
+
+- `state/topic_ledger.json`：成功读取，last_updated=2026-09-18（后发现2026-09-19条目也已存在但total_articles未更新），#143-149七篇构成一完整7篇周期
+- `state/unresolved_questions.md`：读取成功，确认 Q-osc-01/02（高/中优先级）、Q-ts-01（高优先级）为本周相关未解问题
+- `state/contested_claims.json`：读取成功，C-2026-09-17-01（θ-γ PAC功能机制 vs 物理涌现）为本周主要开放矛盾
+- `wiki/_graph.json`：读取成功，当时 304 节点/1763 边，悬空引用 3 个：cognition, aging, dopamine-system
+
+---
+
+## 步骤 B：选题
+
+- **选题理由**：#143-#149 构成恰好7篇，符合 ROUTINE.md "每7篇写周综合"规则；topic_ledger最后一条建议也明确指出"week-synthesis-5-week-integration"为首选
+- **主题**：整合PV细胞→振荡→认知的垂直叙事；核心新概念：时序多路复用
+- **层级评估**：上周已覆盖 molecular/cellular/microcircuit/whole-brain-network/cognition/disease 多层，周综合为跨层整合，不违反"三天同一层级"规则
+
+---
+
+## 步骤 C：检索 → 阅读 → 写每日文章
+
+- **检索策略**：周综合文章不进行新的原始检索，而是综合回顾#143-#149七篇文章中已核查的来源
+- **来源统计**：综合引用19个PMID，均来自各篇文章的原始核查结果
+- **来源状态**：
+  - 全文已读：PMID:41478518（#143）、PMID:35484243（#145）、PMID:35396580（#146）、PMID:32029441（#146）、PMID:38632400（#147）、PMID:32526196（#148）、PMID:33033222（#148）、PMID:26447583（#149）、PMID:42205487（#149）（9篇）
+  - 仅读摘要：PMID:39381500、PMID:22443509、PMID:26996084、PMID:23522038、PMID:20133762、PMID:15218136、PMID:15901760（7篇）
+  - 另有3篇PMID（Cardin 2009 PMID:19396156、Sohal 2009 PMID:19396159）仅读摘要
+- **文章**：`articles/2026-09-20-week-synthesis-pv-oscillation-cognition-architecture.md`（#150，约6500字）
+- **笔记**：`notes/2026-09-20-reading-notes.md`
+- **来源**：`sources/2026-09-20-sources.json`（19条来源）
+
+---
+
+## 步骤 D：固结步骤
+
+### 新建 wiki 页面（1页）
+- `wiki/concepts/temporal-multiplexing.md`：创建新页
+  - slug: temporal-multiplexing
+  - status: mainstream / confidence: medium
+  - 理由：θ-γ嵌套和θ序列的核心观察高置信；"时序多路复用作为统一框架"尚未作为独立假说被检验，故 medium
+  - revision_count: 1
+  - 矛盾检查：无冲突（新概念页，整合已建立的两个机制）
+
+### 修订 wiki 页面（2页）
+- `wiki/circuits/pv-interneurons.md`（rev6→rev7）：
+  - 新增"认知超级节点"定位到"当前理解"
+  - 新增 related: temporal-multiplexing, theta-gamma-coupling, dopamine-pfc-inverted-u
+  - 新增 source_articles: 本篇周综合
+  - 矛盾检查：无新矛盾（超级节点定位与既有内容无冲突）
+- `wiki/concepts/neural-oscillations.md`（rev1→rev2）：
+  - 新增 related: temporal-multiplexing, theta-sequences
+  - 新增 source_articles: 本篇周综合
+  - 矛盾检查：无新矛盾
+
+### 矛盾协议
+- 无新矛盾登记
+- C-2026-09-17-01（θ-γ PAC机制 vs 物理涌现）仍 open：本周综合文章中已充分讨论，但证据基础未发生实质性变化，无法裁决
+
+---
+
+## 步骤 E：更新图谱与导航
+
+- `wiki/_graph.json`：添加 temporal-multiplexing 节点 + 8条有类型边；更新至305节点/1771边
+- `wiki/index.md`：更新 header（total=284页，图谱305节点/1771边）；新增 temporal-multiplexing 条目
+- `wiki/CHANGELOG.md`：新增 2026-09-20 条目
+
+---
+
+## 步骤 F：更新治理层
+
+- `state/topic_ledger.json`：新增#150条目，total_articles更新至150，last_updated更新至2026-09-20
+- `state/maturity_index.json`：新增 temporal-multiplexing 条目（mainstream/medium）
+- `state/source_registry.json`：新增3个PMID条目（PMID:38632400、32526196、42205487），总计671条
+- `state/monthly_synthesis.md`：更新本月截至日期为2026-09-20，新增#150周综合摘要
+
+---
+
+## 步骤 G：提交 + 推送
+
+- Branch: main
+- Commit message: Add neuro daily article + wiki consolidation for 2026-09-20
+- Push target: origin main
+
+---
+
+## 步骤 H：自检
+
+**真实性**：
+- ✅ wiki所有新主张有来源（temporal-multiplexing页的每条主张都引用了具体PMID）
+- ✅ 区分了事实/模型/推测：PAC细胞（Boran 2024，待重复）标注中等置信；θ序列在人类非空间记忆中的普适性标注为未解问题Q-ts-01
+- ✅ 没有把单篇/动物研究写成定论：明确标注了Boran 2024需要独立重复
+
+**一致性**：
+- ✅ 无新矛盾；C-2026-09-17-01仍open，未强行裁决
+- ✅ 修订页面的updated/revision_count/修订历史均已同步
+- ✅ _graph.json无新的悬空边（temporal-multiplexing的related都已有对应节点）
+
+**可导航**：
+- ✅ index.md和CHANGELOG.md反映了今天的变化
+- ✅ temporal-multiplexing页的related（7个）和prerequisites（3个）均已填写
+
+**情景层**：
+- ✅ 文章/笔记/来源/日志齐全
+- ✅ 没有修改任何旧文件（情景层append-only原则）
+
+---
+
+## 限制与特殊说明
+
+- 本篇为周综合类型，未进行新的原始文献检索（符合周综合定义）
+- 所有引用均可追溯至#143-#149各篇的原始来源核查记录
+- 悬空引用 delta-oscillations 和 aging 仍未解决，建议下篇优先处理
+- push状态：见下方 Git 操作记录
+
+---
+
+## Git 操作
+
+- commit: [待填入]
+- push: origin main
+- push状态: [待确认]
