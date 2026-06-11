@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-25",
-  "total_articles": 155,
+  "last_updated": "2026-09-26",
+  "total_articles": 156,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10240,6 +10240,78 @@
         "corpus-callosum: 胼胝体结构与功能完整页面（区段特异性、发育髓鞘化时程、split-brain认知解离、DTI临床应用）——填补新悬空引用",
         "prism-adaptation: 棱镜适应疗法机制（小脑-顶叶可塑性、后效认知扩散、临床试验设计）——填补 spatial-neglect 悬空引用",
         "prefrontal-working-memory-alpha: α振荡在前额叶工作记忆中的角色（与海马θ的跨区耦合；从注意层切换到工作记忆层——课程脊柱 ch.5 认知控制）"
+      ]
+    },
+    {
+      "article_number": 156,
+      "date": "2026-09-26",
+      "actual_run_date": "2026-06-11",
+      "title": "连接两个大脑：胼胝体的解剖地图、发育时钟与裂脑之谜",
+      "slug": "corpus-callosum-anatomy-splitbrain",
+      "core_question": "胼胝体如何通过精密的拓扑组织实现左右半球的信息整合？当这条最大的白质桥梁被切断后，'我'是否真的分裂成两个独立的意识？",
+      "layer": [
+        "brain-region",
+        "cellular",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "9. Connectomics × 2. 神经网络如何建成（白质）× 8. 意识（裂脑）",
+      "topic_tags": [
+        "corpus-callosum",
+        "interhemispheric-commissure",
+        "topographic-organization",
+        "genu",
+        "splenium",
+        "body-isthmus",
+        "callosal-topography",
+        "myelination",
+        "DTI",
+        "fractional-anisotropy",
+        "FA",
+        "transcallosal-inhibition",
+        "ipsilateral-silent-period",
+        "iSP",
+        "TMS",
+        "split-brain",
+        "corpus-callosotomy",
+        "Sperry-Nobel",
+        "Gazzaniga",
+        "Pinto-2017",
+        "unified-consciousness-split-perception",
+        "agenesis-corpus-callosum",
+        "AgCC",
+        "interhemispheric-competition",
+        "anterior-commissure",
+        "alien-hand-syndrome",
+        "disconnection-syndrome",
+        "sex-differences-myelination",
+        "aging-white-matter"
+      ],
+      "main_sources": [
+        "PMID:25550994 / PMC4278150 (Fabri et al. 2014 World J Radiology, open full text read)",
+        "PMID:32399946 / PMC7305066 (de Haan et al. 2020 Neuropsychology Review, open full text read)",
+        "PMID:30691545 / PMC7989584 (Brown & Paul 2019 JINS, open full text read)",
+        "PMID:28381485 / PMC5494372 (Ciechanski et al. 2017 J Neurophysiology, open full text read)",
+        "PMID:23800346 / PMC3695846 (Davidson & Tremblay 2013 BMC Neurosci, open full text read)",
+        "PMID:17375041 (Paul et al. 2007 NRN, abstract only)",
+        "PMID:21530590 (van der Knaap & van der Ham 2011, abstract only)",
+        "PMID:28958646 (Pinto et al. 2017 Trends Cogn Sci, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-cc-01",
+        "Q-cc-02",
+        "Q-cc-03"
+      ],
+      "wiki_created": [
+        "corpus-callosum",
+        "transcallosal-inhibition",
+        "agenesis-corpus-callosum"
+      ],
+      "wiki_revised": [],
+      "next_suggested_topics": [
+        "split-brain: 裂脑综合征专页（异手综合征/左右手意志冲突/各意识理论的预测/Gazzaniga vs Pinto的实验对比）——填补新悬空引用 split-brain",
+        "anterior-commissure: 前连合专页（嗅觉/颞叶前端连接；AgCC代偿机制；与胼胝体功能分工）——填补 agenesis-corpus-callosum 悬空引用",
+        "prefrontal-working-memory-alpha: α振荡在前额叶工作记忆中的角色（与海马θ的跨区耦合；切换注意→工作记忆层级；课程脊柱ch.5）"
       ]
     }
   ],

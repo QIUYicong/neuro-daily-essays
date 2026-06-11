@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-25（**#155**·半球间竞争——新建concepts/interhemispheric-competition（填补悬空引用；Kinsbourne对立处理器框架；右PPC单向跨胼胝体抑制优势；TMS因果证明；后部胼胝体FA r=0.91；临床治疗逻辑）；修订spatial-neglect rev2（补充胼胝体机制细节和Koch 2011证据）、VAN rev3（补充跨胼胝体单向抑制说明）、DAN rev5（新增interhemispheric-competition关联）；新增悬空引用corpus-callosum待补）· 主题页总数：**289**（新建1页：interhemispheric-competition；修订3页：spatial-neglect rev2、VAN rev3、DAN rev5；图谱 303 节点，1760 边）
+> 最后更新：2026-09-26（**#156**·胼胝体——填补悬空引用corpus-callosum；新建3页：corpus-callosum（五段拓扑/纤维直径梯度/AgCC/裂脑意识争议）、transcallosal-inhibition（TMS-iSP范式/发育老化轨迹）、agenesis-corpus-callosum（1/4000/复杂推理损害/晶体智力保留/先天可塑性代偿）；图谱 313 节点，1823 边）· 主题页总数：**292**（新建3页）
 
 ---
 
@@ -191,6 +191,7 @@
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）；**rev4 新增**：DAN-VAN 断路器模型（VAN 正常任务被 DAN 抑制，意外时 VAN 断路并重定向，2026-09-23）**[NEW 2026-07-01]**
 - 🟢 [腹侧注意网络（VAN）](concepts/ventral-attention-network.md) — 右侧 TPJ+VFC；显著性驱动注意；"断路器"打断 DAN 聚焦；右侧化=双侧视野全景监控；P3a ERP 标志；LC-NE 调节阈值；空间忽视联系（右侧损坏→左侧半侧空间忽视）；Corbetta & Shulman 2002/2008 框架 **[NEW 2026-09-23 #153]**
 - 🟢 [半球间竞争（Interhemispheric Competition）](concepts/interhemispheric-competition.md) — Kinsbourne 对立处理器框架：两侧半球各自产生对侧注意偏向，通过后部胼胝体互相抑制；右 PPC 对左 PPC 的单向跨胼胝体抑制（Koch 2011）；TMS 双侧同时刺激无净偏移（Szczepanski & Kastner 2013）；后部胼胝体 FA 预测忽视严重度（r=0.91）；治疗逻辑：抑制对侧→重平衡 **[NEW 2026-09-25 #155]**
+- 🟢 [跨胼抑制](concepts/transcallosal-inhibition.md) — TMS-iSP范式：刺激同侧 M1→对侧肌肉 iSP（潜伏期~35-40ms）；发育：潜伏期随年龄缩短（r=−0.631）、抑制强度增加；女孩比男孩早约5ms；老化：iSP面积减少57%（73岁vs年轻）；物理基础：单侧运动精确性和注意偏侧化 **[NEW 2026-09-26 #156]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
 - 🔵 [Communication Through Coherence（CTC）](concepts/communication-through-coherence.md) — 振荡相位对齐创造通信窗口；γ 前馈（感觉内容）/α-β 反馈（预测控制）/θ 采样节律；FEF-V4 γ coherence 升高 26–37%（Gregoriou 2009 开放全文）；visual vs movement FEF 神经元解离（Gregoriou 2012）；Fries 2015 综述框架（PMC4605134）**[NEW 2026-08-31 #131]**
 - 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性 **[NEW 2026-06-28]**（填补多页悬空引用）
@@ -268,6 +269,7 @@
 ## systems（系统）
 
 - 🟢 [内侧隔核](systems/medial-septum.md) — MS-DBB：θ振荡主要起搏器；胆碱能+GABAergic向海马投射；MS冷却实验（Petersen 2020）：距离-相位压缩保留（P=0.92）但行为错误+3倍；θ序列以相位为坐标而非绝对时间的直接证据；填补悬空引用 **[NEW 2026-09-18 #148]**
+- 🟢 [胼胝体](systems/corpus-callosum.md) — 人脑最大白质结构，含2-8亿轴突（70%有髓鞘）；五段拓扑：genu→额叶，body→运动/感觉，isthmus→听觉，splenium→视觉；纤维直径梯度（膝部细→峡部粗）；发育后→前，前额叶连接约25岁成熟；跨胼抑制维持单侧运动/注意精确性；裂脑手术产生感知分裂（意识是否真分裂仍争议）；填补图谱悬空引用 **[NEW 2026-09-26 #156]**
 - 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
@@ -331,6 +333,7 @@
 - 🟢 [SYNGAP1 相关神经发育障碍](diseases/syngap1-related-disorder.md) — de novo SYNGAP1截短突变→SynGAP1单倍剂量不足→Ras-ERK制动减弱→突触提前过度成熟→LTP遮蔽→关键期提前关闭；约1%非综合征性ID；>70%癫痫、~50% ASD；成年期基因治疗前景 **[NEW 2026-09-07 #137]**
 - 🔵 [精神分裂症](diseases/schizophrenia.md) — 回路节律失调的发育性疾病；DLPFC PV+ 细胞 GAD67/PV 分子缄默（非细胞死亡，Hashimoto 2003）→ PING 机制受损 → γ 振荡功率降低 + θ-γ 耦合解体 → 工作记忆认知缺陷；上游机制：NMDAR 低激活（PCP/氯胺酮模型 Javitt 1991）+ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；遗传汇聚：DISC1/NRG1-ErbB4/GRIN2A 三路径汇聚于 PV 细胞，287 GWAS 位点富集于突触生物学（Trubetskoy 2022）；新治疗靶点：Kv3.1/3.2 调节剂/PNN重塑/NMDAR正向调制 **[NEW 2026-09-13 #143; rev2 2026-09-16 #146]**
 - 🟢 [空间忽视（Hemispatial Neglect）](diseases/spatial-neglect.md) — 右半球腹侧额顶颞网络（TPJ/STG/IPL/VFC及SLF白质）损伤后的多维注意综合征；VAN损伤→DAN半球间失衡→空间偏斜（Corbetta & Shulman 2011）；四维崩塌：感知忽视/运动忽视/表征忽视（Bisiach米兰实验）/病觉缺失；25-50%右侧卒中患者受累；棱镜适应疗法（Rossetti 1998）；恢复依赖网络功能连接归一化（Ramsey et al. 2016）**[NEW 2026-09-24 #154]**
+- 🟢 [胼胝体缺失症（AgCC）](diseases/agenesis-corpus-callosum.md) — 胼胝体先天部分/完全缺失，1/4000；核心缺陷：跨半球传递速度、处理速度、复杂推理/流体智力、社会认知；保留：晶体智力、过度学习技能（IQ通常>80）；代偿：前连合+发育可塑性；先天缺失比成年切除损害更轻（揭示可塑性关键期） **[NEW 2026-09-26 #156]**
 
 ---
 

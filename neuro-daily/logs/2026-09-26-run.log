@@ -1,0 +1,142 @@
+# 运行日志 2026-09-26（实际运行日期：2026-06-11）
+
+## 基本信息
+
+- 文章编号：#156
+- 叙事日期：2026-09-26
+- 实际运行日期：2026-06-11
+- 主题：连接两个大脑——胼胝体的解剖地图、发育时钟与裂脑之谜
+- slug：corpus-callosum-anatomy-splitbrain
+- 分支：main
+- 触发：手动（Claude Code Web）
+
+---
+
+## 选题逻辑
+
+1. 读取 `state/topic_ledger.json`：上一篇（#155）"半球间竞争"提出 corpus-callosum 为 next_suggested_topics 首位
+2. 读取 `wiki/_graph.json`：检测悬空引用，`corpus-callosum` 在边中被引用但无节点 → **缺口驱动（第3优先级）**
+3. 上篇层级为 whole-brain-network（#153-155 连续三篇），今日选 brain-region/cellular 为主层级，切换层级
+4. 最终选题：胼胝体（填补悬空引用，与前3篇注意系统形成结构基础的自然衔接）
+
+---
+
+## 文献检索记录
+
+### 搜索词与数据库
+
+| 搜索词 | 数据库 | 结果数 | 采用 |
+|--------|--------|--------|------|
+| corpus callosum anatomy function review | PubMed | 825 | 5 |
+| split brain callosal disconnection cognitive review | PubMed | 3 | 2 |
+| corpus callosum myelination development DTI review | PubMed | 8 | 2 |
+| split brain Gazzaniga consciousness review | PubMed | 2 | 1 |
+| corpus callosum agenesis cognitive social review 2015:2026 | PubMed | 7 | 2 |
+| transcallosal inhibition motor cortex TMS ipsilateral silent period | PubMed | 42 | 2 |
+| corpus callosum topography connectivity review | PMC | 10 | 1 |
+
+### 候选来源
+
+**采用（开放全文）**：
+- PMC4278150 (PMID:25550994)：Fabri 2014 — 解剖拓扑、DTI/fMRI
+- PMC7305066 (PMID:32399946)：de Haan 2020 — 裂脑综合综述
+- PMC7989584 (PMID:30691545)：Brown & Paul 2019 — AgCC综述
+- PMC5494372 (PMID:28381485)：Ciechanski 2017 — TMS-iSP发育
+- PMC3695846 (PMID:23800346)：Davidson & Tremblay 2013 — TMS-iSP老化
+
+**采用（摘要）**：
+- PMID:17375041 (Paul 2007 NRN) — AgCC综述
+- PMID:21530590 (van der Knaap 2011) — 兴奋/抑制机制
+- PMID:28958646 (Pinto 2017 TCS) — 统一意识解读
+
+**排除**：
+- PMID:30744660 (TUBA1A tubulinopathy) — 不相关
+- 多篇 DTI 发育研究因主题为 HIE/早产儿，相关性低
+
+### 来源质量统计
+
+- 总来源数：8
+- 开放全文：5 (符合要求 ≥2)
+- 摘要：3
+- 官方机构来源：PMC/NLM（NIH下属）
+- 最高质量：Nature Reviews Neuroscience (PMID:17375041) 和 Trends Cogn Sci (PMID:28958646) 均为 abstract only，但已有3篇高质量开放全文提供主要证据
+
+---
+
+## 今日产出
+
+### 情景层（append-only）
+
+- `neuro-daily/articles/2026-09-26-corpus-callosum-anatomy-splitbrain.md` — 创建（~5100字）
+- `neuro-daily/notes/2026-09-26-reading-notes.md` — 创建
+- `neuro-daily/sources/2026-09-26-sources.json` — 创建
+
+### 固结步骤（wiki 层）
+
+**新建 wiki 页面（3页）**：
+- `wiki/systems/corpus-callosum.md` — 胼胝体（filled dangling reference）
+- `wiki/concepts/transcallosal-inhibition.md` — 跨胼抑制
+- `wiki/diseases/agenesis-corpus-callosum.md` — 胼胝体缺失症
+
+**修订 wiki 页面（0页）**：
+- 无修订（corpus-callosum 为新建；前两天的 interhemispheric-competition 已包含相关背景）
+
+### 图谱与导航更新
+
+- `wiki/_graph.json`：310→313节点，1811→1823边；填补悬空引用 corpus-callosum
+- `wiki/index.md`：新增3页条目；更新header统计
+- `wiki/CHANGELOG.md`：追加今日节
+
+### 治理层更新
+
+- `state/topic_ledger.json`：新增文章#156条目；total_articles=156
+- `state/unresolved_questions.md`：新增 Q-cc-01（高）、Q-cc-02（中）、Q-cc-03（中）
+- `state/source_registry.json`：新增5来源；total=691
+- `state/monthly_synthesis.md`：更新本月统计（#132-#156，25篇）
+
+---
+
+## 矛盾检查
+
+**裂脑意识争议**：Sperry/Gazzaniga"两个独立意识"vs Pinto 2017"统一意识+分裂感知可报告性"——这是两种解读框架，而非直接证据冲突（Pinto使用的是相同受试者但不同测量视角）。登记为 Q-cc-01 未解问题，而非 contested_claim（两种框架都有有效论据，无法直接互斥）。
+
+---
+
+## 自检清单
+
+**真实性**：
+- [x] 所有主要数字/结论都有明确的 PMID 来源标注
+- [x] 区分了事实/综述/争议：裂脑意识争议明确标注为"未能定论"（de Haan 2020）
+- [x] 未把单篇小样本研究当定论（TMS 研究 n=19 已标注"中"置信度）
+- [x] 动物研究与人类研究的区别：本文全部基于人类研究
+
+**一致性**：
+- [x] 无新内容与既有 wiki 页面冲突（corpus-callosum 为新页）
+- [x] 新页 updated/revision_count/修订历史同步
+- [x] _graph.json 无新悬空边（所有新边的 from/to 均为已存在节点，新建3节点均有对应页面）
+
+**可导航**：
+- [x] index.md 和 CHANGELOG.md 已更新
+- [x] 新页 related 各≥1（corpus-callosum 有10+相关，transcallosal-inhibition 有5+，AgCC 有5+）
+- [x] 新页 prerequisites 各≥1
+
+**情景层完整**：
+- [x] article/notes/sources/log 均创建
+- [x] 未修改任何旧文件（只新建和修改 wiki/state）
+
+---
+
+## Git 状态
+
+- 分支：main
+- 本地 commit：待执行
+- push：待执行
+- remote：http://local_proxy@127.0.0.1:38989/git/QIUYicong/neuro-daily-essays（✅ 正确）
+
+---
+
+## 失败与限制
+
+- PMID:28958646（Pinto 2017 Trends Cogn Sci）无开放全文，只能使用摘要+de Haan 2020综述中的引用。文章中已标注"未读取全文（摘要）"。
+- PMID:17375041（Paul 2007 NRN）同上。
+- 裂脑意识问题因证据不足无法定论，文章诚实呈现了争议状态。

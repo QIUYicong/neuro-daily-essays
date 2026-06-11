@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-26",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11399,9 +11399,98 @@
         "双重机制结论"
       ],
       "access_note": "摘要；未读全文"
+    },
+    {
+      "pmid": "25550994",
+      "pmcid": "PMC4278150",
+      "title": "Functional topography of the corpus callosum investigated by DTI and fMRI",
+      "authors": "Fabri M et al.",
+      "journal": "World J Radiology",
+      "year": 2014,
+      "first_used_date": "2026-09-26",
+      "articles_using": [
+        "2026-09-26-corpus-callosum-anatomy-splitbrain"
+      ],
+      "topics_covered": [
+        "corpus_callosum_anatomy",
+        "DTI_topography",
+        "fMRI_callosal_function",
+        "development_timeline"
+      ]
+    },
+    {
+      "pmid": "32399946",
+      "pmcid": "PMC7305066",
+      "title": "Split-Brain: What We Know Now and Why This is Important for Understanding Consciousness",
+      "authors": "de Haan EHF et al.",
+      "journal": "Neuropsychology Review",
+      "year": 2020,
+      "first_used_date": "2026-09-26",
+      "articles_using": [
+        "2026-09-26-corpus-callosum-anatomy-splitbrain"
+      ],
+      "topics_covered": [
+        "split_brain",
+        "consciousness_debate",
+        "Pinto_2017",
+        "interhemispheric_integration"
+      ]
+    },
+    {
+      "pmid": "30691545",
+      "pmcid": "PMC7989584",
+      "title": "The Neuropsychological Syndrome of Agenesis of the Corpus Callosum",
+      "authors": "Brown WS, Paul LK",
+      "journal": "JINS",
+      "year": 2019,
+      "first_used_date": "2026-09-26",
+      "articles_using": [
+        "2026-09-26-corpus-callosum-anatomy-splitbrain"
+      ],
+      "topics_covered": [
+        "AgCC",
+        "corpus_callosum_function",
+        "callosal_neuropsychology"
+      ]
+    },
+    {
+      "pmid": "28381485",
+      "pmcid": "PMC5494372",
+      "title": "Developmental profile of motor cortex transcallosal inhibition in children and adolescents",
+      "authors": "Ciechanski P et al.",
+      "journal": "J Neurophysiology",
+      "year": 2017,
+      "first_used_date": "2026-09-26",
+      "articles_using": [
+        "2026-09-26-corpus-callosum-anatomy-splitbrain"
+      ],
+      "topics_covered": [
+        "transcallosal_inhibition",
+        "TMS_iSP",
+        "development",
+        "sex_differences"
+      ]
+    },
+    {
+      "pmid": "23800346",
+      "pmcid": "PMC3695846",
+      "title": "Age and hemispheric differences in transcallosal inhibition between motor cortices",
+      "authors": "Davidson T, Tremblay F",
+      "journal": "BMC Neuroscience",
+      "year": 2013,
+      "first_used_date": "2026-09-26",
+      "articles_using": [
+        "2026-09-26-corpus-callosum-anatomy-splitbrain"
+      ],
+      "topics_covered": [
+        "transcallosal_inhibition",
+        "aging",
+        "TMS_iSP",
+        "motor_control"
+      ]
     }
   ],
-  "total_sources": 675,
+  "total_sources": 691,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

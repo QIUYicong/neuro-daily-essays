@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "node_count": 303,
   "edge_count": 1760,
   "edge_types": [
@@ -2807,6 +2807,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/methods/prism-adaptation.md [待创建]"
+    },
+    {
+      "id": "corpus-callosum",
+      "title": "胼胝体",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/corpus-callosum.md"
+    },
+    {
+      "id": "transcallosal-inhibition",
+      "title": "跨胼抑制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/transcallosal-inhibition.md"
+    },
+    {
+      "id": "agenesis-corpus-callosum",
+      "title": "胼胝体缺失症",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/agenesis-corpus-callosum.md"
     }
   ],
   "edges": [
@@ -12453,6 +12480,66 @@
       "to": "interhemispheric-competition",
       "type": "related",
       "note": "DAN 双侧分支参与半球间竞争；右 SPL1 的独特调制"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "interhemispheric-competition",
+      "type": "part-of"
+    },
+    {
+      "from": "transcallosal-inhibition",
+      "to": "corpus-callosum",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "transcallosal-inhibition",
+      "to": "interhemispheric-competition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "transcallosal-inhibition",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "prefrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "agenesis-corpus-callosum",
+      "to": "corpus-callosum",
+      "type": "related"
+    },
+    {
+      "from": "agenesis-corpus-callosum",
+      "to": "anterior-commissure",
+      "type": "related"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "spatial-neglect",
+      "type": "related"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "dorsal-attention-network",
+      "type": "related"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "ventral-attention-network",
+      "type": "related"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "alpha-oscillations",
+      "type": "related"
     }
   ],
   "dangling_references": [

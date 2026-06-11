@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-09-26（文章 #156：连接两个大脑——胼胝体的解剖地图、发育时钟与裂脑之谜）
+
+**今日主题：** 胼胝体解剖拓扑（五段/纤维直径梯度）、发育时序（后→前髓鞘化，前额叶连接约25岁成熟）、跨胼抑制（TMS-iSP范式、发育与老化轨迹）、胼胝体缺失症（AgCC，1/4000，复杂推理损害+晶体智力保留）、裂脑综合征与意识分裂争议（Pinto 2017 vs Sperry/Gazzaniga）。填补图谱悬空引用 `corpus-callosum`。
+
+### 新建 wiki 页面（3 个）
+
+- `wiki/systems/corpus-callosum.md` — 胼胝体 | established / high | 五段拓扑（rostrum/genu/body/isthmus/splenium）各连接对应皮层功能区；纤维直径梯度（膝部细→峡部粗）；70%有髓鞘；发育后→前时序；DTI FA值；AgCC（1/4000，复杂推理损害）；裂脑综合征+意识争议；PMID:25550994/PMC4278150、32399946/PMC7305066、30691545/PMC7989584、17375041
+- `wiki/concepts/transcallosal-inhibition.md` — 跨胼抑制 | established / high | TMS-iSP范式（潜伏期~35-40ms，持续~14-16ms）；发育：潜伏期r=−0.631随年龄缩短；老化：iSP面积减少57%（73岁vs年轻）；女孩早于男孩5ms；单侧运动精确性和半球间竞争的物理基础；PMID:28381485/PMC5494372、23800346/PMC3695846
+- `wiki/diseases/agenesis-corpus-callosum.md` — 胼胝体缺失症 | established / high | 发生率1/4000；核心缺陷：跨半球传递、处理速度、复杂推理；保留：晶体智力、过度学习技能（IQ通常>80）；代偿：前连合、发育可塑性；先天vs后天切除差异揭示可塑性关键期；PMID:30691545/PMC7989584、17375041
+
+### 修订 wiki 页面（0 个）
+
+- 无需修订既有页面（corpus-callosum 为新建，前两天的 interhemispheric-competition 和 spatial-neglect 已完整描述胼胝体相关内容；今日填补结构基础页面）
+
+### 图谱更新
+
+- 新增节点：`corpus-callosum`、`transcallosal-inhibition`、`agenesis-corpus-callosum`；图谱节点数：310 → 313
+- 新增边（12 条）：corpus-callosum↔interhemispheric-competition（part-of）；transcallosal-inhibition→corpus-callosum（mechanism-of）；transcallosal-inhibition→interhemispheric-competition（mechanism-of）；transcallosal-inhibition→motor-cortex（regulates）；corpus-callosum→motor-cortex（regulates）；corpus-callosum→prefrontal-cortex（related）；agenesis-corpus-callosum→corpus-callosum（related）；agenesis-corpus-callosum→anterior-commissure（related）；corpus-callosum→spatial-neglect（related）；corpus-callosum→DAN（related）；corpus-callosum→VAN（related）；corpus-callosum→alpha-oscillations（related）；图谱边数：1811 → 1823
+
+### 登记或裁决矛盾
+
+- 无新矛盾登记（裂脑意识争议 Q-cc-01 登记为未解问题，但两种解读均有合理证据基础，不属于"证据直接冲突"而是"诠释框架分歧"）
+
+### 新增悬空引用待补
+
+- `split-brain`（引用于corpus-callosum相关，建议建立裂脑综合征专页）
+- `alien-hand-syndrome`（引用于文章，建议建立异手综合征专页）
+- `anterior-commissure`（在agenesis-corpus-callosum中引用为代偿通路，建议建立前连合页面）
+
+---
+
 ## 2026-09-23（文章 #153：大脑的断路器——腹侧注意网络如何在专注中守护感知完整性）
 
 **今日主题：** 腹侧注意网络（VAN）的解剖（TPJ+VFC）、功能（断路器模型）、右侧化机制、注意重定向的振荡动力学（P3a, α快速重组）和空间忽视（半侧空间忽视）的网络机制。从振荡/语言主题（#151-152）切换到认知控制×感觉编码轨道。
