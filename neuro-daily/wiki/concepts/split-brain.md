@@ -6,14 +6,14 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-09-27
-updated: 2026-09-27
-revision_count: 1
+updated: 2026-10-03
+revision_count: 2
 dimensions: [whole-brain-network, cognition, brain-region, disease]
-related: [corpus-callosum, interhemispheric-competition, neural-correlates-of-consciousness, integrated-information-theory, global-workspace-theory, alien-hand-syndrome, language-lateralization, consciousness-ignition]
-prerequisites: [corpus-callosum, action-potential, language-lateralization]
-opens_questions: [Q-cc-01, Q-split-01, Q-split-02, Q-split-03]
-source_articles: [2026-09-27-split-brain-unified-consciousness]
-key_sources: ["PMID:32399946/PMC7305066", "PMID:31923846/PMC7061321", "PMC8048575", "PMID:28958646"]
+related: [corpus-callosum, anterior-commissure, interhemispheric-competition, neural-correlates-of-consciousness, integrated-information-theory, global-workspace-theory, alien-hand-syndrome, language-lateralization, consciousness-ignition]
+prerequisites: [corpus-callosum, anterior-commissure, action-potential, language-lateralization]
+opens_questions: [Q-cc-01, Q-split-01, Q-split-02, Q-split-03, Q-ac-01, Q-unified-01]
+source_articles: [2026-09-27-split-brain-unified-consciousness, 2026-10-03-anterior-commissure-split-brain-consciousness-integration]
+key_sources: ["PMID:32399946/PMC7305066", "PMID:31923846/PMC7061321", "PMC8048575", "PMID:28958646", "PMID:12382985", "PMID:38021222/PMC10667445"]
 ---
 
 # 裂脑综合征 (Split-Brain Syndrome)
@@ -60,7 +60,7 @@ Gazzaniga 发现，左半球具有一种倾向：为观察到的行为（包括�
 ### 皮层下代偿路径
 
 - **上丘（Superior Colliculus）**：通过脑干纤维向两侧皮层传递低分辨率视觉信息
-- **前连合（Anterior Commissure）**：连接嗅觉皮层、颞叶前端，在胼胝体缺失时部分代偿
+- **前连合（Anterior Commissure）**：连接嗅觉皮层、颞叶前端、杏仁核（双侧）；**标准胼胝体切断术通常保留前连合**——这意味着裂脑患者的颞叶和杏仁核仍然双侧相连，可能维持了情感-语义层面的跨半球整合（Pinto 2023，PMID:38021222；Barr 2002，PMID:12382985）。见[[anterior-commissure]]。
 - **脑干联合体**：双侧听觉、触觉、本体感觉的皮层下整合
 
 这些通路无法替代胼胝体实现精细的实时跨半球比较，但可能解释为何裂脑患者日常行为基本正常。
@@ -80,6 +80,7 @@ Gazzaniga 发现，左半球具有一种倾向：为观察到的行为（包括�
 ## 连接
 
 - [[corpus-callosum]] — 被切断的白质结构；本页是其"意识后果"部分
+- [[anterior-commissure]] — 标准裂脑手术保留的联合纤维；颞叶/杏仁核双侧连接的维持者
 - [[interhemispheric-competition]] — 胼胝体切断后两侧竞争失衡的机制背景
 - [[integrated-information-theory]] — IIT 预测裂脑意识分裂（高 Φ 两个子系统）
 - [[global-workspace-theory]] — GWT 暗示裂脑产生两个工作空间
@@ -97,6 +98,7 @@ Gazzaniga 发现，左半球具有一种倾向：为观察到的行为（包括�
 ## 修订历史
 
 - 2026-09-27 · 创建 · 基于《当胼胝体被切断》(#157) · 初始置信度：中（核心争议 open）
+- 2026-10-03 · 修订 · 基于《前连合：进化遗留的大脑渡口》(#163) · 新增：标准裂脑手术保留前连合的关键细节；Pinto 2023 两路模型（自动处理分裂，有意识处理整合）；更新 related 和 prerequisites 加入 anterior-commissure
 
 ## 来源文章
 

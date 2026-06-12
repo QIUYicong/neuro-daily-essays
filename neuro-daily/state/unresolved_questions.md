@@ -1,6 +1,39 @@
 # 未解问题追踪
 
-*最后更新：2026-10-02*
+*最后更新：2026-10-03*
+
+---
+
+## 2026-10-03 新增（来自"前连合：进化遗留的大脑渡口" #163）
+
+### Q-ac-01（高优先级）：选择性阻断前连合能否消除裂脑患者的统一意识行为证据？
+
+- **关联 wiki**：[[anterior-commissure]]、[[split-brain]]、[[neural-correlates-of-consciousness]]
+- **来源文章**：2026-10-03-anterior-commissure-split-brain-consciousness-integration
+- **问题**：标准裂脑手术保留前连合。若 AC 是裂脑患者表现"统一意识"行为（Pinto 2017）的关键结构通路，那么选择性阻断 AC（通过经颅磁刺激 TMS 靶向 AC 出入纤维；或在前连合周围局部注射利多卡因）是否会消除这些行为证据（任意手/口头均能报告双侧视野刺激的能力）？
+  - 技术障碍：AC 位置深（前脑底部），TMS 空间分辨率可能不足；局部注射风险大
+  - 替代方案：找到极少数 CC + AC 同时切断的患者，与标准裂脑（仅 CC）患者做系统比较
+- **当前证据状态**：结构证据充分（AC 保留）；因果证据缺失
+
+### Q-ac-02（中优先级）：前连合在 OFC 和颞叶-杏仁核情感信号跨半球传递中的时间分辨率？
+
+- **关联 wiki**：[[anterior-commissure]]、[[amygdala]]、[[orbitofrontal-cortex]]
+- **来源文章**：2026-10-03-anterior-commissure-split-brain-consciousness-integration
+- **问题**：Starkweather 2026 的 CCEP 数据显示 OFC 跨半球响应具有"短潜伏期"特征。但"短"是多短？AC 连接的颞叶-杏仁核信号跨半球传递的典型延迟是多少毫秒？这与 Dehaene 的 300 ms 意识点燃门控如何对应？
+- **当前证据状态**：Starkweather 2026 有 CCEP 时间数据但具体潜伏期数值未从摘要中提取
+
+### Q-ac-03（中优先级）：AgCC 中前连合代偿性扩大的遗传发育机制？
+
+- **关联 wiki**：[[anterior-commissure]]、[[agenesis-corpus-callosum]]
+- **来源文章**：2026-10-03-anterior-commissure-split-brain-consciousness-integration
+- **问题**：为什么有些 AgCC 个体前连合扩大约 3 倍，有些则不扩大？是否有特定基因（如 CC 发育基因 ARID1B、Slit/Robo 轴突导向分子）同时控制两种联合纤维的发育？关键期可塑性是否允许出生后前连合扩大？
+- **当前证据状态**：Barr 2002 提供行为证据；发育遗传机制未经系统研究
+
+---
+
+## 2026-10-03 更新（Q-unified-01 进展）
+
+- Q-unified-01（裂脑统一意识的神经通路）**状态更新**：增加 AC 为主要候选解释。之前仅列举上丘和脑干联合体；今日分析表明，标准裂脑手术保留 AC，且 AC 连接的颞叶/杏仁核可能提供情感-语义整合信号。AC 的贡献目前仍是候选（相关性非因果），open 状态保持。
 
 ---
 

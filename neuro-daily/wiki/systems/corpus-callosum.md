@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-26
-updated: 2026-09-27
-revision_count: 2
+updated: 2026-10-03
+revision_count: 3
 dimensions: [cellular, brain-region, whole-brain-network, cognition]
 related: [interhemispheric-competition, transcallosal-inhibition, motor-cortex, prefrontal-cortex, agenesis-corpus-callosum, split-brain, anterior-commissure, white-matter]
 prerequisites: [action-potential, myelination, white-matter]
 opens_questions: [Q-cc-01, Q-cc-02, Q-cc-03]
-source_articles: [2026-09-26-corpus-callosum-anatomy-splitbrain, 2026-09-27-split-brain-unified-consciousness]
-key_sources: ["PMID:25550994/PMC4278150", "PMID:32399946/PMC7305066", "PMID:30691545/PMC7989584", "PMID:17375041"]
+source_articles: [2026-09-26-corpus-callosum-anatomy-splitbrain, 2026-09-27-split-brain-unified-consciousness, 2026-10-03-anterior-commissure-split-brain-consciousness-integration]
+key_sources: ["PMID:25550994/PMC4278150", "PMID:32399946/PMC7305066", "PMID:30691545/PMC7989584", "PMID:17375041", "PMID:12382985", "PMID:41759515/PMC13160234"]
 ---
 
 # 胼胝体 (Corpus Callosum)
@@ -103,8 +103,10 @@ key_sources: ["PMID:25550994/PMC4278150", "PMID:32399946/PMC7305066", "PMID:3069
 
 - 2026-09-26 · 创建 · 填补图谱悬空引用 · 基于《连接两个大脑》一文 · 5篇开放全文 + 3篇摘要 · 初始置信度：高
 - 2026-09-27 · 修订 · 基于《当胼胝体被切断》(#157) · 新增裂脑意识深入证据（Pinto 2017, de Haan 2020/2021 触觉与 fMRI）到 source_articles；更新 Q-cc-01 至深化研究状态
+- 2026-10-03 · 修订 · 基于《前连合：进化遗留的大脑渡口》(#163) · 确认 [[anterior-commissure]] 悬空引用已填补并独立建页；新增 Starkweather 2026 OFC 跨半球连接证据到 key_sources；standard callosotomy 保留 AC 这一技术细节已在 [[split-brain]] 页详述
 
 ## 来源文章
 
 - [[2026-09-26-corpus-callosum-anatomy-splitbrain]]
 - [[2026-09-27-split-brain-unified-consciousness]]
+- [[2026-10-03-anterior-commissure-split-brain-consciousness-integration]]

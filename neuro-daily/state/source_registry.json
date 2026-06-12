@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-03",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11857,7 +11857,7 @@
       ]
     }
   ],
-  "total_sources": 711,
+  "total_sources": 40,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -13758,6 +13758,91 @@
       "covers": [
         "棱镜适应认知扩散机制",
         "小脑-皮层通路"
+      ]
+    },
+    {
+      "pmid": "41759515",
+      "pmcid": "PMC13160234",
+      "doi": "10.1016/j.cub.2026.01.076",
+      "title": "Rapid homotopic communication between human orbitofrontal subregions",
+      "journal": "Current Biology",
+      "year": 2026,
+      "used_in": "2026-10-03",
+      "aspects_covered": [
+        "anterior commissure",
+        "OFC interhemispheric",
+        "CCEP",
+        "homotopic connectivity"
+      ]
+    },
+    {
+      "pmid": "40928661",
+      "doi": "10.1007/s00429-025-03006-3",
+      "title": "Microsurgical anatomy of anterior commissure",
+      "journal": "Brain Structure & Function",
+      "year": 2025,
+      "used_in": "2026-10-03",
+      "aspects_covered": [
+        "anterior limb anatomy",
+        "comparative anatomy",
+        "tractography"
+      ]
+    },
+    {
+      "pmid": "12382985",
+      "title": "Role of anterior commissure in callosal agenesis",
+      "journal": "Neuropsychology",
+      "year": 2002,
+      "used_in": "2026-10-03",
+      "aspects_covered": [
+        "AgCC compensation",
+        "anterior commissure enlargement"
+      ]
+    },
+    {
+      "pmid": "9757333",
+      "title": "Interhemispheric transfer and agenesis of CC: limitations of AC",
+      "journal": "Neuro-Chirurgie",
+      "year": 1998,
+      "used_in": "2026-10-03",
+      "aspects_covered": [
+        "anterior commissure compensation limits"
+      ]
+    },
+    {
+      "pmid": "38021222",
+      "pmcid": "PMC10667445",
+      "title": "Visual integration across fixation: automatic split, conscious unified",
+      "journal": "Frontiers Human Neuroscience",
+      "year": 2023,
+      "used_in": "2026-10-03",
+      "aspects_covered": [
+        "split-brain two-route model",
+        "conscious processing unified"
+      ]
+    },
+    {
+      "pmid": "39480348",
+      "pmcid": "PMC11891799",
+      "title": "CC structure and auditory interhemispheric transfer in spina bifida",
+      "journal": "Neuropsychology",
+      "year": 2024,
+      "used_in": "2026-10-03",
+      "aspects_covered": [
+        "anterior commissure compensation auditory",
+        "DTI tractography"
+      ]
+    },
+    {
+      "pmid": "40309830",
+      "pmcid": "PMC12025486",
+      "title": "The Bulb, the Brain and the Being: olfactory system",
+      "journal": "Brain Sciences",
+      "year": 2025,
+      "used_in": "2026-10-03",
+      "aspects_covered": [
+        "olfactory connectivity",
+        "anterior commissure olfactory"
       ]
     }
   ],

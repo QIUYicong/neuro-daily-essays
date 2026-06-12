@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-10-03（文章 #163：前连合——进化遗留的大脑渡口，裂脑意识整合的最后防线？）
+
+### 新建 wiki 页面（1 页）
+
+- `systems/anterior-commissure.md`（新建）：**填补悬空引用**（图谱中 anterior-commissure 悬空引用自 2026-09-26 建立）。前连合解剖（前肢=嗅觉段；后肢=颞叶-杏仁核段）、系统发育（比胼胝体更古老；有袋类唯一联合纤维）、AgCC 代偿（Barr 2002：J.P. 扩大 AC 接近正常跨半球视觉匹配）、裂脑手术保留 AC 这一关键技术细节（可能是 Pinto 2017 统一意识行为的结构候选解释）、Starkweather 2026 OFC 跨半球 CCEP 证据；8 条关键来源（PMID:41759515/PMC13160234、PMID:12382985、PMID:31412269、PMID:32399946/PMC7305066 等）
+
+### 修订 wiki 页面（2 页）
+
+- `concepts/split-brain.md` rev1→rev2：新增"标准裂脑手术保留前连合"这一关键细节到皮层下代偿路径节；新增 Pinto 2023（PMID:38021222）两路模型（自动处理分裂，有意识处理整合）到当前理解；更新 related 加入 anterior-commissure；补充 opens_questions（Q-ac-01, Q-unified-01）
+- `systems/corpus-callosum.md` rev2→rev3：确认 anterior-commissure 悬空引用已填补；新增 Starkweather 2026（OFC 跨半球 CCEP）和 Barr 2002（AgCC 代偿案例）到 key_sources；更新 source_articles
+
+### 图谱状态
+
+- **新增节点**：`anterior-commissure`（1 个）
+- **新增边**：8 条（anterior-commissure ↔ corpus-callosum、split-brain、amygdala、olfactory-system、agenesis-corpus-callosum、orbitofrontal-cortex、interhemispheric-competition）
+- **悬空引用减少**：5 → 4（`anterior-commissure` 已填补；`aging`、`cognition`、`dopamine-system`、`superior-longitudinal-fasciculus` 待补）
+- 图谱总计：326 节点，1873 条边
+
+### 矛盾登记与裁决
+
+- 无新矛盾登记；Q-unified-01（裂脑统一意识通路）获得新证据候选（AC 结构解释），但 open 状态保持（因果证据不足）
+
+---
+
 ## 2026-10-02（文章 #162：意识障碍的临床谱系——植物状态、最小意识状态、锁闭综合征与认知运动解离如何成为意识理论的体内检验台）
 
 ### 新建 wiki 页面（4 页）

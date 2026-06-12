@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "node_count": 325,
   "edge_count": 1865,
   "edge_types": [
@@ -2942,6 +2942,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/minimally-conscious-state.md"
+    },
+    {
+      "id": "anterior-commissure",
+      "title": "前连合",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/anterior-commissure.md"
     }
   ],
   "edges": [
@@ -12858,6 +12867,54 @@
       "from": "disorders-of-consciousness",
       "to": "perturbational-complexity-index",
       "type": "related"
+    },
+    {
+      "from": "anterior-commissure",
+      "to": "corpus-callosum",
+      "type": "related",
+      "note": "共同组成两侧大脑半球间主要联合纤维；AC 是系统发育更古老的联合"
+    },
+    {
+      "from": "anterior-commissure",
+      "to": "split-brain",
+      "type": "mechanism-of",
+      "note": "标准裂脑手术保留 AC；AC 可能维持裂脑患者部分意识整合"
+    },
+    {
+      "from": "anterior-commissure",
+      "to": "amygdala",
+      "type": "part-of",
+      "note": "AC 后肢连接双侧杏仁核，是情绪跨半球整合通路"
+    },
+    {
+      "from": "anterior-commissure",
+      "to": "olfactory-system",
+      "type": "part-of",
+      "note": "AC 前肢连接双侧嗅球和嗅皮层"
+    },
+    {
+      "from": "anterior-commissure",
+      "to": "agenesis-corpus-callosum",
+      "type": "related",
+      "note": "AgCC 中 AC 可代偿性扩大并部分替代 CC 功能"
+    },
+    {
+      "from": "anterior-commissure",
+      "to": "orbitofrontal-cortex",
+      "type": "related",
+      "note": "AC 参与 OFC 内侧区域的跨半球同侧拓扑连接（Starkweather 2026）"
+    },
+    {
+      "from": "anterior-commissure",
+      "to": "interhemispheric-competition",
+      "type": "regulates",
+      "note": "AC 提供颞叶-情感层面的半球间信号；是半球间竞争调节的通路之一"
+    },
+    {
+      "from": "corpus-callosum",
+      "to": "anterior-commissure",
+      "type": "related",
+      "note": "两者共同构成主要联合纤维系统；CC 是进化后发，AC 更古老"
     }
   ],
   "dangling_references": [

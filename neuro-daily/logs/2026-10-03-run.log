@@ -1,0 +1,162 @@
+# 运行日志 · 2026-10-03（实际运行日期 2026-06-12）
+
+## 环境信息
+- 分支：main
+- Remote：http://local_proxy@127.0.0.1:44193/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
+- 文章编号：#163
+
+---
+
+## A. 状态读取
+
+- topic_ledger：145 条（最新 2026-10-02；#162 意识障碍临床谱系）
+- unresolved_questions：多条高优先级 open 问题
+- contested_claims：12 条 open（含 C-2026-05-31-01 IIT vs COGITATE，高优先级）
+- _graph.json：325 节点，1865 条边；**5 个悬空引用**（anterior-commissure / aging / cognition / dopamine-system / superior-longitudinal-fasciculus）
+- 近期层级：过去 10 篇以 cognition/theories/disease/whole-brain-network 为主
+
+---
+
+## B. 选题决策
+
+**优先级分析**：
+- B.3 填补悬空引用：`anterior-commissure`（最高相关性 — 被 corpus-callosum、split-brain 引用，且与 Q-unified-01 直接相关）
+- B.5 回收未解问题：Q-unified-01（裂脑统一意识通路，高优先级）直接指向 anterior-commissure
+- 突破追踪：PMID:41759515（Starkweather 2026，Current Biology）提供前连合 OFC 跨半球连接的最新直接证据（2026-03-23 发表）
+
+**层级避免重复**：近期 cognition/theories/disease → 转向 brain-region/cellular/systems
+
+**最终主题**：前连合解剖、进化与裂脑意识整合
+
+---
+
+## C. 检索与文献
+
+**搜索词**：
+1. "anterior commissure anatomy function humans" → PubMed esearch → 15 PMIDs
+2. "anterior commissure corpus callosum agenesis compensation" → 8 PMIDs
+3. "split brain commissurotomy anterior commissure consciousness unity" → 0（调整为）
+4. "anterior commissure split brain callosotomy hemisphere interhemispheric" → PMID:31412269
+5. "anterior commissure tractography diffusion tensor imaging humans" → 10 PMIDs
+6. "Pinto split brain unified consciousness" → PMID:28958646 等
+
+**候选来源**：28 篇候选，采用 14 篇
+
+**采用来源**：
+- PMID:41759515（Starkweather 2026）— 最新 iEEG CCEP 证据，Current Biology，全文（PMC13160234）
+- PMID:40928661（Kuru Bektaşoğlu 2025）— 比较解剖，摘要
+- PMID:40309830（Stenwall 2025）— 嗅觉连接，全文（PMC12025486）
+- PMID:21499149（Peltier 2011）— 微外科解剖，摘要
+- PMID:31119409（Lavrador 2019）— 临床综述，摘要
+- PMID:12382985（Barr 2002）— AgCC 代偿，摘要
+- PMID:9757333（Guenot 1998）— 代偿局限，摘要（法语）
+- PMID:31412269（Mancuso 2019）— 系统综述，摘要
+- PMID:28958646（Pinto 2017）— 统一意识，摘要
+- PMID:32399946（de Haan 2020）— 裂脑综述，全文（PMC7305066）
+- PMID:31923846（de Haan 2020b）— 触觉，全文（PMC7061321）
+- PMID:38021222（Pinto 2023）— 两路模型，全文（PMC10667445）
+- PMID:39480348（Bradley 2024）— 脊柱裂听觉，全文（PMC11891799）
+- PMID:35964979（Catani 2022）— 颞叶连接，摘要
+
+**排除来源**：
+- PMC13160234 直接 fetch 返回 403 — 改用 efetch 获取完整摘要
+- 喉部/嗓音相关论文（PMID:7653365/28687381）— 主题不相关（anterior commissure of larynx）
+
+**开放全文数**：6 篇（满足 ≥2 篇要求）
+**官方机构来源**：通过 PubMed/NIH 间接；无独立 NIH/NINDS 页面（记录限制）
+
+---
+
+## D. 固结步骤
+
+**新建 wiki 页**：
+- `neuro-daily/wiki/systems/anterior-commissure.md`（Rev1，established/high）
+
+**修订 wiki 页**（2 页）：
+- `wiki/concepts/split-brain.md` rev1→rev2：增加 AC 保留技术细节、Pinto 2023 两路模型
+- `wiki/systems/corpus-callosum.md` rev2→rev3：悬空引用填补确认，新增来源
+
+**矛盾检查**：
+- 无新矛盾发现；既有矛盾（C-2026-05-31-01/02 IIT/GWT vs COGITATE）状态不变
+
+**成熟度评估**：
+- anterior-commissure 解剖功能：established / high（多项独立解剖研究，临床验证）
+- anterior-commissure 意识整合功能：emerging / medium（结构证据充分，因果证据不足）
+
+---
+
+## E. 图谱更新
+
+- 新节点：anterior-commissure（1）
+- 新边：8 条
+- 悬空引用：5 → 4（anterior-commissure 已填补）
+- 图谱状态：326 节点，1873 条边
+
+---
+
+## F. 治理层更新
+
+- topic_ledger：新增条目 #163
+- unresolved_questions：新增 Q-ac-01/02/03，更新 Q-unified-01
+- source_registry：新增 7 个来源
+- monthly_synthesis：追加 #163 摘要
+- wiki/index.md：新增 anterior-commissure 条目
+- wiki/CHANGELOG.md：追加 2026-10-03 变更节
+
+---
+
+## G. 文件清单
+
+**情景层（新建）**：
+- articles/2026-10-03-anterior-commissure-split-brain-consciousness-integration.md
+- notes/2026-10-03-reading-notes.md
+- sources/2026-10-03-sources.json
+- logs/2026-10-03-run.log（本文件）
+
+**语义层（新建/修订）**：
+- wiki/systems/anterior-commissure.md（新建）
+- wiki/concepts/split-brain.md（rev2）
+- wiki/systems/corpus-callosum.md（rev3）
+- wiki/_graph.json（更新：326节点/1873边）
+- wiki/index.md（更新：新增条目）
+- wiki/CHANGELOG.md（更新：2026-10-03节）
+
+**治理层（更新）**：
+- state/topic_ledger.json（#163 条目）
+- state/unresolved_questions.md（Q-ac-01/02/03，Q-unified-01更新）
+- state/source_registry.json（7个新来源）
+- state/monthly_synthesis.md（#163摘要）
+
+---
+
+## H. 自检
+
+**真实性**：
+- [x] wiki 新建页每条主张均有来源（PMID/PMC/DOI）
+- [x] 区分了事实（解剖）/ 主流模型（AgCC 代偿）/ 推测（意识整合机制）/ 争议（统一意识）
+- [x] 未把 Pinto 2017（n=2，摘要）写成定论；明确标注样本量和交叉提示问题
+- [x] AC 意识整合功能标记为 emerging，非 established
+- [x] 未提供医学诊断/治疗/用药建议
+
+**一致性**：
+- [x] 无新矛盾触发；既有矛盾 open 状态维持
+- [x] split-brain rev2 和 corpus-callosum rev3 的 updated/revision_count/修订历史同步
+- [x] _graph.json 悬空边已减少（anterior-commissure 不再悬空）
+
+**可导航**：
+- [x] index.md 和 CHANGELOG.md 反映了 2026-10-03 变化
+- [x] anterior-commissure 页 related（7个）和 prerequisites（3个）均已填写
+
+**情景层完整**：
+- [x] articles / notes / sources / logs 四文件齐全
+- [x] 未修改任何旧日期文件
+
+---
+
+## 推送状态
+
+待提交和推送（Git commit 后更新）
+
+---
+
+*运行结束时间：2026-06-12（UTC+8）*

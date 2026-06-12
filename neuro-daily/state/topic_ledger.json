@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-02",
-  "total_articles": 162,
+  "last_updated": "2026-10-03",
+  "total_articles": 163,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10766,6 +10766,76 @@
         "anterior-commissure 专页：从裂脑 + AgCC 研究中补齐悬空引用，胼胝体 vs 前连合功能分工",
         "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？（理论侧延续）",
         "attention-consciousness dissociation 专页：注意与意识的双重解离实验证据（无注意有意识 / 有注意无意识）"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "real_date": "2026-06-12",
+      "article_number": 163,
+      "title": "前连合：进化遗留的大脑渡口——当胼胝体沉默，意识整合的接力棒传给了谁？",
+      "slug": "anterior-commissure-split-brain-consciousness-integration",
+      "filename": "2026-10-03-anterior-commissure-split-brain-consciousness-integration.md",
+      "article_type": "regular",
+      "core_question": "前连合（anterior commissure，AC）连接哪些脑区，传递什么信息？在胼胝体切断或先天缺失时，AC 能承担多少半球整合功能？它是否是 Pinto 2017 裂脑患者'统一意识'的结构性解释候选——标准裂脑手术保留前连合，而 AC 的颞叶/杏仁核双侧连接可能维持了情感-语义层面的意识整合？",
+      "layer": [
+        "brain-region",
+        "cellular",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "9. Connectomics / 联合纤维系统；与课程脊柱 8（意识与自我）——裂脑意识整合结构基础",
+      "topic_tags": [
+        "anterior commissure",
+        "white matter commissures",
+        "interhemispheric connectivity",
+        "split-brain",
+        "callosotomy",
+        "corpus callosum agenesis",
+        "AgCC",
+        "consciousness integration",
+        "Pinto 2017",
+        "de Haan 2020",
+        "orbitofrontal cortex",
+        "amygdala",
+        "temporal lobe",
+        "olfactory system",
+        "evolutionary neuroscience",
+        "marsupials",
+        "CCEP",
+        "iEEG"
+      ],
+      "main_sources": [
+        "PMID:41759515/PMC13160234",
+        "PMID:40928661",
+        "PMID:12382985",
+        "PMID:31412269",
+        "PMID:32399946/PMC7305066",
+        "PMID:38021222/PMC10667445",
+        "PMID:28958646",
+        "PMID:39480348/PMC11891799"
+      ],
+      "unresolved_questions": [
+        "Q-ac-01（高）：选择性阻断 AC（TMS/局麻）是否消除裂脑统一意识行为证据？",
+        "Q-ac-02（中）：AC 颞极/杏仁核信号在跨半球情感评价统一中的贡献如何用 iEEG 量化？",
+        "Q-ac-03（中）：AgCC 中 AC 代偿性扩大的遗传发育决定因素？",
+        "Q-unified-01（高）：裂脑统一意识通路中 AC、上丘、脑干联合体各贡献多少？（更新：AC 现为主要候选之一）"
+      ],
+      "wiki_created": [
+        "anterior-commissure"
+      ],
+      "wiki_revised": [
+        "split-brain",
+        "corpus-callosum"
+      ],
+      "dangling_refs_filled": [
+        "anterior-commissure"
+      ],
+      "next_suggested_topics": [
+        "attention-consciousness dissociation 专页：注意与意识双重解离的实验证据（无注意有意识 / 有注意无意识）——串联近期注意系列与意识系列",
+        "意识恢复的神经机制：从 VS 到 MCS 的恢复轨迹，丘脑-皮层连接的重建窗口（2026-10-02 DoC 文章的后续）",
+        "superior-longitudinal-fasciculus 专页：填补悬空引用，连接语言网络与空间注意的背侧通路",
+        "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？",
+        "dopamine-system 专页：填补悬空引用，整合 VTA/SNc/D1/D2 等已有页面"
       ]
     }
   ],
