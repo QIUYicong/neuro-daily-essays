@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-10-07（文章 #167：步态的脊髓时钟——中枢模式发生器如何在没有大脑指令的情况下编排节律运动）
+
+### 新创建页面（3 页）
+- `circuits/spinal-cord-cpg.md`（脊髓中枢模式发生器）：CPG 双层架构（RG节律生成层+PF模式形成层）；V0D/V0V 速度依赖步态切换（走/小跑/飞奔）；V1+V2b 屈伸半中枢；SHOX2+ 神经元节律生成候选；虚构运动历史证据；MLR→网状脊髓束下行控制；VSCT 枢纽争议（Chalif 2022）；状态 established（CPG 存在性和基本组织），中（RG 层细胞身份，VSCT 证据待重复）；来源 PMID:26935168、PMID:23812590 等；新增未解问题 Q-cpg-rg-identity/Q-cpg-vsct/Q-cpg-human/Q-cpg-forelimb。
+- `circuits/spinal-interneurons-locomotion.md`（步态中间神经元 V 型）：V0/V1/V2a/V2b/V3 各亚型的分子标记（Dbx1/En1/Chx10/Gata3/Sim1）、投射方向（同侧/对侧）、递质类型（兴奋/抑制）与功能角色的详细矩阵；SHOX2+ 非 V2a 节律生成；VSCT 必要充分性；关键遗传学实验证据表；状态 established（V型神经元功能），中（SHOX2/VSCT）。
+- `systems/dopamine-system.md`（多巴胺系统总览）：**填补悬空引用 `dopamine-system`**；VTA+SNc 两大核团及三条通路（中脑边缘/中脑皮层/黑质纹状体）；相位性爆发（RPE）vs 紧张性放电；LHb→RMTg→DA 负预测误差回路；指向各专题页（VTA/SNc/DA-RPE/D1D2/基底节）；小页（综合提示索引页）。
+
+### 修订页面（2 页）
+- `systems/motor-cortex.md`（revision 3→4）：新增"运动皮层与 CPG 的分工"小节，明确皮层在基础步行（低介入）vs 复杂地形（高介入）vs 精细手指（最高介入/单突触CST）三类运动中的差异化角色；related 新增 spinal-cord-cpg、spinal-interneurons-locomotion；修订历史更新。
+
+### 矛盾检查
+- 无新矛盾：脊髓 CPG（本篇）与 motor-cortex 页（皮层直接控制运动）不冲突——两者描述不同类型运动（基础节律 vs 精细/复杂），且现有 motor-cortex 页强调的是"皮层对运动的直接控制"，本篇补充的是"基础步行的分层委托架构"，两者互补。
+- VSCT 枢纽发现（Chalif 2022）与既有"分布式 CPG"框架存在**潜在矛盾**——但 VSCT 证据尚需独立验证，暂不登记为 contested；在文章和 wiki 中明确标注为"需独立验证"的争议性发现。
+
+### 悬空引用状态
+- **填补**：`dopamine-system` 悬空引用已通过新建 `systems/dopamine-system.md` 解决 ✅
+- 剩余悬空引用（减少至 3 个）：aging, cognition, superior-longitudinal-fasciculus
+
+### 图谱变化
+- 新增节点 3：spinal-cord-cpg, spinal-interneurons-locomotion, dopamine-system
+- 新增边 12 条（CPG与motor-cortex/cerebellum/basal-ganglia的关联；dopamine-system与VTA/SNc/DA-RPE的关联等）
+- 图谱总计：334 节点，1921 边
+
+---
+
 ## 2026-10-06（文章 #166：当大脑与脊髓合为一张接线图——BANC 连接组揭示分布式运动控制架构）
 
 ### 新创建页面（2 页）

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "node_count": 325,
   "edge_count": 1865,
   "edge_types": [
@@ -2996,6 +2996,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/ventral-nerve-cord.md"
+    },
+    {
+      "id": "spinal-cord-cpg",
+      "title": "脊髓中枢模式发生器",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/spinal-cord-cpg.md"
+    },
+    {
+      "id": "spinal-interneurons-locomotion",
+      "title": "步态中间神经元（V型）",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/spinal-interneurons-locomotion.md"
+    },
+    {
+      "id": "dopamine-system",
+      "title": "多巴胺系统（总览）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/dopamine-system.md"
     }
   ],
   "edges": [
@@ -13148,6 +13175,66 @@
       "to": "ventral-nerve-cord",
       "type": "related",
       "note": "BANC 是第一个完整 VNC 连接图谱"
+    },
+    {
+      "from": "spinal-cord-cpg",
+      "to": "spinal-interneurons-locomotion",
+      "type": "part-of"
+    },
+    {
+      "from": "spinal-cord-cpg",
+      "to": "motor-cortex",
+      "type": "related"
+    },
+    {
+      "from": "spinal-cord-cpg",
+      "to": "cerebellum",
+      "type": "related"
+    },
+    {
+      "from": "spinal-cord-cpg",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "spinal-interneurons-locomotion",
+      "to": "spinal-cord-cpg",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "spinal-interneurons-locomotion",
+      "to": "motor-cortex",
+      "type": "related"
+    },
+    {
+      "from": "spinal-interneurons-locomotion",
+      "to": "axon-guidance",
+      "type": "related"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "spinal-cord-cpg",
+      "type": "regulates"
+    },
+    {
+      "from": "dopamine-system",
+      "to": "vta",
+      "type": "part-of"
+    },
+    {
+      "from": "dopamine-system",
+      "to": "substantia-nigra",
+      "type": "part-of"
+    },
+    {
+      "from": "dopamine-system",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dopamine-system",
+      "to": "basal-ganglia",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,88 @@
+# 2026-10-07 Run Log — Article #167
+
+## Session Overview
+- **Logical date**: 2026-10-07
+- **System date**: 2026-06-12 (virtual date continuation)
+- **Article number**: #167
+- **Topic**: 步态的脊髓时钟——中枢模式发生器如何在无大脑指令下编织行走节律
+- **Branch**: main (per ROUTINE.md single-branch strategy)
+
+## Step A: Read Governance Files
+- [x] Read ROUTINE.md
+- [x] Read KNOWLEDGE-BASE-DESIGN.md
+
+## Step B: Determine State
+- [x] Read state/topic_ledger.json (confirmed last article #166, date 2026-10-06)
+- [x] Read wiki/index.md (331 nodes, 1909 edges before this session)
+- [x] Read logs/2026-10-06-run.log for context
+
+## Step C: Topic Selection
+- **Selected**: Spinal cord CPG (Central Pattern Generator)
+- **Rationale**: Fills significant gap in motor systems chapter; complements BANC connectomics article (#166); V-type interneurons recently mentioned in motor-cortex.md as dangling concept; good layer balance (circuits/cellular vs recent cognition chain)
+- **Alternatives considered**: sensory cortex, reward/motivation circuits
+
+## Step D: Literature Research
+Sources retrieved:
+1. PMID:26935168 / PMC4844028 — Kiehn 2016, Nature Reviews Neuroscience (open full text)
+2. PMID:19543221 / PMC2847453 — Goulding 2009, Nature Reviews Neuroscience (open full text)
+3. PMID:34070932 / PMC8198624 — Grillner & Kozlov 2021, Neuron (open full text)
+4. PMID:23812590 — Talpalar 2013, Nature (abstract only, paywall)
+5. PMID:24267650 — Dougherty 2013, Nature (abstract only, paywall)
+6. PMID:21943604 — Talpalar 2011, Nature Neuroscience (abstract only, paywall)
+7. PMID:25970489 / PMC4430237 — Molkov 2015, eLife (open full text)
+8. PMID:24623763 / PMC6705281 — Borgius 2014, Cell Reports (open full text)
+9. PMID:35063074 / PMC8852337 — Chalif 2022, Cell (open full text)
+10. PMID:17145498 — Grillner 2006, Nature Reviews Neuroscience (abstract only, paywall)
+11. PMID:39704678 — Gosgnach 2025, Current Opinion in Neurobiology (abstract only, paywall)
+
+Open full text count: 6/11 (exceeds ≥2 requirement)
+Official institutional sources: PubMed/PMC (NCBI/NIH)
+
+## Step E: Content Creation
+- [x] Article: neuro-daily/articles/2026-10-07-spinal-cpg-locomotion.md (~5500 words)
+- [x] Reading notes: neuro-daily/notes/2026-10-07-reading-notes.md
+- [x] Sources JSON: neuro-daily/sources/2026-10-07-sources.json (11 sources)
+
+## Step F: Wiki Consolidation
+New wiki pages created:
+- [x] neuro-daily/wiki/circuits/spinal-cord-cpg.md (Rev1, established/high)
+- [x] neuro-daily/wiki/circuits/spinal-interneurons-locomotion.md (Rev1, established/high)
+- [x] neuro-daily/wiki/systems/dopamine-system.md (Rev1, established/high — fills dangling reference)
+
+Wiki pages revised:
+- [x] neuro-daily/wiki/systems/motor-cortex.md (Rev3→Rev4, new CPG-cortex division section)
+
+Knowledge graph updated:
+- [x] neuro-daily/wiki/_graph.json: 331→334 nodes, 1909→1921 edges, updated 2026-10-07
+  - New nodes: spinal-cord-cpg, spinal-interneurons-locomotion, dopamine-system
+  - New edges (12): CPG↔motor-cortex, CPG↔cerebellum, CPG↔basal-ganglia, spinal-interneurons→cpg×2, dopamine-system→vta/substantia-nigra/da-rpe/basal-ganglia×4, motor-cortex→spinal-interneurons, cpg→motor-neuron, cpg→proprioception
+
+Index and changelog updated:
+- [x] neuro-daily/wiki/index.md (header updated to #167, 334 nodes/1921 edges, 312 total pages)
+- [x] neuro-daily/wiki/CHANGELOG.md (new 2026-10-07 section)
+
+## Step G: Governance Layer Updates
+- [x] state/topic_ledger.json — #167 entry added
+- [x] state/unresolved_questions.md — 4 new questions (Q-cpg-rg-identity, Q-cpg-vsct, Q-cpg-human, Q-cpg-forelimb)
+- [x] state/source_registry.json — 11 sources added, total_count 621→632
+- [x] state/monthly_synthesis.md — #167 entry appended
+- [x] logs/2026-10-07-run.log — this file
+
+## Step H: Dangling References Status
+Before this session: 4 dangling references (aging, cognition, dopamine-system, superior-longitudinal-fasciculus)
+After this session: 3 dangling references (aging, cognition, superior-longitudinal-fasciculus)
+Filled: dopamine-system ✓
+
+## Quality Checks
+- [x] Article word count: ~5500 (within 3000-6000 range)
+- [x] Sources ≥5: 11 sources ✓
+- [x] Open full texts ≥2: 6 open full texts ✓
+- [x] Official institutional source ≥1: PubMed/PMC (NIH) ✓
+- [x] No fabricated PMIDs, authors, or conclusions
+- [x] No medical advice
+- [x] No Sci-Hub or paywall bypass
+
+## Commit
+- Message: Add neuro daily article + wiki consolidation for 2026-10-07
+- Branch: main
+- Push target: origin main (QIUYicong/neuro-daily-essays)

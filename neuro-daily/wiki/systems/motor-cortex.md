@@ -6,10 +6,10 @@ type: region
 status: established
 confidence: high
 created: 2026-06-21
-updated: 2026-06-02
-revision_count: 3
+updated: 2026-10-07
+revision_count: 4
 dimensions: [brain-region, cellular, behavior, cognition]
-related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellum, forward-model, embodied-semantics]
+related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellum, forward-model, embodied-semantics, spinal-cord-cpg, spinal-interneurons-locomotion]
 prerequisites: [action-potential, voltage-gated-calcium-channels, pyramidal-neuron]
 opens_questions: [Q-mc-01, Q-mc-02, Q-mc-03]
 source_articles: [2026-06-21-motor-cortex-voluntary-movement]
@@ -87,6 +87,24 @@ key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928",
 - [[prefrontal-cortex]] — 运动规划的上游认知控制
 - [[cerebellum]] — 小脑-运动皮层闭环（传出拷贝接收端 + 前向模型输出接收方）
 - [[forward-model]] — 小脑前向模型与运动皮层的协作机制
+- [[spinal-cord-cpg]] — 脊髓 CPG 提供基础步态节律，运动皮层在复杂地形时叠加精细调控（分层委托架构）
+- [[spinal-interneurons-locomotion]] — 皮层脊髓束（CST）终止于脊髓中间神经元，通过 V2a 等中间神经元间接调控运动神经元
+
+## 运动皮层与 CPG 的分工（2026-10-07 补充）
+
+CPG 研究（Kiehn 2016）揭示了运动皮层与脊髓 CPG 之间的分层委托关系：
+
+- **基础步行**：CPG（腰骶段）提供节律，MLR（中脑运动区）提供启动/调速，运动皮层**不需要**实时微管理每条腿的动作
+- **复杂地形**（障碍、精细落脚）：皮层脊髓束（CST）直接激活，M1 参与相位特异性的步态修正；皮层对 V2a 等脊髓中间神经元提供叠加输入
+- **精细手指运动**：CST 直接单突触连接 α 运动神经元（灵长类进化的特化），不经中间神经元——这是运动皮层与 CPG 的显著差异（手/腿的控制架构不同）
+
+这一认识将运动皮层的角色从"中央控制器"重新定位为"高层监督者 + 特化任务执行者"。
+
+| 运动类型 | 皮层卷入程度 | 主导结构 |
+|---------|------------|---------|
+| 基础节律步行 | 低（监督）| 脊髓 CPG + MLR |
+| 障碍物绕行/落脚精确 | 高（直接介入）| 运动皮层 → CST → 脊髓 |
+| 手指精细操作 | 极高 | 运动皮层 → CST 单突触 → 运动神经元 |
 
 ## 未解问题
 
@@ -99,6 +117,7 @@ key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928",
 - 2026-06-21 · 创建 · 基于《从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉》（#57）· 初始置信度：高
 - 2026-06-23 · 修订 · 基于《小脑的秘密》· 新增"小脑-运动皮层闭环"段落（传出拷贝→小脑→DCN→VL丘脑→M1反馈回路）；related 新增 cerebellum, forward-model；连接段新增两项
 - 2026-06-02 · 修订 · 基于《当大脑读到"踢"，脚步已先响》(#65) · 新增具身语义功能维度：运动皮层作为词义的感觉运动辐条；related 新增 embodied-semantics；key_sources 补充 PMID:14741110, PMID:15733097
+- 2026-10-07 · 修订 · 基于《步态的脊髓时钟》(#167) · 新增"运动皮层与CPG的分工"小节（分层委托架构）；related 新增 spinal-cord-cpg, spinal-interneurons-locomotion；明确皮层在基础步行vs复杂地形vs精细手指操作中的差异化卷入程度
 
 ## 来源文章
 

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-06（**#166** BANC 连接组——分布式运动控制、局部感觉-运动优先、DNs/ANs 双向输出、15行为超群集、中央复合体监督角色；新建2页：distributed-motor-control, ventral-nerve-cord；修订1页：connectomics rev3（BANC 2026 新增）；图谱 331 节点，1909 边）· 主题页总数：**309**
+> 最后更新：2026-10-07（**#167** 脊髓 CPG——中枢模式发生器双层架构（RG/PF）、V0-V3 中间神经元速度依赖步态切换、SHOX2 节律生成、VSCT 枢纽争议；新建3页：spinal-cord-cpg, spinal-interneurons-locomotion, dopamine-system（填补悬空引用）；修订2页：motor-cortex rev4, CHANGELOG；图谱 334 节点，1921 边）· 主题页总数：**312**
 
 ---
 
@@ -42,6 +42,8 @@
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
 - 🟢 [前额叶-杏仁核情绪调控回路](circuits/pfc-amygdala-emotion-regulation.md) — IL（vmPFC）通过三路并联（ITC门控/BLA直接投射/PVT中继）压制杏仁核恐惧输出；PL 反向促进恐惧表达；IL内部mGluR5→AMPAR可塑性；IL训练时写入/回忆时表达逻辑 **[NEW 2026-07-31 #99]**
+- 🟢 [脊髓中枢模式发生器](circuits/spinal-cord-cpg.md) — 双层架构（RG节律生成+PF模式形成）；V0D/V0V速度依赖步态切换（走/跑/飞奔）；V1+V2b屈伸半中枢；虚构运动证明CPG自主性；VSCT作为CPG枢纽（Chalif 2022，争议中）**[NEW 2026-10-07 #167]**
+- 🟢 [步态中间神经元（V型）](circuits/spinal-interneurons-locomotion.md) — V0/V1/V2a/V2b/V3各自分子标记与功能角色；SHOX2+非V2a为节律生成核心候选；V0D选择性删除→低速失交替；V0V删除→小跑消失；VSCT必要充分性（待验证）**[NEW 2026-10-07 #167]**
 
 ## concepts（概念/框架）
 
@@ -248,7 +250,7 @@
 
 ## motor（运动系统）
 
-- 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）；**小脑-运动皮层闭环（修订2026-06-23）**
+- 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；群体向量编码；旋转动力学；输出零空间；**新增：与脊髓CPG分层委托架构（修订2026-10-07 rev4）**
 - 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订 rev3 2026-08-08 #107]**
 - 🟢 [深部小脑核（DCN）](systems/deep-cerebellar-nuclei.md) — 小脑输出门与程序性运动记忆存储库；三核团（齿状核/间位核/顶核）；前间位核因果损毁→CR消失UR保留（Thompson 1997）；DCN LTP 将皮层 LTD 的快速适应巩固为持久记忆（两相模型）；小脑-基底神经节直接皮层下连接（Bostan 2018）**[NEW 2026-08-08 #107]**
 - 🟢 [下橄榄核（IO）](systems/inferior-olive.md) — 小脑的教师核团；缝隙连接（Cx36）同步振荡；T型Ca²⁺驱动阈下振荡；TMEM16B调节时序精度；CF奖励信号新发现（Jin & Hull 2025，待复现）；DCN抑制性反馈自动关闭学习 **[NEW 2026-08-08 #107]**
@@ -313,6 +315,7 @@
 - 🔵 [颞顶联合区（TPJ）](systems/tpj-temporoparietal-junction.md) — 颞叶/顶叶/枕叶交界皮层；双功能：右侧TPJ-M专用于信念归因（Saxe 2003，10+实验室重复）+腹侧注意网络（意外刺激→注意重定向）；TMS抑制右侧TPJ因果损害信念-道德判断；108项研究元分析收敛激活（Merchant 2025）；预测编码下行为可预测性↓时激活↑ **[NEW 2026-07-25 #93]**
 - 🟢 [初级体感皮层（S1）](systems/somatosensory-cortex.md) — 顶叶后中央回四子区（3a本体感觉/3b触觉/1质地振动/2形状整合）分层处理；皮层版图按受体密度（非解剖面积）分配；成人期可塑性（截肢→皮层重映射，盲文→指尖扩展）；桶状皮层为精确拓扑模型 **[NEW 2026-07-19 #87]**
 - 🟢 [头向细胞](systems/head-direction-cells.md) — 仅在面朝特定方向时放电（调谐宽度~90°，360°全覆盖）；回路：DTN→LMN→ADN→PoS→RSC→MEC深层；环形吸引子内在动力学（Peyrache 2015，睡眠期群体相干游走）；前庭驱动+视觉地标校正；人类fMRI证据（RSC+丘脑，Shine 2016）；大脑的内置罗盘 **[NEW 2026-07-22 #90]**（完成空间导航四元组）
+- 🟢 [多巴胺系统总览](systems/dopamine-system.md) — VTA+SNc的主干通路（中脑边缘/中脑皮层/黑质纹状体）；相位性爆发（RPE）vs紧张性放电；LHb→RMTg→DA负预测误差通路；指向各专题页（VTA/SNc/DA-RPE/D1D2/基底节）**[NEW 2026-10-07 #167，填补悬空引用]**
 - 🟢 [腹侧被盖区（VTA）](systems/vta.md) — 中脑多巴胺 A10 核团；向NAc（中脑边缘）和PFC（中脑皮层）发出主要多巴胺投射；内部拓扑异质性：内侧VTA→奖励/厌恶双编码，外侧VTA→经典奖励信号；多巴胺共释放谷氨酸/GABA（de Jong 2022，Yetnikoff 2014）**[NEW 2026-06-06 #101]**
 - 🟢 [黑质（SNc/SN）](systems/substantia-nigra.md) — 中脑多巴胺 A9 核团；黑质纹状体通路（SNc→背侧纹状体）调控运动执行；三种遗传亚型（Calb1+价值编码/Vglut2+/Anxa1+运动加速）；PD 中 SNc 腹侧层优先死亡（Azcorra 2023，Yetnikoff 2014）**[NEW 2026-06-06 #101]**
 

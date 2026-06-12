@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-06",
-  "total_articles": 166,
+  "last_updated": "2026-10-07",
+  "total_articles": 167,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11052,6 +11052,92 @@
         "蝗虫/斑马鱼运动回路——跨物种比较",
         "月度合成第二篇（若本月文章已达30篇需做月度大图景）"
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "title": "步态的脊髓时钟：中枢模式发生器如何在没有大脑指令的情况下编排节律运动",
+      "filename": "2026-10-07-spinal-cpg-locomotion.md",
+      "wiki_pages_created": [
+        "wiki/circuits/spinal-cord-cpg.md",
+        "wiki/circuits/spinal-interneurons-locomotion.md",
+        "wiki/systems/dopamine-system.md（填补悬空引用）"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/motor-cortex.md (rev3→rev4: 新增CPG分层委托小节；related新增spinal-cord-cpg/spinal-interneurons-locomotion)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "脊髓CPG的双层架构（RG+PF）和V0-V3遗传标记中间神经元如何分工实现速度依赖步态切换：V0D保证走步左右交替，V0V保证小跑左右交替，V1+V2b构成屈伸半中枢；SHOX2+非V2a为节律生成候选；VSCT枢纽发现争议（Chalif 2022 Cell）需独立验证。",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior"
+      ],
+      "curriculum_track": "Track 2（运动系统/脊髓回路）补充；填补motor-cortex与basal-ganglia之间的运动控制分层缺口；同时填补dopamine-system悬空引用",
+      "topic_tags": [
+        "central pattern generator",
+        "CPG",
+        "spinal cord",
+        "locomotion",
+        "V0D interneurons",
+        "V0V interneurons",
+        "V1 interneurons",
+        "V2a interneurons",
+        "V2b interneurons",
+        "V3 interneurons",
+        "SHOX2 interneurons",
+        "half-center oscillator",
+        "rhythm generation",
+        "pattern formation",
+        "fictive locomotion",
+        "spinal transection",
+        "gait transition",
+        "walk trot gallop bound",
+        "Talpalar 2013",
+        "Kiehn 2016",
+        "Goulding 2009",
+        "VSCT Chalif 2022",
+        "mesencephalic locomotor region",
+        "MLR",
+        "reticulospinal tract",
+        "proprioception",
+        "Ia inhibitory interneurons",
+        "Renshaw cells",
+        "EphA4",
+        "Dbx1",
+        "En1",
+        "Chx10",
+        "Gata3",
+        "Sim1"
+      ],
+      "main_sources": [
+        "PMID:26935168 (Kiehn 2016, Nat Rev Neurosci, PMC4844028, 开放全文)",
+        "PMID:19543221 (Goulding 2009, Nat Rev Neurosci, PMC2847453, 开放全文)",
+        "PMID:34070932 (Grillner & Kozlov 2021, IJMS, PMC8198624, 开放全文)",
+        "PMID:23812590 (Talpalar et al. 2013, Nature, 摘要仅读)",
+        "PMID:24267650 (Dougherty et al. 2013, Neuron, 摘要仅读)",
+        "PMID:21943604 (Talpalar et al. 2011, Neuron, 摘要仅读)",
+        "PMID:25970489 (Molkov et al. 2015, PLoS Comput Biol, PMC4430237, 开放全文)",
+        "PMID:24623763 (Borgius et al. 2014, J Neurosci, PMC6705281, 开放全文)",
+        "PMID:35063074 (Chalif et al. 2022, Cell, PMC8852337, 开放全文)",
+        "PMID:17145498 (Grillner 2006, Neuron, 摘要仅读)",
+        "PMID:39704678 (Gosgnach 2025, J Neurophysiol, 摘要仅读)"
+      ],
+      "unresolved_questions": [
+        "Q-cpg-rg-identity (新增，中优先级：SHOX2+之外哪些细胞群参与RG层？冗余机制？)",
+        "Q-cpg-vsct (新增，高优先级：Chalif 2022 VSCT必要/充分性是否可独立重复？如何整合到V型框架？)",
+        "Q-cpg-human (新增，高优先级：人类脊髓CPG的V0-V3类似组织是否存在？硬膜外刺激机制？)",
+        "Q-cpg-forelimb (新增，低优先级：前肢与后肢CPG的跨颈腰段协调机制？)"
+      ],
+      "next_suggested_topics": [
+        "脊髓损伤后的CPG激活与硬膜外电刺激恢复步行——CPG在临床转化中的应用（疾病作为窗口，Track 11）",
+        "运动神经元（α-MN）的生理特性：大小原则、PICs、发放率增益调节——电生理细节填补（细胞层）",
+        "基底节-MLR-CPG轴的完整通路：帕金森病中步态异常的回路机制（Track 11，连接已有PD和基底节页面）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 167,
+      "note": "系统时钟UTC+8=2026-06-12（真实执行日期）；知识库虚拟日期2026-10-07；11个来源中6个开放全文、5个摘要仅读；无PMID编造；无新矛盾登记；填补dopamine-system悬空引用（知识库遗留悬空引用减少至3个）；CPG运动系统为课程脊柱Track 2显著缺口，今日填补"
     }
   ],
   "layer_coverage_recent": [

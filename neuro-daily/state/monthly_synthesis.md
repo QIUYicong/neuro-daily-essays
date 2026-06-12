@@ -1205,3 +1205,11 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 同期方法学背景：Connectome-seq（Chen et al. 2026，PMID:41030982，Nature Methods）提供了互补的 RNA 条形码高通量方法，在小鼠桥-小脑回路中以 0.0001% 的灵敏度（主要局限）成功映射1,000+神经元的连接，并发现了成体谷氨酸-普肯野细胞投射新证据。
 
 **新建** wiki/concepts/distributed-motor-control（emerging/medium，果蝇结构证据强，跨物种尚待验证）、wiki/systems/ventral-nerve-cord（established/high，BANC 首次完整接线图）。**修订**：connectomics rev2→rev3（新增 BANC 完整专节，规模阶梯表新行，证据表新增2条）。**图谱**：329→331节点，1901→1909条边（+2节点，+8边）。**来源**：7篇（4篇开放全文，3篇摘要）。**层级**：methods + cellular + whole-brain-network（打破连续多天 cognition 层，转向方法/结构层，符合层级平衡原则）。**新增未解**：Q-dmc-01（高，脊椎动物局部控制接线图证据）、Q-dmc-02（中，脊髓损伤后局部重组）、Q-dmc-03（中，功能验证 BANC 影响力评分）、Q-conn-04（中，脊髓连接组学路线图）、Q-conn-05（低，Connectome-seq 灵敏度提升）。
+
+**#167（2026-10-07）**：步态的脊髓时钟——中枢模式发生器如何在无大脑指令下编织行走节律
+
+本文是知识库运动系统章节的重要深化，将脊髓的自主运动控制能力从"隐性背景"提升为明确的核心机制。核心叙事：**脊髓不是一根被动传导电线，而是一台嵌入了步态软件的自主计算机**——1960年代 Graham Brown 的假想半中枢振荡器到今天已被遗传工具拆解为分子层面的五类中间神经元（V0-V3），每类承担步态协调的不同维度。双层架构是当前框架的核心：节律生成层（RG，SHOX2+ 非 V2a 兴奋性神经元，电突触耦合）设定振荡频率；模式形成层（PF，V0/V1/V2/V3）将节律转化为屈伸交替与左右协调的具体运动图谱。速度依赖步态切换（Talpalar 2013）最精彩：V0D 敲除只消除低速走步交替，V0V 敲除只消除中速小跑，完全 V0 敲除则所有速度都变同步跳跃——CPG 的不同"档位"由不同亚型细胞承载，这是迄今最精确的运动控制分子映射之一。VSCT 争议（Chalif 2022, Cell）是当前最重要的未解问题：传统上行感觉中继神经元具备起搏电流，其沉默可在数分钟内停止行走——若成立将重写 CPG 架构图，但独立验证缺乏（Q-cpg-vsct，高优先级）。
+
+**运动皮层与 CPG 的分层委托架构**（新认识整合到 motor-cortex.md rev4）：基础步行主要由 CPG（腰骶段）+MLR 控制，运动皮层仅监督；复杂地形时皮层直接介入；精细手指操作由皮层脊髓束单突触控制——三种运动类型代表三个控制层级，为理解运动系统提供了统一框架。
+
+**新建 wiki 页**：circuits/spinal-cord-cpg（established/high，双层架构+五亚型分工+VSCT争议）、circuits/spinal-interneurons-locomotion（established/high，V0D/V0V/V1/V2a/V2b/V3/SHOX2/VSCT完整表格）、systems/dopamine-system（established/high，填补悬空引用）。**修订**：systems/motor-cortex rev3→rev4（新增皮层-CPG分工小节）。**图谱**：331→334节点，1909→1921条边（+3节点，+12边）。**来源**：11篇（6篇开放全文 PMC，5篇摘要）。**层级**：circuits + cellular + microcircuit（分子/细胞/回路三层，有效打破近期 cognition 连续覆盖）。**新增未解**：Q-cpg-rg-identity（中，RG层完整细胞身份）、Q-cpg-vsct（高，VSCT独立验证）、Q-cpg-human（高，人类CPG细胞层面同源性）、Q-cpg-forelimb（低，颈腰协调机制）。**悬空引用**：从 4 减至 3（dopamine-system 已填补；remaining: aging、cognition、superior-longitudinal-fasciculus）。
