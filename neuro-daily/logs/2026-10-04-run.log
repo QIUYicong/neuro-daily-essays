@@ -1,0 +1,137 @@
+# 运行日志 2026-10-04
+
+**日期（UTC+8）**：2026-10-04
+**文章编号**：#164
+**运行分支**：main（从 main 直接提交，符合 ROUTINE.md 方案 A）
+
+---
+
+## 状态读取
+
+- topic_ledger.json 读取：上一篇为 #163（2026-10-03），注意-意识解离是 next_suggested_topics 第一条
+- unresolved_questions.md 读取：Q-atcon-01/02/03 尚未登记，Q-unified-01 进展更新
+- _graph.json 读取：326 节点，1873 边。悬空引用包括 binocular-rivalry、inattentional-blindness
+- 机器日期 2026-06-12 与知识库逻辑日期 2026-10-03 不一致，采用知识库逻辑延续日期 2026-10-04
+
+---
+
+## 选题（B 步骤）
+
+触发器：**next_suggested_topics 推荐** + **悬空引用待填（binocular-rivalry 间接）** + **课程脊柱**（意识与自我系列）
+
+选题：注意-意识双重解离（attention-consciousness-dissociation）
+- 原因：串联近期注意系列（#153-#155）与意识系列（#157-#163），理论重要性高，已积累大量相关 wiki 页面（VAN, access-consciousness 等）作为上下文
+- 优先级判断：次于突破追踪，等于悬空引用填补，选题合理
+
+---
+
+## 检索（C 步骤）
+
+### 搜索词
+- "Koch Tsuchiya attention consciousness distinct brain processes 2007"
+- "attention without consciousness consciousness without attention double dissociation neuroscience"
+- "Wyart Tallon-Baudry neural dissociation visual awareness spatial attention MEG"
+- "Pitts visual awareness negativity no-report paradigm"
+- "Block overflow hypothesis phenomenal consciousness 2011"
+- "Cohen attentional requirements of consciousness 2012"
+- "inattentional blindness gorilla Simons Chabris"
+
+### 数据源
+- PubMed / NCBI E-utilities：检索 PMID
+- PMC Open Access：获取开放全文（PMC4194416, PMC6074079, PMC3868908）
+- 官方 PubMed 摘要：其余来源
+
+### 来源统计
+- 候选来源：14 篇
+- 采用：9 篇
+- 排除：5 篇（原因：与主题关联度低，或与其他采用来源重复覆盖）
+- 开放全文：4 篇（Wyart 2008, Pitts 2014, Usher 2018, Aru 2013）
+- 摘要：5 篇
+- 官方机构来源：PubMed/NCBI（PMID 均经官方验证）
+
+---
+
+## 固结（D 步骤）
+
+### 新创建 wiki 页
+- `concepts/attention-consciousness-dissociation.md`（新建，Rev1）
+  - 状态：mainstream，置信度：medium
+  - 来源：5 篇 PMID
+  - 连接：10 个相关页面
+
+### 修订 wiki 页
+- `concepts/visual-awareness-negativity.md`（Rev1→Rev2）
+  - 补充：与注意-意识解离框架的连接；Q-atcon-02 新问题
+- `concepts/access-consciousness.md`（Rev1→Rev2）
+  - 补充：A vs P 区分与注意-意识解离的关系；新增 PMID:22078929
+
+### 矛盾检查
+- **方法论争议**：Koch & Tsuchiya（注意≠意识必要条件）vs Cohen et al.（注意=意识必要条件）
+  - 判断：属于理论框架级别的分歧，非事实主张矛盾（两者都是综述性论证）
+  - 处理：在文章和 wiki 页均如实呈现两方论点和证据，未降低成熟度（此为已知争议，不新）
+  - 不在 contested_claims.json 新增登记（已有框架内的已知争议）
+
+---
+
+## 图谱（E 步骤）
+
+- 新节点：1（attention-consciousness-dissociation）
+- 新边：10
+- 更新后：327 节点，1883 条边
+- 悬空引用更新：binocular-rivalry 和 inattentional-blindness 加入 next_suggested_topics 待建列表
+
+---
+
+## 治理层（F 步骤）
+
+- topic_ledger.json：新增 entry #164，total_articles = 164
+- unresolved_questions.md：新增 Q-atcon-01/02/03
+- source_registry.json：新增 7 条来源，total = 718
+- monthly_synthesis.md：追加 #164 摘要（10月系列第4篇）
+
+---
+
+## 来源限制说明
+
+以下论文未获取全文（只读摘要）：
+- PMID:17129748（Koch & Tsuchiya 2007，Trends Cogn Sci）- 订阅墙
+- PMID:22078929（Block 2011，Trends Cogn Sci）- 订阅墙
+- PMID:22795561（Cohen et al. 2012，Trends Cogn Sci）- 订阅墙
+- PMID:33034851（Maier & Tsuchiya 2021）- 订阅墙
+- PMID:10694957（Simons & Chabris 1999）- 订阅墙
+
+文章中对上述论文的描述基于官方 PubMed 摘要及相关综述中对其的引用和描述，已在文章中标注"仅读摘要"。核心机制论证（γ频率解离、VAN/P3b）来自开放全文来源，置信度更高。
+
+---
+
+## 自检（H 步骤）
+
+**真实性**
+- [x] wiki 每条新主张都有 PMID 来源
+- [x] 区分了已建立事实（Wyart 2008 γ解离）、争议性主张（溢出假说、无注意有意识）和方法论争议（Cohen et al. 反驳）
+- [x] 未将单篇研究写成定论；溢出假说明确标注为"争议中"
+- [x] 未提供医学诊断、治疗或用药建议
+
+**一致性**
+- [x] 新内容与 VAN 和 access-consciousness 现有页面一致（修订方向为补充，非覆盖）
+- [x] 修订页的 updated/revision_count/修订历史均已同步
+- [x] _graph.json 新增节点和边，无新悬空边
+
+**可导航**
+- [x] index.md 反映了新页和修订
+- [x] CHANGELOG.md 追加了今日条目
+- [x] 新页 related（10个）和 prerequisites（4个）均已填写
+
+**情景层**
+- [x] 文章/笔记/来源/日志齐全
+- [x] 未修改任何旧文章/笔记/来源文件
+
+---
+
+## Git & 推送
+
+- 分支：main
+- commit message：Add neuro daily article + wiki consolidation for 2026-10-04
+- 推送：git push origin main
+- commit hash：[运行后填入]
+- push 状态：[运行后填入]

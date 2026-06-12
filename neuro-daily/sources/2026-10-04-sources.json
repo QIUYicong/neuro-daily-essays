@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-04",
+  "article_slug": "2026-10-04-attention-consciousness-dissociation",
+  "article_number": 164,
+  "topic": "注意与意识的双重解离",
+  "core_question": "注意与意识可以被双重解离吗？"有注意无意识"和"无注意有意识"的实验证据是什么，它们分别指向什么神经机制？",
+  "sources": [
+    {
+      "id": "s01",
+      "citation": "Koch C, Tsuchiya N (2007) Attention and consciousness: two distinct brain processes. Trends Cogn Sci 11(1):16-22.",
+      "pmid": "17129748",
+      "doi": "10.1016/j.tics.2006.10.012",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2007,
+      "open_access": false,
+      "full_text_accessed": false,
+      "note": "仅读摘要；综述论文，论证注意（分析器）与意识（综合器）的概念和实验分离",
+      "used_for": ["核心框架", "注意分析器/意识综合器比喻"]
+    },
+    {
+      "id": "s02",
+      "citation": "Wyart V, Tallon-Baudry C (2008) Neural dissociation between visual awareness and spatial attention. J Neurosci 28(10):2667-79.",
+      "pmid": "18322110",
+      "doi": "10.1523/JNEUROSCI.4748-07.2008",
+      "journal": "Journal of Neuroscience",
+      "year": 2008,
+      "open_access": true,
+      "full_text_accessed": true,
+      "note": "MEG 研究发现 γ 频率双解离：54-64Hz=意识，76-90Hz=注意",
+      "used_for": ["神经机制证据", "γ频率解离"]
+    },
+    {
+      "id": "s03",
+      "citation": "Simons DJ, Chabris CF (1999) Gorillas in our midst: sustained inattentional blindness for dynamic events. Perception 28(9):1059-74.",
+      "pmid": "10694957",
+      "doi": "10.1068/p281059",
+      "journal": "Perception",
+      "year": 1999,
+      "open_access": false,
+      "full_text_accessed": false,
+      "note": "仅读摘要；'隐形大猩猩'实验，不注意盲视的经典证明",
+      "used_for": ["引言", "有注意无意识范例背景"]
+    },
+    {
+      "id": "s04",
+      "citation": "Block N (2011) Perceptual consciousness overflows cognitive access. Trends Cogn Sci 15(12):567-75.",
+      "pmid": "22078929",
+      "doi": "10.1016/j.tics.2011.11.001",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2011,
+      "open_access": false,
+      "full_text_accessed": false,
+      "note": "仅读摘要；溢出假说论证，P-consciousness > A-consciousness",
+      "used_for": ["溢出假说", "图标记忆-意识关系"]
+    },
+    {
+      "id": "s05",
+      "citation": "Cohen MA, Cavanagh P, Chun MM, Nakayama K (2012) The attentional requirements of consciousness. Trends Cogn Sci 16(8):411-7.",
+      "pmid": "22795561",
+      "doi": "10.1016/j.tics.2012.06.013",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2012,
+      "open_access": false,
+      "full_text_accessed": false,
+      "note": "仅读摘要；反驳'无注意有意识'：注意是意识必要（非充分）条件",
+      "used_for": ["争议与反驳", "矛盾双方呈现"]
+    },
+    {
+      "id": "s06",
+      "citation": "Pitts MA, Metzler S, Hillyard SA (2014) Isolating neural correlates of conscious perception from neural correlates of reporting one's perception. Front Psychol 5:1078.",
+      "pmid": "25339922",
+      "pmcid": "PMC4194416",
+      "doi": "10.3389/fpsyg.2014.01078",
+      "journal": "Frontiers in Psychology",
+      "year": 2014,
+      "open_access": true,
+      "full_text_accessed": true,
+      "note": "PMC 全文开放；VAN vs P3b 的无报告范式分离；VAN 是比 P3b 更好的 NCC 候选",
+      "used_for": ["神经机制证据", "VAN与P3b时间解离"]
+    },
+    {
+      "id": "s07",
+      "citation": "Usher M, Bronfman ZZ, Talmor S, Jacobson H, Eitam B (2018) Consciousness without report: insights from summary statistics and inattention 'blindness'. Philos Trans R Soc B 373(1755):20170354.",
+      "pmid": "30061467",
+      "pmcid": "PMC6074079",
+      "doi": "10.1098/rstb.2017.0354",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 2018,
+      "open_access": true,
+      "full_text_accessed": true,
+      "note": "PMC 全文开放；摘要统计范式，弱溢出证据（67%颜色多样性辨别）",
+      "used_for": ["无注意有意识证据", "摘要统计感知"]
+    },
+    {
+      "id": "s08",
+      "citation": "Maier A, Tsuchiya N (2021) Growing evidence for separate neural mechanisms for attention and consciousness. Atten Percept Psychophys 83(2):558-79.",
+      "pmid": "33034851",
+      "doi": "10.3758/s13414-020-02146-4",
+      "journal": "Attention, Perception, & Psychophysics",
+      "year": 2021,
+      "open_access": false,
+      "full_text_accessed": false,
+      "note": "仅读摘要；综述2021年前的多尺度神经解离证据",
+      "used_for": ["综述级别证据", "多尺度解离框架"]
+    },
+    {
+      "id": "s09",
+      "citation": "Aru J, Bachmann T (2013) Phenomenal awareness can emerge without attention. Front Hum Neurosci 7:891.",
+      "pmid": "24391577",
+      "pmcid": "PMC3868908",
+      "doi": "10.3389/fnhum.2013.00891",
+      "journal": "Frontiers in Human Neuroscience",
+      "year": 2013,
+      "open_access": true,
+      "full_text_accessed": true,
+      "note": "PMC 全文开放；TMS磷光、梦、余像等现象支持无注意可有意识",
+      "used_for": ["无注意有意识证据", "TMS磷光范例"]
+    }
+  ],
+  "sources_summary": {
+    "total": 9,
+    "open_full_text": 4,
+    "abstract_only": 5,
+    "official_institutional": 1,
+    "coverage": "历史奠基性论文（1999, 2007, 2008, 2011, 2012, 2013）+ 近期综述（2018, 2021）"
+  }
+}

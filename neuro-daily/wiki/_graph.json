@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "node_count": 325,
   "edge_count": 1865,
   "edge_types": [
@@ -2951,6 +2951,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/anterior-commissure.md"
+    },
+    {
+      "id": "attention-consciousness-dissociation",
+      "title": "注意-意识双重解离",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/attention-consciousness-dissociation.md"
     }
   ],
   "edges": [
@@ -12915,6 +12924,56 @@
       "to": "anterior-commissure",
       "type": "related",
       "note": "两者共同构成主要联合纤维系统；CC 是进化后发，AC 更古老"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "visual-awareness-negativity",
+      "type": "supports"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "access-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "phenomenal-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "dorsal-attention-network",
+      "type": "related"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "integrated-information-theory",
+      "type": "related"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "recurrent-processing-theory",
+      "type": "related"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "attentional-blink",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "visual-awareness-negativity",
+      "to": "attention-consciousness-dissociation",
+      "type": "supports"
     }
   ],
   "dangling_references": [

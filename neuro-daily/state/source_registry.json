@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-10-04",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11855,9 +11855,107 @@
         "clinical translation gaps",
         "quantification gaps"
       ]
+    },
+    {
+      "id": "PMID:17129748",
+      "doi": "10.1016/j.tics.2006.10.012",
+      "title": "Attention and consciousness: two distinct brain processes",
+      "authors": "Koch C, Tsuchiya N",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2007,
+      "first_used": "2026-10-04",
+      "covered_aspects": [
+        "注意-意识概念框架",
+        "分析器/综合器模型",
+        "双重解离综述"
+      ]
+    },
+    {
+      "id": "PMID:18322110",
+      "doi": "10.1523/JNEUROSCI.4748-07.2008",
+      "title": "Neural dissociation between visual awareness and spatial attention",
+      "authors": "Wyart V, Tallon-Baudry C",
+      "journal": "Journal of Neuroscience",
+      "year": 2008,
+      "first_used": "2026-10-04",
+      "covered_aspects": [
+        "γ振荡双解离（54-64Hz意识，76-90Hz注意）",
+        "MEG神经机制证据",
+        "2×2设计"
+      ]
+    },
+    {
+      "id": "PMID:22078929",
+      "doi": "10.1016/j.tics.2011.11.001",
+      "title": "Perceptual consciousness overflows cognitive access",
+      "authors": "Block N",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2011,
+      "first_used": "2026-10-04",
+      "covered_aspects": [
+        "溢出假说",
+        "P-consciousness vs A-consciousness",
+        "图标记忆-意识关系"
+      ]
+    },
+    {
+      "id": "PMID:22795561",
+      "doi": "10.1016/j.tics.2012.06.013",
+      "title": "The attentional requirements of consciousness",
+      "authors": "Cohen MA, Cavanagh P, Chun MM, Nakayama K",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2012,
+      "first_used": "2026-10-04",
+      "covered_aspects": [
+        "注意是意识必要条件（反驳双重解离）",
+        "方法论批评",
+        "无注意有意识的反驳"
+      ]
+    },
+    {
+      "id": "PMID:33034851",
+      "doi": "10.3758/s13414-020-02146-4",
+      "title": "Growing evidence for separate neural mechanisms for attention and consciousness",
+      "authors": "Maier A, Tsuchiya N",
+      "journal": "Attention, Perception, & Psychophysics",
+      "year": 2021,
+      "first_used": "2026-10-04",
+      "covered_aspects": [
+        "多尺度神经解离综述（2021更新）",
+        "fMRI/EEG/MEG/单细胞证据",
+        "分离机制框架"
+      ]
+    },
+    {
+      "id": "PMID:10694957",
+      "doi": "10.1068/p281059",
+      "title": "Gorillas in our midst: sustained inattentional blindness for dynamic events",
+      "authors": "Simons DJ, Chabris CF",
+      "journal": "Perception",
+      "year": 1999,
+      "first_used": "2026-10-04",
+      "covered_aspects": [
+        "不注意盲视经典实验",
+        "隐形大猩猩范式",
+        "有意注意条件下的意识消失"
+      ]
+    },
+    {
+      "id": "PMID:24391577",
+      "pmcid": "PMC3868908",
+      "doi": "10.3389/fnhum.2013.00891",
+      "title": "Phenomenal awareness can emerge without attention",
+      "authors": "Aru J, Bachmann T",
+      "journal": "Frontiers in Human Neuroscience",
+      "year": 2013,
+      "first_used": "2026-10-04",
+      "covered_aspects": [
+        "无注意有意识综述（TMS磷光、梦、余像）",
+        "神经生物学证据"
+      ]
     }
   ],
-  "total_sources": 40,
+  "total_sources": 718,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -14210,6 +14308,20 @@
     "pending_confirmation": [
       "42090748",
       "41331515"
+    ]
+  },
+  "additions_2026-10-04": {
+    "date": "2026-10-04",
+    "article": "#164 注意-意识双重解离",
+    "added_count": 7,
+    "pmids": [
+      "PMID:17129748",
+      "PMID:18322110",
+      "PMID:22078929",
+      "PMID:22795561",
+      "PMID:33034851",
+      "PMID:10694957",
+      "PMID:24391577"
     ]
   }
 }

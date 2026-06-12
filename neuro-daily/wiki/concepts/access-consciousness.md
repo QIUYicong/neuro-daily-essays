@@ -9,11 +9,13 @@ created: 2026-09-30
 updated: 2026-09-30
 revision_count: 1
 dimensions: [cognition, whole-brain-network, behavior]
-related: [phenomenal-consciousness, higher-order-theory, global-workspace-theory, no-report-paradigm, neural-correlates-of-consciousness, working-memory]
+related: [phenomenal-consciousness, higher-order-theory, global-workspace-theory, no-report-paradigm, neural-correlates-of-consciousness, working-memory, attention-consciousness-dissociation]
 prerequisites: [neural-correlates-of-consciousness]
 opens_questions: [Q-ac-01]
-source_articles: [2026-09-30-higher-order-theory-no-report-consciousness]
-key_sources: ["PMID:30061466", "PMID:32409620", "PMID:21737339"]
+source_articles: [2026-09-30-higher-order-theory-no-report-consciousness, 2026-10-04-attention-consciousness-dissociation]
+key_sources: ["PMID:30061466", "PMID:32409620", "PMID:21737339", "PMID:22078929"]
+updated: 2026-10-04
+revision_count: 2
 ---
 
 # 通达意识 (Access Consciousness, A-consciousness)
@@ -89,6 +91,7 @@ A-consciousness 本质上是"信息的可通达性"：
 ## 修订历史
 
 - 2026-09-30 · 创建 · 基于《高阶意识理论与无报告范式》(#160) · 初始置信度：高（A-consciousness 的概念定义是高置信度的；神经基础和与 P-consciousness 的关系仍有争议）
+- 2026-10-04 · 修订 · 基于《注意不等于意识》(#164) · 补充 A vs P 区分与注意-意识解离的关系：注意-意识解离研究表明，A-consciousness（报告能力、P3b）和 P-consciousness（VAN）有不同的注意依赖性——A-consciousness 更强依赖注意资源，P-consciousness 可能在较少注意下即存在。新增 PMID:22078929（Block 2011 溢出论）到 key_sources。
 
 ## 来源文章
 

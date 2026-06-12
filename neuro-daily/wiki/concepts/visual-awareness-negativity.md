@@ -9,11 +9,13 @@ created: 2026-09-30
 updated: 2026-09-30
 revision_count: 1
 dimensions: [methods, cellular, brain-region, cognition]
-related: [no-report-paradigm, neural-correlates-of-consciousness, posterior-cortical-hot-zone, access-consciousness, p3-wave]
+related: [no-report-paradigm, neural-correlates-of-consciousness, posterior-cortical-hot-zone, access-consciousness, p3-wave, attention-consciousness-dissociation]
 prerequisites: [neural-correlates-of-consciousness, eeg-erp]
-opens_questions: [Q-van-01]
-source_articles: [2026-09-30-higher-order-theory-no-report-consciousness]
+opens_questions: [Q-van-01, Q-atcon-02]
+source_articles: [2026-09-30-higher-order-theory-no-report-consciousness, 2026-10-04-attention-consciousness-dissociation]
 key_sources: ["PMID:25339922", "PMID:32409620", "PMID:35634201"]
+updated: 2026-10-04
+revision_count: 2
 ---
 
 # 视觉意识负波 (Visual Awareness Negativity, VAN)
@@ -79,6 +81,7 @@ P3b 由以下过程产生（均为意识的"下游"后知觉过程）：
 - [[neural-correlates-of-consciousness]] — VAN 是当前最佳候选 NCC ERP 成分之一
 - [[posterior-cortical-hot-zone]] — VAN 的后枕分布与 PCHZ 的解剖预测一致
 - [[p3-wave]] — P3b 是 VAN 的主要竞争者，已被无报告范式研究"证伪"为意识 NCC
+- [[attention-consciousness-dissociation]] — VAN 是注意-意识解离最重要的 ERP 神经指纹：VAN 在无报告条件（减少报告相关注意）下仍存在，提示 VAN 比 P3b 更接近意识本身而非注意/报告过程
 
 ## 未解问题
 
@@ -87,6 +90,7 @@ P3b 由以下过程产生（均为意识的"下游"后知觉过程）：
 ## 修订历史
 
 - 2026-09-30 · 创建 · 基于《高阶意识理论与无报告范式》(#160) · 初始置信度：中（VAN 报告独立性是高置信度发现；但它是否是"纯意识 NCC"仍存争议）
+- 2026-10-04 · 修订 · 基于《注意不等于意识》(#164) · 补充 VAN 与注意-意识解离框架的连接：VAN 在无注意/报告条件下存在，提示它比 P3b 更接近 P-consciousness 而非注意的反映；新增 Q-atcon-02 开放问题（VAN 中注意成分的比例）
 
 ## 来源文章
 

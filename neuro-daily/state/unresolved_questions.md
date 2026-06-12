@@ -1,6 +1,39 @@
 # 未解问题追踪
 
-*最后更新：2026-10-03*
+*最后更新：2026-10-04*
+
+---
+
+## 2026-10-04 新增（来自"注意不等于意识" #164）
+
+### Q-atcon-01（高优先级）：如何设计范式证明注意真的为零？
+
+- **关联 wiki**：[[attention-consciousness-dissociation]]、[[visual-awareness-negativity]]
+- **来源文章**：2026-10-04-attention-consciousness-dissociation
+- **问题**：Cohen et al.（2012，PMID:22795561）的核心反驳是：所有声称"无注意有意识"的实验都无法排除注意的残余。要证伪这一反驳，需要一种能把注意真正降到零的实验设计。
+  - 技术选项 A：用 pRF（population receptive field）模型精确量化某个皮层区域的注意增益，确认其为零，同时测量意识
+  - 技术选项 B：在完全无法主动引导注意的 LIS/MCS 患者中测量 VAN 的存在性
+  - 技术选项 C：使用高分辨率 fMRI 解码注意编码（分类器置信度作为注意量化）与意识同时测量，找注意解码接近机遇时的意识状态
+- **当前证据状态**：无直接实验；Cohen et al. 的批评未被直接回应
+
+### Q-atcon-02（中优先级）：VAN 中有多少是真正意识成分，有多少是内隐注意成分？
+
+- **关联 wiki**：[[visual-awareness-negativity]]、[[attention-consciousness-dissociation]]
+- **来源文章**：2026-10-04-attention-consciousness-dissociation
+- **问题**：Duman et al.（2022，PMID:35634201）指出，即使在"无报告"条件下，被试可能仍然对刺激有内隐注意。VAN 可能混合了意识信号和注意信号。
+  - 问题 A：是否可以在完全无注意条件下（比如注意已被另一个任务完全饱和，且用行为+fMRI 双重验证注意确实不在刺激上）测量 VAN？
+  - 问题 B：VAN 是否能用颅内 EEG（SEEG/iEEG）定位到具体皮层层次（V1-V4 vs 顶叶），从而与注意的上行前馈信号区分？
+- **当前证据状态**：理论批评已提出；直接实验验证尚缺
+
+### Q-atcon-03（中优先级）：溢出与稀疏争论能否被无报告神经成像解决？
+
+- **关联 wiki**：[[attention-consciousness-dissociation]]、[[phenomenal-consciousness]]、[[access-consciousness]]
+- **来源文章**：2026-10-04-attention-consciousness-dissociation
+- **问题**：Block 的溢出假说（P-consciousness 富于 A-consciousness）至今缺乏决定性的神经科学证据。
+  - 是否可以在睡眠中（无报告能力）测量"整体视觉场景"vs"聚焦细节"的神经表征差异，来区分溢出 vs 稀疏？
+  - Siclari et al. 2017 在睡眠中发现梦境内容与后方皮层高频活动对应——这能否扩展来测量"外周未注意区域"的意识？
+  - 非人灵长类的单神经元记录能否在 CFS 完全抑制下测量"被抑制刺激"对应神经元的活动模式，来区分有/无意识条件下的处理深度？
+- **当前证据状态**：Siclari 2017 提供了睡眠中意识的无报告测量方法；但"外周溢出"直接证据缺失
 
 ---
 

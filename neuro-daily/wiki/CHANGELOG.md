@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-10-04（文章 #164：注意不等于意识——探照灯与舞台灯光的神经科学分离）
+
+### 新创建页面（1 页）
+- `concepts/attention-consciousness-dissociation.md`（注意-意识双重解离）：整合了双重解离的两个方向（有注意无意识 / 无注意有意识）、γ 振荡双解离（54-64Hz 意识，76-90Hz 注意）、VAN/P3b 时间解离、fMRI 空间解离、Koch & Tsuchiya 2007 框架、Block 2011 溢出假说、Cohen et al. 2012 反驳；5 条来源（PMID:17129748, 18322110, 25339922, 22795561, 33034851）；状态 mainstream，置信度中。
+
+### 修订页面（2 页）
+- `concepts/visual-awareness-negativity.md`（revision_count: 1→2）：补充与注意-意识解离框架的连接；明确 VAN 在无报告条件下存在是它比 P3b 更接近 P-consciousness 的根据；新增 Q-atcon-02。
+- `concepts/access-consciousness.md`（revision_count: 1→2）：补充 A vs P 区分与注意-意识解离的关系；注意对 A-consciousness 和 P-consciousness 存在不对称依赖性；新增 PMID:22078929。
+
+### 新增悬空引用（待填）
+- `binocular-rivalry`：文章引用但尚无专页（候选主题）
+- `inattentional-blindness`：文章引用但尚无专页（候选主题）
+
+### 知识图谱更新
+- 新节点：attention-consciousness-dissociation（节点总数：327）
+- 新边：10 条（边总数：1883）
+
+---
+
 ## 2026-10-03（文章 #163：前连合——进化遗留的大脑渡口，裂脑意识整合的最后防线？）
 
 ### 新建 wiki 页面（1 页）

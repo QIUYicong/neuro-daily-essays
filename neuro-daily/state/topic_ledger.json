@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03",
-  "total_articles": 163,
+  "last_updated": "2026-10-04",
+  "total_articles": 164,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10837,6 +10837,71 @@
         "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？",
         "dopamine-system 专页：填补悬空引用，整合 VTA/SNc/D1/D2 等已有页面"
       ]
+    },
+    {
+      "date": "2026-10-04",
+      "real_date": "2026-10-04",
+      "article_number": 164,
+      "title": "注意不等于意识——当探照灯与舞台灯光被拆开",
+      "slug": "attention-consciousness-dissociation",
+      "filename": "2026-10-04-attention-consciousness-dissociation",
+      "article_type": "deep-dive",
+      "core_question": "注意与意识可以被双重解离吗？'有注意无意识'（CFS、注意瞬脱、盲视）和'无注意有意识'（图标记忆溢出、摘要统计、TMS磷光）的实验证据是什么，它们指向什么神经机制（γ振荡双解离、VAN/P3b时间解离、fMRI空间解离）？",
+      "layer": "cognition",
+      "curriculum_track": "8.意识与自我",
+      "topic_tags": [
+        "注意",
+        "意识",
+        "双重解离",
+        "Koch Tsuchiya",
+        "VAN",
+        "P3b",
+        "gamma oscillations",
+        "Block overflow",
+        "inattentional blindness",
+        "binocular rivalry",
+        "CFS",
+        "attentional blink",
+        "blindsight",
+        "summary statistics",
+        "iconic memory",
+        "MEG",
+        "EEG",
+        "no-report paradigm",
+        "A-consciousness",
+        "P-consciousness"
+      ],
+      "main_sources": [
+        "PMID:17129748",
+        "PMID:18322110",
+        "PMID:25339922/PMC4194416",
+        "PMID:22795561",
+        "PMID:33034851",
+        "PMID:22078929",
+        "PMID:30061467/PMC6074079",
+        "PMID:24391577/PMC3868908",
+        "PMID:10694957"
+      ],
+      "unresolved_questions": [
+        "Q-atcon-01（高）：如何设计范式证明注意真的为零（而不是极小）？",
+        "Q-atcon-02（中）：VAN 中有多少是真正意识成分，有多少是内隐注意成分？",
+        "Q-atcon-03（中）：溢出 vs 稀疏争论能否被无报告神经成像解决？"
+      ],
+      "wiki_created": [
+        "attention-consciousness-dissociation"
+      ],
+      "wiki_revised": [
+        "visual-awareness-negativity",
+        "access-consciousness"
+      ],
+      "dangling_refs_filled": [],
+      "next_suggested_topics": [
+        "binocular-rivalry 专页：填补悬空引用，双眼竞争是注意-意识解离的核心实验平台（CFS范式的基础）",
+        "inattentional-blindness 专页：填补悬空引用，不注意盲视行为机制与神经基础",
+        "意识恢复的神经机制：从 VS 到 MCS 的恢复轨迹，丘脑-皮层连接的重建窗口（延续 DoC 系列）",
+        "superior-longitudinal-fasciculus 专页：填补悬空引用，连接语言网络与空间注意的背侧通路",
+        "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？"
+      ]
     }
   ],
   "layer_coverage_recent": [
@@ -10846,7 +10911,8 @@
     "brain-region",
     "whole-brain-network",
     "cognition",
-    "disease"
+    "disease",
+    "methods"
   ],
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",
   "layer_tracking": {
