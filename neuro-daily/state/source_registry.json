@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11952,6 +11952,220 @@
       "covered_aspects": [
         "无注意有意识综述（TMS磷光、梦、余像）",
         "神经生物学证据"
+      ]
+    },
+    {
+      "id": "PMID:2772635",
+      "title": "Neuronal correlates of subjective visual perception",
+      "authors": "Logothetis NK, Schall JD",
+      "journal": "Science",
+      "year": 1989,
+      "open_access": false,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "perception-linked neurons",
+        "STS",
+        "single unit recording"
+      ]
+    },
+    {
+      "id": "PMID:9096407",
+      "title": "The role of temporal cortical areas in perceptual organization",
+      "authors": "Sheinberg DL, Logothetis NK",
+      "journal": "PNAS",
+      "year": 1997,
+      "pmcid": "PMC20383",
+      "open_access": true,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "IT cortex",
+        "V1",
+        "perceptual fidelity gradient"
+      ]
+    },
+    {
+      "id": "PMID:11036274",
+      "title": "Neuronal activity in human primary visual cortex correlates with perception during binocular rivalry",
+      "authors": "Polonsky A, Blake R, Braun J, Heeger DJ",
+      "journal": "Nature Neuroscience",
+      "year": 2000,
+      "open_access": false,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "V1",
+        "fMRI",
+        "perception tracking"
+      ]
+    },
+    {
+      "id": "PMID:16997612",
+      "title": "Neural bases of binocular rivalry",
+      "authors": "Tong F, Meng M, Blake R",
+      "journal": "Trends Cogn Sci",
+      "year": 2006,
+      "open_access": false,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "dual mechanism",
+        "perceptual suppression",
+        "adaptation aftereffects"
+      ]
+    },
+    {
+      "id": "PMID:17632508",
+      "title": "Hierarchy of cortical responses underlying binocular rivalry",
+      "authors": "Lee SH, Blake R, Heeger DJ",
+      "journal": "Nature Neuroscience",
+      "year": 2007,
+      "open_access": false,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "V1",
+        "attention gating",
+        "hierarchy"
+      ]
+    },
+    {
+      "id": "PMID:24639582",
+      "title": "Can binocular rivalry reveal neural correlates of consciousness?",
+      "authors": "Blake R, Brascamp J, Heeger DJ",
+      "journal": "Phil Trans R Soc B",
+      "year": 2014,
+      "pmcid": "PMC3965165",
+      "open_access": true,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "NCC",
+        "methodology critique",
+        "attention-awareness confusion"
+      ]
+    },
+    {
+      "id": "PMID:25749677",
+      "title": "The 'laws' of binocular rivalry: 50 years of Levelt's propositions",
+      "authors": "Brascamp JW, Klink PC, Levelt WJM",
+      "journal": "Vision Research",
+      "year": 2015,
+      "open_access": false,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "Levelt propositions",
+        "dominance duration",
+        "bistable perception"
+      ]
+    },
+    {
+      "id": "PMID:34369875",
+      "title": "Binocular rivalry reveals an out-of-equilibrium neural dynamics suited for decision-making",
+      "authors": "Cao R et al.",
+      "journal": "eLife",
+      "year": 2021,
+      "pmcid": "PMC8352598",
+      "open_access": true,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "hierarchical bistable model",
+        "gamma distribution",
+        "Levelt propositions"
+      ]
+    },
+    {
+      "id": "PMID:36609303",
+      "title": "Neural Dynamics during Binocular Rivalry: Indications from Human Lateral Geniculate Nucleus",
+      "authors": "Yildirim I, Schneider KA",
+      "journal": "eNeuro",
+      "year": 2023,
+      "pmcid": "PMC9840381",
+      "open_access": true,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "LGN",
+        "M pathway",
+        "P pathway",
+        "7T fMRI"
+      ]
+    },
+    {
+      "id": "PMID:37520732",
+      "title": "Does V1 response suppression initiate binocular rivalry?",
+      "authors": "Carlson BM et al.",
+      "journal": "iScience",
+      "year": 2023,
+      "pmcid": "PMC10382945",
+      "open_access": true,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "V1",
+        "adaptation",
+        "BRFS",
+        "flash suppression"
+      ]
+    },
+    {
+      "id": "PMID:25071685",
+      "title": "On the use of continuous flash suppression for the study of visual processing outside of awareness",
+      "authors": "Yang E, Brascamp J, Kang MS, Blake R",
+      "journal": "Front Psychol",
+      "year": 2014,
+      "pmcid": "PMC4093749",
+      "open_access": true,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "CFS",
+        "continuous flash suppression",
+        "unconscious processing",
+        "perceptual suppression"
+      ]
+    },
+    {
+      "id": "PMID:21775721",
+      "title": "Role of mutual inhibition in binocular rivalry",
+      "authors": "Seely J, Chow CC",
+      "journal": "J Neurophysiol",
+      "year": 2011,
+      "pmcid": "PMC3296268",
+      "open_access": true,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "covers": [
+        "binocular rivalry",
+        "mutual inhibition",
+        "adaptation",
+        "Levelt propositions",
+        "computational model"
       ]
     }
   ],

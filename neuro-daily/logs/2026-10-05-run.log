@@ -1,0 +1,158 @@
+# 运行日志 2026-10-05
+
+**逻辑日期**：2026-10-05（系统日期：2026-06-12）
+**文章编号**：#165（十月第5篇）
+**运行耗时**：本次会话
+
+---
+
+## 步骤执行摘要
+
+### 0. 同步状态
+- 分支：main（已同步 origin/main，HEAD = 64dafafd）
+- 工作目录干净，无未提交变更
+- ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md、neuro-daily/wiki/ 均存在 ✅
+
+### A. 读取状态
+- topic_ledger.json：last_updated=2026-10-04，total_articles=164，最后文章 #164 注意-意识解离
+- unresolved_questions.md：最新问题 Q-atcon-01 至 Q-atcon-03（注意-意识解离）
+- wiki/_graph.json：327 节点，1883 条边
+- 悬空引用：binocular-rivalry（#164 文章引用但无专页）、inattentional-blindness
+- contested_claims.json：检查（无新矛盾需裁决）
+
+### B. 选题
+- 优先级评估：
+  - 突破追踪：无最近7天重大新发现
+  - 裁决矛盾：无紧急 open 矛盾
+  - **填补悬空引用**：binocular-rivalry 被 #164 引用，优先级高 ✅
+  - 课程脊柱：自然延伸（视觉系统 + 意识 NCC 实验平台）
+- 选定：**双眼竞争（binocular rivalry）**——意识最小战场上的感知振荡机制
+- 核心问题：LGN→V1→IT 感知忠实度梯度；互相抑制-适应-噪声计算框架；NCC 方法论质疑
+- 层级：cellular / microcircuit / brain-region / whole-brain-network / cognition
+- 变化：从纯理论层（GWT/IIT/RPT/HOT）转向实验范式和机制层 ✅（避免连续4+天纯理论）
+
+### C. 检索与写作
+**主要检索查询**：
+1. "binocular rivalry neural mechanisms consciousness PubMed PMC open access review"
+2. "binocular rivalry V1 primary visual cortex perceptual suppression site:pubmed"
+3. "binocular rivalry Levelt propositions dominance duration"
+4. "binocular rivalry LGN lateral geniculate nucleus"
+5. "binocular rivalry stochastic switching adaptation inhibition neural model"
+6. "binocular rivalry CFS Tsuchiya Koch unconscious processing"
+
+**候选来源**（共 12 个，已采用全部）：
+- PMID:2772635（Logothetis & Schall 1989, Science）— 摘要
+- PMID:9096407（Sheinberg & Logothetis 1997, PNAS）— PMC20383 开放全文 ✅
+- PMID:11036274（Polonsky et al. 2000, Nat Neurosci）— 摘要
+- PMID:16997612（Tong et al. 2006, Trends Cogn Sci）— 摘要
+- PMID:17632508（Lee et al. 2007, Nat Neurosci）— 摘要
+- PMID:21775721（Seely & Chow 2011, J Neurophysiol）— PMC3296268 开放全文 ✅
+- PMID:24639582（Blake et al. 2014, Phil Trans R Soc B）— PMC3965165 开放全文 ✅
+- PMID:25749677（Brascamp et al. 2015, Vision Res）— 摘要
+- PMID:34369875（Cao et al. 2021, eLife）— PMC8352598 开放全文 ✅
+- PMID:36609303（Yildirim & Schneider 2023, eNeuro）— PMC9840381 开放全文 ✅
+- PMID:37520732（Carlson et al. 2023, iScience）— PMC10382945 开放全文 ✅
+- PMID:25071685（Yang et al. 2014, Front Psychol）— PMC4093749 开放全文 ✅
+
+**排除来源**：
+- bioRxiv 预印本（未使用）——优先已发表文献
+- 无法访问的付费论文内容（均只用摘要）
+
+**来源统计**：12 来源，7/12 开放全文（≥2 ✅），含 PNAS、eLife（NIH资助）、Society for Neuroscience 官方期刊（eNeuro）机构来源（≥1 ✅）
+
+**文章长度**：~5200 字（满足3000-6000词要求 ✅）
+**文章路径**：neuro-daily/articles/2026-10-05-binocular-rivalry-consciousness-mechanism.md
+**阅读笔记**：neuro-daily/notes/2026-10-05-reading-notes.md
+**来源文件**：neuro-daily/sources/2026-10-05-sources.json
+
+### D. Wiki 固结
+
+**新建页面（2 页）**：
+- `wiki/concepts/binocular-rivalry.md`：填补悬空引用，双眼竞争核心主页；Levelt 四定律、层级竞争机制、互相抑制-适应-噪声模型、CFS、NCC 方法论质疑；状态 established，置信度高；12 条来源
+- `wiki/systems/lateral-geniculate-nucleus.md`：LGN 组织结构（6层眼特异性）、M/P 通路、皮层-膝状体反馈、双眼竞争中 LGN 活动；状态 established，置信度高
+
+**修订页面（3 页）**：
+- `wiki/systems/v1-primary-visual-cortex.md`（rev 7→8）：新增双眼竞争 V1 角色争议、注意门控机制、适应替代触发机制
+- `wiki/systems/inferior-temporal-cortex.md`（rev 1→2）：新增感知忠实度梯度证据
+- `wiki/concepts/neural-correlates-of-consciousness.md`（rev 2→3）：新增双眼竞争作为 NCC 平台及其方法论质疑
+
+**矛盾检查**：无冲突（新证据与既有 wiki 主张方向一致，V1 fMRI vs 电生理的"矛盾"已由注意门控解释——属于机制层解释而非真实证据冲突）
+
+**成熟度评估**：binocular-rivalry=established, lateral-geniculate-nucleus=established
+
+### E. 图谱与导航更新
+- `wiki/_graph.json`：新增2节点（binocular-rivalry, lateral-geniculate-nucleus）、18条边；总计 329 节点，1901 条边；JSON 验证通过 ✅
+- `wiki/index.md`：新增双眼竞争（concepts）和 LGN（systems）条目；更新头部注释
+- `wiki/CHANGELOG.md`：新增 2026-10-05 完整条目
+
+### F. 治理层更新
+- `state/topic_ledger.json`：新增 #165 条目，total_articles → 165，last_updated → 2026-10-05 ✅
+- `state/unresolved_questions.md`：新增 Q-br-01 至 Q-br-04 ✅
+- `state/source_registry.json`：新增 12 条来源记录 ✅
+- `state/monthly_synthesis.md`：更新 10 月摘要（第5篇）✅
+
+### G. 自检结果
+
+**真实性** ✅
+- 所有 wiki 新主张均有 PMID 来源
+- 区分了 established（Sheinberg 1997 V1/IT 梯度）/ mainstream（V1 fMRI 解释）/ emerging（LGN 活动的机制来源）/ contested（双眼竞争能否揭示 NCC）
+- 明确标注了哪些来源只读摘要（5/12）
+
+**一致性** ✅
+- 新内容（V1 在双眼竞争中的 fMRI 调制）与既有 V1 wiki 页一致：V1 fMRI 模拟中已有注意调制的记录，新增双眼竞争相关活动与注意门控在同一框架下
+- 所有修订页的 updated/revision_count/修订历史已同步
+- _graph.json 无悬空边（所有新边的 from/to 均有对应节点）
+
+**可导航** ✅
+- index.md 和 CHANGELOG.md 均反映今天变化
+- 所有新页的 related/prerequisites 均已填写
+
+**情景层完整** ✅
+- 文章/笔记/来源/日志均已创建
+- 未修改任何旧文章/笔记/来源文件
+
+### H. Git 提交与推送
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-10-05
+- 目标：origin/main（直接推送到 main，符合 ROUTINE.md 单分支策略）
+- push 状态：[待补充 commit hash]
+
+---
+
+## 来源质量统计
+
+| 来源 | PMID | 期刊 | 开放状态 |
+|------|------|------|---------|
+| Logothetis & Schall 1989 | 2772635 | Science | 摘要 |
+| Sheinberg & Logothetis 1997 | 9096407 | PNAS | ✅ PMC20383 |
+| Polonsky et al. 2000 | 11036274 | Nat Neurosci | 摘要 |
+| Tong, Meng, Blake 2006 | 16997612 | Trends Cogn Sci | 摘要 |
+| Lee, Blake, Heeger 2007 | 17632508 | Nat Neurosci | 摘要 |
+| Seely & Chow 2011 | 21775721 | J Neurophysiol | ✅ PMC3296268 |
+| Blake, Brascamp, Heeger 2014 | 24639582 | Phil Trans R Soc B | ✅ PMC3965165 |
+| Brascamp, Klink, Levelt 2015 | 25749677 | Vision Res | 摘要 |
+| Cao et al. 2021 | 34369875 | eLife | ✅ PMC8352598 |
+| Yildirim & Schneider 2023 | 36609303 | eNeuro | ✅ PMC9840381 |
+| Carlson et al. 2023 | 37520732 | iScience | ✅ PMC10382945 |
+| Yang et al. 2014 | 25071685 | Front Psychol | ✅ PMC4093749 |
+
+开放全文：7/12（≥2 ✅）；官方/机构来源：eNeuro（SfN）、PNAS（NAS）、eLife ✅
+
+---
+
+## 知识图谱状态
+
+- 节点总数：329
+- 边总数：1901
+- 今日新节点：binocular-rivalry, lateral-geniculate-nucleus
+- 今日新边：18 条
+- 填补悬空引用：binocular-rivalry ✅
+- 剩余悬空引用（来自图谱）：aging, cognition, dopamine-system, superior-longitudinal-fasciculus, inattentional-blindness
+
+---
+
+## 备注
+
+- 无编造来源：所有 PMID 均通过 PubMed 验证 ✅
+- 无医疗建议：文章仅描述实验机制，无诊疗建议 ✅
+- 不确定性标注：明确说明 LGN 活动的机制来源为 open question；注意-意识分离实验的方法论局限性已充分说明 ✅
+- 动物研究推广：猴子数据（Logothetis/Sheinberg）标注为灵长类，不直接外推到人类而只说明梯度规律 ✅

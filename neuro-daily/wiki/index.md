@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-04（**#164** 注意-意识双重解离——γ振荡双解离、VAN/P3b时间解离、Block溢出 vs Cohen必要条件争论；新建1页：attention-consciousness-dissociation；修订2页：VAN rev2, access-consciousness rev2；图谱 327 节点，1883 边）· 主题页总数：**305**
+> 最后更新：2026-10-05（**#165** 双眼竞争——感知层级竞争机制（LGN→V1→IT梯度）、Levelt 四定律、互相抑制-适应-噪声模型、CFS；新建2页：binocular-rivalry, lateral-geniculate-nucleus；修订4页：V1 rev8, IT rev2, NCC rev3, CHANGELOG；填补悬空引用 binocular-rivalry ✅；图谱 329 节点，1901 边）· 主题页总数：**307**
 
 ---
 
@@ -221,6 +221,7 @@
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据；Siclari 2017 NREM 睡眠后方顶枕热区 87% 梦境预测（最强无报告 NCC 证据）**[修订 rev3 2026-09-30 #160]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [视觉意识负波（VAN）](concepts/visual-awareness-negativity.md) — 100-300ms 后枕区负波；有意识时出现、无报告时仍持续（vs P3b 无报告时消失）；Pitts 2014 掩蔽×任务无关 2×2 确立；跨模态版本（PAN）；RPT 递归信号 vs 注意调制神经发生器争议 **[NEW 2026-09-30 #160 · 修订 2026-10-04 #164]**
+- 🟢 [双眼竞争](concepts/binocular-rivalry.md) — 物理刺激固定而感知周期性交替的意识分离器；层级竞争机制（LGN M/P 层 → V1 20% 电生理 vs 55% fMRI → IT 几乎全部神经元追踪感知）；Levelt 四定律；互相抑制-适应-噪声模型；Gamma 分布主导期；CFS 无意识加工；Blake et al. 2014 的四条 NCC 方法论质疑 **[NEW 2026-10-05 #165]**
 - 🔵 [注意-意识双重解离](concepts/attention-consciousness-dissociation.md) — 注意（分析器）≠ 意识（综合器）；有注意无意识（CFS/双眼竞争/注意瞬脱/盲视）；无注意有意识（图标记忆溢出/摘要统计/TMS磷光）；γ振荡双解离（54-64Hz=意识，76-90Hz=注意，Wyart 2008）；VAN/P3b时间解离；Block溢出假说 vs Cohen必要条件；状态：mainstream，置信度：中 **[NEW 2026-10-04 #164]**
 - 🔵 [认知运动解离（CMD）](concepts/cognitive-motor-dissociation.md) — 无行为输出但 fMRI/EEG 检测到任务相关神经激活；15–25% DoC 患者阳性（Claassen 2019 PMID:31242361；Bodien 2024 NEJM）；CMD 阳性者 12 个月恢复率 44% vs 14%（OR=4.6）；终极无报告范式 **[NEW 2026-10-02 #162]**
 - 🟢 [通达意识（A-consciousness）](concepts/access-consciousness.md) — Block 1995 区分：信息可被认知系统使用/报告即为通达意识；P3b 是 A-consciousness NCC（无报告时消失）；GWT 广播描述的是 A-consciousness；HOT 的高阶表征使 A-consciousness 成为 P-consciousness 的必要条件；溢出争议（P>A？） **[NEW 2026-09-30 #160]**
@@ -287,7 +288,8 @@
 - 🔵 [DLPFC 规则编码](concepts/dlpfc-rule-encoding.md) — 分布式高维动态编码；偏置信号框架（Miller & Cohen 2001）；动态状态轨迹维持规则（Stokes 2013）；人类 24% 神经元规则选择性左半球优势；跨物种保守（猕猴 area 46） **[NEW 2026-08-30 #130]**
 - 🔵 [额叶认知控制层级](concepts/frontal-hierarchy.md) — 前后轴层级：BA46（情境级）→IFS（维度级）→PrePMd（特征级）→M1（反应级）；Badre 2009 病变双解离证据；离散层级 vs 连续梯度争议 **[NEW 2026-08-30 #130]**
 - 🟢 [眶额叶皮层（OFC）](systems/orbitofrontal-cortex.md) — 大脑"估价系统"；三类商品价值神经元（Padoa-Schioppa 2006）；Rangel 2008 三系统框架中目标导向系统的价值输入源；OFC→NAc 投射为 actor-critic 批评家提供 V(s)；Hattori 2023 CaMKII 元学习扩展；**lOFC⇄BLA 四向协作回路（Wassum 2022）**；vmPFC/dlPFC 自我控制回路（Hare 2009）（修订rev2 2026-07-30 #98）**[NEW 2026-07-29 #97]**
-- 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订6次）
+- 🟢 [外侧膝状核（LGN）](systems/lateral-geniculate-nucleus.md) — 丘脑视觉子核；6层眼特异性分层（灵长类）；大细胞（M/运动）+ 小细胞（P/颜色形状）通路分流；皮层-膝状体反馈数量超过前馈；双眼竞争中 M/P 层均参与感知相关活动（Yildirim & Schneider 2023） **[NEW 2026-10-05 #165]**
+- 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）；双眼竞争中 V1 的 fMRI 调制 vs 电生理悖论：注意门控解释（修订8次）
 - 🟢 [V4 视觉区](systems/v4-visual-area.md) — 腹侧流中间节点；在物体中心坐标系对边界形状（曲率×角度）进行选择性调谐；区分真实 vs. 遮挡轮廓；平均响应潜伏期 76.6 ms；多维联合调谐（形状×颜色×纹理×深度）；位置不变性的起始点 **[NEW 2026-08-16 #115]**
 - 🟢 [颞下皮层（IT）](systems/inferior-temporal-cortex.md) — 腹侧流最高级视觉区；四阶段偏心率框架（Conway 2018）；选择性与不变性同时增加但稀疏度守恒（~10%，Rust & DiCarlo 2012）；面孔块层级（ML/MF→AM 视角特异→不变）；分布式编码与局部专门化并存 **[NEW 2026-08-16 #115]**
 - 🟢 [面孔块系统](systems/face-patch-system.md) — 猕猴 IT 皮层中 6 个面孔高选择性区域（PL/ML/MF/AF/AL/AM）；从视角特异（ML/MF: 97% 面孔选择性）到视角不变（AM: 73% 身份调谐）的清晰功能梯度（Freiwald & Tsao 2010）；不变量面孔识别的层级神经底物 **[NEW 2026-08-16 #115]**

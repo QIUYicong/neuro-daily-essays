@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-10-05（文章 #165：感知的最小战场——双眼竞争如何让意识的门槛暴露在显微镜下）
+
+### 新创建页面（2 页）
+- `concepts/binocular-rivalry.md`（双眼竞争）：**填补悬空引用**（#164 中悬空）。竞争现象学（Levelt 四定律、Gamma 分布主导期）、层级竞争机制（LGN→V1→IT 感知忠实度梯度）、互相抑制-适应-噪声计算模型（Seely & Chow 2011）、层级双稳变量模型（Cao et al. 2021）、CFS 扩展应用（Yang et al. 2014）、Blake et al. 2014 的四条方法论质疑；12 条来源（PMID:2772635/9096407/11036274/16997612/17632508/24639582/25749677/34369875/36609303/37520732/25071685/21775721）；6 条开放全文。
+- `systems/lateral-geniculate-nucleus.md`（外侧膝状核）：LGN 组织（6 层眼特异性分层、M/P 通路）、皮层-膝状体反馈、双眼竞争中的 LGN 活动（Yildirim & Schneider 2023，M/P 均参与）；状态 established，置信度高。
+
+### 修订页面（4 页）
+- `systems/v1-primary-visual-cortex.md`（revision 7→8）：新增双眼竞争中 V1 角色的争议（fMRI 55% vs 电生理 20%）；注意门控 V1→高级区的证据（Lee et al. 2007, PMID:17632508）；V1 适应替代触发机制（Carlson et al. 2023, PMID:37520732）；related 新增 binocular-rivalry, lateral-geniculate-nucleus。
+- `systems/inferior-temporal-cortex.md`（revision 1→2）：新增双眼竞争的感知忠实度梯度（Sheinberg & Logothetis 1997：几乎所有 IT 神经元追踪感知而非物理刺激）；related 新增 binocular-rivalry, neural-correlates-of-consciousness。
+- `concepts/neural-correlates-of-consciousness.md`（revision 2→3）：新增双眼竞争作为 NCC 研究平台；补充 Blake et al. 2014 四条质疑（方法论局限）；related 新增 binocular-rivalry, attention-consciousness-dissociation, inferior-temporal-cortex。
+
+### 填补悬空引用
+- `binocular-rivalry`：已创建专页，悬空引用解决 ✅
+
+### 知识图谱更新
+- 新节点：binocular-rivalry, lateral-geniculate-nucleus（节点总数：329）
+- 新边：18 条（边总数：1901）
+
+---
+
 ## 2026-10-04（文章 #164：注意不等于意识——探照灯与舞台灯光的神经科学分离）
 
 ### 新创建页面（1 页）

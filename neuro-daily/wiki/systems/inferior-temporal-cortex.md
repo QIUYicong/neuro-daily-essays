@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-08-16
-updated: 2026-08-16
-revision_count: 1
+updated: 2026-10-05
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [v4-visual-area, v1-primary-visual-cortex, face-patch-system, invariant-object-recognition, prefrontal-cortex, amygdala, entorhinal-cortex, dorsal-visual-stream, area-MT-V5]
+related: [v4-visual-area, v1-primary-visual-cortex, face-patch-system, invariant-object-recognition, prefrontal-cortex, amygdala, entorhinal-cortex, dorsal-visual-stream, area-MT-V5, binocular-rivalry, neural-correlates-of-consciousness]
 prerequisites: [v1-primary-visual-cortex, v4-visual-area, action-potential]
 opens_questions: [Q-it-01, Q-it-02, Q-it-03]
-source_articles: [2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition]
-key_sources: ["PMID:30059648", "PMID:21051642", "PMID:22836252"]
+source_articles: [2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition, 2026-10-05-binocular-rivalry-consciousness-mechanism]
+key_sources: ["PMID:30059648", "PMID:21051642", "PMID:22836252", "PMID:9096407", "PMID:2772635"]
 ---
 
 # 颞下皮层 (Inferior Temporal Cortex, IT)
@@ -81,8 +81,10 @@ IT 皮层的组织原则基于偏心率（eccentricity）模板：中央凹表�
 
 ## 修订历史
 
+- 2026-10-05 · 修订 rev2 · 基于《感知的最小战场：双眼竞争》(#165) · 新增"双眼竞争中的感知忠实度梯度"：IT 皮层几乎所有神经元跟随感知而非物理刺激（Sheinberg & Logothetis 1997, PMID:9096407）；related 新增 binocular-rivalry, neural-correlates-of-consciousness；key_sources 新增 PMID:9096407, PMID:2772635
 - 2026-08-16 · 创建 · 基于《从线条到身份：腹侧视觉流如何解决不变量物体识别的核心难题》 · 初始置信度：高（IT 的总体组织和功能为 established；具体颜色功能假说为 emerging）
 
 ## 来源文章
 
 - [[2026-08-16-inferotemporal-cortex-ventral-stream-object-recognition]]
+- [[2026-10-05-binocular-rivalry-consciousness-mechanism]]

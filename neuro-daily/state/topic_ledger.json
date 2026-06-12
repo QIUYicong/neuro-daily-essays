@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-04",
-  "total_articles": 164,
+  "last_updated": "2026-10-05",
+  "total_articles": 165,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10902,6 +10902,94 @@
         "superior-longitudinal-fasciculus 专页：填补悬空引用，连接语言网络与空间注意的背侧通路",
         "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？"
       ]
+    },
+    {
+      "date": "2026-10-05",
+      "real_date": "2026-06-12",
+      "article_number": 165,
+      "title": "感知的最小战场：双眼竞争如何让意识的门槛暴露在显微镜下",
+      "slug": "binocular-rivalry-consciousness-mechanism",
+      "filename": "2026-10-05-binocular-rivalry-consciousness-mechanism.md",
+      "article_type": "regular",
+      "core_question": "当两只眼接收矛盾图像时，大脑的竞争机制沿视觉层级如何展开（LGN→V1→IT），由什么计算机制驱动（互相抑制、适应、噪声），以及双眼竞争是否真正揭示了意识的神经相关物（NCC）？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "methods"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（视觉系统）→ 8. 意识与自我（NCC 实验平台）",
+      "topic_tags": [
+        "binocular rivalry",
+        "perceptual bistability",
+        "neural correlates of consciousness",
+        "NCC",
+        "V1",
+        "LGN",
+        "lateral geniculate nucleus",
+        "inferior temporal cortex",
+        "IT cortex",
+        "perceptual suppression",
+        "mutual inhibition",
+        "neural adaptation",
+        "winner-take-all",
+        "Levelt propositions",
+        "dominance duration",
+        "gamma distribution",
+        "continuous flash suppression",
+        "CFS",
+        "conscious perception",
+        "ventral visual stream",
+        "attention gating",
+        "perceptual fidelity gradient",
+        "Sheinberg Logothetis",
+        "stochastic switching"
+      ],
+      "main_sources": [
+        "PMID:2772635",
+        "PMID:9096407",
+        "PMID:11036274",
+        "PMID:16997612",
+        "PMID:17632508",
+        "PMID:24639582 (PMC3965165)",
+        "PMID:25749677",
+        "PMID:34369875 (PMC8352598)",
+        "PMID:36609303 (PMC9840381)",
+        "PMID:37520732 (PMC10382945)",
+        "PMID:25071685 (PMC4093749)",
+        "PMID:21775721 (PMC3296268)"
+      ],
+      "unresolved_questions": [
+        "Q-br-01: V1 竞争活动来自局部回路还是高级皮层反馈？",
+        "Q-br-02: LGN 竞争活动是局部机制还是皮层-膝状体反馈镜像？",
+        "Q-br-03: 切换速度可否作为精神/神经障碍生物标志物？",
+        "Q-br-04: AI 系统面对双眼竞争类刺激是否存在竞争动力学？"
+      ],
+      "next_suggested_topics": [
+        "inattentional-blindness 专页：填补悬空引用，不注意盲视行为机制与神经基础",
+        "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？",
+        "superior-longitudinal-fasciculus 专页：填补悬空引用（图谱悬空）",
+        "多稳感知（perceptual multistability）更广泛综述：纳克方块、运动诱导盲与双眼竞争的统一框架",
+        "恐惧记忆与杏仁核：课程轨道 6（情绪与动机）的开始，从意识研究转向情绪回路"
+      ],
+      "wiki_changes": {
+        "new_pages": [
+          "binocular-rivalry",
+          "lateral-geniculate-nucleus"
+        ],
+        "revised_pages": [
+          "v1-primary-visual-cortex",
+          "inferior-temporal-cortex",
+          "neural-correlates-of-consciousness"
+        ],
+        "graph_nodes_added": 2,
+        "graph_edges_added": 18,
+        "dangling_references_resolved": [
+          "binocular-rivalry"
+        ]
+      }
     }
   ],
   "layer_coverage_recent": [
@@ -10942,5 +11030,13 @@
     "disease": [
       "2026-06-03"
     ]
+  },
+  "layer_coverage": {
+    "cellular": 1,
+    "microcircuit": 1,
+    "brain-region": 1,
+    "whole-brain-network": 1,
+    "cognition": 1,
+    "methods": 1
   }
 }

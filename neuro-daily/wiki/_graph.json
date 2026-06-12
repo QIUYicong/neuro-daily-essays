@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "node_count": 325,
   "edge_count": 1865,
   "edge_types": [
@@ -2960,6 +2960,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/attention-consciousness-dissociation.md"
+    },
+    {
+      "id": "binocular-rivalry",
+      "title": "双眼竞争",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/binocular-rivalry.md"
+    },
+    {
+      "id": "lateral-geniculate-nucleus",
+      "title": "外侧膝状核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/lateral-geniculate-nucleus.md"
     }
   ],
   "edges": [
@@ -12974,6 +12992,96 @@
       "from": "visual-awareness-negativity",
       "to": "attention-consciousness-dissociation",
       "type": "supports"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "attention-consciousness-dissociation",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "inferior-temporal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "lateral-geniculate-nucleus",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "recurrent-processing-theory",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "access-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "lateral-geniculate-nucleus",
+      "to": "v1-primary-visual-cortex",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "lateral-geniculate-nucleus",
+      "to": "thalamus",
+      "type": "part-of"
+    },
+    {
+      "from": "lateral-geniculate-nucleus",
+      "to": "thalamocortical-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "lateral-geniculate-nucleus",
+      "to": "binocular-rivalry",
+      "type": "related"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "binocular-rivalry",
+      "type": "related"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "lateral-geniculate-nucleus",
+      "type": "related"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "binocular-rivalry",
+      "type": "related"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "binocular-rivalry",
+      "type": "related"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "binocular-rivalry",
+      "type": "related"
     }
   ],
   "dangling_references": [
