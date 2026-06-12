@@ -268,6 +268,14 @@
       "last_changed": "2026-09-24",
       "change_reason": "新建页面；基于Corbetta & Shulman 2011（PMID:21692662）等6篇开放全文；忽视的网络失衡框架（VAN损伤→DAN失衡）高可信；STG vs IPL解剖争论记为Q-neglect-01",
       "source_article": "2026-09-24-hemispatial-neglect-attention-imbalance"
+    },
+    {
+      "slug": "attention-consciousness-dissociation",
+      "title": "注意-意识双重解离",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-10-04",
+      "reason": "创建于第164篇文章。行为层面的双重解离证据（Koch & Tsuchiya 2007）和神经机制证据（van Boxtel 2017对比/响应增益；Maier & Tsuchiya 2021综述；MacLean 2023元分析；Fu & Rutishauser 2018单神经元）均达到多独立实验室的汇聚水平，但'无注意有意识'（GWT vs RPT）方向的理论解读仍有争议，因此 confidence=medium（行为现象高置信，理论框架中置信）。"
     }
   ],
   "last_updated": "2026-09-25",

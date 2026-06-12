@@ -6,15 +6,14 @@ type: concept
 status: mainstream
 confidence: high
 created: 2026-06-27
-updated: 2026-06-27
-revision_count: 2
-updated: 2026-10-02
+updated: 2026-10-04
+revision_count: 3
 dimensions: [whole-brain-network, brain-region, cognition, disease]
-related: [global-workspace-theory, integrated-information-theory, predictive-coding, consciousness-ignition, posterior-cortical-hot-zone, phi-measure, perturbational-complexity-index, prefrontal-cortex, v1-primary-visual-cortex, recurrent-processing-theory, disorders-of-consciousness, cognitive-motor-dissociation]
+related: [global-workspace-theory, integrated-information-theory, predictive-coding, consciousness-ignition, posterior-cortical-hot-zone, phi-measure, perturbational-complexity-index, prefrontal-cortex, v1-primary-visual-cortex, recurrent-processing-theory, disorders-of-consciousness, cognitive-motor-dissociation, attention-consciousness-dissociation, dorsal-attention-network]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex]
 opens_questions: [Q-ncc-01, Q-ncc-02, Q-ncc-03]
-source_articles: [2026-06-27-ncc-consciousness-where, 2026-10-02-disorders-of-consciousness-spectrum-clinical-theories]
-key_sources: ["PMID:27094080", "PMC4960249", "PMID:40307561", "PMCID:PMC5628406", "PMID:32135090", "PMID:27717082", "PMID:31242361"]
+source_articles: [2026-06-27-ncc-consciousness-where, 2026-10-02-disorders-of-consciousness-spectrum-clinical-theories, 2026-10-04-attention-consciousness-dissociation]
+key_sources: ["PMID:27094080", "PMC4960249", "PMID:40307561", "PMCID:PMC5628406", "PMID:32135090", "PMID:27717082", "PMID:31242361", "PMID:37030413", "PMID:17129748"]
 ---
 
 # 意识的神经相关物 (Neural Correlates of Consciousness, NCC)
@@ -98,8 +97,10 @@ Koch 等人（2016, PMID:27094080）进一步区分了三类常被混淆的神�
 - 2026-06-27 · 创建 · 基于《意识在哪里？》(#63) · 首次将 NCC 作为独立概念建页；整合了 COGITATE 2025 实验裁决结果和 Koch 等（2016）三分法；初始置信度：高（NCC 纲领的价值和框架是 established，但具体机制仍 emerging/contested）
 - 2026-09-28 · 修订 · 基于《前馈与递归：RPT》(#158) · 新增 recurrent-processing-theory 到 related 和连接节；RPT 代表了第三种 NCC 机制框架（后方皮层递归，区别于 GWT 的前额广播和 IIT 的 Φ）
 - 2026-10-02 · 修订 · 基于《意识障碍的临床谱系》(#162) · 新增 disorders-of-consciousness 和 cognitive-motor-dissociation 到 related（DoC 患者是检验 NCC 的终极临床数据集）；补充 Casarotto 2016（PMID:27717082）和 Claassen 2019（PMID:31242361）到 key_sources（CMD 是 NCC 研究的自然无报告范式）
+- 2026-10-04 · rev3 · 基于《注意与意识双重解离》(#164) · 新增方法论视角：MacLean et al. 2023 元分析（PMID:37030413）证明有意识激活IFJ/前额顶叶，无意识激活LOC/后颞枕——这直接为NCC研究提供了区分注意网络（DAN/VAN）和意识网络（后皮层热区/全局广播网络）的影像学基础；Koch & Tsuchiya 2007（PMID:17129748）提出测量NCC的前提是独立操控注意和意识；新增 attention-consciousness-dissociation、dorsal-attention-network 到 related
 
 ## 来源文章
 
 - [[2026-06-27-ncc-consciousness-where]]
 - [[2026-10-02-disorders-of-consciousness-spectrum-clinical-theories]]
+- [[2026-10-04-attention-consciousness-dissociation]]

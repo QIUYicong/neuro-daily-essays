@@ -6,13 +6,13 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-05-31
-updated: 2026-05-31
-revision_count: 1
+updated: 2026-10-04
+revision_count: 2
 dimensions: [behavior, cognition, whole-brain-network, brain-region]
-related: [global-workspace-theory, consciousness-ignition, working-memory, prefrontal-cortex, p3-wave, gamma-oscillations, competition-selection-principle]
+related: [global-workspace-theory, consciousness-ignition, working-memory, prefrontal-cortex, p3-wave, gamma-oscillations, competition-selection-principle, attention-consciousness-dissociation]
 prerequisites: [global-workspace-theory, consciousness-ignition, working-memory]
 opens_questions: [Q-ab-01, Q-ab-02, Q-ab-03, Q-ab-04, Q-gwt-01, Q-gwt-02, Q-cogitate-02]
-source_articles: [2026-05-31-attentional-blink]
+source_articles: [2026-05-31-attentional-blink, 2026-10-04-attention-consciousness-dissociation]
 key_sources: ["PMID:7707027", "PMID:15482443", "PMID:16158062", "PMID:16603406", "PMID:29100736", "PMID:34435621", "PMID:36220535", "PMID:40310881", "PMC10784117"]
 ---
 
@@ -84,6 +84,7 @@ Noorman et al. 2025（PMID:40310881, eLife，开放全文）：
 - [[working-memory]] — Chun & Potter 1995 的 Stage 2 巩固即工作记忆编码
 - [[prefrontal-cortex]] — 前额顶叶浪涌（~270ms）是注意瞬盲中有意识知觉的关键神经标志
 - [[competition-selection-principle]] — 注意瞬盲是工作空间竞争-遴选最典型的行为体现
+- [[attention-consciousness-dissociation]] — 注意瞬盲是"有注意无意识"方向的核心范式之一
 
 ## 未解问题
 
@@ -98,7 +99,9 @@ Noorman et al. 2025（PMID:40310881, eLife，开放全文）：
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《注意瞬盲：当意识成为稀缺资源》(#36) · 初始置信度：高（行为现象高度可靠；神经机制 mainstream；全有全无 vs 梯度争议标记为 contested）
+- 2026-10-04 · rev2 · 补充注意-意识双重解离视角：将注意瞬盲明确定位为"有注意无意识"的核心范式，Fu & Rutishauser 2018 MTL单神经元证据已在证据表中，本次更新连接至新建 attention-consciousness-dissociation 页面
 
 ## 来源文章
 
 - [[2026-05-31-attentional-blink]]
+- [[2026-10-04-attention-consciousness-dissociation]]

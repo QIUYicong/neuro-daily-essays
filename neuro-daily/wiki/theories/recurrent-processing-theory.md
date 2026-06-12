@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-09-28
-updated: 2026-09-30
-revision_count: 2
+updated: 2026-10-04
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [global-workspace-theory, integrated-information-theory, neural-correlates-of-consciousness, posterior-cortical-hot-zone, consciousness-ignition, v1-primary-visual-cortex, figure-ground-segregation, predictive-coding, no-report-paradigm, higher-order-theory, visual-awareness-negativity, phenomenal-consciousness]
+related: [global-workspace-theory, integrated-information-theory, neural-correlates-of-consciousness, posterior-cortical-hot-zone, consciousness-ignition, v1-primary-visual-cortex, figure-ground-segregation, predictive-coding, no-report-paradigm, higher-order-theory, visual-awareness-negativity, phenomenal-consciousness, attention-consciousness-dissociation]
 prerequisites: [action-potential, synaptic-transmission, v1-primary-visual-cortex, feedforward-processing]
 opens_questions: [Q-rpt-01, Q-rpt-02, Q-rpt-03]
-source_articles: [2026-09-28-recurrent-processing-theory-visual-consciousness]
-key_sources: ["PMID:11074267", "PMID:9501251", "PMID:12419127", "PMID:12716948", "PMID:16997611", "PMID:30061458", "PMID:32116908", "PMID:26585549", "PMID:32922860", "PMID:27094080", "PMID:28394322"]
+source_articles: [2026-09-28-recurrent-processing-theory-visual-consciousness, 2026-10-04-attention-consciousness-dissociation]
+key_sources: ["PMID:11074267", "PMID:9501251", "PMID:12419127", "PMID:12716948", "PMID:16997611", "PMID:30061458", "PMID:32116908", "PMID:26585549", "PMID:32922860", "PMID:27094080", "PMID:28394322", "PMID:28536270", "PMID:15288903"]
 ---
 
 # 递归处理理论 (Recurrent Processing Theory, RPT)
@@ -87,6 +87,7 @@ RPT 的关键主张：从 Stage 2 到 Stage 3 的跃迁（递归处理启动）�
 | NREM 睡眠梦境（天然无报告）与后方顶枕高频活动相关（87% 预测准确率），前额叶非必要 | 高密度 EEG + 阶段性唤醒询问；闭环实时预测 | PMID:28394322（PMC5462120，全文） | 高（最接近真无报告条件；Nature Neuroscience） |
 | 前馈 TMS（60ms）破坏意识的效果大于递归期 TMS（100ms） | 人类 TMS + 行为，预注册 | PMID:32922860（PMC 开放全文） | 中（挑战简单二分法） |
 | 感知觉组织（图像-背景）是意识的关键函数；Stage 3 开始意识 | 四阶段模型整合多个实验室数据 | PMID:32116908（PMC 开放全文） | 中（理论模型，证据拼图） |
+| 意识产生对比增益，注意产生响应增益——两套增益机制的分离 | 2×2范式（注意×可见性），后像时长测量，两级归一化计算模型 | PMID:28536270（PMC6596511，开放全文） | 高（支持RPT：意识作用于早期视觉归一化 Level 1，注意作用于Level 2）|
 
 ## 连接
 
@@ -98,6 +99,7 @@ RPT 的关键主张：从 Stage 2 到 Stage 3 的跃迁（递归处理启动）�
 - [[v1-primary-visual-cortex]] — RPT 的主要实验场所：V1 图像-背景信号是 RPT 最核心的神经标记
 - [[predictive-coding]] — 预测编码框架：反馈信号也是预测编码的核心；RPT 的递归回路与预测编码的精度加权预测误差有概念重叠，但 RPT 不需要预测编码框架的贝叶斯假设
 - [[figure-ground-segregation]] — 感知觉组织的具体形式；RPT 以图像-背景分离作为意识的操作化神经标记
+- [[attention-consciousness-dissociation]] — RPT 的核心预测之一：意识（递归处理）可以独立于注意而发生；van Boxtel 2017 的增益函数证据支持这一分离
 
 ## 未解问题
 
@@ -109,7 +111,9 @@ RPT 的关键主张：从 Stage 2 到 Stage 3 的跃迁（递归处理启动）�
 
 - 2026-09-28 · 创建 · 基于《前馈与递归：RPT 如何把意识锚定在视觉皮层的反馈回路中》(#158) · 初始置信度：中（RPT 是 mainstream 理论，有多个独立实验支持；但 Allen et al. 2020 的 TMS 挑战和"缺失要素"问题使简单版本的 RPT 有待修订；status=mainstream 而非 established）
 - 2026-09-30 · 修订 · 基于《高阶意识理论与无报告范式》(#160) · 新增 Siclari 2017（PMID:28394322）证据行：NREM 睡眠无报告条件下，梦境与后方顶枕高频活动相关（87% 准确率），前额叶非必要——强力支持 RPT 的"后方皮层是意识基质"预测；新增 higher-order-theory、visual-awareness-negativity、phenomenal-consciousness 到 related
+- 2026-10-04 · rev3 · 基于《注意与意识双重解离》(#164) · 补充 van Boxtel 2017 （PMID:28536270）证据：意识→对比增益（V1/V2，早期归一化），注意→响应增益（高级皮层，晚期归一化）——为 RPT"意识来自早期视觉皮层递归"提供了独立的心理物理学和计算模型支持；新增 Lamme 2004（PMID:15288903）为 key_sources；连接至 attention-consciousness-dissociation 节点
 
 ## 来源文章
 
 - [[2026-09-28-recurrent-processing-theory-visual-consciousness]]
+- [[2026-10-04-attention-consciousness-dissociation]]

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-02（**#162** 意识障碍临床谱系——DoC, VS/UWS, MCS, LIS, CMD, PCI 临床检验意识理论；新建4页：disorders-of-consciousness, cognitive-motor-dissociation, vegetative-state, minimally-conscious-state；修订2页：PCI rev3, NCC rev3；图谱 325 节点，1865 边；悬空引用5个待补）· 主题页总数：**304**
+> 最后更新：2026-10-04（**#164** 注意-意识双重解离——行为实验+神经成像+单神经元证据证明注意和意识是双重可解离的神经系统；新建1页：attention-consciousness-dissociation；修订4页：attentional-blink rev2, recurrent-processing-theory rev3, phenomenal-consciousness rev2, NCC rev3；图谱 327 节点，1886 边；悬空引用4个待补）· 主题页总数：**305**
 
 ---
 
@@ -159,7 +159,8 @@
 - 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络 **[NEW 2026-06-05]**
 - 🟢 [γ振荡（30–80 Hz）](concepts/gamma-oscillations.md) — PV+篮状细胞兴奋-抑制循环产生；工作记忆中以~67ms爆发形式间歇出现；精神分裂症中功率减弱与PV损伤相关 **[NEW 2026-06-05]**
 - 🔵 [意识点燃](concepts/consciousness-ignition.md) — 全有全无的非线性临界翻转；~270-300ms 前额顶叶激活；注意双要求机制；P3b EEG标志（地位存疑）；GWT核心机制节点 **[修订 2026-05-31]**
-- 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口 **[NEW 2026-05-31]**
+- 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口；Fu & Rutishauser 2018 MTL 概念神经元单细胞证据整合 **[rev2 2026-10-04]**
+- 🔵 [注意-意识双重解离](concepts/attention-consciousness-dissociation.md) — 注意和意识是双重可解离的神经系统；意识→对比增益（V1/V2），注意→响应增益（高级皮层）（van Boxtel 2017）；有意识激活IFJ/前额顶叶，无意识激活LOC（MacLean 2023元分析）；MTL概念神经元时序是意识的关键（Fu & Rutishauser 2018）；RPT预测解离自然存在，GWT面临挑战 **[NEW 2026-10-04 #164]**
 - 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；八层分层贝叶斯预测机器架构；五月月报整合后修订 **[修订 2026-05-31]**
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**

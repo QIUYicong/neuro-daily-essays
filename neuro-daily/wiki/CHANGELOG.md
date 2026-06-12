@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-10-04（第 164 篇 · 注意-意识双重解离）
+
+**新建页面（1）**：
+- `concepts/attention-consciousness-dissociation`（注意-意识双重解离）：mainstream/medium，建立注意和意识的神经机制分离框架，整合 Koch & Tsuchiya 2007、Maier & Tsuchiya 2021、van Boxtel 2017、Lamme 2004/2020、Fu & Rutishauser 2018、MacLean 2023 等多个独立来源的汇聚证据
+
+**修订页面（4）**：
+- `concepts/attentional-blink`（rev2）：新增 attention-consciousness-dissociation 作为 related 节点；将注意瞬盲明确定位为"有注意无意识"的核心范式之一
+- `theories/recurrent-processing-theory`（rev3）：新增 van Boxtel 2017 对比增益证据（意识→V1/V2早期归一化，注意→高级皮层晚期归一化），为 RPT 的后皮层意识假说提供独立心理物理学支持；新增 attention-consciousness-dissociation 连接
+- `concepts/phenomenal-consciousness`（rev2）：新增注意独立性视角（Lamme 2004 现象觉知的注意非必要论；van Boxtel 2017 对比增益证据）
+- `concepts/neural-correlates-of-consciousness`（rev3）：新增 MacLean 2023 元分析（有意识→IFJ/前额顶叶；无意识→LOC）；补充注意网络与意识网络的影像学区分
+
+**登记矛盾（0）**：无新矛盾，但注意-意识解离对 GWT 的"注意=意识广播门卫"假设构成理论压力（已在 attention-consciousness-dissociation 页面中如实写出张力，GWT contradicts 边已加入图谱）
+
+**新增悬空引用（0）**：无新增
+
+**解决悬空引用（0）**：无（superior-longitudinal-fasciculus、dopamine-system、aging、cognition 依然是 4 个待填补引用）
+
+**图谱变化**：327 节点（+1），1886 条边（+13 新边）
+
+**新增未解问题（3）**：Q-acd-01（高，无报告范式注意/意识分离）、Q-acd-02（中，注意瞬盲MTL激活现象意识问题）、Q-acd-03（中，皮层下注意/意识分离）
+
+---
+
 ## 2026-10-03（文章 #163：前连合——进化遗留的大脑渡口，裂脑意识整合的最后防线？）
 
 ### 新建 wiki 页面（1 页）

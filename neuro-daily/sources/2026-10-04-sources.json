@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-04",
+  "real_date": "2026-06-12",
+  "article": "2026-10-04-attention-consciousness-dissociation",
+  "search_queries": [
+    "attention consciousness dissociation neuroscience [PubMed]",
+    "Koch Tsuchiya attention consciousness 2007[pdat] [PubMed]",
+    "attention without consciousness OR inattentional blindness OR unconscious attention neuroscience [PubMed]",
+    "Simons Chabris 1999 gorilla inattentional blindness [PubMed]",
+    "attentional blink temporal consciousness awareness neural [PubMed]",
+    "Lamme recurrent processing consciousness visual [PubMed]",
+    "attention consciousness neural dissociation 2023:2026[pdat] [PubMed]"
+  ],
+  "total_candidates_found": 58,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "17129748",
+      "doi": "10.1016/j.tics.2006.10.012",
+      "title": "Attention and consciousness: two distinct brain processes",
+      "authors": ["Koch C", "Tsuchiya N"],
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2007,
+      "volume": "11(1)",
+      "pages": "16-22",
+      "fulltext_available": false,
+      "fulltext_source": null,
+      "reason_included": "奠基性论文，首次系统主张注意与意识的行为学双重解离",
+      "coverage": ["theoretical framework", "behavioral evidence", "paradigms review"]
+    },
+    {
+      "id": "S2",
+      "pmid": "33034851",
+      "pmcid": "PMC7886945",
+      "doi": "10.3758/s13414-020-02146-4",
+      "title": "Growing evidence for separate neural mechanisms for attention and consciousness",
+      "authors": ["Maier A", "Tsuchiya N"],
+      "journal": "Attention, Perception & Psychophysics",
+      "year": 2021,
+      "volume": "83(2)",
+      "pages": "558-576",
+      "fulltext_available": true,
+      "fulltext_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7886945/",
+      "reason_included": "2021年最全面综述，涵盖fMRI/EEG/单细胞证据；第一作者是Tsuchiya，领域权威",
+      "coverage": ["fMRI dissociation", "EEG gamma dissociation", "single-unit evidence", "subcortical attention", "theoretical implications for GWT/IIT"]
+    },
+    {
+      "id": "S3",
+      "pmid": "15288903",
+      "title": "Separate neural definitions of visual consciousness and visual attention; a case for phenomenal awareness",
+      "authors": ["Lamme VAF"],
+      "journal": "Neural Networks",
+      "year": 2004,
+      "fulltext_available": false,
+      "fulltext_source": null,
+      "reason_included": "Lamme RPT框架的核心论文，定义了现象觉知(phenomenal awareness)vs通达觉知(access awareness)的神经区分",
+      "coverage": ["RPT framework", "phenomenal vs access consciousness", "attention definition", "recurrent processing"]
+    },
+    {
+      "id": "S4",
+      "pmid": "32116908",
+      "pmcid": "PMC7034432",
+      "title": "Visual Functions Generating Conscious Seeing",
+      "authors": ["Lamme VAF"],
+      "journal": "Frontiers in Psychology",
+      "year": 2020,
+      "fulltext_available": true,
+      "fulltext_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7034432/",
+      "reason_included": "Lamme 2020年综述，梳理了4阶段视觉模型，图底分离在注意缺席时的神经证据",
+      "coverage": ["4-stage visual model", "figure-ground segregation without attention", "Kanizsa figure", "RPT evidence"]
+    },
+    {
+      "id": "S5",
+      "pmid": "28536270",
+      "pmcid": "PMC6596511",
+      "title": "Different Signal Enhancement Pathways of Attention and Consciousness Underlie Perception in Humans",
+      "authors": ["van Boxtel JJA"],
+      "journal": "Journal of Neuroscience",
+      "year": 2017,
+      "fulltext_available": true,
+      "fulltext_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6596511/",
+      "reason_included": "提供机制层面双重解离证据：对比增益(意识)vs响应增益(注意)，并有两级归一化计算模型",
+      "coverage": ["contrast-gain vs response-gain", "2x2 experimental design", "afterimage methodology", "two-level normalization model"]
+    },
+    {
+      "id": "S6",
+      "pmid": "10694957",
+      "title": "Gorillas in our midst: sustained inattentional blindness for dynamic events",
+      "authors": ["Simons DJ", "Chabris CF"],
+      "journal": "Perception",
+      "year": 1999,
+      "fulltext_available": false,
+      "fulltext_source": null,
+      "reason_included": "不注意失察的经典实验，建立有注意无意识的行为证据基础",
+      "coverage": ["inattentional blindness", "sustained attention task", "unexpected stimulus detection"]
+    },
+    {
+      "id": "S7",
+      "pmid": "29100736",
+      "pmcid": "PMC5742067",
+      "title": "Single-Neuron Correlates of Awareness during Attentional Blinks",
+      "authors": ["Fu Z", "Rutishauser U"],
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2018,
+      "fulltext_available": true,
+      "fulltext_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5742067/",
+      "reason_included": "提供人类MTL单神经元层面的注意瞬盲证据：概念神经元的减弱/延迟响应与意识缺失相关",
+      "coverage": ["concept neurons", "MTL single-unit recording", "attentional blink", "anterior-posterior gradient", "consciousness ignition"]
+    },
+    {
+      "id": "S8",
+      "pmid": "37030413",
+      "doi": "10.1016/j.neuroimage.2023.120088",
+      "title": "Revealing robust neural correlates of conscious and unconscious visual processing: Activation likelihood estimation meta-analyses",
+      "authors": ["MacLean MW", "Hadid V", "Spreng RN", "Lepore F"],
+      "journal": "NeuroImage",
+      "year": 2023,
+      "volume": "273",
+      "fulltext_available": false,
+      "fulltext_source": null,
+      "reason_included": "2023年元分析，54项fMRI研究，系统区分有意识vs无意识视觉处理的脑区激活模式",
+      "coverage": ["meta-analysis ALE", "conscious visual processing regions", "unconscious visual processing regions", "IFJ/IPS/LOC"]
+    },
+    {
+      "id": "S9",
+      "pmid": "29549966",
+      "title": "The unconscious guidance of attention",
+      "authors": ["Chelazzi L", "Bisley JW", "Bartolomeo P"],
+      "journal": "Cortex",
+      "year": 2018,
+      "fulltext_available": false,
+      "fulltext_source": null,
+      "reason_included": "综述无意识注意引导，提供无意识状态下注意运作的机制证据（盲视、掩蔽线索等）",
+      "coverage": ["unconscious attention guidance", "blindsight attention", "masked cueing", "subliminal attention"]
+    },
+    {
+      "id": "S10",
+      "pmid": "38422759",
+      "title": "Dissociation between temporal attention and consciousness: unconscious temporal cue induces temporal expectation effect",
+      "authors": ["Ding X", "Ji H", "Yu W", "Xu L", "Lin Y", "Sun Y"],
+      "journal": "Consciousness and Cognition",
+      "year": 2024,
+      "fulltext_available": false,
+      "fulltext_source": null,
+      "reason_included": "2024年新发现：不可见时间线索仍可产生时间预期效应，直接证明时间注意与意识可分离",
+      "coverage": ["temporal attention", "temporal expectation", "invisible cue", "consciousness dissociation", "2024 finding"]
+    }
+  ],
+  "sources_excluded": [
+    {
+      "query": "attentional blink consciousness awareness Lane Shapiro",
+      "reason": "搜索无结果，可能作者名或组合有误"
+    },
+    {
+      "query": "Lamme 2003 visual consciousness attention Trends Neurosciences",
+      "reason": "搜索无结果；Lamme 2004/2020的主要论文已覆盖RPT框架"
+    },
+    {
+      "query": "Wyart Tallon-Baudry attention consciousness gamma EEG",
+      "reason": "无法通过多种搜索组合定位到PMID；该发现已通过Maier&Tsuchiya 2021综述转述引用"
+    }
+  ],
+  "open_fulltext_count": 4,
+  "abstract_only_count": 5,
+  "institution_sources": ["NCBI/PubMed", "PubMed Central (PMC)"],
+  "limitations": "Wyart & Tallon-Baudry EEG振荡分离数据未能通过PubMed获取原始PMID，通过Maier&Tsuchiya 2021综述转述使用，已标注。Lamme 2004 Neural Networks文章仅读摘要。"
+}

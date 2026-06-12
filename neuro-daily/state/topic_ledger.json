@@ -10837,6 +10837,82 @@
         "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？",
         "dopamine-system 专页：填补悬空引用，整合 VTA/SNc/D1/D2 等已有页面"
       ]
+    },
+    {
+      "date": "2026-10-04",
+      "real_date": "2026-06-12",
+      "article_number": 164,
+      "title": "注意与意识：当大脑学会\"视而不见\"与\"见而不注\"——双重解离实验如何证明感知与觉知是两套独立系统",
+      "slug": "attention-consciousness-dissociation",
+      "filename": "2026-10-04-attention-consciousness-dissociation.md",
+      "article_type": "regular",
+      "core_question": "当我们\"注意到某事\"与\"意识到某事\"时，大脑是否在执行同一套程序？或者，注意和意识是两套在进化和神经解剖上各自独立的系统，只是通常协同工作，偶尔在特定条件下彼此解耦？",
+      "layer": [
+        "cognition",
+        "behavior",
+        "whole-brain-network",
+        "brain-region"
+      ],
+      "curriculum_track": "8. 意识与自我 × 5. 认知控制（注意系列）",
+      "topic_tags": [
+        "attention",
+        "consciousness",
+        "double dissociation",
+        "inattentional blindness",
+        "attentional blink",
+        "recurrent processing",
+        "GWT",
+        "IIT",
+        "RPT",
+        "contrast-gain",
+        "response-gain",
+        "van Boxtel 2017",
+        "Koch Tsuchiya 2007",
+        "Lamme 2004 2020",
+        "Simons Chabris 1999",
+        "Fu Rutishauser 2018",
+        "MacLean 2023",
+        "phenomenal consciousness",
+        "access consciousness",
+        "inattentional blindness",
+        "concept neurons",
+        "MTL",
+        "gamma oscillations",
+        "posterior cortical hot zone",
+        "IFJ",
+        "LOC"
+      ],
+      "main_sources": [
+        "PMID:17129748 (Koch & Tsuchiya 2007, Trends Cogn Sci, abstract only)",
+        "PMID:33034851 / PMCID:PMC7886945 (Maier & Tsuchiya 2021, Atten Percept Psychophys, open full text)",
+        "PMID:15288903 (Lamme 2004, Neural Networks, abstract only)",
+        "PMID:32116908 / PMCID:PMC7034432 (Lamme 2020, Front Psychol, open full text)",
+        "PMID:28536270 / PMCID:PMC6596511 (van Boxtel 2017, J Neurosci, open full text)",
+        "PMID:10694957 (Simons & Chabris 1999, Perception, abstract only)",
+        "PMID:29100736 / PMCID:PMC5742067 (Fu & Rutishauser 2018, Trends Cogn Sci, open full text)",
+        "PMID:37030413 (MacLean et al. 2023, NeuroImage, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/attention-consciousness-dissociation.md (new)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/attentional-blink.md (rev1→rev2)",
+        "wiki/theories/recurrent-processing-theory.md (rev2→rev3)",
+        "wiki/concepts/phenomenal-consciousness.md (rev1→rev2)",
+        "wiki/concepts/neural-correlates-of-consciousness.md (rev2→rev3)"
+      ],
+      "unresolved_questions": [
+        "Q-acd-01（高）：无报告范式中，注意控制和意识广播的神经信号是否能被精确分离？VAN 是注意重定向还是意识切换的标志？",
+        "Q-acd-02（中）：注意瞬盲中MTL概念神经元的减弱响应，是否足以产生某种程度的现象意识？",
+        "Q-acd-03（中）：皮层下结构（上丘、丘脑枕核）中，注意和意识的信号是否也是分离的？"
+      ],
+      "next_suggested_topics": [
+        "inattentional-blindness 专页：不注意失察的认知机制——从负载理论到全局工作空间的解释（Simons & Chabris 1999 的深度解析）",
+        "consciousness-time 专页：意识感知需要多少毫秒？Dehaene 300ms 门控 vs Lamme 递归延迟的实验对比",
+        "superior-longitudinal-fasciculus 专页：填补悬空引用，连接语言网络与空间注意的背侧通路",
+        "dopamine-system 专页：填补悬空引用，整合 VTA/SNc/D1/D2 等已有页面",
+        "意识恢复的神经机制：从 VS 到 MCS 的恢复轨迹，丘脑-皮层连接的重建窗口（DoC 系列延续）"
+      ]
     }
   ],
   "layer_coverage_recent": [

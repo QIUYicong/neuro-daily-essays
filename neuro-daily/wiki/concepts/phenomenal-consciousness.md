@@ -6,14 +6,14 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-09-30
-updated: 2026-09-30
-revision_count: 1
+updated: 2026-10-04
+revision_count: 2
 dimensions: [cognition, whole-brain-network, theories]
-related: [access-consciousness, higher-order-theory, recurrent-processing-theory, integrated-information-theory, global-workspace-theory, posterior-cortical-hot-zone, neural-correlates-of-consciousness]
+related: [access-consciousness, higher-order-theory, recurrent-processing-theory, integrated-information-theory, global-workspace-theory, posterior-cortical-hot-zone, neural-correlates-of-consciousness, attention-consciousness-dissociation]
 prerequisites: [neural-correlates-of-consciousness]
 opens_questions: [Q-pc-01]
-source_articles: [2026-09-30-higher-order-theory-no-report-consciousness]
-key_sources: ["PMID:30061466", "PMID:25339922", "PMID:28394322"]
+source_articles: [2026-09-30-higher-order-theory-no-report-consciousness, 2026-10-04-attention-consciousness-dissociation]
+key_sources: ["PMID:30061466", "PMID:25339922", "PMID:28394322", "PMID:15288903", "PMID:32116908", "PMID:28536270"]
 ---
 
 # 现象意识 (Phenomenal Consciousness, P-consciousness)
@@ -89,7 +89,9 @@ key_sources: ["PMID:30061466", "PMID:25339922", "PMID:28394322"]
 ## 修订历史
 
 - 2026-09-30 · 创建 · 基于《高阶意识理论与无报告范式》(#160) · 初始置信度：中（P-consciousness 的概念是高置信度的；其神经基础和与 A-consciousness 的关系是高争议的低置信度）
+- 2026-10-04 · rev2 · 基于《注意与意识双重解离》(#164) · 补充注意-意识解离视角：Lamme（2004, PMID:15288903）提出 P-consciousness 只需要递归处理，不需要注意；van Boxtel 2017（PMID:28536270）的对比增益证据支持意识（而非注意）作用于早期视觉皮层，进一步支持 P-consciousness 的后皮层独立性；新增 attention-consciousness-dissociation 到 related
 
 ## 来源文章
 
 - [[2026-09-30-higher-order-theory-no-report-consciousness]]
+- [[2026-10-04-attention-consciousness-dissociation]]

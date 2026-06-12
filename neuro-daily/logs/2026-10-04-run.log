@@ -1,0 +1,81 @@
+# 每日运行日志 · 2026-10-04（Real date: 2026-06-12）
+# 文章 #164 · 注意-意识双重解离
+
+## 运行参数
+- 执行时间：2026-06-12 UTC
+- 目标日期（虚拟）：2026-10-04
+- 执行分支：claude/funny-einstein-om4kpn
+
+## 选题决策
+- 优先级分析：
+  1. 突破追踪：无最近7天重大突破（检索结果未发现）
+  2. 裁决矛盾：无 open 矛盾需立即裁决
+  3. 填补悬空引用：superior-longitudinal-fasciculus（1引用）、dopamine-system（1引用）、aging（1引用）、cognition（1引用）
+  4. 加深高连接低置信节点：predictive-coding（58边，medium）、global-workspace-theory（28边，medium）
+  5. 回收未解问题：Q-acd系列（来自近期意识系列推荐）
+  6. 课程脊柱：意识系列尚未覆盖注意-意识关系
+- 最终选题：注意-意识双重解离（被 #162 和 #163 两篇文章的 next_suggested_topics 共同推荐为第1位；连接已有注意系列（DAN/VAN/AB）与意识系列（GWT/IIT/RPT/HOT/DoC）；层级切换从近期的 whole-brain-network/cognition 转向 behavior/cognition/brain-region 的混合层）
+
+## 资料检索
+- 搜索引擎：NCBI E-utilities（PubMed esearch + efetch），PubMed Central（PMC BioC）
+- 检索词：[详见 sources/2026-10-04-sources.json]
+- 总候选文章数：约 58 篇（精确计数以第一次检索结果为准）
+
+## 采用来源（10篇）
+1. PMID:17129748 Koch & Tsuchiya 2007 - 奠基文章，摘要 ✓
+2. PMID:33034851 Maier & Tsuchiya 2021 - 综合综述，PMCID:PMC7886945 开放全文 ✓✓
+3. PMID:15288903 Lamme 2004 - RPT神经定义，摘要 ✓
+4. PMID:32116908 Lamme 2020 - 视觉意识函数，PMCID:PMC7034432 开放全文 ✓✓
+5. PMID:28536270 van Boxtel 2017 - 对比/响应增益，PMCID:PMC6596511 开放全文 ✓✓
+6. PMID:10694957 Simons & Chabris 1999 - 大猩猩实验，摘要 ✓
+7. PMID:29100736 Fu & Rutishauser 2018 - MTL单细胞，PMCID:PMC5742067 开放全文 ✓✓
+8. PMID:37030413 MacLean et al. 2023 - 元分析，摘要 ✓
+9. PMID:29549966 Chelazzi et al. 2018 - 无意识注意引导，摘要 ✓
+10. PMID:38422759 Ding et al. 2024 - 时间注意-意识解离，摘要 ✓
+
+## 排除来源
+- Wyart & Tallon-Baudry EEG振荡分离：无法通过多种搜索组合定位PMID；通过 Maier & Tsuchiya 2021综述转述引用
+- Lamme 2003 Trends Neurosciences：搜索无结果；已由 Lamme 2004 和 2020 覆盖
+- Chelazzi et al. 详细内容：仅作为支持性引用，摘要级别
+
+## 来源可用性统计
+- 开放全文：4篇（PMC7886945, PMC7034432, PMC6596511, PMC5742067）
+- 摘要/二次文献：6篇
+- 超过最低要求（≥5来源，≥2开放全文，≥1官方机构）✓
+
+## 文章生成
+- 文件：articles/2026-10-04-attention-consciousness-dissociation.md
+- 文件大小：~24KB
+- 章节：今日核心问题/为什么重要/背景/第一种解离/第二种解离/神经机制层面/理论框架/比喻/认知地图更新/争议/AI对照/概念卡片/参考来源
+- 质量检查：
+  ✓ 每条主要主张有来源
+  ✓ 区分了事实/主流模型/推测/争议（GWT vs RPT之争明确写出）
+  ✓ 未把单篇/动物研究写成定论
+  ✓ 未提供医学诊断/治疗建议
+  ✓ 比喻明确标注了失效处
+
+## Wiki 固结步骤
+- 新建：concepts/attention-consciousness-dissociation.md（rev1，mainstream/medium）
+- 修订：
+  * concepts/attentional-blink.md（rev1→rev2）
+  * theories/recurrent-processing-theory.md（rev2→rev3）
+  * concepts/phenomenal-consciousness.md（rev1→rev2）
+  * concepts/neural-correlates-of-consciousness.md（rev2→rev3）
+- 矛盾检查：无新矛盾登记；GWT理论张力已在文章和wiki中写出，但不构成新的可裁决主张
+- 成熟度更新：attention-consciousness-dissociation=mainstream/medium（新建）
+
+## 图谱更新
+- 节点：326 → 327（+1: attention-consciousness-dissociation）
+- 边：1873 → 1886（+13条新边）
+- 悬空引用：4（superior-longitudinal-fasciculus, dopamine-system, aging, cognition - 无变化）
+
+## 状态文件更新
+- topic_ledger.json：已追加（总计147条）
+- unresolved_questions.md：新增 Q-acd-01/02/03
+- source_registry.json：已追加10条来源
+- maturity_index.json：已追加新节点并更新相关节点
+- monthly_synthesis.md：已追加 #164 摘要
+- wiki/CHANGELOG.md：已追加今日变更
+- wiki/index.md：已更新最后更新日期和新页面条目
+
+## Git 操作

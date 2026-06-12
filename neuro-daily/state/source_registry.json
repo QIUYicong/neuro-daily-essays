@@ -13844,6 +13844,95 @@
         "olfactory connectivity",
         "anterior commissure olfactory"
       ]
+    },
+    {
+      "pmid": "17129748",
+      "title": "Attention and consciousness: two distinct brain processes",
+      "used_in": "2026-10-04",
+      "coverage": [
+        "attention-consciousness dissociation",
+        "behavioral evidence",
+        "theoretical framework"
+      ]
+    },
+    {
+      "pmid": "33034851",
+      "pmcid": "PMC7886945",
+      "title": "Growing evidence for separate neural mechanisms for attention and consciousness",
+      "used_in": "2026-10-04",
+      "coverage": [
+        "fMRI dissociation",
+        "EEG gamma dissociation",
+        "subcortical attention"
+      ]
+    },
+    {
+      "pmid": "15288903",
+      "title": "Separate neural definitions of visual consciousness and visual attention",
+      "used_in": "2026-10-04",
+      "coverage": [
+        "RPT framework",
+        "phenomenal vs access awareness"
+      ]
+    },
+    {
+      "pmid": "32116908",
+      "pmcid": "PMC7034432",
+      "title": "Visual Functions Generating Conscious Seeing",
+      "used_in": "2026-10-04",
+      "coverage": [
+        "4-stage visual model",
+        "figure-ground without attention"
+      ]
+    },
+    {
+      "pmid": "28536270",
+      "pmcid": "PMC6596511",
+      "title": "Different Signal Enhancement Pathways of Attention and Consciousness",
+      "used_in": "2026-10-04",
+      "coverage": [
+        "contrast-gain vs response-gain",
+        "two-level normalization"
+      ]
+    },
+    {
+      "pmid": "10694957",
+      "title": "Gorillas in our midst: sustained inattentional blindness",
+      "used_in": "2026-10-04",
+      "coverage": [
+        "inattentional blindness",
+        "attention without consciousness"
+      ]
+    },
+    {
+      "pmid": "29100736",
+      "pmcid": "PMC5742067",
+      "title": "Single-Neuron Correlates of Awareness during Attentional Blinks",
+      "used_in": "2026-10-04",
+      "coverage": [
+        "MTL concept neurons",
+        "attentional blink single-unit"
+      ]
+    },
+    {
+      "pmid": "37030413",
+      "title": "Revealing robust neural correlates of conscious and unconscious visual processing: ALE meta-analyses",
+      "used_in": "2026-10-04",
+      "coverage": [
+        "meta-analysis",
+        "IFJ",
+        "LOC",
+        "conscious vs unconscious regions"
+      ]
+    },
+    {
+      "pmid": "29549966",
+      "title": "The unconscious guidance of attention",
+      "used_in": "2026-10-04",
+      "coverage": [
+        "unconscious attention guidance",
+        "blindsight"
+      ]
     }
   ],
   "additions_2026-09-06": [
