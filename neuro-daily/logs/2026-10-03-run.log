@@ -155,7 +155,11 @@
 
 ## 推送状态
 
-待提交和推送（Git commit 后更新）
+✅ 成功推送到 main
+- commit hash：c7fa2fc
+- branch：main
+- remote：http://local_proxy@127.0.0.1:44193/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays）
+- GitHub branch URL：https://github.com/QIUYicong/neuro-daily-essays/tree/main
 
 ---
 
