@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-10-09（文章 #169：命令的最后一公里——神经肌肉接头如何把大脑意志翻译成肌肉收缩）
+
+### 新建 wiki 页面（3 页）
+
+- `neurons/neuromuscular-junction.md`（神经肌肉接头）：Rev1 创建；三细胞架构（运动神经末梢+肌纤维终板+PSC）；超微结构（主动区、接头折、nAChR ~10,000/μm²、间隙 50–100 nm）；Cav2.1 触发→SNARE→量子释放（m≈50–100）；Agrin-LRP4-MuSK-rapsyn 轴；安全因子 2–5；填补 alpha-motor-neuron 悬空引用；状态 established / confidence: high；新增未解 Q-nmj-01/02/03。
+
+- `concepts/agrin-musk-achr-clustering.md`（Agrin-LRP4-MuSK-Rapsyn 轴与 AChR 聚集）：Rev1 创建；五元件信号级联；Agrin 增强 LRP4-MuSK 亲和力 36 倍（SPR）；Agrin 作为"抗去聚集因子"（非诱导者）的争议模型；CMS 和 MuSK+ MG 疾病关联；状态 established / confidence: high。
+
+- `concepts/end-plate-potential-safety-factor.md`（终板电位与安全因子）：Rev1 创建；EPP = m×q；安全因子定义和量化（2–5；人类 ~2x 阈值）；MEPP ~1 mV；一量子激活 ~2,000 nAChR；影响安全因子的因素表；MG/LEMS/BoNT 的安全因子下降机制；状态 established / confidence: high。
+
+### 修订 wiki 页面（1 页）
+
+- `neurons/alpha-motor-neuron.md` rev1→rev2：修订历史追加（悬空引用 neuromuscular-junction 已填补，NMJ 专页建立）；source_articles 新增今日文章；updated 更新为 2026-10-09。
+
+### 图谱变化
+
+- 新建节点 3 个：neuromuscular-junction、agrin-musk-achr-clustering、end-plate-potential-safety-factor
+- 新增边 14 条
+- 节点总数：338 → 341；边总数：1939 → 1953
+- 填补悬空引用：`neuromuscular-junction`（由 alpha-motor-neuron related 字段引用）已建立正式节点
+- 新增悬空引用待补：myasthenia-gravis、lambert-eaton-syndrome、nicotinic-achr
+
+---
+
 ## 2026-10-08（文章 #168：最终公共通路——α运动神经元如何用大小原则和持续内向电流把大脑命令变成肌肉力量）
 
 ### 新建 wiki 页面（4 页）

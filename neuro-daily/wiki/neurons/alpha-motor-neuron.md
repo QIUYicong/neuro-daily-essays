@@ -6,8 +6,8 @@ type: structure
 status: established
 confidence: high
 created: 2026-10-08
-updated: 2026-10-08
-revision_count: 1
+updated: 2026-10-09
+revision_count: 2
 dimensions: [cellular, microcircuit, behavior]
 related: [motor-unit, size-principle, persistent-inward-currents, spinal-cord-cpg, spinal-interneurons-locomotion, motor-cortex, neuromuscular-junction, action-potential]
 prerequisites: [action-potential, synaptic-transmission, ion-channels]
@@ -100,7 +100,9 @@ key_sources: ["PMID:14328454", "PMID:23720261", "PMID:31799904", "PMID:18381974"
 ## 修订历史
 
 - 2026-10-08 · 创建 · 基于《最终公共通路：α运动神经元如何用大小原则和持续内向电流把大脑命令变成肌肉力量》（#168）· 初始置信度：高
+- 2026-10-09 · 修订 · 基于《命令的最后一公里》（#169）· 悬空引用 `neuromuscular-junction` 已填补，NMJ 专页现已建立（wiki/neurons/neuromuscular-junction.md）
 
 ## 来源文章
 
 - [[2026-10-08-alpha-motor-neuron-size-principle]]
+- [[2026-10-09-neuromuscular-junction-synaptic-machine]]

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-08",
-  "node_count": 325,
-  "edge_count": 1865,
+  "updated": "2026-10-09",
+  "node_count": 341,
+  "edge_count": 1953,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3059,6 +3059,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/persistent-inward-currents.md"
+    },
+    {
+      "id": "neuromuscular-junction",
+      "title": "神经肌肉接头",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/neuromuscular-junction.md"
+    },
+    {
+      "id": "agrin-musk-achr-clustering",
+      "title": "Agrin-LRP4-MuSK-Rapsyn 轴与 AChR 聚集",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/agrin-musk-achr-clustering.md"
+    },
+    {
+      "id": "end-plate-potential-safety-factor",
+      "title": "终板电位与安全因子",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/end-plate-potential-safety-factor.md"
     }
   ],
   "edges": [
@@ -13361,6 +13388,76 @@
       "from": "size-principle",
       "to": "persistent-inward-currents",
       "type": "related"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "neuromuscular-junction",
+      "type": "part-of"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "motor-unit",
+      "type": "part-of"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "synaptic-transmission",
+      "type": "is-a"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "active-zone",
+      "type": "part-of"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "SNARE-complex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "voltage-gated-calcium-channels",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "agrin-musk-achr-clustering",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "end-plate-potential-safety-factor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "end-plate-potential-safety-factor",
+      "to": "action-potential",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "agrin-musk-achr-clustering",
+      "to": "neuromuscular-junction",
+      "type": "supports"
+    },
+    {
+      "from": "end-plate-potential-safety-factor",
+      "to": "neuromuscular-junction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "spinal-cord-cpg",
+      "to": "neuromuscular-junction",
+      "type": "regulates"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "spinal-cord-cpg",
+      "type": "related"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "action-potential",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [
@@ -13604,6 +13701,30 @@
       ],
       "note": "PSD-95支架蛋白专页；兴奋性突触最丰富的骨架蛋白，AMPAR槽位的物理基础；关键期时间轴调控；已于2026-09-06创建 wiki/concepts/psd-95.md，基于《PSD-95：兴奋性突触的主控分子》(#136)",
       "resolved": "2026-09-06"
+    },
+    {
+      "slug": "myasthenia-gravis",
+      "referenced_by": [
+        "neuromuscular-junction",
+        "end-plate-potential-safety-factor"
+      ],
+      "note": "重症肌无力疾病页；anti-AChR（80%）或 anti-MuSK（5-10%）抗体机制；疲劳性无力；安全因子下降模型；待建 wiki/diseases/myasthenia-gravis.md"
+    },
+    {
+      "slug": "lambert-eaton-syndrome",
+      "referenced_by": [
+        "neuromuscular-junction",
+        "end-plate-potential-safety-factor"
+      ],
+      "note": "Lambert-Eaton 综合征；anti-Cav2.1 抗体；量子释放数下降；运动后短暂改善；待建 wiki/diseases/lambert-eaton-syndrome.md"
+    },
+    {
+      "slug": "nicotinic-achr",
+      "referenced_by": [
+        "neuromuscular-junction",
+        "agrin-musk-achr-clustering"
+      ],
+      "note": "烟碱型乙酰胆碱受体专页；五聚体结构（α2βγδ/α2βεδ）；2 ACh 分子结合激活；nAChR vs mAChR 的区别；NMJ 和自主神经系统中的烟碱受体；待建 wiki/concepts/nicotinic-achr.md"
     }
   ]
 }

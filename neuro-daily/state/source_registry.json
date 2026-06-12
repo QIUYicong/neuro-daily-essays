@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-09",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -12222,6 +12222,161 @@
         "larval Drosophila connectome",
         "insect brain",
         "cell types"
+      ]
+    },
+    {
+      "pmid": "29195055",
+      "title": "Neuromuscular Junction Formation, Aging, and Disorders",
+      "authors": "Li L, Xiong WC, Mei L",
+      "journal": "Annual Review of Physiology",
+      "year": 2018,
+      "open_access": false,
+      "used_in_articles": [
+        "2026-10-09-neuromuscular-junction-synaptic-machine"
+      ],
+      "topics_covered": [
+        "NMJ_formation",
+        "NMJ_aging",
+        "NMJ_disorders",
+        "three_cell_unit"
+      ]
+    },
+    {
+      "pmid": "31744142",
+      "pmcid": "PMC6912269",
+      "title": "Nerve, Muscle, and Synaptogenesis",
+      "authors": "Swenarchuk LE",
+      "journal": "Cells",
+      "year": 2019,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-10-09-neuromuscular-junction-synaptic-machine"
+      ],
+      "topics_covered": [
+        "agrin_stabilizer_model",
+        "ACh_declustering",
+        "two_mechanism_synaptogenesis"
+      ]
+    },
+    {
+      "pmid": "33671084",
+      "pmcid": "PMC7957818",
+      "title": "Secreted Signaling Molecules at the Neuromuscular Junction",
+      "authors": "Ohkawara B, Ito M, Ohno K",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2021,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-10-09-neuromuscular-junction-synaptic-machine"
+      ],
+      "topics_covered": [
+        "agrin_LRP4_MuSK_rapsyn",
+        "AChR_clustering",
+        "NMJ_structure",
+        "Dok7"
+      ]
+    },
+    {
+      "pmid": "30823359",
+      "pmcid": "PMC6429197",
+      "title": "Cholesterol and the Safety Factor for Neuromuscular Transmission",
+      "authors": "Krivoi II, Petrov AM",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2019,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-10-09-neuromuscular-junction-synaptic-machine"
+      ],
+      "topics_covered": [
+        "safety_factor",
+        "MEPP",
+        "quantal_content",
+        "nAChR_density",
+        "cholesterol"
+      ]
+    },
+    {
+      "pmid": "37270145",
+      "pmcid": "PMC10847753",
+      "title": "Neuromuscular Junction Transmission Failure in Aging and Sarcopenia",
+      "authors": "Arnold WD, Clark BC",
+      "journal": "Ageing Research Reviews",
+      "year": 2023,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-10-09-neuromuscular-junction-synaptic-machine"
+      ],
+      "topics_covered": [
+        "NMJ_ultrastructure",
+        "safety_factor_human",
+        "NMJ_aging",
+        "sarcopenia",
+        "junctional_folds"
+      ]
+    },
+    {
+      "pmid": "12624181",
+      "pmcid": "PMC152320",
+      "title": "Altered properties of quantal neurotransmitter release at endplates lacking P/Q-type Ca2+ channels",
+      "authors": "Urbano FJ et al.",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": 2003,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-10-09-neuromuscular-junction-synaptic-machine"
+      ],
+      "topics_covered": [
+        "Cav2.1_NMJ",
+        "presynaptic_calcium_channels",
+        "quantal_release_mechanism"
+      ]
+    },
+    {
+      "pmid": "26430218",
+      "pmcid": "PMC4588062",
+      "title": "Perisynaptic Schwann Cells at the Neuromuscular Synapse",
+      "authors": "Ko CP, Bhatt DL",
+      "journal": "Cold Spring Harbor Perspectives in Biology",
+      "year": 2015,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-10-09-neuromuscular-junction-synaptic-machine"
+      ],
+      "topics_covered": [
+        "perisynaptic_schwann_cell",
+        "PSC_function",
+        "NMJ_maintenance"
+      ]
+    },
+    {
+      "pmid": "35065039",
+      "title": "Advances in understanding autoimmune neuromuscular junction disorders",
+      "authors": "Huijbers MG et al.",
+      "journal": "Lancet Neurology",
+      "year": 2022,
+      "open_access": false,
+      "used_in_articles": [
+        "2026-10-09-neuromuscular-junction-synaptic-machine"
+      ],
+      "topics_covered": [
+        "MG_mechanism",
+        "LEMS_mechanism",
+        "autoimmune_NMJ"
+      ]
+    },
+    {
+      "pmid": "40675731",
+      "title": "Structure and function of the NMJ in health and myasthenia gravis",
+      "authors": "Plomp JJ et al.",
+      "journal": "International Review of Neurobiology",
+      "year": 2025,
+      "open_access": false,
+      "used_in_articles": [
+        "2026-10-09-neuromuscular-junction-synaptic-machine"
+      ],
+      "topics_covered": [
+        "NMJ_structure_2025",
+        "MG_pathology"
       ]
     }
   ],

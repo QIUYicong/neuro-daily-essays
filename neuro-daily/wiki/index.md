@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-07（**#167** 脊髓 CPG——中枢模式发生器双层架构（RG/PF）、V0-V3 中间神经元速度依赖步态切换、SHOX2 节律生成、VSCT 枢纽争议；新建3页：spinal-cord-cpg, spinal-interneurons-locomotion, dopamine-system（填补悬空引用）；修订2页：motor-cortex rev4, CHANGELOG；图谱 334 节点，1921 边）· 主题页总数：**312**
+> 最后更新：2026-10-09（**#169** 神经肌肉接头——三细胞架构、Cav2.1→SNARE→量子释放、Agrin-LRP4-MuSK-rapsyn 轴、安全因子 2–5、完成皮层→脊髓→α-MN→NMJ 运动链叙事；新建3页：neuromuscular-junction, agrin-musk-achr-clustering, end-plate-potential-safety-factor；修订1页：alpha-motor-neuron rev2（填补悬空引用）；图谱 341 节点，1953 边）· 主题页总数：**315**
 
 ---
 
@@ -31,7 +31,8 @@
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 唯一常驻免疫细胞，突触可塑性的双刃卫士：发育期 CR3（C3b）+ TREM2（PtdSer）双通路剪枝；成年稳态下 CX3CR1 轴 + 低水平 TNF-α/IL-1β 支持 LTP；激活态高浓度细胞因子（TNFR1/NF-κB、p38/GluA1内吞、STAT3/Arc）系统性损伤 LTP；DAM/TREM2 在 AD 早期保护性清除过活跃突触；慢性应激→小胶质细胞预激→AD 风险放大 **[修订 rev2 2026-07-10]**
 - 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 髓鞘唯一制造者，单个细胞包裹 40–50 段轴突；OPC 终生保持分化潜能并感知神经元活动；VTA 中 OL 对奖励回路的调谐（Yalçın 2024）**[NEW 2026-07-27]**
 - 🟢 [浦肯野细胞](neurons/purkinje-cell.md) — 小脑皮层唯一输出神经元：~15万平行纤维突触+1根攀爬纤维；双重放电（简单50-100Hz/复杂~1Hz）；LTD发生位点；GABAergic抑制DCN **[NEW 2026-08-01 #100]**
-- 🟢 [α运动神经元](neurons/alpha-motor-neuron.md) — 脊髓前角最终公共通路；大小原则决定S→FR→FF有序招募；PICs（CaV1.3/Nav1.6）提供2–6倍增益放大；5-HT₂+α₁AR单胺能调制；ALS FF优先脆弱；SCI痉挛的分子机制 **[NEW 2026-10-08 #168]**
+- 🟢 [α运动神经元](neurons/alpha-motor-neuron.md) — 脊髓前角最终公共通路；大小原则决定S→FR→FF有序招募；PICs（CaV1.3/Nav1.6）提供2–6倍增益放大；5-HT₂+α₁AR单胺能调制；ALS FF优先脆弱；SCI痉挛的分子机制 **[NEW 2026-10-08 #168] [修订 rev2 2026-10-09]**
+- 🟢 [神经肌肉接头（NMJ）](neurons/neuromuscular-junction.md) — 运动控制链最末节点；三细胞架构（神经末梢+肌纤维终板+PSC）；Cav2.1→SNARE→量子释放（m≈50–100）；nAChR密度~10,000/μm²；安全因子2–5；Agrin-LRP4-MuSK-rapsyn轴自组织突触后密度；填补运动链叙事最后缺口 **[NEW 2026-10-09 #169]**
 
 ## circuits（回路）
 
@@ -49,6 +50,8 @@
 ## concepts（概念/框架）
 
 - 🟢 [运动单元](concepts/motor-unit.md) — 最小可控神经肌肉单元（α-MN + 全部靶肌纤维）；神经支配比与精度反比（眼5-15/腓肠1000-2000）；S/FR/FF三类型；去同步化产生平滑收缩 **[NEW 2026-10-08 #168]**
+- 🟢 [Agrin-LRP4-MuSK-Rapsyn 轴与 AChR 聚集](concepts/agrin-musk-achr-clustering.md) — NMJ 突触后 AChR 聚集的分子级联；Agrin↑LRP4-MuSK亲和力36倍；Agrin为"抗去聚集因子"（非诱导者）的争议模型；Dok7协激活；rapsyn 1:1锚定；CMS和MuSK+MG疾病关联 **[NEW 2026-10-09 #169]**
+- 🟢 [终板电位与安全因子](concepts/end-plate-potential-safety-factor.md) — EPP=m×q（量子数×量子幅度）；安全因子2–5（人类~2x阈值）；MEPP~1mV；一量子激活~2,000 nAChR；MG/LEMS/BoNT通过不同机制降低安全因子 **[NEW 2026-10-09 #169]**
 - 🟢 [Henneman 大小原则](concepts/size-principle.md) — 小型α-MN（高R_in）先被招募，实现S→FR→FF有序激活；无需中枢调度的物理自动规则；Hug 2023修订：共同输入簇内严格，跨簇不保证 **[NEW 2026-10-08 #168]**
 - 🟢 [持续内向电流（PICs）](concepts/persistent-inward-currents.md) — 树突远端CaV1.3+Nav1.6自维持内向电流；2–6倍突触输入放大（依赖单胺能驱动）；高原电位/双稳态；5-HT₂+α₁AR调制；SCI痉挛的组成型受体机制 **[NEW 2026-10-08 #168]**
 - 🔵 [神经振荡层级](concepts/neural-oscillations.md) — 慢振荡/δ/θ/α/β/γ 六频段产生机制综合；PAC三层嵌套（δ→θ→γ，Lakatos 2005）；CTC通信通道假说（Fries 2015）；频率-方向分工（γ前馈误差 vs α/β反馈预测）；振荡层级与预测编码框架统一 **[修订 rev3 2026-09-21 #151]**

@@ -268,9 +268,36 @@
       "last_changed": "2026-09-24",
       "change_reason": "新建页面；基于Corbetta & Shulman 2011（PMID:21692662）等6篇开放全文；忽视的网络失衡框架（VAN损伤→DAN失衡）高可信；STG vs IPL解剖争论记为Q-neglect-01",
       "source_article": "2026-09-24-hemispatial-neglect-attention-imbalance"
+    },
+    {
+      "slug": "neuromuscular-junction",
+      "title": "神经肌肉接头",
+      "current_status": "established",
+      "confidence": "high",
+      "last_changed": "2026-10-09",
+      "change_reason": "创建；跨越60年电生理和分子生物学研究，教科书级别确立（Katz 1970 Nobel等）；量子假说、安全因子、Agrin-MuSK轴均有多物种多实验室独立验证",
+      "source_article": "2026-10-09-neuromuscular-junction-synaptic-machine"
+    },
+    {
+      "slug": "agrin-musk-achr-clustering",
+      "title": "Agrin-LRP4-MuSK-Rapsyn 轴与 AChR 聚集",
+      "current_status": "established",
+      "confidence": "high",
+      "last_changed": "2026-10-09",
+      "change_reason": "创建；KO 动物模型+体外 SPR+人类 CMS 遗传证据多重验证；注：Agrin 作为诱导者 vs 稳定剂的角色争议已在页面标注，但核心信号级联本身 established",
+      "source_article": "2026-10-09-neuromuscular-junction-synaptic-machine"
+    },
+    {
+      "slug": "end-plate-potential-safety-factor",
+      "title": "终板电位与安全因子",
+      "current_status": "established",
+      "confidence": "high",
+      "last_changed": "2026-10-09",
+      "change_reason": "创建；经典电生理测量（MEPP, EPP, quantal content），教科书级别；注：人类精确安全因子（~2x）测量数据有限，故动物数据外推部分置信度稍低",
+      "source_article": "2026-10-09-neuromuscular-junction-synaptic-machine"
     }
   ],
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-09",
   "index": [
     {
       "slug": "thalamocortical-axons",

@@ -1,8 +1,33 @@
 # 未解问题追踪
 
-*最后更新：2026-10-06*
+*最后更新：2026-10-09*
 
 ---
+
+## 2026-10-09 新增（来自"命令的最后一公里：神经肌肉接头" #169）
+
+### Q-nmj-01（高优先级）：PSC 感知突触活动后如何决定促进还是限制突触传递？
+
+- **关联 wiki**：[[neuromuscular-junction]]、[[perisynaptic-schwann-cell]]（待建）
+- **来源文章**：2026-10-09-neuromuscular-junction-synaptic-machine
+- **问题**：已知 PSC 通过 mAChR 和嘌呤受体（P2X/P2Y）感知 ACh 和 ATP，并在过度刺激时升高胞内 Ca²⁺、扩展突起（可能限制扩散），在低频刺激后收缩突起（可能促进）。但调控 NMJ 传递强度的下游分子机制不清楚：PSC Ca²⁺ 升高后如何通过分泌的信号分子（如 ATP、腺苷、ATP 经 ecto-nucleotidase 降解为腺苷）双向调节突触前和突触后？光遗传学特异性激活 PSC 是否会改变 EPP 幅度或安全因子？
+  - 相关技术：PSC 特异性 Cre 线 + GCaMP8 + 光遗传激活；膜片钳记录 EPP 变化
+
+### Q-nmj-02（中优先级）：NMJ 安全因子下降的最早可检测分子标志物？
+
+- **关联 wiki**：[[neuromuscular-junction]]、[[end-plate-potential-safety-factor]]
+- **来源文章**：2026-10-09-neuromuscular-junction-synaptic-machine
+- **问题**：衰老导致 NMJ 安全因子下降的机制包括接头折叠减少、Nav1.4 重分布、nAChR 密度下降。哪一个变化最早发生？能否在功能性传递失败（可通过 EMG 衰减检测）之前，用血清生物标志物（如 agrin、titin 片段）或非侵入性成像（高分辨超声、NMJ 特异示踪剂 PET）预测 NMJ 退化？早期检测对防止老龄肌少症是否有干预窗口？
+
+### Q-nmj-03（高优先级）：成年期 NMJ 中 AChR 的维护与更新机制是什么？
+
+- **关联 wiki**：[[neuromuscular-junction]]、[[agrin-musk-achr-clustering]]
+- **来源文章**：2026-10-09-neuromuscular-junction-synaptic-machine
+- **问题**：成年期 NMJ 处 AChR 的半寿期约 8–11 天（而 NMJ 外 AChR 半寿期仅约 1 天，因锚定减少降解）。这意味着 NMJ 每 1–2 周要"换一套"受体。Agrin-MuSK 信号在维护期是否持续激活（还是只在发育关键期）？rapsyn 的磷酸化状态如何动态调控"替换"而不破坏整体密度？NMJ 处的局部蛋白质翻译（轴突末梢 + 突触下肌纤维细胞核）是否参与维护新合成 AChR 的精准补给？
+
+---
+
+## 2026-10-06 新增（来自"当大脑与脊髓合为一张接线图" #166）
 
 ## 2026-10-06 新增（来自"当大脑与脊髓合为一张接线图" #166）
 

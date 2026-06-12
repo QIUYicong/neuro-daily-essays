@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-07",
-  "total_articles": 167,
+  "last_updated": "2026-10-09",
+  "total_articles": 169,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11137,7 +11137,8 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 167,
-      "note": "系统时钟UTC+8=2026-06-12（真实执行日期）；知识库虚拟日期2026-10-07；11个来源中6个开放全文、5个摘要仅读；无PMID编造；无新矛盾登记；填补dopamine-system悬空引用（知识库遗留悬空引用减少至3个）；CPG运动系统为课程脊柱Track 2显著缺口，今日填补",
+      "note": "系统时钟UTC+8=2026-06-12（真实执行日期）；知识库虚拟日期2026-10-07；11个来源中6个开放全文、5个摘要仅读；无PMID编造；无新矛盾登记；填补dopamine-system悬空引用（知识库遗留悬空引用减少至3个）；CPG运动系统为课程脊柱Track 2显著缺口，今日填补"
+    },
     {
       "date": "2026-10-08",
       "title": "最终公共通路：α运动神经元如何用大小原则和持续内向电流把大脑命令变成肌肉力量",
@@ -11153,9 +11154,26 @@
       ],
       "contested_claims_logged": [],
       "core_question": "α运动神经元通过大小原则（小型MN高输入电阻→低阈值→先放电）和PICs（CaV1.3+Nav1.6，树突远端，2-6倍单胺能放大）实现精细力量调控；三类运动单元（S/FR/FF）对应代谢-耐力权衡；SCI痉挛=5-HT2R组成型活跃；ALS=FF优先退化",
-      "layer": ["cellular", "synaptic", "microcircuit", "behavior"],
+      "layer": [
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "behavior"
+      ],
       "curriculum_track": "Track 1（神经元内在特性）+ Track 2（运动网络最终公共通路）",
-      "topic_tags": ["alpha motor neuron", "motor unit", "size principle", "Henneman", "persistent inward currents", "PICs", "CaV1.3", "final common path", "ALS", "spasticity", "monoaminergic modulation"],
+      "topic_tags": [
+        "alpha motor neuron",
+        "motor unit",
+        "size principle",
+        "Henneman",
+        "persistent inward currents",
+        "PICs",
+        "CaV1.3",
+        "final common path",
+        "ALS",
+        "spasticity",
+        "monoaminergic modulation"
+      ],
       "main_sources": [
         "PMID:14328454 (Henneman 1965, 摘要)",
         "PMID:31799904 (Binder 2020, PMC7132324 开放)",
@@ -11164,7 +11182,14 @@
         "PMID:36353890 (Hug 2023, PMC10098498 开放)",
         "PMID:19783207 (Heckman 2009, PMC7312725 开放)"
       ],
-      "unresolved_questions": ["Q-mn-01", "Q-mn-02", "Q-mn-03", "Q-pic-01", "Q-pic-02", "Q-pic-03"],
+      "unresolved_questions": [
+        "Q-mn-01",
+        "Q-mn-02",
+        "Q-mn-03",
+        "Q-pic-01",
+        "Q-pic-02",
+        "Q-pic-03"
+      ],
       "next_suggested_topics": [
         "神经肌肉接头（NMJ）——填补motor-unit悬空引用",
         "脊髓损伤后步行恢复（硬膜外刺激+CPG激活）",
@@ -11173,7 +11198,93 @@
       "mode": "long_term_curriculum",
       "article_number": 168,
       "note": "UTC+8=2026-06-12；知识库虚拟日期2026-10-08；5篇开放全文，2篇摘要，1未确认；图谱+4节点+18边（338节点1939边）；填补spinal-cord-cpg的motor-neuron悬空引用"
-    }
+    },
+    {
+      "date": "2026-10-09",
+      "real_date": "2026-06-12",
+      "article_number": 169,
+      "title": "命令的最后一公里：神经肌肉接头如何把大脑意志翻译成肌肉收缩",
+      "slug": "neuromuscular-junction-synaptic-machine",
+      "filename": "2026-10-09-neuromuscular-junction-synaptic-machine.md",
+      "article_type": "regular",
+      "core_question": "神经肌肉接头如何通过三细胞架构和四层分子机制（Cav2.1触发→SNARE量子释放→Agrin-LRP4-MuSK-rapsyn轴组织→终板电位安全因子），将α运动神经元动作电位可靠地转化为肌纤维收缩？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "behavior"
+      ],
+      "curriculum_track": "Track 1（神经元如何工作）+ Track 2（运动网络）：完成皮层→脊髓→α-MN→NMJ运动链",
+      "topic_tags": [
+        "neuromuscular junction",
+        "NMJ",
+        "motor nerve terminal",
+        "acetylcholine",
+        "ACh",
+        "nAChR",
+        "nicotinic receptor",
+        "quantal release",
+        "safety factor",
+        "end-plate potential",
+        "EPP",
+        "MEPP",
+        "Cav2.1",
+        "P/Q-type calcium channel",
+        "SNARE complex",
+        "agrin",
+        "LRP4",
+        "MuSK",
+        "rapsyn",
+        "Dok7",
+        "junctional folds",
+        "active zone",
+        "perisynaptic Schwann cell",
+        "PSC",
+        "myasthenia gravis",
+        "Lambert-Eaton",
+        "botulinum toxin",
+        "sarcopenia",
+        "NMJ aging"
+      ],
+      "main_sources": [
+        "PMID:29195055",
+        "PMID:31744142/PMC6912269",
+        "PMID:33671084/PMC7957818",
+        "PMID:30823359/PMC6429197",
+        "PMID:37270145/PMC10847753",
+        "PMID:12624181/PMC152320",
+        "PMID:26430218/PMC4588062",
+        "PMID:35065039",
+        "PMID:40675731"
+      ],
+      "unresolved_questions": [
+        "Q-nmj-01",
+        "Q-nmj-02",
+        "Q-nmj-03"
+      ],
+      "next_suggested_topics": [
+        "myasthenia gravis（MG）：anti-AChR抗体的免疫机制与补体途径",
+        "nicotinic AChR 结构（α2βγδ五聚体）与配体门控离子通道家族",
+        "perisynaptic Schwann cell 的PSC-NMJ调控环路（细节版）",
+        "运动单元老化与肌少症的神经生理机制（从NMJ衰老延伸到行为输出）",
+        "肉毒毒素作用机制深入（SNARE蛋白结构+七种血清型差异）"
+      ],
+      "wiki_pages_created": [
+        "wiki/neurons/neuromuscular-junction.md",
+        "wiki/concepts/agrin-musk-achr-clustering.md",
+        "wiki/concepts/end-plate-potential-safety-factor.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/alpha-motor-neuron.md (rev1→rev2: filled NMJ dangling reference)"
+      ],
+      "graph_nodes_added": [
+        "neuromuscular-junction",
+        "agrin-musk-achr-clustering",
+        "end-plate-potential-safety-factor"
+      ],
+      "graph_edges_added": 14,
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-12（真实执行日期）；知识库虚拟日期2026-10-09；9个来源中6篇开放全文、3篇摘要仅读；填补alpha-motor-neuron中的neuromuscular-junction悬空引用；完成皮层→脊髓→α-MN→NMJ运动控制链叙事；新增悬空引用：myasthenia-gravis, lambert-eaton-syndrome, nicotinic-achr；图谱+3节点+14边（341节点1953边）"
     }
   ],
   "layer_coverage_recent": [
