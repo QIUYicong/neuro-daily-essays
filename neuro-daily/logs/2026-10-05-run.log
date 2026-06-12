@@ -1,0 +1,150 @@
+# 运行日志 2026-10-05
+
+**逻辑日期**：2026-10-05（系统日期：2026-06-12；注：系统日期与知识库逻辑日期存在偏差，本次运行延续知识库序列，选取 2026-10-05 作为下一逻辑日期，避免重复 2026-06-12 已有文章）
+**文章编号**：#165
+**系列**：意识与自我 · 第 8 课程轨道
+**运行类型**：悬空引用填补 + 课程延续
+
+---
+
+## 步骤执行摘要
+
+### 0. 同步状态
+- 分支：`main`（git pull origin main 已同步）
+- 确认 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 均存在
+
+### A. 读取状态
+- topic_ledger.json → 最后文章 #164（2026-10-04）；最后建议主题包含 binocular-rivalry（悬空引用）
+- wiki/CHANGELOG.md → 确认 binocular-rivalry 为 2026-10-04 新增的悬空引用
+- wiki/_graph.json → 328 节点（添加后），悬空引用：aging, cognition, dopamine-system, superior-longitudinal-fasciculus（binocular-rivalry 已填补）
+- unresolved_questions.md → 读取最新问题队列
+
+### B. 选题
+- **决策**：填补 binocular-rivalry 悬空引用（缺口驱动，最高优先级）
+- **核心问题**：当两眼接收相互竞争的图像，知觉翻转发生在视觉层级的何处？由什么机制驱动？
+- **层级**：cellular + microcircuit + brain-region + cognition（刻意切换，前4天均为 cognition 主层）
+
+### C. 检索与研究
+**搜索词**：
+- binocular rivalry neural mechanisms visual consciousness
+- binocular rivalry review neural correlates consciousness
+- Blake Logothetis 2002 binocular rivalry
+- Leopold Logothetis 1996 binocular rivalry neurons
+- Tong binocular rivalry fMRI fusiform
+- Brascamp binocular rivalry review 2015 2018
+- binocular rivalry frontoparietal bistable perception
+- Logothetis Schall 1989 binocular rivalry monkey
+
+**数据库**：PubMed E-utilities (esearch/efetch), Europe PMC API
+
+**候选论文**：18 篇，最终采用 11 篇
+
+**采用来源**：
+- PMID:2772635 (Logothetis & Schall 1989, Science, 摘要) ✅
+- PMID:8602261 (Logothetis et al. 1996, Nature, 摘要) ✅
+- PMID:9808462 (Tong et al. 1998, Neuron, 摘要) ✅
+- PMID:10377540 (Leopold & Logothetis 1999, Trends Cogn Sci, 摘要) ✅
+- PMID:11823801 (Blake & Logothetis 2002, Nat Rev Neurosci, 摘要) ✅
+- PMID:16051174 (Haynes & Rees 2005, Curr Biol, 摘要) ✅
+- PMID:25749677 (Brascamp et al. 2015, Vision Res, 摘要) ✅
+- PMID:27230785 (Dieter Brascamp et al. 2016, Atten Percept Psychophys, PMC部分) ✅
+- PMID:28854000 (Brascamp et al. 2018, Annu Rev Psychol, 摘要) ✅
+- PMID:41397973 / PMC12705761 (Vanhoyland et al. 2025, Nat Commun, 全文) ✅
+- PMID:41852726 / PMC12993236 (Fritsch et al. 2026, iScience, 全文) ✅
+
+**排除来源**：
+- 18640145 (Grossberg 2008 计算模型)：细节不足以支持当天文章核心叙事
+- 41747894 (2026鼻子感知)：偏离主题
+- 42136727 (Hikino 2026 神经网络模型)：不适合当天叙事框架
+- 其他：摘要与核心论点重叠
+
+**来源统计**：
+- 总计：11 篇
+- 开放全文：2 篇（PMC12705761, PMC12993236）✅ 满足 ≥2 要求
+- 官方数据库检索：✅
+
+### D. Wiki 固结（1 新页，1 修订）
+**新建**：
+- `wiki/concepts/binocular-rivalry.md`（双眼竞争，mechanism类型，established/high）：
+  - 填补自 2026-10-04 起的图谱悬空引用
+  - 完整 frontmatter + 正文
+  - 覆盖：竞争位置（刺激交换范式）、皮层知觉追踪梯度、互抑制+适应机制、Levelt定律、注意依赖性、前额叶因果参与、LOC预测性活动
+  - 关键来源：9条 PMID
+  - 未解问题：Q-rivalry-01/02/03
+
+**修订**：
+- `wiki/concepts/attention-consciousness-dissociation.md`（Rev1→Rev2）：
+  - 补充双眼竞争机制细节（LOC 1500ms、IFC损伤证据）
+  - 填充 [[binocular-rivalry]] 悬空引用为实体链接
+
+### E. 图谱与导航更新
+- `wiki/_graph.json`：添加 binocular-rivalry 节点 + 11 条新边
+- 验证：有效 JSON，无新悬空引用，节点 327→328，边 1883→1894
+- `wiki/index.md`：更新 header（版本、节点/边数）；concepts 区新增 binocular-rivalry 条目
+- `wiki/CHANGELOG.md`：添加 2026-10-05 条目（置于顶部）
+
+### F. 治理层更新
+- `state/topic_ledger.json`：添加 #165 条目（含 148 条总记录）
+- `state/unresolved_questions.md`：追加 Q-rivalry-01/02/03
+- `state/maturity_index.json`：添加 binocular-rivalry 条目（entries 28项）
+- `state/monthly_synthesis.md`：追加 #165 摘要段落
+
+### G. 文章质量自检
+- [x] 每条 wiki 新主张有来源（PMID/DOI/URL）
+- [x] 区分了事实/主流模型/推测/争议
+- [x] 未把单篇/小样本/动物研究写成定论（Fritsch 2026 n=9 标注"样本量小"）
+- [x] 新内容与既有 wiki 无冲突（无需矛盾协议）
+- [x] 修订页的 updated/revision_count/修订历史同步
+- [x] _graph.json 无悬空边（新增边均指向已存在节点）
+- [x] index.md 与 CHANGELOG.md 反映今天变化
+- [x] 新页 related ≥1（15个related）和 prerequisites ≥1（4个prerequisites）
+- [x] 文章/笔记/来源/日志齐全
+- [x] 未修改旧文件（仅追加/修订规定的文件）
+- [x] 无编造来源（所有 PMID 通过 PubMed E-utilities 验证）
+- [x] 无医学诊断/治疗建议
+
+---
+
+## 来源质量统计
+
+| 来源 | PMID | 开放状态 |
+|------|------|---------|
+| Logothetis & Schall 1989 | 2772635 | 摘要 |
+| Logothetis et al. 1996 | 8602261 | 摘要 |
+| Tong et al. 1998 | 9808462 | 摘要 |
+| Leopold & Logothetis 1999 | 10377540 | 摘要 |
+| Blake & Logothetis 2002 | 11823801 | 摘要 |
+| Haynes & Rees 2005 | 16051174 | 摘要 |
+| Brascamp et al. 2015 | 25749677 | 摘要 |
+| Dieter Brascamp et al. 2016 | 27230785 | PMC部分 |
+| Brascamp et al. 2018 | 28854000 | 摘要 |
+| Vanhoyland et al. 2025 | 41397973 | ✅ PMC12705761 全文 |
+| Fritsch et al. 2026 | 41852726 | ✅ PMC12993236 全文 |
+
+**开放全文**：2/11（满足 ≥2 ✅）
+
+---
+
+## 知识图谱状态
+
+- 节点总数：328（+1）
+- 边总数：1894（+11）
+- 今日新节点：binocular-rivalry
+- 今日新边：binocular-rivalry ↔ {attention-consciousness-dissociation, neural-correlates-of-consciousness, v1-primary-visual-cortex, inferior-temporal-cortex, v4-visual-area, global-workspace-theory, recurrent-processing-theory, predictive-coding, attentional-blink, access-consciousness} + attention-consciousness-dissociation→binocular-rivalry
+- 悬空引用填补：binocular-rivalry ✅
+- 剩余悬空引用：aging, cognition, dopamine-system, superior-longitudinal-fasciculus（4个）
+
+---
+
+## 备注与限制
+
+- 系统日期（2026-06-12）与知识库逻辑日期（2026-10-05）存在偏差，原因为前序会话使用不同逻辑日期系统。本次选取 2026-10-05 以维持知识库连续性，避免重复已存在的 2026-06-12 文章。
+- 历史经典论文（1989-2005）只能读摘要，全文在付费期刊（Science, Nature, Neuron, Nat Rev Neurosci, Curr Biol）后面；未使用任何非授权来源
+- 推送目标：claude/funny-einstein-laxf29（环境指定分支）
+
+---
+
+## Git 操作状态
+- 分支：claude/funny-einstein-laxf29（环境指定）
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-10-05
+- Push 状态：[待填写 commit hash]

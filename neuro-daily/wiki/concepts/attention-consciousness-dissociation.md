@@ -6,8 +6,8 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-10-04
-updated: 2026-10-04
-revision_count: 1
+updated: 2026-10-05
+revision_count: 2
 dimensions: [cognition, whole-brain-network, brain-region, methods]
 related: [visual-awareness-negativity, access-consciousness, phenomenal-consciousness, dorsal-attention-network, ventral-attention-network, global-workspace-theory, integrated-information-theory, recurrent-processing-theory, binocular-rivalry, attentional-blink, consciousness-ignition, neural-correlates-of-consciousness]
 prerequisites: [access-consciousness, phenomenal-consciousness, neural-correlates-of-consciousness, dorsal-attention-network]
@@ -28,7 +28,7 @@ Koch & Tsuchiya（2007，PMID:17129748）系统论证了注意与意识是两种
 
 ### 方向 A：有注意，无意识（Attention without Consciousness）
 
-- **双眼竞争 / 连续闪光抑制（CFS）**：被抑制的眼睛呈现刺激，注意可以指向它，但意识报告缺失。被压制刺激仍影响无意识处理（情绪性面孔、文字的语义）。
+- **双眼竞争 / 连续闪光抑制（CFS）**：被抑制的眼睛呈现刺激，注意可以指向它，但意识报告缺失。被压制刺激仍影响无意识处理（情绪性面孔、文字的语义）。详细机制见 [[binocular-rivalry]]：竞争在颞叶表征层（而非V1）发生，互抑制+神经适应驱动翻转，前额叶IFC因果参与推断更新（Fritsch et al. 2026，PMID:41852726）；LOC神经元在翻转前1500ms就开始预测下一个知觉状态（Vanhoyland et al. 2025，PMID:41397973）。
 - **注意瞬脱（Attentional Blink）**：识别 T1 消耗注意资源后，T2 在 200-500ms 窗口内虽有视觉响应但无法进入意识。
 - **盲视（Blindsight）**：V1 损伤患者对盲视野无意识报告，但某种形式的引导功能（隐性注意）仍存在。
 - **不注意盲视（Inattentional Blindness，反向使用）**：强注意集中时，明显刺激消失于意识（"隐形大猩猩"实验，PMID:10694957）。
@@ -103,7 +103,9 @@ Koch & Tsuchiya（2007，PMID:17129748）系统论证了注意与意识是两种
 ## 修订历史
 
 - 2026-10-04 · 创建 · 基于《注意不等于意识》(#164) · 初始置信度：中（双重解离的弱版本已有充分证据；强版本——完全解耦——仍有方法论争议）
+- 2026-10-05 · 修订 · 基于《双眼竞争》(#165) · 补充双眼竞争机制细节：LOC 1500ms预测性活动（Vanhoyland 2025）、IFC因果参与（Fritsch 2026），填充了 [[binocular-rivalry]] 悬空引用
 
 ## 来源文章
 
 - [[2026-10-04-attention-consciousness-dissociation]]
+- [[2026-10-05-binocular-rivalry-visual-competition]]

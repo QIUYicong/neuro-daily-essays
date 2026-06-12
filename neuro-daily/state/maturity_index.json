@@ -270,7 +270,7 @@
       "source_article": "2026-09-24-hemispatial-neglect-attention-imbalance"
     }
   ],
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-10-05",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -315,9 +315,28 @@
       "confidence": "high",
       "last_changed": "2026-09-15",
       "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
+    },
+    {
+      "slug": "binocular-rivalry",
+      "title": "双眼竞争",
+      "page": "wiki/concepts/binocular-rivalry.md",
+      "current_status": "established",
+      "current_confidence": "high",
+      "last_changed": "2026-10-05",
+      "change_reason": "创建；核心机制（互抑制+适应+噪声）和层级竞争定位（表征层>单眼）证据充分；1989-2026年多重独立研究支持；评定established/high。",
+      "history": [
+        {
+          "date": "2026-10-05",
+          "from": null,
+          "to": "established",
+          "confidence_from": null,
+          "confidence_to": "high",
+          "reason": "初始创建"
+        }
+      ]
     }
   ],
-  "total_pages": 26,
+  "total_pages": 27,
   "syngap1": {
     "status": "established",
     "confidence": "high",

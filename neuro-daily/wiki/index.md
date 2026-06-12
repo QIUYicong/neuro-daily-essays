@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-04（**#164** 注意-意识双重解离——γ振荡双解离、VAN/P3b时间解离、Block溢出 vs Cohen必要条件争论；新建1页：attention-consciousness-dissociation；修订2页：VAN rev2, access-consciousness rev2；图谱 327 节点，1883 边）· 主题页总数：**305**
+> 最后更新：2026-10-05（**#165** 双眼竞争——竞争层级（Logothetis 1996刺激交换范式）、知觉追踪梯度（V1→IT/LOC）、互抑制+适应机制、Levelt定律、LOC翻转前1500ms预测活动（Vanhoyland 2025）、IFC因果参与（Fritsch 2026）；新建1页：binocular-rivalry；修订1页：attention-consciousness-dissociation rev2；图谱 328 节点，1894 边；填补悬空引用：binocular-rivalry）· 主题页总数：**306**
 
 ---
 
@@ -221,7 +221,8 @@
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据；Siclari 2017 NREM 睡眠后方顶枕热区 87% 梦境预测（最强无报告 NCC 证据）**[修订 rev3 2026-09-30 #160]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [视觉意识负波（VAN）](concepts/visual-awareness-negativity.md) — 100-300ms 后枕区负波；有意识时出现、无报告时仍持续（vs P3b 无报告时消失）；Pitts 2014 掩蔽×任务无关 2×2 确立；跨模态版本（PAN）；RPT 递归信号 vs 注意调制神经发生器争议 **[NEW 2026-09-30 #160 · 修订 2026-10-04 #164]**
-- 🔵 [注意-意识双重解离](concepts/attention-consciousness-dissociation.md) — 注意（分析器）≠ 意识（综合器）；有注意无意识（CFS/双眼竞争/注意瞬脱/盲视）；无注意有意识（图标记忆溢出/摘要统计/TMS磷光）；γ振荡双解离（54-64Hz=意识，76-90Hz=注意，Wyart 2008）；VAN/P3b时间解离；Block溢出假说 vs Cohen必要条件；状态：mainstream，置信度：中 **[NEW 2026-10-04 #164]**
+- 🔵 [注意-意识双重解离](concepts/attention-consciousness-dissociation.md) — 注意（分析器）≠ 意识（综合器）；有注意无意识（CFS/双眼竞争/注意瞬脱/盲视）；无注意有意识（图标记忆溢出/摘要统计/TMS磷光）；γ振荡双解离（54-64Hz=意识，76-90Hz=注意，Wyart 2008）；VAN/P3b时间解离；Block溢出假说 vs Cohen必要条件；状态：mainstream，置信度：中（rev2，填充binocular-rivalry细节）**[rev2 2026-10-05]**
+- 🟢 [双眼竞争](concepts/binocular-rivalry.md) — 两眼不兼容图像→知觉自发周期切换（2-4s支配）；竞争在表征层非单眼（Logothetis 1996刺激交换）；皮层知觉追踪梯度（V1=眼，V4=35%，IT/FFA=90%）；互抑制+神经适应+噪声机制；Levelt定律（修订版）；前额叶IFC因果参与（Fritsch 2026损伤研究）；LOC翻转前1500ms预测意识（Vanhoyland 2025人类单神经元）；注意依赖性独特；状态：established，置信度：高 **[NEW 2026-10-05 #165；填补悬空引用]**
 - 🔵 [认知运动解离（CMD）](concepts/cognitive-motor-dissociation.md) — 无行为输出但 fMRI/EEG 检测到任务相关神经激活；15–25% DoC 患者阳性（Claassen 2019 PMID:31242361；Bodien 2024 NEJM）；CMD 阳性者 12 个月恢复率 44% vs 14%（OR=4.6）；终极无报告范式 **[NEW 2026-10-02 #162]**
 - 🟢 [通达意识（A-consciousness）](concepts/access-consciousness.md) — Block 1995 区分：信息可被认知系统使用/报告即为通达意识；P3b 是 A-consciousness NCC（无报告时消失）；GWT 广播描述的是 A-consciousness；HOT 的高阶表征使 A-consciousness 成为 P-consciousness 的必要条件；溢出争议（P>A？） **[NEW 2026-09-30 #160]**
 - 🔵 [现象意识（P-consciousness）](concepts/phenomenal-consciousness.md) — Block 1995 区分：主观内在体验质/qualia（"红色看起来的样子"）；Chalmers 难问题的所指；Siclari 2017 睡眠无报告梦境与后方皮层高频活动相关；VAN 是比 P3b 更好的 P-consciousness NCC 候选；四大理论对 P 的不同机制预测 **[NEW 2026-09-30 #160]**

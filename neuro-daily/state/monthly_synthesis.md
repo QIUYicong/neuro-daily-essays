@@ -1190,3 +1190,22 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 重大争议：Cohen et al. 2012（PMID:22795561）提出严肃反驳：**注意是意识的必要条件**——所有"无注意有意识"的实验在方法论上都无法完全排除注意残余。这是当前未解问题 Q-atcon-01 的根源。VAN 是否混合了内隐注意成分（Q-atcon-02）和溢出 vs 稀疏争论（Q-atcon-03）同样悬而未决。
 
 **新建** wiki/concepts/attention-consciousness-dissociation（Rev1，mainstream/medium）。**修订**：visual-awareness-negativity rev2（补充与注意-意识解离框架的连接）、access-consciousness rev2（补充 A vs P 区分与解离的关系，新增 PMID:22078929）。**图谱**：327 节点，1883 条边（+1节点，+10边）。**来源**：9篇（4篇开放全文，5篇摘要）。**层级**：cognition（意识专辑继续；近期层级：cognition/disease/brain-region/whole-brain-network，连续四天 cognition 层，明日应转向分子/细胞层或方法层）。**新增未解**：Q-atcon-01（高，证明注意为零的范式）、Q-atcon-02（中，VAN 注意成分比例）、Q-atcon-03（中，溢出 vs 稀疏）。
+
+
+**#165（2026-10-05）**：双眼竞争：当两眼看到不同的世界，谁在决定你看到什么？
+
+填补 2026-10-04 文章遗留的 `binocular-rivalry` 悬空引用，同时将注意-意识解离系列从抽象理论框架落地到最经典的实验范式。核心叙事：**双眼竞争（Binocular Rivalry）是神经科学目前最有力的"分离物理刺激与意识内容"实验工具——物理刺激不变，意识内容周期性翻转（每次约2-4秒），由此可以精确定位意识的神经相关物（NCC）**。
+
+Logothetis等1996（PMID:8602261，《自然》）的刺激交换范式——知觉支配跨越多次双眼图像互换而维持——决定性地证明：双眼竞争的竞争位点**不在单眼层/LGN，而在更高层的表征皮层**。这将竞争定位排除了V1眼优势柱作为主要场所的可能。皮层知觉追踪比例随层级升高：V1主要追踪眼信号（Haynes & Rees 2005，PMID:16051174）；V4~35%；IT/STS~90%（Logothetis & Schall 1989，PMID:2772635）；人类FFA/PPA追踪知觉内容（Tong et al. 1998，PMID:9808462）。
+
+机制层面：**互抑制网络**（两个竞争表征通过GABA中间神经元互相压制）+ **神经适应/疲劳**（支配神经元随时间响应减弱）+ **噪声**（决定翻转具体时刻）= 支配期对数正态分布的翻转动力学。Levelt四定律描述刺激强度与支配期的规律，2015年Brascamp等（PMID:25749677）给出了修订版，与互抑制+适应模型定量一致。
+
+前额叶角色：Brascamp等2018（PMID:28854000，Annual Review）整合多稳态感知与贝叶斯推断，提出前额顶叶是"知觉假说更新"的执行器。Fritsch等2026（PMID:41852726，iScience，全文，PMC12993236）用右IFC缺血性卒中患者（n=9）提供**直接因果证据**：IFC损伤组多稳态翻转期均值延长36%（19.33s vs 14.14s），证明下额叶皮层在感知重估中有主动因果贡献。
+
+最新发现：Vanhoyland等2025（PMID:41397973，Nature Communications，全文，PMC12705761）在人类外侧枕叶复合区（LOC）记录单神经元——翻转前约**1500ms**，神经活动已开始向即将到来的知觉状态转移。这是预测编码框架的强力支撑：大脑在翻转发生之前就在"预计算"下一个最可能的知觉状态，而不是等待翻转后才更新。
+
+注意依赖性的特殊性：Dieter & Brascamp等2016（PMID:27230785）发现双眼竞争翻转在注意被高认知负荷任务消耗时**几乎停止**，而其他双稳态（内克尔立方体）继续——双眼竞争对注意的独特依赖可能源于其需要整合来自独立视觉通路的信号流。
+
+**认知地图更新**：双眼竞争的层级竞争证据绘制了"从眼到意识"的皮层地图：V1是眼信号中继，V4/IT是渐进意识化的中间层，LOC/FFA/PPA是意识内容的高层锚点，前额叶是更新意识假说的推断器。翻转不是信号战争的胜负判定，而是贝叶斯大脑在矛盾输入下的周期性"假说更新"。
+
+**新建** wiki/concepts/binocular-rivalry（Rev1，established/high）；填补悬空引用 binocular-rivalry。**修订**：attention-consciousness-dissociation rev2（补充双眼竞争机制细节）。**图谱**：328 节点，1894 条边（+1节点，+11边）。**剩余悬空引用**：aging、cognition、dopamine-system、superior-longitudinal-fasciculus（共4个）。**来源**：11篇（2篇开放全文，9篇摘要）。**层级**：cellular + microcircuit + brain-region + cognition（切换层级，结束连续多天纯 cognition 层）。**新增未解**：Q-rivalry-01（高，V1意识角色与RPT矛盾）、Q-rivalry-02（中，被抑制表征的加工深度）、Q-rivalry-03（中，LOC预测活动的普遍性和因果角色）。

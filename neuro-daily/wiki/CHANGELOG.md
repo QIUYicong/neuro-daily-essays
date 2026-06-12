@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-10-05（文章 #165：双眼竞争——当两眼看到不同的世界，谁在决定你看到什么？）
+
+### 新创建页面（1 页）
+- `concepts/binocular-rivalry.md`（双眼竞争）：**填补悬空引用**（图谱中 binocular-rivalry 自 2026-10-04 被 attention-consciousness-dissociation 引用）。覆盖竞争层级定位（Logothetis 1996 刺激交换实验）、皮层知觉追踪梯度（V1→IT/FFA/LOC）、互抑制+神经适应机制、Levelt定律修订、注意依赖性（双眼竞争独特于其他双稳态）、前额叶IFC因果参与（Fritsch 2026，损伤研究）、LOC翻转前1500ms预测性活动（Vanhoyland 2025 人类单神经元）；9 条关键来源；状态 established，置信度高。
+
+### 修订页面（1 页）
+- `concepts/attention-consciousness-dissociation.md`（revision_count: 1→2）：填充 [[binocular-rivalry]] 悬空引用；补充双眼竞争机制细节（LOC预测性活动、IFC因果参与）。
+
+### 悬空引用状态
+- `binocular-rivalry`：✅ 已填补（本次创建）
+- `inattentional-blindness`：仍待填（候选下次）
+- `aging`、`cognition`、`dopamine-system`、`superior-longitudinal-fasciculus`：持续未填
+
+### 知识图谱更新
+- 新节点：binocular-rivalry（节点总数：328）
+- 新边：11 条（边总数：1894）
+
+---
+
 ## 2026-10-04（文章 #164：注意不等于意识——探照灯与舞台灯光的神经科学分离）
 
 ### 新创建页面（1 页）

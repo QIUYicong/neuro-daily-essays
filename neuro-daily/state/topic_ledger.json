@@ -10902,6 +10902,89 @@
         "superior-longitudinal-fasciculus 专页：填补悬空引用，连接语言网络与空间注意的背侧通路",
         "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？"
       ]
+    },
+    {
+      "date": "2026-10-05",
+      "title": "双眼竞争：当两眼看到不同的世界，谁在决定你看到什么？",
+      "filename": "2026-10-05-binocular-rivalry-visual-competition.md",
+      "wiki_pages_created": [
+        "wiki/concepts/binocular-rivalry.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/attention-consciousness-dissociation.md"
+      ],
+      "contested_claims_logged": [],
+      "dangling_refs_resolved": [
+        "binocular-rivalry"
+      ],
+      "core_question": "当两眼接收相互竞争的图像时，知觉为何会周期性翻转？翻转发生在视觉层级的何处（V1/颞叶/前额叶），由什么机制驱动（互抑制/神经适应/推断更新）？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "methods"
+      ],
+      "curriculum_track": "8.意识与自我（双眼竞争范式、NCC定位、视觉意识层级）",
+      "topic_tags": [
+        "binocular rivalry",
+        "visual competition",
+        "Levelt propositions",
+        "mutual inhibition",
+        "neural adaptation",
+        "winner-take-all",
+        "fusiform face area",
+        "parahippocampal place area",
+        "lateral occipital complex",
+        "inferior temporal cortex",
+        "V1 ocular dominance",
+        "perception-tracking neurons",
+        "stimulus swap paradigm",
+        "Logothetis 1996",
+        "Tong 1998",
+        "Haynes Rees 2005",
+        "Brascamp 2015 2018",
+        "Vanhoyland 2025",
+        "Fritsch 2026",
+        "inferior frontal cortex",
+        "frontoparietal cortex",
+        "predictive processing",
+        "Bayesian inference",
+        "multistable perception",
+        "global workspace theory",
+        "recurrent processing theory",
+        "binocular rivalry attention dependence",
+        "continuous flash suppression",
+        "NCC paradigm"
+      ],
+      "main_sources": [
+        "PMID:2772635 (Logothetis & Schall 1989, Science, 摘要)",
+        "PMID:8602261 (Logothetis Leopold Sheinberg 1996, Nature, 摘要)",
+        "PMID:9808462 (Tong et al. 1998, Neuron, 摘要)",
+        "PMID:10377540 (Leopold & Logothetis 1999, Trends Cogn Sci, 摘要)",
+        "PMID:11823801 (Blake & Logothetis 2002, Nat Rev Neurosci, 摘要)",
+        "PMID:16051174 (Haynes & Rees 2005, Curr Biol, 摘要)",
+        "PMID:25749677 (Brascamp et al. 2015, Vision Res, 摘要)",
+        "PMID:27230785 (Dieter Brascamp et al. 2016, Atten Percept Psychophys, PMC开放)",
+        "PMID:28854000 (Brascamp et al. 2018, Annu Rev Psychol, 摘要)",
+        "PMID:41397973 PMC12705761 (Vanhoyland et al. 2025, Nat Commun, 全文)",
+        "PMID:41852726 PMC12993236 (Fritsch et al. 2026, iScience, 全文)"
+      ],
+      "unresolved_questions": [
+        "Q-rivalry-01: V1究竟是完全被动的眼信号传递者还是弱但真实的意识贡献者？RPT强版本与双眼竞争数据的矛盾",
+        "Q-rivalry-02: 被抑制眼图像在哪个层级被加工？这种无意识加工能否累积影响下一次翻转概率？",
+        "Q-rivalry-03: LOC翻转前1500ms预测活动是否见于其他意识范式？它是早期传感器还是推断执行器？"
+      ],
+      "next_suggested_topics": [
+        "inattentional-blindness 专页：填补悬空引用，双眼竞争之后自然延伸，不注意盲视与意识的关系",
+        "superior-longitudinal-fasciculus 专页：填补图谱悬空引用，连接语言/注意/视觉的背侧白质束",
+        "inferior-temporal-cortex 专页：深化IT/FFA/PPA知觉梯度，LOC的腹侧流上下文",
+        "连续闪光抑制（CFS）专页：双眼竞争的延伸范式，高强度闪光持续抑制图像长达分钟",
+        "意识的时间维度：Dehaene 300ms门控 vs Lamme递归延迟——两个预测如何区分？（延续意识系列）"
+      ],
+      "mode": "gap-filling + curriculum",
+      "article_number": 165,
+      "note": "第165篇。填补2026-10-04注意-意识文章引发的'binocular-rivalry'悬空引用。切换到cellular/microcircuit/brain-region层级（从纯认知层多天后的层级换换）。2个开放全文：Vanhoyland 2025（LOC单神经元）和Fritsch 2026（IFC损伤），两篇均为2025-2026年新发表。知识图谱：328节点，1894边。"
     }
   ],
   "layer_coverage_recent": [
