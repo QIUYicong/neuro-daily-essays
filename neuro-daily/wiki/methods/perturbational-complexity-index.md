@@ -6,14 +6,14 @@ type: method
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-09-29
-revision_count: 2
-dimensions: [methods, whole-brain-network, brain-region]
-related: [integrated-information-theory, phi-measure, optogenetics, critical-dynamics, default-mode-network, alzheimers-disease]
+updated: 2026-10-02
+revision_count: 3
+dimensions: [methods, whole-brain-network, brain-region, disease]
+related: [integrated-information-theory, phi-measure, optogenetics, critical-dynamics, default-mode-network, alzheimers-disease, disorders-of-consciousness, cognitive-motor-dissociation]
 prerequisites: [integrated-information-theory, phi-measure]
-opens_questions: [Q-iit-01, Q-pci-01, Q-pci-02, Q-pci-03]
-source_articles: [2026-05-31-integrated-information-theory, 2026-09-29-phi-computation-pci-consciousness-measurement]
-key_sources: ["PMID:23946194", "PMID:26752078", "PMID:39103539", "PMID:40478900", "PMID:39300529", "PMID:41574278", "PMID:42090748"]
+opens_questions: [Q-iit-01, Q-pci-01, Q-pci-02, Q-pci-03, Q-phi-01]
+source_articles: [2026-05-31-integrated-information-theory, 2026-09-29-phi-computation-pci-consciousness-measurement, 2026-10-02-disorders-of-consciousness-spectrum-clinical-theories]
+key_sources: ["PMID:23946194", "PMID:26752078", "PMID:39103539", "PMID:40478900", "PMID:39300529", "PMID:41574278", "PMID:42090748", "PMID:27717082"]
 ---
 
 # 扰动复杂性指数 (Perturbational Complexity Index, PCI)
@@ -168,8 +168,10 @@ PCI 的局限：受 TMS 刺激位置、EEG 参考、患者配合度等技术因�
 
 - 2026-05-31 · 创建 · 基于《意识等于整合信息》(#29) · 初始置信度：高（PCI 作为临床方法有多中心验证支持，与 IIT 的理论关系虽有争议，但方法本身价值独立）
 - 2026-09-29 · 修订 · 基于《当意识被计算》(#159) · 新增 Maschke 2024（临界动力学替代解释）；新增 Stikvoort 2025（非平衡有效连接框架）；新增 Xu 2024（rTMS RCT，PCIst 预测疗效，35%响应率）；新增 Hagan 2026（AD PCIst：20.1 vs 28.2）；新增 Fecchio 2026（ICU 应用）；新增 PCI vs Φ 比较表；新增 Q-pci-01/02/03；更新 related（critical-dynamics、default-mode-network、neural-correlates-of-consciousness）
+- 2026-10-02 · 修订 · 基于《意识障碍的临床谱系》(#162) · 补充 Casarotto 2016（PMID:27717082）的完整验证数据（PCI* = 0.31，MCS 94.7%，VS 21% 高 PCI，6个月预后数据）；新增 related（disorders-of-consciousness、cognitive-motor-dissociation）；将 DoC 临床应用作为 PCI 的核心语境明确化；添加 Q-phi-01
 
 ## 来源文章
 
 - [[2026-05-31-integrated-information-theory]]
 - [[2026-09-29-phi-computation-pci-consciousness-measurement]]
+- [[2026-10-02-disorders-of-consciousness-spectrum-clinical-theories]]

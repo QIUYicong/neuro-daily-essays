@@ -4,8 +4,8 @@
 
 ## 2026年10月（进行中）
 
-*本月截至日期：2026-10-01*
-*本月新增文章：#161；共 1 篇（月度第1篇）。10-01 第七期周综合（意识科学专辑）：综合 #151–#160 十篇文章；三叙事线（振荡基础设施→注意网络→胼胝体裂脑→四大意识理论实验战场）；COGITATE 2025 双重挑战（GWT offset ignition 0/655 电极，IIT gamma 同步 3.8% 电极）；A/P consciousness 分离作为方法论转折；VAN 作为 P-consciousness 最佳无报告 NCC 候选；新增未解问题 Q-unified-01/Q-ncc-01/Q-cogitate-01/Q-phi-01*
+*本月截至日期：2026-10-02*
+*本月新增文章：#161–#162；共 2 篇（月度第1–2篇）。10-01 第七期周综合（意识科学专辑）：综合 #151–#160 十篇文章；三叙事线（振荡基础设施→注意网络→胼胝体裂脑→四大意识理论实验战场）；COGITATE 2025 双重挑战（GWT offset ignition 0/655 电极，IIT gamma 同步 3.8% 电极）；A/P consciousness 分离作为方法论转折；VAN 作为 P-consciousness 最佳无报告 NCC 候选；新增未解问题 Q-unified-01/Q-ncc-01/Q-cogitate-01/Q-phi-01。10-02 意识障碍临床谱系（DoC 系列开篇）：VS/UWS/MCS/LIS/CMD/PCI；行为≠意识的临床证明；25% CMD 阳性率（Bodien 2024 NEJM）；PCI* = 0.31 的临床验证（Casarotto 2016）；VS 21% 高 PCI 亚组 67% 六个月恢复率；意识理论在 DoC 患者床边接受体内检验；新建4页（DoC, CMD, VS, MCS），修订2页（PCI, NCC）*
 
 ---
 

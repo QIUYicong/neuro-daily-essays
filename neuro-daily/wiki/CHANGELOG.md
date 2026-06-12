@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-10-02（文章 #162：意识障碍的临床谱系——植物状态、最小意识状态、锁闭综合征与认知运动解离如何成为意识理论的体内检验台）
+
+### 新建 wiki 页面（4 页）
+
+- `diseases/disorders-of-consciousness.md`（新建）：意识障碍谱系的总纲页面，涵盖 VS/MCS/LIS/CMD/PCI 的临床分类和神经基础；来源 Casarotto 2016, Claassen 2019, Bodien 2024, ISICEM 2025
+- `concepts/cognitive-motor-dissociation.md`（新建）：认知运动解离（CMD）——行为无反应但神经有响应；15–25% DoC 患者阳性；Claassen 2019 + Bodien 2024 关键证据
+- `diseases/vegetative-state.md`（新建）：植物状态 / 无反应觉醒综合征（VS/UWS）；40% 误判率；PCI 三组分层（30%无测、49%低、21%高）；6 个月预后数据
+- `diseases/minimally-conscious-state.md`（新建）：最小意识状态（MCS）；MCS-/MCS+ 亚分类；PCI 94.7% 阳性；金刚烷胺治疗证据
+
+### 修订 wiki 页面（2 页）
+
+- `methods/perturbational-complexity-index.md` rev2→rev3：补充 Casarotto 2016（PMID:27717082）DoC 临床应用的完整验证数据；新增 disorders-of-consciousness 和 cognitive-motor-dissociation 到 related；补充 Q-phi-01
+- `concepts/neural-correlates-of-consciousness.md` rev2→rev3：新增 disorders-of-consciousness 和 cognitive-motor-dissociation 到 related（DoC 是检验 NCC 最直接的临床数据集；CMD 是自然无报告范式）；补充 key_sources（PMID:27717082, PMID:31242361）
+
+### 矛盾条目更新（无新矛盾）
+
+- 无新矛盾登记。CMD 存在的哲学问题（"CMD = 意识？"）已记入 cognitive-motor-dissociation.md 的未解问题，但不构成与既有 wiki 主张的直接冲突（NCC 框架已包含无报告范式的不确定性）
+
+### 图谱变化
+
+- 新增节点：4（disorders-of-consciousness, cognitive-motor-dissociation, vegetative-state, minimally-conscious-state）
+- 新增边：13（包括 is-a, mechanism-of, supports, related 等类型）
+- 节点总数：325；边总数：1865
+- 悬空引用减少（disorders-of-consciousness 等新节点填补了 PCI 页面的部分悬空引用）
+- 剩余悬空引用：aging, anterior-commissure, cognition, dopamine-system, superior-longitudinal-fasciculus
+
+---
+
 ## 2026-10-01（文章 #161：第七期周综合——振荡、胼胝体与高阶表征如何共同描绘意识神经科学的坐标系）
 
 ### 新建 wiki 页面（0 页）

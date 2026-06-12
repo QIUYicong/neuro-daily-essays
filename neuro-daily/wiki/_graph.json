@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-01",
-  "node_count": 303,
-  "edge_count": 1760,
+  "updated": "2026-10-02",
+  "node_count": 325,
+  "edge_count": 1865,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2906,6 +2906,42 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/phenomenal-consciousness.md"
+    },
+    {
+      "id": "disorders-of-consciousness",
+      "title": "意识障碍",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/disorders-of-consciousness.md"
+    },
+    {
+      "id": "cognitive-motor-dissociation",
+      "title": "认知运动解离",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/cognitive-motor-dissociation.md"
+    },
+    {
+      "id": "vegetative-state",
+      "title": "植物状态 / 无反应觉醒综合征",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/vegetative-state.md"
+    },
+    {
+      "id": "minimally-conscious-state",
+      "title": "最小意识状态",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/minimally-conscious-state.md"
     }
   ],
   "edges": [
@@ -12756,6 +12792,71 @@
     {
       "from": "phenomenal-consciousness",
       "to": "posterior-cortical-hot-zone",
+      "type": "related"
+    },
+    {
+      "from": "vegetative-state",
+      "to": "disorders-of-consciousness",
+      "type": "is-a"
+    },
+    {
+      "from": "minimally-conscious-state",
+      "to": "disorders-of-consciousness",
+      "type": "is-a"
+    },
+    {
+      "from": "cognitive-motor-dissociation",
+      "to": "disorders-of-consciousness",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cognitive-motor-dissociation",
+      "to": "neural-correlates-of-consciousness",
+      "type": "supports"
+    },
+    {
+      "from": "cognitive-motor-dissociation",
+      "to": "no-report-paradigm",
+      "type": "related"
+    },
+    {
+      "from": "perturbational-complexity-index",
+      "to": "disorders-of-consciousness",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "perturbational-complexity-index",
+      "to": "cognitive-motor-dissociation",
+      "type": "related"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "integrated-information-theory",
+      "type": "related"
+    },
+    {
+      "from": "vegetative-state",
+      "to": "minimally-conscious-state",
+      "type": "related"
+    },
+    {
+      "from": "vegetative-state",
+      "to": "cognitive-motor-dissociation",
+      "type": "related"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "perturbational-complexity-index",
       "type": "related"
     }
   ],

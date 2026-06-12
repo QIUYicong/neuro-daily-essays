@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-01",
-  "total_articles": 161,
+  "last_updated": "2026-10-02",
+  "total_articles": 162,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10687,6 +10687,85 @@
         "意识障碍的临床谱系：VS/MCS/LIS 患者如何成为意识理论的体内检验台？PCI 十年临床数据评估",
         "HOPT vs HOTT：高阶感知理论与高阶思维理论的内部分歧，以及与神经成像的对比",
         "预测处理框架下的意识：自由能原理如何整合感知/记忆/情绪/意识？"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "real_date": "2026-06-12",
+      "article_number": 162,
+      "title": "意识障碍的临床谱系：当神经科学在病床边检验意识理论",
+      "slug": "disorders-of-consciousness-spectrum-clinical-theories",
+      "filename": "2026-10-02-disorders-of-consciousness-spectrum-clinical-theories.md",
+      "article_type": "regular",
+      "core_question": "当一个人无法用任何行为证明自己有意识，神经科学如何判断意识是否存在？植物状态（VS/UWS）、最小意识状态（MCS）、锁闭综合征（LIS）与认知运动解离（CMD）如何重塑了意识的测量逻辑，并反过来检验了 GWT、IIT、RPT 等意识理论？",
+      "layer": [
+        "cognition",
+        "disease",
+        "methods",
+        "whole-brain-network"
+      ],
+      "curriculum_track": "8. 意识与自我（意识系列从理论到临床：GWT/IIT/RPT/HOT 在 DoC 患者中接受体内检验）× 11. 疾病作为窗口（VS/MCS/LIS/CMD 作为意识的临床检验台）",
+      "topic_tags": [
+        "disorders of consciousness",
+        "DoC",
+        "vegetative state",
+        "UWS",
+        "minimally conscious state",
+        "MCS",
+        "locked-in syndrome",
+        "LIS",
+        "cognitive motor dissociation",
+        "CMD",
+        "covert consciousness",
+        "perturbational complexity index",
+        "PCI",
+        "TMS-EEG",
+        "fMRI mental imagery",
+        "Owen 2006",
+        "Casarotto 2016",
+        "Claassen 2019",
+        "Bodien 2024",
+        "ISICEM 2025",
+        "Kazazian 2025",
+        "thalamocortical",
+        "posterior cortical hot zone",
+        "CRS-R",
+        "prognosis",
+        "amantadine"
+      ],
+      "main_sources": [
+        "PMID:27717082 (Casarotto 2016 - PCI, Ann Neurol, PMC open)",
+        "PMID:31242361 (Claassen 2019 - EEG CMD 15%, NEJM, abstract only)",
+        "DOI:10.1056/NEJMoa2400645 (Bodien 2024 - CMD 25% multinational, NEJM, abstract only)",
+        "PMID:39997570 (Kazazian 2025 - clinical implementation, Brain, PMC open)",
+        "PMID:41396553 (ISICEM 2025 roundtable, Intensive Care Med, PMC open)",
+        "PMID:38217619 (Young 2024 - covert consciousness review, NeuroRehab, PMC open)",
+        "DOI:10.1126/science.1130197 (Owen 2006 - VS fMRI, Science, abstract only)",
+        "PMID:37786588 (Maciejewicz 2022 - LIS review, iBrain, PMC open)",
+        "PMID:30098792 (Giacino 2018 - AAN guidelines, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/diseases/disorders-of-consciousness.md (new)",
+        "wiki/concepts/cognitive-motor-dissociation.md (new)",
+        "wiki/diseases/vegetative-state.md (new)",
+        "wiki/diseases/minimally-conscious-state.md (new)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/methods/perturbational-complexity-index.md (rev2→rev3)",
+        "wiki/concepts/neural-correlates-of-consciousness.md (rev2→rev3)"
+      ],
+      "unresolved_questions": [
+        "CMD 是否等同于主观意识体验，还是只是功能性神经激活？（核心哲学问题）",
+        "PCI 跨机构重复性：不同设备、不同刺激位点的 PCI 变异度如何？",
+        "是否应该将 CMD 纳入 DoC 的官方诊断类别（UWS/MCS/CMD 三分？）",
+        "DoC 患者的时间维度：从 VS 到 MCS 的自发恢复率和机制是什么？",
+        "见 Q-ncc-01：VAN 能否在 MCS 患者中稳定检测？"
+      ],
+      "next_suggested_topics": [
+        "意识恢复的神经机制：从 VS 到 MCS 的恢复轨迹，丘脑-皮层连接的重建窗口（将 DoC 系列与睡眠/神经可塑性连接）",
+        "anterior-commissure 专页：从裂脑 + AgCC 研究中补齐悬空引用，胼胝体 vs 前连合功能分工",
+        "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？（理论侧延续）",
+        "attention-consciousness dissociation 专页：注意与意识的双重解离实验证据（无注意有意识 / 有注意无意识）"
       ]
     }
   ],

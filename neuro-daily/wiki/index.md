@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-01（**#161** 周综合·意识科学坐标系——综合 #151–#160 十篇文章（δ振荡/语言/注意/胼胝体/裂脑/RPT/IIT/GWT/HOT）；新建0页；修订3页：adversarial-collaboration rev2, GWT rev10, IIT rev7；图谱 321 节点，1852 边；悬空引用5个待补）· 主题页总数：**300**（无新增）
+> 最后更新：2026-10-02（**#162** 意识障碍临床谱系——DoC, VS/UWS, MCS, LIS, CMD, PCI 临床检验意识理论；新建4页：disorders-of-consciousness, cognitive-motor-dissociation, vegetative-state, minimally-conscious-state；修订2页：PCI rev3, NCC rev3；图谱 325 节点，1865 边；悬空引用5个待补）· 主题页总数：**304**
 
 ---
 
@@ -221,6 +221,7 @@
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据；Siclari 2017 NREM 睡眠后方顶枕热区 87% 梦境预测（最强无报告 NCC 证据）**[修订 rev3 2026-09-30 #160]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [视觉意识负波（VAN）](concepts/visual-awareness-negativity.md) — 100-300ms 后枕区负波；有意识时出现、无报告时仍持续（vs P3b 无报告时消失）；Pitts 2014 掩蔽×任务无关 2×2 确立；跨模态版本（PAN）；RPT 递归信号 vs 注意调制神经发生器争议 **[NEW 2026-09-30 #160]**
+- 🔵 [认知运动解离（CMD）](concepts/cognitive-motor-dissociation.md) — 无行为输出但 fMRI/EEG 检测到任务相关神经激活；15–25% DoC 患者阳性（Claassen 2019 PMID:31242361；Bodien 2024 NEJM）；CMD 阳性者 12 个月恢复率 44% vs 14%（OR=4.6）；终极无报告范式 **[NEW 2026-10-02 #162]**
 - 🟢 [通达意识（A-consciousness）](concepts/access-consciousness.md) — Block 1995 区分：信息可被认知系统使用/报告即为通达意识；P3b 是 A-consciousness NCC（无报告时消失）；GWT 广播描述的是 A-consciousness；HOT 的高阶表征使 A-consciousness 成为 P-consciousness 的必要条件；溢出争议（P>A？） **[NEW 2026-09-30 #160]**
 - 🔵 [现象意识（P-consciousness）](concepts/phenomenal-consciousness.md) — Block 1995 区分：主观内在体验质/qualia（"红色看起来的样子"）；Chalmers 难问题的所指；Siclari 2017 睡眠无报告梦境与后方皮层高频活动相关；VAN 是比 P3b 更好的 P-consciousness NCC 候选；四大理论对 P 的不同机制预测 **[NEW 2026-09-30 #160]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
@@ -342,6 +343,9 @@
 - 🟢 [空间忽视（Hemispatial Neglect）](diseases/spatial-neglect.md) — 右半球腹侧额顶颞网络（TPJ/STG/IPL/VFC及SLF白质）损伤后的多维注意综合征；VAN损伤→DAN半球间失衡→空间偏斜（Corbetta & Shulman 2011）；四维崩塌：感知忽视/运动忽视/表征忽视（Bisiach米兰实验）/病觉缺失；25-50%右侧卒中患者受累；棱镜适应疗法（Rossetti 1998）；恢复依赖网络功能连接归一化（Ramsey et al. 2016）**[NEW 2026-09-24 #154]**
 - 🟢 [胼胝体缺失症（AgCC）](diseases/agenesis-corpus-callosum.md) — 胼胝体先天部分/完全缺失，1/4000；核心缺陷：跨半球传递速度、处理速度、复杂推理/流体智力、社会认知；保留：晶体智力、过度学习技能（IQ通常>80）；代偿：前连合+发育可塑性；先天缺失比成年切除损害更轻（揭示可塑性关键期） **[NEW 2026-09-26 #156]**
 - 🔵 [异手综合征（AHS）](diseases/alien-hand-syndrome.md) — 一只手出现不受意志控制的复杂目的性动作；agency（意志感）与运动执行解离；三亚型（前型/SMA、后型/顶叶、胼胝体型）；corpus-callosum型与裂脑手术相关；是 agency-consciousness 可分离性的临床证明 **[NEW 2026-09-27 #157]**
+- 🟢 [意识障碍（DoC）](diseases/disorders-of-consciousness.md) — 严重脑损伤后意识受损的临床谱系（VS/UWS、MCS、LIS、CMD）；PCI 为理论中立的意识量化工具；25% 行为无反应 DoC 患者存在隐蔽意识（CMD）；丘脑-皮层广播网络是核心神经基础 **[NEW 2026-10-02 #162]**
+- 🟢 [植物状态 / 无反应觉醒综合征（VS/UWS）](diseases/vegetative-state.md) — 40% 误判率；PCI 将 VS 分为三组（30%无测/49%低/21%高）；高 PCI VS 组六个月恢复率 67% **[NEW 2026-10-02 #162]**
+- 🟢 [最小意识状态（MCS）](diseases/minimally-conscious-state.md) — 不一致但可重复的意识迹象；MCS-/MCS+ 亚分类；PCI 94.7% 阳性；金刚烷胺有中等证据 **[NEW 2026-10-02 #162]**
 
 ---
 

@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-10-01*
+*最后更新：2026-10-02*
+
+---
+
+## 2026-10-02 新增（来自"意识障碍的临床谱系" #162）
+
+### Q-doc-01（高优先级）：CMD 检测阳性是否等同于有主观意识体验？
+
+- **关联 wiki**：[[cognitive-motor-dissociation]]、[[neural-correlates-of-consciousness]]、[[phenomenal-consciousness]]
+- **来源文章**：2026-10-02-disorders-of-consciousness-spectrum-clinical-theories
+- **问题**：fMRI/EEG 中 CMD 阳性（响应"想象握拳"指令）是否证明患者有主观意识？
+  - 问题 A：CMD 是否等同于 A-consciousness（可通达意识），还是可能是无意识的神经回路激活？
+  - 问题 B：EEG 机器学习分类器的假阳性率在没有"金标准"的情况下如何评估？
+  - 问题 C：CMD 阳性与预后改善（OR=4.6）的相关性是否足以说明其反映了真实意识活动？
+- **当前证据状态**：CMD 与功能恢复正相关（支持真实意识活动）；哲学上的主观体验问题无法直接技术验证
+
+### Q-doc-02（中优先级）：VS 患者丘脑-皮层连接是否可被神经调控重建？
+
+- **关联 wiki**：[[disorders-of-consciousness]]、[[vegetative-state]]
+- **来源文章**：2026-10-02-disorders-of-consciousness-spectrum-clinical-theories
+- **问题**：金刚烷胺对 MCS 有效，对 VS 弱——是否提示两者恢复机制根本不同？LIFU 丘脑刺激是否有前景？
+- **当前证据状态**：金刚烷胺中等证据（RCT）；LIFU 初步阳性但规模很小；大规模 RCT 缺乏
+
+### Q-doc-03（中优先级）：PCI 跨机构重复性与临床标准化
+
+- **关联 wiki**：[[perturbational-complexity-index]]、[[disorders-of-consciousness]]
+- **来源文章**：2026-10-02-disorders-of-consciousness-spectrum-clinical-theories
+- **问题**：PCI 对刺激位点和 EEG 参考方案有多敏感？是否有简化版本可用于资源有限环境？
+- **当前证据状态**：Casarotto 2016 跨中心验证良好；标准化协议未公开；FDA/CE 认证状态未知
 
 ---
 

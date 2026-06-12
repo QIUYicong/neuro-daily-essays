@@ -1,0 +1,150 @@
+日期：2026-10-02（系列日期）/ 真实日期：2026-06-12
+文章编号：#162
+运行状态：成功
+
+---
+
+## 选题过程
+
+- 读取 topic_ledger.json（last_updated: 2026-10-01，total_articles: 161）
+- 读取 unresolved_questions.md（最新问题 Q-ncc-01, Q-cogitate-01 等来自 #161）
+- 读取 contested_claims.json（12 条 open，含 C-2026-05-31-01/02 关于 GWT/IIT 的核心争议）
+- 读取 _graph.json（325 节点，1852 边，5 个悬空引用）
+
+**选题优先级评估**：
+- 突破追踪：否（近 7 天无重大新发现触发）
+- 悬空引用填补：anterior-commissure（第一候选），但意义不如 DoC 系列重要
+- 课程脊柱继续：意识系列（Ch.8）从理论转向临床应用，自然延续
+- next_suggested_topics 中优先级最高：意识障碍临床谱系（多次被建议，连接 Q-ncc-01 和 CMD 研究）
+
+**最终选题**：意识障碍的临床谱系（DoC——VS/MCS/LIS/CMD/PCI），文章日期 2026-10-02
+
+---
+
+## 检索过程
+
+**搜索词**：
+- "disorders of consciousness vegetative state minimally conscious state PCI"
+- "Casarotto 2016 perturbational complexity index unresponsive"
+- "Owen 2006 Science detecting awareness vegetative state fMRI"
+- "Claassen 2019 NEJM EEG cognitive motor dissociation"
+- "Bodien 2024 NEJM CMD multinational study"
+- "disorders of consciousness 2024 2025 review covert consciousness"
+
+**数据源**：
+- PubMed Central（PMC Open Access）：主要来源
+- PubMed 摘要：补充来源
+- Web Search：文献确认
+
+**候选文献**（共 9 篇，全部纳入）：
+1. Owen et al. 2006, Science — ❌ 未读取全文（付费墙）；基于摘要和科学通讯
+2. Casarotto et al. 2016, Ann Neurol, PMID:27717082, PMC5132045 — ✅ 开放全文
+3. Claassen et al. 2019, NEJM, PMID:31242361 — ❌ 未读取全文（付费墙）；基于摘要
+4. Bodien et al. 2024, NEJM, DOI:10.1056/NEJMoa2400645 — ❌ 未读取全文（付费墙）；基于摘要
+5. Kazazian et al. 2025, Brain, PMID:39997570, PMC12233511 — ✅ 开放全文
+6. Giacino et al. 2018, Arch Phys Med Rehabil, PMID:30098792 — ❌ 付费墙；基于摘要
+7. Young et al. 2024, NeuroRehabilitation, PMID:38217619, PMC10898447 — ✅ 开放全文
+8. ISICEM Roundtable 2025, Intensive Care Med, PMID:41396553, PMC12852174 — ✅ 开放全文
+9. Maciejewicz 2022, iBrain, PMID:37786588, PMC10529330 — ✅ 开放全文
+
+**开放全文来源**：5/9；**摘要来源**：4/9
+**达到 ROUTINE.md 要求**：✅（≥5 来源、≥2 开放全文、≥1 官方机构来源）
+
+---
+
+## 文章生成
+
+**标题**：意识障碍的临床谱系：当神经科学在病床边检验意识理论
+**文件**：articles/2026-10-02-disorders-of-consciousness-spectrum-clinical-theories.md
+**字数**：约 4200 中文字符（含表格、标题）
+**结构**：全部必要章节（核心问题/摘要/为何重要/背景/机制/证据/比喻+限制/认识论意义/争议/AI对照/概念卡片/认知地图/参考来源）
+
+---
+
+## 固结步骤
+
+**新建 wiki 页面（4 页）**：
+- diseases/disorders-of-consciousness.md（新建）
+- concepts/cognitive-motor-dissociation.md（新建）
+- diseases/vegetative-state.md（新建）
+- diseases/minimally-conscious-state.md（新建）
+
+**修订 wiki 页面（2 页）**：
+- methods/perturbational-complexity-index.md（rev2→rev3）：补充 DoC 临床验证；新增 related；添加 Q-phi-01
+- concepts/neural-correlates-of-consciousness.md（rev2→rev3）：新增 related（CMD, DoC）；新增 key_sources
+
+**矛盾检查**：
+- 无新矛盾需要登记
+- CMD 的哲学问题已记入新页面的未解问题，不构成与既有 wiki 主张的直接冲突
+
+**成熟度重估**：
+- disorders-of-consciousness：established/high（临床定义完善，治疗指南成熟）
+- cognitive-motor-dissociation：mainstream/high（大型 RCT 和多中心研究支持）
+- vegetative-state：established/high
+- minimally-conscious-state：established/high
+
+---
+
+## 图谱与导航更新
+
+**_graph.json**：4 新节点，13 新边，节点 325，边 1865
+**wiki/index.md**：更新标题行；diseases 章节添加 3 新页面；concepts 章节添加 CMD
+**wiki/CHANGELOG.md**：添加 2026-10-02 章节
+
+---
+
+## 治理层更新
+
+**topic_ledger.json**：total_articles 161→162，添加 #162 完整条目
+**state/unresolved_questions.md**：添加 Q-doc-01/02/03
+**state/monthly_synthesis.md**：更新 10 月进度（第 2 篇）
+
+---
+
+## Git 操作
+
+**分支**：main
+**状态**：待提交
+
+**文件变更列表**：
+- 新增：articles/2026-10-02-disorders-of-consciousness-spectrum-clinical-theories.md
+- 新增：notes/2026-10-02-reading-notes.md
+- 新增：sources/2026-10-02-sources.json
+- 新增：logs/2026-10-02-run.log（本文件）
+- 新增：wiki/diseases/disorders-of-consciousness.md
+- 新增：wiki/concepts/cognitive-motor-dissociation.md
+- 新增：wiki/diseases/vegetative-state.md
+- 新增：wiki/diseases/minimally-conscious-state.md
+- 修改：wiki/methods/perturbational-complexity-index.md（rev2→rev3）
+- 修改：wiki/concepts/neural-correlates-of-consciousness.md（rev2→rev3）
+- 修改：wiki/_graph.json（325节点，1865边）
+- 修改：wiki/index.md（更新4处）
+- 修改：wiki/CHANGELOG.md（添加2026-10-02条目）
+- 修改：state/topic_ledger.json（total_articles=162）
+- 修改：state/unresolved_questions.md（添加Q-doc-01/02/03）
+- 修改：state/monthly_synthesis.md（10月第2篇更新）
+
+**commit hash**：待填写
+**push 状态**：待填写
+
+---
+
+## 自检
+
+**真实性**：✅ 所有数据有来源标注；开放全文来源有完整 PMID/PMCID；付费墙来源明确标注"未读取全文"
+**来源标注**：✅ 四篇关键论文仅读摘要，已在文章和来源文件中明确说明
+**一致性**：✅ 无新矛盾；修订页面的 updated/revision_count/修订历史均同步更新
+**图谱**：✅ _graph.json 无新悬空边；悬空引用列表从5个保持不变（新节点填补了一些内部连接但不减少悬空列表）
+**可导航**：✅ index.md 和 CHANGELOG.md 均更新
+**情景层**：✅ 文章/笔记/来源/日志齐全且 append-only
+
+---
+
+## 失败与限制
+
+- Owen 2006、Claassen 2019、Bodien 2024、Giacino 2018：付费墙，只能读摘要。文章中相关内容基于摘要 + 引用这些论文的开放全文综述（Kazazian 2025, ISICEM 2025, Young 2024），证据质量可靠。
+- LIS 部分相对简短，主要依赖 Maciejewicz 2022 综述（小期刊）；未找到 Plum 1972 原始 VS 命名论文（历史性，预期如此）。
+
+---
+
+*生成时间：2026-06-12（实际）/ 系列日期：2026-10-02*
