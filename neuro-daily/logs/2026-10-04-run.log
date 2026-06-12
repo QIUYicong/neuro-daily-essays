@@ -133,5 +133,6 @@
 - 分支：main
 - commit message：Add neuro daily article + wiki consolidation for 2026-10-04
 - 推送：git push origin main
-- commit hash：[运行后填入]
-- push 状态：[运行后填入]
+- commit hash：3f5c217
+- push 状态：SUCCESS（main → origin/main，85a94df→3f5c217）
+- GitHub URL：https://github.com/QIUYicong/neuro-daily-essays/tree/main
