@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-09",
+  "updated": "2026-06-13",
   "node_count": 341,
   "edge_count": 1953,
   "edge_types": [
@@ -3086,6 +3086,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/end-plate-potential-safety-factor.md"
+    },
+    {
+      "id": "superior-longitudinal-fasciculus",
+      "title": "上纵束（SLF）系统",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/superior-longitudinal-fasciculus.md"
     }
   ],
   "edges": [
@@ -13458,6 +13467,41 @@
       "from": "neuromuscular-junction",
       "to": "action-potential",
       "type": "mechanism-of"
+    },
+    {
+      "from": "superior-longitudinal-fasciculus",
+      "to": "arcuate-fasciculus",
+      "type": "part-of"
+    },
+    {
+      "from": "superior-longitudinal-fasciculus",
+      "to": "language-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "superior-longitudinal-fasciculus",
+      "to": "broca-area",
+      "type": "related"
+    },
+    {
+      "from": "superior-longitudinal-fasciculus",
+      "to": "dorsal-language-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "superior-longitudinal-fasciculus",
+      "to": "speech-production-circuit",
+      "type": "supports"
+    },
+    {
+      "from": "superior-longitudinal-fasciculus",
+      "to": "conduction-aphasia",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "superior-longitudinal-fasciculus",
+      "type": "part-of"
     }
   ],
   "dangling_references": [

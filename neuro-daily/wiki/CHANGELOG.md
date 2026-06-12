@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-06-13（文章 #170：白质的三条平行弦——上纵束（SLF）亚束系统）
+
+### 新建 wiki 页面（1 页）
+
+- `systems/superior-longitudinal-fasciculus.md`（上纵束 SLF 系统）：Rev1 创建；SLF I/II/III + AF 四部分框架；SLF I（额上回/SMA ↔ 顶上小叶，运动程序化）；SLF II（dlPFC ↔ 角回，空间注意，右侧化，h²≈0.68）；SLF III（BA44/PMv ↔ 缘上回，语音-运动映射，左侧化，DCS→anarthria）；AF（pSTG ↔ BA44，音韵传输，DCS→音韵错语）；DCS 功能双解离证据（Lu 2021，多中心三语言一致）；发育遗传数据（Budisavljevic 2015）；发育可塑性案例（Yeatman 2013）；命名争议综述；状态 established / confidence: high；新增未解 Q-SLF-01/02/03/04。
+
+### 修订 wiki 页面（1 页）
+
+- `concepts/arcuate-fasciculus.md` rev2→rev3：新增 related: superior-longitudinal-fasciculus；加入 Lu 2021（PMID:33792674）为 key_source（AF DCS→音韵错语 vs SLF III→anarthria 的直接功能双解离证据）；新增来源文章；修订历史追加。
+
+### 图谱变化
+
+- 新建节点 1 个：superior-longitudinal-fasciculus
+- 新增边 7 条（SLF ↔ AF、SLF → language-network、SLF → dorsal-language-stream、SLF → broca-area、SLF → speech-production-circuit、SLF → conduction-aphasia）
+- 节点总数：341 → 342；边总数：1953 → 1960
+- **填补悬空引用**：`superior-longitudinal-fasciculus`（被多个页面引用）已建立正式节点
+- 剩余悬空引用：`aging`、`cognition`（通用概念，后续处理）
+
+### 矛盾状态
+
+- 无新矛盾登记
+- 已有矛盾 C-2026-08-21-01（AF 颞叶端争议）：状态仍为 open，今日文章未提供决定性新证据
+
+---
+
 ## 2026-10-09（文章 #169：命令的最后一公里——神经肌肉接头如何把大脑意志翻译成肌肉收缩）
 
 ### 新建 wiki 页面（3 页）

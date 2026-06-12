@@ -103,3 +103,23 @@
 **分支**：main
 **commit message**：Add neuro daily article + wiki consolidation for 2026-06-13
 **push 状态**：见提交记录
+
+---
+
+# 附录：2026-06-13 第二次运行（文章 #170，上纵束 SLF）
+
+**时间**：2026-06-13 UTC+8（实际执行日期）
+**注**：本文件原有内容为文章 #22（血清素系统，2026-05-30 实际执行日期）。以下为文章 #170（SLF）的运行记录追加，遵守 append-only 原则。
+
+**文章 #170 摘要**：
+- 主题：上纵束（SLF）亚束系统——SLF I/II/III + AF 功能分化
+- 核心证据：Lu 2021（PMID:33792674）DCS 功能双解离（SLF III→anarthria vs AF→音韵错语）
+- 文件：articles/2026-06-13-superior-longitudinal-fasciculus-branches-attention-language.md
+- 笔记：notes/2026-06-13-slf-reading-notes.md（因原 06-13 文件已被占用）
+- 来源：sources/2026-06-13-slf-sources.json（因原 06-13 文件已被占用）
+- Wiki 新建：systems/superior-longitudinal-fasciculus.md（填补悬空引用）
+- Wiki 修订：concepts/arcuate-fasciculus.md（rev2→rev3）
+- 图谱：341→342 节点，1953→1960 边
+- 悬空引用修复：superior-longitudinal-fasciculus ✓
+- 分支：claude/funny-einstein-zufvxs → 推送至 main
+- Commit hash：[待更新]

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-09",
-  "total_articles": 169,
+  "last_updated": "2026-06-13",
+  "total_articles": 170,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11285,6 +11285,90 @@
       "graph_edges_added": 14,
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-12（真实执行日期）；知识库虚拟日期2026-10-09；9个来源中6篇开放全文、3篇摘要仅读；填补alpha-motor-neuron中的neuromuscular-junction悬空引用；完成皮层→脊髓→α-MN→NMJ运动控制链叙事；新增悬空引用：myasthenia-gravis, lambert-eaton-syndrome, nicotinic-achr；图谱+3节点+14边（341节点1953边）"
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 170,
+      "title": "白质的三条平行弦：上纵束（SLF）亚束系统如何在额叶与顶叶之间分配注意、运动与语言",
+      "slug": "superior-longitudinal-fasciculus-branches-attention-language",
+      "filename": "2026-06-13-superior-longitudinal-fasciculus-branches-attention-language.md",
+      "article_type": "regular",
+      "core_question": "上纵束（SLF I/II/III）和弓状束（AF）在同一白质走行区内如何通过不同的皮层靶点实现功能分化：SLF II（dlPFC-角回）支持空间注意（右侧化），SLF III（BA44/PMv-缘上回）支持语音-运动映射（左侧化），AF（BA44-pSTG）支持音韵时序传输——DCS 如何直接证明 SLF III 损伤→anarthria vs AF 损伤→音韵错语的双解离？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "methods"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（语言白质架构；背侧语言流白质具体化）/ 5. 认知控制（空间注意 SLF II）",
+      "topic_tags": [
+        "superior longitudinal fasciculus",
+        "SLF I",
+        "SLF II",
+        "SLF III",
+        "arcuate fasciculus",
+        "dorsal language stream",
+        "hemispatial neglect",
+        "speech arrest",
+        "anarthria",
+        "phonemic paraphasia",
+        "conduction aphasia",
+        "direct electrical stimulation",
+        "DCS",
+        "awake surgery",
+        "white matter",
+        "tractography",
+        "DTI",
+        "diffusion tensor imaging",
+        "language lateralization",
+        "spatial attention",
+        "phonological loop",
+        "broca area BA44",
+        "supramarginal gyrus SMG",
+        "angular gyrus AG",
+        "inferior parietal lobule"
+      ],
+      "main_sources": [
+        "PMID:17431404",
+        "PMID:23107648",
+        "PMID:37051488",
+        "PMID:33792674",
+        "PMID:22422148",
+        "PMID:26377454",
+        "PMID:24951631",
+        "PMID:21937035",
+        "PMID:34288240",
+        "PMID:34218465",
+        "PMID:35142842",
+        "PMID:18614162",
+        "PMID:25423277"
+      ],
+      "open_access_sources": [
+        "PMC10083342",
+        "PMC8453410",
+        "PMC3259257",
+        "PMC8449104"
+      ],
+      "unresolved_questions": [
+        "Q-SLF-01: SLF 亚束在猕猴/黑猩猩中是否有功能对应的同源通路？",
+        "Q-SLF-02: SLF II 和 SLF III 物理毗邻是否有计算意义？",
+        "Q-SLF-03: SLF III 左侧化发育的分子闸门（FOXP2/NOTCH？）",
+        "Q-SLF-04: 第二语言习得中 SLF III vs AF 的可塑性贡献比例"
+      ],
+      "wiki_created": [
+        "superior-longitudinal-fasciculus"
+      ],
+      "wiki_revised": [
+        "arcuate-fasciculus"
+      ],
+      "next_suggested_topics": [
+        "腹侧语言流的白质通路（IFOF、钩束、极囊）——SLF/AF 的腹侧对应系统",
+        "传导性失语的神经机制深度解析（区分 Spt 损伤 vs AF 损伤）",
+        "失读症（dyslexia）的白质微结构基础——SLF III 和 AF 的 DTI 发现",
+        "语言的跨脑区振荡协调机制（θ-γ PAC 在 SLF/AF 管道中如何传输）",
+        "缘上回（SMG）的多功能角色（镜像系统、工具使用、语音-运动、数字认知）"
+      ]
     }
   ],
   "layer_coverage_recent": [

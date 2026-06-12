@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-08-21
-revision_count: 2
+updated: 2026-06-13
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [language-network, broca-area, dorsal-language-stream, working-memory, conduction-aphasia, stg-phoneme-processing, speech-production-circuit, ventral-language-stream]
+related: [language-network, broca-area, dorsal-language-stream, working-memory, conduction-aphasia, stg-phoneme-processing, speech-production-circuit, ventral-language-stream, superior-longitudinal-fasciculus]
 prerequisites: [language-network]
 opens_questions: [Q-lang-05, Q-af-01, Q-af-02, Q-af-03]
-source_articles: [2026-06-20-language-dual-stream, 2026-08-21-arcuate-fasciculus-three-segment-language]
-key_sources: ["PMID:15597383", "PMID:17431404", "PMID:18281301", "PMID:22347185", "PMID:23643035", "PMID:24951631", "PMID:32313267", "PMID:35142842", "PMID:37051488", "PMID:38033540"]
+source_articles: [2026-06-20-language-dual-stream, 2026-08-21-arcuate-fasciculus-three-segment-language, 2026-06-13-superior-longitudinal-fasciculus-branches-attention-language]
+key_sources: ["PMID:15597383", "PMID:17431404", "PMID:18281301", "PMID:22347185", "PMID:23643035", "PMID:24951631", "PMID:32313267", "PMID:35142842", "PMID:37051488", "PMID:38033540", "PMID:33792674"]
 ---
 
 # 弓状束 (Arcuate Fasciculus, AF)
@@ -123,8 +123,10 @@ pSTG ──后段──→ IPL ──前段──→ BA44（多模态语义整�
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 单一弧形通路描述，强调左侧化和传导性失语 · 初始置信度：高
 - 2026-08-21 · **重大修订** · 基于《语言之弦：弓状束三段式纤维架构》(#119) · 整合Catani 2005三段式模型（直接/后间接/前间接段）；加入Glasser 2008左右AF靶区差异化数据；加入Friederici 2012 / Brauer 2013发育时间线（背侧路径I/II双分组）；加入Balezeau 2020跨物种进化比较数据（灵长类听觉原型+人类左侧化，p=0.002）；加入Shekari 2023 AF-音韵/IFOF-语义双解离证据；加入Giampiccolo 2022颞叶端争议（登记矛盾C-2026-08-21-01）；新增related:conduction-aphasia,stg-phoneme-processing,speech-production-circuit；新增3个未解问题
+- 2026-06-13 · **小修订** · 基于《白质的三条平行弦》(#170) · 新增 related: superior-longitudinal-fasciculus；加入 Lu 2021（PMID:33792674）作为 key_source——多中心 DCS 直接证明 AF 损伤→音韵错语（vs SLF III 损伤→anarthria）的功能双解离；这是区分 AF 与 SLF III 功能最直接的人类体内证据；更新来源文章列表
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
 - [[2026-08-21-arcuate-fasciculus-three-segment-language]]
+- [[2026-06-13-superior-longitudinal-fasciculus-branches-attention-language]]

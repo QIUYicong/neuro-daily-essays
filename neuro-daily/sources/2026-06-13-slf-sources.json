@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-13",
+  "slug_suffix": "slf",
+  "note": "2026-06-13 已有历史文件（#22 血清素系统），本文件用 -slf 后缀区分",
+  "article": "2026-06-13-superior-longitudinal-fasciculus-branches-attention-language",
+  "article_number": 170,
+  "topic": "上纵束（SLF）亚束系统：空间注意、运动程序化与语言的白质基础",
+  "sources": [
+    {"id": "S1", "pmid": "17431404", "title": "The cortical organization of speech processing", "authors": "Hickok G, Poeppel D", "journal": "Nat Rev Neurosci", "year": 2007, "open_access": false, "full_text_available": false},
+    {"id": "S2", "pmid": "18614162", "title": "The arcuate fasciculus and the disconnection theme in language and aphasia", "authors": "Catani M, Mesulam M", "journal": "Cortex", "year": 2008, "open_access": false, "full_text_available": false},
+    {"id": "S3", "pmid": "25423277", "title": "Contemporary model of language organization: an overview for neurosurgeons", "authors": "Chang EF et al.", "journal": "J Neurosurg", "year": 2015, "open_access": false, "full_text_available": false},
+    {"id": "S4", "pmid": "23107648", "title": "Beyond the arcuate fasciculus: consensus and controversy in the connectional anatomy of language", "authors": "Dick AS, Tremblay P", "journal": "Brain", "year": 2012, "open_access": false, "full_text_available": false},
+    {"id": "S5", "pmid": "37051488", "pmcid": "PMC10083342", "title": "A narrative review of white matter tracts in language production and comprehension", "authors": "Shekari E, Nozari N", "journal": "Front Hum Neurosci", "year": 2023, "open_access": true, "full_text_available": true},
+    {"id": "S6", "pmid": "35142842", "title": "Controversy over the temporal cortical terminations of the left arcuate fasciculus", "authors": "Giampiccolo D, Duffau H", "journal": "Brain", "year": 2022, "open_access": false, "full_text_available": false},
+    {"id": "S7", "pmid": "33792674", "pmcid": "PMC8453410", "title": "Functional maps of DES-induced speech arrest and anomia: multicentre study", "authors": "Lu J et al.", "journal": "Brain", "year": 2021, "open_access": true, "full_text_available": true},
+    {"id": "S8", "pmid": "22422148", "title": "Analysis of subcomponents and cortical terminations of perisylvian SLF", "authors": "Martino J et al.", "journal": "Brain Struct Funct", "year": 2013, "open_access": false, "full_text_available": false},
+    {"id": "S9", "pmid": "24951631", "title": "Anatomical predictors of aphasia recovery", "authors": "Forkel SJ et al.", "journal": "Brain", "year": 2014, "open_access": false, "full_text_available": false},
+    {"id": "S10", "pmid": "26377454", "title": "Age-related differences and heritability of perisylvian language networks", "authors": "Budisavljevic S et al.", "journal": "J Neurosci", "year": 2015, "open_access": false, "full_text_available": false},
+    {"id": "S11", "pmid": "34218465", "title": "What's your name again? A review of SLF and AF evolving nomenclature", "authors": "Porto de Oliveira JVM et al.", "journal": "Clin Anat", "year": 2021, "open_access": false, "full_text_available": false},
+    {"id": "S12", "pmid": "21937035", "pmcid": "PMC3259257", "title": "Neural plasticity after pre-linguistic injury to AF and SLF", "authors": "Yeatman JD, Feldman HM", "journal": "Cortex", "year": 2013, "open_access": true, "full_text_available": true},
+    {"id": "S13", "pmid": "34288240", "pmcid": "PMC8449104", "title": "Cortical and white matter correlates of language-learning aptitudes", "authors": "Noven M et al.", "journal": "Hum Brain Mapp", "year": 2021, "open_access": true, "full_text_available": true}
+  ],
+  "summary": {
+    "total_sources": 13,
+    "open_access_count": 4,
+    "abstract_only_count": 9,
+    "pmids": ["17431404","18614162","25423277","23107648","37051488","35142842","33792674","22422148","24951631","26377454","34218465","21937035","34288240"]
+  }
+}

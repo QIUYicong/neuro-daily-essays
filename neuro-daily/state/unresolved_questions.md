@@ -1,6 +1,36 @@
 # 未解问题追踪
 
-*最后更新：2026-10-09*
+*最后更新：2026-06-13*
+
+---
+
+## 2026-06-13 新增（来自白质的三条平行弦：上纵束（SLF）亚束系统 #170）
+
+### Q-SLF-01（中优先级）：SLF 亚束在非人灵长类中是否有功能对应的同源通路？
+
+- **关联 wiki**：[[superior-longitudinal-fasciculus]]、[[arcuate-fasciculus]]
+- **来源文章**：2026-06-13-superior-longitudinal-fasciculus-branches-attention-language
+- **问题**：Balezeau 2020（PMID:32313267）证明猕猴/黑猩猩有双侧对称的背侧听觉通路（AF 的进化前体），而人类 AF 高度左侧化。但 SLF I/II/III 亚束的跨物种比较数据极少。猕猴是否有功能对应 SLF II（空间注意）和 SLF III（语音-运动）的白质亚束？其侧化模式如何？与人类相比的差异是否能解释人类语言的进化起源？
+  - 相关技术：跨物种 DWI（3T/7T）+ 种子点追踪 + 行为测试
+
+### Q-SLF-02（低优先级）：SLF II 和 SLF III 的物理毗邻是否有计算意义？
+
+- **关联 wiki**：[[superior-longitudinal-fasciculus]]
+- **来源文章**：2026-06-13-superior-longitudinal-fasciculus-branches-attention-language
+- **问题**：SLF II（空间注意）和 SLF III（语音-运动）在 centrum semiovale 区物理上相邻，间距仅数毫米。这是否只是历史解剖偶然，还是有功能意义？语言产出依赖注意资源（如，在噪音中集中注意到自己的发音），这需要 SLF II 和 SLF III 的协调。是否存在跨束轴突侧支或胶质介导的旁分泌调制，使两束的信号能够相互影响？
+
+### Q-SLF-03（高优先级）：SLF III 左侧化发育的分子闸门是什么？
+
+- **关联 wiki**：[[superior-longitudinal-fasciculus]]、[[language-critical-period]]、[[foxp2-language-gene]]
+- **来源文章**：2026-06-13-superior-longitudinal-fasciculus-branches-attention-language
+- **问题**：SLF III 随年龄左侧化（Budisavljevic 2015），AF 额叶端在 7 岁前迅速髓鞘化（Friederici 2012）。这两个时间窗口的分子驱动因素是什么？FOXP2 的已知靶基因（CNTNAP2 等）是否调控 SLF III 轴突导向？NOTCH2NL（人类特有皮质扩张基因）是否也影响 SLF 的左侧化？
+  - 相关技术：语言关键期早期 DTI 纵向研究 + 单细胞转录组（外囊白质前体细胞）
+
+### Q-SLF-04（中优先级）：第二语言习得中 SLF III vs AF 的可塑性贡献比例？
+
+- **关联 wiki**：[[superior-longitudinal-fasciculus]]、[[arcuate-fasciculus]]、[[language-critical-period]]
+- **来源文章**：2026-06-13-superior-longitudinal-fasciculus-branches-attention-language
+- **问题**：Novén 2021 发现左 AF 和 SLF III 的 DKI 微结构（轴向峰度）均与音韵记忆效率相关。但两条束的可塑性是否不同？成人二语学习者（超过关键期）主要改变哪条束？儿童二语学习者呢？白质微结构的改变是因（预先存在的差异预测成功）还是果（学习导致的轴突/髓鞘重塑）？
 
 ---
 
