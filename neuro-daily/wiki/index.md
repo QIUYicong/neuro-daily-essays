@@ -478,3 +478,23 @@
 - 节点：300 | 边：1733
 - 矛盾登记：C-2026-09-17-01（谱依赖性框架 vs 专用 θ-γ 机制）
 - 新增未解问题：Q-tgc-01 至 Q-tgc-04
+
+---
+
+## 2026-10-05 更新（第 165 篇）
+
+### 新建 wiki 页面
+
+**concepts/**
+- `binocular-rivalry.md` — 双眼竞争 (Binocular Rivalry) | established / high | 多层级视觉竞争机制（LGN→V1→IT）；Logothetis 1996 神经表征竞争；IT 皮层 90% vs V1 20% 感知追踪梯度；Xu 2016 麻醉猴 V1 竞争样活动（gamma 分布，优势期 4.3s）；Wunderlich 2005 LGN 早期门控（r=0.98）；Levelt 命题修订；CFS 抑制深度 >20×；Wolf 2011 高级语义影响竞争
+
+### 修订 wiki 页面
+
+- `concepts/attention-consciousness-dissociation.md` rev1→rev2：完善双眼竞争/CFS 在注意-意识解离研究中的工具性描述（CFS 20× vs BR 3× 抑制深度差异）；新增来源 PMID:26985033, PMID:17132078
+- `concepts/neural-correlates-of-consciousness.md` rev2→rev3：related 新增 binocular-rivalry 与 attention-consciousness-dissociation；新增来源 PMID:9854253, PMID:16234812
+- `systems/v1-primary-visual-cortex.md` rev7→rev8：新增双眼竞争神经基础（Xu 2016 麻醉猴 V1 竞争样活动）；related 新增 binocular-rivalry；key_sources 新增 PMID:26985033
+
+### 图谱状态
+- 节点：325 → 328 | 边：1865 → 1894
+- 新悬空待补：continuous-flash-suppression、multistable-perception
+- 新增未解问题：Q-br-01 至 Q-br-04

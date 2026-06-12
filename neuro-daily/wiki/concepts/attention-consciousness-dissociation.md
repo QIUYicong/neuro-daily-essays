@@ -6,14 +6,14 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-10-04
-updated: 2026-10-04
-revision_count: 1
+updated: 2026-10-05
+revision_count: 2
 dimensions: [cognition, whole-brain-network, brain-region, methods]
 related: [visual-awareness-negativity, access-consciousness, phenomenal-consciousness, dorsal-attention-network, ventral-attention-network, global-workspace-theory, integrated-information-theory, recurrent-processing-theory, binocular-rivalry, attentional-blink, consciousness-ignition, neural-correlates-of-consciousness]
 prerequisites: [access-consciousness, phenomenal-consciousness, neural-correlates-of-consciousness, dorsal-attention-network]
 opens_questions: [Q-atcon-01, Q-atcon-02, Q-atcon-03]
-source_articles: [2026-10-04-attention-consciousness-dissociation]
-key_sources: ["PMID:17129748", "PMID:18322110", "PMID:25339922", "PMID:22795561", "PMID:33034851"]
+source_articles: [2026-10-04-attention-consciousness-dissociation, 2026-10-05-binocular-rivalry-consciousness-mechanism]
+key_sources: ["PMID:17129748", "PMID:18322110", "PMID:25339922", "PMID:22795561", "PMID:33034851", "PMID:26985033", "PMID:17132078"]
 ---
 
 # 注意-意识双重解离 (Attention-Consciousness Dissociation)
@@ -91,7 +91,7 @@ Koch & Tsuchiya（2007，PMID:17129748）系统论证了注意与意识是两种
 - [[integrated-information-theory]] — IIT 中注意改变 Φ 分布，不是 Φ 本身
 - [[recurrent-processing-theory]] — RPT 中注意和意识均涉及递归，但注意更多是前馈增益，意识是递归闭合
 - [[attentional-blink]] — 注意资源耗尽→意识缺失的典型范式
-- [[binocular-rivalry]] — 双眼竞争中注意-意识解离的核心实验平台
+- [[binocular-rivalry]] — 双眼竞争/CFS 是注意-意识解离的核心实验平台（V1 竞争样活动在无意识下仍存在；CFS 产生深度抑制 >20× 阈值提升）
 - [[neural-correlates-of-consciousness]] — 解离研究是定位 NCC 的核心方法
 
 ## 未解问题
@@ -103,6 +103,7 @@ Koch & Tsuchiya（2007，PMID:17129748）系统论证了注意与意识是两种
 ## 修订历史
 
 - 2026-10-04 · 创建 · 基于《注意不等于意识》(#164) · 初始置信度：中（双重解离的弱版本已有充分证据；强版本——完全解耦——仍有方法论争议）
+- 2026-10-05 · 修订 rev2 · 基于《双眼竞争》(#165)：完善双眼竞争/CFS 在注意-意识解离研究中的工具性描述；CFS 阈值提升 >20× vs 竞争仅 3× 说明二者抑制深度差异；新增 PMID:26985033（麻醉猴 V1 竞争样活动）、PMID:17132078（CFS 深度）
 
 ## 来源文章
 

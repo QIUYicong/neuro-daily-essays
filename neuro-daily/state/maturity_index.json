@@ -451,5 +451,11 @@
     "change_reason": "修订 rev1→rev2（2026-09-29 #159）：新增 Maschke 2024（临界动力学作为 PCI 机制替代解释）；新增 Stikvoort 2025（非平衡有效连接框架）；新增 Xu 2024 rTMS RCT（N=40，35%响应者，PCIst预测疗效）；新增 Hagan 2026 AD 应用（PCIst 20.1 vs 28.2）；新增 Fecchio 2026 ICU 应用。状态保持 established/high：PCI 方法本身有强多中心验证（Casali 2013，Casarotto 2016），临床扩展持续增长；但机制解释（Φ vs 临界性 vs 非平衡）有三方竞争（Q-pci-01）——这影响理论意义而不影响临床有效性",
     "previous_status": "established/high",
     "source_article": "2026-09-29-phi-computation-pci-consciousness-measurement"
+  },
+  "binocular-rivalry": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-05",
+    "reason": "创建（#165）：多项经典研究提供直接神经证据，方法收敛，established级别无争议"
   }
 }

@@ -7,14 +7,14 @@ status: mainstream
 confidence: high
 created: 2026-06-27
 updated: 2026-06-27
-revision_count: 2
-updated: 2026-10-02
+revision_count: 3
+updated: 2026-10-05
 dimensions: [whole-brain-network, brain-region, cognition, disease]
-related: [global-workspace-theory, integrated-information-theory, predictive-coding, consciousness-ignition, posterior-cortical-hot-zone, phi-measure, perturbational-complexity-index, prefrontal-cortex, v1-primary-visual-cortex, recurrent-processing-theory, disorders-of-consciousness, cognitive-motor-dissociation]
+related: [global-workspace-theory, integrated-information-theory, predictive-coding, consciousness-ignition, posterior-cortical-hot-zone, phi-measure, perturbational-complexity-index, prefrontal-cortex, v1-primary-visual-cortex, recurrent-processing-theory, disorders-of-consciousness, cognitive-motor-dissociation, binocular-rivalry, attention-consciousness-dissociation]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex]
 opens_questions: [Q-ncc-01, Q-ncc-02, Q-ncc-03]
-source_articles: [2026-06-27-ncc-consciousness-where, 2026-10-02-disorders-of-consciousness-spectrum-clinical-theories]
-key_sources: ["PMID:27094080", "PMC4960249", "PMID:40307561", "PMCID:PMC5628406", "PMID:32135090", "PMID:27717082", "PMID:31242361"]
+source_articles: [2026-06-27-ncc-consciousness-where, 2026-10-02-disorders-of-consciousness-spectrum-clinical-theories, 2026-10-05-binocular-rivalry-consciousness-mechanism]
+key_sources: ["PMID:27094080", "PMC4960249", "PMID:40307561", "PMCID:PMC5628406", "PMID:32135090", "PMID:27717082", "PMID:31242361", "PMID:9854253", "PMID:16234812"]
 ---
 
 # 意识的神经相关物 (Neural Correlates of Consciousness, NCC)

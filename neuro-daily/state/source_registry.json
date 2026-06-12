@@ -11953,6 +11953,112 @@
         "无注意有意识综述（TMS磷光、梦、余像）",
         "神经生物学证据"
       ]
+    },
+    {
+      "pmid": "8602261",
+      "title": "What is rivalling during binocular rivalry?",
+      "authors": "Logothetis et al.",
+      "journal": "Nature",
+      "year": 1996,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "topics_covered": [
+        "binocular rivalry mechanism",
+        "neural representation competition"
+      ]
+    },
+    {
+      "pmid": "9854253",
+      "pmcid": "PMC1692419",
+      "title": "Single units and conscious vision",
+      "authors": "Logothetis NK",
+      "journal": "Phil Trans R Soc B",
+      "year": 1998,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "topics_covered": [
+        "IT cortex perception tracking",
+        "V1 vs IT in binocular rivalry"
+      ]
+    },
+    {
+      "pmid": "16234812",
+      "pmcid": "PMC1470662",
+      "title": "Neural correlates of binocular rivalry in the human LGN",
+      "authors": "Wunderlich et al.",
+      "journal": "Nat Neurosci",
+      "year": 2005,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "topics_covered": [
+        "LGN gating",
+        "fMRI rivalry",
+        "early visual processing"
+      ]
+    },
+    {
+      "pmid": "26985033",
+      "pmcid": "PMC6705522",
+      "title": "Rivalry-Like Neural Activity in V1 in Anesthetized Monkeys",
+      "authors": "Xu et al.",
+      "journal": "J Neurosci",
+      "year": 2016,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "topics_covered": [
+        "V1 rivalry without consciousness",
+        "ocular dominance columns",
+        "gamma distribution"
+      ]
+    },
+    {
+      "pmid": "22144953",
+      "pmcid": "PMC3228233",
+      "title": "High-level binocular rivalry effects",
+      "authors": "Wolf & Hochstein",
+      "journal": "Front Hum Neurosci",
+      "year": 2011,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "topics_covered": [
+        "semantic effects on rivalry",
+        "high-level cortical competition"
+      ]
+    },
+    {
+      "pmid": "25749677",
+      "title": "The laws of binocular rivalry: 50 years of Levelt's propositions",
+      "authors": "Brascamp et al.",
+      "journal": "Vision Research",
+      "year": 2015,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "topics_covered": [
+        "Levelt propositions",
+        "gamma distribution",
+        "bistable perception"
+      ]
+    },
+    {
+      "pmid": "17132078",
+      "title": "Depth of interocular suppression: CFS vs BR",
+      "authors": "Tsuchiya et al.",
+      "journal": "J Vision",
+      "year": 2006,
+      "used_in": [
+        "2026-10-05-binocular-rivalry-consciousness-mechanism"
+      ],
+      "topics_covered": [
+        "continuous flash suppression",
+        "suppression depth",
+        "threshold elevation"
+      ]
     }
   ],
   "total_sources": 718,

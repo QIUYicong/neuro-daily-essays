@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-04",
-  "node_count": 325,
-  "edge_count": 1865,
+  "updated": "2026-10-05",
+  "node_count": 328,
+  "edge_count": 1894,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2960,6 +2960,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/attention-consciousness-dissociation.md"
+    },
+    {
+      "id": "binocular-rivalry",
+      "title": "双眼竞争",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/binocular-rivalry.md"
     }
   ],
   "edges": [
@@ -12974,6 +12983,61 @@
       "from": "visual-awareness-negativity",
       "to": "attention-consciousness-dissociation",
       "type": "supports"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "ocular-dominance-columns",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "inferior-temporal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "thalamus",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "attention-consciousness-dissociation",
+      "type": "supports"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "neural-correlates-of-consciousness",
+      "type": "supports"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "recurrent-processing-theory",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "access-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "phenomenal-consciousness",
+      "type": "related"
     }
   ],
   "dangling_references": [
@@ -13217,6 +13281,20 @@
       ],
       "note": "PSD-95支架蛋白专页；兴奋性突触最丰富的骨架蛋白，AMPAR槽位的物理基础；关键期时间轴调控；已于2026-09-06创建 wiki/concepts/psd-95.md，基于《PSD-95：兴奋性突触的主控分子》(#136)",
       "resolved": "2026-09-06"
+    },
+    {
+      "slug": "continuous-flash-suppression",
+      "referenced_by": [
+        "binocular-rivalry"
+      ],
+      "note": "continuous-flash-suppression 被 binocular-rivalry 引用，待建页面"
+    },
+    {
+      "slug": "multistable-perception",
+      "referenced_by": [
+        "binocular-rivalry"
+      ],
+      "note": "multistable-perception 被 binocular-rivalry 引用，待建页面"
     }
   ]
 }

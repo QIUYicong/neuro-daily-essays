@@ -1190,3 +1190,19 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 重大争议：Cohen et al. 2012（PMID:22795561）提出严肃反驳：**注意是意识的必要条件**——所有"无注意有意识"的实验在方法论上都无法完全排除注意残余。这是当前未解问题 Q-atcon-01 的根源。VAN 是否混合了内隐注意成分（Q-atcon-02）和溢出 vs 稀疏争论（Q-atcon-03）同样悬而未决。
 
 **新建** wiki/concepts/attention-consciousness-dissociation（Rev1，mainstream/medium）。**修订**：visual-awareness-negativity rev2（补充与注意-意识解离框架的连接）、access-consciousness rev2（补充 A vs P 区分与解离的关系，新增 PMID:22078929）。**图谱**：327 节点，1883 条边（+1节点，+10边）。**来源**：9篇（4篇开放全文，5篇摘要）。**层级**：cognition（意识专辑继续；近期层级：cognition/disease/brain-region/whole-brain-network，连续四天 cognition 层，明日应转向分子/细胞层或方法层）。**新增未解**：Q-atcon-01（高，证明注意为零的范式）、Q-atcon-02（中，VAN 注意成分比例）、Q-atcon-03（中，溢出 vs 稀疏）。
+
+
+---
+
+## 2026-10-05（#165）：双眼竞争
+
+**一句话**：双眼竞争证明视觉感知的"胜出者"不由眼决定，而由从 LGN 到 IT 皮层的多层级竞争链裁决，是分离感觉处理与意识的最干净的实验工具。
+
+**核心发现**：
+- LGN 早期门控（Wunderlich 2005，r=0.98）
+- IT 皮层 ~90% vs V1 ~20% 感知追踪梯度（Logothetis 1998）
+- 麻醉猴 V1 竞争样活动（Xu 2016）：低层级机制不依赖意识
+- CFS 20× vs BR 3× 阈值提升：研究无意识的强度梯度
+- 语义词主导期（2.58s）< 非词（3.03s）：高级语义影响感知竞争
+
+**认知地图更新**：binocular-rivalry 节点正式建立；连接至 V1/IT/LGN/NCC/注意-意识解离/预测编码

@@ -3562,3 +3562,35 @@
 - Q-ihc-01（高）：胼胝体跨半球传递净效果（抑制 vs 兴奋）如何随任务/脑区/年龄变化？是否有生物标志物？
 - Q-ihc-02（中）：右半球单向抑制优势的发育起源——天生固定还是可重塑？
 - Q-ihc-03（中）：忽视患者左侧 PPC 过激活：被动去抑制 vs 主动代偿——两种解释有不同的治疗含义
+
+---
+
+## 2026-10-05（第 165 篇：双眼竞争）
+
+### 新建 wiki 页面（1 页）
+
+- `concepts/binocular-rivalry.md` — 双眼竞争机制，Rev1：神经表征竞争（Logothetis 1996）；IT 皮层 ~90% 感知追踪 vs V1 ~20%（Logothetis 1998，PMC1692419）；LGN 早期门控 r=0.98（Wunderlich 2005，PMC1470662）；麻醉猴 V1 竞争样活动 gamma 分布（Xu 2016，PMC6705522）；Levelt 命题修订版（Brascamp 2015）；CFS 20× vs BR 3× 抑制深度差异（Tsuchiya 2006）；语义词 2.58s < 非词 3.03s（Wolf 2011，PMC3228233）；status: established, confidence: high
+
+### 修订 wiki 页面（3 页）
+
+- `concepts/attention-consciousness-dissociation.md` rev1→rev2：完善 binocular-rivalry/CFS 在注意-意识解离研究中的工具性描述；新增 CFS 20× 阈值提升数据；key_sources 新增 PMID:26985033, PMID:17132078
+- `concepts/neural-correlates-of-consciousness.md` rev2→rev3：related 新增 binocular-rivalry 和 attention-consciousness-dissociation；key_sources 新增双眼竞争核心来源 PMID:9854253, PMID:16234812
+- `systems/v1-primary-visual-cortex.md` rev7→rev8：新增 Xu 2016 麻醉猴 V1 竞争样活动；related 新增 binocular-rivalry；key_sources 新增 PMID:26985033
+
+### 图谱变化
+
+- binocular-rivalry 节点从悬空引用（attention-consciousness-dissociation YAML）升级为正式节点（status: established, confidence: high）
+- 新增边：11（binocular-rivalry↔v1/ocular-dominance-columns/IT/thalamus/attention-consciousness-dissociation/NCC/predictive-coding/GWT/RPT/access-consciousness/phenomenal-consciousness）
+- 节点总数：325 → 328 | 边总数：1865 → 1894
+- 新增悬空引用：continuous-flash-suppression、multistable-perception
+
+### 登记矛盾（0 条）
+
+- 无新矛盾：LGN 门控 vs 皮层反馈解释（Q-br-01）已记录为未解问题，证据不足以降级任何现有 wiki 页面的 confidence
+
+### 新增未解问题（4 条）
+
+- Q-br-01（高）：LGN 的竞争相关 fMRI 信号来自局部眼间抑制还是 V1 皮层反馈？
+- Q-br-02（高）：语义词主导期比非词更短——是"高级皮层加速感知解析"还是"适应更快"？
+- Q-br-03（中）：V1 是清醒双眼竞争的必要条件吗？TMS/局部灌注能否消除感知交替？
+- Q-br-04（中）：预测编码框架下，能否在交替前 100-200ms 测到 V1 预测误差信号增强？

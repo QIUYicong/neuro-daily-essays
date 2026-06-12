@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-08-17
-revision_count: 7
+updated: 2026-10-05
+revision_count: 8
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons, v4-visual-area, inferior-temporal-cortex, invariant-object-recognition, area-MT-V5, dorsal-visual-stream]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ocular-dominance-columns, retinal-waves, critical-period, thalamocortical-axons, v4-visual-area, inferior-temporal-cortex, invariant-object-recognition, area-MT-V5, dorsal-visual-stream, binocular-rivalry]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
-source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-15-ocular-dominance-columns-visual-critical-period]
-key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:22841309", "PMID:32765222", "PMID:23975100"]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-15-ocular-dominance-columns-visual-critical-period, 2026-10-05-binocular-rivalry-consciousness-mechanism]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:22841309", "PMID:32765222", "PMID:23975100", "PMID:26985033"]
 ---
 
 # 初级视觉皮层（V1）
@@ -156,6 +156,7 @@ V1 Layer 4 是双眼输入竞争的主战场。在猫和灵长类中，来自左
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 新增"预测编码视角下的 V1"小节；新增感觉运动失配实验（Keller 2012）和环绕抑制预测编码解释；related 新增 predictive-coding, precision-weighting；opens_questions 新增 Q-pc-04；key_sources 新增 PMID:22681686, PMID:10195184, PMID:23177956
 
 - 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 V4→V1 皮层反馈作为注意调制的必要通道（Debes & Dragoi 2023，PMID:36730414）；related 新增 dorsal-attention-network, biased-competition；key_sources 新增 PMID:36730414
+- 2026-10-05 · 修订 rev8 · 基于《双眼竞争》(#165)：新增双眼竞争在 V1 的神经基础证据（Xu 2016，PMID:26985033，麻醉猴 V1 眼优势柱交替激活，优势期 4.3s/gamma 分布）；new source article: 2026-10-05-binocular-rivalry-consciousness-mechanism；key_sources 新增 PMID:26985033；related 新增 binocular-rivalry
 
 ## 来源文章
 

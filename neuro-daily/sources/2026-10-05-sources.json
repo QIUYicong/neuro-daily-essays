@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-05",
+  "real_date": "2026-06-12",
+  "article_slug": "binocular-rivalry-consciousness-mechanism",
+  "article_number": 165,
+  "topic": "双眼竞争：感知交替的神经机制与意识的窗口",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "8602261",
+      "pmcid": null,
+      "doi": "10.1038/380621a0",
+      "title": "What is rivalling during binocular rivalry?",
+      "authors": "Logothetis NK, Leopold DA, Sheinberg DL",
+      "journal": "Nature",
+      "year": 1996,
+      "volume": "380",
+      "pages": "621-624",
+      "full_text_available": false,
+      "access_note": "仅摘要",
+      "relevance": "奠基实验：刺激在两眼间快速交换时，感知交替时间动态不变，证明竞争发生在神经表征层面而非眼级别",
+      "key_claims_used": ["双眼竞争竞争的是神经表征，而非眼睛的输入", "感知交替频率与刺激所在眼无关"]
+    },
+    {
+      "id": "S2",
+      "pmid": "9854253",
+      "pmcid": "PMC1692419",
+      "doi": "10.1098/rstb.1998.0386",
+      "title": "Single units and conscious vision",
+      "authors": "Logothetis NK",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 1998,
+      "full_text_available": true,
+      "access_note": "PMC 开放全文已读",
+      "relevance": "猴子单细胞电生理：IT皮层约90%的神经元与感知相关，V1仅约20%的神经元被抑制影响；竞争在视觉层级中向上传递",
+      "key_claims_used": [
+        "IT皮层神经元在感知主导期激活、抑制期减弱，追踪感知最强",
+        "V1早期区域大量神经元在感知抑制时仍持续放电",
+        "感知相关活动比例随视觉层级上升而增加"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "11823801",
+      "pmcid": null,
+      "doi": "10.1038/nrn701",
+      "title": "Visual competition",
+      "authors": "Blake R, Logothetis NK",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2002,
+      "full_text_available": false,
+      "access_note": "仅摘要",
+      "relevance": "双眼竞争机制综述：竞争涉及视觉层级多个层次，早期和高级机制均有贡献",
+      "key_claims_used": ["竞争涉及多层级神经机制", "眼级和神经表征级竞争可能共存"]
+    },
+    {
+      "id": "S4",
+      "pmid": "16234812",
+      "pmcid": "PMC1470662",
+      "doi": "10.1038/nn1546",
+      "title": "Neural correlates of binocular rivalry in the human lateral geniculate nucleus",
+      "authors": "Wunderlich K, Schneider KA, Kastner S",
+      "journal": "Nature Neuroscience",
+      "year": 2005,
+      "full_text_available": true,
+      "access_note": "PMC 开放全文已读",
+      "relevance": "人类fMRI证明LGN（外侧膝状体）信号与感知高度相关（r=0.98），说明竞争门控从丘脑水平即开始",
+      "key_claims_used": [
+        "LGN BOLD信号随感知变化（感知高对比度时增强，低对比度时减弱）",
+        "信号幅度相关性r=0.98",
+        "支持'眼间竞争'账户，抑制在皮层下即开始"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "9632390",
+      "pmcid": null,
+      "doi": "10.1126/science.280.5371.1930",
+      "title": "Neural correlates of perceptual rivalry in the human brain",
+      "authors": "Lumer ED, Friston KJ, Rees G",
+      "journal": "Science",
+      "year": 1998,
+      "full_text_available": false,
+      "access_note": "仅摘要",
+      "relevance": "人类fMRI：双眼竞争期间额顶网络（frontoparietal）发生竞争特异性激活，提示高级调控网络参与竞争",
+      "key_claims_used": [
+        "额顶网络在竞争交替时特异性激活",
+        "这些高级区域可能偏向特定感知状态"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "22144953",
+      "pmcid": "PMC3228233",
+      "doi": "10.3389/fnhum.2011.00163",
+      "title": "High-level binocular rivalry effects",
+      "authors": "Wolf M, Hochstein S",
+      "journal": "Frontiers in Human Neuroscience",
+      "year": 2011,
+      "full_text_available": true,
+      "access_note": "PMC 开放全文已读",
+      "relevance": "高级语义影响竞争：非词主导时间（3.03s）显著长于词（2.58s）；不可能图形比可能图形主导更久；说明高级皮层语义处理影响感知竞争",
+      "key_claims_used": [
+        "词的主导时间（2.58±0.06s）短于非词（3.03±0.08s），p<0.0001",
+        "不可能图形主导时间（2.8±0.2s）长于可能图形（2.5±0.2s），p<0.02",
+        "竞争受高级皮层语义/结构信息影响"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "26985033",
+      "pmcid": "PMC6705522",
+      "doi": "10.1523/JNEUROSCI.0903-16.2016",
+      "title": "Rivalry-Like Neural Activity in Primary Visual Cortex in Anesthetized Monkeys",
+      "authors": "Xu H, Han C, Chen M, Li P, Zhu S, Fang Y, Hu J, Ma H, Lu HD",
+      "journal": "Journal of Neuroscience",
+      "year": 2016,
+      "full_text_available": true,
+      "access_note": "PMC 开放全文已读",
+      "relevance": "麻醉猴V1内源光学成像：即使在全身麻醉下，V1眼优势柱仍出现交替激活（竞争样活动），优势期遵循gamma分布，说明低层级早期竞争机制不需要意识",
+      "key_claims_used": [
+        "麻醉猴V1眼优势柱出现自发交替激活（频谱0.03-0.2 Hz）",
+        "麻醉条件优势持续时间约4.3秒，清醒约2.3秒",
+        "优势期分布遵循gamma函数，与人类心理物理数据一致",
+        "说明早期竞争机制不依赖意识，但可被意识调制"
+      ]
+    },
+    {
+      "id": "S8",
+      "pmid": "25749677",
+      "pmcid": null,
+      "doi": "10.1016/j.visres.2015.02.019",
+      "title": "The 'laws' of binocular rivalry: 50 years of Levelt's propositions",
+      "authors": "Brascamp JW, Klink PC, Levelt WJM",
+      "journal": "Vision Research",
+      "year": 2015,
+      "full_text_available": false,
+      "access_note": "仅摘要",
+      "relevance": "Levelt命题50年综述：修订版命题（特别是命题II的修正），dominance duration分布，与更广泛双稳感知的关系",
+      "key_claims_used": [
+        "修正后的Levelt命题II：增强一眼刺激主要缩短对侧眼主导期，而非延长同侧",
+        "dominance duration遵循gamma分布",
+        "双稳感知的普遍规律"
+      ]
+    },
+    {
+      "id": "S9",
+      "pmid": "17132078",
+      "pmcid": null,
+      "doi": "10.1167/6.1.6",
+      "title": "Depth of interocular suppression associated with continuous flash suppression, flash suppression, and binocular rivalry",
+      "authors": "Tsuchiya N, Koch C, Gilroy LA, Blake R",
+      "journal": "Journal of Vision",
+      "year": 2006,
+      "full_text_available": false,
+      "access_note": "仅摘要",
+      "relevance": "CFS深度比较：CFS将检测阈值提升超过20倍，而普通双眼竞争仅约3倍；说明CFS是产生更深无意识状态的实验工具",
+      "key_claims_used": [
+        "CFS将探针检测阈值提升>20倍",
+        "普通双眼竞争仅约3倍阈值提升",
+        "CFS抑制源于多次闪烁累积效应而非BRxFS叠加"
+      ]
+    },
+    {
+      "id": "S10",
+      "pmid": "24904476",
+      "pmcid": "PMC4033185",
+      "doi": "10.3389/fpsyg.2014.00460",
+      "title": "Breaking continuous flash suppression: competing for consciousness on the pre-semantic battlefield",
+      "authors": "Gayet S, Van der Stigchel S, Paffen CLE",
+      "journal": "Frontiers in Psychology",
+      "year": 2014,
+      "full_text_available": true,
+      "access_note": "PMC 开放全文已读",
+      "relevance": "b-CFS范式综述：测量被抑制刺激突破无意识状态进入意识的时间；区分高级语义效应与低级视觉特征的贡献",
+      "key_claims_used": [
+        "b-CFS是研究无意识加工的重要范式",
+        "刺激突破时间差异主要来自低级视觉特征而非语义处理的证据"
+      ]
+    }
+  ],
+  "search_queries": [
+    "binocular rivalry consciousness review [PubMed]",
+    "binocular rivalry neural mechanisms visual cortex [PubMed]",
+    "Logothetis Sheinberg Leopold 1996 binocular rivalry Nature [PubMed]",
+    "Blake Logothetis 2002 binocular rivalry review [PubMed]",
+    "binocular rivalry fMRI humans cortex awareness neural correlates [PubMed]",
+    "binocular rivalry levelt propositions dominance duration gamma distribution [PubMed]",
+    "Tsuchiya Koch continuous flash suppression 2005 [PubMed]",
+    "continuous flash suppression CFS consciousness [PubMed]",
+    "binocular rivalry review open access [PMC]"
+  ],
+  "open_full_text_count": 5,
+  "abstract_only_count": 5,
+  "total_sources": 10
+}

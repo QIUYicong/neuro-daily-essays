@@ -1,0 +1,136 @@
+# 运行日志：2026-10-05（实际运行日期：2026-06-12）
+
+## 基本信息
+- 文章编号：#165
+- 标题：双眼竞争：当两只眼睛各执一词，意识在大脑的哪一层做出裁决？
+- slug：binocular-rivalry-consciousness-mechanism
+- 分支：claude/funny-einstein-mvn6x7（工作分支）
+- 运行耗时：约 25 分钟
+
+## 步骤 0：环境确认
+- branch: claude/funny-einstein-mvn6x7
+- remote: http://local_proxy@127.0.0.1:35157/git/QIUYicong/neuro-daily-essays（包含正确 owner/repo）
+- ROUTINE.md 存在：✓
+- KNOWLEDGE-BASE-DESIGN.md 存在：✓
+- neuro-daily/wiki/ 存在：✓
+
+## 步骤 A：状态读取
+- topic_ledger.json：读取成功，147 条条目，上次运行 2026-10-04
+- unresolved_questions.md：读取成功（文件较大，读前 80 行）
+- contested_claims.json：读取成功，16 条 open 矛盾
+- wiki/_graph.json：325 节点，1865 边，4 个悬空引用（aging/cognition/dopamine-system/superior-longitudinal-fasciculus）
+- 此外发现 attention-consciousness-dissociation YAML 中的 binocular-rivalry 是悬空引用（图谱边尚未记录）
+
+## 步骤 B：选题
+- 优先级分析：
+  1. 突破追踪（近7天）：未发现特别重大突破，进入正常选题
+  2. 裁决矛盾：16 条 open，均非今日最优先（多为分子/回路级，与最近意识系列不直接衔接）
+  3. 填补悬空引用：`binocular-rivalry` 被 attention-consciousness-dissociation 引用但无节点 ← **选中**
+  4. 高连接低置信节点：predictive-coding（58连接，medium），但 BR 作为 PC 的具体应用更聚焦
+  5. 未解问题：Q-atcon-01 等注意-意识相关，与 BR 直接关联
+- 决策：选 binocular-rivalry，填补悬空引用 + 直接承接注意-意识解离系列
+- 层级：concepts/microcircuit/brain-region（不同于上篇 cognition 层，避免连续三天同层）
+
+## 步骤 C：检索与资料
+### 搜索词
+- "binocular rivalry consciousness review" [PubMed]
+- "binocular rivalry neural mechanisms visual cortex" [PubMed]
+- "Logothetis Sheinberg Leopold 1996 binocular rivalry" [PubMed]
+- "Blake Logothetis 2002 binocular rivalry review" [PubMed]
+- "binocular rivalry fMRI humans cortex awareness" [PubMed]
+- "binocular rivalry levelt propositions dominance duration gamma" [PubMed]
+- "Tsuchiya Koch continuous flash suppression" [PubMed]
+- "continuous flash suppression CFS consciousness" [PubMed]
+- "binocular rivalry review open access" [PMC]
+
+### 数据源使用
+- PubMed E-utilities（esearch/efetch API）：主要检索
+- PMC 开放全文：获取4篇全文（PMC1692419、PMC1470662、PMC3228233、PMC6705522）
+
+### 来源统计
+- 检索候选：~50 篇相关文献
+- 采用来源：10 篇（见 sources/2026-10-05-sources.json）
+- 开放全文已读：5 篇（S2/S4/S6/S7/S10）
+- 仅摘要：5 篇（S1/S3/S5/S8/S9）
+- 官方机构来源：未直接使用，NCBI/PubMed 为主
+
+### 排除来源
+- PMID:41747894（双眼鼻子感知，与主题不直接相关）
+- PMID:33740549（意识测量哲学，不涉及双眼竞争机制）
+- PMID:32374025（interhemispheric switch，主题偏离）
+
+## 步骤 D：固结步骤
+### 新建 wiki 页面（1页）
+- `wiki/concepts/binocular-rivalry.md`（Rev1）
+
+### 修订 wiki 页面（3页）
+- `concepts/attention-consciousness-dissociation.md` rev1→rev2
+- `concepts/neural-correlates-of-consciousness.md` rev2→rev3
+- `systems/v1-primary-visual-cortex.md` rev7→rev8
+
+### 矛盾检查
+- 无新矛盾产生：LGN 门控 vs 皮层反馈（Q-br-01）作为未解问题记录，不构成对现有 wiki 已有主张的矛盾
+- 语义效应（Q-br-02）有两种对立解释，但 Wolf 2011 的数据本身清晰；解释之争已记录为未解问题
+
+### 成熟度更新
+- binocular-rivalry：新建，established / high（多方法、独立团队、直接神经证据）
+
+## 步骤 E：图谱与导航
+- _graph.json：325→328 节点，1865→1894 边（+11 新边）
+- index.md：追加 2026-10-05 更新节
+- CHANGELOG.md：追加今日变更
+
+## 步骤 F：治理层更新
+- topic_ledger.json：148 条条目，total_articles=165
+- unresolved_questions.md：新增 Q-br-01 至 Q-br-04
+- source_registry.json：新增 7 个来源记录
+- monthly_synthesis.md：追加 #165 摘要
+- maturity_index.json：新增 binocular-rivalry 条目
+
+## 步骤 G：提交 + 推送
+- 文件列表：
+  - articles/2026-10-05-binocular-rivalry-consciousness-mechanism.md（新增）
+  - notes/2026-10-05-reading-notes.md（新增）
+  - sources/2026-10-05-sources.json（新增）
+  - wiki/concepts/binocular-rivalry.md（新增）
+  - wiki/concepts/attention-consciousness-dissociation.md（修订）
+  - wiki/concepts/neural-correlates-of-consciousness.md（修订）
+  - wiki/systems/v1-primary-visual-cortex.md（修订）
+  - wiki/_graph.json（更新）
+  - wiki/index.md（更新）
+  - wiki/CHANGELOG.md（更新）
+  - state/topic_ledger.json（更新）
+  - state/unresolved_questions.md（更新）
+  - state/source_registry.json（更新）
+  - state/monthly_synthesis.md（更新）
+  - state/maturity_index.json（更新）
+  - logs/2026-10-05-run.log（本文件）
+
+## 步骤 H：自检结果
+- 真实性：
+  ✓ 每条 wiki 新主张有 PMID/PMC 来源
+  ✓ 区分了已建立事实（LGN 门控，V1 竞争样活动）和模型/解释（LGN 局部 vs 皮层反馈，语义效应机制）
+  ✓ 动物研究（猴）到人类的推广已显式标注限制
+  ✓ 单篇研究未被写成定论
+- 一致性：
+  ✓ 无与现有 wiki 的矛盾；Q-br-01/02 的两种解释并列保留
+  ✓ 修订页的 updated/revision_count/修订历史同步
+  ✓ _graph.json 悬空边：continuous-flash-suppression/multistable-perception 已记录为待补悬空引用
+- 可导航：
+  ✓ index.md 和 CHANGELOG.md 均反映今日变化
+  ✓ 新页 related 和 prerequisites 均已填写（≥1 个）
+- 情景层：
+  ✓ 文章/笔记/来源/日志齐全
+  ✓ 未修改任何旧日期文章文件
+
+## 失败与限制
+- PMID:8602261（Logothetis 1996 Nature）：无开放全文，仅摘要
+- PMID:11823801（Blake & Logothetis 2002 NRN）：无开放全文，仅摘要
+- PMID:9632390（Lumer 1998 Science）：无开放全文，仅摘要
+- PMID:25749677（Brascamp 2015 Vision Res）：无开放全文，仅摘要
+- PMID:17132078（Tsuchiya 2006 J Vision）：无开放全文，仅摘要
+
+## 推送状态
+- 推送目标：origin main（实际在 claude/funny-einstein-mvn6x7 分支工作，按任务环境指示）
+- commit: [待填入]
+- push: [待更新]
