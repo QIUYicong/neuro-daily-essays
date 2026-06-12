@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-04",
-  "node_count": 325,
-  "edge_count": 1865,
+  "updated": "2026-10-05",
+  "node_count": 329,
+  "edge_count": 1899,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2960,6 +2960,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/attention-consciousness-dissociation.md"
+    },
+    {
+      "id": "binocular-rivalry",
+      "title": "双眼竞争",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/binocular-rivalry.md"
+    },
+    {
+      "id": "perceptual-bistability",
+      "title": "感知双稳态",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/perceptual-bistability.md"
     }
   ],
   "edges": [
@@ -12974,6 +12992,86 @@
       "from": "visual-awareness-negativity",
       "to": "attention-consciousness-dissociation",
       "type": "supports"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "perceptual-bistability",
+      "type": "is-a"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "ocular-dominance-columns",
+      "type": "part-of"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "attention-consciousness-dissociation",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "access-consciousness",
+      "type": "supports"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "phenomenal-consciousness",
+      "type": "supports"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "biased-competition",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "alpha-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "binocular-rivalry",
+      "to": "consciousness-ignition",
+      "type": "related"
+    },
+    {
+      "from": "action-potential",
+      "to": "binocular-rivalry",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "synaptic-transmission",
+      "to": "binocular-rivalry",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "binocular-rivalry",
+      "type": "related"
+    },
+    {
+      "from": "perceptual-bistability",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "perceptual-bistability",
+      "to": "phenomenal-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "perceptual-bistability",
+      "to": "attention-consciousness-dissociation",
+      "type": "related"
+    },
+    {
+      "from": "ocular-dominance-columns",
+      "to": "binocular-rivalry",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

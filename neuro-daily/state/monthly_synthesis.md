@@ -4,7 +4,7 @@
 
 ## 2026年10月（进行中）
 
-*本月截至日期：2026-10-04*
+*本月截至日期：2026-10-05*
 *本月新增文章：#161–#164；共 4 篇（月度第1–4篇）。10-04 注意-意识双重解离（#164）：Koch & Tsuchiya 2007 的分析器/综合器框架；有注意无意识（CFS/双眼竞争/注意瞬脱/盲视）；无注意有意识（溢出假说/摘要统计/TMS磷光/余像反向效应）；Wyart 2008 γ频率双解离（54-64Hz意识，76-90Hz注意）；VAN/P3b时间解离；Block溢出 vs Cohen必要条件之争；新建1页（attention-consciousness-dissociation），修订2页（VAN, access-consciousness）；图谱327节点1883边。*
 
 *本月主题线（1–4篇）：意识科学实验战场（前四篇均为意识主题，继续10月意识专辑）：10-01周综合（意识坐标系）→ 10-02 DoC临床谱系 → 10-03 前连合（裂脑意识通路）→ 10-04 注意-意识解离（意识产生的必要条件之争）。
@@ -1190,3 +1190,10 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 重大争议：Cohen et al. 2012（PMID:22795561）提出严肃反驳：**注意是意识的必要条件**——所有"无注意有意识"的实验在方法论上都无法完全排除注意残余。这是当前未解问题 Q-atcon-01 的根源。VAN 是否混合了内隐注意成分（Q-atcon-02）和溢出 vs 稀疏争论（Q-atcon-03）同样悬而未决。
 
 **新建** wiki/concepts/attention-consciousness-dissociation（Rev1，mainstream/medium）。**修订**：visual-awareness-negativity rev2（补充与注意-意识解离框架的连接）、access-consciousness rev2（补充 A vs P 区分与解离的关系，新增 PMID:22078929）。**图谱**：327 节点，1883 条边（+1节点，+10边）。**来源**：9篇（4篇开放全文，5篇摘要）。**层级**：cognition（意识专辑继续；近期层级：cognition/disease/brain-region/whole-brain-network，连续四天 cognition 层，明日应转向分子/细胞层或方法层）。**新增未解**：Q-atcon-01（高，证明注意为零的范式）、Q-atcon-02（中，VAN 注意成分比例）、Q-atcon-03（中，溢出 vs 稀疏）。
+
+
+**#165（2026-10-05）**：双眼竞争与意识闸门——左右眼之战如何裁决哪一幅图像进入主观世界
+
+**填补悬空引用** `binocular-rivalry`（自 #164 登记），完成意识研究系列对"意识研究经典实验平台"的系统梳理。核心叙事：**双眼竞争（binocular rivalry）是意识神经科学最重要的实验平台之一，因为它将"视网膜输入不变"与"意识状态变化"解耦，使研究者能够将神经活动精确分类为'意识相关'和'前意识处理'两类**。今日文章建立了一个层级清晰的竞争机制框架：（1）V1 的眼优势柱互抑制是竞争的底层自动发生器，Xu et al. 2016（PMID:26985033，麻醉猴光学成像）直接证明它在完全缺乏意识的情况下仍产生与清醒人类感知切换统计吻合的竞争样振荡（均值 4.3 秒 gamma 分布）；（2）但 V1 竞争不等于意识竞争——感知-神经相关性随视觉层级升高而增强，在颞叶 IT 皮层（~90% 细胞跟随感知）达到峰值，Tong et al. 1998（PMID:9808462）的 fMRI 更直接证明 FFA/PPA 活动跟随感知而非视网膜刺激；（3）感知切换是一次全脑节律重同步事件，Doesburg et al. 2009（PMID:19582165）发现切换前 220-280ms 有由 theta 调制（4-6Hz）的 gamma 爆发（35-45Hz）覆盖 DLPFC-楔前叶网络，提出"意识帧=一个 theta 周期"模型；（4）注意对竞争的影响深达必要条件层面（Li et al. 2017，PMID:28696323）。关键认知更新：V1 的"前意识竞争"与感知切换的"全脑整合"不是竞争性假说，而是竞争机制的两个层次——这为意识的分层理论提供了实验支撑。Lin & He 2009（PMID:18824061）的"抑制深度分层"框架（低层特征在抑制期间几乎继续处理，高层语义几乎完全停止）进一步精确化了"意识边界"不是全有全无的线，而是层级渐变的坡。
+
+**新建 wiki 页（2 页）**：binocular-rivalry（Rev1，established/high）、perceptual-bistability（Rev1，established/high）。**修订（1 页）**：attention-consciousness-dissociation rev2（binocular-rivalry 连接；Li 2017 "注意必要条件"与 Koch 2007 "无注意有意识"证据张力）。**图谱**：327→329 节点，1883→1899 条边（+2节点，+16边）。**来源**：9篇（5篇开放全文 PMC，4篇摘要）。**层级**：cellular × microcircuit × brain-region × whole-brain-network × cognition（五层，有意识地从连续 cognition 层扩展到包含细胞/回路层）。**新增未解**：Q-br-01（高，V1竞争振荡与感知切换因果性）、Q-br-02（中，感知切换20+类型神经基础差异）。**填补悬空引用**：binocular-rivalry（填补）。**剩余悬空引用**：inattentional-blindness、superior-longitudinal-fasciculus、visual-cortex-hierarchy。

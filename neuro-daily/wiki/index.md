@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-04（**#164** 注意-意识双重解离——γ振荡双解离、VAN/P3b时间解离、Block溢出 vs Cohen必要条件争论；新建1页：attention-consciousness-dissociation；修订2页：VAN rev2, access-consciousness rev2；图谱 327 节点，1883 边）· 主题页总数：**305**
+> 最后更新：2026-10-05（**#165** 双眼竞争与意识闸门——V1麻醉竞争样活动、感知层级梯度、theta-gamma全脑网络、注意必要性；**填补悬空引用** binocular-rivalry；新建2页：binocular-rivalry, perceptual-bistability；修订1页：attention-consciousness-dissociation rev2；图谱 329 节点，1899 边）· 主题页总数：**307**
 
 ---
 
@@ -45,6 +45,8 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [双眼竞争](concepts/binocular-rivalry.md) — 向双眼呈现不相容图像时意识自发交替的现象；V1 互抑制→颞叶感知代表→全脑 theta-gamma 网络的分布式意识闸门机制 **[NEW 2026-10-05 #165；填补悬空引用]**
+- 🟢 [感知双稳态](concepts/perceptual-bistability.md) — 感觉输入不变而意识在多种解释之间自发振荡的现象总称；双眼竞争/Necker 立方体/鸭兔图的共同神经框架 **[NEW 2026-10-05 #165]**
 - 🔵 [神经振荡层级](concepts/neural-oscillations.md) — 慢振荡/δ/θ/α/β/γ 六频段产生机制综合；PAC三层嵌套（δ→θ→γ，Lakatos 2005）；CTC通信通道假说（Fries 2015）；频率-方向分工（γ前馈误差 vs α/β反馈预测）；振荡层级与预测编码框架统一 **[修订 rev3 2026-09-21 #151]**
 - 🔵 [δ振荡](concepts/delta-oscillations.md) — 语音处理中的语言层级时间框架（追踪抽象句法结构，Ding 2016）；语言特异性（Molinaro 2018）；清醒语音δ与睡眠记忆δ的双重功能及机制区别；阅读障碍TSF框架（Goswami 2011）；左颞-额网络；与双流架构的映射（左IFG背侧流+ATL腹侧流） **[2026-09-22 #152 修订]**
 - 🔵 [非对称时间采样框架（AST）](concepts/temporal-sampling-framework.md) — Poeppel 2003 提出；左半球偏好快时序窗口（~25ms γ，音素精度）；右半球偏好慢时序窗口（~200ms θ，韵律整合）；AAC层级（非A1）产生；解释语言左侧化的振荡计算机制 **[NEW 2026-09-22 #152]**

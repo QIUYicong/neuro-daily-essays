@@ -1,6 +1,28 @@
 {
   "entries": [
     {
+      "slug": "binocular-rivalry",
+      "title": "双眼竞争",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-10-05",
+      "change_reason": "新建：基于 Xu et al. 2016 (PMC6705522)、Logothetis 1998 (PMC1692419)、Lin & He 2009 (PMC2689366)、Doesburg 2009 (PMC2702101)、Li et al. 2017 (PMC5544261) 五篇开放全文；Blake & Logothetis 2002、Tong 1998、Tong & Engel 2001 摘要；现象本身有160年历史，神经机制多实验室验证",
+      "prior_status": null,
+      "source_article": "2026-10-05-binocular-rivalry-consciousness-gate"
+    },
+    {
+      "slug": "perceptual-bistability",
+      "title": "感知双稳态",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-10-05",
+      "change_reason": "新建：双眼竞争的上级类别概念；与 Necker 立方体等多稳态现象归纳自双眼竞争系列综合；placed established/high 因现象本身有充分文献基础",
+      "prior_status": null,
+      "source_article": "2026-10-05-binocular-rivalry-consciousness-gate"
+    },
+    {
       "slug": "srgap2c-neoteny",
       "status": "established",
       "confidence": "high",
@@ -270,7 +292,7 @@
       "source_article": "2026-09-24-hemispatial-neglect-attention-imbalance"
     }
   ],
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-10-05",
   "index": [
     {
       "slug": "thalamocortical-axons",

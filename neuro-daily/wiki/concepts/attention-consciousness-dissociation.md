@@ -6,8 +6,8 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-10-04
-updated: 2026-10-04
-revision_count: 1
+updated: 2026-10-05
+revision_count: 2
 dimensions: [cognition, whole-brain-network, brain-region, methods]
 related: [visual-awareness-negativity, access-consciousness, phenomenal-consciousness, dorsal-attention-network, ventral-attention-network, global-workspace-theory, integrated-information-theory, recurrent-processing-theory, binocular-rivalry, attentional-blink, consciousness-ignition, neural-correlates-of-consciousness]
 prerequisites: [access-consciousness, phenomenal-consciousness, neural-correlates-of-consciousness, dorsal-attention-network]
@@ -103,7 +103,9 @@ Koch & Tsuchiya（2007，PMID:17129748）系统论证了注意与意识是两种
 ## 修订历史
 
 - 2026-10-04 · 创建 · 基于《注意不等于意识》(#164) · 初始置信度：中（双重解离的弱版本已有充分证据；强版本——完全解耦——仍有方法论争议）
+- 2026-10-05 · 修订 rev2 · 基于《双眼竞争与意识闸门》(#165) · 补充：binocular-rivalry 悬空引用填补（CFS 是双眼竞争变体，是"有注意无意识"范式的核心实验平台）；Li et al. 2017（PMID:28696323）注意模型提供"注意是竞争必要条件"的证据，与 Koch & Tsuchiya 2007 的"无注意有意识"立场形成正面张力，建立在证据表中明确标注
 
 ## 来源文章
 
 - [[2026-10-04-attention-consciousness-dissociation]]
+- [[2026-10-05-binocular-rivalry-consciousness-gate]]

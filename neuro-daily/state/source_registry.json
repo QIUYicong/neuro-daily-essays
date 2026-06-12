@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11953,6 +11953,174 @@
         "无注意有意识综述（TMS磷光、梦、余像）",
         "神经生物学证据"
       ]
+    },
+    {
+      "pmid": "26985033",
+      "pmcid": "PMC6705522",
+      "title": "Rivalry-Like Neural Activity in Primary Visual Cortex in Anesthetized Monkeys",
+      "authors_short": "Xu et al.",
+      "journal": "J Neurosci",
+      "year": 2016,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-binocular-rivalry-consciousness-gate"
+      ],
+      "aspects_covered": [
+        "V1 ocular dominance column competition",
+        "rivalry under anesthesia",
+        "pre-conscious rivalry mechanism",
+        "gamma distribution dominance durations"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "19582165",
+      "pmcid": "PMC2702101",
+      "title": "Rhythms of consciousness: binocular rivalry reveals large-scale oscillatory network dynamics mediating visual perception",
+      "authors_short": "Doesburg et al.",
+      "journal": "PLoS One",
+      "year": 2009,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-binocular-rivalry-consciousness-gate"
+      ],
+      "aspects_covered": [
+        "theta-gamma coupling during perceptual switches",
+        "DLPFC-precuneus network",
+        "consciousness frames at theta rate",
+        "220-280ms pre-switch gamma burst"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "18824061",
+      "pmcid": "PMC2689366",
+      "title": "Seeing the invisible: the scope and limits of unconscious processing in binocular rivalry",
+      "authors_short": "Lin & He",
+      "journal": "Prog Neurobiol",
+      "year": 2009,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-binocular-rivalry-consciousness-gate"
+      ],
+      "aspects_covered": [
+        "unconscious processing depth",
+        "low-level features survive suppression",
+        "high-level features blocked",
+        "fragile unconscious binding hypothesis",
+        "ventral/dorsal pathway differential suppression"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "9854253",
+      "pmcid": "PMC1692419",
+      "title": "Single units and conscious vision",
+      "authors_short": "Logothetis",
+      "journal": "Philos Trans R Soc Lond B",
+      "year": 1998,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-binocular-rivalry-consciousness-gate"
+      ],
+      "aspects_covered": [
+        "single unit recordings during rivalry",
+        "V1 vs IT cortex perception correlation",
+        "hierarchical gradient of consciousness",
+        "binocular cell specificity"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "28696323",
+      "pmcid": "PMC5544261",
+      "title": "Attention Model of Binocular Rivalry",
+      "authors_short": "Li et al.",
+      "journal": "PNAS",
+      "year": 2017,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-binocular-rivalry-consciousness-gate"
+      ],
+      "aspects_covered": [
+        "attention required for rivalry",
+        "EEG rivalry index drops without attention",
+        "Levelt's second proposition computational model",
+        "attention amplification + mutual inhibition + slow adaptation"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "11823801",
+      "pmcid": null,
+      "title": "Visual competition",
+      "authors_short": "Blake & Logothetis",
+      "journal": "Nat Rev Neurosci",
+      "year": 2002,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-binocular-rivalry-consciousness-gate"
+      ],
+      "aspects_covered": [
+        "rivalry overview",
+        "multi-level neural mechanisms",
+        "history and theory"
+      ],
+      "full_text": false
+    },
+    {
+      "pmid": "9808462",
+      "pmcid": null,
+      "title": "Binocular rivalry and visual awareness in human extrastriate cortex",
+      "authors_short": "Tong et al.",
+      "journal": "Neuron",
+      "year": 1998,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-binocular-rivalry-consciousness-gate"
+      ],
+      "aspects_covered": [
+        "FFA/PPA follow perception not retinal input",
+        "face-house rivalry fMRI",
+        "extrastriate cortex as perception mirror"
+      ],
+      "full_text": false
+    },
+    {
+      "pmid": "11346796",
+      "pmcid": null,
+      "title": "Interocular rivalry revealed in the human cortical blind-spot representation",
+      "authors_short": "Tong & Engel",
+      "journal": "Nature",
+      "year": 2001,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-binocular-rivalry-consciousness-gate"
+      ],
+      "aspects_covered": [
+        "V1 monocular region activity correlated with perceptual dominance",
+        "blind spot experiment",
+        "V1 role in conscious perception"
+      ],
+      "full_text": false
+    },
+    {
+      "pmid": "40041744",
+      "pmcid": "PMC11879079",
+      "title": "The complexity of human subjective experience during binocular rivalry",
+      "authors_short": "Yilmaz et al.",
+      "journal": "Neurosci Conscious",
+      "year": 2025,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-binocular-rivalry-consciousness-gate"
+      ],
+      "aspects_covered": [
+        "20+ transition categories",
+        "subjective experience complexity underestimated",
+        "2-3 transition types per stimulus"
+      ],
+      "full_text": false
     }
   ],
   "total_sources": 718,

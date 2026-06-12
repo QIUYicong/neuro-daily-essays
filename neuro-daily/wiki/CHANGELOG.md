@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-10-05（文章 #165：双眼竞争与意识闸门——左右眼之战如何裁决哪一幅图像进入主观世界）
+
+### 新创建页面（2 页）
+- `concepts/binocular-rivalry.md`（双眼竞争）：**填补悬空引用**（自 2026-10-04 登记，由注意-意识解离文章生成）。整合 V1 眼优势柱互抑制机制、麻醉下竞争样活动（Xu 2016 PMC6705522）、感知-神经活动层级梯度（Logothetis 1998 PMC1692419）、抑制深度分层（Lin & He 2009 PMC2689366）、theta-gamma 全脑网络（Doesburg 2009 PMC2702101）、注意必要性（Li et al. 2017 PMC5544261）；V1 角色矛盾证据登记；莱维特定律与眼竞争 vs 图像竞争区分；状态 established，置信度 high；8 条关键来源。
+- `concepts/perceptual-bistability.md`（感知双稳态）：双眼竞争的上级类别概念页，涵盖 Necker 立方体、鸭兔图等多稳态现象的共同神经框架；状态 established，置信度 high。
+
+### 修订页面（1 页）
+- `concepts/attention-consciousness-dissociation.md`（revision_count: 1→2）：新增 binocular-rivalry 连接——CFS（连续闪光抑制，双眼竞争的变体）是"有注意无意识"范式的实验平台；Li et al. 2017 注意模型提供"注意为必要条件"的反驳证据，与 Koch & Tsuchiya 2007 "无注意有意识"证据形成正面张力，补充写入矛盾状态。
+
+### 悬空引用状态更新
+- `binocular-rivalry` 悬空引用已填补（自 2026-10-04 登记）。
+- 剩余悬空引用：`inattentional-blindness`、`superior-longitudinal-fasciculus`、`visual-cortex-hierarchy`。
+
+### 知识图谱更新
+- 新节点：binocular-rivalry, perceptual-bistability（节点总数：327 → 329）
+- 新边：16 条（边总数：1883 → 1899）
+
+---
+
 ## 2026-10-04（文章 #164：注意不等于意识——探照灯与舞台灯光的神经科学分离）
 
 ### 新创建页面（1 页）

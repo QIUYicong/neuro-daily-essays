@@ -1,7 +1,79 @@
 {
-  "last_updated": "2026-10-04",
-  "total_articles": 164,
+  "last_updated": "2026-10-05",
+  "total_articles": 165,
   "entries": [
+    {
+      "date": "2026-10-05",
+      "real_date": "2026-06-12",
+      "article_number": 165,
+      "title": "双眼竞争与意识闸门：左右眼之战如何裁决哪一幅图像进入主观世界",
+      "slug": "binocular-rivalry-consciousness-gate",
+      "filename": "2026-10-05-binocular-rivalry-consciousness-gate.md",
+      "article_type": "deep-dive",
+      "core_question": "当左右眼看到不相容图像时，大脑如何决定哪一幅进入意识？这个决定发生在视觉层级哪个位置？V1互抑制、高级视觉皮层、全脑振荡各自的角色是什么？注意是否是竞争的必要条件？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "3.大脑如何编码世界（感觉系统/视觉皮层）×8.意识与自我（NCC/双眼竞争作为意识研究平台）",
+      "topic_tags": [
+        "binocular rivalry",
+        "perceptual bistability",
+        "ocular dominance columns",
+        "V1 mutual inhibition",
+        "Levelt propositions",
+        "eye rivalry",
+        "stimulus rivalry",
+        "swap experiment",
+        "unconscious processing",
+        "suppression depth",
+        "fragile unconscious binding",
+        "Logothetis 1998",
+        "Tong 1998",
+        "Xu 2016 anesthesia",
+        "Doesburg theta-gamma",
+        "Li attention 2017",
+        "theta-gamma coupling",
+        "DLPFC precuneus rivalry network",
+        "consciousness gate",
+        "perception-neural correlation gradient"
+      ],
+      "main_sources": [
+        "PMID:26985033/PMC6705522 (Xu 2016 J Neurosci, open full text read)",
+        "PMID:19582165/PMC2702101 (Doesburg 2009 PLoS One, open full text read)",
+        "PMID:18824061/PMC2689366 (Lin & He 2009 Prog Neurobiol, open full text read)",
+        "PMID:9854253/PMC1692419 (Logothetis 1998 Philos Trans, open full text read)",
+        "PMID:28696323/PMC5544261 (Li 2017 PNAS, open full text read)",
+        "PMID:11823801 (Blake & Logothetis 2002 Nat Rev Neurosci, abstract only)",
+        "PMID:9808462 (Tong 1998 Neuron, abstract only)",
+        "PMID:11346796 (Tong & Engel 2001 Nature, abstract only)",
+        "PMID:40041744/PMC11879079 (Yilmaz 2025 Neurosci Conscious, abstract only)"
+      ],
+      "wiki_created": [
+        "wiki/concepts/binocular-rivalry.md",
+        "wiki/concepts/perceptual-bistability.md"
+      ],
+      "wiki_revised": [
+        "wiki/concepts/attention-consciousness-dissociation.md (rev1→rev2): 新增 binocular-rivalry 连接；Li et al. 2017 是注意-意识解离领域'注意是必要条件'反驳的证据"
+      ],
+      "dangling_refs_filled": [
+        "binocular-rivalry"
+      ],
+      "unresolved_questions": [
+        "Q-br-01（高）：V1竞争振荡与感知切换之间的因果性（光遗传抑制V1竞争动态是否消除感知切换报告）",
+        "Q-br-02（中）：感知切换20+类型的神经基础差异"
+      ],
+      "next_suggested_topics": [
+        "inattentional-blindness 专页（填补悬空引用）：不注意盲视的行为机制与神经基础",
+        "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？",
+        "V1 的意识贡献问题：从双眼竞争到盲视，V1的角色争议综合深化（填补Q-br-01）",
+        "视觉皮层层级（visual-cortex-hierarchy）专页：V1→V2→V4→IT的感知层级结构（填补悬空引用）",
+        "进入方法论层：无报告范式（no-report paradigm）——如何将意识测量从语言报告中解放出来"
+      ]
+    },
     {
       "date": "2026-08-09",
       "real_date": "2026-06-07",

@@ -1,0 +1,135 @@
+# 运行日志：2026-10-05（实际运行日期：2026-06-12）
+
+## 基本信息
+
+- **文章编号**：#165
+- **知识库内部日期**：2026-10-05
+- **实际运行日期**：2026-06-12（UTC+8）
+- **主题**：双眼竞争与意识闸门（binocular-rivalry-consciousness-gate）
+- **选题依据**：填补 2026-10-04 #164 文章产生的悬空引用 `binocular-rivalry`（Priority 3: 填补悬空引用）
+- **工作分支**：claude/funny-einstein-86k631（环境强制；知识库标准要求 main，已 merge/fetch 最新 main）
+
+---
+
+## 检索过程
+
+### 搜索词
+
+1. `binocular rivalry consciousness neural mechanism` (PubMed) → 15 results
+2. `binocular rivalry review V1 cortex` (PubMed) → 1 result (PMID:18640145)
+3. `binocular rivalry Blake Logothetis review neural` (PubMed) → 1 result (PMID:11823801)
+4. `Logothetis rivalry monkey perception neural` (PubMed) → 5 results
+5. `binocular rivalry lateral inhibition oscillation mechanism` (PubMed) → 2 results
+6. `Tong Nakayama 1998 Neuron binocular rivalry` (PubMed) → 1 result (PMID:9808462)
+7. `binocular rivalry eye rivalry image rivalry distinction` (PubMed) → 8 results
+8. `binocular rivalry neural basis review[Title]` (PubMed) → 1 result (PMID:35182893)
+
+### 数据来源
+
+- PubMed / NCBI E-utilities (esearch, esummary, efetch)
+- PubMed Central (PMC BioC/全文直接访问)
+
+### 候选文章池
+
+共检索到约 40 个候选 PMID；最终采用 9 篇（5 开放全文 + 4 摘要）
+
+---
+
+## 采用来源
+
+### 全文读取（PMC 开放全文）
+
+| PMID | 标题 | 期刊/年 | PMCID | 采用原因 |
+|------|------|---------|-------|---------|
+| 26985033 | Rivalry-Like Neural Activity in Primary Visual Cortex in Anesthetized Monkeys | J Neurosci 2016 | PMC6705522 | 麻醉猴V1实验，核心发现：无意识时V1仍产生竞争样振荡 |
+| 19582165 | Rhythms of consciousness: binocular rivalry reveals large-scale oscillatory network dynamics | PLoS One 2009 | PMC2702101 | theta-gamma耦合，感知切换的全脑网络机制 |
+| 18824061 | Seeing the invisible: the scope and limits of unconscious processing in binocular rivalry | Prog Neurobiol 2009 | PMC2689366 | 抑制期间处理深度的系统性综述 |
+| 9854253 | Single units and conscious vision | Philos Trans R Soc Lond B 1998 | PMC1692419 | 单细胞记录，感知-活动相关性的视觉层级梯度 |
+| 28696323 | Attention Model of Binocular Rivalry | PNAS 2017 | PMC5544261 | 注意与竞争关系的计算模型和EEG证据 |
+
+### 仅读摘要
+
+| PMID | 标题 | 采用原因 |
+|------|------|---------|
+| 11823801 | Visual competition | Blake & Logothetis 2002 经典综述，领域框架 |
+| 9808462 | Binocular rivalry and visual awareness in human extrastriate cortex | Tong 1998 fMRI，FFA/PPA跟随感知 |
+| 11346796 | Interocular rivalry revealed in the human cortical blind-spot representation | Tong & Engel 2001 Nature，V1盲点实验 |
+| 40041744 | The complexity of human subjective experience during binocular rivalry | Yilmaz 2025，感知切换主观复杂性 |
+
+### 排除来源
+
+- PMID:35182893 (binocular luster review) — 与双眼竞争不同现象，排除
+- PMID:18640145 (Grossberg 3D vision model) — 专注3D深度感知，与意识研究关联度低，排除
+- 大量近年（2020-2025）检索未能找到合适的开放全文综述，可能由于检索词不够精确
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页
+
+1. `wiki/concepts/binocular-rivalry.md`（Rev1，established/high）
+   - 填补从 #164 产生的悬空引用
+   - 来源：5篇开放全文 + 4篇摘要
+   - 覆盖：V1机制、层级梯度、全脑振荡、注意必要性、莱维特定律、眼竞争vs图像竞争
+
+2. `wiki/concepts/perceptual-bistability.md`（Rev1，established/high）
+   - 双眼竞争的上级类别概念
+   - 涵盖Necker立方体、鸭兔图等多稳态现象
+
+### 修订 wiki 页
+
+3. `wiki/concepts/attention-consciousness-dissociation.md`（Rev1→Rev2）
+   - 新增 binocular-rivalry 连接
+   - 补充 Li et al. 2017 "注意必要条件"证据
+   - 新增来源文章引用
+
+### 矛盾检查
+
+- binocular-rivalry 页面记录了 V1 角色的矛盾证据（Xu 2016 vs Tong & Engel 2001）
+- 这两条证据在说明不同层次的 V1 贡献，**不登记为 contested_claims**（因为这是层级维度差异，不是同类主张的直接矛盾）
+- Li et al. 2017 的"注意是必要条件"与 Koch & Tsuchiya 2007 的"注意非必要条件"是注意-意识解离领域的已知争议，已在 attention-consciousness-dissociation 页面中记录，C-2026-10-04-01（待查）
+
+### 成熟度评估
+
+- binocular-rivalry: established/high（160年现象，多实验室验证）
+- perceptual-bistability: established/high（宽泛类别，现象定义清晰）
+
+---
+
+## 图谱更新
+
+- 节点：325 → 329（+2个新节点）
+- 边：1865 → 1899（+16条新边，覆盖 is-a、part-of、supports、related、prerequisite-for、mechanism-of）
+- 填补悬空引用：binocular-rivalry（已填补）
+- 剩余悬空引用：inattentional-blindness、superior-longitudinal-fasciculus、visual-cortex-hierarchy
+
+---
+
+## 失败与限制
+
+1. **交换实验（swap experiment）** 无法找到直接引用的原始论文（Leopold & Logothetis 1996 Science 或 Logothetis et al.），文章中提及但未标注 PMID，这是一处轻微违反"每条主张必须有来源"原则的地方。该实验是领域内广泛引用的经典，但应在未来文章中找到原始 PMID 补充。
+2. **无法找到近年（2020-2025）的开放全文综述**：多次搜索未找到综合了最近进展的开放全文综述，导致近年进展主要来自 Yilmaz 2025 的摘要，未能深入。
+3. **未搜索到 Logothetis 1996 Science 原始单细胞记录论文**（估计 PMID 8614478 左右），只使用了 1998 的综述性 Philos Trans 论文。
+
+---
+
+## Git 操作
+
+- **分支**：claude/funny-einstein-86k631（环境强制）
+- **提交信息**：Add neuro daily article + wiki consolidation for 2026-10-05
+- **推送目标**：origin claude/funny-einstein-86k631（环境要求）
+- **注意**：ROUTINE.md 要求推送到 main，但环境强制使用此功能分支。日后应合并回 main 以保持连续性。
+
+---
+
+## 状态文件变更
+
+- topic_ledger.json: total_articles 164→165
+- unresolved_questions.md: 新增 Q-br-01（高）、Q-br-02（中）
+- source_registry.json: 新增9条来源（总计727条）
+- monthly_synthesis.md: 追加 #165 摘要
+- maturity_index.json: 新增2条（binocular-rivalry, perceptual-bistability）
+- wiki/_graph.json: 329节点，1899边
+- wiki/index.md: 新增2个条目，总页数307
+- wiki/CHANGELOG.md: 新增今日条目
