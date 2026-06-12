@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -14620,5 +14620,57 @@
       "PMC8852337"
     ],
     "note": "V型脊髓中间神经元系列 + VSCT争议 + MLR控制"
+  },
+  "additions_2026-10-08": {
+    "date": "2026-10-08",
+    "article": "2026-10-08-alpha-motor-neuron-size-principle",
+    "sources_added": [
+      {
+        "pmid": "14328454",
+        "title": "Henneman 1965 - Functional significance of cell size in spinal motoneurons",
+        "access": "abstract_only"
+      },
+      {
+        "pmid": "23720261",
+        "title": "Heckman & Enoka 2012 - Motor unit (Compr Physiol)",
+        "access": "abstract_only"
+      },
+      {
+        "pmid": "31799904",
+        "pmcid": "PMC7132324",
+        "title": "Binder, Powers, Heckman 2020 - Nonlinear I/O Functions of Motoneurons",
+        "access": "open"
+      },
+      {
+        "pmid": "18381974",
+        "pmcid": "PMC3326417",
+        "title": "Heckman 2008 - Persistent Inward Currents in Spinal Motoneurons",
+        "access": "open"
+      },
+      {
+        "pmid": "20462789",
+        "pmcid": "PMC3000632",
+        "title": "ElBasiouny 2010 - PICs: Normal Function, SCI, ALS",
+        "access": "open"
+      },
+      {
+        "pmid": "36353890",
+        "pmcid": "PMC10098498",
+        "title": "Hug 2023 - Common Synaptic Input, Size Principle",
+        "access": "open"
+      },
+      {
+        "pmid": "19783207",
+        "pmcid": "PMC7312725",
+        "title": "Heckman 2009 - Motoneuron Excitability and Neuromodulatory Inputs",
+        "access": "open"
+      },
+      {
+        "pmid": "39196985",
+        "title": "Mesquita 2024 - PICs in Human Motoneurons",
+        "access": "uncertain"
+      }
+    ],
+    "note": "α运动神经元生理学：大小原则+PICs"
   }
 }

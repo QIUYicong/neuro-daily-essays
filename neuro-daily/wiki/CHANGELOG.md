@@ -4,6 +4,53 @@
 
 ---
 
+## 2026-10-08（文章 #168：最终公共通路——α运动神经元如何用大小原则和持续内向电流把大脑命令变成肌肉力量）
+
+### 新建 wiki 页面（4 页）
+
+- `neurons/alpha-motor-neuron.md`（α运动神经元）：Rev1 创建；大小原则（Henneman 1965，物理自动招募，PMID:14328454）；PICs（CaV1.3 + Nav1.6，树突远端，2–6倍放大，PMID:18381974/31799904）；三类运动单元（S/FR/FF 及代谢特征）；单胺能调制（5-HT₂/α₁AR）；ALS FF 脆弱性；SCI 痉挛机制；状态 established / confidence: high；新增未解 Q-mn-01/02/03。
+
+- `concepts/motor-unit.md`（运动单元）：Rev1 创建；最小可控神经肌肉单元（α-MN + 支配肌纤维）；神经支配比（眼外肌5-15 → 腓肠肌1000-2000）；S/FR/FF三类型；招募编码 vs 频率编码；去同步化与平滑收缩的关系；状态 established / confidence: high。
+
+- `concepts/size-principle.md`（Henneman 大小原则）：Rev1 创建；物理机制（高R_in小型MN先去极化先放电）；S→FR→FF有序招募；节能优先设计原则；Hug 2023 修订（共同输入簇内严格，跨簇不保证，PMID:36353890, PMC10098498）；任务特异性招募例外争议；状态 established / confidence: high。
+
+- `concepts/persistent-inward-currents.md`（持续内向电流）：Rev1 创建；CaV1.3（主要，比CaV1.2低10-20 mV激活）+ Nav1.6 双通道；树突远端位置；2–6倍放大（中等/高单胺能驱动）；无单胺能时<30-40%最大输出；5-HT₂R + α₁AR调制；高原电位/双稳态（10-20 mV激活-去激活滞后）；SCI弛缓性麻痹→痉挛机制；delta-F间接测量局限；状态 established / confidence: high；新增未解 Q-pic-01/02/03。
+
+### 修订 wiki 页面（1 页）
+
+- `circuits/spinal-cord-cpg.md` rev1→rev2：prerequisites 中 motor-neuron 悬空引用替换为 alpha-motor-neuron 正式节点；related 新增 alpha-motor-neuron / motor-unit / persistent-inward-currents；连接节新增三条（CPG→α-MN、motor-unit、PICs）；key_sources 和 source_articles 补充今日文章；修订历史追加。
+
+### 图谱变化
+
+- 新建节点 4 个：alpha-motor-neuron（neurons, structure, established/high）、motor-unit（concepts, concept, established/high）、size-principle（concepts, mechanism, established/high）、persistent-inward-currents（concepts, mechanism, established/high）
+- 新增边 18 条：spinal-cord-cpg→alpha-motor-neuron (regulates)；motor-cortex→alpha-motor-neuron (regulates)；alpha-motor-neuron↔motor-unit (part-of)；alpha-motor-neuron↔size-principle (mechanism-of)；alpha-motor-neuron↔persistent-inward-currents (mechanism-of)；neuromodulator-systems→persistent-inward-currents (regulates)；size-principle→motor-unit (mechanism-of)；alpha-motor-neuron→action-potential (mechanism-of)；alpha-motor-neuron↔parkinsons-disease (related)；persistent-inward-currents↔size-principle (supports/related)；persistent-inward-currents→t-type-calcium-channels (related)
+- 节点总数：334 → 338（+4）
+- 边总数：1921 → 1939（+18）
+- 已填补悬空引用：`motor-neuron` 悬空引用（spinal-cord-cpg prerequisites 中）已替换为正式 alpha-motor-neuron 节点
+
+### 登记矛盾（0 条）
+
+- 无新增矛盾。Hug 2023 对大小原则的修订（共同输入簇内有序 vs 跨簇不保证）不构成与既有主张的冲突，而是精化——已在 size-principle 页面明确表述为"精化而非否定"，无需登记矛盾协议。
+
+### 新增悬空引用待补
+
+- `neuromuscular-junction`：被 motor-unit 和 alpha-motor-neuron 引用，待创建（神经肌肉接头；ACh释放；终板电位；重症肌无力病理）
+- `mesencephalic-locomotor-region`：被 spinal-cord-cpg 引用，自 #167 起存在，仍待创建
+
+### 新增未解问题（7 条）
+
+- Q-mn-01（高）：任务特异性招募中是否存在大小原则的真正例外（同一共同输入簇内逆序招募）？
+- Q-mn-02（中）：CaV1.3 在人类脊髓 α-MN 的精确分布（目前主要来自大鼠/猫数据）
+- Q-mn-03（中）：ALS FF 型优先退化的最早可检测时间节点（高分辨率 EMG 纵向研究需求）
+- Q-pic-01（高）：5-HT₂ 受体亚型（2a/2b/2c）在人类脊髓 α-MN 的功能区分
+- Q-pic-02（中）：delta-F 技术精度限制，能否发展更直接的人类 PIC 测量方法？
+- Q-pic-03（中）：PICs 在正常生理运动中是否常规产生双稳态，还是主要作为增益调节器？
+- Q-sp-01（中）：任务特异性招募例外的神经机制（同 Q-mn-01，但专注于机制层面）
+- Q-sp-02（低）：大小原则在无脊椎动物运动系统中的跨物种普遍性
+- Q-mu-01（低）：人类活体中三类运动单元的精确数量比例
+
+---
+
 ## 2026-10-07（文章 #167：步态的脊髓时钟——中枢模式发生器如何在没有大脑指令的情况下编排节律运动）
 
 ### 新创建页面（3 页）

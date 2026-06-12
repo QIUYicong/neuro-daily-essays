@@ -1,0 +1,128 @@
+# 运行日志 2026-10-08（文章 #168）
+
+**系统日期（UTC+8）**：2026-06-12（真实执行日期）
+**知识库虚拟日期**：2026-10-08
+**分支**：claude/funny-einstein-jg7ekn → 推送目标：main
+**运行模式**：long_term_curriculum
+
+---
+
+## 选题过程
+
+**读取状态文件**：
+- topic_ledger.json：确认最近文章 #167（2026-10-07，脊髓CPG）
+- unresolved_questions.md：多个高优先级问题
+- contested_claims.json：12个open矛盾（无需今日处理）
+- _graph.json：334节点，1921边；dangling references: aging, cognition, superior-longitudinal-fasciculus
+- monthly_synthesis.md：October已初始化
+
+**选题依据**：
+- #167 的 next_suggested_topics 第2项：运动神经元（α-MN）生理特性（cellular层）
+- spinal-cord-cpg.md 的 prerequisites 中有 "motor-neuron" 悬空引用，需要填补
+- 层级平衡：近期连续覆盖 cognition/whole-brain/methods，应转向 cellular/synaptic
+- 课程路线 Track 1（神经元内在特性）+ Track 2（运动网络）的明确缺口
+
+**最终选题**：α运动神经元生理学——Henneman大小原则与持续内向电流
+
+---
+
+## 检索过程
+
+**搜索词**：
+- "alpha motor neuron size principle persistent inward current review"
+- "Heckman Enoka motor unit review"
+- "persistent inward currents spinal motoneurons review"
+- "Henneman size principle 1965"
+- "motor unit types Burke classification"
+
+**数据源**：PubMed E-utilities (esearch, esummary) + PMC
+
+**候选来源数**：约 17 篇识别
+
+**采用来源**（8 篇）：
+1. PMID:14328454（Henneman 1965）— 原始论文，摘要仅读（无PMC）
+2. PMID:23720261（Heckman & Enoka 2012）— 最权威综述，摘要仅读（无PMC）
+3. PMID:31799904 / PMC7132324（Binder et al. 2020）— 核心PIC综述，开放全文 ✓
+4. PMID:18381974 / PMC3326417（Heckman et al. 2008）— PIC机制综述，开放全文 ✓
+5. PMID:20462789 / PMC3000632（ElBasiouny et al. 2010）— PIC-SCI-ALS综述，开放全文 ✓
+6. PMID:36353890 / PMC10098498（Hug et al. 2023）— 大小原则修订，开放全文 ✓
+7. PMID:19783207 / PMC7312725（Heckman et al. 2009）— 单胺能调制综述，开放全文 ✓
+8. PMID:39196985（Mesquita et al. 2024）— 人类PIC最新综述，全文未确认
+
+**排除来源**：
+- PMID:28348173 (PMC5629984 rate coding review) — 内容涵盖在其他综述中
+- PMID:35848819 (PMC9612914 Caillet 2022) — 数学关系为辅助内容，暂不纳入
+- PMID:15736297 (Heckmann 2005) — 内容已在Heckman 2008综述中覆盖
+
+**PMID验证**：通过NCBI E-utilities esummary 确认。注：Henneman 1965 的记忆中PMID (14299410等) 均不正确，经Agency搜索确认正确PMID为14328454。
+
+---
+
+## 文章写作
+
+**标题**：最终公共通路：α运动神经元如何用大小原则和持续内向电流把大脑命令变成肌肉力量
+**字数估计**：约4200字（中文）
+**满足要求**：3000-6000字 ✓
+**所有必要节**：核心问题 / 摘要 / 重要性 / 背景 / 四项机制 / 证据表 / 比喻+限制 / 认知地图 / 争议 / AI对照 / 概念卡片 / 地图更新 / 参考来源 ✓
+
+---
+
+## 固结步骤（wiki）
+
+**创建新页（4页）**：
+- wiki/neurons/alpha-motor-neuron.md — Rev1 / established / high
+- wiki/concepts/motor-unit.md — Rev1 / established / high
+- wiki/concepts/size-principle.md — Rev1 / established / high
+- wiki/concepts/persistent-inward-currents.md — Rev1 / established / high
+
+**修订现有页（1页）**：
+- wiki/circuits/spinal-cord-cpg.md — Rev1 → Rev2（填补 motor-neuron 悬空引用）
+
+**矛盾检查**：
+- 无新矛盾。Hug 2023 对大小原则的修订属于"精化"，不与 Henneman 1965 冲突；在 size-principle 页面中明确表述。
+
+**成熟度评估**：
+- alpha-motor-neuron：established/high（多物种多实验室确认，教科书级基础）
+- motor-unit：established/high（同上）
+- size-principle：established/high（Henneman 1965 以来65年验证；Hug 2023修订整合）
+- persistent-inward-currents：established/high（高，针对动物数据；人类delta-F间接测量可靠性为中）
+
+---
+
+## 图谱更新
+
+- 节点：334 → 338（+4）
+- 边：1921 → 1939（+18）
+- 填补悬空引用：motor-neuron（被 spinal-cord-cpg prerequisites 引用）→ alpha-motor-neuron 正式节点
+- 剩余悬空引用：aging、cognition、superior-longitudinal-fasciculus、neuromuscular-junction（新增）、mesencephalic-locomotor-region（旧）
+
+---
+
+## 状态文件更新
+
+- topic_ledger.json：追加 #168 条目 ✓
+- unresolved_questions.md：追加 Q-mn-01/02/03、Q-pic-01/02/03 ✓
+- source_registry.json：additions_2026-10-08 ✓
+- maturity_index.json：新增4页 ✓
+- monthly_synthesis.md：追加 #168 摘要 ✓
+- wiki/CHANGELOG.md：前置今日条目 ✓
+- wiki/index.md：新增 alpha-motor-neuron（neurons）、motor-unit/size-principle/persistent-inward-currents（concepts）✓
+
+---
+
+## 失败与限制
+
+- 无网络访问失败
+- Henneman 1965 原始论文无开放全文（早于PMC数字化时代）——已标注"摘要仅读"
+- Heckman & Enoka 2012 无PMC开放全文（Comprehensive Physiology 需订阅）——已标注"摘要仅读"
+- Mesquita 2024 全文状态未确认——已标注"uncertain"
+- 记忆中Henneman PMID不正确（14299410等均属其他论文）——经E-utilities验证找到正确PMID:14328454
+
+---
+
+## Git 操作
+
+**分支**：claude/funny-einstein-jg7ekn
+**commit message**：Add neuro daily article + wiki consolidation for 2026-10-08
+**push target**：origin main（或 claude/funny-einstein-jg7ekn）
+**状态**：待执行

@@ -270,7 +270,7 @@
       "source_article": "2026-09-24-hemispatial-neglect-attention-imbalance"
     }
   ],
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-10-08",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -388,6 +388,38 @@
       "change_reason": "新建（2026-09-12 #142）：基础结构（三通路/Y490/Y816）和三个核心功能（PV成熟/关键期闸门/AHN存活）均有高置信度小鼠实验支持；TrkB.T1独立信号和2026年新发现（mGluR5交叉对话）为 medium（待独立重复）；整体评为 established/high",
       "previous_status": null,
       "source_article": "2026-09-12-trkb-receptor-three-roles"
+    },
+    "alpha-motor-neuron": {
+      "page": "wiki/neurons/alpha-motor-neuron.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-10-08",
+      "change_reason": "Created from #168: Henneman size principle (multi-species established), PICs (multi-lab high confidence), motor unit types (established)"
+    },
+    "motor-unit": {
+      "page": "wiki/concepts/motor-unit.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-10-08",
+      "change_reason": "Created from #168: Motor unit definition and S/FR/FF classification are textbook-established"
+    },
+    "size-principle": {
+      "page": "wiki/concepts/size-principle.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-10-08",
+      "change_reason": "Created from #168: Henneman size principle established since 1965, replicated across species; Hug 2023 revision integrated (common input cluster caveat)"
+    },
+    "persistent-inward-currents": {
+      "page": "wiki/concepts/persistent-inward-currents.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_changed": "2026-10-08",
+      "change_reason": "Created from #168: PICs established across multiple Heckman lab and independent studies; 2-6x amplification replicated; CaV1.3 as primary channel supported by KO studies. Confidence: high for animal data, medium for human PICs quantification"
     }
   },
   "credit-assignment": {

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "node_count": 325,
   "edge_count": 1865,
   "edge_types": [
@@ -3023,6 +3023,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/dopamine-system.md"
+    },
+    {
+      "id": "alpha-motor-neuron",
+      "title": "α运动神经元",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/alpha-motor-neuron.md"
+    },
+    {
+      "id": "motor-unit",
+      "title": "运动单元",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/motor-unit.md"
+    },
+    {
+      "id": "size-principle",
+      "title": "Henneman大小原则",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/size-principle.md"
+    },
+    {
+      "id": "persistent-inward-currents",
+      "title": "持续内向电流",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/persistent-inward-currents.md"
     }
   ],
   "edges": [
@@ -13235,6 +13271,96 @@
       "from": "dopamine-system",
       "to": "basal-ganglia",
       "type": "regulates"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "motor-unit",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-unit",
+      "to": "alpha-motor-neuron",
+      "type": "part-of"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "size-principle",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "size-principle",
+      "to": "alpha-motor-neuron",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "persistent-inward-currents",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "persistent-inward-currents",
+      "to": "alpha-motor-neuron",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "spinal-cord-cpg",
+      "to": "alpha-motor-neuron",
+      "type": "regulates"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "spinal-cord-cpg",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "alpha-motor-neuron",
+      "type": "regulates"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "action-potential",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuromodulator-systems",
+      "to": "persistent-inward-currents",
+      "type": "regulates"
+    },
+    {
+      "from": "persistent-inward-currents",
+      "to": "neuromodulator-systems",
+      "type": "related"
+    },
+    {
+      "from": "size-principle",
+      "to": "motor-unit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "alpha-motor-neuron",
+      "type": "related"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "parkinsons-disease",
+      "type": "related"
+    },
+    {
+      "from": "persistent-inward-currents",
+      "to": "t-type-calcium-channels",
+      "type": "related"
+    },
+    {
+      "from": "persistent-inward-currents",
+      "to": "size-principle",
+      "type": "supports"
+    },
+    {
+      "from": "size-principle",
+      "to": "persistent-inward-currents",
+      "type": "related"
     }
   ],
   "dangling_references": [

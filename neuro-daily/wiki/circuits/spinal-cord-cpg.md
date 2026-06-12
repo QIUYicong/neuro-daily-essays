@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-10-07
-updated: 2026-10-07
-revision_count: 1
+updated: 2026-10-08
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, behavior]
-related: [spinal-interneurons-locomotion, motor-cortex, cerebellum, basal-ganglia, motor-neuron, proprioception, mesencephalic-locomotor-region]
-prerequisites: [synaptic-transmission, action-potential, motor-neuron]
+related: [spinal-interneurons-locomotion, motor-cortex, cerebellum, basal-ganglia, alpha-motor-neuron, motor-unit, proprioception, mesencephalic-locomotor-region]
+prerequisites: [synaptic-transmission, action-potential, alpha-motor-neuron]
 opens_questions: [Q-cpg-rg-identity, Q-cpg-vsct, Q-cpg-human, Q-cpg-forelimb]
-source_articles: [2026-10-07-spinal-cpg-locomotion]
+source_articles: [2026-10-07-spinal-cpg-locomotion, 2026-10-08-alpha-motor-neuron-size-principle]
 key_sources: ["PMID:26935168", "PMID:19543221", "PMID:23812590", "PMID:34070932", "PMID:35063074"]
 ---
 
@@ -86,6 +86,9 @@ MLR（中脑运动区）→ 网状脊髓束 → CPG：
 - [[cerebellum]] — 通过 VSCT 投射接收脊髓步态信号并反馈协调
 - [[basal-ganglia]] — 通过 SNr→MLR→CPG 轴控制步态启动与速度
 - [[mesencephalic-locomotor-region]] — CPG 的上游"启动器与调速旋钮"（悬空，待补页面）
+- [[alpha-motor-neuron]] — CPG 的最终输出靶点（CPG 中间神经元 → α-MN → 肌肉收缩）
+- [[motor-unit]] — α-MN 支配的最小可控力量单元，遵循大小原则有序激活
+- [[persistent-inward-currents]] — α-MN 的内在增益放大机制，放大 CPG 传来的节律信号
 
 ## 未解问题
 
@@ -97,7 +100,9 @@ MLR（中脑运动区）→ 网状脊髓束 → CPG：
 ## 修订历史
 
 - 2026-10-07 · 创建 · 基于《步态的脊髓时钟》(#167) · 初始置信度：高（CPG存在性和基本组织），中（RG层细胞身份），中（VSCT证据需重复）
+- 2026-10-08 · 修订（rev2）· 基于《最终公共通路》(#168) · 补充 α-MN 输出环节的连接（alpha-motor-neuron / motor-unit / persistent-inward-currents 加入 related/prerequisites/连接节）；motor-neuron 悬空引用替换为 alpha-motor-neuron 正式页面
 
 ## 来源文章
 
 - [[2026-10-07-spinal-cpg-locomotion]]
+- [[2026-10-08-alpha-motor-neuron-size-principle]]

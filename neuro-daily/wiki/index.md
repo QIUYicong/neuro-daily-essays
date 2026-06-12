@@ -31,6 +31,7 @@
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 唯一常驻免疫细胞，突触可塑性的双刃卫士：发育期 CR3（C3b）+ TREM2（PtdSer）双通路剪枝；成年稳态下 CX3CR1 轴 + 低水平 TNF-α/IL-1β 支持 LTP；激活态高浓度细胞因子（TNFR1/NF-κB、p38/GluA1内吞、STAT3/Arc）系统性损伤 LTP；DAM/TREM2 在 AD 早期保护性清除过活跃突触；慢性应激→小胶质细胞预激→AD 风险放大 **[修订 rev2 2026-07-10]**
 - 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 髓鞘唯一制造者，单个细胞包裹 40–50 段轴突；OPC 终生保持分化潜能并感知神经元活动；VTA 中 OL 对奖励回路的调谐（Yalçın 2024）**[NEW 2026-07-27]**
 - 🟢 [浦肯野细胞](neurons/purkinje-cell.md) — 小脑皮层唯一输出神经元：~15万平行纤维突触+1根攀爬纤维；双重放电（简单50-100Hz/复杂~1Hz）；LTD发生位点；GABAergic抑制DCN **[NEW 2026-08-01 #100]**
+- 🟢 [α运动神经元](neurons/alpha-motor-neuron.md) — 脊髓前角最终公共通路；大小原则决定S→FR→FF有序招募；PICs（CaV1.3/Nav1.6）提供2–6倍增益放大；5-HT₂+α₁AR单胺能调制；ALS FF优先脆弱；SCI痉挛的分子机制 **[NEW 2026-10-08 #168]**
 
 ## circuits（回路）
 
@@ -47,6 +48,9 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [运动单元](concepts/motor-unit.md) — 最小可控神经肌肉单元（α-MN + 全部靶肌纤维）；神经支配比与精度反比（眼5-15/腓肠1000-2000）；S/FR/FF三类型；去同步化产生平滑收缩 **[NEW 2026-10-08 #168]**
+- 🟢 [Henneman 大小原则](concepts/size-principle.md) — 小型α-MN（高R_in）先被招募，实现S→FR→FF有序激活；无需中枢调度的物理自动规则；Hug 2023修订：共同输入簇内严格，跨簇不保证 **[NEW 2026-10-08 #168]**
+- 🟢 [持续内向电流（PICs）](concepts/persistent-inward-currents.md) — 树突远端CaV1.3+Nav1.6自维持内向电流；2–6倍突触输入放大（依赖单胺能驱动）；高原电位/双稳态；5-HT₂+α₁AR调制；SCI痉挛的组成型受体机制 **[NEW 2026-10-08 #168]**
 - 🔵 [神经振荡层级](concepts/neural-oscillations.md) — 慢振荡/δ/θ/α/β/γ 六频段产生机制综合；PAC三层嵌套（δ→θ→γ，Lakatos 2005）；CTC通信通道假说（Fries 2015）；频率-方向分工（γ前馈误差 vs α/β反馈预测）；振荡层级与预测编码框架统一 **[修订 rev3 2026-09-21 #151]**
 - 🔵 [δ振荡](concepts/delta-oscillations.md) — 语音处理中的语言层级时间框架（追踪抽象句法结构，Ding 2016）；语言特异性（Molinaro 2018）；清醒语音δ与睡眠记忆δ的双重功能及机制区别；阅读障碍TSF框架（Goswami 2011）；左颞-额网络；与双流架构的映射（左IFG背侧流+ATL腹侧流） **[2026-09-22 #152 修订]**
 - 🔵 [非对称时间采样框架（AST）](concepts/temporal-sampling-framework.md) — Poeppel 2003 提出；左半球偏好快时序窗口（~25ms γ，音素精度）；右半球偏好慢时序窗口（~200ms θ，韵律整合）；AAC层级（非A1）产生；解释语言左侧化的振荡计算机制 **[NEW 2026-09-22 #152]**
