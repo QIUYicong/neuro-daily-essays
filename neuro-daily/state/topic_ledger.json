@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-01",
-  "total_articles": 161,
+  "last_updated": "2026-06-12",
+  "total_articles": 162,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10687,6 +10687,79 @@
         "意识障碍的临床谱系：VS/MCS/LIS 患者如何成为意识理论的体内检验台？PCI 十年临床数据评估",
         "HOPT vs HOTT：高阶感知理论与高阶思维理论的内部分歧，以及与神经成像的对比",
         "预测处理框架下的意识：自由能原理如何整合感知/记忆/情绪/意识？"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "article_number": 162,
+      "title": "意识的时间解剖学：从17毫秒到300毫秒，神经信号如何跨越意识门槛",
+      "slug": "temporal-threshold-consciousness-ignition",
+      "filename": "2026-06-12-temporal-threshold-consciousness-ignition.md",
+      "article_type": "regular",
+      "core_question": "从视觉皮层最初响应（17ms）到产生意识知觉，哪个时间节点是真正的意识门槛？P3（270ms）是意识的充要条件吗？GWT的全局点燃（270-300ms）和RPT的递归处理（150-200ms）如何在时间维度上区分？",
+      "layer": [
+        "cognition",
+        "whole-brain-network",
+        "methods"
+      ],
+      "curriculum_track": "8. 意识与自我（意识时间学：GWT vs RPT 时间分歧系列）",
+      "topic_tags": [
+        "temporal threshold consciousness",
+        "backward masking",
+        "P3 wave",
+        "P300",
+        "global ignition",
+        "feedforward sweep",
+        "recurrent processing",
+        "long-range synchrony",
+        "gamma synchrony",
+        "beta coherence",
+        "Del Cul 2007",
+        "Gaillard 2009",
+        "Melloni 2007",
+        "SOA",
+        "nonlinear threshold",
+        "attentional blink",
+        "VAN",
+        "access consciousness",
+        "phenomenal consciousness",
+        "conscious access"
+      ],
+      "main_sources": [
+        "PMID:17896866 / PMCID:PMC1988856 (Del Cul, Baillet, Dehaene 2007, PLoS Biology, open full text read)",
+        "PMID:19296722 / PMCID:PMC2656551 (Gaillard et al. 2009, PLoS Biology, open full text read)",
+        "PMID:17360907 / PMCID:PMC6672558 (Melloni et al. 2007, J Neurosci, open full text read)",
+        "PMID:15482443 (Sergent & Dehaene 2004, Psychol Sci, abstract only)",
+        "PMID:11074267 (Lamme & Roelfsema 2000, Trends Neurosci, abstract only)",
+        "PMID:16603406 (Dehaene et al. 2006, Trends Cogn Sci, abstract only)",
+        "PMID:12757822 (VanRullen & Koch 2003, Trends Cogn Sci, abstract only)",
+        "PMID:24168336 (Lamme 2010, Cogn Neurosci, abstract only)",
+        "PMID:16725347 (Overgaard et al. 2006, Conscious Cogn, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/temporal-threshold-consciousness.md",
+        "wiki/concepts/backward-masking.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/global-workspace-theory.md (rev10->rev11): 新增三篇开放全文的时间证据（Del Cul, Gaillard, Melloni）",
+        "wiki/theories/recurrent-processing-theory.md (rev2->rev3): 新增 RPT vs GWT 时间分歧对比，Lamme 2010 时间主张"
+      ],
+      "contested_claims_logged": [
+        "C-temporal-01",
+        "C-temporal-02"
+      ],
+      "contested_claims_evidence_updated": [],
+      "unresolved_questions": [
+        "Q-temporal-01",
+        "Q-temporal-02",
+        "Q-temporal-03"
+      ],
+      "next_suggested_topics": [
+        "意识障碍的临床谱系：VS/MCS/LIS 患者如何成为意识理论的体内检验台？PCI 十年临床数据与 VAN 的互补",
+        "注意与意识的双重解离：无注意有意识（背景意识）和有注意无意识（无意识注意驱动）的实验证据",
+        "预测处理框架下的意识：自由能原理如何整合感知/记忆/情绪/意识？与 GWT 的异同",
+        "意识的神经关联物（NCC）的现状：Koch 三分法（内容特异/完整/使能）如何整理 GWT、RPT、IIT 的证据",
+        "意识的空间维度：为什么是后方皮层？后方热区的解剖和功能证据"
       ]
     }
   ],

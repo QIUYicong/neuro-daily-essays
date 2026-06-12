@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-06-12（文章 #162：意识的时间解剖学——从17ms到300ms，神经信号如何跨越"意识门槛"）
+
+### 新建 wiki 页面（2 页）
+
+- `concepts/temporal-threshold-consciousness.md`（rev1）：意识时间门槛专页；270ms 非线性门槛；P1a/N1/N2 vs P3 的时间差异；GWT（270ms点燃）vs RPT（150-200ms递归）时间分歧；三篇开放全文来源（Del Cul 2007 / Gaillard 2009 / Melloni 2007）
+- `concepts/backward-masking.md`（rev1）：逆向遮蔽方法专页；能量遮蔽 vs 反向馈送遮蔽机制；SOA 系统变化揭示时间门槛；GWT 和 RPT 对遮蔽机制的不同解释
+
+### 修订 wiki 页面（2 页）
+
+- `theories/global-workspace-theory.md` rev10→rev11：新增 Del Cul 2007（P3 唯一非线性 EEG 成分，270ms 门槛，P1a/N1/N2 无意识关联）、Gaillard 2009（颅内四重意识标记，意识 378ms vs 无意识 60ms）、Melloni 2007（长程 gamma 同步区分意识/无意识）三篇开放全文证据；更新 key_sources；updated: 2026-06-12
+- `theories/recurrent-processing-theory.md` rev2→rev3：新增 RPT vs GWT 时间分歧对比；新增 Lamme 2010（PMID:24168336）摘要证据；新增 temporal-threshold-consciousness、backward-masking 到 related；updated: 2026-06-12
+
+### 矛盾条目更新（2 条新增）
+
+- **C-temporal-01**（新登记）：Melloni 2007 早期长程 gamma 同步（80-130ms）vs Del Cul 2007 意识门槛（270ms）——是意识的两个阶段还是注意 vs 意识的区分？status=open
+- **C-temporal-02**（新登记）：Gaillard 2009 长程 beta 同步（13-30Hz）vs Melloni 2007 长程 gamma 同步——颅内 vs EEG 方法差异，还是真实意识机制的频段分歧？status=open
+
+### 新增悬空引用待补
+
+- `consciousness-ignition`：被 GWT、temporal-threshold-consciousness、backward-masking 等多个页面引用；待建独立 wiki 页面
+- `phenomenal-consciousness`：已存在但内容薄，需深化
+
+---
+
 ## 2026-10-01（文章 #161：第七期周综合——振荡、胼胝体与高阶表征如何共同描绘意识神经科学的坐标系）
 
 ### 新建 wiki 页面（0 页）

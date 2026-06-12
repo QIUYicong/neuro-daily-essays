@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-06-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11855,9 +11855,70 @@
         "clinical translation gaps",
         "quantification gaps"
       ]
+    },
+    {
+      "pmid": "17896866",
+      "pmcid": "PMC1988856",
+      "doi": "10.1371/journal.pbio.0050260",
+      "authors": "Del Cul A, Baillet S, Dehaene S",
+      "title": "Brain dynamics underlying the nonlinear threshold for access to consciousness",
+      "journal": "PLoS Biology",
+      "year": 2007,
+      "full_text": true,
+      "used_in": [
+        "2026-06-12-temporal-threshold-consciousness-ignition"
+      ],
+      "covers": [
+        "consciousness threshold",
+        "P3 wave",
+        "backward masking",
+        "EEG components",
+        "subliminal processing"
+      ]
+    },
+    {
+      "pmid": "19296722",
+      "pmcid": "PMC2656551",
+      "doi": "10.1371/journal.pbio.1000061",
+      "authors": "Gaillard R, Dehaene S, et al.",
+      "title": "Converging intracranial markers of conscious access",
+      "journal": "PLoS Biology",
+      "year": 2009,
+      "full_text": true,
+      "used_in": [
+        "2026-06-12-temporal-threshold-consciousness-ignition"
+      ],
+      "covers": [
+        "intracranial markers",
+        "conscious access",
+        "prefrontal cortex",
+        "beta synchrony",
+        "gamma power",
+        "Granger causality"
+      ]
+    },
+    {
+      "pmid": "17360907",
+      "pmcid": "PMC6672558",
+      "doi": "10.1523/JNEUROSCI.4623-06.2007",
+      "authors": "Melloni L, Molina C, Pena M, Torres D, Singer W, Rodriguez E",
+      "title": "Synchronization of neural activity across cortical areas correlates with conscious perception",
+      "journal": "Journal of Neuroscience",
+      "year": 2007,
+      "full_text": true,
+      "used_in": [
+        "2026-06-12-temporal-threshold-consciousness-ignition"
+      ],
+      "covers": [
+        "gamma synchrony",
+        "long-range synchrony",
+        "conscious perception",
+        "local vs global activity",
+        "P300"
+      ]
     }
   ],
-  "total_sources": 711,
+  "total_sources": 714,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

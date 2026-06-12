@@ -203,6 +203,30 @@
         "Q-tgc-03"
       ],
       "current_weight": "claim_A 证据更强（单神经元数据、人类直接证据、因果机制链），但 claim_B 提出了重要的方法论警告"
+    },
+    {
+      "id": "C-temporal-01",
+      "page": "wiki/concepts/temporal-threshold-consciousness.md",
+      "claim_A": "意识门槛在 270ms——P3（Del Cul et al. 2007, PMID:17896866，全文读取）是唯一非线性意识 EEG 成分；80-130ms 的长程 gamma 同步（Melloni 2007）是注意或前意识准备阶段，而非意识本身",
+      "claim_B": "意识的早期阶段在 80-130ms 就已出现——Melloni et al. 2007（PMID:17360907，全文读取）发现长程 gamma 相位同步在 80-130ms 即区分有意识/无意识知觉，早于 Del Cul 的 270ms 门槛；可能支持 RPT（递归处理在此时段启动）",
+      "nature": "时间测量差异（EEG vs EEG），可能源于：(1) 不同实验范式（掩蔽 vs 延迟匹配）；(2) 早期同步是意识前体还是意识本身的早期阶段；(3) 80-130ms 同步可能反映注意调制而非意识",
+      "status": "open",
+      "opened": "2026-06-12",
+      "related_questions": ["Q-temporal-01"],
+      "source_article": "2026-06-12-temporal-threshold-consciousness-ignition",
+      "current_weight": "Del Cul 2007（直接逆向遮蔽 + P3 非线性）证据更直接；Melloni 2007 的早期同步需要无报告范式进一步验证"
+    },
+    {
+      "id": "C-temporal-02",
+      "page": "wiki/concepts/temporal-threshold-consciousness.md",
+      "claim_A": "意识的长程同步是 beta 频段（13-30Hz）——Gaillard et al. 2009（PMID:19296722，颅内直接记录，全文读取）在 10 名患者 176 个电极中发现，长程意识关联同步在 beta 而非 gamma 频段；局部 gamma 两种条件均有",
+      "claim_B": "意识的长程同步是 gamma 频段（>30Hz）——Melloni et al. 2007（PMID:17360907，EEG，全文读取）发现跨广泛脑区的 gamma 相位同步仅见于有意识知觉，局部 gamma 两者相似",
+      "nature": "方法论差异：颅内电极（Gaillard，高空间分辨率，少数患者）vs EEG（Melloni，全头皮，健康被试）；频段差异可能源于：(1) 颅内 vs 头皮信号的谱特征不同；(2) 不同任务诱发不同频段的长程同步；(3) 颅内记录更准确，EEG 的伽马可能包含肌电干扰",
+      "status": "open",
+      "opened": "2026-06-12",
+      "related_questions": ["Q-temporal-01"],
+      "source_article": "2026-06-12-temporal-threshold-consciousness-ignition",
+      "current_weight": "Gaillard 2009 颅内记录空间分辨率更高，但两者都是高质量开放全文论文；方法论差异可能是主要原因"
     }
   ]
 }

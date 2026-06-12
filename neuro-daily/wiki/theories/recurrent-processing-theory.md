@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-09-28
-updated: 2026-09-30
-revision_count: 2
+updated: 2026-06-12
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, cognition]
 related: [global-workspace-theory, integrated-information-theory, neural-correlates-of-consciousness, posterior-cortical-hot-zone, consciousness-ignition, v1-primary-visual-cortex, figure-ground-segregation, predictive-coding, no-report-paradigm, higher-order-theory, visual-awareness-negativity, phenomenal-consciousness]
 prerequisites: [action-potential, synaptic-transmission, v1-primary-visual-cortex, feedforward-processing]
 opens_questions: [Q-rpt-01, Q-rpt-02, Q-rpt-03]
-source_articles: [2026-09-28-recurrent-processing-theory-visual-consciousness]
-key_sources: ["PMID:11074267", "PMID:9501251", "PMID:12419127", "PMID:12716948", "PMID:16997611", "PMID:30061458", "PMID:32116908", "PMID:26585549", "PMID:32922860", "PMID:27094080", "PMID:28394322"]
+source_articles: [2026-09-28-recurrent-processing-theory-visual-consciousness, 2026-06-12-temporal-threshold-consciousness-ignition]
+key_sources: ["PMID:11074267", "PMID:9501251", "PMID:12419127", "PMID:12716948", "PMID:16997611", "PMID:30061458", "PMID:32116908", "PMID:26585549", "PMID:32922860", "PMID:27094080", "PMID:28394322", "PMID:24168336", "PMID:17896866"]
 ---
 
 # 递归处理理论 (Recurrent Processing Theory, RPT)
@@ -109,6 +109,7 @@ RPT 的关键主张：从 Stage 2 到 Stage 3 的跃迁（递归处理启动）�
 
 - 2026-09-28 · 创建 · 基于《前馈与递归：RPT 如何把意识锚定在视觉皮层的反馈回路中》(#158) · 初始置信度：中（RPT 是 mainstream 理论，有多个独立实验支持；但 Allen et al. 2020 的 TMS 挑战和"缺失要素"问题使简单版本的 RPT 有待修订；status=mainstream 而非 established）
 - 2026-09-30 · 修订 · 基于《高阶意识理论与无报告范式》(#160) · 新增 Siclari 2017（PMID:28394322）证据行：NREM 睡眠无报告条件下，梦境与后方顶枕高频活动相关（87% 准确率），前额叶非必要——强力支持 RPT 的"后方皮层是意识基质"预测；新增 higher-order-theory、visual-awareness-negativity、phenomenal-consciousness 到 related
+- 2026-06-12 · 修订 · 基于《意识的时间解剖学》(#162) · 新增 RPT vs GWT 时间分歧精确对比表（RPT: 150-200ms 递归启动 vs GWT: 270ms 全局点燃）；新增 Lamme 2010（PMID:24168336）摘要：前额叶=通达意识，递归=现象意识，是 RPT 时间主张的权威阐述；补充 Del Cul 2007（PMID:17896866）逆向遮蔽数据作为 GWT vs RPT 方法论分歧的关键证据；新增 temporal-threshold-consciousness、backward-masking 到 related
 
 ## 来源文章
 

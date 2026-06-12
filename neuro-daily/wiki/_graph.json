@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-01",
-  "node_count": 303,
-  "edge_count": 1760,
+  "updated": "2026-06-12",
+  "node_count": 305,
+  "edge_count": 1768,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2906,6 +2906,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/phenomenal-consciousness.md"
+    },
+    {
+      "id": "temporal-threshold-consciousness",
+      "title": "意识的时间门槛",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/temporal-threshold-consciousness.md"
+    },
+    {
+      "id": "backward-masking",
+      "title": "逆向遮蔽",
+      "domain": "concepts",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/backward-masking.md"
     }
   ],
   "edges": [
@@ -12757,6 +12775,41 @@
       "from": "phenomenal-consciousness",
       "to": "posterior-cortical-hot-zone",
       "type": "related"
+    },
+    {
+      "from": "temporal-threshold-consciousness",
+      "to": "global-workspace-theory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "temporal-threshold-consciousness",
+      "to": "recurrent-processing-theory",
+      "type": "related"
+    },
+    {
+      "from": "backward-masking",
+      "to": "temporal-threshold-consciousness",
+      "type": "supports"
+    },
+    {
+      "from": "backward-masking",
+      "to": "global-workspace-theory",
+      "type": "supports"
+    },
+    {
+      "from": "temporal-threshold-consciousness",
+      "to": "access-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "temporal-threshold-consciousness",
+      "to": "neural-correlates-of-consciousness",
+      "type": "part-of"
+    },
+    {
+      "from": "backward-masking",
+      "to": "recurrent-processing-theory",
+      "type": "supports"
     }
   ],
   "dangling_references": [

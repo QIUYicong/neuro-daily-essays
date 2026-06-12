@@ -9,6 +9,13 @@
 
 ---
 
+## 2026年6月（续写，本期实际日期）
+
+*本月截至日期：2026-06-12*
+*本月新增文章：#162；共 1 篇（续写）。6-12 意识的时间解剖学（逆向遮蔽揭示 270ms 非线性门槛；P1a/N1/N2 无意识关联 vs P3 Sigmoid 非线性；颅内四重意识标记 60ms→378ms；长程同步频段争议 beta vs gamma；GWT vs RPT 时间分歧 270ms vs 150-200ms；新建 temporal-threshold-consciousness、backward-masking 两个 wiki 页；登记矛盾 C-temporal-01/02；新增未解问题 Q-temporal-01/02/03）*
+
+---
+
 ## 2026年9月（进行中）
 
 *本月截至日期：2026-09-28*

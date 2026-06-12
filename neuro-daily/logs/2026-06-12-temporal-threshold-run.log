@@ -1,0 +1,95 @@
+# 每日运行日志 · 2026-06-12（第162篇）
+
+**运行时间**：2026-06-12  
+**文章编号**：#162  
+**主题**：意识的时间解剖学——从17ms到300ms，神经信号如何跨越"意识门槛"  
+**Slug**：temporal-threshold-consciousness-ignition
+
+---
+
+## 检索过程
+
+**搜索词**：
+- "temporal dynamics consciousness ignition masking" → 0 results (PubMed E-utilities)
+- "Del Cul Baillet Dehaene 2007 consciousness nonlinear" → 1 result: PMID:17896866
+- "Lamme Roelfsema 2000 recurrent processing consciousness" → 1 result: PMID:11074267
+- "Gaillard intracranial conscious access 2009" → 1 result: PMID:19296722
+- "Sergent Dehaene 2004 consciousness gradual all-or-none attentional blink" → 3 results, 取 PMID:15482443
+- "Melloni 2007 synchronization neural activity relates conscious perception" → 1 result: PMID:17360907
+- "Dehaene 2006 conscious preconscious subliminal taxonomy testable" → 1 result: PMID:16603406
+- "VanRullen Koch 2003 perception discrete continuous" → 1 result: PMID:12757822
+- "Lamme 2010 how neuroscience will change view consciousness" → 2 results, 取 PMID:24168336
+
+**数据源访问**：
+- PubMed E-utilities (eutils.ncbi.nlm.nih.gov): 搜索成功
+- PMC Open Access: 成功读取 3 篇全文（PMC1988856, PMC2656551, PMC6672558）
+- NIH/NINDS 官方网站: 403 禁止访问
+- Europe PMC: 连接超时
+
+---
+
+## 来源采用与排除
+
+**采用（9 个来源）**：
+- PMID:17896866（Del Cul 2007, PLoS Biology）：全文读取，核心来源，逆向遮蔽实验 ✓
+- PMID:19296722（Gaillard 2009, PLoS Biology）：全文读取，颅内四重意识标记 ✓
+- PMID:17360907（Melloni 2007, J Neurosci）：全文读取，长程 gamma 同步 ✓
+- PMID:15482443（Sergent & Dehaene 2004）：摘要，注意瞬脱全有或全无 ✓
+- PMID:11074267（Lamme & Roelfsema 2000）：摘要，RPT 框架建立 ✓
+- PMID:16603406（Dehaene et al. 2006）：摘要，三层分类框架 ✓
+- PMID:12757822（VanRullen & Koch 2003）：摘要，知觉离散性假说 ✓
+- PMID:24168336（Lamme 2010）：摘要，RPT 时间立场 ✓
+- PMID:16725347（Overgaard et al. 2006）：摘要，反驳全有或全无 ✓
+
+**排除**：
+- Libet 1983 相关论文：搜索无结果（非数字化 PMID 记录）；被试为触觉/运动意识，非本文焦点
+- 2023-2025 最新综述：搜索无结果（可能是搜索词问题）
+
+---
+
+## wiki 固结
+
+**新建页面**：
+- `wiki/concepts/temporal-threshold-consciousness.md` rev1（中等来源密度，高质量）
+- `wiki/concepts/backward-masking.md` rev1（高质量）
+
+**修订页面**：
+- `wiki/theories/global-workspace-theory.md` rev10→rev11
+- `wiki/theories/recurrent-processing-theory.md` rev2→rev3
+
+**矛盾登记**：
+- C-temporal-01：早期 gamma 同步（80-130ms，Melloni）vs 270ms 门槛（Del Cul）
+- C-temporal-02：beta 同步（Gaillard）vs gamma 同步（Melloni）
+
+---
+
+## 失败与限制
+
+- NIH/NINDS 官方网站 403，未获取官方机构来源
+- Europe PMC 超时，未从该数据库获取补充全文
+- 开放全文 3 篇（达到最低要求 ≥2）
+- 官方机构来源 0 篇（未达理想标准）
+
+---
+
+## Git 操作
+
+**分支**：claude/funny-einstein-tf3f1p  
+**文件**：
+- articles/2026-06-12-temporal-threshold-consciousness-ignition.md（新建）
+- notes/2026-06-12-temporal-threshold-reading-notes.md（新建）
+- sources/2026-06-12-temporal-threshold-sources.json（新建）
+- wiki/concepts/temporal-threshold-consciousness.md（新建）
+- wiki/concepts/backward-masking.md（新建）
+- wiki/theories/global-workspace-theory.md（修订 rev11）
+- wiki/theories/recurrent-processing-theory.md（修订 rev3）
+- wiki/_graph.json（305节点，1768边）
+- wiki/index.md（更新）
+- wiki/CHANGELOG.md（更新）
+- state/topic_ledger.json（162篇）
+- state/contested_claims.json（+2条，共18条开放矛盾）
+- state/unresolved_questions.md（+3个未解问题）
+- state/monthly_synthesis.md（更新）
+
+**commit hash**：[待补充]  
+**push 状态**：[待补充]

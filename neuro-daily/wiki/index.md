@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-01（**#161** 周综合·意识科学坐标系——综合 #151–#160 十篇文章（δ振荡/语言/注意/胼胝体/裂脑/RPT/IIT/GWT/HOT）；新建0页；修订3页：adversarial-collaboration rev2, GWT rev10, IIT rev7；图谱 321 节点，1852 边；悬空引用5个待补）· 主题页总数：**300**（无新增）
+> 最后更新：2026-06-12（**#162** 意识时间解剖学——从17ms到300ms，P3与全局点燃；新建2页：temporal-threshold-consciousness、backward-masking；修订2页：GWT rev11、RPT rev3；图谱 305 节点，1768 边；新登记矛盾2条（C-temporal-01/02）；悬空引用新增：consciousness-ignition）· 主题页总数：**302**（+2）
 
 ---
 
@@ -221,6 +221,8 @@
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据；Siclari 2017 NREM 睡眠后方顶枕热区 87% 梦境预测（最强无报告 NCC 证据）**[修订 rev3 2026-09-30 #160]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [视觉意识负波（VAN）](concepts/visual-awareness-negativity.md) — 100-300ms 后枕区负波；有意识时出现、无报告时仍持续（vs P3b 无报告时消失）；Pitts 2014 掩蔽×任务无关 2×2 确立；跨模态版本（PAN）；RPT 递归信号 vs 注意调制神经发生器争议 **[NEW 2026-09-30 #160]**
+- 🔵 [意识的时间门槛](concepts/temporal-threshold-consciousness.md) — 从 V1 初始响应（17ms）到意识（270-300ms）的非线性跃变；P1a/N1/N2 无意识关联；P3 唯一 Sigmoid 非线性成分；颅内四重意识标记（60ms vs 378ms）；长程 gamma 同步；GWT vs RPT 时间分歧（270ms vs 150-200ms）**[NEW 2026-06-12 #162]**
+- 🟢 [逆向遮蔽](concepts/backward-masking.md) — 研究意识时间结构的核心实验工具；SOA 系统变化揭示意识时间门槛；GWT 解释（截断全局广播）vs RPT 解释（截断递归处理）；平均主观阈限 SOA=43.9ms **[NEW 2026-06-12 #162]**
 - 🟢 [通达意识（A-consciousness）](concepts/access-consciousness.md) — Block 1995 区分：信息可被认知系统使用/报告即为通达意识；P3b 是 A-consciousness NCC（无报告时消失）；GWT 广播描述的是 A-consciousness；HOT 的高阶表征使 A-consciousness 成为 P-consciousness 的必要条件；溢出争议（P>A？） **[NEW 2026-09-30 #160]**
 - 🔵 [现象意识（P-consciousness）](concepts/phenomenal-consciousness.md) — Block 1995 区分：主观内在体验质/qualia（"红色看起来的样子"）；Chalmers 难问题的所指；Siclari 2017 睡眠无报告梦境与后方皮层高频活动相关；VAN 是比 P3b 更好的 P-consciousness NCC 候选；四大理论对 P 的不同机制预测 **[NEW 2026-09-30 #160]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**

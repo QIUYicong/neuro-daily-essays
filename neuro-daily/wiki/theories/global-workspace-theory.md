@@ -12,10 +12,10 @@ dimensions: [whole-brain-network, cognition, brain-region, behavior]
 related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink, neural-correlates-of-consciousness, split-brain, recurrent-processing-theory, higher-order-theory, no-report-paradigm, visual-awareness-negativity, access-consciousness]
 prerequisites: [prefrontal-cortex, working-memory, action-potential, synaptic-transmission]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-gwt-04, Q-gwt-05, Q-cc-01]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-unified-consciousness, 2026-10-01-week-synthesis-consciousness-theories-landscape]
-key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443", "PMC:PMC12510449", "PMID:32399946/PMC7305066", "PMID:32409620"]
-updated: 2026-10-01
-revision_count: 10
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where, 2026-09-27-split-brain-unified-consciousness, 2026-10-01-week-synthesis-consciousness-theories-landscape, 2026-06-12-temporal-threshold-consciousness-ignition]
+key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443", "PMC:PMC12510449", "PMID:32399946/PMC7305066", "PMID:32409620", "PMID:17896866", "PMID:19296722", "PMID:17360907"]
+updated: 2026-06-12
+revision_count: 11
 ---
 
 # 全局工作空间理论 (Global Workspace Theory, GWT)
@@ -86,6 +86,9 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 |------|------------|------|--------|
 | 意识知觉在 ~270ms 后出现非线性全脑分叉 | 注意瞬盲 MEG；P1/N1 相同但晚期响应分叉 | PMID:16158062（摘要） | 高 |
 | 意识是全有全无（非渐变） | 注意瞬盲可见度评分：双峰分布 | PMID:15482443（摘要） | 高 |
+| P3（270-370ms）是唯一与主观可见性 Sigmoid 匹配的 EEG 成分；P1a/N1/N2 虽存在但无意识关联；平均阈限 SOA=43.9ms | EEG + 逆向遮蔽，SOA 系统变化 16-100ms | Del Cul et al. 2007, PLoS Biol (PMID:17896866，**全文读取**) | 高 |
+| 意识词语颅内激活持续 378ms；无意识词语仅 60ms；前额叶 95% 电极参与意识，仅 32% 参与无意识；长程 beta 同步（13-30Hz）仅见于意识条件 | 颅内深部电极，10 名癫痫患者，176 个双极记录点 | Gaillard et al. 2009, PLoS Biol (PMID:19296722，**全文读取**) | 高 |
+| 长程 gamma 相位同步（~80-130ms）区分有意识/无意识知觉；局部 gamma 两者相似；意识 = 长程协调而非局部激活 | EEG 高密度，延迟匹配任务，遮蔽控制 | Melloni et al. 2007, J Neurosci (PMID:17360907，**全文读取**) | 高 |
 | 只有被感知刺激触发 PFC 强持续放电 | 猕猴同时记录 V1/V4/PFC；行为对照 | PMID:29567809（摘要） | 高 |
 | 麻醉药物破坏前额-顶叶功能连接（跨药类一致） | fMRI 功能连接 + 各类麻醉药物 | PMID:32135090（全文） | 高 |
 | 有意识知觉产生 P3b；在麻醉/睡眠/注意失败时消失 | 多实验室 EEG；多范式复现 | PMID:24709604（全文） | 高 |
@@ -146,6 +149,7 @@ COGITATE 2025 确认了 GWT 的一个**非平凡预测**：有意识刺激即使
 - 2026-09-28 · 修订 · 基于《前馈与递归：RPT》(#158) · 新增 recurrent-processing-theory 到 related；在连接节新增 RPT 对照说明（注意/报告是否必要的核心分歧）
 - 2026-09-30 · 修订 · 基于《高阶意识理论与无报告范式》(#160) · 新增 Cohen et al. 2020（PMID:32409620）的精确 P3b 统计数据（6.55→0.462 µV，F=151.13，p<0.001，记忆识别 86.3%）——这是对 GWT 核心证据（P3b）最直接的挑战：P3b 在有意识但无报告条件下完全消失，说明 P3b 是报告/决策的 NCC 而非意识本身的 NCC；GWT 需要回应这一挑战（通常的回应是：P3b 是 A-consciousness 的标志，而 GWT 本来就描述 A-consciousness/全局可通达性，因此 P3b 消失是因为 A-consciousness 在无报告条件下也降低了）
 - 2026-10-01 · 修订 · 基于《第七期周综合：意识科学坐标系》(#161) · 综合意识理论系列十篇文章；新增 A-consciousness（广播/GWT）与 P-consciousness（感知体验/VAN）的分离讨论：VAN 报告无关持续存在是对 GWT 作为 P-consciousness 解释的挑战；GWT 最合适作为 A-consciousness（可报告性）的解释框架，而非 P-consciousness 的解释框架；新增未解问题 Q-gwt-06（下一轮对抗性协作应设计阈限刺激范式）
+- 2026-06-12 · 修订 · 基于《意识的时间解剖学》(#162) · 新增三篇开放全文证据：Del Cul 2007（P3 唯一非线性 EEG 成分，270ms 门槛，P1a/N1/N2 无意识相关）、Gaillard 2009（颅内四重意识标记，无意识60ms vs 意识378ms，长程 beta 同步）、Melloni 2007（长程 gamma 相位同步区分意识/无意识）；更新 related 加入 temporal-threshold-consciousness、backward-masking；新增 Q-temporal-01/02/03 到 opens_questions
 
 ### GWT 作为世界模型的意识广播层
 

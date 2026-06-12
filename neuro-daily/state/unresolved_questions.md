@@ -1,6 +1,40 @@
 # 未解问题追踪
 
-*最后更新：2026-10-01*
+*最后更新：2026-06-12*
+
+---
+
+## 2026-06-12 新增（来自"意识的时间解剖学"文章 #162）
+
+### Q-temporal-01（中优先级）：Melloni 2007 的 80-130ms 长程 gamma 同步是意识还是注意？
+
+- **关联 wiki**：[[temporal-threshold-consciousness]]、[[global-workspace-theory]]、[[recurrent-processing-theory]]
+- **来源文章**：2026-06-12-temporal-threshold-consciousness-ignition
+- **问题**：Melloni et al. 2007（PMID:17360907）发现有意识知觉产生长程 gamma 相位同步，最早在 80-130ms 出现。但 Del Cul et al. 2007（PMID:17896866）发现意识门槛在 270ms（P3 非线性特征）。两者是否矛盾？
+  - 问题 A：80-130ms 的长程 gamma 同步是意识的早期阶段（支持 RPT：递归处理在此时段启动），还是注意调制的神经基础（支持 GWT：前意识注意准备）？
+  - 问题 B：在无报告范式（如纯粹的周边察觉任务，不需要报告）下，同样的实验能否重复 Melloni 2007 的早期同步，同时消除 Del Cul 2007 的 P3？如果能，则支持 RPT；如果早期同步也消失，则支持 GWT（早期同步与报告系统绑定）
+  - 问题 C：Melloni 的范式（延迟匹配任务）是否因为任务需要工作记忆的注意分配，从而系统性地早于纯粹的被动知觉任务？
+- **当前证据状态**：两个研究均为开放全文，结果表面矛盾；无报告范式实验未做；已登记为 contested claim C-temporal-01
+
+### Q-temporal-02（中优先级）：VAN 在逆向遮蔽条件下的行为？
+
+- **关联 wiki**：[[visual-awareness-negativity]]、[[temporal-threshold-consciousness]]、[[backward-masking]]、[[access-consciousness]]
+- **来源文章**：2026-06-12-temporal-threshold-consciousness-ignition
+- **问题**：VAN（Visual Awareness Negativity，~100-250ms，后枕区）被认为是比 P3b 更接近现象意识的 NCC，因为它在无报告范式中持续存在。
+  - 如果在逆向遮蔽条件下（SOA < 阈限，被试报告"未看见"），VAN **消失**：支持 GWT（意识需要全局广播；掩蔽截断了整个意识处理链，包括 VAN 阶段）
+  - 如果在逆向遮蔽条件下 VAN **持续存在**：支持 RPT（掩蔽只截断了报告系统；VAN 对应的递归处理（~150ms）完成后，意识已经发生，只是不能进入报告通道）
+  - 这是当前无报告范式研究的最重要实验之一
+- **当前证据状态**：直接对比逆向遮蔽下 VAN 与 P3b 的实验（据我所知）尚未见报告
+
+### Q-temporal-03（低优先级）：麻醉如何消除意识？
+
+- **关联 wiki**：[[temporal-threshold-consciousness]]、[[global-workspace-theory]]、[[recurrent-processing-theory]]、[[perturbational-complexity-index]]
+- **来源文章**：2026-06-12-temporal-threshold-consciousness-ignition
+- **问题**：麻醉是通过破坏长程同步（GWT 机制）还是阻断递归处理（RPT 机制）来消除意识？两者有区分性预测吗？
+  - 问题 A：丙泊酚（propofol）主要增强 GABAergic 抑制——这更可能干扰递归处理（通过过度抑制反馈回路），还是更可能破坏长程同步（通过抑制远程兴奋性连接）？
+  - 问题 B：氯胺酮（NMDA 受体拮抗剂）能消除意识但不完全消除长程同步——这是对 GWT 的挑战，还是氯胺酮产生了一种"质上不同"的意识状态？
+  - 问题 C：PCI（微扰复杂度指数，TMS-EEG）在区分 GWT 和 RPT 预测上有独特价值——PCI 下降是因为长程同步（GWT）还是递归处理（RPT）减少？
+- **当前证据状态**：PCI 在 VS/MCS 区分中有临床价值；麻醉机制的 GWT vs RPT 解释尚未精确区分
 
 ---
 
