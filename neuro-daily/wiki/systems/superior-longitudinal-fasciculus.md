@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-13
-updated: 2026-06-13
-revision_count: 1
-dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [arcuate-fasciculus, language-network, broca-area, wernicke-area, hemispatial-neglect, speech-production-circuit, dorsal-language-stream, stg-phoneme-processing, conduction-aphasia, corpus-callosum, inferior-fronto-occipital-fasciculus]
+updated: 2026-06-12
+revision_count: 2
+dimensions: [brain-region, whole-brain-network, cognition, behavior, molecular]
+related: [arcuate-fasciculus, language-network, broca-area, wernicke-area, hemispatial-neglect, speech-production-circuit, dorsal-language-stream, stg-phoneme-processing, conduction-aphasia, corpus-callosum, inferior-fronto-occipital-fasciculus, foxp2-language-gene, cntnap2-language-circuit, language-lateralization]
 prerequisites: [language-network, arcuate-fasciculus]
 opens_questions: [Q-SLF-01, Q-SLF-02, Q-SLF-03, Q-SLF-04]
-source_articles: [2026-06-13-superior-longitudinal-fasciculus-branches-attention-language]
-key_sources: ["PMID:17431404", "PMID:23107648", "PMID:37051488", "PMID:33792674", "PMID:22422148", "PMID:26377454", "PMID:24951631", "PMID:21937035", "PMID:34288240", "PMID:34218465"]
+source_articles: [2026-06-13-superior-longitudinal-fasciculus-branches-attention-language, 2026-06-12-cntnap2-foxp2-language-wiring]
+key_sources: ["PMID:17431404", "PMID:23107648", "PMID:37051488", "PMID:33792674", "PMID:22422148", "PMID:26377454", "PMID:24951631", "PMID:21937035", "PMID:34288240", "PMID:34218465", "PMID:18987363", "PMID:21765815"]
 ---
 
 # 上纵束（SLF）系统 (Superior Longitudinal Fasciculus System)
@@ -92,16 +92,31 @@ AF：     [额下回 BA44 + PMC]  ←→  [pSTG/Spt]
 - [[speech-production-circuit]] — SLF III 传输语音-运动映射信号进入 DIVA 前馈回路
 - [[corpus-callosum]] — 右半球 SLF 参与失语代偿，可能通过胼胝体与左侧增强通信
 
+## SLF III 左侧化的分子候选机制（emerging）
+
+基于 2026-06-12 的文章（#171），目前最合理的分子候选轴是：
+
+**FOXP2 → CNTNAP2 → 左侧额叶皮层连接优势**
+
+- FOXP2 在发育期人脑额叶皮层直接转录激活 CNTNAP2（Vernes 2008）
+- CNTNAP2 mRNA 在人类（非黑猩猩）发育期额叶皮层呈左 > 右的不对称表达（Alarcón 2008）
+- FOXP2 还直接调控 264+ 轴突导向相关基因，包括 SLIT/ROBO 通路成员（Vernes 2011）
+
+**但直接因果链未经实验验证**：CNTNAP2 → SLF III 左侧化的条件性敲除实验尚未完成；这是 Q-SLF-03 仍然"开放"的原因。状态：emerging（有候选机制，待实验验证）。
+
+详见 wiki 页面：[[foxp2-language-gene]] 和 [[cntnap2-language-circuit]]
+
 ## 未解问题
 
 - Q-SLF-01：猕猴/黑猩猩中 SLF 亚束是否有功能对应的同源通路？侧化程度如何比较？
 - Q-SLF-02：SLF II 和 SLF III 的物理毗邻是否有计算意义——是否存在跨束轴突侧支？
-- Q-SLF-03：SLF III 左侧化发育的分子闸门是什么？与 FOXP2/NOTCH 通路有关吗？
+- Q-SLF-03：SLF III 左侧化发育的分子闸门是什么？最合理候选：FOXP2→CNTNAP2→左侧额叶轴突稳定性，但尚未直接验证（见"分子候选机制"小节）。
 - Q-SLF-04：在第二语言习得中，SLF III vs AF 的可塑性贡献比例如何？
 
 ## 修订历史
 
 - 2026-06-13 · 创建 · 基于《白质的三条平行弦》(#170) · 覆盖 SLF I/II/III/AF 四分系统、DCS 功能双解离、发育遗传数据、代偿模型 · 初始置信度：高
+- 2026-06-12 · 修订（添加 SLF III 左侧化分子候选机制小节）· 基于《CNTNAP2：FOXP2 基因网络》(#171) · 加入 FOXP2→CNTNAP2→额叶左侧化表达的证据链（status: emerging，尚未因果验证）；更新 related 加入 foxp2-language-gene 和 cntnap2-language-circuit；Q-SLF-03 更新为"有候选机制"状态
 
 ## 来源文章
 

@@ -1,0 +1,53 @@
+# 运行日志 — 2026-06-12（#171 CNTNAP2）
+
+**文章编号**：#171  
+**主题**：CNTNAP2：FOXP2 基因网络中从语言基因到大脑布线蓝图的关键分子接触器  
+**运行时间**：2026-06-12 UTC+8  
+**分支**：main  
+**注**：因 2026-06-12 已有第 20 篇文章（neuromodulators-ach-ne）的对应日志，本日志使用 slug 命名以避免覆盖。
+
+---
+
+## 搜索词与数据源
+
+1. PubMed E-utilities 检索：FOXP2 CNTNAP2、轴突导向、SLI、ASD
+2. 两个并行研究代理：(1) 广泛 FOXP2 文献；(2) 精确 PMID 验证
+3. Europe PMC：FOXP2 最新 2025-2026 论文
+
+## 来源采用/排除
+
+| PMID | 状态 | 原因 |
+|------|------|------|
+| 18987363 | 采用 | 核心：FOXP2→CNTNAP2 ChIP-chip |
+| 18179893 | 采用 | CNTNAP2 额叶表达 |
+| 21962519 | 采用（更正）| 原预期为 22036573，验证后纠正；21962519 为正确 PMID |
+| 22036573 | 排除 | 验证为果蝇蛋白复合体论文，非神经科学 |
+| 12963709 | 采用 | Caspr2 旁节功能 |
+| 21765815 | 采用 | 轴突导向靶基因网络 |
+| 11586359 | 采用 | FOXP2 发现论文 |
+| 15685218 | 采用 | FOXP2 神经解剖 |
+| 36340692 | 采用 | 最新综述 |
+| 37137515 | 采用 | 2023 机制论文 |
+
+## 固结 wiki 页面
+
+| 操作 | 页面 |
+|------|------|
+| 新建 | concepts/cntnap2-language-circuit.md (Rev1) |
+| 修订 | concepts/foxp2-language-gene.md (Rev1→Rev2) |
+| 修订 | systems/superior-longitudinal-fasciculus.md (Rev1→Rev2) |
+
+## 矛盾登记
+
+无新矛盾。Q-SLF-03 升级为"有候选机制，待验证"。
+
+## 异常处理
+
+早期批量创建的 notes/sources/logs（2026-06-12）已有内容（article #20 neuromodulators）。
+误操作后通过 git restore 恢复，本次日志改用 slug 命名以遵守 append-only 原则。
+
+## Git
+
+- 分支：main
+- commit：[待填写]
+- push：[待填写]

@@ -297,7 +297,7 @@
       "source_article": "2026-10-09-neuromuscular-junction-synaptic-machine"
     }
   ],
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-06-12",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -447,6 +447,12 @@
       "revision_count": 1,
       "last_changed": "2026-10-08",
       "change_reason": "Created from #168: PICs established across multiple Heckman lab and independent studies; 2-6x amplification replicated; CaV1.3 as primary channel supported by KO studies. Confidence: high for animal data, medium for human PICs quantification"
+    },
+    "cntnap2-language-circuit": {
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-12",
+      "reason": "New page; FOXP2→CNTNAP2 direct regulation established (Vernes 2008 ChIP-chip); Caspr2 juxtaparanodal function established (Poliak 2003); CNTNAP2 KO mice phenotype established (Penagarikano 2011); BUT CNTNAP2→SLF III lateralization = emerging/speculative"
     }
   },
   "credit-assignment": {

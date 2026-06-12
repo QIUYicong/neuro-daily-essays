@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-13",
-  "total_articles": 170,
+  "last_updated": "2026-06-12",
+  "total_articles": 171,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11368,6 +11368,76 @@
         "失读症（dyslexia）的白质微结构基础——SLF III 和 AF 的 DTI 发现",
         "语言的跨脑区振荡协调机制（θ-γ PAC 在 SLF/AF 管道中如何传输）",
         "缘上回（SMG）的多功能角色（镜像系统、工具使用、语音-运动、数字认知）"
+      ]
+    },
+    {
+      "date": "2026-06-12",
+      "real_date": "2026-06-12",
+      "article_number": 171,
+      "title": "CNTNAP2：FOXP2 基因网络中从语言基因到大脑布线蓝图的关键分子接触器",
+      "slug": "cntnap2-foxp2-language-wiring",
+      "filename": "2026-06-12-cntnap2-foxp2-language-wiring.md",
+      "article_type": "regular",
+      "core_question": "FOXP2 → CNTNAP2 分子调控轴如何将语言基因的指令翻译为神经元迁移、轴突结构和回路侧化的物理现实？CNTNAP2 是否是 SLF III 左侧化发育的分子闸门（Q-SLF-03）？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（续）/ 2. 神经网络如何建成（轴突导向、回路布线）",
+      "topic_tags": [
+        "CNTNAP2",
+        "FOXP2",
+        "Caspr2",
+        "language circuit",
+        "axon guidance",
+        "SLIT-ROBO",
+        "SLF III lateralization",
+        "PV interneurons",
+        "specific language impairment",
+        "SLI",
+        "autism spectrum disorder",
+        "ASD",
+        "juxtaparanode",
+        "Kv1 channels",
+        "language lateralization",
+        "cortical development",
+        "neuronal migration",
+        "white matter",
+        "frontal cortex",
+        "Vernes 2008",
+        "Penagarikano 2011",
+        "Alarcón 2008",
+        "Poliak 2003",
+        "E/I balance",
+        "ChIP-chip",
+        "transcription factor targets"
+      ],
+      "main_sources": [
+        "PMID:11586359 / PMC:PMC3131290 (Lai 2001, Nature, FOXP2 KE family - open full text)",
+        "PMID:15685218 / PMC:PMC2100148 (Vargha-Khadem 2005, Nat Rev Neurosci - open full text)",
+        "PMID:18987363 / PMC:PMC2756409 (Vernes 2008, NEJM, FOXP2→CNTNAP2 ChIP-chip - open full text)",
+        "PMID:18179893 / PMC:PMC2253955 (Alarcón 2008, AJHG, CNTNAP2 frontal cortex expression - open full text)",
+        "PMID:21962519 / PMC:PMC3390029 (Penagarikano 2011, Cell, CNTNAP2 KO mice - open full text)",
+        "PMID:21765815 (Vernes 2011, PLoS Genet, FOXP2 neurite outgrowth targets - gold OA)",
+        "PMID:12963709 / PMC:PMC2172860 (Poliak 2003, J Cell Biol, Caspr2 juxtaparanode - open full text)",
+        "PMID:19304338 / PMC:PMC2778075 (Fisher & Scharff 2009, Trends Genet - open full text)",
+        "PMID:36340692 / PMC:PMC9630569 (Rodenas-Cuadrado 2022, Front Mol Neurosci - open full text)",
+        "PMID:37137515 / PMC:PMC8286808 (Kuo 2023, Brain - open full text)"
+      ],
+      "unresolved_questions": [
+        "Q-SLF-03: CNTNAP2→SLF III 因果链尚未直接验证；候选机制已明确但实验证明缺失",
+        "Q-cntnap2-01: CNTNAP2 常见 SNP 的遗传效应可重复性为何不稳定？",
+        "Q-cntnap2-02: FOXP2→CNTNAP2 不对称性的驱动因子是什么？FOXP2 本身是否在左右额叶不对称？"
+      ],
+      "next_suggested_topics": [
+        "SLIT/ROBO 轴突导向系统与白质束形成的分子机制",
+        "FOXP2 的其他直接靶基因（SRPX2、ROBO1）及其在语言回路中的功能",
+        "语言关键期的分子基础：FOXP2/CNTNAP2 发育时序动态",
+        "Caspr/Caspr2 家族蛋白的进化与髓鞘化回路信号完整性"
       ]
     }
   ],

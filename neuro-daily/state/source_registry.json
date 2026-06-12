@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-06-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -12378,6 +12378,62 @@
         "NMJ_structure_2025",
         "MG_pathology"
       ]
+    },
+    {
+      "pmid": "18987363",
+      "pmcid": "PMC2756409",
+      "title": "A functional genetic link between distinct developmental language disorders (FOXP2→CNTNAP2)",
+      "year": 2008,
+      "journal": "N Engl J Med",
+      "coverage": "FOXP2 ChIP-chip, CNTNAP2 as direct target, SLI genetic association"
+    },
+    {
+      "pmid": "18179893",
+      "pmcid": "PMC2253955",
+      "title": "Linkage, association, and gene-expression analyses identify CNTNAP2 as an autism-susceptibility gene",
+      "year": 2008,
+      "journal": "Am J Hum Genet",
+      "coverage": "CNTNAP2 ASD linkage, frontal cortex expression, asymmetric expression"
+    },
+    {
+      "pmid": "21962519",
+      "pmcid": "PMC3390029",
+      "title": "Absence of CNTNAP2 leads to epilepsy, neuronal migration abnormalities, and core autism-related deficits",
+      "year": 2011,
+      "journal": "Cell",
+      "coverage": "CNTNAP2 KO mice: PV+ migration, seizures, ASD behavior"
+    },
+    {
+      "pmid": "12963709",
+      "pmcid": "PMC2172860",
+      "title": "Juxtaparanodal clustering of Shaker-like K+ channels in myelinated axons depends on Caspr2 and TAG-1",
+      "year": 2003,
+      "journal": "J Cell Biol",
+      "coverage": "Caspr2/CNTNAP2 juxtaparanodal Kv1 channel clustering"
+    },
+    {
+      "pmid": "21765815",
+      "pmcid": null,
+      "title": "Foxp2 regulates gene networks implicated in neurite outgrowth in the developing brain",
+      "year": 2011,
+      "journal": "PLoS Genet",
+      "coverage": "264 FOXP2 neural targets, neurite outgrowth enrichment, SLIT/ROBO"
+    },
+    {
+      "pmid": "36340692",
+      "pmcid": "PMC9630569",
+      "title": "The role of CNTNAP2 in neurodevelopmental disease and human cerebral cortex evolution",
+      "year": 2022,
+      "journal": "Front Mol Neurosci",
+      "coverage": "CNTNAP2 genotype-phenotype review, primate comparative expression"
+    },
+    {
+      "pmid": "37137515",
+      "pmcid": "PMC8286808",
+      "title": "Speech- and language-linked FOXP2 mutation targets protein motors in striatal neurons",
+      "year": 2023,
+      "journal": "Brain",
+      "coverage": "FOXP2 R553H disrupts dynein-dynactin in striatum, TrkB trafficking"
     }
   ],
   "total_sources": 733,

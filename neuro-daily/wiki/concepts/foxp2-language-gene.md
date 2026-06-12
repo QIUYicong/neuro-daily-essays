@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-24
-updated: 2026-08-24
-revision_count: 1
+updated: 2026-06-12
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, behavior, cognition]
-related: [language-lateralization, language-network, cerebellum, direct-indirect-pathway, motor-learning, critical-period]
+related: [language-lateralization, language-network, cerebellum, direct-indirect-pathway, motor-learning, critical-period, cntnap2-language-circuit, superior-longitudinal-fasciculus]
 prerequisites: [action-potential, synaptic-transmission, motor-learning]
-opens_questions: [Q-foxp2-01, Q-foxp2-02]
-source_articles: [2026-08-24-language-lateralization-left-hemisphere]
-key_sources: ["PMID:11586359", "PMID:15685218", "PMID:19304338", "PMID:18052609", "PMID:19490899"]
+opens_questions: [Q-foxp2-01, Q-foxp2-02, Q-SLF-03]
+source_articles: [2026-08-24-language-lateralization-left-hemisphere, 2026-06-12-cntnap2-foxp2-language-wiring]
+key_sources: ["PMID:11586359", "PMID:15685218", "PMID:19304338", "PMID:18052609", "PMID:19490899", "PMID:18987363", "PMID:21765815"]
 ---
 
 # FOXP2（语言相关转录因子）(FOXP2 Transcription Factor)
@@ -49,12 +49,16 @@ FOXP2 的作用集中在**基底节-小脑-皮层运动学习回路**，而非"�
 
 **FOXP2 的正常功能链**：
 ```
-FOXP2 (转录因子) 
-  → 调控 CNTNAP2/SRPX2/ROBO1 等基因
+FOXP2 (转录因子)
+  → 调控 264+ 发育神经靶基因（Vernes 2011）
+     ├─ CNTNAP2（最大直接靶点，Vernes 2008）
+     ├─ SLIT/ROBO 轴突导向通路成员
+     └─ 神经突生长相关基因（最富集功能类别）
   → 影响神经元迁移、轴突导向、突触形成
   → 小脑-纹状体-运动皮层发育
   → 精细运动序列学习能力
   → 支持言语运动程序习得（发音序列协调）
+  → （推测）CNTNAP2 左侧化表达 → 额叶白质束左侧发育优势
 ```
 
 **FOXP2 突变（R553H）的损伤链**：
@@ -86,7 +90,9 @@ T303N / N325S 替换 （约 20-40 万年前）
 
 ## 连接
 
-- [[language-lateralization]] — FOXP2 通过基底节-运动回路间接支持语言侧化的功能实现
+- [[cntnap2-language-circuit]] — FOXP2 通过 ChIP-chip 证明直接转录激活 CNTNAP2（最大靶基因）；CNTNAP2 可能将 FOXP2 指令翻译为白质侧化
+- [[language-lateralization]] — FOXP2 通过基底节-运动回路间接支持语言侧化的功能实现；CNTNAP2 左侧化表达可能是更直接的侧化机制
+- [[superior-longitudinal-fasciculus]] — FOXP2 调控的轴突导向基因（CNTNAP2 + SLIT/ROBO 等）可能是 SLF III 左侧化发育的分子基础（Q-SLF-03，emerging）
 - [[language-network]] — KE 家族 Broca 区激活异常提示 FOXP2 影响额叶语言处理
 - [[cerebellum]] — FOXP2 在小脑普肯野细胞发育中关键；小脑参与言语运动序列协调
 - [[direct-indirect-pathway]] — FOXP2 主要影响纹状体（尾状核/壳核）的发育和学习回路
@@ -101,6 +107,7 @@ T303N / N325S 替换 （约 20-40 万年前）
 ## 修订历史
 
 - 2026-08-24 · 创建（填补悬空引用）· 基于《语言为何偏向左脑》文章#122 · 整合 Lai 2001、Vargha-Khadem 2005、Fisher & Scharff 2009、Haesler 2007、Enard 2009 · 初始置信度：高
+- 2026-06-12 · 修订（新增 CNTNAP2 直接调控关系 + 轴突导向网络）· 基于《CNTNAP2：FOXP2 基因网络》（#171）· 加入 Vernes 2008（FOXP2→CNTNAP2 ChIP-chip）和 Vernes 2011（264 轴突导向靶基因）；更新 related 添加 cntnap2-language-circuit 和 superior-longitudinal-fasciculus；标注 Q-SLF-03
 
 ## 来源文章
 

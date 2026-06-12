@@ -1,0 +1,21 @@
+{
+  "date": "2026-06-12",
+  "article": "#171 - 2026-06-12-cntnap2-foxp2-language-wiring.md",
+  "topic": "CNTNAP2 and FOXP2 gene network: from language gene to brain wiring blueprint",
+  "sources": [
+    {"pmid": "11586359", "pmcid": "PMC3131290", "title": "A forkhead-domain gene is mutated in a severe speech and language disorder", "year": 2001, "journal": "Nature", "full_text_available": true, "access_type": "PMC open access", "key_finding": "FOXP2 R553H mutation in KE family - first gene for hereditary speech-language disorder"},
+    {"pmid": "15685218", "pmcid": "PMC2100148", "title": "FOXP2 and the neuroanatomy of speech and language", "year": 2005, "journal": "Nat Rev Neurosci", "full_text_available": true, "access_type": "PMC open access", "key_finding": "KE family neuroimaging: caudate atrophy, Broca/cerebellar abnormalities"},
+    {"pmid": "18987363", "pmcid": "PMC2756409", "title": "A functional genetic link between distinct developmental language disorders", "year": 2008, "journal": "N Engl J Med", "full_text_available": true, "access_type": "PMC open access", "key_finding": "FOXP2 directly binds and activates CNTNAP2; SLI genetic association"},
+    {"pmid": "18179893", "pmcid": "PMC2253955", "title": "Linkage, association, and gene-expression analyses identify CNTNAP2 as an autism-susceptibility gene", "year": 2008, "journal": "Am J Hum Genet", "full_text_available": true, "access_type": "PMC open access", "key_finding": "CNTNAP2 associated with ASD; enriched in frontal cortex deep layers"},
+    {"pmid": "21962519", "pmcid": "PMC3390029", "title": "Absence of CNTNAP2 leads to epilepsy, neuronal migration abnormalities, and core autism-related deficits", "year": 2011, "journal": "Cell", "full_text_available": true, "access_type": "PMC open access", "key_finding": "CNTNAP2 KO: PV+ interneuron migration defects, seizures, ASD behavior triad"},
+    {"pmid": "21765815", "pmcid": null, "title": "Foxp2 regulates gene networks implicated in neurite outgrowth in the developing brain", "year": 2011, "journal": "PLoS Genet", "full_text_available": true, "access_type": "PLoS gold open access", "key_finding": "264 FOXP2 neural targets; neurite outgrowth most enriched category; SLIT/ROBO members"},
+    {"pmid": "12963709", "pmcid": "PMC2172860", "title": "Juxtaparanodal clustering of Shaker-like K+ channels in myelinated axons depends on Caspr2 and TAG-1", "year": 2003, "journal": "J Cell Biol", "full_text_available": true, "access_type": "PMC open access", "key_finding": "Caspr2-TAG-1 scaffold required for Kv1.1/1.2 K+ channel clustering at juxtaparanodes"},
+    {"pmid": "19304338", "pmcid": "PMC2778075", "title": "FOXP2 as a molecular window into speech and language", "year": 2009, "journal": "Trends Genet", "full_text_available": true, "access_type": "PMC open access", "key_finding": "Comprehensive FOXP2 review: motor sequence learning regulator"},
+    {"pmid": "36340692", "pmcid": "PMC9630569", "title": "The role of CNTNAP2 in neurodevelopmental disease and human cerebral cortex evolution", "year": 2022, "journal": "Front Mol Neurosci", "full_text_available": true, "access_type": "PMC open access", "key_finding": "CNTNAP2 genotype-phenotype review; primate comparative expression"},
+    {"pmid": "37137515", "pmcid": "PMC8286808", "title": "Speech- and language-linked FOXP2 mutation targets protein motors in striatal neurons", "year": 2023, "journal": "Brain", "full_text_available": true, "access_type": "PMC open access", "key_finding": "FOXP2 R553H disables dynein-dynactin in striatum → TrkB trafficking defects"}
+  ],
+  "search_queries": ["FOXP2 CNTNAP2 language 2008", "CNTNAP2 autism frontal cortex expression 2008", "Penagarikano CNTNAP2 epilepsy autism 2011", "Poliak Caspr2 juxtaparanodal potassium channels 2003", "FOXP2 neurite outgrowth axon guidance 2011"],
+  "total_sources": 10,
+  "open_full_text": 10,
+  "abstract_only": 0
+}

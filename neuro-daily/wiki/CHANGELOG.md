@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-06-12（文章 #171：CNTNAP2——FOXP2 基因网络中从语言基因到大脑布线蓝图的关键分子接触器）
+
+### 新建 wiki 页面（1 页）
+
+- `concepts/cntnap2-language-circuit.md`（CNTNAP2 语言回路布线基因）：Rev1 创建；FOXP2 直接结合 CNTNAP2 第2内含子并转录激活（Vernes 2008 ChIP-chip）；Caspr2 双重功能（旁节 Kv1 K+通道聚簇 + 皮层 PV+中间神经元迁移调控）；人类额叶皮层左侧化表达（Alarcón 2008，黑猩猩中不明显）；SLI/ASD/ADHD 遗传关联；剂量-表型（双等位基因→CDFE）；Q-SLF-03 候选分子机制（emerging，未经直接因果验证）；状态 established / confidence: high。
+
+### 修订 wiki 页面（2 页）
+
+- `concepts/foxp2-language-gene.md` rev1→rev2：新增 related: cntnap2-language-circuit 和 superior-longitudinal-fasciculus；关键机制链更新（加入 CNTNAP2 和 264 轴突导向靶基因，Vernes 2011）；opens_questions 加入 Q-SLF-03；新增 key_sources（PMID:18987363, PMID:21765815）；修订历史追加。
+- `systems/superior-longitudinal-fasciculus.md` rev1→rev2：新增"SLF III 左侧化的分子候选机制"小节（FOXP2→CNTNAP2→左侧额叶连接优势；status: emerging；Q-SLF-03 状态更新为"有候选机制待验证"）；related 加入 foxp2-language-gene 和 cntnap2-language-circuit；修订历史追加。
+
+### 图谱变化
+
+- 新建节点 1 个：cntnap2-language-circuit（concepts/mechanism/established）
+- 新增边 5 条：foxp2-language-gene→cntnap2-language-circuit（regulates）、cntnap2-language-circuit→superior-longitudinal-fasciculus（supports）、cntnap2-language-circuit→pv-interneurons（regulates）、cntnap2-language-circuit→language-lateralization（supports）、foxp2-language-gene→superior-longitudinal-fasciculus（supports）
+- 图谱状态：343 节点，1965 边
+
+### 登记/裁决矛盾
+
+- 无新矛盾登记。Q-SLF-03 从"完全未知"升级为"有候选机制（FOXP2→CNTNAP2→左侧额叶），但无直接因果验证"，维持 status=open。
+
+### 新增悬空引用待补
+
+- `voltage-gated-potassium-channels`（在 cntnap2-language-circuit 的 prerequisites 中被引用，尚无独立 wiki 页）
+
+---
+
 ## 2026-06-13（文章 #170：白质的三条平行弦——上纵束（SLF）亚束系统）
 
 ### 新建 wiki 页面（1 页）

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-09（**#169** 神经肌肉接头——三细胞架构、Cav2.1→SNARE→量子释放、Agrin-LRP4-MuSK-rapsyn 轴、安全因子 2–5、完成皮层→脊髓→α-MN→NMJ 运动链叙事；新建3页：neuromuscular-junction, agrin-musk-achr-clustering, end-plate-potential-safety-factor；修订1页：alpha-motor-neuron rev2（填补悬空引用）；图谱 341 节点，1953 边）· 主题页总数：**315**
+> 最后更新：2026-06-12（**#171** CNTNAP2语言回路布线基因——FOXP2→CNTNAP2直接调控轴、Caspr2旁节K+通道聚簇、PV+神经元迁移异常、人类额叶左侧化表达、SLI/ASD遗传关联、FOXP2调控264个轴突导向靶基因（Vernes 2011）；Q-SLF-03候选机制（emerging）；新建1页：cntnap2-language-circuit；修订2页：foxp2-language-gene rev2, superior-longitudinal-fasciculus rev2；图谱 **343** 节点，**1965** 边）· 主题页总数：**316**
 
 ---
 
@@ -74,7 +74,8 @@
 - 🔴 [韦尼克区](concepts/wernicke-area.md) — 传统音语理解中枢；现代证据：pSTG/BA22 是音韵形式缓冲区，损伤产生传导性失语而非纯理解崩溃；真正理解依赖双侧分布网络 **[NEW 2026-08-23 #121（填补悬空引用）]**
 - 🟢 [颞平面](concepts/planum-temporale.md) — 外侧裂深处HG后方；65%人类左>右（Geschwind 1968）；黑猩猩94%亦左>右（Gannon 1998）；胎儿期即存在；STAP（人类特有颞上不对称坑，Leroy 2015）；语言左侧化最古老解剖证据 **[rev2 2026-08-24 #122]**
 - 🟢 [语言侧化](concepts/language-lateralization.md) — 右利手96%左侧化；AST假说（左快时序/右慢时序）；先天起源证据（婴儿fMRI）；互补专化（与空间注意力互锁）；STAP人类特有不对称 **[NEW 2026-08-24 #122]**
-- 🟢 [FOXP2（语言相关转录因子）](concepts/foxp2-language-gene.md) — KE家族突变→言语运动失用；纹状体/小脑发育调控；鸣禽因果证据（Haesler 2007）；人源化小鼠（Enard 2009）；两氨基酸替换20-40万年前；尼安德特人携带 **[NEW 2026-08-24 #122]**
+- 🟢 [FOXP2（语言相关转录因子）](concepts/foxp2-language-gene.md) — KE家族突变→言语运动失用；纹状体/小脑发育调控；鸣禽因果证据（Haesler 2007）；人源化小鼠（Enard 2009）；两氨基酸替换20-40万年前；**+rev2: 直接调控 CNTNAP2（Vernes 2008）和264个轴突导向靶基因（Vernes 2011）** **[rev2 2026-06-12 #171]**
+- 🟢 [CNTNAP2（语言回路布线基因）](concepts/cntnap2-language-circuit.md) — FOXP2直接靶基因；Caspr2在旁节维持Kv1通道聚簇；KO→PV+中间神经元异位+癫痫+ASD行为三联征；人类额叶左侧化表达（黑猩猩中不明显）；SLI/ASD/ADHD遗传关联；剂量-表型（双等位→CDFE）；Q-SLF-03候选分子机制 **[NEW 2026-06-12 #171]**
 - 🔵 [语音理解的预测编码](concepts/speech-comprehension-prediction.md) — IFG→STG/STS 自上而下预测回路；STG 编码预测误差（不是增强信号）；正确先验使STG信号减弱；误感知时STS预测误差更弱（Blank & Davis 2018）；学习=预测误差最小化（Sohoglu & Davis 2016） **[NEW 2026-08-23 #121]**
 - 🟢 [音素范畴感知](concepts/phoneme-categorical-perception.md) — STG群体活动的非线性跳跃实现离散范畴；双尺度（局部特征/群体音素）表征；发育收窄、预测力与社会门控依赖性 **[rev2 2026-08-22 #120]**
 - 🟢 [语言习得关键期（分层敏感期）](concepts/language-critical-period.md) — 音位/词义/形态句法/复杂句法分层嵌套的多敏感期；三层机制（统计学习/社会门控/白质成熟约束）；Friederici背侧路径I/II发育双分组；Klein 2026学龄前DTI-句法相关 **[NEW 2026-08-22 #120]**

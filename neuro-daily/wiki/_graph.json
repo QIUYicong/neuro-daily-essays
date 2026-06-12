@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-13",
+  "updated": "2026-06-12",
   "node_count": 341,
   "edge_count": 1953,
   "edge_types": [
@@ -3095,6 +3095,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/superior-longitudinal-fasciculus.md"
+    },
+    {
+      "id": "cntnap2-language-circuit",
+      "title": "CNTNAP2（语言回路布线基因）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cntnap2-language-circuit.md"
     }
   ],
   "edges": [
@@ -13502,6 +13511,31 @@
       "from": "arcuate-fasciculus",
       "to": "superior-longitudinal-fasciculus",
       "type": "part-of"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "cntnap2-language-circuit",
+      "type": "regulates"
+    },
+    {
+      "from": "cntnap2-language-circuit",
+      "to": "superior-longitudinal-fasciculus",
+      "type": "supports"
+    },
+    {
+      "from": "cntnap2-language-circuit",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "cntnap2-language-circuit",
+      "to": "language-lateralization",
+      "type": "supports"
+    },
+    {
+      "from": "foxp2-language-gene",
+      "to": "superior-longitudinal-fasciculus",
+      "type": "supports"
     }
   ],
   "dangling_references": [

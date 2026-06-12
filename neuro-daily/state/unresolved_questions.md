@@ -2,6 +2,24 @@
 
 *最后更新：2026-06-13*
 
+
+---
+
+## 2026-06-12 新增（来自"CNTNAP2：FOXP2 基因网络中从语言基因到大脑布线蓝图的关键分子接触器" #171）
+
+### Q-cntnap2-01（中优先级）：CNTNAP2 常见 SNP 对语言障碍的遗传效应可重复性为何不稳定？
+
+- **关联 wiki**：[[cntnap2-language-circuit]]
+- **来源文章**：2026-06-12-cntnap2-foxp2-language-wiring
+- **问题**：Vernes 2008（NEJM）报告 CNTNAP2 rs7794745 与 SLI 非词复述关联（p=5×10⁻⁵），但多个后续大型队列未能复现。可能原因：(1) 人群分层（不同语言/文化群体）；(2) 统计效能问题；(3) 与 FOXP2 或其他语言风险基因的基因-基因交互作用；(4) 表型异质性（不同 SLI 子类型对 CNTNAP2 敏感性不同）？这对 CNTNAP2 的临床遗传咨询价值有重要影响。
+
+### Q-cntnap2-02（中优先级）：FOXP2→CNTNAP2 调控的左-右不对称是由什么驱动的？
+
+- **关联 wiki**：[[cntnap2-language-circuit]]、[[foxp2-language-gene]]、[[language-lateralization]]
+- **来源文章**：2026-06-12-cntnap2-foxp2-language-wiring
+- **问题**：如果 CNTNAP2 在人类发育期额叶皮层呈左侧化表达，这个不对称是 FOXP2 本身在左右额叶不对称表达的结果，还是有另一个独立的左侧化调控机制（如 NODAL 信号通路、Lefty-Pitx 轴线）参与？能否用单细胞 RNA 测序在妊娠 20-30 周的人类胎儿左右额叶皮层中分辨 FOXP2 和 CNTNAP2 的细胞类型特异性不对称表达？
+
+
 ---
 
 ## 2026-06-13 新增（来自白质的三条平行弦：上纵束（SLF）亚束系统 #170）

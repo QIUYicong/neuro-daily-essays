@@ -4,8 +4,8 @@
 
 ## 2026年6月（进行中）
 
-*本月截至日期：2026-06-13*
-*本月新增文章：#170；共 1 篇（月度第1篇）。6-13 上纵束（SLF）亚束系统（#170）：SLF I/II/III + AF 四部分框架；DCS 功能双解离（SLF III→anarthria vs AF→音韵错语，Lu 2021 多中心三语言）；SLF II 右侧化与空间注意（h²≈0.68）；SLF III 左侧化与语音-运动（h²≈0.55）；填补悬空引用 superior-longitudinal-fasciculus；新建1页（SLF），修订1页（AF），图谱 342 节点 1960 边。*
+*本月截至日期：2026-06-12*
+*本月新增文章：#171（+#170）；共 2 篇（月度第1-2篇）。6-12 CNTNAP2 语言回路布线基因（#171）：FOXP2→CNTNAP2 直接调控（Vernes 2008 ChIP-chip）；Caspr2 旁节 Kv1 通道聚簇（Poliak 2003）；PV+中间神经元迁移异常（Penagarikano 2011 Cell）；人类额叶左侧化表达（Alarcón 2008）；FOXP2 的 264 个轴突导向靶基因（Vernes 2011 PLoS Genet）；Q-SLF-03 候选分子机制（emerging）；新建1页（cntnap2-language-circuit），修订2页（foxp2-language-gene rev2，SLF rev2），图谱 343 节点 1965 边。*
 
 *注：本月文章采用实际 UTC+8 日期（2026-06-13）。之前若干会话使用了错误的未来日期（如 2026-09/10）但实际提交时间均为 2026-06-12，系先前会话的日期配置错误，本月从正确日期恢复。*
 
