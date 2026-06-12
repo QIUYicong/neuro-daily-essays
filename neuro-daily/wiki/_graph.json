@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-09",
-  "node_count": 341,
-  "edge_count": 1953,
+  "updated": "2026-10-10",
+  "node_count": 342,
+  "edge_count": 1959,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3086,6 +3086,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/end-plate-potential-safety-factor.md"
+    },
+    {
+      "id": "myasthenia-gravis",
+      "title": "重症肌无力",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/myasthenia-gravis.md"
     }
   ],
   "edges": [
@@ -13458,6 +13467,36 @@
       "from": "neuromuscular-junction",
       "to": "action-potential",
       "type": "mechanism-of"
+    },
+    {
+      "from": "myasthenia-gravis",
+      "to": "neuromuscular-junction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "myasthenia-gravis",
+      "to": "agrin-musk-achr-clustering",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "myasthenia-gravis",
+      "to": "complement-cascade-cns",
+      "type": "related"
+    },
+    {
+      "from": "myasthenia-gravis",
+      "to": "end-plate-potential-safety-factor",
+      "type": "related"
+    },
+    {
+      "from": "myasthenia-gravis",
+      "to": "alpha-motor-neuron",
+      "type": "related"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "myasthenia-gravis",
+      "type": "related"
     }
   ],
   "dangling_references": [

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-08-07
-revision_count: 2
+updated: 2026-10-10
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, disease]
-related: [microglia, synaptic-pruning, alzheimers-disease, astrocyte, autism-spectrum-disorder]
+related: [microglia, synaptic-pruning, alzheimers-disease, astrocyte, autism-spectrum-disorder, myasthenia-gravis, neuromuscular-junction]
 prerequisites: [synaptic-transmission, microglia]
 opens_questions: [Q-complement-01, Q-complement-02]
 source_articles: [2026-06-03-microglia-synaptic-pruning, 2026-08-07-synaptic-pruning-complement-autism-schizophrenia]
-key_sources: ["PMID:18083105", "PMID:22632727", "PMID:22715882", "PMID:27033548", "PMID:34738335", "PMID:32661396", "PMID:26814963"]
+key_sources: ["PMID:18083105", "PMID:22632727", "PMID:22715882", "PMID:27033548", "PMID:34738335", "PMID:32661396", "PMID:26814963", "PMC12110157", "PMID:32547535"]
 ---
 
 # 补体级联（CNS 中的突触功能）(Complement Cascade in CNS Synaptic Function)
@@ -82,6 +82,20 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:22715882", "PMID:27033548"
 | 成年 AD 脑中 C1q 在突触重激活 | STED 超分辨：C1q 与 PSD95 共定位，1 月龄 AD 小鼠↑ | PMID:27033548 | 高 |
 | C4（补体中间步骤）与精神分裂症相关 | 遗传研究 N=64,000+；C4A 拷贝数↑ → 风险↑ | PMID:26814963 | 高 |
 
+### 补体在外周 NMJ 的作用（与 CNS 剪枝的对比）
+
+以下是同一套经典补体通路在 NMJ（外周）的病理性激活，与 CNS 突触剪枝（发育性）形成重要对比：
+
+| 维度 | CNS 突触剪枝（发育性） | NMJ-MG（病理性） |
+|------|---------------------|----------------|
+| 启动信号 | 神经元自产 C1q + 星形胶质细胞 TGF-β | 自身 IgG1/IgG3 抗 AChR 抗体六聚体 |
+| C1q 来源 | 神经元内源性 | 血清来源，通过 Fc 区结合 IgG 复合体 |
+| 终点效应 | C3b 调理突触 → 微胶质 CR3 吞噬 | MAC（C5b-9）穿孔终板膜 |
+| 功能角色 | 生理性回路精修（弱突触删除） | 病理性突触破坏（AChR 丢失） |
+| 干预靶点 | 无（正常发育需要） | C5（eculizumab/ravulizumab）|
+
+关键认识：补体并非"坏的"系统，而是**语境依赖的双刃剑**：在 CNS 发育期用于精确剪枝，在 NMJ 被自身抗体激活时则造成病理破坏。这也解释了为何补体抑制剂（eculizumab）不用于正常儿童大脑发育——因为那样会干扰正常的突触精修（PMC12110157）。
+
 ## 连接
 
 - [[microglia]] — CR3 的表达细胞，补体标记的识别和执行者
@@ -89,6 +103,8 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:22715882", "PMID:27033548"
 - [[astrocyte]] — TGF-β 来源，上调神经元 C1q 表达
 - [[alzheimers-disease]] — Aβ 低聚体触发 C1q 病理性重激活
 - [[autism-spectrum-disorder]] — CD47 感知障碍导致修剪不足（与精神分裂症 C4A 过激活形成互补）
+- [[myasthenia-gravis]] — 外周 NMJ 的病理性 MAC 形成（最成功的补体抑制剂治疗靶点之一）
+- [[neuromuscular-junction]] — MAC 穿孔终板膜的物理底物
 
 ## 未解问题
 
@@ -99,8 +115,10 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:22715882", "PMID:27033548"
 
 - 2026-06-03 · 创建 · 基于《大脑的"质检员"》(#70) · 初始置信度：高
 - 2026-08-07 · 修订 · 基于《大脑的删除艺术》(#106) · 新增 SRPX2 机制；活动依赖调节小节扩充为"三方博弈"框架；注记 V1 皮层 ODP 不依赖补体的异质性；添加 Q-complement-02
+- 2026-10-10 · 修订 · 基于《当免疫系统发动叛乱》(#170) · 新增"补体在外周 NMJ 的作用"小节，建立 CNS 发育性剪枝 vs NMJ 病理性 MAC 穿孔的对比框架；新增 [[myasthenia-gravis]] 和 [[neuromuscular-junction]] 连接；补充 key_sources
 
 ## 来源文章
 
 - [[2026-06-03-microglia-synaptic-pruning]]
 - [[2026-08-07-synaptic-pruning-complement-autism-schizophrenia]]
+- [[2026-10-10-myasthenia-gravis-nmj-immune-attack]]

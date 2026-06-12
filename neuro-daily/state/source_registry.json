@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-10-10",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -12380,7 +12380,7 @@
       ]
     }
   ],
-  "total_sources": 733,
+  "total_sources": 744,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -14827,5 +14827,77 @@
       }
     ],
     "note": "α运动神经元生理学：大小原则+PICs"
+  },
+  "additions_2026-10-10": {
+    "article": "2026-10-10-myasthenia-gravis-nmj-immune-attack",
+    "article_number": 170,
+    "new_sources": [
+      {
+        "id": "PMC12110157",
+        "title": "The Role of Complement in the Pathogenesis and Treatment of MG (2025)",
+        "type": "review",
+        "open_access": true
+      },
+      {
+        "id": "PMID:32547535/PMC7274207",
+        "title": "Divergent Mechanisms of Immunopathology in MG Subtypes (Fichtner 2020)",
+        "type": "review",
+        "open_access": true
+      },
+      {
+        "id": "PMID:36074148/PMC9547806",
+        "title": "Synergistic AChR antibody complement activation (2022)",
+        "type": "original",
+        "open_access": true
+      },
+      {
+        "id": "PMID:35869073",
+        "title": "Aberrant neuromuscular gene expression in MG thymoma mTECs (Yasumizu 2022)",
+        "type": "original",
+        "open_access": true
+      },
+      {
+        "id": "PMID:38494283",
+        "title": "MG pathophysiology diagnosis treatment (Tannemaat 2024)",
+        "type": "review",
+        "open_access": false
+      },
+      {
+        "id": "PMID:39105625",
+        "title": "MG: the future is here (Kaminski 2024)",
+        "type": "review",
+        "open_access": false
+      },
+      {
+        "id": "PMID:35065039",
+        "title": "Advances in NMJ autoimmune disorder mechanisms (Huijbers 2022)",
+        "type": "review",
+        "open_access": false
+      },
+      {
+        "id": "PMID:39703505/PMC11655327",
+        "title": "MuSK-MG review (Front Immunol 2024)",
+        "type": "review",
+        "open_access": true
+      },
+      {
+        "id": "PMID:36751773",
+        "title": "FcRn inhibitors in MG (Zhu 2023)",
+        "type": "review",
+        "open_access": false
+      },
+      {
+        "id": "PMID:38724842",
+        "title": "FcRn Inhibitor Therapies in Neurologic Diseases (Alfaidi 2024)",
+        "type": "review",
+        "open_access": false
+      },
+      {
+        "id": "PMID:39180749",
+        "title": "Spatial transcriptomics of MG thymoma medulla niche (Yasumizu 2024)",
+        "type": "original",
+        "open_access": false
+      }
+    ]
   }
 }

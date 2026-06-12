@@ -1,0 +1,88 @@
+# 运行日志 — 2026-10-10
+
+**实际运行日期（UTC+8）**：2026-06-13  
+**文章编号**：#170  
+**主题**：重症肌无力（Myasthenia Gravis）——免疫系统对神经肌肉接头的精准攻击  
+**模式**：疾病窗口模式（Disease Window，课程轨道 11）
+
+---
+
+## 选题依据
+
+- 上篇（#169）深度解析了 NMJ 的正常结构与功能（三细胞架构、Cav2.1→SNARE→量子释放、安全因子 2–5）
+- topic_ledger 的 next_suggested_topics 首位：myasthenia gravis（anti-AChR 抗体免疫机制）
+- wiki/neurons/neuromuscular-junction.md 的 related 字段中 [[myasthenia-gravis]] 是悬空引用——本次填补
+- 符合课程轨道 11（疾病作为窗口）；近期轨道以运动控制链为主（CPG→α-MN→NMJ），MG 是 NMJ 功能的完美"反向解码实验"
+
+---
+
+## 检索记录
+
+**PubMed 搜索词**：
+1. "myasthenia gravis pathophysiology mechanism review" → 返回 142 条，取前 15 PMID
+2. "myasthenia gravis AChR complement MuSK mechanism"（带日期过滤 2019–）
+3. "FcRn inhibitor myasthenia gravis efgartigimod rozanolixizumab" → 8 PMID
+4. "myasthenia gravis thymus pathogenesis germinal center" → 5 PMID
+
+**PMC 搜索词**：
+- "myasthenia gravis pathogenesis mechanism review" → 找到 PMC12110157（2025 补体综述）
+- PMC 直接获取：PMC7274207, PMC9547806, PMC11655327, PMC11441477
+
+**候选来源数**：约 20+  
+**采用来源**：11 篇（4 篇开放全文读取，7 篇仅摘要）
+
+---
+
+## 核心来源评估
+
+| 来源 | 采用原因 | 全文状态 |
+|------|---------|---------|
+| PMC12110157 (2025) | 最新综述，含 REGAIN/CHAMPION/RAISE 试验数据，直接补体机制 | 全文 ✓ |
+| PMC7274207 (Fichtner 2020) | AChR vs MuSK 机制对比；IgG4 FAE 的核心参考 | 全文 ✓ |
+| PMC9547806 (2022) | 抗体协同激活补体的直接实验证据 | 全文 ✓ |
+| PMC11655327 (2024) | MuSK-MG 综合综述；ARGX-119 数据 | 全文 ✓ |
+| PMID:38494283 (Tannemaat 2024) | 流行病学基准数据 | 仅摘要 |
+| PMID:39105625 (Kaminski 2024) | 亚型分类；FcRn 机制 | 仅摘要 |
+| PMID:35869073 (Yasumizu 2022) | 胸腺 mTEC 神经肌肉基因表达 | 仅摘要（Nature Comm，需订阅） |
+
+---
+
+## 固结记录
+
+**新建 wiki 页面（1 页）**：
+- `wiki/diseases/myasthenia-gravis.md`（Rev1）— 填补 NMJ 页悬空引用；状态 established
+
+**修订 wiki 页面（3 页）**：
+- `wiki/neurons/neuromuscular-junction.md` Rev1→Rev2：新增 MG 疾病关联小节
+- `wiki/concepts/complement-cascade-cns.md` Rev2→Rev3：新增 NMJ 外周补体 vs CNS 突触剪枝对比框架
+- `wiki/concepts/agrin-musk-achr-clustering.md` Rev1→Rev2：更新 MuSK-MG IgG4 机制详述
+
+**矛盾登记**：无（AChR vs MuSK 机制分歧为领域共识）
+
+**新增悬空引用**：[[lambert-eaton-syndrome]]（待填补，优先级高）
+
+**未解问题新增**：Q-mg-01, Q-mg-02, Q-mg-03
+
+---
+
+## 图谱更新
+
+- 节点：341 → 342（新增 myasthenia-gravis）
+- 边：1953 → 1959（+6 条边）
+
+---
+
+## 失败与限制
+
+- Yasumizu 2024 (PMID:39180749, Cell Reports) 全文需订阅，仅用摘要，标注为"未读全文"
+- Tannemaat 2024 (Handbook of Clinical Neurology) 非开放获取，仅用摘要
+- Kaminski 2024 (JCI) 非开放获取，仅用摘要
+- 共 7/11 来源仅读摘要；但 4 篇关键综述已开放全文读取，核心机制有据可查
+
+---
+
+## Git 状态
+
+- 分支：claude/funny-einstein-dvrgsw
+- Commit：待填入
+- Push 状态：待确认

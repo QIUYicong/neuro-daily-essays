@@ -4,6 +4,9 @@
 
 ## 2026年10月（进行中）
 
+*本月截至日期：2026-10-10*
+*本月新增文章：#161–#170；共 10 篇（月度第1–10篇）。10-10 重症肌无力（#170）：AChR-MG 三条分子路径（AChR阻断/受体内吞/补体MAC穿孔）vs MuSK-MG（IgG4 Fab-arm exchange功能单价阻断，不依赖补体）；胸腺 mTEC 异常表达神经肌肉基因（Yasumizu 2022 Nature Comm）；抗体协同激活补体（单抗弱，混合抗体强，PMID:36074148）；精准治疗分叉（eculizumab vs 利妥昔单抗 vs efgartigimod）；新建1页（myasthenia-gravis），修订3页（NMJ/补体/Agrin-MuSK），填补悬空引用 [[myasthenia-gravis]]；图谱342节点1959边。*
+
 *本月截至日期：2026-10-05*
 *本月新增文章：#161–#165；共 5 篇（月度第1–5篇）。10-05 双眼竞争（#165）：感知层级竞争机制（LGN→V1→IT 梯度）；Levelt 四定律；互相抑制-适应-噪声计算模型（Seely 2011）；Gamma 主导期分布（Cao 2021）；CFS 无意识加工；Blake et al. 2014 四条 NCC 方法论质疑；填补悬空引用 binocular-rivalry；新建2页（binocular-rivalry, lateral-geniculate-nucleus），修订4页（V1 rev8, IT rev2, NCC rev3, CHANGELOG）；图谱329节点1901边。*
 

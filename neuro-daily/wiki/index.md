@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-09（**#169** 神经肌肉接头——三细胞架构、Cav2.1→SNARE→量子释放、Agrin-LRP4-MuSK-rapsyn 轴、安全因子 2–5、完成皮层→脊髓→α-MN→NMJ 运动链叙事；新建3页：neuromuscular-junction, agrin-musk-achr-clustering, end-plate-potential-safety-factor；修订1页：alpha-motor-neuron rev2（填补悬空引用）；图谱 341 节点，1953 边）· 主题页总数：**315**
+> 最后更新：2026-10-10（**#170** 重症肌无力——AChR-MG三条路径（阻断/内吞/补体-MAC穿孔）vs MuSK-MG（IgG4 Fab-arm exchange功能单价阻断）；胸腺mTEC异常表达神经肌肉基因；补体在外周NMJ的病理应用与CNS突触剪枝的对比框架；新建1页：myasthenia-gravis；修订3页：neuromuscular-junction/complement-cascade-cns/agrin-musk-achr-clustering；图谱 342 节点，1959 边）· 主题页总数：**316**
 
 ---
 
@@ -362,6 +362,7 @@
 - 🟢 [意识障碍（DoC）](diseases/disorders-of-consciousness.md) — 严重脑损伤后意识受损的临床谱系（VS/UWS、MCS、LIS、CMD）；PCI 为理论中立的意识量化工具；25% 行为无反应 DoC 患者存在隐蔽意识（CMD）；丘脑-皮层广播网络是核心神经基础 **[NEW 2026-10-02 #162]**
 - 🟢 [植物状态 / 无反应觉醒综合征（VS/UWS）](diseases/vegetative-state.md) — 40% 误判率；PCI 将 VS 分为三组（30%无测/49%低/21%高）；高 PCI VS 组六个月恢复率 67% **[NEW 2026-10-02 #162]**
 - 🟢 [最小意识状态（MCS）](diseases/minimally-conscious-state.md) — 不一致但可重复的意识迹象；MCS-/MCS+ 亚分类；PCI 94.7% 阳性；金刚烷胺有中等证据 **[NEW 2026-10-02 #162]**
+- 🟢 [重症肌无力（MG）](diseases/myasthenia-gravis.md) — AChR-MG：IgG1/IgG3→补体（MAC）穿孔+受体内吞，三条路径侵蚀NMJ安全因子；MuSK-MG：IgG4 Fab-arm exchange→功能单价阻断LRP4-MuSK，不依赖补体；胸腺mTEC异常表达神经肌肉基因是AChR-MG的自身免疫发动机；精准治疗分叉点（eculizumab只对AChR-MG有效，利妥昔单抗对MuSK-MG极佳）**[NEW 2026-10-10 #170]**
 
 ---
 

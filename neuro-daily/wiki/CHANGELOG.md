@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-10-10（文章 #170：当免疫系统发动叛乱——重症肌无力如何通过三条分子路径摧毁神经肌肉接头）
+
+### 新建 wiki 页面（1 页）
+
+- `diseases/myasthenia-gravis.md`（重症肌无力）：Rev1 创建；AChR-MG 三条攻击路径（受体阻断 / 抗原调变内吞 / 补体-MAC 穿孔）；MuSK-MG IgG4 Fab-arm exchange 机制（Ser228→无铰链二硫键→功能单价→不激活补体）；NMJ 安全因子侵蚀动力学；亚型对比表（AChR/MuSK/血清阴性）；胸腺作为自身免疫反应堆（mTEC 异常表达神经肌肉基因）；新增未解 Q-mg-01/02/03；状态 established / confidence: high；填补 neuromuscular-junction 页的悬空引用 [[myasthenia-gravis]]。
+
+### 修订 wiki 页面（3 页）
+
+- `neurons/neuromuscular-junction.md` rev1→rev2：新增"疾病关联"小节（MG 三条路径与安全因子侵蚀，AChR/MuSK 亚型对比表）；新增 [[myasthenia-gravis]] 连接；补充 key_sources（PMID:32547535, PMC12110157, PMID:36074148）；修订历史追加；source_articles 新增今日文章。
+
+- `concepts/complement-cascade-cns.md` rev2→rev3：新增"补体在外周 NMJ 的作用"小节，建立 CNS 突触剪枝（发育性，C1q→C3b→微胶质）vs NMJ-MG（病理性，IgG六聚体→C5b-9 MAC穿孔终板）的平行对比框架；补充 related 连接（[[myasthenia-gravis]], [[neuromuscular-junction]]）；补充 key_sources；修订历史追加。
+
+- `concepts/agrin-musk-achr-clustering.md` rev1→rev2：更新 MuSK-MG 疾病关联内容：新增 IgG4 Fab-arm exchange 机制详述（Ser228 vs Cys228）和 ARGX-119 激动性抗体策略；新增 [[myasthenia-gravis]] 连接；补充 key_sources；修订历史追加。
+
+### 矛盾登记 / 裁决
+
+- 无新矛盾登记（AChR-MG 和 MuSK-MG 的机制分歧是领域共识，非矛盾）
+- 新增待解问题：Q-mg-01（血清阴性 MG 机制）、Q-mg-02（AChR 抗体协同激活补体的最小表位组合）、Q-mg-03（IgG4 B 细胞耐受打破机制）
+
+### 新增悬空引用（待填补）
+
+- `wiki/diseases/myasthenia-gravis.md` 中引用 [[lambert-eaton-syndrome]]（尚无独立页面；优先级：高，作为 NMJ 疾病的突触前对照）
+
+---
+
 ## 2026-10-09（文章 #169：命令的最后一公里——神经肌肉接头如何把大脑意志翻译成肌肉收缩）
 
 ### 新建 wiki 页面（3 页）

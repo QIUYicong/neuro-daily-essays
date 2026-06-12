@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-09",
-  "total_articles": 169,
+  "last_updated": "2026-10-10",
+  "total_articles": 170,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11285,6 +11285,71 @@
       "graph_edges_added": 14,
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-12（真实执行日期）；知识库虚拟日期2026-10-09；9个来源中6篇开放全文、3篇摘要仅读；填补alpha-motor-neuron中的neuromuscular-junction悬空引用；完成皮层→脊髓→α-MN→NMJ运动控制链叙事；新增悬空引用：myasthenia-gravis, lambert-eaton-syndrome, nicotinic-achr；图谱+3节点+14边（341节点1953边）"
+    },
+    {
+      "date": "2026-10-10",
+      "real_date": "2026-06-13",
+      "article_number": 170,
+      "title": "当免疫系统发动叛乱：重症肌无力如何通过三条分子路径摧毁神经肌肉接头",
+      "slug": "myasthenia-gravis-nmj-immune-attack",
+      "filename": "2026-10-10-myasthenia-gravis-nmj-immune-attack.md",
+      "article_type": "regular",
+      "core_question": "重症肌无力的三条分子病理路径（受体阻断/交联内吞/补体-MAC穿孔）如何侵蚀NMJ安全因子？AChR-MG（IgG1/IgG3补体依赖）与MuSK-MG（IgG4 Fab-arm exchange功能单价阻断）为何是两种截然不同的疾病？胸腺mTEC异常表达神经肌肉基因如何触发自身免疫？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "11. 疾病作为窗口（重症肌无力：NMJ的免疫攻击）",
+      "topic_tags": [
+        "myasthenia gravis",
+        "AChR antibody",
+        "MuSK antibody",
+        "complement activation",
+        "MAC complex",
+        "IgG4",
+        "Fab-arm exchange",
+        "neuromuscular junction",
+        "thymus",
+        "eculizumab",
+        "FcRn inhibitor"
+      ],
+      "main_sources": [
+        "PMC12110157",
+        "PMID:32547535/PMC7274207",
+        "PMID:36074148/PMC9547806",
+        "PMID:35869073",
+        "PMID:38494283",
+        "PMC11655327/PMID:39703505"
+      ],
+      "unresolved_questions": [
+        "Q-mg-01",
+        "Q-mg-02",
+        "Q-mg-03"
+      ],
+      "next_suggested_topics": [
+        "Lambert-Eaton肌无力综合征（突触前VGCC抗体型，与MG互补对照）",
+        "nicotinic AChR结构（α2βγδ五聚体亚基排列与MIR位点）",
+        "补体系统在外周神经系统的作用（与CNS突触剪枝比较）",
+        "胸腺的中枢耐受机制（阴性选择/Treg/mTEC的AIRE基因）",
+        "肉毒毒素作用机制（突触前阻断，与MG突触后阻断对照）"
+      ],
+      "wiki_pages_created": [
+        "wiki/diseases/myasthenia-gravis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/neuromuscular-junction.md",
+        "wiki/concepts/complement-cascade-cns.md",
+        "wiki/concepts/agrin-musk-achr-clustering.md"
+      ],
+      "graph_nodes_added": [
+        "myasthenia-gravis"
+      ],
+      "graph_edges_added": 6,
+      "mode": "disease_window",
+      "note": "疾病作为窗口：MG是NMJ分子机器的精准免疫反推实验"
     }
   ],
   "layer_coverage_recent": [

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-10-09
-updated: 2026-10-09
-revision_count: 1
+updated: 2026-10-10
+revision_count: 2
 dimensions: [molecular, synaptic, cellular]
 related: [neuromuscular-junction, synaptic-transmission, agrin-musk-achr-clustering, rapsyn, axon-guidance]
 prerequisites: [neuromuscular-junction, synaptic-transmission]
 opens_questions: [Q-nmj-03]
 source_articles: [2026-10-09-neuromuscular-junction-synaptic-machine]
-key_sources: ["PMID:33671084", "PMID:31744142", "PMID:29195055"]
+key_sources: ["PMID:33671084", "PMID:31744142", "PMID:29195055", "PMID:32547535", "PMC11441477"]
 ---
 
 # Agrin-LRP4-MuSK-Rapsyn 轴与 AChR 聚集
@@ -51,7 +51,7 @@ key_sources: ["PMID:33671084", "PMID:31744142", "PMID:29195055"]
 ### 疾病关联
 
 - **先天性肌无力综合征（CMS）**：Agrin、LRP4、MuSK、Dok7、rapsyn 任一编码基因突变均可导致 NMJ 形成或维持缺陷
-- **重症肌无力（MuSK+ MG）**：抗 MuSK 抗体直接干扰信号级联，导致 AChR 聚集破坏，临床表型独特（球部为主，不同于 AChR+ MG）
+- **重症肌无力（MuSK+ MG）**：抗 MuSK IgG4 抗体经 Fab-arm exchange 形成功能单价抗体，靶向 MuSK Ig1 域（LRP4 结合界面），阻断 Agrin-LRP4-MuSK 信号，AChR 聚集缓慢解体；不激活补体，利妥昔单抗效果极佳。激动性抗 MuSK 抗体（ARGX-119）靶向 MuSK Fz 样域，可恢复 MuSK 磷酸化（PMC11441477）。
 
 ## 关键证据
 
@@ -67,6 +67,7 @@ key_sources: ["PMID:33671084", "PMID:31744142", "PMID:29195055"]
 - [[neuromuscular-junction]] — 本机制是 NMJ 突触后专化的分子基础
 - [[synaptic-transmission]] — AChR 聚集是有效突触传递的前提
 - [[axon-guidance]] — 运动轴突到达正确肌肉是 Agrin 沉积的前提
+- [[myasthenia-gravis]] — MuSK-MG 通过 IgG4 抗体劫持本机制的上游信号节点
 
 ## 未解问题
 
@@ -75,7 +76,9 @@ key_sources: ["PMID:33671084", "PMID:31744142", "PMID:29195055"]
 ## 修订历史
 
 - 2026-10-09 · 创建 · 基于《命令的最后一公里》（#169）· 初始置信度：高（部分 Agrin 角色有争议标注）
+- 2026-10-10 · 修订 · 基于《当免疫系统发动叛乱》（#170）· 更新 MuSK-MG 疾病关联内容：新增 IgG4 Fab-arm exchange 机制、ARGX-119 激动性抗体；新增 [[myasthenia-gravis]] 连接；补充 key_sources
 
 ## 来源文章
 
 - [[2026-10-09-neuromuscular-junction-synaptic-machine]]
+- [[2026-10-10-myasthenia-gravis-nmj-immune-attack]]

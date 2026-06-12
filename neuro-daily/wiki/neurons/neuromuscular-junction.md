@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-10-09
-updated: 2026-10-09
-revision_count: 1
+updated: 2026-10-10
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, behavior]
 related: [alpha-motor-neuron, motor-unit, size-principle, synaptic-transmission, SNARE-complex, active-zone, voltage-gated-calcium-channels, agrin-musk-achr-clustering, end-plate-potential-safety-factor, myasthenia-gravis, lambert-eaton-syndrome, spinal-cord-cpg]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels, SNARE-complex]
 opens_questions: [Q-nmj-01, Q-nmj-02, Q-nmj-03]
 source_articles: [2026-10-09-neuromuscular-junction-synaptic-machine]
-key_sources: ["PMID:29195055", "PMID:31744142", "PMID:33671084", "PMID:30823359", "PMID:37270145", "PMID:12624181", "PMID:26430218"]
+key_sources: ["PMID:29195055", "PMID:31744142", "PMID:33671084", "PMID:30823359", "PMID:37270145", "PMID:12624181", "PMID:26430218", "PMID:32547535", "PMC12110157", "PMID:36074148"]
 ---
 
 # 神经肌肉接头 (Neuromuscular Junction, NMJ)
@@ -89,6 +89,17 @@ $$\text{安全因子} = \frac{\text{EPP 幅度（~30-40 mV）}}{\text{触发 AP 
 - [[synaptic-transmission]] — NMJ 是化学突触传递的特化实例
 - [[spinal-cord-cpg]] — CPG → α-MN → NMJ → 肌肉收缩，运动链
 
+## 疾病关联：MG 的三条路径与安全因子侵蚀
+
+重症肌无力（MG）通过三条路径侵蚀 NMJ 安全因子，是研究 NMJ 功能的"反向解码"实验：
+
+| MG 亚型 | 攻击靶点 | 主要机制 | 补体依赖 |
+|---------|---------|---------|---------|
+| AChR-MG (80%) | AChR（MIR 区域） | 阻断 + 内吞 + MAC 穿孔 | 是 |
+| MuSK-MG (5–8%) | MuSK Ig1 域 | IgG4 单价阻断 LRP4-MuSK | 否 |
+
+安全因子（正常 2–5）在 AChR 密度下降时逐渐侵蚀；高频运动导致囊泡释放减少，安全因子暂时低于阈值，解释了 MG 特征性的疲劳性肌无力。详见 [[myasthenia-gravis]]。
+
 ## 未解问题
 
 - Q-nmj-01（高）：PSC 感知突触活动后如何决定促进还是限制传递？下游分子机制？
@@ -98,7 +109,9 @@ $$\text{安全因子} = \frac{\text{EPP 幅度（~30-40 mV）}}{\text{触发 AP 
 ## 修订历史
 
 - 2026-10-09 · 创建 · 基于《命令的最后一公里：神经肌肉接头如何把大脑意志翻译成肌肉收缩》（#169）· 填补 alpha-motor-neuron 页中的悬空引用 · 初始置信度：高
+- 2026-10-10 · 修订 · 基于《当免疫系统发动叛乱》（#170）· 新增"疾病关联"小节：MG 三条路径与安全因子侵蚀；添加 [[myasthenia-gravis]] 连接；补充 key_sources（PMID:32547535, PMC12110157, PMID:36074148）
 
 ## 来源文章
 
 - [[2026-10-09-neuromuscular-junction-synaptic-machine]]
+- [[2026-10-10-myasthenia-gravis-nmj-immune-attack]]
