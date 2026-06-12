@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-10-03（文章 #163：意识的时间之战——前馈扫描 vs 递归点燃，大脑如何在300毫秒内决定"看见"还是"错过"）
+
+### 新建 wiki 页面（1 页）
+
+- `concepts/feedforward-processing.md`（新建）：填补图谱悬空引用。前馈扫描（0-100ms），AMPA 依赖，无意识特征提取；与递归处理和意识涌现的时间关系；来源 PMID:11074267, PMID:22615394（PMC3390882）
+
+### 修订 wiki 页面（3 页）
+
+- `concepts/visual-awareness-negativity.md` rev1→rev2：新增 Förster 2020（PMID:32193077）确立 VAN 地位；Colombari 2024（PMID:39173692）将 VAN 神经发生器定位于 LOC；Colombari & Railo 2024（PMID:39536421）揭示 VAN 多成分结构；Doradziinska & Bola 2024（PMID:38579265）VAN 早期注意依赖；新增 Q-temp-02
+- `concepts/consciousness-ignition.md` rev5→rev6：新增时间竞争框架（RPT ~180ms vs GWT ~270ms）；Motlagh 2024 EEG MVPA 数据；新增 feedforward-processing, recurrent-processing-theory 连接；新增 Q-temp-03
+- `theories/recurrent-processing-theory.md` rev2→rev3：新增 Motlagh 2024（~180ms 意识分歧）、Self 2012（AMPA/NMDA 药理分离）、Foxe 2022（~100-150ms 反馈关键窗口）；Colombari 2024 LOC 发现对"V1 内递归=意识"的挑战；新增 Q-temp-01/02
+
+### 矛盾条目更新（无新矛盾）
+
+- 无新矛盾登记。LOC vs V1 作为 VAN 神经发生器的差异是**证据缺口**（LOC 为 Colombari 2024 单研究发现），不足以构成与 RPT 的"V1 中心意识"的正式矛盾——记入待解问题而非矛盾登记册
+
+### 图谱变化
+
+- 新增节点：1（feedforward-processing）
+- 新增边：8（feedforward-processing 与 recurrent-processing-theory、consciousness-ignition、visual-awareness-negativity、ampa-receptor、nmda-receptor 等的连接）
+- 节点总数：326；边总数：1873
+- 悬空引用：5（aging, anterior-commissure, cognition, dopamine-system, superior-longitudinal-fasciculus）——feedforward-processing 填补了此前 recurrent-processing-theory 引用但无页面的悬空
+
+---
+
 ## 2026-10-02（文章 #162：意识障碍的临床谱系——植物状态、最小意识状态、锁闭综合征与认知运动解离如何成为意识理论的体内检验台）
 
 ### 新建 wiki 页面（4 页）

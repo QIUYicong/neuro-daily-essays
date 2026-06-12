@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-05-30
-updated: 2026-06-27
-revision_count: 5
+updated: 2026-10-03
+revision_count: 6
 dimensions: [whole-brain-network, brain-region, cognition, cellular]
-related: [global-workspace-theory, prefrontal-cortex, working-memory, p3-wave, attentional-blink, gamma-oscillations, beta-oscillations, integrated-information-theory, posterior-cortical-hot-zone, competition-selection-principle, neural-correlates-of-consciousness]
+related: [global-workspace-theory, prefrontal-cortex, working-memory, p3-wave, attentional-blink, gamma-oscillations, beta-oscillations, integrated-information-theory, posterior-cortical-hot-zone, competition-selection-principle, neural-correlates-of-consciousness, feedforward-processing, recurrent-processing-theory, visual-awareness-negativity]
 prerequisites: [action-potential, synaptic-transmission, prefrontal-cortex, global-workspace-theory]
-opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where]
-key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062", "PMID:15482443", "PMID:29567809"]
+opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-temp-03]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where, 2026-10-03-temporal-window-consciousness-recurrent-ignition]
+key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062", "PMID:15482443", "PMID:29567809", "PMID:38848982", "PMID:32193077"]
 ---
 
 # 意识点燃 (Consciousness Ignition)
@@ -109,7 +109,9 @@ key_sources: ["PMID:32135090", "PMID:24709604", "PMID:21521609", "PMID:16158062"
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 精确数字（0/655 offset ignition, onset 0.15s 偏早）；在证据表新增两行（offset ignition 失败 + onset 时序偏差）；新增 Q-cogitate-02 于未解问题
 - 2026-05-31 · 修订 · 基于《注意瞬盲：当意识成为稀缺资源》(#36) · 填补悬空引用：attentional-blink 节点创建；注意瞬盲的 270ms MEG 分叉是点燃机制最干净的有/无意识内部对照证据；新增 attentional-blink 到 related 字段
 - 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增：GNW 回应（PMC12510449）明确指出 offset ignition 从未是 GNWT 核心预测（只在主动注意刺激消失时才预测）；补充 NCC 三分法框架——点燃机制描述的是使能 NCC 的时间动力学，而非内容特异 NCC；新增 neural-correlates-of-consciousness 到 related
+- 2026-10-03 · 修订 · 基于《意识的时间之战》(#163) · 新增时间竞争框架：RPT（~180ms，V1 递归）vs GWT（~270ms，全脑点燃）的精确时间差约 100ms；Motlagh 2024（PMID:38848982）EEG MVPA 数据显示 ~180ms 分歧支持早期意识；Sergent & Dehaene 2004（PMID:15482443）全有全无双峰分布的行为意义；新增 feedforward-processing 为对比参照节点；新增 Q-temp-03 关于区分 RPT 和 GWT 时间窗口的实验设计问题
 
 ## 来源文章
 
 - [[2026-05-30-global-workspace-theory]]
+- [[2026-10-03-temporal-window-consciousness-recurrent-ignition]]

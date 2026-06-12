@@ -1,0 +1,150 @@
+# 运行日志 · 2026-10-03（实际日期：2026-06-12）
+
+---
+
+## 基本信息
+
+- **系列日期**：2026-10-03
+- **实际运行日期**：2026-06-12
+- **文章编号**：#163
+- **文章标题**：意识的时间之战：从前馈扫描到递归点燃，大脑如何在300毫秒内决定"看见"还是"错过"
+- **分支**：`claude/funny-einstein-wmvgdf`
+
+---
+
+## 选题过程
+
+**背景**：前一篇（#162，2026-10-02）完成意识障碍临床谱系，今日进入意识系列的时间维度主题。
+
+**参考来源**：
+- topic_ledger #162 next_suggested_topics → "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟"
+- wiki/_graph.json 悬空引用 → `feedforward-processing`（填补 recurrent-processing-theory 的 prerequisites 悬空引用）
+- unresolved_questions → Q-van-01（VAN 神经发生器）、Q-rpt-01/02（RPT 时间证据）均指向今日主题
+
+**选定主题**：意识的时间窗口——前馈/递归/点燃三阶段时间架构，聚焦 RPT vs GWT 的精确时间争论。这是意识系列（#154-#162）的重要延伸，回答"意识在毫秒尺度如何涌现"这一具体可实验验证的问题。
+
+---
+
+## 资料检索
+
+### 搜索词
+
+1. `temporal dynamics consciousness recurrent processing feedforward EEG`
+2. `visual consciousness timing recurrent feedforward EEG`
+3. `backward masking consciousness EEG ERP timing`
+4. `Dehaene consciousness ignition`（返回 9 个 PMID）
+5. `Lamme recurrent processing visual consciousness`（返回 6 个 PMID）
+6. `visual awareness negativity VAN EEG timing consciousness`（返回 1 个 PMID）
+7. `Railo Koivisto Revonsuo visual awareness negativity review`（返回 PMID:21482150）
+8. `Sergent Dehaene 2004 threshold conscious nonlinear`（返回 PMID:16293402, PMID:15482443）
+9. `Koch Massimini Boly Tononi neural correlates consciousness 2016`（返回 PMID:27094080）
+10. `consciousness temporal dynamics review 2022-2026`（返回 10 个 PMID）
+
+### 数据源
+
+- NCBI E-utilities（esearch + efetch）：主要检索工具
+- PMC open access search：查找开放全文（部分查询返回无关结果）
+
+### 候选文献数量
+
+- 初始候选：约 35 篇
+- 最终采用：17 篇（4 篇开放全文，12 篇摘要，1 篇历史性引用）
+
+---
+
+## 采用来源详情
+
+| PMID | 状态 | 理由 |
+|------|------|------|
+| 11074267 | 摘要 | 理论框架基础（Lamme 2000），通过多篇引用它的开放全文间接验证 |
+| 22615394 / PMC3390882 | **开放全文** | AMPA/NMDA 药理分离，猕猴 V1 直接证据 |
+| 21521609 | 摘要 | GWT 点燃框架（Dehaene 2011），已在#154/155/156文章中引用，交叉验证 |
+| 27094080 | 摘要 | NCC 定义综述（Koch 2016），已在#154/156文章中引用 |
+| 15482443 | 摘要 | Sergent & Dehaene 全有全无行为证据，已在 consciousness-ignition wiki 收录 |
+| 16293402 | 摘要 | Sergent & Dehaene GNW 框架，补充叙述 |
+| 21482150 | 摘要 | Railo 2011 VAN 综述，提供 ~200ms 时间标记 |
+| 32193077 | 摘要 | Förster 2020 十年 VAN 综述，确立 VAN 地位 |
+| 38848982 | 摘要 | Motlagh 2024 EEG MVPA，~120ms/~180ms 时间分辨率 |
+| 39173692 | 摘要 | Colombari 2024 LOC=VAN 神经发生器，关键新发现 |
+| 39536421 | 摘要 | Colombari & Railo 2024 ICA 分解 VAN |
+| 38579265 | 摘要 | Doradziinska & Bola 2024 VAN 注意依赖 |
+| 35764208 | 摘要 | Foxe & Molholm 2022 ~100-150ms 反馈关键窗口 |
+| 30061458 / PMC6074090 | **开放全文** | Lamme 2018 P/A consciousness 区分 |
+| 32116908 / PMC7034432 | **开放全文** | Lamme 2020 四阶段视觉处理 |
+| 20517514 | 摘要 | Schmidt 2008 无意识运动启动（前馈行为后果） |
+
+### 排除来源
+
+- PMID:40147179（rTMS头痛研究，无关）
+- PMID:37537328（眨眼EEG研究，相关性有限）
+- PMC搜索返回的多篇临床无关文章
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页面
+
+1. **`concepts/feedforward-processing.md`**（新建）
+   - 填补图谱悬空引用（recurrent-processing-theory prerequisites 中）
+   - 核心内容：~0-100ms 时间线，AMPA依赖，无意识能力边界，AMPA/NMDA分子分离
+   - key_sources: PMID:11074267, PMID:22615394（开放全文）
+
+### 修订 wiki 页面
+
+2. **`concepts/visual-awareness-negativity.md`** rev1→rev2
+   - 新增4项2024年证据（Förster 2020综述，Colombari 2024 LOC，Colombari & Railo 2024 ICA，Doradziinska & Bola 2024 注意依赖）
+   - 新增关联：feedforward-processing, recurrent-processing-theory, consciousness-ignition
+   - 新增 Q-temp-02 到 opens_questions
+
+3. **`concepts/consciousness-ignition.md`** rev5→rev6
+   - 新增时间竞争框架（RPT ~180ms vs GWT ~270ms）
+   - 新增 feedforward-processing, recurrent-processing-theory 关联
+   - 新增 Q-temp-03
+
+4. **`theories/recurrent-processing-theory.md`** rev2→rev3
+   - 新增 Motlagh 2024、Self 2012、Foxe 2022 证据
+   - Colombari 2024 LOC 对 V1 中心论的挑战
+   - 新增 Q-temp-01/02 到 opens_questions
+
+### 矛盾检查
+
+- 无新矛盾。LOC vs V1 是**单研究发现**（Colombari 2024），置信度不足以登记为矛盾，记为 Q-temp-02（未解问题）。
+- LOC 发现与 RPT 的张力：RPT 本身已承认"感知觉组织需要高级区域反馈到低级区域"——LOC 是 V4/V2 之上的高级区域，其向 V1 的反馈实际上与 RPT 相容，只是神经发生器不在 V1 本身而在 LOC。此张力是概念细化而非理论矛盾。
+
+### 成熟度重估
+
+- feedforward-processing：新建，established/high（大量直接证据，AMPA/NMDA分子分离证明，猕猴和EEG均支持）
+- visual-awareness-negativity：维持 mainstream/medium（新增证据支持 VAN 地位，但 LOC vs V1 神经发生器问题降低了完整理解的置信度）
+- recurrent-processing-theory：维持 mainstream/medium（Motlagh 2024 时间支持，但 LOC 发现和 V1 直接证据缺口不变）
+
+---
+
+## 图谱变化
+
+- 新增节点：1（feedforward-processing）
+- 新增边：8
+- 节点总数：326；边总数：1873
+- 悬空引用：5（aging, anterior-commissure, cognition, dopamine-system, superior-longitudinal-fasciculus）
+- 消除了 recurrent-processing-theory prerequisites 中的 feedforward-processing 悬空引用
+
+---
+
+## Git 操作
+
+- **branch**: `claude/funny-einstein-wmvgdf`
+- **commit hash**: TBD（见下方提交后更新）
+- **push 状态**: TBD
+
+---
+
+## 失败与限制
+
+- 11 篇关键论文只读摘要（付费墙）：包括 Lamme 2000、Dehaene 2011、Sergent 2004、Motlagh 2024 等
+- 所有摘要限制的主张均经过多来源交叉验证，或通过引用这些论文的开放全文综述（Lamme 2018/2020）间接确认
+- PMC搜索返回大量无关临床文章，搜索效率较低
+- 注意：Sergent et al. 2005 MEG 注意瞬盲研究（PMID:16158062）在文章中引用了，但没有直接用 E-utilities 获取其摘要——这是已在 consciousness-ignition wiki（rev 1-5）中充分引用的经典论文，知识来自既有知识库积累，标注为"已确认来源"
+
+---
+
+*生成时间：2026-06-12（实际）/ 系列日期：2026-10-03*

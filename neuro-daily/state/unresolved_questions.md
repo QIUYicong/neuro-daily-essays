@@ -1,6 +1,40 @@
 # 未解问题追踪
 
-*最后更新：2026-10-02*
+*最后更新：2026-10-03*
+
+---
+
+## 2026-10-03 新增（来自"意识的时间之战" #163）
+
+### Q-temp-01（高优先级）：人类 V1 递归处理的直接时间证据缺口
+
+- **关联 wiki**：[[recurrent-processing-theory]]、[[feedforward-processing]]、[[visual-awareness-negativity]]
+- **来源文章**：2026-10-03-temporal-window-consciousness-recurrent-ignition
+- **问题**：RPT 的核心预测（V1 内递归处理在 ~100-300ms 产生意识）在猕猴颅内记录中有强证据（Lamme & Roelfsema 2000），但人类 V1 的直接颅内记录极为稀缺。
+  - 问题 A：人类 V1 是否存在与主观感知精确相关的延迟成分（~60-100ms 后的图像-背景分离信号）？目前仅通过 EEG（空间分辨率有限）和 fMRI（时间分辨率有限）间接测量。
+  - 问题 B：7T fMRI 的皮层层级分辨率（laminar fMRI）能否区分 V1 的前馈响应（Layer 4 输入）和反馈调制（Layer 1/2 和 5/6）？是否可以在神经手术前检查中植入 V1 颅内电极？
+  - 问题 C：Motlagh 2024（PMID:38848982）发现 EEG ~180ms 的意识分歧，但 EEG 的来源混叠使定位不确定——是 V1、LOC 还是两者共同贡献？
+- **当前证据状态**：猕猴直接证据高质量；人类数据依赖 EEG+fMRI 组合推断；Colombari 2024 的 FOI+EEG 数据暗示 LOC 而非 V1 先激活（单研究）
+
+### Q-temp-02（中优先级）：VAN 神经发生器：LOC 优先 vs V1 中心——对 RPT 的含义
+
+- **关联 wiki**：[[visual-awareness-negativity]]、[[recurrent-processing-theory]]、[[posterior-cortical-hot-zone]]
+- **来源文章**：2026-10-03-temporal-window-consciousness-recurrent-ignition
+- **问题**：Colombari et al. 2024（PMID:39173692）用 FOI+EEG Granger 因果性分析发现，意识相关激活在 VAN 窗口内首先起源于外侧枕叶复合区（LOC），而非 V1。这与 RPT 的"V1 内递归产生意识"预测有张力。
+  - 问题 A：LOC 先于 V1 激活是否意味着意识的初始基质在 LOC（V4/hV4 区域），而非 V1？是否需要修订 RPT 的核心解剖主张？
+  - 问题 B：LOC→V1 的信号是反馈信号（高级→低级，支持 RPT 的"反馈" = 意识机制）还是平行的前馈旁路信号（LOC 直接被 V1 外的前馈输入激活）？
+  - 问题 C：这一发现是否能被 MEG（高时间精度+源定位）独立复现？如果 MEG 证实 LOC 先于 V1，则 RPT 的"V1 是意识初始基质"预测需要修订；若 MEG 发现同时激活，则可能是 FOI 方法的系统误差。
+- **当前证据状态**：Colombari 2024 单研究；FOI 方法本身时间分辨率有限；需要 MEG 独立复现
+
+### Q-temp-03（高优先级）：如何在实验上区分 RPT（~180ms）和 GWT（~270ms）的意识时间窗？
+
+- **关联 wiki**：[[recurrent-processing-theory]]、[[consciousness-ignition]]、[[global-workspace-theory]]
+- **来源文章**：2026-10-03-temporal-window-consciousness-recurrent-ignition
+- **问题**：RPT 和 GWT 的核心分歧可以归结为一个具体的时间预测：意识在 ~180ms（RPT 的递归成熟）还是 ~270ms（GWT 的全脑点燃）涌现？
+  - 问题 A：关键实验设计：能否创造一个刺激，使前馈+局部递归完成但全脑点燃尚未发生？具体地：SOA = 180-270ms 的掩蔽，是否产生有意识但"无法被报告"的感知体验？若有意识体验（事后自发报告或无报告任务中 VAN 出现）→ 支持 RPT；若无体验 → 支持 GWT。
+  - 问题 B：方法学挑战：如何区分"意识体验在 180ms 时已存在但太脆弱/短暂"和"意识体验根本没有发生"？反转 ISI 研究（给予足够时间询问 ~300ms 后的感知状态）是否可行？
+  - 问题 C：COGITATE 2025（PMID:40307561）已经否定了全脑点燃（offset ignition 缺失）——但它使用的是阈上刺激，无法区分 180ms vs 270ms 窗口。下一轮实验是否应该聚焦阈限刺激的 180ms-270ms 窗口内的神经活动？
+- **当前证据状态**：理论分歧清晰；关键区分实验尚未设计；Sergent & Dehaene 2004 的全有全无行为数据暗示 GWT 时间框架，但 Motlagh 2024 的 EEG 数据暗示 RPT 时间框架
 
 ---
 

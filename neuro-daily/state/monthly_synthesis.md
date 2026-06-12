@@ -4,8 +4,8 @@
 
 ## 2026年10月（进行中）
 
-*本月截至日期：2026-10-02*
-*本月新增文章：#161–#162；共 2 篇（月度第1–2篇）。10-01 第七期周综合（意识科学专辑）：综合 #151–#160 十篇文章；三叙事线（振荡基础设施→注意网络→胼胝体裂脑→四大意识理论实验战场）；COGITATE 2025 双重挑战（GWT offset ignition 0/655 电极，IIT gamma 同步 3.8% 电极）；A/P consciousness 分离作为方法论转折；VAN 作为 P-consciousness 最佳无报告 NCC 候选；新增未解问题 Q-unified-01/Q-ncc-01/Q-cogitate-01/Q-phi-01。10-02 意识障碍临床谱系（DoC 系列开篇）：VS/UWS/MCS/LIS/CMD/PCI；行为≠意识的临床证明；25% CMD 阳性率（Bodien 2024 NEJM）；PCI* = 0.31 的临床验证（Casarotto 2016）；VS 21% 高 PCI 亚组 67% 六个月恢复率；意识理论在 DoC 患者床边接受体内检验；新建4页（DoC, CMD, VS, MCS），修订2页（PCI, NCC）*
+*本月截至日期：2026-10-03*
+*本月新增文章：#161–#163；共 3 篇（月度第1–3篇）。10-01 第七期周综合（意识科学专辑）：综合 #151–#160 十篇文章；三叙事线（振荡基础设施→注意网络→胼胝体裂脑→四大意识理论实验战场）；COGITATE 2025 双重挑战（GWT offset ignition 0/655 电极，IIT gamma 同步 3.8% 电极）；A/P consciousness 分离作为方法论转折；VAN 作为 P-consciousness 最佳无报告 NCC 候选；新增未解问题 Q-unified-01/Q-ncc-01/Q-cogitate-01/Q-phi-01。10-02 意识障碍临床谱系（DoC 系列开篇）：VS/UWS/MCS/LIS/CMD/PCI；行为≠意识的临床证明；25% CMD 阳性率（Bodien 2024 NEJM）；PCI* = 0.31 的临床验证（Casarotto 2016）；VS 21% 高 PCI 亚组 67% 六个月恢复率；意识理论在 DoC 患者床边接受体内检验；新建4页（DoC, CMD, VS, MCS），修订2页（PCI, NCC）。**10-03 意识的时间之战**（时间维度专辑）：前馈扫描（~0-100ms）→ 递归处理窗口（~100-300ms）→ 全脑点燃（~270ms）的三阶段时间架构；Lamme 2000 的前馈/递归双模式；AMPA（前馈）/NMDA（递归）的药理分子门控（Self & Roelfsema 2012）；Sergent & Dehaene 2004 全有全无行为双峰分布；Motlagh 2024 EEG ~120ms（类别解码）/ ~180ms（意识分歧）精细时间线；Colombari 2024 LOC 作为 VAN 神经发生器（挑战 RPT 的 V1 中心论）；VAN（~200ms，P-consciousness）vs P3b（~300ms+，A-consciousness）的时间分工；新建1页（feedforward-processing），修订3页（VAN, consciousness-ignition, RPT），新增 Q-temp-01/02/03*
 
 ---
 

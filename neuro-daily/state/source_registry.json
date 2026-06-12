@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-03",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11855,9 +11855,94 @@
         "clinical translation gaps",
         "quantification gaps"
       ]
+    },
+    {
+      "pmid": "22615394",
+      "pmcid": "PMC3390882",
+      "authors": "Self MW et al.",
+      "year": 2012,
+      "title": "Different glutamate receptors convey feedforward and recurrent processing in macaque V1",
+      "journal": "PNAS",
+      "open_access": true,
+      "used_in": [
+        "2026-10-03-temporal-window-consciousness-recurrent-ignition"
+      ],
+      "covers": "AMPA=feedforward, NMDA=recurrent"
+    },
+    {
+      "pmid": "32193077",
+      "authors": "Förster J, Koivisto M, Revonsuo A",
+      "year": 2020,
+      "title": "ERP and MEG correlates of visual consciousness: The second decade",
+      "journal": "Conscious Cogn",
+      "open_access": false,
+      "used_in": [
+        "2026-10-03-temporal-window-consciousness-recurrent-ignition"
+      ],
+      "covers": "VAN review, LP=access consciousness"
+    },
+    {
+      "pmid": "38848982",
+      "authors": "Motlagh SC et al.",
+      "year": 2024,
+      "title": "Unveiling the neural dynamics of conscious perception in rapid object recognition",
+      "journal": "NeuroImage",
+      "open_access": false,
+      "used_in": [
+        "2026-10-03-temporal-window-consciousness-recurrent-ignition"
+      ],
+      "covers": "~120ms feedforward, ~180ms recurrent consciousness divergence"
+    },
+    {
+      "pmid": "39173692",
+      "authors": "Colombari E et al.",
+      "year": 2024,
+      "title": "Beyond primary visual cortex: LOC role in early conscious visual processing",
+      "journal": "NeuroImage",
+      "open_access": false,
+      "used_in": [
+        "2026-10-03-temporal-window-consciousness-recurrent-ignition"
+      ],
+      "covers": "LOC as VAN generator, Granger causality"
+    },
+    {
+      "pmid": "39536421",
+      "authors": "Colombari E, Railo H",
+      "year": 2024,
+      "title": "Multiple ICA components in ERP correlates of conscious vision",
+      "journal": "Conscious Cogn",
+      "open_access": false,
+      "used_in": [
+        "2026-10-03-temporal-window-consciousness-recurrent-ignition"
+      ],
+      "covers": "VAN multi-component structure"
+    },
+    {
+      "pmid": "38579265",
+      "authors": "Doradziinska L, Bola M",
+      "year": 2024,
+      "title": "Early ERP correlates of perceptual consciousness and attention",
+      "journal": "J Cogn Neurosci",
+      "open_access": false,
+      "used_in": [
+        "2026-10-03-temporal-window-consciousness-recurrent-ignition"
+      ],
+      "covers": "VAN attention-dependence in early window"
+    },
+    {
+      "pmid": "35764208",
+      "authors": "Foxe JJ, Molholm S",
+      "year": 2022,
+      "title": "Feedback strength associated with resistance to backward masking",
+      "journal": "NeuroImage",
+      "open_access": false,
+      "used_in": [
+        "2026-10-03-temporal-window-consciousness-recurrent-ignition"
+      ],
+      "covers": "feedback ~100-150ms predicts masking resistance"
     }
   ],
-  "total_sources": 711,
+  "total_sources": 718,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "node_count": 325,
   "edge_count": 1865,
   "edge_types": [
@@ -2942,6 +2942,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/minimally-conscious-state.md"
+    },
+    {
+      "id": "feedforward-processing",
+      "title": "前馈处理",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/feedforward-processing.md"
     }
   ],
   "edges": [
@@ -12857,6 +12866,46 @@
     {
       "from": "disorders-of-consciousness",
       "to": "perturbational-complexity-index",
+      "type": "related"
+    },
+    {
+      "from": "feedforward-processing",
+      "to": "recurrent-processing-theory",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "feedforward-processing",
+      "to": "consciousness-ignition",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "feedforward-processing",
+      "to": "visual-awareness-negativity",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "feedforward-processing",
+      "to": "ampa-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "feedforward-processing",
+      "to": "nmda-receptor",
+      "type": "related"
+    },
+    {
+      "from": "recurrent-processing-theory",
+      "to": "feedforward-processing",
+      "type": "related"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "feedforward-processing",
+      "type": "related"
+    },
+    {
+      "from": "visual-awareness-negativity",
+      "to": "feedforward-processing",
       "type": "related"
     }
   ],

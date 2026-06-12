@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-02",
-  "total_articles": 162,
+  "last_updated": "2026-10-03",
+  "total_articles": 163,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10766,6 +10766,74 @@
         "anterior-commissure 专页：从裂脑 + AgCC 研究中补齐悬空引用，胼胝体 vs 前连合功能分工",
         "意识的时间维度：Dehaene 300ms 门控 vs Lamme 递归延迟——两个预测如何区分？（理论侧延续）",
         "attention-consciousness dissociation 专页：注意与意识的双重解离实验证据（无注意有意识 / 有注意无意识）"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "real_date": "2026-06-12",
+      "article_number": 163,
+      "title": "意识的时间之战：从前馈扫描到递归点燃，大脑如何在300毫秒内决定看见还是错过",
+      "slug": "temporal-window-consciousness-recurrent-ignition",
+      "filename": "2026-10-03-temporal-window-consciousness-recurrent-ignition.md",
+      "article_type": "regular",
+      "core_question": "在视觉系统处理感觉信号的时间轴上，意识何时涌现？Lamme 的递归处理理论（~160-300ms，后方视觉皮层）与 Dehaene 的全局工作空间点燃（~270ms，全脑广播）在预测时间上相差约 100ms——哪个时间标志才是意识本身？VAN（~200ms）和 P3b（~300ms+）如何在时间轴上区分现象意识和通达意识？向后掩蔽如何作为时间手术刀揭示意识的临界时间窗口？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "8. 意识与自我（8.4：意识的时间结构——前馈 vs 递归 vs 点燃的时间竞争）",
+      "topic_tags": [
+        "temporal window of consciousness",
+        "feedforward sweep",
+        "feedforward processing",
+        "recurrent processing",
+        "recurrent processing theory",
+        "RPT",
+        "backward masking",
+        "VAN visual awareness negativity",
+        "P3b late positivity",
+        "consciousness ignition",
+        "global workspace theory",
+        "all-or-none bifurcation",
+        "Sergent Dehaene 2004",
+        "Lamme Roelfsema 2000",
+        "AMPA receptor feedforward",
+        "NMDA receptor recurrent",
+        "LOC lateral occipital complex",
+        "EEG ERP consciousness",
+        "MVPA EEG temporal decoding",
+        "Motlagh 2024",
+        "Colombari 2024",
+        "attentional blink",
+        "SOA masking",
+        "phenomenal consciousness",
+        "access consciousness"
+      ],
+      "main_sources": [
+        "PMID:11074267 (Lamme & Roelfsema 2000)",
+        "PMID:22615394 / PMC3390882 (Self & Roelfsema 2012)",
+        "PMID:21521609 (Dehaene & Changeux 2011)",
+        "PMID:15482443 (Sergent & Dehaene 2004)",
+        "PMID:32193077 (Förster et al. 2020)",
+        "PMID:38848982 (Motlagh et al. 2024)",
+        "PMID:39173692 (Colombari et al. 2024)",
+        "PMID:39536421 (Colombari & Railo 2024)",
+        "PMID:38579265 (Doradziinska & Bola 2024)",
+        "PMID:35764208 (Foxe & Molholm 2022)",
+        "PMID:30061458 / PMC6074090 (Lamme 2018)",
+        "PMID:32116908 / PMC7034432 (Lamme 2020)"
+      ],
+      "unresolved_questions": [
+        "Q-temp-01: 人类 V1 直接颅内记录对 RPT ~160-300ms 时间预测的直接验证",
+        "Q-temp-02: VAN 神经发生器 LOC vs V1 的区分——LOC 发现对 RPT 的含义",
+        "Q-temp-03: 设计实验在 RPT（~180ms）和 GWT（~270ms）之间做出裁决的实验设计"
+      ],
+      "next_suggested_topics": [
+        "意识的注意双解离：无注意有意识 vs 有注意无意识——意识是否需要注意（Block vs Dehaene 争论的实验分辨率）",
+        "默认模式网络（DMN）与意识：内侧前额叶、楔前叶在自我意识和心智游走中的作用",
+        "意识的预测处理框架：Karl Friston 的主动推断如何统一感知、意识与行动"
       ]
     }
   ],

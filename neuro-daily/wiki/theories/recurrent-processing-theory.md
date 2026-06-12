@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-09-28
-updated: 2026-09-30
-revision_count: 2
+updated: 2026-10-03
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, cognition]
 related: [global-workspace-theory, integrated-information-theory, neural-correlates-of-consciousness, posterior-cortical-hot-zone, consciousness-ignition, v1-primary-visual-cortex, figure-ground-segregation, predictive-coding, no-report-paradigm, higher-order-theory, visual-awareness-negativity, phenomenal-consciousness]
 prerequisites: [action-potential, synaptic-transmission, v1-primary-visual-cortex, feedforward-processing]
-opens_questions: [Q-rpt-01, Q-rpt-02, Q-rpt-03]
-source_articles: [2026-09-28-recurrent-processing-theory-visual-consciousness]
-key_sources: ["PMID:11074267", "PMID:9501251", "PMID:12419127", "PMID:12716948", "PMID:16997611", "PMID:30061458", "PMID:32116908", "PMID:26585549", "PMID:32922860", "PMID:27094080", "PMID:28394322"]
+opens_questions: [Q-rpt-01, Q-rpt-02, Q-rpt-03, Q-temp-01, Q-temp-02]
+source_articles: [2026-09-28-recurrent-processing-theory-visual-consciousness, 2026-10-03-temporal-window-consciousness-recurrent-ignition]
+key_sources: ["PMID:11074267", "PMID:9501251", "PMID:12419127", "PMID:12716948", "PMID:16997611", "PMID:30061458", "PMID:32116908", "PMID:26585549", "PMID:32922860", "PMID:27094080", "PMID:28394322", "PMID:38848982", "PMID:22615394", "PMID:35764208"]
 ---
 
 # 递归处理理论 (Recurrent Processing Theory, RPT)
@@ -109,7 +109,9 @@ RPT 的关键主张：从 Stage 2 到 Stage 3 的跃迁（递归处理启动）�
 
 - 2026-09-28 · 创建 · 基于《前馈与递归：RPT 如何把意识锚定在视觉皮层的反馈回路中》(#158) · 初始置信度：中（RPT 是 mainstream 理论，有多个独立实验支持；但 Allen et al. 2020 的 TMS 挑战和"缺失要素"问题使简单版本的 RPT 有待修订；status=mainstream 而非 established）
 - 2026-09-30 · 修订 · 基于《高阶意识理论与无报告范式》(#160) · 新增 Siclari 2017（PMID:28394322）证据行：NREM 睡眠无报告条件下，梦境与后方顶枕高频活动相关（87% 准确率），前额叶非必要——强力支持 RPT 的"后方皮层是意识基质"预测；新增 higher-order-theory、visual-awareness-negativity、phenomenal-consciousness 到 related
+- 2026-10-03 · 修订 · 基于《意识的时间之战》(#163) · 新增时间竞争框架：RPT 预测意识在 ~160-300ms（V1 递归成熟），Motlagh 2024（PMID:38848982）EEG MVPA 在 ~180ms 发现意识-分歧，与 RPT 时间预测吻合；新增 Self & Roelfsema 2012（PMID:22615394）AMPA/NMDA 分子证据（AMPA=前馈，NMDA=递归）；Foxe & Molholm 2022（PMID:35764208）证实反馈强度 ~100-150ms 预测掩蔽抵抗力；Colombari 2024（PMID:39173692）发现 VAN 神经发生器是 LOC 而非 V1——对 RPT 的"V1 内递归=意识"提出新挑战（降低但未否定置信度）；新增 Q-temp-01（人类 V1 直接记录缺口）和 Q-temp-02（LOC vs V1 神经发生器）；新增 feedforward-processing 节点（消除悬空引用）
 
 ## 来源文章
 
 - [[2026-09-28-recurrent-processing-theory-visual-consciousness]]
+- [[2026-10-03-temporal-window-consciousness-recurrent-ignition]]

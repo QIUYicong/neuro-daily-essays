@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-09-30
-updated: 2026-09-30
-revision_count: 1
+updated: 2026-10-03
+revision_count: 2
 dimensions: [methods, cellular, brain-region, cognition]
-related: [no-report-paradigm, neural-correlates-of-consciousness, posterior-cortical-hot-zone, access-consciousness, p3-wave]
+related: [no-report-paradigm, neural-correlates-of-consciousness, posterior-cortical-hot-zone, access-consciousness, p3-wave, recurrent-processing-theory, consciousness-ignition, feedforward-processing]
 prerequisites: [neural-correlates-of-consciousness, eeg-erp]
-opens_questions: [Q-van-01]
-source_articles: [2026-09-30-higher-order-theory-no-report-consciousness]
-key_sources: ["PMID:25339922", "PMID:32409620", "PMID:35634201"]
+opens_questions: [Q-van-01, Q-temp-02]
+source_articles: [2026-09-30-higher-order-theory-no-report-consciousness, 2026-10-03-temporal-window-consciousness-recurrent-ignition]
+key_sources: ["PMID:25339922", "PMID:32409620", "PMID:35634201", "PMID:32193077", "PMID:39173692", "PMID:39536421", "PMID:38579265"]
 ---
 
 # 视觉意识负波 (Visual Awareness Negativity, VAN)
@@ -72,6 +72,10 @@ P3b 由以下过程产生（均为意识的"下游"后知觉过程）：
 | VAN 在有意识-无报告条件下仍存在 | 掩蔽 × 任务相关性 2×2 ERP（约 200-240ms，后枕区） | PMID:25339922（全文） | 中 |
 | P3b 在无报告条件下消失（6.55 µV → 0.462 µV） | Cohen 等同类设计，F(1,19)=151.13, p<0.001 | PMID:32409620（全文） | 高 |
 | VAN 可能仍包含注意成分（非纯意识） | 理论批评 + 现有范式的内隐注意问题 | PMID:35634201（全文） | 中（理论，待实验） |
+| VAN 是"最早最可靠的视觉意识 ERP 相关成分"；LP 是下游过程 | 2010-2020 综述 | PMID:32193077（摘要） | 高 |
+| VAN 神经发生器主要在 LOC，向 V1 扩散（非 V1 起源） | FOI+EEG Granger 因果性 | PMID:39173692（摘要） | 中（单研究）|
+| VAN 包含早期后方成分（~150-250ms）和晚期混合成分（~300-500ms），是累积式涌现 | ICA 分解 | PMID:39536421（摘要） | 中 |
+| VAN 早期窗口（140-200ms）依赖注意；晚期 VAN（200ms+）注意无关 | 掩蔽 × 注意相关性 EEG | PMID:38579265（摘要） | 中 |
 
 ## 连接
 
@@ -79,15 +83,21 @@ P3b 由以下过程产生（均为意识的"下游"后知觉过程）：
 - [[neural-correlates-of-consciousness]] — VAN 是当前最佳候选 NCC ERP 成分之一
 - [[posterior-cortical-hot-zone]] — VAN 的后枕分布与 PCHZ 的解剖预测一致
 - [[p3-wave]] — P3b 是 VAN 的主要竞争者，已被无报告范式研究"证伪"为意识 NCC
+- [[recurrent-processing-theory]] — RPT 预测 VAN 反映 V1 递归处理（~100-300ms）
+- [[consciousness-ignition]] — GWT 预测 VAN 是前意识阶段，全脑点燃（~270ms）才是意识
+- [[feedforward-processing]] — 前馈（~0-100ms）之后 VAN 出现，标志递归叠加
 
 ## 未解问题
 
-- **Q-van-01**（高优先级）：VAN 的神经发生器是哪里？是 V1 的递归信号（支持 RPT）、顶枕联合区的注意调制（支持 GWT 的"前意识"阶段），还是某种组合？需要结合高密度 EEG、MEG 和 SEEG（颅内电极）数据联合定位。
+- **Q-van-01**（高优先级）：VAN 的神经发生器是 LOC（Colombari 2024）还是 V1（RPT 预测）？两者的 Granger 因果顺序能否区分"V1 内递归"和"LOC→V1 的反馈"？需要 MEG+EEG 结合的源定位研究。
+- **Q-temp-02**（中优先级）：若 VAN 起源于 LOC 而非 V1，RPT 的"V1 递归=意识"主张需要如何修订？
 
 ## 修订历史
 
 - 2026-09-30 · 创建 · 基于《高阶意识理论与无报告范式》(#160) · 初始置信度：中（VAN 报告独立性是高置信度发现；但它是否是"纯意识 NCC"仍存争议）
+- 2026-10-03 · 修订 · 基于《意识的时间之战》(#163) · 新增三项2024年证据：Förster 2020综述确立 VAN 地位；Colombari 2024（PMID:39173692）将神经发生器定位于 LOC；Colombari & Railo 2024（PMID:39536421）揭示 VAN 的多成分结构；Doradziinska & Bola 2024（PMID:38579265）发现 VAN 早期窗口的注意依赖性；新增 feedforward-processing、recurrent-processing-theory、consciousness-ignition 连接；补充 Q-temp-02
 
 ## 来源文章
 
 - [[2026-09-30-higher-order-theory-no-report-consciousness]]
+- [[2026-10-03-temporal-window-consciousness-recurrent-ignition]]

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-02（**#162** 意识障碍临床谱系——DoC, VS/UWS, MCS, LIS, CMD, PCI 临床检验意识理论；新建4页：disorders-of-consciousness, cognitive-motor-dissociation, vegetative-state, minimally-conscious-state；修订2页：PCI rev3, NCC rev3；图谱 325 节点，1865 边；悬空引用5个待补）· 主题页总数：**304**
+> 最后更新：2026-10-03（**#163** 意识的时间之战——前馈扫描 vs 递归点燃，大脑如何在300毫秒内决定"看见"还是"错过"；新建1页：feedforward-processing（填补悬空引用）；修订3页：visual-awareness-negativity rev2（VAN LOC神经发生器证据、多成分结构），consciousness-ignition rev6（时间竞争框架），recurrent-processing-theory rev3（时间线精细化+AMPA/NMDA药理证据）；图谱 326 节点，1873 边；悬空引用5个待补）· 主题页总数：**305**
 
 ---
 
@@ -158,7 +158,8 @@
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
 - 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络 **[NEW 2026-06-05]**
 - 🟢 [γ振荡（30–80 Hz）](concepts/gamma-oscillations.md) — PV+篮状细胞兴奋-抑制循环产生；工作记忆中以~67ms爆发形式间歇出现；精神分裂症中功率减弱与PV损伤相关 **[NEW 2026-06-05]**
-- 🔵 [意识点燃](concepts/consciousness-ignition.md) — 全有全无的非线性临界翻转；~270-300ms 前额顶叶激活；注意双要求机制；P3b EEG标志（地位存疑）；GWT核心机制节点 **[修订 2026-05-31]**
+- 🟢 [前馈处理](concepts/feedforward-processing.md) — 视觉信息单向快速传播（~0-100ms）；AMPA依赖；无意识特征提取与物体分类；不足以产生主观意识体验（需叠加递归处理）；AMPA/NMDA分子分离（Self 2012）**[NEW 2026-10-03 #163]**
+- 🔵 [意识点燃](concepts/consciousness-ignition.md) — 全有全无的非线性临界翻转；~270-300ms 前额顶叶激活；注意双要求机制；P3b EEG标志（地位存疑）；GWT核心机制节点；RPT时间竞争对比（~180ms vs ~270ms）**[修订 2026-10-03 #163]**
 - 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口 **[NEW 2026-05-31]**
 - 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；八层分层贝叶斯预测机器架构；五月月报整合后修订 **[修订 2026-05-31]**
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
@@ -220,7 +221,7 @@
 - 🔴 [Φ（整合信息度量）](concepts/phi-measure.md) — IIT 核心量；衡量系统最优分割时损失的因果信息量；NP-hard 计算；IIT 声称 Φ = 意识的量；COGITATE 2025 对相关机制预测构成挑战 **[NEW 2026-05-31]**
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据；Siclari 2017 NREM 睡眠后方顶枕热区 87% 梦境预测（最强无报告 NCC 证据）**[修订 rev3 2026-09-30 #160]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
-- 🔵 [视觉意识负波（VAN）](concepts/visual-awareness-negativity.md) — 100-300ms 后枕区负波；有意识时出现、无报告时仍持续（vs P3b 无报告时消失）；Pitts 2014 掩蔽×任务无关 2×2 确立；跨模态版本（PAN）；RPT 递归信号 vs 注意调制神经发生器争议 **[NEW 2026-09-30 #160]**
+- 🔵 [视觉意识负波（VAN）](concepts/visual-awareness-negativity.md) — 100-300ms 后枕区负波；有意识时出现、无报告时仍持续（vs P3b 无报告时消失）；Pitts 2014确立；LOC作为神经发生器（Colombari 2024）；多成分ICA结构（Colombari & Railo 2024）；早期注意依赖（Doradziinska 2024）**[修订 2026-10-03 #163]**
 - 🔵 [认知运动解离（CMD）](concepts/cognitive-motor-dissociation.md) — 无行为输出但 fMRI/EEG 检测到任务相关神经激活；15–25% DoC 患者阳性（Claassen 2019 PMID:31242361；Bodien 2024 NEJM）；CMD 阳性者 12 个月恢复率 44% vs 14%（OR=4.6）；终极无报告范式 **[NEW 2026-10-02 #162]**
 - 🟢 [通达意识（A-consciousness）](concepts/access-consciousness.md) — Block 1995 区分：信息可被认知系统使用/报告即为通达意识；P3b 是 A-consciousness NCC（无报告时消失）；GWT 广播描述的是 A-consciousness；HOT 的高阶表征使 A-consciousness 成为 P-consciousness 的必要条件；溢出争议（P>A？） **[NEW 2026-09-30 #160]**
 - 🔵 [现象意识（P-consciousness）](concepts/phenomenal-consciousness.md) — Block 1995 区分：主观内在体验质/qualia（"红色看起来的样子"）；Chalmers 难问题的所指；Siclari 2017 睡眠无报告梦境与后方皮层高频活动相关；VAN 是比 P3b 更好的 P-consciousness NCC 候选；四大理论对 P 的不同机制预测 **[NEW 2026-09-30 #160]**
