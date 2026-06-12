@@ -79,3 +79,21 @@
 - wiki/index.md：已更新最后更新日期和新页面条目
 
 ## Git 操作
+- 分支：claude/funny-einstein-om4kpn
+- commit hash：82fda6f108f22142fb52c91b46c8a9eb0ee9804f
+- push 状态：SUCCESS
+- push 目标：origin claude/funny-einstein-om4kpn（QIUYicong/neuro-daily-essays）
+- remote 确认：http://local_proxy@127.0.0.1:45531/git/QIUYicong/neuro-daily-essays ✓
+
+## 自检结果
+✓ 真实性：所有 wiki 新主张有来源（PMID/PMCID）
+✓ 来源区分：区分了事实/主流模型/推测/争议
+✓ 未过度推广：未将动物研究或单篇研究写成定论
+✓ 一致性：无新冲突（GWT vs RPT 张力已明确写出而非强行统一）
+✓ 修订页同步：updated/revision_count/修订历史均已更新
+✓ 图谱无悬空边（已添加的所有边两端节点均存在于 nodes 中）
+✓ 可导航：index.md 与 CHANGELOG.md 反映今天变化
+✓ 新页 related/prerequisites 各≥1
+✓ 情景层完整：articles/notes/sources/logs 齐全；未修改旧文件
+
+## 完成状态：SUCCESS
