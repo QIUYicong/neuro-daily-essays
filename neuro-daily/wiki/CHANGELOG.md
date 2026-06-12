@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-10-06（文章 #166：当大脑与脊髓合为一张接线图——BANC 连接组揭示分布式运动控制架构）
+
+### 新创建页面（2 页）
+- `concepts/distributed-motor-control.md`（分布式运动控制）：BANC 2026 揭示的果蝇运动控制组织原则（局部感觉-运动回路优先、DNs/ANs 双向输出、15行为超群集、中央复合体监督角色）；状态 emerging（结构证据强，功能验证和跨物种推广待完成）；来源 PMID:40766407、PMID:39358518；新增未解问题 Q-dmc-01/02/03。
+- `systems/ventral-nerve-cord.md`（腹侧神经索）：果蝇类脊髓结构，~20,000 个神经元（BANC 2026），按体段组织（T1-T3 控腿翅，A1-A10 控内脏生殖）；运动神经元最强输入来自同体段局部感觉神经元；DNs/ANs 在 VNC 内有实质突触输出；去头果蝇仍可协调行走（局部自主性的行为证明）；状态 established。
+
+### 修订页面（1 页）
+- `methods/connectomics.md`（revision 2→3）：新增 BANC 2026（PMID:40766407，PMC12324551，开放全文）在规模阶梯表中（脑+VNC，~160,000神经元，~10^8突触）；新增"BANC：脑与脊髓合为一张图"专节（分布式控制发现的完整描述）；证据表新增2条 BANC 主张；related 新增 distributed-motor-control、ventral-nerve-cord；key_sources 新增 PMID:40766407 和 PMID:41030982；新增未解问题 Q-conn-04（VNC propriospinal 类比）和 Q-conn-05（Connectome-seq 灵敏度提升）。
+
+### 矛盾检查
+- 无新矛盾：BANC 的"分布式控制"发现与既有 motor-cortex 页（灵长类皮层对运动的直接控制）的描述不冲突，前者针对果蝇，后者针对灵长类，层级差异已在文章中明确说明。
+- 现有 contested_claims 中无相关条目被影响。
+
+### 悬空引用状态
+- 本次未引入新悬空引用（所有新边的 from/to 均已有对应节点）
+- 剩余悬空引用（4个）：aging, cognition, dopamine-system, superior-longitudinal-fasciculus（与前次相同）
+
+### 图谱变化
+- 新增节点 2：distributed-motor-control, ventral-nerve-cord
+- 新增边 8：distributed-motor-control↔connectomics, distributed-motor-control→ventral-nerve-cord, distributed-motor-control→motor-cortex, ventral-nerve-cord→connectomics, ventral-nerve-cord→distributed-motor-control, ventral-nerve-cord→cerebellum, connectomics→distributed-motor-control, connectomics→ventral-nerve-cord
+- 总计：331 节点，1909 边
+
+---
+
 ## 2026-10-05（文章 #165：感知的最小战场——双眼竞争如何让意识的门槛暴露在显微镜下）
 
 ### 新创建页面（2 页）

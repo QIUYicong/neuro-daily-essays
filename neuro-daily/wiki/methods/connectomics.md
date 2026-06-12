@@ -6,13 +6,13 @@ type: method
 status: established
 confidence: high
 created: 2026-06-18
-updated: 2026-08-05
-revision_count: 2
+updated: 2026-10-06
+revision_count: 3
 dimensions: [methods, cellular, brain-region, whole-brain-network]
-related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, rich-club, structure-function-relationship, axon-guidance]
+related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, rich-club, structure-function-relationship, axon-guidance, distributed-motor-control, ventral-nerve-cord]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-conn-01, Q-conn-02, Q-conn-03]
-source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-05-connectomics-flywire-structure-function]
+source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-05-connectomics-flywire-structure-function, 2026-10-06-drosophila-banc-connectome-distributed-control]
 key_sources:
   - "PMID:22462104"
   - "PMID:34349261"
@@ -21,6 +21,8 @@ key_sources:
   - "PMID:39358527"
   - "PMID:40205211"
   - "PMID:21304930"
+  - "PMID:40766407"
+  - "PMID:41030982"
 ---
 
 # 连接组学 (Connectomics)
@@ -66,7 +68,8 @@ key_sources:
 |------|-----------|---------|---------|------|
 | *C. elegans* | 302 | ~5,000化学 + ~600缝隙连接 | White 1986, PMID:22462104 | 完整，已多次修订 |
 | 果蝇幼虫（larva） | ~3,000 | ~550,000 | Winding 2023 | 完整 |
-| 果蝇成体（FlyWire） | 139,255 | 54,500,000 | Dorkenwald 2024, PMID:39358518 | 完整 |
+| 果蝇成体（FlyWire，仅脑） | 139,255 | 54,500,000 | Dorkenwald 2024, PMID:39358518 | 完整 |
+| 果蝇成体（BANC，脑+腹侧神经索） | ~160,000（校对确认 114,518） | ~10^8（1亿级别） | Bates et al. 2026, PMID:40766407 | ✅ 2026年新，完整 |
 | 小鼠皮层柱（~1mm³） | ~50,000-100,000 | 数亿 | MICrONS 2024 | 局部完整 |
 | 小鼠全脑 | ~7,000万 | 数百亿 | 未完成 | 进行中 |
 | 人类全脑 | ~860亿 | ~100万亿 | 未完成 | 技术上不可行（当前） |
@@ -106,6 +109,26 @@ Witvliet 2021（PMID:34349261）：线虫发育过程中接线图系统性前馈
 **局限3——个体差异与发育可塑性**：即使同基因型动物，接线图细节因个体而异。哺乳动物的突触权重因学习而持续变化，静态接线图无法捕捉。
 
 **结论原则**：连接组提供了神经计算可能的**结构空间边界**，但要理解在任何给定时刻实际发生了什么计算，需要将接线图与大规模神经活动记录（Neuropixels等）和计算建模三层整合。
+
+### BANC：脑与脊髓合为一张图（2026 新增，关键里程碑）
+
+Bates、Phelps、Kim、Yang 等 70 余位作者（哈佛医学院+普林斯顿大学+牛津大学，Nature 2026，PMID:40766407，PMC12324551 开放全文）完成了成体果蝇**完整中枢神经系统**的接线图——BANC（Brain And Nerve Cord）。
+
+**填补的关键缺口**：FlyWire 2024（脑）和 MANC（腹侧神经索）是分开采集的，下行神经元（DNs）和上行神经元（ANs）在两个数据集中均是残缺的——就像大脑和"脊髓"之间的通路无法追踪。BANC 第一次将两者合并，允许追踪感觉→处理→运动的完整信息流。
+
+**核心新发现——分布式运动控制架构**：
+
+1. **局部优先原则**：执行细胞（运动神经元、内分泌细胞、内脏传出细胞）的**最强**输入来自同一体节的局部感觉细胞。长程（来自大脑的下行）输入系统弱于局部输入。这表明腹侧神经索的局部感觉-运动回路是运动执行的第一层，大脑提供的是监督和调制，而非逐步骤命令。
+
+2. **DNs/ANs 的双向输出**：约 1,300 个下行神经元（DNs，脑→VNC）和 1,900 个上行神经元（ANs，VNC→脑）在两端都有实质性突触输出——颠覆了"命令线/反馈线"的简单二分模型。DNs/ANs 构成了一个双向、跨层级的行为协调中间层。
+
+3. **15个行为中心超群集**：聚类分析识别出15个功能模块（威胁响应、进食、飞行转向、行走、繁殖、内脏控制、头眼定向、梳理等），组织逻辑类似工程分布式控制架构。
+
+4. **中央复合体的监督角色**：这一高度保守的导航结构对执行细胞的直接影响力相当微弱；它设定行为目标（路径整合/导航），而不是直接控制具体动作。
+
+**技术路线**：GridTape 平台，7,010 张切片（4×4×45 nm³），155 名校对员约30工作年，CNN 自动分割+7种神经递质类型预测，数据开放于 codex.flywire.ai。
+
+**跨物种意义**：分布式感觉-运动架构（局部回路→中间协调→高层监督）与脊椎动物脊髓组织的概念类比（脊髓反射弧 + 固有神经元网络 + 皮质脊髓束监督）提示这是跨5亿年进化的保守设计原则。**重要限制**：此假说基于结构类比，尚需功能实验在脊椎动物中直接验证。
 
 ### 全脑网络拓扑特征（FlyWire 2024 新增）
 
@@ -168,6 +191,8 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 | 共同突触前输入驱动更强功能对齐（超出两两相关期望） | MICrONS数据集高阶连接分析 | PMID:40205211 (MICrONS 2025) | 中-高 |
 | 从斑马鱼眼动回路接线图可预测吸引子动力学，钙成像验证 | 接线图约束模型 + 双光子钙成像实验 | PMID:39578573 (Vishwanathan 2024) | 高（单一模型系统）|
 | 接线图同类型个体间存在随机差异（非仅遗传决定） | 同基因型线虫对比，可测量的突触数量和有无差异 | PMID:34349261 (Witvliet 2021) | 高 |
+| 果蝇运动控制是分布式的：执行细胞最强输入来自同体节局部感觉细胞 | BANC 完整接线图线性影响力评分（240亿对） | PMID:40766407（Bates et al. 2026，开放全文） | 高（单只样本；功能权重待验证） |
+| 下行神经元（DNs）和上行神经元（ANs）在脑和 VNC 都有实质突触输出 | BANC 完整接线图突触数统计 | PMID:40766407（Bates et al. 2026，开放全文） | 高（结构层面确认；功能意义待验证） |
 
 ---
 
@@ -181,6 +206,8 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 - [[ltp]] — LTP改变的是突触权重，接线图无法捕捉；但LTP发生在哪些突触上，受接线图拓扑约束
 - [[dopamine-reward-prediction-error]] — 蘑菇体DANs是此概念在昆虫中的结构化实例；接线图揭示了MBON→DAN反馈形成元学习的结构
 - [[predictive-coding]] — 结构约束的预测链（接线图→模型→实验）是连接组学功能研究的方法论核心，与预测编码的计算框架相互补充
+- [[distributed-motor-control]] — BANC 2026 揭示的果蝇运动控制架构：局部感觉-运动回路 + DNs/ANs 中间层 + 高层监督，该架构从接线图中直接读出
+- [[ventral-nerve-cord]] — 果蝇的类脊髓结构，BANC 的新增部分，是分布式运动控制的主要执行层
 
 ---
 
@@ -192,12 +219,17 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 
 - **Q-conn-03**：哺乳类乃至人类全脑连接组在技术上是否可行？小鼠毫米级皮层柱（~50,000神经元）的连接组已经完成（MICrONS等项目）。小鼠全脑和人类全脑连接组面临的数据量（分别约数百PB和1ZB）和分割挑战，是否可以通过新型光学连接组学、膨胀显微镜（expansion microscopy）、或更高速度的ssEM平台克服？当前技术路线的理论上限在哪里？
 
+- **Q-conn-04**（中优先级，2026-10-06 新增）：BANC 揭示的分布式运动控制原则在脊椎动物中是否有类似的结构基础？人类脊髓固有神经元网络（propriospinal neurons）是否扮演类似 DNs/ANs 的中间协调角色？这一结构类比是否可以通过小鼠脊髓连接组学（尚未完成）验证？
+
+- **Q-conn-05**（低优先级，2026-10-06 新增）：Connectome-seq 的灵敏度（当前约 0.0001%）能否提升到实用水平（>1%），从而实现长程、大规模哺乳动物连接图谱的高通量采集？RNA 条形码法与 EM 体积法的最优组合策略是什么？
+
 ---
 
 ## 修订历史
 
 - 2026-06-18 · 创建 · 基于《接线图之上：当我们拥有了完整神经地图，理解大脑的征途才刚刚开始》一文 · methods层第二个页面（继optogenetics.md后）· 初始置信度：高（established）
 - 2026-08-05 · 修订（rev2）· 基于《解剖即是命运？（#104）》· 新增：FlyWire 2024 全脑网络拓扑统计（小世界SΔ=141、富有节点、广播者/整合者、反馈连接比例）；新增 MICrONS 2025 功能-结构协注册关键发现（结构预测功能的直接实验验证）；更新 related、key_sources、source_articles
+- 2026-10-06 · 修订（rev3）· 基于《当大脑与脊髓合为一张接线图》(#166) · 新增：BANC 2026（PMC12324551）核心发现——分布式运动控制（局部感觉-运动回路优先、DNs/ANs 双向输出、15行为超群集、中央复合体监督角色）；规模阶梯表新增 BANC 行；证据表新增两条 PMID:40766407 主张；related 新增 distributed-motor-control、ventral-nerve-cord；key_sources 新增 PMID:40766407 和 PMID:41030982；新增未解问题 Q-conn-04（VNC/propriospinal 结构类比）和 Q-conn-05（Connectome-seq 灵敏度提升）
 
 ---
 
@@ -205,3 +237,4 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 
 - [[2026-06-18-connectomics-wiring-diagram]]
 - [[2026-08-05-connectomics-flywire-structure-function]]
+- [[2026-10-06-drosophila-banc-connectome-distributed-control]]

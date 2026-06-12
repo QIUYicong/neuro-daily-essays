@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-06",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -12167,9 +12167,65 @@
         "Levelt propositions",
         "computational model"
       ]
+    },
+    {
+      "id": "PMID:40766407",
+      "title": "Distributed control circuits across a brain-and-cord connectome",
+      "authors": "Bates AS et al.",
+      "journal": "Nature",
+      "year": 2026,
+      "pmc": "PMC12324551",
+      "open_access": true,
+      "first_used": "2026-10-06",
+      "articles_used_in": [
+        "2026-10-06-drosophila-banc-connectome-distributed-control"
+      ],
+      "covers": [
+        "BANC",
+        "connectomics",
+        "distributed motor control",
+        "VNC",
+        "descending neurons"
+      ]
+    },
+    {
+      "id": "PMID:41030982",
+      "title": "Connectome-seq: high-throughput mapping of neuronal connectivity at single-synapse resolution via barcode sequencing",
+      "authors": "Chen D, Isakova A, Wan ZJ, Wagner MJ, Wu Y, Zhao BS",
+      "journal": "Nature Methods",
+      "year": 2026,
+      "pmc": "PMC12478398",
+      "open_access": true,
+      "first_used": "2026-10-06",
+      "articles_used_in": [
+        "2026-10-06-drosophila-banc-connectome-distributed-control"
+      ],
+      "covers": [
+        "connectomics methods",
+        "RNA barcoding",
+        "pontocerebellar circuit"
+      ]
+    },
+    {
+      "id": "DOI:10.1126/science.add9330",
+      "title": "The connectome of an insect brain",
+      "authors": "Winding M, Pedigo BD, Barnes CL, et al.",
+      "journal": "Science",
+      "year": 2023,
+      "pmc": null,
+      "open_access": false,
+      "first_used": "2026-10-06",
+      "articles_used_in": [
+        "2026-10-06-drosophila-banc-connectome-distributed-control"
+      ],
+      "covers": [
+        "larval Drosophila connectome",
+        "insect brain",
+        "cell types"
+      ]
     }
   ],
-  "total_sources": 718,
+  "total_sources": 733,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

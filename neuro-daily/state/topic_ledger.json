@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-05",
-  "total_articles": 165,
+  "last_updated": "2026-10-06",
+  "total_articles": 166,
   "entries": [
     {
       "date": "2026-08-09",
@@ -10990,6 +10990,68 @@
           "binocular-rivalry"
         ]
       }
+    },
+    {
+      "date": "2026-10-06",
+      "real_date": "2026-06-12",
+      "article_number": 166,
+      "title": "当大脑与脊髓合为一张接线图：BANC 连接组揭示分布式运动控制架构",
+      "slug": "drosophila-banc-connectome-distributed-control",
+      "filename": "2026-10-06-drosophila-banc-connectome-distributed-control.md",
+      "article_type": "regular",
+      "core_question": "当成体果蝇完整中枢神经系统（大脑+腹侧神经索）的接线图第一次被完整绘制出来，运动控制的组织原则是什么？执行细胞（运动神经元）的最强输入来自大脑的下行命令，还是来自局部感觉神经元？下行/上行神经元是单向通道还是双向协调节点？",
+      "layer": [
+        "methods",
+        "cellular",
+        "microcircuit",
+        "whole-brain-network",
+        "behavior"
+      ],
+      "curriculum_track": "9. Connectomics（BANC 果蝇脑+VNC 连接组，首次完整中枢神经系统接线图，方法层+结构层）",
+      "topic_tags": [
+        "connectomics",
+        "BANC",
+        "Brain And Nerve Cord",
+        "Drosophila",
+        "ventral nerve cord",
+        "distributed motor control",
+        "descending neurons",
+        "ascending neurons",
+        "central complex",
+        "motor neurons",
+        "sensorimotor circuits",
+        "local feedback loops",
+        "behavior modules",
+        "FlyWire",
+        "Connectome-seq",
+        "RNA barcoding",
+        "GridTape",
+        "serial section electron microscopy",
+        "AI segmentation"
+      ],
+      "main_sources": [
+        "PMID:40766407 (Bates et al. 2026, Nature, PMC12324551 开放全文)",
+        "PMID:39358518 (Dorkenwald et al. 2024, Nature, 摘要)",
+        "DOI:10.1126/science.add9330 (Winding et al. 2023, Science, 摘要)",
+        "PMID:22462104 (White et al. 1986, 摘要)",
+        "PMID:34349261 (Witvliet et al. 2021, PMC8408585 开放全文)",
+        "PMID:41030982 (Chen et al. 2026, Nature Methods, PMC12478398 开放全文)",
+        "NIH BRAIN Initiative (https://braininitiative.nih.gov/)"
+      ],
+      "unresolved_questions": [
+        "Q-dmc-01: BANC 分布式控制原则在脊椎动物中是否有接线图证据支持？",
+        "Q-dmc-02: 脊髓损伤后局部回路能否自主重组以支持功能恢复？",
+        "Q-dmc-03: BANC 影响力评分（近似值）能否被光遗传学功能实验验证？",
+        "Q-conn-04: VNC propriospinal 神经元类比——脊椎动物脊髓连接组学何时可行？",
+        "Q-conn-05: Connectome-seq 灵敏度能否提升到 >1% 实用水平？"
+      ],
+      "next_suggested_topics": [
+        "inattentional-blindness（悬空引用，高优先级）",
+        "cognition（悬空引用 slug，需建页或消除）",
+        "中枢模式发生器（CPG）——与分布式运动控制的回路基础",
+        "蝗虫/斑马鱼运动回路——跨物种比较",
+        "月度合成第二篇（若本月文章已达30篇需做月度大图景）"
+      ]
     }
   ],
   "layer_coverage_recent": [

@@ -1195,3 +1195,13 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 重大争议：Cohen et al. 2012（PMID:22795561）提出严肃反驳：**注意是意识的必要条件**——所有"无注意有意识"的实验在方法论上都无法完全排除注意残余。这是当前未解问题 Q-atcon-01 的根源。VAN 是否混合了内隐注意成分（Q-atcon-02）和溢出 vs 稀疏争论（Q-atcon-03）同样悬而未决。
 
 **新建** wiki/concepts/attention-consciousness-dissociation（Rev1，mainstream/medium）。**修订**：visual-awareness-negativity rev2（补充与注意-意识解离框架的连接）、access-consciousness rev2（补充 A vs P 区分与解离的关系，新增 PMID:22078929）。**图谱**：327 节点，1883 条边（+1节点，+10边）。**来源**：9篇（4篇开放全文，5篇摘要）。**层级**：cognition（意识专辑继续；近期层级：cognition/disease/brain-region/whole-brain-network，连续四天 cognition 层，明日应转向分子/细胞层或方法层）。**新增未解**：Q-atcon-01（高，证明注意为零的范式）、Q-atcon-02（中，VAN 注意成分比例）、Q-atcon-03（中，溢出 vs 稀疏）。
+
+**#166（2026-10-06）**：当大脑与脊髓合为一张接线图——BANC 连接组揭示分布式运动控制架构
+
+今日文章标志着知识库从"意识科学"系列（#151-#165，约6周）向"连接组学与结构神经科学"系列的过渡。核心贡献是介绍并深度分析2026年6月8日发表于《自然》的 BANC（Brain And Nerve Cord）连接组论文（Bates et al. 2026，PMID:40766407，PMC12324551，开放全文），这是迄今最完整的有复杂行为能力的成体动物完整中枢神经系统接线图（~160,000神经元，~10^8突触）。
+
+核心叙事：**BANC 用约240亿对神经元影响力评分系统性证明，果蝇的运动控制不是"大脑中央指挥、脊髓/VNC被动执行"的层级模型，而是一个三层分布式架构——局部感觉-运动回路（VNC内同体段优先连接）是第一执行层，下行/上行神经元（DNs/ANs）在两端双向输出构成协调中间层，高级脑区（中央复合体）提供导航监督而非直接执行命令**。这与工程系统中"分布式控制架构"的设计原则高度类似，并为理解脊椎动物脊髓自主功能提供了跨物种结构类比（但跨物种推论尚待验证）。
+
+同期方法学背景：Connectome-seq（Chen et al. 2026，PMID:41030982，Nature Methods）提供了互补的 RNA 条形码高通量方法，在小鼠桥-小脑回路中以 0.0001% 的灵敏度（主要局限）成功映射1,000+神经元的连接，并发现了成体谷氨酸-普肯野细胞投射新证据。
+
+**新建** wiki/concepts/distributed-motor-control（emerging/medium，果蝇结构证据强，跨物种尚待验证）、wiki/systems/ventral-nerve-cord（established/high，BANC 首次完整接线图）。**修订**：connectomics rev2→rev3（新增 BANC 完整专节，规模阶梯表新行，证据表新增2条）。**图谱**：329→331节点，1901→1909条边（+2节点，+8边）。**来源**：7篇（4篇开放全文，3篇摘要）。**层级**：methods + cellular + whole-brain-network（打破连续多天 cognition 层，转向方法/结构层，符合层级平衡原则）。**新增未解**：Q-dmc-01（高，脊椎动物局部控制接线图证据）、Q-dmc-02（中，脊髓损伤后局部重组）、Q-dmc-03（中，功能验证 BANC 影响力评分）、Q-conn-04（中，脊髓连接组学路线图）、Q-conn-05（低，Connectome-seq 灵敏度提升）。

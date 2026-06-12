@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-05（**#165** 双眼竞争——感知层级竞争机制（LGN→V1→IT梯度）、Levelt 四定律、互相抑制-适应-噪声模型、CFS；新建2页：binocular-rivalry, lateral-geniculate-nucleus；修订4页：V1 rev8, IT rev2, NCC rev3, CHANGELOG；填补悬空引用 binocular-rivalry ✅；图谱 329 节点，1901 边）· 主题页总数：**307**
+> 最后更新：2026-10-06（**#166** BANC 连接组——分布式运动控制、局部感觉-运动优先、DNs/ANs 双向输出、15行为超群集、中央复合体监督角色；新建2页：distributed-motor-control, ventral-nerve-cord；修订1页：connectomics rev3（BANC 2026 新增）；图谱 331 节点，1909 边）· 主题页总数：**309**
 
 ---
 
@@ -222,6 +222,7 @@
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [视觉意识负波（VAN）](concepts/visual-awareness-negativity.md) — 100-300ms 后枕区负波；有意识时出现、无报告时仍持续（vs P3b 无报告时消失）；Pitts 2014 掩蔽×任务无关 2×2 确立；跨模态版本（PAN）；RPT 递归信号 vs 注意调制神经发生器争议 **[NEW 2026-09-30 #160 · 修订 2026-10-04 #164]**
 - 🟢 [双眼竞争](concepts/binocular-rivalry.md) — 物理刺激固定而感知周期性交替的意识分离器；层级竞争机制（LGN M/P 层 → V1 20% 电生理 vs 55% fMRI → IT 几乎全部神经元追踪感知）；Levelt 四定律；互相抑制-适应-噪声模型；Gamma 分布主导期；CFS 无意识加工；Blake et al. 2014 的四条 NCC 方法论质疑 **[NEW 2026-10-05 #165]**
+- 🟡 [分布式运动控制](concepts/distributed-motor-control.md) — 运动指令不依赖中央节点，分散于三层：（1）局部感觉-运动回路（最强权重，延迟最小）；（2）DNs/ANs 中间协调层（双向输出，15行为超群集）；（3）高级脑区监督层（设定目标，直接执行权弱）；BANC 2026 提供首个完整接线图证据；跨物种类比尚待验证 **[NEW 2026-10-06 #166]**
 - 🔵 [注意-意识双重解离](concepts/attention-consciousness-dissociation.md) — 注意（分析器）≠ 意识（综合器）；有注意无意识（CFS/双眼竞争/注意瞬脱/盲视）；无注意有意识（图标记忆溢出/摘要统计/TMS磷光）；γ振荡双解离（54-64Hz=意识，76-90Hz=注意，Wyart 2008）；VAN/P3b时间解离；Block溢出假说 vs Cohen必要条件；状态：mainstream，置信度：中 **[NEW 2026-10-04 #164]**
 - 🔵 [认知运动解离（CMD）](concepts/cognitive-motor-dissociation.md) — 无行为输出但 fMRI/EEG 检测到任务相关神经激活；15–25% DoC 患者阳性（Claassen 2019 PMID:31242361；Bodien 2024 NEJM）；CMD 阳性者 12 个月恢复率 44% vs 14%（OR=4.6）；终极无报告范式 **[NEW 2026-10-02 #162]**
 - 🟢 [通达意识（A-consciousness）](concepts/access-consciousness.md) — Block 1995 区分：信息可被认知系统使用/报告即为通达意识；P3b 是 A-consciousness NCC（无报告时消失）；GWT 广播描述的是 A-consciousness；HOT 的高阶表征使 A-consciousness 成为 P-consciousness 的必要条件；溢出争议（P>A？） **[NEW 2026-09-30 #160]**
@@ -289,6 +290,7 @@
 - 🔵 [额叶认知控制层级](concepts/frontal-hierarchy.md) — 前后轴层级：BA46（情境级）→IFS（维度级）→PrePMd（特征级）→M1（反应级）；Badre 2009 病变双解离证据；离散层级 vs 连续梯度争议 **[NEW 2026-08-30 #130]**
 - 🟢 [眶额叶皮层（OFC）](systems/orbitofrontal-cortex.md) — 大脑"估价系统"；三类商品价值神经元（Padoa-Schioppa 2006）；Rangel 2008 三系统框架中目标导向系统的价值输入源；OFC→NAc 投射为 actor-critic 批评家提供 V(s)；Hattori 2023 CaMKII 元学习扩展；**lOFC⇄BLA 四向协作回路（Wassum 2022）**；vmPFC/dlPFC 自我控制回路（Hare 2009）（修订rev2 2026-07-30 #98）**[NEW 2026-07-29 #97]**
 - 🟢 [外侧膝状核（LGN）](systems/lateral-geniculate-nucleus.md) — 丘脑视觉子核；6层眼特异性分层（灵长类）；大细胞（M/运动）+ 小细胞（P/颜色形状）通路分流；皮层-膝状体反馈数量超过前馈；双眼竞争中 M/P 层均参与感知相关活动（Yildirim & Schneider 2023） **[NEW 2026-10-05 #165]**
+- 🟢 [腹侧神经索（VNC）](systems/ventral-nerve-cord.md) — 果蝇类脊髓结构，约20,000个神经元（BANC 2026）；按体段组织（T1-T3胸节控腿翅/A1-A10腹节控内脏生殖）；运动神经元最强输入来自同体段局部感觉神经元（局部优先）；去头果蝇仍可协调行走（局部自主性的行为证明）；BANC 2026 首次建立完整接线图 **[NEW 2026-10-06 #166]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）；双眼竞争中 V1 的 fMRI 调制 vs 电生理悖论：注意门控解释（修订8次）
 - 🟢 [V4 视觉区](systems/v4-visual-area.md) — 腹侧流中间节点；在物体中心坐标系对边界形状（曲率×角度）进行选择性调谐；区分真实 vs. 遮挡轮廓；平均响应潜伏期 76.6 ms；多维联合调谐（形状×颜色×纹理×深度）；位置不变性的起始点 **[NEW 2026-08-16 #115]**
 - 🟢 [颞下皮层（IT）](systems/inferior-temporal-cortex.md) — 腹侧流最高级视觉区；四阶段偏心率框架（Conway 2018）；选择性与不变性同时增加但稀疏度守恒（~10%，Rust & DiCarlo 2012）；面孔块层级（ML/MF→AM 视角特异→不变）；分布式编码与局部专门化并存 **[NEW 2026-08-16 #115]**
@@ -318,7 +320,7 @@
 
 - 🟢 [光遗传学](methods/optogenetics.md) — ChR2（蓝光激活）+ NpHR/Arch（黄光沉默）+ Cre-lox/c-fos-tTA 遗传特异性递送，提供毫秒精度因果回路解析；印迹细胞/假记忆/效价翻转实验的核心工具 **[NEW 2026-06-09]**
 - 🟢 [扰动复杂性指数（PCI）](methods/perturbational-complexity-index.md) — IIT 的临床代理工具；TMS 扰动 + EEG 记录 + Lempel-Ziv 复杂度算法；区分清醒/NREM/麻醉/植物状态/最小意识状态；Casali 2013 奠基，多中心验证 **[NEW 2026-05-31]**
-- 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元，White 1986）→ 果蝇（139,255神经元，FlyWire 2024）；揭示网络拓扑（小世界、富人俱乐部、前馈回路）；结构约束功能但不充分描述动力学（结构-功能鸿沟）**[NEW 2026-06-18]**
+- 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元，White 1986）→ 果蝇幼虫（3,016，Winding 2023）→ 成体果蝇脑（139,255，FlyWire 2024）→ **BANC 脑+VNC（~160,000，2026）**；揭示分布式运动控制、网络拓扑（小世界SΔ=141、富人俱乐部）；结构约束功能但不充分描述动力学（结构-功能鸿沟）**[rev3 2026-10-06]**
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**
 - 🔵 [无报告范式](methods/no-report-paradigm.md) — P3b 在无报告条件下完全消失（Cohen 2020，F=151.13，P3b 6.55→0.462 µV）；VAN 持续（候选真实意识 NCC）；Siclari 2017 睡眠无报告最强证据（87% 后方热区预测）；Duman 2022：范式本身存在过度/不足包含问题 **[NEW 2026-09-30 #160]**
 

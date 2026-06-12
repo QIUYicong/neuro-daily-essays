@@ -1,0 +1,153 @@
+# 运行日志 2026-10-06
+
+**逻辑日期**：2026-10-06（系统日期：2026-06-12）
+**文章编号**：#166（十月第6篇）
+**运行耗时**：本次会话
+
+---
+
+## 步骤执行摘要
+
+### 0. 同步状态
+- 分支切换：claude/funny-einstein-3tukn9 → main（按 ROUTINE.md 单分支策略）
+- git fetch + git checkout main + git pull origin main：成功，fast-forward 50 commits
+- 工作目录干净，main HEAD 已是最新
+- ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md、neuro-daily/wiki/ 均存在 ✅
+
+### A. 读取状态
+- topic_ledger.json：last_updated=2026-10-05，total_articles=165，最后文章 #165 双眼竞争
+- unresolved_questions.md：最新问题 Q-br-01 至 Q-br-04（双眼竞争），Q-atcon-01 至 Q-atcon-03（注意-意识）
+- wiki/_graph.json：329 节点，1901 条边
+- 悬空引用：aging, cognition, dopamine-system, superior-longitudinal-fasciculus
+- contested_claims.json：16 个 open 矛盾，无紧急裁决需求
+
+### B. 选题
+- 优先级评估：
+  - 突破追踪：✅ **BANC 连接组（Nature，2026年6月8日，4天前）**——成体果蝇完整脑+VNC 接线图，发现分布式运动控制架构。高度符合"过去7天重大新发现"标准。
+  - 裁决矛盾：C-2026-05-31-01（IIT）已有大量证据更新，但 IIT wiki 页已非常完整，不需再写专文
+  - 填补悬空引用：current dangling（aging/cognition/dopamine-system/SLF）重要性低于 BANC 突破
+  - 课程脊柱：BANC 正好对应课程步骤 9（Connectomics）
+- 选定：**BANC 连接组 + 分布式运动控制**
+- 核心问题：运动指令从哪里发出？局部感觉-运动回路 vs 大脑中央指挥；DNs/ANs 的真实角色；中央复合体的监督而非执行定位
+- 层级：methods / cellular / microcircuit / whole-brain-network（连续多天 cognition 层后正确转向）
+
+### C. 检索与写作
+
+**主要检索查询**：
+1. "neuroscience breakthrough 2026 June Nature Science Cell brain"
+2. "Connectome-seq RNA barcodes neuron connectivity Nature Methods 2026"
+3. "fruit fly connectome adult central nervous system 2026 complete neural connections"
+4. "FlyWire BANC brain nerve cord connectome Drosophila 2026 Nature distributed motor control circuits"
+5. "Drosophila larval connectome Winding 2023 Science PMID open access"
+6. "FlyWire adult Drosophila brain connectome Dorkenwald 2024 Nature PMID"
+
+**主要来源（共7个）**：
+- PMID:40766407（Bates et al. 2026, Nature, PMC12324551）— 开放全文 ✅（主要来源，通过 WebFetch 读取 PMC 全文两次）
+- PMID:39358518（Dorkenwald et al. 2024, Nature）— 摘要
+- DOI:10.1126/science.add9330（Winding et al. 2023, Science）— 摘要
+- PMID:22462104（White et al. 1986）— 摘要
+- PMID:34349261（Witvliet et al. 2021, PMC8408585）— 开放全文 ✅（已知）
+- PMID:41030982（Chen et al. 2026, Nature Methods, PMC12478398）— 开放全文 ✅
+- NIH BRAIN Initiative（官方机构）— 官方 ✅
+
+**排除来源**：
+- Sci-Hub 或任何绕过 paywall 的来源：未使用 ✅
+- bioRxiv 预印本：Connectome-seq 曾有预印本版本，使用的是已发表 Nature Methods 版
+
+**来源统计**：7个来源，4个开放全文（≥2 ✅），含 NIH 官方（≥1 ✅）
+
+**文章长度**：约4,800字（满足3,000-6,000字 ✅）
+**文章路径**：neuro-daily/articles/2026-10-06-drosophila-banc-connectome-distributed-control.md
+**阅读笔记**：neuro-daily/notes/2026-10-06-reading-notes.md
+**来源文件**：neuro-daily/sources/2026-10-06-sources.json
+
+### D. Wiki 固结
+
+**新建页面（2 页）**：
+- `wiki/concepts/distributed-motor-control.md`：分布式运动控制概念主页；三层架构（局部→中间协调→高层监督）；BANC 结构证据；局限：单只样本、功能验证待完成、跨物种推论仍为假说；状态 emerging，置信度 medium；来源 PMID:40766407；未解问题 Q-dmc-01/02/03
+- `wiki/systems/ventral-nerve-cord.md`：果蝇腹侧神经索结构主页；约2万神经元，体段特异性组织（T1-T3/A1-A10）；局部感觉-运动回路优先；DNs/ANs 双向输出；状态 established，置信度 high
+
+**修订页面（1 页）**：
+- `methods/connectomics.md`（rev 2→3）：规模阶梯表新增 BANC；新增"BANC：脑与脊髓合为一张图"完整专节；证据表新增2条 PMID:40766407 主张；related 新增2个新页；key_sources 新增2个；未解问题新增 Q-conn-04/Q-conn-05；修订历史追加
+
+**矛盾检查**：
+- BANC"分布式控制"发现与已有 motor-cortex 页（灵长类皮层对运动的直接控制）不冲突——物种差异已明确说明，且分布式控制框架并不否定皮层控制，只是重新定位其角色（监督而非直接执行）
+- 未引入新矛盾；无需登记 contested_claims
+
+**成熟度评估**：
+- distributed-motor-control: emerging（接线图证据强，功能/跨物种待验证）
+- ventral-nerve-cord: established（结构知识充分，BANC 提供第一个完整连接图谱）
+- connectomics: 维持 established（rev3 扩展了内容深度）
+
+### E. 图谱与导航更新
+- `wiki/_graph.json`：新增 2 节点（distributed-motor-control, ventral-nerve-cord）、8 条边；总计 331 节点，1909 条边；JSON 验证通过（无悬空引用引入）✅
+- `wiki/index.md`：新增 distributed-motor-control（concepts）和 ventral-nerve-cord（systems）条目；更新头部注释（309页）；connectomics 条目更新
+- `wiki/CHANGELOG.md`：新增 2026-10-06 完整条目
+
+### F. 治理层更新
+- `state/topic_ledger.json`：新增 #166 条目，total_articles → 166，last_updated → 2026-10-06 ✅
+- `state/unresolved_questions.md`：新增 Q-dmc-01 至 Q-dmc-03 及 Q-conn-04/05 ✅
+- `state/source_registry.json`：新增 3 条新来源记录，total_sources → 733 ✅
+- `state/monthly_synthesis.md`：追加 #166 十月摘要 ✅
+
+### G. 自检结果
+
+**真实性** ✅
+- 所有 wiki 新主张均有 PMID 或 DOI 来源
+- 区分了 established（VNC 解剖结构）/ emerging（跨物种推论）/ 假说（脊椎动物类比）
+- 明确标注了哪些来源只读摘要（3/7）
+- BANC 关键数字（114,518 已校对神经元，~160,000总计，约1亿突触，~1,300 DNs，~1,900 ANs，15个超群集）均来自 PMC 全文
+- 无编造 PMID、DOI、作者或结论
+
+**一致性** ✅
+- 分布式运动控制（果蝇）与已有 motor-cortex（灵长类直接控制）页面不冲突——物种层面区分清楚
+- connectomics rev3 的修订历史已同步
+- _graph.json 无悬空边（所有新边 from/to 均有对应节点）
+
+**可导航** ✅
+- index.md 和 CHANGELOG.md 均反映今天变化
+- 新页的 related/prerequisites 均已填写（distributed-motor-control: related 5个，prerequisites 3个；ventral-nerve-cord: related 4个，prerequisites 3个）
+
+**情景层完整** ✅
+- 文章/笔记/来源/日志均已创建
+- 未修改任何旧文章/笔记/来源文件
+
+### H. Git 提交与推送
+- 目标：commit 所有变更并推送到 origin/main
+- Commit message: Add neuro daily article + wiki consolidation for 2026-10-06
+- (see below for actual commit hash after push)
+
+---
+
+## 来源质量统计
+
+| 来源 | PMID/DOI | 期刊 | 开放状态 |
+|------|----------|------|---------|
+| Bates et al. 2026 (BANC) | 40766407 | Nature | ✅ PMC12324551 全文 |
+| Dorkenwald et al. 2024 (FlyWire) | 39358518 | Nature | 摘要 |
+| Winding et al. 2023 (幼虫) | DOI:10.1126/science.add9330 | Science | 摘要 |
+| White et al. 1986 | 22462104 | Phil Trans R Soc B | 摘要 |
+| Witvliet et al. 2021 | 34349261 | Nature | ✅ PMC8408585 全文 |
+| Chen et al. 2026 (Connectome-seq) | 41030982 | Nature Methods | ✅ PMC12478398 全文 |
+| NIH BRAIN Initiative | 机构 | 官方网站 | ✅ 官方 |
+
+开放全文：4/7（≥2 ✅）；官方/机构来源：NIH BRAIN Initiative ✅
+
+---
+
+## 知识图谱状态
+
+- 节点总数：331
+- 边总数：1909
+- 今日新节点：distributed-motor-control, ventral-nerve-cord
+- 今日新边：8 条
+- 悬空引用（不变）：aging, cognition, dopamine-system, superior-longitudinal-fasciculus
+
+---
+
+## 备注
+
+- BANC 论文发表于2026年6月8日（仅4天前），符合"7天突破追踪"标准 ✅
+- 所有跨物种推论（果蝇→脊椎动物→人类）在文章和 wiki 中均明确标注为"假说"或"类比"，未等同于已验证结论 ✅
+- 无医疗建议 ✅
+- 不确定性充分说明：单只个体、影响力近似模型、功能验证缺失 ✅

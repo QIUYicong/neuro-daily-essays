@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "node_count": 325,
   "edge_count": 1865,
   "edge_types": [
@@ -2978,6 +2978,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/lateral-geniculate-nucleus.md"
+    },
+    {
+      "id": "distributed-motor-control",
+      "title": "分布式运动控制",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/distributed-motor-control.md"
+    },
+    {
+      "id": "ventral-nerve-cord",
+      "title": "腹侧神经索",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/ventral-nerve-cord.md"
     }
   ],
   "edges": [
@@ -13082,6 +13100,54 @@
       "from": "attention-consciousness-dissociation",
       "to": "binocular-rivalry",
       "type": "related"
+    },
+    {
+      "from": "distributed-motor-control",
+      "to": "connectomics",
+      "type": "related",
+      "note": "BANC 连接组提供结构证据"
+    },
+    {
+      "from": "distributed-motor-control",
+      "to": "ventral-nerve-cord",
+      "type": "mechanism-of",
+      "note": "VNC 是分布式控制的主要执行层"
+    },
+    {
+      "from": "distributed-motor-control",
+      "to": "motor-cortex",
+      "type": "related",
+      "note": "灵长类运动皮层在分布式框架中担任监督角色"
+    },
+    {
+      "from": "ventral-nerve-cord",
+      "to": "connectomics",
+      "type": "related",
+      "note": "BANC 首次将 VNC 纳入完整连接图谱"
+    },
+    {
+      "from": "ventral-nerve-cord",
+      "to": "distributed-motor-control",
+      "type": "supports",
+      "note": "VNC 局部感觉-运动回路是分布式控制的结构基础"
+    },
+    {
+      "from": "ventral-nerve-cord",
+      "to": "cerebellum",
+      "type": "related",
+      "note": "两者均为皮层/大脑的执行/协调下级结构"
+    },
+    {
+      "from": "connectomics",
+      "to": "distributed-motor-control",
+      "type": "supports",
+      "note": "BANC 连接组直接揭示分布式控制架构"
+    },
+    {
+      "from": "connectomics",
+      "to": "ventral-nerve-cord",
+      "type": "related",
+      "note": "BANC 是第一个完整 VNC 连接图谱"
     }
   ],
   "dangling_references": [
