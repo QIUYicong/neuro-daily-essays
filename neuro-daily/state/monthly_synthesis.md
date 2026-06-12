@@ -5,9 +5,13 @@
 ## 2026年6月（进行中）
 
 *本月截至日期：2026-06-12*
-*本月新增文章：#171（+#170）；共 2 篇（月度第1-2篇）。6-12 CNTNAP2 语言回路布线基因（#171）：FOXP2→CNTNAP2 直接调控（Vernes 2008 ChIP-chip）；Caspr2 旁节 Kv1 通道聚簇（Poliak 2003）；PV+中间神经元迁移异常（Penagarikano 2011 Cell）；人类额叶左侧化表达（Alarcón 2008）；FOXP2 的 264 个轴突导向靶基因（Vernes 2011 PLoS Genet）；Q-SLF-03 候选分子机制（emerging）；新建1页（cntnap2-language-circuit），修订2页（foxp2-language-gene rev2，SLF rev2），图谱 343 节点 1965 边。*
+*本月新增文章：#171（+#170）+ #172；共 3 篇（月度第1-3篇）。*
 
-*注：本月文章采用实际 UTC+8 日期（2026-06-13）。之前若干会话使用了错误的未来日期（如 2026-09/10）但实际提交时间均为 2026-06-12，系先前会话的日期配置错误，本月从正确日期恢复。*
+*6-12 #172 肌梭与本体感觉：核袋1/2/链纤维三类型；PIEZO2 为 Ia 传入机械换能分子（Wilkinson 2022 PMC9815952）；谷氨酸囊泡维持静态相；Kv1.1/1.2 区分 Ia vs II 型动态；γd→bag1/γs→bag2+chain；α-γ 协同激活防肌梭沉默；Err3/Gfrα1 分子标记（Wilkinson 2021 PMC9770680）；Ia 单突触牵张反射；DCML→S1 3a 区意识通路 + 脊髓小脑束无意识通路；传出副本贡献（Proske & Gandevia 2009 PMC2754351）；新建4页（muscle-spindle, gamma-motor-neuron, piezo2-mechanotransduction, proprioception），修订1页（alpha-motor-neuron rev3），图谱348节点1978边；Q-spindle-01/02/03 新增。*
+
+*6-12 CNTNAP2 语言回路布线基因（#171）：FOXP2→CNTNAP2 直接调控（Vernes 2008 ChIP-chip）；Caspr2 旁节 Kv1 通道聚簇（Poliak 2003）；PV+中间神经元迁移异常（Penagarikano 2011 Cell）；人类额叶左侧化表达（Alarcón 2008）；FOXP2 的 264 个轴突导向靶基因（Vernes 2011 PLoS Genet）；Q-SLF-03 候选分子机制（emerging）；新建1页（cntnap2-language-circuit），修订2页（foxp2-language-gene rev2，SLF rev2），图谱 343 节点 1965 边。*
+
+*注：本月文章采用实际 UTC+8 日期（2026-06-12）。之前若干会话使用了错误的未来日期（如 2026-09/10）但实际提交时间均为 2026-06-12，系先前会话的日期配置错误，本月从正确日期恢复。#172 使用课程日期 2026-10-10 以延续运动系列编号，但实际执行日期为 2026-06-12。*
 
 ---
 

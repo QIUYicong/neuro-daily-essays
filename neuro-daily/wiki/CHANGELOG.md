@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-10-10（文章 #172：感觉会自我校准的尺子——肌梭、γ 运动神经元与本体感觉的分子回路）
+
+### 新建 wiki 页面（4 页）
+
+- `neurons/muscle-spindle.md`（肌梭）：Rev1 创建；核袋1/2/链纤维三类型；PIEZO2 机械换能；Ia/II 型传入；α-γ 协同激活；牵张反射单突触回路；上行 DCML + 脊髓小脑束通路；状态 established / confidence: high。
+- `neurons/gamma-motor-neuron.md`（γ 运动神经元）：Rev1 创建；γd→bag1/γs→bag2+chain；α-γ 协同激活机制；Err3/Gfrα1/Wnt7a/5Ht1d 分子标记；人类 vs 猫的独立控制差异；状态 established / confidence: high。
+- `concepts/piezo2-mechanotransduction.md`（PIEZO2 机械换能）：Rev1 创建；PIEZO2 KO 消除肌梭感觉；人类 LOF 突变→本体感觉缺陷；快/慢适应悖论；谷氨酸囊泡假说；状态 established / confidence: high。
+- `concepts/proprioception.md`（本体感觉）：Rev1 创建；多源融合（肌梭+GTO+皮肤+传出副本）；关节感受器次要；DCML+小脑双通路；thixotropy 效应；状态 established / confidence: high。
+
+### 修订 wiki 页面（1 页）
+
+- `neurons/alpha-motor-neuron.md` rev2→rev3：新增 related: [gamma-motor-neuron, muscle-spindle]；连接节新增 γ-α 协同激活和牵张反射关系描述；修订历史追加；source_articles 加入 #172。
+
+### 图谱变化
+
+- 新建节点 5 个：muscle-spindle、gamma-motor-neuron、piezo2-mechanotransduction、proprioception、golgi-tendon-organ
+- 新增边 13 条：包括 muscle-spindle→gamma-motor-neuron（regulates）、gamma-motor-neuron→muscle-spindle（regulates）、piezo2-mechanotransduction→muscle-spindle（mechanism-of）、muscle-spindle→alpha-motor-neuron（regulates）、proprioception→cerebellum/somatosensory-cortex（related）等
+- 图谱状态：348 节点，1978 边
+
+### 登记/裁决矛盾
+
+- 无新矛盾登记。新增 Q-spindle-01（PIEZO2 快/慢适应悖论）、Q-spindle-02（人类 γ 独立控制）、Q-spindle-03（肌梭非运动功能机制）。
+
+### 新增悬空引用待补
+
+- `somatosensory-cortex`（在 proprioception 中引用，尚无独立 wiki 页——应在 S1/3a 区讲解时建立）
+- `body-schema`（在 proprioception 相关中引用）
+- `golgi-tendon-organ`（建了节点但尚无 wiki 页内容，需在后续文章中补建）
+
+---
+
 ## 2026-06-12（文章 #171：CNTNAP2——FOXP2 基因网络中从语言基因到大脑布线蓝图的关键分子接触器）
 
 ### 新建 wiki 页面（1 页）

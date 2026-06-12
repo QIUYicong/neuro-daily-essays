@@ -6,10 +6,10 @@ type: structure
 status: established
 confidence: high
 created: 2026-10-08
-updated: 2026-10-09
-revision_count: 2
+updated: 2026-10-10
+revision_count: 3
 dimensions: [cellular, microcircuit, behavior]
-related: [motor-unit, size-principle, persistent-inward-currents, spinal-cord-cpg, spinal-interneurons-locomotion, motor-cortex, neuromuscular-junction, action-potential]
+related: [motor-unit, size-principle, persistent-inward-currents, spinal-cord-cpg, spinal-interneurons-locomotion, motor-cortex, neuromuscular-junction, action-potential, gamma-motor-neuron, muscle-spindle]
 prerequisites: [action-potential, synaptic-transmission, ion-channels]
 opens_questions: [Q-mn-01, Q-mn-02, Q-mn-03]
 source_articles: [2026-10-08-alpha-motor-neuron-size-principle]
@@ -90,6 +90,8 @@ key_sources: ["PMID:14328454", "PMID:23720261", "PMID:31799904", "PMID:18381974"
 - [[motor-cortex]] — 通过皮层脊髓束对 α-MN 施加直接和间接输入
 - [[action-potential]] — α-MN 的输出是动作电位
 - [[parkinsons-disease]] — 基底节-MLR-CPG-α-MN 轴的下行控制在 PD 中受损
+- [[gamma-motor-neuron]] — α-γ 协同激活伙伴：主动运动时 α 和 γ 同时激活，确保肌梭在收缩中持续工作
+- [[muscle-spindle]] — Ia 传入单突触激活 α-MN（牵张反射）；α-γ 协同激活中 α 是产力端
 
 ## 未解问题
 
@@ -101,8 +103,10 @@ key_sources: ["PMID:14328454", "PMID:23720261", "PMID:31799904", "PMID:18381974"
 
 - 2026-10-08 · 创建 · 基于《最终公共通路：α运动神经元如何用大小原则和持续内向电流把大脑命令变成肌肉力量》（#168）· 初始置信度：高
 - 2026-10-09 · 修订 · 基于《命令的最后一公里》（#169）· 悬空引用 `neuromuscular-junction` 已填补，NMJ 专页现已建立（wiki/neurons/neuromuscular-junction.md）
+- 2026-10-10 · 修订 · 基于《感觉会自我校准的尺子》(#172) · 新增 gamma-motor-neuron 和 muscle-spindle 关联；α-γ 协同激活在连接节中明确
 
 ## 来源文章
 
 - [[2026-10-08-alpha-motor-neuron-size-principle]]
 - [[2026-10-09-neuromuscular-junction-synaptic-machine]]
+- [[2026-10-10-muscle-spindle-proprioception-gamma-motor]]
