@@ -295,9 +295,44 @@
       "last_changed": "2026-10-09",
       "change_reason": "创建；经典电生理测量（MEPP, EPP, quantal content），教科书级别；注：人类精确安全因子（~2x）测量数据有限，故动物数据外推部分置信度稍低",
       "source_article": "2026-10-09-neuromuscular-junction-synaptic-machine"
+    },
+    {
+      "slug": "inferior-fronto-occipital-fasciculus",
+      "status": "established",
+      "confidence": "high",
+      "last_change": "2026-10-10",
+      "reason": "Created Rev1; DCS causal evidence from multiple studies (Duffau 2005 N=17, Roux 2021 N=111); lesion studies; anatomy confirmed by dissection"
+    },
+    {
+      "slug": "uncinate-fasciculus",
+      "status": "established",
+      "confidence": "high",
+      "last_change": "2026-10-10",
+      "reason": "Created Rev1; DTI lesion evidence from PPA studies; right UF compensation evidence; anatomy confirmed"
+    },
+    {
+      "slug": "inferior-longitudinal-fasciculus",
+      "status": "established",
+      "confidence": "high",
+      "last_change": "2026-10-10",
+      "reason": "Created Rev1; consistent DTI evidence in svPPA and normal subjects; visual word learning prediction"
+    },
+    {
+      "slug": "semantic-variant-ppa",
+      "status": "established",
+      "confidence": "high",
+      "last_change": "2026-10-10",
+      "reason": "Created Rev1; well-characterized clinical syndrome with clear DTI white matter signature"
+    },
+    {
+      "slug": "ventral-language-stream",
+      "status": "established",
+      "confidence": "high",
+      "last_change": "2026-10-10",
+      "reason": "Rev4: IFOF stratification added (Roux 2021), Zigiotto 2022 dissociation added; confidence remains high"
     }
   ],
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-06-12",
   "index": [
     {
       "slug": "thalamocortical-axons",

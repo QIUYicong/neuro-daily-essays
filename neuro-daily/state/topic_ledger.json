@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-13",
-  "total_articles": 170,
+  "last_updated": "2026-06-12",
+  "total_articles": 171,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11369,6 +11369,101 @@
         "语言的跨脑区振荡协调机制（θ-γ PAC 在 SLF/AF 管道中如何传输）",
         "缘上回（SMG）的多功能角色（镜像系统、工具使用、语音-运动、数字认知）"
       ]
+    },
+    {
+      "date": "2026-10-10",
+      "real_date": "2026-06-12",
+      "article_number": 171,
+      "title": "语义通路的三条电缆：下额枕束、钩束与下纵束如何在大脑内部传递意义",
+      "slug": "ventral-language-stream-white-matter-ifof-uf-ilf",
+      "filename": "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf.md",
+      "article_type": "regular",
+      "core_question": "腹侧语言流的三条主要白质通路（IFOF、UF、ILF）分别承担什么具体角色？它们的解剖走行如何体现功能分工？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "methods"
+      ],
+      "curriculum_track": "7. 语言与抽象思维（语言白质架构：腹侧语言流详解，衔接#170背侧流SLF+AF）",
+      "topic_tags": [
+        "inferior fronto-occipital fasciculus",
+        "IFOF",
+        "uncinate fasciculus",
+        "UF",
+        "inferior longitudinal fasciculus",
+        "ILF",
+        "ventral language stream",
+        "semantic paraphasia",
+        "white matter tractography",
+        "DCS",
+        "direct cortical stimulation",
+        "extreme capsule",
+        "semantic variant PPA",
+        "svPPA",
+        "semantic fluency",
+        "phonemic fluency",
+        "visual word form area",
+        "VWFA",
+        "pure alexia",
+        "dual stream model",
+        "Duffau",
+        "Roux 2021",
+        "Zigiotto 2022",
+        "Saur 2008"
+      ],
+      "main_sources": [
+        "PMID:17431404",
+        "PMID:19004769",
+        "PMID:15705610",
+        "PMID:19775684",
+        "PMID:24744151",
+        "PMID:27568379",
+        "PMID:34093122",
+        "PMID:40242731",
+        "PMID:23820597",
+        "PMID:23890877",
+        "PMID:19759202",
+        "PMID:29025925",
+        "PMID:35970113",
+        "PMID:37005932",
+        "PMID:37051488"
+      ],
+      "unresolved_questions": [
+        "Q-ifof-01",
+        "Q-ifof-02",
+        "Q-ifof-03",
+        "Q-uf-01",
+        "Q-uf-02",
+        "Q-ilf-01",
+        "Q-ilf-02",
+        "Q-svppa-01",
+        "Q-svppa-02"
+      ],
+      "next_suggested_topics": [
+        "传导性失语的神经机制深度解析（AF损伤vs Spt损伤的机制区分）——衔接SLF（#170）和IFOF/ILF（本篇）的语言白质地图",
+        "svPPA（语义变异型PPA）的完整临床-病理框架（TDP-43蛋白病变+灰质/白质退行时序）",
+        "语义记忆网络（Hub-and-Spoke）的计算模型深化——ATL如何生成跨模态语义表征",
+        "myasthenia gravis（MG）：anti-AChR抗体机制（从NMJ（#169）衔接免疫神经病学）"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/inferior-fronto-occipital-fasciculus.md",
+        "wiki/concepts/uncinate-fasciculus.md",
+        "wiki/concepts/inferior-longitudinal-fasciculus.md",
+        "wiki/diseases/semantic-variant-ppa.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/circuits/ventral-language-stream.md (rev3→rev4: IFOF分层Roux2021+Zigiotto2022双离解)"
+      ],
+      "graph_nodes_added": [
+        "inferior-fronto-occipital-fasciculus",
+        "uncinate-fasciculus",
+        "inferior-longitudinal-fasciculus",
+        "semantic-variant-ppa"
+      ],
+      "graph_edges_added": 19,
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-12（真实执行日期）；知识库虚拟日期2026-10-10；15个来源中4篇开放全文（Roux2021/Nogueira2025/Zigiotto2022/Shekari2023），11篇摘要仅读；完成语言白质架构的腹侧翼（#170背侧流SLF+AF + #171腹侧流IFOF+UF+ILF）；新增svPPA疾病页面；IFOF vs ECF命名争议记为待裁决问题Q-ifof-01；图谱+4节点+19边（346节点1979边）"
     }
   ],
   "layer_coverage_recent": [

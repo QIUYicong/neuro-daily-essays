@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-08-23
-revision_count: 3
+updated: 2026-10-10
+revision_count: 4
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [language-network, broca-area, dorsal-language-stream, default-mode-network, anterior-temporal-lobe-hub, embodied-semantics]
+related: [language-network, broca-area, dorsal-language-stream, default-mode-network, anterior-temporal-lobe-hub, embodied-semantics, inferior-fronto-occipital-fasciculus, uncinate-fasciculus, inferior-longitudinal-fasciculus, semantic-variant-ppa]
 prerequisites: [language-network]
 opens_questions: [Q-lang-01, Q-lang-02, Q-lang-07]
-source_articles: [2026-06-20-language-dual-stream, 2026-07-15-language-network-dual-stream]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:38267261", "PMID:35267079", "PMID:28053037", "PMID:35094061", "PMID:22723684", "PMID:37099422"]
+source_articles: [2026-06-20-language-dual-stream, 2026-07-15-language-network-dual-stream, 2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf]
+key_sources: ["PMID:17431404", "PMID:19004769", "PMID:29360947", "PMID:38267261", "PMID:35267079", "PMID:28053037", "PMID:35094061", "PMID:22723684", "PMID:37099422", "PMID:34093122", "PMID:35970113", "PMID:40242731"]
 ---
 
 # 腹侧语言流 (Ventral Language Stream)
@@ -106,8 +106,10 @@ BA45（Broca区前部）：语义工作记忆
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
 - 2026-07-15 · 修订 · 新增腹流四大白质束详细描述（IFOF/UF/ILF/MLF，来自Sefcikova 2022）；新增ATL作为腹流语义枢纽的证据（Zhao 2017/Farahibozorg 2022）；新增三条证据表行；更新related字段添加anterior-temporal-lobe-hub
 - 2026-08-23 · 修订 · 基于文章#121《从声波到意义》· 新增"预测回路（IFG → STG/STS 反馈）"段落；整合 Sohoglu & Davis 2012 和 Cope & Davis 2023 对腹侧流自上而下预测机制的证据；key_sources 新增 PMID:22723684 和 PMID:37099422
+- 2026-10-10 · 修订 · 基于文章#171《语义通路的三条电缆》· 新增 IFOF 内部功能分层证据（Roux 2021，N=111：腹侧=语义，背侧=心智化）；新增 Zigiotto 2022 语音 vs 语义流畅性白质双离解（IFOF 段间差异）；新增 related 字段：inferior-fronto-occipital-fasciculus, uncinate-fasciculus, inferior-longitudinal-fasciculus, semantic-variant-ppa；key_sources 新增 PMID:19004769, PMID:34093122, PMID:35970113, PMID:40242731
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
 - [[2026-07-15-language-network-dual-stream]]
+- [[2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf]]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-13",
+  "updated": "2026-10-10",
   "node_count": 341,
   "edge_count": 1953,
   "edge_types": [
@@ -3095,6 +3095,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/superior-longitudinal-fasciculus.md"
+    },
+    {
+      "id": "inferior-fronto-occipital-fasciculus",
+      "title": "下额枕束（IFOF）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/inferior-fronto-occipital-fasciculus.md"
+    },
+    {
+      "id": "uncinate-fasciculus",
+      "title": "钩束（UF）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/uncinate-fasciculus.md"
+    },
+    {
+      "id": "inferior-longitudinal-fasciculus",
+      "title": "下纵束（ILF）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/inferior-longitudinal-fasciculus.md"
+    },
+    {
+      "id": "semantic-variant-ppa",
+      "title": "语义变异型原发性进行性失语（svPPA）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/semantic-variant-ppa.md"
     }
   ],
   "edges": [
@@ -13502,6 +13538,101 @@
       "from": "arcuate-fasciculus",
       "to": "superior-longitudinal-fasciculus",
       "type": "part-of"
+    },
+    {
+      "from": "inferior-fronto-occipital-fasciculus",
+      "to": "ventral-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "inferior-fronto-occipital-fasciculus",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "supports"
+    },
+    {
+      "from": "inferior-fronto-occipital-fasciculus",
+      "to": "semantic-variant-ppa",
+      "type": "related"
+    },
+    {
+      "from": "inferior-fronto-occipital-fasciculus",
+      "to": "uncinate-fasciculus",
+      "type": "related"
+    },
+    {
+      "from": "inferior-fronto-occipital-fasciculus",
+      "to": "inferior-longitudinal-fasciculus",
+      "type": "related"
+    },
+    {
+      "from": "inferior-fronto-occipital-fasciculus",
+      "to": "arcuate-fasciculus",
+      "type": "related"
+    },
+    {
+      "from": "uncinate-fasciculus",
+      "to": "ventral-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "uncinate-fasciculus",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "supports"
+    },
+    {
+      "from": "uncinate-fasciculus",
+      "to": "semantic-variant-ppa",
+      "type": "related"
+    },
+    {
+      "from": "inferior-longitudinal-fasciculus",
+      "to": "ventral-language-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "inferior-longitudinal-fasciculus",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "supports"
+    },
+    {
+      "from": "inferior-longitudinal-fasciculus",
+      "to": "semantic-variant-ppa",
+      "type": "related"
+    },
+    {
+      "from": "inferior-longitudinal-fasciculus",
+      "to": "inferior-temporal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "semantic-variant-ppa",
+      "to": "ventral-language-stream",
+      "type": "related"
+    },
+    {
+      "from": "semantic-variant-ppa",
+      "to": "anterior-temporal-lobe-hub",
+      "type": "related"
+    },
+    {
+      "from": "semantic-variant-ppa",
+      "to": "semantic-memory-hub",
+      "type": "related"
+    },
+    {
+      "from": "ventral-language-stream",
+      "to": "inferior-fronto-occipital-fasciculus",
+      "type": "supports"
+    },
+    {
+      "from": "ventral-language-stream",
+      "to": "uncinate-fasciculus",
+      "type": "supports"
+    },
+    {
+      "from": "ventral-language-stream",
+      "to": "inferior-longitudinal-fasciculus",
+      "type": "supports"
     }
   ],
   "dangling_references": [

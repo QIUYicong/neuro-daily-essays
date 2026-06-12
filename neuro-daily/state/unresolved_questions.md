@@ -1,6 +1,65 @@
 # 未解问题追踪
 
-*最后更新：2026-06-13*
+*最后更新：2026-06-12（实际）/ 2026-10-10（虚拟）*
+
+---
+
+## 2026-10-10 新增（来自"语义通路的三条电缆：下额枕束、钩束与下纵束" #171）
+
+### Q-ifof-01（中优先级）：IFOF vs 极囊束（ECF）命名争议
+
+- **关联 wiki**：[[inferior-fronto-occipital-fasciculus]]、[[ventral-language-stream]]
+- **来源文章**：2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf
+- **问题**：Saur 2008（PMID:19004769）称腹侧语言通路为"极囊通路（extreme capsule pathway）"，而 Duffau 团队（PMID:15705610等）称相同区域为 IFOF。当前较主流的观点（Nogueira 2025综述）认为 IFOF 走行穿过极囊，但两者的精确解剖覆盖范围是否一致仍有争议。7T 解剖 MRI + 整合组织学研究能否澄清这一争议？如果 ECF 和 IFOF 确实是两条独立通路，它们的功能分工如何划定？
+
+### Q-ifof-02（高优先级）：左半球 IFOF 背侧束是否也支持心智化？
+
+- **关联 wiki**：[[inferior-fronto-occipital-fasciculus]]、[[tpj-temporoparietal-junction]]
+- **来源文章**：2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf
+- **问题**：Roux 2021（PMID:34093122）基于 111 例**右半球**肿瘤患者发现 IFOF 背侧束支持心智化。但这一分层在左半球是否同样存在？左半球语言优势会影响 IFOF 背侧束的心智化功能吗？需要左半球大样本清醒手术 DCS 研究来复制。
+  - 相关技术：左半球清醒手术 DCS + 语义/心智化双任务范式
+
+### Q-ifof-03（中优先级）：IFOF 的信息流是双向的吗？
+
+- **关联 wiki**：[[inferior-fronto-occipital-fasciculus]]、[[ventral-language-stream]]
+- **来源文章**：2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf
+- **问题**：DTI tractography 无法区分轴突传导方向。IFOF 是否既有"枕颞→额叶"的自下而上语义输入，也有"额叶→枕颞"的自上而下语义预测？如果是双向的，两个方向是否用不同纤维承载？有效连接（DCM/TMS-EEG）研究能否区分两个方向的信息流？
+
+### Q-uf-01（中优先级）：精准 DCS 能否单独分离 UF 的效应？
+
+- **关联 wiki**：[[uncinate-fasciculus]]、[[inferior-fronto-occipital-fasciculus]]
+- **来源文章**：2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf
+- **问题**：目前 DCS 证据多同时涉及 UF 和 IFOF 两条束，缺乏专门针对 UF 颞极—岛叶—OFC 三段结构的精准映射。需要亚毫米级定位的清醒手术研究，对 UF 三段分别刺激，观察情景命名和一般命名的特异性损伤模式。
+
+### Q-uf-02（中优先级）：右侧 UF 补偿角色的机制
+
+- **关联 wiki**：[[uncinate-fasciculus]]
+- **来源文章**：2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf
+- **问题**：右UF体积与失语症患者STM分数相关（Olivé 2023，N=19）。但右UF的补偿是通过右颞极→右OFC直接处理语义，还是通过胼胝体中继到左半球残存区域？rTMS干扰右UF是否会削弱失语症患者的补偿效果？纵向研究能否追踪右UF体积变化与语言恢复的时序关系？
+
+### Q-ilf-01（高优先级）：ILF 的信息流方向
+
+- **关联 wiki**：[[inferior-longitudinal-fasciculus]]、[[ventral-language-stream]]
+- **来源文章**：2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf
+- **问题**：ILF 的主要信息流方向是枕→颞极（自下而上，视觉特征汇聚到语义区），还是同样有颞极→枕叶（自上而下，语义调制视觉处理）？后者如果存在，它是 predictive coding 语义预测的白质基础吗？需要有效连接方法（DCM/Granger causality）研究。
+
+### Q-ilf-02（中优先级）：ILF 是否同时支持视觉和听觉语义？
+
+- **关联 wiki**：[[inferior-longitudinal-fasciculus]]、[[inferior-fronto-occipital-fasciculus]]
+- **来源文章**：2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf
+- **问题**：ILF 主要被认为是视觉通道（VWFA→ATL）。但理解口语词汇时，是否也需要 ILF 参与（通过 MTG→ATL 等路径）？还是口语语义全部走 IFOF？跨模态病变研究（视觉+听觉语义分别测试的病变分析）能否区分这两条通路的模态特异性。
+
+### Q-svppa-01（高优先级）：svPPA 白质退行的时序——继发 Wallerian 还是独立早期病变？
+
+- **关联 wiki**：[[semantic-variant-ppa]]、[[inferior-longitudinal-fasciculus]]、[[uncinate-fasciculus]]
+- **来源文章**：2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf
+- **问题**：svPPA 的白质退行（ILF/UF/IFOF 的 FA 下降/MD 升高）是因 ATL 灰质神经元死亡导致的继发 Wallerian 退变，还是白质本身有独立的早期 TDP-43 病理？如果白质先受损，是否可以在行为症状出现前用 DTI 预测 svPPA？
+
+### Q-svppa-02（中优先级）：svPPA 早期语言产出能力保留的神经基础
+
+- **关联 wiki**：[[semantic-variant-ppa]]、[[dorsal-language-stream]]
+- **来源文章**：2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf
+- **问题**：svPPA 早期尽管双侧 ATL 退行，患者仍然可以流利说话。这意味着哪部分功能储备支持产出？是右半球 ATL 的补偿，还是背侧流承担了部分语义功能？纵向 fMRI 研究能否追踪代偿网络的激活变化？
 
 ---
 

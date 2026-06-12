@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-06-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -12377,6 +12377,179 @@
       "topics_covered": [
         "NMJ_structure_2025",
         "MG_pathology"
+      ]
+    },
+    {
+      "pmid": "17431404",
+      "title": "The cortical organization of speech processing",
+      "journal": "NRN",
+      "year": 2007,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "dual stream model",
+        "ventral language stream"
+      ]
+    },
+    {
+      "pmid": "15705610",
+      "title": "New insights into anatomo-functional connectivity of semantic system",
+      "journal": "Brain",
+      "year": 2005,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "IFOF DCS semantic paraphasia"
+      ]
+    },
+    {
+      "pmid": "19775684",
+      "title": "Anatomic dissection of the inferior fronto-occipital fasciculus revisited",
+      "journal": "Cortex",
+      "year": 2010,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "IFOF anatomy dorsal ventral components"
+      ]
+    },
+    {
+      "pmid": "24744151",
+      "title": "The left IFOF subserves language semantics",
+      "journal": "Brain Struct Funct",
+      "year": 2015,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "left IFOF semantic fluency lesion"
+      ]
+    },
+    {
+      "pmid": "27568379",
+      "title": "Right IFOF in non-verbal semantic cognition",
+      "journal": "Brain Struct Funct",
+      "year": 2017,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "right IFOF non-verbal semantics DCS"
+      ]
+    },
+    {
+      "pmid": "34093122",
+      "title": "Combining Electrostimulation With Fiber Tracking to Stratify the IFOF",
+      "journal": "Front Neurosci",
+      "year": 2021,
+      "open_access": true,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "IFOF stratification semantic mentalizing"
+      ]
+    },
+    {
+      "pmid": "40242731",
+      "title": "From classic models to new pathways: IFOF in language processing",
+      "journal": "Front Psychol",
+      "year": 2025,
+      "open_access": true,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "IFOF anatomy review"
+      ]
+    },
+    {
+      "pmid": "23820597",
+      "title": "A novel frontal pathway underlies verbal fluency in PPA",
+      "journal": "Brain",
+      "year": 2013,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "FAT UF PPA DTI dissociation"
+      ]
+    },
+    {
+      "pmid": "23890877",
+      "title": "Disruption of structural connectivity in nonfluent and semantic PPA",
+      "journal": "Brain Lang",
+      "year": 2013,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "svPPA nfvPPA white matter DTI dissociation"
+      ]
+    },
+    {
+      "pmid": "19759202",
+      "title": "Language networks in semantic dementia",
+      "journal": "Brain",
+      "year": 2010,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "ILF UF AF semantic dementia DTI"
+      ]
+    },
+    {
+      "pmid": "29025925",
+      "title": "Strength of Temporal White Matter Pathways Predicts Semantic Learning",
+      "journal": "J Neurosci",
+      "year": 2017,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "left ILF word learning left UF cross-situational"
+      ]
+    },
+    {
+      "pmid": "35970113",
+      "title": "Segregated circuits for phonemic and semantic fluency",
+      "journal": "NeuroImage Clin",
+      "year": 2022,
+      "open_access": true,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "FAT IFOF phonemic fluency UF ILF AF semantic fluency glioma"
+      ]
+    },
+    {
+      "pmid": "37005932",
+      "title": "The right uncinate fasciculus supports verbal STM in aphasia",
+      "journal": "Brain Struct Funct",
+      "year": 2023,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "right UF aphasia STM compensation"
+      ]
+    },
+    {
+      "pmid": "37051488",
+      "title": "White matter tracts in language production and comprehension: narrative review",
+      "journal": "Front Hum Neurosci",
+      "year": 2023,
+      "open_access": true,
+      "used_in": [
+        "2026-10-10-ventral-language-stream-white-matter-ifof-uf-ilf"
+      ],
+      "covers": [
+        "ILF IFOF UF ECF MLF SLF AF FAT language"
       ]
     }
   ],

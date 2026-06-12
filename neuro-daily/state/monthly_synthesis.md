@@ -13,7 +13,7 @@
 
 ## 2026年10月（进行中）
 
-*本月截至日期：2026-10-05*
+*本月截至日期：2026-10-10*
 *本月新增文章：#161–#165；共 5 篇（月度第1–5篇）。10-05 双眼竞争（#165）：感知层级竞争机制（LGN→V1→IT 梯度）；Levelt 四定律；互相抑制-适应-噪声计算模型（Seely 2011）；Gamma 主导期分布（Cao 2021）；CFS 无意识加工；Blake et al. 2014 四条 NCC 方法论质疑；填补悬空引用 binocular-rivalry；新建2页（binocular-rivalry, lateral-geniculate-nucleus），修订4页（V1 rev8, IT rev2, NCC rev3, CHANGELOG）；图谱329节点1901边。*
 
 *本月主要认知更新（5篇）：1）意识障碍临床谱系（DoC #162）→ 2）前连合裂脑意识通路（#163）→ 3）注意-意识双重解离（#164）→ 4）双眼竞争实验平台（#165）。本月核心叙事：意识科学从宏大理论走向具体实验范式和方法论检验——每篇都在回答"我们凭什么相信某个意识理论"，而不仅仅是"这个理论是什么"。*
@@ -1228,6 +1228,10 @@ Whittington & Bogacz（2017，PMID:28333583，开放全文）提供核心数学�
 
 本文填补了运动控制链的最后一环：CPG（#167）的节律输出如何经由α运动神经元转化为实际肌肉力量。核心叙事：**α-MN 内置了两个无需大脑明确计算的优雅规则——Henneman 大小原则（物理自动决定招募顺序）和 PICs（放大突触驱动 2–6 倍）——使大脑只需发出"驱动强度"这一维度的指令，就能控制三维复杂度的运动输出**。大小原则（Henneman 1965，PMID:14328454）：小型 α-MN 输入电阻高 → 相同突触电流产生更大去极化 → 先激活 → S（姿势）→ FR（日常）→ FF（爆发）的固定顺序，无需大脑点名。PICs（Heckman 2008, PMID:18381974, PMC3326417；Binder 2020, PMID:31799904, PMC7132324）：树突远端 CaV1.3 + Nav1.6 提供自维持内向电流；无单胺能驱动时最大输出 <30–40%；中等驱动放大 2–4 倍，高驱动放大 5–6 倍。这意味着清醒觉醒状态（中缝 5-HT + 蓝斑 NE）是运动能力的前提，不只是认知能力的前提。临床桥梁：SCI 弛缓性麻痹→痉挛的转变可直接归因于 5-HT₂R 组成型活跃（ElBasiouny 2010, PMID:20462789, PMC3000632）；ALS 中 FF 型 α-MN 的优先退化反映了其高代谢需求与氧化应激脆弱性。Hug 2023（PMID:36353890, PMC10098498）对大小原则的现代修订：适用范围是"共同突触输入簇"内部，而非整块肌肉全部 MN。**新建** wiki 页：alpha-motor-neuron（neurons, established/high）、motor-unit（concepts）、size-principle（concepts）、persistent-inward-currents（concepts）。**修订**：spinal-cord-cpg rev2（补充 α-MN 输出环节）。**图谱**：338 节点，1939 条边（+4 节点，+18 边）。**层级**：cellular + synaptic + microcircuit（延续昨日的分子/细胞层，打破近期 cognition 连续覆盖的平衡目标实现）。**新增未解**：Q-mn-01/02/03（大小原则例外、CaV1.3人类分布、ALS早期检测）；Q-pic-01/02/03（5-HT₂亚型、delta-F局限、PICs角色争议）。**填补悬空**：spinal-cord-cpg 中的 motor-neuron 悬空引用已被 alpha-motor-neuron 正式页取代。
 
+
+**#171（2026-10-10）**：语义通路的三条电缆——下额枕束（IFOF）、钩束（UF）与下纵束（ILF）如何在大脑内部传递意义
+
+本文完成了语言白质架构的腹侧翼（衔接#170背侧流SLF+AF）。**核心洞见：腹侧语言流不是一条均匀的"语义导线"，而是三条分工精密的平行束：IFOF（枕颞→极囊→额叶）是语义主干线，内部还有腹侧（语义）vs 背侧（心智化）的功能分层（Roux 2021，N=111，清醒手术DCS直接因果证据）；UF（颞极→OFC的钩形束）传递情景化命名信号；ILF（枕叶VWFA→颞极）是视觉-语义快车道**。关键实验：Zigiotto 2022（N=42胶质瘤）发现语音流畅性→FAT+IFOF额叶段，语义流畅性→AF+UF+ILF+IFOF颞叶段——IFOF 段内部也有功能差异，额叶段偏执行控制，颞叶段偏语义。svPPA（语义变异型PPA）作为腹侧流最清晰的"自然实验"：双侧ATL萎缩+ILF/UF/IFOF选择性退行，背侧流（SLF/AF）相对完好，与nfvPPA（背侧流损伤）形成完美双离解。**新建** wiki 页（4页）：inferior-fronto-occipital-fasciculus（concepts）、uncinate-fasciculus（concepts）、inferior-longitudinal-fasciculus（concepts）、semantic-variant-ppa（diseases）。**修订**：ventral-language-stream rev4（IFOF分层+Zigiotto2022双离解）。**图谱**：346节点，1979边（+4节点，+19边）。**层级**：brain-region + whole-brain-network + cognition（完成语言双流白质地图）。**新增未解**：Q-ifof-01/02/03、Q-uf-01/02、Q-ilf-01/02、Q-svppa-01/02（9条新问题，涵盖命名争议/方向性/补偿机制/白质退行时序）。
 
 **#169（2026-10-09）**：命令的最后一公里——神经肌肉接头如何把大脑意志翻译成肌肉收缩
 

@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-10-10（文章 #171：语义通路的三条电缆——下额枕束、钩束与下纵束）
+
+### 新建 wiki 页面（4 页）
+
+- `concepts/inferior-fronto-occipital-fasciculus.md`（下额枕束 IFOF）：Rev1 创建；解剖走行（枕颞→极囊→岛叶→杏仁核旁→额叶）；背侧亚束（视空间/心智化）和腹侧亚束（语义）；DCS 因果证据（Duffau 2005 刺激→语义错语；Roux 2021 N=111 分层验证）；左侧语言语义/右侧非语言语义；IFOF 段间差异（颞叶段→语义流畅性，额叶段→语音流畅性，Zigiotto 2022）；IFOF vs 极囊束命名争议；状态 established/confidence: high。
+- `concepts/uncinate-fasciculus.md`（钩束 UF）：Rev1 创建；钩形走行（颞极→岛叶前缘→OFC/额极）；对情景化命名（专有名词）关键；Catani 2013 PPA双离解（UF→语义，FAT→语音流畅性）；右UF补偿失语症STM（Olivé 2023）；状态 established/confidence: high。
+- `concepts/inferior-longitudinal-fasciculus.md`（下纵束 ILF）：Rev1 创建；颞—枕走行三子束（舌回/梭状回/枕外侧）；VWFA → ATL 视觉语义快车道；ILF 损伤→纯失读；左ILF预测语境词学习（Ripollés 2017）；svPPA 中选择性退化；状态 established/confidence: high。
+- `diseases/semantic-variant-ppa.md`（语义变异型PPA）：Rev1 创建；双侧前颞叶萎缩 + 腹侧流（ILF+UF+IFOF）选择性退行；与nfvPPA的白质双离解（svPPA=腹侧流，nfvPPA=背侧流）；Agosta 2010/2013 DTI 证据；TDP-43 蛋白病变病理；状态 established/confidence: high。
+
+### 修订 wiki 页面（1 页）
+
+- `circuits/ventral-language-stream.md` rev3→rev4：新增 IFOF 内部功能分层证据（Roux 2021，N=111，腹侧=语义，背侧=心智化）；新增 Zigiotto 2022 语音 vs 语义流畅性白质双离解（IFOF 段间差异）；key_sources 新增 PMID:19004769/34093122/35970113/40242731；related 新增 inferior-fronto-occipital-fasciculus/uncinate-fasciculus/inferior-longitudinal-fasciculus/semantic-variant-ppa。
+
+### 图谱变化
+
+- 新建节点 4 个：inferior-fronto-occipital-fasciculus, uncinate-fasciculus, inferior-longitudinal-fasciculus, semantic-variant-ppa
+- 新增边 19 条（IFOF/UF/ILF ↔ ventral-language-stream/ATL/svPPA/互相之间；svPPA ↔ ventral-language-stream/ATL/semantic-memory-hub）
+- 图谱现状：346 节点，1979 边
+
+### 矛盾注册
+
+- （待定）IFOF vs ECF（极囊束）命名争议：Saur 2008 称"极囊通路"，Duffau 系列称"IFOF"——当前偏向"IFOF 走行穿过极囊"的整合解释，但尚无充分解剖证据区分两者。暂不登记正式矛盾条目，记为待裁决问题 Q-ifof-01。
+
+---
+
 ## 2026-06-13（文章 #170：白质的三条平行弦——上纵束（SLF）亚束系统）
 
 ### 新建 wiki 页面（1 页）

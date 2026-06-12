@@ -1,0 +1,111 @@
+# 每日运行日志
+
+**虚拟日期**：2026-10-10
+**真实执行日期（UTC+8）**：2026-06-12
+**文章编号**：#171
+**分支**：claude/funny-einstein-fjohvg
+**状态**：✅ 完成（本地commit，推送中...）
+
+---
+
+## 选题过程
+
+### 读取状态
+- topic_ledger：170篇已完成；最新：#170（2026-06-13）SLF/AF 背侧语言流白质
+- 上一篇（#169，2026-06-12 real_date）：神经肌肉接头（NMJ），虚拟日期2026-10-09
+- 未解问题队列：Q-SLF-01/02/03/04（SLF，高中优先级）；Q-nmj-01/02/03（NMJ）
+- graph：342节点/1960边（运行前）；最新悬空引用：无直接显示
+
+### 选题决策
+- 模式：长期课程（无重大突破新闻，无高优先级裁决矛盾）
+- 课程脊柱位置：Track 7 语言与抽象思维（#170建立了背侧流SLF架构，今天对称完成腹侧流）
+- 选定：腹侧语言流白质通路深度解析（IFOF / UF / ILF）
+- 层级：brain-region / whole-brain-network / cognition / methods
+- 上一篇#170层级：brain-region/whole-brain-network/cognition/methods → 相同层级，但这是课程内逻辑延续，可接受（背侧→腹侧配对）
+
+---
+
+## 检索摘要
+
+### 搜索词（PubMed E-utilities NCBI）
+1. `inferior fronto-occipital fasciculus language semantics` → 15 hits → 采用6篇
+2. `ventral language stream white matter tractography semantics` → 15 hits → 采用4篇
+3. `uncinate fasciculus semantic memory language` → 12 hits → 采用3篇
+4. `extreme capsule fasciculus inferior fronto-occipital language comprehension` → 3 hits
+5. `Duffau inferior fronto-occipital fasciculus semantic stimulation` → 10 hits → 采用2篇
+6. `Saur ventral dorsal language pathways fMRI 2008` → PMID:19004769（直接命中）
+7. `Hickok Poeppel dual stream language 2007` → PMID:17431404（直接命中）
+8. `semantic variant primary progressive aphasia white matter tractography` → 7 hits → 采用2篇
+9. `uncinate fasciculus anterior temporal lobe semantics lesion` → 7 hits → 采用1篇
+
+### 来源质量
+- **开放全文**（4篇）：
+  - PMID:34093122（Roux 2021，Frontiers in Neuroscience）— IFOF 分层 N=111
+  - PMID:40242731（Nogueira 2025，Frontiers in Psychology）— IFOF 解剖综述 510篇
+  - PMID:35970113（Zigiotto 2022，NeuroImage Clinical）— 语音vs语义流畅性白离解
+  - PMID:37051488（Shekari & Nozari 2023，Frontiers HN）— 8条语言白质束综述
+- **摘要仅读**（11篇）：PMID:17431404/19004769/15705610/19775684/24744151/27568379/23820597/23890877/19759202/29025925/37005932
+- **排除**：付费全文（未尝试绕过paywall）；相关性弱的命中（StatPearls Aphasia综述）
+
+---
+
+## 文章质量自检
+
+**真实性**：
+- [x] 所有 wiki 新主张都有来源（PMID/DOI）
+- [x] 区分了"DCS 因果证据"vs"DTI 相关性"vs"综述"
+- [x] 明确标注了样本量（Roux 2021 N=111, Olivé 2023 N=19, Agosta 2010 N=5）
+- [x] 注明了小样本限制（Olivé 2023, Agosta 2010）
+- [x] 未把动物研究过度推广到人类
+- [x] 未提供医学诊断/治疗建议
+
+**一致性**：
+- [x] 未发现新内容与既有 wiki 主张冲突（ventral-language-stream 页面原有 IFOF/UF/ILF 记录与本文一致，本文深化而非矛盾）
+- [x] IFOF vs ECF 争议记录为 Q-ifof-01，未强行统一
+- [x] 被修订页的 updated/revision_count/修订历史同步更新
+
+**可导航**：
+- [x] index.md 反映了今天的变化（新增4页，修订1页）
+- [x] CHANGELOG.md 追加了今日节
+- [x] 所有新页 related/prerequisites 各≥1
+
+**情景层**：
+- [x] articles/ 新增 1 篇
+- [x] notes/ 新增 1 篇
+- [x] sources/ 新增 1 篇
+- [x] logs/ 本文件创建
+- [x] 未修改任何旧文件（append-only 原则完整）
+
+---
+
+## 固结摘要
+
+| 操作 | 页面 |
+|------|------|
+| 新建 | wiki/concepts/inferior-fronto-occipital-fasciculus.md (Rev1) |
+| 新建 | wiki/concepts/uncinate-fasciculus.md (Rev1) |
+| 新建 | wiki/concepts/inferior-longitudinal-fasciculus.md (Rev1) |
+| 新建 | wiki/diseases/semantic-variant-ppa.md (Rev1) |
+| 修订 | wiki/circuits/ventral-language-stream.md (Rev3→Rev4) |
+
+图谱变化：342→346 节点，1960→1979 边（+4节点，+19边）
+
+---
+
+## 治理层更新
+
+- [x] topic_ledger.json：新增条目 #171；total=171；last_updated=2026-06-12
+- [x] unresolved_questions.md：新增 Q-ifof-01/02/03, Q-uf-01/02, Q-ilf-01/02, Q-svppa-01/02（9条新问题）
+- [ ] contested_claims.json：无新矛盾登记（IFOF vs ECF 争议暂记为 Q 而非 C，证据不够充分升级为正式矛盾条目）
+- [ ] source_registry.json：待更新（见下）
+- [ ] monthly_synthesis.md：待更新
+- [ ] maturity_index.json：待更新
+
+---
+
+## Git 操作
+
+**分支**：claude/funny-einstein-fjohvg
+**commit 信息**：Add neuro daily article + wiki consolidation for 2026-10-10
+**commit hash**：（运行后填入）
+**push 状态**：（运行后填入）

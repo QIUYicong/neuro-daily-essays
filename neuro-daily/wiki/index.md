@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-09（**#169** 神经肌肉接头——三细胞架构、Cav2.1→SNARE→量子释放、Agrin-LRP4-MuSK-rapsyn 轴、安全因子 2–5、完成皮层→脊髓→α-MN→NMJ 运动链叙事；新建3页：neuromuscular-junction, agrin-musk-achr-clustering, end-plate-potential-safety-factor；修订1页：alpha-motor-neuron rev2（填补悬空引用）；图谱 341 节点，1953 边）· 主题页总数：**315**
+> 最后更新：2026-10-10（**#171** 腹侧语言流白质详解——IFOF（腹侧=语义/背侧=心智化分层，Roux 2021 N=111）、UF（情景命名/右侧补偿）、ILF（视觉词义快车道）；Zigiotto 2022语音vs语义流畅性白质双离解；svPPA作为腹侧流疾病窗口；新建4页：inferior-fronto-occipital-fasciculus, uncinate-fasciculus, inferior-longitudinal-fasciculus, semantic-variant-ppa；修订1页：ventral-language-stream rev4；图谱 346 节点，1979 边）· 主题页总数：**319**
 
 ---
 
@@ -277,7 +277,10 @@
 - 🔵 [辅助运动区与前辅助运动区](systems/sma-presma.md) — 言语启动最早皮层节点（pre-SMA: -240ms; SMA: -170ms先于开口）；活动随RT动态伸缩；通过BG-丘脑接收时序"go"信号；准备协调者而非执行者 **[NEW 2026-08-19 #118]**
 - 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；三段式结构（直接段/间接后段/间接前段，Catani 2005）；左半球AF终止于pSTG（语音皮层）而非MTG；背侧路径II（颞叶→BA44）7岁前未完全成熟与句法关键期对应；灵长类听觉原型+人类特有左侧化（Balezeau 2020）；损伤→传导性失语；颞叶端延伸争议（Giampiccolo 2022） **[修订 rev2 2026-08-21 #119]**
 - 🟢 [背侧语言流](circuits/dorsal-language-stream.md) — A1→颞平面→Spt→弓状束→BA44；音韵缓冲+句法层级运算；左侧主导 **[NEW 2026-06-20]**
-- 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→ATL（语义枢纽）→BA45；声音→词义；双侧；四大白质束（IFOF/UF/ILF/MLF）DES临床验证 **[修订 rev2 2026-07-15]**
+- 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→ATL（语义枢纽）→BA45；声音→词义；双侧；四大白质束（IFOF/UF/ILF/MLF）DES临床验证；IFOF内部分层（腹侧=语义，背侧=心智化，Roux 2021 N=111）；Zigiotto 2022语音vs语义流畅性白质双离解 **[修订 rev4 2026-10-10 #171]**
+- 🟢 [下额枕束（IFOF）](concepts/inferior-fronto-occipital-fasciculus.md) — 腹侧语义主干束（枕颞→极囊→额叶）；两亚束（腹侧=语义/背侧=心智化）；DCS→语义错语（Duffau 2005，17例；Roux 2021，111例）；左=语言语义/右=非语言语义；IFOF vs 极囊束命名争议 **[NEW 2026-10-10 #171]**
+- 🟢 [钩束（UF）](concepts/uncinate-fasciculus.md) — 钩形连接颞极与OFC；情景化命名关键；UF损伤→语义缺陷（Catani 2013 PPA，35例）；右UF补偿失语症STM（Olivé 2023，19例）**[NEW 2026-10-10 #171]**
+- 🟢 [下纵束（ILF）](concepts/inferior-longitudinal-fasciculus.md) — 枕叶（VWFA/梭状回）→颞极视觉语义快车道；三子束；ILF损伤→纯失读；左ILF预测语境词学习（Ripollés 2017，40例）；svPPA选择性退化 **[NEW 2026-10-10 #171]**
 - 🟢 [前颞叶语义枢纽（ATL Hub）](concepts/anterior-temporal-lobe-hub.md) — Hub-and-Spoke模型：ATL整合各感觉模态特征→跨模态概念；语义痴呆自然实验；0-250ms早期枢纽，角回250-450ms接管；fMRI低估问题；ATL→spoke不对称连接（t₁₉=5.11）；rTMS双离解因果证据；C3计算模型 **[修订rev2 2026-07-16]**
 - 🔵 [语义记忆枢纽（Hub-and-Spoke 模型）](concepts/semantic-memory-hub.md) — ATL枢纽-感觉运动辐条双层架构；ATL→spoke连接不对称（主动广播非被动汇聚）；双侧ATL组织（97项研究元分析）；C3模型：ATL枢纽损伤→跨类别domain-general损伤是数学必然；rTMS双离解因果证据 **[NEW 2026-07-16]**
 - 🟡 [概念空间几何（Conceptual Space Geometry）](concepts/conceptual-space-geometry.md) — 语义知识组织于有度量结构的"意义地图"；内嗅皮层六重旋转对称信号编码概念空间导航方向；mPFC编码类别间距离；DSI统一模型：SR≡PMI（空间导航=语义计算）；词语类比="在概念空间中沿方向移动" **[NEW 2026-07-16]**
@@ -356,6 +359,7 @@
 - 🟢 [传导性失语症](diseases/conduction-aphasia.md) — AF直接段/Spt损伤的典型临床表现；三特征：理解完整/产出流利/重复严重受损；conduite d'approche在DIVA前馈/反馈框架中的解释；皮层（Spt）vs 白质（AF）损伤争议 **[NEW 2026-08-21 #119]**
 - 🟢 [SYNGAP1 相关神经发育障碍](diseases/syngap1-related-disorder.md) — de novo SYNGAP1截短突变→SynGAP1单倍剂量不足→Ras-ERK制动减弱→突触提前过度成熟→LTP遮蔽→关键期提前关闭；约1%非综合征性ID；>70%癫痫、~50% ASD；成年期基因治疗前景 **[NEW 2026-09-07 #137]**
 - 🔵 [精神分裂症](diseases/schizophrenia.md) — 回路节律失调的发育性疾病；DLPFC PV+ 细胞 GAD67/PV 分子缄默（非细胞死亡，Hashimoto 2003）→ PING 机制受损 → γ 振荡功率降低 + θ-γ 耦合解体 → 工作记忆认知缺陷；上游机制：NMDAR 低激活（PCP/氯胺酮模型 Javitt 1991）+ GluN2A 选择性 PV 脆弱性（Hosseini 2025）；遗传汇聚：DISC1/NRG1-ErbB4/GRIN2A 三路径汇聚于 PV 细胞，287 GWAS 位点富集于突触生物学（Trubetskoy 2022）；新治疗靶点：Kv3.1/3.2 调节剂/PNN重塑/NMDAR正向调制 **[NEW 2026-09-13 #143; rev2 2026-09-16 #146]**
+- 🟢 [语义变异型PPA（svPPA）](diseases/semantic-variant-ppa.md) — 双侧前颞叶萎缩+腹侧流（ILF+UF+IFOF）选择性退行；跨模态语义丧失，产出流利（背侧流完好）；与nfvPPA形成腹侧vs背侧流白质双离解；TDP-43蛋白病变；腹侧流功能的最清晰"自然实验" **[NEW 2026-10-10 #171]**
 - 🟢 [空间忽视（Hemispatial Neglect）](diseases/spatial-neglect.md) — 右半球腹侧额顶颞网络（TPJ/STG/IPL/VFC及SLF白质）损伤后的多维注意综合征；VAN损伤→DAN半球间失衡→空间偏斜（Corbetta & Shulman 2011）；四维崩塌：感知忽视/运动忽视/表征忽视（Bisiach米兰实验）/病觉缺失；25-50%右侧卒中患者受累；棱镜适应疗法（Rossetti 1998）；恢复依赖网络功能连接归一化（Ramsey et al. 2016）**[NEW 2026-09-24 #154]**
 - 🟢 [胼胝体缺失症（AgCC）](diseases/agenesis-corpus-callosum.md) — 胼胝体先天部分/完全缺失，1/4000；核心缺陷：跨半球传递速度、处理速度、复杂推理/流体智力、社会认知；保留：晶体智力、过度学习技能（IQ通常>80）；代偿：前连合+发育可塑性；先天缺失比成年切除损害更轻（揭示可塑性关键期） **[NEW 2026-09-26 #156]**
 - 🔵 [异手综合征（AHS）](diseases/alien-hand-syndrome.md) — 一只手出现不受意志控制的复杂目的性动作；agency（意志感）与运动执行解离；三亚型（前型/SMA、后型/顶叶、胼胝体型）；corpus-callosum型与裂脑手术相关；是 agency-consciousness 可分离性的临床证明 **[NEW 2026-09-27 #157]**
