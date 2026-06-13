@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 180,
+  "total_articles": 182,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12012,6 +12012,68 @@
         "运动皮层细胞类型（Layer 5 pyramidal tract, CM cells）的突触输入构成与皮质内微回路",
         "脊髓运动网络的冗余与柔性——多肌肉协同（muscle synergies）的计算与神经基础",
         "小脑作为预测编码机器——前向模型与反向模型的神经回路实现"
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 181,
+      "title": "感觉反馈的智慧：最优反馈控制（OFC）如何统一运动计划与实时修正",
+      "slug": "optimal-feedback-control-ofc",
+      "filename": "2026-06-13-optimal-feedback-control-ofc.md",
+      "article_type": "regular",
+      "layer": "whole-brain-network",
+      "topic_tags": [
+        "optimal-feedback-control",
+        "motor-cortex",
+        "forward-model"
+      ],
+      "main_sources": [
+        "PMID:18641064",
+        "PMID:20393566"
+      ],
+      "unresolved_questions": [
+        "Q-ofc-01",
+        "Q-ofc-02",
+        "Q-ofc-03"
+      ],
+      "next_suggested_topics": [
+        "muscle-synergies",
+        "cm-cells"
+      ]
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 182,
+      "title": "运动的降维之道：肌肉协同如何让大脑用少数指令驾驭数百块肌肉",
+      "slug": "muscle-synergies-bernstein",
+      "filename": "2026-06-13-muscle-synergies-bernstein.md",
+      "article_type": "regular",
+      "layer": "microcircuit",
+      "topic_tags": [
+        "muscle-synergies",
+        "spinal-interneurons",
+        "NMF",
+        "degrees-of-freedom"
+      ],
+      "main_sources": [
+        "PMID:23641212",
+        "PMID:16000633",
+        "PMID:28739958",
+        "PMID:30334575",
+        "PMID:22570602"
+      ],
+      "unresolved_questions": [
+        "Q-ms-01",
+        "Q-ms-02",
+        "Q-ms-03",
+        "Q-ms-04"
+      ],
+      "next_suggested_topics": [
+        "motor-cortex-cm-cells",
+        "motor-learning",
+        "cerebellar-forward-model"
       ]
     }
   ],

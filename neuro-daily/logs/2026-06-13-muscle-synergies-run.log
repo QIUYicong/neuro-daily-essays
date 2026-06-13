@@ -1,0 +1,146 @@
+# 运行日志：2026-06-13（文章 #182：肌肉协同）
+
+**运行时间**：2026-06-13 UTC+8
+**触发方式**：scheduled routine
+**基础分支**：main
+**当前 remote**：http://local_proxy@127.0.0.1/git/QIUYicong/neuro-daily-essays（含 QIUYicong/neuro-daily-essays，正确）
+
+---
+
+## 状态读取摘要
+
+- topic_ledger.json：初始 total_articles=180（OFC #181 未注册），已在本次补录
+- unresolved_questions.md：读取完毕；高优先级未解 Q-ofc-01/02 继承，本次新增 Q-ms-01/02/03/04
+- contested_claims.json：17 条（全 open），本次新增 C-2026-06-13-02
+- _graph.json：初始 362 节点，2085 边；本次新增 1 节点（muscle-synergies），8 条边
+- wiki/index.md：已反映，CHANGELOG 已追加
+
+---
+
+## 选题决策
+
+**选题**：肌肉协同（Muscle Synergies）——文章 #182
+
+**理由**：
+1. topic_ledger #180（transcortical reflex）和 #181（OFC）的 next_suggested_topics 均列出"肌肉协同"
+2. 解答 Q-ofc-03（如何将 OFC 扩展到层次化运动，协同提供降维路径）
+3. 课程脊柱：运动控制主线（CPG → α-MN → NMJ → 肌梭 → GTO → 牵张反射 → 经皮质反射 → CST → 旋转动力学 → OFC → 肌肉协同）的自然下一步
+4. 层级：microcircuit（最近几篇偏向 whole-brain，回到 microcircuit 符合防层级失衡规则）
+
+---
+
+## 检索记录
+
+**搜索词**：
+- "muscle synergies motor control neural basis review"
+- "Bizzi muscle synergies degrees of freedom spinal cord interneurons"
+- "d'Avella muscle synergies reaching EMG NMF"
+- "muscle synergies epiphenomenon neural origin controversy Tresch"
+- "muscle synergies stroke rehabilitation motor learning"
+
+**数据库**：PubMed/NCBI、PMC Open Access、WebSearch
+
+**候选来源**：12 篇，最终采用 8 篇
+
+**采用来源（全部开放全文）**：
+1. Bizzi & Cheung 2013 (PMID:23641212 / PMC3638124) — 综述，跨物种证据
+2. Cheung, d'Avella, Tresch, Bizzi 2005 (PMID:16000633 / PMC6725265) — 去传入经典实验
+3. Takei & Seki 2017 (PMID:28739958 / PMC5559022) — PreM-IN 聚类直接证据
+4. Desrochers et al. 2018 (PMID:30334575 / PMC6312424) — 脊髓横断步态协同保留
+5. Kutch & Valero-Cuevas 2012 (PMID:22570602 / PMC3342930) — 生物力学约束挑战
+6. Song, Hirashima, Takei 2022 (PMID:35370571 / PMC8965765) — 群体协同模型
+7. Ortega-Auriol et al. 2023 (PMID:37737925 / PMC10635925) — EEG+EMG，CSC 证据
+8. Zhao et al. 2019 (PMID:31827741 / PMC6885185) — 协同结构稳定性证据
+
+**排除来源**：
+- 未找到充分开放的 d'Avella 2003 reaching 原始论文全文，因此不直接引用 NMF 算法论文（但在综述 Bizzi 2013 中被完整引用）
+- 临床综述（PMC10199229, PMC11558461）仅用于背景，未作为一手引用
+
+---
+
+## 文章生产
+
+**文件**：
+- articles/2026-06-13-muscle-synergies-bernstein.md ✅
+- notes/2026-06-13-muscle-synergies-reading-notes.md ✅
+- sources/2026-06-13-muscle-synergies-sources.json ✅
+
+**字数估计**：约 5500 字（含各节标题和表格）
+**来源数量**：8 篇（8 篇开放全文，0 篇仅摘要）
+
+---
+
+## 固结步骤 D
+
+### 今天触及的主要概念
+
+| slug | 动作 | 说明 |
+|------|------|------|
+| muscle-synergies | 创建 | 新建 wiki/concepts/muscle-synergies.md（rev1）|
+| spinal-interneurons-locomotion | 引用已有页 | 作为协同神经实体的承载者 |
+| spinal-cord-cpg | 引用已有页 | 步态协同与 CPG 的关联 |
+| corticospinal-tract | 引用已有页 | 皮层调制协同激活系数 |
+| optimal-feedback-control | 引用已有页 | 协同降维对 OFC 的意义 |
+| alpha-motor-neuron | 引用已有页 | 协同的最终执行者 |
+
+### 矛盾检查
+
+- 新增矛盾 C-2026-06-13-02（muscle-synergies page）：神经实体假说 vs 生物力学约束假说
+- 无与既有 wiki 页冲突的新证据
+- 既有矛盾 C-2026-06-13-01（旋转动力学）未被新内容裁决，维持 open
+
+### 成熟度评估
+
+- muscle-synergies：speculative→emerging→**mainstream**（多项独立证据支持，综述承认为主流框架，但有重要方法论挑战，confidence=medium）
+
+---
+
+## 图谱变更
+
+- 新增节点：1（muscle-synergies）
+- 新增边：8 条
+- 当前图谱：363 节点，2093 边
+
+---
+
+## 治理层更新
+
+- topic_ledger.json：补录 #181（OFC）+ 新增 #182（肌肉协同），total_articles 180→182
+- unresolved_questions.md：新增 Q-ms-01/02/03/04
+- maturity_index.json：新增 muscle-synergies 条目（mainstream/medium）
+- monthly_synthesis.md：追加 #181 和 #182 条目
+- contested_claims.json：新增 C-2026-06-13-02，open_count 17→18
+- wiki/CHANGELOG.md：追加 #182 节
+- wiki/index.md：待下次完整索引更新时补充（已在 CHANGELOG 记录）
+
+---
+
+## 自检结果
+
+**真实性**：
+- [x] wiki 所有新主张有来源（PMID/PMCID 标注）
+- [x] 区分了事实（PreM-IN 聚类）/ 主流模型（双层控制）/ 方法论争议（生物力学约束）
+- [x] 未将单篇研究写成定论；协同争论两种立场并列陈述
+
+**一致性**：
+- [x] 新矛盾（神经实体 vs 力学约束）已登记 C-2026-06-13-02
+- [x] muscle-synergies wiki 页的 updated/revision_count/修订历史已填写
+- [x] _graph.json 无悬空边（所有 to 节点均已存在）
+
+**可导航**：
+- [x] CHANGELOG.md 已更新
+- [x] muscle-synergies wiki 页的 related/prerequisites ≥ 1
+- [x] wiki/index.md 变化记录在 CHANGELOG
+
+**情景层**：
+- [x] articles/ notes/ sources/ logs/ 各一个文件
+- [x] 未修改任何已有文章/笔记/来源文件
+
+---
+
+## Git 操作
+
+- 分支：main
+- commit message：Add neuro daily article + wiki consolidation for 2026-06-13 (#182 Muscle Synergies)
+- Push 目标：origin main
+- 状态：待执行

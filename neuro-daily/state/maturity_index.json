@@ -365,6 +365,14 @@
       "created": "2026-06-13",
       "last_changed": "2026-06-13",
       "reason": "创建：多条独立证据链（Marsden 1976 timing推断 + Petersen 1998 TMS直接证明 + Pruszynski 2011 Nature猴单神经元+人类TMS + 临床中风研究），且2011 Nature发表，多物种验证。机制为established级别。"
+    },
+    {
+      "slug": "muscle-synergies",
+      "status": "mainstream",
+      "confidence": "medium",
+      "last_changed": "2026-06-13",
+      "change_reason": "初始创建；脊髓中枢起源证据（去传入+横断+PreM-IN聚类）支持 mainstream，但生物力学替代解释（Kutch 2012）尚未被完全排除，故置信度 medium",
+      "source_article": "2026-06-13-muscle-synergies-bernstein"
     }
   ],
   "last_updated": "2026-06-13",
@@ -414,7 +422,7 @@
       "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
     }
   ],
-  "total_pages": 39,
+  "total_pages": 41,
   "syngap1": {
     "status": "established",
     "confidence": "high",

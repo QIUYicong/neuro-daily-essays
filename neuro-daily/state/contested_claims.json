@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 13,
+  "open_count": 18,
   "resolved_count": 0,
   "claims": [
     {
@@ -218,6 +218,17 @@
         "Q-ofc-04",
         "Q-mc-01"
       ]
+    },
+    {
+      "id": "C-2026-06-13-02",
+      "page": "wiki/concepts/muscle-synergies.md",
+      "claim_A": "肌肉协同有真实神经实体：脊髓 PreM-IN 以聚类方式投射到对应协同的肌肉组（Takei & Seki 2017, PMID:28739958）；去传入和脊髓横断后协同保留（PMID:16000633, 30334575），证明中枢起源",
+      "claim_B": "生物力学约束足以产生低维 EMG 模式（Kutch & Valero-Cuevas 2012, PMID:22570602）：可行力空间低维性使任何运动策略都产生类协同的 EMG，无需神经模块化；现有研究未充分控制非神经因素，神经起源证明门槛未被满足",
+      "nature": "神经实体 vs 统计/力学伪影；两种解释的实验预测大量重叠，难以区分",
+      "status": "open",
+      "opened": "2026-06-13",
+      "resolution_criteria": "选择性阻断特定 PreM-IN 簇（如光遗传学）后对应协同消失，同时控制力学变量；或在力学约束被精确匹配但 PreM-IN 簇活动被阻断后协同仍然消失",
+      "source_article": "2026-06-13-muscle-synergies-bernstein"
     }
   ]
 }

@@ -4,6 +4,21 @@
 
 ---
 
+## 2026-06-13（文章 #182：运动的降维之道——肌肉协同）
+
+**创建新页**：
+- `wiki/concepts/muscle-synergies.md`（rev1）：肌肉协同（Muscle Synergies）——伯恩斯坦自由度问题的降维解；NMF提取方法；脊髓中枢起源证据（去传入实验、脊髓横断、PreM-IN聚类）；生物力学约束替代假说（Kutch 2012）；皮层通过CSC调制协同激活系数（Ortega-Auriol 2023）；与OFC框架的整合；中风后协同合并作为生物标志物；status=mainstream, confidence=medium
+
+**修订页面**：无（本次主要创建新页）
+
+**图谱变更**：363 节点（+1: muscle-synergies）；2093 边（+8 条新边：muscle-synergies↔spinal-interneurons-locomotion, ↔spinal-cord-cpg, ↔alpha-motor-neuron, CST→muscle-synergies, M1→muscle-synergies, ↔optimal-feedback-control, ↔rotational-dynamics-motor）
+
+**登记矛盾**：muscle-synergies 整体（神经起源 vs 生物力学约束）记入 contested_claims
+
+**新增悬空引用**：无
+
+---
+
 ## 2026-06-13（文章 #181：最优反馈控制 OFC）
 
 **创建新页**：
