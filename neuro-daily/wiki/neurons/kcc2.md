@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-13
-updated: 2026-06-13
-revision_count: 1
+updated: 2026-06-14
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, disease]
-related: [gaba-polarity-switch, nkcc1, gaba, temporal-lobe-epilepsy, ei-balance, adult-neurogenesis, critical-period, bdnf-trkb, wnt-signaling]
+related: [gaba-polarity-switch, nkcc1, gaba, temporal-lobe-epilepsy, ei-balance, adult-neurogenesis, critical-period, bdnf-trkb, wnt-signaling, central-sensitization, nociception, microglia]
 prerequisites: [membrane-potential, synaptic-transmission, gaba]
 opens_questions: [Q-kcc2-01, Q-kcc2-02, Q-kcc2-03]
 source_articles: [2026-06-13-kcc2-gaba-polarity-switch]
@@ -69,16 +69,34 @@ KCC2 以 Na⁺/K⁺-ATPase 建立的 K⁺ 梯度（细胞内高 K⁺、细胞外
 - [[critical-period]] — KCC2 上调是 PV 细胞成熟和关键期开放的前提
 - [[bdnf-trkb]] — BDNF-TrkB 双向调控 KCC2（发育上调 + 癫痫后下调）
 - [[adult-neurogenesis]] — 新生神经元在整合过程中经历 NKCC1→KCC2 的氯离子稳态成熟
+- [[central-sensitization]] — KCC2 下调是慢性神经病理性疼痛的核心分子机制之一
+- [[nociception]] — 脊髓背角 KCC2 功能决定 GABA 抑制性闸门效率
+- [[microglia]] — 激活小胶质细胞释放 BDNF→TrkB→KCC2 磷酸化，是慢性痛 KCC2 下调的上游机制
+
+## 慢性疼痛中的 KCC2（补充，来自 #190）
+
+脊髓背角 KCC2 在神经病理性疼痛模型（SNI、CCI、SNL）中显著下调，导致脊髓抑制性中间神经元的 GABA 效应从超极化（抑制）转变为去极化（兴奋），使脊髓闸门（Gate Control）失效。
+
+**机制链**：
+1. 周围神经损伤 → 初级传入持续释放 fractalkine/ATP
+2. 脊髓小胶质细胞激活（P2X4/P2X7）→ BDNF 释放量大幅增加
+3. BDNF 激活背角神经元 TrkB → 多个信号级联磷酸化/去稳定 KCC2
+4. [Cl⁻]ᵢ 升高 → E_GABA 去极化偏移 → 抑制性突触功能缺失
+5. 脊髓兴奋性净增 → 中枢敏化建立与维持
+
+**药理意义**：KCC2 增强剂（CLP290、kenpaullone 的 KCC2 靶向衍生物）在啮齿类神经病理性痛模型中表现出镇痛效果，是区别于传统止痛药的新型靶点方向。
 
 ## 未解问题
 
 - Q-kcc2-01：人类不同脑区 GABA 极性切换的精确时间线是什么？
 - Q-kcc2-02：WNK-SPAK/OSR1 轴在发育中如何被程序性下调？上游信号是什么？
 - Q-kcc2-03：系统性增强 KCC2 作为治疗靶点的安全性如何（特别是保留氯离子动态调节的需要）？
+- Q-kcc2-04：脊髓背角 KCC2 下调的空间分布是否节段特异性（对应损伤节段 vs 泛化）？
 
 ## 修订历史
 
 - 2026-06-13 · 创建 · 基于《大脑如何学会说"不"：KCC2、氯离子稳态与 GABA 极性切换》(#189)；来源：Kaila 2014/Watanabe 2019/Tang 2020/Rivera 1999 · 初始置信度：高
+- 2026-06-14 · 修订（rev1→rev2）· 基于《伤害感受≠疼痛体验》(#190) · 新增：慢性疼痛中 KCC2 下调机制（小胶质细胞-BDNF-TrkB-KCC2 轴）、镇痛药物靶点；related 新增 central-sensitization/nociception/microglia；opens_questions 新增 Q-kcc2-04
 
 ## 来源文章
 

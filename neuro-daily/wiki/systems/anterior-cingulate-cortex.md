@@ -6,10 +6,10 @@ type: region
 status: established
 confidence: high
 created: 2026-08-29
-updated: 2026-08-30
-revision_count: 2
+updated: 2026-06-14
+revision_count: 3
 dimensions: [brain-region, cognition, behavior, microcircuit]
-related: [working-memory, dopamine-reward-prediction-error, prefrontal-cortex, three-factor-learning-rule, error-related-negativity, basal-ganglia, orbitofrontal-cortex, pv-interneurons, dlpfc-rule-encoding, frontal-hierarchy, mixed-selectivity]
+related: [working-memory, dopamine-reward-prediction-error, prefrontal-cortex, three-factor-learning-rule, error-related-negativity, basal-ganglia, orbitofrontal-cortex, pv-interneurons, dlpfc-rule-encoding, frontal-hierarchy, mixed-selectivity, pain-matrix, nociception, descending-pain-modulation]
 prerequisites: [dopamine-reward-prediction-error, prefrontal-cortex, synaptic-transmission]
 opens_questions: [Q-acc-evc-vs-conflict, Q-acc-subregion-boundary, Q-acc-ern-dopamine-causal]
 source_articles: [2026-08-29-anterior-cingulate-cortex-evc-cognitive-control, 2026-08-30-dlpfc-mixed-selectivity-rule-encoding]
@@ -101,16 +101,31 @@ RPE 信号（来自多巴胺系统）    →  dACC/aMCC
 - [[basal-ganglia]] — 纹状体接收来自 ACC 的行动价值信号；BG-ACC 共同构成动作选择回路
 - [[error-related-negativity]] — ERN 是 dACC 活动的宏观 EEG 标志物
 
+## ACC 在疼痛处理中的角色（补充，来自 #190）
+
+前扣带皮层（特别是 aMCC/rACC）是疼痛矩阵情感-动机通路的核心节点：
+
+- **痛觉不愉快感**：Rainville et al. 1997 经典催眠研究证明，催眠可选择性改变痛的不愉快感（ACC 活动改变），而不改变感觉强度（S1 不变），直接建立 ACC↔不愉快感的因果关系
+- **下行调制的皮质驱动**：ACC 通过投射至 PAG（中脑导水管周围灰质），是情绪→下行镇痛（PAG→RVM→脊髓）路径的起点
+- **安慰剂镇痛**：rACC 激活幅度与安慰剂镇痛效果正相关（Wager et al. 2004, *Science* 303:1162）
+- **慢性痛的 ACC 变化**：慢性痛患者 ACC 灰质体积减少；默认模式网络（ACC 为核心）与疼痛回路异常连接增强
+
+**pgACC vs aMCC 的分工**（与认知控制分工不同）：
+- pgACC（BA25/32v）：情绪调制、安慰剂镇痛效果较强、与内脏自主神经直接联系
+- aMCC（BA24 尾侧）：痛觉引起的行为驱动（逃避动机、努力-奖励整合）
+
 ## 未解问题
 
 - Q-acc-evc-vs-conflict（高优先级）：dACC 是纯粹的 EVC 计算器，还是冲突检测是其独立功能之一？需要在控制冲突和 EVC 单独变化的实验设计中直接对比
 - Q-acc-subregion-boundary（高优先级）：dACC 和 aMCC 的功能边界在人类 7T fMRI 或 iEEG 中是否能被清楚定义？
 - Q-acc-ern-dopamine-causal（中优先级）：ERN 与 ACC 的 DA 释放是否有直接因果链？需要 fMRS 或 PET-EEG 联合测量
+- Q-acc-pain-cog-overlap（中优先级）：ACC 的认知控制功能与痛觉情感功能是否共享神经元群体？还是存在可分离的子区域？
 
 ## 修订历史
 
 - 2026-08-29 · 创建 · 基于《大脑的成本-效益计算器》一文（#129） · 涵盖冲突监测、ERN-DA理论、行动价值学习、EVC框架、反事实奖励 · 初始置信度：高（脑区解剖+功能有强实验证据；EVC整合框架有部分直接验证）
 - 2026-08-30 · 修订（rev1→rev2）· 基于《前额叶皮层的高维秘密》(#130) · 新增 dACC→DLPFC 控制调度连接；related 新增 dlpfc-rule-encoding/frontal-hierarchy/mixed-selectivity；来源文章新增 #130
+- 2026-06-14 · 修订（rev2→rev3）· 基于《伤害感受≠疼痛体验》(#190) · 新增：ACC 在疼痛矩阵中的角色（痛觉不愉快感催眠证据、安慰剂镇痛、pgACC vs aMCC 分工）；related 新增 pain-matrix/nociception/descending-pain-modulation；opens_questions 新增 Q-acc-pain-cog-overlap
 
 ## 来源文章
 

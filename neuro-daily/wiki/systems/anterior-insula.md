@@ -6,10 +6,10 @@ type: region
 status: established
 confidence: high
 created: 2026-07-26
-updated: 2026-07-26
-revision_count: 1
+updated: 2026-06-14
+revision_count: 2
 dimensions: [brain-region, cellular, cognition, whole-brain-network]
-related: [interoception, empathy, von-economo-neurons, amygdala, anterior-cingulate-cortex, insula-posterior, tpj-temporoparietal-junction, default-mode-network, predictive-coding]
+related: [interoception, empathy, von-economo-neurons, amygdala, anterior-cingulate-cortex, insula-posterior, tpj-temporoparietal-junction, default-mode-network, predictive-coding, pain-matrix, nociception, central-sensitization]
 prerequisites: [interoception, synaptic-transmission, action-potential]
 opens_questions: [Q-aic-01, Q-empathy-01, Q-ven-01]
 source_articles: [2026-07-26-empathy-anterior-insula-acc]
@@ -70,14 +70,27 @@ key_sources: ["PMID:22961548", "PMID:20220007", "PMID:23749500", "PMID:26016744"
 - [[default-mode-network]] — AIC 是 DMN 的组成部分，参与内感受与自我意识
 - [[theory-of-mind]] — AIC（情感共情）vs 心智化网络（认知共情）的功能双分离
 
+## 前岛叶与疼痛处理（补充，来自 #190）
+
+前岛叶（特别是前部无颗粒区）是疼痛矩阵（Pain Matrix）的情感-动机通路核心成员：
+
+- **痛觉不愉快感**：前岛叶激活与主观痛苦强度正相关（不仅是感觉强度）
+- **预期性痛觉**：疼痛预期时（即使刺激未到来），前岛叶已明显激活——体现其"内感受预测"功能
+- **痛觉不对称性（Pain Asymbolia）**：前岛叶损伤患者可感知疼痛的感觉成分，但报告"没有不愉快"——直接证明前岛叶是不愉快感的必要底物
+- **慢性痛的岛叶变化**：慢性疼痛患者岛叶灰质体积减小（尤其前部）；静息态 AI-ACC 功能连接强度预测慢性腰痛转归
+
+Craig（2003）提出，前岛叶是"第三躯体感觉皮层"（第三 S3）——专门编码内感受信息（包括痛觉）的情感维度，而非单纯感觉强度。这与其接受 VPM（丘脑腹后内侧核）和 VMpo（腹后内侧核后部）的 Lamina I 输入密切相关。
+
 ## 未解问题
 
 - Q-aic-01：前岛叶激活的特异性问题——是情感通用信号还是共情专属？（高优先级）
 - Q-empathy-01：特质性共情的稳定神经基础（灰质体积 vs 功能连接）
+- Q-aic-02：前岛叶对痛觉不愉快感是否因果必要？Pain Asymbolia 病例数量有限，需更多证据
 
 ## 修订历史
 
 - 2026-07-26 · 创建 · 基于《感同身受的神经密码》· 初始置信度：高 · 核心来源：PMID:22961548, PMID:20220007, PMID:23749500, PMID:26016744, PMID:30985277
+- 2026-06-14 · 修订（rev1→rev2）· 基于《伤害感受≠疼痛体验》(#190) · 新增：前岛叶在疼痛矩阵中的角色（痛觉不愉快感、Pain Asymbolia、慢性痛灰质减少）；related 新增 pain-matrix/nociception/central-sensitization；opens_questions 新增 Q-aic-02
 
 ## 来源文章
 

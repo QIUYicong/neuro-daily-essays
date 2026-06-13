@@ -393,7 +393,7 @@
       "change_reason": "新建页面（#189）；跨物种证据充分；机制通路（NKCC1/KCC2 比例）已是教科书级"
     }
   ],
-  "last_updated": "2026-06-13",
+  "last_updated": "2026-06-14",
   "index": [
     {
       "slug": "thalamocortical-axons",
@@ -440,7 +440,7 @@
       "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
     }
   ],
-  "total_pages": 41,
+  "total_pages": 46,
   "syngap1": {
     "status": "established",
     "confidence": "high",
@@ -612,5 +612,60 @@
     "change_reason": "修订 rev1→rev2（2026-09-29 #159）：新增 Maschke 2024（临界动力学作为 PCI 机制替代解释）；新增 Stikvoort 2025（非平衡有效连接框架）；新增 Xu 2024 rTMS RCT（N=40，35%响应者，PCIst预测疗效）；新增 Hagan 2026 AD 应用（PCIst 20.1 vs 28.2）；新增 Fecchio 2026 ICU 应用。状态保持 established/high：PCI 方法本身有强多中心验证（Casali 2013，Casarotto 2016），临床扩展持续增长；但机制解释（Φ vs 临界性 vs 非平衡）有三方竞争（Q-pci-01）——这影响理论意义而不影响临床有效性",
     "previous_status": "established/high",
     "source_article": "2026-09-29-phi-computation-pci-consciousness-measurement"
+  },
+  "nociception": {
+    "slug": "nociception",
+    "title": "伤害感受（Nociception）",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-06-14",
+    "change_reason": "新建 rev1（2026-06-14 #190）：伤害感受基础机制，A-δ/C纤维、TRPV1/TRPA1/Nav1.7、外周敏化、脊髓背角处理",
+    "previous_status": null,
+    "source_article": "2026-06-14-nociception-pain-pathways"
+  },
+  "gate-control-theory": {
+    "slug": "gate-control-theory",
+    "title": "闸门控制理论（Gate Control Theory）",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-06-14",
+    "change_reason": "新建 rev1（2026-06-14 #190）：Melzack & Wall 1965闸门机制、SG抑制神经元、TENS/SCS应用",
+    "previous_status": null,
+    "source_article": "2026-06-14-nociception-pain-pathways"
+  },
+  "central-sensitization": {
+    "slug": "central-sensitization",
+    "title": "中枢敏化（Central Sensitization）",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-06-14",
+    "change_reason": "新建 rev1（2026-06-14 #190）：NMDA wind-up、KCC2下调机制、小胶质细胞-BDNF-TrkB轴、临床表现三联征",
+    "previous_status": null,
+    "source_article": "2026-06-14-nociception-pain-pathways"
+  },
+  "descending-pain-modulation": {
+    "slug": "descending-pain-modulation",
+    "title": "下行疼痛调制（Descending Pain Modulation）",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-06-14",
+    "change_reason": "新建 rev1（2026-06-14 #190）：PAG-RVM三节点回路、ON/OFF细胞、内源性阿片系统、安慰剂/SIA",
+    "previous_status": null,
+    "source_article": "2026-06-14-nociception-pain-pathways"
+  },
+  "pain-matrix": {
+    "slug": "pain-matrix",
+    "title": "疼痛矩阵（Pain Matrix）",
+    "status": "established",
+    "confidence": "moderate",
+    "revision_count": 1,
+    "last_changed": "2026-06-14",
+    "change_reason": "新建 rev1（2026-06-14 #190）：双通路模型（外侧感觉-辨别/内侧情感-动机）、各成分功能、fMRI元分析、显著性网络争议",
+    "previous_status": null,
+    "source_article": "2026-06-14-nociception-pain-pathways"
   }
 }

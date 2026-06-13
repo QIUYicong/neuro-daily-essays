@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#189** 大脑如何学会说"不"——KCC2、氯离子稳态与 GABA 极性切换；新建 2 页：kcc2（neurons）、gaba-polarity-switch（concepts）；修订 1 页：gaba rev2；图谱 **373** 节点，**2159** 边）· 主题页总数：**331**
+> 最后更新：2026-06-14（**#190** 伤害感受≠疼痛体验——大脑如何将分子警报转化为主观苦难；新建 5 页：nociception（concepts）、gate-control-theory（concepts）、central-sensitization（concepts）、descending-pain-modulation（concepts）、pain-matrix（systems）；修订 4 页：kcc2 rev2、anterior-insula rev2、anterior-cingulate-cortex rev3、microglia rev3；图谱 **378** 节点，**2173** 边）· 主题页总数：**336**
 
 ---
 
@@ -56,6 +56,10 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [伤害感受（Nociception）](concepts/nociception.md) — 外周伤害性信号换能机制；A-δ/C 纤维速度与功能；TRPV1（43°C热阈）/TRPA1/Nav1.7 分子门；外周敏化；脊髓背角 Rexed 层处理；Nav1.7 突变→先天性无痛症（CIP）**[NEW 2026-06-14 #190]**
+- 🟢 [闸门控制理论（Gate Control Theory）](concepts/gate-control-theory.md) — Melzack & Wall 1965 *Science*；A-β 关闭/A-δ-C 开启闸门；SG 抑制性中间神经元；TENS/SCS 的理论基础；下行控制整合；1980 年代甘氨酸能/GABA 能分子层面修订 **[NEW 2026-06-14 #190]**
+- 🟢 [中枢敏化（Central Sensitization）](concepts/central-sensitization.md) — NMDA wind-up（C 纤维重复→Mg²⁺ 阻断解除→Ca²⁺ LTP）；KCC2 下调（小胶质细胞-BDNF-TrkB 轴）；GABA 去极化→闸门失效；临床三联征（痛觉超敏/异常性疼痛/时间总和增强）；慢性痛综合征 **[NEW 2026-06-14 #190]**
+- 🟢 [下行疼痛调制（Descending Pain Modulation）](concepts/descending-pain-modulation.md) — PAG（vlPAG）→ RVM（ON/OFF 细胞）→脊髓三节点回路；内源性阿片系统（β-内啡肽/脑啡肽/强啡肽）；安慰剂镇痛（rACC→PAG）；应激诱发镇痛（SIA）；慢性痛下行易化占优 **[NEW 2026-06-14 #190]**
 - 🔵 [齿状回门控](concepts/dentate-gyrus-gate.md) — 颗粒细胞极度超极化（-80mV）+ 强频率适应 + HIPP细胞反馈抑制，正常时过滤EC→CA3信息流（实现模式分离+防癫痫扩散）；TLE中失效是发作起点；异位颗粒细胞加剧失控 **[NEW 2026-06-13 #188]**
 - 🟢 [运动控制层级](concepts/motor-system-hierarchy.md) — 五层下行通路（皮层→CPG→α-MN→NMJ→肌肉）×两路感觉反馈（肌梭长度+GTO力量）×小脑预测性校正；四设计原则（分层分工/预测+反应/动态重配置/进化馈赠）；整合 #166-#174 七篇运动系统文章 **[NEW 2026-06-13 #175]**
 - 🟢 [自身抑制](concepts/autogenic-inhibition.md) — GTO Ib 传入→甘氨酸能抑制性中间神经元→同肌 α-MN 抑制（逆肌牵张反射）；步态站立相 Ib 切换机制；H 反射范式；帕金森 Ib 抑制减弱；脊髓损伤 Ib 保留 **[NEW 2026-06-13 #174]**
@@ -301,6 +305,7 @@
 
 ## systems（系统）
 
+- 🔵 [疼痛矩阵（Pain Matrix）](systems/pain-matrix.md) — 双通路模型：外侧（S1/S2→感觉辨别）+ 内侧（ACC/AI→情感动机）；丘脑 VPL/MD 分别中继；Rainville 1997 催眠实验分离两通路；Pain Asymbolia（岛叶损伤→痛而不苦）；显著性网络争议（Iannetti 2010）；慢性痛默认模式网络解耦 **[NEW 2026-06-14 #190]**
 - 🟢 [内侧隔核](systems/medial-septum.md) — MS-DBB：θ振荡主要起搏器；胆碱能+GABAergic向海马投射；MS冷却实验（Petersen 2020）：距离-相位压缩保留（P=0.92）但行为错误+3倍；θ序列以相位为坐标而非绝对时间的直接证据；填补悬空引用 **[NEW 2026-09-18 #148]**
 - 🟢 [胼胝体](systems/corpus-callosum.md) — 人脑最大白质结构，含2-8亿轴突（70%有髓鞘）；五段拓扑：genu→额叶，body→运动/感觉，isthmus→听觉，splenium→视觉；纤维直径梯度（膝部细→峡部粗）；发育后→前，前额叶连接约25岁成熟；跨胼抑制维持单侧运动/注意精确性；裂脑手术产生感知分裂（意识是否真分裂仍争议）；填补图谱悬空引用 **[NEW 2026-09-26 #156]**
 - 🟢 [前连合](systems/anterior-commissure.md) — 人脑最古老的半球间联合纤维（系统发育早于胼胝体，有袋类/单孔目仅有此纤维）；前肢=嗅觉皮层双侧连接；后肢=颞极/杏仁核/颞中下回；含约400万轴突（~胼胝体的1/100）；AgCC 中可代偿性扩大（Barr 2002）；标准裂脑手术保留此结构——可能是裂脑患者部分意识整合的结构基础；Starkweather 2026（iEEG）直接证明其参与 OFC 跨半球快速通信 **[NEW 2026-10-03 #163 · 填补悬空引用]**

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13",
+  "last_updated": "2026-06-14",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -13201,9 +13201,164 @@
         "calpain"
       ],
       "access": "abstract_only"
+    },
+    {
+      "id": "SR-PMC2964977",
+      "pmcid": "PMC2964977",
+      "pmid": "20877469",
+      "title": "Nociceptors: the sensors of the pain pathway",
+      "authors": "Dubin AE, Patapoutian A",
+      "journal": "Journal of Clinical Investigation",
+      "year": 2010,
+      "used_in_articles": [
+        190
+      ],
+      "covers": [
+        "nociceptors",
+        "TRPV1",
+        "TRPA1",
+        "Nav1.7",
+        "Nav1.8",
+        "Nav1.9",
+        "A-delta",
+        "C fibers"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "id": "SR-PMC4676495",
+      "pmcid": "PMC4676495",
+      "title": "Theories of pain: from specificity to gate control",
+      "authors": "Moayedi M, Davis KD",
+      "journal": "Journal of Neurophysiology",
+      "year": 2013,
+      "used_in_articles": [
+        190
+      ],
+      "covers": [
+        "gate-control-theory",
+        "Melzack Wall 1965",
+        "specificity theory",
+        "pain history"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "id": "SR-PMC3438523",
+      "pmcid": "PMC3438523",
+      "title": "Cellular and molecular mechanisms of pain",
+      "authors": "Basbaum AI, Bautista DM, Scherrer G, Julius D",
+      "journal": "Cell",
+      "year": 2009,
+      "used_in_articles": [
+        190
+      ],
+      "covers": [
+        "nociception",
+        "peripheral sensitization",
+        "spinal cord",
+        "ascending pathways",
+        "central sensitization"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "id": "SR-PMC7954910",
+      "pmcid": "PMC7954910",
+      "title": "Spinal and supraspinal processing of pain: mechanisms and clinical implications",
+      "authors": "Prescott SA et al.",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2014,
+      "used_in_articles": [
+        190
+      ],
+      "covers": [
+        "spinal cord dorsal horn",
+        "gate control",
+        "ascending pathways",
+        "central sensitization"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "id": "SR-PMC11786554",
+      "pmcid": "PMC11786554",
+      "title": "Central sensitization: implications for the diagnosis and treatment of pain",
+      "authors": "Woolf CJ",
+      "journal": "Pain",
+      "year": 2011,
+      "used_in_articles": [
+        190
+      ],
+      "covers": [
+        "central sensitization",
+        "NMDA wind-up",
+        "allodynia",
+        "hyperalgesia",
+        "chronic pain"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "id": "SR-PMC8933754",
+      "pmcid": "PMC8933754",
+      "title": "Neuroinflammation in the spinal cord and its role in chronic pain",
+      "authors": "Ji RR et al.",
+      "journal": "Neuron",
+      "year": 2018,
+      "used_in_articles": [
+        190
+      ],
+      "covers": [
+        "neuroinflammation",
+        "microglia",
+        "BDNF",
+        "KCC2",
+        "central sensitization",
+        "chronic pain"
+      ],
+      "access": "open_full_text"
+    },
+    {
+      "id": "SR-5320816",
+      "pmid": "5320816",
+      "title": "Pain mechanisms: a new theory",
+      "authors": "Melzack R, Wall PD",
+      "journal": "Science",
+      "year": 1965,
+      "used_in_articles": [
+        190
+      ],
+      "covers": [
+        "gate-control-theory",
+        "spinal cord",
+        "substantia gelatinosa",
+        "pain gating"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "id": "SR-COULL2005",
+      "pmid": "16339447",
+      "title": "Trans-synaptic shift in anion gradient in spinal lamina I neurons as a mechanism of neuropathic pain",
+      "authors": "Coull JA et al.",
+      "journal": "Nature",
+      "year": 2005,
+      "used_in_articles": [
+        190
+      ],
+      "covers": [
+        "KCC2",
+        "BDNF",
+        "microglia",
+        "neuropathic pain",
+        "chloride",
+        "allodynia"
+      ],
+      "access": "abstract_only"
     }
   ],
-  "total_sources": 806,
+  "total_sources": 814,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -15650,5 +15805,15 @@
       }
     ],
     "note": "α运动神经元生理学：大小原则+PICs"
-  }
+  },
+  "additions_2026-06-14": [
+    "SR-PMC2964977",
+    "SR-PMC4676495",
+    "SR-PMC3438523",
+    "SR-PMC7954910",
+    "SR-PMC11786554",
+    "SR-PMC8933754",
+    "SR-5320816",
+    "SR-COULL2005"
+  ]
 }

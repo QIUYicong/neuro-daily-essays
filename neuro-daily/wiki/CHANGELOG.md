@@ -4219,3 +4219,45 @@
 - Q-kcc2-01（高）：人类不同脑区 GABA 极性切换的精确时间线？
 - Q-kcc2-02（高）：WNK-SPAK/OSR1 轴在发育中程序性下调的上游调控机制？
 - Q-kcc2-03（中）：系统性 KCC2 增强治疗的安全性边界？
+
+---
+
+## 2026-06-14 · 文章 #190 · 伤害感受与疼痛通路
+
+**文章**：伤害感受≠疼痛体验：大脑如何将分子警报转化为主观苦难
+
+### 新建页面（5 页）
+
+| 页面 | 路径 | 域 | 状态 |
+|---|---|---|---|
+| 伤害感受（Nociception） | `concepts/nociception.md` | concepts | established/high |
+| 闸门控制理论（Gate Control Theory） | `concepts/gate-control-theory.md` | concepts | established/high |
+| 中枢敏化（Central Sensitization） | `concepts/central-sensitization.md` | concepts | established/high |
+| 下行疼痛调制（Descending Pain Modulation） | `concepts/descending-pain-modulation.md` | concepts | established/high |
+| 疼痛矩阵（Pain Matrix） | `systems/pain-matrix.md` | systems | established/moderate |
+
+### 修订页面（4 页）
+
+| 页面 | 修订 | 修改内容 |
+|---|---|---|
+| `neurons/kcc2.md` | rev1→rev2 | 新增慢性疼痛中KCC2下调机制（小胶质细胞-BDNF-TrkB-KCC2轴、CLP290镇痛靶点）；related新增3个；新增Q-kcc2-04 |
+| `systems/anterior-insula.md` | rev1→rev2 | 新增前岛叶在疼痛矩阵角色（痛觉不愉快感、Pain Asymbolia、慢性痛灰质减少、Craig S3理论）；related新增3个；新增Q-aic-02 |
+| `systems/anterior-cingulate-cortex.md` | rev2→rev3 | 新增ACC疼痛处理角色（Rainville 1997催眠实验、安慰剂镇痛rACC→PAG通路、pgACC vs aMCC分工）；related新增3个；新增Q-acc-pain-cog-overlap |
+| `neurons/microglia.md` | rev2→rev3 | 新增脊髓小胶质细胞与慢性疼痛（P2X4/P2X7激活、BDNF→TrkB→KCC2、Coull 2005里程碑证据）；related新增3个 |
+
+### 知识图谱变更
+
+- 新节点（5）：nociception, gate-control-theory, central-sensitization, descending-pain-modulation, pain-matrix
+- 新边（14）：疼痛通路核心关系链
+- 图谱统计：378 节点，2173 边（之前：373 节点，2159 边）
+
+### 新增未解问题（7 条）
+
+- Q-pain-01（高）：C纤维功能亚型的脊髓投射目标差异与疼痛类型对应关系？
+- Q-pain-02（高）：脊髓闸门在自然行为中的实时动态（体内双光子钙成像可行性）？
+- Q-pain-03（中）：疼痛矩阵意识必要成分——Pain Asymbolia 病例数量是否足够推断因果？
+- Q-pain-04（高）：中枢敏化临界点及KCC2恢复策略的安全性边界？
+- Q-kcc2-04（中）：脊髓背角KCC2下调的节段特异性分布？
+- Q-aic-02（中）：前岛叶对痛觉不愉快感的因果必要性？
+- Q-acc-pain-cog-overlap（中）：ACC认知控制功能与痛觉情感功能是否共享神经元群体？
+

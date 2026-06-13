@@ -1286,3 +1286,12 @@ OFC 框架（Todorov & Jordan 2002）的核心洞见：大脑不预计算完整�
 PF-PC LTD 作为小脑运动学习的经典机制（Marr-Albus-Ito）受到多重挑战：Schonewille 2011 证明 AMPAR 内吞阻断不影响多种运动学习。最新计算模型（Zhu 2024）揭示 PF-PC LTD + PF-MLI LTP（方向相反！）需协同运作；单位点失效可被另一路径补偿。Wang 2023 发现激发性核橄榄通路（顶核→IO 谷氨酸能），表明小脑可自主产生 CF 误差信号。Nguyen & Person 2025 提出高维颗粒细胞编码支持 model-free implicit mappings，挑战明确内部模型假说。完成运动学习三联体（BG括号化/#184，皮质纹状体LTD/#185，小脑分布式/#186）。下一步：运动技能学习的三系统整合或转入情绪/认知控制路线。
 
 *6-13 #189 KCC2 与 GABA 极性切换（发育 × 疾病）：大脑抑制的主动建立原理。NKCC1（幼年 Cl⁻ 进口商）→ KCC2（成熟 Cl⁻ 出口商）的发育性比例翻转决定 EGABA 极性；WNK-SPAK/OSR1 激酶对 T906/T1007 的磷酸化在幼年期静默 KCC2，发育中脱磷酸化 >95% 激活 KCC2（转运效率提升 >10x）；T906E/T1007E 敲入小鼠出生后 4-12h 死于呼吸衰竭（Watanabe et al. 2019, PMC7219477）。催产素在分娩期间短暂抑制 NKCC1→出生时保护窗（Tyzio 2014 Science）；自闭症模型中此窗缺失。KCC2 失调是 TLE 发作恶性循环（calpain 切割）、慢性神经病理性疼痛（背角脱抑制）、Rett 综合征（MeCP2→KCC2↓）的共同分子底层。新建 2 页（kcc2, gaba-polarity-switch），修订 1 页（gaba rev2），图谱 373 节点 2159 边；Q-kcc2-01/02/03 新增。5 篇开放全文。*
+
+**#190（2026-06-14）**：伤害感受≠疼痛体验——大脑如何将分子警报转化为主观苦难
+
+本文系统梳理了从外周伤害感受换能到皮质主观疼痛体验的完整信号链，并深入阐明慢性痛的分子机制。核心叙事：**疼痛不是外周损伤的被动感知，而是大脑在七个处理站（外周换能 → 脊髓闸门 → 脊髓丘脑束 → 丘脑 → 皮质矩阵 → 下行调制 ← 中枢敏化）主动构建的多维体验；伤害感受（nociception，神经信号）与疼痛（pain，主观体验）的分离是理解安慰剂效应、应激镇痛、慢性痛和情绪-痛觉交互的关键**。
+
+关键机制五点：（1）**外周换能**：TRPV1（热/辣椒素，43°C 阈值）、TRPA1（寒冷/芥末/化学）、Nav1.7（缺失→先天性无痛症 CIP，增益→家族性红斑肢痛症）是周围神经痛觉感受的分子门；A-δ（有髓，5-30 m/s）传递急性锐痛，C 纤维（无髓，0.5-2 m/s）传递持续灼痛；（2）**脊髓闸门**：Melzack & Wall 1965 的闸门控制理论（PMID:5320816）揭示 A-β 触觉纤维激活 SG 抑制神经元可"关闭"伤害感受传导——TENS 和脊髓刺激（SCS）的理论基础；（3）**双通路上行**：外侧脊丘束（S1/S2，感觉辨别：位置+强度）与内侧脊丘束（ACC/岛叶，情感动机：不愉快感+厌恶性），Rainville et al. 1997 催眠实验直接分离两通路；（4）**下行调制**：PAG（vlPAG）→ RVM（ON/OFF 细胞）→ 脊髓三节点回路；ON 细胞易化，OFF 细胞抑制（阿片类药物通过激活 OFF 细胞发挥作用）；安慰剂镇痛 = rACC 驱动 PAG OFF 细胞激活（内源性阿片释放）；（5）**中枢敏化**：NMDA wind-up（C 纤维 >0.3 Hz → Mg²⁺ 阻断解除 → Ca²⁺ 内流 → LTP 样可塑性）× 小胶质细胞激活（P2X4/P2X7）→ BDNF 释放 → TrkB → KCC2 磷酸化下调 → GABA 由抑制转去极化 → 闸门失效（Coull et al. 2005, *Nature* 438，直接证明脊髓小胶质细胞注射可诱发 allodynia）。
+
+新建 wiki 5 页：nociception（concepts）、gate-control-theory（concepts）、central-sensitization（concepts）、descending-pain-modulation（concepts）、pain-matrix（systems）。修订 4 页：kcc2（rev1→rev2，慢性痛 BDNF-TrkB-KCC2 轴）、anterior-insula（rev1→rev2，Pain Asymbolia 与不愉快感）、anterior-cingulate-cortex（rev2→rev3，催眠证据+安慰剂镇痛）、microglia（rev2→rev3，脊髓小胶质细胞中枢敏化轴）。图谱：378 节点，2173 边（+5 节点，+14 边）。来源：8篇（6篇开放全文，2篇摘要）。新增未解：Q-pain-01/02/03/04，Q-kcc2-04，Q-aic-02，Q-acc-pain-cog-overlap。层级：system + network + cognition（与前日 KCC2/分子层形成互补，打通感觉通路系统层覆盖）。
+

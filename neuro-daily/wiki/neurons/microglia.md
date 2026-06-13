@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-10
-revision_count: 2
+updated: 2026-06-14
+revision_count: 3
 dimensions: [cellular, synaptic, microcircuit, brain-region, disease]
-related: [synaptic-pruning, complement-cascade-cns, tripartite-synapse, astrocyte, trem2, neuroinflammation, inflammatory-cytokines-synapse, alzheimers-disease, hpa-axis, ltp]
+related: [synaptic-pruning, complement-cascade-cns, tripartite-synapse, astrocyte, trem2, neuroinflammation, inflammatory-cytokines-synapse, alzheimers-disease, hpa-axis, ltp, central-sensitization, kcc2, nociception]
 prerequisites: [action-potential, synaptic-transmission, complement-cascade-cns]
 opens_questions: [Q-microglia-01, Q-microglia-02, Q-inflam-01, Q-inflam-02, Q-inflam-03, Q-inflam-04]
 source_articles: [2026-06-03-microglia-synaptic-pruning, 2026-07-10-neuroinflammation-synaptic-damage]
@@ -134,6 +134,22 @@ key_sources: ["PMID:22632727", "PMID:18083105", "PMID:34738335", "PMID:20970492"
 - [[hpa-axis]] — 慢性应激通过 GC/CRH 使小胶质细胞"预激"
 - [[ltp]] — 小胶质细胞低水平激活支持 LTP；过度激活系统性损伤 LTP
 - [[pv-interneurons]] — 精神分裂症中 PV+ 细胞与 C4A 过度剪枝有关联（待深入）
+- [[central-sensitization]] — 脊髓小胶质细胞激活是神经病理性疼痛中枢敏化的必要条件
+- [[kcc2]] — 激活小胶质细胞释放 BDNF，通过 TrkB→KCC2 磷酸化使脊髓 GABA 抑制失效
+- [[nociception]] — 小胶质细胞-BDNF-TrkB-KCC2 轴是慢性痛从外周损伤到中枢敏化的关键桥梁
+
+## 脊髓小胶质细胞与慢性疼痛（补充，来自 #190）
+
+外周神经损伤激活脊髓小胶质细胞（P2X4/P2X7 受体感受 ATP 信号），是慢性神经病理性疼痛中枢敏化的关键起始步骤：
+
+**激活触发**：受损初级传入释放 fractalkine（CX3CL1）、ATP、substance P → 脊髓小胶质细胞感受并激活
+
+**下游效应**：
+1. BDNF 分泌大量增加 → 激活背角神经元 TrkB → KCC2 磷酸化/下调 → GABA 效应极性逆转
+2. IL-1β/TNF-α 直接增强脊髓突触兴奋性（AMPA 受体上调、GABA 受体下调）
+3. 前列腺素（PGE2）释放 → EP2 受体 → 降低脊髓抑制性中间神经元阈值
+
+**里程碑证据**（Coull et al. 2005）：将激活的脊髓小胶质细胞注射入未损伤大鼠脊髓，即可在接收区诱发机械性 allodynia——证明脊髓小胶质细胞激活本身（而非外周损伤）足以建立中枢敏化。
 
 ## 未解问题
 
@@ -148,6 +164,7 @@ key_sources: ["PMID:22632727", "PMID:18083105", "PMID:34738335", "PMID:20970492"
 
 - 2026-06-03 · 创建 · 基于《大脑的"质检员"》(#70) · 核心：发育期补体依赖突触剪枝机制；初始置信度：高
 - 2026-07-10 · 修订 · 基于《当卫士变成刽子手》(#78) · 新增：成年稳态低水平细胞因子促可塑性、激活态 TNF-α/IL-1β/IL-6 损伤 LTP、TREM2/DAM 机制、慢性应激诱发小胶质细胞预激；扩展 related、opens_questions、key_sources；合并来自 wiki/systems/microglia.md 的内容
+- 2026-06-14 · 修订（rev2→rev3）· 基于《伤害感受≠疼痛体验》(#190) · 新增：脊髓小胶质细胞与慢性疼痛部分（BDNF-TrkB-KCC2 轴、Coull 2005 里程碑证据）；related 新增 central-sensitization/kcc2/nociception
 
 ## 来源文章
 

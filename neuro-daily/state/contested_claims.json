@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-06-13",
+  "last_updated": "2026-06-14",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -230,5 +230,6 @@
       "resolution_criteria": "选择性阻断特定 PreM-IN 簇（如光遗传学）后对应协同消失，同时控制力学变量；或在力学约束被精确匹配但 PreM-IN 簇活动被阻断后协同仍然消失",
       "source_article": "2026-06-13-muscle-synergies-bernstein"
     }
-  ]
+  ],
+  "last_checked": "2026-06-14"
 }

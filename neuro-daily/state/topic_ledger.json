@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-13",
-  "total_articles": 189,
+  "last_updated": "2026-06-14",
+  "total_articles": 190,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12848,6 +12848,112 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-13；知识库序号181；运动系统弧线计算框架总结篇；核心：OFC（Todorov & Jordan 2002）统一运动冗余、任务依赖反射、M1 动力学；新建 OFC wiki 页；登记矛盾 C-2026-06-13-01（旋转动力学来源争议）；图谱 362 节点 2085 边"
+    },
+    {
+      "article_number": 190,
+      "date": "2026-06-14",
+      "title": "伤害感受≠疼痛体验：大脑如何将分子警报转化为主观苦难",
+      "slug": "nociception-pain-pathways",
+      "filename": "2026-06-14-nociception-pain-pathways.md",
+      "article_type": "regular",
+      "core_question": "从 TRPV1 分子通道到前扣带皮层的不愉快感编码，伤害感受信号如何经过外周换能、脊髓闸门、上行通路、皮质矩阵和下行调制五重处理，最终从分子电信号转化为主观疼痛体验？慢性痛时哪些环节失调？",
+      "layer": [
+        "system",
+        "network",
+        "cognition"
+      ],
+      "curriculum_track": "感觉系统 → 伤害感受与疼痛",
+      "topic_tags": [
+        "nociception",
+        "pain",
+        "TRPV1",
+        "TRPA1",
+        "Nav1.7",
+        "Nav1.8",
+        "Nav1.9",
+        "A-delta fibers",
+        "C fibers",
+        "gate-control-theory",
+        "Melzack Wall 1965",
+        "spinothalamic tract",
+        "lateral pain system",
+        "medial pain system",
+        "pain matrix",
+        "S1",
+        "S2",
+        "anterior-insula",
+        "ACC",
+        "PFC",
+        "PAG",
+        "RVM",
+        "ON cells",
+        "OFF cells",
+        "descending modulation",
+        "endogenous opioids",
+        "central sensitization",
+        "NMDA wind-up",
+        "KCC2",
+        "microglia-BDNF-TrkB",
+        "allodynia",
+        "hyperalgesia"
+      ],
+      "main_sources": [
+        "PMCID:PMC2964977 (Dubin & Patapoutian 2010, J Clin Invest) - 开放全文",
+        "PMCID:PMC4676495 (Moayedi & Davis 2013, F1000Prime Reports) - 开放全文",
+        "PMCID:PMC3438523 (Basbaum et al. 2009, Cell) - 开放全文",
+        "PMCID:PMC4301419 (Bhave & Bhave 2014, Biochem Pharmacol) - 开放全文",
+        "PMCID:PMC7954910 (Prescott et al. 2014, Neuron) - 开放全文",
+        "PMCID:PMC5563738 (Braz et al. 2014, Neuron) - 开放全文",
+        "PMCID:PMC11786554 (Woolf 2011, Pain) - 开放全文",
+        "PMCID:PMC8933754 (Ji et al. 2018, Neuron) - 开放全文"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/nociception.md",
+        "wiki/concepts/gate-control-theory.md",
+        "wiki/concepts/central-sensitization.md",
+        "wiki/concepts/descending-pain-modulation.md",
+        "wiki/systems/pain-matrix.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/kcc2.md (rev1→rev2): 新增慢性疼痛中 KCC2 下调机制（小胶质细胞-BDNF-TrkB-KCC2 轴）",
+        "wiki/systems/anterior-insula.md (rev1→rev2): 新增前岛叶在疼痛矩阵中的角色（痛觉不愉快感、Pain Asymbolia）",
+        "wiki/systems/anterior-cingulate-cortex.md (rev2→rev3): 新增 ACC 疼痛处理角色（Rainville 1997 催眠证据、安慰剂镇痛）",
+        "wiki/neurons/microglia.md (rev2→rev3): 新增脊髓小胶质细胞与慢性疼痛（BDNF-TrkB-KCC2、Coull 2005）"
+      ],
+      "graph_nodes_added": [
+        "nociception",
+        "gate-control-theory",
+        "central-sensitization",
+        "descending-pain-modulation",
+        "pain-matrix"
+      ],
+      "graph_nodes_updated": [
+        "kcc2",
+        "anterior-insula",
+        "anterior-cingulate-cortex",
+        "microglia"
+      ],
+      "graph_edges_added": 14,
+      "graph_state": "378 节点，2173 边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-pain-01",
+        "Q-pain-02",
+        "Q-pain-03",
+        "Q-pain-04",
+        "Q-kcc2-04",
+        "Q-aic-02",
+        "Q-acc-pain-cog-overlap"
+      ],
+      "next_suggested_topics": [
+        "内感受与情绪（interoception and emotion）——岛叶如何将内脏信号转化为情绪感受，连接疼痛→情绪→自主神经",
+        "阿片系统（opioid system）——μ/δ/κ 受体、内源性阿片肽分布与镇痛、成瘾和奖励的回路交叉",
+        "丘脑感觉门控（thalamic sensory gating）——TRN 与丘脑如何过滤伤害性输入，与睡眠/麻醉中的疼痛意识关系",
+        "躯体感觉皮层（somatosensory cortex）——S1/S2 的感觉地图、重组（幻肢痛）和两点辨别的神经机制"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-14；知识库序号190；感觉系统——疼痛通路综合篇；核心：伤害感受→脊髓闸门→上行通路→疼痛矩阵→下行调制→中枢敏化七站串联；新建5个wiki页（nociception、gate-control-theory、central-sensitization、descending-pain-modulation、pain-matrix）；修订4个既有页（kcc2+anterior-insula+acc+microglia）；图谱 378 节点 2173 边"
     }
   ]
 }
