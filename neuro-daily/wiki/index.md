@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#188** 失控的门卫——颞叶癫痫与海马回路的五层级防御体系；新建 2 页：temporal-lobe-epilepsy（diseases）、dentate-gyrus-gate（concepts）；修订 1 页：ei-balance rev4；图谱 **370** 节点，**2145** 边）· 主题页总数：**329**
+> 最后更新：2026-06-13（**#189** 大脑如何学会说"不"——KCC2、氯离子稳态与 GABA 极性切换；新建 2 页：kcc2（neurons）、gaba-polarity-switch（concepts）；修订 1 页：gaba rev2；图谱 **373** 节点，**2159** 边）· 主题页总数：**331**
 
 ---
 
@@ -37,6 +37,7 @@
 - 🟢 [Clarke 柱](neurons/clarkes-nucleus.md) — 脊髓背内侧灰质（T1-L2）本体感觉中继核，脊髓中最大细胞之一；直接接受 Ia/Ib 传入单突触投射（VGluT1 高密度）；是 DSCT 主要起源；70% 细胞受脊髓 CPG 直接驱动（Stecina 2013）**[NEW 2026-06-13 #176]**
 - 🟢 [Ia 抑制性中间神经元](neurons/ia-inhibitory-interneuron.md) — 牵张反射互反抑制的专用中介；接收 Ia 传入，向拮抗肌 α-MN 传递甘氨酸 IPSP；受 Renshaw 细胞抑制（允许共收缩）；下行系统可调控其强度 **[NEW 2026-06-13 #179]**
 - 🟢 [Renshaw 细胞](neurons/renshaw-cell.md) — 唯一由 α-MN 轴突侧支直接驱动的抑制性中间神经元；实现复现抑制（输出依赖性制动）；通过抑制 Ia-INs 允许共收缩；Calbindin 阳性标志 **[NEW 2026-06-13 #179]**
+- 🟢 [KCC2（K⁺-Cl⁻ 共转运体 2）](neurons/kcc2.md) — 大脑成熟神经元的主要 Cl⁻ 外排泵（SLC12A5）；WNK-SPAK/OSR1 轴 T906/T1007 脱磷酸化 >95% 激活 KCC2（转运效率 >10x）；calpain 切割机制（TLE/疼痛/缺血）；KEECs 治疗 Rett；疾病谱 TLE/疼痛/Rett/ASD **[NEW 2026-06-13 #189]**
 
 ## circuits（回路）
 
@@ -106,6 +107,7 @@
 - 🟢 [皮层迁移障碍（MCD）](concepts/cortical-migration-disorders.md) — 三层独立模块框架（迁移机械/导航终止/物理边界）；六类畸形分类（无脑回/异位/多小脑回/裂脑）；与切向迁移障碍的关系 **[NEW 2026-08-11 #110]**
 - 🟢 [内侧神经节隆起（MGE）](concepts/medial-ganglionic-eminence.md) — 皮层 60% GABA 能中间神经元的诞生地；Nkx2.1 + Lhx6 标记；背侧偏 SST，腹侧偏 PV **[NEW 2026-08-10 #109]**（填补 gaba 悬空引用，建立中间神经元发育的起点节点）
 - 🟢 [GABA（γ-氨基丁酸）](concepts/gaba.md) — 主要抑制性神经递质；GAD65/67 合成；GABA-A（快速 Cl⁻）+ GABA-B（慢速 G 蛋白）受体；发育期去极化→成熟超极化（KCC2 上调）；是 E/I 平衡的分子减法端 **[NEW 2026-08-10 #109]**（填补图谱悬空引用）
+- 🟢 [GABA 极性切换](concepts/gaba-polarity-switch.md) — GABA 从去极化（兴奋）→超极化（抑制）的发育转变；NKCC1→KCC2 比例翻转驱动；区域时间梯度（脊髓→皮层）；催产素出生保护窗；TLE/ASD/疼痛中切换逆转 **[NEW 2026-06-13 #189]**
 - 🟢 [突触生成](concepts/synaptogenesis.md) — 轴突触碰目标后 NL-NRXN 握手双向触发前后侧装配；兴奋性（PSD-95三层骨架）vs 抑制性（Gephyrin格栅）双轨；活动依赖稳定与修剪；ASD（NLGN3/Shank3突变）的分子入口 **[NEW 2026-08-06 #105]**
 - 🟢 [Neuroligin-Neurexin 突触粘附系统](concepts/neuroligin-neurexin.md) — 跨突触间隙双向信号系统；NL1→兴奋性/NL2→抑制性身份二分；弱结合×聚集效应（Boyd 2026）；可变剪接密码；NLGN3 R451C → ASD **[NEW 2026-08-06 #105]**
 - 🟢 [突触后致密体（兴奋性）](concepts/postsynaptic-density.md) — PSD-95/GKAP/Shank-Homer 三层骨架；纳米亚结构单元；LTP 后 5 分钟重组；AMPA/NMDA 受体锚定平台；Shank3 ASD 靶点 **[NEW 2026-08-06 #105]**

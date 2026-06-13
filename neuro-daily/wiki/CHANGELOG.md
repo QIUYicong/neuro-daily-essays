@@ -4187,3 +4187,35 @@
 - Q-stretch-01（高）：人类 Ia-INs 的功能特性与猫是否一致？（无直接人类细胞内记录）
 - Q-stretch-02（中）：长潜伏期牵张反射 M2 成分是否真正通过 M1？
 - Q-stretch-03（中）：H 反射可塑性的脊髓 vs 皮层贡献比例
+
+---
+
+## 2026-06-13（文章 #189：KCC2 与 GABA 极性切换）
+
+### 新建页面（3 个）
+
+- `neurons/kcc2.md` — KCC2（K⁺-Cl⁻ 共转运体 2）分子实体；WNK-SPAK 磷酸化调控；发育性激活机制；疾病谱（TLE、慢性疼痛、Rett）；来源 Rivera 1999/Kaila 2014/Watanabe 2019
+- `concepts/gaba-polarity-switch.md` — GABA 极性切换（E→I 发育转变）；NKCC1/KCC2 比例机制；区域时间轴；催产素出生保护窗；来源 Tyzio 2014/Kaila 2014
+- `neurons/nkcc1.md`（图谱节点，暂无独立 wiki 页内容，仅图谱记录，待后续补全）
+
+### 修订页面（1 个）
+
+- `concepts/gaba.md` rev1→rev2 — 大幅扩展 GABA 极性切换机制详情（NKCC1/KCC2 比例、WNK-SPAK T906/T1007 磷酸化轴定量数据、区域时间线、GDPs）；新增 related 链接（kcc2/gaba-polarity-switch/nkcc1/temporal-lobe-epilepsy）；新增 3 条证据（PMID:9930699, 31615901）
+
+### 图谱变化
+
+- 新建节点：kcc2（neurons）、gaba-polarity-switch（concepts）、nkcc1（neurons，仅图谱）
+- 新增边：14 条（kcc2↔gaba/gaba-polarity-switch/temporal-lobe-epilepsy/ei-balance/critical-period；gaba-polarity-switch↔kcc2/nkcc1/gaba/critical-period/glun2-developmental-switch/temporal-lobe-epilepsy/adult-neurogenesis；nkcc1↔gaba-polarity-switch/gaba）
+- 节点总数：370 → 373（+3）
+- 边总数：2145 → 2159（+14）
+- **悬空引用填补**：nkcc1（被 gaba 和 gaba-polarity-switch 引用但无节点）；kcc2（新增为核心节点）
+
+### 登记矛盾（0 条）
+
+无新矛盾。布美他尼临床数据（人类 vs 动物差异）在文章中已作为"争议"明确呈现，暂不升级为正式 contested_claims 条目（属于临床转化不确定性，而非核心机制冲突）。
+
+### 新增未解问题（3 条）
+
+- Q-kcc2-01（高）：人类不同脑区 GABA 极性切换的精确时间线？
+- Q-kcc2-02（高）：WNK-SPAK/OSR1 轴在发育中程序性下调的上游调控机制？
+- Q-kcc2-03（中）：系统性 KCC2 增强治疗的安全性边界？

@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 188,
+  "total_articles": 189,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12527,6 +12527,89 @@
         "苔状纤维出芽的分子驱动机制：MFS由什么信号通路诱导？BDNF、mTOR在TLE中的双重角色（促成熟 + 促MFS）"
       ],
       "mode": "regular"
+    },
+    {
+      "article_number": 189,
+      "date": "2026-06-13",
+      "title": "大脑如何学会说\"不\"：KCC2、氯离子稳态与 GABA 极性切换",
+      "slug": "kcc2-gaba-polarity-switch",
+      "filename": "2026-06-13-kcc2-gaba-polarity-switch.md",
+      "article_type": "regular",
+      "core_question": "KCC2 如何在发育过程中通过精确调控细胞内氯离子浓度，把 GABA 从去极化（兴奋）切换为超极化（抑制）？WNK-SPAK/OSR1 磷酸化轴如何在发育中程序性失活激活 KCC2？催产素出生时保护窗与自闭症模型的切换缺失机制是什么？KCC2 失调在 TLE、慢性疼痛、Rett 综合征和自闭症中如何成为共同的分子底层？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "disease"
+      ],
+      "curriculum_track": "11. 疾病作为窗口（KCC2/GABA 极性切换 × 多疾病共同机制）× 2. 神经网络如何建成（发育性氯离子稳态成熟）",
+      "topic_tags": [
+        "KCC2",
+        "SLC12A5",
+        "NKCC1",
+        "SLC12A2",
+        "chloride homeostasis",
+        "GABA polarity switch",
+        "EGABA",
+        "intracellular chloride",
+        "WNK1",
+        "SPAK",
+        "OSR1",
+        "Thr906",
+        "Thr1007",
+        "developmental GABA switch",
+        "giant depolarizing potential",
+        "GDP",
+        "oxytocin",
+        "neonatal seizures",
+        "bumetanide",
+        "temporal lobe epilepsy",
+        "calpain",
+        "KCC2 cleavage",
+        "neuropathic pain",
+        "dorsal horn",
+        "disinhibition",
+        "Rett syndrome",
+        "MeCP2",
+        "autism",
+        "chloride extrusion",
+        "GABAergic maturation",
+        "EGR4",
+        "REST"
+      ],
+      "main_sources": [
+        "PMID:9930699 (Rivera et al. 1999, Nature, abstract only)",
+        "PMID:16227993 (Dzhala et al. 2005, Nature Medicine, abstract only)",
+        "PMID:25234263 / PMCID:PMC4294553 (Kaila et al. 2014, Nat Rev Neurosci, open full text read)",
+        "PMID:24503856 (Tyzio et al. 2014, Science, abstract only)",
+        "PMID:26441542 / PMCID:PMC4585146 (Watanabe & Fukuda 2015, Front Cell Neurosci, open full text read)",
+        "PMID:31615901 / PMCID:PMC7219477 (Watanabe et al. 2019, Science Signaling, open full text read)",
+        "PMID:31963584 / PMCID:PMC7016893 (Tang 2020, Cells, open full text read)",
+        "PMID:33060559 / PMCID:PMC7562743 (Pozzi et al. 2020, Transl Psychiatry, open full text read)",
+        "PMID:25229715 (Puskarjov et al. 2015, Neuropharmacology, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/neurons/kcc2.md",
+        "wiki/concepts/gaba-polarity-switch.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/gaba.md (rev1->rev2): 扩展 GABA 极性切换机制（WNK-SPAK 轴、区域时间线、GDPs）；新增连接和 3 条证据"
+      ],
+      "graph_nodes_added": 3,
+      "graph_edges_added": 14,
+      "graph_state": "373 nodes, 2159 edges",
+      "unresolved_questions": [
+        "Q-kcc2-01",
+        "Q-kcc2-02",
+        "Q-kcc2-03"
+      ],
+      "next_suggested_topics": [
+        "BDNF/TrkB 信号双向性：同一分子如何驱动 KCC2 上调（发育）又导致 KCC2 下调（癫痫/疼痛）？",
+        "癫痫发生（Epileptogenesis）的分子时间线：从初发热性惊厥到慢性 TLE 的 KCC2/NKCC1 动态变化",
+        "布美他尼的临床困境：新生儿癫痫人类试验为何失败？人类 NKCC1 vs 动物的差异",
+        "活动依赖性氯离子稳态调节：强烈网络活动期间 KCC2 能否追上 Cl⁻ 再积累的速率？",
+        "神经发育障碍的氯离子稳态窗口：自闭症谱系中 E→I 切换延迟的直接证据"
+      ]
     }
   ],
   "layer_coverage_recent": [

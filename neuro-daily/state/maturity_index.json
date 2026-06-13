@@ -373,6 +373,24 @@
       "last_changed": "2026-06-13",
       "change_reason": "初始创建；脊髓中枢起源证据（去传入+横断+PreM-IN聚类）支持 mainstream，但生物力学替代解释（Kutch 2012）尚未被完全排除，故置信度 medium",
       "source_article": "2026-06-13-muscle-synergies-bernstein"
+    },
+    {
+      "slug": "kcc2",
+      "title": "KCC2（K⁺-Cl⁻ 共转运体 2）",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_change": "2026-06-13",
+      "change_reason": "新建页面（#189）；基于 Nature/Nat Rev Neurosci/Science Signaling 多篇高引文献；KCC2 生物学机制教科书级确立"
+    },
+    {
+      "slug": "gaba-polarity-switch",
+      "title": "GABA 极性切换",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_change": "2026-06-13",
+      "change_reason": "新建页面（#189）；跨物种证据充分；机制通路（NKCC1/KCC2 比例）已是教科书级"
     }
   ],
   "last_updated": "2026-06-13",

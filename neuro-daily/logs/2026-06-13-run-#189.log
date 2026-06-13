@@ -1,0 +1,123 @@
+# 运行日志：2026-06-13（#189 KCC2 与 GABA 极性切换）
+
+## 基本信息
+
+- **文章编号**：#189
+- **日期**：2026-06-13（UTC+8）
+- **分支**：main（从最新 main 出发，推送回 main）
+- **选题**：大脑如何学会说"不"：KCC2、氯离子稳态与 GABA 极性切换
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：total_articles=188（更新前）；last_updated=2026-06-13
+- `unresolved_questions.md`：最近新增 Q-tle-01/02/03（#188 TLE）、Q-msi-01/02/03（#187 贝叶斯整合）、Q-cortstr-01/02（#185）、Q-chunk-01/02（#184）
+- `contested_claims.json`：18 条 open；无直接相关今日主题的矛盾条目
+- `_graph.json`：370 节点，2145 边；悬空引用 4 条（parallel-fiber, dopamine, aging, cognition）
+- 已存在相关 wiki 页：gaba（concepts）、temporal-lobe-epilepsy（diseases）、ei-balance（concepts）、critical-period（concepts）
+- **缺口确认**：kcc2、gaba-polarity-switch、nkcc1 均无独立 wiki 页；gaba 页的极性切换机制描述简略
+
+---
+
+## 选题决策
+
+**选题依据**：
+1. **上篇建议（优先级 1）**：#188 TLE 文章的 next_suggested_topics 首位：KCC2 分子机制详解
+2. **缺口驱动（优先级 3）**：_graph.json 中 kcc2 被 TLE、ei-balance 等节点引用但无独立页
+3. **课程连续性**：TLE 五层防御体系（#188）中 KCC2 是分子层核心，本文深入解析其发育机制，构成"TLE 疾病→KCC2 分子底层"的纵向深化
+
+**主题聚焦**：从"为什么 TLE 中 KCC2 失效会导致 GABA 变兴奋"深入到"KCC2 如何在发育中建立 GABA 抑制"，回答问题：大脑抑制不是默认的，而是主动建立的——KCC2 是这个主动建立过程的分子执行者。
+
+---
+
+## 检索策略
+
+**搜索词**：
+- "KCC2 SLC12A5 GABA developmental switch chloride homeostasis"
+- "NKCC1 neonatal seizures bumetanide"
+- "KCC2 phosphorylation WNK SPAK development"
+- "KCC2 therapeutic potential Rett syndrome"
+- "Ben-Ari GABA excitatory developmental"
+- "Kaila cation-chloride cotransporter review"
+- "Tyzio oxytocin GABA chloride autism"
+
+**数据库**：PubMed E-utilities、PMC BioC、PubMed Central 直接 URL 访问、WebSearch
+
+**候选文献数**：约 25 篇
+**采用文献数**：11 篇（5 篇开放全文，6 篇仅读摘要）
+
+---
+
+## 文献质量
+
+- **开放全文（5 篇）**：Kaila 2014 Nat Rev Neurosci、Watanabe 2015 Front Cell Neurosci、Watanabe 2019 Science Signaling、Tang 2020 Cells、Pozzi 2020 Transl Psychiatry
+- **仅摘要（6 篇）**：Rivera 1999 Nature、Dzhala 2005 Nat Medicine、Tyzio 2014 Science、Ben-Ari 2014 Neuroscience、Schulte 2018 Neurosci Biobehav Rev、Puskarjov 2015 Neuropharmacology
+- 满足 ROUTINE.md 要求：≥5 来源、≥2 开放全文综述+原研究、≥1 官方机构来源（PMC）
+
+---
+
+## 固结步骤
+
+**新创建 wiki 页面（2 个）**：
+- `wiki/neurons/kcc2.md`：KCC2 实体页；包含结构/转运机制/三层调控/疾病谱/关键证据；revision_count=1
+- `wiki/concepts/gaba-polarity-switch.md`：GABA 极性切换机制页；包含分子核心/区域时间轴/催产素窗/证据表；revision_count=1
+
+**修订 wiki 页面（1 个）**：
+- `wiki/concepts/gaba.md`：rev1→rev2；扩展极性切换机制详情（NKCC1/KCC2/WNK-SPAK/区域时间线/GDPs）；新增 3 条证据；新增 4 个连接；updated=2026-06-13
+
+**矛盾检查**：
+- 无新矛盾：KCC2 机制属于教科书级别，内容高度确立
+- 布美他尼临床数据（动物 vs 人类差异）在文章中标注为"临床转化不确定性"，不属于核心机制分歧，未登记为 contested_claim
+
+---
+
+## 图谱更新
+
+- 新增节点：3（kcc2, gaba-polarity-switch, nkcc1）
+- 新增边：14
+- 节点总数：370 → 373
+- 边总数：2145 → 2159
+- 填补悬空引用：kcc2（在 temporal-lobe-epilepsy 页中被引用）
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：total_articles=189，新增 #189 条目
+- `unresolved_questions.md`：新增 Q-kcc2-01/02/03（3 条）
+- `source_registry.json`：新增 9 条来源记录
+- `monthly_synthesis.md`：追加 #189 摘要（2026年6月月度综合）
+- `maturity_index.json`：新增 kcc2/gaba-polarity-switch，更新 gaba（rev2）
+- `wiki/index.md`：更新标题（#189, 373 节点, 2159 边, 331 页）；新增 kcc2（neurons）和 gaba-polarity-switch（concepts）条目
+- `wiki/CHANGELOG.md`：追加 2026-06-13 #189 条目
+
+---
+
+## 自检
+
+### 真实性
+- ✅ 每条 wiki 新主张均有 PMID/DOI 来源
+- ✅ 区分了事实（KCC2 機制/磷酸化数据）/ 主流模型（发育切换）/ 推测（催产素-ASD 假说，已明确标注"假说"和"动物实验"）
+- ✅ 布美他尼临床转化失败已如实说明，动物结果未被写成人类定论
+
+### 一致性
+- ✅ 无新内容与既有 wiki 主张冲突（GABA 页已有的极性切换描述被加深而非替换）
+- ✅ gaba.md 的 updated/revision_count/修订历史均同步更新
+- ✅ _graph.json 无新悬空边（所有目标节点均已存在或本次新建）
+
+### 可导航
+- ✅ index.md 和 CHANGELOG.md 反映今天变化
+- ✅ 两个新页的 related/prerequisites 各≥1（kcc2: related=10/prereq=3；gaba-polarity-switch: related=8/prereq=3）
+
+### 情景层
+- ✅ articles/notes/sources/logs 四文件齐全
+- ✅ 未修改任何旧的 articles/notes/sources/logs 文件
+
+---
+
+## Git 操作
+
+- 分支：main
+- commit：待完成
+- push：待完成

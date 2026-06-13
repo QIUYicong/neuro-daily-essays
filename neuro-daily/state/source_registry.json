@@ -13031,9 +13031,179 @@
       ],
       "aspect": "MLE扩展验证（形状维度）",
       "open_access": false
+    },
+    {
+      "id": "SR-9930699",
+      "pmid": "9930699",
+      "title": "The K+/Cl- co-transporter KCC2 renders GABA hyperpolarizing during neuronal maturation",
+      "authors": "Rivera C, Voipio J, Payne JA, et al.",
+      "journal": "Nature",
+      "year": 1999,
+      "used_in_articles": [
+        189
+      ],
+      "covers": [
+        "KCC2",
+        "GABA polarity switch",
+        "hippocampus development"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "id": "SR-16227993",
+      "pmid": "16227993",
+      "title": "NKCC1 transporter facilitates seizures in the developing brain",
+      "authors": "Dzhala VI et al.",
+      "journal": "Nature Medicine",
+      "year": 2005,
+      "used_in_articles": [
+        189
+      ],
+      "covers": [
+        "NKCC1",
+        "neonatal seizures",
+        "bumetanide"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "id": "SR-25234263",
+      "pmid": "25234263",
+      "pmcid": "PMC4294553",
+      "title": "Cation-chloride cotransporters in neuronal development, plasticity and disease",
+      "authors": "Kaila K, Price TJ, Payne JA, Puskarjov M, Voipio J",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2014,
+      "used_in_articles": [
+        189
+      ],
+      "covers": [
+        "KCC2",
+        "NKCC1",
+        "development",
+        "phosphorylation",
+        "epilepsy",
+        "pain"
+      ],
+      "access": "open_fulltext"
+    },
+    {
+      "id": "SR-24503856",
+      "pmid": "24503856",
+      "title": "Oxytocin-mediated GABA inhibition during delivery attenuates autism pathogenesis in rodent offspring",
+      "authors": "Tyzio R, Ben-Ari Y et al.",
+      "journal": "Science",
+      "year": 2014,
+      "used_in_articles": [
+        189
+      ],
+      "covers": [
+        "oxytocin",
+        "GABA polarity switch at birth",
+        "autism",
+        "NKCC1"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "id": "SR-26441542",
+      "pmid": "26441542",
+      "pmcid": "PMC4585146",
+      "title": "Development and regulation of chloride homeostasis in the central nervous system",
+      "authors": "Watanabe M, Fukuda A",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2015,
+      "used_in_articles": [
+        189
+      ],
+      "covers": [
+        "chloride homeostasis",
+        "KCC2 regulation",
+        "developmental timeline",
+        "GDPs"
+      ],
+      "access": "open_fulltext"
+    },
+    {
+      "id": "SR-31615901",
+      "pmid": "31615901",
+      "pmcid": "PMC7219477",
+      "title": "Developmentally regulated KCC2 phosphorylation is essential for dynamic GABA-mediated inhibition and survival",
+      "authors": "Watanabe M, Zhang J, Kahle KT et al.",
+      "journal": "Science Signaling",
+      "year": 2019,
+      "used_in_articles": [
+        189
+      ],
+      "covers": [
+        "KCC2 phosphorylation",
+        "T906",
+        "T1007",
+        "WNK-SPAK",
+        "lethal phenotype"
+      ],
+      "access": "open_fulltext"
+    },
+    {
+      "id": "SR-31963584",
+      "pmid": "31963584",
+      "pmcid": "PMC7016893",
+      "title": "The Expanding Therapeutic Potential of Neuronal KCC2",
+      "authors": "Tang BL",
+      "journal": "Cells",
+      "year": 2020,
+      "used_in_articles": [
+        189
+      ],
+      "covers": [
+        "KCC2 therapeutics",
+        "KEECs",
+        "Rett syndrome",
+        "CLP290"
+      ],
+      "access": "open_fulltext"
+    },
+    {
+      "id": "SR-33060559",
+      "pmid": "33060559",
+      "pmcid": "PMC7562743",
+      "title": "Environmental regulation of the chloride transporter KCC2",
+      "authors": "Pozzi D, Matteoli M et al.",
+      "journal": "Translational Psychiatry",
+      "year": 2020,
+      "used_in_articles": [
+        189
+      ],
+      "covers": [
+        "inflammation",
+        "IL-1beta",
+        "KCC2",
+        "MeCP2",
+        "REST",
+        "autism"
+      ],
+      "access": "open_fulltext"
+    },
+    {
+      "id": "SR-25229715",
+      "pmid": "25229715",
+      "title": "BDNF is required for seizure-induced but not developmental up-regulation of KCC2 in the neonatal hippocampus",
+      "authors": "Puskarjov M, Kaila K et al.",
+      "journal": "Neuropharmacology",
+      "year": 2015,
+      "used_in_articles": [
+        189
+      ],
+      "covers": [
+        "BDNF",
+        "KCC2",
+        "seizure-induced vs developmental upregulation",
+        "calpain"
+      ],
+      "access": "abstract_only"
     }
   ],
-  "total_sources": 797,
+  "total_sources": 806,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
