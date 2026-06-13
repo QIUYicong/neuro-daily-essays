@@ -12884,6 +12884,57 @@
         "M1快速反馈综述",
         "多回路贡献"
       ]
+    },
+    {
+      "pmid": "29429614",
+      "pmcid": "PMC5820126",
+      "title": "Inversely Active Striatal Projection Neurons and Interneurons Selectively Delimit Useful Behavioral Sequences",
+      "authors": "Martiros N, Burgess AA, Graybiel AM",
+      "journal": "Current Biology",
+      "year": 2018,
+      "used_in": [
+        "2026-06-13-striatal-chunking-sequence-learning"
+      ],
+      "covered_aspects": [
+        "SPN activity bookends",
+        "FSI inverse pattern",
+        "reinforcement-dependent sequence encoding",
+        "DLS vs motor cortex encoding logic"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "27069378",
+      "pmcid": "PMC4826769",
+      "title": "Habit formation",
+      "authors": "Smith KS, Graybiel AM",
+      "journal": "Dialogues in Clinical Neuroscience",
+      "year": 2016,
+      "used_in": [
+        "2026-06-13-striatal-chunking-sequence-learning"
+      ],
+      "covered_aspects": [
+        "habit formation mechanisms",
+        "chunking-deliberation correlation",
+        "DMS vs DLS",
+        "three-component framework"
+      ],
+      "full_text": true
+    },
+    {
+      "pmid": "9753592",
+      "pmcid": null,
+      "title": "The basal ganglia and chunking of action repertoires",
+      "authors": "Graybiel AM",
+      "journal": "Neurobiology of Learning and Memory",
+      "year": 1998,
+      "used_in": [
+        "2026-06-13-striatal-chunking-sequence-learning"
+      ],
+      "covered_aspects": [
+        "chunking hypothesis origin"
+      ],
+      "full_text": false
     }
   ],
   "total_sources": 733,

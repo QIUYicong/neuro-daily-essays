@@ -3284,6 +3284,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/muscle-synergies.md"
+    },
+    {
+      "id": "striatal-chunking",
+      "title": "纹状体序列组块化（活动书签）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/striatal-chunking.md"
     }
   ],
   "edges": [
@@ -14371,6 +14380,36 @@
       "from": "stretch-reflex",
       "to": "optimal-feedback-control",
       "type": "supports"
+    },
+    {
+      "from": "striatal-chunking",
+      "to": "habit-formation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "striatal-chunking",
+      "to": "basal-ganglia",
+      "type": "part-of"
+    },
+    {
+      "from": "striatal-chunking",
+      "to": "motor-learning",
+      "type": "related"
+    },
+    {
+      "from": "striatal-chunking",
+      "to": "dopamine-reward-prediction-error",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "habit-formation",
+      "to": "striatal-chunking",
+      "type": "related"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "striatal-chunking",
+      "type": "related"
     }
   ],
   "dangling_references": [

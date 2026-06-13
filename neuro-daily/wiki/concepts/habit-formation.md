@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-13
-updated: 2026-07-29
-revision_count: 3
+updated: 2026-06-13
+revision_count: 4
 dimensions: [microcircuit, brain-region, behavior, cognition]
-related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, substance-use-disorder, deltaFosB, incentive-salience, orbitofrontal-cortex, subjective-value-encoding]
+related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, substance-use-disorder, deltaFosB, incentive-salience, orbitofrontal-cortex, subjective-value-encoding, striatal-chunking]
 prerequisites: [basal-ganglia, dopamine-reward-prediction-error]
 opens_questions: [Q-bg-habit-goal-split, Q-habit-01, Q-habit-02]
-source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision]
-key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376", "PMID:27475769", "PMID:21338877", "PMID:18545266", "PMID:16633341"]
+source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision, 2026-06-13-striatal-chunking-sequence-learning]
+key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376", "PMID:27475769", "PMID:21338877", "PMID:18545266", "PMID:16633341", "PMID:29429614", "PMID:27069378", "PMID:16237445"]
 ---
 
 # 习惯形成（目标导向 vs 习惯性行为）(Habit Formation: Goal-Directed vs Habitual Behavior)
@@ -60,6 +60,19 @@ Jog et al. 1999（PMID:10576743，摘要，未读全文）在大鼠T形迷宫实
 - 这种"括号化"模式在随后数周保持稳定
 
 意义：纹状体将最初"每一步都需要计算的动作序列"压缩为单个不可分割的"行为块"——用最小神经资源执行最大行为复杂性。这是习惯的神经物理现实：不只是统计频率的提升，而是纹状体表征架构的实质性重组。
+
+**2026-06-13 更新——Martiros 2018 的单细胞分辨率证据**
+
+Martiros, Burgess & Graybiel（2018，PMID:29429614，PMC5820126，开放全文）提供了括号化机制的第一个单细胞分辨率直接证据：
+
+- **SPN 括号**：纹状体投射神经元在经强化训练的三次压杆序列的**第一次和最后一次**压杆处选择性激活；相同动作的未强化序列（执行138次）无此括号——括号是强化依赖的
+- **FSI 反向信号**：快速放电中间神经元（小清蛋白阳性，~1-2%）与 SPNs 精确互补——序列边界沉默，序列中段激活；推测其在中段激活期间抑制潜在竞争序列
+- **与运动皮层对比**：运动皮层编码单个动作（与序列位置无关），纹状体编码整个序列的起止边界——两个层次的编码逻辑不同
+- **光遗传证明独立性**：光遗传沉默运动皮层后，DLS 的括号模式基本不受影响，说明括号是纹状体自身网络的计算产物，而非皮层输入的反映
+
+Smith & Graybiel 2016（PMID:27069378，PMC4826769）进一步指出：括号化**早于**行为自动化出现，是习惯的神经前兆；括号强度与犹豫行为（决策点往复）精确负相关（括号越强，犹豫越少）。
+
+详见 [[striatal-chunking]]。
 
 ### 习惯形成的时间线与训练关键变量
 
@@ -127,8 +140,10 @@ Padoa-Schioppa & Assad（2006，PMID:16633341）的直接证据：OFC 神经元�
 - 2026-07-13 · 创建 · 基于《行动的仲裁者：纹状体如何决定你该动还是不动》(#81) · 初始置信度：高（多实验室、多物种）
 - 2026-07-14 · 修订 · 基于《欲望的叛变》(#82) · 补充成瘾作为习惯系统病理极端的机制（ΔFosB/NAc 突触重塑 + 激励显著性解耦）；更新 related 字段（addiction → substance-use-disorder, deltaFosB, incentive-salience）；Q-habit-01 部分解答（成瘾不可逆性双层机制）
 - 2026-07-29 · 修订 · 基于《价值的地图》文章 #97 · 新增"OFC 对目标导向系统的关键贡献"小节：明确 OFC 是目标导向系统灵活性的神经来源（Rangel 2008 + Padoa-Schioppa 2006）；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:18545266, PMID:16633341
+- 2026-06-13 · 修订（rev3→rev4）· 基于《行为的括号》(文章#184) · 新增：Martiros 2018 单细胞分辨率 SPN/FSI 括号机制；Smith & Graybiel 2016 括号-犹豫负相关及括号作为习惯神经前兆；related 新增 striatal-chunking；key_sources 新增 PMID:29429614, PMID:27069378, PMID:16237445
 
 ## 来源文章
 
 - [[2026-07-13-striatum-direct-indirect-pathway-habit]]
 - [[2026-07-14-addiction-dopamine-deltaFosB]]
+- [[2026-06-13-striatal-chunking-sequence-learning]]

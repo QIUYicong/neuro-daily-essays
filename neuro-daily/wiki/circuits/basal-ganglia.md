@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-14
-updated: 2026-07-13
-revision_count: 2
+updated: 2026-06-13
+revision_count: 3
 dimensions: [microcircuit, brain-region, behavior, cognition, theory]
-related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit, habit-formation, actor-critic-model, prefrontal-cortex, complementary-learning-systems]
+related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit, habit-formation, actor-critic-model, prefrontal-cortex, complementary-learning-systems, striatal-chunking]
 prerequisites: [dopamine-reward-prediction-error, synaptic-transmission, ltp]
 opens_questions: [Q-pd-beta-causality, Q-bg-habit-goal-split, Q-actor-critic-01, Q-actor-critic-02]
-source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-07-13-striatum-direct-indirect-pathway-habit]
-key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439", "PMID:20613723", "PMID:27069376", "PMID:16715055", "PMID:9054347"]
+source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-07-13-striatum-direct-indirect-pathway-habit, 2026-06-13-striatal-chunking-sequence-learning]
+key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439", "PMID:20613723", "PMID:27069376", "PMID:16715055", "PMID:9054347", "PMID:29429614", "PMID:9753592"]
 ---
 
 # 基底节 (Basal Ganglia)
@@ -158,8 +158,10 @@ Yin & Knowlton 2006（PMID:16715055）通过精确神经毒素病变证明：DMS
 
 - 2026-06-14 · 创建 · 基于《多巴胺的沉默与节律的失控》一文 · 初始置信度：高
 - 2026-07-13 · 修订 · 基于《行动的仲裁者》(#81) · 新增：Kravitz 2010光遗传因果证据；Haber螺旋-上升模型；DMS/DLS功能分化表格；演员-批评家架构；新增关联habit-formation, actor-critic-model, prefrontal-cortex, complementary-learning-systems；Q-bg-habit-goal-split部分解答；新增Q-actor-critic-01/02
+- 2026-06-13 · 修订（rev2→rev3）· 基于《行为的括号》(文章#184) · 新增：DLS 序列组块化机制（Martiros 2018 SPN/FSI括号证据）；新增关联 striatal-chunking；key_sources 新增 PMID:29429614, PMID:9753592
 
 ## 来源文章
 
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
 - [[2026-07-13-striatum-direct-indirect-pathway-habit]]
+- [[2026-06-13-striatal-chunking-sequence-learning]]

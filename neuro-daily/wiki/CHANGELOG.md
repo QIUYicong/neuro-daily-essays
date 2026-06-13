@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-06-13（文章 #184：行为的括号——纹状体序列组块化与习惯形成）
+
+**创建新页**：
+- `wiki/concepts/striatal-chunking.md`（rev1）：纹状体序列组块化（活动书签）——SPN 起/止括号 + FSI 反向中段激活的双轨机制；Martiros 2018 单细胞分辨率证据；强化依赖性；括号早于习惯化出现（神经前兆）；status=emerging, confidence=medium
+
+**修订页面**：
+- `wiki/concepts/habit-formation.md`（rev3→rev4）：新增 Martiros 2018 SPN/FSI 括号机制（单细胞级别证据）；Smith & Graybiel 2016 括号-犹豫负相关及习惯神经前兆；related 新增 striatal-chunking；key_sources 更新
+- `wiki/circuits/basal-ganglia.md`（rev2→rev3）：新增 DLS 序列组块化机制引用；related 新增 striatal-chunking；key_sources 更新
+
+**图谱变更**：364 节点（+1：striatal-chunking），2102 条边（+6：striatal-chunking↔habit-formation/basal-ganglia/motor-learning/dopamine-reward-prediction-error）
+
+**新增未解问题**：Q-chunk-01（SPNs 括号化的突触分子机制）；Q-chunk-02（括号化可逆性及其临床含义）
+
+**登记矛盾**：无
+
+**新增悬空引用**：无（新节点与已有节点连接完整）
+
+---
+
 ## 2026-06-13（文章 #183：周综合第9期——感觉运动反馈整合）
 
 **创建新页**：无（周综合不创建新 wiki 页，但大幅修订现有页）

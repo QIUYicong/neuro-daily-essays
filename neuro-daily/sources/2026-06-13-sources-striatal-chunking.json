@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-13",
+  "article_slug": "striatal-chunking-sequence-learning",
+  "article_number": 184,
+  "sources": [
+    {
+      "pmid": "29429614",
+      "pmcid": "PMC5820126",
+      "title": "Inversely Active Striatal Projection Neurons and Interneurons Selectively Delimit Useful Behavioral Sequences",
+      "authors": "Martiros N, Burgess AA, Graybiel AM",
+      "journal": "Current Biology",
+      "year": 2018,
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5820126/",
+      "topics_covered": ["SPN activity bookends", "FSI inverse pattern", "sequence chunking", "reinforcement-dependent encoding", "motor cortex vs striatum comparison"],
+      "usage_in_article": "Core evidence: SPN bracket pattern, FSI inverse pattern, reinforcement dependence"
+    },
+    {
+      "pmid": "27069378",
+      "pmcid": "PMC4826769",
+      "title": "Habit formation",
+      "authors": "Smith KS, Graybiel AM",
+      "journal": "Dialogues in Clinical Neuroscience",
+      "year": 2016,
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826769/",
+      "topics_covered": ["DMS vs DLS", "chunking and deliberation", "habit formation mechanisms", "three-component framework", "infralimbic cortex"],
+      "usage_in_article": "Framework: bracketing correlates with reduced deliberation; habit formation timeline"
+    },
+    {
+      "pmid": "16237445",
+      "pmcid": null,
+      "title": "Activity of striatal neurons reflects dynamic encoding and recoding of procedural memories",
+      "authors": "Barnes TD, Kubota Y, Hu D, Jin DZ, Graybiel AM",
+      "journal": "Nature",
+      "year": 2005,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "topics_covered": ["dynamic encoding", "recoding", "task-related firing", "extinction", "reacquisition"],
+      "usage_in_article": "Background: longitudinal evidence for dynamic chunking pattern"
+    },
+    {
+      "pmid": "9753592",
+      "pmcid": null,
+      "title": "The basal ganglia and chunking of action repertoires",
+      "authors": "Graybiel AM",
+      "journal": "Neurobiology of Learning and Memory",
+      "year": 1998,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "topics_covered": ["chunking hypothesis", "basal ganglia", "action sequences"],
+      "usage_in_article": "Historical context: origin of chunking hypothesis"
+    },
+    {
+      "pmid": "10576743",
+      "pmcid": null,
+      "title": "Building neural representations of habits",
+      "authors": "Jog MS, Kubota Y, Connolly CI, Hillegaart V, Graybiel AM",
+      "journal": "Science",
+      "year": 1999,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "topics_covered": ["T-maze learning", "bracketing", "DLS", "activity shift from distributed to boundary"],
+      "usage_in_article": "Classic experiment establishing bracketing phenomenon"
+    },
+    {
+      "pmid": "16715055",
+      "pmcid": null,
+      "title": "The role of the basal ganglia in habit formation",
+      "authors": "Yin HH, Knowlton BJ",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2006,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "topics_covered": ["DMS vs DLS", "goal-directed vs habitual", "devaluation test", "lesion studies"],
+      "usage_in_article": "Background: DMS/DLS anatomical dissociation"
+    },
+    {
+      "pmid": "25526600",
+      "pmcid": null,
+      "title": "Functional neuroimaging of avoidance habits in obsessive-compulsive disorder",
+      "authors": "Gillan CM, Apergis-Schoute AM, Morein-Zamir S, et al.",
+      "journal": "American Journal of Psychiatry",
+      "year": 2015,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "topics_covered": ["OCD", "habit system", "caudate hyperactivation", "devaluation insensitivity"],
+      "usage_in_article": "Clinical window: OCD as excessive habit formation"
+    },
+    {
+      "pmid": "24346135",
+      "pmcid": null,
+      "title": "Behavioral and neuroimaging evidence for overreliance on habit learning in alcohol-dependent patients",
+      "authors": "Sjoerds Z, de Wit S, van den Brink W, et al.",
+      "journal": "Translational Psychiatry",
+      "year": 2013,
+      "full_text_available": false,
+      "full_text_source": "abstract (Translational Psychiatry is open access but not verified for this article)",
+      "topics_covered": ["alcohol dependence", "habit overreliance", "putamen", "vmPFC"],
+      "usage_in_article": "Clinical window: addiction as habit overreliance"
+    },
+    {
+      "pmid": "18558860",
+      "pmcid": null,
+      "title": "Habits, rituals, and the evaluative brain",
+      "authors": "Graybiel AM",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2008,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "topics_covered": ["habits", "rituals", "basal ganglia", "evaluative brain", "neuropsychiatric conditions"],
+      "usage_in_article": "Background context"
+    }
+  ]
+}

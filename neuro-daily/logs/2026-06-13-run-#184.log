@@ -1,0 +1,53 @@
+# 运行日志 #184 — 2026-06-13
+
+## 执行概要
+- 文章编号：#184
+- 文章类型：regular
+- 主题：纹状体序列组块化与习惯形成（活动书签机制）
+- 执行日期：2026-06-13（UTC+8）
+- 分支：main
+
+## 任务流程
+- Step 0：切换到 main 分支，git pull --rebase，成功（7276ef9 为最新提交）
+- Step A：读取 topic_ledger（183条），unresolved_questions，_graph.json（363节点2096边），CHANGELOG.md
+- Step B：选题——上一轮运动系列（#183 周综合）建议 cerebellar-learning-mechanisms / basal-ganglia-action-selection / motor-learning-sequence；cerebellar LTD 已深度覆盖（wiki rev5）；basal-ganglia 已有两篇（wiki rev2）；选择"纹状体序列组块化"作为基底节习惯化的下一层深化，填补 Graybiel 实验室核心机制的空白
+- Step C：检索 PubMed/PMC 获取核心文献；读取 2 篇开放全文（PMC5820126 Martiros 2018 / PMC4826769 Smith & Graybiel 2016）；获取多篇摘要；创作文章（~5200字）
+- Step D：固结 wiki——创建 striatal-chunking 页（rev1）；更新 habit-formation（rev3→rev4）、basal-ganglia（rev2→rev3）
+- Step E：_graph.json 新增 1 节点（striatal-chunking）和 6 条边；CHANGELOG.md 新增今日条目
+- Step F：更新 topic_ledger（#184）、unresolved_questions（Q-chunk-01/02）、source_registry、monthly_synthesis
+- Step G：git add + commit + push origin main
+
+## 资料使用
+- **开放全文读取（2篇）**：
+  - PMC5820126（Martiros et al. 2018, Current Biology）：SPN/FSI 括号机制全文
+  - PMC4826769（Smith & Graybiel 2016, Dialogues Clin Neurosci）：习惯形成综述全文
+- **摘要读取（6篇）**：
+  - PMID:16237445（Barnes 2005, Nature）：括号化动态研究
+  - PMID:9753592（Graybiel 1998）：组块化原始假说
+  - PMID:10576743（Jog 1999, Science）：T迷宫括号化首次发现
+  - PMID:16715055（Yin & Knowlton 2006, Nat Rev Neurosci）：DMS/DLS 解剖分工
+  - PMID:25526600（Gillan 2015, Am J Psychiatry）：OCD 习惯化过度
+  - PMID:24346135（Sjoerds 2013, Transl Psychiatry）：成瘾习惯化
+
+## 创建/修订文件
+- 新建：articles/2026-06-13-striatal-chunking-sequence-learning.md
+- 新建：notes/2026-06-13-reading-notes-striatal-chunking.md
+- 新建：sources/2026-06-13-sources-striatal-chunking.json
+- 新建：wiki/concepts/striatal-chunking.md（rev1）
+- 修订：wiki/concepts/habit-formation.md（rev3→rev4）
+- 修订：wiki/circuits/basal-ganglia.md（rev2→rev3）
+- 修订：wiki/_graph.json（364节点，2102边）
+- 修订：wiki/CHANGELOG.md
+- 修订：state/topic_ledger.json（184条）
+- 修订：state/unresolved_questions.md（+Q-chunk-01/02）
+- 修订：state/source_registry.json
+- 修订：state/monthly_synthesis.md
+
+## 限制与说明
+- Barnes 2005 (Nature) 无开放全文，使用摘要；Jog 1999 (Science) 同上
+- 核心机制 Martiros 2018 已完整阅读全文，证据质量可靠
+- 图谱 364 节点，悬空引用：aging, cognition（轻微，已知）
+
+## commit/push 状态
+- commit hash: TBD（提交后填写）
+- push: TBD

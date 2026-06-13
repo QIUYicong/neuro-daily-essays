@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 182,
+  "total_articles": 184,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12126,6 +12126,71 @@
         "motor-learning-sequence"
       ],
       "file_path": "articles/2026-06-13-week-synthesis-sensorimotor-feedback-integration.md"
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 184,
+      "title": "行为的括号：纹状体如何把动作序列压缩成块，以及这一过程如何产生习惯",
+      "slug": "striatal-chunking-sequence-learning",
+      "filename": "2026-06-13-striatal-chunking-sequence-learning.md",
+      "article_type": "regular",
+      "core_question": "纹状体投射神经元（SPNs）和快速放电中间神经元（FSIs）在学习到的动作序列中如何协同实现括号化编码？括号化如何与习惯形成、犹豫减少和行为自动化相关？多巴胺如何选择哪些序列值得被括号化？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "5. 认知控制（基底节序列学习；动作习惯化机制；DLS 括号化作为习惯神经前兆）",
+      "topic_tags": [
+        "striatum",
+        "DLS",
+        "DMS",
+        "SPNs",
+        "FSIs",
+        "chunking",
+        "activity bookends",
+        "habit formation",
+        "motor sequence",
+        "reinforcement learning",
+        "dopamine",
+        "Graybiel",
+        "Martiros 2018",
+        "devaluation",
+        "goal-directed",
+        "habitual",
+        "basal ganglia",
+        "fast-spiking interneurons",
+        "bracketing",
+        "motor cortex"
+      ],
+      "main_sources": [
+        "PMID:29429614 / PMC5820126 (Martiros 2018, Current Biology, open full text)",
+        "PMID:27069378 / PMC4826769 (Smith & Graybiel 2016, Dialogues Clin Neurosci, open full text)",
+        "PMID:16237445 (Barnes 2005, Nature, abstract only)",
+        "PMID:9753592 (Graybiel 1998, Neurobiol Learn Mem, abstract only)",
+        "PMID:10576743 (Jog 1999, Science, abstract only)",
+        "PMID:16715055 (Yin & Knowlton 2006, Nat Rev Neurosci, abstract only)",
+        "PMID:25526600 (Gillan 2015, Am J Psychiatry, abstract only)",
+        "PMID:24346135 (Sjoerds 2013, Transl Psychiatry, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-chunk-01",
+        "Q-chunk-02"
+      ],
+      "wiki_pages_created": [
+        "striatal-chunking"
+      ],
+      "wiki_pages_updated": [
+        "habit-formation",
+        "basal-ganglia"
+      ],
+      "next_suggested_topics": [
+        "supplementary-motor-area-sma",
+        "corticostriatal-ltpltd",
+        "motor-sequence-human-fmri"
+      ]
     }
   ],
   "layer_coverage_recent": [
