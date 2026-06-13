@@ -117,8 +117,8 @@
 
 - commit message: `Add neuro daily article + wiki consolidation for 2026-06-13`（文章 #181 OFC）
 - 推送目标：origin main
-- commit hash: [待填写]
-- push 状态: [待填写]
+- commit hash: 0e46e55
+- push 状态: 成功推送到 origin/main
 
 ## 失败与限制
 
