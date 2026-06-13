@@ -12167,6 +12167,90 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-13；知识库序号178；运动系统弧线皮层动力学篇；核心：旋转动力学（Churchland 2012）+ 输出零空间（Kaufman 2014）+ 神经流形约束学习（Vyas 2020）；新建jpca和neural-manifold两个wiki页；图谱357节点2056边"
+    },
+    {
+      "article_number": 181,
+      "date": "2026-06-13",
+      "title": "感觉反馈的智慧：最优反馈控制如何统一运动神经科学",
+      "slug": "optimal-feedback-control-ofc",
+      "filename": "2026-06-13-optimal-feedback-control-ofc.md",
+      "article_type": "regular",
+      "core_question": "OFC 框架如何从「最小化任务代价」这一简单原则，统一解释运动冗余（结构化变异）、任务依赖性牵张反射（M2/M3 目标依赖调制）和 M1 旋转动力学（感觉反馈涌现属性）？",
+      "layer": [
+        "cognition",
+        "behavior",
+        "brain-region"
+      ],
+      "curriculum_track": "运动系统 → 计算框架（OFC 大统一理论）",
+      "topic_tags": [
+        "optimal-feedback-control",
+        "OFC",
+        "cost-function",
+        "Todorov",
+        "Jordan 2002",
+        "uncontrolled-manifold",
+        "UCM",
+        "structured-variability",
+        "feedback-gain-matrix",
+        "Kalman-filter",
+        "state-estimation",
+        "Weiler 2015",
+        "LLR goal-dependent",
+        "Kalidindi 2021",
+        "rotational-dynamics",
+        "feedback-controller",
+        "Scott 2004",
+        "Scott 2008",
+        "Diedrichsen 2010",
+        "Franklin Wolpert 2011",
+        "sensorimotor-integration",
+        "motor-control"
+      ],
+      "main_sources": [
+        "PMID:12404008 (Todorov & Jordan 2002, Nature Neuroscience) - 摘要",
+        "PMID:15332089 / PMC1488877 (Todorov 2004, Nature Neuroscience) - 开放全文",
+        "PMID:15208695 (Scott 2004, Nature Reviews Neuroscience) - 摘要",
+        "PMID:18187462 / PMC2375659 (Scott 2008, J Physiology) - 开放全文",
+        "PMID:22078503 (Franklin & Wolpert 2011, Neuron) - free article",
+        "PMID:20005767 / PMC4350769 (Diedrichsen et al. 2010, TiCS) - 开放全文",
+        "PMID:22370742 (Pruszynski & Scott 2012, Exp Brain Res) - 摘要",
+        "PMID:26445871 / PMC4686281 (Weiler et al. 2015, J Neurophysiol) - 开放全文",
+        "PMID:34730516 / PMC8691841 (Kalidindi et al. 2021, eLife) - 开放全文",
+        "PMID:38551834 / PMC10998569 (Greene et al. 2024, PNAS) - 开放全文"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/optimal-feedback-control.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/motor-cortex.md (rev6→rev7): 新增 OFC 框架小节，related 增 optimal-feedback-control",
+        "wiki/concepts/rotational-dynamics-motor.md (rev2→rev3): 新增 OFC 视角的挑战（Kalidindi 2021），登记矛盾 C-2026-06-13-01",
+        "wiki/concepts/forward-model.md (rev3→rev4): 补充前向模型作为 OFC 卡尔曼预测步的角色"
+      ],
+      "graph_nodes_added": [],
+      "graph_nodes_updated": [
+        "optimal-feedback-control"
+      ],
+      "graph_edges_added": 7,
+      "graph_state": "362 节点，2085 边",
+      "contested_claims_logged": [
+        "C-2026-06-13-01（open）：M1 旋转来源——内在循环连接 vs 感觉反馈涌现"
+      ],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-ofc-01",
+        "Q-ofc-02",
+        "Q-ofc-03",
+        "Q-ofc-04",
+        "Q-ofc-05"
+      ],
+      "next_suggested_topics": [
+        "运动学习的神经机制（motor learning）——小脑 LTD / 基底神经节 / 皮层可塑性如何共同实现运动技能获得",
+        "脊髓肌肉协同（muscle synergies）——运动冗余的脊髓层解法与 OFC 预测的关系",
+        "贝叶斯感觉整合——多感觉融合（视觉+本体感觉）的神经机制（填补 UCM 的感觉侧）",
+        "基底神经节与运动控制——代价函数评估、动作选择和运动门控的具体神经回路"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-13；知识库序号181；运动系统弧线计算框架总结篇；核心：OFC（Todorov & Jordan 2002）统一运动冗余、任务依赖反射、M1 动力学；新建 OFC wiki 页；登记矛盾 C-2026-06-13-01（旋转动力学来源争议）；图谱 362 节点 2085 边"
     }
   ]
 }

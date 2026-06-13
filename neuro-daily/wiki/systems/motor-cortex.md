@@ -7,9 +7,9 @@ status: established
 confidence: high
 created: 2026-06-21
 updated: 2026-06-13
-revision_count: 6
+revision_count: 7
 dimensions: [brain-region, cellular, behavior, cognition]
-related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellum, forward-model, embodied-semantics, spinal-cord-cpg, spinal-interneurons-locomotion, neural-manifold, jpca]
+related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellum, forward-model, embodied-semantics, spinal-cord-cpg, spinal-interneurons-locomotion, neural-manifold, jpca, optimal-feedback-control]
 prerequisites: [action-potential, voltage-gated-calcium-channels, pyramidal-neuron]
 opens_questions: [Q-mc-01, Q-mc-02, Q-mc-03]
 source_articles: [2026-06-21-motor-cortex-voluntary-movement, 2026-06-13-motor-cortex-rotational-dynamics]
@@ -91,6 +91,7 @@ key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928",
 - [[forward-model]] — 小脑前向模型与运动皮层的协作机制
 - [[spinal-cord-cpg]] — 脊髓 CPG 提供基础步态节律，运动皮层在复杂地形时叠加精细调控（分层委托架构）
 - [[spinal-interneurons-locomotion]] — 皮层脊髓束（CST）终止于脊髓中间神经元，通过 V2a 等中间神经元间接调控运动神经元
+- [[optimal-feedback-control]] — OFC 框架下，M1 实现最优反馈控制器（反馈增益矩阵），统一解释 M1 的混合编码特征
 
 ## 运动皮层与 CPG 的分工（2026-10-07 补充）
 
@@ -108,6 +109,16 @@ CPG 研究（Kiehn 2016）揭示了运动皮层与脊髓 CPG 之间的分层委�
 | 障碍物绕行/落脚精确 | 高（直接介入）| 运动皮层 → CST → 脊髓 |
 | 手指精细操作 | 极高 | 运动皮层 → CST 单突触 → 运动神经元 |
 
+## OFC 框架对 M1 的重新解读（2026-06-13 补充）
+
+最优反馈控制（OFC）框架（Todorov & Jordan 2002，PMID:12404008）提供了对 M1 功能的新解读视角：
+
+- **M1 的"混杂编码"不是问题**：OFC 预测控制器（M1）应同时接受视觉目标、本体感觉、传出拷贝等多种信号，其混合编码是最优控制器的预期特征（Scott 2008，PMC2375659）
+- **M1 实现反馈增益矩阵**：长潜伏期牵张反射（LLR）的目标依赖性调制是 M1 参与 OFC 反馈增益计算的行为表现
+- **旋转动力学 vs OFC**：Kalidindi 等（2021，PMC8691841）发现旋转动力学也出现在 S1、顶叶，并在无循环连接但有感觉反馈的网络中产生——提示旋转可能是感觉运动反馈控制系统的集体涌现属性，而非 M1 内在振荡特征（争议：见 contested_claims）
+
+详见 [[optimal-feedback-control]]。
+
 ## 未解问题
 
 - Q-mc-01：群体向量编码与旋转动力学的关系（互补还是竞争性解释？）
@@ -122,6 +133,7 @@ CPG 研究（Kiehn 2016）揭示了运动皮层与脊髓 CPG 之间的分层委�
 - 2026-10-07 · 修订 · 基于《步态的脊髓时钟》(#167) · 新增"运动皮层与CPG的分工"小节（分层委托架构）；related 新增 spinal-cord-cpg, spinal-interneurons-locomotion；明确皮层在基础步行vs复杂地形vs精细手指操作中的差异化卷入程度
 - 2026-06-13 · 修订 · 基于《进化写下的专线：皮质脊髓束》(#173) · 更新 corticospinal-tract 引用（已从"待建"改为正式页）；补充 CST 终止数据（59%中间灰质/18%直达运动核）和 CM 连接描述；key_sources 补充 PMID:30906528, PMID:24312077
 - 2026-06-13 · 修订 · 基于《旋转的引擎》(#178) · 在旋转动力学节补充RNN验证（Sussillo 2015）和jPCA工具；related新增neural-manifold, jpca；key_sources补充PMID:26075643, PMID:17178410；source_articles补充#178
+- 2026-06-13 · 修订（rev6→rev7）· 基于《感觉反馈的智慧：最优反馈控制》(#181) · 新增"OFC 框架对 M1 的重新解读"小节（M1混合编码作为控制器特征、LLR目标依赖、旋转动力学OFC解释）；related新增 optimal-feedback-control；连接段新增 optimal-feedback-control 项
 
 ## 来源文章
 

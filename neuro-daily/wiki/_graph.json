@@ -3270,11 +3270,11 @@
     {
       "id": "optimal-feedback-control",
       "title": "最优反馈控制（OFC）",
-      "domain": "theories",
+      "domain": "concepts",
       "type": "theory",
       "status": "mainstream",
-      "confidence": "medium",
-      "page": "wiki/theories/optimal-feedback-control.md"
+      "confidence": "high",
+      "page": "wiki/concepts/optimal-feedback-control.md"
     }
   ],
   "edges": [
@@ -14272,6 +14272,41 @@
       "from": "thalamus",
       "to": "transcortical-stretch-reflex",
       "type": "mechanism-of"
+    },
+    {
+      "from": "optimal-feedback-control",
+      "to": "motor-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "optimal-feedback-control",
+      "to": "forward-model",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "optimal-feedback-control",
+      "to": "cerebellum",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "optimal-feedback-control",
+      "to": "predictive-coding",
+      "type": "is-a"
+    },
+    {
+      "from": "optimal-feedback-control",
+      "to": "output-null-space",
+      "type": "related"
+    },
+    {
+      "from": "optimal-feedback-control",
+      "to": "rotational-dynamics-motor",
+      "type": "related"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "optimal-feedback-control",
+      "type": "supports"
     }
   ],
   "dangling_references": [

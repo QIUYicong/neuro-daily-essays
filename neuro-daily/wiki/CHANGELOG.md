@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-06-13（文章 #181：最优反馈控制 OFC）
+
+**创建新页**：
+- `wiki/concepts/optimal-feedback-control.md`（rev1）：最优反馈控制（OFC）理论，涵盖代价函数、三大核心预测（结构化变异、任务依赖增益、多效应器协作）、卡尔曼滤波神经实现框架，10 个来源（6 个开放全文）
+
+**修订页面**：
+- `wiki/systems/motor-cortex.md`（rev6→rev7）：新增"OFC 框架对 M1 的重新解读"小节（M1 混合编码作为控制器特征、LLR 目标依赖性、旋转动力学 OFC 解释）；related 新增 optimal-feedback-control
+- `wiki/concepts/rotational-dynamics-motor.md`（rev2→rev3）：新增"OFC 视角的挑战"小节（Kalidindi 2021：无循环连接有感觉反馈的网络产生旋转，S1/顶叶也有旋转）；登记矛盾 C-2026-06-13-01
+- `wiki/concepts/forward-model.md`（rev3→rev4）：补充前向模型在 OFC 卡尔曼滤波框架中的具体角色（预测步）；related 新增 optimal-feedback-control
+
+**登记矛盾**：
+- `C-2026-06-13-01`（open）：M1 旋转动力学来源——内在循环连接（Sussillo 2015）vs 感觉反馈回路涌现（Kalidindi 2021）；需要选择性感觉反馈阻断因果实验裁决
+
+**图谱变更**：362 节点（更新 OFC 节点 domain/confidence/page）；2085 边（+7 条新边：OFC→M1, OFC→forward-model, OFC→cerebellum, OFC→predictive-coding, OFC→output-null-space, OFC→rotational-dynamics-motor, M1→OFC）
+
+**新增悬空引用**：无（所有 related 均已有节点）
+
+---
+
 ## 2026-06-13（文章 #180：反射的第二次进化——长潜伏期牵张反射 M2/M3）
 
 ### 新建 wiki 页面（1 页）

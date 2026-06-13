@@ -4918,3 +4918,37 @@
 - **来源文章**：2026-06-13-transcortical-stretch-reflex-long-latency
 - **问题**：Trumbower等2013年发现中风后M2/M3双侧受损，M1反射保留。现有中风康复训练（机器人辅助、任务导向训练）主要测量主动力量、Fugl-Meyer评分和步行速度，很少量化M2/M3的任务依赖调制恢复。是否存在以下关系：（a）M2/M3调制能力的恢复先于/伴随/晚于Fugl-Meyer评分的改善？（b）针对"快速扰动中的任务目标切换"专门训练是否能加速M2/M3功能恢复？（c）M2/M3调制能力是否能预测康复后6个月的ADL功能？
 
+
+---
+
+## 2026-06-13 新增（来自"感觉反馈的智慧：最优反馈控制（OFC）" #181）
+
+### Q-ofc-01（高优先级）：大脑如何在神经元网络中实现卡尔曼增益和反馈增益矩阵的计算？
+
+- **关联 wiki**：[[optimal-feedback-control]]、[[motor-cortex]]、[[forward-model]]
+- **来源文章**：2026-06-13-optimal-feedback-control-ofc
+- **问题**：OFC 在计算层（Marr's level）清楚描述了大脑应该计算什么（卡尔曼估计 + 最优增益矩阵），但神经元如何用放电率和突触权重实现矩阵乘法、矩阵求逆、贝叶斯更新……仍无直接神经机制解答。这是计算层到算法层/实现层之间最大的鸿沟。Greene 等 2024（PMC10998569）的计算模型给出了一些约束，但仍是间接证据。
+
+### Q-ofc-02（高优先级）：任务代价函数的神经编码在哪里、如何在学习过程中形成？
+
+- **关联 wiki**：[[optimal-feedback-control]]、[[basal-ganglia]]、[[dopamine-reward-prediction-error]]
+- **来源文章**：2026-06-13-optimal-feedback-control-ofc
+- **问题**：OFC 假设代价函数已知，但任务目标如何在神经系统中被编码并转化为代价权重λ？基底神经节强化学习信号（多巴胺预测误差）可能参与，但具体机制（哪个核团编码什么形式的代价、如何随任务变化）不清楚。这与"目标表征"的神经基础直接相关。
+
+### Q-ofc-03（中优先级）：如何将 OFC 扩展到层次化、多时间尺度的运动组织？
+
+- **关联 wiki**：[[optimal-feedback-control]]、[[motor-cortex]]
+- **来源文章**：2026-06-13-optimal-feedback-control-ofc
+- **问题**：Diedrichsen 等 2010（PMC4350769）明确指出 OFC 在单层控制上成功，但真实运动任务有分层结构（"抓杯子"→"手指运动"→"精确力度控制"）。分层 OFC 模型的神经实现尚无充分验证。需要将多时间尺度强化学习与 OFC 框架整合。
+
+### Q-ofc-04（中优先级）：M1 旋转动力学主要来自内在循环连接还是感觉反馈回路的涌现？
+
+- **关联 wiki**：[[rotational-dynamics-motor]]、[[optimal-feedback-control]]、[[motor-cortex]]
+- **来源文章**：2026-06-13-optimal-feedback-control-ofc
+- **问题**：Kalidindi 等 2021（PMC8691841）OFC 视角 vs Sussillo 等 2015（PMID:26075643）内在动力学视角。关键裁决实验：选择性阻断 S1/顶叶→M1 感觉反馈（如用光遗传学或 DREADDs 抑制 S1→M1 投射），测量 M1 旋转动力学是否减弱。两种解释在现有数据下均自洽。（见 C-2026-06-13-01）
+
+### Q-ofc-05（中优先级）：OFC 框架如何解释运动启动的门控机制？
+
+- **关联 wiki**：[[optimal-feedback-control]]、[[basal-ganglia]]、[[motor-cortex]]
+- **来源文章**：2026-06-13-optimal-feedback-control-ofc
+- **问题**：纯 OFC 模型中运动应该连续最优，不需要明显的"启动"时刻——但行为上有清晰的反应时。Diedrichsen 等 2010 提出需要额外门控机制（可能涉及基底神经节/丘脑的动态去抑制）。这个门控如何在 OFC 框架中被形式化描述尚未解决。

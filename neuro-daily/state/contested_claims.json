@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-06-13",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 12,
+  "open_count": 13,
   "resolved_count": 0,
   "claims": [
     {
@@ -203,6 +203,21 @@
         "Q-tgc-03"
       ],
       "current_weight": "claim_A 证据更强（单神经元数据、人类直接证据、因果机制链），但 claim_B 提出了重要的方法论警告"
+    },
+    {
+      "id": "C-2026-06-13-01",
+      "page": "wiki/concepts/rotational-dynamics-motor.md",
+      "claim_A": "M1 旋转动力学主要来自内在循环连接：RNN 训练复现 EMG 自发产生旋转（Sussillo et al. 2015, PMID:26075643），是时序运动生成的计算必然性",
+      "claim_B": "M1 旋转动力学是感觉运动反馈控制回路的集体涌现属性（Kalidindi et al. 2021, PMID:34730516）：无循环连接但有感觉反馈的网络也产生旋转；S1/顶叶 A2/5 区也同时出现旋转；与 OFC 框架一致",
+      "nature": "计算层理论分歧：内在动力学 vs 感觉反馈涌现。两种解释在现有数据下均自洽；需要选择性阻断 S1/顶叶→M1 感觉反馈后测量旋转是否减弱的因果实验",
+      "status": "open",
+      "opened": "2026-06-13",
+      "source_article": "2026-06-13-optimal-feedback-control-ofc",
+      "priority": "medium",
+      "related_questions": [
+        "Q-ofc-04",
+        "Q-mc-01"
+      ]
     }
   ]
 }

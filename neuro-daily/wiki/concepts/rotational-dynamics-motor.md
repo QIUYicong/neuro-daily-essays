@@ -7,9 +7,9 @@ status: mainstream
 confidence: high
 created: 2026-06-21
 updated: 2026-06-13
-revision_count: 2
+revision_count: 3
 dimensions: [cellular, brain-region, behavior, cognition]
-related: [motor-cortex, population-vector-coding, output-null-space, working-memory, persistent-activity, jpca, neural-manifold]
+related: [motor-cortex, population-vector-coding, output-null-space, working-memory, persistent-activity, jpca, neural-manifold, optimal-feedback-control]
 prerequisites: [motor-cortex, population-vector-coding]
 opens_questions: [Q-mc-01, Q-mc-03, Q-rd-01, Q-rd-02]
 source_articles: [2026-06-21-motor-cortex-voluntary-movement, 2026-06-13-motor-cortex-rotational-dynamics]
@@ -72,6 +72,22 @@ Sussillo et al. (2015) 训练RNN仅复现EMG，RNN内部自发出现旋转动力
 | 旋转不出现于SMA，只在M1 | SMA vs M1 jPCA对比 | PMID:32640928 | 中（数据集有限） |
 | 准备状态精度预测运动表现和变异性 | 延迟期长度×运动精度，多猴数据 | PMID:17178410 | 高 |
 
+## OFC 视角的挑战（2026-06-13 补充）
+
+**Kalidindi 等（2021，PMID:34730516；PMC8691841）**提出了一种与主流不同的解释：
+
+- **无循环连接**但有感觉反馈输入的神经网络，也能产生旋转动力学
+- **S1、顶叶 A2 和 5 区**也展示旋转——旋转不是 M1 独有
+- **运动信号本身**（关节角度/速度）也有旋转结构
+
+这提示旋转可能是**感觉运动反馈回路（M1 + 感觉皮层 + 运动信号）的集体涌现属性**，而非 M1 内在循环连接的独立产物——与 OFC 框架的预测（感觉反馈回路自然产生旋转）一致。
+
+**登记矛盾 C-2026-06-13-01**（open）：  
+- **claim_A**（主流，内在动力学）：旋转主要源于 M1 内在循环连接；RNN 验证（Sussillo 2015）表明是时序生成的计算必然性
+- **claim_B**（OFC 视角，Kalidindi 2021）：旋转是感觉运动反馈系统的涌现属性；无循环连接的有反馈网络也产生旋转，且多皮层区同时出现
+- **分歧性质**：两者在现有数据下均自洽；需要关键实验：选择性阻断 S1/顶叶→M1 感觉反馈后，测量 M1 旋转是否减弱
+- **当前状态**：open，置信度降至中-高
+
 ## 连接
 
 - [[motor-cortex]] — 旋转动力学的生物学基础
@@ -80,6 +96,7 @@ Sussillo et al. (2015) 训练RNN仅复现EMG，RNN内部自发出现旋转动力
 - [[jpca]] — 搜寻旋转结构的降维方法（旋转动力学的主要分析工具）
 - [[neural-manifold]] — 旋转在神经流形上发生；流形结构约束可学习的运动技能空间
 - [[working-memory]] — 工作记忆中的持续放电与吸引子动力学：另一类神经动力学范式的比较
+- [[optimal-feedback-control]] — OFC 框架提出旋转是感觉运动反馈控制系统的涌现属性（争议中）
 
 ## 未解问题
 
@@ -87,11 +104,17 @@ Sussillo et al. (2015) 训练RNN仅复现EMG，RNN内部自发出现旋转动力
 - Q-mc-03：运动学习过程中，旋转动力学如何通过突触可塑性从杂乱变为有序？
 - Q-rd-01：运动学习期间，神经群体旋转如何通过突触可塑性从无组织演变为有组织？在神经流形层面学习的分子机制是什么？
 - Q-rd-02：旋转动力学是否存在于人类大脑皮层？有限的人类BCI记录（少量通道）如何验证这一群体现象？
+- Q-ofc-04：选择性阻断感觉反馈输入（S1/顶叶→M1）后，M1 旋转是否减弱或消失？（裁决内在动力学 vs OFC 解释的关键实验）
+
+## 矛盾条目
+
+- **C-2026-06-13-01**（open）：M1 旋转主要来源——内在循环连接（claim_A）vs 感觉反馈回路涌现（claim_B）。需要选择性感觉反馈阻断实验裁决。
 
 ## 修订历史
 
 - 2026-06-21 · 创建 · 基于《从意图到动作》（#57）· 初始置信度：高
 - 2026-06-13 · 修订 · 基于《旋转的引擎》(#178) · 加深jPCA方法细节段落、加多物种证据行、加EMG旋转分解结论、加RNN验证（Sussillo 2015）和神经流形约束学习（Vyas 2020）；related新增jpca, neural-manifold；opens_questions增Q-rd-01/02
+- 2026-06-13 · 修订（rev2→rev3）· 基于《感觉反馈的智慧：最优反馈控制》(#181) · 新增"OFC 视角的挑战"小节（Kalidindi 2021：无循环连接但有感觉反馈的网络也产生旋转；S1/顶叶也有旋转）；登记矛盾 C-2026-06-13-01（内在循环 vs 感觉反馈涌现）；related新增 optimal-feedback-control；status 维持 mainstream，confidence 维持 high（争议提示为 open 矛盾，但主流证据仍强）；opens_questions增Q-ofc-04
 
 ## 来源文章
 
