@@ -3212,6 +3212,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/somatosensory-cortex-3a.md"
+    },
+    {
+      "id": "jpca",
+      "title": "jPCA（旋转主成分分析）",
+      "domain": "methods",
+      "type": "method",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/methods/jpca.md"
+    },
+    {
+      "id": "neural-manifold",
+      "title": "神经流形",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/neural-manifold.md"
     }
   ],
   "edges": [
@@ -14048,6 +14066,56 @@
     {
       "from": "proprioception",
       "to": "somatosensory-cortex-3a",
+      "type": "related"
+    },
+    {
+      "from": "jpca",
+      "to": "rotational-dynamics-motor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "jpca",
+      "to": "neural-manifold",
+      "type": "related"
+    },
+    {
+      "from": "jpca",
+      "to": "motor-cortex",
+      "type": "related"
+    },
+    {
+      "from": "jpca",
+      "to": "output-null-space",
+      "type": "related"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "rotational-dynamics-motor",
+      "type": "supports"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "output-null-space",
+      "type": "related"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "motor-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "attractor-network",
+      "type": "related"
+    },
+    {
+      "from": "rotational-dynamics-motor",
+      "to": "neural-manifold",
+      "type": "related"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "neural-manifold",
       "type": "related"
     }
   ],

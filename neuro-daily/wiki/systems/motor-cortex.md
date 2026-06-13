@@ -7,13 +7,13 @@ status: established
 confidence: high
 created: 2026-06-21
 updated: 2026-06-13
-revision_count: 5
+revision_count: 6
 dimensions: [brain-region, cellular, behavior, cognition]
-related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellum, forward-model, embodied-semantics, spinal-cord-cpg, spinal-interneurons-locomotion]
+related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellum, forward-model, embodied-semantics, spinal-cord-cpg, spinal-interneurons-locomotion, neural-manifold, jpca]
 prerequisites: [action-potential, voltage-gated-calcium-channels, pyramidal-neuron]
 opens_questions: [Q-mc-01, Q-mc-02, Q-mc-03]
-source_articles: [2026-06-21-motor-cortex-voluntary-movement]
-key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928", "PMID:14741110", "PMID:15733097", "PMID:30906528", "PMID:24312077"]
+source_articles: [2026-06-21-motor-cortex-voluntary-movement, 2026-06-13-motor-cortex-rotational-dynamics]
+key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928", "PMID:14741110", "PMID:15733097", "PMID:30906528", "PMID:24312077", "PMID:26075643", "PMID:17178410"]
 ---
 
 # 运动皮层 (Motor Cortex)
@@ -42,10 +42,12 @@ key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928",
 - 心理旋转时，群体向量以约732度/秒的速率从目标方向旋转至实际运动方向（1989）
 
 ### 旋转动力学（Churchland 2012）
-- 执行期群体活动在低维神经状态空间中以约2–2.8 Hz旋转
-- 主旋转平面捕获约28%总群体方差
+- 执行期群体活动在低维神经状态空间（[[neural-manifold]]）中以约2–2.8 Hz旋转
+- 主旋转平面（jPC1/jPC2）捕获约28%总群体方差
 - 旋转频率在快/慢运动中稳定；速度信息由振幅编码
 - 准备状态设定旋转的初始条件（振幅和相位）
+- RNN训练复现EMG时自发出现旋转，证明是时序运动生成的计算必然性（Sussillo et al. 2015, PMID:26075643）
+- 分析工具：[[jpca]]（反对称矩阵特征分解，专门搜寻旋转结构）
 
 ### 输出零空间机制（Kaufman 2014）
 - 肌肉活动 ≈ W × 神经元群体活动（线性投影）
@@ -119,6 +121,7 @@ CPG 研究（Kiehn 2016）揭示了运动皮层与脊髓 CPG 之间的分层委�
 - 2026-06-02 · 修订 · 基于《当大脑读到"踢"，脚步已先响》(#65) · 新增具身语义功能维度：运动皮层作为词义的感觉运动辐条；related 新增 embodied-semantics；key_sources 补充 PMID:14741110, PMID:15733097
 - 2026-10-07 · 修订 · 基于《步态的脊髓时钟》(#167) · 新增"运动皮层与CPG的分工"小节（分层委托架构）；related 新增 spinal-cord-cpg, spinal-interneurons-locomotion；明确皮层在基础步行vs复杂地形vs精细手指操作中的差异化卷入程度
 - 2026-06-13 · 修订 · 基于《进化写下的专线：皮质脊髓束》(#173) · 更新 corticospinal-tract 引用（已从"待建"改为正式页）；补充 CST 终止数据（59%中间灰质/18%直达运动核）和 CM 连接描述；key_sources 补充 PMID:30906528, PMID:24312077
+- 2026-06-13 · 修订 · 基于《旋转的引擎》(#178) · 在旋转动力学节补充RNN验证（Sussillo 2015）和jPCA工具；related新增neural-manifold, jpca；key_sources补充PMID:26075643, PMID:17178410；source_articles补充#178
 
 ## 来源文章
 

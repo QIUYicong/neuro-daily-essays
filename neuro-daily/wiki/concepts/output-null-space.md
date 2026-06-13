@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-06-21
-updated: 2026-06-21
-revision_count: 1
+updated: 2026-06-13
+revision_count: 2
 dimensions: [cellular, brain-region, behavior, microcircuit]
-related: [motor-cortex, rotational-dynamics-motor, working-memory, persistent-activity]
+related: [motor-cortex, rotational-dynamics-motor, working-memory, persistent-activity, neural-manifold, jpca]
 prerequisites: [motor-cortex, rotational-dynamics-motor]
-opens_questions: [Q-mc-01]
-source_articles: [2026-06-21-motor-cortex-voluntary-movement]
-key_sources: ["PMID:24487233"]
+opens_questions: [Q-mc-01, Q-rd-03]
+source_articles: [2026-06-21-motor-cortex-voluntary-movement, 2026-06-13-motor-cortex-rotational-dynamics]
+key_sources: ["PMID:24487233", "PMID:22722855", "PMID:32640928"]
 ---
 
 # 输出零空间 (Output-Null Space)
@@ -44,20 +44,32 @@ key_sources: ["PMID:24487233"]
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
 |------|----------|------|--------|
-| 准备活动优先占用输出零空间（调谐比4.5×） | 猕猴M1+PMd神经元+EMG，PCA回归 | PMID:24487233 | 高 |
-| 96%为群体协调抵消效应（非亚群隔离） | 单试验分析 | PMID:24487233 | 高 |
-| PMd准备活动也优先占用M1零空间 | PMd→M1通路分析（调谐比2.3） | PMID:24487233 | 中 |
+| 准备活动优先占用输出零空间（调谐比4.5×） | 猕猴M1+PMd神经元+EMG，PCA回归，4组数据集p<0.03 | PMID:24487233 | 高 |
+| 96%为群体协调抵消效应（非亚群隔离） | 单试验分析（随机亚群控制） | PMID:24487233 | 高 |
+| PMd准备活动也优先占用M1零空间（调谐比2.3） | PMd→M1通路分析 | PMID:24487233 | 中（单数据集） |
+| 零空间机制不需要主动抑制闸门 | 96%消除来自群体协调而非亚群物理隔离的计算证明 | PMID:24487233 | 高 |
+| 感觉反馈也优先进入decoder-null维度 | RNN+实验对比分析 | PMID:32640928 | 中（计算模型预测） |
 
 ## 连接
 
 - [[motor-cortex]] — 零空间的生理实现场所
-- [[rotational-dynamics-motor]] — 执行期活动从零空间流入主动空间，触发旋转动力学
-- [[working-memory]] — 工作记忆中的"活动无声储存"（activity-silent WM）概念上的平行
+- [[rotational-dynamics-motor]] — 执行期活动从零空间流入主动空间，触发旋转动力学；旋转需要同时占用零空间和主动空间（钟摆比喻）
+- [[neural-manifold]] — 零空间是神经流形内的一个子结构；两者共同约束M1的可能活动模式
+- [[jpca]] — jPCA分析常与零空间分析配合，分别揭示执行期和准备期的群体活动结构
+- [[working-memory]] — 工作记忆中的"活动无声储存"（activity-silent WM）概念上的平行：活动在"解码零空间"储存，不影响输出
+- [[persistent-activity]] — 工作记忆持续放电：与零空间的对照——持续放电是主动维持，零空间是主动隐藏
+
+## 未解问题
+
+- Q-mc-01：零空间机制是M1特有，还是皮层间通信的普遍原则？
+- Q-rd-03：SMA/PMd如何精确知道"何时执行信号到来"，从而触发活动从零空间流入主动空间？这个"触发"的神经机制是什么？
 
 ## 修订历史
 
 - 2026-06-21 · 创建 · 基于《从意图到动作》（#57）· 初始置信度：高
+- 2026-06-13 · 修订 · 基于《旋转的引擎》(#178) · 加PMd零空间证据的统计细节、加感觉反馈decoder-null证据、加钟摆比喻说明零空间与旋转的关系；related新增neural-manifold, jpca；开问题增Q-rd-03
 
 ## 来源文章
 
 - [[2026-06-21-motor-cortex-voluntary-movement]]
+- [[2026-06-13-motor-cortex-rotational-dynamics]]

@@ -3935,3 +3935,39 @@
 - Q-ihc-01（高）：胼胝体跨半球传递净效果（抑制 vs 兴奋）如何随任务/脑区/年龄变化？是否有生物标志物？
 - Q-ihc-02（中）：右半球单向抑制优势的发育起源——天生固定还是可重塑？
 - Q-ihc-03（中）：忽视患者左侧 PPC 过激活：被动去抑制 vs 主动代偿——两种解释有不同的治疗含义
+
+---
+
+## 2026-06-13 更新（第 178 篇：旋转的引擎——运动皮层群体动力学）
+
+### 新建 wiki 页面
+
+**methods/**
+- `jpca.md` — jPCA（旋转主成分分析）| mainstream / high | 搜寻神经群体旋转结构的降维工具；反对称矩阵特征分解；Churchland et al. 2012 核心分析方法；置换检验验证
+
+**concepts/**
+- `neural-manifold.md` — 神经流形 | mainstream / high | 神经群体活动分布的低维曲面（6–20维）；流形约束学习（in-manifold快速/out-of-manifold极难）；旋转在流形子空间展开
+
+### 修订 wiki 页面
+
+- `concepts/rotational-dynamics-motor.md` rev1→rev2 — 加深jPCA方法细节（反对称矩阵推导、置换检验）；加多物种证据行（水蛭/踏步/伸取）；加EMG旋转分解结论；加RNN验证（Sussillo 2015 PMID:26075643）；加神经流形约束学习（Vyas 2020）；related新增jpca, neural-manifold；key_sources增PMID:26075643, PMID:24487233
+- `concepts/output-null-space.md` rev1→rev2 — 加PMd零空间证据统计细节（4组数据集p<0.03）；加感觉反馈decoder-null预测（Vyas 2020）；加钟摆比喻说明零空间与旋转协作机制；related新增neural-manifold, jpca；opens_questions增Q-rd-03；key_sources增PMID:22722855, PMID:32640928
+- `systems/motor-cortex.md` rev5→rev6 — 在旋转动力学节补充RNN验证（Sussillo 2015）和jPCA工具引用；related新增neural-manifold, jpca；key_sources补充PMID:26075643, PMID:17178410；source_articles补充#178
+
+### 图谱变化
+
+- 新建节点：jpca（methods）、neural-manifold（concepts）
+- 新增边：10条（jpca↔rotational-dynamics-motor, neural-manifold, motor-cortex, output-null-space；neural-manifold↔rotational-dynamics-motor, output-null-space, motor-cortex, attractor-network）
+- 节点总数：355 → 357（+2）
+- 边总数：2046 → 2056（+10）
+
+### 登记矛盾（0 条）
+
+- 无新矛盾；旋转动力学与群体向量编码为互补而非竞争关系，已在wiki中如实呈现
+
+### 新增未解问题（4 条）
+
+- Q-rd-01（高）：运动学习期间，神经流形如何通过突触可塑性从"无组织"演变为"有组织"？学习的分子机制是什么？
+- Q-rd-02（高）：旋转动力学是否存在于人类大脑皮层？有限的人类BCI记录如何验证？
+- Q-rd-03（中）：SMA/PMd如何精确触发活动从输出零空间流入主动空间？"执行信号"的神经机制是什么？
+- Q-rd-04（中）：旋转动力学在神经系统疾病中如何破坏？能否作为BCI解码的生物标志物？

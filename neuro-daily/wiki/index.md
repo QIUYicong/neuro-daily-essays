@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#177** 3a区——皮层本体感觉的第一站；新建 1 页：somatosensory-cortex-3a（systems）；修订 3 页：somatosensory-cortex rev2、proprioception rev3、muscle-spindle rev3；填补悬空引用 somatosensory-cortex-3a；图谱 **355** 节点，**2046** 边）· 主题页总数：**324**
+> 最后更新：2026-06-13（**#178** 旋转的引擎——运动皮层旋转动力学；新建 2 页：jpca（methods）、neural-manifold（concepts）；修订 3 页：rotational-dynamics-motor rev2、output-null-space rev2、motor-cortex rev6；图谱 **357** 节点，**2056** 边）· 主题页总数：**326**
 
 ---
 
@@ -262,7 +262,7 @@
 
 ## motor（运动系统）
 
-- 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；群体向量编码；旋转动力学；输出零空间；与脊髓CPG分层委托架构（修订 rev5 2026-06-13）
+- 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；群体向量编码；旋转动力学；输出零空间；与脊髓CPG分层委托架构（修订 rev6 2026-06-13）
 - 🟢 [皮质脊髓束](systems/corticospinal-tract.md) — 延髓锥体交叉（~85%）；多元皮层起源；CM直达连接（灵长类特有）；PlexA1/CIS分子开关；ALS split-hand；发育至青春期 **[NEW 2026-06-13 #173]**
 - 🟢 [皮质-运动神经元直接连接](concepts/corticomotoneuronal-connections.md) — 皮层→α-MN单突触连接；高等灵长类特有；精准握持不可替代；Lawrence&Kuypers 1968经典实验 **[NEW 2026-06-13 #173]**
 - 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订 rev5 2026-06-13 #176]**
@@ -272,8 +272,9 @@
 - 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果；SCT 是关键输入通道（DSCT 70% CPG 驱动为证据）；主动推断框架下只需前向模型；齿状核预测苔藓纤维活动（R²=0.89）；内部模型 vs 前馈映射争议（C-2026-09-02-01） **[修订 rev3 2026-06-13 #176]**
 - 🟡 [本体感觉预测](concepts/proprioceptive-prediction.md) — 主动推断中运动命令=本体感觉先验（均值+精度）；空间精度（高尔基细胞）+ 时间精度（DCN）；脊髓反射弧执行；DCN损坏→意向性震颤 **[NEW 2026-09-02]**
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**
-- 🟡 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；动力学引擎而非参数地图；RNN训练后自发出现相同结构 **[NEW 2026-06-21]**
-- 🟡 [输出零空间](concepts/output-null-space.md) — 准备活动集中在对肌肉无效的零空间子空间（调谐比4.5×）；几何机制解释准备不触发运动 **[NEW 2026-06-21]**
+- 🔵 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；jPCA揭示结构；多物种一致；RNN训练后自发出现相同结构；神经流形约束学习 **[修订 rev2 2026-06-13 #178]**
+- 🔵 [输出零空间](concepts/output-null-space.md) — 准备活动集中在对肌肉无效的零空间子空间（调谐比4.5×）；96%来自群体协调消除；PMd→M1通路同样存在 **[修订 rev2 2026-06-13 #178]**
+- 🔵 [神经流形](concepts/neural-manifold.md) — 神经群体活动分布的低维曲面（6–20维）；流形内快速学习、流形外极难学习；编码计算能力和学习约束 **[NEW 2026-06-13 #178]**
 - 🔵 [镜像神经元](circuits/mirror-neurons.md) — F5区~17%神经元在执行+观察同一有目标动作时均激活（Gallese 1996）；功能定位修订：MNS支持低层动作区分（非高层意图推断）；破镜/自闭症假说无支持；起源：关联序列学习（Heyes & Catmur 2022）**[修订 rev2 2026-07-25 #93]**
 
 ## language（语言）
@@ -338,6 +339,7 @@
 ## methods（方法）
 
 - 🟢 [光遗传学](methods/optogenetics.md) — ChR2（蓝光激活）+ NpHR/Arch（黄光沉默）+ Cre-lox/c-fos-tTA 遗传特异性递送，提供毫秒精度因果回路解析；印迹细胞/假记忆/效价翻转实验的核心工具 **[NEW 2026-06-09]**
+- 🔵 [jPCA（旋转主成分分析）](methods/jpca.md) — 专门搜寻神经群体旋转结构的降维工具；拟合反对称矩阵特征向量对；揭示M1执行期旋转动力学（Churchland et al. 2012）；置换检验排除人工产物 **[NEW 2026-06-13 #178]**
 - 🟢 [扰动复杂性指数（PCI）](methods/perturbational-complexity-index.md) — IIT 的临床代理工具；TMS 扰动 + EEG 记录 + Lempel-Ziv 复杂度算法；区分清醒/NREM/麻醉/植物状态/最小意识状态；Casali 2013 奠基，多中心验证 **[NEW 2026-05-31]**
 - 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元，White 1986）→ 果蝇幼虫（3,016，Winding 2023）→ 成体果蝇脑（139,255，FlyWire 2024）→ **BANC 脑+VNC（~160,000，2026）**；揭示分布式运动控制、网络拓扑（小世界SΔ=141、富人俱乐部）；结构约束功能但不充分描述动力学（结构-功能鸿沟）**[rev3 2026-10-06]**
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**

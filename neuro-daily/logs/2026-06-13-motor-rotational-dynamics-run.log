@@ -1,0 +1,67 @@
+# 运行日志：2026-06-13 #178 运动皮层旋转动力学
+
+## 基本信息
+- 日期：2026-06-13（UTC+8）
+- 文章编号：#178
+- 主题：旋转的引擎——运动皮层如何用群体动力学生成精确动作
+- 模式：long_term_curriculum（课程脊柱：运动系统弧线的核心皮层机制）
+- 分支：claude/funny-einstein-bylmz6（同步于 origin/main）
+
+## 选题依据
+- 前一篇 #177 建议主题中排名第一：运动皮层旋转动力学
+- 填补课程脊柱：运动系统从外周（α-MN → NMJ → 肌梭 → GTO → SCT → 3a区）到皮层的最后一块
+- 图谱中 motor-cortex 页已存在旋转动力学节，但对应 rotational-dynamics-motor wiki 页面深度不足（revision_count=1）
+
+## 检索过程
+### 搜索词
+- "motor cortex rotational dynamics Churchland Shenoy"
+- "motor cortex preparatory activity rotational population dynamics"
+- "Kaufman 2014 motor cortex output null space"
+- "Vyas Golub Sussillo Shenoy Annual Review dynamics"
+- "Sussillo Churchland 2015 motor cortex neural network"
+- "Churchland 2006 preparatory activity variability"
+
+### 数据来源
+- PubMed 搜索：5次
+- PMC 全文获取：3篇（PMC3393826, PMC3955357, PMC7402639）
+- PubMed 摘要：3篇
+
+## 来源摘要
+| ID | PMID | 状态 | 用途 |
+|----|------|------|------|
+| S1 | 22722855 | 开放全文 PMC3393826 | 旋转动力学核心发现 |
+| S2 | 24487233 | 开放全文 PMC3955357 | 输出零空间核心发现 |
+| S3 | 23725001 | 仅摘要 | 动力学系统框架综述 |
+| S4 | 32640928 | 开放全文 PMC7402639 | 神经流形/RNN验证综述 |
+| S5 | 26075643 | 仅摘要 | RNN复现旋转验证 |
+| S6 | 17178410 | 仅摘要 | 准备期活动变异性 |
+
+满足条件：≥5来源 ✓ ≥2开放全文（3篇）✓
+
+## wiki 固结情况
+- 修订：rotational-dynamics-motor.md（rev1→rev2）
+- 修订：output-null-space.md（rev1→rev2）
+- 修订：motor-cortex.md（rev5→rev6）
+- 新建：wiki/methods/jpca.md
+- 新建：wiki/concepts/neural-manifold.md
+
+## 图谱更新
+- 节点：+2（jpca, neural-manifold）= 357总
+- 边：+10 = 2056总
+
+## 矛盾检查
+- 无新矛盾；旋转动力学与群体向量编码：互补关系，已在wiki中如实呈现
+
+## 新增未解问题
+- Q-rd-01, Q-rd-02, Q-rd-03, Q-rd-04
+
+## 文件路径
+- 文章：articles/2026-06-13-motor-cortex-rotational-dynamics.md
+- 笔记：notes/2026-06-13-motor-rotational-dynamics-reading-notes.md
+- 来源：sources/2026-06-13-motor-rotational-dynamics-sources.json
+- 日志：logs/2026-06-13-motor-rotational-dynamics-run.log
+
+## Git 状态
+- 分支：claude/funny-einstein-bylmz6（=origin/main）
+- Commit hash：（待填写）
+- Push 状态：（待填写）

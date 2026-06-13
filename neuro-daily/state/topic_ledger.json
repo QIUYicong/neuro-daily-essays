@@ -11870,9 +11870,7 @@
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",
   "layer_tracking": {
     "whole-brain-network": "2026-06-13",
-    "cognition": [
-      "2026-05-31"
-    ],
+    "cognition": "2026-06-13",
     "methods": [
       "2026-05-31"
     ],
@@ -11940,6 +11938,77 @@
         "初级躯体感觉皮层整体（S1 3b/1/2区的进一步分化）",
         "spinocerebellar-ataxia疾病页（填补悬空引用）"
       ]
+    },
+    {
+      "article_number": 178,
+      "date": "2026-06-13",
+      "title": "旋转的引擎：运动皮层如何用群体动力学生成精确动作",
+      "slug": "motor-cortex-rotational-dynamics",
+      "filename": "2026-06-13-motor-cortex-rotational-dynamics.md",
+      "article_type": "regular",
+      "core_question": "M1的神经群体活动为什么在执行非周期性伸取动作时在状态空间中旋转？旋转如何从准备状态（输出零空间）中涌现并通过jPCA揭示？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "运动系统→M1群体动力学（旋转、零空间、神经流形）",
+      "topic_tags": [
+        "motor-cortex",
+        "rotational-dynamics",
+        "jPCA",
+        "output-null-space",
+        "neural-manifold",
+        "population-dynamics",
+        "dynamical-systems",
+        "Churchland 2012",
+        "Kaufman 2014",
+        "Vyas 2020",
+        "Sussillo 2015",
+        "preparatory-activity",
+        "movement-variability",
+        "RNN"
+      ],
+      "main_sources": [
+        "PMID:22722855 (Churchland et al. 2012, Nature) - 开放全文 PMC3393826",
+        "PMID:24487233 (Kaufman et al. 2014, Nature Neuroscience) - 开放全文 PMC3955357",
+        "PMID:23725001 (Shenoy et al. 2013, Annu Rev Neurosci)",
+        "PMID:32640928 (Vyas et al. 2020, Annu Rev Neurosci) - 开放全文 PMC7402639",
+        "PMID:26075643 (Sussillo et al. 2015, Nature Neuroscience)",
+        "PMID:17178410 (Churchland et al. 2006, Neuron)"
+      ],
+      "wiki_pages_created": [
+        "wiki/methods/jpca.md",
+        "wiki/concepts/neural-manifold.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/rotational-dynamics-motor.md (rev1→rev2): 加深jPCA方法细节、RNN验证、神经流形约束学习",
+        "wiki/concepts/output-null-space.md (rev1→rev2): 加PMd统计细节、decoder-null扩展、钟摆比喻",
+        "wiki/systems/motor-cortex.md (rev5→rev6): 旋转节补充RNN验证和jPCA工具"
+      ],
+      "graph_nodes_added": [
+        "jpca",
+        "neural-manifold"
+      ],
+      "graph_edges_added": 10,
+      "graph_state": "357节点，2056边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-rd-01",
+        "Q-rd-02",
+        "Q-rd-03",
+        "Q-rd-04"
+      ],
+      "next_suggested_topics": [
+        "运动学习的神经机制（motor learning）——旋转动力学如何通过突触可塑性从无组织变为有组织",
+        "小脑内部模型深化（cerebellar internal model deep dive）——与M1旋转动力学的协作机制",
+        "初级躯体感觉皮层 S1 整体（3b/1/2区的精细触觉组织原则）",
+        "脊髓小脑性共济失调（spinocerebellar-ataxia）——SCT变性的遗传多样性（填补悬空引用）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-13；知识库序号178；运动系统弧线皮层动力学篇；核心：旋转动力学（Churchland 2012）+ 输出零空间（Kaufman 2014）+ 神经流形约束学习（Vyas 2020）；新建jpca和neural-manifold两个wiki页；图谱357节点2056边"
     }
   ]
 }
