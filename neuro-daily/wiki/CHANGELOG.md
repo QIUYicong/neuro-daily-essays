@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-06-13（文章 #176：双轨信使——脊髓小脑束 DSCT/VSCT 与前向模型输入）
+
+### 新建 wiki 页面（2 页）
+
+- `systems/spinocerebellar-tracts.md`（脊髓小脑束）：Rev1 创建；四条并行通路（DSCT/VSCT/CCT/RSCT）解剖框架；关键范式转变：DSCT 70% 受 CPG 驱动（Stecina 2013，PMC3853486，直接电生理）；VSCT 全部受 CPG 驱动；颗粒层稀疏编码（Geborek 2013/2014）；LRN 系统级整合（Alstermark & Ekerot 2013）；疾病窗口（Friedreich 共济失调 fMRI）；状态 established / confidence: high。
+- `neurons/clarkes-nucleus.md`（Clarke 柱）：Rev1 创建；T1-L2 背内侧灰质中继核；直接 Ia/Ib 单突触投射（VGluT1 高密度）；DSCT 主要起源；细胞体直径 60-80 μm；CPG 驱动证据（Stecina 2013）；状态 established / confidence: high。
+
+### 修订 wiki 页面（3 页）
+
+- `systems/cerebellum.md` rev4→rev5：related 新增 spinocerebellar-tracts；key_sources 新增 PMID:23613538/11274339；opens_questions 新增 Q-sct-01；source_articles 新增 #176；连接节新增 [[spinocerebellar-tracts]]；修订历史追加。
+- `concepts/forward-model.md` rev2→rev3：关键证据表新增 DSCT CPG 驱动行（PMID:23613538）；related 新增 spinocerebellar-tracts；连接节新增 [[spinocerebellar-tracts]]；key_sources/source_articles 更新；修订历史追加。
+- `wiki/index.md`：最后更新行更新至 #176；新增 spinocerebellar-tracts（systems）和 clarkes-nucleus（neurons）条目；cerebellum rev5/forward-model rev3/alpha-motor-neuron 描述更新；图谱状态更新至 354 节点 2038 边。
+
+### 图谱变化
+
+- 新建节点 2 个：spinocerebellar-tracts、clarkes-nucleus
+- 新增边 18 条：muscle-spindle/GTO → spinocerebellar-tracts（mechanism-of）；spinal-cord-cpg → spinocerebellar-tracts（regulates）；clarkes-nucleus → spinocerebellar-tracts（part-of）；spinocerebellar-tracts → cerebellum（mechanism-of）；spinocerebellar-tracts → forward-model（supports）；proprioception ↔ spinocerebellar-tracts；muscle-spindle/GTO → clarkes-nucleus（mechanism-of）；clarkes-nucleus → cerebellum（mechanism-of）；alpha-motor-neuron → spinocerebellar-tracts（related）；motor-system-hierarchy → spinocerebellar-tracts（part-of）；spinocerebellar-tracts → deep-cerebellar-nuclei（mechanism-of）；forward-model → spinocerebellar-tracts（prerequisite-for）；corticospinal-tract → spinocerebellar-tracts（related）；spinocerebellar-tracts → motor-system-hierarchy（part-of）
+- 图谱状态：354 节点，2038 边
+
+### 登记/裁决矛盾
+
+- 无新矛盾登记。DSCT "既传感觉又传 CPG 信号"与"DSCT = 纯感觉"的经典预期存在范式转变，但这是同一实验室（Stecina/Hultborn）基于明确实验的修正——不构成科学矛盾，而是对机制的深化。已在 spinocerebellar-tracts.md 正文中如实呈现"经典观点"和"新发现"。
+
+### 新增悬空引用待补
+
+- `somatosensory-cortex-3a`：被 spinocerebellar-tracts.md 正文提及（本体感觉在 3a 区的皮层终点），尚无独立页面——是下一个重要缺口
+- `spinocerebellar-ataxia`：被 cerebellum.md related 引用（wiki/diseases/spinocerebellar-ataxia.md），待创建疾病页
+
+---
+
 ## 2026-06-13（文章 #175：运动系统周综合——七个节点如何构成完整运动回路）
 
 ### 新建 wiki 页面（1 页）

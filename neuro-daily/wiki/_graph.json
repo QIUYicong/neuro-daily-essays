@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "updated": "2026-06-13",
-  "node_count": 341,
-  "edge_count": 1953,
+  "node_count": 354,
+  "edge_count": 2038,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3185,6 +3185,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/motor-system-hierarchy.md"
+    },
+    {
+      "id": "spinocerebellar-tracts",
+      "title": "脊髓小脑束",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/spinocerebellar-tracts.md"
+    },
+    {
+      "id": "clarkes-nucleus",
+      "title": "Clarke 柱",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/clarkes-nucleus.md"
     }
   ],
   "edges": [
@@ -13892,6 +13910,91 @@
       "from": "golgi-tendon-organ",
       "to": "motor-system-hierarchy",
       "type": "part-of"
+    },
+    {
+      "from": "muscle-spindle",
+      "to": "spinocerebellar-tracts",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "spinocerebellar-tracts",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "spinal-cord-cpg",
+      "to": "spinocerebellar-tracts",
+      "type": "regulates"
+    },
+    {
+      "from": "clarkes-nucleus",
+      "to": "spinocerebellar-tracts",
+      "type": "part-of"
+    },
+    {
+      "from": "spinocerebellar-tracts",
+      "to": "cerebellum",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "spinocerebellar-tracts",
+      "to": "forward-model",
+      "type": "supports"
+    },
+    {
+      "from": "proprioception",
+      "to": "spinocerebellar-tracts",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "muscle-spindle",
+      "to": "clarkes-nucleus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "clarkes-nucleus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "clarkes-nucleus",
+      "to": "cerebellum",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "spinocerebellar-tracts",
+      "to": "proprioception",
+      "type": "is-a"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "spinocerebellar-tracts",
+      "type": "related"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "spinocerebellar-tracts",
+      "type": "part-of"
+    },
+    {
+      "from": "spinocerebellar-tracts",
+      "to": "deep-cerebellar-nuclei",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "forward-model",
+      "to": "spinocerebellar-tracts",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "spinocerebellar-tracts",
+      "to": "motor-system-hierarchy",
+      "type": "part-of"
+    },
+    {
+      "from": "corticospinal-tract",
+      "to": "spinocerebellar-tracts",
+      "type": "related"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,139 @@
+# 运行日志：2026-06-13（文章 #176）
+
+**运行时间**：2026-06-13 UTC+8
+**文章序号**：第 176 篇
+**运行状态**：完成
+**分支**：claude/funny-einstein-hvvrtv → 推送至 main
+
+---
+
+## 本次运行背景
+
+文章 #175（运动系统周综合）已于 2026-06-13 10:59 CST 完成并推送。
+本次为新一轮自动化任务触发，读取状态后确认 #175 完成，开始撰写 #176。
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：total_articles=175（更新前）；last_updated=2026-06-13
+- 确认 #175 已成功推送：commit e54dbe5, bbcfe05
+- next_suggested_topics（来自 #175）：初级躯体感觉皮层 3a 区 / 脊髓小脑束 DSCT/VSCT / 运动皮层旋转动力学 / 小脑内部模型深化
+- `unresolved_questions.md`：Q-sct 系列尚未创建；Q-gto-01/02/03 来自 #174
+- `_graph.json`：352 节点，2020 边（更新前）
+- 悬空引用检查：spinocerebellar-tracts 被 muscle-spindle 和 proprioception 页引用但无独立节点 ✓（填补）
+- clarkes-nucleus 被 muscle-spindle 和 proprioception 正文提及但无独立页面 ✓（填补）
+
+---
+
+## 选题决策
+
+**选题依据**：
+1. 缺口驱动（优先级 3）：spinocerebellar-tracts 是图谱中被多页引用的悬空引用
+2. next_suggested_topics 明确指向：脊髓小脑束 DSCT/VSCT
+3. 运动系列逻辑延续：#172 肌梭 + #174 GTO 已建立外周传感器，下一步是信号上行至小脑的通路
+4. 不重复近期层级：DSCT/VSCT 覆盖 brain-region/microcircuit/cellular，与近期不同
+
+**最终选题**：脊髓小脑束（DSCT/VSCT）——双轨信使与前向模型输入机制
+
+---
+
+## 文献检索
+
+### 搜索词与数据库
+
+| 搜索词 | 数据库 | 结果数 |
+|--------|--------|--------|
+| spinocerebellar tract proprioception review | PubMed | 3 |
+| dorsal spinocerebellar tract Clarke column mossy fiber | PubMed | 1 |
+| ventral spinocerebellar tract efference copy locomotion | PubMed | 0 |
+| spinocerebellar DSCT VSCT locomotion review | PubMed | 1 |
+| Alstermark Ekerot spinocerebellar review | PubMed | 1 |
+| Jorntell spinocerebellar mossy fiber granule cell | PubMed | 3 |
+| Bengtsson spinocerebellar granule cell locomotion | PubMed | 1 |
+| Stecina Fedirchuk Hultborn spinocerebellar | PubMed | 2 |
+| spinocerebellar Friedreich ataxia proprioceptive | PubMed | 3 |
+
+### 采用来源（7 篇）
+
+| 来源 | PMID | 全文 | 采用原因 |
+|------|------|------|---------|
+| Bosco & Poppele 2001 (Physiol Rev) | 11274339 | 摘要（free article，paywall 全文）| 核心综述框架；Clarke 柱解剖；全肢体运动学假说 |
+| Stecina et al. 2013 (J Physiol) | 23613538 / PMC3853486 | **开放全文已读** | 核心实验：DSCT 70% CPG 驱动；locomotor drive potentials；efference copy 假说 |
+| Stecina et al. 2013 (J Neurophysiol) | 23100134 | 摘要（free article）| DSCT vs VSCT 虚拟运动节律对比 |
+| Geborek et al. 2013 (Front Neural Circuits) | 24115921 | 摘要（PMC 开放）| SBC/VSCT→颗粒层稀疏响应；>50% PC 激活 |
+| Spanne et al. 2014 (PLoS One) | 25226298 | 摘要（PMC 开放）| 计算模型验证 VSCT→颗粒细胞处理 |
+| Alstermark & Ekerot 2013 (J Physiol) | 24042498 | 摘要（PMC 开放）| LRN 系统级整合；与 DSCT/VSCT 分工 |
+| Destrebecq et al. 2023 (Front Neurol) | 37808498 | 摘要（PMC 开放）| Friedreich 共济失调 fMRI 疾病窗口 |
+
+### 排除来源及原因
+
+- PMID:4349416 (Mann 1973, Brain Behav Evol) — 1973 年解剖学经典文献；太旧，主要内容已被 Bosco & Poppele 2001 综合；不使用
+- cuneocerebellar tract 专项搜索：无相关结果；CCT 从背景知识描述，未独立采用来源
+- 经典 Arshavsky/Orlovsky VSCT 论文（苏联，1970s-1980s）：预印本之前无 PubMed 记录；通过 Stecina 2013 间接引用
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页（2 页）
+
+- `wiki/systems/spinocerebellar-tracts.md`：rev1 创建，established/high
+- `wiki/neurons/clarkes-nucleus.md`：rev1 创建，established/high
+
+### 修订 wiki 页（3 页）
+
+- `wiki/systems/cerebellum.md`：rev4→rev5，related/key_sources/opens_questions/source_articles/连接/修订历史 更新
+- `wiki/concepts/forward-model.md`：rev2→rev3，关键证据表新增行/related/连接/key_sources/source_articles/修订历史 更新
+- `wiki/index.md`：更新最后更新行；新增 spinocerebellar-tracts/clarkes-nucleus 条目；更新 cerebellum/forward-model 描述
+
+### 矛盾检查
+
+- DSCT"感觉 + CPG 混合"与经典"纯感觉"描述的差异：这是科学机制的深化（新实验结果修正旧描述），而非两个来源之间的可复现冲突；不启动矛盾协议，但在文章和 wiki 中明确标注"范式转变"和局限性（单一实验室，猫模型）。
+- 无其他矛盾。
+
+### 成熟度评估
+
+- spinocerebellar-tracts：established/high（教科书级解剖 + Stecina 2013 直接电生理）；DSCT CPG 驱动比例降级 confidence → 中（单实验室，猫模型，人类未验证）
+- clarkes-nucleus：established/high
+
+---
+
+## 图谱更新
+
+- 新增节点：2（spinocerebellar-tracts, clarkes-nucleus）
+- 新增边：18
+- 当前图谱：354 节点，2038 边（node_count/edge_count metadata 已更新）
+- updated 字段：2026-06-13
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：新增第176篇条目，total_articles 175→176（待 topic_ledger 写入）
+- `unresolved_questions.md`：新增 Q-sct-01/02/03/04
+- `source_registry.json`：新增 7 个来源（见 sources/2026-06-13-spinocerebellar-sources.json）
+- `monthly_synthesis.md`：追加 #176 条目；本月截至日期更新至 2026-06-13
+
+---
+
+## 自检结果
+
+**真实性**：✓ 所有主张有来源（PMID 可追溯）；核心发现（DSCT 70%）明确标注单一实验室/猫模型局限；Friedreich 共济失调明确标注 fMRI 相关性研究局限；不提供医学诊断或治疗建议；动物→人类推广谨慎（明确标注）
+**一致性**：✓ DSCT 范式转变在文章和 wiki 中一致呈现；修订页面 updated/revision_count/修订历史均更新；_graph.json 无新悬空边（新增的 spinocerebellar-tracts 和 clarkes-nucleus 均有对应页面）；somatosensory-cortex-3a 悬空引用已在 CHANGELOG 中登记为待补
+**可导航**：✓ index.md 和 CHANGELOG.md 反映今天变化；新页 related/prerequisites ≥1；wiki 目录中 systems/ 和 neurons/ 都有新页
+**情景层**：✓ 文章/笔记/来源/日志齐全；未改动旧文件（日志使用独立文件名 2026-06-13-spinocerebellar-run.log，避免与已有 2026-06-13-run.log 冲突）
+
+---
+
+## Git 操作
+
+**分支**：claude/funny-einstein-hvvrtv
+**commit message**：Add neuro daily article + wiki consolidation for 2026-06-13 (#176 Spinocerebellar Tracts)
+**Push 目标**：origin/claude/funny-einstein-hvvrtv → origin/main
+**Commit Hash**：[待更新]
+**Push 状态**：[待更新]
+
+---
+
+*日志由自动化代理生成，2026-06-13 UTC+8*

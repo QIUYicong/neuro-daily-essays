@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-09-02
-revision_count: 4
+updated: 2026-06-13
+revision_count: 5
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [motor-cortex, predictive-coding, cerebellar-ltd, climbing-fiber-error-signal, purkinje-cell, forward-model, ltd, memory-consolidation, active-inference, proprioceptive-prediction, deep-cerebellar-nuclei]
+related: [motor-cortex, predictive-coding, cerebellar-ltd, climbing-fiber-error-signal, purkinje-cell, forward-model, ltd, memory-consolidation, active-inference, proprioceptive-prediction, deep-cerebellar-nuclei, spinocerebellar-tracts]
 prerequisites: [purkinje-cell, parallel-fiber, climbing-fiber-error-signal, deep-cerebellar-nuclei]
-opens_questions: [Q-cb-01, Q-cb-02, Q-cb-03, Q-cb-04, Q-cb-05, Q-fep-01]
-source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit, 2026-09-02-cerebellum-active-inference-proprioceptive-prior]
-key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:23440175", "PMID:30069835", "PMID:30995136", "PMID:34219651", "PMID:31522332", "PMID:9378587", "PMID:19684593", "PMID:29643480", "PMID:41451122", "PMID:40523942", "PMID:30627965", "PMID:34262527", "PMID:33757352"]
+opens_questions: [Q-cb-01, Q-cb-02, Q-cb-03, Q-cb-04, Q-cb-05, Q-fep-01, Q-sct-01]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit, 2026-09-02-cerebellum-active-inference-proprioceptive-prior, 2026-06-13-spinocerebellar-tracts-dsct-vsct]
+key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:23440175", "PMID:30069835", "PMID:30995136", "PMID:34219651", "PMID:31522332", "PMID:9378587", "PMID:19684593", "PMID:29643480", "PMID:41451122", "PMID:40523942", "PMID:30627965", "PMID:34262527", "PMID:33757352", "PMID:23613538", "PMID:11274339"]
 ---
 
 # 小脑 (Cerebellum)
@@ -92,6 +92,7 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 - [[ltd]] — 小脑 LTD 与海马 LTD 的异同
 - [[memory-consolidation]] — 程序性记忆（小脑）vs 陈述性记忆（海马）
 - [[diseases/spinocerebellar-ataxia]] — 疾病作为窗口（SCA）
+- [[spinocerebellar-tracts]] — 关键输入通道：DSCT（感觉+CPG混合）和 VSCT（运动副本）向小脑苔藓纤维传递信息
 
 ## 未解问题
 
@@ -106,8 +107,12 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 - 2026-08-01 · 修订（rev1→rev2）· 基于《教师信号的困境》（文章#100）· 新增：CF 误差信号量化数据（Soetedjo 2019）、绒球 120ms 最优窗口（Suvrathan 2018）、GluA4 膨胀编码因果实验（Kita 2021）、CCAS 156例临床证据（Task Force 2020）、双相记忆轨迹（Ito 2013）；新增 wiki 子页 purkinje-cell、climbing-fiber-error-signal；related/key_sources/prerequisites 更新；新增 Q-cb-04/Q-cb-05
 - 2026-08-08 · 修订（rev2→rev3）· 基于《深部核团的门与教师》（文章#107）· 新增：间位核眼眨条件反射因果证据（Thompson 1997）、DCN LTP 两相记忆巩固（Ito 2013 + Ke 2009）、小脑-基底神经节皮层下直接连接（Bostan & Strick 2018）、CF 奖励信号新发现（Jin & Hull 2025）；新增 wiki 子页 deep-cerebellar-nuclei、inferior-olive、motor-learning；key_sources 更新
 - 2026-09-02 · 修订（rev3→rev4）· 基于《小脑作为主动推断引擎》（文章#133）· 新增：主动推断视角（DCN 时间精度、高尔基细胞空间精度，Parr et al. 2025）；颗粒细胞时间基础集（Nguyen & Person 2025）；齿状核状态预测直接证据（Tanaka 2019，R²=0.89）；新建 wiki 页 proprioceptive-prediction；key_sources、related、opens_questions 更新
+- 2026-06-13 · 修订（rev4→rev5）· 基于《双轨信使：脊髓小脑束》(#176) · 新增：spinocerebellar-tracts 输入通道（DSCT 70% CPG 驱动、VSCT 全部 CPG 驱动）；苔藓纤维→颗粒层稀疏编码证据（Geborek 2013/2014）；related 新增 spinocerebellar-tracts；key_sources 新增 PMID:23613538/11274339
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
 - [[2026-08-01-cerebellar-ltd-purkinje-motor-learning]]
+- [[2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit]]
+- [[2026-09-02-cerebellum-active-inference-proprioceptive-prior]]
+- [[2026-06-13-spinocerebellar-tracts-dsct-vsct]]

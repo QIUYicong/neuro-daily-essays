@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 175,
+  "total_articles": 176,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11782,6 +11782,56 @@
       ],
       "mode": "weekly_synthesis",
       "note": "第8期周综合；整合#166-#174七篇运动系统文章；UTC+8=2026-06-13；知识库序号175；新建motor-system-hierarchy wiki综合概念页；图谱352节点2020边"
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 176,
+      "title": "双轨信使：脊髓小脑束如何让大脑在运动发生前就开始纠错",
+      "slug": "spinocerebellar-tracts-dsct-vsct",
+      "filename": "2026-06-13-spinocerebellar-tracts-dsct-vsct.md",
+      "article_type": "regular",
+      "core_question": "DSCT 和 VSCT 各自携带什么信息？DSCT 70% 受 CPG 驱动的发现如何改变我们对脊髓小脑束功能的理解？这如何支持小脑前向模型的近实时误差校正？",
+      "layer": ["cellular", "microcircuit", "brain-region", "behavior"],
+      "curriculum_track": "运动系统→本体感觉上行通路（填补 DSCT/VSCT 缺口）",
+      "topic_tags": [
+        "spinocerebellar tract", "DSCT", "VSCT", "Clarke's nucleus",
+        "proprioception", "efference copy", "CPG", "mossy fiber",
+        "granule cell", "forward model", "Friedreich ataxia",
+        "lateral reticular nucleus", "motor prediction", "cerebellum"
+      ],
+      "main_sources": [
+        "PMID:11274339 (Bosco & Poppele 2001, Physiol Rev)",
+        "PMID:23613538 / PMC3853486 (Stecina et al. 2013, J Physiol) - 开放全文",
+        "PMID:23100134 (Stecina et al. 2013, J Neurophysiol)",
+        "PMID:24115921 (Geborek et al. 2013, Front Neural Circuits)",
+        "PMID:25226298 (Spanne et al. 2014, PLoS One)",
+        "PMID:24042498 (Alstermark & Ekerot 2013, J Physiol)",
+        "PMID:37808498 (Destrebecq et al. 2023, Front Neurol)"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/spinocerebellar-tracts.md",
+        "wiki/neurons/clarkes-nucleus.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/cerebellum.md (rev4→rev5): spinocerebellar-tracts related/key_sources/source_articles",
+        "wiki/concepts/forward-model.md (rev2→rev3): spinocerebellar-tracts related/evidence/key_sources",
+        "wiki/index.md: 更新最后更新行，新增 2 条目"
+      ],
+      "graph_nodes_added": ["spinocerebellar-tracts", "clarkes-nucleus"],
+      "graph_edges_added": 18,
+      "graph_state": "354节点，2038边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": ["Q-sct-01", "Q-sct-02", "Q-sct-03", "Q-sct-04"],
+      "next_suggested_topics": [
+        "初级躯体感觉皮层第3a区（Area 3a）：本体感觉从脊髓小脑束分支的 DCML 路径终点，Ia/Ib 传入在 3a 区皮层的组织原则",
+        "运动皮层旋转动力学：M1 在运动执行期的群体状态空间轨迹（Shenoy 2013 旋转框架）",
+        "脊髓小脑性共济失调（SCA）：SCT 变性的遗传多样性与疾病进展",
+        "小脑颗粒层时间基础：颗粒细胞的时序放电模式如何为浦肯野细胞提供时间维度"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-13；知识库序号176；填补 spinocerebellar-tracts 和 clarkes-nucleus 悬空引用；核心发现：DSCT 70% CPG 驱动（Stecina 2013，PMC3853486 全文）；7 个来源中 1 篇开放全文；图谱+2节点+18边（354节点2038边）"
     }
   ],
   "layer_coverage_recent": [

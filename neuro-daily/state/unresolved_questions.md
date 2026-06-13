@@ -6,6 +6,34 @@
 
 ---
 
+## 2026-06-13 新增（来自"双轨信使：脊髓小脑束如何让大脑在运动发生前就开始纠错" #176）
+
+### Q-sct-01（高优先级）：DSCT CPG 驱动比例在清醒自然运动中如何变化？
+
+- **关联 wiki**：[[spinocerebellar-tracts]]、[[clarkes-nucleus]]、[[spinal-cord-cpg]]
+- **来源文章**：2026-06-13-spinocerebellar-tracts-dsct-vsct
+- **问题**：Stecina 2013 的 70% DSCT CPG 驱动发现来自去脑猫的虚拟运动实验——这是人为激活 CPG 的极端条件。在清醒动物自然行走时，DSCT 神经元受 CPG 驱动的比例是否仍有 70%？还是外周感觉输入会占主导（因为此时实际有感觉输入，抢占突触竞争）？需要清醒自由行走动物中对脊髓单神经元进行长期记录（技术挑战极大）。这一数字直接影响我们对"DSCT 传递什么信息"的核心理解。
+
+### Q-sct-02（高优先级）：人类是否存在与猫类似的 DSCT CPG 驱动现象？
+
+- **关联 wiki**：[[spinocerebellar-tracts]]、[[clarkes-nucleus]]
+- **来源文章**：2026-06-13-spinocerebellar-tracts-dsct-vsct
+- **问题**：Stecina 的实验全在猫中进行。人类直立行走、CPG 弱化，DSCT 中 CPG 驱动的比例可能不同。人类脊髓损伤患者的硬膜外刺激诱发的虚拟步态是否可以间接研究？非人灵长类（恒河猴）的脊髓 CPG 驱动 DSCT 是否已有研究？差异是否与 CST 直达 CM 连接的进化相关？
+
+### Q-sct-03（中优先级）：颗粒细胞稀疏响应格局是否随运动学习改变？
+
+- **关联 wiki**：[[spinocerebellar-tracts]]、[[cerebellum]]、[[cerebellar-ltd]]
+- **来源文章**：2026-06-13-spinocerebellar-tracts-dsct-vsct
+- **问题**：Geborek 2013 在体刺激 SBC tract，发现只有部分颗粒细胞有强响应（其余沉默）。这个稀疏响应格局是固定的"解剖决定论"结果（由苔藓纤维分支解剖决定），还是可塑性的结果（随小脑运动学习 LTD/LTP 改变，某些颗粒细胞被"招募"为强响应）？两相记忆（颗粒层快速 vs DCN 慢速巩固）中，颗粒细胞的激活集合如何演化？
+
+### Q-sct-04（中优先级）：Friedreich 共济失调中 DSCT vs 背柱退化对共济失调症状的相对贡献？
+
+- **关联 wiki**：[[spinocerebellar-tracts]]、[[proprioception]]
+- **来源文章**：2026-06-13-spinocerebellar-tracts-dsct-vsct
+- **问题**：FA 同时损伤背柱（丘系路径，到 S1 皮层）和脊髓小脑束（到小脑）。这两条通路对共济失调、本体感觉缺失、步态异常的相对贡献是什么？基因特异性 FA 小鼠（frataxin 条件性敲除）能否选择性地在 DRG 大神经元（Ia 传入体）而非脊髓神经元中敲除，从而分离 DSCT 的贡献？
+
+---
+
 ## 2026-06-13 新增（来自"进化写下的专线：皮质脊髓束" #173）
 
 ### Q-cst-01（高优先级）：人类 CM 连接的精确分布图是什么？

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#175** 运动系统周综合——整合 CPG→α-MN→NMJ→肌梭→CST→GTO 完整回路；新建 1 页：motor-system-hierarchy（concepts）；修订 1 页：corticospinal-tract rev2；图谱 **352** 节点，**2020** 边）· 主题页总数：**321**
+> 最后更新：2026-06-13（**#176** 双轨信使：脊髓小脑束——DSCT 70% 受 CPG 驱动的范式转变；新建 2 页：spinocerebellar-tracts（systems）、clarkes-nucleus（neurons）；修订 3 页：cerebellum rev5、forward-model rev3、_graph.json；图谱 **354** 节点，**2038** 边）· 主题页总数：**323**
 
 ---
 
@@ -34,6 +34,7 @@
 - 🟢 [α运动神经元](neurons/alpha-motor-neuron.md) — 脊髓前角最终公共通路；大小原则决定S→FR→FF有序招募；PICs（CaV1.3/Nav1.6）提供2–6倍增益放大；5-HT₂+α₁AR单胺能调制；ALS FF优先脆弱；SCI痉挛的分子机制 **[NEW 2026-10-08 #168] [修订 rev2 2026-10-09]**
 - 🟢 [神经肌肉接头（NMJ）](neurons/neuromuscular-junction.md) — 运动控制链最末节点；三细胞架构（神经末梢+肌纤维终板+PSC）；Cav2.1→SNARE→量子释放（m≈50–100）；nAChR密度~10,000/μm²；安全因子2–5；Agrin-LRP4-MuSK-rapsyn轴自组织突触后密度；填补运动链叙事最后缺口 **[NEW 2026-10-09 #169]**
 - 🟢 [高尔基腱器官（GTO）](neurons/golgi-tendon-organ.md) — 串联于肌纤维的力量传感器；Ib 传入低阈值（每次收缩放电）；三条脊髓通路（Ib 抑制/兴奋/DSCT）；站立相 Ib 切换为兴奋性负荷守门人；"折刀反射"修正（III/IV 类传入为主）；帕金森 Ib 抑制减弱 **[NEW 2026-06-13 #174]**
+- 🟢 [Clarke 柱](neurons/clarkes-nucleus.md) — 脊髓背内侧灰质（T1-L2）本体感觉中继核，脊髓中最大细胞之一；直接接受 Ia/Ib 传入单突触投射（VGluT1 高密度）；是 DSCT 主要起源；70% 细胞受脊髓 CPG 直接驱动（Stecina 2013）**[NEW 2026-06-13 #176]**
 
 ## circuits（回路）
 
@@ -264,10 +265,11 @@
 - 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；群体向量编码；旋转动力学；输出零空间；与脊髓CPG分层委托架构（修订 rev5 2026-06-13）
 - 🟢 [皮质脊髓束](systems/corticospinal-tract.md) — 延髓锥体交叉（~85%）；多元皮层起源；CM直达连接（灵长类特有）；PlexA1/CIS分子开关；ALS split-hand；发育至青春期 **[NEW 2026-06-13 #173]**
 - 🟢 [皮质-运动神经元直接连接](concepts/corticomotoneuronal-connections.md) — 皮层→α-MN单突触连接；高等灵长类特有；精准握持不可替代；Lawrence&Kuypers 1968经典实验 **[NEW 2026-06-13 #173]**
-- 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订 rev3 2026-08-08 #107]**
+- 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订 rev5 2026-06-13 #176]**
+- 🟢 [脊髓小脑束](systems/spinocerebellar-tracts.md) — 四条平行通路（DSCT/VSCT/CCT/RSCT）连接肢体传感器与小脑；关键范式转变：70% DSCT 神经元受 CPG 直接驱动（无外周感觉输入时），传递感觉+运动预测混合信号；颗粒层稀疏编码；LRN 提供系统级整合 **[NEW 2026-06-13 #176]**
 - 🟢 [深部小脑核（DCN）](systems/deep-cerebellar-nuclei.md) — 小脑输出门与程序性运动记忆存储库；三核团（齿状核/间位核/顶核）；前间位核因果损毁→CR消失UR保留（Thompson 1997）；DCN LTP 将皮层 LTD 的快速适应巩固为持久记忆（两相模型）；小脑-基底神经节直接皮层下连接（Bostan 2018）**[NEW 2026-08-08 #107]**
 - 🟢 [下橄榄核（IO）](systems/inferior-olive.md) — 小脑的教师核团；缝隙连接（Cx36）同步振荡；T型Ca²⁺驱动阈下振荡；TMEM16B调节时序精度；CF奖励信号新发现（Jin & Hull 2025，待复现）；DCN抑制性反馈自动关闭学习 **[NEW 2026-08-08 #107]**
-- 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果；主动推断框架下只需前向模型（逆向由脊髓代替）；齿状核预测苔藓纤维活动（R²=0.89）；内部模型 vs 前馈映射争议（C-2026-09-02-01） **[修订 rev2 2026-09-02]**
+- 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果；SCT 是关键输入通道（DSCT 70% CPG 驱动为证据）；主动推断框架下只需前向模型；齿状核预测苔藓纤维活动（R²=0.89）；内部模型 vs 前馈映射争议（C-2026-09-02-01） **[修订 rev3 2026-06-13 #176]**
 - 🟡 [本体感觉预测](concepts/proprioceptive-prediction.md) — 主动推断中运动命令=本体感觉先验（均值+精度）；空间精度（高尔基细胞）+ 时间精度（DCN）；脊髓反射弧执行；DCN损坏→意向性震颤 **[NEW 2026-09-02]**
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**
 - 🟡 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；动力学引擎而非参数地图；RNN训练后自发出现相同结构 **[NEW 2026-06-21]**

@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-23
-updated: 2026-09-02
-revision_count: 2
+updated: 2026-06-13
+revision_count: 3
 dimensions: [brain-region, cognition, behavior, cellular, microcircuit]
-related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy, active-inference, proprioceptive-prediction, deep-cerebellar-nuclei]
+related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy, active-inference, proprioceptive-prediction, deep-cerebellar-nuclei, spinocerebellar-tracts]
 prerequisites: [cerebellum, motor-cortex]
 opens_questions: [Q-cb-01, Q-fm-01, Q-fep-01]
-source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-02-cerebellum-active-inference-proprioceptive-prior]
-key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942", "PMID:30627965"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-02-cerebellum-active-inference-proprioceptive-prior, 2026-06-13-spinocerebellar-tracts-dsct-vsct]
+key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942", "PMID:30627965", "PMID:23613538"]
 ---
 
 # 前向模型 (Forward Model)
@@ -62,6 +62,7 @@ key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942"
 | 齿状核放电预测未来苔藓纤维输入（R²=0.89 @ 20ms） | 猕猴多位点电生理记录；线性重建 | PMID:30627965 | 高（单物种，间接） |
 | 小脑实现多模块前向模型（MOSAIC） | 间接行为学证据；fMRI 研究 | 多项研究 | 中 |
 | 小脑可能实现前馈映射而非内部模型 | 行为学；钙成像 | PMID:40523942 | 中（综述，争议中，见 C-2026-09-02-01）|
+| DSCT 70% 神经元受 CPG 驱动（在无外周输入时）| 去脑猫细胞内记录，离断外周神经，虚拟运动 | PMID:23613538 (PMC3853486) | 高（单实验室，猫模型）|
 
 ## 连接
 
@@ -70,6 +71,7 @@ key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942"
 - [[motor-cortex]] — 发出运动指令和传出拷贝
 - [[world-model]] — 前向模型是更广义世界模型的一个专用子系统（运动领域）
 - [[cerebellar-ltd]] — 误差信号驱动前向模型更新的分子机制
+- [[spinocerebellar-tracts]] — 前向模型计算的关键输入通道（感觉 + CPG 混合信号）
 
 ## 未解问题
 
@@ -84,8 +86,10 @@ key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942"
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：中（间接证据为主，计算框架合理但神经底物细节待确认）
 - 2026-09-02 · 修订（rev1→rev2）· 基于《小脑作为主动推断引擎》· 新增：主动推断视角（本体感觉先验，逆向模型被脊髓代替，Parr et al. 2025）；直接神经证据（Tanaka 2019，R²=0.89）；登记新矛盾 C-2026-09-02-01（内部模型 vs 前馈映射）；扩展 dimensions、related、key_sources
+- 2026-06-13 · 修订（rev2→rev3）· 基于《双轨信使：脊髓小脑束》(#176) · 新增：脊髓小脑束作为前向模型输入通道的关键证据（DSCT 70% 受 CPG 驱动）；新增 spinocerebellar-tracts 到 related；更新 key_sources 和 source_articles
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
 - [[2026-09-02-cerebellum-active-inference-proprioceptive-prior]]
+- [[2026-06-13-spinocerebellar-tracts-dsct-vsct]]
