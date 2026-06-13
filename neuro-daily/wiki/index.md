@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#174** 高尔基腱器官——GTO 低阈值力量传感器、Ib 自身抑制与步态站立相 Ib 切换机制；推翻"安全阀"范式；新建 2 页：golgi-tendon-organ（neurons）、autogenic-inhibition（concepts）；修订 2 页：proprioception rev2、muscle-spindle rev2；图谱 **351** 节点，**2004** 边）· 主题页总数：**320**
+> 最后更新：2026-06-13（**#175** 运动系统周综合——整合 CPG→α-MN→NMJ→肌梭→CST→GTO 完整回路；新建 1 页：motor-system-hierarchy（concepts）；修订 1 页：corticospinal-tract rev2；图谱 **352** 节点，**2020** 边）· 主题页总数：**321**
 
 ---
 
@@ -50,6 +50,7 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [运动控制层级](concepts/motor-system-hierarchy.md) — 五层下行通路（皮层→CPG→α-MN→NMJ→肌肉）×两路感觉反馈（肌梭长度+GTO力量）×小脑预测性校正；四设计原则（分层分工/预测+反应/动态重配置/进化馈赠）；整合 #166-#174 七篇运动系统文章 **[NEW 2026-06-13 #175]**
 - 🟢 [自身抑制](concepts/autogenic-inhibition.md) — GTO Ib 传入→甘氨酸能抑制性中间神经元→同肌 α-MN 抑制（逆肌牵张反射）；步态站立相 Ib 切换机制；H 反射范式；帕金森 Ib 抑制减弱；脊髓损伤 Ib 保留 **[NEW 2026-06-13 #174]**
 - 🟢 [运动单元](concepts/motor-unit.md) — 最小可控神经肌肉单元（α-MN + 全部靶肌纤维）；神经支配比与精度反比（眼5-15/腓肠1000-2000）；S/FR/FF三类型；去同步化产生平滑收缩 **[NEW 2026-10-08 #168]**
 - 🟢 [Agrin-LRP4-MuSK-Rapsyn 轴与 AChR 聚集](concepts/agrin-musk-achr-clustering.md) — NMJ 突触后 AChR 聚集的分子级联；Agrin↑LRP4-MuSK亲和力36倍；Agrin为"抗去聚集因子"（非诱导者）的争议模型；Dok7协激活；rapsyn 1:1锚定；CMS和MuSK+MG疾病关联 **[NEW 2026-10-09 #169]**

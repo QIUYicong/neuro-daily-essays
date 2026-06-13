@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-13",
+  "article": "#175 运动系统周综合",
+  "type": "weekly_synthesis",
+  "note": "周综合不引入新一手来源；所有来源均来自 #166-#174 各文章的 sources.json。以下为关键来源汇总。",
+  "key_sources": [
+    {
+      "id": "PMID:26935168",
+      "citation": "Kiehn O. 2016. Decoding the organization of spinal circuits that control locomotion. Nat Rev Neurosci.",
+      "used_for": "CPG 双层架构和 V 型中间神经元框架",
+      "full_text": "摘要",
+      "article": "#167"
+    },
+    {
+      "id": "PMID:23812590",
+      "citation": "Talpalar AE, Bouvier J, Bhatt D, et al. 2013. Dual-mode operation of neuronal networks involved in left-right alternation. Nature.",
+      "used_for": "V0D/V0V 速度依赖步态切换",
+      "full_text": "摘要",
+      "article": "#167"
+    },
+    {
+      "id": "PMID:14328454",
+      "citation": "Henneman E. 1965. Relation between size of neurons and their susceptibility to discharge. Science.",
+      "used_for": "大小原则原始发现",
+      "full_text": "摘要",
+      "article": "#168"
+    },
+    {
+      "id": "PMID:23720261",
+      "citation": "Heckman CJ, Enoka RM. 2012. Motor unit. Compr Physiol.",
+      "used_for": "三类运动单元和大小原则综述",
+      "full_text": "摘要",
+      "article": "#168"
+    },
+    {
+      "id": "PMID:18381974",
+      "citation": "Heckman CJ, Johnson M, Mottram C, et al. 2008. Persistent inward currents in spinal motoneurons and their influence on human motoneuron firing patterns. Neuroscientist.",
+      "used_for": "PICs 和双稳态",
+      "full_text": "PMC3326417（部分开放）",
+      "article": "#168"
+    },
+    {
+      "id": "PMID:29195055",
+      "citation": "Pratt MJ, et al. 2017. Neuromuscular junction review.",
+      "used_for": "NMJ 超微结构和安全因子",
+      "full_text": "摘要",
+      "article": "#169"
+    },
+    {
+      "id": "PMID:23073629",
+      "citation": "Proske U, Gandevia SC. 2012. The proprioceptive senses: their roles in signaling body shape, body position and movement, and muscle force. Physiol Rev.",
+      "used_for": "肌梭和 GTO 综合综述",
+      "full_text": "摘要（未读全文）",
+      "article": "#172, #174"
+    },
+    {
+      "id": "PMC9815952",
+      "citation": "Wilkinson KA, et al. 2022. PIEZO2 and mechanotransduction in muscle spindles.",
+      "used_for": "PIEZO2 机械转导、γ-MN 分类",
+      "full_text": "开放全文",
+      "article": "#172"
+    },
+    {
+      "id": "PMID:30906528",
+      "citation": "Lemon RN. 2019. Recent advances in our understanding of the primate corticospinal system. F1000Res.",
+      "used_for": "CST 和 CM 连接综述",
+      "full_text": "PMC6415323（开放全文）",
+      "article": "#173"
+    },
+    {
+      "id": "PMID:24312077",
+      "citation": "Isa T, et al. 2013. The direct and indirect cortico-motoneuronal pathways in the monkey. Front Neurol.",
+      "used_for": "CM vs 间接通路",
+      "full_text": "PMC3833094（开放全文）",
+      "article": "#173"
+    },
+    {
+      "id": "PMID:1626033",
+      "citation": "Jami L. 1992. Golgi tendon organs in mammalian skeletal muscle: functional properties and central actions. Physiol Rev.",
+      "used_for": "GTO 里程碑综述",
+      "full_text": "摘要",
+      "article": "#174"
+    },
+    {
+      "id": "PMID:14653157",
+      "citation": "Pearson KG. 2004. Generating the walking gait: role of sensory feedback. Prog Brain Res.",
+      "used_for": "Ib 传入在步态站立相的相位切换",
+      "full_text": "摘要",
+      "article": "#174"
+    },
+    {
+      "id": "PMID:10899663",
+      "citation": "Dietz V, Duysens J. 2000. Significance of load receptor input during locomotion: a review. Gait Posture.",
+      "used_for": "GTO 步态负荷守门人假说",
+      "full_text": "摘要",
+      "article": "#174"
+    }
+  ],
+  "full_text_sources_count": 4,
+  "abstract_only_count": 9
+}

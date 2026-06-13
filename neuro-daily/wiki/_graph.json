@@ -3176,6 +3176,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/autogenic-inhibition.md"
+    },
+    {
+      "id": "motor-system-hierarchy",
+      "title": "运动控制层级",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/motor-system-hierarchy.md"
     }
   ],
   "edges": [
@@ -13802,6 +13811,86 @@
     {
       "from": "proprioception",
       "to": "golgi-tendon-organ",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "corticospinal-tract",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "spinal-cord-cpg",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "alpha-motor-neuron",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "neuromuscular-junction",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "muscle-spindle",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "golgi-tendon-organ",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "autogenic-inhibition",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "motor-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "size-principle",
+      "type": "supports"
+    },
+    {
+      "from": "motor-system-hierarchy",
+      "to": "distributed-motor-control",
+      "type": "supports"
+    },
+    {
+      "from": "corticospinal-tract",
+      "to": "motor-system-hierarchy",
+      "type": "part-of"
+    },
+    {
+      "from": "spinal-cord-cpg",
+      "to": "motor-system-hierarchy",
+      "type": "part-of"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "motor-system-hierarchy",
+      "type": "part-of"
+    },
+    {
+      "from": "neuromuscular-junction",
+      "to": "motor-system-hierarchy",
+      "type": "part-of"
+    },
+    {
+      "from": "muscle-spindle",
+      "to": "motor-system-hierarchy",
+      "type": "part-of"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "motor-system-hierarchy",
       "type": "part-of"
     }
   ],

@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-06-13（文章 #175：运动系统周综合——七个节点如何构成完整运动回路）
+
+### 新建 wiki 页面（1 页）
+
+- `concepts/motor-system-hierarchy.md`（运动控制层级）：Rev1 创建；整合 #166-#174 七篇运动系统文章；五层下行通路（皮层→CPG→α-MN→NMJ→肌肉）；两路感觉反馈（肌梭长度+GTO力量）；四个设计原则（分层分工/预测+反应/动态重配置/进化馈赠）；运动疾病节点失效分析表；时间尺度层级（20–25 ms Ia反射→50–150 ms小脑→100–300 ms皮层）；状态 established / confidence: high。
+
+### 修订 wiki 页面（1 页）
+
+- `systems/corticospinal-tract.md` rev1→rev2：source_articles 新增 2026-06-13-week-synthesis-motor-system-circuit；related 新增 motor-system-hierarchy。
+
+### 图谱变化
+
+- 新建节点 1 个：motor-system-hierarchy
+- 新增边 16 条：motor-system-hierarchy↔corticospinal-tract/spinal-cord-cpg/alpha-motor-neuron/neuromuscular-junction/muscle-spindle/golgi-tendon-organ（part-of 双向）；motor-system-hierarchy→motor-cortex（part-of）；motor-system-hierarchy→size-principle/distributed-motor-control（supports）
+- 图谱状态：352 节点，2020 边
+
+### 登记/裁决矛盾
+
+- 无新矛盾登记（综合文章，整合已有知识）。
+
+### 新增悬空引用待补
+
+- `motor-cortex-rotation-dynamics`：被 motor-system-hierarchy 正文引用（旋转动力学框架），待创建或并入 motor-cortex.md
+
+---
+
 ## 2026-06-13（文章 #174：肌肉力量的精确传感器——高尔基腱器官如何把张力翻译成脊髓语言，并在步态中切换角色）
 
 ### 新建 wiki 页面（2 页）

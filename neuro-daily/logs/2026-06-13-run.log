@@ -296,3 +296,81 @@
 
 **Commit hash**：f01e8df837bd891df01d2e3e11dbd452f9e0a9c5
 **推送状态**：成功推送至 origin/main
+
+---
+
+# 文章 #175：运动系统周综合（2026-06-13 第五次运行——预定 09:00 CST 次轮）
+
+**运行时间**：2026-06-13 10:59 CST
+**文章序号**：第 175 篇（周综合第 8 期）
+**运行状态**：完成
+**分支**：main
+
+## 本次运行背景
+
+#174（GTO）于 09:59 CST 第四次运行已完成并成功推送。本次为第五次运行，确认今日计划任务（#174）已完成后，执行 topic_ledger.json 中明确记录的下一篇——"第七次/八次周综合（运动系统篇）：CPG→α-MN→NMJ→肌梭→CST→GTO 完整回路地图"（#175）。
+
+## 状态读取
+
+- topic_ledger.json：total_articles=174（更新前）；last_updated=2026-06-13
+- 确认 #174（GTO）已成功推送：commit f01e8df, 8b2bd44
+- next_suggested_topics[0]="#175 第七次/八次周综合（运动系统篇）"
+- unresolved_questions.md：Q-gto-01/02/03 新增于 #174
+- _graph.json：351 节点，2004 边（更新前）
+- 最近层级覆盖：cellular/molecular/synaptic/microcircuit/behavior/brain-region（过去 7 篇全覆盖）
+
+## 选题决策
+
+**选题依据**：
+1. 课程脊柱明确建议：#174 next_suggested_topics 直接指向运动系统周综合
+2. 连续 7 篇（#166-#174 去掉语言系统插入的 #170/#171）均为运动系统主题，符合"每 7 篇写周综合"规则
+3. 周综合类型：不需要新文献检索，整合已有知识库页面
+
+**最终选题**：运动系统完整回路周综合（BANC分布式原则→CPG→α-MN→NMJ→肌梭→CST→GTO）
+
+## 文献检索
+
+（周综合不引入新一手来源，使用 #166-#174 各篇已验证的来源）
+
+## 文章写作
+
+**题目**：周综合（运动系统专辑）：从皮层意图到肌纤维收缩——七个节点如何构成一个完整的运动回路
+**核心问题**：七个运动系统节点如何串联成多层级闭环系统？
+**字数**：约 5500 字
+**文件**：`articles/2026-06-13-week-synthesis-motor-system-circuit.md`
+
+## 固结步骤
+
+### 新建 wiki 页面（1 页）
+- `wiki/concepts/motor-system-hierarchy.md`：Rev1 创建，established/high；整合五层下行通路×两路感觉反馈×四设计原则
+
+### 修订 wiki 页面（1 页）
+- `wiki/systems/corticospinal-tract.md`：rev1→rev2：source_articles +综合文章，related +motor-system-hierarchy
+
+### 矛盾检查
+- 无新矛盾（综合文章整合已有知识）
+
+### 成熟度更新
+- motor-system-hierarchy: 新建 → established/high（整合多篇已 established 页面）
+
+## 图谱更新
+
+- 新增节点：1（motor-system-hierarchy）
+- 新增边：16
+- 当前图谱：352 节点，2020 边
+
+## 治理层更新
+
+- topic_ledger.json：total_articles 174→175，新增 #175 条目
+- unresolved_questions.md：无新问题（继承既有）
+- monthly_synthesis.md：追加 #175 条目
+- wiki/index.md：更新首行状态，新增 motor-system-hierarchy 条目
+- wiki/CHANGELOG.md：追加 #175 节
+
+## 自检结果
+
+**真实性**：✓ 所有主张有来源（均继承自前七篇已验证文章）；区分事实/主流模型/推测/争议；无新的单篇研究被过度推广
+**一致性**：✓ 无冲突；修订页面 updated/revision_count/修订历史均更新；_graph.json 无悬空边
+**可导航**：✓ index.md 和 CHANGELOG.md 反映今天变化；新页 related/prerequisites ≥1
+**情景层**：✓ 文章/笔记/来源/日志齐全；未改动旧文件
+

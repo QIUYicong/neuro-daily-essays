@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 174,
+  "total_articles": 175,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11704,6 +11704,84 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-13（真实执行日期）；知识库序号174；9个来源中2篇开放全文（PMC13082191 + PMC2754351）；填补 golgi-tendon-organ 悬空引用（在 muscle-spindle 和 proprioception 中已被引用）；推翻经典'安全阀'范式；完成本体感觉双传感器系统（肌梭+GTO）的知识库建设；图谱+1节点（autogenic-inhibition）+13边（351节点2004边）；下一篇 #175 为运动系统周综合"
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 175,
+      "title": "运动系统周综合：从皮层意图到肌纤维收缩——七个节点如何构成一个完整的运动回路",
+      "slug": "week-synthesis-motor-system-circuit",
+      "filename": "2026-06-13-week-synthesis-motor-system-circuit.md",
+      "article_type": "weekly_synthesis",
+      "synthesis_period": "#166-#174（BANC连接组→脊髓CPG→α-MN→NMJ→肌梭→CST→GTO）",
+      "core_question": "七个运动系统节点（BANC分布式控制原则、脊髓CPG、α-MN大小原则+PICs、NMJ高安全因子、肌梭长度感知、CST/CM直达连接、GTO力量感知）如何串联成一个从皮层意图到精确肌纤维收缩、并有多时间尺度闭环反馈的完整运动控制系统？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cellular"
+      ],
+      "curriculum_track": "运动系统完整回路（周综合第8期）",
+      "topic_tags": [
+        "motor system",
+        "weekly synthesis",
+        "CPG",
+        "alpha motor neuron",
+        "neuromuscular junction",
+        "muscle spindle",
+        "corticospinal tract",
+        "golgi tendon organ",
+        "size principle",
+        "PICs",
+        "motor hierarchy",
+        "proprioception",
+        "CM connections",
+        "safety factor",
+        "BANC connectome",
+        "distributed motor control",
+        "Ib afferent",
+        "Ia afferent",
+        "gamma motor neuron",
+        "final common pathway",
+        "motor circuit",
+        "neural control of movement"
+      ],
+      "main_sources": [
+        "综合来源，见各篇文章 sources.json（#166-#174）",
+        "PMID:26935168 (Kiehn 2016, CPG)",
+        "PMID:14328454 (Henneman 1965, Size Principle)",
+        "PMID:30906528 (Lemon 2019, CST)",
+        "PMID:1626033 (Jami 1992, GTO)",
+        "PMID:23073629 (Proske & Gandevia 2012, 本体感觉)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/motor-system-hierarchy.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/corticospinal-tract.md (rev1→rev2): source_articles +综合文章, related +motor-system-hierarchy"
+      ],
+      "graph_nodes_added": [
+        "motor-system-hierarchy"
+      ],
+      "graph_edges_added": 16,
+      "graph_state": "352节点，2020边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-cpg-rg-identity",
+        "Q-cst-01",
+        "Q-gto-02",
+        "Q-gto-03"
+      ],
+      "next_suggested_topics": [
+        "初级躯体感觉皮层第3a区：本体感觉的皮层投射终点（Ia/Ib终止于3a区，与运动皮层的连接）",
+        "脊髓小脑束（DSCT/VSCT）：Ib信号如何上行至小脑更新前向模型",
+        "运动皮层旋转动力学：M1在运动执行期的状态空间轨迹如何与感觉反馈解耦",
+        "小脑前向模型与逆向模型：如何整合肌梭+GTO信号预测运动后果（cerebellar internal model wiki待深化）"
+      ],
+      "mode": "weekly_synthesis",
+      "note": "第8期周综合；整合#166-#174七篇运动系统文章；UTC+8=2026-06-13；知识库序号175；新建motor-system-hierarchy wiki综合概念页；图谱352节点2020边"
     }
   ],
   "layer_coverage_recent": [

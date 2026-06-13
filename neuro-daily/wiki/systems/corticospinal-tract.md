@@ -7,12 +7,12 @@ status: established
 confidence: high
 created: 2026-06-13
 updated: 2026-06-13
-revision_count: 1
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, behavior, cellular]
-related: [motor-cortex, alpha-motor-neuron, corticomotoneuronal-connections, spinal-cord-cpg, spinal-interneurons-locomotion, neuromuscular-junction, sma-presma, basal-ganglia, cerebellum, corticospinal-development, als-upper-motor-neuron]
+related: [motor-cortex, alpha-motor-neuron, corticomotoneuronal-connections, spinal-cord-cpg, spinal-interneurons-locomotion, neuromuscular-junction, sma-presma, basal-ganglia, cerebellum, corticospinal-development, als-upper-motor-neuron, motor-system-hierarchy]
 prerequisites: [motor-cortex, action-potential, alpha-motor-neuron, pyramidal-neuron]
 opens_questions: [Q-cst-01, Q-cst-02, Q-cst-03, Q-cst-04]
-source_articles: [2026-06-13-corticospinal-tract-cm-dexterity]
+source_articles: [2026-06-13-corticospinal-tract-cm-dexterity, 2026-06-13-week-synthesis-motor-system-circuit]
 key_sources: ["PMID:30906528", "PMID:24312077", "PMID:34066053", "PMID:18558853", "PMID:9949822"]
 ---
 
