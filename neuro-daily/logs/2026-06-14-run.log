@@ -156,9 +156,11 @@
 
 ## Git 操作
 
-**分支**：main  
-**计划 commit message**：Add neuro daily article + wiki consolidation for 2026-06-14 (#187 Skill Learning Three Systems)  
-**push**：git push origin main
+**分支**：claude/funny-einstein-5qtr3e
+**commit hash**：6af7b08
+**commit message**：Add neuro daily article + wiki consolidation for 2026-06-14 (#187 Skill Learning Three Systems)
+**push**：git push -u origin claude/funny-einstein-5qtr3e ✓ 成功
+**远程 URL**：https://github.com/QIUYicong/neuro-daily-essays/tree/claude/funny-einstein-5qtr3e
 
 ---
 
