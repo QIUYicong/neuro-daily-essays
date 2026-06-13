@@ -325,6 +325,14 @@
       "last_changed": "2026-06-13",
       "change_reason": "新建页面 (#174)；H 反射范式直接测量人类 Ib 抑制，猫电生理记录支持 established",
       "source_article": "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
+    },
+    {
+      "slug": "somatosensory-cortex-3a",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-13",
+      "change_reason": "新建页面，填补spinocerebellar-tracts中的悬空引用；教科书级解剖+电生理+人类fMRI多重独立验证",
+      "source_article": "2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway"
     }
   ],
   "last_updated": "2026-06-13",
@@ -374,7 +382,7 @@
       "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
     }
   ],
-  "total_pages": 26,
+  "total_pages": 27,
   "syngap1": {
     "status": "established",
     "confidence": "high",

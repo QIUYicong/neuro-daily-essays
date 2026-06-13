@@ -4,6 +4,38 @@
 
 ---
 
+## 2026-06-13（文章 #177：3a区——皮层本体感觉的第一站与运动控制的感觉门）
+
+### 新建 wiki 页面（1 页）
+
+- `systems/somatosensory-cortex-3a.md`（S1区3a/Brodmann area 3a）：Rev1 创建；填补 spinocerebellar-tracts（#176）中登记的悬空引用；位于中央沟底部；接收肌梭Ia传入（经VPLc丘脑）和小脑-VLc双重丘脑输入（Huffman & Krubitzer 2001，PMID:11406813）；直接投射M1；腱振动100Hz激活Ia并产生运动错觉（Goodwin 1972，PMID:4258209）；人类fMRI证据（Fasold 2008，PMID:18296073）；去传入后M1预运动活动降低约70%（Voigt 2026，PMC13089743，开放全文）；区分了痛觉处理争议（Whitsel 2019）；状态 established / confidence: high。
+
+### 修订 wiki 页面（3 页）
+
+- `systems/somatosensory-cortex.md` rev1→rev2：related 新增 somatosensory-cortex-3a、motor-cortex、proprioception；连接节新增3a区子页链接；修订历史追加。
+- `concepts/proprioception.md` rev2→rev3：DCML通路描述补充3a区双重丘脑输入（VPLc + VLc）和直接M1投射；related新增 somatosensory-cortex-3a；连接节新增[[somatosensory-cortex-3a]]；修订历史追加。
+- `neurons/muscle-spindle.md` rev2→rev3：填补 somatosensory-cortex-3a 悬空引用；related新增 somatosensory-cortex-3a；连接节新增[[somatosensory-cortex-3a]]；修订历史追加。
+
+### 图谱变化
+
+- 新建节点 1 个：somatosensory-cortex-3a
+- 新增边 9 条：somatosensory-cortex-3a → somatosensory-cortex（part-of）；somatosensory-cortex-3a → motor-cortex（regulates）；somatosensory-cortex-3a → proprioception（mechanism-of）；somatosensory-cortex-3a → forward-model（supports）；muscle-spindle → somatosensory-cortex-3a（related）；thalamus → somatosensory-cortex-3a（related）；cerebellum → somatosensory-cortex-3a（regulates）；spinocerebellar-tracts → somatosensory-cortex-3a（related）；proprioception → somatosensory-cortex-3a（related）
+- 图谱状态：355 节点，2046 边
+
+### 登记/裁决矛盾
+
+- 无新矛盾登记。3a区的"痛觉响应"（PMID:30227224）与"本体感觉专属"的经典认知存在张力，但尚无足够的冲突证据触发矛盾协议——在新建页中已如实标注为"争议中/证据强度中"。
+
+### 悬空引用修复
+
+- `somatosensory-cortex-3a` ✓（来自 spinocerebellar-tracts 文章，#176 CHANGELOG 中已登记，本次填补）
+
+### 新增悬空引用待补
+
+- `spinocerebellar-ataxia`：沿用 #176 登记，待创建疾病页
+
+---
+
 ## 2026-06-13（文章 #176：双轨信使——脊髓小脑束 DSCT/VSCT 与前向模型输入）
 
 ### 新建 wiki 页面（2 页）

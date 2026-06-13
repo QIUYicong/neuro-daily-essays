@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#176** 双轨信使：脊髓小脑束——DSCT 70% 受 CPG 驱动的范式转变；新建 2 页：spinocerebellar-tracts（systems）、clarkes-nucleus（neurons）；修订 3 页：cerebellum rev5、forward-model rev3、_graph.json；图谱 **354** 节点，**2038** 边）· 主题页总数：**323**
+> 最后更新：2026-06-13（**#177** 3a区——皮层本体感觉的第一站；新建 1 页：somatosensory-cortex-3a（systems）；修订 3 页：somatosensory-cortex rev2、proprioception rev3、muscle-spindle rev3；填补悬空引用 somatosensory-cortex-3a；图谱 **355** 节点，**2046** 边）· 主题页总数：**324**
 
 ---
 
@@ -328,7 +328,8 @@
 - 🟢 [听觉双流架构](systems/auditory-dual-stream.md) — 腹侧流（前颞→VLPFC：声音身份→语义，双侧）vs 背侧流（后颞→Spt→Broca/运动：空间/言语运动，强左侧化）；VLSM 138例卒中直接验证（PMID:27956600）；半球谱-时序不对称（左快/右慢，96例SEEG）；背侧流独特延伸至发音运动是人类语言的皮层基础 **[NEW 2026-08-18 #100 里程碑]**
 - 🔵 [后颞上沟（pSTS）](systems/superior-temporal-sulcus.md) — 听觉-视觉皮层之间的多感觉整合枢纽；嘴型偏好区同时偏好人声（联合选择性）；后→前功能梯度（感觉运动整合→语义整合）；ALE荟萃分析确认为跨模态多感觉整合最一致激活的皮层节点；麦格克效应的神经解剖基础 **[NEW 2026-07-20 #88]**
 - 🔵 [颞顶联合区（TPJ）](systems/tpj-temporoparietal-junction.md) — 颞叶/顶叶/枕叶交界皮层；双功能：右侧TPJ-M专用于信念归因（Saxe 2003，10+实验室重复）+腹侧注意网络（意外刺激→注意重定向）；TMS抑制右侧TPJ因果损害信念-道德判断；108项研究元分析收敛激活（Merchant 2025）；预测编码下行为可预测性↓时激活↑ **[NEW 2026-07-25 #93]**
-- 🟢 [初级体感皮层（S1）](systems/somatosensory-cortex.md) — 顶叶后中央回四子区（3a本体感觉/3b触觉/1质地振动/2形状整合）分层处理；皮层版图按受体密度（非解剖面积）分配；成人期可塑性（截肢→皮层重映射，盲文→指尖扩展）；桶状皮层为精确拓扑模型 **[NEW 2026-07-19 #87]**
+- 🟢 [初级体感皮层（S1）](systems/somatosensory-cortex.md) — 顶叶后中央回四子区（3a本体感觉/3b触觉/1质地振动/2形状整合）分层处理；皮层版图按受体密度（非解剖面积）分配；成人期可塑性（截肢→皮层重映射，盲文→指尖扩展）；桶状皮层为精确拓扑模型 **[NEW 2026-07-19 #87] [修订 rev2 #177]**
+- 🟢 [S1区3a（Brodmann area 3a）](systems/somatosensory-cortex-3a.md) — 中央沟底部本体感觉专属子区；接收肌梭Ia传入（VPLc丘脑）+小脑VLc双重丘脑输入（感觉+运动预测）；直接投射M1（"感觉告知运动"最短皮层内通路）；腱振动100Hz产生运动错觉（Goodwin 1972）；去传入后M1预运动活动降低~70%（Voigt 2026，PLoS Biol，开放全文）；痛觉功能争议中 **[NEW 2026-06-13 #177，填补悬空引用]**
 - 🟢 [头向细胞](systems/head-direction-cells.md) — 仅在面朝特定方向时放电（调谐宽度~90°，360°全覆盖）；回路：DTN→LMN→ADN→PoS→RSC→MEC深层；环形吸引子内在动力学（Peyrache 2015，睡眠期群体相干游走）；前庭驱动+视觉地标校正；人类fMRI证据（RSC+丘脑，Shine 2016）；大脑的内置罗盘 **[NEW 2026-07-22 #90]**（完成空间导航四元组）
 - 🟢 [多巴胺系统总览](systems/dopamine-system.md) — VTA+SNc的主干通路（中脑边缘/中脑皮层/黑质纹状体）；相位性爆发（RPE）vs紧张性放电；LHb→RMTg→DA负预测误差通路；指向各专题页（VTA/SNc/DA-RPE/D1D2/基底节）**[NEW 2026-10-07 #167，填补悬空引用]**
 - 🟢 [腹侧被盖区（VTA）](systems/vta.md) — 中脑多巴胺 A10 核团；向NAc（中脑边缘）和PFC（中脑皮层）发出主要多巴胺投射；内部拓扑异质性：内侧VTA→奖励/厌恶双编码，外侧VTA→经典奖励信号；多巴胺共释放谷氨酸/GABA（de Jong 2022，Yetnikoff 2014）**[NEW 2026-06-06 #101]**

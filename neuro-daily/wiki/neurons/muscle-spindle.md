@@ -7,9 +7,9 @@ status: established
 confidence: high
 created: 2026-10-10
 updated: 2026-06-13
-revision_count: 2
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, behavior, cognition]
-related: [gamma-motor-neuron, alpha-motor-neuron, piezo2-mechanotransduction, golgi-tendon-organ, proprioception, spinal-cord-cpg, neuromuscular-junction, somatosensory-cortex, cerebellum]
+related: [gamma-motor-neuron, alpha-motor-neuron, piezo2-mechanotransduction, golgi-tendon-organ, proprioception, spinal-cord-cpg, neuromuscular-junction, somatosensory-cortex, somatosensory-cortex-3a, cerebellum]
 prerequisites: [action-potential, synaptic-transmission, alpha-motor-neuron]
 opens_questions: [Q-spindle-01, Q-spindle-02, Q-spindle-03]
 source_articles: [2026-10-10-muscle-spindle-proprioception-gamma-motor, 2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition]
@@ -118,7 +118,8 @@ Nav1.1/1.6/1.7 放大信号
 - [[spinal-cord-cpg]] — CPG 模式发生器调控肌梭回路；本体感觉反馈影响 CPG 节律
 - [[neuromuscular-junction]] — 运动命令从 NMJ 传到梭外肌纤维；γ 运动神经元通过 NMJ 传到梭内
 - [[cerebellum]] — 通过脊髓小脑束接收肌梭信号，参与前馈运动控制
-- [[somatosensory-cortex]] — S1 3a 区是本体感觉的皮层终点；产生位置意识感知
+- [[somatosensory-cortex]] — S1 是本体感觉的皮层终点区域
+- [[somatosensory-cortex-3a]] — 3a区是Ia传入的皮层专属第一站；接收双重丘脑输入；直接投射M1
 
 ## 未解问题
 
@@ -129,7 +130,8 @@ Nav1.1/1.6/1.7 放大信号
 ## 修订历史
 
 - 2026-10-10 · 创建 · 基于《感觉会自我校准的尺子》(#172) · 初始置信度：高
-- 2026-06-13 · rev2 · 基于《肌肉力量的精确传感器》(#174) · 填补 golgi-tendon-organ 悬空引用（该节点现已有 wiki 页面）；[[golgi-tendon-organ]] 对比信息已在 [[proprioception]] 中完善；更新 source_articles
+- 2026-06-13 · rev2 · 基于《肌肉力量的精确传感器》(#174) · 填补 golgi-tendon-organ 悬空引用；更新 source_articles
+- 2026-06-13 · rev3 · 基于《3a区——皮层本体感觉的第一站》(#177) · 填补 somatosensory-cortex-3a 悬空引用（该节点现已有 wiki 页面）；更新related字段
 
 ## 来源文章
 

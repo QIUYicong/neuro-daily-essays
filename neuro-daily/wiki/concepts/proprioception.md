@@ -7,9 +7,9 @@ status: established
 confidence: high
 created: 2026-10-10
 updated: 2026-06-13
-revision_count: 2
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [muscle-spindle, gamma-motor-neuron, golgi-tendon-organ, somatosensory-cortex, cerebellum, proprioceptive-prediction, forward-model, body-schema]
+related: [muscle-spindle, gamma-motor-neuron, golgi-tendon-organ, somatosensory-cortex, somatosensory-cortex-3a, cerebellum, proprioceptive-prediction, forward-model, body-schema]
 prerequisites: [muscle-spindle, action-potential]
 opens_questions: [Q-spindle-01, Q-spindle-02, Q-spindle-03]
 source_articles: [2026-10-10-muscle-spindle-proprioception-gamma-motor, 2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition]
@@ -60,9 +60,11 @@ key_sources: ["PMID:23073629", "PMID:19581378", "PMID:29978899", "PMID:30095484"
 **意识通路（DCML）**：
 ```
 Ia/II → 脊髓后柱（薄/楔束）→ 延髓 → 内侧丘系
-→ 丘脑 VPLc → S1 第 3a 区（有意识位置感知）
+→ 丘脑 VPLc → S1 第 3a 区（有意识位置感知；同时接收VLc运动丘脑输入）
+→ M1（3a区直接投射，感觉告知运动）
 → 顶叶后皮层（PPC）整合视觉+本体感觉 → 身体图式
 ```
+**3a区的核心特征**：S1的3a子区位于中央沟底部，是皮层层面本体感觉的专属第一站。它不仅接收来自VPLc丘脑的Ia传入（实际感觉），还接收来自小脑-VLc通路的运动预测信号，并直接投射到M1。这使它成为皮层层面的"预测-实际比较器"（详见[[somatosensory-cortex-3a]]）。
 
 **小脑通路（无意识）**：
 ```
@@ -94,6 +96,7 @@ Ia/II → 脊髓小脑束（DSCT/VSCT）→ 小脑皮层
 - [[gamma-motor-neuron]] — 主动配置肌梭灵敏度
 - [[golgi-tendon-organ]] — 力量传感器，构成双传感器系统
 - [[somatosensory-cortex]] — S1 3a 区接收本体感觉信号
+- [[somatosensory-cortex-3a]] — 3a区：本体感觉皮层专属中继，双重丘脑输入，直接投射M1
 - [[cerebellum]] — 利用本体感觉做前馈预测和误差校正
 - [[proprioceptive-prediction]] — 预测编码框架下的本体感觉信号处理
 - [[forward-model]] — 小脑作为前馈模型整合传出副本和本体感觉
@@ -108,6 +111,7 @@ Ia/II → 脊髓小脑束（DSCT/VSCT）→ 小脑皮层
 
 - 2026-10-10 · 创建 · 基于《感觉会自我校准的尺子》(#172) · 初始置信度：高
 - 2026-06-13 · rev2 · 基于《肌肉力量的精确传感器》(#174) · 大幅扩展 GTO 子系统描述：更正低阈值特性、步态 Ib 切换机制、力量感知贡献、"折刀反射"修正；新增3条关键证据行；更新 key_sources
+- 2026-06-13 · rev3 · 基于《3a区——皮层本体感觉的第一站》(#177) · 在DCML通路描述中补充3a区双重丘脑输入（VPLc感觉+VLc运动）和直接M1投射；新增[[somatosensory-cortex-3a]]链接；更新related字段
 
 ## 来源文章
 

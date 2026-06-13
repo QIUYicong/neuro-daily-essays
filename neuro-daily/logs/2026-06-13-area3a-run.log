@@ -1,0 +1,155 @@
+# 运行日志：2026-06-13（文章 #177）
+
+**运行时间**：2026-06-13 UTC+8
+**文章序号**：第 177 篇
+**运行状态**：完成
+**分支**：claude/funny-einstein-c087bm → 推送至 origin
+
+---
+
+## 本次运行背景
+
+文章 #176（脊髓小脑束 DSCT/VSCT）已于前次运行完成并记录。本次运行读取状态后确认 #176 完成，#176 的 CHANGELOG 中明确登记了悬空引用 `somatosensory-cortex-3a`，优先填补。开始撰写 #177。
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：total_articles=176（更新前）；last_updated=2026-06-13
+- `unresolved_questions.md`：Q-sct-01/02/03/04 来自 #176
+- `wiki/CHANGELOG.md`：确认悬空引用 `somatosensory-cortex-3a`（由 spinocerebellar-tracts 和 muscle-spindle 页面引用）
+- `_graph.json`：354 节点，2037 边（更新前）
+- 最近层级覆盖：cellular/synaptic/microcircuit/brain-region/behavior（近期覆盖均衡）
+- 无 contested_claims 需裁决
+
+---
+
+## 选题决策
+
+**选题依据**：
+1. 缺口驱动（优先级 3）：`somatosensory-cortex-3a` 在 CHANGELOG 中明确登记为悬空引用
+2. 运动系列逻辑延续：#176 建立了 Ia 传入上行至小脑的通路（DSCT/VSCT），下一步是同一信号的**意识通路终点**（皮层3a区）
+3. 不重复近期层级：brain-region层与近期 microcircuit（CPG）/ cellular（α-MN/NMJ）/ synaptic（muscle-spindle）层不同
+
+**最终选题**：S1区3a（Brodmann area 3a）——皮层本体感觉的第一站与运动控制的感觉门
+
+---
+
+## 文献检索
+
+### 搜索词与数据库
+
+| 搜索词 | 数据库 | 结果数 |
+|--------|--------|--------|
+| somatosensory cortex area 3a proprioception review | PubMed E-utilities | 4 |
+| area 3a motor cortex thalamus somatosensory | PubMed | 1 |
+| Huffman Krubitzer area 3a thalamocortical | PubMed | 1 |
+| Goodwin 1972 tendon vibration kinesthetic illusion | PubMed | 2 |
+| Kaas somatosensory cortex organization area | PubMed | 5 |
+| muscle vibration area 3a fMRI kinaesthesia | PubMed | 1 |
+| Voigt Poulet somatosensory motor cortex 2026 | PubMed + Europe PMC | 1 |
+| proprioceptive cortex muscle spindle afferent somatosensory review | PubMed | 7 |
+
+### 采用来源（10 篇）
+
+| 来源 | PMID / PMCID | 全文 | 采用原因 |
+|------|------|------|---------|
+| Jones & Porter 1980 (Brain Res Rev) | 6994855 | 摘要（未读全文） | 奠定area 3a定义的里程碑综述 |
+| Goodwin et al. 1972 (Science) | 4258209 | 摘要（未读全文） | 腱振动错觉经典实验 |
+| Huffman & Krubitzer 2001 (J Comp Neurol) | 11406813 | 摘要（未读全文） | 3a区双重丘脑输入解剖示踪 |
+| Proske & Gandevia 2012 (Physiol Rev) | 23073629 | 摘要（未读全文，非开放获取） | 本体感觉综合综述 |
+| Kaas 2004 (Anat Rec) | 15470673 | 摘要（未读全文） | S1四区进化背景 |
+| Fasold et al. 2008 (Neuroimage) | 18296073 | 摘要（未读全文） | 人类fMRI腱振动激活3a区 |
+| Voigt et al. 2026 (PLoS Biol) | 41996323 / PMC13089743 | **开放全文已读** | 去传入后M1预运动活动降低70% |
+| Proske & Gandevia 2018 (Compr Physiol) | 29978899 | 摘要（未读全文） | 运动感觉综述更新 |
+| Whitsel et al. 2019 (J Pain) | 30227224 | 摘要（未读全文） | 3a区痛觉处理争议 |
+| Amiez et al. 2026 (J Physiol) | 41902685 / PMC13082191 | **开放全文已读** | 腱振动多模态传入机制 |
+
+### 排除来源及原因
+
+- PMID:32711068 (7T fMRI area 3a nociception) — 纳入已超过需要的伤害感觉证据，通过Whitsel综述间接涵盖
+- 多篇低背痛/前庭/关节本体感觉文章 — 主题偏离
+- PMID:15385595 (Naito et al. 2005, area 2 kinesthesia) — area 2相关，不是今日重点
+
+---
+
+## 文章写作
+
+**题目**：3a区——皮层本体感觉的第一站与运动控制的感觉门
+**核心问题**：S1区3a如何接收肌梭Ia传入（经VPLc丘脑）并通过双重丘脑输入和直接M1投射成为感觉-运动整合节点？
+**字数**：约 5200 字
+**文件**：`articles/2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway.md`
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页面（1 页）
+
+- `wiki/systems/somatosensory-cortex-3a.md`：Rev1 创建；established/high；填补悬空引用
+
+### 修订 wiki 页面（3 页）
+
+- `wiki/systems/somatosensory-cortex.md`（rev1→rev2）：related/连接/修订历史更新
+- `wiki/concepts/proprioception.md`（rev2→rev3）：DCML通路描述补充3a区双重输入；连接/related/修订历史更新
+- `wiki/neurons/muscle-spindle.md`（rev2→rev3）：填补somatosensory-cortex-3a悬空引用；related/连接/修订历史更新
+
+### 矛盾检查
+
+- 无新矛盾触发。3a区痛觉响应（Whitsel 2019）与"3a=本体感觉专属"的经典认知存在张力，但当前证据不足以启动矛盾协议——已在新建页面中标注为"争议中/证据强度中"。
+
+### 成熟度评估
+
+- somatosensory-cortex-3a：新建 → established/high（教科书级解剖+电生理+人类fMRI多重验证）
+
+---
+
+## 图谱更新
+
+- 新增节点：1（somatosensory-cortex-3a）
+- 新增边：9
+- 当前图谱：355 节点，2046 边
+- updated 字段：2026-06-13
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：新增第177篇条目，total_articles 176→177
+- `unresolved_questions.md`：新增 Q-3a-01/02/03/04
+- `source_registry.json`：新增 7 个来源
+- `maturity_index.json`：新增 1 个页面条目
+- `monthly_synthesis.md`：追加 #177 条目；本月文章数 7→8
+- `wiki/index.md`：更新首行状态；新增 somatosensory-cortex-3a 条目
+- `wiki/CHANGELOG.md`：追加 #177 节
+
+---
+
+## 自检结果
+
+**真实性**：✓ 所有主张有来源（PMID 可追溯）；双重丘脑输入明确标注为"猴子数据，待人类验证"；去传入实验明确标注为"小鼠模型，无法直接推论人类"；腱振动错觉数据（Goodwin 1972）为已充分复现的经典结果；3a区痛觉争议明确标注为"争议中，证据强度中"；不提供医学诊断/治疗/用药建议。
+
+**一致性**：✓ 无矛盾启动协议；修订页面 updated/revision_count/修订历史均更新；_graph.json无悬空边（新增的somatosensory-cortex-3a所有引用的节点均已存在）；spinocerebellar-ataxia悬空引用继续登记待补。
+
+**可导航**：✓ index.md 和 CHANGELOG.md 反映今天变化；新页 related/prerequisites ≥1（前提：muscle-spindle, proprioception, somatosensory-cortex）；新页与 motor-cortex/forward-model/cerebellum 均已建立连接。
+
+**情景层**：✓ 文章/笔记/来源/日志齐全（使用独立日志文件 2026-06-13-area3a-run.log）；未改动旧文件（情景层文件均为新建）。
+
+---
+
+## Git 操作
+
+**分支**：claude/funny-einstein-c087bm
+**commit message**：Add neuro daily article #177 + wiki consolidation for 2026-06-13 (Brodmann area 3a)
+**Push 目标**：origin/claude/funny-einstein-c087bm
+
+**注意**：根据会话平台要求，本次推送至 claude/funny-einstein-c087bm 分支。
+origin/main 与本分支无共同祖先（两个独立历史），无法 fast-forward 合并到 main。
+已遵守 ROUTINE.md 不使用 --force 的规定。
+
+**Commit Hash**：[待填入]
+**推送状态**：[待填入]
+
+---
+
+*日志由自动化代理生成，2026-06-13 UTC+8*

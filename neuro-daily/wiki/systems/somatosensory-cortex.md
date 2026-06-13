@@ -6,10 +6,10 @@ type: region
 status: established
 confidence: high
 created: 2026-07-19
-updated: 2026-07-19
-revision_count: 1
+updated: 2026-06-13
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [barrel-cortex, cortical-homunculus, mechanoreceptors-skin, cortical-remapping, auditory-cortex, v1-primary-visual-cortex, thalamus, secondary-somatosensory-cortex]
+related: [barrel-cortex, cortical-homunculus, mechanoreceptors-skin, cortical-remapping, auditory-cortex, v1-primary-visual-cortex, thalamus, secondary-somatosensory-cortex, somatosensory-cortex-3a, proprioception, motor-cortex]
 prerequisites: [mechanoreceptors-skin, dorsal-column-pathway, thalamus]
 opens_questions: [Q-som-01, Q-som-03]
 source_articles: [2026-07-19-somatosensory-cortex-homunculus-barrel-cortex]
@@ -69,6 +69,9 @@ S1（尤其是桶状皮层模型）展示了典型的六层皮层柱：
 - [[mechanoreceptors-skin]] — 四类 Aβ 传入感受器，S1 的外周信号源
 - [[cortical-remapping]] — S1 的成人可塑性：截肢/训练诱发的地图重组
 - [[thalamus]] — VPL 是 S1 的直接丘脑输入源（DCML 通路终止于此）
+- [[somatosensory-cortex-3a]] — 3a区：S1 本体感觉专属子区；接收双重丘脑输入；直接投射 M1
+- [[motor-cortex]] — 3a 区与 M1 的直接皮层内连接；感觉皮层主动塑造运动皮层活动
+- [[proprioception]] — 3a 区是皮层层面本体感觉的专属第一站
 - [[auditory-cortex]] — 感觉皮层的平行设计：均以感觉能力组织皮层版图（音调拓扑 vs 躯体拓扑）
 - [[v1-primary-visual-cortex]] — 同样的设计原则：中央凹过度表征
 
@@ -80,6 +83,7 @@ S1（尤其是桶状皮层模型）展示了典型的六层皮层柱：
 ## 修订历史
 
 - 2026-07-19 · 创建 · 基于《从皮肤到大脑的身体地图》(#87) · 初始置信度：高
+- 2026-06-13 · rev2 · 基于《3a区——皮层本体感觉的第一站》(#177) · 新增3a区专属子页链接（somatosensory-cortex-3a）；补充3a区双重丘脑输入和M1直接投射信息；更新related字段
 
 ## 来源文章
 

@@ -12659,6 +12659,100 @@
         "GTO Ib recruitment",
         "Ia-Ib convergence"
       ]
+    },
+    {
+      "pmid": "6994855",
+      "title": "What is area 3a?",
+      "year": 1980,
+      "journal": "Brain Res Rev",
+      "used_in": [
+        "2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway"
+      ],
+      "aspects_covered": [
+        "area 3a definition",
+        "proprioceptive cortex"
+      ]
+    },
+    {
+      "pmid": "11406813",
+      "title": "Thalamo-cortical connections of areas 3a and M1 in marmoset monkeys",
+      "year": 2001,
+      "journal": "J Comp Neurol",
+      "used_in": [
+        "2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway"
+      ],
+      "aspects_covered": [
+        "area 3a dual thalamic input",
+        "VPL+VL projections",
+        "M1 connections"
+      ]
+    },
+    {
+      "pmid": "4258209",
+      "title": "Proprioceptive illusions induced by muscle vibration",
+      "year": 1972,
+      "journal": "Science",
+      "used_in": [
+        "2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway"
+      ],
+      "aspects_covered": [
+        "tendon vibration illusion",
+        "Ia afferent position sense"
+      ]
+    },
+    {
+      "pmid": "15470673",
+      "title": "Evolution of somatosensory and motor cortex in primates",
+      "year": 2004,
+      "journal": "Anat Rec",
+      "used_in": [
+        "2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway"
+      ],
+      "aspects_covered": [
+        "S1 area evolution",
+        "3a/3b/1/2 differentiation"
+      ]
+    },
+    {
+      "pmid": "18296073",
+      "title": "Proprioceptive head posture-related processing in human cortical areas",
+      "year": 2008,
+      "journal": "Neuroimage",
+      "used_in": [
+        "2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway"
+      ],
+      "aspects_covered": [
+        "human area 3a fMRI activation",
+        "tendon vibration"
+      ]
+    },
+    {
+      "pmid": "41996323",
+      "pmcid": "PMC13089743",
+      "title": "Somatosensory input drives membrane potential dynamics in motor cortex",
+      "year": 2026,
+      "journal": "PLoS Biol",
+      "used_in": [
+        "2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway"
+      ],
+      "aspects_covered": [
+        "somatosensory input shapes M1 pre-movement activity",
+        "deafferentation reduces M1 activity 70%",
+        "state transitions internally generated"
+      ]
+    },
+    {
+      "pmid": "30227224",
+      "title": "Contributions of Nociresponsive Area 3a",
+      "year": 2019,
+      "journal": "J Pain",
+      "used_in": [
+        "2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway"
+      ],
+      "aspects_covered": [
+        "area 3a nociception",
+        "C-fiber responses"
+      ]
     }
   ],
   "total_sources": 733,

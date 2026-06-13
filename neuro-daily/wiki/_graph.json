@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "updated": "2026-06-13",
-  "node_count": 354,
-  "edge_count": 2038,
+  "node_count": 355,
+  "edge_count": 2046,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3203,6 +3203,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/clarkes-nucleus.md"
+    },
+    {
+      "id": "somatosensory-cortex-3a",
+      "title": "S1区3a（Brodmann area 3a）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/somatosensory-cortex-3a.md"
     }
   ],
   "edges": [
@@ -13994,6 +14003,51 @@
     {
       "from": "corticospinal-tract",
       "to": "spinocerebellar-tracts",
+      "type": "related"
+    },
+    {
+      "from": "somatosensory-cortex-3a",
+      "to": "somatosensory-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "somatosensory-cortex-3a",
+      "to": "motor-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "somatosensory-cortex-3a",
+      "to": "proprioception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "somatosensory-cortex-3a",
+      "to": "forward-model",
+      "type": "supports"
+    },
+    {
+      "from": "muscle-spindle",
+      "to": "somatosensory-cortex-3a",
+      "type": "related"
+    },
+    {
+      "from": "thalamus",
+      "to": "somatosensory-cortex-3a",
+      "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "somatosensory-cortex-3a",
+      "type": "regulates"
+    },
+    {
+      "from": "spinocerebellar-tracts",
+      "to": "somatosensory-cortex-3a",
+      "type": "related"
+    },
+    {
+      "from": "proprioception",
+      "to": "somatosensory-cortex-3a",
       "type": "related"
     }
   ],

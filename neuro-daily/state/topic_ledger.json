@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 176,
+  "total_articles": 177,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11792,13 +11792,28 @@
       "filename": "2026-06-13-spinocerebellar-tracts-dsct-vsct.md",
       "article_type": "regular",
       "core_question": "DSCT 和 VSCT 各自携带什么信息？DSCT 70% 受 CPG 驱动的发现如何改变我们对脊髓小脑束功能的理解？这如何支持小脑前向模型的近实时误差校正？",
-      "layer": ["cellular", "microcircuit", "brain-region", "behavior"],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior"
+      ],
       "curriculum_track": "运动系统→本体感觉上行通路（填补 DSCT/VSCT 缺口）",
       "topic_tags": [
-        "spinocerebellar tract", "DSCT", "VSCT", "Clarke's nucleus",
-        "proprioception", "efference copy", "CPG", "mossy fiber",
-        "granule cell", "forward model", "Friedreich ataxia",
-        "lateral reticular nucleus", "motor prediction", "cerebellum"
+        "spinocerebellar tract",
+        "DSCT",
+        "VSCT",
+        "Clarke's nucleus",
+        "proprioception",
+        "efference copy",
+        "CPG",
+        "mossy fiber",
+        "granule cell",
+        "forward model",
+        "Friedreich ataxia",
+        "lateral reticular nucleus",
+        "motor prediction",
+        "cerebellum"
       ],
       "main_sources": [
         "PMID:11274339 (Bosco & Poppele 2001, Physiol Rev)",
@@ -11818,12 +11833,20 @@
         "wiki/concepts/forward-model.md (rev2→rev3): spinocerebellar-tracts related/evidence/key_sources",
         "wiki/index.md: 更新最后更新行，新增 2 条目"
       ],
-      "graph_nodes_added": ["spinocerebellar-tracts", "clarkes-nucleus"],
+      "graph_nodes_added": [
+        "spinocerebellar-tracts",
+        "clarkes-nucleus"
+      ],
       "graph_edges_added": 18,
       "graph_state": "354节点，2038边",
       "contested_claims_logged": [],
       "contested_claims_resolved": [],
-      "unresolved_questions": ["Q-sct-01", "Q-sct-02", "Q-sct-03", "Q-sct-04"],
+      "unresolved_questions": [
+        "Q-sct-01",
+        "Q-sct-02",
+        "Q-sct-03",
+        "Q-sct-04"
+      ],
       "next_suggested_topics": [
         "初级躯体感觉皮层第3a区（Area 3a）：本体感觉从脊髓小脑束分支的 DCML 路径终点，Ia/Ib 传入在 3a 区皮层的组织原则",
         "运动皮层旋转动力学：M1 在运动执行期的群体状态空间轨迹（Shenoy 2013 旋转框架）",
@@ -11881,5 +11904,42 @@
     "whole-brain-network": 1,
     "cognition": 1,
     "methods": 1
-  }
+  },
+  "articles": [
+    {
+      "article_number": 177,
+      "date": "2026-06-13",
+      "title": "3a区——皮层本体感觉的第一站与运动控制的感觉门",
+      "core_question": "S1区3a如何接收肌梭Ia传入（经VPLc丘脑）并通过双重丘脑输入和直接M1投射成为感觉-运动整合的皮层节点？",
+      "layer": "brain-region",
+      "topic_tags": [
+        "somatosensory-cortex-3a",
+        "proprioception",
+        "thalamocortical-pathway",
+        "motor-cortex",
+        "muscle-spindle",
+        "Ia-afferent"
+      ],
+      "main_sources": [
+        "PMID:6994855",
+        "PMID:11406813",
+        "PMID:4258209",
+        "PMID:23073629",
+        "PMID:41996323/PMC13089743",
+        "PMID:18296073"
+      ],
+      "unresolved_questions": [
+        "Q-3a-01",
+        "Q-3a-02",
+        "Q-3a-03",
+        "Q-3a-04"
+      ],
+      "next_suggested_topics": [
+        "运动皮层旋转动力学（motor cortex rotational dynamics）",
+        "小脑内部模型深化（cerebellar internal model）",
+        "初级躯体感觉皮层整体（S1 3b/1/2区的进一步分化）",
+        "spinocerebellar-ataxia疾病页（填补悬空引用）"
+      ]
+    }
+  ]
 }
