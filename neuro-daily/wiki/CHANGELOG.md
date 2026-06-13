@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-06-13（文章 #183：周综合第9期——感觉运动反馈整合）
+
+**创建新页**：无（周综合不创建新 wiki 页，但大幅修订现有页）
+
+**修订页面**：
+- `wiki/concepts/optimal-feedback-control.md`（rev1→rev2）：在多层闭环框架中明确OFC作为脊髓反射、经皮质反射(M2/M3)和小脑前向模型的统一数学框架；与旋转动力学和肌肉协同的整合关系得到强调
+- `wiki/circuits/transcortical-stretch-reflex.md`（rev1→rev2）：阐明M2/M3任务依赖调制是OFC最小干预原则的皮层-脊髓实现；3a区作为感觉融合节点的中枢地位得到明确
+- `wiki/systems/spinocerebellar-tracts.md`（rev1→rev2）：强调DSCT 70% CPG驱动在感觉运动整合三原则中的位置（"预测先于感觉"的解剖基础）
+- `wiki/concepts/muscle-synergies.md`（rev1→rev2）：阐明协同是"维度压缩"三原则之一，与OFC整合——将600维肌肉控制压缩至4–7维，使最优控制计算上可行
+
+**图谱变更**：363 节点；+3 条新边（somatosensory-cortex-3a→optimal-feedback-control, spinocerebellar-tracts→optimal-feedback-control, stretch-reflex→optimal-feedback-control，均为supports类型）
+
+**新增未解问题**：Q-syn-01（协同数目的决定因素：脊髓拓扑 vs 任务代数自由度）；Q-m1-01（M1群体旋转频率是否随感觉噪声系统性变化，作为OFC Kalman增益调整的证据）
+
+**登记矛盾**：无新矛盾（C-2026-06-13-01和C-2026-06-13-02已登记，本次综合阐明了两者的意义）
+
+**新增悬空引用**：无
+
+---
+
 ## 2026-06-13（文章 #182：运动的降维之道——肌肉协同）
 
 **创建新页**：

@@ -1,0 +1,42 @@
+# 运行日志 #183 — 2026-06-13
+
+## 执行概要
+- 文章编号：#183
+- 文章类型：weekly_synthesis（周综合第9期）
+- 综合范围：#176–#182（7篇，感觉运动整合主题）
+- 执行日期：2026-06-13（UTC+8）
+- 分支：main
+
+## 任务流程
+- Step 0：切换到 main 分支并 pull rebase，成功
+- Step A：读取 topic_ledger（163条→163条+1=164条），unresolved_questions（已有问题），_graph.json（363节点2093边），CHANGELOG.md
+- Step B：选题——确认 #176-#182 已完成7篇，触发周综合（每7篇1次）；综合方向：感觉运动整合的多层闭环框架
+- Step C：创作周综合文章（3800字），文件：articles/2026-06-13-week-synthesis-sensorimotor-feedback-integration.md
+- Step D：固结4个wiki页（OFC rev1→rev2, 经皮质反射 rev1→rev2, 脊髓小脑束 rev1→rev2, 肌肉协同 rev1→rev2）
+- Step E：图谱新增3边（somatosensory-cortex-3a/spinocerebellar-tracts/stretch-reflex →[supports]→ optimal-feedback-control）；CHANGELOG.md新增今日条目
+- Step F：更新 topic_ledger（新增 #183）、unresolved_questions（新增 Q-syn-01, Q-m1-01）、monthly_synthesis（更新6月）
+- Step G：git add + commit + push origin main
+
+## 资料使用
+- 本次为周综合，基于已发表的7篇文章提炼，无新检索
+- 核心文献（均已在各原始文章中使用）：PMID:22722855（M1旋转）、PMID:12404008（OFC）、Stecina2013（DSCT CPG）、PMID:26745304（M2/M3调制）、PMID:28739958（肌肉协同神经实体）
+
+## 创建/修订文件
+- 新建：articles/2026-06-13-week-synthesis-sensorimotor-feedback-integration.md
+- 修订：wiki/concepts/optimal-feedback-control.md（rev2）
+- 修订：wiki/circuits/transcortical-stretch-reflex.md（rev2）
+- 修订：wiki/systems/spinocerebellar-tracts.md（rev2）
+- 修订：wiki/concepts/muscle-synergies.md（rev2）
+- 修订：wiki/_graph.json（+3边）
+- 修订：wiki/CHANGELOG.md
+- 修订：state/topic_ledger.json
+- 修订：state/unresolved_questions.md
+- 修订：state/monthly_synthesis.md
+
+## 限制与说明
+- 周综合不进行新文献检索，质量保证依赖7篇原文章的来源准确性
+- 图谱363节点，悬空引用仅剩：aging, cognition（轻微，暂不处理）
+
+## commit/push 状态
+- commit hash: [待更新]
+- push: [待执行]

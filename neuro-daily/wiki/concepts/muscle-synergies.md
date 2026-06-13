@@ -7,12 +7,12 @@ status: mainstream
 confidence: medium
 created: 2026-06-13
 updated: 2026-06-13
-revision_count: 1
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, spinal-cord, behavior]
 related: [spinal-interneurons-locomotion, spinal-cord-cpg, corticospinal-tract, alpha-motor-neuron, optimal-feedback-control, rotational-dynamics-motor, motor-cortex]
 prerequisites: [alpha-motor-neuron, spinal-cord-cpg, corticospinal-tract]
 opens_questions: [Q-ms-01, Q-ms-02, Q-ms-03, Q-ms-04, Q-ofc-03]
-source_articles: [2026-06-13-muscle-synergies-bernstein]
+source_articles: [2026-06-13-muscle-synergies-bernstein, 2026-06-13-week-synthesis-sensorimotor-feedback-integration]
 key_sources: ["PMID:23641212", "PMID:16000633", "PMID:28739958", "PMID:30334575", "PMID:22570602", "PMID:35370571", "PMID:37737925"]
 ---
 
@@ -96,8 +96,10 @@ key_sources: ["PMID:23641212", "PMID:16000633", "PMID:28739958", "PMID:30334575"
 
 ## 修订历史
 
-- 2026-06-13 · 创建 · 基于文章 #182《运动的降维之道》· 初始置信度：medium（中枢起源证据支持，但生物力学替代解释未完全排除）
+- 2026-06-13 · 创建（rev1）· 基于文章 #182《运动的降维之道》· 初始置信度：medium（中枢起源证据支持，但生物力学替代解释未完全排除）
+- 2026-06-13 · 修订（rev2）· 周综合 #183：在感觉运动整合框架中，协同被明确为"维度压缩"三原则之一；与 OFC 的关系得到阐明——OFC 将600维肌肉控制问题降至4–7维协同层面，使最优控制在计算上可行
 
 ## 来源文章
 
 - [[2026-06-13-muscle-synergies-bernstein]]
+- [[2026-06-13-week-synthesis-sensorimotor-feedback-integration]]

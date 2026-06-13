@@ -7,12 +7,12 @@ status: established
 confidence: high
 created: 2026-06-13
 updated: 2026-06-13
-revision_count: 1
+revision_count: 2
 dimensions: [microcircuit, brain-region, whole-brain-network, behavior, cognition]
 related: [stretch-reflex, motor-cortex, somatosensory-cortex-3a, corticospinal-tract, muscle-spindle, alpha-motor-neuron, thalamus, optimal-feedback-control, motor-learning, forward-model]
 prerequisites: [stretch-reflex, somatosensory-cortex-3a, motor-cortex, corticospinal-tract]
 opens_questions: [Q-llr-01, Q-llr-02, Q-llr-03]
-source_articles: [2026-06-13-transcortical-stretch-reflex-long-latency]
+source_articles: [2026-06-13-transcortical-stretch-reflex-long-latency, 2026-06-13-week-synthesis-sensorimotor-feedback-integration]
 key_sources: ["PMID:957257", "PMID:9729635", "PMID:21964335", "PMID:24672006", "PMID:18187462", "PMID:23453250", "PMID:25309359"]
 ---
 
@@ -102,7 +102,9 @@ Pruszynski等2011年（PMID:21964335，Nature）通过猴子双关节机械臂�
 ## 修订历史
 
 - 2026-06-13 · 创建（rev1）· 基于文章 #180《反射的第二次进化》· 初始置信度：高（多独立研究，Nature发表）
+- 2026-06-13 · 修订（rev2）· 周综合 #183：阐明 M2/M3 的任务依赖振幅调制是最优反馈控制（OFC）最小干预原则在皮层-脊髓水平的物理实现；3a区作为感觉融合节点的角色得到强调
 
 ## 来源文章
 
 - [[2026-06-13-transcortical-stretch-reflex-long-latency]]
+- [[2026-06-13-week-synthesis-sensorimotor-feedback-integration]]

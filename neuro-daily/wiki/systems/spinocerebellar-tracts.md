@@ -7,12 +7,12 @@ status: established
 confidence: high
 created: 2026-06-13
 updated: 2026-06-13
-revision_count: 1
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, behavior]
 related: [cerebellum, muscle-spindle, golgi-tendon-organ, spinal-cord-cpg, forward-model, clarkes-nucleus, alpha-motor-neuron, proprioception, deep-cerebellar-nuclei]
 prerequisites: [spinal-cord-cpg, muscle-spindle, golgi-tendon-organ, proprioception]
 opens_questions: [Q-sct-01, Q-sct-02, Q-sct-03, Q-sct-04]
-source_articles: [2026-06-13-spinocerebellar-tracts-dsct-vsct]
+source_articles: [2026-06-13-spinocerebellar-tracts-dsct-vsct, 2026-06-13-week-synthesis-sensorimotor-feedback-integration]
 key_sources: ["PMID:11274339", "PMID:23613538", "PMID:23100134", "PMID:24115921", "PMID:24042498"]
 ---
 
@@ -97,8 +97,10 @@ LRN（Alstermark & Ekerot 2013）：从多个运动系统汇聚输入，向小�
 
 ## 修订历史
 
-- 2026-06-13 · 创建 · 基于《双轨信使：脊髓小脑束如何让大脑在运动发生前就开始纠错》(#176) · 初始置信度：高（教科书级解剖 + Stecina 2013 电生理直接证据）
+- 2026-06-13 · 创建（rev1）· 基于《双轨信使：脊髓小脑束如何让大脑在运动发生前就开始纠错》(#176) · 初始置信度：高（教科书级解剖 + Stecina 2013 电生理直接证据）
+- 2026-06-13 · 修订（rev2）· 周综合 #183：强调 DSCT 70% CPG 驱动在多层闭环框架中的位置——脊髓小脑束是预测性控制的解剖基础，绕过感觉延迟的关键结构；在感觉运动整合三原则（多时间尺度/预测先于感觉/维度压缩）中的核心角色得到明确
 
 ## 来源文章
 
 - [[2026-06-13-spinocerebellar-tracts-dsct-vsct]]
+- [[2026-06-13-week-synthesis-sensorimotor-feedback-integration]]

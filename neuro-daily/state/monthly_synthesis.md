@@ -5,13 +5,15 @@
 ## 2026年6月（进行中）
 
 *本月截至日期：2026-06-13*
-*本月新增文章：#170 + #171 + #172 + #173 + #174 + #175 + #176 + #177 + #178 + #179 + #180；共 11 篇。*
+*本月新增文章：#170–#183（含两次周综合）；共 14 篇。*
 
 *6-13 #180 长潜伏期牵张反射M2/M3（经皮质反射弧）：三成分时序（M1~25ms/M2~50–75ms/M3~75–120ms）；Marsden 1976奠基（PMC1309044）；Petersen 1998 TMS超线性叠加直接证明M3经皮质（PMC2231172）；Pruszynski 2011 Nature猴M1多关节整合+人类TMS（PMC4974074）；M1目标依赖调制35ms出现（Pruszynski 2014，PMC6608123）；Kurtzer 2008内部模型多关节交互力矩；OFC框架（Scott 2008，PMC2375659）；中风后M2/M3双侧受损（Trumbower 2013，PMC3674210）；新建1页（transcortical-stretch-reflex），修订2页（stretch-reflex rev2, somatosensory-cortex-3a rev2），图谱362节点2078边；Q-llr-01/02/03新增。感觉运动系统弧完整：#172肌梭→#177三区→#173CST→#179M1反射→#180M2/M3经皮质。*
 
 *6-12 #172 肌梭与本体感觉：核袋1/2/链纤维三类型；PIEZO2 为 Ia 传入机械换能分子（Wilkinson 2022 PMC9815952）；谷氨酸囊泡维持静态相；Kv1.1/1.2 区分 Ia vs II 型动态；γd→bag1/γs→bag2+chain；α-γ 协同激活防肌梭沉默；Err3/Gfrα1 分子标记（Wilkinson 2021 PMC9770680）；Ia 单突触牵张反射；DCML→S1 3a 区意识通路 + 脊髓小脑束无意识通路；传出副本贡献（Proske & Gandevia 2009 PMC2754351）；新建4页（muscle-spindle, gamma-motor-neuron, piezo2-mechanotransduction, proprioception），修订1页（alpha-motor-neuron rev3），图谱348节点1978边；Q-spindle-01/02/03 新增。*
 
 *6-13 #176 脊髓小脑束：四条通路（DSCT/VSCT/CCT/RSCT）解剖；核心范式转变：70% DSCT 神经元受脊髓 CPG 直接驱动（无外周输入时，Stecina 2013 PMC3853486）——感觉管道升级为感觉+运动预测混合信使；VSCT 全部 CPG 驱动；颗粒层稀疏编码（Geborek 2013）；LRN 系统级整合；Friedreich 共济失调 fMRI 疾病窗口；新建 2 页（spinocerebellar-tracts, clarkes-nucleus），修订 3 页（cerebellum rev5, forward-model rev3, index）；图谱 354 节点 2038 边；Q-sct-01/02/03/04 新增。*
+
+*6-13 #183（周综合第9期）感觉运动整合框架：统一7篇文章（#176–#182）的核心命题——感觉反馈是运动精度的计算核心，不是事后纠错；三原则（多时间尺度嵌套/预测先于感觉/维度压缩贯穿各层）；脊髓反射25ms→经皮质M2/M3 50–120ms→OFC全程；DSCT 70% CPG驱动 = 预测性感觉的解剖实现；3a区 VPLc+VLc双输入 = 皮层层面的比较器；M1旋转动力学+输出零空间 = OFC控制信号的群体编码实现；肌肉协同 = 将600维控制压缩至4–7维；修订4个wiki页（OFC/经皮质反射/脊髓小脑束/肌肉协同 均 rev+1）；图谱新增3边（3a/脊髓小脑束/牵张反射→OFC，supports类型）；新增Q-syn-01和Q-m1-01高优先级未解问题。*
 
 *6-13 #177 S1区3a（Brodmann area 3a）：中央沟底部本体感觉专属子区；双重丘脑输入（VPLc感觉+VLc运动/小脑预测）是前向模型皮层实现的解剖基础（Huffman & Krubitzer 2001 PMID:11406813）；直接投射M1（"感觉告知运动"最短皮层内通路）；Goodwin 1972腱振动错觉证明Ia传入→位置感知；人类fMRI腱振动激活3a区（Fasold 2008）；Voigt 2026 PLoS Biol（开放全文）：去传入后M1预运动活动降低约70%，感觉输入主动塑造运动皮层；3a区痛觉功能争议（Whitsel 2019/Panchuelo 2020）；新建 1 页（somatosensory-cortex-3a），修订 3 页（somatosensory-cortex rev2, proprioception rev3, muscle-spindle rev3）；填补悬空引用somatosensory-cortex-3a；图谱 355 节点 2046 边；Q-3a-01/02/03/04 新增。*
 

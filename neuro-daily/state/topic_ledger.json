@@ -12075,6 +12075,57 @@
         "motor-learning",
         "cerebellar-forward-model"
       ]
+    },
+    {
+      "article_number": 183,
+      "date": "2026-06-13",
+      "title": "周综合（感觉运动专辑·第二卷）：感觉反馈如何成为运动精度的核心语言",
+      "article_type": "weekly_synthesis",
+      "core_question": "当感觉反馈总是比运动本身慢（20–100ms），大脑如何仍然能实时地、精确地控制运动？",
+      "layer": [
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "topic_tags": [
+        "sensorimotor-integration",
+        "weekly-synthesis",
+        "motor-control",
+        "feedback",
+        "ofc",
+        "muscle-synergies",
+        "rotational-dynamics",
+        "spinocerebellar-tracts"
+      ],
+      "main_sources": [
+        "PMID:22722855",
+        "PMID:12404008",
+        "Stecina2013-DSCT",
+        "PMID:26745304",
+        "PMID:28739958"
+      ],
+      "synthesis_range": "#176-#182",
+      "wiki_revised": [
+        "optimal-feedback-control",
+        "transcortical-stretch-reflex",
+        "spinocerebellar-tracts",
+        "muscle-synergies"
+      ],
+      "unresolved_questions": [
+        "Q-syn-01",
+        "Q-m1-01",
+        "Q-dsct-01"
+      ],
+      "next_suggested_topics": [
+        "cerebellar-learning-mechanisms",
+        "basal-ganglia-action-selection",
+        "motor-learning-sequence"
+      ],
+      "file_path": "articles/2026-06-13-week-synthesis-sensorimotor-feedback-integration.md"
     }
   ],
   "layer_coverage_recent": [

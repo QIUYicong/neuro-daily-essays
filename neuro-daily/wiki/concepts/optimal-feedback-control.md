@@ -7,12 +7,12 @@ status: mainstream
 confidence: high
 created: 2026-06-13
 updated: 2026-06-13
-revision_count: 1
+revision_count: 2
 dimensions: [cognition, behavior, brain-region, microcircuit]
 related: [motor-cortex, forward-model, transcortical-stretch-reflex, cerebellum, predictive-coding, output-null-space, rotational-dynamics-motor, basal-ganglia, somatosensory-cortex]
 prerequisites: [motor-cortex, forward-model, predictive-coding]
 opens_questions: [Q-ofc-01, Q-ofc-02, Q-ofc-03, Q-ofc-04, Q-ofc-05]
-source_articles: [2026-06-13-optimal-feedback-control-ofc]
+source_articles: [2026-06-13-optimal-feedback-control-ofc, 2026-06-13-week-synthesis-sensorimotor-feedback-integration]
 key_sources: ["PMID:12404008", "PMID:15332089/PMC1488877", "PMID:15208695", "PMID:18187462/PMC2375659", "PMID:20005767/PMC4350769", "PMID:26445871/PMC4686281", "PMID:34730516/PMC8691841"]
 ---
 
@@ -110,8 +110,10 @@ Kalidindi 等（2021，PMC8691841）发现：无循环连接但有感觉反馈�
 
 ## 修订历史
 
-- 2026-06-13 · 创建 · 基于《感觉反馈的智慧：最优反馈控制》（文章 #181） · 来源：PMID:12404008, 15332089/PMC1488877, 15208695, 18187462/PMC2375659, 20005767/PMC4350769, 22078503, 22370742, 26445871/PMC4686281, 34730516/PMC8691841, 38551834/PMC10998569
+- 2026-06-13 · 创建（rev1）· 基于《感觉反馈的智慧：最优反馈控制》（文章 #181） · 来源：PMID:12404008, 15332089/PMC1488877, 15208695, 18187462/PMC2375659, 20005767/PMC4350769, 22078503, 22370742, 26445871/PMC4686281, 34730516/PMC8691841, 38551834/PMC10998569
+- 2026-06-13 · 修订（rev2）· 周综合 #183：在运动控制多层闭环框架中，OFC 被阐明为统一脊髓反射（M1反射）、经皮质反射（M2/M3任务调制）和小脑前向模型预测的上层数学框架；与旋转动力学和肌肉协同的整合得到强调
 
 ## 来源文章
 
 - [[2026-06-13-optimal-feedback-control-ofc]]
+- [[2026-06-13-week-synthesis-sensorimotor-feedback-integration]]
