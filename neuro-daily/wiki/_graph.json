@@ -3167,6 +3167,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/corticomotoneuronal-connections.md"
+    },
+    {
+      "id": "autogenic-inhibition",
+      "title": "自身抑制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/autogenic-inhibition.md"
     }
   ],
   "edges": [
@@ -13729,6 +13738,71 @@
       "from": "corticospinal-tract",
       "to": "distributed-motor-control",
       "type": "related"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "proprioception",
+      "type": "part-of"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "autogenic-inhibition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "autogenic-inhibition",
+      "to": "alpha-motor-neuron",
+      "type": "regulates"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "muscle-spindle",
+      "type": "related"
+    },
+    {
+      "from": "muscle-spindle",
+      "to": "golgi-tendon-organ",
+      "type": "related"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "spinal-cord-cpg",
+      "type": "regulates"
+    },
+    {
+      "from": "spinal-cord-cpg",
+      "to": "golgi-tendon-organ",
+      "type": "regulates"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "cerebellum",
+      "type": "supports"
+    },
+    {
+      "from": "autogenic-inhibition",
+      "to": "stretch-reflex",
+      "type": "related"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "gamma-motor-neuron",
+      "type": "related"
+    },
+    {
+      "from": "autogenic-inhibition",
+      "to": "golgi-tendon-organ",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "autogenic-inhibition",
+      "to": "spinal-cord-cpg",
+      "type": "regulates"
+    },
+    {
+      "from": "proprioception",
+      "to": "golgi-tendon-organ",
+      "type": "part-of"
     }
   ],
   "dangling_references": [

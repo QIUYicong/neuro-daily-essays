@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#173** 皮质脊髓束——CM直达连接的进化机制（PlexA1/CIS调控），猕猴75%上肢MN接受单突触CST投射，C5损伤后本体脊髓代偿>90%，ALS split-hand综合征，"dying forward"假说；新建2页：corticospinal-tract（systems）、corticomotoneuronal-connections（concepts）；修订3页：motor-cortex rev5、alpha-motor-neuron rev4；图谱 **350** 节点，**1991** 边）· 主题页总数：**318**
+> 最后更新：2026-06-13（**#174** 高尔基腱器官——GTO 低阈值力量传感器、Ib 自身抑制与步态站立相 Ib 切换机制；推翻"安全阀"范式；新建 2 页：golgi-tendon-organ（neurons）、autogenic-inhibition（concepts）；修订 2 页：proprioception rev2、muscle-spindle rev2；图谱 **351** 节点，**2004** 边）· 主题页总数：**320**
 
 ---
 
@@ -33,6 +33,7 @@
 - 🟢 [浦肯野细胞](neurons/purkinje-cell.md) — 小脑皮层唯一输出神经元：~15万平行纤维突触+1根攀爬纤维；双重放电（简单50-100Hz/复杂~1Hz）；LTD发生位点；GABAergic抑制DCN **[NEW 2026-08-01 #100]**
 - 🟢 [α运动神经元](neurons/alpha-motor-neuron.md) — 脊髓前角最终公共通路；大小原则决定S→FR→FF有序招募；PICs（CaV1.3/Nav1.6）提供2–6倍增益放大；5-HT₂+α₁AR单胺能调制；ALS FF优先脆弱；SCI痉挛的分子机制 **[NEW 2026-10-08 #168] [修订 rev2 2026-10-09]**
 - 🟢 [神经肌肉接头（NMJ）](neurons/neuromuscular-junction.md) — 运动控制链最末节点；三细胞架构（神经末梢+肌纤维终板+PSC）；Cav2.1→SNARE→量子释放（m≈50–100）；nAChR密度~10,000/μm²；安全因子2–5；Agrin-LRP4-MuSK-rapsyn轴自组织突触后密度；填补运动链叙事最后缺口 **[NEW 2026-10-09 #169]**
+- 🟢 [高尔基腱器官（GTO）](neurons/golgi-tendon-organ.md) — 串联于肌纤维的力量传感器；Ib 传入低阈值（每次收缩放电）；三条脊髓通路（Ib 抑制/兴奋/DSCT）；站立相 Ib 切换为兴奋性负荷守门人；"折刀反射"修正（III/IV 类传入为主）；帕金森 Ib 抑制减弱 **[NEW 2026-06-13 #174]**
 
 ## circuits（回路）
 
@@ -49,6 +50,7 @@
 
 ## concepts（概念/框架）
 
+- 🟢 [自身抑制](concepts/autogenic-inhibition.md) — GTO Ib 传入→甘氨酸能抑制性中间神经元→同肌 α-MN 抑制（逆肌牵张反射）；步态站立相 Ib 切换机制；H 反射范式；帕金森 Ib 抑制减弱；脊髓损伤 Ib 保留 **[NEW 2026-06-13 #174]**
 - 🟢 [运动单元](concepts/motor-unit.md) — 最小可控神经肌肉单元（α-MN + 全部靶肌纤维）；神经支配比与精度反比（眼5-15/腓肠1000-2000）；S/FR/FF三类型；去同步化产生平滑收缩 **[NEW 2026-10-08 #168]**
 - 🟢 [Agrin-LRP4-MuSK-Rapsyn 轴与 AChR 聚集](concepts/agrin-musk-achr-clustering.md) — NMJ 突触后 AChR 聚集的分子级联；Agrin↑LRP4-MuSK亲和力36倍；Agrin为"抗去聚集因子"（非诱导者）的争议模型；Dok7协激活；rapsyn 1:1锚定；CMS和MuSK+MG疾病关联 **[NEW 2026-10-09 #169]**
 - 🟢 [终板电位与安全因子](concepts/end-plate-potential-safety-factor.md) — EPP=m×q（量子数×量子幅度）；安全因子2–5（人类~2x阈值）；MEPP~1mV；一量子激活~2,000 nAChR；MG/LEMS/BoNT通过不同机制降低安全因子 **[NEW 2026-10-09 #169]**

@@ -309,6 +309,22 @@
       "confidence": "high",
       "last_changed": "2026-06-13",
       "reason": "新建 (#173)；50多年积累的电生理+解剖+遗传学多角度证据；PlexA1因果实验；分裂手综合征临床验证"
+    },
+    {
+      "slug": "golgi-tendon-organ",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-13",
+      "change_reason": "新建页面 (#174)；Jami 1992 权威综述+多项临床电生理研究支持 established 状态",
+      "source_article": "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
+    },
+    {
+      "slug": "autogenic-inhibition",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-13",
+      "change_reason": "新建页面 (#174)；H 反射范式直接测量人类 Ib 抑制，猫电生理记录支持 established",
+      "source_article": "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
     }
   ],
   "last_updated": "2026-06-13",

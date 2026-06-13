@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-06-13（文章 #174：肌肉力量的精确传感器——高尔基腱器官如何把张力翻译成脊髓语言，并在步态中切换角色）
+
+### 新建 wiki 页面（2 页）
+
+- `neurons/golgi-tendon-organ.md`（高尔基腱器官）：Rev1 创建；串联排列（vs 肌梭并联）；Ib 传入低阈值特性（每次收缩均放电，推翻"安全阀"范式）；三条脊髓通路（Ib 抑制性/兴奋性/DSCT 上行）；步行站立相 Ib 抑制→兴奋切换；力量感知（与传出副本的贡献分工）；"折刀反射"修正（主要为 III/IV 类传入）；临床应用（帕金森、脊髓损伤、痉挛）；状态 established / confidence: high。
+- `concepts/autogenic-inhibition.md`（自身抑制）：Rev1 创建；Ib 传入→甘氨酸能抑制性中间神经元→同肌 α-MN 抑制；与牵张反射的功能对比；步态相位切换机制；H 反射测量范式；临床证据（帕金森/脊髓损伤）；状态 established / confidence: high。
+
+### 修订 wiki 页面（2 页）
+
+- `concepts/proprioception.md` rev1→rev2：大幅扩展 GTO 子系统描述；更正低阈值特性；步态 Ib 切换机制；力量感知贡献；"折刀反射"修正；新增 3 条关键证据行；key_sources 补充 3 项。
+- `neurons/muscle-spindle.md` rev1→rev2：填补 golgi-tendon-organ 悬空引用（该节点现已有 wiki 页面）；更新 source_articles。
+
+### 图谱变化
+
+- 新建节点 1 个：autogenic-inhibition（golgi-tendon-organ 已存在于图谱中）
+- 新增边 13 条：golgi-tendon-organ↔muscle-spindle（related）、golgi-tendon-organ→proprioception（part-of）、golgi-tendon-organ→autogenic-inhibition（mechanism-of）、autogenic-inhibition→alpha-motor-neuron（regulates）、golgi-tendon-organ→spinal-cord-cpg（regulates）、golgi-tendon-organ→cerebellum（supports）等
+- 图谱状态：351 节点，2004 边
+
+### 登记/裁决矛盾
+
+- 无新矛盾登记。
+- 新增未解问题：Q-gto-01（人类 GTO 跨运动单元采样策略）、Q-gto-02（GTO 老化动力学）、Q-gto-03（站立相 Ib 切换的具体脊髓中间神经元身份）。
+
+### 填补悬空引用
+
+- `golgi-tendon-organ`：在 muscle-spindle、proprioception 中已被引用，现已有 wiki 页面。✓
+
+---
+
 ## 2026-06-13（文章 #173：进化写下的专线——皮质脊髓束如何让人类获得世界上最灵巧的双手）
 
 ### 新建 wiki 页面（2 页）

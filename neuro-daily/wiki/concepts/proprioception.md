@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-10-10
-updated: 2026-10-10
-revision_count: 1
+updated: 2026-06-13
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition]
 related: [muscle-spindle, gamma-motor-neuron, golgi-tendon-organ, somatosensory-cortex, cerebellum, proprioceptive-prediction, forward-model, body-schema]
 prerequisites: [muscle-spindle, action-potential]
 opens_questions: [Q-spindle-01, Q-spindle-02, Q-spindle-03]
-source_articles: [2026-10-10-muscle-spindle-proprioception-gamma-motor]
-key_sources: ["PMID:23073629", "PMID:19581378", "PMID:29978899", "PMID:30095484"]
+source_articles: [2026-10-10-muscle-spindle-proprioception-gamma-motor, 2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition]
+key_sources: ["PMID:23073629", "PMID:19581378", "PMID:29978899", "PMID:30095484", "PMID:1626033", "PMID:10899663", "PMID:30604022"]
 ---
 
 # 本体感觉 (Proprioception)
@@ -47,9 +47,13 @@ key_sources: ["PMID:23073629", "PMID:19581378", "PMID:29978899", "PMID:30095484"
 - II 型传入：编码静态长度
 - γ 运动神经元：主动配置肌梭灵敏度（防运动时沉默）
 
-**高尔基腱器官**：
-- Ib 传入：编码肌腱张力（与肌纤维串联）
-- 触发脊髓 Ib 抑制性中间神经元 → 自身抑制（防过载）
+**高尔基腱器官（GTO）**：
+- Ib 传入：编码肌腱张力（与肌纤维串联，对主动收缩高度敏感）
+- 每次收缩都放电（非仅高张力时激活，Jami 1992 PMID:1626033）
+- 触发脊髓 Ib 抑制性中间神经元 → 自身抑制（静息/摆动相）
+- **步行站立相**：Ib 抑制被下行信号关闭，转为 Ib 兴奋性负荷信号（延长支撑相）
+- 与传出副本共同构建"重量感"和"力感"（Proske & Allen 2019 PMID:30604022）
+- "折刀反射"修正：该反射主要来自 III/IV 类传入，非 GTO 高阈值激活
 
 ### 中枢处理通路
 
@@ -80,6 +84,9 @@ Ia/II → 脊髓小脑束（DSCT/VSCT）→ 小脑皮层
 | thixotropy 扭曲位置判断 | 肌肉历史依赖性的匹配误差（20°） | PMID:19581378 | 高 |
 | PIEZO2 缺失消除本体感觉 | PIEZO2 KO 小鼠 + 人类 PIEZO2 突变病例 | PMID:35430481 | 高 |
 | 皮肤 Ruffini 末梢补充本体感觉 | 手指去感觉后本体感觉下降 | PMID:19581378 | 中 |
+| GTO 低阈值：每次收缩均放电 | 猫细胞外记录（各型运动单元） | PMID:1626033 | 高 |
+| GTO 步态功能：站立相负荷信号 | 步行电生理 + Ib 传入切断实验 | PMID:10899663 / PMID:14653157 | 高 |
+| GTO Ib 传入参与力量感知 | 双臂力量匹配 + 振动干扰范式 | PMID:23073629 / PMID:30604022 | 中 |
 
 ## 连接
 
@@ -100,6 +107,7 @@ Ia/II → 脊髓小脑束（DSCT/VSCT）→ 小脑皮层
 ## 修订历史
 
 - 2026-10-10 · 创建 · 基于《感觉会自我校准的尺子》(#172) · 初始置信度：高
+- 2026-06-13 · rev2 · 基于《肌肉力量的精确传感器》(#174) · 大幅扩展 GTO 子系统描述：更正低阈值特性、步态 Ib 切换机制、力量感知贡献、"折刀反射"修正；新增3条关键证据行；更新 key_sources
 
 ## 来源文章
 

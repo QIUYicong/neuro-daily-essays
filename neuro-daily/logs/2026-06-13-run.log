@@ -190,3 +190,109 @@
 **Commit hash**：3156f5b870c111e29e15ca63488914c46471c64d
 **推送状态**：成功
 **推送分支**：main → origin/main
+
+---
+
+# 文章 #174：高尔基腱器官（GTO）与 Ib 自身抑制（2026-06-13 第四次运行——预定 09:00 CST）
+
+**运行时间**：2026-06-13 09:59 CST（预定 09:00 CST 运行）
+**文章序号**：第 174 篇
+**运行状态**：完成
+**分支**：main
+
+## 检索过程
+
+### 搜索词（PubMed E-utilities + PMC）
+- `Golgi tendon organ proprioception review`
+- `Golgi tendon organ Ib afferent review`
+- `Ib interneuron autogenic inhibition spinal`
+- `Golgi tendon organ force locomotion load receptor`
+- `Pearson 2004 generating walking gait sensory feedback`
+- `Proske force sense heaviness muscle tendon afferent`
+- `clasp-knife spasticity Group III IV afferent`
+- `Jami 1992 tendon organ physiological reviews`
+
+### 候选文章数
+- 初始候选：约 30 篇
+- 最终纳入：9 篇
+
+### 采用来源（9 篇）
+1. PMID:1626033 (Jami 1992, Physiol Rev) - 摘要 - GTO 低阈值特性里程碑综述
+2. PMID:23073629 (Proske & Gandevia 2012, Physiol Rev) - 摘要 - GTO 力感/重量感贡献
+3. PMID:10899663 (Dietz & Duysens 2000, Gait Posture) - 摘要 - 步态负荷守门人假说
+4. PMID:14653157 (Pearson 2004, Prog Brain Res) - 摘要 - Ib 传入控制站立相
+5. PMID:30604022 (Proske & Allen 2019, Exp Brain Res) - 摘要 - 力感重量感神经基础
+6. PMID:1929231 (Delwaide et al. 1991, Ann Neurol) - 摘要 - 帕金森 Ib 抑制减弱
+7. PMID:7675233 (Downes et al. 1995, Neurology) - 摘要 - 脊髓损伤 Ib 保留
+8. PMID:41902685/PMC13082191 (Amiez et al. 2026, J Physiol) - **开放全文已读** - GTO Ib Ia 汇聚
+9. PMID:19581378/PMC2754351 (Proske & Gandevia 2009, J Physiol) - **开放全文已读** - 本体感觉框架
+
+### 排除来源及原因
+- 多篇临床踝关节/颈椎本体感觉研究 - 不相关（侧重临床干预而非 GTO 神经生理）
+- 多篇步行机器人/康复工程文章 - 主题偏离
+
+---
+
+## 文章写作
+
+**题目**：肌肉力量的精确传感器：高尔基腱器官如何把张力翻译成脊髓语言，并在步态中切换角色
+**核心问题**：GTO 串联结构→Ib 传入低阈值→三条脊髓通路→站立相 Ib 切换机制→力感知贡献
+**字数**：约 5800 字
+**文件**：`articles/2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition.md`
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页面（2）
+- `wiki/neurons/golgi-tendon-organ.md` - status=established, conf=high（填补 muscle-spindle 和 proprioception 中的悬空引用）
+- `wiki/concepts/autogenic-inhibition.md` - status=established, conf=high
+
+### 修订 wiki 页面（2）
+- `wiki/concepts/proprioception.md` (rev1→rev2)：扩展 GTO 子系统；步态 Ib 切换；力量感知；折刀反射修正
+- `wiki/neurons/muscle-spindle.md` (rev1→rev2)：填补 golgi-tendon-organ 悬空引用
+
+### 矛盾检查
+- 无新矛盾（"折刀反射来源"修正在文章中明确标注为历史性修正，非与既有 wiki 页面冲突）
+
+### 成熟度更新
+- golgi-tendon-organ: 新建 → established/high
+- autogenic-inhibition: 新建 → established/high
+
+---
+
+## 图谱更新
+
+- 新增节点：1（autogenic-inhibition；golgi-tendon-organ 已存在）
+- 新增边：13
+- 当前图谱：351 节点，2004 边
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：新增第174篇条目，total_articles=174
+- `unresolved_questions.md`：新增 Q-gto-01/02/03
+- `source_registry.json`：新增 7 个来源
+- `maturity_index.json`：新增 2 个页面条目
+- `monthly_synthesis.md`：追加 #174 条目
+
+---
+
+## 自检结果
+
+**真实性**：✓ 所有主张有来源（PMID 可追溯）；区分事实/模型/推测；"折刀反射修正"明确标注为历史性科学修正，注明证据强度"中"（因为完整的 III/IV 类传入阻断实验未能找到单一决定性来源）；动物→人类推广谨慎（猫数据明确注明）
+**一致性**：✓ 无冲突走矛盾协议；修订页面 updated/revision_count/修订历史均更新；_graph.json 无悬空边（golgi-tendon-organ 现已有节点，autogenic-inhibition 已建）
+**可导航**：✓ index.md 和 CHANGELOG.md 反映今天变化；新页 related/prerequisites ≥1；wiki 目录中 neurons/ 和 concepts/ 都有新页
+**情景层**：✓ 文章/笔记/来源/日志齐全；未改动旧文件
+
+---
+
+## Git 操作
+
+**分支**：main
+**commit message**：Add neuro daily article + wiki consolidation for 2026-06-13 (#174 Golgi Tendon Organ)
+**push 状态**：[待更新]
+
+**Commit hash**：[待填写]
+**推送状态**：[待确认]

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12",
+  "last_updated": "2026-06-13",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -12545,6 +12545,119 @@
       "date_used": "2026-06-13",
       "article_numbers": [
         173
+      ]
+    },
+    {
+      "pmid": "1626033",
+      "title": "Golgi tendon organs in mammalian skeletal muscle: functional properties and central actions",
+      "authors": "Jami L",
+      "year": 1992,
+      "type": "review",
+      "used_in": [
+        "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
+      ],
+      "topics_covered": [
+        "GTO structure",
+        "Ib afferent",
+        "autogenic inhibition",
+        "low threshold",
+        "safety valve myth"
+      ]
+    },
+    {
+      "pmid": "10899663",
+      "title": "Significance of load receptor input during locomotion: a review",
+      "authors": "Dietz V, Duysens J",
+      "year": 2000,
+      "type": "review",
+      "used_in": [
+        "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
+      ],
+      "topics_covered": [
+        "load receptor",
+        "Ib switching",
+        "stance phase",
+        "locomotion"
+      ]
+    },
+    {
+      "pmid": "14653157",
+      "title": "Generating the walking gait: role of sensory feedback",
+      "authors": "Pearson KG",
+      "year": 2004,
+      "type": "review",
+      "used_in": [
+        "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
+      ],
+      "topics_covered": [
+        "Ib afferents",
+        "stance phase",
+        "walking gait",
+        "sensory feedback"
+      ]
+    },
+    {
+      "pmid": "30604022",
+      "title": "The neural basis of the senses of effort, force and heaviness",
+      "authors": "Proske U, Allen TJ",
+      "year": 2019,
+      "type": "review",
+      "used_in": [
+        "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
+      ],
+      "topics_covered": [
+        "force sense",
+        "heaviness",
+        "efference copy",
+        "GTO contribution"
+      ]
+    },
+    {
+      "pmid": "1929231",
+      "title": "Short-latency autogenic inhibition in patients with Parkinsonian rigidity",
+      "authors": "Delwaide PJ et al.",
+      "year": 1991,
+      "type": "original_research",
+      "used_in": [
+        "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
+      ],
+      "topics_covered": [
+        "Parkinson disease",
+        "Ib inhibition",
+        "rigidity",
+        "H-reflex"
+      ]
+    },
+    {
+      "pmid": "7675233",
+      "title": "Reflex effects from Golgi tendon organ (Ib) afferents are unchanged after spinal cord lesions in humans",
+      "authors": "Downes L et al.",
+      "year": 1995,
+      "type": "original_research",
+      "used_in": [
+        "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
+      ],
+      "topics_covered": [
+        "spinal cord injury",
+        "Ib inhibition preserved",
+        "spinal circuit"
+      ]
+    },
+    {
+      "pmid": "41902685",
+      "pmcid": "PMC13082191",
+      "title": "Muscle tendon vibration revisited",
+      "authors": "Amiez N et al.",
+      "year": 2026,
+      "type": "review",
+      "open_access": true,
+      "used_in": [
+        "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition"
+      ],
+      "topics_covered": [
+        "vibration",
+        "GTO Ib recruitment",
+        "Ia-Ib convergence"
       ]
     }
   ],

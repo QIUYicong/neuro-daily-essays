@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 173,
+  "total_articles": 174,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11605,6 +11605,105 @@
         "皮质脊髓束损伤后康复的神经科学：网状脊髓束上调和本体脊髓代偿的临床意义",
         "第七次周综合（运动系统篇）：BANC连接组→CPG→α-MN→NMJ→肌梭→CST的完整回路地图"
       ]
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 174,
+      "title": "肌肉力量的精确传感器：高尔基腱器官如何把张力翻译成脊髓语言，并在步态中切换角色",
+      "slug": "golgi-tendon-organ-ib-autogenic-inhibition",
+      "filename": "2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition.md",
+      "article_type": "regular",
+      "core_question": "高尔基腱器官（GTO）如何通过串联式机械结构精确感知主动收缩产生的力（而非被动长度），其 Ib 传入在静息时产生自身抑制、在步行站立相如何通过脊髓回路切换为兴奋性负荷信号，并与肌梭共同构建力量的主观感知？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "behavior"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界（本体感觉：GTO 力量维度，与肌梭长度维度配对）/ 运动系列：CPG→α-MN→NMJ→肌梭→CST→GTO",
+      "topic_tags": [
+        "Golgi tendon organ",
+        "GTO",
+        "Ib afferent",
+        "autogenic inhibition",
+        "inverse myotatic reflex",
+        "load receptor",
+        "proprioception",
+        "force sense",
+        "muscle spindle comparison",
+        "serial arrangement",
+        "collagen fascicles",
+        "disynaptic inhibition",
+        "stance phase",
+        "swing phase",
+        "CPG modulation",
+        "clasp-knife reflex",
+        "group III afferents",
+        "group IV afferents",
+        "Parkinson disease",
+        "spinal cord injury",
+        "H-reflex",
+        "DSCT",
+        "Jami 1992",
+        "Proske Gandevia",
+        "Dietz Duysens",
+        "Pearson 2004",
+        "neuromechanical tuning",
+        "sense of heaviness",
+        "sense of effort",
+        "efference copy",
+        "spinocerebellar tract",
+        "glycinergic inhibition"
+      ],
+      "main_sources": [
+        "PMID:1626033 (Jami 1992, Physiol Rev - abstract only)",
+        "PMID:23073629 (Proske & Gandevia 2012, Physiol Rev - abstract only)",
+        "PMID:10899663 (Dietz & Duysens 2000, Gait Posture - abstract only)",
+        "PMID:14653157 (Pearson 2004, Prog Brain Res - abstract only)",
+        "PMID:30604022 (Proske & Allen 2019, Exp Brain Res - abstract only)",
+        "PMID:1929231 (Delwaide et al. 1991, Ann Neurol - abstract only)",
+        "PMID:7675233 (Downes et al. 1995, Neurology - abstract only)",
+        "PMID:41902685/PMC13082191 (Amiez et al. 2026, J Physiol - open full text)",
+        "PMID:19581378/PMC2754351 (Proske & Gandevia 2009, J Physiol - open full text)"
+      ],
+      "open_access_sources": [
+        "PMC13082191",
+        "PMC2754351"
+      ],
+      "wiki_pages_created": [
+        "wiki/neurons/golgi-tendon-organ.md",
+        "wiki/concepts/autogenic-inhibition.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/proprioception.md (rev1→rev2): 大幅扩展 GTO 子系统描述，步态 Ib 切换，力量感知，折刀反射修正",
+        "wiki/neurons/muscle-spindle.md (rev1→rev2): 填补 golgi-tendon-organ 悬空引用，更新 source_articles"
+      ],
+      "graph_nodes_added": [
+        "autogenic-inhibition"
+      ],
+      "graph_nodes_existing": [
+        "golgi-tendon-organ（已存在于图谱）"
+      ],
+      "graph_edges_added": 13,
+      "graph_state": "351节点，2004边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-gto-01",
+        "Q-gto-02",
+        "Q-gto-03"
+      ],
+      "next_suggested_topics": [
+        "初级躯体感觉皮层第 3a 区：本体感觉的皮层投射终点（somatosensory area 3a 已建页面，但 GTO Ib 终止在 3a 的细节待深化）",
+        "脊髓小脑束（DSCT/VSCT）：Ib 信号上行至小脑的通路和小脑如何用 Ib 信息更新前馈模型",
+        "第七次周综合（运动系统篇）：CPG→α-MN→NMJ→肌梭→CST→GTO 完整回路地图（下一篇 #175）",
+        "高尔基腱器官与衰老：GTO 衰老动力学与老年步态稳定性（Q-gto-02 的研究前沿）",
+        "运动单元招募与 GTO 采样策略：大小原则和 GTO 负荷感知的整合计算"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-13（真实执行日期）；知识库序号174；9个来源中2篇开放全文（PMC13082191 + PMC2754351）；填补 golgi-tendon-organ 悬空引用（在 muscle-spindle 和 proprioception 中已被引用）；推翻经典'安全阀'范式；完成本体感觉双传感器系统（肌梭+GTO）的知识库建设；图谱+1节点（autogenic-inhibition）+13边（351节点2004边）；下一篇 #175 为运动系统周综合"
     }
   ],
   "layer_coverage_recent": [

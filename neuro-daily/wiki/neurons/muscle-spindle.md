@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-10-10
-updated: 2026-10-10
-revision_count: 1
+updated: 2026-06-13
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, behavior, cognition]
 related: [gamma-motor-neuron, alpha-motor-neuron, piezo2-mechanotransduction, golgi-tendon-organ, proprioception, spinal-cord-cpg, neuromuscular-junction, somatosensory-cortex, cerebellum]
 prerequisites: [action-potential, synaptic-transmission, alpha-motor-neuron]
 opens_questions: [Q-spindle-01, Q-spindle-02, Q-spindle-03]
-source_articles: [2026-10-10-muscle-spindle-proprioception-gamma-motor]
+source_articles: [2026-10-10-muscle-spindle-proprioception-gamma-motor, 2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition]
 key_sources: ["PMID:23073629", "PMID:19581378", "PMID:35430481", "PMID:36561377", "PMID:30095484"]
 ---
 
@@ -129,6 +129,7 @@ Nav1.1/1.6/1.7 放大信号
 ## 修订历史
 
 - 2026-10-10 · 创建 · 基于《感觉会自我校准的尺子》(#172) · 初始置信度：高
+- 2026-06-13 · rev2 · 基于《肌肉力量的精确传感器》(#174) · 填补 golgi-tendon-organ 悬空引用（该节点现已有 wiki 页面）；[[golgi-tendon-organ]] 对比信息已在 [[proprioception]] 中完善；更新 source_articles
 
 ## 来源文章
 
