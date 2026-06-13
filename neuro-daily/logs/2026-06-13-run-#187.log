@@ -1,0 +1,156 @@
+# 运行日志：2026-06-13（真实日期：2026-06-13）
+
+## 基本信息
+
+- **文章编号**：#187
+- **知识库课程日期**：2026-10-11
+- **真实执行日期**：2026-06-13
+- **分支**：main
+- **选题**：当感觉自相矛盾时，大脑如何裁决？——多感觉贝叶斯整合的计算与神经机制
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：total_articles=186（更新前）；last_updated=2026-06-13；last entry=#186小脑分布式可塑性
+- `unresolved_questions.md`：最近新增 Q-cb-06/07/08（#186）、Q-cortstr-01/02（#185）、Q-chunk-01/02（#184）、Q-syn-01/Q-m1-01（#183）、Q-3a-01/02/03/04（#177）等
+- `contested_claims.json`：18 条 open
+- `_graph.json`：367 节点，2124 边（上次更新）
+- **悬空引用（4条）**：aging, cognition, dopamine, parallel-fiber
+- 已存在 wiki 页：amygdala（rev5），fear-conditioning（concepts/），optimal-feedback-control（rev2），bayesian pages均无
+
+---
+
+## 选题决策
+
+**选题依据**：
+1. 缺口驱动（优先级3）：_graph.json 中 `dopamine` 和 `parallel-fiber` 是悬空引用
+   - parallel-fiber 太窄（可在下次填补）
+   - dopamine 已有 dopamine-system.md 等相关页，建根页价值有限
+2. 课程脊柱（优先级6）：#184-#186 完成运动学习三联体，last entry 的 next_suggested_topics 明确建议转向感知理论或情绪章节
+3. **层级考虑**：过去 3 天均在 molecular/synaptic/microcircuit 层级。需切换到 behavior/cognition 层级
+4. 连接性考量：#181（OFC）的卡尔曼滤波器概念需要"感觉输入的可靠性估计"作为前提，贝叶斯多感觉整合填补了这个概念缺口
+
+**最终选题**：贝叶斯多感觉整合（MLE整合 + PPC神经实现 + 因果推断层）
+- 核心问题：当视觉与触觉矛盾时，大脑如何生成最优估计？
+- 层级：behavior + cognition + brain-region（切换成功）
+- 与现有知识库的连接：OFC/Kalman、forward-model、muscle-spindle、predictive-coding、M1-rotational-dynamics
+
+---
+
+## 文献检索
+
+### 搜索词与数据库
+
+| 搜索词 | 数据库 | 结果数 | 采用情况 |
+|--------|--------|--------|----------|
+| Ernst Banks 2002 visual haptic statistically optimal | PubMed | PMID:11807554 ✓ | 核心来源 |
+| Kording Wolpert 2004 Bayesian sensorimotor learning | PubMed | PMID:14724638 ✓ | 核心来源 |
+| Ma WJ probabilistic Bayesian neural 2006 | PubMed | PMID:17057707 ✓ | 核心来源 |
+| Gu Angelaki DeAngelis 2008 neural multisensory heading MSTd | PubMed | PMID:18776893 ✓ | 核心来源 |
+| Angelaki Gu DeAngelis 2009 multisensory review | PubMed | PMID:19616425 ✓ | 核心来源 |
+| Shams Beierholm 2010 causal inference perception | PubMed | PMID:20705502 ✓ | 核心来源 |
+| Helbig Ernst 2007 visual haptic shape optimal | PubMed | PMID:17225091 ✓ | 补充验证 |
+| Wozny Beierholm Shams 2010 probability matching | PubMed | PMID:20700493 ✓ | 反例证据 |
+| multisensory integration Bayesian review 2020-2025 | PubMed | 0结果（搜索词约束太严）| 未采用 |
+| multisensory integration review 2022 2023 2024 | PubMed | 非相关结果 | 未采用 |
+
+### 来源质量与全文状态
+
+| PMID | 全文 | 状态 |
+|------|------|------|
+| 11807554 | 否（Nature，订阅制） | 教科书级经典；摘要+广泛引用 |
+| 14724638 | 否（Nature，订阅制） | 教科书级经典；摘要 |
+| 17057707 | 否（Nat Neurosci，订阅制） | 广泛引用；摘要 |
+| 18776893 | PMC链接存在但reCAPTCHA阻断 | 摘要 |
+| 19616425 | PMC链接存在但reCAPTCHA阻断 | 摘要 |
+| 20705502 | 否（Trends Cogn Sci，订阅制） | 摘要 |
+| 20700493 | 是（PLoS，开放获取） | 开放全文 |
+| 17225091 | 否（Springer，订阅制） | 摘要 |
+
+**说明**：本日主要来源均为订阅制。Ernst & Banks (2002)、Körding & Wolpert (2004)、Ma et al. (2006) 是教科书级经典研究，其核心实验设计和定量结论已被大量综述、教材和引用详细记录，因此摘要+广泛引用的次级知识足以支撑文章陈述。所有此类内容均注明"仅摘要"，未扩展到全文未提及的细节。文章中的定量数据（权重公式、方差组合公式）来自广为人知的MLE理论推导，不依赖某篇特定论文的全文。
+
+---
+
+## 固结步骤（D）
+
+**触及概念清单**：
+- bayesian-multisensory-integration（新建）
+- optimal-feedback-control（修订）
+- predictive-coding（已有页面；仅新增边，未修订内容）
+- forward-model（已有页面；仅新增边，未修订内容）
+- muscle-spindle（已有页面；仅新增边，未修订内容）
+- mst-medial-superior-temporal（已有页面；仅新增边，未修订内容）
+- active-inference（悬空引用，未建页）
+- causal-inference-perception（悬空引用，未建页）
+
+**Wiki操作**：
+- 创建：`wiki/theories/bayesian-multisensory-integration.md`（rev1）
+- 修订：`wiki/concepts/optimal-feedback-control.md`（rev2→rev3）：新增 related+连接节点+修订历史
+
+**矛盾检查**：
+- 无新矛盾。亚最优整合证据（Wozny 2010）与Ernst & Banks（2002）完全最优的差异为边界条件问题（复杂任务/学习早期），已在文章中如实说明。
+- 无 contested_claims 新增。
+
+**成熟度更新**：bayesian-multisensory-integration → established（行为学/神经生理/计算三角验证多次）
+
+---
+
+## 图谱与导航更新（E）
+
+- `_graph.json`：368 节点（+1），2131 边（+7）
+- 新增节点：bayesian-multisensory-integration
+- 新增边：
+  - bayesian-multisensory-integration → optimal-feedback-control（prerequisite-for）
+  - bayesian-multisensory-integration → predictive-coding（related）
+  - bayesian-multisensory-integration → forward-model（supports）
+  - bayesian-multisensory-integration → muscle-spindle（related）
+  - bayesian-multisensory-integration → active-inference（related）[新悬空引用]
+  - mst-medial-superior-temporal → bayesian-multisensory-integration（mechanism-of）
+  - optimal-feedback-control → bayesian-multisensory-integration（related）
+- `wiki/CHANGELOG.md`：已追加今日条目
+- `wiki/index.md`：待更新（本次未更新，属低优先级）
+- 悬空引用变化：dopamine/aging/cognition 保留；parallel-fiber 保留；新增：active-inference、causal-inference-perception
+
+---
+
+## 治理层更新（F）
+
+- `topic_ledger.json`：total_articles=187，新增第168条条目
+- `unresolved_questions.md`：新增 Q-msi-01/02/03
+- `source_registry.json`：新增8条来源，total=797
+- `monthly_synthesis.md`：追加#187摘要行
+- `logs/2026-06-13-run-#187.log`：本文件
+
+---
+
+## 自检（H）
+
+**真实性**：
+- [x] wiki 所有新主张有来源（PMID）标注
+- [x] 订阅制论文标注"未读取全文"；教科书级别内容说明依据广泛引用
+- [x] 区分了事实/模型/推测（PPC理论标注中等置信度；MLE行为结论标注高置信度）
+- [x] 未把动物实验（猕猴MSTd）直接过度推广（文中说明为"猕猴研究"）
+
+**一致性**：
+- [x] 无新矛盾产生
+- [x] OFC修订页 updated/revision_count/修订历史已同步
+- [x] _graph.json 无未记录悬空边（active-inference 和 causal-inference-perception 已在graph中作为to节点；但它们目前没有对应wiki页——这是预期的悬空引用，已在CHANGELOG记录）
+
+**可导航**：
+- [x] CHANGELOG 反映今日变化
+- [x] 新页 related 填写（≥1个）；prerequisites 填写（≥1个）
+- [ ] index.md 未更新（接受此限制；CHANGELOG已记录变化）
+
+**情景层**：
+- [x] 文章/笔记/来源文件创建完成
+- [x] 未修改任何已有文章、笔记、来源、旧日志文件
+- [x] 日志文件创建
+
+---
+
+## Git信息
+
+- **分支**：main
+- **commit hash**：（执行后填写）
+- **push状态**：待推送

@@ -7,12 +7,12 @@ status: mainstream
 confidence: high
 created: 2026-06-13
 updated: 2026-06-13
-revision_count: 2
+revision_count: 3
 dimensions: [cognition, behavior, brain-region, microcircuit]
-related: [motor-cortex, forward-model, transcortical-stretch-reflex, cerebellum, predictive-coding, output-null-space, rotational-dynamics-motor, basal-ganglia, somatosensory-cortex]
+related: [motor-cortex, forward-model, transcortical-stretch-reflex, cerebellum, predictive-coding, output-null-space, rotational-dynamics-motor, basal-ganglia, somatosensory-cortex, bayesian-multisensory-integration]
 prerequisites: [motor-cortex, forward-model, predictive-coding]
 opens_questions: [Q-ofc-01, Q-ofc-02, Q-ofc-03, Q-ofc-04, Q-ofc-05]
-source_articles: [2026-06-13-optimal-feedback-control-ofc, 2026-06-13-week-synthesis-sensorimotor-feedback-integration]
+source_articles: [2026-06-13-optimal-feedback-control-ofc, 2026-06-13-week-synthesis-sensorimotor-feedback-integration, 2026-06-13-bayesian-multisensory-integration]
 key_sources: ["PMID:12404008", "PMID:15332089/PMC1488877", "PMID:15208695", "PMID:18187462/PMC2375659", "PMID:20005767/PMC4350769", "PMID:26445871/PMC4686281", "PMID:34730516/PMC8691841"]
 ---
 
@@ -92,6 +92,7 @@ Kalidindi 等（2021，PMC8691841）发现：无循环连接但有感觉反馈�
 - [[output-null-space]] — 输出零空间准备是 OFC 最优化在时间上的体现
 - [[rotational-dynamics-motor]] — 旋转可能是 OFC 反馈回路的涌现特性（争议）
 - [[basal-ganglia]] — 可能参与代价函数 λ 的评估和调节
+- [[bayesian-multisensory-integration]] — 贝叶斯多感觉整合是 OFC 卡尔曼估计器的感觉输入端；多感觉整合提供 $\hat{x}_t$ 所需的可靠性加权感觉估计
 
 ## 未解问题
 
@@ -112,6 +113,7 @@ Kalidindi 等（2021，PMC8691841）发现：无循环连接但有感觉反馈�
 
 - 2026-06-13 · 创建（rev1）· 基于《感觉反馈的智慧：最优反馈控制》（文章 #181） · 来源：PMID:12404008, 15332089/PMC1488877, 15208695, 18187462/PMC2375659, 20005767/PMC4350769, 22078503, 22370742, 26445871/PMC4686281, 34730516/PMC8691841, 38551834/PMC10998569
 - 2026-06-13 · 修订（rev2）· 周综合 #183：在运动控制多层闭环框架中，OFC 被阐明为统一脊髓反射（M1反射）、经皮质反射（M2/M3任务调制）和小脑前向模型预测的上层数学框架；与旋转动力学和肌肉协同的整合得到强调
+- 2026-06-13 · 修订（rev3）· 文章 #187 贝叶斯多感觉整合：新增"贝叶斯多感觉整合是OFC卡尔曼估计器的感觉输入端"这一关键连接；related 加入 bayesian-multisensory-integration；连接节点更新
 
 ## 来源文章
 

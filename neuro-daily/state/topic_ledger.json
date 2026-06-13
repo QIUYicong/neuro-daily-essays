@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 186,
+  "total_articles": 187,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12379,17 +12379,77 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-13；知识库序号186；运动学习三联体完结篇（小脑）；核心：分布式可塑性（PF-PC LTD + MLI LTP + DCN LTP）；激发性核橄榄通路（Wang 2023）；model-free implicit mapping（Nguyen & Person 2025）；新建 MLI wiki 页；图谱 367 节点 2124 边"
+    },
+    {
+      "article_number": 187,
+      "date": "2026-06-13",
+      "title": "当感觉自相矛盾时，大脑如何裁决？——多感觉贝叶斯整合的计算与神经机制",
+      "slug": "bayesian-multisensory-integration",
+      "filename": "2026-06-13-bayesian-multisensory-integration.md",
+      "article_type": "regular",
+      "core_question": "当视觉与触觉、或视觉与前庭觉对同一事件提供矛盾信息时，大脑如何在毫秒内生成最优感知估计？",
+      "layer": [
+        "behavior",
+        "cognition",
+        "brain-region"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界 → 多感觉整合；接续运动学习三联体（#184-#186）",
+      "topic_tags": [
+        "bayesian-integration",
+        "MLE",
+        "reliability-weighting",
+        "multisensory",
+        "Ernst-Banks-2002",
+        "Kording-Wolpert-2004",
+        "probabilistic-population-codes",
+        "PPC",
+        "MSTd",
+        "Gu-Angelaki-2008",
+        "causal-inference",
+        "Shams-Beierholm-2010"
+      ],
+      "main_sources": [
+        "PMID:11807554（Ernst & Banks, Nature, 2002）",
+        "PMID:14724638（Körding & Wolpert, Nature, 2004）",
+        "PMID:17057707（Ma et al., Nat Neurosci, 2006）",
+        "PMID:18776893（Gu et al., Nat Neurosci, 2008）",
+        "PMID:19616425（Angelaki et al., Curr Opin Neurobiol, 2009）",
+        "PMID:20705502（Shams & Beierholm, Trends Cogn Sci, 2010）",
+        "PMID:20700493（Wozny et al., PLoS Comput Biol, 2010）"
+      ],
+      "wiki_pages_created": [
+        "wiki/theories/bayesian-multisensory-integration.md（rev1）"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/optimal-feedback-control.md（rev2→rev3）"
+      ],
+      "graph_nodes_added": [
+        "bayesian-multisensory-integration"
+      ],
+      "graph_edges_added": 7,
+      "graph_state": "368 节点，2131 边",
+      "unresolved_questions": [
+        "Q-msi-01",
+        "Q-msi-02",
+        "Q-msi-03"
+      ],
+      "next_suggested_topics": [
+        "主动推断（Active Inference）——Friston自由能框架",
+        "前庭系统神经回路（填补多感觉整合感觉端）",
+        "工作记忆的神经基础（认知控制章节开篇）"
+      ],
+      "mode": "long_term_curriculum"
     }
   ],
   "layer_coverage_recent": [
-    "molecular",
     "cellular",
     "synaptic",
     "brain-region",
     "whole-brain-network",
     "cognition",
     "disease",
-    "methods"
+    "methods",
+    "behavior/cognition/brain-region"
   ],
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",
   "layer_tracking": {

@@ -12935,9 +12935,105 @@
         "chunking hypothesis origin"
       ],
       "full_text": false
+    },
+    {
+      "pmid": "11807554",
+      "title": "Humans integrate visual and haptic information in a statistically optimal fashion",
+      "authors": "Ernst MO, Banks MS",
+      "year": 2002,
+      "journal": "Nature",
+      "used_in": [
+        "#187"
+      ],
+      "aspect": "MLE可靠性加权；视觉-触觉整合",
+      "open_access": false
+    },
+    {
+      "pmid": "14724638",
+      "title": "Bayesian integration in sensorimotor learning",
+      "authors": "Körding KP, Wolpert DM",
+      "year": 2004,
+      "journal": "Nature",
+      "used_in": [
+        "#187"
+      ],
+      "aspect": "感觉运动学习中的贝叶斯先验整合",
+      "open_access": false
+    },
+    {
+      "pmid": "17057707",
+      "title": "Bayesian inference with probabilistic population codes",
+      "authors": "Ma WJ, Beck JM, Latham PE, Pouget A",
+      "year": 2006,
+      "journal": "Nature Neuroscience",
+      "used_in": [
+        "#187"
+      ],
+      "aspect": "概率群体编码PPC；线性叠加=贝叶斯最优",
+      "open_access": false
+    },
+    {
+      "pmid": "18776893",
+      "title": "Neural correlates of multisensory cue integration in macaque MSTd",
+      "authors": "Gu Y, Angelaki DE, DeAngelis GC",
+      "year": 2008,
+      "journal": "Nature Neuroscience",
+      "used_in": [
+        "#187"
+      ],
+      "aspect": "MSTd一致性神经元；视觉-前庭整合",
+      "open_access": true
+    },
+    {
+      "pmid": "19616425",
+      "title": "Multisensory integration: psychophysics, neurophysiology, and computation",
+      "authors": "Angelaki DE, Gu Y, DeAngelis GC",
+      "year": 2009,
+      "journal": "Current Opinion in Neurobiology",
+      "used_in": [
+        "#187"
+      ],
+      "aspect": "多感觉整合综述",
+      "open_access": true
+    },
+    {
+      "pmid": "20705502",
+      "title": "Causal inference in perception",
+      "authors": "Shams L, Beierholm UR",
+      "year": 2010,
+      "journal": "Trends in Cognitive Sciences",
+      "used_in": [
+        "#187"
+      ],
+      "aspect": "感知中的因果推断；两层贝叶斯框架",
+      "open_access": false
+    },
+    {
+      "pmid": "20700493",
+      "title": "Probability matching as a computational strategy used in perception",
+      "authors": "Wozny DR, Beierholm UR, Shams L",
+      "year": 2010,
+      "journal": "PLoS Computational Biology",
+      "used_in": [
+        "#187"
+      ],
+      "aspect": "亚最优整合证据",
+      "open_access": true
+    },
+    {
+      "pmid": "17225091",
+      "title": "Optimal integration of shape information from vision and touch",
+      "authors": "Helbig HB, Ernst MO",
+      "year": 2007,
+      "journal": "Experimental Brain Research",
+      "used_in": [
+        "#187"
+      ],
+      "aspect": "MLE扩展验证（形状维度）",
+      "open_access": false
     }
   ],
-  "total_sources": 733,
+  "total_sources": 797,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

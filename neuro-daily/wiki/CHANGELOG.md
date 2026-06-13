@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-06-13（文章 #187：当感觉自相矛盾时，大脑如何裁决？——多感觉贝叶斯整合）
+
+**创建新页**：
+- `wiki/theories/bayesian-multisensory-integration.md`（rev1）：贝叶斯多感觉整合——MLE可靠性加权（Ernst & Banks 2002）；感觉运动学习贝叶斯先验（Körding & Wolpert 2004）；概率群体编码PPC（Ma et al. 2006）；MSTd一致性神经元（Gu et al. 2008）；因果推断框架（Shams & Beierholm 2010）；status=established, confidence=high
+
+**修订页面**：
+- `wiki/concepts/optimal-feedback-control.md`（rev2→rev3）：新增"贝叶斯多感觉整合是OFC卡尔曼估计器的感觉输入端"这一关键连接；related 加入 bayesian-multisensory-integration；连接节点和修订历史更新
+
+**图谱变更**：368 节点（+1：bayesian-multisensory-integration），2131 条边（+7：bayesian-multisensory-integration 与 optimal-feedback-control/predictive-coding/forward-model/muscle-spindle/active-inference/mst-medial-superior-temporal/optimal-feedback-control 的新连接）
+
+**新增未解问题**：Q-msi-01（vmPFC在因果推断P(C=1)中的角色）；Q-msi-02（PPC理论需Neuropixels直接验证）；Q-msi-03（发育轨迹：婴儿何时具备MLE整合）
+
+**登记矛盾**：无（亚最优整合证据Wozny2010为边界条件差异，非根本矛盾；如实在文章中说明）
+
+**新增悬空引用**：causal-inference-perception（因果推断专页待建）；active-inference（主动推断专页待建）
+
+---
+
 ## 2026-06-13（文章 #186：小脑运动学习的分布式革命——PF LTD 只是冰山一角）
 
 **创建新页**：

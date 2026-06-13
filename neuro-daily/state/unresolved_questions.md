@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-13 新增（来自"多感觉贝叶斯整合" #187）
+
+### Q-msi-01（高优先级）：vmPFC在多感觉因果推断中的角色
+
+- **关联 wiki**：[[bayesian-multisensory-integration]]、[[prefrontal-cortex]]
+- **来源文章**：2026-06-13-bayesian-multisensory-integration
+- **问题**：Shams-Beierholm框架提出大脑计算P(C=1)来决定是否整合多感觉信号，但其神经基础几乎未知。腹内侧PFC（vmPFC）已知编码主观价值和置信度——是否同时参与因果推断P(C=1)的计算？实验思路：TMS干扰vmPFC是否改变橡皮手错觉的诱导阈值（需要更大的视觉-触觉时空一致度才能产生错觉）？若vmPFC参与，则感知中的因果推断与决策中的置信度计算共享神经基质，这将统一感知和认知中的"贝叶斯推断"。颞上沟（STS）和顶内沟（IPS）也是候选区域，但vmPFC是最重要的未被检验的候选。
+
+### Q-msi-02（中优先级）：概率群体编码（PPC）的直接神经生理验证
+
+- **关联 wiki**：[[bayesian-multisensory-integration]]
+- **来源文章**：2026-06-13-bayesian-multisensory-integration
+- **问题**：Ma et al. (2006) PPC理论是计算层面的预测，有间接行为学证据支持，但缺乏直接细胞外单神经元或群体活动的实验验证：V1/MT/MSTd神经元的群体活动是否以PPC编码方式（活动模式 = 概率分布）表征感觉不确定性？具体地说：当感觉噪声增大，对应神经群体的活动宽度（population tuning curve width）是否系统性增大（反映更大的不确定性）？这需要大型多电极阵列（Neuropixels）+ 精确的感觉噪声控制实验。若验证，将直接证明皮层实现了PPC编码，线性叠加即贝叶斯推断。
+
+### Q-msi-03（中优先级）：多感觉MLE整合能力的发育轨迹
+
+- **关联 wiki**：[[bayesian-multisensory-integration]]、[[critical-period]]
+- **来源文章**：2026-06-13-bayesian-multisensory-integration
+- **问题**：成人精确MLE整合依赖精确的感觉可靠性内部模型（需要经验学习建立）。婴儿的MLE整合能力发育时间线基本未知：（a）新生儿是否有任何跨模态整合能力？（b）MLE整合是否需要特定的感觉运动经验积累（类似关键期）？（c）先天性视觉障碍经矫正后（Pawan Sinha实验室的Project Prakash数据），视觉-触觉整合恢复的时间轨迹能说明什么？若MLE整合需要关键期，则感觉整合紊乱（如自闭症中报告的多感觉整合异常）可能与早期发育期的感觉经验关键期有关。
+
+---
+
 ## 2026-06-13 新增（来自"学习写进突触：皮质纹状体 D1/D2 二分可塑性" #185）
 
 ### Q-cortstr-01（高优先级）：清醒行为动物中 eCB-LTD 的自然诱导条件

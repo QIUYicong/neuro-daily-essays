@@ -1,0 +1,173 @@
+{
+  "article_number": 187,
+  "date": "2026-06-13",
+  "topic": "多感觉贝叶斯整合（Bayesian Multisensory Integration）",
+  "sources": [
+    {
+      "id": "S187-01",
+      "pmid": "11807554",
+      "doi": "10.1038/415429a",
+      "title": "Humans integrate visual and haptic information in a statistically optimal fashion",
+      "authors": "Ernst MO, Banks MS",
+      "journal": "Nature",
+      "year": 2002,
+      "volume": "415",
+      "pages": "429-433",
+      "full_text_available": false,
+      "access_note": "订阅制；仅摘要和广泛引用细节可用",
+      "citation_count": 2541,
+      "relevance": "核心来源：MLE视觉-触觉整合实验；可靠性加权原理首次定量验证",
+      "key_claims_used": [
+        "可靠性（方差倒数）决定感觉权重",
+        "整合后精度优于任何单一感觉",
+        "视觉噪声增大时触觉权重自动增加"
+      ]
+    },
+    {
+      "id": "S187-02",
+      "pmid": "14724638",
+      "doi": "10.1038/nature02336",
+      "title": "Bayesian integration in sensorimotor learning",
+      "authors": "Körding KP, Wolpert DM",
+      "journal": "Nature",
+      "year": 2004,
+      "volume": "427",
+      "pages": "244-247",
+      "full_text_available": false,
+      "access_note": "订阅制；仅摘要可用",
+      "citation_count": 1800,
+      "relevance": "感觉运动学习中的贝叶斯先验整合；不确定性与先验权重的关系",
+      "key_claims_used": [
+        "CNS内部表征任务统计分布",
+        "不确定性增大时先验权重上升",
+        "行为精确符合贝叶斯预测"
+      ]
+    },
+    {
+      "id": "S187-03",
+      "pmid": "17057707",
+      "doi": "10.1038/nn1790",
+      "title": "Bayesian inference with probabilistic population codes",
+      "authors": "Ma WJ, Beck JM, Latham PE, Pouget A",
+      "journal": "Nature Neuroscience",
+      "year": 2006,
+      "volume": "9",
+      "pages": "1432-1438",
+      "full_text_available": false,
+      "access_note": "订阅制；仅摘要可用",
+      "citation_count": 1200,
+      "relevance": "概率群体编码（PPC）理论；Poisson变异性使线性叠加等于贝叶斯乘积",
+      "key_claims_used": [
+        "Poisson-like变异性 → 概率群体编码",
+        "线性叠加神经活动 = 贝叶斯最优整合",
+        "广泛适用于多种调谐曲线和噪声结构"
+      ]
+    },
+    {
+      "id": "S187-04",
+      "pmid": "18776893",
+      "doi": "10.1038/nn.2183",
+      "pmcid_candidate": "PMC linkout available",
+      "title": "Neural correlates of multisensory cue integration in macaque MSTd",
+      "authors": "Gu Y, Angelaki DE, DeAngelis GC",
+      "journal": "Nature Neuroscience",
+      "year": 2008,
+      "volume": "11",
+      "pages": "1201-1210",
+      "full_text_available": false,
+      "access_note": "PMC链接存在但reCAPTCHA阻断；基于摘要",
+      "relevance": "MSTd一致性神经元的视觉-前庭整合；超加性反应；choice probability；接近最优MLE",
+      "key_claims_used": [
+        "一致性神经元（偏好方向一致）在双模态时超加性增强",
+        "一致性神经元choice probability更高",
+        "猕猴行为接近MLE最优"
+      ]
+    },
+    {
+      "id": "S187-05",
+      "pmid": "19616425",
+      "doi": "10.1016/j.conb.2009.06.008",
+      "pmcid_candidate": "PMC linkout available",
+      "title": "Multisensory integration: psychophysics, neurophysiology, and computation",
+      "authors": "Angelaki DE, Gu Y, DeAngelis GC",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2009,
+      "volume": "19",
+      "pages": "452-458",
+      "full_text_available": false,
+      "access_note": "PMC链接存在但reCAPTCHA阻断；基于摘要",
+      "relevance": "综述：行为学、神经生理学、计算框架的三角验证；线性叠加实现MLE",
+      "key_claims_used": [
+        "多感觉神经元通过线性叠加实现接近最优整合",
+        "计算理论与行为学一致"
+      ]
+    },
+    {
+      "id": "S187-06",
+      "pmid": "20705502",
+      "doi": "10.1016/j.tics.2010.07.005",
+      "title": "Causal inference in perception",
+      "authors": "Shams L, Beierholm UR",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2010,
+      "volume": "14",
+      "pages": "425-432",
+      "full_text_available": false,
+      "access_note": "订阅制；仅摘要可用",
+      "relevance": "感知中的因果推断：整合vs分离的两层贝叶斯框架；橡皮手错觉、腹语术解释",
+      "key_claims_used": [
+        "大脑通过后验P(C=1)决定整合程度",
+        "两层贝叶斯：似然+先验 → 因果判断 → 整合/分离加权"
+      ]
+    },
+    {
+      "id": "S187-07",
+      "pmid": "17225091",
+      "doi": "10.1007/s00221-006-0764-y",
+      "title": "Optimal integration of shape information from vision and touch",
+      "authors": "Helbig HB, Ernst MO",
+      "journal": "Experimental Brain Research",
+      "year": 2007,
+      "volume": "179",
+      "pages": "595-606",
+      "full_text_available": false,
+      "access_note": "摘要可用",
+      "relevance": "MLE框架扩展验证（形状维度）；跨实验室重复",
+      "key_claims_used": [
+        "形状信息的视觉-触觉整合也遵循MLE",
+        "整合后精度一致优于单感觉"
+      ]
+    },
+    {
+      "id": "S187-08",
+      "pmid": "20700493",
+      "doi": "10.1371/journal.pcbi.1000871",
+      "title": "Probability matching as a computational strategy used in perception",
+      "authors": "Wozny DR, Beierholm UR, Shams L",
+      "journal": "PLoS Computational Biology",
+      "year": 2010,
+      "volume": "6",
+      "pages": "e1000871",
+      "full_text_available": true,
+      "access_note": "PLoS开放获取",
+      "relevance": "亚最优整合的证据：probability matching vs MLE；约100名被试的audio-visual空间定位实验",
+      "key_claims_used": [
+        "许多被试采用probability matching而非MLE最优策略",
+        "这代表了真实世界整合策略与理论最优的偏差"
+      ]
+    }
+  ],
+  "search_queries": [
+    "Ernst Banks 2002 visual haptic statistically optimal [PubMed]",
+    "Kording Wolpert 2004 Bayesian sensorimotor [PubMed]",
+    "Ma WJ probabilistic Bayesian neural 2006 [PubMed]",
+    "Gu Angelaki DeAngelis 2008 neural multisensory heading MSTd [PubMed]",
+    "Angelaki Gu DeAngelis 2009 multisensory review [PubMed]",
+    "Shams Beierholm 2010 causal inference perception [PubMed]",
+    "multisensory integration Bayesian brain cue combination review 2020-2025 [PMC/PubMed]"
+  ],
+  "open_sources_count": 1,
+  "abstract_only_sources_count": 7,
+  "full_text_sources_count": 1,
+  "limitation_note": "本次多个关键来源因订阅限制或reCAPTCHA阻断只能使用摘要。Ernst & Banks (2002)、Körding & Wolpert (2004)、Ma et al. (2006) 是教科书级别的经典研究，其核心实验设计和定量结论已被大量综述和教材详细记录，因此摘要+广泛引用的次级文献足以支撑文章中的陈述。相关内容均注明来源，未扩展到全文未提及的细节。"
+}

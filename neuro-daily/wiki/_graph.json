@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "updated": "2026-06-13",
-  "node_count": 362,
-  "edge_count": 2078,
+  "node_count": 368,
+  "edge_count": 2131,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3320,6 +3320,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/molecular-layer-interneurons.md"
+    },
+    {
+      "id": "bayesian-multisensory-integration",
+      "title": "贝叶斯多感觉整合",
+      "domain": "theories",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/theories/bayesian-multisensory-integration.md"
     }
   ],
   "edges": [
@@ -14553,6 +14562,41 @@
       "to": "inferior-olive",
       "type": "regulates",
       "note": "DCN 通过激发性（谷氨酸能顶核→IO）和抑制性双路径调控 IO（Wang 2023，PMID:37474638）"
+    },
+    {
+      "from": "bayesian-multisensory-integration",
+      "to": "optimal-feedback-control",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "bayesian-multisensory-integration",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "bayesian-multisensory-integration",
+      "to": "forward-model",
+      "type": "supports"
+    },
+    {
+      "from": "bayesian-multisensory-integration",
+      "to": "muscle-spindle",
+      "type": "related"
+    },
+    {
+      "from": "bayesian-multisensory-integration",
+      "to": "active-inference",
+      "type": "related"
+    },
+    {
+      "from": "mst-medial-superior-temporal",
+      "to": "bayesian-multisensory-integration",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "optimal-feedback-control",
+      "to": "bayesian-multisensory-integration",
+      "type": "related"
     }
   ],
   "dangling_references": [
