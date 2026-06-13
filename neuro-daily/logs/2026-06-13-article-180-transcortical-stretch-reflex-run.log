@@ -1,0 +1,100 @@
+# 运行日志 — 2026-06-13 — 文章 #180 — 长潜伏期牵张反射（M2/M3）
+
+## 元信息
+
+- 日期（UTC+8）：2026-06-13
+- 文章编号：#180
+- 运行状态：完成
+- 主题：长潜伏期牵张反射（M2/M3）——经皮质反射弧
+
+---
+
+## 检索过程
+
+### 搜索策略
+
+- PubMed ESearch：`transcortical stretch reflex long latency M2 motor cortex`
+- PubMed ESearch：`Pruszynski JA Scott SH long latency`
+- PubMed ESearch：`long latency stretch reflex transcortical review`
+- WebSearch：确认Pruszynski & Scott 2012 Exp Brain Res PMID:22370742
+- WebSearch：PMC open access版本确认（PMC4974074, PMC6608123, PMC2375659等）
+- PMC全文获取：PMC1309044, PMC2231172, PMC4974074, PMC6608123, PMC2375659, PMC3674210, PMC4164001, PMC4686281
+
+### 候选来源清单
+
+| PMID | 采用/排除 | 原因 |
+|------|---------|------|
+| PMID:957257 (Marsden 1976) | 采用 | 开放全文，历史奠基，直接相关 |
+| PMID:9729635 (Petersen 1998) | 采用 | 开放全文，TMS直接证明经皮质通路 |
+| PMID:21964335 (Pruszynski 2011, Nature) | 采用 | 开放全文，M1多关节整合 |
+| PMID:22370742 (Pruszynski & Scott 2012) | 采用（摘要） | 关键综述，无开放全文 |
+| PMID:24672006 (Pruszynski 2014) | 采用 | 开放全文，M1目标依赖调制 |
+| PMID:18356051 (Kurtzer 2008) | 采用（摘要） | 内部模型概念，无开放全文 |
+| PMID:18187462 (Scott 2008) | 采用 | 开放全文，OFC框架综述 |
+| PMID:23453250 (Trumbower 2013) | 采用 | 开放全文，中风临床证据 |
+| PMID:25309359 (Pruszynski 2014, Front Integr) | 采用 | 开放全文，最新综述 |
+
+---
+
+## 选题过程
+
+- 突破追踪：无近7天重大新论文
+- 悬空引用：仅`aging`和`cognition`，与今日选题不直接相关
+- 上篇建议：motor learning, transcortical reflexes, spasticity, H-reflex conditioning
+- 决策：选择"长潜伏期牵张反射（M2/M3）"作为#179（单突触牵张反射）的自然延续
+- 连接价值：将#172→#177→#173→#178→#179→#180串成完整感觉-运动控制系统叙事
+
+---
+
+## 文章信息
+
+- 文件：`articles/2026-06-13-transcortical-stretch-reflex-long-latency.md`
+- 笔记：`notes/2026-06-13-transcortical-stretch-reflex-reading-notes.md`
+- 来源：`sources/2026-06-13-transcortical-stretch-reflex-sources.json`
+- 字数：约4800字
+- 开放全文来源：7/9（78%）
+
+---
+
+## 固结结果
+
+### 新建 wiki 页面（1页）
+
+- `wiki/circuits/transcortical-stretch-reflex.md`（Rev1）
+
+### 修订 wiki 页面（2页）
+
+- `wiki/circuits/stretch-reflex.md`（Rev1→Rev2）
+- `wiki/systems/somatosensory-cortex-3a.md`（Rev1→Rev2）
+
+### 图谱更新
+
+- 新节点：transcortical-stretch-reflex, optimal-feedback-control（新增2）
+- 新增边：8条
+- 最终：362节点，2078边
+
+### 矛盾处理
+
+- 无新矛盾登记；M2通路（CST vs RST）分歧记入Q-llr-01
+
+### 新增未解问题
+
+- Q-llr-01（高）：M2成分CST vs RST相对贡献
+- Q-llr-02（中）：运动准备预设M1神经元机制
+- Q-llr-03（中）：中风康复M2/M3训练方向
+
+---
+
+## 失败与限制
+
+1. PMID:22370742：无开放全文
+2. PMID:18356051：无开放全文
+3. 已在文章中明确标注"摘要（未读取全文）"
+
+---
+
+## Git 操作
+
+- 分支：main
+- Push状态：[待填写]
+- Commit hash：[待填写]

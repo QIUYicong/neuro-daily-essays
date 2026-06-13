@@ -1,0 +1,118 @@
+{
+  "date": "2026-06-13",
+  "article": "2026-06-13-transcortical-stretch-reflex-long-latency.md",
+  "article_number": 180,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "957257",
+      "pmcid": "PMC1309044",
+      "title": "Stretch reflex and servo action in a variety of human muscles",
+      "authors": "Marsden CD, Merton PA, Morton HB",
+      "year": 1976,
+      "journal": "Journal of Physiology",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1309044/",
+      "notes": "历史奠基：经皮质假说"
+    },
+    {
+      "id": "S2",
+      "pmid": "9729635",
+      "pmcid": "PMC2231172",
+      "title": "Evidence that a transcortical pathway contributes to stretch reflexes in the tibialis anterior muscle in man",
+      "authors": "Petersen N, Christensen LO, Morita H, Sinkjaer T, Nielsen J",
+      "year": 1998,
+      "journal": "Journal of Physiology",
+      "open_access": true,
+      "full_text_read": true,
+      "notes": "TMS超线性叠加直接证明M3经皮质"
+    },
+    {
+      "id": "S3",
+      "pmid": "21964335",
+      "pmcid": "PMC4974074",
+      "title": "Primary motor cortex underlies multi-joint integration for fast feedback control",
+      "authors": "Pruszynski JA et al.",
+      "year": 2011,
+      "journal": "Nature",
+      "open_access": true,
+      "full_text_read": true,
+      "notes": "M1多关节整合；猴单神经元+人类TMS"
+    },
+    {
+      "id": "S4",
+      "pmid": "22370742",
+      "pmcid": null,
+      "title": "Optimal feedback control and the long-latency stretch response",
+      "authors": "Pruszynski JA, Scott SH",
+      "year": 2012,
+      "journal": "Experimental Brain Research",
+      "open_access": false,
+      "full_text_read": false,
+      "notes": "OFC框架综述；摘要only"
+    },
+    {
+      "id": "S5",
+      "pmid": "24672006",
+      "pmcid": "PMC6608123",
+      "title": "Goal-dependent modulation of fast feedback responses in primary motor cortex",
+      "authors": "Pruszynski JA, Omrani M, Scott SH",
+      "year": 2014,
+      "journal": "Journal of Neuroscience",
+      "open_access": true,
+      "full_text_read": true,
+      "notes": "目标依赖调制；M1 35ms早期分化"
+    },
+    {
+      "id": "S6",
+      "pmid": "18356051",
+      "pmcid": null,
+      "title": "Long-latency reflexes of the human arm reflect an internal model of limb dynamics",
+      "authors": "Kurtzer IL, Pruszynski JA, Scott SH",
+      "year": 2008,
+      "journal": "Current Biology",
+      "open_access": false,
+      "full_text_read": false,
+      "notes": "内部模型多关节整合；摘要only"
+    },
+    {
+      "id": "S7",
+      "pmid": "18187462",
+      "pmcid": "PMC2375659",
+      "title": "Inconvenient truths about neural processing in primary motor cortex",
+      "authors": "Scott SH",
+      "year": 2008,
+      "journal": "Journal of Physiology",
+      "open_access": true,
+      "full_text_read": true,
+      "notes": "OFC框架；反射vs随意运动统一"
+    },
+    {
+      "id": "S8",
+      "pmid": "23453250",
+      "pmcid": "PMC3674210",
+      "title": "Bilateral impairments in task-dependent modulation of the long-latency stretch reflex following stroke",
+      "authors": "Trumbower RD et al.",
+      "year": 2013,
+      "journal": "Clinical Neurophysiology",
+      "open_access": true,
+      "full_text_read": true,
+      "notes": "中风后M2/M3双侧受损临床证据"
+    },
+    {
+      "id": "S9",
+      "pmid": "25309359",
+      "pmcid": "PMC4164001",
+      "title": "Primary motor cortex and fast feedback responses to mechanical perturbations: a primer",
+      "authors": "Pruszynski JA",
+      "year": 2014,
+      "journal": "Frontiers in Integrative Neuroscience",
+      "open_access": true,
+      "full_text_read": true,
+      "notes": "最新综述；多回路贡献"
+    }
+  ],
+  "open_full_text_count": 7,
+  "abstract_only_count": 2
+}
