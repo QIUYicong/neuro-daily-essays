@@ -7,13 +7,13 @@ status: established
 confidence: high
 created: 2026-06-07
 updated: 2026-08-29
-revision_count: 3
+revision_count: 4
 dimensions: [molecular, synaptic, cellular, microcircuit, behavior, cognition]
-related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, eligibility-trace, stdp, btsp, backpropagating-action-potential, anterior-cingulate-cortex]
+related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, eligibility-trace, stdp, btsp, backpropagating-action-potential, anterior-cingulate-cortex, corticostriatal-plasticity, endocannabinoid-ltd, habit-formation]
 prerequisites: [hebbian-learning, ltp, synaptic-transmission, nmda-receptor, stdp]
 opens_questions: [Q-three-factor-time-window, Q-stc-molecular-tag]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-08-28-three-factor-learning-rule-eligibility-traces]
-key_sources: ["PMID:12371508", "PMID:9054347", "PMID:9020359", "PMID:7708662", "PMID:30108488", "PMID:25258080", "PMID:28883072", "PMID:17220510"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-08-28-three-factor-learning-rule-eligibility-traces, 2026-06-13-corticostriatal-ltp-ltd]
+key_sources: ["PMID:12371508", "PMID:9054347", "PMID:9020359", "PMID:7708662", "PMID:30108488", "PMID:25258080", "PMID:28883072", "PMID:17220510", "PMID:18687967", "PMID:18322089", "PMID:41057437"]
 ---
 
 # 三因素学习规则 (Three-Factor Learning Rule)
@@ -111,6 +111,9 @@ DA 抑制（δ < 0）时，通过 D2 受体 → Gi → cAMP↓ → PP2B/PP1 级�
 - [[ampa-receptor]] — 三因素 LTP 最终通过 AMPAR 插入/磷酸化表达
 - [[engram-cells]] — CREB 竞争性分配（印迹细胞选择）可能受 DA 三因素规则调制
 - [[competition-selection-principle]] — 三因素规则在细胞层面实现了竞争性突触遴选
+- [[corticostriatal-plasticity]] — **三因素规则在基底神经节的生物学实例**：皮质(前) × MSN 去极化(后) × 多巴胺(第三因子) → D1-MSN LTP 或 D2-MSN eCB-LTD
+- [[endocannabinoid-ltd]] — eCB-LTD 是三因素规则负向版本的突触前实现（CB1R 逆行抑制）
+- [[habit-formation]] — 三因素规则在 DLS 的积累是习惯 S-R 联结固化的分子基础
 
 ## 未解问题
 
@@ -122,8 +125,10 @@ DA 抑制（δ < 0）时，通过 D2 受体 → Gi → cAMP↓ → PP2B/PP1 级�
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 填补 [[hebbian-learning]] 页面的悬空引用 [[three-factor-learning-rule]] · 初始置信度：高
 - 2026-08-28 · 重大修订 · 基于《信用的时间归属》一文（#128）· 核心升级：引入资格迹（e_ij）数学框架（Gerstner 2018，PMID:30108488）；更新分子机制为 PDE10A 时钟（Yagishita 2014，PMID:25258080）；整合 BTSP 为极端案例（Bittner 2017，PMID:28883072）；新增与 eligibility-trace / stdp / btsp 的连接；status 从 mainstream → established（多系统实验证据）；confidence 保持 high
 - 2026-08-29 · 修订 · 基于《大脑的成本-效益计算器》(#129，ACC) · 新增 related: anterior-cingulate-cortex；三因素规则（突触 DA）与 dACC-ERN（系统 DA）使用同一多巴胺通路，在不同时间-空间尺度上并行运作
+- 2026-06-13 · 修订（rev3→rev4）· 基于《学习写进突触》(文章#185) · 新增：皮质纹状体可塑性作为三因素规则在基底神经节的核心实例；乙酰胆碱暂停窗作为时间门控机制（González-Redondo 2025, PMID:41057437）；related 新增 corticostriatal-plasticity, endocannabinoid-ltd, habit-formation
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-08-28-three-factor-learning-rule-eligibility-traces]]
+- [[2026-06-13-corticostriatal-ltp-ltd]]

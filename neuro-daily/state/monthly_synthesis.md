@@ -5,13 +5,15 @@
 ## 2026年6月（进行中）
 
 *本月截至日期：2026-06-13*
-*本月新增文章：#170–#184（含两次周综合）；共 15 篇。*
+*本月新增文章：#170–#185（含两次周综合）；共 16 篇。*
 
 *6-13 #180 长潜伏期牵张反射M2/M3（经皮质反射弧）：三成分时序（M1~25ms/M2~50–75ms/M3~75–120ms）；Marsden 1976奠基（PMC1309044）；Petersen 1998 TMS超线性叠加直接证明M3经皮质（PMC2231172）；Pruszynski 2011 Nature猴M1多关节整合+人类TMS（PMC4974074）；M1目标依赖调制35ms出现（Pruszynski 2014，PMC6608123）；Kurtzer 2008内部模型多关节交互力矩；OFC框架（Scott 2008，PMC2375659）；中风后M2/M3双侧受损（Trumbower 2013，PMC3674210）；新建1页（transcortical-stretch-reflex），修订2页（stretch-reflex rev2, somatosensory-cortex-3a rev2），图谱362节点2078边；Q-llr-01/02/03新增。感觉运动系统弧完整：#172肌梭→#177三区→#173CST→#179M1反射→#180M2/M3经皮质。*
 
 *6-12 #172 肌梭与本体感觉：核袋1/2/链纤维三类型；PIEZO2 为 Ia 传入机械换能分子（Wilkinson 2022 PMC9815952）；谷氨酸囊泡维持静态相；Kv1.1/1.2 区分 Ia vs II 型动态；γd→bag1/γs→bag2+chain；α-γ 协同激活防肌梭沉默；Err3/Gfrα1 分子标记（Wilkinson 2021 PMC9770680）；Ia 单突触牵张反射；DCML→S1 3a 区意识通路 + 脊髓小脑束无意识通路；传出副本贡献（Proske & Gandevia 2009 PMC2754351）；新建4页（muscle-spindle, gamma-motor-neuron, piezo2-mechanotransduction, proprioception），修订1页（alpha-motor-neuron rev3），图谱348节点1978边；Q-spindle-01/02/03 新增。*
 
 *6-13 #176 脊髓小脑束：四条通路（DSCT/VSCT/CCT/RSCT）解剖；核心范式转变：70% DSCT 神经元受脊髓 CPG 直接驱动（无外周输入时，Stecina 2013 PMC3853486）——感觉管道升级为感觉+运动预测混合信使；VSCT 全部 CPG 驱动；颗粒层稀疏编码（Geborek 2013）；LRN 系统级整合；Friedreich 共济失调 fMRI 疾病窗口；新建 2 页（spinocerebellar-tracts, clarkes-nucleus），修订 3 页（cerebellum rev5, forward-model rev3, index）；图谱 354 节点 2038 边；Q-sct-01/02/03/04 新增。*
+
+*6-13 #185 皮质纹状体 D1/D2 二分可塑性：Shen 2008（PMID:18687967）建立二分法——正向 DA 下 D1-MSN 获 LTP（PKA→AMPAR 插入）+ D2-MSN 获 eCB-LTD（2-AG→CB1R 逆行→谷氨酸释放↓）；Gerdeman 2002（PMID:11976704）奠基：CB1R 拮抗剂完全阻断纹状体 LTD；Pawlak & Kerr 2008（PMID:18322089）：STDP 前-后=LTP（D1/D5R 依赖），后-前=LTD（eCB 依赖）；Vignoud 2024（PMID:38724614，开放）：反 Hebbian STDP 驱动序列学习计算模型；González-Redondo 2025（PMID:41057437，开放）：三因子规则 + ACh 暂停窗门控；行为意义：DMS D1-MSN LTP 积累目标导向联结，DLS D2-MSN eCB-LTD 固化习惯 S-R；直接回答 Q-chunk-01（括号化分子机制）；创建 2 页（corticostriatal-plasticity, endocannabinoid-ltd），修订 3 页（habit-formation rev5, basal-ganglia rev4, three-factor-learning-rule rev4），图谱 366 节点 2118 边；Q-cortstr-01/02 新增。*
 
 *6-13 #184 纹状体序列组块化与习惯形成：Graybiel 实验室系列（1998-2018）揭示 DLS 括号化机制——SPN 起/止激活 + FSI 中段反向抑制（Martiros 2018 PMC5820126）；括号具有强化依赖性（相同动作未强化序列不产生括号）；运动皮层编码单个动作，纹状体编码序列边界（抽象层次更高）；括号早于行为自动化出现（神经前兆）；括号强度与犹豫行为负相关（Smith & Graybiel 2016 PMC4826769）；临床窗口：OCD 括号过度激活（Gillan 2015）、成瘾习惯系统过强（Sjoerds 2013）；创建 1 页（striatal-chunking），修订 2 页（habit-formation rev4, basal-ganglia rev3），图谱 364 节点 2102 边；Q-chunk-01/02 新增。*
 

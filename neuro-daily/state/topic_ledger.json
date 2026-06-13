@@ -1,6 +1,7 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 184,
+  "total_articles": 185,
+  "last_updated": "2026-06-13",
   "entries": [
     {
       "date": "2026-08-09",
@@ -12191,6 +12192,103 @@
         "corticostriatal-ltpltd",
         "motor-sequence-human-fmri"
       ]
+    },
+    {
+      "date": "2026-06-13",
+      "article_number": 185,
+      "title": "学习写进突触：皮质纹状体回路的 D1/D2 二分可塑性如何将经验雕刻成习惯",
+      "slug": "corticostriatal-ltp-ltd",
+      "filename": "2026-06-13-corticostriatal-ltp-ltd.md",
+      "article_type": "regular",
+      "core_question": "当皮质轴突在纹状体 MSN 上形成突触时，是什么决定该突触增强（LTP）还是减弱（LTD）？D1 型与 D2 型 MSN 为何接受截然相反的多巴胺调制？内源性大麻素分子如何逆向传播并沉默皮质输入？三种机制如何最终把习惯写入回路？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "5. 认知控制 → 皮质纹状体可塑性（直接续接 #184 纹状体括号化，从行为模式回溯到产生该模式的突触分子机制）",
+      "topic_tags": [
+        "corticostriatal plasticity",
+        "LTP",
+        "LTD",
+        "D1-MSN",
+        "D2-MSN",
+        "endocannabinoid",
+        "eCB-LTD",
+        "2-AG",
+        "CB1 receptor",
+        "DAGLalpha",
+        "mGluR5",
+        "D1R",
+        "D2R",
+        "DARPP-32",
+        "PKA",
+        "AMPAR",
+        "STDP",
+        "three-factor learning rule",
+        "dopamine",
+        "habit formation",
+        "Shen 2008",
+        "Gerdeman 2002",
+        "Pawlak Kerr 2008",
+        "Kreitzer Malenka 2008",
+        "Lovinger 2010",
+        "Vignoud 2024",
+        "anti-Hebbian STDP",
+        "acetylcholine",
+        "cholinergic interneurons",
+        "basal ganglia",
+        "direct pathway",
+        "indirect pathway",
+        "Parkinson disease",
+        "addiction"
+      ],
+      "main_sources": [
+        "PMID:11976704 (Gerdeman et al. 2002, Nature Neuroscience, abstract only - eCB-LTD奠基发现)",
+        "PMID:9169514 (Calabresi et al. 1997, J Neuroscience, abstract only - D2-null无LTD)",
+        "PMID:17367873 (Calabresi et al. 2007, Trends Neurosci, abstract only - DA调控综述)",
+        "PMID:17408758 (Surmeier et al. 2007, Trends Neurosci, abstract only - D1/D2差异信号)",
+        "PMID:18322089 (Pawlak & Kerr 2008, J Neuroscience, abstract only - STDP方向与D1R)",
+        "PMID:18687967 (Shen et al. 2008, Science, abstract only - 二分法核心论文)",
+        "PMID:19038213 (Kreitzer & Malenka 2008, Neuron, abstract only - 纹状体可塑性综述)",
+        "PMID:20096294 (Lovinger 2010, Neuropharmacology, abstract only - LTP/LTD综述)",
+        "PMID:15498813 (Ronesi & Lovinger 2005, J Physiology, abstract only - 10Hz eCB-LTD)",
+        "PMID:38724614 (Vignoud et al. 2024, Comm Biology, open full text - 反Hebbian STDP序列学习)",
+        "PMID:41057437 (González-Redondo et al. 2025, Scientific Reports, open full text - 三因子规则ACh门控)",
+        "PMID:37290535 (Xie et al. 2023, Neuropharmacology, abstract only - 光遗传学因果证据)"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/corticostriatal-plasticity.md",
+        "wiki/concepts/endocannabinoid-ltd.md"
+      ],
+      "wiki_pages_updated": [
+        "wiki/concepts/habit-formation.md (rev4->rev5): 新增皮质纹状体可塑性分子机制小节；related/key_sources更新",
+        "wiki/circuits/basal-ganglia.md (rev3->rev4): related新增corticostriatal-plasticity, endocannabinoid-ltd",
+        "wiki/concepts/three-factor-learning-rule.md (rev3->rev4): 新增皮质纹状体可塑性作为核心实例；ACh暂停窗"
+      ],
+      "graph_nodes_added": [
+        "corticostriatal-plasticity",
+        "endocannabinoid-ltd"
+      ],
+      "graph_edges_added": 16,
+      "graph_state": "366节点，2118条边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-chunk-01",
+        "Q-cortstr-01",
+        "Q-cortstr-02"
+      ],
+      "next_suggested_topics": [
+        "supplementary-motor-area-sma-motor-sequencing（SMA在运动序列规划中的角色，与纹状体括号化的皮层端）",
+        "motor-learning-cerebellum-basal-ganglia（运动学习如何在小脑LTD和基底神经节可塑性间分工）",
+        "dopamine-pathways-anatomy（多巴胺通路详解：黑质纹状体 vs 中脑边缘 vs 中脑皮质通路的功能分工）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-13；知识库序号185；认知控制弧线皮质纹状体可塑性篇；核心：D1/D2 二分（Shen 2008）+ eCB-LTD（Gerdeman 2002）+ STDP三因子（Pawlak 2008）；直接回答Q-chunk-01；2个新wiki页创建，3个修订；图谱366节点2118边；全文获取：摘要10篇+开放全文2篇"
     }
   ],
   "layer_coverage_recent": [

@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-13（文章 #185：学习写进突触——皮质纹状体 D1/D2 二分可塑性）
+
+**创建新页**：
+- `wiki/concepts/corticostriatal-plasticity.md`（rev1）：皮质纹状体突触可塑性（D1/D2 二分机制）——正向 DA 下 D1-MSN 通过 PKA→AMPAR 获得 LTP，D2-MSN 通过 eCB 逆行信号获得 LTD；Shen 2008 二分法；STDP 时序规则；三因子学习规则的基底神经节实现；与习惯形成的行为联系；status=mainstream, confidence=high
+- `wiki/concepts/endocannabinoid-ltd.md`（rev1）：内源大麻素长时程抑制（纹状体）——MSN 去极化→mGluR5+D2R→DAGLα/β→2-AG→CB1R（逆行）→谷氨酸释放↓；Gerdeman 2002 奠基发现；D2R 必要性遗传学证据（Calabresi 1997）；中等频率诱导（Ronesi 2005）；status=established, confidence=high
+
+**修订页面**：
+- `wiki/concepts/habit-formation.md`（rev4→rev5）：新增皮质纹状体可塑性分子机制小节（D1/D2 二分、eCB-LTD、三因子规则与习惯化 S-R 联结的关系）；related 新增 corticostriatal-plasticity, endocannabinoid-ltd, three-factor-learning-rule；key_sources 更新
+- `wiki/circuits/basal-ganglia.md`（rev3→rev4）：related 新增 corticostriatal-plasticity, endocannabinoid-ltd；key_sources 新增 PMID:11976704, PMID:18687967, PMID:19038213
+- `wiki/concepts/three-factor-learning-rule.md`（rev3→rev4）：新增皮质纹状体可塑性作为三因子规则的核心生物学实例；乙酰胆碱暂停窗时间门控机制（González-Redondo 2025）；related 新增 corticostriatal-plasticity, endocannabinoid-ltd, habit-formation
+
+**图谱变更**：366 节点（+2：corticostriatal-plasticity, endocannabinoid-ltd），2118 条边（+16：新节点与 habit-formation/basal-ganglia/dopamine-reward-prediction-error/three-factor-learning-rule/striatal-chunking/ltp/parkinsons-disease/endocannabinoid-ltd 的新连接）
+
+**新增未解问题**：Q-cortstr-01（清醒行为动物中 eCB-LTD 自然诱导条件）；Q-cortstr-02（D1/D2 二分法的简化程度——D1/D2 MSN 同步激活的证据与二分法矛盾）
+
+**登记矛盾**：无新矛盾
+
+**新增悬空引用**：endocannabinoid-ltd 中的 cb1-receptor 节点尚无独立 wiki 页（已记为待补）
+
+---
+
 ## 2026-06-13（文章 #184：行为的括号——纹状体序列组块化与习惯形成）
 
 **创建新页**：

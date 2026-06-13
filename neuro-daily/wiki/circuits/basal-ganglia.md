@@ -7,13 +7,13 @@ status: established
 confidence: high
 created: 2026-06-14
 updated: 2026-06-13
-revision_count: 3
-dimensions: [microcircuit, brain-region, behavior, cognition, theory]
-related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit, habit-formation, actor-critic-model, prefrontal-cortex, complementary-learning-systems, striatal-chunking]
+revision_count: 4
+dimensions: [molecular, synaptic, microcircuit, brain-region, behavior, cognition, theory]
+related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit, habit-formation, actor-critic-model, prefrontal-cortex, complementary-learning-systems, striatal-chunking, corticostriatal-plasticity, endocannabinoid-ltd]
 prerequisites: [dopamine-reward-prediction-error, synaptic-transmission, ltp]
 opens_questions: [Q-pd-beta-causality, Q-bg-habit-goal-split, Q-actor-critic-01, Q-actor-critic-02]
-source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-07-13-striatum-direct-indirect-pathway-habit, 2026-06-13-striatal-chunking-sequence-learning]
-key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439", "PMID:20613723", "PMID:27069376", "PMID:16715055", "PMID:9054347", "PMID:29429614", "PMID:9753592"]
+source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-07-13-striatum-direct-indirect-pathway-habit, 2026-06-13-striatal-chunking-sequence-learning, 2026-06-13-corticostriatal-ltp-ltd]
+key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439", "PMID:20613723", "PMID:27069376", "PMID:16715055", "PMID:9054347", "PMID:29429614", "PMID:9753592", "PMID:11976704", "PMID:18687967", "PMID:19038213"]
 ---
 
 # 基底节 (Basal Ganglia)

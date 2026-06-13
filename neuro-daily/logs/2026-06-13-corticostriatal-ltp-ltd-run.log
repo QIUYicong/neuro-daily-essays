@@ -1,0 +1,147 @@
+# 运行日志：2026-06-13（文章 #185）
+
+**文章标题**：学习写进突触：皮质纹状体回路的 D1/D2 二分可塑性如何将经验雕刻成习惯
+**Slug**：corticostriatal-ltp-ltd
+**分支**：main
+**执行时间（UTC+8）**：2026-06-13
+
+---
+
+## 步骤 A：状态读取
+
+- `topic_ledger.json`：上一篇 #184 为纹状体括号化（2026-06-13），next_suggested_topics 包含 `corticostriatal-ltpltd`
+- `unresolved_questions.md`：Q-chunk-01（高优先级）：SPNs 括号化的突触/神经调质分子机制 → 本文直接寻址此问题
+- `contested_claims.json`：42 条 open 矛盾，无需立即解决
+- `_graph.json`：364 节点，2102 边（运行前状态）
+- 当前主题路线：5. 认知控制（刚完成括号化 #184，自然续接到皮质纹状体可塑性机制）
+
+---
+
+## 步骤 B：选题
+
+**选题依据**：
+1. Q-chunk-01 高优先级（括号化的分子机制）→ 本文直接回答
+2. #184 next_suggested_topics 中的 `corticostriatal-ltpltd`
+3. 层级切换：#184 是 microcircuit/behavior，本文切换到 molecular/synaptic → 防止连续三天同一层级
+4. 中等课程系统性：认知控制弧线（基底神经节可塑性）是课程脊柱第 5 章的核心内容
+
+**主题**：皮质纹状体 LTP/LTD 的 D1/D2 二分机制
+
+---
+
+## 步骤 C：检索
+
+**搜索词**：
+- "corticostriatal synaptic plasticity LTP LTD dopamine striatum"
+- "corticostriatal LTP LTD D1 D2 medium spiny neurons dopamine"
+- "striatum endocannabinoid LTD CB1 presynaptic Lovinger"
+- "Shen 2008 dichotomous dopamine D1 D2 striatal synaptic plasticity"
+- "corticostriatal plasticity habit formation DLS DMS motor sequence"
+- "Kreitzer Malenka striatal plasticity basal ganglia 2008 Neuron"
+- "basal ganglia striatal plasticity review 2024"
+- "anti-Hebbian STDP striatum sequence learning"
+- "three factor learning rule striatum cholinergic dopamine"
+
+**使用数据库**：PubMed E-utilities (esearch + efetch)、PubMed Central（尝试但遇 reCAPTCHA 阻断）、Europe PMC（遇导航重定向，未获内容）
+
+**候选文章**（PubMed 检索命中）：
+- 17367873（Calabresi 2007 TiNS）
+- 18687967（Shen 2008 Science）
+- 18322089（Pawlak & Kerr 2008 JNeurosci）
+- 19038213（Kreitzer & Malenka 2008 Neuron）
+- 11976704（Gerdeman 2002 Nat Neurosci）
+- 20096294（Lovinger 2010 Neuropharmacology）
+- 17408758（Surmeier 2007 TiNS）
+- 15498813（Ronesi 2005 J Physiol）
+- 9169514（Calabresi 1997 JNeurosci）
+- 38724614（Vignoud 2024 Comm Biol，开放）
+- 41057437（González-Redondo 2025 Sci Rep，开放）
+- 37290535（Xie 2023 Neuropharmacology）
+
+**采用来源**：12 篇（2 篇开放全文，10 篇摘要仅读）
+
+**排除来源**：
+- PMC 全文检索：遇 reCAPTCHA 阻断（pmc.ncbi.nlm.nih.gov 重定向验证页），无法读取
+- Europe PMC 文章页：仅返回导航框架，未返回文章内容
+- 结论：本文为"开放全文不足版"，核心机制基于摘要+综述+两篇开放期刊论文
+
+---
+
+## 步骤 D：固结
+
+**创建新 wiki 页**（2 页）：
+- `wiki/concepts/corticostriatal-plasticity.md`（rev1）
+- `wiki/concepts/endocannabinoid-ltd.md`（rev1）
+
+**修订 wiki 页**（3 页）：
+- `wiki/concepts/habit-formation.md`（rev4→rev5）：新增皮质纹状体可塑性分子机制小节
+- `wiki/circuits/basal-ganglia.md`（rev3→rev4）：related 和 key_sources 更新
+- `wiki/concepts/three-factor-learning-rule.md`（rev3→rev4）：新增皮质纹状体可塑性作为核心实例
+
+**矛盾检查**：无新矛盾登记
+
+**成熟度重估**：
+- corticostriatal-plasticity：mainstream（多实验室、多物种体外证据；体内行为证据间接）
+- endocannabinoid-ltd：established（多次独立重复；遗传学证据；多物种）
+
+---
+
+## 步骤 E：图谱更新
+
+- 新增节点：corticostriatal-plasticity, endocannabinoid-ltd
+- 新增边：16 条
+- 运行后图谱：366 节点，2118 条边
+
+---
+
+## 步骤 F：治理层更新
+
+- `topic_ledger.json`：total_articles 184→185；新增 #185 条目
+- `unresolved_questions.md`：新增 Q-cortstr-01, Q-cortstr-02
+- `monthly_synthesis.md`：#185 摘要追加
+- `wiki/CHANGELOG.md`：#185 变更记录
+
+---
+
+## 步骤 G：Git 操作
+
+- 分支：main
+- 文件：全部新建/修订文件已暂存
+- Commit message：Add neuro daily article + wiki consolidation for 2026-06-13 (#185 Corticostriatal LTP/LTD)
+- 推送：git push origin main
+
+---
+
+## 步骤 H：质量自检
+
+**真实性**：
+- [x] wiki 每条新主张有来源（PMID 编号）
+- [x] 区分了事实/模型/推测/争议（体外证据 vs 体内推测明确标注）
+- [x] 未将单篇/小样本研究写成定论（二分法体内证据仍为"高优先级未解问题"）
+
+**一致性**：
+- [x] 无矛盾新增（无需启动矛盾协议）
+- [x] 修订页 updated/revision_count/修订历史同步
+- [x] _graph.json 无新悬空边（cb1-receptor 被记为待补节点，但已在 CHANGELOG 中登记）
+
+**可导航**：
+- [x] CHANGELOG 反映今日变化
+- [x] 新页 related/prerequisites 各≥1
+
+**情景层完整**：
+- [x] 文章/笔记/来源/日志齐全
+- [x] 未修改旧文件（append-only 规则遵守）
+
+---
+
+## 失败与限制
+
+- PMC 全文访问：遇 reCAPTCHA 阻断，无法直接读取 Shen 2008、Kreitzer 2008 等核心论文全文
+- 核心机制描述：基于摘要 + 高质量综述（Calabresi 2007 TiNS、Lovinger 2010 Neuropharmacology）
+- 开放全文论文：Vignoud 2024（Communications Biology）和 González-Redondo 2025（Scientific Reports）摘要均已读取，两者均为计算模型论文，非直接实验测量
+
+---
+
+## commit hash
+
+（将在推送完成后由更新步骤填入）

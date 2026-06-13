@@ -7,13 +7,13 @@ status: established
 confidence: high
 created: 2026-07-13
 updated: 2026-06-13
-revision_count: 4
-dimensions: [microcircuit, brain-region, behavior, cognition]
-related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, substance-use-disorder, deltaFosB, incentive-salience, orbitofrontal-cortex, subjective-value-encoding, striatal-chunking]
+revision_count: 5
+dimensions: [molecular, synaptic, microcircuit, brain-region, behavior, cognition]
+related: [basal-ganglia, dopamine-reward-prediction-error, actor-critic-model, prefrontal-cortex, working-memory, engram-cells, substance-use-disorder, deltaFosB, incentive-salience, orbitofrontal-cortex, subjective-value-encoding, striatal-chunking, corticostriatal-plasticity, endocannabinoid-ltd, three-factor-learning-rule]
 prerequisites: [basal-ganglia, dopamine-reward-prediction-error]
-opens_questions: [Q-bg-habit-goal-split, Q-habit-01, Q-habit-02]
-source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision, 2026-06-13-striatal-chunking-sequence-learning]
-key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376", "PMID:27475769", "PMID:21338877", "PMID:18545266", "PMID:16633341", "PMID:29429614", "PMID:27069378", "PMID:16237445"]
+opens_questions: [Q-bg-habit-goal-split, Q-habit-01, Q-habit-02, Q-chunk-01]
+source_articles: [2026-07-13-striatum-direct-indirect-pathway-habit, 2026-07-14-addiction-dopamine-deltaFosB, 2026-07-29-orbitofrontal-cortex-value-decision, 2026-06-13-striatal-chunking-sequence-learning, 2026-06-13-corticostriatal-ltp-ltd]
+key_sources: ["PMID:16715055", "PMID:18558860", "PMID:9704982", "PMID:10576743", "PMID:27069376", "PMID:27475769", "PMID:21338877", "PMID:18545266", "PMID:16633341", "PMID:29429614", "PMID:27069378", "PMID:16237445", "PMID:11976704", "PMID:18687967", "PMID:20096294"]
 ---
 
 # 习惯形成（目标导向 vs 习惯性行为）(Habit Formation: Goal-Directed vs Habitual Behavior)
@@ -103,10 +103,27 @@ Piray et al. 2016（PMID:26961942，PMC:PMC6601762，开放全文）：
 | 习惯化伴随纹状体活动"括号化" | 感觉运动纹状体多通道记录（T迷宫训练进程）| PMID:10576743（摘要仅读）| 高 |
 | vmPFC-内侧纹状体白质束强度预测 model-based 策略 | 人类 DTI + 双步决策任务 | PMID:26961942（PMC6601762，开放全文）| 中（单实验室）|
 | 成瘾=目标导向受损+习惯系统过强 | 大鼠依赖模型+贬值测试 | Everitt & Robbins 综述系列 | 中-高（多实验室）|
+| eCB-LTD 是纹状体 LTD 的必要逆行信号（CB1R 依赖） | 大鼠脑片；CB1R 拮抗剂完全阻断 HFS-LTD | PMID:11976704（Gerdeman 2002, Nat Neurosci，摘要）| 高 |
+| D1-MSN LTP vs D2-MSN eCB-LTD 的多巴胺二分法 | D1-eGFP/D2-eGFP 转基因小鼠脑片；DA 受体药理 | PMID:18687967（Shen et al. 2008, Science，摘要）| 高 |
+
+### 习惯化的突触分子机制（2026-06-13 新增）
+
+**核心：为什么 DLS 的 S-R 联结比 DMS 的 A-O 联结更"稳固"？**
+
+Shen et al. 2008（PMID:18687967）的二分机制提供了答案：
+
+在 DLS（习惯系统）的 D2-MSN 中，每次正向奖励引发的多巴胺 + 皮质谷氨酸共激活，促使这类神经元通过内源大麻素（eCB-LTD）压制竞争性皮质输入——这种 eCB-LTD 在 DLS 的 D2-MSN 上反复积累，逐渐消除"非序列成员"的皮质输入，使 S-R 联结在分子层面更加"清洁"和稳固。
+
+同时，DLS 的 D1-MSN 在序列边界（括号 START/END）处的 LTP 积累，将序列结构写入直接通路的突触权重——这正是习惯性行为"自动触发"的分子基础：一旦看到 START 线索，序列就因 D1-MSN 的高权重被直接通路"释放"，无需前额叶实时计算。
+
+详见 [[corticostriatal-plasticity]] 和 [[endocannabinoid-ltd]]。
 
 ## 连接
 
 - [[basal-ganglia]] — DMS/DLS 是基底节的功能亚区，习惯系统的解剖实现
+- [[corticostriatal-plasticity]] — 习惯化的突触分子机制：DLS D2-MSN eCB-LTD 积累 + D1-MSN LTP 固化 S-R 联结
+- [[endocannabinoid-ltd]] — 间接通路压制竞争皮质输入的关键分子机制
+- [[three-factor-learning-rule]] — 皮质纹状体突触可塑性的三因子规则：突触前 × 突触后 × 多巴胺
 - [[dopamine-reward-prediction-error]] — 多巴胺RPE更新D1/D2系统突触权重，驱动目标导向学习
 - [[actor-critic-model]] — 演员-批评家框架是目标导向/习惯双系统的计算实现
 - [[prefrontal-cortex]] — prelimbic/infralimbic PFC 分别促进目标导向和习惯系统
@@ -141,9 +158,11 @@ Padoa-Schioppa & Assad（2006，PMID:16633341）的直接证据：OFC 神经元�
 - 2026-07-14 · 修订 · 基于《欲望的叛变》(#82) · 补充成瘾作为习惯系统病理极端的机制（ΔFosB/NAc 突触重塑 + 激励显著性解耦）；更新 related 字段（addiction → substance-use-disorder, deltaFosB, incentive-salience）；Q-habit-01 部分解答（成瘾不可逆性双层机制）
 - 2026-07-29 · 修订 · 基于《价值的地图》文章 #97 · 新增"OFC 对目标导向系统的关键贡献"小节：明确 OFC 是目标导向系统灵活性的神经来源（Rangel 2008 + Padoa-Schioppa 2006）；related 新增 orbitofrontal-cortex, subjective-value-encoding；key_sources 新增 PMID:18545266, PMID:16633341
 - 2026-06-13 · 修订（rev3→rev4）· 基于《行为的括号》(文章#184) · 新增：Martiros 2018 单细胞分辨率 SPN/FSI 括号机制；Smith & Graybiel 2016 括号-犹豫负相关及括号作为习惯神经前兆；related 新增 striatal-chunking；key_sources 新增 PMID:29429614, PMID:27069378, PMID:16237445
+- 2026-06-13 · 修订（rev4→rev5）· 基于《学习写进突触》(文章#185) · 新增：皮质纹状体可塑性分子机制小节（D1/D2 二分、eCB-LTD、三因子规则）；related 新增 corticostriatal-plasticity, endocannabinoid-ltd, three-factor-learning-rule；opens_questions 新增 Q-chunk-01；key_sources 新增 PMID:11976704, PMID:18687967, PMID:20096294
 
 ## 来源文章
 
 - [[2026-07-13-striatum-direct-indirect-pathway-habit]]
 - [[2026-07-14-addiction-dopamine-deltaFosB]]
 - [[2026-06-13-striatal-chunking-sequence-learning]]
+- [[2026-06-13-corticostriatal-ltp-ltd]]

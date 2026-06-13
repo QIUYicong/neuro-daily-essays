@@ -3293,6 +3293,24 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/striatal-chunking.md"
+    },
+    {
+      "id": "corticostriatal-plasticity",
+      "title": "皮质纹状体突触可塑性（D1/D2 二分机制）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/corticostriatal-plasticity.md"
+    },
+    {
+      "id": "endocannabinoid-ltd",
+      "title": "内源大麻素长时程抑制（纹状体）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/endocannabinoid-ltd.md"
     }
   ],
   "edges": [
@@ -14409,6 +14427,86 @@
     {
       "from": "basal-ganglia",
       "to": "striatal-chunking",
+      "type": "related"
+    },
+    {
+      "from": "corticostriatal-plasticity",
+      "to": "habit-formation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "corticostriatal-plasticity",
+      "to": "striatal-chunking",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "corticostriatal-plasticity",
+      "to": "basal-ganglia",
+      "type": "part-of"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "corticostriatal-plasticity",
+      "type": "regulates"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "corticostriatal-plasticity",
+      "type": "is-a"
+    },
+    {
+      "from": "corticostriatal-plasticity",
+      "to": "parkinsons-disease",
+      "type": "related"
+    },
+    {
+      "from": "endocannabinoid-ltd",
+      "to": "corticostriatal-plasticity",
+      "type": "part-of"
+    },
+    {
+      "from": "endocannabinoid-ltd",
+      "to": "basal-ganglia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "endocannabinoid-ltd",
+      "to": "habit-formation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dopamine",
+      "to": "endocannabinoid-ltd",
+      "type": "regulates"
+    },
+    {
+      "from": "ltp",
+      "to": "endocannabinoid-ltd",
+      "type": "related"
+    },
+    {
+      "from": "corticostriatal-plasticity",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "corticostriatal-plasticity",
+      "to": "three-factor-learning-rule",
+      "type": "supports"
+    },
+    {
+      "from": "habit-formation",
+      "to": "corticostriatal-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "corticostriatal-plasticity",
+      "type": "related"
+    },
+    {
+      "from": "striatal-chunking",
+      "to": "corticostriatal-plasticity",
       "type": "related"
     }
   ],
