@@ -5,7 +5,9 @@
 ## 2026年6月（进行中）
 
 *本月截至日期：2026-06-13*
-*本月新增文章：#170 + #171 + #172 + #173 + #174 + #175 + #176 + #177；共 8 篇。*
+*本月新增文章：#170 + #171 + #172 + #173 + #174 + #175 + #176 + #177 + #178 + #179 + #180；共 11 篇。*
+
+*6-13 #180 长潜伏期牵张反射M2/M3（经皮质反射弧）：三成分时序（M1~25ms/M2~50–75ms/M3~75–120ms）；Marsden 1976奠基（PMC1309044）；Petersen 1998 TMS超线性叠加直接证明M3经皮质（PMC2231172）；Pruszynski 2011 Nature猴M1多关节整合+人类TMS（PMC4974074）；M1目标依赖调制35ms出现（Pruszynski 2014，PMC6608123）；Kurtzer 2008内部模型多关节交互力矩；OFC框架（Scott 2008，PMC2375659）；中风后M2/M3双侧受损（Trumbower 2013，PMC3674210）；新建1页（transcortical-stretch-reflex），修订2页（stretch-reflex rev2, somatosensory-cortex-3a rev2），图谱362节点2078边；Q-llr-01/02/03新增。感觉运动系统弧完整：#172肌梭→#177三区→#173CST→#179M1反射→#180M2/M3经皮质。*
 
 *6-12 #172 肌梭与本体感觉：核袋1/2/链纤维三类型；PIEZO2 为 Ia 传入机械换能分子（Wilkinson 2022 PMC9815952）；谷氨酸囊泡维持静态相；Kv1.1/1.2 区分 Ia vs II 型动态；γd→bag1/γs→bag2+chain；α-γ 协同激活防肌梭沉默；Err3/Gfrα1 分子标记（Wilkinson 2021 PMC9770680）；Ia 单突触牵张反射；DCML→S1 3a 区意识通路 + 脊髓小脑束无意识通路；传出副本贡献（Proske & Gandevia 2009 PMC2754351）；新建4页（muscle-spindle, gamma-motor-neuron, piezo2-mechanotransduction, proprioception），修订1页（alpha-motor-neuron rev3），图谱348节点1978边；Q-spindle-01/02/03 新增。*
 

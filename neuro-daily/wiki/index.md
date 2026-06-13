@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#178** 旋转的引擎——运动皮层旋转动力学；新建 2 页：jpca（methods）、neural-manifold（concepts）；修订 3 页：rotational-dynamics-motor rev2、output-null-space rev2、motor-cortex rev6；图谱 **357** 节点，**2056** 边）· 主题页总数：**326**
+> 最后更新：2026-06-13（**#180** 反射的第二次进化——长潜伏期牵张反射M2/M3；新建 1 页：transcortical-stretch-reflex（circuits）；修订 2 页：stretch-reflex rev2、somatosensory-cortex-3a rev2；图谱 **362** 节点，**2078** 边）· 主题页总数：**327**
 
 ---
 
@@ -50,7 +50,8 @@
 - 🟢 [前额叶-杏仁核情绪调控回路](circuits/pfc-amygdala-emotion-regulation.md) — IL（vmPFC）通过三路并联（ITC门控/BLA直接投射/PVT中继）压制杏仁核恐惧输出；PL 反向促进恐惧表达；IL内部mGluR5→AMPAR可塑性；IL训练时写入/回忆时表达逻辑 **[NEW 2026-07-31 #99]**
 - 🟢 [脊髓中枢模式发生器](circuits/spinal-cord-cpg.md) — 双层架构（RG节律生成+PF模式形成）；V0D/V0V速度依赖步态切换（走/跑/飞奔）；V1+V2b屈伸半中枢；虚构运动证明CPG自主性；VSCT作为CPG枢纽（Chalif 2022，争议中）**[NEW 2026-10-07 #167]**
 - 🟢 [步态中间神经元（V型）](circuits/spinal-interneurons-locomotion.md) — V0/V1/V2a/V2b/V3各自分子标记与功能角色；SHOX2+非V2a为节律生成核心候选；V0D选择性删除→低速失交替；V0V删除→小跑消失；VSCT必要充分性（待验证）**[NEW 2026-10-07 #167]**
-- 🟢 [牵张反射弧](circuits/stretch-reflex.md) — 哺乳动物唯一单突触反射；Ia→α-MN 直接连接（25–35 ms，人类下肢）；三重增益制动（互反抑制/复现抑制/突触前抑制）；γ-MN 设定灵敏度旋钮；状态依赖性极性反转；H 反射可操作性条件化；痉挛=突触前抑制丧失 **[NEW 2026-06-13 #179]**
+- 🟢 [牵张反射弧](circuits/stretch-reflex.md) — 哺乳动物唯一单突触反射；Ia→α-MN 直接连接（25–35 ms，人类下肢）；三重增益制动（互反抑制/复现抑制/突触前抑制）；γ-MN 设定灵敏度旋钮；状态依赖性极性反转；H 反射可操作性条件化；痉挛=突触前抑制丧失 **[修订 rev2 2026-06-13 #180：扩充M2/M3描述]**
+- 🟢 [经皮质牵张反射（M2/M3）](circuits/transcortical-stretch-reflex.md) — 肌梭Ia→脊髓→丘脑→3a区→M1→CST→α-MN经皮质回路；M2（~50–75ms）/M3（~75–120ms）三能力：目标调制/多关节整合/学习适应；OFC框架统一解释；TMS超线性叠加直接证明；中风后双侧特异性受损；感觉-运动系统弧的收官节点 **[NEW 2026-06-13 #180]**
 
 ## concepts（概念/框架）
 

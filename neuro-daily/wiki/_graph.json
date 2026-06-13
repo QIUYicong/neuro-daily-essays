@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "updated": "2026-06-13",
-  "node_count": 355,
-  "edge_count": 2046,
+  "node_count": 362,
+  "edge_count": 2078,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3257,6 +3257,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/renshaw-cell.md"
+    },
+    {
+      "id": "transcortical-stretch-reflex",
+      "title": "经皮质牵张反射（M2/M3）",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/transcortical-stretch-reflex.md"
+    },
+    {
+      "id": "optimal-feedback-control",
+      "title": "最优反馈控制（OFC）",
+      "domain": "theories",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/theories/optimal-feedback-control.md"
     }
   ],
   "edges": [
@@ -14214,6 +14232,46 @@
       "from": "golgi-tendon-organ",
       "to": "stretch-reflex",
       "type": "related"
+    },
+    {
+      "from": "transcortical-stretch-reflex",
+      "to": "stretch-reflex",
+      "type": "is-a"
+    },
+    {
+      "from": "somatosensory-cortex-3a",
+      "to": "transcortical-stretch-reflex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "motor-cortex",
+      "to": "transcortical-stretch-reflex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "corticospinal-tract",
+      "to": "transcortical-stretch-reflex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "muscle-spindle",
+      "to": "transcortical-stretch-reflex",
+      "type": "supports"
+    },
+    {
+      "from": "transcortical-stretch-reflex",
+      "to": "optimal-feedback-control",
+      "type": "supports"
+    },
+    {
+      "from": "transcortical-stretch-reflex",
+      "to": "motor-learning",
+      "type": "related"
+    },
+    {
+      "from": "thalamus",
+      "to": "transcortical-stretch-reflex",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

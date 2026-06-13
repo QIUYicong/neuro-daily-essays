@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 179,
+  "total_articles": 180,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11942,6 +11942,77 @@
       ],
       "mode": "gap_filling",
       "note": "UTC+8=2026-06-13；知识库序号179；填补悬空引用stretch-reflex；运动系统脊髓感觉-运动整合系列；核心：牵张反射三重制动+状态依赖调制+可塑性；新建3个wiki页；图谱360节点2070边"
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 180,
+      "title": "反射的第二次进化——长潜伏期牵张反射（M2/M3）如何让大脑直接参与脊髓回路",
+      "slug": "transcortical-stretch-reflex-long-latency",
+      "filename": "2026-06-13-transcortical-stretch-reflex-long-latency.md",
+      "article_type": "regular",
+      "core_question": "在单突触脊髓M1反射（~25ms）之后，长潜伏期牵张反射（M2 ~50–75ms，M3 ~75–120ms）经由3a区→M1→CST的经皮质回路产生；其区别于脊髓反射的核心能力是：任务目标依赖调制、多关节信息整合、运动学习适应，以及皮质脊髓束损伤（中风）后特异性受损。",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界 → 感觉运动整合；经皮质反射弧是感觉-运动系统弧的收官篇，连接#177(3a区)、#173(CST)、#178(M1动力学)、#179(M1反射)为完整双层控制系统",
+      "topic_tags": [
+        "long-latency stretch reflex",
+        "LLR",
+        "transcortical loop",
+        "M2",
+        "M3",
+        "transcortical stretch reflex",
+        "primary motor cortex",
+        "M1",
+        "optimal feedback control",
+        "OFC",
+        "goal-dependent modulation",
+        "multi-joint integration",
+        "internal model",
+        "supra-linear interaction",
+        "TMS",
+        "perturbation response",
+        "fast feedback",
+        "motor control",
+        "Marsden",
+        "Pruszynski",
+        "Scott SH",
+        "Petersen 1998",
+        "corticomotoneuronal",
+        "CM cells",
+        "reticulospinal tract",
+        "RST",
+        "stroke rehabilitation",
+        "spasticity",
+        "M2/M3 impairment"
+      ],
+      "main_sources": [
+        "PMID:957257 / PMC1309044 (Marsden et al. 1976, J Physiol, open full text)",
+        "PMID:9729635 / PMC2231172 (Petersen et al. 1998, J Physiol, open full text)",
+        "PMID:21964335 / PMC4974074 (Pruszynski et al. 2011, Nature, open full text)",
+        "PMID:24672006 / PMC6608123 (Pruszynski et al. 2014, J Neurosci, open full text)",
+        "PMID:18187462 / PMC2375659 (Scott SH 2008, J Physiol, open full text)",
+        "PMID:23453250 / PMC3674210 (Trumbower et al. 2013, Clin Neurophysiol, open full text)",
+        "PMID:25309359 / PMC4164001 (Pruszynski 2014, Front Integr Neurosci, open full text)",
+        "PMID:22370742 (Pruszynski & Scott 2012, Exp Brain Res, abstract only)",
+        "PMID:18356051 (Kurtzer et al. 2008, Curr Biol, abstract only)"
+      ],
+      "unresolved_questions": [
+        "Q-llr-01: M2成分中CST vs RST相对贡献",
+        "Q-llr-02: 运动准备如何预设M1神经元读取任务目标",
+        "Q-llr-03: 中风康复是否应针对M2/M3调制能力"
+      ],
+      "next_suggested_topics": [
+        "最优反馈控制理论（OFC）深化——皮层如何实时计算代价函数并生成运动指令",
+        "运动皮层细胞类型（Layer 5 pyramidal tract, CM cells）的突触输入构成与皮质内微回路",
+        "脊髓运动网络的冗余与柔性——多肌肉协同（muscle synergies）的计算与神经基础",
+        "小脑作为预测编码机器——前向模型与反向模型的神经回路实现"
+      ]
     }
   ],
   "layer_coverage_recent": [

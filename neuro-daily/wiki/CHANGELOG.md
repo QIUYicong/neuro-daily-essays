@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-06-13（文章 #180：反射的第二次进化——长潜伏期牵张反射 M2/M3）
+
+### 新建 wiki 页面（1 页）
+
+- `circuits/transcortical-stretch-reflex.md`（经皮质牵张反射/长潜伏期牵张反射）：Rev1 创建；M2（~50–75ms）和M3（~75–120ms）经由 Ia传入→脊髓→丘脑→3a区→M1→CST→α-MN 的经皮质回路；三个核心能力：任务目标调制（Pruszynski 2014，PMC6608123）、多关节整合（Pruszynski 2011 Nature，PMC4974074）、运动学习适应；OFC框架统一解释（Scott 2008，PMC2375659）；Marsden 1976（PMC1309044）历史奠基；Petersen 1998（PMC2231172）TMS直接证明；中风后M2/M3双侧受损（Trumbower 2013，PMC3674210）；状态 established / confidence: high。
+
+### 修订 wiki 页面（2 页）
+
+- `circuits/stretch-reflex.md` rev1→rev2：related新增 transcortical-stretch-reflex；M2/M3描述扩充（时序、任务依赖、学习可塑性）；连接节新增 transcortical-stretch-reflex 链接；修订历史追加。
+- `systems/somatosensory-cortex-3a.md` rev1→rev2：related新增 transcortical-stretch-reflex；source_articles新增 #180；修订历史追加（3a区作为M2/M3经皮质弧的必要节点）。
+
+### 图谱变化
+
+- 新建节点 2 个：transcortical-stretch-reflex、optimal-feedback-control
+- 新增边 8 条：transcortical-stretch-reflex → stretch-reflex（is-a）；somatosensory-cortex-3a → transcortical-stretch-reflex（mechanism-of）；motor-cortex → transcortical-stretch-reflex（mechanism-of）；corticospinal-tract → transcortical-stretch-reflex（mechanism-of）；muscle-spindle → transcortical-stretch-reflex（supports）；transcortical-stretch-reflex → optimal-feedback-control（supports）；transcortical-stretch-reflex → motor-learning（related）；thalamus → transcortical-stretch-reflex（mechanism-of）
+- 图谱状态：362 节点，2078 边
+
+### 登记/裁决矛盾
+
+- 无新矛盾登记。M2成分的通路（经皮质CST vs 网状脊髓束RST）存在未解分歧，但属于"量化贡献之争"而非"存在性之争"——已在新建页的未解问题（Q-llr-01）中标注，尚未触发矛盾协议。
+
+### 悬空引用新增
+
+- `optimal-feedback-control`：在 transcortical-stretch-reflex 中引用，待补独立页面（目前已添加为图谱节点但无wiki页面）。
+
+
+---
+
 ## 2026-06-13（文章 #177：3a区——皮层本体感觉的第一站与运动控制的感觉门）
 
 ### 新建 wiki 页面（1 页）

@@ -357,6 +357,14 @@
       "last_changed": "2026-06-13",
       "change_reason": "创建新页面；Renshaw 1941 原始描述 + Moore 2015 光遗传学突触分辨率验证",
       "source_article": "2026-06-13-stretch-reflex-arc"
+    },
+    {
+      "slug": "transcortical-stretch-reflex",
+      "status": "established",
+      "confidence": "high",
+      "created": "2026-06-13",
+      "last_changed": "2026-06-13",
+      "reason": "创建：多条独立证据链（Marsden 1976 timing推断 + Petersen 1998 TMS直接证明 + Pruszynski 2011 Nature猴单神经元+人类TMS + 临床中风研究），且2011 Nature发表，多物种验证。机制为established级别。"
     }
   ],
   "last_updated": "2026-06-13",

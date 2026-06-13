@@ -4895,3 +4895,26 @@
 - **关联 wiki**：[[stretch-reflex]]、[[motor-cortex]]、[[motor-learning]]
 - **来源文章**：2026-06-13-stretch-reflex-arc
 - **问题**：Wolpaw 的工作表明 H 反射条件化在脊髓内发生（脊髓半切后保留），但皮层必须完整才能建立学习。推测机制：皮层启动学习信号 → 脊髓突触权重改变（α-MN 阈值、突触前 Ia 终末强度、抑制性中间神经元活动） → 皮层通过监督信号维持改变方向。具体分子机制（AMPAR 插入/移除？GABA 受体亚型变化？）尚不清楚。跨物种（大鼠/猴/人类）一致性：H 反射条件化的参数曲线是否类似？条件化改变后，其他运动行为是否发生代偿性重组（Wolpaw 2010 年系列提示整个脊髓网络有协调改变）？
+
+---
+
+## 2026-06-13 新增（来自"反射的第二次进化：长潜伏期牵张反射（M2/M3）" #180）
+
+### Q-llr-01（高优先级）：M2成分（50–75 ms）中CST vs RST的相对贡献？
+
+- **关联 wiki**：[[transcortical-stretch-reflex]]、[[corticospinal-tract]]
+- **来源文章**：2026-06-13-transcortical-stretch-reflex-long-latency
+- **问题**：M2时间窗（50–75ms）已被证明存在经皮质（CST）成分（TMS超线性叠加），但网状脊髓束（RST）在同样时间窗内的贡献尚未精确量化。RST在快速扰动响应中的速度和通路特性符合M2的时序要求。能否通过以下方式区分：（a）ALS早期患者（选择性CST退变早期）中M2受损程度；（b）脊髓损伤高颈段患者（CST与RST差异保留）；（c）近端肌肉（RST投射丰富）vs远端手指肌肉（CST皮质运动神经元直接连接主导）的系统性比较？
+
+### Q-llr-02（中优先级）：运动准备如何预设M1神经元使其在扰动到来时快速读取任务目标？
+
+- **关联 wiki**：[[transcortical-stretch-reflex]]、[[motor-cortex]]、[[rotational-dynamics-motor]]
+- **来源文章**：2026-06-13-transcortical-stretch-reflex-long-latency
+- **问题**：Pruszynski等2014年发现M1在扰动后35ms已出现目标依赖分化——这比常规估计的皮层反应时间要快，暗示任务目标在扰动之前就已"预加载"到M1。机制可能是：前运动皮层（PMA）在运动准备期通过前馈输入调节M1特定神经元的基准活动，使其在面对扰动时的响应幅度自动偏向正确方向（类似"偏置竞争"）。需要：（a）比较运动准备期（力场到来前）M1神经元活动的指令依赖基准；（b）PMA→M1 microstimulation在不同任务目标下对M1自发放电的偏置效应。
+
+### Q-llr-03（中优先级）：中风康复是否应专门针对M2/M3任务依赖调制能力？
+
+- **关联 wiki**：[[transcortical-stretch-reflex]]、[[corticospinal-tract]]
+- **来源文章**：2026-06-13-transcortical-stretch-reflex-long-latency
+- **问题**：Trumbower等2013年发现中风后M2/M3双侧受损，M1反射保留。现有中风康复训练（机器人辅助、任务导向训练）主要测量主动力量、Fugl-Meyer评分和步行速度，很少量化M2/M3的任务依赖调制恢复。是否存在以下关系：（a）M2/M3调制能力的恢复先于/伴随/晚于Fugl-Meyer评分的改善？（b）针对"快速扰动中的任务目标切换"专门训练是否能加速M2/M3功能恢复？（c）M2/M3调制能力是否能预测康复后6个月的ADL功能？
+

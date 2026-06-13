@@ -7,9 +7,9 @@ status: established
 confidence: high
 created: 2026-06-13
 updated: 2026-06-13
-revision_count: 1
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [somatosensory-cortex, motor-cortex, proprioception, muscle-spindle, thalamus, forward-model, cerebellum, spinocerebellar-tracts]
+related: [somatosensory-cortex, motor-cortex, proprioception, muscle-spindle, thalamus, forward-model, cerebellum, spinocerebellar-tracts, transcortical-stretch-reflex]
 prerequisites: [muscle-spindle, proprioception, somatosensory-cortex]
 opens_questions: [Q-3a-01, Q-3a-02, Q-3a-03, Q-3a-04]
 source_articles: [2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway]
@@ -96,8 +96,10 @@ Voigt et al.（2026，PMID:41996323，PLoS Biol，开放全文）在小鼠去传
 
 ## 修订历史
 
-- 2026-06-13 · 创建 · 基于《3a区——皮层本体感觉的第一站》(#177) · 填补spinocerebellar-tracts文章中登记的悬空引用 · 初始置信度：高
+- 2026-06-13 · 创建（rev1）· 基于《3a区——皮层本体感觉的第一站》(#177) · 填补spinocerebellar-tracts文章中登记的悬空引用 · 初始置信度：高
+- 2026-06-13 · 修订（rev2）· 添加经皮质牵张反射弧（transcortical-stretch-reflex）关联 · 3a区作为M2/M3经皮质回路必要节点（Ia传入第一皮层站） · 基于文章 #180《反射的第二次进化》
 
 ## 来源文章
 
 - [[2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway]]
+- [[2026-06-13-transcortical-stretch-reflex-long-latency]]

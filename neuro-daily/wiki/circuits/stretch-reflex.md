@@ -7,9 +7,9 @@ status: established
 confidence: high
 created: 2026-06-13
 updated: 2026-06-13
-revision_count: 1
+revision_count: 2
 dimensions: [cellular, synaptic, microcircuit, behavior]
-related: [muscle-spindle, alpha-motor-neuron, gamma-motor-neuron, golgi-tendon-organ, ia-inhibitory-interneuron, renshaw-cell, presynaptic-inhibition-ia, spinal-cord-cpg, corticospinal-tract, somatosensory-cortex-3a, spinal-interneurons-locomotion, motor-cortex]
+related: [muscle-spindle, alpha-motor-neuron, gamma-motor-neuron, golgi-tendon-organ, ia-inhibitory-interneuron, renshaw-cell, presynaptic-inhibition-ia, spinal-cord-cpg, corticospinal-tract, somatosensory-cortex-3a, spinal-interneurons-locomotion, motor-cortex, transcortical-stretch-reflex]
 prerequisites: [muscle-spindle, alpha-motor-neuron, gamma-motor-neuron, synaptic-transmission, action-potential]
 opens_questions: [Q-stretch-01, Q-stretch-02, Q-stretch-03]
 source_articles: [2026-06-13-stretch-reflex-arc]
@@ -70,11 +70,13 @@ Mendell & Henneman（1971）的解剖研究：单根 Ia 纤维与~300个同名 �
 
 这种**反射极性反转**由脊髓中间神经元的"功能单元"组织实现（Hultborn 2001）。
 
-### 长潜伏期牵张反射
+### 长潜伏期牵张反射（M2/M3）
 
-- M1 成分（~25–35 ms）：脊髓单突触，增益相对固定
-- M2 成分（~50–80 ms）：涉及皮层（S1 → M1 → 脊髓），任务依赖性
-- M3 成分（~80–120 ms）：皮层随意反应，高度可塑
+- **M1 成分（~20–28 ms，上肢）**：脊髓单突触（Ia→α-MN），增益相对固定，不受任务目标影响
+- **M2 成分（~50–75 ms）**：经皮质回路（3a区→M1→CST），目标依赖性可调；M1神经元在扰动后~35 ms已出现目标依赖分化（Pruszynski et al. 2014，PMID:24672006）
+- **M3 成分（~75–120 ms）**：高度任务依赖，与随意反应时间窗重叠，可完全随意抑制
+- 三成分共同叠加，产生"智能牵张反射"：快速但固定的脊髓保护+稍慢但智能的皮层纠偏
+- 详见 [[transcortical-stretch-reflex]] 页面
 
 ## 关键证据
 
@@ -101,6 +103,7 @@ Mendell & Henneman（1971）的解剖研究：单根 Ia 纤维与~300个同名 �
 - [[corticospinal-tract]] — 皮质脊髓束调控突触前抑制，实现随意运动时的反射增益管理
 - [[somatosensory-cortex-3a]] — Ia 传入经丘脑 VPLc → 3a 区，参与长潜伏期反射上行通路
 - [[motor-cortex]] — 参与长潜伏期牵张反射（M2/M3 成分）；预先配置反射增益状态
+- [[transcortical-stretch-reflex]] — M2/M3 成分的专属页面，含目标依赖调制和多关节整合机制详解
 
 ## 未解问题
 
@@ -111,6 +114,7 @@ Mendell & Henneman（1971）的解剖研究：单根 Ia 纤维与~300个同名 �
 ## 修订历史
 
 - 2026-06-13 · 创建（rev1）· 填补悬空引用 `stretch-reflex` · 基于文章 #179《脊髓最短捷径》· 初始置信度：高
+- 2026-06-13 · 修订（rev2）· 扩充 M2/M3 成分描述；添加 transcortical-stretch-reflex 关联 · 基于文章 #180《反射的第二次进化》
 
 ## 来源文章
 
