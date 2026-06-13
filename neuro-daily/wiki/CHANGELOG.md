@@ -4,6 +4,39 @@
 
 ---
 
+## 2026-06-13（文章 #173：进化写下的专线——皮质脊髓束如何让人类获得世界上最灵巧的双手）
+
+### 新建 wiki 页面（2 页）
+
+- `systems/corticospinal-tract.md`（皮质脊髓束）：Rev1 创建；多元皮层起源（M1/PMC/SMA/S1）；延髓锥体交叉（~85%）；终止分布（59%中间灰质/18%直达运动核）；PlexA1/CIS分子调控 CM 连接保留；物种进化楼梯（啮齿类→灵长类）；ALS split-hand 机制；CST 发育（青春期完成）；与其他下行通路比较（红核/网状/本体脊髓）；填补 motor-cortex 页面悬空引用；状态 established / confidence: high。
+- `concepts/corticomotoneuronal-connections.md`（皮质-运动神经元直接连接）：Rev1 创建；直接单突触皮层→α-MN；猕猴 75% 上肢 MN 接受单突触投射；Lawrence&Kuypers 1968 经典实验；C5 vs 延髓锥体切断比较；CM 系统脆弱性与 ALS；状态 established / confidence: high。
+
+### 修订 wiki 页面（2 页）
+
+- `systems/motor-cortex.md` rev4→rev5：更新 corticospinal-tract 引用（"待建页面"→正式页）；补充 CST 终止数据（59%中间灰质/18%直达运动核）；key_sources 新增 PMID:30906528, PMID:24312077。
+- `neurons/alpha-motor-neuron.md` rev3→rev4：related 新增 corticospinal-tract 和 corticomotoneuronal-connections；修订历史追加；source_articles 加入 #173。
+
+### 图谱变化
+
+- 新建节点 2 个：corticospinal-tract、corticomotoneuronal-connections
+- 新增边 13 条：包括 motor-cortex→corticospinal-tract（mechanism-of）、corticospinal-tract→alpha-motor-neuron（regulates）、corticospinal-tract→corticomotoneuronal-connections（part-of）、corticomotoneuronal-connections→alpha-motor-neuron（mechanism-of）、cerebellum/basal-ganglia→corticospinal-tract（regulates）等
+- 图谱状态：350 节点，1991 边
+
+### 登记/裁决矛盾
+
+- 无新矛盾登记（CST 轴突数量传统估计与精确有髓纤维计数差异已在文章中明确注释为方法差异，非科学矛盾）。
+- 新增未解问题：Q-cst-01（人类CM分布图），Q-cst-02（ALS由上至下vs由下至上），Q-cst-03（CST损伤可塑性时间窗），Q-cst-04（红核脊髓束人类状态）。
+
+### 填补悬空引用
+
+- `corticospinal-tract`（来自 motor-cortex.md related 列表）✓ 已填补
+
+### 新增悬空引用待补
+
+- 无新增悬空引用
+
+---
+
 ## 2026-10-10（文章 #172：感觉会自我校准的尺子——肌梭、γ 运动神经元与本体感觉的分子回路）
 
 ### 新建 wiki 页面（4 页）

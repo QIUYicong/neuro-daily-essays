@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-12（**#171** CNTNAP2语言回路布线基因——FOXP2→CNTNAP2直接调控轴、Caspr2旁节K+通道聚簇、PV+神经元迁移异常、人类额叶左侧化表达、SLI/ASD遗传关联、FOXP2调控264个轴突导向靶基因（Vernes 2011）；Q-SLF-03候选机制（emerging）；新建1页：cntnap2-language-circuit；修订2页：foxp2-language-gene rev2, superior-longitudinal-fasciculus rev2；图谱 **343** 节点，**1965** 边）· 主题页总数：**316**
+> 最后更新：2026-06-13（**#173** 皮质脊髓束——CM直达连接的进化机制（PlexA1/CIS调控），猕猴75%上肢MN接受单突触CST投射，C5损伤后本体脊髓代偿>90%，ALS split-hand综合征，"dying forward"假说；新建2页：corticospinal-tract（systems）、corticomotoneuronal-connections（concepts）；修订3页：motor-cortex rev5、alpha-motor-neuron rev4；图谱 **350** 节点，**1991** 边）· 主题页总数：**318**
 
 ---
 
@@ -258,7 +258,9 @@
 
 ## motor（运动系统）
 
-- 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；群体向量编码；旋转动力学；输出零空间；**新增：与脊髓CPG分层委托架构（修订2026-10-07 rev4）**
+- 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；群体向量编码；旋转动力学；输出零空间；与脊髓CPG分层委托架构（修订 rev5 2026-06-13）
+- 🟢 [皮质脊髓束](systems/corticospinal-tract.md) — 延髓锥体交叉（~85%）；多元皮层起源；CM直达连接（灵长类特有）；PlexA1/CIS分子开关；ALS split-hand；发育至青春期 **[NEW 2026-06-13 #173]**
+- 🟢 [皮质-运动神经元直接连接](concepts/corticomotoneuronal-connections.md) — 皮层→α-MN单突触连接；高等灵长类特有；精准握持不可替代；Lawrence&Kuypers 1968经典实验 **[NEW 2026-06-13 #173]**
 - 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订 rev3 2026-08-08 #107]**
 - 🟢 [深部小脑核（DCN）](systems/deep-cerebellar-nuclei.md) — 小脑输出门与程序性运动记忆存储库；三核团（齿状核/间位核/顶核）；前间位核因果损毁→CR消失UR保留（Thompson 1997）；DCN LTP 将皮层 LTD 的快速适应巩固为持久记忆（两相模型）；小脑-基底神经节直接皮层下连接（Bostan 2018）**[NEW 2026-08-08 #107]**
 - 🟢 [下橄榄核（IO）](systems/inferior-olive.md) — 小脑的教师核团；缝隙连接（Cx36）同步振荡；T型Ca²⁺驱动阈下振荡；TMEM16B调节时序精度；CF奖励信号新发现（Jin & Hull 2025，待复现）；DCN抑制性反馈自动关闭学习 **[NEW 2026-08-08 #107]**

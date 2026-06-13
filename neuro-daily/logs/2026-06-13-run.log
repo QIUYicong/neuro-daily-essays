@@ -127,3 +127,65 @@
 **Commit hash**：1a56f1a2fc0856f0b8879453bbfbd13cff660175
 **推送状态**：成功
 **推送分支**：claude/funny-einstein-zufvxs → origin + claude/funny-einstein-zufvxs:main
+
+---
+
+# 文章 #173：皮质脊髓束与皮质-运动神经元直接连接（2026-06-13 第三次运行）
+
+**运行时间**：2026-06-13 08:00 UTC+8
+**文章序号**：第 173 篇
+**运行状态**：完成
+**分支**：main
+
+## 检索过程
+
+### 搜索词（PubMed E-utilities）
+- `corticospinal tract review primate dexterity anatomy`
+- `corticomotoneuronal connections Lawrence Kuypers primate direct connection`
+- `corticospinal tract ALS upper motor neuron degeneration TDP43`
+- `corticospinal tract axon number human myelination development`
+- `direct indirect pathways motor cortex dexterity motoneurons`
+
+### 候选文章数
+- 初始候选：约 50 篇
+- 最终纳入：14 篇
+
+### 采用来源
+1. PMID:30906528 (PMC6415323) - Lemon 2019 - F1000Research - **开放全文** - 核心综述：CM系统，PlexA1/CIS机制
+2. PMID:24312077 (PMC3833094) - Isa等2013 - Front Neurol - **开放全文** - CM vs间接通路，C5损伤恢复
+3. PMID:34066053 - Lemon 2021 - Brain Sciences - **开放获取** - ALS split-hand，Kv3.1b
+4. PMID:18558853 - Lemon 2008 - 摘要 - 下行通路综述
+5. PMID:9949822 - Lemon等1998 - 摘要 - 猕猴75%上肢MN单突触证据
+6. PMID:14277841 - Lawrence&Kuypers 1965 - 摘要 - 经典实验前驱
+7. PMID:27706924 - Welniarz等2017 - 摘要 - CST进化发育
+8. PMID:29698882 - Yoshida&Isa 2018 - 摘要 - CM进化，啮齿类新生期
+9. PMID:23264687 - Vucic等2013 - 摘要 - ALS TMS证据
+10. PMID:12707426 - Ince等2003 - 摘要 - PMA 50%隐性CST退化
+11. PMID:34663622 - Nitert等2022 - 摘要 - MRI早期检测CST退化
+12. PMID:40784541 - Haidar等2025 - 摘要 - dying forward假说
+13. PMID:11392010 - Wada等2001 - 摘要 - 人类CST有髓纤维计数
+14. PMID:10372573 - Iwaniuk等1999 - 摘要 - 69种哺乳动物CST vs灵巧度
+
+## 文章写作
+- **题目**：进化写下的专线：皮质脊髓束如何让人类获得世界上最灵巧的双手
+- **核心问题**：CM直达单突触连接为什么是灵长类特有的，PlexA1/CIS分子机制是什么？
+- **字数**：约 5500 字
+- **文件**：`articles/2026-06-13-corticospinal-tract-cm-dexterity.md`
+
+## 固结步骤
+- **新建 wiki（2页）**：systems/corticospinal-tract.md（established/high）、concepts/corticomotoneuronal-connections.md（established/high）
+- **修订 wiki（2页）**：motor-cortex rev4→rev5（更新CST引用）、alpha-motor-neuron rev3→rev4（补充CST输入）
+- **矛盾检查**：无新矛盾（CST轴突数量差异为方法差异，非科学矛盾）
+- **悬空引用填补**：corticospinal-tract ✓（来自motor-cortex related列表）
+
+## 图谱更新
+- 新增节点：2（corticospinal-tract, corticomotoneuronal-connections）
+- 新增边：13
+- 当前图谱：350 节点，1991 边
+
+## Git 操作
+- **分支**：main
+- **commit message**：Add neuro daily article + wiki consolidation for 2026-06-13
+
+**Commit hash**：[待更新]
+**推送状态**：[待更新]

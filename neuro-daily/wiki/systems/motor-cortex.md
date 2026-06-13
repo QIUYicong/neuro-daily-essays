@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-21
-updated: 2026-10-07
-revision_count: 4
+updated: 2026-06-13
+revision_count: 5
 dimensions: [brain-region, cellular, behavior, cognition]
 related: [corticospinal-tract, basal-ganglia, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, somatosensory-cortex, prefrontal-cortex, language-network, cerebellum, forward-model, embodied-semantics, spinal-cord-cpg, spinal-interneurons-locomotion]
 prerequisites: [action-potential, voltage-gated-calcium-channels, pyramidal-neuron]
 opens_questions: [Q-mc-01, Q-mc-02, Q-mc-03]
 source_articles: [2026-06-21-motor-cortex-voluntary-movement]
-key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928", "PMID:14741110", "PMID:15733097"]
+key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928", "PMID:14741110", "PMID:15733097", "PMID:30906528", "PMID:24312077"]
 ---
 
 # 运动皮层 (Motor Cortex)
@@ -79,7 +79,7 @@ key_sources: ["PMID:22722855", "PMID:24487233", "PMID:3749885", "PMID:32640928",
 - [[population-vector-coding]] — 方向信息的分布式群体编码
 - [[rotational-dynamics-motor]] — 执行期旋转动力学
 - [[output-null-space]] — 准备活动的零空间机制
-- [[corticospinal-tract]] — 执行输出通路（待建页面）
+- [[corticospinal-tract]] — 执行输出通路；M1 Betz 细胞提供最快 CST 轴突（~70 m/s）；约 18% 终末直达 α-MN（CM 连接）
 - [[basal-ganglia]] — 运动执行的门控（基底节已建）
 - [[mirror-neurons]] — PMC F5/BA44同源，动作理解
 - [[language-network]] — BA44/F5同源，语言演化
@@ -118,6 +118,7 @@ CPG 研究（Kiehn 2016）揭示了运动皮层与脊髓 CPG 之间的分层委�
 - 2026-06-23 · 修订 · 基于《小脑的秘密》· 新增"小脑-运动皮层闭环"段落（传出拷贝→小脑→DCN→VL丘脑→M1反馈回路）；related 新增 cerebellum, forward-model；连接段新增两项
 - 2026-06-02 · 修订 · 基于《当大脑读到"踢"，脚步已先响》(#65) · 新增具身语义功能维度：运动皮层作为词义的感觉运动辐条；related 新增 embodied-semantics；key_sources 补充 PMID:14741110, PMID:15733097
 - 2026-10-07 · 修订 · 基于《步态的脊髓时钟》(#167) · 新增"运动皮层与CPG的分工"小节（分层委托架构）；related 新增 spinal-cord-cpg, spinal-interneurons-locomotion；明确皮层在基础步行vs复杂地形vs精细手指操作中的差异化卷入程度
+- 2026-06-13 · 修订 · 基于《进化写下的专线：皮质脊髓束》(#173) · 更新 corticospinal-tract 引用（已从"待建"改为正式页）；补充 CST 终止数据（59%中间灰质/18%直达运动核）和 CM 连接描述；key_sources 补充 PMID:30906528, PMID:24312077
 
 ## 来源文章
 

@@ -1,0 +1,208 @@
+{
+  "article": "2026-06-13-corticospinal-tract-cm-dexterity",
+  "article_number": 173,
+  "date": "2026-06-13",
+  "topic": "皮质脊髓束与皮质-运动神经元直接连接",
+  "sources": [
+    {
+      "id": "S173-01",
+      "pmid": "30906528",
+      "pmcid": "PMC6415323",
+      "doi": "10.12688/f1000research.17362.1",
+      "authors": "Lemon R",
+      "year": 2019,
+      "title": "Recent advances in our understanding of the primate corticospinal system",
+      "journal": "F1000Research",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6415323/",
+      "covers": ["CM连接综述", "猕猴CST解剖数据", "PlexA1/CIS分子机制", "ALS split-hand", "CST轴突直径分布"],
+      "key_facts": [
+        "猕猴CST约60万纤维，约3%大径(>3µm)",
+        "M1手区98%终末在对侧脊髓",
+        "终末分布：59%在Rexed VII，18%直达IX层",
+        "最快CM传导约70m/s",
+        "PlexA1突变小鼠保留CM连接→更好手指灵巧度",
+        "CIS调控系统：人类/大猿有，低等灵长类无"
+      ]
+    },
+    {
+      "id": "S173-02",
+      "pmid": "24312077",
+      "pmcid": "PMC3833094",
+      "doi": "10.3389/fneur.2013.00191",
+      "authors": "Isa T, Kinoshita M, Nishimura Y",
+      "year": 2013,
+      "title": "Role of Direct vs. Indirect Pathways from the Motor Cortex to Spinal Motoneurons in the Control of Hand Dexterity",
+      "journal": "Frontiers in Neurology",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3833094/",
+      "covers": ["直接vs间接CM通路比较", "本体脊髓神经元代偿", "C5损伤恢复实验", "红核脊髓束人类状态"],
+      "key_facts": [
+        "C5背外侧索切断→精确握持数周内恢复>90%（N>20）",
+        "延髓锥体切断→独立手指运动永久消失",
+        "人类红核脊髓束颈髓以下接近消失",
+        "PN介导的二突触兴奋可被阻断90%"
+      ]
+    },
+    {
+      "id": "S173-03",
+      "pmid": "34066053",
+      "pmcid": null,
+      "authors": "Lemon RN",
+      "year": 2021,
+      "title": "The Cortical 'Upper Motoneuron' in Health and Disease",
+      "journal": "Brain Sciences",
+      "full_text_available": true,
+      "access_method": "Open access journal (MDPI)",
+      "covers": ["CM细胞皮层分布", "ALS split-hand机制", "Kv3.1b灵长类脆弱性", "CM细胞vs Betz细胞区别"],
+      "key_facts": [
+        "CM细胞来自M1和3a区",
+        "CM连接对ALS split-hand的解释",
+        "TDP-43优先侵及Layer V长轴突神经元",
+        "Kv3.1b钾通道在灵长类锥体神经元高表达"
+      ]
+    },
+    {
+      "id": "S173-04",
+      "pmid": "18558853",
+      "authors": "Lemon RN",
+      "year": 2008,
+      "title": "Descending pathways in motor control",
+      "journal": "Annual Review of Neuroscience",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["下行通路比较综述", "物种差异", "CM功能重新评估"],
+      "note": "未读取全文"
+    },
+    {
+      "id": "S173-05",
+      "pmid": "9949822",
+      "authors": "Lemon RN, Baker SN, Davis JA, Kirkwood PA, Maier MA, Yang HS",
+      "year": 1998,
+      "title": "The importance of the cortico-motoneuronal system for control of grasp",
+      "journal": "Novartis Foundation Symposium",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["猕猴75%上肢MN接受单突触CST投射"],
+      "key_facts": ["75%上肢运动神经元接受单突触CM投射（猕猴，氯醛糖麻醉）"]
+    },
+    {
+      "id": "S173-06",
+      "pmid": "14277841",
+      "authors": "Lawrence DG, Kuypers HGJM",
+      "year": 1965,
+      "title": "Pyramidal and Non-Pyramidal Pathways in Monkeys",
+      "journal": "Science",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["CST对独立手指运动必要性（前驱实验）"],
+      "note": "1968年Brain论文(不在PubMed)的前驱工作"
+    },
+    {
+      "id": "S173-07",
+      "pmid": "27706924",
+      "authors": "Welniarz Q, Dusart I, Roze E",
+      "year": 2017,
+      "title": "The corticospinal tract: Evolution, development, and human disorders",
+      "journal": "Developmental Neurobiology",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["CST进化", "发育分子机制", "锥体交叉比例", "人类CST发育障碍"]
+    },
+    {
+      "id": "S173-08",
+      "pmid": "29698882",
+      "authors": "Yoshida Y, Isa T",
+      "year": 2018,
+      "title": "Neural and genetic basis of dexterous hand movements",
+      "journal": "Current Opinion in Neurobiology",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["CM连接进化", "啮齿类新生期CM短暂存在", "进化分叉"]
+    },
+    {
+      "id": "S173-09",
+      "pmid": "23264687",
+      "authors": "Vucic S, Ziemann U, Eisen A, Hallett M, Kiernan MC",
+      "year": 2013,
+      "title": "Transcranial magnetic stimulation and ALS: pathophysiological insights",
+      "journal": "Journal of Neurology Neurosurgery and Psychiatry",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["ALS皮层超兴奋性", "TMS诊断ALS", "中央起源假说"]
+    },
+    {
+      "id": "S173-10",
+      "pmid": "12707426",
+      "authors": "Ince PG, Evans J, et al.",
+      "year": 2003,
+      "title": "Corticospinal tract degeneration in the progressive muscular atrophy variant of ALS",
+      "journal": "Neurology",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["PMA 50%有CST退化", "ALS上运动神经元隐性损伤"],
+      "key_facts": ["81例MND中PMA组超过50%有CST退化（CD68免疫组化）"]
+    },
+    {
+      "id": "S173-11",
+      "pmid": "34663622",
+      "authors": "Nitert AD, et al.",
+      "year": 2022,
+      "title": "Sensitivity of brain MRI and neurological examination for detection of UMN degeneration in ALS",
+      "journal": "Journal of Neurology Neurosurgery and Psychiatry",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["MRI早期检测CST退化", "运动皮层厚度作为生物标志物"],
+      "key_facts": ["192例ALS+314例对照，MRI早于临床UMN体征检测到CST退化"]
+    },
+    {
+      "id": "S173-12",
+      "pmid": "40784541",
+      "authors": "Haidar M, et al.",
+      "year": 2025,
+      "title": "Cortical hyperexcitability drives dying forward ALS symptoms and pathology in mice",
+      "journal": "未确认",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["dying forward假说", "皮层超兴奋性驱动ALS下行退化"]
+    },
+    {
+      "id": "S173-13",
+      "pmid": "11392010",
+      "authors": "Wada A, et al.",
+      "year": 2001,
+      "title": "Are There One Million Nerve Fibres in the Human Medullary Pyramid?",
+      "journal": "Okajimas Folia Anatomica Japonica",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["人类CST有髓纤维精确计数，质疑100万传统估计"],
+      "key_facts": ["有髓纤维计数约10万量级，低于传统100万估计"]
+    },
+    {
+      "id": "S173-14",
+      "pmid": "10372573",
+      "authors": "Iwaniuk AN, Pellis SM, Whishaw IQ",
+      "year": 1999,
+      "title": "Digital dexterity and corticospinal projections",
+      "journal": "Behavioural Brain Research",
+      "full_text_available": false,
+      "access_method": "摘要",
+      "covers": ["69种哺乳动物CST与手指灵巧度跨物种相关"],
+      "key_facts": ["CST纤维长度与手指灵巧度和手眼协调显著相关（跨物种）"]
+    }
+  ],
+  "summary": {
+    "total_sources": 14,
+    "open_full_text": 3,
+    "abstract_only": 11,
+    "search_queries": [
+      "corticospinal tract review primate dexterity anatomy",
+      "corticomotoneuronal connections Lawrence Kuypers primate",
+      "corticospinal tract ALS upper motor neuron TDP43",
+      "CST development myelination postnatal",
+      "direct indirect pathways motor cortex dexterity"
+    ]
+  }
+}
