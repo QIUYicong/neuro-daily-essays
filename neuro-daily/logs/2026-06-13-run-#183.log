@@ -38,5 +38,5 @@
 - 图谱363节点，悬空引用仅剩：aging, cognition（轻微，暂不处理）
 
 ## commit/push 状态
-- commit hash: [待更新]
-- push: [待执行]
+- commit hash: 6d6005d
+- push: 成功推送到 origin/main（556d073 → 6d6005d）
