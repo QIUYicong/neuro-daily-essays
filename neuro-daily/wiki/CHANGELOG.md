@@ -4,6 +4,22 @@
 
 ---
 
+## 2026-06-14（文章 #187：三系统动态协奏——基底神经节、小脑与运动皮层如何联合把笨拙变成流畅）
+
+**创建新页**：
+- `wiki/concepts/bg-cerebellum-interaction.md`（rev1）：BG-小脑双突触互联机制——齿状核→板内核→壳核（小脑→BG）；STN→脑桥核→小脑皮层（BG→小脑）；拓扑组织保留；小脑优先调制 BG 间接通路；灵长类追踪证据（Bostan & Strick 2018/2010）；status=established, confidence=high
+
+**修订页面**：
+- `wiki/concepts/motor-learning.md`（rev1→rev2）：①扩展为三系统并行框架（BG分块+小脑内部模型+M1表征存储）；②增加 Lehéricy 2005 纹状体内部轴向迁移证据；③增加 Shadmehr 1997 离线巩固神经重组证据；④增加 Varani 2026 小脑两条输出通路时间分工（CN→CL在线/CN→VAL离线）；⑤增加 Tsay 2024 3R框架；⑥新增连接至 bg-cerebellum-interaction/striatal-chunking/motor-cortex
+
+**图谱变更**：368 节点（+1：bg-cerebellum-interaction），2132 条边（+8：bg-cerebellum-interaction与basal-ganglia/cerebellum/motor-learning的连接；basal-ganglia↔cerebellum双向related；motor-learning→striatal-chunking/motor-cortex）
+
+**新增未解问题**：Q-bgcb-01（双突触通路在技能学习哪个阶段流量最大？）；Q-bgcb-02（小脑优先调制BG间接通路的计算含义）
+
+**登记矛盾**：无（今日发现强化并扩展既有知识，无直接主张冲突）
+
+---
+
 ## 2026-06-13（文章 #186：小脑运动学习的分布式革命——PF LTD 只是冰山一角）
 
 **创建新页**：

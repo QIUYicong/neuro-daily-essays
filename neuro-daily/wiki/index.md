@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#180** 反射的第二次进化——长潜伏期牵张反射M2/M3；新建 1 页：transcortical-stretch-reflex（circuits）；修订 2 页：stretch-reflex rev2、somatosensory-cortex-3a rev2；图谱 **362** 节点，**2078** 边）· 主题页总数：**327**
+> 最后更新：2026-06-14（**#187** 三系统动态协奏——BG/小脑/运动皮层联合技能学习；新建 1 页：bg-cerebellum-interaction（concepts）；修订 1 页：motor-learning rev2（三系统整合+Varani 2026 两通路+3R框架）；图谱 **368** 节点，**2132** 边）· 主题页总数：**328**
 
 ---
 
@@ -170,7 +170,8 @@
 - 🟢 [记忆再巩固](concepts/memory-reconsolidation.md) — 已巩固记忆在提取后短暂回到蛋白质合成依赖状态（Nader 2000 Nature）；去稳定化机制：GluA2内吞+UPS激活；再稳定化：CREB/C/EBP/Zif268；预测误差是必要条件（Sevenster 2013 Science）；临床应用：普萘洛尔+创伤激活削弱PTSD记忆；边界条件（强记忆/老记忆耐受）**[NEW 2026-07-28 #96]**
 - 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
 - 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；与海马 NMDA-LTD 共用最终效应器但触发机制根本不同；Schonewille 2011 证明无 LTD 也能运动学习；Hansel 2026 预印本 400ms 时间窗口 **[NEW 2026-06-23]**
-- 🟢 [运动学习](concepts/motor-learning.md) — 小脑误差驱动（IO-CF→PC LTD→DCN LTP）与基底神经节奖励强化（DA-RPE）双系统框架；两相记忆模型（皮层快速适应→核团缓慢巩固）；眼眨条件反射因果解剖；小脑-基底神经节皮层下互联 **[NEW 2026-08-08 #107]**
+- 🟢 [运动学习](concepts/motor-learning.md) — 三系统并行：小脑（误差驱动+内部模型）/BG（强化+分块）/M1（表征存储）；两阶段动态（快速习得→缓慢自动化）；Varani 2026 小脑两条输出通路时间分工（CN→CL在线/CN→VAL离线）；Tsay 2024 3R框架；眼眨条件反射因果解剖 **[修订 rev2 2026-06-14 #187]**
+- 🟢 [BG-小脑双突触互联](concepts/bg-cerebellum-interaction.md) — 齿状核→板内核→壳核（小脑→BG）；STN→脑桥核→小脑皮层（BG→小脑）；拓扑组织保留；小脑优先调制 BG 间接通路；打破"两系统孤立并行"经典图景（Bostan & Strick 2018/2010） **[NEW 2026-06-14 #187]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
 - 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器 **[NEW 2026-06-04]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**

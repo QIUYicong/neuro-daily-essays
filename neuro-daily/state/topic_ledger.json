@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-13",
-  "total_articles": 186,
+  "last_updated": "2026-06-14",
+  "total_articles": 187,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12379,6 +12379,89 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-13；知识库序号186；运动学习三联体完结篇（小脑）；核心：分布式可塑性（PF-PC LTD + MLI LTP + DCN LTP）；激发性核橄榄通路（Wang 2023）；model-free implicit mapping（Nguyen & Person 2025）；新建 MLI wiki 页；图谱 367 节点 2124 边"
+    },
+    {
+      "article_number": 187,
+      "date": "2026-06-14",
+      "title": "三系统动态协奏：基底神经节、小脑与运动皮层如何联合把笨拙变成流畅",
+      "slug": "skill-learning-three-systems-bg-cerebellum-cortex",
+      "filename": "2026-06-14-skill-learning-three-systems-bg-cerebellum-cortex.md",
+      "article_type": "regular",
+      "core_question": "基底神经节（强化学习+分块）、小脑（误差驱动+内部模型）、运动皮层（表征存储）三个系统如何并行协调，将运动行为从刻意努力转变为自动化流畅？BG 与小脑之间是否有直接解剖连接？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "4. 学习和记忆 → 运动技能三系统整合视角；运动系统课程跨系统综合篇（衔接 #184-#186 运动学习三联体，向情绪与动机章节过渡）",
+      "topic_tags": [
+        "motor-skill-learning",
+        "basal-ganglia",
+        "cerebellum",
+        "motor-cortex",
+        "striatal-chunking",
+        "internal-model",
+        "motor-consolidation",
+        "bg-cerebellar-interaction",
+        "Doyon",
+        "Penhune-Steele-2012",
+        "Bostan-Strick-2018",
+        "Bostan-Strick-2010",
+        "Shadmehr-Holcomb-1997",
+        "Lehericy-2005",
+        "Tsay-2024-3R",
+        "Varani-2026",
+        "CN-CL-pathway",
+        "CN-VAL-pathway",
+        "associative-striatum",
+        "sensorimotor-putamen",
+        "disynaptic-pathway",
+        "motor-learning-stages",
+        "fast-learning",
+        "slow-consolidation",
+        "implicit-explicit-learning"
+      ],
+      "main_sources": [
+        "PMID:29643480 / PMC6503669（Bostan & Strick 2018, Nat Rev Neurosci）- 开放全文",
+        "PMID:20404184 / PMC2889518（Bostan et al. 2010, PNAS）- 开放全文",
+        "PMID:22004979（Penhune & Steele 2012, Behav Brain Res）- 仅摘要",
+        "PMID:16107540（Lehéricy et al. 2005, PNAS）- 仅摘要",
+        "PMID:9242612（Shadmehr & Holcomb 1997, Science）- 仅摘要",
+        "PMID:12457751（Doyon et al. 2003, Neuropsychologia）- 仅摘要",
+        "PMID:15831397（Doyon & Benali 2005, Curr Opin Neurobiol）- 仅摘要",
+        "PMID:39087986 / PMC11293869（Tsay et al. 2024, eLife）- 开放全文",
+        "PMID:42017796 / PMC13102391（Varani et al. 2026, eLife）- 开放全文"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/bg-cerebellum-interaction.md（rev1）"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/motor-learning.md（rev1→rev2）：扩展为三系统并行框架；增加 Lehéricy 2005/Shadmehr 1997/Varani 2026/Tsay 2024；新增连接 bg-cerebellum-interaction/striatal-chunking/motor-cortex；key_sources 扩充至10条"
+      ],
+      "graph_nodes_added": [
+        "bg-cerebellum-interaction"
+      ],
+      "graph_nodes_updated": [
+        "motor-learning"
+      ],
+      "graph_edges_added": 8,
+      "graph_state": "368 节点，2132 边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-bgcb-01",
+        "Q-bgcb-02"
+      ],
+      "next_suggested_topics": [
+        "情绪与动机（杏仁核基础）——课程脊柱第6章开篇（已有 amygdala.md，适合写恐惧记忆的完整回路综合）",
+        "贝叶斯感觉整合——多感觉融合（视觉+本体感觉+前庭）的神经机制",
+        "小脑认知功能——CCAS 综合征（Crus I/II 区域与执行功能/语言，接续小脑系列）",
+        "运动适应 vs 运动技能学习的神经分离（深化 Doyon 2003 框架，加入适应领域最新证据）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-14（注：多次运行日当天已有多篇2026-06-13文章）；知识库序号#187；运动系统课程跨系统综合篇；核心：三系统并行（BG分块+小脑内部模型+M1存储）；BG-小脑双突触互联（Bostan 2018 打破并行神话）；Varani 2026 CN→CL/VAL通路时间分工；图谱 368 节点 2132 边"
     }
   ],
   "layer_coverage_recent": [

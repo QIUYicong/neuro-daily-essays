@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-13",
+  "updated": "2026-06-14",
   "node_count": 362,
   "edge_count": 2078,
   "edge_types": [
@@ -3320,6 +3320,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/molecular-layer-interneurons.md"
+    },
+    {
+      "id": "bg-cerebellum-interaction",
+      "title": "基底神经节-小脑双突触互联",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/bg-cerebellum-interaction.md"
     }
   ],
   "edges": [
@@ -14553,6 +14562,46 @@
       "to": "inferior-olive",
       "type": "regulates",
       "note": "DCN 通过激发性（谷氨酸能顶核→IO）和抑制性双路径调控 IO（Wang 2023，PMID:37474638）"
+    },
+    {
+      "from": "bg-cerebellum-interaction",
+      "to": "basal-ganglia",
+      "type": "part-of"
+    },
+    {
+      "from": "bg-cerebellum-interaction",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "bg-cerebellum-interaction",
+      "to": "motor-learning",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "cerebellum",
+      "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "motor-learning",
+      "to": "bg-cerebellum-interaction",
+      "type": "related"
+    },
+    {
+      "from": "motor-learning",
+      "to": "striatal-chunking",
+      "type": "related"
+    },
+    {
+      "from": "motor-learning",
+      "to": "motor-cortex",
+      "type": "related"
     }
   ],
   "dangling_references": [
