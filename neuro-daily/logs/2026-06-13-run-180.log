@@ -1,0 +1,123 @@
+# 运行日志 #180
+
+日期（UTC+8）：2026-06-13
+文章编号：#180
+文章 slug：long-latency-stretch-reflex-transcortical-loop
+
+---
+
+## 状态读取
+
+- topic_ledger.json：161 条记录（读取前 160 条）
+- unresolved_questions.md：含 Q-llr 系列待补充（本次新增）
+- contested_claims.json：16 条 open（无针对本文主题的直接矛盾）
+- _graph.json：360 节点，2070 边（读取时）
+- 最后文章：#179 牵张反射弧（2026-06-13）
+
+---
+
+## 选题决策
+
+**驱动机制**：gap_filling + curriculum_spine
+
+- #179 文章 next_suggested_topics 中排首位："运动学习的神经机制"，但 wiki 中 motor-learning 已是 established/high
+- 检查图谱缺口：`long-latency-stretch-reflex` 不存在；`optimal-feedback-control` 不存在
+- #179 文章本身已有 M2/M3 简要提及，但无独立页面
+- 选定：LLR + 经皮质回路 + OFC 框架 = 天然续篇 + 真实缺口
+
+---
+
+## 检索记录
+
+| 搜索词 | 数据源 | 候选 | 采用 | 排除 |
+|------|--------|------|------|------|
+| long-latency stretch reflex transcortical pathway M1 | WebSearch | 6 | 3 | 3（无开放全文/重复） |
+| long-latency stretch reflex functional role review 2020-2025 | WebSearch | 7 | 2 | 5（较旧/低相关） |
+| Pruszynski 2014 PMC4164001 | WebFetch | 1 | 1 | 0 |
+| PMC4310276 Kurtzer 2015 | WebFetch | 1 | 1 | 0 |
+| PMC4686281 Weiler 2015 | WebFetch | 1 | 1 | 0 |
+| PMC2791059 Shemmell 2009 | WebFetch | 1 | 1 | 0 |
+| PMC10899434 Shirzadian 2024 | WebFetch | 1 | 1 | 0 |
+| PMID:22370742 Pruszynski & Scott 2012 | PubMed | 1 | 1 | 0（仅摘要） |
+| PMID:6737294 Cheney & Fetz 1984 | PubMed | 1 | 1 | 0（历史摘要） |
+
+---
+
+## 采用来源
+
+1. PMID:25309359 / PMC4164001 - 开放全文 ✓
+2. PMID:22370742 - 摘要（付费）
+3. PMID:26445871 / PMC4686281 - 开放全文 ✓
+4. PMID:25688187 / PMC4310276 - 开放全文 ✓
+5. PMID:19846713 / PMC2791059 - 开放全文 ✓
+6. PMID:38419960 / PMC10899434 - 开放全文 ✓
+7. PMID:6737294 - 历史摘要（1984年，J Neurophysiol）
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页面
+- wiki/circuits/long-latency-stretch-reflex.md（rev1，established/high）
+- wiki/concepts/optimal-feedback-control.md（rev1，mainstream/medium）
+
+### 修订 wiki 页面
+- wiki/circuits/stretch-reflex.md（rev1→rev2）：added LLR/OFC related links
+- wiki/concepts/forward-model.md（rev3→rev4）：added LLR evidence for cerebellar gain modulation
+
+### 矛盾检查
+- 无新矛盾登记
+- LLR的"M1主导 vs 脑干主导"（Shemmell 2009）是任务依赖现象，已在wiki"当前理解"中如实标注
+
+### 成熟度更新
+- long-latency-stretch-reflex: established/high（直接证据多、独立）
+- optimal-feedback-control: mainstream/medium（强理论框架，神经实现细节仍在研究）
+
+---
+
+## 图谱更新
+
+- 新节点：2（long-latency-stretch-reflex, optimal-feedback-control）
+- 新边：16
+- 最终：362 节点，2086 边
+
+---
+
+## 悬空引用状态
+
+- 读取时：aging, cognition（2个，保留）
+- 本次修复：long-latency-stretch-reflex（从stretch-reflex页面隐性悬空到显式连接）
+- 本次新增悬空：无
+
+---
+
+## 失败与限制
+
+- PMID:22370742（Pruszynski & Scott 2012）未读取全文（付费墙），已在来源中标注"摘要"
+- PMID:6737294（Cheney & Fetz 1984）为1984年历史文献，PMC1250363可能有扫描版但未访问
+- 近期（2023-2025）没有找到独立的LLR系统综述，综述文献来自2012-2015
+
+---
+
+## 文件路径
+
+- 文章：neuro-daily/articles/2026-06-13-long-latency-stretch-reflex-transcortical-loop.md
+- 笔记：neuro-daily/notes/2026-06-13-reading-notes-llr.md
+- 来源：neuro-daily/sources/2026-06-13-sources-llr.json
+- 日志：neuro-daily/logs/2026-06-13-run-180.log
+
+---
+
+## Git 操作
+
+- 分支：claude/funny-einstein-exo2tz
+- commit：待生成
+- push：待完成
+
+## 状态
+
+✓ 文章已生成
+✓ wiki 新建 2 页，修订 2 页
+✓ 图谱更新完成
+✓ 治理文件更新完成
+→ 待 git commit + push

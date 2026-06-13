@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-06-13（文章 #180：快反射的皮层真相——长潜伏期牵张反射与经皮质反射回路）
+
+### 新建 wiki 页面（2 页）
+
+- `circuits/long-latency-stretch-reflex.md`（长潜伏期牵张反射）：Rev1 创建；填补 stretch-reflex 页面中"M2/M3 长潜伏期成分"的悬空语义缺口；经皮质通路三条独立证据线（CM细胞记录23.4ms / Klippel-Feil双边M2 / TMS特异性抑制）；六大"智能"特征（目标依赖65ms同步 / 力矩而非位移响应 / 跨关节整合 / 视觉状态估计依赖 / 可学习 / 小脑增益调制）；路径：Ia传入→脊髓→脑干→丘脑VPLc/VLc→S1→M1→CST→α-MN；状态 established / confidence: high。（PMID:25309359,26445871,25688187,19846713,38419960,6737294）
+- `concepts/optimal-feedback-control.md`（最优反馈控制）：Rev1 创建；OFC 框架统一 SLR/LLR/随意运动——三者最小化同一任务相关代价函数，只在时间尺度上不同；三要素（状态估计/代价函数/反馈控制律）；神经底物（M1整合 / 小脑前向模型 / 基底神经节代价权重 / 顶叶5区状态估计）；关键预测已被 Weiler 2015 / Kurtzer 2015 验证；状态 mainstream / confidence: medium（理论框架，神经实现细节仍在研究）。
+
+### 修订 wiki 页面（2 页）
+
+- `circuits/stretch-reflex.md` rev1→rev2：related 新增 long-latency-stretch-reflex、optimal-feedback-control；连接节新增 LLR 和 OFC 链接；key_sources 补充 PMID:25309359/26445871；source_articles 新增 #180；修订历史追加。
+- `concepts/forward-model.md` rev3→rev4：related 新增 long-latency-stretch-reflex、optimal-feedback-control；连接节新增两个链接；key_sources 补充 PMID:25688187（小脑损伤患者 LLR 幅度降低，支持前向模型调制 LLR 增益）；source_articles 新增 #180；修订历史追加。
+
+### 图谱变化
+
+- 新建节点 2 个：long-latency-stretch-reflex、optimal-feedback-control
+- 新增边 16 条（双向连接：LLR↔stretch-reflex / LLR→motor-cortex / LLR→corticospinal-tract / LLR→somatosensory-cortex-3a / muscle-spindle→LLR / LLR→alpha-motor-neuron / LLR→forward-model / LLR→optimal-feedback-control / cerebellum→LLR / corticomotoneuronal-connections→LLR / OFC→LLR / OFC→motor-cortex / forward-model→OFC / motor-learning→OFC / predictive-coding→OFC / OFC→stretch-reflex）
+- 图谱状态：**362 节点，2086 边**
+
+### 登记/裁决矛盾
+
+- 无新矛盾登记。LLR 的"脑干 vs M1 路径切换"（Shemmell 2009）是已知的任务依赖现象，不构成主张冲突，已在 LLR wiki 页"关键机制"节如实说明。
+
+### 新增悬空引用待补
+
+- `transcortical-reflex-loop`：与 `long-latency-stretch-reflex` 高度重叠，可作为同义 slug 别名处理，暂不单独建页。
+- `spasticity`：#179-#180 均涉及牵张反射失调导致的痉挛，可作为下一篇"疾病作为窗口"主题。
+
+---
+
 ## 2026-06-13（文章 #177：3a区——皮层本体感觉的第一站与运动控制的感觉门）
 
 ### 新建 wiki 页面（1 页）

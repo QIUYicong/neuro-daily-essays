@@ -3257,6 +3257,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/renshaw-cell.md"
+    },
+    {
+      "id": "long-latency-stretch-reflex",
+      "title": "长潜伏期牵张反射",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/long-latency-stretch-reflex.md"
+    },
+    {
+      "id": "optimal-feedback-control",
+      "title": "最优反馈控制",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/optimal-feedback-control.md"
     }
   ],
   "edges": [
@@ -14212,6 +14230,86 @@
     },
     {
       "from": "golgi-tendon-organ",
+      "to": "stretch-reflex",
+      "type": "related"
+    },
+    {
+      "from": "stretch-reflex",
+      "to": "long-latency-stretch-reflex",
+      "type": "related"
+    },
+    {
+      "from": "long-latency-stretch-reflex",
+      "to": "motor-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "long-latency-stretch-reflex",
+      "to": "corticospinal-tract",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "long-latency-stretch-reflex",
+      "to": "somatosensory-cortex-3a",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "muscle-spindle",
+      "to": "long-latency-stretch-reflex",
+      "type": "supports"
+    },
+    {
+      "from": "long-latency-stretch-reflex",
+      "to": "alpha-motor-neuron",
+      "type": "regulates"
+    },
+    {
+      "from": "long-latency-stretch-reflex",
+      "to": "forward-model",
+      "type": "related"
+    },
+    {
+      "from": "long-latency-stretch-reflex",
+      "to": "optimal-feedback-control",
+      "type": "supports"
+    },
+    {
+      "from": "cerebellum",
+      "to": "long-latency-stretch-reflex",
+      "type": "regulates"
+    },
+    {
+      "from": "corticomotoneuronal-connections",
+      "to": "long-latency-stretch-reflex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "optimal-feedback-control",
+      "to": "long-latency-stretch-reflex",
+      "type": "related"
+    },
+    {
+      "from": "optimal-feedback-control",
+      "to": "motor-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "forward-model",
+      "to": "optimal-feedback-control",
+      "type": "supports"
+    },
+    {
+      "from": "motor-learning",
+      "to": "optimal-feedback-control",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "optimal-feedback-control",
+      "type": "related"
+    },
+    {
+      "from": "optimal-feedback-control",
       "to": "stretch-reflex",
       "type": "related"
     }

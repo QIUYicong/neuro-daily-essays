@@ -7,13 +7,13 @@ status: mainstream
 confidence: medium
 created: 2026-06-23
 updated: 2026-06-13
-revision_count: 3
+revision_count: 4
 dimensions: [brain-region, cognition, behavior, cellular, microcircuit]
-related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy, active-inference, proprioceptive-prediction, deep-cerebellar-nuclei, spinocerebellar-tracts]
+related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy, active-inference, proprioceptive-prediction, deep-cerebellar-nuclei, spinocerebellar-tracts, long-latency-stretch-reflex, optimal-feedback-control]
 prerequisites: [cerebellum, motor-cortex]
 opens_questions: [Q-cb-01, Q-fm-01, Q-fep-01]
-source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-02-cerebellum-active-inference-proprioceptive-prior, 2026-06-13-spinocerebellar-tracts-dsct-vsct]
-key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942", "PMID:30627965", "PMID:23613538"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-02-cerebellum-active-inference-proprioceptive-prior, 2026-06-13-spinocerebellar-tracts-dsct-vsct, 2026-06-13-long-latency-stretch-reflex-transcortical-loop]
+key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942", "PMID:30627965", "PMID:23613538", "PMID:25688187"]
 ---
 
 # 前向模型 (Forward Model)
@@ -72,6 +72,8 @@ key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942"
 - [[world-model]] — 前向模型是更广义世界模型的一个专用子系统（运动领域）
 - [[cerebellar-ltd]] — 误差信号驱动前向模型更新的分子机制
 - [[spinocerebellar-tracts]] — 前向模型计算的关键输入通道（感觉 + CPG 混合信号）
+- [[long-latency-stretch-reflex]] — LLR 是前向模型参与运动控制的近实时表现（小脑调制 LLR 增益）
+- [[optimal-feedback-control]] — OFC 框架在计算级与前向模型互补（前向模型实现状态估计，OFC 定义代价函数）
 
 ## 未解问题
 
@@ -87,6 +89,7 @@ key_sources: ["PMID:21227230", "PMID:33203932", "PMID:41451122", "PMID:40523942"
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：中（间接证据为主，计算框架合理但神经底物细节待确认）
 - 2026-09-02 · 修订（rev1→rev2）· 基于《小脑作为主动推断引擎》· 新增：主动推断视角（本体感觉先验，逆向模型被脊髓代替，Parr et al. 2025）；直接神经证据（Tanaka 2019，R²=0.89）；登记新矛盾 C-2026-09-02-01（内部模型 vs 前馈映射）；扩展 dimensions、related、key_sources
 - 2026-06-13 · 修订（rev2→rev3）· 基于《双轨信使：脊髓小脑束》(#176) · 新增：脊髓小脑束作为前向模型输入通道的关键证据（DSCT 70% 受 CPG 驱动）；新增 spinocerebellar-tracts 到 related；更新 key_sources 和 source_articles
+- 2026-06-13 · 修订（rev3→rev4）· 基于文章 #180《快反射的皮层真相》· 新增：LLR 作为小脑通过前向模型调制近实时运动增益的行为证据（Kurtzer 2015，小脑损伤患者 LLR 模式保留但幅度降低）；新增 long-latency-stretch-reflex 和 optimal-feedback-control 到 related；补充 PMID:25688187
 
 ## 来源文章
 

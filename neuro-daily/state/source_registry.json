@@ -12753,6 +12753,140 @@
         "area 3a nociception",
         "C-fiber responses"
       ]
+    },
+    {
+      "pmid": "25309359",
+      "pmcid": "PMC4164001",
+      "title": "Primary motor cortex and fast feedback responses to mechanical perturbations",
+      "authors": [
+        "Pruszynski JA"
+      ],
+      "year": 2014,
+      "journal": "Front Integr Neurosci",
+      "used_in_articles": [
+        "2026-06-13-long-latency-stretch-reflex-transcortical-loop"
+      ],
+      "topics_covered": [
+        "LLR",
+        "transcortical pathway",
+        "M1",
+        "CM cells"
+      ]
+    },
+    {
+      "pmid": "22370742",
+      "title": "Optimal feedback control and the long-latency stretch response",
+      "authors": [
+        "Pruszynski JA",
+        "Scott SH"
+      ],
+      "year": 2012,
+      "journal": "Exp Brain Res",
+      "used_in_articles": [
+        "2026-06-13-long-latency-stretch-reflex-transcortical-loop"
+      ],
+      "topics_covered": [
+        "OFC",
+        "LLR",
+        "motor cortex"
+      ]
+    },
+    {
+      "pmid": "26445871",
+      "pmcid": "PMC4686281",
+      "title": "Goal-dependent modulation of the long-latency stretch response",
+      "authors": [
+        "Weiler J",
+        "Gribble PL",
+        "Pruszynski JA"
+      ],
+      "year": 2015,
+      "journal": "Front Hum Neurosci",
+      "used_in_articles": [
+        "2026-06-13-long-latency-stretch-reflex-transcortical-loop"
+      ],
+      "topics_covered": [
+        "LLR goal-dependence",
+        "multi-joint",
+        "65ms onset"
+      ]
+    },
+    {
+      "pmid": "25688187",
+      "pmcid": "PMC4310276",
+      "title": "Long-latency reflexes account for limb biomechanics",
+      "authors": [
+        "Kurtzer IL"
+      ],
+      "year": 2015,
+      "journal": "Front Integr Neurosci",
+      "used_in_articles": [
+        "2026-06-13-long-latency-stretch-reflex-transcortical-loop"
+      ],
+      "topics_covered": [
+        "LLR biomechanics",
+        "multi-joint",
+        "cerebellum gain"
+      ]
+    },
+    {
+      "pmid": "19846713",
+      "pmcid": "PMC2791059",
+      "title": "Differential Role of Motor Cortex in Stretch Reflex Modulation",
+      "authors": [
+        "Shemmell J",
+        "An JH",
+        "Perreault EJ"
+      ],
+      "year": 2009,
+      "journal": "J Neurosci",
+      "used_in_articles": [
+        "2026-06-13-long-latency-stretch-reflex-transcortical-loop"
+      ],
+      "topics_covered": [
+        "M1 TMS",
+        "LLR mechanics",
+        "brainstem pathway switch"
+      ]
+    },
+    {
+      "pmid": "38419960",
+      "pmcid": "PMC10899434",
+      "title": "Modulations of stretch reflex by altering visuomotor contexts",
+      "authors": [
+        "Shirzadian N",
+        "Bakker T",
+        "Happee R",
+        "de Vlugt E"
+      ],
+      "year": 2024,
+      "journal": "Front Neurosci",
+      "used_in_articles": [
+        "2026-06-13-long-latency-stretch-reflex-transcortical-loop"
+      ],
+      "topics_covered": [
+        "LLR visual context",
+        "visuomotor transformation",
+        "state estimation"
+      ]
+    },
+    {
+      "pmid": "6737294",
+      "title": "Corticomotoneuronal cells contribute to long-latency stretch reflexes",
+      "authors": [
+        "Cheney PD",
+        "Fetz EE"
+      ],
+      "year": 1984,
+      "journal": "J Neurophysiol",
+      "used_in_articles": [
+        "2026-06-13-long-latency-stretch-reflex-transcortical-loop"
+      ],
+      "topics_covered": [
+        "CM cells",
+        "LLR primate",
+        "transcortical"
+      ]
     }
   ],
   "total_sources": 733,

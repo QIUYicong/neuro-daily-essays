@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-13",
+  "article_number": 180,
+  "slug": "long-latency-stretch-reflex-transcortical-loop",
+  "topic": "长潜伏期牵张反射（LLR）与经皮质反射回路",
+  "search_terms": [
+    "long-latency stretch reflex transcortical pathway M1",
+    "long-latency stretch reflex functional role cortical mechanism review",
+    "Pruszynski long-latency stretch reflex review 2014",
+    "optimal feedback control long-latency stretch response",
+    "transcortical reflex loop M1 CM cells",
+    "long-latency stretch reflex spasticity spinal cord injury",
+    "stretch reflex modulation visuomotor context 2024"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "25309359",
+      "pmcid": "PMC4164001",
+      "doi": "10.3389/fnint.2014.00072",
+      "title": "Primary motor cortex and fast feedback responses to mechanical perturbations: a primer on what we know now and some suggestions on what we should find out next",
+      "authors": ["Pruszynski JA"],
+      "journal": "Frontiers in Integrative Neuroscience",
+      "year": 2014,
+      "full_text_available": true,
+      "access_type": "open_access_pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4164001/",
+      "used_for": "主综述：LLR的三条经皮质证据线，M1角色综合，功能比较",
+      "coverage": ["transcortical pathway evidence", "CM cells", "Klippel-Feil syndrome", "TMS evidence", "M1 timing", "functional sophistication of LLR"]
+    },
+    {
+      "id": "S2",
+      "pmid": "22370742",
+      "pmcid": null,
+      "doi": "10.1007/s00221-012-3041-8",
+      "title": "Optimal feedback control and the long-latency stretch response",
+      "authors": ["Pruszynski JA", "Scott SH"],
+      "journal": "Experimental Brain Research",
+      "year": 2012,
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22370742/",
+      "note": "未读取全文；基于摘要和综述引用",
+      "used_for": "最优反馈控制理论框架，LLR-随意运动统一理论"
+    },
+    {
+      "id": "S3",
+      "pmid": "26445871",
+      "pmcid": "PMC4686281",
+      "doi": "10.3389/fnhum.2015.00646",
+      "title": "Goal-dependent modulation of the long-latency stretch response at the shoulder, elbow, and wrist",
+      "authors": ["Weiler J", "Gribble PL", "Pruszynski JA"],
+      "journal": "Frontiers in Human Neuroscience",
+      "year": 2015,
+      "full_text_available": true,
+      "access_type": "open_access_pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4686281/",
+      "used_for": "LLR目标依赖性证据，多关节同步起始（65ms），运动学冗余整合"
+    },
+    {
+      "id": "S4",
+      "pmid": "25688187",
+      "pmcid": "PMC4310276",
+      "doi": "10.3389/fnint.2015.00010",
+      "title": "Long-latency reflexes account for limb biomechanics through several supraspinal pathways",
+      "authors": ["Kurtzer IL"],
+      "journal": "Frontiers in Integrative Neuroscience",
+      "year": 2015,
+      "full_text_available": true,
+      "access_type": "open_access_pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4310276/",
+      "used_for": "多关节力学整合证据，小脑在LLR增益调制中的角色，SLR vs LLR力学特性对比"
+    },
+    {
+      "id": "S5",
+      "pmid": "19846713",
+      "pmcid": "PMC2791059",
+      "doi": "10.1523/JNEUROSCI.1882-09.2009",
+      "title": "The Differential Role of Motor Cortex in Stretch Reflex Modulation Induced by Changes in Environmental Mechanics and Verbal Instruction",
+      "authors": ["Shemmell J", "An JH", "Perreault EJ"],
+      "journal": "Journal of Neuroscience",
+      "year": 2009,
+      "full_text_available": true,
+      "access_type": "open_access_pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2791059/",
+      "used_for": "TMS中断实验证明M1参与力学适应性LLR，但不参与指令适应性LLR；路径切换"
+    },
+    {
+      "id": "S6",
+      "pmid": "38419960",
+      "pmcid": "PMC10899434",
+      "doi": "10.3389/fnins.2024.1347178",
+      "title": "Modulations of stretch reflex by altering visuomotor contexts",
+      "authors": ["Shirzadian N", "Bakker T", "Happee R", "de Vlugt E"],
+      "journal": "Frontiers in Neuroscience",
+      "year": 2024,
+      "full_text_available": true,
+      "access_type": "open_access_pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10899434/",
+      "used_for": "视觉状态估计可靠性调制LLR幅度；OFC贝叶斯整合框架的行为证据"
+    },
+    {
+      "id": "S7",
+      "pmid": "6737294",
+      "pmcid": "PMC1250363",
+      "doi": null,
+      "title": "Corticomotoneuronal cells contribute to long-latency stretch reflexes in the rhesus monkey",
+      "authors": ["Cheney PD", "Fetz EE"],
+      "journal": "Journal of Neurophysiology",
+      "year": 1984,
+      "full_text_available": false,
+      "access_type": "historical_abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6737294/",
+      "note": "历史文献，未读取全文；基于摘要",
+      "used_for": "CM细胞在肌肉拉伸后以23.4±8.8ms短潜伏期放电——经皮质通路直接电生理证据"
+    }
+  ],
+  "sources_excluded": [
+    {
+      "reason": "付费墙，无法获取全文",
+      "title": "Hultborn 2001 (PMID:11351007) — 已在#179中使用"
+    },
+    {
+      "reason": "与上肢LLR关联度低，仅扩展阅读",
+      "pmid": "9729635",
+      "note": "下肢LLR经皮质证据，可用于未来文章"
+    }
+  ],
+  "limitations": [
+    "S2（Pruszynski & Scott 2012）未读取全文，基于摘要和综述引用",
+    "S7（Cheney & Fetz 1984）为历史文献，仅摘要；PMC1250363可能有扫描版",
+    "近期2023-2025 LLR综述搜索未找到高质量新综述"
+  ]
+}

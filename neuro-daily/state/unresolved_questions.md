@@ -4,6 +4,40 @@
 
 ---
 
+## 2026-06-13 新增（来自"快反射的皮层真相：LLR与经皮质反射回路" #180）
+
+### Q-llr-01（高优先级）：下肢 LLR 的经皮质贡献度是否与上肢等同？
+
+- **关联 wiki**：[[long-latency-stretch-reflex]]、[[motor-cortex]]、[[corticospinal-tract]]
+- **来源文章**：2026-06-13-long-latency-stretch-reflex-transcortical-loop
+- **问题**：本文集中在上肢LLR的经皮质证据（Pruszynski综述、Weiler 2015等）。下肢（胫前肌、比目鱼肌等）的LLR经皮质贡献度有部分证据（PMID:9729635 Thilmann 1991等），但远弱于上肢。人类直立行走时，下肢LLR的经皮质通路是否与上肢同等重要？还是下肢LLR更多依赖脊髓内回路（鉴于CM连接在人类下肢稀少）？这对理解步态控制和脊髓损伤后的恢复机制有直接意义。
+
+### Q-llr-02（高优先级）：视觉信号在 50–70 ms 内影响 LLR 的具体皮层通路是什么？
+
+- **关联 wiki**：[[long-latency-stretch-reflex]]、[[optimal-feedback-control]]
+- **来源文章**：2026-06-13-long-latency-stretch-reflex-transcortical-loop
+- **问题**：Shirzadian 2024（PMID:38419960）发现视觉状态估计的可靠性在约50–70ms内影响LLR。但视网膜→LGN→V1→顶叶→M1的通路本身需要约80ms（V1约45ms，顶叶→M1再加20ms）。数字矛盾提示：或者有更短的皮层下视觉-运动通路（上丘→丘脑枕→顶叶？），或者实验里视觉效应的时间起始被高估（统计检验窗口平均的影响）。需要MEG时频分析+高精度视觉ERP设计来分离。
+
+### Q-llr-03（中优先级）：自然行走中意外绊倒的 LLR 是否遵循 OFC 框架？
+
+- **关联 wiki**：[[long-latency-stretch-reflex]]、[[optimal-feedback-control]]、[[spinal-cord-cpg]]
+- **来源文章**：2026-06-13-long-latency-stretch-reflex-transcortical-loop
+- **问题**：现有LLR实验几乎全在静止坐位或站立条件下进行，用机器人施加上肢扰动。自然行走中的意外绊倒触发的LLR（尤其下肢）是否遵循同样的OFC框架（目标敏感、多关节整合）？行走中CPG活跃时，LLR可能被CPG驱动的脊髓中间神经元大量调制（类似步态期Ib信号切换功能）——这时"经皮质OFC"和"脊髓CPG调制"的相对贡献如何区分？
+
+### Q-ofc-01（高优先级）：OFC 代价函数的神经编码在 M1/PFC/顶叶的实现是什么？
+
+- **关联 wiki**：[[optimal-feedback-control]]、[[motor-cortex]]
+- **来源文章**：2026-06-13-long-latency-stretch-reflex-transcortical-loop
+- **问题**：OFC理论预测，任务前会有"代价函数预配置"将M1的反馈增益设定好。这种预配置的神经实现是什么？是PFC输入改变M1的基础兴奋性？是顶叶5区对任务目标向量的持续编码？还是小脑通过DCN-丘脑-M1通路预置增益？需要任务切换范式+单细胞记录+光遗传学激活/抑制来分离。
+
+### Q-ofc-02（中优先级）：OFC 框架能否扩展到语言实时纠错和社会认知？
+
+- **关联 wiki**：[[optimal-feedback-control]]、[[predictive-coding]]
+- **来源文章**：2026-06-13-long-latency-stretch-reflex-transcortical-loop
+- **问题**：OFC的数学结构（状态估计+误差信号+最优控制律）与预测编码框架高度同构。语言生成中的自我监控（产生错误音节时自动纠正，约~100ms）是否使用类似的代价函数框架？社会认知中的"预测他人反应"是否也是一种更高阶的OFC？这一问题联结了运动控制与认知神经科学的核心。
+
+---
+
 ## 2026-06-13 新增（来自"3a区——皮层本体感觉的第一站与运动控制的感觉门" #177）
 
 ### Q-3a-01（高优先级）：人类3a区是否具有与猴子相同的双重丘脑输入（VPLc + VLc）？

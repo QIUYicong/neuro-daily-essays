@@ -7,13 +7,13 @@ status: established
 confidence: high
 created: 2026-06-13
 updated: 2026-06-13
-revision_count: 1
+revision_count: 2
 dimensions: [cellular, synaptic, microcircuit, behavior]
-related: [muscle-spindle, alpha-motor-neuron, gamma-motor-neuron, golgi-tendon-organ, ia-inhibitory-interneuron, renshaw-cell, presynaptic-inhibition-ia, spinal-cord-cpg, corticospinal-tract, somatosensory-cortex-3a, spinal-interneurons-locomotion, motor-cortex]
+related: [muscle-spindle, alpha-motor-neuron, gamma-motor-neuron, golgi-tendon-organ, ia-inhibitory-interneuron, renshaw-cell, presynaptic-inhibition-ia, spinal-cord-cpg, corticospinal-tract, somatosensory-cortex-3a, spinal-interneurons-locomotion, motor-cortex, long-latency-stretch-reflex, optimal-feedback-control]
 prerequisites: [muscle-spindle, alpha-motor-neuron, gamma-motor-neuron, synaptic-transmission, action-potential]
 opens_questions: [Q-stretch-01, Q-stretch-02, Q-stretch-03]
-source_articles: [2026-06-13-stretch-reflex-arc]
-key_sources: ["PMID:5540547", "PMID:11351007", "PMID:16716488", "PMID:26446220", "PMID:24636954"]
+source_articles: [2026-06-13-stretch-reflex-arc, 2026-06-13-long-latency-stretch-reflex-transcortical-loop]
+key_sources: ["PMID:5540547", "PMID:11351007", "PMID:16716488", "PMID:26446220", "PMID:24636954", "PMID:25309359", "PMID:26445871"]
 ---
 
 # 牵张反射弧 (Stretch Reflex Arc)
@@ -101,6 +101,8 @@ Mendell & Henneman（1971）的解剖研究：单根 Ia 纤维与~300个同名 �
 - [[corticospinal-tract]] — 皮质脊髓束调控突触前抑制，实现随意运动时的反射增益管理
 - [[somatosensory-cortex-3a]] — Ia 传入经丘脑 VPLc → 3a 区，参与长潜伏期反射上行通路
 - [[motor-cortex]] — 参与长潜伏期牵张反射（M2/M3 成分）；预先配置反射增益状态
+- [[long-latency-stretch-reflex]] — LLR：与 SLR 共同构成牵张反射时间谱系的两个主要成分
+- [[optimal-feedback-control]] — OFC 框架：LLR 和随意运动共享同一最优反馈控制回路
 
 ## 未解问题
 
@@ -111,6 +113,7 @@ Mendell & Henneman（1971）的解剖研究：单根 Ia 纤维与~300个同名 �
 ## 修订历史
 
 - 2026-06-13 · 创建（rev1）· 填补悬空引用 `stretch-reflex` · 基于文章 #179《脊髓最短捷径》· 初始置信度：高
+- 2026-06-13 · 修订（rev1→rev2）· 基于文章 #180《快反射的皮层真相》· 新增：LLR wiki 连接（`long-latency-stretch-reflex`）和 OFC 框架连接（`optimal-feedback-control`）；补充 key_sources
 
 ## 来源文章
 

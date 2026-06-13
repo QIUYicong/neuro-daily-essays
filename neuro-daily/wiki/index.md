@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#178** 旋转的引擎——运动皮层旋转动力学；新建 2 页：jpca（methods）、neural-manifold（concepts）；修订 3 页：rotational-dynamics-motor rev2、output-null-space rev2、motor-cortex rev6；图谱 **357** 节点，**2056** 边）· 主题页总数：**326**
+> 最后更新：2026-06-13（**#180** 快反射的皮层真相——长潜伏期牵张反射与经皮质反射回路；新建 2 页：long-latency-stretch-reflex（circuits）、optimal-feedback-control（concepts）；修订 2 页：stretch-reflex rev2、forward-model rev4；图谱 **362** 节点，**2086** 边）· 主题页总数：**328**
 
 ---
 
@@ -50,11 +50,13 @@
 - 🟢 [前额叶-杏仁核情绪调控回路](circuits/pfc-amygdala-emotion-regulation.md) — IL（vmPFC）通过三路并联（ITC门控/BLA直接投射/PVT中继）压制杏仁核恐惧输出；PL 反向促进恐惧表达；IL内部mGluR5→AMPAR可塑性；IL训练时写入/回忆时表达逻辑 **[NEW 2026-07-31 #99]**
 - 🟢 [脊髓中枢模式发生器](circuits/spinal-cord-cpg.md) — 双层架构（RG节律生成+PF模式形成）；V0D/V0V速度依赖步态切换（走/跑/飞奔）；V1+V2b屈伸半中枢；虚构运动证明CPG自主性；VSCT作为CPG枢纽（Chalif 2022，争议中）**[NEW 2026-10-07 #167]**
 - 🟢 [步态中间神经元（V型）](circuits/spinal-interneurons-locomotion.md) — V0/V1/V2a/V2b/V3各自分子标记与功能角色；SHOX2+非V2a为节律生成核心候选；V0D选择性删除→低速失交替；V0V删除→小跑消失；VSCT必要充分性（待验证）**[NEW 2026-10-07 #167]**
-- 🟢 [牵张反射弧](circuits/stretch-reflex.md) — 哺乳动物唯一单突触反射；Ia→α-MN 直接连接（25–35 ms，人类下肢）；三重增益制动（互反抑制/复现抑制/突触前抑制）；γ-MN 设定灵敏度旋钮；状态依赖性极性反转；H 反射可操作性条件化；痉挛=突触前抑制丧失 **[NEW 2026-06-13 #179]**
+- 🟢 [牵张反射弧](circuits/stretch-reflex.md) — 哺乳动物唯一单突触反射；Ia→α-MN 直接连接（25–35 ms，人类下肢）；三重增益制动（互反抑制/复现抑制/突触前抑制）；γ-MN 设定灵敏度旋钮；状态依赖性极性反转；H 反射可操作性条件化；痉挛=突触前抑制丧失 **[NEW 2026-06-13 #179] [修订 rev2 2026-06-13 #180]**
+- 🟢 [长潜伏期牵张反射](circuits/long-latency-stretch-reflex.md) — 经皮质反射回路（50–100ms）：Ia→脊髓→丘脑→S1→M1→CST→α-MN；三条证据线（CM细胞/Klippel-Feil/TMS）；六大智能特征（目标/环境/多关节/视觉/可学习/小脑增益）；OFC框架的近实时分支 **[NEW 2026-06-13 #180]**
 
 ## concepts（概念/框架）
 
 - 🟢 [运动控制层级](concepts/motor-system-hierarchy.md) — 五层下行通路（皮层→CPG→α-MN→NMJ→肌肉）×两路感觉反馈（肌梭长度+GTO力量）×小脑预测性校正；四设计原则（分层分工/预测+反应/动态重配置/进化馈赠）；整合 #166-#174 七篇运动系统文章 **[NEW 2026-06-13 #175]**
+- 🔵 [最优反馈控制（OFC）](concepts/optimal-feedback-control.md) — 运动控制计算框架：最小化任务相关误差（非全部误差）；SLR/LLR/随意运动共享同一代价函数（仅时间尺度不同）；M1是实时感觉-运动积分器；三要素（状态估计/代价函数/控制律）；神经底物（M1/小脑/BG/顶叶5区） **[NEW 2026-06-13 #180]**
 - 🟢 [自身抑制](concepts/autogenic-inhibition.md) — GTO Ib 传入→甘氨酸能抑制性中间神经元→同肌 α-MN 抑制（逆肌牵张反射）；步态站立相 Ib 切换机制；H 反射范式；帕金森 Ib 抑制减弱；脊髓损伤 Ib 保留 **[NEW 2026-06-13 #174]**
 - 🟢 [运动单元](concepts/motor-unit.md) — 最小可控神经肌肉单元（α-MN + 全部靶肌纤维）；神经支配比与精度反比（眼5-15/腓肠1000-2000）；S/FR/FF三类型；去同步化产生平滑收缩 **[NEW 2026-10-08 #168]**
 - 🟢 [Agrin-LRP4-MuSK-Rapsyn 轴与 AChR 聚集](concepts/agrin-musk-achr-clustering.md) — NMJ 突触后 AChR 聚集的分子级联；Agrin↑LRP4-MuSK亲和力36倍；Agrin为"抗去聚集因子"（非诱导者）的争议模型；Dok7协激活；rapsyn 1:1锚定；CMS和MuSK+MG疾病关联 **[NEW 2026-10-09 #169]**

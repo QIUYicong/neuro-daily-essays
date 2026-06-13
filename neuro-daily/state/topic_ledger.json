@@ -11942,6 +11942,89 @@
       ],
       "mode": "gap_filling",
       "note": "UTC+8=2026-06-13；知识库序号179；填补悬空引用stretch-reflex；运动系统脊髓感觉-运动整合系列；核心：牵张反射三重制动+状态依赖调制+可塑性；新建3个wiki页；图谱360节点2070边"
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 180,
+      "title": "快反射的皮层真相：长潜伏期牡张反射如何模糊自动与意志的边界",
+      "slug": "long-latency-stretch-reflex-transcortical-loop",
+      "filename": "2026-06-13-long-latency-stretch-reflex-transcortical-loop.md",
+      "article_type": "regular",
+      "core_question": "当肌肉被意外拉伸，初级运动皮层如何在 50–100 ms 内完成感知整合、任务目标编码与最优响应计算？",
+      "layer": [
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "运动系统→甄张反射弧（#179）→长潜伏期牡张反射→最优反馈控制框架",
+      "topic_tags": [
+        "long-latency-stretch-reflex",
+        "LLR",
+        "M2-response",
+        "transcortical-reflex-loop",
+        "optimal-feedback-control",
+        "OFC",
+        "primary-motor-cortex",
+        "corticomotoneuronal-connections",
+        "Pruszynski",
+        "Scott",
+        "Weiler",
+        "Kurtzer",
+        "Shemmell",
+        "goal-dependent-modulation",
+        "multi-joint-integration",
+        "visuomotor-context",
+        "TMS-interruption",
+        "Klippel-Feil-syndrome",
+        "CM-cells",
+        "short-latency-reflex",
+        "voluntary-reaction",
+        "state-estimation"
+      ],
+      "main_sources": [
+        "PMID:25309359 / PMC4164001 (Pruszynski 2014, Front Integr Neurosci) - open",
+        "PMID:22370742 (Pruszynski & Scott 2012, Exp Brain Res) - abstract",
+        "PMID:26445871 / PMC4686281 (Weiler et al. 2015, Front Hum Neurosci) - open",
+        "PMID:25688187 / PMC4310276 (Kurtzer 2015, Front Integr Neurosci) - open",
+        "PMID:19846713 / PMC2791059 (Shemmell et al. 2009, J Neurosci) - open",
+        "PMID:38419960 / PMC10899434 (Shirzadian et al. 2024, Front Neurosci) - open",
+        "PMID:6737294 (Cheney & Fetz 1984, J Neurophysiol) - historical abstract"
+      ],
+      "wiki_pages_created": [
+        "wiki/circuits/long-latency-stretch-reflex.md",
+        "wiki/concepts/optimal-feedback-control.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/circuits/stretch-reflex.md (rev1->rev2)",
+        "wiki/concepts/forward-model.md (rev3->rev4)"
+      ],
+      "graph_nodes_added": [
+        "long-latency-stretch-reflex",
+        "optimal-feedback-control"
+      ],
+      "graph_edges_added": 16,
+      "graph_state": "362 nodes, 2086 edges",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-llr-01",
+        "Q-llr-02",
+        "Q-llr-03",
+        "Q-ofc-01",
+        "Q-ofc-02"
+      ],
+      "next_suggested_topics": [
+        "spasticity after SCI: cellular and network mechanisms of stretch reflex dysregulation",
+        "H-reflex operant conditioning: synaptic basis of spinal learning",
+        "parietal state estimation (Area 5): Bayesian integration of proprioception",
+        "deep cerebellar nuclei: memory consolidation in motor learning"
+      ],
+      "mode": "gap_filling",
+      "note": "UTC+8=2026-06-13; article #180; sequel to #179 stretch reflex arc; fills long-latency-stretch-reflex and optimal-feedback-control wiki gaps; graph 362 nodes 2086 edges; 6/7 open access"
     }
   ],
   "layer_coverage_recent": [
