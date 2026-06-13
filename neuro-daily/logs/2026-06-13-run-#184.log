@@ -49,5 +49,5 @@
 - 图谱 364 节点，悬空引用：aging, cognition（轻微，已知）
 
 ## commit/push 状态
-- commit hash: TBD（提交后填写）
-- push: TBD
+- commit hash: 53cab5c
+- push: 成功推送到 origin/main（7276ef9 → 53cab5c）
