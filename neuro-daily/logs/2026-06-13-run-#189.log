@@ -119,5 +119,6 @@
 ## Git 操作
 
 - 分支：main
-- commit：待完成
-- push：待完成
+- commit：90d90a4
+- push：成功 → origin/main
+- commit hash：90d90a4
