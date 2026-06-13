@@ -3329,6 +3329,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/theories/bayesian-multisensory-integration.md"
+    },
+    {
+      "id": "temporal-lobe-epilepsy",
+      "title": "颞叶癫痫",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/temporal-lobe-epilepsy.md"
+    },
+    {
+      "id": "dentate-gyrus-gate",
+      "title": "齿状回门控",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/dentate-gyrus-gate.md"
     }
   ],
   "edges": [
@@ -14596,6 +14614,76 @@
     {
       "from": "optimal-feedback-control",
       "to": "bayesian-multisensory-integration",
+      "type": "related"
+    },
+    {
+      "from": "temporal-lobe-epilepsy",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "temporal-lobe-epilepsy",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "temporal-lobe-epilepsy",
+      "to": "dentate-gyrus-gate",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "temporal-lobe-epilepsy",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "temporal-lobe-epilepsy",
+      "to": "place-cell",
+      "type": "related"
+    },
+    {
+      "from": "temporal-lobe-epilepsy",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "temporal-lobe-epilepsy",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "temporal-lobe-epilepsy",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "dentate-gyrus-gate",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "dentate-gyrus-gate",
+      "to": "temporal-lobe-epilepsy",
+      "type": "related"
+    },
+    {
+      "from": "dentate-gyrus-gate",
+      "to": "place-cell",
+      "type": "supports"
+    },
+    {
+      "from": "dentate-gyrus-gate",
+      "to": "ei-balance",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ei-balance",
+      "to": "temporal-lobe-epilepsy",
+      "type": "related"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "temporal-lobe-epilepsy",
       "type": "related"
     }
   ],

@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-06-13（文章 #188：失控的门卫——颞叶癫痫与海马回路的五层级防御体系）
+
+**创建新页**：
+- `wiki/diseases/temporal-lobe-epilepsy.md`（rev1）：颞叶癫痫——KCC2下调（GABA去极化化）+ HIPP细胞选择性死亡 + 苔状纤维出芽 + CCK/PV/CR中间神经元差异性丧失 + SNr-PF去抑制网络放大；status=established, confidence=high
+- `wiki/concepts/dentate-gyrus-gate.md`（rev1）：齿状回门控——颗粒细胞稀疏性（-80mV静息，频率适应）+ HIPP细胞反馈抑制；正常时防止EC→CA3同步传播，也实现模式分离；TLE中失效；status=mainstream, confidence=medium
+
+**修订页面**：
+- `wiki/concepts/ei-balance.md`（rev3→rev4）：新增颞叶癫痫的五层级 E/I 失衡（KCC2去极化化、CCK+负向缩放紧急刹车、MGE中间神经元移植绕过KCC2失效）；related 新增 temporal-lobe-epilepsy, dentate-gyrus-gate；key_sources 新增 PMC13024002/PMC8832350
+
+**图谱变更**：370 节点（+2：temporal-lobe-epilepsy, dentate-gyrus-gate），2145 条边（+14：TLE/dentate-gate 与 hippocampal-circuit/ei-balance/pv-interneurons/place-cell/sharp-wave-ripples/adult-neurogenesis/basal-ganglia 的新连接）
+
+**新增未解问题**：Q-tle-01（人类TLE中KCC2下调神经元是否构成发作起始区核心？）；Q-tle-02（CA2在人类iEEG中是否可识别为发作放大器？）；Q-tle-03（SNr→PF回路能否成为人类DBS新靶点？）
+
+**登记矛盾**：无新矛盾（苔状纤维出芽的因果争议已在文章中明确列为开放性问题，既有证据并列呈现）
+
+**新增悬空引用**：mossy-fiber-sprouting（苔状纤维出芽专页待建）；kcc2-chloride-homeostasis（KCC2专页待建）
+
+---
+
 ## 2026-06-13（文章 #187：当感觉自相矛盾时，大脑如何裁决？——多感觉贝叶斯整合）
 
 **创建新页**：

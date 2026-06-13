@@ -1,0 +1,103 @@
+# 运行日志：文章 #188
+
+**日期**：2026-06-13 UTC+8
+**文章编号**：#188
+**主题**：颞叶癫痫（TLE）与海马回路的五层级防御体系
+**运行结果**：成功
+
+---
+
+## 搜索与数据源
+
+### 搜索词
+- "temporal lobe epilepsy hippocampal circuit mechanism review" [PubMed E-utilities]
+- "Scharfman temporal lobe epilepsy dentate gyrus review" [PubMed]
+- "temporal lobe epilepsy interneuron loss mossy fiber sprouting review" [PMC]
+- "temporal lobe epilepsy GABA receptor KCC2 2025 2026" [PubMed]
+- "TLE perisomatic interneuron PV CCK epilepsy" [PMC]
+- "temporal lobe epilepsy 2025 2026 mechanism circuit hippocampus" [PubMed recent]
+
+### 候选数据源总数：~15篇
+
+### 采用来源（7/8 开放全文）
+
+| ID | PMID/PMCID | 标题摘要 | 状态 |
+|----|-----------|---------|------|
+| S-188-01 | PMID:31232111/PMC6891841 | Scharfman 2019 - DG and TLE | 开放全文 ✓ |
+| S-188-02 | PMID:35233202/PMC8832350 | Dudok/Soltesz 2021 - Perisomatic interneurons | 开放全文 ✓ |
+| S-188-03 | PMID:41897358/PMC13024002 | Sperk & Pirker 2026 - GABA receptors in TLE | 开放全文 ✓ |
+| S-188-04 | PMID:37643861/PMC10573827 | Whitebirch et al. 2023 - CA2 CCK interneurons | 开放全文 ✓ |
+| S-188-05 | PMID:32066723/PMC7026152 | Chen et al. 2020 - SNr-PF circuit | 开放全文 ✓ |
+| S-188-06 | PMID:40124466/PMC11924067 | Naegele 2025 - MGE transplantation | 开放全文 ✓ |
+| S-188-07 | PMID:25324731/PMC4179514 | Tóth & Maglóczky 2014 - CR interneurons | 开放全文 ✓ |
+| S-188-08 | PMID:10514857 | Traub et al. 1999 - Seizure synchronization | 摘要仅 |
+
+### 排除来源及原因
+- PMID:41756234 (innate immune signaling) - 主题偏向神经炎症，与核心回路机制关联较弱
+- PMID:33488359 (proteomics review) - 方法学综述，不提供回路机制直接证据
+- PMID:40301357 (dataset paper) - 数据集论文，仅引用其发作起始区动态迁移发现
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页面（2页）
+- `wiki/diseases/temporal-lobe-epilepsy.md`：Rev1 创建，established/high；五层失衡模型（KCC2/HIPP细胞/苔状纤维出芽/差异性中间神经元丧失/SNr-PF网络）
+- `wiki/concepts/dentate-gyrus-gate.md`：Rev1 创建，mainstream/medium；颗粒细胞超静息/HIPP反馈/TLE中失效
+
+### 修订 wiki 页面（1页）
+- `wiki/concepts/ei-balance.md`：rev3→rev4；新增TLE的五层级E/I失衡章节；related新增temporal-lobe-epilepsy和dentate-gyrus-gate；key_sources新增PMID:31232111/35233202/41897358；source_articles新增#188
+
+### 矛盾检查
+- 无新矛盾（苔状纤维出芽的因果争议为既有开放性问题，在文章中明确列出，不触发新的contested_claims登记）
+- 核对现有矛盾：C-2026-05-31-01（IIT）和C-2026-05-31-02（GWT）与本文无直接证据更新
+
+### 成熟度更新
+- temporal-lobe-epilepsy: 新建 → established/high（疾病机制在文献中高度确立）
+- dentate-gyrus-gate: 新建 → mainstream/medium（动物证据充分，人类因果性有限）
+- ei-balance: 无状态变化（仍 mainstream/medium）
+
+---
+
+## 图谱更新
+
+- 新增节点：2（temporal-lobe-epilepsy, dentate-gyrus-gate）
+- 新增边：14
+- 当前图谱：370 节点，2145 边
+
+---
+
+## 治理层更新
+
+- topic_ledger.json：total_articles 187→188，新增 #188 条目
+- unresolved_questions.md：新增 Q-tle-01（高优先级）、Q-tle-02（高优先级）、Q-tle-03（中优先级）
+- monthly_synthesis.md：追加 #188 条目；本月总数更新至 19 篇（#170-#188）
+- wiki/index.md：首行状态更新；diseases 节新增 TLE 条目；concepts 节新增 dentate-gyrus-gate 条目
+- wiki/CHANGELOG.md：追加 #188 节（2页新建、1页修订、图谱变更、新增未解问题）
+
+---
+
+## 自检结果
+
+**真实性**：✓ 所有主张有来源（7/8 开放全文）；区分了事实/主流模型/推测/争议（苔状纤维出芽因果明确标注为争议）；未把动物研究直接当成人类定论；人类-动物差异（GABA受体亚基方向相反）明确指出
+**一致性**：✓ 无新矛盾（苔状纤维争议为既有认知，不触发 contested_claims 登记）；修订页 updated/revision_count/修订历史均更新；_graph.json 无悬空边（新增悬空引用 mossy-fiber-sprouting/kcc2-chloride-homeostasis 已在 CHANGELOG 记录为待补）
+**可导航**：✓ index.md 和 CHANGELOG.md 反映今天变化；新页 related/prerequisites ≥1
+**情景层**：✓ 文章/笔记/来源/日志齐全；未改动旧文件（仅 ei-balance 正常修订）
+
+---
+
+## 新增悬空引用（待后续建页）
+- `mossy-fiber-sprouting`（苔状纤维出芽专页）
+- `kcc2-chloride-homeostasis`（KCC2/氯离子稳态专页）
+
+---
+
+## Git 操作
+
+**分支**：claude/funny-einstein-kjaxla → 推送至 origin/main（通过 git push）
+**状态**：待提交
+*（commit hash 和推送状态在提交后更新）*
+
+---
+
+*日志由自动化代理生成，2026-06-13 UTC+8*

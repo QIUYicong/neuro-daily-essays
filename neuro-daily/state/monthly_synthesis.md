@@ -5,7 +5,7 @@
 ## 2026年6月（进行中）
 
 *本月截至日期：2026-06-13*
-*本月新增文章：#170–#185（含两次周综合）；共 16 篇。*
+*本月新增文章：#170–#188（含两次周综合）；共 19 篇。*
 
 *6-13 #180 长潜伏期牵张反射M2/M3（经皮质反射弧）：三成分时序（M1~25ms/M2~50–75ms/M3~75–120ms）；Marsden 1976奠基（PMC1309044）；Petersen 1998 TMS超线性叠加直接证明M3经皮质（PMC2231172）；Pruszynski 2011 Nature猴M1多关节整合+人类TMS（PMC4974074）；M1目标依赖调制35ms出现（Pruszynski 2014，PMC6608123）；Kurtzer 2008内部模型多关节交互力矩；OFC框架（Scott 2008，PMC2375659）；中风后M2/M3双侧受损（Trumbower 2013，PMC3674210）；新建1页（transcortical-stretch-reflex），修订2页（stretch-reflex rev2, somatosensory-cortex-3a rev2），图谱362节点2078边；Q-llr-01/02/03新增。感觉运动系统弧完整：#172肌梭→#177三区→#173CST→#179M1反射→#180M2/M3经皮质。*
 
@@ -22,6 +22,8 @@
 *6-13 #177 S1区3a（Brodmann area 3a）：中央沟底部本体感觉专属子区；双重丘脑输入（VPLc感觉+VLc运动/小脑预测）是前向模型皮层实现的解剖基础（Huffman & Krubitzer 2001 PMID:11406813）；直接投射M1（"感觉告知运动"最短皮层内通路）；Goodwin 1972腱振动错觉证明Ia传入→位置感知；人类fMRI腱振动激活3a区（Fasold 2008）；Voigt 2026 PLoS Biol（开放全文）：去传入后M1预运动活动降低约70%，感觉输入主动塑造运动皮层；3a区痛觉功能争议（Whitsel 2019/Panchuelo 2020）；新建 1 页（somatosensory-cortex-3a），修订 3 页（somatosensory-cortex rev2, proprioception rev3, muscle-spindle rev3）；填补悬空引用somatosensory-cortex-3a；图谱 355 节点 2046 边；Q-3a-01/02/03/04 新增。*
 
 *6-12 CNTNAP2 语言回路布线基因（#171）：FOXP2→CNTNAP2 直接调控（Vernes 2008 ChIP-chip）；Caspr2 旁节 Kv1 通道聚簇（Poliak 2003）；PV+中间神经元迁移异常（Penagarikano 2011 Cell）；人类额叶左侧化表达（Alarcón 2008）；FOXP2 的 264 个轴突导向靶基因（Vernes 2011 PLoS Genet）；Q-SLF-03 候选分子机制（emerging）；新建1页（cntnap2-language-circuit），修订2页（foxp2-language-gene rev2，SLF rev2），图谱 343 节点 1965 边。*
+
+*6-13 #188 颞叶癫痫（TLE）海马回路的五层级防御体系：系统首次进入"癫痫"疾病节点。TLE揭示海马回路稳定依赖五层嵌套防御：（1）分子层KCC2维持Cl⁻梯度使GABA保持超极化；（2）细胞层HIPP细胞+苔状细胞提供齿状回反馈抑制；（3）突触层无颗粒细胞间兴奋性侧枝；（4）微回路层PV/CCK/CR三类中间神经元差异性守护，CCK+为"负向缩放紧急刹车"；（5）网络层SNr通过PF抑制性控制癫痫扩散。苔状纤维出芽因果争议（Scharfman 2019）明确作为开放问题处理。首次引入CA2区作为TLE发作放大器（Whitebirch 2023）和SNr-PF去抑制回路（Chen 2020 Nat Commun）。治疗前沿：MGE中间神经元移植（NRTX-1001临床试验，Naegele 2025）。认知意义：TLE破坏模式分离（齿状回门控失效）和稀疏编码（同步化），是大脑抵抗过度同步化的极端反例。新建2页（temporal-lobe-epilepsy, dentate-gyrus-gate），修订1页（ei-balance rev4），图谱370节点2145边；Q-tle-01/02/03新增。7/8来源开放全文。*
 
 *6-13 #187 多感觉贝叶斯整合：感知-认知专辑开篇。MLE可靠性加权（Ernst & Banks 2002, PMID:11807554）证明视觉-触觉整合精确遵循统计最优；Körding & Wolpert 2004（PMID:14724638）：感觉运动学习中的贝叶斯先验整合；Ma et al. 2006（PMID:17057707）：Poisson变异性→概率群体编码→线性叠加=贝叶斯最优；Gu et al. 2008（PMID:18776893）：MSTd一致性神经元实现视觉-前庭MLE；Shams & Beierholm 2010（PMID:20705502）：因果推断层（P(C=1)决定是否整合）解释橡皮手错觉/腹语术。核心认知更新：贝叶斯整合是OFC卡尔曼滤波器的感觉输入端，连接运动学习三联体与感知理论；新建1页（bayesian-multisensory-integration），修订1页（OFC rev3），图谱368节点2131边；Q-msi-01/02/03新增。*
 

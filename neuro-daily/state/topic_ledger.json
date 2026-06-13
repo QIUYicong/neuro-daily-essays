@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 187,
+  "total_articles": 188,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12439,6 +12439,94 @@
         "工作记忆的神经基础（认知控制章节开篇）"
       ],
       "mode": "long_term_curriculum"
+    },
+    {
+      "article_number": 188,
+      "date": "2026-06-13",
+      "title": "失控的门卫：颞叶癫痫如何在五个层级揭示大脑的防御体系",
+      "slug": "temporal-lobe-epilepsy-hippocampal-circuit",
+      "filename": "2026-06-13-temporal-lobe-epilepsy-hippocampal-circuit.md",
+      "article_type": "regular",
+      "core_question": "颞叶癫痫从分子（KCC2维持Cl⁻梯度）到全脑网络（SNr-PF去抑制回路）五个层级的防御系统如何相继失效？齿状回门控为何是海马回路模式分离和癫痫防御的双重核心机制？差异性抑制性中间神经元（PV+正向缩放vs CCK+负向缩放）丧失如何产生不同的回路后果？苔状纤维出芽的因果争议如何反映我们理解TLE的局限？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "whole-brain-network",
+        "disease"
+      ],
+      "curriculum_track": "11. 疾病作为窗口（颞叶癫痫 × 海马回路失控 × 多层级E/I失衡）",
+      "topic_tags": [
+        "temporal lobe epilepsy",
+        "TLE",
+        "hippocampal sclerosis",
+        "dentate gate",
+        "granule cell",
+        "mossy fiber sprouting",
+        "HIPP cells",
+        "somatostatin interneuron",
+        "hilar mossy cell",
+        "KCC2",
+        "chloride homeostasis",
+        "GABA polarity",
+        "PV interneuron",
+        "CCK interneuron",
+        "calretinin interneuron",
+        "perisomatic interneuron",
+        "positive scaling",
+        "negative scaling",
+        "axo-axonic cell",
+        "chandelier cell",
+        "CA2",
+        "seizure amplifier",
+        "SNr",
+        "parafascicular nucleus",
+        "disinhibitory circuit",
+        "MGE interneuron transplantation",
+        "NRTX-1001",
+        "pattern separation",
+        "ectopic granule cell",
+        "Reelin",
+        "kainate model",
+        "pilocarpine model",
+        "bumetanide",
+        "NKCC1",
+        "hippocampal circuit",
+        "Scharfman"
+      ],
+      "main_sources": [
+        "PMID:31232111 / PMCID:PMC6891841 (Scharfman 2019, Epilepsy Curr, open full text read)",
+        "PMID:35233202 / PMCID:PMC8832350 (Dudok, Klein, Soltesz 2021, Epilepsy Curr, open full text read)",
+        "PMID:41897358 / PMCID:PMC13024002 (Sperk & Pirker 2026, Biomolecules, open full text read)",
+        "PMID:37643861 / PMCID:PMC10573827 (Whitebirch et al. 2023, J Neurosci, open full text read)",
+        "PMID:32066723 / PMCID:PMC7026152 (Chen et al. 2020, Nat Commun, open full text read)",
+        "PMID:40124466 / PMCID:PMC11924067 (Naegele 2025, Epilepsy Curr, open full text read)",
+        "PMID:25324731 / PMCID:PMC4179514 (Tóth & Maglóczky 2014, Front Neuroanat, open full text read)",
+        "PMID:10514857 (Traub, Jefferys, Whittington 1999, Adv Neurol, abstract only)"
+      ],
+      "wiki_pages_created": [
+        "wiki/diseases/temporal-lobe-epilepsy.md",
+        "wiki/concepts/dentate-gyrus-gate.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ei-balance.md (rev3->rev4): 新增颞叶癫痫的五层级E/I失衡章节（KCC2去极化化、CCK+负向缩放、MGE移植）；related+key_sources更新"
+      ],
+      "graph_nodes_added": 2,
+      "graph_edges_added": 14,
+      "graph_state": "370 nodes, 2145 edges",
+      "unresolved_questions": [
+        "Q-tle-01",
+        "Q-tle-02",
+        "Q-tle-03"
+      ],
+      "next_suggested_topics": [
+        "癫痫发生（Epileptogenesis）的分子时间线：从初发热性惊厥到慢性TLE的海马网络重塑时序——早期潜伏期（latent period）的回路改变是什么？",
+        "海马 CA2 区的功能特殊性：社交记忆、CA2-特异性特性（ErbB4/PCP4/STEP标记）、以及在TLE中的特殊脆弱性",
+        "KCC2 分子机制详解：KCC2调控的分子通路（BDNF/TrkB → KCC2磷酸化）、发育性GABA极性切换（E→I转变）以及临床干预可能性",
+        "苔状纤维出芽的分子驱动机制：MFS由什么信号通路诱导？BDNF、mTOR在TLE中的双重角色（促成熟 + 促MFS）"
+      ],
+      "mode": "regular"
     }
   ],
   "layer_coverage_recent": [

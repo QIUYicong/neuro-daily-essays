@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-13 新增（来自"失控的门卫：颞叶癫痫" #188）
+
+### Q-tle-01（高优先级）：人类 TLE 中 KCC2 下调神经元是否构成发作起始区核心？
+
+- **关联 wiki**：[[temporal-lobe-epilepsy]]、[[dentate-gyrus-gate]]
+- **来源文章**：2026-06-13-temporal-lobe-epilepsy-hippocampal-circuit
+- **问题**：Sperk & Pirker 2026 综述了 KCC2 下调导致 GABA 去极化化的机制——这在 TLE 动物模型中证据充分。但人类 TLE 手术切除标本的 KCC2 空间分布（哪些细胞亚群最严重下调？这些细胞是否恰好位于发作起始区？）尚不清晰。具体问题：（a）单细胞 RNA 测序（scRNA-seq）能否在新鲜切除的颞叶/海马标本中分辨 KCC2 低表达的神经元亚群？（b）这些亚群是否与 iEEG 记录的痫间期放电位点（IED-generating neurons）在空间上重叠？（c）如果是，布美他尼（NKCC1 阻断）的靶向治疗可行性如何？这将直接验证 KCC2 下调是人类 TLE 发作核心，而非代偿性改变。
+
+### Q-tle-02（高优先级）：CA2 能否在人类 TLE iEEG 记录中被识别为发作放大器？
+
+- **关联 wiki**：[[temporal-lobe-epilepsy]]
+- **来源文章**：2026-06-13-temporal-lobe-epilepsy-hippocampal-circuit
+- **问题**：Whitebirch et al. 2023 在小鼠 pilocarpine TLE 中发现 CA2 区 CCK+ 中间神经元丧失，化学遗传沉默 CA2 显著降低发作频率。但在人类 TLE 患者：（a）植入海马的立体 EEG（sEEG）电极能否单独解析 CA2（解剖位置极小，与 CA1/CA3 紧邻）？（b）若能记录 CA2，CA2 在发作传播中的激活时序是否早于 CA1？（c）CCK+ 细胞丧失是否可以通过非侵入性影像学（如 vesicular synaptic density PET 或 7T MRS）在 CA2 的细分区域量化？这直接关系到 CA2 是否应成为 DBS 或靶向细胞替换的临床靶点。
+
+### Q-tle-03（中优先级）：SNr→PF 去抑制回路在人类 TLE 中能否作为 DBS 新靶点？
+
+- **关联 wiki**：[[temporal-lobe-epilepsy]]、[[basal-ganglia]]
+- **来源文章**：2026-06-13-temporal-lobe-epilepsy-hippocampal-circuit
+- **问题**：Chen et al. 2020 发现 SNr PV+ → PF GABAergic 的去抑制回路是 TLE 发作的放大器。现有 DBS 靶点以 ANT（前丘脑核）、CMN（正中核-束旁核复合体）为主。但：（a）SNr 本身在人类能否耐受长期 DBS（SNr 参与基底节运动控制，可能引起运动副作用）？（b）PF 核（丘脑旁束核）在人类功能解剖的精确定位？（c）是否可以开发闭环 DBS，仅在 SNr 检测到异常放电时才刺激 PF/SNr，以减少持续刺激的副作用？需要 iEEG+DBS 结合的闭环控制研究。
+
+---
+
 ## 2026-06-13 新增（来自"多感觉贝叶斯整合" #187）
 
 ### Q-msi-01（高优先级）：vmPFC在多感觉因果推断中的角色

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-13（**#180** 反射的第二次进化——长潜伏期牵张反射M2/M3；新建 1 页：transcortical-stretch-reflex（circuits）；修订 2 页：stretch-reflex rev2、somatosensory-cortex-3a rev2；图谱 **362** 节点，**2078** 边）· 主题页总数：**327**
+> 最后更新：2026-06-13（**#188** 失控的门卫——颞叶癫痫与海马回路的五层级防御体系；新建 2 页：temporal-lobe-epilepsy（diseases）、dentate-gyrus-gate（concepts）；修订 1 页：ei-balance rev4；图谱 **370** 节点，**2145** 边）· 主题页总数：**329**
 
 ---
 
@@ -55,6 +55,7 @@
 
 ## concepts（概念/框架）
 
+- 🔵 [齿状回门控](concepts/dentate-gyrus-gate.md) — 颗粒细胞极度超极化（-80mV）+ 强频率适应 + HIPP细胞反馈抑制，正常时过滤EC→CA3信息流（实现模式分离+防癫痫扩散）；TLE中失效是发作起点；异位颗粒细胞加剧失控 **[NEW 2026-06-13 #188]**
 - 🟢 [运动控制层级](concepts/motor-system-hierarchy.md) — 五层下行通路（皮层→CPG→α-MN→NMJ→肌肉）×两路感觉反馈（肌梭长度+GTO力量）×小脑预测性校正；四设计原则（分层分工/预测+反应/动态重配置/进化馈赠）；整合 #166-#174 七篇运动系统文章 **[NEW 2026-06-13 #175]**
 - 🟢 [自身抑制](concepts/autogenic-inhibition.md) — GTO Ib 传入→甘氨酸能抑制性中间神经元→同肌 α-MN 抑制（逆肌牵张反射）；步态站立相 Ib 切换机制；H 反射范式；帕金森 Ib 抑制减弱；脊髓损伤 Ib 保留 **[NEW 2026-06-13 #174]**
 - 🟢 [运动单元](concepts/motor-unit.md) — 最小可控神经肌肉单元（α-MN + 全部靶肌纤维）；神经支配比与精度反比（眼5-15/腓肠1000-2000）；S/FR/FF三类型；去同步化产生平滑收缩 **[NEW 2026-10-08 #168]**
@@ -362,6 +363,7 @@
 
 ## diseases（疾病）
 
+- 🟢 [颞叶癫痫（TLE）](diseases/temporal-lobe-epilepsy.md) — 最常见耐药局灶性癫痫；五层失衡：KCC2下调（GABA极性翻转）+ HIPP细胞选择性死亡 + 苔状纤维出芽 + CCK/PV/CR中间神经元差异性丧失 + SNr-PF去抑制放大；齿状回门控是第一道防线；MGE中间神经元移植治疗前景 **[NEW 2026-06-13 #188]**
 - 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退；新增：SCN退化→皮质醇节律崩溃→HPA级联→海马损伤加速（GC级联与AD汇聚）（修订rev7 2026-07-09）**[NEW 2026-06-08]**
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
 
