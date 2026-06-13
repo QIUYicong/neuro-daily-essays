@@ -5030,3 +5030,30 @@
 - **关联 wiki**：[[muscle-synergies]]、[[optimal-feedback-control]]
 - **来源文章**：2026-06-13-muscle-synergies-bernstein
 - **问题**：OFC 框架在肌肉空间中的计算维度极高（数百维状态向量）；若协同把有效维度降至 5–10 维，则 OFC 的实时计算可行性大幅提升。需要：（a）在协同空间中定义代价函数和状态向量；（b）推导协同空间中的卡尔曼增益；（c）检验此"协同空间 OFC"的神经预言是否与 M1 旋转动力学数据吻合（与 Q-ofc-03 和 Q-ofc-04 相关）。
+
+---
+
+### Q-cb-06（中优先级）：激发性核橄榄通路的分工与时间协调
+
+- **关联 wiki**：[[inferior-olive]]、[[cerebellar-ltd]]、[[deep-cerebellar-nuclei]]
+- **来源文章**：2026-06-13-cerebellar-distributed-plasticity-motor-learning
+- **问题**：Wang et al. (2023) 发现顶核（fastigial nucleus）→ IO 的谷氨酸能（激发性）投射，在眼跳期主动产生有时序精度的 CF 放电。但：(a) 这条激发性通路与经典抑制性核橄榄通路在同一次运动事件中如何在时间上协调？是同一事件的不同时相（先激发后抑制？），还是两条通路平行运作、服务于不同的运动类型？(b) 这条通路在纹状体、皮层等其他运动相关脑区是否也有类似的"自生成误差信号"机制？(c) 其损伤表型是什么（眼动精度？还是运动学习速率）？
+- **当前证据状态**：解剖+光遗传激活+电生理（高，单篇 Nature Neurosci 2023）；时间协调机制（弱，几乎无直接实验）；其他运动系统的类比（无数据）
+
+---
+
+### Q-cb-07（高优先级）：小脑激发性核橄榄通路是否构成"自监督学习"
+
+- **关联 wiki**：[[inferior-olive]]、[[cerebellar-ltd]]、[[climbing-fiber-error-signal]]
+- **来源文章**：2026-06-13-cerebellar-distributed-plasticity-motor-learning
+- **问题**：若小脑核团（DCN）可通过激发性核橄榄通路主动产生 IO 的 CF 放电（"自教"信号），这在理论上意味着小脑具有某种自监督学习能力：(a) 这与 Marr-Albus-Ito 的外部监督（感觉误差驱动）框架如何兼容？(b) 是否存在其他"内部生成误差"的神经机制可以类比？(c) 这对"小脑只实现前向模型"还是"小脑也能实现某种逆向模型"的争论有何影响？
+- **当前证据状态**：激发性核橄榄通路本身（高，Wang 2023）；自监督学习理论解读（思想实验阶段，低）
+
+---
+
+### Q-cb-08（中优先级）：model-free implicit mapping vs 内部模型框架的理论分歧
+
+- **关联 wiki**：[[cerebellar-ltd]]、[[cerebellum]]、[[forward-model]]
+- **来源文章**：2026-06-13-cerebellar-distributed-plasticity-motor-learning
+- **问题**：Nguyen & Person (2025, Nature Rev Neurosci) 提出小脑可能通过颗粒细胞高维编码实现"model-free implicit mappings"而非明确的内部模型。(a) 这与 Wolpert (1998) 的 MOSAIC（多模块前向/逆向模型）框架是否真的矛盾，还是只是不同层次的描述？(b) 实验上如何区分"真实内部模型"（能泛化到新情境）和"隐式映射"（只能对训练情境做查找）？(c) 颗粒细胞的 ~700 亿个细胞是否足够多以支持"几乎任意精度的隐式映射"？
+- **当前证据状态**：颗粒细胞高维编码（高，多篇实验研究）；model-free vs 模型框架区分（弱，实验区分困难）

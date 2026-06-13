@@ -1,7 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 185,
-  "last_updated": "2026-06-13",
+  "total_articles": 186,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12289,6 +12288,97 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-13；知识库序号185；认知控制弧线皮质纹状体可塑性篇；核心：D1/D2 二分（Shen 2008）+ eCB-LTD（Gerdeman 2002）+ STDP三因子（Pawlak 2008）；直接回答Q-chunk-01；2个新wiki页创建，3个修订；图谱366节点2118边；全文获取：摘要10篇+开放全文2篇"
+    },
+    {
+      "article_number": 186,
+      "date": "2026-06-13",
+      "title": "小脑运动学习的分布式革命：当平行纤维 LTD 只是冰山一角",
+      "slug": "cerebellar-distributed-plasticity-motor-learning",
+      "filename": "2026-06-13-cerebellar-distributed-plasticity-motor-learning.md",
+      "article_type": "regular",
+      "core_question": "如果 PF-PC LTD 不是小脑运动学习的唯一必要机制（Schonewille 2011），多位点可塑性如何协同支持运动学习？2023-2025 年最新发现（MLI 协同、激发性核橄榄通路、高维颗粒细胞编码）如何重构我们对小脑学习算法的理解？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region"
+      ],
+      "curriculum_track": "4. 学习和记忆 → 小脑分布式可塑性；完成运动学习三联体（#184 BG括号化，#185 皮质纹状体LTD，#186 小脑分布式）",
+      "topic_tags": [
+        "cerebellar-LTD",
+        "PF-PC-LTD",
+        "molecular-layer-interneurons",
+        "MLI",
+        "PF-MLI-LTP",
+        "deep-cerebellar-nuclei",
+        "DCN-LTP",
+        "inferior-olive",
+        "excitatory-nucleo-olivary",
+        "climbing-fiber",
+        "Marr-Albus-Ito",
+        "eyeblink-conditioning",
+        "CEBC",
+        "VOR-adaptation",
+        "Schonewille-2011",
+        "PICK1-KO",
+        "AMPAR-endocytosis",
+        "Suvrathan-2018",
+        "flocculus",
+        "zone-specificity",
+        "Zhu-2024",
+        "synergistic-plasticity",
+        "Wang-2023",
+        "fastigial-nucleus",
+        "excitatory-IO",
+        "Nguyen-Person-2025",
+        "granule-cell",
+        "model-free-mapping",
+        "motor-learning-triad",
+        "distributed-plasticity"
+      ],
+      "main_sources": [
+        "PMID:6298664（Ito & Kano 1982）- 原始 LTD 发现 - 摘要",
+        "PMID:7954803（Aiba et al. 1994）- mGluR1 KO - 摘要",
+        "PMID:21482355 / PMC3104468（Schonewille et al. 2011, Neuron）- 开放全文",
+        "PMID:30069835 / PMC6550343（Suvrathan & Raymond 2019）- 开放全文",
+        "PMID:38574161 / PMC11060558（Zhu et al. 2024, eLife）- 开放全文",
+        "PMID:37474638（Wang et al. 2023, Nature Neurosci）- 摘要",
+        "PMID:40523942（Nguyen & Person 2025, Nature Rev Neurosci）- 摘要",
+        "PMID:23440175（Ito 2013）- 摘要",
+        "PMC3722574 - 分子机制综述 - 开放全文",
+        "PMC2610189（mGluR1 综述）- 开放全文"
+      ],
+      "wiki_pages_created": [
+        "wiki/neurons/molecular-layer-interneurons.md（rev1）"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/cerebellar-ltd.md（rev2→rev3）：新增 PF-MLI LTP 协同、激发性核橄榄通路；Q-cb-06/07/08；key_sources 扩充",
+        "wiki/systems/inferior-olive.md（rev1→rev2）：新增激发性核橄榄通路（Wang 2023）；Q-cb-06"
+      ],
+      "graph_nodes_added": [
+        "molecular-layer-interneurons"
+      ],
+      "graph_nodes_updated": [
+        "cerebellar-ltd",
+        "inferior-olive"
+      ],
+      "graph_edges_added": 6,
+      "graph_state": "367 节点，2124 边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-cb-06",
+        "Q-cb-07",
+        "Q-cb-08"
+      ],
+      "next_suggested_topics": [
+        "运动技能学习整合视角——小脑/基底神经节/运动皮层三系统如何协调实现技能从新手到专家（横跨三联体）",
+        "贝叶斯感觉整合——多感觉融合（视觉+本体感觉+前庭）的神经机制（填补 UCM 的感觉侧 + 接续小脑前向模型）",
+        "情绪与动机——杏仁核基础（课程脊柱第 6 章开篇）",
+        "小脑认知功能——CCAS 综合征（Crus I/II 区域与执行功能/语言）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-13；知识库序号186；运动学习三联体完结篇（小脑）；核心：分布式可塑性（PF-PC LTD + MLI LTP + DCN LTP）；激发性核橄榄通路（Wang 2023）；model-free implicit mapping（Nguyen & Person 2025）；新建 MLI wiki 页；图谱 367 节点 2124 边"
     }
   ],
   "layer_coverage_recent": [

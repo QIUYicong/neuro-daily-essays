@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-06-13（文章 #186：小脑运动学习的分布式革命——PF LTD 只是冰山一角）
+
+**创建新页**：
+- `wiki/neurons/molecular-layer-interneurons.md`（rev1）：分子层中间神经元（MLI，星状+篮状细胞）——GABA 能前馈抑制；PF-MLI LTP（与 PF-PC LTD 方向相反）；与 PF-PC LTD 协同驱动运动学习（Zhu 2024 计算模型）；status=established, confidence=high
+
+**修订页面**：
+- `wiki/concepts/cerebellar-ltd.md`（rev2→rev3）：新增 PF-MLI LTP 协同机制（Zhu 2024，PMID:38574161）；激发性核橄榄通路（Wang 2023，PMID:37474638）；related 新增 molecular-layer-interneurons/deep-cerebellar-nuclei/inferior-olive；新增未解问题 Q-cb-06/Q-cb-07/Q-cb-08；key_sources 补充三篇新来源
+- `wiki/systems/inferior-olive.md`（rev1→rev2）：新增激发性核橄榄通路（顶核→IO 谷氨酸能投射，Wang 2023）；更新当前理解为双通路调控模型；新增 Q-cb-06；key_sources 补充 PMID:37474638
+
+**图谱变更**：367 节点（+1：molecular-layer-interneurons），2124 条边（+6：molecular-layer-interneurons 与 purkinje-cell/cerebellar-ltd/cerebellum/climbing-fiber-error-signal/parallel-fiber 的新连接；deep-cerebellar-nuclei→inferior-olive 激发性调控）
+
+**新增未解问题**：Q-cb-06（激发性 vs 抑制性核橄榄通路的分工与时间协调）；Q-cb-07（小脑自监督学习的理论含义）；Q-cb-08（model-free mapping vs 内部模型框架的真实分歧）
+
+**登记矛盾**：无新矛盾（MLI 协同机制暂不与既有主张冲突；Schonewille 2011 悖论已有计算层面解释）
+
+**新增悬空引用**：molecular-layer-interneurons 中的 parallel-fiber 节点是否独立存在需核查
+
+---
+
 ## 2026-06-13（文章 #185：学习写进突触——皮质纹状体 D1/D2 二分可塑性）
 
 **创建新页**：

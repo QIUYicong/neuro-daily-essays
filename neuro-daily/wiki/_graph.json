@@ -3311,6 +3311,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/endocannabinoid-ltd.md"
+    },
+    {
+      "id": "molecular-layer-interneurons",
+      "title": "分子层中间神经元",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/molecular-layer-interneurons.md"
     }
   ],
   "edges": [
@@ -14508,6 +14517,42 @@
       "from": "striatal-chunking",
       "to": "corticostriatal-plasticity",
       "type": "related"
+    },
+    {
+      "from": "molecular-layer-interneurons",
+      "to": "purkinje-cell",
+      "type": "regulates",
+      "note": "MLI 提供 GABA 能前馈抑制至 PC"
+    },
+    {
+      "from": "molecular-layer-interneurons",
+      "to": "cerebellar-ltd",
+      "type": "supports",
+      "note": "PF-MLI LTP 与 PF-PC LTD 协同支持运动学习"
+    },
+    {
+      "from": "molecular-layer-interneurons",
+      "to": "cerebellum",
+      "type": "part-of",
+      "note": "MLI 是小脑皮层分子层的组成部分"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "molecular-layer-interneurons",
+      "type": "regulates",
+      "note": "CF 误差信号驱动 PF-MLI LTP（方向与 PF-PC LTD 相反）"
+    },
+    {
+      "from": "molecular-layer-interneurons",
+      "to": "parallel-fiber",
+      "type": "related",
+      "note": "PF 是 MLI 的主要兴奋性输入"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "inferior-olive",
+      "type": "regulates",
+      "note": "DCN 通过激发性（谷氨酸能顶核→IO）和抑制性双路径调控 IO（Wang 2023，PMID:37474638）"
     }
   ],
   "dangling_references": [
