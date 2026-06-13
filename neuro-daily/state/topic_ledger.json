@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-13",
-  "total_articles": 177,
+  "total_articles": 179,
   "entries": [
     {
       "date": "2026-08-09",
@@ -11855,6 +11855,93 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-13；知识库序号176；填补 spinocerebellar-tracts 和 clarkes-nucleus 悬空引用；核心发现：DSCT 70% CPG 驱动（Stecina 2013，PMC3853486 全文）；7 个来源中 1 篇开放全文；图谱+2节点+18边（354节点2038边）"
+    },
+    {
+      "date": "2026-06-13",
+      "real_date": "2026-06-13",
+      "article_number": 179,
+      "title": "脊髓最短捷径：牵张反射弧如何用一个突触关闭感觉-运动回路",
+      "slug": "stretch-reflex-arc",
+      "filename": "2026-06-13-stretch-reflex-arc.md",
+      "article_type": "regular",
+      "core_question": "脊髓如何用一个突触关闭从肌肉拉伸到肌肉收缩的完整感觉-运动回路？这个闭环内嵌的三重制动（互反抑制/复现抑制/突触前抑制）和γ-MN增益旋钮如何让同一条反射通路在不同运动状态下表现出截然不同的激活幅度？",
+      "layer": [
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "behavior"
+      ],
+      "curriculum_track": "运动系统→脊髓感觉-运动整合（牵张反射弧；填补悬空引用stretch-reflex）",
+      "topic_tags": [
+        "stretch-reflex",
+        "monosynaptic-reflex",
+        "Ia-afferent",
+        "alpha-motor-neuron",
+        "gamma-motor-neuron",
+        "Ia-inhibitory-interneuron",
+        "reciprocal-inhibition",
+        "renshaw-cell",
+        "recurrent-inhibition",
+        "presynaptic-inhibition",
+        "PAD",
+        "H-reflex",
+        "spasticity",
+        "state-dependent-reflex-reversal",
+        "Hultborn-2001",
+        "Mendell-Henneman-1971",
+        "Lloyd-1943",
+        "Eccles-1956",
+        "Wolpaw",
+        "Thompson-Wolpaw",
+        "operant-conditioning-spinal-reflex",
+        "long-latency-stretch-reflex",
+        "transcortical-reflex-loop"
+      ],
+      "main_sources": [
+        "Lloyd 1943 (J Neurophysiol) - 历史文献，无PMC",
+        "Eccles et al. 1956 (PMID:13396937) - 历史文献，摘要",
+        "Mendell & Henneman 1971 (PMID:5540547) - 历史文献，摘要",
+        "PMID:11351007 / PMC2278613 (Hultborn 2001, J Physiol) - 开放全文",
+        "PMID:12171106 (Rudomin 2002) - 摘要",
+        "PMID:16716488 (Hultborn 2006, Prog Neurobiol) - 摘要",
+        "PMID:26446220 / PMC4464588 (Moore et al. 2015, J Neurosci) - 开放全文",
+        "PMID:18955381 / PMC2655422 (Duchateau & Enoka 2008, J Physiol) - 开放全文",
+        "PMID:18394711 (Knikou 2008, J Neurosci Methods) - 摘要",
+        "PMID:24636954 / PMC4167198 (Thompson & Wolpaw 2015, Neuroscientist) - 开放全文",
+        "PMID:37456795 / PMC10338914 (Wolpaw & Thompson 2023, Front Rehabil Sci) - 开放全文"
+      ],
+      "wiki_pages_created": [
+        "wiki/circuits/stretch-reflex.md",
+        "wiki/neurons/ia-inhibitory-interneuron.md",
+        "wiki/neurons/renshaw-cell.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/alpha-motor-neuron.md (rev4→rev5): 新增stretch-reflex/ia-inhibitory-interneuron/renshaw-cell连接",
+        "wiki/neurons/gamma-motor-neuron.md (rev1→rev2): 新增stretch-reflex连接",
+        "wiki/neurons/muscle-spindle.md (rev3→rev4): 新增stretch-reflex连接"
+      ],
+      "graph_nodes_added": [
+        "stretch-reflex",
+        "ia-inhibitory-interneuron",
+        "renshaw-cell"
+      ],
+      "graph_edges_added": 14,
+      "graph_state": "360节点，2070边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-stretch-01",
+        "Q-stretch-02",
+        "Q-stretch-03"
+      ],
+      "next_suggested_topics": [
+        "运动学习的神经机制（motor learning）——突触可塑性如何在练习中重塑运动程序",
+        "长潜伏期牵张反射（transcortical reflex loops）的皮层机制深化",
+        "脊髓损伤后痉挛（spasticity）的细胞与网络机制——牵张反射失调的临床对应",
+        "H 反射操作性条件化的分子机制——脊髓学习的突触基础"
+      ],
+      "mode": "gap_filling",
+      "note": "UTC+8=2026-06-13；知识库序号179；填补悬空引用stretch-reflex；运动系统脊髓感觉-运动整合系列；核心：牵张反射三重制动+状态依赖调制+可塑性；新建3个wiki页；图谱360节点2070边"
     }
   ],
   "layer_coverage_recent": [

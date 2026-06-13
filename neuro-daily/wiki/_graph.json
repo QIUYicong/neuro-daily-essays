@@ -3230,6 +3230,33 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/neural-manifold.md"
+    },
+    {
+      "id": "stretch-reflex",
+      "title": "牵张反射弧",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/stretch-reflex.md"
+    },
+    {
+      "id": "ia-inhibitory-interneuron",
+      "title": "Ia 抑制性中间神经元",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/ia-inhibitory-interneuron.md"
+    },
+    {
+      "id": "renshaw-cell",
+      "title": "Renshaw 细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/renshaw-cell.md"
     }
   ],
   "edges": [
@@ -14116,6 +14143,76 @@
     {
       "from": "motor-cortex",
       "to": "neural-manifold",
+      "type": "related"
+    },
+    {
+      "from": "muscle-spindle",
+      "to": "stretch-reflex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stretch-reflex",
+      "to": "alpha-motor-neuron",
+      "type": "regulates"
+    },
+    {
+      "from": "gamma-motor-neuron",
+      "to": "stretch-reflex",
+      "type": "regulates"
+    },
+    {
+      "from": "ia-inhibitory-interneuron",
+      "to": "stretch-reflex",
+      "type": "part-of"
+    },
+    {
+      "from": "renshaw-cell",
+      "to": "stretch-reflex",
+      "type": "part-of"
+    },
+    {
+      "from": "stretch-reflex",
+      "to": "spinal-cord-cpg",
+      "type": "related"
+    },
+    {
+      "from": "corticospinal-tract",
+      "to": "stretch-reflex",
+      "type": "regulates"
+    },
+    {
+      "from": "stretch-reflex",
+      "to": "somatosensory-cortex-3a",
+      "type": "related"
+    },
+    {
+      "from": "ia-inhibitory-interneuron",
+      "to": "alpha-motor-neuron",
+      "type": "regulates"
+    },
+    {
+      "from": "renshaw-cell",
+      "to": "ia-inhibitory-interneuron",
+      "type": "regulates"
+    },
+    {
+      "from": "alpha-motor-neuron",
+      "to": "renshaw-cell",
+      "type": "regulates"
+    },
+    {
+      "from": "renshaw-cell",
+      "to": "alpha-motor-neuron",
+      "type": "regulates"
+    },
+    {
+      "from": "stretch-reflex",
+      "to": "motor-cortex",
+      "type": "related"
+    },
+    {
+      "from": "golgi-tendon-organ",
+      "to": "stretch-reflex",
       "type": "related"
     }
   ],

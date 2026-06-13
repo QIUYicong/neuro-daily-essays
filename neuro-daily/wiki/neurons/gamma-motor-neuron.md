@@ -7,9 +7,9 @@ status: established
 confidence: high
 created: 2026-10-10
 updated: 2026-10-10
-revision_count: 1
+revision_count: 2
 dimensions: [cellular, microcircuit, behavior]
-related: [muscle-spindle, alpha-motor-neuron, spinal-cord-cpg, proprioception, neuromuscular-junction]
+related: [muscle-spindle, alpha-motor-neuron, spinal-cord-cpg, proprioception, neuromuscular-junction, stretch-reflex]
 prerequisites: [alpha-motor-neuron, muscle-spindle, action-potential]
 opens_questions: [Q-spindle-02]
 source_articles: [2026-10-10-muscle-spindle-proprioception-gamma-motor]
@@ -98,7 +98,9 @@ key_sources: ["PMID:36561377", "PMID:23073629", "PMID:28094764"]
 ## 修订历史
 
 - 2026-10-10 · 创建 · 基于《感觉会自我校准的尺子》(#172) · 初始置信度：高
+- 2026-06-13 · 修订 · 基于《脊髓最短捷径：牵张反射弧》(#179) · 新增 stretch-reflex 到 related；γ-MN 是牵张反射增益控制的核心旋钮（静态/动态分型调控肌梭灵敏度）
 
 ## 来源文章
 
 - [[2026-10-10-muscle-spindle-proprioception-gamma-motor]]
+- [[2026-06-13-stretch-reflex-arc]]

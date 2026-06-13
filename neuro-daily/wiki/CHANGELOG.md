@@ -3971,3 +3971,41 @@
 - Q-rd-02（高）：旋转动力学是否存在于人类大脑皮层？有限的人类BCI记录如何验证？
 - Q-rd-03（中）：SMA/PMd如何精确触发活动从输出零空间流入主动空间？"执行信号"的神经机制是什么？
 - Q-rd-04（中）：旋转动力学在神经系统疾病中如何破坏？能否作为BCI解码的生物标志物？
+
+---
+
+## 2026-06-13 更新（第 179 篇）
+
+### 新建 wiki 页面（3 页）
+
+**circuits/**
+- `stretch-reflex.md` — 牵张反射弧 | established / high | 唯一单突触反射（Ia→α-MN）；三重增益制动（互反抑制/复现抑制/突触前抑制）；γ-MN 增益旋钮；状态依赖性极性反转（Hultborn 2001）；H反射可塑性（Wolpaw 系列）；填补悬空引用 `stretch-reflex`
+
+**neurons/**
+- `ia-inhibitory-interneuron.md` — Ia 抑制性中间神经元 | established / high | 互反抑制的专用中介；甘氨酸能；接收 Ia 传入+Renshaw 抑制+下行调控
+- `renshaw-cell.md` — Renshaw 细胞 | established / high | α-MN 轴突侧支驱动的甘氨酸能 INs；复现抑制；通过抑制 Ia-INs 允许共收缩；汇聚-发散结构（Moore 2015）
+
+### 修订 wiki 页面（3 页）
+
+- `neurons/alpha-motor-neuron.md` rev4→rev5 — 新增 stretch-reflex、ia-inhibitory-interneuron、renshaw-cell 到 related；α-MN 作为牵张反射效应器的连接明确
+- `neurons/gamma-motor-neuron.md` rev1→rev2 — 新增 stretch-reflex 到 related；γ-MN 作为牵张反射增益旋钮的连接明确
+- `neurons/muscle-spindle.md` rev3→rev4 — 新增 stretch-reflex 到 related；Ia 传入作为牵张反射输入端的连接完整化
+
+### 图谱变化
+
+- 新建节点：stretch-reflex（circuits）、ia-inhibitory-interneuron（neurons）、renshaw-cell（neurons）
+- 新增边：14条（stretch-reflex↔muscle-spindle/alpha-motor-neuron/gamma-motor-neuron/ia-inhibitory-interneuron/renshaw-cell/spinal-cord-cpg/corticospinal-tract/somatosensory-cortex-3a/motor-cortex；ia-inhibitory-interneuron↔alpha-motor-neuron；renshaw-cell↔alpha-motor-neuron/ia-inhibitory-interneuron）
+- 节点总数：357 → 360（+3）
+- 边总数：2056 → 2070（+14）
+- **悬空引用填补**：`stretch-reflex`（被多个运动系统节点引用但无独立页，今日创建）
+- 剩余悬空：2条（aging, cognition）
+
+### 登记矛盾（0 条）
+
+无新矛盾；牵张反射机制高度确立（教科书级）
+
+### 新增未解问题（3 条）
+
+- Q-stretch-01（高）：人类 Ia-INs 的功能特性与猫是否一致？（无直接人类细胞内记录）
+- Q-stretch-02（中）：长潜伏期牵张反射 M2 成分是否真正通过 M1？
+- Q-stretch-03（中）：H 反射可塑性的脊髓 vs 皮层贡献比例

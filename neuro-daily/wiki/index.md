@@ -35,6 +35,8 @@
 - 🟢 [神经肌肉接头（NMJ）](neurons/neuromuscular-junction.md) — 运动控制链最末节点；三细胞架构（神经末梢+肌纤维终板+PSC）；Cav2.1→SNARE→量子释放（m≈50–100）；nAChR密度~10,000/μm²；安全因子2–5；Agrin-LRP4-MuSK-rapsyn轴自组织突触后密度；填补运动链叙事最后缺口 **[NEW 2026-10-09 #169]**
 - 🟢 [高尔基腱器官（GTO）](neurons/golgi-tendon-organ.md) — 串联于肌纤维的力量传感器；Ib 传入低阈值（每次收缩放电）；三条脊髓通路（Ib 抑制/兴奋/DSCT）；站立相 Ib 切换为兴奋性负荷守门人；"折刀反射"修正（III/IV 类传入为主）；帕金森 Ib 抑制减弱 **[NEW 2026-06-13 #174]**
 - 🟢 [Clarke 柱](neurons/clarkes-nucleus.md) — 脊髓背内侧灰质（T1-L2）本体感觉中继核，脊髓中最大细胞之一；直接接受 Ia/Ib 传入单突触投射（VGluT1 高密度）；是 DSCT 主要起源；70% 细胞受脊髓 CPG 直接驱动（Stecina 2013）**[NEW 2026-06-13 #176]**
+- 🟢 [Ia 抑制性中间神经元](neurons/ia-inhibitory-interneuron.md) — 牵张反射互反抑制的专用中介；接收 Ia 传入，向拮抗肌 α-MN 传递甘氨酸 IPSP；受 Renshaw 细胞抑制（允许共收缩）；下行系统可调控其强度 **[NEW 2026-06-13 #179]**
+- 🟢 [Renshaw 细胞](neurons/renshaw-cell.md) — 唯一由 α-MN 轴突侧支直接驱动的抑制性中间神经元；实现复现抑制（输出依赖性制动）；通过抑制 Ia-INs 允许共收缩；Calbindin 阳性标志 **[NEW 2026-06-13 #179]**
 
 ## circuits（回路）
 
@@ -48,6 +50,7 @@
 - 🟢 [前额叶-杏仁核情绪调控回路](circuits/pfc-amygdala-emotion-regulation.md) — IL（vmPFC）通过三路并联（ITC门控/BLA直接投射/PVT中继）压制杏仁核恐惧输出；PL 反向促进恐惧表达；IL内部mGluR5→AMPAR可塑性；IL训练时写入/回忆时表达逻辑 **[NEW 2026-07-31 #99]**
 - 🟢 [脊髓中枢模式发生器](circuits/spinal-cord-cpg.md) — 双层架构（RG节律生成+PF模式形成）；V0D/V0V速度依赖步态切换（走/跑/飞奔）；V1+V2b屈伸半中枢；虚构运动证明CPG自主性；VSCT作为CPG枢纽（Chalif 2022，争议中）**[NEW 2026-10-07 #167]**
 - 🟢 [步态中间神经元（V型）](circuits/spinal-interneurons-locomotion.md) — V0/V1/V2a/V2b/V3各自分子标记与功能角色；SHOX2+非V2a为节律生成核心候选；V0D选择性删除→低速失交替；V0V删除→小跑消失；VSCT必要充分性（待验证）**[NEW 2026-10-07 #167]**
+- 🟢 [牵张反射弧](circuits/stretch-reflex.md) — 哺乳动物唯一单突触反射；Ia→α-MN 直接连接（25–35 ms，人类下肢）；三重增益制动（互反抑制/复现抑制/突触前抑制）；γ-MN 设定灵敏度旋钮；状态依赖性极性反转；H 反射可操作性条件化；痉挛=突触前抑制丧失 **[NEW 2026-06-13 #179]**
 
 ## concepts（概念/框架）
 

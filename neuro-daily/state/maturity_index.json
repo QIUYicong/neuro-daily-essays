@@ -333,6 +333,30 @@
       "last_changed": "2026-06-13",
       "change_reason": "新建页面，填补spinocerebellar-tracts中的悬空引用；教科书级解剖+电生理+人类fMRI多重独立验证",
       "source_article": "2026-06-13-somatosensory-cortex-3a-proprioceptive-gateway"
+    },
+    {
+      "slug": "stretch-reflex",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-13",
+      "change_reason": "创建新页面；Lloyd 1943 + Eccles 1956 + Mendell 1971 等多个独立实验室经典实验验证；三重制动机制为教科书级内容",
+      "source_article": "2026-06-13-stretch-reflex-arc"
+    },
+    {
+      "slug": "ia-inhibitory-interneuron",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-13",
+      "change_reason": "创建新页面；Eccles et al. 1956 细胞内记录直接证明互反抑制的细胞机制；多实验室重复验证",
+      "source_article": "2026-06-13-stretch-reflex-arc"
+    },
+    {
+      "slug": "renshaw-cell",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-13",
+      "change_reason": "创建新页面；Renshaw 1941 原始描述 + Moore 2015 光遗传学突触分辨率验证",
+      "source_article": "2026-06-13-stretch-reflex-arc"
     }
   ],
   "last_updated": "2026-06-13",
@@ -382,7 +406,7 @@
       "reason": "创建：GluN2B→GluN2A 切换有多项独立高质量证据（Rodenas-Ruano 2012 REST 机制, McKay 2018 GluN2A 水平驱动, Siu 2017 人类时间线, Nicoll 2023 CaMKII-GluN2B）；机制清晰；未解部分（REST 上游信号、脑区比例）不影响核心机制置信度"
     }
   ],
-  "total_pages": 27,
+  "total_pages": 39,
   "syngap1": {
     "status": "established",
     "confidence": "high",

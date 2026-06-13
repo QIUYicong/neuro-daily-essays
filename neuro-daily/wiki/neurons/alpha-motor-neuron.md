@@ -7,9 +7,9 @@ status: established
 confidence: high
 created: 2026-10-08
 updated: 2026-06-13
-revision_count: 4
+revision_count: 5
 dimensions: [cellular, microcircuit, behavior]
-related: [motor-unit, size-principle, persistent-inward-currents, spinal-cord-cpg, spinal-interneurons-locomotion, motor-cortex, corticospinal-tract, corticomotoneuronal-connections, neuromuscular-junction, action-potential, gamma-motor-neuron, muscle-spindle]
+related: [motor-unit, size-principle, persistent-inward-currents, spinal-cord-cpg, spinal-interneurons-locomotion, motor-cortex, corticospinal-tract, corticomotoneuronal-connections, neuromuscular-junction, action-potential, gamma-motor-neuron, muscle-spindle, stretch-reflex, ia-inhibitory-interneuron, renshaw-cell]
 prerequisites: [action-potential, synaptic-transmission, ion-channels]
 opens_questions: [Q-mn-01, Q-mn-02, Q-mn-03]
 source_articles: [2026-10-08-alpha-motor-neuron-size-principle]
@@ -105,6 +105,7 @@ key_sources: ["PMID:14328454", "PMID:23720261", "PMID:31799904", "PMID:18381974"
 - 2026-10-09 · 修订 · 基于《命令的最后一公里》（#169）· 悬空引用 `neuromuscular-junction` 已填补，NMJ 专页现已建立（wiki/neurons/neuromuscular-junction.md）
 - 2026-10-10 · 修订 · 基于《感觉会自我校准的尺子》(#172) · 新增 gamma-motor-neuron 和 muscle-spindle 关联；α-γ 协同激活在连接节中明确
 - 2026-06-13 · 修订 · 基于《进化写下的专线：皮质脊髓束》(#173) · 新增 corticospinal-tract 和 corticomotoneuronal-connections 到 related 列表，明确 α-MN 作为 CST CM 通路的最终突触后靶点
+- 2026-06-13 · 修订 · 基于《脊髓最短捷径：牵张反射弧》(#179) · 新增 stretch-reflex、ia-inhibitory-interneuron、renshaw-cell 到 related；α-MN 是牵张反射的效应器，同时接收 Ia-INs 的 IPSP（互反抑制）和 Renshaw 细胞的 IPSP（复现抑制）
 
 ## 来源文章
 
@@ -112,3 +113,4 @@ key_sources: ["PMID:14328454", "PMID:23720261", "PMID:31799904", "PMID:18381974"
 - [[2026-10-09-neuromuscular-junction-synaptic-machine]]
 - [[2026-10-10-muscle-spindle-proprioception-gamma-motor]]
 - [[2026-06-13-corticospinal-tract-cm-dexterity]]
+- [[2026-06-13-stretch-reflex-arc]]

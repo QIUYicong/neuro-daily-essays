@@ -7,9 +7,9 @@ status: established
 confidence: high
 created: 2026-10-10
 updated: 2026-06-13
-revision_count: 3
+revision_count: 4
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, behavior, cognition]
-related: [gamma-motor-neuron, alpha-motor-neuron, piezo2-mechanotransduction, golgi-tendon-organ, proprioception, spinal-cord-cpg, neuromuscular-junction, somatosensory-cortex, somatosensory-cortex-3a, cerebellum]
+related: [gamma-motor-neuron, alpha-motor-neuron, piezo2-mechanotransduction, golgi-tendon-organ, proprioception, spinal-cord-cpg, neuromuscular-junction, somatosensory-cortex, somatosensory-cortex-3a, cerebellum, stretch-reflex]
 prerequisites: [action-potential, synaptic-transmission, alpha-motor-neuron]
 opens_questions: [Q-spindle-01, Q-spindle-02, Q-spindle-03]
 source_articles: [2026-10-10-muscle-spindle-proprioception-gamma-motor, 2026-06-13-golgi-tendon-organ-ib-autogenic-inhibition]
@@ -132,6 +132,7 @@ Nav1.1/1.6/1.7 放大信号
 - 2026-10-10 · 创建 · 基于《感觉会自我校准的尺子》(#172) · 初始置信度：高
 - 2026-06-13 · rev2 · 基于《肌肉力量的精确传感器》(#174) · 填补 golgi-tendon-organ 悬空引用；更新 source_articles
 - 2026-06-13 · rev3 · 基于《3a区——皮层本体感觉的第一站》(#177) · 填补 somatosensory-cortex-3a 悬空引用（该节点现已有 wiki 页面）；更新related字段
+- 2026-06-13 · rev4 · 基于《脊髓最短捷径：牵张反射弧》(#179) · 新增 stretch-reflex 到 related；肌梭 Ia 传入是牵张反射弧的输入端，本页与该回路页正式连接
 
 ## 来源文章
 

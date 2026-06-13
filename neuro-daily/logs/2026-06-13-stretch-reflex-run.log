@@ -1,0 +1,136 @@
+# 运行日志：2026-06-13（文章 #179）
+
+## 基本信息
+
+- **文章编号**：#179
+- **执行日期**：2026-06-13（UTC+8）
+- **分支**：main
+- **选题**：牵张反射弧（Stretch Reflex Arc）——填补悬空引用 `stretch-reflex`
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：total_articles=178（更新前）；last_updated=2026-06-13（已有多篇同日文章）
+- `unresolved_questions.md`：最近新增 Q-rd-01/02/03/04（#178 旋转动力学）和 Q-3a-01/02/03/04（#177 3a区）
+- `contested_claims.json`：16 条 open；无今日主题直接相关争议
+- `_graph.json`：357 节点，2056 边；3 条悬空引用（stretch-reflex, aging, cognition）
+- 已存在 wiki 页：alpha-motor-neuron, gamma-motor-neuron, muscle-spindle, golgi-tendon-organ, spinal-cord-cpg, spinal-interneurons-locomotion（运动系列已有），corticospinal-tract
+- **缺口确认**：`stretch-reflex` 被多个运动系统节点引用但无独立页
+
+---
+
+## 选题决策
+
+**选题依据**：
+1. 缺口驱动（优先级 3，高于课程脊柱优先级 6）：`stretch-reflex` 是图谱中三个悬空引用之一，被 alpha-motor-neuron、muscle-spindle、gamma-motor-neuron 等多个页面引用
+2. 课程脊柱延续：运动系列（CPG→α-MN→NMJ→肌梭→GTO→CST→3a区→M1旋转动力学）在完成皮层运动系统深度覆盖后，脊髓本地感觉-运动闭环（牵张反射弧）是逻辑上的"补完"
+3. 层级平衡：#178 覆盖 brain-region/whole-brain-network/cognition；#179 切换到 cellular/synaptic/microcircuit，打破连续脑区层覆盖
+
+**最终选题**：牵张反射弧（基本回路 + 三重制动 + 增益控制 + 状态依赖调制 + 可塑性）
+
+---
+
+## 文献检索
+
+### 搜索词与数据库
+
+| 搜索词 | 数据库 | 结果数 |
+|--------|--------|--------|
+| monosynaptic stretch reflex Ia afferent review | PubMed | 4 |
+| Ia inhibitory interneuron reciprocal inhibition spinal cord | PubMed | 5 |
+| Hultborn spinal reflex interneuron review | PubMed | 3 |
+| presynaptic inhibition Ia afferents spinal cord review | PubMed | 7 |
+| Thompson Wolpaw H-reflex operant conditioning review | PubMed | 5 |
+| stretch reflex spinal cord review | PMC | 10+ |
+| spasticity stretch reflex upper motor neuron mechanism | PMC | 8 |
+
+### 采用来源（11 篇）
+
+| 来源 | 全文 | 采用原因 |
+|------|------|---------|
+| Lloyd 1943 (J Neurophysiol) | 历史，无PMC | 单突触反射最早定义 |
+| Eccles et al. 1956 (PMID:13396937) | 摘要 | 互反抑制细胞机制首次证明 |
+| Mendell & Henneman 1971 (PMID:5540547) | 摘要 | 单根Ia纤维覆盖全α-MN池 |
+| Hultborn 2001 (PMC2278613) | **全文** | 功能单元理论；状态依赖性反射反转 |
+| Rudomin 2002 (PMID:12171106) | 摘要 | 突触前抑制PAD选择性 |
+| Hultborn 2006 (PMID:16716488) | 摘要 | 历史综述，Eccles到Lundberg |
+| Moore et al. 2015 (PMC4464588) | **全文** | Renshaw细胞光遗传学证明 |
+| Duchateau & Enoka 2008 (PMC2655422) | **全文** | 离心收缩时PAD压低牵张反射 |
+| Knikou 2008 (PMID:18394711) | 摘要 | H反射方法学 |
+| Thompson & Wolpaw 2015 (PMC4167198) | **全文** | H反射条件化；SCI康复 |
+| Wolpaw & Thompson 2023 (PMC10338914) | **全文** | 靶向有益可塑性 |
+
+### 排除来源
+
+- 多篇较新的临床性痉挛文献（与核心机制问题关联弱，优先来源充分）
+- PMID:36139045（肌梭DOMS炎症相关，非本日核心）
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页（3 页）
+
+- `wiki/circuits/stretch-reflex.md`：rev1 创建，established/high，填补悬空引用
+- `wiki/neurons/ia-inhibitory-interneuron.md`：rev1 创建，established/high
+- `wiki/neurons/renshaw-cell.md`：rev1 创建，established/high
+
+### 修订 wiki 页（3 页）
+
+- `wiki/neurons/alpha-motor-neuron.md`：rev4→rev5，新增 stretch-reflex/ia-inhibitory-interneuron/renshaw-cell 连接
+- `wiki/neurons/gamma-motor-neuron.md`：rev1→rev2，新增 stretch-reflex 连接
+- `wiki/neurons/muscle-spindle.md`：rev3→rev4，新增 stretch-reflex 连接
+
+### 矛盾检查
+
+- 无新矛盾。牵张反射的基本机制为教科书级内容（70年多实验室验证），不与现有页面冲突。
+- 一项潜在张力：突触前抑制 PAD 的抑制 vs 兴奋效果（Rudomin 2002 提及条件依赖性），但这是同一文献内的细化，非两个来源之间的根本冲突，记入 Q-stretch-01 相关背景而非矛盾登记。
+
+### 成熟度评估
+
+- stretch-reflex：established（Lloyd 1943 + Eccles 1956 + Mendell 1971 + Hultborn 系列，多重独立验证，教科书级）
+- ia-inhibitory-interneuron：established（Eccles 1956 直接证明）
+- renshaw-cell：established（Renshaw 1941 + Moore 2015 光遗传学验证）
+
+---
+
+## 图谱更新
+
+- 新建节点：3（stretch-reflex, ia-inhibitory-interneuron, renshaw-cell）
+- 新增边：14
+- 总计：360 节点，2070 边
+- 悬空引用填补：`stretch-reflex`（从 3 个悬空减为 2 个）
+- updated 字段：2026-06-13
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：total_articles 178→179，新增 #179 条目
+- `unresolved_questions.md`：新增 Q-stretch-01/02/03
+- `maturity_index.json`：新增 3 条目（stretch-reflex/ia-inhibitory-interneuron/renshaw-cell）
+- `monthly_synthesis.md`：2026-06-13 月度追加 #179 摘要
+- `wiki/CHANGELOG.md`：追加今日节（3 新建 + 3 修订 + 14 边）
+- `wiki/index.md`：新增 2 条 neurons 条目 + 1 条 circuits 条目
+
+---
+
+## 失败与限制
+
+- 多数基础性研究（Lloyd 1943, Eccles 1956, Mendell 1971）来自1940-1970年代，无 PMC 开放版本；使用权威综述（Hultborn 2006 等）补充，已明确标注
+- 人类长潜伏期牵张反射数据缺乏单一权威开放全文综述；主要通过历史文献（Marsden 等）和间接来源描述
+- NINDS 官方页面拒绝访问（HTTP 403）
+- 5 篇开放全文满足 ROUTINE.md ≥2 篇开放全文的要求
+
+---
+
+## Git 操作
+
+- **Branch**：main
+- **Commit**：[待填入]
+- **Push**：[待执行]
+
+---
+
+*日志由自动化代理生成，2026-06-13 UTC+8*
