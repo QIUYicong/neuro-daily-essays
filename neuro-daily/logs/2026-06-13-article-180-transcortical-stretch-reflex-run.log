@@ -96,5 +96,6 @@
 ## Git 操作
 
 - 分支：main
-- Push状态：[待填写]
-- Commit hash：[待填写]
+- Push状态：成功（pushed to origin/main）
+- Commit hash（文章+新wiki页）：ea83bbe
+- Commit hash（wiki修订+状态更新）：1f53883
