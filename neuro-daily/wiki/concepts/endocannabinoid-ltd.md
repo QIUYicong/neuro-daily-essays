@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-13
-updated: 2026-06-13
-revision_count: 1
+updated: 2026-06-15
+revision_count: 2
 dimensions: [molecular, synaptic, microcircuit, brain-region]
-related: [corticostriatal-plasticity, basal-ganglia, habit-formation, dopamine, ltp, cb1-receptor]
-prerequisites: [synaptic-transmission, ltp, dopamine]
-opens_questions: [Q-cortstr-01]
-source_articles: [2026-06-13-corticostriatal-ltp-ltd]
-key_sources: ["PMID:11976704", "PMID:9169514", "PMID:15498813", "PMID:20096294", "PMID:19120438"]
+related: [corticostriatal-plasticity, basal-ganglia, habit-formation, dopamine, ltp, cb1-receptor, endocannabinoid-system, dsi-dse, 2-ag, fear-extinction]
+prerequisites: [synaptic-transmission, ltp, dopamine, endocannabinoid-system]
+opens_questions: [Q-cortstr-01, Q-ecb-01]
+source_articles: [2026-06-13-corticostriatal-ltp-ltd, 2026-06-15-endocannabinoid-retrograde-signaling]
+key_sources: ["PMID:11976704", "PMID:9169514", "PMID:15498813", "PMID:20096294", "PMID:19120438", "PMID:23040807", "PMID:37480845"]
 ---
 
 # 内源大麻素长时程抑制（纹状体）(Endocannabinoid LTD in the Striatum)
@@ -72,9 +72,23 @@ Adermark et al. 2009（PMID:19120438）：D1-MSN 也存在 eCB-LTD，但诱导�
 
 - Q-cortstr-01：清醒行为动物中，eCB-LTD 自然诱导的频率条件是什么？是否在每次正向奖励后都发生？持续时间多长？
 
+### ★ 跨脑区视角（2026-06-15 更新）
+
+纹状体 eCB-LTD 是 eCB-LTD 大家族在奖励/习惯回路中的特化形式。同一机制（2-AG→CB1R→AC/PKA 抑制→ 突触前蛋白去磷酸化→LTD）在其他脑区也以不同形式存在：
+
+| 脑区 | 突触类型 | 诱导条件 | 功能意义 |
+|------|---------|---------|---------|
+| 纹状体（D2-MSN）| 皮层谷氨酸→MSN | HFS + D2R + mGluR5 | 习惯化自动化，本页主题 |
+| 海马（CA1）| GABA 能中间神经元→CA1 | 突触后去极化 / θ-burst | 空间记忆精细化 |
+| 小脑（PF-PC）| 平行纤维→浦肯野细胞 | CF 协同 + mGluR1 | 运动学习（与小脑 LTD 共存）|
+| 杏仁核（BLA）| vmPFC→BLA 谷氨酸末梢 | 消退训练激活 eCB | 恐惧消退记忆形成（PMID:37480845）|
+
+**BLA 的 eCB-LTD**（Gunduz-Cinar et al. 2023，PMID:37480845）证明 eCB-LTD 并非纹状体专属，而是脑内广泛存在的"输入特异性弱化"机制——见 fear-extinction 页。
+
 ## 修订历史
 
 - 2026-06-13 · 创建 · 基于《学习写进突触：皮质纹状体回路的 D1/D2 二分可塑性》(#185) · 初始置信度：高（eCB-LTD 已有多次独立重复；但体内行为学直接证据尚在积累）
+- 2026-06-15 · 修订（rev1→rev2）· 基于《逆向信使》一文（#193）· 新增"跨脑区视角"小节（海马、小脑、BLA 的 eCB-LTD）；related 新增 endocannabinoid-system / dsi-dse / 2-ag / fear-extinction；key_sources 新增 PMID:23040807 / PMID:37480845
 
 ## 来源文章
 

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14",
+  "last_updated": "2026-06-15",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -13508,6 +13508,77 @@
         "social-bonding",
         "autism-OPRM1"
       ]
+    },
+    {
+      "pmid": "23040807",
+      "title": "Endocannabinoid signaling and synaptic function",
+      "year": 2012,
+      "journal": "Neuron",
+      "articles_used": [
+        "2026-06-15-endocannabinoid-retrograde-signaling"
+      ],
+      "coverage": "eCB全系统，DSI机制，CB1R双路径，AEA vs 2-AG"
+    },
+    {
+      "pmid": "19126760",
+      "title": "Endocannabinoid-mediated control of synaptic transmission",
+      "year": 2009,
+      "journal": "Physiol Rev",
+      "articles_used": [
+        "2026-06-15-endocannabinoid-retrograde-signaling"
+      ],
+      "coverage": "eCB综合综述，DGLα-KO，PLCβ亚型，3种2-AG动员模式",
+      "access_note": "abstract_only"
+    },
+    {
+      "pmid": "25169670",
+      "title": "Control of synaptic function by endocannabinoid-mediated retrograde signaling",
+      "year": 2014,
+      "journal": "Proc Jpn Acad Ser B",
+      "articles_used": [
+        "2026-06-15-endocannabinoid-retrograde-signaling"
+      ],
+      "coverage": "DGLα-KO DSI消失；NAPE-PLD-KO不影响DSI；eCB元可塑性"
+    },
+    {
+      "pmid": "37480845",
+      "title": "A cortico-amygdala neural substrate for endocannabinoid modulation of fear extinction",
+      "year": 2023,
+      "journal": "Neuron",
+      "articles_used": [
+        "2026-06-15-endocannabinoid-retrograde-signaling"
+      ],
+      "coverage": "vmPFC→BLA eCB-LTD；恐惧消退机制；PTSD相关"
+    },
+    {
+      "pmid": "38957948",
+      "title": "Anandamide-mediated modulation of nociceptive transmission at the spinal cord level",
+      "year": 2024,
+      "journal": "Physiol Res",
+      "articles_used": [
+        "2026-06-15-endocannabinoid-retrograde-signaling"
+      ],
+      "coverage": "脊髓背角CB1R vs TRPV1平衡；炎症条件下CB1R主导"
+    },
+    {
+      "pmid": "41303613",
+      "title": "The endocannabinoid system in human disease",
+      "year": 2025,
+      "journal": "Int J Mol Sci",
+      "articles_used": [
+        "2026-06-15-endocannabinoid-retrograde-signaling"
+      ],
+      "coverage": "2025年综述；FAAH抑制剂安全性；CB1/CB2药理"
+    },
+    {
+      "pmid": "33786823",
+      "title": "Mechanisms of endocannabinoid transport in the brain",
+      "year": 2022,
+      "journal": "Br J Pharmacol",
+      "articles_used": [
+        "2026-06-15-endocannabinoid-retrograde-signaling"
+      ],
+      "coverage": "AEA转运争议；FABP/FLAT"
     }
   ],
   "total_sources": 817,

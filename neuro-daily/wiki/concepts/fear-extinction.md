@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-31
-revision_count: 3
+updated: 2026-06-15
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, pfc-amygdala-emotion-regulation, prefrontal-cortex]
+related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, pfc-amygdala-emotion-regulation, prefrontal-cortex, endocannabinoid-system, cb1-receptor, endocannabinoid-ltd]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
-opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-31-pfc-amygdala-emotion-regulation]
-key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:12422216", "PMID:20962768", "PMID:29507292", "PMID:25716859", "PMID:23616528", "PMID:33180308"]
+opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02, Q-ecb-04]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-31-pfc-amygdala-emotion-regulation, 2026-06-15-endocannabinoid-retrograde-signaling]
+key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:12422216", "PMID:20962768", "PMID:29507292", "PMID:25716859", "PMID:23616528", "PMID:33180308", "PMID:37480845"]
 ---
 
 # 恐惧消退 (Fear Extinction)
@@ -66,6 +66,20 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - 选择性沉默 IL→PVT 通路 → 消退提取受损（独立于 IL→杏仁核直接通路）
 - 可能提供情景信号的中继层（PVT 也接收海马信号）；解释了为何单独破坏 IL→杏仁核不能完全消除消退
 
+### ★ vmPFC→BLA eCB-LTD：逆向信号在消退突触上的作用（Gunduz-Cinar et al. 2023）
+
+**新增（2026-06-15，基于 #193）**：2023 年 Neuron 研究首次以回路特异性方式证明**内源性大麻素（eCB）在 vmPFC→BLA 突触处的逆向信号是消退记忆形成的必要分子机制**（PMID:37480845，PMC10592324）。
+
+机制：
+- 消退训练期间，vmPFC 轴突在 BLA 内的末梢**动员局部 eCB（2-AG）**
+- eCB 逆行激活 vmPFC→BLA 突触前 CB1R → 突触特异性 eCB-LTD
+- CB1R 药理阻断 → 消退记忆形成受损
+- 光遗传激活 vmPFC→BLA 通路 → 加速恐惧消退
+
+意义：vmPFC（认知评估）→ BLA（恐惧评估）的突触连接通过 eCB-LTD 被弱化，允许新的"安全"记忆逐步覆盖原始恐惧痕迹。这与 IL→ITC→CeM 通路是**互补的**：eCB-LTD 弱化输入（谷氨酸能驱动减少），ITC 建立新的 GABAergic 抑制输出。
+
+**PTSD 含义**：eCB 系统功能受损可能是 PTSD 患者消退记忆无法巩固的机制之一；FAAH 抑制剂或 CB1R PAM 作为 PTSD 辅助疗法的机制基础。
+
 ### BA双神经元群（情景依赖的开关）
 - **恐惧细胞**：条件反射后CS+，消退后响应消失；投射PL皮层
 - **消退细胞**：消退后CS+；投射IL皮层
@@ -105,6 +119,7 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高（啮齿类证据充分，人类转化大体一致）
 - 2026-07-31 · 修订（rev2→rev3）· 基于《皮层的安抚手》一文（#99）· 新增 IL→BLA 直接投射机制（Bloodgood 2018，PMC5838104）；新增 IL 内部 mGluR5→AMPAR 分子可塑性（Sepulveda-Orengo 2013，PMC3690368）；新增 IL 时间窗口（Do-Monte 2015，PMC4339362）；新增 IL→PVT→CeA 替代通路（Tao 2021，PMC7870747）；related 新增 pfc-amygdala-emotion-regulation 和 prefrontal-cortex
+- 2026-06-15 · 修订（rev3→rev4）· 基于《逆向信使》一文（#193）· 新增 vmPFC→BLA eCB-LTD 机制（Gunduz-Cinar 2023，PMC10592324）；新增 eCB-PTSD 含义；related 新增 endocannabinoid-system / cb1-receptor / endocannabinoid-ltd；key_sources 新增 PMID:37480845
 
 ## 来源文章
 

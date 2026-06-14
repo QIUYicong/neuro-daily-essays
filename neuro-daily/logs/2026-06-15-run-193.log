@@ -1,0 +1,57 @@
+run_date: 2026-06-15
+article_number: 193
+article_slug: endocannabinoid-retrograde-signaling
+article_title: 逆向信使：内源性大麻素系统如何从突触后端重写突触规则
+article_file: articles/2026-06-15-endocannabinoid-retrograde-signaling.md
+character_count: ~5200
+source_count: 8
+open_full_text: 6
+abstract_only: 2 (PMID:19126760, PMID:29216450)
+
+wiki_new_pages:
+  - concepts/endocannabinoid-system.md (rev1)
+  - concepts/dsi-dse.md (rev1)
+  - neurons/cb1-receptor.md (rev1)
+  - concepts/2-ag.md (rev1)
+
+wiki_revised_pages:
+  - concepts/fear-extinction.md (rev3→rev4, added vmPFC→BLA eCB-LTD section)
+  - concepts/endocannabinoid-ltd.md (rev1→rev2, added cross-brain-region table)
+
+graph_stats:
+  nodes_before: 384
+  nodes_after: 388
+  edges_before: 2200
+  edges_after: 2219
+
+state_updates:
+  topic_ledger: entries 173→174, total_articles=193
+  unresolved_questions: added Q-ecb-01 through Q-ecb-04
+  monthly_synthesis: updated June 2026 section (#193 added)
+  maturity_index: 50→51 entries (4 new, 2 revised)
+  source_registry: 824→831 sources (7 new PMIDs)
+  wiki_changelog: 2026-06-15 entry added
+
+sources_cited:
+  - PMID:23040807 (Castillo 2012 Neuron, PMC3517813, open)
+  - PMID:19126760 (Kano 2009 PhysRev, abstract only)
+  - PMID:25169670 (Kano 2014, PMC4237895, open)
+  - PMID:37480845 (Gunduz-Cinar 2023 Neuron, PMC10592324, open)
+  - PMID:38957948 (Spicarova 2024, open)
+  - PMID:29216450 (Mateo 2017, abstract only)
+  - PMID:33786823 (Kaczocha 2022, open)
+  - PMID:41303613 (Serban 2025, open)
+
+new_unresolved_questions:
+  - Q-ecb-01: eCB-LTD target protein "T" molecular identity (high priority)
+  - Q-ecb-02: AEA transport mechanism across synaptic cleft (medium)
+  - Q-ecb-03: FAAH/MAGL clinical safety after BIA 10-2474 incident (medium)
+  - Q-ecb-04: vmPFC→BLA eCB system in human PTSD (medium)
+
+errors_encountered:
+  - git pull divergent branches: resolved with --rebase
+  - notes file collision (2026-06-15 already existed for article #25): created with unique suffix
+  - PMC redirect: pmc.ncbi.nlm.nih.gov → pmc.ncbi.nlm.nih.gov new URL
+  - graph.json edge KeyError: fixed by checking edge structure before access
+
+status: complete

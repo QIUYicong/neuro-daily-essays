@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-06-14*
+*最后更新：2026-06-15*
+
+---
+
+## 2026-06-15 新增（来自"逆向信使：内源性大麻素系统" #193）
+
+### Q-ecb-01（高优先级）：eCB-LTD 的突触前靶蛋白分子身份
+
+- **关联 wiki**：[[endocannabinoid-system]]、[[endocannabinoid-ltd]]、[[cb1-receptor]]
+- **来源文章**：2026-06-15-endocannabinoid-retrograde-signaling
+- **问题**：eCB-LTD 的分子机制中，CB1R→Gi/o→αi→AC↓→cAMP↓→PKA↓，最终导致突触前"目标蛋白（T）"去磷酸化，持续降低释放概率。但这个"T"的分子身份尚未被明确鉴定。RIM1α 是主要候选，但直接证据不完整。（a）RIM1α 的 Ser 413 去磷酸化是否是 eCB-LTD 的充分必要条件（KO 研究？磷酸化特异性抗体？）？（b）是否存在脑区特异性的不同靶蛋白（纹状体 vs 海马 vs 杏仁核）？（c）分子鉴定后能否开发靶向干预工具（磷酸酶抑制剂等）来调控特定脑区的 eCB-LTD？
+
+### Q-ecb-02（中优先级）：内源性大麻素如何跨越突触间隙
+
+- **关联 wiki**：[[endocannabinoid-system]]、[[2-ag]]
+- **来源文章**：2026-06-15-endocannabinoid-retrograde-signaling
+- **问题**：2-AG 和 AEA 是脂溶性分子，要从突触后膜到达突触前膜（穿越含水的突触间隙），其物理过程仍有争议。（a）"膜翻转扩散"（flip-flop）在体内是否足够快速，能在 DSI 的时间尺度（毫秒至秒）内完成传递？（b）FABP（脂肪酸结合蛋白）和 FLAT（FAAH 样 AEA 转运体）是否在体内提供蛋白质辅助转运？体内证据（而非培养细胞）是什么？（c）突触外空间的 AEA 水解速率（FAAH 在突触后）是否限制了 AEA 到达突触前受体的有效量，与 2-AG 的 MAGL（突触前降解）相比形成对比？
+
+### Q-ecb-03（中优先级）：FAAH/MAGL 抑制剂的临床安全性
+
+- **关联 wiki**：[[endocannabinoid-system]]
+- **来源文章**：2026-06-15-endocannabinoid-retrograde-signaling
+- **问题**：FAAH 抑制剂（提升 AEA 水平）理论上比直接 CB1R 激动剂更精准，但 2016 年 BIA 10-2474 临床一期试验导致一名受试者死亡、多名严重神经损伤。（a）BIA 10-2474 的神经毒性是否完全来自 FAAH 抑制以外的脱靶效应（已确认有其他脂肪酸酰胺水解酶脱靶）？如何设计更高选择性的 FAAH 抑制剂？（b）MAGL 抑制剂（提升 2-AG 水平）的安全性如何？动物研究显示耐受问题（CB1R 下调），人类？（c）理想的 eCB 增强策略是什么：局部给药？间歇性给药以避免耐受？脑区选择性工具？
+
+### Q-ecb-04（中优先级）：vmPFC→BLA eCB-LTD 在人类 PTSD 中的状态
+
+- **关联 wiki**：[[endocannabinoid-system]]、[[fear-extinction]]、[[cb1-receptor]]
+- **来源文章**：2026-06-15-endocannabinoid-retrograde-signaling
+- **问题**：Gunduz-Cinar 2023 在小鼠中证明 vmPFC→BLA eCB-LTD 是恐惧消退所必需。已知 PTSD 患者 CB1R 可用性改变（PET 研究）。（a）PTSD 患者 BLA 区域 CB1R 的改变方向是上调还是下调（现有 PET 研究结果不一致）？改变是 BLA 特异的还是广泛的？（b）消退训练期间 vmPFC→BLA 的 eCB 动员是否在 PTSD 患者中受损（目前无直接证据）？可以用 PET+TSPO 追踪器或特异性 CB1R 配体在消退训练范式中测量？（c）eCB 增强药物（如 FAAH 抑制剂、CBD）辅助消退疗法（extinction-based therapy）的最优时间窗是什么？消退训练前、训练中还是训练后即刻？
 
 ---
 

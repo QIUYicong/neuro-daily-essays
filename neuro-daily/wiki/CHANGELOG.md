@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-06-15（文章 #193：逆向信使——内源性大麻素系统如何从突触后端重写突触规则）
+
+**创建新页（4 页）**：
+- `wiki/concepts/endocannabinoid-system.md`（rev1）：ECS 综合概述；两种配体（2-AG/AEA）、三种 2-AG 动员模式（CaER/RER/Ca²⁺-assisted RER）、CB1R 双路径信号（βγ-VGCC 短期 / αi-AC-PKA 长期）、跨脑区分布；status=established, confidence=high
+- `wiki/concepts/dsi-dse.md`（rev1）：去极化诱发抑制性/兴奋性抑制；完整信号级联；DSI vs DSE 功能区别；DGLα-KO 遗传证明；status=established, confidence=high
+- `wiki/neurons/cb1-receptor.md`（rev1）：CB1R 分子机制（Gi/o 偶联、βγ-VGCC、αi-AC-PKA）；脑区分布（CCK+ GABA 末梢 vs 谷氨酸末梢）；eCB-LTD 联合规则；status=established, confidence=high
+- `wiki/concepts/2-ag.md`（rev1）：2-AG 的合成（DGLα）、降解（MAGL 85%/ABHD6 15%）、空间范围（20μm）、与 AEA 的系统对比；DGLα-KO 遗传直接证明；status=established, confidence=high
+
+**修订既有页（2 页）**：
+- `wiki/concepts/fear-extinction.md` rev3→rev4：新增 vmPFC→BLA eCB-LTD 机制小节（Gunduz-Cinar 2023，PMC10592324）；新增 PTSD-eCB 含义；related 新增 endocannabinoid-system/cb1-receptor/endocannabinoid-ltd；key_sources 新增 PMID:37480845
+- `wiki/concepts/endocannabinoid-ltd.md` rev1→rev2：新增"跨脑区视角"小节（海马/小脑/BLA 的 eCB-LTD）；related 新增 endocannabinoid-system/dsi-dse/2-ag/fear-extinction；key_sources 新增 PMID:23040807/37480845
+
+**图谱变化**：
+- 新节点（4）：endocannabinoid-system, dsi-dse, cb1-receptor, 2-ag
+- 新边（19）：ECS 系统关系链（endocannabinoid-system → fear-extinction / pain-matrix / descending-pain-modulation / endogenous-opioids / synaptic-transmission；cb1-receptor ↔ ECS / VGCC / DSI / LTD；2-ag ↔ cb1-receptor / DSI-DSE）
+- 图谱统计：384→388 节点，2200→2219 边
+- **填补悬空引用**：cb1-receptor（被 endocannabinoid-ltd 引用但原无节点 → 现创建）
+
+**登记矛盾**：无（本文所述机制均有多重独立重复；未与既有 wiki 主张产生冲突）
+
+**新增未解问题**：Q-ecb-01（eCB-LTD 靶蛋白）、Q-ecb-02（AEA 转运）、Q-ecb-03（FAAH/MAGL 临床安全性）、Q-ecb-04（vmPFC→BLA eCB 在 PTSD 中的状态）
+
+---
+
 ## 2026-06-14（维护修复：补全 topic_ledger #190 缺失条目）
 
 **情景层维护**：

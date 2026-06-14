@@ -4,8 +4,16 @@
 
 ## 2026年6月（进行中）
 
-*本月截至日期：2026-06-13*
-*本月新增文章：#170–#188（含两次周综合）；共 19 篇。*
+*本月截至日期：2026-06-15*
+*本月新增文章：#170–#193（含两次周综合）；共 24 篇。*
+
+*6-15 #193 内源性大麻素系统（eCB 系统）：逆向突触信号的多尺度机制。核心：2-AG（按需合成，DGLα）→ CB1R（Gi/o）→ 短期（βγ-VGCC，DSI/DSE）/ 长期（αi-AC-PKA，eCB-LTD）双路径。关键遗传证明：DGLα-KO 小鼠 DSI/DSE 完全消失（3脑区）。新增恐惧消退机制：vmPFC→BLA eCB-LTD（Gunduz-Cinar 2023 Neuron，PMC10592324）；脊髓背角 CB1R/TRPV1 平衡（炎症转向 CB1R 主导 73%）；PAG 的 eCB-阿片协同去抑制；NAc eCB 调节多巴胺释放。新建4页（endocannabinoid-system, dsi-dse, cb1-receptor, 2-ag），修订2页（fear-extinction rev4, endocannabinoid-ltd rev2），图谱388节点2219边；Q-ecb-01/02/03/04新增。来源8篇（6篇开放全文）。*
+
+*6-14 #192 内源性阿片系统（#192）：μ/δ/κ/NOP 四受体，四族肽，Gi/Go 共同信号逻辑；PAG→RVM 镇痛（GABA 去抑制）、VTA 奖励（DA 神经元去抑制）、μOR 信号偏向（β-arrestin GRK）；eCB-阿片 PAG 协同。*
+
+*6-14 #191 内感受预测编码（EPIC 模型，Seth & Friston 2016）：心脏收缩期意识窗口（Ozturk 2025）；精度加权与情绪感受；稳态预测负担。*
+
+*6-14 #190 疼痛矩阵（伤害感受→主观苦难）：外周 Aδ/C 纤维→脊髓背角闸门→脊髓丘脑束→双通路（伤害感受矩阵/情感-动机回路）；PAG-RVM 下行调制；中枢敏化机制。*
 
 *6-13 #180 长潜伏期牵张反射M2/M3（经皮质反射弧）：三成分时序（M1~25ms/M2~50–75ms/M3~75–120ms）；Marsden 1976奠基（PMC1309044）；Petersen 1998 TMS超线性叠加直接证明M3经皮质（PMC2231172）；Pruszynski 2011 Nature猴M1多关节整合+人类TMS（PMC4974074）；M1目标依赖调制35ms出现（Pruszynski 2014，PMC6608123）；Kurtzer 2008内部模型多关节交互力矩；OFC框架（Scott 2008，PMC2375659）；中风后M2/M3双侧受损（Trumbower 2013，PMC3674210）；新建1页（transcortical-stretch-reflex），修订2页（stretch-reflex rev2, somatosensory-cortex-3a rev2），图谱362节点2078边；Q-llr-01/02/03新增。感觉运动系统弧完整：#172肌梭→#177三区→#173CST→#179M1反射→#180M2/M3经皮质。*
 

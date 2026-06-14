@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-14",
-  "total_articles": 192,
+  "last_updated": "2026-06-15",
+  "total_articles": 193,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12846,6 +12846,80 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-14；知识库序号192；内源性阿片系统；核心：四类受体四族肽的 Gi/Go 统一逻辑 + PAG去抑制镇痛(Lau 2020) + VTA去抑制奖励 + 安慰剂PET证据(Zubieta 2005) + 社会联结内啡肽假说 + GRK/AC超敏成瘾机制；新建4个wiki页（endogenous-opioids/mu-opioid-receptor/kappa-opioid-receptor/placebo-analgesia）；修订2个既有页（descending-pain-modulation rev2/vta rev2）；填补2个悬空引用（endogenous-opioids/placebo-analgesia）；图谱384节点2200边"
+    },
+    {
+      "date": "2026-06-15",
+      "article_number": 193,
+      "title": "逆向信使：内源性大麻素系统如何从突触后端重写突触规则",
+      "core_question": "突触后神经元如何通过逆向脂质信号（eCB）主动调控传入它的突触前输入？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "topic_tags": [
+        "endocannabinoid",
+        "2-AG",
+        "AEA",
+        "CB1R",
+        "DSI",
+        "DSE",
+        "eCB-LTD",
+        "DGLα",
+        "MAGL",
+        "FAAH",
+        "retrograde-signaling",
+        "fear-extinction",
+        "vmPFC-BLA",
+        "Gunduz-Cinar-2023",
+        "pain-modulation",
+        "TRPV1",
+        "spinal-cord-dorsal-horn",
+        "PAG",
+        "opioid-cannabinoid-interaction",
+        "NAc-dopamine",
+        "THC",
+        "PTSD",
+        "Castillo-2012",
+        "Kano-2009",
+        "Kano-2014"
+      ],
+      "main_sources": [
+        "PMID:23040807",
+        "PMID:19126760",
+        "PMID:25169670",
+        "PMID:37480845",
+        "PMID:38957948",
+        "PMID:41303613",
+        "PMID:33786823",
+        "PMID:29216450"
+      ],
+      "unresolved_questions": [
+        "Q-ecb-01",
+        "Q-ecb-02",
+        "Q-ecb-03",
+        "Q-ecb-04"
+      ],
+      "next_suggested_topics": [
+        "内源性大麻素与睡眠——eCB 系统在睡眠调节中的角色（CB1R 激活增加 NREM）",
+        "TRPV1 受体系统——香草酸受体的分子机制与在痛觉、体温调节、中枢突触可塑性中的角色",
+        "内源性大麻素系统与神经发育——CB1R 在突触修剪和脑发育中的功能",
+        "催产素系统（oxytocin）——社会联结、信任、情绪调节的肽类基础"
+      ],
+      "wiki_pages_created": [
+        "endocannabinoid-system",
+        "dsi-dse",
+        "cb1-receptor",
+        "2-ag"
+      ],
+      "wiki_pages_revised": [
+        "fear-extinction",
+        "endocannabinoid-ltd"
+      ],
+      "mode": "long_term_curriculum",
+      "article_file": "2026-06-15-endocannabinoid-retrograde-signaling.md"
     }
   ],
   "layer_coverage_recent": [

@@ -431,9 +431,45 @@
       "last_changed": "2026-06-14",
       "change_reason": "初始创建；Zubieta 2005 PET 直接证据 + 纳洛酮逆转多实验室复现；认知预期→内源性阿片→镇痛链条 established",
       "source_article": "2026-06-14-endogenous-opioid-system-analgesia-reward"
+    },
+    {
+      "slug": "endocannabinoid-system",
+      "page": "wiki/concepts/endocannabinoid-system.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_change": "2026-06-15",
+      "change_reason": "创建（#193）：DGLα-KO 遗传直接证明；多物种多脑区电生理重复"
+    },
+    {
+      "slug": "dsi-dse",
+      "page": "wiki/concepts/dsi-dse.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_change": "2026-06-15",
+      "change_reason": "创建（#193）：1991年发现，2001年机制明确，DGLα-KO完全验证"
+    },
+    {
+      "slug": "cb1-receptor",
+      "page": "wiki/neurons/cb1-receptor.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_change": "2026-06-15",
+      "change_reason": "创建（#193）：填补 endocannabinoid-ltd 中的悬空引用"
+    },
+    {
+      "slug": "2-ag",
+      "page": "wiki/concepts/2-ag.md",
+      "status": "established",
+      "confidence": "high",
+      "revision_count": 1,
+      "last_change": "2026-06-15",
+      "change_reason": "创建（#193）：DGLα-KO直接证明DSI/DSE必要性"
     }
   ],
-  "last_updated": "2026-06-14",
+  "last_updated": "2026-06-15",
   "index": [
     {
       "slug": "thalamocortical-axons",

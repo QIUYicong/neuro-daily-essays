@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-14（**#192** 同一把钥匙，三扇门——内源性阿片系统如何统一镇痛、欢愉与成瘾；新建 4 页：endogenous-opioids（concepts）、mu-opioid-receptor（concepts）、kappa-opioid-receptor（concepts）、placebo-analgesia（concepts）；修订 2 页：descending-pain-modulation rev2、vta rev2；图谱 **384** 节点，**2200** 边）· 主题页总数：**340**
+> 最后更新：2026-06-15（**#193** 逆向信使：内源性大麻素系统如何从突触后端重写突触规则；新建 5 页：endocannabinoid-system（concepts）、dsi-dse（concepts）、2-ag（concepts）、cb1-receptor（neurons）、corticostriatal-plasticity（concepts，补录自 #185）；修订 2 页：endocannabinoid-ltd rev2、fear-extinction rev4；图谱 **388** 节点，**2219** 边）· 主题页总数：**346**
 
 ---
 
@@ -38,6 +38,7 @@
 - 🟢 [Ia 抑制性中间神经元](neurons/ia-inhibitory-interneuron.md) — 牵张反射互反抑制的专用中介；接收 Ia 传入，向拮抗肌 α-MN 传递甘氨酸 IPSP；受 Renshaw 细胞抑制（允许共收缩）；下行系统可调控其强度 **[NEW 2026-06-13 #179]**
 - 🟢 [Renshaw 细胞](neurons/renshaw-cell.md) — 唯一由 α-MN 轴突侧支直接驱动的抑制性中间神经元；实现复现抑制（输出依赖性制动）；通过抑制 Ia-INs 允许共收缩；Calbindin 阳性标志 **[NEW 2026-06-13 #179]**
 - 🟢 [KCC2（K⁺-Cl⁻ 共转运体 2）](neurons/kcc2.md) — 大脑成熟神经元的主要 Cl⁻ 外排泵（SLC12A5）；WNK-SPAK/OSR1 轴 T906/T1007 脱磷酸化 >95% 激活 KCC2（转运效率 >10x）；calpain 切割机制（TLE/疼痛/缺血）；KEECs 治疗 Rett；疾病谱 TLE/疼痛/Rett/ASD **[NEW 2026-06-13 #189]**
+- 🟢 [CB1 受体（大麻素受体 1）](neurons/cb1-receptor.md) — 脑内表达量最高的 Gi/o 偶联 GPCR；突触前膜定位是内源大麻素逆行信号的传感器；βγ→VGCC（短时程）vs αi→AC→PKA（长时程 LTD）双通路；额叶/海马/纹状体/小脑高密度；填补 endocannabinoid-ltd 悬空引用 **[NEW 2026-06-15 #193]**
 
 ## circuits（回路）
 
@@ -197,6 +198,11 @@
 - 🟢 [多巴胺-前额叶倒 U 型调控](concepts/dopamine-pfc-inverted-u.md) — D1R→cAMP→HCN/KCNQ→K⁺通道门控机制；低剂量滤噪 vs 高剂量全面压制；D1R（层III棘 Delay cells）vs D2R（层V树突干 Response cells）解剖分工；应激→DA/NE过载→HCN开放→PFC关闭；SCZ认知症状（Okubo 1997 PET）；胍法辛α2A机制 **[NEW 2026-09-14 #144]**
 - 🟢 [基底神经节直接/间接通路](concepts/direct-indirect-pathway.md) — D1-MSN→直接通路（Go：纹状体→SNr/GPi→丘脑去抑制→运动促进）vs D2-MSN→间接通路（No-Go：纹状体→GPe→STN→SNr/GPi→丘脑抑制→运动抑制）；多巴胺协同效应（D1激活+D2抑制=双重绿灯）；PD：多巴胺耗竭→间接通路过度激活→β振荡 **[NEW 2026-06-06 #101]**
 - 🟢 [习惯形成（目标导向 vs 习惯性行为）](concepts/habit-formation.md) — DMS（目标导向/奖励贬值敏感）vs DLS（习惯/S-R联结）双系统并行竞争；括号化（Jog 1999）；奖励贬值测试；OFC提供目标导向系统的结果当前价值（Rangel 2008）；成瘾作为习惯系统的病理极端（**修订 rev3 2026-07-29**）**[NEW 2026-07-13]**
+- 🔵 [皮质纹状体突触可塑性（D1/D2 二分机制）](concepts/corticostriatal-plasticity.md) — 同一皮层输入产生相反可塑性结果：D1-MSN（直接通路/正向DA）→ LTP；D2-MSN（间接通路/负向DA）→ eCB-LTD；"行为的分子选择器"；Fino/Venance 2010 双通路共存证据 **[NEW 2026-06-13 #185（补录）]**
+- 🟢 [内源性大麻素系统（Endocannabinoid System）](concepts/endocannabinoid-system.md) — 突触后按需合成、逆行传递的信号系统；2-AG（主要）vs AEA（次要）；DGLα 合成/MAGL 降解；三种动员模式（CaER/RER/Ca²⁺辅助RER）；CB1R/CB2R 下游 Gi/o 双通路；跨越习惯/痛觉/情绪的多模态调节器 **[NEW 2026-06-15 #193]**
+- 🟢 [内源大麻素长时程抑制（纹状体 eCB-LTD）](concepts/endocannabinoid-ltd.md) — MSN 去极化→2-AG→突触前 CB1R→Gi→AC↓→PKA↓→谷氨酸释放↓（数小时）；D2-MSN 主导（D2R 协同 mGluR5）；Gerdeman 2002 首次确立逆行机制；D2-KO 小鼠 LTD 完全缺失；跨脑区（海马/小脑/BLA）eCB-LTD 家族 **[NEW 2026-06-13 #185（补录）; 修订 rev2 2026-06-15 #193]**
+- 🟢 [2-AG（2-花生四烯酰甘油）](concepts/2-ag.md) — 脑内主要内源性大麻素；DGLα 合成（~20μm 空间范围）；MAGL 降解 85%；是 DSI/DSE 和 eCB-LTD 的主要介质；与 AEA 的系统性比较（合成/降解/CB1 亲和力/功能特异性）**[NEW 2026-06-15 #193]**
+- 🟢 [去极化诱发抑制（DSI/DSE）](concepts/dsi-dse.md) — 突触后去极化→Ca²⁺→2-AG→CB1R→短时程突触抑制（数十秒）；DSI 作用于 GABAergic（抑制性），DSE 作用于谷氨酸能（兴奋性）；DGLα-KO 完全消除；是 eCB-LTD 的短时程版本 **[NEW 2026-06-15 #193]**
 - 🔵 [演员-批评家模型（基底节的强化学习架构）](concepts/actor-critic-model.md) — NAc=批评家（TD误差/DA-RPE）；背侧纹状体=演员（策略更新）；OFC→NAc提供批评家的结果价值输入；OFC元学习扩展（Hattori 2023）（**修订 rev2 2026-07-29**）**[NEW 2026-07-13]**
 - 🟢 [主观价值编码](concepts/subjective-value-encoding.md) — OFC/vmPFC将多维奖励属性整合为单一可比较价值信号；三系统竞争（Pavlovian/习惯/目标导向）；dlPFC调制vmPFC实现自我控制（Hare 2009）**[NEW 2026-07-29 #97]**
 - 🟢 [ΔFosB（成瘾分子开关）](concepts/deltaFosB.md) — FosB截短剪接产物（缺失C端degron）；重复药物暴露后在NAc D1-MSN中积累（持续2-8周）；下游CDK5/树突棘↑、GluA2↑、dynorphin↓、G9a；与CREB拮抗（established, confidence:high）**[NEW 2026-07-14]**
@@ -243,7 +249,7 @@
 - 🟢 [LHb 爆发放电](concepts/burst-firing-lhb.md) — 外侧缰核病理性超激活的电生理模式；βCaMKII↑→GluA1-AMPAR↑→突触增强；Kir4.1 星形胶质细胞失调→胞外 K⁺ 堆积→神经元超极化→T 型 Ca²⁺→爆发；Yang 2018 证明 NMDA 受体捕获是爆发的必要条件（氯胺酮通过此机制实现快速抗抑郁）；与视丘爆发放电同用 T 型 Ca²⁺ 但功能相反（检测威胁信号而非感觉调制）；新型争议：2026 Frontiers 研究质疑 NMDA 普遍必要性 **[NEW 2026-07-11 #79]**
 - 🔵 [β振荡（基底节-皮层）](concepts/beta-oscillations.md) — 13-30 Hz同步振荡；PD中病理性增强构成"抗运动"回路状态；DA和DBS均通过β→θ切换改善运动（Köhler 2024 n=25）；与γ振荡（促运动执行）功能对立 **[NEW 2026-06-14]**
 - 🟢 [恐惧条件反射](concepts/fear-conditioning.md) — 外侧杏仁核（LA）CS+US汇聚→NMDA巧合检测→CaMKII→AMPA插入→LA-LTP；与海马LTP分子机器完全同构；约20%LA神经元形成稀疏恐惧印迹；光遗传双向因果证明（Nabavi 2014）**[NEW 2026-05-30]**
-- 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）**[修订 2026-05-31]**
+- 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）；**新增：vmPFC→BLA eCB-LTD（Gunduz-Cinar 2023）是消退记忆形成的必要逆行信号机制**（**修订 rev4 2026-06-15 #193**）
 - 🟢 [REM睡眠](concepts/rem-sleep.md) — 去甲肾上腺素真空（LC沉默）+θ振荡+杏仁核-海马θ同步；情绪记忆去饱和化（SFSR假说）；Boyce 2016光遗传因果证明REM θ是情境记忆必需条件；van der Helm 2011人类fMRI证实REM降低杏仁核情绪反应 **[NEW 2026-05-31]**
 - 🟡 [情绪记忆去饱和化](concepts/emotional-memory-depotentiation.md) — REM睡眠NE真空→θ相位驱动LA突触选择性LTD→情绪色彩弱化、事实内容保留；Walker SFSR假说的机制底层；PTSD可能是去饱和化失败 **[NEW 2026-05-31]**
 - 🔴 [Φ（整合信息度量）](concepts/phi-measure.md) — IIT 核心量；衡量系统最优分割时损失的因果信息量；NP-hard 计算；IIT 声称 Φ = 意识的量；COGITATE 2025 对相关机制预测构成挑战 **[NEW 2026-05-31]**
@@ -520,3 +526,28 @@
 - 节点：300 | 边：1733
 - 矛盾登记：C-2026-09-17-01（谱依赖性框架 vs 专用 θ-γ 机制）
 - 新增未解问题：Q-tgc-01 至 Q-tgc-04
+
+---
+
+## 2026-06-15 更新（第 193 篇）
+
+### 新建 wiki 页面
+
+**concepts/**
+- `endocannabinoid-system.md` — 内源性大麻素系统 | established / high | 按需合成逆行信使（2-AG/AEA）；DGLα→CB1R→Gi/o 核心轴；三种动员模式；跨习惯/痛觉/情绪多模态
+- `dsi-dse.md` — 去极化诱发抑制（DSI/DSE）| established / high | 突触后去极化→Ca²⁺→2-AG→CB1R→短时程抑制；DSI（抑制性）vs DSE（兴奋性）；DGLα-KO 遗传学证明
+- `2-ag.md` — 2-AG（2-花生四烯酰甘油）| established / high | 主要内源大麻素；DGLα/β 合成；MAGL 85% 降解；~20μm 空间范围；CB1R 高亲和力激活
+- `endocannabinoid-ltd.md`（**补录自 #185**，本次正式入表）— 纹状体 eCB-LTD | established / high | D2-MSN 逆行突触抑制；Gerdeman 2002；D2-KO 遗传学证明
+- `corticostriatal-plasticity.md`（**补录自 #185**，本次正式入表）— 皮质纹状体 D1/D2 二分可塑性 | mainstream / high | 同一皮层输入→D1 LTP + D2 eCB-LTD
+
+**neurons/**
+- `cb1-receptor.md` — CB1 受体 | established / high | 脑内最广泛 Gi/o GPCR；βγ→VGCC（短时程）vs αi→AC→PKA（长时程）；填补 endocannabinoid-ltd 悬空引用
+
+### 修订 wiki 页面
+
+- `concepts/endocannabinoid-ltd.md` rev2 — 新增跨脑区视角（海马/小脑/BLA）；related 新增 endocannabinoid-system/dsi-dse/2-ag/fear-extinction；key_sources 新增 PMID:23040807/37480845
+- `concepts/fear-extinction.md` rev4 — 新增 vmPFC→BLA eCB-LTD 机制（Gunduz-Cinar 2023）；eCB-PTSD 治疗含义；related 新增 endocannabinoid-system/cb1-receptor/endocannabinoid-ltd
+
+### 图谱状态
+- 节点：388 | 边：2219
+- 新增未解问题：Q-ecb-01（eCB-LTD 靶蛋白 T）、Q-ecb-02（AEA 转运）、Q-ecb-03（FAAH/MAGL 临床安全）、Q-ecb-04（vmPFC→BLA eCB 与 PTSD）

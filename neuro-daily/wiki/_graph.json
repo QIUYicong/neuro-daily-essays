@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-14",
+  "updated": "2026-06-15",
   "node_count": 368,
   "edge_count": 2131,
   "edge_types": [
@@ -3488,6 +3488,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/placebo-analgesia.md"
+    },
+    {
+      "id": "endocannabinoid-system",
+      "title": "内源性大麻素系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/endocannabinoid-system.md"
+    },
+    {
+      "id": "dsi-dse",
+      "title": "去极化诱发的突触抑制（DSI/DSE）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/dsi-dse.md"
+    },
+    {
+      "id": "cb1-receptor",
+      "title": "CB1 大麻素受体",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/cb1-receptor.md"
+    },
+    {
+      "id": "2-ag",
+      "title": "2-花生四烯酸甘油",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/2-ag.md"
     }
   ],
   "edges": [
@@ -15129,6 +15165,101 @@
       "from": "placebo-analgesia",
       "to": "predictive-coding",
       "type": "related"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "dsi-dse",
+      "type": "contains"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "endocannabinoid-ltd",
+      "type": "contains"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "cb1-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "2-ag",
+      "type": "contains"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "fear-extinction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "pain-matrix",
+      "type": "regulates"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "descending-pain-modulation",
+      "type": "regulates"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "endogenous-opioids",
+      "type": "related"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "synaptic-transmission",
+      "type": "regulates"
+    },
+    {
+      "from": "cb1-receptor",
+      "to": "endocannabinoid-system",
+      "type": "part-of"
+    },
+    {
+      "from": "cb1-receptor",
+      "to": "dsi-dse",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cb1-receptor",
+      "to": "endocannabinoid-ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cb1-receptor",
+      "to": "voltage-gated-calcium-channels",
+      "type": "regulates"
+    },
+    {
+      "from": "2-ag",
+      "to": "cb1-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "2-ag",
+      "to": "dsi-dse",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "2-ag",
+      "to": "endocannabinoid-system",
+      "type": "part-of"
+    },
+    {
+      "from": "dsi-dse",
+      "to": "endocannabinoid-system",
+      "type": "part-of"
+    },
+    {
+      "from": "dsi-dse",
+      "to": "2-ag",
+      "type": "requires"
+    },
+    {
+      "from": "dsi-dse",
+      "to": "cb1-receptor",
+      "type": "requires"
     }
   ],
   "dangling_references": [
