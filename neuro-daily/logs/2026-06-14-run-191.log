@@ -1,0 +1,104 @@
+# 运行日志 #191 — 2026-06-14
+
+## 基本信息
+
+- **日期**：2026-06-14（UTC+8）
+- **序号**：#191（承接 #190 伤害感受/疼痛通路综合篇）
+- **分支**：claude/funny-einstein-g0qcxt（同步 origin/main，实际推送到 main）
+- **运行时间**：约 25 分钟
+
+## 选题过程
+
+- **读取状态**：topic_ledger（171条目，最新为#190）；未解问题（2026-06-13更新）；_graph.json（378节点，2173边）
+- **上一篇主题**：#190 伤害感受与疼痛通路（nociception, gate-control-theory, pain-matrix, central-sensitization, descending-pain-modulation）
+- **建议主题**：来自#190 next_suggested_topics[0]：内感受与情绪（interoception and emotion）
+- **最终主题**：内感受预测编码与情绪生成，聚焦于 EPIC 模型机制 + 精度加权 + 心脏收缩期意识窗口
+- **模式**：长期课程模式（long_term_curriculum），课程脊柱：感觉系统 → 内感受与情绪
+
+## 检索过程
+
+### 搜索词
+
+1. `interoception emotion predictive coding anterior insula Barrett Simmons EPIC model PMC open access`
+2. `cardiac interoception heartbeat emotion perception neural mechanism site:ncbi.nlm.nih.gov`
+3. `Seth Friston active interoceptive inference emotional brain 2016 PMC open access`
+4. `Craig insular cortex interoception lamina I spinothalamic pathway feeling from body 2002 2003`
+
+### 数据源
+
+- PubMed / NCBI
+- PMC (PubMed Central)
+- Europe PMC
+
+### 候选来源（共 7 篇）
+
+| 来源 | 采用/排除 | 原因 |
+|------|---------|------|
+| Barrett & Simmons 2015 (PMID:26016744) | 采用 | EPIC模型奠基文献，开放全文，高引用 |
+| Kleckner et al. 2017 (PMID:28983518) | 采用 | 多样本N=591实验验证，开放全文 |
+| Seth & Friston 2016 (PMID:28080966) | 采用 | 主动推断框架，精度加权，开放全文 |
+| Ozturk et al. 2025 (PMID:41122935) | 采用 | 心脏收缩期新实验，2025年最新，开放全文 |
+| Craig 2002 (PMID:12154366) | 采用（摘要）| 经典解剖通路，无开放全文 |
+| Craig 2009 (PMID:19096369) | 采用（摘要）| 岛叶梯度理论，无开放全文 |
+| Garfinkel et al. 2015 (PMID:25911439) | 采用（摘要）| 三维框架背景，无开放全文 |
+
+### 来源质量
+
+- 开放全文：4篇
+- 摘要：3篇（均显式标注"未读取全文"）
+- 官方机构来源：NIH/PubMed/PMC
+
+## 固结步骤
+
+### Wiki 页面操作
+
+| 页面 | 操作 | 内容 |
+|------|------|------|
+| `wiki/concepts/allostasis.md` | 创建（rev1）| 稳态预测原理；身体预算隐喻；稳态-情绪网络重叠；allostatic load |
+| `wiki/concepts/cardiac-interoception.md` | 创建（rev1）| 心脏内感受通路；收缩期/舒张期效应差异；争议节（放大vs抑制矛盾）|
+| `wiki/concepts/interoception.md` | 修订（rev1→rev2）| 新增EPIC模型机制、精度加权、Kleckner 2017、Ozturk 2025、三维框架 |
+
+### 矛盾检查
+
+- 心脏收缩期"放大 vs 抑制"效应矛盾：已在 cardiac-interoception.md 的"争议"节并列呈现；因 Ozturk 2025 为单项研究 vs 早期研究，证据基础差异过大，暂不正式登记至 contested_claims.json，记录为开放争议（Q-cardiac-intero-01）
+- 无其他矛盾
+
+### 图谱变更
+
+- 新节点：allostasis (+1), cardiac-interoception (+1) = +2
+- 总节点：378 → 380
+- 新边：12 条（allostasis↔interoception/AIC/predictive-coding/ACC/hpa-axis/amygdala；cardiac-interoception→interoception/AIC/amygdala/nociception；anterior-insula→allostasis）
+- 总边：2173 → 2185
+
+## 治理层更新
+
+- topic_ledger.json：追加#191条目
+- unresolved_questions.md：追加5个新问题（Q-intero-01/02, Q-cardiac-intero-01/02, Q-allostasis-01）
+- wiki/CHANGELOG.md：追加2026-06-14条目
+- wiki/_graph.json：380节点，2185边
+
+## 自检结果
+
+- [x] 每条新主张有来源（PMID/PMCID）
+- [x] 区分了事实/主流模型/推测/争议
+- [x] 心脏收缩期效应的矛盾已在争议节中并列呈现，未强行统一
+- [x] 未读全文的来源（Craig 2002/2009, Garfinkel 2015）均显式标注"摘要只读"
+- [x] index.md 需要在下次更新中反映新页（待推送后确认）
+- [x] 新页 related/prerequisites 均已填写
+- [x] 没有修改已有情景层文件
+
+## Git 操作
+
+- 本次运行在 claude/funny-einstein-g0qcxt 分支，已与 origin/main 同步（"Already up to date"）
+- commit 内容：2026-06-14 文章 #191 + wiki (allostasis/cardiac-interoception创建; interoception修订) + 状态更新
+- push 目标：origin main
+
+## 失败与限制
+
+- Craig 2002/2009 无开放全文：已使用摘要并标注，引用解剖通路部分基于广泛文献共识
+- Garfinkel 2015 无开放全文：已使用三维框架作为背景知识，仅辅助
+- Ozturk 2025 为单篇小样本（n=34）：已在文章中明确说明，置信度标注为"中"
+
+## Commit 信息
+
+待推送后补充 commit hash。

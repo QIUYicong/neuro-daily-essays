@@ -13356,9 +13356,65 @@
         "allodynia"
       ],
       "access": "abstract_only"
+    },
+    {
+      "pmid": "28983518",
+      "pmcid": "PMC5624222",
+      "title": "Evidence for a Large-Scale Brain System Supporting Allostasis and Interoception in Humans",
+      "authors": "Kleckner IR et al.",
+      "journal": "Nat Hum Behav",
+      "year": 2017,
+      "open_access": true,
+      "first_used": "2026-06-14",
+      "articles_used_in": [
+        "2026-06-14-interoception-emotion-body-budget"
+      ],
+      "topics_covered": [
+        "allostasis-emotion network overlap",
+        "default mode + salience network",
+        "interoceptive body budget"
+      ]
+    },
+    {
+      "pmid": "28080966",
+      "pmcid": "PMC5062097",
+      "title": "Active interoceptive inference and the emotional brain",
+      "authors": "Seth AK, Friston KJ",
+      "journal": "Phil Trans R Soc B",
+      "year": 2016,
+      "open_access": true,
+      "first_used": "2026-06-14",
+      "articles_used_in": [
+        "2026-06-14-interoception-emotion-body-budget"
+      ],
+      "topics_covered": [
+        "active interoceptive inference",
+        "precision weighting",
+        "anxiety as precision dysregulation",
+        "depression/autism interoceptive models"
+      ]
+    },
+    {
+      "pmid": "41122935",
+      "pmcid": "PMC12541679",
+      "title": "Cardiac Signals Facilitate the Breakthrough to Awareness of Emotional Stimuli",
+      "authors": "Ozturk OC, McFadyen J, Azevedo RT",
+      "journal": "Psychophysiology",
+      "year": 2025,
+      "open_access": true,
+      "first_used": "2026-06-14",
+      "articles_used_in": [
+        "2026-06-14-interoception-emotion-body-budget"
+      ],
+      "topics_covered": [
+        "cardiac interoception",
+        "systole vs diastole perceptual effects",
+        "emotional stimuli consciousness breakthrough",
+        "CFS paradigm"
+      ]
     }
   ],
-  "total_sources": 814,
+  "total_sources": 817,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-13",
+  "updated": "2026-06-14",
   "node_count": 368,
   "edge_count": 2131,
   "edge_types": [
@@ -3434,6 +3434,24 @@
       "source_articles": [
         "2026-06-14-nociception-pain-pathways"
       ]
+    },
+    {
+      "id": "allostasis",
+      "title": "稳态预测",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/allostasis.md"
+    },
+    {
+      "id": "cardiac-interoception",
+      "title": "心脏内感受",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/cardiac-interoception.md"
     }
   ],
   "edges": [
@@ -14940,6 +14958,66 @@
       "type": "downregulates",
       "weight": 0.9,
       "article": "2026-06-14"
+    },
+    {
+      "from": "allostasis",
+      "to": "interoception",
+      "type": "related"
+    },
+    {
+      "from": "allostasis",
+      "to": "anterior-insula",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "allostasis",
+      "to": "predictive-coding",
+      "type": "is-a"
+    },
+    {
+      "from": "allostasis",
+      "to": "anterior-cingulate-cortex",
+      "type": "related"
+    },
+    {
+      "from": "allostasis",
+      "to": "hpa-axis",
+      "type": "regulates"
+    },
+    {
+      "from": "allostasis",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "cardiac-interoception",
+      "to": "interoception",
+      "type": "is-a"
+    },
+    {
+      "from": "cardiac-interoception",
+      "to": "anterior-insula",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cardiac-interoception",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "cardiac-interoception",
+      "to": "nociception",
+      "type": "related"
+    },
+    {
+      "from": "interoception",
+      "to": "allostasis",
+      "type": "supports"
+    },
+    {
+      "from": "anterior-insula",
+      "to": "allostasis",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

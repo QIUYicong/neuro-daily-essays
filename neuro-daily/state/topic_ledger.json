@@ -12610,6 +12610,84 @@
         "活动依赖性氯离子稳态调节：强烈网络活动期间 KCC2 能否追上 Cl⁻ 再积累的速率？",
         "神经发育障碍的氯离子稳态窗口：自闭症谱系中 E→I 切换延迟的直接证据"
       ]
+    },
+    {
+      "date": "2026-06-14",
+      "article_number": 191,
+      "title": "身体的诗学：内感受预测编码如何从心跳塑造情绪感受",
+      "slug": "interoception-emotion-body-budget",
+      "core_question": "大脑如何将来自心脏、内脏和肌肉的信号转化为我们所经历的情绪感受？",
+      "one_line_summary": "情绪不是身体事件的被动感受，而是大脑对身体未来状态的主动预测——岛叶通过内感受预测-误差循环不断修正身体模型，而这一过程的输出就是情绪体验。",
+      "layer": [
+        "brain-region",
+        "cellular",
+        "cognition",
+        "whole-brain-network"
+      ],
+      "curriculum_track": "感觉系统 → 内感受与情绪",
+      "topic_tags": [
+        "interoception",
+        "EPIC-model",
+        "allostasis",
+        "anterior-insula",
+        "predictive-coding",
+        "precision-weighting",
+        "cardiac-interoception",
+        "baroreceptor",
+        "heartbeat-emotion",
+        "Barrett-Simmons-2015",
+        "Seth-Friston-2016",
+        "Kleckner-2017",
+        "body-budget",
+        "visceromotor-cortex",
+        "NTS",
+        "James-Lange",
+        "Cannon-Bard",
+        "systole-diastole",
+        "constructed-emotion-theory"
+      ],
+      "main_sources": [
+        "PMCID:PMC4731102 (Barrett & Simmons 2015, Nat Rev Neurosci) - 开放全文",
+        "PMCID:PMC5624222 (Kleckner et al. 2017, Nat Hum Behav) - 开放全文",
+        "PMCID:PMC5062097 (Seth & Friston 2016, Phil Trans R Soc B) - 开放全文",
+        "PMCID:PMC12541679 (Ozturk et al. 2025, Psychophysiology) - 开放全文",
+        "PMID:12154366 (Craig 2002, Nat Rev Neurosci) - 摘要",
+        "PMID:19096369 (Craig 2009, Nat Rev Neurosci) - 摘要",
+        "PMID:25911439 (Garfinkel et al. 2015, Biol Psychol) - 摘要"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/allostasis.md",
+        "wiki/concepts/cardiac-interoception.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/interoception.md (rev1→rev2): 新增EPIC模型细节、稳态-情绪网络重叠、精度加权与焦虑、心脏收缩期感知窗口、Garfinkel三维框架"
+      ],
+      "graph_nodes_added": [
+        "allostasis",
+        "cardiac-interoception"
+      ],
+      "graph_nodes_updated": [
+        "interoception"
+      ],
+      "graph_edges_added": 12,
+      "graph_state": "380 节点，2185 边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-intero-01",
+        "Q-intero-02",
+        "Q-cardiac-intero-01",
+        "Q-cardiac-intero-02",
+        "Q-allostasis-01"
+      ],
+      "next_suggested_topics": [
+        "阿片系统（opioid system）——μ/δ/κ受体、内源性阿片肽分布与镇痛、成瘾与奖励回路的交叉",
+        "丘脑感觉门控（thalamic sensory gating）——TRN与丘脑如何过滤内感受/痛觉输入，与睡眠/麻醉中的感知意识关系",
+        "焦虑的预测误差框架——精度假说的神经影像与神经调质实验验证路径",
+        "内感受与创伤（PTSD）——慢性精度失调如何导致内感受高反应性与躯体化症状"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-14；知识库序号191；内感受预测编码与情绪生成；核心：EPIC模型（预测-误差-更新循环）+ 稳态-情绪网络重叠（Kleckner N=591）+ 精度加权（焦虑机制）+ 心脏收缩期意识窗口（Ozturk 2025）；新建2个wiki页（allostasis/cardiac-interoception）；修订1个既有页（interoception rev1→rev2）；图谱380节点2185边"
     }
   ],
   "layer_coverage_recent": [
@@ -12955,5 +13033,6 @@
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-14；知识库序号190；感觉系统——疼痛通路综合篇；核心：伤害感受→脊髓闸门→上行通路→疼痛矩阵→下行调制→中枢敏化七站串联；新建5个wiki页（nociception、gate-control-theory、central-sensitization、descending-pain-modulation、pain-matrix）；修订4个既有页（kcc2+anterior-insula+acc+microglia）；图谱 378 节点 2173 边"
     }
-  ]
+  ],
+  "total_entries": 171
 }

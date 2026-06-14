@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-06-14（文章 #191：身体的诗学——内感受预测编码如何从心跳塑造情绪感受）
+
+**创建新页**：
+- `wiki/concepts/allostasis.md`（rev1）：稳态预测——大脑预测性调节身体资源需求，情绪=身体预算状态的主观体验；支持稳态的网络（下丘脑/PAG/NTS+前岛叶/ACC/杏仁核）与情绪网络高度重叠（Kleckner 2017 N=591三样本fMRI验证）；status=mainstream, confidence=high
+- `wiki/concepts/cardiac-interoception.md`（rev1）：心脏内感受——压力感受器→NTS→杏仁核/岛叶通路；心脏收缩期特异性加速威胁刺激意识突破（Ozturk 2025 CFS范式）；收缩期放大 vs 舒张期效应待统一解释；status=emerging, confidence=medium
+
+**修订页面**：
+- `wiki/concepts/interoception.md`（rev1→rev2）：新增EPIC模型机制细节（内感受预测-误差-更新循环）；稳态-情绪网络重叠证据（Kleckner 2017）；精度加权机制与焦虑假说（Seth & Friston 2016）；心脏收缩期感知优先窗口（Ozturk 2025）；内感受三维框架（Garfinkel 2015）；related新增allostasis/cardiac-interoception/ACC；开放问题新增Q-intero-01/02
+
+**图谱变更**：380 节点（+2：allostasis, cardiac-interoception），2185 条边（+12：allostasis→interoception/anterior-insula/predictive-coding/ACC/hpa-axis/amygdala；cardiac-interoception→interoception/anterior-insula/amygdala/nociception；双向 interoception↔allostasis；anterior-insula→allostasis）
+
+**新增未解问题**：Q-intero-01（内感受精度加权的直接神经测量缺乏）；Q-intero-02（精度加权的发育轨迹/关键期）；Q-cardiac-intero-01（心脏收缩期"放大vs抑制"矛盾的统一解释）；Q-cardiac-intero-02（IA高个体的前岛叶预测精度差异）；Q-allostasis-01（稳态预测负担的个体弹性差异机制）
+
+**登记矛盾**：无新矛盾（心脏收缩期效应的放大vs抑制矛盾已在cardiac-interoception页面争议节中并列呈现，登记为开放争议节，暂未正式登记至contested_claims因仅为单项研究vs早期研究，证据基础差异过大，待第二篇独立重复后登记）
+
+---
+
 ## 2026-06-13（文章 #188：失控的门卫——颞叶癫痫与海马回路的五层级防御体系）
 
 **创建新页**：
