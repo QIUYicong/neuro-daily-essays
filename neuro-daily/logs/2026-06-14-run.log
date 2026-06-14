@@ -158,3 +158,16 @@
 - **Commit**：6619128
 - **Push 状态**：✅ 成功推送到 main（origin HEAD:main 7ebfcf7..6619128）
 - **Branch URL**：https://github.com/QIUYicong/neuro-daily-essays/tree/main
+
+---
+
+## 维护修复记录（第 4 次运行，claude/funny-einstein-ac82p4）
+
+- **时间**：2026-06-14，第 4 次触发
+- **触发原因**：调度器再次触发，但今天已有 3 篇文章（#190/#191/#192），未生成第四篇
+- **执行内容**：发现并修复 topic_ledger.json 中 #190 条目缺失问题
+  - 根因：#191 运行时读取了早于 #190 写入的 topic_ledger 快照，造成 lost update
+  - 修复：在 #189 与 #191 之间插入 #190 完整条目
+  - 同步：wiki/CHANGELOG.md 追加维护记录
+- **Commit**：e9fa189
+- **Push 状态**：✅ 成功推送到 main（5b27dae → e9fa189）
