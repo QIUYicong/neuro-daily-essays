@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-06-14（文章 #192：同一把钥匙，三扇门——内源性阿片系统如何统一镇痛、欢愉与成瘾）
+
+**创建新页（4 页）**：
+- `wiki/concepts/endogenous-opioids.md`（rev1）：内源性阿片系统（μ/δ/κ/NOP 四类受体 + 四族肽 β-内啡肽/脑啡肽/强啡肽/孤啡肽）；共同 Gi/Go 信号逻辑；PAG-镇痛、VTA-奖励、安慰剂-认知三大功能模块；**填补 descending-pain-modulation.md 中的悬空引用**；status=established, confidence=high
+- `wiki/concepts/mu-opioid-receptor.md`（rev1）：μ 受体（OPRM1 编码）分子机制（AC抑制+GIRK+Cav抑制）、PAG/VTA/NAc 分布、偏向信号争议；status=established, confidence=high
+- `wiki/concepts/kappa-opioid-receptor.md`（rev1）：κ 受体 + 强啡肽轴，烦躁不快功能，应激/成瘾戒断负性情感机制；status=established, confidence=high
+- `wiki/concepts/placebo-analgesia.md`（rev1）：安慰剂通过认知预期激活 μ-阿片系统（PET ¹¹C-卡芬太尼直接证据，Zubieta 2005）；pregenual ACC/dlPFC/NAc 为关键激活区；与内感受预测编码的联系；status=established, confidence=high
+
+**修订既有页（2 页）**：
+- `wiki/concepts/descending-pain-modulation.md` rev1→rev2：补充 Lau et al. 2020 突触前去抑制实证（脑片电生理）；补充 Zubieta 2005 安慰剂 PET 证据；新增 related 链接（mu-opioid-receptor、placebo-analgesia）
+- `wiki/systems/vta.md` rev1→rev2：新增 μ 受体 VTA GABA 去抑制机制、"喜欢"vs"想要"分离、慢性疼痛 VTA MOR 脱敏；新增 related（endogenous-opioids、mu-opioid-receptor）
+
+**图谱变化**：
+- 新节点（4）：endogenous-opioids, mu-opioid-receptor, kappa-opioid-receptor, placebo-analgesia
+- 新边（15）：阿片系统核心关系链（镇痛、奖励、安慰剂、成瘾交叉路径）
+- 图谱统计：380→384 节点，2185→2200 边
+- **悬空引用填补**：endogenous-opioids（被 descending-pain-modulation 引用）；placebo-analgesia（被 interoception 引用）
+
+**登记矛盾（0 条新增）**：
+无新矛盾。偏向信号假说（Gi vs β-arrestin）已在 mu-opioid-receptor.md 中标注为 contested，暂不升级为 contested_claims（属于现役临床研究争议，等待更多人类数据）。
+
+**新增未解问题（4 条）**：
+- Q-opioid-01（高）：GRAB opioid sensor 追踪自然行为中内源性阿片肽实时释放
+- Q-opioid-02（高）：μ/δ/κ 受体在情绪调节中的独立功能分工
+- Q-opioid-03（中）：跑步者愉悦感中阿片 vs 内源性大麻素的贡献比例
+- Q-opioid-04（中）：社会联结中内啡肽与催产素时序关系
+
+---
+
 ## 2026-06-14（文章 #191：身体的诗学——内感受预测编码如何从心跳塑造情绪感受）
 
 **创建新页**：

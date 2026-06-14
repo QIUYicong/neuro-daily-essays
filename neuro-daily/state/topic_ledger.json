@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-14",
-  "total_articles": 190,
+  "total_articles": 192,
   "entries": [
     {
       "date": "2026-08-09",
@@ -12688,6 +12688,94 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-14；知识库序号191；内感受预测编码与情绪生成；核心：EPIC模型（预测-误差-更新循环）+ 稳态-情绪网络重叠（Kleckner N=591）+ 精度加权（焦虑机制）+ 心脏收缩期意识窗口（Ozturk 2025）；新建2个wiki页（allostasis/cardiac-interoception）；修订1个既有页（interoception rev1→rev2）；图谱380节点2185边"
+    },
+    {
+      "date": "2026-06-14",
+      "article_number": 192,
+      "title": "同一把钥匙，三扇门：内源性阿片系统如何统一镇痛、欢愉与成瘾",
+      "slug": "endogenous-opioid-system-analgesia-reward",
+      "core_question": "大脑为何用同一套分子系统（三类受体、四族内源性肽）同时编码痛苦的消退、欢愉的体验与社会的联结，而这套系统又是如何在成瘾中被劫持的？",
+      "one_line_summary": "内源性阿片系统通过 Gi/Go 抑制神经活动，在 PAG 去抑制产生镇痛，在 VTA 去抑制产生多巴胺奖励，安慰剂效应和社会联结均经由同一套分子实现，而受体脱敏和 AC 超敏构成成瘾的分子基础。",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "感觉系统 → 镇痛回路 → 连接奖励/动机（课程 3→5 桥梁）",
+      "topic_tags": [
+        "endogenous-opioids",
+        "mu-opioid-receptor",
+        "kappa-opioid-receptor",
+        "beta-endorphin",
+        "enkephalin",
+        "dynorphin",
+        "POMC",
+        "PENK",
+        "PDYN",
+        "PAG",
+        "RVM",
+        "GABA-disinhibition",
+        "VTA",
+        "nucleus-accumbens",
+        "placebo-analgesia",
+        "social-bonding",
+        "addiction",
+        "tolerance",
+        "GRK",
+        "beta-arrestin",
+        "AC-supersensitization",
+        "Gi-Go-signaling",
+        "GIRK",
+        "Cav",
+        "opioid-receptor-structure",
+        "liking-vs-wanting"
+      ],
+      "main_sources": [
+        "PMCID:PMC6428583 (Corder et al. 2018, Annu Rev Neurosci) - 开放全文",
+        "PMC6224460 (Valentino & Volkow 2018, Neuropsychopharmacology) - 开放全文",
+        "PMCID:PMC7174888 (Lau et al. 2020, Br J Pharmacol) - 开放全文",
+        "PMCID:PMC6725254 (Zubieta et al. 2005, J Neurosci) - 开放全文",
+        "PMC4813427 (Toll et al. 2016, Pharmacol Rev) - 开放全文",
+        "PMCID:PMC6235988 (Averitt et al. 2019, Neuropsychopharmacology) - 开放全文",
+        "PMC6016638 (Pellissier et al. 2018, Br J Pharmacol) - 开放全文"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/endogenous-opioids.md",
+        "wiki/concepts/mu-opioid-receptor.md",
+        "wiki/concepts/kappa-opioid-receptor.md",
+        "wiki/concepts/placebo-analgesia.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/descending-pain-modulation.md (rev1→rev2): 补充 Lau 2020 突触前去抑制机制、Zubieta 2005 安慰剂 PET 证据",
+        "wiki/systems/vta.md (rev1→rev2): 新增 μ 受体 VTA 去抑制机制、喜欢vs想要分离、慢性痛 VTA MOR 脱敏"
+      ],
+      "graph_nodes_added": [
+        "endogenous-opioids",
+        "mu-opioid-receptor",
+        "kappa-opioid-receptor",
+        "placebo-analgesia"
+      ],
+      "graph_edges_added": 15,
+      "graph_state": "384 节点，2200 边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-opioid-01",
+        "Q-opioid-02",
+        "Q-opioid-03",
+        "Q-opioid-04"
+      ],
+      "next_suggested_topics": [
+        "阿片成瘾神经回路（addiction circuits）——前额叶-NAc-VTA 环路在成瘾中的可塑性变化",
+        "内源性大麻素系统（endocannabinoid system）——2-AG/AEA、CB1/CB2 受体、逆行突触调制",
+        "丘脑感觉门控（thalamic sensory gating）——TRN 与丘脑如何过滤感觉输入",
+        "催产素系统（oxytocin system）——社会联结、信任、情绪调节的肽类基础"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-14；知识库序号192；内源性阿片系统；核心：四类受体四族肽的 Gi/Go 统一逻辑 + PAG去抑制镇痛(Lau 2020) + VTA去抑制奖励 + 安慰剂PET证据(Zubieta 2005) + 社会联结内啡肽假说 + GRK/AC超敏成瘾机制；新建4个wiki页（endogenous-opioids/mu-opioid-receptor/kappa-opioid-receptor/placebo-analgesia）；修订2个既有页（descending-pain-modulation rev2/vta rev2）；填补2个悬空引用（endogenous-opioids/placebo-analgesia）；图谱384节点2200边"
     }
   ],
   "layer_coverage_recent": [

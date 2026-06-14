@@ -111,3 +111,42 @@
 - ✅ wiki/CHANGELOG.md 更新
 - ✅ Git 提交 + 推送至 main
 
+
+---
+
+## 第三次运行 (#192) — 内源性阿片系统
+
+- **文章编号**：#192
+- **实际日期（UTC+8）**：2026-06-14
+- **主题**：内源性阿片系统（Endogenous Opioid System）
+- **文章标题**：同一把钥匙，三扇门：内源性阿片系统如何统一镇痛、欢愉与成瘾
+- **文件名**：`articles/2026-06-14-endogenous-opioid-system-analgesia-reward.md`
+
+### 研究来源（9 篇，全部开放全文）
+
+| 来源 | 类型 | 访问 |
+|---|---|---|
+| PMC6428583（Corder 2018, Annu Rev Neurosci） | 综述 | 开放全文 |
+| PMC6224460（Valentino & Volkow 2018, NPP） | 综述 | 开放全文 |
+| PMC7174888（Lau 2020, Br J Pharmacol） | 原创研究 | 开放全文 |
+| PMC6725254（Zubieta 2005, J Neurosci） | 原创研究 | 开放全文 |
+| PMC4813427（Toll 2016, Pharmacol Rev） | 综述 | 开放全文 |
+| PMC6235988（Averitt 2019, NPP） | 综述 | 开放全文 |
+| PMC6016638（Pellissier 2018, Br J Pharmacol） | 综述 | 开放全文 |
+| PMID:30901925（Caputi 2019, IJMS） | 综述 | 开放全文 |
+| PMID:37511469（Nakamoto 2023, IJMS） | 综述 | 开放全文 |
+
+### Wiki 固结
+
+- 新建：endogenous-opioids, mu-opioid-receptor, kappa-opioid-receptor, placebo-analgesia（各 rev1）
+- 修订：descending-pain-modulation (rev1→rev2), vta (rev1→rev2)
+- 图谱：380→384 节点，2185→2200 边
+- 填补悬空引用：endogenous-opioids, placebo-analgesia
+- topic_ledger total_articles 修正：190→192
+
+### 运行状态
+
+- ✅ 全部情景层文件已创建
+- ✅ Wiki 固结完成
+- ✅ 治理层文件已更新
+- ⏳ Git 提交 + 推送（见下方更新）

@@ -391,6 +391,46 @@
       "revision_count": 1,
       "last_change": "2026-06-13",
       "change_reason": "新建页面（#189）；跨物种证据充分；机制通路（NKCC1/KCC2 比例）已是教科书级"
+    },
+    {
+      "slug": "endogenous-opioids",
+      "title": "内源性阿片系统",
+      "status": "established",
+      "confidence": "high",
+      "created": "2026-06-14",
+      "last_changed": "2026-06-14",
+      "change_reason": "初始创建；基于50年神经药理学积累（受体发现1973、肽发现1975至今）；四类受体信号机制多实验室验证",
+      "source_article": "2026-06-14-endogenous-opioid-system-analgesia-reward"
+    },
+    {
+      "slug": "mu-opioid-receptor",
+      "title": "μ阿片受体",
+      "status": "established",
+      "confidence": "high",
+      "created": "2026-06-14",
+      "last_changed": "2026-06-14",
+      "change_reason": "初始创建；Gi/Go 偶联机制教科书级共识；偏向信号部分 contested",
+      "source_article": "2026-06-14-endogenous-opioid-system-analgesia-reward"
+    },
+    {
+      "slug": "kappa-opioid-receptor",
+      "title": "κ阿片受体",
+      "status": "established",
+      "confidence": "high",
+      "created": "2026-06-14",
+      "last_changed": "2026-06-14",
+      "change_reason": "初始创建；KOR-强啡肽-dysphoria 轴多实验室验证；成瘾黑暗面假说 mainstream 级",
+      "source_article": "2026-06-14-endogenous-opioid-system-analgesia-reward"
+    },
+    {
+      "slug": "placebo-analgesia",
+      "title": "安慰剂镇痛",
+      "status": "established",
+      "confidence": "high",
+      "created": "2026-06-14",
+      "last_changed": "2026-06-14",
+      "change_reason": "初始创建；Zubieta 2005 PET 直接证据 + 纳洛酮逆转多实验室复现；认知预期→内源性阿片→镇痛链条 established",
+      "source_article": "2026-06-14-endogenous-opioid-system-analgesia-reward"
     }
   ],
   "last_updated": "2026-06-14",

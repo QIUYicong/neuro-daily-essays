@@ -5190,3 +5190,40 @@
 **相关页面**：central-sensitization.md, kcc2.md, descending-pain-modulation.md
 **状态**：open
 
+
+---
+
+## 文章 #192 · 内源性阿片系统 · 2026-06-14
+
+### Q-opioid-01（高优先级）：内源性阿片肽的实时释放动态
+
+- **关联 wiki**：[[endogenous-opioids]]、[[mu-opioid-receptor]]
+- **来源文章**：2026-06-14-endogenous-opioid-system-analgesia-reward
+- **问题**：目前测量内源性阿片肽释放的主要方法是：(a) PET（静态，时间分辨率差）；(b) 离体微透析（有创，时间分辨率数分钟）；(c) 体外配体结合置换实验。自然行为（社交、运动、笑声）中不同脑区的内源性阿片肽**实时、区域特异性**释放动态仍不清楚。GRAB sensor（G protein-coupled receptor-Activation-Based sensor）已被开发用于 ACh、腺苷、多巴胺，是否已有或即将有 GRAB-opioid sensor 可用于体内光学记录？如果有，内源性 β-内啡肽、脑啡肽、强啡肽在社交和运动中的时序如何？
+- **当前证据状态**：PET 静态测量（高，但时间分辨率不足）；GRAB-ACh/DA 已用于活体（高，但 opioid 版本尚未商业化）
+- **优先级**：高（方法学突破可直接回答多个问题）
+- **状态**：open
+
+### Q-opioid-02（高优先级）：μ/δ/κ 在情绪调节中的功能分工
+
+- **关联 wiki**：[[endogenous-opioids]]、[[mu-opioid-receptor]]、[[kappa-opioid-receptor]]
+- **来源文章**：2026-06-14-endogenous-opioid-system-analgesia-reward
+- **问题**：μ 受体（欢愉/社会奖励）、δ 受体（抗焦虑/抗抑郁）、κ 受体（烦躁/应激）的情绪功能分工在不同脑区是否一致？例如，NAc 中 μ 和 δ 受体的功能是否重叠？是否存在功能上的异质性亚群（某些 μ 受体介导成瘾但另一些不介导）？需要受体亚型和细胞类型特异性工具分离。
+- **优先级**：高
+- **状态**：open
+
+### Q-opioid-03（中优先级）：跑步者愉悦感的阿片 vs 大麻素贡献
+
+- **关联 wiki**：[[endogenous-opioids]]
+- **来源文章**：2026-06-14-endogenous-opioid-system-analgesia-reward
+- **问题**：经典观点认为跑步者愉悦感（runner's high）由内源性 β-内啡肽驱动，但 β-内啡肽血脑屏障穿透性差，且纳洛酮并不完全消除运动愉悦感。Boecker et al.（2008）的 PET 研究和 Fuss et al.（2015）的动物研究提示内源性大麻素（anandamide）可能是主要贡献者。如何通过同时阻断 MOR（纳洛酮）和 CB1（利莫那班/类似物）来分离两者在人类运动愉悦感中的相对贡献？
+- **优先级**：中
+- **状态**：open
+
+### Q-opioid-04（中优先级）：社会联结中内啡肽与催产素的时序
+
+- **关联 wiki**：[[endogenous-opioids]]
+- **来源文章**：2026-06-14-endogenous-opioid-system-analgesia-reward
+- **问题**：Dunbar 的内啡肽假说和催产素社会联结理论提出了两套独立的神经化学机制。两者在社交互动中是否并行激活（母婴接触时催产素和 β-内啡肽同时释放）？还是有时序差异（催产素先 → 触发内啡肽）？实验设计上如何同时测量两者？是否存在催产素-内啡肽相互作用（μ 受体可能下游于催产素信号）？
+- **优先级**：中
+- **状态**：open

@@ -1,0 +1,117 @@
+{
+  "article_number": 192,
+  "date": "2026-06-14",
+  "slug": "endogenous-opioid-system-analgesia-reward",
+  "title": "同一把钥匙，三扇门：内源性阿片系统如何统一镇痛、欢愉与成瘾",
+  "sources": [
+    {
+      "id": "S192-01",
+      "citation": "Corder G, Castro DC, Bruchas MR, Scherrer G (2018). Endogenous and Exogenous Opioids in Pain. Annu Rev Neurosci 41:453-473.",
+      "pmid": "29852083",
+      "pmcid": "PMC6428583",
+      "type": "review",
+      "open_access": true,
+      "access_level": "full_text",
+      "content_used": "Four receptor families, four peptide families, molecular signaling (Gi/Go), pain pathway modulation, VTA desensitization in chronic pain, sensory vs affective pain separation",
+      "role": "primary"
+    },
+    {
+      "id": "S192-02",
+      "citation": "Valentino RJ, Volkow ND (2018). Untangling the Complexity of Opioid Receptor Function. Neuropsychopharmacology 43:2514-2520.",
+      "pmcid": "PMC6224460",
+      "type": "review",
+      "open_access": true,
+      "access_level": "full_text",
+      "content_used": "Biased signaling (Gi vs beta-arrestin), receptor compartmentalization, splice variants, PZM21, therapeutic implications",
+      "role": "primary"
+    },
+    {
+      "id": "S192-03",
+      "citation": "Lau BK, Winters BL, Vaughan CW (2020). Opioid presynaptic disinhibition of the midbrain periaqueductal grey descending analgesic pathway. Br J Pharmacol 177:2320-2332.",
+      "pmid": "31971607",
+      "pmcid": "PMC7174888",
+      "type": "original_research",
+      "open_access": true,
+      "access_level": "full_text",
+      "content_used": "PAG presynaptic disinhibition mechanism, electrophysiology of mu receptor on GABAergic inputs, receptor subtype selectivity (mu vs delta vs kappa in PAG)",
+      "role": "primary"
+    },
+    {
+      "id": "S192-04",
+      "citation": "Zubieta JK, Bueller JA, Jackson LR, Scott DJ, Xu Y, Koeppe RA, Nichols TE, Stohler CS (2005). Placebo effects mediated by endogenous opioid activity on mu-opioid receptors. J Neurosci 25:7754-7762.",
+      "pmid": "16120776",
+      "pmcid": "PMC6725254",
+      "type": "original_research",
+      "open_access": true,
+      "access_level": "full_text",
+      "content_used": "PET [11C]carfentanil placebo analgesia study, brain regions (ACC/dlPFC/insula/NAc), correlation with pain reduction, mu-opioid system activation by expectation",
+      "role": "primary"
+    },
+    {
+      "id": "S192-05",
+      "citation": "Toll L, Bruchas MR, Calo G, Cox BM, Zaveri NT (2016). Nociceptin/Orphanin FQ Receptor Structure, Signaling, Ligands, Functions, and Interactions with Opioid Systems. Pharmacol Rev 68:419-457.",
+      "pmid": "26934956",
+      "pmcid": "PMC4813427",
+      "type": "review",
+      "open_access": true,
+      "access_level": "full_text",
+      "content_used": "NOP receptor structure (>70% homology with MOR/DOR/KOR), Gi/Go signaling, GIRK/Cav mechanisms, brain distribution, anti-opioid effect in PAG, spinal analgesia, reward circuit interactions",
+      "role": "supporting"
+    },
+    {
+      "id": "S192-06",
+      "citation": "Averitt DL, Eidson LN, Doyle HH, Murphy AZ (2019). Neuronal and glial factors contributing to sex differences in opioid modulation of pain. Neuropsychopharmacology 44:155-165.",
+      "pmid": "29973654",
+      "pmcid": "PMC6235988",
+      "type": "review",
+      "open_access": true,
+      "access_level": "full_text",
+      "content_used": "PAG-RVM sex differences, disinhibition hypothesis, female 2x morphine dose requirement, estradiol-MOR uncoupling, glial contribution",
+      "role": "supporting"
+    },
+    {
+      "id": "S192-07",
+      "citation": "Pellissier LP, Gandia J, Laboute T, Becker JA, Le Merrer J (2018). mu opioid receptor, social behaviour and autism spectrum disorder: reward matters. Br J Pharmacol 175:2750-2769.",
+      "pmcid": "PMC6016638",
+      "type": "review",
+      "open_access": true,
+      "access_level": "full_text",
+      "content_used": "MOR knockout social deficits, OPRM1 mutations in ASD patients, mu receptor balance model, social reward in NAc/PFC",
+      "role": "supporting"
+    },
+    {
+      "id": "S192-08",
+      "citation": "Caputi FF, Rullo L, Stamatakos S, Candeletti S, Romualdi P (2019). Interplay between the Endogenous Opioid System and Proteasome Complex: Beyond Signaling. Int J Mol Sci 20:1567.",
+      "pmid": "30901925",
+      "type": "review",
+      "open_access": true,
+      "access_level": "full_text",
+      "content_used": "Ubiquitin-proteasome regulation of opioid receptor trafficking, GRK/beta-arrestin mechanism, receptor internalization timeline (5-20 min), tolerance mechanisms",
+      "role": "supporting"
+    },
+    {
+      "id": "S192-09",
+      "citation": "Nakamoto K, Tokuyama S (2023). Stress-Induced Changes in the Endogenous Opioid System Cause Dysfunction of Pain and Emotion Regulation. Int J Mol Sci 24:12090.",
+      "pmid": "37511469",
+      "type": "review",
+      "open_access": true,
+      "access_level": "full_text",
+      "content_used": "Stress modulation of opioid receptor expression, mu/delta/kappa differential effects on anxiety and pain, connection to psychiatric disorders",
+      "role": "supporting"
+    }
+  ],
+  "sources_summary": {
+    "total_sources": 9,
+    "open_full_text": 9,
+    "abstract_only": 0,
+    "original_research": 2,
+    "reviews": 7,
+    "search_queries": [
+      "endogenous opioid system analgesia reward review [PubMed]",
+      "opioid receptors mu delta kappa mechanism review 2015-2026 [PubMed]",
+      "periaqueductal gray PAG opioid descending pain modulation review [PMC]",
+      "placebo analgesia endogenous opioid mu receptor PET review [PMC]",
+      "mu opioid receptor VTA nucleus accumbens dopamine reward GABA disinhibition [PMC]"
+    ]
+  }
+}

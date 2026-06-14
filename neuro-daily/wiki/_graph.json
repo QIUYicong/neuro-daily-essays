@@ -3452,6 +3452,42 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/cardiac-interoception.md"
+    },
+    {
+      "id": "endogenous-opioids",
+      "title": "内源性阿片系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/endogenous-opioids.md"
+    },
+    {
+      "id": "mu-opioid-receptor",
+      "title": "μ阿片受体",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/mu-opioid-receptor.md"
+    },
+    {
+      "id": "kappa-opioid-receptor",
+      "title": "κ阿片受体",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/kappa-opioid-receptor.md"
+    },
+    {
+      "id": "placebo-analgesia",
+      "title": "安慰剂镇痛",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/placebo-analgesia.md"
     }
   ],
   "edges": [
@@ -15018,6 +15054,81 @@
       "from": "anterior-insula",
       "to": "allostasis",
       "type": "mechanism-of"
+    },
+    {
+      "from": "endogenous-opioids",
+      "to": "descending-pain-modulation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "endogenous-opioids",
+      "to": "nociception",
+      "type": "regulates"
+    },
+    {
+      "from": "endogenous-opioids",
+      "to": "vta",
+      "type": "regulates"
+    },
+    {
+      "from": "endogenous-opioids",
+      "to": "placebo-analgesia",
+      "type": "supports"
+    },
+    {
+      "from": "endogenous-opioids",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "mu-opioid-receptor",
+      "to": "endogenous-opioids",
+      "type": "part-of"
+    },
+    {
+      "from": "mu-opioid-receptor",
+      "to": "descending-pain-modulation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mu-opioid-receptor",
+      "to": "vta",
+      "type": "regulates"
+    },
+    {
+      "from": "mu-opioid-receptor",
+      "to": "placebo-analgesia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "kappa-opioid-receptor",
+      "to": "endogenous-opioids",
+      "type": "part-of"
+    },
+    {
+      "from": "kappa-opioid-receptor",
+      "to": "central-sensitization",
+      "type": "regulates"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "descending-pain-modulation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "anterior-cingulate-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "interoception",
+      "type": "related"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "predictive-coding",
+      "type": "related"
     }
   ],
   "dangling_references": [

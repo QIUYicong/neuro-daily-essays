@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-14（**#190** 伤害感受≠疼痛体验——大脑如何将分子警报转化为主观苦难；新建 5 页：nociception（concepts）、gate-control-theory（concepts）、central-sensitization（concepts）、descending-pain-modulation（concepts）、pain-matrix（systems）；修订 4 页：kcc2 rev2、anterior-insula rev2、anterior-cingulate-cortex rev3、microglia rev3；图谱 **378** 节点，**2173** 边）· 主题页总数：**336**
+> 最后更新：2026-06-14（**#192** 同一把钥匙，三扇门——内源性阿片系统如何统一镇痛、欢愉与成瘾；新建 4 页：endogenous-opioids（concepts）、mu-opioid-receptor（concepts）、kappa-opioid-receptor（concepts）、placebo-analgesia（concepts）；修订 2 页：descending-pain-modulation rev2、vta rev2；图谱 **384** 节点，**2200** 边）· 主题页总数：**340**
 
 ---
 
@@ -59,7 +59,11 @@
 - 🟢 [伤害感受（Nociception）](concepts/nociception.md) — 外周伤害性信号换能机制；A-δ/C 纤维速度与功能；TRPV1（43°C热阈）/TRPA1/Nav1.7 分子门；外周敏化；脊髓背角 Rexed 层处理；Nav1.7 突变→先天性无痛症（CIP）**[NEW 2026-06-14 #190]**
 - 🟢 [闸门控制理论（Gate Control Theory）](concepts/gate-control-theory.md) — Melzack & Wall 1965 *Science*；A-β 关闭/A-δ-C 开启闸门；SG 抑制性中间神经元；TENS/SCS 的理论基础；下行控制整合；1980 年代甘氨酸能/GABA 能分子层面修订 **[NEW 2026-06-14 #190]**
 - 🟢 [中枢敏化（Central Sensitization）](concepts/central-sensitization.md) — NMDA wind-up（C 纤维重复→Mg²⁺ 阻断解除→Ca²⁺ LTP）；KCC2 下调（小胶质细胞-BDNF-TrkB 轴）；GABA 去极化→闸门失效；临床三联征（痛觉超敏/异常性疼痛/时间总和增强）；慢性痛综合征 **[NEW 2026-06-14 #190]**
-- 🟢 [下行疼痛调制（Descending Pain Modulation）](concepts/descending-pain-modulation.md) — PAG（vlPAG）→ RVM（ON/OFF 细胞）→脊髓三节点回路；内源性阿片系统（β-内啡肽/脑啡肽/强啡肽）；安慰剂镇痛（rACC→PAG）；应激诱发镇痛（SIA）；慢性痛下行易化占优 **[NEW 2026-06-14 #190]**
+- 🟢 [下行疼痛调制（Descending Pain Modulation）](concepts/descending-pain-modulation.md) — PAG（vlPAG）→ RVM（ON/OFF 细胞）→脊髓三节点回路；内源性阿片系统（β-内啡肽/脑啡肽/强啡肽）；安慰剂镇痛（rACC→PAG）；Lau 2020 突触前去抑制电生理证据；Zubieta 2005 安慰剂 PET 证据 **[修订 rev2 2026-06-14 #192]**
+- 🟢 [内源性阿片系统（Endogenous Opioid System）](concepts/endogenous-opioids.md) — μ/δ/κ/NOP 四类受体（Gi/Go 偶联）+ β-内啡肽/脑啡肽/强啡肽/孤啡肽四族肽；PAG GABA 去抑制镇痛；VTA GABA 去抑制奖励（喜欢 vs 想要）；安慰剂效应（认知→内源阿片）；社会联结内啡肽假说；GRK/β-arrestin/AC 超敏成瘾机制；**填补悬空引用** **[NEW 2026-06-14 #192]**
+- 🟢 [μ阿片受体（Mu Opioid Receptor）](concepts/mu-opioid-receptor.md) — Oprm1 编码；AC 抑制+GIRK+Cav 抑制三路神经抑制；PAG/VTA/NAc 关键分布；偏向信号（Gi vs β-arrestin）争议 **[NEW 2026-06-14 #192]**
+- 🟢 [κ阿片受体（Kappa Opioid Receptor）](concepts/kappa-opioid-receptor.md) — 强啡肽激活→烦躁不快（dysphoria）；应激/成瘾戒断负性情感基础；KOR=μOR 的功能对极 **[NEW 2026-06-14 #192]**
+- 🟢 [安慰剂镇痛（Placebo Analgesia）](concepts/placebo-analgesia.md) — 认知预期→内源性 β-内啡肽释放→μ受体激活（PET ¹¹C-卡芬太尼直接证据 Zubieta 2005）；pregenual ACC/dlPFC/NAc 关键激活区；内感受预测编码框架的分子锚点 **[NEW 2026-06-14 #192]**
 - 🔵 [齿状回门控](concepts/dentate-gyrus-gate.md) — 颗粒细胞极度超极化（-80mV）+ 强频率适应 + HIPP细胞反馈抑制，正常时过滤EC→CA3信息流（实现模式分离+防癫痫扩散）；TLE中失效是发作起点；异位颗粒细胞加剧失控 **[NEW 2026-06-13 #188]**
 - 🟢 [运动控制层级](concepts/motor-system-hierarchy.md) — 五层下行通路（皮层→CPG→α-MN→NMJ→肌肉）×两路感觉反馈（肌梭长度+GTO力量）×小脑预测性校正；四设计原则（分层分工/预测+反应/动态重配置/进化馈赠）；整合 #166-#174 七篇运动系统文章 **[NEW 2026-06-13 #175]**
 - 🟢 [自身抑制](concepts/autogenic-inhibition.md) — GTO Ib 传入→甘氨酸能抑制性中间神经元→同肌 α-MN 抑制（逆肌牵张反射）；步态站立相 Ib 切换机制；H 反射范式；帕金森 Ib 抑制减弱；脊髓损伤 Ib 保留 **[NEW 2026-06-13 #174]**

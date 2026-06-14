@@ -7,7 +7,8 @@ status: established
 confidence: high
 created: 2026-06-14
 last_revised: 2026-06-14
-revision_count: 1
+revision_count: 2
+updated: 2026-06-14
 related:
   - nociception
   - gate-control-theory
@@ -16,8 +17,15 @@ related:
   - anterior-cingulate-cortex
   - periaqueductal-gray
   - endogenous-opioids
+  - mu-opioid-receptor
+  - placebo-analgesia
 article_sources:
   - "articles/2026-06-14-nociception-pain-pathways.md"
+  - "articles/2026-06-14-endogenous-opioid-system-analgesia-reward.md"
+key_sources:
+  - "PMID:31971607 (Lau et al. 2020, Br J Pharmacol) - PMC7174888"
+  - "PMC2994635 (Heinricher et al. 2009 综述)"
+  - "PMID:16120776 (Zubieta et al. 2005, J Neurosci) - PMC6725254"
 tags:
   - pain
   - descending control
@@ -150,6 +158,8 @@ DPM 的核心执行器：
 | Heinricher et al. 2009 综述 | ON/OFF 细胞功能，PMCID: PMC2994635 |
 | Wager et al. 2004 | 安慰剂镇痛 fMRI，*Science* 303:1162 |
 | Yarnitsky 2010 | CPM 作为慢性化生物标志物 |
+| **Lau, Winters & Vaughan 2020**（PMID:31971607, PMC7174888） | 脑片电生理直接证明：μ 受体**突触前**抑制 PAG GABAergic 中间神经元输入（而非突触后），δ 受体无此效应；双重机制（突触前去抑制 + 突触后抑制中间神经元）共同激活下行镇痛 |
+| Zubieta et al. 2005（PMID:16120776, PMC6725254） | PET ¹¹C-卡芬太尼直接测量：安慰剂 → ACC/dlPFC/NAc 内源性 μ-阿片激活，幅度与镇痛相关 |
 
 ---
 
@@ -158,4 +168,5 @@ DPM 的核心执行器：
 | 版本 | 日期 | 修改内容 | 来源文章 |
 |---|---|---|---|
 | rev1 | 2026-06-14 | 初始创建：PAG-RVM-脊髓回路、ON/OFF 细胞、内源性阿片、安慰剂/SIA、慢性痛失调 | #190 |
+| rev2 | 2026-06-14 | 补充 Lau et al. 2020 突触前去抑制机制（电生理证据）；补充 Zubieta 2005 安慰剂 PET 证据；新增 related：mu-opioid-receptor、placebo-analgesia；endogenous-opioids 悬空引用已填补 | #192 |
 

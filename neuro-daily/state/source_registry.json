@@ -13412,6 +13412,102 @@
         "emotional stimuli consciousness breakthrough",
         "CFS paradigm"
       ]
+    },
+    {
+      "id": "Corder-2018-AnnRevNeuro",
+      "citation": "Corder G et al. (2018). Endogenous and Exogenous Opioids in Pain. Annu Rev Neurosci 41:453-473. PMID:29852083, PMC6428583.",
+      "open_access": true,
+      "used_in_articles": [
+        "192"
+      ],
+      "topics_covered": [
+        "endogenous-opioids",
+        "mu-opioid-receptor",
+        "pain-modulation",
+        "VTA-MOR",
+        "opioid-peptides"
+      ]
+    },
+    {
+      "id": "Valentino-Volkow-2018-NPP",
+      "citation": "Valentino RJ, Volkow ND (2018). Untangling the Complexity of Opioid Receptor Function. Neuropsychopharmacology 43:2514-2520. PMC6224460.",
+      "open_access": true,
+      "used_in_articles": [
+        "192"
+      ],
+      "topics_covered": [
+        "biased-signaling",
+        "opioid-receptor-structure",
+        "tolerance",
+        "addiction"
+      ]
+    },
+    {
+      "id": "Lau-2020-BJP",
+      "citation": "Lau BK, Winters BL, Vaughan CW (2020). Opioid presynaptic disinhibition of the PAG descending analgesic pathway. Br J Pharmacol 177:2320-2332. PMID:31971607, PMC7174888.",
+      "open_access": true,
+      "used_in_articles": [
+        "192"
+      ],
+      "topics_covered": [
+        "PAG-opioid-mechanism",
+        "presynaptic-disinhibition",
+        "descending-pain-modulation"
+      ]
+    },
+    {
+      "id": "Zubieta-2005-JNeuro",
+      "citation": "Zubieta JK et al. (2005). Placebo effects mediated by endogenous opioid activity on mu-opioid receptors. J Neurosci 25:7754-7762. PMID:16120776, PMC6725254.",
+      "open_access": true,
+      "used_in_articles": [
+        "192"
+      ],
+      "topics_covered": [
+        "placebo-analgesia",
+        "PET-imaging",
+        "endogenous-opioids",
+        "ACC",
+        "NAc"
+      ]
+    },
+    {
+      "id": "Toll-2016-PharmacolRev",
+      "citation": "Toll L et al. (2016). NOP Receptor Structure, Signaling, Ligands, Functions. Pharmacol Rev 68:419-457. PMC4813427.",
+      "open_access": true,
+      "used_in_articles": [
+        "192"
+      ],
+      "topics_covered": [
+        "NOP-receptor",
+        "opioid-receptor-structure",
+        "nociceptin"
+      ]
+    },
+    {
+      "id": "Averitt-2019-NPP",
+      "citation": "Averitt DL et al. (2019). Neuronal and glial factors contributing to sex differences in opioid modulation of pain. Neuropsychopharmacology 44:155-165. PMID:29973654, PMC6235988.",
+      "open_access": true,
+      "used_in_articles": [
+        "192"
+      ],
+      "topics_covered": [
+        "PAG-RVM-sex-differences",
+        "opioid-analgesia",
+        "estradiol-MOR"
+      ]
+    },
+    {
+      "id": "Pellissier-2018-BJP",
+      "citation": "Pellissier LP et al. (2018). mu opioid receptor, social behaviour and autism. Br J Pharmacol 175:2750-2769. PMC6016638.",
+      "open_access": true,
+      "used_in_articles": [
+        "192"
+      ],
+      "topics_covered": [
+        "mu-opioid-receptor",
+        "social-bonding",
+        "autism-OPRM1"
+      ]
     }
   ],
   "total_sources": 817,
