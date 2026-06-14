@@ -295,6 +295,32 @@
 
 ---
 
+## 第 12 次触发记录（claude/funny-einstein-k7zil5）
+
+- **时间**：2026-06-14，第 12 次触发（北京时间约 22:00）
+- **触发原因**：调度器再次触发
+- **执行流程**：
+  1. 读取 ROUTINE.md 与 KNOWLEDGE-BASE-DESIGN.md ✅
+  2. 切换到 main 分支：从 `claude/funny-einstein-k7zil5` 切换至 `main` 并执行 `git pull --rebase origin main` ✅
+  3. 设置 Git 作者信息（QIUYicong）✅
+  4. 确认目录结构：`neuro-daily/wiki/`、`ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md` 均在 ✅
+  5. 读取状态文件：
+     - topic_ledger：total_articles=192，today_articles=[#190, #191, #192]（均为 2026-06-14）
+     - wiki/_graph.json：384 节点，2200 边（2026-06-14 更新）
+     - 运行日志：已有 11 次触发记录，今日任务已完成，git 状态干净
+  6. 执行决定：今天已有 3 篇高质量文章覆盖疼痛通路→内感受情绪→阿片系统完整主题链，符合 ROUTINE.md"不要反复生成同一天文章"规则，**不生成新文章**
+- **知识库当前状态**：
+  - 总文章数：192 篇
+  - Wiki 图谱：384 节点，2200 边
+  - 今日已创建 wiki 页（11 页）：nociception、gate-control-theory、central-sensitization、descending-pain-modulation、pain-matrix、allostasis、cardiac-interoception、endogenous-opioids、mu-opioid-receptor、kappa-opioid-receptor、placebo-analgesia
+  - 今日已修订 wiki 页（6 页）：kcc2、anterior-insula、anterior-cingulate-cortex、microglia、interoception、vta
+- **下一步**：2026-06-15 09:00 UTC 调度触发，生成文章 #193，推荐主题：
+  - 内源性大麻素系统（eCB 逆行突触调制，接续阿片系统课程线）
+  - 丘脑网状核感觉门控（TRN 与感觉过滤）
+  - 催产素系统（社会联结的肽类基础）
+  - 阿片成瘾神经回路（前额叶-NAc-VTA 可塑性）
+- **Push 状态**：⏳ 见下方提交记录
+
 ## 第 10 次触发记录（claude/funny-einstein-8ydh79）
 
 - **时间**：2026-06-14，第 10 次触发
@@ -324,6 +350,7 @@
 ---
 
 ## 第 11 次触发记录（claude/funny-einstein-ep317g）
+
 
 - **时间**：2026-06-14，第 11 次触发
 - **触发原因**：调度器再次触发
