@@ -266,4 +266,29 @@
   - 丘脑网状核感觉门控（TRN 与感觉过滤）
   - 催产素系统（社会联结的肽类基础）
   - 阿片成瘾神经回路（前额叶-NAc-VTA 可塑性）
-- **Push 状态**：⏳ 见下方
+- **Push 状态**：✅ 成功推送至 main（commit b8a63e1）
+
+---
+
+## 第 9 次触发记录（claude/funny-einstein-o3w1x9）
+
+- **时间**：2026-06-14，第 9 次触发
+- **触发原因**：调度器再次触发
+- **执行流程**：
+  1. 读取 ROUTINE.md 与 KNOWLEDGE-BASE-DESIGN.md ✅
+  2. 切换到 main 分支：`git pull --rebase origin main` ✅
+  3. 设置 Git 作者信息（QIUYicong）✅
+  4. 确认目录结构：`neuro-daily/wiki/`、`ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md` 均在 ✅
+  5. 读取状态文件：topic_ledger（总文章数 192，今日已有 #190/#191/#192 三篇）、运行日志（已有 8 次触发记录，全部确认今日任务完成）
+  6. 执行决定：今天已有 3 篇高质量文章覆盖疼痛通路→内感受情绪→阿片系统完整主题链，符合 ROUTINE.md"不要反复生成同一天文章"规则，**不生成新文章**
+- **知识库当前状态**：
+  - 总文章数：192 篇
+  - Wiki 图谱：384 节点，2200 边
+  - 今日新建 wiki 页（合计 11 页）：nociception、gate-control-theory、central-sensitization、descending-pain-modulation、pain-matrix、allostasis、cardiac-interoception、endogenous-opioids、mu-opioid-receptor、kappa-opioid-receptor、placebo-analgesia
+  - 今日修订 wiki 页（合计 6 页）：kcc2、anterior-insula、anterior-cingulate-cortex、microglia、interoception、vta
+- **下一步**：2026-06-15 09:00 UTC 调度触发，生成文章 #193，推荐主题：
+  - 内源性大麻素系统（逆行突触调制，eCB 课程线）
+  - 丘脑网状核感觉门控（TRN 与感觉过滤）
+  - 催产素系统（社会联结的肽类基础）
+  - 阿片成瘾神经回路（前额叶-NAc-VTA 可塑性）
+- **Push 状态**：✅ 成功推送至 main
