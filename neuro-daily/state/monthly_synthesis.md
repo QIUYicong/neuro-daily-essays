@@ -5,7 +5,9 @@
 ## 2026年6月（进行中）
 
 *本月截至日期：2026-06-15*
-*本月新增文章：#170–#193（含两次周综合）；共 24 篇。*
+*本月新增文章：#170–#194（含两次周综合）；共 25 篇；课程系列文章 #173 也计入。*
+
+*6-15 [#173课程] 颗粒细胞与平行纤维展开编码：苔藓纤维→颗粒细胞（低扇入4-7条，展开700亿）→平行纤维（T形分叉，冠状走向，3-7mm）→ PF-PC LTD（时序窗50-150ms，峰值80ms，CB1R必要，Safo & Regehr 2008 PMC2266067）；Xie et al. 2023（eLife，PMC10541175）挑战稀疏编码：连续运动控制任务需较稠密编码；颗粒细胞层类比核函数/液态机；新建2页（granule-cell, parallel-fiber），修订2页（cerebellar-ltd rev4, purkinje-cell rev2），图谱390→393节点，2229→2241边，悬空引用 parallel-fiber 已解决；Q-gc-01/02/Q-pf-01新增。*
 
 *6-15 #193 内源性大麻素系统（eCB 系统）：逆向突触信号的多尺度机制。核心：2-AG（按需合成，DGLα）→ CB1R（Gi/o）→ 短期（βγ-VGCC，DSI/DSE）/ 长期（αi-AC-PKA，eCB-LTD）双路径。关键遗传证明：DGLα-KO 小鼠 DSI/DSE 完全消失（3脑区）。新增恐惧消退机制：vmPFC→BLA eCB-LTD（Gunduz-Cinar 2023 Neuron，PMC10592324）；脊髓背角 CB1R/TRPV1 平衡（炎症转向 CB1R 主导 73%）；PAG 的 eCB-阿片协同去抑制；NAc eCB 调节多巴胺释放。新建4页（endocannabinoid-system, dsi-dse, cb1-receptor, 2-ag），修订2页（fear-extinction rev4, endocannabinoid-ltd rev2），图谱388节点2219边；Q-ecb-01/02/03/04新增。来源8篇（6篇开放全文）。*
 

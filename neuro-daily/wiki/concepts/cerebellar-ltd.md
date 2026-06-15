@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-06-13
-revision_count: 3
+updated: 2026-10-11
+revision_count: 4
 dimensions: [molecular, synaptic, cellular, microcircuit]
 related: [ltd, cerebellum, forward-model, climbing-fiber-error-signal, purkinje-cell, parallel-fiber, deep-cerebellar-nuclei, inferior-olive, molecular-layer-interneurons]
 prerequisites: [ltd, nmda-receptor, pkc-signaling, ampa-receptor]
 opens_questions: [Q-cb-01, Q-cb-02, Q-cb-04, Q-cb-05, Q-cb-06, Q-cb-07, Q-cb-08]
-source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-06-13-cerebellar-distributed-plasticity-motor-learning]
-key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932", "PMID:30069835", "PMID:23440175", "PMID:30995136", "PMID:38574161", "PMID:37474638", "PMID:40523942"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-06-13-cerebellar-distributed-plasticity-motor-learning, 2026-10-11-granule-cell-parallel-fiber-expansion-coding]
+key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932", "PMID:30069835", "PMID:23440175", "PMID:30995136", "PMID:38574161", "PMID:37474638", "PMID:40523942", "PMID:17669443"]
 ---
 
 # 小脑 LTD（Cerebellar LTD / PF-PC LTD）
@@ -63,6 +63,8 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932",
 | PF-LTD 可由 LTP 反转 | 体外切片双向可塑性 | PMID:17046686 | 中-高 |
 | LTD 时间窗口可宽至 400ms（预期性）| 清醒小鼠双光子成像（预印本）| PMID:42079241 | 低（预印本）|
 | 绒球最优 PF-CF 配对间隔 ≈ 120ms，匹配视觉反馈延迟 | 绒球体外精确间隔调控实验 | PMID:30069835 | 高 |
+| LTD 时序窗：PF 先于 CF 50-150ms（峰值 ~80ms），CF 先则几乎无 LTD | 精确时序刺激实验（离体切片），小鼠蚓部 | PMID:17669443 | 高 |
+| CB1R 激活是 PF-PC LTD 的必要条件（AM251 完全阻断 LTD） | CB1R 拮抗剂 AM251 药理实验 | PMID:17669443 | 高 |
 | LTD 为快速适应初期机制，DCN LTP 为慢速巩固 | 双相适应时间进程 + 橄榄核可逆失活后记忆保留 | PMID:23440175 | 中 |
 | 攀爬纤维复杂放电时序：眼跳后 80–120ms，编码误差大小/方向 | 体内 Purkinje 细胞记录 + SC 刺激（14.4ms 延迟）| PMID:30995136 | 高 |
 | PF-PC LTD + PF-MLI LTP 协同支持 CEBC；单位点阻断影响有限，双位点阻断显著受损 | 计算建模（系统性位点关闭实验）| PMID:38574161（2024）| 中（计算模型，需神经记录验证）|
@@ -93,9 +95,11 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932",
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：高（分子机制 established）；LTD 非唯一机制也有 established 证据
 - 2026-08-01 · 修订（rev1→rev2）· 基于《教师信号的困境》（文章#100）· 新增：绒球 120ms 最优窗口（Suvrathan 2018）、攀爬纤维时序量化（Soetedjo 2019）、双相记忆轨迹（Ito 2013）；新增未解问题 Q-cb-04/Q-cb-05；related 新增 climbing-fiber-error-signal/purkinje-cell；key_sources 补充 PMID:30069835/23440175/30995136
 - 2026-06-13 · 修订（rev2→rev3）· 基于《小脑运动学习的分布式革命》（文章#186）· 新增：PF-MLI LTP + PF-PC LTD 协同机制（Zhu 2024 计算模型，PMID:38574161）；激发性核橄榄通路（Wang 2023，PMID:37474638）；related 新增 molecular-layer-interneurons/deep-cerebellar-nuclei/inferior-olive；新增未解问题 Q-cb-06/Q-cb-07/Q-cb-08；key_sources 补充三篇新来源
+- 2026-10-11 · 修订（rev3→rev4）· 基于《宇宙中最大的展开器》(#173) · 新增：Safo & Regehr 2008 的精确 LTD 时序窗口（50-150ms，峰值 80ms）；内源性大麻素 CB1R 对 LTD 的必要性（AM251 完全阻断）；key_sources 补充 PMID:17669443；source_articles 补充 2026-10-11
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
 - [[2026-08-01-cerebellar-ltd-purkinje-motor-learning]]
 - [[2026-06-13-cerebellar-distributed-plasticity-motor-learning]]
+- [[2026-10-11-granule-cell-parallel-fiber-expansion-coding]]

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-16",
-  "node_count": 368,
-  "edge_count": 2131,
+  "updated": "2026-10-11",
+  "node_count": 393,
+  "edge_count": 2241,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3542,6 +3542,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/pair-bond.md"
+    },
+    {
+      "id": "granule-cell",
+      "title": "颗粒细胞（小脑）",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/granule-cell.md"
+    },
+    {
+      "id": "parallel-fiber",
+      "title": "平行纤维",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/parallel-fiber.md"
+    },
+    {
+      "id": "expansion-coding",
+      "title": "展开编码",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/parallel-fiber.md"
     }
   ],
   "edges": [
@@ -15328,6 +15355,66 @@
       "from": "oxytocin-system",
       "to": "fear-extinction",
       "type": "supports"
+    },
+    {
+      "from": "granule-cell",
+      "to": "parallel-fiber",
+      "type": "part-of"
+    },
+    {
+      "from": "granule-cell",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "granule-cell",
+      "to": "cerebellar-ltd",
+      "type": "supports"
+    },
+    {
+      "from": "granule-cell",
+      "to": "expansion-coding",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "parallel-fiber",
+      "to": "purkinje-cell",
+      "type": "regulates"
+    },
+    {
+      "from": "parallel-fiber",
+      "to": "cerebellar-ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "parallel-fiber",
+      "to": "climbing-fiber-error-signal",
+      "type": "related"
+    },
+    {
+      "from": "parallel-fiber",
+      "to": "expansion-coding",
+      "type": "supports"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "granule-cell",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "parallel-fiber",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "cerebellar-ltd",
+      "type": "regulates"
+    },
+    {
+      "from": "expansion-coding",
+      "to": "marr-albus-ito",
+      "type": "related"
     }
   ],
   "dangling_references": [

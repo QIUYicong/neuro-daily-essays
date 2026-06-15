@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-15",
-  "total_articles": 193,
+  "total_articles": 194,
   "entries": [
     {
       "date": "2026-08-09",
@@ -13021,6 +13021,80 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-16（真实执行日期）；11个来源中3篇开放全文（PMC）、8篇摘要仅读；Nature付费（Kosfeld2005）明确标注；无PMID编造；2个新wiki页面+2个修订；图谱+2节点+10边（390节点，2229边）；催产素系统为Track 6核心内容，填补知识库重要缺口"
+    },
+    {
+      "date": "2026-10-11",
+      "real_date": "2026-06-15",
+      "article_number": 173,
+      "title": "宇宙中最大的展开器：小脑颗粒细胞如何将感觉运动信号重铸为高维学习代码",
+      "slug": "granule-cell-parallel-fiber-expansion-coding",
+      "filename": "2026-10-11-granule-cell-parallel-fiber-expansion-coding.md",
+      "article_type": "regular",
+      "core_question": "小脑颗粒细胞层如何将约 300 万条苔藓纤维的低维感觉运动输入展开为 700 亿颗粒细胞的高维表示，平行纤维如何以精确几何投射给浦肯野细胞，以及这种展开编码的最优密度是否依赖任务类型？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region"
+      ],
+      "curriculum_track": "3. 大脑如何编码世界 → 小脑回路系列",
+      "topic_tags": [
+        "granule-cell",
+        "parallel-fiber",
+        "cerebellar-cortex",
+        "expansion-coding",
+        "mossy-fiber",
+        "glomerulus",
+        "Golgi-cell",
+        "PF-PC-LTD",
+        "Marr-Albus-Ito",
+        "sparse-coding",
+        "task-dependent-coding",
+        "endocannabinoid",
+        "LTD-timing",
+        "liquid-state-machine",
+        "reservoir-computing"
+      ],
+      "main_sources": [
+        "PMID:37671785 (Xie et al. 2023, eLife) - 开放全文 PMC10541175",
+        "PMID:17669443 (Safo & Regehr 2008, Neuropharmacology) - 开放全文 PMC2266067",
+        "PMID:31787879 (Prestori et al. 2019, Front Mol Neurosci) - 开放全文 PMC6854908",
+        "PMID:24916287 (Ito et al. 2014, Prog Brain Res) - 摘要",
+        "PMID:32599123 (Kawato et al. 2021, Neuroscience) - 摘要"
+      ],
+      "wiki_pages_created": [
+        "wiki/neurons/granule-cell.md",
+        "wiki/concepts/parallel-fiber.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/cerebellar-ltd.md (rev3→rev4): 新增 LTD 时序窗（50-150ms）和 CB1R 必要性",
+        "wiki/neurons/purkinje-cell.md (rev1→rev2): 新增 granule-cell/parallel-fiber 链接和几何细节"
+      ],
+      "graph_nodes_added": [
+        "granule-cell",
+        "parallel-fiber",
+        "expansion-coding"
+      ],
+      "graph_nodes_updated": [
+        "cerebellar-ltd",
+        "purkinje-cell"
+      ],
+      "graph_edges_added": 12,
+      "graph_state": "393 节点，2241 边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-gc-01",
+        "Q-gc-02",
+        "Q-pf-01"
+      ],
+      "next_suggested_topics": [
+        "小脑深部核（DCN）在小脑输出与学习中的角色（已有文章，可深化）",
+        "下橄榄核（inferior olive）的内在振荡机制与攀爬纤维时序生成",
+        "小脑前庭-眼动系统（flocculus/paraflocculus）如何实现 VOR 适应",
+        "苔藓纤维来源（脑桥核/脊髓小脑束）的具体回路"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-10-11（真实运行日期 2026-06-15）；课程序号 #173；小脑皮层系列——颗粒细胞展开编码；核心：苔藓纤维→颗粒细胞（低扇入展开）→平行纤维（精确几何）→PF-PC LTD（时序门控 + eCB）；新建 2 个 wiki 页；修订 2 个既有页；图谱 390→393 节点，2229→2241 边；悬空引用 parallel-fiber 已解决"
     }
   ],
   "layer_coverage_recent": [
@@ -13367,5 +13441,5 @@
       "note": "UTC+8=2026-06-14；知识库序号190；感觉系统——疼痛通路综合篇；核心：伤害感受→脊髓闸门→上行通路→疼痛矩阵→下行调制→中枢敏化七站串联；新建5个wiki页（nociception、gate-control-theory、central-sensitization、descending-pain-modulation、pain-matrix）；修订4个既有页（kcc2+anterior-insula+acc+microglia）；图谱 378 节点 2173 边"
     }
   ],
-  "total_entries": 171
+  "total_entries": 176
 }

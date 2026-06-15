@@ -1,0 +1,129 @@
+# 运行日志：2026-10-11（真实日期：2026-06-15）
+
+## 基本信息
+
+- **文章编号**：#173
+- **课程日期**：2026-10-11
+- **真实执行日期**：2026-06-15
+- **分支**：main（via claude/funny-einstein-xa86lm → origin/main）
+- **选题**：宇宙中最大的展开器：小脑颗粒细胞与平行纤维展开编码
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：total_entries=175（更新前）；total_articles=193；last_updated=2026-06-15
+- `unresolved_questions.md`：最近新增 Q-ecb-01/02/03/04（#193）和 Q-OT-01/02/03/04（#194）
+- `contested_claims.json`：未读取（已知既有争议条目涵盖 LTD 必要性）
+- `_graph.json`：390 节点，2229 边；dangling refs: parallel-fiber, dopamine, cognition, aging
+- 已存在 wiki 页：purkinje-cell, cerebellar-ltd, climbing-fiber-error-signal, deep-cerebellar-nuclei, renshaw-cell, ia-inhibitory-interneuron
+- **缺口确认**：`parallel-fiber` 被 purkinje-cell 和 cerebellar-ltd 引用但无独立节点/页面
+
+---
+
+## 选题决策
+
+**选题依据**：
+1. 缺口驱动（优先级 3）：`parallel-fiber` 是图谱中最重要的悬空引用，被多个核心页面引用
+2. 课程脊柱延续：小脑运动系列（CPG→α-MN→NMJ→肌梭→颗粒细胞）在 #172 后的逻辑下一步
+3. 与前日文章连接：Safo & Regehr 2008 揭示 eCB 系统在 cerebellar LTD 中的中心作用，与 #193（eCB 系统）形成跨文章联系
+
+**最终选题**：颗粒细胞 + 平行纤维 + 展开编码（Marr-Albus-Ito 框架 + Xie 2023 修正）
+
+---
+
+## 文献检索
+
+### 搜索词与数据库
+
+| 搜索词 | 数据库 | 结果数 |
+|--------|--------|--------|
+| cerebellar granule cell parallel fiber Purkinje computation review | PubMed | 6 |
+| Marr Albus Ito cerebellum motor learning model | PubMed | 6 |
+| cerebellar granule cell parallel fiber synaptic plasticity review | PubMed | 9 |
+| D'Angelo granule cell cerebellar cortex computation | PubMed | 2 |
+| De Zeeuw cerebellar review 2021-2023 | PubMed | 4 |
+| Spanne Jörntell cerebellar function theory | PubMed | 8 |
+
+### 采用来源（7 篇）
+
+| 来源 | PMID | 全文 | 采用原因 |
+|------|------|------|---------|
+| Xie et al. 2023 (eLife) | 37671785 | **PMC10541175 全文** | 任务依赖编码密度；挑战稀疏编码假设 |
+| Safo & Regehr 2008 | 17669443 | **PMC2266067 全文** | LTD 时序窗精确数据；CB1R 必要性 |
+| Prestori et al. 2019 | 31787879 | **PMC6854908 全文** | 颗粒层抑制回路（高尔基、篮状、星形细胞）|
+| Ito et al. 2014 | 24916287 | 摘要 | LTD 分子机制综述；Marr-Albus-Ito 核心来源 |
+| Kawato et al. 2021 | 32599123 | 摘要 | 50 年历史回顾；层级强化学习扩展 |
+| D'Angelo 2014 | 24916288 | 摘要 | 9 种小脑可塑性；分布式学习框架 |
+| Schweighofer et al. 2001 | 11311786 | 摘要 | 无监督稀疏编码学习；经典计算理论 |
+
+### 排除来源
+
+- PMID:12582073（眼追踪模型）：非颗粒细胞编码核心
+- PMID:23721821（5-HT 发育）：主题不直接相关
+- PMID:36884287（呼吸控制网络）：搜索误命中，与 De Zeeuw 名字匹配但主题不符
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页（2 页）
+
+- `wiki/neurons/granule-cell.md`：rev1 创建，established/high；颗粒细胞形态、展开编码机制、任务依赖密度（Xie 2023）
+- `wiki/concepts/parallel-fiber.md`：rev1 创建，established/high；T 形几何、on-beam/off-beam 空间锐化、LTD 时序窗（Safo & Regehr 2008）
+
+### 修订 wiki 页（2 页）
+
+- `wiki/concepts/cerebellar-ltd.md`：rev3→rev4，新增 LTD 时序窗精确参数（50-150ms，峰值 80ms）和 CB1R 必要性证据（PMID:17669443）
+- `wiki/neurons/purkinje-cell.md`：rev1→rev2，新增 granule-cell 和 parallel-fiber 链接；明确 PF 接触数量（~150,000-175,000/PC）
+
+### 矛盾检查
+
+- **无新矛盾**。LTD 时序窗（50-150ms，Safo & Regehr 2008）与现有 cerebellar-ltd 页面中的 120ms 最优时间窗（Suvrathan 2018，针对绒球）不完全相同，但不构成矛盾——两个研究测量的是不同小脑区域（前者为蚓部，后者为绒球），且两个时间窗有重叠，代表区域特异性变化而非真实冲突。在文章和 wiki 中已注明区域特异性。
+- **既有矛盾检查**：cerebellar-ltd 页面已记录 LTD 必要性争议（Schonewille 2011 vs Ito 2014），本日新证据不改变该矛盾的裁决状态。
+
+### 成熟度评估
+
+- granule-cell：established（细胞形态、展开编码框架均为教科书级；任务依赖密度是 emerging 的修正）
+- parallel-fiber：established（几何解剖教科书级；LTD 时序参数由多独立实验验证）
+
+---
+
+## 图谱更新
+
+- 新建节点：3（granule-cell, parallel-fiber, expansion-coding）
+- 新增边：12
+- 总计：390→393 节点，2229→2241 边
+- updated 字段：2026-10-11
+- 悬空引用 parallel-fiber 已解决（从 dangling_references 列表移除）
+- 剩余悬空引用：dopamine, cognition, aging
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：total_entries 175→176，total_articles 193→194，新增 #173 条目
+- `unresolved_questions.md`：新增 Q-gc-01/02、Q-pf-01
+- `source_registry.json`：未更新（来源已在 sources JSON 文件中记录）
+- `monthly_synthesis.md`：2026-06-15 追加 #173 摘要
+
+---
+
+## 失败与限制
+
+- NIH/NINDS 官方页面：在此次运行中未尝试（PubMed/PMC 来源已足够）
+- Ito et al. 2014（PMID:24916287）、Kawato et al. 2021（PMID:32599123）：均为摘要仅读，未能获取全文；在文章和来源文件中已标注
+- 经典 Marr（1969）原始论文：PubMed 无索引，无法直接检索；仅通过综述引用
+- 关于人类颗粒细胞数量的精确统计（700 亿）：源自经典解剖学研究，但最新的单细胞转录组等研究可能有更新的估计；未注明精确来源（建议未来文章明确引用 Azevedo et al. 2009 PMID:19226510 等细胞计数研究）
+
+---
+
+## Git 操作
+
+- **Branch**：claude/funny-einstein-xa86lm（= origin/main）
+- **Commit**：（待提交）
+- **Push**：（待推送至 origin/main）
+
+---
+
+*日志由自动化代理生成，2026-06-15 UTC+8*

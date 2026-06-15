@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-11",
+  "real_date": "2026-06-15",
+  "article": "2026-10-11-granule-cell-parallel-fiber-expansion-coding.md",
+  "article_number": 173,
+  "topic": "颗粒细胞与平行纤维展开编码",
+  "search_queries": [
+    "cerebellar granule cell parallel fiber Purkinje computation review",
+    "granule cell expansion recoding cerebellar cortex",
+    "Marr Albus Ito cerebellum motor learning model",
+    "cerebellar granule cell parallel fiber synaptic plasticity review",
+    "D'Angelo granule cell cerebellar cortex computation",
+    "Spanne Jörntell cerebellar function theory"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "37671785",
+      "pmcid": "PMC10541175",
+      "doi": "10.7554/eLife.82914",
+      "title": "Task-dependent optimal representations for cerebellar learning",
+      "authors": ["Xie M", "Muscinelli SP", "Decker Harris K", "Litwin-Kumar A"],
+      "journal": "eLife",
+      "year": 2023,
+      "full_text_available": true,
+      "access_method": "PMC open access full text read",
+      "used_for": "任务依赖编码密度：稀疏编码对离散任务最优，稠密编码对连续运动控制任务最优",
+      "quality": "高：同行评审，计算+实验数据对照"
+    },
+    {
+      "id": "S2",
+      "pmid": "17669443",
+      "pmcid": "PMC2266067",
+      "doi": "10.1016/j.neuropharm.2007.05.029",
+      "title": "Timing dependence of the induction of cerebellar LTD",
+      "authors": ["Safo P", "Regehr WG"],
+      "journal": "Neuropharmacology",
+      "year": 2008,
+      "full_text_available": true,
+      "access_method": "PMC open access full text read",
+      "used_for": "LTD 时序依赖：PF 先于 CF 50-150ms 峰值 80ms；CB1R 对 LTD 的必要性",
+      "quality": "高：直接实验，精确时序参数，药理验证"
+    },
+    {
+      "id": "S3",
+      "pmid": "31787879",
+      "pmcid": "PMC6854908",
+      "title": "Diverse Neuron Properties and Complex Network Dynamics in the Cerebellar Cortical Inhibitory Circuit",
+      "authors": ["Prestori F", "Mapelli L", "D'Angelo E"],
+      "journal": "Frontiers in Molecular Neuroscience",
+      "year": 2019,
+      "full_text_available": true,
+      "access_method": "PMC open access full text read",
+      "used_for": "高尔基细胞前馈/反馈抑制机制；篮状细胞 pinceau；on-beam/off-beam 空间锐化",
+      "quality": "高：开放全文综述，来自 D'Angelo 课题组（领域权威）"
+    },
+    {
+      "id": "S4",
+      "pmid": "24916287",
+      "pmcid": null,
+      "doi": "10.1016/B978-0-444-63356-9.00001-7",
+      "title": "Long-term depression as a model of cerebellar plasticity",
+      "authors": ["Ito M", "Yamaguchi K", "Nagao S", "Yamazaki T"],
+      "journal": "Progress in Brain Research",
+      "year": 2014,
+      "full_text_available": false,
+      "access_method": "摘要仅读",
+      "used_for": "LTD 的分子机制（mGluR1→PKCα→AMPAR 内吞）；Marr-Albus-Ito 理论综述",
+      "quality": "高（摘要）：权威作者（Ito 是 LTD 发现者），综述权威性"
+    },
+    {
+      "id": "S5",
+      "pmid": "32599123",
+      "pmcid": null,
+      "doi": "10.1016/j.neuroscience.2020.06.019",
+      "title": "50 Years Since the Marr, Ito, and Albus Models of the Cerebellum",
+      "authors": ["Kawato M", "Ohmae S", "Hoang H", "Sanger T"],
+      "journal": "Neuroscience",
+      "year": 2021,
+      "full_text_available": false,
+      "access_method": "摘要仅读",
+      "used_for": "Marr-Albus-Ito 历史综述；向层级强化学习扩展",
+      "quality": "中-高（摘要）：Kawato 是多内部模型理论提出者"
+    },
+    {
+      "id": "S6",
+      "pmid": "24916288",
+      "pmcid": null,
+      "doi": "10.1016/B978-0-444-63356-9.00002-9",
+      "title": "The organization of plasticity in the cerebellar cortex: from synapses to control",
+      "authors": ["D'Angelo E"],
+      "journal": "Progress in Brain Research",
+      "year": 2014,
+      "full_text_available": false,
+      "access_method": "摘要仅读",
+      "used_for": "小脑皮层 9 种可塑性形式；分布式学习框架",
+      "quality": "中-高（摘要）：D'Angelo 是颗粒细胞计算研究权威"
+    },
+    {
+      "id": "S7",
+      "pmid": "11311786",
+      "pmcid": null,
+      "doi": "10.1016/s0306-4522(00)00548-0",
+      "title": "Unsupervised learning of granule cell sparse codes enhances cerebellar adaptive control",
+      "authors": ["Schweighofer N", "Doya K", "Lay F"],
+      "journal": "Neuroscience",
+      "year": 2001,
+      "full_text_available": false,
+      "access_method": "摘要仅读",
+      "used_for": "颗粒细胞稀疏编码可通过无监督学习动态习得",
+      "quality": "中（摘要）：计算研究，时间较早但开创性"
+    }
+  ],
+  "search_databases": ["PubMed E-utilities", "PubMed Central (PMC)"],
+  "total_sources": 7,
+  "open_full_text_count": 3,
+  "abstract_only_count": 4,
+  "excluded_sources": [
+    {
+      "reason": "主题不直接相关（平滑眼追踪模型，非颗粒细胞编码）",
+      "pmid": "12582073"
+    },
+    {
+      "reason": "主要关于五羟色胺发育，非颗粒细胞编码核心",
+      "pmid": "23721821"
+    }
+  ]
+}

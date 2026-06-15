@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-08-01
-updated: 2026-08-01
-revision_count: 1
+updated: 2026-10-11
+revision_count: 2
 dimensions: [cellular, synaptic, microcircuit, brain-region]
 related: [cerebellum, cerebellar-ltd, climbing-fiber-error-signal, deep-cerebellar-nuclei, parallel-fiber]
 prerequisites: [action-potential, gaba, ampa-receptor, cerebellum]
 opens_questions: [Q-cb-01, Q-cb-04]
-source_articles: [2026-08-01-cerebellar-ltd-purkinje-motor-learning]
+source_articles: [2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-10-11-granule-cell-parallel-fiber-expansion-coding]
 key_sources: ["PMID:23440175", "PMID:21482355", "PMID:30069835", "PMID:34219651"]
 ---
 
@@ -81,7 +81,8 @@ PC 的输出完全通过**GABAergic 抑制**实现——它们通过持续的简
 - [[cerebellar-ltd]] — LTD 发生在 PF-PC 突触，PC 是效应细胞
 - [[climbing-fiber-error-signal]] — CF 是 PC 的"教师"（每 PC 仅 1 根）
 - [[deep-cerebellar-nuclei]] — PC 通过 GABA 抑制 DCN，DCN 是小脑输出通道
-- [[granule-cells]] — 颗粒细胞经 PF 提供 PC 的主要兴奋性输入（~150,000 突触）
+- [[granule-cell]] — 颗粒细胞经 PF 提供 PC 的主要兴奋性输入（~150,000 突触）
+- [[parallel-fiber]] — 颗粒细胞轴突，在分子层沿冠状面延伸 3-7mm，顺序接触 300-500 个 PC
 
 ## 未解问题
 
@@ -91,7 +92,9 @@ PC 的输出完全通过**GABAergic 抑制**实现——它们通过持续的简
 ## 修订历史
 
 - 2026-08-01 · 创建 · 基于《教师信号的困境》（文章#100）· 初始置信度：高（形态/电生理 established，LTD 相关机制 contested）
+- 2026-10-11 · 修订（rev1→rev2）· 基于《宇宙中最大的展开器》(#173) · 新增 granule-cell 和 parallel-fiber 链接；澄清平行纤维接触数（~150,000-175,000/PC）和几何关系；source_articles 补充 2026-10-11
 
 ## 来源文章
 
 - [[2026-08-01-cerebellar-ltd-purkinje-motor-learning]]
+- [[2026-10-11-granule-cell-parallel-fiber-expansion-coding]]

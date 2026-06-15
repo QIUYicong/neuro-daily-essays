@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-10-11（文章 #173：宇宙中最大的展开器——小脑颗粒细胞与平行纤维展开编码）
+
+**创建新页（2 页）**：
+- `wiki/neurons/granule-cell.md`（rev1）：颗粒细胞形态（直径 5-7μm）；低扇入（4-7 MF/GC）；glomerulus 微结构；展开编码的计算原理；高尔基细胞门控；任务依赖编码密度（Xie et al. 2023）；status=established, confidence=high
+- `wiki/concepts/parallel-fiber.md`（rev1）：T 形分叉几何（3-7mm）；每 PF 接触 300-500 PC；每 PC 接受约 150,000 PF；on-beam/off-beam 空间锐化；LTD 时序窗 50-150ms（峰值 80ms）；eCB（CB1R）必要性；Marr-Albus-Ito 理论连接；status=established, confidence=high
+
+**修订既有页（2 页）**：
+- `wiki/concepts/cerebellar-ltd.md` rev3→rev4：新增 Safo & Regehr 2008 LTD 时序窗（50-150ms）及 CB1R 必要性证据；key_sources 补充 PMID:17669443；修订历史追加
+- `wiki/neurons/purkinje-cell.md` rev1→rev2：新增 granule-cell 和 parallel-fiber 链接；澄清 PF 接触数量（~150,000-175,000/PC）及几何关系
+
+**图谱变化**：
+- 新节点（3）：granule-cell, parallel-fiber, expansion-coding
+- 新边（12）：granule-cell→{parallel-fiber(part-of), cerebellum(part-of), cerebellar-ltd(supports), expansion-coding(mechanism-of)}；parallel-fiber→{purkinje-cell(regulates), cerebellar-ltd(mechanism-of), climbing-fiber-error-signal(related), expansion-coding(supports)}；purkinje-cell→granule-cell(related)；cerebellar-ltd→parallel-fiber(mechanism-of)；endocannabinoid-system→cerebellar-ltd(regulates)；expansion-coding→marr-albus-ito(related)
+- 图谱统计：390→393 节点，2229→2241 边
+- 悬空引用 parallel-fiber 已解决
+
+**登记矛盾**：无新矛盾（LTD 时序窗与既有记录的 PF+CF 同时激活描述相符，新的定量数据是精化而非冲突）
+
+**新增未解问题**：Q-gc-01（颗粒细胞编码密度动态调整机制）、Q-gc-02（展开假说 vs 液态机框架的区分）、Q-pf-01（平行纤维正交走向的演化最优性）
+
+---
+
 ## 2026-06-16（文章 #194：社会大脑的肽类密码——催产素系统如何从分子到联结构建社会神经回路）
 
 **创建新页（2 页）**：
