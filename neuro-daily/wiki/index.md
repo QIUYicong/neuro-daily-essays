@@ -339,7 +339,9 @@
 - 🟢 [中颞区（MT/V5）](systems/area-MT-V5.md) — 背侧流运动提取节点；>90%神经元方向选择性；速度+视差调谐；光圈问题解决（模式细胞，PMID:31293393）；三重因果证据（损毁PMID:3385495/微刺激PMID:1607944/患者L.M.运动失认症）**[NEW 2026-08-17 #116]**
 - 🟢 [内上颞区（MST）](systems/mst-medial-superior-temporal.md) — 背侧流光流解析节点；MSTd 大感受野对扩张/旋转/平动光流调谐（PMID:1875243）；三维航向提取；视觉-前庭双模态整合（64%神经元前庭调谐）；自我运动感知核心皮层基底 **[NEW 2026-08-17 #116]**
 - 🟡 [顶内沟外侧区（LIP）](systems/lip-lateral-intraparietal.md) — 背侧流决策积分节点（status=mainstream，有争议）；斜坡放电率积累与漂移扩散模型定量对应（PMID:11600651）；速度-准确性权衡神经实现；争议：决策 vs 眼跳计划区（PMID:28772104）**[NEW 2026-08-17 #116]**
-- 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**
+- 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；**新增催产素(OT)作为第五类神经调质**（修订5次）**[NEW 2026-06-12 · 修订 rev5 2026-06-16]**
+- 🟢 [催产素系统](systems/oxytocin-system.md) — PVN/SON合成9肽，双重身份（垂体激素+中枢调质）；OXTR→Gq→PLC→Ca²⁺；PVN→CeA（抗焦虑，星形胶质细胞OXTR中介）；PVN→NAc（社会奖励，OT-DA串扰）；物种OXTR分布差异决定单配性/杂交性；配对后NAc从头OT-eCB耦合（Borie 2022）**[NEW 2026-06-16 #194]**
+- 🟢 [配对键](concepts/pair-bond.md) — OT（NAc显著性）+DA（VTA→NAc动机）协同 → 特定个体-奖励绑定；草原田鼠NAc高OXTR（单配性）vs草甸田鼠NAc低OXTR（杂交性）；配对后从头OT-eCB耦合；性别用不同机制达到相同行为结果**[NEW 2026-06-16 #194]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**
 - 🔵 [胶质淋巴系统](systems/glymphatic-system.md) — 大脑废物清洗网络：CSF 沿动脉旁间隙入流→星形胶质细胞终足 AQP4 穿越脑实质→静脉旁出流；蓝斑核 NE 振荡（~0.05 Hz）驱动血管慢性搏动为物理泵；NREM 深度睡眠期高效清除 Aβ 和 tau；AQP4 KO→70% 清除效率下降；衰老→三重削弱→AD 恶性循环；人类随机交叉试验直接验证（Dagum 2026）**[NEW 2026-07-06]**

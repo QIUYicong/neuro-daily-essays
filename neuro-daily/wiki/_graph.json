@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-15",
+  "updated": "2026-06-16",
   "node_count": 368,
   "edge_count": 2131,
   "edge_types": [
@@ -3524,6 +3524,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/2-ag.md"
+    },
+    {
+      "id": "oxytocin-system",
+      "title": "催产素系统",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/oxytocin-system.md"
+    },
+    {
+      "id": "pair-bond",
+      "title": "配对键",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/pair-bond.md"
     }
   ],
   "edges": [
@@ -15260,6 +15278,56 @@
       "from": "dsi-dse",
       "to": "cb1-receptor",
       "type": "requires"
+    },
+    {
+      "from": "oxytocin-system",
+      "to": "amygdala",
+      "type": "regulates"
+    },
+    {
+      "from": "oxytocin-system",
+      "to": "dopamine-system",
+      "type": "regulates"
+    },
+    {
+      "from": "oxytocin-system",
+      "to": "endocannabinoid-system",
+      "type": "regulates"
+    },
+    {
+      "from": "oxytocin-system",
+      "to": "hpa-axis",
+      "type": "regulates"
+    },
+    {
+      "from": "oxytocin-system",
+      "to": "neuromodulator-systems",
+      "type": "is-a"
+    },
+    {
+      "from": "oxytocin-system",
+      "to": "pair-bond",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pair-bond",
+      "to": "dopamine-system",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "pair-bond",
+      "to": "endocannabinoid-system",
+      "type": "related"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "oxytocin-system",
+      "type": "related"
+    },
+    {
+      "from": "oxytocin-system",
+      "to": "fear-extinction",
+      "type": "supports"
     }
   ],
   "dangling_references": [

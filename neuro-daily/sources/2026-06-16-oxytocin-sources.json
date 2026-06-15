@@ -1,0 +1,141 @@
+{
+  "date": "2026-06-16",
+  "article": "2026-06-16-oxytocin-social-bonding-neural-circuits.md",
+  "article_number": 194,
+  "topic": "催产素系统与社会联结神经回路",
+  "search_terms": [
+    "oxytocin system social bonding neuroscience review",
+    "oxytocin receptor amygdala social fear anxiety circuit",
+    "oxytocin hypothalamus PVN SON release mechanism",
+    "oxytocin nucleus accumbens pair bonding prairie vole",
+    "oxytocin autism spectrum disorder social behavior",
+    "oxytocin astrocyte central amygdala"
+  ],
+  "sources": [
+    {
+      "pmid": "35858094",
+      "pmcid": "PMC9272148",
+      "title": "Sex-specific and social experience-dependent oxytocin–endocannabinoid interactions in the nucleus accumbens: implications for social behaviour",
+      "authors": "Borie AM, Young LJ, Liu RC",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 2022,
+      "full_text_available": true,
+      "access_method": "PMC open access full text read",
+      "relevance": "核心：配对键形成后 NAc OT-eCB 从头耦合；OXTR 信号级联；物种差异；个体差异"
+    },
+    {
+      "pmid": "22197271",
+      "pmcid": "PMC3312973",
+      "title": "Modulating social behavior with oxytocin: how does it work? What does it mean?",
+      "authors": "Churchland PS, Winkielman P",
+      "journal": "Hormones and Behavior",
+      "year": 2012,
+      "full_text_available": true,
+      "access_method": "PMC open access full text read",
+      "relevance": "批判性视角：鼻内 OT 药理动力学；社会特异性 vs 一般焦虑抑制之争；外群体偏见"
+    },
+    {
+      "pmid": "23850525",
+      "pmcid": "PMC3877159",
+      "title": "Oxytocin, motivation and the role of dopamine",
+      "authors": "Love TM",
+      "journal": "Pharmacology, Biochemistry and Behavior",
+      "year": 2013,
+      "full_text_available": true,
+      "access_method": "PMC open access full text read",
+      "relevance": "催产素-多巴胺互动机制；VTA→NAc DA；社会显著性与动机驱动分工"
+    },
+    {
+      "pmid": "15931222",
+      "pmcid": null,
+      "title": "Oxytocin increases trust in humans",
+      "authors": "Kosfeld M, Heinrichs M, Zak PJ, Fischbacher U, Fehr E",
+      "journal": "Nature",
+      "year": 2005,
+      "full_text_available": false,
+      "access_method": "abstract only (Nature paywall)",
+      "relevance": "经典信任博弈研究；人类社会信任的催产素证据"
+    },
+    {
+      "pmid": "33589833",
+      "pmcid": null,
+      "title": "Astrocytes mediate the effect of oxytocin in the central amygdala on neuronal activity and affective states in rodents",
+      "authors": "Wahis J, Baudon A, Althammer F, Kerspern D, et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2021,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "relevance": "CeA 星形胶质细胞 OXTR；胶质细胞-神经元协同情绪调节"
+    },
+    {
+      "pmid": "37248645",
+      "pmcid": null,
+      "title": "Paraventricular nucleus-central amygdala oxytocinergic projection modulates pain-related anxiety-like behaviors in mice",
+      "authors": "Li YJ, Du WJ, Liu R, Zan GY, Ye BL, et al.",
+      "journal": "CNS Neuroscience & Therapeutics",
+      "year": 2023,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "relevance": "PVN→CeA 催产素投射；化学遗传激活 PVN OT 神经元；痛诱发焦虑的回路机制"
+    },
+    {
+      "pmid": "19481567",
+      "pmcid": null,
+      "title": "Oxytocin and the neural mechanisms regulating social cognition and affiliative behavior",
+      "authors": "Ross HE, Young LJ",
+      "journal": "Frontiers in Neuroendocrinology",
+      "year": 2009,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "relevance": "催产素神经解剖综述；草原田鼠 vs 草甸田鼠 OXTR 分布差异；配对键机制"
+    },
+    {
+      "pmid": "35863332",
+      "pmcid": null,
+      "title": "Oxytocin, Vasopressin, and Social Behavior: From Neural Circuits to Clinical Opportunities",
+      "authors": "Rigney N, de Vries GJ, Petrulis A, Young LJ",
+      "journal": "Endocrinology",
+      "year": 2022,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "relevance": "催产素/加压素神经回路综述；分子遗传工具；ASD 临床转化"
+    },
+    {
+      "pmid": "29897293",
+      "pmcid": null,
+      "title": "The Oxytocin Receptor: From Intracellular Signaling to Behavior",
+      "authors": "Jurek B, Neumann ID",
+      "journal": "Physiological Reviews",
+      "year": 2018,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "relevance": "OXTR 综合综述：信号级联（MAPK、PKC、CaMK）；行为效应"
+    },
+    {
+      "pmid": "28041836",
+      "pmcid": null,
+      "title": "The Neurobiology of Human Attachments",
+      "authors": "Feldman R",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2017,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "relevance": "人类依恋神经生物学；催产素-多巴胺纹状体串扰；四类依恋关系框架"
+    },
+    {
+      "pmid": "28434591",
+      "pmcid": null,
+      "title": "Oxytocin and vasopressin neural networks: Implications for social behavioral diversity and translational neuroscience",
+      "authors": "Johnson ZV, Young LJ",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2017,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "relevance": "OT/AVP 系统神经网络；个体/物种差异；OXTR SNPs"
+    }
+  ],
+  "open_full_text_count": 3,
+  "abstract_only_count": 8,
+  "official_institution_sources": ["PMC/NCBI", "PubMed/NCBI"],
+  "notes": "3篇开放全文（PMC）：Borie2022, Churchland2012, Love2013；8篇摘要仅读；Nature付费未读全文（Kosfeld2005）；11个来源均有真实PMID，无编造；催产素-ASD治疗争议明确标注（Bradley&Woolley元分析结论）"
+}

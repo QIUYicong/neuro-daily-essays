@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-16（文章 #194：社会大脑的肽类密码——催产素系统如何从分子到联结构建社会神经回路）
+
+**创建新页（2 页）**：
+- `wiki/systems/oxytocin-system.md`（rev1）：催产素系统综合概述；双重身份（垂体激素+中枢调质）；OXTR Gq→Ca²⁺信号级联；PVN→CeA（抗焦虑）/PVN→NAc（社会奖励）/OT-DA串扰三条关键投射；物种/个体OXTR分布差异；配对后从头OT-eCB耦合（Borie 2022）；CeA星形胶质细胞OXTR（Wahis 2021）；争议（鼻内OT到脑量/社会特异 vs 一般焦虑抑制）；status=established, confidence=high
+- `wiki/concepts/pair-bond.md`（rev1）：草原田鼠配对键神经机制（OT+DA双必要条件）；NAc OXTR密度决定单配性/杂交性；配对后从头OT-eCB耦合（性别特异机制但行为趋同）；Q-OT-03（人类同构问题）；status=established, confidence=high
+
+**修订既有页（2 页）**：
+- `wiki/systems/amygdala.md` rev5→rev6：related新增 oxytocin-system；opens_questions新增 Q-OT-04；key_sources新增 PMID:33589833/37248645；source_articles新增当日文章；updated→2026-06-16；修订历史追加一行（PVN→CeA OT投射；CeA星形胶质细胞OXTR）
+- `wiki/systems/neuromodulator-systems.md` rev4→rev5：related新增 oxytocin-system/endocannabinoid-system；opens_questions新增 Q-OT-01；source_articles新增当日文章；updated→2026-06-16；修订历史追加一行（催产素作为第五类神经调质）
+
+**图谱变化**：
+- 新节点（2）：oxytocin-system, pair-bond
+- 新边（10）：oxytocin-system→amygdala(regulates)、dopamine-system(regulates)、endocannabinoid-system(regulates)、hpa-axis(regulates)、neuromodulator-systems(is-a)、pair-bond(mechanism-of)；pair-bond→dopamine-system(mechanism-of)、endocannabinoid-system(related)；fear-extinction→oxytocin-system(related)；oxytocin-system→fear-extinction(supports)
+- 图谱统计：388→390 节点，2219→2229 边
+
+**登记矛盾**：无新矛盾（催产素社会特异 vs 一般焦虑抑制之争已在article中并列陈述但不在wiki主张层面形成直接冲突，后续若有解决性研究则登记C条目）
+
+**新增未解问题**：Q-OT-01（鼻内OT脑内到达率）、Q-OT-02（ASD治疗有效性条件）、Q-OT-03（人类配对键机制）、Q-OT-04（CeA胶质OXTR在其他脑区分布）
+
+---
+
 ## 2026-06-15（文章 #193：逆向信使——内源性大麻素系统如何从突触后端重写突触规则）
 
 **创建新页（4 页）**：

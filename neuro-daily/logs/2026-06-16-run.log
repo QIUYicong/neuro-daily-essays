@@ -139,3 +139,65 @@
 - 逻辑日期序列: 2026-06-16（接续#25=2026-06-15）
 - 分支: main (per ROUTINE.md 单分支累积方案A)
 - Git author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+
+---
+
+## 第二次运行 (2026-06-16 UTC+8 · 文章 #194)
+
+**状态**: 今日新文章已成功创建（文章 #194，催产素系统）
+
+---
+
+### 执行摘要
+
+| 项目 | 结果 |
+|------|------|
+| 文章创建 | ✅ 2026-06-16-oxytocin-social-bonding-neural-circuits.md (~5500字) |
+| wiki 新建页 | ✅ 2个 (oxytocin-system, pair-bond) |
+| wiki 修订页 | ✅ 2个 (amygdala rev6, neuromodulator-systems rev5) |
+| 图谱节点 | 388→390 (+2) |
+| 图谱边数 | 2219→2229 (+10) |
+| 新增未解问题 | 4个 (Q-OT-01/02/03/04) |
+| 来源总数 | 831→837 (+6) |
+| 开放全文 | 3篇 (Borie2022/PMC9272148, Churchland2012/PMC3312973, Love2013/PMC3877159) |
+| 摘要仅读 | 8篇 |
+
+---
+
+### 搜索词与来源
+
+检索词：
+- "oxytocin system social bonding neuroscience review"
+- "oxytocin receptor amygdala fear social circuit"
+- "oxytocin hypothalamus PVN SON release mechanism"
+- "oxytocin nucleus accumbens pair bonding prairie vole"
+- "oxytocin autism spectrum disorder social behavior"
+
+候选来源：约 120+ 篇（PubMed/PMC）
+采用：11 篇（3 开放全文，8 摘要仅读）
+排除：Nature 付费文章仅保留摘要（Kosfeld 2005，Nature 435）；无关的外周催产素文献
+
+---
+
+### 知识库固结
+
+- 新建 wiki 页：`oxytocin-system`（established/high）、`pair-bond`（established/high）
+- 修订 `amygdala` (rev5→rev6)：添加 PVN→CeA 催产素投射、CeA 星形胶质细胞 OXTR
+- 修订 `neuromodulator-systems` (rev4→rev5)：添加催产素作为第五类神经调质
+- 图谱：+2 节点（oxytocin-system, pair-bond），+10 边（9条新关系边）
+- 无新矛盾登记（催产素"亲社会特异 vs 一般焦虑"争议在文章中并列陈述，但wiki主张层面无冲突）
+
+---
+
+### 分支与提交
+
+- 分支: main（ROUTINE.md 单分支累积方案 A）
+- Git author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+- 提交状态: 待提交
+- Push 状态: 待推送
+
+---
+
+### 说明
+
+今日注意到仓库中已有 `2026-06-16-default-mode-network.md`（文章 #26，项目早期预写的虚拟日期文章）。按 append-only 原则保留此文件不变，今日新文章使用不同 slug（`oxytocin-social-bonding-neural-circuits`）写入。topic_ledger 总条目从 174 增至 175。

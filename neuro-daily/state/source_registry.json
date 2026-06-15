@@ -13579,6 +13579,97 @@
         "2026-06-15-endocannabinoid-retrograde-signaling"
       ],
       "coverage": "AEA转运争议；FABP/FLAT"
+    },
+    {
+      "pmid": "35858094",
+      "pmcid": "PMC9272148",
+      "title": "Sex-specific and social experience-dependent oxytocin-endocannabinoid interactions in the NAc",
+      "authors": "Borie AM, Young LJ, Liu RC",
+      "journal": "Phil Trans R Soc B",
+      "year": 2022,
+      "date_used": "2026-06-16",
+      "open_full_text": true,
+      "covered_aspects": [
+        "OT-eCB NAc coupling",
+        "pair bond",
+        "OXTR individual variation",
+        "de novo circuit"
+      ]
+    },
+    {
+      "pmid": "22197271",
+      "pmcid": "PMC3312973",
+      "title": "Modulating social behavior with oxytocin: how does it work?",
+      "authors": "Churchland PS, Winkielman P",
+      "journal": "Hormones and Behavior",
+      "year": 2012,
+      "date_used": "2026-06-16",
+      "open_full_text": true,
+      "covered_aspects": [
+        "intranasal OT pharmacokinetics",
+        "social-specific vs general anxiolysis debate",
+        "in-group bias"
+      ]
+    },
+    {
+      "pmid": "23850525",
+      "pmcid": "PMC3877159",
+      "title": "Oxytocin, motivation and the role of dopamine",
+      "authors": "Love TM",
+      "journal": "Pharmacol Biochem Behav",
+      "year": 2013,
+      "date_used": "2026-06-16",
+      "open_full_text": true,
+      "covered_aspects": [
+        "OT-dopamine crosstalk",
+        "VTA OT -> NAc DA",
+        "social salience vs vigor"
+      ]
+    },
+    {
+      "pmid": "15931222",
+      "pmcid": null,
+      "title": "Oxytocin increases trust in humans",
+      "authors": "Kosfeld M et al.",
+      "journal": "Nature",
+      "year": 2005,
+      "date_used": "2026-06-16",
+      "open_full_text": false,
+      "covered_aspects": [
+        "human trust game",
+        "social risk",
+        "intranasal OT behavioral effect"
+      ]
+    },
+    {
+      "pmid": "33589833",
+      "pmcid": null,
+      "title": "Astrocytes mediate the effect of oxytocin in the central amygdala",
+      "authors": "Wahis J et al.",
+      "journal": "Nat Neurosci",
+      "year": 2021,
+      "date_used": "2026-06-16",
+      "open_full_text": false,
+      "covered_aspects": [
+        "CeA astrocyte OXTR",
+        "glial-neuronal emotional regulation",
+        "glia as neuromodulator targets"
+      ]
+    },
+    {
+      "pmid": "37248645",
+      "pmcid": null,
+      "title": "Paraventricular nucleus-central amygdala oxytocinergic projection modulates anxiety",
+      "authors": "Li YJ et al.",
+      "journal": "CNS Neurosci Ther",
+      "year": 2023,
+      "date_used": "2026-06-16",
+      "open_full_text": false,
+      "covered_aspects": [
+        "PVN->CeA OT circuit",
+        "DREADD manipulation",
+        "pain-induced anxiety"
+      ]
     }
   ],
   "total_sources": 831,

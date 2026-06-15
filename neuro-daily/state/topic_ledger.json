@@ -12920,6 +12920,107 @@
       ],
       "mode": "long_term_curriculum",
       "article_file": "2026-06-15-endocannabinoid-retrograde-signaling.md"
+    },
+    {
+      "date": "2026-06-16",
+      "real_date": "2026-06-16",
+      "article_number": 194,
+      "title": "社会大脑的肽类密码：催产素系统如何从分子到联结构建我们的社会神经回路",
+      "slug": "oxytocin-social-bonding-neural-circuits",
+      "filename": "2026-06-16-oxytocin-social-bonding-neural-circuits.md",
+      "article_type": "regular",
+      "core_question": "大脑如何通过催产素系统（PVN→CeA抗焦虑投射、PVN→NAc社会奖励投射）结合物种特异的OXTR分布和经验依赖的回路修订（配对后NAc从头OT-eCB耦合），将感知到另一个生命体这件事转化为持久的社会联结？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "Track 6（情绪与动机：催产素-加压素系统）+ Track 12（OT-DA与AI社会学习比较）",
+      "topic_tags": [
+        "oxytocin",
+        "OXT",
+        "OXTR",
+        "paraventricular nucleus",
+        "PVN",
+        "supraoptic nucleus",
+        "SON",
+        "nucleus accumbens",
+        "NAc",
+        "central amygdala",
+        "CeA",
+        "social bonding",
+        "pair bond",
+        "prairie vole",
+        "monogamy",
+        "trust",
+        "prosocial behavior",
+        "social reward",
+        "social salience",
+        "volume transmission",
+        "neuropeptide",
+        "Gq signaling",
+        "CaMKII",
+        "astrocyte OXTR",
+        "Wahis 2021",
+        "Borie 2022",
+        "Kosfeld 2005",
+        "oxytocin-dopamine crosstalk",
+        "oxytocin-endocannabinoid",
+        "de novo circuit coupling",
+        "autism spectrum disorder",
+        "intranasal oxytocin",
+        "oxytocin-fear-anxiety",
+        "vasopressin",
+        "HPA axis",
+        "social cognition",
+        "theory of mind",
+        "in-group bias"
+      ],
+      "main_sources": [
+        "PMID:35858094/PMCID:PMC9272148 (Borie et al. 2022, Phil Trans R Soc B, 开放全文)",
+        "PMID:22197271/PMCID:PMC3312973 (Churchland & Winkielman 2012, Horm Behav, 开放全文)",
+        "PMID:23850525/PMCID:PMC3877159 (Love 2013, PBB, 开放全文)",
+        "PMID:15931222 (Kosfeld et al. 2005, Nature, 摘要仅读)",
+        "PMID:33589833 (Wahis et al. 2021, Nat Neurosci, 摘要仅读)",
+        "PMID:37248645 (Li et al. 2023, CNS Neurosci Ther, 摘要仅读)",
+        "PMID:19481567 (Ross & Young 2009, Front Neuroendocrinol, 摘要仅读)",
+        "PMID:35863332 (Rigney et al. 2022, Endocrinology, 摘要仅读)",
+        "PMID:29897293 (Jurek & Neumann 2018, Physiol Rev, 摘要仅读)",
+        "PMID:28041836 (Feldman 2017, Trends Cogn Sci, 摘要仅读)",
+        "PMID:28434591 (Johnson & Young 2017, Neurosci Biobehav Rev, 摘要仅读)"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/oxytocin-system.md",
+        "wiki/concepts/pair-bond.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/amygdala.md (rev5→rev6: 新增PVN→CeA OT投射、CeA星形胶质细胞OXTR)",
+        "wiki/systems/neuromodulator-systems.md (rev4→rev5: 新增催产素作为第五类神经调质)"
+      ],
+      "contested_claims_logged": [],
+      "graph_nodes_added": [
+        "oxytocin-system",
+        "pair-bond"
+      ],
+      "graph_edges_added": 10,
+      "unresolved_questions": [
+        "Q-OT-01",
+        "Q-OT-02",
+        "Q-OT-03",
+        "Q-OT-04"
+      ],
+      "next_suggested_topics": [
+        "加压素（AVP）系统——催产素的近亲，侧重攻击性、领地行为和社会记忆；V1aR在BNST的机制",
+        "下丘脑室旁核（PVN）详解——催产素合成、应激响应（CRH共释放）、双重输出（垂体+脑内）",
+        "OXTR遗传变异与人类社会行为差异——rs53576 SNP与亲代照顾/社交焦虑/ASD关联",
+        "社会认知网络——心智化/ToM的神经回路（mPFC/TPJ/后STS）与催产素调制",
+        "eCB与睡眠——内源性大麻素系统在NREM和REM睡眠调节中的角色（CB1R激活增加NREM）"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-16（真实执行日期）；11个来源中3篇开放全文（PMC）、8篇摘要仅读；Nature付费（Kosfeld2005）明确标注；无PMID编造；2个新wiki页面+2个修订；图谱+2节点+10边（390节点，2229边）；催产素系统为Track 6核心内容，填补知识库重要缺口"
     }
   ],
   "layer_coverage_recent": [

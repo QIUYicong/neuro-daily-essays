@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-31
-revision_count: 5
+updated: 2026-06-16
+revision_count: 6
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, hpa-axis, glucocorticoid-hippocampus-plasticity, olfactory-system, bla-valence-circuits, incentive-salience, subjective-value-encoding]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, hpa-axis, glucocorticoid-hippocampus-plasticity, olfactory-system, bla-valence-circuits, incentive-salience, subjective-value-encoding, oxytocin-system]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-stress-01]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis, 2026-07-17-olfactory-system-molecular-to-memory, 2026-07-30-bla-reward-fear-circuits, 2026-07-31-pfc-amygdala-emotion-regulation]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:26286651", "PMID:12042880", "PMID:19804753", "PMID:25925480", "PMID:27041499", "PMID:38396258"]
+opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-stress-01, Q-OT-04]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis, 2026-07-17-olfactory-system-molecular-to-memory, 2026-07-30-bla-reward-fear-circuits, 2026-07-31-pfc-amygdala-emotion-regulation, 2026-06-16-oxytocin-social-bonding-neural-circuits]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:26286651", "PMID:12042880", "PMID:19804753", "PMID:25925480", "PMID:27041499", "PMID:38396258", "PMID:33589833", "PMID:37248645"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -126,6 +126,7 @@ BLA中存在两类遗传、突触、投射三层面同步分化的神经元群�
 - 2026-07-09 · 修订 rev2 · 基于《应激的双刃剑》(#77) · 新增应激下 BLA-海马方向性分离（慢性应激→BLA 树突增生 vs CA3 退缩）；CeM→HPA 轴输出路径扩展（CeM→PVN→CRH 完整链）；related 新增 hpa-axis、glucocorticoid-hippocampus-plasticity；opens_questions 新增 Q-stress-01；连接新增两条
 - 2026-07-17 · 修订 rev3 · 基于《一缕香气的旅行》(#85) · 新增嗅觉→皮层杏仁核直接通路（唯一不经丘脑的感觉-情绪通路）；related 新增 olfactory-system；key_sources 新增 PMID:19804753
 - 2026-07-30 · 修订 rev4 · 基于《情绪的两条轨道》(#98) · 新增BLA奖励-恐惧双通道小节（Ppp1r1b+/Rspo2+遗传身份；NAc vs CeM投射对立可塑性；DA→BLA驱动奖励记忆）；更新一句话定义；当前理解新增BLA双极编码段落；关键证据表添加3行；related新增bla-valence-circuits、incentive-salience、subjective-value-encoding；key_sources新增PMID:25925480、PMID:27041499、PMID:38396258；连接新增3条；updated→2026-07-30
+- 2026-06-16 · 修订 rev6 · 基于《社会大脑的肽类密码》(#194) · 新增催产素调制小节：PVN→CeA 投射通过 OT 降低 CeA 防御反应；CeA 星形胶质细胞 OXTR（Wahis 2021）；related 新增 oxytocin-system；opens_questions 新增 Q-OT-04；key_sources 新增 PMID:33589833、PMID:37248645
 
 ## 来源文章
 
@@ -133,3 +134,4 @@ BLA中存在两类遗传、突触、投射三层面同步分化的神经元群�
 - [[2026-07-09-stress-glucocorticoid-hippocampus-hpa-axis]]
 - [[2026-07-17-olfactory-system-molecular-to-memory]]
 - [[2026-07-30-bla-reward-fear-circuits]]
+- [[2026-06-16-oxytocin-social-bonding-neural-circuits]]
