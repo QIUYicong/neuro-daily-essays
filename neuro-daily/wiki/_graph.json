@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-16",
+  "updated": "2026-10-12",
   "node_count": 393,
   "edge_count": 2241,
   "edge_types": [
@@ -3596,6 +3596,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/systems/lateral-septum.md"
+    },
+    {
+      "id": "marr-albus-ito",
+      "title": "马尔-阿尔布斯-伊藤模型",
+      "domain": "theories",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/theories/marr-albus-ito.md"
     }
   ],
   "edges": [
@@ -15507,6 +15516,66 @@
       "from": "pair-bond",
       "to": "vasopressin-system",
       "type": "related"
+    },
+    {
+      "from": "marr-albus-ito",
+      "to": "cerebellar-ltd",
+      "type": "mechanism-of",
+      "note": "LTD是MAI模型的核心突触实现（但非唯一必要条件）"
+    },
+    {
+      "from": "marr-albus-ito",
+      "to": "climbing-fiber-error-signal",
+      "type": "mechanism-of",
+      "note": "CF误差信号是MAI模型的教学信号来源"
+    },
+    {
+      "from": "marr-albus-ito",
+      "to": "forward-model",
+      "type": "supports",
+      "note": "MAI框架为前向内部模型提供神经实现机制"
+    },
+    {
+      "from": "marr-albus-ito",
+      "to": "purkinje-cell",
+      "type": "mechanism-of",
+      "note": "PC是MAI学习单元（CF+PF联合激活诱导LTD）"
+    },
+    {
+      "from": "marr-albus-ito",
+      "to": "granule-cell",
+      "type": "mechanism-of",
+      "note": "颗粒细胞/PF提供MAI模型的上下文信号输入"
+    },
+    {
+      "from": "marr-albus-ito",
+      "to": "parallel-fiber",
+      "type": "mechanism-of",
+      "note": "PF携带运动情景上下文，与CF联合激活触发LTD"
+    },
+    {
+      "from": "marr-albus-ito",
+      "to": "cerebellum",
+      "type": "is-a",
+      "note": "MAI是小脑运动学习的主要计算理论框架"
+    },
+    {
+      "from": "marr-albus-ito",
+      "to": "deep-cerebellar-nuclei",
+      "type": "mechanism-of",
+      "note": "PC抑制↓→DCN去抑制是MAI学习的输出门"
+    },
+    {
+      "from": "climbing-fiber-error-signal",
+      "to": "marr-albus-ito",
+      "type": "supports",
+      "note": "CF是MAI预言的教师信号的物理实现"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "marr-albus-ito",
+      "type": "supports",
+      "note": "LTD是MAI框架的分子级实现（虽非唯一机制）"
     }
   ],
   "dangling_references": [

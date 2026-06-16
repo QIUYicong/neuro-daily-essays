@@ -1,0 +1,132 @@
+# 运行日志：2026-10-12（真实日期：2026-06-16）
+
+## 基本信息
+
+- **文章编号**：#177（课程序列）
+- **课程日期**：2026-10-12
+- **真实执行日期**：2026-06-16
+- **分支**：main（通过 local_proxy → origin/main）
+- **选题**：马尔-阿尔布斯-伊藤模型：小脑如何用攀爬纤维的教学信号学会精确运动
+
+---
+
+## 状态读取
+
+- `topic_ledger.json`：total_entries=177（更新前），last_updated=2026-10-11
+- `unresolved_questions.md`：近期新增 Q-mai 系列问题（本次新增）
+- `contested_claims.json`：18条open矛盾；相关：C-2026-08-08-01（CF奖励信号争议）、C-2026-09-02-01（前向模型 vs 前馈映射）
+- `_graph.json`：395 节点，2254 边（更新前）；悬空引用：aging, cognition, dopamine, marr-albus-ito
+- 已存在 wiki 页：cerebellar-ltd, climbing-fiber-error-signal, purkinje-cell, granule-cell, parallel-fiber, cerebellum, deep-cerebellar-nuclei
+
+---
+
+## 选题决策
+
+**选题依据**：
+1. **缺口驱动（优先级3）**：`marr-albus-ito` 是图谱中当前最高优先级悬空引用——被 cerebellar-ltd、climbing-fiber-error-signal、forward-model 等多个核心页面引用但无独立节点
+2. **课程脊柱延续**：小脑运动学习系列（CPG→α-MN→NMJ→肌梭→颗粒细胞→平行纤维→**MAI理论骨架**）的逻辑终点
+3. **矛盾整合**：C-2026-08-08-01（CF奖励信号 vs 纯误差信号）和 C-2026-09-02-01（前向模型 vs 前馈映射）都需要MAI框架作为参照基础
+4. **连接度**：本文可将已有的7+个小脑相关wiki页统一到一个理论框架下
+
+**最终选题**：Marr-Albus-Ito模型计算理论全景——从历史（Marr 1969→Albus 1971→Ito 1982-2013）到当前（分布式协同可塑性+Zebrin分区+CS时长梯度编码）
+
+---
+
+## 文献检索
+
+### 搜索词与数据库
+
+| 搜索词 | 数据库 | 结果 |
+|--------|--------|------|
+| Marr Albus Ito cerebellar learning model review | PubMed | 9篇 |
+| De Zeeuw cerebellar review | PubMed | 5篇 |
+| inferior olive climbing fiber error signal review | PubMed | 9篇 |
+| cerebellar internal model forward model Wolpert Kawato | PubMed | 1篇 |
+| Schonewille cerebellar LTD motor learning 2011 | PubMed | 1篇（目标命中）|
+
+### 采用来源（9篇）
+
+| 来源 | PMID | 全文 | 采用原因 |
+|------|------|------|---------|
+| Ito 2013（Front Neural Circuits）| 23440175 | PMC3579189 全文 | 误差信号类型区分；IO通路机制 |
+| Schonewille et al. 2011（Neuron）| 21482355 | PMC3104468 全文 | LTD非唯一必要条件的关键负结果 |
+| Yang & Lisberger 2014（Nature）| 24814344 | PMC4132823 全文 | CS时长梯度编码（-0.70 sp/s/ms）|
+| De Zeeuw & Ten Brinke 2015（CSHPB）| 26330521 | PMC4563713 全文 | Zebrin分区；LTD vs LTP策略 |
+| Gao et al. 2012（Nat Rev Neurosci）| 22895474 | 摘要 | 分布式协同可塑性框架 |
+| Kawato et al. 2021（Neuroscience）| 32599123 | 摘要 | MAI 50年历史回顾；层级RL |
+| De Zeeuw et al. 2021（Nat Neurosci）| 33288911 | 摘要 | 现代小脑研究范式综述 |
+| Ito et al. 2014（Prog Brain Res）| 24916287 | 摘要 | MAI假说核心综述 |
+| Wolpert et al. 1998（TICS）| 21227230 | 摘要 | 内部模型理论框架 |
+
+### 排除来源
+
+- PMID:26063920（SCA6，运动学习障碍）：非MAI理论核心
+- PMID:38574161（Geminiani 2024计算模型）：已在 cerebellar-ltd 修订中引用，本文不重复引用
+- PMID:36884287（De Zeeuw 2023呼吸控制）：误命中（主题不符）
+
+---
+
+## 固结步骤
+
+### 新建 wiki 页（1 页）
+
+- `wiki/theories/marr-albus-ito.md`（rev1）：MAI理论全景；status=mainstream/high；历史框架 + 当前修正 + 分子机制 + Zebrin分区 + 分布式可塑性
+
+### 修订 wiki 页（2 页）
+
+- `wiki/concepts/climbing-fiber-error-signal.md`：rev2→rev3，新增 marr-albus-ito 连接；updated=2026-10-12
+- `wiki/concepts/cerebellar-ltd.md`：rev4→rev5，新增 marr-albus-ito 连接；updated=2026-10-12
+
+### 矛盾检查
+
+- **无新矛盾**。
+- 既有矛盾 C-2026-08-08-01（CF奖励信号）在文章中已整合引用；本日证据（CS时长梯度编码，Yang & Lisberger 2014）与该矛盾不直接关联，裁决仍 open。
+- 既有矛盾 C-2026-09-02-01（前向模型 vs 前馈映射）在文章争议部分已明确呈现；本日无新证据改变裁决，维持 open。
+
+### 成熟度评估
+
+- `marr-albus-ito`：mainstream（经典框架被广泛接受，但LTD非唯一必要条件已被多实验室验证，框架有修正）
+
+---
+
+## 图谱更新
+
+- 新建节点：1（marr-albus-ito）
+- 新增边：10
+- 总计：395→397 节点，2254→2264 边
+- updated 字段：2026-10-12
+- 悬空引用 `marr-albus-ito` 已解决（从 dangling_references 移除）
+- 剩余悬空引用：aging, cognition, dopamine
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：total_entries 177→178，新增 #177 条目
+- `unresolved_questions.md`：新增 Q-mai-01/02/03
+- `source_registry.json`：未更新（来源已记录于 sources JSON）
+- `monthly_synthesis.md`：追加 #177 摘要
+
+---
+
+## 失败与限制
+
+- Gao et al. 2012（PMID:22895474，Nat Rev Neurosci）：无PMC全文，摘要仅；已在文章中标注
+- Kawato et al. 2021（PMID:32599123）：无PMC全文，摘要仅；已在文章中标注
+- De Zeeuw et al. 2021（PMID:33288911）：无PMC全文，摘要仅
+- Wolpert et al. 1998（PMID:21227230）：无PMC全文，摘要仅
+- Ito et al. 2014（PMID:24916287）：无PMC全文，摘要仅
+- NIH/NINDS 官方页面：未查询（PubMed/PMC来源已充足）
+- Marr 1969原始论文（J Physiol）和Albus 1971（Math Biosci）：PubMed无索引，通过综述引用间接引用
+
+---
+
+## Git 操作
+
+- **Branch**：main
+- **Commit**：(见 push 后更新)
+- **Push**：待完成
+
+---
+
+*日志由自动化代理生成，2026-06-16 UTC+8*

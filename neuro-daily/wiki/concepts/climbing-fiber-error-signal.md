@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-01
-updated: 2026-08-08
-revision_count: 2
+updated: 2026-10-12
+revision_count: 3
 dimensions: [cellular, microcircuit, synaptic, behavior]
-related: [cerebellum, cerebellar-ltd, purkinje-cell, inferior-olive, predictive-coding]
+related: [cerebellum, cerebellar-ltd, purkinje-cell, inferior-olive, predictive-coding, marr-albus-ito]
 prerequisites: [cerebellum, purkinje-cell, action-potential]
 opens_questions: [Q-cb-02, Q-cb-01]
 source_articles: [2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-08-08-deep-cerebellar-nuclei-motor-learning-circuit]
@@ -76,6 +76,7 @@ LTD 诱导（若同时有 PF 激活）→ 运动学习
 - [[cerebellar-ltd]] — CF 激活是 PF-PC LTD 诱导的必要条件（提供 Ca²⁺ + 时序信号）
 - [[predictive-coding]] — CF 信号可理解为预测误差（prediction error）的神经实现
 - [[inferior-olive]] — CF 的起源：下橄榄核是误差计算核团
+- [[marr-albus-ito]] — CF 误差信号是 MAI 模型的教学信号物理实现
 
 ## 未解问题
 
@@ -90,7 +91,9 @@ LTD 诱导（若同时有 PF 激活）→ 运动学习
 
 - 2026-08-01 · 创建 · 基于《教师信号的困境》（文章#100）· 初始置信度：高（功能和时序特性有高质量体内记录支持）
 - 2026-08-08 · 修订（rev1→rev2）· 基于《深部核团的门与教师》（文章#107）· 新增：CF 奖励信号新发现（Jin & Hull 2025，PMID:40848722，低置信度）；登记矛盾 C-2026-08-08-01；IO TMEM16B 离子通道调节证据（PMID:28858616）；key_sources 更新
+- 2026-10-12 · 修订（rev2→rev3）· 基于《马尔-阿尔布斯-伊藤模型》(#177) · 新增 marr-albus-ito 连接（CF 作为 MAI 教学信号物理实现）；related 补充 marr-albus-ito
 
 ## 来源文章
 
 - [[2026-08-01-cerebellar-ltd-purkinje-motor-learning]]
+- [[2026-10-12-marr-albus-ito-cerebellar-learning-model]]

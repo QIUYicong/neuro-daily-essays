@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-10-12（文章 #177：马尔-阿尔布斯-伊藤模型——小脑如何用攀爬纤维的教学信号学会精确运动）
+
+**创建新页（1 页）**：
+- `wiki/theories/marr-albus-ito.md`（rev1）：MAI框架完整理论——攀爬纤维（IO）作为教学信号；PF-PC LTD作为突触实现；Schonewille 2011（PMID:21482355）证明LTD非唯一必要条件；Yang & Lisberger 2014（PMID:24814344）CS时长梯度编码误差幅度（-0.70 sp/s per ms）；Zebrin阳/阴性分区差异化学习策略；分布式协同可塑性框架（Gao 2012，PMID:22895474）；status=mainstream, confidence=high；填补 `marr-albus-ito` 悬空引用
+
+**修订既有页（2 页）**：
+- `wiki/concepts/climbing-fiber-error-signal.md` rev2→rev3：新增 marr-albus-ito 连接（CF是MAI教学信号物理实现）；related、source_articles 更新
+- `wiki/concepts/cerebellar-ltd.md` rev4→rev5：新增 marr-albus-ito 连接（LTD是MAI核心突触实现但非唯一必要条件）；source_articles 更新
+
+**图谱变化**：
+- 新节点（1）：marr-albus-ito
+- 新边（10）：marr-albus-ito→{cerebellar-ltd, climbing-fiber-error-signal, forward-model, purkinje-cell, granule-cell, parallel-fiber, cerebellum, deep-cerebellar-nuclei}；climbing-fiber-error-signal→marr-albus-ito(supports)；cerebellar-ltd→marr-albus-ito(supports)
+- 悬空引用 `marr-albus-ito` 已解决（从 dangling_references 移除）
+- 图谱统计：395→397 节点，2254→2264 边
+
+**登记矛盾**：无新矛盾（既有 C-2026-08-08-01 关于CF奖励信号争议，今日文章已整合引用但未新增裁决依据，维持 open）
+
+**新增未解问题**：Q-mai-01（IO如何将误差幅度编码为CS时长）、Q-mai-02（Zebrin模块协调）、Q-mai-03（DCN与皮层LTD的存储主次问题）
+
+---
+
 ## 2026-06-16（文章 #195：社会行为的分子二重奏——加压素系统）
 
 **创建新页（2 页）**：

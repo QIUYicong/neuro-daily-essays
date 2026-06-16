@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-10-11
-revision_count: 4
+updated: 2026-10-12
+revision_count: 5
 dimensions: [molecular, synaptic, cellular, microcircuit]
 related: [ltd, cerebellum, forward-model, climbing-fiber-error-signal, purkinje-cell, parallel-fiber, deep-cerebellar-nuclei, inferior-olive, molecular-layer-interneurons]
 prerequisites: [ltd, nmda-receptor, pkc-signaling, ampa-receptor]
 opens_questions: [Q-cb-01, Q-cb-02, Q-cb-04, Q-cb-05, Q-cb-06, Q-cb-07, Q-cb-08]
-source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-06-13-cerebellar-distributed-plasticity-motor-learning, 2026-10-11-granule-cell-parallel-fiber-expansion-coding]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-08-01-cerebellar-ltd-purkinje-motor-learning, 2026-06-13-cerebellar-distributed-plasticity-motor-learning, 2026-10-11-granule-cell-parallel-fiber-expansion-coding, 2026-10-12-marr-albus-ito-cerebellar-learning-model]
 key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932", "PMID:30069835", "PMID:23440175", "PMID:30995136", "PMID:38574161", "PMID:37474638", "PMID:40523942", "PMID:17669443"]
 ---
 
@@ -75,6 +75,7 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932",
 - [[ltd]] — 小脑 LTD 与海马 LTD 是平行的两种长时程抑制机制
 - [[cerebellum]] — 小脑回路架构和多层可塑性
 - [[forward-model]] — LTD 的功能意义（误差驱动内部模型更新）
+- [[marr-albus-ito]] — MAI 模型的核心突触实现机制（LTD 是 MAI 的分子基础，但非唯一必要条件）
 - [[ampa-receptor]] — AMPAR 内吞是小脑 LTD 和海马 LTD 的共同输出机制
 - [[molecular-layer-interneurons]] — MLI 可塑性（PF-MLI LTP）与 PF-PC LTD 协同，共同支持小脑运动学习
 - [[deep-cerebellar-nuclei]] — DCN-LTP 是小脑运动记忆慢速巩固的关键位点
@@ -96,6 +97,7 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932",
 - 2026-08-01 · 修订（rev1→rev2）· 基于《教师信号的困境》（文章#100）· 新增：绒球 120ms 最优窗口（Suvrathan 2018）、攀爬纤维时序量化（Soetedjo 2019）、双相记忆轨迹（Ito 2013）；新增未解问题 Q-cb-04/Q-cb-05；related 新增 climbing-fiber-error-signal/purkinje-cell；key_sources 补充 PMID:30069835/23440175/30995136
 - 2026-06-13 · 修订（rev2→rev3）· 基于《小脑运动学习的分布式革命》（文章#186）· 新增：PF-MLI LTP + PF-PC LTD 协同机制（Zhu 2024 计算模型，PMID:38574161）；激发性核橄榄通路（Wang 2023，PMID:37474638）；related 新增 molecular-layer-interneurons/deep-cerebellar-nuclei/inferior-olive；新增未解问题 Q-cb-06/Q-cb-07/Q-cb-08；key_sources 补充三篇新来源
 - 2026-10-11 · 修订（rev3→rev4）· 基于《宇宙中最大的展开器》(#173) · 新增：Safo & Regehr 2008 的精确 LTD 时序窗口（50-150ms，峰值 80ms）；内源性大麻素 CB1R 对 LTD 的必要性（AM251 完全阻断）；key_sources 补充 PMID:17669443；source_articles 补充 2026-10-11
+- 2026-10-12 · 修订（rev4→rev5）· 基于《马尔-阿尔布斯-伊藤模型》(#177) · 新增 marr-albus-ito 连接（LTD 是 MAI 模型的核心突触机制但非唯一必要条件，经 Schonewille 2011 证明）；source_articles 补充 2026-10-12
 
 ## 来源文章
 
@@ -103,3 +105,4 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932",
 - [[2026-08-01-cerebellar-ltd-purkinje-motor-learning]]
 - [[2026-06-13-cerebellar-distributed-plasticity-motor-learning]]
 - [[2026-10-11-granule-cell-parallel-fiber-expansion-coding]]
+- [[2026-10-12-marr-albus-ito-cerebellar-learning-model]]

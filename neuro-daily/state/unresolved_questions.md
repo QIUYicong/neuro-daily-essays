@@ -5333,3 +5333,25 @@
 - **关联 wiki**：[[vasopressin-system]]
 - **来源文章**：2026-06-16-vasopressin-avp-social-circuit
 - **问题**：鼻内 AVP 给药改善 ASD 儿童社会行为（Oztan 2021 RCT），但 AVP 是否真的通过鼻内给药到达中枢社会回路，路径是什么，仍不明确。（a）嗅觉神经（olfactory nerve）和三叉神经（trigeminal nerve）的轴突旁转运（perineural transport）能否将鼻腔 AVP 直接运送到嗅球→杏仁核→LS/VP 社会回路，绕过 BBB？（b）血浆 AVP 升高（鼻内后）能否通过室周器官（SFO，OVLT，area postrema）进入 CSF，进而到达 BNST/LS 的 V1aR？（c）PET 成像能否直接追踪鼻内 ¹¹C 标记 AVP 类似物的脑分布，在受试者中验证"鼻→脑"路径？
+
+---
+
+## 2026-10-12 新增（来自"马尔-阿尔布斯-伊藤模型" #177，真实执行 2026-06-16）
+
+### Q-mai-01（高优先级）：IO如何将误差幅度编码为复杂放电时长？
+
+- **关联 wiki**：[[marr-albus-ito]]、[[climbing-fiber-error-signal]]
+- **来源文章**：2026-10-12-marr-albus-ito-cerebellar-learning-model
+- **问题**：Yang & Lisberger 2014 确认了复杂放电时长（CS duration）是学习量的预测因子（-0.70 sp/s per ms），但机制不明：（a）IO神经元内部什么离子通道或突触整合机制决定了单个放电事件的持续时间？是树突电位的T型钙通道持续激活还是持续性钠电流？（b）不同幅度的误差如何转化为IO神经元不同的电流注入强度，从而调制CS时长？（c）IO神经元间的缝隙连接（Cx36）是否通过同步化放电而非改变单个CS时长来调节群体学习信号？（d）当误差同时具有方向和幅度信息时，IO如何分别在"哪些IO神经元放电"（方向）和"每个放电多长"（幅度）上编码？
+
+### Q-mai-02（中优先级）：Zebrin阳性和阴性小脑模块在同一运动学习任务中如何协调？
+
+- **关联 wiki**：[[marr-albus-ito]]、[[purkinje-cell]]、[[cerebellum]]
+- **来源文章**：2026-10-12-marr-albus-ito-cerebellar-learning-model
+- **问题**：De Zeeuw & Ten Brinke 2015发现Zebrin阳性（绒球：VOR，LTP策略）和阴性（C2区：眼皮条件学习，LTD策略）模块用不同可塑性方向执行不同学习任务。但（a）对于需要同时调用两种模块的复杂运动（如手部抓握需要同时精细调节力量和时序），两个模块如何在实时进行协调，而不相互抵消？（b）一个Zebrin阳性区的学习（PC放电增多→DCN抑制）如何与相邻Zebrin阴性区的学习（PC放电减少→DCN去抑制）产生功能上协同而非冲突的运动输出？（c）双光子成像能否在同一动物同一任务中同时记录阳性和阴性模块的PC活动？
+
+### Q-mai-03（中优先级）：小脑皮层LTD与深部小脑核的突触可塑性——谁是初级记忆存储？
+
+- **关联 wiki**：[[marr-albus-ito]]、[[cerebellar-ltd]]、[[deep-cerebellar-nuclei]]
+- **来源文章**：2026-10-12-marr-albus-ito-cerebellar-learning-model
+- **问题**：Ito 2013综述提出"快速适应（分钟~小时）由小脑皮层LTD承载；慢速巩固（天~周）转移到DCN的LTP（和/或MF→DCN突触强化）"。但（a）这个转移过程的分子机制是什么？PC放电减少如何触发DCN的LTP而不是LTD？（b）在LTD阻断小鼠（Schonewille 2011）中，DCN的可塑性是否出现代偿性增强？（c）如果DCN是慢速存储，那么选择性可逆失活DCN（但不阻断皮层LTD）是否会选择性损害长期记忆的提取而不影响短期学习？（d）人类小脑患者研究能否区分皮层型和核型的运动记忆损伤？

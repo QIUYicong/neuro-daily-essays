@@ -555,3 +555,16 @@
 ### 图谱状态
 - 节点：388 | 边：2219
 - 新增未解问题：Q-ecb-01（eCB-LTD 靶蛋白 T）、Q-ecb-02（AEA 转运）、Q-ecb-03（FAAH/MAGL 临床安全）、Q-ecb-04（vmPFC→BLA eCB 与 PTSD）
+
+---
+
+## 2026-10-12 更新（第 177 篇课程文章，真实执行 2026-06-16）
+
+**theories/**
+- `marr-albus-ito.md`（**rev1 新建**，填补 dangling ref `marr-albus-ito`）— MAI模型 | mainstream / high | 攀爬纤维（IO）教学信号→PF-PC LTD；Schonewille 2011（PMID:21482355）LTD非唯一必要条件；Yang & Lisberger 2014（PMID:24814344）CS时长梯度编码；Zebrin阳/阴性分区差异化策略；分布式协同可塑性（Gao 2012，PMID:22895474）；与反向传播算法同构比较
+
+**修订**：
+- `concepts/climbing-fiber-error-signal.md` rev2→rev3：新增 marr-albus-ito 连接
+- `concepts/cerebellar-ltd.md` rev4→rev5：新增 marr-albus-ito 连接
+
+**图谱**：397 节点 | 2264 边 | 悬空引用 `marr-albus-ito` 已消除

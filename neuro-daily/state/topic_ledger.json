@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16",
+  "last_updated": "2026-10-12",
   "total_articles": 195,
   "entries": [
     {
@@ -13187,6 +13187,79 @@
         "杏仁核基底外侧复合体（BLA）详解——恐惧条件化、消退和对催产素/加压素的双向响应",
         "下丘脑室旁核（PVN）的多功能性——OT/AVP合成、HPA轴CRH协同、应激缓冲和能量代谢调控"
       ]
+    },
+    {
+      "entry_number": 177,
+      "date": "2026-10-12",
+      "real_date": "2026-06-16",
+      "title": "马尔-阿尔布斯-伊藤模型：小脑如何用攀爬纤维的教学信号学会精确运动",
+      "core_question": "攀爬纤维作为小脑的'教师'究竟编码什么信息，如何通过突触可塑性将误差信号转化为精确运动？而当LTD并非唯一必要条件时，我们对小脑计算的理解应如何修正？",
+      "layer": "synaptic+microcircuit+brain-region+behavior",
+      "curriculum_track": "运动系统 → 小脑学习计算理论",
+      "topic_tags": [
+        "marr-albus-ito",
+        "cerebellar-learning",
+        "climbing-fiber",
+        "inferior-olive",
+        "purkinje-cell",
+        "parallel-fiber",
+        "LTD",
+        "distributed-plasticity",
+        "supervised-learning",
+        "forward-model",
+        "delta-rule",
+        "Zebrin",
+        "VOR-adaptation",
+        "eyeblink-conditioning",
+        "complex-spike",
+        "error-signal",
+        "motor-learning"
+      ],
+      "main_sources": [
+        "PMID:23440175 PMC3579189 (Ito 2013, Front Neural Circuits) - 开放全文",
+        "PMID:21482355 PMC3104468 (Schonewille et al. 2011, Neuron) - 开放全文",
+        "PMID:24814344 PMC4132823 (Yang & Lisberger 2014, Nature) - 开放全文",
+        "PMID:26330521 PMC4563713 (De Zeeuw & Ten Brinke 2015, CSHPB) - 开放全文",
+        "PMID:22895474 (Gao et al. 2012, Nat Rev Neurosci) - 摘要",
+        "PMID:32599123 (Kawato et al. 2021, Neuroscience) - 摘要",
+        "PMID:33288911 (De Zeeuw et al. 2021, Nat Neurosci) - 摘要",
+        "PMID:24916287 (Ito et al. 2014, Prog Brain Res) - 摘要",
+        "PMID:21227230 (Wolpert et al. 1998, TICS) - 摘要"
+      ],
+      "wiki_pages_created": [
+        "wiki/theories/marr-albus-ito.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/climbing-fiber-error-signal.md (rev2→rev3): 新增 marr-albus-ito 连接",
+        "wiki/concepts/cerebellar-ltd.md (rev4→rev5): 新增 marr-albus-ito 连接"
+      ],
+      "graph_nodes_added": [
+        "marr-albus-ito"
+      ],
+      "graph_nodes_updated": [
+        "climbing-fiber-error-signal",
+        "cerebellar-ltd"
+      ],
+      "graph_edges_added": 10,
+      "graph_state": "397 节点，2264 边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "dangling_refs_resolved": [
+        "marr-albus-ito"
+      ],
+      "unresolved_questions": [
+        "Q-mai-01",
+        "Q-mai-02",
+        "Q-mai-03"
+      ],
+      "next_suggested_topics": [
+        "内部模型（forward/inverse model）——小脑如何为不同运动情境维护多个内部模型（MOSAIC框架）",
+        "深部小脑核（DCN）——小脑皮层的输出门与记忆巩固位点",
+        "小脑认知功能——Crus I/II 与语言/情绪/认知控制（小脑不只是运动器）",
+        "运动适应与感觉运动整合——本体感觉-视觉-前庭如何在小脑整合预测信号"
+      ],
+      "mode": "gap-driven",
+      "note": "真实执行日期2026-06-16；课程序列第177篇；填补悬空引用 marr-albus-ito；完成小脑运动学习系列的理论骨架"
     }
   ],
   "layer_coverage_recent": [
@@ -13533,5 +13606,5 @@
       "note": "UTC+8=2026-06-14；知识库序号190；感觉系统——疼痛通路综合篇；核心：伤害感受→脊髓闸门→上行通路→疼痛矩阵→下行调制→中枢敏化七站串联；新建5个wiki页（nociception、gate-control-theory、central-sensitization、descending-pain-modulation、pain-matrix）；修订4个既有页（kcc2+anterior-insula+acc+microglia）；图谱 378 节点 2173 边"
     }
   ],
-  "total_entries": 176
+  "total_entries": 178
 }
