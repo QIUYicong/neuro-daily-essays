@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-10-11*
+*最后更新：2026-06-16*
+
+---
+
+## 2026-06-16 新增（来自"大脑的硬件探照灯：丘脑网状核注意力门控" #196）
+
+### Q-TRN-01（高优先级）：人类 TRN 的在体直接测量
+
+- **关联 wiki**：[[thalamic-reticular-nucleus]]、[[attention]]、[[thalamus]]
+- **来源文章**：2026-06-16-thalamic-reticular-nucleus-attention-gate
+- **问题**：几乎所有 TRN 直接电生理记录来自猫、大鼠和猕猴，人类 TRN 体积小（2-4 mm 厚）且位置深。（a）7T fMRI + 改进的丘脑分割算法（如 Freesurfer 7T 模板）能否以足够空间分辨率分辨 TRN 与相邻丘脑核团，在注意力任务中直接测量 TRN 活动调制？（b）高密度 EEG 结合源定位、MEG 或 ECoG（癫痫手术中），是否能提供 TRN 级别的功能信息？（c）到目前为止，有没有发表过"人类 TRN 注意力效应"的直接（而非间接推断）测量实验？
+
+### Q-TRN-02（高优先级）：PFC 直接投射 vs BG 间接通路的功能分工
+
+- **关联 wiki**：[[thalamic-reticular-nucleus]]、[[prefrontal-cortex]]、[[basal-ganglia]]
+- **来源文章**：2026-06-16-thalamic-reticular-nucleus-attention-gate
+- **问题**：Nakajima 2019（小鼠）强调 PFC→BG→TRN 间接通路；Zikopoulos & Barbas 2006（猕猴）展示了直接 PFC→TRN 大型驱动型终扣。（a）两条通路的功能分工是什么？是否存在任务类型依赖性：反应时间任务 vs 持续注意 vs 跨模态切换 vs 工作记忆维持？（b）两条通路是否在时间上分工——直接通路更快（毫秒级），间接通路更慢但更持久？（c）人类病变研究（基底神经节损伤 vs 前额叶损伤后的 TRN 功能差异）能否区分两条通路的不同贡献？
+
+### Q-TRN-03（中优先级）：TRN 区间抑制（inter-sector inhibition）的证据
+
+- **关联 wiki**：[[thalamic-reticular-nucleus]]
+- **来源文章**：2026-06-16-thalamic-reticular-nucleus-attention-gate
+- **问题**：理论上，视觉 TRN 区与听觉 TRN 区之间如果存在相互抑制，可以自动实现"注意视觉时抑制听觉"的效果，无需前额叶干预。现有解剖学证据对 TRN 内连接程度存在争议。（a）现有最好的解剖证据（EM/光学成像）对 TRN 区间连接如何定量描述？（b）功能上是否能设计实验（例如选择性沉默视觉 TRN 区，观察听觉 TRN 区的活动变化）来测试区间抑制？
+
+### Q-TRN-04（低优先级）：TRN 发育成熟时间与 ASD 感觉过敏的关系
+
+- **关联 wiki**：[[thalamic-reticular-nucleus]]、[[critical-period]]
+- **来源文章**：2026-06-16-thalamic-reticular-nucleus-attention-gate
+- **问题**：Peralta-Ramirez et al. 2026（PMID:41819251）显示小鼠 TRN 爆发放电模式到出生后 P21（第三周）才完全成熟，这是比大多数皮层感觉回路更晚的发育窗口。ASD 的感觉过敏假说之一是 TRN 抑制功能不足。（a）TRN 的发育成熟是否有依赖活动的关键期（类似 V1 的关键期）？早期感觉剥夺或过度刺激是否会改变 TRN 成熟轨迹？（b）在 SHANK3/CNTNAP2/FMR1 等 ASD 模型小鼠中，TRN 的爆发放电成熟是否延迟或质量异常？（c）直接刺激 TRN（光遗传或化学遗传）能否在 ASD 模型中改善感觉过敏表现？
 
 ---
 

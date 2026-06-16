@@ -491,6 +491,18 @@
       "last_changed": "2026-06-16",
       "revision_count": 1,
       "change_reason": "创建；作为 AVP 和 CA2 信号汇聚节点，其在社会行为中的角色有大量文献支持"
+    },
+    {
+      "slug": "thalamic-reticular-nucleus",
+      "title": "丘脑网状核",
+      "status": "established",
+      "confidence": "high",
+      "created": "2026-06-16",
+      "last_changed": "2026-06-16",
+      "reason": "初始 established/high：多物种（猫/大鼠/猕猴/小鼠）多方法（电生理/解剖/光遗传/行为）验证，来自 Nature/Cell/Neuron 级高影响力刊物，Crick 1984 理论预测被后续 40 年实验持续验证。人类在体直接记录仍有限，但核心机制高度保守。",
+      "source_articles": [
+        "2026-06-16-thalamic-reticular-nucleus-attention-gate"
+      ]
     }
   ],
   "last_updated": "2026-06-16",

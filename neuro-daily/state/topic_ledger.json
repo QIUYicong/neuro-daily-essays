@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-16",
-  "total_articles": 195,
+  "total_articles": 196,
   "entries": [
     {
       "date": "2026-08-09",
@@ -13186,6 +13186,82 @@
         "丘脑网状核（TRN）——注意力滤波器：门控社会信息的感觉层机制（课程脊柱第5章开篇）",
         "杏仁核基底外侧复合体（BLA）详解——恐惧条件化、消退和对催产素/加压素的双向响应",
         "下丘脑室旁核（PVN）的多功能性——OT/AVP合成、HPA轴CRH协同、应激缓冲和能量代谢调控"
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "real_date": "2026-06-16",
+      "article_number": 196,
+      "title": "大脑的硬件探照灯：丘脑网状核如何在信息抗达皮层之前完成注意力的门控",
+      "slug": "thalamic-reticular-nucleus-attention-gate",
+      "filename": "2026-06-16-thalamic-reticular-nucleus-attention-gate.md",
+      "article_type": "regular",
+      "core_question": "TRN如何通过GABA抑制实现注意力门控？前额叶如何以解剖学优势驾驭 TRN？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "5. 认知控制（注意、工作记忆、前额叶、决策）——开篇",
+      "topic_tags": [
+        "thalamic reticular nucleus",
+        "TRN",
+        "attention gate",
+        "sensory filtering",
+        "GABA inhibition",
+        "disinhibition",
+        "prefrontal cortex",
+        "basal ganglia",
+        "sleep spindles",
+        "tonic firing",
+        "burst firing",
+        "searchlight hypothesis",
+        "Crick 1984",
+        "McAlonan 2008",
+        "Halassa 2014",
+        "Nakajima 2019",
+        "distractor suppression",
+        "modality switching",
+        "thalamocortical circuit"
+      ],
+      "main_sources": [
+        "PMID:6589612 (Crick 1984, PNAS)",
+        "PMID:18849967 (McAlonan 2008, Nature)",
+        "PMID:16837581 (Zikopoulos & Barbas 2006, J Neurosci)",
+        "PMID:25126786 (Halassa 2014, Cell)",
+        "PMID:31202541 (Nakajima 2019, Neuron)",
+        "PMID:29106983 (Ulrich 2018, Neuropharmacol)",
+        "PMID:16624964 (McAlonan 2006, J Neurosci)",
+        "PMID:15297152 (Pinault 2004, Brain Res Rev)"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/thalamic-reticular-nucleus.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/sleep-spindles.md (rev2->rev3): thalamic-reticular-nucleus added to related",
+        "wiki/systems/thalamus.md (rev3->rev4): thalamic-reticular-nucleus added to related"
+      ],
+      "graph_nodes_added": [
+        "thalamic-reticular-nucleus"
+      ],
+      "graph_edges_added": 9,
+      "graph_state": "397 nodes, 2263 edges",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-TRN-01",
+        "Q-TRN-02",
+        "Q-TRN-03",
+        "Q-TRN-04"
+      ],
+      "next_suggested_topics": [
+        "FEF and IPS - cortical attention circuits cooperating with TRN (curriculum 5 continuation)",
+        "oxytocin/vasopressin and ASD - genetic association, clinical trials",
+        "working memory circuit - dlPFC delay activity, MD thalamic amplification, TRN channel maintenance triangle",
+        "absence epilepsy TRN mechanism - 3Hz spike-wave, GAT-1 deficit, BG-SNr-TRN seizure circuit"
       ]
     }
   ],

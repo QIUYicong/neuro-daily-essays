@@ -13672,7 +13672,7 @@
       ]
     }
   ],
-  "total_sources": 831,
+  "total_sources": 843,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -15713,6 +15713,126 @@
         "2026-06-16-vasopressin-avp-social-circuit"
       ],
       "coverage": "最新综合综述；性别差异全景；临床试验（balovaptan/鼻内AVP）"
+    },
+    {
+      "pmid": "6589612",
+      "title": "Function of the thalamic reticular complex: the searchlight hypothesis",
+      "authors": "Crick F",
+      "year": 1984,
+      "journal": "PNAS",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "TRN searchlight hypothesis (foundational theory)",
+      "access": "abstract"
+    },
+    {
+      "pmid": "18849967",
+      "title": "Guarding the gateway to cortex with attention in visual thalamus",
+      "authors": "McAlonan K, Cavanaugh J, Wurtz RH",
+      "year": 2008,
+      "journal": "Nature",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "LGN+TRN synchronized recording, attention modulation",
+      "access": "abstract"
+    },
+    {
+      "pmid": "16837581",
+      "title": "Prefrontal projections to the thalamic reticular nucleus form a unique circuit for attentional mechanisms",
+      "authors": "Zikopoulos B, Barbas H",
+      "year": 2006,
+      "journal": "J Neurosci",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "PFC large driver boutons vs sensory cortex small modulatory boutons to TRN",
+      "access": "abstract"
+    },
+    {
+      "pmid": "16624964",
+      "title": "Attentional modulation of thalamic reticular neurons",
+      "authors": "McAlonan K, Cavanaugh J, Wurtz RH",
+      "year": 2006,
+      "journal": "J Neurosci",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "TRN single-unit recording in awake monkey during attention task",
+      "access": "abstract"
+    },
+    {
+      "pmid": "18330211",
+      "title": "Circuits for multisensory integration and attentional modulation through the prefrontal cortex and the thalamic reticular nucleus in primates",
+      "authors": "Zikopoulos B, Barbas H",
+      "year": 2007,
+      "journal": "Rev Neurosci",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "PFC-TRN multisensory attention circuits review",
+      "access": "abstract"
+    },
+    {
+      "pmid": "25126786",
+      "title": "State-dependent architecture of thalamic reticular subnetworks",
+      "authors": "Halassa MM et al.",
+      "year": 2014,
+      "journal": "Cell",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "TRN subnetwork functional separation: limbic vs sensory projecting neurons",
+      "access": "abstract"
+    },
+    {
+      "pmid": "31202541",
+      "title": "Prefrontal cortex regulates sensory filtering through a basal ganglia-to-thalamus pathway",
+      "authors": "Nakajima M, Schmitt LI, Halassa MM",
+      "year": 2019,
+      "journal": "Neuron",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "PFC-BG-TRN indirect pathway for distractor suppression",
+      "access": "abstract"
+    },
+    {
+      "pmid": "15297152",
+      "title": "The thalamic reticular nucleus: structure, function and concept",
+      "authors": "Pinault D",
+      "year": 2004,
+      "journal": "Brain Res Brain Res Rev",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "Comprehensive TRN structure-function review, 20-year evaluation of Crick hypothesis",
+      "access": "abstract"
+    },
+    {
+      "pmid": "29106983",
+      "title": "GABA(B) receptor subtypes differentially regulate thalamic spindle oscillations",
+      "authors": "Ulrich D, Lalanne T, Gassmann M, Bettler B",
+      "year": 2018,
+      "journal": "Neuropharmacology",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "GABA-B subtype control of spindle strength vs frequency",
+      "access": "abstract"
+    },
+    {
+      "pmid": "37287424",
+      "title": "Alterations of sensory cell activity in the thalamic reticular nucleus by prefrontal cortex activation in anesthetized rats",
+      "authors": "Kimura A",
+      "year": 2023,
+      "journal": "Eur J Neurosci",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "Bidirectional PFC modulation of TRN sensory cells",
+      "access": "abstract"
+    },
+    {
+      "pmid": "32437558",
+      "title": "Clinical and experimental insight into pathophysiology, comorbidity and therapy of absence seizures",
+      "authors": "Crunelli V et al.",
+      "year": 2020,
+      "journal": "Brain",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "TRN role in absence seizure 3Hz spike-wave oscillations",
+      "access": "abstract"
+    },
+    {
+      "pmid": "12194498",
+      "title": "The thalamic reticular nucleus: more than a sensory nucleus?",
+      "authors": "McAlonan K, Brown VJ",
+      "year": 2002,
+      "journal": "Neuroscientist",
+      "article": "2026-06-16-thalamic-reticular-nucleus-attention-gate",
+      "coverage": "TRN as attentional gate beyond pure sensory function",
+      "access": "abstract"
     }
   ],
   "additions_2026-09-06": [

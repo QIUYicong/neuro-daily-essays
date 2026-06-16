@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-16（**#195** 加压素系统：社会行为的分子二重奏；新建 2 页：vasopressin-system（systems）、hippocampal-ca2-social-memory（neurons）；修订 2 页：pair-bond rev2、oxytocin-system rev2；图谱 **396** 节点，**2254** 边）· 主题页总数：**348**
+> 最后更新：2026-06-16（**#196** 丘脑网状核：大脑硬件探照灯；新建 1 页：thalamic-reticular-nucleus（systems）；修订 2 页：sleep-spindles rev3、thalamus rev4；图谱 **397** 节点，**2263** 边）· 主题页总数：**349**
 
 ---
 
@@ -320,7 +320,8 @@
 - 🟢 [内侧隔核](systems/medial-septum.md) — MS-DBB：θ振荡主要起搏器；胆碱能+GABAergic向海马投射；MS冷却实验（Petersen 2020）：距离-相位压缩保留（P=0.92）但行为错误+3倍；θ序列以相位为坐标而非绝对时间的直接证据；填补悬空引用 **[NEW 2026-09-18 #148]**
 - 🟢 [胼胝体](systems/corpus-callosum.md) — 人脑最大白质结构，含2-8亿轴突（70%有髓鞘）；五段拓扑：genu→额叶，body→运动/感觉，isthmus→听觉，splenium→视觉；纤维直径梯度（膝部细→峡部粗）；发育后→前，前额叶连接约25岁成熟；跨胼抑制维持单侧运动/注意精确性；裂脑手术产生感知分裂（意识是否真分裂仍争议）；填补图谱悬空引用 **[NEW 2026-09-26 #156]**
 - 🟢 [前连合](systems/anterior-commissure.md) — 人脑最古老的半球间联合纤维（系统发育早于胼胝体，有袋类/单孔目仅有此纤维）；前肢=嗅觉皮层双侧连接；后肢=颞极/杏仁核/颞中下回；含约400万轴突（~胼胝体的1/100）；AgCC 中可代偿性扩大（Barr 2002）；标准裂脑手术保留此结构——可能是裂脑患者部分意识整合的结构基础；Starkweather 2026（iEEG）直接证明其参与 OFC 跨半球快速通信 **[NEW 2026-10-03 #163 · 填补悬空引用]**
-- 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
+- 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03 · 修订 rev4 2026-06-16]**
+- 🟢 [丘脑网状核（TRN）](systems/thalamic-reticular-nucleus.md) — 纯 GABA 能薄壳，包裹丘脑外侧；所有 TC/CT 轴突均经此发出侧支；清醒期注意力门控（去抑制逻辑）+ NREM 纺锤波起搏器（TRN-TC 振荡）；PFC 大型驱动型终扣优先权（Zikopoulos 2006）；BG→TRN 间接通路实现分心抑制（Nakajima 2019）；感觉 vs 边缘投射子网络（Halassa 2014）；填补多页悬空引用 **[NEW 2026-06-16 #196]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；**BLA奖励神经元（Ppp1r1b+→NAc）与恐惧神经元（Rspo2+→CeA）通过对立突触可塑性实现正/负价值双通道编码**；与PFC（IL/PL）和海马形成情绪调控三角回路；慢性应激下BLA树突增生 vs 海马退缩的方向性分离（修订rev4 2026-07-30 #98）**[NEW 2026-05-30]**

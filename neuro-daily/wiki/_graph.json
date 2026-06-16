@@ -3596,6 +3596,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/systems/lateral-septum.md"
+    },
+    {
+      "id": "thalamic-reticular-nucleus",
+      "title": "丘脑网状核",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/thalamic-reticular-nucleus.md"
     }
   ],
   "edges": [
@@ -15507,6 +15516,60 @@
       "from": "pair-bond",
       "to": "vasopressin-system",
       "type": "related"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "thalamus",
+      "type": "part-of",
+      "note": "TRN 包裹丘脑外侧，是丘脑门控层"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "thalamic-firing-modes",
+      "type": "mechanism-of",
+      "note": "TRN GABA-B 超极化触发 TC 爆发放电"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "sleep-spindles",
+      "type": "supports",
+      "note": "TRN 是睡眠纺锤波 TRN-TC 振荡环路的起搏器"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "biased-competition",
+      "type": "supports",
+      "note": "TRN 是偏置竞争的丘脑级硬件实现"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "working-memory",
+      "type": "related",
+      "note": "工作记忆需 TRN 维持感觉通道优先级"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "thalamic-reticular-nucleus",
+      "type": "regulates",
+      "note": "PFC 大型驱动型终扣控制 TRN（Zikopoulos 2006）"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "thalamic-reticular-nucleus",
+      "type": "regulates",
+      "note": "BG GPi/SNr GABA 投射到 TRN 实现分心抑制（Nakajima 2019）"
+    },
+    {
+      "from": "thalamus",
+      "to": "thalamic-reticular-nucleus",
+      "type": "related",
+      "note": "TRN 接收所有 TC/CT 轴突侧支"
+    },
+    {
+      "from": "sleep-spindles",
+      "to": "thalamic-reticular-nucleus",
+      "type": "related",
+      "note": "纺锤波依赖 TRN CaV3.3 爆发放电"
     }
   ],
   "dangling_references": [

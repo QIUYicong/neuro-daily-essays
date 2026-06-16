@@ -1,0 +1,122 @@
+# 运行日志追加：2026-06-16（文章 #196 — 丘脑网状核注意力门控）
+
+## 基本信息
+
+- **文章编号**：#196
+- **真实执行日期**：2026-06-16
+- **分支**：claude/funny-einstein-at9wdm（环境指定分支；推送后与 main 合并）
+- **选题**：丘脑网状核（TRN）——大脑注意力的硬件级探照灯
+- **文章文件**：`neuro-daily/articles/2026-06-16-thalamic-reticular-nucleus-attention-gate.md`
+- **Git 作者**：QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+
+## 选题决策
+
+**来源**：ROUTINE.md gap-driven 选题，优先级=填补悬空引用
+
+- `thalamic-reticular-nucleus` 被 thalamus.md、sleep-spindles.md、thalamic-firing-modes.md、biased-competition.md、neural-oscillations.md 等多页引用，但无专页（典型悬空引用）
+- 今日文章 #195（加压素）的 next_suggested_topics 包含 TRN 作为"课程脊柱第5章开篇"
+- 选题 TRN 同时满足：(a) 填补悬空引用、(b) 开启课程路线5（认知控制）、(c) 与前序 tracks 3（感觉编码）和 4（记忆/睡眠）形成有机连接
+
+## 文献检索过程
+
+**方法**：PubMed E-utilities (esearch + efetch)；Europe PMC 补充检索
+
+**检索词**：
+1. "thalamic reticular nucleus attention filter" → PMIDs: 26618761, 12194498, 41819251, etc.
+2. "thalamic reticular nucleus prefrontal cortex selective attention" → PMIDs: 18330211, 31132421, 16837581, 31202541, etc.
+3. "thalamic reticular nucleus review circuit function" → 无新增
+4. "McAlonan attention thalamic reticular primate" → PMIDs: 18849967, 16624964, 12194498
+5. "Halassa thalamus 2014" → PMID: 25126786
+6. "thalamic reticular nucleus sleep spindle inhibition burst firing" → PMIDs: 41819251, 31262708, 29575912, 22319469, 29106983
+7. "Crick 1984 thalamic reticular complex function searchlight" → PMIDs: 15297152, 6589612
+8. 神经精神疾病相关 → PMID: 32001110, 32437558, 35644250
+
+**候选来源**：约 40+ 篇
+**采用**：12 篇（均为摘要，未能获取开放全文）
+**排除**：不相关 old PMID 条目（PMC DB 返回 1300-era IDs）；盆腔/牙科等完全不相关论文；重复检索结果
+
+**开放全文**：0 篇
+**摘要仅读**：12 篇
+
+**限制说明**：本次 PMC 检索返回的结果质量较差（系统返回大量 13xxxxxx 编号的非相关旧文献），未能找到 TRN 的 PMC 开放全文综述。主要依赖摘要 + 可靠背景知识（来自 thalamus.md、thalamic-firing-modes.md 等已有 wiki 页面中积累的机制信息）。核心发现来自 Nature/Cell/Neuron 级高影响力期刊，置信度高。
+
+## 文章创建过程
+
+**结构**：
+- 今日核心问题（感觉世界如何在入口处被筛选）
+- 一句话摘要
+- 为什么重要（4条）
+- 背景（Crick 1984 探照灯假说）
+- 核心机制（解剖/GABA 门控/PFC 控制/去抑制逻辑/TRN 子网络/BG 间接通路/睡眠纺锤波）
+- 关键证据表（10 条，带置信度）
+- 比喻（机场安检 VIP 通道，含局限说明）
+- 改变理解（4 条）
+- 争议与未解问题（4 条）
+- 与 AI 对照表
+- 今日概念卡片
+- 认知地图更新
+- 参考来源表（12 篇，全部标注未读全文）
+
+**估计字数**：约 5500 字
+
+## wiki 整合过程
+
+### 新建页面（1 页）
+- `wiki/systems/thalamic-reticular-nucleus.md`：
+  - status=established, confidence=high
+  - revision_count=1
+  - 12 条关键来源
+  - 完整机制：解剖/门控/PFC 控制/子网络/纺锤波/疾病关联
+  - 填补长期悬空引用
+
+### 修订页面（2 页）
+- `wiki/concepts/sleep-spindles.md` (rev2→rev3)：related 列表新增 thalamic-reticular-nucleus；确认 TRN-CaV3.3 纺锤波机制连接
+- `wiki/systems/thalamus.md` (rev3→rev4)：related 列表新增 thalamic-reticular-nucleus；悬空引用消除
+
+### 图谱更新 (_graph.json)
+- 新增节点（1）：thalamic-reticular-nucleus（domain:systems, status:established, confidence:high）
+- 新增边（9）：
+  - TRN→thalamus (part-of)
+  - TRN→thalamic-firing-modes (mechanism-of)
+  - TRN→sleep-spindles (supports)
+  - TRN→biased-competition (supports)
+  - TRN→working-memory (related)
+  - prefrontal-cortex→TRN (regulates)
+  - basal-ganglia→TRN (regulates)
+  - thalamus→TRN (related)
+  - sleep-spindles→TRN (related)
+- 图谱统计：396→397 节点，2254→2263 边
+
+## 状态文件更新
+
+| 文件 | 更新内容 |
+|------|---------|
+| wiki/index.md | systems 节新增 TRN 条目；页头统计更新（397 节点/2263 边/349 页） |
+| wiki/CHANGELOG.md | 新增 2026-06-16 #196 条目（1 新建/2 修订/9 边）|
+| state/topic_ledger.json | total_articles 195→196；添加 article #196 条目 |
+| state/unresolved_questions.md | 新增 Q-TRN-01~04（1 高/1 高/1 中/1 低优先级） |
+| state/source_registry.json | total_sources 831→843；添加 12 条新来源 |
+| state/monthly_synthesis.md | 添加 2026-06-16 #196 条目 |
+| state/maturity_index.json | 添加 thalamic-reticular-nucleus（established/high）|
+
+## 矛盾登记
+
+无新矛盾登记。
+
+TRN 注意力调制方向性的表观矛盾（McAlonan 2008：注意力使 TRN 活动降低 vs McAlonan 2006：注意力使 TRN 响应增强）在文章中标注为"可能反映 TRN 内不同子类型神经元（感觉投射 vs 边缘投射；Halassa 2014）的差异"。证据尚不足以进入 contested_claims 正式协议，但已在文章和 wiki 中明确标注不确定性。
+
+## Git 状态
+
+- 分支：claude/funny-einstein-at9wdm
+- Remote：origin = http://local_proxy@127.0.0.1:xxxxx/git/QIUYicong/neuro-daily-essays ✓
+- 提交消息：Add neuro daily article + wiki consolidation for 2026-06-16 (#196 TRN)
+- Push 目标：origin claude/funny-einstein-at9wdm（环境指定分支）
+- Push 状态：待提交/推送
+
+## 环境说明
+
+- 运行环境：Claude Code Web（远程执行容器）
+- 系统日期：2026-06-16 UTC+8
+- 逻辑日期：2026-06-16（与系统日期一致）
+- 今日文章序列：#196（本触发）；之前同日有 #26（DMN）、#194（催产素）、#195（加压素）
+- 来源覆盖率：0 篇开放全文（全部摘要），限制已在文章中明确标注

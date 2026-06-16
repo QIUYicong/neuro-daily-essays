@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-06-16（文章 #196：大脑的硬件探照灯——丘脑网状核注意力门控）
+
+**创建新页（1 页）**：
+- `wiki/systems/thalamic-reticular-nucleus.md`（rev1）：TRN 纯 GABA 能薄壳解剖特权（所有 TC/CT 轴突侧支均经此）；按感觉模态分区；清醒注意力门控（去抑制逻辑）+ NREM 纺锤波起搏（TRN-TC 振荡）；PFC 大型驱动型终扣解剖学控制优先权（Zikopoulos 2006）；BG→TRN 间接通路实现分心抑制（Nakajima 2019）；感觉投射 vs 边缘投射子网络（Halassa 2014）；status=established, confidence=high
+
+**修订既有页（2 页）**：
+- `wiki/concepts/sleep-spindles.md` rev2→rev3：新增 thalamic-reticular-nucleus 到 related 列表；确认 TRN-CaV3.3 作为纺锤波起搏器的机制联系
+- `wiki/systems/thalamus.md` rev3→rev4：新增 thalamic-reticular-nucleus 到 related 列表；TRN 作为独立专页填补悬空引用
+
+**图谱变化**：
+- 新节点（1）：thalamic-reticular-nucleus（domain:systems, status:established, confidence:high）
+- 新边（9）：TRN→thalamus(part-of)；TRN→thalamic-firing-modes(mechanism-of)；TRN→sleep-spindles(supports)；TRN→biased-competition(supports)；TRN→working-memory(related)；prefrontal-cortex→TRN(regulates)；basal-ganglia→TRN(regulates)；thalamus→TRN(related)；sleep-spindles→TRN(related)
+- 图谱统计：396→397 节点，2254→2263 边
+
+**填补悬空引用**：thalamic-reticular-nucleus 节点长期被 thalamus.md、sleep-spindles.md、thalamic-firing-modes.md 等多页引用，今日创建专页，悬空引用消除
+
+**登记矛盾**：无（TRN 注意力调制的方向性争议——McAlonan 2008 降低 vs McAlonan 2006 增加——在文章中标注为"可能反映不同神经元子类型"，证据尚不足以进入 contested_claims 正式协议）
+
+**新增未解问题**：Q-TRN-01~04（见 thalamic-reticular-nucleus.md）
+
+---
+
 ## 2026-06-16（文章 #195：社会行为的分子二重奏——加压素系统）
 
 **创建新页（2 页）**：

@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-07-07
-revision_count: 2
+updated: 2026-06-16
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, cognition]
-related: [sharp-wave-ripples, memory-consolidation, cortical-slow-oscillation, thalamocortical-circuit, ltp, hippocampal-circuit, so-spindle-swr-coupling]
+related: [sharp-wave-ripples, memory-consolidation, cortical-slow-oscillation, thalamocortical-circuit, ltp, hippocampal-circuit, so-spindle-swr-coupling, thalamic-reticular-nucleus]
 prerequisites: [action-potential, voltage-gated-calcium-channels, synaptic-transmission]
 opens_questions: [Q-spindle-fast-vs-slow, Q-spindle-augmentation-clinical, Q-spindle-rem-division]
 source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-07-sleep-memory-consolidation-so-spindle-swr]
