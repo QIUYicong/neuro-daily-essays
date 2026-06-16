@@ -124,8 +124,8 @@
 ## Git 操作
 
 - **Branch**：main
-- **Commit**：(见 push 后更新)
-- **Push**：待完成
+- **Commit**：b21b6d6
+- **Push**：成功推送至 origin/main（17acf01..b21b6d6）
 
 ---
 
