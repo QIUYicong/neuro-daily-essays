@@ -293,3 +293,36 @@
 ## 决策
 
 按 ROUTINE.md 不空提交原则，今日文章已全部完成，无需写新文章。追加本次触发记录并推送日志更新。
+
+---
+
+# 运行日志追加：2026-06-16（第5次触发 — 当日文章已完成）
+
+## 基本信息
+
+- **触发时间**：2026-06-16 UTC+8
+- **运行模式**：自动化触发（文章已完成后再次触发）
+- **当前 origin/main**：`d0f4547`
+
+## 状态检查
+
+- local main 与 origin/main 完全同步（`d0f4547`）
+- 今日文章：✅ 3篇已完成
+  - #26 `2026-06-16-default-mode-network.md`（早期预写）
+  - #194 `2026-06-16-oxytocin-social-bonding-neural-circuits.md`
+  - #195 `2026-06-16-vasopressin-avp-social-circuit.md`
+- 知识图谱：396 节点，2254 边
+- 悬空引用（4个）：aging, cognition, dopamine, marr-albus-ito
+- topic_ledger total_articles：195
+
+## 决策
+
+按 ROUTINE.md 不空提交原则，今日3篇文章已全部完成并推送至 GitHub（origin/main = d0f4547）。无新文章需写。追加本次触发记录。
+
+## 下一日建议主题
+
+根据 topic_ledger 中 #195 next_suggested_topics 及悬空引用优先级：
+1. **dopamine-system**（多巴胺系统）——悬空引用，被多个核心节点引用，属于认知控制/奖励学习的中枢；层级：细胞/突触/微回路/脑区
+2. **interoception**（内感受）——岛叶如何将内脏信号转化为情绪感受，连接疼痛→情绪→自主神经
+3. **opioid-system**（阿片系统）——μ/δ/κ受体、内源性阿片肽分布与镇痛
+
