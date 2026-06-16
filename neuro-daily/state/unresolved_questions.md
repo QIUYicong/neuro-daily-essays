@@ -5305,3 +5305,31 @@
 - **关联 wiki**：[[amygdala]]、[[oxytocin-system]]
 - **来源文章**：2026-06-16-oxytocin-social-bonding-neural-circuits
 - **问题**：Wahis et al. 2021（Nat Neurosci）是首次系统描述 CeA 胶质细胞 OXTR 的研究。关键待解问题：（a）这种形态独特的 OXTR 阳性星形胶质细胞是否见于其他催产素靶区（NAc、前额叶、海马、BNST）？（b）胶质细胞 OXTR 对 OT 的时间响应（介导时间尺度？毫秒级 vs 秒级 vs 分钟级）与突触神经元 OXTR 相比有何差异？（c）是否存在胶质细胞介导的催产素效应（通过谷氨酸释放）被神经元直接 OXTR 信号所掩盖的情况，导致已有文献系统性低估胶质成分？（d）抑郁/焦虑障碍中 CeA 胶质细胞 OXTR 表达是否改变？
+
+---
+
+## 2026-06-16 新增（来自"社会行为的分子二重奏：加压素系统" #195）
+
+### Q-AVP-01（高优先级）：人类 CA2 V1bR 在社会记忆中的作用
+
+- **关联 wiki**：[[hippocampal-ca2-social-memory]]、[[vasopressin-system]]
+- **来源文章**：2026-06-16-vasopressin-avp-social-circuit
+- **问题**：小鼠 CA2 V1bR 对社会记忆的必要性已在多个独立实验中确认（CA2 特异性 Cre KO，化学遗传沉默）。但（a）人类 CA2 中 V1bR 蛋白密度是否达到啮齿类的功能水平（需要后验脑切片免疫荧光定量）？（b）人类的"社会记忆"高度依赖语言和语义编码，而不仅仅是化学信号辨别——CA2 V1bR 在这种语言化社会记忆中是否起到同等关键作用，还是只在非语言性"家族成员识别"层面有效？（c）CA2 损伤患者（如 TLE 切除）是否有特异性社会记忆损伤，独立于情节记忆一般性缺陷？（d）fMRI 能否在 CA2 水平分辨社会记忆 vs 物体记忆的激活差异？
+
+### Q-AVP-02（中优先级）：雌性 BNST AVP 在围产期和产后行为中的功能
+
+- **关联 wiki**：[[vasopressin-system]]、[[amygdala]]
+- **来源文章**：2026-06-16-vasopressin-avp-social-circuit
+- **问题**：现有研究主要关注雄性 BNST AVP（数量更多、效果更显著）。但雌性在妊娠期（孕激素峰值）和产后哺乳期（雌激素急降、催产素大量释放）期间，BNST AVP 是否经历动态调节？（a）妊娠晚期 BNST AVP 表达是否上调（以支持出生后母性行为的高度动机状态）？（b）产后 BNST AVP 消融是否影响幼崽保护攻击或哺育行为？（c）若雌性 BNST AVP 在产后有功能，其靶向回路是否与雄性相同（LS/VP）还是有性别特异性？这是一个被严重低估的空白，对理解产后抑郁的神经生物学基础可能有重要意义。
+
+### Q-AVP-03（中优先级）：BNST 和 PVN 来源 AVP 在侧隔核（LS）的功能整合
+
+- **关联 wiki**：[[vasopressin-system]]、[[lateral-septum]]
+- **来源文章**：2026-06-16-vasopressin-avp-social-circuit
+- **问题**：LS 是 BNST 和 PVN 两个 AVP 来源的共同靶点，但它们在 LS 内的突触终末可能投射到不同的细胞类型或 LS 亚核（内侧 LS vs 侧侧 LS vs 腹侧 LS）。（a）能否通过双色 CLARITY 或高分辨率 FISH 区分 BNST-AVP 和 PVN-AVP 轴突终末在 LS 内的突触后靶细胞类型？（b）两个来源同时激活时是协同还是对抗（例如，BNST AVP 促进社会调查，PVN AVP 可能通过 LS 抑制不必要的社会接触）？（c）光遗传学双通道实验能否在体内直接区分两种来源对同一 LS 神经元的效果？
+
+### Q-AVP-04（低优先级）：鼻内加压素到达中枢的有效机制
+
+- **关联 wiki**：[[vasopressin-system]]
+- **来源文章**：2026-06-16-vasopressin-avp-social-circuit
+- **问题**：鼻内 AVP 给药改善 ASD 儿童社会行为（Oztan 2021 RCT），但 AVP 是否真的通过鼻内给药到达中枢社会回路，路径是什么，仍不明确。（a）嗅觉神经（olfactory nerve）和三叉神经（trigeminal nerve）的轴突旁转运（perineural transport）能否将鼻腔 AVP 直接运送到嗅球→杏仁核→LS/VP 社会回路，绕过 BBB？（b）血浆 AVP 升高（鼻内后）能否通过室周器官（SFO，OVLT，area postrema）进入 CSF，进而到达 BNST/LS 的 V1aR？（c）PET 成像能否直接追踪鼻内 ¹¹C 标记 AVP 类似物的脑分布，在受试者中验证"鼻→脑"路径？

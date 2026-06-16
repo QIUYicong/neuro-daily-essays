@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-06-16",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -15659,6 +15659,60 @@
         "olfactory connectivity",
         "anterior commissure olfactory"
       ]
+    },
+    {
+      "id": "PMC9968743",
+      "type": "review",
+      "title": "Modulation of social behavior by distinct vasopressin sources",
+      "year": 2023,
+      "used_in": [
+        "2026-06-16-vasopressin-avp-social-circuit"
+      ],
+      "coverage": "AVP来源特异性功能；BNST/PVN/SCN各来源行为贡献；性别差异"
+    },
+    {
+      "id": "PMID:17118932",
+      "pmcid": "PMC1764849",
+      "type": "review",
+      "title": "Oxytocin, vasopressin and pair bonding: implications for autism",
+      "year": 2006,
+      "used_in": [
+        "2026-06-16-vasopressin-avp-social-circuit"
+      ],
+      "coverage": "avpr1a微卫星→V1aR分布→配对键因果链；AAV基因转移实验；人类关联研究"
+    },
+    {
+      "id": "PMID:30518859",
+      "pmcid": "PMC6364572",
+      "type": "original",
+      "title": "CA2 V1bR-dependent social aggression circuit (Nature 2018)",
+      "year": 2018,
+      "used_in": [
+        "2026-06-16-vasopressin-avp-social-circuit"
+      ],
+      "coverage": "V1bR突触前机制；CA2→LS增强82%；攻击行为"
+    },
+    {
+      "id": "PMID:36789441",
+      "pmcid": "PMC9928026",
+      "type": "original",
+      "title": "OXR+V1bR double KO in CA2 impairs social memory",
+      "year": 2023,
+      "used_in": [
+        "2026-06-16-vasopressin-avp-social-circuit"
+      ],
+      "coverage": "CA2双受体协同；单KO代偿；双KO社会记忆损伤"
+    },
+    {
+      "id": "PMID:35863332",
+      "pmcid": "PMC9337272",
+      "type": "review",
+      "title": "Oxytocin, Vasopressin, and Social Behavior: clinical opportunities",
+      "year": 2022,
+      "used_in": [
+        "2026-06-16-vasopressin-avp-social-circuit"
+      ],
+      "coverage": "最新综合综述；性别差异全景；临床试验（balovaptan/鼻内AVP）"
     }
   ],
   "additions_2026-09-06": [

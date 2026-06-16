@@ -467,9 +467,33 @@
       "revision_count": 1,
       "last_change": "2026-06-15",
       "change_reason": "创建（#193）：DGLα-KO直接证明DSI/DSE必要性"
+    },
+    {
+      "slug": "vasopressin-system",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-16",
+      "revision_count": 1,
+      "change_reason": "创建；核心回路机制（VP V1aR→配对键；CA2 V1bR→社会记忆）在啮齿类中高度确立；临床应用（ASD 治疗）中等证据"
+    },
+    {
+      "slug": "hippocampal-ca2-social-memory",
+      "status": "mainstream",
+      "confidence": "high",
+      "last_changed": "2026-06-16",
+      "revision_count": 1,
+      "change_reason": "创建；CA2 V1bR 突触前机制在小鼠中确立（Nature 2018）；CA2 对社会记忆必要性被多篇独立实验验证；人类推广需更多证据"
+    },
+    {
+      "slug": "lateral-septum",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-06-16",
+      "revision_count": 1,
+      "change_reason": "创建；作为 AVP 和 CA2 信号汇聚节点，其在社会行为中的角色有大量文献支持"
     }
   ],
-  "last_updated": "2026-06-15",
+  "last_updated": "2026-06-16",
   "index": [
     {
       "slug": "thalamocortical-axons",

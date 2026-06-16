@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-11",
+  "updated": "2026-06-16",
   "node_count": 393,
   "edge_count": 2241,
   "edge_types": [
@@ -3569,6 +3569,33 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/parallel-fiber.md"
+    },
+    {
+      "id": "vasopressin-system",
+      "title": "加压素系统",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/vasopressin-system.md"
+    },
+    {
+      "id": "hippocampal-ca2-social-memory",
+      "title": "海马 CA2 区（社会记忆节点）",
+      "domain": "neurons",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/neurons/hippocampal-ca2.md"
+    },
+    {
+      "id": "lateral-septum",
+      "title": "侧隔核",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/lateral-septum.md"
     }
   ],
   "edges": [
@@ -15414,6 +15441,71 @@
     {
       "from": "expansion-coding",
       "to": "marr-albus-ito",
+      "type": "related"
+    },
+    {
+      "from": "vasopressin-system",
+      "to": "oxytocin-system",
+      "type": "related"
+    },
+    {
+      "from": "oxytocin-system",
+      "to": "vasopressin-system",
+      "type": "related"
+    },
+    {
+      "from": "vasopressin-system",
+      "to": "pair-bond",
+      "type": "supports"
+    },
+    {
+      "from": "vasopressin-system",
+      "to": "hippocampal-ca2-social-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "vasopressin-system",
+      "to": "hpa-axis",
+      "type": "regulates"
+    },
+    {
+      "from": "vasopressin-system",
+      "to": "amygdala",
+      "type": "part-of"
+    },
+    {
+      "from": "vasopressin-system",
+      "to": "lateral-septum",
+      "type": "regulates"
+    },
+    {
+      "from": "hippocampal-ca2-social-memory",
+      "to": "vasopressin-system",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "hippocampal-ca2-social-memory",
+      "to": "oxytocin-system",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-ca2-social-memory",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "hippocampal-ca2-social-memory",
+      "to": "lateral-septum",
+      "type": "regulates"
+    },
+    {
+      "from": "lateral-septum",
+      "to": "hippocampal-ca2-social-memory",
+      "type": "related"
+    },
+    {
+      "from": "pair-bond",
+      "to": "vasopressin-system",
       "type": "related"
     }
   ],

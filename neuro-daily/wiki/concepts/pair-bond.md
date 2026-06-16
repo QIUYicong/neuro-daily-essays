@@ -7,13 +7,13 @@ status: established
 confidence: high
 created: 2026-06-16
 updated: 2026-06-16
-revision_count: 1
+revision_count: 2
 dimensions: [molecular, synaptic, microcircuit, brain-region, behavior]
-related: [oxytocin-system, dopamine-system, nucleus-accumbens, social-reward, endocannabinoid-system]
-prerequisites: [oxytocin-system, dopamine-system, long-term-potentiation]
+related: [oxytocin-system, vasopressin-system, dopamine-system, nucleus-accumbens, social-reward, endocannabinoid-system]
+prerequisites: [oxytocin-system, vasopressin-system, dopamine-system, long-term-potentiation]
 opens_questions: [Q-OT-03]
-source_articles: [2026-06-16-oxytocin-social-bonding-neural-circuits]
-key_sources: ["PMID:35858094", "PMID:19481567", "PMID:23850525"]
+source_articles: [2026-06-16-oxytocin-social-bonding-neural-circuits, 2026-06-16-vasopressin-avp-social-circuit]
+key_sources: ["PMID:35858094", "PMID:19481567", "PMID:23850525", "PMID:15051143", "PMID:17118932"]
 ---
 
 # 配对键 (Pair Bond)
@@ -64,7 +64,8 @@ key_sources: ["PMID:35858094", "PMID:19481567", "PMID:23850525"]
 
 ## 连接
 
-- [[oxytocin-system]] — 催产素是配对键形成的必要触发信号（NAc OT 释放）
+- [[oxytocin-system]] — OT 是雌性配对键形成的必要触发信号（NAc OT 释放）
+- [[vasopressin-system]] — AVP 是雄性配对键的关键机制：VP V1aR 密度决定雄性配对偏好强度；*avpr1a* 微卫星是物种间配对策略差异的遗传基础；配对后 AVP 还驱动伴侣保护攻击（侧下丘脑 V1aR）
 - [[dopamine-system]] — DA 是配对键强化的必要信号（VTA→NAc DA 涌现）
 - [[endocannabinoid-system]] — 配对后从头建立的 OT-eCB-CB1R 耦合
 - [[social-reward]] — 配对键是社会奖励通路高度特异化的结果
@@ -76,6 +77,7 @@ key_sources: ["PMID:35858094", "PMID:19481567", "PMID:23850525"]
 ## 修订历史
 
 - 2026-06-16 · 创建 · 基于《社会大脑的肽类密码》(#194) · 初始置信度：高
+- 2026-06-16 · rev2 · 基于《加压素系统》(#195)：补充 AVP/V1aR 在腹侧苍白球的雄性配对机制；*avpr1a* 微卫星作为遗传基础；伴侣保护攻击 AVP 机制；更新 related/prerequisites/key_sources
 
 ## 来源文章
 

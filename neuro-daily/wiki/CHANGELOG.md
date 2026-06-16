@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-16（文章 #195：社会行为的分子二重奏——加压素系统）
+
+**创建新页（2 页）**：
+- `wiki/systems/vasopressin-system.md`（rev1）：AVP 9肽结构；PVN/SON（非性别化）和 BNST/MeA（睾酮依赖、雄性 2-3 倍）双重来源；V1aR（VP→配对键；LS→社会辨别）和 V1bR（CA2 突触前→社会记忆/攻击；垂体→HPA协同）；*avpr1a* 微卫星基因机制；klinical trials（balovaptan 失败，鼻内 AVP 中等效果）；status=established, confidence=high
+- `wiki/neurons/hippocampal-ca2.md`（rev1）：CA2 锥体神经元特征（V1bR+OXTR 共表达、LTP 抵抗）；CA2→LS 突触前 V1bR 门控（AVP 增强传递 82%）；社会状态切换模型；OXR+V1bR 协同社会记忆（双 KO 失代偿）；status=mainstream, confidence=high
+
+**修订既有页（2 页）**：
+- `wiki/concepts/pair-bond.md` rev1→rev2：新增 AVP/VP V1aR 雄性配对机制；*avpr1a* 微卫星遗传基础；伴侣保护攻击 AVP 机制；更新 related/prerequisites/key_sources
+- `wiki/systems/oxytocin-system.md` rev1→rev2：新增 vasopressin-system 和 hippocampal-ca2-social-memory 连接；补充 OT/AVP 分子孪生关系；CA2 OXR+V1bR 协同功能
+
+**图谱变化**：
+- 新节点（3）：vasopressin-system, hippocampal-ca2-social-memory, lateral-septum
+- 新边（13）：vasopressin-system↔oxytocin-system(related)；vasopressin-system→pair-bond(supports)；vasopressin-system→hippocampal-ca2-social-memory(mechanism-of)；vasopressin-system→hpa-axis(regulates)；vasopressin-system→amygdala(part-of)；vasopressin-system→lateral-septum(regulates)；hippocampal-ca2-social-memory→{vasopressin-system, oxytocin-system, hippocampal-circuit, lateral-septum}；lateral-septum→hippocampal-ca2-social-memory(related)；pair-bond→vasopressin-system(related)
+- 图谱统计：393→396 节点，2241→2254 边
+
+**登记矛盾**：无新矛盾（AVP 在 ASD 中的临床结果相悖已在文章中如实呈现并标注为不确定性，未录入 contested_claims，因其属于临床证据不足而非科学模型冲突）
+
+**新增未解问题**：Q-AVP-01~04（见 vasopressin-system.md）
+
+---
+
 ## 2026-10-11（文章 #173：宇宙中最大的展开器——小脑颗粒细胞与平行纤维展开编码）
 
 **创建新页（2 页）**：

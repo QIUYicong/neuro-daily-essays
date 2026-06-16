@@ -7,12 +7,12 @@ status: established
 confidence: high
 created: 2026-06-16
 updated: 2026-06-16
-revision_count: 1
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [amygdala, dopamine-system, neuromodulator-systems, endocannabinoid-system, hpa-axis, pair-bond, social-reward, nucleus-accumbens, paraventricular-nucleus, fear-extinction]
+related: [vasopressin-system, amygdala, dopamine-system, neuromodulator-systems, endocannabinoid-system, hpa-axis, pair-bond, social-reward, nucleus-accumbens, paraventricular-nucleus, fear-extinction, hippocampal-ca2-social-memory]
 prerequisites: [synaptic-transmission, gpcr-signaling, action-potential, hypothalamus]
 opens_questions: [Q-OT-01, Q-OT-02, Q-OT-03, Q-OT-04]
-source_articles: [2026-06-16-oxytocin-social-bonding-neural-circuits]
+source_articles: [2026-06-16-oxytocin-social-bonding-neural-circuits, 2026-06-16-vasopressin-avp-social-circuit]
 key_sources: ["PMID:35858094", "PMID:19481567", "PMID:15931222", "PMID:33589833", "PMID:29897293", "PMID:22197271", "PMID:23850525", "PMID:37248645"]
 ---
 
@@ -83,12 +83,14 @@ key_sources: ["PMID:35858094", "PMID:19481567", "PMID:15931222", "PMID:33589833"
 
 ## 连接
 
+- [[vasopressin-system]] — 分子孪生兄弟（仅差2个氨基酸）：OT 偏向雌性/NAc/配对键触发；AVP 偏向雄性/VP/社会记忆/攻击；两者共享 CA2 节点（OXTR+V1bR 协同），存在受体交叉激活
+- [[hippocampal-ca2-social-memory]] — CA2 共表达 OXTR 和 V1bR；OXR+V1bR 双 KO 才完全损害社会记忆（协同功能）
 - [[amygdala]] — PVN→CeA 投射；OT 降低杏仁核恐惧/防御反应；星形胶质细胞 OXTR
 - [[dopamine-system]] — OT→VTA→NAc DA；社会奖励的 OT-DA 串扰（Feldman 2017）
 - [[endocannabinoid-system]] — OXTR→Ca²⁺→2-AG→CB1R；配对键中从头建立的 OT-eCB 耦合
 - [[hpa-axis]] — OT 抑制 HPA 应激反应（应激缓冲机制）
 - [[neuromodulator-systems]] — 催产素是第五类主要中枢神经调质（除 ACh/NE/DA/5-HT）
-- [[pair-bond]] — 草原田鼠配对键的 OT-DA-NAc 机制
+- [[pair-bond]] — 草原田鼠配对键的 OT-DA-NAc 机制（雌性主导）；AVP-VP-V1aR（雄性主导）
 - [[fear-extinction]] — OT 通过 CeA 促进恐惧消退（与 eCB 系统协同）
 
 ## 未解问题
@@ -101,7 +103,9 @@ key_sources: ["PMID:35858094", "PMID:19481567", "PMID:15931222", "PMID:33589833"
 ## 修订历史
 
 - 2026-06-16 · 创建 · 基于《社会大脑的肽类密码》(#194) · 11个来源（3篇开放全文）· 初始置信度：高
+- 2026-06-16 · rev2 · 基于《加压素系统》(#195)：新增 vasopressin-system 和 hippocampal-ca2-social-memory 连接；补充 OT/AVP 分子孪生关系；OXR+V1bR 在 CA2 的协同功能；updated related/source_articles
 
 ## 来源文章
 
 - [[2026-06-16-oxytocin-social-bonding-neural-circuits]]
+- [[2026-06-16-vasopressin-avp-social-circuit]]

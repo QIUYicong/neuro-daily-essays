@@ -201,3 +201,40 @@
 ### 说明
 
 今日注意到仓库中已有 `2026-06-16-default-mode-network.md`（文章 #26，项目早期预写的虚拟日期文章）。按 append-only 原则保留此文件不变，今日新文章使用不同 slug（`oxytocin-social-bonding-neural-circuits`）写入。topic_ledger 总条目从 174 增至 175。
+
+---
+
+# 运行日志追加：2026-06-16（文章 #195 — 加压素系统）
+
+## 基本信息
+
+- **文章编号**：#195
+- **真实执行日期**：2026-06-16
+- **分支**：main
+- **选题**：社会行为的分子二重奏：加压素（AVP）系统
+- **文章文件**：`neuro-daily/articles/2026-06-16-vasopressin-avp-social-circuit.md`
+
+## 选题决策
+
+- 填补图谱缺口：vasopressin-system 被 oxytocin-system 引用但无 wiki 页
+- 催产素系列的自然延伸（#194→#195 配对系列）
+- CA2 社会记忆节点在图谱中完全缺失
+
+## 文献来源
+
+- 8篇来源，7篇开放全文，1篇摘要
+- 主要综述：PMC9968743 (2023), PMC9337272 (2022), PMC1764849 (2006)
+- 主要原著：PMID:30518859 (Nature 2018), PMID:36789441 (J Neurosci 2023)
+
+## Wiki 更新
+
+- 新建 2 页：vasopressin-system, hippocampal-ca2-social-memory
+- 修订 2 页：pair-bond (rev2), oxytocin-system (rev2)
+- 图谱：393→396 节点，2241→2254 边
+- 新增未解：Q-AVP-01~04
+
+## 提交状态
+
+- 提交消息：`Add neuro daily article + wiki consolidation for 2026-06-16`
+- 分支：main
+- Push 状态：待确认

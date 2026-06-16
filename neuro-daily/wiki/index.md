@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-15（**#193** 逆向信使：内源性大麻素系统如何从突触后端重写突触规则；新建 5 页：endocannabinoid-system（concepts）、dsi-dse（concepts）、2-ag（concepts）、cb1-receptor（neurons）、corticostriatal-plasticity（concepts，补录自 #185）；修订 2 页：endocannabinoid-ltd rev2、fear-extinction rev4；图谱 **388** 节点，**2219** 边）· 主题页总数：**346**
+> 最后更新：2026-06-16（**#195** 加压素系统：社会行为的分子二重奏；新建 2 页：vasopressin-system（systems）、hippocampal-ca2-social-memory（neurons）；修订 2 页：pair-bond rev2、oxytocin-system rev2；图谱 **396** 节点，**2254** 边）· 主题页总数：**348**
 
 ---
 
@@ -39,6 +39,7 @@
 - 🟢 [Renshaw 细胞](neurons/renshaw-cell.md) — 唯一由 α-MN 轴突侧支直接驱动的抑制性中间神经元；实现复现抑制（输出依赖性制动）；通过抑制 Ia-INs 允许共收缩；Calbindin 阳性标志 **[NEW 2026-06-13 #179]**
 - 🟢 [KCC2（K⁺-Cl⁻ 共转运体 2）](neurons/kcc2.md) — 大脑成熟神经元的主要 Cl⁻ 外排泵（SLC12A5）；WNK-SPAK/OSR1 轴 T906/T1007 脱磷酸化 >95% 激活 KCC2（转运效率 >10x）；calpain 切割机制（TLE/疼痛/缺血）；KEECs 治疗 Rett；疾病谱 TLE/疼痛/Rett/ASD **[NEW 2026-06-13 #189]**
 - 🟢 [CB1 受体（大麻素受体 1）](neurons/cb1-receptor.md) — 脑内表达量最高的 Gi/o 偶联 GPCR；突触前膜定位是内源大麻素逆行信号的传感器；βγ→VGCC（短时程）vs αi→AC→PKA（长时程 LTD）双通路；额叶/海马/纹状体/小脑高密度；填补 endocannabinoid-ltd 悬空引用 **[NEW 2026-06-15 #193]**
+- 🔵 [海马 CA2 区（社会记忆节点）](neurons/hippocampal-ca2.md) — CA2 锥体神经元独特共表达 V1bR+OXTR；LTP 抵抗（防"污染"）；CA2→LS 突触前 V1bR 门控（AVP 增强传递82%）；社会状态切换（记忆vs攻击）；OXR+V1bR 双 KO 才完全损害社会记忆 **[NEW 2026-06-16 #195]**
 
 ## circuits（回路）
 
@@ -340,7 +341,8 @@
 - 🟢 [内上颞区（MST）](systems/mst-medial-superior-temporal.md) — 背侧流光流解析节点；MSTd 大感受野对扩张/旋转/平动光流调谐（PMID:1875243）；三维航向提取；视觉-前庭双模态整合（64%神经元前庭调谐）；自我运动感知核心皮层基底 **[NEW 2026-08-17 #116]**
 - 🟡 [顶内沟外侧区（LIP）](systems/lip-lateral-intraparietal.md) — 背侧流决策积分节点（status=mainstream，有争议）；斜坡放电率积累与漂移扩散模型定量对应（PMID:11600651）；速度-准确性权衡神经实现；争议：决策 vs 眼跳计划区（PMID:28772104）**[NEW 2026-08-17 #116]**
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；**新增催产素(OT)作为第五类神经调质**（修订5次）**[NEW 2026-06-12 · 修订 rev5 2026-06-16]**
-- 🟢 [催产素系统](systems/oxytocin-system.md) — PVN/SON合成9肽，双重身份（垂体激素+中枢调质）；OXTR→Gq→PLC→Ca²⁺；PVN→CeA（抗焦虑，星形胶质细胞OXTR中介）；PVN→NAc（社会奖励，OT-DA串扰）；物种OXTR分布差异决定单配性/杂交性；配对后NAc从头OT-eCB耦合（Borie 2022）**[NEW 2026-06-16 #194]**
+- 🟢 [催产素系统](systems/oxytocin-system.md) — PVN/SON合成9肽，双重身份（垂体激素+中枢调质）；OXTR→Gq→PLC→Ca²⁺；PVN→CeA（抗焦虑，星形胶质细胞OXTR中介）；PVN→NAc（社会奖励，OT-DA串扰）；物种OXTR分布差异决定单配性/杂交性；配对后NAc从头OT-eCB耦合（Borie 2022）**[NEW 2026-06-16 #194] [修订 rev2 2026-06-16 #195]**
+- 🟢 [加压素系统](systems/vasopressin-system.md) — AVP 9肽（OT孪生兄弟，差2个氨基酸）；PVN/SON（非性别化）和BNST/MeA（睾酮依赖，雄性2-3倍）双来源；V1aR→VP配对键（avpr1a微卫星决定物种策略）；V1bR→CA2突触前社会记忆/攻击门控；CA2 OXR+V1bR协同；垂体V1bR→HPA协同；临床：balovaptan（失败）vs鼻内AVP（中等效果）**[NEW 2026-06-16 #195]**
 - 🟢 [配对键](concepts/pair-bond.md) — OT（NAc显著性）+DA（VTA→NAc动机）协同 → 特定个体-奖励绑定；草原田鼠NAc高OXTR（单配性）vs草甸田鼠NAc低OXTR（杂交性）；配对后从头OT-eCB耦合；性别用不同机制达到相同行为结果**[NEW 2026-06-16 #194]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**
