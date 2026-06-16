@@ -5355,3 +5355,26 @@
 - **关联 wiki**：[[marr-albus-ito]]、[[cerebellar-ltd]]、[[deep-cerebellar-nuclei]]
 - **来源文章**：2026-10-12-marr-albus-ito-cerebellar-learning-model
 - **问题**：Ito 2013综述提出"快速适应（分钟~小时）由小脑皮层LTD承载；慢速巩固（天~周）转移到DCN的LTP（和/或MF→DCN突触强化）"。但（a）这个转移过程的分子机制是什么？PC放电减少如何触发DCN的LTP而不是LTD？（b）在LTD阻断小鼠（Schonewille 2011）中，DCN的可塑性是否出现代偿性增强？（c）如果DCN是慢速存储，那么选择性可逆失活DCN（但不阻断皮层LTD）是否会选择性损害长期记忆的提取而不影响短期学习？（d）人类小脑患者研究能否区分皮层型和核型的运动记忆损伤？
+
+---
+
+## 2026-06-17 新增（来自"注意力的闸门：丘脑网状核" #196）
+
+### Q-trn-01（高优先级）：PFC 的直接与间接 TRN 控制路径如何协调？
+
+- **关联 wiki**：[[thalamic-reticular-nucleus]]、[[prefrontal-cortex]]、[[basal-ganglia]]
+- **来源文章**：2026-06-17-thalamic-reticular-nucleus-attention-gating
+- **问题**：PFC 通过（1）直接皮层丘脑投射（快速、模态特异性）和（2）经基底神经节的间接路径（全局噪音抑制）双重调控 TRN。这两条路径在时间上如何协调？（a）直接路径的延迟约 5-10 ms（单突触），间接路径约 30-50 ms（多突触），是否存在时间分工：快速路径完成模态选择，慢速路径维持选择状态？（b）能否通过双光点光遗传（分别标记 PFC→TRN 直接纤维 vs PFC→纹状体纤维）在同一小鼠中选择性激活，并测量 TRN 活动和行为后果的差异？
+
+### Q-trn-02（高优先级）：TRN 在人类注意力中的作用多大？
+
+- **关联 wiki**：[[thalamic-reticular-nucleus]]、[[dorsal-attention-network]]
+- **来源文章**：2026-06-17-thalamic-reticular-nucleus-attention-gating
+- **问题**：几乎所有 TRN 回路因果研究都在小鼠中完成（光遗传工具限制）。人类有更发达的皮层，皮层内注意力反馈更突出。具体问题：（a）人类 TRN 是否可被颅内 EEG（iEEG）直接记录（患者在颅内电极植入期间的认知任务）？（b）经颅磁刺激（TMS）靶向 PFC 是否通过 TRN 影响 LGN 的注意力调制（fMRI 测量 LGN 活动变化）？（c）是否有 TRN 损毁患者（如丘脑卒中涉及网状核区域）表现出特征性的感觉过敏或注意力分心缺陷？
+
+### Q-trn-03（中优先级）：TRN 在 REM 睡眠中的状态？
+
+- **关联 wiki**：[[thalamic-reticular-nucleus]]、[[sleep-spindles]]、[[rem-sleep]]
+- **来源文章**：2026-06-17-thalamic-reticular-nucleus-attention-gating
+- **问题**：TRN 在 NREM 睡眠中产生纺锤波，在清醒时进行感觉门控，但在 REM 睡眠中纺锤波消失——这是因为 ACh 水平高（类似清醒）阻止了 TRN 超极化，还是另有机制？（a）REM 期间 TRN 神经元是否仍有放电，如果有，放电模式类似清醒强直模式还是独特模式？（b）REM 期间丘脑-皮层感觉传递的状态如何（是门开还是关）？（c）梦境中的视觉体验是否通过 TRN 解除对 LGN 的抑制（类似注意力的"无选择性开放"）来实现？
+

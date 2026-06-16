@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-06-17（文章 #196：注意力的闸门——丘脑网状核与感觉选通）
+
+**创建新页（1 页）**：
+- `wiki/systems/thalamic-reticular-nucleus.md`（rev1）：Crick 1984 聚光灯假说 + Halassa 2014 状态依赖子网络（感觉/边缘投射）+ Wimmer 2015 PFC→visTRN→LGN 前馈抑制（因果光遗传证明）+ Li 2020 分子亚型（Spp1+/FO vs Ecel1+/HO）+ Krol 2018 神经发育疾病（PTCHD1-ASD, CACNA1I-SCZ）；status=established, confidence=high；图谱：+1节点，+8边
+
+**修订页面（2 页）**：
+- `wiki/concepts/sleep-spindles.md`（rev2→rev3）：新增 TRN Spp1+ 神经元（Li 2020）是纺锤波生成核心亚群的分子证据；新增 thalamic-reticular-nucleus 连接
+- `wiki/concepts/thalamic-firing-modes.md`（rev1→rev2）：新增 TRN 双模放电的分子亚型依赖性（Spp1+ vs Ecel1+）；新增 thalamic-reticular-nucleus 到 related
+
+**矛盾检查**：今日新证据与既有主张一致，无新矛盾需要登记
+
+**新增悬空引用**：无（所有新增边均指向已存在节点）
+
+**图谱状态**：400 节点，2272 边
+
+---
+
 ## 2026-06-16（维护更新：知识图谱悬空引用修复 — 第12次触发）
 
 **图谱维护（无新文章）**：

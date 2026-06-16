@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-07-07
-revision_count: 2
+updated: 2026-06-17
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, cognition]
 related: [sharp-wave-ripples, memory-consolidation, cortical-slow-oscillation, thalamocortical-circuit, ltp, hippocampal-circuit, so-spindle-swr-coupling]
 prerequisites: [action-potential, voltage-gated-calcium-channels, synaptic-transmission]
 opens_questions: [Q-spindle-fast-vs-slow, Q-spindle-augmentation-clinical, Q-spindle-rem-division]
-source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-07-sleep-memory-consolidation-so-spindle-swr]
-key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:32066662", "PMID:38443198", "PMID:32248788", "PMID:28689981", "PMID:31533977", "PMID:29249289"]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-06-17-thalamic-reticular-nucleus-attention-gating]
+key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:32066662", "PMID:38443198", "PMID:32248788", "PMID:28689981", "PMID:31533977", "PMID:29249289", "PMID:32699411"]
 ---
 
 # 睡眠纺锤波 (Sleep Spindles)
@@ -85,6 +85,7 @@ T 型通道（CaV3 家族）的工作逻辑：**先被深度超极化（<−75 m
 
 ## 连接
 
+- [[thalamic-reticular-nucleus]] — TRN Spp1+ 神经元（核心区，富含 CaV3.3）是纺锤波生成的核心细胞；Spp1+ 特异性扰动→纺锤波数量减少（Li 2020）
 - [[cortical-slow-oscillation]] — SO（0.75 Hz）是三重嵌套的最顶层：上行相触发纺锤波
 - [[sharp-wave-ripples]] — SWR 嵌套在纺锤波内；纺锤波的钙窗口承接 SWR 的记忆输出
 - [[so-spindle-swr-coupling]] — 三重耦合机制的综合页面；SO-纺锤波-SWR 时序精度是记忆巩固的关键
@@ -103,6 +104,7 @@ T 型通道（CaV3 家族）的工作逻辑：**先被深度超极化（<−75 m
 
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · 填补 memory-consolidation 和 sharp-wave-ripples 页面对 sleep-spindles 的悬空引用 · 初始置信度：高
 - 2026-07-07 · 修订 · 基于《三重协奏》文章(#75) · 新增 Helfrich 2018 SO-纺锤波相位精度证据（d=1.19；老年相位偏移 46.3°）；related 新增 so-spindle-swr-coupling；connections 增加三重耦合页面链接
+- 2026-06-17 · 修订 · 基于《注意力的闸门》文章 #196 · 新增：TRN Spp1+（CaV3.3 富集）神经元是纺锤波生成核心亚群（Li et al. 2020）；added thalamic-reticular-nucleus 到 connections；key_sources 新增 PMID:32699411
 
 ## 来源文章
 

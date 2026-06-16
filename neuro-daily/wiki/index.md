@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-16（**#195** 加压素系统：社会行为的分子二重奏；新建 2 页：vasopressin-system（systems）、hippocampal-ca2-social-memory（neurons）；修订 2 页：pair-bond rev2、oxytocin-system rev2；图谱 **396** 节点，**2254** 边）· 主题页总数：**348**
+> 最后更新：2026-06-17（**#196** 丘脑网状核：注意力的闸门；新建 1 页：thalamic-reticular-nucleus（systems）；修订 2 页：sleep-spindles rev3、thalamic-firing-modes rev2；图谱 **400** 节点，**2272** 边）· 主题页总数：**349**
 
 ---
 
@@ -343,6 +343,7 @@
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；**新增催产素(OT)作为第五类神经调质**（修订5次）**[NEW 2026-06-12 · 修订 rev5 2026-06-16]**
 - 🟢 [催产素系统](systems/oxytocin-system.md) — PVN/SON合成9肽，双重身份（垂体激素+中枢调质）；OXTR→Gq→PLC→Ca²⁺；PVN→CeA（抗焦虑，星形胶质细胞OXTR中介）；PVN→NAc（社会奖励，OT-DA串扰）；物种OXTR分布差异决定单配性/杂交性；配对后NAc从头OT-eCB耦合（Borie 2022）**[NEW 2026-06-16 #194] [修订 rev2 2026-06-16 #195]**
 - 🟢 [加压素系统](systems/vasopressin-system.md) — AVP 9肽（OT孪生兄弟，差2个氨基酸）；PVN/SON（非性别化）和BNST/MeA（睾酮依赖，雄性2-3倍）双来源；V1aR→VP配对键（avpr1a微卫星决定物种策略）；V1bR→CA2突触前社会记忆/攻击门控；CA2 OXR+V1bR协同；垂体V1bR→HPA协同；临床：balovaptan（失败）vs鼻内AVP（中等效果）**[NEW 2026-06-16 #195]**
+- 🟢 [丘脑网状核（TRN）](systems/thalamic-reticular-nucleus.md) — 包裹背侧丘脑的 GABAergic 弧形层；感觉子网络（清醒时受 PFC 偏置，注意期间活动降低→感觉丘脑去抑制；Halassa 2014/Wimmer 2015）+ 边缘子网络（跟踪觉醒）；Spp1+ (FO, CaV3.3高, 纺锤波) vs Ecel1+ (HO, 皮层间) 分子亚型（Li 2020）；PTCHD1→ASD，CACNA1I→SCZ；Crick 1984 聚光灯假说的实验验证 **[NEW 2026-06-17 #196]**
 - 🟢 [配对键](concepts/pair-bond.md) — OT（NAc显著性）+DA（VTA→NAc动机）协同 → 特定个体-奖励绑定；草原田鼠NAc高OXTR（单配性）vs草甸田鼠NAc低OXTR（杂交性）；配对后从头OT-eCB耦合；性别用不同机制达到相同行为结果**[NEW 2026-06-16 #194]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**

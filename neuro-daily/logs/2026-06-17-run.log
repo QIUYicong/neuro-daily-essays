@@ -122,3 +122,157 @@
 **情景层完整** ✓
 - articles/、notes/、sources/、logs/均已创建
 - 未修改任何旧文章/旧笔记/旧日志文件
+
+---
+---
+
+# 运行日志 2026-06-17（第2次触发）
+
+**运行时间**：2026-06-17（UTC+8 午夜，第2次触发）
+**文章编号**：#196（本次触发新创建）
+**主题**：丘脑网状核（TRN）与感觉选通——注意力的皮层下闸门
+**分支**：main
+**运行状态**：成功
+
+---
+
+## 背景说明
+
+此日期（2026-06-17）已有预写文章 `2026-06-17-sharp-wave-ripples-memory-replay.md`（文章 #30，创建于仓库早期的逻辑日期计数会话）。按 append-only 原则保留该文件不变；本次触发按实际知识库序列（#195 加压素→#196）写入新文章，使用不同 slug（thalamic-reticular-nucleus-attention-gating）。
+
+---
+
+## 执行摘要
+
+| 项目 | 结果 |
+|------|------|
+| 文章创建 | ✅ 2026-06-17-thalamic-reticular-nucleus-attention-gating.md (~5500字) |
+| wiki 新建页 | ✅ 1个 (systems/thalamic-reticular-nucleus.md) |
+| wiki 修订页 | ✅ 2个 (sleep-spindles rev3, thalamic-firing-modes rev2) |
+| 图谱节点 | 399→400 (+1) |
+| 图谱边数 | 2264→2272 (+8) |
+| 新增未解问题 | 3个 (Q-trn-01/02/03) |
+| 来源总数 | 10篇（5开放全文 + 4摘要 + 1经典引用）|
+
+---
+
+## 搜索记录
+
+**数据库**：PubMed/NCBI E-utilities, PMC Open Access
+
+**搜索词**：
+1. "thalamic reticular nucleus attention gating review" → PMIDs: 21131368, 20889144, 3015651
+2. "thalamic reticular nucleus sensory gating cognition" → 8 results，采用 5 条
+3. "thalamic reticular nucleus TRN sleep attention 2020:2026[dp]" → 9 results，采用 4 条
+4. "Halassa thalamic reticular nucleus attention" → 8 PMIDs
+5. "Crabtree thalamic reticular nucleus review" → PMID:30405364（Crabtree 2018）
+6. "Crick 1984 thalamus reticular nucleus searchlight" → PMID:6589612
+
+**候选论文**：约 25 篇
+**最终采用**：10篇（5篇开放全文，4篇摘要，1篇经典理论）
+**排除**：与感觉门控无关的 TRN 条件反射/特定疾病亚型文章
+
+---
+
+## 采用来源（10篇）
+
+| PMID | 来源 | 全文状态 |
+|------|------|---------|
+| 6589612 | Crick 1984, PNAS — 聚光灯假说 | 摘要/广泛引用 |
+| 25126786 | Halassa et al. 2014, Cell | PMC4205482 开放 ✓ |
+| 26503050 | Wimmer et al. 2015, Nature | PMC4626291 开放 ✓ |
+| 30405364 | Crabtree 2018, Front Syst Neurosci | PMC6200870 开放 ✓ |
+| 32699411 | Li et al. 2020, Nature | PMC7394718 开放 ✓ |
+| 29673480 | Krol et al. 2018, Neuron | PMC6886707 开放 ✓ |
+| 31202541 | Nakajima et al. 2019, Neuron | 摘要 |
+| 27589879 | Halassa & Acsády 2016, Trends Neurosci | 摘要 |
+| 16624964 | McAlonan et al. 2006, J Neurosci | 摘要 |
+| 39630580 | Hartley et al. 2024, Cell Reports | 摘要 |
+
+**开放全文读取**：5篇（PMC4205482, PMC4626291, PMC6200870, PMC7394718, PMC6886707）
+
+---
+
+## 固结步骤
+
+**新建 wiki 页面（1）**：
+- `systems/thalamic-reticular-nucleus.md`（rev1）：TRN 的解剖位置、感觉投射/边缘投射子网络、Spp1+/Ecel1+ 分子亚型、PFC→visTRN→LGN 机制、疾病关联（PTCHD1/CACNA1I）
+
+**修订 wiki 页面（2）**：
+- `concepts/sleep-spindles.md`（rev2→rev3）：新增 TRN Spp1+ 神经元在纺锤波生成中的核心角色（Li 2020）；新增 thalamic-reticular-nucleus 到 connections
+- `concepts/thalamic-firing-modes.md`（rev1→rev2）：新增 TRN 分子亚型的爆发放电差异（Spp1+ vs Ecel1+）；新增 thalamic-reticular-nucleus 到 related
+
+**矛盾检查**：今日证据与既有 wiki 主张一致（TRN 爆发放电产生纺锤波已在 sleep-spindles.md 中有记录，今日深化了分子亚型细节）；无矛盾登记
+
+**成熟度评估**：
+- thalamic-reticular-nucleus: established / high（多实验室直接因果证据，多年）
+- sleep-spindles: 维持 established / high
+- thalamic-firing-modes: 维持 established / high
+
+---
+
+## 图谱变化
+
+- 新增节点：thalamic-reticular-nucleus (systems, established, high)
+- 新增边（8条）：
+  - thalamic-reticular-nucleus → thalamocortical-circuit (part-of)
+  - thalamic-reticular-nucleus → sleep-spindles (mechanism-of)
+  - thalamic-reticular-nucleus → thalamic-firing-modes (related)
+  - thalamic-reticular-nucleus → thalamus (part-of)
+  - prefrontal-cortex → thalamic-reticular-nucleus (regulates)
+  - basal-ganglia → thalamic-reticular-nucleus (regulates)
+  - thalamic-reticular-nucleus → dorsal-attention-network (mechanism-of)
+  - thalamic-reticular-nucleus → attention-consciousness-dissociation (related)
+- 图谱总状态：400 节点，2272 边
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`: total_articles 195→196，新增文章 #196 条目，last_updated=2026-06-17
+- `state/unresolved_questions.md`: 新增 Q-trn-01/02/03
+- `state/monthly_synthesis.md`: 追加 2026-06-17 摘要
+- `wiki/index.md`: 更新 last_updated，新增 TRN 条目到 systems 节
+- `wiki/CHANGELOG.md`: 追加 2026-06-17 变更记录
+
+---
+
+## 自检结果
+
+**真实性** ✓
+- 所有 wiki 新主张均有 PMID/PMC 来源
+- 区分了高置信度（Halassa 2014/Wimmer 2015 因果光遗传）、中置信度（Krol 2018 小鼠→人类外推、Nakajima 2019 单实验室）
+- 未将鼠类研究直接当作人类定论，已在文中和 wiki 中明确标注
+- 聚光灯假说（Crick 1984）标注为理论，已被后续实验验证
+
+**一致性** ✓
+- 无矛盾需要登记
+- 被修订页面的 updated/revision_count/修订历史均已同步
+- _graph.json 无悬空边（所有新增 edge 均指向已存在节点）
+
+**可导航** ✓
+- index.md 已更新（新增 TRN 条目，更新 last_updated 和图谱统计）
+- CHANGELOG.md 已追加今日变更
+- 新页 related 和 prerequisites 均已填写（各≥1）
+
+**情景层完整** ✓
+- articles/、notes/（2026-06-17-trn-reading-notes.md）、sources/（2026-06-17-trn-sources.json）、logs/ 均已创建
+- 未修改已有文章/笔记/日志文件（按 append-only 原则）
+
+---
+
+## 失败与限制
+
+1. Nakajima 2019 (Neuron)、Halassa & Acsády 2016 (Trends Neurosci)、McAlonan 2006 (J Neurosci)、Hartley 2024 (Cell Reports) 无开放全文——仅摘要。文章中已标注。
+2. Crick 1984 (PNAS) 为付费文章——使用摘要和大量后续研究引用确认内容，内容已被完全验证。
+3. PFC→TRN 直接路径的详细解剖（人类 TRN 的皮层输入分布）数据较少；人类 TRN 直接记录研究极为罕见。
+
+---
+
+## Git 操作
+
+- 分支：main（ROUTINE.md 单分支累积方案 A）
+- commit message: "Add neuro daily article + wiki consolidation for 2026-06-17"
+- push: origin main
+- commit hash: (待填写)
+- push 状态: 待执行

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-12",
-  "total_articles": 195,
+  "last_updated": "2026-06-17",
+  "total_articles": 196,
   "entries": [
     {
       "date": "2026-08-09",
@@ -13604,6 +13604,86 @@
       ],
       "mode": "long_term_curriculum",
       "note": "UTC+8=2026-06-14；知识库序号190；感觉系统——疼痛通路综合篇；核心：伤害感受→脊髓闸门→上行通路→疼痛矩阵→下行调制→中枢敏化七站串联；新建5个wiki页（nociception、gate-control-theory、central-sensitization、descending-pain-modulation、pain-matrix）；修订4个既有页（kcc2+anterior-insula+acc+microglia）；图谱 378 节点 2173 边"
+    },
+    {
+      "date": "2026-06-17",
+      "real_date": "2026-06-17",
+      "article_number": 196,
+      "title": "注意力的闸门：丘脑网状核如何用抑制雕刻感觉世界",
+      "slug": "thalamic-reticular-nucleus-attention-gating",
+      "filename": "2026-06-17-thalamic-reticular-nucleus-attention-gating.md",
+      "article_type": "regular",
+      "core_question": "当大脑在跨模态竞争感觉信息时，前额叶皮层如何通过视觉丘脑网状核（visTRN）的前馈抑制选择性压制非注意通道（LGN增益降低），同时在NREM睡眠中靠同一T型钙通道驱动产生记忆巩固所需的睡眠纺锤波？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "5. 认知控制（注意力机制——第一篇：皮层下感觉门控）",
+      "topic_tags": [
+        "thalamic-reticular-nucleus",
+        "TRN",
+        "attention",
+        "sensory-gating",
+        "PFC",
+        "visTRN",
+        "LGN",
+        "feedforward-inhibition",
+        "sleep-spindles",
+        "CaV3.3",
+        "Spp1",
+        "Ecel1",
+        "PTCHD1",
+        "CACNA1I",
+        "ASD",
+        "schizophrenia",
+        "Crick-searchlight",
+        "disinhibition",
+        "thalamic-gain-control",
+        "basal-ganglia-TRN",
+        "limbic-TRN",
+        "sensory-TRN"
+      ],
+      "main_sources": [
+        "PMID:6589612 (Crick 1984, PNAS) - 聚光灯假说",
+        "PMID:25126786 / PMC4205482 (Halassa 2014, Cell) - 开放全文",
+        "PMID:26503050 / PMC4626291 (Wimmer 2015, Nature) - 开放全文",
+        "PMID:30405364 / PMC6200870 (Crabtree 2018, Front Syst Neurosci) - 开放全文",
+        "PMID:32699411 / PMC7394718 (Li 2020, Nature) - 开放全文",
+        "PMID:29673480 / PMC6886707 (Krol 2018, Neuron) - 开放全文",
+        "PMID:31202541 (Nakajima 2019, Neuron) - 摘要",
+        "PMID:27589879 (Halassa & Acsady 2016, Trends Neurosci) - 摘要",
+        "PMID:16624964 (McAlonan 2006, J Neurosci) - 摘要",
+        "PMID:39630580 (Hartley 2024, Cell Reports) - 摘要"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/thalamic-reticular-nucleus.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/sleep-spindles.md (rev2→rev3): 新增 Spp1+ TRN 纺锤波生成角色（Li 2020）",
+        "wiki/concepts/thalamic-firing-modes.md (rev1→rev2): 新增 TRN 分子亚型的爆发放电差异"
+      ],
+      "graph_nodes_added": [
+        "thalamic-reticular-nucleus"
+      ],
+      "graph_nodes_updated": [],
+      "graph_edges_added": 8,
+      "graph_state": "400 节点，2272 边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-trn-01",
+        "Q-trn-02",
+        "Q-trn-03"
+      ],
+      "next_suggested_topics": [
+        "丘脑枕叶（Pulvinar）——视觉注意的皮层下路由器；TRN 的高阶视觉伴侣",
+        "前脉冲抑制（PPI）——TRN 参与感觉门控的行为测量；精神分裂症的操作化内表型",
+        "注意力的预测编码框架——TRN 门控如何与 Bayesian 信念更新结合（连接 TRN 与预测编码理论）",
+        "外侧缰核（LHb）与 TRN 的功能对比——两者都是'抑制控制'节点，但在不同系统（情绪 vs 感觉）中的差异"
+      ]
     }
   ],
   "total_entries": 178

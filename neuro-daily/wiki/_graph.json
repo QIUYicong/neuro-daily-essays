@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-16",
+  "updated": "2026-06-17",
   "node_count": 393,
   "edge_count": 2241,
   "edge_types": [
@@ -3623,6 +3623,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/cognition.md"
+    },
+    {
+      "id": "thalamic-reticular-nucleus",
+      "title": "丘脑网状核",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/thalamic-reticular-nucleus.md"
     }
   ],
   "edges": [
@@ -15594,6 +15603,46 @@
       "to": "marr-albus-ito",
       "type": "supports",
       "note": "LTD是MAI框架的分子级实现（虽非唯一机制）"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "thalamocortical-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "sleep-spindles",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "thalamic-firing-modes",
+      "type": "related"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "thalamus",
+      "type": "part-of"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "thalamic-reticular-nucleus",
+      "type": "regulates"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "thalamic-reticular-nucleus",
+      "type": "regulates"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "dorsal-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "attention-consciousness-dissociation",
+      "type": "related"
     }
   ],
   "dangling_references": [

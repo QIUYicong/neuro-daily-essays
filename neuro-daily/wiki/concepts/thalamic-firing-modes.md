@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 1
+updated: 2026-06-17
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit]
-related: [thalamus, thalamocortical-circuit, sleep-spindles, gain-control, action-potential, voltage-gated-calcium-channels]
+related: [thalamus, thalamocortical-circuit, sleep-spindles, gain-control, action-potential, voltage-gated-calcium-channels, thalamic-reticular-nucleus]
 prerequisites: [action-potential, voltage-gated-calcium-channels, membrane-potential]
 opens_questions: [Q-thalamus-burst-awake]
 source_articles: [2026-06-03-thalamus-gatekeeper-cognition]
@@ -107,6 +107,7 @@ key_sources: ["PMID:35803270", "PMID:29470499", "PMID:11164943"]
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《视丘的三张面孔》文章 #66 · 系统整合 tonic/burst 双模机制、信息论特性和清醒动物功能性爆发的最新证据 · 初始置信度：高
+- 2026-06-17 · 修订 · 基于《注意力的闸门》文章 #196 · 新增：TRN 内的双模放电有分子亚型依赖性——Spp1+（CaV3.3 富集）产生纺锤波，而 Ecel1+（CaV3.3 弱）调制高阶丘脑；added thalamic-reticular-nucleus 到 related
 
 ## 来源文章
 
