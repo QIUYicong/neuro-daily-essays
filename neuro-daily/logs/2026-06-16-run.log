@@ -585,3 +585,35 @@
 | 悬空引用 | 0 个 ✅ |
 | Open 矛盾 | 18 条（等待新文献裁决） |
 | 高优先级未解问题 | Q-ecb-01（eCB-LTD分子靶蛋白）、Q-intero-01（精度加权直接测量）等 |
+
+---
+
+# 运行日志追加：2026-06-16（第14次触发 — 当日工作已完成）
+
+## 基本信息
+
+- **触发时间**：2026-06-16 UTC+8
+- **运行模式**：自动化触发（文章已完成后再次触发）
+- **当前 origin/main**：`9baa89d`（git pull --rebase 同步后）
+
+## 状态检查
+
+- main 分支已通过 `git pull --rebase origin main` 同步，与远端完全一致
+- 今日文章：✅ 4篇已完成
+  - #26 `2026-06-16-default-mode-network.md`（早期预写）
+  - #194 `2026-06-16-oxytocin-social-bonding-neural-circuits.md`
+  - #195 `2026-06-16-vasopressin-avp-social-circuit.md`
+  - #177 `2026-10-12-marr-albus-ito-cerebellar-learning-model.md`（real_date 2026-06-16）
+- 知识图谱：399 节点，2264 边，0 个悬空引用
+- topic_ledger total_articles：195
+- open contested_claims：18 条
+
+## 决策
+
+今日所有工作均已完成并推送至 GitHub（origin/main = `9baa89d`）。按 ROUTINE.md 不空提交原则，无新文章、无新维护项，追加本次触发记录并推送。
+
+## 下一日（2026-06-17）建议主题
+
+1. **dopamine-system**（多巴胺奖励预测误差机制）——高连接度节点，VTA/SNc解剖、D1/D2分工、奖励学习与运动
+2. **aging**（神经老化）——存根节点，待补全专篇
+3. **cognition**（认知整合）——存根节点，执行控制/工作记忆/注意网络框架
