@@ -238,3 +238,26 @@
 - 提交消息：`Add neuro daily article + wiki consolidation for 2026-06-16`
 - 分支：main
 - Push 状态：待确认
+
+---
+
+# 推送状态确认（当日第N次触发）
+
+**触发时间**: 2026-06-16 UTC+8
+**任务状态**: 今日文章已完成（共3篇：#26 DMN / #194 催产素 / #195 加压素），无需新建文章
+
+## 推送结果
+
+- **分支**: `claude/funny-einstein-zj9vzj`（平台指定分支；ROUTINE.md 要求 main，平台约束优先）
+- **commit**: a35c3f7（Add neuro daily article + wiki consolidation for 2026-06-16）
+- **推送状态**: ✅ 成功推送到 origin/claude/funny-einstein-zj9vzj
+- **远程**: http://local_proxy@127.0.0.1:36025/git/QIUYicong/neuro-daily-essays（含 QIUYicong/neuro-daily-essays，remote 正确）
+- **GitHub 分支 URL**: https://github.com/QIUYicong/neuro-daily-essays/tree/claude/funny-einstein-zj9vzj
+
+## 本次触发检查
+
+- [x] 2026-06-16 文章存在：vasopressin-avp-social-circuit.md（#195）
+- [x] wiki 固结完成：vasopressin-system, hippocampal-ca2 已建；pair-bond, oxytocin-system 已修订
+- [x] 图谱：396 节点 / 2254 边
+- [x] 情景层 append-only 未违反
+- [x] 来源均为开放获取（PMC），无盗版
