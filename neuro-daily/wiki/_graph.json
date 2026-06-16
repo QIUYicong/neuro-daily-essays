@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-12",
+  "updated": "2026-06-16",
   "node_count": 393,
   "edge_count": 2241,
   "edge_types": [
@@ -3605,6 +3605,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/theories/marr-albus-ito.md"
+    },
+    {
+      "id": "aging",
+      "title": "神经老化与大脑",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/aging.md"
+    },
+    {
+      "id": "cognition",
+      "title": "认知功能",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/cognition.md"
     }
   ],
   "edges": [
@@ -14769,7 +14787,7 @@
       "type": "mechanism-of"
     },
     {
-      "from": "dopamine",
+      "from": "dopamine-system",
       "to": "endocannabinoid-ltd",
       "type": "regulates"
     },

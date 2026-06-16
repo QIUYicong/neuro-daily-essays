@@ -496,3 +496,49 @@
 ## 决策
 
 按 ROUTINE.md 不空提交原则，今日3篇文章已全部完成并推送至 GitHub（origin/main = d68ec64）。无新文章需写。追加本次（第11次）触发记录并推送。
+
+---
+
+# 运行日志追加：2026-06-16（第12次触发 — 图谱维护 + 悬空引用归零）
+
+## 基本信息
+
+- **触发时间**：2026-06-16 UTC+8
+- **运行模式**：自动化触发（文章已完成后再次触发）
+- **当前 origin/main**：`621ceca`（fetch 后已同步）
+
+## 状态检查
+
+- 分支：`claude/funny-einstein-0qk0yt`（origin/main 已同步至同一 commit）
+- 今日文章：✅ 4篇已完成
+  - #26 `2026-06-16-default-mode-network.md`（早期预写）
+  - #194 `2026-06-16-oxytocin-social-bonding-neural-circuits.md`
+  - #195 `2026-06-16-vasopressin-avp-social-circuit.md`
+  - #177 `2026-10-12-marr-albus-ito-cerebellar-learning-model.md`（real_date 2026-06-16）
+- 知识图谱修复前：397 节点，2264 边，3 个悬空引用（dopamine / aging / cognition）
+
+## 执行操作
+
+1. **图谱悬空引用修复**（无需新文章，纯维护）：
+   - `dopamine` 边 → 更正为 `dopamine-system`（已有节点）
+   - 新增存根节点 `aging`（待写专篇）
+   - 新增存根节点 `cognition`（待写专篇）
+   - 图谱修复后：399 节点，2264 边，0 个悬空引用
+2. **wiki/CHANGELOG.md**：追加 2026-06-16 维护更新条目
+
+## 决策
+
+今日4篇文章均已完成（详见前面触发记录）。本次触发仅执行图谱维护。
+
+## 下一日（2026-06-17）建议主题
+
+优先级排序：
+1. **dopamine-system 专篇**（多巴胺奖励预测误差机制——VTA/SNc、D1/D2分工、奖励学习与运动）——高连接度节点需深化
+2. **aging 专篇**（神经老化：突触丢失、髓鞘化退化、清除系统衰退、NMDAR GluN2开关）——填补新建存根
+3. **cognition 专篇**（认知功能概论：执行控制、工作记忆、注意网络的整合框架）——填补新建存根
+4. **催产素/加压素与ASD**（track 6 延续，临床试验 balovaptan/鼻内 AVP）
+
+## Git 操作
+
+- **Branch**：claude/funny-einstein-0qk0yt → push to origin/main
+- **变更**：wiki/_graph.json（图谱修复）+ wiki/CHANGELOG.md（维护记录）+ 本日志

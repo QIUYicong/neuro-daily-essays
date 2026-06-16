@@ -4,6 +4,16 @@
 
 ---
 
+## 2026-06-16（维护更新：知识图谱悬空引用修复 — 第12次触发）
+
+**图谱维护（无新文章）**：
+- 修复悬空边：`dopamine → endocannabinoid-ltd` 更正为 `dopamine-system → endocannabinoid-ltd`（原slug错误，dopamine-system 节点已存在）
+- 新增存根节点 `aging`（神经老化与大脑，待写专篇，来自 glun2-developmental-switch 连接）
+- 新增存根节点 `cognition`（认知功能，待写专篇，来自 cerebellum 连接）
+- 悬空引用：3个 → 0个；图谱统计：397 节点，2264 边 → 399 节点，2264 边
+
+---
+
 ## 2026-10-12（文章 #177：马尔-阿尔布斯-伊藤模型——小脑如何用攀爬纤维的教学信号学会精确运动）
 
 **创建新页（1 页）**：
