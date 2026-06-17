@@ -4,6 +4,23 @@
 
 ---
 
+## 2026-06-17（文章 #197：丘脑枕叶——视觉注意的皮层下路由器）
+
+**创建新页（2 页）**：
+- `wiki/systems/pulvinar.md`（rev1）：高阶丘脑核解剖（PI/PL/PM/PA 四亚核）+ 侧枕叶失活使 V1 响应降低 64%（Purushothaman 2012）+ 人类 fMRI 中注意完全排除忽视物编码（Fischer & Whitney 2012）+ 腹侧枕叶失活使任务表现从 74%→11%（Zhou et al. 2016）+ alpha/gamma 振荡协调（Cortes 2020）+ 临床：枕叶损伤选择性干扰物过滤障碍（Snow 2009）；status=established，confidence=high；图谱：+1 节点
+- `wiki/concepts/transthalamic-pathway.md`（rev1）：Layer 5 driver（强 AMPA 突触）+ Layer 6 modulator（弱精调）+ 与直接皮层连接的并行架构（Sherman & Usrey 2024）；status=emerging，confidence=medium；图谱：+1 节点
+
+**修订页面（1 页）**：
+- `wiki/systems/lateral-geniculate-nucleus.md`（rev1→rev2）：新增与枕叶的对比（一阶 vs 高阶核）；新增 pulvinar 和 transthalamic-pathway 到 related 和 source_articles（Casanova & Chalupa 2023）
+
+**矛盾检查**：新证据与既有主张一致，无新矛盾需要登记
+
+**新增图谱边（8 条）**：pulvinar↔TRN、pulvinar↔LGN、pulvinar→transthalamic-pathway、transthalamic-pathway→thalamocortical-circuit、pulvinar→thalamocortical-circuit、pulvinar→attention-consciousness-dissociation、TRN→pulvinar（regulates）、LGN↔pulvinar（related）
+
+**图谱状态**：402 节点，2280 边
+
+---
+
 ## 2026-06-17（文章 #196：注意力的闸门——丘脑网状核与感觉选通）
 
 **创建新页（1 页）**：

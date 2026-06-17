@@ -13670,6 +13670,80 @@
         "DREADD manipulation",
         "pain-induced anxiety"
       ]
+    },
+    {
+      "pmid": "38143202",
+      "title": "The pulvinar as a hub of visual processing and cortical integration",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": false
+    },
+    {
+      "pmid": "39197951",
+      "pmcid": "PMC11358609",
+      "title": "Transthalamic Pathways for Cortical Function",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": true
+    },
+    {
+      "pmid": "22561455",
+      "pmcid": "PMC3430824",
+      "title": "Gating and control of primary visual cortex by pulvinar",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": true
+    },
+    {
+      "pmid": "22968697",
+      "pmcid": "PMC3576929",
+      "title": "Attention gates visual coding in the human pulvinar",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": true
+    },
+    {
+      "pmid": "36572132",
+      "title": "Modulation of pulvinar connectivity with cortical areas in selective visual attention",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": false
+    },
+    {
+      "pmid": "37619793",
+      "title": "Context-dependent attentional spotlight in pulvinar-V1 interaction",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": false
+    },
+    {
+      "pmid": "37712093",
+      "pmcid": "PMC10498387",
+      "title": "The dorsal lateral geniculate nucleus and the pulvinar as essential partners for visual cortical functions",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": true
+    },
+    {
+      "pmid": "26748092",
+      "pmcid": "PMC4723640",
+      "title": "Pulvinar-Cortex Interactions in Vision and Attention",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": true
+    },
+    {
+      "pmid": "32290073",
+      "pmcid": "PMC7357165",
+      "title": "Pulvinar Modulates Synchrony across Visual Cortical Areas",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": true
+    },
+    {
+      "pmid": "32942125",
+      "pmcid": "PMC7770054",
+      "title": "Dynamic pulvino-cortical interactions in the primate attention network",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": true
+    },
+    {
+      "pmid": "19237580",
+      "pmcid": "PMC2656203",
+      "title": "Impaired attentional selection following lesions to human pulvinar",
+      "used_in": "2026-06-17-pulvinar-visual-attention-router",
+      "open_access": true
     }
   ],
   "total_sources": 831,

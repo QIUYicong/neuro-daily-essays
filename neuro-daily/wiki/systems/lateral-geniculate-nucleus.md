@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-10-05
-updated: 2026-10-05
-revision_count: 1
+updated: 2026-06-17
+revision_count: 2
 dimensions: [brain-region, cellular, molecular]
-related: [v1-primary-visual-cortex, thalamus, thalamocortical-circuit, binocular-rivalry, ocular-dominance-columns, retinal-waves]
+related: [v1-primary-visual-cortex, thalamus, thalamocortical-circuit, binocular-rivalry, ocular-dominance-columns, retinal-waves, pulvinar, transthalamic-pathway]
 prerequisites: [action-potential, synaptic-transmission, thalamus]
 opens_questions: [Q-lgn-01, Q-lgn-02]
-source_articles: [2026-10-05-binocular-rivalry-consciousness-mechanism]
-key_sources: ["PMID:36609303", "PMC9840381", "PMID:16997612"]
+source_articles: [2026-10-05-binocular-rivalry-consciousness-mechanism, 2026-06-17-pulvinar-visual-attention-router]
+key_sources: ["PMID:36609303", "PMC9840381", "PMID:16997612", "PMID:37712093", "PMID:22561455"]
 ---
 
 # 外侧膝状核 (Lateral Geniculate Nucleus, LGN)
@@ -75,6 +75,8 @@ Yildirim & Schneider（2023）用 7T fMRI 发现：
 - [[thalamocortical-circuit]] — LGN-V1 构成最重要的丘脑皮层回路
 - [[binocular-rivalry]] — LGN 眼特异性层参与竞争早期处理
 - [[ocular-dominance-columns]] — LGN 的眼分离信息投射形成 V1 眼优势柱
+- [[pulvinar]] — 枕叶是高阶丘脑核（皮层输入→皮层），与 LGN（视网膜输入→V1）并行构成两条丘脑-V1 驱动通路
+- [[transthalamic-pathway]] — LGN 是一阶核（非跨丘脑通路），枕叶通过跨丘脑通路实现皮层间中继
 
 ## 未解问题
 
@@ -84,7 +86,9 @@ Yildirim & Schneider（2023）用 7T fMRI 发现：
 ## 修订历史
 
 - 2026-10-05 · 创建 · 基于《感知的最小战场：双眼竞争》(#165) · 双眼竞争研究中 LGN 活动的发现 · 初始置信度：高
+- 2026-06-17 · 修订 · 基于《丘脑枕叶：视觉注意的皮层下路由器》(#197) · 新增与枕叶的对比（一阶 vs 高阶核）；新增 pulvinar 和 transthalamic-pathway 到 related；Casanova & Chalupa 2023 补充 · 置信度维持：高
 
 ## 来源文章
 
 - [[2026-10-05-binocular-rivalry-consciousness-mechanism]]
+- [[2026-06-17-pulvinar-visual-attention-router]]

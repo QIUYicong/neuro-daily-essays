@@ -3632,6 +3632,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/thalamic-reticular-nucleus.md"
+    },
+    {
+      "id": "pulvinar",
+      "title": "丘脑枕叶",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/pulvinar.md"
+    },
+    {
+      "id": "transthalamic-pathway",
+      "title": "跨丘脑皮层通路",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/transthalamic-pathway.md"
     }
   ],
   "edges": [
@@ -15643,6 +15661,54 @@
       "from": "thalamic-reticular-nucleus",
       "to": "attention-consciousness-dissociation",
       "type": "related"
+    },
+    {
+      "from": "pulvinar",
+      "to": "thalamic-reticular-nucleus",
+      "type": "related",
+      "note": "TRN 对枕叶输出实施 GABAergic 门控"
+    },
+    {
+      "from": "pulvinar",
+      "to": "lateral-geniculate-nucleus",
+      "type": "related",
+      "note": "LGN 是一阶核，枕叶是高阶核；两条并行丘脑-V1 驱动通路"
+    },
+    {
+      "from": "pulvinar",
+      "to": "transthalamic-pathway",
+      "type": "part-of",
+      "note": "枕叶是视觉跨丘脑通路的核心节点"
+    },
+    {
+      "from": "transthalamic-pathway",
+      "to": "thalamocortical-circuit",
+      "type": "is-a",
+      "note": "跨丘脑通路是 TC 回路的高阶延伸形式"
+    },
+    {
+      "from": "pulvinar",
+      "to": "thalamocortical-circuit",
+      "type": "part-of",
+      "note": "枕叶是 TC 回路的高阶组件"
+    },
+    {
+      "from": "pulvinar",
+      "to": "attention-consciousness-dissociation",
+      "type": "related",
+      "note": "枕叶注意门控：被忽视物体在枕叶中无可检测编码"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "pulvinar",
+      "type": "regulates",
+      "note": "TRN 抑制枕叶投射到皮层（选择性门控路由）"
+    },
+    {
+      "from": "lateral-geniculate-nucleus",
+      "to": "pulvinar",
+      "type": "related",
+      "note": "并行的一阶（LGN）和高阶（枕叶）视觉丘脑核"
     }
   ],
   "dangling_references": [

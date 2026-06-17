@@ -767,5 +767,21 @@
     "change_reason": "新建 rev1（2026-06-14 #190）：双通路模型（外侧感觉-辨别/内侧情感-动机）、各成分功能、fMRI元分析、显著性网络争议",
     "previous_status": null,
     "source_article": "2026-06-14-nociception-pain-pathways"
+  },
+  "pulvinar": {
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-17",
+    "change_reason": "新建 rev1（2026-06-17 #197）：侧枕叶失活使V1降低64%（Purushothaman 2012），人类fMRI注意门控（Fischer & Whitney 2012），枕叶失活使任务表现从74%→11%（Zhou 2016），振荡协调（Cortes 2020），临床损伤研究（Snow 2009）；多重独立来源支持枕叶在视觉注意中的因果作用",
+    "previous_status": null,
+    "source_article": "2026-06-17-pulvinar-visual-attention-router"
+  },
+  "transthalamic-pathway": {
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-06-17",
+    "change_reason": "新建 rev1（2026-06-17 #197）：Layer 5 driver vs Layer 6 modulator 框架（Sherman & Usrey 2024综述），枕叶独立驱动V1的证据（LGN毁损后枕叶仍可14×激活V1，Purushothaman 2012）；理论框架清晰，但某些物种/皮层区域的具体实现仍在研究中",
+    "previous_status": null,
+    "source_article": "2026-06-17-pulvinar-visual-attention-router"
   }
 }

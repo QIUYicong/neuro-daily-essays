@@ -1,6 +1,28 @@
 # 未解问题追踪
 
-*最后更新：2026-10-11*
+*最后更新：2026-06-17*
+
+---
+
+## 2026-06-17 新增（来自"丘脑枕叶：视觉注意的皮层下路由器" #197）
+
+### Q-pulvinar-01（高优先级）：Layer 5 driver 和 Layer 6 modulator 在枕叶内的靶细胞差异
+
+- **关联 wiki**：[[pulvinar]]、[[transthalamic-pathway]]、[[thalamocortical-circuit]]
+- **来源文章**：2026-06-17-pulvinar-visual-attention-router
+- **问题**：Sherman & Usrey 2024 明确区分了皮层 Layer 5（driver，强 AMPA 突触）和 Layer 6（modulator，弱调制型）到高阶丘脑核的双通道投射。但（a）这两条通路在枕叶内是否靶向不同的细胞类型或亚核（例如 PI vs PL 的选择性偏好）？（b）能否在体（例如用双向荧光标记）同时标记 L5 和 L6 的终末，确认它们在枕叶内的解剖分布是否真的分离？（c）L5 driver 和 L6 modulator 的整合——枕叶神经元是否需要两者同时激活才能有效激活目标皮层区域？还是 L5 单独就足够？
+
+### Q-pulvinar-02（中优先级）：枕叶在睡眠中的角色
+
+- **关联 wiki**：[[pulvinar]]、[[sleep-spindles]]、[[thalamic-reticular-nucleus]]
+- **来源文章**：2026-06-17-pulvinar-visual-attention-router
+- **问题**：TRN 在 NREM 睡眠中产生记忆巩固所需的纺锤波（Spp1+ 亚型通过 CaV3.3 爆发放电）。枕叶在睡眠期是否也参与记忆巩固？（a）枕叶在 NREM 睡眠期间的放电模式如何变化——是跟随 TRN 纺锤波、还是独立生成特定节律？（b）枕叶-皮层通路在记忆重播（SWR-triggered replay）期间是否被激活，将白天学习的视觉内容重播至相关皮层区域？（c）直接短暂失活枕叶（在睡眠期间）是否选择性损害视觉性质记忆的巩固？
+
+### Q-pulvinar-03（中优先级）：内侧枕叶（PM）在情绪性注意和焦虑中的因果角色
+
+- **关联 wiki**：[[pulvinar]]、[[amygdala]]、[[anterior-insula]]、[[prefrontal-cortex]]
+- **来源文章**：2026-06-17-pulvinar-visual-attention-router
+- **问题**：内侧枕叶（PM）连接 dlPFC、OFC 和杏仁核——这使它成为情绪显著性信号与认知控制信号汇聚的潜在节点。（a）在焦虑障碍或高特质焦虑个体中，PM 对威胁刺激（如恐惧面孔）的响应是否异常增强，且这种增强是否通过 PM→杏仁核通路放大杏仁核激活？（b）PM 的因果操控（例如 TMS 抑制右侧 PM）是否会选择性减弱对威胁面孔的注意偏向，而不影响非情绪性视觉选择？（c）PTSD 患者的右侧 PM 功能连接模式是否与健康对照存在特征性差异？
 
 ---
 

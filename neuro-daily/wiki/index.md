@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-17（**#196** 丘脑网状核：注意力的闸门；新建 1 页：thalamic-reticular-nucleus（systems）；修订 2 页：sleep-spindles rev3、thalamic-firing-modes rev2；图谱 **400** 节点，**2272** 边）· 主题页总数：**349**
+> 最后更新：2026-06-17（**#197** 丘脑枕叶：视觉注意的皮层下路由器；新建 2 页：pulvinar（systems）、transthalamic-pathway（concepts）；修订 1 页：lateral-geniculate-nucleus rev2；图谱 **402** 节点，**2280** 边）· 主题页总数：**351**
 
 ---
 
@@ -46,6 +46,7 @@
 - 🔵 [吊灯细胞](circuits/chandelier-cell.md) — 特异靶向 AIS 的抑制性中间神经元（修订2次）
 - 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许"；Haber螺旋模型：腹侧（动机）→背侧（习惯）级联 **[修订 rev2 2026-07-13]**
 - 🟢 [丘脑-皮层回路](circuits/thalamocortical-circuit.md) — TRN（CaV3.3 T型）↔TC（CaV3.1）振荡环路是睡眠纺锤波起搏器；Core/Matrix双通路；CT反馈在清醒/睡眠切换中起关键作用；**新增**：一次/高次视丘核（Sherman框架）、驱动/调制型突触、PFC→TRN大型端钮（2026-06-03更新）
+- 🟡 [跨丘脑皮层通路](concepts/transthalamic-pathway.md) — 皮层 A 的 Layer 5 锥体神经元 → 高阶丘脑核（枕叶）→ 皮层 B；与直接皮层连接并行；L5 为 driver（强 AMPA）/ L6 为 modulator（弱调制）；TRN 对其进行 GABA 门控；精神分裂症可能与此通路异常有关（Sherman & Usrey 2024）**[NEW 2026-06-17 #197]**
 - 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序 **[NEW 2026-06-03]**
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
@@ -330,7 +331,8 @@
 - 🔵 [DLPFC 规则编码](concepts/dlpfc-rule-encoding.md) — 分布式高维动态编码；偏置信号框架（Miller & Cohen 2001）；动态状态轨迹维持规则（Stokes 2013）；人类 24% 神经元规则选择性左半球优势；跨物种保守（猕猴 area 46） **[NEW 2026-08-30 #130]**
 - 🔵 [额叶认知控制层级](concepts/frontal-hierarchy.md) — 前后轴层级：BA46（情境级）→IFS（维度级）→PrePMd（特征级）→M1（反应级）；Badre 2009 病变双解离证据；离散层级 vs 连续梯度争议 **[NEW 2026-08-30 #130]**
 - 🟢 [眶额叶皮层（OFC）](systems/orbitofrontal-cortex.md) — 大脑"估价系统"；三类商品价值神经元（Padoa-Schioppa 2006）；Rangel 2008 三系统框架中目标导向系统的价值输入源；OFC→NAc 投射为 actor-critic 批评家提供 V(s)；Hattori 2023 CaMKII 元学习扩展；**lOFC⇄BLA 四向协作回路（Wassum 2022）**；vmPFC/dlPFC 自我控制回路（Hare 2009）（修订rev2 2026-07-30 #98）**[NEW 2026-07-29 #97]**
-- 🟢 [外侧膝状核（LGN）](systems/lateral-geniculate-nucleus.md) — 丘脑视觉子核；6层眼特异性分层（灵长类）；大细胞（M/运动）+ 小细胞（P/颜色形状）通路分流；皮层-膝状体反馈数量超过前馈；双眼竞争中 M/P 层均参与感知相关活动（Yildirim & Schneider 2023） **[NEW 2026-10-05 #165]**
+- 🟢 [外侧膝状核（LGN）](systems/lateral-geniculate-nucleus.md) — 丘脑视觉子核；6层眼特异性分层（灵长类）；大细胞（M/运动）+ 小细胞（P/颜色形状）通路分流；皮层-膝状体反馈数量超过前馈；双眼竞争中 M/P 层均参与感知相关活动；与枕叶并行构成两条丘脑-V1 驱动通路（一阶 vs 高阶）**[修订 rev2 2026-06-17 #197]**
+- 🟢 [丘脑枕叶（Pulvinar）](systems/pulvinar.md) — 灵长类丘脑最大高阶核；四亚核（PI/PL/PM/PA）连接几乎所有视觉皮层区；接收皮层 L5 driver 输入，构成皮层间跨丘脑通路；失活使 V1 响应降低 64%（猫/猴），激活使 V1 中央增益 +232%；人类 fMRI 中被忽视物体编码完全排除（Fischer & Whitney 2012）；振荡协调 alpha（反馈）和 gamma（前馈）；枕叶损伤 → 选择性干扰物过滤障碍（Snow 2009）**[NEW 2026-06-17 #197]**
 - 🟢 [腹侧神经索（VNC）](systems/ventral-nerve-cord.md) — 果蝇类脊髓结构，约20,000个神经元（BANC 2026）；按体段组织（T1-T3胸节控腿翅/A1-A10腹节控内脏生殖）；运动神经元最强输入来自同体段局部感觉神经元（局部优先）；去头果蝇仍可协调行走（局部自主性的行为证明）；BANC 2026 首次建立完整接线图 **[NEW 2026-10-06 #166]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）；双眼竞争中 V1 的 fMRI 调制 vs 电生理悖论：注意门控解释（修订8次）
 - 🟢 [V4 视觉区](systems/v4-visual-area.md) — 腹侧流中间节点；在物体中心坐标系对边界形状（曲率×角度）进行选择性调谐；区分真实 vs. 遮挡轮廓；平均响应潜伏期 76.6 ms；多维联合调谐（形状×颜色×纹理×深度）；位置不变性的起始点 **[NEW 2026-08-16 #115]**

@@ -13260,6 +13260,88 @@
       ],
       "mode": "gap-driven",
       "note": "真实执行日期2026-06-16；课程序列第177篇；填补悬空引用 marr-albus-ito；完成小脑运动学习系列的理论骨架"
+    },
+    {
+      "date": "2026-06-17",
+      "real_date": "2026-06-17",
+      "article_number": 197,
+      "title": "丘脑枕叶：视觉注意的皮层下路由器",
+      "slug": "pulvinar-visual-attention-router",
+      "filename": "2026-06-17-pulvinar-visual-attention-router.md",
+      "article_type": "regular",
+      "core_question": "丘脑枕叶作为高阶丘脑核，如何通过跨丘脑皮层通路（layer 5 driver→枕叶→目标皮层）和振荡同步机制，在视觉皮层区域之间路由信息，并将注意力信号转化为对V1响应的精准门控（压制64%，增强232%）？",
+      "layer": [
+        "brain-region",
+        "microcircuit",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "5. 认知控制（注意力机制——第二篇：高阶视觉丘脑）",
+      "topic_tags": [
+        "pulvinar",
+        "higher-order-thalamus",
+        "visual-attention",
+        "transthalamic-pathway",
+        "V1-gating",
+        "attention-coding",
+        "alpha-oscillations",
+        "gamma-oscillations",
+        "corticothalamo-cortical",
+        "layer5-driver",
+        "layer6-modulator",
+        "LGN-comparison",
+        "distractor-filtering",
+        "thalamic-routing",
+        "PI",
+        "PL",
+        "PM",
+        "PA",
+        "pulvinar-lesion",
+        "spatial-attention",
+        "oscillatory-synchrony"
+      ],
+      "main_sources": [
+        "PMID:38143202 (Cortes et al. 2024, Trends Neurosci) - 摘要",
+        "PMID:39197951 / PMC11358609 (Sherman & Usrey 2024, J Neurosci) - 开放全文",
+        "PMID:22561455 / PMC3430824 (Purushothaman et al. 2012, Nat Neurosci) - 开放全文",
+        "PMID:22968697 / PMC3576929 (Fischer & Whitney 2012, Nat Commun) - 开放全文",
+        "PMID:36572132 (Guedj & Vuilleumier 2023, NeuroImage) - 摘要",
+        "PMID:37619793 (Chen et al. 2023, NeuroImage) - 摘要",
+        "PMID:37712093 / PMC10498387 (Casanova & Chalupa 2023, Front Neurosci) - 开放全文",
+        "PMID:26748092 / PMC4723640 (Zhou et al. 2016, Neuron) - 开放全文",
+        "PMID:32290073 / PMC7357165 (Cortes et al. 2020, Vision) - 开放全文",
+        "PMID:32942125 / PMC7770054 (Kastner et al. 2020, Curr Opin Neurobiol) - 开放全文",
+        "PMID:19237580 / PMC2656203 (Snow et al. 2009, PNAS) - 开放全文"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/pulvinar.md",
+        "wiki/concepts/transthalamic-pathway.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/lateral-geniculate-nucleus.md (rev1→rev2): 新增与枕叶的一阶/高阶对比；新增 pulvinar 和 transthalamic-pathway 连接"
+      ],
+      "graph_nodes_added": [
+        "pulvinar",
+        "transthalamic-pathway"
+      ],
+      "graph_nodes_updated": [],
+      "graph_edges_added": 8,
+      "graph_state": "402 节点，2280 边",
+      "contested_claims_logged": [],
+      "contested_claims_resolved": [],
+      "unresolved_questions": [
+        "Q-pulvinar-01",
+        "Q-pulvinar-02",
+        "Q-pulvinar-03"
+      ],
+      "next_suggested_topics": [
+        "注意力的预测编码框架——TRN + 枕叶门控如何与 Bayesian 精度加权结合（今日文章已提及三大功能框架）",
+        "前脉冲抑制（PPI）——TRN 和枕叶参与感觉门控的行为测量；精神分裂症内表型",
+        "外侧缰核（LHb）——抑制多巴胺能奖励信号的'反奖励'节点；与 TRN/枕叶的比较",
+        "内侧枕叶（PM）与情绪性注意——连接枕叶→杏仁核通路与情绪显著性处理"
+      ],
+      "mode": "long_term_curriculum",
+      "note": "UTC+8=2026-06-17；知识库序号197；认知控制—注意力系列第二篇（TRN是第一篇）；枕叶高阶丘脑核与跨丘脑路由机制；新建2个wiki页（pulvinar、transthalamic-pathway）；修订1个既有页（lateral-geniculate-nucleus）；图谱 402 节点 2280 边"
     }
   ],
   "layer_coverage_recent": [
@@ -13686,5 +13768,5 @@
       ]
     }
   ],
-  "total_entries": 178
+  "total_entries": 179
 }
