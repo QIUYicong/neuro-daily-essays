@@ -628,3 +628,55 @@
 - 依据：_graph.json 中无 pulvinar 节点（缺口），TRN 文章（#196）next_suggested_topics 第一条即枕叶；课程脊柱"5. 认知控制"第二篇
 - 11来源：PMID 38143202/39197951/22561455/22968697/36572132/37619793/37712093/26748092/32290073/32942125/19237580
 - 核心发现：侧枕叶失活 V1 −64%，激活 V1 中央 +232%；人类 fMRI 被忽视物体编码完全排除；振荡协调 alpha/gamma；TRN + 枕叶 = 两级丘脑注意控制
+
+---
+
+# 运行日志 2026-06-17（第11次触发 — 补完）
+
+**说明**：第11次触发（claude/funny-einstein-cjq00r）已成功完成文章 #197（丘脑枕叶）并推送至 origin/main，commit `0f81848`。本次日志中该触发的"Git push: 待完成"系日志写入时间早于 push 完成，实际状态为成功。
+
+---
+
+# 运行日志 2026-06-17（第12次触发）
+
+**运行时间**：2026-06-17（UTC+8，第12次触发）
+**触发分支**：claude/funny-einstein-mpwvur（已 checkout 到 main 执行）
+**运行状态**：无需新文章，系统健康
+
+---
+
+## 执行摘要
+
+| 检查项 | 状态 |
+|--------|------|
+| remote 验证 | ✅ origin → QIUYicong/neuro-daily-essays（local_proxy，符合规范） |
+| main 分支同步 | ✅ git pull --rebase origin main 成功（local = origin/main = 0f81848） |
+| ROUTINE.md / KNOWLEDGE-BASE-DESIGN.md | ✅ 已读取 |
+| 今日文章检查 | ✅ 已有 3 篇（#30 SWR + #196 TRN + #197 Pulvinar），均已推送（最新 commit 0f81848） |
+| 知识图谱 | ✅ 402 节点，2280 边，updated=2026-06-17 |
+| open 矛盾 | ✅ 18条 open（无变化） |
+| 工作树状态 | ✅ 情景层 append-only 未违反 |
+| 情景层完整性 | ✅ 所有旧文件 append-only 未改动 |
+
+## 说明
+
+今日（2026-06-17）文章已全部完成并成功推送：
+- 文章 #30：2026-06-17-sharp-wave-ripples-memory-replay.md（海马锐波涟漪）
+- 文章 #196：2026-06-17-thalamic-reticular-nucleus-attention-gating.md（丘脑网状核）
+- 文章 #197：2026-06-17-pulvinar-visual-attention-router.md（丘脑枕叶，由第11次触发完成，commit 0f81848）
+
+按 ROUTINE.md 规则：**不要反复生成同一天文章**。本次触发仅追加本日志记录后提交推送。
+
+## 系统当前状态
+
+- **今日完成文章数**：3篇（SWR + TRN + Pulvinar）
+- **知识图谱**：402 节点，2280 边，0 悬空边
+- **总台账条目数**：179，总文章数（文件数）：183
+- **open 矛盾**：18条
+- **下一篇建议**（明天）：前脉冲抑制（PPI）或注意力的预测编码框架
+
+## Git 操作
+
+- 分支：main
+- 操作：追加运行日志（第11次触发补完 + 第12次触发）
+- commit message: "Update run log 2026-06-17: 12th trigger — all work complete, system healthy"
