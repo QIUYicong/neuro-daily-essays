@@ -1282,6 +1282,32 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/scn-circadian-pacemaker.md"
+    },
+    {
+      "id": "glucocorticoid-stress-memory",
+      "label": "糖皮质激素与应激记忆",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "file": "wiki/concepts/glucocorticoid-stress-memory.md",
+      "revision_count": 1,
+      "source_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ]
+    },
+    {
+      "id": "hpa-axis",
+      "label": "HPA 轴（下丘脑-垂体-肾上腺轴）",
+      "domain": "systems",
+      "type": "system",
+      "status": "established",
+      "confidence": "high",
+      "file": "wiki/systems/hpa-axis.md",
+      "revision_count": 1,
+      "source_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ]
     }
   ],
   "edges": [
@@ -5793,6 +5819,141 @@
       "to": "bdnf",
       "type": "related",
       "note": "BDNF 表达受昼夜节律调控，影响 PV+ 成熟时间轴和关键期时序"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "hpa-axis",
+      "type": "produced_by"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "amygdala",
+      "type": "requires"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "hippocampal-circuit",
+      "type": "affects"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "norepinephrine-locus-coeruleus",
+      "type": "requires"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "fear-conditioning",
+      "type": "instantiates"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "fear-extinction",
+      "type": "modulates"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "ltp",
+      "type": "mechanism"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "nmda-receptor",
+      "type": "requires"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "basal-ganglia",
+      "type": "affects"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "memory-consolidation",
+      "type": "modulates"
+    },
+    {
+      "source": "glucocorticoid-stress-memory",
+      "target": "alzheimers-disease",
+      "type": "risk_factor"
+    },
+    {
+      "source": "hpa-axis",
+      "target": "glucocorticoid-stress-memory",
+      "type": "produces"
+    },
+    {
+      "source": "hpa-axis",
+      "target": "amygdala",
+      "type": "targets"
+    },
+    {
+      "source": "hpa-axis",
+      "target": "hippocampal-circuit",
+      "type": "targets"
+    },
+    {
+      "source": "hpa-axis",
+      "target": "norepinephrine-locus-coeruleus",
+      "type": "synergizes"
+    },
+    {
+      "source": "hpa-axis",
+      "target": "fear-conditioning",
+      "type": "modulates"
+    },
+    {
+      "source": "hpa-axis",
+      "target": "memory-consolidation",
+      "type": "modulates"
+    },
+    {
+      "source": "hpa-axis",
+      "target": "circadian-clock",
+      "type": "gated_by"
+    },
+    {
+      "source": "hpa-axis",
+      "target": "alzheimers-disease",
+      "type": "risk_factor"
+    },
+    {
+      "source": "hpa-axis",
+      "target": "bdnf",
+      "type": "modulates"
+    },
+    {
+      "source": "amygdala",
+      "target": "glucocorticoid-stress-memory",
+      "type": "instantiates"
+    },
+    {
+      "source": "amygdala",
+      "target": "hpa-axis",
+      "type": "activates"
+    },
+    {
+      "source": "hippocampal-circuit",
+      "target": "glucocorticoid-stress-memory",
+      "type": "affected_by"
+    },
+    {
+      "source": "hippocampal-circuit",
+      "target": "hpa-axis",
+      "type": "feedback_inhibits"
+    },
+    {
+      "source": "norepinephrine-locus-coeruleus",
+      "target": "glucocorticoid-stress-memory",
+      "type": "enables"
+    },
+    {
+      "source": "memory-consolidation",
+      "target": "glucocorticoid-stress-memory",
+      "type": "regulated_by"
+    },
+    {
+      "source": "fear-conditioning",
+      "target": "glucocorticoid-stress-memory",
+      "type": "modulated_by"
     }
   ],
   "dangling_references": [

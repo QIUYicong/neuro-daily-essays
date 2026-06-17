@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-07（第75篇·三重协奏·SO-纺锤波-SWR 记忆巩固与 SHY 假说）· 主题页总数：**139**（新建2页：so-spindle-swr-coupling, shy-hypothesis；修订3页：memory-consolidation rev6, sleep-spindles rev2, sharp-wave-ripples rev6；图谱136节点、772边；无新矛盾登记）
+> 最后更新：2026-07-09（第77篇·糖皮质激素与应激记忆·GC-BLA-NE 协同机制）· 主题页总数：**141**（新建2页：glucocorticoid-stress-memory, hpa-axis；修订4页：amygdala rev2, hippocampal-circuit rev10, 以及昼夜节律文章带来的rev更新；图谱143节点、846边；无新矛盾登记）
 
 ---
 
@@ -103,6 +103,7 @@
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）**[NEW 2026-07-01]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
 - 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性 **[NEW 2026-06-28]**（填补多页悬空引用）
+- 🟢 [糖皮质激素与应激记忆](concepts/glucocorticoid-stress-memory.md) — MR（高亲和力/快速评估）/GR（低亲和力/慢速巩固）双时相模型；BLA是全脑GC记忆增强的必要枢纽；GC+NE协同门控（β-AR阻断消除GC效应）；慢性GC→CA3选择性萎缩；急性应激→记忆系统切换至背侧纹状体 **[NEW 2026-07-09]**
 - 🟢 [Aβ寡聚体](concepts/amyloid-beta-oligomers.md) — AD的核心毒性物种；通过PrPC/NR2B/calcineurin/BDNF/tau五路并行瓦解海马LTP机器 **[NEW 2026-06-08]**
 - 🟢 [短时程突触可塑性（STP）](concepts/short-term-synaptic-plasticity.md) — 毫秒至分钟尺度内突触效率的使用依赖性动态变化；Syt7驱动易化（高p→低通）、RRP耗竭驱动抑制（低p→高通）；是工作记忆活动无声储存的分子基础 **[NEW 2026-06-10]**
 - 🟢 [方向选择性](concepts/orientation-selectivity.md) — V1将LGN非定向圆对称输入转化为精确方向响应的核心计算；前馈LGN排列+E/I平衡+树突NMDA棘波三层机制；有/无方向柱物种均可达同等锐利选择性 **[NEW 2026-06-11]**
@@ -147,7 +148,8 @@
 - 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
-- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路 **[NEW 2026-05-30]**
+- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；**rev2新增**：GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应（修订2次）
+- 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**

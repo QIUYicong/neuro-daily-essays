@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-07-09（文章 #77·记忆为什么最牢记住恐惧·糖皮质激素与应激记忆）
+
+**源文章**：[[2026-07-09-glucocorticoids-stress-memory-amygdala]] —《记忆为什么最牢记住恐惧：糖皮质激素如何通过杏仁核把应激烙进长期记忆》
+
+**新建页面（2 页）**：
+- `concepts/glucocorticoid-stress-memory.md`：MR/GR 双时相模型（MR 高亲和力快速评估 vs GR 低亲和力慢速基因组巩固）；BLA 作为全脑 GC 记忆增强必要枢纽（Barsegyan 2019 PMC6452745）；GC+NE 协同门控（Roozendaal 2006 β-AR 阻断实验）；HPA-SAM 轴协同模型；慢性应激→CA3 选择性萎缩（McEwen 1997, Uno 1994）；急性应激→记忆系统切换（HC→背侧纹状体，Schwabe 2012 fMRI）（established, confidence:high）
+- `systems/hpa-axis.md`：PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇三级级联；MR/GR 亲和力分工；负反馈三层次（快速非基因组/中速基因组/慢速 CRH 下调）；海马 GR 负反馈制动及慢性应激恶性循环；CRH 在 CeA 的中枢独立效应（肾上腺切除动物仍存在）；SCN 昼夜节律对 HPA 皮质醇晨峰的门控（established, confidence:high）
+
+**修订页面（2 页）**：
+- `systems/amygdala.md`（rev1→rev2）：新增"GC与NE协同增强应激记忆"机制节（BLA必要枢纽、GC-NE协同门控、两次激活模型、Barsegyan 2019 多节点网络证据）；新增"CRH在CeA的中枢独立效应"节；related新增glucocorticoid-stress-memory、hpa-axis、memory-consolidation；key_sources新增PMID:30877244、PMID:16310958、PMID:23968228；opens_questions新增Q-fear-itc-bidirectionality；source_articles新增2026-07-09
+- `neurons/hippocampal-circuit.md`（rev9→rev10）：新增"CA3的慢性应激脆弱性"机制节（树突萎缩约20%、灵长类海马萎缩约30%、GR高密度机制、NMDAR拮抗剂防萎缩因果证据、HPA负反馈恶性循环）；关键证据表增加2行（PMID:9405958、PMID:7729802）；连接新增glucocorticoid-stress-memory、hpa-axis；未解问题新增Q-gc-02；related/key_sources/source_articles相应更新
+
+**图谱更新**：新增 2 节点（glucocorticoid-stress-memory, hpa-axis）、27 条边；总计 143 节点，846 边
+
+**新登记矛盾**：无
+
+**新增未解问题（3 个）**：
+- Q-gc-01（高优先）：GR 拮抗剂（米非司酮）在创伤记忆再巩固窗口的临床有效性——当前 RCT 结果不一致；理想给药时机、剂量、患者亚型未明
+- Q-gc-02（高优先）：慢性应激→CA3 萎缩→AD 风险升高的因果链强度——纵向研究（PTSD 后跟踪 10 年）的 AD 发病率数据能否确立因果？
+- Q-gc-03（中优先）：GR 快速非基因组效应（膜型 GR 和 eCB 系统）在 BLA 记忆增强的前 30 分钟的精确时间贡献
+
+**新增悬空引用（待补）**：无（所有连接指向已有节点或新建节点）
+
+---
+
 ## 2026-07-08（文章 #76·大脑的 24 小时时钟·昼夜节律与 SCN 主时钟）
 
 **源文章**：[[2026-07-08-circadian-clock-scn-brain-rhythm]] —《大脑的 24 小时时钟：视交叉上核如何用分子振荡设定时间，协调睡眠、记忆与衰老》

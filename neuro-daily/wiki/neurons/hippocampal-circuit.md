@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-06-24
-revision_count: 9
+updated: 2026-07-09
+revision_count: 10
 dimensions: [brain-region, microcircuit, cognition, disease]
-related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems]
+related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, glucocorticoid-stress-memory, hpa-axis]
 prerequisites: [synaptic-transmission, ltp, action-potential]
-opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses]
-source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-24-hippocampal-ca3-pattern-completion]
-key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779", "PMID:12040087", "PMID:15272123", "PMID:1308182", "PMID:21460835"]
+opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses, Q-gc-02]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-09-glucocorticoids-stress-memory-amygdala]
+key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779", "PMID:12040087", "PMID:15272123", "PMID:1308182", "PMID:21460835", "PMID:9405958", "PMID:7729802"]
 ---
 
 # 海马回路 (Hippocampal Circuit)
@@ -102,6 +102,28 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - 胆碱能（ACh）张力是关键开关：ACh高→θ态；ACh低→SWR自发爆发
 - MS-DBB驱动θ时，同时抑制CA3的循环兴奋；θ消失时，循环兴奋解放
 
+### 6. CA3 的慢性应激脆弱性
+
+CA3 是海马中对慢性糖皮质激素（GC）**选择性最脆弱**的亚区（McEwen 1997, PMID:9405958；Uno 1994, PMID:7729802）：
+
+**结构损伤**：
+- 啮齿类 21 天束缚应激→CA3 锥体细胞顶树突萎缩约 **20%**（树突总长度、分支复杂度）
+- 灵长类慢性社会从属应激→海马体积萎缩约 **30%**（CA3 细胞密度降低为主）
+
+**CA3 选择性脆弱的机制**：
+1. **循环突触高兴奋性**：CA3 循环连接（~12,000 个/神经元）形成局部正反馈网络，在慢性 GC 刺激下比 CA1/DG 更易发生 NMDAR 过激活
+2. **高 GR 密度**：CA3 锥体细胞 GR 表达高于 CA1，对 GC 更敏感
+3. **谷氨酸-NMDA 机制**：慢性 GC→突触前谷氨酸释放增加→NMDAR 过激活→树突结构损伤；NMDAR 拮抗剂（AP5）可防止萎缩（因果证据）
+
+**功能后果**：
+- 模式补全功能受损（CA3 循环回路是模式补全的关键结构）
+- DG→CA3→CA1 模式分离-补全信息流的整体容量下降
+- 场所细胞重映射能力下降→空间导航灵活性受损
+
+**可逆性**：解除慢性应激后 2-3 周，CA3 树突部分恢复——结构可塑性在成年脑中仍保留（但恢复不完全）。
+
+**HPA 负反馈恶性循环**：CA3/CA1 GR→抑制 HPA 轴（负反馈制动）。慢性 GC 损害海马 → 负反馈减弱 → HPA 轴更难关闭 → 更多 GC → 进一步 CA3 损伤（正反馈恶性循环），这可能是慢性应激→AD 风险升高的部分机制（Q-gc-02）。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -111,6 +133,8 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 | CA1 整合 CA3 + EC3 两路输入 | 分层记录 + 光遗传阻断 | PMID:32042144 综述 | 高 |
 | 海马损伤导致顺行性遗忘 | H.M. 案例等神经心理学经典 | 引用于 PMID:18284371 | 高 |
 | CA3 BTSP 在循环突触上，依赖内嗅皮层 | 清醒小鼠胞内 + 光遗传 | PMID:39454575 | 高（读摘要）|
+| 慢性应激→CA3 顶树突萎缩约 20%（NMDAR 机制） | 束缚应激 + 形态学测量 + AP5 阻断 | PMID:9405958 | 高（啮齿类） |
+| 灵长类慢性社会应激→海马体积萎缩约 30% | 树鼩社会从属应激 + 神经病理 | PMID:7729802 | 高（灵长类） |
 
 ## 连接
 
@@ -124,6 +148,8 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 - [[engram-cells]] — DG 是印迹细胞的主要居所；DG→CA3→CA1→BLA 的印迹间优先连接链利用三突触回路结构
 - [[pv-interneurons]] — CA1 的 PV+ 篮状细胞在 SWR 期间强放电，产生涟漪（100–200 Hz）；在 θ 期间控制放电时序
 - [[sst-interneurons]] — CA1 的 O-LM 细胞（SST+ 亚型）在 θ 期间活跃，靶向内嗅皮层输入区（SLM），实现 top-down 输入门控
+- [[glucocorticoid-stress-memory]] — 慢性 GC 选择性损伤 CA3（树突萎缩、GR 高密度、循环兴奋过激）；急性 GC 增强 BLA-海马通路的记忆巩固
+- [[hpa-axis]] — 海马（CA1/CA3/DG GR）是 HPA 轴负反馈的主要制动节点；慢性应激导致的 CA3 萎缩削弱此制动 → HPA 恶性循环
 
 ## 未解问题
 
@@ -133,6 +159,7 @@ CA1 输出到**下托（Subiculum）**，再到内嗅皮层（EC）、前额叶�
 
 ## 修订历史
 
+- 2026-07-09 · 修订 rev10 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"CA3 的慢性应激脆弱性"机制节（CA3 树突萎缩 20%、灵长类海马体积萎缩 30%、GR 高密度机制、NMDAR 拮抗剂防萎缩、HPA 负反馈恶性循环）；证据表新增 2 行（PMID:9405958、PMID:7729802）；连接新增 glucocorticoid-stress-memory、hpa-axis；未解问题新增 Q-gc-02；related/key_sources/source_articles 相应更新
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 新增：CA3 模式补全因果证据（Nakazawa 2002 PMID:12040087 CA3-NR1 KO 实验）；CA3 vs CA1 不同计算个性（Leutgeb 2004 PMID:15272123）；related 新增 pattern-completion、pattern-separation、attractor-network、complementary-learning-systems；key_sources 新增 4 篇关键来源
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"海马两种工作模式"（θ态/SWR态）章节；新增 SWR 生成和重播机制；新增 key_sources

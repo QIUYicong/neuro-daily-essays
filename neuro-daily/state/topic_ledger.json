@@ -1,7 +1,57 @@
 {
-  "last_updated": "2026-07-08",
-  "total_articles": 76,
+  "last_updated": "2026-07-09",
+  "total_articles": 77,
   "entries": [
+    {
+      "date": "2026-07-09",
+      "title": "记忆为什么最牢记住恐惧：糖皮质激素如何通过杏仁核把应激烙进长期记忆",
+      "filename": "2026-07-09-glucocorticoids-stress-memory-amygdala.md",
+      "wiki_pages_created": [
+        "wiki/concepts/glucocorticoid-stress-memory.md",
+        "wiki/systems/hpa-axis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/amygdala.md",
+        "wiki/neurons/hippocampal-circuit.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "糖皮质激素（GC）如何通过 MR/GR 双受体时间分离机制，以杏仁核（BLA）为必要枢纽，与去甲肾上腺素（NE）协同将情绪显著性事件优先编码为持久长期记忆——同时急性应激诱发记忆系统从海马（灵活认知）切换到背侧纹状体（习惯性），慢性 GC 过激活则选择性损伤 CA3 树突结构，通过 HPA 负反馈恶性循环累积性损害神经可塑性？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "情绪记忆系列：建立 GC-BLA-NE 三角记忆增强机制（#77）；深化杏仁核恐惧记忆（#14）、蓝斑去甲肾上腺素（#27）、海马回路（#1-2）的已有知识；分子层面（MR/GR→GRE→蛋白合成）到行为层面（记忆系统切换、习惯记忆 vs 认知地图）的跨层次整合；与 AD 风险（CA3 萎缩→模式分离缺陷）和 PTSD 机制（再巩固窗口干预）产生疾病连接",
+      "topic_tags": [
+        "glucocorticoids",
+        "cortisol",
+        "corticosterone",
+        "HPA axis",
+        "mineralocorticoid receptor",
+        "glucocorticoid receptor",
+        "basolateral amygdala",
+        "BLA",
+        "norepinephrine",
+        "stress memory",
+        "fear conditioning",
+        "memory consolidation",
+        "CA3 atrophy",
+        "memory system switch",
+        "dorsal striatum",
+        "PTSD",
+        "CRH",
+        "amygdala",
+        "Roozendaal",
+        "McEwen",
+        "Schwabe"
+      ]
+    },
     {
       "date": "2026-07-08",
       "title": "大脑的 24 小时时钟：视交叉上核如何用分子振荡设定时间，协调睡眠、记忆与衰老",

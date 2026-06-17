@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-05-30
-revision_count: 1
+updated: 2026-07-09
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function]
-source_articles: [2026-05-30-amygdala-fear-memory]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190"]
+opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -43,6 +43,38 @@ key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190"]
 ### 恐惧表达的完整输出
 CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率↑）；CeM → 下丘脑室旁核 → HPA轴 → 皮质醇；CeM → BNST → 持续焦虑/广泛性焦虑
 
+### 糖皮质激素（GC）与去甲肾上腺素（NE）协同增强应激记忆
+
+应激激活两条平行的内分泌-神经内分泌路径，在 BLA 产生协同效果（McGuire 2013, PMC5581004）：
+
+**路径 1（HPA 轴，慢速，5-30 分钟）**：
+- 应激→下丘脑 PVN → CRH → 垂体 ACTH → 肾上腺皮质 → 糖皮质激素（GC）
+- GC 穿越血脑屏障 → BLA 中 GR 激活
+- GR 基因组途径：转录激活（Arc、BDNF、c-Fos）→ 30-120 分钟后蛋白合成 → LA 突触 AMPA 受体增量插入 → L-LTP 转化
+
+**路径 2（SAM 轴，快速，秒级）**：
+- 应激→交感神经→肾上腺髓质→肾上腺素（不穿越 BBB）
+- 间接路径：①肾上腺素→迷走传入→孤束核（NTS）→BLA ② 触发蓝斑（LC）→NE 释放
+- BLA 中 NE→β-肾上腺素受体（β-AR）→ cAMP→PKA→AMPAR 磷酸化→快速 LTP 增强
+
+**协同门控**（Roozendaal 2006, PMID:16310958; Barsegyan 2019, PMID:30877244）：
+- BLA 内单独高 GC（无 NE）→**不能**增强记忆（β-AR 阻断实验证明）
+- BLA 内 NE + GC 协同 → 记忆巩固显著增强
+- 这确立了"GC 需要情绪唤醒（NE）作为协同门控"的关键原理
+
+**BLA 作为全脑 GC 记忆网络的必要枢纽**（Barsegyan 2019, PMC6452745）：
+- 即便 GC 直接注射到**前额叶皮层（PrL）**，其记忆增强效果也完全依赖功能性 BLA
+- BLA 失活（利多卡因）→ 完全阻断 PrL GC 的记忆增强
+- 也依赖前扣带皮层（AIC）和背侧海马（dHPC）：多节点网络，BLA 为核心
+
+### CRH 在 CeA 的中枢独立效应
+
+CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外周 HPA 效应**直接调控防御行为：
+- CeA 含高密度 CRH 神经元和 CRH₁R 受体
+- BLA 激活 → CeA CRH 释放 → CRH₁R → 防御行为增强（冻结、逃跑）
+- 肾上腺切除动物（无外周 GC）仍存在 CRH-CeA 介导的行为反应
+- 慢性 CRH₁R 过激活是 PTSD 和广泛性焦虑的候选机制
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -55,13 +87,16 @@ CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率
 
 ## 连接
 
-- [[ltp]] — LA突触LTP是恐惧记忆写入的分子机器
+- [[ltp]] — LA突触LTP是恐惧记忆写入的分子机器；GC+NE协同驱动LA的L-LTP转化
 - [[fear-conditioning]] — 外侧核LTP的行为诱导范式
-- [[fear-extinction]] — 消退作为竞争性抑制记忆，依赖ITC和IL皮层
+- [[fear-extinction]] — 消退作为竞争性抑制记忆，依赖ITC和IL皮层；慢性应激损害消退回路
 - [[hippocampal-circuit]] — 海马提供情景信号给BA，决定恐惧/消退哪套记忆被调取
-- [[norepinephrine-locus-coeruleus]] — 蓝斑NE投射通过β-肾上腺素受体增强杏仁核LTP和恐惧记忆巩固
+- [[norepinephrine-locus-coeruleus]] — 蓝斑NE投射通过β-肾上腺素受体增强杏仁核LTP和恐惧记忆巩固；NE是GC效应的必要协同门控
 - [[dopamine-reward-prediction-error]] — VTA DA投射到杏仁核调节奖励关联（与恐惧回路并行）
 - [[engram-cells]] — LA恐惧印迹细胞（~20%稀疏）与海马场所细胞印迹遵循相同的竞争选择逻辑
+- [[glucocorticoid-stress-memory]] — BLA是GC记忆增强的必要枢纽；GC通过BLA GR基因组途径驱动L-LTP转化；CRH在CeA独立调控防御反应
+- [[hpa-axis]] — HPA轴产生的GC在BLA实现记忆增强；CeM→PVN投射参与HPA激活正反馈
+- [[memory-consolidation]] — BLA GC+NE协同驱动情绪显著性记忆的优先长期巩固
 
 ## 未解问题
 
@@ -71,8 +106,10 @@ CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率
 
 ## 修订历史
 
+- 2026-07-09 · 修订 rev2 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"GC与NE协同增强应激记忆"机制节（BLA必要枢纽、GC-NE协同门控、β-AR阻断实验）；新增"CRH在CeA的中枢独立效应"节；related新增glucocorticoid-stress-memory、hpa-axis、memory-consolidation；key_sources新增PMID:30877244、PMID:16310958、PMID:23968228；未解问题新增Q-fear-itc-bidirectionality
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
+- [[2026-07-09-glucocorticoids-stress-memory-amygdala]]

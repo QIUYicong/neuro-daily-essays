@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-09",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5729,9 +5729,139 @@
         "NREM sleep duration predicts glymphatic clearance",
         "brain parenchymal resistance (RP) key biomechanical parameter"
       ]
+    },
+    {
+      "pmid": "30877244",
+      "pmcid": "PMC6452745",
+      "title": "Glucocorticoids in the prefrontal cortex enhance memory consolidation and long-term memory: critical role of anterior cingulate cortex and basolateral amygdala",
+      "authors_short": "Barsegyan A et al.",
+      "journal": "PNAS",
+      "year": 2019,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "PMC open"
+    },
+    {
+      "pmid": "23968228",
+      "pmcid": "PMC5581004",
+      "title": "Glucocorticoid effects on memory consolidation: the role of the basolateral amygdala",
+      "authors_short": "McGuire JL et al.",
+      "journal": "Frontiers in Behavioral Neuroscience",
+      "year": 2013,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "PMC open"
+    },
+    {
+      "pmid": "16310958",
+      "pmcid": null,
+      "title": "Glucocorticoid effects on memory consolidation depend on arousal",
+      "authors_short": "Roozendaal B et al.",
+      "journal": "Neuroscience",
+      "year": 2006,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "29428549",
+      "pmcid": null,
+      "title": "Brain corticosteroid receptor balance in health and disease",
+      "authors_short": "de Kloet ER et al.",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2018,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "21771612",
+      "pmcid": null,
+      "title": "Stress promotes habit memory and reduces goal-directed memory",
+      "authors_short": "Schwabe L, Wolf OT",
+      "journal": "PNAS",
+      "year": 2012,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "34058559",
+      "pmcid": null,
+      "title": "Stress and the many faces of memory: A review",
+      "authors_short": "Schwabe L",
+      "journal": "Journal of Clinical Medicine",
+      "year": 2021,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "9405958",
+      "pmcid": null,
+      "title": "Stress and the hippocampus (McEwen 1997)",
+      "authors_short": "McEwen BS",
+      "journal": "Journal of Clinical Endocrinology and Metabolism",
+      "year": 1997,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "9807058",
+      "pmcid": null,
+      "title": "Why stress is bad for your brain",
+      "authors_short": "Sapolsky RM",
+      "journal": "Science",
+      "year": 1996,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "19376098",
+      "pmcid": null,
+      "title": "Stress, cortisol, and verbal declarative memory",
+      "authors_short": "Wolf OT",
+      "journal": "Neuropsychopharmacology",
+      "year": 2009,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "7729802",
+      "pmcid": null,
+      "title": "Hippocampal damage associated with prolonged and fatal stress in primates",
+      "authors_short": "Uno H et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 1994,
+      "first_used": "2026-07-09",
+      "used_in_articles": [
+        "2026-07-09-glucocorticoids-stress-memory-amygdala"
+      ],
+      "access": "abstract_only"
     }
   ],
-  "total_sources": 279,
+  "total_sources": 289,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -6271,8 +6401,14 @@
       "journal": "Nature Reviews Neuroscience",
       "year": 2010,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["two-stage memory consolidation model", "SWS vs REM division of labor", "SO-SWR-spindle framework"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "two-stage memory consolidation model",
+        "SWS vs REM division of labor",
+        "SO-SWR-spindle framework"
+      ],
       "note": "Foundational review; abstract only (paywall)"
     },
     {
@@ -6283,8 +6419,13 @@
       "journal": "Neuron",
       "year": 1998,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SWR-spindle temporal coupling first direct recording", "phase coupling in hippocampus-cortex"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SWR-spindle temporal coupling first direct recording",
+        "phase coupling in hippocampus-cortex"
+      ],
       "note": "Founding correlation evidence; abstract only (paywall, 1998)"
     },
     {
@@ -6295,8 +6436,14 @@
       "journal": "Nature Neuroscience",
       "year": 2016,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["closed-loop stimulation causal evidence", "SO-SWR-spindle coupling → memory improvement", "non-synchronized control has no effect"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "closed-loop stimulation causal evidence",
+        "SO-SWR-spindle coupling → memory improvement",
+        "non-synchronized control has no effect"
+      ],
       "note": "Key causal experiment; abstract only (paywall)"
     },
     {
@@ -6307,8 +6454,15 @@
       "journal": "Neuron",
       "year": 2018,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SO-spindle phase precision predicts memory (d=1.19)", "aging phase shift 3.6° vs 46.3°", "mPFC atrophy mechanism", "mediation analysis"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SO-spindle phase precision predicts memory (d=1.19)",
+        "aging phase shift 3.6° vs 46.3°",
+        "mPFC atrophy mechanism",
+        "mediation analysis"
+      ],
       "note": "Open full text PMC5754239; high-quality human EEG + MRI study"
     },
     {
@@ -6319,8 +6473,15 @@
       "journal": "Science",
       "year": 2017,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SBEM 6920 synapses", "ASI reduction ~18% after sleep", "selective: largest 20% synapses spared (+0.7%)", "recycling endosome synapses shrink 20-25%"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SBEM 6920 synapses",
+        "ASI reduction ~18% after sleep",
+        "selective: largest 20% synapses spared (+0.7%)",
+        "recycling endosome synapses shrink 20-25%"
+      ],
       "note": "Open full text PMC5313037; strongest direct ultrastructural SHY evidence"
     },
     {
@@ -6331,8 +6492,15 @@
       "journal": "Science",
       "year": 2021,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SWR replay mechanism review", "causal disruption evidence", "human iEEG evidence", "REM role"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SWR replay mechanism review",
+        "causal disruption evidence",
+        "human iEEG evidence",
+        "REM role"
+      ],
       "note": "Open full text PMC7611961"
     },
     {
@@ -6343,8 +6511,13 @@
       "journal": "Trends in Cognitive Sciences",
       "year": 2024,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["latest SO-spindle-SWR coupling framework", "temporal precision = selective memory enhancement"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "latest SO-spindle-SWR coupling framework",
+        "temporal precision = selective memory enhancement"
+      ],
       "note": "2024 review; abstract only (paywall)"
     },
     {
@@ -6355,8 +6528,14 @@
       "journal": "Neuron",
       "year": 2023,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["memory replay", "circuit reorganization", "episodic to semantic transformation"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "memory replay",
+        "circuit reorganization",
+        "episodic to semantic transformation"
+      ],
       "note": "Large review; abstract only (paywall)"
     },
     {
@@ -6367,8 +6546,14 @@
       "journal": "European Journal of Neuroscience",
       "year": 2020,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["SHY down-selection framework", "SHY vs active consolidation reconciliation", "SWA as synaptic debt meter"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "SHY down-selection framework",
+        "SHY vs active consolidation reconciliation",
+        "SWA as synaptic debt meter"
+      ],
       "note": "Open full text PMC6612535; key theoretical update of SHY"
     },
     {
@@ -6379,8 +6564,14 @@
       "journal": "BMB Reports",
       "year": 2025,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["NE/DA/ACh roles in sleep memory", "DA in SWR priority marking", "NE oscillation pattern in NREM"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "NE/DA/ACh roles in sleep memory",
+        "DA in SWR priority marking",
+        "NE oscillation pattern in NREM"
+      ],
       "note": "Open full text PMC12576410; 2025 review; single lab"
     },
     {
@@ -6391,8 +6582,14 @@
       "journal": "Nature Neuroscience",
       "year": 2017,
       "first_used": "2026-07-07",
-      "used_in_articles": ["2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"],
-      "aspects_covered": ["REM sleep emotional memory", "hippocampus-amygdala SWR synchrony", "emotional priority replay"],
+      "used_in_articles": [
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+      ],
+      "aspects_covered": [
+        "REM sleep emotional memory",
+        "hippocampus-amygdala SWR synchrony",
+        "emotional priority replay"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6403,8 +6600,14 @@
       "journal": "Angewandte Chemie International Edition",
       "year": 2018,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["period gene cloning history", "PER protein nocturnal accumulation", "2017 Nobel Prize context"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "period gene cloning history",
+        "PER protein nocturnal accumulation",
+        "2017 Nobel Prize context"
+      ],
       "note": "Nobel Lecture; abstract only"
     },
     {
@@ -6415,8 +6618,16 @@
       "journal": "Nature",
       "year": 2002,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["TTFL positive arm CLOCK/BMAL1", "PER/CRY negative arm", "CKI phosphorylation of PER", "REV-ERBα/ROR auxiliary loop", "peripheral clocks discovery"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "TTFL positive arm CLOCK/BMAL1",
+        "PER/CRY negative arm",
+        "CKI phosphorylation of PER",
+        "REV-ERBα/ROR auxiliary loop",
+        "peripheral clocks discovery"
+      ],
       "note": "Foundational TTFL review; abstract only (paywall)"
     },
     {
@@ -6427,8 +6638,15 @@
       "journal": "Science",
       "year": 2002,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["ipRGC intrinsic photosensitivity", "melanopsin discovery", "non-image-forming photoreception", "RHT light input pathway"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "ipRGC intrinsic photosensitivity",
+        "melanopsin discovery",
+        "non-image-forming photoreception",
+        "RHT light input pathway"
+      ],
       "note": "Landmark ipRGC discovery; abstract only (paywall)"
     },
     {
@@ -6439,8 +6657,15 @@
       "journal": "Science",
       "year": 2009,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["CSF Aβ42 circadian oscillation", "sleep deprivation increases Aβ42 ~25-30%", "sleep-wake cycle regulates Aβ clearance", "orexin modulation of Aβ"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "CSF Aβ42 circadian oscillation",
+        "sleep deprivation increases Aβ42 ~25-30%",
+        "sleep-wake cycle regulates Aβ clearance",
+        "orexin modulation of Aβ"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6451,8 +6676,15 @@
       "journal": "Human Neurobiology",
       "year": 1982,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["Process S homeostatic sleep pressure", "Process C circadian oscillation", "two-process model framework", "SWA prediction"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "Process S homeostatic sleep pressure",
+        "Process C circadian oscillation",
+        "two-process model framework",
+        "SWA prediction"
+      ],
       "note": "Original two-process model proposal; abstract only (paywall)"
     },
     {
@@ -6463,8 +6695,14 @@
       "journal": "Science",
       "year": 1990,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["SCN transplant tau mutant hamster", "circadian period determined by donor SCN", "SCN as master circadian pacemaker causal proof"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "SCN transplant tau mutant hamster",
+        "circadian period determined by donor SCN",
+        "SCN as master circadian pacemaker causal proof"
+      ],
       "note": "Strongest causal evidence for SCN as master clock; abstract only (paywall)"
     },
     {
@@ -6475,8 +6713,16 @@
       "journal": "PNAS",
       "year": 2020,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["CLOCK/BMAL1 regulate PV+ interneuron maturation rate", "metabolic-oxidative stress pathway", "critical period timing molecular bridge", "CamKII-Cre Bmal1 flox KO", "ODP measurement monocular deprivation"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "CLOCK/BMAL1 regulate PV+ interneuron maturation rate",
+        "metabolic-oxidative stress pathway",
+        "critical period timing molecular bridge",
+        "CamKII-Cre Bmal1 flox KO",
+        "ODP measurement monocular deprivation"
+      ],
       "note": "Open full text PMC7519216; establishes molecular link between circadian clock and developmental plasticity"
     },
     {
@@ -6487,8 +6733,15 @@
       "journal": "Science",
       "year": 2019,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["SCN astrocyte independent functional clock", "glial TTFL disruption reduces rhythm amplitude", "ATP/glutamate feedback to SCN neurons", "astrocyte as active rhythm network participant"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "SCN astrocyte independent functional clock",
+        "glial TTFL disruption reduces rhythm amplitude",
+        "ATP/glutamate feedback to SCN neurons",
+        "astrocyte as active rhythm network participant"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6499,8 +6752,14 @@
       "journal": "Science Translational Medicine",
       "year": 2019,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["NREM reduction correlates with CSF tau elevation in MCI", "sleep deprivation increases CSF tau", "tau circadian oscillation evidence"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "NREM reduction correlates with CSF tau elevation in MCI",
+        "sleep deprivation increases CSF tau",
+        "tau circadian oscillation evidence"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6511,8 +6770,15 @@
       "journal": "Cell",
       "year": 2002,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["peripheral clocks oscillate in vitro independent of SCN", "food entrainment resetting peripheral clocks without SCN", "SCN as light-synchronization master clock", "multiple zeitgebers hierarchy"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "peripheral clocks oscillate in vitro independent of SCN",
+        "food entrainment resetting peripheral clocks without SCN",
+        "SCN as light-synchronization master clock",
+        "multiple zeitgebers hierarchy"
+      ],
       "note": "Abstract only (paywall)"
     },
     {
@@ -6523,9 +6789,88 @@
       "journal": "Physiological Reviews",
       "year": 2010,
       "first_used": "2026-07-08",
-      "used_in_articles": ["2026-07-08-circadian-clock-scn-brain-rhythm.md"],
-      "aspects_covered": ["RHT glutamate/PACAP signaling NMDA→CaMKII→CREB→Per induction", "phase response curve cellular mechanism", "SCN VIP/VPAC2 coupling synchronization", "peripheral clock resetting food vs light"],
+      "used_in_articles": [
+        "2026-07-08-circadian-clock-scn-brain-rhythm.md"
+      ],
+      "aspects_covered": [
+        "RHT glutamate/PACAP signaling NMDA→CaMKII→CREB→Per induction",
+        "phase response curve cellular mechanism",
+        "SCN VIP/VPAC2 coupling synchronization",
+        "peripheral clock resetting food vs light"
+      ],
       "note": "Open full text PMC3065858; high-quality review; directly citable"
+    }
+  ],
+  "additions_2026-07-09": [
+    {
+      "pmid": "30877244",
+      "title": "Glucocorticoids in the prefrontal cortex enhance memory cons",
+      "used_in": [
+        "2026-07-09"
+      ]
+    },
+    {
+      "pmid": "23968228",
+      "title": "Glucocorticoid effects on memory consolidation: the role of ",
+      "used_in": [
+        "2026-07-09"
+      ]
+    },
+    {
+      "pmid": "16310958",
+      "title": "Glucocorticoid effects on memory consolidation depend on aro",
+      "used_in": [
+        "2026-07-09"
+      ]
+    },
+    {
+      "pmid": "29428549",
+      "title": "Brain corticosteroid receptor balance in health and disease",
+      "used_in": [
+        "2026-07-09"
+      ]
+    },
+    {
+      "pmid": "21771612",
+      "title": "Stress promotes habit memory and reduces goal-directed memor",
+      "used_in": [
+        "2026-07-09"
+      ]
+    },
+    {
+      "pmid": "34058559",
+      "title": "Stress and the many faces of memory: A review",
+      "used_in": [
+        "2026-07-09"
+      ]
+    },
+    {
+      "pmid": "9405958",
+      "title": "Stress and the hippocampus (McEwen 1997)",
+      "used_in": [
+        "2026-07-09"
+      ]
+    },
+    {
+      "pmid": "9807058",
+      "title": "Why stress is bad for your brain",
+      "used_in": [
+        "2026-07-09"
+      ]
+    },
+    {
+      "pmid": "19376098",
+      "title": "Stress, cortisol, and verbal declarative memory",
+      "used_in": [
+        "2026-07-09"
+      ]
+    },
+    {
+      "pmid": "7729802",
+      "title": "Hippocampal damage associated with prolonged and fatal stres",
+      "used_in": [
+        "2026-07-09"
+      ]
     }
   ]
 }
