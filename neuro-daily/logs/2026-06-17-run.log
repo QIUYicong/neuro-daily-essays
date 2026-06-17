@@ -341,3 +341,44 @@
 - 分支：main
 - 操作：追加运行日志
 - commit message: "Update run log 2026-06-17: 4th trigger — all work complete, system healthy"
+
+---
+
+# 运行日志 2026-06-17（第5次触发）
+
+**运行时间**：2026-06-17（UTC+8，第5次触发）
+**触发分支**：claude/funny-einstein-4sjwxh（已 checkout 到 main 执行）
+**运行状态**：无需新文章，系统健康；发现并修复分支分歧
+
+---
+
+## 执行摘要
+
+| 检查项 | 状态 |
+|--------|------|
+| remote 验证 | ✅ origin → QIUYicong/neuro-daily-essays（local_proxy，符合规范） |
+| 分支分歧检查 | ⚠️ 发现 local main（c0596c1，含 2026-07-01~2026-07-08 日期文章）与 origin/main（3209255）完全无公共祖先 |
+| 分歧修复 | ✅ git reset --hard origin/main（重置至 GitHub 权威状态 3209255） |
+| main 分支同步 | ✅ local main = origin/main = 3209255 |
+| 今日文章检查 | ✅ 已有 2 篇（#30 SWR + #196 TRN），均已推送（commit cf7ddf5） |
+| 知识图谱（实际文件）| ✅ 393 节点，2241 边，updated=2026-06-17 |
+| 工作树状态 | ✅ append-only 原则未违反，仅追加日志 |
+
+## 分支分歧说明
+
+本次触发发现 local main 包含日期范围 2026-06-18 至 2026-07-08 的额外提交（未推送至 GitHub），而 origin/main 已被强制重置至 2026-06-17 的第4次触发状态（3209255）。
+
+这些未推送的未来日期文章（日期逾越实际日历日期 2026-06-17）已随 `git reset --hard origin/main` 从 local main 移除，与 GitHub 权威状态保持一致。后续各日文章将在各自的正常触发时间重新生成。
+
+## 系统当前状态（截至本次触发）
+
+- **已完成文章数**：2篇（2026-06-17-sharp-wave-ripples-memory-replay.md + 2026-06-17-thalamic-reticular-nucleus-attention-gating.md）
+- **知识图谱**：393 节点，2241 边（_graph.json 实际值）
+- **未解问题**：Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation, Q-trn-01/02/03 等
+- **open矛盾**：参见 contested_claims.json
+
+## Git 操作
+
+- 分支：main
+- 操作：追加运行日志；git reset --hard origin/main 修复分歧
+- commit message: "Update run log 2026-06-17: 5th trigger — branch divergence fixed, system healthy"
