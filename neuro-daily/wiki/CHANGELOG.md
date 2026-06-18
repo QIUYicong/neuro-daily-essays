@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-14（文章 #82·CNN–视觉皮层类比·课程脊柱 3 × 课程脊柱 12 第三篇）
+
+**源文章**：[[2026-07-14-cnn-visual-cortex-hierarchy]] —《镜中影像：卷积神经网络与灵长类视觉皮层的层级对应，以及这面镜子在哪里碎裂》
+
+**新建页面（2 页）**：
+- `concepts/ventral-visual-stream.md`：腹侧视觉流（V1→V2→V4→IT）；"解开纠缠"计算任务；前馈核心+循环调制；IT线性可分性；established/high
+- `concepts/cnn-visual-cortex-analogy.md`：目标驱动CNN与视觉皮层类比；性能-预测力相关（r=0.78）；~50%可解释方差；三个崩溃裂缝（循环/形状偏见/对抗样本）；mainstream/high
+
+**修订页面（1 页）**：
+- `systems/v1-primary-visual-cortex.md`（rev4→rev5）：新增"CNN第一层的V1类比"小节（Gabor型卷积核=V1简单细胞感受野；层级对应V4→IT由Yamins 2014证明）；related 新增 ventral-visual-stream, cnn-visual-cortex-analogy；key_sources 新增 PMID:24812127, PMCID:PMC4060707；source_articles 新增 2026-07-14 文章
+
+**图谱更新**：新增 2 节点（ventral-visual-stream, cnn-visual-cortex-analogy）、7 条边；总计 **151 节点，892 边**
+
+**新增悬空引用（2 个）**：
+- `inferior-temporal-cortex`（IT 皮层专页，被 ventral-visual-stream 和 cnn-visual-cortex-analogy 引用）
+- `object-recognition`（物体识别专页，被 ventral-visual-stream 引用）
+
+**新登记矛盾**：无
+
+**新增未解问题（3 个）**：
+- Q-cnn-vc-01（高优先级）：循环连接在困难视觉任务中具体计算了什么？
+- Q-cnn-vc-02（高优先级）：大脑的"监督信号"是什么？（解释为何监督CNN更接近IT）
+- Q-cnn-vc-03（中优先级）：IT 形状偏见的皮层起源是V4还是IT才完成的？
+
+---
+
 ## 2026-07-13（文章 #81·预测编码·自由能原理·VAE·课程脊柱 12 第二篇）
 
 **源文章**：[[2026-07-13-predictive-coding-free-energy-vae]] —《大脑的预言机：从 Rao-Ballard 预测编码到自由能原理与变分自编码器》

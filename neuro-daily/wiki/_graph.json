@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-13",
-  "node_count": 149,
-  "edge_count": 885,
+  "updated": "2026-07-14",
+  "node_count": 151,
+  "edge_count": 892,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1384,6 +1384,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/variational-autoencoder.md"
+    },
+    {
+      "id": "ventral-visual-stream",
+      "title": "腹侧视觉流",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/ventral-visual-stream.md"
+    },
+    {
+      "id": "cnn-visual-cortex-analogy",
+      "title": "CNN–视觉皮层类比",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/cnn-visual-cortex-analogy.md"
     }
   ],
   "edges": [
@@ -6306,6 +6324,42 @@
       "to": "td-learning",
       "type": "related",
       "note": "两者都是AI中的生成/预测框架"
+    },
+    {
+      "from": "ventral-visual-stream",
+      "to": "v1-primary-visual-cortex",
+      "type": "part-of",
+      "note": "V1 是腹侧视觉流的起点"
+    },
+    {
+      "from": "cnn-visual-cortex-analogy",
+      "to": "ventral-visual-stream",
+      "type": "related",
+      "note": "CNN 层级与腹侧流 V1→V2→V4→IT 的系统性类比"
+    },
+    {
+      "from": "cnn-visual-cortex-analogy",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "预测编码解释了 CNN 类比的循环处理裂缝（反馈=预测信号）"
+    },
+    {
+      "from": "cnn-visual-cortex-analogy",
+      "to": "td-learning",
+      "type": "related",
+      "note": "CNN-视觉皮层类比（感知层）与 TD 学习（奖励层）并列为脑-AI 比较的两个维度"
+    },
+    {
+      "from": "cnn-visual-cortex-analogy",
+      "to": "variational-autoencoder",
+      "type": "related",
+      "note": "VAE 编码器在数学上类比于 CNN 识别模型（腹侧流前向路径）"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "ventral-visual-stream",
+      "type": "part-of",
+      "note": "V1 是腹侧流第一级"
     }
   ],
   "dangling_references": [
@@ -6521,6 +6575,22 @@
         "gamma-oscillations"
       ],
       "note": "高频共振波专页（~90 Hz，~100 ms）；Garrett & Halgren 2024 在语言绑定中发现；与 SWR（海马）的机制同源性；与经典 40 Hz 伽马的关系；待建页面"
+    },
+    {
+      "slug": "inferior-temporal-cortex",
+      "referenced_by": [
+        "ventral-visual-stream",
+        "cnn-visual-cortex-analogy"
+      ],
+      "note": "颞下皮层（IT）专页；腹侧流终点；物体身份表征；线性可分性；人脸/物体/场景类别神经元；DiCarlo、Tanaka 系列经典研究；待建页面"
+    },
+    {
+      "slug": "object-recognition",
+      "referenced_by": [
+        "ventral-visual-stream",
+        "cnn-visual-cortex-analogy"
+      ],
+      "note": "视觉物体识别专页；腹侧流的核心计算目标；核心物体识别任务（core object recognition）；解开纠缠；线性分类；DiCarlo et al. 2012框架；待建页面"
     }
   ]
 }

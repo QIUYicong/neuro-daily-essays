@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-13（第81篇·预测编码×自由能原理×变分自编码器·ELBO=变分自由能数学等价；Whittington & Bogacz 2017 局部赫布规则≈反向传播；Keller 2012 V1感觉运动失配实验；Solomon 2021批评性综述；Richter 2018腹侧流抑制）· 主题页总数：**149**（新建2页：free-energy-principle, variational-autoencoder；修订1页：predictive-coding rev5→rev6；图谱151节点、892边；新增Q-pc-06、Q-pc-07、Q-fep-01、Q-fep-02）
+> 最后更新：2026-07-14（第82篇·CNN–视觉皮层类比·腹侧流层级·目标驱动深度学习·循环处理裂缝·纹理偏见·Yamins 2014·Cadieu 2014·Kar 2019）· 主题页总数：**151**（新建2页：ventral-visual-stream, cnn-visual-cortex-analogy；修订1页：v1-primary-visual-cortex rev4→rev5；图谱151节点、892边；新增Q-cnn-vc-01、Q-cnn-vc-02、Q-cnn-vc-03）
 
 ---
 
@@ -84,6 +84,8 @@
 - 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口 **[NEW 2026-05-31]**
 - 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；八层分层贝叶斯预测机器架构；五月月报整合后修订 **[修订 2026-05-31]**
 - 🟢 [变分自编码器](concepts/variational-autoencoder.md) — Kingma & Welling 2014的深度生成模型；ELBO（重建误差 + KL散度）目标与弗里斯顿变分自由能数学等价；编码器≈识别模型 $q(z|x)$，解码器≈生成模型 $p(x|z)$；两者都在解同一个贝叶斯推理问题 **[NEW 2026-07-13]**
+- 🟢 [腹侧视觉流](concepts/ventral-visual-stream.md) — V1→V2→V4→IT层级；"解开纠缠"核心计算任务；前馈核心+循环调制；IT线性可分性；困难图像需要额外~30ms循环处理（Kar 2019）**[NEW 2026-07-14]**
+- 🔵 [CNN–视觉皮层类比](concepts/cnn-visual-cortex-analogy.md) — 目标驱动CNN与视觉皮层层级的系统性类比；性能-IT预测力相关（r=0.78，Yamins 2014）；三个崩溃裂缝：循环连接/形状偏见/对抗样本；课程脊柱12第三篇 **[NEW 2026-07-14]**
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号 **[NEW 2026-06-07]**

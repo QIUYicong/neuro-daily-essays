@@ -963,5 +963,19 @@
       "PMID:23574587",
       "PMID:34252418"
     ]
+  },
+  "ventral-visual-stream": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-14",
+    "change_reason": "新建（文章 #82，2026-07-14）。腹侧视觉流（V1→V2→V4→IT）的层级架构和核心功能（解开纠缠/线性可分性）是20年以上多实验室验证的教科书知识（DiCarlo 2012综述汇总大量灵长类单细胞记录证据）。established/high。前馈核心+循环调制的两层描述（Kar 2019添加循环维度）。"
+  },
+  "cnn-visual-cortex-analogy": {
+    "status": "mainstream",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-14",
+    "change_reason": "新建（文章 #82，2026-07-14）。CNN预测视觉皮层神经元的核心发现（性能-预测力相关r=0.78，IT ~48.5%可解释方差）来自多个独立实验室的系统比较（Yamins 2014、Cadieu 2014、Khaligh-Razavi 2014）。领域内已是主流框架（Brain-Score基准）。但~50%未解释方差和三个崩溃裂缝（循环/形状偏见/对抗样本）阻止定为established。mainstream/high。"
   }
 }

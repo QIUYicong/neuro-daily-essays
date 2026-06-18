@@ -1,0 +1,107 @@
+# 每日运行日志
+
+**日期**：2026-07-14（UTC+8）
+**触发**：每日定时任务（延续前序运行，系统时间2026-06-18，知识库续写至2026-07-14）
+**文章编号**：#82
+**运行状态**：✅ 正常完成
+
+---
+
+## 步骤执行摘要
+
+| 步骤 | 状态 | 说明 |
+|------|------|------|
+| 0. 切换到 main + pull | ✅ | 从 claude/funny-einstein-3s2gwf 切换至 main，fast-forward 合并约50个文件（07-09至07-13文章及wiki更新）|
+| 读取 ROUTINE.md | ✅ | 完成 |
+| 读取 KNOWLEDGE-BASE-DESIGN.md | ✅ | 完成 |
+| A. 读取状态文件 | ✅ | topic_ledger（last_updated:2026-07-13, total:81），unresolved_questions，contested_claims（5 open），_graph.json（149节点885边），wiki/index.md，monthly_synthesis |
+| B. 选题 | ✅ | 按 topic_ledger 2026-07-13 next_suggested_topics（第一推荐）+ 课程脊柱12第三篇 → 选定"CNN–视觉皮层类比" |
+| C. 检索 | ✅ | PubMed：11个来源；开放全文：2篇PMC（PMC4060707, PMC4270441）+ 1篇arXiv（1811.12231）|
+| C. 写每日文章 | ✅ | articles/2026-07-14-cnn-visual-cortex-hierarchy.md（~5500字，中文，严谨且优美）|
+| C. 写阅读笔记 | ✅ | notes/2026-07-14-reading-notes.md |
+| C. 写来源 JSON | ✅ | sources/2026-07-14-sources.json（11个来源，含PMC全文元数据）|
+| D. 固结步骤 | ✅ | 新建2个wiki页（ventral-visual-stream, cnn-visual-cortex-analogy）；修订1个wiki页（v1-primary-visual-cortex rev4→rev5）；无矛盾；成熟度更新 |
+| E. 更新图谱与导航 | ✅ | _graph.json（+2节点，+7边，151节点892边）；index.md（新增2页，更新header）；CHANGELOG.md（新增今日条目）|
+| F. 更新治理层 | ✅ | topic_ledger（total:82）；unresolved_questions（+3：Q-cnn-vc-01/02/03）；source_registry（+11个来源）；monthly_synthesis（更新至82篇）；maturity_index（+2页）|
+| G. 提交+推送 | ⏳ | 待执行 |
+| H. 自检 | ✅ | 见下方 |
+
+---
+
+## 检索详情
+
+**搜索词**：
+- `Yamins DiCarlo visual cortex deep learning` (PubMed)
+- `performance optimized hierarchical models V4 IT neural responses` (PubMed)
+- `Khaligh-Razavi Kriegeskorte 2014 deep supervised unsupervised IT cortex` (PubMed)
+- `Bashivan Kar DiCarlo 2019 neural population control visual cortex` (PubMed)
+- `Kar Kubilius Schmidt Issa DiCarlo 2019 recurrent circuits ventral stream` (PubMed)
+
+**来源候选数**：11个来源全部采用
+
+**采用来源**：
+1. PMID:10526343 (Riesenhuber & Poggio 1999, HMAX模型) — 背景历史
+2. PMID:22325196 (DiCarlo et al. 2012, Neuron) — 核心综述框架
+3. PMID:24812127 / PMC4060707 (Yamins et al. 2014, PNAS) — **开放全文读取**，核心数据（r=0.78，48.5%，51.7%）
+4. PMID:25521294 / PMC4270441 (Cadieu et al. 2014, PLoS) — **开放全文读取**，DNN rivals IT
+5. PMID:25375136 (Khaligh-Razavi 2014) — 监督vs无监督
+6. PMID:28532370 (Kriegeskorte 2015 review) — 综述框架
+7. PMID:26906502 (Yamins & DiCarlo 2016) — 目标驱动模型综述
+8. PMID:31048462 (Bashivan 2019, Science) — 神经控制实验
+9. PMID:31036945 (Kar 2019, Nat Neurosci) — 循环处理证据
+10. PMID:33431673 (Zhuang 2021, PNAS) — 自监督模型
+11. arXiv:1811.12231 (Geirhos 2019 ICLR) — 纹理偏见
+
+**排除来源**：无（所有来源均采用）
+
+---
+
+## 固结步骤详情
+
+**新建 wiki 页**：
+1. `wiki/concepts/ventral-visual-stream.md`（revision_count=1；established/high）
+2. `wiki/concepts/cnn-visual-cortex-analogy.md`（revision_count=1；mainstream/high）
+
+**修订 wiki 页**：
+1. `wiki/systems/v1-primary-visual-cortex.md`（rev4→rev5）：新增"CNN第一层的V1类比"小节；related +2，key_sources +2，source_articles +1
+
+**矛盾检查**：
+- 新内容与 v1-primary-visual-cortex 既有主张无冲突（CNN Gabor类比是新视角，不矛盾）
+- 无新矛盾登记
+
+**新增悬空引用**：
+- `inferior-temporal-cortex`（被新创建的2页引用）
+- `object-recognition`（被 ventral-visual-stream 引用）
+
+---
+
+## 自检结果
+
+**真实性**：
+- [x] 每条 wiki 新主张有来源（PMID/PMCID）
+- [x] 区分了事实（r=0.78）/ 主流模型（CNN-视觉类比）/ 推测（循环处理内容）/ 争议（纹理偏见来源/监督信号）
+- [x] 没有把单篇/小样本/动物研究写成定论
+- [x] 文章明确说明了对抗样本和形状偏见是"类比崩溃处"，未过度推广
+
+**一致性**：
+- [x] 无新矛盾需要走协议
+- [x] 修订页 updated/revision_count/修订历史同步更新
+- [x] _graph.json 新节点有对应wiki页面（无悬空节点），新悬空引用已记录在 dangling_references
+
+**可导航**：
+- [x] index.md 和 CHANGELOG.md 反映今日变化
+- [x] 新页 related/prerequisites 各≥1
+
+**情景层完整**：
+- [x] articles/notes/sources/logs（本文件）齐全
+- [x] 未修改旧文件（只创建新文件或向已有状态文件追加）
+
+---
+
+## 提交信息
+
+- Branch: main
+- Remote: http://local_proxy@127.0.0.1:42911/git/QIUYicong/neuro-daily-essays ✅（含 QIUYicong/neuro-daily-essays）
+- Commit message: Add neuro daily article + wiki consolidation for 2026-07-14
+- Push: git push origin main
+- Commit hash: 待填写

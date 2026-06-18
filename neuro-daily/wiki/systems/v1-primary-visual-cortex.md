@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-07-01
-revision_count: 4
+updated: 2026-07-14
+revision_count: 5
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ventral-visual-stream, cnn-visual-cortex-analogy]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
-source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS]
-key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956"]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-14-cnn-visual-cortex-hierarchy]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:24812127", "PMCID:PMC4060707"]
 ---
 
 # 初级视觉皮层（V1）
@@ -124,13 +124,28 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 | V1 接受来自高级视觉区的预测反馈（α/β 主导） | 灵长类 MEG/LFP 多脑区记录 | PMID:23177956 | 高 |
 | 环绕抑制/末端停止可由预测编码模型复现 | 计算模型 + 自然图像训练 | PMID:10195184 | 中（模型证据，非直接区分实验）|
 
+## CNN 第一层的 V1 类比（2026-07-14 补充）
+
+Yamins et al. 2014（PMID:24812127，PMCID:PMC4060707）的目标驱动建模框架显示：**在层次卷积神经网络中，第一层卷积核通过自然图像优化后自发地学习出 Gabor 型滤波器**——与 V1 简单细胞的感受野（方向选择性、空间频率调谐）在形式上几乎完全相同。
+
+这种收敛不是偶然的：V1 和 CNN 第一层都在解决同一个问题——从局部像素中提取边缘和方向信息，而 Gabor 函数是这个问题在自然图像统计约束下的最优解（稀疏编码的角度也支持此结论）。
+
+V1 在腹侧流层级（V1→V4→IT）中对应 CNN 的早期层，而非整个视觉皮层。CNN 中间层更好地预测 V4，CNN 顶层更好地预测 IT——这种层级对应是目标驱动框架最强的直接证据。
+
+**V1 ≠ CNN 的地方**：V1 广泛接受来自 V2、V4 乃至前额叶的反馈投射，因此其响应不只是前馈特征检测的结果。感觉运动失配响应（Keller 2012）和环绕抑制的预测编码解释都说明 V1 是预测-误差网络中的一个节点，而非单纯的滤波器组。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| CNN 第一层卷积核自发学习出 Gabor 型滤波器 | 卷积核可视化 + V1 感受野拟合 | Yamins & DiCarlo 2016 综述（PMID:26906502）| 高 |
+| CNN 层级与 V1→V4→IT 层级系统对应（分层预测力测试）| 2000+ 网络 × 多电极 V4/IT 记录 | Yamins et al. 2014（PMID:24812127，PMCID:PMC4060707）| 高 |
+
 ## 修订历史
 
 - 2026-06-11 · 创建 · 基于《V1初级视觉皮层的方向选择性》一文 · 初始置信度：高
 - 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增"神经调质对 V1 的调制"小节（ACh/肌碱受体介导注意调制，Herrero 2008）；related 新增 acetylcholine-cortex, gain-control；opens_questions 新增 Q-ach-ne-02；key_sources 新增 PMID:18633352
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 新增"预测编码视角下的 V1"小节；新增感觉运动失配实验（Keller 2012）和环绕抑制预测编码解释；related 新增 predictive-coding, precision-weighting；opens_questions 新增 Q-pc-04；key_sources 新增 PMID:22681686, PMID:10195184, PMID:23177956
-
 - 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 V4→V1 皮层反馈作为注意调制的必要通道（Debes & Dragoi 2023，PMID:36730414）；related 新增 dorsal-attention-network, biased-competition；key_sources 新增 PMID:36730414
+- 2026-07-14 · 修订 · 基于《镜中影像：CNN与灵长类视觉皮层层级对应》一文 · 新增"CNN第一层的V1类比"小节；related 新增 ventral-visual-stream, cnn-visual-cortex-analogy；key_sources 新增 PMID:24812127, PMCID:PMC4060707
 
 ## 来源文章
 
@@ -138,3 +153,4 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-06-15-predictive-coding]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
+- [[2026-07-14-cnn-visual-cortex-hierarchy]]

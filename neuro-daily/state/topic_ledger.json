@@ -1,7 +1,74 @@
 {
-  "last_updated": "2026-07-13",
-  "total_articles": 81,
+  "last_updated": "2026-07-14",
+  "total_articles": 82,
   "entries": [
+    {
+      "date": "2026-07-14",
+      "title": "镜中影像：卷积神经网络与灵长类视觉皮层的层级对应，以及这面镜子在哪里碎裂",
+      "filename": "2026-07-14-cnn-visual-cortex-hierarchy.md",
+      "wiki_pages_created": [
+        "wiki/concepts/ventral-visual-stream.md",
+        "wiki/concepts/cnn-visual-cortex-analogy.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/v1-primary-visual-cortex.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "视觉皮层层级 V1→V2→V4→IT 与卷积神经网络之间存在怎样的表征层面对应关系？目标驱动深度学习模型（Yamins 2014，r=0.78 性能-神经预测力相关）在多大程度上真正预测了生物视觉神经元的响应？循环连接（Kar 2019 额外~30ms延迟）、纹理偏见（Geirhos 2019）和对抗样本在哪里打破了这个类比——以及这个崩溃点告诉了我们什么？",
+      "layer": ["brain-region", "cognition", "methods", "AI"],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·视觉系统·腹侧视觉流）× 课程脊柱12（人脑与AI比较·第三篇）；承接脊柱12第一篇（TD学习×DA-RPE）和第二篇（预测编码×FEP×VAE）；将脑-AI比较从奖励/感知推断层面具体化到视觉表征的定量实验比较",
+      "topic_tags": [
+        "ventral visual stream",
+        "V1 V2 V4 IT hierarchy",
+        "CNN visual cortex analogy",
+        "goal-driven modeling",
+        "Yamins 2014 PNAS",
+        "neural predictivity",
+        "performance neural predictivity correlation",
+        "Cadieu 2014 PLoS",
+        "Khaligh-Razavi Kriegeskorte 2014",
+        "representation dissimilarity matrix RDM",
+        "Kriegeskorte 2015",
+        "Yamins DiCarlo 2016",
+        "Bashivan Kar DiCarlo 2019 Science",
+        "neural population control",
+        "Kar DiCarlo 2019 Nature Neuroscience",
+        "recurrent processing visual cortex",
+        "feedforward CNN limitation",
+        "texture bias shape bias",
+        "Geirhos 2019 ICLR Stylized-ImageNet",
+        "adversarial examples",
+        "Riesenhuber Poggio 1999 HMAX",
+        "DiCarlo Zoccolan Rust 2012 Neuron",
+        "untangling object recognition",
+        "IT cortex linear separability",
+        "Brain-Score benchmark"
+      ],
+      "main_sources": [
+        "PMID:22325196 (abstract only, Neuron 2012, DiCarlo Zoccolan Rust - visual object recognition review)",
+        "PMID:24812127 (PMC4060707, open full text read, PNAS 2014, Yamins et al. - performance-optimized models predict V4/IT)",
+        "PMID:25521294 (PMC4270441, open full text read, PLoS Comp Biol 2014, Cadieu et al. - DNN rivals IT)",
+        "PMID:25375136 (abstract only, PLoS Comp Biol 2014, Khaligh-Razavi Kriegeskorte - supervised vs unsupervised)",
+        "PMID:28532370 (abstract only, Annu Rev Vis Sci 2015, Kriegeskorte - DNN framework for vision)",
+        "PMID:26906502 (abstract only, Nat Neurosci 2016, Yamins DiCarlo - goal-driven deep learning review)",
+        "PMID:31048462 (abstract only, Science 2019, Bashivan Kar DiCarlo - neural population control)",
+        "PMID:31036945 (abstract only, Nat Neurosci 2019, Kar DiCarlo - recurrent circuits critical)",
+        "PMID:33431673 (abstract only, PNAS 2021, Zhuang et al. - unsupervised models ventral stream)",
+        "arXiv:1811.12231 (open full text, Geirhos 2019 ICLR - texture vs shape bias)",
+        "PMID:10526343 (abstract only, Nat Neurosci 1999, Riesenhuber Poggio - HMAX model)"
+      ],
+      "unresolved_questions": [
+        "Q-cnn-vc-01",
+        "Q-cnn-vc-02",
+        "Q-cnn-vc-03"
+      ],
+      "next_suggested_topics": [
+        "Transformer注意力机制与大脑注意回路：Transformer self-attention的Query/Key/Value与皮层精度加权/增益控制的类比；现代Hopfield网络=Transformer注意力的数学等价（Ramsauer 2020）；FEF/IPS背侧注意网络vs Transformer多头注意力；课程脊柱12第四篇",
+        "主动推断（Active Inference）深度：从运动控制（本体感觉预测）到决策（期望自由能）到情绪（内感受推断）的完整框架；Friston 2016神经科学应用；与标准强化学习的比较；课程脊柱8延伸",
+        "视觉皮层的循环处理与知觉组织：水平连接（horizontal connections）和长程反馈（long-range feedback）在填补遮挡/边缘延伸中的作用；Gestalt知觉的神经机制；与CNN循环扩展的定量比较；填补Q-cnn-vc-01"
+      ]
+    },
     {
       "date": "2026-07-13",
       "title": "大脑的预言机：预测编码、自由能原理与变分自编码器——当神经科学遇上深度生成模型",
