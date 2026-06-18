@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-14（第82篇·CNN–视觉皮层类比·腹侧流层级·目标驱动深度学习·循环处理裂缝·纹理偏见·Yamins 2014·Cadieu 2014·Kar 2019）· 主题页总数：**151**（新建2页：ventral-visual-stream, cnn-visual-cortex-analogy；修订1页：v1-primary-visual-cortex rev4→rev5；图谱151节点、892边；新增Q-cnn-vc-01、Q-cnn-vc-02、Q-cnn-vc-03）
+> 最后更新：2026-07-15（第83篇·Transformer自注意力Q/K/V·大脑注意回路类比·现代Hopfield等价·除法归一化vs softmax·Ellwood 2024局部赫布实现）· 主题页总数：**152**（新建1页：transformer-self-attention；修订5页：gain-control rev3→rev4、dorsal-attention-network rev1→rev2、biased-competition rev1→rev2、attractor-network rev1→rev2；图谱154节点、912边；新增Q-attn-bio-01、Q-attn-bio-02）
 
 ---
 
@@ -86,6 +86,7 @@
 - 🟢 [变分自编码器](concepts/variational-autoencoder.md) — Kingma & Welling 2014的深度生成模型；ELBO（重建误差 + KL散度）目标与弗里斯顿变分自由能数学等价；编码器≈识别模型 $q(z|x)$，解码器≈生成模型 $p(x|z)$；两者都在解同一个贝叶斯推理问题 **[NEW 2026-07-13]**
 - 🟢 [腹侧视觉流](concepts/ventral-visual-stream.md) — V1→V2→V4→IT层级；"解开纠缠"核心计算任务；前馈核心+循环调制；IT线性可分性；困难图像需要额外~30ms循环处理（Kar 2019）**[NEW 2026-07-14]**
 - 🔵 [CNN–视觉皮层类比](concepts/cnn-visual-cortex-analogy.md) — 目标驱动CNN与视觉皮层层级的系统性类比；性能-IT预测力相关（r=0.78，Yamins 2014）；三个崩溃裂缝：循环连接/形状偏见/对抗样本；课程脊柱12第三篇 **[NEW 2026-07-14]**
+- 🟢 [Transformer 自注意力（Q/K/V 机制）](concepts/transformer-self-attention.md) — Attention(Q,K,V)=softmax(QK^T/√d_k)V；现代Hopfield网络更新规则=单头注意力（Ramsauer 2020）；FEF/IPS→Query，V4/IT→Key/Value；softmax vs 除法归一化的根本差异（Reynolds & Heeger 2009）；6大断裂点（时间动力学/局部赫布/眼动耦合/多头生物对应/归一化形式/循环连接）；课程脊柱12第四篇 **[NEW 2026-07-15]**
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号 **[NEW 2026-06-07]**

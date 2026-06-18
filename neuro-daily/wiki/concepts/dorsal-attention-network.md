@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-01
-updated: 2026-07-01
-revision_count: 1
+updated: 2026-07-15
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
-related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding]
+related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding, transformer-self-attention, attractor-network]
 prerequisites: [prefrontal-cortex, v1-primary-visual-cortex, thalamus]
 opens_questions: [Q-dan-01, Q-dan-02, Q-dan-03]
-source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS]
-key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965"]
+source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-15-brain-attention-transformer-qkv]
+key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965", "PMID:17417935", "arXiv:2008.02217", "DOI:10.1371/journal.pcbi.1011843"]
 ---
 
 # 背侧注意网络（Dorsal Attention Network, DAN）
@@ -79,10 +79,23 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 | 注意通过乘法增益调制 MT 神经元 | 猕猴 MT 方向调谐曲线测量 | Treue & Trujillo 1999, PMID:10376597 | 高 |
 | 人类 fMRI 确认 FEF/IPS 在空间注意中的角色 | 人类 fMRI + Posner 线索任务 | Chen et al. 2026, PMID:42125965 | 中-高 |
 
+## DAN 与 Transformer Q/K/V 的类比
+
+Knudsen（2007, PMID:17417935）将注意力分解为四个组件：工作记忆（维持目标模板）、自上而下灵敏度控制（偏置感觉皮层）、竞争性选择（赢者通吃）、自动底部过滤（显著性驱动）。这四个组件在 Transformer 自注意力中均有对应：
+
+| Knudsen 注意力组件 | 生物实现 | Transformer 对应 |
+|-----------------|---------|----------------|
+| 工作记忆（目标模板） | dlPFC 吸引子活动 | Query 投影矩阵 $W_Q$（编码当前任务目标） |
+| 自上而下灵敏度控制 | FEF/IPS top-down 偏置信号 | QK 点积相似度计算 |
+| 竞争性选择 | V4/IT 侧抑制 + 赢者通吃 | softmax 归一化（竞争-选择） |
+| 自动底部过滤 | 显著性地图 / VAN（TPJ） | 位置编码 + 无监督注意头 |
+
+关键：FEF 同时控制注意和眼动（眼球运动 = 行动），而 Transformer 的注意力与任何运动输出完全脱耦——这是最根本的不对称之一。
+
 ## 连接
 
 - [[prefrontal-cortex]] — FEF（BA8）是 PFC 的注意控制子区域
-- [[working-memory]] — DAN 与 dlPFC 工作记忆共享注意资源调配功能
+- [[working-memory]] — DAN 与 dlPFC 工作记忆共享注意资源调配功能；WM 维持 Query 信号
 - [[v1-primary-visual-cortex]] — DAN 通过 V4→V1 反馈产生乘法增益调制
 - [[thalamus]] — FEF/IPS → TRN 通路实现皮层注意信号的视丘门控
 - [[thalamocortical-circuit]] — TRN 是 DAN 信号传递到感觉门控的接口
@@ -90,6 +103,8 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 - [[attentional-blink]] — 注意瞬盲反映 DAN 广播的时间容量约束
 - [[global-workspace-theory]] — DAN 为 GWT 的广播机制提供空间选择基础
 - [[predictive-coding]] — 注意 = 感觉精度的主动上调（DAN 是精度加权的硬件）
+- [[transformer-self-attention]] — DAN 信号 = 生物 Query；感觉皮层特征 = 生物 K/V；完整类比见专页
+- [[attractor-network]] — FEF 的吸引子动力学维持目标模板（Query 向量的生物基础）
 
 ## 未解问题
 
@@ -101,6 +116,7 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 ## 修订历史
 
 - 2026-07-01 · 创建 · 基于《空间注意的神经回路》一文 · 来源：Corbetta & Shulman 2002, Bisley & Goldberg 2010, Moore & Fallah 2004, Debes & Dragoi 2023, Treue & Trujillo 1999 · 初始置信度：高
+- 2026-07-15 · 修订 · 基于《同一个算法，两种实现》一文 · 新增"DAN 与 Transformer Q/K/V 的类比"一节（Knudsen 2007 四组件框架与 Q/K/V 的对应）；related 新增 transformer-self-attention、attractor-network；key_sources 新增 PMID:17417935、arXiv:2008.02217、DOI:10.1371/journal.pcbi.1011843
 
 ## 来源文章
 

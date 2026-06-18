@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-24
-updated: 2026-06-24
-revision_count: 1
+updated: 2026-07-15
+revision_count: 2
 dimensions: [microcircuit, cellular, cognition]
-related: [pattern-completion, hippocampal-circuit, working-memory, complementary-learning-systems]
+related: [pattern-completion, hippocampal-circuit, working-memory, complementary-learning-systems, transformer-self-attention, biased-competition]
 prerequisites: [ltp, nmda-receptor, action-potential]
 opens_questions: [Q-pc-01]
-source_articles: [2026-06-24-hippocampal-ca3-pattern-completion]
-key_sources: ["PMID:1308182", "PMID:12040087", "PMID:15272123"]
+source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-15-brain-attention-transformer-qkv]
+key_sources: ["PMID:1308182", "PMID:12040087", "PMID:15272123", "arXiv:2008.02217", "DOI:10.1371/journal.pcbi.1011843"]
 ---
 
 # 吸引子网络 (Attractor Network)
@@ -52,9 +52,22 @@ Hopfield（1982）定义了一类全连接对称神经网络（每对神经元�
 
 ### 3. 现代 Hopfield 网络与 Transformer
 
-Ramsauer et al. (2021, arXiv:2008.02217) 将能量函数从二次型推广到指数型，使容量提升到指数级（O(e^N)），且其更新规则数学等价于 Transformer 的 softmax 注意力机制。
+Ramsauer et al.（2020，arXiv:2008.02217）将能量函数从二次型推广到指数型，使存储容量从 $O(N)$ 提升到指数级 $O(e^{d})$，且其更新规则为：
 
-这表明**大脑 CA3 的吸引子记忆机制和人工 Transformer 共享同一个计算原理**，尽管实现方式不同（生物局部稀疏连接 vs 全连接矩阵运算）。
+$$\mathbf{q}^{(t+1)} = X^\top \, \text{softmax}(\beta X \mathbf{q}^{(t)})$$
+
+当 $\beta = 1/\sqrt{d_k}$ 时，**这与 Transformer 单头注意力完全等价**（$X$ 对应 Key 矩阵，$\mathbf{q}$ 对应 Query 向量，输出 $\mathbf{q}^{(t+1)}$ 对应加权 Value 聚合）。
+
+**计算含义**：
+- 低温（$\beta$ 大）：softmax 趋于 one-hot → 精确单一模式检索（类似 CA3 模式补全）
+- 高温（$\beta$ 小）：softmax 趋于均匀分布 → 全局平均聚合（类似 CLS）
+- 深层 Transformer 注意力头比浅层头具有更高等效 $\beta$，与 Hopfield 网络的深层分层表征一致
+
+**与生物注意力的关系**：
+这一等价关系建立了"吸引子记忆检索"与"自注意力"之间的数学桥梁。大脑 DAN（FEF/IPS）发出的 top-down 偏置信号扮演 Query 角色，感觉皮层（V4/IT）的特征表征扮演 Key-Value 角色，而"胜出"的感觉表征就是被"检索"到的吸引子。见 [[transformer-self-attention]] 专页获取完整类比。
+
+**生物实现（Ellwood 2024，DOI:10.1371/journal.pcbi.1011843）**：
+锥体神经元的树突棘通过 NMDA 受体的 Ca²⁺ 内流（量与 pre-post 时序匹配度的 4 次方成正比）动态计算 Query-Key 相似度，高 Ca²⁺ 棘突的短时突触增强实现 Value 加权——这是一种无反向传播的局部赫布学习实现，每次试次即时生效（非 L-LTP，可逆）。
 
 ### 4. 连续吸引子与工作记忆
 
@@ -68,7 +81,8 @@ Ramsauer et al. (2021, arXiv:2008.02217) 将能量函数从二次型推广到指
 |------|------------|------|--------|
 | CA3 循环连接产生离散吸引子状态 | 部分线索下 CA3 表征崩塌（NMDAR KO） | PMID:12040087 | 高（因果）|
 | CA3 体内表现出非线性离散状态切换 | 相似环境中 CA3 激活全局重映射 | PMID:15272123 | 高 |
-| Hopfield 网络更新 = Transformer 注意力 | 数学证明 | arXiv:2008.02217 | 高（数学严格）|
+| Hopfield 网络更新 = Transformer 注意力 | 数学证明（能量函数分析） | arXiv:2008.02217 | 高（数学严格）|
+| 锥体神经元 NMDA Ca²⁺ 可实现注意力类运算（局部赫布） | 计算建模（~150 个树突棘，Ca⁴ 精度抑制） | Ellwood 2024, PLOS Comp Biol | 中（理论建模，尚需体内验证）|
 
 ## 连接
 
@@ -76,6 +90,8 @@ Ramsauer et al. (2021, arXiv:2008.02217) 将能量函数从二次型推广到指
 - [[hippocampal-circuit]] — CA3 是主要的生物吸引子网络实现
 - [[working-memory]] — 前额叶的持续激活被认为依赖连续吸引子动力学
 - [[complementary-learning-systems]] — 吸引子网络的模式补全是 CLS 理论中海马功能的计算核心
+- [[transformer-self-attention]] — 现代 Hopfield 网络 = Transformer softmax 注意力的数学等价，完整类比与边界见专页
+- [[biased-competition]] — 生物注意力中竞争-选择的吸引子动力学
 
 ## 未解问题
 
@@ -84,3 +100,4 @@ Ramsauer et al. (2021, arXiv:2008.02217) 将能量函数从二次型推广到指
 ## 修订历史
 
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 涵盖 Hopfield 网络基础、CA3 生物对应物和现代 Transformer 联系 · 初始置信度：中（理论框架有大量支持，但 CA3 容量估算和细节机制仍有不确定性）
+- 2026-07-15 · 修订 · 基于《同一个算法，两种实现》一文 · 扩展现代 Hopfield 网络更新规则的数学形式（β 参数与温度的关系）；新增 Ellwood 2024 的局部赫布实现机制；关联 transformer-self-attention 专页；补充与生物注意力的具体对应关系

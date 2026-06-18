@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-14",
-  "node_count": 151,
-  "edge_count": 892,
+  "updated": "2026-07-15",
+  "node_count": 154,
+  "edge_count": 912,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1402,6 +1402,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/cnn-visual-cortex-analogy.md"
+    },
+    {
+      "id": "transformer-self-attention",
+      "title": "Transformer 自注意力（Q/K/V 机制）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/transformer-self-attention.md"
     }
   ],
   "edges": [
@@ -6360,6 +6369,90 @@
       "to": "ventral-visual-stream",
       "type": "part-of",
       "note": "V1 是腹侧流第一级"
+    },
+    {
+      "from": "transformer-self-attention",
+      "to": "attractor-network",
+      "type": "related",
+      "note": "现代Hopfield网络更新规则与Transformer单头注意力数学等价（Ramsauer 2020）"
+    },
+    {
+      "from": "attractor-network",
+      "to": "transformer-self-attention",
+      "type": "related",
+      "note": "Hopfield能量函数推广→softmax更新规则=单头自注意力"
+    },
+    {
+      "from": "transformer-self-attention",
+      "to": "biased-competition",
+      "type": "related",
+      "note": "softmax竞争性归一化对应生物偏置竞争中的多刺激相互抑制"
+    },
+    {
+      "from": "biased-competition",
+      "to": "transformer-self-attention",
+      "type": "related",
+      "note": "偏置竞争是Transformer softmax竞争的生物实现（但用除法归一化而非指数softmax）"
+    },
+    {
+      "from": "transformer-self-attention",
+      "to": "dorsal-attention-network",
+      "type": "related",
+      "note": "DAN（FEF/IPS）实现Query信号；感觉皮层（V4/IT）实现Key/Value"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "transformer-self-attention",
+      "type": "related",
+      "note": "Knudsen 2007四组件注意框架与Q/K/V机制的系统性类比"
+    },
+    {
+      "from": "transformer-self-attention",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "温度参数β对应精度加权（precision weighting）；softmax锐度=感觉信号可靠性调节"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "transformer-self-attention",
+      "type": "related",
+      "note": "精度加权机制与Transformer温度缩放参数的计算类比"
+    },
+    {
+      "from": "transformer-self-attention",
+      "to": "cnn-visual-cortex-analogy",
+      "type": "related",
+      "note": "脊柱12系列：大脑-AI计算比较（注意力类比）与脊柱12系列（卷积类比）并列"
+    },
+    {
+      "from": "cnn-visual-cortex-analogy",
+      "to": "transformer-self-attention",
+      "type": "related",
+      "note": "同属「大脑-AI深层算法比较」系列（脊柱12第3篇 vs 第4篇）"
+    },
+    {
+      "from": "transformer-self-attention",
+      "to": "td-learning",
+      "type": "related",
+      "note": "脊柱12系列：Transformer注意力类比（第4篇）与TD奖励学习类比（第1篇）并列"
+    },
+    {
+      "from": "td-learning",
+      "to": "transformer-self-attention",
+      "type": "related",
+      "note": "同属脊柱12「大脑-AI深层算法比较」系列"
+    },
+    {
+      "from": "transformer-self-attention",
+      "to": "variational-autoencoder",
+      "type": "related",
+      "note": "脊柱12系列：注意力类比（第4篇）与VAE感知推断类比（第2篇）并列"
+    },
+    {
+      "from": "variational-autoencoder",
+      "to": "transformer-self-attention",
+      "type": "related",
+      "note": "同属脊柱12「大脑-AI深层算法比较」系列"
     }
   ],
   "dangling_references": [

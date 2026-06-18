@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-06-13
-revision_count: 3
+updated: 2026-07-15
+revision_count: 4
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition]
 related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, neuromodulator-systems, orientation-selectivity, working-memory, v1-primary-visual-cortex, multi-timescale-plasticity, short-term-synaptic-plasticity, dopamine-reward-prediction-error, serotonin-raphe-system, 5-ht-autoreceptor]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-gain-timescale-interaction]
-source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay]
-key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802", "PMID:29470969"]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-07-15-brain-attention-transformer-qkv]
+key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802", "PMID:29470969", "PMID:19186161"]
 ---
 
 # 皮层增益控制 (Cortical Gain Control)
@@ -61,6 +61,21 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802"
 - 由 PV+ 中间神经元（GABA 前馈抑制）实现
 - 保持神经元的动态范围，防止饱和
 
+**Reynolds & Heeger（2009）规范化注意力模型（PMID:19186161, PMCID:PMC2752446，开放全文）**：
+将除法归一化与注意力场（attention field）整合为统一公式：
+
+$$R = \frac{(A \cdot S)^n}{\sigma^n + \left(\sum_i w_i A_i S_i\right)^n}$$
+
+其中 $A$ 为注意力场，$S$ 为刺激驱动，$\sigma$ 为半饱和常数，$\sum w_i A_i S_i$ 为归一化池（含竞争刺激的加权响应）。
+
+关键预测（均获实验支持）：
+- 注意场**窄于**刺激 → 对比度增益（Contrast gain）：曲线水平左移，等效于提高对比度敏感性
+- 注意场**宽于**刺激 → 响应增益（Response gain）：曲线幅度整体放大，等效于乘法增益
+- 该模型统一了 Treue 的特征相似度增益原理与 Reynolds 的对比度增益控制
+
+**与 Transformer softmax 的区别**：
+除法归一化与 softmax 归一化有本质差异：softmax 使所有权重之和恒为 1（全局指数归一化），而除法归一化的分母是邻域响应的加权和（局部竞争池），不要求权重之和为常数，因此可根据注意场宽度产生对比度增益或响应增益两种不同模式——这是生物注意力比 Transformer softmax 更丰富的动力学表现之一。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -68,6 +83,7 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802"
 | ACh 通过响应增益模型改善 V1 对比度灵敏度 | 受体阻断 + 对比度曲线 | Herrero 2017, PMID:29311843 | 高 |
 | 肌碱受体阻断消除 V1 注意诱导的增益提升 | 电泳注射 scopolamine + 注意任务 | Herrero 2008, PMID:18633352 | 高 |
 | NE 和 ACh 均增强多感觉皮层信噪比 | 综述 | Edeline 2012, PMID:22866031 | 高 |
+| 注意场宽度决定产生对比度增益还是响应增益 | 规范化模型数学推导 + 电生理数据拟合 | Reynolds & Heeger 2009, PMID:19186161 | 高（模型预测与数据一致）|
 
 ## 连接
 
@@ -88,6 +104,7 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802"
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《第三周综合》 · 将皮层增益控制定位为多层增益控制架构（[[multi-timescale-plasticity]]）的第二层；新增 Marder 原则（PMID:23040802）和 Thiele & Bellgrove 2018（PMID:29470969）作为理论支撑；更新 related 和 key_sources
 - 2026-06-13 · 修订 · 基于《血清素的慢时钟》 · 新增5-HT自受体脱敏机制作为增益控制的第四个时间尺度（天-周，情绪/可塑性）；补全[[serotonin-raphe-system]]和[[5-ht-autoreceptor]]连接
+- 2026-07-15 · 修订 · 基于《同一个算法，两种实现》一文 · 新增 Reynolds & Heeger 2009 规范化注意力模型（PMID:19186161，开放全文）；说明除法归一化与 Transformer softmax 的关键差异（注意场宽度 → 对比度增益 vs 响应增益 vs softmax 无此区分）；key_sources 新增 PMID:19186161
 
 ## 来源文章
 

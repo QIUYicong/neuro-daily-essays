@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-15（文章 #83·Transformer 自注意力·大脑注意回路类比·课程脊柱 12 第四篇）
+
+**源文章**：[[2026-07-15-brain-attention-transformer-qkv]] —《同一个算法，两种实现：大脑注意回路与 Transformer 自注意力的深层对话》
+
+**新建页面（1 页）**：
+- `concepts/transformer-self-attention.md`：Transformer Q/K/V机制完整公式（Vaswani 2017）；现代Hopfield网络等价（Ramsauer 2020，arXiv:2008.02217）；Q/K/V↔FEF-Query/感觉皮层-Key-Value类比表（Knudsen 2007组件框架）；6大断裂点（连续时间动力学、局部赫布vs全局反向传播、眼动-注意耦合、多头生物对应、softmax vs除法归一化、循环连接）；Ellwood 2024局部赫布实现（NMDA Ca⁴抑制、可逆短期增强）；皮质-丘脑多头假说（arXiv:2504.06354，⚠️待同行评审）；established/high
+
+**修订页面（5 页）**：
+- `concepts/gain-control.md`（rev3→rev4）：新增 Reynolds & Heeger 2009 规范化注意力模型完整公式（R=(AS)^n/(σ^n+Σw_iA_iS_i^n)）；说明除法归一化 vs Transformer softmax 关键差异（注意场宽度→对比度增益/响应增益）；key_sources 新增 PMID:19186161；source_articles 新增 2026-07-15 文章
+- `concepts/dorsal-attention-network.md`（rev1→rev2）：新增 "DAN 与 Transformer Q/K/V 的类比" 一节（Knudsen 2007 四组件框架）；related 新增 transformer-self-attention, attractor-network；key_sources 新增 PMID:17417935, arXiv:2008.02217, DOI:10.1371/journal.pcbi.1011843；source_articles 新增 2026-07-15 文章
+- `concepts/biased-competition.md`（rev1→rev2）：新增 "与 Transformer softmax 竞争的类比" 一节；softmax 指数归一化 vs 除法归一化差异；related 新增 transformer-self-attention, attractor-network, gain-control；key_sources 新增 PMID:4023713, PMID:19186161
+- `concepts/attractor-network.md`（rev1→rev2）：扩展现代 Hopfield 网络更新规则（β参数与温度关系）；新增 Ellwood 2024 局部赫布实现；related 新增 transformer-self-attention, biased-competition；key_sources 新增 arXiv:2008.02217, DOI:10.1371/journal.pcbi.1011843
+
+**图谱更新**：新增 1 节点（transformer-self-attention）、14 条边；总计 **154 节点，912 边**
+> 注：节点数从 151 跃至 154（含本日 +1），因先前两个 run 已各自新增节点（free-energy-principle, variational-autoencoder, ventral-visual-stream 等），CHANGELOG 记录的图谱数字已追上实际
+
+**新增悬空引用**：无
+
+**新登记矛盾**：无
+
+**新增未解问题（2 个）**：
+- Q-attn-bio-01（高优先级）：Ellwood 2024 "匹配-控制"原理是否有体内电生理直接验证？NMDA 短期增强时间常数是否支持注意力动力学？
+- Q-attn-bio-02（中优先级）：大脑中"多头注意力"的生物对应是什么——不同皮层区域（空间并行）、不同振荡频率（时间序列），还是不同细胞类型？
+
+---
+
 ## 2026-07-14（文章 #82·CNN–视觉皮层类比·课程脊柱 3 × 课程脊柱 12 第三篇）
 
 **源文章**：[[2026-07-14-cnn-visual-cortex-hierarchy]] —《镜中影像：卷积神经网络与灵长类视觉皮层的层级对应，以及这面镜子在哪里碎裂》

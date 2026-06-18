@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-15",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9,8 +9,16 @@
       "journal": "Nature Neuroscience",
       "year": 1999,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["predictive coding foundational model", "V1 feedback=predictions feedforward=errors", "surround suppression", "end-stopping", "efficient coding natural images"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "predictive coding foundational model",
+        "V1 feedback=predictions feedforward=errors",
+        "surround suppression",
+        "end-stopping",
+        "efficient coding natural images"
+      ]
     },
     {
       "pmid": "20068583",
@@ -19,8 +27,16 @@
       "journal": "Nature Reviews Neuroscience",
       "year": 2010,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["variational free energy", "ELBO equivalence", "active inference", "perception as model inversion", "precision weighting"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "variational free energy",
+        "ELBO equivalence",
+        "active inference",
+        "perception as model inversion",
+        "precision weighting"
+      ]
     },
     {
       "pmid": "19528002",
@@ -29,8 +45,14 @@
       "journal": "Philosophical Transactions of the Royal Society B",
       "year": 2009,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["hierarchical generative models", "perception as model inversion", "birdsong simulation"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "hierarchical generative models",
+        "perception as model inversion",
+        "birdsong simulation"
+      ]
     },
     {
       "pmid": "23177956",
@@ -39,8 +61,15 @@
       "journal": "Neuron",
       "year": 2012,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["L2/3 error units gamma feedforward", "L5/6 prediction units alpha/beta feedback", "cortical layer mapping", "oscillation direction"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "L2/3 error units gamma feedforward",
+        "L5/6 prediction units alpha/beta feedback",
+        "cortical layer mapping",
+        "oscillation direction"
+      ]
     },
     {
       "pmid": "22681686",
@@ -49,8 +78,15 @@
       "journal": "Neuron",
       "year": 2012,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["V1 sensorimotor mismatch", "two-photon calcium imaging", "L2/3 prediction error neurons", "visual-locomotion coupling VR"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "V1 sensorimotor mismatch",
+        "two-photon calcium imaging",
+        "L2/3 prediction error neurons",
+        "visual-locomotion coupling VR"
+      ]
     },
     {
       "pmid": "30030402",
@@ -59,8 +95,15 @@
       "journal": "Journal of Neuroscience",
       "year": 2018,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["fMRI expectation suppression", "ventral visual stream V1 to IT", "repetition suppression", "neural adaptation confound"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "fMRI expectation suppression",
+        "ventral visual stream V1 to IT",
+        "repetition suppression",
+        "neural adaptation confound"
+      ]
     },
     {
       "pmid": "33683317",
@@ -69,8 +112,15 @@
       "journal": "Cerebral Cortex",
       "year": 2021,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["critical review predictive coding evidence", "neural adaptation confound", "methodological critique", "falsifiability challenge"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "critical review predictive coding evidence",
+        "neural adaptation confound",
+        "methodological critique",
+        "falsifiability challenge"
+      ]
     },
     {
       "pmid": "28333583",
@@ -80,8 +130,16 @@
       "journal": "Neural Computation",
       "year": 2017,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["PC approximates backpropagation", "local Hebbian learning", "representation units error units", "convergence conditions", "one-to-one connectivity constraint"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "PC approximates backpropagation",
+        "local Hebbian learning",
+        "representation units error units",
+        "convergence conditions",
+        "one-to-one connectivity constraint"
+      ]
     },
     {
       "pmid": "30359606",
@@ -91,8 +149,16 @@
       "journal": "Neuron",
       "year": 2018,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["canonical cortical computation", "positive and negative prediction error neurons", "SST+ interneurons L2/3", "mouse V1 locomotion", "backpropagation differences"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "canonical cortical computation",
+        "positive and negative prediction error neurons",
+        "SST+ interneurons L2/3",
+        "mouse V1 locomotion",
+        "backpropagation differences"
+      ]
     },
     {
       "pmid": "28298703",
@@ -101,8 +167,14 @@
       "journal": "Journal of Mathematical Psychology",
       "year": 2017,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["free energy differential equations", "error units representation units", "mathematical tutorial predictive coding"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "free energy differential equations",
+        "error units representation units",
+        "mathematical tutorial predictive coding"
+      ]
     },
     {
       "arxiv": "1312.6114",
@@ -112,8 +184,16 @@
       "journal": "ICLR 2014",
       "year": 2014,
       "first_used": "2026-07-13",
-      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
-      "aspects_covered": ["VAE ELBO objective", "reparameterization trick", "recognition model encoder", "generative model decoder", "ELBO equivalence to variational free energy"]
+      "used_in_articles": [
+        "2026-07-13-predictive-coding-free-energy-vae.md"
+      ],
+      "aspects_covered": [
+        "VAE ELBO objective",
+        "reparameterization trick",
+        "recognition model encoder",
+        "generative model decoder",
+        "ELBO equivalence to variational free energy"
+      ]
     },
     {
       "pmid": "23055474",
@@ -6182,6 +6262,104 @@
       "articles_used_in": [
         "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
       ]
+    },
+    {
+      "pmid": "17417935",
+      "pmcid": null,
+      "doi": "10.1146/annurev.neuro.30.051606.094256",
+      "citation": "Knudsen EI. Fundamental components of attention. Annu Rev Neurosci. 2007;30:57-78.",
+      "access": "abstract_only",
+      "first_used": "2026-07-15",
+      "articles_used_in": [
+        "2026-07-15-brain-attention-transformer-qkv"
+      ]
+    },
+    {
+      "pmid": "11994752",
+      "pmcid": null,
+      "doi": "10.1038/nrn755",
+      "citation": "Corbetta M & Shulman GL. Control of goal-directed and stimulus-driven attention in the brain. Nat Rev Neurosci. 2002;3(3):201-215.",
+      "access": "abstract_only",
+      "first_used": "2026-07-15",
+      "articles_used_in": [
+        "2026-07-15-brain-attention-transformer-qkv"
+      ]
+    },
+    {
+      "pmid": "7605061",
+      "pmcid": null,
+      "doi": "10.1146/annurev.ne.18.030195.001205",
+      "citation": "Desimone R & Duncan J. Neural mechanisms of selective visual attention. Annu Rev Neurosci. 1995;18:193-222.",
+      "access": "abstract_only",
+      "first_used": "2026-07-15",
+      "articles_used_in": [
+        "2026-07-15-brain-attention-transformer-qkv"
+      ]
+    },
+    {
+      "pmid": "4023713",
+      "pmcid": null,
+      "doi": "10.1126/science.4023713",
+      "citation": "Moran J & Desimone R. Selective attention gates visual processing in the extrastriate cortex. Science. 1985;229(4715):782-784.",
+      "access": "abstract_only",
+      "first_used": "2026-07-15",
+      "articles_used_in": [
+        "2026-07-15-brain-attention-transformer-qkv"
+      ]
+    },
+    {
+      "pmid": "10376597",
+      "pmcid": null,
+      "doi": "10.1038/20537",
+      "citation": "Treue S & Martínez-Trujillo JC. Feature-based attention influences motion processing gain in macaque visual cortex. Nature. 1999;399(6736):575-579.",
+      "access": "abstract_only",
+      "first_used": "2026-07-15",
+      "articles_used_in": [
+        "2026-07-15-brain-attention-transformer-qkv"
+      ]
+    },
+    {
+      "pmid": "19186161",
+      "pmcid": "PMC2752446",
+      "doi": "10.1016/j.neuron.2009.01.033",
+      "citation": "Reynolds JH & Heeger DJ. The normalization model of attention. Neuron. 2009;61(2):168-185.",
+      "access": "open_full_text",
+      "first_used": "2026-07-15",
+      "articles_used_in": [
+        "2026-07-15-brain-attention-transformer-qkv"
+      ]
+    },
+    {
+      "arxiv_id": "2008.02217",
+      "doi": "10.5555/3495724.3495764",
+      "citation": "Ramsauer H et al. Hopfield Networks is All You Need. ICLR 2021. arXiv:2008.02217.",
+      "access": "open_full_text",
+      "first_used": "2026-07-15",
+      "articles_used_in": [
+        "2026-07-15-brain-attention-transformer-qkv"
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pcbi.1011843",
+      "pmcid": "PMC10896527",
+      "citation": "Ellwood IT. A theory of how attention is implemented by single neurons in the visual cortex. PLOS Comput Biol. 2024;20(2):e1011843.",
+      "access": "open_full_text",
+      "first_used": "2026-07-15",
+      "articles_used_in": [
+        "2026-07-15-brain-attention-transformer-qkv"
+      ]
+    },
+    {
+      "arxiv_id": "2504.06354",
+      "doi": null,
+      "citation": "Liu et al. Corticothalamic Circuits as Multi-Head Attention Mechanisms. arXiv:2504.06354. 2025. [PREPRINT, NOT PEER-REVIEWED]",
+      "access": "open_full_text",
+      "speculative": true,
+      "peer_reviewed": false,
+      "first_used": "2026-07-15",
+      "articles_used_in": [
+        "2026-07-15-brain-attention-transformer-qkv"
+      ]
     }
   ],
   "total_sources": 330,
@@ -7212,28 +7390,36 @@
     {
       "pmid": "9054347",
       "title": "A neural substrate of prediction and reward (Schultz, Dayan, Montague 1997 Science)",
-      "used_in": ["2026-07-12"],
+      "used_in": [
+        "2026-07-12"
+      ],
       "full_text_available": false,
       "note": "Classic empirical proof of DA-RPE = TD error; abstract only"
     },
     {
       "pmid": "8774856",
       "title": "A framework for mesencephalic dopamine systems based on predictive Hebbian learning (Montague, Dayan, Sejnowski 1996 JNeurosci)",
-      "used_in": ["2026-07-12"],
+      "used_in": [
+        "2026-07-12"
+      ],
       "full_text_available": false,
       "note": "Theoretical prediction preceding Schultz 1997 empirical proof; abstract only"
     },
     {
       "pmid": "12395011",
       "title": "An actor-critic model of the basal ganglia (Joel, Niv, Ruppin 2002 Neuron)",
-      "used_in": ["2026-07-12"],
+      "used_in": [
+        "2026-07-12"
+      ],
       "full_text_available": false,
       "note": "Canonical Actor-Critic BG model; abstract only"
     },
     {
       "pmid": "31942076",
       "title": "Distributional reinforcement learning in the brain (Dabney et al. 2020 Nature)",
-      "used_in": ["2026-07-12"],
+      "used_in": [
+        "2026-07-12"
+      ],
       "full_text_available": false,
       "note": "Mouse VTA single-unit recordings showing asymmetric RPE scaling; abstract only — PMC mapping ambiguous"
     },
@@ -7241,42 +7427,54 @@
       "pmid": "33568813",
       "pmcid": "PMC8107188",
       "title": "Dopamine signals in midbrain neurons encode the difference between the predicted value and its uncertainty (Starkweather & Uchida 2021 Nat Neurosci)",
-      "used_in": ["2026-07-12"],
+      "used_in": [
+        "2026-07-12"
+      ],
       "full_text_available": true,
       "note": "Belief-state TD; mPFC+hippocampus resolve state uncertainty; full text read via PMC8107188"
     },
     {
       "pmid": "27315762",
       "title": "What learning systems do intelligent agents need? Complementary learning systems, experience replay, and the transfer of knowledge (Kumaran, Hassabis, McClelland 2016 TiCS)",
-      "used_in": ["2026-07-12"],
+      "used_in": [
+        "2026-07-12"
+      ],
       "full_text_available": false,
       "note": "CLS+RL update; episodic control; abstract only"
     },
     {
       "pmid": "31003893",
       "title": "Reinforcement learning, fast and slow (Botvinick et al. 2019 TiCS)",
-      "used_in": ["2026-07-12"],
+      "used_in": [
+        "2026-07-12"
+      ],
       "full_text_available": false,
       "note": "Meta-RL hypothesis; DA-TD trains PFC-RNN; abstract only"
     },
     {
       "pmid": "28599832",
       "title": "Model-based influences on humans' choices and striatal prediction errors (Voon et al. 2017 Nat Rev Neurosci)",
-      "used_in": ["2026-07-12"],
+      "used_in": [
+        "2026-07-12"
+      ],
       "full_text_available": false,
       "note": "MB-MF imbalance in OCD/addiction/depression; abstract only"
     },
     {
       "pmid": "25908631",
       "title": "Human-level control through deep reinforcement learning (Mnih et al. 2015 Nature)",
-      "used_in": ["2026-07-12"],
+      "used_in": [
+        "2026-07-12"
+      ],
       "full_text_available": false,
       "note": "DQN paper; experience replay buffer inspired by CLS; abstract only"
     },
     {
       "pmid": "22325196",
       "title": "How does the brain solve visual object recognition? (DiCarlo, Zoccolan, Rust 2012 Neuron)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": false,
       "note": "Core review; untangling concept; IT linear separability; abstract only"
     },
@@ -7284,7 +7482,9 @@
       "pmid": "24812127",
       "pmcid": "PMC4060707",
       "title": "Performance-optimized hierarchical models predict neural responses in higher visual cortex (Yamins et al. 2014 PNAS)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": true,
       "note": "Key paper: performance-neural predictivity correlation r=0.78; IT 48.5%, V4 51.7% explained variance; open full text PMC"
     },
@@ -7292,63 +7492,81 @@
       "pmid": "25521294",
       "pmcid": "PMC4270441",
       "title": "Deep neural networks rival the representation of primate IT cortex (Cadieu et al. 2014 PLoS Comp Biol)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": true,
       "note": "DNN rivals IT representational performance; kernel analysis; noise correction; open full text PMC"
     },
     {
       "pmid": "25375136",
       "title": "Deep supervised, but not unsupervised, models may explain IT cortical representation (Khaligh-Razavi & Kriegeskorte 2014 PLoS Comp Biol)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": false,
       "note": "37 models vs human/monkey IT RDM; supervised CNN >> unsupervised; abstract only"
     },
     {
       "pmid": "28532370",
       "title": "Deep neural networks: a new framework for modeling biological vision (Kriegeskorte 2015 Annu Rev Vis Sci)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": false,
       "note": "Review; DNN framework for biological vision; abstract only"
     },
     {
       "pmid": "26906502",
       "title": "Using goal-driven deep learning models to understand sensory cortex (Yamins & DiCarlo 2016 Nat Neurosci)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": false,
       "note": "Review; goal-driven HCNN framework; extension to auditory cortex; abstract only"
     },
     {
       "pmid": "31048462",
       "title": "Neural population control via deep image synthesis (Bashivan, Kar, DiCarlo 2019 Science)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": false,
       "note": "CNN-driven image synthesis to control V4 neurons in macaque; abstract only"
     },
     {
       "pmid": "31036945",
       "title": "Evidence that recurrent circuits are critical to the ventral stream's execution of core object recognition (Kar et al. 2019 Nat Neurosci)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": false,
       "note": "Recurrent processing required for difficult images; ~30ms extra latency; abstract only"
     },
     {
       "pmid": "33431673",
       "title": "Unsupervised neural network models of the ventral visual stream (Zhuang et al. 2021 PNAS)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": false,
       "note": "Self-supervised/contrastive learning approaches rival supervised CNN neural predictivity; abstract only"
     },
     {
       "arxiv": "1811.12231",
       "title": "ImageNet-trained CNNs are biased towards textures; increasing shape bias improves accuracy and robustness (Geirhos et al. 2019 ICLR)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": true,
       "note": "CNN texture bias vs human shape bias; Stylized-ImageNet; arXiv open full text; no PubMed PMID"
     },
     {
       "pmid": "10526343",
       "title": "Hierarchical models of object recognition in cortex (Riesenhuber & Poggio 1999 Nat Neurosci)",
-      "used_in": ["2026-07-14"],
+      "used_in": [
+        "2026-07-14"
+      ],
       "full_text_available": false,
       "note": "HMAX model; S-unit/C-unit framework derived from Hubel-Wiesel; precursor to CNN-visual cortex analogy; abstract only"
     }

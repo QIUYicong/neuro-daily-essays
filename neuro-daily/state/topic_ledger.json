@@ -1,7 +1,65 @@
 {
-  "last_updated": "2026-07-14",
-  "total_articles": 82,
+  "last_updated": "2026-07-15",
+  "total_articles": 83,
   "entries": [
+    {
+      "date": "2026-07-15",
+      "title": "同一个算法，两种实现：大脑注意回路与 Transformer 自注意力的深层对话",
+      "filename": "2026-07-15-brain-attention-transformer-qkv.md",
+      "wiki_pages_created": [
+        "wiki/concepts/transformer-self-attention.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/gain-control.md",
+        "wiki/concepts/dorsal-attention-network.md",
+        "wiki/concepts/biased-competition.md",
+        "wiki/concepts/attractor-network.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "Transformer 自注意力的 Q/K/V 机制在多大程度上与大脑背侧注意网络（FEF/IPS=Query，感觉皮层=Key/Value）实现了相同的计算？现代 Hopfield 网络更新规则与 softmax 注意力的数学等价（Ramsauer 2020）能推广到生物注意力吗？除法归一化（Reynolds & Heeger 2009）与 softmax 有何本质差异，为何除法归一化能产生对比度增益 vs 响应增益两种模式而 softmax 不能？Ellwood 2024 的局部赫布实现（NMDA Ca⁴短时突触增强）如何无需反向传播地实现注意力类运算？",
+      "layer": [
+        "cognition",
+        "brain-region",
+        "whole-brain-network",
+        "methods",
+        "AI"
+      ],
+      "curriculum_track": "课程脊柱12（人脑与AI比较·第四篇）；承接脊柱12第一篇（TD学习×DA-RPE）、第二篇（预测编码×FEP×VAE）、第三篇（CNN×视觉皮层层级）；将大脑-AI比较从奖励/感知推断/视觉表征层面推进到注意力机制层面；同时整合脊柱3（认知控制×注意）的DAN/VAN架构与脊柱1（突触可塑性）的Hopfield网络/吸引子动力学",
+      "topic_tags": [
+        "transformer self-attention",
+        "Q/K/V mechanism",
+        "Vaswani 2017",
+        "modern Hopfield network",
+        "Ramsauer 2020 arXiv:2008.02217",
+        "dorsal attention network",
+        "FEF IPS",
+        "biased competition",
+        "Desimone Duncan 1995",
+        "feature similarity gain",
+        "Treue 1999",
+        "normalization model of attention",
+        "Reynolds Heeger 2009",
+        "divisive normalization vs softmax",
+        "Knudsen 2007 four components",
+        "Ellwood 2024 match-and-control",
+        "NMDA Hebbian attention",
+        "corticothalamic multihead attention",
+        "brain-AI analogy",
+        "curriculum track 12 article 4"
+      ],
+      "key_sources": [
+        "PMID:17417935",
+        "PMID:11994752",
+        "PMID:7605061",
+        "PMID:4023713",
+        "PMID:10376597",
+        "PMID:19186161",
+        "arXiv:2008.02217",
+        "DOI:10.1371/journal.pcbi.1011843",
+        "arXiv:2504.06354"
+      ]
+    },
     {
       "date": "2026-07-14",
       "title": "镜中影像：卷积神经网络与灵长类视觉皮层的层级对应，以及这面镜子在哪里碎裂",
@@ -16,7 +74,12 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "视觉皮层层级 V1→V2→V4→IT 与卷积神经网络之间存在怎样的表征层面对应关系？目标驱动深度学习模型（Yamins 2014，r=0.78 性能-神经预测力相关）在多大程度上真正预测了生物视觉神经元的响应？循环连接（Kar 2019 额外~30ms延迟）、纹理偏见（Geirhos 2019）和对抗样本在哪里打破了这个类比——以及这个崩溃点告诉了我们什么？",
-      "layer": ["brain-region", "cognition", "methods", "AI"],
+      "layer": [
+        "brain-region",
+        "cognition",
+        "methods",
+        "AI"
+      ],
       "curriculum_track": "课程脊柱3（大脑如何编码世界·视觉系统·腹侧视觉流）× 课程脊柱12（人脑与AI比较·第三篇）；承接脊柱12第一篇（TD学习×DA-RPE）和第二篇（预测编码×FEP×VAE）；将脑-AI比较从奖励/感知推断层面具体化到视觉表征的定量实验比较",
       "topic_tags": [
         "ventral visual stream",
