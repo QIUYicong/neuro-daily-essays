@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-06-03
-revision_count: 6
+updated: 2026-07-19
+revision_count: 7
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit]
+related: [persistent-activity, gamma-oscillations, beta-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
 opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition]
-key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition, 2026-07-19-beta-oscillations-cortical-prediction]
+key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841", "PMID:29339471", "PMID:28785729"]
 ---
 
 # 工作记忆 (Working Memory)
@@ -28,7 +28,7 @@ key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", 
 
 1. **活动性编码**（active coding）：γ 爆发（45–100 Hz，~67 ms/次）期间，神经元高精度编码记忆内容（Lundqvist et al. 2016）
 2. **突触静默储存**（activity-silent storage）：突触 STP 易化（Ca²⁺ 残留 + 囊泡就绪）在爆发间隔期无声保持信息（Mongillo et al. 2008）
-3. **主动抑制**（active suppression）：β 振荡（20–35 Hz）压制竞争信息
+3. **主动抑制**（active suppression）：β 爆发（20–35 Hz，平均 130 ms）是 WM 延迟期的默认背景态，压制随机感觉干扰（Lundqvist 2016）；前额叶深层（L5/6）的 β 相位调控浅层（L2/3）γ 爆发的概率——β 的特定相位构成 γ 的"许可窗口"（Bastos 2018，PMID:29339471）；部分 β 爆发还具有内容特异性，可短暂再激活特定记忆表征（Spitzer & Haegens 2017，PMID:28785729）
 4. **层级特化**：浅层（L2/3）负责内容编码，深层（L5/6）负责时序控制
 
 经典持续放电模型（Goldman-Rakic 1995）仍然有效，但需修订：延迟期放电是**间歇性 γ 爆发**而非连续高频，且并非所有信息都需要主动放电维持。
@@ -54,11 +54,14 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 | STP 可实现活动无声 WM | 计算模型 | Mongillo et al. 2008 (PMID:18339943) | 中 |
 | D1 受体倒 U 型调节 | 猕猴 PFC 微量注射 | Arnsten 2011 (PMID:21345366, PMC:PMC3115784) | 高 |
 | PV 损伤导致 γ 下降和 WM 缺陷 | 人类 dlPFC 尸检 | Hughes et al. 2024 (PMID:39381500, PMC:PMC11458443) | 高 |
+| 前额叶层流：L5/6 深层 β 调制 L2/3 浅层 γ 爆发概率（许可窗口） | 猕猴 PFC 层流电极 LFP，延迟 WM 任务，相位-功率耦合分析 | Bastos et al. 2018 (PMID:29339471, PMC:PMC5798320) | 高 |
+| β 爆发可内容特异性地参与记忆再激活（振动频率→β 功率参数化编码） | 人类 MEG + 灵长类 LFP，振动触觉 WM 任务，综合综述 | Spitzer & Haegens 2017 (PMID:28785729, PMC:PMC5539431) | 中 |
 
 ## 连接
 
 - [[persistent-activity]] — 工作记忆维持的活动性机制（γ 爆发的神经相关物）
 - [[gamma-oscillations]] — PV+中间神经元生成的 30–80 Hz 节律，工作记忆的时序框架
+- [[beta-oscillations]] — β 爆发（130 ms）是 WM 延迟期的默认背景态；深层 L5/6 β 调制浅层 L2/3 γ 爆发概率（许可窗口）；部分 β 携带内容特异信息（再激活）
 - [[prefrontal-cortex]] — 工作记忆的关键脑区，dlPFC 第 2/3/5 层
 - [[pv-interneurons]] — γ 生成者，控制工作记忆的时序精度
 - [[nmda-receptor]] — PFC 循环回路的时间积分器
@@ -113,6 +116,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - 2026-06-12 · 修订 · 基于《注意的化学语言》一文 · 新增 NE/ACh 对工作记忆的调制条目：α2A 受体（高亲和力 NE 受体）抑制 HCN 通道、稳定 PFC 工作记忆表征（Arnsten）；M1 ACh 受体促进持续放电（Hasselmo & Sarter 2011）；α7-nAChR 增强 dlPFC NMDA 信号稳定性（Yang 2013）；related 新增 norepinephrine-locus-coeruleus, acetylcholine-cortex
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语音工作记忆（phonological loop）与背侧语言流的解剖对应：Spt（音韵短期缓冲）↔BA44（内部发声）即Baddeley语音回路的神经底层；related 新增 dorsal-language-stream, language-network
 - 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增背内侧视丘（MD）的工作记忆放大器角色小节：MD 维持延迟期晚期活动（不影响早期）；MD-PFC θ/β 同步；认知灵活性依赖 MD-OFC；精神分裂症中 MD-dlPFC 降低∝认知缺陷；related 新增 thalamus, thalamocortical-circuit
+- 2026-07-19 · 修订 · 基于《β振荡的三副面孔》一文（#87）· 扩展"主动抑制"机制：β 爆发（130 ms）为 WM 延迟期默认背景态、L5/6 深层 β→L2/3 浅层 γ 许可窗口（Bastos 2018）、内容特异性 β 再激活（Spitzer & Haegens 2017）；关键证据表新增两行（Bastos 2018、Spitzer 2017）；连接新增 beta-oscillations；key_sources 新增 PMID:29339471、PMID:28785729
 
 ## NE 和 ACh 对工作记忆的调制
 
@@ -138,3 +142,4 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[2026-06-10-stp-short-term-plasticity]]
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-06-20-language-dual-stream]]
+- [[2026-07-19-beta-oscillations-cortical-prediction]]

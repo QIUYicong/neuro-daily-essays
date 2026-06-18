@@ -1,7 +1,95 @@
 {
-  "last_updated": "2026-07-18",
+  "last_updated": "2026-07-19",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "20359884",
+      "title": "Beta-band oscillations--signalling the status quo?",
+      "authors_short": "Engel AK, Fries P",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2010,
+      "first_used": "2026-07-19",
+      "used_in_articles": [
+        "2026-07-19-beta-oscillations-cortical-prediction.md"
+      ],
+      "aspects_covered": [
+        "beta = status quo signaling unified framework",
+        "beta disappearance = state update required",
+        "motor cortex ERD/ERS cycle",
+        "sensory cortex beta feedback pathway",
+        "cognitive control beta inhibition"
+      ]
+    },
+    {
+      "pmid": "25556836",
+      "title": "Visual areas exert feedforward and feedback influences through distinct frequency channels",
+      "authors_short": "Bastos AM et al.",
+      "journal": "Neuron",
+      "year": 2015,
+      "first_used": "2026-07-19",
+      "used_in_articles": [
+        "2026-07-19-beta-oscillations-cortical-prediction.md"
+      ],
+      "aspects_covered": [
+        "28 pairs primate visual areas gamma feedforward beta feedback",
+        "Granger causality frequency-directed transfer",
+        "gamma 60-80 Hz feedforward theta feedforward",
+        "beta 14-18 Hz feedback consistent across all 28 pairs"
+      ]
+    },
+    {
+      "pmid": "25585017",
+      "title": "A DCM study of spectral asymmetries in feedforward and feedback connections between visual areas V1 and V4 in the monkey",
+      "authors_short": "Bastos AM et al.",
+      "journal": "NeuroImage",
+      "year": 2015,
+      "first_used": "2026-07-19",
+      "used_in_articles": [
+        "2026-07-19-beta-oscillations-cortical-prediction.md"
+      ],
+      "aspects_covered": [
+        "DCM V1-V4 laminar frequency asymmetry",
+        "L2/3 supragranular gamma feedforward",
+        "L5/6 infragranular alpha/beta feedback",
+        "model-based laminar dissection of spectral asymmetry"
+      ]
+    },
+    {
+      "pmid": "28785729",
+      "title": "Beyond the Status Quo: A Role for Beta Oscillations in Endogenous Content (Re)Activation",
+      "authors_short": "Spitzer B, Haegens S",
+      "journal": "eNeuro",
+      "year": 2017,
+      "first_used": "2026-07-19",
+      "used_in_articles": [
+        "2026-07-19-beta-oscillations-cortical-prediction.md"
+      ],
+      "aspects_covered": [
+        "content-specific beta oscillations",
+        "vibrotactile WM beta power parametrically tracks memorized frequency",
+        "motion direction beta synchrony pattern specific",
+        "content-specific beta transient hundreds ms",
+        "protective beta vs content-specific beta dichotomy"
+      ]
+    },
+    {
+      "pmid": "29339471",
+      "title": "Laminar recordings in frontal cortex suggest distinct layers for maintenance and control of working memory",
+      "authors_short": "Bastos AM et al.",
+      "journal": "PNAS",
+      "year": 2018,
+      "first_used": "2026-07-19",
+      "used_in_articles": [
+        "2026-07-19-beta-oscillations-cortical-prediction.md"
+      ],
+      "aspects_covered": [
+        "frontal cortex laminar electrode WM task",
+        "L2/3 gamma bursts stimulus-selective",
+        "L5/6 alpha/beta power non-selective",
+        "deep beta phase gates superficial gamma burst probability",
+        "permission window mechanism"
+      ]
+    },
     {
       "pmid": "10195184",
       "title": "Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects",

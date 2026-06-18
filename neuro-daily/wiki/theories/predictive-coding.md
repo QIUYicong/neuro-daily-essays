@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-07-18
-revision_count: 7
+updated: 2026-07-19
+revision_count: 8
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition, AI]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers, beta-oscillations]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-pc-07]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002"]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae, 2026-07-19-beta-oscillations-cortical-prediction]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002", "PMID:25556836", "PMID:29339471"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -86,6 +86,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 |------|------------|------|--------|
 | 预测编码框架复现 V1 非经典感受野效应（末端停止、环绕抑制） | 层级网络 + 自然图像训练；计算预测与已知神经数据对比 | PMID:10195184 | 高（计算模型）|
 | 皮层前馈方向 γ 主导，反馈方向 α/β 主导 | 灵长类多脑区 MEG/LFP 记录；层级连接解剖与振荡记录对比 | PMID:23177956 | 高（多项独立研究）|
+| 28 对灵长类视觉区域：前向 γ（60–80 Hz），后向 β（14–18 Hz），跨区域高度一致 | Granger 因果分析 + 独立解剖层级确认（灵长类多电极 LFP） | PMID:25556836 | 高（系统性多区域）|
+| 前额叶层流：L5/6 深层 α/β 调控 L2/3 浅层 γ 爆发；在 WM 任务中验证感觉皮层频率层级规律 | 猕猴 PFC 层流电极；相位-功率耦合分析 | PMID:29339471 | 高（层流电极直接分辨）|
 | 小鼠 V1 L2/3 在感觉运动失配时强烈激活（预测误差响应） | 清醒小鼠 + VR + 双光子钙成像；操控运动-视觉耦合状态 | PMID:22681686 | 高（体内行为实验）|
 | 注意可被理解为精度加权（ACh 实现 V1 精度调制） | 猕猴 V1 + M1 受体阻断 + 注意任务（Herrero et al. 2008） | PMID:27917138；PMID:30359606 综述 | 高（体内药理+电生理）|
 | 某些感觉皮层间交互不符合简单振荡-方向映射预测 | 灵长类视觉联合皮层新数据（仅读摘要） | PMID:41120233 | 待评估（限于摘要）|
@@ -107,6 +109,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 
 - [[cortical-canonical-microcircuit]] — 规范微回路是预测编码的解剖实现载体：L2/3=误差单元（前馈，γ），L5/6=预测单元（反馈，β），L4=丘脑感觉输入汇聚点，L1=反馈预测接收区
 - [[cortical-layers]] — 六层解剖学骨架：每层的细胞类型、输入/输出投射和振荡特征
+- [[beta-oscillations]] — β 振荡是预测编码反馈通路的频率实现（14–18 Hz 后向信号，L5/6 深层起源）；γ 爆发是前馈误差信号的频率实现（L2/3 浅层起源）；二者的层级分工是误差单元（浅层γ）与表征单元（深层β）的振荡表达
 - [[cerebellum]] — 专用预测误差学习系统（前向模型 + 攀爬纤维误差信号）
 - [[forward-model]] — 小脑前向模型是预测编码的一个具身子系统
 - [[precision-weighting]] — 预测编码框架中注意力和神经调质的计算角色
@@ -141,8 +144,10 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
 - 2026-07-13 · 修订 · 基于《大脑的预言机》一文（#81）· 新增 AI 比较维度（dimensions 加 AI）；关键证据表增加 Whittington & Bogacz 2017（PC ≈ 反向传播）、Richter 2018（腹侧流抑制）、Solomon 2021（批评性证据）、VAE 数学等价；related 新增 free-energy-principle、variational-autoencoder；未解问题新增 Q-pc-06、Q-pc-07；key_sources 新增 PMID:28333583、PMID:33683317、PMID:19528002
 - 2026-07-18 · 修订 · 基于《大脑皮层的规范微回路》一文（#86）· 补充规范微回路作为预测编码解剖实现载体的关联；related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增两条解剖实现链接
+- 2026-07-19 · 修订 · 基于《β振荡的三副面孔》一文（#87）· 关键证据表新增 Bastos 2015（28 对视觉区域γ前向/β后向，PMID:25556836）和 Bastos 2018（前额叶层流验证频率层级规律，PMID:29339471）；连接新增 beta-oscillations（β作为反馈预测的振荡载体，γ作为前馈误差的振荡载体）；related 新增 beta-oscillations；key_sources 新增 PMID:25556836、PMID:29339471
 
 ## 来源文章
 
 - [[2026-06-15-predictive-coding]]
 - [[2026-06-20-language-dual-stream]]
+- [[2026-07-19-beta-oscillations-cortical-prediction]]

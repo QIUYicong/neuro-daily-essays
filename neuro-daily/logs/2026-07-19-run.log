@@ -1,0 +1,49 @@
+## 2026-07-19 Daily Run Log
+
+**Run time**: 2026-07-19 (scheduled routine, Beijing UTC+8)
+**Article**: #87 — β振荡的三副面孔：运动刹车、感知反馈与记忆守护
+**Status**: SUCCESS
+
+### Topic Selection
+
+Method: Gap-driven (next_suggested_topics from article #86 + Q-ccm-03 resolution opportunity)
+Selected: β振荡 — the cortical canonical microcircuit article (#86) introduced L5/6 β as feedback prediction signal, leaving β as the natural follow-up; Q-ccm-03 (does β/γ frequency rule apply beyond visual cortex?) was directly addressable.
+
+### Sources
+
+- 7 total sources (6 primary + 1 previously-cited wiki source)
+- PMC open full text: 4 (PMID:26996084, PMID:28785729, PMID:29339471, PMID:25585017)
+- Abstract/citation only: 2 (PMID:20359884, PMID:25556836)
+- Previously cited in wiki: 1 (PMID:20463229)
+
+### Files Created
+
+- neuro-daily/articles/2026-07-19-beta-oscillations-cortical-prediction.md (~4500 words)
+- neuro-daily/notes/2026-07-19-reading-notes.md
+- neuro-daily/sources/2026-07-19-sources.json
+
+### Wiki Pages Revised (3)
+
+- wiki/concepts/beta-oscillations.md (rev1→rev2, confidence medium→high)
+- wiki/concepts/working-memory.md (rev6→rev7)
+- wiki/theories/predictive-coding.md (rev7→rev8)
+
+### State Files Updated
+
+- state/topic_ledger.json (total_articles 86→87, new entry added)
+- state/unresolved_questions.md (last_updated updated, Q-beta-01 to Q-beta-04 added, Q-ccm-03 partial answer logged)
+- state/source_registry.json (5 new sources added: PMID:20359884, 25556836, 25585017, 28785729, 29339471)
+- state/monthly_synthesis.md (article #87 added to July section)
+
+### Knowledge Graph
+
+- Nodes: 159 (unchanged)
+- Edges: 933 → 940 (+7 new edges)
+- New edges: beta-oscillations → {cortical-canonical-microcircuit, predictive-coding, cortical-layers, pv-interneurons, persistent-activity}; working-memory → beta-oscillations; predictive-coding → beta-oscillations
+
+### Open Questions
+
+New: Q-beta-01 (high), Q-beta-02 (medium), Q-beta-03 (medium), Q-beta-04 (low)
+Partially answered: Q-ccm-03 (Bastos 2018 extends β/γ frequency hierarchy to PFC)
+
+### Commit hash: (to be filled after commit)

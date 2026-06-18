@@ -1,7 +1,79 @@
 {
-  "last_updated": "2026-07-18",
-  "total_articles": 86,
+  "last_updated": "2026-07-19",
+  "total_articles": 87,
   "entries": [
+    {
+      "date": "2026-07-19",
+      "title": "β振荡的三副面孔：运动刹车、感知反馈与记忆守护",
+      "filename": "2026-07-19-beta-oscillations-cortical-prediction.md",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/beta-oscillations.md",
+        "wiki/concepts/working-memory.md",
+        "wiki/theories/predictive-coding.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "β振荡（13–30 Hz）在运动皮层、感觉皮层层级和工作记忆三个系统中为何共同出现？其统一功能是什么？β爆发（130 ms）如何与γ爆发（67 ms）互补，共同实现工作记忆内容的守护与召回？皮层深层L5/6β与浅层L2/3γ的层级分工如何从感觉皮层延伸至前额叶？帕金森病中多巴胺缺失如何导致β病理性卡死？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱2（皮层计算·振荡·频率分工）；承接#86（规范微回路·L5/6β后向反馈）；回答Q-ccm-03（β/γ频率规律是否适用于非视觉皮层）；连接课程脊柱11（疾病·帕金森）和脊柱5（认知控制·工作记忆）",
+      "topic_tags": [
+        "beta oscillations 13-30 Hz",
+        "status quo signaling Engel Fries 2010",
+        "beta burst 130ms discrete",
+        "gamma burst 67ms content",
+        "ERD event-related desynchronization motor",
+        "PMBR post-movement beta rebound",
+        "feedforward gamma feedback beta",
+        "Bastos 2015 28 visual areas",
+        "DCM V1-V4 L2/3 gamma L5/6 beta",
+        "Lundqvist 2016 working memory gamma beta bursts",
+        "Spitzer Haegens 2017 content-specific beta",
+        "Bastos 2018 laminar frontal cortex",
+        "deep L5/6 beta controls superficial L2/3 gamma",
+        "permission window",
+        "protective beta non-content specific",
+        "content-specific beta reactivation",
+        "Parkinson pathological beta STN GPe",
+        "phase-amplitude coupling PAC",
+        "Lopez-Azcárate 2010 STN beta PAC",
+        "dopamine deficiency beta hypersynchrony",
+        "predictive coding beta feedback",
+        "gamma feedforward error signal"
+      ],
+      "key_sources": [
+        "PMID:20359884",
+        "PMID:25556836",
+        "PMID:25585017",
+        "PMID:26996084",
+        "PMID:28785729",
+        "PMID:29339471",
+        "PMID:20463229"
+      ],
+      "unresolved_questions": [
+        "Q-beta-01: β/γ频率层级规律在啮齿类、人类和非视觉脑区的普适性",
+        "Q-beta-02: 保护性β与内容特异性β能否在同一实验中同时区分和量化",
+        "Q-beta-03: PD中病理性β增强是运动障碍的直接原因还是并行标志",
+        "Q-beta-04: 不同脑区（前额叶、海马、小脑）的β起搏机制是否相同"
+      ],
+      "next_suggested_topics": [
+        "γ振荡（gamma-oscillations）深化——PV+篮状细胞的ING/PING机制、精神分裂症γ缺陷、γ与WM的因果关系",
+        "持续活动与STP——工作记忆活动无声存储与γ爆发激活的整合机制",
+        "基底节-皮层回路深化——STN-GPe-GPi的网络动力学、多巴胺的直接/间接通路平衡",
+        "前额叶无颗粒皮层的微回路变体——回答Q-ccm-04",
+        "θ振荡——θ/γ嵌套与WM容量的因果关系"
+      ]
+    },
     {
       "date": "2026-07-18",
       "title": "大脑皮层的规范微回路：六层结构如何让感知成为主动推断",

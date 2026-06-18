@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-18",
+  "updated": "2026-07-19",
   "node_count": 159,
-  "edge_count": 933,
+  "edge_count": 940,
   "edge_types": [
     "is-a",
     "part-of",
@@ -628,11 +628,11 @@
     },
     {
       "id": "beta-oscillations",
-      "title": "β振荡（基底节-皮层）",
+      "title": "β振荡",
       "domain": "concepts",
       "type": "mechanism",
       "status": "mainstream",
-      "confidence": "medium",
+      "confidence": "high",
       "page": "wiki/concepts/beta-oscillations.md"
     },
     {
@@ -3565,6 +3565,48 @@
       "from": "beta-oscillations",
       "to": "working-memory",
       "type": "related"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "cortical-canonical-microcircuit",
+      "type": "related",
+      "note": "β 是规范微回路 L5/6 后向反馈通路的频率实现（14-18 Hz）"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "β 振荡是预测编码反馈通路的振荡载体；γ 是前馈误差的振荡载体"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "cortical-layers",
+      "type": "related",
+      "note": "β 主要起源于深层 L5/6；γ 主要起源于浅层 L2/3"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "PV+ 篮状细胞在 β 调制浅层 γ 的局部回路中参与作用"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "persistent-activity",
+      "type": "related",
+      "note": "β 爆发是 WM 延迟期默认背景态，保护持续活动不受随机感觉干扰"
+    },
+    {
+      "from": "working-memory",
+      "to": "beta-oscillations",
+      "type": "related",
+      "note": "β 爆发（130 ms）是 WM 延迟期默认背景态；深层 L5/6 β 调制浅层 L2/3 γ 许可窗口"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "beta-oscillations",
+      "type": "related",
+      "note": "β/γ 频率分工是预测编码前馈误差/反馈预测分离的振荡基础"
     },
     {
       "from": "dopamine-reward-prediction-error",

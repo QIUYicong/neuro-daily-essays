@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-07-19（文章 #87·β振荡的三副面孔·统一框架·课程脊柱 2 × 课程脊柱 5）
+
+**源文章**：[[2026-07-19-beta-oscillations-cortical-prediction]] —《β振荡的三副面孔：运动刹车、感知反馈与记忆守护》
+
+**新建页面（0）**：无新建页面（主题已有 rev1 骨架）
+
+**修订页面（3）**：
+- `wiki/concepts/beta-oscillations.md` rev2 — **重大修订**：confidence medium→high；扩展统一框架（运动/感觉皮层层级/工作记忆/帕金森四系统）；Bastos 2015 ×2（28对视觉区域γ前向/β后向 + DCM V1-V4层级）、Lundqvist 2016 γ/β爆发双轨、Spitzer 2017 内容特异性β、Bastos 2018 L5/6许可窗口；related 新增 cortical-canonical-microcircuit, predictive-coding, cortical-layers, pv-interneurons, persistent-activity；key_sources 新增 6 个 PMID；opens_questions 新增 Q-beta-01至Q-beta-04
+- `wiki/concepts/working-memory.md` rev7 — 扩展"主动抑制"为β爆发默认背景态+L5/6→L2/3许可窗口+内容特异性β再激活；关键证据表新增2行（Bastos 2018、Spitzer 2017）；连接新增 beta-oscillations；key_sources 新增 PMID:29339471, PMID:28785729
+- `wiki/theories/predictive-coding.md` rev8 — 关键证据表新增2行（Bastos 2015 28对区域、Bastos 2018前额叶层流）；连接新增 beta-oscillations；related/key_sources 更新
+
+**矛盾登记（0）**：无新矛盾
+
+**新增开放问题（4）**：Q-beta-01（高）至Q-beta-04（低）
+
+**已解答**：Q-ccm-03 → **部分解答**（Bastos 2018 将β/γ频率层级规律扩展至前额叶）
+
+**图谱**：159 节点，940 边（+0 节点，+7 边）
+
+---
+
 ## 2026-07-18（文章 #86·皮层规范微回路·预测编码解剖实现·课程脊柱 2）
 
 **源文章**：[[2026-07-18-cortical-canonical-microcircuit]] —《大脑皮层的规范微回路：六层结构如何让感知成为主动推断》
