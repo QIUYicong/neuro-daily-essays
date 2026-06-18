@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-12（文章 #80·多巴胺 TD 学习与深度 RL 比较·人脑 vs AI 强化学习·课程脊柱 12 首篇）
+
+**源文章**：[[2026-07-12-dopamine-td-learning-brain-ai]] —《奖励信号的双重发现：多巴胺时序差分学习与深度强化学习的平行演化与根本分歧》
+
+**新建页面（4 页）**：
+- `theories/td-learning.md`：时序差分学习理论；δ(t) = r(t) + γV(t+1) − V(t)；DA 神经元的生物实现（Schultz 1997）；信念态 TD（Starkweather 2021）；分布式 TD（Dabney 2020）；与预测编码同构；established/high
+- `concepts/actor-critic-brain.md`：演员-评论家架构在基底节的实现；VTA/SNc=δ信号、NAc=Critic、背侧纹状体 D1-MSN=Go/D2-MSN=No-Go；DA 双读数设计；mainstream/medium
+- `concepts/distributional-rl-dopamine.md`：分布式 DA 编码；不同 VTA DA 神经元的不对称 RPE 缩放（Dabney 2020）；群体追踪奖励概率分布；与 AI 分布式 RL（C51/QR-DQN）对应；emerging/medium
+- `concepts/model-based-model-free.md`：MB-MF 双系统；DMS（目标导向/MB）vs DLS（习惯/MF）；结果贬值测试；应激→MB→MF 切换；OCD/成瘾/抑郁的计算解释；mainstream/medium
+
+**修订页面（3 页）**：
+- `concepts/dopamine-reward-prediction-error.md`（rev4→rev5）：新增"分布式 DA 编码"（Dabney 2020）和"Actor-Critic 架构"（Joel 2002）两小节；related 新增 td-learning/actor-critic-brain/distributional-rl-dopamine/model-based-model-free/complementary-learning-systems；key_sources 新增3个
+- `concepts/complementary-learning-systems.md`（rev1→rev2）：新增 Kumaran-Hassabis-McClelland 2016 更新（情景记忆→行动选择接口）和 Botvinick 2019 Meta-RL 假说（DA-TD 训练 PFC-RNN→快速推断系统）；related 新增 td-learning/dopamine-reward-prediction-error/model-based-model-free
+
+**图谱更新**：新增 4 节点（td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free）、12 条边；总计 **149 节点，885 边**
+
+**新登记矛盾**：无（Active Inference vs RL 框架的潜在分歧以"开放问题"处理，证据不足以登记为 contested_claim）
+
+**新增未解问题（4 个）**：
+- Q-td-biological-discount-factor（中优先级）：大脑的折扣因子 γ 有多动态？不同脑区折扣偏好是否不同？
+- Q-td-credit-assignment-long-horizon（高优先级）：数小时跨度延迟奖励如何被 TD 系统正确分配信用？SWR 重放是否承担长时信用分配？
+- Q-distributional-da-behavior（高优先级）：分布式 DA 编码在行为层面有何可观测功能后果？乐观/悲观 DA 亚群与风险偏好的关系？
+- Q-mb-mf-competition（中优先级）：DMS 和 DLS 如何在网络层面竞争控制行为输出？"仲裁者"是什么？
+
+---
+
 ## 2026-07-11（文章 #79·LC多巴胺·海马记忆标记·LC-TH⁺为dCA1 DA主要来源；行为标记；记忆联结；VTA-SWR互补）
 
 **源文章**：[[2026-07-11-dopamine-lc-hippocampus-memory-tagging]] —《当蓝斑充当"新奇探测器"：LC多巴胺如何把值得记住的瞬间标记进长期记忆》

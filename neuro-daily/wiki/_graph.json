@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-11",
-  "node_count": 145,
-  "edge_count": 873,
+  "updated": "2026-07-12",
+  "node_count": 149,
+  "edge_count": 885,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1330,6 +1330,42 @@
       "source_articles": [
         "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
       ]
+    },
+    {
+      "id": "td-learning",
+      "title": "时序差分学习",
+      "domain": "theories",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/theories/td-learning.md"
+    },
+    {
+      "id": "actor-critic-brain",
+      "title": "演员-评论家架构（大脑）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/actor-critic-brain.md"
+    },
+    {
+      "id": "distributional-rl-dopamine",
+      "title": "分布式强化学习与多巴胺编码",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/distributional-rl-dopamine.md"
+    },
+    {
+      "id": "model-based-model-free",
+      "title": "模型-基与模型-无强化学习（双系统）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/model-based-model-free.md"
     }
   ],
   "edges": [
@@ -6138,6 +6174,78 @@
       "to": "lc-hippocampus-dopamine",
       "type": "gated_by",
       "note": "LC-DA-STC 是突触层面的巩固门控；决定哪些突触被选择性巩固"
+    },
+    {
+      "from": "td-learning",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of",
+      "note": "DA 神经元是 TD 误差 δ 的生物实现"
+    },
+    {
+      "from": "actor-critic-brain",
+      "to": "td-learning",
+      "type": "is-a",
+      "note": "Actor-Critic 是 TD 学习的一种实现形式"
+    },
+    {
+      "from": "actor-critic-brain",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "DA-RPE 提供 Actor-Critic 的 TD 误差信号"
+    },
+    {
+      "from": "actor-critic-brain",
+      "to": "basal-ganglia",
+      "type": "part-of",
+      "note": "基底节是演员-评论家的解剖底物"
+    },
+    {
+      "from": "distributional-rl-dopamine",
+      "to": "dopamine-reward-prediction-error",
+      "type": "part-of",
+      "note": "分布式 DA 编码是对经典单一 δ 信号的精化"
+    },
+    {
+      "from": "distributional-rl-dopamine",
+      "to": "td-learning",
+      "type": "related",
+      "note": "分布式 TD 是经典 TD 的推广"
+    },
+    {
+      "from": "model-based-model-free",
+      "to": "actor-critic-brain",
+      "type": "related",
+      "note": "双系统并行是 Actor 层面的进一步分化"
+    },
+    {
+      "from": "model-based-model-free",
+      "to": "basal-ganglia",
+      "type": "part-of",
+      "note": "DLS（MF）和 DMS（MB）是基底节的功能分区"
+    },
+    {
+      "from": "model-based-model-free",
+      "to": "complementary-learning-systems",
+      "type": "related",
+      "note": "MB 对应海马情景（快），MF 对应纹状体规律（慢）"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "td-learning",
+      "type": "related",
+      "note": "CLS 皮层慢速学习通过 TD 实现"
+    },
+    {
+      "from": "td-learning",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "TD 误差与预测编码误差在数学结构上同构"
+    },
+    {
+      "from": "model-based-model-free",
+      "to": "glucocorticoid-stress-memory",
+      "type": "related",
+      "note": "急性应激 GC→从 MB 切换到 MF"
     }
   ],
   "dangling_references": [

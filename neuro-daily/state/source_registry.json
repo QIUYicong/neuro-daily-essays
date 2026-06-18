@@ -7094,5 +7094,71 @@
     "15924857",
     "21170088",
     "36778837"
+  ],
+  "additions_2026-07-12": [
+    {
+      "pmid": "9054347",
+      "title": "A neural substrate of prediction and reward (Schultz, Dayan, Montague 1997 Science)",
+      "used_in": ["2026-07-12"],
+      "full_text_available": false,
+      "note": "Classic empirical proof of DA-RPE = TD error; abstract only"
+    },
+    {
+      "pmid": "8774856",
+      "title": "A framework for mesencephalic dopamine systems based on predictive Hebbian learning (Montague, Dayan, Sejnowski 1996 JNeurosci)",
+      "used_in": ["2026-07-12"],
+      "full_text_available": false,
+      "note": "Theoretical prediction preceding Schultz 1997 empirical proof; abstract only"
+    },
+    {
+      "pmid": "12395011",
+      "title": "An actor-critic model of the basal ganglia (Joel, Niv, Ruppin 2002 Neuron)",
+      "used_in": ["2026-07-12"],
+      "full_text_available": false,
+      "note": "Canonical Actor-Critic BG model; abstract only"
+    },
+    {
+      "pmid": "31942076",
+      "title": "Distributional reinforcement learning in the brain (Dabney et al. 2020 Nature)",
+      "used_in": ["2026-07-12"],
+      "full_text_available": false,
+      "note": "Mouse VTA single-unit recordings showing asymmetric RPE scaling; abstract only — PMC mapping ambiguous"
+    },
+    {
+      "pmid": "33568813",
+      "pmcid": "PMC8107188",
+      "title": "Dopamine signals in midbrain neurons encode the difference between the predicted value and its uncertainty (Starkweather & Uchida 2021 Nat Neurosci)",
+      "used_in": ["2026-07-12"],
+      "full_text_available": true,
+      "note": "Belief-state TD; mPFC+hippocampus resolve state uncertainty; full text read via PMC8107188"
+    },
+    {
+      "pmid": "27315762",
+      "title": "What learning systems do intelligent agents need? Complementary learning systems, experience replay, and the transfer of knowledge (Kumaran, Hassabis, McClelland 2016 TiCS)",
+      "used_in": ["2026-07-12"],
+      "full_text_available": false,
+      "note": "CLS+RL update; episodic control; abstract only"
+    },
+    {
+      "pmid": "31003893",
+      "title": "Reinforcement learning, fast and slow (Botvinick et al. 2019 TiCS)",
+      "used_in": ["2026-07-12"],
+      "full_text_available": false,
+      "note": "Meta-RL hypothesis; DA-TD trains PFC-RNN; abstract only"
+    },
+    {
+      "pmid": "28599832",
+      "title": "Model-based influences on humans' choices and striatal prediction errors (Voon et al. 2017 Nat Rev Neurosci)",
+      "used_in": ["2026-07-12"],
+      "full_text_available": false,
+      "note": "MB-MF imbalance in OCD/addiction/depression; abstract only"
+    },
+    {
+      "pmid": "25908631",
+      "title": "Human-level control through deep reinforcement learning (Mnih et al. 2015 Nature)",
+      "used_in": ["2026-07-12"],
+      "full_text_available": false,
+      "note": "DQN paper; experience replay buffer inspired by CLS; abstract only"
+    }
   ]
 }

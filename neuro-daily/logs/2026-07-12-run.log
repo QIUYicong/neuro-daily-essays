@@ -1,0 +1,118 @@
+# 2026-07-12 运行日志
+
+**实际执行日期（系统时钟 UTC+8）**：2026-06-18
+**知识库虚拟日期**：2026-07-12
+**文章编号**：#80
+**运行状态**：✅ 成功
+
+---
+
+## 日期偏差说明
+
+系统时钟 UTC+8 = 2026-06-18，但知识库已累积至 2026-07-11（第79篇）。
+2026-06-18 对应的文章已存在（由之前的历史累计日期偏移造成）。
+继续以 2026-07-12 作为知识库虚拟日期，维持连续序列。
+
+---
+
+## 搜索词与研究过程
+
+### 主要搜索策略
+- PubMed: "temporal difference learning dopamine reward prediction error"
+- PubMed: "distributional reinforcement learning dopamine VTA neurons"
+- PubMed: "belief state temporal difference dopamine mPFC hippocampus"
+- PubMed: "model-based model-free reinforcement learning striatum"
+- PubMed: "actor-critic basal ganglia dopamine D1 D2"
+- PubMed: "complementary learning systems episodic control reinforcement"
+- PMC: "Starkweather Uchida 2021" (PMC8107188, full text)
+- eUtils elink: PMID:31942076 → PMC ID lookup (returned ambiguous results)
+
+### 文献访问状态
+- **全文读取**：PMID:33568813 (Starkweather & Uchida 2021, PMC8107188)
+- **仅摘要**：PMID:9054347 (Schultz 1997), PMID:8774856 (Montague 1996), PMID:12395011 (Joel 2002), PMID:31942076 (Dabney 2020), PMID:27315762 (Kumaran 2016), PMID:31003893 (Botvinick 2019), PMID:28599832 (Voon 2017), PMID:25908631 (Mnih 2015)
+- **PMC访问问题**：PMID:31942076（Dabney 2020 Nature）的PMC号映射存在歧义（elink返回PMC13189776但内容为其他论文），已明确标注为"仅摘要"
+
+---
+
+## 本次产出
+
+### 新建文章
+- `neuro-daily/articles/2026-07-12-dopamine-td-learning-brain-ai.md` (~5200字)
+
+### 新建研究笔记
+- `neuro-daily/notes/2026-07-12-reading-notes.md`
+
+### 新建来源元数据
+- `neuro-daily/sources/2026-07-12-sources.json` (9个来源)
+
+### 新建 Wiki 页面（4页）
+- `wiki/theories/td-learning.md` (established/high, rev1)
+- `wiki/concepts/actor-critic-brain.md` (mainstream/medium, rev1)
+- `wiki/concepts/distributional-rl-dopamine.md` (emerging/medium, rev1)
+- `wiki/concepts/model-based-model-free.md` (mainstream/medium, rev1)
+
+### 修订 Wiki 页面（2页）
+- `wiki/concepts/dopamine-reward-prediction-error.md` rev4 → rev5
+  - 新增分布式DA编码（Dabney 2020）：不对称RPE缩放、reversal point、分位数学习器类比
+  - 新增Actor-Critic架构连接（Joel 2002）：VTA=δ广播、NAc=Critic、D1/D2 MSN=Actor
+- `wiki/concepts/complementary-learning-systems.md` rev1 → rev2
+  - 新增Kumaran, Hassabis & McClelland 2016更新：情景记忆指导行动选择+RL-情景记忆接口
+  - 新增Botvinick 2019 Meta-RL假说：DA-TD训练PFC-RNN成为快速学习系统
+  - 新增与td-learning、dopamine-reward-prediction-error、model-based-model-free的关联
+
+### 更新知识图谱
+- `wiki/_graph.json`: 145节点/873边 → 149节点/885边
+- 新增节点：td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free
+- 新增边（12条）：
+  - td-learning → dopamine-reward-prediction-error (mechanism-of)
+  - td-learning → actor-critic-brain (related)
+  - td-learning → complementary-learning-systems (related)
+  - td-learning → predictive-coding (related)
+  - actor-critic-brain → basal-ganglia (part-of)
+  - actor-critic-brain → dopamine-reward-prediction-error (mechanism-of)
+  - actor-critic-brain → model-based-model-free (related)
+  - distributional-rl-dopamine → dopamine-reward-prediction-error (part-of)
+  - distributional-rl-dopamine → td-learning (part-of)
+  - model-based-model-free → complementary-learning-systems (related)
+  - model-based-model-free → basal-ganglia (part-of)
+  - model-based-model-free → glucocorticoid-stress-memory (related)
+
+### 更新 CHANGELOG.md
+- 预置 2026-07-12 条目（4新建/3修订/4新未解问题）
+
+### 更新 Wiki 索引
+- `wiki/index.md`: 143页 → 147页，最后更新日期更新至2026-07-12
+- 新增课程脊柱12进度条目（已开始）
+
+### 更新状态文件
+- `state/topic_ledger.json`: total_articles 79 → 80，新增#80条目
+- `state/unresolved_questions.md`: 新增4个问题（Q-td-biological-discount-factor、Q-td-credit-assignment-long-horizon、Q-distributional-da-behavior、Q-mb-mf-competition）
+- `state/source_registry.json`: 新增9条来源
+- `state/monthly_synthesis.md`: 新增#80条目，更新本月摘要表
+
+---
+
+## 质量检查
+
+- [x] 所有Wiki页面声明均有文献来源
+- [x] 无PMI/DOI/结论编造（来源访问受限已标注"仅摘要"）
+- [x] 未修改旧文章（append-only原则）
+- [x] _graph.json 无悬空边（已验证所有from/to节点均已存在）
+- [x] index.md 页面计数与新建页面数一致（143+4=147）
+- [x] CHANGELOG.md 已预置今日条目
+- [x] 无医学诊断或治疗建议
+- [x] 未使用Sci-Hub或未授权来源
+- [ ] Git push 待完成
+
+---
+
+## 提交信息
+
+```
+git commit: Add neuro daily article + wiki consolidation for 2026-07-12
+- Article #80: 多巴胺TD学习与深度强化学习（课程脊柱12首篇）
+- 4 new wiki pages: td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free
+- 2 revised wiki pages: dopamine-reward-prediction-error rev5, complementary-learning-systems rev2
+- _graph.json: 149 nodes, 885 edges (+4 nodes, +12 edges)
+- All state files updated
+```

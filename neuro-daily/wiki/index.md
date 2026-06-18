@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-11（第79篇·LC多巴胺-海马记忆标记·LC-TH⁺为dCA1 DA主要来源；D1/D5→PKA→CREB→PRPs调控记忆持续性；行为标记实验验证STC；记忆联结LC→dCA1 D1/D5依赖；VTA调制新颖环境SWR重播选择性）· 主题页总数：**143**（新建1页：lc-hippocampus-dopamine；修订5页：synaptic-tagging-capture rev2, dopamine-reward-prediction-error rev4, norepinephrine-locus-coeruleus rev3, sharp-wave-ripples rev7, memory-consolidation rev9；图谱145节点、873边；Q-da-hippocampus-source 部分解答；新增Q-lc-da-subtype、Q-lc-da-physiological-quantity）
+> 最后更新：2026-07-12（第80篇·多巴胺TD学习与深度强化学习·Schultz 1997 DA-RPE实验验证；信念状态TD（mPFC+海马）；分布式RL编码奖励分布；Actor-Critic基底节架构；MB-MF双系统；Meta-RL假说）· 主题页总数：**147**（新建4页：td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free；修订3页：dopamine-reward-prediction-error rev5, complementary-learning-systems rev2；图谱149节点、885边；新增Q-td-biological-discount-factor、Q-td-credit-assignment-long-horizon、Q-distributional-da-behavior、Q-mb-mf-competition）
 
 ---
 
@@ -89,6 +89,9 @@
 - 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；填补 hebbian-learning 悬空引用；纹状体直接实验验证 **[NEW 2026-06-07]**
 - 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题；LC-DA（非VTA）是行为标记 PRPs 合成的主要触发者（Takeuchi 2016, Moncada 2007）**[修订 rev2 2026-07-11]**
 - 🟡 [蓝斑-海马多巴胺系统（LC-DA）](concepts/lc-hippocampus-dopamine.md) — LC TH⁺ 末梢（非VTA）是海马dCA1 DA的主要来源；D1/D5调控记忆持续性（非编码）；行为标记（新颖→LC-DA→PRPs→STC）；记忆联结（~6h时间窗，LC→dCA1 D1/D5依赖）；与GC-NE应激记忆系统互补 **[NEW 2026-07-11]**
+- 🔵 [Actor-Critic架构（基底节）](concepts/actor-critic-brain.md) — VTA/SNc=TD误差δ广播；NAc/腹侧纹状体=Critic价值估计；背侧纹状体D1-MSN=Actor Go / D2-MSN=Actor No-Go；DA双向读出设计（D1兴奋/D2抑制）**[NEW 2026-07-12]**
+- 🟡 [分布式强化学习与多巴胺编码](concepts/distributional-rl-dopamine.md) — 不同VTA DA神经元以不对称RPE缩放编码奖励分布分位数；大脑早于AI独立实现分布式RL计算；Dabney 2020 小鼠VTA单细胞记录 **[NEW 2026-07-12]**
+- 🔵 [模型-基与模型-无强化学习（双系统）](concepts/model-based-model-free.md) — DMS支持MB（目标导向/灵活）；DLS支持MF（习惯性/快速）；结果贬值测试区分双系统；应激→从MB切换到MF；OCD/成瘾/抑郁的计算框架 **[NEW 2026-07-12]**
 
 - 🔵 [三方突触](concepts/tripartite-synapse.md) — Araque 1999 框架；突触前+突触后+星形胶质细胞 PAPs 三元功能单元；双向神经元-胶质细胞信号；LTP/LTD 的三方必要性因果证明（Henneberger 2010）**[NEW 2026-07-02]**
 - 🔵 [D-丝氨酸](concepts/d-serine.md) — NMDA 受体 GluN1 协同激动剂（而非甘氨酸）；星形胶质细胞丝氨酸消旋酶合成；Ca²⁺ 依赖释放；切断 D-丝氨酸 → LTP 完全消失（Henneberger 2010）**[NEW 2026-07-02]**
@@ -170,6 +173,7 @@
 
 - 🔵 [全局工作空间理论（GWT）](theories/global-workspace-theory.md) — 意识点燃机制；Dehaene-Changeux 神经工作空间；有意识知觉的全有全无广播事件；GWT vs IIT 2025 年对抗性合作 **[NEW 2026-05-30]**
 - 🟡 [预测编码](theories/predictive-coding.md) — 皮层层级通过自上而下的预测反馈 + 自下而上的预测误差前馈实现贝叶斯推断；Rao & Ballard 1999 奠基模型；Bastos 2012 皮层分层映射（γ=误差前馈，α/β=预测反馈）；Keller 2012 V1感觉运动失配实验；注意=精度加权；与DA-RPE同一计算结构 **[NEW 2026-06-15]**
+- 🟢 [时序差分学习（TD学习）](theories/td-learning.md) — Sutton & Barto 1988经典算法；δ(t)=r(t)+γV(t+1)−V(t)；从标准TD到信念状态TD（mPFC+海马处理状态不确定性）再到分布式TD（不同分位数学习器）的三级发展；深度强化学习（DQN）的理论基础 **[NEW 2026-07-12]**
 - 🔴 [整合信息理论（IIT）](theories/integrated-information-theory.md) — 意识 = Φ（整合信息量）；五公理推导物理约束；意识基质在后方皮层热区（而非前额叶）；小脑/视网膜低 Φ 预测与临床一致；COGITATE 2025 挑战核心机制预测（后方皮层同步缺失）；泛心论蕴含；前馈网络 Φ ≈ 0 **[NEW 2026-05-31 · 争议]**
 - 🟡 [精度加权](concepts/precision-weighting.md) — 预测误差信号携带精度权重，注意力形式化为选择性提升误差精度；ACh/NE/DA是分子层面的精度调节器；VIP-SST去抑制回路是回路层面的实现候选 **[NEW 2026-06-15]**
 
@@ -196,7 +200,8 @@
 | 8. 意识与自我 | 🔵 进行中（已覆盖：**默认模式网络（DMN）**（2026-06-16）、**全局工作空间理论 GWT + 意识点燃**（2026-05-30）、**整合信息理论 IIT + Φ + 后方皮层热区 + PCI**（2026-05-31）、**COGITATE预注册对决（2026-05-31）**、**注意瞬盲（2026-05-31，填补 COGITATE 方法论缺口）**；待覆盖：主动推断/自由能原理、自我参照处理、意识的神经相关物精细解析）|
 | 10. 方法革命 | 🔵 开始（已覆盖：**光遗传学**；待覆盖：电生理、fMRI、钙成像、单细胞测序、空间转录组）|
 | 9. Connectomics | 🔵 开始（已覆盖：**连接组学基础（C. elegans + Drosophila）**；待覆盖：小鼠皮层连接组、人脑功能连接组、Connectomics×AI集成）|
-| 2, 7, 12 | ⚪ 待开始 |
+| 2, 7 | ⚪ 待开始 |
+| 12. 人脑与AI比较 | 🔵 开始（已覆盖：**多巴胺TD学习与深度RL的平行演化（2026-07-12）**；Actor-Critic基底节架构；分布式RL与DA群体编码；MB-MF双系统；待覆盖：预测编码与变分自编码器、神经网络与皮层层级、记忆系统与大型语言模型）|
 
 **第7篇（2026-05-30）**：**第一周综合**——归纳嵌套时间编码层级（Nested Temporal Coding Hierarchy）框架，连接前 6 篇文章的核心机制，指向第二周方向（印迹细胞、记忆巩固系统、钙通道）。
 

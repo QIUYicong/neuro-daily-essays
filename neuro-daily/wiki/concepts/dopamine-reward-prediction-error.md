@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-07-11
-revision_count: 4
+updated: 2026-07-12
+revision_count: 5
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
-key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:27602521", "PMID:38592773", "PMID:38895442"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-12-dopamine-td-learning-brain-ai]
+key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:27602521", "PMID:38592773", "PMID:38895442", "PMID:33186815", "PMID:31942076", "PMID:12371510"]
 ---
 
 # 多巴胺奖励预测误差 (Dopamine Reward Prediction Error, DA-RPE)
@@ -121,12 +121,39 @@ Diederen & Fletcher（2021, PMID:32338128）明确指出，多巴胺 RPE 信号�
 | DA-RPE 可纳入自由能最小化框架（与感觉预测误差同一计算结构） | 理论整合 + 计算模型 | PMID:32338128; PMID:20068583 | 中（理论层面清晰，跨框架整合的神经证据间接）|
 | 精神分裂症 aberrant salience = 精度失调（奖励域） | fMRI + DA 阻断研究综述（Kapur 2003 等） | PMID:32338128 | 中（综述，个体差异大）|
 
+## 分布式 DA 编码：从均值到分布（2026-07-12 新增）
+
+Dabney 等人（2020, PMID:31942076）用小鼠 VTA 单神经元记录揭示：DA 神经元群体编码的不是单一 TD 误差 δ，而是**奖励概率分布**。
+
+**核心发现**：
+- 不同 DA 神经元有不同的"乐观程度"（不同的 reversal point——DA 从爆发转为抑制的奖励水平）
+- 这种不对称 RPE 缩放（positive/negative RPE scaling ratio 不同）在群体层面等价于追踪不同奖励分位数
+- 与 AI 领域分布式 RL（C51/QR-DQN，Bellemare 2017 等）在数学结构上完全对应——大脑独立"发明"了这个解法
+
+**意义**：经典的"多巴胺 = 单一 δ 信号"是群体平均的近似；群体内部实际是分布式的，使大脑可以同时追踪最好/最坏情况，实现风险感知型决策。详见 [[distributional-rl-dopamine]]。
+
+| 主张 | 证据 | 来源 | 置信度 |
+|------|------|------|--------|
+| 不同 VTA DA 神经元有不同 reversal point | 小鼠 VTA 单细胞记录 + 多量级奖励任务 | PMID:31942076 | 中-高 |
+| 群体整体编码奖励分布 | 群体解码 + 分位数分析 | PMID:31942076 | 中（新发现，待跨实验室验证）|
+
+## Actor-Critic 架构：DA-RPE 的回路实现（2026-07-12 新增）
+
+DA-RPE 在基底节中通过**演员-评论家（Actor-Critic）架构**实现（Joel et al. 2002, PMID:12371510）：
+- **VTA/SNc DA 神经元** = TD 误差信号 δ
+- **腹侧纹状体（NAc）** = Critic：价值估计 V(s)，被 DA δ 训练
+- **背侧纹状体 D1-MSN** = Actor 直接通路（Go）：D1 激活 → 行为强化
+- **背侧纹状体 D2-MSN** = Actor 间接通路（No-Go）：D2 激活 → 行为抑制
+
+DA 的"双读数"设计：δ > 0 时 D1（高阈值）被激活且 D2 被抑制（双重强化）；δ < 0 时 D2（高亲和力，对低 DA 敏感）主导（双重抑制）。详见 [[actor-critic-brain]]。
+
 ## 修订历史
 
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器：奖励预测误差如何把大脑变成世界预测器》一文 · 初始置信度：高
 - 2026-06-14 · 修订 · 基于《多巴胺的沉默与节律的失控》（PD文章）· 补充了DA的双重功能（RPE教学 vs 基底节回路调节）及PD作为DA-RPE系统崩溃的极端案例；新增关联 parkinsons-disease、basal-ganglia
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 补充了DA-RPE 与预测编码框架的整合（Diederen & Fletcher 2021）；新增关联 predictive-coding, precision-weighting；新增精神分裂症 aberrant salience 的精度失调解释
 - 2026-07-11 · 修订 rev4 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 新增"海马多巴胺来源争议"小节，部分解答 Q-da-hippocampus-source（LC 主导，VTA 辅助）；连接节新增 lc-hippocampus-dopamine；key_sources 新增3个（PMID:27602521、PMID:38592773、PMID:38895442）；source_articles 新增 2026-07-11
+- 2026-07-12 · 修订 rev5 · 基于《奖励信号的双重发现》第 80 篇文章（#80）· 新增"分布式 DA 编码"小节（Dabney 2020，PMID:31942076）——DA 群体编码奖励分布而非单一均值；新增"Actor-Critic 架构"小节（Joel 2002，PMID:12371510）——VTA=TD误差、NAc=Critic、背侧纹状体=Actor；新增 related: td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems；key_sources 新增3个（PMID:33186815、PMID:31942076、PMID:12371510）
 
 ## 来源文章
 
