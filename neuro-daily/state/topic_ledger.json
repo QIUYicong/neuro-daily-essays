@@ -1,7 +1,88 @@
 {
-  "last_updated": "2026-07-12",
-  "total_articles": 80,
+  "last_updated": "2026-07-13",
+  "total_articles": 81,
   "entries": [
+    {
+      "date": "2026-07-13",
+      "title": "大脑的预言机：预测编码、自由能原理与变分自编码器——当神经科学遇上深度生成模型",
+      "filename": "2026-07-13-predictive-coding-free-energy-vae.md",
+      "wiki_pages_created": [
+        "wiki/theories/free-energy-principle.md",
+        "wiki/concepts/variational-autoencoder.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/predictive-coding.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "Rao & Ballard 1999的预测编码框架（反馈=预测，前馈=误差）与Friston 2010的自由能原理（最小化变分自由能统一感知和行动）和Kingma & Welling 2014的变分自编码器（最大化ELBO训练深度生成模型）——三者数学目标等价还是表面相似？局部赫布规则（Whittington & Bogacz 2017）能在多大程度上近似全局反向传播？这一类比对理解大脑学习规则和人工智能有何启示？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition",
+        "AI"
+      ],
+      "curriculum_track": "课程脊柱12（人脑与AI比较）第二篇；课程脊柱8（意识与自我）中自由能原理/主动推断子主题首次涉及；建立预测编码×自由能×VAE三角等价关系；承接脊柱12第一篇（TD学习×DA-RPE）的贝叶斯框架，将预测-误差-更新循环提升到感知推断层面",
+      "topic_tags": [
+        "predictive coding",
+        "Rao Ballard 1999",
+        "free energy principle",
+        "Friston 2010",
+        "variational free energy",
+        "active inference",
+        "variational autoencoder",
+        "VAE",
+        "ELBO",
+        "evidence lower bound",
+        "Kingma Welling 2014",
+        "reparameterization trick",
+        "variational Bayes",
+        "Bastos 2012 canonical microcircuits",
+        "Keller 2012 sensorimotor mismatch",
+        "Whittington Bogacz 2017",
+        "local Hebbian learning",
+        "backpropagation approximation",
+        "Solomon 2021 critical review",
+        "Richter 2018 ventral stream suppression",
+        "precision weighting",
+        "KL divergence",
+        "recognition model",
+        "generative model",
+        "hierarchical Bayesian inference",
+        "latent variable model"
+      ],
+      "main_sources": [
+        "PMID:10195184 (abstract only, Nature Neuroscience 1999, Rao & Ballard - predictive coding foundational model)",
+        "PMID:20068583 (abstract only, Nature Reviews Neuroscience 2010, Friston - free energy principle)",
+        "PMID:19528002 (abstract only, Phil Trans R Soc B 2009, Friston & Kiebel - predictive coding under FEP)",
+        "PMID:23177956 (abstract only, Neuron 2012, Bastos et al - canonical microcircuits)",
+        "PMID:22681686 (abstract only, Neuron 2012, Keller et al - sensorimotor mismatch V1)",
+        "PMID:30030402 (abstract only, J Neurosci 2018, Richter et al - ventral stream suppression)",
+        "PMID:33683317 (abstract only, Cerebral Cortex 2021, Solomon et al - limited evidence critique)",
+        "PMID:28333583 (PMC5467749, open full text read, Whittington & Bogacz 2017 - PC approximates backprop)",
+        "PMID:30359606 (PMC6400266, open full text read, Keller & Mrsic-Flogel 2018 - predictive processing canonical computation)",
+        "PMID:28298703 (open access, J Math Psych 2017, Bogacz - free energy tutorial)",
+        "arXiv:1312.6114 (open full text, Kingma & Welling 2014 ICLR - VAE)"
+      ],
+      "unresolved_questions": [
+        "Q-pc-06",
+        "Q-pc-07",
+        "Q-fep-01",
+        "Q-fep-02"
+      ],
+      "next_suggested_topics": [
+        "CNN与视觉皮层层级（CNN vs visual hierarchy）：Hubel-Wiesel V1→V4→IT分层→卷积神经网络架构；方向选择性→Gabor滤波器；深度CNN第二层特征与V2感受野的定量比较；课程脊柱12第三篇（视觉系统）",
+        "Transformer注意力机制与大脑注意回路：Transformer self-attention的Query/Key/Value与皮层精度加权/增益控制的类比；现代Hopfield网络=Transformer注意力的数学等价（Ramsauer 2020）；课程脊柱12第四篇",
+        "主动推断深度（active inference）：从运动控制（本体感觉预测）到决策（期望自由能）到情绪（内感受推断）的完整框架；Friston 2016的精确神经科学应用；课程脊柱8延伸",
+        "大型语言模型与语言网络：GPT的下一词预测目标是否等价于语言层面的预测编码？前额Broca区的层级句法Merge是否在Transformer的多头注意力中有结构对应？课程脊柱12第五篇"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 81
+    },
     {
       "date": "2026-07-12",
       "title": "奖励信号的双重发现：多巴胺时序差分学习与深度强化学习的平行演化与根本分歧",

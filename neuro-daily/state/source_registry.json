@@ -1,7 +1,120 @@
 {
-  "last_updated": "2026-07-11",
+  "last_updated": "2026-07-13",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "10195184",
+      "title": "Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects",
+      "authors_short": "Rao & Ballard",
+      "journal": "Nature Neuroscience",
+      "year": 1999,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["predictive coding foundational model", "V1 feedback=predictions feedforward=errors", "surround suppression", "end-stopping", "efficient coding natural images"]
+    },
+    {
+      "pmid": "20068583",
+      "title": "The free-energy principle: a unified brain theory?",
+      "authors_short": "Friston K",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2010,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["variational free energy", "ELBO equivalence", "active inference", "perception as model inversion", "precision weighting"]
+    },
+    {
+      "pmid": "19528002",
+      "title": "Predictive coding under the free-energy principle",
+      "authors_short": "Friston K, Kiebel S",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 2009,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["hierarchical generative models", "perception as model inversion", "birdsong simulation"]
+    },
+    {
+      "pmid": "23177956",
+      "title": "Canonical microcircuits for predictive coding",
+      "authors_short": "Bastos et al.",
+      "journal": "Neuron",
+      "year": 2012,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["L2/3 error units gamma feedforward", "L5/6 prediction units alpha/beta feedback", "cortical layer mapping", "oscillation direction"]
+    },
+    {
+      "pmid": "22681686",
+      "title": "Sensorimotor mismatch signals in primary visual cortex of the behaving mouse",
+      "authors_short": "Keller et al.",
+      "journal": "Neuron",
+      "year": 2012,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["V1 sensorimotor mismatch", "two-photon calcium imaging", "L2/3 prediction error neurons", "visual-locomotion coupling VR"]
+    },
+    {
+      "pmid": "30030402",
+      "title": "Suppressed Sensory Response to Predictable Object Stimuli throughout the Ventral Visual Stream",
+      "authors_short": "Richter et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2018,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["fMRI expectation suppression", "ventral visual stream V1 to IT", "repetition suppression", "neural adaptation confound"]
+    },
+    {
+      "pmid": "33683317",
+      "title": "Limited Evidence for Sensory Prediction Error Responses in Visual Cortex of Macaques and Humans",
+      "authors_short": "Solomon et al.",
+      "journal": "Cerebral Cortex",
+      "year": 2021,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["critical review predictive coding evidence", "neural adaptation confound", "methodological critique", "falsifiability challenge"]
+    },
+    {
+      "pmid": "28333583",
+      "pmcid": "PMC5467749",
+      "title": "An Approximation of the Error Backpropagation Algorithm in a Predictive Coding Network with Local Hebbian Synaptic Plasticity",
+      "authors_short": "Whittington & Bogacz",
+      "journal": "Neural Computation",
+      "year": 2017,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["PC approximates backpropagation", "local Hebbian learning", "representation units error units", "convergence conditions", "one-to-one connectivity constraint"]
+    },
+    {
+      "pmid": "30359606",
+      "pmcid": "PMC6400266",
+      "title": "Predictive Processing: A Canonical Cortical Computation",
+      "authors_short": "Keller & Mrsic-Flogel",
+      "journal": "Neuron",
+      "year": 2018,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["canonical cortical computation", "positive and negative prediction error neurons", "SST+ interneurons L2/3", "mouse V1 locomotion", "backpropagation differences"]
+    },
+    {
+      "pmid": "28298703",
+      "title": "A tutorial on the free-energy framework for modelling perception and learning",
+      "authors_short": "Bogacz R",
+      "journal": "Journal of Mathematical Psychology",
+      "year": 2017,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["free energy differential equations", "error units representation units", "mathematical tutorial predictive coding"]
+    },
+    {
+      "arxiv": "1312.6114",
+      "doi": "10.48550/arXiv.1312.6114",
+      "title": "Auto-Encoding Variational Bayes",
+      "authors_short": "Kingma & Welling",
+      "journal": "ICLR 2014",
+      "year": 2014,
+      "first_used": "2026-07-13",
+      "used_in_articles": ["2026-07-13-predictive-coding-free-energy-vae.md"],
+      "aspects_covered": ["VAE ELBO objective", "reparameterization trick", "recognition model encoder", "generative model decoder", "ELBO equivalence to variational free energy"]
+    },
     {
       "pmid": "23055474",
       "pmcid": "PMC3500626",

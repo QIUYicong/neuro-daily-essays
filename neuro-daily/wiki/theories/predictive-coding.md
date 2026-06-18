@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-06-23
-revision_count: 5
-dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model]
+updated: 2026-07-13
+revision_count: 6
+dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition, AI]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
-opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583"]
+opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-pc-07]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -89,6 +89,10 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 | 小鼠 V1 L2/3 在感觉运动失配时强烈激活（预测误差响应） | 清醒小鼠 + VR + 双光子钙成像；操控运动-视觉耦合状态 | PMID:22681686 | 高（体内行为实验）|
 | 注意可被理解为精度加权（ACh 实现 V1 精度调制） | 猕猴 V1 + M1 受体阻断 + 注意任务（Herrero et al. 2008） | PMID:27917138；PMID:30359606 综述 | 高（体内药理+电生理）|
 | 某些感觉皮层间交互不符合简单振荡-方向映射预测 | 灵长类视觉联合皮层新数据（仅读摘要） | PMID:41120233 | 待评估（限于摘要）|
+| 局部赫布学习规则的预测编码网络在特定条件下收敛于反向传播 | 数学证明 + 计算仿真；误差节点活动趋近零时权重更新等价于梯度下降 | PMID:28333583（PMC开放） | 高（数学定理，但生物条件苛刻）|
+| 人腹侧视觉流对预期刺激有系统性抑制（BOLD 降低） | 人类 fMRI + 重复抑制范式；V1→IT 全通路检测 | PMID:30030402 | 中（存在神经适应混淆）|
+| 现有视觉皮层预测误差证据有限，多与神经适应不可区分 | 批判性综述；猕猴和人类电生理重新分析 | PMID:33683317 | 高（批评性证据，降低其他证据置信度）|
+| 预测编码自由能最小化与 VAE 的 ELBO 优化数学等价 | 理论分析；比较 Friston 自由能方程与 Kingma-Welling ELBO 方程 | PMID:20068583；arXiv:1312.6114 | 高（数学等价，已形成共识）|
 
 ### 小脑：专用预测误差学习系统
 
@@ -122,6 +126,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - Q-pc-03：环绕抑制和末端停止究竟是预测误差还是侧抑制？如何在体内区分？（中优先级）
 - Q-pc-04：V1 感觉运动失配响应的具体来源（运动皮层反馈 vs 高级视觉 vs 神经调质）？（高优先级）
 - Q-pc-05：层级振荡映射（γ/α-β）的普适性如何？Westerberg 2026 的挑战范围有多大？（高优先级）
+- Q-pc-06：在严格排除神经适应后，V1 和其他皮层区域是否存在真正的预期依赖性预测误差信号？（高优先级，来自 Solomon 2021 批评）
+- Q-pc-07：VAE 编码器与皮层前馈通路的对应是否超出数学类比，存在真实的计算等价性？（中优先级）
 
 ## 修订历史
 
@@ -131,6 +137,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将预测编码定位为「世界模型误差加权更新层」；新增 world-model 到 related；明确预测编码给出了世界模型的贝叶斯更新方程：Δmodel ∝ precision_weighted_prediction_error
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语言域的预测编码实例：词出现前200ms的语义-感觉运动预测（Grisoni 2024），腹侧流具身语义预测（工具词→运动皮层，动物词→视觉皮层）；related 新增 language-network, ventral-language-stream
 - 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
+- 2026-07-13 · 修订 · 基于《大脑的预言机》一文（#81）· 新增 AI 比较维度（dimensions 加 AI）；关键证据表增加 Whittington & Bogacz 2017（PC ≈ 反向传播）、Richter 2018（腹侧流抑制）、Solomon 2021（批评性证据）、VAE 数学等价；related 新增 free-energy-principle、variational-autoencoder；未解问题新增 Q-pc-06、Q-pc-07；key_sources 新增 PMID:28333583、PMID:33683317、PMID:19528002
 
 ## 来源文章
 

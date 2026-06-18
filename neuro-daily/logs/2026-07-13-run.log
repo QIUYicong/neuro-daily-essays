@@ -1,0 +1,126 @@
+# 运行日志 — 2026-07-13
+
+## 运行元数据
+
+- 运行日期：2026-07-13（UTC+8）
+- 文章编号：#81
+- 课程脊柱：12（人脑与AI比较）第二篇；8（意识与自我）自由能原理首涉
+- 总运行时长：约150分钟（跨两个上下文会话）
+- 开源来源读取：3篇全文（PMC5467749、PMC6400266、arXiv:1312.6114）；7篇摘要
+
+## 主题选择
+
+- 上一篇（#80，2026-07-12）建议：预测编码×变分自编码器作为脊柱12第二篇
+- 知识图谱分析：free-energy-principle 和 variational-autoencoder 是高优先级悬空引用，被 predictive-coding 和多个相关页面引用
+- Q-pc-07（中优先级）：VAE编码器与皮层前馈通路的对应是否超出数学类比——是天然选题动机
+- 选定主题：预测编码×自由能原理×VAE 三角等价关系
+
+## 文献检索
+
+### 关键词策略
+- "predictive coding visual cortex Rao Ballard 1999"
+- "free energy principle Friston 2010 unified brain theory"
+- "variational autoencoder generative model brain"
+- "Whittington Bogacz 2017 predictive coding backpropagation"
+- "limited evidence prediction error visual cortex Solomon 2021"
+
+### 来源结果
+- 11 条来源，其中：
+  - 3 篇开放全文读取：Whittington & Bogacz 2017（PMC5467749），Keller & Mrsic-Flogel 2018（PMC6400266），Kingma & Welling 2014（arXiv:1312.6114）
+  - 7 篇摘要：Rao & Ballard 1999，Friston 2010，Friston & Kiebel 2009，Bastos et al. 2012，Keller et al. 2012，Richter et al. 2018，Solomon et al. 2021
+  - 1 篇公开访问：Bogacz 2017（J Math Psych，开放获取）
+
+### 错误与修正
+- PMID:10195184 通过关键词"Rao Ballard 1999 predictive coding nature neuroscience"确认
+- Friston 2010 PMID:20068583 通过"Friston 2010 free energy principle NRN"确认（初步错误使用PMID:15817393，系cytochrome bc1论文，已修正）
+- PMID:22681686 通过"Keller Bonhoeffer Hubener sensorimotor mismatch"确认
+
+## 文章写作
+
+### 输出文件
+- `neuro-daily/articles/2026-07-13-predictive-coding-free-energy-vae.md`
+  - 约4500字，中文
+  - 结构：核心问题→摘要→重要性→背景→机制（5层）→关键证据→隐喻→影响→争议→AI比较→概念卡→认知地图更新→参考文献
+  - 11条文献引用
+
+### 阅读笔记
+- `neuro-daily/notes/2026-07-13-reading-notes.md`
+  - 涵盖所有10篇主要来源
+
+### 来源清单
+- `neuro-daily/sources/2026-07-13-sources.json`
+  - 11条来源，含PMID/DOI/PMC状态/文章角色
+
+## Wiki 固结
+
+### 新建页面（2页）
+1. `wiki/theories/free-energy-principle.md`
+   - slug: free-energy-principle
+   - status: emerging, confidence: medium
+   - 内容：变分自由能数学形式、变分推断、主动推断、精度调制
+   - 2个未解问题：Q-fep-01（高）、Q-fep-02（中）
+
+2. `wiki/concepts/variational-autoencoder.md`
+   - slug: variational-autoencoder
+   - status: established, confidence: high
+   - 内容：VAE架构、ELBO推导、重参数化技巧、与预测编码比较表
+   - 引用未解问题：Q-pc-07
+
+### 修订页面（1页）
+1. `wiki/theories/predictive-coding.md`（rev5→rev6）
+   - 新增：dimensions加AI，related加free-energy-principle+variational-autoencoder
+   - 新增：opens_questions加Q-pc-06+Q-pc-07，key_sources加3篇
+   - 新增：4行关键证据（Whittington & Bogacz 2017、Richter 2018、Solomon 2021、VAE数学等价）
+   - 新增：Q-pc-06、Q-pc-07 未解问题
+   - 更新：修订历史2026-07-13条目
+
+## 知识图谱更新
+
+### wiki/_graph.json
+- 变更前：149节点、885边
+- 变更后：151节点、892边
+- 新增节点：free-energy-principle，variational-autoencoder
+- 新增边（7条）：
+  - free-energy-principle ←mathematically-equivalent→ predictive-coding
+  - free-energy-principle ←mathematically-equivalent→ variational-autoencoder
+  - free-energy-principle ←extends→ active-inference（悬空）
+  - free-energy-principle ←grounds→ predictive-coding
+  - variational-autoencoder ←implements-similar→ complementary-learning-systems
+  - variational-autoencoder ←related→ world-model
+  - variational-autoencoder ←uses-local-rule→ td-learning
+
+## 状态文件更新
+
+### wiki/index.md
+- 标题行：更新至2026-07-13，第81篇，主题页149
+- theories 节：新增 free-energy-principle 条目（🟡）
+- concepts 节：新增 variational-autoencoder 条目（🟢）
+- 课程进度表：更新脊柱12进度
+
+### wiki/CHANGELOG.md
+- 新增2026-07-13条目（文章#81，2新页，1修订，151节点892边）
+
+### state/topic_ledger.json
+- 更新 last_updated、total_articles（80→81）
+- 新增 2026-07-13 条目（#81）
+
+### state/unresolved_questions.md
+- 新增 Q-pc-06、Q-pc-07、Q-fep-01、Q-fep-02（4条）
+
+### state/source_registry.json
+- 新增11条来源（2026-07-13使用）
+
+### state/monthly_synthesis.md
+- 更新本月截至日期：2026-07-12→2026-07-13
+- 表格新增第81篇行
+- 新增第81篇核心贡献摘要段落
+
+## 悬空引用
+
+- `active-inference`：被 free-energy-principle 引用；建议下一篇文章覆盖
+
+## 状态检查
+
+- [ ] Git commit — 待完成
+- [ ] Git push origin main — 待完成
+- 本地文件已全部更新

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-12",
+  "updated": "2026-07-13",
   "node_count": 149,
   "edge_count": 885,
   "edge_types": [
@@ -1366,6 +1366,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/model-based-model-free.md"
+    },
+    {
+      "id": "free-energy-principle",
+      "title": "自由能原理",
+      "domain": "theories",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/theories/free-energy-principle.md"
+    },
+    {
+      "id": "variational-autoencoder",
+      "title": "变分自编码器",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/variational-autoencoder.md"
     }
   ],
   "edges": [
@@ -6246,6 +6264,48 @@
       "to": "glucocorticoid-stress-memory",
       "type": "related",
       "note": "急性应激 GC→从 MB 切换到 MF"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "predictive-coding",
+      "type": "mechanism-of",
+      "note": "预测编码是自由能原理在皮层层级的实现"
+    },
+    {
+      "from": "variational-autoencoder",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "VAE ELBO 与预测编码自由能数学等价"
+    },
+    {
+      "from": "variational-autoencoder",
+      "to": "free-energy-principle",
+      "type": "related",
+      "note": "ELBO最大化等价于变分自由能最小化"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "variational-autoencoder",
+      "type": "related",
+      "note": "人脑预测编码与AI变分自编码器共享数学框架"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "free-energy-principle",
+      "type": "is-a",
+      "note": "预测编码是自由能原理的一个具体实现"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "td-learning",
+      "type": "related",
+      "note": "DA-RPE（TD误差）是自由能原理在奖励域的特例"
+    },
+    {
+      "from": "variational-autoencoder",
+      "to": "td-learning",
+      "type": "related",
+      "note": "两者都是AI中的生成/预测框架"
     }
   ],
   "dangling_references": [

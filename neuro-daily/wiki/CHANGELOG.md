@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-07-13（文章 #81·预测编码·自由能原理·VAE·课程脊柱 12 第二篇）
+
+**源文章**：[[2026-07-13-predictive-coding-free-energy-vae]] —《大脑的预言机：从 Rao-Ballard 预测编码到自由能原理与变分自编码器》
+
+**新建页面（2 页）**：
+- `theories/free-energy-principle.md`：弗里斯顿自由能原理；变分推断统一感知-行动-学习；ELBO 等价；主动推断；emerging/medium
+- `concepts/variational-autoencoder.md`：VAE（编码器+解码器+ELBO）；与预测编码的数学等价；ELBO 最大化=自由能最小化；工程实践广泛验证；与 TD 学习/CLS 的关联；established/high
+
+**修订页面（1 页）**：
+- `theories/predictive-coding.md`（rev5→rev6）：关键证据表新增 Whittington & Bogacz 2017（PC≈反向传播）、Richter 2018（腹侧流期望抑制）、Solomon 2021（批评性证据）、VAE 数学等价；dimensions 新增 AI；related 新增 free-energy-principle、variational-autoencoder；未解问题新增 Q-pc-06（Solomon 质疑）、Q-pc-07（VAE 等价性）；key_sources 新增 3 个；source_articles 新增 2026-07-13 文章
+
+**图谱更新**：新增 2 节点（free-energy-principle, variational-autoencoder）、7 条边；总计 **151 节点，892 边**
+
+**新增悬空引用**：active-inference（主动推断，尚无独立 wiki 页）
+
+**新登记矛盾**：无（Solomon 2021 对预测编码证据质量的批评已记录在 predictive-coding.md 证据表中，整体降低置信度但不构成新 contested_claim——原 medium 置信度已反映不确定性）
+
+**新增未解问题（4 个）**：
+- Q-pc-06（高优先级）：在严格排除神经适应后，视觉皮层是否存在真正的预期依赖性预测误差信号？（来自 Solomon 2021 批评）
+- Q-pc-07（中优先级）：VAE 编码器与皮层前馈通路的对应是否超出数学类比，存在真实计算等价性？
+- Q-fep-01（高优先级）：自由能原理给出哪些具体可证伪的实验预测？
+- Q-fep-02（中优先级）：自由能最小化在微观/介观/宏观三个尺度的分子基础各是什么？
+
+---
+
 ## 2026-07-12（文章 #80·多巴胺 TD 学习与深度 RL 比较·人脑 vs AI 强化学习·课程脊柱 12 首篇）
 
 **源文章**：[[2026-07-12-dopamine-td-learning-brain-ai]] —《奖励信号的双重发现：多巴胺时序差分学习与深度强化学习的平行演化与根本分歧》
