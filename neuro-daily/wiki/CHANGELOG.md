@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-06-18（文章 #80·DNN与腹侧视觉流·表征相似性分析·目标驱动模型框架·课程路线12首篇）
+
+**源文章**：[[2026-06-18-dnn-ventral-stream-comparison]] —《当人工神经网络照镜子大脑——深度学习与灵长类腹侧视觉流的表征同构与本质裂缝》
+
+**新建页面（3 页）**：
+- `concepts/dnn-ventral-stream.md`：CNN 与腹侧视觉流的表征对应（mainstream, confidence:medium）；Yamins 2014 IT预测48.5%，任务性能-神经预测性r=0.78；Khaligh-Razavi 2014 RSA 37模型比较，监督模型达噪声上界τ_A=0.38；Zhuang 2021 对比学习等效监督；MouseNet 2022 生物学约束≠更好神经预测；CNN与大脑5条本质裂缝（循环连接、对抗脆弱性、纹理偏向、数据效率、世界模型整合）；未解问题3个（Q-dnn-01/02/03）
+- `methods/representational-similarity-analysis.md`：RSA方法论（established, confidence:high）；RDM构建；噪声上界概念；Kendall τ_A；跨系统比较的维度无关性优势
+- `theories/task-optimized-model.md`：目标驱动模型框架（emerging, confidence:medium）；Richards et al. 2019三组件（目标函数×学习规则×架构）；Brain-Score基准；学习规则生物近似问题
+
+**修订页面（1 页）**：
+- `systems/v1-primary-visual-cortex.md`（rev4→rev5）：新增"DNN低层滤波器与V1感受野对应"段落（CNN低层Gabor-like滤波器与V1简单细胞感受野对应）；related 新增 dnn-ventral-stream, representational-similarity-analysis；source_articles 新增 2026-06-18-dnn-ventral-stream-comparison
+
+**图谱更新**：新增 3 节点（dnn-ventral-stream, representational-similarity-analysis, task-optimized-model）、11 条边；总计 148 节点，884 边
+
+**新登记矛盾**：无（DNN-视觉流对应领域内目前无重大内部矛盾，MouseNet结果与Yamins 2014的张力来自任务选择差异，不构成直接冲突）
+
+**新增未解问题（3 个）**：
+- Q-dnn-01（高优先级）：IT预测可解释方差的真实上界？当前最佳CNN是否已接近极限？
+- Q-dnn-02（高优先级）：大脑发育的目标函数是什么——对比学习、预测编码、还是多任务组合？有无神经科学证据支持某种具体的生物对比信号形式？
+- Q-dnn-03（中优先级）：循环处理对困难视觉任务的贡献如何量化？RNN模型是否能更好地预测神经时间动力学？
+
+**课程路线 12 状态**：🔄 进行中（首篇，主题：DNN与腹侧视觉流）
+
+---
+
 ## 2026-07-11（文章 #79·LC多巴胺·海马记忆标记·LC-TH⁺为dCA1 DA主要来源；行为标记；记忆联结；VTA-SWR互补）
 
 **源文章**：[[2026-07-11-dopamine-lc-hippocampus-memory-tagging]] —《当蓝斑充当"新奇探测器"：LC多巴胺如何把值得记住的瞬间标记进长期记忆》

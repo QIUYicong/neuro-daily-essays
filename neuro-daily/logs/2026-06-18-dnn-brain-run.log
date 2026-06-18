@@ -1,0 +1,131 @@
+# 运行日志：2026-06-18（文章 #80）
+
+**日期**：2026-06-18（系统时间）
+**运行类型**：每日定时任务（09:00 北京时间）
+**状态**：成功完成
+
+---
+
+## 执行摘要
+
+本次运行为当日第二次运行（第一次运行写了连接组学文章 #79-bis，日期异常时间线）。完成课程轨道 12（大脑与人工智能）的首篇文章，主题为深度神经网络与灵长类腹侧视觉流的表征比较。
+
+---
+
+## 日期异常说明
+
+系统当前日期为 2026-06-18，但仓库历史中已有文章写至 2026-07-11（共 79 篇文章，其中含时钟异常写入的未来日期文章）。本次在 2026-06-18 写入第二篇文章（slug: dnn-ventral-stream-comparison），属于正常补写行为，不修改历史。
+
+---
+
+## 步骤执行记录
+
+### Step 0：读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md
+- ✅ 两文件均存在且完整读取
+- ✅ 确认执行权限和约束
+
+### Step A：确定今日主题
+- 检查 state/topic_ledger.json，当前共 79 篇文章
+- 课程轨道 12（大脑与人工智能）完全未覆盖
+- 选定主题：DNN 与腹侧视觉流表征比较（目标驱动模型、RSA 方法、Yamins 2014 核心发现）
+
+### Step B：文献检索
+- 使用 PubMed E-utilities 和 PMC 搜索
+- 主要搜索词：deep neural network visual cortex representational similarity primate; Yamins DiCarlo hierarchical models IT cortex 2014; Zhuang unsupervised neural network ventral visual stream PNAS 2021
+- 检索 9 篇文献，5 篇 PMC 开放全文，4 篇摘要仅读
+- **来源验证**：所有 PMID 经 PubMed 验证，无编造
+- 修正错误：初始搜索 PMID:33431655（核糖体论文）被错误返回，后确认正确 PMID 为 33431673（Zhuang 2021）
+
+### Step C：写作文章
+- 文件：`neuro-daily/articles/2026-06-18-dnn-ventral-stream-comparison.md`
+- 字数：约 5000 字
+- 章节：背景（腹侧视觉流）、核心发现（Yamins 2014 r=0.78）、方法（RSA + 神经预测力）、关键证据（4篇核心论文）、五条本质裂缝、争议与开放问题、AI比较、概念卡、知识图谱更新、参考文献
+
+### Step D：写作记录
+- 阅读笔记：`neuro-daily/notes/2026-06-18-dnn-brain-reading-notes.md`（9篇来源的详细笔记）
+- 来源记录：`neuro-daily/sources/2026-06-18-dnn-brain-sources.json`（含 PMID/PMCID/DOI/全文可用性）
+
+### Step E：Wiki 知识整合
+
+**新建 wiki 页面（3页）**：
+1. `neuro-daily/wiki/concepts/dnn-ventral-stream.md`（CNN 与腹侧视觉流表征同构，mainstream/medium）
+2. `neuro-daily/wiki/methods/representational-similarity-analysis.md`（RSA 方法，established/high）
+3. `neuro-daily/wiki/theories/task-optimized-model.md`（目标驱动框架，emerging/medium）
+
+**修订 wiki 页面（1页）**：
+- `neuro-daily/wiki/systems/v1-primary-visual-cortex.md`（rev4→rev5，新增 DNN 低层滤波器与 V1 感受野对应小节）
+
+**更新 wiki 索引和图谱**：
+- `neuro-daily/wiki/index.md`：总页数 143→146，各类别新增条目，课程轨道 12 进度更新
+- `neuro-daily/wiki/CHANGELOG.md`：新增 2026-06-18 条目
+- `neuro-daily/wiki/_graph.json`：148节点（+3），884边（+11）
+
+### Step F：状态文件更新
+
+- `neuro-daily/state/topic_ledger.json`：文章 #80 登记，total_articles: 79→80
+- `neuro-daily/state/unresolved_questions.md`：新增 Q-dnn-01、Q-dnn-02、Q-dnn-03
+- `neuro-daily/state/source_registry.json`：新增 additions_2026-06-18-dnn（9条来源）
+- `neuro-daily/state/monthly_synthesis.md`：新增文章 #80 表格行 + 日条目更新节
+
+### Step H：自查
+- ✅ 文章所有论断均有来源支撑（9篇，5篇全文）
+- ✅ Wiki 无悬空边（新节点均有有效连接）
+- ✅ CHANGELOG 和 index 反映变更
+- ✅ 图谱节点/边计数与实际一致（148/884）
+- ✅ article/notes/sources/logs 齐全
+- ✅ 所有来源经 PubMed 验证
+
+---
+
+## 来源清单
+
+| ID | PMID | 标题 | 全文 |
+|----|------|------|------|
+| S1 | 24812127 | Yamins et al. 2014 PNAS - Performance-optimized hierarchical models | ✅ PMC4060707 |
+| S2 | 25375136 | Khaligh-Razavi & Kriegeskorte 2014 - Deep supervised models IT cortex | ✅ PMC4222664 |
+| S3 | 26906502 | Yamins & DiCarlo 2016 Nat Neurosci - Goal-driven deep learning models | ❌ 摘要 |
+| S4 | 31659335 | Richards et al. 2019 Nat Neurosci - Deep learning framework for neuroscience | ✅ PMC7115933 |
+| S5 | 33431673 | Zhuang et al. 2021 PNAS - Unsupervised neural network models ventral visual stream | ✅ PMC7826371 |
+| S6 | 32918861 | Schrimpf et al. 2020 Neuron - Brain-Score integrative benchmark | ❌ 摘要 |
+| S7 | 36067234 | Shi et al. 2022 PLoS Comp Biol - MouseNet biologically constrained CNN | ✅ PMC9481165 |
+| S8 | 41741656 | Cowley et al. 2026 Nature - Compact deep neural network models visual cortex | ❌ 摘要 |
+| S9 | 32027584 | Lindsay 2021 J Cogn Neurosci - CNNs as model of visual system | ❌ 摘要 |
+
+---
+
+## 知识图谱变化
+
+- **节点**：145→148（+3：dnn-ventral-stream, representational-similarity-analysis, task-optimized-model）
+- **边**：873→884（+11条）
+
+新增边：
+- dnn-ventral-stream ↔ representational-similarity-analysis
+- dnn-ventral-stream ↔ task-optimized-model
+- dnn-ventral-stream ↔ v1-primary-visual-cortex
+- dnn-ventral-stream ↔ predictive-coding
+- representational-similarity-analysis ↔ fmri
+- representational-similarity-analysis ↔ task-optimized-model
+- task-optimized-model ↔ predictive-coding
+- task-optimized-model ↔ ltp
+- task-optimized-model ↔ hebbian-learning
+- v1-primary-visual-cortex ↔ dnn-ventral-stream（更新）
+- task-optimized-model ↔ representational-similarity-analysis
+
+---
+
+## 异常与修复
+
+1. **PMID 错误**：初始 Zhuang 2021 返回 PMID:33431655（核糖体论文），后通过精确搜索确认正确 PMID:33431673
+2. **图谱边结构**：初始 Python 脚本假设边有 'to' 键，但实际键名需诊断确认后修复
+3. **PMC 跳转**：ncbi.nlm.nih.gov/pmc 重定向到 pmc.ncbi.nlm.nih.gov，手动跟随
+
+---
+
+## 运行时间统计
+
+- 文献检索：~30 分钟
+- 文章写作：~45 分钟
+- Wiki 整合：~30 分钟
+- 状态更新：~15 分钟
+- 提交推送：~5 分钟
+- **总计**：约 125 分钟（跨两个上下文窗口，含上下文压缩继续运行）

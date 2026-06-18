@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-11",
-  "node_count": 145,
-  "edge_count": 873,
+  "updated": "2026-06-18",
+  "node_count": 148,
+  "edge_count": 884,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1329,6 +1329,45 @@
       "revision_count": 1,
       "source_articles": [
         "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
+    },
+    {
+      "id": "dnn-ventral-stream",
+      "label": "深度神经网络与腹侧视觉流的表征对应",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "file": "wiki/concepts/dnn-ventral-stream.md",
+      "revision_count": 1,
+      "source_articles": [
+        "2026-06-18-dnn-ventral-stream-comparison"
+      ]
+    },
+    {
+      "id": "representational-similarity-analysis",
+      "label": "表征相似性分析（RSA）",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "file": "wiki/methods/representational-similarity-analysis.md",
+      "revision_count": 1,
+      "source_articles": [
+        "2026-06-18-dnn-ventral-stream-comparison"
+      ]
+    },
+    {
+      "id": "task-optimized-model",
+      "label": "目标驱动模型框架",
+      "domain": "theories",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "file": "wiki/theories/task-optimized-model.md",
+      "revision_count": 1,
+      "source_articles": [
+        "2026-06-18-dnn-ventral-stream-comparison"
       ]
     }
   ],
@@ -6138,6 +6177,72 @@
       "to": "lc-hippocampus-dopamine",
       "type": "gated_by",
       "note": "LC-DA-STC 是突触层面的巩固门控；决定哪些突触被选择性巩固"
+    },
+    {
+      "from": "dnn-ventral-stream",
+      "to": "representational-similarity-analysis",
+      "type": "mechanism-of",
+      "note": "RSA是测量DNN-脑区对应的核心方法"
+    },
+    {
+      "from": "dnn-ventral-stream",
+      "to": "task-optimized-model",
+      "type": "supports",
+      "note": "DNN-腹侧流对应是目标驱动框架的主要验证证据"
+    },
+    {
+      "from": "dnn-ventral-stream",
+      "to": "v1-primary-visual-cortex",
+      "type": "related",
+      "note": "CNN低层滤波器与V1 Gabor感受野对应"
+    },
+    {
+      "from": "dnn-ventral-stream",
+      "to": "predictive-coding",
+      "type": "contradicts",
+      "note": "CNN无循环反馈，而预测编码强调自顶向下反馈；两者在V1功能上形成张力"
+    },
+    {
+      "from": "dnn-ventral-stream",
+      "to": "ltp",
+      "type": "related",
+      "note": "反向传播（DNN学习规则）与Hebbian/LTP的生物近似问题"
+    },
+    {
+      "from": "representational-similarity-analysis",
+      "to": "dnn-ventral-stream",
+      "type": "mechanism-of",
+      "note": "RSA是比较人工网络与脑区的工具"
+    },
+    {
+      "from": "representational-similarity-analysis",
+      "to": "fmri",
+      "type": "related",
+      "note": "RSA常用于分析fMRI数据的表征结构"
+    },
+    {
+      "from": "task-optimized-model",
+      "to": "dnn-ventral-stream",
+      "type": "mechanism-of",
+      "note": "DNN-腹侧流对应是目标驱动框架的核心案例"
+    },
+    {
+      "from": "task-optimized-model",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "预测编码可视为一种目标函数（预测输入）的实现"
+    },
+    {
+      "from": "task-optimized-model",
+      "to": "hebbian-learning",
+      "type": "related",
+      "note": "学习规则问题：反向传播的生物近似是否为Hebbian规则的变体？"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "dnn-ventral-stream",
+      "type": "related",
+      "note": "V1 Gabor感受野与CNN低层滤波器的对应关系"
     }
   ],
   "dangling_references": [

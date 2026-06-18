@@ -1,7 +1,79 @@
 {
-  "last_updated": "2026-07-11",
-  "total_articles": 79,
+  "last_updated": "2026-06-18",
+  "total_articles": 80,
   "entries": [
+    {
+      "date": "2026-06-18",
+      "article_number": 80,
+      "title": "当人工神经网络照镜子大脑——深度学习与灵长类腹侧视觉流的表征同构与本质裂缝",
+      "filename": "2026-06-18-dnn-ventral-stream-comparison.md",
+      "wiki_pages_created": [
+        "wiki/concepts/dnn-ventral-stream.md",
+        "wiki/methods/representational-similarity-analysis.md",
+        "wiki/theories/task-optimized-model.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/v1-primary-visual-cortex.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "训练于图像识别任务的卷积神经网络（CNN）的内部表征，在多大程度上与灵长类腹侧视觉流（V1→V4→IT）的神经活动模式对应？这种对应揭示了什么关于大脑视觉计算的本质，以及它在哪里根本失效？",
+      "layer": [
+        "methods",
+        "cognition",
+        "whole-brain-network",
+        "brain-region"
+      ],
+      "curriculum_track": "课程路线12首篇（人脑与AI的比较）；连接已有知识节点（V1方向选择性#11→CNN低层滤波器对应；IT皮层→CNN高层对应；Hebbian学习→与反向传播的对比；连接组学#32→接线图不决定表征，目标函数才是关键）；开始人脑-AI双向知识流动维度",
+      "topic_tags": [
+        "deep neural networks",
+        "CNN",
+        "convolutional neural network",
+        "ventral visual stream",
+        "IT cortex",
+        "inferior temporal cortex",
+        "representational similarity analysis",
+        "RSA",
+        "task-optimized models",
+        "goal-driven models",
+        "ImageNet",
+        "neural predictivity",
+        "contrastive learning",
+        "Brain-Score",
+        "adversarial examples",
+        "texture bias",
+        "recurrent processing",
+        "data efficiency",
+        "Yamins DiCarlo",
+        "Khaligh-Razavi Kriegeskorte",
+        "Richards framework",
+        "Zhuang unsupervised",
+        "MouseNet",
+        "brain-AI comparison"
+      ],
+      "main_sources": [
+        "PMID:24812127 (Yamins 2014, PMC open)",
+        "PMID:25375136 (Khaligh-Razavi 2014, PMC open)",
+        "PMID:26906502 (Yamins & DiCarlo 2016, abstract)",
+        "PMID:31659335 (Richards 2019, PMC open)",
+        "PMID:33431673 (Zhuang 2021, PMC open)",
+        "PMID:32918861 (Schrimpf 2020, abstract)",
+        "PMID:36067234 (MouseNet 2022, PMC open)",
+        "PMID:41741656 (Cowley 2026, abstract)",
+        "PMID:32027584 (Lindsay 2021, abstract)"
+      ],
+      "unresolved_questions": [
+        "Q-dnn-01: IT预测可解释方差的真实上界？当前最佳CNN是否已接近极限？",
+        "Q-dnn-02: 大脑发育的目标函数是什么——对比学习、预测编码还是多任务组合？",
+        "Q-dnn-03: 循环处理对困难视觉任务的贡献如何量化？RNN模型是否能更好预测神经时间动力学？"
+      ],
+      "next_suggested_topics": [
+        "Transformer注意力机制与大脑注意力系统的比较（课程路线12第2篇）",
+        "强化学习与基底节多巴胺系统的对应（课程路线12第3篇）",
+        "语言模型（GPT等）与人类语言网络的对应（课程路线12第4篇）",
+        "Q-dnn-02深入：对比学习的神经科学实现候选"
+      ]
+    },
     {
       "date": "2026-07-09",
       "title": "记忆为什么最牢记住恐惧：糖皮质激素如何通过杏仁核把应激烙进长期记忆",

@@ -6,13 +6,13 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-07-01
-revision_count: 4
+updated: 2026-06-18
+revision_count: 5
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, dnn-ventral-stream, representational-similarity-analysis]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
-source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-06-18-dnn-ventral-stream-comparison]
 key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956"]
 ---
 
@@ -124,6 +124,14 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 | V1 接受来自高级视觉区的预测反馈（α/β 主导） | 灵长类 MEG/LFP 多脑区记录 | PMID:23177956 | 高 |
 | 环绕抑制/末端停止可由预测编码模型复现 | 计算模型 + 自然图像训练 | PMID:10195184 | 中（模型证据，非直接区分实验）|
 
+## DNN 低层滤波器与 V1 感受野的对应（2026-06-18 补充）
+
+任务优化的卷积神经网络（CNN）的**第一卷积层滤波器**在视觉外观上与 V1 简单细胞的 Gabor 感受野高度相似：方向调谐的正弦波包络结构自发从 ImageNet 训练中涌现，无需任何生物学约束（Yamins et al., 2014 PNAS, PMID:24812127）。
+
+这一对应的意义：V1 形成 Gabor-like 感受野，可能主要是**视觉识别任务需求**的结果，而非单纯的接线图属性。反过来，V1 感受野为什么是 Gabor 式的，这一长久问题有了一个新视角：它是对高维自然图像输入进行高效编码/识别的最优一阶滤波器基。
+
+**约束**：CNN 低层只捕捉了 V1 的"前馈"属性（Gabor 滤波）；V1 的循环处理、注意调制、预测编码角色（上节）均不在标准前馈 CNN 的模拟范围内。
+
 ## 修订历史
 
 - 2026-06-11 · 创建 · 基于《V1初级视觉皮层的方向选择性》一文 · 初始置信度：高
@@ -131,6 +139,7 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 新增"预测编码视角下的 V1"小节；新增感觉运动失配实验（Keller 2012）和环绕抑制预测编码解释；related 新增 predictive-coding, precision-weighting；opens_questions 新增 Q-pc-04；key_sources 新增 PMID:22681686, PMID:10195184, PMID:23177956
 
 - 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 V4→V1 皮层反馈作为注意调制的必要通道（Debes & Dragoi 2023，PMID:36730414）；related 新增 dorsal-attention-network, biased-competition；key_sources 新增 PMID:36730414
+- 2026-06-18 · 修订 · 基于《当人工神经网络照镜子大脑》一文 · 新增"DNN 低层滤波器与 V1 感受野对应"小节；related 新增 dnn-ventral-stream, representational-similarity-analysis；source_articles 新增 2026-06-18-dnn-ventral-stream-comparison
 
 ## 来源文章
 
@@ -138,3 +147,4 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-06-15-predictive-coding]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
+- [[2026-06-18-dnn-ventral-stream-comparison]]

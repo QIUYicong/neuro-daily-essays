@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-11（第79篇·LC多巴胺-海马记忆标记·LC-TH⁺为dCA1 DA主要来源；D1/D5→PKA→CREB→PRPs调控记忆持续性；行为标记实验验证STC；记忆联结LC→dCA1 D1/D5依赖；VTA调制新颖环境SWR重播选择性）· 主题页总数：**143**（新建1页：lc-hippocampus-dopamine；修订5页：synaptic-tagging-capture rev2, dopamine-reward-prediction-error rev4, norepinephrine-locus-coeruleus rev3, sharp-wave-ripples rev7, memory-consolidation rev9；图谱145节点、873边；Q-da-hippocampus-source 部分解答；新增Q-lc-da-subtype、Q-lc-da-physiological-quantity）
+> 最后更新：2026-06-18（第80篇·DNN与腹侧视觉流·表征相似性分析·目标驱动模型框架·课程路线12首篇）· 主题页总数：**146**（新建3页：dnn-ventral-stream, representational-similarity-analysis, task-optimized-model；修订1页：v1-primary-visual-cortex rev5；图谱148节点、884边；新增Q-dnn-01/02/03；课程路线12开始）
 
 ---
 
@@ -125,6 +125,7 @@
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据（完全额叶切除不影响意识）**[修订 2026-06-27]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
+- 🔵 [深度神经网络与腹侧视觉流](concepts/dnn-ventral-stream.md) — CNN任务优化自发产生IT-like表征（Yamins 2014：IT预测48.5%，r=0.78）；对比学习无监督模型等效监督（Zhuang 2021）；MouseNet反例：生物学约束≠更好预测；5条本质裂缝（循环连接/对抗脆弱性/纹理偏向/数据效率/世界模型整合）；课程路线12首篇 **[NEW 2026-06-18]**
 
 ## motor（运动系统）
 
@@ -165,6 +166,7 @@
 - 🟢 [扰动复杂性指数（PCI）](methods/perturbational-complexity-index.md) — IIT 的临床代理工具；TMS 扰动 + EEG 记录 + Lempel-Ziv 复杂度算法；区分清醒/NREM/麻醉/植物状态/最小意识状态；Casali 2013 奠基，多中心验证 **[NEW 2026-05-31]**
 - 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元，White 1986）→ 果蝇（139,255神经元，FlyWire 2024）；揭示网络拓扑（小世界、富人俱乐部、前馈回路）；结构约束功能但不充分描述动力学（结构-功能鸿沟）**[NEW 2026-06-18]**
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**
+- 🟢 [表征相似性分析（RSA）](methods/representational-similarity-analysis.md) — 通过表征差异矩阵（RDM）比较不同系统对刺激集的区分结构，无需对应单元或维度相同；DNN与脑区比较的核心方法；Kendall τ_A与噪声上界概念 **[NEW 2026-06-18]**
 
 ## theories（理论）
 
@@ -172,6 +174,7 @@
 - 🟡 [预测编码](theories/predictive-coding.md) — 皮层层级通过自上而下的预测反馈 + 自下而上的预测误差前馈实现贝叶斯推断；Rao & Ballard 1999 奠基模型；Bastos 2012 皮层分层映射（γ=误差前馈，α/β=预测反馈）；Keller 2012 V1感觉运动失配实验；注意=精度加权；与DA-RPE同一计算结构 **[NEW 2026-06-15]**
 - 🔴 [整合信息理论（IIT）](theories/integrated-information-theory.md) — 意识 = Φ（整合信息量）；五公理推导物理约束；意识基质在后方皮层热区（而非前额叶）；小脑/视网膜低 Φ 预测与临床一致；COGITATE 2025 挑战核心机制预测（后方皮层同步缺失）；泛心论蕴含；前馈网络 Φ ≈ 0 **[NEW 2026-05-31 · 争议]**
 - 🟡 [精度加权](concepts/precision-weighting.md) — 预测误差信号携带精度权重，注意力形式化为选择性提升误差精度；ACh/NE/DA是分子层面的精度调节器；VIP-SST去抑制回路是回路层面的实现候选 **[NEW 2026-06-15]**
+- 🟡 [目标驱动模型框架](theories/task-optimized-model.md) — Richards et al. 2019三组件（目标函数×学习规则×架构）；神经活动是三组件的涌现结果而非接线图固有属性；Brain-Score基准；视觉皮层→CNN对应是最佳验证案例；课程路线12核心理论工具 **[NEW 2026-06-18]**
 
 ## diseases（疾病）
 
@@ -196,7 +199,8 @@
 | 8. 意识与自我 | 🔵 进行中（已覆盖：**默认模式网络（DMN）**（2026-06-16）、**全局工作空间理论 GWT + 意识点燃**（2026-05-30）、**整合信息理论 IIT + Φ + 后方皮层热区 + PCI**（2026-05-31）、**COGITATE预注册对决（2026-05-31）**、**注意瞬盲（2026-05-31，填补 COGITATE 方法论缺口）**；待覆盖：主动推断/自由能原理、自我参照处理、意识的神经相关物精细解析）|
 | 10. 方法革命 | 🔵 开始（已覆盖：**光遗传学**；待覆盖：电生理、fMRI、钙成像、单细胞测序、空间转录组）|
 | 9. Connectomics | 🔵 开始（已覆盖：**连接组学基础（C. elegans + Drosophila）**；待覆盖：小鼠皮层连接组、人脑功能连接组、Connectomics×AI集成）|
-| 2, 7, 12 | ⚪ 待开始 |
+| 2, 7 | ⚪ 待开始 |
+| 12. 人脑与 AI 的比较 | 🔵 开始（已覆盖：**DNN与腹侧视觉流，课程路线12首篇**（2026-06-18）；待覆盖：语言模型与语言网络比较、强化学习与基底节、世界模型与海马、Transformer与注意力系统）|
 
 **第7篇（2026-05-30）**：**第一周综合**——归纳嵌套时间编码层级（Nested Temporal Coding Hierarchy）框架，连接前 6 篇文章的核心机制，指向第二周方向（印迹细胞、记忆巩固系统、钙通道）。
 
