@@ -1663,3 +1663,30 @@
 **新增悬空引用（需补）**：无新悬空引用（critical-period所需关联节点均已存在）
 
 **图谱**：133节点，754边（+1节点，+10边）
+
+---
+
+## 2026-06-19 · 文章 #85 · 突触时序依赖可塑性：用毫秒级时间窗口书写神经因果律
+
+**核心主题**：STDP（Spike-Timing Dependent Plasticity）——NMDA 受体如何在毫秒级时序中充当因果仲裁者，Ca²⁺ 幅度如何决定 LTP/LTD，θ 振荡如何将行为时间尺度桥接至 STDP 窗口，三因素规则如何为 STDP 添加行为目标导向。
+
+**新建页面（1）**：
+- `concepts/stdp.md`（突触时序依赖可塑性）🔵 mainstream · 高置信度 — 填补了 hebbian-learning.md 中长期悬空的 [[stdp]] 引用；STDP 时序窗口（±20ms），两种形式（NMDAR-LTD vs CB1-LTD），频率/树突位置依赖，生理钙浓度约束，θ前进体内机制（R²=0.87），三因素扩展；10 篇来源（5 篇开放全文）
+
+**修订页面（2）**：
+- `concepts/hebbian-learning.md` rev5 — 将 [[stdp]] 标注从"待建页面"更新为"已建立"；source_articles 新增今日文章
+- `concepts/nmda-receptor.md` rev5 — 新增 NMDA 受体第五重功能角色：STDP 时序仲裁器；新增 Bi & Poo 1998 NMDA 必要性证据表（AP-5 消除 STDP）；补充生理钙浓度约束；key_sources 新增三条
+
+**矛盾登记（0）**：无新矛盾
+
+**新增开放问题**：
+- Q-stdp-physiological-ca：生理钙浓度下 STDP 的实际触发条件
+- Q-stdp-inhibitory-synapses：抑制性突触 STDP 规则与功能
+- Q-stdp-human-evidence：人类 STDP 的直接电生理证据
+
+**悬空引用解决（1）**：
+- `stdp` — 已建立 wiki/concepts/stdp.md（此前为 hebbian-learning.md 中的悬空引用）
+
+**新增悬空引用（0）**：无新悬空引用（stdp.md 的 related 指向的页面均已存在）
+
+**图谱**：156节点→157节点，924边→939边（+1节点，+15边）

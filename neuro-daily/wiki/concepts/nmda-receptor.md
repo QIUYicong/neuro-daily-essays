@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-08
-revision_count: 4
+updated: 2026-06-19
+revision_count: 5
 dimensions: [molecular, synaptic, cellular, cognition, brain-region, disease]
 related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex, alzheimers-disease, amyloid-beta-oligomers, calcineurin]
 prerequisites: [synaptic-transmission, action-potential, membrane-potential]
 opens_questions: [Q-nmda-coincidence-window, Q-glun2-switch-development, Q-abeta-oligomer-subtypes]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation, 2026-06-05-prefrontal-working-memory, 2026-06-08-alzheimers-amyloid-synaptic-mechanism]
-key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230", "PMID:21543591", "PMID:17360908"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation, 2026-06-05-prefrontal-working-memory, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-07-17-stdp-spike-timing-dependent-plasticity]
+key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230", "PMID:21543591", "PMID:17360908", "PMID:9852584", "PMC6793365", "PMC8488271"]
 ---
 
 # NMDA 受体 (NMDA Receptor / N-Methyl-D-Aspartate Receptor)
@@ -105,6 +105,23 @@ Aβ寡聚体**优先激活突触外NR2B**（Li et al. 2011, PMID:21543591），�
 - [[calcium-channel]] — 与电压门控 Ca²⁺ 通道同为突触 Ca²⁺ 内流的重要来源（但机制不同）
 - [[dendritic-computation]] — NMDA 受体是树突 NMDA 棘波的核心机器，使单根树突分支成为独立计算单元
 
+## NMDA 受体在 STDP 中的时序仲裁角色
+
+**2026-06-19 新增（来自《突触时序依赖可塑性》一文）**
+
+NMDA 受体双重门控在 STDP 中的具体运作：
+
+| 时序场景 | 分子事件 | Ca²⁺ 信号 | 结果 |
+|---------|---------|---------|------|
+| **突触前先（+5 to +20 ms）** | 谷氨酸先到→部分解锁；bAP 随后→Mg²⁺ 完全去除；两者重叠→充分开放 | 高峰 Ca²⁺ | LTP（CaMKII 激活） |
+| **突触后先（-5 to -20 ms）** | bAP 先到→Mg²⁺ 临时去除；谷氨酸随后→膜已复极，Mg²⁺ 重新封堵 | 低幅持续 Ca²⁺ | LTD（钙调磷酸酶激活） |
+
+**关键发现**（Bi & Poo 1998，PMID:9852584，PMC6793365）：施用 AP-5（NMDA 受体拮抗剂）后，无论时序如何，STDP 完全消失——证实 NMDA 受体是 STDP 的必要条件，不是充分条件。
+
+**生理约束**：在 1.3 mM 生理 Ca²⁺ 浓度下，单次精确毫秒配对无法诱导 STDP（Inglebert & Debanne 2021，PMC8488271）——提示 NMDA 受体需要 θ 振荡（5–12 Hz）背景提供足够的 Ca²⁺ 积累才能可靠运作。
+
+这是 NMDA 受体的**第五重功能角色**（补充既有四种：单突触 Hebb 检测器、NMDA 棘波、工作记忆持续活动积分器、AD 中 LTP 失效靶点）。
+
 ## 未解问题
 
 - Q-nmda-coincidence-window：NMDA 受体的时间整合窗口（由 GluN2 亚型决定）如何在发育和学习中动态变化？
@@ -116,6 +133,7 @@ Aβ寡聚体**优先激活突触外NR2B**（Li et al. 2011, PMID:21543591），�
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-05-27 · 修订 · 基于《树突：神经元内部的神经网络》一文 · 新增"NMDA 受体的双重身份"概念（突触层面巧合检测器 vs 分支层面 NMDA 棘波计算单元）；关键证据表新增 Smith 2013 体内视觉皮层证据 + Schiller 2000 NMDA 棘波证据；连接新增 dendritic-computation；dimensions 新增 cellular
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 新增第三重角色：PFC 工作记忆回路中作为时间积分器（慢衰减 τ ~100–300 ms 支撑循环激活的吸引子状态）；related 新增 persistent-activity, working-memory, prefrontal-cortex；dimensions 新增 brain-region（PMID:11476885；Wang 2001 吸引子模型）
+- 2026-06-19 · 修订 · 基于《突触时序依赖可塑性》(#85) · 新增第五重角色：STDP 时序仲裁器（精确毫秒级时序 → Ca²⁺ 幅度 → LTP/LTD）；补充 Bi & Poo 1998 NMDA 受体对 STDP 的必要性证据（AP-5 消除 STDP）；新增生理钙浓度约束（1.3 mM 无效，需 θ 振荡）；key_sources 新增 PMID:9852584、PMC6793365、PMC8488271
 - 2026-06-08 · 修订 · 基于《记忆的分子遗忘》一文 · 新增第四重角色：突触外NR2B-LTP反向信号路径；解答 Q-nmda-alzheimer（Aβ通过优先激活突触外NR2B/p38 MAPK阻断LTP，非直接破坏受体）；related 新增 alzheimers-disease、amyloid-beta-oligomers、calcineurin；dimensions 新增 disease；连接新增 alzheimers-disease、amyloid-beta-oligomers；key_sources 新增 PMID:21543591、PMID:17360908
 
 ## 来源文章

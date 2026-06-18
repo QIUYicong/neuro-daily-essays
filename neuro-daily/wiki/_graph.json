@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-16",
+  "updated": "2026-06-19",
   "node_count": 154,
   "edge_count": 912,
   "edge_types": [
@@ -1429,6 +1429,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/experience-replay-buffer.md"
+    },
+    {
+      "id": "stdp",
+      "title": "突触时序依赖可塑性（STDP）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/stdp.md"
     }
   ],
   "edges": [
@@ -6530,6 +6539,81 @@
     {
       "from": "complementary-learning-systems",
       "to": "experience-replay-buffer",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "nmda-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "stdp",
+      "to": "ltp",
+      "type": "supports"
+    },
+    {
+      "from": "stdp",
+      "to": "ltd",
+      "type": "supports"
+    },
+    {
+      "from": "stdp",
+      "to": "hebbian-learning",
+      "type": "is-a"
+    },
+    {
+      "from": "stdp",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "place-cells",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "btsp",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "three-factor-learning-rule",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "synaptic-tagging-capture",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "dendritic-computation",
+      "type": "related"
+    },
+    {
+      "from": "stdp",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "stdp",
+      "type": "supports"
+    },
+    {
+      "from": "hebbian-learning",
+      "to": "stdp",
+      "type": "supports"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "stdp",
+      "type": "supports"
+    },
+    {
+      "from": "short-term-synaptic-plasticity",
+      "to": "stdp",
       "type": "related"
     }
   ],

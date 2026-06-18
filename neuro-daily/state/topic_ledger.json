@@ -1,7 +1,80 @@
 {
-  "last_updated": "2026-07-15",
-  "total_articles": 83,
+  "last_updated": "2026-06-19",
+  "total_articles": 85,
   "entries": [
+    {
+      "date": "2026-06-19",
+      "title": "突触时序依赖可塑性：用毫秒级时间窗口书写神经因果律",
+      "filename": "2026-06-19-stdp-spike-timing-dependent-plasticity.md",
+      "wiki_pages_created": [
+        "wiki/concepts/stdp.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/hebbian-learning.md",
+        "wiki/concepts/nmda-receptor.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "大脑如何仅凭放电的先后顺序，在毫秒级时间窗口内判断突触值得增强或削弱？NMDA 受体的双重门控如何实现时序仲裁，θ 振荡如何将行为时间尺度桥接至 STDP 的毫秒窗口，三因素规则如何为 STDP 添加行为目标导向？",
+      "layer": [
+        "synaptic",
+        "molecular",
+        "cellular",
+        "microcircuit"
+      ],
+      "curriculum_track": "课程脊柱1（神经元如何工作·突触传递·突触可塑性）× 课程脊柱4（学习和记忆·Hebbian·LTP/LTD）；填补悬空引用 [[stdp]]；承接脊柱4的 hebbian-learning、ltp、ltd、btsp；为脊柱12（brain-AI比较·SNN·脉冲编码）打基础",
+      "topic_tags": [
+        "STDP",
+        "spike-timing dependent plasticity",
+        "Bi Poo 1998",
+        "Markram 1997",
+        "NMDA receptor coincidence detector",
+        "LTP window +20ms",
+        "LTD window -20ms",
+        "back-propagating action potential bAP",
+        "calcium hypothesis LTP LTD",
+        "CaMKII calcineurin",
+        "two forms of STDP",
+        "CB1 mGluR LTD",
+        "frequency dependence 10-30 Hz",
+        "dendritic location bAP attenuation",
+        "physiological calcium 1.3 mM",
+        "Inglebert Debanne 2021",
+        "theta phase precession STDP",
+        "predictive map learning R²=0.87",
+        "three-factor learning rule",
+        "neuromodulation dopamine STDP",
+        "spiking neural network SNN",
+        "memristor neuromorphic",
+        "Feldman 2012",
+        "curriculum track 1 4 synaptic"
+      ],
+      "key_sources": [
+        "PMID:9852584",
+        "PMC6793365",
+        "PMID:22920249",
+        "PMC3431193",
+        "PMID:34616278",
+        "PMC8488271",
+        "PMC10019887",
+        "PMID:30018546",
+        "PMC6037788",
+        "PMID:31437453",
+        "PMID:36924615",
+        "PMID:8985014"
+      ],
+      "unresolved_questions": [
+        "Q-stdp-physiological-ca: 生理钙浓度（1.3 mM）下 STDP 的实际触发条件是什么",
+        "Q-stdp-inhibitory-synapses: 抑制性突触 STDP 规则与功能",
+        "Q-stdp-human-evidence: 人类 STDP 的直接电生理证据"
+      ],
+      "next_suggested_topics": [
+        "皮层柱式组织与规范微回路（canonical microcircuit）——承接 STDP 中树突位置依赖的内容，深入微回路层级",
+        "突触可塑性与感知学习——STDP 在视觉皮层朝向选择性和感知转移中的直接证据",
+        "脉冲神经网络（SNN）与 STDP 的 AI 应用——承接今日 AI 对照节，深入神经形态计算",
+        "小脑和反 Hebbian STDP——今日提到但未深入，浦肯野细胞的 anti-Hebbian 规则与运动学习"
+      ]
+    },
     {
       "date": "2026-07-15",
       "title": "同一个算法，两种实现：大脑注意回路与 Transformer 自注意力的深层对话",

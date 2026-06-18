@@ -692,3 +692,16 @@
 **修订wiki页**：perineuronal-nets rev2（PTPσ-TRKB统一机制），pv-interneurons rev4（关键期微回路详情），bdnf rev2（关键期功能）
 **图谱**：133节点，754边（+1节点，+10边）
 **新增开放问题**：Q-cp-01到Q-cp-04（人类关键期时序、语言关键期机制、SSRI转化安全性、脑区间差异决定因素）
+
+---
+
+### 2026-06-19 · 文章 #85 · 突触时序依赖可塑性（STDP）
+
+**核心主题**：STDP 的分子机制（NMDA 受体毫秒时序仲裁）、两种形式（NMDAR-LTD vs CB1-LTD）、生理钙浓度约束（1.3 mM 下无效，需 θ 振荡）、θ 前进桥接行为与 STDP 窗口（R²=0.87 vs TD 后继表征）、三因素规则。
+**层次**：synaptic · molecular · cellular · microcircuit（切换自近期多日的 whole-brain-network/AI 层）
+**课程脊柱**：脊柱1（突触传递可塑性）× 脊柱4（Hebbian/LTP/LTD）
+**关键数字**：LTP±20ms，Bi&Poo 1998 EPSC+48%/-18%，生理Ca²⁺ 1.3mM→无STDP，θ模型R²=0.87，5分钟9.6圈达75%权重
+**新建wiki页**：stdp（填补 hebbian-learning 悬空引用）
+**修订wiki页**：hebbian-learning rev5（[[stdp]]已建立），nmda-receptor rev5（第五重角色：STDP时序仲裁）
+**图谱**：157节点，939边（+1节点，+15边）
+**新增开放问题**：Q-stdp-physiological-ca（高），Q-stdp-inhibitory-synapses（中），Q-stdp-human-evidence（中）

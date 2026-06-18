@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-15（第83篇·Transformer自注意力Q/K/V·大脑注意回路类比·现代Hopfield等价·除法归一化vs softmax·Ellwood 2024局部赫布实现）· 主题页总数：**152**（新建1页：transformer-self-attention；修订5页：gain-control rev3→rev4、dorsal-attention-network rev1→rev2、biased-competition rev1→rev2、attractor-network rev1→rev2；图谱154节点、912边；新增Q-attn-bio-01、Q-attn-bio-02）
+> 最后更新：2026-06-19（第85篇·STDP突触时序依赖可塑性·NMDA时序仲裁·θ振荡桥接·三因素扩展）· 主题页总数：**153**（新建1页：stdp；修订2页：hebbian-learning rev4→rev5、nmda-receptor rev4→rev5；图谱157节点、939边；填补 hebbian-learning 中 [[stdp]] 长期悬空引用；新增Q-stdp-physiological-ca、Q-stdp-inhibitory-synapses、Q-stdp-human-evidence）
 
 ---
 
@@ -53,6 +53,7 @@
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
+- 🔵 [突触时序依赖可塑性（STDP）](concepts/stdp.md) — Hebb 规则的时间分辨精化版：前先后→LTP，后先前→LTD；NMDA 受体±20ms 仲裁；θ 前进体内桥接；三因素扩展 **[NEW 2026-06-19]**（填补 hebbian-learning 悬空引用）
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-06-22]**

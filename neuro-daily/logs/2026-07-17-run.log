@@ -1,0 +1,70 @@
+# 2026-07-17 Run Log — Article #85
+
+## 基本信息
+- 日期（文章系列）：2026-07-17
+- 实际运行日期（UTC+8）：2026-06-19（系统时间 2026-06-18 UTC / 2026-06-19 02:59 CST）
+- 分支：main
+- 文章编号：#85
+- 注：前序文章已使用 2026-06-19 日期（sleep-spindles-nrem #34），故本次采用 2026-07-17 延续序列
+
+## 主题选择
+
+### 分析过程
+- 读取 topic_ledger.json（last_updated: 2026-07-15, total_articles: 83）
+- 近5篇文章均在 cognition/whole-brain-network/AI 层级（脊柱12·脑-AI比较）
+- ROUTINE.md 规则：避免连续三天同一层级 → 切换至 molecular/synaptic/cellular 层
+- 发现 hebbian-learning.md 中 [[stdp]] 为悬空引用 → 今日填补
+- 决策：STDP 主题
+
+### 最终选题
+- **主题**：突触时序依赖可塑性（STDP）
+- **层次**：synaptic / molecular / cellular / microcircuit
+- **课程脊柱**：脊柱1（突触传递）× 脊柱4（学习记忆）
+
+## 文献检索
+
+### 数据源
+- PubMed E-utilities，PMC Open Access
+
+### 采用来源（10篇：5开放全文 + 5仅摘要）
+- PMID:9852584 / PMC6793365（Bi & Poo 1998，全文）
+- PMID:8985014（Markram 1997，仅摘要）
+- PMID:22920249 / PMC3431193（Feldman 2012，全文）
+- PMID:34616278 / PMC8488271（Inglebert & Debanne 2021，全文）
+- PMC10019887（θ-STDP 模型，全文）
+- PMID:30018546 / PMC6037788（Foncelle 2018，全文）
+- PMID:31437453（Brzosko 2019，仅摘要）
+- PMID:36924615（Debanne 2023，仅摘要）
+- PMID:18275283（Caporale & Dan 2008，仅摘要）
+- PMID:15450157（Dan & Poo 2004，仅摘要）
+
+## 文章写作
+- 字数：约 5800 字（中文）
+- 来源：5开放全文（满足≥2要求）+ 5仅摘要（已标注）
+
+## Wiki 固结
+- **新建**：`wiki/concepts/stdp.md`（填补 hebbian-learning 悬空引用）
+- **修订**：`wiki/concepts/hebbian-learning.md` rev5、`wiki/concepts/nmda-receptor.md` rev5
+
+## 矛盾检查
+- 无新矛盾。生理钙浓度争议为新补充认识，非与既有 wiki 冲突
+
+## 图谱更新
+- 节点：156 → 157（+1: stdp）
+- 边：924 → 939（+15）
+- 悬空引用解决：[[stdp]] in hebbian-learning.md
+
+## 自检
+- [x] wiki 每条新主张有来源
+- [x] 区分了事实/主流模型/推测/争议
+- [x] 情景层 append-only 完整（恢复了误覆写的 2026-06-19 文件）
+- [x] _graph.json 无悬空边
+- [x] index.md 与 CHANGELOG.md 同步
+
+## Git 操作
+- 分支：main
+- commit：Add neuro daily article + wiki consolidation for 2026-07-17
+- push：git push origin main
+
+## Push 状态
+[将在 commit 后填写]
