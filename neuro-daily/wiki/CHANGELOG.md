@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-07-10（文章 #78·记忆再巩固·GluN2B-NMDA-CaMKII-UPS 去稳定化分子链）
+
+**源文章**：[[2026-07-10-memory-reconsolidation-ptsd]] —《记忆再巩固：分子机制与创伤记忆干预》
+
+**新建页面（1 页）**：
+- `concepts/memory-reconsolidation.md`：已巩固记忆在提取后的蛋白合成依赖再稳定化过程；去稳定化分子链（预测误差→GluN2B-NMDA→Ca²⁺→CaMKII→20S蛋白酶体激活→Shank/GKAP选择性降解+GluA2内吞→CP-AMPAR出现）；再稳定化路径（PKA/ERK/CaMKIV→CREB→即早基因→新蛋白合成）；边界条件（短暴露/小预测误差→再巩固；长暴露/大预测误差→消退；极强记忆难去稳定化）；行为干预（单次CS+10min内消退=永久消除恐惧，Monfils 2009）；药物干预（普萘洛尔：人类情绪记忆消除保留陈述性，Kindt 2009；米非司酮 Phase 2a RCT 未达主要终点，PMID:37159200）（mainstream, confidence:medium-high）
+
+**修订页面（4 页）**：
+- `concepts/memory-consolidation.md`（rev7→rev8）：当前理解节新增"第三维：再巩固"段落（再巩固打破"巩固即密封"教条；提取诱发的动态去稳定化→再稳定化循环）；连接节新增 memory-reconsolidation；related/source_articles 相应更新
+- `concepts/fear-conditioning.md`（rev1→rev2）：当前理解节新增"记忆修改的窗口"段落（再巩固窗口、药物/行为干预靶点）；连接节新增 memory-reconsolidation、NE-β-AR 普萘洛尔注释；source_articles 新增
+- `concepts/fear-extinction.md`（rev2→rev3）：当前理解节新增"消退 vs 再巩固窗口消退"段落（Monfils 2009 行为干预策略对比、Agren 2012 fMRI BLA 信号消除证据、临床含义）；连接节新增 memory-reconsolidation；Q-fear-reconsolidation-boundary 标记为部分解答；source_articles 新增
+- `systems/amygdala.md`（rev2→rev3）：新增"BLA 中的记忆再巩固去稳定化分子链"机制节（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞完整级联；再稳定化路径；窗口内干预靶点：普萘洛尔/米非司酮/行为干预）；连接节新增 memory-reconsolidation；source_articles 新增
+
+**图谱更新**：新增 1 节点（memory-reconsolidation）、15 条边；总计 144 节点，861 边
+
+**新登记矛盾**：无
+
+**新增未解问题（2 个）**：
+- Q-reconsolidation-01（高优先级）：极强/极旧记忆（多年 PTSD 创伤）能否在临床实践中可靠地诱导进入再巩固窗口？
+- Q-reconsolidation-02（中优先级）：再巩固干预对不同记忆类型（空间、语义、运动）的分子机制是否相同？
+
+**Q-gc-01 更新（部分解答）**：米非司酮 Phase 2a RCT（PMID:37159200）已明确：当前固定给药方案（600mg/d×7天，未锚定记忆激活时机）不支持 Phase 3；TBI 阴性亚组信号（22.7%）提示更精准设计（高剂量+CS暴露后1-2h内给药）仍有价值；问题仍 open，但有了关键失败参照
+
+---
+
 ## 2026-07-09（文章 #77·记忆为什么最牢记住恐惧·糖皮质激素与应激记忆）
 
 **源文章**：[[2026-07-09-glucocorticoids-stress-memory-amygdala]] —《记忆为什么最牢记住恐惧：糖皮质激素如何通过杏仁核把应激烙进长期记忆》

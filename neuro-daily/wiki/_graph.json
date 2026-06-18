@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-08",
-  "node_count": 138,
-  "edge_count": 794,
+  "updated": "2026-07-10",
+  "node_count": 144,
+  "edge_count": 861,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1308,6 +1308,15 @@
       "source_articles": [
         "2026-07-09-glucocorticoids-stress-memory-amygdala"
       ]
+    },
+    {
+      "id": "memory-reconsolidation",
+      "title": "记忆再巩固",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium-high",
+      "page": "wiki/concepts/memory-reconsolidation.md"
     }
   ],
   "edges": [
@@ -5954,6 +5963,96 @@
       "source": "fear-conditioning",
       "target": "glucocorticoid-stress-memory",
       "type": "modulated_by"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "再巩固是记忆巩固'稳定态'假设的动态例外：提取使巩固后记忆重新进入不稳定态"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "fear-conditioning",
+      "type": "mechanism-of",
+      "note": "恐惧条件记忆（LA-LTP）是再巩固研究的主要模型；提取后可被选择性修改"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "fear-extinction",
+      "type": "related",
+      "note": "再巩固窗口消退（短暂CS+10min消退）vs 标准消退的策略分叉；前者修改原始痕迹，后者建立竞争性安全记忆"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "amygdala",
+      "type": "part-of",
+      "note": "BLA-LA 是再巩固去稳定化（GluN2B→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）的核心发生地"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "GluN2B-NMDA 受体激活是去稳定化的必要触发点；Ro 25-6981 阻断实验证明"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "camkii",
+      "type": "mechanism-of",
+      "note": "CaMKII 磷酸化蛋白酶体调节亚基，连接 NMDA-Ca²⁺ 信号到 UPS 激活"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "ltp",
+      "type": "related",
+      "note": "再稳定化的 PKA/ERK/CREB/新蛋白合成轴与 L-LTP 巩固共享相同的信号级联"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "glucocorticoid-stress-memory",
+      "type": "related",
+      "note": "GC 通过 GR 增强再稳定化；GR 拮抗剂（米非司酮）是阻断再巩固的临床候选策略（Phase 2a RCT 未达主要终点）"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related",
+      "note": "NE-β-AR 信号参与再稳定化；普萘洛尔（β-AR 阻断剂）在人类中选择性消除情绪恐惧记忆（Kindt 2009）"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "memory-reconsolidation",
+      "type": "related",
+      "note": "系统巩固的'稳定态'是相对的；提取事件可诱发再巩固，使记忆重新进入蛋白合成依赖态"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "memory-reconsolidation",
+      "type": "supports",
+      "note": "已巩固恐惧条件记忆（LA-LTP）在 CS 再激活后进入再巩固窗口，可被选择性修改"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "memory-reconsolidation",
+      "type": "related",
+      "note": "再巩固窗口消退是消退的升级版：在窗口内消退训练使恐惧永久消除，避免自发恢复（Monfils 2009）"
+    },
+    {
+      "from": "amygdala",
+      "to": "memory-reconsolidation",
+      "type": "supports",
+      "note": "BLA-LA 提供再巩固的解剖底物；外侧核的 GluN2B-NMDA 和 CaMKII 是去稳定化的必要细胞机器"
+    },
+    {
+      "from": "glucocorticoid-stress-memory",
+      "to": "memory-reconsolidation",
+      "type": "regulates",
+      "note": "GC 增强再稳定化（通过 GR→CREB/蛋白合成轴）；米非司酮 Phase 2a RCT 靶向此机制"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "memory-reconsolidation",
+      "type": "regulates",
+      "note": "NE 通过 β-AR 驱动再稳定化；普萘洛尔在人类中消除情绪恐惧记忆但保留陈述性内容（Kindt 2009）"
     }
   ],
   "dangling_references": [

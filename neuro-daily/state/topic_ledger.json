@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-09",
-  "total_articles": 77,
+  "last_updated": "2026-07-10",
+  "total_articles": 78,
   "entries": [
     {
       "date": "2026-07-09",
@@ -4484,6 +4484,96 @@
       "mode": "long_term_curriculum",
       "article_number": 75,
       "note": "系统时钟UTC+8=2026-06-04（真实执行日期）；知识库虚拟日期2026-07-07；继承自2026-07-06（第74篇，胶质淋巴系统）；本篇填补了长期悬空的 Q-shy-vs-active-consolidation 问题（通过 down-selection 框架部分解答）；新建两个核心睡眠记忆机制节点（so-spindle-swr-coupling、shy-hypothesis）；层级：whole-brain-network/brain-region/cellular/microcircuit/cognition（多层跨越）；11 个来源，5 个开放全文"
+    },
+    {
+      "date": "2026-07-10",
+      "title": "记忆再巩固：分子机制与创伤记忆干预",
+      "filename": "2026-07-10-memory-reconsolidation-ptsd.md",
+      "wiki_pages_created": [
+        "wiki/concepts/memory-reconsolidation.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/memory-consolidation.md",
+        "wiki/concepts/fear-conditioning.md",
+        "wiki/concepts/fear-extinction.md",
+        "wiki/systems/amygdala.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "已巩固的恐惧记忆如何在再激活后通过 GluN2B-NMDA→CaMKII→UPS→Shank/GKAP 去稳定化进入蛋白合成依赖态？再巩固窗口（~6h）如何成为 PTSD 创伤记忆干预的生物学靶点？普萘洛尔和米非司酮在人类中的临床证据状态如何？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "4. 学习和记忆（记忆再巩固深度篇）；6. 情绪与动机（PTSD 创伤记忆治疗靶点）；填补 Q-gc-01（部分：米非司酮 Phase 2a RCT 结果已知，当前方案不支持 Phase 3，理论靶点仍有效）；继承自 2026-07-09（第77篇，糖皮质激素与应激记忆）——本篇为其临床转化的直接续篇",
+      "topic_tags": [
+        "memory reconsolidation",
+        "Nader 2000",
+        "anisomycin",
+        "GluN2B-NMDA",
+        "CaMKII",
+        "ubiquitin-proteasome system",
+        "UPS",
+        "Shank",
+        "GKAP",
+        "PSD-95",
+        "GluA2 endocytosis",
+        "AMPA receptor",
+        "calcium-permeable AMPA receptor",
+        "prediction error",
+        "reconsolidation window",
+        "destabilization",
+        "restabilization",
+        "CREB",
+        "PKA",
+        "ERK",
+        "propranolol",
+        "beta-adrenergic receptor",
+        "mifepristone",
+        "glucocorticoid receptor",
+        "PTSD",
+        "fear extinction",
+        "reconsolidation-based extinction",
+        "Monfils 2009",
+        "Kindt 2009",
+        "Sevenster 2013",
+        "Agren 2012",
+        "Eisenberg 2003",
+        "mifepristone RCT Phase 2a",
+        "boundary conditions",
+        "memory stability",
+        "amygdala BLA"
+      ],
+      "main_sources": [
+        "PMID:10963596 (abstract only, Nature 2000, Nader, Schafe & LeDoux)",
+        "PMID:30374892 (PMC6373183, open full text, Kida 2019, Psychopharmacology)",
+        "PMID:18258863 (abstract only, Science 2008, Lee et al.)",
+        "PMID:26779588 (abstract only, PNAS 2016, CaMKII-proteasome)",
+        "PMID:21909089 (abstract only, Nat Neurosci, GluA2 endocytosis)",
+        "PMID:23413355 (abstract only, Science 2013, Sevenster et al.)",
+        "PMID:19219038 (abstract only, Nat Neurosci 2009, Kindt, Soeter & Vervliet)",
+        "PMID:19542037 (abstract only, Science 2009, Monfils et al.)",
+        "Agren 2012, Science 337:1550 (abstract only)",
+        "PMID:12934010 (abstract only, Science 2003, Eisenberg et al.)",
+        "PMID:37159200 (PMC10170341, open full text, JAMA Psychiatry 2023, mifepristone RCT)",
+        "PMC5605913 (open full text, Reconsolidation updating review)"
+      ],
+      "unresolved_questions": [
+        "Q-gc-01 (高优先，部分解答：RCT 当前方案不支持 Phase 3；理论靶点仍有效)",
+        "Q-reconsolidation-01 (高优先：极强/极旧记忆能否在临床中可靠进入再巩固窗口)",
+        "Q-reconsolidation-02 (中优先：再巩固分子机制在不同记忆类型间的普遍性)"
+      ],
+      "next_suggested_topics": [
+        "成人海马神经发生与 PTSD 治疗（adult neurogenesis + PTSD）：BDNF 通过 TrkB 支持神经发生；应激 GC 抑制 SGZ 神经发生；SSRI 通过恢复神经发生发挥抗 PTSD 效果",
+        "前额叶-杏仁核回路在情绪调节中的角色（PFC-amygdala emotion regulation）：IL/PL 双向控制恐惧表达/消退；vmPFC 在 PTSD 中功能不足；与再巩固窗口消退的 vmPFC 角色衔接",
+        "PTSD 的神经生物学全貌（PTSD neurobiology）：从分子（再巩固、GC-NE）到系统（HPA 轴失调、默认模式网络）到临床（消退失败、vmPFC 不足）的完整机制图"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 78,
+      "note": "系统时钟UTC+8=2026-06-18（真实执行日期）；知识库虚拟日期2026-07-10；继承自2026-07-09（第77篇，糖皮质激素与应激记忆）；本篇填补了高优先问题 Q-gc-01（部分）；新建1个核心概念节点（memory-reconsolidation），添加15条图谱边；层级：molecular/cellular/brain-region/behavior/disease；13个来源，4个开放全文"
     }
   ],
   "layer_coverage_recent": {

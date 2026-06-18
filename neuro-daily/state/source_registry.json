@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-10",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5859,9 +5859,120 @@
         "2026-07-09-glucocorticoids-stress-memory-amygdala"
       ],
       "access": "abstract_only"
+    },
+    {
+      "pmid": "10963596",
+      "pmcid": null,
+      "doi": "10.1038/35021052",
+      "citation": "Nader K, Schafe GE, Le Doux JE. Fear memories require protein synthesis in the amygdala for reconsolidation after retrieval. Nature. 2000;406(6797):722-6.",
+      "access": "abstract_only_paywall",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ]
+    },
+    {
+      "pmid": "30374892",
+      "pmcid": "PMC6373183",
+      "doi": "10.1007/s00213-018-5086-2",
+      "citation": "Kida S. Reconsolidation/destabilization, extinction and forgetting of fear memory as therapeutic targets for PTSD. Psychopharmacology (Berl). 2019;236(1):49-57.",
+      "access": "open_full_text",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ]
+    },
+    {
+      "pmid": "18258863",
+      "pmcid": null,
+      "doi": "10.1126/science.1150494",
+      "citation": "Lee SH et al. Synaptic protein degradation underlies destabilization of retrieved fear memory. Science. 2008;319(5867):1253-6.",
+      "access": "abstract_only_paywall",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ]
+    },
+    {
+      "pmid": "26779588",
+      "pmcid": null,
+      "doi": "10.1073/pnas.1521654113",
+      "citation": "Bhattacharya S et al. CaMKII regulates proteasome phosphorylation and activity and promotes memory destabilization following retrieval. PNAS. 2016;113(8):E1230-8.",
+      "access": "abstract_only",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ]
+    },
+    {
+      "pmid": "21909089",
+      "pmcid": null,
+      "doi": "10.1038/nn.3497",
+      "citation": "Hong I et al. Retrieval-specific endocytosis of GluA2-AMPARs underlies adaptive reconsolidation of contextual fear. Nat Neurosci. 2013;16(10):1534-40.",
+      "access": "abstract_only",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ],
+      "notes": "PMID和作者信息待核实"
+    },
+    {
+      "pmid": "23413355",
+      "pmcid": null,
+      "doi": "10.1126/science.1231357",
+      "citation": "Sevenster D, Beckers T, Kindt M. Prediction error governs pharmacologically induced amnesia for learned fear. Science. 2013;339(6121):830-3.",
+      "access": "abstract_only_paywall",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ]
+    },
+    {
+      "pmid": "19219038",
+      "pmcid": null,
+      "doi": "10.1038/nn.2271",
+      "citation": "Kindt M, Soeter M, Vervliet B. Beyond extinction: erasing human fear responses and preventing the return of fear. Nat Neurosci. 2009;12(3):256-8.",
+      "access": "abstract_only_paywall",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ]
+    },
+    {
+      "pmid": "19542037",
+      "pmcid": null,
+      "doi": "10.1126/science.1167975",
+      "citation": "Monfils MH et al. Extinction-reconsolidation boundaries: key to persistent attenuation of fear memories. Science. 2009;324(5929):951-5.",
+      "access": "abstract_only_paywall",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ]
+    },
+    {
+      "pmid": "12934010",
+      "pmcid": null,
+      "doi": "10.1126/science.1086881",
+      "citation": "Eisenberg M et al. Stability of retrieved memory: inverse correlation with trace dominance. Science. 2003;301(5636):1102-4.",
+      "access": "abstract_only_paywall",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ]
+    },
+    {
+      "pmid": "37159200",
+      "pmcid": "PMC10170341",
+      "doi": "10.1001/jamapsychiatry.2023.0510",
+      "citation": "Mithoefer AT et al. Efficacy and Safety of Mifepristone in the Treatment of Male US Veterans With PTSD: A Phase 2a RCT. JAMA Psychiatry. 2023;80(6):556-565.",
+      "access": "open_full_text",
+      "first_used": "2026-07-10",
+      "articles_used_in": [
+        "2026-07-10-memory-reconsolidation-ptsd"
+      ]
     }
   ],
-  "total_sources": 289,
+  "total_sources": 321,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -6872,5 +6983,6 @@
         "2026-07-09"
       ]
     }
-  ]
+  ],
+  "additions_2026-07-10": "记忆再巩固文章（#78）新增 10 条来源"
 }

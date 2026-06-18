@@ -1,0 +1,86 @@
+# 2026-07-10 自动执行日志
+
+**执行时间**：UTC+8 09:00（系统时钟实际日期：2026-06-18；知识库虚拟日期：2026-07-10）
+**文章编号**：#78
+**知识库分支**：main（单分支模型）
+
+---
+
+## 执行步骤摘要
+
+### Step A：读取状态文件
+- `topic_ledger.json`：上次更新 2026-07-09，文章 #77，总计 77 篇
+- `unresolved_questions.md`：高优先级 Q-gc-01（GR 拮抗剂临床有效性）已悬挂，可供今日填充
+- `contested_claims.json`：6 个未决争议，今日无新增
+- `_graph.json`：143 节点，846 边，无悬空引用
+
+### Step B：选题
+- **选定主题**：记忆再巩固（memory reconsolidation）
+- **选题理由**：(1) 直接回答高优先问题 Q-gc-01（GR 拮抗剂在再巩固窗口的临床有效性）；(2) wiki 中 memory-reconsolidation 节点尚未建立；(3) 直接承接第 77 篇（GC-应激记忆）的临床转化逻辑；(4) 覆盖新的分子层级（分子/细胞/脑区/行为/疾病）
+- **层级**：分子/细胞/脑区/行为/疾病（跨层次综合）
+
+### Step C：研究与写作
+- **文章**：`articles/2026-07-10-memory-reconsolidation-ptsd.md` — 约 5500 字中文神经科学文章
+- **阅读笔记**：`notes/2026-07-10-reading-notes.md` — 10 个来源逐一分析
+- **来源注册**：`sources/2026-07-10-sources.json` — 13 条来源（4 开放全文，8 摘要，1 待核实）
+- **来源遵守**：未使用 Sci-Hub，未绕过付费墙，未捏造 PMID/DOI/结论，未提供医疗建议
+
+### Step D：Wiki 固结
+
+**新建页面（1 页）**：
+- `wiki/concepts/memory-reconsolidation.md`：再巩固完整机制框架（mainstream/medium-high）
+
+**修订页面（4 页）**：
+- `wiki/concepts/memory-consolidation.md`（rev7→rev8）：新增"第三维：再巩固"段落
+- `wiki/concepts/fear-conditioning.md`（rev1→rev2）：新增"记忆修改的窗口"段落
+- `wiki/concepts/fear-extinction.md`（rev2→rev3）：新增"消退 vs 再巩固窗口消退"段落，Q-fear-reconsolidation-boundary 部分解答
+- `wiki/systems/amygdala.md`（rev2→rev3）：新增"BLA 中的记忆再巩固去稳定化分子链"机制节
+
+### Step E：图谱更新
+- 新增节点：`memory-reconsolidation`（1 个）
+- 新增边：15 条（双向连接到 memory-consolidation, fear-conditioning, fear-extinction, amygdala, nmda-receptor, camkii, ltp, glucocorticoid-stress-memory, norepinephrine-locus-coeruleus）
+- 图谱总计：144 节点，861 边
+- `wiki/index.md`：更新头部摘要，新增 memory-reconsolidation 词条，更新 4 个修订页的描述
+- `wiki/CHANGELOG.md`：新增 2026-07-10 条目
+
+### Step F：治理文件更新
+- `state/topic_ledger.json`：新增文章 #78 条目，total_articles=78
+- `state/unresolved_questions.md`：新增 Q-reconsolidation-01（高优先）、Q-reconsolidation-02（中优先）；更新 Q-gc-01（Phase 2a RCT 结果，部分解答）
+- `state/maturity_index.json`：新增 memory-reconsolidation 条目（mainstream/medium-high）
+- `state/source_registry.json`：新增 10 条来源（过滤已有 PMID），total_sources=321
+- `state/monthly_synthesis.md`：更新本月日期/文章列表/核心主题；新增 2026-07-10 日条目
+
+### Step G：Git 提交与推送
+- 执行：`git add neuro-daily/` + `git commit` + `git pull --rebase` + `git push origin main`
+- 作者：GIT_AUTHOR_NAME=QIUYicong, GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+
+### Step H：自查
+- 所有 wiki 声明有来源追溯（PMID/PMCID/DOI 或注明来源文章）
+- `_graph.json` 边全部指向已存在节点（验证通过）
+- index.md 和 CHANGELOG.md 已更新
+- 未修改第 77 篇及更早的已发布文章
+- 未提供医疗建议
+- 来源合规：4 开放全文，8 摘要，无付费墙绕过
+
+---
+
+## 统计
+
+| 指标 | 值 |
+|------|-----|
+| 文章字数（估计）| ~5,500 字 |
+| 来源总数 | 13 |
+| 开放全文来源 | 4 |
+| 新建 wiki 页 | 1 |
+| 修订 wiki 页 | 4 |
+| 新增图谱节点 | 1 |
+| 新增图谱边 | 15 |
+| 更新治理文件 | 5 |
+| 新增开放问题 | 2 |
+| 解答/更新问题 | 2（Q-gc-01 部分，Q-fear-reconsolidation-boundary 部分）|
+
+---
+
+## 执行结论
+
+本次执行成功完成所有步骤。核心产出：(1) 完整的记忆再巩固中文深度文章（#78）；(2) 再巩固新 wiki 页（molecular/cellular/behavioral/clinical 四层机制）；(3) 米非司酮 Phase 2a RCT 结果整合（Q-gc-01 部分解答）；(4) 再巩固窗口消退作为 PTSD 行为疗法升级版的系统分析。本篇完成了"学习和记忆"课程脊柱的"记忆如何被修改"这一关键环节，为接下来覆盖成人神经发生、PFC-杏仁核情绪调节或 PTSD 神经生物学全貌奠定基础。

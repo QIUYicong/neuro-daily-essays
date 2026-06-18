@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-10",
   "levels": [
     "speculative",
     "emerging",
@@ -543,6 +543,14 @@
       "supporting_sources": 8,
       "last_status_change": "2026-06-28",
       "reason": "创建 2026-06-28（文章 #64）。TrkB三通路分子机制有大量独立一手来源；L-LTP依赖性经BDNF KO小鼠反复验证；Val66Met认知效应有人类遗传+fMRI支持（Egan 2003）；有氧运动RCT支持BDNF-认知链（Erickson 2011）；proBDNF/p75NTR→LTD机制由Woo 2005基因敲除实验直接验证；AD中BDNF受损的证据来自多种模型和死后脑组织。status=established（基础分子机制）；AD干预部分为emerging。"
+    },
+    {
+      "slug": "memory-reconsolidation",
+      "status": "mainstream",
+      "confidence": "medium-high",
+      "supporting_sources": 12,
+      "last_status_change": "2026-07-10",
+      "reason": "创建 2026-07-10（文章 #78）。Nader 2000 的原始实验在多个物种、多个实验室大量复现，建立了再巩固的基本存在性（高置信度）。分子机制（GluN2B-NMDA、CaMKII、UPS、GluA2 内吞）在啮齿类有因果实验支持，但多数来自单实验室研究，人类直接机制证据有限。人类行为实验（Kindt 2009、Sevenster 2013、Monfils 2009 行为消退范式）提供了可靠的跨实验室效应，但复现性不一致。临床转化（普萘洛尔 PTSD 治疗、米非司酮 Phase 2a RCT）处于早期阶段，Phase 2a 未达主要终点。综合：mainstream 而非 established（人类机制证据和临床转化尚不充分）；confidence medium-high（基础机制坚实，临床翻译不确定）。"
     }
   ],
   "entries": [

@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-07-08
-revision_count: 7
+updated: 2026-07-10
+revision_count: 8
 dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker, memory-reconsolidation]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-rem-sleep-role, Q-replay-human-translation]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-07-10-memory-reconsolidation-ptsd]
 key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710"]
 ---
 
@@ -27,6 +27,10 @@ key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517",
 **两种巩固不可混淆**：
 - **突触巩固**：数分钟至数小时，LTP 的蛋白合成依赖阶段，发生在单个突触
 - **系统巩固**：数天至数十年，海马→皮层转移，发生在全脑网络层面——今日页面的主题
+
+**第三维：再巩固——"稳定态"是相对的（2026-07-10 新增）**：
+
+已完成系统巩固的记忆在被**提取**后会短暂重新进入蛋白合成依赖态（Nader 2000, PMID:10963596）。这意味着传统"巩固即密封"的观点需要修正：记忆的稳定是动态的、受提取事件调控的。提取诱发的去稳定化窗口（~1-6h）依赖于：预测误差触发 GluN2B-NMDA→CaMKII→UPS→Shank/GKAP 降解的分子拆解程序；随后新蛋白合成（CREB→Arc/zif268）将记忆重新锁定，完成"再巩固"。再巩固为记忆修改提供了生物学窗口，与消退（建立竞争性安全记忆）是两种根本不同的记忆更新策略。详见 [[memory-reconsolidation]]。
 
 **关键设计逻辑**：McClelland 等（1995, PMID:7624455）的**互补学习系统（CLS）模型**解释了为什么需要两个系统：若皮层直接快速学习新事件，会发生"灾难性遗忘"（覆盖旧知识）；通过海马快速存储 + 夜间 SWR 向皮层反复重播（interleaved replay），皮层可缓慢整合新知识而不破坏旧知识。
 
@@ -156,6 +160,7 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 - [[emotional-memory-depotentiation]] — 系统巩固的情绪维度：REM期选择性弱化记忆情感色彩（SFSR假说）
 - [[circadian-clock]] — 分子时钟直接调控 GluA1 表达和 LTP 阈值；BMAL1 KO 损害学习
 - [[scn-circadian-pacemaker]] — SCN 编排睡眠时序，决定 NREM/REM 在一夜中的分布，间接决定哪类记忆优先被处理
+- [[memory-reconsolidation]] — 再巩固是系统巩固"永久稳定"假设的例外：提取使巩固后记忆重新进入不稳定、蛋白合成依赖态
 
 ## 未解问题
 
@@ -190,6 +195,7 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · NREM三重奏小节深化：纺锤波的主动丘脑-皮层触发机制（CT→TRN→纺锤波→树突钙预热）和因果实验（Latchoumane 2017）；related/prerequisites新增sleep-spindles、cortical-slow-oscillation、thalamocortical-circuit；key_sources扩充4个
 - 2026-05-31 · 修订 · 基于《REM睡眠与情绪记忆》文章 · 当前理解节新增REM睡眠角色段落（Boyce 2016光遗传因果链、van der Helm 2011人类fMRI、Walker SFSR假说）；关键证据表新增2行；连接新增rem-sleep/emotional-memory-depotentiation；Q-rem-sleep-role标记为部分解答；key_sources扩充3个
 - 2026-07-07 · 修订 rev6 · 基于《三重协奏》(#75) · 新增 so-spindle-swr-coupling、shy-hypothesis 两个 related 节点；证据表新增2行；Q-shy-vs-active-consolidation 部分解答
+- 2026-07-10 · 修订 rev8 · 基于《记忆再巩固》(#78) · 当前理解节新增"第三维：再巩固"段落（再巩固打破"巩固即密封"的教条，Nader 2000；提取诱发的动态去稳定化→再稳定化循环）；连接节新增 memory-reconsolidation；source_articles 新增 2026-07-10
 - 2026-07-08 · 修订 rev7 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对记忆巩固的时间门控"小节（LTP 昼夜波动、BMAL1 KO 学习损伤、SCN 萎缩→记忆功能下降的 AD 连接）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节扩充2条；key_sources 新增 PMID:12198538
 
 ## 来源文章

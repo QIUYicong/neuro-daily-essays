@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-05-30
-revision_count: 1
+updated: 2026-07-10
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior]
-related: [amygdala, fear-extinction, ltp, nmda-receptor, camkii, ampa-receptor, engram-cells, hebbian-learning]
+related: [amygdala, fear-extinction, ltp, nmda-receptor, camkii, ampa-receptor, engram-cells, hebbian-learning, memory-reconsolidation]
 prerequisites: [ltp, nmda-receptor, amygdala]
 opens_questions: [Q-fear-low-road-function, Q-fear-human-amygdala-specificity]
-source_articles: [2026-05-30-amygdala-fear-memory]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-10-memory-reconsolidation-ptsd]
 key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278"]
 ---
 
@@ -25,6 +25,8 @@ key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278"
 我们现在认为，恐惧条件反射是LA中一次Hebbian-LTP事件的直接结果：US引发的强去极化移除NMDA受体的Mg²⁺阻塞，同时CS到来提供谷氨酸配体，Ca²⁺内流激活CaMKII→AMPA受体插入，CS传入突触永久增强。这与海马LTP使用完全相同的分子机器，证明LTP是跨脑区的通用联想学习算法。
 
 记忆写入后，条件性CS通过LA→CeA（含ITC去抑制回路）→PAG/下丘脑驱动冻结和应激激素释放。只有约20%的LA锥体神经元形成增强的CS响应（稀疏代码），这些神经元因具有更高内在兴奋性或CREB水平而被竞争性选中——与海马场所细胞印迹的选择逻辑完全一致。
+
+**记忆修改的窗口（2026-07-10 新增）**：已巩固的恐惧条件记忆并非永久密封——在短暂的CS再激活（无US，产生预测误差）后约1-6小时内，LA突触进入蛋白合成依赖的"再巩固窗口"，可被药物（普萘洛尔、米非司酮）或行为干预（再巩固窗口消退训练）选择性修改。此窗口的存在意味着恐惧条件记忆的固定性是相对的，为 PTSD 治疗提供了理论靶点。详见 [[memory-reconsolidation]]。
 
 ## 关键机制
 
@@ -63,7 +65,8 @@ key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278"
 - [[nmda-receptor]] — 巧合检测器，恐惧LA-LTP的必要门卫
 - [[camkii]] — 恐惧LTP分子级联的核心激酶
 - [[engram-cells]] — LA中约20%稀疏恐惧印迹细胞，与海马印迹逻辑一致
-- [[norepinephrine-locus-coeruleus]] — NE通过β受体增强杏仁核LTP，强化情绪记忆巩固
+- [[norepinephrine-locus-coeruleus]] — NE通过β受体增强杏仁核LTP，强化情绪记忆巩固；普萘洛尔（β-AR阻断剂）通过干扰再巩固的NE信号消除情绪恐惧记忆
+- [[memory-reconsolidation]] — 已巩固恐惧条件记忆在CS再激活后进入再巩固窗口，可被选择性修改或抹除（Nader 2000, Kindt 2009, Monfils 2009）
 
 ## 未解问题
 
@@ -72,6 +75,7 @@ key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278"
 
 ## 修订历史
 
+- 2026-07-10 · 修订 rev2 · 基于《记忆再巩固》(#78) · 当前理解节新增"记忆修改的窗口"段落（再巩固窗口、药物/行为干预靶点）；连接节新增 memory-reconsolidation、NE-β-AR 普萘洛尔注释；source_articles 新增 2026-07-10
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
 
 ## 来源文章

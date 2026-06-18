@@ -6,13 +6,13 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-09
-revision_count: 2
+updated: 2026-07-10
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd]
 key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228"]
 ---
 
@@ -67,6 +67,34 @@ CeM → PAG → 冻结行为；CeM → 下丘脑 → 自主神经激活（心率
 - BLA 失活（利多卡因）→ 完全阻断 PrL GC 的记忆增强
 - 也依赖前扣带皮层（AIC）和背侧海马（dHPC）：多节点网络，BLA 为核心
 
+### BLA 中的记忆再巩固去稳定化分子链（2026-07-10 新增）
+
+LA（外侧杏仁核）不仅是恐惧记忆的写入位点，也是再巩固去稳定化事件的核心发生地。当已巩固的恐惧记忆被短暂再激活（单次CS，产生预测误差），以下分子级联在 BLA-LA 中展开：
+
+```
+预测误差信号（CS出现但US缺席）
+  → GluN2B-NMDA 受体激活（Ro 25-6981 BLA内注射→阻断去稳定化）
+  → Ca²⁺ 内流
+  → CaMKII 激活（T286自磷酸化）
+  → 20S 蛋白酶体调节亚基磷酸化（PMID:26779588）→ UPS 激活
+  → GluA2-AMPA 受体内吞（TAT-GluA23Y 阻断→去稳定化失败）
+  → Shank + GKAP 选择性降解（~2h，PSD-95 不降解）（PMID:18258863）
+  → CP-AMPAR 出现（Ca²⁺ 通透型，使突触进入高敏感态）
+```
+
+**随后，在 1-6 小时内进行再稳定化**：
+```
+PKA / ERK / CaMKIV → CREB 磷酸化
+  → Arc, zif268, BDNF 表达
+  → 新蛋白合成 → 突触结构重建
+  → 记忆重新锁定
+```
+
+**窗口内干预靶点**：
+- 蛋白合成抑制剂（茴香霉素，仅实验用）→ 阻断再稳定化 → 记忆抹除
+- β-AR 阻断（普萘洛尔）→ 干扰 NE 驱动的 PKA/CREB 信号 → 选择性消除情绪成分
+- GR 拮抗（米非司酮）→ 阻断 GC 增强再稳定化 → Phase 2a RCT 未达主要终点（PMID:37159200）
+
 ### CRH 在 CeA 的中枢独立效应
 
 CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外周 HPA 效应**直接调控防御行为：
@@ -97,6 +125,7 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[glucocorticoid-stress-memory]] — BLA是GC记忆增强的必要枢纽；GC通过BLA GR基因组途径驱动L-LTP转化；CRH在CeA独立调控防御反应
 - [[hpa-axis]] — HPA轴产生的GC在BLA实现记忆增强；CeM→PVN投射参与HPA激活正反馈
 - [[memory-consolidation]] — BLA GC+NE协同驱动情绪显著性记忆的优先长期巩固
+- [[memory-reconsolidation]] — BLA-LA 是再巩固去稳定化的核心位点：GluN2B-NMDA→CaMKII→UPS→Shank/GKAP 降解+GluA2 内吞的完整分子链在此发生
 
 ## 未解问题
 
@@ -106,6 +135,7 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 
 ## 修订历史
 
+- 2026-07-10 · 修订 rev3 · 基于《记忆再巩固》(#78) · 新增"BLA 中的记忆再巩固去稳定化分子链"机制节（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞级联；再稳定化路径；窗口内干预靶点）；连接节新增 memory-reconsolidation；source_articles/related 相应更新
 - 2026-07-09 · 修订 rev2 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"GC与NE协同增强应激记忆"机制节（BLA必要枢纽、GC-NE协同门控、β-AR阻断实验）；新增"CRH在CeA的中枢独立效应"节；related新增glucocorticoid-stress-memory、hpa-axis、memory-consolidation；key_sources新增PMID:30877244、PMID:16310958、PMID:23968228；未解问题新增Q-fear-itc-bidirectionality
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
 
