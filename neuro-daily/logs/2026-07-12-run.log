@@ -102,7 +102,7 @@
 - [x] CHANGELOG.md 已预置今日条目
 - [x] 无医学诊断或治疗建议
 - [x] 未使用Sci-Hub或未授权来源
-- [ ] Git push 待完成
+- [x] Git push 完成（commit b271f47，push 到 origin/main 成功）
 
 ---
 
