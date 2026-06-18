@@ -6,10 +6,10 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-06-03
-revision_count: 2
+updated: 2026-07-18
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex, thalamus, thalamic-firing-modes, working-memory, prefrontal-cortex, neural-correlates-of-consciousness]
+related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex, thalamus, thalamic-firing-modes, working-memory, prefrontal-cortex, neural-correlates-of-consciousness, cortical-canonical-microcircuit, cortical-layers]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-gating-mechanism, Q-matrix-vs-core-function, Q-thalamus-burst-awake]
 source_articles: [2026-06-19-sleep-spindles-nrem, 2026-06-03-thalamus-gatekeeper-cognition]
@@ -61,6 +61,20 @@ key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:27144033"
 - CT→TRN：增强 TRN 同步，放大纺锤波振幅
 - CT→TC（直接）：谷氨酸驱动，可以兴奋或（通过 mGluR）抑制
 - CT 反馈使皮层能主动调节"允许多少信息进入皮层"（attention gating）
+
+## 前馈/反馈的层级解剖特异性
+
+（2026-07-18 新增）
+
+丘脑→皮层（前馈驱动型）和皮层→丘脑（反馈调制型）连接具有严格的层级特异性，与规范微回路完全对应（Harris & Shepherd 2015，PMID:25622573）：
+
+| 方向 | 皮层层级 | 突触性质 | 功能 |
+|------|---------|---------|------|
+| 丘脑→皮层（前馈驱动） | **L4**（初级感觉皮层）| 驱动型（AMPA+NMDA 大端钮） | 传递感觉内容，设定皮层感受野 |
+| 皮层→丘脑（皮层-丘脑 CT 反馈） | **L6** 锥体细胞发出 | 调制型（mGluR 为主，小端钮） | 调控丘脑中继增益；注意性门控 |
+| 高级皮层→低级皮层（反馈预测） | 高级 **L5/6** → 低级 **L1/2/3**（绕过 L4） | 调制型 | 传递先验预测，β 频 |
+
+**关键意义**：反馈预测信号严格绕过 L4（感觉输入门），确保先验预测（反馈）与感觉证据（前馈）在不同层级汇聚，允许 L5 锥体细胞的两极树突在物理上分离地接收两种信号——这是预测编码"贝叶斯推断"的解剖基础。
 
 ## TRN↔TC 振荡机制（纺锤波生成）
 
@@ -125,6 +139,8 @@ Sherman 和 Guillery（1998, PMID: 9618549；Sherman 2024 综述, J Neurosci）�
 - [[thalamic-firing-modes]] — tonic/burst 双模放电的离子通道机制专页
 - [[working-memory]] — MD-PFC 轴：工作记忆延迟期晚期活动的视丘放大器
 - [[neural-correlates-of-consciousness]] — 髓板内核群（CM-Pf）与意识状态
+- [[cortical-canonical-microcircuit]] — L4 接受丘脑驱动型输入；L6 CT 细胞发出皮层→丘脑反馈门控；两者共同构成丘脑-皮层双向环路的皮层端
+- [[cortical-layers]] — L4 感觉输入层；L6 CT 反馈输出层；前馈/反馈层级特异性的解剖详情
 
 ## 未解问题
 
@@ -136,6 +152,7 @@ Sherman 和 Guillery（1998, PMID: 9618549；Sherman 2024 综述, J Neurosci）�
 
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · 建立丘脑回路专页，整合TRN/TC机制和Core/Matrix通路 · 初始置信度：高
 - 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增：一次/高次视丘核区分（Sherman框架）、驱动/调制型突触对比表、PFC→TRN大型端钮解剖学证据（Zikopoulos&Barbas）、枕核门控V1（Purushothaman）、MD工作记忆放大（Parnaudeau）；related 新增 thalamus/thalamic-firing-modes/working-memory/prefrontal-cortex/neural-correlates-of-consciousness
+- 2026-07-18 · 修订 · 基于《大脑皮层的规范微回路》文章 #86 · 新增"前馈/反馈的层级解剖特异性"节：丘脑→L4（驱动型）、L6 CT→丘脑（调制型）、高级L5/6→低级L1/2/3（反馈绕过L4）的层级对应表；related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增两条链接
 
 ## 来源文章
 

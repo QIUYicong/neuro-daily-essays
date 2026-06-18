@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-19（第85篇·STDP突触时序依赖可塑性·NMDA时序仲裁·θ振荡桥接·三因素扩展）· 主题页总数：**153**（新建1页：stdp；修订2页：hebbian-learning rev4→rev5、nmda-receptor rev4→rev5；图谱157节点、939边；填补 hebbian-learning 中 [[stdp]] 长期悬空引用；新增Q-stdp-physiological-ca、Q-stdp-inhibitory-synapses、Q-stdp-human-evidence）
+> 最后更新：2026-07-18（第86篇·皮层规范微回路·六层结构×预测编码解剖实现×L5顶端钙爆发×VIP去抑制注意门控）· 主题页总数：**155**（新建2页：cortical-canonical-microcircuit, cortical-layers；修订2页：predictive-coding rev6→rev7、thalamocortical-circuit rev2→rev3；图谱159节点、933边；新增Q-ccm-01至Q-ccm-04）
 
 ---
 
@@ -38,6 +38,7 @@
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
+- 🟢 [规范微回路（新皮层）](circuits/cortical-canonical-microcircuit.md) — 六层保守回路模板：L2/3（误差单元，γ前馈）→L5/6（预测单元，β反馈）→L6（丘脑门控）；L5顶端钙爆发 AND 门；VIP+去抑制注意调控；Douglas & Martin 2004循环兴奋4-7×，Harris & Shepherd 2015串联同源性 **[NEW 2026-07-18]**
 
 ## concepts（概念/框架）
 
@@ -54,6 +55,7 @@
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
 - 🔵 [突触时序依赖可塑性（STDP）](concepts/stdp.md) — Hebb 规则的时间分辨精化版：前先后→LTP，后先前→LTD；NMDA 受体±20ms 仲裁；θ 前进体内桥接；三因素扩展 **[NEW 2026-06-19]**（填补 hebbian-learning 悬空引用）
+- 🟢 [皮层分层结构（六层）](concepts/cortical-layers.md) — L1–L6 各层细胞类型、输入/输出投射和振荡特征；前馈（L2/3→高级L4，γ驱动型）vs 反馈（L5/6→低级L1/2/3，β调制型绕过L4）的层级不对称；L4棘突星形细胞、L5厚毛绒锥体细胞两极整合、L6 CT丘脑门控 **[NEW 2026-07-18]**
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-06-22]**

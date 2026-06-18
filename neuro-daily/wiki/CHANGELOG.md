@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-07-18（文章 #86·皮层规范微回路·预测编码解剖实现·课程脊柱 2）
+
+**源文章**：[[2026-07-18-cortical-canonical-microcircuit]] —《大脑皮层的规范微回路：六层结构如何让感知成为主动推断》
+
+**新建页面（2）**：
+- `circuits/cortical-canonical-microcircuit.md`（规范微回路·新皮层）🟢 established — Douglas & Martin 2004 循环兴奋 4-7×丘脑输入；Harris & Shepherd 2015 串联同源性（serial homology）；Bastos 2012 预测编码层级对应（L2/3=误差单元γ，L5/6=预测单元β）；Larkum 2013 L5 顶端钙爆发 AND 门逻辑；Bastos 2015 28 对视觉区域 γ/β 频率验证；VIP+→SST+去抑制注意门控；连接 cortical-layers, predictive-coding, thalamocortical-circuit, pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, beta-oscillations, attractor-network
+- `concepts/cortical-layers.md`（皮层分层结构·六层）🟢 established — L1–L6 各层细胞类型、输入/输出投射、振荡特征；前馈/反馈层级不对称（前馈→L4驱动型，反馈→L1/2/3调制型绕过L4）；L4棘突星形细胞、L5厚毛绒锥体细胞两极整合、L6 CT细胞丘脑门控；连接 cortical-canonical-microcircuit, thalamocortical-circuit, pv/sst/vip-interneurons, gamma/beta-oscillations, predictive-coding
+
+**修订页面（2）**：
+- `theories/predictive-coding.md` rev7 — related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增规范微回路作为预测编码解剖实现的两条链接；修订历史新增一行
+- `circuits/thalamocortical-circuit.md` rev3 — 新增"前馈/反馈的层级解剖特异性"节（丘脑→L4驱动型、L6 CT→丘脑调制型、高级L5/6→低级L1/2/3反馈绕过L4的层级对应表）；related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增两条链接；修订历史新增一行
+
+**矛盾登记（0）**：无新矛盾
+
+**新增开放问题（4）**：
+- Q-ccm-01（高优先级）：L2/3 误差单元和 L5/6 预测单元能否在同一体内实验中被直接、同时区分？（预测编码最核心的实验空白）
+- Q-ccm-02（高优先级）：L5 顶端钙爆发在行为动物注意任务中的触发频率和触发条件是什么？VIP+去抑制的细胞级注意证据？
+- Q-ccm-03（中优先级）：β/γ 频率规律是否普遍适用于非视觉皮层（前额叶、海马、运动皮层）？
+- Q-ccm-04（中优先级）：无颗粒皮层（前额叶）的规范微回路是什么样的"变体"——L2/3 是否兼并了 L4 功能？
+
+**新增悬空引用（需补）**：
+- `disinhibitory-circuit`（VIP→SST→锥体细胞的去抑制回路，需建独立页面）
+- `pv-interneurons`（PV+ 快速放电细胞专页，需建独立页面）
+- `sst-interneurons`（SST+ 马氏细胞专页，需建独立页面）
+- `vip-interneurons`（VIP+ 双极细胞专页，需建独立页面）
+
+**图谱**：159 节点，933 边（+2 节点 cortical-canonical-microcircuit/cortical-layers，+21 边）
+
+---
+
 ## 2026-07-16（文章 #84·海马回放·经验回放·课程脊柱 12 第五篇）
 
 **源文章**：[[2026-07-16-hippocampal-replay-experience-replay]] —《记忆的时光机：海马回放如何重演昨天以学习明天》

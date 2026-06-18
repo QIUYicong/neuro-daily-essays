@@ -6,10 +6,10 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-07-13
-revision_count: 6
+updated: 2026-07-18
+revision_count: 7
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition, AI]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-pc-07]
 source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae]
@@ -105,6 +105,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 
 ## 连接
 
+- [[cortical-canonical-microcircuit]] — 规范微回路是预测编码的解剖实现载体：L2/3=误差单元（前馈，γ），L5/6=预测单元（反馈，β），L4=丘脑感觉输入汇聚点，L1=反馈预测接收区
+- [[cortical-layers]] — 六层解剖学骨架：每层的细胞类型、输入/输出投射和振荡特征
 - [[cerebellum]] — 专用预测误差学习系统（前向模型 + 攀爬纤维误差信号）
 - [[forward-model]] — 小脑前向模型是预测编码的一个具身子系统
 - [[precision-weighting]] — 预测编码框架中注意力和神经调质的计算角色
@@ -138,6 +140,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语言域的预测编码实例：词出现前200ms的语义-感觉运动预测（Grisoni 2024），腹侧流具身语义预测（工具词→运动皮层，动物词→视觉皮层）；related 新增 language-network, ventral-language-stream
 - 2026-06-23 · 修订 · 基于《小脑的秘密》一文 · 新增"小脑专用预测误差学习系统"段落（前向模型→误差→LTD更新）；related 新增 cerebellum, forward-model
 - 2026-07-13 · 修订 · 基于《大脑的预言机》一文（#81）· 新增 AI 比较维度（dimensions 加 AI）；关键证据表增加 Whittington & Bogacz 2017（PC ≈ 反向传播）、Richter 2018（腹侧流抑制）、Solomon 2021（批评性证据）、VAE 数学等价；related 新增 free-energy-principle、variational-autoencoder；未解问题新增 Q-pc-06、Q-pc-07；key_sources 新增 PMID:28333583、PMID:33683317、PMID:19528002
+- 2026-07-18 · 修订 · 基于《大脑皮层的规范微回路》一文（#86）· 补充规范微回路作为预测编码解剖实现载体的关联；related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增两条解剖实现链接
 
 ## 来源文章
 

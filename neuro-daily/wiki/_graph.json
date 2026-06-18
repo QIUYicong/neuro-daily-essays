@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-19",
-  "node_count": 154,
-  "edge_count": 912,
+  "updated": "2026-07-18",
+  "node_count": 159,
+  "edge_count": 933,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1438,6 +1438,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/stdp.md"
+    },
+    {
+      "id": "cortical-canonical-microcircuit",
+      "title": "规范微回路（新皮层）",
+      "domain": "circuits",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/cortical-canonical-microcircuit.md"
+    },
+    {
+      "id": "cortical-layers",
+      "title": "皮层分层结构（新皮层六层）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-layers.md"
     }
   ],
   "edges": [
@@ -6615,6 +6633,132 @@
       "from": "short-term-synaptic-plasticity",
       "to": "stdp",
       "type": "related"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "cortical-layers",
+      "type": "part-of",
+      "note": "规范微回路是六层解剖骨架上的功能电路组织"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "predictive-coding",
+      "type": "mechanism-of",
+      "note": "规范微回路在物理上实现预测编码：L2/3=误差单元（γ），L5/6=预测单元（β），L4=感觉汇聚，L1=反馈接收"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "thalamocortical-circuit",
+      "type": "related",
+      "note": "L4 接受丘脑驱动型输入；L6 CT 细胞发出皮层→丘脑反馈门控"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "PV+ 快速放电细胞：产生 γ 振荡，控制 L2/3 时间精度"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "sst-interneurons",
+      "type": "related",
+      "note": "SST+ 马氏细胞：抑制 L5 顶端树突，关闭感知-预期整合门"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "vip-interneurons",
+      "type": "related",
+      "note": "VIP+ 双极细胞：去抑制回路（VIP→抑制SST→释放顶端树突），注意门控的细胞级实现"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "stdp",
+      "type": "related",
+      "note": "STDP 在 L2/3 和 L5 突触中发生，塑造规范微回路的连接权重"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "gamma-oscillations",
+      "type": "related",
+      "note": "γ 振荡由 L2/3 的 PV+ E-I 回路产生，承载前馈误差信号（60-80 Hz）"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "beta-oscillations",
+      "type": "related",
+      "note": "β 振荡起源于深层 L5/6，承载反馈预测信号（14-18 Hz）"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "attractor-network",
+      "type": "related",
+      "note": "L5/6 预测状态可用吸引子动力学描述"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "ltp",
+      "type": "related",
+      "note": "LTP 是规范微回路中 L2/3 和 L5 突触权重更新的突触机制"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "hebbian-learning",
+      "type": "related",
+      "note": "赫布学习在规范微回路各层突触中的具体实现"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "cortical-canonical-microcircuit",
+      "type": "supports",
+      "note": "六层解剖学骨架是规范微回路的物理基础"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "thalamocortical-circuit",
+      "type": "related",
+      "note": "L4 接受丘脑驱动型输入；L6 CT 细胞发出皮层→丘脑反馈"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "PV+ 主要分布于 L2/3 和 L4，产生 γ 振荡"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "sst-interneurons",
+      "type": "related",
+      "note": "SST+ 分布于各层，专门抑制 L5 顶端树突（L1 靶点）"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "vip-interneurons",
+      "type": "related",
+      "note": "VIP+ 分布于 L2/3，通过去抑制 SST+ 释放 L5 顶端树突整合"
+    },
+    {
+      "from": "cortical-layers",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "六层解剖学为预测编码的计算节点分配提供物理基础：L2/3=误差，L5/6=预测"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "cortical-canonical-microcircuit",
+      "type": "related",
+      "note": "规范微回路是预测编码框架的解剖学实现"
+    },
+    {
+      "from": "thalamocortical-circuit",
+      "to": "cortical-canonical-microcircuit",
+      "type": "related",
+      "note": "丘脑→L4 驱动型输入和 L6 CT 反馈共同构成规范微回路的感觉门"
+    },
+    {
+      "from": "thalamocortical-circuit",
+      "to": "cortical-layers",
+      "type": "related",
+      "note": "丘脑特异性输入终止于 L4；CT 反馈从 L6 发出——层级特异性是丘脑-皮层接口的基本原则"
     }
   ],
   "dangling_references": [

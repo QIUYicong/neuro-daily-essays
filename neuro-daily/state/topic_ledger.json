@@ -1,7 +1,77 @@
 {
-  "last_updated": "2026-06-19",
-  "total_articles": 85,
+  "last_updated": "2026-07-18",
+  "total_articles": 86,
   "entries": [
+    {
+      "date": "2026-07-18",
+      "title": "大脑皮层的规范微回路：六层结构如何让感知成为主动推断",
+      "filename": "2026-07-18-cortical-canonical-microcircuit.md",
+      "wiki_pages_created": [
+        "wiki/circuits/cortical-canonical-microcircuit.md",
+        "wiki/concepts/cortical-layers.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/predictive-coding.md",
+        "wiki/circuits/thalamocortical-circuit.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "新皮层六层结构为什么如此保守？每层的细胞类型和投射如何在物理上实现预测编码的计算节点（L2/3误差单元、L5/6预测单元、L4感觉门、L6丘脑门控）？L5锥体细胞的顶端钙爆发机制如何把感知（基底）与预期（顶端）在细胞水平整合？VIP+去抑制回路如何实现注意力对这个两极整合门的调控？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱2（皮层计算·微回路·预测编码）× 课程脊柱1（神经元如何工作·树突整合·钙爆发）；填补悬空引用 [[cortical-canonical-microcircuit]] 和 [[cortical-layers]]；承接脊柱2的 predictive-coding、thalamocortical-circuit；为脊柱12（脑-AI比较）中的Transformer注意力类比提供皮层解剖基础",
+      "topic_tags": [
+        "cortical canonical microcircuit",
+        "neocortex six layers",
+        "Douglas Martin 2004",
+        "Harris Shepherd 2015 serial homology",
+        "Bastos 2012 predictive coding",
+        "Bastos 2015 feedforward gamma feedback beta",
+        "Larkum 2013 L5 calcium spike AND gate",
+        "Markov 2014 interareal connectivity",
+        "L2/3 error unit gamma feedforward",
+        "L5/6 prediction unit beta feedback",
+        "L4 thalamic input spiny stellate",
+        "L6 corticothalamic CT feedback",
+        "apical dendritic tuft L1",
+        "basal dendrites sensory input",
+        "VIP disinhibition SST apical gate",
+        "PV interneuron gamma generation",
+        "SST interneuron apical suppression",
+        "predictive coding laminar anatomy",
+        "thalamocortical feedforward driver",
+        "feedback modulator bypasses L4",
+        "cortical hierarchy",
+        "neocortical computation"
+      ],
+      "key_sources": [
+        "PMID:15217339",
+        "PMID:23177956",
+        "PMID:25622573",
+        "PMID:23273272",
+        "PMID:18270515",
+        "PMID:25556836",
+        "PMID:25585017",
+        "PMID:23983048"
+      ],
+      "unresolved_questions": [
+        "Q-ccm-01: L2/3 误差单元和 L5/6 预测单元是否能在同一体内实验中被直接、同时区分？",
+        "Q-ccm-02: L5 顶端钙爆发在行为动物注意任务中的实际触发频率和条件是什么？",
+        "Q-ccm-03: β/γ 频率规律是否普遍适用于非视觉皮层（前额叶、海马、运动皮层）？",
+        "Q-ccm-04: 无颗粒皮层（前额叶）的规范微回路是什么样的'变体'——L2/3 是否兼并了 L4 功能？"
+      ],
+      "next_suggested_topics": [
+        "PV+/SST+/VIP+ 中间神经元的专页深化——三类抑制性中间神经元的形态学、电生理、发育起源和疾病关联",
+        "γ 和 β 振荡的机制与功能——承接本文 E-I 回路产生振荡的内容",
+        "皮层预测编码的体内实验验证——直接验证 L2/3 误差单元/L5 预测单元的实验设计与现有证据",
+        "运动皮层的规范微回路变体——无颗粒皮层（agranular cortex）的特殊组织"
+      ]
+    },
     {
       "date": "2026-06-19",
       "title": "突触时序依赖可塑性：用毫秒级时间窗口书写神经因果律",

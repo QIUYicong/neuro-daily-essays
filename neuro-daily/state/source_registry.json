@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19",
+  "last_updated": "2026-07-18",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -62,13 +62,16 @@
       "year": 2012,
       "first_used": "2026-07-13",
       "used_in_articles": [
-        "2026-07-13-predictive-coding-free-energy-vae.md"
+        "2026-07-13-predictive-coding-free-energy-vae.md",
+        "2026-07-18-cortical-canonical-microcircuit.md"
       ],
       "aspects_covered": [
         "L2/3 error units gamma feedforward",
         "L5/6 prediction units alpha/beta feedback",
         "cortical layer mapping",
-        "oscillation direction"
+        "oscillation direction",
+        "canonical microcircuit predictive coding implementation",
+        "L4 sensory input hub L1 feedback reception"
       ]
     },
     {
@@ -7796,6 +7799,124 @@
       ],
       "full_text_available": false,
       "note": "HMAX model; S-unit/C-unit framework derived from Hubel-Wiesel; precursor to CNN-visual cortex analogy; abstract only"
+    },
+    {
+      "pmid": "15217339",
+      "title": "Neuronal circuits of the neocortex",
+      "authors_short": "Douglas & Martin",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2004,
+      "first_used": "2026-07-18",
+      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "neocortical canonical microcircuit",
+        "recurrent excitation 4-7x thalamic input",
+        "six-layer conservation across areas",
+        "L2/3 cooperative exploration of sensory interpretations"
+      ]
+    },
+    {
+      "pmid": "25622573",
+      "title": "The neocortical circuit: themes and variations",
+      "authors_short": "Harris & Shepherd",
+      "journal": "Nature Neuroscience",
+      "year": 2015,
+      "first_used": "2026-07-18",
+      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "full_text_available": true,
+      "access_type": "pmc_open",
+      "aspects_covered": [
+        "serial homology principle",
+        "thalamus to L4 driver type",
+        "feedback bypasses L4 terminates L1/2/3",
+        "PV+ SST+ VIP+ interneuron targets and functions",
+        "cortical area differences as regional adaptations of common template"
+      ]
+    },
+    {
+      "pmid": "23273272",
+      "title": "A cellular mechanism for cortical associations: an organizing principle for the cerebral cortex",
+      "authors_short": "Larkum ME",
+      "journal": "Trends in Neurosciences",
+      "year": 2013,
+      "first_used": "2026-07-18",
+      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "L5 pyramidal two-compartment integration",
+        "apical Ca2+ dendritic spike AND gate logic",
+        "basal dendrites sensory input apical tuft feedback prediction",
+        "SST+ suppresses apical VIP+ disinhibits"
+      ]
+    },
+    {
+      "pmid": "18270515",
+      "title": "Pyramidal neurons: dendritic structure and synaptic integration",
+      "authors_short": "Spruston N",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2008,
+      "first_used": "2026-07-18",
+      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "apical and basal dendritic compartments distinct input domains",
+        "L-type Ca channels apical tuft",
+        "dendritic compartmentalization distributed computation"
+      ]
+    },
+    {
+      "pmid": "25556836",
+      "title": "Visual areas exert feedforward and feedback influences through distinct frequency channels",
+      "authors_short": "Bastos et al.",
+      "journal": "Neuron",
+      "year": 2015,
+      "first_used": "2026-07-18",
+      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "feedforward theta and gamma 60-80 Hz Granger causality",
+        "feedback beta 14-18 Hz Granger causality",
+        "28 visual area pairs systematic validation",
+        "macaque MEG LFP"
+      ]
+    },
+    {
+      "pmid": "25585017",
+      "title": "A DCM study of spectral asymmetries in feedforward and feedback connections between visual areas V1 and V4 in the monkey",
+      "authors_short": "Bastos et al.",
+      "journal": "NeuroImage",
+      "year": 2015,
+      "first_used": "2026-07-18",
+      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "DCM dynamic causal modelling V1-V4",
+        "feedforward V1-V4 gamma dominant",
+        "feedback V4-V1 alpha/beta dominant"
+      ]
+    },
+    {
+      "pmid": "23983048",
+      "title": "A weighted and directed interareal connectivity matrix for macaque cerebral cortex",
+      "authors_short": "Markov et al.",
+      "journal": "Cerebral Cortex",
+      "year": 2014,
+      "first_used": "2026-07-18",
+      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "29 cortical area quantitative connectivity matrix",
+        "feedforward L2/3 to higher L4 driver",
+        "feedback L5/6 to lower L1/2/3 modulator",
+        "cortical hierarchy distance law"
+      ]
     }
   ]
 }

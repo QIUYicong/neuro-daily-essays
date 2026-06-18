@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-11",
+  "last_updated": "2026-07-18",
   "levels": [
     "speculative",
     "emerging",
@@ -977,5 +977,19 @@
     "revision_count": 1,
     "last_change": "2026-07-14",
     "change_reason": "新建（文章 #82，2026-07-14）。CNN预测视觉皮层神经元的核心发现（性能-预测力相关r=0.78，IT ~48.5%可解释方差）来自多个独立实验室的系统比较（Yamins 2014、Cadieu 2014、Khaligh-Razavi 2014）。领域内已是主流框架（Brain-Score基准）。但~50%未解释方差和三个崩溃裂缝（循环/形状偏见/对抗样本）阻止定为established。mainstream/high。"
+  },
+  "cortical-canonical-microcircuit": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-18",
+    "change_reason": "新建（文章 #86，2026-07-18）。六层皮层结构保守性（Harris & Shepherd 2015）和皮层内循环兴奋主导（Douglas & Martin 2004）是多物种、多区域、20年以上的教科书级共识——established/high。预测编码的层级对应（Bastos 2012）和L5顶端钙爆发（Larkum 2013）在体外证据充分、体内证据尚发展中，但整体框架是mainstream以上。综合评级established（解剖学）with high confidence。"
+  },
+  "cortical-layers": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-18",
+    "change_reason": "新建（文章 #86，2026-07-18）。新皮层六层结构的存在、各层细胞类型和基本连接规则是100年以上的神经解剖学共识（Ramon y Cajal → Douglas & Martin → Harris & Shepherd）——established/high。本页覆盖L1-L6的功能计算角色（误差单元、预测单元、感觉门、CT反馈）是近年更好建立的层面，但解剖骨架本身毫无争议。"
   }
 }
