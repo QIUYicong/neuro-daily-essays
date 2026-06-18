@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-06-07
-updated: 2026-06-07
-revision_count: 1
+updated: 2026-07-11
+revision_count: 2
 dimensions: [synaptic, cellular, molecular]
 related: [ltp, three-factor-learning-rule, dopamine-reward-prediction-error, camkii, hebbian-learning, memory-consolidation]
 prerequisites: [ltp, hebbian-learning, camkii]
 opens_questions: [Q-stc-molecular-tag, Q-three-factor-time-window]
-source_articles: [2026-06-07-dopamine-reward-prediction-error]
-key_sources: ["PMID:9020359", "PMID:7708662"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
+key_sources: ["PMID:9020359", "PMID:7708662", "PMID:17626208", "PMID:27602521", "PMID:20130171", "PMID:21170088"]
 ---
 
 # 突触标记与捕获 (Synaptic Tagging and Capture, STC)
@@ -84,12 +84,16 @@ PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录�
 | DA D1/D5 通过 PKA-CREB 诱导 PRPs 合成，可升级 E-LTP | D1/D5 激动剂诱导 CA1 L-LTP；蛋白质合成依赖 | PMID:7708662（PMC42234） | 高 |
 | 标签有效期约 1-2 小时 | 不同延迟的双通路实验；延迟>2h 无协同效应 | PMID:9020359 | 中-高（估计值，不同突触类型可能不同） |
 | 标签可被跨突触 PRP 合成捕获（"协同 LTP"） | 同侧 E-LTP 和对侧 L-LTP 的时间排列 | PMID:9020359 | 中-高 |
+| 新颖事件在 ±1h 内将弱训练的 STM→LTM（行为标记；D1/D5 + 蛋白合成依赖）| 大鼠 IA 模型 + 时间排列 + 药理 | PMID:17626208 | 中-高（行为层面的 STC 验证）|
+| D1/D5 调控记忆持续性（而非编码）：编码后注射拮抗剂损害 24h LTM，不损害 30min STM | 时间点药理分离 + 两种记忆任务 | PMID:20130171 | 高 |
+| LC-TH⁺ 末梢（非 VTA）是海马 dCA1 的主要 DA 来源；LC 激活可产生行为标记效应 | 光遗传 + 解剖追踪 + VTA 化学失活 | PMID:27602521 | 高（STC 捕获信号的来源澄清）|
 
 ## 连接
 
 - [[ltp]] — STC 是晚期 LTP（L-LTP）选择性诱导的关键机制；E-LTP（标签）→ L-LTP（捕获）是两阶段实现
 - [[three-factor-learning-rule]] — STC 解决了三因素规则的时间延迟问题：Hebbian 产生标签，DA-PRPs 提供捕获信号
 - [[dopamine-reward-prediction-error]] — DA 爆发触发 PRP 合成，是"捕获"的触发因素
+- [[lc-hippocampus-dopamine]] — LC-TH⁺ 末梢（非 VTA）是海马 dCA1 DA 的主要来源；LC 相位激活提供行为标记所需的 PRPs 合成信号；新颖性是主要触发条件
 - [[camkii]] — CaMKII 是突触标签的候选分子（假说；尚未证实）
 - [[hebbian-learning]] — Hebbian 激活产生标签，是 STC 的"写入"端
 - [[memory-consolidation]] — STC 是突触层面的巩固机制（类比：SWR 是系统层面的巩固机制）
@@ -102,7 +106,9 @@ PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录�
 ## 修订历史
 
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 理解三因素规则的时间整合机制 · 初始置信度：中（机制框架强，分子细节未解）
+- 2026-07-11 · 修订 rev2 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 证据表新增3行（Moncada 2007行为标记、Bethus 2010 D1/D5持续性、Takeuchi 2016 LC为主要DA来源）；连接节新增 lc-hippocampus-dopamine；key_sources 新增4个；DA 捕获信号的来源澄清（LC 主导，非 VTA）
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
+- [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]

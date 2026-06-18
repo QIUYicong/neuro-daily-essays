@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-05-30
-revision_count: 2
+updated: 2026-07-11
+revision_count: 3
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition]
-related: [neuromodulator-systems, gain-control, working-memory, ltp, memory-consolidation, dopamine-reward-prediction-error, amygdala, fear-conditioning, fear-extinction]
+related: [neuromodulator-systems, gain-control, working-memory, ltp, memory-consolidation, dopamine-reward-prediction-error, amygdala, fear-conditioning, fear-extinction, lc-hippocampus-dopamine, synaptic-tagging-capture]
 prerequisites: [synaptic-transmission, action-potential]
-opens_questions: [Q-ach-ne-03, Q-ach-ne-04]
-source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-amygdala-fear-memory]
-key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858"]
+opens_questions: [Q-ach-ne-03, Q-ach-ne-04, Q-lc-da-subtype]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-amygdala-fear-memory, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
+key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858", "PMID:27602521", "PMID:38592773", "PMID:36041433"]
 ---
 
 # 去甲肾上腺素与蓝斑系统 (Norepinephrine / Locus Coeruleus System)
@@ -46,6 +46,20 @@ key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858"
 **β1/β2 受体（Gs 偶联，主要在海马和杏仁核）**：
 - 激活 β → cAMP → PKA → 增强突触可塑性（LTP 阈值降低）
 - β 拮抗剂（普萘洛尔）可减弱情绪性记忆巩固（PTSD 治疗研究）
+
+**LC 的多巴胺共释放与海马记忆标记（2026-07-11 新增）**：
+
+传统认知中 LC 是纯去甲肾上腺素能核团。但 Takeuchi et al. 2016（PMID:27602521）证明，LC 的 TH⁺ 末梢向海马背侧 CA1（dCA1）区投射，且能**共释放多巴胺**——这些末梢是海马 DA 的主要来源（而非 VTA）。
+
+LC 多巴胺通道（DA）与去甲肾上腺素通道（NE）来自同一神经元但功能分离：
+- **NE 通道（β-AR）**：调控海马 LTP 阈值（情绪记忆）、皮层信噪比（认知）、杏仁核恐惧巩固
+- **DA 通道（D1/D5）**：触发 cAMP → PKA → CREB → PRPs 合成，实现突触标记捕获，将新颖/显著事件的 STM 升级为 LTM
+
+Kang et al. 2024（PMID:38592773）用 GRAB-DA 传感器直接测量到痕迹恐惧条件化中海马 DA 随 LC 激活升高，且 D1 阻断（非 β-AR 阻断）损害 24h 恐惧记忆——**在同一海马区域，NE 和 DA 是两条平行但目标不同的功能通道**。
+
+LC 的**新奇检测功能**：新颖环境或刺激引起 LC 强相位爆发，触发海马 dCA1 DA 释放，启动"行为标记"机制——在约 ±1h 时间窗内发生的弱学习事件因 PRPs 捕获而被升级为 LTM（Moncada & Viola 2007; Bethus et al. 2010）。这是 LC 作为"新奇探测器"功能的分子神经机制。
+
+记忆联结维度（Matos 2022，PMID:36041433）：LC→dCA1 的 D1/D5 依赖信号在约 6h 时间窗内，使接近时间的两次编码共用部分 CA1 ensemble，形成情节记忆的时间链接。
 
 **LC-杏仁核轴与恐惧记忆（2026-05-30 新增）**：
 - 蓝斑 → 基底外侧杏仁核（BLA）的 NE 投射是情绪记忆选择性巩固的关键机制
@@ -89,6 +103,10 @@ key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858"
 | NE（β 受体）增强情绪相关 LTP 和记忆 | β 阻断 + 条件恐惧 + 海马 LTP 测量 | Sara 2009 综述 + 多项原始研究 | 高 |
 | 应激时LC-NE过度激活损害消退（杏仁核过激活 + PFC相对抑制） | LC记录 + 消退行为 + NE操控 | Plas et al. 2024, PMID:38370858 (PMC10869525) | 中（最新综述，需更多原始研究验证） |
 | PFC→LC 顶-下控制 | 解剖追踪 + 电生理记录（PFC 损毁减弱LC相位响应） | Aston-Jones & Cohen 2005 综述 | 中-高 |
+| LC TH⁺ 末梢是海马 dCA1 DA 的主要来源（非 VTA）| 解剖追踪 + VTA 化学失活对照 | PMID:27602521 | 高 |
+| LC 激活引起海马 DA 升高（GRAB-DA 直接测量）| 痕迹恐惧条件化 + GRAB-DA 传感器 | PMID:38592773 | 高（直接测量）|
+| D1 阻断（非 β-AR）损害痕迹恐惧记忆 | 药理双阻断比较 | PMID:38592773 | 中-高 |
+| LC→dCA1 D1/D5 依赖通路调控记忆联结（ensemble 重叠）| DREADD + CA1 双光子成像 | PMID:36041433 | 中（需独立复验）|
 
 ## 连接
 
@@ -96,9 +114,11 @@ key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858"
 - [[acetylcholine-cortex]] — 协同调节皮层信噪比的姐妹调质系统
 - [[gain-control]] — NE 的核心功能：皮层增益控制
 - [[working-memory]] — α2A 激动剂稳定 PFC 工作记忆表征
-- [[ltp]] — β 受体降低海马 LTP 阈值（情绪记忆巩固）
-- [[memory-consolidation]] — NE 在 NREM 睡眠期间影响记忆固化过程
-- [[dopamine-reward-prediction-error]] — 同为神经调质系统，DA/NE 在奖励学习中协同
+- [[ltp]] — β 受体降低海马 LTP 阈值（情绪记忆巩固）；D1/D5 通过 PKA-CREB 诱导 L-LTP（DA 通道）
+- [[memory-consolidation]] — NE 在 NREM 睡眠期间影响记忆固化过程；LC-DA 通过突触标记选择性门控新颖事件的 LTM 形成
+- [[dopamine-reward-prediction-error]] — DA/NE 共存于 LC；NE（β-AR）和 DA（D1/D5）是来自同一核团的两条功能独立的记忆调制通道
+- [[lc-hippocampus-dopamine]] — LC-DA 海马系统（D1/D5）的专页：多巴胺共释放、行为标记、记忆联结的完整机制
+- [[synaptic-tagging-capture]] — LC-DA 提供 PRPs 合成信号（捕获方）；Hebbian 活动提供突触标签（标记方）
 - [[amygdala]] — LC-NE 投射通过 β 受体增强 BLA-LTP，强化恐惧记忆巩固；应激时 NE 过载损害 vmPFC 对杏仁核的抑制（消退受损）
 - [[fear-conditioning]] — β-NE 受体激活降低 BLA-LTP 阈值，恐惧记忆因唤醒而被优先巩固
 - [[fear-extinction]] — 应激通过 LC-NE 轴损害消退获得和表达（PFC/IL 功能被压制）
@@ -107,13 +127,16 @@ key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858"
 
 - Q-ach-ne-03：LC 的"相位/紧张"模式是否真的是离散的，还是 LC 内神经元亚群的功能连续谱？
 - Q-ach-ne-04：ACh 和 NE 在同一皮层回路中如何相互作用
+- Q-lc-da-subtype：LC 神经元中哪些亚型共释放多巴胺？分子标记（TH 高表达但 DBH 低？）？单细胞测序候选亚群？
 
 ## 修订历史
 
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《当杏仁核学会恐惧》一文 · 新增 LC-杏仁核轴在恐惧记忆巩固中的作用（β受体/BLA-LTP，闪光灯记忆机制）；应激-NE-消退受损回路（Plas 2024）；related 新增 amygdala、fear-conditioning、fear-extinction；key_sources 新增 PMID:38370858
+- 2026-07-11 · 修订 rev3 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 新增"LC 多巴胺共释放与海马记忆标记"段落（DA 通道独立性、新奇检测、记忆联结）；连接节新增 lc-hippocampus-dopamine、synaptic-tagging-capture，ltp/memory-consolidation 补充 DA 通道说明；关键证据表新增4行；related 新增 lc-hippocampus-dopamine、synaptic-tagging-capture；未解问题新增 Q-lc-da-subtype；key_sources 新增3个
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-05-30-amygdala-fear-memory]]
+- [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]

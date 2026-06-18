@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-11（文章 #79·LC多巴胺·海马记忆标记·LC-TH⁺为dCA1 DA主要来源；行为标记；记忆联结；VTA-SWR互补）
+
+**源文章**：[[2026-07-11-dopamine-lc-hippocampus-memory-tagging]] —《当蓝斑充当"新奇探测器"：LC多巴胺如何把值得记住的瞬间标记进长期记忆》
+
+**新建页面（1 页）**：
+- `concepts/lc-hippocampus-dopamine.md`：蓝斑-海马多巴胺系统；LC TH⁺ 末梢（非VTA）是海马 dCA1 DA 的主要来源（Takeuchi 2016）；D1/D5 依赖"记忆持续性"（非编码）——D1 阻断致 24h LTM 缺陷但不影响 STM（Bethus 2010）；行为标记（Moncada & Viola 2007）：新颖性→LC 相位爆发→dCA1 DA→D1/D5→PRPs→突触标记捕获→STM→LTM；记忆联结（Matos 2022）：~6h 时间窗，LC→dCA1 D1/D5 依赖，CA1 ensemble 重叠；VTA 互补角色：GRAB-DA 验证（Kang 2024），VTA 调制 SWR 空间重播（Igata 2024）；与 GC-NE 应激记忆系统互补（emerging, confidence:medium）
+
+**修订页面（5 页）**：
+- `concepts/synaptic-tagging-capture.md`（rev1→rev2）：关键证据表新增3行（Moncada 2007 行为标记、Bethus 2010 D1/D5 持续性、Takeuchi 2016 LC 主要来源）；连接节新增 lc-hippocampus-dopamine；key_sources 新增 PMID:17626208、PMID:27602521、PMID:20130171、PMID:21170088；source_articles 新增 2026-07-11
+- `concepts/dopamine-reward-prediction-error.md`（rev3→rev4）：新增"海马多巴胺来源争议：LC 主导，VTA 辅助"段落（LC vs VTA 解剖证据、GRAB-DA 直接测量、D1/D5 与 β-AR 功能分离）；Q-da-hippocampus-source 标记为"部分解答（2026-07-11）"；连接节新增 lc-hippocampus-dopamine；key_sources 新增3个；source_articles 新增
+- `concepts/norepinephrine-locus-coeruleus.md`（rev2→rev3）：新增"LC 多巴胺共释放与海马记忆标记"段落（DA/NE 平行通道独立功能、新奇检测、行为标记、记忆联结）；关键证据表新增4行；连接节新增 lc-hippocampus-dopamine、synaptic-tagging-capture；未解问题新增 Q-lc-da-subtype；key_sources 新增 PMID:27602521、PMID:38592773、PMID:36041433；source_articles 新增
+- `concepts/sharp-wave-ripples.md`（rev6→rev7）：关键证据表新增1行（Igata 2024 VTA 调制 SWR 空间重播）；Q-swr-tagging-mechanism 部分进展注释；key_sources 新增 PMID:38895442；source_articles 新增
+- `concepts/memory-consolidation.md`（rev8→rev9）：连接节新增 lc-hippocampus-dopamine 和 synaptic-tagging-capture；related/source_articles 相应更新
+
+**图谱更新**：新增 1 节点（lc-hippocampus-dopamine）、12 条边；总计 145 节点，873 边
+
+**新登记矛盾**：无
+
+**新增未解问题（2 个）**：
+- Q-lc-da-subtype（高优先级）：LC 神经元中哪些亚型共释放多巴胺？分子标记（TH 高表达但 DBH 低？）？单细胞测序候选亚群？
+- Q-lc-da-physiological-quantity（高优先级）：生理条件下 LC 激活（单次新颖事件）释放到 dCA1 的 DA 量是否足以有效激活 D1/D5 受体？GRAB-DA 峰值与 D1 Kd 比较？
+
+**Q-da-hippocampus-source 部分解答（2026-07-11）**：Takeuchi 2016（PMID:27602521）解剖追踪+VTA 化学失活表明 LC TH⁺ 末梢是 dCA1 DA 主要来源（非 VTA）；Kang 2024（PMID:38592773）GRAB-DA 直接测量确认痕迹恐惧条件化中 LC 激活引发海马 DA 升高；但 VTA→腹侧 CA1/vSub 的 DA 投射仍对奖励相关记忆发挥互补作用（Lisman & Grace 2005 框架部分保留）
+
+---
+
 ## 2026-07-10（文章 #78·记忆再巩固·GluN2B-NMDA-CaMKII-UPS 去稳定化分子链）
 
 **源文章**：[[2026-07-10-memory-reconsolidation-ptsd]] —《记忆再巩固：分子机制与创伤记忆干预》

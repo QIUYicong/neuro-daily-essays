@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-10",
-  "total_articles": 78,
+  "last_updated": "2026-07-11",
+  "total_articles": 79,
   "entries": [
     {
       "date": "2026-07-09",
@@ -4574,6 +4574,63 @@
       "mode": "long_term_curriculum",
       "article_number": 78,
       "note": "系统时钟UTC+8=2026-06-18（真实执行日期）；知识库虚拟日期2026-07-10；继承自2026-07-09（第77篇，糖皮质激素与应激记忆）；本篇填补了高优先问题 Q-gc-01（部分）；新建1个核心概念节点（memory-reconsolidation），添加15条图谱边；层级：molecular/cellular/brain-region/behavior/disease；13个来源，4个开放全文"
+    },
+    {
+      "date": "2026-07-11",
+      "title": "当蓝斑充当新奇探测器：LC多巴胺如何把值得记住的瞬间标记进长期记忆",
+      "filename": "2026-07-11-dopamine-lc-hippocampus-memory-tagging.md",
+      "wiki_pages_created": [
+        "wiki/concepts/lc-hippocampus-dopamine.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/synaptic-tagging-capture.md",
+        "wiki/concepts/dopamine-reward-prediction-error.md",
+        "wiki/concepts/norepinephrine-locus-coeruleus.md",
+        "wiki/concepts/sharp-wave-ripples.md",
+        "wiki/concepts/memory-consolidation.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "LC-TH⁺ 神经元（而非 VTA）如何通过 D1/D5→cAMP→PKA→CREB→PRPs 通路，以突触标记的分子机制将新颖/奖励事件选择性升级为长期记忆？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "多巴胺记忆系列的第二章：从 VTA-纹状体奖励强化（#34）到 LC-海马新奇记忆门控（#79）；同时作为情绪记忆系列（GC-NE-BLA, #77-#78）的对称奖励/新奇另一半；整合突触标记-捕获（STC）假说的行为层面验证（行为标记）；解答 Q-da-hippocampus-source（部分）",
+      "key_sources": [
+        "PMID:27602521",
+        "PMID:20130171",
+        "PMID:17626208",
+        "PMID:36041433",
+        "PMID:38592773",
+        "PMID:38895442",
+        "PMID:15924857",
+        "PMID:21170088",
+        "PMID:36778837"
+      ],
+      "unresolved_questions_opened": [
+        "Q-lc-da-subtype",
+        "Q-lc-da-physiological-quantity"
+      ],
+      "unresolved_questions_advanced": [
+        "Q-da-hippocampus-source"
+      ],
+      "tags": [
+        "dopamine",
+        "locus-coeruleus",
+        "hippocampus",
+        "memory-consolidation",
+        "synaptic-tagging",
+        "LTP",
+        "D1-receptor",
+        "novelty",
+        "behavioral-tagging",
+        "memory-linking"
+      ]
     }
   ],
   "layer_coverage_recent": {

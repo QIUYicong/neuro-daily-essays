@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-10（第78篇·记忆再巩固·GluN2B-NMDA-CaMKII-UPS-Shank/GKAP 去稳定化分子链；再巩固窗口消退；普萘洛尔/米非司酮临床证据）· 主题页总数：**142**（新建1页：memory-reconsolidation；修订4页：memory-consolidation rev8, fear-conditioning rev2, fear-extinction rev3, amygdala rev3；图谱144节点、861边；无新矛盾登记；Q-gc-01 已有 Phase 2a RCT 结果——当前给药方案不支持 Phase 3，靶点理论仍有效）
+> 最后更新：2026-07-11（第79篇·LC多巴胺-海马记忆标记·LC-TH⁺为dCA1 DA主要来源；D1/D5→PKA→CREB→PRPs调控记忆持续性；行为标记实验验证STC；记忆联结LC→dCA1 D1/D5依赖；VTA调制新颖环境SWR重播选择性）· 主题页总数：**143**（新建1页：lc-hippocampus-dopamine；修订5页：synaptic-tagging-capture rev2, dopamine-reward-prediction-error rev4, norepinephrine-locus-coeruleus rev3, sharp-wave-ripples rev7, memory-consolidation rev9；图谱145节点、873边；Q-da-hippocampus-source 部分解答；新增Q-lc-da-subtype、Q-lc-da-physiological-quantity）
 
 ---
 
@@ -87,7 +87,8 @@
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号 **[NEW 2026-06-07]**
 - 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；填补 hebbian-learning 悬空引用；纹状体直接实验验证 **[NEW 2026-06-07]**
-- 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题 **[NEW 2026-06-07]**
+- 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题；LC-DA（非VTA）是行为标记 PRPs 合成的主要触发者（Takeuchi 2016, Moncada 2007）**[修订 rev2 2026-07-11]**
+- 🟡 [蓝斑-海马多巴胺系统（LC-DA）](concepts/lc-hippocampus-dopamine.md) — LC TH⁺ 末梢（非VTA）是海马dCA1 DA的主要来源；D1/D5调控记忆持续性（非编码）；行为标记（新颖→LC-DA→PRPs→STC）；记忆联结（~6h时间窗，LC→dCA1 D1/D5依赖）；与GC-NE应激记忆系统互补 **[NEW 2026-07-11]**
 
 - 🔵 [三方突触](concepts/tripartite-synapse.md) — Araque 1999 框架；突触前+突触后+星形胶质细胞 PAPs 三元功能单元；双向神经元-胶质细胞信号；LTP/LTD 的三方必要性因果证明（Henneberger 2010）**[NEW 2026-07-02]**
 - 🔵 [D-丝氨酸](concepts/d-serine.md) — NMDA 受体 GluN1 协同激动剂（而非甘氨酸）；星形胶质细胞丝氨酸消旋酶合成；Ca²⁺ 依赖释放；切断 D-丝氨酸 → LTP 完全消失（Henneberger 2010）**[NEW 2026-07-02]**

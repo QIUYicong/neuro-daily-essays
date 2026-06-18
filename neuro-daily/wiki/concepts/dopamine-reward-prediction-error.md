@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-06-15
-revision_count: 3
+updated: 2026-07-11
+revision_count: 4
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
 related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding]
-key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
+key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:27602521", "PMID:38592773", "PMID:38895442"]
 ---
 
 # 多巴胺奖励预测误差 (Dopamine Reward Prediction Error, DA-RPE)
@@ -75,6 +75,7 @@ DA 响应有两个时间层次：
 - [[hebbian-learning]] — DA-RPE 将 Hebb 规则从"量化器"升级为"评分器"
 - [[ltp]] — DA D1/D5 通过 PKA-CREB 诱导 L-LTP；三因素规则在突触层面的执行
 - [[synaptic-tagging-capture]] — 突触标记假说解释了 DA 奖励信号的时间延迟如何被突触"等待"
+- [[lc-hippocampus-dopamine]] — LC（非 VTA）是海马 dCA1 DA 的主要来源；LC-DA 通过 D1/D5 实现新奇驱动的记忆巩固选择；与 VTA-RPE 通路并行但功能互补
 - [[engram-cells]] — CREB 介导的印迹细胞分配可能受 DA 信号调制（高 DA 时偏向高 CREB 细胞？）
 - [[working-memory]] — DA D1 受体通过"倒 U 型"调节 PFC 工作记忆信噪比
 - [[memory-consolidation]] — 奖励信号（DA 爆发）偏置 SWR 重播，加速与奖励相关的记忆固化
@@ -82,10 +83,26 @@ DA 响应有两个时间层次：
 - [[parkinsons-disease]] — SNc DA神经元死亡使RPE信号和基底节回路平衡同时崩溃
 - [[basal-ganglia]] — 纹状体D1/D2受体是DA-RPE信号的直接靶点，形成动作选择回路
 
+## 海马多巴胺来源争议：LC 主导，VTA 辅助（2026-07-11 更新）
+
+Q-da-hippocampus-source 问题现有重要进展：
+
+Takeuchi et al. 2016（PMID:27602521）通过光遗传 + 解剖追踪 + VTA 化学失活的三重实验，直接证明**海马 dCA1 区的 TH⁺ 末梢大多来自 LC 而非 VTA**。VTA 失活不影响 LC 激活诱导的记忆增强。Kang et al. 2024（PMID:38592773）用 GRAB-DA 传感器直接测量了恐惧条件化中海马 DA 浓度变化，证实 LC 相位激活确实引起海马 DA 升高（而非单纯 NE），且效果通过 D1 而非 β-AR 介导。
+
+**当前部分共识**：
+- LC-TH⁺ 投射是海马 dCA1 DA 的**主要**来源（高置信度，鼠类多证据）
+- VTA 的直接海马投射存在但密度低，其相对贡献在不同任务和亚区中仍待量化
+- VTA 通过 SWR 重播调制（Igata 2024，PMID:38895442）参与新颖环境记忆，但机制不同于突触标记（更偏向离线重播内容选择）
+- 海马-VTA 环路（Lisman & Grace 2005，PMID:15924857）描述的间接通路仍有意义：海马→subiculum→NAc→VP→VTA 反馈可调节 VTA 的活动，VTA 由此得知海马检测到了新颖事件
+
+**Q-da-hippocampus-source 状态**：**部分解答**（LC 为主的结论有力）；VTA 在不同海马亚区（vCA1、DG）和不同任务类型中的独立贡献仍 open。
+
+详见 [[lc-hippocampus-dopamine]] 专页。
+
 ## 未解问题
 
 - Q-da-heterogeneity：VTA DA 神经元群体的功能异质性——不同亚群编码奖励 RPE、厌恶 RPE、运动/激醒的比例及分子标记？
-- Q-da-hippocampus-source：海马 DA 的来源争议——VTA 直接投射 vs 蓝斑 DA/NE 共释放纤维的相对贡献？
+- Q-da-hippocampus-source：**部分解答（2026-07-11）**：LC-TH⁺ 是海马 dCA1 DA 主要来源（Takeuchi 2016）；VTA 通过 SWR 重播选择性辅助（Igata 2024）。残余问题：VTA 在 vCA1/DG 的独立贡献、LC DA 亚型的分子身份。
 
 ## DA-RPE 作为预测编码框架中奖励域的预测误差（2026-06-15 补充）
 
@@ -109,9 +126,11 @@ Diederen & Fletcher（2021, PMID:32338128）明确指出，多巴胺 RPE 信号�
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器：奖励预测误差如何把大脑变成世界预测器》一文 · 初始置信度：高
 - 2026-06-14 · 修订 · 基于《多巴胺的沉默与节律的失控》（PD文章）· 补充了DA的双重功能（RPE教学 vs 基底节回路调节）及PD作为DA-RPE系统崩溃的极端案例；新增关联 parkinsons-disease、basal-ganglia
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 补充了DA-RPE 与预测编码框架的整合（Diederen & Fletcher 2021）；新增关联 predictive-coding, precision-weighting；新增精神分裂症 aberrant salience 的精度失调解释
+- 2026-07-11 · 修订 rev4 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 新增"海马多巴胺来源争议"小节，部分解答 Q-da-hippocampus-source（LC 主导，VTA 辅助）；连接节新增 lc-hippocampus-dopamine；key_sources 新增3个（PMID:27602521、PMID:38592773、PMID:38895442）；source_articles 新增 2026-07-11
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
 - [[2026-06-15-predictive-coding]]
+- [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]

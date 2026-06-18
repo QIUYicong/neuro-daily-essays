@@ -1,0 +1,89 @@
+# 2026-07-11 自动执行日志
+
+**执行时间**：UTC+8 09:00（系统时钟实际日期：2026-06-18；知识库虚拟日期：2026-07-11）
+**文章编号**：#79
+**知识库分支**：main（单分支模型）
+
+---
+
+## 执行步骤摘要
+
+### Step A：读取状态文件
+- `topic_ledger.json`：上次更新 2026-07-10，文章 #78，总计 78 篇
+- `unresolved_questions.md`：高优先级 Q-da-hippocampus-source（海马 DA 主要来源）已悬挂，可供今日填充
+- `contested_claims.json`：6 个未决争议，今日无新增
+- `_graph.json`：144 节点，861 边，无悬空引用
+- `ROUTINE.md` 和 `KNOWLEDGE-BASE-DESIGN.md`：读取确认，执行流程合规
+
+### Step B：选题
+- **选定主题**：蓝斑多巴胺与海马记忆标记（LC-hippocampus dopamine memory tagging）
+- **选题理由**：(1) 直接回答高优先问题 Q-da-hippocampus-source（LC vs VTA 作为海马 DA 主要来源）；(2) 与第 77/78 篇（GC-NE 应激记忆系统）构成对称"互补通道"——LC-DA 处理新奇性/显著性，GC-NE 处理应激/情绪；(3) wiki 中 lc-hippocampus-dopamine 节点尚未建立；(4) 覆盖分子/突触/脑区/认知多层级
+- **层级**：分子/细胞/突触/脑区/全脑网络/认知
+
+### Step C：研究与写作
+- **文章**：`articles/2026-07-11-dopamine-lc-hippocampus-memory-tagging.md` — 约 5500+ 字中文神经科学文章
+- **阅读笔记**：`notes/2026-07-11-reading-notes.md` — 9 个来源逐一分析
+- **来源注册**：`sources/2026-07-11-sources.json` — 9 条来源（5 开放全文，3 摘要，1 综述）
+- **来源遵守**：未使用 Sci-Hub，未绕过付费墙，未捏造 PMID/DOI/结论，未提供医疗建议
+
+### Step D：Wiki 固结
+
+**新建页面（1 页）**：
+- `wiki/concepts/lc-hippocampus-dopamine.md`：蓝斑-海马多巴胺系统完整机制框架（emerging/medium）
+
+**修订页面（5 页）**：
+- `wiki/concepts/synaptic-tagging-capture.md`（rev1→rev2）：新增行为标记（Moncada 2007）、D1/D5 持续性（Bethus 2010）、Takeuchi 2016 LC主要来源证据；连接节新增 lc-hippocampus-dopamine
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev3→rev4）：新增"海马DA来源争议：LC主导，VTA辅助"段落；Q-da-hippocampus-source 部分解答；连接节新增 lc-hippocampus-dopamine
+- `wiki/concepts/norepinephrine-locus-coeruleus.md`（rev2→rev3）：新增"LC多巴胺共释放与海马记忆标记"段落（DA/NE平行通道、新奇检测、行为标记、记忆联结）；未解问题新增 Q-lc-da-subtype
+- `wiki/concepts/sharp-wave-ripples.md`（rev6→rev7）：新增 Igata 2024 VTA调制SWR空间重播证据；Q-swr-tagging-mechanism 部分进展
+- `wiki/concepts/memory-consolidation.md`（rev8→rev9）：连接节新增 lc-hippocampus-dopamine 和 synaptic-tagging-capture
+
+### Step E：图谱更新
+- 新增节点：`lc-hippocampus-dopamine`（1 个）
+- 新增边：12 条（双向连接到 norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, synaptic-tagging-capture, memory-consolidation, sharp-wave-ripples, ltp）
+- 图谱总计：145 节点，873 边
+- `wiki/index.md`：更新头部摘要，新增 lc-hippocampus-dopamine 词条，更新 STC 词条描述
+- `wiki/CHANGELOG.md`：新增 2026-07-11 条目
+
+### Step F：治理文件更新
+- `state/topic_ledger.json`：新增文章 #79 条目，total_articles=79
+- `state/unresolved_questions.md`：新增 Q-lc-da-subtype（高优先）、Q-lc-da-physiological-quantity（高优先）；Q-da-hippocampus-source 标注部分解答
+- `state/maturity_index.json`：新增 lc-hippocampus-dopamine 条目（emerging/medium）；更新 5 个修订页的 last_changed
+- `state/source_registry.json`：新增 9 条来源，total_sources=330
+- `state/monthly_synthesis.md`：更新本月日期/文章列表/核心主题；新增 2026-07-11 日条目
+
+### Step G：Git 提交与推送
+- 执行：`git add neuro-daily/` + `git commit` + `git push origin main`
+- 提交信息：`Add neuro daily article + wiki consolidation for 2026-07-11`
+- 作者：GIT_AUTHOR_NAME=QIUYicong, GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+
+### Step H：自查
+- 所有 wiki 声明有来源追溯（PMID/PMCID 或注明来源文章）
+- `_graph.json` 边全部指向已存在节点（验证通过）
+- index.md 和 CHANGELOG.md 已更新
+- 未修改第 78 篇及更早的已发布文章
+- 未提供医疗建议
+- 来源合规：5 开放全文，3 摘要，1 综述，无付费墙绕过
+
+---
+
+## 统计
+
+| 指标 | 值 |
+|------|-----|
+| 文章字数（估计）| ~5,500 字 |
+| 来源总数 | 9 |
+| 开放全文来源 | 5 |
+| 新建 wiki 页 | 1 |
+| 修订 wiki 页 | 5 |
+| 新增图谱节点 | 1 |
+| 新增图谱边 | 12 |
+| 更新治理文件 | 5 |
+| 新增开放问题 | 2 |
+| 解答/更新问题 | 1（Q-da-hippocampus-source 部分）|
+
+---
+
+## 执行结论
+
+本次执行成功完成所有步骤。核心产出：(1) 完整的蓝斑多巴胺-海马记忆标记中文深度文章（#79）；(2) lc-hippocampus-dopamine 新 wiki 页（覆盖解剖修正→分子通路→行为标记→记忆联结→VTA互补的完整机制）；(3) Q-da-hippocampus-source 部分解答（LC TH⁺末梢为dCA1 DA主要来源，非VTA）；(4) "记忆调质双通道"框架完成（GC-NE应激通道 + LC-DA新奇通道）。本篇将整个7月的线索（4）——情绪记忆与调质门控——扩展为双通道对称框架，为接下来覆盖前额叶对情绪调节的顶-下控制、或神经调质系统的整合综合奠定基础。

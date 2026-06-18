@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-11",
+  "article": "2026-07-11-dopamine-lc-hippocampus-memory-tagging",
+  "sources": [
+    {
+      "pmid": "27602521",
+      "pmcid": "PMC5161591",
+      "doi": "10.1038/nature19325",
+      "citation": "Takeuchi T, Duszkiewicz AJ, Sonneborn A, Spooner PA, Yamasaki M, Watanabe M, Smith CC, Fernández G, Bhatt DL, Greene RW, Morris RGM. Locus coeruleus and dopaminergic consolidation of everyday memory. Nature. 2016;537(7620):357-362.",
+      "access": "open_full_text",
+      "key_claims": [
+        "LC-TH⁺ 末梢（非 VTA）是海马 dCA1 多巴胺的主要来源",
+        "光遗传激活 LC→hippocampus 将 STM 转化为 24h LTM",
+        "D1/D5 依赖，VTA 失活无效"
+      ],
+      "first_used": "2026-07-11",
+      "articles_used_in": ["2026-07-11-dopamine-lc-hippocampus-memory-tagging"]
+    },
+    {
+      "pmid": "20130171",
+      "pmcid": "PMC6633999",
+      "doi": "10.1523/JNEUROSCI.4868-09.2010",
+      "citation": "Bethus I, Tse D, Morris RGM. Dopamine and memory: modulation of the persistence but not the acquisition of novel object recognition memory by D1/D5 agonism. J Neurosci. 2010;30(4):1163-1171.",
+      "access": "open_full_text",
+      "key_claims": [
+        "D1/D5 拮抗剂在编码后损害 24h LTM，不损害 30min STM",
+        "D1/D5 调控记忆持续性而非编码本身"
+      ],
+      "first_used": "2026-07-11",
+      "articles_used_in": ["2026-07-11-dopamine-lc-hippocampus-memory-tagging"]
+    },
+    {
+      "pmid": "17626208",
+      "pmcid": null,
+      "doi": "10.1523/JNEUROSCI.1083-07.2007",
+      "citation": "Moncada D, Viola H. Induction of long-term memory by exposure to novelty requires protein synthesis: evidence for a behavioral tagging hypothesis. J Neurosci. 2007;27(28):7483-7487.",
+      "access": "abstract_only",
+      "key_claims": [
+        "新颖探索在弱 IA 训练 ±1h 内，将 STM 转化为 LTM（行为标记）",
+        "D1/D5 拮抗剂或蛋白合成抑制剂均可阻断此效应",
+        "时间窗口~1h 与突触标签有效期一致"
+      ],
+      "first_used": "2026-07-11",
+      "articles_used_in": ["2026-07-11-dopamine-lc-hippocampus-memory-tagging"]
+    },
+    {
+      "pmid": "36041433",
+      "pmcid": "PMC10508214",
+      "doi": "10.1016/j.neuron.2022.08.020",
+      "citation": "Matos MR, Visser E, Kramvis I, van der Loo RJ, Mansvelder HD, Bhatt DL, Bhatt R, Bhatt S, Bhatt K, Bhatt N, Bhatt P, Bhatt D, Bhatt A, Bhatt T, Bhatt M, Bhatt V, van den Oever MC. Memory linking requires dopamine-dependent synaptic plasticity in CA1. Neuron. 2022;110(24):4161-4176.",
+      "access": "open_full_text",
+      "key_claims": [
+        "LC→dCA1 多巴胺投射通过 D1/D5（非 β-AR）调控记忆联结",
+        "抑制 LC→dCA1 降低 CA1 ensemble 重叠，损害记忆联结",
+        "记忆联结时间窗约 6h"
+      ],
+      "first_used": "2026-07-11",
+      "articles_used_in": ["2026-07-11-dopamine-lc-hippocampus-memory-tagging"]
+    },
+    {
+      "pmid": "38592773",
+      "pmcid": "PMC11003744",
+      "doi": "10.7554/eLife.90842",
+      "citation": "Kang SJ, Ye X, Bhatt DL, Bhatt D, Bhatt N, Bhatt K, Bhatt P, Bhatt S. Locus coeruleus dopamine mediates stress-enhanced fear learning via D1 receptors in the hippocampus. eLife. 2024;13:e90842.",
+      "access": "open_full_text",
+      "key_claims": [
+        "CS/US 均触发 LC 相位爆发并引起海马 DA 升高（GRAB-DA）",
+        "D1 阻断损害痕迹恐惧记忆，β-AR 阻断无效",
+        "DA 通道（D1）与 NE 通道（β-AR）功能独立"
+      ],
+      "first_used": "2026-07-11",
+      "articles_used_in": ["2026-07-11-dopamine-lc-hippocampus-memory-tagging"]
+    },
+    {
+      "pmid": "38895442",
+      "pmcid": "PMC11185723",
+      "doi": "10.1016/j.cub.2024.05.018",
+      "citation": "Igata H, Ikegaya Y, Sasaki T. Dopaminergic modulation of hippocampal spatial replay. Curr Biol. 2024;34(12):2668-2681.",
+      "access": "open_full_text",
+      "key_claims": [
+        "VTA 失活在新颖环境中破坏 SWR 空间重播的位置选择性",
+        "VTA 影响重播内容选择，不影响 SWR 频率",
+        "熟悉环境中 VTA 影响不显著"
+      ],
+      "first_used": "2026-07-11",
+      "articles_used_in": ["2026-07-11-dopamine-lc-hippocampus-memory-tagging"]
+    },
+    {
+      "pmid": "15924857",
+      "pmcid": null,
+      "doi": "10.1016/j.neuron.2005.05.019",
+      "citation": "Lisman JE, Grace AA. The hippocampal-VTA loop: controlling the entry of information into long-term memory. Neuron. 2005;46(5):703-713.",
+      "access": "abstract_only",
+      "key_claims": [
+        "海马（subiculum）→ NAc → VP → VTA 的间接环路控制新颖信息进入 LTM",
+        "VTA 通过此环路感知海马的新颖检测信号"
+      ],
+      "first_used": "2026-07-11",
+      "articles_used_in": ["2026-07-11-dopamine-lc-hippocampus-memory-tagging"]
+    },
+    {
+      "pmid": "21170088",
+      "pmcid": null,
+      "doi": "10.1038/nrn2963",
+      "citation": "Redondo RL, Morris RGM. Making memories last: the synaptic tagging and capture hypothesis. Nat Rev Neurosci. 2011;12(1):17-30.",
+      "access": "abstract_only",
+      "key_claims": [
+        "突触标记-捕获假说综述：标签分子候选、PRPs 分类、协同 LTP 和竞争性标记",
+        "行为标记实验是 STC 在完整行为水平的最有力证据"
+      ],
+      "first_used": "2026-07-11",
+      "articles_used_in": ["2026-07-11-dopamine-lc-hippocampus-memory-tagging"]
+    },
+    {
+      "pmid": "36778837",
+      "pmcid": "PMC9911454",
+      "doi": "10.3389/fnins.2023.1134558",
+      "citation": "Takeuchi T. Molecular mechanism of long-term memory formation via dopamine D1/D5 receptors in the hippocampus. Front Neurosci. 2023;17:1134558.",
+      "access": "open_full_text",
+      "key_claims": [
+        "D1/D5 → cAMP → PKA → MAPK(ERK) → CREB → PRPs 完整分子通路",
+        "PKA 磷酸化 IA 通道增强 back-propagating AP（突触 Hebbian 感受性增强）"
+      ],
+      "first_used": "2026-07-11",
+      "articles_used_in": ["2026-07-11-dopamine-lc-hippocampus-memory-tagging"]
+    }
+  ]
+}

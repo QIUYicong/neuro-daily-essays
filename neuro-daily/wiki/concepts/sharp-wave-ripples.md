@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-07-07
-revision_count: 6
+updated: 2026-07-11
+revision_count: 7
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
 related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -91,6 +91,7 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 | NREM睡眠微结构（NE/瞳孔状态）区隔新旧记忆重放 | CA1大规模记录 + 瞳孔追踪 | PMID:39743590 | 中（新发现） |
 | 情绪效价也在SWR期间重播 | 联合情绪学习+SWR记录 | PMID:31334590 | 中（新兴） |
 | 闭环增强 SO-纺锤波-SWR 三重耦合 → 隔天空间记忆改善（因果） | 大鼠 NREM 闭环刺激，对照组（非同步刺激）无效 | PMID:27182818 | 高（因果） |
+| VTA 失活在新颖（非熟悉）环境中破坏 SWR 空间重播位置选择性 | VTA 化学失活 + 多单元记录 + 空间解码 | PMID:38895442 | 中（新颖度依赖性分工值得关注）|
 
 ## 连接
 
@@ -125,7 +126,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - Q-swr-reverse-forward：前向重播、反向重播、新颖路径重播分别在何种条件下产生？是否对应不同的认知功能（强化 vs. 规划 vs. 泛化）？
 - Q-swr-cortical-consolidation：SWR期间海马的信号如何精确地在新皮层留下持久印记？是Schaffer-皮层的直接突触修改，还是通过下丘脑/脑干/睡眠调节因子介导？
 - Q-swr-large-vs-small：是什么决定了一次SWR的振幅（大 vs 小）？CA3群体爆发规模、CA1 PV细胞同步度、局部兴奋-抑制平衡的作用分别是什么？睡眠剥夺如何精确降低SWR振幅？
-- Q-swr-tagging-mechanism：清醒SWR是什么触发了对特定经历的选择性"标记"？DA/NE的角色？与奖励系统（VTA）的连接是必要的吗？
+- Q-swr-tagging-mechanism：清醒SWR是什么触发了对特定经历的选择性"标记"？DA/NE的角色？与奖励系统（VTA）的连接是必要的吗？**部分进展（2026-07-11）**：Igata 2024（PMID:38895442）直接证明 VTA 在新颖（非熟悉）环境中调控 SWR 重播的空间位置选择性（不影响 SWR 频率）——VTA DA 信号决定"重播哪里"。但 VTA→SWR 选择的机制（直接 DA 投射？还是间接通路？）仍未明。LC-DA 在清醒 SWR 触发中的角色仍完全未探索。
 - Q-swr-human-translation：大振幅SWR的特殊功能是否在人类中也成立？颅内电极研究能否提供类似证据？
 
 ## 修订历史
@@ -136,9 +137,11 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · related新增sleep-spindles和cortical-slow-oscillation（SWR作为SO-spindle-SWR三重奏的第三层）；key_sources扩充3个（Latchoumane 2017三重耦合因果、Staresina 2024综述、Jiang 2019人类颅内验证）；source_articles新增2026-06-19
 - 2026-07-07 · 修订 · 基于《三重协奏》文章(#75) · 新增 Maingret 2016 闭环刺激因果证据（PMID:27182818）；related 新增 so-spindle-swr-coupling；connections 增加三重耦合页面链接
+- 2026-07-11 · 修订 rev7 · 基于《当蓝斑充当"新奇探测器"》(#79) · 证据表新增1行（Igata 2024，VTA调制新颖环境SWR空间重播选择性）；Q-swr-tagging-mechanism 部分进展更新；key_sources新增PMID:38895442；source_articles新增2026-07-11
 
 ## 来源文章
 
 - [[2026-05-29-theta-oscillations-phase-coding]]
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-06-17-sharp-wave-ripples-memory-replay]]
+- [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]

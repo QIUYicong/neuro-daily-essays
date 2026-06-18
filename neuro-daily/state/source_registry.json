@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5970,9 +5970,108 @@
       "articles_used_in": [
         "2026-07-10-memory-reconsolidation-ptsd"
       ]
+    },
+    {
+      "pmid": "27602521",
+      "pmcid": "PMC5161591",
+      "doi": "10.1038/nature19325",
+      "citation": "Takeuchi T et al. Locus coeruleus and dopaminergic consolidation of everyday memory. Nature. 2016;537(7620):357-362.",
+      "access": "open_full_text",
+      "first_used": "2026-07-11",
+      "articles_used_in": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
+    },
+    {
+      "pmid": "20130171",
+      "pmcid": "PMC6633999",
+      "doi": "10.1523/JNEUROSCI.4868-09.2010",
+      "citation": "Bethus I et al. Dopamine and memory: modulation of the persistence but not the acquisition of novel object recognition memory by D1/D5 agonism. J Neurosci. 2010;30(4):1163-1171.",
+      "access": "open_full_text",
+      "first_used": "2026-07-11",
+      "articles_used_in": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
+    },
+    {
+      "pmid": "17626208",
+      "pmcid": null,
+      "doi": "10.1523/JNEUROSCI.1083-07.2007",
+      "citation": "Moncada D & Viola H. Induction of long-term memory by exposure to novelty requires protein synthesis: evidence for a behavioral tagging hypothesis. J Neurosci. 2007;27(28):7483-7487.",
+      "access": "abstract_only",
+      "first_used": "2026-07-11",
+      "articles_used_in": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
+    },
+    {
+      "pmid": "36041433",
+      "pmcid": "PMC10508214",
+      "doi": "10.1016/j.neuron.2022.08.020",
+      "citation": "Matos MR et al. Memory linking requires dopamine-dependent synaptic plasticity in CA1. Neuron. 2022;110(24):4161-4176.",
+      "access": "open_full_text",
+      "first_used": "2026-07-11",
+      "articles_used_in": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
+    },
+    {
+      "pmid": "38592773",
+      "pmcid": "PMC11003744",
+      "doi": "10.7554/eLife.90842",
+      "citation": "Kang SJ et al. Locus coeruleus dopamine mediates stress-enhanced fear learning via D1 receptors in the hippocampus. eLife. 2024;13:e90842.",
+      "access": "open_full_text",
+      "first_used": "2026-07-11",
+      "articles_used_in": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
+    },
+    {
+      "pmid": "38895442",
+      "pmcid": "PMC11185723",
+      "doi": "10.1016/j.cub.2024.05.018",
+      "citation": "Igata H et al. Dopaminergic modulation of hippocampal spatial replay. Curr Biol. 2024;34(12):2668-2681.",
+      "access": "open_full_text",
+      "first_used": "2026-07-11",
+      "articles_used_in": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
+    },
+    {
+      "pmid": "15924857",
+      "pmcid": null,
+      "doi": "10.1016/j.neuron.2005.05.019",
+      "citation": "Lisman JE & Grace AA. The hippocampal-VTA loop: controlling the entry of information into long-term memory. Neuron. 2005;46(5):703-713.",
+      "access": "abstract_only",
+      "first_used": "2026-07-11",
+      "articles_used_in": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
+    },
+    {
+      "pmid": "21170088",
+      "pmcid": null,
+      "doi": "10.1038/nrn2963",
+      "citation": "Redondo RL & Morris RGM. Making memories last: the synaptic tagging and capture hypothesis. Nat Rev Neurosci. 2011;12(1):17-30.",
+      "access": "abstract_only",
+      "first_used": "2026-07-11",
+      "articles_used_in": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
+    },
+    {
+      "pmid": "36778837",
+      "pmcid": "PMC9911454",
+      "doi": "10.3389/fnins.2023.1134558",
+      "citation": "Takeuchi T. Molecular mechanism of long-term memory formation via dopamine D1/D5 receptors in the hippocampus. Front Neurosci. 2023;17:1134558.",
+      "access": "open_full_text",
+      "first_used": "2026-07-11",
+      "articles_used_in": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
     }
   ],
-  "total_sources": 321,
+  "total_sources": 330,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -6984,5 +7083,16 @@
       ]
     }
   ],
-  "additions_2026-07-10": "记忆再巩固文章（#78）新增 10 条来源"
+  "additions_2026-07-10": "记忆再巩固文章（#78）新增 10 条来源",
+  "additions_2026-07-11": [
+    "27602521",
+    "20130171",
+    "17626208",
+    "36041433",
+    "38592773",
+    "38895442",
+    "15924857",
+    "21170088",
+    "36778837"
+  ]
 }

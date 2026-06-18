@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "levels": [
     "speculative",
     "emerging",
@@ -624,8 +624,8 @@
       "title": "尖波涟漪（SWR）",
       "status": "established",
       "confidence": "high",
-      "last_changed": "2026-06-19",
-      "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性证据（光遗传增强SWR→改善记忆）、Yang 2024清醒SWR标记功能、Giri 2024睡眠剥夺分离证据进一步巩固established地位",
+      "last_changed": "2026-07-11",
+      "change_reason": "修订 rev7（文章 #79）：VTA 调制新颖环境 SWR 空间重播选择性（Igata 2024）；Q-swr-tagging-mechanism 部分进展",
       "page": "wiki/concepts/sharp-wave-ripples.md",
       "reason": "Revised: added sleep-spindles/cortical-slow-oscillation links; triple coupling context"
     },
@@ -634,8 +634,8 @@
       "title": "记忆巩固（系统层面）",
       "status": "established",
       "confidence": "high",
-      "last_changed": "2026-06-19",
-      "change_reason": "2026-06-17: 修订3次；Robinson 2026因果充分性和Chang 2025睡眠微结构新证据补充",
+      "last_changed": "2026-07-11",
+      "change_reason": "修订 rev9（文章 #79）：连接节新增 lc-hippocampus-dopamine 和 synaptic-tagging-capture（突触层面巩固门控）",
       "page": "wiki/concepts/memory-consolidation.md",
       "reason": "Revised: deepened SO-spindle mechanism with thalamocortical circuit detail; Latchoumane 2017 causal evidence"
     },
@@ -940,6 +940,15 @@
       "revision_count": 1,
       "last_changed": "2026-07-08",
       "change_reason": "新建（文章 #76，2026-07-08）。SCN 为主时钟的证据：（1）双侧 SCN 消融→节律全面丧失（多物种独立重复）；（2）胚胎 SCN 移植→节律恢复且周期由供体决定（Ralph 1990, PMID:1546306, Science）；（3）ipRGC→RHT→SCN 光输入通路由黑视素发现（Berson 2002, PMID:11805301）和多项解剖+因果实验确立。定为 established/high。"
+    },
+    {
+      "slug": "lc-hippocampus-dopamine",
+      "page": "wiki/concepts/lc-hippocampus-dopamine.md",
+      "status": "emerging",
+      "confidence": "medium",
+      "revision_count": 1,
+      "last_changed": "2026-07-11",
+      "change_reason": "新建（文章 #79，2026-07-11）。LC-TH⁺ 末梢为海马 dCA1 主要 DA 来源由光遗传+解剖追踪+VTA 失活对照确立（Takeuchi 2016，Nature）；D1/D5 调控记忆持续性（非编码）有时间点药理分离证据（Bethus 2010）；GRAB-DA 直接测量 LC 激活引起海马 DA 升高（Kang 2024）；行为标记在完整行为层面验证 STC（Moncada 2007）。但 LC-DA 共释放亚型、生理性释放量化、人类证据缺乏，定为 emerging/medium。"
     }
   ],
   "embodied-semantics": {

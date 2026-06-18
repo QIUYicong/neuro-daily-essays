@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-10",
-  "node_count": 144,
-  "edge_count": 861,
+  "updated": "2026-07-11",
+  "node_count": 145,
+  "edge_count": 873,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1317,6 +1317,19 @@
       "status": "mainstream",
       "confidence": "medium-high",
       "page": "wiki/concepts/memory-reconsolidation.md"
+    },
+    {
+      "id": "lc-hippocampus-dopamine",
+      "label": "蓝斑-海马多巴胺系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "file": "wiki/concepts/lc-hippocampus-dopamine.md",
+      "revision_count": 1,
+      "source_articles": [
+        "2026-07-11-dopamine-lc-hippocampus-memory-tagging"
+      ]
     }
   ],
   "edges": [
@@ -6053,6 +6066,78 @@
       "to": "memory-reconsolidation",
       "type": "regulates",
       "note": "NE 通过 β-AR 驱动再稳定化；普萘洛尔在人类中消除情绪恐惧记忆但保留陈述性内容（Kindt 2009）"
+    },
+    {
+      "from": "lc-hippocampus-dopamine",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "part_of",
+      "note": "LC-DA 系统是 LC-NE 系统的 DA 功能通道；共源于 LC TH⁺ 神经元"
+    },
+    {
+      "from": "lc-hippocampus-dopamine",
+      "to": "dopamine-reward-prediction-error",
+      "type": "parallel_system",
+      "note": "LC-DA（新奇记忆门控）与 VTA-DA（RPE 奖励学习）是两条平行的多巴胺记忆通路"
+    },
+    {
+      "from": "lc-hippocampus-dopamine",
+      "to": "synaptic-tagging-capture",
+      "type": "provides_signal_for",
+      "note": "LC-DA 提供 PRPs 合成的触发信号（捕获方）；Hebbian 活动产生突触标签（标记方）"
+    },
+    {
+      "from": "lc-hippocampus-dopamine",
+      "to": "memory-consolidation",
+      "type": "gate",
+      "note": "LC-DA 通过 D1/D5→PRPs 门控哪些 E-LTP 升级为 L-LTP；是突触层面的记忆巩固选择器"
+    },
+    {
+      "from": "lc-hippocampus-dopamine",
+      "to": "sharp-wave-ripples",
+      "type": "interacts_with",
+      "note": "VTA-DA（不同于 LC-DA）调制新颖环境中 SWR 空间重播的位置选择性（Igata 2024）"
+    },
+    {
+      "from": "lc-hippocampus-dopamine",
+      "to": "ltp",
+      "type": "mechanism_for",
+      "note": "D1/D5 → cAMP → PKA → CREB → PRPs 实现 E-LTP → L-LTP 转化"
+    },
+    {
+      "from": "lc-hippocampus-dopamine",
+      "to": "memory-linking",
+      "type": "mechanism_for",
+      "note": "LC→dCA1 D1/D5 依赖信号在 ~6h 时间窗内调控 CA1 ensemble 重叠（记忆联结）"
+    },
+    {
+      "from": "lc-hippocampus-dopamine",
+      "to": "hippocampal-circuit",
+      "type": "targets",
+      "note": "LC TH⁺ 末梢的主要靶点是海马背侧 CA1（dCA1）"
+    },
+    {
+      "from": "lc-hippocampus-dopamine",
+      "to": "three-factor-learning-rule",
+      "type": "implements",
+      "note": "LC-DA 作为第三因素，在 dCA1 突触实现 pre × post × DA 型三因素学习规则"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "lc-hippocampus-dopamine",
+      "type": "contains",
+      "note": "LC-DA 通道是 LC 系统的 DA 功能组件"
+    },
+    {
+      "from": "synaptic-tagging-capture",
+      "to": "lc-hippocampus-dopamine",
+      "type": "depends_on",
+      "note": "STC 的 PRP 捕获信号在海马由 LC-DA（非 VTA-DA）主要提供"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "lc-hippocampus-dopamine",
+      "type": "gated_by",
+      "note": "LC-DA-STC 是突触层面的巩固门控；决定哪些突触被选择性巩固"
     }
   ],
   "dangling_references": [

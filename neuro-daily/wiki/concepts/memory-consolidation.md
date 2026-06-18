@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-07-10
-revision_count: 8
+updated: 2026-07-11
+revision_count: 9
 dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker, memory-reconsolidation]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker, memory-reconsolidation, lc-hippocampus-dopamine, synaptic-tagging-capture]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-rem-sleep-role, Q-replay-human-translation]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-07-10-memory-reconsolidation-ptsd]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
 key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710"]
 ---
 
@@ -161,6 +161,8 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 - [[circadian-clock]] — 分子时钟直接调控 GluA1 表达和 LTP 阈值；BMAL1 KO 损害学习
 - [[scn-circadian-pacemaker]] — SCN 编排睡眠时序，决定 NREM/REM 在一夜中的分布，间接决定哪类记忆优先被处理
 - [[memory-reconsolidation]] — 再巩固是系统巩固"永久稳定"假设的例外：提取使巩固后记忆重新进入不稳定、蛋白合成依赖态
+- [[lc-hippocampus-dopamine]] — LC-DA 系统是突触层面记忆巩固的门控信号：D1/D5 → PKA → CREB → PRPs 决定哪些经历的 E-LTP 被升级为 L-LTP（与系统巩固的 SWR-皮层转写互补，分别作用于突触和网络层面）
+- [[synaptic-tagging-capture]] — 突触标记-捕获假说是系统巩固的突触层面机制：Hebbian 活动留下标签，LC-DA 提供 PRPs 捕获信号；行为标记实验是其行为层面验证
 
 ## 未解问题
 
@@ -197,9 +199,11 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-07-07 · 修订 rev6 · 基于《三重协奏》(#75) · 新增 so-spindle-swr-coupling、shy-hypothesis 两个 related 节点；证据表新增2行；Q-shy-vs-active-consolidation 部分解答
 - 2026-07-10 · 修订 rev8 · 基于《记忆再巩固》(#78) · 当前理解节新增"第三维：再巩固"段落（再巩固打破"巩固即密封"的教条，Nader 2000；提取诱发的动态去稳定化→再稳定化循环）；连接节新增 memory-reconsolidation；source_articles 新增 2026-07-10
 - 2026-07-08 · 修订 rev7 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对记忆巩固的时间门控"小节（LTP 昼夜波动、BMAL1 KO 学习损伤、SCN 萎缩→记忆功能下降的 AD 连接）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节扩充2条；key_sources 新增 PMID:12198538
+- 2026-07-11 · 修订 rev9 · 基于《当蓝斑充当"新奇探测器"》(#79) · 连接节新增 lc-hippocampus-dopamine（突触层面巩固门控）和 synaptic-tagging-capture（突触标记捕获机制）；related 新增两个节点；source_articles 新增 2026-07-11
 
 ## 来源文章
 
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-05-31-rem-sleep-emotional-memory]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
+- [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]
