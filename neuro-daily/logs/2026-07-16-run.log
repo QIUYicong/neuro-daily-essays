@@ -113,6 +113,6 @@
 
 ## 提交信息
 
-**commit hash**：见 git push 输出
+**commit hash**：6c967ef
 **branch**：main
-**push 状态**：✅ 成功
+**push 状态**：✅ 成功（9ab0739..6c967ef main → main）
