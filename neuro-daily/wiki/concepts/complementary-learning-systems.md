@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-24
-updated: 2026-07-12
-revision_count: 2
+updated: 2026-07-16
+revision_count: 3
 dimensions: [cognition, whole-brain-network, behavior]
-related: [hippocampal-circuit, memory-consolidation, sharp-wave-ripples, pattern-separation, pattern-completion, attractor-network, default-mode-network, td-learning, dopamine-reward-prediction-error, model-based-model-free]
+related: [hippocampal-circuit, memory-consolidation, sharp-wave-ripples, pattern-separation, pattern-completion, attractor-network, default-mode-network, td-learning, dopamine-reward-prediction-error, model-based-model-free, hippocampal-replay, experience-replay-buffer]
 prerequisites: [hippocampal-circuit, memory-consolidation, ltp]
-opens_questions: []
-source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-12-dopamine-td-learning-brain-ai]
-key_sources: ["PMID:7704110", "PMID:35368306", "PMID:27315762", "PMID:31003893"]
+opens_questions: [Q-cls-generative-replay-oneshotlearning]
+source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-12-dopamine-td-learning-brain-ai, 2026-07-16-hippocampal-replay-experience-replay]
+key_sources: ["PMID:7704110", "PMID:35368306", "PMID:27315762", "PMID:31003893", "PMID:7624455", "PMID:30349103", "PMID:38547293", "PMID:32792531"]
 ---
 
 # 互补学习系统 (Complementary Learning Systems, CLS)
@@ -105,3 +105,4 @@ Botvinick et al.（2019, PMID:31003893）进一步提出 **Meta-RL 假说**：�
 
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 建立 CLS 理论页面，连接海马快学习、新皮层慢学习、SWR 重放和深度学习经验回放的统一框架 · 初始置信度：中（框架获广泛支持但某些预测仍有争议，如记忆转移的精确机制）
 - 2026-07-12 · 修订 rev2 · 基于《奖励信号的双重发现》第 80 篇文章 · 新增 Kumaran, Hassabis & McClelland 2016 更新（情景记忆指导行动 + 强化学习与情景记忆的接口）；新增 Botvinick 2019 Meta-RL 假说（DA-TD 训练 PFC-RNN 成为快速推断系统）；新增与 td-learning、dopamine-reward-prediction-error、model-based-model-free 的关联
+- 2026-07-16 · 修订 rev3 · 基于《记忆的时光机》（#84）· 新增三阶段回放结构（Yang et al. 2024, PMID:38547293：清醒 SWR 选择 → 睡眠 SWR 固化）；新增 Mattar-Daw Need×Gain 规范化理论（PMID:30349103）作为 CLS 回放内容选择的定量框架；新增 van de Ven et al. 2020 生成回放（PMID:32792531）作为 CLS 在 AI 系统的最接近工程实现；新增 hippocampal-replay 和 experience-replay-buffer 关联；更新 opens_questions

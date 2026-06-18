@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-15",
+  "updated": "2026-07-16",
   "node_count": 154,
   "edge_count": 912,
   "edge_types": [
@@ -1411,6 +1411,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/transformer-self-attention.md"
+    },
+    {
+      "id": "hippocampal-replay",
+      "title": "海马回放",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/hippocampal-replay.md"
+    },
+    {
+      "id": "experience-replay-buffer",
+      "title": "经验回放缓冲区（AI）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/experience-replay-buffer.md"
     }
   ],
   "edges": [
@@ -6453,6 +6471,66 @@
       "to": "transformer-self-attention",
       "type": "related",
       "note": "同属脊柱12「大脑-AI深层算法比较」系列"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "complementary-learning-systems",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "hippocampal-replay",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "experience-replay-buffer",
+      "type": "related"
+    },
+    {
+      "from": "experience-replay-buffer",
+      "to": "hippocampal-replay",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "td-learning",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "place-cells",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "synaptic-tagging-capture",
+      "type": "related"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "so-spindle-swr-coupling",
+      "type": "related"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "hippocampal-replay",
+      "type": "supports"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "experience-replay-buffer",
+      "type": "related"
     }
   ],
   "dangling_references": [

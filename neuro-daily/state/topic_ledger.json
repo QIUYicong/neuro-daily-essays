@@ -4948,6 +4948,63 @@
         "behavioral-tagging",
         "memory-linking"
       ]
+    },
+    {
+      "date": "2026-07-16",
+      "title": "记忆的时光机：海马回放如何重演昨天以学习明天",
+      "filename": "2026-07-16-hippocampal-replay-experience-replay.md",
+      "wiki_pages_created": [
+        "wiki/concepts/hippocampal-replay.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/complementary-learning-systems.md",
+        "wiki/concepts/sharp-wave-ripples.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "清醒期 SWR 如何通过 Need×Gain 规范化选择值得固化的经历，反向回放如何实现 TD 信用分配，以及这三阶段结构（θ 编码→清醒选择→睡眠固化）如何映射到 DQN 经验回放缓冲区的计算等价与非等价之处？",
+      "layer": [
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "大脑-AI 比较系列第五篇（#84）：从 TD 学习（#80）→ 预测编码/VAE（#81）→ CNN-视觉皮层（#82）→ 注意力/Transformer（#83）→ 海马回放/经验回放（本篇）；同时连接记忆巩固系列（SWR #49, 睡眠 SO-Spindle-SWR #75）和 LC-DA 记忆标记（#79）形成完整叙事弧",
+      "key_sources": [
+        "PMID:38547293",
+        "PMID:30349103",
+        "PMID:33443144",
+        "PMID:7624455",
+        "PMID:27315762",
+        "PMID:16474382",
+        "PMID:17828259",
+        "PMID:32792531",
+        "PMID:40264710"
+      ],
+      "unresolved_questions_opened": [
+        "Q-cls-generative-replay-oneshotlearning",
+        "Q-replay-planning-mechanism"
+      ],
+      "unresolved_questions_advanced": [
+        "Q-swr-tagging-mechanism"
+      ],
+      "tags": [
+        "hippocampal-replay",
+        "sharp-wave-ripples",
+        "experience-replay",
+        "complementary-learning-systems",
+        "catastrophic-forgetting",
+        "temporal-credit-assignment",
+        "forward-replay",
+        "reverse-replay",
+        "memory-consolidation",
+        "DQN",
+        "reinforcement-learning",
+        "generative-replay",
+        "knowledge-distillation"
+      ]
     }
   ],
   "layer_coverage_recent": {

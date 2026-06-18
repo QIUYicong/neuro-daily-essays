@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-07-11
-revision_count: 7
+updated: 2026-07-16
+revision_count: 8
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
 related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay]
 key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442"]
 ---
 
@@ -138,6 +138,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-06-19 · 修订 · 基于《当大脑钟声响起》文章 · related新增sleep-spindles和cortical-slow-oscillation（SWR作为SO-spindle-SWR三重奏的第三层）；key_sources扩充3个（Latchoumane 2017三重耦合因果、Staresina 2024综述、Jiang 2019人类颅内验证）；source_articles新增2026-06-19
 - 2026-07-07 · 修订 · 基于《三重协奏》文章(#75) · 新增 Maingret 2016 闭环刺激因果证据（PMID:27182818）；related 新增 so-spindle-swr-coupling；connections 增加三重耦合页面链接
 - 2026-07-11 · 修订 rev7 · 基于《当蓝斑充当"新奇探测器"》(#79) · 证据表新增1行（Igata 2024，VTA调制新颖环境SWR空间重播选择性）；Q-swr-tagging-mechanism 部分进展更新；key_sources新增PMID:38895442；source_articles新增2026-07-11
+- 2026-07-16 · 修订 rev8 · 基于《记忆的时光机》(#84) · 新增 Mattar-Daw Need×Gain 规范化理论（PMID:30349103）：SWR 回放内容的前向/反向方向和时机由 Need（未来访问频率）× Gain（策略改善幅度）决定，统一解释 6 条经验规律；新增 hippocampal-replay wiki 页（本页 implements [[hippocampal-replay]]）；source_articles 新增 2026-07-16
 
 ## 来源文章
 
@@ -145,3 +146,4 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-06-17-sharp-wave-ripples-memory-replay]]
 - [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]
+- [[2026-07-16-hippocampal-replay-experience-replay]]

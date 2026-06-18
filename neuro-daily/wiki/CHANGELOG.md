@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-16（文章 #84·海马回放·经验回放·课程脊柱 12 第五篇）
+
+**源文章**：[[2026-07-16-hippocampal-replay-experience-replay]] —《记忆的时光机：海马回放如何重演昨天以学习明天》
+
+**新建页面（1）**：
+- `concepts/hippocampal-replay.md`（海马回放）🟢 established — Yang 2024 三阶段结构（θ 编码→清醒 SWR 选择→睡眠 SWR 固化）；Mattar-Daw 2018 Need×Gain 规范化理论；Foster 2006/Diba 2007 前向/反向回放；Igata 2021 未经历路径的回放；连接 sharp-wave-ripples, place-cells, complementary-learning-systems, td-learning, experience-replay-buffer
+
+**修订页面（2）**：
+- `concepts/complementary-learning-systems.md` rev3 — 新增三阶段回放结构（Yang 2024）；新增 Mattar-Daw Need×Gain 理论；新增 van de Ven 2020 生成回放；新增 hippocampal-replay / experience-replay-buffer 关联；key_sources +4
+- `concepts/sharp-wave-ripples.md` rev8 — 新增 Mattar-Daw Need×Gain 规范化理论（前向/反向方向由 Need×Gain 决定）；source_articles + 2026-07-16；修订历史新增一行
+
+**矛盾登记（0）**：无新矛盾
+
+**新增开放问题**：
+- `Q-cls-generative-replay-oneshotlearning`：人工海马（VAE）如何支持 one-shot 学习同时避免自身灾难性遗忘？
+- `Q-replay-planning-mechanism`：海马"从未经历过的路径"的内部生成机制——CA3 循环动力学泛化还是需要前额叶输入？
+
+**新增悬空引用（需补）**：
+- `experience-replay-buffer`（AI 侧经验回放缓冲区，需建独立页面）
+- `temporal-credit-assignment`（时间信用分配，需建独立页面）
+- `knowledge-distillation`（知识蒸馏，可能并入 complementary-learning-systems 或建独立页面）
+
+**图谱**：156 节点，924 边（+2 节点，+12 边）
+
+---
+
 ## 2026-07-15（文章 #83·Transformer 自注意力·大脑注意回路类比·课程脊柱 12 第四篇）
 
 **源文章**：[[2026-07-15-brain-attention-transformer-qkv]] —《同一个算法，两种实现：大脑注意回路与 Transformer 自注意力的深层对话》

@@ -6360,6 +6360,150 @@
       "articles_used_in": [
         "2026-07-15-brain-attention-transformer-qkv"
       ]
+    },
+    {
+      "pmid": "38547293",
+      "doi": "10.1126/science.adk8261",
+      "title": "Selection of experience for memory by hippocampal sharp wave ripples",
+      "year": 2024,
+      "used_in": [
+        "2026-07-16-hippocampal-replay-experience-replay"
+      ],
+      "open_access": true,
+      "aspects": [
+        "SWR-selection",
+        "awake-replay",
+        "memory-consolidation",
+        "representational-drift"
+      ]
+    },
+    {
+      "pmid": "30349103",
+      "pmcid": "PMC6203620",
+      "doi": "10.1038/s41593-018-0232-z",
+      "title": "Prioritized memory access explains planning and hippocampal replay",
+      "year": 2018,
+      "used_in": [
+        "2026-07-16-hippocampal-replay-experience-replay"
+      ],
+      "open_access": true,
+      "aspects": [
+        "hippocampal-replay",
+        "need-gain-theory",
+        "forward-replay",
+        "reverse-replay",
+        "planning"
+      ]
+    },
+    {
+      "pmid": "27315762",
+      "doi": "10.1016/j.tics.2016.05.004",
+      "title": "What Learning Systems do Intelligent Agents Need? Complementary Learning Systems Theory Updated",
+      "year": 2016,
+      "used_in": [
+        "2026-07-16-hippocampal-replay-experience-replay"
+      ],
+      "open_access": false,
+      "aspects": [
+        "CLS-update",
+        "episodic-control",
+        "RL-memory-interface"
+      ]
+    },
+    {
+      "pmid": "16474382",
+      "title": "Reverse replay of behavioural sequences in hippocampal place cells during the awake state",
+      "year": 2006,
+      "used_in": [
+        "2026-07-16-hippocampal-replay-experience-replay"
+      ],
+      "open_access": false,
+      "aspects": [
+        "reverse-replay",
+        "awake-replay",
+        "place-cells"
+      ]
+    },
+    {
+      "pmid": "17828259",
+      "doi": "10.1038/nn1961",
+      "title": "Forward and reverse hippocampal place-cell sequences during ripples",
+      "year": 2007,
+      "used_in": [
+        "2026-07-16-hippocampal-replay-experience-replay"
+      ],
+      "open_access": false,
+      "aspects": [
+        "forward-replay",
+        "reverse-replay",
+        "SWR",
+        "place-cells"
+      ]
+    },
+    {
+      "doi": "10.1038/nature14236",
+      "title": "Human-level control through deep reinforcement learning",
+      "year": 2015,
+      "used_in": [
+        "2026-07-16-hippocampal-replay-experience-replay"
+      ],
+      "open_access": true,
+      "aspects": [
+        "DQN",
+        "experience-replay",
+        "deep-RL",
+        "Atari"
+      ]
+    },
+    {
+      "pmid": "32792531",
+      "pmcid": "PMC7426273",
+      "doi": "10.1038/s41467-020-17866-2",
+      "title": "Brain-inspired replay for continual learning with artificial neural networks",
+      "year": 2020,
+      "used_in": [
+        "2026-07-16-hippocampal-replay-experience-replay"
+      ],
+      "open_access": true,
+      "aspects": [
+        "generative-replay",
+        "catastrophic-forgetting",
+        "continual-learning",
+        "VAE"
+      ]
+    },
+    {
+      "pmid": "33443144",
+      "pmcid": "PMC7817193",
+      "doi": "10.1073/pnas.2011266118",
+      "title": "Prioritized experience replays on a hippocampal predictive map for learning",
+      "year": 2021,
+      "used_in": [
+        "2026-07-16-hippocampal-replay-experience-replay"
+      ],
+      "open_access": true,
+      "aspects": [
+        "prioritized-replay",
+        "reward-locations",
+        "novel-path-replay",
+        "SWR-disruption"
+      ]
+    },
+    {
+      "pmid": "40264710",
+      "doi": "10.3389/fncom.2025.1595369",
+      "title": "Editorial: Hippocampal function and reinforcement learning",
+      "year": 2025,
+      "used_in": [
+        "2026-07-16-hippocampal-replay-experience-replay"
+      ],
+      "open_access": true,
+      "aspects": [
+        "CA3-simulator",
+        "CA1-evaluator",
+        "Dyna-RL",
+        "HPC-RL"
+      ]
     }
   ],
   "total_sources": 330,

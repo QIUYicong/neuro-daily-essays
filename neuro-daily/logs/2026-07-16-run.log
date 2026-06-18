@@ -1,0 +1,118 @@
+# 每日运行日志 — 2026-07-16
+
+**运行时间**：2026-06-18（系统时间，日期漂移已知，继续沿用系列日期 2026-07-16）
+**分支**：main
+**文章编号**：#84
+**状态**：✅ 完成
+
+---
+
+## 运行摘要
+
+| 步骤 | 状态 | 备注 |
+|------|------|------|
+| 同步 main（git pull）| ✅ | Fast-forward，拉取了 2026-07-12–07-15 四篇文章 |
+| 读取 ROUTINE.md / KNOWLEDGE-BASE-DESIGN.md | ✅ | |
+| 读取状态文件（topic_ledger, unresolved_questions, contested_claims）| ✅ | |
+| 选题 | ✅ | 大脑-AI比较系列第5篇：海马回放与经验回放 |
+| 文献检索（PubMed / PMC）| ✅ | 12 个来源，5 篇开放全文 |
+| 文章写作 | ✅ | 约 5,000 字，3000-6000 字规范内 |
+| 笔记文件 | ✅ | notes/2026-07-16-reading-notes.md |
+| 来源文件 | ✅ | sources/2026-07-16-sources.json |
+| wiki 固结 | ✅ | 新建 1 页，修订 2 页 |
+| _graph.json 更新 | ✅ | 156 节点，924 边（+2 节点，+12 边）|
+| CHANGELOG.md 更新 | ✅ | |
+| topic_ledger.json 更新 | ✅ | 总条目：67 |
+| unresolved_questions.md 更新 | ✅ | 新增 2 个问题，1 个部分进展更新 |
+| source_registry.json 更新 | ✅ | 总来源：359 |
+| monthly_synthesis.md 更新 | ✅ | |
+| git commit | ✅ | 见下方 commit hash |
+| git push | ✅ | origin main |
+
+---
+
+## 选题过程
+
+**日期确认**：系统日期为 2026-06-18（UTC+8），与仓库实际进度存在持续漂移。2026-06-18 的文章已存在（#32），之前的运行已将系列推进至 2026-07-15（#83）。本次运行继续延续 2026-07-16（#84）。
+
+**选题依据**：
+- 最近 4 篇均为大脑-AI 比较系列（#80-83：TD 学习、预测编码、CNN-视觉皮层、注意力-Transformer）
+- 自然延续：海马回放 ↔ 经验回放缓冲区（课程脊柱 12 第 5 篇）
+- 同时整合记忆巩固系列（#75 SO-Spindle-SWR，#79 LC-DA 记忆标记）
+- 高优先级 unresolved questions（Q-swr-tagging-mechanism）的相关新证据（Yang 2024）
+- 层级：microcircuit/brain-region/whole-brain-network/behavior/cognition（与前 4 篇 cognition/methods/AI 主层级不同，符合避免连续同层级要求）
+
+---
+
+## 文献检索记录
+
+**搜索词**：
+1. "hippocampal replay experience replay reinforcement learning complementary learning systems PubMed 2024 2025"
+2. "sharp wave ripples memory replay offline reactivation Mattar Daw prioritized replay neuroscience"
+3. "Mattar Daw 2018 prioritized memory access explains planning hippocampal replay Nature Neuroscience PMID"
+4. "McClelland McNaughton O'Reilly 1995 complementary learning systems hippocampus neocortex catastrophic interference PMID"
+5. "Science 2024 selection of experience for memory by hippocampal sharp wave ripples PMID DOI authors"
+6. "Mnih 2015 DQN human-level control through deep reinforcement learning Nature experience replay PMID DOI"
+7. "awake replay hippocampus 2025 Trends in Neurosciences off-task functions forward reverse replay PMID"
+
+**采用来源（12 个）**：
+- PMID:7624455 — McClelland 1995 CLS（摘要）
+- PMID:16474382 — Foster & Wilson 2006 反向回放（摘要）
+- PMID:17828259 — Diba & Buzsáki 2007 前向/反向回放（摘要）
+- DOI:10.1038/nature14236 — Mnih 2015 DQN（摘要）
+- PMID:27315762 — Kumaran 2016 CLS 更新（摘要）
+- PMID:30349103 — Mattar & Daw 2018（**开放全文 PMC6203620**）
+- PMID:32792531 — van de Ven 2020（**开放全文 PMC7426273**）
+- PMID:33443144 — Igata 2021（**开放全文 PMC7817193**）
+- PMID:38547293 — Yang et al. 2024（**开放全文 PMC11068097**）
+- PMID:40264710 — Daou & Lee 2025（**开放全文 PMC12011858**）
+- PMID:30303758 — Cazé 2018 综述（摘要）
+- DOI:10.1145/122344.122377 — Sutton 1991 Dyna（摘要/二手）
+
+**排除**：
+- biorxiv 预印本（Ventral Striatal Dopamine 2025 bioRxiv:2025.07.24）：尚未发表，用于背景信息但未纳入正式引用
+- Trends in Neurosciences 2025 awake replay review：页面返回 403 Forbidden，无法访问全文
+
+---
+
+## wiki 固结记录
+
+**新建**（1 页）：
+- `wiki/concepts/hippocampal-replay.md`（海马回放，established, confidence: high）
+
+**修订**（2 页）：
+- `wiki/concepts/complementary-learning-systems.md` rev2→rev3：新增 Yang 2024 三阶段结构、Mattar-Daw Need×Gain 理论、van de Ven 2020 生成回放；新增 hippocampal-replay/experience-replay-buffer 关联
+- `wiki/concepts/sharp-wave-ripples.md` rev7→rev8：新增 Mattar-Daw Need×Gain 规范化理论注释；新增 source_articles 条目
+
+**矛盾检查**：
+- 无新矛盾。Yang 2024 的三阶段结构与既有 sharp-wave-ripples 页面的内容一致（该页面已收录 PMID:38547293，但未涉及"三阶段"框架这一解读）
+- Mattar-Daw 2018 与既有 td-learning 页面的 TD 信用分配主张一致，反向回放=TD 反向传播是已知隐含主张的显式化，无冲突
+
+**新增悬空引用**：
+- `experience-replay-buffer`（未创建，AI 侧概念）
+- `temporal-credit-assignment`（未创建）
+- `knowledge-distillation`（未创建）
+
+---
+
+## 图谱变更
+
+- 节点：154 → 156（+hippocampal-replay, +experience-replay-buffer）
+- 边：912 → 924（+12 条新边）
+
+---
+
+## 失败与限制
+
+1. Trends in Neurosciences 2025 awake replay review 403 Forbidden，未能获取全文
+2. Diba & Buzsáki 2007 原文未开放，仅用摘要
+3. McClelland 1995 原文未开放，仅用摘要
+4. biorxiv 2025.07.24 预印本未收录（尚未同行评审）
+
+---
+
+## 提交信息
+
+**commit hash**：见 git push 输出
+**branch**：main
+**push 状态**：✅ 成功
