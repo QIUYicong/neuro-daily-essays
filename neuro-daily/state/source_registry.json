@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6982,7 +6982,112 @@
       "used_in": [
         "2026-07-09"
       ]
+    },
+    {
+      "pmid": "20962768",
+      "pmcid": "PMC3007169",
+      "title": "Dissociable roles of prelimbic and infralimbic cortices, ventral hippocampus, and basolateral amygdala in the expression and extinction of conditioned fear",
+      "authors_short": "Sierra-Mercado, Padilla-Coreano, Quirk",
+      "journal": "Neuropsychopharmacology",
+      "year": 2011,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["PL/IL functional dissociation", "muscimol inactivation", "fear expression vs extinction memory", "ventral hippocampus gating"]
+    },
+    {
+      "pmid": "17882236",
+      "pmcid": "PMC2668714",
+      "title": "Neural mechanisms of extinction learning and retrieval",
+      "authors_short": "Quirk, Mueller",
+      "journal": "Neuropsychopharmacology",
+      "year": 2008,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["ITC architecture review", "three-stage extinction model", "NMDA/BDNF/DCS molecular mechanisms", "IL→ITC circuit"]
+    },
+    {
+      "pmid": "24673881",
+      "title": "Ventromedial prefrontal cortex is critical for the regulation of amygdala activity in humans",
+      "authors_short": "Motzkin et al.",
+      "journal": "Biological Psychiatry",
+      "year": 2015,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["vmPFC lesion → amygdala disinhibition", "human fMRI lesion study n=4", "functional connectivity increase"]
+    },
+    {
+      "pmid": "17217927",
+      "title": "Recall of fear extinction in humans activates the ventromedial prefrontal cortex and hippocampus in concert",
+      "authors_short": "Milad et al.",
+      "journal": "Biological Psychiatry",
+      "year": 2007,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["vmPFC+hippocampus co-activation during extinction recall", "human fMRI", "extinction memory quality prediction"],
+      "access": "abstract only"
+    },
+    {
+      "pmid": "22318762",
+      "title": "Resting amygdala and medial prefrontal metabolism predicts functional activation of the fear extinction circuit",
+      "authors_short": "Linnman et al.",
+      "journal": "American Journal of Psychiatry",
+      "year": 2012,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["baseline amygdala metabolism predicts extinction circuit activation", "PET+fMRI", "individual differences biomarker"]
+    },
+    {
+      "pmid": "29734226",
+      "title": "Functional Neuroanatomy of Emotion and Its Regulation in PTSD",
+      "authors_short": "Fitzgerald, DiGangi, Phan",
+      "journal": "Harvard Review of Psychiatry",
+      "year": 2018,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["PTSD dual dysfunction framework (amygdala hyperactivation + PFC hypoactivation)", "20-year neuroimaging synthesis"]
+    },
+    {
+      "pmid": "37480845",
+      "title": "A cortico-amygdala neural substrate for endocannabinoid modulation of fear extinction",
+      "authors_short": "Gunduz-Cinar et al.",
+      "journal": "Neuron",
+      "year": 2023,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["vmPFC→BLA terminal CB1R required for extinction memory", "CRISPR pathway specificity", "eCB retrograde signaling"]
+    },
+    {
+      "pmid": "23765157",
+      "title": "Cognitive reappraisal of emotion: a meta-analysis of human neuroimaging studies",
+      "authors_short": "Buhle et al.",
+      "journal": "Cerebral Cortex",
+      "year": 2014,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["cognitive reappraisal activates lateral PFC not vmPFC", "48 studies meta-analysis", "two-pathway emotion regulation distinction"]
+    },
+    {
+      "pmid": "20303254",
+      "title": "Prefrontal control of fear: more than just extinction",
+      "authors_short": "Sotres-Bayon, Quirk",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2010,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["PL/IL bidirectional control framework review"],
+      "access": "abstract only"
+    },
+    {
+      "pmid": "25753409",
+      "title": "Prefrontal and Auditory Input to Intercalated Neurons of the Amygdala",
+      "authors_short": "Strobel et al.",
+      "journal": "Cell Reports",
+      "year": 2015,
+      "first_used": "2026-07-11",
+      "used_in_articles": ["2026-07-11-vmPFC-amygdala-emotion-regulation.md"],
+      "aspects_covered": ["IL→ITC direct synaptic connection anatomy+electrophysiology", "ITC dorsal/ventral subpopulations"]
     }
   ],
-  "additions_2026-07-10": "记忆再巩固文章（#78）新增 10 条来源"
+  "additions_2026-07-10": "记忆再巩固文章（#78）新增 10 条来源",
+  "additions_2026-07-11": "vmPFC-杏仁核情绪调节回路文章（#79）新增 10 条来源"
 }

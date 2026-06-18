@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-07-10",
-  "total_articles": 78,
+  "last_updated": "2026-07-11",
+  "total_articles": 79,
   "entries": [
+    {
+      "date": "2026-07-11",
+      "title": "前额叶如何压制恐惧：vmPFC-杏仁核情绪调节回路与PTSD",
+      "filename": "2026-07-11-vmPFC-amygdala-emotion-regulation.md",
+      "wiki_pages_created": [
+        "wiki/circuits/vmPFC-amygdala-circuit.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/amygdala.md",
+        "wiki/concepts/fear-extinction.md",
+        "wiki/systems/prefrontal-cortex.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "前额叶内侧皮层（vmPFC）如何通过 PL（促进恐惧表达）和 IL（压制恐惧表达）两个功能对立亚区，借助杏仁核插入细胞（ITC）双层逻辑闸门对中央核（CeA）实施精密双向调控——PTSD 中 vmPFC 功能不足如何导致这一闸门失效，使杏仁核持续解抑制，消退记忆无法在正确情景中被提取？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "情绪记忆系列延续：恐惧条件反射（#14）→杏仁核恐惧记忆（#14）→REM睡眠情绪去饱和化（#8）→HPA轴与应激记忆（#77）→记忆再巩固（#78）→vmPFC-杏仁核情绪调节回路（#79）；首次专注于前额叶对杏仁核的下行控制机制；建立 vmPFC-amygdala-circuit 作为独立回路节点；连接 PFC 认知控制文章系列（#13）与情绪调节文章系列；PTSD 作为回路故障的疾病窗口",
+      "topic_tags": [
+        "vmPFC",
+        "prefrontal cortex",
+        "prelimbic cortex",
+        "infralimbic cortex",
+        "PL",
+        "IL",
+        "amygdala",
+        "basolateral amygdala",
+        "BLA",
+        "central amygdala",
+        "CeA",
+        "CeM",
+        "intercalated cells",
+        "ITC",
+        "fear extinction",
+        "fear expression",
+        "extinction memory",
+        "PTSD",
+        "endocannabinoid",
+        "CB1R",
+        "eCB",
+        "hippocampus",
+        "contextual gating",
+        "Sierra-Mercado 2011",
+        "Quirk Mueller 2008",
+        "Motzkin 2015",
+        "Gunduz-Cinar 2023",
+        "Milad 2007",
+        "cognitive reappraisal",
+        "emotion regulation",
+        "Brodmann area 25",
+        "Brodmann area 32"
+      ],
+      "next_suggested_topics": [
+        "1. 海马情景记忆与情绪记忆的门控机制（海马→BLA情景信号的突触解剖与功能）",
+        "2. PTSD的神经生物学全景（整合HPA轴、NE系统、vmPFC-杏仁核、海马萎缩、睡眠障碍为统一病理框架）",
+        "3. 暴露疗法的神经回路机制（行为疗法如何激活和强化IL→ITC→CeM通路）"
+      ]
+    },
     {
       "date": "2026-07-09",
       "title": "记忆为什么最牢记住恐惧：糖皮质激素如何通过杏仁核把应激烙进长期记忆",

@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-01
-revision_count: 3
+updated: 2026-07-11
+revision_count: 4
 dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, fear-extinction, fear-conditioning, vmPFC-amygdala-circuit]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
-opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS]
-key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752"]
+opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02, Q-vmPFC-IL-01]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-11-vmPFC-amygdala-emotion-regulation]
+key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:20962768", "PMID:17882236"]
 ---
 
 # 前额叶皮层（Prefrontal Cortex, PFC）
@@ -53,6 +53,17 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - 猕猴 → 人类：dlPFC 进一步扩大，L3d 锥体细胞更高、棘更多、连接更复杂
 - 人类特有的语言/符号工作记忆是否有独特神经机制，目前无法侵入性记录验证
 
+### vmPFC/IL 亚区：情绪调节与恐惧消退（2026-07-11 新增）
+
+PFC 的腹内侧部（vmPFC）与情绪调节功能密切相关，与 dlPFC 的认知控制功能形成功能分工：
+
+- **前边缘皮层（PL，对应人类 dmPFC 部分）**：促进恐惧表达。投射至 BLA 恐惧细胞，放大 BLA→CeA 威胁信号；PL 药理失活 → 恐惧表达显著降低（Sierra-Mercado 2011, PMID:20962768）
+- **下边缘皮层（IL，对应人类 vmPFC/BA25-32）**：压制恐惧表达。通过 IL→腹侧 ITC→CeM 的 GABAergic 抑制通路驱动消退记忆表达；IL 药理失活 → 消退学习受损（Sierra-Mercado 2011）
+- **vmPFC 在人类中的功能**：消退回忆时 vmPFC + 海马协同激活，vmPFC 激活强度预测消退质量（Milad 2007）；vmPFC 局灶性损伤（n=4）导致杏仁核响应增强和功能连接升高（Motzkin 2015, PMID:24673881）
+- **PTSD 的回路断裂**：vmPFC 功能低下 + 杏仁核过度激活是 PTSD 核心神经回路缺陷，导致消退记忆提取困难
+
+详细回路机制见 [[vmPFC-amygdala-circuit]]。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -61,6 +72,8 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 | D1 受体倒 U 型调节 dlPFC 回路 | 猕猴微量注射 + 单单元记录 | Arnsten 2011 (PMID:21345366, PMC:PMC3115784) | 高 |
 | dlPFC L3d 在精神分裂症中选择性损伤 | 人类尸检 | Arnsten 2011; Hughes 2024 | 高 |
 | PFC 中间神经元多样性支撑认知功能 | 灵长类 + 啮齿类综述 | Boroujeni et al. 2026 (PMID:41478518, PMC:PMC12924665) | 高 |
+| PL 失活→恐惧表达↓；IL 失活→消退记忆↓ | muscimol 失活，大鼠恐惧条件反射范式 | Sierra-Mercado 2011 (PMID:20962768) | 高 |
+| vmPFC 损伤→杏仁核去抑制（人类） | fMRI 病灶研究（n=4） | Motzkin 2015 (PMID:24673881) | 中高（小样本） |
 
 ## 连接
 
@@ -71,20 +84,27 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - [[memory-consolidation]] — PFC 是记忆巩固后远端记忆的皮层存储库
 - [[global-workspace-theory]] — dlPFC 是全局工作空间神经元的核心解剖节点；参与意识点燃的广播
 - [[consciousness-ignition]] — 意识点燃在 PFC 的神经基础：只有被感知刺激触发 dlPFC 持续放电（van Vugt et al. 2018）
+- [[vmPFC-amygdala-circuit]] — vmPFC/IL 亚区通过 ITC 闸门对杏仁核实施双向调控；恐惧消退与 PTSD 的核心回路
+- [[fear-extinction]] — IL 是消退记忆提取的前额叶驱动节点
+- [[fear-conditioning]] — PL 是恐惧表达的前额叶驱动节点
 
 ## 未解问题
 
 - Q-wm-pfc-content-vs-control：PFC 是工作记忆内容的存储器，还是对感觉皮层的调度中心？
 - Q-pfc-human-specificity：人类 dlPFC 是否有超越猕猴的特异性工作记忆机制？
+- Q-vmPFC-IL-01：大鼠 IL 与人类 vmPFC 的精确同源区域（Brodmann 区）—— BA25（前下扣带回）还是 BA32（前扣带回）？
 
 ## 修订历史
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文
 - 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 新增 dlPFC 在全局工作空间点燃中的角色；添加 global-workspace-theory 和 consciousness-ignition 到 related；新增猕猴 van Vugt 2018 证据
 
-- 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 FEF（额叶眼区，BA8）作为 PFC 注意控制子区域；添加 dorsal-attention-network 和 thalamus 到 related；添加 Moore & Fallah 2004 和 Corbetta & Shulman 2002 到 key_sources；新增未解问题 Q-dan-02
+- 2026-07-01 · 修订 rev3 · 基于《空间注意的神经回路》一文 · 新增 FEF（额叶眼区，BA8）作为 PFC 注意控制子区域；添加 dorsal-attention-network 和 thalamus 到 related；添加 Moore & Fallah 2004 和 Corbetta & Shulman 2002 到 key_sources；新增未解问题 Q-dan-02
+
+- 2026-07-11 · 修订 rev4 · 基于《前额叶如何压制恐惧》(#79) · 新增 vmPFC/IL 情绪调节亚区功能分工（PL 促恐惧 / IL 促消退）及 ITC 闸门机制；添加 fear-extinction、fear-conditioning、vmPFC-amygdala-circuit 到 related；添加 Sierra-Mercado 2011 和 Motzkin 2015 到 key_sources；新增未解问题 Q-vmPFC-IL-01
 
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
+- [[2026-07-11-vmPFC-amygdala-emotion-regulation]]

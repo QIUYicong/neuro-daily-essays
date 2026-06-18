@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-10",
-  "node_count": 144,
-  "edge_count": 861,
+  "updated": "2026-07-11",
+  "node_count": 145,
+  "edge_count": 876,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1317,6 +1317,15 @@
       "status": "mainstream",
       "confidence": "medium-high",
       "page": "wiki/concepts/memory-reconsolidation.md"
+    },
+    {
+      "id": "vmPFC-amygdala-circuit",
+      "title": "vmPFC-杏仁核情绪调节回路",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium-high",
+      "page": "wiki/circuits/vmPFC-amygdala-circuit.md"
     }
   ],
   "edges": [
@@ -6053,6 +6062,96 @@
       "to": "memory-reconsolidation",
       "type": "regulates",
       "note": "NE 通过 β-AR 驱动再稳定化；普萘洛尔在人类中消除情绪恐惧记忆但保留陈述性内容（Kindt 2009）"
+    },
+    {
+      "from": "vmPFC-amygdala-circuit",
+      "to": "amygdala",
+      "type": "mechanism-of",
+      "note": "vmPFC/IL 通过 ITC 闸门对 CeA/BLA 实施双向调控；是回路的下行效应器通路"
+    },
+    {
+      "from": "vmPFC-amygdala-circuit",
+      "to": "fear-extinction",
+      "type": "mechanism-of",
+      "note": "IL→腹侧 ITC→CeM 抑制通路是消退记忆提取的神经执行机制；IL 失活→消退记忆受损"
+    },
+    {
+      "from": "vmPFC-amygdala-circuit",
+      "to": "fear-conditioning",
+      "type": "regulates",
+      "note": "PL 亚区通过激活 BLA 恐惧细胞促进恐惧表达；PL 失活→恐惧表达显著降低"
+    },
+    {
+      "from": "vmPFC-amygdala-circuit",
+      "to": "prefrontal-cortex",
+      "type": "part-of",
+      "note": "vmPFC/IL 和 PL 是 PFC 的情绪调节亚区；与 dlPFC 认知控制功能并行"
+    },
+    {
+      "from": "vmPFC-amygdala-circuit",
+      "to": "hippocampal-circuit",
+      "type": "related",
+      "note": "消退回忆中 vmPFC 与海马协同激活；海马提供情景门控信号，决定恐惧/消退哪套主导"
+    },
+    {
+      "from": "vmPFC-amygdala-circuit",
+      "to": "memory-reconsolidation",
+      "type": "related",
+      "note": "再巩固窗口消退中 vmPFC 也参与记忆改写；Agren 2012 fMRI 证据显示 BLA 活动消除"
+    },
+    {
+      "from": "vmPFC-amygdala-circuit",
+      "to": "hpa-axis",
+      "type": "related",
+      "note": "HPA 轴 GC 反馈与 vmPFC→杏仁核回路交叉调控；慢性应激→vmPFC 树突萎缩→回路断裂"
+    },
+    {
+      "from": "vmPFC-amygdala-circuit",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "PV+ 中间神经元在 vmPFC 局部和 BLA 局部参与回路调控，影响消退学习时序"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "vmPFC-amygdala-circuit",
+      "type": "regulates",
+      "note": "PFC 的 vmPFC/IL 和 PL 亚区对杏仁核实施双向调控；是 PFC 情绪调节功能的核心解剖回路"
+    },
+    {
+      "from": "amygdala",
+      "to": "vmPFC-amygdala-circuit",
+      "type": "related",
+      "note": "杏仁核是回路的效应器端（BLA、ITC、CeA）；BLA→vmPFC 反馈投射可能形成恶性循环（Q-vmPFC-IL-02）"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "vmPFC-amygdala-circuit",
+      "type": "related",
+      "note": "消退学习的获得与提取依赖 IL→ITC→CeM 通路；PTSD 患者 vmPFC 功能不足导致消退记忆提取障碍"
+    },
+    {
+      "from": "fear-conditioning",
+      "to": "vmPFC-amygdala-circuit",
+      "type": "related",
+      "note": "PL 驱动恐惧表达是条件性恐惧的前额叶节点；PL-BLA 通路与 IL-ITC 通路相互拮抗"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "vmPFC-amygdala-circuit",
+      "type": "supports",
+      "note": "腹侧海马为 BLA 消退细胞提供情景安全信号，使 IL-ITC 通路生效；消退回忆的情景依赖性来源"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "vmPFC-amygdala-circuit",
+      "type": "regulates",
+      "note": "慢性应激 GC 过度激活→vmPFC 树突萎缩+突触丢失；vmPFC→杏仁核调控能力下降→杏仁核持续激活"
+    },
+    {
+      "from": "memory-reconsolidation",
+      "to": "vmPFC-amygdala-circuit",
+      "type": "related",
+      "note": "再巩固窗口消退策略的成功需要 vmPFC-amygdala 回路完整；PTSD vmPFC 缺损可能是此策略疗效差异的原因"
     }
   ],
   "dangling_references": [

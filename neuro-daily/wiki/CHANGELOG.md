@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-07-11（文章 #79·vmPFC-杏仁核情绪调节回路·PL/IL双向控制·ITC闸门·PTSD神经回路缺陷）
+
+**源文章**：[[2026-07-11-vmPFC-amygdala-emotion-regulation]] —《前额叶如何压制恐惧：vmPFC-杏仁核情绪调节回路与PTSD》
+
+**新建页面（1 页）**：
+- `circuits/vmPFC-amygdala-circuit.md`：PL（前边缘皮层）促进恐惧表达（BLA恐惧细胞→CeM）/ IL（下边缘皮层）压制恐惧表达（IL→腹侧ITC→CeM GABAergic抑制）双向调控架构；ITC双层逻辑闸门（背侧ITC抑制腹侧=恐惧表达，腹侧ITC直接抑制CeM=消退表达）；vmPFC→BLA末梢CB1R（eCB-CB1R路径特异性：CRISPR特异性敲除→消退受损）；海马情景门控；PTSD的vmPFC功能不足双重神经回路缺陷框架（mainstream, confidence:medium-high）
+
+**修订页面（3 页）**：
+- `systems/amygdala.md`（rev3→rev4）：新增"vmPFC→ITC→CeA：前额叶对杏仁核的下行控制"机制节（PL/IL功能解离因果证据、Motzkin 2015 vmPFC损伤去抑制 fMRI、Gunduz-Cinar 2023 eCB-CB1R路径特异性）；related新增vmPFC-amygdala-circuit；key_sources新增PMID:20962768、PMID:24673881；source_articles新增2026-07-11
+- `concepts/fear-extinction.md`（rev3→rev4）：related新增vmPFC-amygdala-circuit；unresolved_questions新增Q-vmPFC-IL-01；Q-fear-extinction-ptsd-biomarker细化（加入Linnman 2012基线代谢预测路径）；source_articles新增2026-07-11
+- `systems/prefrontal-cortex.md`（rev3→rev4）：新增"vmPFC/IL亚区：情绪调节与恐惧消退"机制节（PL促恐惧/IL促消退因果证据、人类fMRI证据、PTSD回路断裂）；related新增fear-extinction、fear-conditioning、vmPFC-amygdala-circuit；key_sources新增PMID:20962768、PMID:17882236；unresolved_questions新增Q-vmPFC-IL-01；source_articles新增2026-07-11
+
+**图谱更新**：新增 1 节点（vmPFC-amygdala-circuit）、15 条边；总计 145 节点，876 边
+
+**新登记矛盾**：无
+
+**新增未解问题（3 个）**：
+- Q-vmPFC-IL-01（高优先级）：大鼠 IL 与人类 vmPFC 的精确 Brodmann 区同源关系（BA25 vs BA32 vs 混合区域）
+- Q-vmPFC-IL-02（高优先级）：BLA→vmPFC 反馈投射是否形成恶性循环（BLA 过激活→抑制 vmPFC→vmPFC 更难抑制 BLA）
+- Q-vmPFC-IL-03（高优先级）：PTSD 患者 vmPFC 功能不足是结构萎缩（不可逆）还是功能性抑制（可逆），两者比例对治疗选择的影响
+
+---
+
 ## 2026-07-10（文章 #78·记忆再巩固·GluN2B-NMDA-CaMKII-UPS 去稳定化分子链）
 
 **源文章**：[[2026-07-10-memory-reconsolidation-ptsd]] —《记忆再巩固：分子机制与创伤记忆干预》

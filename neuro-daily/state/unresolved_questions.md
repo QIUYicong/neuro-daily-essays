@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-07-10*
+*最后更新：2026-07-11*
+
+---
+
+## 2026-07-11 新增（来自"前额叶如何压制恐惧"文章 #79）
+
+### Q-vmPFC-IL-01（高优先级）：大鼠 IL 与人类 vmPFC 的精确 Brodmann 区同源关系
+
+- **关联 wiki**：[[vmPFC-amygdala-circuit]]、[[prefrontal-cortex]]、[[fear-extinction]]
+- **来源文章**：2026-07-11-vmPFC-amygdala-emotion-regulation
+- **问题**：恐惧消退研究中大鼠 IL 皮层是核心前额叶节点，但其与人类 vmPFC 的精确 Brodmann 区对应至今无共识。究竟是 BA25（前下扣带回，与抑郁 DBS 靶点关联）还是 BA32（前扣带回背侧部），还是两者混合叠加 OFC（BA11/13）？形态学分区（Vogt & Paxinos 2014）和白质连接组学是否能提供更明确的同源证据？大鼠 IL 损毁结果能否单纯外推到人类 BA25？
+- **当前证据状态**：行为功能同源性支持较强；解剖精确性无共识；人类 fMRI 坐标差异大（4-20 mm）
+- **为什么重要**：精确同源关系影响每一步从啮齿类机制到人类 PTSD 暴露疗法的临床转化；BA25 和 BA32 在 DBS 目标设计上已有不同临床相关性
+
+### Q-vmPFC-IL-02（高优先级）：BLA→vmPFC 反馈投射是否形成 PTSD 恶性循环
+
+- **关联 wiki**：[[vmPFC-amygdala-circuit]]、[[amygdala]]
+- **来源文章**：2026-07-11-vmPFC-amygdala-emotion-regulation
+- **问题**：vmPFC 抑制 BLA/CeA，但 BLA 也有反馈投射至 vmPFC。若 BLA 过激活通过局部 GABAergic 中间神经元抑制 vmPFC，则形成"BLA 过激活→vmPFC 受抑→BLA 更难被抑制"的正反馈恶性循环——可能解释 PTSD 的维持机制。(a) 是否有体内电生理或光遗传证据显示 BLA 激活→vmPFC 神经元抑制？(b) 破坏 BLA→vmPFC 反馈通路是否能恢复消退记忆？
+- **当前证据状态**：解剖投射已有追踪证据；功能意义在啮齿类几乎未研究；理论主要来自临床神经影像推论
+- **为什么重要**：若此循环存在，为 PTSD 维持机制提供完整回路解释，也为双侧打断策略（vmPFC 增强 + BLA 抑制）提供靶点
+
+### Q-vmPFC-IL-03（高优先级）：PTSD 患者 vmPFC 功能不足的结构萎缩 vs 功能性抑制比例
+
+- **关联 wiki**：[[vmPFC-amygdala-circuit]]、[[fear-extinction]]
+- **来源文章**：2026-07-11-vmPFC-amygdala-emotion-regulation
+- **问题**：PTSD 患者 vmPFC 激活不足是结构萎缩（灰质减少，不可逆）还是功能性抑制（慢性 GC/NE 暴露→动态树突萎缩，可逆）？两者比例随病程如何变化（急性 vs 慢性多年 PTSD）？这直接影响治疗策略：结构萎缩需神经修复（BDNF 增强），功能性抑制则暴露疗法/tDCS 可能恢复回路功能。
+- **当前证据状态**：成人 PTSD vmPFC 体积变化证据不一致；fMRI 激活不足更一致但无法区分结构 vs 功能；猕猴/小鼠慢性应激→vmPFC 树突萎缩有支持，人类对应数据缺乏
+- **为什么重要**：直接决定 PTSD 神经修复的治疗策略选择
 
 ---
 

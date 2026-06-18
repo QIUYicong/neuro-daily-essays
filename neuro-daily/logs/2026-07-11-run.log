@@ -1,0 +1,99 @@
+# 2026-07-11 自动化运行日志
+
+**运行时间**：2026-07-11 09:00 (北京时间, 虚拟日期)
+**系统时钟**：2026-06-18 (已知日期偏移，继续使用虚拟日期序列)
+**任务类型**：每日文章生成 + 知识库固结
+**运行结果**：✅ 成功
+
+---
+
+## 步骤执行摘要
+
+### Step 0: 读取 ROUTINE.md + KNOWLEDGE-BASE-DESIGN.md
+- 状态：✅ 完成（上个会话已读取，本次恢复后继续）
+
+### Step A: 选题
+- 选定主题：**vmPFC-杏仁核情绪调节回路与 PTSD**
+- 选题依据：topic_ledger.json 中文章 #78 的 next_suggested_topics 第2项（PFC-amygdala 情绪调节），与已有情绪记忆系列（#14 杏仁核，#77 HPA轴，#78 再巩固）自然延续
+- 文章编号：#79，虚拟日期 2026-07-11
+
+### Step B: 文献查阅
+- 查询来源：PubMed abstract + PMC open access full text
+- 来源总数：10 条
+  - 开放全文：8 条
+  - 摘要仅：2 条（PMID:17217927, PMID:20303254）
+- 遵守规则：无 Sci-Hub，无越权访问，无伪造 PMID/DOI/结论
+- 关键来源：Sierra-Mercado et al. 2011 (PL/IL muscimol), Quirk & Mueller 2008 (ITC review), Motzkin et al. 2015 (vmPFC lesion human), Gunduz-Cinar et al. 2023 (eCB-CB1R CRISPR), Fitzgerald et al. 2018 (PTSD neuroimaging 20yr review)
+
+### Step C: 文章写作
+- 文件：`neuro-daily/articles/2026-07-11-vmPFC-amygdala-emotion-regulation.md`
+- 字数：约 5200 字（符合 3000-6000 字要求）
+- 核心问题：前额叶 vmPFC/IL 如何通过 ITC 闸门压制杏仁核恐惧输出，PTSD 中该回路如何断裂
+- 涵盖层次：微回路、脑区、全脑网络、行为、认知、疾病
+
+### Step D: 知识库固结
+**新建 wiki 页面（1 页）**：
+- `wiki/circuits/vmPFC-amygdala-circuit.md`（rev1）：PL/IL 双向调控；ITC 双层逻辑闸门；eCB-CB1R 路径特异性；海马情景门控；PTSD 回路框架（mainstream, confidence:medium-high）
+
+**修订 wiki 页面（3 页）**：
+- `wiki/systems/amygdala.md`（rev3→rev4）：新增 vmPFC→ITC→CeA 下行控制节；related/key_sources/source_articles 更新
+- `wiki/concepts/fear-extinction.md`（rev3→rev4）：related 新增 vmPFC-amygdala-circuit；Q-vmPFC-IL-01 和 Q-fear-extinction-ptsd-biomarker 细化
+- `wiki/systems/prefrontal-cortex.md`（rev3→rev4）：新增 vmPFC/IL 情绪调节亚区节；related/key_sources/source_articles 更新
+
+### Step E: 知识图谱更新
+- `wiki/_graph.json`：
+  - 节点数：144 → 145（+vmPFC-amygdala-circuit）
+  - 边数：861 → 876（+15 条新边）
+- `wiki/index.md`：更新头部统计、circuits 节新增条目、相关条目更新
+- `wiki/CHANGELOG.md`：添加 2026-07-11 变更记录
+
+### Step F: 状态文件更新
+- `state/topic_ledger.json`：last_updated→2026-07-11，total_articles→79，新增 #79 条目
+- `state/unresolved_questions.md`：last_updated→2026-07-11，新增 Q-vmPFC-IL-01/02/03
+- `state/source_registry.json`：last_updated→2026-07-11，新增 10 条来源
+- `state/maturity_index.json`：last_updated→2026-07-11，新增 vmPFC-amygdala-circuit 成熟度记录
+- `state/monthly_synthesis.md`：更新本月截至日期→2026-07-11，添加 #79 条目
+
+### Step G: 运行日志写入
+- 本文件：`logs/2026-07-11-run.log` ✅
+
+---
+
+## 内容质量摘要
+
+### 核心机制覆盖
+- ✅ PL/IL 功能解离（Sierra-Mercado 2011 因果证据）
+- ✅ ITC 双层逻辑闸门（Quirk & Mueller 2008，Strobel 2015 突触解剖）
+- ✅ vmPFC→BLA eCB-CB1R 路径特异性（Gunduz-Cinar 2023 CRISPR）
+- ✅ 海马情景门控（Milad 2007 vmPFC-海马协同）
+- ✅ PTSD 双重功能障碍框架（Fitzgerald 2018）
+- ✅ 认知重评 vs 消退的回路区分（Buhle 2014，外侧 PFC 而非 vmPFC）
+
+### 来源合规性
+- 无伪造文献
+- 2 条摘要仅访问已明确标注
+- 所有 PMID 可验证
+
+### 新增未解问题
+- Q-vmPFC-IL-01：大鼠 IL vs 人类 vmPFC Brodmann 区同源性（高优先级）
+- Q-vmPFC-IL-02：BLA→vmPFC 反馈恶性循环假说（高优先级）
+- Q-vmPFC-IL-03：PTSD vmPFC 功能不足的结构 vs 功能比例（高优先级）
+
+---
+
+## 关键数字
+
+| 指标 | 数值 |
+|------|------|
+| 文章序号 | #79 |
+| 文章字数 | ~5200 字 |
+| 来源数量 | 10 条 |
+| 新建 wiki 页 | 1 |
+| 修订 wiki 页 | 3 |
+| 新增图谱节点 | 1 |
+| 新增图谱边 | 15 |
+| 新增未解问题 | 3 |
+| 图谱总节点 | 145 |
+| 图谱总边数 | 876 |
+| 知识库总文章数 | 79 |
+| 知识库总 wiki 页数 | 143 |

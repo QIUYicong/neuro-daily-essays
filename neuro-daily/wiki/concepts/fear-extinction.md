@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-10
-revision_count: 3
+updated: 2026-07-11
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation]
+related: [fear-conditioning, amygdala, vmPFC-amygdala-circuit, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
 opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-11-vmPFC-amygdala-emotion-regulation]
 key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380"]
 ---
 
@@ -80,13 +80,17 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 
 - Q-fear-reconsolidation-boundary（高优先级，部分解答 2026-07-10）：强记忆/旧记忆再巩固窗口的精确边界条件——Sevenster 2013 和 Eisenberg 2003 已明确：短暴露+小预测误差→再巩固；长暴露+大预测误差→消退；极强/极旧记忆难以去稳定化；临床转化的精确时机仍未解决
 - Q-fear-itc-bidirectionality（中优先级）：ITC背侧/腹侧在恐惧重现时如何再平衡
-- Q-fear-extinction-ptsd-biomarker（高优先级）：vmPFC激活作为个体化PTSD治疗预后标志物的临床可行性
+- Q-fear-extinction-ptsd-biomarker（高优先级，2026-07-11 细化）：vmPFC激活作为个体化PTSD治疗预后标志物的临床可行性——Linnman 2012 的基线杏仁核代谢预测消退回路激活（PET+fMRI），提示可能的生物标志物路径，但需要前瞻性验证
+- Q-vmPFC-IL-01（高优先级）：大鼠 IL 与人类 vmPFC 的精确同源区域（Brodmann 区）待确认
 
 ## 修订历史
 
+- 2026-07-11 · 修订 rev4 · 基于《前额叶如何压制恐惧》(#79) · related 新增 vmPFC-amygdala-circuit；未解问题新增 Q-vmPFC-IL-01，细化 Q-fear-extinction-ptsd-biomarker（加入 Linnman 2012 基线代谢预测路径）；source_articles 更新
 - 2026-07-10 · 修订 rev3 · 基于《记忆再巩固》(#78) · 当前理解节新增"消退 vs 再巩固窗口消退"段落（Monfils 2009 行为干预、Agren 2012 fMRI 证据、临床意义）；连接节新增 memory-reconsolidation；Q-fear-reconsolidation-boundary 标记为部分解答；source_articles/related 相应更新
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高（啮齿类证据充分，人类转化大体一致）
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
+- [[2026-07-10-memory-reconsolidation-ptsd]]
+- [[2026-07-11-vmPFC-amygdala-emotion-regulation]]

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "levels": [
     "speculative",
     "emerging",
@@ -953,6 +953,22 @@
       "PMID:15733097",
       "PMID:23574587",
       "PMID:34252418"
+    ]
+  },
+  "vmPFC-amygdala-circuit": {
+    "status": "mainstream",
+    "confidence": "medium-high",
+    "revision_count": 1,
+    "last_changed": "2026-07-11",
+    "change_reason": "新建（文章 #79，2026-07-11）。PL/IL 功能解离有多实验室因果证据（Sierra-Mercado 2011 muscimol，高置信度）；IL→腹侧 ITC→CeM 抑制通路有解剖+电生理证据（Strobel 2015，Quirk & Mueller 2008）；vmPFC→BLA CB1R 有 CRISPR+光遗传学路径特异性证据（Gunduz-Cinar 2023，高置信度）；人类 vmPFC 证据有 fMRI 病灶研究（Motzkin 2015, n=4，中高置信度小样本）和 Milad 2007 消退回忆 fMRI。PTSD 框架来自 20 年文献综述（Fitzgerald 2018）。定为 mainstream 而非 established，原因：(1) 啮齿类→人类外推仍有物种差异不确定性（Q-vmPFC-IL-01）；(2) PTSD 患者 vmPFC 功能不足的结构 vs 功能比例未明（Q-vmPFC-IL-03）；(3) BLA→vmPFC 反馈恶性循环假说无直接因果证据（Q-vmPFC-IL-02）。",
+    "key_sources": [
+      "PMID:20962768",
+      "PMID:17882236",
+      "PMID:24673881",
+      "PMID:37480845",
+      "PMID:17217927",
+      "PMID:29734226",
+      "PMID:25753409"
     ]
   }
 }

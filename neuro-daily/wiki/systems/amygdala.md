@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-10
-revision_count: 3
+updated: 2026-07-11
+revision_count: 4
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation]
+related: [fear-conditioning, fear-extinction, vmPFC-amygdala-circuit, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-11-vmPFC-amygdala-emotion-regulation]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:20962768", "PMID:24673881"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -127,14 +127,32 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[memory-consolidation]] — BLA GC+NE协同驱动情绪显著性记忆的优先长期巩固
 - [[memory-reconsolidation]] — BLA-LA 是再巩固去稳定化的核心位点：GluN2B-NMDA→CaMKII→UPS→Shank/GKAP 降解+GluA2 内吞的完整分子链在此发生
 
+### vmPFC→ITC→CeA：前额叶对杏仁核的下行控制（2026-07-11 新增）
+
+前额叶内侧皮层通过两个对立亚区对 BLA/CeA 回路实施**双向调控**：
+
+- **前边缘皮层（PL）→ BLA 恐惧细胞**：促进恐惧表达；muscimol 失活 PL → 恐惧表达显著↓（Sierra-Mercado 2011，PMID:20962768）
+- **下边缘皮层（IL/vmPFC）→ 腹侧 ITC → CeM 抑制**：执行消退表达；muscimol 失活 IL → 消退获得/记忆受损
+
+**人类层面的关键证据**：
+- **vmPFC 损伤** → 杏仁核对厌恶性图像响应增强，静息态杏仁核功能连接升高（Motzkin 2015，PMID:24673881；首个人类直接因果证据，n=4 神经外科患者）
+- **消退回忆时** vmPFC + 海马协同激活，激活幅度与消退质量正相关（Milad 2007，PMID:17217927）
+- **PTSD 患者**：vmPFC 激活持续不足，杏仁核过活动；双重功能障碍是情绪调节缺陷的回路级解释（Fitzgerald 2018，PMID:29734226）
+
+**eCB 节点**：vmPFC→BLA 投射末梢的 CB1R 是消退记忆形成的分子接口（光遗传+CRISPR；Gunduz-Cinar 2023，PMID:37480845）
+
+详见 [[vmPFC-amygdala-circuit]]。
+
 ## 未解问题
 
 - Q-fear-human-amygdala-specificity（高优先级）：人类杏仁核功能架构与啮齿类的保守程度
 - Q-fear-low-road-function（中优先级）：丘脑"低路"直接投射的恐惧学习独立贡献
 - Q-fear-itc-bidirectionality（中优先级）：ITC在恐惧重现时的具体再平衡机制
+- Q-vmPFC-IL-02（中优先级）：BLA→vmPFC 反馈投射是否形成 PTSD 中的恶性循环
 
 ## 修订历史
 
+- 2026-07-11 · 修订 rev4 · 基于《前额叶如何压制恐惧》(#79) · 新增"vmPFC→ITC→CeA 前额叶下行控制"机制节（PL/IL 双向调控、ITC 两层逻辑闸门、Motzkin 2015 人类因果证据、PTSD 双重功能障碍、eCB 节点）；related 新增 vmPFC-amygdala-circuit；未解问题新增 Q-vmPFC-IL-02
 - 2026-07-10 · 修订 rev3 · 基于《记忆再巩固》(#78) · 新增"BLA 中的记忆再巩固去稳定化分子链"机制节（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞级联；再稳定化路径；窗口内干预靶点）；连接节新增 memory-reconsolidation；source_articles/related 相应更新
 - 2026-07-09 · 修订 rev2 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"GC与NE协同增强应激记忆"机制节（BLA必要枢纽、GC-NE协同门控、β-AR阻断实验）；新增"CRH在CeA的中枢独立效应"节；related新增glucocorticoid-stress-memory、hpa-axis、memory-consolidation；key_sources新增PMID:30877244、PMID:16310958、PMID:23968228；未解问题新增Q-fear-itc-bidirectionality
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
@@ -143,3 +161,5 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 
 - [[2026-05-30-amygdala-fear-memory]]
 - [[2026-07-09-glucocorticoids-stress-memory-amygdala]]
+- [[2026-07-10-memory-reconsolidation-ptsd]]
+- [[2026-07-11-vmPFC-amygdala-emotion-regulation]]
