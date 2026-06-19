@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-19（第87篇·β振荡的三副面孔·统一框架×γ前馈/β后向×WM深层β许可窗口×PD病理β）· 主题页总数：**155**（修订3页：beta-oscillations rev1→rev2 confidence medium→high、working-memory rev6→rev7、predictive-coding rev7→rev8；图谱159节点、940边；新增Q-beta-01至Q-beta-04；Q-ccm-03部分解答）
+> 最后更新：2026-07-20（第88篇·γ振荡的引擎：PV+篮状细胞如何铸造40赫兹节律·PING/ING机制×Cardin/Sohal 2009光遗传学因果证据×精神分裂症GAD67/γ级联×AD 40Hz治疗靶点）· 主题页总数：**156**（新建1页：schizophrenia rev1；修订3页：gamma-oscillations rev3→rev4、pv-interneurons rev4→rev5、alzheimers-disease rev6→rev7；图谱160节点、948边；新增Q-gamma-ping-01、Q-gamma-ad-mechanism）
 
 ---
 
@@ -191,6 +191,7 @@
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
+- 🔵 [精神分裂症](diseases/schizophrenia.md) — PV+/GAD67/γ级联假说：dlPFC PV+细胞BDNF/TrkB信号减弱→GAD67下调→GABA合成减少→PING回路精度降低→γ振荡受损→工作记忆缺陷；NMDA低功能假说补充（NMDA优先损伤PV+）；发育时间线与SZ首发年龄窗（17-25岁）吻合 **[NEW 2026-07-20]**
 
 ---
 

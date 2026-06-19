@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-04
-revision_count: 3
-dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets]
+updated: 2026-07-20
+revision_count: 4
+dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, whole-brain-network, cognition, disease]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, schizophrenia, alzheimers-disease]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
-opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron]
-key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192"]
+opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-gamma-ping-01, Q-gamma-ad-mechanism]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-07-20-gamma-oscillations-ping-ing-schizophrenia]
+key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:19396156", "PMID:19396159", "PMID:17180162", "PMID:15803162", "PMID:18586694", "PMID:27929004", "PMID:20080054"]
 ---
 
 # γ 振荡 (Gamma Oscillations, 30–80 Hz)
@@ -91,19 +91,38 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 - Q-gamma-bind-02（中优先级）：ING 和 PING 在感知绑定中各自的贡献？
 - Q-gamma-bind-03（高优先级）：40 Hz 伽马与 90 Hz co-ripples 是不同机制还是同一机制的频段变体？
 
+## 光遗传学因果证据（2026-07-20 新增）
+
+2009年，两项Nature论文以光遗传学工具第一次在体内给出了PV+细胞与γ振荡之间的**双向因果证明**：
+
+**Cardin et al. 2009（PMID:19396156）**：向小鼠S1皮层PV+细胞导入ChR2，用40/80 Hz光脉冲驱动 → LFP出现对应频率γ振荡。同时证明：γ振荡对感觉信息处理有时序门控作用，到达γ峰值时感觉响应被放大，到达谷值时被抑制。
+
+**Sohal et al. 2009（PMID:19396159）**：用抑制性光遗传工具（halorhodopsin）压制PV+细胞活动 → 自发γ消失（PV+是必要条件）；反向激活PV+细胞 → γ涌现（PV+是充分条件）；还证明了γ频率调制输入的SNR提升效应。
+
+两项实验合在一起确立：**PV+快速放电细胞既是γ的充分条件又是必要条件**——这是γ研究从相关性时代进入因果性时代的里程碑。
+
+## 疾病连接（2026-07-20 新增）
+
+### 精神分裂症：PV+细胞GAD67↓→γ失速→工作记忆障碍
+
+Lewis, Hashimoto & Volk（2005，PMID:15803162）确立了精神分裂症中γ振荡受损的分子基础：**dlPFC的PV+细胞中GAD67（GABA合成酶）mRNA下调**，通过BDNF/TrkB信号减弱驱动，导致围胞体GABA释放减少→PING回路受损→任务诱发γ功率无法升高→工作记忆成绩下降。这是神经精神病理学中从分子到症状的最清晰因果链之一。
+
+Gonzalez-Burgos & Lewis（2008，PMID:18586694）进一步证明这种GABA能变化具有**细胞类型特异性**：主要影响PV+（而非SST+/VIP+）细胞，且代偿性重塑不足以维持认知负荷时的正常γ同步。
+
+### 阿尔茨海默症：40 Hz γ刺激作为干预靶点
+
+Iaccarino et al.（2016，PMID:27929004）在5XFAD小鼠中发现：**海马γ振荡在淀粉样斑块形成前就已下降**，提示γ失调可能是AD病理的早期标志而非晚期结果。40 Hz光遗传学激活PV+细胞降低了Aβ1-40/1-42水平；非侵入性40 Hz光闪烁同样有效，且激活了微胶质细胞吞噬活性。这开创了"感觉γ刺激"（Sensory Gamma Stimulation）方向，目前正在人类临床试验中评估安全性和有效性。
+
+## 发育视角（2026-07-20 新增）
+
+Uhlhaas & Singer（2010，PMID:20080054）记录了γ振荡的发育轨迹：γ在儿童早期即出现，但同步性和功率随PV+细胞和GABAergic系统成熟持续增加，**直至青春期晚期到成年早期才完全成熟**。这个成熟时间线与精神分裂症首次发病的高发窗口（青春期晚期）高度吻合，支持"神经发育期GABAergic系统成熟失调→γ同步异常→SZ症状出现"的发育性假说。
+
 ## 修订历史
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文 · 初始置信度：高
 - 2026-06-25 · 修订 · 基于《当大脑把碎片缝合在一起》一文 · 新增：绑定假说维度、CTC 框架、Gray & Singer 1989 证据、Costa 2024 反例、ING-PING 转换；新增 related 节点 3 个；新增 key_sources 5 个
-
-## 连接补充（2026-07-04）
-
-- [[ei-balance]] — 伽马振荡是 E/I 平衡状态的动态读出：广谱自发 γ 功率升高反映 E/I 失调（PV+ 受损时）；任务诱发 γ 振荡反映健康的 PV 驱动反馈抑制
-- [[perineuronal-nets]] — PNNs 沉积后 PV+ 细胞不再能被丘脑 AMPA 受体充分激活，ING 型 γ 振荡消失，标志关键期关闭（Quast & Hensch 2023）
-
-## 修订历史补充
-
 - 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192
+- 2026-07-20 · 修订（rev4）· 基于《γ振荡的引擎》（#88）· 新增：Cardin 2009 和 Sohal 2009 光遗传学双向因果证据；Lewis 2005 精神分裂症PV/GAD67病理链；Gonzalez-Burgos 2008 细胞类型特异性GABA缺陷；Iaccarino 2016 AD 40Hz γ刺激和淀粉样蛋白；Uhlhaas & Singer 2010 发育视角；related新增 schizophrenia, alzheimers-disease；opens_questions 新增 Q-gamma-ping-01, Q-gamma-ad-mechanism；key_sources 新增 7 个
 
 ## 来源文章
 

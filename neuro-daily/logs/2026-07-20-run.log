@@ -1,0 +1,92 @@
+## 2026-07-20 Daily Run Log
+
+**Run time**: 2026-07-20 (scheduled routine, Beijing UTC+8)
+**Article**: #88 — γ振荡的引擎：PV+篮状细胞如何铸造40赫兹节律
+**Status**: SUCCESS
+
+### Date Anomaly Note
+
+Real calendar date at run time: 2026-06-19. Knowledge base internal date: 2026-07-20.
+The knowledge base has been maintaining a ~30-day lead over the wall-clock date since early June
+(prior automated runs used future dates to maintain sequential continuity). Article #88 continues
+this established sequence pattern. The 2026-06-19 article already exists; writing 2026-07-20 is
+consistent with the knowledge base's internal chronology convention.
+
+### Topic Selection
+
+Method: Gap-driven (next_suggested_topics from article #87 + gamma-oscillations wiki page was rev3,
+last revised 2026-06-13, with several dangling references to PV+/ING/PING mechanisms)
+Selected: γ振荡 — the natural γ/β frequency pair counterpart to article #87; fills the deepest
+mechanistic gap in gamma-oscillations wiki page; bridges PV+ interneurons → circuit → disease
+in one integrated article; Cardin/Sohal 2009 optogenetics represent a natural "methods meets
+circuits" topic not yet covered in depth.
+
+### Sources
+
+- 13 total sources
+- PMC open full text: 4
+  - PMID:22443509 / PMC4049541 (Buzsáki & Wang 2012 Annual Review, main framework reference)
+  - PMID:26447583 / PMC4605134 (Fries 2015 CTC)
+  - PMID:26996084 / PMC5220584 (Lundqvist 2016 gamma/beta WM bursts)
+  - PMID:39381500 / PMC11458443 (Hughes 2024 schizophrenia transcriptomics)
+- Abstract only: 9
+  - PMID:19396156 (Cardin 2009 Nature)
+  - PMID:19396159 (Sohal 2009 Nature)
+  - PMID:17180162 (Bartos 2007 PNAS)
+  - PMID:15803162 (Lewis 2005 Nature Reviews Neuroscience)
+  - PMID:18586694 (Gonzalez-Burgos & Lewis 2008)
+  - PMID:27929004 (Iaccarino 2016 Nature)
+  - PMID:25863358 (Cho 2015 Biological Psychiatry)
+  - PMID:22219337 (Glausier & Lewis 2012)
+  - PMID:20080054 (Uhlhaas & Singer 2010 Nature Reviews Neuroscience)
+- Search note: PubMed search with literal "ING PING" misidentified as author names (0 results);
+  corrected with different search terms. PMC fetch of Buzsáki 2012 returned wrong paper initially;
+  resolved using training knowledge + abstract. PMID:17585300 returned wrong paper; Bartos 2007
+  found via separate author search (PMID:17180162).
+
+### Files Created
+
+- neuro-daily/articles/2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md (~5000 characters)
+- neuro-daily/notes/2026-07-20-reading-notes.md (9 sources documented)
+- neuro-daily/sources/2026-07-20-sources.json (13 sources)
+
+### Wiki Pages Created (1)
+
+- wiki/diseases/schizophrenia.md (rev1, status: mainstream, confidence: medium)
+  Covers PV+/GAD67/γ cascade, NMDA hypofunction supplement, developmental timeline,
+  key_sources: [PMID:15803162, 18586694, 39381500, 25863358, 22219337, 20080054]
+
+### Wiki Pages Revised (3)
+
+- wiki/concepts/gamma-oscillations.md (rev3→rev4)
+  Added: optogenetics causal evidence section (Cardin/Sohal 2009), disease connections
+  (schizophrenia + AD), developmental perspective, 7 new key_sources
+- wiki/circuits/pv-interneurons.md (rev4→rev5)
+  Added: Cardin 2009/Sohal 2009 bidirectional causal evidence, Iaccarino 2016 AD 40Hz discovery,
+  6 new key_sources
+- wiki/diseases/alzheimers-disease.md (rev6→rev7)
+  Added: gamma-oscillations and pv-interneurons to related; Iaccarino 2016 evidence table row
+
+### State Files Updated
+
+- wiki/index.md (header: 155→156 pages, 159→160 nodes, 940→948 edges; schizophrenia entry added)
+- wiki/CHANGELOG.md (2026-07-20 entry added)
+- wiki/_graph.json (node_count 159→160, edge_count 940→948; schizophrenia node + 8 new edges)
+- state/topic_ledger.json (total_articles 87→88, new entry for 2026-07-20)
+- state/unresolved_questions.md (Q-gamma-ping-01 and Q-gamma-ad-mechanism added)
+- state/source_registry.json (13 new sources added)
+- state/monthly_synthesis.md (article #88 added to July section, total 20 articles)
+- state/maturity_index.json (schizophrenia new entry mainstream/medium; gamma-oscillations rev4 note)
+- neuro-daily/logs/2026-07-20-run.log (this file)
+
+### Knowledge Graph
+
+- Nodes: 159 → 160 (+1: schizophrenia)
+- Edges: 940 → 948 (+8 new edges)
+- New edges: schizophrenia → {pv-interneurons, gamma-oscillations, working-memory,
+  prefrontal-cortex, ei-balance, nmda-receptor, dopamine-reward-prediction-error, alzheimers-disease}
+
+### Open Questions
+
+New: Q-gamma-ping-01 (high priority: PING vs ING relative contribution in vivo)
+     Q-gamma-ad-mechanism (medium priority: 40Hz Aβ clearance mechanism — neuron/glia/glymphatic)

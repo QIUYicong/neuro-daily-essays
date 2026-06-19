@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 4
+updated: 2026-07-20
+revision_count: 5
 dimensions: [cellular, synaptic, microcircuit, cognition, disease]
 related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468"]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468", "PMID:19396156", "PMID:19396159", "PMID:17180162", "PMID:15803162", "PMID:27929004", "PMID:20080054"]
 ---
 
 # PV+ 中间神经元（Parvalbumin-expressing Interneurons）
@@ -88,6 +88,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 新增 PFC γ爆发WM应用、精神分裂症病理证据
 - 2026-07-04 · 修订 rev3 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增 E/I 平衡执行者角色、关键期初始靶点（Quast & Hensch 2023）、PNN 固化机制、神经炎症脆弱性
 - 2026-06-03 · 修订 rev4 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增：PV+ 细胞去激活是 ODP 的第一个微回路事件（Kuhlman 2013），OTX2 经 PNN 锚定驱动 PV 成熟（Sugiyama 2008, Beurdeley 2012），BDNF 驱动 PV 成熟时间轴（Huang 1999），Rett 综合征中 MeCP2 KO 加速 PV 成熟导致关键期错位（Krishnan 2015），小胶质细胞亚群上游调控 PV 成熟（Wang 2025）；related 新增 critical-period, bdnf, microglia
+- 2026-07-20 · 修订 rev5 · 基于《γ振荡的引擎》（#88）· 新增：Cardin 2009（PMID:19396156）和 Sohal 2009（PMID:19396159）光遗传学双向因果证据（PV+是γ充分且必要条件）；Bartos 2007（PMID:17180162）突触机制（GABA_A快速动力学、缝隙连接）；Lewis 2005（PMID:15803162）精神分裂症GAD67/TrkB机制；Iaccarino 2016（PMID:27929004）AD小鼠40Hz PV+激活降低Aβ的开创性发现；Uhlhaas & Singer 2010（PMID:20080054）PV+成熟时间线与精神分裂症发病时间窗的对应；key_sources 新增 6 个
 
 ## 来源文章
 

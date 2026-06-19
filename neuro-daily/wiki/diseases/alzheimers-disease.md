@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-06-08
-updated: 2026-07-06
-revision_count: 6
+updated: 2026-07-20
+revision_count: 7
 dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis, tau-pathology, microglia, complement-cascade-cns, synaptic-pruning, glymphatic-system, aqp4]
+related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis, tau-pathology, microglia, complement-cascade-cns, synaptic-pruning, glymphatic-system, aqp4, gamma-oscillations, pv-interneurons]
 prerequisites: [ltp, nmda-receptor, hippocampal-circuit, memory-consolidation]
 opens_questions: [Q-ad-vulnerable-synapses, Q-ad-tau-cascade, Q-ad-intervention-window, Q-nmda-alzheimer, Q-glyph-01, Q-glyph-02]
-source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-03-microglia-synaptic-pruning, 2026-07-06-glymphatic-system-sleep-clearance]
-key_sources: ["PMID:1789684", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:22762015", "PMID:20581818", "PMID:26871627", "PMID:41929946", "PMID:30190379", "PMID:1759558", "PMID:26691836", "PMID:22365544", "PMID:27033548", "PMID:22896675", "PMID:30679382", "PMID:19779148", "PMID:41593094"]
+source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-03-microglia-synaptic-pruning, 2026-07-06-glymphatic-system-sleep-clearance, 2026-07-20-gamma-oscillations-ping-ing-schizophrenia]
+key_sources: ["PMID:1789684", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:22762015", "PMID:20581818", "PMID:26871627", "PMID:41929946", "PMID:30190379", "PMID:1759558", "PMID:26691836", "PMID:22365544", "PMID:27033548", "PMID:22896675", "PMID:30679382", "PMID:19779148", "PMID:41593094", "PMID:27929004"]
 ---
 
 # 阿尔茨海默病 (Alzheimer's Disease, AD)
@@ -85,6 +85,7 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 | 100-300 pM Aβ二/三聚体引发75%棘丢失，可逆 | 活体细胞成像，撤药后恢复 | Shankar et al. 2007, PMID:17360908 | 高 |
 | 突触外NR2B/p38 MAPK是Aβ阻断LTP的关键通路 | NR2B阻断剂救援LTP；脑片电生理+生化 | Li et al. 2011, PMID:21543591 | 高 |
 | theta-gamma耦合损伤早于Aβ大量产生 | 转基因AD鼠海马场电位记录 | Goutagny et al. 2013, PMID:23773058 | 中 |
+| 5XFAD小鼠斑块形成前海马γ振荡已减弱；40 Hz光遗传激活PV+细胞降低Aβ1-40/1-42；非侵入性40 Hz光闪烁同样有效 | 5XFAD转基因鼠，光遗传+非侵入性感觉刺激 | Iaccarino et al. 2016 (PMID:27929004) | 中（动物模型，人类临床试验初步） |
 | 靶向Aβ寡聚体（非斑块）抗体减缓早期AD认知衰退 | 随机双盲3期临床试验 | 综述 PMC:8231952 | 高（临床） |
 
 ## 连接
@@ -105,6 +106,8 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 - [[synaptic-pruning]] — 补体-微胶质突触剪枝的异常重激活导致斑块出现前的突触前丢失
 - [[glymphatic-system]] — 胶质淋巴清除失效是 Aβ/tau 积累的功能上游原因；睡眠剥夺和衰老通过三重机制削弱清洗，与 AD 形成双向恶性循环
 - [[aqp4]] — AQP4 去极化在老年脑中导致胶质淋巴效率下降；可能是 AD 预防干预的靶点
+- [[gamma-oscillations]] — AD早期海马γ振荡减弱（先于斑块形成）；40 Hz PV+激活或感觉γ刺激可降低Aβ水平，激活微胶质细胞吞噬活性（Iaccarino 2016）；感觉γ刺激（AVEL）成为新兴非侵入性干预方向
+- [[pv-interneurons]] — AD中PV+篮状细胞的功能减弱可能是γ振荡早期下降的细胞基础；Iaccarino 2016的40 Hz光遗传实验精确靶向PV+细胞
 
 ## 未解问题
 
@@ -120,7 +123,9 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 - 2026-06-16 · 修订 · 基于《默认模式网络》一文 · 新增：Aβ 优先沉积 DMN 枢纽节点（PCC/mPFC）的功能解剖解释（Buckner 2009）；related 新增 default-mode-network；dimensions 新增 whole-brain-network
 - 2026-06-29 · 修订 · 基于《tau 蛋白病理》一文（第 65 篇）· related 新增 tau-pathology；key_sources 新增 Braak 1991 (PMID:1759558)、Zempel 2015 (PMID:26691836)、de Calignon 2012 (PMID:22365544)；在"连接"段落新增 tau-pathology 节点；修订 revision_count=4
 - 2026-06-03 · 修订 · 基于《大脑的"质检员"》一文（第 70 篇）· 补充 C1q/补体-微胶质突触剪枝机制（Hong et al. 2016）：Aβ低聚体触发C1q早期突触沉积（早于斑块），CR3阻断保护突触；related 新增 microglia/complement-cascade-cns/synaptic-pruning；key_sources 新增 PMID:27033548；修订 revision_count=5
+- 2026-07-20 · 修订（rev7）· 基于《γ振荡的引擎》（#88）· 新增：Iaccarino et al. 2016（PMID:27929004）40 Hz感觉γ刺激降低Aβ、激活微胶质细胞的发现；相应新增evidence表一行；related新增 gamma-oscillations 和 pv-interneurons；key_sources 新增 PMID:27929004
 
 ## 来源文章
 
 - [[2026-06-08-alzheimers-amyloid-synaptic-mechanism]]
+- [[2026-07-20-gamma-oscillations-ping-ing-schizophrenia]]

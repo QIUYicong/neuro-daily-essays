@@ -8005,6 +8005,231 @@
         "feedback L5/6 to lower L1/2/3 modulator",
         "cortical hierarchy distance law"
       ]
+    },
+    {
+      "pmid": "19396156",
+      "title": "Driving fast-spiking cells induces gamma rhythm and controls sensory responses",
+      "authors_short": "Cardin et al.",
+      "journal": "Nature",
+      "year": 2009,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "optogenetic ChR2 PV+ fast-spiking cells barrel cortex",
+        "10 Hz stimulation drives 40 Hz gamma",
+        "causal sufficiency PV+ for gamma",
+        "whisker response signal-to-noise gamma entrainment"
+      ]
+    },
+    {
+      "pmid": "19396159",
+      "title": "Parvalbumin neurons and gamma rhythms enhance cortical circuit performance",
+      "authors_short": "Sohal et al.",
+      "journal": "Nature",
+      "year": 2009,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "optogenetic ArchT PV+ inhibition eliminates gamma",
+        "PV+ necessary and sufficient for gamma",
+        "gamma enhancement improves signal discrimination",
+        "prefrontal cortex working memory circuit"
+      ]
+    },
+    {
+      "pmid": "17180162",
+      "title": "Fast synaptic inhibition promotes synchronized gamma oscillations in hippocampal interneuron networks",
+      "authors_short": "Bartos et al.",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": 2007,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "GABA-A fast kinetics tau_decay 10-15ms",
+        "gap junctions electrical synapses PV synchrony",
+        "ING interneuron network gamma mechanism",
+        "hippocampal basket cell network"
+      ]
+    },
+    {
+      "pmid": "15803162",
+      "title": "Cortical inhibitory neurons and schizophrenia",
+      "authors_short": "Lewis et al.",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2005,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "schizophrenia dlPFC PV+ GAD67 mRNA downregulation",
+        "BDNF TrkB signaling reduction",
+        "gamma oscillation impairment working memory",
+        "post-mortem brain study"
+      ]
+    },
+    {
+      "pmid": "18586694",
+      "title": "Interneurons, inhibitory synapses, and the flow of cortical information",
+      "authors_short": "Gonzalez-Burgos & Lewis",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2008,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "PING circuit schizophrenia E-I cycle precision",
+        "PV basket cell GABA release perisomatic inhibition",
+        "gamma oscillation cognitive control prefrontal",
+        "schizophrenia interneuron hypothesis"
+      ]
+    },
+    {
+      "pmid": "27929004",
+      "title": "Gamma frequency entrainment attenuates amyloid load and modifies microglia",
+      "authors_short": "Iaccarino et al.",
+      "journal": "Nature",
+      "year": 2016,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "40 Hz optogenetic PV+ stimulation AD mice",
+        "Abeta reduction 40-60% visual cortex",
+        "microglia morphology change phagocytosis increase",
+        "5XFAD mouse model visual cortex",
+        "GENUS gamma entrainment using sensory stimuli"
+      ]
+    },
+    {
+      "pmid": "39381500",
+      "title": "Transcriptomic evidence of disrupted GABAergic interneuron subtypes in the dlPFC of individuals with schizophrenia",
+      "authors_short": "Hughes et al.",
+      "journal": "Neuropsychopharmacology",
+      "year": 2024,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": true,
+      "access_type": "open_access",
+      "pmc": "PMC11458443",
+      "aspects_covered": [
+        "dlPFC single-nucleus RNA-seq schizophrenia",
+        "PV mRNA and GAD67 reduction cell-type specific",
+        "SST VIP interneurons less affected",
+        "transcriptomic validation post-mortem"
+      ]
+    },
+    {
+      "pmid": "20080054",
+      "title": "Abnormal neural oscillations and synchrony in schizophrenia",
+      "authors_short": "Uhlhaas & Singer",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2010,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "gamma synchrony maturation adolescence 17-25 years",
+        "schizophrenia onset window PV maturation",
+        "neural oscillations synchrony developmental trajectory",
+        "EEG gamma schizophrenia review"
+      ]
+    },
+    {
+      "pmid": "22443509",
+      "pmc": "PMC4049541",
+      "title": "Mechanisms of gamma oscillations",
+      "authors_short": "Buzsáki & Wang",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2012,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": true,
+      "access_type": "open_access",
+      "aspects_covered": [
+        "PING vs ING mechanism comprehensive review",
+        "PV+ cell biophysical properties Kv3",
+        "GABA-A kinetics synchrony requirement",
+        "gamma cognitive function comprehensive"
+      ]
+    },
+    {
+      "pmid": "26447583",
+      "pmc": "PMC4605134",
+      "title": "Rhythms for cognition: communication through coherence",
+      "authors_short": "Fries",
+      "journal": "Neuron",
+      "year": 2015,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": true,
+      "access_type": "open_access",
+      "aspects_covered": [
+        "communication through coherence CTC framework",
+        "gamma synchrony feedforward channel",
+        "beta synchrony feedback channel",
+        "spike transmission probability coherence"
+      ]
+    },
+    {
+      "pmid": "26996084",
+      "pmc": "PMC5220584",
+      "title": "Gamma and beta bursts underlie working memory",
+      "authors_short": "Lundqvist et al.",
+      "journal": "Neuron",
+      "year": 2016,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": true,
+      "access_type": "open_access",
+      "aspects_covered": [
+        "dlPFC gamma bursts 67ms working memory encoding",
+        "beta bursts 130ms default resting state",
+        "gamma beta interleaving spiking activity",
+        "silent synaptic storage between gamma bursts"
+      ]
+    },
+    {
+      "pmid": "25863358",
+      "title": "Gamma oscillations in the prefrontal cortex during working memory and schizophrenia",
+      "authors_short": "Cho et al.",
+      "journal": "Biological Psychiatry",
+      "year": 2015,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "schizophrenia MEG dlPFC gamma power reduction",
+        "working memory task gamma failed to increase",
+        "cognitive deficit gamma oscillation biomarker"
+      ]
+    },
+    {
+      "pmid": "22219337",
+      "title": "Altered parvalbumin basket cell-mediated GABAergic transmission in prefrontal cortex of schizophrenia subjects",
+      "authors_short": "Glausier & Lewis",
+      "journal": "Neuropsychopharmacology",
+      "year": 2012,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "PV basket cell specific GABAergic reduction",
+        "SST VIP relatively spared",
+        "post-mortem immunohistochemistry cell-type specificity",
+        "schizophrenia prefrontal inhibitory circuit"
+      ]
     }
   ]
 }

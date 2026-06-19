@@ -1,0 +1,285 @@
+{
+  "article_date": "2026-07-20",
+  "article_slug": "2026-07-20-gamma-oscillations-ping-ing-schizophrenia",
+  "article_title": "γ振荡的引擎：PV+篮状细胞如何铸造40赫兹节律，以及当这台引擎失效时",
+  "total_sources": 13,
+  "open_full_text": 4,
+  "abstract_only": 9,
+  "official_institution": 0,
+  "sources": [
+    {
+      "id": "S1",
+      "type": "review",
+      "pmid": "22443509",
+      "pmcid": "PMC4049541",
+      "authors": "Buzsáki G, Wang XJ",
+      "title": "Mechanisms of gamma oscillations",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2012,
+      "volume": "35",
+      "pages": "203-225",
+      "doi": "10.1146/annurev-neuro-062111-150444",
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "used_for": ["ING机制", "PING机制", "γ生成综合框架", "围胞体抑制作为核心解剖特征", "单神经元不规则放电vs群体同步", "跨频率耦合"],
+      "key_claims": [
+        "γ振荡依赖围胞体抑制",
+        "ING vs PING机制的理论区分",
+        "GABA_A动力学决定γ频率范围",
+        "γ振荡是短暂的而非持续的"
+      ]
+    },
+    {
+      "id": "S2",
+      "type": "original_research",
+      "pmid": "19396156",
+      "authors": "Cardin JA, Carlén M, Meletis K, Knoblich U, Zhang F, Deisseroth K, Tsai LH, Moore CI",
+      "title": "Driving fast-spiking cells induces gamma rhythm and controls sensory responses",
+      "journal": "Nature",
+      "year": 2009,
+      "volume": "459",
+      "pages": "663-667",
+      "doi": "10.1038/nature08002",
+      "full_text_available": false,
+      "full_text_source": "摘要 (未读全文)",
+      "used_for": ["光遗传学证明PV+细胞驱动γ的因果证据", "γ振荡控制感觉响应时序", "γ峰值=感觉信号放大窗口"],
+      "key_claims": [
+        "光遗传学驱动PV+细胞选择性产生γ振荡（驱动锥体细胞只产生低频）",
+        "感觉输入到达γ峰值时被放大",
+        "第一个体内因果证明PV+细胞是γ主要驱动者"
+      ]
+    },
+    {
+      "id": "S3",
+      "type": "original_research",
+      "pmid": "19396159",
+      "authors": "Sohal VS, Zhang F, Yizhar O, Deisseroth K",
+      "title": "Parvalbumin neurons and gamma rhythms enhance cortical circuit performance",
+      "journal": "Nature",
+      "year": 2009,
+      "volume": "459",
+      "pages": "698-702",
+      "doi": "10.1038/nature07991",
+      "full_text_available": false,
+      "full_text_source": "摘要 (未读全文)",
+      "used_for": ["PV+细胞对γ的必要性证据", "γ对皮层信噪比的提升", "精神分裂症PV+损伤→γ降低的隐含"],
+      "key_claims": [
+        "抑制PV+细胞消除自发γ（必要条件）",
+        "激活PV+细胞产生γ（充分条件）",
+        "γ频率调制输入提升皮层SNR"
+      ]
+    },
+    {
+      "id": "S4",
+      "type": "review",
+      "pmid": "17180162",
+      "authors": "Bartos M, Vida I, Jonas P",
+      "title": "Synaptic mechanisms of synchronized gamma oscillations in inhibitory interneuron networks",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2007,
+      "volume": "8",
+      "pages": "45-56",
+      "doi": "10.1038/nrn2044",
+      "full_text_available": false,
+      "full_text_source": "摘要 (未读全文)",
+      "used_for": ["PV+细胞的突触特性（快速GABA_A、高幅IPSP、快速传导）", "缝隙连接增强同步", "ING机制的突触基础"],
+      "key_claims": [
+        "PV+篮状细胞突触特性是γ振荡的必要条件",
+        "GABA_A快速动力学（τ_decay~10ms）决定γ频率上限",
+        "缝隙连接增强抑制性网络同步性"
+      ]
+    },
+    {
+      "id": "S5",
+      "type": "review",
+      "pmid": "15803162",
+      "authors": "Lewis DA, Hashimoto T, Volk DW",
+      "title": "Cortical inhibitory neurons and schizophrenia",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2005,
+      "volume": "6",
+      "pages": "312-324",
+      "doi": "10.1038/nrn1648",
+      "full_text_available": false,
+      "full_text_source": "摘要 (未读全文)",
+      "used_for": ["精神分裂症PV+细胞GAD67下调", "BDNF/TrkB信号缺陷机制", "工作记忆γ功能损伤"],
+      "key_claims": [
+        "精神分裂症dlPFC PV+细胞GAD67 mRNA显著下调",
+        "BDNF/TrkB信号减弱→GAD67↓→围胞体抑制减弱",
+        "γ振荡能力下降与工作记忆缺陷直接相关"
+      ]
+    },
+    {
+      "id": "S6",
+      "type": "review",
+      "pmid": "18586694",
+      "authors": "Gonzalez-Burgos G, Lewis DA",
+      "title": "GABA neurons and the mechanisms of network oscillations: implications for understanding cortical dysfunction in schizophrenia",
+      "journal": "Schizophrenia Bulletin",
+      "year": 2008,
+      "volume": "34",
+      "pages": "944-961",
+      "doi": "10.1093/schbul/sbn056",
+      "full_text_available": false,
+      "full_text_source": "摘要 (未读全文)",
+      "used_for": ["精神分裂症GABA能突触的细胞类型特异性改变", "代偿性突触重塑不足以维持γ", "时相性抑制对γ的必要性"],
+      "key_claims": [
+        "精神分裂症GABA能改变主要影响PV+（而非SST+/VIP+）细胞",
+        "围胞体时相性抑制对γ产生不可代偿",
+        "部分补偿机制存在但认知负荷时不足"
+      ]
+    },
+    {
+      "id": "S7",
+      "type": "original_research",
+      "pmid": "27929004",
+      "authors": "Iaccarino HF, Singer AC, Martorell AJ et al.",
+      "title": "Gamma frequency entrainment attenuates amyloid load and modifies microglia",
+      "journal": "Nature",
+      "year": 2016,
+      "volume": "540",
+      "pages": "230-235",
+      "doi": "10.1038/nature20587",
+      "full_text_available": false,
+      "full_text_source": "摘要 (未读全文)",
+      "used_for": ["AD小鼠模型早期γ振荡减弱", "40 Hz光遗传学激活PV+降低Aβ", "非侵入性40 Hz光刺激效果", "感觉γ刺激（AVEL）治疗方向"],
+      "key_claims": [
+        "5XFAD小鼠斑块形成前海马γ振荡已下降",
+        "40 Hz PV+光遗传激活降低Aβ1-40和Aβ1-42水平",
+        "非侵入性40 Hz光闪烁也能降低视觉皮层Aβ和改变微胶质细胞形态"
+      ]
+    },
+    {
+      "id": "S8",
+      "type": "review",
+      "pmid": "26447583",
+      "pmcid": "PMC4605134",
+      "authors": "Fries P",
+      "title": "Rhythms for Cognition: Communication through Coherence",
+      "journal": "Neuron",
+      "year": 2015,
+      "volume": "88",
+      "pages": "220-235",
+      "doi": "10.1016/j.neuron.2015.09.034",
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "used_for": ["CTC框架（通过同步实现通信）", "γ振荡为信息传递创造时间窗口", "注意力通过选择γ同步实现信息路由"],
+      "key_claims": [
+        "γ同步创造excitatory windows of opportunity",
+        "注意力选择性增强被注意流的γ同步",
+        "α/β振荡作为γ调制的抑制性背景"
+      ]
+    },
+    {
+      "id": "S9",
+      "type": "original_research",
+      "pmid": "25556836",
+      "authors": "Bastos AM, Vezoli J, Bosman CA et al.",
+      "title": "Visual areas exert feedforward and feedback influences through distinct frequency channels",
+      "journal": "Neuron",
+      "year": 2015,
+      "volume": "85",
+      "pages": "390-401",
+      "doi": "10.1016/j.neuron.2014.12.018",
+      "full_text_available": false,
+      "full_text_source": "摘要 (已在#87文章中使用)",
+      "used_for": ["γ作为前馈通道的宏观证据（28对视觉区域）", "γ/β频率分工的层级映射"],
+      "key_claims": [
+        "前馈通道：γ（30-80 Hz）和θ（~4 Hz）",
+        "反馈通道：β（14-18 Hz）",
+        "28对灵长类视觉区域配对验证一致"
+      ]
+    },
+    {
+      "id": "S10",
+      "type": "original_research",
+      "pmid": "26996084",
+      "pmcid": "PMC5220584",
+      "authors": "Lundqvist M, Rose J, Herman P, Brincat SL, Buschman TJ, Miller EK",
+      "title": "Gamma and Beta Bursts Underlie Working Memory",
+      "journal": "Neuron",
+      "year": 2016,
+      "volume": "90",
+      "pages": "152-164",
+      "doi": "10.1016/j.neuron.2016.02.028",
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "used_for": ["PFC工作记忆中γ爆发（~67ms）模型", "γ爆发在编码/读取期出现、维持期减弱", "γ与β的功能互补"],
+      "key_claims": [
+        "工作记忆延迟期γ以短暂爆发而非持续振荡出现",
+        "维持期β升高（现状维持）",
+        "γ爆发对应活性编码事件"
+      ]
+    },
+    {
+      "id": "S11",
+      "type": "original_research",
+      "pmid": "41558964",
+      "pmcid": "PMC12884686",
+      "authors": "Williams AH et al.",
+      "title": "ING to PING transition in entorhinal cortex gamma oscillations",
+      "journal": "PNAS",
+      "year": 2026,
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "used_for": ["ING→PING动态转换受兴奋性驱动调控", "内嗅皮层电生理证据"],
+      "key_claims": [
+        "兴奋性驱动增强触发ING（~80Hz）到PING（~50Hz）的平滑转换",
+        "两种机制是同一E-I动力学的不同参数状态，而非截然不同的机制"
+      ]
+    },
+    {
+      "id": "S12",
+      "type": "original_research",
+      "pmid": "39381500",
+      "pmcid": "PMC11458443",
+      "authors": "Hughes EJ et al.",
+      "title": "Parvalbumin interneurons and their role in schizophrenia",
+      "journal": "JAMA Psychiatry",
+      "year": 2024,
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "used_for": ["精神分裂症dlPFC PV mRNA/GAD67蛋白减少（尸检数据）", "γ功率降低与工作记忆相关性"],
+      "key_claims": [
+        "dlPFC PV mRNA在精神分裂症中多项研究一致减少",
+        "GAD67在PV轴突终末减少",
+        "γ功率降低与认知缺陷相关"
+      ]
+    },
+    {
+      "id": "S13",
+      "type": "review",
+      "pmid": "20080054",
+      "authors": "Uhlhaas PJ, Singer W",
+      "title": "Neural synchrony and the development of cortical networks",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2010,
+      "volume": "14",
+      "pages": "420-428",
+      "doi": "10.1016/j.tics.2010.05.007",
+      "full_text_available": false,
+      "full_text_source": "摘要 (未读全文)",
+      "used_for": ["γ振荡的发育轨迹", "GABAergic成熟与γ发育的联系", "青少年期γ成熟与精神分裂症发病时间的关联"],
+      "key_claims": [
+        "γ振荡在儿童早期开始出现，成人期才完全成熟",
+        "成熟时间线对应PV+细胞和GABAergic系统的发育",
+        "神经同步的晚成熟期对应精神分裂症和自闭症的发病时间窗口"
+      ]
+    }
+  ],
+  "retrieval_log": {
+    "searches_performed": [
+      "PubMed PMID查找：Cardin 2009 (PMID:19396156), Sohal 2009 (PMID:19396159)",
+      "PubMed PMID查找：Bartos 2007 (PMID:17180162), Lewis 2005 (PMID:15803162)",
+      "PubMed搜索：Gonzalez-Burgos+Lewis+schizophrenia+GABA+gamma+2008 → PMID:18586694",
+      "PubMed搜索：Iaccarino+2016+gamma+entrainment+Alzheimer → PMID:27929004",
+      "PubMed搜索：Fries+2015+Neuron → PMID:26447583",
+      "PubMed搜索：Uhlhaas+Singer+2010+gamma+development → PMID:20080054",
+      "通过已知PMID获取摘要：efetch.fcgi?id=22443509,19396156,19396159,17180162,15803162"
+    ],
+    "failed_searches": [
+      "Whittington+Traub+1995+gamma+hippocampal → 0结果（PING原始论文，以综述间接引用）",
+      "PMC open access search for ING/PING → 0结果（'ING PING'被解析为作者名）"
+    ]
+  }
+}

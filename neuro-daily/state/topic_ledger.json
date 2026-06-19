@@ -1,7 +1,82 @@
 {
-  "last_updated": "2026-07-19",
-  "total_articles": 87,
+  "last_updated": "2026-07-20",
+  "total_articles": 88,
   "entries": [
+    {
+      "date": "2026-07-20",
+      "title": "γ振荡的引擎：PV+篮状细胞如何铸造40赫兹节律",
+      "filename": "2026-07-20-gamma-oscillations-ping-ing-schizophrenia.md",
+      "wiki_pages_created": [
+        "wiki/diseases/schizophrenia.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/gamma-oscillations.md",
+        "wiki/circuits/pv-interneurons.md",
+        "wiki/diseases/alzheimers-disease.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "PV+篮状细胞如何通过PING（锥体-中间神经元-γ）和ING（中间神经元网络-γ）两种不同机制产生皮层γ振荡（30-80 Hz）？2009年Cardin和Sohal两个光遗传学实验如何在因果层面确立PV+细胞是γ振荡的充分且必要条件？前额叶dlPFC中PV+细胞GAD67下调如何通过γ同步失效导致精神分裂症工作记忆缺陷？40 Hz γ刺激为何能减少AD小鼠Aβ并激活神经胶质清除机制？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱2（皮层计算·振荡·频率分工）×脊柱11（疾病·精神分裂症·AD）；承接#87（β振荡三副面孔）的γ/β频率对；深化#86（规范微回路）的PING回路机制；首次建立精神分裂症wiki节点；连接#88←→PV+中间神经元（脊柱1·神经元如何工作）",
+      "topic_tags": [
+        "gamma oscillations 30-80 Hz",
+        "PING pyramidal-interneuron network gamma",
+        "ING interneuron network gamma",
+        "PV+ basket cells fast-spiking",
+        "Kv3 channels fast repolarization",
+        "GABA-A fast kinetics 10-15ms tau decay",
+        "Cardin 2009 optogenetics PMID:19396156",
+        "Sohal 2009 PV necessary sufficient PMID:19396159",
+        "Bartos 2007 GABA gap junctions synchrony PMID:17180162",
+        "Lewis 2005 schizophrenia GAD67 PMID:15803162",
+        "GAD67 mRNA downregulation dlPFC schizophrenia",
+        "gamma power working memory task deficit",
+        "Iaccarino 2016 40Hz AD Abeta PMID:27929004",
+        "GABA entrainment glial clearance mechanism",
+        "Uhlhaas Singer 2010 adolescent gamma maturation PMID:20080054",
+        "schizophrenia onset age 17-25 PV maturation window",
+        "NMDA hypofunction PV interneuron",
+        "Hughes 2024 dlPFC PV mRNA PMID:39381500",
+        "Gonzalez-Burgos 2008 PING schizophrenia PMID:18586694",
+        "Buzsaki Wang 2012 review gamma mechanisms PMC4049541"
+      ],
+      "key_sources": [
+        "PMID:19396156",
+        "PMID:19396159",
+        "PMID:17180162",
+        "PMID:15803162",
+        "PMID:18586694",
+        "PMID:27929004",
+        "PMID:39381500",
+        "PMID:20080054",
+        "PMID:22443509",
+        "PMID:26447583",
+        "PMID:26996084",
+        "PMID:25863358",
+        "PMID:22219337"
+      ],
+      "unresolved_questions": [
+        "Q-gamma-ping-01: PING和ING在真实皮层γ振荡中的相对贡献比例——是纯ING、纯PING，还是二者混合驱动？",
+        "Q-gamma-ad-mechanism: 40 Hz γ刺激（Iaccarino 2016）的Aβ降低效果是通过神经元直接激活、胶质细胞吞噬上调，还是淋巴流增加——机制仍在争议中"
+      ],
+      "next_suggested_topics": [
+        "精神分裂症认知症状的治疗靶点——GABA增强药物（苯二氮䓬类亚型选择性调节剂）能否复原PV+功能？",
+        "工作记忆的主动维持——持续放电、静默突触存储与γ爆发三种模型的整合",
+        "皮层感觉运动预测——γ/β频率层级在运动规划中的协调",
+        "θ/γ嵌套——海马θ相位对γ爆发的调制与工作记忆容量（Miller 2018 7±2的振荡诠释）",
+        "AD神经节律疗法——40 Hz声光刺激临床试验最新结果（GENUS研究）"
+      ]
+    },
     {
       "date": "2026-07-19",
       "title": "β振荡的三副面孔：运动刹车、感知反馈与记忆守护",

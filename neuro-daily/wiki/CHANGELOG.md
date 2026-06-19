@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-07-20（文章 #88·γ振荡的引擎·PING/ING机制·精神分裂症·40Hz AD干预·课程脊柱 2 × 脊柱 11）
+
+**源文章**：[[2026-07-20-gamma-oscillations-ping-ing-schizophrenia]] —《γ振荡的引擎：PV+篮状细胞如何铸造40赫兹节律，以及当这台引擎失效时》
+
+**新建页面（1）**：
+- `wiki/diseases/schizophrenia.md`（rev1）— 精神分裂症疾病页；核心：PV+/GAD67/γ级联假说（Lewis 2005, Gonzalez-Burgos 2008, Hughes 2024）；工作记忆认知症状的分子-回路因果链；NMDA低功能假说的补充；发育时间线（γ成熟与SZ发病窗口吻合）；status=mainstream/confidence=medium（因果方向未明）
+
+**修订页面（4）**：
+- `wiki/concepts/gamma-oscillations.md` rev4 — 新增：Cardin 2009（PMID:19396156）和Sohal 2009（PMID:19396159）光遗传学双向因果证据；Lewis 2005精神分裂症PV/GAD67病理链；Gonzalez-Burgos 2008细胞类型特异GABA缺陷；Iaccarino 2016 AD 40Hz γ刺激降Aβ；Uhlhaas 2010发育视角；related新增 schizophrenia, alzheimers-disease；key_sources新增7个；opens_questions新增Q-gamma-ping-01, Q-gamma-ad-mechanism
+- `wiki/circuits/pv-interneurons.md` rev5 — 新增：Cardin 2009/Sohal 2009光遗传学证据；Bartos 2007突触特性；Lewis 2005精神分裂症；Iaccarino 2016 AD连接；Uhlhaas 2010发育成熟；key_sources新增6个
+- `wiki/diseases/alzheimers-disease.md` rev7 — 新增：Iaccarino 2016（40Hz感觉γ刺激降Aβ、激活微胶质细胞吞噬）；evidence表新增1行；related新增 gamma-oscillations, pv-interneurons；key_sources新增 PMID:27929004
+- `wiki/index.md` — 新增 schizophrenia 条目
+
+**矛盾登记（0）**：无新矛盾。注意：γ振荡的绑定假说争议（gamma-oscillations.md中已标记contested）本文未新增证据，维持原状。
+
+**新增开放问题（2）**：
+- Q-gamma-ping-01（中）：PING机制中锥体细胞稀疏性的维持机制
+- Q-gamma-ad-mechanism（高）：40Hz γ刺激降低AD Aβ的真实机制（微胶质/APP剪切/胶质淋巴）
+
+**图谱**：160 节点（+1 schizophrenia），948 边（+8 新边）
+
+---
+
 ## 2026-07-19（文章 #87·β振荡的三副面孔·统一框架·课程脊柱 2 × 课程脊柱 5）
 
 **源文章**：[[2026-07-19-beta-oscillations-cortical-prediction]] —《β振荡的三副面孔：运动刹车、感知反馈与记忆守护》

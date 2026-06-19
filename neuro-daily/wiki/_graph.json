@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-19",
-  "node_count": 159,
-  "edge_count": 940,
+  "updated": "2026-07-20",
+  "node_count": 160,
+  "edge_count": 948,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1456,6 +1456,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/cortical-layers.md"
+    },
+    {
+      "id": "schizophrenia",
+      "title": "精神分裂症",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/schizophrenia.md"
     }
   ],
   "edges": [
@@ -7032,6 +7041,54 @@
         "cnn-visual-cortex-analogy"
       ],
       "note": "视觉物体识别专页；腹侧流的核心计算目标；核心物体识别任务（core object recognition）；解开纠缠；线性分类；DiCarlo et al. 2012框架；待建页面"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "pv-interneurons",
+      "type": "mechanism-of",
+      "note": "dlPFC PV+细胞GAD67下调是精神分裂症认知症状的核心分子-细胞机制（Lewis 2005, Hughes 2024）"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of",
+      "note": "精神分裂症患者任务诱发dlPFC γ振荡功率无法升高，是工作记忆缺陷的近端振荡指标"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "working-memory",
+      "type": "related",
+      "note": "工作记忆缺陷是精神分裂症认知症状中损伤最一致的领域，与dlPFC γ振荡受损高度相关"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "dlPFC是精神分裂症认知病理的主要解剖焦点（PV+/GAD67/γ级联的发生地）"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "ei-balance",
+      "type": "related",
+      "note": "PV+损伤导致E/I平衡偏向兴奋方向，是精神分裂症更广泛神经病理背景"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "NMDA低功能假说与PV+损伤假说交叉互补（NMDA功能减弱可优先损伤PV+驱动）"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "DA系统异常（中脑边缘通路DA过多）驱动精神分裂症正性症状；认知症状更依赖PFC DA和GABA"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "两种疾病均涉及PV+细胞功能损伤和γ振荡受损；40Hz γ刺激是AD新兴治疗靶点"
     }
   ]
 }

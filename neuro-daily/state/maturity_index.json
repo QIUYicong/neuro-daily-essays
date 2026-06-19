@@ -991,5 +991,19 @@
     "revision_count": 1,
     "last_change": "2026-07-18",
     "change_reason": "新建（文章 #86，2026-07-18）。新皮层六层结构的存在、各层细胞类型和基本连接规则是100年以上的神经解剖学共识（Ramon y Cajal → Douglas & Martin → Harris & Shepherd）——established/high。本页覆盖L1-L6的功能计算角色（误差单元、预测单元、感觉门、CT反馈）是近年更好建立的层面，但解剖骨架本身毫无争议。"
+  },
+  "schizophrenia": {
+    "status": "mainstream",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_change": "2026-07-20",
+    "change_reason": "新建（文章 #88，2026-07-20）。PV+/GAD67/γ级联假说有死后尸检（多中心复制）+MEG/EEG（多实验室）+光遗传学（因果、非人灵长类/啮齿类）三层证据链——核心分子-回路链可信（mainstream），但PV+细胞GAD67下调的因果方向（原发vs代偿vs继发炎症）未明确（medium confidence）。"
+  },
+  "gamma-oscillations-rev4": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 4,
+    "last_change": "2026-07-20",
+    "change_reason": "修订rev3→rev4（文章 #88，2026-07-20）。新增光遗传学因果证据板块（Cardin 2009/Sohal 2009）和疾病连接板块（精神分裂症GAD67机制、AD 40Hz治疗靶点）。整体status维持established/high（核心PING机制和PV+必要充分性均已有光遗传学因果证明）；新增Q-gamma-ping-01（ING/PING相对贡献比例）和Q-gamma-ad-mechanism（40Hz Aβ清除机制）。"
   }
 }
