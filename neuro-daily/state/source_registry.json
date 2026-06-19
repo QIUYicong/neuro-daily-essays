@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8386,6 +8386,235 @@
         "theta oscillations memory and navigation comprehensive review",
         "hippocampal-entorhinal theta system",
         "theta as temporal organizer for sequence encoding"
+      ]
+    },
+    {
+      "pmid": "10576479",
+      "title": "Event-related EEG/MEG synchronization and desynchronization: basic principles",
+      "authors_short": "Pfurtscheller G, Lopes da Silva FH",
+      "journal": "Clinical Neurophysiology",
+      "year": 1999,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "ERD/ERS概念定义与测量方法",
+        "α功率降低=皮层激活框架",
+        "事件相关去同步化/同步化基本原理",
+        "频段特异性功率变化与认知过程对应"
+      ]
+    },
+    {
+      "pmid": "10704517",
+      "title": "Anticipatory biasing of visuospatial attention indexed by retinotopically specific alpha-band electroencephalography increases over occipital cortex",
+      "authors_short": "Worden MS et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2000,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "α预期性空间注意偏置",
+        "视网膜拓扑特异性α升高=忽略位置标记",
+        "视枕皮层预期性α侧化",
+        "经典空间注意α不对称实验证据"
+      ]
+    },
+    {
+      "pmid": "16887192",
+      "title": "EEG alpha oscillations: the inhibition-timing hypothesis",
+      "authors_short": "Klimesch W, Sauseng P, Hanslmayr S",
+      "journal": "Brain Research Reviews",
+      "year": 2007,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "抑制-时序假说（α ERS=主动抑制）",
+        "α相位与皮层可兴奋性周期性调制",
+        "α非均匀抑制=脉冲式抑制前提",
+        "α与信息路由的时序控制"
+      ]
+    },
+    {
+      "pmid": "18829955",
+      "title": "Neuronal mechanisms of cortical alpha oscillations in awake-behaving macaques",
+      "authors_short": "Bollimunta A et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2008,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "层流电极记录清醒猕猴α层别起源",
+        "L5（下颗粒层）是低级视觉区（V2/V4）α主要起搏点",
+        "IT皮层L2/3主导α（与V2/V4相反）",
+        "Granger因果分析α方向性",
+        "α与行为性能的区域特异性相关"
+      ]
+    },
+    {
+      "pmid": "18287498",
+      "title": "Prestimulus oscillatory activity in the alpha band predicts visual discrimination ability",
+      "authors_short": "van Dijk H et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2008,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "预刺激α功率预测视觉辨别表现",
+        "α效应独立于整体警觉水平",
+        "感知检测率与α功率负相关",
+        "预测性α功率作为感知能力生物标志物"
+      ]
+    },
+    {
+      "pmid": "21779269",
+      "title": "The Role of Alpha-Band Brain Oscillations as a Sensory Suppression Mechanism during Selective Attention",
+      "authors_short": "Foxe JJ, Snyder AC",
+      "journal": "Frontiers in Psychology",
+      "year": 2011,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "α感觉压制综合综述",
+        "跨感觉系统（视觉/听觉/体感）α压制证据",
+        "TMS因果验证α感知压制功能",
+        "特征注意中的额顶α控制机制",
+        "注意选择中α抑制vs增强的双向性"
+      ]
+    },
+    {
+      "pmid": "21779257",
+      "title": "Pulsed out of awareness: EEG alpha oscillations represent a pulsed-inhibition of ongoing cortical processing",
+      "authors_short": "Mathewson KE et al.",
+      "journal": "Frontiers in Psychology",
+      "year": 2011,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "脉冲式抑制模型（α=知觉门控）",
+        "α相位预测刺激觉察率",
+        "α波谷=高可兴奋窗口；α波峰=抑制窗口",
+        "知觉意识的α周期性调制"
+      ]
+    },
+    {
+      "pmid": "29044823",
+      "title": "The many characters of visual alpha oscillations",
+      "authors_short": "Clayton MS et al.",
+      "journal": "European Journal of Neuroscience",
+      "year": 2018,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "α五种功能角色分类框架",
+        "α作为预测者（自上而下预测信号）",
+        "α作为抑制者、路由器、时钟、保护者",
+        "功能多样性与统一机制的矛盾"
+      ]
+    },
+    {
+      "pmid": "29670518",
+      "title": "On the Physiological Modulation and Potential Mechanisms Underlying Parieto-Occipital Alpha Oscillations",
+      "authors_short": "Lozano-Soldevilla D",
+      "journal": "Frontiers in Computational Neuroscience",
+      "year": 2018,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "α分子机制的药理学证据",
+        "GABA能药物增强α（苯二氮䓬类）",
+        "NMDA受体拮抗剂降低α（氯胺酮）",
+        "α生成机制争议（视丘来源 vs 皮层内源性）"
+      ]
+    },
+    {
+      "pmid": "24268290",
+      "title": "Working memory and neural oscillations: α-γ versus θ-γ codes for distinct WM information?",
+      "authors_short": "Roux F, Uhlhaas PJ",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2014,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "α-γ vs θ-γ工作记忆双代码假说",
+        "α-γ PAC编码感觉内容（视觉空间）",
+        "θ-γ PAC编码序列/顺序信息（语言）",
+        "新皮层WM倾向α-γ；海马路由倾向θ-γ",
+        "Q-theta-primate问题的核心理论框架"
+      ]
+    },
+    {
+      "pmid": "31972202",
+      "title": "Pulvino-cortical interaction: An integrative role in the control of attention",
+      "authors_short": "Bourgeois A et al.",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": 2020,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "枕核（pulvinar）作为α广播器",
+        "视丘α生成与增益调制机制",
+        "枕核-皮层相互作用的多模态证据",
+        "病变+fMRI+MEG整合综述",
+        "α在视丘层面的注意控制功能"
+      ]
+    },
+    {
+      "pmid": "30887701",
+      "title": "The roles of alpha oscillation in working memory retention",
+      "authors_short": "Wianda E, Ross B",
+      "journal": "Brain and Behavior",
+      "year": 2019,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "α-γ PAC在WM三阶段（编码/维持/提取）的角色",
+        "MEG实验直接测量α-γ相位振幅耦合",
+        "α-γ双代码的直接行为学对应证据",
+        "WM容量限制的α振荡机制"
+      ]
+    },
+    {
+      "pmid": "32513573",
+      "title": "Spontaneous Brain Oscillations and Perceptual Decision-Making",
+      "authors_short": "Samaha J et al.",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2020,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "α影响感知决策标准（c）而非灵敏度（d'）",
+        "自发振荡与感知决策的关系综述",
+        "α偏倚知觉判断的信号检测论框架",
+        "Q-alpha-c-vs-dprime问题的关键文献"
+      ]
+    },
+    {
+      "pmid": "38330177",
+      "title": "Alpha Oscillations and Temporal Binding Windows in Perception—A Critical Review and Best Practice Guidelines",
+      "authors_short": "Schoffelen JM et al.",
+      "journal": "Journal of Cognitive Neuroscience",
+      "year": 2024,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "α时序绑定窗口假说批判性综述",
+        "IAF（个体α频率）与时序整合的因果证据评估",
+        "α节律与时间感知的方法论问题",
+        "最佳实践指南对未来研究的指导"
+      ]
+    },
+    {
+      "pmid": "40500659",
+      "title": "Enhancing working memory in MCI: Modulating alpha-gamma coupling and gamma oscillations via rTMS",
+      "authors_short": "Yuan X et al.",
+      "journal": "Neurotherapeutics",
+      "year": 2025,
+      "first_used": "2026-07-22",
+      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "aspects_covered": [
+        "rTMS增强额-枕α-γ PAC改善WM的因果证据",
+        "MCI人群中α-γ耦合与WM的临床相关性",
+        "γ振荡调制作为认知增强靶点",
+        "α-γ PAC的神经调控干预初步证据"
       ]
     }
   ]

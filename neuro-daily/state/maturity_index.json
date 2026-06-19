@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-22",
   "levels": [
     "speculative",
     "emerging",
@@ -9,6 +9,14 @@
     "contested"
   ],
   "pages": [
+    {
+      "slug": "alpha-oscillations",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 12,
+      "last_status_change": "2026-07-22",
+      "reason": "创建 2026-07-22（文章 #90）。α振荡（8–12 Hz）的基本特征（EEG最强振荡、ERD/ERS框架）是1990年代以来教科书级共识（Pfurtscheller & Lopes da Silva 1999）；空间注意α拓扑门控有多实验室重复（Worden 2000、Foxe & Snyder 2011 TMS因果验证）；抑制-时序假说（Klimesch 2007）获广泛接受；视丘-皮层生成机制经层流电极（Bollimunta 2008）因果分析支持。confidence=high 针对注意门控与抑制功能层；WM α-γ PAC机制confidence=medium（相关性为主，因果证据弱）；整体置信度定为high（核心功能层有力证据）。"
+    },
     {
       "slug": "thalamus",
       "status": "established",

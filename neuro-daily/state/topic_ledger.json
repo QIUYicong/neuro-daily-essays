@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-07-21",
-  "total_articles": 89,
+  "last_updated": "2026-07-22",
+  "total_articles": 90,
   "entries": [
+    {
+      "date": "2026-07-22",
+      "title": "α振荡：视丘节拍器、感知闸门与人类工作记忆的抑制性容量机制",
+      "filename": "2026-07-22-alpha-oscillations-attention-wm.md",
+      "wiki_pages_created": ["wiki/concepts/alpha-oscillations.md"],
+      "wiki_pages_revised": ["wiki/concepts/theta-gamma-coupling.md", "wiki/concepts/working-memory.md", "wiki/systems/thalamus.md"],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "α振荡（8–12 Hz）是如何通过视丘-皮层回路（TRN-TC环路+枕核广播）产生的？抑制-时序假说（Klimesch 2007）如何解释ERS=主动压制而非闲置？α振荡在空间注意（差异化α拓扑图）和工作记忆（α-γ PAC三阶段）中发挥什么功能？灵长类工作记忆是否通过α-γ跨频率耦合替代/补充θ-γ嵌套实现容量分格（Q-theta-primate）？",
+      "layer": ["molecular", "cellular", "microcircuit", "brain-region", "whole-brain-network", "cognition", "behavior"],
+      "curriculum_track": "课程脊柱2（振荡·α振荡机制与认知功能）；课程脊柱5（认知控制·注意与工作记忆）；承接#89（θ-γ耦合·WM容量）和#67（DAN·注意回路）；回答Q-theta-primate；连接视丘系统（枕核α广播器）",
+      "topic_tags": ["alpha oscillations 8-12 Hz", "ERD ERS", "inhibition timing hypothesis Klimesch 2007", "pulsed inhibition Mathewson 2011", "thalamocortical TRN-TC alpha", "pulvinar LP alpha broadcast", "Bollimunta 2008 awake macaque", "Granger causality L5 alpha", "Worden 2000 retinotopic alpha", "Foxe Snyder 2011 sensory suppression", "van Dijk 2008 prestimulus alpha", "alpha affects criterion c", "Samaha 2020 perceptual decision", "alpha-gamma PAC working memory", "Roux Uhlhaas 2014 dual code", "Wianda Ross 2019 WM three stages", "Yuan 2025 rTMS MCI"],
+      "open_questions_raised": ["Q-alpha-thalamic-vs-cortical", "Q-alpha-c-vs-dprime"],
+      "open_questions_updated": ["Q-theta-primate"],
+      "article_number": 90
+    },
     {
       "date": "2026-07-21",
       "title": "海马的节律钟表：θ-γ跨频率耦合如何量化工作记忆容量",

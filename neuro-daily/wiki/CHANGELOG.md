@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-22（文章 #90·α振荡·视丘节拍器·感知闸门·α-γ PAC工作记忆机制）
+
+**源文章**：[[2026-07-22-alpha-oscillations-attention-wm]] —《α振荡：视丘节拍器、感知闸门与人类工作记忆的抑制性容量机制》
+
+**新建页面（1）**：
+- `wiki/concepts/alpha-oscillations.md`（α振荡·rev1）🟢 established·high confidence — α振荡（8–12 Hz）的视丘-皮层双源生成机制（TRN→TC→皮层→TRN闭合环路，T型Ca²⁺通道驱动；枕核/LP复合体"α广播器"）；皮层L5层流证据（Bollimunta 2008 清醒猕猴Granger因果，L5主导低级视觉区α；高级联合区L2/3方向相反）；抑制-时序假说（Klimesch 2007：ERS=主动压制，非闲置）；脉冲式门控（Mathewson 2011：α创造交替开/关微态）；差异化α拓扑图（Worden 2000/Foxe 2011：被忽略位置α升高，跨感觉系统一致）；α影响感知决策标准c非灵敏度d'（Samaha 2020）；Clayton 2018五功能框架（抑制器/促进者/时序绑定/预测者/γ协调者）；α-γ PAC三阶段WM机制（Roux 2014双代码+Wianda 2019编码/维持/提取相转换）；rTMS因果初步证据（Yuan 2025，低-中置信度）；关键证据表8条；12个关联；开放问题Q-theta-primate（继承）、Q-alpha-thalamic-vs-cortical（新）、Q-alpha-c-vs-dprime（新）
+
+**修订页面（3）**：
+- `wiki/concepts/theta-gamma-coupling.md` rev2 — updated=2026-07-22，revision_count 1→2；frontmatter related 新增 alpha-oscillations；key_sources 新增 PMID:24268290（Roux 2014）、PMID:30887701（Wianda 2019）；Q-theta-primate 更新为"α-γ证据积累中：Roux 2014双代码模型+Wianda 2019三阶段变化，但因果性tACS/rTMS证据仍弱，问题仍open"；source_articles 新增 2026-07-22；修订历史追加一行
+- `wiki/concepts/working-memory.md` rev9 — updated=2026-07-22，revision_count 8→9；frontmatter related 新增 alpha-oscillations；opens_questions 新增 Q-theta-primate；source_articles 新增 2026-07-22；key_sources 新增 PMID:24268290、PMID:30887701；正文新增"α振荡在工作记忆中的角色：α-γ双代码补充"节（三阶段WM α-γ PAC变化+α-γ vs θ-γ分工假说）；修订历史追加一行
+- `wiki/systems/thalamus.md` rev4 — updated=2026-07-22，revision_count 3→4；frontmatter related 新增 alpha-oscillations；source_articles 新增 2026-07-22；key_sources 新增 PMID:31972202（Bourgeois 2020）；连接节新增 [[alpha-oscillations]] — 枕核/LP通过TRN-TC回路产生清醒α振荡，同步调制多个皮层区域α功率（广播式α门控）；修订历史追加一行
+
+**矛盾登记（0）**：无新矛盾（α-γ PAC vs θ-γ CFC争议作为开放问题Q-theta-primate处理；α影响决策标准c vs d'的方法论张力登记为Q-alpha-c-vs-dprime）
+
+**新增开放问题（2）**：
+- Q-alpha-thalamic-vs-cortical（中优先级）：清醒状态下，枕核/TRN来源的α与皮层L5产生的α是同一机制的不同层级还是两个独立振荡器？二者如何相互影响？
+- Q-alpha-c-vs-dprime（中优先级）：α振荡究竟影响感知决策标准（c）还是真实感觉灵敏度（d'）？两种研究结论的矛盾来自方法学差异还是真实分歧？
+
+**Q-theta-primate 证据更新（2026-07-22）**：
+- 新增α-γ PAC证据：Roux & Uhlhaas 2014（PMID:24268290）提出α-γ vs θ-γ双代码模型；Wianda & Ross 2019（PMID:30887701）报告WM三阶段中额颞α-γ PAC系统变化；Yuan 2025（PMID:40500659）rTMS增强α-γ PAC改善MCI工作记忆初步因果证据
+- 状态更新：问题仍open，但α-γ证据在积累；θ-γ vs α-γ双代码竞争假说进入关注列表
+
+**图谱**：162 节点，998 边（+1 节点 alpha-oscillations，+9 边 alpha-oscillations→各wiki节点，+1边 theta-gamma-coupling→alpha-oscillations）
+
+---
+
 ## 2026-07-21（文章 #89·海马的节律钟表·θ-γ跨频率耦合·容量分格模型·Colgin双通道路由）
 
 **源文章**：[[2026-07-21-theta-gamma-coupling-working-memory]] —《海马的节律钟表：θ-γ跨频率耦合如何量化工作记忆容量》

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-21",
-  "node_count": 161,
-  "edge_count": 989,
+  "updated": "2026-07-22",
+  "node_count": 162,
+  "edge_count": 998,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1474,6 +1474,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/theta-gamma-coupling.md"
+    },
+    {
+      "id": "alpha-oscillations",
+      "title": "α振荡",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/alpha-oscillations.md"
     }
   ],
   "edges": [
@@ -6945,6 +6954,66 @@
       "to": "theta-gamma-coupling",
       "type": "related",
       "note": "工作记忆4±1容量与θ-γ嵌套分格数在定量上吻合（θ/γ比率预测）"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "thalamocortical-circuit",
+      "type": "mechanism-of",
+      "note": "α振荡的主要生成回路：TRN→TC→皮层→TRN闭合环路，T型Ca²⁺通道驱动~10 Hz共振；枕核/LP复合体作为广播式α发生器"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "working-memory",
+      "type": "regulates",
+      "note": "α-γ跨频率耦合（PAC）在工作记忆的编码/维持/提取三阶段协调信息分格；Roux & Uhlhaas 2014双代码模型（内容vs顺序）"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "theta-gamma-coupling",
+      "type": "related",
+      "note": "α-γ CFC与θ-γ CFC在工作记忆中的双代码争议：α-γ编码内容性信息，θ-γ编码顺序/时序信息；Q-theta-primate：灵长类是否用α-γ替代θ-γ？"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "gamma-oscillations",
+      "type": "related",
+      "note": "α-γ相位幅度耦合（PAC）：α相位调制γ振幅，α波谷开放γ编码窗口，α波峰实施抑制（Clayton 2018 五功能框架）"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "dorsal-attention-network",
+      "type": "related",
+      "note": "额顶DAN（FEF/IPS）通过自上而下通路控制感觉皮层α拓扑分布，实现预期性空间注意门控（Worden 2000 + Foxe & Snyder 2011）"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "thalamus",
+      "type": "related",
+      "note": "枕核/LP复合体作为\"α广播器\"同步多个皮层区域α功率；TRN-TC回路是清醒α的视丘来源（Bourgeois 2020）"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "cortical-layers",
+      "type": "related",
+      "note": "低级视觉区（V2/V4）：L5下颗粒层为主要α发生器（Granger因果方向↑）；高级联合区（IT）：L2/3超颗粒层主导且功能相反（Bollimunta 2008）"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "sleep-spindles",
+      "type": "related",
+      "note": "睡眠纺锤波（12–14 Hz sigma）与清醒α（8–12 Hz）共享TRN-TC回路机制（T型Ca²⁺通道，TRN起搏）；频率差异源于不同调制态"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "beta-oscillations",
+      "type": "related",
+      "note": "α（8–12 Hz）与β（13–30 Hz）频率相邻但功能对立：α=选择性抑制（门控无关输入），β=状态维持（保持现有表征）"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "alpha-oscillations",
+      "type": "related",
+      "note": "灵长类WM中α-γ PAC可能替代/补充θ-γ嵌套机制；Q-theta-primate悬而未决的核心问题（Roux & Uhlhaas 2014）"
     }
   ],
   "dangling_references": [

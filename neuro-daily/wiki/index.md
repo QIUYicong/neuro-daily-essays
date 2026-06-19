@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-21（第89篇·海马的节律钟表·θ-γ跨频率耦合×Lisman-Idiart容量分格模型×Colgin双γ通道路由×人类颅内证据）· 主题页总数：**157**（新建1页：concepts/theta-gamma-coupling；修订3页：concepts/theta-oscillations rev3→rev4、concepts/gamma-oscillations rev4→rev5、concepts/working-memory rev7→rev8；图谱161节点、989边；新增Q-tgc-01、Q-tgc-02、Q-tgc-03）
+> 最后更新：2026-07-22（第90篇·α振荡·视丘节拍器×感知闸门×α-γ PAC工作记忆机制）· 主题页总数：**158**（新建1页：concepts/alpha-oscillations；修订3页：concepts/theta-gamma-coupling rev1→rev2、concepts/working-memory rev8→rev9、systems/thalamus rev3→rev4；图谱162节点、998边；新增Q-alpha-thalamic-vs-cortical、Q-alpha-c-vs-dprime；Q-theta-primate证据更新）
 
 ---
 
@@ -60,6 +60,7 @@
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-07-21 rev4]**
 - 🔵 [θ-γ跨频率耦合](concepts/theta-gamma-coupling.md) — Lisman-Idiart 1995容量分格模型：每个θ周期嵌套约4–6个γ爆发，每个γ爆发承载一项工作记忆（对应4±1容量上限）；Colgin 2009慢γ（θ波峰，CA3）/快γ（θ波谷，MEC）双通道时分路由；Axmacher 2010人类颅内PAC证据；Huang 2026序列规划扩展 **[NEW 2026-07-21]**
+- 🟢 [α振荡（8–12 Hz）](concepts/alpha-oscillations.md) — 视丘-皮层回路（TRN-TC）与皮层L5协同生成的最强神经振荡；抑制-时序假说：ERS=主动压制无关感觉输入；Worden 2000/Foxe 2011确立差异化α拓扑门控；枕核/LP复合体为α广播器（Bourgeois 2020）；α-γ PAC在工作记忆三阶段（编码/维持/提取）的分格机制（Roux 2014双代码模型×Wianda 2019三阶段证据）；Q-theta-primate的α-γ替代假说 **[NEW 2026-07-22]**
 - 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重耦合）；Maingret 2016 闭环因果证据**[修订 2026-07-07]**
 - 🟢 [场所细胞](concepts/place-cells.md) — 海马CA1/CA3位置特异放电神经元；稀疏编码（1–5%激活）；重映射（不同环境正交表征）；θ相位前移实现双重位置编码；SWR期间序列以20倍速重播；是认知地图基本编码单元 **[NEW 2026-06-22]**（填补长期悬空引用）
 - 🟢 [网格细胞](concepts/grid-cells.md) — 内侧内嗅皮层MEC以六边形格点激活的神经元；三参数（间距/方向/相位）完全描述；4–7离散模块比√2；背腹向间距梯度（20cm–1.5m）；路径整合的坐标输出；活跃于心理模拟和概念空间（Qu 2026 Cell：发育成熟预测流体智力）**[NEW 2026-06-22]**（填补长期悬空引用）

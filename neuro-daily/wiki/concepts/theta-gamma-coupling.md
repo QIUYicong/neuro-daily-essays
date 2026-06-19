@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-07-21
-updated: 2026-07-21
-revision_count: 1
+updated: 2026-07-22
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition, behavior]
-related: [theta-oscillations, gamma-oscillations, working-memory, place-cells, hippocampal-circuit, theta-phase-precession, sharp-wave-ripples, temporal-coding-hierarchy, pv-interneurons]
+related: [theta-oscillations, gamma-oscillations, working-memory, place-cells, hippocampal-circuit, theta-phase-precession, sharp-wave-ripples, temporal-coding-hierarchy, pv-interneurons, alpha-oscillations]
 prerequisites: [theta-oscillations, gamma-oscillations, hippocampal-circuit]
 opens_questions: [Q-tgc-01, Q-tgc-02, Q-tgc-03, Q-theta-primate]
-source_articles: [2026-07-21-theta-gamma-coupling-working-memory]
-key_sources: ["PMID:7878473", "PMID:23522038", "PMID:19924214", "PMID:20133762", "PMID:29538384", "PMID:41758661"]
+source_articles: [2026-07-21-theta-gamma-coupling-working-memory, 2026-07-22-alpha-oscillations-attention-wm]
+key_sources: ["PMID:7878473", "PMID:23522038", "PMID:19924214", "PMID:20133762", "PMID:29538384", "PMID:41758661", "PMID:24268290", "PMID:30887701"]
 ---
 
 # θ-γ跨频率耦合 (Theta-Gamma Cross-Frequency Coupling)
@@ -91,7 +91,7 @@ Huang 等（2026）的 MEG 研究显示，在人类导航的前向序列规划�
 - **Q-tgc-01（高优先级）**：在人类中，因果性的θ-γ PAC操控是否能改变工作记忆容量？tACS调制θ频率的行为效果是否与模型预测方向一致且效应量显著？
 - **Q-tgc-02（中优先级）**：Colgin 2009的慢γ/快γ路由逻辑在人类海马和前额叶中是否成立？人类颅内数据是否能重复双通道相位分离？
 - **Q-tgc-03（低优先级）**：Köster（2024）预测θ早相位编码内部预期、晚相位编码预测误差——这一预测编码视角的θ-γ框架是否有直接实验证据？
-- **Q-theta-primate**（从theta-oscillations继承）：灵长类缺乏稳健节律性θ，人类工作记忆是否通过α振荡（8–12 Hz）实现类似分格机制？
+- **Q-theta-primate（高优先级，更新）**：灵长类缺乏稳健节律性θ，人类工作记忆是否通过**α振荡（8–12 Hz）** 实现类似分格机制？2026-07-22新增证据（见[[alpha-oscillations]]）：Roux & Uhlhaas (2014, PMID:24268290) 提出α-γ vs θ-γ双代码模型；Wianda & Ross (2019, PMID:30887701) 报告了WM三阶段中额颞α-γ PAC的系统变化；但因果性tACS/rTMS证据仍弱。问题仍open，但α-γ证据在累积。
 
 ## 矛盾说明
 
@@ -102,6 +102,7 @@ Huang 等（2026）的 MEG 研究显示，在人类导航的前向序列规划�
 ## 修订历史
 
 - 2026-07-21 · 创建 · 回答Q-gamma-capacity（γ振荡wiki开放问题：θ/γ嵌套是否是WM ~4项容量节律基础）· 基于《海马的节律钟表》文章 #89 · 初始置信度：中
+- 2026-07-22 · 修订 · 补充α-γ CFC作为人类WM的可能替代/补充机制（Roux & Uhlhaas 2014, Wianda 2019）；更新Q-theta-primate进展；增加[[alpha-oscillations]]关联 · 依据《α振荡》文章 #90
 
 ## 来源文章
 

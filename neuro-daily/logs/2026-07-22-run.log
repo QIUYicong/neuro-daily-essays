@@ -1,0 +1,85 @@
+# 运行日志 · 2026-07-22
+
+**状态**：成功
+**文章编号**：#90
+**文章日期**：2026-07-22
+**系统日期**：2026-06-19（容器系统时钟）
+**知识库日期**：2026-07-22（使用"最后文章日期+1"策略，延续前序会话惯例）
+
+---
+
+## 运行过程
+
+**步骤 A — 分支同步**：
+- 仓库：QIUYicong/neuro-daily-essays
+- 分支：main（直接推送模式）
+- 上次文章：#89（2026-07-21），主题：θ-γ跨频率耦合
+
+**步骤 B — 话题选择**：
+- 选择理由：(1) 直接回答 unresolved_questions.md 中标记为 HIGH 优先级的 Q-theta-primate——"灵长类（含人类）前额叶工作记忆到底用α-γ还是θ-γ代码？"；(2) α振荡是知识库中仅有的主要振荡类型（beta/gamma/theta 均已有专页），尚缺少专页；(3) alpha-oscillations 在 _graph.json 中已被多个概念（working-memory、thalamocortical-circuit、cortical-layers 等）引用但节点缺失；(4) Roux & Uhlhaas 2014 和 Wianda & Ross 2019 提供了α-γ PAC的直接WM证据，可从证据面部分回应 Q-theta-primate
+- 话题：α振荡：视丘节拍器、感知闸门与人类工作记忆的抑制性容量机制
+
+**步骤 C — 来源研究**：
+- 所有 PMID 通过 NCBI E-utilities esearch/efetch 交叉核验
+- 15个来源；4个开放全文（PMC3132683=Foxe & Snyder 2011；PMC2692971=Bollimunta 2008；Wianda & Ross 2019 开放获取；Yuan et al. 2025 开放获取）
+- PMC URL 修正：使用 https://pmc.ncbi.nlm.nih.gov/articles/... 替代旧式 www.ncbi.nlm.nih.gov/pmc/articles/...（后者返回301重定向）
+- PMID 核验发现 PMC2692971 内容可能对应 Bollimunta 2008 而非 Klimesch 2007，已在 sources.json 中注记
+
+**步骤 D — 写作**：
+- 文章：`neuro-daily/articles/2026-07-22-alpha-oscillations-attention-wm.md`（约5500字）
+- 阅读笔记：`neuro-daily/notes/2026-07-22-reading-notes.md`（15个来源逐一分析）
+- 来源清单：`neuro-daily/sources/2026-07-22-sources.json`（total_sources=15）
+
+**步骤 E — Wiki 固结**：
+- 新建：`neuro-daily/wiki/concepts/alpha-oscillations.md`（rev1，status: established，confidence: high，12个关键来源）
+- 修订：`neuro-daily/wiki/concepts/theta-gamma-coupling.md`（rev1→rev2）— 新增 alpha-oscillations 到 related，补充 Q-theta-primate 证据更新，添加 PMID:24268290 和 PMID:30887701
+- 修订：`neuro-daily/wiki/concepts/working-memory.md`（rev8→rev9）— 新增 α-γ PAC 工作记忆章节，Q-theta-primate 加入 open_questions
+- 修订：`neuro-daily/wiki/systems/thalamus.md`（rev3→rev4）— 新增 alpha-oscillations 连接，添加枕核综述 PMID:31972202
+- 更新：`neuro-daily/wiki/_graph.json`（161→162节点，989→998边；新节点：alpha-oscillations；新边×10）
+- 更新：`neuro-daily/wiki/index.md`（总页数 157→158，日期更新，图谱统计更新）
+- 更新：`neuro-daily/wiki/CHANGELOG.md`（新增 2026-07-22 节，记录 1 新建页+3 修订页）
+
+**步骤 F — 治理文件更新**：
+- `neuro-daily/state/topic_ledger.json`（total_articles: 89→90，prepend article #90）
+- `neuro-daily/state/unresolved_questions.md`（新增 Q-alpha-thalamic-vs-cortical、Q-alpha-c-vs-dprime；Q-theta-primate 证据更新节）
+- `neuro-daily/state/maturity_index.json`（新增 alpha-oscillations 条目，status=established，confidence=high）
+- `neuro-daily/state/monthly_synthesis.md`（月度第22篇）
+- `neuro-daily/state/source_registry.json`（新增15个来源，总计369条）
+
+**步骤 G — Git 操作**：
+- git add + git commit + git pull --rebase + git push origin main
+- 提交信息：Add neuro daily article #90 + wiki consolidation for 2026-07-22: α振荡
+
+---
+
+## 质量检查
+
+| 检查项 | 状态 |
+|--------|------|
+| ≥5 来源 | ✅ 15个 |
+| ≥2 开放全文 | ✅ 4个（PMC3132683、PMC2692971、Wianda 2019、Yuan 2025） |
+| ≥1 官方来源 | ⚠️ 同行评审期刊，无独立官方机构来源（NIH/NINDS等） |
+| 不含医学建议 | ✅ |
+| 不使用Sci-Hub/盗版 | ✅ |
+| 所有PMID已验证 | ✅（通过NCBI efetch核验） |
+| 不编造PMID/结论 | ✅ |
+| 知识图谱验证 | ✅（python3验证：162节点，998边） |
+
+---
+
+## 新增开放问题
+
+- **Q-alpha-thalamic-vs-cortical**（中等优先级）：α振荡主要起源于视丘（TRN-TC电路）还是皮层内源性网络？层流记录显示L5为低级视觉区主要起搏点，但与视丘来源假说的精确贡献比例仍待确定。
+- **Q-alpha-c-vs-dprime**（中等优先级）：α功率影响感知决策标准（c）还是灵敏度（d'）？Samaha 2020 综述提出α偏倚判断标准，但多个实验显示两者均受影响，需要更严格的信号检测论实验设计。
+
+## Q-theta-primate 证据更新
+
+来自本次文章的新证据：Roux & Uhlhaas 2014（PMID:24268290）提出人类新皮层偏好α-γ PAC，Wianda & Ross 2019（PMID:30887701）MEG直接测量WM三阶段的α-γ耦合，Yuan et al. 2025（PMID:40500659）rTMS增强α-γ PAC改善MCI工作记忆。综合推测：灵长类/人类 WM 编码倾向新皮层α-γ PAC；θ-γ嵌套更多在海马参与的序列/情节记忆中主导。Q-theta-primate 状态从"未解答"→"部分提供证据"（证据来自人类EEG/MEG，非灵长类侵入性记录）。
+
+---
+
+## 注意事项
+
+系统日期为 2026-06-19，但知识库已通过前序会话推进至 2026-07-21。本次使用 2026-07-22 作为文章日期，续接知识库内在的顺序连续性。这是自第34篇以来所有会话遵循的惯例（参见 logs/2026-06-19-run.log）。
+
+本次运行跨两个上下文窗口（前序会话完成步骤A-D及部分步骤E，本次会话完成剩余步骤E、F、G）。知识图谱 _graph.json 通过 Python json.load 验证，节点和边数计数一致。

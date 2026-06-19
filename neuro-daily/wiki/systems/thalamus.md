@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-01
-revision_count: 3
+updated: 2026-07-22
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network]
+related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism, Q-dan-01]
-source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS]
-key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752"]
+source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm]
+key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202"]
 ---
 
 # 视丘 (Thalamus)
@@ -87,6 +87,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - [[thalamocortical-circuit]] — TC⟷TRN 振荡回路；核心/矩阵通路；详细回路结构
 - [[thalamic-firing-modes]] — tonic vs burst 双模切换的离子通道机制
 - [[sleep-spindles]] — TRN CaV3.3 爆发驱动的 TRN⟷TC 振荡=纺锤波起搏器
+- [[alpha-oscillations]] — 枕核（Pulvinar）/LP通过TRN-TC回路产生清醒α振荡，同步调制多个皮层区域α功率（广播式α门控）
 - [[working-memory]] — MD 维持 PFC 工作记忆晚期延迟活动
 - [[prefrontal-cortex]] — MD 是 PFC 的主要视丘搭档（双向驱动连接）
 - [[v1-primary-visual-cortex]] — Pulvinar 灭活→V1 反应消失；视觉注意空间门控
@@ -106,9 +107,11 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - 2026-06-30 · 修订（rev2） · 基于文章 #66《视丘的双面人格》· 更新"双模放电"小节：加入 Borden 2022 清醒因果实验结果（爆发→时序精度↑非幅度↑）和 Whitmire 2016 爆发-强直连续谱；更新 Q-thalamus-burst-awake 状态为"部分回答"；新增 key_sources 2 条
 
 - 2026-07-01 · 修订（rev3） · 基于文章 #67《空间注意的神经回路》· 新增 DAN（FEF/IPS）→TRN 通路作为皮层注意信号向下传递的接口；回答了 Q-thalamus-gating-mechanism 中关于 FEF→TRN 感觉门控的部分机制；related 新增 dorsal-attention-network；新增 Q-dan-01 交叉引用
+- 2026-07-22 · 修订（rev4） · 基于文章 #90《α振荡》· 新增枕核/LP作为清醒α振荡的广播来源（TRN-TC回路→α同步多皮层区域）；related新增alpha-oscillations；key_sources新增PMID:31972202
 
 ## 来源文章
 
 - [[2026-06-03-thalamus-gatekeeper-cognition]]
 - [[2026-06-30-thalamic-burst-t-type-calcium-timing-gate]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
+- [[2026-07-22-alpha-oscillations-attention-wm]]
