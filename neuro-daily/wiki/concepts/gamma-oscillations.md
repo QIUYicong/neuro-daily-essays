@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-04
-revision_count: 3
-dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets]
+updated: 2026-07-20
+revision_count: 4
+dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular, synaptic, disease]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, schizophrenia, sst-interneurons, cortical-layers]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
-opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron]
-key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192"]
+opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-gamma-ping-ling-01, Q-gamma-sst-pv]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-07-20-gamma-oscillations-ping-ing-mechanism]
+key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:7854418", "PMID:19396159", "PMID:19396156", "PMID:22114273", "PMID:26912589", "PMID:22355184", "PMID:32859716", "PMID:27927782"]
 ---
 
 # γ 振荡 (Gamma Oscillations, 30–80 Hz)
@@ -33,26 +33,56 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 
 **ING-PING 转换**（Williams et al. 2026, PMID:41558964）：在内嗅皮层中，兴奋性驱动的强度可以调节从 ING 主导（快速 ~80 Hz）到 PING 主导（较慢 ~50–60 Hz）的模式切换。
 
-## 生成机制（ING vs PING）
+## 生成机制（ING vs PING）——分子到回路
 
-**PING 机制**（Pyramidal-Interneuron Network Gamma）：
-1. 锥体细胞放电 → 通过 AMPA 受体兴奋 PV 篮状细胞
-2. PV 篮状细胞产生强力 GABA_A 抑制锥体细胞（perisomatic，~10–15 ms 抑制窗口）
-3. 抑制衰减后，锥体细胞再次去极化放电
-4. 循环产生 ~30–80 Hz 节律；频率由 GABA_A 动力学决定
+**历史起点**（Whittington et al. 1995, PMID:7854418）：在离体海马脑片中激活 mGluR，即使 AMPA 受体被阻断（锥体细胞失活），中间神经元网络仍自发产生 ~40 Hz 振荡。证明 γ 可在没有锥体细胞的情况下由纯 I-I 网络生成（ING 的实验起点）。
+
+**GABA-A 动力学是 γ 频率的分子时钟**（Keeley et al. 2017, PMID:27927782, PMCID:PMC5338627）：抑制性突触后电位的衰减时间常数 τ_decay 决定振荡周期：
+- τ_decay ≈ 5 ms（快速 PV 亚型）→ 70–80 Hz 快速 γ
+- τ_decay ≈ 15 ms（慢速 PV 亚型）→ 30–40 Hz 慢速 γ
+- 两种亚型共存 → 双峰 γ 频谱（网络可同时维持慢 γ 和快 γ）
 
 **ING 机制**（Interneuron Network Gamma）：
-- 纯由相互连接的 PV 中间神经元自主产生振荡
-- 不需要锥体细胞的时序驱动；外部持续性输入（如 ACh、谷氨酸驱动）即可维持
-- 频率通常更高（~80 Hz）
-- Williams et al. 2026（PMID:41558964）：兴奋性驱动增强可触发 ING→PING 转换
+1. 外部持续兴奋（ACh、mGluR 激活）驱动 PV 细胞去极化
+2. PV 细胞率先放电 → 通过 GABA-A 相互抑制邻近 PV 细胞
+3. GABA-A 衰减（τ_decay）→ 抑制解除 → 所有 PV 细胞同步再放电
+4. 不需要锥体细胞参与；频率由 τ_decay + 持续兴奋强度共同决定
+5. 典型频率：50–80 Hz；高兴奋驱动下主导
 
-关键：PV 细胞的**快速放电能力**（无适应性）和 GABA_A 受体的**快速动力学**保证高频节律精度（Buzsáki & Wang 2012, PMID:22443509, PMC:PMC4049541）。
+**PING 机制**（Pyramidal-Interneuron Network Gamma）：
+1. 外部输入驱动锥体细胞放电
+2. 锥体细胞 → AMPA → PV 篮状细胞激活
+3. PV 篮状细胞 → GABA-A 胞体抑制 → 锥体细胞超极化（perisomatic shunting）
+4. GABA-A 衰减（τ_decay）→ 锥体细胞再次放电
+5. 频率由 τ_decay + E→I 突触延迟共同决定；中等兴奋驱动时主导
+6. 典型频率：30–60 Hz
+
+**ING-PING 竞争与选择**（Viriyopase et al. 2016, PMID:26912589）：当两种机制共存时，产生**更高频率**的机制压制另一个。网络自动选择与当前兴奋驱动强度相匹配的机制。ING-PING 转换还受兴奋驱动强度调控（Williams et al. 2026, PMID:41558964）。
+
+**双层 γ 生成器**（Ainsworth et al. 2011, PMID:22114273）：听觉皮层存在层级特异的双 γ：
+- L2/3：间隙连接依赖型慢 γ（30–45 Hz，ING-like）
+- L4：PING 型快 γ（50–80 Hz，输入驱动）
+两者通过中间神经元投射互相影响并可发生层间同步。
+
+**SST+ 细胞的贡献**（Antonoudiou et al. 2020, PMID:32859716, PMCID:PMC7531548）：在海马中，SST+ 细胞对慢 γ 贡献同等重要；光激活 SST+ 可诱发独立的快 γ（~80 Hz）。γ 生成不只是 PV+ 的专属功能——不同亚型中间神经元贡献不同频率段。
+
+关键：PV 细胞的**快速放电能力**（无适应性）和 GABA-A 受体的**快速动力学**保证高频节律精度（Buzsáki & Wang 2012, PMID:22443509, PMC:PMC4049541）。
 
 **注意**：Buzsáki & Wang 强调应区分真正的网络振荡与单纯的高频功率增加。
 
-## 在精神分裂症中的病理证据（Hughes et al. 2024, PMID:39381500）
+**光遗传学因果证据**：
+- Sohal et al. 2009（PMID:19396159）：光激活 PV 细胞 → γ 功率增加 + 信噪比提升；光抑制 PV → γ 减少。首次因果证明 PV 细胞是 γ 的必要条件。
+- Cardin et al. 2009（PMID:19396156）：驱动 FS 细胞（PV+）在 40 Hz → 选择性 γ；感觉刺激反应幅度和精度受 γ 相位门控（兴奋窗口 > 抑制窗口）。
 
+## 在精神分裂症中的病理证据
+
+**分子级联（Gonzalez-Burgos & Lewis 2012, PMID:22355184）**：
+1. NMDA 受体低活 → PV 细胞（高密度 NR2A-NMDA）特别受损
+2. → GAD67 mRNA 下调（GABA 合成限速酶）
+3. → PV 轴突终末 GABA 储量减少 → IPSP 幅度降低
+4. → PING 时序精度崩溃 → γ 功率减弱 → 工作记忆缺陷
+
+**临床证据（Hughes et al. 2024, PMID:39381500）**：
 - dlPFC 中 PV mRNA 减少（多项研究一致）
 - GAD67 蛋白在 PV 轴突终末中降低（影响 GABA 合成）
 - 工作记忆任务中 dlPFC γ 功率不能正常升高
@@ -71,42 +101,52 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 | 语言绑定时跨区 co-ripples（~90 Hz）增加 | 颅内 EEG，人类 | Garrett & Halgren 2024 (PMID:39134741) | 中（未读全文，癫痫患者样本） |
 | 精神分裂症首发患者听觉 γ 减弱，与阴性症状相关 | MEG，n=35 | Sklar & Salisbury 2024 (PMID:38581829, PMC:PMC11102840) | 中 |
 | ING-PING 转换受兴奋强度调控（内嗅皮层） | 电生理 + 计算模型 | Williams et al. 2026 (PMID:41558964, PMC:PMC12884686) | 中-高 |
+| 中间神经元网络在没有锥体细胞时能产生 40 Hz γ（ING 起点） | 离体脑片，mGluR 激活 + AMPA 阻断 | Whittington et al. 1995 (PMID:7854418) | 高 |
+| 光抑制 PV 细胞 → γ 功率显著下降 + 信噪比下降 | 小鼠皮层 ChR2/eNpHR 光遗传 | Sohal et al. 2009 (PMID:19396159) | 高 |
+| 40 Hz 光驱动 FS 细胞 → 选择性 γ；感觉反应受 γ 相位门控 | 小鼠桶状皮层 FS-ChR2 | Cardin et al. 2009 (PMID:19396156) | 高 |
+| 听觉皮层存在两类 γ 生成器（L2/3 慢 γ vs L4 快 γ） | 离体脑片，层级选择性记录 | Ainsworth et al. 2011 (PMID:22114273) | 中-高 |
+| 海马 SST+ 细胞光激活诱发独立快 γ（~80 Hz） | 小鼠海马 SST-Cre ChR2 | Antonoudiou et al. 2020 (PMID:32859716, PMCID:PMC7531548) | 高 |
+| τ_decay=5ms → 70-80 Hz；τ_decay=15ms → 30-40 Hz（模型验证） | CA1 计算模型，双亚型 PV | Keeley et al. 2017 (PMID:27927782, PMCID:PMC5338627) | 中-高 |
 
 ## 连接
 
-- [[pv-interneurons]] — γ 振荡的主要生成者（PING/ING 机制的关键细胞）
+- [[pv-interneurons]] — γ 振荡的主要生成者（PING/ING 机制的关键细胞，Sohal 2009, Cardin 2009 光遗传因果证明）
+- [[sst-interneurons]] — SST+ 细胞也贡献 γ 生成（尤其是海马慢 γ）
 - [[working-memory]] — γ 爆发是工作记忆活动性编码的神经振荡载体
 - [[persistent-activity]] — γ 爆发是持续活动的实际振荡形式
 - [[theta-oscillations]] — θ/γ 嵌套：θ 提供时间框架，γ 承载内容
 - [[temporal-coding-hierarchy]] — γ/θ 嵌套编码层级
 - [[binding-by-synchrony]] — 绑定假说：γ 同步作为感知特征绑定的机制（contested）
-- [[beta-oscillations]] — α/β 可能是跨区整合的替代载体（与 γ 的功能对立关系）
+- [[beta-oscillations]] — β 与 γ 功能互补：β 维持状态，γ 激活内容；β/γ 层级（Bastos 2015）
 - [[consciousness-ignition]] — IIT 和 GWT 均涉及 γ 同步作为意识的候选机制
+- [[schizophrenia]] — 精神分裂症中 PV-GAD67-γ 功率下降级联；认知缺陷的神经振荡基础
+- [[cortical-layers]] — 双层 γ 生成：L2/3 ING-like vs L4 PING-like（Ainsworth 2011）
 
 ## 未解问题
 
-- Q-gamma-wm-causality：γ 爆发是工作记忆的因果机制还是相关物？（缺乏人类光遗传学证据）
+- Q-gamma-wm-causality（高优先级）：γ 爆发是工作记忆的因果机制还是相关物？（Sohal/Cardin 2009 证明短时程感觉处理，但长时程 WM 维持的因果证据缺失）
 - Q-gamma-capacity：θ/γ 嵌套是否是工作记忆 ~4 项容量的节律基础？
 - Q-gamma-bind-01（高优先级）：γ 同步是感知绑定的充分/必要条件吗？需要闭环光遗传因果实验
 - Q-gamma-bind-02（中优先级）：ING 和 PING 在感知绑定中各自的贡献？
 - Q-gamma-bind-03（高优先级）：40 Hz 伽马与 90 Hz co-ripples 是不同机制还是同一机制的频段变体？
+- Q-gamma-ping-ling-01（新，中优先级）：ING-PING 切换的元控制信号是什么？ACh/NE 是否能定向选择机制？
+- Q-gamma-sst-pv（新，中优先级）：在前额叶 dlPFC，PV+ 与 SST+ 对不同频率 γ 的贡献比例是多少？任务相关的切换是否存在？
 
 ## 修订历史
 
 - 2026-06-05 · 创建 · 基于《γ爆发、静默突触与持续放电》一文 · 初始置信度：高
 - 2026-06-25 · 修订 · 基于《当大脑把碎片缝合在一起》一文 · 新增：绑定假说维度、CTC 框架、Gray & Singer 1989 证据、Costa 2024 反例、ING-PING 转换；新增 related 节点 3 个；新增 key_sources 5 个
+- 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192；新增连接补充段落
+- 2026-07-20 · 修订 · 基于《篮状细胞打出节拍》一文 (#88) · 新增：ING/PING 分子机制深化（GABA-A τ_decay 作为频率时钟；Whittington 1995 ING 实验起点）、Sohal 2009 + Cardin 2009 光遗传因果证据、双层 γ 生成（Ainsworth 2011）、ING-PING 竞争（Viriyopase 2016）、SST+ 贡献（Antonoudiou 2020）、精神分裂症分子级联（Gonzalez-Burgos 2012）；新增 related 节点：schizophrenia, sst-interneurons, cortical-layers；新增 key_sources 8 个；新增未解问题 Q-gamma-ping-ling-01, Q-gamma-sst-pv
 
 ## 连接补充（2026-07-04）
 
 - [[ei-balance]] — 伽马振荡是 E/I 平衡状态的动态读出：广谱自发 γ 功率升高反映 E/I 失调（PV+ 受损时）；任务诱发 γ 振荡反映健康的 PV 驱动反馈抑制
 - [[perineuronal-nets]] — PNNs 沉积后 PV+ 细胞不再能被丘脑 AMPA 受体充分激活，ING 型 γ 振荡消失，标志关键期关闭（Quast & Hensch 2023）
 
-## 修订历史补充
-
-- 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192
-
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-06-25-gamma-oscillations-neural-binding]]
 - [[2026-07-04-ei-balance-pv-interneuron]]
+- [[2026-07-20-gamma-oscillations-ping-ing-mechanism]]

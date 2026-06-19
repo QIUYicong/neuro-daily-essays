@@ -1,7 +1,72 @@
 {
-  "last_updated": "2026-07-19",
-  "total_articles": 87,
+  "last_updated": "2026-07-20",
+  "total_articles": 88,
   "entries": [
+    {
+      "date": "2026-07-20",
+      "title": "篮状细胞打出节拍：γ 振荡的双重生成机制与精神分裂症的细胞之谜",
+      "filename": "2026-07-20-gamma-oscillations-ping-ing-mechanism.md",
+      "wiki_pages_created": [
+        "wiki/diseases/schizophrenia.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/gamma-oscillations.md",
+        "wiki/circuits/pv-interneurons.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "PV+ 篮状细胞如何通过 ING 和 PING 两种回路机制，利用 GABA-A 的衰减动力学决定皮层 γ 振荡的频率？为什么精神分裂症患者的前额叶 γ 振荡会减弱，其分子-细胞-回路-认知因果链是什么？",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱2（皮层计算·振荡·γ振荡机制深化）；课程脊柱11（疾病·精神分裂症首次建立专页）；承接#85（STDP·时序编码）和#87（β振荡·频率分工）；回答Q-gamma-wm-causality（γ功率缺失是WM缺陷的直接原因还是PV损伤的另一结果？）",
+      "topic_tags": [
+        "gamma oscillations 30-80 Hz",
+        "ING interneuron network gamma",
+        "PING pyramidal-interneuron network gamma",
+        "GABA-A tau_decay frequency clock",
+        "Whittington 1995 ING foundational",
+        "Keeley 2017 computational model tau_decay",
+        "Sohal 2009 optogenetics PV ChR2 gamma",
+        "Cardin 2009 FS cells 40 Hz gamma sensory gating",
+        "Ainsworth 2011 dual gamma generators L2/3 L4",
+        "Viriyopase 2016 ING-PING competition",
+        "Antonoudiou 2020 SST interneurons gamma",
+        "schizophrenia NMDA hypofunction PV GAD67",
+        "Gonzalez-Burgos Lewis 2012 molecular cascade",
+        "GAD67 mRNA downregulation prefrontal cortex",
+        "IPSP amplitude PING precision",
+        "working memory gamma power dlPFC",
+        "perisomatic inhibition basket cells",
+        "slow gamma fast gamma PV SST subtypes"
+      ],
+      "key_sources": [
+        "PMID:7854418",
+        "PMID:19396159",
+        "PMID:19396156",
+        "PMID:22443509",
+        "PMID:22114273",
+        "PMID:26912589",
+        "PMID:22355184",
+        "PMID:26447583",
+        "PMID:32859716",
+        "PMID:27927782"
+      ],
+      "open_questions_raised": [
+        "Q-gamma-ping-ling-01",
+        "Q-gamma-sst-pv",
+        "Q-sz-dopamine-gaba-interface"
+      ],
+      "open_questions_partially_resolved": [
+        "Q-gamma-wm-causality"
+      ]
+    },
     {
       "date": "2026-07-19",
       "title": "β振荡的三副面孔：运动刹车、感知反馈与记忆守护",

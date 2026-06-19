@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-18",
+  "last_updated": "2026-07-20",
   "levels": [
     "speculative",
     "emerging",
@@ -991,5 +991,41 @@
     "revision_count": 1,
     "last_change": "2026-07-18",
     "change_reason": "新建（文章 #86，2026-07-18）。新皮层六层结构的存在、各层细胞类型和基本连接规则是100年以上的神经解剖学共识（Ramon y Cajal → Douglas & Martin → Harris & Shepherd）——established/high。本页覆盖L1-L6的功能计算角色（误差单元、预测单元、感觉门、CT反馈）是近年更好建立的层面，但解剖骨架本身毫无争议。"
+  },
+  "schizophrenia": {
+    "status": "mainstream",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_change": "2026-07-20",
+    "change_reason": "新建（文章 #88，2026-07-20）。精神分裂症的 PV-GAD67-γ 轴（NMDA低活→GAD67下调→GABA合成↓→PING崩溃→γ↓→WM缺陷）有多实验室尸检数据（PMID:22218597，高度一致），MEG/EEG γ功率缺失（PMID:25863358），光遗传学因果证据（PMID:19396159），机制综述（PMID:22355184）四重支撑——设为 mainstream。多巴胺-谷氨酸界面机制（D2/D1与PV损伤的因果关系）仍争议，遗传多基因性（C4A突触剪枝假说）仍在验证中——阻止定为 established。medium confidence（机制理解尚在发展，从 uniaxial 到多层病理并存的转变尚未完全整合）。",
+    "key_sources": [
+      "PMID:22218597",
+      "PMID:25863358",
+      "PMID:22355184",
+      "PMID:19396159",
+      "PMID:39381500"
+    ]
+  },
+  "gamma-oscillations": {
+    "status": "mainstream",
+    "confidence": "high",
+    "revision_count": 4,
+    "last_change": "2026-07-20",
+    "change_reason": "修订 rev3→rev4（文章 #88，2026-07-20）。新增 ING/PING 分子机制（Keeley 2017 计算模型：τ_decay 是频率时钟）、Sohal/Cardin 2009 光遗传学因果证明（PV→γ 因果性和感觉相位门控）、双层 γ 生成器（Ainsworth 2011）、SST+ 独立贡献（Antonoudiou 2020）、精神分裂症级联（Gonzalez-Burgos 2012）。维持 mainstream/high：γ 振荡的存在和 PV 核心角色是教科书级共识；ING/PING 机制的分子细节虽有充分支持但仍有计算-体内对应需验证；SST+ 贡献在前额叶的普遍性待确认。confidence 从 medium 提升为 high（基于 Sohal/Cardin 2009 的光遗传学因果证据）。",
+    "key_sources": [
+      "PMID:7854418",
+      "PMID:19396159",
+      "PMID:19396156",
+      "PMID:22443509",
+      "PMID:32859716",
+      "PMID:27927782"
+    ]
+  },
+  "pv-interneurons": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 5,
+    "last_change": "2026-07-20",
+    "change_reason": "修订 rev4→rev5（文章 #88，2026-07-20）。新增 Sohal 2009（ChR2/eNpHR 双向光遗传学：激活→γ↑；抑制→γ↓+信噪比↓）和 Cardin 2009（40 Hz 驱动 FS 细胞→选择性 γ+感觉相位门控）光遗传学因果证据，以及 Gonzalez-Burgos & Lewis 2012 精神分裂症分子级联（NR2A 优先损伤→GAD67↓→GABA↓→PING 崩溃）。PV 中间神经元核心功能和与 γ 振荡的因果关系（而非相关性）已由多个体内光遗传学实验确立——维持 established/high。"
   }
 }

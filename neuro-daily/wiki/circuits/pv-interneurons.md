@@ -6,14 +6,15 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 4
+updated: 2026-07-20
+revision_count: 5
 dimensions: [cellular, synaptic, microcircuit, cognition, disease]
 related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468"]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468", "PMID:19396159", "PMID:19396156", "PMID:22355184", "PMID:7854418"]
+source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-07-20-gamma-oscillations-ping-ing-mechanism]
 ---
 
 # PV+ 中间神经元（Parvalbumin-expressing Interneurons）
@@ -53,6 +54,23 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 工作记忆：dlPFC PV 篮状细胞通过 γ 爆发为工作记忆的间歇性信息编码提供时序框架；β 振荡（20–35 Hz）出现于 γ 爆发间隔，代表默认静息态
 - 精神分裂症病理（Hughes et al. 2024, PMID:39381500, PMC:PMC11458443）：dlPFC 中 PV mRNA 和 GAD67 减少 → γ 功率降低 → 工作记忆缺陷，三者高度相关
 
+**γ 生成机制的深化（2026-07-20 更新）**：
+
+**光遗传学因果证明**：
+- Sohal et al. 2009（PMID:19396159）：小鼠皮层 PV-Cre + ChR2 → 光激活 PV 细胞诱发 γ；eNpHR 抑制 PV → γ 减少 + 信噪比下降。首次体内因果证明 PV 细胞是 γ 的**必要且充分**条件（at least partially）。
+- Cardin et al. 2009（PMID:19396156）：小鼠桶状皮层 FS（PV+）细胞 ChR2，40 Hz 光脉冲 → 选择性 γ 功率增加；感觉刺激（触须）反应在 γ 的兴奋相位明显增强。证明 **PV 细胞产生的 γ 相位结构直接门控感觉信息输入**。
+
+**GABA-A 动力学是频率时钟**：
+- PV 篮状细胞的 GABA-A 突触 τ_decay ≈ 5–15 ms，直接决定 γ 频率
+- 快速亚型（τ ≈ 5 ms）→ 70–80 Hz；慢速亚型（τ ≈ 15 ms）→ 30–40 Hz（Keeley et al. 2017, PMID:27927782）
+- 胞体靶向（perisomatic shunting）使 GABA-A 的每次抑制对锥体细胞输出产生全面、精确的"时序门"效果
+
+**精神分裂症分子级联（Gonzalez-Burgos & Lewis 2012, PMID:22355184）**：
+- PV 细胞高密度 NR2A 型 NMDA 受体 → 对 NMDA 低活（如 PCP/氯胺酮诱导）特别敏感
+- NMDA 低活 → GAD67 mRNA 下调（GABA 合成限速酶）→ GABA 储量减少
+- PV→锥体细胞 IPSP 幅度降低 → PING 时序精度崩溃 → γ 功率减弱 → 认知缺陷
+- 这是精神分裂症中 PV 功能性损伤的机制链条：从 NMDA-R 到 GABA 合成到回路振荡到行为
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -60,6 +78,9 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 | PV+ 篮状细胞突触延迟 0.7 ms，jitter 0.19 ms | 双细胞膜片钳（30°C 条件）| PMID:27477017 | 高 |
 | PV+ 占皮层 GABA 能神经元约 40% | 分子标记 + 细胞计数 | PMID:21154909 | 高 |
 | 光遗传学激活/抑制 PV+ 细胞可驱动/消除皮层 γ 振荡 | ChR2/ArchT 光遗传学 | PMID:24429630 (review) | 高 |
+| 光激活 PV 细胞 → γ 功率增加 + 信噪比提升（因果证明） | PV-Cre ChR2/eNpHR | Sohal et al. 2009 (PMID:19396159) | 高 |
+| 40 Hz 光驱动 FS 细胞 → 选择性 γ；感觉反应受 γ 相位门控 | FS-ChR2，桶状皮层，触须刺激 | Cardin et al. 2009 (PMID:19396156) | 高 |
+| NMDA 低活 → GAD67 下调 → GABA 减少 → PING 崩溃 → γ 减弱 | 文献综合 + 动物模型 | Gonzalez-Burgos & Lewis 2012 (PMID:22355184) | 高（链条逐步验证）|
 | 精神分裂症前额叶 PV+ 细胞 GAD67 mRNA 下调 | 原位杂交（死后脑组织）| PMID:22219337 | 高 |
 | 精神分裂症患者工作记忆任务期间前额叶 γ 功率下降 | MEG/EEG | PMID:25863358 | 高 |
 | 篮状细胞在 SWR 期间强烈放电，相位锁定到涟漪周期 | 清醒大鼠 CA1 体内记录 | PMID:18599766 | 高 |
@@ -79,8 +100,9 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 
 ## 未解问题
 
-- Q-pv-schizophrenia-causal：精神分裂症中 PV+ 细胞 GAD67 下调是病因、代偿还是继发改变？
-- Q-pv-gamma-necessary：PV+ 细胞是 γ 振荡的必要产生者，还是只是与 γ 相关的贡献者之一？
+- Q-pv-schizophrenia-causal：精神分裂症中 PV+ 细胞 GAD67 下调是病因、代偿还是继发改变？（Gonzalez-Burgos 2012 提供机制链，但链条的因果方向仍需体内因果验证）
+- Q-pv-gamma-necessary：PV+ 细胞是 γ 振荡的必要产生者，还是只是与 γ 相关的贡献者之一？（Sohal 2009, Cardin 2009 提供因果证据；但 Antonoudiou 2020 证明 SST+ 也有独立贡献）
+- Q-gamma-ping-ling-01：ING-PING 切换的元控制信号是什么？ACh/NE 等神经调质是否能定向选择机制？
 
 ## 修订历史
 
@@ -88,6 +110,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 2026-06-05 · 修订 · 基于《γ爆发、静默突触与持续放电》一文 · 新增 PFC γ爆发WM应用、精神分裂症病理证据
 - 2026-07-04 · 修订 rev3 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增 E/I 平衡执行者角色、关键期初始靶点（Quast & Hensch 2023）、PNN 固化机制、神经炎症脆弱性
 - 2026-06-03 · 修订 rev4 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增：PV+ 细胞去激活是 ODP 的第一个微回路事件（Kuhlman 2013），OTX2 经 PNN 锚定驱动 PV 成熟（Sugiyama 2008, Beurdeley 2012），BDNF 驱动 PV 成熟时间轴（Huang 1999），Rett 综合征中 MeCP2 KO 加速 PV 成熟导致关键期错位（Krishnan 2015），小胶质细胞亚群上游调控 PV 成熟（Wang 2025）；related 新增 critical-period, bdnf, microglia
+- 2026-07-20 · 修订 rev5 · 基于《篮状细胞打出节拍》一文 (#88) · 新增：Sohal 2009 + Cardin 2009 光遗传学因果证据（PV 细胞是 γ 的必要条件，γ 相位门控感觉输入）；GABA-A τ_decay 决定 γ 频率的分子机制；精神分裂症分子级联（Gonzalez-Burgos & Lewis 2012 NMDA→GAD67→GABA→PING→γ→WM）；更新 key_sources 4 个；更新 source_articles；更新 opens_questions
 
 ## 来源文章
 
@@ -95,3 +118,4 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-06-03-critical-period-plasticity]]
+- [[2026-07-20-gamma-oscillations-ping-ing-mechanism]]

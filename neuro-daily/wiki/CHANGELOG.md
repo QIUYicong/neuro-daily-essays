@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-20（文章 #88·篮状细胞打出节拍·ING/PING 双重机制·精神分裂症 PV-GAD67-γ 级联）
+
+**源文章**：[[2026-07-20-gamma-oscillations-ping-ing-mechanism]] —《篮状细胞打出节拍：γ 振荡的双重生成机制与精神分裂症的细胞之谜》
+
+**新建页面（1）**：
+- `wiki/diseases/schizophrenia.md`（精神分裂症·rev1）🔵 mainstream — PV-GAD67-γ 轴完整分子-回路-认知因果链（NMDA低活→GAD67↓→GABA↓→PING崩溃→γ↓→WM缺陷）；多巴胺双轴（D2过度激活阳性症状/D1不足阴性认知症状）；高度多基因遗传（C4A突触过度剪枝假说）；连接 pv-interneurons, gamma-oscillations, working-memory, nmda-receptor, dopamine-reward-prediction-error, ei-balance；关键证据：GAD67 mRNA多实验室复现（PMID:22218597）、MEG/EEG γ功率缺失（PMID:25863358）、PV-NR2A优先损伤机制（PMID:22355184）
+
+**修订页面（2）**：
+- `wiki/concepts/gamma-oscillations.md` rev4 — **重大扩展**：新增"生成机制（ING vs PING）——分子到回路"完整章节；GABA-A τ_decay 作为频率时钟（Keeley 2017 计算模型：τ≈5ms→70-80 Hz，τ≈15ms→30-40 Hz）；Sohal 2009/Cardin 2009 光遗传学因果证据入证据表；Ainsworth 2011 双层 γ 生成器（L2/3 ING 慢γ/L4 PING 快γ）；Viriyopase 2016 ING-PING 竞争（高频者主导）；Antonoudiou 2020 SST+ 贡献（PV+→慢γ，SST+激活→快γ~80Hz）；精神分裂症级联 Gonzalez-Burgos 2012 细节；related 新增 schizophrenia, sst-interneurons, cortical-layers；key_sources 新增 8 个 PMID；新开放问题 Q-gamma-ping-ling-01、Q-gamma-sst-pv
+- `wiki/circuits/pv-interneurons.md` rev5 — 新增"γ 生成机制的深化（2026-07-20 更新）"节：Sohal 2009 ChR2/eNpHR 因果证明（光激活→γ↑；光抑制→γ↓+信噪比↓）；Cardin 2009 40 Hz FS 驱动→选择性 γ+感觉相位门控；GABA-A τ_decay 频率机制；Gonzalez-Burgos & Lewis 2012 NMDA↓→GAD67↓→GABA↓→IPSP↓→PING崩溃完整级联；证据表新增 3 行（Sohal 2009, Cardin 2009, Gonzalez-Burgos 2012）；key_sources 新增 4 个 PMID；new opens_questions 细化
+
+**矛盾登记（0）**：无新矛盾
+
+**新增开放问题（3）**：
+- Q-gamma-ping-ling-01（高优先级）：PING 中的 E→I 兴奋延迟如何与 GABA-A τ_decay 精确配合以锁定 γ 频率？计算模型预测与体内测量的差距？
+- Q-gamma-sst-pv（中优先级）：SST+ 细胞与 PV+ 细胞在同一皮层回路中如何分工生成慢γ 和快γ？两者之间是否存在相互调控？
+- Q-sz-dopamine-gaba-interface（高优先级）：精神分裂症中多巴胺异常（D2 过度激活）如何与 PV-GABA 损伤界面互动？是并行病理还是存在上下游因果关系？
+
+**图谱**：160 节点，977 边（+1 节点 schizophrenia，+10 边）
+
+---
+
 ## 2026-07-19（文章 #87·β振荡的三副面孔·统一框架·课程脊柱 2 × 课程脊柱 5）
 
 **源文章**：[[2026-07-19-beta-oscillations-cortical-prediction]] —《β振荡的三副面孔：运动刹车、感知反馈与记忆守护》

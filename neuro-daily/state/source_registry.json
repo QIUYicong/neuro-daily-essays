@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19",
+  "last_updated": "2026-07-20",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8004,6 +8004,182 @@
         "feedforward L2/3 to higher L4 driver",
         "feedback L5/6 to lower L1/2/3 modulator",
         "cortical hierarchy distance law"
+      ]
+    },
+    {
+      "pmid": "7854418",
+      "title": "Synchronized oscillations in interneuron networks driven by metabotropic glutamate receptor activation",
+      "authors_short": "Whittington MA, Traub RD, Jefferys JG",
+      "journal": "Nature",
+      "year": 1995,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "ING mechanism foundational experiment",
+        "interneuron network 40 Hz gamma without pyramidal cells",
+        "GABA-A kinetics determine frequency",
+        "mGluR activation drives gamma"
+      ]
+    },
+    {
+      "pmid": "19396159",
+      "title": "Parvalbumin neurons and gamma rhythms enhance cortical circuit performance",
+      "authors_short": "Sohal VS, Zhang F, Yizhar O, Deisseroth K",
+      "journal": "Nature",
+      "year": 2009,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "PV cells ChR2/eNpHR optogenetics in vivo",
+        "PV activation increases gamma power",
+        "PV inhibition decreases gamma and signal-to-noise ratio",
+        "gamma causal not epiphenomenal",
+        "PV necessary for gamma generation"
+      ]
+    },
+    {
+      "pmid": "19396156",
+      "title": "Driving fast-spiking cells induces gamma rhythm and controls sensory responses",
+      "authors_short": "Cardin JA, Carlén M, Meletis K, Knoblich U, Zhang F, Deisseroth K, Tsai LH, Moore CI",
+      "journal": "Nature",
+      "year": 2009,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "FS cell 40 Hz optogenetic drive selective gamma",
+        "gamma phase gates sensory responses",
+        "excitatory window vs inhibitory window in gamma cycle",
+        "sensory cortex barrel cortex"
+      ]
+    },
+    {
+      "pmid": "22443509",
+      "title": "Mechanisms of gamma oscillations",
+      "authors_short": "Buzsáki G, Wang XJ",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2012,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "perisomatic inhibition key for gamma",
+        "ING PING review",
+        "gamma transient not continuous",
+        "theta-gamma nesting",
+        "true gamma vs high-frequency power increase"
+      ]
+    },
+    {
+      "pmid": "22114273",
+      "title": "Dual γ rhythm generators control interlaminar synchrony in auditory cortex",
+      "authors_short": "Ainsworth M et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2011,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "L2/3 slow gamma 30-45 Hz gap junction dependent",
+        "L4 fast gamma 50-80 Hz PING type",
+        "dual layer gamma generators auditory cortex",
+        "input strength determines dominant mechanism"
+      ]
+    },
+    {
+      "pmid": "26912589",
+      "title": "Cooperation and competition of gamma oscillation mechanisms",
+      "authors_short": "Viriyopase A, Memmesheimer RM, Gielen S",
+      "journal": "Journal of Neurophysiology",
+      "year": 2016,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "ING PING competition higher frequency dominates",
+        "automatic mechanism selection by network",
+        "cooperation when frequencies compatible"
+      ]
+    },
+    {
+      "pmid": "22355184",
+      "title": "NMDA receptor hypofunction, parvalbumin-positive neurons, and cortical gamma oscillations in schizophrenia",
+      "authors_short": "Gonzalez-Burgos G, Lewis DA",
+      "journal": "Schizophrenia Bulletin",
+      "year": 2012,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "schizophrenia NMDA hypofunction PV NR2A",
+        "GAD67 mRNA downregulation cascade",
+        "GABA synthesis reduction IPSP amplitude",
+        "PING disruption gamma power reduction",
+        "working memory deficit molecular chain"
+      ]
+    },
+    {
+      "pmid": "26447583",
+      "title": "Rhythms for Cognition: Communication through Coherence",
+      "authors_short": "Fries P",
+      "journal": "Neuron",
+      "year": 2015,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "aspects_covered": [
+        "CTC communication through coherence framework",
+        "gamma synchrony creates communication window",
+        "attention selective gamma enhancement",
+        "alpha beta top-down inhibitory control"
+      ]
+    },
+    {
+      "pmid": "32859716",
+      "pmcid": "PMC7531548",
+      "title": "Parvalbumin and Somatostatin Interneurons Contribute to the Generation of Hippocampal Gamma Oscillations",
+      "authors_short": "Antonoudiou P et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2020,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "SST interneurons slow gamma contribution",
+        "SST activation induces fast gamma ~80 Hz",
+        "PV SST separate frequency band contributions",
+        "hippocampal gamma optogenetics in vitro",
+        "beyond PV-only gamma view"
+      ]
+    },
+    {
+      "pmid": "27927782",
+      "pmcid": "PMC5338627",
+      "title": "Modeling fast and slow gamma oscillations with interneurons of different subtype",
+      "authors_short": "Keeley S, Fenton AA, Rinzel J",
+      "journal": "Journal of Neurophysiology",
+      "year": 2017,
+      "first_used": "2026-07-20",
+      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "computational model GABA-A tau_decay frequency clock",
+        "fast tau 5ms yields 70-80 Hz",
+        "slow tau 15ms yields 30-40 Hz",
+        "PV subtypes different tau generate different gamma",
+        "dual-peak gamma spectrum stable"
       ]
     }
   ]

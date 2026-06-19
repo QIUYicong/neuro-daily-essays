@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-07-19*
+*最后更新：2026-07-20*
+
+---
+
+## 2026-07-20 新增（来自"篮状细胞打出节拍"文章 #88）
+
+### Q-gamma-ping-ling-01（高优先级）：PING 回路的 E→I 延迟与 GABA-A τ_decay 如何精确配合锁定 γ 频率？
+
+- **关联 wiki**：[[gamma-oscillations]]、[[pv-interneurons]]、[[ei-balance]]
+- **来源文章**：2026-07-20-gamma-oscillations-ping-ing-mechanism
+- **问题**：Keeley 2017 的计算模型表明 τ_decay 是 γ 频率的主要决定因素（τ≈5ms→70-80 Hz；τ≈15ms→30-40 Hz）。但 PING 机制中还有 E→I 突触的兴奋延迟（AMPA 上升时间 ~1-2ms 加上轴突传导延迟）和 I→E 的 GABA 释放延迟。这些延迟如何与 τ_decay 在体内精确配合以稳定特定频率？体内测量（如层流电极）能否直接分离 τ_decay 贡献 vs E→I 延迟贡献？
+- **当前证据状态**：计算模型（Keeley 2017）清晰预测 τ_decay 主导；体外记录支持 GABA-A 动力学与频率的定量关系；但体内直接分解两类延迟的实验极少
+- **为什么重要**：理解频率决定机制有助于设计靶向 γ 频率调控的干预方案（如神经调质影响 τ_decay 的 pharmacology）
+
+### Q-gamma-sst-pv（中优先级）：SST+ 细胞与 PV+ 细胞在同一皮层回路中如何分工生成慢γ 和快γ？
+
+- **关联 wiki**：[[gamma-oscillations]]、[[pv-interneurons]]、[[sst-interneurons]]
+- **来源文章**：2026-07-20-gamma-oscillations-ping-ing-mechanism
+- **问题**：Antonoudiou 2020 在海马体外证明 SST+ 抑制可靠降低慢 γ，SST+ 激活诱发快 γ（~80 Hz）。但这一结果在前额叶皮层（精神分裂症的核心靶区）是否成立？前额叶皮层的 SST+ 和 PV+ 细胞是否具有对等的频段分工？SST+ 的贡献是独立于 PV+ 的平行机制，还是通过去抑制 PV+ 间接发挥作用？
+- **当前证据状态**：海马体外（卡巴胆碱诱导）强证据（Antonoudiou 2020 开放全文）；前额叶皮层数据极少；SST→PV 侧向抑制轴已知（disinhibitory-circuit），但其对 γ 频率的净效应未直接测量
+- **为什么重要**：若 SST+ 细胞在前额叶也有 γ 贡献，则精神分裂症中 SST+ 功能异常（已有一定证据）可能是另一个 γ 缺陷机制，应纳入诊断/治疗框架
+
+### Q-sz-dopamine-gaba-interface（高优先级）：精神分裂症中多巴胺异常与 PV-GABA 损伤如何界面互动？
+
+- **关联 wiki**：[[schizophrenia]]、[[pv-interneurons]]、[[gamma-oscillations]]、[[dopamine-reward-prediction-error]]
+- **来源文章**：2026-07-20-gamma-oscillations-ping-ing-mechanism
+- **问题**：精神分裂症存在两个核心病理轴：(1) PV-GAD67-γ 轴（谷氨酸/GABA 损伤）；(2) 多巴胺轴（D2 过度激活/D1 不足）。但这两轴的界面机制不清楚：多巴胺 D1 受体激活是否直接影响 PV 细胞的 GAD67 表达或 GABA 释放？皮质下 D2 过度激活通过何种通路影响前额叶 PV-γ 回路？PV 细胞损伤是否可以通过多巴胺信号紊乱（如 D1 不足→谷氨酸传递减弱→NMDA 低活）来解释，还是二者是独立的平行病理？
+- **当前证据状态**：两个病理轴均有独立证据；D1 激动剂可提高前额叶 PV 细胞活动（动物模型）；但系统性界面机制的人类证据极少；NMDA 低活→PV 损伤→多巴胺失调的级联方向（而非反向）有一定支持
+- **为什么重要**：回答此问题将决定精神分裂症治疗是否需要同时靶向两轴，以及优化策略（谷氨酸为主/多巴胺为主/联合）的选择
 
 ---
 

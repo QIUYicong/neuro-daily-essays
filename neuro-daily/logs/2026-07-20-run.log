@@ -1,0 +1,91 @@
+# 运行日志 2026-07-20
+
+**运行类型**：定期自动运行（北京时间 09:00）
+**运行状态**：成功
+**运行时长**：约 2 个上下文窗口（前一会话因上下文限制被截断，本会话续接完成）
+
+---
+
+## 执行摘要
+
+今日创建第 88 篇文章，主题为 **γ 振荡的 ING/PING 双重生成机制与精神分裂症**，填补 wiki/concepts/gamma-oscillations.md 中缺失的分子机制细节，并首次建立 wiki/diseases/schizophrenia.md 专页。
+
+---
+
+## 选题决策
+
+- **来源**：wiki/concepts/gamma-oscillations.md（rev3）的 next_suggested_topics 第一条：γ 振荡深化——PV+篮状细胞的ING/PING机制
+- **开放问题触发**：Q-gamma-wm-causality（γ 功率缺失是认知缺陷的直接原因还是 PV 损伤的另一结果？）——高优先级，今日部分解答
+- **路径分析**：#87（β振荡）已建立频率分工框架；今日深入 γ 的生成机制，与课程脊柱 2（皮层振荡机制）和脊柱 11（疾病）双重对接
+
+---
+
+## 来源获取
+
+- **总来源**：10 篇
+- **开放全文**（2篇）：
+  - PMID:32859716 / PMC7531548（Antonoudiou 2020，J Neurosci，SST+中间神经元γ贡献）
+  - PMID:27927782 / PMC5338627（Keeley 2017，J Neurophysiol，计算模型：τ_decay 决定 γ 频率）
+- **摘要获取**（8篇）：Whittington 1995、Sohal 2009、Cardin 2009、Buzsáki & Wang 2012、Ainsworth 2011、Viriyopase 2016、Gonzalez-Burgos & Lewis 2012、Fries 2015
+- **拒绝来源**：2 篇（重复覆盖/主题偏离）
+
+---
+
+## 创建/修改的文件
+
+### 文章层（情景层）
+- ✅ `neuro-daily/articles/2026-07-20-gamma-oscillations-ping-ing-mechanism.md`（新建，~4500字）
+- ✅ `neuro-daily/notes/2026-07-20-reading-notes.md`（新建，10 来源详细笔记）
+- ✅ `neuro-daily/sources/2026-07-20-sources.json`（新建，10 来源元数据）
+
+### Wiki 层（语义层）
+- ✅ `wiki/concepts/gamma-oscillations.md`（rev3→rev4，重大扩展：ING/PING 机制章节、光遗传学证据、双层生成器、SST+ 贡献、精神分裂症级联）
+- ✅ `wiki/circuits/pv-interneurons.md`（rev4→rev5，新增 Sohal/Cardin 2009 光遗传学证据节和 GAD67 级联）
+- ✅ `wiki/diseases/schizophrenia.md`（新建 rev1，全面覆盖 PV-GAD67-γ 轴、多巴胺双轴、遗传基础）
+- ✅ `wiki/_graph.json`（160 节点，977 边，+1 节点，+10 边）
+- ✅ `wiki/index.md`（更新标头、diseases 目录、γ振荡/PV条目、课程进度表、文章摘要）
+- ✅ `wiki/CHANGELOG.md`（添加 2026-07-20 条目）
+
+### 状态层
+- ✅ `state/topic_ledger.json`（total_articles 87→88，新增 #88 条目）
+- ✅ `state/unresolved_questions.md`（新增 Q-gamma-ping-ling-01、Q-gamma-sst-pv、Q-sz-dopamine-gaba-interface；Q-gamma-wm-causality 部分解答）
+- ✅ `state/source_registry.json`（新增 10 个来源条目）
+- ✅ `state/monthly_synthesis.md`（7月计数 19→20 篇，新增 #88 行和文章条目）
+- ✅ `state/maturity_index.json`（新增 schizophrenia 条目，更新 gamma-oscillations 和 pv-interneurons 条目）
+
+---
+
+## 知识库变化统计
+
+| 指标 | 变化 |
+|------|------|
+| 文章总数 | 87 → 88 |
+| wiki 主题页 | 155 → 156 |
+| 知识图谱节点 | 159 → 160 |
+| 知识图谱边 | 940 → 977 |
+| 未解问题 | 新增 3 |
+| 部分解答问题 | 1（Q-gamma-wm-causality） |
+
+---
+
+## 关键机制洞察（本次运行验证）
+
+1. **τ_decay 是 γ 的分子时钟**：Keeley 2017 计算模型清晰证明：PV 亚型的 GABA-A 衰减时间常数（τ≈5ms→70-80 Hz；τ≈15ms→30-40 Hz）是 ING/PING 振荡频率的主要决定因素，Whittington 1995 的体外实验发现由此获得定量解释。
+
+2. **ING vs PING 竞争**：Viriyopase 2016 揭示当两种机制共存时，产生更高频率的机制主导——网络具有"自动选择"能力，与皮层各层 γ 生成器差异（L2/3 ING 慢 γ / L4 PING 快 γ，Ainsworth 2011）相互印证。
+
+3. **精神分裂症 PV-GAD67-γ 完整链**：Gonzalez-Burgos & Lewis 2012 提供了从分子（NMDA-R/GAD67）到回路（PING/γ振荡）到认知（WM缺陷）最清晰的精神疾病-振荡机制因果链，今日被提升至 wiki/diseases/schizophrenia.md 中心。
+
+---
+
+## 遗留问题
+
+无遗留问题。本会话完整完成了所有 wiki 更新、状态文件更新和提交推送。
+
+---
+
+## 下一步建议（来自本次运行）
+
+- **高优先级**：Q-sz-dopamine-gaba-interface（精神分裂症中 DA 与 PV-GABA 的界面机制），建议下次遇到多巴胺-精神分裂症相关话题时深入
+- **中优先级**：SST+ 中间神经元在前额叶 γ 生成中的角色（Q-gamma-sst-pv），可作为下一篇 SST+ 深化文章的核心问题
+- **连接建议**：working-memory（#88 通过 γ 缺失与 WM 的关联已深化）→ 可进一步探讨 dlPFC 吸引子回路在工作记忆维持中的具体机制

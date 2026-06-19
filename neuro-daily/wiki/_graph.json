@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-19",
-  "node_count": 159,
-  "edge_count": 940,
+  "updated": "2026-07-20",
+  "node_count": 160,
+  "edge_count": 977,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1456,6 +1456,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/cortical-layers.md"
+    },
+    {
+      "id": "schizophrenia",
+      "title": "精神分裂症",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/schizophrenia.md"
     }
   ],
   "edges": [
@@ -6801,6 +6810,66 @@
       "to": "cortical-layers",
       "type": "related",
       "note": "丘脑特异性输入终止于 L4；CT 反馈从 L6 发出——层级特异性是丘脑-皮层接口的基本原则"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "pv-interneurons",
+      "type": "mechanism-of",
+      "note": "PV 篮状细胞 GAD67 下调是精神分裂症认知缺陷的核心回路机制"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of",
+      "note": "PING 崩溃 → γ 振荡功率下降 → 工作记忆缺陷"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "working-memory",
+      "type": "related",
+      "note": "工作记忆缺陷是精神分裂症最可重复的认知症状"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "NMDA 低活假说：PCP/氯胺酮诱导精神分裂症样症状"
+    },
+    {
+      "from": "schizophrenia",
+      "to": "ei-balance",
+      "type": "related",
+      "note": "PV 损伤 → 抑制减弱 → E/I 失衡"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "schizophrenia",
+      "type": "related",
+      "note": "PV 细胞 GAD67 下调是最可重复的精神分裂症神经病理发现"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "schizophrenia",
+      "type": "related",
+      "note": "γ 振荡缺陷是精神分裂症认知症状的回路标志"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "cortical-layers",
+      "type": "related",
+      "note": "双层 γ 生成：L2/3 ING-like vs L4 PING-like（Ainsworth 2011）"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "sst-interneurons",
+      "type": "related",
+      "note": "SST+ 细胞也贡献 γ 生成（Antonoudiou 2020）"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of",
+      "note": "PV 篮状细胞是 PING/ING γ 的主要细胞基础（Sohal 2009, Cardin 2009）"
     }
   ],
   "dangling_references": [
