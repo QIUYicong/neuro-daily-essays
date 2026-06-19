@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-28
-revision_count: 1
+updated: 2026-07-27
+revision_count: 2
 dimensions: [brain-region, cellular, behavior, cognition]
-related: [place-cell, hippocampal-circuit, path-integration, theta-oscillations]
+related: [place-cell, hippocampal-circuit, path-integration, theta-oscillations, head-direction-cells, border-cells, entorhinal-cortex]
 prerequisites: [action-potential, synaptic-transmission]
-opens_questions: [Q-grid-pattern-generation, Q-grid-abstract-space, Q-grid-place-conversion]
-source_articles: [2026-05-28-place-cells-btsp]
-key_sources: ["PMID:15965463", "PMID:27023731", "PMID:34254836", "PMID:18284371"]
+opens_questions: [Q-grid-pattern-generation, Q-grid-abstract-space, Q-grid-place-conversion, Q-grid-human-single-unit]
+source_articles: [2026-05-28-place-cells-btsp, 2026-07-27-grid-cells-head-direction-spatial-coordinate-system]
+key_sources: ["PMID:15965463", "PMID:27023731", "PMID:34254836", "PMID:18284371", "PMID:20090680", "PMID:29073650", "PMID:38231426"]
 ---
 
 # 网格细胞 (Grid Cell)
@@ -62,23 +62,35 @@ key_sources: ["PMID:15965463", "PMID:27023731", "PMID:34254836", "PMID:18284371"
 
 两种模型可能各有贡献，并非互斥。
 
-### 5. 网格细胞的非空间应用
+### 5. 模块结构与多尺度精度
+
+网格细胞在 MEC 中分组成**模块（modules）**：同一模块内的所有细胞共享相同的间距（spacing）和朝向（orientation），但相位（phase，即网格顶点的空间位置）各不相同。不同模块的间距不同，且相邻模块间的间距比约为 **1.4:1**。
+
+这个特定比值的意义：利用**残差数系统（residue number system）**原理，少量几个不同间距的模块叠加，可以以厘米级精度区分数平方公里范围内的任意位置。例如，8–10 个模块的网格组合，理论上能以几厘米分辨率覆盖 40 × 40 km 的空间。
+
+### 6. 头向细胞接口（2026-07-27 新增）
+
+网格细胞的路径积分需要角度方向信息。MEC 中的**联合细胞（conjunctive cells）**同时对网格位置和头部方向敏感——它们是网格细胞系统与头向系统的整合节点。**头向细胞**（见 wiki/neurons/head-direction-cells.md）为网格的"活跃泡"更新提供角度坐标。
+
+### 7. 网格细胞的非空间应用
 
 近年发现，类似网格样放电（grid-like responses）也出现在：
 - 非空间导航任务（概念空间中导航）
 - 前额叶和眶额皮层（抽象"价值空间"中的网格状编码）
 - 情景记忆中的时间维度编码
 
-这暗示网格细胞可能代表了一种**通用的内部坐标机制**，而非只针对物理空间。
+Behrens et al.（2018, Neuron 100:490–509）综述提出：认知地图可能编码任何结构化知识，而网格样机制是其通用计算基础。但 fMRI 方法的局限性使这一结论尚需单神经元级别的直接验证。
 
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
 |------|------------|------|--------|
 | MEC 神经元有六角网格放电 | 大鼠 MEC 四极管胞外记录，自由探索圆形环境 | PMID:15965463 | 高 |
-| 网格放电在地标消失后仍维持 | 黑暗或覆盖地标后的记录 | PMID:15965463 | 高 |
-| 背侧→腹侧网格间距梯度 | 沿 MEC 背腹轴系统记录 | PMID:27023731 综述 | 高 |
-| 类网格放电在人前额叶等区域也存在 | 功能 MRI 适应性范式 | PMID:33734733 | 中-高 |
+| 网格放电在地标消失后仍维持（路径积分） | 黑暗或覆盖地标后的记录 | PMID:15965463 | 高 |
+| 背侧→腹侧网格间距梯度（约 25cm→>1m） | 沿 MEC 背腹轴系统记录 | PMID:27023731 综述 | 高 |
+| 人类内嗅皮层 fMRI 六边形信号（60° 调制） | 42名参与者虚拟现实导航 + fMRI | PMID:20090680 (PMC3173857) | 中-高（fMRI间接证据） |
+| 网格信号强度与空间记忆成绩正相关 | Spearman's rho=0.32, p=0.039 | PMID:20090680 | 中 |
+| 网格模式在不规则环境中扭曲变形 | 方形、圆形、L形环境对比记录 | PMID:38231426（综述引用） | 高 |
 
 ## 连接
 
@@ -86,17 +98,23 @@ key_sources: ["PMID:15965463", "PMID:27023731", "PMID:34254836", "PMID:18284371"
 - [[hippocampal-circuit]] — 网格细胞（MEC）通过穿孔通路输入到 DG、CA3、CA1
 - [[path-integration]] — 网格细胞实现路径积分（无外部地标的空间位置追踪）
 - [[theta-oscillations]] — θ 振荡可能参与网格图案生成（振荡干涉模型）
+- [[head-direction-cells]] — 头向细胞为网格路径积分提供角度坐标；联合细胞整合两类信号
+- [[border-cells]] — 边界细胞为网格坐标系提供空间锚点，防止路径积分误差累积
+- [[entorhinal-cortex]] — MEC 是网格细胞的解剖位置，层 II 含网格细胞，层 III/V 含联合细胞
 
 ## 未解问题
 
-- Q-grid-pattern-generation：网格六角图案的生成机制：振荡干涉 vs. 连续吸引子，哪个更接近真实？
-- Q-grid-abstract-space：网格细胞是否真的是通用"内部坐标系"，用于抽象概念空间、时间等非物理空间？
-- Q-grid-place-conversion：从网格细胞的六角码到场所细胞的点状码的转换，具体通过哪些突触机制实现？
+- Q-grid-pattern-generation：网格六角图案的生成机制：振荡干涉 vs. 连续吸引子，哪个更接近真实？两者是否在不同条件下各有贡献？
+- Q-grid-abstract-space：网格细胞是否真的是通用"内部坐标系"，用于抽象概念空间、时间等非物理空间？fMRI 六边形信号是否真的来自网格细胞而非混淆因素？
+- Q-grid-place-conversion：从网格细胞的六角码到场所细胞的点状码的转换，具体通过哪些突触机制实现？叠加热点假说是否完整？
+- Q-grid-human-single-unit（新增）：人类内嗅皮层单神经元级别的网格证据（Jacobs 2013 是开始，但样本量小）是否能被大样本颅内记录研究所扩展和证实？
 
 ## 修订历史
 
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 填补网格细胞知识 · 初始置信度：高
+- 2026-07-27 · 修订 · 基于《大脑内置的坐标系》文章 #95 · 新增：人类 fMRI 六边形信号（Doeller 2010）、模块结构与 1.4:1 间距比、头向细胞接口（第6节）、Behrens 2018 非空间应用综述、Jeffery 2024 网格扭曲证据；更新关键证据表和连接；添加 Q-grid-human-single-unit
 
 ## 来源文章
 
 - [[2026-05-28-place-cells-btsp]]
+- [[2026-07-27-grid-cells-head-direction-spatial-coordinate-system]]

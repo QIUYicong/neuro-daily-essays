@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-26",
-  "node_count": 168,
-  "edge_count": 1026,
+  "updated": "2026-07-27",
+  "node_count": 170,
+  "edge_count": 1034,
   "edge_types": [
     "is-a",
     "part-of",
@@ -274,6 +274,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/grid-cell.md"
+    },
+    {
+      "id": "head-direction-cells",
+      "title": "头向细胞",
+      "domain": "neurons",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/head-direction-cells.md"
+    },
+    {
+      "id": "border-cells",
+      "title": "边界细胞",
+      "domain": "neurons",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/border-cells.md"
     },
     {
       "id": "theta-oscillations",
@@ -1540,6 +1558,54 @@
     }
   ],
   "edges": [
+    {
+      "from": "head-direction-cells",
+      "to": "grid-cell",
+      "type": "supports",
+      "note": "头向细胞为网格细胞路径积分提供角度方向输入；MEC联合细胞同时编码头向和网格位置"
+    },
+    {
+      "from": "border-cells",
+      "to": "grid-cell",
+      "type": "supports",
+      "note": "边界细胞提供空间锚点，防止网格路径积分误差累积"
+    },
+    {
+      "from": "border-cells",
+      "to": "place-cell",
+      "type": "supports",
+      "note": "边界细胞影响场所场稳定性；场所场在环境边界处断裂（Jeffery 2024）"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "place-cell",
+      "type": "supports",
+      "note": "头向系统为场所场的方位参考框架提供角度锚定"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "entorhinal-cortex",
+      "type": "part-of",
+      "note": "MEC 含头向细胞和联合细胞（同时编码方向与网格位置）"
+    },
+    {
+      "from": "border-cells",
+      "to": "entorhinal-cortex",
+      "type": "part-of",
+      "note": "边界细胞主要位于 MEC 和下托"
+    },
+    {
+      "from": "head-direction-cells",
+      "to": "path-integration",
+      "type": "mechanism-of",
+      "note": "头向细胞提供路径积分所需的角度坐标维度"
+    },
+    {
+      "from": "border-cells",
+      "to": "path-integration",
+      "type": "supports",
+      "note": "边界细胞为路径积分提供重置校准信号，防止误差积累"
+    },
     {
       "from": "up-down-state-mechanism",
       "to": "cortical-slow-oscillation",

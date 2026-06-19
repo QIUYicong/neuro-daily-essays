@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-26（第94篇·嗅觉编码×气味分子→情绪记忆四级变换×Proust效应）· 主题页总数：**164**（新建3页：concepts/olfactory-receptor、systems/olfactory-bulb、concepts/piriform-cortex；修订2页：systems/amygdala rev4→rev5、systems/entorhinal-cortex rev1→rev2；图谱168节点、1026边；新增7个开放问题Q-or-pseudogene-loss等）
+> 最后更新：2026-07-27（第95篇·网格细胞×头向细胞×边界细胞→大脑内置坐标系×认知地图拼贴图批评）· 主题页总数：**166**（新建2页：neurons/head-direction-cells、neurons/border-cells；修订3页：neurons/grid-cell rev1→rev2、neurons/place-cell rev3→rev4、更新 CHANGELOG；图谱170节点、1034边；新增Q-hd-ring-attractor-location、Q-border-cells-mechanism、Q-grid-human-single-unit等开放问题）
 
 ---
 
@@ -21,9 +21,11 @@
 - 🟢 [CaMKII（钙/钙调素依赖性蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶，"分子记忆开关"
 - 🟢 [树突计算](neurons/dendritic-computation.md) — NMDA 棘波与 Ca²⁺ 棘波使单根树突成为独立计算单元，单神经元等价两层神经网络；Wilson 2016证明V1突触聚类增强方向选择性（修订4次）
 - 🟢 [锥体神经元](neurons/pyramidal-neuron.md) — 皮层主体兴奋性神经元，双树突系统是树突计算和前馈/反馈整合的物理基础
-- 🟢 [场所细胞](neurons/place-cell.md) — 海马 CA1/CA3 的空间位置编码器，通过 BTSP 单次写入场所场，构成大脑认知地图 **[NEW]**
+- 🟢 [场所细胞](neurons/place-cell.md) — 海马 CA1/CA3 的空间位置编码器，通过 BTSP 单次写入场所场，构成大脑认知地图（修订4次）
 - 🟢 [海马回路](neurons/hippocampal-circuit.md) — DG（模式分离）→ CA3（模式补全）→ CA1（整合输出）的三突触回路与并行穿孔通路；AD最早受损的回路（修订6次）
-- 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，为场所细胞提供坐标框架 **[NEW]**
+- 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，模块化组织（1.4:1间距比），为场所细胞提供坐标框架；人类fMRI六边形信号证实（修订2次）
+- 🟢 [头向细胞](neurons/head-direction-cells.md) — 对头部方向选择性放电的神经元，构成大脑方位罗盘；环形吸引子网络生成；PoS/ADN/LMN/RSC回路 **[NEW 2026-07-27]**
+- 🟢 [边界细胞](neurons/border-cells.md) — MEC/下托中对环境边界距离/方向编码的神经元，为路径积分提供空间锚点防止误差累积 **[NEW 2026-07-27]**
 - 🟢 [电压门控钙通道（VGCCs）](neurons/voltage-gated-calcium-channels.md) — P/Q型在突触前纳米域触发递质释放；L型在树突驱动BTSP平台电位，在核激活基因表达；三亚家族、三地点、三时间尺度 **[NEW 2026-06-01]**
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**

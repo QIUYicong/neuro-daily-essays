@@ -1,0 +1,156 @@
+# 2026-07-27 Daily Run Log
+
+## 基本信息
+
+- **运行日期（UTC+8）**: 2026-07-27
+- **系统时钟日期**: 2026-06-19
+- **日期漂移补偿**: topic_ledger.last_updated (2026-07-26) + 1 = 2026-07-27
+- **文章编号**: #95
+- **文章标题**: 大脑内置坐标系：网格细胞、头向细胞、边界细胞与认知地图
+- **文章文件**: articles/2026-07-27-grid-cells-head-direction-spatial-coordinate-system.md
+- **执行模式**: 自动化定时任务（09:00 UTC+8）
+
+---
+
+## Step A: 前置检查
+
+- [x] ROUTINE.md 读取完成
+- [x] KNOWLEDGE-BASE-DESIGN.md 读取完成
+- [x] 远程仓库确认为 QIUYicong/neuro-daily-essays（非 lianyichuan / cqiuyicong）
+- [x] 当日日期文章不存在（2026-07-27 无重复）
+
+---
+
+## Step B: 话题选取
+
+**选题依据**: 知识库缺口驱动（Course Spine 3: 空间表征）
+
+- topic_ledger 显示 wiki/neurons/grid-cell.md 仅 revision_count=1（2026-05-28），且无 head-direction-cells、border-cells 专属 wiki 页面
+- 已有 place-cell.md（rev3）和 grid-cell.md（rev1），但四种空间细胞的网络仍不完整
+- 选题：网格细胞+头向细胞+边界细胞+认知地图（整合式专题，填补课程主干缺口）
+
+---
+
+## Step C: 文献检索
+
+### 检索策略
+1. `place cells grid cells hippocampus spatial navigation review PubMed`
+2. `Doeller Barry Burgess 2010 Nature fMRI grid-like hexagonal signal entorhinal cortex human navigation PMID`
+3. `head direction cells Taube 1990 postsubiculum anterior thalamus ring attractor model PMID PubMed`
+4. `Moser Moser 2008 place cells grid cells Annual Review Neuroscience`
+5. `Hafting Fyhn Molden Moser 2005 grid cells microstructure spatial map Nature PMID`
+6. `Behrens 2018 Neuron cognitive map conceptual space`
+
+### 来源汇总（10篇）
+
+| ID | PMID/DOI | 作者 | 年份 | 全文 | 用途 |
+|----|---------|------|------|------|------|
+| S1 | PMID:5124915 | O'Keefe & Dostrovsky | 1971 | 否 | 场所细胞发现 |
+| S2 | PMID:15965463 | Hafting et al. | 2005 | 否 | 网格细胞发现 |
+| S3 | PMID:2303852 | Taube et al. | 1990 | 否 | 头向细胞发现（PoS） |
+| S4 | PMID:7823153 | Taube | 1995 | 否 | 头向细胞（ADN） |
+| S5 | DOI:10.1146/annurev.neuro.31.061307.090723 | Moser et al. | 2008 | 否 | 综述（无PMID） |
+| S6 | PMID:20090680 PMC:3173857 | Doeller et al. | 2010 | **是** | 人类fMRI证据 |
+| S7 | PMC:3423065 | Giocomo et al. | 2011 | **是** | CAN模型综述 |
+| S8 | PMID:29073650 PMC:6028313 | Epstein et al. | 2017 | **是** | 人类认知地图综述 |
+| S9 | DOI:10.1016/j.neuron.2018.10.002 | Behrens et al. | 2018 | 否 | 抽象认知地图 |
+| S10 | PMID:38231426 PMC:10923978 | Jeffery | 2024 | **是** | 拼贴图批评 |
+
+**开放全文**: 4/10（Doeller 2010, Giocomo 2011, Epstein 2017, Jeffery 2024）
+**摘要/综述引用**: 6/10
+
+### PMID 核查错误与修正
+- O'Keefe 1971 初始尝试 PMID 4326755 → 实为法语儿科肾肿瘤论文，修正为 PMID 5124915
+- Moser 2008 Annual Review 无 PMID，改使用 DOI
+
+### 排除来源
+- ArXiv/bioRxiv 预印本（网格细胞计算模型方向）：未同行评审，排除
+- 部分 Moser 组原始研究（网格细胞模块化）：无法获取摘要，改引综述
+
+### 禁止行为合规
+- [x] 未使用 Sci-Hub 或绕过付费墙
+- [x] 未捏造 PMID/DOI/PMC 编号
+- [x] 未捏造实验结论或数据
+- [x] Nobel Prize 官网返回 403，未强制获取，改用其他来源
+
+---
+
+## Step D: 文章写作
+
+- **文件**: articles/2026-07-27-grid-cells-head-direction-spatial-coordinate-system.md
+- **字数**: ~4500 中文字符
+- **结构**: 核心问题 → 一句话摘要 → 重要性 → 历史背景 → 网格细胞特性 → CAN机制 → 头向细胞 → 边界细胞 → 四类细胞协作回路 → 人类证据 → 抽象认知地图 → 比喻与局限 → AI关联 → 未解问题 → 概念卡片 → 知识地图更新 → 参考来源
+- **语言**: 中文科学写作，兼顾准确性与可读性
+
+---
+
+## Step E: 阅读笔记 & 来源文件
+
+- **阅读笔记**: notes/2026-07-27-reading-notes.md（6篇来源详细笔记）
+- **来源文件**: sources/2026-07-27-sources.json（10篇来源完整元数据）
+
+---
+
+## Step F: Wiki 整合
+
+### 新建 Wiki 页面（2）
+1. `wiki/neurons/head-direction-cells.md` — revision_count=1，4个已知事实，1个开放问题
+2. `wiki/neurons/border-cells.md` — revision_count=1，4个已知事实，1个开放问题
+
+### 修订 Wiki 页面（2）
+1. `wiki/neurons/grid-cell.md` — rev1→rev2：增加模块结构、头向接口、人类证据、Jeffery拼贴图批评
+2. `wiki/neurons/place-cell.md` — rev3→rev4：增加border-cells/head-direction-cells连接节点
+
+### 知识图谱更新
+- `wiki/_graph.json`: 168→170 节点，1026→1034 边（+2节点, +8边）
+- `wiki/index.md`: 总页数 164→166，2个新词条
+- `wiki/CHANGELOG.md`: 2026-07-27 条目，3个新开放问题
+
+---
+
+## Step G: 状态文件更新
+
+| 文件 | 更新内容 |
+|------|---------|
+| state/topic_ledger.json | last_updated→2026-07-27, total_articles 77→78, 新增#95条目 |
+| state/unresolved_questions.md | 新增3个问题：Q-hd-ring-attractor-location, Q-border-cells-mechanism, Q-grid-human-single-unit |
+| state/maturity_index.json | 新增head-direction-cells/border-cells两个页面条目 |
+| state/monthly_synthesis.md | 截至日期→2026-07-27, 本月文章数24→25, 增加#95摘要 |
+| state/source_registry.json | last_updated→2026-07-27, 新增10篇来源条目 |
+
+---
+
+## Step H: 自检
+
+### 质量检查
+- [x] 无捏造来源（所有PMID/DOI可追溯）
+- [x] 无未标注不确定性（付费墙来源标注"未读全文"）
+- [x] 无静态Wiki矛盾（无需冲突协议）
+- [x] 知识图谱一致性：新节点关系与已有节点匹配
+- [x] Index与CHANGELOG均已更新
+- [x] 情节层文件均为新建（append-only，无修改历史文章）
+- [x] 语义层文件（wiki/state）按规范修订
+
+### 局限性说明
+- Hafting 2005（网格细胞发现论文）未读全文，信息来自多篇综述
+- Behrens 2018 未读全文，核心论点通过 Epstein 2017 综述间接获取
+- 人类单细胞网格证据（Jacobs 2013）本次未引用（文献核查中PMID存疑，排除以避免错误）
+
+---
+
+## 运行统计
+
+- **文章长度**: ~4500 中文字符
+- **新建文件**: 5个（文章+笔记+来源+2个wiki页面）
+- **修改文件**: 9个（2个wiki页面+_graph+index+CHANGELOG+5个状态文件）
+- **总计文件操作**: 14个文件
+- **Web检索次数**: ~8次
+- **PMC全文获取**: 4篇
+
+---
+
+## Git 提交信息
+
+- **分支**: main
+- **提交信息**: Add neuro daily article + wiki consolidation for 2026-07-27
+- **作者**: QIUYicong <169510482+QIUYicong@users.noreply.github.com>

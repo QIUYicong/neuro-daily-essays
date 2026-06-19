@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-27",
   "levels": [
     "speculative",
     "emerging",
@@ -9,6 +9,22 @@
     "contested"
   ],
   "pages": [
+    {
+      "slug": "head-direction-cells",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-07-27",
+      "reason": "创建 2026-07-27（文章 #95）。头向细胞是1990年代以来神经科学领域的教科书级发现：Taube 1990（PMID:2303852）在大鼠后下托发现位置特异性头向放电，多次独立重复；Taube 1995（PMID:7823153）确认丘脑前背侧核（ADN）的头向细胞；环形吸引子模型（ring attractor）是广泛接受的生成机制。置信度：high。未解：具体生成器位置（DTN/LMN/ADN层次分工），头向细胞在人类中的直接单神经元证据有限。"
+    },
+    {
+      "slug": "border-cells",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-07-27",
+      "reason": "创建 2026-07-27（文章 #95）。Solstad et al. 2008 在大鼠 MEC 中发现边界细胞，其放电完全跟随边界移动（vs 场所场50%跟随）；功能上与路径积分误差校正假说一致，有理论模型和实验证据支持。置信度：high（存在性已确认）。未解：驱动机制（感觉vs回路计算）、人类直接证据。"
+    },
     {
       "slug": "up-down-state-mechanism",
       "status": "established",

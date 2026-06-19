@@ -1,7 +1,76 @@
 {
-  "last_updated": "2026-07-26",
-  "total_articles": 77,
+  "last_updated": "2026-07-27",
+  "total_articles": 78,
   "entries": [
+    {
+      "date": "2026-07-27",
+      "title": "大脑内置的坐标系：网格细胞、头向细胞与边界细胞如何共同搭建空间认知地图",
+      "filename": "2026-07-27-grid-cells-head-direction-spatial-coordinate-system.md",
+      "wiki_pages_created": [
+        "wiki/neurons/head-direction-cells.md",
+        "wiki/neurons/border-cells.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/grid-cell.md",
+        "wiki/neurons/place-cell.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "内侧内嗅皮层（MEC）的网格细胞如何通过连续吸引子网络（CAN）生成六边形晶格？头向细胞如何为整个坐标系提供方位锚点？边界细胞如何防止路径积分误差积累？四类空间特化神经元如何协同构成大脑内置GPS？人类中的证据是什么？认知地图如何延伸到物理导航以外的抽象认知？",
+      "layer": [
+        "cellular",
+        "brain-region",
+        "microcircuit",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·空间表征）+ 课程脊柱4（学习记忆·海马-内嗅回路）；深化现有grid-cell wiki（revision_count 1→2）；填补Q-grid-pattern-generation和Q-hd-ring-attractor-location；建立head-direction-cells和border-cells新页；添加人类证据（Doeller 2010）；引入Jeffery 2024拼贴图批评",
+      "topic_tags": [
+        "grid cells hexagonal lattice",
+        "head direction cells ring attractor",
+        "border cells boundary vector cells",
+        "path integration",
+        "continuous attractor network CAN",
+        "place cells spatial coding",
+        "cognitive map",
+        "medial entorhinal cortex MEC",
+        "O'Keefe Dostrovsky 1971 place cells",
+        "Hafting 2005 grid cells Nature",
+        "Taube 1990 head direction postsubiculum",
+        "Doeller Barry Burgess 2010 fMRI hexagonal",
+        "Jeffery 2024 mosaic cognitive map",
+        "Epstein Patai Julian Spiers 2017 Nat Neurosci",
+        "grid modules 1.4:1 spacing ratio",
+        "residue number system path integration",
+        "conjunctive cells MEC",
+        "Behrens 2018 conceptual space",
+        "DeepMind 2018 grid cells deep RL",
+        "abstract cognitive map social navigation"
+      ],
+      "open_questions_raised": [
+        "Q-hd-ring-attractor-location",
+        "Q-border-cells-mechanism",
+        "Q-grid-human-single-unit"
+      ],
+      "open_questions_updated": [
+        "Q-grid-pattern-generation",
+        "Q-grid-abstract-space",
+        "Q-grid-place-conversion"
+      ],
+      "main_sources": [
+        "PMID:5124915",
+        "PMID:15965463",
+        "PMID:2303852",
+        "PMID:7823153",
+        "PMID:20090680",
+        "PMID:29073650",
+        "PMID:38231426",
+        "PMC3423065"
+      ],
+      "article_number": 95,
+      "date_note": "日期漂移补偿：系统时钟2026-06-19，知识库last_updated 2026-07-26，故使用 last_updated+1 = 2026-07-27"
+    },
     {
       "date": "2026-07-23",
       "title": "皮层的沉默与苏醒：UP/DOWN 态如何从细胞机制到系统层面编排睡眠中的记忆选择",

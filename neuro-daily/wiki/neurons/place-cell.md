@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-05-31
-revision_count: 3
+updated: 2026-07-27
+revision_count: 4
 dimensions: [cellular, brain-region, cognition, behavior]
-related: [hippocampal-circuit, btsp, grid-cell, dendritic-computation, ltp, hebbian-learning, engram-cells, theta-oscillations]
+related: [hippocampal-circuit, btsp, grid-cell, dendritic-computation, ltp, hebbian-learning, engram-cells, theta-oscillations, border-cells, head-direction-cells]
 prerequisites: [dendritic-computation, ltp, hippocampal-circuit]
 opens_questions: [Q-place-field-content, Q-place-field-btsp-universality, Q-remapping-trigger]
-source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof]
-key_sources: ["PMID:26167906", "PMID:28883072", "PMID:18284371", "PMID:32042144", "PMID:8353611", "PMID:23354386"]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-07-27-grid-cells-head-direction-spatial-coordinate-system]
+key_sources: ["PMID:26167906", "PMID:28883072", "PMID:18284371", "PMID:32042144", "PMID:8353611", "PMID:23354386", "PMID:38231426"]
 ---
 
 # 场所细胞 (Place Cell)
@@ -101,6 +101,8 @@ CA1 场所细胞整合两路主要输入：
 - [[theta-oscillations]] — θ 振荡调控平台电位的触发时机；场所细胞的相位前进依赖θ节律
 - [[phase-precession]] — 场所细胞的核心编码特性：放电相位随位置移动，实现速率+相位双重编码
 - [[sharp-wave-ripples]] — 睡眠/静息时SWR高速重播场所细胞序列，是记忆固化的载体
+- [[border-cells]] — 边界细胞提供空间锚点，影响场所场稳定性；场所场在跨越环境边界时会"断裂"（Jeffery 2024）
+- [[head-direction-cells]] — 头向系统锚定场所场所在的空间参考框架的角度维度
 
 ## 未解问题
 
@@ -113,6 +115,7 @@ CA1 场所细胞整合两路主要输入：
 - 2026-05-28 · 创建 · 填补悬空引用（由 [[树突计算]] 页引用）· 基于《场所细胞》文章 · 初始置信度：高
 - 2026-05-29 · 修订 · 基于《θ振荡与相位编码》文章 · 新增"相位前进"（第4节）和"SWR重播"（原第4节）；更新 key_sources；添加 [[phase-precession]] 连接
 - 2026-05-31 · 修订 · 基于《印迹细胞》文章 · 明确场所细胞作为情景记忆印迹细胞的实验证据（Liu 2012, Roy 2016 均使用 DG/CA1 作为印迹标记靶区）；更新 [[engram-cells]] 连接描述；revision_count 升至 3
+- 2026-07-27 · 修订 · 基于《大脑内置的坐标系》文章 #95 · 新增 [[border-cells]] 和 [[head-direction-cells]] 连接；添加 Jeffery 2024（PMID:38231426）关于场所场跨边界断裂的证据；更新 key_sources 和 related
 
 ## 来源文章
 

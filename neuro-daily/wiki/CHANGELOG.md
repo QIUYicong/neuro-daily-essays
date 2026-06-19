@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-07-27（文章 #95·网格细胞×头向细胞×边界细胞→大脑内置坐标系×认知地图拼贴图批评）
+
+**源文章**：[[2026-07-27-grid-cells-head-direction-spatial-coordinate-system]] —《大脑内置的坐标系：网格细胞、头向细胞与边界细胞如何共同搭建空间认知地图》
+
+**新建页面（2）**：
+- `wiki/neurons/head-direction-cells.md`（新建）— 对头部方向选择性放电；Taube 1990/1995；首选方向+高斯调谐（~90°宽）；地标锚定+黑暗中短期维持；环形吸引子（ring attractor）生成机制；PoS/ADN/LMN/DTN/RSC分布层次；联合细胞整合头向×网格；revision_count=1；置信度：高
+- `wiki/neurons/border-cells.md`（新建）— 对环境边界的特定距离/方向编码；Solstad 2008；完全跟随边界缩放（vs场所场50%跟随）；为路径积分提供重置锚点；Jeffery 2024 拼贴图批评：边界是空间坐标系分段点；revision_count=1；置信度：高
+
+**修订页面（2）**：
+- `wiki/neurons/grid-cell.md` rev2 — updated=2026-07-27；revision_count 1→2；related 新增 head-direction-cells、border-cells、entorhinal-cortex；key_sources 新增 PMID:20090680、PMID:29073650、PMID:38231426；source_articles 新增 2026-07-27-grid-cells-head-direction-spatial-coordinate-system；**新增第5节"模块结构与多尺度精度"**（1.4:1间距比、残差数系统原理）；**新增第6节"头向细胞接口"**（联合细胞）；更新第7节（Behrens 2018非空间应用）；**新增关键证据**：人类fMRI六边形信号（PMID:20090680）、网格模式扭曲（PMID:38231426）；**新增Q-grid-human-single-unit**；更新连接（head-direction-cells、border-cells、entorhinal-cortex）
+- `wiki/neurons/place-cell.md` rev4 — updated=2026-07-27；revision_count 3→4；related 新增 border-cells、head-direction-cells；key_sources 新增 PMID:38231426；source_articles 新增 2026-07-27；连接新增 [[border-cells]]（场所场跨边界断裂）和 [[head-direction-cells]]（角度参考框架）
+
+**矛盾登记（0）**：无新矛盾。Jeffery 2024 的"拼贴图"批评与传统"认知地图=全局坐标系"不构成数据矛盾，而是对同一实验的**理论层面不同解读**，已在文章中并列呈现，不触发矛盾协议（新实验数据无冲突）。
+
+**新增开放问题（3）**：
+- Q-hd-ring-attractor-location（中优先级）：头向环形吸引子的物理基底：DTN、LMN、ADN 哪个是生成器？
+- Q-border-cells-mechanism（中优先级）：边界细胞由感觉驱动还是从网格/场所回路推算？
+- Q-grid-human-single-unit（中优先级）：人类内嗅皮层单神经元网格证据（Jacobs 2013 是开始）是否能被大样本研究扩展？
+
+**图谱**：170 节点（+2：head-direction-cells、border-cells），1034 边（+8：新增头向→网格supports、边界→网格supports、边界→场所supports、头向→场所supports、头向→内嗅part-of、边界→内嗅part-of、头向→路径积分mechanism-of、边界→路径积分supports）
+
+---
+
 ## 2026-07-26（文章 #94·嗅觉编码×气味分子→情绪记忆四级变换×Proust效应解剖基础）
 
 **源文章**：[[2026-07-26-olfactory-coding-smell-memory-limbic]] —《气味的神经密码：从一个分子到一段记忆的四级变换》
