@@ -6,13 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-20
-revision_count: 4
+updated: 2026-07-21
+revision_count: 5
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular, synaptic, disease]
 related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, schizophrenia, sst-interneurons, cortical-layers]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
-opens_questions: [Q-gamma-wm-causality, Q-gamma-capacity, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-gamma-ping-ling-01, Q-gamma-sst-pv]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-07-20-gamma-oscillations-ping-ing-mechanism]
+opens_questions: [Q-gamma-wm-causality, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-gamma-ping-ling-01, Q-gamma-sst-pv]
+partially_resolved_questions: [Q-gamma-capacity]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-07-20-gamma-oscillations-ping-ing-mechanism, 2026-07-21-theta-gamma-coupling-working-memory]
 key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:7854418", "PMID:19396159", "PMID:19396156", "PMID:22114273", "PMID:26912589", "PMID:22355184", "PMID:32859716", "PMID:27927782"]
 ---
 
@@ -125,7 +126,7 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 ## 未解问题
 
 - Q-gamma-wm-causality（高优先级）：γ 爆发是工作记忆的因果机制还是相关物？（Sohal/Cardin 2009 证明短时程感觉处理，但长时程 WM 维持的因果证据缺失）
-- Q-gamma-capacity：θ/γ 嵌套是否是工作记忆 ~4 项容量的节律基础？
+- Q-gamma-capacity（部分解答，2026-07-21）：θ/γ 嵌套是工作记忆 ~4 项容量的节律基础——Lisman-Idiart 1995 容量分格模型（PMID:7878473）+ 人类颅内证据（Axmacher 2010, PMID:20133762）+ 个体θ频率预测容量（Wolinski 2018, PMID:29538384）构成三层证据。剩余争议：tACS 因果干预效应量尚弱，灵长类θ节律性不足。详见 [[theta-gamma-coupling]] 专页。
 - Q-gamma-bind-01（高优先级）：γ 同步是感知绑定的充分/必要条件吗？需要闭环光遗传因果实验
 - Q-gamma-bind-02（中优先级）：ING 和 PING 在感知绑定中各自的贡献？
 - Q-gamma-bind-03（高优先级）：40 Hz 伽马与 90 Hz co-ripples 是不同机制还是同一机制的频段变体？
@@ -138,6 +139,7 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 - 2026-06-25 · 修订 · 基于《当大脑把碎片缝合在一起》一文 · 新增：绑定假说维度、CTC 框架、Gray & Singer 1989 证据、Costa 2024 反例、ING-PING 转换；新增 related 节点 3 个；新增 key_sources 5 个
 - 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192；新增连接补充段落
 - 2026-07-20 · 修订 · 基于《篮状细胞打出节拍》一文 (#88) · 新增：ING/PING 分子机制深化（GABA-A τ_decay 作为频率时钟；Whittington 1995 ING 实验起点）、Sohal 2009 + Cardin 2009 光遗传因果证据、双层 γ 生成（Ainsworth 2011）、ING-PING 竞争（Viriyopase 2016）、SST+ 贡献（Antonoudiou 2020）、精神分裂症分子级联（Gonzalez-Burgos 2012）；新增 related 节点：schizophrenia, sst-interneurons, cortical-layers；新增 key_sources 8 个；新增未解问题 Q-gamma-ping-ling-01, Q-gamma-sst-pv
+- 2026-07-21 · 修订 · 基于《海马的节律钟表》一文 (#89) · 将 Q-gamma-capacity 从 opens_questions 移入 partially_resolved_questions（三层证据：Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）；Q-gamma-capacity 正文标注部分解答；新增 source_articles: 2026-07-21-theta-gamma-coupling-working-memory
 
 ## 连接补充（2026-07-04）
 

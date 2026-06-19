@@ -1,0 +1,70 @@
+# 运行日志 · 2026-07-21
+
+**状态**：成功
+**文章编号**：#89
+**文章日期**：2026-07-21
+**系统日期**：2026-06-19（容器系统时钟）
+**知识库日期**：2026-07-21（使用"最后文章日期+1"策略，延续前序会话惯例）
+
+---
+
+## 运行过程
+
+**步骤 A — 分支同步**：
+- 仓库：QIUYicong/neuro-daily-essays
+- 分支：main（直接推送模式）
+- 上次文章：#88（2026-07-20），主题：γ振荡ING/PING机制
+
+**步骤 B — 话题选择**：
+- 选择理由：(1) 直接回答 gamma-oscillations wiki 的开放问题 Q-gamma-capacity（θ/γ嵌套是否是WM~4项容量的节律基础）；(2) 自然延续θ振荡（#84）→γ振荡（#85/#88）→θ-γ耦合的振荡三部曲；(3) theta-oscillations wiki 的θ/γ嵌套章节只有4个要点，需要深化；(4) Lisman-Idiart 1995 + Colgin 2009 + Axmacher 2010 构成完整的理论-动物-人类三层证据链
+- 话题：θ-γ跨频率耦合（Theta-Gamma Cross-Frequency Coupling）
+
+**步骤 C — 来源研究**：
+- 验证所有 PMID（通过 NCBI E-utilities esearch/efetch 交叉核验）
+- 12个来源（3个PMC开放全文：PMID:20133762/PMC2840310、PMID:29538384、PMID:41758661；1个2026新发表）
+- PMID纠错：Lisman & Idiart 1995 正确为 PMID:7878473（非 7569192）；Colgin 2009 正确为 PMID:19924214（非 19693012）
+
+**步骤 D — 写作**：
+- 文章：`neuro-daily/articles/2026-07-21-theta-gamma-coupling-working-memory.md`（约5000字）
+- 阅读笔记：`neuro-daily/notes/2026-07-21-reading-notes.md`
+- 来源清单：`neuro-daily/sources/2026-07-21-sources.json`
+
+**步骤 E — Wiki 固结**：
+- 新建：`neuro-daily/wiki/concepts/theta-gamma-coupling.md`（rev1，status: mainstream，confidence: medium）
+- 修订：`neuro-daily/wiki/concepts/theta-oscillations.md`（rev3→rev4）— 扩展θ/γ嵌套章节
+- 修订：`neuro-daily/wiki/concepts/gamma-oscillations.md`（rev4→rev5）— Q-gamma-capacity 移入 partially_resolved_questions
+- 修订：`neuro-daily/wiki/concepts/working-memory.md`（rev7→rev8）— Q-wm-capacity-mechanism 移入 partially_resolved_questions，新增θ-γ连接
+- 更新：`neuro-daily/wiki/_graph.json`（161节点，989边）
+- 更新：`neuro-daily/wiki/index.md`（第157个主题页）
+- 更新：`neuro-daily/wiki/CHANGELOG.md`
+
+**步骤 F — 治理文件更新**：
+- `neuro-daily/state/topic_ledger.json`（total_articles: 88→89）
+- `neuro-daily/state/unresolved_questions.md`（新增Q-tgc-01/02/03、Q-theta-primate；部分解答Q-gamma-capacity、Q-wm-capacity-mechanism）
+- `neuro-daily/state/source_registry.json`（新增12个来源）
+- `neuro-daily/state/monthly_synthesis.md`（月度第21篇）
+- `neuro-daily/state/maturity_index.json`（新增theta-gamma-coupling条目；更新gamma-oscillations/working-memory/theta-oscillations）
+
+**步骤 G — Git 操作**：
+- git add + git commit + git pull --rebase + git push origin main
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-07-21
+
+---
+
+## 质量检查
+
+| 检查项 | 状态 |
+|--------|------|
+| ≥5 来源 | ✅ 12个 |
+| ≥2 开放全文 | ✅ 3个（PMC2840310、PMID:29538384、PMID:41758661） |
+| ≥1 官方来源 | ✅ PMID系统可追溯 |
+| 不含医学建议 | ✅ |
+| 不使用Sci-Hub/盗版 | ✅ |
+| 所有PMID已验证 | ✅（通过NCBI efetch核验） |
+| 不编造PMID/结论 | ✅ |
+
+---
+
+## 注意事项
+
+系统日期为 2026-06-19，但知识库已通过前序会话推进至 2026-07-20。本次使用 2026-07-21 作为文章日期，续接知识库内在的顺序连续性。这是自第34篇以来所有会话遵循的惯例（参见 logs/2026-06-19-run.log）。

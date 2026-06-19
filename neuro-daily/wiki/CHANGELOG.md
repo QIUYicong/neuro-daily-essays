@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-07-21（文章 #89·海马的节律钟表·θ-γ跨频率耦合·容量分格模型·Colgin双通道路由）
+
+**源文章**：[[2026-07-21-theta-gamma-coupling-working-memory]] —《海马的节律钟表：θ-γ跨频率耦合如何量化工作记忆容量》
+
+**新建页面（1）**：
+- `wiki/concepts/theta-gamma-coupling.md`（θ-γ跨频率耦合·rev1）🔵 mainstream·medium confidence — Lisman-Idiart 1995 容量分格模型（θ/γ 比率 ≈ 4–6 ≈ WM 容量）；活动依赖 ADP 维持记忆分格；Colgin 2009 双通道路由（慢γ-CA3/快γ-MEC 时分多路复用）；Axmacher 2010 人类颅内 PAC×WM 负荷证据；Wolinski 2018 θ 频率→容量定量预测；Huang 2026 导航序列规划扩展；关键证据表 6 条；连接 theta-oscillations, gamma-oscillations, working-memory, place-cells, theta-phase-precession, sharp-wave-ripples, hippocampal-circuit, temporal-coding-hierarchy, pv-interneurons；开放问题 Q-tgc-01/02/03
+
+**修订页面（3）**：
+- `wiki/concepts/theta-oscillations.md` rev4 — 扩展 θ/γ 嵌套章节：Lisman-Idiart 1995 + Lisman-Jensen 2013 容量修订（4-6→4±1）、Colgin 2009 双通道路由（慢γ-CA3/快γ-MEC）、Axmacher 2010 人类 PAC 证据；related 新增 theta-gamma-coupling, working-memory, gamma-oscillations；source_articles 新增 2026-07-21-theta-gamma-coupling-working-memory；key_sources 新增 PMID:7878473, PMID:23522038, PMID:19924214
+- `wiki/concepts/gamma-oscillations.md` rev5 — Q-gamma-capacity 从 opens_questions 移入 partially_resolved_questions（三层证据：Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018；剩余争议：因果弱/灵长类θ不规则）；Q-gamma-capacity 正文标注部分解答；source_articles 新增 2026-07-21-theta-gamma-coupling-working-memory
+- `wiki/concepts/working-memory.md` rev8 — Q-wm-capacity-mechanism 从 opens_questions 移入 partially_resolved_questions；θ-γ嵌套为4±1容量节律机制；连接新增 theta-gamma-coupling；related 新增 theta-gamma-coupling；key_sources 新增 PMID:7878473, PMID:23522038, PMID:20133762；source_articles 新增 2026-07-21-theta-gamma-coupling-working-memory
+
+**矛盾登记（1）**：
+- 啮齿类 vs 灵长类 θ 节律性张力：Colgin 2009 慢/快 γ 路由在大鼠中建立，但人类 θ 节律性显著弱于大鼠，人类直接颅内验证缺失。登记为 Q-tgc-02，页面 confidence 设为 medium。
+
+**新增开放问题（3）**：
+- Q-tgc-01（高优先级）：tACS 调制 θ 频率的 WM 行为效果是否与模型预测方向一致且效应量显著？因果性操控能否改变工作记忆容量？
+- Q-tgc-02（中优先级）：Colgin 2009 慢γ/快γ 双通道路由在人类海马和前额叶中是否成立？人类颅内数据是否能重复相位分离？
+- Q-tgc-03（低优先级）：Köster 2024 θ 早相位=内部预期、晚相位=预测误差的预测编码 θ-γ 框架是否有直接实验证据？
+
+**部分解答问题（2）**：
+- Q-gamma-capacity（来自 gamma-oscillations）：三层证据（Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）支持 θ-γ 嵌套作为 WM ~4 项容量的节律基础；剩余争议：tACS 因果证据弱，灵长类 θ 不规则
+- Q-wm-capacity-mechanism（来自 working-memory）：θ-γ 嵌套约束与吸引子竞争同时起作用；三层证据支持 θ-γ 贡献；因果性仍弱
+
+**图谱**：161 节点，989 边（+1 节点 theta-gamma-coupling，+12 边）
+
+---
+
 ## 2026-07-20（文章 #88·篮状细胞打出节拍·ING/PING 双重机制·精神分裂症 PV-GAD67-γ 级联）
 
 **源文章**：[[2026-07-20-gamma-oscillations-ping-ing-mechanism]] —《篮状细胞打出节拍：γ 振荡的双重生成机制与精神分裂症的细胞之谜》

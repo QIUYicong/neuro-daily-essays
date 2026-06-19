@@ -1,7 +1,44 @@
 {
-  "last_updated": "2026-07-20",
-  "total_articles": 88,
+  "last_updated": "2026-07-21",
+  "total_articles": 89,
   "entries": [
+    {
+      "date": "2026-07-21",
+      "title": "海马的节律钟表：θ-γ跨频率耦合如何量化工作记忆容量",
+      "filename": "2026-07-21-theta-gamma-coupling-working-memory.md",
+      "wiki_pages_created": [
+        "wiki/concepts/theta-gamma-coupling.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/theta-oscillations.md",
+        "wiki/concepts/gamma-oscillations.md",
+        "wiki/concepts/working-memory.md"
+      ],
+      "contested_claims_logged": ["C-2026-07-21-01（啮齿类慢/快γ路由在人类中的可重复性）"],
+      "contested_claims_evidence_updated": [],
+      "core_question": "θ振荡每个周期内嵌套的γ爆发数如何决定工作记忆容量？Colgin 2009的双γ通道信息路由（慢γ-CA3/快γ-MEC）如何在人类海马中实现时分多路复用？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "课程脊柱2（振荡·θ-γ耦合·容量机制）；课程脊柱5（认知控制·工作记忆容量）；承接#84（θ振荡）和#85（γ振荡）；回答Q-gamma-capacity（θ/γ嵌套是否是WM~4项容量节律基础）；部分解答Q-wm-capacity-mechanism",
+      "topic_tags": [
+        "theta-gamma coupling",
+        "cross-frequency coupling",
+        "phase-amplitude coupling (PAC)",
+        "working memory capacity",
+        "hippocampal information routing",
+        "Lisman-Idiart model",
+        "Colgin 2009",
+        "slow gamma CA3",
+        "fast gamma MEC"
+      ],
+      "article_number": 89
+    },
     {
       "date": "2026-07-20",
       "title": "篮状细胞打出节拍：γ 振荡的双重生成机制与精神分裂症的细胞之谜",

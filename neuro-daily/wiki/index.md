@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-20（第88篇·篮状细胞打出节拍·ING/PING双重机制×GABA-A τ_decay分子时钟×光遗传学因果证明×精神分裂症PV-GAD67-γ级联）· 主题页总数：**156**（新建1页：diseases/schizophrenia；修订2页：concepts/gamma-oscillations rev3→rev4、circuits/pv-interneurons rev4→rev5；图谱160节点、977边；新增Q-gamma-ping-ling-01、Q-gamma-sst-pv、Q-sz-dopamine-gaba-interface）
+> 最后更新：2026-07-21（第89篇·海马的节律钟表·θ-γ跨频率耦合×Lisman-Idiart容量分格模型×Colgin双γ通道路由×人类颅内证据）· 主题页总数：**157**（新建1页：concepts/theta-gamma-coupling；修订3页：concepts/theta-oscillations rev3→rev4、concepts/gamma-oscillations rev4→rev5、concepts/working-memory rev7→rev8；图谱161节点、989边；新增Q-tgc-01、Q-tgc-02、Q-tgc-03）
 
 ---
 
@@ -58,7 +58,8 @@
 - 🟢 [皮层分层结构（六层）](concepts/cortical-layers.md) — L1–L6 各层细胞类型、输入/输出投射和振荡特征；前馈（L2/3→高级L4，γ驱动型）vs 反馈（L5/6→低级L1/2/3，β调制型绕过L4）的层级不对称；L4棘突星形细胞、L5厚毛绒锥体细胞两极整合、L6 CT丘脑门控 **[NEW 2026-07-18]**
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
-- 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-06-22]**
+- 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-07-21 rev4]**
+- 🔵 [θ-γ跨频率耦合](concepts/theta-gamma-coupling.md) — Lisman-Idiart 1995容量分格模型：每个θ周期嵌套约4–6个γ爆发，每个γ爆发承载一项工作记忆（对应4±1容量上限）；Colgin 2009慢γ（θ波峰，CA3）/快γ（θ波谷，MEC）双通道时分路由；Axmacher 2010人类颅内PAC证据；Huang 2026序列规划扩展 **[NEW 2026-07-21]**
 - 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重耦合）；Maingret 2016 闭环因果证据**[修订 2026-07-07]**
 - 🟢 [场所细胞](concepts/place-cells.md) — 海马CA1/CA3位置特异放电神经元；稀疏编码（1–5%激活）；重映射（不同环境正交表征）；θ相位前移实现双重位置编码；SWR期间序列以20倍速重播；是认知地图基本编码单元 **[NEW 2026-06-22]**（填补长期悬空引用）
 - 🟢 [网格细胞](concepts/grid-cells.md) — 内侧内嗅皮层MEC以六边形格点激活的神经元；三参数（间距/方向/相位）完全描述；4–7离散模块比√2；背腹向间距梯度（20cm–1.5m）；路径整合的坐标输出；活跃于心理模拟和概念空间（Qu 2026 Cell：发育成熟预测流体智力）**[NEW 2026-06-22]**（填补长期悬空引用）
@@ -277,5 +278,7 @@
 - **记忆巩固（memory-consolidation）**（现在最高优先级）：被 hippocampal-circuit、place-cell、sharp-wave-ripples、engram-cells 引用；系统巩固、睡眠阶段分工、皮层侧 LTP；**第二周首要主题**。
 
 **第26篇（2026-06-16）**：**默认模式网络（DMN）——当大脑"休息"时，它在做什么？**——课程路线8（意识与自我）开篇。Raichle 2001 PET元分析发现跨任务一致性去激活区域；Fox 2005 静息态fMRI证实DMN-TPN反相关（r≈-0.15至-0.20）；Andrews-Hanna 2011/2014 揭示双子系统架构（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC作为个人相关信息超加性整合枢纽；Buckner 2009 Aβ优先沉积DMN枢纽节点的功能解剖解释；GSR方法论争议；DMN作为预测编码高层先验生成器。新建1个wiki页面（systems/default-mode-network），修订 predictive-coding、hippocampal-circuit、alzheimers-disease 三页；图谱67节点385条边；新建Q-dmn-01到Q-dmn-04。
+
+**第89篇（2026-07-21）**：**海马的节律钟表：θ-γ跨频率耦合如何量化工作记忆容量**——揭示工作记忆 4±1 项容量上限的节律物理机制。核心贡献：(1) Lisman-Idiart 1995 容量分格模型：每个 θ 周期（约 125 ms）内嵌套约 4–6 个 γ 爆发（修订后），每个 γ 分格通过 ADP 维持一项记忆，θ/γ 比率即容量上限；(2) Axmacher 2010 人类颅内 EEG 直接证据：θ-γ PAC 随工作记忆负荷（1→3→5 项）系统性增强，个体 PAC 精度预测容量；(3) Colgin 2009 双通道路由：CA1 慢 γ（θ 波峰，CA3 自联想）/ 快 γ（θ 波谷，MEC 感觉）时分多路复用；(4) Wolinski 2018 定量预测：个体 θ 频率负相关工作记忆容量（慢 θ→更多 γ 循环→更大容量）；(5) Huang 2026 MEG 扩展：γ 爆发在连续 θ 相位编码导航序列，将 θ-γ 从"静态并行维持"扩展到"动态前向规划"。新建1个wiki页面（concepts/theta-gamma-coupling），修订3个wiki页面（theta-oscillations rev3→rev4、gamma-oscillations rev4→rev5、working-memory rev7→rev8），知识图谱161节点、989边，新增未解问题 Q-tgc-01/02/03，部分解答 Q-gamma-capacity 和 Q-wm-capacity-mechanism。
 
 **第88篇（2026-07-20）**：**篮状细胞打出节拍：γ 振荡的双重生成机制与精神分裂症的细胞之谜**——从神经元网络的自发振荡到精神疾病的分子级联。核心贡献：(1) ING（Interneuron Network Gamma）完整机制——Whittington 1995体外实验奠基，GABA-A τ_decay 是振荡周期的分子时钟，纯 I-I 网络可自主产生 50-80 Hz 振荡；(2) PING（Pyramidal-Interneuron Network Gamma）的 E-I 反馈循环——锥体细胞→PV 细胞→回抑制，频率受 τ_decay + E→I 延迟共同决定；(3) Sohal 2009 和 Cardin 2009 的光遗传学因果证明——抑制 PV 细胞 → γ 功率减少+信噪比下降；40 Hz 驱动 FS 细胞 → 选择性 γ + 感觉相位门控；(4) SST+ 细胞的独立 γ 贡献（Antonoudiou 2020）——打破"γ 只依赖 PV+"的简化观点；(5) 精神分裂症完整分子级联——NMDA 低活（NR2A 偏好 PV 细胞）→ GAD67 mRNA 下调 → GABA 合成↓ → IPSP 幅度↓ → PING 时序精度崩溃 → γ 振荡减弱 → 工作记忆缺陷，是当前精神疾病-振荡机制研究中最清晰的多层次因果链。新建1个wiki页面（diseases/schizophrenia），修订2个wiki页面（concepts/gamma-oscillations rev3→rev4、circuits/pv-interneurons rev4→rev5），知识图谱160节点、977边，新增3个未解问题（Q-gamma-ping-ling-01、Q-gamma-sst-pv、Q-sz-dopamine-gaba-interface）。

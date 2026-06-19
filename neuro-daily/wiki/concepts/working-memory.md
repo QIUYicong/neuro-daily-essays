@@ -6,14 +6,15 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-19
-revision_count: 7
+updated: 2026-07-21
+revision_count: 8
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, beta-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit]
+related: [persistent-activity, gamma-oscillations, beta-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit, theta-gamma-coupling]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
-opens_questions: [Q-wm-active-vs-silent, Q-wm-capacity-mechanism, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition, 2026-07-19-beta-oscillations-cortical-prediction]
-key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841", "PMID:29339471", "PMID:28785729"]
+opens_questions: [Q-wm-active-vs-silent, Q-wm-pfc-content-vs-control, Q-wm-human-specificity]
+partially_resolved_questions: [Q-wm-capacity-mechanism]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition, 2026-07-19-beta-oscillations-cortical-prediction, 2026-07-21-theta-gamma-coupling-working-memory]
+key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841", "PMID:29339471", "PMID:28785729", "PMID:7878473", "PMID:23522038", "PMID:20133762"]
 ---
 
 # 工作记忆 (Working Memory)
@@ -65,7 +66,8 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[prefrontal-cortex]] — 工作记忆的关键脑区，dlPFC 第 2/3/5 层
 - [[pv-interneurons]] — γ 生成者，控制工作记忆的时序精度
 - [[nmda-receptor]] — PFC 循环回路的时间积分器
-- [[theta-oscillations]] — θ 周期内可嵌套 5–7 个 γ 爆发，可能与工作记忆容量相关
+- [[theta-oscillations]] — θ 周期（~125 ms）是 θ-γ 嵌套容量分格的低频载波；个体 θ 频率（4–7 Hz）负相关工作记忆容量（Wolinski 2018）
+- [[theta-gamma-coupling]] — θ-γ 跨频率耦合是工作记忆 4±1 容量上限的节律物理机制：每个 θ 周期容纳约 4–6 个 γ 爆发，每个爆发承载一项信息
 - [[memory-consolidation]] — 工作记忆的长期化需要海马参与
 - [[short-term-synaptic-plasticity]] — STP易化机制是"活动无声"工作记忆的物理基础（Mongillo 2008）；Syt7驱动的易化状态储存记忆，无需持续高频放电
 - [[dorsal-language-stream]] — Baddeley语音回路（phonological loop）对应背侧流Spt↔BA44环路：颞顶界面区（Spt）是音韵短期缓冲，弓状束传递信息到BA44进行内部"默读"，是语言工作记忆的神经底层
@@ -74,7 +76,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 ## 未解问题
 
 - Q-wm-active-vs-silent：在真实任务中，活动性编码与突触静默储存各贡献多少？
-- Q-wm-capacity-mechanism：约 4 项的容量限制是来自吸引子间的相互干扰还是 θ/γ 嵌套约束？
+- Q-wm-capacity-mechanism（部分解答，2026-07-21）：约 4 项的容量限制来自吸引子竞争 *与* θ/γ 嵌套约束的共同作用，而非单一机制——Lisman-Idiart 1995 容量分格模型给出节律约束（θ/γ比≈4–6爆发/周期）；Axmacher 2010 提供人类颅内证据（PAC随WM负荷单调增加）；Wolinski 2018 提供个体θ频率→容量的定量预测。因果操控（tACS）证据仍弱。详见 [[theta-gamma-coupling]]。
 - Q-wm-pfc-content-vs-control：PFC 究竟是"内容存储器"还是"调度控制中心"？
 - Q-wm-human-specificity：人类 dlPFC 是否有特有的工作记忆机制？
 
@@ -117,6 +119,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增语音工作记忆（phonological loop）与背侧语言流的解剖对应：Spt（音韵短期缓冲）↔BA44（内部发声）即Baddeley语音回路的神经底层；related 新增 dorsal-language-stream, language-network
 - 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增背内侧视丘（MD）的工作记忆放大器角色小节：MD 维持延迟期晚期活动（不影响早期）；MD-PFC θ/β 同步；认知灵活性依赖 MD-OFC；精神分裂症中 MD-dlPFC 降低∝认知缺陷；related 新增 thalamus, thalamocortical-circuit
 - 2026-07-19 · 修订 · 基于《β振荡的三副面孔》一文（#87）· 扩展"主动抑制"机制：β 爆发（130 ms）为 WM 延迟期默认背景态、L5/6 深层 β→L2/3 浅层 γ 许可窗口（Bastos 2018）、内容特异性 β 再激活（Spitzer & Haegens 2017）；关键证据表新增两行（Bastos 2018、Spitzer 2017）；连接新增 beta-oscillations；key_sources 新增 PMID:29339471、PMID:28785729
+- 2026-07-21 · 修订 · 基于《海马的节律钟表》一文（#89）· 将 Q-wm-capacity-mechanism 移入 partially_resolved；θ-γ 嵌套为 4±1 容量的节律物理机制（三层证据：Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）；连接新增 theta-gamma-coupling；key_sources 新增 PMID:7878473、PMID:23522038、PMID:20133762；related 新增 theta-gamma-coupling
 
 ## NE 和 ACh 对工作记忆的调制
 
@@ -143,3 +146,4 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-06-20-language-dual-stream]]
 - [[2026-07-19-beta-oscillations-cortical-prediction]]
+- [[2026-07-21-theta-gamma-coupling-working-memory]]

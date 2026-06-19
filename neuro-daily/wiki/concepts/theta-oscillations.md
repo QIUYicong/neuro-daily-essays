@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-06-22
-revision_count: 3
+updated: 2026-07-21
+revision_count: 4
 dimensions: [whole-brain-network, brain-region, cellular, behavior, methods]
-related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex]
+related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex, theta-gamma-coupling, working-memory, gamma-oscillations]
 prerequisites: [action-potential, hippocampal-circuit, place-cells]
 opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells, 2026-07-21-theta-gamma-coupling-working-memory]
 key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380"]
 ---
 
@@ -71,11 +71,16 @@ key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611",
 
 ### 4. θ/γ嵌套（Theta-Gamma Nesting）
 
-每个θ周期内嵌套5–9个γ振荡（30–80 Hz）周期：
-- 每个γ周期（10–30 ms）对应一个细胞集合的同步活动窗口
-- 一个θ周期可承载5–9个独立的信息单元（位置/记忆项目）
-- γ周期的时间尺度与STDP可塑性窗口匹配
-- 跨频率耦合（theta-gamma CFC）的强度与记忆表现相关（人类和啮齿类一致）
+每个θ周期（约125 ms）内嵌套约5–8个γ振荡（40–80 Hz）子循环。θ-γ跨频率耦合（CFC）是工作记忆多项目维持的核心节律机制，有两层含义：
+
+**容量分格（Lisman-Idiart 1995）**：每个γ子周期通过活动依赖后去极化（ADP）维持一项记忆，θ/γ比率决定容量上限≈4–6项（生理γ频率下）。人类颅内记录（Axmacher 2010, PMID:20133762）证实，海马中PAC随工作记忆项数增加而增强，且个体PAC精度预测WM容量。Wolinski 2018（PMID:29538384）进一步证明：个体顶叶θ频率越慢，WM容量越大——直接验证了容量 = θ周期时长 × γ频率的定量预测。
+
+**双通道路由（Colgin 2009, PMID:19924214）**：CA1中γ分裂为两个频率通道：
+- 慢γ（25–50 Hz，θ波峰约180°）→ 相位锁定CA3输入（存储的自联想记忆）
+- 快γ（65–140 Hz，θ波谷约0°/360°）→ 相位锁定MEC输入（当下感觉信息）
+- 同一神经基质通过θ相位实现时分多路复用：预期（CA3）与感知（MEC）在每个θ周期内交替在线
+
+详细机制见 [[theta-gamma-coupling]] 独立页面。跨频率耦合（PAC）的强度与记忆表现相关（人类和啮齿类一致）。
 
 ### 5. REM睡眠θ：情绪记忆巩固的相位窗口
 
@@ -137,6 +142,7 @@ Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡�
 
 - 2026-05-29 · 创建 · 填补高优先级悬空引用（由 place-cell、ltp、hippocampal-circuit、grid-cell 引用） · 基于《θ振荡与相位编码》文章 · 初始置信度：高
 - 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells、grid-cell→grid-cells、phase-precession→theta-phase-precession；新增related条目：path-integration、entorhinal-cortex；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
+- 2026-07-21 · 修订 · 大幅扩充θ/γ嵌套机制节（Lisman-Idiart 1995容量分格 + Colgin 2009双通道路由，引入关键证据）；新增related: theta-gamma-coupling, working-memory, gamma-oscillations；source_articles增加2026-07-21 · 基于《海马的节律钟表》文章 #89
 - 2026-05-31 · 修订 · 整合REM睡眠θ内容：新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节（LA-VH θ相位差、Boyce 2016光遗传因果证据、清醒/REM θ功能对比表）；补充当前理解段落；关键证据表增加2行；连接增加rem-sleep/fear-extinction/emotional-memory-depotentiation；未解问题增加Q-rem-01/Q-rem-03/Q-rem-05 · 基于《REM睡眠与情绪记忆》文章
 
 ## 来源文章

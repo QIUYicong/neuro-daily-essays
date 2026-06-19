@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-20",
-  "node_count": 160,
-  "edge_count": 977,
+  "updated": "2026-07-21",
+  "node_count": 161,
+  "edge_count": 989,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1465,6 +1465,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/diseases/schizophrenia.md"
+    },
+    {
+      "id": "theta-gamma-coupling",
+      "title": "θ-γ跨频率耦合",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/theta-gamma-coupling.md"
     }
   ],
   "edges": [
@@ -6870,6 +6879,72 @@
       "to": "gamma-oscillations",
       "type": "mechanism-of",
       "note": "PV 篮状细胞是 PING/ING γ 的主要细胞基础（Sohal 2009, Cardin 2009）"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "θ 振荡是 θ-γ 嵌套的低频载波，MS-DBB 驱动；θ 周期持续时间决定容量分格数"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "gamma-oscillations",
+      "type": "mechanism-of",
+      "note": "γ 振荡的 PV+ ING/PING 机制决定γ频率，从而决定每个θ周期内分格数"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "working-memory",
+      "type": "mechanism-of",
+      "note": "θ-γ 嵌套是工作记忆 4±1 容量上限的节律物理机制（Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "慢γ（θ波峰）路由CA3存储记忆，快γ（θ波谷）路由MEC感觉输入（Colgin 2009）"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "place-cells",
+      "type": "related",
+      "note": "场所细胞在不同θ相位的γ时窗内放电，θ相位前进与θ-γ序列共同压缩路径"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "theta-phase-precession",
+      "type": "related",
+      "note": "θ相位前进与θ-γ序列共同实现行为时间尺度到γ时间尺度的路径压缩"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "θ态（θ-γ编码/在线工作状态）与SWR态（离线固结）在海马中相互排斥性交替"
+    },
+    {
+      "from": "theta-gamma-coupling",
+      "to": "temporal-coding-hierarchy",
+      "type": "mechanism-of",
+      "note": "θ-γ嵌套是嵌套时序编码层级中\"行为尺度（θ）→γ尺度\"的关键连接节点"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "theta-gamma-coupling",
+      "type": "prerequisite-for",
+      "note": "理解θ-γ耦合的容量分格机制需先理解θ振荡的频率与相位"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "theta-gamma-coupling",
+      "type": "prerequisite-for",
+      "note": "理解θ-γ耦合需先理解γ振荡的ING/PING生成机制和频率范围"
+    },
+    {
+      "from": "working-memory",
+      "to": "theta-gamma-coupling",
+      "type": "related",
+      "note": "工作记忆4±1容量与θ-γ嵌套分格数在定量上吻合（θ/γ比率预测）"
     }
   ],
   "dangling_references": [

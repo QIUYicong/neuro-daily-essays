@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-21",
   "levels": [
     "speculative",
     "emerging",
@@ -1027,5 +1027,44 @@
     "revision_count": 5,
     "last_change": "2026-07-20",
     "change_reason": "修订 rev4→rev5（文章 #88，2026-07-20）。新增 Sohal 2009（ChR2/eNpHR 双向光遗传学：激活→γ↑；抑制→γ↓+信噪比↓）和 Cardin 2009（40 Hz 驱动 FS 细胞→选择性 γ+感觉相位门控）光遗传学因果证据，以及 Gonzalez-Burgos & Lewis 2012 精神分裂症分子级联（NR2A 优先损伤→GAD67↓→GABA↓→PING 崩溃）。PV 中间神经元核心功能和与 γ 振荡的因果关系（而非相关性）已由多个体内光遗传学实验确立——维持 established/high。"
+  },
+  "theta-gamma-coupling": {
+    "status": "mainstream",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_change": "2026-07-21",
+    "change_reason": "新建页面（文章 #89，2026-07-21）。状态定为 mainstream/medium：容量分格模型（Lisman-Idiart 1995 + Lisman-Jensen 2013）有理论基础和人类颅内证据（Axmacher 2010）+ 行为预测验证（Wolinski 2018）；Colgin 2009 双通道路由在大鼠中已经多实验室重复；定为 mainstream 而非 established 的原因：(1) 人类海马双通道路由的直接颅内验证缺失；(2) tACS 因果干预证据弱；(3) 灵长类 θ 节律性不足使跨物种普适性存疑。confidence medium 反映上述啮齿类 vs 灵长类张力。",
+    "key_sources": [
+      "PMID:7878473",
+      "PMID:23522038",
+      "PMID:19924214",
+      "PMID:20133762",
+      "PMID:29538384",
+      "PMID:41758661"
+    ]
+  },
+  "gamma-oscillations-updated-2026-07-21": {
+    "slug": "gamma-oscillations",
+    "status": "mainstream",
+    "confidence": "high",
+    "revision_count": 5,
+    "last_change": "2026-07-21",
+    "change_reason": "修订 rev4→rev5（文章 #89，2026-07-21）。Q-gamma-capacity 从 opens_questions 移入 partially_resolved_questions：三层证据（Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）支持 θ-γ 嵌套作为 WM ~4 项容量的节律基础；剩余争议：tACS 因果干预效应量弱，灵长类 θ 节律性不足。整体状态不变（mainstream/high）。"
+  },
+  "working-memory-updated-2026-07-21": {
+    "slug": "working-memory",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 8,
+    "last_change": "2026-07-21",
+    "change_reason": "修订 rev7→rev8（文章 #89，2026-07-21）。Q-wm-capacity-mechanism 从 opens_questions 移入 partially_resolved_questions：θ-γ 嵌套约束与吸引子竞争同时起作用；三层证据（Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）支持 θ-γ 贡献；因果性（tACS）仍弱。整体状态不变（established/high）。"
+  },
+  "theta-oscillations-updated-2026-07-21": {
+    "slug": "theta-oscillations",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 4,
+    "last_change": "2026-07-21",
+    "change_reason": "修订 rev3→rev4（文章 #89，2026-07-21）。扩展 θ/γ 嵌套章节，新增 Lisman-Idiart 1995 容量分格模型、Colgin 2009 双通道路由详情、Axmacher 2010 人类颅内证据。整体状态不变（established/high）。"
   }
 }

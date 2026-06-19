@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-21",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8180,6 +8180,212 @@
         "slow tau 15ms yields 30-40 Hz",
         "PV subtypes different tau generate different gamma",
         "dual-peak gamma spectrum stable"
+      ]
+    },
+    {
+      "pmid": "7878473",
+      "title": "Storage of 7 +/- 2 short-term memories in oscillatory subcycles",
+      "authors_short": "Lisman JE, Idiart MA",
+      "journal": "Science",
+      "year": 1995,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": false,
+      "access_type": "subscription required (1995 classic)",
+      "aspects_covered": [
+        "theta-gamma nesting model for WM",
+        "ADP active-dependent depolarization maintains memory slots",
+        "capacity 7±2 = theta/gamma ratio",
+        "theoretical model basis"
+      ]
+    },
+    {
+      "pmid": "23522038",
+      "title": "The θ-γ neural code",
+      "authors_short": "Lisman JE, Jensen O",
+      "journal": "Neuron",
+      "year": 2013,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": false,
+      "access_type": "subscription required",
+      "aspects_covered": [
+        "theta-gamma model review 18-year update",
+        "gamma/theta ratio revised to 4-6 (not 7)",
+        "Cowan 4±1 capacity alignment",
+        "human and animal CFC evidence integration",
+        "place cell theta phase preferred gamma windows"
+      ]
+    },
+    {
+      "pmid": "19924214",
+      "title": "Frequency of gamma oscillations routes flow of information in the hippocampus",
+      "authors_short": "Colgin LL et al.",
+      "journal": "Nature",
+      "year": 2009,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": false,
+      "access_type": "subscription required",
+      "aspects_covered": [
+        "slow gamma 25-50 Hz at theta peak routes CA3 input",
+        "fast gamma 65-140 Hz at theta trough routes MEC input",
+        "dual-channel TDMA routing mechanism",
+        "CA1 lamellar electrode Granger causality",
+        "information routing by theta phase"
+      ]
+    },
+    {
+      "pmid": "26961153",
+      "title": "Rhythms of the hippocampal network",
+      "authors_short": "Colgin LL",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2016,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": false,
+      "access_type": "subscription required",
+      "aspects_covered": [
+        "hippocampal rhythms comprehensive review",
+        "slow/fast gamma routing confirmed in multiple species",
+        "human validation limitations acknowledged",
+        "primate theta regularity limitation noted"
+      ]
+    },
+    {
+      "pmid": "20133762",
+      "pmcid": "PMC2840310",
+      "title": "Cross-frequency coupling supports multi-item working memory in the human hippocampus",
+      "authors_short": "Axmacher N et al.",
+      "journal": "PNAS",
+      "year": 2010,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access (PMC2840310)",
+      "aspects_covered": [
+        "human intracranial EEG PAC WM capacity",
+        "PAC monotonically increases with WM load (1→3→5 items)",
+        "individual PAC precision predicts WM capacity",
+        "direct human evidence for Lisman-Idiart model"
+      ]
+    },
+    {
+      "pmid": "16973878",
+      "title": "High gamma power is phase-locked to theta oscillations in human neocortex",
+      "authors_short": "Canolty RT et al.",
+      "journal": "Science",
+      "year": 2006,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": false,
+      "access_type": "subscription required",
+      "aspects_covered": [
+        "human neocortex theta-gamma cross-frequency coupling",
+        "high gamma phase-locked to theta oscillations",
+        "task-specific and region-specific CFC patterns",
+        "iEEG across visual/language/prefrontal cortex"
+      ]
+    },
+    {
+      "pmid": "29538384",
+      "title": "The speed of parietal theta frequency drives visuospatial working memory capacity",
+      "authors_short": "Wolinski N et al.",
+      "journal": "PLoS Biology",
+      "year": 2018,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "individual theta frequency predicts WM capacity",
+        "slower theta (4 Hz) = larger capacity",
+        "longer theta period = more gamma cycles = more slots",
+        "parietal scalp EEG correlation study"
+      ]
+    },
+    {
+      "pmid": "41758661",
+      "title": "Human hippocampal theta-gamma coupling coordinates sequential planning during navigation",
+      "authors_short": "Huang Z et al.",
+      "journal": "PNAS",
+      "year": 2026,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access (2026 new publication)",
+      "aspects_covered": [
+        "MEG virtual maze navigation sequential planning",
+        "gamma bursts at consecutive theta phases encode action sequences",
+        "theta-gamma PAC increases approaching goal",
+        "EC high-gamma for novel paths vs hippocampal low-gamma for familiar",
+        "theta-gamma extends to dynamic forward planning (not just static WM)"
+      ]
+    },
+    {
+      "pmid": "38176633",
+      "title": "The theta-gamma code in predictive processing and mnemonic updating",
+      "authors_short": "Köster M",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2024,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": false,
+      "access_type": "abstract only",
+      "aspects_covered": [
+        "theta early phase encodes internal expectations",
+        "theta late phase encodes prediction errors",
+        "theta cycle as predict-compare-update cognitive loop",
+        "theoretical framework needs experimental validation"
+      ]
+    },
+    {
+      "pmid": "8353611",
+      "title": "Phase relationship between hippocampal place units and the EEG theta rhythm",
+      "authors_short": "O'Keefe J, Recce ML",
+      "journal": "Hippocampus",
+      "year": 1993,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": false,
+      "access_type": "subscription required (1993 classic)",
+      "aspects_covered": [
+        "theta phase precession discovery",
+        "place cell firing phase advances through place field",
+        "dual encoding (rate + phase)"
+      ]
+    },
+    {
+      "pmid": "34217746",
+      "title": "The nucleus reuniens orchestrates prefrontal-hippocampal synchrony during spatial working memory",
+      "authors_short": "Griffin AL",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2021,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": false,
+      "access_type": "abstract only",
+      "aspects_covered": [
+        "nucleus reuniens as HC-PFC theta synchrony relay",
+        "NRe lesion impairs spatial WM",
+        "NRe active coordination of synchrony timing",
+        "hippocampal theta routing to prefrontal cortex"
+      ]
+    },
+    {
+      "pmid": "23354386",
+      "title": "Memory, navigation and theta rhythm in the hippocampal-entorhinal system",
+      "authors_short": "Buzsáki G, Moser EI",
+      "journal": "Nature Neuroscience",
+      "year": 2013,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "full_text_available": false,
+      "access_type": "already in library (verified in wiki multiple times)",
+      "aspects_covered": [
+        "theta oscillations memory and navigation comprehensive review",
+        "hippocampal-entorhinal theta system",
+        "theta as temporal organizer for sequence encoding"
       ]
     }
   ]
