@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-07-26（文章 #94·嗅觉编码×气味分子→情绪记忆四级变换×Proust效应解剖基础）
+
+**源文章**：[[2026-07-26-olfactory-coding-smell-memory-limbic]] —《气味的神经密码：从一个分子到一段记忆的四级变换》
+
+**新建页面（3）**：
+- `wiki/concepts/olfactory-receptor.md`（新建）— OR基因家族（人类约400功能性成员）；一细胞一受体/一受体一小球/组合编码三条规则；cAMP信号转导五步级联（OR→Gs→ACIII→cAMP→CNG→Cl⁻通道）；单等位基因表达机制；revision_count=1；置信度：高
+- `wiki/systems/olfactory-bulb.md`（新建）— 小球层（一受体一小球）；僧帽/簇状细胞（主要输出）；颗粒细胞（树突-树突双向突触→侧向抑制）；周小球细胞（自上而下调制）；β/γ振荡；直接边缘系统投射（无视丘中继）；revision_count=1；置信度：高
+- `wiki/concepts/piriform-cortex.md`（新建）— 稀疏编码（~10%激活，~2 Hz增量）；无拓扑图；CA3型递归联想网络（模式补全）；早期信号门控+全局抑制实现浓度不变性；感知层级（梨状低维类别→杏仁核中等→OFC高维个体化）；revision_count=1；置信度：高
+
+**修订页面（2）**：
+- `wiki/systems/amygdala.md` rev5 — updated=2026-07-26；revision_count 4→5；related 新增 olfactory-bulb、piriform-cortex；key_sources 新增 PMID:37620443、PMID:32278646；source_articles 新增 2026-07-26-olfactory-coding-smell-memory-limbic；连接节新增 olfactory-bulb（皮质内侧核直接接收嗅球输出，无视丘中继）和 piriform-cortex（梨状皮层→杏仁核投射，气味感知层级）；修订历史新增 rev5 条目
+- `wiki/systems/entorhinal-cortex.md` rev2 — updated=2026-07-26；revision_count 1→2；related 新增 olfactory-bulb、piriform-cortex；key_sources 新增 PMID:32278646；source_articles 新增 2026-07-26-olfactory-coding-smell-memory-limbic；连接节新增 olfactory-bulb（嗅球→LEC→海马通路）和 piriform-cortex（梨状皮层→EC→海马三突触回路）；修订历史新增 rev2 条目
+
+**矛盾登记（0）**：无新矛盾。OR假基因化率（~60%）与三色视觉获得的因果关系是相关而非矛盾，作为开放问题Q-or-pseudogene-loss登记。
+
+**新增开放问题（7）**：
+- Q-or-pseudogene-loss（中优先级）：人类约60% OR假基因化与三色视觉获得的因果关系？还是随机基因漂变？
+- Q-or-human-odor-space（低优先级）：400种功能性人类OR能否真的编码"万亿种"气味，还是这一估计有重大方法论问题？
+- Q-ob-human-organization（低优先级）：人类嗅球的不规则小球分布是否改变了"一受体一小球"规则的严格性？
+- Q-ob-topography-logic（中优先级）：嗅球小球的拓扑图（化学感觉的几何邻近性）对应什么编码原则？是否有"化学空间-物理空间"映射的规律性？
+- Q-piriform-topography（中优先级）：梨状皮层是否完全没有任何功能组织？还是有超出当前分辨率的微尺度拓扑结构？
+- Q-piriform-human-subdivision（中优先级）：人类aPCX/pPCX的功能分工与啮齿类ANT/POST是否有可比性？
+- Q-piriform-td-control（中优先级）：OFC和PFC对梨状皮层的自上而下控制如何通过学习和期望改变气味感知？
+
+**图谱**：168 节点（+3：olfactory-receptor、olfactory-bulb、piriform-cortex），1026 边（+9：OR→OB机制性，OB→PCX机制性，OB→杏仁核supports，OB→内嗅皮层supports，PCX→杏仁核related，PCX→模式补全related，PCX→内嗅皮层supports，OR→转录组细胞类型related）
+
+---
+
 ## 2026-07-25（文章 #93·单细胞RNA测序×神经元类型分子宇宙×转录组分类体系）
 
 **源文章**：[[2026-07-25-scrna-seq-neural-cell-type-diversity]] —《神经元类型的分子宇宙：单细胞测序如何重绘大脑细胞地图》

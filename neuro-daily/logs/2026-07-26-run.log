@@ -1,0 +1,99 @@
+# 运行日志：2026-07-26
+
+**系统时钟**：2026-06-19 UTC（知识库内部日期：2026-07-26，按 topic_ledger.last_updated+1 推进）
+**文章编号**：#94
+**任务状态**：成功完成
+
+---
+
+## 执行摘要
+
+- 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 确认当前操作流程
+- 读取 state/ 状态文件（topic_ledger、unresolved_questions、contested_claims）确认知识库当前状态
+- 选题：嗅觉编码（OR基因家族→嗅球→梨状皮层→边缘系统直接投射）
+  - 理由：填补嗅觉感觉系统空白；与已有的杏仁核、内嗅皮层、海马回路、模式补全页面天然联结；跨层次（分子→细胞→回路→系统）的优质综合话题；诺贝尔奖级别基础研究，高质量开放全文资源丰富
+- 核查文献：读取5篇PMC开放全文 + 1个Nobel官方机构来源，共7个来源
+- 写作文章 `neuro-daily/articles/2026-07-26-olfactory-coding-smell-memory-limbic.md`
+- 写作阅读笔记 `neuro-daily/notes/2026-07-26-reading-notes.md`
+- 登记来源 `neuro-daily/sources/2026-07-26-sources.json`
+- 固结步骤（Step D）：创建3个新wiki页面，修订2个已有wiki页面
+- 更新知识图谱、索引、变更日志
+- 更新所有状态文件（topic_ledger、unresolved_questions、source_registry、monthly_synthesis）
+- 提交并推送到 main 分支
+
+---
+
+## 文章生产
+
+**文件**：`neuro-daily/articles/2026-07-26-olfactory-coding-smell-memory-limbic.md`
+**标题**：气味的神经密码：从一个分子到一段记忆的四级变换
+**字数**：约 4800 字（正文）
+**来源**：7个（5篇PMC开放全文 + 1摘要 + 1 Nobel官方机构）
+
+---
+
+## Wiki 固结（Step D）
+
+### 新建页面（3）
+
+| 页面 | 域 | 状态 | 置信度 |
+|------|-----|------|--------|
+| `wiki/concepts/olfactory-receptor.md` | concepts | established | high |
+| `wiki/systems/olfactory-bulb.md` | systems | established | high |
+| `wiki/concepts/piriform-cortex.md` | concepts | established | high |
+
+### 修订页面（2）
+
+| 页面 | 版本变化 | 主要更新 |
+|------|----------|---------|
+| `wiki/systems/amygdala.md` | rev4 → rev5 | 新增 olfactory-bulb 和 piriform-cortex 连接；皮质内侧核直接接收嗅球输出无视丘中继的解剖细节（Proust效应基础）；related/key_sources/source_articles 更新 |
+| `wiki/systems/entorhinal-cortex.md` | rev1 → rev2 | 新增 olfactory-bulb 和 piriform-cortex 连接；嗅球→LEC→海马通路及梨状皮层→EC→海马三突触回路；related/key_sources/source_articles 更新 |
+
+---
+
+## 知识图谱更新（Step E）
+
+- 节点：165 → 168（+3：olfactory-receptor、olfactory-bulb、piriform-cortex）
+- 边：1017 → 1026（+9条新边）
+- 新边：
+  - olfactory-receptor → olfactory-bulb（mechanism-of）
+  - olfactory-bulb → piriform-cortex（mechanism-of）
+  - olfactory-bulb → amygdala（supports）
+  - olfactory-bulb → entorhinal-cortex（supports）
+  - piriform-cortex → amygdala（related）
+  - piriform-cortex → pattern-completion（related）
+  - piriform-cortex → entorhinal-cortex（supports）
+  - olfactory-receptor → transcriptomic-cell-types（related）
+
+---
+
+## 状态文件更新（Step F）
+
+- `state/topic_ledger.json`：last_updated 2026-07-25→2026-07-26；total_articles 76→77；新增文章 #94 条目；更新 layer_coverage_recent（molecular、cellular、synaptic、microcircuit 均新增 2026-07-26）
+- `state/unresolved_questions.md`：last_updated 2026-07-24→2026-07-26；新增7个开放问题（Q-piriform-td-control、Q-piriform-human-subdivision、Q-piriform-topography、Q-ob-topography-logic、Q-ob-human-organization、Q-or-human-odor-space、Q-or-pseudogene-loss）
+- `state/source_registry.json`：last_updated 2026-07-25→2026-07-26；新增 additions_2026-07-26 条目（6个来源，5篇开放全文）
+- `state/monthly_synthesis.md`：截至日期 2026-07-24→2026-07-26；新增 2026-07-26 日条目
+
+---
+
+## 矛盾检查
+
+无新矛盾。OR假基因化率与三色视觉的关联是相关而非矛盾，已作为 Q-or-pseudogene-loss 开放问题登记。
+
+---
+
+## Git 操作
+
+- 分支：main
+- Commit：Add neuro daily article + wiki consolidation for 2026-07-26
+- Push：git push -u origin main
+
+---
+
+## 推送结果
+
+成功（详见 commit 记录）
+
+---
+
+*日志由自动化 Claude Code session 生成 | 2026-07-26 知识库内部日期*

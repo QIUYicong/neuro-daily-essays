@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-25",
-  "node_count": 165,
-  "edge_count": 1017,
+  "updated": "2026-07-26",
+  "node_count": 168,
+  "edge_count": 1026,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1510,6 +1510,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/transcriptomic-cell-types.md"
+    },
+    {
+      "id": "olfactory-receptor",
+      "title": "嗅觉受体（OR）基因家族",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/olfactory-receptor.md"
+    },
+    {
+      "id": "olfactory-bulb",
+      "title": "嗅球（主嗅觉球）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/olfactory-bulb.md"
+    },
+    {
+      "id": "piriform-cortex",
+      "title": "梨状皮层（初级嗅觉皮层）",
+      "domain": "concepts",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/piriform-cortex.md"
     }
   ],
   "edges": [
@@ -7147,6 +7174,54 @@
       "from": "transcriptomic-cell-types",
       "to": "critical-period",
       "type": "related"
+    },
+    {
+      "from": "olfactory-receptor",
+      "to": "olfactory-bulb",
+      "type": "mechanism-of",
+      "note": "OR组合激活经OSN轴突汇聚嗅球小球，一受体一小球规则将化学空间映射为嗅球拓扑图"
+    },
+    {
+      "from": "olfactory-bulb",
+      "to": "piriform-cortex",
+      "type": "mechanism-of",
+      "note": "僧帽/簇状细胞经外侧嗅束直接投射梨状皮层；嗅球拓扑图→梨状皮层稀疏分布式编码"
+    },
+    {
+      "from": "olfactory-bulb",
+      "to": "amygdala",
+      "type": "supports",
+      "note": "嗅球→杏仁核皮质内侧核直接投射（无视丘中继）；唯一在第一突触即进行情绪评估的感觉系统"
+    },
+    {
+      "from": "olfactory-bulb",
+      "to": "entorhinal-cortex",
+      "type": "supports",
+      "note": "嗅球→外侧内嗅皮层（LEC）→海马通路；嗅觉记忆长期巩固的解剖基础（Proust效应）"
+    },
+    {
+      "from": "piriform-cortex",
+      "to": "amygdala",
+      "type": "related",
+      "note": "梨状皮层→杏仁核投射；梨状皮层编码粗粒度气味类别，杏仁核整合情感价值（Sagar 2023）"
+    },
+    {
+      "from": "piriform-cortex",
+      "to": "pattern-completion",
+      "type": "related",
+      "note": "梨状皮层的递归联想回路与海马CA3类似，具备从降级或混合气味信号恢复完整气味表征的能力"
+    },
+    {
+      "from": "piriform-cortex",
+      "to": "entorhinal-cortex",
+      "type": "supports",
+      "note": "梨状皮层→内嗅皮层→海马三突触回路；气味身份经稀疏编码后通过EC门控进入长期记忆"
+    },
+    {
+      "from": "olfactory-receptor",
+      "to": "transcriptomic-cell-types",
+      "type": "related",
+      "note": "OR基因表达是确定OSN细胞类型的核心标志；scRNA-seq可大规模鉴定不同OR表达的OSN亚类"
     }
   ],
   "dangling_references": [

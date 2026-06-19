@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-24
-revision_count: 4
+updated: 2026-07-26
+revision_count: 5
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation, olfactory-bulb, piriform-cortex]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-07-26-olfactory-coding-smell-memory-limbic]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:37620443", "PMID:32278646"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -130,6 +130,8 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[hpa-axis]] — HPA轴产生的GC在BLA实现记忆增强；CeM→PVN投射参与HPA激活正反馈
 - [[memory-consolidation]] — BLA GC+NE协同驱动情绪显著性记忆的优先长期巩固
 - [[memory-reconsolidation]] — BLA-LA 是再巩固去稳定化的核心位点：GluN2B-NMDA→CaMKII→UPS→Shank/GKAP 降解+GluA2 内吞的完整分子链在此发生
+- [[olfactory-bulb]] — 杏仁核（皮质内侧核）直接接收嗅球僧帽/簇状细胞输出（无视丘中继），是所有感觉系统中唯一的"第一突触即情绪评估"设计；解释了气味为何能在意识觉知前触发强烈情绪反应（Proust效应的解剖基础）
+- [[piriform-cortex]] — 梨状皮层→杏仁核投射叠加于嗅球→杏仁核的直接通路；梨状皮层编码粗粒度气味类别，杏仁核整合情感价值（Sagar et al. 2023 7T fMRI）
 
 ## 未解问题
 
@@ -143,10 +145,13 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - 2026-07-24 · 修订 rev4 · 基于《恐惧的印迹与奖励的入侵》(#92) · LA亚核条目新增"突触可塑性竞争规则"（Jeong 2021 Nat Commun, PMID:34168140）；BA亚核条目新增"消退印迹=BLA奖励神经元"（Zhang 2020, PMID:31952856）和"恐惧/消退印迹是不同细胞群"（Luft 2024, PMID:38396226）；证据表新增4行；engram-cells连接注释扩展；未解问题新增Q-extinction-reward-overlap；key_sources/source_articles相应更新
 - 2026-07-10 · 修订 rev3 · 基于《记忆再巩固》(#78) · 新增"BLA 中的记忆再巩固去稳定化分子链"机制节（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞级联；再稳定化路径；窗口内干预靶点）；连接节新增 memory-reconsolidation；source_articles/related 相应更新
 - 2026-07-09 · 修订 rev2 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"GC与NE协同增强应激记忆"机制节（BLA必要枢纽、GC-NE协同门控、β-AR阻断实验）；新增"CRH在CeA的中枢独立效应"节；related新增glucocorticoid-stress-memory、hpa-axis、memory-consolidation；key_sources新增PMID:30877244、PMID:16310958、PMID:23968228；未解问题新增Q-fear-itc-bidirectionality
+- 2026-07-26 · 修订 rev5 · 基于《气味的神经密码：从一个分子到一段记忆的四级变换》(#94) · 连接节新增 olfactory-bulb（杏仁核皮质内侧核直接接收嗅球输出，无视丘中继）和 piriform-cortex（梨状皮层→杏仁核投射，气味感知层级）；related和key_sources/source_articles相应更新
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
 - [[2026-07-09-glucocorticoids-stress-memory-amygdala]]
+- [[2026-07-10-memory-reconsolidation-ptsd]]
 - [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]
+- [[2026-07-26-olfactory-coding-smell-memory-limbic]]

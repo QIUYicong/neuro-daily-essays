@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-25（第93篇·单细胞RNA测序×神经元类型分子宇宙×转录组分类体系）· 主题页总数：**161**（新建2页：methods/single-cell-rna-seq、concepts/transcriptomic-cell-types；修订2页：neurons/pyramidal-neuron rev1→rev2、circuits/pv-interneurons rev5→rev6；图谱165节点、1017边；新增Q-scrna-state-vs-type/Q-scrna-resolution-functional/Q-cell-type-human-cognitive）
+> 最后更新：2026-07-26（第94篇·嗅觉编码×气味分子→情绪记忆四级变换×Proust效应）· 主题页总数：**164**（新建3页：concepts/olfactory-receptor、systems/olfactory-bulb、concepts/piriform-cortex；修订2页：systems/amygdala rev4→rev5、systems/entorhinal-cortex rev1→rev2；图谱168节点、1026边；新增7个开放问题Q-or-pseudogene-loss等）
 
 ---
 
@@ -139,6 +139,8 @@
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
 - 🟢 [转录组细胞类型](concepts/transcriptomic-cell-types.md) — 高维基因表达空间中可重复聚类的细胞群体；GABAergic跨区保守（~70%），谷氨酸能区域特异；转录因子组合编码细胞身份；BICCN多模态验证（转录组+ATAC+甲基化+空间）；全鼠脑5322聚类×全人脑461聚类的神经元分子宇宙 **[NEW 2026-07-25]**
+- 🟢 [嗅觉受体（OR）基因家族](concepts/olfactory-receptor.md) — 哺乳动物最大GPCR基因家族；人类~400功能性成员；一细胞一受体/一受体一小球/组合编码三规则；cAMP→CNG通道→Cl⁻放大五步转导；Buck & Axel 1991诺贝尔奖基础 **[NEW 2026-07-26]**
+- 🟢 [梨状皮层（初级嗅觉皮层）](concepts/piriform-cortex.md) — 三层古皮层；~10%稀疏激活；无拓扑图；CA3型递归联想网络（模式补全能力）；早期信号门控+全局抑制实现浓度不变性；感知层级（梨状→杏仁核→OFC）；直接接收嗅球经LOT的投射 **[NEW 2026-07-26]**
 
 ## motor（运动系统）
 
@@ -163,8 +165,9 @@
 
 - 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
-- 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础 **[NEW 2026-06-22]**
-- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）（修订3次）
+- 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础；**rev2新增**：嗅球→LEC→海马通路及梨状皮层→EC→海马三突触回路（修订2次）
+- 🟢 [嗅球（主嗅觉球）](systems/olfactory-bulb.md) — 一受体一小球规则将OR激活映射为拓扑图；僧帽/簇状细胞经LOT直接投射至梨状皮层、杏仁核、内嗅皮层（无视丘中继，所有感觉系统唯一）；颗粒细胞树突-树突双向突触实现侧向抑制和对比度增强；β/γ振荡与梨状皮层同步 **[NEW 2026-07-26]**
+- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）

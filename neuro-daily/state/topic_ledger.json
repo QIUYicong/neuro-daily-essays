@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-25",
-  "total_articles": 76,
+  "last_updated": "2026-07-26",
+  "total_articles": 77,
   "entries": [
     {
       "date": "2026-07-23",
@@ -5539,6 +5539,71 @@
         "biccn",
         "patch-seq"
       ]
+    },
+    {
+      "date": "2026-07-26",
+      "article_number": 94,
+      "title": "气味的神经密码：从一个分子到一段记忆的四级变换",
+      "filename": "2026-07-26-olfactory-coding-smell-memory-limbic",
+      "wiki_pages_created": [
+        "olfactory-receptor",
+        "olfactory-bulb",
+        "piriform-cortex"
+      ],
+      "wiki_pages_revised": [
+        "amygdala",
+        "entorhinal-cortex"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "嗅觉系统如何通过四级变换（OR组合编码→嗅球小球图→梨状皮层稀疏分布式编码→直接边缘系统投射）将气味分子转化为情绪记忆？为什么气味能在意识前触发强烈情绪（Proust效应）而其他感觉不能？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": [
+        "sensory-systems",
+        "olfaction",
+        "limbic-system",
+        "memory-systems",
+        "sparse-coding"
+      ],
+      "key_sources": [
+        "PMID:32166167",
+        "PMID:19555653",
+        "PMID:32422571",
+        "PMID:37620443",
+        "PMID:32278646"
+      ],
+      "unresolved_questions_opened": [
+        "Q-or-pseudogene-loss",
+        "Q-or-human-odor-space",
+        "Q-ob-human-organization",
+        "Q-ob-topography-logic",
+        "Q-piriform-topography",
+        "Q-piriform-human-subdivision",
+        "Q-piriform-td-control"
+      ],
+      "unresolved_questions_advanced": [],
+      "tags": [
+        "olfaction",
+        "olfactory-receptor",
+        "olfactory-bulb",
+        "piriform-cortex",
+        "sparse-coding",
+        "glomerular-map",
+        "lateral-inhibition",
+        "pattern-completion",
+        "proust-effect",
+        "amygdala",
+        "limbic-system",
+        "concentration-invariance",
+        "combinatorial-coding"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -5551,7 +5616,8 @@
       "2026-06-10",
       "2026-06-12",
       "2026-07-03",
-      "2026-07-25"
+      "2026-07-25",
+      "2026-07-26"
     ],
     "cellular": [
       "2026-05-24",
@@ -5564,7 +5630,8 @@
       "2026-06-11",
       "2026-06-12",
       "2026-06-18",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-07-26"
     ],
     "synaptic": [
       "2026-05-24",
@@ -5574,13 +5641,15 @@
       "2026-06-01",
       "2026-06-04",
       "2026-06-10",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-07-26"
     ],
     "microcircuit": [
       "2026-05-27",
       "2026-06-03",
       "2026-06-11",
-      "2026-06-18"
+      "2026-06-18",
+      "2026-07-26"
     ],
     "brain_region": [
       "2026-05-27",

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25",
+  "last_updated": "2026-07-26",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9044,5 +9044,23 @@
     "full_text_available": 8,
     "abstract_only": 2,
     "note": "Siletti 2023 (PMID:37824663) and Wu 2017 (PMID:29024657) are abstract-only (no PMC open access)"
+  },
+  "additions_2026-07-26": {
+    "count": 6,
+    "pmids": [
+      "32166167",
+      "19555653",
+      "32422571",
+      "37620443",
+      "32278646"
+    ],
+    "non_pmid_sources": [
+      "Nobel Prize 2004 Press Release (official institution)"
+    ],
+    "article": "2026-07-26-olfactory-coding-smell-memory-limbic",
+    "full_text_available": 5,
+    "abstract_only": 1,
+    "official_institution": 1,
+    "note": "Buck & Axel 1991 (Cell 65:175-187) 未读全文，但核心内容在PMC7058195（Brennan 2018综述）和Nobel官方材料中完整描述；5篇PMC开放全文：PMC7058195/PMC2702531/PMC8782565/PMC10726579/PMC8063173"
   }
 }

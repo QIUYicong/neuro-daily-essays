@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
+updated: 2026-07-26
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cellular, microcircuit]
-related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease]
+related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease, olfactory-bulb, piriform-cortex]
 prerequisites: [hippocampal-circuit, grid-cells]
 opens_questions: [Q-gc-02, Q-gc-04]
-source_articles: [2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386", "PMID:24366130", "PMID:29073644"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-26-olfactory-coding-smell-memory-limbic]
+key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386", "PMID:24366130", "PMID:29073644", "PMID:32278646"]
 ---
 
 # 内嗅皮层 (Entorhinal Cortex, EC)
@@ -76,6 +76,8 @@ Braak分期（1991）：AD神经纤维缠结（Tau病理）的扩散从**EC Laye
 - [[cognitive-map]] — MEC的网格/联合细胞是认知地图度量基础设施的主要解剖位置
 - [[alzheimers-disease]] — EC Layer II 是AD最早受损的皮层区域，其网格细胞退化导致早期空间定向障碍
 - [[memory-consolidation]] — EC作为海马-皮层信息中继，在两阶段记忆巩固中扮演关键中间站
+- [[olfactory-bulb]] — 嗅球→内嗅皮层（LEC）→海马通路是嗅觉记忆长期存储的解剖基础（Lane et al. 2020）；LEC的"外侧"功能（整合非空间情境，含气味）与嗅觉直接投射的联系是EC多模态整合功能的核心
+- [[piriform-cortex]] — 梨状皮层→内嗅皮层→海马三突触回路；气味身份经梨状皮层稀疏编码后，通过EC门控进入海马长期记忆
 
 ## 未解问题
 
@@ -84,8 +86,10 @@ Braak分期（1991）：AD神经纤维缠结（Tau病理）的扩散从**EC Laye
 
 ## 修订历史
 
+- 2026-07-26 · 修订 rev2 · 基于《气味的神经密码：从一个分子到一段记忆的四级变换》(#94) · 连接节新增 olfactory-bulb（嗅球→LEC→海马通路）和 piriform-cortex（梨状皮层→EC→海马三突触回路）；related和source_articles/key_sources相应更新
 - 2026-06-22 · 创建 · 基于《六边形的秘密》文章 · 初始置信度：高
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
+- [[2026-07-26-olfactory-coding-smell-memory-limbic]]
