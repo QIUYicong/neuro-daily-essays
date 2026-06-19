@@ -1091,5 +1091,50 @@
     "revision_count": 4,
     "last_change": "2026-07-21",
     "change_reason": "修订 rev3→rev4（文章 #89，2026-07-21）。扩展 θ/γ 嵌套章节，新增 Lisman-Idiart 1995 容量分格模型、Colgin 2009 双通道路由详情、Axmacher 2010 人类颅内证据。整体状态不变（established/high）。"
+  },
+  "single-cell-rna-seq": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-25",
+    "change_reason": "新建页面（文章 #93，2026-07-25）。scRNA-seq/snRNA-seq 是当前已高度成熟的技术平台；Tasic 2018、Zeisel 2018、Yao 2023 多中心大规模研究独立重复；状态 established/high。",
+    "key_sources": [
+      "PMID:30382198",
+      "PMID:30096314",
+      "PMID:38092916",
+      "PMID:30586455",
+      "PMID:38123823"
+    ]
+  },
+  "transcriptomic-cell-types": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-25",
+    "change_reason": "新建页面（文章 #93，2026-07-25）。BICCN 2021多模态验证（转录组+ATAC+甲基化+MERFISH）确认聚类对应真实细胞实体；GABAergic保守/兴奋性区域特异性核心模式已多实验室重复；established/high，但功能意义转化存在不确定性（Q-scrna-resolution-functional 开放问题）。",
+    "key_sources": [
+      "PMID:30382198",
+      "PMID:30096314",
+      "PMID:31435019",
+      "PMID:34616075",
+      "PMID:38092916",
+      "PMID:37824669"
+    ]
+  },
+  "pyramidal-neuron-updated-2026-07-25": {
+    "slug": "pyramidal-neuron",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 2,
+    "last_change": "2026-07-25",
+    "change_reason": "修订 rev1→rev2（文章 #93，2026-07-25）。新增转录组亚型分类节：兴奋性细胞区域特异性、L5 ET vs IT划分、人类特有深层谷氨酸能亚型（Hodge 2019）。状态不变 established/high。"
+  },
+  "pv-interneurons-updated-2026-07-25": {
+    "slug": "pv-interneurons",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 6,
+    "last_change": "2026-07-25",
+    "change_reason": "修订 rev5→rev6（文章 #93，2026-07-25）。新增转录组亚型注记：PV细胞内篮状/吊灯细胞转录组标记差异、PV亚型跨区保守性~70%（GABAergic最高）、人类PV细胞电生理物种差异（Hodge 2019）。状态不变 established/high。"
   }
 }

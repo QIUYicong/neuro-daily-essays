@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-20
-revision_count: 5
-dimensions: [cellular, synaptic, microcircuit, cognition, disease]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia]
+updated: 2026-07-25
+revision_count: 6
+dimensions: [cellular, synaptic, microcircuit, cognition, disease, molecular]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, transcriptomic-cell-types, single-cell-rna-seq]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
@@ -111,6 +111,14 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 2026-07-04 · 修订 rev3 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增 E/I 平衡执行者角色、关键期初始靶点（Quast & Hensch 2023）、PNN 固化机制、神经炎症脆弱性
 - 2026-06-03 · 修订 rev4 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增：PV+ 细胞去激活是 ODP 的第一个微回路事件（Kuhlman 2013），OTX2 经 PNN 锚定驱动 PV 成熟（Sugiyama 2008, Beurdeley 2012），BDNF 驱动 PV 成熟时间轴（Huang 1999），Rett 综合征中 MeCP2 KO 加速 PV 成熟导致关键期错位（Krishnan 2015），小胶质细胞亚群上游调控 PV 成熟（Wang 2025）；related 新增 critical-period, bdnf, microglia
 - 2026-07-20 · 修订 rev5 · 基于《篮状细胞打出节拍》一文 (#88) · 新增：Sohal 2009 + Cardin 2009 光遗传学因果证据（PV 细胞是 γ 的必要条件，γ 相位门控感觉输入）；GABA-A τ_decay 决定 γ 频率的分子机制；精神分裂症分子级联（Gonzalez-Burgos & Lewis 2012 NMDA→GAD67→GABA→PING→γ→WM）；更新 key_sources 4 个；更新 source_articles；更新 opens_questions
+- 2026-07-25 · 修订 rev6 · 基于《神经元类型的分子宇宙》一文 (#93) · 新增转录组视角：scRNA-seq揭示PV细胞内部包含篮状细胞/吊灯细胞/其他亚型在转录组层面各有标记基因；Tasic 2018（PMID:30382198）中PV亚类在视觉/运动皮层高度保守（约70%跨区共享）；更新related添加transcriptomic-cell-types、single-cell-rna-seq
+
+## 转录组亚型注记（2026-07-25新增）
+
+scRNA-seq研究（Tasic 2018，PMID:30382198）表明，"PV细胞"在转录组层面并非单一类型：
+- 篮状细胞和吊灯细胞在分子层面有独立的marker基因组合（如吊灯细胞高表达KCNC2，篮状细胞高表达COL25A1等）
+- PV细胞是GABAergic类型中跨皮层区保守率最高的亚群（约70%的PV亚型在视觉和运动皮层共享）
+- 人类PV细胞（Hodge 2019，PMID:31435019）有物种特异性的电生理表型变化，但基本分类框架（篮状/吊灯）保守
 
 ## 来源文章
 
@@ -119,3 +127,4 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-06-03-critical-period-plasticity]]
 - [[2026-07-20-gamma-oscillations-ping-ing-mechanism]]
+- [[2026-07-25-scrna-seq-neural-cell-type-diversity]]

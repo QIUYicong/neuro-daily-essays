@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-23",
-  "node_count": 163,
-  "edge_count": 1006,
+  "updated": "2026-07-25",
+  "node_count": 165,
+  "edge_count": 1017,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1492,6 +1492,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/alpha-oscillations.md"
+    },
+    {
+      "id": "single-cell-rna-seq",
+      "title": "单细胞RNA测序（scRNA-seq）",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/single-cell-rna-seq.md"
+    },
+    {
+      "id": "transcriptomic-cell-types",
+      "title": "转录组细胞类型",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/transcriptomic-cell-types.md"
     }
   ],
   "edges": [
@@ -7089,6 +7107,46 @@
       "to": "fear-extinction",
       "type": "supports",
       "note": "恐惧与消退记忆分别由不同的印迹细胞群存储（Luft 2024 Daun02灭活实验直接证明）"
+    },
+    {
+      "from": "single-cell-rna-seq",
+      "to": "transcriptomic-cell-types",
+      "type": "supports"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "sst-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "vip-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "pyramidal-neuron",
+      "type": "related"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "cortical-canonical-microcircuit",
+      "type": "supports"
+    },
+    {
+      "from": "single-cell-rna-seq",
+      "to": "optogenetics",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "critical-period",
+      "type": "related"
     }
   ],
   "dangling_references": [

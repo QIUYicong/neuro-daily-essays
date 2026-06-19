@@ -1,0 +1,150 @@
+# 2026-07-25 日志 · 文章 #93 · scRNA-seq 与神经元细胞类型多样性
+
+## 运行信息
+
+- **系统日期**：2026-06-19（与知识库内在日期不符，见注记）
+- **使用日期**：2026-07-25（续接 2026-07-24 文章 #92 的序列连续性）
+- **文章编号**：#93
+- **分支**：claude/funny-einstein-7wstq0
+- **推送目标**：origin/main（QIUYicong/neuro-daily-essays）
+
+## 日期说明
+
+系统日期为 2026-06-19，知识库最近一篇文章日期为 2026-07-24（第 92 篇）。按照知识库内在序列连续性原则（参见 logs/2026-06-19-run.log 中的先例），本次使用 2026-07-25 作为文章日期，不采用系统日期。这是知识库与实际日期偏差约 35 天的延续（偏差持续自更早的会话中）。
+
+## 选题依据
+
+上一篇文章（#92，2026-07-24）涵盖了恐惧印迹/杏仁核回路。当前知识库在 methods 层和 molecular 层有系统性空缺：
+- methods 层仅有 optogenetics、connectomics、PCI、adversarial-collaboration
+- molecular 层缺乏系统的细胞类型分类框架
+- 转录组细胞类型图谱是理解 PV/SST/VIP 中间神经元（已有多篇文章覆盖）和锥体神经元（已有详细页面）的分子基础
+
+选题：scRNA-seq 与神经元细胞类型多样性（课程脊柱 #10 Methods + 脊柱 #1 Molecular）
+
+## 文献检索
+
+### 主要来源（均通过 PubMed 检索，禁止 Sci-Hub 或 paywall 绕过）
+
+1. **Tasic et al. 2018** (PMID:30382198, PMC6456269)
+   - 小鼠视觉+运动皮层 133 种转录组细胞类型
+   - GABAergic 跨区保守（~70%），谷氨酸能区域特异
+   - 全文可获取（PMC）
+
+2. **Zeisel et al. 2018** (PMID:30096314, PMC6233037)
+   - 小鼠全神经系统 265 种细胞类型
+   - 层级分类体系，首次全系统转录组图谱
+   - 全文可获取（PMC）
+
+3. **Hodge et al. 2019** (PMID:31435019, PMC6919571)
+   - 人类颞中回 snRNA-seq ~100+ 种细胞类型
+   - 人类特有深层谷氨酸能亚型（~10种无小鼠对应）
+   - 全文可获取（PMC）
+
+4. **BICCN 2021** (PMID:34616075, PMC9489514)
+   - 小鼠初级运动皮层多模态验证（转录组+ATAC+甲基化+空间）
+   - 证明转录组聚类是"自然界的真实切割"
+   - 全文可获取（PMC）
+
+5. **Siletti et al. 2023** (PMID:37824663, Science)
+   - 全人脑 snRNA-seq：461 聚类/3313 亚聚类
+   - **无PMC开放获取**，仅使用摘要；标注 abstract_only
+   - 使用摘要中的数字和主要结论
+
+6. **Yao et al. 2023** (PMID:38092916, PMC10782918)
+   - 全鼠脑 scRNA-seq 700万细胞，5322种聚类
+   - 转录因子组合编码（combinatorial TF code）
+   - 全文可获取（PMC）
+
+7. **Lee et al. 2023** (PMID:37824669, PMC10696476)
+   - Patch-seq 人类 GABAergic 细胞：转录组预测形态/电生理
+   - 全文可获取（PMC）
+
+8. **Bakken et al. 2018** (PMID:30586455, PMC6416231)
+   - 人类与鼠类 snRNA-seq 比较
+   - 全文可获取（PMC）
+
+9. **Cao et al. 2019** (PMID:38123823, 引用 PMC10913892)
+   - MERFISH 空间转录组成像
+   - 全文可获取（PMC）
+
+10. **Wu et al. 2017** (PMID:29024657, Neuron)
+    - 小鼠皮层发育转录组时序
+    - **无PMC开放获取**，仅使用摘要；标注 abstract_only
+
+**来源统计**：10篇总计，8篇开放获取全文，2篇摘要。
+
+## 执行步骤记录
+
+### A. 读取必要文件
+- ✅ ROUTINE.md：确认单分支模型，main 分支，无 PR
+- ✅ KNOWLEDGE-BASE-DESIGN.md：确认双层架构、三不变量
+- ✅ state/topic_ledger.json：确认 last = 2026-07-24 (#92)
+- ✅ state/unresolved_questions.md：确认高优先级开放问题
+- ✅ logs/2026-07-24-run.log：确认上次运行状态
+- ✅ wiki/index.md：确认当前页面数 159 页
+- ✅ wiki/CHANGELOG.md：确认上次变更
+
+### B. 文献检索与阅读
+- ✅ 检索 10 篇来源，8 篇开放全文，2 篇摘要
+- ✅ 逐篇记录读书笔记（notes/2026-07-25-reading-notes.md）
+- ✅ 记录来源元数据（sources/2026-07-25-sources.json）
+
+### C. 写作文章
+- ✅ articles/2026-07-25-scrna-seq-neural-cell-type-diversity.md
+  - 约 4500 中文字符
+  - 核心问题、摘要、背景、技术机制、主要发现、Patch-seq、比喻、认知地图更新、争议、AI对照、概念卡、来源表
+
+### D. 知识库更新
+
+#### 新建 Wiki 页面
+- ✅ wiki/methods/single-cell-rna-seq.md（全新页面，revision_count=1）
+- ✅ wiki/concepts/transcriptomic-cell-types.md（全新页面，revision_count=1）
+
+#### 修订现有 Wiki 页面
+- ✅ wiki/neurons/pyramidal-neuron.md（rev1→rev2，新增转录组亚型分类节）
+- ✅ wiki/circuits/pv-interneurons.md（rev5→rev6，新增转录组亚型注记节）
+
+#### 知识图谱更新
+- ✅ wiki/_graph.json
+  - 新增节点：single-cell-rna-seq, transcriptomic-cell-types（2节点）
+  - 新增边：8条（supports×2, related×5, prerequisite-for×1）
+  - 节点数：163→165，边数：1009→1017
+
+#### Index & CHANGELOG
+- ✅ wiki/CHANGELOG.md（前置新记录：2026-07-25 节）
+- ✅ wiki/index.md（更新头部：161页，165节点，1017边；插入2个新页条目）
+
+### E. 状态文件更新
+- ✅ state/topic_ledger.json（total_articles: 75→76，新增 2026-07-25 条目）
+- ✅ state/source_registry.json（total_sources: 393→403，新增 additions_2026-07-25）
+- ✅ state/unresolved_questions.md（新增 Q-scrna-state-vs-type/Q-scrna-resolution-functional/Q-cell-type-human-cognitive）
+- ✅ state/monthly_synthesis.md（新增 2026-07-25 日条目）
+- ✅ state/maturity_index.json（新增4条记录：2新建+2修订）
+
+### F. 日志
+- ✅ logs/2026-07-25-run.log（本文件）
+
+### G. Git 提交与推送
+- 状态：执行中
+
+## 变更摘要
+
+| 类别 | 变更内容 |
+|------|---------|
+| 新文章 | articles/2026-07-25-scrna-seq-neural-cell-type-diversity.md |
+| 新建 wiki 页 | methods/single-cell-rna-seq、concepts/transcriptomic-cell-types |
+| 修订 wiki 页 | neurons/pyramidal-neuron rev1→rev2、circuits/pv-interneurons rev5→rev6 |
+| 新增节点 | 2（single-cell-rna-seq, transcriptomic-cell-types） |
+| 新增边 | 8 |
+| 图谱总计 | 165 节点，1017 边 |
+| 争议声明 | 无新争议（胶质递质争议 C-2026-07-02-01 维持） |
+| 新开放问题 | 3（Q-scrna-state-vs-type, Q-scrna-resolution-functional, Q-cell-type-human-cognitive） |
+| 来源总数 | 393→403 |
+
+## Git 提交哈希
+
+（推送后补填）
+
+---
+
+*运行完成时间：2026-07-25（系统时间：2026-06-19）*

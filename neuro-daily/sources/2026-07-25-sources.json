@@ -1,0 +1,190 @@
+{
+  "date": "2026-07-25",
+  "article": "2026-07-25-scrna-seq-neural-cell-type-diversity",
+  "topic": "单细胞RNA测序与神经元类型多样性",
+  "sources": [
+    {
+      "id": "tasic2018",
+      "pmid": "30382198",
+      "pmcid": "PMC6456269",
+      "doi": "10.1038/s41586-018-0654-5",
+      "title": "Shared and distinct transcriptomic cell types across neocortical areas",
+      "authors": "Tasic B, Yao Z, Graybuck LT, et al. (Allen Institute)",
+      "journal": "Nature",
+      "year": 2018,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": "133种皮层细胞类型核心发现；GABAergic保守/Glutamatergic区域特异的关键模式",
+      "key_claims": [
+        "133种转录组细胞类型（23兴奋/67抑制/43非神经元）",
+        "GABAergic~70%跨视觉/运动皮层共享",
+        "Glutamatergic在区域之间高度分化"
+      ]
+    },
+    {
+      "id": "bakken2018",
+      "pmid": "30586455",
+      "pmcid": "PMC6306246",
+      "doi": "10.1371/journal.pone.0209648",
+      "title": "Single-nucleus and single-cell transcriptomes compared in matched cortical cell types",
+      "authors": "Bakken TE, Hodge RD, Miller JA, et al.",
+      "journal": "PLoS One",
+      "year": 2018,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": "snRNA-seq技术验证：核内RNA占总RNA 20-50%但足以区分细胞类型",
+      "key_claims": [
+        "内含子序列提高snRNA-seq区分相关亚型的能力",
+        "snRNA-seq是研究不易解离脑组织的有效手段"
+      ]
+    },
+    {
+      "id": "zeisel2018",
+      "pmid": "30096314",
+      "pmcid": "PMC6086934",
+      "doi": "10.1016/j.cell.2018.06.021",
+      "title": "Molecular Architecture of the Mouse Nervous System",
+      "authors": "Zeisel A, Hochgerner H, Lönnerberg P, et al. (Karolinska Institute)",
+      "journal": "Cell",
+      "year": 2018,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": "全小鼠神经系统265种细胞类型；7种星形胶质细胞亚型；转录组多样性与突触/膜功能基因共变",
+      "key_claims": [
+        "~500K细胞，265种细胞类型",
+        "7种解剖学上对齐的星形胶质细胞亚型",
+        "神经元多样性与突触/膜特性基因高度相关"
+      ]
+    },
+    {
+      "id": "hodge2019",
+      "pmid": "31435019",
+      "pmcid": "PMC6919571",
+      "doi": "10.1038/s41586-019-1506-7",
+      "title": "Conserved cell types with divergent features in human versus mouse cortex",
+      "authors": "Hodge RD, Bakken TE, Miller JA, et al. (Allen Institute)",
+      "journal": "Nature",
+      "year": 2019,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": "人类vs小鼠皮层细胞类型比较；保守性与物种特异性差异",
+      "key_claims": [
+        "人类和小鼠有同源细胞类型（保守）",
+        "人类有小鼠没有的深层谷氨酸能亚型",
+        "PVALB细胞在人类有独特电生理变化"
+      ]
+    },
+    {
+      "id": "biccn2021",
+      "pmid": "34616075",
+      "pmcid": "PMC8494634",
+      "doi": "10.1038/s41586-021-03950-0",
+      "title": "A multimodal cell census and atlas of the mammalian primary motor cortex",
+      "authors": "BRAIN Initiative Cell Census Network (BICCN)",
+      "journal": "Nature",
+      "year": 2021,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": "多模态整合验证：转录组类型与表观基因组、调控和解剖层次高度对应",
+      "key_claims": [
+        "小鼠/狨猴/人类运动皮层细胞类型层级基本保守",
+        "细胞类型特异性的顺式调控元件和转录因子组合",
+        "MERFISH空间验证聚类对应解剖层次"
+      ]
+    },
+    {
+      "id": "siletti2023",
+      "pmid": "37824663",
+      "doi": "10.1126/science.add7046",
+      "title": "Transcriptomic diversity of cell types across the adult human brain",
+      "authors": "Siletti K, Treme R, Hagemann-Jensen M, et al. (Karolinska Institute)",
+      "journal": "Science",
+      "year": 2023,
+      "full_text_available": false,
+      "full_text_source": "摘要（Science无PMC OA）",
+      "note": "未读取全文",
+      "used_for": "全人脑3M+细胞，461 cluster，3313 subcluster；发育起源组织原则",
+      "key_claims": [
+        "3M+细胞，461聚类，3313亚聚类",
+        "按发育起源（前/中/后脑）组织",
+        "中脑/后脑异质性高于预期"
+      ]
+    },
+    {
+      "id": "yao2023",
+      "pmid": "38092916",
+      "pmcid": "PMC10719114",
+      "doi": "10.1038/s41586-023-06812-z",
+      "title": "A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain",
+      "authors": "Yao Z, van Velthoven CTJ, Kunst M, et al. (Allen Institute)",
+      "journal": "Nature",
+      "year": 2023,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": "全小鼠脑5322聚类；背-腹梯度；转录因子组合编码；MERFISH空间整合",
+      "key_claims": [
+        "5322个细胞聚类，4级层级分类",
+        "背-腹向神经元多样性梯度",
+        "转录因子组合编码细胞类型身份"
+      ]
+    },
+    {
+      "id": "lee2023",
+      "pmid": "37824669",
+      "pmcid": "PMC12229143",
+      "doi": "10.1126/science.adf6484",
+      "title": "Signature morphoelectric properties of diverse GABAergic interneurons in the human neocortex",
+      "authors": "Lee BR, Dalley R, Miller JA, et al. (Allen Institute)",
+      "journal": "Science",
+      "year": 2023,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": "Patch-seq验证人类GABAergic神经元转录组类型与形态电生理的对应关系",
+      "key_claims": [
+        "转录组亚类与特征形态电生理高度相关",
+        "PVALB-SST之间存在过渡型中间细胞",
+        "人类GABAergic有物种特异性亚型多样性"
+      ]
+    },
+    {
+      "id": "shao2023",
+      "pmid": "38123823",
+      "pmcid": "PMC11397821",
+      "doi": "10.1007/s10571-023-01431-4",
+      "title": "Patch-seq: Advances and Biological Applications",
+      "authors": "Shao M, Zhang W, Li Y, Tang L, Hao ZZ, Liu S",
+      "journal": "Cell Mol Neurobiol",
+      "year": 2023,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "used_for": "Patch-seq方法综述：三模态整合（转录组+形态+电生理）",
+      "key_claims": [
+        "Patch-seq直接连接转录组身份与功能属性",
+        "适合目标细胞类型确认与功能注释"
+      ]
+    },
+    {
+      "id": "wu2017",
+      "pmid": "29024657",
+      "title": "Detecting Activated Cell Populations Using Single-Cell RNA-Seq",
+      "authors": "Wu YE, Pan L, Zuo Y, Li X, Hong W",
+      "journal": "Neuron",
+      "year": 2017,
+      "full_text_available": false,
+      "full_text_source": "摘要",
+      "note": "未读取全文",
+      "used_for": "Act-seq：神经元活动状态vs类型的区分问题",
+      "key_claims": [
+        "即早基因表达使激活神经元转录组暂时改变",
+        "Act-seq最小化解离诱导转录变化以捕获baseline profile"
+      ]
+    }
+  ],
+  "source_summary": {
+    "total_sources": 10,
+    "full_text_available": 8,
+    "abstract_only": 2,
+    "official_institution": 1,
+    "notes": "满足ROUTINE.md最低标准（≥5来源，≥2开放全文，≥1官方机构来源）。未读全文来源：Siletti 2023（Science无PMC OA）、Wu 2017（Neuron付费墙），均已在文章中标注。"
+  }
+}

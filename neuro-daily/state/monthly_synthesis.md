@@ -727,3 +727,26 @@
 **修订wiki页**：hebbian-learning rev5（[[stdp]]已建立），nmda-receptor rev5（第五重角色：STDP时序仲裁）
 **图谱**：157节点，939边（+1节点，+15边）
 **新增开放问题**：Q-stdp-physiological-ca（高），Q-stdp-inhibitory-synapses（中），Q-stdp-human-evidence（中）
+
+---
+
+### 2026-07-25 · 文章 #93 · 神经元类型的分子宇宙 · scRNA-seq与神经元细胞类型多样性
+
+**核心问题**：大脑有多少种神经元类型？单细胞RNA测序如何系统刻画神经元的分子多样性？转录组聚类与传统细胞类型分类的关系是什么？
+**一句话答案**：scRNA-seq/snRNA-seq通过液滴微流控+条形码+UMI+UMAP降维揭示大脑存在133种（小鼠皮层）至5322种（全鼠脑）可重复转录组聚类；GABAergic细胞跨区高度保守（~70%共享），谷氨酸能细胞区域特异性强——提示皮层功能特化的分子基础主要来自兴奋性神经元的差异化；BICCN 2021多模态验证确认聚类对应真实细胞实体，转录因子组合编码细胞身份。
+
+**知识链衔接**：#72（关键期·PV成熟）→ #74（PV+ 中间神经元细节）→ #93（scRNA-seq分子多样性）——从"功能定义的细胞类型"到"转录组定义的分子细胞类型"的认识论升级：我们现在知道传统的PV/SST/VIP三类划分只是冰山一角，其内部的分子多样性在转录组层面有系统性刻画，并通过Patch-seq与电生理/形态学特征对接。
+
+**新建wiki页**：
+- methods/single-cell-rna-seq（scRNA-seq技术机制、snRNA-seq变体、全流程数据分析）
+- concepts/transcriptomic-cell-types（转录组细胞类型定义、GABAergic保守性模式、TF组合编码、BICCN多模态验证、Patch-seq功能桥接）
+
+**修订wiki页**：
+- neurons/pyramidal-neuron rev1→rev2（新增转录组亚型分类节：区域特异性、L5 ET vs IT、人类特有亚型）
+- circuits/pv-interneurons rev5→rev6（新增转录组亚型注记：篮状/吊灯细胞标记基因差异、跨区保守性~70%）
+
+**图谱**：165节点，1017边（+2节点，+8边）
+**新增开放问题**：Q-scrna-state-vs-type（中，细胞类型vs状态边界）、Q-scrna-resolution-functional（高，哪个聚类层次对应功能回路单元）、Q-cell-type-human-cognitive（中，人类特有亚型的功能）
+**来源质量**：10篇，8篇开放获取（PMC全文），2篇摘要（Siletti 2023 Science, Wu 2017 Neuron）
+
+**日期说明**：系统日期为 2026-06-19，本次使用 2026-07-25 作为文章日期，续接知识库内在的顺序连续性（与 2026-07-24 文章 #92 衔接）。

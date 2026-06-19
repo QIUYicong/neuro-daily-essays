@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-05-27
-updated: 2026-05-27
-revision_count: 1
-dimensions: [cellular, microcircuit, brain-region]
-related: [dendritic-computation, action-potential, axon-initial-segment, nmda-receptor, chandelier-cell, ltp]
+updated: 2026-07-25
+revision_count: 2
+dimensions: [cellular, microcircuit, brain-region, molecular]
+related: [dendritic-computation, action-potential, axon-initial-segment, nmda-receptor, chandelier-cell, ltp, transcriptomic-cell-types, single-cell-rna-seq]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: []
 source_articles: [2026-05-27-dendritic-computation]
-key_sources: ["PMID:26605882", "PMID:23841837", "PMID:19661433"]
+key_sources: ["PMID:26605882", "PMID:23841837", "PMID:19661433", "PMID:30382198", "PMID:31435019"]
 ---
 
 # 锥体神经元 (Pyramidal Neuron)
@@ -48,6 +48,15 @@ key_sources: ["PMID:26605882", "PMID:23841837", "PMID:19661433"]
 - **L5B 大型锥体细胞（Betz 细胞等）**：皮层脊髓束；顶端树突最长；Ca²⁺ 棘波研究的主要对象
 - **L6 锥体细胞**：大量投射回丘脑（皮质-丘脑反馈）
 
+## 转录组亚型分类（scRNA-seq视角，2026-07-25更新）
+
+scRNA-seq研究（Tasic et al. 2018，PMID:30382198）系统刻画了兴奋性锥体神经元的分子多样性。关键模式：
+
+- **兴奋性细胞类型具有强烈的区域特异性**：视觉皮层和运动皮层的兴奋性亚型组成显著不同，提示皮层功能特化的分子基础主要来自兴奋性神经元的差异化（而GABAergic细胞跨区保守）
+- **L5 ET（Extratelencephalic projecting，即皮层下投射）vs IT（Intratelencephalic，即皮层间投射）**：是转录组研究最清晰的兴奋性亚型划分，对应不同的轴突投射目标和功能（运动输出 vs 联合）
+- **人类特有深层亚型**：Hodge et al. 2019（PMID:31435019）报告人类颞叶有小鼠中无法对应的深层谷氨酸能亚型，可能与人类高级认知相关（具体功能未知）
+- **物种同源性**：尽管有差异，人类和小鼠皮层的兴奋性神经元有"同源"（transcriptomically homologous）类型，支持跨物种比较实验的合理性
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -71,7 +80,9 @@ key_sources: ["PMID:26605882", "PMID:23841837", "PMID:19661433"]
 ## 修订历史
 
 - 2026-05-27 · 创建 · 基于《树突：神经元内部的神经网络》一文 · 作为树突计算的主要载体，同时连接 AIS 和 chandelier-cell 两个已有节点 · 初始置信度：高
+- 2026-07-25 · 修订（rev2）· 基于《神经元类型的分子宇宙》文章 #93 · 新增"转录组亚型分类"节：兴奋性细胞的区域特异性、L5 ET vs IT划分、人类特有亚型 · 来源：Tasic 2018、Hodge 2019
 
 ## 来源文章
 
 - [[2026-05-27-dendritic-computation]]
+- [[2026-07-25-scrna-seq-neural-cell-type-diversity]]

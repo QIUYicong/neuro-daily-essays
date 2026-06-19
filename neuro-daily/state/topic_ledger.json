@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-24",
-  "total_articles": 75,
+  "last_updated": "2026-07-25",
+  "total_articles": 76,
   "entries": [
     {
       "date": "2026-07-23",
@@ -5480,6 +5480,65 @@
         "ptsd",
         "optogenetics"
       ]
+    },
+    {
+      "date": "2026-07-25",
+      "article_number": 93,
+      "title": "神经元类型的分子宇宙：单细胞RNA测序如何重绘大脑细胞图谱",
+      "filename": "2026-07-25-scrna-seq-neural-cell-type-diversity",
+      "wiki_pages_created": [
+        "single-cell-rna-seq",
+        "transcriptomic-cell-types"
+      ],
+      "wiki_pages_revised": [
+        "pyramidal-neuron",
+        "pv-interneurons"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "单细胞RNA测序（scRNA-seq/snRNA-seq）如何系统刻画大脑神经元的分子多样性？转录组聚类与传统细胞类型分类体系的关系是什么？GABAergic跨区保守、谷氨酸能区域特异的模式意味着什么？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "methods",
+        "microcircuit"
+      ],
+      "curriculum_track": [
+        "cell-type-diversity",
+        "molecular-taxonomy",
+        "scrna-seq-methods",
+        "transcriptomic-atlas"
+      ],
+      "key_sources": [
+        "PMID:30382198",
+        "PMID:30096314",
+        "PMID:31435019",
+        "PMID:34616075",
+        "PMID:37824663",
+        "PMID:38092916",
+        "PMID:37824669",
+        "PMID:30586455"
+      ],
+      "unresolved_questions_opened": [
+        "Q-scrna-state-vs-type",
+        "Q-scrna-resolution-functional",
+        "Q-cell-type-human-cognitive"
+      ],
+      "unresolved_questions_advanced": [],
+      "tags": [
+        "scrna-seq",
+        "snrna-seq",
+        "cell-types",
+        "transcriptomics",
+        "molecular-taxonomy",
+        "gabaergic",
+        "glutamatergic",
+        "pv-interneurons",
+        "pyramidal-neuron",
+        "allen-institute",
+        "biccn",
+        "patch-seq"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -5491,7 +5550,8 @@
       "2026-06-04",
       "2026-06-10",
       "2026-06-12",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-07-25"
     ],
     "cellular": [
       "2026-05-24",
@@ -5564,7 +5624,8 @@
     "methods": [
       "2026-06-09",
       "2026-05-31",
-      "2026-06-18"
+      "2026-06-18",
+      "2026-07-25"
     ],
     "systems": [
       "2026-06-11",

@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-07-25（文章 #93·单细胞RNA测序×神经元类型分子宇宙×转录组分类体系）
+
+**源文章**：[[2026-07-25-scrna-seq-neural-cell-type-diversity]] —《神经元类型的分子宇宙：单细胞测序如何重绘大脑细胞地图》
+
+**新建页面（2）**：
+- `wiki/methods/single-cell-rna-seq.md`（新建）— scRNA-seq/snRNA-seq技术原理、10x液滴流程、全脑图谱主要发现；revision_count=1；置信度：高；相关：transcriptomic-cell-types、optogenetics、pv-interneurons
+- `wiki/concepts/transcriptomic-cell-types.md`（新建）— 转录组细胞类型分类体系；133种→5322种聚类的核心发现；GABAergic保守/Glutamatergic区域特异性；转录因子组合编码；Patch-seq验证；revision_count=1；置信度：高
+
+**修订页面（2）**：
+- `wiki/neurons/pyramidal-neuron.md` rev2 — updated=2026-07-25；revision_count 1→2；新增"转录组亚型分类"节（兴奋性细胞区域特异性、L5 ET vs IT划分、人类特有亚型、物种同源性）；related/key_sources 更新
+- `wiki/circuits/pv-interneurons.md` rev6 — updated=2026-07-25；revision_count 5→6；新增"转录组亚型注记"节（篮状/吊灯细胞分子标记差异；PV亚类跨区保守；人类PV特异性变化）；related 更新添加transcriptomic-cell-types、single-cell-rna-seq
+
+**矛盾登记（0）**：无新矛盾。转录组类型数量（133 vs 5322）的差异是分辨率差异，非真实冲突；细胞"状态 vs 类型"问题作为开放问题Q-scrna-state-vs-type登记
+
+**新增开放问题（2）**：
+- Q-scrna-state-vs-type（中优先级）：scRNA-seq如何区分细胞的稳定类型身份和短暂活动状态？即早基因（FOS、ARC）表达如何影响类型分类？
+- Q-scrna-resolution-functional（高优先级）：哪个层次的转录组分类（133种 vs 5322种）对应功能上真实的"回路计算单元"？
+- Q-cell-type-human-cognitive（中优先级）：人类皮层特有的兴奋性神经元亚型（Hodge 2019）具体负责什么功能？与高级认知的关系？
+
+**图谱**：165 节点（+2），1017 边（+8）。新增节点：single-cell-rna-seq、transcriptomic-cell-types。新增边：单细胞测序→转录组类型（supports），转录组类型→PV/SST/VIP中间神经元（related），转录组类型→锥体神经元（related），转录组类型→皮层正则微回路（supports），单细胞测序→光遗传学（prerequisite-for），转录组类型→关键期（related）
+
+---
+
 ## 2026-07-24（文章 #92·杏仁核恐惧印迹×突触可塑性竞争写入×消退记忆=奖励神经元）
 
 **源文章**：[[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]] —《恐惧的印迹与奖励的入侵：杏仁核如何竞争选择恐惧记忆，又如何将消退交给奖励系统》

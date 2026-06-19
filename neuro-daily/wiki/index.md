@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-24（第92篇·杏仁核恐惧印迹×突触可塑性竞争写入×消退记忆=奖励神经元）· 主题页总数：**159**（新建0页；修订4页：concepts/fear-conditioning rev2→rev3、concepts/fear-extinction rev3→rev4、systems/amygdala rev3→rev4、concepts/engram-cells rev5→rev6；图谱163节点、1009边；新增Q-extinction-reward-overlap）
+> 最后更新：2026-07-25（第93篇·单细胞RNA测序×神经元类型分子宇宙×转录组分类体系）· 主题页总数：**161**（新建2页：methods/single-cell-rna-seq、concepts/transcriptomic-cell-types；修订2页：neurons/pyramidal-neuron rev1→rev2、circuits/pv-interneurons rev5→rev6；图谱165节点、1017边；新增Q-scrna-state-vs-type/Q-scrna-resolution-functional/Q-cell-type-human-cognitive）
 
 ---
 
@@ -138,6 +138,7 @@
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据（完全额叶切除不影响意识）**[修订 2026-06-27]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
+- 🟢 [转录组细胞类型](concepts/transcriptomic-cell-types.md) — 高维基因表达空间中可重复聚类的细胞群体；GABAergic跨区保守（~70%），谷氨酸能区域特异；转录因子组合编码细胞身份；BICCN多模态验证（转录组+ATAC+甲基化+空间）；全鼠脑5322聚类×全人脑461聚类的神经元分子宇宙 **[NEW 2026-07-25]**
 
 ## motor（运动系统）
 
@@ -178,6 +179,7 @@
 - 🟢 [扰动复杂性指数（PCI）](methods/perturbational-complexity-index.md) — IIT 的临床代理工具；TMS 扰动 + EEG 记录 + Lempel-Ziv 复杂度算法；区分清醒/NREM/麻醉/植物状态/最小意识状态；Casali 2013 奠基，多中心验证 **[NEW 2026-05-31]**
 - 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元，White 1986）→ 果蝇（139,255神经元，FlyWire 2024）；揭示网络拓扑（小世界、富人俱乐部、前馈回路）；结构约束功能但不充分描述动力学（结构-功能鸿沟）**[NEW 2026-06-18]**
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**
+- 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[NEW 2026-07-25]**
 
 ## theories（理论）
 
