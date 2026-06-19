@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-07-30（文章 #98·多感觉整合×贝叶斯因果推断×上丘三规则×麦格克效应）
+
+**源文章**：[[2026-07-30-multisensory-integration-bayesian-brain]] —《感官的裁判：大脑如何决定"你听到的"和"你看到的"属于同一件事》
+
+**新建页面（4）**：
+- `wiki/concepts/multisensory-integration.md`（新建）— 多感觉整合的两阶段推断（因果推断→权重整合）；上丘三条 Stein-Meredith 规则；人类 fMRI 核心网络（STG/STS、丘脑枕核、脑岛/额下回、顶内沟）；贝叶斯因果推断模型统一解释；麦格克效应机制；revision_count=1；置信度：高
+- `wiki/concepts/bayesian-causal-inference.md`（新建）— P(C=1) 后验因果推断；整合/分离的加权平均；"负偏移"独特预测；与 MLE 的关系（MLE 是 BCI 的特例）；实验验证（R²=0.97，Körding 2007）；revision_count=1；置信度：高
+- `wiki/systems/superior-colliculus.md`（新建）— SC 浅层（视网膜输入）vs 深层（多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层依赖性（AES 失活消除整合）；半盲恢复临床转化（Stein & Rowland 2020）；SC→丘脑枕核→皮层联合区快速通路；revision_count=1；置信度：高
+- `wiki/concepts/inverse-effectiveness.md`（新建）— 逆效应性：弱刺激整合获益最大；NMDA 受体 Mg²⁺ 阻断-去除非线性机制（Bhatt 2016）；行为层面验证；生态适应意义；revision_count=1；置信度：高
+- `wiki/concepts/temporal-binding-window.md`（新建）— 时间绑定窗宽度（视听 ±100-200ms）；个体差异（ASD 扩宽）；候选神经机制（皮层振荡相位、STS 时间调谐、贝叶斯先验）；与麦格克效应易感性相关；revision_count=1；置信度：高
+
+**修订页面（0）**：今日无现有页面修订（新建页面已覆盖今日核心概念）
+
+**矛盾登记（0）**：无新矛盾。多感觉整合"最优性"（MLE 完全最优 vs. 近似最优/次优整合）的争议已在文章和 wiki 中如实并列（Angelaki 2009 的次加性批评 vs. Ernst & Banks 2002 的最优证明），但不与已有 wiki 页面中的具体主张冲突，不触发矛盾协议。
+
+**新增开放问题（3）**：
+- Q-msi-01（高优先级）：时间绑定窗（TBW）的神经振荡基础（θ/α 相位？STS 时间调谐？）
+- Q-msi-02（中优先级）：SC 皮层下整合和 STS 皮层整合的串/并联关系
+- Q-msi-03（低优先级）：多模态 AI 是否可以实现真正的不确定性加权整合
+
+**悬空引用解决（0）**：今日未解决已有悬空引用
+
+**新增悬空引用**：`nmda-receptor` 已有页面（确认已存在于 graph）；`predictive-coding` 已有页面；无新悬空引用
+
+**图谱**：177→182 节点（+5：multisensory-integration、bayesian-causal-inference、superior-colliculus、inverse-effectiveness、temporal-binding-window），1055→1066 边（+11 条新边）
+
+---
+
 ## 2026-07-29（文章 #97·S1初级躯体感觉皮层×LTMR机械感受器×Merzenich可塑性革命）
 
 **源文章**：[[2026-07-29-s1-somatosensory-cortex-body-map-plasticity]] —《触觉的神经地图：S1 初级躯体感觉皮层如何将皮肤信号变为身体意象，以及为什么这张地图是活的》

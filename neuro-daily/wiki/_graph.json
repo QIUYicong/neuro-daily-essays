@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-29",
+  "updated": "2026-07-30",
   "node_count": 177,
   "edge_count": 1056,
   "edge_types": [
@@ -1618,6 +1618,51 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/homunculus.md"
+    },
+    {
+      "id": "multisensory-integration",
+      "title": "多感觉整合",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/multisensory-integration.md"
+    },
+    {
+      "id": "bayesian-causal-inference",
+      "title": "贝叶斯因果推断",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "high",
+      "page": "wiki/concepts/bayesian-causal-inference.md"
+    },
+    {
+      "id": "superior-colliculus",
+      "title": "上丘",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/superior-colliculus.md"
+    },
+    {
+      "id": "inverse-effectiveness",
+      "title": "逆效应性原则",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/inverse-effectiveness.md"
+    },
+    {
+      "id": "temporal-binding-window",
+      "title": "时间绑定窗",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/temporal-binding-window.md"
     }
   ],
   "edges": [
@@ -7483,6 +7528,72 @@
       "to": "action-potential",
       "type": "prerequisite-for",
       "note": "LTMR 将机械变形转化为动作电位（主要通过 PIEZO2 通道的机械转导→去极化→Nav1.7/1.8 AP）"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "bayesian-causal-inference",
+      "type": "mechanism-of",
+      "note": "多感觉整合的核心计算框架：贝叶斯因果推断决定整合/分离"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "superior-colliculus",
+      "type": "part-of",
+      "note": "上丘是皮层下多感觉整合的主要节点"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "inverse-effectiveness",
+      "type": "mechanism-of",
+      "note": "逆效应性是上丘整合规则之一"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "temporal-binding-window",
+      "type": "mechanism-of",
+      "note": "时间绑定窗约束整合的时间条件"
+    },
+    {
+      "from": "bayesian-causal-inference",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "贝叶斯因果推断和预测编码共享贝叶斯推断的数学框架"
+    },
+    {
+      "from": "superior-colliculus",
+      "to": "inverse-effectiveness",
+      "type": "supports",
+      "note": "SC 深层神经元是逆效应性的主要实验来源"
+    },
+    {
+      "from": "superior-colliculus",
+      "to": "thalamus",
+      "type": "related",
+      "note": "SC → 丘脑枕核（Pulvinar）→ 皮层联合区：多感觉快速通路"
+    },
+    {
+      "from": "inverse-effectiveness",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "NMDA 受体非线性激活是逆效应性的细胞机制（Mg²⁺ 阻断-去除）"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "auditory-cortex",
+      "type": "related",
+      "note": "STS 视听整合需要听觉皮层的输入；A1 对视觉有交叉调制"
+    },
+    {
+      "from": "multisensory-integration",
+      "to": "somatosensory-cortex",
+      "type": "related",
+      "note": "视触觉整合（Ernst & Banks 2002）；S1 参与视触联合感知"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "bayesian-causal-inference",
+      "type": "supports",
+      "note": "TBW 对应 P(C=1) 随时间差降低的贝叶斯先验"
     }
   ],
   "dangling_references": [

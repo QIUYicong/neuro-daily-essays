@@ -1,0 +1,154 @@
+# 运行日志 2026-07-30
+
+**日期（知识库序列）**：2026-07-30
+**实际系统时间**：2026-06-19 19:01 UTC / 2026-06-20 03:01 CST（北京时间）
+**文章编号**：#98
+**分支**：main
+**运行状态**：✅ 成功
+
+---
+
+## 运行概要
+
+- **模式**：长期课程模式（long_term_curriculum）
+- **课程路线**：脊柱 3（大脑如何编码世界·多感觉融合）+ 脊柱 5（感知推断）+ 脊柱 12（人脑与AI比较）
+- **主题**：多感觉整合——上丘三条规则、贝叶斯因果推断、麦格克效应
+- **层级**：cellular · brain-region · whole-brain-network · cognition
+
+---
+
+## 日期说明（重要）
+
+本次运行时，系统实际时间为北京时间 2026-06-20 03:01。
+知识库的文章序列已通过之前多次运行延伸至 2026-07-29（#97）。
+
+**历史情况**：
+- 2026-06-19（北京时间）：文章 #85（sleep-spindles-nrem）已发布
+- 2026-06-20（北京时间）：文章 #56（language-dual-stream）已发布（早期运行的结果）
+- 后续运行：依次创建 #86 至 #97，日期从 2026-06-21 延伸至 2026-07-29
+- 本次：#98，日期 2026-07-30，续接知识库内在的顺序连续性
+
+**给用户的建议**：知识库的日期序列目前比实际日历超前约 40 天。如果希望日期与实际日期同步，可以考虑：
+1. 暂停每日触发直到日历赶上（2026-07-30 约为 41 天后）
+2. 调整触发器使其使用"上一篇文章日期 +1 天"作为当日日期而非系统日期
+3. 接受日期超前，只要知识内容持续增长即可
+
+---
+
+## 选题决策
+
+**上一篇（#97）**：S1 初级躯体感觉皮层体图与 Merzenich 可塑性（2026-07-29）
+**当日竞争候选**（按优先级）：
+1. 多感觉整合（连接 #96 听觉、#97 触觉、预测编码、贝叶斯框架）→ **选定**
+2. 痛觉/伤害感受器（连接 S1 可塑性和 Q-s1-02）
+3. 前庭系统（连接头向细胞 #95 和多感觉空间感知）
+
+**选定理由**：
+- 在听觉皮层（#96）和触觉皮层（#97）之后，自然引入"多感觉整合"作为"大脑如何编码世界"的顶层整合框架
+- 贝叶斯因果推断是预测编码理论的感知级实例，首次在知识库中系统建立此框架
+- 上丘是唯一尚未在 wiki 中建页但在多篇文章中被提及的核心脑区之一
+- 麦格克效应连接语言感知（#56 文章）与多感觉整合，形成跨课程脊柱的知识节点
+
+---
+
+## 检索过程
+
+**主要搜索词**：
+- "multisensory integration superior colliculus Bayesian brain PubMed review"
+- "Ernst Banks 2002 humans integrate visual haptic statistically optimal"
+- "Kording 2007 causal inference multisensory perception PLoS"
+- "Meredith Stein 1983 multisensory neurons superior colliculus"
+- "McGurk effect temporal binding window"
+- "inverse effectiveness NMDA receptor cellular mechanism"
+
+**检索数据源**：PubMed / NCBI（E-utilities 搜索）、PMC Open Access（全文获取）
+
+**候选来源**：15 篇检索结果
+**采用来源**：10 篇（4 篇开放全文，6 篇仅摘要）
+
+---
+
+## 来源采用与排除
+
+**采用（开放全文）**：
+- Körding et al. 2007 (PMID:17895984) — 贝叶斯因果推断模型核心文献，PMC 全文
+- Angelaki et al. 2009 (PMID:19616425) — 多感觉整合综述，PMC 全文
+- Stein & Rowland 2020 (PMID:32113921) — SC 规则与临床应用，PMC 全文
+- Bhatt et al. 2016 (PMCID:PMC5375642) — 逆效应性 NMDA 机制，PMC 全文
+
+**采用（仅摘要）**：
+- Ernst & Banks 2002 (PMID:11807554) — 视触觉 MLE 最优整合（付费）
+- Körding & Wolpert 2004 (PMID:14724638) — 感知运动贝叶斯整合（付费）
+- Scheliga et al. 2022 (PMID:36084305) — 人脑多感觉 fMRI 元分析（付费）
+- McGurk & MacDonald 1976 — 历史文献（付费）
+- Meredith & Stein 1983 — 历史文献（付费）
+- Zhang 2024 (PMID:38270850) — 去中心化多感觉网络（摘要）
+
+**排除**：
+- Sci-Hub 或任何盗版 PDF —— 严格禁止
+- 预印本未经同行评议版本 —— 未使用
+
+---
+
+## Wiki 固结步骤
+
+**新建页面（5）**：
+- `concepts/multisensory-integration.md`（revision_count=1，status=established）
+- `concepts/bayesian-causal-inference.md`（revision_count=1，status=emerging）
+- `systems/superior-colliculus.md`（revision_count=1，status=established）
+- `concepts/inverse-effectiveness.md`（revision_count=1，status=established）
+- `concepts/temporal-binding-window.md`（revision_count=1，status=mainstream）
+
+**修订页面（0）**：今日文章聚焦新主题，未触发已有页面修订
+
+**矛盾协议**：无触发。"多感觉整合是否始终最优"（MLE完全最优 vs 次优整合）争议已在文章中如实并列，未与现有 wiki 主张产生直接冲突。
+
+**登记矛盾（0）**：无
+
+**新增悬空引用**：无（所有 related 字段指向的 slug 均已有 wiki 页面）
+
+---
+
+## 图谱与导航更新
+
+- `wiki/_graph.json`：182 节点（+5），1066 边（+11）
+- `wiki/index.md`：更新元数据，新增 5 条页面条目
+- `wiki/CHANGELOG.md`：顶部新增 2026-07-30 节
+
+---
+
+## 治理层更新
+
+- `state/topic_ledger.json`：新增 #98 条目，total_articles=81（注：总数为 81 篇真正添加了来源引用的文章条目，非全部 98 篇的完整记录）
+- `state/unresolved_questions.md`：新增 Q-msi-01（高）、Q-msi-02（中）、Q-msi-03（低）
+- `state/monthly_synthesis.md`：追加 2026-07-30 摘要
+- `state/source_registry.json`：（未在本次运行中更新，待后续批量同步）
+
+---
+
+## Git 操作
+
+- **分支**：main
+- **Commit message**：Add neuro daily article + wiki consolidation for 2026-07-30
+- **Push 目标**：origin main（QIUYicong/neuro-daily-essays）
+
+---
+
+## 自检结果
+
+**真实性** ✅
+- 所有 wiki 新主张均有来源（PMID/PMCID 引用）
+- 区分了事实（SC 三规则，Ernst & Banks MLE）/ 主流模型（贝叶斯因果推断框架）/ 推测（TBW 振荡机制）
+- 未把单篇/动物研究写成定论；逆效应性的动物证据明确标注来自猫/猫鼬实验
+
+**一致性** ✅
+- 无新旧冲突（今日文章全为新概念页面）
+- _graph.json 中无悬空边（所有 related 均已有对应节点）
+
+**可导航** ✅
+- index.md 和 CHANGELOG.md 已更新
+- 所有新页面 related/prerequisites 至少各有 1 个条目
+
+**情景层完整** ✅
+- 文章、笔记、来源、日志均已创建
+- 未修改任何已有文章/笔记/来源/日志文件

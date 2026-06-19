@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-07-29",
-  "total_articles": 80,
+  "last_updated": "2026-07-30",
+  "total_articles": 81,
   "entries": [
+    {
+      "date": "2026-07-30",
+      "title": "感官的裁判：大脑如何决定你听到的和你看到的属于同一件事——多感觉整合的贝叶斯因果推断框架",
+      "filename": "2026-07-30-multisensory-integration-bayesian-brain.md",
+      "article_number": 98,
+      "wiki_pages_created": [
+        "wiki/concepts/multisensory-integration.md",
+        "wiki/concepts/bayesian-causal-inference.md",
+        "wiki/systems/superior-colliculus.md",
+        "wiki/concepts/inverse-effectiveness.md",
+        "wiki/concepts/temporal-binding-window.md"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当大脑同时接收视觉和听觉信号时，如何决定它们来自同一来源（整合）还是不同来源（分离）？贝叶斯因果推断模型如何解释上丘三条规则（空间/时间/逆效应性）、麦格克效应和负偏移现象？逆效应性的NMDA受体细胞机制是什么？",
+      "open_questions_added": ["Q-msi-01", "Q-msi-02", "Q-msi-03"],
+      "layer": ["cellular", "brain-region", "whole-brain-network", "cognition"],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·多感觉融合）+ 脊柱5（认知控制·感知推断）+ 脊柱12（人脑与AI比较·贝叶斯传感器融合）",
+      "topic_tags": [
+        "multisensory integration",
+        "bayesian causal inference",
+        "superior colliculus SC",
+        "inverse effectiveness",
+        "temporal binding window",
+        "McGurk effect audiovisual illusion",
+        "Stein Meredith rules",
+        "maximum likelihood estimation MLE",
+        "Ernst Banks 2002",
+        "Kording 2007 causal inference",
+        "STS temporal superior sulcus",
+        "NMDA receptor non-linear summation",
+        "multisensory hemianopia rehabilitation"
+      ],
+      "main_sources": [
+        "PMID:17895984",
+        "PMID:19616425",
+        "PMID:32113921",
+        "PMID:11807554",
+        "PMCID:PMC1978520",
+        "PMID:36084305"
+      ],
+      "next_suggested_topics": [
+        "痛觉系统（伤害感受器→脊髓背角→丘脑→S1→前扣带回）",
+        "前庭系统与半规管（连接头向细胞和多感觉空间感知）",
+        "视觉注意（V4/MT/MST的注意调制，连接多感觉整合和认知控制）",
+        "跨模态学习（多感觉经验如何改变单模态感知皮层）"
+      ]
+    },
     {
       "date": "2026-07-29",
       "title": "触觉的神经地图：初级躯体感觉皮层（S1）如何将身体表面的触觉信号转化为皮层体图，以及 Merzenich 革命揭示的成年皮层惊人可塑性",

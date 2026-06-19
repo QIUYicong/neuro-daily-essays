@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-29（第97篇·S1初级躯体感觉皮层×LTMR机械感受器×皮层体图可塑性→Merzenich革命）· 主题页总数：**173**（新建4页：systems/somatosensory-cortex、neurons/mechanoreceptor-ltmr、concepts/cortical-plasticity、concepts/homunculus；修订1页：concepts/hebbian-learning rev5→rev6（新增皮层可塑性连接）；图谱177节点、1056边；新增Q-s1-01至Q-s1-03开放问题）
+> 最后更新：2026-07-30（第98篇·多感觉整合×贝叶斯因果推断×上丘三规则×麦格克效应）· 主题页总数：**178**（新建5页：concepts/multisensory-integration、concepts/bayesian-causal-inference、systems/superior-colliculus、concepts/inverse-effectiveness、concepts/temporal-binding-window；图谱182节点、1066边；新增Q-msi-01至Q-msi-03开放问题）
 
 ---
 
@@ -147,6 +147,10 @@
 - 🟢 [嗅觉受体（OR）基因家族](concepts/olfactory-receptor.md) — 哺乳动物最大GPCR基因家族；人类~400功能性成员；一细胞一受体/一受体一小球/组合编码三规则；cAMP→CNG通道→Cl⁻放大五步转导；Buck & Axel 1991诺贝尔奖基础 **[NEW 2026-07-26]**
 - 🟢 [梨状皮层（初级嗅觉皮层）](concepts/piriform-cortex.md) — 三层古皮层；~10%稀疏激活；无拓扑图；CA3型递归联想网络（模式补全能力）；早期信号门控+全局抑制实现浓度不变性；感知层级（梨状→杏仁核→OFC）；直接接收嗅球经LOT的投射 **[NEW 2026-07-26]**
 - 🟢 [音调拓扑图（Tonotopy）](concepts/tonotopic-map.md) — 频率→空间信息保真传递原则（耳蜗→CN→SOC→IC→MGB→A1）；A1/R Heschl回V形镜像；11场图双轴组织（音调×周期性梯度）；侧向抑制增强频率对比；成人可塑性重组（Merzenich组）；与方向选择性/网格细胞/场所细胞类比为皮层拓扑计算通用策略 **[NEW 2026-07-28]**
+- 🟢 [多感觉整合](concepts/multisensory-integration.md) — 大脑跨视听触觉的两阶段感知推断：先因果推断（是否共享来源），再贝叶斯最优权重合并；上丘三条规则（空间/时间/逆效应性）；人类核心网络（STG/STS/丘脑枕核/脑岛）；麦格克效应；Ernst & Banks MLE验证 **[NEW 2026-07-30]**
+- 🟡 [贝叶斯因果推断](concepts/bayesian-causal-inference.md) — 多感觉整合的核心计算框架：P(C=1)加权决定整合vs分离；"负偏移"独特预测（R²=0.97，Körding 2007）；与 MLE 的包含关系 **[NEW 2026-07-30]**
+- 🟢 [逆效应性原则](concepts/inverse-effectiveness.md) — 上丘整合第三规则：弱刺激整合获益最大；NMDA 受体 Mg²⁺ 阻断-去除非线性机制（Bhatt 2016）；在最困难感知条件下提供最大跨模态补偿 **[NEW 2026-07-30]**
+- 🔵 [时间绑定窗（TBW）](concepts/temporal-binding-window.md) — 多感觉整合的时间约束（视听±100-200ms）；ASD中TBW扩宽；候选机制（皮层振荡相位/STS时间调谐）；与麦格克效应易感性相关 **[NEW 2026-07-30]**
 
 ## motor（运动系统）
 
@@ -176,6 +180,7 @@
 - 🟢 [听觉皮层](systems/auditory-cortex.md) — 核心（A1+R，Heschl回V形镜像）-带状-旁带状三级层级；11张音调拓扑场图；腹侧"What"流（声音身份）+ 背侧"Where/How"流（空间/运动）；STG群体响应编码被注意者谱时特征（鸡尾酒会效应）；pSTG STRF重建语音（词语精确率0.89） **[NEW 2026-07-28]**
 - 🟢 [耳蜗](systems/cochlea.md) — 基底膜行波实现频率-位置地点编码（cochleotopic map）；外毛细胞 Prestin 耳蜗放大器（+40–50 dB，Q因子×100）；内毛细胞 tip links / TMC1-TMC2 / Ca_v1.3 / ribbon synapse 机械-电换能级联；是听觉通路所有拓扑图的物理起点 **[NEW 2026-07-28]**
 - 🟢 [初级躯体感觉皮层（S1）](systems/somatosensory-cortex.md) — 四亚区（3a/3b/1/2）×感觉小人（homunculus）×皮层放大因子；Merzenich系列实验确立经验依赖皮层地图可塑性（截指后邻指侵占/训练后表征扩张）；可塑性需要行为相关性（注意门控）；感觉剥夺重启成年皮层至关键期状态 **[NEW 2026-07-29]**
+- 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化 **[NEW 2026-07-30]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
