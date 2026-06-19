@@ -1,6 +1,39 @@
 # 未解问题追踪
 
-*最后更新：2026-07-24*
+*最后更新：2026-07-25*
+
+---
+
+## 2026-07-25 新增（来自"触须的神经地图"文章 #93）
+
+### Q-barrel-human-analog（中优先级）：人类S1是否有类似barrel的微解剖结构？
+
+- **关联 wiki**：[[barrel-cortex]]、[[critical-period]]、[[nmda-receptor]]
+- **来源文章**：2026-07-25-barrel-cortex-somatosensory-map
+- **问题**：啮齿类动物wS1的barrel结构（每根触须一个独立L4 barrel）是在Nissl/细胞色素氧化酶染色中解剖学可见的拓扑地图。人类S1是否存在类似的微解剖结构？盲文阅读者的指尖代表区在S1有扩大的皮层代表（"盲人的barrel"？），这种扩大是否由NMDA受体依赖的竞争机制（类似啮齿类barrel形成）驱动？抑或是成年可塑性（αCaMKII/mGluR5/MMP-9）维持的？
+- **当前证据状态**：人类指腹代表区扩大有fMRI证据（Pascual-Leone & Torres 1993 Braille readers）；但解剖结构上缺乏人类S1 barrel-equivalent的直接组织学证据；NMDA受体在人类S1发育中的作用尚无完整因果证明
+- **为什么重要**：理解人类体感地图形成机制（尤其是关键期假说在人类的适用性），对儿童失肢/截肢后体感重组的干预策略有直接指导意义
+
+### Q-barrel-adult-plasticity-limit（中优先级）：成年桶状皮层可塑性的范围和极限是什么？
+
+- **关联 wiki**：[[barrel-cortex]]、[[critical-period]]、[[perineuronal-nets]]
+- **来源文章**：2026-07-25-barrel-cortex-somatosensory-map
+- **问题**：关键期（P12–P23）后，成年桶状皮层仍能因感觉剥夺发生功能性改变（保留触须代表区扩大）。现有证据表明成年可塑性依赖αCaMKII（树突棘稳定）、mGluR5（突触前释放维持）和MMP-9（PNN降解允许结构重塑）。但：①成年可塑性是否仅限于突触效能（LTP/LTD）和树突棘形态变化，还是也包括轴突终末的大规模重塑（如关键期内的VPm轴突重新分配）？②MMP-9降解PNN后的可塑性范围是否与关键期内相当，还是受到其他限制（如Lynx1抑制nAChR）？③年龄与成年可塑性能力的定量关系如何？
+- **当前证据状态**：Wilbrecht 2010（PMID:20371813）双光子证实L5树突棘选择性稳定；Kaliszewska 2012（PMID:22021911）证实MMP-9必要性；轴突重塑证据仍有争议；年龄定量关系缺乏系统研究
+
+### Q-barrel-septum-function（低优先级）：barrel区与septum区的功能分工及其行为意义
+
+- **关联 wiki**：[[barrel-cortex]]
+- **来源文章**：2026-07-25-barrel-cortex-somatosensory-map
+- **问题**：桶状皮层由barrel（高神经元密度，VPm输入区）和septum（低密度分隔区，POm次要通路输入区）两种结构交替排列。目前已知barrel区优先处理单根触须触觉信息，septum区接受高阶POm（后内侧核）输入，可能参与多触须整合和运动参考。但两区在行为相关感知（纹理/运动检测/物体辨别）中的具体功能分工尚不清楚。光遗传学特异性激活/抑制两区能否揭示功能差异？
+- **当前证据状态**：电生理和解剖学证据（Staiger & Petersen 2021综述 PMID:32816652）描述了两种通路，但功能分工行为实验缺乏
+
+### Q-stdp-all-ltp-molecular-switch（中优先级）：桶状皮层L4→L2/3从全LTP STDP到赫布型STDP切换的精确分子节点是什么？
+
+- **关联 wiki**：[[stdp]]、[[barrel-cortex]]、[[pv-interneurons]]、[[critical-period]]
+- **来源文章**：2026-07-25-barrel-cortex-somatosensory-map
+- **问题**：Kimura & Itami 2019（PMID:30877173）提出的模型认为PV成熟（~P14）通过时序精确化驱动STDP切换，但实际的分子节点尚不清楚：①切换是否由CB1受体在P12-P14出现于L4→L2/3末梢触发（间接证据：ChABC不影响CB1，但CB1出现时间与STDP切换时间吻合）？②PKA→CaMKII的信号整合切换（同一NMDA受体的下游重接线）是否有单一分子触发事件，还是多条通路协调重配（proBDNF/TrkB比例变化？GluN2A/GluN2B比例切换？）？③PV中间神经元成熟是必要条件还是充分条件（能否提前或延迟PV成熟来直接控制STDP规则切换时间）？
+- **当前证据状态**：Kimura & Itami 2019 是综述+假说性模型，关键实验有限；Itami & Kimura 2025（PMID:41002424）扩展到L2/3水平连接，表明切换是普遍规律；直接操控PV成熟+测量STDP规则切换的因果实验缺失
 
 ---
 

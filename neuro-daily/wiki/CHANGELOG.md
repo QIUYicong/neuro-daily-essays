@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-07-25（文章 #93·桶状皮层×NMDA受体依赖竞争×STDP发育切换×触须拓扑地图）
+
+**源文章**：[[2026-07-25-barrel-cortex-somatosensory-map]] —《触须的神经地图：桶状皮层如何用竞争与时序将感知刻入皮层组织》
+
+**新建页面（1）**：
+- `wiki/systems/barrel-cortex.md`（桶状皮层·rev1）🟢 established·high confidence — 每根触须对应一个barrel（L4解剖单位）；三阶段形成（遗传骨架→自发钙波竞争→NMDA受体依赖竞争P0-P5）；PV成熟驱动L4→L2/3 STDP全LTP型→赫布型切换（P12-P23，Kimura & Itami 2019 PMID:30877173）；成年可塑性三通路（αCaMKII结构棘稳定/mGluR5突触前维持/MMP-9 PNN降解）；关键证据表9条；连接 thalamocortical-circuit/critical-period/stdp/pv-interneurons/perineuronal-nets/cortical-layers/nmda-receptor/hebbian-learning；开放问题Q-barrel-human-analog/Q-barrel-adult-plasticity-limit/Q-barrel-septum-function；key_sources: PMID:32816652, PMID:28412498, PMID:30877173, PMID:41002424, PMID:20371813, PMID:22021911
+
+**修订页面（3）**：
+- `wiki/concepts/stdp.md` rev2 — updated=2026-07-25；revision_count 1→2；related 新增 barrel-cortex/critical-period/pv-interneurons；opens_questions 新增 Q-stdp-all-ltp-molecular-switch；key_sources 新增 PMID:30877173/41002424；source_articles 新增 2026-07-25-barrel-cortex-somatosensory-map；"关键机制"节新增"§6. 发育期STDP的多样性"：全LTP型（PKA-NMDA，关键期前）→赫布型（CaMKII-NMDA，关键期后）发育切换表；切换机制（PV时序精确化）；概念意义（NMDA受体是可重新接线的可编程时序传感器）；连接节新增 barrel-cortex/critical-period/pv-interneurons；修订历史追加 rev2
+- `wiki/concepts/critical-period.md` rev3 — updated=2026-07-25；revision_count 2→3；related 新增 barrel-cortex/stdp；opens_questions 新增 Q-barrel-adult-plasticity-limit（从barrel-cortex.md同步）；key_sources 新增 PMID:30877173/28412498；source_articles 新增 2026-07-25-barrel-cortex-somatosensory-map；"系统/行为层"节新增"桶状皮层关键期"段落（L4→L2/3 STDP全LTP→赫布型切换、PV超快前馈抑制~0.7ms、结构关键期P0-P5与功能关键期P12-P23两层架构）；连接节新增 barrel-cortex/stdp；修订历史追加 rev3
+- `wiki/circuits/thalamocortical-circuit.md` rev4 — updated=2026-07-25；revision_count 3→4；related 新增 barrel-cortex；key_sources 新增 PMID:32816652/28412498；source_articles 新增 2026-07-25-barrel-cortex-somatosensory-map；连接节新增 barrel-cortex（VPm→L4 barrel通路为一次视丘核特化实例）；修订历史追加 rev4
+
+**矛盾登记（0）**：无新矛盾（STDP切换的精确分子节点仍为假说性，已作为Q-stdp-all-ltp-molecular-switch开放问题处理；胚胎期跨感觉钙波为近期单实验室数据，置信度标注为"中-高"）
+
+**新增开放问题（4）**：
+- Q-barrel-human-analog（中优先级）：人类S1是否有类似barrel的微解剖结构？盲文阅读者指尖扩大皮层代表是否由NMDA受体竞争驱动？
+- Q-barrel-adult-plasticity-limit（中优先级）：成年桶状皮层可塑性的范围和极限——是否有轴突重塑，还是仅限于突触效能和树突棘变化？
+- Q-barrel-septum-function（低优先级）：barrel区与septum区的功能分工及其行为意义
+- Q-stdp-all-ltp-molecular-switch（中优先级）：桶状皮层L4→L2/3从全LTP STDP切换到赫布型的精确分子节点——PKA→CaMKII切换是否由单一事件（CB1受体出现？）触发？
+
+**图谱**：164 节点，1017 边（+1 节点 barrel-cortex；+8 边：barrel-cortex→thalamocortical-circuit is-a；barrel-cortex→critical-period related；barrel-cortex→stdp related；barrel-cortex→pv-interneurons mechanism-of；barrel-cortex→perineuronal-nets related；barrel-cortex→nmda-receptor mechanism-of；barrel-cortex→hebbian-learning related；barrel-cortex→ltp related）
+
+---
+
 ## 2026-07-24（文章 #92·杏仁核恐惧印迹×突触可塑性竞争写入×消退记忆=奖励神经元）
 
 **源文章**：[[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]] —《恐惧的印迹与奖励的入侵：杏仁核如何竞争选择恐惧记忆，又如何将消退交给奖励系统》

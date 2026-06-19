@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-25",
   "levels": [
     "speculative",
     "emerging",
@@ -1091,5 +1091,37 @@
     "revision_count": 4,
     "last_change": "2026-07-21",
     "change_reason": "修订 rev3→rev4（文章 #89，2026-07-21）。扩展 θ/γ 嵌套章节，新增 Lisman-Idiart 1995 容量分格模型、Colgin 2009 双通道路由详情、Axmacher 2010 人类颅内证据。整体状态不变（established/high）。"
+  },
+  "barrel-cortex-created-2026-07-25": {
+    "slug": "barrel-cortex",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-25",
+    "change_reason": "创建 2026-07-25（文章 #93）。桶状皮层每根触须对应独立barrel的解剖学事实由Woolsey & Van der Loos 1970奠基，是神经科学教科书级知识（极高可信度）；NMDA受体必需性（NR1 KO→无barrel，Martini 2018）有直接因果遗传学证据；PV成熟→STDP切换（Kimura & Itami 2019）为中-高可信度（综述+假说+实验支持）；成年可塑性（αCaMKII、MMP-9等）有多项直接实验证据。总体established/high。"
+  },
+  "stdp-updated-2026-07-25": {
+    "slug": "stdp",
+    "status": "mainstream",
+    "confidence": "high",
+    "revision_count": 2,
+    "last_change": "2026-07-25",
+    "change_reason": "修订 rev1→rev2（文章 #93，2026-07-25）。新增'发育期STDP多样性'节（全LTP型→赫布型切换，桶状皮层案例）。核心状态不变（mainstream/high）；新增的STDP切换机制置信度中-高（Kimura & Itami 2019为综述+假说；Itami & Kimura 2025为新实验数据需独立重复）。"
+  },
+  "critical-period-updated-2026-07-25": {
+    "slug": "critical-period",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 3,
+    "last_change": "2026-07-25",
+    "change_reason": "修订 rev2→rev3（文章 #93，2026-07-25）。新增桶状皮层关键期段落（STDP切换×PV成熟）。核心状态不变（established/high）；新增的STDP切换内容为中-高置信度。"
+  },
+  "thalamocortical-circuit-updated-2026-07-25": {
+    "slug": "thalamocortical-circuit",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 4,
+    "last_change": "2026-07-25",
+    "change_reason": "修订 rev3→rev4（文章 #93，2026-07-25）。连接节新增barrel-cortex（VPm→L4作为一次视丘核的典型特化实例）。核心状态不变（established/high）；新增内容为教科书知识（高置信度）。"
   }
 }

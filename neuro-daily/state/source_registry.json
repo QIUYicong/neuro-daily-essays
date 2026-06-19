@@ -1,7 +1,143 @@
 {
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-25",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "32816652",
+      "pmcid": "PMC12468516",
+      "doi": "10.1152/physrev.00019.2019",
+      "title": "Neuronal Circuits in Barrel Cortex for Whisker Sensory Perception",
+      "authors_short": "Staiger JF, Petersen CCH",
+      "journal": "Physiological Reviews",
+      "year": 2021,
+      "first_used": "2026-07-25",
+      "used_in_articles": [
+        "2026-07-25-barrel-cortex-somatosensory-map.md"
+      ],
+      "aspects_covered": [
+        "barrel as L4 anatomical unit",
+        "VPm→L4 primary thalamocortical pathway",
+        "L4→L2/3 feedforward axis",
+        "L2/3 lateral connections across barrel columns",
+        "PV/SST/VIP interneuron roles in barrel cortex"
+      ]
+    },
+    {
+      "pmid": "28412498",
+      "pmcid": "PMC7610996",
+      "title": "Impact of thalamocortical input on barrel cortex development",
+      "authors_short": "Martini FJ et al.",
+      "journal": "Neuroscience",
+      "year": 2018,
+      "first_used": "2026-07-25",
+      "used_in_articles": [
+        "2026-07-25-barrel-cortex-somatosensory-map.md"
+      ],
+      "aspects_covered": [
+        "two-phase VPm axon formation (diffuse→clustered P0-P4)",
+        "cortex-specific NR1 KO → no barrel structure",
+        "VPm-specific vGluT2 KO → barrels absent",
+        "embryonic calcium waves cross sensory modalities",
+        "bilateral enucleation → barrel field expansion",
+        "P3-P5 structural critical window"
+      ]
+    },
+    {
+      "pmid": "30877173",
+      "pmcid": "PMC6520512",
+      "title": "A Hypothetical Model Concerning How Spike-Timing-Dependent Plasticity Contributes to Neural Circuit Formation and Initiation of the Critical Period in Barrel Cortex",
+      "authors_short": "Kimura F, Itami C",
+      "journal": "Journal of Neuroscience",
+      "year": 2019,
+      "first_used": "2026-07-25",
+      "used_in_articles": [
+        "2026-07-25-barrel-cortex-somatosensory-map.md"
+      ],
+      "aspects_covered": [
+        "L4→L2/3 all-LTP STDP before P13 (PKA-mediated)",
+        "switch to Hebbian STDP after P13-P15",
+        "PV maturation enables precise timing",
+        "PV fast feedforward inhibition ~0.7 ms delay",
+        "CB1 receptor role at P12-P14"
+      ]
+    },
+    {
+      "pmid": "41002424",
+      "title": "Spike Timing-Dependent Plasticity at Layer 2/3 Horizontal Connections Before the Critical Period in Developing Barrel Cortex",
+      "authors_short": "Itami C, Kimura F",
+      "journal": "Cells",
+      "year": 2025,
+      "first_used": "2026-07-25",
+      "used_in_articles": [
+        "2026-07-25-barrel-cortex-somatosensory-map.md"
+      ],
+      "aspects_covered": [
+        "L2/3-L2/3 horizontal connections show all-LTP STDP during synapse formation",
+        "PKA-dependent mechanism same as L4→L2/3 pre-critical period STDP",
+        "switch to Hebbian STDP after critical period opens"
+      ]
+    },
+    {
+      "pmid": "20371813",
+      "title": "Structural plasticity underlies experience-dependent functional plasticity of cortical circuits",
+      "authors_short": "Wilbrecht L et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2010,
+      "first_used": "2026-07-25",
+      "used_in_articles": [
+        "2026-07-25-barrel-cortex-somatosensory-map.md"
+      ],
+      "aspects_covered": [
+        "whisker trimming → selective new spine stabilization at L5 barrel borders",
+        "αCaMKII autophosphorylation required for spine stabilization"
+      ]
+    },
+    {
+      "pmid": "22021911",
+      "title": "Experience-dependent plasticity of the barrel cortex in mice observed with 2-DG brain mapping and c-Fos: effects of MMP-9 KO",
+      "authors_short": "Kaliszewska A et al.",
+      "journal": "Cerebral Cortex",
+      "year": 2012,
+      "first_used": "2026-07-25",
+      "used_in_articles": [
+        "2026-07-25-barrel-cortex-somatosensory-map.md"
+      ],
+      "aspects_covered": [
+        "spared whisker representation expands in deprived adult mice",
+        "MMP-9 KO reduces adult map plasticity",
+        "MMP-9 increases after sensory stimulation"
+      ]
+    },
+    {
+      "pmid": "27225340",
+      "title": "Whisker experience-dependent mGluR signaling maintains synaptic strength in the mouse adolescent cortex",
+      "authors_short": "Kubota J et al.",
+      "journal": "European Journal of Neuroscience",
+      "year": 2016,
+      "first_used": "2026-07-25",
+      "used_in_articles": [
+        "2026-07-25-barrel-cortex-somatosensory-map.md"
+      ],
+      "aspects_covered": [
+        "5-day whisker deprivation decreases presynaptic glutamate release at L4→L2/3",
+        "mGluR5-IP3 signaling maintains synaptic strength in experience-dependent manner"
+      ]
+    },
+    {
+      "pmid": "24183785",
+      "title": "Rapid adult experience-dependent anatomical plasticity in layer IV of primary somatosensory cortex",
+      "authors_short": "Chau LS et al.",
+      "journal": "Brain Research",
+      "year": 2014,
+      "first_used": "2026-07-25",
+      "used_in_articles": [
+        "2026-07-25-barrel-cortex-somatosensory-map.md"
+      ],
+      "aspects_covered": [
+        "5-day deprivation → more synapses in spared barrels, reduced in deprived barrels",
+        "adult anatomical plasticity in layer IV occurs within days"
+      ]
+    },
     {
       "pmid": "8340806",
       "pmcid": "PMC6576541",

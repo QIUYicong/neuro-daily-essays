@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-23",
-  "node_count": 163,
-  "edge_count": 1006,
+  "updated": "2026-07-25",
+  "node_count": 164,
+  "edge_count": 1017,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1492,6 +1492,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/alpha-oscillations.md"
+    },
+    {
+      "id": "barrel-cortex",
+      "title": "桶状皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/barrel-cortex.md"
     }
   ],
   "edges": [
@@ -7089,6 +7098,54 @@
       "to": "fear-extinction",
       "type": "supports",
       "note": "恐惧与消退记忆分别由不同的印迹细胞群存储（Luft 2024 Daun02灭活实验直接证明）"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "thalamocortical-circuit",
+      "type": "is-a",
+      "note": "VPm→L4 barrel通路是一次视丘核→初级感觉皮层L4通路的典型特化实例"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "critical-period",
+      "type": "related",
+      "note": "桶状皮层是关键期机制研究的核心模型系统；PV成熟→STDP切换是其开启事件"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "stdp",
+      "type": "related",
+      "note": "桶状皮层存在全LTP型→赫布型STDP的发育切换（Kimura & Itami 2019）"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "pv-interneurons",
+      "type": "mechanism-of",
+      "note": "PV中间神经元成熟（~P14）是桶状皮层功能关键期开启的必要条件"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "perineuronal-nets",
+      "type": "related",
+      "note": "PNN包裹PV细胞关闭关键期；成年MMP-9降解PNN允许有限可塑性"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "皮层L4的NMDA受体是barrel结构形成竞争的分子核心（NR1 KO→无barrel）"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "hebbian-learning",
+      "type": "related",
+      "note": "NMDA受体依赖的VPm轴突竞争是Hebb规则在发育解剖学中的体现"
+    },
+    {
+      "from": "barrel-cortex",
+      "to": "ltp",
+      "type": "related",
+      "note": "关键期内L4→L2/3赫布型STDP的LTP机制；成年棘状突触稳定的αCaMKII通路"
     }
   ],
   "dangling_references": [

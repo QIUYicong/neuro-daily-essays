@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-07-18
-revision_count: 3
+updated: 2026-07-25
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex, thalamus, thalamic-firing-modes, working-memory, prefrontal-cortex, neural-correlates-of-consciousness, cortical-canonical-microcircuit, cortical-layers]
+related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex, thalamus, thalamic-firing-modes, working-memory, prefrontal-cortex, neural-correlates-of-consciousness, cortical-canonical-microcircuit, cortical-layers, barrel-cortex]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-gating-mechanism, Q-matrix-vs-core-function, Q-thalamus-burst-awake]
-source_articles: [2026-06-19-sleep-spindles-nrem, 2026-06-03-thalamus-gatekeeper-cognition]
-key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:27144033", "PMID:35803270", "PMID:29275841", "PMID:22561455", "PMID:16837581"]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-06-03-thalamus-gatekeeper-cognition, 2026-07-25-barrel-cortex-somatosensory-map]
+key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:27144033", "PMID:35803270", "PMID:29275841", "PMID:22561455", "PMID:16837581", "PMID:32816652", "PMID:28412498"]
 ---
 
 # 丘脑-皮层回路 (Thalamocortical Circuit)
@@ -141,6 +141,7 @@ Sherman 和 Guillery（1998, PMID: 9618549；Sherman 2024 综述, J Neurosci）�
 - [[neural-correlates-of-consciousness]] — 髓板内核群（CM-Pf）与意识状态
 - [[cortical-canonical-microcircuit]] — L4 接受丘脑驱动型输入；L6 CT 细胞发出皮层→丘脑反馈门控；两者共同构成丘脑-皮层双向环路的皮层端
 - [[cortical-layers]] — L4 感觉输入层；L6 CT 反馈输出层；前馈/反馈层级特异性的解剖详情
+- [[barrel-cortex]] — VPm→L4 barrel通路是一次视丘核→初级感觉皮层L4通路的典型特化实例，通过NMDA受体依赖竞争形成精确触须拓扑地图（Staiger & Petersen 2021，PMID:32816652）
 
 ## 未解问题
 
@@ -153,8 +154,10 @@ Sherman 和 Guillery（1998, PMID: 9618549；Sherman 2024 综述, J Neurosci）�
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · 建立丘脑回路专页，整合TRN/TC机制和Core/Matrix通路 · 初始置信度：高
 - 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增：一次/高次视丘核区分（Sherman框架）、驱动/调制型突触对比表、PFC→TRN大型端钮解剖学证据（Zikopoulos&Barbas）、枕核门控V1（Purushothaman）、MD工作记忆放大（Parnaudeau）；related 新增 thalamus/thalamic-firing-modes/working-memory/prefrontal-cortex/neural-correlates-of-consciousness
 - 2026-07-18 · 修订 · 基于《大脑皮层的规范微回路》文章 #86 · 新增"前馈/反馈的层级解剖特异性"节：丘脑→L4（驱动型）、L6 CT→丘脑（调制型）、高级L5/6→低级L1/2/3（反馈绕过L4）的层级对应表；related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增两条链接
+- 2026-07-25 · 修订 rev4 · 基于《触须的神经地图》（#93）· 连接节新增barrel-cortex（VPm→L4 barrel通路是一次视丘核特化实例）；related新增barrel-cortex；key_sources新增PMID:32816652/28412498
 
 ## 来源文章
 
 - [[2026-06-19-sleep-spindles-nrem]]
 - [[2026-06-03-thalamus-gatekeeper-cognition]]
+- [[2026-07-25-barrel-cortex-somatosensory-map]]

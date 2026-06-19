@@ -1,7 +1,65 @@
 {
-  "last_updated": "2026-07-24",
-  "total_articles": 75,
+  "last_updated": "2026-07-25",
+  "total_articles": 76,
   "entries": [
+    {
+      "date": "2026-07-25",
+      "title": "触须的神经地图：桶状皮层如何用竞争与时序将感知刻入皮层组织",
+      "filename": "2026-07-25-barrel-cortex-somatosensory-map.md",
+      "wiki_pages_created": [
+        "wiki/systems/barrel-cortex.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/stdp.md",
+        "wiki/concepts/critical-period.md",
+        "wiki/circuits/thalamocortical-circuit.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "啮齿类动物桶状皮层（wS1）如何通过三阶段机制（遗传骨架→自发活动→NMDA受体依赖竞争P0-P5）形成精确触须拓扑地图？PV中间神经元成熟如何驱动L4→L2/3突触的STDP规则从全LTP型（PKA，关键期前）切换到赫布型（CaMKII，P13-P15后），从而开启功能关键期？成年桶状皮层的经验依赖可塑性依赖哪些分子通路维持？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "behavior"
+      ],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·体感系统·触须地图，填补听觉/体感编码空白）；与critical-period/stdp/pv-interneurons深度交叉",
+      "topic_tags": [
+        "barrel cortex",
+        "somatosensory map",
+        "NMDA receptor competition",
+        "thalamocortical axon",
+        "VPm barrel",
+        "STDP developmental switch",
+        "all-LTP STDP",
+        "Hebbian STDP",
+        "PV interneuron maturation",
+        "critical period opening",
+        "adult cortical plasticity",
+        "whisker deprivation",
+        "Kimura Itami 2019",
+        "Staiger Petersen 2021",
+        "Martini 2018 embryonic calcium waves"
+      ],
+      "main_sources": [
+        "PMID:32816652",
+        "PMID:28412498",
+        "PMID:30877173",
+        "PMID:41002424",
+        "PMID:20371813",
+        "PMID:22021911"
+      ],
+      "open_questions_raised": [
+        "Q-barrel-human-analog",
+        "Q-barrel-adult-plasticity-limit",
+        "Q-barrel-septum-function",
+        "Q-stdp-all-ltp-molecular-switch"
+      ],
+      "open_questions_updated": [],
+      "article_number": 93
+    },
     {
       "date": "2026-07-23",
       "title": "皮层的沉默与苏醒：UP/DOWN 态如何从细胞机制到系统层面编排睡眠中的记忆选择",

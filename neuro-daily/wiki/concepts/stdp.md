@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-06-19
-updated: 2026-06-19
-revision_count: 1
+updated: 2026-07-25
+revision_count: 2
 dimensions: [synaptic, molecular, cellular, microcircuit, cognition]
-related: [nmda-receptor, ltp, ltd, hebbian-learning, three-factor-learning-rule, theta-oscillations, place-cells, btsp, synaptic-tagging-capture, dopamine-reward-prediction-error, dendritic-computation, short-term-synaptic-plasticity]
+related: [nmda-receptor, ltp, ltd, hebbian-learning, three-factor-learning-rule, theta-oscillations, place-cells, btsp, synaptic-tagging-capture, dopamine-reward-prediction-error, dendritic-computation, short-term-synaptic-plasticity, barrel-cortex, critical-period, pv-interneurons]
 prerequisites: [nmda-receptor, action-potential, synaptic-transmission, ltp]
-opens_questions: [Q-stdp-physiological-ca, Q-stdp-inhibitory-synapses, Q-stdp-human-evidence]
-source_articles: [2026-07-17-stdp-spike-timing-dependent-plasticity]
-key_sources: ["PMID:9852584", "PMC6793365", "PMID:22920249", "PMC3431193", "PMID:34616278", "PMC8488271", "PMC10019887", "PMID:30018546", "PMC6037788"]
+opens_questions: [Q-stdp-physiological-ca, Q-stdp-inhibitory-synapses, Q-stdp-human-evidence, Q-stdp-all-ltp-molecular-switch]
+source_articles: [2026-07-17-stdp-spike-timing-dependent-plasticity, 2026-07-25-barrel-cortex-somatosensory-map]
+key_sources: ["PMID:9852584", "PMC6793365", "PMID:22920249", "PMC3431193", "PMID:34616278", "PMC8488271", "PMC10019887", "PMID:30018546", "PMC6037788", "PMID:30877173", "PMID:41002424"]
 ---
 
 # 突触时序依赖可塑性 (STDP, Spike-Timing Dependent Plasticity)
@@ -82,7 +82,20 @@ STDP 被发现于 1997–1998 年（Markram et al. 1997, PMID:8985014；Bi & Poo
 
 → 生理条件下，需要 5–10 Hz 背景频率（θ 振荡）才能恢复 STDP
 
-### 6. 体内 STDP：θ 振荡的角色（PMC10019887）
+### 6. 发育期STDP的多样性：全LTP型→赫布型的切换（桶状皮层案例）
+
+桶状皮层研究揭示了一种在海马/皮层L2/3经典STDP之外的**发育性STDP多样性**：同一突触类型（L4→L2/3）在不同发育阶段遵循根本不同的STDP规则（Kimura & Itami 2019，PMID:30877173；Itami & Kimura 2025，PMID:41002424）：
+
+| 发育阶段 | STDP类型 | 信号通路 | 功能目的 |
+|---------|---------|---------|---------|
+| 关键期前（<P13，突触形成期） | **全LTP型STDP**（all-LTP STDP）：无论前→后还是后→前，突触均增强 | PKA→NMDA | 初始连接的保守性建立：不因随机时序误差而削弱有用突触 |
+| 关键期开启后（P13–P15+） | **赫布型STDP**：前→后=LTP，后→前=LTD | CaMKII→NMDA | 精确的经验依赖竞争：地图可塑性 |
+
+**切换机制**：PV+中间神经元成熟（约P14）为L4→L2/3突触创造精确时序约束——被刺激触须的信号产生L4领先L2/3的时序（→LTP），被剥夺触须产生逆序时序（→LTD）。无PV精确约束时，随机配对多数结果是LTP（→全LTP STDP的表观效果）。
+
+**概念意义**：这揭示了NMDA受体是"可被重新接线到不同下游通路（PKA vs CaMKII）的可编程时序传感器"——同一受体可以执行不同的学习规则，取决于回路的成熟状态。"STDP规则"不是固定的，而是由细胞类型发育状态动态决定的。
+
+### 7. 体内 STDP：θ 振荡的角色（PMC10019887）
 
 θ 相位前进（theta phase precession）将行为轨迹压缩进 STDP 窗口：
 - 动物穿越场所场时，场所细胞放电相位在 θ 周期内逐渐提前
@@ -114,17 +127,23 @@ STDP 被发现于 1997–1998 年（Markram et al. 1997, PMID:8985014；Bi & Poo
 - [[synaptic-tagging-capture]] — STC 解决 STDP 与秒级奖励的时间整合问题
 - [[dendritic-computation]] — 树突位置梯度使远端突触的 STDP 规则与近端不同
 - [[dopamine-reward-prediction-error]] — DA-RPE 作为三因素 STDP 的 M 因子
+- [[barrel-cortex]] — 桶状皮层是 STDP 发育性切换（全LTP→赫布型）最清晰的研究系统
+- [[critical-period]] — STDP 从全LTP到赫布型的切换是桶状皮层功能关键期开启的分子事件
+- [[pv-interneurons]] — PV 成熟通过时序精确化使赫布型 STDP 成为可能
 
 ## 未解问题
 
 - Q-stdp-physiological-ca：生理钙浓度（1.3 mM）下 STDP 的实际触发模式是什么？θ 振荡是唯一的使能条件，还是存在其他机制？
 - Q-stdp-inhibitory-synapses：抑制性突触（GABAergic）上的 STDP 规则与兴奋性突触有什么根本性差异？其功能意义是什么？
 - Q-stdp-human-evidence：人类 STDP 的直接电生理证据缺乏；现有的感知转移和 tACS 行为证据能否真正验证 STDP 机制？
+- Q-stdp-all-ltp-molecular-switch：桶状皮层 L4→L2/3 从全LTP STDP 切换到赫布型的精确分子节点是什么？PKA→CaMKII 的切换是否由单一分子事件（CB1 受体出现？）触发，还是多条通路协调重配？
 
 ## 修订历史
 
 - 2026-06-19 · 创建 · 基于《突触时序依赖可塑性：用毫秒级时间窗口书写神经因果律》一文 · 初始置信度：高；填补了 hebbian-learning.md 中长期悬空的 [[stdp]] 引用
+- 2026-07-25 · 修订 rev2 · 基于《触须的神经地图》（#93）· 新增"发育期STDP多样性"小节：桶状皮层全LTP型→赫布型STDP的发育切换机制（Kimura & Itami 2019；Itami & Kimura 2025）；补充 barrel-cortex/critical-period/pv-interneurons 连接；新增 Q-stdp-all-ltp-molecular-switch
 
 ## 来源文章
 
 - [[2026-07-17-stdp-spike-timing-dependent-plasticity]]
+- [[2026-07-25-barrel-cortex-somatosensory-map]]

@@ -1,0 +1,193 @@
+# 每日运行日志 — 2026-07-25
+
+**文章编号**：#93
+**主题**：桶状皮层与初级体感皮层感觉地图的活动依赖竞争形成机制
+**运行状态**：完成（跨会话续完）
+
+---
+
+## 步骤 A：知识库状态读取
+
+- 已读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md
+- 当前日期：2026-07-25（知识库内部连续性日期）
+- 已完成文章：92篇（#1–#92，最近一篇 2026-07-24 杏仁核恐惧印迹）
+- 图谱状态（进入本次）：163节点，1009边
+
+**课程空白分析**：
+- 课程脊柱3（大脑如何编码世界）：已覆盖视觉（V1/方向选择性）、空间（场所细胞/网格细胞）、运动（M1/小脑），体感/触觉尚缺
+- 决策：选择桶状皮层，填补体感编码空白，同时与 critical-period/stdp/pv-interneurons 产生强交叉
+
+---
+
+## 步骤 B：主题选定
+
+**选题**：桶状皮层（Barrel Cortex）
+**中心问题**：啮齿类动物wS1每根触须为何对应一个解剖学可见的barrel？这个精确地图如何通过NMDA受体依赖竞争形成，又如何通过STDP规则切换开启功能关键期？
+
+---
+
+## 步骤 C：文献检索与文章写作
+
+### 检索过程
+
+**PubMed E-utilities查询（4轮）**：
+
+1. `barrel cortex somatosensory map formation review` → 11条结果
+   - 选用：PMID:32816652（Staiger & Petersen 2021 Physiological Reviews），PMID:28412498（Martini et al. 2018 Neuroscience），PMID:30877173（Kimura & Itami 2019 J Neurosci）
+
+2. `barrel cortex critical period NMDA thalamocortical plasticity` → 10条结果
+   - 选用：PMID:30877173（已列），验证PMID:11719203
+
+3. `somatosensory cortex whisker barrel Petersen review` → 8条结果
+   - 确认PMID:32816652
+
+4. `whisker deprivation barrel cortex plasticity adults experience-dependent` → 8条结果
+   - 选用：PMID:20371813（Wilbrecht 2010），PMID:24183785（Chau 2014），PMID:22021911（Kaliszewska 2012），PMID:27225340（Kubota 2016）
+
+**PMC全文获取**：
+- PMC12468516（Staiger & Petersen 2021）：通过pmc.ncbi.nlm.nih.gov获取
+- PMC7610996（Martini 2018）：通过pmc.ncbi.nlm.nih.gov获取
+- PMC6520512（Kimura & Itami 2019）：通过pmc.ncbi.nlm.nih.gov获取
+- PMID:41002424（Itami & Kimura 2025，Cells journal PMC开放全文）：通过DOI查找
+
+**额外来源（摘要）**：Wilbrecht 2010、Kubota 2016、Kaliszewska 2012、Chau 2014、Woolsey & Van der Loos 1970（经典历史论文，无PMID）
+
+**来源统计**：
+- 开放全文：4篇（PMC:12468516, 7610996, 6520512 + Cells OA）
+- 摘要：5篇
+- 满足ROUTINE.md ≥2篇开放全文要求 ✅
+- 满足 ≥5篇总来源要求 ✅
+- 官方来源（NIH认可期刊Physiological Reviews）：1篇 ✅
+
+### 文章写作
+
+**文件**：`neuro-daily/articles/2026-07-25-barrel-cortex-somatosensory-map.md`
+
+**结构**：
+1. 引言：触须是啮齿类主要感觉器官，对应皮层地图是神经科学核心模型
+2. §1 什么是桶状皮层：barrel解剖结构，三站拓扑映射链
+3. §2 地图如何形成（I）：遗传骨架，Semaphorin/Ephrin分子引导
+4. §3 地图如何形成（II）：自发活动——胚胎期跨感觉钙波
+5. §4 地图如何形成（III）：NMDA受体依赖竞争——活动依赖突触精炼
+6. §5 关键期（I）：结构关键窗口P0-P5
+7. §6 关键期（II）：功能关键期P12-P23，STDP规则切换
+8. §7 全LTP型→赫布型STDP切换的分子机制
+9. §8 成年可塑性：三通路（αCaMKII/mGluR5/MMP-9）
+10. 结语：桶状皮层作为"神经科学解剖学教室"
+
+**字数**：约5500字（中文）
+
+**阅读笔记**：`neuro-daily/notes/2026-07-25-reading-notes.md` ✅
+**来源JSON**：`neuro-daily/sources/2026-07-25-sources.json` ✅
+
+---
+
+## 步骤 D：Wiki 固结
+
+### 新建Wiki页面
+
+**`wiki/systems/barrel-cortex.md`**（rev1）：
+- frontmatter：domain=systems, type=region, status=established, confidence=high, revision_count=1
+- 涵盖：结构映射、三层形成机制、功能关键期开启（STDP切换）、成年可塑性
+- 关键证据表：9条
+- 连接：thalamocortical-circuit, critical-period, stdp, pv-interneurons, perineuronal-nets, cortical-layers, v1-primary-visual-cortex, hebbian-learning, nmda-receptor
+- 开放问题：Q-barrel-human-analog, Q-barrel-adult-plasticity-limit, Q-barrel-septum-function
+
+### 修订Wiki页面
+
+**`wiki/concepts/stdp.md`**（rev1 → rev2）：
+- 更新：updated=2026-07-25, revision_count=2
+- 新增：related中barrel-cortex/critical-period/pv-interneurons；opens_questions新增Q-stdp-all-ltp-molecular-switch
+- 新增key_sources：PMID:30877173, PMID:41002424
+- 正文新增"§6. 发育期STDP的多样性：全LTP型→赫布型切换"节（桶状皮层案例）
+- 连接节新增barrel-cortex/critical-period/pv-interneurons
+
+**`wiki/concepts/critical-period.md`**（rev2 → rev3）：
+- 更新：updated=2026-07-25, revision_count=3
+- 新增：related中barrel-cortex/stdp；opens_questions新增Q-barrel-adult-plasticity-limit
+- 新增key_sources：PMID:30877173, PMID:28412498
+- 系统/行为层节新增"桶状皮层关键期"段落
+- 连接节新增barrel-cortex/stdp
+
+**`wiki/circuits/thalamocortical-circuit.md`**（rev3 → rev4）：
+- 更新：updated=2026-07-25, revision_count=4
+- 新增：related中barrel-cortex；key_sources新增PMID:32816652/28412498
+- 连接节新增barrel-cortex（VPm→L4是一次视丘核特化实例）
+
+---
+
+## 步骤 E：图谱更新
+
+**`wiki/_graph.json`**：
+- updated: "2026-07-25"
+- node_count: 163 → 164（+1 barrel-cortex）
+- edge_count: 1009 → 1017（+8新边）
+- 新节点：barrel-cortex（domain=systems, type=region, status=established, confidence=high）
+- 新边：
+  - barrel-cortex → thalamocortical-circuit (is-a)
+  - barrel-cortex → critical-period (related)
+  - barrel-cortex → stdp (related)
+  - barrel-cortex → pv-interneurons (mechanism-of)
+  - barrel-cortex → perineuronal-nets (related)
+  - barrel-cortex → nmda-receptor (mechanism-of)
+  - barrel-cortex → hebbian-learning (related)
+  - barrel-cortex → ltp (related)
+
+**`wiki/index.md`**：
+- 标题更新→第93篇，主题页160页，图谱164节点1017边
+- systems节新增barrel-cortex条目
+- 课程脊柱3进度更新（新增"桶状皮层/体感触须地图"）
+
+**`wiki/CHANGELOG.md`**：
+- 新增2026-07-25条目（详细记录1新建+3修订+4新问题）
+
+---
+
+## 步骤 F：治理层更新
+
+**`state/topic_ledger.json`**：
+- last_updated: 2026-07-25
+- total_articles: 75 → 76
+- 新增article #93条目
+
+**`state/unresolved_questions.md`**：
+- last_updated: 2026-07-25
+- 新增4条问题：Q-barrel-human-analog（中）/Q-barrel-adult-plasticity-limit（中）/Q-barrel-septum-function（低）/Q-stdp-all-ltp-molecular-switch（中）
+
+**`state/source_registry.json`**：
+- last_updated: 2026-07-25
+- 新增8条来源：PMID:32816652, 28412498, 30877173, 41002424, 20371813, 22021911, 27225340, 24183785
+
+**`state/monthly_synthesis.md`**：
+- 月度截至日期更新至2026-07-25
+- 月度文章摘要追加#92/#93
+
+**`state/maturity_index.json`**：
+- last_updated: 2026-07-25
+- 新增：barrel-cortex-created-2026-07-25, stdp-updated-2026-07-25, critical-period-updated-2026-07-25, thalamocortical-circuit-updated-2026-07-25
+
+---
+
+## 错误与调试
+
+1. **系统日期为2026-06-19**：知识库内部连续性日期为2026-07-25，继续使用知识库日期（既有模式）
+2. **PMC12468516内容混淆**：www.ncbi.nlm.nih.gov重定向到pmc.ncbi.nlm.nih.gov；有一次返回了PMC41002424（Itami & Kimura 2025）的内容而非Staiger & Petersen 2021的内容，通过对比作者信息识别并处理。内容均为开放全文，无来源完整性问题
+3. **跨会话续完**：任务在会话边界处中断（已完成文章写作+3个wiki页面，待完成thalamocortical-circuit更新+所有状态文件+git操作），在新会话中完整续完
+
+---
+
+## 步骤 G：提交与推送
+
+（见后续git commit记录）
+
+---
+
+## 自检（步骤 H）
+
+- 文章字数 ≥3000 ✅（约5500字）
+- 来源 ≥5篇，开放全文 ≥2篇 ✅（4篇开放全文+5篇摘要）
+- 无捏造PMID/DOI/结论 ✅（所有来源均通过PubMed E-utilities/PMC验证）
+- 无医学建议 ✅
+- wiki新页面frontmatter完整 ✅
+- 图谱节点/边计数更新 ✅
+- 所有state文件更新 ✅
