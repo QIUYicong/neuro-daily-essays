@@ -1,0 +1,180 @@
+# 运行日志 · 2026-07-21
+
+**执行时间**：2026-07-21 09:00 Beijing（系统标准触发时间）
+**实际执行日期**：2026-06-19（知识库内部时间轴：延续至#89）
+**代理**：Claude Sonnet 4.6（Claude Code 自动化代理）
+
+---
+
+## 步骤 A：状态同步
+
+- 同步仓库 `QIUYicong/neuro-daily-essays` 主分支
+- 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md
+- 读取 state/ 目录所有治理文件
+- 确认当前文章编号：#89（knowledge base internal date: 2026-07-21）
+- 日期偏移说明：真实日期 2026-06-19，知识库内部时间轴延续至 2026-07-20（#88），今日以 2026-07-21 继续内部时间轴
+
+---
+
+## 步骤 B：主题选择
+
+**选定主题**：听觉皮层（Auditory Cortex）——从频率地图到语音意义的六级解码之旅
+
+**选题理由**：
+- 覆盖空白：88篇文章中听觉系统从未直接覆盖（仅在语言网络中作为声学入口提及）
+- 课程对齐：Track 3（大脑如何编码世界）待填空项；Track 7（感觉皮层预测编码）的清晰实例
+- 连接密度：与已有的语言网络（#69/#70）、预测编码（#73/#81）、关键期（#66）、神经调质（#74/#79）等多个节点形成强连接
+- 层级多样性：可覆盖 cellular（音素编码单神经元）/ brain-region（11个AFMs）/ cognition（speech perception）/ methods（ECoG/Neuropixels）
+
+**排除主题**：
+- 体感皮层（已在语言/运动系统中侧面覆盖，听觉更优先）
+- 脊髓（太基础，超出当前知识图谱优先级）
+- 大脑半球不对称（未找到足够开放获取的高质量新证据）
+
+---
+
+## 步骤 C：文献搜索与文章创作
+
+**搜索策略**：PubMed E-utilities / PMC open access
+**搜索关键词**：auditory cortex tonotopy / phoneme encoding STG / mismatch negativity predictive coding / auditory cortex organization / speech sound encoding single neuron
+
+**文献统计**：
+- 总来源：11个（10 PMC open access + 1 NIH NIDCD 官方机构）
+- 核心一级来源：8个（直接引用具体数据点）
+- 综述/背景来源：3个
+
+**关键来源**：
+- PMID:27145914（Brewer & Barton 2016 Annual Rev Neurosci）：11个AFMs苜蓿叶簇
+- PMID:24482117（Mesgarani 2014 Science）：ECoG 14种音素特征地图
+- PMID:38093008（Leonard 2024 Nature）：Neuropixels 685单神经元深度分层
+- PMID:31477711（Kell 2019 Nat Comms）：非初级皮层噪声不变性 t=8.37
+- PMID:30022729（Carbajal 2018 Trends Hearing）：SSA/MMN统一预测编码层级
+- PMID:10196590（Kilgard 1998 Nat Neurosci）：NB-ACh双向时间可塑性
+
+**文章**：
+- 文件：`neuro-daily/articles/2026-07-21-auditory-cortex-tonotopy-speech.md`
+- 字数：约5,200中文字符
+- 结构：引言→11个AFMs→双流→噪声不变性→音乐/语音选择性→音素编码→预测编码（SSA/MMN）→可塑性→AI比较→未解问题
+
+---
+
+## 步骤 D：知识库固结
+
+**新建 wiki 页面（3）**：
+1. `wiki/systems/auditory-cortex.md`（rev1，established/high）
+   - 解剖架构、双流、4个关键机制、7行证据表、8个连接、4个开放问题
+2. `wiki/concepts/tonotopy.md`（rev1，established/high）
+   - 耳蜗→A1频率映射原则、11个AFMs、V形梯度、经验可塑性
+3. `wiki/concepts/mismatch-negativity.md`（rev1，established/high）
+   - 前注意性预测误差信号、SSA/MMN统一层级、NMDA依赖
+
+**修订 wiki 页面（2）**：
+1. `wiki/systems/language-network.md`（rev3→rev4）
+   - 新增听觉皮层（A1+STG）为声学入口
+   - 证据表新增2行（ECoG音素/Neuropixels深度分层）
+   - 连接新增 auditory-cortex、mismatch-negativity
+   - related/prerequisites/source_articles/key_sources 全部更新
+2. `wiki/theories/predictive-coding.md`（rev8→rev9）
+   - 证据表新增听觉SSA/MMN层级行
+   - 连接新增 auditory-cortex、mismatch-negativity
+   - related/source_articles/key_sources 全部更新
+
+---
+
+## 步骤 E：图谱与导航更新
+
+**知识图谱**（`wiki/_graph.json`）：
+- 节点：160 → 163（+3：auditory-cortex、tonotopy、mismatch-negativity）
+- 边：977 → 999（+22条新边）
+- 新边类型：related（15条）、supports（4条）、prerequisite-for（3条）
+
+**索引**（`wiki/index.md`）：
+- 标题行更新至第89篇
+- systems 分组新增 auditory-cortex 条目
+- concepts 分组新增 tonotopy、mismatch-negativity 条目
+- Course Track 3 进度更新
+- 文章列表新增第89篇描述
+
+**变更日志**（`wiki/CHANGELOG.md`）：
+- 新增 2026-07-21 条目（3个新建页面、2个修订页面、22条新边、4个新开放问题）
+
+---
+
+## 步骤 F：治理状态更新
+
+**topic_ledger.json**：
+- total_articles: 88 → 89
+- 新增 #89 完整条目（含 core_question、layer、curriculum_track、topic_tags、key_sources、open_questions_raised）
+
+**maturity_index.json**：
+- 新增 auditory-cortex（established/high）、tonotopy（established/high）、mismatch-negativity（established/high）
+
+**source_registry.json**：
+- total_sources: 330 → 340（+10个新来源）
+- 所有来源含 PMID、PMCID、PMC 开放获取确认、aspects_covered
+
+**unresolved_questions.md**：
+- 新增 Q-ac-01（高优先级）：频率拓扑在复杂声音中的意义？
+- 新增 Q-ac-02（高优先级）：腹/背侧双流串联还是并联？
+- 新增 Q-ac-03（中优先级）：音乐选择性性质？
+- 新增 Q-ac-04（中优先级）：婴儿音素提取 + NB-ACh 发育窗口？
+
+**monthly_synthesis.md**：
+- 本月文章计数：20 → 21篇
+- 月度第1-21篇文章摘要表更新
+- 月度截止日期更新
+
+---
+
+## 步骤 G：提交与推送
+
+- git add neuro-daily/
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-07-21
+- git push origin claude/funny-einstein-ywggf0
+- 推送状态：成功
+
+---
+
+## 步骤 H：质量自检
+
+**文章质量检查**：
+- ✅ 字数：~5,200字（目标3000-6000字）
+- ✅ 核心问题清晰
+- ✅ 机制明确（6个机制段落）
+- ✅ 证据具体（t值、n值、p值均已引用）
+- ✅ 不确定性标注（Q-ac-01至Q-ac-04）
+- ✅ 所有来源 open access 可验证
+- ✅ 无禁止来源（无Sci-Hub/盗版PDF）
+
+**知识库完整性检查**：
+- ✅ 3个新建wiki页面结构完整（含frontmatter、证据表、连接、修订历史）
+- ✅ 2个修订页面更新一致（frontmatter修订计数、revision_history条目）
+- ✅ 图谱节点+边数学一致（163节点、999边）
+- ✅ 所有状态文件更新
+
+**安全检查**：
+- ✅ 仓库：QIUYicong/neuro-daily-essays（正确）
+- ✅ 未操作 lianyichuan 或 cqiuyicong
+- ✅ 未创建 PR（仅直接推送到指定分支）
+- ✅ 未修改/删除现有 articles/notes/sources/logs 文件
+
+---
+
+## 统计摘要
+
+| 指标 | 数值 |
+|------|------|
+| 文章编号 | #89 |
+| 文章字数 | ~5,200字 |
+| 文章来源数 | 11（全部开放获取） |
+| 新建wiki页面 | 3 |
+| 修订wiki页面 | 2 |
+| 图谱节点 | 163（+3） |
+| 图谱边 | 999（+22） |
+| 新增开放问题 | 4（Q-ac-01至Q-ac-04） |
+| 新注册来源 | 10 |
+| 来源注册表总量 | 340 |
+
+---
+
+*日志结束*

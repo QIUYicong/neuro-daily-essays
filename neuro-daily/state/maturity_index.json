@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-21",
   "levels": [
     "speculative",
     "emerging",
@@ -1027,5 +1027,43 @@
     "revision_count": 5,
     "last_change": "2026-07-20",
     "change_reason": "修订 rev4→rev5（文章 #88，2026-07-20）。新增 Sohal 2009（ChR2/eNpHR 双向光遗传学：激活→γ↑；抑制→γ↓+信噪比↓）和 Cardin 2009（40 Hz 驱动 FS 细胞→选择性 γ+感觉相位门控）光遗传学因果证据，以及 Gonzalez-Burgos & Lewis 2012 精神分裂症分子级联（NR2A 优先损伤→GAD67↓→GABA↓→PING 崩溃）。PV 中间神经元核心功能和与 γ 振荡的因果关系（而非相关性）已由多个体内光遗传学实验确立——维持 established/high。"
+  },
+  "auditory-cortex": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-21",
+    "change_reason": "新建（文章 #89，2026-07-21）。听觉皮层解剖与功能架构（核心-带区-副带区层级；11个AFMs苜蓿叶簇）是多个独立实验室fMRI研究高度重复的知识；STG音素编码（Mesgarani 2014 ECoG + Leonard 2024 Neuropixels 685神经元 Nature 发表）是高置信度近年证据；SSA/MMN预测编码层级（Carbajal 2018综述）有跨物种、跨方法收敛证据；NB-ACh可塑性（Kilgard 1998）是经典实验，多次复现。established/high。",
+    "key_sources": [
+      "PMID:27145914",
+      "PMID:24482117",
+      "PMID:38093008",
+      "PMID:31477711",
+      "PMID:30022729",
+      "PMID:10196590"
+    ]
+  },
+  "tonotopy": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-21",
+    "change_reason": "新建（文章 #89，2026-07-21）。频率拓扑映射是听觉系统最保守的组织原则，从耳蜗到A1的保频投射链有数十年多物种研究支持；人类A1的V形双梯度tonotopy被10+独立fMRI实验室重复（PMID:23916753）；11个AFMs的苜蓿叶簇组织（Brewer & Barton 2016）是近年系统性确立的。established/high。",
+    "key_sources": [
+      "PMID:27145914",
+      "PMID:23916753",
+      "PMID:10196590"
+    ]
+  },
+  "mismatch-negativity": {
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-21",
+    "change_reason": "新建（文章 #89，2026-07-21）。MMN是神经科学/心理物理学中研究最充分的EEG成分之一：前注意性在麻醉/睡眠中持续存在的证据极为稳健（PMID:9658025）；SSA/MMN统一预测编码层级由Carbajal 2018大型综述全面整合；NMDA受体依赖有多个药理学实验确认。established/high。SSA vs MMN作为完全相同机制的问题（Q-ac-02）是有争议的子问题，但MMN作为现象和听觉预测误差信号的整体框架是established的。",
+    "key_sources": [
+      "PMID:30022729",
+      "PMID:9658025"
+    ]
   }
 }

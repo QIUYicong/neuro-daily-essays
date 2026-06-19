@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-20（第88篇·篮状细胞打出节拍·ING/PING双重机制×GABA-A τ_decay分子时钟×光遗传学因果证明×精神分裂症PV-GAD67-γ级联）· 主题页总数：**156**（新建1页：diseases/schizophrenia；修订2页：concepts/gamma-oscillations rev3→rev4、circuits/pv-interneurons rev4→rev5；图谱160节点、977边；新增Q-gamma-ping-ling-01、Q-gamma-sst-pv、Q-sz-dopamine-gaba-interface）
+> 最后更新：2026-07-21（第89篇·听觉皮层·11个听觉场图×层级噪声不变性×STG音素编码×SSA/MMN预测编码×NB-ACh可塑性）· 主题页总数：**159**（新建3页：systems/auditory-cortex、concepts/tonotopy、concepts/mismatch-negativity；修订3页：systems/language-network rev3→rev4、theories/predictive-coding rev8→rev9；图谱163节点、999边；新增Q-ac-01至Q-ac-04）
 
 ---
 
@@ -109,6 +109,8 @@
 - 🟢 [突触稳态缩放](concepts/synaptic-scaling.md) — Hebbian 可塑性的负反馈稳定器；乘法性等比调节所有 AMPA 受体（GluA2 通路，不同于 LTP 的 GluA1）；TNFα（星形胶质细胞）许可；视黄酸树突局部信号；Wu 2021 证明稳态缩放主动雕刻记忆特异性 **[NEW 2026-07-03]**
 - 🟢 [AQP4（水通道蛋白4）](concepts/aqp4.md) — 脑内表达量最高的水通道；高度极化富集于星形胶质细胞终足（密度约10倍于其他胶质膜区）；CSF-ISF 对流的分子水门；AQP4 KO→70% 清除效率下降；AQP4 去极化是衰老脑胶质淋巴功能下降的分子基础；SNTA1/M23亚型维持极化分布 **[NEW 2026-07-06]**
 - 🟢 [稳态可塑性](concepts/homeostatic-plasticity.md) — 突触缩放+内在兴奋性+突触前稳态三大类型；时间尺度隔离（小时/天 vs 秒/分）；为 Hebbian 规则提供运行前提；是 E/I 平衡的慢速补偿机制 **[NEW 2026-07-03 · 修订 2026-07-04]**
+- 🟢 [频率拓扑映射（Tonotopy）](concepts/tonotopy.md) — 耳蜗→A1的频率-位置映射；人类11个AFMs双轴组织（tonotopy+periodotopy）；与视觉retinotopy平行的初级皮层感觉地图原则；NB-ACh经验可塑性驱动精细化 **[NEW 2026-07-21]**
+- 🟢 [失匹配负波（MMN）](concepts/mismatch-negativity.md) — 听觉偏差后~150-250ms的前注意性皮层负电位；预测编码在宏观神经群体的预测误差信号；前注意性、发育早期即存在、NMDA受体依赖；SSA/MMN统一预测编码层级 **[NEW 2026-07-21]**
 - 🔵 [兴奋-抑制平衡（E/I 平衡）](concepts/ei-balance.md) — 皮层回路信噪比控制机制；PV+/SST+/VIP+ 三类中间神经元分工维持；失衡是 ASD/精神分裂症/癫痫的共同汇流点；多维度（不同细胞类型→不同靶点），非单一数字 **[NEW 2026-07-04]**
 - 🟢 [围神经元网（PNNs）](concepts/perineuronal-nets.md) — 包裹 PV+ 细胞的细胞外基质网络（aggrecan+透明质酸+连接蛋白）；OTX2 正反馈驱动 PV 成熟；固化 AMPA 受体、关闭发育关键期；ChABC 处理可逆转（动物） **[NEW 2026-07-04]**
 
@@ -166,6 +168,7 @@
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位（修订3次）**[NEW 2026-06-12]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
+- 🟢 [听觉皮层](systems/auditory-cortex.md) — 11个有序听觉场图（苜蓿叶簇）；核心-带区-副带区层级；主动预测型感知系统（SSA/MMN）；STG音素编码（ECoG+Neuropixels单神经元）；腹/背侧双流 **[NEW 2026-07-21]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**
 - 🔵 [胶质淋巴系统](systems/glymphatic-system.md) — 大脑废物清洗网络：CSF 沿动脉旁间隙入流→星形胶质细胞终足 AQP4 穿越脑实质→静脉旁出流；蓝斑核 NE 振荡（~0.05 Hz）驱动血管慢性搏动为物理泵；NREM 深度睡眠期高效清除 Aβ 和 tau；AQP4 KO→70% 清除效率下降；衰老→三重削弱→AD 恶性循环；人类随机交叉试验直接验证（Dagum 2026）**[NEW 2026-07-06]**
 
@@ -201,7 +204,7 @@
 |---------|------|
 | 1. 神经元如何工作 | 🔵 进行中（已覆盖：AIS, 动作电位, 突触传递, NMDA/AMPA 受体, CaMKII, 树突计算, 锥体神经元, 电压门控钙通道, PV+/SST+/VIP+ 中间神经元, 去抑制回路, **LTD（长时程抑制）**, **短时程突触可塑性（STP）**, **神经调质 ACh/NE（2026-06-12）**, **血清素系统/5-HT1A自受体（2026-06-13）**, **小脑 LTD（2026-06-23）**；待覆盖：多巴胺系统深度） |
 | 2. 神经网络微回路设计 | 🔵 进行中（已覆盖：PV+/SST+/VIP+ 中间神经元, 去抑制回路；待覆盖：皮层柱结构, 前馈/反馈抑制, 神经调质调节） |
-| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞（2026-06-22 wiki建立）**, **网格细胞（2026-06-22 wiki建立）**, θ振荡/相位编码, **V1方向选择性（2026-06-11）**, **路径整合（2026-06-22）**, **运动编码-旋转动力学（2026-06-21）**, **小脑前向模型（2026-06-23）**；待覆盖：听觉/体感, 头向细胞, 时间表征）|
+| 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞（2026-06-22 wiki建立）**, **网格细胞（2026-06-22 wiki建立）**, θ振荡/相位编码, **V1方向选择性（2026-06-11）**, **路径整合（2026-06-22）**, **运动编码-旋转动力学（2026-06-21）**, **小脑前向模型（2026-06-23）**, **听觉皮层（2026-07-21）**；待覆盖：体感, 头向细胞, 时间表征）|
 | 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**, **认知地图（2026-06-22）**；待覆盖：记忆提取机制、网格-场所转化精确机制）|
 | 5. 认知控制 | 🔵 进行中（已覆盖：**工作记忆**、**奖励学习/三因素规则（2026-06-07）**、**注意/增益控制（ACh/NE，2026-06-12）**；待覆盖：执行控制、决策）|
 | 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线、**杏仁核恐惧记忆回路（2026-05-30）**、**恐惧条件反射/消退机制**；待覆盖：动机回路深度、恐惧情景结合（海马-杏仁核）、PTSD深度、下丘脑情绪调控）|
@@ -279,3 +282,5 @@
 **第26篇（2026-06-16）**：**默认模式网络（DMN）——当大脑"休息"时，它在做什么？**——课程路线8（意识与自我）开篇。Raichle 2001 PET元分析发现跨任务一致性去激活区域；Fox 2005 静息态fMRI证实DMN-TPN反相关（r≈-0.15至-0.20）；Andrews-Hanna 2011/2014 揭示双子系统架构（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC作为个人相关信息超加性整合枢纽；Buckner 2009 Aβ优先沉积DMN枢纽节点的功能解剖解释；GSR方法论争议；DMN作为预测编码高层先验生成器。新建1个wiki页面（systems/default-mode-network），修订 predictive-coding、hippocampal-circuit、alzheimers-disease 三页；图谱67节点385条边；新建Q-dmn-01到Q-dmn-04。
 
 **第88篇（2026-07-20）**：**篮状细胞打出节拍：γ 振荡的双重生成机制与精神分裂症的细胞之谜**——从神经元网络的自发振荡到精神疾病的分子级联。核心贡献：(1) ING（Interneuron Network Gamma）完整机制——Whittington 1995体外实验奠基，GABA-A τ_decay 是振荡周期的分子时钟，纯 I-I 网络可自主产生 50-80 Hz 振荡；(2) PING（Pyramidal-Interneuron Network Gamma）的 E-I 反馈循环——锥体细胞→PV 细胞→回抑制，频率受 τ_decay + E→I 延迟共同决定；(3) Sohal 2009 和 Cardin 2009 的光遗传学因果证明——抑制 PV 细胞 → γ 功率减少+信噪比下降；40 Hz 驱动 FS 细胞 → 选择性 γ + 感觉相位门控；(4) SST+ 细胞的独立 γ 贡献（Antonoudiou 2020）——打破"γ 只依赖 PV+"的简化观点；(5) 精神分裂症完整分子级联——NMDA 低活（NR2A 偏好 PV 细胞）→ GAD67 mRNA 下调 → GABA 合成↓ → IPSP 幅度↓ → PING 时序精度崩溃 → γ 振荡减弱 → 工作记忆缺陷，是当前精神疾病-振荡机制研究中最清晰的多层次因果链。新建1个wiki页面（diseases/schizophrenia），修订2个wiki页面（concepts/gamma-oscillations rev3→rev4、circuits/pv-interneurons rev4→rev5），知识图谱160节点、977边，新增3个未解问题（Q-gamma-ping-ling-01、Q-gamma-sst-pv、Q-sz-dopamine-gaba-interface）。
+
+**第89篇（2026-07-21）**：**听觉皮层：从频率地图到语音意义的六级解码之旅**——Course Track 3（大脑如何编码世界）+Track 7（预测编码感觉系统）并轨。核心贡献：(1) 11个听觉场图（AFMs）在苜蓿叶簇中以tonotopy+periodotopy双轴精确排列（Brewer & Barton 2016）；(2) 腹侧/背侧双流——What（声音身份）vs Where/How（空间+感觉运动整合）；(3) 非初级皮层噪声不变性（t₁₀=8.37, p<10⁻⁵, Kell 2019）；(4) 6个独立响应成分，含音乐/语音选择性（Norman-Haignere 2015）；(5) STG音素编码：ECoG 14种音素特征地图（Mesgarani 2014），Neuropixels 685单神经元深度分层（浅层=音调，中深=音素，Leonard 2024 Nature）；(6) SSA+MMN统一听觉预测编码层级（Carbajal 2018），A1~25%→带区~80%预测误差梯度；(7) NB-ACh双向时间可塑性（Kilgard & Merzenich 1998）。新建3个wiki页面（systems/auditory-cortex、concepts/tonotopy、concepts/mismatch-negativity），修订2个wiki页面（systems/language-network rev3→rev4、theories/predictive-coding rev8→rev9），知识图谱163节点、999边，新增4个未解问题（Q-ac-01至Q-ac-04）。

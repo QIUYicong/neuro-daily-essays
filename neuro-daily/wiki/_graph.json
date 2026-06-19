@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-20",
-  "node_count": 160,
-  "edge_count": 977,
+  "updated": "2026-07-21",
+  "node_count": 163,
+  "edge_count": 999,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1465,6 +1465,33 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/diseases/schizophrenia.md"
+    },
+    {
+      "id": "auditory-cortex",
+      "title": "听觉皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/auditory-cortex.md"
+    },
+    {
+      "id": "tonotopy",
+      "title": "频率拓扑映射（Tonotopy）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tonotopy.md"
+    },
+    {
+      "id": "mismatch-negativity",
+      "title": "失匹配负波（MMN）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/mismatch-negativity.md"
     }
   ],
   "edges": [
@@ -6870,6 +6897,138 @@
       "to": "gamma-oscillations",
       "type": "mechanism-of",
       "note": "PV 篮状细胞是 PING/ING γ 的主要细胞基础（Sohal 2009, Cardin 2009）"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "tonotopy",
+      "type": "related",
+      "note": "频率拓扑映射是听觉皮层最基本的组织原则；11个AFMs均以tonotopy+periodotopy双轴组织"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "mismatch-negativity",
+      "type": "related",
+      "note": "MMN主要产生于A1和带区，是听觉皮层预测编码的EEG信号；A1~25%，带区~80%预测误差"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "language-network",
+      "type": "related",
+      "note": "语音选择性STG（颞上回）是听觉皮层到语言网络的解剖界面；音素编码在STG完成后输入双流"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "SSA（单神经元）+MMN（群体EEG）构成跨尺度的完整预测编码证据链；Carbajal 2018综述"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "neuromodulator-systems",
+      "type": "related",
+      "note": "NB-ACh系统门控听觉皮层时间可塑性；Kilgard & Merzenich 1998经典实验"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "critical-period",
+      "type": "related",
+      "note": "听觉皮层tonotopy在发育关键期由听觉经验精细化；语音音素习得关键期"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "v1-primary-visual-cortex",
+      "type": "related",
+      "note": "平行层级感觉皮层结构：苜蓿叶簇组织、核心-带区-副带区层级、腹/背侧双流"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "thalamus",
+      "type": "related",
+      "note": "内侧膝状体（MGN）是听觉皮层核心区的主要丘脑输入源；保频投射维持tonotopy"
+    },
+    {
+      "from": "action-potential",
+      "to": "auditory-cortex",
+      "type": "prerequisite-for",
+      "note": "动作电位是理解听觉皮层神经元放电和频率编码的前提"
+    },
+    {
+      "from": "synaptic-transmission",
+      "to": "auditory-cortex",
+      "type": "prerequisite-for",
+      "note": "突触传递是听觉皮层层级处理和皮质间连接的基础"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "auditory-cortex",
+      "type": "prerequisite-for",
+      "note": "NMDA受体是SSA/MMN分子基础；拮抗剂氯胺酮双向削弱刺激特异性适应和失匹配负波"
+    },
+    {
+      "from": "tonotopy",
+      "to": "auditory-cortex",
+      "type": "related",
+      "note": "频率拓扑映射定义听觉皮层基本空间组织，从耳蜗基底膜到A1的完整保守链"
+    },
+    {
+      "from": "tonotopy",
+      "to": "v1-primary-visual-cortex",
+      "type": "related",
+      "note": "频率拓扑映射与视网膜地形图（retinotopy）是平行的初级感觉皮层空间组织原则"
+    },
+    {
+      "from": "tonotopy",
+      "to": "critical-period",
+      "type": "related",
+      "note": "听觉皮层tonotopy在发育关键期由听觉经验精细化（Kilgard 1998 NB-ACh实验）"
+    },
+    {
+      "from": "mismatch-negativity",
+      "to": "auditory-cortex",
+      "type": "related",
+      "note": "MMN由A1和带区的预测误差神经元产生；是听觉预测编码的宏观EEG表现"
+    },
+    {
+      "from": "mismatch-negativity",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "MMN是预测编码框架在感觉皮层最清晰的体现；前注意性、NMDA依赖、发育早期存在"
+    },
+    {
+      "from": "mismatch-negativity",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "NMDA受体拮抗剂（氯胺酮）显著削弱SSA和MMN；NMDA巧合检测是预测编码分子基础"
+    },
+    {
+      "from": "mismatch-negativity",
+      "to": "global-workspace-theory",
+      "type": "related",
+      "note": "P3波（有意识注意后）vs MMN（无意识预测误差）对比揭示意识/无意识的时间边界"
+    },
+    {
+      "from": "language-network",
+      "to": "auditory-cortex",
+      "type": "related",
+      "note": "A1+STG作为语言网络的声学入口；STG音素编码（Mesgarani 2014）和深度依赖分层（Leonard 2024）"
+    },
+    {
+      "from": "language-network",
+      "to": "mismatch-negativity",
+      "type": "related",
+      "note": "MMN是语言预测性处理的神经标志；音素边界MMN增强是母语音素关键期的神经证据"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "auditory-cortex",
+      "type": "related",
+      "note": "听觉皮层SSA/MMN证据链是预测编码框架在感觉皮层的最清晰实例之一"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "mismatch-negativity",
+      "type": "related",
+      "note": "MMN是宏观EEG层面的预测误差检测器，无需注意力、发育早期即存在、NMDA依赖"
     }
   ],
   "dangling_references": [

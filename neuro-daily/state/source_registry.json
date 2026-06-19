@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20",
+  "last_updated": "2026-07-21",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6680,7 +6680,7 @@
       ]
     }
   ],
-  "total_sources": 330,
+  "total_sources": 340,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -8180,6 +8180,188 @@
         "slow tau 15ms yields 30-40 Hz",
         "PV subtypes different tau generate different gamma",
         "dual-peak gamma spectrum stable"
+      ]
+    },
+    {
+      "pmid": "27145914",
+      "pmcid": "PMC6436392",
+      "title": "Maps of the Auditory Cortex",
+      "authors_short": "Brewer AA, Barton B",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2016,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "11 auditory field maps AFMs cloverleaf cluster",
+        "tonotopy and periodotopy two orthogonal axes",
+        "core belt parabelt hierarchy",
+        "human A1 V-shaped tonotopy Heschl gyrus",
+        "parallel to visual cortex retinotopy"
+      ]
+    },
+    {
+      "pmid": "24052177",
+      "pmcid": "PMC4082027",
+      "title": "The what, where and how of auditory-object perception",
+      "authors_short": "Bizley JK, Cohen YE",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2013,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "sound object perception framework",
+        "ventral What stream identity",
+        "dorsal Where-How stream spatial sensorimotor",
+        "cortical hierarchy perception correlation"
+      ]
+    },
+    {
+      "pmid": "20850511",
+      "pmcid": "PMC3021714",
+      "title": "An expanded role for the dorsal auditory pathway in sensorimotor control and integration",
+      "authors_short": "Rauschecker JP",
+      "journal": "Hearing Research",
+      "year": 2011,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "dorsal auditory stream Where+How expanded role",
+        "speech perception sensorimotor integration",
+        "efference copy forward model auditory"
+      ]
+    },
+    {
+      "pmid": "26687225",
+      "pmcid": "PMC4740977",
+      "title": "Distinct Cortical Pathways for Music and Speech Revealed by Hypothesis-Free Voxel Decomposition",
+      "authors_short": "Norman-Haignere S, Kanwisher NG, McDermott JH",
+      "journal": "Neuron",
+      "year": 2015,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "6 response components voxel decomposition 165 sounds",
+        "music selective component temporal pole planum",
+        "speech selective component lateral STG",
+        "non-primary cortex category specialization"
+      ]
+    },
+    {
+      "pmid": "24482117",
+      "pmcid": "PMC4350233",
+      "title": "Phonetic feature encoding in human superior temporal gyrus",
+      "authors_short": "Mesgarani N, Cheung C, Johnson K, Chang EF",
+      "journal": "Science",
+      "year": 2014,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "14 phonetic feature categories STG spatial map",
+        "STRF spectrotemporal receptive field tuning",
+        "ECoG intraoperative natural speech",
+        "vowel encoding F1+F2 nonlinear integration",
+        "acoustic to phoneme transformation cortex"
+      ]
+    },
+    {
+      "pmid": "38093008",
+      "pmcid": "PMC10866713",
+      "title": "Large-scale single-neuron speech sound encoding across the depth of human cortex",
+      "authors_short": "Leonard MK, Makin JG, Bhattasali S, et al.",
+      "journal": "Nature",
+      "year": 2024,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "685 single neurons STG speech encoding Neuropixels",
+        "61% speech responsive neurons",
+        "depth-dependent laminar specialization",
+        "superficial layers pitch encoding",
+        "mid-deep layers phonetic features shortest latency"
+      ]
+    },
+    {
+      "pmid": "31477711",
+      "pmcid": "PMC6718388",
+      "title": "Invariance to background noise as a signature of non-primary auditory cortex",
+      "authors_short": "Kell AJE, McDermott JH",
+      "journal": "Nature Communications",
+      "year": 2019,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "non-primary cortex noise invariance t=8.37 p<1e-5",
+        "attention-independent noise robustness",
+        "structured vs Gaussian noise separation",
+        "fMRI noise-invariance measurement"
+      ]
+    },
+    {
+      "pmid": "30022729",
+      "pmcid": "PMC6053868",
+      "title": "The Neuronal Basis of Predictive Coding Along the Auditory Pathway: From the Subcortical Roots to Cortical Deviance Detection",
+      "authors_short": "Carbajal GV, Malmierca MS",
+      "journal": "Trends in Hearing",
+      "year": 2018,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "SSA stimulus-specific adaptation single neuron",
+        "MMN mismatch negativity population EEG",
+        "unified predictive coding hierarchy SSA+MMN",
+        "A1 25% prediction error belt 80%",
+        "NMDA receptor SSA MMN molecular basis ketamine"
+      ]
+    },
+    {
+      "pmid": "10196590",
+      "pmcid": "PMC2948964",
+      "title": "Plasticity of temporal information processing in the primary auditory cortex",
+      "authors_short": "Kilgard MP, Merzenich MM",
+      "journal": "Nature Neuroscience",
+      "year": 1998,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "NB nucleus basalis ACh pairing temporal plasticity",
+        "bidirectional cortical following rate change",
+        "20-25 days permanent plasticity",
+        "cholinergic gating auditory cortex plasticity"
+      ]
+    },
+    {
+      "pmid": "39172655",
+      "pmcid": "PMC11341091",
+      "title": "Task-specific invariant representation in auditory cortex",
+      "authors_short": "Heller CR, Fritz JB, Shamma SA",
+      "journal": "eLife",
+      "year": 2024,
+      "first_used": "2026-07-21",
+      "used_in_articles": ["2026-07-21-auditory-cortex-tonotopy-speech.md"],
+      "full_text_available": true,
+      "access_type": "PMC open access",
+      "aspects_covered": [
+        "non-primary auditory cortex task-specific invariant representation",
+        "primary vs non-primary task response difference",
+        "categorical invariant representation discrimination task"
       ]
     }
   ]

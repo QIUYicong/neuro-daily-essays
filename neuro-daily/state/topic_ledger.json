@@ -1,7 +1,74 @@
 {
-  "last_updated": "2026-07-20",
-  "total_articles": 88,
+  "last_updated": "2026-07-21",
+  "total_articles": 89,
   "entries": [
+    {
+      "date": "2026-07-21",
+      "title": "听觉皮层：从频率地图到语音意义的六级解码之旅",
+      "filename": "2026-07-21-auditory-cortex-tonotopy-speech.md",
+      "wiki_pages_created": [
+        "wiki/systems/auditory-cortex.md",
+        "wiki/concepts/tonotopy.md",
+        "wiki/concepts/mismatch-negativity.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/language-network.md",
+        "wiki/theories/predictive-coding.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "初级听觉皮层如何从内侧膝状体的频率编码信号出发，经过11个有序听觉场图的层级处理，最终在颞上回中完成从声学到音素到语音对象的转化？预测编码框架在听觉系统中如何体现？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "methods"
+      ],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·听觉系统首篇）；课程脊柱7（感觉皮层预测编码·听觉SSA/MMN）；承接#88（γ振荡·听觉皮层类比）和语言网络系列（#69/70）；填补听觉皮层这一重要系统的空白",
+      "topic_tags": [
+        "auditory cortex A1 belt parabelt",
+        "tonotopy frequency maps 11 AFMs cloverleaf",
+        "Heschl gyrus V-shaped gradient",
+        "periodotopy temporal modulation",
+        "auditory dual stream what where-how",
+        "noise invariance non-primary cortex",
+        "music speech selectivity voxel decomposition",
+        "phoneme encoding STG ECoG",
+        "Mesgarani 2014 14 phonetic features",
+        "Leonard 2024 Nature 685 single neurons depth",
+        "stimulus-specific adaptation SSA",
+        "mismatch negativity MMN preattentive",
+        "predictive coding SSA MMN hierarchy",
+        "Carbajal Malmierca 2018 SSA MMN review",
+        "NMDA receptor SSA MMN molecular basis",
+        "NB-ACh temporal plasticity",
+        "Kilgard Merzenich 1998 bidirectional plasticity",
+        "Brewer Barton 2016 AFM review",
+        "Kell 2019 noise invariance fMRI",
+        "Norman-Haignere 2015 music speech components"
+      ],
+      "key_sources": [
+        "PMID:27145914",
+        "PMID:24052177",
+        "PMID:20850511",
+        "PMID:26687225",
+        "PMID:24482117",
+        "PMID:38093008",
+        "PMID:31477711",
+        "PMID:30022729",
+        "PMID:10196590",
+        "PMID:39172655"
+      ],
+      "open_questions_raised": [
+        "Q-ac-01",
+        "Q-ac-02",
+        "Q-ac-03",
+        "Q-ac-04"
+      ],
+      "open_questions_partially_resolved": []
+    },
     {
       "date": "2026-07-20",
       "title": "篮状细胞打出节拍：γ 振荡的双重生成机制与精神分裂症的细胞之谜",

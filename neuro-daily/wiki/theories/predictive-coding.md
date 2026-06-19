@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-07-19
-revision_count: 8
+updated: 2026-07-21
+revision_count: 9
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition, AI]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers, beta-oscillations]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers, beta-oscillations, auditory-cortex, mismatch-negativity]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-pc-07]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae, 2026-07-19-beta-oscillations-cortical-prediction]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002", "PMID:25556836", "PMID:29339471"]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae, 2026-07-19-beta-oscillations-cortical-prediction, 2026-07-21-auditory-cortex-tonotopy-speech]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002", "PMID:25556836", "PMID:29339471", "PMID:30022729"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -94,6 +94,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 | 局部赫布学习规则的预测编码网络在特定条件下收敛于反向传播 | 数学证明 + 计算仿真；误差节点活动趋近零时权重更新等价于梯度下降 | PMID:28333583（PMC开放） | 高（数学定理，但生物条件苛刻）|
 | 人腹侧视觉流对预期刺激有系统性抑制（BOLD 降低） | 人类 fMRI + 重复抑制范式；V1→IT 全通路检测 | PMID:30030402 | 中（存在神经适应混淆）|
 | 现有视觉皮层预测误差证据有限，多与神经适应不可区分 | 批判性综述；猕猴和人类电生理重新分析 | PMID:33683317 | 高（批评性证据，降低其他证据置信度）|
+| SSA+MMN构成统一的听觉预测编码层级体系；预测误差从下丘→丘脑→A1（25%）→带区（80%）逐级升级 | 综述：跨物种、跨层级的刺激特异性适应和失匹配负波研究收敛；NMDA受体拮抗剂双向验证 | PMID:30022729 (PMC6053868) | 高（综述）|
 | 预测编码自由能最小化与 VAE 的 ELBO 优化数学等价 | 理论分析；比较 Friston 自由能方程与 Kingma-Welling ELBO 方程 | PMID:20068583；arXiv:1312.6114 | 高（数学等价，已形成共识）|
 
 ### 小脑：专用预测误差学习系统
@@ -123,6 +124,8 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[global-workspace-theory]] — GWT 与预测编码互补：足够大的预测误差（无法被局部层级消解）可能是触发全局工作空间点燃的候选机制；意识 = 大脑在无法预测时召唤全局计算资源
 - [[language-network]] — 语言理解是预测编码在词汇层面的实例化：额叶（Broca区）在词出现前200ms生成语义-感觉运动预测，颞叶返回预测误差，构成词级预测-更新循环（Grisoni 2024, PMC10957213）
 - [[ventral-language-stream]] — 腹侧语言流的具身语义预测（工具词→运动皮层预激活；动物词→视觉皮层预激活）是预测编码具身性的直接神经证据
+- [[auditory-cortex]] — 听觉皮层是预测编码在感觉系统中最清晰的体现之一：SSA（单神经元适应）和MMN（群体预测误差）构成从分子到EEG尺度跨越多层级的完整证据链
+- [[mismatch-negativity]] — MMN是听觉预测编码在宏观电位层面的"检测器"：无需注意力、发育早期即存在、NMDA依赖，是预测误差信号的经典神经标志
 
 ## 未解问题
 
@@ -145,9 +148,11 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-07-13 · 修订 · 基于《大脑的预言机》一文（#81）· 新增 AI 比较维度（dimensions 加 AI）；关键证据表增加 Whittington & Bogacz 2017（PC ≈ 反向传播）、Richter 2018（腹侧流抑制）、Solomon 2021（批评性证据）、VAE 数学等价；related 新增 free-energy-principle、variational-autoencoder；未解问题新增 Q-pc-06、Q-pc-07；key_sources 新增 PMID:28333583、PMID:33683317、PMID:19528002
 - 2026-07-18 · 修订 · 基于《大脑皮层的规范微回路》一文（#86）· 补充规范微回路作为预测编码解剖实现载体的关联；related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增两条解剖实现链接
 - 2026-07-19 · 修订 · 基于《β振荡的三副面孔》一文（#87）· 关键证据表新增 Bastos 2015（28 对视觉区域γ前向/β后向，PMID:25556836）和 Bastos 2018（前额叶层流验证频率层级规律，PMID:29339471）；连接新增 beta-oscillations（β作为反馈预测的振荡载体，γ作为前馈误差的振荡载体）；related 新增 beta-oscillations；key_sources 新增 PMID:25556836、PMID:29339471
+- 2026-07-21 · 修订 · 基于《听觉皮层》一文（#89）· 关键证据表新增 Carbajal & Malmierca 2018（SSA+MMN统一听觉预测编码层级，A1~25%→带区~80%，PMID:30022729）；连接新增 auditory-cortex（SSA/MMN跨尺度预测编码证据链）和 mismatch-negativity（宏观预测误差检测器）；related 新增 auditory-cortex、mismatch-negativity；key_sources 新增 PMID:30022729
 
 ## 来源文章
 
 - [[2026-06-15-predictive-coding]]
 - [[2026-06-20-language-dual-stream]]
 - [[2026-07-19-beta-oscillations-cortical-prediction]]
+- [[2026-07-21-auditory-cortex-tonotopy-speech]]

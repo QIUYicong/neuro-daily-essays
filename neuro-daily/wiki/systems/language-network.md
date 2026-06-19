@@ -7,13 +7,13 @@ status: established
 confidence: high
 created: 2026-06-20
 updated: 2026-06-02
-revision_count: 3
+revision_count: 4
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics]
-prerequisites: [action-potential, synaptic-transmission, working-memory]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, auditory-cortex, mismatch-negativity]
+prerequisites: [action-potential, synaptic-transmission, working-memory, auditory-cortex]
 opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
-source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302"]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-07-21-auditory-cortex-tonotopy-speech]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:24482117", "PMID:38093008"]
 ---
 
 # 语言网络（双流模型）(Dual-Stream Language Network)
@@ -58,6 +58,8 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 | BA44专管层级句法，BA45专管语义 | fMRI句法对比；发育DTI；猴子比较 | PMID:31735144 | 高 |
 | 语言网络超模态（手语激活相同Broca区） | 23项研究ALE元分析 | PMID:33118302 | 高 |
 | 大脑在词前200ms生成语义-感觉运动预测 | 高密度EEG，预测电位 | PMID:38267261 | 中高 |
+| STG单电极对14种英语音素特征有选择性 | 人类术中ECoG，自然语音 | PMID:24482117 (PMC4350233) | 高 |
+| STG神经元浅层编码音调，中深层编码音素特征 | Neuropixels（685单神经元，8人） | PMID:38093008 (PMC10866713) | 高 |
 
 ## 连接
 
@@ -71,6 +73,8 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 - [[prefrontal-cortex]] — PFC（BA45/BA44）在语言网络中的句法/语义角色
 - [[mirror-neurons]] — 猴F5与人类BA44同源，语言演化的动作理解假说
 - [[motor-cortex]] — 运动前区PMC与BA44的解剖关联；具身语义中感觉运动皮层的激活
+- [[auditory-cortex]] — 初级听觉皮层（A1+STG）是语言网络的声学入口，STG实现音素编码
+- [[mismatch-negativity]] — 听觉皮层的预测误差信号，语言预测处理的神经标志
 
 ## 未解问题
 
@@ -82,8 +86,10 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
 - 2026-06-21 · 修订 · 新增镜像神经元（F5/BA44同源）与运动皮层的连接，补充语言演化的动作理解背景 · 依据《从意图到动作》（#57）
+- 2026-07-21 · 修订 · 新增听觉皮层（A1+STG）作为声学入口：音素编码（Mesgarani 2014 ECoG 14个音素特征）和深度依赖分层（Leonard 2024 685单神经元）；新增 auditory-cortex、mismatch-negativity 连接 · 依据《听觉皮层》（#89）
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
 - [[2026-06-21-motor-cortex-voluntary-movement]]
+- [[2026-07-21-auditory-cortex-tonotopy-speech]]

@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-07-21（文章 #89·听觉皮层·11个AFMs×层级噪声不变性×STG音素编码×SSA/MMN预测编码×NB-ACh可塑性）
+
+**源文章**：[[2026-07-21-auditory-cortex-tonotopy-speech]] —《听觉皮层：从频率地图到语音意义的六级解码之旅》
+
+**新建页面（3）**：
+- `wiki/systems/auditory-cortex.md`（听觉皮层·rev1）🟢 established — 11个有序AFMs（苜蓿叶簇）；核心-带区-副带区层级架构；主动预测型感知系统（SSA/MMN）；STG音素编码（ECoG 14种音素特征+Neuropixels 685单神经元深度分层）；腹/背侧双流（What vs Where/How）；NB-ACh可塑性；prerequisites: action-potential, synaptic-transmission, nmda-receptor；关键证据：Brewer 2016（11 AFMs）、Kell 2019（t=8.37噪声不变性）、Mesgarani 2014（ECoG音素）、Leonard 2024 Nature（685神经元）、Carbajal 2018（SSA/MMN层级）
+- `wiki/concepts/tonotopy.md`（频率拓扑映射·rev1）🟢 established — 耳蜗基底膜→A1的频率-位置映射原则；人类A1 V形双梯度（赫氏回前后镜像）；11个AFMs；第二正交轴periodotopy；与视觉retinotopy平行；NB-ACh经验可塑性驱动精细化（Kilgard 1998）；关键证据：PMID:27145914（11 AFMs fMRI）、PMID:23916753（人类A1 V形tonotopy）
+- `wiki/concepts/mismatch-negativity.md`（失匹配负波·rev1）🟢 established — 声学统计违反后~150-250ms前注意性皮层负电位；预测编码宏观EEG体现；前注意性（麻醉/睡眠下持续）、发育早期即存在、母语音素关键期标志；SSA（单神经元适应）+MMN（群体预测误差）统一预测误差层级；NMDA受体拮抗剂双向验证；关键证据：PMID:30022729（Carbajal综述）、PMID:9658025（麻醉下MMN）
+
+**修订页面（2）**：
+- `wiki/systems/language-network.md` rev4 — 新增听觉皮层（A1+STG音素编码Mesgarani 2014/Leonard 2024）为声学入口；证据表新增2行（ECoG音素特征/Neuropixels深度分层）；连接新增 auditory-cortex、mismatch-negativity；related 新增 auditory-cortex、mismatch-negativity；prerequisites 新增 auditory-cortex；source_articles 新增 2026-07-21-auditory-cortex-tonotopy-speech；key_sources 新增 PMID:24482117、PMID:38093008
+- `wiki/theories/predictive-coding.md` rev9 — 新增听觉SSA/MMN证据（Carbajal 2018：A1~25%→带区~80%预测误差梯度，NMDA验证）；证据表新增1行；连接新增 auditory-cortex（跨尺度证据链）和 mismatch-negativity（宏观预测误差检测器）；related 新增 auditory-cortex、mismatch-negativity；key_sources 新增 PMID:30022729；source_articles 新增 2026-07-21-auditory-cortex-tonotopy-speech
+
+**矛盾登记（0）**：无新矛盾
+
+**新增开放问题（4）**：
+- Q-ac-01（高优先级）：频率拓扑在复杂自然声音处理中的意义？是否存在更高级的声音特征地图？
+- Q-ac-02（高优先级）：腹侧/背侧双流在人类语音实时处理中是串联还是并联？
+- Q-ac-03（中优先级）：音乐选择性是音乐概念特化，还是谐波音调选择性的上位体现？
+- Q-ac-04（中优先级）：婴儿如何在几个月内无监督地从连续语音中提取音素系统？NB-ACh发育窗口与语音习得关键期的精确关系？
+
+**图谱**：163 节点，999 边（+3 节点 auditory-cortex/tonotopy/mismatch-negativity，+22 边）
+
+---
+
 ## 2026-07-20（文章 #88·篮状细胞打出节拍·ING/PING 双重机制·精神分裂症 PV-GAD67-γ 级联）
 
 **源文章**：[[2026-07-20-gamma-oscillations-ping-ing-mechanism]] —《篮状细胞打出节拍：γ 振荡的双重生成机制与精神分裂症的细胞之谜》
