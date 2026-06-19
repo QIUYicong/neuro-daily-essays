@@ -7071,6 +7071,24 @@
       "to": "alpha-oscillations",
       "type": "related",
       "note": "灵长类WM中α-γ PAC可能替代/补充θ-γ嵌套机制；Q-theta-primate悬而未决的核心问题（Roux & Uhlhaas 2014）"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "engram-cells",
+      "type": "supports",
+      "note": "消退记忆有独立的印迹细胞群（BLA奖励神经元，Zhang 2020；IL皮层消退印迹，Luft 2024）"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "消退印迹细胞 = BLA 奖励响应神经元（Zhang 2020），将消退机制与奖励系统直接关联"
+    },
+    {
+      "from": "engram-cells",
+      "to": "fear-extinction",
+      "type": "supports",
+      "note": "恐惧与消退记忆分别由不同的印迹细胞群存储（Luft 2024 Daun02灭活实验直接证明）"
     }
   ],
   "dangling_references": [

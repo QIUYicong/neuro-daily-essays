@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-10
-revision_count: 3
+updated: 2026-07-24
+revision_count: 4
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
 related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -29,8 +29,8 @@ key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244"
 ## 关键机制
 
 ### 亚核架构
-- **外侧核（LA）**：首要感觉输入站；CS（音调）从听觉丘脑/皮层、US（电击）从躯体感觉丘脑汇聚于此；是LTP发生的核心位点；约80%为兴奋性锥体神经元，~20%为GABAergic中间神经元；条件反射后约20%神经元形成稀疏CS响应（恐惧印迹）
-- **基底核（BA）**：包含恐惧神经元（投射PL皮层，条件反射后CS+）和消退神经元（投射IL皮层，消退后CS+）两个功能截然不同的群体；接收海马情景信息，决定哪群神经元主导
+- **外侧核（LA）**：首要感觉输入站；CS（音调）从听觉丘脑/皮层、US（电击）从躯体感觉丘脑汇聚于此；是LTP发生的核心位点；约80%为兴奋性锥体神经元，~20%为GABAergic中间神经元；条件反射后约20%神经元形成稀疏CS响应（恐惧印迹）——稀疏性由**突触可塑性竞争规则**决定：初始突触权重更高（CREB/内在兴奋性更高）的神经元在CS-US配对中更易发生LTP，从而竞争性选入印迹（Jeong et al. 2021, Nat Commun, PMID:34168140）
+- **基底核（BA）**：包含恐惧神经元（投射PL皮层，条件反射后CS+）和消退神经元（投射IL皮层，消退后CS+）两个功能截然不同的群体（Herry et al. 2008, PMID:18615015）；接收海马情景信息，决定哪群神经元主导。**关键新发现（2026-07-24）**：消退神经元/消退印迹细胞 ≈ BLA 中天然的**奖励响应神经元**——激活消退印迹细胞产生奖励行为（CPP），与自然奖励响应神经元高度重叠；消退训练本质上是奖励系统对感觉输入的重新占领（Zhang, Kim, Tonegawa 2020, Neuron, PMID:31952856）。恐惧/消退印迹是**不同的细胞群体**（Luft et al. 2024, Hippocampus, PMID:38396226）
 - **中央核（CeA）**：外侧部（CeL）含PKCδ+（关闭细胞）和SOM+（开启细胞），形成局部去抑制回路；内侧部（CeM）是主要输出，投射至PAG（冻结）、下丘脑（自主神经）、BNST（持续焦虑）
 
 ### 插入细胞（ITC）
@@ -112,6 +112,10 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 | ITC神经元是消退表达的必要条件 | 选择性免疫毒素损毁ITC→消退表达缺陷 | PMID:18615014 | 高 |
 | BA中恐惧/消退神经元双群切换 | 多单元记录+逆行标记 | PMID:18615015 | 高 |
 | vmPFC/IL激活强度预测消退回忆质量 | 人类fMRI多研究汇总 | PMID:22129456 (PMC4942586) | 中-高 |
+| 突触竞争规则：初始突触权重高的LA神经元优先编码恐惧 | 光学LTP预增强+恐惧训练，小鼠 | PMID:34168140 (Nat Commun, 开放全文) | 高 |
+| 消退印迹 = BLA奖励神经元（激活→奖励行为且抑制恐惧） | c-Fos-DREADD标记+激活，小鼠 | PMID:31952856 | 高（需独立重复） |
+| 恐惧/消退印迹是不同细胞群（灭活IL消退印迹→恐惧重现） | Daun02灭活，大鼠 | PMID:38396226 | 中-高 |
+| 情感价值可逆转：恐惧印迹重训→趋近行为（DG→BLA重路由） | TetTag+光遗传，小鼠 | PMID:25162525 | 高 |
 
 ## 连接
 
@@ -121,7 +125,7 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[hippocampal-circuit]] — 海马提供情景信号给BA，决定恐惧/消退哪套记忆被调取
 - [[norepinephrine-locus-coeruleus]] — 蓝斑NE投射通过β-肾上腺素受体增强杏仁核LTP和恐惧记忆巩固；NE是GC效应的必要协同门控
 - [[dopamine-reward-prediction-error]] — VTA DA投射到杏仁核调节奖励关联（与恐惧回路并行）
-- [[engram-cells]] — LA恐惧印迹细胞（~20%稀疏）与海马场所细胞印迹遵循相同的竞争选择逻辑
+- [[engram-cells]] — LA恐惧印迹细胞（~20%稀疏）与海马场所细胞印迹遵循相同的竞争选择逻辑；BLA消退印迹 = 奖励神经元（Zhang 2020）；恐惧/消退印迹是不同细胞群（Luft 2024）；情感价值可逆转（Redondo 2014 DG→BLA重路由）
 - [[glucocorticoid-stress-memory]] — BLA是GC记忆增强的必要枢纽；GC通过BLA GR基因组途径驱动L-LTP转化；CRH在CeA独立调控防御反应
 - [[hpa-axis]] — HPA轴产生的GC在BLA实现记忆增强；CeM→PVN投射参与HPA激活正反馈
 - [[memory-consolidation]] — BLA GC+NE协同驱动情绪显著性记忆的优先长期巩固
@@ -132,9 +136,11 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - Q-fear-human-amygdala-specificity（高优先级）：人类杏仁核功能架构与啮齿类的保守程度
 - Q-fear-low-road-function（中优先级）：丘脑"低路"直接投射的恐惧学习独立贡献
 - Q-fear-itc-bidirectionality（中优先级）：ITC在恐惧重现时的具体再平衡机制
+- Q-extinction-reward-overlap（高优先级，2026-07-24新增）：BLA消退印迹细胞与奖励响应细胞的重叠率精确值；阻断BLA奖励通路是否导致消退失败（因果方向性验证）
 
 ## 修订历史
 
+- 2026-07-24 · 修订 rev4 · 基于《恐惧的印迹与奖励的入侵》(#92) · LA亚核条目新增"突触可塑性竞争规则"（Jeong 2021 Nat Commun, PMID:34168140）；BA亚核条目新增"消退印迹=BLA奖励神经元"（Zhang 2020, PMID:31952856）和"恐惧/消退印迹是不同细胞群"（Luft 2024, PMID:38396226）；证据表新增4行；engram-cells连接注释扩展；未解问题新增Q-extinction-reward-overlap；key_sources/source_articles相应更新
 - 2026-07-10 · 修订 rev3 · 基于《记忆再巩固》(#78) · 新增"BLA 中的记忆再巩固去稳定化分子链"机制节（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞级联；再稳定化路径；窗口内干预靶点）；连接节新增 memory-reconsolidation；source_articles/related 相应更新
 - 2026-07-09 · 修订 rev2 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"GC与NE协同增强应激记忆"机制节（BLA必要枢纽、GC-NE协同门控、β-AR阻断实验）；新增"CRH在CeA的中枢独立效应"节；related新增glucocorticoid-stress-memory、hpa-axis、memory-consolidation；key_sources新增PMID:30877244、PMID:16310958、PMID:23968228；未解问题新增Q-fear-itc-bidirectionality
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
@@ -143,3 +149,4 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 
 - [[2026-05-30-amygdala-fear-memory]]
 - [[2026-07-09-glucocorticoids-stress-memory-amygdala]]
+- [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]

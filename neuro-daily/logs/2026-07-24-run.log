@@ -1,0 +1,84 @@
+# Run Log: 2026-07-24
+
+**日期**：2026-07-24（文章 #92）
+**运行状态**：✅ 完成
+
+---
+
+## 步骤执行记录
+
+### A. 读取状态
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md ✅
+- 读取 topic_ledger.json（发现JSON语法错误，已修复：引号转义问题）✅
+- 读取 unresolved_questions.md、monthly_synthesis.md ✅
+- 检查最新文章 #91（2026-07-23，UP/DOWN态机制）✅
+
+### B. 选题
+- 选题：杏仁核恐惧印迹×突触可塑性竞争写入×消退记忆=奖励神经元
+- 依据：与前序文章（恐惧条件反射、记忆印迹竞争、再巩固）自然接续；补充"谁赢得印迹"的细胞竞争机制；补充"消退的细胞载体"这一核心未解问题
+- 来源文章代号：2026-07-24-amygdala-fear-engram-extinction-reward-neurons
+
+### C. 研究与撰写
+- 文献检索：15篇（2篇开放全文：PMID:34168140 Nat Commun/PMC8523676，PMID:29507292 Transl Psychiatry/PMC5882934；13篇摘要仅读）
+- 文章撰写：约5200字，覆盖突触竞争规则、消退印迹=奖励神经元、情感价值可逆转三条核心叙事线
+- 创建 neuro-daily/articles/2026-07-24-amygdala-fear-engram-extinction-reward-neurons.md ✅
+- 创建 neuro-daily/notes/2026-07-24-reading-notes.md ✅
+- 创建 neuro-daily/sources/2026-07-24-sources.json ✅
+
+### D. Wiki 固结
+- 修订 wiki/concepts/fear-conditioning.md (rev2→rev3)：新增Jeong 2021竞争规则段落 ✅
+- 修订 wiki/concepts/fear-extinction.md (rev3→rev4)：新增消退印迹=奖励神经元、不同细胞群、情感价值逆转三段 ✅
+- 修订 wiki/systems/amygdala.md (rev3→rev4)：LA/BA描述更新，证据表+4行 ✅
+- 修订 wiki/concepts/engram-cells.md (rev5→rev6)：竞争机制节+3段 ✅
+
+### E. 图谱更新
+- wiki/_graph.json：新增3条边（fear-extinction→engram-cells supports，fear-extinction→dopamine-reward-prediction-error related，engram-cells→fear-extinction supports）
+- 新总计：163节点，1009边 ✅
+
+### F. 治理更新
+- wiki/CHANGELOG.md：新增2026-07-24条目 ✅
+- wiki/index.md：更新最后更新日期 ✅
+- state/unresolved_questions.md：新增Q-extinction-reward-overlap ✅
+- state/monthly_synthesis.md：更新本月条目+新增2026-07-24日条目 ✅
+- state/source_registry.json：新增14条来源（1条已存在：PMID:25162525），总计393条 ✅
+- state/maturity_index.json：更新fear-conditioning/fear-extinction/amygdala/engram-cells last_changed日期 ✅
+- state/topic_ledger.json：修复预存JSON语法错误（"开门"→"开门"）；新增文章#92条目，总计75篇 ✅
+
+### G. Commit & Push
+- 见下方Git记录
+
+---
+
+## 核心发现摘要
+
+**文章#92核心贡献**：
+1. **突触竞争规则**（Jeong 2021, Nat Commun, PMID:34168140）：LA传入突触权重越高，在CS-US配对时NMDA门越易开启，越优先发生LTP，越优先入选恐惧印迹。逻辑链：高CREB→高兴奋性→NMDA Mg²⁺解封概率更高→LTP阈值更低→入选印迹。光学LTD逆转恐惧记忆+光学LTP单独驱动行为，提供了双向因果证明。
+2. **消退印迹=BLA奖励神经元**（Zhang 2020, Neuron, PMID:31952856）：消退记忆存储于天然的BLA奖励响应细胞群（非单纯抑制细胞）。激活消退印迹→奖励行为（CPP）；激活奖励细胞→恐惧抑制。消退被重新定义为奖励系统对感觉输入的重新占领。
+3. **恐惧/消退印迹是不同细胞群**（Luft 2024, Hippocampus, PMID:38396226）：Daun02灭活直接证明，IL皮层是消退印迹存储节点（非表达通路）。
+4. **情感价值可逆转**（Redondo 2014, Nature, PMID:25162525）：同一记忆印迹（DG）通过奖励重训可切换为趋近行为，机制在于DG→BLA连接权重重塑，BLA是情感打标签的最终节点。
+
+**新增开放问题**：Q-extinction-reward-overlap（高优先级）：BLA消退/奖励细胞的精确重叠率、阻断奖励通路是否导致消退失败、抑郁/成瘾共病的机制。
+
+---
+
+## 文件变更清单
+
+**新建文件（3）**：
+- neuro-daily/articles/2026-07-24-amygdala-fear-engram-extinction-reward-neurons.md
+- neuro-daily/notes/2026-07-24-reading-notes.md
+- neuro-daily/sources/2026-07-24-sources.json
+- neuro-daily/logs/2026-07-24-run.log（本文件）
+
+**修改文件（11）**：
+- neuro-daily/wiki/concepts/fear-conditioning.md (rev3)
+- neuro-daily/wiki/concepts/fear-extinction.md (rev4)
+- neuro-daily/wiki/systems/amygdala.md (rev4)
+- neuro-daily/wiki/concepts/engram-cells.md (rev6)
+- neuro-daily/wiki/_graph.json (+3边，1009边总计)
+- neuro-daily/wiki/CHANGELOG.md
+- neuro-daily/wiki/index.md
+- neuro-daily/state/unresolved_questions.md
+- neuro-daily/state/monthly_synthesis.md
+- neuro-daily/state/source_registry.json (393条来源)
+- neuro-daily/state/maturity_index.json
+- neuro-daily/state/topic_ledger.json (修复JSON bug，75篇)

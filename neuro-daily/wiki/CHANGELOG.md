@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-07-24（文章 #92·杏仁核恐惧印迹×突触可塑性竞争写入×消退记忆=奖励神经元）
+
+**源文章**：[[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]] —《恐惧的印迹与奖励的入侵：杏仁核如何竞争选择恐惧记忆，又如何将消退交给奖励系统》
+
+**新建页面（0）**：本次无新建页面，均为现有页面修订。
+
+**修订页面（4）**：
+- `wiki/concepts/fear-conditioning.md` rev3 — updated=2026-07-24；revision_count 2→3；related/source_articles 新增今日文章；key_sources 新增 PMID:34168140, PMID:22036561；当前理解节新增"突触可塑性竞争规则"段落（Jeong 2021, Nat Commun）：高 CREB→高兴奋性→低 LTP 阈值→优先入选印迹；证据表新增1行（PMID:34168140）；修订历史新增 rev3 条目
+- `wiki/concepts/fear-extinction.md` rev4 — updated=2026-07-24；revision_count 3→4；related 新增 engram-cells, dopamine-reward-prediction-error；opens_questions 新增 Q-extinction-reward-overlap；key_sources 新增 PMID:31952856, PMID:38396226, PMID:25162525, PMID:29507292；当前理解节新增三段：①消退印迹=BLA奖励神经元（Zhang 2020），②恐惧/消退印迹是不同细胞群（Luft 2024），③情感价值可逆转（Redondo 2014）；证据表新增4行；连接节新增 engram-cells, dopamine-reward-prediction-error；修订历史新增 rev4 条目
+- `wiki/systems/amygdala.md` rev4 — updated=2026-07-24；revision_count 3→4；key_sources 新增 PMID:34168140, PMID:31952856, PMID:38396226, PMID:25162525；LA描述更新（Jeong 2021竞争规则）；BA描述更新（消退=奖励神经元 Zhang 2020；独立印迹细胞群 Luft 2024）；证据表新增4行；engram-cells 连接注释更新；未解问题新增 Q-extinction-reward-overlap；修订历史新增 rev4 条目
+- `wiki/concepts/engram-cells.md` rev6 — updated=2026-07-24；revision_count 5→6；related 新增 amygdala, fear-conditioning, fear-extinction；opens_questions 新增 Q-extinction-reward-overlap；key_sources 新增 PMID:34168140, PMID:31952856, PMID:25162525；竞争机制节新增3段（Jeong 2021 LA突触权重竞争规则、Zhang 2020 消退印迹=BLA奖励神经元、Redondo 2014 情感价值可逆转）；修订历史新增 rev6 条目
+
+**矛盾登记（0）**：无新矛盾（消退印迹=奖励神经元结论仅有一组 Tonegawa 实验室数据，置信度标注为"需独立重复"；情感价值逆转与恐惧条件反射的原始痕迹保留之间的张力作为开放问题 Q-extinction-reward-overlap 处理）
+
+**新增开放问题（1）**：
+- Q-extinction-reward-overlap（高优先级）：BLA消退印迹细胞与奖励响应细胞的重叠率精确值及因果关系——阻断BLA奖励通路是否导致消退失败？奖励系统功能低下（如抑郁症中多巴胺系统损伤）是否导致消退能力下降，进而维持 PTSD 症状？
+
+**图谱**：163 节点，1009 边（+3 边：fear-extinction→engram-cells supports，fear-extinction→dopamine-reward-prediction-error related，engram-cells→fear-extinction supports）
+
+---
+
 ## 2026-07-23（文章 #91·UP/DOWN态机制·Layer 5循环兴奋×KNa终止×PFC选择性守门）
 
 **源文章**：[[2026-07-23-cortical-up-down-state-pfc-gating-memory]] —《皮层的沉默与苏醒：UP/DOWN 态如何从细胞机制到系统层面编排睡眠中的记忆选择》

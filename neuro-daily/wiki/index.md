@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-23（第91篇·UP/DOWN态机制·Layer 5循环兴奋×KNa终止×PFC选择性守门）· 主题页总数：**159**（新建1页：concepts/up-down-state-mechanism；修订2页：concepts/cortical-slow-oscillation rev3→rev4、concepts/so-spindle-swr-coupling rev1→rev2；图谱163节点、1006边；新增Q-updown-termination-weight、Q-updown-human-mechanism、Q-pfc-veto-mechanism、Q-pfc-veto-human）
+> 最后更新：2026-07-24（第92篇·杏仁核恐惧印迹×突触可塑性竞争写入×消退记忆=奖励神经元）· 主题页总数：**159**（新建0页；修订4页：concepts/fear-conditioning rev2→rev3、concepts/fear-extinction rev3→rev4、systems/amygdala rev3→rev4、concepts/engram-cells rev5→rev6；图谱163节点、1009边；新增Q-extinction-reward-overlap）
 
 ---
 

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-24",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10,7 +10,9 @@
       "journal": "The Journal of Neuroscience",
       "year": 1993,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "UP state duration 0.8-1.5 s",
         "DOWN state duration ~1 s",
@@ -28,7 +30,9 @@
       "journal": "The Journal of Neuroscience",
       "year": 1993,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "cortical autonomy: SO persists after extensive thalamic lesions",
         "spindles nested within SO UP state (first in vivo evidence)",
@@ -42,7 +46,9 @@
       "journal": "Nature Neuroscience",
       "year": 2000,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "isolated cortical slices spontaneously generate UP/DOWN alternation",
         "Layer 5 recurrent excitation initiates UP state",
@@ -58,7 +64,9 @@
       "journal": "Frontiers in Neural Circuits",
       "year": 2015,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "UP state termination: KNa, synaptic depression, SST delayed inhibition three-mechanism review",
         "thalamic role in SO (passive participant, not generator)",
@@ -73,7 +81,9 @@
       "journal": "Nature Reviews Neuroscience",
       "year": 2010,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "active systems consolidation theory",
         "SWS + low ACh drives hippocampal-neocortical transfer",
@@ -87,7 +97,9 @@
       "journal": "Neuron",
       "year": 2013,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "auditory closed-loop SO stimulation increases SO amplitude and spindle density",
         "declarative memory improvement",
@@ -102,7 +114,9 @@
       "journal": "Nature Neuroscience",
       "year": 2015,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "human iEEG N=9 direct verification of SO-spindle-SWR hierarchical nesting",
         "spindle density elevated in SO UP state",
@@ -117,7 +131,9 @@
       "journal": "Neuron",
       "year": 2017,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "in-phase optogenetic TRN activation during SO UP state increases triple coupling",
         "out-of-phase no memory effect",
@@ -131,7 +147,9 @@
       "journal": "Nature Neuroscience",
       "year": 2023,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "human intracranial MUA firing rate staircase increase during SO-spindle-SWR triplets",
         "enhanced local cell assembly cross-correlations",
@@ -146,7 +164,9 @@
       "journal": "Current Biology",
       "year": 2024,
       "first_used": "2026-07-23",
-      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "used_in_articles": [
+        "2026-07-23-cortical-up-down-state-pfc-gating-memory.md"
+      ],
       "aspects_covered": [
         "PFC coordinated ripples protect associated hippocampal cell assemblies",
         "PFC independent ripples top-down suppress hippocampal reactivation",
@@ -6830,9 +6850,137 @@
         "DA/ACh/NE/NO/BDNF",
         "计算模型"
       ]
+    },
+    {
+      "pmid": "10845062",
+      "title": "Emotion circuits in the brain",
+      "authors": "LeDoux JE",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2000,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "22036561",
+      "title": "Molecular mechanisms of fear learning and memory",
+      "authors": "Johansen JP et al.",
+      "journal": "Cell",
+      "year": 2011,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "18615015",
+      "title": "Switching on and off fear by distinct neuronal circuits",
+      "authors": "Herry C et al.",
+      "journal": "Nature",
+      "year": 2008,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "19555645",
+      "title": "Amygdala inhibitory circuits and the control of fear memory",
+      "authors": "Ehrlich I et al.",
+      "journal": "Neuron",
+      "year": 2009,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "32970967",
+      "title": "Behavioral and neurobiological mechanisms of Pavlovian and instrumental extinction learning",
+      "authors": "Bouton ME et al.",
+      "journal": "Physiological Reviews",
+      "year": 2021,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "34168140",
+      "title": "Synaptic plasticity-dependent competition rule influences memory formation",
+      "authors": "Jeong Y et al.",
+      "journal": "Nature Communications",
+      "year": 2021,
+      "pmcid": "PMC8523676",
+      "open_access": true,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "31952856",
+      "title": "Amygdala Reward Neurons Form and Store Fear Extinction Memory",
+      "authors": "Zhang X, Kim J, Tonegawa S",
+      "journal": "Neuron",
+      "year": 2020,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "38396226",
+      "title": "Distinct engrams control fear and extinction memory",
+      "authors": "Luft JG et al.",
+      "journal": "Hippocampus",
+      "year": 2024,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "28521127",
+      "title": "Synaptic plasticity, engrams, and network oscillations in amygdala circuits",
+      "authors": "Bocchio M et al.",
+      "journal": "Neuron",
+      "year": 2017,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "34545196",
+      "title": "Prefrontal cortex, amygdala, and threat processing: implications for PTSD",
+      "authors": "Kredlow MA et al.",
+      "journal": "Neuropsychopharmacology",
+      "year": 2022,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "29507292",
+      "title": "Fear Extinction Requires Infralimbic Cortex Projections to the Basolateral Amygdala",
+      "authors": "Bloodgood DW et al.",
+      "journal": "Translational Psychiatry",
+      "year": 2018,
+      "pmcid": "PMC5882934",
+      "open_access": true,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "15113265",
+      "title": "Electrical stimulation of medial prefrontal cortex reduces conditioned fear",
+      "authors": "Milad MR et al.",
+      "journal": "Behavioral Neuroscience",
+      "year": 2004,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "21068303",
+      "title": "Erasing fear memories with extinction training",
+      "authors": "Quirk GJ et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2010,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "22997340",
+      "title": "Disruption of reconsolidation erases a fear memory trace in the human amygdala",
+      "authors": "Agren T et al.",
+      "journal": "Science",
+      "year": 2012,
+      "open_access": false,
+      "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
     }
   ],
-  "total_sources": 330,
+  "total_sources": 393,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -8047,7 +8195,9 @@
       "journal": "Annual Review of Neuroscience",
       "year": 2004,
       "first_used": "2026-07-18",
-      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "used_in_articles": [
+        "2026-07-18-cortical-canonical-microcircuit.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8064,7 +8214,9 @@
       "journal": "Nature Neuroscience",
       "year": 2015,
       "first_used": "2026-07-18",
-      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "used_in_articles": [
+        "2026-07-18-cortical-canonical-microcircuit.md"
+      ],
       "full_text_available": true,
       "access_type": "pmc_open",
       "aspects_covered": [
@@ -8082,7 +8234,9 @@
       "journal": "Trends in Neurosciences",
       "year": 2013,
       "first_used": "2026-07-18",
-      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "used_in_articles": [
+        "2026-07-18-cortical-canonical-microcircuit.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8099,7 +8253,9 @@
       "journal": "Nature Reviews Neuroscience",
       "year": 2008,
       "first_used": "2026-07-18",
-      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "used_in_articles": [
+        "2026-07-18-cortical-canonical-microcircuit.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8115,7 +8271,9 @@
       "journal": "Neuron",
       "year": 2015,
       "first_used": "2026-07-18",
-      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "used_in_articles": [
+        "2026-07-18-cortical-canonical-microcircuit.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8132,7 +8290,9 @@
       "journal": "NeuroImage",
       "year": 2015,
       "first_used": "2026-07-18",
-      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "used_in_articles": [
+        "2026-07-18-cortical-canonical-microcircuit.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8148,7 +8308,9 @@
       "journal": "Cerebral Cortex",
       "year": 2014,
       "first_used": "2026-07-18",
-      "used_in_articles": ["2026-07-18-cortical-canonical-microcircuit.md"],
+      "used_in_articles": [
+        "2026-07-18-cortical-canonical-microcircuit.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8165,7 +8327,9 @@
       "journal": "Nature",
       "year": 1995,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8182,7 +8346,9 @@
       "journal": "Nature",
       "year": 2009,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8200,7 +8366,9 @@
       "journal": "Nature",
       "year": 2009,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8217,7 +8385,9 @@
       "journal": "Annual Review of Neuroscience",
       "year": 2012,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8235,7 +8405,9 @@
       "journal": "Journal of Neuroscience",
       "year": 2011,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8252,7 +8424,9 @@
       "journal": "Journal of Neurophysiology",
       "year": 2016,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8268,7 +8442,9 @@
       "journal": "Schizophrenia Bulletin",
       "year": 2012,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8286,7 +8462,9 @@
       "journal": "Neuron",
       "year": 2015,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract_only",
       "aspects_covered": [
@@ -8304,7 +8482,9 @@
       "journal": "Journal of Neuroscience",
       "year": 2020,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": true,
       "access_type": "PMC open access",
       "aspects_covered": [
@@ -8323,7 +8503,9 @@
       "journal": "Journal of Neurophysiology",
       "year": 2017,
       "first_used": "2026-07-20",
-      "used_in_articles": ["2026-07-20-gamma-oscillations-ping-ing-mechanism.md"],
+      "used_in_articles": [
+        "2026-07-20-gamma-oscillations-ping-ing-mechanism.md"
+      ],
       "full_text_available": true,
       "access_type": "PMC open access",
       "aspects_covered": [
@@ -8341,7 +8523,9 @@
       "journal": "Science",
       "year": 1995,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": false,
       "access_type": "subscription required (1995 classic)",
       "aspects_covered": [
@@ -8358,7 +8542,9 @@
       "journal": "Neuron",
       "year": 2013,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": false,
       "access_type": "subscription required",
       "aspects_covered": [
@@ -8376,7 +8562,9 @@
       "journal": "Nature",
       "year": 2009,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": false,
       "access_type": "subscription required",
       "aspects_covered": [
@@ -8394,7 +8582,9 @@
       "journal": "Nature Reviews Neuroscience",
       "year": 2016,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": false,
       "access_type": "subscription required",
       "aspects_covered": [
@@ -8412,7 +8602,9 @@
       "journal": "PNAS",
       "year": 2010,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": true,
       "access_type": "PMC open access (PMC2840310)",
       "aspects_covered": [
@@ -8429,7 +8621,9 @@
       "journal": "Science",
       "year": 2006,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": false,
       "access_type": "subscription required",
       "aspects_covered": [
@@ -8446,7 +8640,9 @@
       "journal": "PLoS Biology",
       "year": 2018,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": true,
       "access_type": "PMC open access",
       "aspects_covered": [
@@ -8463,7 +8659,9 @@
       "journal": "PNAS",
       "year": 2026,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": true,
       "access_type": "PMC open access (2026 new publication)",
       "aspects_covered": [
@@ -8481,7 +8679,9 @@
       "journal": "Neuroscience and Biobehavioral Reviews",
       "year": 2024,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract only",
       "aspects_covered": [
@@ -8498,7 +8698,9 @@
       "journal": "Hippocampus",
       "year": 1993,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": false,
       "access_type": "subscription required (1993 classic)",
       "aspects_covered": [
@@ -8514,7 +8716,9 @@
       "journal": "Neuroscience and Biobehavioral Reviews",
       "year": 2021,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": false,
       "access_type": "abstract only",
       "aspects_covered": [
@@ -8531,7 +8735,9 @@
       "journal": "Nature Neuroscience",
       "year": 2013,
       "first_used": "2026-07-21",
-      "used_in_articles": ["2026-07-21-theta-gamma-coupling-working-memory.md"],
+      "used_in_articles": [
+        "2026-07-21-theta-gamma-coupling-working-memory.md"
+      ],
       "full_text_available": false,
       "access_type": "already in library (verified in wiki multiple times)",
       "aspects_covered": [
@@ -8547,7 +8753,9 @@
       "journal": "Clinical Neurophysiology",
       "year": 1999,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "ERD/ERS概念定义与测量方法",
         "α功率降低=皮层激活框架",
@@ -8562,7 +8770,9 @@
       "journal": "Journal of Neuroscience",
       "year": 2000,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "α预期性空间注意偏置",
         "视网膜拓扑特异性α升高=忽略位置标记",
@@ -8577,7 +8787,9 @@
       "journal": "Brain Research Reviews",
       "year": 2007,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "抑制-时序假说（α ERS=主动抑制）",
         "α相位与皮层可兴奋性周期性调制",
@@ -8592,7 +8804,9 @@
       "journal": "Journal of Neuroscience",
       "year": 2008,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "层流电极记录清醒猕猴α层别起源",
         "L5（下颗粒层）是低级视觉区（V2/V4）α主要起搏点",
@@ -8608,7 +8822,9 @@
       "journal": "Journal of Neuroscience",
       "year": 2008,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "预刺激α功率预测视觉辨别表现",
         "α效应独立于整体警觉水平",
@@ -8623,7 +8839,9 @@
       "journal": "Frontiers in Psychology",
       "year": 2011,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "α感觉压制综合综述",
         "跨感觉系统（视觉/听觉/体感）α压制证据",
@@ -8639,7 +8857,9 @@
       "journal": "Frontiers in Psychology",
       "year": 2011,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "脉冲式抑制模型（α=知觉门控）",
         "α相位预测刺激觉察率",
@@ -8654,7 +8874,9 @@
       "journal": "European Journal of Neuroscience",
       "year": 2018,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "α五种功能角色分类框架",
         "α作为预测者（自上而下预测信号）",
@@ -8669,7 +8891,9 @@
       "journal": "Frontiers in Computational Neuroscience",
       "year": 2018,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "α分子机制的药理学证据",
         "GABA能药物增强α（苯二氮䓬类）",
@@ -8684,7 +8908,9 @@
       "journal": "Trends in Cognitive Sciences",
       "year": 2014,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "α-γ vs θ-γ工作记忆双代码假说",
         "α-γ PAC编码感觉内容（视觉空间）",
@@ -8700,7 +8926,9 @@
       "journal": "Neuroscience & Biobehavioral Reviews",
       "year": 2020,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "枕核（pulvinar）作为α广播器",
         "视丘α生成与增益调制机制",
@@ -8716,7 +8944,9 @@
       "journal": "Brain and Behavior",
       "year": 2019,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "α-γ PAC在WM三阶段（编码/维持/提取）的角色",
         "MEG实验直接测量α-γ相位振幅耦合",
@@ -8731,7 +8961,9 @@
       "journal": "Trends in Cognitive Sciences",
       "year": 2020,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "α影响感知决策标准（c）而非灵敏度（d'）",
         "自发振荡与感知决策的关系综述",
@@ -8746,7 +8978,9 @@
       "journal": "Journal of Cognitive Neuroscience",
       "year": 2024,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "α时序绑定窗口假说批判性综述",
         "IAF（个体α频率）与时序整合的因果证据评估",
@@ -8761,7 +8995,9 @@
       "journal": "Neurotherapeutics",
       "year": 2025,
       "first_used": "2026-07-22",
-      "used_in_articles": ["2026-07-22-alpha-oscillations-attention-wm.md"],
+      "used_in_articles": [
+        "2026-07-22-alpha-oscillations-attention-wm.md"
+      ],
       "aspects_covered": [
         "rTMS增强额-枕α-γ PAC改善WM的因果证据",
         "MCI人群中α-γ耦合与WM的临床相关性",
@@ -8769,5 +9005,25 @@
         "α-γ PAC的神经调控干预初步证据"
       ]
     }
-  ]
+  ],
+  "additions_2026-07-24": {
+    "count": 14,
+    "pmids": [
+      "10845062",
+      "22036561",
+      "18615015",
+      "19555645",
+      "32970967",
+      "34168140",
+      "31952856",
+      "38396226",
+      "28521127",
+      "34545196",
+      "29507292",
+      "15113265",
+      "21068303",
+      "22997340"
+    ],
+    "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+  }
 }

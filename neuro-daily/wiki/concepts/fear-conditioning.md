@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-10
-revision_count: 2
+updated: 2026-07-24
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior]
 related: [amygdala, fear-extinction, ltp, nmda-receptor, camkii, ampa-receptor, engram-cells, hebbian-learning, memory-reconsolidation]
 prerequisites: [ltp, nmda-receptor, amygdala]
 opens_questions: [Q-fear-low-road-function, Q-fear-human-amygdala-specificity]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-10-memory-reconsolidation-ptsd]
-key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons]
+key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278", "PMID:34168140", "PMID:22036561"]
 ---
 
 # 恐惧条件反射 (Fear Conditioning)
@@ -27,6 +27,8 @@ key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278"
 记忆写入后，条件性CS通过LA→CeA（含ITC去抑制回路）→PAG/下丘脑驱动冻结和应激激素释放。只有约20%的LA锥体神经元形成增强的CS响应（稀疏代码），这些神经元因具有更高内在兴奋性或CREB水平而被竞争性选中——与海马场所细胞印迹的选择逻辑完全一致。
 
 **记忆修改的窗口（2026-07-10 新增）**：已巩固的恐惧条件记忆并非永久密封——在短暂的CS再激活（无US，产生预测误差）后约1-6小时内，LA突触进入蛋白合成依赖的"再巩固窗口"，可被药物（普萘洛尔、米非司酮）或行为干预（再巩固窗口消退训练）选择性修改。此窗口的存在意味着恐惧条件记忆的固定性是相对的，为 PTSD 治疗提供了理论靶点。详见 [[memory-reconsolidation]]。
+
+**突触可塑性竞争规则决定哪些神经元入选印迹（2026-07-24 新增）**：Jeong 等（2021, Nat Commun, PMID:34168140）直接证明，在 LA 传入突触中，突触权重更高的神经元在 CS-US 配对中更优先发生 LTP，从而"赢得"印迹席位——这是约 20% LA 神经元形成 CS 响应的细胞内在原因。逻辑链：高 CREB 活性 → 高内在兴奋性 → 学习时更易去极化 → NMDA 门更易开启 → 突触 LTP 阈值更低 → 优先入选印迹。这一竞争规则将"兴奋性调控"与"突触 LTP"统一为单一原则：突触权重的初始状态决定竞争的起点。分子机制细节见 Johansen et al. 2011, Cell（PMID:22036561）。
 
 ## 关键机制
 
@@ -56,6 +58,7 @@ key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278"
 | GluA1特异性上调，CaMKII激活 | 体内免疫印迹+行为范式 | PMID:30415278 (PMC6374177) | 高 |
 | 约20% LA神经元发展CS响应 | 多通道电极记录 | PMID:24908482 (PMC4103014) | 高 |
 | 丘脑输入1次训练后增强，皮层输入6次后增强 | 体外切片LTP测量 | PMID:23864645 (PMC3718199) | 中 |
+| 突触权重更高的LA传入神经元优先编码恐惧记忆（竞争规则） | 光学LTP预增强+恐惧训练+c-Fos追踪，小鼠 | PMID:34168140 (Nat Commun, 开放全文) | 高 |
 
 ## 连接
 
@@ -75,9 +78,11 @@ key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278"
 
 ## 修订历史
 
+- 2026-07-24 · 修订 rev3 · 基于《恐惧的印迹与奖励的入侵》(#92) · 当前理解节新增"突触可塑性竞争规则"段落（Jeong 2021, Nat Commun）；证据表新增1行；key_sources新增PMID:34168140, PMID:22036561；source_articles新增2026-07-24
 - 2026-07-10 · 修订 rev2 · 基于《记忆再巩固》(#78) · 当前理解节新增"记忆修改的窗口"段落（再巩固窗口、药物/行为干预靶点）；连接节新增 memory-reconsolidation、NE-β-AR 普萘洛尔注释；source_articles 新增 2026-07-10
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
+- [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]

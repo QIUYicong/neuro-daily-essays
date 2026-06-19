@@ -1,20 +1,54 @@
 {
-  "last_updated": "2026-07-23",
-  "total_articles": 91,
+  "last_updated": "2026-07-24",
+  "total_articles": 75,
   "entries": [
     {
       "date": "2026-07-23",
       "title": "皮层的沉默与苏醒：UP/DOWN 态如何从细胞机制到系统层面编排睡眠中的记忆选择",
       "filename": "2026-07-23-cortical-up-down-state-pfc-gating-memory.md",
-      "wiki_pages_created": ["wiki/concepts/up-down-state-mechanism.md"],
-      "wiki_pages_revised": ["wiki/concepts/cortical-slow-oscillation.md", "wiki/concepts/so-spindle-swr-coupling.md"],
+      "wiki_pages_created": [
+        "wiki/concepts/up-down-state-mechanism.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/cortical-slow-oscillation.md",
+        "wiki/concepts/so-spindle-swr-coupling.md"
+      ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
-      "core_question": "皮层 UP/DOWN 态的细胞内在机制是什么？Layer 5 循环兴奋如何启动 UP 态？KNa 通道 Na⁺ 积累 + 突触抑郁 + SST+ 延迟抑制三种机制如何协同终止 UP 态？PFC 涟漣（Shin & Jadhav 2024）如何在 SO-spindle-SWR 框架中主动进行记忆守门——不仅是"开门"（协调涟漣促进固化），还包括"关门"（独立涟漣主动抑制海马重激活）？",
-      "layer": ["molecular", "cellular", "synaptic", "microcircuit", "brain-region", "whole-brain-network", "cognition"],
+      "core_question": "皮层 UP/DOWN 态的细胞内在机制是什么？Layer 5 循环兴奋如何启动 UP 态？KNa 通道 Na⁺ 积累 + 突触抑郁 + SST+ 延迟抑制三种机制如何协同终止 UP 态？PFC 涟漣（Shin & Jadhav 2024）如何在 SO-spindle-SWR 框架中主动进行记忆守门——不仅是“开门”（协调涟漣促进固化），还包括“关门”（独立涟漣主动抑制海马重激活）？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
       "curriculum_track": "课程脊柱2（睡眠振荡·UP/DOWN态细胞机制，承接#75三重协奏框架）；课程脊柱4（学习记忆·系统巩固·PFC守门新发现）；填补cortical-slow-oscillation的细胞机制空缺；so-spindle-swr-coupling增加PFC主动守门维度",
-      "topic_tags": ["UP state DOWN state", "cortical slow oscillation cellular mechanism", "Layer 5 recurrent excitation", "KNa channel KCNT1 KCNT2", "synaptic depression STP", "SST Martinotti cells delayed inhibition", "Steriade 1993", "Sanchez-Vives McCormick 2000", "Neske 2015 review", "Staresina 2015 human iEEG", "Staresina 2023 MUA staircase", "Shin Jadhav 2024 PFC veto ripples", "top-down suppression hippocampal reactivation", "selective memory gating", "NREM acetylcholine resting potential"],
-      "open_questions_raised": ["Q-updown-termination-weight", "Q-updown-human-mechanism", "Q-pfc-veto-mechanism", "Q-pfc-veto-human"],
+      "topic_tags": [
+        "UP state DOWN state",
+        "cortical slow oscillation cellular mechanism",
+        "Layer 5 recurrent excitation",
+        "KNa channel KCNT1 KCNT2",
+        "synaptic depression STP",
+        "SST Martinotti cells delayed inhibition",
+        "Steriade 1993",
+        "Sanchez-Vives McCormick 2000",
+        "Neske 2015 review",
+        "Staresina 2015 human iEEG",
+        "Staresina 2023 MUA staircase",
+        "Shin Jadhav 2024 PFC veto ripples",
+        "top-down suppression hippocampal reactivation",
+        "selective memory gating",
+        "NREM acetylcholine resting potential"
+      ],
+      "open_questions_raised": [
+        "Q-updown-termination-weight",
+        "Q-updown-human-mechanism",
+        "Q-pfc-veto-mechanism",
+        "Q-pfc-veto-human"
+      ],
       "open_questions_updated": [],
       "article_number": 91
     },
@@ -22,16 +56,53 @@
       "date": "2026-07-22",
       "title": "α振荡：视丘节拍器、感知闸门与人类工作记忆的抑制性容量机制",
       "filename": "2026-07-22-alpha-oscillations-attention-wm.md",
-      "wiki_pages_created": ["wiki/concepts/alpha-oscillations.md"],
-      "wiki_pages_revised": ["wiki/concepts/theta-gamma-coupling.md", "wiki/concepts/working-memory.md", "wiki/systems/thalamus.md"],
+      "wiki_pages_created": [
+        "wiki/concepts/alpha-oscillations.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/theta-gamma-coupling.md",
+        "wiki/concepts/working-memory.md",
+        "wiki/systems/thalamus.md"
+      ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "α振荡（8–12 Hz）是如何通过视丘-皮层回路（TRN-TC环路+枕核广播）产生的？抑制-时序假说（Klimesch 2007）如何解释ERS=主动压制而非闲置？α振荡在空间注意（差异化α拓扑图）和工作记忆（α-γ PAC三阶段）中发挥什么功能？灵长类工作记忆是否通过α-γ跨频率耦合替代/补充θ-γ嵌套实现容量分格（Q-theta-primate）？",
-      "layer": ["molecular", "cellular", "microcircuit", "brain-region", "whole-brain-network", "cognition", "behavior"],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
       "curriculum_track": "课程脊柱2（振荡·α振荡机制与认知功能）；课程脊柱5（认知控制·注意与工作记忆）；承接#89（θ-γ耦合·WM容量）和#67（DAN·注意回路）；回答Q-theta-primate；连接视丘系统（枕核α广播器）",
-      "topic_tags": ["alpha oscillations 8-12 Hz", "ERD ERS", "inhibition timing hypothesis Klimesch 2007", "pulsed inhibition Mathewson 2011", "thalamocortical TRN-TC alpha", "pulvinar LP alpha broadcast", "Bollimunta 2008 awake macaque", "Granger causality L5 alpha", "Worden 2000 retinotopic alpha", "Foxe Snyder 2011 sensory suppression", "van Dijk 2008 prestimulus alpha", "alpha affects criterion c", "Samaha 2020 perceptual decision", "alpha-gamma PAC working memory", "Roux Uhlhaas 2014 dual code", "Wianda Ross 2019 WM three stages", "Yuan 2025 rTMS MCI"],
-      "open_questions_raised": ["Q-alpha-thalamic-vs-cortical", "Q-alpha-c-vs-dprime"],
-      "open_questions_updated": ["Q-theta-primate"],
+      "topic_tags": [
+        "alpha oscillations 8-12 Hz",
+        "ERD ERS",
+        "inhibition timing hypothesis Klimesch 2007",
+        "pulsed inhibition Mathewson 2011",
+        "thalamocortical TRN-TC alpha",
+        "pulvinar LP alpha broadcast",
+        "Bollimunta 2008 awake macaque",
+        "Granger causality L5 alpha",
+        "Worden 2000 retinotopic alpha",
+        "Foxe Snyder 2011 sensory suppression",
+        "van Dijk 2008 prestimulus alpha",
+        "alpha affects criterion c",
+        "Samaha 2020 perceptual decision",
+        "alpha-gamma PAC working memory",
+        "Roux Uhlhaas 2014 dual code",
+        "Wianda Ross 2019 WM three stages",
+        "Yuan 2025 rTMS MCI"
+      ],
+      "open_questions_raised": [
+        "Q-alpha-thalamic-vs-cortical",
+        "Q-alpha-c-vs-dprime"
+      ],
+      "open_questions_updated": [
+        "Q-theta-primate"
+      ],
       "article_number": 90
     },
     {
@@ -46,7 +117,9 @@
         "wiki/concepts/gamma-oscillations.md",
         "wiki/concepts/working-memory.md"
       ],
-      "contested_claims_logged": ["C-2026-07-21-01（啮齿类慢/快γ路由在人类中的可重复性）"],
+      "contested_claims_logged": [
+        "C-2026-07-21-01（啮齿类慢/快γ路由在人类中的可重复性）"
+      ],
       "contested_claims_evidence_updated": [],
       "core_question": "θ振荡每个周期内嵌套的γ爆发数如何决定工作记忆容量？Colgin 2009的双γ通道信息路由（慢γ-CA3/快γ-MEC）如何在人类海马中实现时分多路复用？",
       "layer": [
@@ -5353,6 +5426,59 @@
         "reinforcement-learning",
         "generative-replay",
         "knowledge-distillation"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "article_number": 92,
+      "title": "恐惧的印迹与奖励的入侵：杏仁核如何竞争选择恐惧记忆，又如何将消退交给奖励系统",
+      "filename": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "fear-conditioning",
+        "fear-extinction",
+        "amygdala",
+        "engram-cells"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "杏仁核 LA 内约 20% 的神经元如何“赢得”恐惧记忆的印迹席位？消退记忆的细胞基础是什么，为什么消退印迹与奖励神经元重叠？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": [
+        "fear-memory",
+        "engram-cells",
+        "amygdala-circuits",
+        "ptsd-translational"
+      ],
+      "key_sources": [
+        "PMID:34168140",
+        "PMID:31952856",
+        "PMID:38396226",
+        "PMID:25162525",
+        "PMID:29507292"
+      ],
+      "unresolved_questions_opened": [
+        "Q-extinction-reward-overlap"
+      ],
+      "unresolved_questions_advanced": [],
+      "tags": [
+        "amygdala",
+        "fear-conditioning",
+        "fear-extinction",
+        "engram-cells",
+        "synaptic-plasticity",
+        "ltp",
+        "reward",
+        "ptsd",
+        "optogenetics"
       ]
     }
   ],

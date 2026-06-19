@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-07-05
-revision_count: 5
+updated: 2026-07-24
+revision_count: 6
 dimensions: [cellular, brain-region, behavior, cognition, methods]
-related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons]
+related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons, amygdala, fear-conditioning, fear-extinction]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
-opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence]
-source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-07-05-engram-allocation-memory-competition]
-key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647", "PMID:29709212 (PMC9623596)", "PMID:27251287 (PMC5063500)", "PMID:41470040 (PMC12754038)"]
+opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence, Q-extinction-reward-overlap]
+source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-07-05-engram-allocation-memory-competition, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons]
+key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647", "PMID:29709212 (PMC9623596)", "PMID:27251287 (PMC5063500)", "PMID:41470040 (PMC12754038)", "PMID:34168140", "PMID:31952856", "PMID:25162525"]
 ---
 
 # 印迹细胞 (Engram Cells)
@@ -107,12 +107,19 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 
 **与竞争-遴选架构的关系**：印迹细胞分配是"嵌套竞争-遴选架构"（[[competition-selection-principle]]）在细胞层次上的具体实例。
 
+**杏仁核 LA 的突触可塑性竞争规则（2026-07-24 新增）**：Jeong 等（2021, Nat Commun, PMID:34168140）用光遗传学直接证明，突触权重是 LA 恐惧印迹竞争的关键变量——预先增强传入 LA 的特定突触（光学 LTP）→ 恐惧训练后这批神经元优先编码恐惧记忆（更高 c-Fos 活化率、更强 CS 响应）。这将"兴奋性竞争"（CREB 驱动的内在兴奋性）和"突触 LTP"（外部强化）统一为单一机制：突触权重的初始状态决定竞争起点。这是迄今对"恐惧印迹约 20% 稀疏性机制"最直接的实验证明。
+
+**消退印迹 = BLA 奖励神经元（2026-07-24 新增）**：Zhang, Kim & Tonegawa（2020, Neuron, PMID:31952856）揭示，消退记忆的细胞载体不是全新的中性细胞，而是 BLA 中天然的**奖励响应神经元**——激活消退印迹细胞产生奖励行为（CPP），与自然奖励神经元高度重叠。恐惧印迹与消退印迹是**不同细胞群体**（Luft et al. 2024, PMID:38396226），两套印迹并行存在，情景信号决定哪套激活。
+
+**情感价值的可逆性（2026-07-24 新增）**：Redondo 等（2014, Nature, PMID:25162525）证明，同一海马 DG 印迹的情感价值（恐惧/奖励）可以通过新的学习经历完全逆转，机制在于 DG→BLA 连接权重的重塑（将 DG 激活后的下游路由从 BLA 恐惧回路切换到 BLA 奖励回路）。印迹本身不存储"价值"，价值由下游路由决定——BLA 是情感价值打标签的终端节点。
+
 ## 修订历史
 
 - 2026-05-31 · 创建 · 填补四个页面的高优先级悬空引用（ltp, hebbian-learning, dendritic-computation, place-cell）· 基于《印迹细胞的光子证明》文章 · 初始置信度：高
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；系统巩固框架补充：沉默印迹（Roy 2016）可能是被阻断系统巩固（突触权重未随时间恢复）的结果；皮层印迹的建立是系统巩固的细胞层面输出
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"印迹细胞分配的竞争机制"小节，将 CREB 竞争纳入嵌套竞争-遴选架构；新增 [[competition-selection-principle]] 到 related 字段
 - 2026-06-09 · 修订 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · 补充 c-fos-tTA 标记系统的技术细节（PMID:24478647 全文，dox 窗口机制，~2-6% DG 细胞稀疏性）；新增 [[optogenetics]] 到 related；补充假记忆实验的完整分子-行为链；将 revision_count 升至 4
+- 2026-07-24 · 修订 rev6 · 基于《恐惧的印迹与奖励的入侵》(#92) · 竞争机制节新增三段：(1) Jeong 2021 LA突触可塑性竞争规则（PMID:34168140，开放全文）；(2) Zhang 2020 消退印迹=BLA奖励神经元（PMID:31952856）；(3) Redondo 2014 情感价值可逆转性（PMID:25162525）；related新增amygdala/fear-conditioning/fear-extinction；opens_questions新增Q-extinction-reward-overlap；key_sources/source_articles相应更新
 - 2026-07-05 · 修订 · 基于《记忆的竞争法庭》文章（#73）· 分配机制已独立成专页 [[memory-allocation]]，记忆联结已独立成专页 [[memory-linking]]；related 字段新增 memory-allocation、memory-linking、pv-interneurons；key_sources 新增 PMID:29709212、27251287、41470040；重要更新：竞争分配的"时间门控"（训练后 5 min 窗口）和记忆联结（~6h 兴奋性维持窗口）之间的关系在 memory-allocation 和 memory-linking 页面有详细描述
 
 ## 来源文章
@@ -120,3 +127,4 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-06-09-optogenetics-causal-neuroscience]]
+- [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]

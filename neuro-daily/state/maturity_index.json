@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-23",
+  "last_updated": "2026-07-24",
   "levels": [
     "speculative",
     "emerging",
@@ -279,7 +279,16 @@
       "confidence": "high",
       "supporting_sources": 4,
       "last_status_change": "2026-05-31",
-      "reason": "创建 2026-05-31。光遗传学激活印迹细胞的系列实验（Liu 2012, Ramirez 2013, Ryan 2015, Roy 2016）提供了多重独立、跨实验室的直接证据；c-Fos-tTA系统 + ChR2 的方法学已成为领域标准范式；沉默印迹在蛋白质合成抑制和AD模型中均有重复证据；故 status=established / confidence=high。主要局限：所有直接操控实验均在啮齿类，人类证据仍间接；20–40% 重叠率等方法学限制尚待解决；但核心论断（激活印迹细胞充分激活记忆行为）具有高置信度。"
+      "reason": "创建 2026-05-31。光遗传学激活印迹细胞的系列实验（Liu 2012, Ramirez 2013, Ryan 2015, Roy 2016）提供了多重独立、跨实验室的直接证据；c-Fos-tTA系统 + ChR2 的方法学已成为领域标准范式；沉默印迹在蛋白质合成抑制和AD模型中均有重复证据；故 status=established / confidence=high。主要局限：所有直接操控实验均在啮齿类，人类证据仍间接；20–40% 重叠率等方法学限制尚待解决；但核心论断（激活印迹细胞充分激活记忆行为）具有高置信度。",
+      "last_updated": "2026-07-24",
+      "revision_history": [
+        {
+          "rev": 6,
+          "date": "2026-07-24",
+          "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons",
+          "change": "竞争机制节新增3段（Jeong 2021 LA竞争规则、Zhang 2020 消退印迹=奖励、Redondo 2014 价值逆转）；related+3个；新增Q-extinction-reward-overlap"
+        }
+      ]
     },
     {
       "slug": "voltage-gated-calcium-channels",
@@ -602,21 +611,21 @@
       "slug": "amygdala",
       "status": "established",
       "confidence": "high",
-      "last_changed": "2026-05-30",
+      "last_changed": "2026-07-24",
       "reason": "杏仁核恐惧回路（LA/ITC/CeA架构）有50+年多实验室重复验证；LA-LTP因果证明（Nabavi 2014）；ITC必要性直接证据（Likhtik 2008）"
     },
     {
       "slug": "fear-conditioning",
       "status": "established",
       "confidence": "high",
-      "last_changed": "2026-05-30",
+      "last_changed": "2026-07-24",
       "reason": "LA-NMDA-LTP机制有30+年证据；光遗传双向因果证明（Nabavi 2014）是最高标准实验"
     },
     {
       "slug": "fear-extinction",
       "status": "established",
       "confidence": "high",
-      "last_changed": "2026-05-30",
+      "last_changed": "2026-07-24",
       "reason": "消退作为新学习的证据充分（自发恢复/再激活/更新三类经典现象）；IL→ITC回路有多项optogenetics确认；vmPFC预测消退的人类fMRI证据多个独立研究"
     },
     {
