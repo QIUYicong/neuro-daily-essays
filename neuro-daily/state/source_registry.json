@@ -1,7 +1,157 @@
 {
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "23972592",
+      "pmcid": null,
+      "title": "The sensory neurons of touch",
+      "authors_short": "Abraira VE, Ginty DD",
+      "journal": "Neuron",
+      "year": 2013,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "低阈值机械感受器（LTMR）系统分类（SA1/SA2/RA1/RA2）",
+        "脊髓背角机械感觉柱（dorsal horn mechanosensory columns）",
+        "LTMR 集成活动驱动触觉感知的综合回路"
+      ]
+    },
+    {
+      "pmid": "29519481",
+      "pmcid": null,
+      "title": "Somatosensory maps",
+      "authors_short": "Harding-Forrester S, Feldman DE",
+      "journal": "Handbook of Clinical Neurology",
+      "year": 2018,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "S1 拓扑地图综述（灵长类/人类/啮齿类比较）",
+        "皮层放大因子（cortical magnification factor）",
+        "地图可塑性跨物种综述"
+      ]
+    },
+    {
+      "pmid": "15730450",
+      "pmcid": null,
+      "title": "Physiological characteristics of low-threshold mechanoreceptors in joints, muscle and skin in human subjects",
+      "authors_short": "Macefield VG",
+      "journal": "Clinical and Experimental Pharmacology and Physiology",
+      "year": 2005,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "人体微神经记录法（microneurography）",
+        "四类 LTMR 的电生理特征（频率偏好、感受野大小）",
+        "SA2/Ruffini 在人类中的争议地位"
+      ]
+    },
+    {
+      "pmid": "1597696",
+      "pmcid": null,
+      "title": "Topographic reorganization of the hand representation in cortical area 3b owl monkeys trained in a frequency-discrimination task",
+      "authors_short": "Recanzone GH, Merzenich MM et al.",
+      "journal": "Journal of Neurophysiology",
+      "year": 1992,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "行为训练后 S1 area 3b 手部表征扩大（频率辨别任务）",
+        "被动刺激无此效应——行为相关性门控 S1 可塑性",
+        "注意力门控皮层可塑性的直接实验证据"
+      ]
+    },
+    {
+      "pmid": "8393727",
+      "pmcid": null,
+      "title": "Reorganization of cortical representations of the hand following alterations of skin inputs induced by nerve injury, skin island transfers, and experience",
+      "authors_short": "Merzenich MM",
+      "journal": "Journal of Hand Therapy",
+      "year": 1993,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "Merzenich 10种外周操纵综述——皮层表征随触觉经历重塑",
+        "成年灵长类 S1 可塑性：截肢、神经切断、皮岛转移的皮层效应",
+        "奠基性综述——Merzenich 可塑性革命"
+      ]
+    },
+    {
+      "pmid": "6340591",
+      "pmcid": null,
+      "title": "The reorganization of somatosensory cortex following peripheral nerve damage in adult and developing mammals",
+      "authors_short": "Kaas JH",
+      "journal": "Annual Review of Neuroscience",
+      "year": 1983,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "外周神经损伤后皮层重组（成年哺乳类和发育期）",
+        "重组机制：现有解剖连接的多样化表达",
+        "奠基性综述——奠定成年皮层可塑性范式"
+      ]
+    },
+    {
+      "pmid": "15018943",
+      "pmcid": null,
+      "title": "Synaptic basis for developmental plasticity in somatosensory cortex",
+      "authors_short": "Foeller E, Feldman DE",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2004,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "S1 可塑性的突触机制：LTP/LTD 在特定通路中的作用",
+        "抑制性突触数量调节在可塑性中的角色",
+        "发育期与成年期可塑性机制异同"
+      ]
+    },
+    {
+      "pmid": "28658619",
+      "pmcid": null,
+      "title": "Peripheral Sensory Deprivation Restores Critical-Period-like Plasticity to Adult Somatosensory Thalamocortical Inputs",
+      "authors_short": "Chung S, Bhatt DL et al.",
+      "journal": "Cell Reports",
+      "year": 2017,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "感觉剥夺重启成年桶状皮层至类关键期可塑性",
+        "沉默突触再现；GluN2B-NMDA 受体重新表达；LTP 恢复",
+        "GABA 去抑制机制在成年皮层可塑性中的角色"
+      ]
+    },
+    {
+      "pmid": "32428706",
+      "pmcid": null,
+      "title": "Brain (re)organisation following amputation: Implications for phantom limb pain",
+      "authors_short": "Makin TR, Flor H",
+      "journal": "NeuroImage",
+      "year": 2020,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "截肢后皮层重组与幻肢痛关系批判性综述",
+        "因果链复杂：重组可能是截肢的并行效应而非幻肢痛原因",
+        "Ramachandran 镜箱疗法的神经机制讨论"
+      ]
+    },
+    {
+      "pmid": "29285773",
+      "pmcid": null,
+      "title": "Functional architecture of the somatosensory homunculus detected by electrostimulation",
+      "authors_short": "Roux FE, Djidjeli I, Durand JB",
+      "journal": "The Journal of Physiology",
+      "year": 2018,
+      "first_used": "2026-07-29",
+      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "aspects_covered": [
+        "50 名患者 SEEG 绘制精细 homunculus；手指前后梯度（指尖在后、近端在前）",
+        "修正 Penfield 经典图——手指块实为精细梯度结构",
+        "皮层电刺激（SEEG）直接绘制 S1 体图"
+      ]
+    },
     {
       "pmid": "11427697",
       "pmcid": null,

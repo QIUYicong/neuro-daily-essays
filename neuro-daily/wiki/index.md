@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-28（第96篇·耳蜗音调拓扑图×听觉皮层层级→鸡尾酒会问题皮层解答）· 主题页总数：**169**（新建3页：systems/auditory-cortex、systems/cochlea、concepts/tonotopic-map；修订1页：systems/thalamus rev4→rev5（新增MGBv/MGBd/MGBm三区）；图谱173节点、1042边；新增Q-ac-01至Q-ac-04开放问题）
+> 最后更新：2026-07-29（第97篇·S1初级躯体感觉皮层×LTMR机械感受器×皮层体图可塑性→Merzenich革命）· 主题页总数：**173**（新建4页：systems/somatosensory-cortex、neurons/mechanoreceptor-ltmr、concepts/cortical-plasticity、concepts/homunculus；修订1页：concepts/hebbian-learning rev5→rev6（新增皮层可塑性连接）；图谱177节点、1056边；新增Q-s1-01至Q-s1-03开放问题）
 
 ---
 
@@ -30,6 +30,7 @@
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝 **[NEW 2026-06-03]**
+- 🟢 [低阈值机械感受器（LTMR）](neurons/mechanoreceptor-ltmr.md) — 皮肤中专职编码轻触/振动/压力的四类感受器（SA1 Merkel/SA2 Ruffini/RA1 Meissner/RA2 Pacini）；PIEZO2通道介导机械转导；脊髓背角机械感觉柱整合信号 **[NEW 2026-07-29]**
 
 ## circuits（回路）
 
@@ -55,7 +56,9 @@
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；Sahay 2011成人神经发生因果改善分离 **[NEW 2026-06-24]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
-- 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑
+- 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑；皮层拓扑地图的经验依赖重组（Merzenich 1983–1993）是其在全脑图谱尺度的直接证明 **[修订 rev6 2026-07-29]**
+- 🟢 [皮层可塑性](concepts/cortical-plasticity.md) — 成年初级感觉皮层（S1/A1/V1）的经验依赖拓扑重组；Merzenich系列实验；需行为相关性（注意门控）；感觉剥夺重启关键期状态；多时间尺度机制（GABA解除/LTP/轴突出芽）**[NEW 2026-07-29]**
+- 🟢 [感觉小人](concepts/homunculus.md) — Penfield（1950）S1拓扑体图；比例失真正比于感受器密度（指尖140 SA1/cm² vs 背部1/cm²）；21世纪SEEG/fMRI揭示精细内部梯度；动态可塑小人 **[NEW 2026-07-29]**
 - 🔵 [突触时序依赖可塑性（STDP）](concepts/stdp.md) — Hebb 规则的时间分辨精化版：前先后→LTP，后先前→LTD；NMDA 受体±20ms 仲裁；θ 前进体内桥接；三因素扩展 **[NEW 2026-06-19]**（填补 hebbian-learning 悬空引用）
 - 🟢 [皮层分层结构（六层）](concepts/cortical-layers.md) — L1–L6 各层细胞类型、输入/输出投射和振荡特征；前馈（L2/3→高级L4，γ驱动型）vs 反馈（L5/6→低级L1/2/3，β调制型绕过L4）的层级不对称；L4棘突星形细胞、L5厚毛绒锥体细胞两极整合、L6 CT丘脑门控 **[NEW 2026-07-18]**
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
@@ -172,6 +175,7 @@
 - 🟢 [嗅球（主嗅觉球）](systems/olfactory-bulb.md) — 一受体一小球规则将OR激活映射为拓扑图；僧帽/簇状细胞经LOT直接投射至梨状皮层、杏仁核、内嗅皮层（无视丘中继，所有感觉系统唯一）；颗粒细胞树突-树突双向突触实现侧向抑制和对比度增强；β/γ振荡与梨状皮层同步 **[NEW 2026-07-26]**
 - 🟢 [听觉皮层](systems/auditory-cortex.md) — 核心（A1+R，Heschl回V形镜像）-带状-旁带状三级层级；11张音调拓扑场图；腹侧"What"流（声音身份）+ 背侧"Where/How"流（空间/运动）；STG群体响应编码被注意者谱时特征（鸡尾酒会效应）；pSTG STRF重建语音（词语精确率0.89） **[NEW 2026-07-28]**
 - 🟢 [耳蜗](systems/cochlea.md) — 基底膜行波实现频率-位置地点编码（cochleotopic map）；外毛细胞 Prestin 耳蜗放大器（+40–50 dB，Q因子×100）；内毛细胞 tip links / TMC1-TMC2 / Ca_v1.3 / ribbon synapse 机械-电换能级联；是听觉通路所有拓扑图的物理起点 **[NEW 2026-07-28]**
+- 🟢 [初级躯体感觉皮层（S1）](systems/somatosensory-cortex.md) — 四亚区（3a/3b/1/2）×感觉小人（homunculus）×皮层放大因子；Merzenich系列实验确立经验依赖皮层地图可塑性（截指后邻指侵占/训练后表征扩张）；可塑性需要行为相关性（注意门控）；感觉剥夺重启成年皮层至关键期状态 **[NEW 2026-07-29]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**

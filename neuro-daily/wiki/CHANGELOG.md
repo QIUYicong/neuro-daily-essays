@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-07-29（文章 #97·S1初级躯体感觉皮层×LTMR机械感受器×Merzenich可塑性革命）
+
+**源文章**：[[2026-07-29-s1-somatosensory-cortex-body-map-plasticity]] —《触觉的神经地图：S1 初级躯体感觉皮层如何将皮肤信号变为身体意象，以及为什么这张地图是活的》
+
+**新建页面（4）**：
+- `wiki/systems/somatosensory-cortex.md`（新建）— 四亚区（3a/3b/1/2）及其输入偏好；感觉小人与皮层放大因子；Merzenich 系列实验（截指后皮层重组/行为训练后表征扩张/被动刺激无可塑性对照）；多时间尺度可塑性机制（GABA解除/LTP/LTD/轴突出芽）；感觉剥夺重启成年关键期状态（PMID:28658619）；幻肢痛与皮层侵占；revision_count=1；置信度：高
+- `wiki/neurons/mechanoreceptor-ltmr.md`（新建）— 四类 LTMR 特性对比表（SA1 Merkel/SA2 Ruffini/RA1 Meissner/RA2 Pacini）；PIEZO2 机械转导；脊髓背角机械感觉柱整合（Abraira & Ginty 2013）；感受野密度与皮层放大因子的数量关系；revision_count=1；置信度：高
+- `wiki/concepts/cortical-plasticity.md`（新建）— 经验依赖皮层拓扑重组是新皮层普遍属性；Merzenich 1992 频率辨别训练实验（行为相关性必要性/阴性被动对照）；三时间尺度机制（GABA解除-Hebbian LTP/LTD-结构重塑）；行为相关性门控（胆碱能增益）；感觉剥夺类关键期重启；病理面（幻肢痛/焦肌张力障碍）；revision_count=1；置信度：高
+- `wiki/concepts/homunculus.md`（新建）— Penfield 感觉小人（1950术中电刺激）；比例失真原理（感受器密度正比）；现代修正（Roux 2018 指节梯度 PMID:29285773；Saadon-Grosman 2020 高级皮层躯干权重差异 PMID:32954277）；动态可塑性；revision_count=1；置信度：高
+
+**修订页面（1）**：
+- `wiki/concepts/hebbian-learning.md` rev5→rev6 — updated=2026-07-29；related 新增 cortical-plasticity 和 somatosensory-cortex；连接段新增"皮层可塑性是 Hebb 原理在皮层地图尺度的体现"和"Merzenich 系列实验（1983–1993）是 Hebb 原理在皮层地图层面的直接体内证据"；source_articles 新增当日文章
+
+**矛盾登记（0）**：无新矛盾。幻肢痛与皮层重组的因果关系（Makin & Flor 2020批评"重组→疼痛"简单因果链）已在文章和 somatosensory-cortex.md 中标注为"Q-s1-幻肢因果争议"，但因不与既有已登记主张直接冲突，不触发矛盾协议。
+
+**新增开放问题（3）**：
+- Q-s1-01（中优先级）：大规模 S1 皮层重组中，轴突出芽 vs. 潜伏连接揭露的相对贡献和时间分工
+- Q-s1-02（中优先级）：S1 在疼痛处理中的角色——"触觉/疼痛"功能分工是否干净？
+- Q-s1-03（中优先级）：SA2（Ruffini 终末）在人类本体感觉中的确切贡献（人类电生理证据稀少）
+
+**图谱**：177 节点（+4：somatosensory-cortex、mechanoreceptor-ltmr、cortical-plasticity、homunculus），1056 边（+15 条新边，见 _graph.json）
+
+---
+
 ## 2026-07-28（文章 #96·耳蜗音调拓扑图×听觉皮层层级→鸡尾酒会问题的皮层解答）
 
 **源文章**：[[2026-07-28-auditory-cortex-tonotopy]] —《从蜗旋到皮层音图：耳蜗如何将声音的物理频率映射为大脑的功能地图，听觉皮层如何通过注意力解决"鸡尾酒会问题"》

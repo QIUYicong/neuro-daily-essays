@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-07-29",
   "levels": [
     "speculative",
     "emerging",
@@ -9,6 +9,38 @@
     "contested"
   ],
   "pages": [
+    {
+      "slug": "somatosensory-cortex",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 7,
+      "last_status_change": "2026-07-29",
+      "reason": "创建 2026-07-29（文章 #97）。S1 基本解剖与四亚区（3a/3b/1/2）特化功能是1960–1990年代大量电生理记录的教科书级共识（Kaas 1983/Merzenich 组综述，高）；皮层放大因子正比于感受器密度（指尖 SA1 140/cm² vs 背部 1/cm²，Macefield 2005 microneurography，高）；DC-ML 通路保真传递是解剖+电生理双重确认（高）；四亚区功能特化（3b 触觉/3a 本体/1 纹理/2 形状）：多电极记录+损毁实验（高）；皮层可塑性（Merzenich 1983–1993 系列经典实验）：高；SEEG 精细 homunculus 指节梯度（Roux 2018 PMID:29285773，50名患者）：高。整体：established/high。未解：亚区整合回路细节（Q-s1-03）、幻肢痛因果链（Q-s1-02）。"
+    },
+    {
+      "slug": "mechanoreceptor-ltmr",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-07-29",
+      "reason": "创建 2026-07-29（文章 #97）。四类 LTMR（SA1-Merkel、SA2-Ruffini、RA1-Meissner、RA2-Pacinian）的基本分类是1960年代以来电生理与解剖的教科书级共识；SA1/RA1/RA2 的频率偏好（0-16/20-50/100-300 Hz）有人类微神经记录直接证据（Macefield 2005 PMID:15730450）；Abraira & Ginty 2013 综述（PMID:23972592）提供 LTMR 系统的现代综合框架。SA2（Ruffini）在人类中的存在仍有争议（在猫/灵长类已确认，人类微神经记录中较难检测）。整体：established/high，SA2 部分降为 medium。"
+    },
+    {
+      "slug": "cortical-plasticity",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 6,
+      "last_status_change": "2026-07-29",
+      "reason": "创建 2026-07-29（文章 #97）。成年皮层可塑性（Merzenich 1983–1993 革命）是神经科学领域最重要的范式转变之一，有大量重复的直接实验证据：截肢后 S1 侵占（Merzenich 1983/1984 成年枭猴，PMID:6340591/PMID:8393727）、训练后频率辨别表征扩大（Recanzone 1992 PMID:1597696，直接对照）；GABA 去抑制作为快速重组机制（Chung 2017 PMID:28658619，桶状皮层因果实验）；LTP/LTD 突触机制（Foeller & Feldman 2004 PMID:15018943）；截肢后重组与幻肢痛相关（Makin & Flor 2020 批判综述 PMID:32428706）。行为相关性门控机制（Q-s1-01）是未解问题。整体：established/high。"
+    },
+    {
+      "slug": "homunculus",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 3,
+      "last_status_change": "2026-07-29",
+      "reason": "创建 2026-07-29（文章 #97）。Penfield 感觉小人（1950）的基本特征（非等比例拓扑体图、手指/嘴唇皮层面积远超解剖面积）是60年以上持续验证的神经科学常识；现代 SEEG（Roux 2018 PMID:29285773，50名患者）提供高分辨率定量修正（指节梯度、而非简单"手指块"）；Saadon-Grosman 2020（PMID:32954277，全身 fMRI 刺激）揭示 S2 等高级皮层对躯干比例更大。整体：established/high。对 Penfield 1950 经典图的精细修正（梯度结构、性别差异）降为中置信度。"
+    },
     {
       "slug": "auditory-cortex",
       "status": "established",

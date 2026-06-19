@@ -4,8 +4,8 @@
 
 ## 2026年7月（进行中）
 
-*本月截至日期：2026-07-28*
-*本月新增文章：#67（2026-07-01 背侧注意网络）；... （中间省略，同上）...；#91（2026-07-23 UP/DOWN态）；#92（2026-07-24 杏仁核恐惧印迹）；#93（2026-07-25 scRNA-seq细胞类型）；#94（2026-07-26 嗅觉编码）；#95（2026-07-27 网格细胞×头向细胞×边界细胞×认知地图——O'Keefe 1971场所细胞→Hafting 2005网格细胞→2014诺贝尔奖；CAN模型六边形涌现机制；头向细胞环形吸引子；边界细胞路径积分误差校正；Doeller 2010人类fMRI六边形信号（PMID:20090680，PMC3173857）；Jeffery 2024拼贴图批评；认知地图延伸至概念/社会空间；DeepMind 2018网格细胞深度强化学习；新建neurons/head-direction-cells和neurons/border-cells；修订grid-cell（rev1→rev2）和place-cell（rev3→rev4）；新增Q-hd-ring-attractor-location/Q-border-cells-mechanism/Q-grid-human-single-unit；课程脊柱3×脊柱4）；#96（2026-07-28 耳蜗×音调拓扑图×听觉皮层×鸡尾酒会问题——von Bekesy行波到Prestin耳蜗放大器；TMC1/TMC2机械-电换能；11张听觉场图双轴组织；Mesgarani 2012 STG鸡尾酒会注意性选择；Pasley 2012 STRF语音重建（词语精确率0.89）；新建systems/auditory-cortex、systems/cochlea、concepts/tonotopic-map；修订thalamus（rev4→rev5，新增MGBv三区）；新增Q-ac-01至Q-ac-04；课程脊柱3）；共 26 篇（月度第1–26篇）*
+*本月截至日期：2026-07-29*
+*本月新增文章：#67（2026-07-01 背侧注意网络）；... （中间省略，同上）...；#91（2026-07-23 UP/DOWN态）；#92（2026-07-24 杏仁核恐惧印迹）；#93（2026-07-25 scRNA-seq细胞类型）；#94（2026-07-26 嗅觉编码）；#95（2026-07-27 网格细胞×头向细胞×边界细胞×认知地图——O'Keefe 1971场所细胞→Hafting 2005网格细胞→2014诺贝尔奖；CAN模型六边形涌现机制；头向细胞环形吸引子；边界细胞路径积分误差校正；Doeller 2010人类fMRI六边形信号（PMID:20090680，PMC3173857）；Jeffery 2024拼贴图批评；认知地图延伸至概念/社会空间；DeepMind 2018网格细胞深度强化学习；新建neurons/head-direction-cells和neurons/border-cells；修订grid-cell（rev1→rev2）和place-cell（rev3→rev4）；新增Q-hd-ring-attractor-location/Q-border-cells-mechanism/Q-grid-human-single-unit；课程脊柱3×脊柱4）；#96（2026-07-28 耳蜗×音调拓扑图×听觉皮层×鸡尾酒会问题——von Bekesy行波到Prestin耳蜗放大器；TMC1/TMC2机械-电换能；11张听觉场图双轴组织；Mesgarani 2012 STG鸡尾酒会注意性选择；Pasley 2012 STRF语音重建（词语精确率0.89）；新建systems/auditory-cortex、systems/cochlea、concepts/tonotopic-map；修订thalamus（rev4→rev5，新增MGBv三区）；新增Q-ac-01至Q-ac-04；课程脊柱3）；#97（2026-07-29 触觉的神经地图——S1躯体感觉皮层×四类LTMR×感觉小人×Merzenich可塑性革命；SA1-Merkel/SA2-Ruffini/RA1-Meissner/RA2-Pacinian频率偏好与感受野；DC-ML通路→VPLc→S1拓扑保真；四亚区3a/3b/1/2特化处理；Penfield经典图→Roux 2018 SEEG手指梯度修正；Merzenich三个经典实验（截肢/频率训练/指融合）→成年皮层可塑性范式革命；GABA去抑制（分钟）→Hebbian LTP（天）→结构重塑（周）三阶段机制；幻肢痛×皮层侵占×Makin & Flor 2020因果链批评；Ramachandran镜箱；CNN感受野类比；新建systems/somatosensory-cortex、neurons/mechanoreceptor-ltmr、concepts/cortical-plasticity、concepts/homunculus；修订hebbian-learning（rev5→rev6）；新增Q-s1-01/Q-s1-02/Q-s1-03；课程脊柱3）；共 27 篇（月度第1–27篇）*
 
 ### 本月文章摘要
 
@@ -35,6 +35,7 @@
 | 90 | 2026-07-22 | α振荡：视丘节拍器、感知闸门与人类工作记忆的抑制性容量机制 | 分子/细胞/微回路/脑区/全脑网络/认知/行为 |
 | 91 | 2026-07-23 | 皮层的沉默与苏醒：UP/DOWN 态如何从细胞机制到系统层面编排睡眠中的记忆选择 | 分子/突触/细胞/微回路/脑区/全脑网络/认知 |
 | 96 | 2026-07-28 | 从蜗旋到皮层音图：耳蜗如何将声音的物理频率映射为大脑的功能地图，听觉皮层如何通过注意力解决"鸡尾酒会问题" | 分子/细胞/脑区/全脑网络/认知 |
+| 97 | 2026-07-29 | 触觉的神经地图：初级躯体感觉皮层（S1）如何将身体表面的触觉信号转化为皮层体图，以及 Merzenich 革命揭示的成年皮层惊人可塑性 | 分子/细胞/脑区/行为/认知 |
 
 ### 本月核心主题
 7月前十篇形成四条并行线索，第77篇补充了"情绪记忆的内分泌调控"新线索，第79篇补充了"新奇性驱动记忆标记"线索：**（1）认知控制与注意**（07-01 DAN）+ **（2）突触可塑性稳定性与记忆编码**（07-02 星形胶质细胞、07-03 稳态缩放、07-04 E/I 平衡、07-05 印迹竞争）+ **（3）大脑维护基础设施——睡眠的时间架构**（07-06 胶质淋巴清洗、07-07 SO-纺锤波-SWR、07-08 昼夜节律 SCN 主时钟）+ **（4）情绪记忆与调质门控**（07-09 糖皮质激素-杏仁核-去甲肾上腺素三角协同；07-10 记忆再巩固与 PTSD 靶点；07-11 LC-DA 新奇探测与海马记忆持续性门控）。第79篇将第77/78篇的"应激/情绪→GC-NE→BLA记忆强化"线索的对称面——"新奇性→LC-DA→海马记忆持续性升级"——联结为完整的双通道调质记忆选择框架。

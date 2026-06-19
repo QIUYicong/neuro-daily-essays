@@ -6,13 +6,13 @@ type: theory
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-19
-revision_count: 5
+updated: 2026-07-29
+revision_count: 6
 dimensions: [synaptic, cognition, behavior, whole-brain-network]
-related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy, synaptic-scaling, homeostatic-plasticity]
+related: [nmda-receptor, ltp, ampa-receptor, camkii, three-factor-learning-rule, stdp, btsp, theta-oscillations, sharp-wave-ripples, temporal-coding-hierarchy, synaptic-scaling, homeostatic-plasticity, cortical-plasticity, somatosensory-cortex]
 prerequisites: [synaptic-transmission, action-potential, nmda-receptor]
 opens_questions: [Q-hebbian-global-error, Q-hebbian-stability]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error, 2026-07-17-stdp-spike-timing-dependent-plasticity]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-07-dopamine-reward-prediction-error, 2026-07-17-stdp-spike-timing-dependent-plasticity, 2026-07-29-s1-somatosensory-cortex-body-map-plasticity]
 key_sources: ["PMID:22510460", "PMID:30037851", "PMID:26834568", "PMID:9054347", "PMID:8774460", "PMID:12371508"]
 ---
 
@@ -88,6 +88,8 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 - [[stdp]] — STDP 是 Hebb 规则的时间分辨精化版本（已建立，见 wiki/concepts/stdp.md）
 - [[synaptic-scaling]] — 突触缩放是 Hebbian 正反馈不稳定性的解决方案：乘法性负反馈，GluA2 通路，时间尺度与 LTP 隔离
 - [[homeostatic-plasticity]] — 稳态可塑性总称，解决了 Hebb 规则的稳定性悖论
+- [[cortical-plasticity]] — 皮层可塑性是 Hebb 原理在全皮层拓扑地图尺度上的体现（S1/A1/V1 经验依赖重组）
+- [[somatosensory-cortex]] — Merzenich 系列实验（1983–1993）是 Hebb 原理在皮层地图层面的直接体内证据
 
 ## 未解问题
 
@@ -96,6 +98,7 @@ Hebb 规则解释了**联合编码**的基础（巴甫洛夫的铃声与食物�
 
 ## 修订历史
 
+- 2026-07-29 · 修订 · 基于《触觉的神经地图》(#97) · 新增皮层可塑性（cortical-plasticity）和 somatosensory-cortex 作为 Hebb 规则在皮层地图尺度上的直接体内证据；related 新增 cortical-plasticity 和 somatosensory-cortex
 - 2026-06-19 · 修订 · 基于《突触时序依赖可塑性》(#85) · 将 [[stdp]] 从"待建页面"标注为已建立（wiki/concepts/stdp.md）；stdp 已完整记录 STDP 时序窗口（±20ms）、分子机制（NMDA双重门控）、两种形式、θ前进在体内的桥接作用，以及三因素扩展。source_articles 新增当日文章。
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；Q-hebbian-stability 从"待解问题"更新为"部分有答案"（突触缩放是已知的负反馈机制）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高

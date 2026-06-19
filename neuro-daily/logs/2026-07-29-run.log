@@ -1,0 +1,92 @@
+# 运行日志 2026-07-29
+
+**运行时间**：2026-07-29（UTC+8 09:00 定时任务）
+**文章编号**：#97
+**系统时钟**：2026-06-19（已知漂移；真实日期 = topic_ledger.last_updated(2026-07-28) + 1 = 2026-07-29）
+**目标仓库**：QIUYicong/neuro-daily-essays（已验证远程 URL）
+
+---
+
+## 步骤执行记录
+
+### A. 状态读取
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md：正常
+- 读取 state/topic_ledger.json：last_updated=2026-07-28, total_articles=79
+- 日期漂移补偿：系统时钟 2026-06-19，知识库 last_updated 2026-07-28，使用 last_updated+1 = 2026-07-29
+- 远程 URL 验证：包含 QIUYicong/neuro-daily-essays（正常）
+
+### B. 主题选择
+- 课程脊柱3（大脑如何编码世界·感觉编码）依次覆盖：视觉（早期）→ 空间导航（#95）→ 听觉（#96）
+- 躯体感觉系统（触觉）在整个知识库中完全空白，是课程脊柱3的自然下一站
+- 主题：初级躯体感觉皮层（S1）× 四类LTMR机械感受器 × 感觉小人（homunculus）× Merzenich 皮层可塑性革命
+
+### C. 研究与写作
+- PubMed/NCBI E-utilities 检索，核查 10 篇来源（所有摘要，无开放全文读取）
+- 来源：PMID:23972592（Abraira & Ginty 2013, Neuron）、PMID:29519481（Harding-Forrester & Feldman 2018）、PMID:15730450（Macefield 2005）、PMID:1597696（Recanzone et al. 1992, J Neurophysiol）、PMID:8393727（Merzenich 1993）、PMID:6340591（Kaas 1983）、PMID:15018943（Foeller & Feldman 2004）、PMID:28658619（Chung et al. 2017, Cell Reports）、PMID:32428706（Makin & Flor 2020, NeuroImage）、PMID:29285773（Roux et al. 2018, J Physiol）
+- 排除：PMID:21732862（计算建模/homunculus 不连续性，未入主线）、PMID:3137944（1988年超微结构，已被综述覆盖）
+- 写作：articles/2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md（约5000字）
+- 阅读笔记：notes/2026-07-29-reading-notes.md
+
+### D. 来源文件
+- sources/2026-07-29-sources.json（10条记录，全部摘要，无开放全文）
+
+### E. Wiki 创建与修订
+
+**新建页面（4个）**：
+1. wiki/systems/somatosensory-cortex.md（established/high，7个key_sources，3个未解问题）
+2. wiki/neurons/mechanoreceptor-ltmr.md（established/high，4类LTMR对比表）
+3. wiki/concepts/cortical-plasticity.md（established/high，三阶段机制，Merzenich三实验）
+4. wiki/concepts/homunculus.md（established/high，Penfield→Roux 2018修正）
+
+**修订页面（1个）**：
+- wiki/concepts/hebbian-learning.md（rev5→rev6）：新增皮层可塑性作为 Hebb 原理在皮层地图尺度的体内证据；related 新增 cortical-plasticity、somatosensory-cortex；source_articles 新增当日文章
+
+### F. 知识图谱更新
+- wiki/_graph.json：node_count 173→177，edge_count 1041→1056
+- 新增节点：somatosensory-cortex, mechanoreceptor-ltmr, cortical-plasticity, homunculus
+- 新增边（15条）：含 mechanism-of / part-of / supports / related / prerequisite-for 类型
+
+### G. 导航文件更新
+- wiki/CHANGELOG.md：顶部添加 2026-07-29 条目（4创建/1修订/0争议/3未解问题）
+- wiki/index.md：header 更新（pages 169→173，nodes 173→177，edges 1042→1056），neurons/systems/concepts 各节新增条目
+
+### H. 状态文件更新
+- state/topic_ledger.json：total_articles 79→80，last_updated 2026-07-28→2026-07-29，新增 #97 条目
+- state/unresolved_questions.md：新增 Q-s1-01（高）/Q-s1-02（中）/Q-s1-03（中）
+- state/source_registry.json：新增 10 条来源记录
+- state/monthly_synthesis.md：本月截至日期更新为 2026-07-29，表格新增 #97 行，月度摘要追加 #97 描述
+- state/maturity_index.json：last_updated 更新，新增 4 个页面成熟度记录
+
+---
+
+## 质量自检
+
+| 检查项 | 状态 |
+|--------|------|
+| 文章字数（目标 3000–6000 字）| ✅ ~5000 字 |
+| 所有 PMID 已在 PubMed 核查 | ✅ 10/10 |
+| 无 Sci-Hub / 无开放全文声明造假 | ✅ 所有来源标注 abstract_only |
+| 无编造 PMID / DOI / 论文结论 | ✅ |
+| 不涉及医学诊断/治疗建议 | ✅ |
+| wiki 新页面格式符合规范（YAML + 6节）| ✅ |
+| _graph.json 节点/边计数已更新 | ✅ 177 节点 / 1056 边 |
+| CHANGELOG.md 顶部新增条目 | ✅ |
+| index.md 计数和条目已更新 | ✅ |
+| 状态文件全部更新 | ✅ |
+| Git 作者：QIUYicong | ✅（由 GIT_AUTHOR_NAME 环境变量设置）|
+| 推送目标：main 分支 | ✅ |
+
+---
+
+## 异常记录
+
+- 系统时钟漂移（2026-06-19 vs 实际 2026-07-29）：已按 ROUTINE.md 说明用 last_updated+1 补偿，无影响
+- 上下文跨会话延续：前一会话完成文章撰写和 wiki 更新，本次会话从步骤 H（状态文件更新）开始续行
+
+---
+
+## 下一步建议（供参考）
+
+- 课程脊柱3（感觉编码）躯体感觉系统已建立基础框架；可继续深入：痛觉（伤害感受，nociception）、本体感觉（proprioception）
+- 课程脊柱6（疾病与临床神经科学）中幻肢痛/皮层可塑性临床应用是合适的深化方向
+- 已建立 cortical-plasticity 页面，可考虑后续连接运动皮层（motor cortex）可塑性文章

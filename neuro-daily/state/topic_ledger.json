@@ -1,7 +1,64 @@
 {
-  "last_updated": "2026-07-28",
-  "total_articles": 79,
+  "last_updated": "2026-07-29",
+  "total_articles": 80,
   "entries": [
+    {
+      "date": "2026-07-29",
+      "title": "触觉的神经地图：初级躯体感觉皮层（S1）如何将身体表面的触觉信号转化为皮层体图，以及 Merzenich 革命揭示的成年皮层惊人可塑性",
+      "filename": "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md",
+      "article_number": 97,
+      "wiki_pages_created": [
+        "wiki/systems/somatosensory-cortex.md",
+        "wiki/neurons/mechanoreceptor-ltmr.md",
+        "wiki/concepts/cortical-plasticity.md",
+        "wiki/concepts/homunculus.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/hebbian-learning.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "初级躯体感觉皮层（S1）如何将皮肤表面四类低阈值机械感受器（SA1/SA2/RA1/RA2）的多维触觉信号，通过 DC-ML 通路和丘脑 VPLc 中继，映射为具有拓扑结构的皮层体图（感觉小人）？为何手指和嘴唇在皮层中占据不成比例的面积？Merzenich 系列经典实验（1983–1993）如何颠覆"成年皮层固化不变"的范式，揭示皮层地图在行为相关训练和截肢后的惊人可塑性？三阶段可塑性机制（GABA 去抑制→Hebbian LTP/LTD→突触结构重塑）如何共同驱动这种重组？这与幻肢痛和 Ramachandran 镜箱疗法有何关联？",
+      "open_questions_added": ["Q-s1-01", "Q-s1-02", "Q-s1-03"],
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·躯体感觉编码）；首次建立躯体感觉系统完整条目（somatosensory-cortex、mechanoreceptor-ltmr、cortical-plasticity、homunculus）；连接 LTMR→丘脑→S1 拓扑保真传递；引入四亚区（3a/3b/1/2）层级处理；Merzenich 可塑性革命作为 Hebbian 原理在皮层地图尺度的直接体内证据；修订 hebbian-learning（rev5→rev6）新增皮层地图层面连接",
+      "topic_tags": [
+        "somatosensory cortex S1",
+        "mechanoreceptors LTMR SA1 SA2 RA1 RA2",
+        "homunculus body map cortical magnification",
+        "Merzenich plasticity revolution",
+        "cortical reorganization experience-dependent",
+        "DC-ML dorsal column medial lemniscal",
+        "VPLc thalamus relay",
+        "cortical columns barrel cortex",
+        "GABA disinhibition cortical plasticity",
+        "phantom limb pain cortical takeover",
+        "Ramachandran mirror box",
+        "critical period barrel cortex whisker",
+        "receptive field expansion",
+        "hebbian LTP somatosensory",
+        "CNN receptive field analogy"
+      ],
+      "main_sources": [
+        "PMID:23972592",
+        "PMID:29519481",
+        "PMID:15730450",
+        "PMID:1597696",
+        "PMID:8393727",
+        "PMID:6340591",
+        "PMID:15018943",
+        "PMID:28658619",
+        "PMID:32428706",
+        "PMID:29285773"
+      ],
+      "open_access_fulltext": []
+    },
     {
       "date": "2026-07-28",
       "title": "从蜗旋到皮层音图：耳蜗如何将声音的物理频率映射为大脑的功能地图，听觉皮层如何通过注意力解决"鸡尾酒会问题"",

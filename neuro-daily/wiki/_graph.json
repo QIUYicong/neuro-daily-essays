@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-28",
-  "node_count": 173,
-  "edge_count": 1041,
+  "updated": "2026-07-29",
+  "node_count": 177,
+  "edge_count": 1056,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1582,6 +1582,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/tonotopic-map.md"
+    },
+    {
+      "id": "somatosensory-cortex",
+      "title": "初级躯体感觉皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/somatosensory-cortex.md"
+    },
+    {
+      "id": "mechanoreceptor-ltmr",
+      "title": "低阈值机械感受器",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/mechanoreceptor-ltmr.md"
+    },
+    {
+      "id": "cortical-plasticity",
+      "title": "皮层可塑性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cortical-plasticity.md"
+    },
+    {
+      "id": "homunculus",
+      "title": "感觉小人",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/homunculus.md"
     }
   ],
   "edges": [
@@ -7363,6 +7399,90 @@
       "to": "voltage-gated-calcium-channels",
       "type": "prerequisite-for",
       "note": "内毛细胞基底外侧 Ca_v1.3（L型）是谷氨酸释放至 I 型螺旋神经节细胞的触发器；与海马/皮层 L 型钙通道作用类比但细胞类型不同"
+    },
+    {
+      "from": "mechanoreceptor-ltmr",
+      "to": "somatosensory-cortex",
+      "type": "mechanism-of",
+      "note": "四类 LTMR（SA1/SA2/RA1/RA2）经脊髓背柱-内侧丘系通路→丘脑 VPL 向 S1 提供触觉/振动/本体感觉输入"
+    },
+    {
+      "from": "thalamus",
+      "to": "somatosensory-cortex",
+      "type": "prerequisite-for",
+      "note": "丘脑腹后外侧核（VPL）是 S1 的主要丘脑输入来源；DC-ML 通路终点"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "cortical-plasticity",
+      "type": "supports",
+      "note": "Merzenich 系列实验（1983–1993）是经验依赖皮层可塑性最重要的体内证据来源"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "hebbian-learning",
+      "type": "supports",
+      "note": "S1 可塑性（训练后表征扩张、截指后邻指侵占）在皮层拓扑地图尺度体现了 Hebb 原理"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "cortical-layers",
+      "type": "prerequisite-for",
+      "note": "S1 的 layer 4 接收 VPL 输入；六层结构决定 3a/3b/1/2 各亚区间的信息流向"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "auditory-cortex",
+      "type": "related",
+      "note": "两者均有精确拓扑组织（体图/音调图）和训练依赖可塑性；Merzenich 团队在两个系统均发现相同原理"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "v1-primary-visual-cortex",
+      "type": "related",
+      "note": "三个初级感觉皮层（S1/A1/V1）均有拓扑组织和关键期可塑性；共同构成初级感觉皮层可塑性的比较框架"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "homunculus",
+      "type": "part-of",
+      "note": "感觉小人是 S1 拓扑组织的宏观形态表现"
+    },
+    {
+      "from": "cortical-plasticity",
+      "to": "hebbian-learning",
+      "type": "mechanism-of",
+      "note": "皮层拓扑地图的经验依赖重组通过 LTP/LTD（Hebbian 突触可塑性）在丘皮层和皮质-皮质突触上实现"
+    },
+    {
+      "from": "cortical-plasticity",
+      "to": "homeostatic-plasticity",
+      "type": "related",
+      "note": "Hebbian 可塑性的不稳定性由稳态可塑性（突触缩放）约束；两者协同维持可塑性与稳定性平衡"
+    },
+    {
+      "from": "cortical-plasticity",
+      "to": "three-factor-learning-rule",
+      "type": "related",
+      "note": "皮层可塑性需要行为相关性（注意力/奖励）门控；三因素学习规则（Hebb × 乙酰胆碱/多巴胺）是其分子框架"
+    },
+    {
+      "from": "homunculus",
+      "to": "somatosensory-cortex",
+      "type": "part-of",
+      "note": "感觉小人是 S1 拓扑体图的具体可视化形态"
+    },
+    {
+      "from": "homunculus",
+      "to": "mechanoreceptor-ltmr",
+      "type": "related",
+      "note": "感受器密度（SA1 在指尖 ~140/cm² vs 背部 ~1/cm²）决定感觉小人各部位的皮层放大因子"
+    },
+    {
+      "from": "mechanoreceptor-ltmr",
+      "to": "action-potential",
+      "type": "prerequisite-for",
+      "note": "LTMR 将机械变形转化为动作电位（主要通过 PIEZO2 通道的机械转导→去极化→Nav1.7/1.8 AP）"
     }
   ],
   "dangling_references": [
