@@ -45,7 +45,9 @@
 - state/topic_ledger.json：修复预存JSON语法错误（"开门"→"开门"）；新增文章#92条目，总计75篇 ✅
 
 ### G. Commit & Push
-- 见下方Git记录
+- Commit: 1a416c9
+- Push: ✅ 成功推送至 origin/main
+- 分支：main（5045919 → 1a416c9）
 
 ---
 
