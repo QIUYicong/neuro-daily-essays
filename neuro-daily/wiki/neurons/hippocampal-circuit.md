@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-07-09
-revision_count: 10
+updated: 2026-07-26
+revision_count: 11
 dimensions: [brain-region, microcircuit, cognition, disease]
 related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, glucocorticoid-stress-memory, hpa-axis]
 prerequisites: [synaptic-transmission, ltp, action-potential]
 opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses, Q-gc-02]
-source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-09-glucocorticoids-stress-memory-amygdala]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-26-hippocampal-time-cells-temporal-coding]
 key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779", "PMID:12040087", "PMID:15272123", "PMID:1308182", "PMID:21460835", "PMID:9405958", "PMID:7729802"]
 ---
 
@@ -150,6 +150,8 @@ CA3 是海马中对慢性糖皮质激素（GC）**选择性最脆弱**的亚区�
 - [[sst-interneurons]] — CA1 的 O-LM 细胞（SST+ 亚型）在 θ 期间活跃，靶向内嗅皮层输入区（SLM），实现 top-down 输入门控
 - [[glucocorticoid-stress-memory]] — 慢性 GC 选择性损伤 CA3（树突萎缩、GR 高密度、循环兴奋过激）；急性 GC 增强 BLA-海马通路的记忆巩固
 - [[hpa-axis]] — 海马（CA1/CA3/DG GR）是 HPA 轴负反馈的主要制动节点；慢性应激导致的 CA3 萎缩削弱此制动 → HPA 恶性循环
+- [[time-cells]] — CA1/CA3 中存在时间细胞（time cells）：在延迟间隔特定时刻激活的神经元，与场所细胞并行构建时间认知地图（MacDonald et al. 2011 PMID:21867888；2026-07-26 新增）
+- [[episodic-memory]] — 海马三突触回路是情节记忆时空绑定的核心基础设施
 
 ## 未解问题
 
@@ -159,6 +161,7 @@ CA3 是海马中对慢性糖皮质激素（GC）**选择性最脆弱**的亚区�
 
 ## 修订历史
 
+- 2026-07-26 · 修订 rev11 · 基于《时间的神经地图》文章 (#94) · 新增：时间细胞（time-cells）和情节记忆（episodic-memory）在连接章节；更新 source_articles、related 和 key_sources
 - 2026-07-09 · 修订 rev10 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"CA3 的慢性应激脆弱性"机制节（CA3 树突萎缩 20%、灵长类海马体积萎缩 30%、GR 高密度机制、NMDAR 拮抗剂防萎缩、HPA 负反馈恶性循环）；证据表新增 2 行（PMID:9405958、PMID:7729802）；连接新增 glucocorticoid-stress-memory、hpa-axis；未解问题新增 Q-gc-02；related/key_sources/source_articles 相应更新
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 新增：CA3 模式补全因果证据（Nakazawa 2002 PMID:12040087 CA3-NR1 KO 实验）；CA3 vs CA1 不同计算个性（Leutgeb 2004 PMID:15272123）；related 新增 pattern-completion、pattern-separation、attractor-network、complementary-learning-systems；key_sources 新增 4 篇关键来源
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高

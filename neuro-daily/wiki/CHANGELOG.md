@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-07-26（文章 #94·海马时间细胞×情节记忆时间维度×认知地图时间扩展）
+
+**源文章**：[[2026-07-26-hippocampal-time-cells-temporal-coding]] —《时间的神经地图：海马时间细胞如何让大脑记住"几时"》
+
+**新建页面（3）**：
+- `wiki/concepts/time-cells.md`（新建）— 时间细胞（CA1/CA3/mEC/mPFC）；序列覆盖与时间重映射；情境性vs纯粹两类；mEC必要性争议；人类颅内直接证据（Tacikowski 2024）；revision_count=1；置信度：高；登记矛盾C-2026-07-26-01
+- `wiki/concepts/interval-timing.md`（新建）— 区间计时；纹状体SBF模型；DA调制；纹状体/小脑功能分工；顶叶斜坡时间信号；revision_count=1；置信度：高
+- `wiki/concepts/episodic-memory.md`（新建）— 情节记忆时空三维整合；海马绑定器；时间/空间/内容三路合一；SWR重播巩固路径；心理时间旅行；revision_count=1；置信度：高
+
+**修订页面（3）**：
+- `wiki/concepts/cognitive-map.md` rev2 — updated=2026-07-26；新增"时间细胞的发现"小节（MacDonald 2011, Heys & Dombeck 2018, Tacikowski 2024）；related/source_articles 更新添加time-cells、episodic-memory
+- `wiki/concepts/place-cells.md` rev3 — updated=2026-07-26；连接节新增time-cells（空间vs时间类比）和episodic-memory；related 更新；source_articles 更新
+- `wiki/neurons/hippocampal-circuit.md` rev11 — updated=2026-07-26；连接节新增time-cells和episodic-memory；source_articles 更新
+
+**矛盾登记（1）**：
+- `C-2026-07-26-01`（新增·open）：mEC 对 CA1 时间细胞的必要性 — Robinson et al. 2017（化学遗传学失活 mEC→CA1 时间编码选择性受损）vs Sabariego et al. 2019（mEC 切除损伤→CA1 时间细胞数量不减少）；性质：方法差异（可逆失活 vs 永久切除）或测量指标差异；状态：open；页面：wiki/concepts/time-cells.md
+
+**图谱变化**：168节点（+3）、1037边（+20）；新节点：time-cells、interval-timing、episodic-memory；新边：20条（时间细胞↔认知地图/场所细胞/SWR/海马/情节记忆；区间计时↔基底核/多巴胺；情节记忆↔时间细胞/场所细胞/海马/SWR/DMN等）
+
+**悬空引用**：无新增悬空引用；episodic-memory 已被场所细胞/时间细胞页面引用，现已建立对应页面
+
+---
+
 ## 2026-07-25（文章 #93·单细胞RNA测序×神经元类型分子宇宙×转录组分类体系）
 
 **源文章**：[[2026-07-25-scrna-seq-neural-cell-type-diversity]] —《神经元类型的分子宇宙：单细胞测序如何重绘大脑细胞地图》

@@ -1,7 +1,64 @@
 {
-  "last_updated": "2026-07-25",
-  "total_articles": 76,
+  "last_updated": "2026-07-26",
+  "total_articles": 77,
   "entries": [
+    {
+      "date": "2026-07-26",
+      "title": "时间的神经地图：海马时间细胞如何让大脑记住"几时"",
+      "filename": "2026-07-26-hippocampal-time-cells-temporal-coding.md",
+      "wiki_pages_created": [
+        "wiki/concepts/time-cells.md",
+        "wiki/concepts/interval-timing.md",
+        "wiki/concepts/episodic-memory.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/cognitive-map.md",
+        "wiki/concepts/place-cells.md",
+        "wiki/neurons/hippocampal-circuit.md"
+      ],
+      "contested_claims_logged": [
+        "C-2026-07-26-01（Robinson 2017 vs Sabariego 2019：mEC 输入对 CA1 时间细胞的必要性）"
+      ],
+      "contested_claims_evidence_updated": [],
+      "core_question": "海马CA1中的时间细胞（time cells）是如何通过序列激活编码时间流逝的？mEC时序子回路与海马内在回路在生成时间细胞中各自的必要性（Robinson 2017 vs Sabariego 2019矛盾）？纹状体节拍频率模型（SBF）与海马时间细胞之间的分工？认知地图是否真正具备时间维度？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "课程脊柱4（学习记忆·情节记忆·时空框架）；课程脊柱1（海马·CA1时间细胞作为认知地图时间维度的神经底物）；填补time-cells/interval-timing/episodic-memory三个wiki空缺；更新place-cells/cognitive-map/hippocampal-circuit以整合时间维度",
+      "topic_tags": [
+        "time cells hippocampus CA1",
+        "sequential firing delay period",
+        "MacDonald 2011 TPOT task",
+        "temporal precision decreases over time",
+        "temporal remapping",
+        "content-specific time cells",
+        "Heys Dombeck 2018 mEC temporal subcircuit",
+        "Robinson 2017 mEC inactivation",
+        "Sabariego 2019 mEC lesion time cells persist",
+        "Tacikowski 2024 human iEEG",
+        "interval timing striatal beat frequency",
+        "Buhusi Meck 2005 SBF model",
+        "parietal ramping signal Jazayeri 2015",
+        "basal ganglia cerebellum dissociation Kunimatsu 2018",
+        "cognitive map temporal dimension",
+        "episodic memory what where when"
+      ],
+      "open_questions_raised": [
+        "Q-timecell-mechanism",
+        "Q-timecell-longscale",
+        "Q-timecell-aging",
+        "Q-timecell-human-task"
+      ],
+      "open_questions_updated": [
+        "Q-gc-01（认知地图的时间维度：time cells作为时间轴）"
+      ],
+      "article_number": 94
+    },
     {
       "date": "2026-07-23",
       "title": "皮层的沉默与苏醒：UP/DOWN 态如何从细胞机制到系统层面编排睡眠中的记忆选择",

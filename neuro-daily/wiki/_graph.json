@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "node_count": 165,
   "edge_count": 1017,
   "edge_types": [
@@ -1510,6 +1510,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/transcriptomic-cell-types.md"
+    },
+    {
+      "id": "time-cells",
+      "title": "时间细胞",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/time-cells.md"
+    },
+    {
+      "id": "interval-timing",
+      "title": "区间计时",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/interval-timing.md"
+    },
+    {
+      "id": "episodic-memory",
+      "title": "情节记忆",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/episodic-memory.md"
     }
   ],
   "edges": [
@@ -7146,6 +7173,106 @@
     {
       "from": "transcriptomic-cell-types",
       "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "time-cells",
+      "to": "cognitive-map",
+      "type": "extends"
+    },
+    {
+      "from": "time-cells",
+      "to": "place-cells",
+      "type": "related"
+    },
+    {
+      "from": "time-cells",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "time-cells",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "time-cells",
+      "to": "theta-phase-precession",
+      "type": "related"
+    },
+    {
+      "from": "time-cells",
+      "to": "episodic-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "time-cells",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "time-cells",
+      "to": "pattern-completion",
+      "type": "related"
+    },
+    {
+      "from": "interval-timing",
+      "to": "basal-ganglia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "interval-timing",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates"
+    },
+    {
+      "from": "interval-timing",
+      "to": "time-cells",
+      "type": "related"
+    },
+    {
+      "from": "interval-timing",
+      "to": "circadian-clock",
+      "type": "related"
+    },
+    {
+      "from": "episodic-memory",
+      "to": "time-cells",
+      "type": "requires"
+    },
+    {
+      "from": "episodic-memory",
+      "to": "place-cells",
+      "type": "requires"
+    },
+    {
+      "from": "episodic-memory",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "episodic-memory",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "episodic-memory",
+      "to": "sharp-wave-ripples",
+      "type": "related"
+    },
+    {
+      "from": "episodic-memory",
+      "to": "cognitive-map",
+      "type": "requires"
+    },
+    {
+      "from": "episodic-memory",
+      "to": "engram-cells",
+      "type": "related"
+    },
+    {
+      "from": "episodic-memory",
+      "to": "default-mode-network",
       "type": "related"
     }
   ],

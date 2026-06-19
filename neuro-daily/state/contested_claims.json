@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-26",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 3,
+  "open_count": 4,
   "resolved_count": 0,
   "claims": [
     {
@@ -80,6 +80,18 @@
       "source_article": "2026-07-02-astrocyte-tripartite-synapse",
       "priority": "high",
       "note": "D-丝氨酸的 Ca²⁺ 依赖释放证据（Henneberger 2010）比谷氨酸胞吐证据更强；核心争议现集中在谷氨酸；D-丝氨酸可能确实通过囊泡机制，而谷氨酸可能主要通过 VRAC 或连接蛋白通道"
+    },
+    {
+      "id": "C-2026-07-26-01",
+      "page": "wiki/concepts/time-cells.md",
+      "claim_A": "mEC 输入是 CA1 时间细胞存在的必要条件：Robinson 等 2017（PMID:28434800）使用 DREADD 药物遗传学方法暂时沉默 mEC，发现 CA1 时间细胞活动显著减少，而空间细胞（场所细胞）活动不受影响；提出 mEC 选择性支持 CA1 的时间（非空间）编码",
+      "claim_B": "mEC 输入不是 CA1 时间细胞的必要条件：Sabariego 等 2019（PMID:31056352）使用神经毒素完全损毁 mEC，发现 CA1 时间细胞的数量、精度和序列覆盖均不受影响；CA1 时间细胞可由内在回路（CA3 → CA1 Schaffer 侧支）独立生成，mEC 非必要",
+      "nature": "方法论差异 + 可能的真实分歧：Robinson 2017 使用药物遗传学暂时沉默（可能留有残余 mEC 活动）；Sabariego 2019 使用神经毒素永久损毁（更完全但损伤更大）。两种操控的不完全性和副效应不同。也可能是真实分歧：mEC 对时间细胞有增益调制作用（失去它→精度降低），但非必要；完全损毁时其他输入（如 CA3）补偿",
+      "status": "open",
+      "opened": "2026-07-26",
+      "priority": "high",
+      "source_article": "2026-07-26-hippocampal-time-cells-temporal-coding",
+      "note": "两篇均发表于 Neuron，均有 PMC 开放全文；Robinson 2017（PMID:28434800, PMC4618078）vs Sabariego 2019（PMID:31056352, PMC8368044）。目前最重要的时间细胞机制争议，决定是否需要 mEC 干预作为时间细胞的必要条件"
     }
   ]
 }

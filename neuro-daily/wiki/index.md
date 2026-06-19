@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-25（第93篇·单细胞RNA测序×神经元类型分子宇宙×转录组分类体系）· 主题页总数：**161**（新建2页：methods/single-cell-rna-seq、concepts/transcriptomic-cell-types；修订2页：neurons/pyramidal-neuron rev1→rev2、circuits/pv-interneurons rev5→rev6；图谱165节点、1017边；新增Q-scrna-state-vs-type/Q-scrna-resolution-functional/Q-cell-type-human-cognitive）
+> 最后更新：2026-07-26（第94篇·海马时间细胞×情节记忆时间维度×认知地图时间扩展）· 主题页总数：**164**（新建3页：concepts/time-cells、concepts/interval-timing、concepts/episodic-memory；修订3页：concepts/cognitive-map rev1→rev2、concepts/place-cells rev2→rev3、neurons/hippocampal-circuit rev10→rev11；图谱168节点、1037边；登记矛盾C-2026-07-26-01（mEC对CA1时间细胞必要性）；新增Q-timecell-mechanism/Q-timecell-longscale/Q-timecell-aging/Q-timecell-human-task）
 
 ---
 
@@ -66,7 +66,10 @@
 - 🟢 [网格细胞](concepts/grid-cells.md) — 内侧内嗅皮层MEC以六边形格点激活的神经元；三参数（间距/方向/相位）完全描述；4–7离散模块比√2；背腹向间距梯度（20cm–1.5m）；路径整合的坐标输出；活跃于心理模拟和概念空间（Qu 2026 Cell：发育成熟预测流体智力）**[NEW 2026-06-22]**（填补长期悬空引用）
 - 🟢 [路径整合](concepts/path-integration.md) — 通过持续积累速度矢量估计当前位置；不依赖外部地标；联合细胞（位置+方向+速度）实现；随时间漂移需地标锚定；是黑暗导航的神经机制 **[NEW 2026-06-22]**
 - 🟢 [θ相位前移](concepts/theta-phase-precession.md) — 场所细胞放电相位随穿越场所场系统性提前约100–355°；产生θ序列（125ms内压缩数秒路径）；为STDP提供时间压缩框架；O'Keefe & Recce 1993经典发现；CAN vs OI两机制模型仍未决 **[NEW 2026-06-22]**（填补theta-oscillations页面的phase-precession悬空引用）
-- 🔵 [认知地图](concepts/cognitive-map.md) — 海马-EC构建的空间（及概念）关系内部模型；从Tolman 1948捷径行为到场所/网格双系统；扩展至时间序列（情节记忆）、心理模拟（Bellmund 2016）、概念空间（Viganò 2023）；发育研究证据（Qu 2026）**[NEW 2026-06-22]**
+- 🔵 [认知地图](concepts/cognitive-map.md) — 海马-EC构建的空间（及概念）关系内部模型；从Tolman 1948捷径行为到场所/网格双系统；扩展至时间序列（情节记忆）、心理模拟（Bellmund 2016）、概念空间（Viganò 2023）；发育研究证据（Qu 2026）；**时间维度新增：时间细胞是认知地图"几时"坐标的神经底物（修订rev2，2026-07-26）**
+- 🔵 [时间细胞](concepts/time-cells.md) — 海马CA1/CA3/mEC/mPFC中在延迟间隔特定时刻激活的神经元；集合序列覆盖整个延迟；时间重映射（延迟拉伸时序列按比例拉伸）；情境性vs纯粹两类（Omer 2023）；人类颅内记录直接证据（Tacikowski 2024）；mEC必要性存在争议（C-2026-07-26-01）**[NEW 2026-07-26]**
+- 🔵 [区间计时](concepts/interval-timing.md) — 纹状体节拍频率（SBF）模型：皮层振荡子→MSN巧合检测→特定时刻标记；DA调制（帕金森病计时受损）；纹状体（计时）vs 小脑（精调）功能分工（Kunimatsu 2018）；与海马时间细胞互补的精确时间计量系统 **[NEW 2026-07-26]**
+- 🟢 [情节记忆](concepts/episodic-memory.md) — 由"什么+哪里+几时"三维时空坐标整合的自传式事件记忆；海马三突触回路是时空绑定基础设施；时间细胞（几时）+场所细胞（哪里）+内容信息→情节帧；SWR重播→系统巩固；心理时间旅行（回顾过去/预演未来）是同一底层机制 **[NEW 2026-07-26]**
 - 🟢 [睡眠纺锤波](concepts/sleep-spindles.md) — TRN CaV3.3→TRN↔TC振荡→12–15 Hz梭形波；皮层树突L型Ca²⁺预热窗口；SO-spindle-SWR三重奏中间层；CACNA1I变异→精神分裂症纺锤波缺陷；三重耦合因果实验（Latchoumane 2017）；老龄化相位偏移 46.3°→记忆损害（Helfrich 2018）**[修订 2026-07-07]**
 - 🟢 [皮层慢振荡（SO）](concepts/cortical-slow-oscillation.md) — NREM 深睡眠~0.75 Hz UP/DOWN态交替；起源PFC向后传播；SO上行相是纺锤波和SWR的最高时间框架；三重奏顶层 **[NEW 2026-06-19]**
 - 🟢 [SO-纺锤波-SWR 三重耦合](concepts/so-spindle-swr-coupling.md) — NREM 睡眠中 SO（主时钟）→纺锤波（皮层预热）→SWR（记忆写入）精确时间嵌套；Maingret 2016 闭环刺激因果证明；老龄化耦合精度下降（d=1.19，mPFC 萎缩机制）；DA/NE/ACh 神经调质调节 **[NEW 2026-07-07]**

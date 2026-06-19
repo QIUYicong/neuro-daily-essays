@@ -9044,5 +9044,27 @@
     "full_text_available": 8,
     "abstract_only": 2,
     "note": "Siletti 2023 (PMID:37824663) and Wu 2017 (PMID:29024657) are abstract-only (no PMC open access)"
+  },
+  "additions_2026-07-26": {
+    "count": 13,
+    "pmids": [
+      "21867888",
+      "25269553",
+      "23318095",
+      "27413157",
+      "28434800",
+      "31056352",
+      "30349104",
+      "36585486",
+      "39322671",
+      "29145670",
+      "16163383",
+      "26455307",
+      "29963985"
+    ],
+    "article": "2026-07-26-hippocampal-time-cells-temporal-coding",
+    "full_text_available": 12,
+    "abstract_only": 1,
+    "note": "Kunimatsu 2018 (PMID:29963985) is abstract-only (eLife open access not verified via PMC). All 12 remaining sources have PMC open full-text confirmed."
   }
 }

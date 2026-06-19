@@ -6,10 +6,10 @@ type: theory
 status: mainstream
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
-dimensions: [brain-region, whole-brain-network, behavior, cognition]
-related: [place-cells, grid-cells, path-integration, entorhinal-cortex, hippocampal-circuit, memory-consolidation, sharp-wave-ripples, theta-oscillations, world-model]
+updated: 2026-07-26
+revision_count: 2
+dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition]
+related: [place-cells, grid-cells, path-integration, entorhinal-cortex, hippocampal-circuit, memory-consolidation, sharp-wave-ripples, theta-oscillations, world-model, time-cells, episodic-memory]
 prerequisites: [place-cells, grid-cells, hippocampal-circuit]
 opens_questions: [Q-gc-01, Q-cogmap-01, Q-cogmap-02]
 source_articles: [2026-06-22-grid-cells-place-cells]
@@ -39,13 +39,19 @@ key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056",
 - **边界细胞**：在靠近环境边界时激活，为网格/场所系统提供环境边界锚定
 - **头朝向细胞**：编码当前朝向，为路径整合提供方向参数
 
-### 2. 记忆层：时间序列的海马编码
+### 2. 记忆层：时间序列的海马编码——时间细胞的发现
 
 导航和情节记忆的共同点（Buzsáki & Moser 2013）：
 - 两者都需要对自身轨迹（空间路径/时间序列）进行连续整合
 - 两者都需要维护一个"当前状态"（当前位置/当前情节帧）
 - 两者都需要能快速切换到不同的上下文（重映射/情境依赖记忆）
 - θ序列在两者中都提供时间压缩的前向预测
+
+2011 年，MacDonald 等人在 CA1 发现了**时间细胞**（time cells, PMID:21867888）——它们在延迟间隔的特定时刻激活，集体序列覆盖整个延迟，与场所细胞的空间覆盖形成精确的时间类比。时间参数改变时，序列按比例拉伸（"时间重映射"），类比空间重映射。2024 年 Tacikowski 等人在人类颅内记录中直接确认（PMID:39322671）。
+
+认知地图因此有了明确的时间维度神经底物：
+- **空间维度**：场所细胞（哪里）+ 网格细胞（度量坐标）
+- **时间维度**：时间细胞（几时）+ mEC 时序子回路（Heys & Dombeck 2018，PMID:30349104）
 
 ### 3. 抽象空间层：认知地图的泛化
 
@@ -76,6 +82,8 @@ key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056",
 - [[hippocampal-circuit]] — 认知地图的主要神经底物
 - [[memory-consolidation]] — 认知地图（场所序列）通过SWR重播转写为新皮层长期记忆
 - [[world-model]] — 认知地图是"世界模型"在空间/结构层面的神经实现
+- [[time-cells]] — 认知地图时间维度的神经底物（2026-07-26 新增）
+- [[episodic-memory]] — 认知地图的时空支架是情节记忆的基础设施
 
 ## 未解问题
 
@@ -86,7 +94,9 @@ key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056",
 ## 修订历史
 
 - 2026-06-22 · 创建 · 基于《六边形的秘密》文章 · 初始置信度：高
+- 2026-07-26 · 修订 · 基于《时间的神经地图》文章 · 补充时间细胞作为认知地图时间维度的神经底物；新增 time-cells/episodic-memory 连接；新增 mEC 时序子回路证据（Heys & Dombeck 2018, Tacikowski 2024）
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
+- [[2026-07-26-hippocampal-time-cells-temporal-coding]]

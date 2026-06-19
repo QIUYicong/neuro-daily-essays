@@ -1136,5 +1136,53 @@
     "revision_count": 6,
     "last_change": "2026-07-25",
     "change_reason": "修订 rev5→rev6（文章 #93，2026-07-25）。新增转录组亚型注记：PV细胞内篮状/吊灯细胞转录组标记差异、PV亚型跨区保守性~70%（GABAergic最高）、人类PV细胞电生理物种差异（Hodge 2019）。状态不变 established/high。"
+  },
+  "time-cells": {
+    "slug": "time-cells",
+    "status": "mainstream",
+    "confidence": "high",
+    "supporting_sources": 5,
+    "last_status_change": "2026-07-26",
+    "reason": "创建 2026-07-26（文章 #94）。MacDonald 2011（PMID:21867888）是时间细胞的第一手经典发现；Eichenbaum 2014/2013综述建立了认知地图时间维度框架；Salz 2016 扩展至 CA3；Tacikowski 2024 人类颅内记录直接确认（PMID:39322671）。核心现象（序列激活覆盖延迟、精度随时间递减、内容特异性）已有多实验室重复验证。status=mainstream（非 established）因人类直接证据仍有限，且 mEC 必要性存在争议（C-2026-07-26-01）。confidence=high（基础现象稳健，机制层面有开放问题）。"
+  },
+  "interval-timing": {
+    "slug": "interval-timing",
+    "status": "mainstream",
+    "confidence": "high",
+    "supporting_sources": 3,
+    "last_status_change": "2026-07-26",
+    "reason": "创建 2026-07-26（文章 #94）。Buhusi & Meck 2005 综述（PMID:16163383，Nature Reviews Neuroscience）确立 SBF 模型和 DA 依赖性；Jazayeri & Shadlen 2015（PMID:26455307）直接测量顶叶斜率信号；Kunimatsu 2018 建立基底节-小脑分工。status=mainstream（非 established）因多个计时系统间整合模型尚存争议。confidence=high。"
+  },
+  "episodic-memory": {
+    "slug": "episodic-memory",
+    "status": "established",
+    "confidence": "high",
+    "supporting_sources": 4,
+    "last_status_change": "2026-07-26",
+    "reason": "创建 2026-07-26（文章 #94）。情节记忆的概念框架（Tulving 1972/1983）是认知神经科学的基础；三维绑定（what-where-when）有海马损伤病例（H.M.等）和双侧海马切除证据的长期支持；Tacikowski 2024 人类颅内记录直接证明时空结构的单神经元编码；SWR重播作为情节记忆固化机制有多实验室因果实验支持（Ego-Stengel 2010, Jadhav 2012）。status=established，核心概念和主要神经底物均清晰，细节（三维绑定的确切计算机制、跨物种普遍性）仍在研究中。"
+  },
+  "place-cells-updated-2026-07-26": {
+    "slug": "place-cells",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 3,
+    "last_change": "2026-07-26",
+    "change_reason": "修订 rev2→rev3（文章 #94，2026-07-26）。新增与时间细胞的类比连接（place cells='哪里'，time cells='几时'，共享CA1/CA3回路但功能互补）；新增 episodic-memory 双维坐标框架连接；related字段新增time-cells和episodic-memory。状态不变 established/high。"
+  },
+  "cognitive-map-updated-2026-07-26": {
+    "slug": "cognitive-map",
+    "status": "mainstream",
+    "confidence": "high",
+    "revision_count": 2,
+    "last_change": "2026-07-26",
+    "change_reason": "修订 rev1→rev2（文章 #94，2026-07-26）。补充认知地图时间维度神经底物：时间细胞（time cells，MacDonald 2011）和 mEC 时序子回路（Heys & Dombeck 2018）；新增 time-cells 和 episodic-memory 连接；更新维度字段；Tacikowski 2024 人类颅内直接确认时空结构编码。状态维持 mainstream。"
+  },
+  "hippocampal-circuit-updated-2026-07-26": {
+    "slug": "hippocampal-circuit",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 11,
+    "last_change": "2026-07-26",
+    "change_reason": "修订 rev10→rev11（文章 #94，2026-07-26）。新增时间细胞（time cells）作为 CA1/CA3 锥体细胞的时间编码功能；新增 time-cells 和 episodic-memory 连接；source_articles 新增 2026-07-26 文章引用。状态不变 established/high。"
   }
 }
