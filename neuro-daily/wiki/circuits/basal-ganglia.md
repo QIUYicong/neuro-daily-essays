@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-14
-updated: 2026-06-14
-revision_count: 1
+updated: 2026-07-31
+revision_count: 2
 dimensions: [microcircuit, brain-region, behavior, cognition]
-related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit]
+related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit, interval-timing, striatal-beat-frequency]
 prerequisites: [dopamine-reward-prediction-error, synaptic-transmission, ltp]
 opens_questions: [Q-pd-beta-causality, Q-bg-habit-goal-split]
 source_articles: [2026-06-14-parkinson-basal-ganglia-circuit]
-key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439"]
+key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439", "PMID:38918348", "PMID:35978564"]
 ---
 
 # 基底节 (Basal Ganglia)
@@ -79,6 +79,15 @@ SNc DA神经元的放电率编码奖励预测误差（RPE）。高RPE时（超�
 
 低RPE时（低于预期）：反向。这是基底节作为三因素学习规则执行系统的基础（← 文章#15）。
 
+### 基底节与区间计时（Interval Timing）
+
+- 纹状体-丘脑-皮层网络（壳核 + 尾状核 + 丘脑 + SMA + 前运动皮层 + DLPFC）介导节拍性/节律性计时（beat-based/rhythmic timing）
+- 纹状体负责测量数百毫秒至秒级范围的时间间隔（Tanaka et al. 2024, PMID:38918348）
+- 中等棘神经元（MSNs）显示斜坡式活动：约1/3的MSNs在计时区间内呈单调递增或递减放电（Ponzi & Wickens 2022, PMID:35978564）
+- D2-MSNs（间接通路）在6秒区间内呈**递增**放电；D1-MSNs（直接通路）呈**递减**放电（Bruce et al. 2025, eLife 96287）
+- 两个细胞群共同参与时间证据积累（漂移-扩散模型，drift-diffusion model）
+- 与小脑的对比：小脑处理**单次离散**时间间隔（event-based timing）；纹状体处理**节律/节拍性**计时（beat-based timing）
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -105,6 +114,7 @@ SNc DA神经元的放电率编码奖励预测误差（RPE）。高RPE时（超�
 ## 修订历史
 
 - 2026-06-14 · 创建 · 基于《多巴胺的沉默与节律的失控》一文 · 初始置信度：高
+- 2026-07-31 · 新增"基底节与区间计时"节 · 纹状体在节拍计时（beat-based timing）中的核心角色；D1/D2-MSN 对立斜坡活动；与小脑事件计时（event-based）的功能解离 · 基于 2026-07-31-interval-timing-basal-ganglia-striatum
 
 ## 来源文章
 

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-30",
-  "node_count": 177,
-  "edge_count": 1056,
+  "updated": "2026-07-31",
+  "node_count": 185,
+  "edge_count": 1085,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1663,6 +1663,33 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/temporal-binding-window.md"
+    },
+    {
+      "id": "interval-timing",
+      "title": "区间计时",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/interval-timing.md"
+    },
+    {
+      "id": "striatal-beat-frequency",
+      "title": "纹状体拍频模型",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/striatal-beat-frequency.md"
+    },
+    {
+      "id": "population-clock",
+      "title": "种群时钟",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/population-clock.md"
     }
   ],
   "edges": [
@@ -7594,6 +7621,120 @@
       "to": "bayesian-causal-inference",
       "type": "supports",
       "note": "TBW 对应 P(C=1) 随时间差降低的贝叶斯先验"
+    },
+    {
+      "from": "interval-timing",
+      "to": "striatal-beat-frequency",
+      "type": "mechanism-of",
+      "note": "纹状体拍频模型是区间计时的专用计时机制实现"
+    },
+    {
+      "from": "interval-timing",
+      "to": "population-clock",
+      "type": "related",
+      "note": "种群时钟是区间计时的内在计时机制替代框架"
+    },
+    {
+      "from": "interval-timing",
+      "to": "cerebellum",
+      "type": "related",
+      "note": "小脑橄榄小脑系统负责事件驱动的精确毫秒计时（双重分离证据）"
+    },
+    {
+      "from": "interval-timing",
+      "to": "basal-ganglia",
+      "type": "related",
+      "note": "纹状体-丘脑-皮层回路是节拍驱动秒级区间计时的主要底物"
+    },
+    {
+      "from": "interval-timing",
+      "to": "temporal-binding-window",
+      "type": "prerequisite-for",
+      "note": "时间绑定窗依赖上游区间计时机制设定多感觉整合的时间窗口"
+    },
+    {
+      "from": "interval-timing",
+      "to": "circadian-clock",
+      "type": "related",
+      "note": "区间计时（秒-分钟）与昼夜节律（24h）是不同时间尺度的并行独立计时系统"
+    },
+    {
+      "from": "interval-timing",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "多巴胺通过调节振荡频率控制区间计时的时钟速度；帕金森病计时障碍机制"
+    },
+    {
+      "from": "striatal-beat-frequency",
+      "to": "interval-timing",
+      "type": "mechanism-of",
+      "note": "SBF 模型是区间计时在秒级尺度的专用机制实现"
+    },
+    {
+      "from": "striatal-beat-frequency",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates",
+      "note": "多巴胺通过调节皮层振荡子频率改变 SBF 时钟速度；DA 激动剂→即时标量时间知觉改变"
+    },
+    {
+      "from": "striatal-beat-frequency",
+      "to": "population-clock",
+      "type": "related",
+      "note": "SBF（专用计时）与种群时钟（内在计时）是互补或竞争的区间计时理论框架"
+    },
+    {
+      "from": "striatal-beat-frequency",
+      "to": "basal-ganglia",
+      "type": "mechanism-of",
+      "note": "SBF 模型在基底节纹状体实现：MSN 作为皮层振荡相位符合检测器"
+    },
+    {
+      "from": "population-clock",
+      "to": "interval-timing",
+      "type": "mechanism-of",
+      "note": "种群时钟是区间计时的内在计时机制：高维轨迹位置唯一编码时间"
+    },
+    {
+      "from": "population-clock",
+      "to": "striatal-beat-frequency",
+      "type": "related",
+      "note": "与 SBF 互补或竞争——内在计时（轨迹）vs 专用计时（拍频）的理论对立"
+    },
+    {
+      "from": "population-clock",
+      "to": "gamma-oscillations",
+      "type": "related",
+      "note": "种群时钟的高维动力学轨迹涉及神经振荡和循环网络动力学"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "interval-timing",
+      "type": "related",
+      "note": "基底节纹状体是节拍驱动秒级区间计时的核心底物；MSN 斜坡放电与 D1/D2 对立动力学"
+    },
+    {
+      "from": "cerebellum",
+      "to": "interval-timing",
+      "type": "related",
+      "note": "小脑负责事件驱动型精确计时（非拍频，非连续）；双重分离证据；橄榄小脑系统"
+    },
+    {
+      "from": "temporal-binding-window",
+      "to": "interval-timing",
+      "type": "related",
+      "note": "TBW（多感觉整合的时间约束）由下游区间计时机制决定窗口宽度"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "striatal-beat-frequency",
+      "type": "regulates",
+      "note": "多巴胺是 SBF 的时钟速度旋钮：激动剂/拮抗剂产生即时标量时间知觉改变"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "interval-timing",
+      "type": "related",
+      "note": "昼夜节律（24h 周期，SCN，基因表达）与区间计时（秒-分钟，网络动力学）是互补的独立计时系统"
     }
   ],
   "dangling_references": [
@@ -7825,6 +7966,30 @@
         "cnn-visual-cortex-analogy"
       ],
       "note": "视觉物体识别专页；腹侧流的核心计算目标；核心物体识别任务（core object recognition）；解开纠缠；线性分类；DiCarlo et al. 2012框架；待建页面"
+    },
+    {
+      "slug": "medium-spiny-neuron",
+      "referenced_by": [
+        "striatal-beat-frequency",
+        "basal-ganglia",
+        "actor-critic-brain"
+      ],
+      "note": "中型多棘神经元（MSN）专页；纹状体 ~95% 构成神经元；D1-MSN 直接通路/D2-MSN 间接通路；MSN 作为 SBF 符合检测器；棘突密度 1.2 万/神经元；待建页面"
+    },
+    {
+      "slug": "neural-population-coding",
+      "referenced_by": [
+        "population-clock"
+      ],
+      "note": "神经群体编码专页；高维状态空间表征；群体向量解码；与 population-vector-coding 的关系；种群时钟的理论前提；待建页面"
+    },
+    {
+      "slug": "recurrent-network",
+      "referenced_by": [
+        "population-clock",
+        "attractor-network"
+      ],
+      "note": "循环神经网络（RNN）专页；训练执行计时任务后自发涌现与生物大脑相似的高维轨迹；种群时钟/内在计时的计算模型系统；Hopfield 网络相关；待建页面"
     }
   ]
 }

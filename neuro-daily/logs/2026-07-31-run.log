@@ -1,0 +1,141 @@
+# 2026-07-31 Daily Run Log
+
+**Run date**: 2026-07-31 (Beijing time)
+**Article sequence**: #99
+**Topic**: 大脑的秒表：神经系统如何在毫秒与秒之间测量时间
+**Status**: COMPLETED
+
+---
+
+## Step A: Topic Selection
+
+Selected from topic_ledger pending queue. Interval timing was a natural follow-up to the 2026-07-30 multisensory integration article (temporal-binding-window was created as a new concept), filling the prerequisite relationship: interval timing → temporal-binding-window.
+
+**Search terms used**:
+- "interval timing basal ganglia striatum" (PubMed)
+- "striatal beat frequency model dopamine" (PubMed)
+- "neural population clocks intrinsic timing" (PubMed)
+- "D1 D2 MSN interval timing optogenetics" (PubMed)
+- "scalar property timing Weber law" (PubMed)
+- "cerebellum basal ganglia double dissociation timing" (PubMed)
+
+---
+
+## Step B: Source Collection
+
+**Sources found**: 11 (6 open full-text, 5 abstract only)
+
+| ID | PMID/DOI | Access | Used for |
+|----|----------|--------|----------|
+| Teki 2011 | PMC3074096 | Full | fMRI dual dissociation olivocerebellar vs striato-thalamo-cortical |
+| Oprisan & Buhusi 2011 | PMC3178804 | Full | SBF model mechanism and dopamine clock-speed |
+| Zhou & Buonomano 2022 | PMC9561006 | Full | Population clock / intrinsic timing framework |
+| Ponzi & Wickens 2022 | PMC9376361 | Full | Striatal ramping, ~1/3 MSNs, edge-of-chaos |
+| Bruce 2025 | DOI:10.7554/eLife.96287.4 | Full | D1/D2-MSN optogenetics, R²=0.95, p=0.002/0.03 |
+| Terao 2021 | PMC8017233 | Full | Parkinson's timing distortions |
+| Mauk & Buonomano 2004 | PMID:15217335 | Abstract | Foundational framework: dedicated vs intrinsic timing |
+| Tanaka 2024 | PMID:38918348 | Abstract | Monkey ephys cerebellum vs basal ganglia |
+| Breska & Ivry 2016 | PMC4831717 | Abstract | Cerebellar patient double dissociation |
+| Buhusi & Meck 2005 | NRN review | Abstract | Classic pacemaker-accumulator model |
+| Shouval 2014 | PMC4063330 | Abstract | Scalar property neural dynamics |
+
+**Prohibited sources check**: No Sci-Hub, no pirated PDFs, no paywall bypass used. ✓
+
+---
+
+## Step C: Article Writing
+
+**Output file**: `neuro-daily/articles/2026-07-31-interval-timing-basal-ganglia-striatum.md`
+**Length**: ~6,571 characters (~30,158 bytes)
+**Sections**: 13 (导言、什么是区间计时、两套并行系统、纹状体拍频模型SBF、种群时钟与内在计时、基底节的细胞层机制、多巴胺的时钟速度、帕金森病、开放问题、深度阅读、参考文献、图表说明、附录)
+**Tone**: Science journalism, rigorous, accessible
+
+**Key numbers reported (verified from sources)**:
+- D2-MSN inhibition: 8.6→10.2s (p=0.002) — Bruce 2025
+- D1-MSN inhibition: 8.7→10.5s (p=0.03) — Bruce 2025
+- Drift-diffusion model R²=0.95 — Bruce 2025
+- fMRI regular > irregular RT: 0.72s vs 0.80s — Teki 2011
+- ~1/3 MSNs show monotonic ramping — Ponzi & Wickens 2022
+- Bayesian causal inference R²=0.97 — (carried from prior article)
+
+---
+
+## Step D: Notes and Sources Files
+
+**Reading notes**: `neuro-daily/notes/2026-07-31-reading-notes.md` (12,235 bytes, 11 sources)
+**Sources JSON**: `neuro-daily/sources/2026-07-31-sources.json` (6,849 bytes, 11 entries)
+
+---
+
+## Step E: Wiki Consolidation
+
+### New pages created:
+1. `wiki/concepts/interval-timing.md` — slug=interval-timing, status=mainstream, confidence=high
+2. `wiki/concepts/striatal-beat-frequency.md` — slug=striatal-beat-frequency, status=mainstream, confidence=medium
+3. `wiki/concepts/population-clock.md` — slug=population-clock, status=emerging, confidence=medium
+4. `wiki/systems/basal-ganglia.md` — interval timing perspective, status=established, confidence=high (companion to circuits/basal-ganglia)
+
+### Revised pages:
+1. `wiki/circuits/basal-ganglia.md` rev1→rev2: Added interval timing section with D1/D2 dynamics
+2. `wiki/systems/cerebellum.md` rev1→rev2: Added cerebellar interval timing section
+3. `wiki/concepts/temporal-binding-window.md` rev1→rev2: Added interval-timing dependency link
+
+### New open questions added to state/unresolved_questions.md:
+- Q-it-01 (HIGH): SBF physiological circuit — cortical oscillators + MSN coincidence detection not yet directly proven in vivo
+- Q-it-02 (MEDIUM): Population clock vs dedicated timing: parallel systems or different regimes of the same dynamics? Who is the downstream decoder of trajectory position?
+
+### New dangling references noted:
+- `medium-spiny-neuron` (referenced by striatal-beat-frequency, basal-ganglia, actor-critic-brain)
+- `neural-population-coding` (referenced by population-clock)
+- `recurrent-network` (referenced by population-clock, attractor-network)
+
+---
+
+## Step F: State Files Updated
+
+| File | Change |
+|------|--------|
+| state/topic_ledger.json | last_updated→2026-07-31; total_articles→82; prepended article #99 entry |
+| state/unresolved_questions.md | last_updated→2026-07-31; added Q-it-01, Q-it-02 |
+| wiki/CHANGELOG.md | Added 2026-07-31 entry (+3 nodes to 185, +19 edges to ~1085) |
+| wiki/index.md | Header updated to 2026-07-31, total pages 182; added 4 new page entries |
+| wiki/_graph.json | node_count→185, edge_count→1085; added 3 nodes, 19 edges, 3 dangling refs |
+| state/monthly_synthesis.md | Updated July 2026 section: #98 and #99 entries added; total 29 articles |
+| state/maturity_index.json | Added 4 new entries (interval-timing/mainstream/high; SBF/mainstream/medium; population-clock/emerging/medium; systems/basal-ganglia/established/high) |
+| state/source_registry.json | Added additions_2026-07-31 with all 11 sources |
+| logs/2026-07-31-run.log | This file |
+
+---
+
+## Step G: Graph Changes
+
+- **Nodes added**: +3 (interval-timing, striatal-beat-frequency, population-clock)
+- **Node total**: 185 (was 182)
+- **Edges added**: +19
+- **Edge total**: 1085 (was 1066)
+- **Dangling references added**: 3 (medium-spiny-neuron, neural-population-coding, recurrent-network)
+
+---
+
+## Step H: Git Commit & Push
+
+**Branch**: main
+**Author**: GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+**Commit message**: Add neuro daily article + wiki consolidation for 2026-07-31
+
+---
+
+## Quality Checks
+
+- [x] No invented sources, PMIDs, PMCIDs, DOIs
+- [x] All numbers traceable to specific open-access papers
+- [x] No medical diagnosis or treatment advice
+- [x] No Sci-Hub or unauthorized sources
+- [x] No other repository (not lianyichuan, not cqiuyicong)
+- [x] Article #99 confirmed in topic_ledger
+- [x] Wiki pages cross-linked correctly
+- [x] Open questions documented
+
+---
+
+*Log generated by automated daily routine*

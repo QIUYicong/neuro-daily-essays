@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-30（第98篇·多感觉整合×贝叶斯因果推断×上丘三规则×麦格克效应）· 主题页总数：**178**（新建5页：concepts/multisensory-integration、concepts/bayesian-causal-inference、systems/superior-colliculus、concepts/inverse-effectiveness、concepts/temporal-binding-window；图谱182节点、1066边；新增Q-msi-01至Q-msi-03开放问题）
+> 最后更新：2026-07-31（第99篇·大脑的秒表·区间计时×基底节×纹状体拍频模型×种群时钟）· 主题页总数：**182**（新建4页：concepts/interval-timing、concepts/striatal-beat-frequency、concepts/population-clock、systems/basal-ganglia；修订3页：circuits/basal-ganglia rev1→rev2、systems/cerebellum rev1→rev2、concepts/temporal-binding-window rev1→rev2；图谱185节点、1085边；新增Q-it-01至Q-it-02开放问题）
 
 ---
 
@@ -151,6 +151,9 @@
 - 🟡 [贝叶斯因果推断](concepts/bayesian-causal-inference.md) — 多感觉整合的核心计算框架：P(C=1)加权决定整合vs分离；"负偏移"独特预测（R²=0.97，Körding 2007）；与 MLE 的包含关系 **[NEW 2026-07-30]**
 - 🟢 [逆效应性原则](concepts/inverse-effectiveness.md) — 上丘整合第三规则：弱刺激整合获益最大；NMDA 受体 Mg²⁺ 阻断-去除非线性机制（Bhatt 2016）；在最困难感知条件下提供最大跨模态补偿 **[NEW 2026-07-30]**
 - 🔵 [时间绑定窗（TBW）](concepts/temporal-binding-window.md) — 多感觉整合的时间约束（视听±100-200ms）；ASD中TBW扩宽；候选机制（皮层振荡相位/STS时间调谐）；与麦格克效应易感性相关 **[NEW 2026-07-30]**
+- 🔵 [区间计时](concepts/interval-timing.md) — 神经系统测量毫秒至数十秒时间的机制：小脑橄榄小脑系统负责事件驱动精确计时，纹状体-丘脑-皮层回路负责节拍驱动的秒级区间计时，种群时钟从网络内在动力学涌现；多巴胺通过调节振荡频率改变"时钟速度"（标量特性）**[NEW 2026-07-31]**
+- 🔵 [纹状体拍频模型（SBF）](concepts/striatal-beat-frequency.md) — 区间计时最有影响力的机制模型之一：大量皮层振荡子在区间开始时同步，随时间相位拉开形成唯一的"拍频图案"，纹状体 MSN 作为符合检测器读出该图案；多巴胺调节振荡频率→时钟速度；生物学噪声是标量特性的必要条件 **[NEW 2026-07-31]**
+- 🟡 [种群时钟](concepts/population-clock.md) — 内在计时的现代形式：时间由神经群体活动在高维状态空间走过的轨迹编码（无需专用时钟元件）；神经序列（稀疏接力放电）比斜坡放电更灵活；纹状体序列性高于运动皮层；RNN 自发涌现相同结构 **[NEW 2026-07-31]**
 
 ## motor（运动系统）
 
@@ -181,6 +184,7 @@
 - 🟢 [耳蜗](systems/cochlea.md) — 基底膜行波实现频率-位置地点编码（cochleotopic map）；外毛细胞 Prestin 耳蜗放大器（+40–50 dB，Q因子×100）；内毛细胞 tip links / TMC1-TMC2 / Ca_v1.3 / ribbon synapse 机械-电换能级联；是听觉通路所有拓扑图的物理起点 **[NEW 2026-07-28]**
 - 🟢 [初级躯体感觉皮层（S1）](systems/somatosensory-cortex.md) — 四亚区（3a/3b/1/2）×感觉小人（homunculus）×皮层放大因子；Merzenich系列实验确立经验依赖皮层地图可塑性（截指后邻指侵占/训练后表征扩张）；可塑性需要行为相关性（注意门控）；感觉剥夺重启成年皮层至关键期状态 **[NEW 2026-07-29]**
 - 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化 **[NEW 2026-07-30]**
+- 🟢 [基底节（区间计时视角）](systems/basal-ganglia.md) — 以区间计时为核心的系统层级视角：MSN ~1/3 显示斜坡放电；D1-MSN 递减/D2-MSN 递增的对立动力学（Bruce 2025 eLife 光遗传因果证据，R²=0.95 漂移扩散模型）；纹状体-丘脑-皮层节拍计时回路；帕金森病计时障碍机制 **[NEW 2026-07-31]**（另见 [[circuits/basal-ganglia]] 运动选择视角）
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**

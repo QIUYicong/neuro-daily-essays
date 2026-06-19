@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-07-31 · 文章 #99 · 大脑的秒表：区间计时的分布式神经机制
+
+**核心主题**：区间计时（interval timing）——小脑如何以橄榄-小脑系统实现毫秒级事件计时；纹状体拍频模型（SBF）如何以皮层振荡子+MSN符合检测实现秒级计时；种群时钟（population clock）如何从循环网络高维轨迹中涌现时间；D1-MSN（降）与D2-MSN（升）如何对立协同累积时间证据；多巴胺"调速时钟"假说在帕金森病证据面前为何不够。
+
+**新建页面（3）**：
+- `concepts/interval-timing.md`（区间计时）🔵 mainstream · 高置信度 — 整合小脑事件计时、纹状体秒级计时、种群时钟三套机制；韦伯定律的时间版；多巴胺的复杂调制；从TBW（上游）到认知脚手架
+- `concepts/striatal-beat-frequency.md`（纹状体拍频模型）🔵 mainstream · 中置信度 — SBF核心三要素（振荡子/符合检测/多巴胺重置）；为何需要生物学噪声维持标量性；与斜坡/种群时钟的关系待定
+- `concepts/population-clock.md`（种群时钟）🟡 emerging · 中置信度 — 内在计时：时间从网络高维轨迹涌现；神经序列vs复杂种群时钟；纹状体序列性高于运动皮层；RNN同构
+
+**修订页面（4）**：
+- `circuits/basal-ganglia.md` rev2 — 新增"基底节与区间计时"节：纹状体-丘脑-皮层的节拍计时网络；MSN斜坡（~1/3）；D1/D2对立协同；与小脑事件计时的解离
+- `systems/cerebellum.md` rev2 — 新增"小脑作为区间计时器"节：事件计时（非节拍/非连续）；橄榄-小脑系统（下橄榄→攀爬纤维→浦肯野细胞LTD）；双重分离证据
+- `concepts/temporal-binding-window.md` rev2 — 连接节新增[[interval-timing]]和[[striatal-beat-frequency]]；TBW作为区间计时的下游应用
+- （basal-ganglia已在circuits/中，未在systems/重复创建）
+
+**矛盾登记（0）**：无新矛盾；帕金森病时间扭曲vs"慢时钟"假说已记录为Q-it-01/Q-it-02的组成问题，证据等级分析已在文章中明确，不属于新矛盾登记
+
+**新增开放问题**：
+- Q-it-01（高）：SBF生理回路是否真实存在？SBF/斜坡/种群时钟互斥还是互补？
+- Q-it-02（中）：种群时钟与专用计时器的关系？纹状体序列性差异的决定因素？下游译码器？
+
+**悬空引用**：新页面引用 [[medium-spiny-neuron]]、[[neural-population-coding]]、[[recurrent-network]]、[[scalar-property-timing]] — 前两者检查是否已有页面；后两者暂标为待建
+
+**图谱**：182节点→185节点（+3：interval-timing, striatal-beat-frequency, population-clock），1066边→~1085边（+~19新边）
+
+---
+
 ## 2026-07-30（文章 #98·多感觉整合×贝叶斯因果推断×上丘三规则×麦格克效应）
 
 **源文章**：[[2026-07-30-multisensory-integration-bayesian-brain]] —《感官的裁判：大脑如何决定"你听到的"和"你看到的"属于同一件事》

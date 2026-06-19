@@ -9537,5 +9537,123 @@
     "abstract_only": 6,
     "official_institution": 0,
     "note": "开放全文4篇：Doeller 2010（PMC3173857）、Giocomo 2011（PMC3423065）、Epstein 2017（PMC6028313）、Jeffery 2024（PMC10923978）。奠基性论文O'Keefe 1971、Hafting 2005、Taube 1990、Taube 1995无PMC开放全文，信息来自综述引用。Moser 2008（Annual Review）与Behrens 2018（Neuron）为付费全文，使用摘要+综述引用信息。"
+  },
+  "additions_2026-07-31": {
+    "article": "2026-07-31-interval-timing-basal-ganglia-striatum",
+    "full_text_available": 6,
+    "abstract_only": 5,
+    "sources": [
+      {
+        "pmid": "21389235",
+        "pmcid": "PMC3074096",
+        "title": "Distinct Neural Substrates of Duration-Based and Beat-Based Auditory Timing",
+        "authors_short": "Teki S, Grube M, Kumar S, Griffiths TD",
+        "journal": "Journal of Neuroscience",
+        "year": 2011,
+        "access_type": "full",
+        "aspects_covered": ["fMRI双离解证明橄榄小脑（绝对时长）vs纹状体-丘脑-皮层（节拍）两套并行计时回路"]
+      },
+      {
+        "pmid": null,
+        "pmcid": "PMC3178804",
+        "title": "Modeling Pharmacological Clock and Memory Patterns of Interval Timing in a Striatal Beat-Frequency Model",
+        "authors_short": "Oprisan SA, Buhusi CV",
+        "journal": "Frontiers in Integrative Neuroscience",
+        "year": 2011,
+        "access_type": "full",
+        "aspects_covered": ["SBF模型机制（皮层振荡→MSN符合检测）；多巴胺调节振荡频率→时钟速度；生物学噪声→标量特性"]
+      },
+      {
+        "pmid": "35446093",
+        "pmcid": "PMC9561006",
+        "title": "Neural population clocks: Encoding time in dynamic patterns of neural activity",
+        "authors_short": "Zhou S, Buonomano DV",
+        "journal": "Behavioral Neuroscience",
+        "year": 2022,
+        "access_type": "full",
+        "aspects_covered": ["种群时钟/内在计时理论综述；神经序列vs复杂种群时钟；纹状体序列性高于运动皮层；RNN同构"]
+      },
+      {
+        "pmid": "35978564",
+        "pmcid": "PMC9376361",
+        "title": "Ramping activity in the striatum",
+        "authors_short": "Ponzi A, Wickens J",
+        "journal": "Frontiers in Computational Neuroscience",
+        "year": 2022,
+        "access_type": "full",
+        "aspects_covered": ["约1/3纹状体MSN斜坡放电；混沌边缘（marginally stable）涌现；D1/D2双向斜坡群体"]
+      },
+      {
+        "pmid": null,
+        "pmcid": null,
+        "doi": "10.7554/eLife.96287.4",
+        "title": "Complementary cognitive roles for D2-MSNs and D1-MSNs during interval timing",
+        "authors_short": "Bruce RA et al.",
+        "journal": "eLife",
+        "year": 2025,
+        "access_type": "full",
+        "aspects_covered": ["D2-MSN递增/D1-MSN递减对立动力学；漂移扩散模型R²=0.95；光遗传抑制延迟计时峰（D2 p=0.002；D1 p=0.03）"]
+      },
+      {
+        "pmid": "33815049",
+        "pmcid": "PMC8017233",
+        "title": "Time Distortion in Parkinsonism",
+        "authors_short": "Terao Y et al.",
+        "journal": "Frontiers in Neuroscience",
+        "year": 2021,
+        "access_type": "full",
+        "aspects_covered": ["帕金森病时间知觉：短时高估/长时低估；感知右偏移2-8s；DA结合率与计时不相关（挑战简单时钟速度假说）"]
+      },
+      {
+        "pmid": "15217335",
+        "pmcid": null,
+        "title": "The neural basis of temporal processing",
+        "authors_short": "Mauk MD, Buonomano DV",
+        "journal": "Annual Review of Neuroscience",
+        "year": 2004,
+        "access_type": "abstract",
+        "aspects_covered": ["时间处理分布式而非集中式；专用计时vs内在计时框架；不同时间尺度使用不同机制"]
+      },
+      {
+        "pmid": "38918348",
+        "pmcid": null,
+        "title": "Temporal Information Processing in the Cerebellum and Basal Ganglia",
+        "authors_short": "Tanaka R, Kameda M, Okada K",
+        "journal": "Advances in Experimental Medicine and Biology",
+        "year": 2024,
+        "access_type": "abstract",
+        "aspects_covered": ["猴类电生理：小脑准备活动~500ms预运动；基底节测量时长（up to 2s延迟）；最快节拍预测~250ms"]
+      },
+      {
+        "pmid": "27088121",
+        "pmcid": "PMC4831717",
+        "title": "Taxonomies of Timing: Where Does the Cerebellum Fit In?",
+        "authors_short": "Breska A, Ivry RB",
+        "journal": "Current Opinion in Behavioral Sciences",
+        "year": 2016,
+        "access_type": "abstract",
+        "aspects_covered": ["小脑=事件驱动计时（非节拍，非连续）；基底节=节拍；双重分离患者行为证据；小脑眼睑条件反射精确计时"]
+      },
+      {
+        "pmid": null,
+        "pmcid": null,
+        "title": "What makes us tick? Functional and neural mechanisms of interval timing",
+        "authors_short": "Buhusi CV, Meck WH",
+        "journal": "Nature Reviews Neuroscience",
+        "year": 2005,
+        "access_type": "abstract",
+        "aspects_covered": ["经典起搏器-累积器模型；多巴胺控制时钟速度（起搏器频率）；综述"]
+      },
+      {
+        "pmid": "24994976",
+        "pmcid": "PMC4063330",
+        "title": "What does scalar timing tell us about neural dynamics?",
+        "authors_short": "Shouval HZ, Agarwal A, Gavornik JP",
+        "journal": "Frontiers in Human Neuroscience",
+        "year": 2014,
+        "access_type": "abstract",
+        "aspects_covered": ["标量特性（Weber定律for时间）；对数幂律放电率可解释标量误差增长"]
+      }
+    ]
   }
 }

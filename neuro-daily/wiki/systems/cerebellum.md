@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-06-23
-revision_count: 1
+updated: 2026-07-31
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation]
+related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation, interval-timing]
 prerequisites: [purkinje-cell, parallel-fiber, climbing-fiber, deep-cerebellar-nuclei]
 opens_questions: [Q-cb-01, Q-cb-02, Q-cb-03]
 source_articles: [2026-06-23-cerebellum-motor-prediction]
-key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554"]
+key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:27088121", "PMID:38918348"]
 ---
 
 # 小脑 (Cerebellum)
@@ -63,6 +63,23 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 ### 3. 前向/逆向模型
 详见 [[forward-model]]。小脑利用传出拷贝预测运动感觉后果，超越反馈延迟。
 
+### 小脑作为区间计时器（Interval Timer）
+
+小脑是公认的**事件计时（event-based timing）**器官——擅长测量**单一、离散**的时间间隔，但**不**负责节拍计时（beat-based）、也**不**负责连续计时（continuous timing）（Breska & Ivry, 2016, PMID:27088121）。
+
+**机制：橄榄-小脑系统编码绝对时长**
+- **下橄榄核（IO）→ 攀爬纤维（CF）→ 浦肯野细胞（PC）LTD**：攀爬纤维携带"误差/时间违规"信号，驱动 PF-PC 突触 LTD，把学得的时间间隔写入突触权重。
+- 人类 fMRI 显示，**绝对时长（absolute duration）**计时——像秒表计量单个间隔——激活的正是橄榄-小脑网络：下橄榄核 + 小脑蚓部 + 齿状核（Teki et al., 2011, PMID:21389235）。
+
+**双重分离（double dissociation）**（Breska & Ivry, 2016）：
+- 小脑病变患者在**单一区间辨别**任务上受损，但在**节拍/节奏**任务上表现**正常**——证明小脑专司离散事件计时，节拍计时则由基底节负责（见 [[basal-ganglia]]）。
+
+**眼睑条件反射（eyeblink conditioning）**：小脑精确计量学得的离散间隔（CS 与 US 之间的固定延迟），是事件计时的范式实验。
+
+**与基底节的分工**：猴电生理显示，小脑准备活动在运动前约 500ms 启动，主要负责**亚秒级时间变异性（variability）的调节**（把时序"打磨精确"）；而基底节负责数百毫秒到秒级的**时长测量**（Tanaka et al., 2024, PMID:38918348）。
+
+详见 [[interval-timing]]。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -81,6 +98,7 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 - [[forward-model]] — 内部模型框架
 - [[ltd]] — 小脑 LTD 与海马 LTD 的异同
 - [[memory-consolidation]] — 程序性记忆（小脑）vs 陈述性记忆（海马）
+- [[interval-timing]] — 小脑作为毫秒级事件计时器
 - [[diseases/spinocerebellar-ataxia]] — 疾病作为窗口（SCA）
 
 ## 未解问题
@@ -93,6 +111,7 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 来源：PMID:33203932, 33288911, 21227230, 11319554, 21482355, 7954803
+- 2026-07-31 · 新增"小脑作为区间计时器"节 · 区分事件计时（event-based）与节拍计时（beat-based）；整合 Breska & Ivry 2016 和 Teki 2011 解剖学证据 · 基于 2026-07-31-interval-timing-basal-ganglia-striatum
 
 ## 来源文章
 

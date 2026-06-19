@@ -1208,5 +1208,55 @@
     "revision_count": 6,
     "last_change": "2026-07-25",
     "change_reason": "修订 rev5→rev6（文章 #93，2026-07-25）。新增转录组亚型注记：PV细胞内篮状/吊灯细胞转录组标记差异、PV亚型跨区保守性~70%（GABAergic最高）、人类PV细胞电生理物种差异（Hodge 2019）。状态不变 established/high。"
+  },
+  "interval-timing-2026-07-31": {
+    "slug": "interval-timing",
+    "status": "mainstream",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-31",
+    "change_reason": "新建页面（文章 #99，2026-07-31）。小脑/纹状体双重分离是跨物种、多实验室、行为+影像+损伤+电生理四类证据汇聚的强共识（Teki 2011 fMRI、Breska & Ivry 2016 患者损伤）；标量特性（Weber定律）在几十篇行为研究中被重复验证；多巴胺调节时钟速度有系统性药理学证据链。整体：mainstream/high。未解：两大系统在单一计时任务中的具体分工比例（Q-it-01/Q-it-02）。",
+    "key_sources": [
+      "PMID:21389235",
+      "PMID:27088121",
+      "PMID:38918348",
+      "PMID:15217335"
+    ]
+  },
+  "striatal-beat-frequency-2026-07-31": {
+    "slug": "striatal-beat-frequency",
+    "status": "mainstream",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_change": "2026-07-31",
+    "change_reason": "新建页面（文章 #99，2026-07-31）。SBF 是文献中引用最多的秒级区间计时机制模型；Oprisan & Buhusi 2011（PMC3178804）提供完整参数化模拟，可定量复现药理学时间知觉改变；多巴胺调频→即时标量改变是可重复的药理行为预测。然而：'皮层振荡子+MSN符合检测'这一具体生理回路尚未被在体因果实验完整证实（Q-it-01）；MSN调谐到特定拍频图案的直接单细胞证据有限。置信度：medium。",
+    "key_sources": [
+      "PMC3178804"
+    ]
+  },
+  "population-clock-2026-07-31": {
+    "slug": "population-clock",
+    "status": "emerging",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_change": "2026-07-31",
+    "change_reason": "新建页面（文章 #99，2026-07-31）。Zhou & Buonomano 2022（PMC9561006）综述提供内在计时/种群时钟理论框架，纹状体序列性>运动皮层是基于群体记录的实证发现（中置信度）；RNN涌现同构轨迹是计算证据。然而：整个框架仍以理论综述为主，直接在体因果证明'时间=轨迹位置'有限；读出轨迹的下游译码器未知（Q-it-02）。emerging/medium。",
+    "key_sources": [
+      "PMC9561006",
+      "PMC9376361"
+    ]
+  },
+  "systems-basal-ganglia-2026-07-31": {
+    "slug": "systems/basal-ganglia",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-31",
+    "change_reason": "新建页面（文章 #99，2026-07-31）。系统层级视角，聚焦区间计时功能。Bruce 2025（eLife, DOI:10.7554/eLife.96287.4）提供 D1/D2-MSN 对立动力学的光遗传因果证据（R²=0.95漂移扩散，抑制延迟计时峰 p=0.002/0.03）；Ponzi & Wickens 2022（PMC9376361）~1/3 MSN 斜坡放电出现在混沌边缘；纹状体解剖学（MSN构成95%）是decades级教科书共识。整体：established/high。",
+    "key_sources": [
+      "10.7554/eLife.96287.4",
+      "PMC9376361",
+      "PMID:38918348"
+    ]
   }
 }

@@ -6,10 +6,10 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-07-30
-updated: 2026-07-30
-revision_count: 1
+updated: 2026-07-31
+revision_count: 2
 dimensions: [cognition, whole-brain-network]
-related: [multisensory-integration, bayesian-causal-inference, superior-colliculus]
+related: [multisensory-integration, bayesian-causal-inference, superior-colliculus, interval-timing, striatal-beat-frequency]
 prerequisites: [multisensory-integration]
 opens_questions: [Q-msi-01]
 source_articles: [2026-07-30-multisensory-integration-bayesian-brain]
@@ -54,6 +54,7 @@ TBW 的神经基础尚不完全清楚（主要未解问题 Q-msi-01），候选�
 - [[multisensory-integration]] — TBW 是整合的时间约束
 - [[bayesian-causal-inference]] — TBW 对应 P(C=1) 随时间差降低的先验
 - [[superior-colliculus]] — SC 的"时间规则"是 TBW 的皮层下体现
+- [[interval-timing]] — TBW 是区间计时的一种特殊形式：多感觉整合需要大脑判断两个跨模态刺激是否在时间上足够接近；TBW 的宽度可能受纹状体拍频振荡的调制
 
 ## 未解问题
 
@@ -62,6 +63,7 @@ TBW 的神经基础尚不完全清楚（主要未解问题 Q-msi-01），候选�
 ## 修订历史
 
 - 2026-07-30 · 创建 · 基于《感官的裁判》文章 #98 · 初始置信度：高
+- 2026-07-31 · 在"连接"节添加与 interval-timing 和 striatal-beat-frequency 的关联 · 基于 2026-07-31-interval-timing-basal-ganglia-striatum
 
 ## 来源文章
 

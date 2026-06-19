@@ -1,7 +1,61 @@
 {
-  "last_updated": "2026-07-30",
-  "total_articles": 81,
+  "last_updated": "2026-07-31",
+  "total_articles": 82,
   "entries": [
+    {
+      "date": "2026-07-31",
+      "title": "大脑的秒表：神经系统如何在毫秒与秒之间测量时间",
+      "filename": "2026-07-31-interval-timing-basal-ganglia-striatum.md",
+      "article_number": 99,
+      "wiki_pages_created": [
+        "wiki/concepts/interval-timing.md",
+        "wiki/concepts/striatal-beat-frequency.md",
+        "wiki/concepts/population-clock.md",
+        "wiki/systems/basal-ganglia.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/circuits/basal-ganglia.md",
+        "wiki/systems/cerebellum.md",
+        "wiki/concepts/temporal-binding-window.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当大脑需要判断"已经过了多少时间"时，哪些神经机制在计时？从毫秒到秒，小脑、纹状体、皮层如何分工？中脑多巴胺的"时钟调速"假说是否成立？",
+      "open_questions_added": ["Q-it-01", "Q-it-02"],
+      "layer": ["cellular", "microcircuit", "brain-region", "cognition"],
+      "curriculum_track": "课程脊柱2（神经计算基本原语·时间编码）+ 脊柱4（基底节与多巴胺系统）+ 脊柱12（人脑与AI比较·循环网络时间涌现）",
+      "topic_tags": [
+        "interval timing",
+        "temporal processing distributed timing",
+        "cerebellum event-based timing",
+        "olivocerebellar system inferior olive",
+        "striatal beat frequency SBF",
+        "medium spiny neurons MSN D1 D2",
+        "population clock neural trajectory",
+        "ramping activity striatum",
+        "dopamine clock speed",
+        "Parkinson disease time distortion",
+        "scalar property Weber law time",
+        "eyeblink conditioning cerebellar timing",
+        "drift diffusion model temporal accumulation"
+      ],
+      "main_sources": [
+        "PMID:15217335",
+        "PMID:21389235",
+        "PMID:38918348",
+        "PMID:35978564",
+        "PMID:35446093",
+        "PMID:33815049",
+        "PMID:27088121"
+      ],
+      "next_suggested_topics": [
+        "Q-it-01裁决：纹状体拍频模型的生理验证（体内记录+因果操控）",
+        "Q-it-02裁决：种群时钟的下游译码机制",
+        "前庭系统与空间方向（连接头向细胞·多感觉·区间计时的运动时序）",
+        "工作记忆的时间维度（PFC-纹状体回路如何维持时间顺序信息）",
+        "海马序列细胞与情节记忆的时间标记（time cells，O'Keefe & Eichenbaum）"
+      ]
+    },
     {
       "date": "2026-07-30",
       "title": "感官的裁判：大脑如何决定你听到的和你看到的属于同一件事——多感觉整合的贝叶斯因果推断框架",
