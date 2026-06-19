@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-22（第90篇·α振荡·视丘节拍器×感知闸门×α-γ PAC工作记忆机制）· 主题页总数：**158**（新建1页：concepts/alpha-oscillations；修订3页：concepts/theta-gamma-coupling rev1→rev2、concepts/working-memory rev8→rev9、systems/thalamus rev3→rev4；图谱162节点、998边；新增Q-alpha-thalamic-vs-cortical、Q-alpha-c-vs-dprime；Q-theta-primate证据更新）
+> 最后更新：2026-07-23（第91篇·UP/DOWN态机制·Layer 5循环兴奋×KNa终止×PFC选择性守门）· 主题页总数：**159**（新建1页：concepts/up-down-state-mechanism；修订2页：concepts/cortical-slow-oscillation rev3→rev4、concepts/so-spindle-swr-coupling rev1→rev2；图谱163节点、1006边；新增Q-updown-termination-weight、Q-updown-human-mechanism、Q-pfc-veto-mechanism、Q-pfc-veto-human）
 
 ---
 
@@ -71,6 +71,7 @@
 - 🟢 [皮层慢振荡（SO）](concepts/cortical-slow-oscillation.md) — NREM 深睡眠~0.75 Hz UP/DOWN态交替；起源PFC向后传播；SO上行相是纺锤波和SWR的最高时间框架；三重奏顶层 **[NEW 2026-06-19]**
 - 🟢 [SO-纺锤波-SWR 三重耦合](concepts/so-spindle-swr-coupling.md) — NREM 睡眠中 SO（主时钟）→纺锤波（皮层预热）→SWR（记忆写入）精确时间嵌套；Maingret 2016 闭环刺激因果证明；老龄化耦合精度下降（d=1.19，mPFC 萎缩机制）；DA/NE/ACh 神经调质调节 **[NEW 2026-07-07]**
 - 🔵 [突触稳态假说（SHY）](concepts/shy-hypothesis.md) — Tononi & Cirelli：清醒期 LTP 积累→睡眠期 SO 驱动 ~18% 突触下调（de Vivo 2017 超微结构证据）；down-selection：被 SWR 重播激活的突触受保护，多数突触弱化；与主动记忆巩固统一 **[NEW 2026-07-07]**
+- 🟢 [皮层 UP/DOWN 态机制](concepts/up-down-state-mechanism.md) — Layer 5 循环兴奋（AMPA+NMDA 侧支）自主启动 UP 态（~−65 mV，0.8–1.5 s）；KNa 通道 Na⁺ 积累（主要机制）+ 短时程突触抑郁 + SST+ 延迟抑制三机制终止 UP 态；孤立皮层切片自发 SO 证明回路内在充分性（Sanchez-Vives 2000）；为 SO-spindle-SWR 三重协奏提供细胞层级时间骨架 **[NEW 2026-07-23]**
 - 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现
 - 🟡 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）
 - 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失（修订5次）

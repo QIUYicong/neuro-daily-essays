@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-07-08
-revision_count: 3
+updated: 2026-07-23
+revision_count: 4
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network, glymphatic-system, alzheimers-disease, circadian-clock, scn-circadian-pacemaker]
+related: [sleep-spindles, sharp-wave-ripples, memory-consolidation, thalamocortical-circuit, default-mode-network, glymphatic-system, alzheimers-disease, circadian-clock, scn-circadian-pacemaker, up-down-state-mechanism]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: [Q-so-initiation-site, Q-so-propagation-plasticity]
-source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-06-glymphatic-system-sleep-clearance, 2026-07-08-circadian-clock-scn-brain-rhythm]
-key_sources: ["PMID:38443198", "PMID:20046194", "PMID:31804897", "PMID:28689981", "PMID:39788123", "PMID:7185792"]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-07-06-glymphatic-system-sleep-clearance, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-07-23-cortical-up-down-state-pfc-gating-memory]
+key_sources: ["PMID:38443198", "PMID:20046194", "PMID:31804897", "PMID:28689981", "PMID:39788123", "PMID:7185792", "PMID:8340806", "PMID:8340807", "PMID:26834569"]
 ---
 
 # 皮层慢振荡 (Cortical Slow Oscillation, SO)
@@ -38,17 +38,22 @@ SO 的功能：
 
 ### UP 态：持续去极化的维持
 
-UP 态是一种**亚阈值持续去极化**（~−65 mV，接近放电阈值）：
-- 谷氨酸能的循环兴奋（皮层内部循环）维持 UP 态
-- 皮层下输入（基底前脑、脑干）的缺失（睡眠时这些系统活动降低）使皮层摆脱"强直去极化锁定"，进入自发振荡
-- AMPA 和 NMDA 受体的持续激活 + K⁺ 电流的动态平衡 = 约 500 ms 的自然持续时间
+UP 态是一种**亚阈值持续去极化**（~−65 mV，接近放电阈值，Steriade 1993，PMID:8340806）：
+- **Layer 5 锥体细胞**通过侧支 AMPA+NMDA 循环兴奋（recurrent excitation）自主启动 UP 态（Sanchez-Vives & McCormick 2000，PMID:11017176）
+- 孤立皮层切片（无视丘、无海马）可自发产生 UP/DOWN 态交替，证明这是**皮层回路内在属性**（PMID:11017176）
+- 皮层下输入（基底前脑、脑干）的缺失（睡眠时这些系统活动降低）使皮层摆脱"强直去极化锁定"，进入自发振荡——睡眠时 ACh 下降 60–80%，M1 受体脱活化 → K⁺ 电导减小 → 静息电位从~−70 mV 上升至~−65 mV，距阈值仅约 10 mV
+- AMPA 和 NMDA 受体的持续激活 + K⁺ 电流的动态平衡 = 约 0.8–1.5 s 的自然持续时间
 
-### DOWN 态：深度超极化与重置
+### DOWN 态：深度超极化与充能
 
-DOWN 态是一种**深度全域超极化**（~−90 mV）：
-- K⁺ 漏电通道（TASK 家族等）积累性激活 → 超极化
-- 抑制性网络（SST+ 等中间神经元）可能加速 UP→DOWN 转换
-- DOWN 态在"重置"突触权重（SHY 假说的突触下调可能主要发生在 DOWN 态）
+DOWN 态是一种**深度全域超极化**（~−90 mV，Steriade 1993，PMID:8340806）：
+- UP 态期间 Na⁺ 内流积累 → **钠激活钾通道（KNa，KCNT1/KCNT2）**被激活 → 大量 K⁺ 外流 → DOWN 态（主要终止机制，Neske 2015，PMID:26834569）
+- **短时程突触抑郁（STP）**：高频兴奋性放电耗尽突触前可用囊泡池（RRP）→ 谷氨酸释放概率下降 → 循环兴奋增益降低（第二机制）
+- **SST+ 中间神经元延迟抑制**：Martinotti 细胞在 UP 态晚期大量放电，向锥体细胞树突施以 GABA_A 抑制 → 加速 UP→DOWN 转变（第三机制）
+- DOWN 态深度由 GABA_B 介导的慢 K⁺ 通道 + TASK 家族漏电 K⁺ 通道共同维持
+- DOWN 态的功能意义：视丘网状核 CaV3.3 T 型钙通道去失活充能（为纺锤波充能）；突触抑郁恢复（RRP 再充填）；SHY 假说的突触下调可能主要发生在此期间
+
+> **详细细胞机制**见 [[up-down-state-mechanism]]
 
 ### SO 与纺锤波-SWR 的时间嵌套
 
@@ -77,6 +82,10 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 | SO 起源于 PFC，从额叶向后部传播 | 高密度EEG + 源分析 + 颅内记录 | PMID:20046194（综述）| 高 |
 | SO UP 态触发纺锤波；三重耦合因果必要 | 闭环电刺激（纺锤波）+ 相位控制 | PMID:28689981 | 高 |
 | SO 上行相与海马 SWR 优先耦合（人类） | 人类颅内EEG + 相位分析 | PMID:31533977 | 高 |
+| UP/DOWN 态参数（0.8–1.5 s UP，~1 s DOWN，0.3–0.4 Hz） | 猫皮层 N=254 神经元胞内记录 | PMID:8340806 (PMC6576541) | 高 |
+| SO 视丘损毁后存在 → 皮层自主产生 | 猫体内视丘损毁 + 皮层胞内记录 | PMID:8340807 (PMC6576520) | 高 |
+| 离体皮层切片自发 UP/DOWN 态（Layer 5 启动） | 雪貂皮层切片 + 多电极记录 | PMID:11017176 | 高 |
+| KNa/STP/SST 三机制终止 UP 态（综述） | 机制综述 + 文献汇总 | PMID:26834569 (PMC4625581) | 中-高 |
 
 ## 连接
 
@@ -88,6 +97,7 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 - [[alzheimers-disease]] — 老年性 SO 振幅减弱与胶质淋巴清洗减少协同导致 Aβ/tau 积累加速
 - [[circadian-clock]] — 昼夜节律分子振荡器决定 NREM 慢波睡眠（SO 主导）集中在前半夜的时序安排
 - [[scn-circadian-pacemaker]] — SCN 通过两过程模型（过程 C + 过程 S）协同调控 SO 丰富的深慢波睡眠何时发生
+- [[up-down-state-mechanism]] — SO 的细胞层级实现：Layer 5 循环兴奋启动 UP 态，KNa 积累 + 突触抑郁 + SST+ 延迟抑制三机制终止 UP 态
 
 ## 未解问题
 
@@ -99,9 +109,11 @@ DOWN 态（~400 ms）→ 皮层静默 → 防止干扰 → 重置
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · SO 页面是 sleep-spindles 和 memory-consolidation 的前置概念 · 初始置信度：高
 - 2026-07-06 · 修订 rev2 · 基于《大脑的夜间清洗工程》(#74) · 新增 SO 与胶质淋巴系统的双重功能关系（NREM 慢波睡眠同时驱动记忆巩固和废物清洗）；related 新增 glymphatic-system、alzheimers-disease；key_sources 新增 PMID:39788123
 - 2026-07-08 · 修订 rev3 · 基于《大脑的 24 小时时钟》(#76) · 新增 circadian-clock、scn-circadian-pacemaker 为 related 节点（两过程模型将 SO 丰富的深慢波睡眠定时于前半夜）；连接节新增两条；key_sources 新增 PMID:7185792
+- 2026-07-23 · 修订 rev4 · 基于《皮层的沉默与苏醒》(#91) · 扩展 UP/DOWN 态机制章节：添加 Layer 5 循环兴奋（Sanchez-Vives 2000）、KNa 主通道终止、突触抑郁、SST+ 延迟抑制三机制细节；新增 Steriade 1993 两篇 PMC 来源及 Neske 2015 综述；related 新增 up-down-state-mechanism；key_sources 新增 PMID:8340806/8340807/26834569；新增关键证据行（4条）
 
 ## 来源文章
 
 - [[2026-06-19-sleep-spindles-nrem]]
 - [[2026-07-06-glymphatic-system-sleep-clearance]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
+- [[2026-07-23-cortical-up-down-state-pfc-gating-memory]]

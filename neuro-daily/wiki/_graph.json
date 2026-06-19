@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-22",
-  "node_count": 162,
-  "edge_count": 998,
+  "updated": "2026-07-23",
+  "node_count": 163,
+  "edge_count": 1006,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,15 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "up-down-state-mechanism",
+      "title": "皮层 UP/DOWN 态机制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/up-down-state-mechanism.md"
+    },
     {
       "id": "synaptic-scaling",
       "title": "突触稳态缩放",
@@ -1486,6 +1495,54 @@
     }
   ],
   "edges": [
+    {
+      "from": "up-down-state-mechanism",
+      "to": "cortical-slow-oscillation",
+      "type": "mechanism-of",
+      "note": "UP/DOWN 态是皮层慢振荡的细胞层级实现机制"
+    },
+    {
+      "from": "up-down-state-mechanism",
+      "to": "sleep-spindles",
+      "type": "supports",
+      "note": "DOWN 态为 TRN CaV3.3 T 型钙通道去失活充能，触发下一轮纺锤波"
+    },
+    {
+      "from": "up-down-state-mechanism",
+      "to": "so-spindle-swr-coupling",
+      "type": "part-of",
+      "note": "UP/DOWN 态提供三重协奏的分子-细胞时间骨架"
+    },
+    {
+      "from": "up-down-state-mechanism",
+      "to": "action-potential",
+      "type": "related",
+      "note": "UP 态内密集动作电位序列是兴奋传播的载体"
+    },
+    {
+      "from": "up-down-state-mechanism",
+      "to": "synaptic-transmission",
+      "type": "related",
+      "note": "突触抑郁（STP）是 UP 态终止的第二机制"
+    },
+    {
+      "from": "up-down-state-mechanism",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "PV+ 快放电中间神经元参与 UP 态内 E/I 平衡；SST+ 参与 UP 态终止"
+    },
+    {
+      "from": "up-down-state-mechanism",
+      "to": "shy-hypothesis",
+      "type": "supports",
+      "note": "DOWN 态可能是 SHY 突触稳态下调的执行时窗"
+    },
+    {
+      "from": "cortical-slow-oscillation",
+      "to": "up-down-state-mechanism",
+      "type": "part-of",
+      "note": "皮层慢振荡的细胞机制子页面"
+    },
     {
       "from": "synaptic-scaling",
       "to": "homeostatic-plasticity",

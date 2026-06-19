@@ -1,0 +1,197 @@
+====================================================
+NEURO DAILY RUN LOG — 2026-07-23
+====================================================
+
+RUN DATE: 2026-07-23
+REPOSITORY: QIUYicong/neuro-daily-essays
+BRANCH: main
+MODE: Long-term curriculum (Article #91, continuing linear progression from #90)
+
+----------------------------------------------------
+STEP 1: REPOSITORY STATE CHECK
+----------------------------------------------------
+- Articles prior to this run: 90
+- Latest article: #90 (2026-07-22, α振荡)
+- Branch: main (checked out from claude/funny-einstein-t68601, then switched to main)
+- Unresolved high-priority questions: Q-theta-primate, Q-tgc-01
+- Pending wiki stubs referenced but missing: up-down-state-mechanism
+
+----------------------------------------------------
+STEP 2: TOPIC SELECTION
+----------------------------------------------------
+Topic selected: 皮层 UP/DOWN 态机制 + PFC 选择性守门记忆巩固
+Article #: 91
+Date: 2026-07-23
+File: 2026-07-23-cortical-up-down-state-pfc-gating-memory.md
+
+Selection reasoning:
+- cortical-slow-oscillation.md (rev3) was thin on cellular mechanism details
+- up-down-state-mechanism slug referenced by multiple pages but page didn't exist
+- Shin & Jadhav 2024 (PMID:38834064) provides a timely new finding that deserves coverage
+- Natural continuation of sleep oscillation series (#75, #84–#90)
+- Fills the gap between SO-level description and cell-level mechanism
+
+Core question:
+  皮层 UP/DOWN 态的细胞内在机制是什么？Layer 5 循环兴奋如何启动 UP 态？
+  KNa 通道 Na⁺ 积累 + 突触抑郁 + SST+ 延迟抑制三种机制如何协同终止 UP 态？
+  PFC 涟漣（Shin & Jadhav 2024）如何在 SO-spindle-SWR 框架中主动进行记忆守门？
+
+----------------------------------------------------
+STEP 3: LITERATURE SEARCH
+----------------------------------------------------
+PubMed/PMC search queries used:
+  1. "slow oscillations up down states cortex sleep memory consolidation"
+  2. "slow oscillation spindle ripple NREM memory"
+  3. "cortical up down states slow oscillation mechanism review"
+  4. "Steriade Nunez Amzica 1993 cortical slow oscillation"
+  5. "Sanchez-Vives McCormick 2000 slow oscillation cortex"
+  6. "Staresina sleep spindle ripple slow oscillation"
+  7. "Latchoumane slow oscillation spindle memory causal"
+  8. "Ngo Born auditory closed-loop slow oscillation memory 2013"
+  9. "Shin Jadhav 2024 PFC ripples hippocampal reactivation"
+  10. "Neske 2015 slow oscillation cortical thalamic networks"
+
+Open access full texts accessed:
+  - PMID:8340806 (PMC6576541) — Steriade 1993a: direct intracellular recording, N=254 neurons
+  - PMID:8340807 (PMC6576520) — Steriade 1993b: thalamic lesion experiment
+  - PMID:26834569 (PMC4625581) — Neske 2015: mechanism review (KNa/STP/SST)
+  - PMID:26389842 (PMC4712264) — Staresina 2015: human iEEG SO-spindle-ripple nesting
+
+Abstract only (commercial journals, labeled in article):
+  - PMID:11017176 — Sanchez-Vives & McCormick 2000 (Nature Neuroscience)
+  - PMID:20046194 — Diekelmann & Born 2010 (Nature Reviews Neuroscience)
+  - PMID:23583623 — Ngo et al. 2013 (Neuron)
+  - PMID:28689981 — Latchoumane et al. 2017 (Neuron)
+  - PMID:37429914 — Staresina et al. 2023 (Nature Neuroscience)
+  - PMID:38834064 — Shin & Jadhav 2024 (Current Biology)
+
+Total sources: 10 (4 open access full text, 6 abstract only — all labeled)
+Min requirement: ≥5 sources ✅, ≥2 open access full texts ✅
+
+----------------------------------------------------
+STEP 4: FILES CREATED
+----------------------------------------------------
+New article:
+  neuro-daily/articles/2026-07-23-cortical-up-down-state-pfc-gating-memory.md
+
+Reading notes:
+  neuro-daily/notes/2026-07-23-reading-notes.md
+
+Sources JSON:
+  neuro-daily/sources/2026-07-23-sources.json
+
+New wiki page:
+  neuro-daily/wiki/concepts/up-down-state-mechanism.md (rev1)
+  - UP state initiation: Layer 5 recurrent excitation mechanism
+  - UP state termination: KNa (primary) + synaptic depression + SST+ delayed inhibition
+  - DOWN state: deep hyperpolarization maintenance mechanisms
+  - Oscillation parameters table (UP/DOWN duration, frequency, Vm)
+  - Key evidence table (6 entries)
+  - Opens Q-updown-termination-weight, Q-updown-human-mechanism
+
+----------------------------------------------------
+STEP 5: WIKI CONSOLIDATION
+----------------------------------------------------
+Revised wiki pages:
+
+cortical-slow-oscillation.md rev3→rev4:
+  - Updated: 2026-07-23, revision_count 3→4
+  - Added up-down-state-mechanism to related
+  - Added 2026-07-23-cortical-up-down-state-pfc-gating-memory to source_articles
+  - Added PMID:8340806, PMID:8340807, PMID:26834569 to key_sources
+  - Expanded UP state mechanism section (Layer 5 recurrent excitation, ACh/K+ dynamics)
+  - Expanded DOWN state mechanism section (KNa + STP + SST+ three-mechanism model)
+  - Added 4 new rows to key evidence table
+  - Added up-down-state-mechanism to connections section
+  - Appended revision history entry
+
+so-spindle-swr-coupling.md rev1→rev2:
+  - Updated: 2026-07-23, revision_count 1→2
+  - Added up-down-state-mechanism to related
+  - Added Q-pfc-veto-mechanism, Q-pfc-veto-human to opens_questions
+  - Added 2026-07-23-cortical-up-down-state-pfc-gating-memory to source_articles
+  - Added PMID:26389842, PMID:37429914, PMID:38834064 to key_sources
+  - Added Staresina 2015 human iEEG paragraph
+  - Added Staresina 2023 MUA staircase paragraph
+  - Added Shin & Jadhav 2024 PFC veto gating paragraph (important new finding)
+  - Added 3 new rows to key evidence table
+  - Added up-down-state-mechanism to connections section
+  - Added Q-pfc-veto-mechanism/Q-pfc-veto-human to unresolved questions section
+  - Appended revision history entry
+
+----------------------------------------------------
+STEP 6: GRAPH & INDEX UPDATES
+----------------------------------------------------
+_graph.json:
+  - updated: 2026-07-22→2026-07-23
+  - node_count: 162→163 (+1 node: up-down-state-mechanism)
+  - edge_count: 998→1006 (+8 edges: up-down-state-mechanism↔cortical-slow-oscillation,
+    sleep-spindles, so-spindle-swr-coupling, action-potential, synaptic-transmission,
+    pv-interneurons, shy-hypothesis; cortical-slow-oscillation→up-down-state-mechanism)
+
+wiki/index.md:
+  - Header updated (total pages 158→159, graph 162/998→163/1006)
+  - New concept entry added: up-down-state-mechanism (after shy-hypothesis)
+
+wiki/CHANGELOG.md:
+  - Prepended new section for 2026-07-23 with full details
+
+----------------------------------------------------
+STEP 7: STATE FILE UPDATES
+----------------------------------------------------
+state/topic_ledger.json:
+  - total_articles: 90→91
+  - last_updated: 2026-07-22→2026-07-23
+  - Added entry #91 (top of entries array)
+
+state/unresolved_questions.md:
+  - last_updated: 2026-07-22→2026-07-23
+  - Added Q-pfc-veto-mechanism (高优先级)
+  - Added Q-pfc-veto-human (中优先级)
+  - Added Q-updown-termination-weight (中优先级)
+  - Added Q-updown-human-mechanism (低优先级)
+
+state/source_registry.json:
+  - last_updated: 2026-07-22→2026-07-23
+  - Added 10 new sources (PMIDs: 8340806, 8340807, 11017176, 26834569, 20046194,
+    23583623, 26389842, 28689981, 37429914, 38834064)
+
+state/monthly_synthesis.md:
+  - Updated July section: last date 2026-07-22→2026-07-23, total 22→23 articles
+  - Added #91 to article summary list
+  - Added #91 to monthly article list (article text block)
+
+state/maturity_index.json:
+  - last_updated: 2026-07-22→2026-07-23
+  - Added up-down-state-mechanism entry (established, high confidence)
+
+----------------------------------------------------
+STEP 8: CONTESTED CLAIMS
+----------------------------------------------------
+No new contested claims registered.
+PFC veto mechanism species differences noted as open questions (not contested claims).
+
+----------------------------------------------------
+VERIFICATION CHECKLIST
+----------------------------------------------------
+[✓] ≥5 sources used (10 sources)
+[✓] ≥2 open access full texts (4: PMC6576541, PMC6576520, PMC4625581, PMC4712264)
+[✓] No Sci-Hub / paywall bypass used
+[✓] No fabricated PMIDs, DOIs, or conclusions
+[✓] Article clearly labels which sources are abstract-only
+[✓] New wiki page created (up-down-state-mechanism)
+[✓] Existing wiki pages updated (cortical-slow-oscillation rev4, so-spindle-swr-coupling rev2)
+[✓] Graph updated (163 nodes, 1006 edges)
+[✓] Index updated (159 pages)
+[✓] CHANGELOG updated
+[✓] Topic ledger updated (91 articles)
+[✓] Unresolved questions updated (4 new questions)
+[✓] Source registry updated (10 new entries)
+[✓] Monthly synthesis updated
+[✓] Maturity index updated
+[✓] Run log created (this file)
+
+----------------------------------------------------
+PUSH STATUS
+----------------------------------------------------
+(to be filled after git commit and push)

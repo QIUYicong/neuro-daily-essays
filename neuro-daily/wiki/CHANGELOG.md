@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-07-23（文章 #91·UP/DOWN态机制·Layer 5循环兴奋×KNa终止×PFC选择性守门）
+
+**源文章**：[[2026-07-23-cortical-up-down-state-pfc-gating-memory]] —《皮层的沉默与苏醒：UP/DOWN 态如何从细胞机制到系统层面编排睡眠中的记忆选择》
+
+**新建页面（1）**：
+- `wiki/concepts/up-down-state-mechanism.md`（UP/DOWN态机制·rev1）🟢 established·high confidence — Layer 5 锥体细胞侧支循环兴奋（AMPA+NMDA）是 UP 态启动引擎；UP 态特征（~−65 mV，0.8–1.5 s，密集放电）；UP 态终止三机制：①KNa 通道（KCNT1/KCNT2，[Na⁺] ~10→15–20 mM）为主要自动计时器，②短时程突触抑郁（RRP 耗竭），③SST+ Martinotti 细胞延迟 GABA_A 树突抑制；DOWN 态深度（~−90 mV）由 GABA_B + KNa 持续激活 + TASK 漏电通道维持；离体皮层切片（无视丘）自发 SO 证明皮层回路内在充分性（Sanchez-Vives 2000，PMID:11017176）；视丘损毁后体内 SO 存在证明自主性（Steriade 1993，PMID:8340807）；关键证据表 6 条；连接 cortical-slow-oscillation, sleep-spindles, so-spindle-swr-coupling, action-potential, synaptic-transmission, pv-interneurons, shy-hypothesis；开放问题 Q-updown-termination-weight（中优先级）/Q-updown-human-mechanism（低优先级）；key_sources: PMID:8340806（PMC6576541）, PMID:8340807（PMC6576520）, PMID:11017176, PMID:26834569（PMC4625581）
+
+**修订页面（2）**：
+- `wiki/concepts/cortical-slow-oscillation.md` rev4 — updated=2026-07-23；revision_count 3→4；related 新增 up-down-state-mechanism；source_articles 新增 2026-07-23-cortical-up-down-state-pfc-gating-memory；key_sources 新增 PMID:8340806, PMID:8340807, PMID:26834569；UP态机制章节扩展（Layer 5 循环兴奋机制、睡眠 ACh 下降使静息电位趋近阈值）；DOWN态机制章节扩展（KNa 主机制 + 突触抑郁 + SST+ 延迟抑制三机制详细描述）；关键证据表新增4行（UP/DOWN参数、视丘损毁、离体切片、KNa/STP/SST综述）；连接节新增 up-down-state-mechanism
+- `wiki/concepts/so-spindle-swr-coupling.md` rev2 — updated=2026-07-23；revision_count 1→2；related 新增 up-down-state-mechanism；opens_questions 新增 Q-pfc-veto-mechanism, Q-pfc-veto-human；source_articles 新增 2026-07-23-cortical-up-down-state-pfc-gating-memory；key_sources 新增 PMID:26389842, PMID:37429914, PMID:38834064；正文新增 Staresina 2015 人类颅内验证段落、Staresina 2023 MUA 阶梯递增段落、Shin & Jadhav 2024 PFC 选择性守门段落（重要新发现）；关键证据表新增3行；连接节新增 up-down-state-mechanism；未解问题新增 Q-pfc-veto-mechanism/Q-pfc-veto-human 详细描述
+
+**矛盾登记（0）**：无新矛盾（PFC 守门机制的物种差异、UP 态终止权重的不确定性均作为开放问题处理）
+
+**新增开放问题（4）**：
+- Q-updown-termination-weight（中优先级）：KNa 积累、突触抑郁和 SST 延迟抑制在 UP 态终止中的相对权重是否在不同皮层区域（前额 vs 初级感觉皮层）和不同物种中显著不同？能否通过双光子 Na⁺ 成像直接测量？
+- Q-updown-human-mechanism（低优先级）：人类皮层（厚达 2.5–5 mm，更长层内回路）的 UP 态终止机制是否与大鼠/猫有定量差异？目前缺乏人类体内单细胞记录。
+- Q-pfc-veto-mechanism（高优先级）：PFC 独立涟漣如何"选择"哪些海马细胞集成体需要抑制？上游选择信号（PFC 记忆印记？强化学习输出？）是什么？
+- Q-pfc-veto-human（中优先级）：Shin & Jadhav 2024 的 PFC 守门机制在人类颅内记录中是否可复现？PFC 涟漣的抑制功能是否在 PTSD/AD 等记忆障碍中受损？
+
+**图谱**：163 节点，1006 边（+1 节点 up-down-state-mechanism，+8 边 up-down-state-mechanism→各关联节点）
+
+---
+
 ## 2026-07-22（文章 #90·α振荡·视丘节拍器·感知闸门·α-γ PAC工作记忆机制）
 
 **源文章**：[[2026-07-22-alpha-oscillations-attention-wm]] —《α振荡：视丘节拍器、感知闸门与人类工作记忆的抑制性容量机制》

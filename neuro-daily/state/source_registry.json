@@ -1,7 +1,159 @@
 {
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "8340806",
+      "pmcid": "PMC6576541",
+      "title": "A novel slow (<1 Hz) oscillation of neocortical neurons in vivo: depolarizing and hyperpolarizing components",
+      "authors_short": "Steriade M, Nuñez A, Amzica F",
+      "journal": "The Journal of Neuroscience",
+      "year": 1993,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "UP state duration 0.8-1.5 s",
+        "DOWN state duration ~1 s",
+        "oscillation frequency 0.3-0.4 Hz",
+        "UP state membrane potential ~-65 mV",
+        "DOWN state membrane potential ~-90 mV",
+        "N=254 layer 3-6 pyramidal neurons in vivo intracellular recording (cat)"
+      ]
+    },
+    {
+      "pmid": "8340807",
+      "pmcid": "PMC6576520",
+      "title": "Intracellular analysis of relations between the slow (<1 Hz) neocortical oscillation and other sleep rhythms of the electroencephalogram",
+      "authors_short": "Steriade M, Nuñez A, Amzica F",
+      "journal": "The Journal of Neuroscience",
+      "year": 1993,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "cortical autonomy: SO persists after extensive thalamic lesions",
+        "spindles nested within SO UP state (first in vivo evidence)",
+        "hierarchical nesting SO-spindle first evidence"
+      ]
+    },
+    {
+      "pmid": "11017176",
+      "title": "Cellular and network mechanisms of rhythmic recurrent activity in neocortex",
+      "authors_short": "Sanchez-Vives MV, McCormick DA",
+      "journal": "Nature Neuroscience",
+      "year": 2000,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "isolated cortical slices spontaneously generate UP/DOWN alternation",
+        "Layer 5 recurrent excitation initiates UP state",
+        "KNa channels terminate UP state",
+        "synaptic depression contributes to UP state termination"
+      ]
+    },
+    {
+      "pmid": "26834569",
+      "pmcid": "PMC4625581",
+      "title": "The Slow Oscillation in Cortical and Thalamic Networks: Mechanisms and Functions",
+      "authors_short": "Neske GT",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2015,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "UP state termination: KNa, synaptic depression, SST delayed inhibition three-mechanism review",
+        "thalamic role in SO (passive participant, not generator)",
+        "ACh modulation of SO",
+        "UP state initiation hotspot (PFC priority)"
+      ]
+    },
+    {
+      "pmid": "20046194",
+      "title": "The memory function of sleep",
+      "authors_short": "Diekelmann S, Born J",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2010,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "active systems consolidation theory",
+        "SWS + low ACh drives hippocampal-neocortical transfer",
+        "sleep memory function framework"
+      ]
+    },
+    {
+      "pmid": "23583623",
+      "title": "Auditory closed-loop stimulation of the sleep slow oscillation enhances memory",
+      "authors_short": "Ngo HV, Martinetz T, Born J, Mölle M",
+      "journal": "Neuron",
+      "year": 2013,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "auditory closed-loop SO stimulation increases SO amplitude and spindle density",
+        "declarative memory improvement",
+        "in-phase vs out-of-phase stimulation comparison"
+      ]
+    },
+    {
+      "pmid": "26389842",
+      "pmcid": "PMC4712264",
+      "title": "Hierarchical nesting of slow oscillations, spindles and ripples in the human hippocampus during sleep",
+      "authors_short": "Staresina BP et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2015,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "human iEEG N=9 direct verification of SO-spindle-SWR hierarchical nesting",
+        "spindle density elevated in SO UP state",
+        "hippocampal ripple density elevated at spindle trough",
+        "all three nesting layers associated with increased neuronal firing"
+      ]
+    },
+    {
+      "pmid": "28689981",
+      "title": "Thalamic Spindles Promote Memory Formation during Sleep through Triple Phase-Locking of Cortical, Thalamic, and Hippocampal Rhythms",
+      "authors_short": "Latchoumane CV et al.",
+      "journal": "Neuron",
+      "year": 2017,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "in-phase optogenetic TRN activation during SO UP state increases triple coupling",
+        "out-of-phase no memory effect",
+        "causal evidence spindle timing determines memory consolidation"
+      ]
+    },
+    {
+      "pmid": "37429914",
+      "title": "How coupled slow oscillations, spindles and ripples coordinate neuronal processing and communication during human sleep",
+      "authors_short": "Staresina BP et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2023,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "human intracranial MUA firing rate staircase increase during SO-spindle-SWR triplets",
+        "enhanced local cell assembly cross-correlations",
+        "enhanced hippocampal-entorhinal-neocortical cross-regional interactions",
+        "STDP conditions satisfied"
+      ]
+    },
+    {
+      "pmid": "38834064",
+      "title": "Prefrontal cortical ripples mediate top-down suppression of hippocampal reactivation during sleep memory consolidation",
+      "authors_short": "Shin JD, Jadhav SP",
+      "journal": "Current Biology",
+      "year": 2024,
+      "first_used": "2026-07-23",
+      "used_in_articles": ["2026-07-23-cortical-up-down-state-pfc-gating-memory.md"],
+      "aspects_covered": [
+        "PFC coordinated ripples protect associated hippocampal cell assemblies",
+        "PFC independent ripples top-down suppress hippocampal reactivation",
+        "selective memory gating mechanism",
+        "challenge to broadcast-only model of sleep memory consolidation"
+      ]
+    },
     {
       "pmid": "20359884",
       "title": "Beta-band oscillations--signalling the status quo?",

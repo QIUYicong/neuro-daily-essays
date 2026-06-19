@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-07-22",
-  "total_articles": 90,
+  "last_updated": "2026-07-23",
+  "total_articles": 91,
   "entries": [
+    {
+      "date": "2026-07-23",
+      "title": "皮层的沉默与苏醒：UP/DOWN 态如何从细胞机制到系统层面编排睡眠中的记忆选择",
+      "filename": "2026-07-23-cortical-up-down-state-pfc-gating-memory.md",
+      "wiki_pages_created": ["wiki/concepts/up-down-state-mechanism.md"],
+      "wiki_pages_revised": ["wiki/concepts/cortical-slow-oscillation.md", "wiki/concepts/so-spindle-swr-coupling.md"],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "皮层 UP/DOWN 态的细胞内在机制是什么？Layer 5 循环兴奋如何启动 UP 态？KNa 通道 Na⁺ 积累 + 突触抑郁 + SST+ 延迟抑制三种机制如何协同终止 UP 态？PFC 涟漣（Shin & Jadhav 2024）如何在 SO-spindle-SWR 框架中主动进行记忆守门——不仅是"开门"（协调涟漣促进固化），还包括"关门"（独立涟漣主动抑制海马重激活）？",
+      "layer": ["molecular", "cellular", "synaptic", "microcircuit", "brain-region", "whole-brain-network", "cognition"],
+      "curriculum_track": "课程脊柱2（睡眠振荡·UP/DOWN态细胞机制，承接#75三重协奏框架）；课程脊柱4（学习记忆·系统巩固·PFC守门新发现）；填补cortical-slow-oscillation的细胞机制空缺；so-spindle-swr-coupling增加PFC主动守门维度",
+      "topic_tags": ["UP state DOWN state", "cortical slow oscillation cellular mechanism", "Layer 5 recurrent excitation", "KNa channel KCNT1 KCNT2", "synaptic depression STP", "SST Martinotti cells delayed inhibition", "Steriade 1993", "Sanchez-Vives McCormick 2000", "Neske 2015 review", "Staresina 2015 human iEEG", "Staresina 2023 MUA staircase", "Shin Jadhav 2024 PFC veto ripples", "top-down suppression hippocampal reactivation", "selective memory gating", "NREM acetylcholine resting potential"],
+      "open_questions_raised": ["Q-updown-termination-weight", "Q-updown-human-mechanism", "Q-pfc-veto-mechanism", "Q-pfc-veto-human"],
+      "open_questions_updated": [],
+      "article_number": 91
+    },
     {
       "date": "2026-07-22",
       "title": "α振荡：视丘节拍器、感知闸门与人类工作记忆的抑制性容量机制",

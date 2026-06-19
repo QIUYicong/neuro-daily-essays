@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-23",
   "levels": [
     "speculative",
     "emerging",
@@ -9,6 +9,14 @@
     "contested"
   ],
   "pages": [
+    {
+      "slug": "up-down-state-mechanism",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-07-23",
+      "reason": "创建 2026-07-23（文章 #91）。UP/DOWN 态的基本参数（持续时间、膜电位值）由 Steriade 1993（PMC6576541, PMC6576520）两篇奠基性论文的直接胞内记录（N=254 神经元）确立，是神经科学领域的高质量定量基础；皮层自主性（视丘损毁后 SO 存在）为直接因果证明（Steriade 1993b PMID:8340807）；孤立皮层切片自发 UP/DOWN 态（Sanchez-Vives & McCormick 2000 PMID:11017176）直接证明了皮层回路内在充分性。established。KNa 终止机制的置信度为中-高（离体切片间接证据）；SST 延迟抑制的置信度为中（综述推断）；整体置信度定为 high（核心描述层有最强证据，细胞机制层有高质量证据，终止机制三者相对权重尚有不确定性，但这不妨碍整体 established 判断）。"
+    },
     {
       "slug": "alpha-oscillations",
       "status": "established",
