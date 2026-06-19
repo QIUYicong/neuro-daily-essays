@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-07-31",
   "levels": [
     "speculative",
     "emerging",
@@ -1208,5 +1208,32 @@
     "revision_count": 6,
     "last_change": "2026-07-25",
     "change_reason": "修订 rev5→rev6（文章 #93，2026-07-25）。新增转录组亚型注记：PV细胞内篮状/吊灯细胞转录组标记差异、PV亚型跨区保守性~70%（GABAergic最高）、人类PV细胞电生理物种差异（Hodge 2019）。状态不变 established/high。"
+  },
+  "vestibular-system-created-2026-07-31": {
+    "slug": "vestibular-system",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-31",
+    "change_reason": "新建页面（文章 #99，2026-07-31）。半规管/耳石器官基本解剖与功能分工是教科书级共识（高）；TMC1/TMC2 机械传导（KO+电生理，PMID:25074487，高）；VOR 三神经元弧（解剖+电生理，高）；VO 神经元70-80%抑制（灵长类体内单神经元记录，PMID:21286693/31401034，高）；绒球损伤损害VOR适应（多物种，高）；蚓结节浦肯野细胞编码倾斜-平移歧义（灵长类，PMID:37739815，高）。整体：established/high。未解：PIVC假体（Q-vest-01）、前庭-海马连接（Q-vest-02）、精神分裂症传出拷贝（Q-vest-03）。",
+    "key_sources": ["PMID:37739815", "PMCID:PMC10591839", "PMID:31401034", "PMCID:PMC6733654", "PMID:35958995"]
+  },
+  "efference-copy-created-2026-07-31": {
+    "slug": "efference-copy",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-31",
+    "change_reason": "新建页面（文章 #99，2026-07-31）。传出拷贝/效应传出副本概念由von Holst & Mittelstaedt（1950）和Sperry（1950）独立提出（历史确立，高）；VO神经元主动运动时抑制~70-80%：灵长类清醒体内记录（PMID:21286693，高）；抑制依赖'预测=实际'匹配（肌肉麻醉实验，PMID:31401034，高）；前蚓部损伤破坏消除信号（PMID:37739815，高）；跨系统泛化（听觉N1抑制，体感自挠衰减，多系统中等证据）。整体：established/high。",
+    "key_sources": ["PMID:31401034", "PMCID:PMC6733654", "PMID:21286693", "PMID:37739815", "PMCID:PMC10591839"]
+  },
+  "vestibular-hair-cell-created-2026-07-31": {
+    "slug": "vestibular-hair-cell",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-07-31",
+    "change_reason": "新建页面（文章 #99，2026-07-31）。TMC1/TMC2 KO消除毛细胞MET电流（PMID:25074487，高）；CDH23-PCDH15顶端连接冷冻电镜结构+Usher综合征遗传学（PMID:30617060，高）；传导复合体十余种蛋白组成（PMID:34617206，高）；I型/II型毛细胞形态-电生理对照（PMID:31789675，高）。整体：established/high。",
+    "key_sources": ["PMID:25074487", "PMID:34617206", "PMID:30617060"]
   }
 }

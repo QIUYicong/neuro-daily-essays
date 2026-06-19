@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-07-31（文章 #99·前庭系统×VOR×传出拷贝×前庭毛细胞机械传导）
+
+**源文章**：[[2026-07-31-vestibular-system-vor-efference-copy]] —《平衡的物理学：前庭系统如何将头部运动转化为神经语言，并用传出拷贝为运动世界打上"自我"的水印》
+
+**新建页面（3）**：
+- `wiki/systems/vestibular-system.md`（新建）— 半规管(角加速度)+耳石器官(线性加速度/重力)六自由度传感；毛细胞机械传导(TMC1/TMC2, CDH23-PCDH15顶端连接)；三神经元VOR弧(~7-10ms)；小脑三区功能分工(绒球/前蚓/蚓结节)；传出拷贝VO神经元70-80%抑制；倾斜-平移歧义消解；PIVC；opens_questions: Q-vest-01/02/03；revision_count=1；置信度：高
+- `wiki/concepts/efference-copy.md`（新建）— 传出拷贝/效应传出副本；运动指令副本→感觉处理系统→预测-匹配驱动选择性抑制；前庭系统最清晰体内实例(VO神经元~70-80%抑制，PMID:31401034)；肌肉麻醉实验证明条件依赖性；前蚓部为神经底物；跨系统泛化(前庭/体感/听觉)；精神分裂症幻听关联；opens_questions: Q-vest-03；revision_count=1；置信度：高
+- `wiki/neurons/vestibular-hair-cell.md`（新建）— I型(梨形/杯状突触/不规律高增益)vs II型(圆柱/点状/规律低噪声)；静纤毛阵列+顶端连接(CDH23-PCDH15, PMID:30617060)+TMC1/TMC2通道(PMID:25074487; PMID:34617206)；K⁺内流→去极化→CaV1.3→带状突触谷氨酸释放→Scarpa神经节；亚毫秒传导速度；revision_count=1；置信度：高
+
+**修订页面（2）**：
+- `wiki/systems/cerebellum.md` rev1→rev2 — updated=2026-07-31；related 新增 vestibular-system, efference-copy；增加前庭小脑三区分工（绒球/前蚓/蚓结节）和传出拷贝消除信号的具体神经路径作为前向模型实例；来源新增 PMID:37739815, PMID:31401034
+- `wiki/concepts/forward-model.md` rev1→rev2 — updated=2026-07-31；related 新增 vestibular-system；补充前庭传出拷贝机制为前向模型最清晰的体内实例（前蚓部利用传出拷贝预测本体感觉→消除VO神经元应答，实验严格验证 PMID:31401034）；前庭系统证据强度：高（非间接）
+
+**矛盾登记（0）**：无新矛盾。耳石器官"倾斜-平移歧义"在物理上是等效原理约束（爱因斯坦），非理论分歧，不触发矛盾协议。
+
+**新增开放问题（3）**：
+- Q-vest-01（高优先级）：PIVC 刺激能否在人类中产生明确的旋转/倾斜主观感知？能否用于前庭假体闭环控制？
+- Q-vest-02（中优先级）：前庭-海马连接在空间记忆和情景记忆中的具体功能？前庭损伤患者是否同时出现记忆障碍？
+- Q-vest-03（中优先级）：精神分裂症患者中传出拷贝机制是否异常？能否通过前庭刺激范式在人类中量化自我-他者信号区分阈值？
+
+**悬空引用解决（1）**：`efference-copy` — 此前 forward-model.md 将其列为 related 但无对应页面，今日补建
+
+**图谱**：182→185 节点（+3：vestibular-system、efference-copy、vestibular-hair-cell），1066→1080 边（+14 条新边）
+
+---
+
 ## 2026-07-30（文章 #98·多感觉整合×贝叶斯因果推断×上丘三规则×麦格克效应）
 
 **源文章**：[[2026-07-30-multisensory-integration-bayesian-brain]] —《感官的裁判：大脑如何决定"你听到的"和"你看到的"属于同一件事》

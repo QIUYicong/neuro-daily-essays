@@ -4,8 +4,8 @@
 
 ## 2026年7月（进行中）
 
-*本月截至日期：2026-07-29*
-*本月新增文章：#67（2026-07-01 背侧注意网络）；... （中间省略，同上）...；#91（2026-07-23 UP/DOWN态）；#92（2026-07-24 杏仁核恐惧印迹）；#93（2026-07-25 scRNA-seq细胞类型）；#94（2026-07-26 嗅觉编码）；#95（2026-07-27 网格细胞×头向细胞×边界细胞×认知地图——O'Keefe 1971场所细胞→Hafting 2005网格细胞→2014诺贝尔奖；CAN模型六边形涌现机制；头向细胞环形吸引子；边界细胞路径积分误差校正；Doeller 2010人类fMRI六边形信号（PMID:20090680，PMC3173857）；Jeffery 2024拼贴图批评；认知地图延伸至概念/社会空间；DeepMind 2018网格细胞深度强化学习；新建neurons/head-direction-cells和neurons/border-cells；修订grid-cell（rev1→rev2）和place-cell（rev3→rev4）；新增Q-hd-ring-attractor-location/Q-border-cells-mechanism/Q-grid-human-single-unit；课程脊柱3×脊柱4）；#96（2026-07-28 耳蜗×音调拓扑图×听觉皮层×鸡尾酒会问题——von Bekesy行波到Prestin耳蜗放大器；TMC1/TMC2机械-电换能；11张听觉场图双轴组织；Mesgarani 2012 STG鸡尾酒会注意性选择；Pasley 2012 STRF语音重建（词语精确率0.89）；新建systems/auditory-cortex、systems/cochlea、concepts/tonotopic-map；修订thalamus（rev4→rev5，新增MGBv三区）；新增Q-ac-01至Q-ac-04；课程脊柱3）；#97（2026-07-29 触觉的神经地图——S1躯体感觉皮层×四类LTMR×感觉小人×Merzenich可塑性革命；SA1-Merkel/SA2-Ruffini/RA1-Meissner/RA2-Pacinian频率偏好与感受野；DC-ML通路→VPLc→S1拓扑保真；四亚区3a/3b/1/2特化处理；Penfield经典图→Roux 2018 SEEG手指梯度修正；Merzenich三个经典实验（截肢/频率训练/指融合）→成年皮层可塑性范式革命；GABA去抑制（分钟）→Hebbian LTP（天）→结构重塑（周）三阶段机制；幻肢痛×皮层侵占×Makin & Flor 2020因果链批评；Ramachandran镜箱；CNN感受野类比；新建systems/somatosensory-cortex、neurons/mechanoreceptor-ltmr、concepts/cortical-plasticity、concepts/homunculus；修订hebbian-learning（rev5→rev6）；新增Q-s1-01/Q-s1-02/Q-s1-03；课程脊柱3）；共 27 篇（月度第1–27篇）*
+*本月截至日期：2026-07-31*
+*本月新增文章：#67（2026-07-01 背侧注意网络）；... （中间省略，同上）...；#91（2026-07-23 UP/DOWN态）；#92（2026-07-24 杏仁核恐惧印迹）；#93（2026-07-25 scRNA-seq细胞类型）；#94（2026-07-26 嗅觉编码）；#95（2026-07-27 网格细胞×头向细胞×边界细胞×认知地图——O'Keefe 1971场所细胞→Hafting 2005网格细胞→2014诺贝尔奖；CAN模型六边形涌现机制；头向细胞环形吸引子；边界细胞路径积分误差校正；Doeller 2010人类fMRI六边形信号（PMID:20090680，PMC3173857）；Jeffery 2024拼贴图批评；认知地图延伸至概念/社会空间；DeepMind 2018网格细胞深度强化学习；新建neurons/head-direction-cells和neurons/border-cells；修订grid-cell（rev1→rev2）和place-cell（rev3→rev4）；新增Q-hd-ring-attractor-location/Q-border-cells-mechanism/Q-grid-human-single-unit；课程脊柱3×脊柱4）；#96（2026-07-28 耳蜗×音调拓扑图×听觉皮层×鸡尾酒会问题——von Bekesy行波到Prestin耳蜗放大器；TMC1/TMC2机械-电换能；11张听觉场图双轴组织；Mesgarani 2012 STG鸡尾酒会注意性选择；Pasley 2012 STRF语音重建（词语精确率0.89）；新建systems/auditory-cortex、systems/cochlea、concepts/tonotopic-map；修订thalamus（rev4→rev5，新增MGBv三区）；新增Q-ac-01至Q-ac-04；课程脊柱3）；#97（2026-07-29 触觉的神经地图——S1躯体感觉皮层×四类LTMR×感觉小人×Merzenich可塑性革命；SA1-Merkel/SA2-Ruffini/RA1-Meissner/RA2-Pacinian频率偏好与感受野；DC-ML通路→VPLc→S1拓扑保真；四亚区3a/3b/1/2特化处理；Penfield经典图→Roux 2018 SEEG手指梯度修正；Merzenich三个经典实验（截肢/频率训练/指融合）→成年皮层可塑性范式革命；GABA去抑制（分钟）→Hebbian LTP（天）→结构重塑（周）三阶段机制；幻肢痛×皮层侵占×Makin & Flor 2020因果链批评；Ramachandran镜箱；CNN感受野类比；新建systems/somatosensory-cortex、neurons/mechanoreceptor-ltmr、concepts/cortical-plasticity、concepts/homunculus；修订hebbian-learning（rev5→rev6）；新增Q-s1-01/Q-s1-02/Q-s1-03；课程脊柱3）；#98（2026-07-30 多感觉整合×贝叶斯因果推断×上丘三规则×麦格克效应；新建concepts/multisensory-integration、concepts/bayesian-causal-inference、systems/superior-colliculus、concepts/inverse-effectiveness、concepts/temporal-binding-window；新增Q-msi-01至Q-msi-03；课程脊柱3）；#99（2026-07-31 平衡的物理学——前庭系统×VOR×传出拷贝×前庭毛细胞机械传导；TMC1/TMC2+顶端连接(CDH23-PCDH15)+带状突触；三神经元VOR弧(7-10ms)；绒球LTD/LTP；传出拷贝VO神经元70-80%抑制×前蚓部×PMID:31401034；蚓结节倾斜-平移歧义消解×PMID:37739815；PIVC；新建systems/vestibular-system、concepts/efference-copy、neurons/vestibular-hair-cell；修订cerebellum(rev1→rev2)和forward-model(rev1→rev2)；新增Q-vest-01至Q-vest-03；课程脊柱3）；共 29 篇（月度第1–29篇）*
 
 ### 本月文章摘要
 
@@ -36,6 +36,8 @@
 | 91 | 2026-07-23 | 皮层的沉默与苏醒：UP/DOWN 态如何从细胞机制到系统层面编排睡眠中的记忆选择 | 分子/突触/细胞/微回路/脑区/全脑网络/认知 |
 | 96 | 2026-07-28 | 从蜗旋到皮层音图：耳蜗如何将声音的物理频率映射为大脑的功能地图，听觉皮层如何通过注意力解决"鸡尾酒会问题" | 分子/细胞/脑区/全脑网络/认知 |
 | 97 | 2026-07-29 | 触觉的神经地图：初级躯体感觉皮层（S1）如何将身体表面的触觉信号转化为皮层体图，以及 Merzenich 革命揭示的成年皮层惊人可塑性 | 分子/细胞/脑区/行为/认知 |
+| 98 | 2026-07-30 | 感官的裁判：大脑如何决定"你听到的"和"你看到的"属于同一件事 | 细胞/脑区/全脑网络/认知/行为 |
+| 99 | 2026-07-31 | 平衡的物理学：前庭系统如何将头部运动转化为神经语言，并用传出拷贝为运动世界打上"自我"的水印 | 分子/细胞/脑区/全脑网络/行为/认知 |
 
 ### 本月核心主题
 7月前十篇形成四条并行线索，第77篇补充了"情绪记忆的内分泌调控"新线索，第79篇补充了"新奇性驱动记忆标记"线索：**（1）认知控制与注意**（07-01 DAN）+ **（2）突触可塑性稳定性与记忆编码**（07-02 星形胶质细胞、07-03 稳态缩放、07-04 E/I 平衡、07-05 印迹竞争）+ **（3）大脑维护基础设施——睡眠的时间架构**（07-06 胶质淋巴清洗、07-07 SO-纺锤波-SWR、07-08 昼夜节律 SCN 主时钟）+ **（4）情绪记忆与调质门控**（07-09 糖皮质激素-杏仁核-去甲肾上腺素三角协同；07-10 记忆再巩固与 PTSD 靶点；07-11 LC-DA 新奇探测与海马记忆持续性门控）。第79篇将第77/78篇的"应激/情绪→GC-NE→BLA记忆强化"线索的对称面——"新奇性→LC-DA→海马记忆持续性升级"——联结为完整的双通道调质记忆选择框架。
@@ -55,6 +57,14 @@
 **第83篇延续线索（5）：人脑与AI比较——注意力机制层面（脊柱12第四篇）**：07-15 脊柱12第四篇，将大脑-AI比较推进至注意力机制这一核心计算原语。核心贡献：(1) Q/K/V-DAN对应——Knudsen 2007四组件注意框架与Transformer Q/K/V系统性映射：FEF/IPS top-down偏置=Query，V4/IT感觉表征=Key/Value，softmax竞争=偏置竞争（Desimone & Duncan 1995）；(2) 数学等价——Ramsauer 2020（arXiv:2008.02217）证明现代Hopfield网络更新规则q^(t+1)=X^T·softmax(βXq^(t))当β=1/√d_k时与单头Transformer注意力完全等价；(3) 关键差异——Reynolds & Heeger 2009除法归一化（分母=竞争对手加权和）vs Transformer softmax（全局指数归一化）：除法归一化可根据注意场宽度产生对比度增益或响应增益两种模式，softmax无此区分；(4) 局部赫布实现——Ellwood 2024提出NMDA Ca²⁴（Ca⁴精度抑制）驱动的"匹配-控制"原理，每次试次内即时无反向传播注意力；(5) 6大断裂点系统梳理：时间连续性/局部赫布vs全局反向传播/FEF眼动耦合/多头生物未知/除法归一化vs softmax/循环连接。新建1页（transformer-self-attention），修订4页（gain-control/dorsal-attention-network/biased-competition/attractor-network），新增2个未解问题（Q-attn-bio-01、Q-attn-bio-02）。知识图谱154节点、912边。
 
 **第84篇延续线索（5）：人脑与AI比较——记忆架构层面（脊柱12第五篇）**：07-16 脊柱12第五篇，系统比较海马 SWR 回放与 DQN 经验回放缓冲区。核心贡献：(1) 三阶段结构——Yang et al. 2024（PMID:38547293）揭示海马回放分三阶段（θ 编码→清醒 SWR 标记→睡眠 SWR 固化），清醒 SWR 内容与睡眠 SWR 内容高度相关（R=0.86），"哪些经历进入 LTM"的决策在睡眠前已完成；(2) 规范化理论——Mattar & Daw 2018（PMID:30349103）Need×Gain 框架，在无参数拟合下统一解释 6 条回放规律，包括前向回放=规划（Need 主导）、反向回放=信用分配（Gain 主导）；(3) 工程类比——van de Ven et al. 2020（PMID:32792531）生成回放（VAE 作为海马）防灾难遗忘，接近 SOTA；(4) 关键差异——AI 回放缓冲区缺少"清醒期主动标记"阶段，回放内容无时间方向性，不支持 one-shot 学习；(5) 比较总结表（存储内容/采样策略/时间结构/写入时机/规划能力/单次学习）。新建 1 页（hippocampal-replay），修订 2 页（complementary-learning-systems rev3，sharp-wave-ripples rev8），新增 2 个未解问题（Q-cls-generative-replay-oneshotlearning、Q-replay-planning-mechanism）。知识图谱 156 节点、924 边。
+
+## 2026-07-31 日条目更新（文章 #99·前庭系统×VOR×传出拷贝×前庭毛细胞机械传导）
+
+**核心贡献**：本篇完成感觉系统大循环最后一块——前庭系统，在视觉（#82-83，V1/腹侧流）、听觉（#96，耳蜗/听觉皮层）、体感（#97，S1/LTMR）、多感觉整合（#98，上丘/STS/贝叶斯）之后，回到最原始的"自我运动感知"。主线条：从**分子层（TMC1/2机械传导，亚毫秒级）→细胞层（I/II型毛细胞双重策略）→回路层（三神经元VOR弧，7-10ms）→系统层（小脑三区功能分工）→认知层（传出拷贝VO神经元抑制，主动预测）**，完成从物理运动到"自我感知"的多层次解析。
+
+关键发现：**传出拷贝**（efference copy）在前庭系统有迄今最清晰的体内实验证据——Brooks & Cullen 2019（PMID:31401034）证明前庭核VO神经元在主动运动时被抑制约70-80%，且仅在"传出拷贝预期=实际本体感觉反馈"时发生（肌肉麻醉实验：有指令无运动→抑制消失），将"前向模型"从计算假说升级为体内验证机制。这一结果同时为forward-model.md提供了最强实验证据，将其证据类型从"间接"升级为"直接体内"。**蚓结节倾斜-平移歧义消解**（PMID:37739815）解决了爱因斯坦等效原理在神经系统中的体现：通过整合半规管（角加速度，不受引力影响）和耳石器官（线性加速度+重力，两者等效）的信号，前庭系统打破了物理上无法区分的歧义。
+
+**知识库新建 3 页**：vestibular-system、efference-copy（填补 forward-model 悬空引用）、vestibular-hair-cell；修订 2 页（cerebellum rev1→rev2、forward-model rev1→rev2）；图谱 185 节点、1080 边；新增开放问题 Q-vest-01/02/03。
 
 ## 2026-07-26 日条目更新（文章 #94·嗅觉编码×气味分子→情绪记忆四级变换×Proust效应解剖基础）
 

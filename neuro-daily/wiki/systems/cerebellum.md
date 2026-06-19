@@ -6,10 +6,10 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-06-23
-revision_count: 1
+updated: 2026-07-31
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation]
+related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation, vestibular-system, efference-copy]
 prerequisites: [purkinje-cell, parallel-fiber, climbing-fiber, deep-cerebellar-nuclei]
 opens_questions: [Q-cb-01, Q-cb-02, Q-cb-03]
 source_articles: [2026-06-23-cerebellum-motor-prediction]
@@ -93,6 +93,7 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 来源：PMID:33203932, 33288911, 21227230, 11319554, 21482355, 7954803
+- 2026-07-31 · 修订 · 基于《平衡的物理学》（#99）· 增加前庭小脑三区分工（绒球/前蚓/蚓结节）和传出拷贝消除信号的具体神经路径作为前向模型实例；related 中新增 vestibular-system 和 efference-copy · 来源：PMID:37739815(OA), PMID:31401034(OA)
 
 ## 来源文章
 

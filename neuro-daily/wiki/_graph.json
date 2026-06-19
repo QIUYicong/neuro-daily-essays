@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "node_count": 177,
   "edge_count": 1056,
   "edge_types": [
@@ -1663,6 +1663,33 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/temporal-binding-window.md"
+    },
+    {
+      "id": "vestibular-system",
+      "title": "前庭系统",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/vestibular-system.md"
+    },
+    {
+      "id": "efference-copy",
+      "title": "传出拷贝（效应传出）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/efference-copy.md"
+    },
+    {
+      "id": "vestibular-hair-cell",
+      "title": "前庭毛细胞",
+      "domain": "neurons",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/vestibular-hair-cell.md"
     }
   ],
   "edges": [
@@ -6314,139 +6341,139 @@
       "note": "BDNF 表达受昼夜节律调控，影响 PV+ 成熟时间轴和关键期时序"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "hpa-axis",
-      "type": "produced_by"
+      "type": "produced_by",
+      "from": "glucocorticoid-stress-memory",
+      "to": "hpa-axis"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "amygdala",
-      "type": "requires"
+      "type": "requires",
+      "from": "glucocorticoid-stress-memory",
+      "to": "amygdala"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "hippocampal-circuit",
-      "type": "affects"
+      "type": "affects",
+      "from": "glucocorticoid-stress-memory",
+      "to": "hippocampal-circuit"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "norepinephrine-locus-coeruleus",
-      "type": "requires"
+      "type": "requires",
+      "from": "glucocorticoid-stress-memory",
+      "to": "norepinephrine-locus-coeruleus"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "fear-conditioning",
-      "type": "instantiates"
+      "type": "instantiates",
+      "from": "glucocorticoid-stress-memory",
+      "to": "fear-conditioning"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "fear-extinction",
-      "type": "modulates"
+      "type": "modulates",
+      "from": "glucocorticoid-stress-memory",
+      "to": "fear-extinction"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "ltp",
-      "type": "mechanism"
+      "type": "mechanism",
+      "from": "glucocorticoid-stress-memory",
+      "to": "ltp"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "nmda-receptor",
-      "type": "requires"
+      "type": "requires",
+      "from": "glucocorticoid-stress-memory",
+      "to": "nmda-receptor"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "basal-ganglia",
-      "type": "affects"
+      "type": "affects",
+      "from": "glucocorticoid-stress-memory",
+      "to": "basal-ganglia"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "memory-consolidation",
-      "type": "modulates"
+      "type": "modulates",
+      "from": "glucocorticoid-stress-memory",
+      "to": "memory-consolidation"
     },
     {
-      "source": "glucocorticoid-stress-memory",
-      "target": "alzheimers-disease",
-      "type": "risk_factor"
+      "type": "risk_factor",
+      "from": "glucocorticoid-stress-memory",
+      "to": "alzheimers-disease"
     },
     {
-      "source": "hpa-axis",
-      "target": "glucocorticoid-stress-memory",
-      "type": "produces"
+      "type": "produces",
+      "from": "hpa-axis",
+      "to": "glucocorticoid-stress-memory"
     },
     {
-      "source": "hpa-axis",
-      "target": "amygdala",
-      "type": "targets"
+      "type": "targets",
+      "from": "hpa-axis",
+      "to": "amygdala"
     },
     {
-      "source": "hpa-axis",
-      "target": "hippocampal-circuit",
-      "type": "targets"
+      "type": "targets",
+      "from": "hpa-axis",
+      "to": "hippocampal-circuit"
     },
     {
-      "source": "hpa-axis",
-      "target": "norepinephrine-locus-coeruleus",
-      "type": "synergizes"
+      "type": "synergizes",
+      "from": "hpa-axis",
+      "to": "norepinephrine-locus-coeruleus"
     },
     {
-      "source": "hpa-axis",
-      "target": "fear-conditioning",
-      "type": "modulates"
+      "type": "modulates",
+      "from": "hpa-axis",
+      "to": "fear-conditioning"
     },
     {
-      "source": "hpa-axis",
-      "target": "memory-consolidation",
-      "type": "modulates"
+      "type": "modulates",
+      "from": "hpa-axis",
+      "to": "memory-consolidation"
     },
     {
-      "source": "hpa-axis",
-      "target": "circadian-clock",
-      "type": "gated_by"
+      "type": "gated_by",
+      "from": "hpa-axis",
+      "to": "circadian-clock"
     },
     {
-      "source": "hpa-axis",
-      "target": "alzheimers-disease",
-      "type": "risk_factor"
+      "type": "risk_factor",
+      "from": "hpa-axis",
+      "to": "alzheimers-disease"
     },
     {
-      "source": "hpa-axis",
-      "target": "bdnf",
-      "type": "modulates"
+      "type": "modulates",
+      "from": "hpa-axis",
+      "to": "bdnf"
     },
     {
-      "source": "amygdala",
-      "target": "glucocorticoid-stress-memory",
-      "type": "instantiates"
+      "type": "instantiates",
+      "from": "amygdala",
+      "to": "glucocorticoid-stress-memory"
     },
     {
-      "source": "amygdala",
-      "target": "hpa-axis",
-      "type": "activates"
+      "type": "activates",
+      "from": "amygdala",
+      "to": "hpa-axis"
     },
     {
-      "source": "hippocampal-circuit",
-      "target": "glucocorticoid-stress-memory",
-      "type": "affected_by"
+      "type": "affected_by",
+      "from": "hippocampal-circuit",
+      "to": "glucocorticoid-stress-memory"
     },
     {
-      "source": "hippocampal-circuit",
-      "target": "hpa-axis",
-      "type": "feedback_inhibits"
+      "type": "feedback_inhibits",
+      "from": "hippocampal-circuit",
+      "to": "hpa-axis"
     },
     {
-      "source": "norepinephrine-locus-coeruleus",
-      "target": "glucocorticoid-stress-memory",
-      "type": "enables"
+      "type": "enables",
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "glucocorticoid-stress-memory"
     },
     {
-      "source": "memory-consolidation",
-      "target": "glucocorticoid-stress-memory",
-      "type": "regulated_by"
+      "type": "regulated_by",
+      "from": "memory-consolidation",
+      "to": "glucocorticoid-stress-memory"
     },
     {
-      "source": "fear-conditioning",
-      "target": "glucocorticoid-stress-memory",
-      "type": "modulated_by"
+      "type": "modulated_by",
+      "from": "fear-conditioning",
+      "to": "glucocorticoid-stress-memory"
     },
     {
       "from": "memory-reconsolidation",
@@ -7594,6 +7621,90 @@
       "to": "bayesian-causal-inference",
       "type": "supports",
       "note": "TBW 对应 P(C=1) 随时间差降低的贝叶斯先验"
+    },
+    {
+      "from": "vestibular-system",
+      "to": "head-direction-cells",
+      "type": "supports",
+      "note": "头向细胞的角速度输入来自前庭半规管，经前庭核→LMN→DTN→ADN路径"
+    },
+    {
+      "from": "vestibular-system",
+      "to": "path-integration",
+      "type": "supports",
+      "note": "路径整合的角度维度由前庭半规管提供；传出拷贝激活路径整合所需的前庭通路"
+    },
+    {
+      "from": "vestibular-system",
+      "to": "multisensory-integration",
+      "type": "related",
+      "note": "PIVC 是视觉-前庭整合的核心皮层节点；前庭是上丘多感觉融合的重要输入"
+    },
+    {
+      "from": "vestibular-system",
+      "to": "cerebellum",
+      "type": "related",
+      "note": "小脑三个区域（绒球/前蚓/蚓结节）分别承担 VOR 适应/传出拷贝/倾斜-平移区分"
+    },
+    {
+      "from": "vestibular-system",
+      "to": "forward-model",
+      "type": "mechanism-of",
+      "note": "传出拷贝是前向模型在前庭系统的具体实例，前蚓部利用传出拷贝预测本体感觉"
+    },
+    {
+      "from": "vestibular-system",
+      "to": "efference-copy",
+      "type": "mechanism-of",
+      "note": "前庭系统中传出拷贝的体内实现：VO神经元在主动运动中被70-80%抑制"
+    },
+    {
+      "from": "vestibular-system",
+      "to": "bayesian-causal-inference",
+      "type": "related",
+      "note": "倾斜-平移歧义消解是贝叶斯多感觉推断的体内实例"
+    },
+    {
+      "from": "vestibular-hair-cell",
+      "to": "vestibular-system",
+      "type": "part-of",
+      "note": "前庭毛细胞是前庭感受器系统的核心细胞单元"
+    },
+    {
+      "from": "vestibular-hair-cell",
+      "to": "mechanoreceptor-ltmr",
+      "type": "related",
+      "note": "同为机械感受器；LTMR（皮肤）和毛细胞（内耳）原理相同但分子机器不同"
+    },
+    {
+      "from": "efference-copy",
+      "to": "forward-model",
+      "type": "mechanism-of",
+      "note": "传出拷贝是前向模型的输入；前向模型使用传出拷贝预测感觉后果"
+    },
+    {
+      "from": "efference-copy",
+      "to": "vestibular-system",
+      "type": "mechanism-of",
+      "note": "VO神经元抑制是传出拷贝在前庭系统的体内实例"
+    },
+    {
+      "from": "efference-copy",
+      "to": "cerebellum",
+      "type": "mechanism-of",
+      "note": "前蚓部生成消除信号，是传出拷贝机制的神经底物"
+    },
+    {
+      "from": "efference-copy",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "传出拷贝是从脑干层次开始的预测性感觉处理，早于皮层预测编码"
+    },
+    {
+      "from": "efference-copy",
+      "to": "path-integration",
+      "type": "supports",
+      "note": "路径整合依赖传出拷贝驱动前庭信号处理和网格细胞更新"
     }
   ],
   "dangling_references": [

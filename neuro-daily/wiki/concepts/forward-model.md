@@ -6,10 +6,10 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-23
-updated: 2026-06-23
-revision_count: 1
+updated: 2026-07-31
+revision_count: 2
 dimensions: [brain-region, cognition, behavior]
-related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy]
+related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy, vestibular-system]
 prerequisites: [cerebellum, motor-cortex]
 opens_questions: [Q-cb-01, Q-fm-01]
 source_articles: [2026-06-23-cerebellum-motor-prediction]
@@ -73,6 +73,7 @@ key_sources: ["PMID:21227230", "PMID:33203932"]
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：中（间接证据为主，计算框架合理但神经底物细节待确认）
+- 2026-07-31 · 修订 · 基于《平衡的物理学》（#99）· 前庭传出拷贝机制是前向模型最清晰的体内实例（前蚓部利用传出拷贝预测本体感觉 → 消除 VO 神经元应答，实验严格验证 PMID:31401034）；related 新增 vestibular-system；前向模型在前庭层级的证据强度：高（非间接）
 
 ## 来源文章
 

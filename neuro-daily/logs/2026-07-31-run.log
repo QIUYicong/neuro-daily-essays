@@ -1,0 +1,108 @@
+# 运行日志 2026-07-31
+
+**文章编号**：#99
+**主题**：平衡的物理学——前庭系统×VOR×传出拷贝×前庭毛细胞
+**运行时间**：09:00 CST（UTC+8）
+**状态**：✅ 完成
+
+---
+
+## 一、主题选择逻辑
+
+- path-integration.md 将 vestibular-system 列为 prerequisites 但无对应 wiki 页面
+- 自然续写序列：视觉（#82-83）→ 听觉（#96）→ 体感（#97）→ 多感觉整合（#98）→ 前庭（#99）
+- forward-model.md 将 efference-copy 列为 related 但无独立页面（待建悬空引用）
+- head-direction-cells（#95）通过前庭输入实现方向编码，需要前庭系统作为基础
+
+---
+
+## 二、文献检索
+
+**检索工具**：PubMed E-utilities API，Europe PMC（部分）
+
+**开放全文来源（3篇）**：
+- PMID:37739815 / PMC10591839（Cullen 2023, Trends Neurosci）— 开放全文，前庭系统综述
+- PMID:31401034 / PMC6733654（Brooks & Cullen 2019, Neuron）— 开放全文，传出拷贝机制
+- PMID:35958995（Huang & Qian 2022, Front Neurosci）— 开放全文，耳石蛋白
+
+**摘要仅读（7篇）**：
+- PMID:25074487（Kawashima 2011, Neuron）— TMC1/TMC2 KO
+- PMID:34617206（Corey 2019, Science）— MET传导复合体
+- PMID:21286693（Cullen & Roy 2004）— VO神经元主动/被动
+- PMID:30617060（Kachar/Bhatt 2019）— 顶端连接结构
+- PMID:31789675（Eatock 2019）— I/II型毛细胞
+- PMID:29995604（Rezai 2018）— PIVC fMRI
+- PMID:21223979（Smith 2010）— 前庭-海马连接
+
+**排除（3篇，无法访问或无关）**：
+- PMID:33298547 — 付费墙无法获取全文且非核心
+- PMID:28069578 — 与本日主题重叠度低
+- 一篇 2024 预印本 — 无法核实来源
+
+---
+
+## 三、文章创作
+
+**文件**：neuro-daily/articles/2026-07-31-vestibular-system-vor-efference-copy.md
+**字数**：~5200 字
+**结构**：
+1. 前言（爱因斯坦等效原理引入）
+2. 物理层：毛细胞机械传导
+3. 细胞层：I/II型毛细胞双重策略
+4. 回路层：三神经元VOR弧
+5. 系统层：小脑三区前庭功能分工
+6. 认知层：传出拷贝与主动/被动运动区分
+7. 倾斜-平移歧义消解
+8. 前庭皮层整合（PIVC）
+9. 尾声
+10. 参考文献（10条）
+
+---
+
+## 四、Wiki 固结
+
+**新建页面（3）**：
+- wiki/systems/vestibular-system.md（6维度，高置信度，3个开放问题）
+- wiki/concepts/efference-copy.md（5维度，高置信度，填补 forward-model 悬空引用）
+- wiki/neurons/vestibular-hair-cell.md（2维度，高置信度）
+
+**修订页面（2）**：
+- wiki/systems/cerebellum.md（rev1→rev2，新增前庭三区分工+传出拷贝路径）
+- wiki/concepts/forward-model.md（rev1→rev2，补充前庭传出拷贝为最强体内证据）
+
+**_graph.json**：182→185 节点，1066→1080 边（+14条新边）
+
+---
+
+## 五、状态文件更新
+
+- wiki/index.md：头部更新（#99/2026-07-31/181页/185节点/1080边），新增3条目
+- wiki/CHANGELOG.md：顶部新增2026-07-31条目
+- state/unresolved_questions.md：新增Q-vest-01/02/03（共3条新问题）
+- state/maturity_index.json：新增3条成熟度记录（vestibular-system/efference-copy/vestibular-hair-cell）
+- state/monthly_synthesis.md：更新表格+新增#99日条目
+- state/topic_ledger.json：prepend #99条目，total_articles 81→82
+
+---
+
+## 六、来源合规
+
+- 未使用 Sci-Hub 或任何付费墙绕过工具
+- 未伪造任何 PMID、PMC 编号或实验结论
+- 所有摘要仅读来源均在文章和 sources.json 中明确标注
+- 排除来源记录在 sources.json excluded 字段
+
+---
+
+## 七、矛盾登记
+
+无新矛盾。
+
+倾斜-平移歧义在物理上是爱因斯坦等效原理约束（不可区分性来自物理定律，非两个科学主张冲突），不触发矛盾协议。
+
+---
+
+## 八、提交
+
+- Git commit：Add neuro daily article + wiki consolidation for 2026-07-31
+- Push：origin main

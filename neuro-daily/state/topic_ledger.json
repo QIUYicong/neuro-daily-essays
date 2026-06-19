@@ -1,7 +1,62 @@
 {
-  "last_updated": "2026-07-30",
-  "total_articles": 81,
+  "last_updated": "2026-07-31",
+  "total_articles": 82,
   "entries": [
+    {
+      "date": "2026-07-31",
+      "title": "平衡的物理学：前庭系统如何将头部运动转化为神经语言，并用传出拷贝为运动世界打上"自我"的水印",
+      "filename": "2026-07-31-vestibular-system-vor-efference-copy.md",
+      "article_number": 99,
+      "wiki_pages_created": [
+        "wiki/systems/vestibular-system.md",
+        "wiki/concepts/efference-copy.md",
+        "wiki/neurons/vestibular-hair-cell.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/cerebellum.md",
+        "wiki/concepts/forward-model.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "前庭系统如何在亚毫秒内将头部运动转化为神经信号？三神经元VOR弧如何在7-10ms内驱动眼球补偿运动？前蚓部如何利用传出拷贝使VO神经元选择性抑制主动运动感觉，以区分"自我运动"与"外界扰动"？蚓结节如何整合半规管和耳石器官信号解决倾斜-平移歧义？",
+      "open_questions_added": ["Q-vest-01", "Q-vest-02", "Q-vest-03"],
+      "layer": ["molecular", "cellular", "brain-region", "whole-brain-network", "behavior", "cognition"],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·前庭感觉）+ 脊柱1（神经元工作·毛细胞机械传导）",
+      "topic_tags": [
+        "vestibular system",
+        "semicircular canals",
+        "otolith organs",
+        "vestibulo-ocular reflex VOR",
+        "hair cells TMC1 TMC2",
+        "efference copy corollary discharge",
+        "VO neurons vestibular nucleus",
+        "anterior vermis cerebellum",
+        "nodulus uvula tilt-translation disambiguation",
+        "PIVC parieto-insular vestibular cortex",
+        "CDH23 PCDH15 tip link",
+        "ribbon synapse Scarpa ganglion",
+        "forward model prediction",
+        "active vs passive motion discrimination"
+      ],
+      "main_sources": [
+        "PMID:37739815",
+        "PMCID:PMC10591839",
+        "PMID:31401034",
+        "PMCID:PMC6733654",
+        "PMID:35958995",
+        "PMID:25074487",
+        "PMID:34617206",
+        "PMID:21286693",
+        "PMID:30617060",
+        "PMID:31789675"
+      ],
+      "next_suggested_topics": [
+        "痛觉系统（伤害感受器→脊髓背角→丘脑→S1→前扣带回）",
+        "内感觉（interoception）与脑岛皮层",
+        "嗅觉-前庭整合（晕动病机制）",
+        "前庭康复与神经可塑性"
+      ]
+    },
     {
       "date": "2026-07-30",
       "title": "感官的裁判：大脑如何决定你听到的和你看到的属于同一件事——多感觉整合的贝叶斯因果推断框架",

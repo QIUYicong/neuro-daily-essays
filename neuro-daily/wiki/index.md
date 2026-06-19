@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-30（第98篇·多感觉整合×贝叶斯因果推断×上丘三规则×麦格克效应）· 主题页总数：**178**（新建5页：concepts/multisensory-integration、concepts/bayesian-causal-inference、systems/superior-colliculus、concepts/inverse-effectiveness、concepts/temporal-binding-window；图谱182节点、1066边；新增Q-msi-01至Q-msi-03开放问题）
+> 最后更新：2026-07-31（第99篇·前庭系统×VOR×传出拷贝×前庭毛细胞机械传导）· 主题页总数：**181**（新建3页：systems/vestibular-system、concepts/efference-copy、neurons/vestibular-hair-cell；图谱185节点、1080边；新增Q-vest-01至Q-vest-03开放问题）
 
 ---
 
@@ -31,6 +31,7 @@
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝 **[NEW 2026-06-03]**
 - 🟢 [低阈值机械感受器（LTMR）](neurons/mechanoreceptor-ltmr.md) — 皮肤中专职编码轻触/振动/压力的四类感受器（SA1 Merkel/SA2 Ruffini/RA1 Meissner/RA2 Pacini）；PIEZO2通道介导机械转导；脊髓背角机械感觉柱整合信号 **[NEW 2026-07-29]**
+- 🟢 [前庭毛细胞](neurons/vestibular-hair-cell.md) — TMC1/TMC2 机械传导通道+顶端连接(CDH23-PCDH15)+带状突触；I型(杯状突触/不规律放电)vs II型(点状突触/规律放电)；亚毫秒传导速度 **[NEW 2026-07-31]**
 
 ## circuits（回路）
 
@@ -157,6 +158,7 @@
 - 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）；**小脑-运动皮层闭环（修订2026-06-23）**
 - 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[NEW 2026-06-23]**
 - 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果，使大脑超越反馈延迟；小脑的主要计算角色；逆向模型对称结构 **[NEW 2026-06-23]**
+- 🟢 [传出拷贝（效应传出）](concepts/efference-copy.md) — 运动指令副本→预测感觉后果→仅在"预期=实际"时抑制前庭核VO神经元(~70-80%)；前蚓部为神经底物；跨感觉系统泛化(前庭/体感/听觉)；精神分裂症内语幻听关联 **[NEW 2026-07-31]**
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**
 - 🟡 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；动力学引擎而非参数地图；RNN训练后自发出现相同结构 **[NEW 2026-06-21]**
 - 🟡 [输出零空间](concepts/output-null-space.md) — 准备活动集中在对肌肉无效的零空间子空间（调谐比4.5×）；几何机制解释准备不触发运动 **[NEW 2026-06-21]**
@@ -181,6 +183,7 @@
 - 🟢 [耳蜗](systems/cochlea.md) — 基底膜行波实现频率-位置地点编码（cochleotopic map）；外毛细胞 Prestin 耳蜗放大器（+40–50 dB，Q因子×100）；内毛细胞 tip links / TMC1-TMC2 / Ca_v1.3 / ribbon synapse 机械-电换能级联；是听觉通路所有拓扑图的物理起点 **[NEW 2026-07-28]**
 - 🟢 [初级躯体感觉皮层（S1）](systems/somatosensory-cortex.md) — 四亚区（3a/3b/1/2）×感觉小人（homunculus）×皮层放大因子；Merzenich系列实验确立经验依赖皮层地图可塑性（截指后邻指侵占/训练后表征扩张）；可塑性需要行为相关性（注意门控）；感觉剥夺重启成年皮层至关键期状态 **[NEW 2026-07-29]**
 - 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化 **[NEW 2026-07-30]**
+- 🟢 [前庭系统](systems/vestibular-system.md) — 半规管(旋转/角加速度)+耳石器官(线性加速度/重力)六自由度传感；三神经元VOR弧(7-10ms)；绒球LTD/LTP增益适应；传出拷贝VO神经元70-80%抑制；蚓结节倾斜-平移歧义消解；PIVC **[NEW 2026-07-31]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
