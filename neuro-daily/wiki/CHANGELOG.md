@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-07-28（文章 #96·耳蜗音调拓扑图×听觉皮层层级→鸡尾酒会问题的皮层解答）
+
+**源文章**：[[2026-07-28-auditory-cortex-tonotopy]] —《从蜗旋到皮层音图：耳蜗如何将声音的物理频率映射为大脑的功能地图，听觉皮层如何通过注意力解决"鸡尾酒会问题"》
+
+**新建页面（3）**：
+- `wiki/systems/auditory-cortex.md`（新建）— 核心-带状-旁带状三级层级（Rauschecker & Scott 2009，PMID:19471271）；11张听觉场图（Brewer & Barton 2016，PMID:27145914）；腹侧"What"流 + 背侧"Where/How"流；STG鸡尾酒会注意性选择编码（Mesgarani & Chang 2012，PMID:22522927）；pSTG STRF语音重建（Pasley et al. 2012，PMID:22303281）；revision_count=1；置信度：高
+- `wiki/systems/cochlea.md`（新建）— 基底膜地点编码（Robles & Ruggero 2001，PMID:11427697）；外毛细胞 Prestin 耳蜗放大器（+40–50 dB，Q因子×100）；内毛细胞机械-电换能（tip links/TMC1-TMC2/Ca_v1.3/ribbon synapse）；听耳声发射（OAEs）；revision_count=1；置信度：高
+- `wiki/concepts/tonotopic-map.md`（新建）— 频率-位置有序排列原则（cochlea → CN → SOC → IC → MGB → A1）；11张场图两轴组织（音调梯度×周期性梯度）；侧向抑制增强频率对比；成人可塑性重组（Merzenich组）；与方向选择性/网格细胞/场所细胞类比为皮层拓扑计算通用策略；revision_count=1；置信度：高
+
+**修订页面（1）**：
+- `wiki/systems/thalamus.md` rev5 — updated=2026-07-28；revision_count 4→5；MGBv（腹侧核，精确音调拓扑投射至 A1）+ MGBd（背侧核）+ MGBm（内侧核）三区功能分化；related 新增 auditory-cortex；连接节新增 auditory-cortex；source_articles 新增 2026-07-28-auditory-cortex-tonotopy
+
+**矛盾登记（0）**：无新矛盾。Jeffress 延迟线模型（哺乳类 MSO 双侧 ITD 机制）的哺乳类证据争议已在文章中明确标注为"Q-ac-04 开放问题"，不触发矛盾协议（同一领域的不同模型竞争，而非已核查数据的直接矛盾）。
+
+**新增开放问题（4）**：
+- Q-ac-01（中优先级）：A1 拓扑图在成人行为中是否被学习历史重组（固定感觉分析器 vs 可塑经验图）？
+- Q-ac-02（高优先级）：注意过滤是否也发生在皮层下（MGB 甚至 IC），或仅限皮层？其解剖通路？
+- Q-ac-03（中优先级）：11 张场图是否在所有成人中普遍存在，还是受个体语言/音乐经历影响？
+- Q-ac-04（低优先级）：ITD 在哺乳类 MSO 的神经机制是否真的是 Jeffress 延迟线？
+
+**图谱**：173 节点（+3：auditory-cortex、cochlea、tonotopic-map），1042 边（+8：cochlea→tonotopic-map/mechanism-of、tonotopic-map→auditory-cortex/part-of、auditory-cortex→thalamus/prerequisite-for、cochlea→auditory-cortex/prerequisite-for、tonotopic-map→orientation-selectivity/related、tonotopic-map→grid-cell/related、tonotopic-map→place-cell/related、cochlea→voltage-gated-calcium-channels/prerequisite-for）
+
+---
+
 ## 2026-07-27（文章 #95·网格细胞×头向细胞×边界细胞→大脑内置坐标系×认知地图拼贴图批评）
 
 **源文章**：[[2026-07-27-grid-cells-head-direction-spatial-coordinate-system]] —《大脑内置的坐标系：网格细胞、头向细胞与边界细胞如何共同搭建空间认知地图》

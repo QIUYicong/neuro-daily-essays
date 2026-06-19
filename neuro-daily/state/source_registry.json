@@ -1,7 +1,127 @@
 {
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-28",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "11427697",
+      "pmcid": null,
+      "title": "Mechanics of the mammalian cochlea",
+      "authors_short": "Robles L, Ruggero MA",
+      "journal": "Physiological Reviews",
+      "year": 2001,
+      "first_used": "2026-07-28",
+      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "aspects_covered": [
+        "基底膜行波频率-位置对应（地点编码）",
+        "低声压CF特异性压缩性非线性（外毛细胞主动放大标志）",
+        "40-50 dB增益和约100倍Q因子提升（Prestin电动马达）"
+      ]
+    },
+    {
+      "pmid": "19471271",
+      "pmcid": "PMC2846110",
+      "title": "Maps and streams in the auditory cortex: nonhuman primates illuminate human speech processing",
+      "authors_short": "Rauschecker JP, Scott SK",
+      "journal": "Nature Neuroscience",
+      "year": 2009,
+      "first_used": "2026-07-28",
+      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "aspects_covered": [
+        "核心-带状-旁带状三级串行+并行层级",
+        "前带状→腹侧PFC（声音身份）；后带状→顶后/背侧PFC（空间/感觉运动）",
+        "皮层-丘系下行投射主动调节IC频率调谐"
+      ]
+    },
+    {
+      "pmid": "22303281",
+      "pmcid": "PMC3269422",
+      "title": "Reconstructing speech from human auditory cortex",
+      "authors_short": "Pasley BN et al.",
+      "journal": "PLoS Biology",
+      "year": 2012,
+      "first_used": "2026-07-28",
+      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "aspects_covered": [
+        "pSTG高频γ（70-170 Hz）活动编码谱时特征",
+        "STRF覆盖180-7000 Hz全语音频谱",
+        "线性重建均值r=0.28，词语识别精确率中位数0.89",
+        "<8 Hz线性包络追踪；>8 Hz非线性能量编码"
+      ]
+    },
+    {
+      "pmid": "22522927",
+      "pmcid": "PMC3870007",
+      "title": "Selective cortical representation of attended speaker in multi-talker speech perception",
+      "authors_short": "Mesgarani N, Chang EF",
+      "journal": "Nature",
+      "year": 2012,
+      "first_used": "2026-07-28",
+      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "aspects_covered": [
+        "双人同时说话时STG群体响应编码被注意者的谱时特征",
+        "注意切换→皮层内容切换",
+        "自上而下注意力实现生成性过滤（偏置竞争）"
+      ]
+    },
+    {
+      "pmid": "27145914",
+      "pmcid": "PMC6436392",
+      "title": "Maps of the auditory cortex",
+      "authors_short": "Brewer AA, Barton B",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2016,
+      "first_used": "2026-07-28",
+      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "aspects_covered": [
+        "人类听觉皮层多达11张有序听觉场图",
+        "音调梯度×周期性梯度双轴组织",
+        "叶形群集组织类似视觉皮层"
+      ]
+    },
+    {
+      "pmid": "23916753",
+      "pmcid": null,
+      "title": "Tonotopic mapping of human auditory cortex",
+      "authors_short": "Saenz M, Langers DRM",
+      "journal": "Hearing Research",
+      "year": 2014,
+      "first_used": "2026-07-28",
+      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "aspects_covered": [
+        "A1和R在Heschl回形成V形镜像排列（尾侧面/吻侧面折叠）",
+        "类比V1/V2在枕极的镜像排列"
+      ]
+    },
+    {
+      "pmid": "35221899",
+      "pmcid": null,
+      "title": "Hearing in complex environments: auditory gain control, attention, and hearing loss",
+      "authors_short": "Auerbach BD",
+      "journal": "Frontiers in Neuroscience",
+      "year": 2022,
+      "first_used": "2026-07-28",
+      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "aspects_covered": [
+        "听觉神经元对背景声学统计特性自动调整动态范围",
+        "底层神经元适应+顶层注意双机制协同",
+        "听力损失破坏增益控制导致噪声中理解困难"
+      ]
+    },
+    {
+      "pmid": "38244755",
+      "pmcid": null,
+      "title": "Research progress of the inferior colliculus: from neuron, neural circuit to auditory disease",
+      "authors_short": "Liu M et al.",
+      "journal": "Brain Research",
+      "year": 2024,
+      "first_used": "2026-07-28",
+      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "aspects_covered": [
+        "IC是所有升序听觉纤维的汇聚中枢",
+        "参与声源定位、听觉可塑性、声音检测和声音驱动行为",
+        "与tinnitus/老年性听力下降/ASD/Fragile X综合征相关"
+      ]
+    },
     {
       "pmid": "5124915",
       "pmcid": null,

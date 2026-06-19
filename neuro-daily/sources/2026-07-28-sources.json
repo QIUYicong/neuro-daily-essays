@@ -1,0 +1,212 @@
+{
+  "date": "2026-07-28",
+  "article": "2026-07-28-auditory-cortex-tonotopy.md",
+  "topic": "听觉皮层音调拓扑图、耳蜗机制与鸡尾酒会问题",
+  "total_sources": 8,
+  "open_access_fulltext": 2,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "11427697",
+      "pmcid": null,
+      "doi": null,
+      "authors": "Robles L, Ruggero MA",
+      "year": 2001,
+      "title": "Mechanics of the mammalian cochlea",
+      "journal": "Physiological Reviews",
+      "volume": "81",
+      "issue": "3",
+      "pages": "1305-1352",
+      "fulltext_available": false,
+      "fulltext_note": "摘要读取；Physiol Rev历史期刊，全文未通过PMC获取",
+      "used_for": "基底膜地点编码、耳蜗放大器（Prestin/外毛细胞）、非线性压缩的现代定量综述",
+      "key_claims_used": [
+        "基底膜振动峰值位置严格依赖刺激频率（地点编码）",
+        "低声压下CF特异性压缩性非线性（外毛细胞主动放大的标志）",
+        "40-50 dB增益和约100倍Q因子提升来自外毛细胞Prestin电动马达"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "19471271",
+      "pmcid": "PMC2846110",
+      "doi": null,
+      "authors": "Rauschecker JP, Scott SK",
+      "year": 2009,
+      "title": "Maps and streams in the auditory cortex: nonhuman primates illuminate human speech processing",
+      "journal": "Nature Neuroscience",
+      "volume": "12",
+      "issue": "6",
+      "pages": "718-724",
+      "fulltext_available": true,
+      "fulltext_note": "PMC2846110开放全文已读取",
+      "used_for": "核心-带状-旁带状层级模型、双听觉流（腹侧what/背侧where-how）、皮层-丘系下行投射",
+      "key_claims_used": [
+        "核心/带状/旁带状三级串行+并行层级",
+        "前带状→腹侧PFC（声音身份）；后带状→顶后/背侧PFC（空间/感觉运动）",
+        "前颞上沟整合双流，对语音可懂度（非声学复杂度）高度敏感",
+        "皮层-丘系下行投射主动调节IC频率调谐"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "22303281",
+      "pmcid": "PMC3269422",
+      "doi": "10.1371/journal.pbio.1001251",
+      "authors": "Pasley BN, David SV, Mesgarani N, Flinker A, Shamma SA, Crone NE, Knight RT, Chang EF",
+      "year": 2012,
+      "title": "Reconstructing speech from human auditory cortex",
+      "journal": "PLoS Biology",
+      "volume": "10",
+      "issue": "1",
+      "pages": "e1001251",
+      "fulltext_available": true,
+      "fulltext_note": "PMC3269422 PLoS Biology完全开放全文已读取",
+      "used_for": "颞上回STRF编码、高频γ活动（70-170 Hz）、语音重建精度、慢/快调制双编码模式",
+      "key_claims_used": [
+        "pSTG高频γ（70-170 Hz）活动编码谱时特征",
+        "STRF覆盖180-7000 Hz全语音频谱",
+        "线性重建均值r=0.28，词语识别精确率中位数0.89（随机0.50）",
+        "<8 Hz线性包络追踪；>8 Hz非线性能量编码（双模式）"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "22522927",
+      "pmcid": "PMC3870007",
+      "doi": "10.1038/nature10722",
+      "authors": "Mesgarani N, Chang EF",
+      "year": 2012,
+      "title": "Selective cortical representation of attended speaker in multi-talker speech perception",
+      "journal": "Nature",
+      "volume": "485",
+      "issue": "7397",
+      "pages": "233-236",
+      "fulltext_available": false,
+      "fulltext_note": "摘要读取；PMC3870007可能需要PMC订阅，未核实开放状态",
+      "used_for": "鸡尾酒会效应的神经皮层证据，STG注意选择性编码",
+      "key_claims_used": [
+        "双人同时说话时，非初级听觉皮层群体响应编码被注意者的谱时特征（而非混合信号）",
+        "注意切换→皮层内容切换",
+        "自上而下注意力实现生成性过滤而非简单信号放大"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "27145914",
+      "pmcid": "PMC6436392",
+      "doi": "10.1146/annurev-neuro-072116-031139",
+      "authors": "Brewer AA, Barton B",
+      "year": 2016,
+      "title": "Maps of the auditory cortex",
+      "journal": "Annual Review of Neuroscience",
+      "volume": "39",
+      "pages": "385-407",
+      "fulltext_available": false,
+      "fulltext_note": "摘要读取；PMC6436392年度综述许可政策多变，全文未核实",
+      "used_for": "11张人类听觉场图、音调+周期性双轴组织、叶形群集",
+      "key_claims_used": [
+        "人类听觉皮层存在多达11张有序的听觉场图",
+        "以音调梯度（tonotopy）和周期性梯度（periodotopy）为正交轴组织",
+        "叶形群集（cloverleaf clusters）组织类似视觉皮层"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "23916753",
+      "pmcid": null,
+      "doi": "10.1016/j.heares.2013.07.016",
+      "authors": "Saenz M, Langers DRM",
+      "year": 2014,
+      "title": "Tonotopic mapping of human auditory cortex",
+      "journal": "Hearing Research",
+      "volume": "307",
+      "pages": "42-52",
+      "fulltext_available": false,
+      "fulltext_note": "摘要读取；无开放全文",
+      "used_for": "A1和R在Heschl回上的V形镜像fMRI证据",
+      "key_claims_used": [
+        "A1和R在Heschl回形成V形镜像排列（尾侧面/吻侧面折叠）",
+        "类比V1/V2在枕极的镜像排列"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "35221899",
+      "pmcid": null,
+      "doi": "10.3389/fnins.2022.855303",
+      "authors": "Auerbach BD",
+      "year": 2022,
+      "title": "Hearing in complex environments: auditory gain control, attention, and hearing loss",
+      "journal": "Frontiers in Neuroscience",
+      "volume": "16",
+      "pages": "855303",
+      "fulltext_available": false,
+      "fulltext_note": "摘要读取",
+      "used_for": "复杂声学环境中的自下而上增益控制机制、注意力与统计适应的双机制框架",
+      "key_claims_used": [
+        "听觉神经元对背景声学统计特性（强度均值/方差）自动调整动态范围",
+        "底层适应+顶层注意双机制协同",
+        "听力损失破坏增益控制导致噪声中理解困难"
+      ]
+    },
+    {
+      "id": "S8",
+      "pmid": "38244755",
+      "pmcid": null,
+      "doi": "10.1016/j.brainres.2024.148676",
+      "authors": "Liu M et al.",
+      "year": 2024,
+      "title": "Research progress of the inferior colliculus: from neuron, neural circuit to auditory disease",
+      "journal": "Brain Research",
+      "volume": "1828",
+      "pages": "148676",
+      "fulltext_available": false,
+      "fulltext_note": "摘要读取",
+      "used_for": "下丘（IC）在听觉升序通路中的功能综述",
+      "key_claims_used": [
+        "IC是所有升序听觉纤维的汇聚中枢",
+        "参与声源定位、听觉可塑性、声音检测和声音驱动行为",
+        "与tinnitus/老年性听力下降/ASD/Fragile X综合征相关"
+      ]
+    }
+  ],
+  "classic_references_not_pubmed": [
+    {
+      "citation": "Cherry EC (1953) Some experiments on the recognition of speech, with one and with two ears. JASA 25:975-979",
+      "note": "鸡尾酒会问题原始定义，早于PubMed覆盖范围，无PMID"
+    },
+    {
+      "citation": "von Békésy G (1961) Nobel Lecture. Nobel Foundation, Stockholm",
+      "note": "基底膜行波理论，诺贝尔奖讲座，无PMID"
+    },
+    {
+      "citation": "Dallos P (2008) Cochlear amplification, outer hair cells and prestin. Curr Opin Neurobiol 18:370-376",
+      "note": "耳蜗放大器综述（Prestin），无法确认PMID，标为补充"
+    }
+  ],
+  "search_queries_used": [
+    "auditory cortex tonotopy review [PubMed]",
+    "basilar membrane cochlea tonotopy hair cells review [PubMed]",
+    "auditory scene analysis cocktail party cortex review [PubMed]",
+    "Rauschecker Scott 2009 auditory cortex streams [PubMed]",
+    "Mesgarani Chang 2012 auditory cortex speech [PubMed]",
+    "auditory brainstem inferior colliculus sound localization review [PubMed]",
+    "Robles Ruggero 2001 basilar membrane Physiological Reviews [PubMed]",
+    "inner hair cells mechanoelectrical transduction tip links review [PubMed]"
+  ],
+  "excluded_sources": [
+    {
+      "reason": "PMID未核查成功",
+      "note": "Mesgarani & Chang 2014 Science（音素表征）初始PMID搜索未成功，改用2012年Nature版本（PMID:22522927已核查）"
+    },
+    {
+      "reason": "无法确认PMID",
+      "note": "Zatorre & Salimpoor音乐和多巴胺研究，搜索未返回可靠PMID，不引用以避免捏造"
+    },
+    {
+      "reason": "非首选级别来源",
+      "note": "Cherry 1953，经典文献引用但标注无PMID"
+    }
+  ]
+}

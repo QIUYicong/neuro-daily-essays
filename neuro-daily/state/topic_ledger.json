@@ -1,7 +1,61 @@
 {
-  "last_updated": "2026-07-27",
-  "total_articles": 78,
+  "last_updated": "2026-07-28",
+  "total_articles": 79,
   "entries": [
+    {
+      "date": "2026-07-28",
+      "title": "从蜗旋到皮层音图：耳蜗如何将声音的物理频率映射为大脑的功能地图，听觉皮层如何通过注意力解决"鸡尾酒会问题"",
+      "filename": "2026-07-28-auditory-cortex-tonotopy.md",
+      "article_number": 96,
+      "wiki_pages_created": [
+        "wiki/systems/auditory-cortex.md",
+        "wiki/systems/cochlea.md",
+        "wiki/concepts/tonotopic-map.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/thalamus.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "耳蜗基底膜如何通过行波和主动放大实现频率-位置地点编码（cochleotopy）？这一物理地图如何在整个听觉升序通路（CN→SOC→IC→MGBv→A1）中被精确保真传递？人类 Heschl 回上 11 张听觉场图如何以音调梯度×周期性梯度双轴组织？在双说话者环境（鸡尾酒会问题）中，注意力如何主动重写 STG 群体响应的内容，实现被注意者声音的选择性编码？",
+      "open_questions_added": ["Q-ac-01", "Q-ac-02", "Q-ac-03", "Q-ac-04"],
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·听觉编码）；首次建立听觉系统完整条目（cochlea、auditory-cortex、tonotopic-map）；连接耳蜗→皮层拓扑保真传递；引入核心-带状-旁带状层级、双听觉流、11场图、STRF语音编码；鸡尾酒会问题作为注意力重写皮层内容的直接神经证据",
+      "topic_tags": [
+        "auditory cortex tonotopy",
+        "cochlea basilar membrane",
+        "cocktail party problem",
+        "place coding",
+        "cochlear amplifier",
+        "prestin OHC",
+        "IHC MET TMC1 TMC2",
+        "core belt parabelt",
+        "dual auditory streams",
+        "STG speech encoding",
+        "STRF spectrotemporal receptive field",
+        "Heschl gyrus",
+        "Brewer Barton 11 field maps",
+        "Mesgarani cocktail party",
+        "Pasley speech reconstruction"
+      ],
+      "sources_used": [
+        "PMID:11427697",
+        "PMID:19471271",
+        "PMID:22303281",
+        "PMID:22522927",
+        "PMID:27145914",
+        "PMID:23916753",
+        "PMID:35221899",
+        "PMID:38244755"
+      ],
+      "open_access_fulltext": ["PMC2846110", "PMC3269422"]
+    },
     {
       "date": "2026-07-27",
       "title": "大脑内置的坐标系：网格细胞、头向细胞与边界细胞如何共同搭建空间认知地图",

@@ -6,13 +6,13 @@ type: region
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-22
-revision_count: 4
+updated: 2026-07-28
+revision_count: 5
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations]
+related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations, auditory-cortex]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism, Q-dan-01]
-source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm]
+source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm, 2026-07-28-auditory-cortex-tonotopy]
 key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202"]
 ---
 
@@ -47,6 +47,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 ### 3. 一次视丘核（First-Order Nuclei）
 - LGN（外侧膝状体，视觉）；VPM（腹后内核，触觉/本体）；MGN（内侧膝状体，听觉）
 - 驱动输入来自外周感觉通路末梢
+- **MGBv（内侧膝状体腹侧核）**：听觉通路的最终中继站，接受下丘（IC）的精确音调拓扑投射，保真地将耳蜗 cochleotopic map 传递至初级听觉皮层 A1；MGBd（背侧核）和 MGBm（内侧核）投射至听觉旁带状区和边缘结构，参与情绪-听觉整合
 
 ### 4. 高次视丘核（Higher-Order Nuclei）
 - 枕核（Pulvinar）：视觉系统，连接全视觉皮层层级；灭活→V1 反应几乎消失（Purushothaman 2012, PMID: 22561455）
@@ -93,6 +94,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - [[v1-primary-visual-cortex]] — Pulvinar 灭活→V1 反应消失；视觉注意空间门控
 - [[neural-correlates-of-consciousness]] — CM-Pf 与意识状态；DBS 临床证据
 - [[gain-control]] — TRN 介导皮层-视丘增益调控
+- [[auditory-cortex]] — MGBv 精确拓扑投射至 A1，保真传递耳蜗 cochleotopic 频率地图
 
 ## 未解问题
 
@@ -108,6 +110,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 
 - 2026-07-01 · 修订（rev3） · 基于文章 #67《空间注意的神经回路》· 新增 DAN（FEF/IPS）→TRN 通路作为皮层注意信号向下传递的接口；回答了 Q-thalamus-gating-mechanism 中关于 FEF→TRN 感觉门控的部分机制；related 新增 dorsal-attention-network；新增 Q-dan-01 交叉引用
 - 2026-07-22 · 修订（rev4） · 基于文章 #90《α振荡》· 新增枕核/LP作为清醒α振荡的广播来源（TRN-TC回路→α同步多皮层区域）；related新增alpha-oscillations；key_sources新增PMID:31972202
+- 2026-07-28 · 修订（rev5） · 基于文章 #96《从蜗旋到皮层音图》· 新增 MGBv/MGBd/MGBm 三区功能分化（腹侧核→精确音调拓扑投射至 A1；背侧核/内侧核→旁带状区/边缘系统）；连接节新增 auditory-cortex；related 新增 auditory-cortex；source_articles 新增 2026-07-28-auditory-cortex-tonotopy
 
 ## 来源文章
 
@@ -115,3 +118,4 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - [[2026-06-30-thalamic-burst-t-type-calcium-timing-gate]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-07-22-alpha-oscillations-attention-wm]]
+- [[2026-07-28-auditory-cortex-tonotopy]]

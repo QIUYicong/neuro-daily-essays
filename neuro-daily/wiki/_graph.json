@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-27",
-  "node_count": 170,
-  "edge_count": 1034,
+  "updated": "2026-07-28",
+  "node_count": 173,
+  "edge_count": 1041,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1555,6 +1555,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/piriform-cortex.md"
+    },
+    {
+      "id": "auditory-cortex",
+      "title": "听觉皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/auditory-cortex.md"
+    },
+    {
+      "id": "cochlea",
+      "title": "耳蜗",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/cochlea.md"
+    },
+    {
+      "id": "tonotopic-map",
+      "title": "音调拓扑图（Tonotopy）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tonotopic-map.md"
     }
   ],
   "edges": [
@@ -7288,6 +7315,54 @@
       "to": "transcriptomic-cell-types",
       "type": "related",
       "note": "OR基因表达是确定OSN细胞类型的核心标志；scRNA-seq可大规模鉴定不同OR表达的OSN亚类"
+    },
+    {
+      "from": "cochlea",
+      "to": "tonotopic-map",
+      "type": "mechanism-of",
+      "note": "耳蜗基底膜 cochleotopic map（CF-位置对应关系）是 A1 tonotopic map 的物理起点；地点编码的物理实现"
+    },
+    {
+      "from": "tonotopic-map",
+      "to": "auditory-cortex",
+      "type": "part-of",
+      "note": "音调拓扑图是初级听觉皮层 A1 和 R 的核心组织原则；11张场图均以音调梯度为主轴"
+    },
+    {
+      "from": "auditory-cortex",
+      "to": "thalamus",
+      "type": "prerequisite-for",
+      "note": "MGBv（内侧膝状体腹侧核）是 A1 的直接上游；精确音调拓扑投射将耳蜗频率地图传递至皮层"
+    },
+    {
+      "from": "cochlea",
+      "to": "auditory-cortex",
+      "type": "prerequisite-for",
+      "note": "耳蜗通过 CN->SOC->IC->MGB 升序通路向 A1 提供经频率分解的听觉输入"
+    },
+    {
+      "from": "tonotopic-map",
+      "to": "orientation-selectivity",
+      "type": "related",
+      "note": "两者都是感觉皮层空间保持拓扑图的实例：tonotopy（频率->皮层位置）与 orientation map（方向->皮层柱），共同体现皮层拓扑计算通用策略"
+    },
+    {
+      "from": "tonotopic-map",
+      "to": "grid-cell",
+      "type": "related",
+      "note": "网格细胞认知地图是海马-内嗅系统对环境空间的拓扑编码；与 tonotopic-map 均体现空间保持原则，但实现机制和功能目标不同"
+    },
+    {
+      "from": "tonotopic-map",
+      "to": "place-cell",
+      "type": "related",
+      "note": "场所细胞的场所场可视为单个位置的拓扑基元；与 tonotopic-map 均为功能性拓扑地图中的离散节点"
+    },
+    {
+      "from": "cochlea",
+      "to": "voltage-gated-calcium-channels",
+      "type": "prerequisite-for",
+      "note": "内毛细胞基底外侧 Ca_v1.3（L型）是谷氨酸释放至 I 型螺旋神经节细胞的触发器；与海马/皮层 L 型钙通道作用类比但细胞类型不同"
     }
   ],
   "dangling_references": [

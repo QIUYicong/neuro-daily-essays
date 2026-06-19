@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-27",
+  "last_updated": "2026-07-28",
   "levels": [
     "speculative",
     "emerging",
@@ -9,6 +9,30 @@
     "contested"
   ],
   "pages": [
+    {
+      "slug": "auditory-cortex",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 5,
+      "last_status_change": "2026-07-28",
+      "reason": "创建 2026-07-28（文章 #96）。核心-带状-旁带状三级层级（Rauschecker & Scott 2009，PMID:19471271，全文读取，跨物种灵长类综述）置信度高；A1/R V形镜像排列（Saenz & Langers 2014，PMID:23916753，7T fMRI多中心）置信度中-高；STG注意性选择编码（Mesgarani & Chang 2012，PMID:22522927，颅内ECoG直接测量因果设计）置信度高；pSTG STRF语音重建（Pasley et al. 2012，PMID:22303281，全文读取，颅内ECoG+线性解码）置信度高；11张场图（Brewer & Barton 2016，PMID:27145914，综述）置信度中（精确数量有争议）。整体：established/high，个别主张（11张场图数量、V形镜像的确切边界）降为中置信度。"
+    },
+    {
+      "slug": "cochlea",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-07-28",
+      "reason": "创建 2026-07-28（文章 #96）。耳蜗力学（基底膜行波、地点编码）已由 Robles & Ruggero 2001（PMID:11427697，激光测振计，多实验室重复，Physiological Reviews综述）高度确立；Prestin 外毛细胞电动马达（KO小鼠实验，Dallos 2008）高；TMC1/TMC2 机械电换能通道（KO小鼠，Kawashima 2011）高；OHC损伤→频率分辨率下降（氨基糖苷类毒素选择性损伤）高。耳蜗机制总体高度确立，无重大未解争议。"
+    },
+    {
+      "slug": "tonotopic-map",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-07-28",
+      "reason": "创建 2026-07-28（文章 #96）。耳蜗 cochleotopic map 到 A1 的精确保真传递是听觉神经科学教科书级结论（1970年代起多实验室确立）；Merzenich & Brugge 1973 猫A1音调图（多电极记录，高）；人类A1 fMRI音调梯度（Saenz & Langers 2014，PMID:23916753，7T fMRI，中-高）；11场图（Brewer & Barton 2016，PMID:27145914，中，精确数量争议）；训练后A1频率调谐可塑性重组（Merzenich组1983-1993，高）。整体：established/high，但精确场图数量置信度降低。"
+    },
     {
       "slug": "head-direction-cells",
       "status": "established",
