@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-02（第101篇·痛觉的守门人·TRPV1×脊髓闸门×中枢敏化×痛觉矩阵×PAG下行镇痛）· 主题页总数：**189**（新建4页：concepts/nociceptor、concepts/gate-control-theory、concepts/central-sensitization、systems/pain-matrix、systems/anterior-cingulate-cortex、systems/periaqueductal-gray；修订3页：systems/somatosensory-cortex rev1→rev2、systems/thalamus rev5→rev6、concepts/nmda-receptor rev5→rev6；图谱194节点、1118边；新增Q-pain-01至Q-pain-04开放问题）
+> 最后更新：2026-08-03（第102篇·安慰剂镇痛·PFC→rACC→PAG阿片回路×内源性阿片系统×Nocebo/CCK双路径）· 主题页总数：**192**（新建3页：concepts/placebo-analgesia、concepts/endogenous-opioid-system、concepts/nocebo-effect；修订2页：systems/anterior-cingulate-cortex rev1→rev2、systems/periaqueductal-gray rev1→rev2；图谱197节点、1134边；新增Q-placebo-01/Q-placebo-02开放问题；填补endogenous-opioid-system悬空引用）
 
 ---
 
@@ -158,6 +158,9 @@
 - 🟢 [伤害感受器（Nociceptor）](concepts/nociceptor.md) — 专职感知有害刺激（高温/强机械力/有害化学物）的感觉神经元亚群；TRP家族通道（TRPV1热/辣 43°C、TRPA1化学/寒冷 <15°C、TRPM8凉感）；Nav1.7/1.8/1.9动作电位触发；Aδ（快速尖痛）vs C纤维（慢速弥散痛）双时程系统；外周致敏机制（PGE2/缓激肽/NGF→TRPV1阈值降低）**[NEW 2026-08-02]**
 - 🔵 [闸门控制理论](concepts/gate-control-theory.md) — Melzack & Wall 1965提出的脊髓痛觉调控框架；Koch 2018在分子细胞层面验证：DYN+抑制性神经元（接收Aβ→压制PKCγ+）/PKCγ+兴奋性神经元（allodynia节点）/SOM+兴奋性神经元；KCC2下调→GABA兴奋→闸门失控；PAG-RVM下行控制 **[NEW 2026-08-02]**
 - 🟢 [中枢敏化（Central Sensitization）](concepts/central-sensitization.md) — 慢性疼痛的核心神经可塑性机制；NMDA受体→Ca²⁺→多激酶级联（MAPK/PKC/Src）→突触效能持久增强（wind-up/脊髓LTP-like）；小胶质细胞-BDNF→KCC2下调→GABA兴奋化正反馈；与海马LTP同源机制发生在"错误的地方" **[NEW 2026-08-02]**
+- 🟢 [安慰剂镇痛（Placebo Analgesia）](concepts/placebo-analgesia.md) — PFC→rACC→PAG→RVM→脊髓下行阿片回路将心理期望转化为真实止痛信号；纳洛酮逆转证明内源性阿片依赖（Levine 1978）；Zubieta 2005 PET直接测量rACC μ-OR激活（r=-0.87）；Eippert 2009 fMRI rACC-PAG耦合纳洛酮消除；双过程模型（期望+条件反射）；Nocebo效应通过CCK路径形成镜像促痛 **[NEW 2026-08-03]**
+- 🟢 [内源性阿片系统（Endogenous Opioid System）](concepts/endogenous-opioid-system.md) — μ/κ/δ三类受体（Gi/o→AC↓→cAMP↓→K⁺开放→超极化）；β-内啡肽（弓形核）/脑啡肽/强啡肽三类阿片肽；PAG-RVM-脊髓三级下行镇痛通路；[¹¹C]卡芬太尼PET活体直接测量；吗啡模拟内源性SIA（应激诱导镇痛）的分子底物 **[NEW 2026-08-03]**
+- 🟢 [Nocebo效应](concepts/nocebo-effect.md) — 负向期望→主观疼痛增强；CCK-A/B拮抗剂（丙谷胺）可阻断——与安慰剂阿片路径形成双路径分离；医源性nocebo（负面预期语言即增加术后疼痛）；开放标签安慰剂显示知情者仍可触发条件性镇痛 **[NEW 2026-08-03]**
 
 ## motor（运动系统）
 

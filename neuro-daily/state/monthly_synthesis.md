@@ -836,3 +836,26 @@
 **来源质量**：10篇，4篇开放获取全文（Körding 2007 PMC1978520、Angelaki 2009 PMC2749464、Bhatt 2016 PMC5375642、Stein & Rowland 2020 PMC9680976），6篇摘要
 
 **日期说明**：北京时间 2026-06-20 03:01，系统 UTC 日期 2026-06-19。文章使用 2026-07-30 续接知识库顺序连续性（#97 为 2026-07-29）。知识库日期序列已比实际日历超前约 40 天，需用户决定是否在触发时机上做修正。
+
+---
+
+### 2026-08-03 · 文章 #102 · 期望的神经化学 · 安慰剂镇痛的大脑回路与内源性阿片系统
+
+**核心问题**：当受试者服下明知无效的药片却感到疼痛减轻时，大脑究竟发生了什么？安慰剂镇痛依赖内源性阿片（纳洛酮可逆转）；PFC→rACC→PAG→脊髓下行回路将"期望"转化为真实的止痛分子信号。
+**一句话答案**：安慰剂激活 dlPFC→rACC→PAG→RVM→脊髓下行阿片回路（rACC-PAG功能耦合Eippert 2009 fMRI直接测量；rACC μ-OR激活与镇痛效果r=-0.87，Zubieta 2005 PET）；反向期望通过CCK通路产生nocebo促痛效应——期望是大脑的分子杠杆，可精确调控内源性止痛化学品的释放。
+
+**知识链衔接**：#101（痛觉神经回路×脊髓背角×PAG×ACC）→ #102（安慰剂镇痛×期望×内源性阿片×rACC-PAG回路）——从"疼痛如何被感知"到"大脑如何主动关闭疼痛"的完整链条。两篇合并构成痛觉神经科学的"上行编码→下行调控"双轨体系，并通过内源性阿片系统（新建wiki页）填补了从#101 PAG页中悬空的`endogenous-opioid-system`引用。
+
+**新建wiki页**：
+- concepts/placebo-analgesia（安慰剂镇痛）🟢 established/high — PFC→rACC→PAG阿片回路；双过程模型；关键证据表（Wager/Zubieta/Eippert/Petrovic）；nocebo对比；开放标签安慰剂
+- concepts/endogenous-opioid-system（内源性阿片系统）🟢 established/high — μ/κ/δ受体机制；β-内啡肽/脑啡肽/强啡肽；PAG-RVM-脊髓通路；纳洛酮反转；PET直接测量
+- concepts/nocebo-effect（Nocebo效应）🟢 established/medium — 负向期望促痛；CCK-A/B机制；Benedetti组奠基；开放标签安慰剂对比
+
+**修订wiki页**：
+- systems/anterior-cingulate-cortex rev1→rev2（新增rACC在安慰剂镇痛的深化证据：Eippert 2009 rACC-PAG耦合+纳洛酮消除；Zubieta 2005 r=-0.87；Petrovic 2002共享激活）
+- systems/periaqueductal-gray rev1→rev2（新增Eippert 2009 rACC-PAG耦合到关键证据表；更新临床相关性节）
+
+**图谱**：194节点→197节点，1118边→1134边（+3节点，+16边）
+**新增开放问题**：Q-placebo-01（高，安慰剂非阿片成分）、Q-placebo-02（中，开放标签安慰剂机制）
+**来源质量**：8篇，4篇开放获取全文（PMC6725254/6013051/7925520/5747994），4篇摘要
+**填补悬空引用**：`endogenous-opioid-system`（原为periaqueductal-gray.md中的悬空related引用，现已填补）

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-02",
-  "node_count": 194,
-  "edge_count": 1118,
+  "updated": "2026-08-03",
+  "node_count": 197,
+  "edge_count": 1134,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1771,6 +1771,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/periaqueductal-gray.md"
+    },
+    {
+      "id": "placebo-analgesia",
+      "title": "安慰剂镇痛",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/placebo-analgesia.md"
+    },
+    {
+      "id": "endogenous-opioid-system",
+      "title": "内源性阿片系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/endogenous-opioid-system.md"
+    },
+    {
+      "id": "nocebo-effect",
+      "title": "Nocebo效应",
+      "domain": "concepts",
+      "type": "phenomenon",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/nocebo-effect.md"
     }
   ],
   "edges": [
@@ -8014,6 +8041,102 @@
       "to": "pain-matrix",
       "type": "mechanism-of",
       "note": "VPL（新脊丘束→S1）和 VMpo/MDvc（旁脊丘束→ACC/岛叶）两条丘脑通路将脊髓丘脑束信号分流到痛觉矩阵不同节点"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "anterior-cingulate-cortex",
+      "type": "mechanism-of",
+      "note": "rACC是安慰剂下行阿片回路的核心中继节点"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "periaqueductal-gray",
+      "type": "mechanism-of",
+      "note": "rACC-PAG功能耦合在安慰剂镇痛中显著增强（Eippert 2009），纳洛酮完全消除该耦合"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "endogenous-opioid-system",
+      "type": "mechanism-of",
+      "note": "安慰剂在rACC和PAG触发内源性阿片肽释放，μ-OR激活与镇痛效果线性相关"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of",
+      "note": "dlPFC编码期望信号并投射至rACC启动下行镇痛"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "pain-matrix",
+      "type": "regulates",
+      "note": "安慰剂通过PFC→rACC→PAG→脊髓通路抑制痛觉矩阵整体活动（Wager 2004）"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "gate-control-theory",
+      "type": "supports",
+      "note": "期望信号自上而下调控脊髓闸门，验证闸门控制理论的中枢控制组件"
+    },
+    {
+      "from": "placebo-analgesia",
+      "to": "nocebo-effect",
+      "type": "related",
+      "note": "镜像现象：同样的期望机制，对伤害预期产生相反（促痛）效果"
+    },
+    {
+      "from": "nocebo-effect",
+      "to": "placebo-analgesia",
+      "type": "related",
+      "note": "安慰剂的反面：负向期望通过CCK通路增强疼痛"
+    },
+    {
+      "from": "endogenous-opioid-system",
+      "to": "periaqueductal-gray",
+      "type": "mechanism-of",
+      "note": "PAG是内源性阿片镇痛的核心枢纽，μ-OR密度全脑最高之一"
+    },
+    {
+      "from": "endogenous-opioid-system",
+      "to": "anterior-cingulate-cortex",
+      "type": "mechanism-of",
+      "note": "rACC处μ-OR在安慰剂镇痛中被直接激活（Zubieta 2005 PET），激活量与镇痛效果r=-0.87"
+    },
+    {
+      "from": "endogenous-opioid-system",
+      "to": "pain-matrix",
+      "type": "regulates",
+      "note": "内源性阿片肽通过PAG→RVM→脊髓抑制上行伤害性信号"
+    },
+    {
+      "from": "endogenous-opioid-system",
+      "to": "gate-control-theory",
+      "type": "supports",
+      "note": "为闸门控制理论的下行抑制提供分子底物"
+    },
+    {
+      "from": "nocebo-effect",
+      "to": "anterior-cingulate-cortex",
+      "type": "mechanism-of",
+      "note": "ACC参与负向期望的疼痛调控"
+    },
+    {
+      "from": "nocebo-effect",
+      "to": "pain-matrix",
+      "type": "regulates",
+      "note": "负向期望通过CCK通路增强痛觉矩阵活动"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "placebo-analgesia",
+      "type": "related",
+      "note": "rACC是安慰剂下行阿片回路的关键节点，见ACC wiki页"
+    },
+    {
+      "from": "periaqueductal-gray",
+      "to": "placebo-analgesia",
+      "type": "related",
+      "note": "PAG接收rACC驱动的安慰剂镇痛信号（Eippert 2009）"
     }
   ],
   "dangling_references": [

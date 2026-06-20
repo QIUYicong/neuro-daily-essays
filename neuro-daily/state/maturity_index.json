@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-08-03",
   "levels": [
     "speculative",
     "emerging",
@@ -39,7 +39,7 @@
       "confidence": "high",
       "supporting_sources": 3,
       "last_status_change": "2026-07-29",
-      "reason": "创建 2026-07-29（文章 #97）。Penfield 感觉小人（1950）的基本特征（非等比例拓扑体图、手指/嘴唇皮层面积远超解剖面积）是60年以上持续验证的神经科学常识；现代 SEEG（Roux 2018 PMID:29285773，50名患者）提供高分辨率定量修正（指节梯度、而非简单"手指块"）；Saadon-Grosman 2020（PMID:32954277，全身 fMRI 刺激）揭示 S2 等高级皮层对躯干比例更大。整体：established/high。对 Penfield 1950 经典图的精细修正（梯度结构、性别差异）降为中置信度。"
+      "reason": "创建 2026-07-29（文章 #97）。Penfield 感觉小人（1950）的基本特征（非等比例拓扑体图、手指/嘴唇皮层面积远超解剖面积）是60年以上持续验证的神经科学常识；现代 SEEG（Roux 2018 PMID:29285773，50名患者）提供高分辨率定量修正（指节梯度、而非简单\"手指块\"）；Saadon-Grosman 2020（PMID:32954277，全身 fMRI 刺激）揭示 S2 等高级皮层对躯干比例更大。整体：established/high。对 Penfield 1950 经典图的精细修正（梯度结构、性别差异）降为中置信度。"
     },
     {
       "slug": "auditory-cortex",
@@ -1257,6 +1257,45 @@
       "10.7554/eLife.96287.4",
       "PMC9376361",
       "PMID:38918348"
+    ]
+  },
+  "placebo-analgesia-2026-08-03": {
+    "slug": "placebo-analgesia",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-08-03",
+    "change_reason": "新建页面（文章 #102，2026-08-03）。纳洛酮可逆转（Levine 1978）是安慰剂依赖内源性阿片的奠基证据（decades级重复）；fMRI+PET双重影像证据链：Wager 2004（PMID:14976306）PFC↑+丘脑/ACC↓，Zubieta 2005（PMID:16120776）PET直接测量rACC μ-OR释放（r=-0.87强相关），Eippert 2009（PMID:19709634）fMRI+纳洛酮双盲直接证明rACC-PAG耦合+脊髓镇痛；跨物种、多方法汇聚。整体：established/high。开放问题：非阿片成分（Q-placebo-01）、开放标签安慰剂机制（Q-placebo-02）。",
+    "key_sources": [
+      "PMID:14976306",
+      "PMID:19709634",
+      "PMID:16120776",
+      "PMID:11834781"
+    ]
+  },
+  "endogenous-opioid-system-2026-08-03": {
+    "slug": "endogenous-opioid-system",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-08-03",
+    "change_reason": "新建页面（文章 #102，2026-08-03）。内源性阿片系统是教科书级知识（1970s以来数十年药理+电生理+分子证据）：μ/κ/δ三类受体分子机制完整（Gi/o→cAMP↓→K⁺开放→超极化）；弓形核β-内啡肽→PAG轴是经典下行镇痛通路；纳洛酮选择性逆转是内源性阿片参与的临床验证方法；PET直接成像（[11C]卡芬太尼结合率）是分子层面活体直接测量。established/high。",
+    "key_sources": [
+      "PMID:16120776",
+      "PMID:19709634",
+      "PMID:14976306"
+    ]
+  },
+  "nocebo-effect-2026-08-03": {
+    "slug": "nocebo-effect",
+    "status": "established",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_change": "2026-08-03",
+    "change_reason": "新建页面（文章 #102，2026-08-03）。Nocebo效应的CCK机制由Benedetti组奠基：CCK-A/B拮抗剂（丙谷胺）可阻断焦虑诱导的nocebo痛觉增强，首次区分阿片（安慰剂）vs CCK（nocebo）双路径。跨实验室重复；临床现象（语言暗示引发副作用、停药诱导nocebo）高度关联。状态：established。但CCK成像直接证据较安慰剂稀少（vs Zubieta 2005 PET），置信度：medium。",
+    "key_sources": [
+      "PMID:29108801",
+      "PMID:33654105"
     ]
   }
 }

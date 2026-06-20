@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-08-02
-updated: 2026-08-02
-revision_count: 1
+updated: 2026-08-03
+revision_count: 2
 dimensions: [systems, molecular, cellular]
-related: [pain-matrix, anterior-cingulate-cortex, gate-control-theory, central-sensitization, endogenous-opioid-system]
+related: [pain-matrix, anterior-cingulate-cortex, gate-control-theory, central-sensitization, endogenous-opioid-system, placebo-analgesia]
 prerequisites: [gate-control-theory, pain-matrix]
 opens_questions: []
-source_articles: [2026-08-02-pain-nociception-spinal-dorsal-horn-acc]
-key_sources: ["PMID:36045708", "PMID:32422213", "PMID:19837031", "PMID:17678852"]
+source_articles: [2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-03-placebo-analgesia-pfc-opioid-circuit]
+key_sources: ["PMID:36045708", "PMID:32422213", "PMID:19837031", "PMID:17678852", "PMID:19709634", "PMID:14976306"]
 ---
 
 # 导水管周围灰质（Periaqueductal Gray, PAG）
@@ -111,9 +111,18 @@ PAG 整合来自多个系统的信息来决定镇痛"水龙头"开关程度：
 ## 临床相关性
 
 - **吗啡作用机制**：外源性阿片在 PAG 激活 μ-OR → 模拟内源性 SIA
-- **安慰剂镇痛**：fMRI 研究（Wager et al.）显示安慰剂激活 ACC→PAG 通路 + 减少脊髓背角疼痛相关活动
+- **安慰剂镇痛**：fMRI 研究（Wager et al. 2004，PMID:14976306）显示安慰剂激活 ACC→PAG 通路 + 减少脊髓背角疼痛相关活动；Eippert et al.（2009，PMID:19709634）直接证明安慰剂条件下 rACC-PAG 功能连接显著增强，纳洛酮完全消除该耦合（见下方"关键证据"新条目）
 - **针灸镇痛机制**：部分证据指向 PAG 内源性阿片释放
 - **慢性疼痛的 PAG 功能异常**：ON/OFF cells 比例从镇痛主导转为促痛主导
+
+## 关键证据（补充）
+
+| 研究 | 方法 | 核心发现 | PMID |
+|------|------|---------|------|
+| McPherson & Ingram 2022 | 细胞类型分析 | vlPAG 细胞多样性（GABA/Glu/脑啡肽能） | 36045708 |
+| Bagley & Ingram 2020 | 综述 | RVM ON/OFF-cells；阿片肽来源与分布 | 32422213 |
+| **Eippert et al. 2009** | **fMRI + 纳洛酮双盲** | **安慰剂→rACC-PAG耦合↑；纳洛酮完全消除该耦合；脊髓安慰剂效应被逆转** | **19709634** |
+| Wager et al. 2004 | fMRI，热痛 | 安慰剂期望期 PFC↑；体验期丘脑/岛叶/ACC↓；PAG-ACC通路激活 | 14976306 |
 
 ## 连接
 
@@ -126,7 +135,9 @@ PAG 整合来自多个系统的信息来决定镇痛"水龙头"开关程度：
 ## 修订历史
 
 - 2026-08-02 · 创建 · 基于《痛觉的守门人》文章（#101）
+- 2026-08-03 · 修订 · 加入安慰剂镇痛的rACC-PAG回路证据（Eippert 2009）· 依据：2026-08-03-placebo-analgesia文章
 
 ## 来源文章
 
 - [[2026-08-02-pain-nociception-spinal-dorsal-horn-acc]]
+- [[2026-08-03-placebo-analgesia-pfc-opioid-circuit]]

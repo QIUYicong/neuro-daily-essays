@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-02",
-  "total_articles": 84,
+  "last_updated": "2026-08-03",
+  "total_articles": 85,
   "entries": [
     {
       "date": "2026-07-31",
@@ -6042,6 +6042,64 @@
         "前额叶认知控制对疼痛的调控：期望/安慰剂/注意力在镇痛中的神经机制",
         "孤独症谱系障碍（ASD）的神经生物学（回到社会认知脊柱）",
         "MAPT突变与FTD（疾病系列连续性）"
+      ]
+    },
+    {
+      "date": "2026-08-03",
+      "title": "期望的神经化学：安慰剂镇痛的大脑回路与内源性阿片系统",
+      "filename": "2026-08-03-placebo-analgesia-pfc-opioid-circuit.md",
+      "article_number": 102,
+      "wiki_pages_created": [
+        "wiki/concepts/placebo-analgesia.md",
+        "wiki/concepts/endogenous-opioid-system.md",
+        "wiki/concepts/nocebo-effect.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/anterior-cingulate-cortex.md",
+        "wiki/systems/periaqueductal-gray.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当受试者服下明知无效的药片却感到疼痛减轻时，大脑究竟发生了什么？安慰剂镇痛是否依赖内源性阿片？PFC→rACC→PAG→脊髓这条下行回路如何将\"期望\"转化为真实的止痛分子信号？",
+      "open_questions_added": [
+        "Q-placebo-01",
+        "Q-placebo-02"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·感觉系统·疼痛调控）+ 脊柱5（认知控制·期望与预测）",
+      "topic_tags": [
+        "placebo analgesia expectation conditioning",
+        "dlPFC rACC PAG descending opioid circuit",
+        "endogenous opioid mu-opioid receptor PET carfentanil",
+        "naloxone blockade rACC-PAG coupling Eippert 2009",
+        "nocebo effect CCK cholecystokinin",
+        "open-label placebo conditioned response",
+        "IPD meta-analysis placebo effect",
+        "Wager 2004 fMRI placebo thermal pain",
+        "Zubieta 2005 PET mu-OR r=-0.87",
+        "dual-process model expectation conditioning analgesia"
+      ],
+      "main_sources": [
+        "PMID:14976306 (PMCID:PMC6725254, open access, full text read)",
+        "PMID:11834781 (PMCID:PMC6013051, open access, full text read)",
+        "PMID:19709634 (PMCID:PMC7925520, open access, full text read)",
+        "PMID:16120776 (PMCID:PMC5747994, open access, full text read)",
+        "PMID:26087681 (abstract only)",
+        "PMID:33654105 (abstract only)",
+        "PMID:29108801 (abstract only)",
+        "PMID:17873596 (abstract only)"
+      ],
+      "next_suggested_topics": [
+        "Q-placebo-01追问：安慰剂镇痛的非阿片成分——哪些镇痛情境不被纳洛酮逆转？",
+        "Q-placebo-02追问：开放标签安慰剂（明知是安慰剂但仍有效）的神经机制是否不同于隐蔽安慰剂？",
+        "内源性大麻素系统（endocannabinoid）：THC以外的脑内大麻素回路与运动/痛觉/情绪调节",
+        "压力诱导镇痛（SIA）的进化生物学：战场效应的神经基础",
+        "情绪对免疫系统的影响：心身医学的神经内分泌回路（HPA轴·迷走神经·细胞因子）"
       ]
     }
   ],

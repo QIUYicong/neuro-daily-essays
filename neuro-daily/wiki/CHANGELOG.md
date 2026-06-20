@@ -2095,3 +2095,31 @@
 **新增悬空引用（0）**：无新悬空引用（stdp.md 的 related 指向的页面均已存在）
 
 **图谱**：156节点→157节点，924边→939边（+1节点，+15边）
+
+---
+
+## 2026-08-03 · 文章 #102 · 期望的神经化学：安慰剂镇痛的大脑回路与内源性阿片系统
+
+**核心主题**：安慰剂镇痛（Placebo Analgesia）——PFC→rACC→PAG→RVM→脊髓下行阿片回路如何将心理期望转化为真实的内源性阿片止痛信号；纳洛酮逆转实验、PET μ-OR成像、fMRI rACC-PAG功能连接直接测量；双过程模型（期望+条件反射）；nocebo效应的CCK路径。
+
+**新建页面（3）**：
+- `concepts/placebo-analgesia.md`（安慰剂镇痛）🟢 established / 置信度高 — PFC→rACC→PAG阿片下行回路；Wager 2004（PFC↑+丘脑/ACC↓）；Zubieta 2005（rACC μ-OR激活r=-0.87）；Eippert 2009（rACC-PAG耦合，纳洛酮消除）；Petrovic 2002（安慰剂与阿片共享rACC）；双过程模型；开放标签安慰剂
+- `concepts/endogenous-opioid-system.md`（内源性阿片系统）🟢 established / 置信度高 — μ/κ/δ受体分子机制；β-内啡肽/脑啡肽/强啡肽三类阿片肽；PAG核心枢纽；纳洛酮选择性逆转；PET [11C]卡芬太尼直接测量；填补periaqueductal-gray.md的悬空引用
+- `concepts/nocebo-effect.md`（Nocebo效应）🟢 established / 置信度中 — 负向期望→促痛；CCK-A/B机制（Benedetti组）；与安慰剂阿片路径的双路径分离；开放标签安慰剂vs隐蔽安慰剂的行为证据
+
+**修订页面（2）**：
+- `systems/anterior-cingulate-cortex.md` rev1→rev2 — 新增rACC在安慰剂镇痛中的深化证据节：rACC-PAG功能连接（Eippert 2009，纳洛酮完全消除耦合）；μ阿片受体直接激活（Zubieta 2005，r=-0.87）；共享激活（Petrovic 2002）；related新增placebo-analgesia、endogenous-opioid-system；key_sources新增19709634、16120776、11834781
+- `systems/periaqueductal-gray.md` rev1→rev2 — 新增Eippert 2009到关键证据表（fMRI+纳洛酮双盲，rACC-PAG耦合，脊髓安慰剂效应逆转）；临床相关性节更新；related新增placebo-analgesia；key_sources新增19709634、14976306
+
+**矛盾登记（0）**：无新矛盾
+
+**悬空引用解决（1）**：
+- `endogenous-opioid-system` — 已建立 wiki/concepts/endogenous-opioid-system.md（此前为 periaqueductal-gray.md related字段中的悬空引用）
+
+**新增悬空引用（0）**：无新悬空引用（所有新页面的related指向的节点均已存在）
+
+**新增开放问题**：
+- Q-placebo-01（高优先级：安慰剂镇痛的非阿片成分——CB1/5-HT/DA候选路径）
+- Q-placebo-02（中优先级：开放标签安慰剂的神经机制——fMRI对比研究空白）
+
+**图谱**：194节点→197节点，1118边→1134边（+3节点，+16边）

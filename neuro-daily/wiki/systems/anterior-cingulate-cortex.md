@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-08-02
-updated: 2026-08-02
-revision_count: 1
+updated: 2026-08-03
+revision_count: 2
 dimensions: [systems, cognitive, affective]
-related: [pain-matrix, periaqueductal-gray, prefrontal-cortex, amygdala, insula, gate-control-theory]
+related: [pain-matrix, periaqueductal-gray, prefrontal-cortex, amygdala, insula, gate-control-theory, placebo-analgesia, endogenous-opioid-system]
 prerequisites: [pain-matrix]
 opens_questions: []
-source_articles: [2026-08-02-pain-nociception-spinal-dorsal-horn-acc]
-key_sources: ["PMID:17678852", "PMID:26247858", "PMID:19837031"]
+source_articles: [2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-03-placebo-analgesia-pfc-opioid-circuit]
+key_sources: ["PMID:17678852", "PMID:26247858", "PMID:19837031", "PMID:19709634", "PMID:16120776", "PMID:11834781"]
 ---
 
 # 前扣带回（Anterior Cingulate Cortex, ACC）
@@ -73,6 +73,27 @@ ACC → PAG（vlPAG）→ RVM → 脊髓背角
 | ACC → 杏仁核 | 情感评价共享 | 疼痛-恐惧关联学习 |
 | ACC → 基底核 | 疼痛-运动调节 | 回避行为的动机成分 |
 
+### rACC 在安慰剂镇痛中的作用（深化）
+
+以下证据直接建立了 rACC 作为安慰剂下行阿片回路核心节点的地位：
+
+**rACC-PAG 功能连接（Eippert et al. 2009，PMID:19709634）**：
+
+在安慰剂镇痛条件下，fMRI 显示 rACC 与 PAG 之间的功能连接显著增强。当受试者注射纳洛酮（μ阿片受体拮抗剂）后，rACC-PAG 的功能耦合被**完全消除**，同时行为层面的安慰剂镇痛效果也显著降低。这一发现证明：
+1. rACC→PAG 是安慰剂下行镇痛的关键功能链接
+2. 该链接是**阿片依赖性的**——不是通用的功能连接，而是由内源性阿片信号介导的特异性耦合
+3. 脊髓背角在安慰剂条件下的疼痛相关激活减少，纳洛酮可逆转这一减少——证明镇痛效果延伸至脊髓
+
+**μ阿片受体在 rACC 的直接激活（Zubieta et al. 2005，PMID:16120776）**：
+
+PET [¹¹C]卡芬太尼（μ阿片受体示踪剂）研究在安慰剂镇痛期间直接测量到 rACC 的μ阿片受体结合位点减少——这是内源性阿片肽在 rACC 本地释放的神经化学直接证据。
+
+更关键的是：rACC 的μ-OR 激活量与受试者疼痛减轻幅度的相关系数达到 **r = -0.87**（强负相关，即 rACC 阿片激活越强，疼痛减轻越多），是神经影像研究中罕见的高相关，表明 rACC 的内源性阿片激活几乎线性预测安慰剂的行为镇痛效果。
+
+**安慰剂与阿片的 rACC 共享激活（Petrovic et al. 2002，PMID:11834781）**：
+
+PET 研究显示，安慰剂和外源阿片药物（瑞芬太尼）均激活 rACC，且两者的 rACC 激活程度正相关——这是安慰剂利用内源性阿片回路的早期影像证据，将 rACC 确立为安慰剂与阿片镇痛的共享神经节点。
+
 ## 慢性疼痛中的 ACC 变化
 
 Baliki & Apkarian（2015, PMID:26247858）的数据显示：
@@ -84,16 +105,20 @@ Baliki & Apkarian（2015, PMID:26247858）的数据显示：
 ## 连接
 
 - [[pain-matrix]] — ACC 是痛觉矩阵的情感成分节点
-- [[periaqueductal-gray]] — 接收 ACC 下行镇痛信号的主要靶点
-- [[prefrontal-cortex]] — 认知调控痛觉时与 ACC 协作
+- [[periaqueductal-gray]] — 接收 ACC 下行镇痛信号的主要靶点；rACC-PAG 功能耦合在安慰剂镇痛中被直接测量
+- [[prefrontal-cortex]] — 认知调控痛觉时与 ACC 协作；dlPFC 期望信号下行至 rACC
 - [[amygdala]] — 痛觉-恐惧关联学习的协作区域
 - [[insula]] — 共同构成内感受和情感疼痛的双核心
 - [[gate-control-theory]] — ACC 通过 PAG 间接调控脊髓闸门
+- [[placebo-analgesia]] — rACC 是安慰剂下行阿片回路的关键中继，μ-OR 在此被直接激活（Zubieta 2005）
+- [[endogenous-opioid-system]] — rACC 是内源性阿片释放的主要场所之一，μ-OR 激活量与镇痛效果线性相关
 
 ## 修订历史
 
 - 2026-08-02 · 创建 · 基于《痛觉的守门人》文章（#101）
+- 2026-08-03 · 修订 · 深化rACC在安慰剂镇痛中的作用（naloxone阻断rACC-PAG偶联；μ阿片受体直接成像）· 依据：2026-08-03-placebo-analgesia文章
 
 ## 来源文章
 
 - [[2026-08-02-pain-nociception-spinal-dorsal-horn-acc]]
+- [[2026-08-03-placebo-analgesia-pfc-opioid-circuit]]

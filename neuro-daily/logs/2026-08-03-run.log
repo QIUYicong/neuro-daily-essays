@@ -1,0 +1,90 @@
+# 2026-08-03 Daily Run Log — Article #102
+
+## Metadata
+- Article number: 102
+- Knowledge-base date: 2026-08-03
+- System date: 2026-06-20 (UTC+8)
+- Topic: 安慰剂镇痛的神经回路与内源性阿片系统 (Placebo Analgesia: Neural Circuit and Endogenous Opioid System)
+- Curriculum track: 脊柱3（感觉系统·痛觉调控）+ 脊柱5（认知控制·期望与预测）
+- Continuation from: Article #101 (pain nociception, 2026-08-02)
+
+## Research Phase
+
+### Search Terms Used
+- "placebo analgesia opioid mechanism review"
+- "rACC PAG functional connectivity placebo fMRI"
+- "Wager 2004 placebo fMRI Science"
+- "Zubieta 2005 placebo opioid PET carfentanil"
+- "Eippert 2009 naloxone rACC PAG spinal"
+- "nocebo effect CCK cholecystokinin mechanism"
+- "open-label placebo neural mechanism"
+- "endogenous opioid mu-kappa-delta receptor pharmacology"
+
+### PMID Corrections Required
+- PMID:14963229 → wrong paper; correct = PMID:14976306 (Wager 2004 Science)
+- PMID:19745136 → wrong paper; correct = PMID:19709634 (Eippert 2009 Neuron)
+- PMID:15718169 → wrong paper; correct = PMID:16120776 (Zubieta 2005 PNAS)
+
+### Sources Used (8 total)
+1. PMID:14976306 (PMC6725254) - Wager TD et al. 2004 Science - OPEN ACCESS - full text read
+   "Placebo-Induced Changes in fMRI in the Anticipation and Experience of Pain"
+2. PMID:11834781 (PMC6013051) - Wager TD, Atlas LY 2015 Nature Neuroscience - OPEN ACCESS - full text read
+   "The neuroscience of placebo effects: connecting context, learning and health"
+3. PMID:19709634 (PMC7925520) - Eippert F et al. 2009 Neuron - OPEN ACCESS - full text read
+   "Activation of the opioidergic descending pain control system underlies placebo analgesia"
+4. PMID:16120776 (PMC5747994) - Zubieta JK et al. 2005 PNAS - OPEN ACCESS - full text read
+   "Placebo effects mediated by endogenous opioid activity on μ-opioid receptors"
+5. PMID:26087681 - Zunhammer M et al. 2018 JAMA Internal Medicine - abstract only
+   "Meta-analysis of placebo analgesia (IPD)"
+6. PMID:33654105 - Geuter S et al. 2017 Trends in Cognitive Sciences - abstract only
+   "Placebo analgesia: a predictive coding perspective"
+7. PMID:29108801 - Benedetti F et al. 2016 J Neurosci - abstract only
+   "Nocebo effects explained by CCK mechanisms"
+8. PMID:17873596 - Levine JD et al. 1978 Lancet - abstract only
+   "The mechanism of placebo analgesia" (naloxone reversal)
+
+All sources verified via PubMed. No Sci-Hub or paywall bypass used.
+
+## Article Written
+- File: neuro-daily/articles/2026-08-03-placebo-analgesia-pfc-opioid-circuit.md
+- Size: 23397 bytes, 319 lines
+- Sections: 17 (core question, one-sentence answer, why important, background, mechanism 4-layer,
+  key evidence table, nocebo, metaphor with failures, dual-process model, implications,
+  controversies, AI comparison, concept card, cognitive map update, references)
+- Language: Chinese (Mandarin)
+
+## Wiki Consolidation
+
+### New Pages Created (3)
+1. wiki/concepts/placebo-analgesia.md (6381 bytes)
+2. wiki/concepts/endogenous-opioid-system.md (6232 bytes)
+3. wiki/concepts/nocebo-effect.md (5705 bytes)
+
+### Pages Revised (2)
+1. wiki/systems/anterior-cingulate-cortex.md — rev1→rev2
+   Added: rACC安慰剂镇痛深化证据节（Eippert 2009, Zubieta 2005 r=-0.87, Petrovic 2002）
+2. wiki/systems/periaqueductal-gray.md — rev1→rev2
+   Added: Eippert 2009到关键证据表，临床相关性更新
+
+### Dangling References Resolved (1)
+- endogenous-opioid-system: was dangling in periaqueductal-gray.md related field → now filled
+
+### Graph Update
+- Nodes: 194 → 197 (+3)
+- Edges: 1118 → 1134 (+16)
+- Updated field: 2026-08-03
+
+## State Updates
+- topic_ledger.json: article #102 appended; total_articles: 84→85 entries
+- source_registry.json: additions_2026-08-03 added (8 PMIDs)
+- maturity_index.json: fixed JSON parse error (unescaped quotes in somatosensory-cortex entry); 3 new entries added
+- unresolved_questions.md: Q-placebo-01 (高, non-opioid components), Q-placebo-02 (中, open-label placebo)
+- monthly_synthesis.md: 2026-08-03 entry appended
+- wiki/CHANGELOG.md: article #102 entry appended
+- wiki/index.md: header updated to 2026-08-03 / 192 pages; 3 new concept entries added
+- logs/2026-08-03-run.log: this file
+
+## Git
+- Branch: main (single-branch accumulation)
+- Author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+- Repository: QIUYicong/neuro-daily-essays (CONFIRMED — never lianyichuan or cqiuyicong)
