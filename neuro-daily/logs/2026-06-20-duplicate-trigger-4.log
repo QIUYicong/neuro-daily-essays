@@ -1,0 +1,57 @@
+# Run Log: 2026-06-20 (Duplicate Trigger #4)
+
+**Date**: 2026-06-20 (Beijing Time / UTC+8)
+**Status**: NO-OP — Article for 2026-06-20 already exists
+**Branch**: claude/funny-einstein-ddq8mb
+
+---
+
+## 状况说明
+
+今日为第 4 次在系统日期 2026-06-20 触发的运行。
+
+已确认：
+- 当天文章 `articles/2026-06-20-language-dual-stream.md`（#56）已存在，完整（279行）。
+- 已有运行日志：`2026-06-20-run.log`、`2026-06-20-json-fix.log`、`2026-06-20-duplicate-trigger-3.log`。
+- `情景层 append-only` 不变量：不修改/不删除已有文件。
+
+根据 ROUTINE.md：「不要反复生成同一天文章」——本次不生成新文章。
+
+---
+
+## 知识库当前状态
+
+- **已有文章**：105 篇（截至 2026-08-06）
+- **最新文章**：`2026-08-06-connectomics-flywire-wiring-diagram.md`（#105）
+- **origin/main 最新**：2026-07-08（#76）
+- **origin/claude/funny-einstein-ddq8mb 最新**：2026-08-06（#105）
+- **连续性状态**：⚠️ 断裂——feature branch 领先 main 约 29 篇文章
+
+---
+
+## 主要问题：连续性断裂
+
+根据 KNOWLEDGE-BASE-DESIGN.md 第 2 节不变量 #4：
+「知识库的全部累积状态必须长期沉淀在同一个持久分支（默认即 main）。」
+
+当前 `origin/main` 停在 2026-07-08，而 feature branch 已到 2026-08-06。
+这意味着过去 ~29 篇文章、wiki 修订、图谱更新、状态文件都只在 feature branch 上，main 从未看到这些内容。
+
+本次运行尝试将 feature branch 合并到 main 以修复此问题。
+
+---
+
+## 本次操作
+
+- [x] 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md
+- [x] 确认 remote = QIUYicong/neuro-daily-essays（正确）
+- [x] 确认今日文章已存在（不重复生成）
+- [ ] 尝试合并 feature branch 到 main
+- [ ] 推送到 origin/main
+
+---
+
+## 限制说明
+
+- 系统日期显示 2026-06-20，但知识库中最新内容为 2026-08-06，存在日期偏差约 47 天。
+- 这是重复触发的已知问题，不影响已生成内容的质量。
