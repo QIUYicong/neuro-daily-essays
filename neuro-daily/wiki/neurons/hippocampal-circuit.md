@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-08-04
-revision_count: 11
+updated: 2026-08-14
+revision_count: 12
 dimensions: [brain-region, microcircuit, cognition, disease]
-related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, glucocorticoid-stress-memory, hpa-axis, time-cells, temporal-context-model]
+related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, glucocorticoid-stress-memory, hpa-axis, time-cells, temporal-context-model, ca2-hippocampus, social-memory, sharp-wave-ripples]
 prerequisites: [synaptic-transmission, ltp, action-potential]
-opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses, Q-gc-02, Q-tc-01, Q-tc-02, Q-tc-04]
-source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-08-04-hippocampal-time-cells-episodic-memory]
-key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779", "PMID:12040087", "PMID:15272123", "PMID:1308182", "PMID:21460835", "PMID:9405958", "PMID:7729802", "PMID:21867888", "PMID:33431691", "PMID:29706516"]
+opens_questions: [Q-ca2-function, Q-ca2-pnn-plasticity-window, Q-ca2-disease-mechanism, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses, Q-gc-02, Q-tc-01, Q-tc-02, Q-tc-04]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-08-04-hippocampal-time-cells-episodic-memory, 2026-08-14-ca2-hippocampus-social-memory-temporal-context]
+key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779", "PMID:12040087", "PMID:15272123", "PMID:1308182", "PMID:21460835", "PMID:9405958", "PMID:7729802", "PMID:21867888", "PMID:33431691", "PMID:29706516", "PMID:24572357", "PMID:27593179", "PMID:31874067", "PMID:34201943", "PMID:24863146"]
 ---
 
 # 海马回路 (Hippocampal Circuit)
@@ -152,27 +152,37 @@ CA3 是海马中对慢性糖皮质激素（GC）**选择性最脆弱**的亚区�
 - [[hpa-axis]] — 海马（CA1/CA3/DG GR）是 HPA 轴负反馈的主要制动节点；慢性应激导致的 CA3 萎缩削弱此制动 → HPA 恶性循环
 - [[time-cells]] — CA1 时间细胞是情节记忆"何时"维度的细胞基础；CA2→CA1 回路专门组织时间序列
 - [[temporal-context-model]] — TCM 理论框架：时间细胞序列可能是"时间情境状态"的神经实现
+- [[ca2-hippocampus]] — CA2 亚区专用详细页（社会记忆/时间序列/SWR触发三功能枢纽；RGS14/PCP4/Avpr1b 分子标记）
+- [[sharp-wave-ripples]] — CA2 是 SWR 的主要触发者（约 50% SWR 由 CA2 ramping cells 在 SWR 前 20–30ms 启动）
 
-### 7. CA2 亚区：时间序列的专门组织者
+### 7. CA2 亚区：社会记忆、时间序列与 SWR 触发的三功能枢纽
 
-**CA2**（海马最小亚区）的功能长期被忽视，以往主要关联社会记忆（oxytocin受体高表达）。MacDonald & Tonegawa 2021（PMID: 33431691）提供了CA2在**时间编码**中的关键因果证据：
+**CA2**（海马最小亚区，以 RGS14/PCP4/Avpr1b 为分子标记，与 CA1/CA3 形成功能性分工）曾是回路中最被忽视的元件——现在我们知道它承载三项独立的关键功能（完整机制详见 [[ca2-hippocampus]]）：
 
-- CA2-Cre+ArchT小鼠的选择性optogenetic沉默dCA2→dCA1投射
-- 记录约630个CA1锥体细胞；约**50%**具有时间细胞特性
-- CA2输入沉默→**时间细胞序列在延迟后半段显著降解**（群体向量相关性去相关加快）
-- 地点细胞几乎不受影响（**空间-时间双分离**）
-- 工作记忆任务错误增加
+**① 社会记忆的专用基底（Hitti & Siegelbaum 2014, PMID:24572357）**：
+- Amigo2-Cre+TeNT 小鼠选择性灭活 CA2 突触输出 → 社会识别记忆**完全丧失**
+- 空间记忆、恐惧记忆、物体识别均**正常**——CA2 是社会记忆的专用基底，非一般记忆节点
+- CA2 接受下丘脑 PVN 的加压素/催产素（Avpr1b 特异表达），是 CA1/CA3 不具备的激素门控输入
 
-这表明：Q-ca2-function中的CA2功能包括专门**组织CA1时间序列**——CA2不只是社会记忆区，而是时间信息处理的内部回路节点。MEC→CA2→CA1可能构成专门的"时间信号传递通道"。
+**② CA1 时间细胞序列的必要组织者（MacDonald & Tonegawa 2021, PMID:33431691）**：
+- CA2-Cre+ArchT 光遗传沉默 CA2→CA1 → **~48% 时间细胞**（149/313）放电精度显著下降
+- 场所细胞仅 **15%** 受影响（χ² P = 8.19×10⁻⁶ 的时间-空间双分离）
+- 工作记忆任务延迟阶段错误显著增加（F(1,20)=21.67, P=0.002）
 
-**海马的空间-时间双流输入（修订理解）**：
+**③ 尖波涟漪的主要触发器（Oliva et al. 2016, PMID:27593179）**：
+- 高密度探针记录：CA2 "ramping cells"（约 50% CA2 锥体细胞）在 SWR 前 **20–30 ms** 斜升放电
+- 光遗传激活 CA2 可诱导人工 SWR（CA3+CA1 均被驱动）
+- 部分 SWR **绕过 CA3**，直接经 CA2→CA1 基底树突传播
+
+**海马功能回路的修订图谱**：
 ```
 外侧内嗅皮层（LEC：物体/事件内容）→ CA1（内容维度）
 内侧内嗅皮层（MEC：时间/空间信号）→ CA2 → CA1（时间维度）
                                     → DG → CA3 → CA1（空间维度）
+室旁核（PVN：加压素/催产素）————→ CA2（社会情境可塑性门控）
 ```
 
-CA1因此是时间（CA2通路）、空间（CA3通路）和内容（LEC直接输入）的**三路整合终点**。
+CA1 是时间（CA2通路）、空间（CA3通路）和内容（LEC直接输入）的**三路整合终点**；CA2 同时作为 SWR 的"发令枪"，决定哪些社会/时间信息通过离线回放写入皮层长期存储。
 
 ## 未解问题
 
@@ -185,6 +195,7 @@ CA1因此是时间（CA2通路）、空间（CA3通路）和内容（LEC直接�
 
 ## 修订历史
 
+- 2026-08-14 · 修订 rev12 · 基于《CA2：海马遗忘的第三元件》(#113) · 将"CA2亚区"机制节从单一时间编码全面扩展为三功能枢纽（社会记忆 Hitti 2014 PMID:24572357 / 时间序列 MacDonald 2021 PMID:33431691 / SWR 触发 Oliva 2016 PMID:27593179）；连接新增[[ca2-hippocampus]]、[[sharp-wave-ripples]]；related新增ca2-hippocampus、social-memory、sharp-wave-ripples；opens_questions新增Q-ca2-pnn-plasticity-window、Q-ca2-disease-mechanism；key_sources新增5个PMID
 - 2026-08-04 · 修订 rev11 · 基于《时间细胞：海马如何为情节记忆打上时间戳》(#103) · 新增"CA2亚区：时间序列专门组织者"机制节；更新"当前理解"为三流输入（LEC内容+MEC时间+CA3空间）；related新增time-cells、temporal-context-model；opens_questions新增Q-tc-01、Q-tc-02、Q-tc-04；key_sources新增PMID:21867888、PMID:33431691、PMID:29706516
 - 2026-07-09 · 修订 rev10 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"CA3 的慢性应激脆弱性"机制节（CA3 树突萎缩 20%、灵长类海马体积萎缩 30%、GR 高密度机制、NMDAR 拮抗剂防萎缩、HPA 负反馈恶性循环）；证据表新增 2 行（PMID:9405958、PMID:7729802）；连接新增 glucocorticoid-stress-memory、hpa-axis；未解问题新增 Q-gc-02；related/key_sources/source_articles 相应更新
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 新增：CA3 模式补全因果证据（Nakazawa 2002 PMID:12040087 CA3-NR1 KO 实验）；CA3 vs CA1 不同计算个性（Leutgeb 2004 PMID:15272123）；related 新增 pattern-completion、pattern-separation、attractor-network、complementary-learning-systems；key_sources 新增 4 篇关键来源
@@ -204,3 +215,4 @@ CA1因此是时间（CA2通路）、空间（CA3通路）和内容（LEC直接�
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-06-03-inhibitory-interneuron-diversity]]
+- [[2026-08-14-ca2-hippocampus-social-memory-temporal-context]]

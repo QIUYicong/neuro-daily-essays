@@ -6,13 +6,13 @@ type: mechanism
 status: emerging
 confidence: high
 created: 2026-08-04
-updated: 2026-08-04
-revision_count: 1
+updated: 2026-08-14
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [place-cell, grid-cell, hippocampal-circuit, interval-timing, entorhinal-cortex, temporal-context-model, memory-consolidation, sharp-wave-ripples, theta-oscillations]
+related: [place-cell, grid-cell, hippocampal-circuit, interval-timing, entorhinal-cortex, temporal-context-model, memory-consolidation, sharp-wave-ripples, theta-oscillations, ca2-hippocampus]
 prerequisites: [hippocampal-circuit, place-cell, interval-timing]
 opens_questions: [Q-tc-01, Q-tc-02, Q-tc-03, Q-tc-04]
-source_articles: [2026-08-04-hippocampal-time-cells-episodic-memory]
+source_articles: [2026-08-04-hippocampal-time-cells-episodic-memory, 2026-08-14-ca2-hippocampus-social-memory-temporal-context]
 key_sources: ["PMID:21867888", "PMID:25269553", "PMID:23707613", "PMID:29706516", "PMID:28434800", "PMID:33536211", "PMID:33431691", "PMID:33109718", "PMID:34183446"]
 ---
 
@@ -62,15 +62,17 @@ Kraus et al. 2013（PMID: 23707613）随机变化跑步机速度，使时间与�
 - 地点细胞和物体选择性细胞不受影响（**空间-时间双分离**）
 - 行为从77%降至62%（时间关联记忆任务）
 
-**CA2区输入**（MacDonald & Tonegawa 2021, PMID: 33431691）：
-- 选择性沉默CA2→CA1投射 → 时间细胞序列在延迟后半段降解
-- 地点细胞几乎不受影响（再次出现空间-时间双分离）
-- 工作记忆任务错误增加
+**CA2区输入**（MacDonald & Tonegawa 2021, PMID: 33431691；完整 CA2 机制详见 [[ca2-hippocampus]]）：
+- 选择性沉默 CA2→CA1 投射 → **48%** 时间细胞（149/313）放电模式显著改变
+- 场外放电率上升（P=1.37×10⁻³¹）；信息量下降（P=0.007）；稳定性下降（P=0.001）
+- 场所细胞仅 **15%** 受影响（χ²=19.89，P=8.19×10⁻⁶）——时间-空间双分离
+- 工作记忆任务错误显著增加（F(1,20)=21.67，P=0.002）
 
 **回路简图**：
 - MEC（斜坡细胞+网格细胞）→ CA2（序列维持/组织）→ CA1（时间序列输出）
 - LEC（内容信息）→ CA1（内容维度）
 - CA1整合两路 → 时空联合表征
+- CA2 另有独立功能：社会记忆（Avpr1b/催产素门控）+ SWR 触发（Oliva 2016）——CA2 是多功能枢纽
 
 ### 5. 多尺度时间表征
 
@@ -119,7 +121,9 @@ Mau et al. 2018（PMID: 29706516）钙成像四天追踪：
 ## 修订历史
 
 - 2026-08-04 · 创建 · 基于《时间细胞：海马如何为情节记忆打上时间戳》(#103) · 整合MacDonald 2011、Eichenbaum 2014、Kraus 2013、Mau 2018、Shimbo 2021、Robinson 2017、MacDonald&Tonegawa 2021、Umbach 2020、Reddy 2021九项研究；初始状态：emerging（人类证据2020年后出现，回路机制仍在建立）；置信度：high
+- 2026-08-14 · 修订 rev2 · 基于《CA2：海马遗忘的第三元件》(#113) · 补充 CA2→CA1 沉默实验精确统计（149/313 时间细胞 / P=1.37×10⁻³¹ / χ²=19.89 / F(1,20)=21.67）；"CA2区输入"节增补 CA2 的社会记忆+SWR触发功能；related新增ca2-hippocampus；source_articles新增2026-08-14文章
 
 ## 来源文章
 
 - [[2026-08-04-hippocampal-time-cells-episodic-memory]]
+- [[2026-08-14-ca2-hippocampus-social-memory-temporal-context]]

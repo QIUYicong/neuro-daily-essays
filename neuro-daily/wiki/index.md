@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-13（第112篇·皮层时间层级·内禀神经时间尺度·时间感受野·语言时间层级）· 主题页总数：**214**（新建2页：concepts/intrinsic-neural-timescale、concepts/temporal-receptive-window；修订3页：concepts/temporal-coding-hierarchy rev1→rev2、theories/predictive-coding rev8→rev9、temporal-hierarchy rev；新增Q-temp-hier-01/02/03；图谱219节点/1280边）
+> 最后更新：2026-08-14（第113篇·CA2海马亚区·社会记忆·时间情境编码·尖波涟漪触发）· 主题页总数：**216**（新建2页：concepts/ca2-hippocampus、concepts/social-memory；修订3页：neurons/hippocampal-circuit rev11→rev12、concepts/sharp-wave-ripples rev8→rev9、concepts/time-cells rev1→rev2；新增Q-ca2-function/Q-ca2-pnn-plasticity-window/Q-ca2-disease-mechanism；图谱221节点/1288边）
 
 ---
 
@@ -163,6 +163,8 @@
 - 🟡 [种群时钟](concepts/population-clock.md) — 内在计时的现代形式：时间由神经群体活动在高维状态空间走过的轨迹编码（无需专用时钟元件）；神经序列（稀疏接力放电）比斜坡放电更灵活；纹状体序列性高于运动皮层；RNN 自发涌现相同结构 **[NEW 2026-07-31]**
 - 🟡 [时间细胞](concepts/time-cells.md) — CA1海马神经元在延迟期特定时刻依次激发，形成"时间地图"；距离-时间解耦（Kraus 2013）；可缩放表征（Shimbo 2021缩放因子1.81）；MEC斜坡细胞+CA2→CA1回路提供时间输入；人类单细胞验证（Umbach 2020）；与空间地点细胞功能对称 **[NEW 2026-08-04]**
 - 🟡 [时间情境模型（TCM）](concepts/temporal-context-model.md) — Howard & Eichenbaum 2013提出：海马维持缓慢漂移的内部时间情境向量（t(τ)），自然解释近因效应和时间相邻效应；时间细胞是其物理实现候选；Q-tc-01：CA2/MEC是否是TCM内部"时钟"的神经底物？ **[NEW 2026-08-04]**
+- 🔵 [CA2 区（海马第二角）](concepts/ca2-hippocampus.md) — 海马最小亚区（RGS14/PCP4/Avpr1b 分子标记）；三功能枢纽：社会记忆专用基底（Hitti 2014）/ CA1 时间序列组织者（MacDonald & Tonegawa 2021，~48% 时间细胞依赖）/ SWR 主要触发者（Oliva 2016，SWR 前 20–30ms 先行放电）；LTP 抗性由 RGS14 维持，mGluR-LTD 实现社会情境专用可塑性 **[NEW 2026-08-14]**
+- 🔵 [社会记忆](concepts/social-memory.md) — 识别并记住曾见过的同类；CA2 亚区作为专用神经底物（TeNT 灭活 CA2 选择性消除社会记忆，空间/恐惧记忆正常）；Avpr1b/催产素门控的 CA2 特异性突触增强；mGluR-LTD（而非 LTP）是信息存储机制（Samadi 2023） **[NEW 2026-08-14]**
 
 - 🟢 [伤害感受器（Nociceptor）](concepts/nociceptor.md) — 专职感知有害刺激（高温/强机械力/有害化学物）的感觉神经元亚群；TRP家族通道（TRPV1热/辣 43°C、TRPA1化学/寒冷 <15°C、TRPM8凉感）；Nav1.7/1.8/1.9动作电位触发；Aδ（快速尖痛）vs C纤维（慢速弥散痛）双时程系统；外周致敏机制（PGE2/缓激肽/NGF→TRPV1阈值降低）**[NEW 2026-08-02]**
 - 🔵 [闸门控制理论](concepts/gate-control-theory.md) — Melzack & Wall 1965提出的脊髓痛觉调控框架；Koch 2018在分子细胞层面验证：DYN+抑制性神经元（接收Aβ→压制PKCγ+）/PKCγ+兴奋性神经元（allodynia节点）/SOM+兴奋性神经元；KCC2下调→GABA兴奋→闸门失控；PAG-RVM下行控制 **[NEW 2026-08-02]**

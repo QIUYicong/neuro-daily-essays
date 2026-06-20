@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-07-16
-revision_count: 8
+updated: 2026-08-14
+revision_count: 9
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
-related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling]
+related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -30,7 +30,7 @@ SWR不仅是回顾性的（重播已发生的路径），也具有前瞻性特�
 
 ## 关键机制
 
-### 1. 生成：CA3自发群体爆发
+### 1. 生成：CA3自发群体爆发与 CA2 触发
 
 SWR由**CA3庞大的循环联络系统**驱动：
 - CA3拥有哺乳动物大脑中最大的循环兴奋性回路（每个锥体细胞有~12,000个CA3内部突触连接）
@@ -38,6 +38,15 @@ SWR由**CA3庞大的循环联络系统**驱动：
 - 在静息/睡眠中，胆碱能张力下降 → CA3循环兴奋**解放** → 自发性群体爆发 → SWR
 
 这一过程不是"触发"，而是"释放"：胆碱能的解除是开关，CA3内在的循环动力学决定了何时和以何种顺序爆发。
+
+**CA2 作为 SWR 的主动触发者（Oliva et al. 2016, PMID:27593179）**：高密度硅探针大鼠实验修订了上述"CA3释放模型"——约半数 SWR 实际上由 CA2 主导启动：
+- CA2 "ramping cells"（约 50% CA2 锥体细胞）在 SWR 前 **20–30 ms** 斜升激发
+- 随后 CA3 群体爆发，最后 CA1 涟漪；时序：CA2 → CA3 → CA1
+- 光遗传激活 CA2 可**诱导人工 SWR**（直接因果证据）
+- 约 20% SWR 完全**绕过 CA3**，直接经 CA2→CA1 基底树突传播
+- CA2 触发效果在清醒/探索后休息时最强（不是睡眠时最强）
+
+**修订后的 SWR 生成模型**：SWR 有两条并行触发路径——"CA3内部释放"路径和"CA2主动启动"路径。CA2 的社会记忆和时间情境信息不仅在线编码，还通过 SWR 触发决定"哪些经历被写入离线回放流程"——CA2 是记忆巩固的"优先队列调度者"（详见 [[ca2-hippocampus]]）。
 
 ### 2. 传导：CA3→CA1链路
 
@@ -92,6 +101,7 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 | 情绪效价也在SWR期间重播 | 联合情绪学习+SWR记录 | PMID:31334590 | 中（新兴） |
 | 闭环增强 SO-纺锤波-SWR 三重耦合 → 隔天空间记忆改善（因果） | 大鼠 NREM 闭环刺激，对照组（非同步刺激）无效 | PMID:27182818 | 高（因果） |
 | VTA 失活在新颖（非熟悉）环境中破坏 SWR 空间重播位置选择性 | VTA 化学失活 + 多单元记录 + 空间解码 | PMID:38895442 | 中（新颖度依赖性分工值得关注）|
+| CA2 ramping cells 在 SWR 前 20–30ms 先行激发；光遗传激活 CA2 诱导人工 SWR | 大鼠高密度硅探针 CA2+CA3+CA1 同步记录；光遗传激活 CA2 | PMID:27593179 | 高（因果+高时间分辨率，Neuron 发表）|
 
 ## 连接
 
@@ -102,6 +112,7 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 - [[so-spindle-swr-coupling]] — SWR 是三重耦合的"载荷"，嵌套在纺锤波波谷，将压缩记忆序列写入皮层
 - [[ltp]] — SWR重播可能通过反复激活强化海马-皮层突触（LTP机制）
 - [[hebbian-learning]] — SWR重播序列中前后神经元的同步激活可能触发Hebbian型突触修改
+- [[ca2-hippocampus]] — CA2 是 SWR 的主要触发者；~50% SWR 由 CA2 ramping cells 在 SWR 前 20–30ms 启动；约 20% SWR 完全绕过 CA3 直接经 CA2→CA1 传播
 
 ## 新发现（2024-2026）
 
@@ -139,6 +150,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-07-07 · 修订 · 基于《三重协奏》文章(#75) · 新增 Maingret 2016 闭环刺激因果证据（PMID:27182818）；related 新增 so-spindle-swr-coupling；connections 增加三重耦合页面链接
 - 2026-07-11 · 修订 rev7 · 基于《当蓝斑充当"新奇探测器"》(#79) · 证据表新增1行（Igata 2024，VTA调制新颖环境SWR空间重播选择性）；Q-swr-tagging-mechanism 部分进展更新；key_sources新增PMID:38895442；source_articles新增2026-07-11
 - 2026-07-16 · 修订 rev8 · 基于《记忆的时光机》(#84) · 新增 Mattar-Daw Need×Gain 规范化理论（PMID:30349103）：SWR 回放内容的前向/反向方向和时机由 Need（未来访问频率）× Gain（策略改善幅度）决定，统一解释 6 条经验规律；新增 hippocampal-replay wiki 页（本页 implements [[hippocampal-replay]]）；source_articles 新增 2026-07-16
+- 2026-08-14 · 修订 rev9 · 基于《CA2：海马遗忘的第三元件》(#113) · 修订 SWR 生成模型：增加 CA2 主动触发路径（~50% SWR 由 CA2 ramping cells 在 SWR 前 20–30ms 启动；~20% SWR 绕过 CA3 直接经 CA2→CA1 传播）；新增 Oliva 2016 光遗传因果证据（PMID:27593179）；连接新增[[ca2-hippocampus]]；证据表新增1行；related新增ca2-hippocampus；key_sources新增PMID:27593179
 
 ## 来源文章
 
@@ -147,3 +159,4 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - [[2026-06-17-sharp-wave-ripples-memory-replay]]
 - [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]
 - [[2026-07-16-hippocampal-replay-experience-replay]]
+- [[2026-08-14-ca2-hippocampus-social-memory-temporal-context]]

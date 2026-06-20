@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-13",
-  "node_count": 217,
-  "edge_count": 1262,
+  "updated": "2026-08-14",
+  "node_count": 221,
+  "edge_count": 1288,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1997,6 +1997,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/temporal-receptive-window.md"
+    },
+    {
+      "id": "ca2-hippocampus",
+      "title": "CA2 区（海马第二角）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/ca2-hippocampus.md"
+    },
+    {
+      "id": "social-memory",
+      "title": "社会记忆",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/social-memory.md"
     }
   ],
   "edges": [
@@ -9127,6 +9145,54 @@
       "from": "predictive-coding",
       "to": "temporal-receptive-window",
       "type": "related"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "hippocampal-circuit",
+      "type": "part-of",
+      "note": "CA2 是海马三突触回路中的功能独立亚区，插于 CA3 和 CA1 之间"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "time-cells",
+      "type": "mechanism-of",
+      "note": "CA2→CA1 投射专门组织 CA1 时间细胞序列（MacDonald & Tonegawa 2021）"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of",
+      "note": "CA2 ramping cells 是 SWR 的主要触发者；SWR 前 20-30ms 斜升（Oliva 2016）"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "ltp",
+      "type": "related",
+      "note": "CA2 对标准 Hebbian LTP 有 RGS14 介导的主动抗性；通过 mGluR-LTD 实现可塑性"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "social-memory",
+      "type": "mechanism-of",
+      "note": "CA2 是社会记忆的专用神经底物（Hitti & Siegelbaum 2014 PMID:24572357）"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "CA2 在 theta 振荡中相位进发范围比 CA1 更窄（Middleton & McHugh 2020）"
+    },
+    {
+      "from": "social-memory",
+      "to": "ca2-hippocampus",
+      "type": "mechanism-of",
+      "note": "社会记忆依赖 CA2 亚区；Avpr1b/催产素门控的 mGluR-LTD 机制"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "ca2-hippocampus",
+      "type": "part-of",
+      "note": "CA2 是海马回路（DG→CA3→CA1）外的功能独立亚区"
     }
   ],
   "dangling_references": [

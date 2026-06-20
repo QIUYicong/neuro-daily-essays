@@ -1,0 +1,111 @@
+# Run Log: 2026-08-14
+
+**Agent**: Claude (claude-sonnet-4-6)
+**Run date**: 2026-08-14
+**Article number**: #113
+**Branch**: main
+**Status**: SUCCESS
+
+---
+
+## Topic Selection
+
+- Scanned topic_ledger.json and wiki index for under-covered but highly referenced nodes
+- Identified `ca2-hippocampus` as a multiply-referenced node (in time-cells rev1, hippocampal-circuit rev11, sharp-wave-ripples rev8) without a dedicated wiki page
+- Selected topic: CA2 海马亚区 — 社会记忆、时间序列与 SWR 的三功能枢纽
+- Rationale: Directly closes a structural gap in the wiki; connects social memory (#100 ToM article), time cells (#103), and SWR/memory-consolidation (#84) via single mechanistic hub
+
+---
+
+## Research Phase
+
+### PubMed Search Terms Used
+1. `CA2 hippocampus social memory vasopressin` → Hitti & Siegelbaum 2014 (PMID:24572357)
+2. `CA2 time cells temporal sequence MacDonald Tonegawa` → PMID:33431691
+3. `CA2 sharp wave ripple trigger ramping` → Oliva 2016 (PMID:27593179)
+4. `RGS14 hippocampus CA2 LTP suppression` → Bhatt 2020 (PMID:31874067)
+5. `CA2 overview function review hippocampus` → Helton 2021 (PMID:34201943)
+6. `CA2 mGluR LTD RGS14 social memory` → Samadi 2023 (PMID:36971428)
+7. `Avpr1b CA2 vasopressin NMDA` → Pagani 2015 (PMID:24863146)
+8. `PVN CA2 vasopressin social memory` → Piskorowski & Chevaleyre 2018 (PMID:29705549)
+9. `CA2 hippocampus review disease` → Hitti & Bhatt 2023 (PMID:36575880)
+
+### Sources Retrieved
+- **Full text via PMC**: 5 (PMID:24572357/PMC4000264, PMID:33431691, PMID:31874067, PMID:27593179/PMC5004747, PMID:36971428)
+- **Abstract only**: 4 (PMID:34201943, PMID:24863146, PMID:29705549, PMID:36575880)
+- **Total sources cited**: 9
+
+### Key Findings
+- CA2 TeNT silencing → 100% social memory loss, all other memories intact (Hitti 2014)
+- RGS14 suppresses LTP via 5 pathways (AC, cAMP, PKA, AMPA, ERK), but KO impairs social memory (Samadi 2023) — CA2 uses mGluR-LTD, not LTP, for social memory storage
+- Avpr1b in CA2 (not CA1/CA3): vasopressin/oxytocin from PVN gates plasticity window (Pagani 2015)
+- CA2→CA1 silencing: 48% time cells disrupted (149/313), only 15% place cells (MacDonald 2021)
+- CA2 ramping cells fire 20-30ms before SWR peak; optogenetic CA2 activation → 3× SWR rate (Oliva 2016)
+
+---
+
+## Article Production
+
+**File**: `neuro-daily/articles/2026-08-14-ca2-hippocampus-social-memory-temporal-context.md`
+**Character count**: ~5200 Chinese characters
+**Length**: within 3000-6000 char target
+**Sections**:
+1. 引言：海马的第三元件
+2. CA2 的三大功能
+3. 社会记忆的专用底物：Hitti & Siegelbaum 实验
+4. 激素门控：加压素/催产素如何开关 CA2
+5. mGluR-LTD：CA2 存储社会记忆的真正机制
+6. CA2 作为 CA1 时间细胞的序列组织者
+7. CA2 作为 SWR 的主动触发者
+8. 分子特征：为什么 CA2 如此特殊
+9. 未解问题与临床意义
+10. 参考文献
+
+---
+
+## Wiki Consolidation
+
+### New Pages Created
+| File | Status | Confidence | Key Sources |
+|------|--------|------------|-------------|
+| wiki/concepts/ca2-hippocampus.md | mainstream | high | PMID:24572357, 33431691, 27593179, 31874067, 36971428 |
+| wiki/concepts/social-memory.md | mainstream | high | PMID:24572357, 24863146, 29705549, 36971428 |
+
+### Pages Revised
+| File | Revision | Change |
+|------|---------|--------|
+| wiki/neurons/hippocampal-circuit.md | rev11→rev12 | CA2 three-function hub section expanded; new PMIDs; new open questions |
+| wiki/concepts/sharp-wave-ripples.md | rev8→rev9 | CA2 SWR trigger subsection added with Oliva 2016 data |
+| wiki/concepts/time-cells.md | rev1→rev2 | CA2→CA1 precise statistics added (149/313, P=1.37×10⁻³¹, χ²=19.89) |
+| wiki/_graph.json | 219→221 nodes, 1280→1288 edges | +2 nodes (ca2-hippocampus, social-memory), +8 edges |
+| wiki/index.md | 214→216 pages | 2 new entries added; header updated |
+| wiki/CHANGELOG.md | prepended 2026-08-14 section | — |
+
+---
+
+## State Updates
+
+- `state/topic_ledger.json`: entry #113 prepended, total_articles 99→100, last_updated 2026-08-13→2026-08-14
+- `state/unresolved_questions.md`: Q-ca2-function, Q-ca2-pnn-plasticity-window, Q-ca2-disease-mechanism added (top of file, after header)
+- `state/source_registry.json`: 9 new sources added for article #113 (PMIDs: 24572357, 33431691, 31874067, 34201943, 27593179, 36971428, 24863146, 29705549, 36575880)
+- `state/monthly_synthesis.md`: article #113 row added to table; count updated 13→14; 2026-08-14 day entry added
+- `neuro-daily/notes/2026-08-14-reading-notes.md`: created (S1-S7 detailed notes)
+- `neuro-daily/sources/2026-08-14-sources.json`: created (9 sources with access status)
+
+---
+
+## Git Operations
+
+- Branch: main
+- Git author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+- Commit: staged all neuro-daily/ changes, single commit
+- Push: git push origin main
+
+---
+
+## Notes / Issues Encountered
+
+1. **social-memory.md missing**: Article frontmatter listed it under wiki_updated but the file did not exist; created it as a new page and reclassified as wiki_created.
+2. **_graph.json key inconsistency**: 43 out of 1280 edges use `source`/`target` keys instead of `from`/`to`. Fixed Python script with helper function `edge_key()` to handle both variants before building the existing-edges deduplication set.
+3. **node_count metadata stale**: Metadata said 217 nodes but actual count was 219 (from previous additions not reflected in metadata). Updated to 221 after adding 2 new nodes.
+4. **Context compaction**: Session continued from previous context. All state was reconstructed from compaction summary and re-reading key files.

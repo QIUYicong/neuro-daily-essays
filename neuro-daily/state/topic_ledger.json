@@ -1,7 +1,76 @@
 {
-  "last_updated": "2026-08-13",
-  "total_articles": 99,
+  "last_updated": "2026-08-14",
+  "total_articles": 100,
   "entries": [
+    {
+      "date": "2026-08-14",
+      "title": "CA2：海马遗忘的第三元件——被忽视的亚区如何主宰社会记忆、时间序列与尖波涟漪的触发",
+      "filename": "2026-08-14-ca2-hippocampus-social-memory-temporal-context.md",
+      "article_number": 113,
+      "wiki_pages_created": [
+        "wiki/concepts/ca2-hippocampus.md",
+        "wiki/concepts/social-memory.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/hippocampal-circuit.md (rev11→rev12)",
+        "wiki/concepts/sharp-wave-ripples.md (rev8→rev9)",
+        "wiki/concepts/time-cells.md (rev1→rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "CA2 亚区如何通过三条独立但协同的功能通路（Avpr1b/催产素门控的社会记忆存储、CA2→CA1 时间细胞序列组织、ramping cells 触发 SWR）成为海马回路中的多功能枢纽？RGS14 介导的 LTP 抵抗如何与 mGluR-LTD 共存，将 CA2 定位为一种「选择性记录特定生物学相关信息」的专用底物？",
+      "open_questions_added": [
+        "Q-ca2-function（中优先级）：CA2 社会记忆与时间记忆功能是否由不同亚型神经元（深层/浅层）分别承担？",
+        "Q-ca2-pnn-plasticity-window（中优先级）：CA2 PNNs 在青春期成熟后是否关闭社会记忆关键期？PNN 酶解能否在成体恢复社会记忆可塑性？",
+        "Q-ca2-disease-mechanism（中优先级）：BD/SCZ 中 CA2 锥体细胞丢失与社会认知障碍是否有直接因果关系？Avpr1b 信号能否作为补偿靶点？"
+      ],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱3（海马记忆回路深化）+ 脊柱10（社会认知神经科学）+ 脊柱11（疾病窗口：BD/SCZ社会认知缺陷）",
+      "topic_tags": [
+        "CA2 hippocampus subfield",
+        "RGS14 LTP resistance",
+        "social memory Avpr1b vasopressin oxytocin",
+        "mGluR-LTD synaptic plasticity",
+        "time cells temporal sequence CA2-CA1",
+        "sharp-wave ripples SWR trigger",
+        "perineuronal nets PNNs plasticity gate",
+        "bipolar disorder schizophrenia CA2 cell loss",
+        "Hitti Siegelbaum 2014 TeNT social memory",
+        "MacDonald Tonegawa 2021 CA2 time cells",
+        "Oliva 2016 CA2 SWR ramping"
+      ],
+      "main_sources": [
+        "PMID:24572357 (Hitti & Siegelbaum 2014, CA2 social memory)",
+        "PMID:33431691 (MacDonald & Tonegawa 2021, CA2 time cells)",
+        "PMID:31874067 (Bhatt 2020, CA2 PNNs RGS14)",
+        "PMID:34201943 (Helton 2021, CA2 overview)",
+        "PMID:27593179 (Oliva 2016, CA2 SWR trigger)",
+        "PMID:36971428 (Samadi 2023, CA2 mGluR-LTD RGS14)",
+        "PMID:24863146 (Pagani 2015, Avpr1b CA2 NMDA)",
+        "PMID:29705549 (Piskorowski & Chevaleyre 2018, PVN-CA2 vasopressin)",
+        "PMID:36575880 (Hitti & Bhatt 2023, CA2 review)"
+      ],
+      "open_access_fulltext": [
+        "PMID:24572357 (PMC4000264)",
+        "PMID:33431691 (PMC)",
+        "PMID:31874067 (PMC)",
+        "PMID:27593179 (PMC5004747)",
+        "PMID:36971428 (PMC)"
+      ],
+      "next_suggested_topics": [
+        "CNTNAP2 与社交记忆回路：FOXP2 靶基因如何在 CA2 回路中影响社会行为（ASD 分子通路）",
+        "催产素神经科学深化：下丘脑 PVN/SON 催产素神经元如何通过多重靶点（CA2/NAc/杏仁核）协调社会联结",
+        "海马亚区功能分化：CA1/CA2/CA3/DG 的比较神经科学——四亚区如何分工形成情节记忆",
+        "PNN（围神经元网）与关键期：视觉皮层→海马 CA2 中 PNN 关闭可塑性的统一机制"
+      ]
+    },
     {
       "date": "2026-08-12",
       "title": "FOXP2与语言发育神经遗传学：从KE家族突变到皮层-纹状体回路的分子编程",

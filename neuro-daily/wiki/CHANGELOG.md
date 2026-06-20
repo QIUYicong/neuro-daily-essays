@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-08-14 · 文章 #113 · CA2：海马遗忘的第三元件——拒绝 LTP、守护社会记忆、触发记忆回放的神经元集群
+
+**核心主题**：CA2 海马亚区三功能枢纽——Hitti & Siegelbaum 2014（PMID:24572357, Nature）Amigo2-Cre+TeNT 选择性灭活 CA2 → 社会记忆完全丧失，空间/恐惧/物体识别正常（CA2 是社会记忆专用基底，不是一般记忆节点）；MacDonald & Tonegawa 2021（PMID:33431691, PNAS）光遗传沉默 CA2→CA1 → 48% 时间细胞降解（P=1.37×10⁻³¹），仅 15% 场所细胞受影响（χ²=19.89，P=8.19×10⁻⁶），工作记忆错误增加（F(1,20)=21.67，P=0.002）；Oliva 2016（PMID:27593179, Neuron）高密度探针记录：CA2 ramping cells 在 SWR 前 20-30ms 斜升激发 → 随后 CA3→CA1；光遗传激活 CA2 诱导人工 SWR；约 20% SWR 绕过 CA3 直接 CA2→CA1 传播；分子机制：RGS14 五通路压制标准 Hebbian LTP，但支持 Avpr1b/催产素门控的社会情境专用 mGluR-LTD（Samadi 2023 PMID:36971428）；Middleton & McHugh 2020 综述（PMID:31874067）CA2 解剖-分子-功能全谱及临床关联（TLE 弹性、双相障碍 pyramidal cell 减少）。
+
+**新建页面（2）**：
+- `wiki/concepts/ca2-hippocampus.md`（rev1，status: mainstream，confidence: high）— CA2 三功能枢纽全机制（社会记忆专用基底/时间序列必要输入/SWR触发者）；RGS14 五通路 LTP 抑制；mGluR-LTD；Avpr1b/催产素通路；CA2 连接结构；疾病关联；完整证据表
+- `wiki/concepts/social-memory.md`（rev1，status: mainstream，confidence: high）— 社会记忆 CA2 专用底物的神经机制；Hitti 2014 遗传解剖；Avpr1b 特异性；mGluR-LTD 存储形式；与 LTP 的对比
+
+**修订页面（3）**：
+- `wiki/neurons/hippocampal-circuit.md`（rev11→rev12）— CA2 亚区节从单一时间编码扩展为三功能枢纽（社会记忆/时间序列/SWR触发）；连接新增[[ca2-hippocampus]]、[[sharp-wave-ripples]]；related/opens_questions/key_sources 更新
+- `wiki/concepts/sharp-wave-ripples.md`（rev8→rev9）— SWR 生成节增加 CA2 主动触发路径（CA2+CA3 双路径模型）；Oliva 2016 光遗传因果证据；连接新增[[ca2-hippocampus]]；证据表新增1行
+- `wiki/concepts/time-cells.md`（rev1→rev2）— CA2 区输入节补充精确统计；增补 CA2 三维功能说明；related新增ca2-hippocampus
+
+**登记矛盾（0）**：今日无新矛盾。CA2 LTP 抗性（RGS14 机制）与 CA2 支持社会记忆可塑性（mGluR-LTD）的表面张力已在 ca2-hippocampus.md 中阐明为非矛盾的功能分工（不同机制，不同可塑性类型）。
+
+**新增未解问题（3）**：
+- Q-ca2-function（中优先）：CA2 社会记忆功能与时间记忆功能是否由不同神经元亚型承担？
+- Q-ca2-pnn-plasticity-window（中优先）：CA2 PNN 青春期成熟是否关闭社会记忆关键期？与 ASD 的关系？
+- Q-ca2-disease-mechanism（中优先）：双相障碍中 CA2 pyramidal cell 减少的具体回路后果
+
+**图谱**：219节点→221节点，1280边→1288边（+2节点，+8边；ca2-hippocampus/social-memory 新增）
+
+---
+
 ## 2026-08-13 · 文章 #112 · 皮层时间层级：内禀神经时间尺度（INT）与时间感受野（TRW）
 
 **核心主题**：皮层时间层级——Murray et al. 2014（PMID:25383900）发现猕猴7皮层区域INT梯度（MT~50ms→ACC~350ms，rs=0.89）；Hasson et al. 2008/Lerner et al. 2011（PMID:18322098/21414912）建立TRW框架（A1:毫秒→DMN:数十秒）；Ding et al. 2016（PMID:26642090）ECoG证明大脑同时在4Hz/2Hz/1Hz追踪词/短语/句子；Caucheteux et al. 2023（PMID:36864133）证明预测编码层级与时间层级对应；Li & Wang 2022（PMID:35110401）三机制（突触兴奋梯度+E/I属性+精细平衡）的数学模型；Cusinato et al. 2023（PMID:37045604）颅内EEG揭示新皮层→内嗅→海马→杏仁核的延伸梯度；疾病窗口（TLE/AD/卒中INT失调）。

@@ -10751,5 +10751,132 @@
       "FoxP2敲减→MSN树突总长度和复杂度减少",
       "纹状体整合容量下降"
     ]
+  },
+  "PMID:24572357": {
+    "citation": "Hitti FL, Siegelbaum SA. (2014). The hippocampal CA2 region is essential for social memory. Nature, 508(7494), 88-92.",
+    "pmcid": "PMC4000264",
+    "open_access": true,
+    "first_used": "2026-08-14",
+    "articles_using": [
+      "2026-08-14-ca2-hippocampus-social-memory-temporal-context"
+    ],
+    "covers": [
+      "CA2 是社会记忆的专用神经底物（Amigo2-Cre+TeNT）",
+      "CA2 灭活→社会识别记忆完全丧失，空间/恐惧/物体识别正常",
+      "社交性（与陌生者互动意愿）正常——动机保留，记忆消失"
+    ]
+  },
+  "PMID:33431691": {
+    "citation": "MacDonald CJ, Tonegawa S. (2021). Crucial role for CA2 inputs in the sequential organization of CA1 time cells supporting memory. Proceedings of the National Academy of Sciences USA, 118(1).",
+    "pmcid": "PMC7826404",
+    "open_access": true,
+    "first_used": "2026-08-14",
+    "articles_using": [
+      "2026-08-14-ca2-hippocampus-social-memory-temporal-context"
+    ],
+    "covers": [
+      "光遗传沉默 CA2→CA1 → 48% 时间细胞（149/313）降解（P=1.37×10⁻³¹）",
+      "仅 15% 场所细胞受影响（χ²=19.89，P=8.19×10⁻⁶）——时间-空间双分离",
+      "工作记忆任务错误增加（F(1,20)=21.67，P=0.002）"
+    ]
+  },
+  "PMID:31874067": {
+    "citation": "Middleton SJ, McHugh TJ. (2020). CA2: A Highly Connected Intrahippocampal Relay. Annual Review of Neuroscience, 43, 55-72.",
+    "pmcid": "PMC9974898",
+    "open_access": true,
+    "first_used": "2026-08-14",
+    "articles_using": [
+      "2026-08-14-ca2-hippocampus-social-memory-temporal-context"
+    ],
+    "covers": [
+      "CA2 解剖-分子-电生理-功能综述",
+      "EC 激发 CA2 效率高于 CA1/CA3；CA2 密集递归自联",
+      "CA2 在 theta 振荡中相位进发范围比 CA1 更窄",
+      "PNN-ErbB4 青春期 CA2 成熟；TLE 中 CA2 弹性",
+      "双相障碍 CA2 pyramidal cell 数量减少"
+    ]
+  },
+  "PMID:34201943": {
+    "citation": "Harbin NH, Bramlett SN, Montanez-Miranda C, Terzioglu G, Hepler JR. (2021). RGS14 Regulation of Post-Synaptic Signaling and Spine Plasticity in Brain. International Journal of Molecular Sciences, 22(10).",
+    "pmcid": "PMC8268017",
+    "open_access": true,
+    "first_used": "2026-08-14",
+    "articles_using": [
+      "2026-08-14-ca2-hippocampus-social-memory-temporal-context"
+    ],
+    "covers": [
+      "RGS14 五通路 LTP 抑制（Ca²⁺缓冲/GAP/CaMKII/ERK/肌动蛋白）",
+      "RGS14 KO 小鼠 CA2 出现正常 LTP；空间记忆和物体识别改善",
+      "RGS14 是核-细胞质穿梭蛋白（NLS+NES）"
+    ]
+  },
+  "PMID:27593179": {
+    "citation": "Oliva A, Fernández-Ruiz A, Buzsáki G, Berenyi A. (2016). Role of Hippocampal CA2 Region in Triggering Sharp-Wave Ripples. Neuron, 91(6), 1342-1355.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-14",
+    "articles_using": [
+      "2026-08-14-ca2-hippocampus-social-memory-temporal-context"
+    ],
+    "covers": [
+      "CA2 ramping cells 在 SWR 前 20-30ms 斜升激发",
+      "光遗传激活 CA2 诱导人工 SWR（CA3+CA1均驱动）",
+      "约 20% SWR 绕过 CA3 直接 CA2→CA1 传播",
+      "清醒/探索后休息时 CA2 触发效果最强"
+    ]
+  },
+  "PMID:36971428": {
+    "citation": "Samadi M et al. (2023). Mechanisms of mGluR-dependent plasticity in hippocampal area CA2. Hippocampus, 33(3), 290-304.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-14",
+    "articles_using": [
+      "2026-08-14-ca2-hippocampus-social-memory-temporal-context"
+    ],
+    "covers": [
+      "CA2 mGluR-LTD 依赖蛋白质合成和 STEP",
+      "RGS14（而非 RGS4）是 CA2 mGluR-LTD 的必要条件",
+      "RGS14 KO 小鼠 mGluR-LTD 受损且社会识别记忆受损"
+    ]
+  },
+  "PMID:24863146": {
+    "citation": "Pagani JH et al. (2015). Role of the vasopressin 1b receptor in rodent aggressive behavior and synaptic plasticity in hippocampal area CA2. Molecular Psychiatry, 20(4), 490-498.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-14",
+    "articles_using": [
+      "2026-08-14-ca2-hippocampus-social-memory-temporal-context"
+    ],
+    "covers": [
+      "Avpr1b 选择性激动剂在 CA2 诱发 NMDA+Ca²⁺ 依赖突触增强",
+      "CA1 无效（CA2 特异性）",
+      "Avpr1b 驱动社会攻击行为（KO 减少攻击）"
+    ]
+  },
+  "PMID:29705549": {
+    "citation": "Piskorowski RA, Chevaleyre V. (2018). Memory circuits: CA2. Current Opinion in Neurobiology, 52, 54-59.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-14",
+    "articles_using": [
+      "2026-08-14-ca2-hippocampus-social-memory-temporal-context"
+    ],
+    "covers": [
+      "CA2 综述：SWR 触发、网络兴奋性调控",
+      "PVN→CA2 加压素通路增强社会记忆"
+    ]
+  },
+  "PMID:36575880": {
+    "citation": "Oliva A, Fernandez-Ruiz A, Karaba LA. (2023). CA2 orchestrates hippocampal network dynamics. Hippocampus, 33(3), 241-251.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-14",
+    "articles_using": [
+      "2026-08-14-ca2-hippocampus-social-memory-temporal-context"
+    ],
+    "covers": [
+      "CA2 网络动力学综述：SWR 枢纽角色",
+      "CA2 异质性、社会行为相关性"
+    ]
   }
 }
