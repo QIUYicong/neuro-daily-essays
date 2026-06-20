@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-06-02
-revision_count: 3
+updated: 2026-08-07
+revision_count: 5
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, phrase-structure-building, llm-brain-alignment]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
-opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03]
-source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302"]
+opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03, Q-lang-06]
+source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-08-07-brocas-area-syntax-merge-language-evolution]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:33118302", "PMID:38609551", "PMID:36130104", "PMID:38645622", "PMID:38144237", "PMID:38888027"]
 ---
 
 # 语言网络（双流模型）(Dual-Stream Language Network)
@@ -82,8 +82,10 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
 - 2026-06-21 · 修订 · 新增镜像神经元（F5/BA44同源）与运动皮层的连接，补充语言演化的动作理解背景 · 依据《从意图到动作》（#57）
+- 2026-08-07 · 修订 · 新增Fedorenko 2024 NRN"自然种"框架（语言网络有跨个体一致拓扑、5年个体内稳定性、与MD网络分离）；新增Hu 2022精准fMRI产出证据（语言网络产出和理解共用同一套表征，无产出特异区域）；新增Pasquiou 2023信息限制模型（左半球句法/语义空间分离高于右半球）；新增Hosseini 2024 LLM-大脑对齐（1亿词训练达最大预测力）；新增Hiersche 2024发育分离（3–9岁儿童语言网络与MD网络功能分离）；更新related页（phrase-structure-building, llm-brain-alignment）
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
 - [[2026-06-21-motor-cortex-voluntary-movement]]
+- [[2026-08-07-brocas-area-syntax-merge-language-evolution]]

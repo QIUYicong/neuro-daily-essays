@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-06-20
-revision_count: 1
+updated: 2026-08-07
+revision_count: 3
 dimensions: [brain-region, cognition]
-related: [language-network, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, prefrontal-cortex]
+related: [language-network, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, prefrontal-cortex, phrase-structure-building, language-evolution]
 prerequisites: [language-network, action-potential]
-opens_questions: [Q-lang-03, Q-lang-04]
-source_articles: [2026-06-20-language-dual-stream]
-key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"]
+opens_questions: [Q-lang-03, Q-lang-04, Q-lang-06]
+source_articles: [2026-06-20-language-dual-stream, 2026-08-07-brocas-area-syntax-merge-language-evolution]
+key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947", "PMID:37656748", "PMID:36408641", "PMID:36405085", "PMID:36130104"]
 ---
 
 # Broca区（额叶下回）(Broca's Area / Inferior Frontal Gyrus)
@@ -22,7 +22,7 @@ key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"
 
 ## 当前理解
 
-我们现在认为，"Broca区"这一名称掩盖了内部的关键异质性：
+我们现在认为，"Broca区"这一名称掩盖了内部的关键异质性，且其独特性在进化和发育两个时间尺度上均有明确证据：
 
 **BA44（pars opercularis）**：
 - 功能：层级句法运算（chomsky意义上的"Merge"）——将词合并为短语、短语合并为句子的递归操作
@@ -62,6 +62,10 @@ key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"
 | 手语使用者Broca区（BA44/45）同样强激活，LI=0.68 | ALE元分析（23项研究） | PMID:33118302 | 高 |
 | Broca区损伤（主要是BA44）→非流利性产出障碍 | VLSM失语症研究 | PMID:29360947 | 高 |
 | BA44激活程度随句子层级复杂度线性增加 | fMRI参数化句法实验 | PMID:31735144 | 中高 |
+| BA44选择性编码限定词+名词（grammatical），BA45选择性编码形容词+名词（semantic） | fMRI MVPA解码（Schell 2022） | PMID:36405085 | 中高 |
+| 语言网络在产出时全部激活，句子产出>词列产出（d=0.499–0.830） | 精准fMRI，n=29（Hu 2022） | PMID:36130104 | 高 |
+| 人类左侧BA44相对黑猩猩前部额外扩张约1.64倍；黑猩猩BA44只对应人类后部BA44 | 人-猩猩组织学比较+皮质配准（Gallardo 2023） | PMID:37656748 | 高 |
+| 3岁句法依赖后STS，4岁句法迁移至BA44（发育神经重组） | 纵向结构MRI（Klein 2022） | PMID:36408641 | 中高 |
 
 ## 连接
 
@@ -80,7 +84,9 @@ key_sources: ["PMID:17431404", "PMID:31735144", "PMID:33118302", "PMID:29360947"
 ## 修订历史
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
+- 2026-08-07 · 修订 · 新增进化证据（Gallardo 2023：人类左BA44前部扩张1.64倍，进化双重结构）、发育证据（Klein 2022：3→4岁STS→BA44神经重组）、MVPA分类图谱（Schell 2022：BA44/BA45的grammatical/semantic分工）、精准fMRI产出证据（Hu 2022）；新增Q-lang-06（BA44扩张与FOXP2的关联）；相关页新增phrase-structure-building和language-evolution
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
+- [[2026-08-07-brocas-area-syntax-merge-language-evolution]]

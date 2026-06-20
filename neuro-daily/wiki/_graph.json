@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "node_count": 199,
   "edge_count": 1148,
   "edge_types": [
@@ -1852,6 +1852,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/like-to-like-connectivity.md"
+    },
+    {
+      "id": "phrase-structure-building",
+      "title": "短语结构组装（Merge操作）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/phrase-structure-building.md"
+    },
+    {
+      "id": "language-evolution",
+      "title": "语言的神经进化",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/language-evolution.md"
+    },
+    {
+      "id": "llm-brain-alignment",
+      "title": "大型语言模型与大脑的对齐",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/llm-brain-alignment.md"
     }
   ],
   "edges": [
@@ -8380,6 +8407,86 @@
     {
       "from": "connectomics",
       "to": "like-to-like-connectivity",
+      "type": "supports"
+    },
+    {
+      "from": "phrase-structure-building",
+      "to": "broca-area",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "phrase-structure-building",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "phrase-structure-building",
+      "to": "arcuate-fasciculus",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "phrase-structure-building",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "language-evolution",
+      "to": "broca-area",
+      "type": "related"
+    },
+    {
+      "from": "language-evolution",
+      "to": "mirror-neuron-system",
+      "type": "related"
+    },
+    {
+      "from": "language-evolution",
+      "to": "phrase-structure-building",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "llm-brain-alignment",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "llm-brain-alignment",
+      "to": "transformer-self-attention",
+      "type": "related"
+    },
+    {
+      "from": "llm-brain-alignment",
+      "to": "cnn-visual-cortex-analogy",
+      "type": "related"
+    },
+    {
+      "from": "llm-brain-alignment",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "broca-area",
+      "to": "phrase-structure-building",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "broca-area",
+      "to": "language-evolution",
+      "type": "related"
+    },
+    {
+      "from": "language-network",
+      "to": "phrase-structure-building",
+      "type": "supports"
+    },
+    {
+      "from": "language-network",
+      "to": "llm-brain-alignment",
+      "type": "related"
+    },
+    {
+      "from": "arcuate-fasciculus",
+      "to": "phrase-structure-building",
       "type": "supports"
     }
   ],

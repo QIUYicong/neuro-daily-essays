@@ -1,0 +1,100 @@
+# Run Log: 2026-08-07
+
+**Date**: 2026-08-07 (knowledge base date; container system date: 2026-06-20)
+**Status**: SUCCESS — Article #106 created, wiki updated, push to main
+**Branch**: main
+**Article**: 2026-08-07-brocas-area-syntax-merge-language-evolution.md
+
+---
+
+## 执行摘要
+
+- **主题**：Broca区句法Merge操作、语言网络进化与发育
+- **选题依据**：课程脊柱#7（语言）深化；2026-08-06连接组学文章的下一步建议（语言网络微回路）；两个已登记的语言相关未解问题（Q-lang-03, Q-lang-05）
+- **文章日期逻辑**：系统容器日期固定显示2026-06-20，2026-06-20文章已存在（#56，language-dual-stream）。知识库按topic_ledger连续编号，今日应为#106（接续2026-08-06的#105），故文章日期标注为2026-08-07。
+
+---
+
+## 检索记录
+
+| 搜索查询 | 数据源 | 候选结果数 | 采用 | 排除 |
+|---------|--------|-----------|------|------|
+| Broca's area syntactic processing hierarchical structure building fMRI 2024 2025 | PubMed/PMC | 7 | 2（PMC4846291基础背景；PMC9671167 Schell 2022） | 5（太旧或不直接相关） |
+| Fedorenko language network frontal temporal lobe fMRI selective 2023 2024 | PubMed/PMC | 10 | 5（PMC10110436, PMC11025646, PMC11184366, PMC11118489, PMC11192443） | 5（年龄特化/非核心） |
+| Friederici language network Broca area syntax BA44 BA45 review 2022 2023 | PubMed/PMC | 8 | 3（PMC10501646 Gallardo 2023; PMC10152089 Klein 2022; PMC9671167 Schell 2022） | 5（不相关或太旧） |
+| arcuate fasciculus white matter tract language dorsal stream aphasia 2023 2024 | PubMed/PMC | 8 | 1（PMC10454270 Vavassori 2023） | 7（手术/癫痫特化或太旧） |
+| language network temporal lobe syntax semantics information restricted 2023 2024 | PubMed/PMC | 7 | 1（PMC10745090 Pasquiou 2023） | 6（方法重叠或不核心） |
+
+---
+
+## 来源采用与排除理由
+
+**采用（9个来源）**：
+1. PMID:38609551（Fedorenko 2024 NRN）：领域最高权威综述，"自然种"框架。**摘要仅**，文章中明确标注
+2. PMCID:PMC10110436（Hu 2022 Cerebral Cortex）：精准fMRI最强直接证据。开放全文
+3. PMCID:PMC11025646（Hosseini 2024 NLang）：LLM-大脑对齐最新定量研究。开放全文
+4. PMCID:PMC10501646（Gallardo 2023 PLoS Biol）：人-猩猩BA44比较解剖，进化证据最直接。开放全文
+5. PMCID:PMC10152089（Klein 2022 Cereb Cortex）：儿童句法发育纵向结构MRI，发育重组证据最直接。开放全文
+6. PMCID:PMC9671167（Schell 2022 Front HN）：MVPA神经分类图谱，BA44/BA45分工最直接证据。开放全文
+7. PMCID:PMC10454270（Vavassori 2023 Brain Behav）：AF综合综述，三段解剖和功能谱。开放全文
+8. PMCID:PMC10745090（Pasquiou 2023 NLang）：信息限制模型，句法/语义脑区分离。开放全文
+9. PMCID:PMC11184366（Hiersche 2024 HBM）：儿童语言-MD网络双重分离。开放全文
+
+**排除**：
+- PMC4846291（2016, Sentence processing selectivity in Broca's area）：证据已被更新来源（Schell 2022, Friederici 2019）superseded；但Merge操作的基础概念部分参考
+- PMC11118489（Language network lateralization in 4y old children）：与Klein 2022和Hiersche 2024内容有重叠，未单独列入
+- PMC3468690（Cortical organization of speech processing: predictive coding 2012）：内容太旧；预测编码已有专门页面
+
+---
+
+## Wiki 固结记录
+
+| 页面 | 操作 | 主要变更 | revision_count |
+|------|------|---------|----------------|
+| wiki/systems/broca-area.md | 修订 | 新增进化双重结构（Gallardo 2023）、发育重组（Klein 2022）、MVPA分类（Schell 2022）、产出证据（Hu 2022）；Q-lang-06 | 1→3 |
+| wiki/systems/language-network.md | 修订 | 新增"自然种"框架（Fedorenko 2024）、产出-理解统一（Hu 2022）、Pasquiou 2023、Hosseini 2024、Hiersche 2024 | 3→5 |
+| wiki/concepts/arcuate-fasciculus.md | 修订 | 新增Vavassori 2023三段解剖+功能谱+手术风险；Klein 2022发育AF | 1→2 |
+| wiki/concepts/phrase-structure-building.md | 新建 | Merge操作神经基础、BA44机制、AⁿBⁿ范式 | 1 |
+| wiki/concepts/language-evolution.md | 新建 | 进化双重结构、BA44前部扩张1.64倍、否定强版本镜像假说 | 1 |
+| wiki/concepts/llm-brain-alignment.md | 新建 | GPT-2/BERT大脑对齐、1亿词上限、表征相似性vs机制等同 | 1 |
+
+---
+
+## 矛盾检查
+
+- **Q-lang-03（开放）**：语法/语义神经解离——Schell 2022 MVPA支持解离（BA44/BA45分工），但Pasquiou 2023信息限制模型显示语义效应"广泛分布"。两者不冲突（MVPA精细，信息分布广泛两个观察都可以成立），维持open，不需要新登记矛盾。
+- **Q-lang-04（开放）**：BA44与F5同源关系——Gallardo 2023新证据显示黑猩猩BA44≈人类后部BA44（动作区），否定了F5→整个人类BA44的强假说；但弱版本（F5→后部BA44，前部BA44进化新生）与Gallardo 2023兼容，无法形成矛盾裁决。
+- **无新矛盾登记**
+
+---
+
+## 新增未解问题
+
+- **Q-lang-06（高优先级）**：FOXP2人类特异替换与BA44前部扩张的因果关联——见 state/unresolved_questions.md
+
+---
+
+## 图谱更新
+
+- 新增节点：phrase-structure-building, language-evolution, llm-brain-alignment（共3个）
+- 更新节点：broca-area, language-network, arcuate-fasciculus（confidence/status确认高/established）
+- 新增边：16条（Merge→BA44 mechanism-of；AF→phrase-structure-building supports等）
+- 总节点数：206；总边数：1183；无悬空引用
+
+---
+
+## 自检结果
+
+- [x] 真实性：所有wiki主张有来源（PMID/PMCID），已区分事实/模型/推测/争议，Fedorenko 2024仅摘要已明确标注
+- [x] 一致性：无新矛盾；被修订页updated/revision_count/修订历史已同步；图谱无悬空边
+- [x] 可导航：CHANGELOG已更新；新页面related/prerequisites均已填写（各≥1）
+- [x] 情景层：articles/notes/sources/logs均为新建文件，未修改任何旧文件
+
+---
+
+## Git 操作
+
+- Branch: main
+- Commit message: Add neuro daily article + wiki consolidation for 2026-08-07
+- Files changed: articles/2026-08-07-*.md, notes/2026-08-07-*.md, sources/2026-08-07-*.json, logs/2026-08-07-run.log, wiki/systems/broca-area.md, wiki/systems/language-network.md, wiki/concepts/arcuate-fasciculus.md, wiki/concepts/phrase-structure-building.md, wiki/concepts/language-evolution.md, wiki/concepts/llm-brain-alignment.md, wiki/_graph.json, wiki/CHANGELOG.md, state/topic_ledger.json, state/maturity_index.json, state/unresolved_questions.md, state/monthly_synthesis.md
+- Push: origin main

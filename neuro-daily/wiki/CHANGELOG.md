@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-08-07 · 文章 #106 · 组装句子的机器：Broca区如何将词汇序列升维为层级结构
+
+**核心主题**：BA44的Merge操作（短语结构组装）；BA44/BA45功能分工（grammatical vs semantic）；弓状束精细结构（Vavassori 2023三段解剖）；人类BA44进化双重结构（Gallardo 2023，左侧前部扩张1.64倍）；儿童句法神经重组（Klein 2022，3岁pSTS→4岁BA44）；语言网络的"自然种"地位（Fedorenko 2024）；LLM-大脑对齐的含义与限制（Hosseini 2024：1亿词达最大预测力）。
+
+**新建页面（3）**：
+- `wiki/concepts/phrase-structure-building.md`（短语结构组装/Merge）🟡 mainstream · 高置信度 — Chomsky Merge操作的神经基础；左侧BA44（pars opercularis）；AⁿBⁿ型层级规则选择性激活BA44；Schell 2022 MVPA分类图谱；产出和理解共享同一套Merge机制（Hu 2022）
+- `wiki/concepts/language-evolution.md`（语言的神经进化）🟡 emerging · 中置信度 — 人类左侧BA44前部扩张约1.64倍（相对黑猩猩，Gallardo 2023）；进化双重结构（后部动作/前部句法）；否定强版本镜像神经元语言假说；前向扩张模型
+- `wiki/concepts/llm-brain-alignment.md`（LLM-大脑对齐）🟡 emerging · 中置信度 — GPT-2等LLM可预测语言网络fMRI响应；1亿词训练量已达近最大对齐度（Hosseini 2024）；单向注意（GPT-2）比双向注意（BERT）更接近大脑；表征相似性≠机制等同
+
+**修订页面（3）**：
+- `wiki/systems/broca-area.md` rev1→rev3 — 新增进化双重结构（Gallardo 2023）、发育神经重组（Klein 2022，3→4岁）、MVPA分类图谱（Schell 2022）、精准fMRI产出证据（Hu 2022）；新增Q-lang-06；related新增phrase-structure-building/language-evolution
+- `wiki/systems/language-network.md` rev3→rev5 — 新增"自然种"框架（Fedorenko 2024）、精准fMRI产出-理解统一（Hu 2022）、信息分布（Pasquiou 2023）、LLM对齐（Hosseini 2024）、儿童发育分离（Hiersche 2024）；related新增phrase-structure-building/llm-brain-alignment
+- `wiki/concepts/arcuate-fasciculus.md` rev1→rev2 — 新增Vavassori 2023三段解剖+完整功能谱（右半球AF：社会认知/空间注意/音乐）+手术风险；新增Klein 2022发育AF髓鞘化证据
+
+**矛盾登记（0）**：无新矛盾；Q-lang-03（语法/语义神经解离）维持open状态
+
+**新增未解问题（1）**：Q-lang-06（BA44前部扩张与FOXP2人类特异突变的关联机制）
+
+---
+
 ## 2026-08-06 · 文章 #105 · 连接组学深化篇：功能连接组学与同类相连布线规则
 
 **核心主题**：功能连接组学——MiCrONS 2025（小鼠视觉皮层：75,000神经元钙成像 + 200,000+细胞 EM重建 + 5亿突触）；"同类相连"布线规则（Ding 2025）：功能相似神经元优先互连，控制距离后仍成立，跨层跨区域普遍有效；果蝇全脑网络统计（Lin 2024）：小世界系数141、平均路径4.42跳、富人俱乐部40,218神经元；结构-功能鸿沟的三个根本来源（静态快照/强度不可见/调质缺失）。

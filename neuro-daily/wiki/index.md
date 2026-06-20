@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-06（第105篇·功能连接组学·同类相连布线规则×MiCrONS 2025×FlyWire小世界系数141×Ding 2025）· 主题页总数：**198**（新建2页：concepts/small-world-network、concepts/like-to-like-connectivity；修订1页：methods/connectomics rev1→rev2；新增Q-swn-01、Q-ltl-01、Q-ltl-02）
+> 最后更新：2026-08-07（第106篇·Broca区句法Merge·弓状束·语言进化双重结构·儿童发育重组·LLM-大脑对齐）· 主题页总数：**201**（新建3页：concepts/phrase-structure-building、concepts/language-evolution、concepts/llm-brain-alignment；修订3页：systems/broca-area rev1→rev3、systems/language-network rev3→rev5、concepts/arcuate-fasciculus rev1→rev2；新增Q-lang-06）
 
 ---
 
@@ -180,14 +180,17 @@
 
 ## language（语言）
 
-- 🟢 [语言网络（双流模型）](systems/language-network.md) — 腹侧流（声音→意义，双侧）+ 背侧流（声音→动作/句法，左侧主导）；超模态（手语激活同一Broca区）；主动预测性；镜像神经元补充 **[修订 2026-06-21]**
-- 🟢 [Broca区（额叶下回）](systems/broca-area.md) — BA44（层级句法Merge，背侧流）vs BA45（语义工作记忆，腹侧流）内部分工；不是统一的"语言产出区" **[NEW 2026-06-20]**
-- 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；左侧优势；出生时低髓鞘化→随句法习得成熟；损伤→传导性失语 **[NEW 2026-06-20]**
+- 🟢 [语言网络（双流模型）](systems/language-network.md) — 腹侧流（声音→意义，双侧）+ 背侧流（声音→动作/句法，左侧主导）；"自然种"地位（Fedorenko 2024 NRN）；产出-理解共享同一套表征（Hu 2022）；1亿词LLM达最大对齐度（Hosseini 2024）；3–9岁儿童已与MD网络功能分离（Hiersche 2024）**[修订rev5 2026-08-07]**
+- 🟢 [Broca区（额叶下回）](systems/broca-area.md) — BA44（层级句法Merge，背侧流）vs BA45（语义工作记忆，腹侧流）；人类左BA44前部进化扩张1.64倍（Gallardo 2023）；3→4岁发育神经重组pSTS→BA44（Klein 2022）；MVPA分类图谱（Schell 2022）**[修订rev3 2026-08-07]**
+- 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；三段解剖（额叶-顶叶-颞叶）；左侧优势；完整功能谱（右半球AF：社会认知/空间注意/音乐）；出生时低髓鞘化→随句法习得成熟；损伤→传导性失语；手术顶叶段风险最高（Vavassori 2023）**[修订rev2 2026-08-07]**
 - 🟢 [背侧语言流](circuits/dorsal-language-stream.md) — A1→颞平面→Spt→弓状束→BA44；音韵缓冲+句法层级运算；左侧主导 **[NEW 2026-06-20]**
 - 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→角回→BA45；声音→词义；双侧；具身语义（工具→运动皮层，动物→视觉皮层） **[NEW 2026-06-20]**
 - 🔴 [具身语义](concepts/embodied-semantics.md) — 词义神经基底是感觉运动皮层再激活（Hauk 2004 somatotopy；Pulvermüller 2005 TMS类别特异性因果效应）；面临复制危机（de Zubicaray 2026）；分级具身论+Hub-and-Spoke整合模型取代强具身论 **[NEW 2026-06-02]**（填补图谱唯一悬空引用）
 - 🟢 [心智理论（ToM）](concepts/theory-of-mind.md) — 大脑推断他人信念/意图/情感的能力；核心三节点（pTPJ+mPFC+DMN dMPFC子系统）；假信念任务（Sally-Anne，4岁发展里程碑）；ASD 中 DMN 功能连接降低与 ToM 缺陷关联；GPT-4 ToM 测试的局限 **[NEW 2026-08-01]**
 - 🔴 [镜像神经元系统](concepts/mirror-neuron-system.md) — Rizzolatti 1992 猕猴 F5 区 ~17% MNS 神经元；直接匹配假说（动作观察=运动共鸣）；Hickok "破碎镜子"批评（Broca 失语不损动作理解）；模拟理论 vs. 理论理论；MNS-ToM 因果关系争议（C-mirror-01 开放）**[NEW 2026-08-01 · 争议]**
+- 🔵 [短语结构组装（Merge操作）](concepts/phrase-structure-building.md) — Chomsky Merge递归操作的神经基础（左BA44）；AⁿBⁿ层级规则选择性激活BA44（vs线性序列）；Schell 2022 MVPA：BA44分类grammatical词组/BA45分类semantic词组；Hu 2022精准fMRI：产出和理解共享Merge机制 **[NEW 2026-08-07]**
+- 🟡 [语言的神经进化](concepts/language-evolution.md) — 人类左侧BA44前部额外扩张约1.64倍（Gallardo 2023，相对黑猩猩）；进化双重结构（后部BA44动作/前部BA44句法）；否定强版本镜像神经元语言假说；前向扩张模型 **[NEW 2026-08-07]**
+- 🟡 [大型语言模型与大脑的对齐](concepts/llm-brain-alignment.md) — GPT-2等LLM可预测语言网络fMRI响应；1亿词训练量达近最大对齐度（Hosseini 2024）；单向注意更接近大脑在线处理；表征相似性≠机制等同；Pasquiou 2023：左半球句法/语义空间分离高于右半球 **[NEW 2026-08-07]**
 
 ## systems（系统）
 

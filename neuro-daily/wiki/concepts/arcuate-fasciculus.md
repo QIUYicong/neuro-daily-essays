@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-06-20
-revision_count: 1
+updated: 2026-08-07
+revision_count: 2
 dimensions: [brain-region, whole-brain-network]
-related: [language-network, broca-area, dorsal-language-stream, working-memory]
+related: [language-network, broca-area, dorsal-language-stream, working-memory, language-evolution, phrase-structure-building]
 prerequisites: [language-network]
 opens_questions: [Q-lang-05]
-source_articles: [2026-06-20-language-dual-stream]
-key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:41213155"]
+source_articles: [2026-06-20-language-dual-stream, 2026-08-07-brocas-area-syntax-merge-language-evolution]
+key_sources: ["PMID:17431404", "PMID:29360947", "PMID:31735144", "PMID:41213155", "PMID:37280786", "PMID:36408641"]
 ---
 
 # 弓状束 (Arcuate Fasciculus, AF)
@@ -76,7 +76,9 @@ AF传递的信息：音韵时序序列的短期记忆表征（"刚才听到的�
 ## 修订历史
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
+- 2026-08-07 · 修订 · 新增Vavassori 2023综合结构-功能分析：三段弓形解剖（额叶-顶叶-颞叶）、完整功能谱（语言+认知+右半球功能：社会认知/空间注意/音乐）、手术风险（顶叶段代偿能力最低）；新增Klein 2022发育数据（AF在3–4岁儿童句法神经重组期间加速髓鞘化）；更新related页
 
 ## 来源文章
 
 - [[2026-06-20-language-dual-stream]]
+- [[2026-08-07-brocas-area-syntax-merge-language-evolution]]

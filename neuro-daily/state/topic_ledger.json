@@ -6287,6 +6287,63 @@
       "wiki_pages_updated": [
         "wiki/methods/connectomics.md"
       ]
+    },
+    {
+      "date": "2026-08-07",
+      "article_number": 106,
+      "title": "组装句子的机器：Broca区如何将词汇序列升维为层级结构，以及这个能力是如何在进化和发育中诞生的",
+      "slug": "2026-08-07-brocas-area-syntax-merge-language-evolution",
+      "core_question": "BA44（Broca区后部）执行的Merge操作在神经回路层面如何实现？这一能力在人类进化中如何从灵长类动作系统分叉出来？在幼儿大脑中又是如何在3至4岁之间经历神经重组的？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "topic_tags": [
+        "Broca area BA44 BA45 pars opercularis triangularis syntax semantics",
+        "Merge operation phrase structure building hierarchical syntax",
+        "arcuate fasciculus white matter dorsal language stream",
+        "language network natural kind Fedorenko 2024 NRN",
+        "language evolution BA44 chimpanzee anterior expansion Gallardo 2023",
+        "children syntax development posterior STS to BA44 Klein 2022",
+        "MVPA decoding Schell 2022 grammatical semantic dissociation",
+        "precision fMRI Hu 2022 production comprehension language network",
+        "LLM brain alignment Hosseini 2024 100M words GPT-2",
+        "information restricted models Pasquiou 2023 syntax semantics lateralization",
+        "Hiersche 2024 language network MD network dissociation children",
+        "Vavassori 2023 arcuate fasciculus structure function surgery"
+      ],
+      "main_sources": [
+        "PMID:38609551",
+        "PMID:36130104",
+        "PMID:38645622",
+        "PMID:37656748",
+        "PMID:36408641",
+        "PMID:36405085",
+        "PMID:37280786",
+        "PMID:38144237",
+        "PMID:38888027"
+      ],
+      "unresolved_questions": [
+        "Q-lang-06",
+        "Q-lang-03"
+      ],
+      "wiki_created": [
+        "phrase-structure-building",
+        "language-evolution",
+        "llm-brain-alignment"
+      ],
+      "wiki_updated": [
+        "broca-area",
+        "language-network",
+        "arcuate-fasciculus"
+      ],
+      "next_suggested_topics": [
+        "意识的神经关联（NCC）与全局工作空间理论深化——连接06/20以来的意识研究缺口，已有 C-2026-05-31-01/02 两个待裁决矛盾",
+        "FOXP2与语言发育——Q-lang-06的直接追问，连接遗传学/发育/语言三条线",
+        "语义网络的大脑分布——颞叶语义中枢（ATL/MTG）、模态特异语义vs模态无关语义，连接今日腹侧流/BA45内容"
+      ]
     }
   ],
   "layer_coverage_recent": {
