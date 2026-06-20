@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-05",
-  "total_articles": 104,
+  "last_updated": "2026-08-06",
+  "total_articles": 105,
   "entries": [
     {
       "date": "2026-08-04",
@@ -6238,6 +6238,55 @@
         "运动学习的小脑回路：平行纤维×攀爬纤维×浦肯野细胞 LTD 如何在毫秒内校正运动误差",
         "FAAH 与 MAGL 的靶向药理学：内源性大麻素降解酶抑制剂的治疗谱与副作用机制"
       ]
+    },
+    {
+      "date": "2026-08-06",
+      "article_number": 105,
+      "title": "连接组学深化篇：功能连接组学与同类相连布线规则",
+      "slug": "connectomics-flywire-wiring-diagram",
+      "core_question": "当我们拥有完整神经线路图时，结构如何编码功能？小鼠视觉皮层的布线规律是什么？",
+      "layer": [
+        "synaptic",
+        "microcircuit",
+        "whole-brain-network",
+        "methods"
+      ],
+      "topic_tags": [
+        "connectomics",
+        "flywire",
+        "drosophila",
+        "wiring-diagram",
+        "small-world",
+        "like-to-like",
+        "microns",
+        "electron-microscopy"
+      ],
+      "mode": "long_term_curriculum",
+      "course_section": 9,
+      "main_sources": [
+        "PMID:39358518 (Dorkenwald 2024, FlyWire full connectome)",
+        "PMID:37547019 (Lin 2024, network statistics)",
+        "PMID:40205214 (MiCrONS Consortium 2025)",
+        "PMCID:PMC11981947 (Ding 2025, like-to-like)",
+        "PMID:34949809 (Dorkenwald 2021, FlyWire platform)"
+      ],
+      "unresolved_questions": [
+        "Q-swn-01",
+        "Q-ltl-01",
+        "Q-ltl-02"
+      ],
+      "next_suggested_topics": [
+        "语言网络的突触机制（弓状束微回路）- 课程脊柱7深化",
+        "连接组个体差异与发育可塑性（Witvliet 2021 线虫发育）",
+        "意识的神经关联：NCC与连接组结构约束"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/small-world-network.md",
+        "wiki/concepts/like-to-like-connectivity.md"
+      ],
+      "wiki_pages_updated": [
+        "wiki/methods/connectomics.md"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -6358,13 +6407,21 @@
       "2026-06-03"
     ],
     "synaptic": [
-      "2026-06-03"
+      "2026-06-03",
+      "2026-08-06"
     ],
     "microcircuit": [
-      "2026-06-03"
+      "2026-06-03",
+      "2026-08-06"
     ],
     "disease": [
       "2026-06-03"
+    ],
+    "whole-brain-network": [
+      "2026-08-06"
+    ],
+    "methods": [
+      "2026-08-06"
     ]
   }
 }

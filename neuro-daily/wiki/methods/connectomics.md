@@ -6,18 +6,21 @@ type: method
 status: established
 confidence: high
 created: 2026-06-18
-updated: 2026-06-18
-revision_count: 1
+updated: 2026-08-06
+revision_count: 2
 dimensions: [methods, cellular, brain-region, whole-brain-network]
-related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples]
+related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, like-to-like-connectivity, rich-club-organization]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-conn-01, Q-conn-02, Q-conn-03]
-source_articles: [2026-06-18-connectomics-wiring-diagram]
+source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-06-connectomics-flywire-wiring-diagram]
 key_sources:
   - "PMID:22462104"
   - "PMID:34349261"
   - "PMID:39358518"
   - "PMID:33315010"
+  - "PMID:40205214"
+  - "PMCID:PMC11981947"
+  - "PMID:37547019"
 ---
 
 # 连接组学 (Connectomics)
@@ -69,6 +72,23 @@ key_sources:
 | 人类全脑 | ~860亿 | ~100万亿 | 未完成 | 技术上不可行（当前） |
 
 **重要说明**：人类大脑完整连接组在现有技术路线下需要数百年的数据采集时间，数据量估计超过1泽字节（10²¹字节）。当前研究的所有结论均基于动物模型（线虫、果蝇、斑马鱼、小鼠），**不能直接外推至人类大脑功能与疾病**。
+
+### 功能连接组学：结构遇见功能（2024-2025 新进展）
+
+**最重要的近期进展**是将结构连接组（谁连谁）与功能记录（谁在做什么）整合——称为**功能连接组学（functional connectomics）**。
+
+**MiCrONS 项目（2025）**（MiCrONS Consortium, *Nature* 640:435-447，PMID: 40205214，开放全文）：
+- 对小鼠视觉皮层 4 个区域同时进行：活体钙成像（≈75,000 神经元）+ 电镜重建（>200,000 细胞，5 亿突触）
+- 两套数据通过三维细胞位置配准，首次在哺乳类皮层实现单神经元层面功能+结构对应
+
+**"同类相连"布线规则（Ding et al., 2025）**（*Nature* 640，PMCID: PMC11981947，开放全文）：
+- 功能响应相似的视觉神经元之间突触连接概率显著更高
+- 控制轴突/树突物理距离后仍成立——不是近邻效应，而是功能相似性的结构索引
+- 跨皮层层次（Layer 2/3 → 5）和跨视觉区域（V1→V2、AL）普遍成立，包括反馈连接
+- **高阶规律**：某神经元所有突触后细胞的功能相似度高于一对一 like-to-like 预测
+- AI 验证：训练于视觉分类任务的循环神经网络自发产生类似的 like-to-like 规律，破坏后性能下降
+
+**重要限制**：like-to-like 目前仅在小鼠视觉皮层验证；是否适用于前额叶、顶叶等联合皮层和人类大脑尚未知。
 
 ### 核心成就与已验证发现
 
@@ -140,7 +160,9 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 | 果蝇全脑包含139,255个神经元，5450万个化学突触 | FlyWire全脑连接组（单只成体雌果蝇） | PMID:39358518 (Dorkenwald 2024) | 高 |
 | 线虫发育中接线图前馈化和模块化，个体间有显著差异 | 8只线虫发育阶段纵向比较，图论定量分析 | PMID:34349261 (Witvliet 2021) | 高 |
 | 果蝇蘑菇体含14种KC类型、15个离散学习区室；~8%KC接受视觉输入 | FAFB数据集中蘑菇体系统重建，与已知功能数据对照 | PMID:33315010 (Li 2020) | 高（功能验证部分为预测） |
-| 果蝇全脑网络具有富人俱乐部组织，~30%神经元为枢纽 | FlyWire数据集的图论分析（连接度分布+富人俱乐部系数） | PMID:39358527 (Lin 2024) | 高 |
+| 果蝇全脑网络具有富人俱乐部组织，~30%神经元为枢纽；小世界系数141，平均路径4.42跳，互易性0.138 | FlyWire数据集图论分析（与随机网络对比） | PMID:37547019, PMCID:PMC10402125 (Lin 2024) | 高 |
+| 小鼠视觉皮层"同类相连"：功能相似神经元优先连接，跨层跨区域成立，控制距离后仍显著 | MiCrONS数据集，钙成像功能响应+EM突触，Ding 2025 | PMCID:PMC11981947 (Ding 2025) | 高（小鼠视觉皮层，待推广至其他区域）|
+| 功能连接组学：活体功能记录可与EM结构在单神经元层面配准 | 同一小鼠脑组织 钙成像→EM重建，细胞三维位置配准 | PMID:40205214, PMCID:PMC11981939 (MiCrONS 2025) | 高 |
 | 从斑马鱼眼动回路接线图可预测吸引子动力学，钙成像验证 | 接线图约束模型 + 双光子钙成像实验 | PMID:39578573 (Vishwanathan 2024) | 高（单一模型系统）|
 | 接线图同类型个体间存在随机差异（非仅遗传决定） | 同基因型线虫对比，可测量的突触数量和有无差异 | PMID:34349261 (Witvliet 2021) | 高 |
 
@@ -171,10 +193,12 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 
 ## 修订历史
 
-- 2026-06-18 · 创建 · 基于《接线图之上：当我们拥有了完整神经地图，理解大脑的征途才刚刚开始》一文 · methods层第二个页面（继optogenetics.md后）· 初始置信度：高（established）
+- 2026-06-18 · 创建 · 基于《接线图之上》文章 · 覆盖 C. elegans, FlyWire, 结构-功能鸿沟概念 · 初始置信度：高
+- 2026-08-06 · 修订 · 基于《连接组学深化篇》文章 · 增加：(1) 功能连接组学新节（MiCrONS 2025）；(2) "同类相连"布线规则（Ding 2025）；(3) Lin 2024 完整网络统计数据；(4) 更新 related 节点（+3个新页）；(5) 更新 key_sources 和 source_articles
 
 ---
 
 ## 来源文章
 
 - [[2026-06-18-connectomics-wiring-diagram]]
+- [[2026-08-06-connectomics-flywire-wiring-diagram]]

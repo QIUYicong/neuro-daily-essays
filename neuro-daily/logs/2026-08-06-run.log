@@ -1,0 +1,130 @@
+# 运行日志 2026-08-06
+
+**日期**：2026-08-06（知识库推进日期；系统时钟 UTC+8 显示 2026-06-20，已按方案B前移）
+**文章编号**：#105
+**分支**：main
+**运行状态**：✅ 成功
+**触发类型**：scheduled（系统时钟 2026-06-20 第4次触发，按ROUTINE.md方案B：今日文章已存在→使用last_updated+1天=2026-08-06）
+
+---
+
+## 运行概要
+
+- **模式**：长期课程模式（long_term_curriculum）
+- **课程路线**：#9 Connectomics（连接组学）—— 深化篇
+- **主题**：功能连接组学与"同类相连"布线规则
+- **层级**：synaptic / microcircuit / whole-brain-network / methods
+
+---
+
+## 日期推进决策
+
+| 项目 | 说明 |
+|------|------|
+| 系统时钟 UTC+8 | 2026-06-20 |
+| 本次触发次序 | 第4次（同一日期） |
+| 2026-06-20已有文章 | `articles/2026-06-20-language-dual-stream.md`（article #56）✅ |
+| 知识库last_updated | 2026-08-05（article #104）|
+| 推进决策 | 系统时钟文章已存在 → 使用 last_updated+1天 = 2026-08-06 |
+| 依据 | ROUTINE.md 步骤0备注：若系统时钟文章已存在且知识库最新日期>系统时钟，可前移到下一天 |
+
+---
+
+## 选题决策
+
+- 读取状态文件：topic_ledger.json（88条已追踪条目，last_updated=2026-08-05）
+- 课程脊柱#9（Connectomics）：有基础篇（2026-06-18，#31），但MiCrONS 2025和Ding 2025的功能连接组学结果未被覆盖
+- 最近层级：分子/突触（多篇）→ 应转换到 synaptic/microcircuit/whole-brain-network/methods 层
+- 选题理由：功能连接组学（structural + functional）是连接组学领域2024-2025年最重要的新进展，填补课程脊柱#9深化需求
+
+---
+
+## 检索策略
+
+**检索数据库**：WebSearch（PubMed/Nature/NCBI），WebFetch（PMC全文）
+**检索词**：
+- "Drosophila whole brain connectome Flywire 2023 2024 Nature"
+- "MiCrONS mouse visual cortex connectome 2021 functional connectomics"
+- "Dorkenwald 2024 neuronal wiring diagram adult Drosophila brain"
+- "connectomics like-to-like connectivity cortex wiring rule 2025 Nature Ding"
+- "Shapson-Coe 2024 human cortex connectome H01 petascale Science"
+
+**候选文献**：15篇
+**精读/全文获取**：5篇（PMC开放全文）
+**摘要阅读**：2篇（付费墙或经典文献）
+**采用来源**：7篇
+
+---
+
+## 采用来源
+
+| ID | PMID/PMCID | 标题 | 全文 |
+|----|------------|------|------|
+| S1 | DOI:10.1098/rstb.1986.0056 | White 1986, C. elegans connectome | 否（经典文献）|
+| S2 | PMID:34949809/PMC8903166 | Dorkenwald 2021, FlyWire platform | ✅ PMC |
+| S3 | PMID:39358518/PMC11446842 | Dorkenwald 2024, Neuronal wiring diagram | ✅ PMC |
+| S4 | PMID:37547019/PMC10402125 | Lin 2024, Network statistics Drosophila connectome | ✅ PMC |
+| S5 | PMID:40205214/PMC11981939 | MiCrONS 2025, Functional connectomics mouse visual cortex | ✅ PMC |
+| S6 | PMC11981947 | Ding 2025, Like-to-like connectivity | ✅ PMC |
+| S7 | DOI:10.1126/science.adk4858 | Shapson-Coe 2024, Human cortex H01 | 否（付费墙）|
+
+---
+
+## 文章产出
+
+- **文件**：`neuro-daily/articles/2026-08-06-connectomics-flywire-wiring-diagram.md`
+- **字数**：约 5,000 中文字符
+- **层级标签**：synaptic / microcircuit / whole-brain-network / methods
+- **开放来源比例**：5/7（71%）
+- **付费墙来源**：1篇（Shapson-Coe 2024）已明确标注"仅读摘要"
+
+---
+
+## wiki 固结步骤
+
+**新建页面（2）**：
+- `wiki/concepts/small-world-network.md`（established）
+- `wiki/concepts/like-to-like-connectivity.md`（emerging）
+
+**修订页面（1）**：
+- `wiki/methods/connectomics.md` rev1→rev2（增加MiCrONS 2025节、like-to-like节、Lin 2024完整网络统计）
+
+**图谱更新**：
+- 新增节点：small-world-network、like-to-like-connectivity（总计203个节点，1167条边）
+- 新增边：10条
+
+**矛盾登记**：0条新矛盾
+
+**新增未解问题（3）**：Q-swn-01、Q-ltl-01、Q-ltl-02
+
+---
+
+## 质量自检
+
+- [x] 每条wiki新主张有来源（PMID/PMCID/DOI）
+- [x] 区分了事实/主流模型/推测/争议（like-to-like标注"emerging"，因果机制明确标注为推测）
+- [x] 没有把小鼠视觉皮层结果直接外推到人类（文章中有明确说明）
+- [x] 新内容与现有wiki冲突：无新矛盾
+- [x] 被修订页的updated/revision_count/修订历史同步更新
+- [x] _graph.json无悬空边
+- [x] index.md与CHANGELOG.md反映今天变化
+- [x] 新页related/prerequisites各≥1
+- [x] 文章/笔记/来源/日志齐全，未改动旧文件（append-only）
+
+---
+
+## Git 操作
+
+- **分支**：main
+- **预期commit**：Add neuro daily article + wiki consolidation for 2026-08-06
+- **文件**：neuro-daily/ 下所有今日新增和修改文件
+- **push 目标**：origin main（QIUYicong/neuro-daily-essays）
+
+---
+
+## 异常记录
+
+- 系统时钟再次显示 2026-06-20（第4次重复触发），按方案B日期前移执行
+- Shapson-Coe 2024 Science 论文在付费墙后，仅读摘要，文章中明确标注
+- White 1986 经典文献（1986年早于PubMed），通过后续注释版本了解，文章中标注
+- 无其他异常

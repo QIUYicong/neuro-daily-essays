@@ -1062,6 +1062,22 @@
       "revision_count": 1,
       "last_changed": "2026-07-11",
       "change_reason": "新建（文章 #79，2026-07-11）。LC-TH⁺ 末梢为海马 dCA1 主要 DA 来源由光遗传+解剖追踪+VTA 失活对照确立（Takeuchi 2016，Nature）；D1/D5 调控记忆持续性（非编码）有时间点药理分离证据（Bethus 2010）；GRAB-DA 直接测量 LC 激活引起海马 DA 升高（Kang 2024）；行为标记在完整行为层面验证 STC（Moncada 2007）。但 LC-DA 共释放亚型、生理性释放量化、人类证据缺乏，定为 emerging/medium。"
+    },
+    {
+      "slug": "small-world-network",
+      "title": "小世界网络",
+      "status": "established",
+      "confidence": "high",
+      "last_changed": "2026-08-06",
+      "reason": "创建：多尺度独立验证（线虫、果蝇、人类），数学上严格定义"
+    },
+    {
+      "slug": "like-to-like-connectivity",
+      "title": "同类相连",
+      "status": "emerging",
+      "confidence": "medium",
+      "last_changed": "2026-08-06",
+      "reason": "创建：单一数据集（MiCrONS/小鼠视觉皮层），待跨物种跨区域复现"
     }
   ],
   "embodied-semantics": {

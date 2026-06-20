@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-05（第104篇·内源性大麻素系统·逆行突触信号×2-AG/AEA分子机制×CB1R×DSI-DSE×eCB-LTD×BLA恐惧消退）· 主题页总数：**196**（新建2页：concepts/endocannabinoid-system、neurons/cb1-receptor；修订4页：concepts/ltd rev3→rev4、concepts/fear-extinction rev4→rev5；新增Q-ecb-01~Q-ecb-04开放问题）
+> 最后更新：2026-08-06（第105篇·功能连接组学·同类相连布线规则×MiCrONS 2025×FlyWire小世界系数141×Ding 2025）· 主题页总数：**198**（新建2页：concepts/small-world-network、concepts/like-to-like-connectivity；修订1页：methods/connectomics rev1→rev2；新增Q-swn-01、Q-ltl-01、Q-ltl-02）
 
 ---
 
@@ -144,6 +144,8 @@
 - 🔵 [后方皮层热区](concepts/posterior-cortical-hot-zone.md) — IIT 的解剖核心预测；V1/V4/MT/下颞叶等视觉-感觉联合皮层通过高整合连接产生意识内容；COGITATE 2025 对后方皮层内部同步（机制核心）构成挑战；Boly 2017 临床证据（完全额叶切除不影响意识）**[修订 2026-06-27]**
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
+- 🟢 [小世界网络](concepts/small-world-network.md) — 高聚类（局部模块化）+短路径（全局快速整合）的网络拓扑；果蝇全脑 σ=141；大脑跨尺度普遍存在；进化最优权衡假说；开放问题：微观vs宏观 σ 差距两个数量级的原因 **[NEW 2026-08-06]**
+- 🟡 [同类相连](concepts/like-to-like-connectivity.md) — 小鼠视觉皮层布线规则：功能相似神经元优先互连（控制距离后仍显著）；MiCrONS 2025数据集发现；跨层跨区域成立含反馈；高阶规律；AI验证；因果机制未知；待跨区域跨物种复现 **[NEW 2026-08-06]**
 - 🟢 [转录组细胞类型](concepts/transcriptomic-cell-types.md) — 高维基因表达空间中可重复聚类的细胞群体；GABAergic跨区保守（~70%），谷氨酸能区域特异；转录因子组合编码细胞身份；BICCN多模态验证（转录组+ATAC+甲基化+空间）；全鼠脑5322聚类×全人脑461聚类的神经元分子宇宙 **[NEW 2026-07-25]**
 - 🟢 [嗅觉受体（OR）基因家族](concepts/olfactory-receptor.md) — 哺乳动物最大GPCR基因家族；人类~400功能性成员；一细胞一受体/一受体一小球/组合编码三规则；cAMP→CNG通道→Cl⁻放大五步转导；Buck & Axel 1991诺贝尔奖基础 **[NEW 2026-07-26]**
 - 🟢 [梨状皮层（初级嗅觉皮层）](concepts/piriform-cortex.md) — 三层古皮层；~10%稀疏激活；无拓扑图；CA3型递归联想网络（模式补全能力）；早期信号门控+全局抑制实现浓度不变性；感知层级（梨状→杏仁核→OFC）；直接接收嗅球经LOT的投射 **[NEW 2026-07-26]**
@@ -215,7 +217,7 @@
 
 - 🟢 [光遗传学](methods/optogenetics.md) — ChR2（蓝光激活）+ NpHR/Arch（黄光沉默）+ Cre-lox/c-fos-tTA 遗传特异性递送，提供毫秒精度因果回路解析；印迹细胞/假记忆/效价翻转实验的核心工具 **[NEW 2026-06-09]**
 - 🟢 [扰动复杂性指数（PCI）](methods/perturbational-complexity-index.md) — IIT 的临床代理工具；TMS 扰动 + EEG 记录 + Lempel-Ziv 复杂度算法；区分清醒/NREM/麻醉/植物状态/最小意识状态；Casali 2013 奠基，多中心验证 **[NEW 2026-05-31]**
-- 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元，White 1986）→ 果蝇（139,255神经元，FlyWire 2024）；揭示网络拓扑（小世界、富人俱乐部、前馈回路）；结构约束功能但不充分描述动力学（结构-功能鸿沟）**[NEW 2026-06-18]**
+- 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元）→ 果蝇（139,255神经元，FlyWire 2024）→ 小鼠视觉皮层（MiCrONS 2025）；揭示小世界拓扑、富人俱乐部、同类相连布线规则；结构-功能鸿沟三大来源 **[修订 rev1→rev2 2026-08-06]**
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**
 - 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[NEW 2026-07-25]**
 

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "node_count": 199,
   "edge_count": 1148,
   "edge_types": [
@@ -1834,6 +1834,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/cb1-receptor.md"
+    },
+    {
+      "id": "small-world-network",
+      "title": "小世界网络",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/small-world-network.md"
+    },
+    {
+      "id": "like-to-like-connectivity",
+      "title": "同类相连",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/like-to-like-connectivity.md"
     }
   ],
   "edges": [
@@ -8323,6 +8341,46 @@
       "to": "fear-extinction",
       "type": "regulates",
       "note": "BLA CB1R 激活对恐惧消退因果必要"
+    },
+    {
+      "from": "small-world-network",
+      "to": "connectomics",
+      "type": "related"
+    },
+    {
+      "from": "small-world-network",
+      "to": "circuit-motifs",
+      "type": "related"
+    },
+    {
+      "from": "like-to-like-connectivity",
+      "to": "connectomics",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "like-to-like-connectivity",
+      "to": "small-world-network",
+      "type": "supports"
+    },
+    {
+      "from": "like-to-like-connectivity",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "like-to-like-connectivity",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "connectomics",
+      "to": "small-world-network",
+      "type": "supports"
+    },
+    {
+      "from": "connectomics",
+      "to": "like-to-like-connectivity",
+      "type": "supports"
     }
   ],
   "dangling_references": [
