@@ -1,7 +1,82 @@
 {
-  "last_updated": "2026-08-09",
-  "total_articles": 108,
+  "last_updated": "2026-08-10",
+  "total_articles": 109,
   "entries": [
+    {
+      "date": "2026-08-10",
+      "title": "脑干如何"点亮"大脑：上行激活系统的多源神经化学解剖与意识调控",
+      "filename": "2026-08-10-ascending-arousal-system-brainstem-wakefulness.md",
+      "article_number": 109,
+      "wiki_pages_created": [
+        "wiki/systems/ascending-arousal-system.md",
+        "wiki/concepts/orexin-hypocretin.md",
+        "wiki/concepts/flip-flop-switch-sleep-wake.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/norepinephrine-locus-coeruleus.md",
+        "wiki/systems/neuromodulator-systems.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "脑干五大神经调质核团（LC-NE/DRN-5HT/PPT-LDT-ACh/TMN-His/LH-Orexin）如何通过腹侧基底前脑路（主要）和背侧丘脑路（次要）维持皮层清醒背景？PB/PC谷氨酸通路为何是不可或缺的关键节点？VTA如何作为皮层下激活网络与皮层意识网络的枢纽？VLPO翻转开关如何使睡眠-清醒成为双稳态？食欲素缺失为何导致发作性睡病而非简单的嗜睡？",
+      "open_questions_added": [
+        "Q-aas-01",
+        "Q-aas-02",
+        "Q-aas-03"
+      ],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱1（神经调质·AAS深度解剖）+ 脊柱8（意识与自我·AAS为意识状态提供激活背景·Enabling NCC）+ 脊柱11（疾病作为窗口·发作性睡病/AD早期LC退变）；AAS作为从细胞调质系统（脊柱1）到意识状态（脊柱8）到意识障碍（#108连接）的桥梁",
+      "topic_tags": [
+        "ascending arousal system AAS ARAS",
+        "locus coeruleus LC norepinephrine NE",
+        "dorsal raphe nucleus DRN serotonin 5-HT",
+        "pedunculopontine tegmental PPT LDT acetylcholine ACh",
+        "tuberomammillary nucleus TMN histamine",
+        "lateral hypothalamus LH orexin hypocretin",
+        "parabrachial nucleus PB precoeruleus PC glutamate",
+        "basal forebrain two-branch model",
+        "VTA dopamine dAAN hub",
+        "VLPO flip-flop switch sleep-wake",
+        "adenosine sleep pressure A1 receptor caffeine",
+        "narcolepsy type 1 NT1 orexin deficiency HLA-DQB1",
+        "danavorexton OX2R agonist",
+        "LC degeneration Alzheimer Parkinson",
+        "inverted U NE optimal cognitive performance"
+      ],
+      "main_sources": [
+        "PMID:38691619",
+        "PMID:35878679",
+        "PMID:41116183",
+        "PMID:40905374",
+        "PMID:41076550",
+        "PMID:21280045",
+        "PMID:39593192",
+        "PMID:35328326"
+      ],
+      "open_access_fulltext": [
+        "PMC11870092",
+        "PMC9514025",
+        "PMC12536528",
+        "PMC12409474",
+        "PMC12515106",
+        "PMC3119596",
+        "PMC11598740",
+        "PMC8954377"
+      ],
+      "next_suggested_topics": [
+        "Q-aas-01裁决：AAS五系统冗余度与关键节点（单系统选择性消融实验）",
+        "Q-doc-01裁决：急性ICU期CMD检出率与早期预后价值",
+        "LC-NE与AD早期生物标志物：神经黑色素MRI在AD预防医学中的应用",
+        "主动推断/自由能原理与意识（课程脊柱8核心框架待覆盖）",
+        "睡眠的功能与胶质淋巴系统深度：为什么AAS必须每天关闭8小时"
+      ]
+    },
     {
       "date": "2026-08-09",
       "title": "意识的边界：当脑损伤遭遇意识——意识障碍的神经回路机制与前脑中间回路假说",

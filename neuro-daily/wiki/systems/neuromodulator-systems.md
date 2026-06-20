@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-07-08
-revision_count: 4
-dimensions: [molecular, cellular, brain-region, whole-brain-network, cognition]
-related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, three-factor-learning-rule, gain-control, multi-timescale-plasticity, short-term-synaptic-plasticity, serotonin-raphe-system, 5-ht-autoreceptor, circadian-clock, scn-circadian-pacemaker, glymphatic-system]
+updated: 2026-08-10
+revision_count: 5
+dimensions: [molecular, cellular, brain-region, whole-brain-network, cognition, disease]
+related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, three-factor-learning-rule, gain-control, multi-timescale-plasticity, short-term-synaptic-plasticity, serotonin-raphe-system, 5-ht-autoreceptor, circadian-clock, scn-circadian-pacemaker, glymphatic-system, ascending-arousal-system, orexin-hypocretin, flip-flop-switch-sleep-wake]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-ach-ne-04, Q-gain-timescale-interaction, Q-marder-principle-cortex]
-source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-07-08-circadian-clock-scn-brain-rhythm]
-key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433", "PMID:23040802", "PMID:29470969", "PMID:15309042", "PMID:10462127"]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-08-10-ascending-arousal-system-brainstem-wakefulness]
+key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433", "PMID:23040802", "PMID:29470969", "PMID:15309042", "PMID:10462127", "PMID:21280045", "PMID:38691619"]
 ---
 
 # 神经调质系统 (Neuromodulator Systems)
@@ -53,6 +53,20 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"
 | ACh 在 V1 中通过肌碱受体介导注意调制 | 电泳注射 + 猕猴 V1 记录 | Herrero 2008, PMID:18633352 | 高 |
 | LC-NE 有相位/紧张双模 | LC 单元记录 + 行为 | Aston-Jones & Cohen 2005, PMID:16254995 | 高 |
 | 基底前脑投射有拓扑特异性 | 高分辨率解剖重建 | Záborszky et al. 2018, PMID:30381436 | 中-高 |
+
+## 上行激活系统（AAS）框架：从调质系统到意识状态调控（2026-08-10 新增）
+
+调质系统与意识状态的连接点是**上行激活系统（AAS）**架构。AAS整合了五种主要调质（NE/5-HT/ACh/His/Orexin），通过两条通路（丘脑路/基底前脑路）向皮层传递激活信号：
+
+**关键结构发现（Fuller et al. 2011，PMID:21280045）**：
+- 双侧广泛丘脑毁损→EEG/行为无明显改变（推翻经典丘脑中继必要论）
+- 双侧脑桥被盖核（PB）+前蓝斑区（PC）谷氨酸能通路毁损→昏迷样状态
+- 结论：**腹侧通路（脑干→基底前脑→皮层）是激活皮层的主要路径**
+
+**VTA作为AAS枢纽（Edlow et al. 2024，PMID:38691619）**：
+Edlow等使用人类超高分辨率离体MRI识别出VTA（腹侧被盖区）连接皮层下激活网络（LC/DRN/TMN等）与皮层意识网络（DMN），是dAAN（默认上行激活网络）的关键枢纽。这将多巴胺系统与四大调质系统整合进同一"意识状态维持"框架。
+
+**翻转开关（flip-flop switch）**：VLPO（腹外侧视前区）通过GABA/甘丙肽抑制所有AAS核团形成双稳互抑回路（详见[[flip-flop-switch-sleep-wake]]）；食欲素（Orexin）稳定清醒态的翻转开关（详见[[orexin-hypocretin]]）。
 
 ## 昼夜节律对神经调质系统的协调
 
@@ -96,6 +110,7 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:19190638", "PMID:20668433"
 - 2026-05-30 · 修订 · 基于《第三周综合》 · 新增 Marder 原则（PMID:23040802）作为调质系统理论框架；将调质系统定位为多层增益控制架构（[[multi-timescale-plasticity]]）第二层；更新 related、opens_questions 和 key_sources
 - 2026-06-13 · 修订 · 基于《血清素的慢时钟》 · 补全5-HT系统（第四个调质系统）；新增5-HT系统对比DA/ACh/NE最严格的自受体负反馈机制说明；新增[[serotonin-raphe-system]]和[[5-ht-autoreceptor]]连接；更新 key_sources
 - 2026-07-08 · 修订 rev4 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对神经调质系统的协调"小节（四大调质系统的昼夜节律模式和 SCN 调控路径一览表）；related 新增 circadian-clock、scn-circadian-pacemaker、glymphatic-system；连接节重构扩充三条
+- 2026-08-10 · 修订 rev5 · 基于《脑干如何"点亮"大脑》(#109) · 新增"AAS框架"小节（两通道架构、PB/PC谷氨酸通路关键性、VTA枢纽、翻转开关）；related新增ascending-arousal-system、orexin-hypocretin、flip-flop-switch-sleep-wake；key_sources新增PMID:21280045、PMID:38691619；连接节补充AAS相关页面
 
 ## 来源文章
 

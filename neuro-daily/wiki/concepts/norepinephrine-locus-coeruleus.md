@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-07-11
-revision_count: 3
-dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition]
-related: [neuromodulator-systems, gain-control, working-memory, ltp, memory-consolidation, dopamine-reward-prediction-error, amygdala, fear-conditioning, fear-extinction, lc-hippocampus-dopamine, synaptic-tagging-capture]
+updated: 2026-08-10
+revision_count: 4
+dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition, disease]
+related: [neuromodulator-systems, ascending-arousal-system, gain-control, working-memory, ltp, memory-consolidation, dopamine-reward-prediction-error, amygdala, fear-conditioning, fear-extinction, lc-hippocampus-dopamine, synaptic-tagging-capture, disorders-of-consciousness]
 prerequisites: [synaptic-transmission, action-potential]
-opens_questions: [Q-ach-ne-03, Q-ach-ne-04, Q-lc-da-subtype]
-source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-amygdala-fear-memory, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
-key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858", "PMID:27602521", "PMID:38592773", "PMID:36041433"]
+opens_questions: [Q-ach-ne-03, Q-ach-ne-04, Q-lc-da-subtype, Q-aas-02]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-amygdala-fear-memory, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-08-10-ascending-arousal-system-brainstem-wakefulness]
+key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858", "PMID:27602521", "PMID:38592773", "PMID:36041433", "PMID:40905374", "PMID:35878679"]
 ---
 
 # 去甲肾上腺素与蓝斑系统 (Norepinephrine / Locus Coeruleus System)
@@ -66,6 +66,20 @@ LC 的**新奇检测功能**：新颖环境或刺激引起 LC 强相位爆发，
 - 情绪唤醒事件激活 LC 的强相位放电 → 杏仁核 NE 大量释放 → β 受体 → PKA → BLA-LTP 阈值降低 → 恐惧记忆被优先写入并强化巩固
 - 这是"闪光灯记忆"（flashbulb memory，情绪事件被异常清晰记住）的分子基础
 - **应激损害消退**（Plas et al. 2024）：应激导致 LC 过度激活 → 杏仁核 NE 过载 → α1 受体激活（损害 PFC 功能）+ BLA 过激活 → vmPFC/IL 功能相对不足 → 消退获得和表达受损；这是 PTSD 中应激损害消退的 NE-神经回路机制之一
+
+**LC在上行激活系统（AAS）中的解剖位置（2026-08-10 新增）**：
+
+LC是上行激活系统（AAS）的核心节点之一，是**皮层NE的唯一来源**（Maness et al. 2022, PMID:35878679）。AAS通过腹侧通路（脑干→外侧下丘脑→基底前脑→皮层，主要路径）和背侧通路（脑干→丘脑非特异性核→皮层，次要路径）向皮层传递激活信号。LC主要通过腹侧通路贡献NE，同时也直接向丘脑投射（间接激活皮层）。
+
+**LC的拓扑组织——选择性集合体（2026-08-10 新增）**：
+
+与"均质弥散广播"的经典观点不同，Caestecker et al.（2025, PMID:40905374）综述指出，LC神经元构成**协调但选择性的集合体（selective ensembles）**：背侧LC神经元优先投射前脑（皮层/海马/杏仁核），腹侧LC神经元投射小脑和脊髓。这一拓扑组织允许NE在不同脑区进行时空分离释放，支持不同认知功能的独立调制——从解剖精细程度来看，LC并非一个均质的"皮层NE水管"。
+
+**LC退变与神经系统疾病（2026-08-10 新增）**：
+
+LC是**阿尔茨海默病（AD）最早退变的脑区之一**，尸检显示AD晚期约55%的LC神经元丢失，这一退变可能早于Aβ斑块的显著形成（Caestecker et al. 2025, PMID:40905374）。帕金森病（PD）中，LC退变同样先于黑质多巴胺神经元的显著丢失。这使LC成为AD和PD极早期生物标志物的潜在来源——神经黑色素MRI现已可检测活体LC退变程度，这一技术可能成为未来早期诊断窗口。
+
+LC退变对认知的影响机制：NE增益调制减弱→皮层信噪比降低→早期记忆和注意障碍；同时NE的神经保护功能（通过β-AR激活星形胶质细胞/小胶质细胞，抑制NF-κB炎症通路）丧失，可能加速神经炎症进程。
 
 **LC 活动模式（Aston-Jones & Cohen 2005, PMID:16254995）**：
 
@@ -134,6 +148,7 @@ LC 的**新奇检测功能**：新颖环境或刺激引起 LC 强相位爆发，
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
 - 2026-05-30 · 修订 · 基于《当杏仁核学会恐惧》一文 · 新增 LC-杏仁核轴在恐惧记忆巩固中的作用（β受体/BLA-LTP，闪光灯记忆机制）；应激-NE-消退受损回路（Plas 2024）；related 新增 amygdala、fear-conditioning、fear-extinction；key_sources 新增 PMID:38370858
 - 2026-07-11 · 修订 rev3 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 新增"LC 多巴胺共释放与海马记忆标记"段落（DA 通道独立性、新奇检测、记忆联结）；连接节新增 lc-hippocampus-dopamine、synaptic-tagging-capture，ltp/memory-consolidation 补充 DA 通道说明；关键证据表新增4行；related 新增 lc-hippocampus-dopamine、synaptic-tagging-capture；未解问题新增 Q-lc-da-subtype；key_sources 新增3个
+- 2026-08-10 · 修订 rev4 · 基于《脑干如何"点亮"大脑》文章（#109）· 新增"LC在AAS中的解剖位置"（腹侧通路主要路径）；新增"选择性集合体"拓扑组织（Caestecker 2025）；新增"LC退变与AD/PD早期病程"（55%神经元丢失，神经黑色素MRI）；related新增ascending-arousal-system、disorders-of-consciousness；opens_questions新增Q-aas-02；key_sources新增PMID:40905374、PMID:35878679
 
 ## 来源文章
 

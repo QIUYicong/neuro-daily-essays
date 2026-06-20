@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-08-10 · 文章 #109 · 脑干如何"点亮"大脑：上行激活系统的多源神经化学解剖与意识调控
+
+**核心主题**：上行激活系统（AAS）的五核团架构（LC-NE / DRN-5HT / PPT-LDT-ACh / TMN-His / LH-Orexin）；Fuller 2011双通道模型（丘脑路次要 / 基底前脑路主要；PB/PC谷氨酸通路毁损→昏迷样状态）；Edlow 2024 VTA作为dAAN枢纽（人类超高分辨率MRI）；LC倒U型增益曲线与选择性集合体拓扑；AD/PD早期LC退变（55%神经元丢失早于Aβ斑块）；DRN→VTA血清素通路的清醒促进（Wang 2024，光遗传/化学遗传）；VLPO-AAS翻转开关模型（Arrigoni & Fuller 2022）；腺苷/PGD₂的睡眠驱动信号；食欲素作为系统稳定器；NT1中95%食欲素神经元丢失（Rauf 2025）；OX2R激动剂danavorexton（MWT+11.1分）。
+
+**新建页面（3）**：
+- `wiki/systems/ascending-arousal-system.md`（rev1，status: established，confidence: high）— 五核团架构、两通道模型、VTA枢纽、翻转开关
+- `wiki/concepts/orexin-hypocretin.md`（rev1，status: established，confidence: high）— 食欲素生理、NT1病理、OX2R治疗
+- `wiki/concepts/flip-flop-switch-sleep-wake.md`（rev1，status: established，confidence: high）— VLPO双稳互抑、腺苷信号、食欲素稳定化
+
+**修订页面（2）**：
+- `wiki/concepts/norepinephrine-locus-coeruleus.md`（rev3→rev4）— 新增LC在AAS中的解剖位置（腹侧通路）、选择性集合体拓扑组织、AD/PD早期LC退变机制；related新增ascending-arousal-system、disorders-of-consciousness
+- `wiki/systems/neuromodulator-systems.md`（rev4→rev5）— 新增"AAS框架"小节（两通道架构、PB/PC谷氨酸通路、VTA枢纽、翻转开关）；related新增ascending-arousal-system、orexin-hypocretin、flip-flop-switch-sleep-wake
+
+**图谱更新**：210节点/1206边 → 213节点/1226边（+3节点，+20边）
+
+**新增未解问题**：
+- Q-aas-01（高优先级）：AAS五系统的冗余度与关键节点
+- Q-aas-02（中优先级）：人类AAS活体功能图谱（7T MRI技术挑战）
+- Q-aas-03（低优先级）：翻转开关之外的睡眠-清醒调控（皮层自上而下路径）
+
+---
+
 ## 2026-08-09 · 文章 #108 · 意识的边界：意识障碍的神经回路机制与前脑中间回路
 
 **核心主题**：意识障碍（DoC）的连续谱分类（昏迷→VS/UWS→MCS→CMD）；前脑中间回路（Mesocircuit Hypothesis，Schiff 2009/2022）——皮层损伤→纹状体失驱动→GPi脱抑制→中央丘脑过度抑制→VS/UWS自我维持的可逆回路阻断；认知运动解离（CMD）——25%"无反应"患者有隐蔽意识（Bodien NEJM 2024，n=353）；PCI阈值（0.31）区分MCS/VS，rTMS响应生物标志物；唑吡坦悖论的GPi机制；上行激活系统受损与DMN/FPN网络破碎化。

@@ -1,0 +1,101 @@
+# Run Log: 2026-08-10
+
+## 基本信息
+
+- **知识库日期**：2026-08-10（容器系统日期：~2026-06-21，顺序递推）
+- **文章编号**：#109
+- **运行状态**：✅ 完成
+- **耗时**：约 1.5 个 Claude Code 上下文窗口（跨上下文恢复，接续 #108 完成后的新会话）
+
+---
+
+## 执行步骤记录
+
+### 步骤 0：读取状态（Step 0）
+- 读取 `ROUTINE.md`、git log 确认上次运行：#108（2026-08-09，意识障碍/DoC，commit 3096ecd）
+- 读取 `neuro-daily/logs/2026-08-09-run.log` 确认下次运行建议
+- 读取 `topic_ledger.json`、`unresolved_questions.md` 掌握状态
+- 读取 `wiki/index.md` 了解已有页面（209页包含AAS/orexin/flip-flop占位）
+- 检查 `wiki/systems/` 和 `wiki/concepts/` 发现已有 neuromodulator-systems + norepinephrine-locus-coeruleus + serotonin-raphe-system（需修订而非新建）
+
+### 步骤 A：选题（Step A）
+- 选定主题：**上行激活系统（AAS）的多源神经化学解剖与意识调控**
+- 理由：(1) 层级平衡——#107/108连续两篇全脑网络/疾病层，需回到细胞/回路层；(2) AAS是#108 DoC文章的直接上游机制；(3) 课程脊柱1（神经调质深度）+脊柱8（意识·AAS解剖）；(4) 有强新文献（Edlow 2024 Sci Transl Med；Fuller 2011经典但被广泛引用）
+- 文件名：`2026-08-10-ascending-arousal-system-brainstem-wakefulness.md`
+
+### 步骤 B：文献研究（Step B）
+- 使用 WebSearch + WebFetch 搜索 8 轮
+- 采用来源 8 篇（全部 PMC 开放全文）
+- 核心来源：Edlow 2024 Sci Transl Med（VTA=dAAN枢纽）、Fuller 2011 J Comp Neurol（两通道架构）、Rauf 2025 Brain Behav（食欲素NT1）、Caestecker 2025 Eur J Neurol（LC-NE综述）
+- 来源保存至：`neuro-daily/sources/2026-08-10-sources.json`
+- 阅读笔记保存至：`neuro-daily/notes/2026-08-10-reading-notes.md`
+
+### 步骤 C：撰写文章（Step C）
+- 文章：`neuro-daily/articles/2026-08-10-ascending-arousal-system-brainstem-wakefulness.md`
+- 字数：~5500 字（符合 3000-6000 中文字要求）
+- 结构：导言 → 历史背景（ARAS→两通道革命）→ 五大核团深度（LC/DRN/PPT-LDT/TMN/Orexin）→ VTA枢纽（Edlow 2024）→ 翻转开关（VLPO）→ 比喻（五重奏+指挥+断路器）→ 意义 → 争议 → AI比较 → 概念卡片 → 参考来源
+- 来源引用：8 篇，全部有内文标注
+
+### 步骤 D：Wiki 固结（Step D）
+**新建页面（3）**：
+- `wiki/systems/ascending-arousal-system.md`（rev1，status: established，confidence: high）
+- `wiki/concepts/orexin-hypocretin.md`（rev1，status: established，confidence: high）
+- `wiki/concepts/flip-flop-switch-sleep-wake.md`（rev1，status: established，confidence: high）
+
+**修订页面（2）**：
+- `wiki/concepts/norepinephrine-locus-coeruleus.md`（rev3→rev4，新增LC在AAS中的位置、选择性集合体、AD/PD早期退变）
+- `wiki/systems/neuromodulator-systems.md`（rev4→rev5，新增AAS框架小节，VTA枢纽，翻转开关）
+
+**图谱元数据修正**：发现 _graph.json header node_count=199/edge_count=1148 与实际节点数（210/1206，来自#107+#108）不一致——header未更新。修正为 210/1206 并追加今日新节点/边后更新至 213/1226。
+
+### 步骤 E：导航更新（Step E）
+- `wiki/_graph.json`：210节点/1206边 → 213节点/1226边（+3节点，+20边；header从stale 199/1148修正为真实值后再更新）
+- `wiki/index.md`：header 更新至 2026-08-10，205→208 页（新增3页）；新增 ascending-arousal-system 条目（systems section）；新增 flip-flop-switch-sleep-wake 和 orexin-hypocretin 条目（concepts section）；更新 norepinephrine-locus-coeruleus 描述（rev4）；更新 neuromodulator-systems 描述（rev5）
+- `wiki/CHANGELOG.md`：新增 2026-08-10 条目（详细记录新建/修订页面和未解问题）
+
+### 步骤 F：状态文件更新（Step F）
+- `topic_ledger.json`：total_articles 108→109，新增 #109 entry
+- `unresolved_questions.md`：新增 Q-aas-01、Q-aas-02、Q-aas-03，更新 last_updated
+- `source_registry.json`：新增 sources_2026-08-10 节（8 条来源），更新 last_updated
+- `monthly_synthesis.md`：新增 #109 行、洞见 #110，更新本月截至日期和文章列表
+
+### 步骤 G：Git 提交和推送（Step G）
+- branch: main（单分支累积方案）
+- commit message: `Add neuro daily article + wiki consolidation for 2026-08-10`
+- push: git push -u origin main
+
+---
+
+## 质量检查
+
+| 检查项 | 状态 |
+|--------|------|
+| 文章字数 3000-6000 字 | ✅（~5500 字） |
+| 来源 ≥5 篇 | ✅（8 篇） |
+| 开放全文 ≥2 篇 | ✅（8 篇全部 PMC 开放全文） |
+| 官方机构来源 ≥1 篇 | ✅（NIH PMC 多篇）|
+| 不使用 Sci-Hub/盗版 | ✅ |
+| 未编造来源/PMID | ✅（均可验证）|
+| Wiki 新建/修订 | ✅（新建3页，修订2页）|
+| 状态文件更新 | ✅（全部5个状态文件已更新）|
+| 图谱更新 | ✅（_graph.json 213节点/1226边；修正stale header）|
+
+---
+
+## 本次运行说明
+
+本次运行为独立新会话，接续上次 #108 完成后的状态。通过读取日志/状态文件确认上次完成情况，决定主题为 AAS（上行激活系统），这是 #108 DoC 文章的直接上游机制，也是知识库层级平衡（从疾病/全脑网络回到细胞/回路层）所需。
+
+**重要技术修正**：发现 `_graph.json` 的 header 字段（node_count: 199, edge_count: 1148）与实际节点数（210/1206，来自 #107 + #108 run的添加）不一致，这是上次运行中 header 未被更新的 bug。本次运行在追加新节点前先计算实际数值并修正，确保 header 与实际数据一致（最终 213/1226）。
+
+容器系统日期为 ~2026-06-21，知识库日期通过顺序递推确定为 2026-08-10。
+
+---
+
+## 下次运行建议
+
+1. **Q-aas-01**（高优）：AAS五系统冗余度与关键节点——单系统消融实验文献
+2. **Q-doc-01**（高优）：CMD在急性ICU期检出率——前瞻性研究进展
+3. **LC-NE与AD早期生物标志物**：神经黑色素MRI在AD前驱期预测的应用
+4. **主动推断/自由能原理（Free Energy Principle）**：课程脊柱8核心框架，意识理论中Friston框架尚未覆盖
+5. **睡眠的功能与AAS周期性关闭**：胶质淋巴系统 + 突触缩放 + 记忆巩固的整合性视角（已有部分pages，可做综合深化）

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-09",
-  "node_count": 199,
-  "edge_count": 1148,
+  "updated": "2026-08-10",
+  "node_count": 213,
+  "edge_count": 1226,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1915,6 +1915,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/mesocircuit-hypothesis.md"
+    },
+    {
+      "id": "ascending-arousal-system",
+      "title": "上行激活系统",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/ascending-arousal-system.md"
+    },
+    {
+      "id": "orexin-hypocretin",
+      "title": "食欲素（下丘脑泌素）与发作性睡病",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/orexin-hypocretin.md"
+    },
+    {
+      "id": "flip-flop-switch-sleep-wake",
+      "title": "睡眠-清醒翻转开关",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/flip-flop-switch-sleep-wake.md"
     }
   ],
   "edges": [
@@ -8639,6 +8666,106 @@
       "from": "thalamus",
       "to": "mesocircuit-hypothesis",
       "type": "related"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "neuromodulator-systems",
+      "type": "part-of"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "neural-correlates-of-consciousness",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "thalamus",
+      "type": "regulates"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "disorders-of-consciousness",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "mesocircuit-hypothesis",
+      "type": "related"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "rem-sleep",
+      "type": "regulates"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "sleep-spindles",
+      "type": "regulates"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "part-of"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "serotonin-raphe-system",
+      "type": "part-of"
+    },
+    {
+      "from": "ascending-arousal-system",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "orexin-hypocretin",
+      "to": "ascending-arousal-system",
+      "type": "part-of"
+    },
+    {
+      "from": "orexin-hypocretin",
+      "to": "flip-flop-switch-sleep-wake",
+      "type": "regulates"
+    },
+    {
+      "from": "orexin-hypocretin",
+      "to": "neuromodulator-systems",
+      "type": "related"
+    },
+    {
+      "from": "orexin-hypocretin",
+      "to": "rem-sleep",
+      "type": "regulates"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "ascending-arousal-system",
+      "type": "part-of"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "neuromodulator-systems",
+      "type": "regulates"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "sleep-spindles",
+      "type": "related"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "cortical-slow-oscillation",
+      "type": "related"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "rem-sleep",
+      "type": "related"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "orexin-hypocretin",
+      "type": "regulates"
     }
   ],
   "dangling_references": [
