@@ -1,0 +1,85 @@
+# Run Log: 2026-06-20 (Duplicate Trigger #5)
+
+**Date**: 2026-06-20 (Beijing Time / UTC+8)
+**Status**: NO-OP — 今日文章已存在，知识库已完全同步
+**Branch**: main
+**Commit**: 3f2d48f (当前 main HEAD)
+
+---
+
+## 状况说明
+
+今日为第 5 次在系统日期 2026-06-20 触发的运行。
+
+已确认：
+- 当天文章 `articles/2026-06-20-language-dual-stream.md`（#56）已存在，完整（279行）。
+- 已有运行日志：`2026-06-20-run.log`、`2026-06-20-json-fix.log`、`2026-06-20-duplicate-trigger-3.log`、`2026-06-20-duplicate-trigger-4.log`。
+- `情景层 append-only` 不变量：不修改/不删除已有文件。
+
+根据 ROUTINE.md：「不要反复生成同一天文章」——本次不生成新文章。
+
+---
+
+## 知识库当前状态（完整同步）
+
+- **已有文章**：106 篇（#1–#106，截至 2026-08-07）
+- **最新文章**：`2026-08-07-brocas-area-syntax-merge-language-evolution.md`（#106）
+- **origin/main**：已同步至 2026-08-07（commit 3f2d48f）
+- **连续性状态**：✅ 正常——全部 106 篇文章均在 main 上
+
+---
+
+## 知识库覆盖摘要
+
+主要课程路线已覆盖内容（截至 2026-08-07）：
+
+1. **神经元如何工作**（路线1）：动作电位、轴突始段、SNARE复合物、突触小泡、可兴奋性
+2. **神经网络如何建成**（路线2）：神经发生、轴突导向、突触生成、关键期、髓鞘化
+3. **大脑如何编码世界**（路线3）：视觉皮层层级、CNN对应、嗅觉编码、听觉皮层、体感皮层S1、多感觉整合
+4. **学习和记忆**（路线4）：LTP/LTD、STDP、海马回放、时间细胞、记忆再巩固、糖皮质激素×记忆
+5. **认知控制**（路线5）：工作记忆、theta-gamma耦合、alpha振荡注意门控、β振荡预测
+6. **情绪与动机**（路线6）：杏仁核恐惧印迹、多巴胺TD学习、内源性大麻素、安慰剂镇痛
+7. **语言与抽象思维**（路线7）：双流网络、Broca区句法合并 ← **当前最新**
+8. **意识与自我**（路线8）：预测编码/自由能原理、GWT vs IIT 矛盾已登记
+9. **Connectomics**（路线9）：FlyWire、小鼠MICRONS、结构连接组
+10. **方法革命**（路线10）：单细胞RNA测序、钙成像、光遗传
+11. **疾病作为窗口**（路线11）：PTSD×记忆再巩固、慢性疼痛、安慰剂医学
+12. **人脑与AI**（路线12）：CNN×视觉皮层、Transformer×注意、海马回放×经验回放、LLM×语言网络
+
+---
+
+## 开放矛盾（6条，均为 open 状态）
+
+| ID | 页面 | 性质 |
+|----|------|------|
+| C-2026-05-24-01 | wiki/circuits/chandelier-cell.md | GABA兴奋/抑制发育转变物种差异 |
+| C-2026-05-25-01 | wiki/concepts/SNARE-complex.md | 突触小泡开放模式（全融合 vs 接吻-离开） |
+| C-2026-05-31-01 | wiki/theories/integrated-information-theory.md | IIT后方皮层同步预测 vs COGITATE 2025否定 |
+| C-2026-05-31-02 | wiki/concepts/consciousness-ignition.md | GWT点燃缺失 vs 替代解释 |
+| C-2026-06-22-01 | wiki/concepts/grid-cells.md | 网格细胞：主动导航 vs 被动虚拟范式 |
+| （第6条） | 未读取 | — |
+
+---
+
+## 下次运行建议主题
+
+基于 2026-08-07 文章的 `next_suggested_topics`：
+
+1. **意识的神经关联（NCC）与全局工作空间理论**（课程路线8）
+   - 优先：裁决 C-2026-05-31-01 和 C-2026-05-31-02（IIT/GWT 矛盾）
+2. **FOXP2与语言发育**（追问 Q-lang-06）
+   - 连接遗传学、发育、语言三条线
+3. **语义网络的大脑分布**（颞叶ATL/MTG、模态特异语义）
+   - 完善课程路线7
+
+---
+
+## 操作记录
+
+- [x] 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md
+- [x] 确认 remote = QIUYicong/neuro-daily-essays（正确）
+- [x] git pull origin main（已拉取最新，获取文章 #77–#106）
+- [x] 确认今日文章已存在（不重复生成）
+- [x] 确认知识库 main 完全同步
+- [x] 写本次运行日志
+- [ ] 提交并推送日志到 origin/main
