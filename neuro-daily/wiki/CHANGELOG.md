@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-08-02 · 文章 #101 · 痛觉的守门人：TRPV1、脊髓背角与慢性疼痛的神经机制
+
+**核心主题**：痛觉的完整神经科学图谱——外周伤害感受器（TRPV1/TRPA1/Nav1.7-1.9）；Aδ vs C纤维双时程痛觉；脊髓背角闸门控制（DYN+/PKCγ+/SOM+分子定义回路）；中枢敏化（NMDA-LTP机制+小胶质细胞-BDNF-KCC2恶性循环）；脊髓丘脑束→痛觉矩阵；cingulotomy情感-感觉分离；PAG-RVM下行阿片镇痛回路；慢性疼痛作为中脑边缘系统劫持。
+
+**知识库首次覆盖痛觉系统**：此前 wiki 完全无痛觉相关页面；本文新建6个核心页面并修订3个现有页面，填补感觉系统最后一块重大空白。
+
+**新建页面（6）**：
+- `concepts/nociceptor.md`（伤害感受器）🟢 established · 高置信度 — TRP通道（TRPV1/TRPA1/TRPM8/TRPV2）；Nav1.7/1.8/1.9（Nav1.7人类遗传金标准验证）；P2X3 ATP传感器；Aδ vs C纤维双时程；外周致敏分子机制（PGE2/缓激肽/NGF）；Q-pain-01/Q-pain-02
+- `concepts/gate-control-theory.md`（闸门控制理论）🔵 mainstream · 高置信度 — Melzack-Wall 1965历史；Koch 2018分子验证：DYN+/Ret+（抑制）/PKCγ+/SOM+（兴奋）；闸门开/关回路图；KCC2下调-GABA翻转；小胶质细胞-BDNF正反馈；PAG-RVM下行控制；历史模型 vs 现代分子修订对比表；Q-pain-03
+- `concepts/central-sensitization.md`（中枢敏化）🟢 established · 高置信度 — NMDA-Ca²⁺-多激酶级联（MAPK/PKC/Src/PKA/PI3K）；wind-up现象；KCC2下调机制（小胶质细胞-BDNF-TrkB→KCC2↓→GABA去极化）；与海马LTP同源对比表；临床相关性（纤维肌痛/氯胺酮预防慢性痛）；Q-pain-04
+- `systems/pain-matrix.md`（痛觉矩阵）🔵 mainstream · 中置信度 — S1/S2/岛叶/ACC/PFC三维度分工；新脊丘束/旁脊丘束双路分叉（VPL vs VMpo→ACC）；cingulotomy经典分离；Tracey & Mantyh 2007框架；Wager NPS模式分析；Baliki & Apkarian慢性化中脑边缘系统重组
+- `systems/anterior-cingulate-cortex.md`（前扣带回）🟢 established · 高置信度 — dACC/sgACC/rACC三亚区分工；cingulotomy"知痛不感苦"分离证据；ACC→PAG下行镇痛；社会排斥-身体疼痛共享dACC（Eisenberger 2003）；共情性疼痛；慢性化NAc-ACC功能连接预测因子
+- `systems/periaqueductal-gray.md`（导水管周围灰质）🟢 established · 高置信度 — PAG刺激镇痛+纳洛酮阻断内源性阿片因果证据；vlPAG细胞多样性（McPherson & Ingram 2022）；μ-OR双重位置（细胞体+突触前GABA末梢）；RVM ON/OFF-cells分工；急性vs慢性疼痛PAG状态转换；应激诱导镇痛（SIA）机制
+
+**修订页面（3）**：
+- `systems/somatosensory-cortex.md` rev1→rev2 — 新增"S1在痛觉中的角色"小节（脊髓丘脑束→VPL→S1感觉分辨通路；cingulotomy后S1保留；Q-s1-02直接解答）；related新增pain-matrix, nociceptor
+- `systems/thalamus.md` rev5→rev6 — 新增"痛觉丘脑核团"小节（VPL→S1 vs VMpo/MDvc→ACC/岛叶双路分叉表）；related新增pain-matrix, nociceptor
+- `concepts/nmda-receptor.md` rev5→rev6 — 新增第六重角色：脊髓背角中枢敏化触发器（wind-up/氯胺酮临床验证）；related新增central-sensitization, gate-control-theory
+
+**新增开放问题（4）**：
+- Q-pain-01（高）：Nav1.7遗传验证vs临床试验失望——为何遗传靶点无法直接转化为药物？代偿机制？
+- Q-pain-02（中）：沉默伤害感受器（mechanically insensitive C fibers）炎症后获得机械敏感性的分子切换机制？
+- Q-pain-03（中）：Melzack-Wall"T细胞"对应哪些分子亚型？NK1R+投射神经元是否是现代版本？
+- Q-pain-04（高）：中枢敏化建立后是否有干预可完全逆转？KCC2下调/抑制性神经元丧失有多少是可逆的？
+
+**图谱**：188节点→194节点（+6：nociceptor, gate-control-theory, central-sensitization, pain-matrix, anterior-cingulate-cortex, periaqueductal-gray），1100边→~1118边（+~18新边）
+
+---
+
 ## 2026-08-01 · 文章 #100（里程碑）· 读懂另一个心灵：心智理论×TPJ×镜像神经元×社会脑
 
 **核心主题**：心智理论（ToM）的神经网络——pTPJ（信念推断/视角转换）、mPFC（腹侧特质推断/背侧抽象心理状态推断）、DMN dMPFC 子系统（社会叙事整合）三节点分工；镜像神经元系统（MNS，Rizzolatti 1992猕猴 F5→BA44 同源）与 ToM 的关系争议（Hickok "broken mirror" 批评）；ASD 中 DMN 功能连接降低与 ToM 缺陷的关联；GPT-4 ToM 测试的双重解读。

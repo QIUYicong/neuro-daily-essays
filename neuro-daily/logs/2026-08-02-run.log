@@ -1,0 +1,98 @@
+# 日常运行日志 · 2026-08-02
+
+**运行类型**：定时任务（scheduled routine，09:00 北京时间）
+**实际系统时钟**：2026-06-20（容器重置，时钟固定）
+**使用知识库日期**：2026-08-02（date-forward 规则：上一篇文章 2026-08-01 #100 + 1 天）
+**运行状态**：SUCCESS
+**文章编号**：#101
+
+---
+
+## 执行摘要
+
+**文章**：《痛觉的守门人：从TRPV1到前扣带回——疼痛信号的神经回路全景》
+**文件**：`neuro-daily/articles/2026-08-02-pain-nociception-spinal-dorsal-horn-acc.md`
+**字数**：约 5600 字
+
+**主题选择理由**：
+1. 感觉系统覆盖缺口：视觉/听觉/嗅觉/触觉/多感觉均已覆盖，痛觉是唯一未建页面的重大感觉系统
+2. 层次多样性：前7天均为脑区/认知层，痛觉文章跨越分子/细胞/突触/脑区/疾病多层
+3. 文献充分性：8篇来源，6篇 PMC 开放获取全文
+
+---
+
+## 文献检索
+
+**搜索数据库**：PubMed NCBI E-utilities + PMC Open Access
+**搜索词汇（12条）**：
+- "Basbaum cellular molecular mechanisms pain 2009"
+- "TRPV1 nociception capsaicin receptor review"
+- "gate control theory pain spinal dorsal horn Melzack Wall"
+- "spinal dorsal horn inhibitory interneurons gate control pain"
+- "Nav1.7 SCN9A congenital insensitivity pain erythromelalgia"
+- "KCC2 downregulation GABA pain chronic sensitization"
+- "periaqueductal gray descending pain modulation opioid"
+- "anterior cingulate cortex pain affect motivation"
+- "pain matrix cerebral signature fMRI"
+- "Baliki Apkarian chronic pain mesolimbic"
+- "endogenous opioid peptides descending pain circuit"
+- "cellular circuit diversity opioids descending pain"
+
+**候选文献**：42篇
+**筛查文献**：16篇
+**最终使用**：8篇（6篇全文 + 2篇仅摘要）
+
+**核心来源**：
+- S1: Basbaum AI et al. (2009) Cell PMID:19837031 · 里程碑综述 · Julius 2021诺贝尔奖 · >12000引用 · ✅全文
+- S2: Koch SC et al. (2018) Ann Rev Physiol PMID:28961064 · 闸门控制分子验证 · ✅全文
+- S3: Tracey I & Mantyh PW (2007) Neuron PMID:17678852 · 痛觉矩阵框架 · ❌仅摘要（付费墙）
+- S4: Baliki MN & Apkarian AV (2015) Neuron PMID:26247858 · 慢性疼痛中脑边缘系统框架 · ✅全文
+- S5: McPherson KB & Ingram SL (2022) Front Syst Neurosci PMID:36045708 · PAG-RVM细胞多样性 · ✅全文
+- S6: Emery EC et al. (2015) J Neurosci PMID:25995458 · Nav1.7 SCN9A家系遗传 · ✅全文
+- S7: Bagley EE & Ingram SL (2020) Neuropharm PMID:32422213 · 内源性阿片肽下行回路 · ✅全文
+- S8: Julius D & Basbaum AI (2001) Nature PMID:11557989 · 历史性综述 · ❌仅摘要（付费墙）
+
+---
+
+## Wiki 固结
+
+### 新建页面（6）
+- `wiki/concepts/nociceptor.md` — established · 高置信度 · Q-pain-01, Q-pain-02
+- `wiki/concepts/gate-control-theory.md` — mainstream · 高置信度 · Q-pain-03
+- `wiki/concepts/central-sensitization.md` — established · 高置信度 · Q-pain-04
+- `wiki/systems/pain-matrix.md` — mainstream · 中置信度（痛觉矩阵特异性争议）
+- `wiki/systems/anterior-cingulate-cortex.md` — established · 高置信度
+- `wiki/systems/periaqueductal-gray.md` — established · 高置信度
+
+### 修订页面（3）
+- `wiki/systems/somatosensory-cortex.md` rev1→rev2（新增痛觉感觉-分辨维度节）
+- `wiki/systems/thalamus.md` rev5→rev6（新增痛觉丘脑核团：VPL/VMpo/MDvc）
+- `wiki/concepts/nmda-receptor.md` rev5→rev6（新增第六重角色：脊髓中枢敏化触发器）
+
+### 图谱更新
+- 节点：188 → 194（+6）
+- 边：1100 → 1118（+18）
+- 新增开放问题：Q-pain-01 至 Q-pain-04
+
+### 状态文件更新
+- `state/topic_ledger.json` — last_updated: 2026-08-02, total_articles: 84, 新增 #101 条目
+- `state/unresolved_questions.md` — 新增 Q-pain-01 至 Q-pain-04
+- `state/source_registry.json` — additions_2026-08-02 新增 8 个 PMID
+- `state/monthly_synthesis.md` — 8月条目更新至 2 篇；新增痛觉主题综合洞见 #104/#105
+- `wiki/CHANGELOG.md` — 新增 2026-08-02 变更条目
+- `wiki/index.md` — 主题页总数 185→189（实际新建4/修订3），页面列表更新
+
+---
+
+## 注释
+
+- **日期偏移**：系统时钟 2026-06-20，知识库使用 date-forward 规则（上一篇 +1 天 = 2026-08-02）
+- **付费墙处理**：S3（Tracey & Mantyh 2007）和 S8（Julius & Basbaum 2001）仅使用摘要，核心内容均通过 S1、S4、S5 交叉核实，未引入未经验证的说法
+- **置信度校准**：pain-matrix 定为 medium，因该概念的特异性（vs 显著性矩阵）仍有争议
+- **本次提交分支**：main（按 ROUTINE.md 规定）
+
+---
+
+## 运行完成时间
+
+日志创建时间：2026-08-02 09:15（北京时间，知识库时间）

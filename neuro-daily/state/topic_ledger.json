@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-01",
-  "total_articles": 83,
+  "last_updated": "2026-08-02",
+  "total_articles": 84,
   "entries": [
     {
       "date": "2026-07-31",
@@ -5977,6 +5977,71 @@
         "自我参照处理（mPFC×PCC×DMN在自我-他人区分中的角色）",
         "社会规范与道德判断（PFC×TPJ×杏仁核×VMO系统）",
         "孤独症谱系障碍（ASD）的神经生物学机制（完整视角）"
+      ]
+    },
+    {
+      "date": "2026-08-02",
+      "title": "痛觉的守门人：从TRPV1到前扣带回——疼痛信号的神经回路全景",
+      "filename": "2026-08-02-pain-nociception-spinal-dorsal-horn-acc.md",
+      "article_number": 101,
+      "wiki_pages_created": [
+        "wiki/concepts/nociceptor.md",
+        "wiki/concepts/gate-control-theory.md",
+        "wiki/concepts/central-sensitization.md",
+        "wiki/systems/pain-matrix.md",
+        "wiki/systems/anterior-cingulate-cortex.md",
+        "wiki/systems/periaqueductal-gray.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/somatosensory-cortex.md",
+        "wiki/systems/thalamus.md",
+        "wiki/concepts/nmda-receptor.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "疼痛信号如何从外周感受器经过脊髓背角的动态门控、穿越上行丘脑通路、到达大脑痛觉矩阵并产生主观体验？闸门控制理论的分子基础是什么？中枢敏化如何把急性疼痛转变为慢性疾病？",
+      "open_questions_added": [
+        "Q-pain-01",
+        "Q-pain-02",
+        "Q-pain-03",
+        "Q-pain-04"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界·感觉系统·痛觉）+ 脊柱11（疾病作为窗口·慢性疼痛）",
+      "topic_tags": [
+        "nociceptor TRPV1 TRPA1 TRPM8 Nav1.7 pain",
+        "gate control theory Melzack Wall spinal dorsal horn",
+        "DYN+ PKCgamma+ SOM+ interneurons allodynia",
+        "central sensitization NMDA LTP wind-up",
+        "KCC2 downregulation GABA depolarization microglia BDNF",
+        "pain matrix ACC insula S1 PFC spinothalamic tract",
+        "cingulotomy affective pain dissociation",
+        "PAG RVM descending analgesia endogenous opioid",
+        "ON cells OFF cells rostral ventromedial medulla",
+        "chronic pain mesolimbic reorganization"
+      ],
+      "main_sources": [
+        "PMID:19837031 (PMCID:PMC2852643, open access, full text read)",
+        "PMID:28961064 (PMCID:PMC5891508, open access, full text read)",
+        "PMID:17678852 (abstract only)",
+        "PMID:26247858 (PMCID:PMC4529956, open access, full text read)",
+        "PMID:36045708 (PMCID:PMC9421147, open access, full text read)",
+        "PMID:25995458 (PMCID:PMC4438121, open access, full text read)",
+        "PMID:32422213 (PMCID:PMC7313723, open access, full text read)",
+        "PMID:11557989 (abstract only)"
+      ],
+      "next_suggested_topics": [
+        "Q-pain-01追问：Nav1.7选择性阻断剂临床失败的代偿机制分析",
+        "Q-pain-04追问：氯胺酮预防性镇痛的时间窗口与机制（围手术期中枢敏化干预）",
+        "前额叶认知控制对疼痛的调控：期望/安慰剂/注意力在镇痛中的神经机制",
+        "孤独症谱系障碍（ASD）的神经生物学（回到社会认知脊柱）",
+        "MAPT突变与FTD（疾病系列连续性）"
       ]
     }
   ],

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-01",
-  "node_count": 188,
-  "edge_count": 1100,
+  "updated": "2026-08-02",
+  "node_count": 194,
+  "edge_count": 1118,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1717,6 +1717,60 @@
       "status": "contested",
       "confidence": "medium",
       "page": "wiki/concepts/mirror-neuron-system.md"
+    },
+    {
+      "id": "nociceptor",
+      "title": "伤害感受器",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/nociceptor.md"
+    },
+    {
+      "id": "gate-control-theory",
+      "title": "闸门控制理论",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/gate-control-theory.md"
+    },
+    {
+      "id": "central-sensitization",
+      "title": "中枢敏化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/central-sensitization.md"
+    },
+    {
+      "id": "pain-matrix",
+      "title": "痛觉矩阵",
+      "domain": "systems",
+      "type": "network",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/systems/pain-matrix.md"
+    },
+    {
+      "id": "anterior-cingulate-cortex",
+      "title": "前扣带回",
+      "domain": "systems",
+      "type": "brain-region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/anterior-cingulate-cortex.md"
+    },
+    {
+      "id": "periaqueductal-gray",
+      "title": "导水管周围灰质",
+      "domain": "systems",
+      "type": "brain-region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/periaqueductal-gray.md"
     }
   ],
   "edges": [
@@ -7852,6 +7906,114 @@
       "to": "theory-of-mind",
       "type": "supports",
       "note": "DMN dMPFC 子系统负责心智化和社会叙事；Spreng 2021 元分析确认 dMPFC 子系统在社会推断中最稳定激活"
+    },
+    {
+      "from": "nociceptor",
+      "to": "gate-control-theory",
+      "type": "prerequisite-for",
+      "note": "伤害感受器的 C/Aδ 纤维输入是脊髓闸门控制的上行信号来源"
+    },
+    {
+      "from": "nociceptor",
+      "to": "central-sensitization",
+      "type": "mechanism-of",
+      "note": "持续伤害感受器激活是中枢敏化的触发条件；C 纤维持续输入→NMDA 受体→风-up→中枢敏化"
+    },
+    {
+      "from": "nociceptor",
+      "to": "pain-matrix",
+      "type": "mechanism-of",
+      "note": "伤害感受器信号经脊髓背角→脊髓丘脑束→VPL/VMpo→皮层，是痛觉矩阵的上行输入"
+    },
+    {
+      "from": "gate-control-theory",
+      "to": "central-sensitization",
+      "type": "prerequisite-for",
+      "note": "闸门失控（KCC2下调/去抑制）是中枢敏化的脊髓层面前提；两者共同描述脊髓背角痛觉增益失调"
+    },
+    {
+      "from": "gate-control-theory",
+      "to": "pain-matrix",
+      "type": "regulates",
+      "note": "脊髓闸门决定多少伤害性信号上传到大脑的痛觉矩阵；PAG-RVM 通过调控闸门影响皮层激活"
+    },
+    {
+      "from": "gate-control-theory",
+      "to": "periaqueductal-gray",
+      "type": "related",
+      "note": "PAG-RVM 是闸门控制理论中'中枢控制扳机'的现代神经解剖实现"
+    },
+    {
+      "from": "central-sensitization",
+      "to": "pain-matrix",
+      "type": "mechanism-of",
+      "note": "中枢敏化后脊髓投射神经元兴奋性增强，改变传入痛觉矩阵的信号特征"
+    },
+    {
+      "from": "central-sensitization",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "NMDA 受体是中枢敏化（脊髓 LTP-like wind-up）的必要分子机器；AP-5 阻断→wind-up 消失"
+    },
+    {
+      "from": "pain-matrix",
+      "to": "anterior-cingulate-cortex",
+      "type": "part-of",
+      "note": "ACC 是痛觉矩阵的情感成分节点；cingulotomy 分离感觉-情感两维度"
+    },
+    {
+      "from": "pain-matrix",
+      "to": "somatosensory-cortex",
+      "type": "part-of",
+      "note": "S1/S2 是痛觉矩阵的感觉-分辨节点；接收脊髓丘脑束→VPL 投射"
+    },
+    {
+      "from": "pain-matrix",
+      "to": "thalamus",
+      "type": "related",
+      "note": "VPL→S1（感觉分辨）和 VMpo/MDvc→岛叶/ACC（情感）两条丘脑中继通路"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "periaqueductal-gray",
+      "type": "regulates",
+      "note": "ACC→PAG 是下行镇痛的关键通路；认知重评/注意/安慰剂镇痛经 ACC→PAG→脊髓实现"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "pain-matrix",
+      "type": "part-of",
+      "note": "ACC 是痛觉矩阵情感维度的核心节点；编码不愉快度而非强度"
+    },
+    {
+      "from": "periaqueductal-gray",
+      "to": "gate-control-theory",
+      "type": "regulates",
+      "note": "PAG-RVM-脊髓下行通路通过调控背角抑制性中间神经元实现对闸门状态的顶层控制"
+    },
+    {
+      "from": "periaqueductal-gray",
+      "to": "central-sensitization",
+      "type": "regulates",
+      "note": "慢性疼痛状态 PAG 从 OFF-cells 主导转为 ON-cells 主导，下行易化加速和维持中枢敏化"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "central-sensitization",
+      "type": "mechanism-of",
+      "note": "脊髓背角 NMDA 受体 Mg²⁺ 解阻断→Ca²⁺ 内流→多激酶级联→wind-up/中枢敏化建立"
+    },
+    {
+      "from": "somatosensory-cortex",
+      "to": "pain-matrix",
+      "type": "part-of",
+      "note": "S1/S2 通过 VPL 丘脑接收脊髓丘脑束痛觉传入，是痛觉矩阵感觉-分辨维度节点"
+    },
+    {
+      "from": "thalamus",
+      "to": "pain-matrix",
+      "type": "mechanism-of",
+      "note": "VPL（新脊丘束→S1）和 VMpo/MDvc（旁脊丘束→ACC/岛叶）两条丘脑通路将脊髓丘脑束信号分流到痛觉矩阵不同节点"
     }
   ],
   "dangling_references": [

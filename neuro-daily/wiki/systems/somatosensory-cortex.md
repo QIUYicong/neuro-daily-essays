@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-07-29
-updated: 2026-07-29
-revision_count: 1
+updated: 2026-08-02
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition]
-related: [mechanoreceptor-ltmr, cortical-plasticity, homunculus, thalamus, cortical-layers, hebbian-learning, v1-primary-visual-cortex, auditory-cortex]
+related: [mechanoreceptor-ltmr, cortical-plasticity, homunculus, thalamus, cortical-layers, hebbian-learning, v1-primary-visual-cortex, auditory-cortex, pain-matrix, nociceptor]
 prerequisites: [action-potential, synaptic-transmission, cortical-layers]
 opens_questions: [Q-s1-01, Q-s1-02, Q-s1-03]
-source_articles: [2026-07-29-s1-somatosensory-cortex-body-map-plasticity]
-key_sources: ["PMID:23972592", "PMID:29519481", "PMID:1597696", "PMID:8393727", "PMID:6340591", "PMID:15018943", "PMID:32428706"]
+source_articles: [2026-07-29-s1-somatosensory-cortex-body-map-plasticity, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc]
+key_sources: ["PMID:23972592", "PMID:29519481", "PMID:1597696", "PMID:8393727", "PMID:6340591", "PMID:15018943", "PMID:32428706", "PMID:19837031"]
 ---
 
 # 初级躯体感觉皮层 (Primary Somatosensory Cortex, S1)
@@ -65,16 +65,31 @@ LTMR 轴突经脊髓背柱→延髓楔束核/薄束核→内侧丘系→VPL→S1
 | 感觉剥夺重启成年 S1 至关键期状态 | 触须剥夺+小鼠丘皮层突触电生理（GluN2B, 沉默突触） | PMID:28658619 | 高 |
 | S1 重组与幻肢痛因果链复杂 | fMRI 综述；重组量与疼痛不直接相关 | PMID:32428706 | 中 |
 
+## S1 在痛觉处理中的角色（2026-08-02 新增）
+
+S1 参与疼痛的**感觉-分辨维度**——编码痛在哪里、多强烈、什么性质（尖锐/灼烧/压迫），但不编码痛的情感成分（不愉快度）。
+
+**脊髓丘脑束→VPL→S1 通路**（与触觉通路 DC-ML 平行）：
+- 脊髓背角板层Ⅰ、Ⅴ投射神经元 → 对侧 VPL 丘脑（新脊丘束）→ S1
+- S1 的痛觉表征遵循与触觉相同的躯体地图（homunculus）
+- fMRI 研究：S1 活动与疼痛强度相关，而非不愉快度
+
+**关键分离证据**：前扣带回切除术（cingulotomy）患者 S1 功能保留，仍能准确定位疼痛，但丧失"痛苦感"——证明 S1 只负责感觉-分辨维度，情感成分依赖 ACC。
+
+**Q-s1-02（触觉/疼痛分工）**：Aβ 触觉纤维的皮层终点与 Aδ/C 纤维的痛觉投射在 S1 内是否完全分离？神经损伤后 Aβ 纤维是否向痛觉板层扩张，这是否反映在 S1 地图重组中？
+
 ## 连接
 
 - [[mechanoreceptor-ltmr]] — 外周感觉输入来源
-- [[thalamus]] — VPL 是 S1 的主要丘脑输入（DC-ML 通路终点）
+- [[thalamus]] — VPL 是 S1 的主要丘脑输入（DC-ML 通路终点 + 脊髓丘脑束终点）
 - [[cortical-plasticity]] — S1 可塑性是经验依赖皮层重组的经典模型
 - [[hebbian-learning]] — S1 可塑性的突触机制（LTP/LTD）遵循 Hebb 原理
 - [[cortical-layers]] — S1 的层级输入/输出组织（layer 4 接收 VPL 输入）
 - [[v1-primary-visual-cortex]] — 类比：另一个有拓扑组织和经验依赖可塑性的初级感觉皮层
 - [[auditory-cortex]] — 类比：Merzenich 同组在 A1 中发现了相同的训练依赖可塑性（Recanzone 1993）
 - [[homunculus]] — S1 中身体拓扑表征的具体形态
+- [[pain-matrix]] — S1 是痛觉矩阵的感觉-分辨节点
+- [[nociceptor]] — 经脊髓背角→VPL→S1 的痛觉上行通路起点
 
 ## 未解问题
 
@@ -85,7 +100,9 @@ LTMR 轴突经脊髓背柱→延髓楔束核/薄束核→内侧丘系→VPL→S1
 ## 修订历史
 
 - 2026-07-29 · 创建 · 基于《触觉的神经地图》文章（#97）· 初始置信度：高
+- 2026-08-02 · 修订（rev2）· 基于《痛觉的守门人》文章（#101）· 新增"S1 在痛觉处理中的角色"小节（脊髓丘脑束→VPL→S1通路；感觉-分辨维度；cingulotomy 分离证据）；related 新增 pain-matrix, nociceptor；key_sources 新增 PMID:19837031
 
 ## 来源文章
 
 - [[2026-07-29-s1-somatosensory-cortex-body-map-plasticity]]
+- [[2026-08-02-pain-nociception-spinal-dorsal-horn-acc]]

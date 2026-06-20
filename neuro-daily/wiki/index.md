@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-01（第100篇里程碑·读懂另一个心灵·心智理论×TPJ×镜像神经元×社会脑）· 主题页总数：**185**（新建3页：concepts/theory-of-mind、systems/temporoparietal-junction、concepts/mirror-neuron-system；修订1页：systems/default-mode-network rev3→rev4；图谱188节点、1100边；新增Q-tom-01至Q-tom-03开放问题；矛盾登记C-mirror-01）
+> 最后更新：2026-08-02（第101篇·痛觉的守门人·TRPV1×脊髓闸门×中枢敏化×痛觉矩阵×PAG下行镇痛）· 主题页总数：**189**（新建4页：concepts/nociceptor、concepts/gate-control-theory、concepts/central-sensitization、systems/pain-matrix、systems/anterior-cingulate-cortex、systems/periaqueductal-gray；修订3页：systems/somatosensory-cortex rev1→rev2、systems/thalamus rev5→rev6、concepts/nmda-receptor rev5→rev6；图谱194节点、1118边；新增Q-pain-01至Q-pain-04开放问题）
 
 ---
 
@@ -50,7 +50,7 @@
 - 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异 **[NEW 2026-06-03]**
 - 🟢 [Hodgkin-Huxley 模型](concepts/hodgkin-huxley-model.md) — 动作电位的定量数学框架
 - 🟢 [SNARE复合体](concepts/SNARE-complex.md) — 突触囊泡融合的核心分子机器（四螺旋束拉链）
-- 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP（修订4次）
+- 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + **脊髓中枢敏化触发器（wind-up/慢性痛 LTP-like机制，修订rev6 2026-08-02）**（修订6次）
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础（修订8次）
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；Sahay 2011成人神经发生因果改善分离 **[NEW 2026-06-24]**
@@ -155,6 +155,10 @@
 - 🔵 [纹状体拍频模型（SBF）](concepts/striatal-beat-frequency.md) — 区间计时最有影响力的机制模型之一：大量皮层振荡子在区间开始时同步，随时间相位拉开形成唯一的"拍频图案"，纹状体 MSN 作为符合检测器读出该图案；多巴胺调节振荡频率→时钟速度；生物学噪声是标量特性的必要条件 **[NEW 2026-07-31]**
 - 🟡 [种群时钟](concepts/population-clock.md) — 内在计时的现代形式：时间由神经群体活动在高维状态空间走过的轨迹编码（无需专用时钟元件）；神经序列（稀疏接力放电）比斜坡放电更灵活；纹状体序列性高于运动皮层；RNN 自发涌现相同结构 **[NEW 2026-07-31]**
 
+- 🟢 [伤害感受器（Nociceptor）](concepts/nociceptor.md) — 专职感知有害刺激（高温/强机械力/有害化学物）的感觉神经元亚群；TRP家族通道（TRPV1热/辣 43°C、TRPA1化学/寒冷 <15°C、TRPM8凉感）；Nav1.7/1.8/1.9动作电位触发；Aδ（快速尖痛）vs C纤维（慢速弥散痛）双时程系统；外周致敏机制（PGE2/缓激肽/NGF→TRPV1阈值降低）**[NEW 2026-08-02]**
+- 🔵 [闸门控制理论](concepts/gate-control-theory.md) — Melzack & Wall 1965提出的脊髓痛觉调控框架；Koch 2018在分子细胞层面验证：DYN+抑制性神经元（接收Aβ→压制PKCγ+）/PKCγ+兴奋性神经元（allodynia节点）/SOM+兴奋性神经元；KCC2下调→GABA兴奋→闸门失控；PAG-RVM下行控制 **[NEW 2026-08-02]**
+- 🟢 [中枢敏化（Central Sensitization）](concepts/central-sensitization.md) — 慢性疼痛的核心神经可塑性机制；NMDA受体→Ca²⁺→多激酶级联（MAPK/PKC/Src）→突触效能持久增强（wind-up/脊髓LTP-like）；小胶质细胞-BDNF→KCC2下调→GABA兴奋化正反馈；与海马LTP同源机制发生在"错误的地方" **[NEW 2026-08-02]**
+
 ## motor（运动系统）
 
 - 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）；**小脑-运动皮层闭环（修订2026-06-23）**
@@ -184,7 +188,10 @@
 - 🟢 [嗅球（主嗅觉球）](systems/olfactory-bulb.md) — 一受体一小球规则将OR激活映射为拓扑图；僧帽/簇状细胞经LOT直接投射至梨状皮层、杏仁核、内嗅皮层（无视丘中继，所有感觉系统唯一）；颗粒细胞树突-树突双向突触实现侧向抑制和对比度增强；β/γ振荡与梨状皮层同步 **[NEW 2026-07-26]**
 - 🟢 [听觉皮层](systems/auditory-cortex.md) — 核心（A1+R，Heschl回V形镜像）-带状-旁带状三级层级；11张音调拓扑场图；腹侧"What"流（声音身份）+ 背侧"Where/How"流（空间/运动）；STG群体响应编码被注意者谱时特征（鸡尾酒会效应）；pSTG STRF重建语音（词语精确率0.89） **[NEW 2026-07-28]**
 - 🟢 [耳蜗](systems/cochlea.md) — 基底膜行波实现频率-位置地点编码（cochleotopic map）；外毛细胞 Prestin 耳蜗放大器（+40–50 dB，Q因子×100）；内毛细胞 tip links / TMC1-TMC2 / Ca_v1.3 / ribbon synapse 机械-电换能级联；是听觉通路所有拓扑图的物理起点 **[NEW 2026-07-28]**
-- 🟢 [初级躯体感觉皮层（S1）](systems/somatosensory-cortex.md) — 四亚区（3a/3b/1/2）×感觉小人（homunculus）×皮层放大因子；Merzenich系列实验确立经验依赖皮层地图可塑性（截指后邻指侵占/训练后表征扩张）；可塑性需要行为相关性（注意门控）；感觉剥夺重启成年皮层至关键期状态 **[NEW 2026-07-29]**
+- 🟢 [初级躯体感觉皮层（S1）](systems/somatosensory-cortex.md) — 四亚区（3a/3b/1/2）×感觉小人（homunculus）×皮层放大因子；Merzenich系列实验确立经验依赖皮层地图可塑性（截指后邻指侵占/训练后表征扩张）；可塑性需要行为相关性（注意门控）；感觉剥夺重启成年皮层至关键期状态；**rev2新增：S1在痛觉中的感觉-分辨维度（脊髓丘脑束→VPL→S1）** **[修订rev2 2026-08-02]**
+- 🔵 [痛觉矩阵（Pain Matrix）](systems/pain-matrix.md) — 脊髓丘脑束信号在脑内形成的多节点网络：S1/S2（感觉-分辨）+岛叶（内感受整合）+ACC（情感成分）+PFC（认知调控）；VPL→S1（新脊丘束）vs VMpo→岛叶/ACC（旁脊丘束）双路分叉；cingulotomy"知痛不感苦"经典分离；Wager NPS 多变量模式分析；慢性化中中脑边缘系统替代感觉网络 **[NEW 2026-08-02]**
+- 🟢 [前扣带回（ACC）](systems/anterior-cingulate-cortex.md) — 疼痛情感成分的核心编码区（cingulotomy证明）；ACC→PAG下行镇痛通路；社会排斥与身体疼痛共享dACC神经资源（Eisenberger 2003）；安慰剂镇痛的关键皮层节点；慢性疼痛中与NAc功能连接增强预测慢性化 **[NEW 2026-08-02]**
+- 🟢 [导水管周围灰质（PAG）](systems/periaqueductal-gray.md) — 内源性阿片镇痛系统核心枢纽；PAG电刺激→全身镇痛→纳洛酮阻断（内源性阿片因果证据）；vlPAG GABA能→去抑制机制；RVM ON/OFF-cells分工（镇痛/促痛）；ACC/下丘脑/杏仁核→PAG整合；急性疼痛OFF-cells主导→慢性疼痛ON-cells过度激活 **[NEW 2026-08-02]**
 - 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化 **[NEW 2026-07-30]**
 - 🟢 [基底节（区间计时视角）](systems/basal-ganglia.md) — 以区间计时为核心的系统层级视角：MSN ~1/3 显示斜坡放电；D1-MSN 递减/D2-MSN 递增的对立动力学（Bruce 2025 eLife 光遗传因果证据，R²=0.95 漂移扩散模型）；纹状体-丘脑-皮层节拍计时回路；帕金森病计时障碍机制 **[NEW 2026-07-31]**（另见 [[circuits/basal-ganglia]] 运动选择视角）
 - 🟢 [颞顶联合区（TPJ）](systems/temporoparietal-junction.md) — 前-后轴分工：pTPJ（信念推断/视角转换，右侧化）vs aTPJ（注意定向，VAN 节点）；与 DAN（FEF/IPS）动态拮抗；进化：灵长类 TPJ 体积与社会群体大小正相关；临床：右 TPJ 损伤→偏侧空间忽视+社会认知障碍；TPJ 功能是否专一于 ToM 仍有争议（Q-tom-01）**[NEW 2026-08-01]**

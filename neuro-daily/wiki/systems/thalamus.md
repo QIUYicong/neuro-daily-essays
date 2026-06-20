@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-28
-revision_count: 5
+updated: 2026-08-02
+revision_count: 6
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations, auditory-cortex]
+related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations, auditory-cortex, pain-matrix, nociceptor]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism, Q-dan-01]
-source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm, 2026-07-28-auditory-cortex-tonotopy]
-key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202"]
+source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm, 2026-07-28-auditory-cortex-tonotopy, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc]
+key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202", "PMID:19837031"]
 ---
 
 # 视丘 (Thalamus)
@@ -53,6 +53,18 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - 枕核（Pulvinar）：视觉系统，连接全视觉皮层层级；灭活→V1 反应几乎消失（Purushothaman 2012, PMID: 22561455）
 - 背内侧核（MD）：PFC 的主要视丘搭档；认知灵活性与工作记忆放大
 - 外侧后核（LP）：顶叶关联区
+
+### 5. 痛觉丘脑核团（Pain-Specific Thalamic Nuclei）
+
+痛觉上行通路（脊髓丘脑束，STT）在丘脑层面分两路：
+
+| 核团 | 接收输入 | 投射目标 | 功能 |
+|------|---------|---------|------|
+| **VPL（腹后外侧核）** | STT 板层Ⅰ/Ⅴ投射神经元（新脊丘束） | S1/S2 皮层 | 精确痛觉定位、强度编码（感觉-分辨维度） |
+| **VMpo（腹后内侧核后部）** | STT 板层Ⅰ NK1R+ 投射神经元（旁脊丘束） | 岛叶后部、ACC | 情感性疼痛（不愉快度）、温度感知 |
+| **MDvc（背内侧核腹侧小细胞部）** | 脊髓板层Ⅰ输入 | ACC | 疼痛-情感整合 |
+
+这一分叉解释了为何 VPL 病变→定位精确度丧失，而 cingulotomy 仅消除"痛苦感"而保留定位能力——两条通路在丘脑即分道扬镳（Basbaum et al. 2009, PMID:19837031）。
 
 ### 5. 髓板内核群（Intralaminar Nuclei）
 - CM-Pf（中央核-束旁核）：兼具 core/matrix 投射；与意识状态关联最强（Cacciatore et al. 2025, PMID: 40642212）
@@ -95,6 +107,8 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - [[neural-correlates-of-consciousness]] — CM-Pf 与意识状态；DBS 临床证据
 - [[gain-control]] — TRN 介导皮层-视丘增益调控
 - [[auditory-cortex]] — MGBv 精确拓扑投射至 A1，保真传递耳蜗 cochleotopic 频率地图
+- [[pain-matrix]] — VPL/VMpo/MDvc 是痛觉矩阵的丘脑接入点，分别对接感觉-分辨和情感两条通路
+- [[nociceptor]] — 伤害感受器信号经脊髓背角→STT→VPL/VMpo 上传
 
 ## 未解问题
 
@@ -111,6 +125,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - 2026-07-01 · 修订（rev3） · 基于文章 #67《空间注意的神经回路》· 新增 DAN（FEF/IPS）→TRN 通路作为皮层注意信号向下传递的接口；回答了 Q-thalamus-gating-mechanism 中关于 FEF→TRN 感觉门控的部分机制；related 新增 dorsal-attention-network；新增 Q-dan-01 交叉引用
 - 2026-07-22 · 修订（rev4） · 基于文章 #90《α振荡》· 新增枕核/LP作为清醒α振荡的广播来源（TRN-TC回路→α同步多皮层区域）；related新增alpha-oscillations；key_sources新增PMID:31972202
 - 2026-07-28 · 修订（rev5） · 基于文章 #96《从蜗旋到皮层音图》· 新增 MGBv/MGBd/MGBm 三区功能分化（腹侧核→精确音调拓扑投射至 A1；背侧核/内侧核→旁带状区/边缘系统）；连接节新增 auditory-cortex；related 新增 auditory-cortex；source_articles 新增 2026-07-28-auditory-cortex-tonotopy
+- 2026-08-02 · 修订（rev6） · 基于文章 #101《痛觉的守门人》· 新增"痛觉丘脑核团"小节（VPL→S1感觉分辨通路；VMpo→岛叶/ACC情感通路；MDvc→ACC）；related 新增 pain-matrix, nociceptor；source_articles 新增 2026-08-02-pain-nociception-spinal-dorsal-horn-acc；key_sources 新增 PMID:19837031
 
 ## 来源文章
 
@@ -119,3 +134,4 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-07-22-alpha-oscillations-attention-wm]]
 - [[2026-07-28-auditory-cortex-tonotopy]]
+- [[2026-08-02-pain-nociception-spinal-dorsal-horn-acc]]
