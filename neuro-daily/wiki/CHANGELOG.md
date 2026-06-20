@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-08-09 · 文章 #108 · 意识的边界：意识障碍的神经回路机制与前脑中间回路
+
+**核心主题**：意识障碍（DoC）的连续谱分类（昏迷→VS/UWS→MCS→CMD）；前脑中间回路（Mesocircuit Hypothesis，Schiff 2009/2022）——皮层损伤→纹状体失驱动→GPi脱抑制→中央丘脑过度抑制→VS/UWS自我维持的可逆回路阻断；认知运动解离（CMD）——25%"无反应"患者有隐蔽意识（Bodien NEJM 2024，n=353）；PCI阈值（0.31）区分MCS/VS，rTMS响应生物标志物；唑吡坦悖论的GPi机制；上行激活系统受损与DMN/FPN网络破碎化。
+
+**新建页面（3）**：
+- `wiki/diseases/disorders-of-consciousness.md`（意识障碍）🔵 mainstream · 高置信度 — DoC 4级分类（昏迷/VS-UWS/MCS/CMD）；上行激活系统、前脑中间回路、功能网络破碎化三层机制；25% CMD发现；治疗窗口（金达胺素RCT/唑吡坦/rTMS/DBS）；left额顶有效连接是最强意识预测因子
+- `wiki/concepts/cognitive-motor-dissociation.md`（认知运动解离，CMD）🟡 emerging · 高置信度 — 行为缺失但神经信号显示意识的状态；4条机制路径（传出通路损伤/丘脑皮层整合不稳定/DMN受损/药物遮蔽）；任务型fMRI（"打网球"想象）+EEG（P300/SSVEP）+PCI检测方法；伦理含义（撤除生命支持时患者可能有意识地"在场"）
+- `wiki/concepts/mesocircuit-hypothesis.md`（前脑中间回路假说）🟡 emerging · 中置信度 — Schiff提出的GPi脱抑制→中央丘脑抑制→VS/UWS自我维持机制；ASCII回路图解；唑吡坦悖论机制（GPi优先结合GABAA ω-1受体）；金达胺素（多巴胺能→纹状体→GPi）；四项局限性（机制异质性/间接证据/缺乏大规模验证/DBS缺乏RCT）
+
+**修订页面（2）**：
+- `wiki/systems/thalamus.md` rev6→rev7 — 新增disease维度；related新增disorders-of-consciousness/mesocircuit-hypothesis；髓板内核群节扩展CL/CM-PF在DoC中的角色（GPi抑制、DAI、DBS目标）；新增Q-doc-03；key_sources新增PMID:36563999/PMID:33318675
+- `wiki/concepts/neural-correlates-of-consciousness.md` rev2→rev3 — 新增disease维度；related新增disorders-of-consciousness/cognitive-motor-dissociation/mesocircuit-hypothesis；新增"临床窗口：DoC对NCC框架的压力测试"节（CMD挑战报告范式/GPi机制给Enabling NCC提供可逆干预/PCI临床化/左额顶有效连接）；key_sources新增PMID:39141852/PMID:38217619
+
+**图谱更新**：`wiki/_graph.json` 210节点/1206条边（+3节点/+17条边）；新节点：disorders-of-consciousness、cognitive-motor-dissociation、mesocircuit-hypothesis；新边连接：← thalamus/basal-ganglia/neural-correlates-of-consciousness/global-workspace-theory/perturbational-complexity-index/dopamine-reward-prediction-error等
+
+**新增未解问题（3）**：Q-doc-01（CMD在急性ICU期的检出率与早期预后价值）、Q-doc-02（TBI vs 缺氧性损伤中前脑中间回路差异）、Q-doc-03（中央外侧丘脑DBS大规模RCT时间线）
+
+---
+
 ## 2026-08-08 · 文章 #107 · 意识的分水岭在何处：后方皮层、前额叶与多重发生器
 
 **核心主题**：神经意识关联（NCC）的三分框架（内容特异/完整/使能）；COGITATE 2025 最终结果（IIT后方同步缺失+GNWT偏移点燃缺失，但内容在后方解码+脑范围广播确认）；GNW回应论文（PMID:41080705，Naccache/Dehaene/Changeux）的四点防守及其暴露的可证伪性问题；多重发生器假说（MGH，Kirkeby-Hinrup 2025）提出所有理论可能各描述真实的不同发生器；无报告范式的方法论局限（认知监控混淆）；PFC的局部意识处理（sEEG 200–300ms证据）；扰动复杂度指数（PCI）的理论基础与临床应用；意识与AI的对比。

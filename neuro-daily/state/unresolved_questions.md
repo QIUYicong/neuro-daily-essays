@@ -1,6 +1,31 @@
 # 未解问题追踪
 
-*最后更新：2026-08-08*
+*最后更新：2026-08-09*
+
+---
+
+## 2026-08-09 新增（来自"意识的边界"文章 #108）
+
+### Q-doc-01（高优先级）：认知运动解离（CMD）在急性ICU期的检出率如何？早期检测的预后价值？
+
+- **关联 wiki**：[[cognitive-motor-dissociation]]、[[disorders-of-consciousness]]、[[perturbational-complexity-index]]
+- **来源文章**：2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening
+- **问题**：Bodien et al.（2024，NEJM，PMID:39141852）的数据主要来自慢性期（伤后≥28天）的DoC患者（平均伤后时间4.7年）。在急性ICU期（伤后<28天，ICU镇静/镇痛背景下），任务型fMRI或EEG的CMD检出率是否与慢性期相当？早期检测CMD是否具有独立的预后价值（即：早期发现CMD的患者功能恢复轨迹是否显著优于晚发现或未检测的患者）？此外，急性期的ICU环境（镇静药物、噪音、代谢紊乱）是否会导致假阴性结果增多，从而低估CMD发生率？
+- **当前证据状态**：慢性期CMD发生率（约25%）：高（PMID:39141852，n=353）；急性期CMD检出率：低（少数前瞻性研究，样本小）；早期CMD检测与功能预后的因果关系：中（前瞻性队列，PMID:33318675，摘要）；急性期假阴性偏差：推断（理论，无直接量化）
+
+### Q-doc-02（高优先级）：TBI vs 缺氧性损伤中，前脑中间回路受损程度是否有系统性差异？
+
+- **关联 wiki**：[[mesocircuit-hypothesis]]、[[disorders-of-consciousness]]、[[thalamus]]
+- **来源文章**：2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening
+- **问题**：Schiff的前脑中间回路假说主要基于弥漫性轴索损伤（DAI，创伤性DoC）模型。然而，缺氧性损伤（心脏骤停后）和TBI的脑损伤模式可能存在系统性差异：DAI优先损伤长程轴索（包括中央丘脑CL的轴索），GPi脱抑制假说可能更适用；而缺氧性损伤倾向于损伤代谢活跃区域（海马、皮层第III/V层、基底节），GPi/中央丘脑的功能状态可能不同。这一差异是否影响唑吡坦/金达胺素的响应率预测？是否需要针对损伤机制（TBI vs 缺氧）制定不同的药物治疗策略？
+- **当前证据状态**：TBI中前脑中间回路的DAI证据：中（扩散张量成像，间接）；缺氧性损伤中GPi脱抑制是否同等发生：低（无直接比较）；唑吡坦响应率的损伤机制分层：低（样本量太小，无分层分析）
+
+### Q-doc-03（高优先级）：中央外侧丘脑DBS的大规模RCT何时可以得出结论？何时会成为标准治疗？
+
+- **关联 wiki**：[[disorders-of-consciousness]]、[[thalamus]]、[[mesocircuit-hypothesis]]
+- **来源文章**：2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening
+- **问题**：Schiff et al.（2007，Nature）在单例MCS患者中的中央外侧丘脑（CL）DBS里程碑性研究已过去近20年，该患者功能恢复令人印象深刻，但单例不足以支持标准治疗。Thibaut et al.（2023）和其他小规模系列试验也报告了阳性结果，但样本量太小。目前有哪些注册的RCT正在进行？（NeuroRehabilitation and Neural Repair 2021文献提及DoC-DBS计划）。预计何时有初步结果？候选患者的选择标准（MCS vs VS/UWS？TBI vs 缺氧？受伤后多久可以手术？）是否已达成共识？
+- **当前证据状态**：单例CL-DBS有效性：中（Schiff 2007，Nature，单例）；小规模系列：中（Thibaut 2023等，3-7例）；大规模RCT：低/无（尚无已发表的多中心RCT结果）；候选标准共识：低（各中心标准不一）
 
 ---
 

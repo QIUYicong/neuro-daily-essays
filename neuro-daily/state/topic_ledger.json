@@ -1,7 +1,279 @@
 {
-  "last_updated": "2026-08-06",
-  "total_articles": 105,
+  "last_updated": "2026-08-09",
+  "total_articles": 108,
   "entries": [
+    {
+      "date": "2026-08-09",
+      "title": "意识的边界：当脑损伤遭遇意识——意识障碍的神经回路机制与前脑中间回路假说",
+      "filename": "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening.md",
+      "article_number": 108,
+      "wiki_pages_created": [
+        "wiki/diseases/disorders-of-consciousness.md",
+        "wiki/concepts/cognitive-motor-dissociation.md",
+        "wiki/concepts/mesocircuit-hypothesis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/thalamus.md",
+        "wiki/concepts/neural-correlates-of-consciousness.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "严重脑损伤后，为何部分患者无法从植物状态恢复？前脑中间回路假说如何解释VS/UWS的自我维持？认知运动解离（CMD）——25%"无反应"患者有隐蔽意识——对意识的行为评估范式有何根本挑战？唑吡坦悖论的GPi机制和金达胺素的多巴胺机制如何通过同一回路起效？PCI阈值0.31如何区分MCS和VS？",
+      "open_questions_added": [
+        "Q-doc-01",
+        "Q-doc-02",
+        "Q-doc-03"
+      ],
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱8（意识与自我·DoC临床实验室）+ 脊柱11（疾病作为窗口·意识障碍）；首次建立DoC/CMD/前脑中间回路三个核心页面；连接NCC框架到临床应用；修订thalamus（rev6→rev7）和NCC（rev2→rev3）整合临床证据",
+      "topic_tags": [
+        "disorders of consciousness DoC",
+        "vegetative state UWS unresponsive wakefulness",
+        "minimally conscious state MCS",
+        "cognitive motor dissociation CMD covert consciousness",
+        "mesocircuit hypothesis Schiff",
+        "central thalamus CL CM-PF arousal",
+        "GPi disinhibition basal ganglia",
+        "zolpidem paradox GABA awakening",
+        "amantadine dopamine recovery",
+        "PCI perturbational complexity index 0.31",
+        "task-based fMRI EEG command following",
+        "default mode network DMN fragmentation",
+        "diffuse axonal injury DAI",
+        "ascending arousal system locus coeruleus"
+      ],
+      "main_sources": [
+        "PMID:37993185",
+        "PMID:39141852",
+        "PMID:38217619",
+        "PMID:33318675",
+        "PMID:36563999",
+        "PMID:36100228",
+        "PMID:39300529",
+        "PMID:38968195",
+        "PMID:27958328",
+        "PMID:39093704"
+      ],
+      "open_access_fulltext": [
+        "PMC10989716",
+        "PMC11870089",
+        "PMC11425124",
+        "PMC11216028",
+        "PMC4898946"
+      ],
+      "next_suggested_topics": [
+        "Q-doc-01裁决：急性ICU期CMD检出率与早期预后价值",
+        "Q-doc-03裁决：中央外侧丘脑DBS大规模RCT结果",
+        "上行激活系统深度：蓝斑/中缝核/被盖胆碱能系统的解剖与功能",
+        "FOXP2与语言演化（Q-lang-06的延伸）",
+        "自由能原理/主动推断与意识自我模型（课程脊柱8待覆盖）"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "title": "意识的分水岭在何处：后方皮层、前额叶与多重发生器",
+      "filename": "2026-08-08-ncc-debate-posterior-frontal-multiple-generators.md",
+      "article_number": 107,
+      "wiki_pages_created": [
+        "wiki/theories/multiple-generator-hypothesis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/neural-correlates-of-consciousness.md",
+        "wiki/theories/global-workspace-theory.md",
+        "wiki/theories/integrated-information-theory.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [
+        "C-2026-05-31-01",
+        "C-2026-05-31-02"
+      ],
+      "core_question": "COGITATE 2025对IIT和GNWT的双重挑战如何解读？GNW回应论文（Naccache/Dehaene/Changeux）的四点防守是否成功？多重发生器假说（MGH，Kirkeby-Hinrup 2025）如何为"所有理论都被部分支持部分否定"提供框架？PCI测量的是什么发生器？无报告范式的认知监控混淆能否解决？",
+      "open_questions_added": [
+        "Q-ncc-04",
+        "Q-ncc-05",
+        "Q-ncc-06"
+      ],
+      "layer": [
+        "whole-brain-network",
+        "cognition",
+        "methods"
+      ],
+      "curriculum_track": "课程脊柱8（意识与自我·NCC框架深化）+ 脊柱1（方法论：无报告范式/PCI）；整合COGITATE 2025结果、GNW回应论文、MGH框架；修订NCC（rev1→rev2）、GWT（rev6→rev7）、IIT（rev3→rev4）",
+      "topic_tags": [
+        "neural correlates of consciousness NCC",
+        "COGITATE 2025 adversarial collaboration",
+        "global neuronal workspace GNW GNWT ignition",
+        "integrated information theory IIT posterior cortex",
+        "multiple generator hypothesis MGH",
+        "no-report paradigm cognitive monitoring",
+        "perturbational complexity index PCI",
+        "prefrontal cortex consciousness local processing",
+        "posterior hot zone IIT prediction"
+      ],
+      "main_sources": [
+        "PMID:40307561",
+        "PMID:41080705",
+        "PMID:41000147",
+        "PMID:35634201",
+        "PMID:38265851"
+      ],
+      "open_access_fulltext": [],
+      "next_suggested_topics": [
+        "意识障碍（DoC）作为NCC框架的临床压力测试",
+        "FOXP2与语言演化（Q-lang-06的延伸）",
+        "ATL语义中枢（颞叶前部）的多感觉语义整合",
+        "主动推断与自由能原理的意识理论",
+        "自我参照处理的神经基础（dmPFC/mpFC/PCC）"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "title": "组装句子的机器：Broca区如何将词汇序列升维为层级结构",
+      "filename": "2026-08-07-brocas-area-syntax-merge-language-evolution.md",
+      "article_number": 106,
+      "wiki_pages_created": [
+        "wiki/concepts/phrase-structure-building.md",
+        "wiki/concepts/language-evolution.md",
+        "wiki/concepts/llm-brain-alignment.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/broca-area.md",
+        "wiki/systems/language-network.md",
+        "wiki/concepts/arcuate-fasciculus.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "BA44如何实现Chomsky的Merge操作（将词汇序列升维为层级结构）？BA44（grammatical）vs BA45（semantic）功能分工的神经证据是什么？人类左侧BA44前部进化扩张1.64倍如何支持双重结构假说？LLM-大脑对齐的含义和限制？",
+      "open_questions_added": [
+        "Q-lang-06"
+      ],
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱5（语言与语言网络·句法神经基础）；建立Merge操作的神经基础（phrase-structure-building）；整合语言演化双重结构；引入LLM-大脑对齐新课程轴",
+      "topic_tags": [
+        "Broca area BA44 BA45 syntax semantics",
+        "Merge operation Chomsky phrase structure",
+        "language evolution human BA44 expansion",
+        "arcuate fasciculus three-segment anatomy",
+        "LLM brain alignment GPT fMRI",
+        "language network natural kind Fedorenko",
+        "child language development syntax reorganization",
+        "FOXP2 language gene"
+      ],
+      "main_sources": [],
+      "open_access_fulltext": [],
+      "next_suggested_topics": [
+        "Q-lang-06裁决：FOXP2突变与BA44进化扩张的关联机制",
+        "ATL语义中枢（颞叶前部）的多感觉语义整合",
+        "意识障碍（DoC）作为NCC框架的临床压力测试",
+        "NCC争论的下一步：无报告范式改进方向"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "title": "连接组学深化篇：功能连接组学与同类相连布线规则",
+      "filename": "2026-08-06-connectomics-flywire-wiring-diagram.md",
+      "article_number": 105,
+      "wiki_pages_created": [
+        "wiki/concepts/small-world-network.md",
+        "wiki/concepts/like-to-like-connectivity.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/methods/connectomics.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "MiCrONS 2025如何将功能成像与结构重建整合，发现"同类相连"布线规则？果蝇全脑的小世界网络特性（σ=141）意味着什么？结构-功能鸿沟的三大根本来源是什么？",
+      "open_questions_added": [
+        "Q-swn-01",
+        "Q-ltl-01",
+        "Q-ltl-02"
+      ],
+      "layer": [
+        "synaptic",
+        "microcircuit",
+        "whole-brain-network",
+        "methods"
+      ],
+      "curriculum_track": "课程脊柱9（Connectomics·功能连接组学）；修订connectomics（rev1→rev2）增加功能连接组学节；建立small-world-network和like-to-like-connectivity两个新概念页面",
+      "topic_tags": [
+        "connectomics MiCrONS functional",
+        "like-to-like connectivity wiring rule",
+        "small world network sigma 141 Drosophila",
+        "structure function gap",
+        "FlyWire full brain",
+        "Ding 2025 MiCrONS wiring",
+        "rich club organization brain network"
+      ],
+      "main_sources": [
+        "PMID:40205214",
+        "PMID:37547019"
+      ],
+      "open_access_fulltext": [
+        "PMC11981947"
+      ],
+      "next_suggested_topics": [
+        "NCC框架深化：COGITATE 2025最终结果与多重发生器假说",
+        "BA44句法Merge与语言演化",
+        "Q-ltl-01裁决：同类相连是否适用于联合皮层"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "title": "逆行的信使：内源性大麻素如何让突触后神经元掌控自身的输入",
+      "filename": "2026-08-05-endocannabinoid-retrograde-signaling.md",
+      "article_number": 104,
+      "wiki_pages_created": [
+        "wiki/concepts/endocannabinoid-system.md",
+        "wiki/neurons/cb1-receptor.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltd.md",
+        "wiki/concepts/fear-extinction.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "内源性大麻素系统（ECS）如何通过逆行突触传递实现突触后→突触前的反馈调控？2-AG/AEA两条合成/降解通路的差异？CB1R的Gβγ（DSI短时程）和Gαi→RIM1α（eCB-LTD长时程）双机制如何整合？杏仁核AEA/FAAH轴在恐惧消退中的作用？",
+      "open_questions_added": [
+        "Q-ecb-01",
+        "Q-ecb-02",
+        "Q-ecb-03",
+        "Q-ecb-04"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region"
+      ],
+      "curriculum_track": "课程脊柱1（神经元如何工作·逆行突触调制）；建立ECS完整分子机制页面；修订ltd（rev3→rev4）深化eCB-LTD前突触机制；修订fear-extinction（rev4→rev5）整合BLA-AEA消退机制",
+      "topic_tags": [
+        "endocannabinoid system ECS",
+        "CB1 receptor cannabinoid",
+        "2-AG AEA retrograde signaling",
+        "DSI depolarization-induced suppression",
+        "eCB-LTD RIM1alpha",
+        "FAAH inhibitor PTSD fear extinction",
+        "CCK interneuron CCK+ GABA",
+        "THC cannabis mechanism"
+      ],
+      "main_sources": [],
+      "open_access_fulltext": [],
+      "next_suggested_topics": [
+        "MiCrONS功能连接组学与同类相连布线规则",
+        "Q-ecb-01裁决：eCB-LTD与NMDA-LTD在同一突触的共存/竞争",
+        "PTSD神经机制深化：恐惧消退回路与AEA/CB1R靶点",
+        "小脑LTD的前突触调制（与eCB-LTD的异同）"
+      ]
+    },
     {
       "date": "2026-08-04",
       "title": "时间的形状：海马CA1时间细胞如何将延迟期变成记忆的时间坐标轴",

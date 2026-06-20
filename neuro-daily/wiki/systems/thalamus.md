@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-08-02
-revision_count: 6
-dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations, auditory-cortex, pain-matrix, nociceptor]
+updated: 2026-08-09
+revision_count: 7
+dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
+related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations, auditory-cortex, pain-matrix, nociceptor, disorders-of-consciousness, mesocircuit-hypothesis]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
-opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism, Q-dan-01]
-source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm, 2026-07-28-auditory-cortex-tonotopy, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc]
-key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202", "PMID:19837031"]
+opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism, Q-dan-01, Q-doc-03]
+source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm, 2026-07-28-auditory-cortex-tonotopy, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening]
+key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202", "PMID:19837031", "PMID:36563999", "PMID:33318675"]
 ---
 
 # 视丘 (Thalamus)
@@ -68,7 +68,13 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 
 ### 5. 髓板内核群（Intralaminar Nuclei）
 - CM-Pf（中央核-束旁核）：兼具 core/matrix 投射；与意识状态关联最强（Cacciatore et al. 2025, PMID: 40642212）
-- 中央核（CL）：广泛皮层投射；DBS 靶点（意识障碍治疗）
+- **中央外侧核（CL）**：广泛投射至皮层第I层，是上行激活系统的关键皮层中继；DBS靶点（意识障碍治疗）
+
+**中央丘脑（CL/CM-PF）在意识障碍中的关键作用**（新增，2026-08-09）：
+中央丘脑是意识的"使能者"（enabling NCC），而非内容生成器。它为皮层提供维持有意识处理所必需的激活背景（皮层第I层广泛去同步化激活）。在意识障碍中：
+1. 弥漫性轴索损伤（DAI）直接损伤CL轴索→持久意识障碍的主要解剖机制
+2. 前脑中间回路机制（[[mesocircuit-hypothesis]]）：即使CL结构完整，GPi过度活跃也可以功能性抑制CL→VS/UWS
+3. DBS靶向CL（Schiff 2007 Nature，PMID:18097414）：小样本证据显示可改善慢性MCS患者功能，但缺乏大规模RCT
 
 ## 关键机制
 
@@ -109,6 +115,8 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - [[auditory-cortex]] — MGBv 精确拓扑投射至 A1，保真传递耳蜗 cochleotopic 频率地图
 - [[pain-matrix]] — VPL/VMpo/MDvc 是痛觉矩阵的丘脑接入点，分别对接感觉-分辨和情感两条通路
 - [[nociceptor]] — 伤害感受器信号经脊髓背角→STT→VPL/VMpo 上传
+- [[disorders-of-consciousness]] — 中央丘脑（CL/CM-PF）是DoC的关键受损节点；DBS靶点
+- [[mesocircuit-hypothesis]] — GPi过度抑制中央丘脑是VS/UWS的回路级维持机制
 
 ## 未解问题
 
@@ -126,6 +134,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - 2026-07-22 · 修订（rev4） · 基于文章 #90《α振荡》· 新增枕核/LP作为清醒α振荡的广播来源（TRN-TC回路→α同步多皮层区域）；related新增alpha-oscillations；key_sources新增PMID:31972202
 - 2026-07-28 · 修订（rev5） · 基于文章 #96《从蜗旋到皮层音图》· 新增 MGBv/MGBd/MGBm 三区功能分化（腹侧核→精确音调拓扑投射至 A1；背侧核/内侧核→旁带状区/边缘系统）；连接节新增 auditory-cortex；related 新增 auditory-cortex；source_articles 新增 2026-07-28-auditory-cortex-tonotopy
 - 2026-08-02 · 修订（rev6） · 基于文章 #101《痛觉的守门人》· 新增"痛觉丘脑核团"小节（VPL→S1感觉分辨通路；VMpo→岛叶/ACC情感通路；MDvc→ACC）；related 新增 pain-matrix, nociceptor；source_articles 新增 2026-08-02-pain-nociception-spinal-dorsal-horn-acc；key_sources 新增 PMID:19837031
+- 2026-08-09 · 修订（rev7） · 基于文章 #108《意识的边界》· 扩展"髓板内核群"小节：新增中央外侧核（CL）在意识障碍（DoC）中的具体作用（弥漫性轴索损伤、前脑中间回路GPi抑制、DBS靶点）；related新增disorders-of-consciousness, mesocircuit-hypothesis；连接节新增两条；opens_questions新增Q-doc-03；key_sources新增PMID:36563999, PMID:33318675
 
 ## 来源文章
 
@@ -135,3 +144,4 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - [[2026-07-22-alpha-oscillations-attention-wm]]
 - [[2026-07-28-auditory-cortex-tonotopy]]
 - [[2026-08-02-pain-nociception-spinal-dorsal-horn-acc]]
+- [[2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening]]

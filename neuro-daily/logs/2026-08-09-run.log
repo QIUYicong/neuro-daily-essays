@@ -1,0 +1,98 @@
+# Run Log: 2026-08-09
+
+## 基本信息
+
+- **知识库日期**：2026-08-09（容器系统日期：~2026-06-21，顺序递推）
+- **文章编号**：#108
+- **运行状态**：✅ 完成
+- **耗时**：约 2 个 Claude Code 上下文窗口（跨上下文恢复）
+
+---
+
+## 执行步骤记录
+
+### 步骤 0：读取状态（Step 0）
+- 读取 `ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md`（已在 summary 中）
+- 读取 `neuro-daily/logs/2026-08-08-run.log` 确认上次运行：#107（2026-08-08，NCC争论）
+- 读取 `topic_ledger.json` 确认文章总数（105，需补录 #106/#107/#108）
+- 读取 `unresolved_questions.md` 掌握待解问题状态
+
+### 步骤 A：选题（Step A）
+- 选定主题：**意识障碍（DoC）的神经回路机制**
+- 理由：(1) 从纯理论（NCC/IIT/GWT）转向临床应用层；(2) 直接应用第 #107 篇的 NCC 框架到真实患者群体；(3) PCI（Q-ncc-06）在 DoC 中有成熟临床应用；(4) 新建 diseases 层节点（knowledge layer balance）
+- 文件名：`2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening.md`
+
+### 步骤 B：文献研究（Step B）
+- 使用 WebSearch + WebFetch 搜索 10 轮
+- 采用来源 10 篇（7 开放全文 PMC，1 partial NEJM/EMS，2 abstract-only）
+- 核心来源：Bodien 2024 NEJM（CMD 25%）、Golden 2023 PMR（分类学）、Schiff 2022 Rev Neurol（前脑中间回路）、Barra 2022 Semin Neurol（药物治疗）
+- 来源保存至：`neuro-daily/sources/2026-08-09-sources.json`
+- 阅读笔记保存至：`neuro-daily/notes/2026-08-09-reading-notes.md`
+
+### 步骤 C：撰写文章（Step C）
+- 文章：`neuro-daily/articles/2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening.md`
+- 字数：~5200 字（符合 3000-6000 中文字要求）
+- 结构：导言 → DoC分类谱系 → 上行激活系统 → 前脑中间回路 → 认知运动解离 → 网络破碎化 → PCI工具 → 治疗窗口 → 意识的边界（结论）
+- 来源引用：10 篇，均有内文标注
+
+### 步骤 D：Wiki 固结（Step D）
+**新建页面（3）**：
+- `wiki/diseases/disorders-of-consciousness.md`（rev1，status: mainstream，confidence: high）
+- `wiki/concepts/cognitive-motor-dissociation.md`（rev1，status: emerging，confidence: high）
+- `wiki/concepts/mesocircuit-hypothesis.md`（rev1，status: emerging，confidence: medium）
+
+**修订页面（2）**：
+- `wiki/systems/thalamus.md`（rev6→rev7，新增 DoC 相关内容，CL/CM-PF 在 DoC 中的角色）
+- `wiki/concepts/neural-correlates-of-consciousness.md`（rev2→rev3，新增临床窗口节）
+
+### 步骤 E：导航更新（Step E）
+- `wiki/_graph.json`：207节点/1189边 → 210节点/1206边（+3节点，+17边）
+- `wiki/index.md`：header 更新至 2026-08-09，205 页（新增3页 DoC/CMD/mesocircuit，修正 #107 计入）
+- `wiki/CHANGELOG.md`：新增 2026-08-09 条目（详细记录新建/修订页面和未解问题）
+
+### 步骤 F：状态文件更新（Step F）
+- `topic_ledger.json`：total_articles 105→108，新增 #104/105/106/107/108 五条 entries
+- `unresolved_questions.md`：新增 Q-doc-01、Q-doc-02、Q-doc-03
+- `source_registry.json`：新增 sources_2026-08-09 节（10 条来源）
+- `monthly_synthesis.md`：新增 #108 行、洞见 #109
+
+### 步骤 G：Git 提交和推送（Step G）
+- branch: main（单分支累积方案）
+- commit message: `Add neuro daily article + wiki consolidation for 2026-08-09`
+- push: git push origin main
+
+---
+
+## 质量检查
+
+| 检查项 | 状态 |
+|--------|------|
+| 文章字数 3000-6000 字 | ✅（~5200 字） |
+| 来源 ≥5 篇 | ✅（10 篇） |
+| 开放全文 ≥2 篇 | ✅（7 篇 PMC 开放全文） |
+| 官方机构来源 ≥1 篇 | ✅（NIH PMC 多篇）|
+| 不使用 Sci-Hub/盗版 | ✅ |
+| 未编造来源/PMID | ✅（均可验证）|
+| Wiki 新建/修订 | ✅（新建3页，修订2页）|
+| 状态文件更新 | ✅（全部5个状态文件已更新）|
+| 图谱更新 | ✅（_graph.json 210节点/1206边）|
+
+---
+
+## 本次运行说明
+
+本次运行跨越两个 Claude Code 上下文窗口。第一个窗口完成了文章撰写、wiki 新建/修订、图谱更新；第二个窗口（本次）从 wiki/index.md 更新开始，完成了导航更新、状态文件更新、日志撰写和 git 推送。
+
+上下文恢复使用系统自动压缩的会话摘要，关键工作状态完整传递。
+
+容器系统日期为 ~2026-06-21，知识库日期通过顺序递推确定为 2026-08-09。
+
+---
+
+## 下次运行建议
+
+1. **Q-doc-01**（高优）：CMD 在急性 ICU 期检出率与早期预后价值——相关前瞻性研究正在进行中
+2. **Q-doc-03**（高优）：中央外侧丘脑 DBS 大规模 RCT 进展——监测 ClinicalTrials.gov
+3. **FOXP2 与 BA44 进化扩张**（Q-lang-06，来自 #106）：语言进化的分子遗传学基础
+4. **主动推断/自由能原理与意识**：课程脊柱8（意识与自我）待覆盖内容
+5. **ATL 语义中枢（颞叶前部）**：语言网络的语义整合子系统

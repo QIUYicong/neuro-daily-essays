@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-08-09",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10083,6 +10083,154 @@
         "CB1R amygdala fear extinction",
         "FAAH inhibition enhances extinction",
         "PF-04457845 PTSD clinical"
+      ]
+    }
+  },
+  "sources_2026-08-09": {
+    "PMID:37993185": {
+      "citation": "Golden K, Bodien YG, Giacino JT. (2023). Disorders of Consciousness Classification and Taxonomy. Phys Med Rehabil Clin N Am, 34(3), 471-489.",
+      "pmcid": "PMC11465191",
+      "open_access": true,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "DoC分类学（昏迷/VS-UWS/MCS/CMD）",
+        "误诊率37-43%数据",
+        "CRS-R评分量表",
+        "VS与MCS诊断标准"
+      ]
+    },
+    "PMID:39141852": {
+      "citation": "Bodien YG et al. (2024). Cognitive Motor Dissociation in Disorders of Consciousness. N Engl J Med, 391(7), 598-608.",
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "CMD发生率25%（n=353，六中心）",
+        "任务型fMRI命令跟随范式",
+        "EEG命令跟随",
+        "六国际中心协作研究2006-2023"
+      ]
+    },
+    "PMID:38217619": {
+      "citation": "Young MJ, Edlow BL, Bodien YG. (2024). Covert Consciousness. NeuroRehabilitation, 54(2), 185-198.",
+      "pmcid": "PMC10898447",
+      "open_access": true,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "隐蔽意识（covert consciousness）定义",
+        "四条机制路径（传出通路损伤/丘脑皮层整合不稳定/DMN受损/药物遮蔽）",
+        "CMD检测方法综述",
+        "伦理含义"
+      ]
+    },
+    "PMID:33318675": {
+      "citation": "Edlow BL, Claassen J, Schiff ND, Greer DM. (2021). Recovery from disorders of consciousness: mechanisms, prognosis and emerging therapies. Nat Rev Neurol, 17(3), 135-156.",
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "脑干被盖+丘脑板内核损伤作为持久DoC关键解剖位点",
+        "上行激活系统（AAS）回路",
+        "CMD与功能预后关系（前瞻性队列）",
+        "TBI vs 缺氧性损伤预后差异"
+      ]
+    },
+    "PMID:36563999": {
+      "citation": "Schiff ND. (2022). Mesocircuit mechanisms in the diagnosis and treatment of disorders of consciousness. Rev Neurol (Paris), 179(1-2), 4-18.",
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "前脑中间回路假说（2022年综合更新版）",
+        "GPi脱抑制→中央丘脑抑制→皮层去传入机制",
+        "唑吡坦/金达胺素/DBS治疗框架",
+        "Schiff为该假说提出者"
+      ]
+    },
+    "PMID:36100228": {
+      "citation": "Barra ME, Edlow BL, Brophy GM. (2022). Pharmacologic Therapies to Promote Recovery of Consciousness. Semin Neurol, 42(3), 328-347.",
+      "pmcid": "PMC11870089",
+      "open_access": true,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "金达胺素RCT Level B证据（AAN 2018）",
+        "唑吡坦悖论机制（GPi GABAA ω-1受体优先结合）",
+        "多巴胺能药物机制综述",
+        "PET代谢成像验证"
+      ]
+    },
+    "PMID:39300529": {
+      "citation": "Xu C et al. (2024). Perturbational complexity index in assessing responsiveness to rTMS treatment in patients with disorders of consciousness. J NeuroEngineering Rehabil, 21(1), 164.",
+      "pmcid": "PMC11411826",
+      "open_access": true,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "PCI作为rTMS治疗响应生物标志物",
+        "基线PCIst预测响应",
+        "交叉随机对照试验（左DLPFC rTMS）"
+      ]
+    },
+    "PMID:38968195": {
+      "citation": "Ihalainen R et al. (2024). Lateral frontoparietal effective connectivity differentiates and predicts state of consciousness. PLoS ONE, 19(7), e0305869.",
+      "pmcid": "PMC11226086",
+      "open_access": true,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "左额顶有效连接（mPFC→左侧外侧顶叶后向连接）是意识状态最强预测因子",
+        "静息态EEG动态因果模型（DCM）分析",
+        "UWS vs MCS+ n=34"
+      ]
+    },
+    "PMID:27958328": {
+      "citation": "Long J et al. (2016). Distinct Interactions between Fronto-Parietal and Default Mode Networks in Impaired Consciousness. Sci Rep, 6, 38866.",
+      "pmcid": "PMC5153635",
+      "open_access": true,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "DMN-FPN反相关在DoC中的破坏",
+        "FPN+DMN连接模式达82.7%分类准确率",
+        "DLPFC-楔前叶负相关"
+      ]
+    },
+    "PMID:33260944": {
+      "citation": "Sinitsyn DO et al. (2020). Detecting the Potential for Consciousness in Unresponsive Patients Using the Perturbational Complexity Index. Brain Sci, 10(12), 1045.",
+      "pmcid": "PMC7760168",
+      "open_access": true,
+      "first_used": "2026-08-09",
+      "articles_using": [
+        "2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening"
+      ],
+      "covers": [
+        "PCI*=0.31阈值验证",
+        "92%灵敏度区分MCS",
+        "UWS高复杂度亚组（潜在隐蔽意识）"
       ]
     }
   }

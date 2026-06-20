@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-08",
+  "updated": "2026-08-09",
   "node_count": 199,
   "edge_count": 1148,
   "edge_types": [
@@ -1888,6 +1888,33 @@
       "status": "speculative",
       "confidence": "low",
       "page": "wiki/theories/multiple-generator-hypothesis.md"
+    },
+    {
+      "id": "disorders-of-consciousness",
+      "title": "意识障碍",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/diseases/disorders-of-consciousness.md"
+    },
+    {
+      "id": "cognitive-motor-dissociation",
+      "title": "认知运动解离",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "emerging",
+      "confidence": "high",
+      "page": "wiki/concepts/cognitive-motor-dissociation.md"
+    },
+    {
+      "id": "mesocircuit-hypothesis",
+      "title": "前脑中间回路假说",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/mesocircuit-hypothesis.md"
     }
   ],
   "edges": [
@@ -8526,6 +8553,91 @@
     {
       "from": "global-workspace-theory",
       "to": "multiple-generator-hypothesis",
+      "type": "related"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "thalamus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "mesocircuit-hypothesis",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "cognitive-motor-dissociation",
+      "type": "related"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "basal-ganglia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cognitive-motor-dissociation",
+      "to": "disorders-of-consciousness",
+      "type": "part-of"
+    },
+    {
+      "from": "cognitive-motor-dissociation",
+      "to": "neural-correlates-of-consciousness",
+      "type": "supports"
+    },
+    {
+      "from": "cognitive-motor-dissociation",
+      "to": "thalamus",
+      "type": "related"
+    },
+    {
+      "from": "mesocircuit-hypothesis",
+      "to": "thalamus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mesocircuit-hypothesis",
+      "to": "basal-ganglia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mesocircuit-hypothesis",
+      "to": "disorders-of-consciousness",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mesocircuit-hypothesis",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "disorders-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "cognitive-motor-dissociation",
+      "type": "related"
+    },
+    {
+      "from": "thalamus",
+      "to": "disorders-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "thalamus",
+      "to": "mesocircuit-hypothesis",
       "type": "related"
     }
   ],
