@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-11",
-  "node_count": 214,
-  "edge_count": 1246,
+  "updated": "2026-08-12",
+  "node_count": 217,
+  "edge_count": 1262,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1952,6 +1952,33 @@
       "confidence": "medium",
       "source_article": "2026-08-11",
       "revision_count": 1
+    },
+    {
+      "id": "foxp2",
+      "title": "FOXP2",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/foxp2.md"
+    },
+    {
+      "id": "childhood-apraxia-of-speech",
+      "title": "儿童言语失用症",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/childhood-apraxia-of-speech.md"
+    },
+    {
+      "id": "vocal-learning",
+      "title": "发声学习",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/vocal-learning.md"
     }
   ],
   "edges": [
@@ -8896,6 +8923,102 @@
       "to": "free-energy-principle",
       "type": "exemplifies",
       "note": "LC-NE是FEP框架中贝叶斯不确定性信使的神经基底"
+    },
+    {
+      "source": "foxp2",
+      "target": "language-network",
+      "type": "regulates",
+      "weight": 0.9
+    },
+    {
+      "source": "foxp2",
+      "target": "language-evolution",
+      "type": "mechanism-of",
+      "weight": 0.8
+    },
+    {
+      "source": "foxp2",
+      "target": "broca-area",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "foxp2",
+      "target": "basal-ganglia",
+      "type": "regulates",
+      "weight": 0.9
+    },
+    {
+      "source": "foxp2",
+      "target": "childhood-apraxia-of-speech",
+      "type": "mechanism-of",
+      "weight": 1.0
+    },
+    {
+      "source": "foxp2",
+      "target": "vocal-learning",
+      "type": "regulates",
+      "weight": 0.9
+    },
+    {
+      "source": "foxp2",
+      "target": "cntnap2",
+      "type": "regulates",
+      "weight": 0.8
+    },
+    {
+      "source": "childhood-apraxia-of-speech",
+      "target": "foxp2",
+      "type": "related",
+      "weight": 1.0
+    },
+    {
+      "source": "childhood-apraxia-of-speech",
+      "target": "language-network",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "childhood-apraxia-of-speech",
+      "target": "basal-ganglia",
+      "type": "related",
+      "weight": 0.8
+    },
+    {
+      "source": "vocal-learning",
+      "target": "foxp2",
+      "type": "related",
+      "weight": 0.9
+    },
+    {
+      "source": "vocal-learning",
+      "target": "basal-ganglia",
+      "type": "mechanism-of",
+      "weight": 0.8
+    },
+    {
+      "source": "vocal-learning",
+      "target": "language-evolution",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "vocal-learning",
+      "target": "language-network",
+      "type": "related",
+      "weight": 0.7
+    },
+    {
+      "source": "language-evolution",
+      "target": "foxp2",
+      "type": "related",
+      "weight": 0.8
+    },
+    {
+      "source": "basal-ganglia",
+      "target": "foxp2",
+      "type": "related",
+      "weight": 0.8
     }
   ],
   "dangling_references": [

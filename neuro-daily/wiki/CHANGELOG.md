@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-08-12 · 文章 #111 · FOXP2与语言发育神经遗传学：从KE家族突变到皮层-纹状体回路的分子编程
+
+**核心主题**：FOXP2是人类语言最著名的"单基因"入口——KE家族R553H突变导致严重的言语失用和语法障碍；蛋白质层面含forkhead域+锌指+亮氨酸拉链三功能模块，直接调控264+靶基因（CNTNAP2、VLDLR等）；Walker 2023（PMID:37137515）揭示R553H通过dynactin1过表达→dynein-dynactin马达破坏→TrkB/BDNF信号受损→MSN树突发育不全的分子链；Qi 2024（PMID:39868047）发现FOXP2+ L6皮层丘脑神经元是言语习得的不可或缺节点；人源化Foxp2小鼠（Schreiweis 2014）展示T303N+N325S替换加速陈述性→程序性学习转换；斑马雀Area X FoxP2在鸣唱时社会情境依赖性下调（PMC2683917）；CAS遗传异质性（Morgan 2024）：30+致病基因汇聚于转录调控共同通路。
+
+**新建页面（3）**：
+- `wiki/concepts/foxp2.md`（rev1，status: established，confidence: high）— 蛋白结构、表达谱、264靶基因网络、dynein机制、CT神经元回路、人源化小鼠、鸣禽模型；Q-foxp2-01/02/03
+- `wiki/diseases/childhood-apraxia-of-speech.md`（rev1，status: established，confidence: high）— CAS定义/临床特征、遗传异质性（30+基因）、FOXP2-dynactin1机制链、收敛转录调控通路
+- `wiki/concepts/vocal-learning.md`（rev1，status: established，confidence: high）— 斑马雀HVC→Area X→DLM→LMAN→RA回路、FoxP2社会情境依赖动态调控、FoxP2敲减→异常变异性、跨物种平行
+
+**修订页面（2）**：
+- `wiki/concepts/language-evolution.md`（rev1→rev2）— 新增"FOXP2分子层面的语言进化"小节（T303N+N325S替换、人源化小鼠功能后果、正向选择争议：Enard 2002→Krause 2007尼安德特人→Henn 2018统计伪迹）；Q-lang-06部分更新；related新增foxp2/vocal-learning；dimensions扩展至molecular/behavior
+- `wiki/systems/basal-ganglia.md`（rev1→rev2）— 新增"FOXP2与纹状体发育"小节（striosome优先表达、MSN树突调控、人源化Foxp2效果DMS-DA -30%+DLS LTD增强、CAS纹状体病理、鸣禽Area X平行）；related新增foxp2/vocal-learning/childhood-apraxia-of-speech；dimensions扩展至disease
+
+**矛盾检查**：无新矛盾。Q-lang-06部分解决：FOXP2影响纹状体（已有直接证据），但FOXP2→BA44前部扩张的直接因果链仍缺乏证据（保持开放）。
+
+**图谱更新**：214节点/1246边 → 217节点/1262边（+3节点，+16边）
+
+**新增未解问题**：
+- Q-foxp2-01（高优先级）：成体鸣禽Area X中FoxP2下调的上游触发机制（多巴胺/BDNF/钙信号？）
+- Q-foxp2-02（高优先级）：FOXP2+ L6皮层丘脑神经元在言语产生时的电生理特征
+- Q-foxp2-03（中优先级）：264靶基因中哪些是言语运动特异性的vs一般运动学习共享的
+
+---
+
 ## 2026-08-11 · 文章 #110 · 大脑永远在押注：主动推断、精度控制与神经调质的统一框架
 
 **核心主题**：主动推断（active inference）作为感知-行动统一框架；期望自由能（EFE）分解为外在价值+认知价值，解决探索-利用困境；三层精度框架（感觉精度/转换精度/策略精度）对应ACh/NE/DA三大调质系统；直接实验证据（Pérez-González 2024 eLife：ACh选择性锐化听觉皮层预测误差分布 iPE 0.29→-0.05；Basu 2024 Biol Psych：前额叶NE拟合RW模型 R²=0.69，时间精度更新因果验证）；精度失调作为统一计算病理学（精神分裂/ASD/PD/MND）；断联假说（Friston 2016：NMDA功能减退→感觉精度升高→幻觉/妄想）；ASD情境适应性精度失调（Arthur 2023，非超精确先验）；DoC精度路由视角（VS=路由断联/MCS=部分恢复/CMD=运动输出精度失败）；主动推断 vs Transformer注意力机制比较（精度由内在状态分配 vs 由输入内容决定）。

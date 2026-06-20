@@ -6,14 +6,14 @@ type: theory
 status: emerging
 confidence: medium
 created: 2026-08-07
-updated: 2026-08-07
-revision_count: 1
-dimensions: [brain-region, cognition]
-related: [broca-area, mirror-neuron-system, phrase-structure-building, language-network]
+updated: 2026-08-12
+revision_count: 2
+dimensions: [brain-region, cognition, molecular, behavior]
+related: [broca-area, mirror-neuron-system, phrase-structure-building, language-network, foxp2, vocal-learning]
 prerequisites: [broca-area, language-network]
 opens_questions: [Q-lang-04, Q-lang-06]
-source_articles: [2026-08-07-brocas-area-syntax-merge-language-evolution]
-key_sources: ["PMID:37656748", "PMID:33118302"]
+source_articles: [2026-08-07-brocas-area-syntax-merge-language-evolution, 2026-08-12-foxp2-language-genetics-development]
+key_sources: ["PMID:37656748", "PMID:33118302", "PMID:11586359", "PMID:25225386", "PMID:34260143"]
 ---
 
 # 语言的神经进化 (Neural Evolution of Language)
@@ -65,22 +65,57 @@ key_sources: ["PMID:37656748", "PMID:33118302"]
 | 黑猩猩BA44几乎完全对应人类后部BA44（动作区），无前部句法区 | 人-猩猩组织学配准 | PMID:37656748 | 高 |
 | 人类BA44超模态（手语激活同一BA44），说明不是声音特化而是层级符号特化 | 23项研究ALE元分析 | PMID:33118302 | 高 |
 
+## FOXP2分子层面的语言进化（2026-08-12新增）
+
+**结构解剖层**（#106）描述的是语言进化的*终态*（BA44前部扩张），**FOXP2分子层**描述的是可能驱动该进化的*分子机制*之一：
+
+**人类特异性氨基酸替换**：FOXP2相比黑猩猩有T303N和N325S两个氨基酸变化（Lai et al. 2001；PMID:11586359），这两个变化均位于或邻近转录调控界面，可能改变FOXP2调控的靶基因表达谱——包括CNTNAP2、VLDLR等神经发育相关基因（den Hoed et al. 2021；PMID:34260143）。
+
+**功能后果**：Schreiweis等（2014；PMID:25225386）的人源化Foxp2小鼠实验显示，这两个替换加速了**陈述性→程序性学习的转换**（纹状体多巴胺和LTD改变）。在语言习得情境下，这意味着：将刚学习的发音序列从"需要注意力"更快转化为"自动化流利输出"的能力可能被增强。
+
+**进化时间线争议**：
+- 原始提案（Enard 2002）：这两个替换在约20万年前（现代人语言出现时期）经历正向选择
+- 否定（Krause 2007；PMID:17949978）：尼安德特人也有这两个替换，说明替换早于30万年前
+- 根本否定（Henn et al. 2018）：600,000 bp重新分析——原始正向选择信号是小样本统计伪迹
+- **当前状态**：两个氨基酸替换是人类/尼安德特人相对于黑猩猩的真实差异，但何时出现及是否受正向选择存疑
+
+**这一分子视角对"BA44前部扩张"解释的补充**：
+- 结构扩张（Gallardo 2023）告诉我们*结果*（更大的前部BA44）
+- FOXP2替换告诉我们一个可能的*机制候选*（纹状体-皮层程序化回路的微调）
+- 两者可能是平行而非因果关系：FOXP2影响运动侧（皮层-纹状体），BA44扩张影响语言侧（前运动皮层）
+- Q-lang-06仍部分开放：FOXP2是否直接调控决定BA44细胞命运的基因？目前无直接证据
+
+## 关键证据
+
+| 主张 | 证据/方法 | 来源 | 置信度 |
+|------|-----------|------|--------|
+| 人类左侧BA44前部额外扩张~1.64倍（超出整体皮质缩放） | 人-猩猩组织学比较 + 皮质配准 | PMID:37656748 | 高 |
+| 黑猩猩BA44几乎完全对应人类后部BA44（动作区），无前部句法区 | 人-猩猩组织学配准 | PMID:37656748 | 高 |
+| 人类BA44超模态（手语激活同一BA44），说明不是声音特化而是层级符号特化 | 23项研究ALE元分析 | PMID:33118302 | 高 |
+| 人源化Foxp2加速陈述性→程序性学习转换 | Foxp2^hum knockin小鼠 | PMID:25225386 | 中 |
+| 人类FOXP2两个氨基酸替换（T303N, N325S）相比黑猩猩 | 基因测序 | PMID:11586359 | 高 |
+| 尼安德特人共享这两个替换 | 化石DNA | PMID:17949978 | 高 |
+
 ## 连接
 
 - [[broca-area]] — 进化的目标：人类BA44前部（句法区）+ 后部（动作区）的双重结构
 - [[mirror-neuron-system]] — 镜像神经元假说（F5→BA44）被进化解剖数据部分否定
 - [[phrase-structure-building]] — Merge操作是前部BA44特化的功能
 - [[language-network]] — 整个语言网络的进化背景
+- [[foxp2]] — 语言进化的分子候选因子：人类特异性替换影响皮层-纹状体程序化学习回路
+- [[vocal-learning]] — 发声学习能力是语言进化的必要前提
 
 ## 未解问题
 
 - Q-lang-04：BA44与非人灵长类F5的精确同源关系——是否是同源区的前向扩张，还是de novo新区？
-- Q-lang-06：BA44前部扩张是否与FOXP2基因的人类特异突变（T303N, N325S）直接相关？FOXP2调控哪些发育基因影响了BA44前部的细胞命运？
+- Q-lang-06（部分更新）：FOXP2替换直接影响的是程序性学习回路（纹状体），而非直接影响BA44前部细胞命运；两者之间的发育连接（若有）尚不明确。FOXP2→BA44前部扩张的直接因果链缺乏证据，属推断。
 
 ## 修订历史
 
 - 2026-08-07 · 创建 · 基于《组装句子的机器》（#106）+ Gallardo 2023 · 初始置信度：中（限于结构证据，功能因果链尚需验证）
+- 2026-08-12 · 修订 rev2 · 新增FOXP2分子视角（人类特异氨基酸替换、人源化小鼠、进化选择争议）· 来源：Lai 2001（PMID:11586359）、Schreiweis 2014（PMID:25225386）、den Hoed 2021（PMID:34260143）、Krause 2007（PMID:17949978）· dimensions扩展至molecular/behavior；related新增foxp2、vocal-learning
 
 ## 来源文章
 
 - [[2026-08-07-brocas-area-syntax-merge-language-evolution]]
+- [[2026-08-12-foxp2-language-genetics-development]]

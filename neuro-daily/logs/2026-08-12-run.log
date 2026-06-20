@@ -1,0 +1,101 @@
+# 2026-08-12 Daily Run Log
+
+**日期**：2026-08-12
+**文章编号**：#111
+**话题**：FOXP2与语言发育神经遗传学
+**运行状态**：完成（推送成功）
+
+---
+
+## Step A：状态读取
+
+- topic_ledger.json：发现JSON语法错误（3处标题字段含未转义双引号），已修复后加载（109条，total_articles=109）
+- source_registry.json：435条来源记录，最新至2026-08-10（#109）
+- unresolved_questions.md：读取，最新问题至2026-08-07（Q-lang-06）
+- monthly_synthesis.md：2026年8月，已有10篇（#100–#109）
+- wiki/_graph.json：截止上一会话 216节点，1241条边
+- wiki/index.md：截止上一会话 211页
+
+## Step B：话题选择
+
+- **选定话题**：FOXP2与语言发育神经遗传学
+- **选定依据**：
+  - 连续3篇文章（#106/#107/#108）的`next_suggested_topics`均推荐FOXP2
+  - 近期文章覆盖语言句法（#106）、意识（#107-109），需要填补语言→遗传分子层
+  - 层级平衡：#107-109 均为认知/全脑网络层，需要分子/细胞层补充
+  - Q-lang-06（BA44进化与FOXP2关系）已开放，本文可提供直接回应
+
+## Step C：研究与写作
+
+**文献检索策略**：
+- PubMed检索：FOXP2 language genetics KE family（返回>1000篇，筛选核心）
+- PMC全文检索：FOXP2 striatum vocal learning Area X（筛选开放全文）
+- WebSearch补充：FOXP2 CAS genetic heterogeneity 2024、dynactin1 FOXP2
+
+**核心来源（10篇，6篇PMC开放全文）**：
+1. PMID:11586359 - Lai 2001 FOXP2发现（Nature）
+2. PMID:34260143 - den Hoed 2021 264靶基因（PMC开放）
+3. PMID:39868047 - Qi 2024 L6 CT神经元（PMC开放）
+4. PMID:37137515 - Walker 2023 dynactin1/CAS（PMC开放）
+5. PMID:25225386 - Schreiweis 2014 人源化小鼠（PMC开放）
+6. PMC2683917 - Haesler综述 鸣禽FoxP2（PMC开放）
+7. PMID:24360538 - Hilliard 2014 FoxP2敲减（PMC开放）
+8. PMID:38366112 - Morgan 2024 CAS遗传异质性（PMC开放）
+9. PMID:21765815 - Vernes 2011 MSN树突（PMC开放）
+10. PMID:17949978 - Krause 2007 尼安德特人FOXP2（摘要）
+
+**文章写作**：
+- 文件：neuro-daily/articles/2026-08-12-foxp2-language-genetics-development.md
+- 字数：~5500字（含标题/小节/表格）
+- 笔记：neuro-daily/notes/2026-08-12-reading-notes.md
+- 来源JSON：neuro-daily/sources/2026-08-12-sources.json（12条）
+
+## Step D：wiki固结
+
+**新建页面（3页）**：
+- wiki/concepts/foxp2.md（rev1）：FOXP2蛋白结构、表达、264靶基因、CT神经元、dynein机制、人源化小鼠、鸣禽模型、Q-foxp2-01/02/03
+- wiki/diseases/childhood-apraxia-of-speech.md（rev1）：CAS定义、遗传异质性（30+基因）、FOXP2机制链、收敛通路
+- wiki/concepts/vocal-learning.md（rev1）：斑马雀回路、FoxP2社会情境动态调控、FoxP2敲减表型、哺乳动物平行
+
+**修订页面（2页）**：
+- wiki/concepts/language-evolution.md（rev1→rev2）：新增FOXP2分子层小节（T303N+N325S替换、人源化小鼠、进化选择争议）
+- wiki/systems/basal-ganglia.md（rev1→rev2）：新增FOXP2与纹状体发育小节（striosome表达、MSN树突、人源化Foxp2效果、CAS纹状体病理、Area X平行）
+
+**矛盾检查**：无新矛盾发现；Q-lang-06（FOXP2→BA44前部扩张因果链）部分更新（证据支持FOXP2影响纹状体，而非直接BA44）
+
+## Step E：图谱与导航更新
+
+**_graph.json更新**：
+- 节点：213→216（新增：foxp2, childhood-apraxia-of-speech, vocal-learning）
+- 边：1226→1241（新增15条：foxp2⇄language-network、foxp2→language-evolution、foxp2↔basal-ganglia、foxp2→childhood-apraxia-of-speech、foxp2↔vocal-learning等）
+
+**wiki/CHANGELOG.md**：在顶部添加2026-08-12条目
+**wiki/index.md**：更新至211页，添加foxp2、vocal-learning（concepts）、childhood-apraxia-of-speech（diseases）
+
+## Step F：状态文件更新
+
+- topic_ledger.json：修复3处JSON语法错误，添加#111条目，total_articles→110
+- source_registry.json：添加sources_2026-08-12（10条新来源），total_sources→420
+- unresolved_questions.md：追加Q-foxp2-01/02/03（高/高/中优先级）
+- monthly_synthesis.md：更新至2026-08-12，#111行加入月度表格，本月截至日期更新
+
+## Step G：Git提交与推送
+
+**Git作者**：GIT_AUTHOR_NAME=QIUYicong, GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+**提交信息**：Add neuro daily article + wiki consolidation for 2026-08-12
+**推送目标**：origin main
+
+## 运行摘要
+
+| 项目 | 数值 |
+|------|------|
+| 文章编号 | #111 |
+| 文章日期 | 2026-08-12 |
+| 写作字数 | ~5500字 |
+| 新建wiki页 | 3 |
+| 修订wiki页 | 2 |
+| 新增图谱节点 | 3 |
+| 新增图谱边 | 15 |
+| 新增来源 | 10 |
+| 新开放问题 | 3（Q-foxp2-01/02/03） |
+| JSON修复 | 1文件（topic_ledger.json，3处未转义引号） |

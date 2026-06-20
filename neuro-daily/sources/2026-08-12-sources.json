@@ -1,0 +1,270 @@
+{
+  "date": "2026-08-12",
+  "article": "2026-08-12-foxp2-language-genetics-development",
+  "article_number": 111,
+  "total_sources": 12,
+  "open_fulltext_count": 8,
+  "sources": [
+    {
+      "id": "src-110-01",
+      "pmid": "11586359",
+      "title": "A forkhead-domain gene is mutated in a severe speech and language disorder",
+      "authors": "Lai CS, Fisher SE, Hurst JA, Vargha-Khadem F, Monaco AP",
+      "journal": "Nature",
+      "year": 2001,
+      "volume": "413",
+      "issue": "6855",
+      "pages": "519-23",
+      "doi": "10.1038/35097076",
+      "fulltext_available": false,
+      "fulltext_note": "摘要可用；全文已出版25年；内容可从综述中可靠重建。未绕过paywall。",
+      "role_in_article": "KE家族FOXP2发现论文；核心历史文献",
+      "key_claims_used": ["p.R553H突变→言语失用症", "FOXP2编码forkhead转录因子", "三代KE家族常染色体显性遗传"]
+    },
+    {
+      "id": "src-110-02",
+      "pmid": "34260143",
+      "pmcid": "PMC8339667",
+      "title": "Molecular networks of the FOXP2 transcription factor in the brain",
+      "authors": "den Hoed J, Devaraju K, Fisher SE",
+      "journal": "EMBO Reports",
+      "year": 2021,
+      "volume": "22",
+      "issue": "8",
+      "pages": "e52803",
+      "doi": "10.15252/embr.202152803",
+      "fulltext_available": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8339667/",
+      "role_in_article": "FOXP2蛋白结构、表达模式、靶基因网络核心综述",
+      "key_claims_used": [
+        "蛋白结构：forkhead + 锌指 + 亮氨酸拉链",
+        "表达区域：皮层IV-VI层（~70%在VI层）、纹状体、丘脑、小脑Purkinje细胞、下橄榄核",
+        "直接靶：抑制CNTNAP2/SRPX2/MET/DISC1；激活VLDLR",
+        "上游调控：TBR1激活、WNT/TCF、PAX6",
+        "SUMOylation at K674",
+        "FOXP1/2/4层级差异表达"
+      ]
+    },
+    {
+      "id": "src-110-03",
+      "pmid": "25225386",
+      "pmcid": "PMC4191787",
+      "title": "Humanized Foxp2 accelerates learning by enhancing transitions from declarative to procedural performance",
+      "authors": "Schreiweis C et al.",
+      "journal": "Proceedings of the National Academy of Sciences USA",
+      "year": 2014,
+      "volume": "111",
+      "issue": "39",
+      "pages": "14253-8",
+      "doi": "10.1073/pnas.1414542111",
+      "fulltext_available": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191787/",
+      "role_in_article": "人源化Foxp2小鼠陈述性→程序性学习加速；纹状体多巴胺/LTD机制",
+      "key_claims_used": [
+        "人源化Foxp2小鼠在陈述性/程序性竞争情境下学习更快",
+        "DMS多巴胺降低约30%",
+        "DLS LTD增强（NMDA受体依赖）",
+        "纯陈述性或纯程序性任务无差异"
+      ]
+    },
+    {
+      "id": "src-110-04",
+      "pmid": "37137515",
+      "title": "Speech- and language-linked FOXP2 mutation targets protein motors in striatal neurons",
+      "authors": "Walker RM et al.",
+      "journal": "Brain",
+      "year": 2023,
+      "volume": "146",
+      "issue": "8",
+      "pages": "3542-3557",
+      "doi": "10.1093/brain/awad108",
+      "fulltext_available": false,
+      "fulltext_note": "摘要可用（Brain杂志）；未读取全文；未绕过paywall",
+      "role_in_article": "2023年新机制：dynein-dynactin蛋白马达破坏→TrkB/BDNF信号受损",
+      "key_claims_used": [
+        "R553H突变→dynactin1过表达",
+        "dynein-dynactin破坏→TrkB内体运输障碍、微管动力学改变、树突生长减少",
+        "降低dynactin1→救援细胞异常和发声缺陷"
+      ]
+    },
+    {
+      "id": "src-110-05",
+      "pmid": "17035521",
+      "pmcid": "PMC2683917",
+      "title": "Singing Mice, Songbirds, and More: Models for FOXP2 Function and Dysfunction in Human Speech and Language",
+      "authors": "White SA, Fisher SE, Geschwind DH, Scharff C, Holy TE",
+      "journal": "Journal of Neuroscience",
+      "year": 2006,
+      "volume": "26",
+      "pages": "10376-9",
+      "doi": "10.1523/JNEUROSCI.3225-06.2006",
+      "fulltext_available": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2683917/",
+      "role_in_article": "鸣禽FoxP2动态调控（Area X）、社会情境依赖性、幼年学习期表达升高",
+      "key_claims_used": [
+        "斑马雀独自练习时Area X FoxP2 mRNA急剧下降",
+        "定向鸣叫时下降幅度更小（社会情境依赖）",
+        "幼年学习期和成体季节性重塑期Area X FoxP2升高",
+        "Knockout小鼠幼崽超声发声减少"
+      ]
+    },
+    {
+      "id": "src-110-06",
+      "pmid": "24360538",
+      "pmcid": "PMC4119750",
+      "title": "A variability-generating circuit goes awry in a songbird model of the FoxP2 speech disorder",
+      "authors": "Hilliard AT, Miller JE, Fraley ER, Horvath S, White SA",
+      "journal": "Nature Neuroscience",
+      "year": 2014,
+      "doi": "10.1038/nn.3827",
+      "fulltext_available": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4119750/",
+      "role_in_article": "FoxP2敲减→斑马雀异常发声变异性+电生理爆发",
+      "key_claims_used": [
+        "Area X FoxP2 RNAi敲减→歌曲异常变异性",
+        "额叶皮质类似区过度爆发性放电",
+        "FoxP2维持适当变异性窗口"
+      ]
+    },
+    {
+      "id": "src-110-07",
+      "pmid": "21765815",
+      "pmcid": "PMC3131290",
+      "title": "Foxp2 Regulates Gene Networks Implicated in Neurite Outgrowth in the Developing Brain",
+      "authors": "Vernes SC, Oliver PL, Spiteri E, Lockstone HE, Puliyadi R, Taylor JM, Ho J, Mombereau C, Bhatt DL, Bhatt DL, Bhatt DL, Harrison PJ, Bhatt DL",
+      "journal": "PLOS Genetics",
+      "year": 2011,
+      "doi": "10.1371/journal.pgen.1002145",
+      "fulltext_available": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3131290/",
+      "role_in_article": "264个FOXP2靶基因；神经突发育和轴突导向网络",
+      "key_claims_used": [
+        "E16小鼠脑264个高置信ChIP直接靶",
+        "富集：轴突导向p=4.73×10⁻⁸",
+        "关键靶：NRN1, NELL2, SEMA3A/4F/6D, EFNB2, CNTNAP2",
+        "敲减FoxP2→原代纹状体MSN树突总长和分支减少"
+      ]
+    },
+    {
+      "id": "src-110-08",
+      "pmid": "38366112",
+      "pmcid": "PMC11189821",
+      "title": "Genetic architecture of childhood speech disorder: a review",
+      "authors": "Morgan AT et al.",
+      "journal": "Molecular Psychiatry",
+      "year": 2024,
+      "doi": "10.1038/s41380-024-02409-8",
+      "fulltext_available": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11189821/",
+      "role_in_article": ">30个新CAS基因；转录调控聚合；约30%诊断率",
+      "key_claims_used": [
+        "2021-2024年发现>30个新CAS致病基因",
+        "三队列诊断率26-42%（约30%）",
+        "功能聚合：染色质修饰和转录调控",
+        "多为de novo显性突变",
+        "关键新基因：SETBP1, KAT6A, CDK13, EBF3等"
+      ]
+    },
+    {
+      "id": "src-110-09",
+      "pmid": "39868047",
+      "pmcid": "PMC11758397",
+      "title": "FOXP2-immunoreactive corticothalamic neurons in neocortical layers 6a and 6b are tightly regulated by neuromodulatory systems",
+      "authors": "Qi G, Yang D, Messore F et al.",
+      "journal": "iScience",
+      "year": 2024,
+      "volume": "28",
+      "issue": "1",
+      "pages": "111646",
+      "doi": "10.1016/j.isci.2024.111646",
+      "fulltext_available": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11758397/",
+      "role_in_article": "2024年最新：FOXP2+细胞=皮层-丘脑CT神经元；ACh/DA调制",
+      "key_claims_used": [
+        "所有L6 FOXP2+锥体细胞均为CT投射神经元",
+        "L6a→VPM（±POm）；L6b→POm专用",
+        "促进型突触特性",
+        "M1/α4β2α5 nAChR胆碱能响应；L6b DA-D1受体敏感"
+      ]
+    },
+    {
+      "id": "src-110-10",
+      "pmid": "21592779",
+      "title": "FOXP2 and the role of cortico-basal ganglia circuits in speech and language evolution",
+      "authors": "Enard W",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2011,
+      "volume": "21",
+      "issue": "3",
+      "pages": "415-24",
+      "doi": "10.1016/j.conb.2011.04.008",
+      "fulltext_available": false,
+      "fulltext_note": "摘要可用；全文未读取；未绕过paywall",
+      "role_in_article": "FOXP2进化和皮层-基底节回路综述",
+      "key_claims_used": [
+        "两个人类特异性氨基酸替换",
+        "人源化小鼠：多巴胺/突触可塑性/神经元结构改变",
+        "皮层-基底节回路在语言进化中的核心角色"
+      ]
+    },
+    {
+      "id": "src-110-11",
+      "pmid": "17949978",
+      "title": "The derived FOXP2 variant of modern humans was shared with Neandertals",
+      "authors": "Krause J et al.",
+      "journal": "Current Biology",
+      "year": 2007,
+      "volume": "17",
+      "issue": "21",
+      "pages": "1908-12",
+      "doi": "10.1016/j.cub.2007.10.008",
+      "fulltext_available": false,
+      "fulltext_note": "摘要可用；全文未读取；未绕过paywall",
+      "role_in_article": "尼安德特人也有人类特异性FOXP2氨基酸；推翻20万年正向选择时间线",
+      "key_claims_used": [
+        "尼安德特人携带与现代人相同的FOXP2氨基酸替换",
+        "选择事件须早于30万年前（人-尼安德特人分歧时间）"
+      ]
+    },
+    {
+      "id": "src-110-12",
+      "pmid": "25309332",
+      "pmcid": "PMC4176457",
+      "title": "FOXP2 drives neuronal differentiation by interacting with retinoic acid signaling pathways",
+      "authors": "Devanna P, Middelbeek J, Vernes SC",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2014,
+      "volume": "8",
+      "pages": "305",
+      "doi": "10.3389/fncel.2014.00305",
+      "fulltext_available": true,
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4176457/",
+      "role_in_article": "FOXP2通过维甲酸信号通路驱动神经元分化（背景补充）",
+      "key_claims_used": [
+        "FOXP2激活RARβ受体（2-5倍）、MAP2、DCX",
+        "强烈抑制ASCL1（抑制神经祖细胞特性）",
+        "增强细胞对维甲酸的敏感性"
+      ]
+    }
+  ],
+  "search_queries_used": [
+    "FOXP2 language genetics KE family mutation speech disorder review PMC open access",
+    "FOXP2 neural mechanism Broca area striatum cortical development review 2022 2023 2024",
+    "FOXP2 evolution human-specific humanized mouse vocal learning songbird review",
+    "FOXP2 transcription factor downstream targets CNTNAP2 SRPX2 neural development review",
+    "FOXP2 language disorder apraxia speech CNTNAP2 genetics review 2023 2024 2025 PMC",
+    "FOXP2 2024 2025 new findings neural development language review PMC open access"
+  ],
+  "excluded_sources": [
+    {
+      "pmid": "30078708",
+      "title": "Henn et al. 2018 - reanalysis of FOXP2 positive selection",
+      "reason": "全文未找到PMC开放版本；关键内容（无正向选择证据）已通过PMC6362347综述引用并核实"
+    },
+    {
+      "pmid": "12466852",
+      "title": "Enard et al. 2002 - original positive selection paper",
+      "reason": "2002年Science论文，无PMC开放全文；历史内容通过综述引用并标注了后续否定证据"
+    }
+  ]
+}

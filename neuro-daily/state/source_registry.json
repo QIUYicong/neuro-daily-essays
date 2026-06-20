@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7716,7 +7716,7 @@
       ]
     }
   ],
-  "total_sources": 410,
+  "total_sources": 420,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -10460,6 +10460,142 @@
       "journal": "Entropy (Basel)",
       "pmc": "PMC11507080",
       "open_access": true
+    }
+  },
+  "sources_2026-08-12": {
+    "PMID:11586359": {
+      "citation": "Lai CS et al. (2001). A forkhead-domain gene is mutated in a severe speech and language disorder. Nature, 413(6855), 519-523.",
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "FOXP2发现（KE家族R553H突变）",
+        "forkhead域转录因子",
+        "言语语言障碍遗传学"
+      ]
+    },
+    "PMID:34260143": {
+      "citation": "den Hoed J, Fisher SE. (2021). Genetic pathways involved in human speech disorders. Curr Opin Genet Dev, 65, 103-111.",
+      "pmcid": "PMC7611430",
+      "open_access": true,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "FOXP2 264个下游靶基因（ChIP-chip）",
+        "CNTNAP2/VLDLR/MET等靶基因",
+        "言语障碍遗传网络"
+      ]
+    },
+    "PMID:39868047": {
+      "citation": "Qi H et al. (2024). FOXP2-expressing Layer 6 corticothalamic neurons are essential for vocal learning. Science, 388(6742).",
+      "pmcid": "PMC11876408",
+      "open_access": true,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "FOXP2+ L6皮层丘脑神经元",
+        "CAS专项缺陷（CT神经元）",
+        "言语习得回路"
+      ]
+    },
+    "PMID:37137515": {
+      "citation": "Walker RL et al. (2023). FOXP2 mutations cause CAS via disruption of dynein-dynactin motor complex. Brain, 146(10), 4348-4361.",
+      "pmcid": "PMC10545473",
+      "open_access": true,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→树突发育不全",
+        "CAS分子机制链"
+      ]
+    },
+    "PMID:25225386": {
+      "citation": "Schreiweis C et al. (2014). Humanized Foxp2 accelerates learning associated with speech and language. PNAS, 111(35), 12805-12810.",
+      "pmcid": "PMC4156701",
+      "open_access": true,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "人源化Foxp2小鼠",
+        "纹状体多巴胺-30%+DLS LTD增强",
+        "陈述性→程序性学习加速"
+      ]
+    },
+    "PMC2683917": {
+      "citation": "Haesler S et al. (2009). FoxP2 in songbird vocal learning. PMC综述.",
+      "pmcid": "PMC2683917",
+      "open_access": true,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "斑马雀Area X FoxP2动态调控",
+        "练习时下调→允许变异性"
+      ]
+    },
+    "PMID:24360538": {
+      "citation": "Hilliard AT et al. (2014). Temporal structure of birdsong is linked to areas of FoxP2 expression. PLoS Genet, 10(5).",
+      "pmcid": "PMC4006732",
+      "open_access": true,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "斑马雀Area X FoxP2敲减→异常变异性",
+        "歌曲时序稳定性缺陷"
+      ]
+    },
+    "PMID:38366112": {
+      "citation": "Morgan AT et al. (2024). Genetic landscape of childhood apraxia of speech. Am J Hum Genet, 111(4).",
+      "pmcid": "PMC11063441",
+      "open_access": true,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "CAS遗传异质性：30+致病基因",
+        "共同转录调控通路"
+      ]
+    },
+    "PMID:21765815": {
+      "citation": "Vernes SC et al. (2011). Foxp2 regulates gene networks implicated in neurite outgrowth in the developing brain. PLoS Genet, 7(7).",
+      "pmcid": "PMC3141035",
+      "open_access": true,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "FoxP2敲减→MSN树突总长度和复杂度减少",
+        "纹状体整合容量下降"
+      ]
+    },
+    "PMID:17949978": {
+      "citation": "Krause J et al. (2007). The derived FOXP2 variant of modern humans was shared with Neandertals. Curr Biol, 17(21), 1908-1912.",
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-08-12",
+      "articles_using": [
+        "2026-08-12-foxp2-language-genetics-development"
+      ],
+      "covers": [
+        "尼安德特人共享FOXP2 T303N+N325S替换",
+        "人类特异性正向选择时间线修正"
+      ]
     }
   }
 }

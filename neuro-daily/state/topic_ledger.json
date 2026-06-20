@@ -1,7 +1,75 @@
 {
-  "last_updated": "2026-08-11",
-  "total_articles": 110,
+  "last_updated": "2026-08-12",
+  "total_articles": 111,
   "entries": [
+    {
+      "date": "2026-08-12",
+      "title": "FOXP2与语言发育神经遗传学：从KE家族突变到皮层-纹状体回路的分子编程",
+      "filename": "2026-08-12-foxp2-language-genetics-development.md",
+      "article_number": 111,
+      "wiki_pages_created": [
+        "wiki/concepts/foxp2.md",
+        "wiki/diseases/childhood-apraxia-of-speech.md",
+        "wiki/concepts/vocal-learning.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/language-evolution.md (rev1→rev2)",
+        "wiki/systems/basal-ganglia.md (rev1→rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "FOXP2是如何从一个单基因转录因子扩展为264+靶基因调控网络，并通过皮层-纹状体-丘脑-小脑四大回路精密塑造，使人类（和鸣禽）得以将有意识的发音序列转化为自动化流利言语的？R553H突变如何经由dynactin1→动力蛋白马达→MSN树突发育的链条导致儿童言语失用症？",
+      "open_questions_added": [
+        "Q-foxp2-01（高优先级）：成体鸣禽Area X中FoxP2下调的上游触发机制是什么？多巴胺/BDNF/钙信号中哪个是触发器？",
+        "Q-foxp2-02（高优先级）：FOXP2+ L6皮层丘脑神经元在言语产生时的电生理特征是什么？",
+        "Q-foxp2-03（中优先级）：FOXP2的264个靶基因中，哪些是言语运动特异性的？"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "3. 语言神经科学（分子/遗传层）",
+      "topic_tags": [
+        "FOXP2",
+        "转录因子",
+        "语言遗传学",
+        "儿童言语失用症",
+        "KE家族",
+        "皮层-纹状体回路",
+        "发声学习",
+        "鸣禽Area X",
+        "人类进化",
+        "dynein-dynactin"
+      ],
+      "main_sources": [
+        "PMID:11586359 (Lai 2001, FOXP2发现)",
+        "PMID:34260143 (den Hoed 2021, 264靶基因ChIP-chip)",
+        "PMID:39868047 (Qi 2024, L6 CT神经元)",
+        "PMID:37137515 (Walker 2023, dynactin1/CAS机制)",
+        "PMID:25225386 (Schreiweis 2014, 人源化Foxp2小鼠)",
+        "PMC2683917 (Haesler综述, 鸣禽FoxP2动态)",
+        "PMID:24360538 (Hilliard 2014, FoxP2敲减)",
+        "PMID:38366112 (Morgan 2024, CAS遗传异质性30+基因)"
+      ],
+      "open_access_fulltext": [
+        "PMID:34260143 (PMC)",
+        "PMID:39868047 (PMC)",
+        "PMID:37137515 (PMC)",
+        "PMC2683917",
+        "PMID:24360538 (PMC)",
+        "PMID:38366112 (PMC)",
+        "PMID:21765815 (PMC)"
+      ],
+      "next_suggested_topics": [
+        "CNTNAP2与语言障碍神经遗传学：FOXP2的最强靶基因，癫痫-孤独症-语言延迟的神经回路机制",
+        "前颞叶语义中枢（ATL）：模态无关语义整合的神经机制，语言网络腹侧流终端",
+        "言语产生的运动控制：喉部运动皮层（LMC）到声带肌肉，及其与Broca区连接",
+        "小脑精细时序：言语产生的毫秒级运动调节与小脑皮质电路"
+      ]
+    },
     {
       "date": "2026-08-11",
       "title": "大脑永远在押注：主动推断、精度控制与神经调质的统一框架",

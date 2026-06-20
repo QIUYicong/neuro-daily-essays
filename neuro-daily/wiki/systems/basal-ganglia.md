@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-31
-updated: 2026-07-31
-revision_count: 1
-dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [dopamine-reward-prediction-error, interval-timing, striatal-beat-frequency, td-learning, parkinson-disease, prefrontal-cortex, thalamus]
+updated: 2026-08-12
+revision_count: 2
+dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
+related: [dopamine-reward-prediction-error, interval-timing, striatal-beat-frequency, td-learning, parkinson-disease, prefrontal-cortex, thalamus, foxp2, vocal-learning, childhood-apraxia-of-speech]
 prerequisites: [medium-spiny-neuron, dopamine-reward-prediction-error]
-opens_questions: [Q-bg-01]
-source_articles: [2026-07-31-interval-timing-basal-ganglia-striatum]
-key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564"]
+opens_questions: [Q-bg-01, Q-foxp2-01]
+source_articles: [2026-07-31-interval-timing-basal-ganglia-striatum, 2026-08-12-foxp2-language-genetics-development]
+key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143", "PMID:25225386"]
 ---
 
 # 基底节 (Basal Ganglia)
@@ -70,6 +70,34 @@ key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564"]
 | 纹状体斜坡为局部独立机制 | 计算建模；~1/3 MSN；混沌边缘 | PMID:35978564 | 中 |
 | D1/D2 对立协同累积时间证据 | 光遗传+药理；R²=0.95 | DOI:10.7554/eLife.96287.4 | 中高 |
 
+## FOXP2与纹状体发育（2026-08-12新增）
+
+纹状体不仅是计时和运动选择的核心，也是**言语运动程序化回路的关键节点**，这一功能依赖FOXP2在发育期的调控：
+
+**FOXP2在纹状体表达**：优先在纹状体小室（striosome）隔室表达，发育期（胚胎至出生后早期）最高，成体降低但保留；调控中型棘神经元（MSN）的树突形态复杂度（Vernes et al. 2011；PMID:21765815）
+
+**FOXP2敲减→MSN树突简化**：原代纹状体MSN实验显示，FoxP2敲减导致树突总长度和分支复杂度显著减少——直接减少了纹状体整合皮层输入的容量
+
+**语言习得层面**：人源化Foxp2小鼠纹状体表现出：
+- 背内侧纹状体（DMS，陈述性学习）多巴胺降低~30%
+- 背外侧纹状体（DLS，程序性学习）LTD增强
+- 净效果：加速从陈述性（有意识学习音素）到程序性（自动化流利言语）的转换（Schreiweis et al. 2014；PMID:25225386）
+
+**FOXP2突变的纹状体后果**：KE家族R553H突变导致纹状体MSN中dynactin1过表达→dynein-dynactin蛋白马达破坏→TrkB/BDNF信号受损→树突发育不全→言语运动程序化失败（儿童语言失用症CAS）（Walker et al. 2023；PMID:37137515）
+
+**跨物种视角**：鸣禽纹状体（Area X）是发声学习的前馈可塑性回路核心节点，Area X中FoxP2动态调控（鸣唱时下调）控制发声变异性窗口——与哺乳动物纹状体在程序性学习中的角色高度平行
+
+## 关键证据
+
+| 主张 | 证据/方法 | 来源 | 置信度 |
+|------|----------|------|--------|
+| 节拍计时调用纹状-丘脑-皮层网络 | fMRI 18 人 | PMID:21389235 | 高 |
+| 基底节负责秒级时长测量 | 猴电生理，延迟期~2s 准备活动 | PMID:38918348 | 中高 |
+| 纹状体斜坡为局部独立机制 | 计算建模；~1/3 MSN；混沌边缘 | PMID:35978564 | 中 |
+| D1/D2 对立协同累积时间证据 | 光遗传+药理；R²=0.95 | DOI:10.7554/eLife.96287.4 | 中高 |
+| FoxP2敲减→MSN树突简化 | 原代纹状体神经元培养 | PMID:21765815 | 高 |
+| 人源化Foxp2→纹状体多巴胺-30%+DLS LTD增强 | Foxp2^hum knockin小鼠 | PMID:25225386 | 中 |
+
 ## 连接
 
 - [[medium-spiny-neuron]] — D1/D2 通路的细胞基础
@@ -79,16 +107,22 @@ key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564"]
 - [[td-learning]] — 时序差分学习与基底节
 - [[parkinson-disease]] — 多巴胺退化导致回路失衡与时间扭曲
 - [[prefrontal-cortex]] / [[thalamus]] — 皮层-纹状体-丘脑环路
+- [[foxp2]] — FOXP2在发育期调控纹状体MSN树突形态，支持言语运动程序化
+- [[vocal-learning]] — 鸣禽纹状体（Area X）是发声学习前馈通路的关键节点
+- [[childhood-apraxia-of-speech]] — FOXP2纹状体功能失调的主要临床后果
 - [[circuits/basal-ganglia]] — 姊妹页：回路/疾病视角的更详细解剖
 
 ## 未解问题
 
 - **Q-bg-01**：D1 与 D2 通路在计时中的精确分工是什么？为何放电方向相反却协同累积时间证据——冗余、互补还是拮抗平衡？
+- **Q-foxp2-01**（来自#111）：成体鸣禽Area X中FoxP2下调的上游触发机制是什么？多巴胺/BDNF/钙信号中哪个是触发器？
 
 ## 修订历史
 
 - 2026-07-31 · 创建（systems 域首版，计时视角） · 基于《大脑的秒表》文章 #99 · 初始置信度：高
+- 2026-08-12 · 修订 rev2 · 新增FOXP2与纹状体发育小节（MSN树突调控、人源化Foxp2效果、CAS机制、鸣禽Area X平行）· 来源：PMID:21765815, PMID:25225386, PMID:37137515 · related新增foxp2、vocal-learning、childhood-apraxia-of-speech；dimensions扩展至disease
 
 ## 来源文章
 
 - [[2026-07-31-interval-timing-basal-ganglia-striatum]]
+- [[2026-08-12-foxp2-language-genetics-development]]
