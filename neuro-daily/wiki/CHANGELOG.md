@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-08-08 · 文章 #107 · 意识的分水岭在何处：后方皮层、前额叶与多重发生器
+
+**核心主题**：神经意识关联（NCC）的三分框架（内容特异/完整/使能）；COGITATE 2025 最终结果（IIT后方同步缺失+GNWT偏移点燃缺失，但内容在后方解码+脑范围广播确认）；GNW回应论文（PMID:41080705，Naccache/Dehaene/Changeux）的四点防守及其暴露的可证伪性问题；多重发生器假说（MGH，Kirkeby-Hinrup 2025）提出所有理论可能各描述真实的不同发生器；无报告范式的方法论局限（认知监控混淆）；PFC的局部意识处理（sEEG 200–300ms证据）；扰动复杂度指数（PCI）的理论基础与临床应用；意识与AI的对比。
+
+**新建页面（1）**：
+- `wiki/theories/multiple-generator-hypothesis.md`（多重发生器假说）⚪ speculative · 低置信度 — 意识可能由多个并行发生器共同产生；原则（principle）vs 发生器（generator）核心区分；现有理论各自描述了不同发生器；对物种意识和AI意识评估的影响；目前纯理论提案（PMID:41000147）
+
+**修订页面（3）**：
+- `wiki/concepts/neural-correlates-of-consciousness.md` rev1→rev2 — 整合GNW回应论文（PMID:41080705）的四点防守；PFC局部意识处理sEEG证据（PMID:38265851）；无报告范式的认知监控混淆批评（PMID:35634201）；MGH框架（PMID:41000147）；新增Q-ncc-04/05/06；related新增multiple-generator-hypothesis；key_sources新增4项
+- `wiki/theories/global-workspace-theory.md` rev6→rev7 — 新增MGH视角（GWT广播机制可能是多重发生器之一）；C-2026-05-31-02矛盾焦点转移到GWT可证伪标准问题注记；related新增multiple-generator-hypothesis
+- `wiki/theories/integrated-information-theory.md` rev3→rev4 — 新增MGH提供的理论逃脱路径（整合信息原则可能通过其他发生器实现）；related新增multiple-generator-hypothesis
+
+**矛盾更新（2）**：
+- C-2026-05-31-01（IIT后方同步 vs COGITATE）：evidence_update更新——GNW回应未为IIT辩护；MGH提供理论逃脱路径但不改变claim_B对特定机制的否定；状态 open，claim_B证据基础更厚实
+- C-2026-05-31-02（GWT偏移点燃 vs COGITATE）：evidence_update更新——GNW回应提供系统性防守；矛盾焦点转移到GWT可证伪标准；状态 open，新矛盾：什么结果能证伪GWT
+
+**新增未解问题（3）**：Q-ncc-04（多重发生器如何实验检验）、Q-ncc-05（深麻醉-意识分离实验）、Q-ncc-06（PCI测量的发生器成分）
+
+---
+
 ## 2026-08-07 · 文章 #106 · 组装句子的机器：Broca区如何将词汇序列升维为层级结构
 
 **核心主题**：BA44的Merge操作（短语结构组装）；BA44/BA45功能分工（grammatical vs semantic）；弓状束精细结构（Vavassori 2023三段解剖）；人类BA44进化双重结构（Gallardo 2023，左侧前部扩张1.64倍）；儿童句法神经重组（Klein 2022，3岁pSTS→4岁BA44）；语言网络的"自然种"地位（Fedorenko 2024）；LLM-大脑对齐的含义与限制（Hosseini 2024：1亿词达最大预测力）。

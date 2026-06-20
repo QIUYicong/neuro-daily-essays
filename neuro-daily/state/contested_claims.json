@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-08-08",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -46,7 +46,7 @@
       "status": "open",
       "opened": "2026-05-31",
       "priority": "high",
-      "evidence_update": "2026-05-31 (#35): COGITATE 全文读取补充数字——仅 3.8% 后方电极持续激活，BF₀₁=1.15–4.9，同步持续 <0.75s 且在低频段（非 gamma）。进一步支持 claim_B，但 IIT 阵营主张 gamma 同步只是操作化的一种可能表现，非 IIT 唯一预测。裁决仍 open。| 2026-06-27 (#63): GNW 回应论文（PMC12510449）补充新视角——COGITATE 确认了脑范围广播（GNW 核心预测），但未改变 IIT P2/P3 失败的事实。IIT 阵营的 Lakatos 式防守（gamma 同步是辅助假说带，Φ 才是硬核）使直接裁决在技术上不可行。化解此矛盾需要直接测量 Φ 的实验（目前几乎无法实现）。裁决仍 open，但 claim_B 的证据基础更厚实。"
+      "evidence_update": "2026-05-31 (#35): COGITATE 全文读取补充数字——仅 3.8% 后方电极持续激活，BF₀₁=1.15–4.9，同步持续 <0.75s 且在低频段（非 gamma）。进一步支持 claim_B，但 IIT 阵营主张 gamma 同步只是操作化的一种可能表现，非 IIT 唯一预测。裁决仍 open。| 2026-06-27 (#63): GNW 回应论文（PMC12510449）补充新视角——COGITATE 确认了脑范围广播（GNW 核心预测），但未改变 IIT P2/P3 失败的事实。IIT 阵营的 Lakatos 式防守（gamma 同步是辅助假说带，Φ 才是硬核）使直接裁决在技术上不可行。化解此矛盾需要直接测量 Φ 的实验（目前几乎无法实现）。裁决仍 open，但 claim_B 的证据基础更厚实。 | 2026-08-08 (#107): GNW回应论文(PMID:41080705)未为IIT辩护，聚焦于GNW防守；MGH(PMID:41000147)提出整合信息原则可能通过其他发生器实现而非gamma同步，为IIT提供理论逃脱路径但不改变claim_B对IIT特定机制的否定。人类颅内综述(DOI:10.7554/eLife.109604.2)进一步支持后方皮层持续NCC但同样未见IIT预测的持续gamma同步。裁决仍open，claim_B证据基础更厚实。"
     },
     {
       "id": "C-2026-05-31-02",
@@ -57,7 +57,7 @@
       "status": "open",
       "opened": "2026-05-31",
       "priority": "high",
-      "evidence_update": "2026-05-31 (#35): COGITATE 全文读取补充数字——0/655 前额叶 iEEG 电极显示 offset ignition；BF₀₁=1.94×10⁴（面孔-物体类别）、1,205（方向）均强支持零假设。GNWT 阵营主张 offset ignition 从未是核心预测，实验只用阈上刺激未能检验最核心的有意识/无意识分叉。裁决仍 open，但证据进一步强化 claim_B。| 2026-06-27 (#63): GNW 回应论文（PMC12510449, Naccache/Dehaene/Changeux 2025）四点回应：(1) offset ignition 从未是 GNWT 核心预测（只在主动关注刺激消失时才预测）；(2) PFC 解码困难源于缺乏柱状组织而非信息不在 PFC；(3) COGITATE 只用阈上刺激，无法检验最核心的有/无意识分叉；(4) 脑范围激活和同步被确认——这是 GWT 的真正核心预测。GWT 的防守有力，但引发了可证伪性问题：什么结果才算证伪 GWT？裁决仍 open，新增争议焦点：GWT 的可证伪标准。"
+      "evidence_update": "2026-05-31 (#35): COGITATE 全文读取补充数字——0/655 前额叶 iEEG 电极显示 offset ignition；BF₀₁=1.94×10⁴（面孔-物体类别）、1,205（方向）均强支持零假设。GNWT 阵营主张 offset ignition 从未是核心预测，实验只用阈上刺激未能检验最核心的有意识/无意识分叉。裁决仍 open，但证据进一步强化 claim_B。| 2026-06-27 (#63): GNW 回应论文（PMC12510449, Naccache/Dehaene/Changeux 2025）四点回应：(1) offset ignition 从未是 GNWT 核心预测（只在主动关注刺激消失时才预测）；(2) PFC 解码困难源于缺乏柱状组织而非信息不在 PFC；(3) COGITATE 只用阈上刺激，无法检验最核心的有/无意识分叉；(4) 脑范围激活和同步被确认——这是 GWT 的真正核心预测。GWT 的防守有力，但引发了可证伪性问题：什么结果才算证伪 GWT？裁决仍 open，新增争议焦点：GWT 的可证伪标准。 | 2026-08-08 (#107): GNW回应论文(PMID:41080705，Naccache/Dehaene/Changeux 2025)提供系统性防守：(1)偏移点燃从未是GWT核心预测；(2)PFC解码困难=方法问题(缺乏柱状组织)；(3)COGITATE设计无法检验最核心意识/无意识分叉；(4)脑范围广播已确认=GWT真正核心。论点部分有力，但暴露GWT可证伪性危机。矛盾焦点已从偏移点燃是否缺失（已确认缺失）转移到GWT的可证伪标准问题。裁决仍open，新矛盾焦点：GWT可证伪标准。"
     },
     {
       "id": "C-2026-06-22-01",

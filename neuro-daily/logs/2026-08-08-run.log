@@ -1,0 +1,90 @@
+# Run Log: 2026-08-08
+
+**Date**: 2026-08-08 (knowledge base date; container system date: 2026-06-20)
+**Status**: SUCCESS — Article #107 created, wiki updated, pushing to main
+**Branch**: main
+**Article**: 2026-08-08-ncc-debate-posterior-frontal-multiple-generators.md
+
+---
+
+## 执行摘要
+
+- **主题**：神经意识关联（NCC）——COGITATE之后的后方皮层、前额叶与多重发生器
+- **选题依据**：B.2优先级（裁决矛盾）：C-2026-05-31-01（IIT后方同步 vs COGITATE）和C-2026-05-31-02（GWT偏移点燃 vs COGITATE）自2026-05-31起持续open，最后更新在2026-06-27；多篇文章连续建议此主题为首选。同时整合了MGH（多重发生器假说，2025年新框架）和GNW回应论文（2025）等新证据。
+- **文章日期逻辑**：系统容器日期固定显示2026-06-20。知识库按topic_ledger连续编号，前一篇为#106（2026-08-07），今日为#107（2026-08-08）。
+- **层级**：whole-brain-network / brain-region / cognition（避免与#106相同具体内容，侧重理论框架和方法论）
+
+---
+
+## 检索记录
+
+| 搜索查询 | 数据源 | 候选结果数 | 采用 | 排除 |
+|---------|--------|-----------|------|------|
+| neural correlates of consciousness NCC posterior hot zone 2024 2025 review PubMed | WebSearch | 9 | 3（eLife综述，JNeurosci，PMC12459239） | 6（旧综述，ScienceDirect汇总，ResearchGate PDF） |
+| COGITATE adversarial collaboration consciousness IIT GWT 2024 2025 follow-up | WebSearch | 9 | 4（COGITATE Nature paper，PMC12137136，IIT wiki supplement，Birmingham页） | 5（重复，二手来源） |
+| posterior cortex consciousness 2024 review Koch Mashour Tononi NCC PubMed | WebSearch | 9 | 2（PMC12657887，eLife preprint） | 7（旧综述，ScienceDirect等） |
+| consciousness recurrent processing theory NCC comparison review 2024 site:pubmed | WebSearch | 9 | 3（PMC12459239，Neuron 2024集成视角，eLife preprint） | 6（不相关或403） |
+| no-report paradigm NCC prefrontal confound 2024 PMC open access | WebSearch | 8 | 2（PMC9130851，Current Biology auditory） | 6（ResearchGate，学术博客） |
+
+---
+
+## 来源采用与排除理由
+
+| PMID/DOI | 采用原因 | 是否全文 | 证据质量 |
+|---------|---------|---------|---------|
+| PMID:40307561 (COGITATE 2025) | 核心来源，预注册多模态大样本 | 是 (PMC12137136) | 高 |
+| PMID:41080705 (GNW reply 2025) | GWT阵营正式回应，代表官方立场 | 是 (PMC12510449) | 中（理论） |
+| PMID:41000147 (MGH 2025) | 新框架，解决理论战争僵局 | 是 (PMC12459239) | 低（推测） |
+| PMID:41299039 (beyond theory testing) | 方法论批评，独立于各阵营 | 是 (PMC12657887) | 低（评论） |
+| PMID:38265851 (PFC sEEG 2024) | 侵入性PFC参与意识证据 | 是 (PMC10945701) | 中（小样本） |
+| PMID:35634201 (no-report critique) | 方法论制衡，防止无报告万能论 | 是 (PMC9130851) | 中（批评性综述） |
+| DOI:10.7554/eLife.109604.2 (颅内综述) | 37项研究合成，直接颅内证据 | 是（eLife预印本） | 中（预印本） |
+| PMID:27094080 (Koch 2016 NRN) | 基础性NCC三分框架 | 否（摘要） | 高（综述，但仅摘要） |
+| Nature paper (Neuron 2024 multiscale) | 403 Forbidden | — | 未读取 |
+
+---
+
+## 固结步骤
+
+**新建 wiki 页面（1）**：
+- `wiki/theories/multiple-generator-hypothesis.md`（speculative, rev=1, PMID:41000147）
+
+**修订 wiki 页面（3）**：
+- `wiki/concepts/neural-correlates-of-consciousness.md`（rev1→rev2）：整合MGH、GNW回应、无报告范式批评、PFC sEEG证据；新增Q-ncc-04/05/06
+- `wiki/theories/global-workspace-theory.md`（rev6→rev7）：新增MGH视角，注记可证伪性问题
+- `wiki/theories/integrated-information-theory.md`（rev3→rev4）：新增MGH理论逃脱路径
+
+**矛盾协议**：
+- C-2026-05-31-01：evidence_update更新（MGH逃脱路径，claim_B仍强势），状态 open
+- C-2026-05-31-02：evidence_update更新（GNW防守+可证伪性危机），状态 open，焦点转移
+
+**图谱更新**：
+- 新节点：multiple-generator-hypothesis（207 total nodes）
+- 新边：6条（→IIT, →GWT, →NCC, 以及反向）（1189 total edges）
+
+---
+
+## 登记的矛盾
+
+| ID | 动作 | 状态 |
+|----|------|------|
+| C-2026-05-31-01 | evidence_update（claim_B更厚实） | open |
+| C-2026-05-31-02 | evidence_update（焦点转移到可证伪标准） | open |
+
+---
+
+## 失败与限制
+
+1. Nature论文（s41586-025-08888-1）本身无法直接读取（paywall重定向），但通过PMC12137136获取了全文内容。
+2. Neuron 2024集成视角论文（S0896-6273(24)00088-6）返回403，未读取全文，未列入引用。
+3. PMID:27094080（Koch NRN 2016）只读摘要，文中已标注"未读取全文"。
+4. biorxiv 2026.04预印本（report-independent decoding）返回403，未读取。
+
+---
+
+## 分支 / 提交 / Push
+
+- **Branch**: main
+- **Commit message**: Add neuro daily article + wiki consolidation for 2026-08-08
+- **Files changed**: article, notes, sources, wiki (1 new + 3 revised + index + CHANGELOG + graph), state (topic_ledger, contested_claims, unresolved_questions, source_registry, monthly_synthesis), log
+- **Push**: git push origin main

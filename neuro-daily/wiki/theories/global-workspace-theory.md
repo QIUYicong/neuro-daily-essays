@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-05-30
-updated: 2026-06-27
-revision_count: 6
+updated: 2026-08-08
+revision_count: 7
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink, neural-correlates-of-consciousness]
+related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink, neural-correlates-of-consciousness, multiple-generator-hypothesis]
 prerequisites: [prefrontal-cortex, working-memory, action-potential, synaptic-transmission]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-gwt-04, Q-gwt-05]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where]
-key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443", "PMC:PMC12510449"]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where, 2026-08-08-ncc-debate-posterior-frontal-multiple-generators]
+key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443", "PMC:PMC12510449", "PMID:41080705", "PMID:41000147"]
 ---
 
 # 全局工作空间理论 (Global Workspace Theory, GWT)
@@ -138,6 +138,7 @@ COGITATE 2025 确认了 GWT 的一个**非平凡预测**：有意识刺激即使
 - 2026-05-31 · 修订 · 基于《当意识理论遭遇实验法庭：COGITATE 对决》(#34) · 补充 COGITATE 全文精确数字（0/655 电极 offset ignition，PFC 70% 类别解码 0.2–0.4s，BF₀₁=1.94×10⁴）；更新证据表（拆分 PFC 解码条目，新增 offset ignition 失败行）；新增 adversarial-collaboration 相关页面
 - 2026-05-31 · 修订 · 基于《注意瞬盲：当意识成为稀缺资源》(#36) · 新增注意瞬盲相关证据行（270ms 神经分叉、双峰分布、掩蔽 vs 瞬盲分离）；新增 attentional-blink 到 related 和连接节；注意瞬盲是 COGITATE 未能检验的 GWT 核心有/无意识分叉场景的直接证据
 - 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增 NCC 三分法框架定位（GWT 主要描述使能 NCC + 完整 NCC）；补充 GNW 回应论文（PMC12510449）的四个关键论点（偏移点燃非核心预测；PFC 解码困难原因；阈限刺激范式是真正检验；脑范围广播被确认）；新增 neural-correlates-of-consciousness 到 related；新增 PMC12510449 到 key_sources
+- 2026-08-08 · 修订 · 基于《意识的分水岭在何处》(#107) · 新增 PMID:41080705 GNW 回应论文作为独立引用条目（已注册于 key_sources 但前次未列详细 PMID）；新增 MGH (PMID:41000147) 提供的框架：GWT 描述的广播机制可能是"多重发生器"之一；新增 multiple-generator-hypothesis 到 related；注记 C-2026-05-31-02 矛盾焦点已转移到 GWT 的可证伪标准问题；revision_count=7
 
 ### GWT 作为世界模型的意识广播层
 

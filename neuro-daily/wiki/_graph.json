@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-07",
+  "updated": "2026-08-08",
   "node_count": 199,
   "edge_count": 1148,
   "edge_types": [
@@ -1879,6 +1879,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/llm-brain-alignment.md"
+    },
+    {
+      "id": "multiple-generator-hypothesis",
+      "title": "多重发生器假说",
+      "domain": "theories",
+      "type": "theory",
+      "status": "speculative",
+      "confidence": "low",
+      "page": "wiki/theories/multiple-generator-hypothesis.md"
     }
   ],
   "edges": [
@@ -8488,6 +8497,36 @@
       "from": "arcuate-fasciculus",
       "to": "phrase-structure-building",
       "type": "supports"
+    },
+    {
+      "from": "multiple-generator-hypothesis",
+      "to": "integrated-information-theory",
+      "type": "related"
+    },
+    {
+      "from": "multiple-generator-hypothesis",
+      "to": "global-workspace-theory",
+      "type": "related"
+    },
+    {
+      "from": "multiple-generator-hypothesis",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "multiple-generator-hypothesis",
+      "type": "related"
+    },
+    {
+      "from": "integrated-information-theory",
+      "to": "multiple-generator-hypothesis",
+      "type": "related"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "multiple-generator-hypothesis",
+      "type": "related"
     }
   ],
   "dangling_references": [

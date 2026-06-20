@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05",
+  "last_updated": "2026-08-08",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7581,6 +7581,138 @@
       "aspects_covered": [
         "MNS 到语言进化的三层模型（手势→原语言→语言）",
         "F5/BA44 在社会认知与语言进化中的桥梁角色"
+      ]
+    },
+    {
+      "id": "PMID:40307561",
+      "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": "COGITATE Consortium",
+      "year": 2025,
+      "journal": "Nature",
+      "pmcid": "PMC12137136",
+      "doi": "10.1038/s41586-025-08888-1",
+      "used_in_articles": [
+        "2026-05-31-cogitate-adversarial-test-consciousness",
+        "2026-08-08-ncc-debate-posterior-frontal-multiple-generators"
+      ],
+      "topics_covered": [
+        "COGITATE实验结果",
+        "IIT vs GWT",
+        "后方皮层NCC",
+        "偏移点燃",
+        "iEEG",
+        "fMRI",
+        "MEG"
+      ]
+    },
+    {
+      "id": "PMID:41080705",
+      "title": "Reply to COGITATE - GNW four-point response",
+      "authors": "Naccache L, Dehaene S, Changeux JP et al.",
+      "year": 2025,
+      "journal": "Neuroscience of Consciousness",
+      "pmcid": "PMC12510449",
+      "doi": "10.1093/nc/niaf037",
+      "used_in_articles": [
+        "2026-08-08-ncc-debate-posterior-frontal-multiple-generators"
+      ],
+      "topics_covered": [
+        "GNW防守论点",
+        "偏移点燃非核心预测",
+        "PFC解码方法问题",
+        "GWT可证伪标准"
+      ]
+    },
+    {
+      "id": "PMID:41000147",
+      "title": "The multiple generator hypothesis of consciousness",
+      "authors": "Kirkeby-Hinrup A, Fink A, Overgaard M",
+      "year": 2025,
+      "journal": "Neuroscience of Consciousness",
+      "pmcid": "PMC12459239",
+      "doi": "10.1093/nc/niaf035",
+      "used_in_articles": [
+        "2026-08-08-ncc-debate-posterior-frontal-multiple-generators"
+      ],
+      "topics_covered": [
+        "多重发生器假说",
+        "意识理论框架",
+        "原则vs发生器",
+        "物种意识",
+        "AI意识"
+      ]
+    },
+    {
+      "id": "PMID:41299039",
+      "title": "There can be more to consciousness research than theory testing",
+      "authors": "未提取",
+      "year": 2025,
+      "journal": "npj Mental Health Research",
+      "pmcid": "PMC12657887",
+      "doi": "10.1038/s44271-025-00357-9",
+      "used_in_articles": [
+        "2026-08-08-ncc-debate-posterior-frontal-multiple-generators"
+      ],
+      "topics_covered": [
+        "意识研究方法论",
+        "超越理论战争",
+        "构建物法",
+        "数据驱动"
+      ]
+    },
+    {
+      "id": "PMID:38265851",
+      "title": "The involvement of the human prefrontal cortex in the emergence of visual awareness",
+      "authors": "Faugeras F et al.",
+      "year": 2024,
+      "journal": "eLife",
+      "pmcid": "PMC10945701",
+      "doi": "10.7554/eLife.89076",
+      "used_in_articles": [
+        "2026-08-08-ncc-debate-posterior-frontal-multiple-generators"
+      ],
+      "topics_covered": [
+        "PFC局部意识处理",
+        "sEEG",
+        "视觉意识",
+        "200-300ms",
+        "MVPA解码"
+      ]
+    },
+    {
+      "id": "PMID:35634201",
+      "title": "The No-Report Paradigm: A Revolution in Consciousness Research?",
+      "authors": "Sari I et al.",
+      "year": 2022,
+      "journal": "Frontiers in Human Neuroscience",
+      "pmcid": "PMC9130851",
+      "doi": "10.3389/fnhum.2022.861517",
+      "used_in_articles": [
+        "2026-08-08-ncc-debate-posterior-frontal-multiple-generators"
+      ],
+      "topics_covered": [
+        "无报告范式",
+        "认知监控混淆",
+        "NCC方法论"
+      ]
+    },
+    {
+      "id": "DOI:10.7554/eLife.109604.2",
+      "title": "Neural correlates of perceptual consciousness from within: a narrative review of human intracranial research",
+      "authors": "未提取",
+      "year": 2025,
+      "journal": "eLife reviewed preprint v2",
+      "pmcid": null,
+      "doi": "10.7554/eLife.109604.2",
+      "used_in_articles": [
+        "2026-08-08-ncc-debate-posterior-frontal-multiple-generators"
+      ],
+      "topics_covered": [
+        "人类颅内NCC综述",
+        "iEEG sEEG",
+        "后方皮层持续NCC",
+        "丘脑TAP",
+        "37项研究合成"
       ]
     }
   ],

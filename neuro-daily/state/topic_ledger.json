@@ -6344,6 +6344,69 @@
         "FOXP2与语言发育——Q-lang-06的直接追问，连接遗传学/发育/语言三条线",
         "语义网络的大脑分布——颞叶语义中枢（ATL/MTG）、模态特异语义vs模态无关语义，连接今日腹侧流/BA45内容"
       ]
+    },
+    {
+      "date": "2026-08-08",
+      "article_number": 107,
+      "title": "意识的分水岭在何处：后方皮层、前额叶与多重发生器",
+      "slug": "2026-08-08-ncc-debate-posterior-frontal-multiple-generators",
+      "core_question": "当视觉刺激越过感知阈限，从无意识处理跃迁到有意识体验的神经分水岭在哪里？COGITATE 2025之后，内容特异NCC在后方皮层的共识是否成立？GWT的偏移点燃缺失意味着什么？多重发生器假说能否重构这场争论？",
+      "layer": [
+        "whole-brain-network",
+        "brain-region",
+        "cognition"
+      ],
+      "topic_tags": [
+        "neural correlates of consciousness NCC",
+        "COGITATE 2025 adversarial collaboration",
+        "posterior hot zone IIT",
+        "GNW ignition offset prefrontal cortex",
+        "multiple generator hypothesis MGH",
+        "no-report paradigm NCC confound",
+        "sEEG prefrontal visual awareness",
+        "beyond theory testing consciousness",
+        "Koch Tononi Dehaene Changeux",
+        "content-specific NCC enabling NCC full NCC",
+        "PCI perturbational complexity index",
+        "recurrent processing theory RPT higher order theory HOT"
+      ],
+      "main_sources": [
+        "PMID:40307561 (PMC12137136, COGITATE 2025 Nature, full text)",
+        "PMID:41080705 (PMC12510449, GNW reply 2025, full text)",
+        "PMID:41000147 (PMC12459239, MGH 2025, full text)",
+        "PMID:41299039 (PMC12657887, beyond theory testing 2025, full text)",
+        "PMID:38265851 (PMC10945701, PFC sEEG awareness 2024, full text)",
+        "PMID:35634201 (PMC9130851, no-report paradigm critique 2022, full text)",
+        "DOI:10.7554/eLife.109604.2 (intracranial NCC review 2025, full text preprint)",
+        "PMID:27094080 (Koch et al. 2016 NRN, abstract only)"
+      ],
+      "unresolved_questions": [
+        "C-2026-05-31-01: IIT后方同步 vs COGITATE（更新证据，仍open）",
+        "C-2026-05-31-02: GWT偏移点燃 vs COGITATE（焦点转移到可证伪标准，仍open）",
+        "Q-ncc-04: 多重发生器假说如何实验检验",
+        "Q-ncc-05: 深麻醉-意识分离能否解决认知监控混淆",
+        "Q-ncc-06: PCI测量的是单一发生器还是多发生器综合代理"
+      ],
+      "wiki_created": [
+        "multiple-generator-hypothesis"
+      ],
+      "wiki_updated": [
+        "neural-correlates-of-consciousness",
+        "global-workspace-theory",
+        "integrated-information-theory"
+      ],
+      "contested_claims_updated": [
+        "C-2026-05-31-01",
+        "C-2026-05-31-02"
+      ],
+      "next_suggested_topics": [
+        "FOXP2与语言发育神经遗传学——连接Broca区进化文章(#106)和分子层级，填补语言→遗传的桥梁",
+        "前颞叶语义中枢（ATL）：模态无关语义整合的神经机制——延续#106语言网络路线，聚焦腹侧流终端",
+        "意识障碍（DOC）的神经机制：植物状态vs最小意识状态的神经基础，将NCC研究连接到临床应用",
+        "丘脑在意识中的角色：门控假说、板内核、TAP——颅内综述(DOI:10.7554/eLife.109604.2)提到的丘脑NCC"
+      ],
+      "mode": "créditer_de_contradictions_priority",
+      "curriculum_track": "8. 意识与自我（深化篇三）"
     }
   ],
   "layer_coverage_recent": {
