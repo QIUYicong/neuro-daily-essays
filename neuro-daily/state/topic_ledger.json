@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-12",
-  "total_articles": 111,
+  "last_updated": "2026-08-13",
+  "total_articles": 99,
   "entries": [
     {
       "date": "2026-08-12",
@@ -6892,6 +6892,47 @@
       ],
       "mode": "créditer_de_contradictions_priority",
       "curriculum_track": "8. 意识与自我（深化篇三）"
+    },
+    {
+      "date": "2026-08-13",
+      "article_number": 112,
+      "title": "大脑皮层的时间帝国：内禀神经时间尺度与时间感受野如何让我们同时理解音节与叙事",
+      "slug": "cortical-temporal-hierarchy-trw",
+      "core_question": "大脑不同皮层区域为什么会在相差百倍的时间尺度上积累信息，这种时间层级由什么分子机制产生，如何支持从音节到叙事的并行处理？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "molecular"
+      ],
+      "topic_tags": [
+        "intrinsic-timescale",
+        "temporal-receptive-window",
+        "cortical-hierarchy",
+        "language-processing",
+        "INT",
+        "TRW"
+      ],
+      "main_sources": [
+        "PMID:25383900",
+        "PMID:18322098",
+        "PMID:21414912",
+        "PMID:26642090",
+        "PMID:36864133",
+        "PMID:35110401"
+      ],
+      "unresolved_questions": [
+        "Q-temp-hier-01",
+        "Q-temp-hier-02",
+        "Q-temp-hier-03"
+      ],
+      "next_suggested_topics": [
+        "皮层规范微回路的解剖实现（cortical-canonical-microcircuit）",
+        "EI平衡与认知控制的神经调控",
+        "大脑的工作记忆：持续放电vs. 短暂激活之争",
+        "CA2区域在时间编码中的特殊功能（回应Q-tc-01）"
+      ]
     }
   ],
   "layer_coverage_recent": {

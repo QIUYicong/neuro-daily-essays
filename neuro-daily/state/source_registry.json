@@ -10597,5 +10597,159 @@
         "人类特异性正向选择时间线修正"
       ]
     }
+  },
+  "PMID:25383900": {
+    "citation": "Murray JD et al. (2014). A hierarchy of intrinsic timescales across primate cortex. Nature Neuroscience, 17(12), 1661-1663.",
+    "pmcid": "PMC4241138",
+    "open_access": true,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw"
+    ],
+    "covers": [
+      "不同皮层区域内禀神经时间尺度（INT）梯度",
+      "前额叶→顶叶→颞叶→运动→感觉皮层的INT递减",
+      "单单位电生理自相关τ测量"
+    ]
+  },
+  "PMID:18322098": {
+    "citation": "Hasson U et al. (2008). A hierarchy of temporal receptive windows in human cortex. Journal of Neuroscience, 28(10), 2539-2550.",
+    "pmcid": "PMC2556737",
+    "open_access": true,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw"
+    ],
+    "covers": [
+      "时间感受野（TRW）概念提出",
+      "fMRI打乱实验测量皮层TRW梯度",
+      "视觉/听觉皮层→联合皮层TRW递增"
+    ]
+  },
+  "PMID:21414912": {
+    "citation": "Lerner Y et al. (2011). Topographic mapping of a hierarchy of temporal receptive windows using a narrated story. Journal of Neuroscience, 31(8), 2906-2915.",
+    "pmcid": "PMC3078551",
+    "open_access": true,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw"
+    ],
+    "covers": [
+      "叙事级别打乱实验精细图谱",
+      "A1→STS→顶额联合区→DMN的TRW梯度",
+      "词/句/段落/故事各时间尺度的皮层定位"
+    ]
+  },
+  "PMID:26642090": {
+    "citation": "Ding N et al. (2016). Cortical tracking of hierarchical linguistic structures in connected speech. Nature Neuroscience, 19(1), 158-164.",
+    "pmcid": "PMC4809195",
+    "open_access": true,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw"
+    ],
+    "covers": [
+      "颅内EEG同时追踪4Hz（词）/2Hz（短语）/1Hz（句子）",
+      "语言处理的多时间尺度并行编码",
+      "中文普通话连续语音刺激"
+    ]
+  },
+  "PMID:36864133": {
+    "citation": "Caucheteux C et al. (2023). Evidence of a predictive coding hierarchy in the human brain listening to speech. Nature Human Behaviour, 7(3), 430-441.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw",
+      "2026-08-07-brocas-area-syntax-merge-language-evolution"
+    ],
+    "covers": [
+      "fMRI n=304 + GPT-2对齐分析",
+      "额顶叶皮层对更长上下文做预测",
+      "预测编码时间层级在语言中的证据"
+    ]
+  },
+  "PMID:36508677": {
+    "citation": "Chang CHC et al. (2022). Relating the past with the present: Information flow and temporal dynamics during narrative comprehension. Science Advances, 8(52).",
+    "pmcid": null,
+    "open_access": true,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw"
+    ],
+    "covers": [
+      "叙事理解时信息流时间滞后梯度",
+      "听觉→语言→注意→DMN的信息传递顺序",
+      "乱序刺激时梯度消失（功能性非解剖性）"
+    ]
+  },
+  "PMID:34991988": {
+    "citation": "Gao R et al. (2020). Neuronal timescales are functionally dynamic and shaped by cortical microarchitecture. eLife, 9, e61277.",
+    "pmcid": "PMC7817147",
+    "open_access": true,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw"
+    ],
+    "covers": [
+      "人类fMRI INT梯度与非人灵长类电生理INT梯度一致",
+      "INT与T1w/T2w髓鞘化比率相关",
+      "兴奋/抑制比例调控INT"
+    ]
+  },
+  "PMID:37045604": {
+    "citation": "Li M & Wang XJ. (2022). Mechanisms of scaling-out of cortical timescales: insights from a computational model. PLOS Computational Biology, 18(4), e1009916.",
+    "pmcid": "PMC9020706",
+    "open_access": true,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw"
+    ],
+    "covers": [
+      "皮层时间尺度梯度的三类机制（突触兴奋/E-I属性/精细平衡）",
+      "NMDA受体亚基梯度（GluN2B在联合皮层更高）",
+      "计算模型验证机制独立可叠加"
+    ]
+  },
+  "PMID:35110401": {
+    "citation": "Watanabe T et al. (2019). Atypical intrinsic neural timescale in autism. eLife, 8, e42256.",
+    "pmcid": null,
+    "open_access": true,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw"
+    ],
+    "covers": [
+      "ASD中感觉皮层INT延长",
+      "感觉过度敏感与INT延长的相关",
+      "ASD INT模式与精神分裂症相反"
+    ]
+  },
+  "PMID:32663642": {
+    "citation": "Wengler K et al. (2020). Intrinsic neural timescales in temporal lobe are shortened in schizophrenia spectrum disorder. Schizophrenia Research, 226, 104-107.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-13",
+    "articles_using": [
+      "2026-08-13-cortical-temporal-hierarchy-trw"
+    ],
+    "covers": [
+      "精神分裂症颞叶INT缩短",
+      "INT缩短与阳性症状相关",
+      "INT作为精神分裂症生物标志物候选"
+    ]
+  },
+  "PMID:21765815": {
+    "citation": "Vernes SC et al. (2011). Foxp2 regulates gene networks implicated in neurite outgrowth in the developing brain. PLoS Genetics, 7(7).",
+    "pmcid": "PMC3141035",
+    "open_access": true,
+    "first_used": "2026-08-12",
+    "articles_using": [
+      "2026-08-12-foxp2-language-genetics-development"
+    ],
+    "covers": [
+      "FoxP2敲减→MSN树突总长度和复杂度减少",
+      "纹状体整合容量下降"
+    ]
   }
 }

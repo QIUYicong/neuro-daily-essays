@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-07-19
-revision_count: 8
+updated: 2026-08-13
+revision_count: 9
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition, AI]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers, beta-oscillations]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers, beta-oscillations, intrinsic-neural-timescale, temporal-receptive-window]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-pc-07]
 source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae, 2026-07-19-beta-oscillations-cortical-prediction]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002", "PMID:25556836", "PMID:29339471"]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002", "PMID:25556836", "PMID:29339471", "PMID:36864133"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -145,9 +145,11 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-07-13 · 修订 · 基于《大脑的预言机》一文（#81）· 新增 AI 比较维度（dimensions 加 AI）；关键证据表增加 Whittington & Bogacz 2017（PC ≈ 反向传播）、Richter 2018（腹侧流抑制）、Solomon 2021（批评性证据）、VAE 数学等价；related 新增 free-energy-principle、variational-autoencoder；未解问题新增 Q-pc-06、Q-pc-07；key_sources 新增 PMID:28333583、PMID:33683317、PMID:19528002
 - 2026-07-18 · 修订 · 基于《大脑皮层的规范微回路》一文（#86）· 补充规范微回路作为预测编码解剖实现载体的关联；related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增两条解剖实现链接
 - 2026-07-19 · 修订 · 基于《β振荡的三副面孔》一文（#87）· 关键证据表新增 Bastos 2015（28 对视觉区域γ前向/β后向，PMID:25556836）和 Bastos 2018（前额叶层流验证频率层级规律，PMID:29339471）；连接新增 beta-oscillations（β作为反馈预测的振荡载体，γ作为前馈误差的振荡载体）；related 新增 beta-oscillations；key_sources 新增 PMID:25556836、PMID:29339471
+- 2026-08-13 · 修订 rev9 · 基于《大脑皮层的时间帝国》文章 #112 · 新增关键证据行：Caucheteux et al. 2023（PMID:36864133，n=304，额顶叶皮层预测更长时程/更高上下文的语言表征，颞叶皮层预测短时程/低上下文）——将预测编码层级与 INT/TRW 时间层级显式连接；related 新增 intrinsic-neural-timescale、temporal-receptive-window；key_sources 新增 PMID:36864133
 
 ## 来源文章
 
 - [[2026-06-15-predictive-coding]]
 - [[2026-06-20-language-dual-stream]]
 - [[2026-07-19-beta-oscillations-cortical-prediction]]
+- [[2026-08-13-cortical-temporal-hierarchy-trw]]

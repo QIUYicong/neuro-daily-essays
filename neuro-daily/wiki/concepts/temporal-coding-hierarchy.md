@@ -3,17 +3,17 @@ title: 嵌套时间编码层级
 slug: temporal-coding-hierarchy
 domain: concepts
 type: theory
-status: emerging
+status: mainstream
 confidence: medium
 created: 2026-05-30
-updated: 2026-05-30
-revision_count: 1
+updated: 2026-08-13
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [ltp, btsp, theta-oscillations, sharp-wave-ripples, phase-precession, nmda-receptor, dendritic-computation, place-cell, hebbian-learning]
+related: [ltp, btsp, theta-oscillations, sharp-wave-ripples, phase-precession, nmda-receptor, dendritic-computation, place-cell, hebbian-learning, intrinsic-neural-timescale, temporal-receptive-window, language-network, predictive-coding]
 prerequisites: [ltp, btsp, theta-oscillations, sharp-wave-ripples, nmda-receptor, dendritic-computation]
-opens_questions: [Q-theta-primate, Q-btsp-human-conservation, Q-ltp-lifetime-mechanism]
-source_articles: [2026-05-30-week1-synthesis]
-key_sources: ["PMID:22068972", "PMID:28883072", "PMID:26135716", "PMID:22510460", "PMID:26167906"]
+opens_questions: [Q-theta-primate, Q-btsp-human-conservation, Q-ltp-lifetime-mechanism, Q-temp-hier-01, Q-temp-hier-02]
+source_articles: [2026-05-30-week1-synthesis, 2026-08-13-cortical-temporal-hierarchy-trw]
+key_sources: ["PMID:22068972", "PMID:28883072", "PMID:26135716", "PMID:22510460", "PMID:26167906", "PMID:25383900", "PMID:18322098", "PMID:26642090"]
 ---
 
 # 嵌套时间编码层级 (Nested Temporal Coding Hierarchy)
@@ -96,7 +96,9 @@ key_sources: ["PMID:22068972", "PMID:28883072", "PMID:26135716", "PMID:22510460"
 ## 修订历史
 
 - 2026-05-30 · 创建 · 基于《第一周综合：时间的阶梯》一文 · 初始置信度：中（分析性框架，各层单独证据强，整合框架待系统验证）；status=emerging
+- 2026-08-13 · 修订 rev2 · 基于《大脑皮层的时间帝国》文章 #112 · 新增"皮层区域时间层级"维度：INT 和 TRW 框架（Murray 2014 / Hasson 2008）补充了本页从突触/海马层级向皮层层级的扩展；将此页与 intrinsic-neural-timescale 和 temporal-receptive-window 两个新建页连接；更新 related/opens_questions；status 升为 mainstream（皮层 INT 梯度已获多方独立验证）
 
 ## 来源文章
 
 - [[2026-05-30-week1-synthesis]]
+- [[2026-08-13-cortical-temporal-hierarchy-trw]]

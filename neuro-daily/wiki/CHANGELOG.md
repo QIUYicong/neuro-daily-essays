@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-08-13 · 文章 #112 · 皮层时间层级：内禀神经时间尺度（INT）与时间感受野（TRW）
+
+**核心主题**：皮层时间层级——Murray et al. 2014（PMID:25383900）发现猕猴7皮层区域INT梯度（MT~50ms→ACC~350ms，rs=0.89）；Hasson et al. 2008/Lerner et al. 2011（PMID:18322098/21414912）建立TRW框架（A1:毫秒→DMN:数十秒）；Ding et al. 2016（PMID:26642090）ECoG证明大脑同时在4Hz/2Hz/1Hz追踪词/短语/句子；Caucheteux et al. 2023（PMID:36864133）证明预测编码层级与时间层级对应；Li & Wang 2022（PMID:35110401）三机制（突触兴奋梯度+E/I属性+精细平衡）的数学模型；Cusinato et al. 2023（PMID:37045604）颅内EEG揭示新皮层→内嗅→海马→杏仁核的延伸梯度；疾病窗口（TLE/AD/卒中INT失调）。
+
+**新建页面（2）**：
+- `wiki/concepts/intrinsic-neural-timescale.md` — 内禀神经时间尺度（INT），rev1；猕猴区域τ值、三机制、跨物种证据、与TRW关系、疾病标志物
+- `wiki/concepts/temporal-receptive-window.md` — 时间感受野（TRW），rev1；叙事打乱实验、A1→DMN梯度、与预测编码连接、Blank&Fedorenko 2020争议
+
+**修订页面（3）**：
+- `wiki/concepts/temporal-coding-hierarchy.md`（rev1→rev2）— 新增皮层INT/TRW维度，status升为mainstream；related新增intrinsic-neural-timescale/temporal-receptive-window/language-network/predictive-coding
+- `wiki/theories/predictive-coding.md`（rev8→rev9）— 证据表新增Caucheteux 2023（额顶叶预测长上下文/颞叶预测短上下文）；related新增INT/TRW页面
+- `wiki/concepts/temporal-hierarchy.md`（未单独修订，但关联更新）— INT/TRW的连接已通过graph更新体现
+
+**登记矛盾（0）**：今日无新矛盾。Blank & Fedorenko 2020（语言网络内TRW无梯度）与Lerner 2011（TRW梯度存在）之间的张力已在TRW页面"未解问题"中记录，未构成严格矛盾（两者测量的区域集合不同）。
+
+**新增未解问题（3）**：Q-temp-hier-01（高：GluN2B/GluN2A比率梯度的单体水平因果证据）、Q-temp-hier-02（中：TMS操控INT→叙事理解）、Q-temp-hier-03（低：INT发育轨迹分子机制）
+
+**新增悬空引用（2）**：
+- `cortical-canonical-microcircuit`：INT机制的解剖实现（被intrinsic-neural-timescale隐含）
+- `auditory-cortex`：TRW最短端的代表区域（被temporal-receptive-window引用，系统区已有auditory-cortex页面）
+
+**图谱**：217节点→219节点，1262边→1280边（+2节点，+18边）
+
+---
+
 ## 2026-08-12 · 文章 #111 · FOXP2与语言发育神经遗传学：从KE家族突变到皮层-纹状体回路的分子编程
 
 **核心主题**：FOXP2是人类语言最著名的"单基因"入口——KE家族R553H突变导致严重的言语失用和语法障碍；蛋白质层面含forkhead域+锌指+亮氨酸拉链三功能模块，直接调控264+靶基因（CNTNAP2、VLDLR等）；Walker 2023（PMID:37137515）揭示R553H通过dynactin1过表达→dynein-dynactin马达破坏→TrkB/BDNF信号受损→MSN树突发育不全的分子链；Qi 2024（PMID:39868047）发现FOXP2+ L6皮层丘脑神经元是言语习得的不可或缺节点；人源化Foxp2小鼠（Schreiweis 2014）展示T303N+N325S替换加速陈述性→程序性学习转换；斑马雀Area X FoxP2在鸣唱时社会情境依赖性下调（PMC2683917）；CAS遗传异质性（Morgan 2024）：30+致病基因汇聚于转录调控共同通路。

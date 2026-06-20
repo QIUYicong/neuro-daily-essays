@@ -1,0 +1,109 @@
+# Run Log: 2026-08-13
+
+**Agent**: Claude (claude-sonnet-4-6)
+**Run date**: 2026-08-13
+**Article number**: #112
+**Branch**: main
+**Status**: SUCCESS
+
+---
+
+## Topic Selection
+
+- Scanned knowledge graph nodes for high-connectivity concepts missing from wiki
+- Identified `intrinsic-neural-timescale` and `temporal-receptive-window` as absent but multiply referenced nodes
+- Selected topic: 皮层时间层级 (cortical temporal hierarchy) — INT + TRW
+- Rationale: connects recent language/consciousness articles (#107–#111) to memory/plasticity articles (#99–#104) via multi-timescale framework
+
+---
+
+## Research Phase
+
+### PubMed Search Terms Used
+1. `intrinsic neural timescale cortex hierarchy` → found Murray 2014 (PMID:25383900)
+2. `temporal receptive window cortex fMRI` → found Hasson 2008 (PMID:18322098), Lerner 2011 (PMID:21414912)
+3. `cortical tracking language hierarchy EEG` → found Ding 2016 (PMID:26642090)
+4. `predictive coding language timescale GPT fMRI` → found Caucheteux 2023 (PMID:36864133)
+5. `intrinsic timescale schizophrenia autism` → found Wengler 2020 (PMID:32663642), Watanabe 2019 (PMID:35110401)
+6. `NMDA receptor timescale gradient mechanism` → found Li & Wang 2022 (PMID:37045604)
+7. `narrative fMRI information flow temporal` → found Chang 2022 (PMID:36508677)
+8. `intrinsic timescale excitatory inhibitory ratio` → found Gao 2020 (PMID:34991988)
+
+### Sources Retrieved
+- **Full text via PMC**: 1 (Ding et al. 2016, PMC4809195)
+- **Abstract only**: 11 others
+- **Total sources cited**: 12
+
+### Key Findings
+- INT spans ~50ms (V1) to ~300ms (PFC/DMN) — 6x range across cortical hierarchy
+- TRW spans ~hundreds ms (A1) to ~30-60s (DMN) — ~100x range
+- Three mechanisms: synaptic excitation gradient + E/I properties + detailed balance (Li & Wang 2022)
+- NMDA subunit gradient: GluN2B (slow, 200ms τ) enriched in association cortex
+- Language evidence: 4Hz/2Hz/1Hz simultaneous tracking (Ding 2016)
+- Disease: schizophrenia INT shortened (sens→assoc); ASD INT lengthened (sensory only)
+
+---
+
+## Article Production
+
+**File**: `neuro-daily/articles/2026-08-13-cortical-temporal-hierarchy-trw.md`
+**Character count**: ~5200 Chinese characters
+**Length**: within 3000-6000 char target
+**Sections**:
+1. 引言：一个大脑，无数时钟
+2. 内禀神经时间尺度：大脑的内置节拍器
+3. 时间感受野：皮层区域能"看多远"的历史
+4. 语言：最有力的实验台
+5. 为什么不同区域的时间尺度不同？
+6. 时间尺度异常与疾病
+7. 与人工智能的比较：注意力窗口
+8. 开放问题
+9. 参考文献
+
+---
+
+## Wiki Consolidation
+
+### New Pages Created
+| File | Status | Confidence | Key Sources |
+|------|--------|------------|-------------|
+| wiki/concepts/intrinsic-neural-timescale.md | mainstream | high | PMID:25383900, 34991988, 37045604, 35110401, 32663642 |
+| wiki/concepts/temporal-receptive-window.md | mainstream | high | PMID:18322098, 21414912, 36508677, 26642090, 36864133 |
+
+### Pages Revised
+| File | Revision | Change |
+|------|---------|--------|
+| wiki/concepts/temporal-coding-hierarchy.md | rev1→rev2 | status: emerging→mainstream; added INT/TRW connections |
+| wiki/theories/predictive-coding.md | rev8→rev9 | added Caucheteux 2023; added INT/TRW links |
+| wiki/_graph.json | 217→219 nodes, 1262→1280 edges | added 2 nodes, 18 edges |
+| wiki/index.md | 212→214 pages | added 2 new entries |
+| wiki/CHANGELOG.md | prepended 2026-08-13 section | — |
+
+---
+
+## State Updates
+
+- `state/topic_ledger.json`: entry #99 added (article #112), 99 total entries
+- `state/unresolved_questions.md`: Q-temp-hier-01, Q-temp-hier-02, Q-temp-hier-03 added
+- `state/source_registry.json`: 11 new sources added (total: 35)
+- `state/monthly_synthesis.md`: article #112 added; count updated 12→13
+- `state/maturity_index.json`: 3 entries added (total: 59)
+- `neuro-daily/notes/2026-08-13-reading-notes.md`: created
+- `neuro-daily/sources/2026-08-13-sources.json`: created
+
+---
+
+## Git Operations
+
+- Branch: main
+- Git author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+- Commit: staged all neuro-daily/ changes, single commit
+- Push: git push origin main
+
+---
+
+## Notes / Issues Encountered
+
+1. PMC redirect: PMC4241138 (Murray 2014) redirected from www to pmc subdomain; returned content described a calcium channel paper — likely a redirect/caching artifact. Used abstract data instead.
+2. PubMed rate limiting: HTTP 429 on one query; moved to alternative search terms.
+3. Context window: session continued from previous context (pre-compaction). State file sizes (topic_ledger.json: 318KB, unresolved_questions.md: 363KB) required Python script approach for reading/writing.

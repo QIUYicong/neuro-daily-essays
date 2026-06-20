@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-12",
+  "updated": "2026-08-13",
   "node_count": 217,
   "edge_count": 1262,
   "edge_types": [
@@ -1979,6 +1979,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/vocal-learning.md"
+    },
+    {
+      "id": "intrinsic-neural-timescale",
+      "title": "内禀神经时间尺度",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/intrinsic-neural-timescale.md"
+    },
+    {
+      "id": "temporal-receptive-window",
+      "title": "时间感受野",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/temporal-receptive-window.md"
     }
   ],
   "edges": [
@@ -9019,6 +9037,96 @@
       "target": "foxp2",
       "type": "related",
       "weight": 0.8
+    },
+    {
+      "from": "intrinsic-neural-timescale",
+      "to": "temporal-coding-hierarchy",
+      "type": "related"
+    },
+    {
+      "from": "intrinsic-neural-timescale",
+      "to": "temporal-hierarchy",
+      "type": "related"
+    },
+    {
+      "from": "intrinsic-neural-timescale",
+      "to": "temporal-receptive-window",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "intrinsic-neural-timescale",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "intrinsic-neural-timescale",
+      "to": "ei-balance",
+      "type": "related"
+    },
+    {
+      "from": "intrinsic-neural-timescale",
+      "to": "nmda-receptor",
+      "type": "related"
+    },
+    {
+      "from": "intrinsic-neural-timescale",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "intrinsic-neural-timescale",
+      "to": "prefrontal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "intrinsic-neural-timescale",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "temporal-receptive-window",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "temporal-receptive-window",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "temporal-receptive-window",
+      "to": "predictive-coding",
+      "type": "supports"
+    },
+    {
+      "from": "temporal-receptive-window",
+      "to": "auditory-cortex",
+      "type": "related"
+    },
+    {
+      "from": "temporal-receptive-window",
+      "to": "temporal-coding-hierarchy",
+      "type": "related"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "intrinsic-neural-timescale",
+      "type": "related"
+    },
+    {
+      "from": "temporal-coding-hierarchy",
+      "to": "temporal-receptive-window",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "intrinsic-neural-timescale",
+      "type": "related"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "temporal-receptive-window",
+      "type": "related"
     }
   ],
   "dangling_references": [

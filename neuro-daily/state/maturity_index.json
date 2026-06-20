@@ -458,5 +458,29 @@
     "reason": "Vavassori 2023综合综述和Klein 2022发育数据扩展了对AF功能谱和发育时间线的理解",
     "date": "2026-08-07",
     "action": "updated-strengthened"
+  },
+  {
+    "slug": "intrinsic-neural-timescale",
+    "status": "mainstream",
+    "confidence": "high",
+    "reason": "Murray 2014多物种电生理验证，Gao 2020人类fMRI复现，多项疾病研究独立测量；概念清晰可测量",
+    "date": "2026-08-13",
+    "action": "created"
+  },
+  {
+    "slug": "temporal-receptive-window",
+    "status": "mainstream",
+    "confidence": "high",
+    "reason": "Hasson 2008提出，Lerner 2011精细图谱，Chang 2022动态性；多实验室独立复现；存在Blank&Fedorenko 2020的语言特异性争议但整体梯度稳健",
+    "date": "2026-08-13",
+    "action": "created"
+  },
+  {
+    "slug": "temporal-coding-hierarchy",
+    "status": "mainstream",
+    "confidence": "medium",
+    "reason": "升级自emerging：皮层INT梯度（Murray 2014）和TRW梯度（Hasson 2008）作为独立验证补充了原框架的突触/海马层级；整合框架仍待系统验证",
+    "date": "2026-08-13",
+    "action": "updated-strengthened"
   }
 ]

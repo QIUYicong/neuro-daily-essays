@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-12（第111篇·FOXP2·语言遗传学·KE家族·CAS·皮层-纹状体回路·鸣禽Area X·发声学习）· 主题页总数：**212**（新建3页：concepts/foxp2、concepts/vocal-learning、diseases/childhood-apraxia-of-speech；修订2页：concepts/language-evolution rev1→rev2、systems/basal-ganglia rev1→rev2；新增Q-foxp2-01/02/03；图谱217节点/1262边）
+> 最后更新：2026-08-13（第112篇·皮层时间层级·内禀神经时间尺度·时间感受野·语言时间层级）· 主题页总数：**214**（新建2页：concepts/intrinsic-neural-timescale、concepts/temporal-receptive-window；修订3页：concepts/temporal-coding-hierarchy rev1→rev2、theories/predictive-coding rev8→rev9、temporal-hierarchy rev；新增Q-temp-hier-01/02/03；图谱219节点/1280边）
 
 ---
 
@@ -79,7 +79,9 @@
 - 🔵 [突触稳态假说（SHY）](concepts/shy-hypothesis.md) — Tononi & Cirelli：清醒期 LTP 积累→睡眠期 SO 驱动 ~18% 突触下调（de Vivo 2017 超微结构证据）；down-selection：被 SWR 重播激活的突触受保护，多数突触弱化；与主动记忆巩固统一 **[NEW 2026-07-07]**
 - 🟢 [皮层 UP/DOWN 态机制](concepts/up-down-state-mechanism.md) — Layer 5 循环兴奋（AMPA+NMDA 侧支）自主启动 UP 态（~−65 mV，0.8–1.5 s）；KNa 通道 Na⁺ 积累（主要机制）+ 短时程突触抑郁 + SST+ 延迟抑制三机制终止 UP 态；孤立皮层切片自发 SO 证明回路内在充分性（Sanchez-Vives 2000）；为 SO-spindle-SWR 三重协奏提供细胞层级时间骨架 **[NEW 2026-07-23]**
 - 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现
-- 🟡 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）
+- 🔵 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）**[修订rev2 2026-08-13：新增皮层INT/TRW层级维度]**
+- 🔵 [内禀神经时间尺度（INT）](concepts/intrinsic-neural-timescale.md) — 皮层区域自发放电自相关时间常数τ（MT~50ms→ACC~350ms）；由突触兴奋梯度+E/I平衡+NMDA亚基组成决定；跨物种/模态一致；颞叶癫痫/AD/脑卒中中失调 **[NEW 2026-08-13]**
+- 🔵 [时间感受野（TRW）](concepts/temporal-receptive-window.md) — 皮层各区域的外部信息时间整合窗口（A1:毫秒→DMN:数十秒）；叙事打乱实验测量；叙事理解时信息流沿层级有序传播；与INT高度相关但测量角度不同 **[NEW 2026-08-13]**
 - 🟢 [印迹细胞](concepts/engram-cells.md) — 学习时被激活并持久改变的神经元集合；光遗传学证明激活印迹细胞足以重现记忆；沉默印迹证明遗忘可以是提取障碍而非信息消失（修订5次）
 - 🔵 [神经元分配（记忆分配）](concepts/memory-allocation.md) — CREB/内在兴奋性竞争决定哪些神经元进入印迹；零和竞争；PV+侧向抑制赢家通吃；表观遗传前置层（H3K27ac）；训练后5min巩固窗口 **[NEW 2026-07-05]**
 - 🟡 [记忆联结](concepts/memory-linking.md) — 时间接近（~6h）的两段学习因共享高兴奋性印迹神经元而实现联结；Cai 2016 CA1钙成像直接证据；老年小鼠联结缺陷→DREADD救援；scFLARE2精确时间边界（3h vs 27h）**[NEW 2026-07-05]**
