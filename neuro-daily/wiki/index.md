@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-04（第103篇·时间细胞·海马CA1时间序列×MEC时间输入×CA2序列组织者×人类单细胞验证）· 主题页总数：**194**（新建2页：concepts/time-cells、concepts/temporal-context-model；修订3页：neurons/hippocampal-circuit rev10→rev11、systems/entorhinal-cortex rev2→rev3、concepts/interval-timing rev1→rev2；新增Q-tc-01~Q-tc-04开放问题）
+> 最后更新：2026-08-05（第104篇·内源性大麻素系统·逆行突触信号×2-AG/AEA分子机制×CB1R×DSI-DSE×eCB-LTD×BLA恐惧消退）· 主题页总数：**196**（新建2页：concepts/endocannabinoid-system、neurons/cb1-receptor；修订4页：concepts/ltd rev3→rev4、concepts/fear-extinction rev4→rev5；新增Q-ecb-01~Q-ecb-04开放问题）
 
 ---
 
@@ -31,6 +31,7 @@
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝 **[NEW 2026-06-03]**
 - 🟢 [低阈值机械感受器（LTMR）](neurons/mechanoreceptor-ltmr.md) — 皮肤中专职编码轻触/振动/压力的四类感受器（SA1 Merkel/SA2 Ruffini/RA1 Meissner/RA2 Pacini）；PIEZO2通道介导机械转导；脊髓背角机械感觉柱整合信号 **[NEW 2026-07-29]**
+- 🟢 [CB1 大麻素受体](neurons/cb1-receptor.md) — 脑内最丰富的 GPCR，主要突触前定位；富集于 CCK⁺ GABA 能中间神经元（皮层/海马）；Gi/o 偶联：Gβγ→Cav2.2 抑制（DSI 短时程），Gαi→cAMP/PKA↓→RIM1α（eCB-LTD 长时程），GIRK 激活（SSI）；BLA CB1R 激活对恐惧消退因果必要 **[NEW 2026-08-05]**
 
 ## circuits（回路）
 
@@ -163,6 +164,7 @@
 - 🟢 [安慰剂镇痛（Placebo Analgesia）](concepts/placebo-analgesia.md) — PFC→rACC→PAG→RVM→脊髓下行阿片回路将心理期望转化为真实止痛信号；纳洛酮逆转证明内源性阿片依赖（Levine 1978）；Zubieta 2005 PET直接测量rACC μ-OR激活（r=-0.87）；Eippert 2009 fMRI rACC-PAG耦合纳洛酮消除；双过程模型（期望+条件反射）；Nocebo效应通过CCK路径形成镜像促痛 **[NEW 2026-08-03]**
 - 🟢 [内源性阿片系统（Endogenous Opioid System）](concepts/endogenous-opioid-system.md) — μ/κ/δ三类受体（Gi/o→AC↓→cAMP↓→K⁺开放→超极化）；β-内啡肽（弓形核）/脑啡肽/强啡肽三类阿片肽；PAG-RVM-脊髓三级下行镇痛通路；[¹¹C]卡芬太尼PET活体直接测量；吗啡模拟内源性SIA（应激诱导镇痛）的分子底物 **[NEW 2026-08-03]**
 - 🟢 [Nocebo效应](concepts/nocebo-effect.md) — 负向期望→主观疼痛增强；CCK-A/B拮抗剂（丙谷胺）可阻断——与安慰剂阿片路径形成双路径分离；医源性nocebo（负面预期语言即增加术后疼痛）；开放标签安慰剂显示知情者仍可触发条件性镇痛 **[NEW 2026-08-03]**
+- 🟢 [内源性大麻素系统（Endocannabinoid System）](concepts/endocannabinoid-system.md) — 脑内最主要逆行突触调制系统；2-AG（DGLα合成/MAGL降解，全激动剂）和 AEA（NAPE-PLD合成/FAAH降解，TRPV1全激动剂）；CB1R Gβγ→Cav2.2（DSI短时程）+ Gαi→RIM1α（eCB-LTD长时程）双通路；CCK⁺ GABA 能中间神经元为主要靶点；杏仁核 AEA-FAAH 轴调控恐惧消退（FAAH 抑制剂 PTSD 靶点）；THC 弥散激活 CB1R 导致逆行调控失真 **[NEW 2026-08-05]**
 
 ## motor（运动系统）
 

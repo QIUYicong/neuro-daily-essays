@@ -1,0 +1,48 @@
+run_date: 2026-08-05
+article_number: 104
+slug: endocannabinoid-retrograde-signaling
+title: 逆行的信使：内源大麻素如何从"下游"控制"上游"
+status: completed
+
+topic_selection:
+  chosen: endocannabinoid-system
+  reason: 直接被 2026-08-03 文章 next_suggested_topics 建议；填补真实 wiki 空白（CB1-LTD 在 STDP 文章中提及但无 wiki 页面）；与众多已有页面连接（LTD、恐惧消退、小脑、杏仁核、星形胶质细胞）
+
+research:
+  databases_searched: [PubMed, PMC, Europe PMC]
+  total_sources: 8
+  open_full_text: 2
+  abstract_only: 6
+  pmids: [23040807, 26698193, 11279497, 11588204, 19126760, 16776579, 22129456, 34598785]
+  open_access_pmcids: [PMC3517813, PMC4789136]
+
+article:
+  file: neuro-daily/articles/2026-08-05-endocannabinoid-retrograde-signaling.md
+  word_count_approx: 4500
+  sections: [今日核心问题, 一句话摘要, 为什么重要, 背景, 机制(分子/突触/回路/时间尺度/非逆行), 关键证据链, 比喻, 改变理解, 争议与未解问题, 与AI对照, 今日概念卡片, 今日认知地图更新, 参考来源]
+
+wiki_consolidation:
+  new_pages:
+    - wiki/concepts/endocannabinoid-system.md
+    - wiki/neurons/cb1-receptor.md
+  revised_pages:
+    - wiki/concepts/ltd.md (rev3→rev4)
+    - wiki/concepts/fear-extinction.md (rev4→rev5)
+  graph_before: {nodes: 199, edges: 1145}
+  graph_after: {nodes: 201, edges: 1159}
+
+state_updates:
+  topic_ledger: entry #104 added, total_articles=104
+  unresolved_questions: Q-ecb-01, Q-ecb-02, Q-ecb-03, Q-ecb-04 appended
+  maturity_index: 79 pages (added endocannabinoid-system, cb1-receptor)
+  monthly_synthesis: 2026-08-05 entry appended
+  source_registry: 5 new PMID entries added (23040807, 26698193, 11279497, 11588204, 34598785)
+
+drift_note: system clock shows 2026-06-20; repository had articles through 2026-08-04; continued established drift-compensation pattern from previous runs (4 triggers fired same day); wrote for next calendar date 2026-08-05
+
+errors_encountered:
+  - PMC URL redirect (301); resolved by using elink API to map PMIDs to PMCIDs
+  - maturity_index.json pages is a list not dict; fixed by iterating with slug lookup
+  - fear-extinction.md Edit string match required shorter unique substring
+
+git_commit: pending

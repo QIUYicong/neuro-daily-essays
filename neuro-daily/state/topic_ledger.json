@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-04",
-  "total_articles": 86,
+  "last_updated": "2026-08-05",
+  "total_articles": 104,
   "entries": [
     {
       "date": "2026-08-04",
@@ -6176,6 +6176,67 @@
         "内源性大麻素系统（endocannabinoid）：THC以外的脑内大麻素回路与运动/痛觉/情绪调节",
         "压力诱导镇痛（SIA）的进化生物学：战场效应的神经基础",
         "情绪对免疫系统的影响：心身医学的神经内分泌回路（HPA轴·迷走神经·细胞因子）"
+      ]
+    },
+    {
+      "date": "2026-08-05",
+      "title": "逆行的信使：内源性大麻素如何让突触后神经元掌控自身的输入",
+      "filename": "2026-08-05-endocannabinoid-retrograde-signaling.md",
+      "article_number": 104,
+      "wiki_pages_created": [
+        "wiki/concepts/endocannabinoid-system.md",
+        "wiki/neurons/cb1-receptor.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltd.md",
+        "wiki/concepts/fear-extinction.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "大脑中存在一类天然的脂质信使——2-AG 和 AEA——能够从突触后神经元逆向传递到突触前神经元并激活 CB1 受体，暂时或永久地抑制神经递质释放。这种逆行信号如何触发、如何在分子层面工作、如何在全脑回路中调节恐惧消退、疼痛和认知灵活性？",
+      "open_questions_added": [
+        "Q-ecb-01",
+        "Q-ecb-02",
+        "Q-ecb-03",
+        "Q-ecb-04"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior"
+      ],
+      "curriculum_track": "课程脊柱1（神经元如何工作·突触传递·突触可塑性·神经调质）+ 脊柱6（情绪与动机·杏仁核·恐惧消退）",
+      "topic_tags": [
+        "endocannabinoid retrograde signaling 2-AG AEA CB1R",
+        "DSI DSE depolarization-induced suppression",
+        "eCB-LTD RIM1alpha inhibitory excitatory LTD",
+        "CCK interneuron disinhibition",
+        "DAGL DGLalpha MAGL FAAH synthesis degradation",
+        "Wilson Nicoll 2001 hippocampus retrograde",
+        "Kreitzer Regehr 2001 cerebellum DSI",
+        "fear extinction BLA AEA FAAH PTSD",
+        "PLCbeta coincidence detector mGluR1 Ca2+",
+        "THC phytocannabinoid CB1 psychiatric"
+      ],
+      "main_sources": [
+        "PMID:23040807 (PMCID:PMC3517813, open access, full text read)",
+        "PMID:26698193 (PMCID:PMC4789136, open access, full text read)",
+        "PMID:11279497 (abstract only, landmark 2001 Nature paper)",
+        "PMID:11588204 (abstract only, Kreitzer & Regehr 2001)",
+        "PMID:19126760 (abstract only, Kano 2009 Physiol Rev)",
+        "PMID:16776579 (abstract only, Chevaleyre 2006 Annu Rev Neurosci)",
+        "PMID:34598785 (abstract only, PTSD FAAH inhibitor)",
+        "PMID:17346227 (abstract only, enzyme review)"
+      ],
+      "next_suggested_topics": [
+        "Q-ecb-01追问：eCB-LTD 与 NMDA-LTD 的诱导窗口与突触前/后机制比较——同一突触上何时用哪套?",
+        "Q-ecb-02追问：FAAH 抑制剂（如 PF-04457845）在 PTSD 的 2b/3 期临床试验——有效性与局限",
+        "内源性大麻素与成瘾：纹状体皮层→伏隔核 eCB-LTD 如何在奖励预期中失调，推动习惯化与强迫性药物使用",
+        "运动学习的小脑回路：平行纤维×攀爬纤维×浦肯野细胞 LTD 如何在毫秒内校正运动误差",
+        "FAAH 与 MAGL 的靶向药理学：内源性大麻素降解酶抑制剂的治疗谱与副作用机制"
       ]
     }
   ],

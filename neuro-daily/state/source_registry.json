@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-05",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9869,5 +9869,89 @@
     "33431691",
     "33109718",
     "34183446"
-  ]
+  ],
+  "sources_2026-08-05": {
+    "PMID:23040807": {
+      "citation": "Castillo PE et al. (2012). Endocannabinoid signaling and synaptic function. Neuron, 76(1), 70-81.",
+      "pmcid": "PMC3517813",
+      "open_access": true,
+      "first_used": "2026-08-05",
+      "articles_using": [
+        "2026-08-05-endocannabinoid-retrograde-signaling"
+      ],
+      "covers": [
+        "eCB retrograde signaling",
+        "2-AG as primary messenger",
+        "DGLalpha",
+        "MAGL",
+        "RIM1alpha",
+        "eCB-LTD",
+        "DSI/DSE",
+        "non-retrograde modes",
+        "astrocytic CB1"
+      ]
+    },
+    "PMID:26698193": {
+      "citation": "Lu HC, Mackie K. (2016). An Introduction to the Endogenous Cannabinoid System. Biol Psychiatry, 79(7), 516-525.",
+      "pmcid": "PMC4789136",
+      "open_access": true,
+      "first_used": "2026-08-05",
+      "articles_using": [
+        "2026-08-05-endocannabinoid-retrograde-signaling"
+      ],
+      "covers": [
+        "CB1R CCK interneuron enrichment",
+        "2-AG high efficacy agonist",
+        "AEA partial agonist TRPV1",
+        "MAGL ABHD6 ABHD12",
+        "COX-2 2-AG metabolism",
+        "SSI",
+        "schizophrenia eCB"
+      ]
+    },
+    "PMID:11279497": {
+      "citation": "Wilson RI, Nicoll RA. (2001). Endogenous cannabinoids mediate retrograde signalling at hippocampal synapses. Nature, 410, 588-592.",
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-08-05",
+      "articles_using": [
+        "2026-08-05-endocannabinoid-retrograde-signaling"
+      ],
+      "covers": [
+        "DSI hippocampus",
+        "eCB retrograde messenger",
+        "CB1R blocks DSI",
+        "Ca2+-dependent release"
+      ]
+    },
+    "PMID:11588204": {
+      "citation": "Kreitzer AC, Regehr WG. (2001). Cerebellar depolarization-induced suppression of inhibition is mediated by endogenous cannabinoids. J Neurosci, 21(20), RC174.",
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-08-05",
+      "articles_using": [
+        "2026-08-05-endocannabinoid-retrograde-signaling"
+      ],
+      "covers": [
+        "DSI cerebellum",
+        "Purkinje cell CB1R",
+        "AM251 blocks DSI",
+        "eCB generality"
+      ]
+    },
+    "PMID:34598785": {
+      "citation": "Mayo LM et al. (2022). Targeting the Endocannabinoid System in the Treatment of PTSD. Biol Psychiatry, 91(5), 445-453.",
+      "pmcid": null,
+      "open_access": false,
+      "first_used": "2026-08-05",
+      "articles_using": [
+        "2026-08-05-endocannabinoid-retrograde-signaling"
+      ],
+      "covers": [
+        "CB1R amygdala fear extinction",
+        "FAAH inhibition enhances extinction",
+        "PF-04457845 PTSD clinical"
+      ]
+    }
+  }
 }

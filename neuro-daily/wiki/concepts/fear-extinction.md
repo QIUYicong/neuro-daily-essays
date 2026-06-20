@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-24
-revision_count: 4
+updated: 2026-08-05
+revision_count: 5
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation, engram-cells, dopamine-reward-prediction-error]
+related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation, engram-cells, dopamine-reward-prediction-error, endocannabinoid-system, cb1-receptor]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
 opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02, Q-extinction-reward-overlap]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons]
-key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:29507292"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-08-05-endocannabinoid-retrograde-signaling]
+key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:29507292", "PMID:34598785"]
 ---
 
 # 恐惧消退 (Fear Extinction)
@@ -100,8 +100,10 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - 2026-07-24 · 修订 rev4 · 基于《恐惧的印迹与奖励的入侵》(#92) · 当前理解节新增"消退印迹=BLA奖励神经元"（Zhang 2020）、"恐惧与消退印迹是不同细胞群"（Luft 2024）、"情感价值可逆转"（Redondo 2014）三段；证据表新增4行；连接节新增engram-cells、dopamine-reward-prediction-error；未解问题新增Q-extinction-reward-overlap；related/opens_questions/key_sources相应更新
 - 2026-07-10 · 修订 rev3 · 基于《记忆再巩固》(#78) · 当前理解节新增"消退 vs 再巩固窗口消退"段落（Monfils 2009 行为干预、Agren 2012 fMRI 证据、临床意义）；连接节新增 memory-reconsolidation；Q-fear-reconsolidation-boundary 标记为部分解答；source_articles/related 相应更新
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高（啮齿类证据充分，人类转化大体一致）
+- 2026-08-05 · 修订 rev5 · 基于《逆行的信使》(#104) · 新增 ECS/CB1R 在恐惧消退中的分子机制：BLA 中 AEA 对消退训练因果必要（CB1R 拮抗剂阻断消退），FAAH 抑制（AEA ↑）增强消退效率，FAAH 抑制剂（PF-04457845）PTSD 2a 期数据；related 新增 endocannabinoid-system、cb1-receptor；key_sources 新增 PMID:34598785
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
 - [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]
+- [[2026-08-05-endocannabinoid-retrograde-signaling]]

@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-05",
   "levels": [
     "speculative",
     "emerging",
@@ -648,6 +648,22 @@
       "supporting_sources": 12,
       "last_status_change": "2026-07-10",
       "reason": "创建 2026-07-10（文章 #78）。Nader 2000 的原始实验在多个物种、多个实验室大量复现，建立了再巩固的基本存在性（高置信度）。分子机制（GluN2B-NMDA、CaMKII、UPS、GluA2 内吞）在啮齿类有因果实验支持，但多数来自单实验室研究，人类直接机制证据有限。人类行为实验（Kindt 2009、Sevenster 2013、Monfils 2009 行为消退范式）提供了可靠的跨实验室效应，但复现性不一致。临床转化（普萘洛尔 PTSD 治疗、米非司酮 Phase 2a RCT）处于早期阶段，Phase 2a 未达主要终点。综合：mainstream 而非 established（人类机制证据和临床转化尚不充分）；confidence medium-high（基础机制坚实，临床翻译不确定）。"
+    },
+    {
+      "slug": "endocannabinoid-system",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 6,
+      "last_status_change": "2026-08-05",
+      "reason": "创建 2026-08-05（文章 #104）。核心机制：Wilson & Nicoll 2001（Nature，hippocampus DSI）和 Kreitzer & Regehr 2001（J Neurosci，cerebellum DSI）同时发现 eCBs 作为逆行信使，后续 20 余年大量遗传/药理/电生理研究（Castillo et al. 2012, Lu & Mackie 2016）高度确认。2-AG 合成（DGLα）、降解（MAGL）、CB1R Gi/o 机制（Gβγ→Cav2.2，Gαi→RIM1α）均有多独立来源验证。established/high。未解：SSI 体内意义（Q-ecb-03）、COX-2 代谢通路的生理意义（未登记为独立问题）。"
+    },
+    {
+      "slug": "cb1-receptor",
+      "status": "established",
+      "confidence": "high",
+      "supporting_sources": 4,
+      "last_status_change": "2026-08-05",
+      "reason": "创建 2026-08-05（文章 #104）。CB1R 是脑内最丰富的 GPCR，这一事实已是教科书级共识（1988年克隆以来数百篇文献）。Gi/o 偶联机制（Gβγ→Cav2.2，Gαi→AC），CCK⁺富集分布，均有高质量综述支持（Lu & Mackie 2016，Castillo 2012）。established/high。"
     }
   ],
   "entries": [

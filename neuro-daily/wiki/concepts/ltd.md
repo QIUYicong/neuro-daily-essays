@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-04
-updated: 2026-07-02
-revision_count: 3
+updated: 2026-08-05
+revision_count: 4
 dimensions: [molecular, synaptic, cellular, cognition]
-related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, cerebellum, astrocyte, tripartite-synapse, gliotransmitter, d-serine]
+related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, cerebellum, astrocyte, tripartite-synapse, gliotransmitter, d-serine, endocannabinoid-system, cb1-receptor, stdp]
 prerequisites: [synaptic-transmission, nmda-receptor, ampa-receptor, ltp]
-opens_questions: [Q-ltd-nmda-metabotropic, Q-ltd-long-term-maintenance, Q-ltd-behavior-extinction, Q-ltd-glua2-redundancy]
-source_articles: [2026-06-04-ltd-long-term-depression, 2026-07-02-astrocyte-tripartite-synapse]
-key_sources: ["PMID:24183021", "PMID:19169250", "PMID:25429259", "PMID:19690847", "PMID:15450156", "PMID:15219735", "PMID:34334233"]
+opens_questions: [Q-ltd-nmda-metabotropic, Q-ltd-long-term-maintenance, Q-ltd-behavior-extinction, Q-ltd-glua2-redundancy, Q-ecb-01]
+source_articles: [2026-06-04-ltd-long-term-depression, 2026-07-02-astrocyte-tripartite-synapse, 2026-08-05-endocannabinoid-retrograde-signaling]
+key_sources: ["PMID:24183021", "PMID:19169250", "PMID:25429259", "PMID:19690847", "PMID:15450156", "PMID:15219735", "PMID:34334233", "PMID:23040807", "PMID:16776579"]
 ---
 
 # 长时程抑制 (Long-Term Depression, LTD)
@@ -131,7 +131,9 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 - 2026-06-04 · 创建 · 基于《遗忘的精准：LTD 文章》· 初始置信度：高（经典已建立机制）
 - 2026-06-23 · 修订 · 基于《小脑的秘密》· 加入小脑 LTD 独特性说明（mGluR1/PKC 路径，与 NMDA-LTD 并列）；新增 related: cerebellar-ltd, cerebellum；新增连接段落
 - 2026-07-02 · 修订 · 基于《大脑的第三方》(#68) · 新增星形胶质细胞介导 LTD 的三条路径（D-丝氨酸、ATP/腺苷、eCB-CB1R）；关键证据表新增 PMID:34334233；related 新增 astrocyte、tripartite-synapse、gliotransmitter、d-serine；连接段落新增四条
+- 2026-08-05 · 修订 · 基于《逆行的信使》(#104) · 深化 eCB-LTD 的专用机制说明：Gβγ→Cav2.2（DSI/短时程）vs Gαi→cAMP/PKA→RIM1α（eCB-LTD/长时程）的分叉；新增 iLTD/eLTD 两类；关键证据新增 PMID:23040807、PMID:16776579；opens_questions 新增 Q-ecb-01；related 新增 endocannabinoid-system、cb1-receptor、stdp
 
 ## 来源文章
 
 - [[2026-06-04-ltd-long-term-depression]]
+- [[2026-08-05-endocannabinoid-retrograde-signaling]]

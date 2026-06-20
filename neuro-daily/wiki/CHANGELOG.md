@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-08-05 · 文章 #104 · 逆行的信使：内源性大麻素如何让突触后神经元掌控自身的输入
+
+**核心主题**：内源性大麻素系统（ECS）——突触后神经元合成 2-AG/AEA 作为逆行信使，激活突触前 CB1R（Gi/o），通过 Gβγ 抑制 Cav2.2（DSI/DSE，秒级）和 Gαi→cAMP↓→RIM1α（eCB-LTD，长时程）两套下游机器；CB1R 富集于 CCK⁺ 中间神经元；BLA 中 AEA/FAAH 轴调控恐惧消退；非逆行模式（AEA→TRPV1、星形胶质细胞 CB1R、SSI）。
+
+**新建页面（2）**：
+- `wiki/concepts/endocannabinoid-system.md`（内源性大麻素系统）🟢 established · 高置信度 — 核心机制：2-AG（DGLα 合成，MAGL 降解，全激动剂）vs AEA（NAPE-PLD 合成，FAAH 降解，部分激动剂/TRPV1 全激动剂）；DSI/DSE 完整步骤；eCB-LTD 通过 RIM1α；CCK⁺ 靶细胞；非逆行模式；FAAH 抑制增强恐惧消退（PTSD 靶点）
+- `wiki/neurons/cb1-receptor.md`（CB1 大麻素受体）🟢 established · 高置信度 — Gi/o 偶联；Gβγ→Cav2.2（短时程）；Gαi→RIM1α（长时程 LTD）；GIRK 激活（SSI）；CCK⁺ 富集；各脑区分布与功能；配体效能对比（2-AG、AEA、THC）
+
+**修订页面（2）**：
+- `wiki/concepts/ltd.md` rev3→rev4 — 深化 eCB-LTD 的前突触机制（Gαi→cAMP/PKA→RIM1α 与 NMDA-LTD 的并列）；新增 iLTD/eLTD 分类；related 新增 endocannabinoid-system、cb1-receptor、stdp；opens_questions 新增 Q-ecb-01；key_sources 新增 PMID:23040807、PMID:16776579
+- `wiki/concepts/fear-extinction.md` rev4→rev5 — 新增 BLA 中 AEA/CB1R 的消退分子机制；FAAH 抑制增强消退；FAAH 抑制剂 PTSD 2a 期数据；related 新增 endocannabinoid-system、cb1-receptor；key_sources 新增 PMID:34598785
+
+**矛盾登记（0）**：无新矛盾
+
+**悬空引用解决（0）**：无（两新页的 related 均指向已有节点）
+
+**新增开放问题（4个）**：
+- Q-ecb-01（高优先级）：eCB-LTD 与 NMDA-LTD 在同一突触如何共存/竞争
+- Q-ecb-02（高优先级）：FAAH 抑制剂人类 PTSD 3 期临床结果
+- Q-ecb-03（中优先级）：SSI（慢自我抑制）在体内生理条件下的实际发生
+- Q-ecb-04（中优先级）：CB2R 神经炎症通路的治疗靶点价值
+
+**图谱**：199节点→201节点，1145边→1159边（+2节点，+14边）
+
+---
+
 ## 2026-08-04 · 文章 #103 · 时间细胞：海马如何为情节记忆打上时间戳
 
 **核心主题**：海马时间细胞（time cells）——在空白延迟期中依次激发的CA1神经元集群；时间vs路径积分的解耦；时间细胞的可缩放性与多尺度编码（秒/分/天）；驱动回路（MEC光遗传学因果证据+CA2专门组织者）；人类单细胞记录验证（Umbach 2020 PNAS、Reddy 2021 JNeurosci）；与AI序列建模的比较（LSTM细胞状态、Transformer位置编码）。

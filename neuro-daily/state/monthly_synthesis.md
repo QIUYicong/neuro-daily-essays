@@ -864,3 +864,23 @@
 **新增开放问题**：Q-placebo-01（高，安慰剂非阿片成分）、Q-placebo-02（中，开放标签安慰剂机制）
 **来源质量**：8篇，4篇开放获取全文（PMC6725254/6013051/7925520/5747994），4篇摘要
 **填补悬空引用**：`endogenous-opioid-system`（原为periaqueductal-gray.md中的悬空related引用，现已填补）
+
+### 2026-08-05 · 文章 #104 · 逆行的信使 · 内源性大麻素如何让突触后神经元掌控自身的输入
+
+**核心问题**：大脑如何通过脂质信使 2-AG 和 AEA 实现突触后→突触前的逆行信号传递，调节突触可塑性、恐惧消退、疼痛和认知灵活性？
+**一句话答案**：突触后活动 → Ca²⁺ + mGluR → DGLα 合成 2-AG → 逆行扩散 → CB1R Gβγ→Cav2.2（DSI，短时程）/ Gαi→RIM1α（eCB-LTD，长时程）；AEA 在杏仁核激活 CB1R 对恐惧消退必要；FAAH 抑制剂是 PTSD 的潜在靶点——内源性大麻素是突触后"写给"突触前的反馈信件，"少说一点"是其统一的主题。
+
+**知识链衔接**：#94（STDP，提到 CB1-LTD 但未展开）→ #101（安慰剂/疼痛，提到 eCB 系统协同但未建 wiki）→ #102（内源性阿片系统，同类"内源性调质"框架）→ #104（eCB 系统完整机制）。本篇填补了 LTD 页面的"前突触 LTD 机制"空白，并为恐惧消退页面添加了 AEA/FAAH 的分子维度。
+
+**新建wiki页**：
+- concepts/endocannabinoid-system（内源性大麻素系统）🟢 established/high — 2-AG（DGLα/MAGL）vs AEA（NAPE-PLD/FAAH）；DSI/DSE 完整步骤；eCB-LTD 通过 RIM1α；CCK⁺ 靶点；非逆行模式（TRPV1/星形胶质细胞 CB1/SSI）
+- neurons/cb1-receptor（CB1 大麻素受体）🟢 established/high — 最丰富脑 GPCR；Gi/o 双通路；CCK⁺ 富集分布；各脑区功能；配体效能对比
+
+**修订wiki页**：
+- concepts/ltd rev3→rev4（深化 eCB-LTD 前突触机制；iLTD/eLTD 分类）
+- concepts/fear-extinction rev4→rev5（AEA/FAAH 恐惧消退分子机制；PTSD FAAH 抑制剂数据）
+
+**图谱**：199节点→201节点，1145边→1159边（+2节点，+14边）
+**新增开放问题**：Q-ecb-01~Q-ecb-04（4个问题，2高2中优先级）
+**来源质量**：8篇，2篇开放获取全文（PMC3517813/PMC4789136），6篇摘要；2001年两篇里程碑论文无全文但内容已被后续综述充分核实
+**填补悬空引用**：无（所有新页面 related 均指向已有节点）

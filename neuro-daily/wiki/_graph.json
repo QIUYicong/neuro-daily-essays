@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-04",
+  "updated": "2026-08-05",
   "node_count": 199,
   "edge_count": 1148,
   "edge_types": [
@@ -1816,6 +1816,24 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/temporal-context-model.md"
+    },
+    {
+      "id": "endocannabinoid-system",
+      "title": "内源性大麻素系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/endocannabinoid-system.md"
+    },
+    {
+      "id": "cb1-receptor",
+      "title": "CB1 大麻素受体",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/cb1-receptor.md"
     }
   ],
   "edges": [
@@ -8221,6 +8239,90 @@
       "to": "cognitive-map",
       "type": "supports",
       "note": "时间细胞将认知地图从纯空间扩展到时空四维：地点细胞（空间）+时间细胞（时间）共同构成情节记忆的完整时空坐标系"
+    },
+    {
+      "from": "cb1-receptor",
+      "to": "endocannabinoid-system",
+      "type": "part-of",
+      "note": "CB1R 是 ECS 逆行信号的核心效应受体"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "ltd",
+      "type": "mechanism-of",
+      "note": "eCB-LTD：Gαi→cAMP/PKA↓→RIM1α 去磷酸化→释放概率持久降低"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "fear-extinction",
+      "type": "mechanism-of",
+      "note": "AEA 在 BLA 激活 CB1R，对恐惧消退训练因果必要；FAAH 抑制增强消退"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "stdp",
+      "type": "related",
+      "note": "CB1-LTD 是 STDP 后时序抑制的一个分子实现途径"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "amygdala",
+      "type": "regulates",
+      "note": "ECS 在 BLA 调控恐惧消退，AEA 浓度由 FAAH 控制"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "cerebellum",
+      "type": "related",
+      "note": "小脑 DSE 和平行纤维 LTD 均依赖 eCB 逆行信号"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "basal-ganglia",
+      "type": "regulates",
+      "note": "皮层-纹状体 eCB-LTD，习惯形成和奖励学习"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "placebo-analgesia",
+      "type": "related",
+      "note": "eCB 系统与阿片系统在痛觉调制中协同，CB1R 在脊髓参与下行镇痛"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "endogenous-opioid-system",
+      "type": "related",
+      "note": "两大内源性镇痛/抗恐惧系统，在 PAG 和脊髓协同工作"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "tripartite-synapse",
+      "type": "related",
+      "note": "星形胶质细胞 CB1R（Gq/11）激活参与异突触调制"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "short-term-synaptic-plasticity",
+      "type": "mechanism-of",
+      "note": "DSI/DSE 是内源性大麻素介导的短时程突触可塑性"
+    },
+    {
+      "from": "cb1-receptor",
+      "to": "voltage-gated-calcium-channels",
+      "type": "regulates",
+      "note": "CB1R via Gβγ 直接抑制 Cav2.2（N型）和 Cav2.1（P/Q型）Ca²⁺ 通道"
+    },
+    {
+      "from": "cb1-receptor",
+      "to": "ltd",
+      "type": "mechanism-of",
+      "note": "CB1R Gαi 通路驱动 eCB-LTD 的前突触机制"
+    },
+    {
+      "from": "cb1-receptor",
+      "to": "fear-extinction",
+      "type": "regulates",
+      "note": "BLA CB1R 激活对恐惧消退因果必要"
     }
   ],
   "dangling_references": [
