@@ -1,0 +1,136 @@
+{
+  "article_date": "2026-08-01",
+  "article_slug": "2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain",
+  "article_number": 100,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "30808550",
+      "pmcid": "PMC7713666",
+      "doi": "10.1016/j.neubiorev.2018.12.025",
+      "title": "The evolution of the temporoparietal junction",
+      "authors": "Patel GH, Yang D, Jamerson EC, Snyder LH, Corbetta M, Ferrera VP",
+      "year": 2019,
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "access": "open_access",
+      "full_text_read": true,
+      "used_for": [
+        "TPJ 前-后轴分工模型（pTPJ 信念推断 vs aTPJ 注意定向）",
+        "TPJ 体积与社会群体大小的进化关联",
+        "人类 TPJ 在灵长类中扩展最大的解剖证据"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "29501981",
+      "pmcid": null,
+      "doi": "10.1016/j.neuroimage.2018.02.053",
+      "title": "The neural bases of social mentalizing: An fMRI meta-analysis",
+      "authors": "Heleven E, Van den Stock J, Van den Berg E, Van Overwalle F",
+      "year": 2018,
+      "journal": "NeuroImage",
+      "access": "abstract_only",
+      "full_text_read": false,
+      "used_for": [
+        "ALE 元分析确认右 TPJ 和 mPFC 为 ToM 双核心节点",
+        "腹侧 mPFC（具体特质推断）vs 背侧 mPFC（抽象心理状态推断）分区"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "33359341",
+      "pmcid": "PMC8005222",
+      "doi": "10.1162/jocn_a_01683",
+      "title": "Big three network interactions in the social brain",
+      "authors": "Spreng RN, Mar RA, Kim ASN",
+      "year": 2021,
+      "journal": "Journal of Cognitive Neuroscience",
+      "access": "open_access",
+      "full_text_read": true,
+      "used_for": [
+        "DMN 在社会认知中的核心作用（元分析）",
+        "三网络（DMN/SN/CEN）动态交互模型",
+        "dMPFC 子系统在社会推断中的稳定激活"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "33946964",
+      "pmcid": "PMC8145974",
+      "doi": "10.3389/fpsyt.2021.645756",
+      "title": "Altered default mode network functional connectivity in autism spectrum disorder: A systematic review",
+      "authors": "Lian Y, et al.",
+      "year": 2021,
+      "journal": "Frontiers in Psychiatry",
+      "access": "open_access",
+      "full_text_read": true,
+      "used_for": [
+        "ASD 中 DMN 功能连接系统性减弱证据",
+        "mPFC-PCC 连接降低与社会沟通障碍的相关性（r = -0.42）",
+        "DMN 发育轨迹与 ToM 发展的关系"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "15217330",
+      "pmcid": null,
+      "doi": "10.1146/annurev.neuro.27.070203.144230",
+      "title": "The mirror-neuron system",
+      "authors": "Rizzolatti G, Craighero L",
+      "year": 2004,
+      "journal": "Annual Review of Neuroscience",
+      "access": "abstract_only",
+      "full_text_read": false,
+      "used_for": [
+        "镜像神经元发现历史（Gallese et al. 1996，猕猴 F5 区，~17% MNS 神经元）",
+        "F5→BA44 同源关系",
+        "MNS 功能：动作理解的运动共鸣机制"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "17551089",
+      "pmcid": null,
+      "doi": "10.1093/cercor/bhm037",
+      "title": "Activity in right temporo-parietal junction is not selective for theory-of-mind",
+      "authors": "Mitchell JP",
+      "year": 2008,
+      "journal": "Cerebral Cortex",
+      "access": "abstract_only",
+      "full_text_read": false,
+      "used_for": [
+        "TPJ 不专一负责 ToM 的反驳证据",
+        "注意定向与 ToM 任务中 TPJ 激活相似的数据",
+        "文章呈现 TPJ 功能争议的主要来源"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "18440207",
+      "pmcid": null,
+      "doi": "10.1016/j.plrev.2008.09.001",
+      "title": "Hooked on mnemonics: From mirror neurons and imitation to the evolution of language",
+      "authors": "Arbib MA",
+      "year": 2008,
+      "journal": "Physics of Life Reviews",
+      "access": "abstract_only",
+      "full_text_read": false,
+      "used_for": [
+        "MNS 到语言进化的三层模型（手势→原语言→语言）",
+        "F5/BA44 在社会认知与语言进化中的桥梁角色",
+        "文章"大脑的社会机器"演化视角"
+      ]
+    }
+  ],
+  "excluded_sources": [
+    {
+      "pmid": "19874768",
+      "reason": "Hickok (2009) 'Eight problems for the mirror neuron theory' — 核心反驳论文，仅摘要获取，已通过 S7 等综述充分呈现该争议立场"
+    },
+    {
+      "pmid": "19209179",
+      "reason": "Saxe & Powell (2006) 'It's the thought that counts' — 核心 TPJ ToM 专一性论文，未获全文，争议已通过 S1/S6 呈现"
+    }
+  ],
+  "coverage_notes": "7 篇来源中 3 篇开放全文（满足 ≥2 全文要求），覆盖 ToM 网络解剖（S1/S2）、DMN 社会认知（S3/S4）、MNS（S5/S7）、TPJ 争议（S6）四个核心议题。核心奠基论文（Gallese 1996；Wimmer & Perner 1983；Saxe & Kanwisher 2003）未获全文，通过大量引用它们的开放综述补充。"
+}

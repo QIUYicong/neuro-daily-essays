@@ -7,12 +7,12 @@ status: mainstream
 confidence: high
 created: 2026-06-16
 updated: 2026-05-31
-revision_count: 3
+revision_count: 4
 dimensions: [whole-brain-network, cognition, behavior, brain-region]
-related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala, global-workspace-theory, world-model, language-network, ventral-language-stream]
+related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala, global-workspace-theory, world-model, language-network, ventral-language-stream, theory-of-mind, temporoparietal-junction]
 prerequisites: [hippocampal-circuit, working-memory, predictive-coding]
 opens_questions: [Q-dmn-01, Q-dmn-02, Q-dmn-03, Q-dmn-04]
-source_articles: [2026-06-16-default-mode-network, 2026-05-31-week4-synthesis]
+source_articles: [2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain]
 key_sources: ["PMID:11209064", "PMID:15976020", "PMID:18400922", "PMID:19211893", "PMID:21677128", "PMID:24486981", "PMID:25938726"]
 ---
 
@@ -87,6 +87,8 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 - [[global-workspace-theory]] — DMN 是先验生成器，GWT 工作空间是广播基础设施；互补关系（Q-dmn-04 部分解答）
 - [[language-network]] — 角回（BA39）是DMN的顶下叶节点，同时也是腹侧语言流的多模态语义整合节点；语言理解调用情景记忆和社会知识时，正是通过此共享节点连接两个网络
 - [[ventral-language-stream]] — 腹侧语言流的语义整合（角回、MTG）与DMN的情景记忆/场景构建功能高度重叠，隐喻和叙事理解激活DMN-语言网络重叠区
+- [[theory-of-mind]] — DMN 的 dMPFC 子系统是心智理论（ToM）推断的核心网络之一；DMN-TPJ 功能耦合强度随心智化任务需求单调增加
+- [[temporoparietal-junction]] — TPJ 是 DMN dMPFC 子系统的扩展节点；pTPJ 负责信念推断，与 mPFC 在 ToM 任务中协同激活
 
 ## 未解问题
 
@@ -101,9 +103,11 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 - 2026-05-30 · 修订 · 基于《当意识在大脑中"点燃"》一文 · 部分回应 Q-dmn-04：DMN 作为先验生成器 vs 全局工作空间作为广播基础设施的互补架构；添加 global-workspace-theory 到 related；更新当前理解段落
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将 DMN 定位为「世界模型离线仿真层」；新增 world-model 到 related；明确 DMN 作为世界模型后台服务（先验生成器 + 情节重构 + 社会仿真）的六层架构定位；AD/DMN 连接中补充世界模型视角
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增角回（BA39）作为DMN-语言网络共享节点的描述；腹侧语言流语义整合与DMN情景记忆/场景构建的功能重叠；related 新增 language-network, ventral-language-stream
+- 2026-08-01 · 修订（rev4）· 基于《读懂另一个心灵》一文（#100）· 新增 DMN dMPFC 子系统在心智理论（ToM）中的核心角色；DMN-TPJ 功能耦合随心智化任务需求增加的证据（Spreng 2021 元分析）；related 新增 theory-of-mind, temporoparietal-junction；ASD 中 DMN 功能连接降低与 ToM 缺陷的关联
 
 ## 来源文章
 
 - [[2026-06-16-default-mode-network]]
 - [[2026-05-30-global-workspace-theory]]
 - [[2026-06-20-language-dual-stream]]
+- [[2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain]]

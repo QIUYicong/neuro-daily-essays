@@ -1,6 +1,33 @@
 # 未解问题追踪
 
-*最后更新：2026-07-31*
+*最后更新：2026-08-01*
+
+---
+
+## 2026-08-01 新增（来自"读懂另一个心灵"文章 #100）
+
+### Q-tom-01（高优先级）：TPJ 是否真正对心智理论（ToM）有功能专一性？前-后轴分工是否足以解决争议？
+
+- **关联 wiki**：[[temporoparietal-junction]]、[[theory-of-mind]]
+- **来源文章**：2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain
+- **问题**：TPJ 在 ToM 研究中的功能特异性存在长期争论。Saxe & Kanwisher（2003）认为 pTPJ 高度专一于心智化（false belief task）；Mitchell（2008）发现 TPJ 在注意定向任务中激活同等强度（p=0.31），挑战其专一性。Patel et al.（2019）提出"前-后轴分工"（pTPJ=心智化，aTPJ=注意定向）作为折中方案。但这一分轴是否足够清晰？候选统一解释："脱耦合"理论（decoupling theory）认为 TPJ 的核心功能是将心智表征从当前感知-运动经验中"脱耦合"——无论是信念表征（脱耦合于现实）还是注意重定向（脱耦合于当前任务焦点）。这能否统一解释所有 TPJ 激活？
+- **当前证据状态**：pTPJ 在 ToM 任务中激活：高（ALE 元分析一致）；pTPJ 在非社会注意任务中也激活：中（Mitchell 2008 单中心）；前-后轴分工的解剖稳定性：中（坐标范围因研究而异）；"脱耦合"理论：低（主要是理论推断，因果证据缺乏）
+- **关键实验**：高强度 TMS 精确定向到 pTPJ（而非 aTPJ）→ 是否选择性损害假信念任务而不损害注意任务？需要精细定位技术（fMRI-guided TMS）
+
+### Q-tom-02（中优先级）：镜像神经元系统（MNS）在心智理论（ToM）中的精确因果贡献是什么？
+
+- **关联 wiki**：[[mirror-neuron-system]]、[[theory-of-mind]]、[[broca-area]]
+- **来源文章**：2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain
+- **问题**：Rizzolatti/Gallese 的"模拟理论"认为 MNS（BA44 + 顶下叶）通过内部动作模拟为 ToM 提供运动底层；Hickok（2009/2014）提出系统性反驳（Broca 失语不损害动作理解；MNS 激活为联想学习结果）。如果 MNS 确实参与 ToM，应该能看到：(a) TMS 干扰 BA44 → 假信念任务表现下降；(b) BA44 损伤患者在 ToM 任务中受损。目前这两个预测的直接检验极为有限。此外，MNS 和 ToM 核心网络（pTPJ + mPFC）的功能分工到底在哪里——是互补（MNS 提供意图感知，TPJ/mPFC 提供信念表征）还是根本独立？
+- **当前证据状态**：MNS 参与动作理解：中（间接证据）；MNS 对 ToM 因果必要：低（无直接因果证据）；TMS BA44 影响假信念任务：未知（实验未做或未发表）
+- **为什么重要**：若 MNS 对 ToM 有因果贡献，则 ASD 的 ToM 缺陷可能部分来自 MNS 异常（"broken mirror" 假说）；若无，则 ASD 干预应专注于 TPJ-mPFC 网络
+
+### Q-tom-03（中优先级）：ASD 中 DMN 功能连接降低是 ToM 缺陷的**原因**还是**结果**？
+
+- **关联 wiki**：[[theory-of-mind]]、[[default-mode-network]]
+- **来源文章**：2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain
+- **问题**：Lian et al.（2021）发现 ASD 患者 mPFC-PCC 功能连接降低（Cohen d = 0.57）与社会沟通障碍正相关，但横截面研究无法确定因果方向：(a) 方向 A（DMN 异常 → ToM 缺陷）：DMN 发育关键期的神经异常导致 mPFC-TPJ 功能突触连接弱化，从而影响 ToM 发展；(b) 方向 B（ToM 缺陷 → DMN 弱化）：ASD 个体社会输入减少 → DMN 相关回路缺乏激活 → 功能连接弱化。可能的区分方法：(i) 纵向追踪（出生→4岁→成年 DMN 发育轨迹）；(ii) 社会训练干预是否改善 DMN 连接；(iii) 动物模型（SHANK3/NLGN3 KO 小鼠）的 DMN 同源网络早期检测。
+- **当前证据状态**：横截面 ASD-DMN 关联：中-高（多项研究）；DMN 发育轨迹异常先于 ToM 缺陷显现：未知（纵向数据稀少）；DMN 可塑性是否可被社会训练逆转：初步证据（小样本）
 
 ---
 

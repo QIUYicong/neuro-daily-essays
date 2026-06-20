@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-08-01 · 文章 #100（里程碑）· 读懂另一个心灵：心智理论×TPJ×镜像神经元×社会脑
+
+**核心主题**：心智理论（ToM）的神经网络——pTPJ（信念推断/视角转换）、mPFC（腹侧特质推断/背侧抽象心理状态推断）、DMN dMPFC 子系统（社会叙事整合）三节点分工；镜像神经元系统（MNS，Rizzolatti 1992猕猴 F5→BA44 同源）与 ToM 的关系争议（Hickok "broken mirror" 批评）；ASD 中 DMN 功能连接降低与 ToM 缺陷的关联；GPT-4 ToM 测试的双重解读。
+
+**第100篇里程碑**：知识库迈入三位数文章，覆盖社会认知神经科学这一此前空白的重要课程领域（课程脊柱8社会认知）。
+
+**新建页面（3）**：
+- `concepts/theory-of-mind.md`（心智理论）🟢 established · 高置信度 — 核心三节点神经网络（TPJ/mPFC/DMN）；假信念任务；发育轨迹；ASD 连接；AI 类比；Q-tom-01至Q-tom-03
+- `systems/temporoparietal-junction.md`（颞顶联合区）🟢 established · 高置信度 — 前-后轴分工（pTPJ信念推断/aTPJ注意定向）；VAN-DAN双网络架构；进化与发育轨迹；临床关联（ASD/精神分裂症/空间忽视）
+- `concepts/mirror-neuron-system.md`（镜像神经元系统）🔴 contested · 中置信度 — Rizzolatti 1992猕猴 F5 区 ~17% MNS神经元；直接匹配假说；Hickok 2009/2014 破碎镜子批评；模拟理论 vs. 理论理论；C-mirror-01争议登记
+
+**修订页面（1）**：
+- `systems/default-mode-network.md` rev3→rev4 — 新增 DMN dMPFC 子系统在 ToM 中的核心角色；Spreng 2021 DMN-TPJ 功能耦合随心智化任务需求增加的元分析证据；ASD DMN 连接降低与 ToM 缺陷关联；related 新增 theory-of-mind, temporoparietal-junction
+
+**矛盾登记（1）**：
+- `C-mirror-01`（MNS-ToM 因果关系争议）：Rizzolatti/Gallese 模拟理论 vs. Hickok 理论理论；当前证据等级：MNS 对 ToM 因果必要性——低（无直接因果实验）
+
+**新增开放问题（3）**：
+- Q-tom-01（高）：TPJ 是否真正专一于 ToM？前-后轴分工是否足够？"脱耦合"功能能否统一解释？
+- Q-tom-02（中）：MNS 在 ToM 中的精确因果贡献？TMS BA44 对假信念任务的效应？
+- Q-tom-03（中）：ASD 中 DMN 功能连接降低是 ToM 缺陷的原因还是结果？纵向发育数据？
+
+**悬空引用**：新页面引用 [[social-brain-network]]（未建页面）、[[ventral-attention-network]]（未建页面）——暂标为待建
+
+**图谱**：185节点→188节点（+3：theory-of-mind, temporoparietal-junction, mirror-neuron-system），1085边→1100边（+15新边）
+
+---
+
 ## 2026-07-31 · 文章 #99 · 大脑的秒表：区间计时的分布式神经机制
 
 **核心主题**：区间计时（interval timing）——小脑如何以橄榄-小脑系统实现毫秒级事件计时；纹状体拍频模型（SBF）如何以皮层振荡子+MSN符合检测实现秒级计时；种群时钟（population clock）如何从循环网络高维轨迹中涌现时间；D1-MSN（降）与D2-MSN（升）如何对立协同累积时间证据；多巴胺"调速时钟"假说在帕金森病证据面前为何不够。

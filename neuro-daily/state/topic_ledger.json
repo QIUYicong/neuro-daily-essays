@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-31",
-  "total_articles": 82,
+  "last_updated": "2026-08-01",
+  "total_articles": 83,
   "entries": [
     {
       "date": "2026-07-31",
@@ -21,8 +21,16 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "当大脑需要判断\"已经过了多少时间\"时，哪些神经机制在计时？从毫秒到秒，小脑、纹状体、皮层如何分工？中脑多巴胺的\"时钟调速\"假说是否成立？",
-      "open_questions_added": ["Q-it-01", "Q-it-02"],
-      "layer": ["cellular", "microcircuit", "brain-region", "cognition"],
+      "open_questions_added": [
+        "Q-it-01",
+        "Q-it-02"
+      ],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
       "curriculum_track": "课程脊柱2（神经计算基本原语·时间编码）+ 脊柱4（基底节与多巴胺系统）+ 脊柱12（人脑与AI比较·循环网络时间涌现）",
       "topic_tags": [
         "interval timing",
@@ -72,8 +80,17 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "当大脑同时接收视觉和听觉信号时，如何决定它们来自同一来源（整合）还是不同来源（分离）？贝叶斯因果推断模型如何解释上丘三条规则（空间/时间/逆效应性）、麦格克效应和负偏移现象？逆效应性的NMDA受体细胞机制是什么？",
-      "open_questions_added": ["Q-msi-01", "Q-msi-02", "Q-msi-03"],
-      "layer": ["cellular", "brain-region", "whole-brain-network", "cognition"],
+      "open_questions_added": [
+        "Q-msi-01",
+        "Q-msi-02",
+        "Q-msi-03"
+      ],
+      "layer": [
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
       "curriculum_track": "课程脊柱3（大脑如何编码世界·多感觉融合）+ 脊柱5（认知控制·感知推断）+ 脊柱12（人脑与AI比较·贝叶斯传感器融合）",
       "topic_tags": [
         "multisensory integration",
@@ -122,7 +139,11 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "初级躯体感觉皮层（S1）如何将皮肤表面四类低阈值机械感受器（SA1/SA2/RA1/RA2）的多维触觉信号，通过 DC-ML 通路和丘脑 VPLc 中继，映射为具有拓扑结构的皮层体图（感觉小人）？为何手指和嘴唇在皮层中占据不成比例的面积？Merzenich 系列经典实验（1983–1993）如何颠覆\"成年皮层固化不变\"的范式，揭示皮层地图在行为相关训练和截肢后的惊人可塑性？三阶段可塑性机制（GABA 去抑制→Hebbian LTP/LTD→突触结构重塑）如何共同驱动这种重组？这与幻肢痛和 Ramachandran 镜箱疗法有何关联？",
-      "open_questions_added": ["Q-s1-01", "Q-s1-02", "Q-s1-03"],
+      "open_questions_added": [
+        "Q-s1-01",
+        "Q-s1-02",
+        "Q-s1-03"
+      ],
       "layer": [
         "molecular",
         "cellular",
@@ -178,7 +199,12 @@
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
       "core_question": "耳蜗基底膜如何通过行波和主动放大实现频率-位置地点编码（cochleotopy）？这一物理地图如何在整个听觉升序通路（CN→SOC→IC→MGBv→A1）中被精确保真传递？人类 Heschl 回上 11 张听觉场图如何以音调梯度×周期性梯度双轴组织？在双说话者环境（鸡尾酒会问题）中，注意力如何主动重写 STG 群体响应的内容，实现被注意者声音的选择性编码？",
-      "open_questions_added": ["Q-ac-01", "Q-ac-02", "Q-ac-03", "Q-ac-04"],
+      "open_questions_added": [
+        "Q-ac-01",
+        "Q-ac-02",
+        "Q-ac-03",
+        "Q-ac-04"
+      ],
       "layer": [
         "molecular",
         "cellular",
@@ -214,7 +240,10 @@
         "PMID:35221899",
         "PMID:38244755"
       ],
-      "open_access_fulltext": ["PMC2846110", "PMC3269422"]
+      "open_access_fulltext": [
+        "PMC2846110",
+        "PMC3269422"
+      ]
     },
     {
       "date": "2026-07-27",
@@ -5886,6 +5915,68 @@
         "limbic-system",
         "concentration-invariance",
         "combinatorial-coding"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "title": "读懂另一个心灵：心智理论的神经网络、镜像神经元的争议与大脑的社会建模机器",
+      "filename": "2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain.md",
+      "article_number": 100,
+      "wiki_pages_created": [
+        "wiki/concepts/theory-of-mind.md",
+        "wiki/systems/temporoparietal-junction.md",
+        "wiki/concepts/mirror-neuron-system.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/default-mode-network.md"
+      ],
+      "contested_claims_logged": [
+        "C-mirror-01"
+      ],
+      "contested_claims_evidence_updated": [],
+      "core_question": "大脑如何推断他人的信念、意图和情感？颞顶联合区（TPJ）、内侧前额叶（mPFC）和默认模式网络（DMN）三者如何分工协作实现心智理论（ToM）？镜像神经元系统在社会认知中的真实因果贡献是什么？",
+      "open_questions_added": [
+        "Q-tom-01",
+        "Q-tom-02",
+        "Q-tom-03"
+      ],
+      "layer": [
+        "whole-brain-network",
+        "cognition",
+        "brain-region",
+        "behavior"
+      ],
+      "curriculum_track": "课程脊柱8（意识与自我·社会认知）+ 脊柱7（情绪与动机·他人心智推断）+ 脊柱12（人脑与AI比较·GPT-4 ToM测试）",
+      "topic_tags": [
+        "theory of mind ToM social cognition",
+        "temporoparietal junction TPJ",
+        "medial prefrontal cortex mPFC",
+        "default mode network DMN social",
+        "false belief task Sally-Anne",
+        "mirror neuron system MNS",
+        "Rizzolatti mirror neurons macaque F5",
+        "Hickok broken mirror hypothesis",
+        "autism spectrum disorder ASD ToM",
+        "simulation theory theory theory",
+        "social brain network mentalizing",
+        "perspective taking belief attribution",
+        "GPT-4 theory of mind test"
+      ],
+      "main_sources": [
+        "PMID:30808550",
+        "PMID:29501981",
+        "PMID:33359341",
+        "PMID:33946964",
+        "PMID:15217330",
+        "PMID:17551089",
+        "PMID:18440207"
+      ],
+      "next_suggested_topics": [
+        "Q-tom-01裁决：TMS干扰pTPJ对假信念任务的影响（因果证据）",
+        "情绪共情的神经基础（前岛叶×前扣带回×杏仁核）",
+        "自我参照处理（mPFC×PCC×DMN在自我-他人区分中的角色）",
+        "社会规范与道德判断（PFC×TPJ×杏仁核×VMO系统）",
+        "孤独症谱系障碍（ASD）的神经生物学机制（完整视角）"
       ]
     }
   ],

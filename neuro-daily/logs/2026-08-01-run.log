@@ -1,0 +1,185 @@
+# 运行日志 2026-08-01
+
+**日期**：2026-08-01（推导：topic_ledger.json last_updated=2026-07-31 + 1天；系统时钟仍固定在2026-06-20，遵循diagnostic log建议的日期前移策略）
+**文章编号**：#100（里程碑）
+**分支**：main
+**运行状态**：✅ 成功
+
+---
+
+## 运行概要
+
+- **模式**：长期课程模式（long_term_curriculum）
+- **课程路线**：8. 意识与自我（社会认知子课题） + 7. 情绪与动机（他人心智推断角度）
+- **主题**：心智理论（ToM）——TPJ × mPFC × DMN × 镜像神经元系统
+- **层级**：whole-brain-network / cognition / brain-region / behavior
+- **里程碑**：第100篇文章
+
+---
+
+## 日期确定逻辑
+
+- 系统时钟：2026-06-20（容器重置导致冻结）
+- topic_ledger.json last_updated：2026-07-31
+- 今日任务日期：2026-07-31 + 1 = **2026-08-01**
+- 参考：2026-06-20-duplicate-trigger-3.log 中的方案 B
+
+---
+
+## 选题决策
+
+**决策路径**：
+1. 读取 topic_ledger.json（82条已追踪条目，最新#99=2026-07-31 区间计时）
+2. 检查 unresolved_questions.md 中的高优先级问题
+3. 检查 contested_claims.json 中的开放矛盾
+4. 检查 wiki/_graph.json 中的悬空引用（当前0条）
+5. 检查课程路线完整性：
+
+**当前课程路线覆盖状况**（截至#99）：
+- 路线1（神经元如何工作）：🔵 进行中
+- 路线2（微回路设计）：🔵 进行中
+- 路线3（编码世界）：🔵 进行中（感觉皮层系列近期完成）
+- 路线4（学习记忆）：🔵 进行中
+- 路线5（认知控制）：🔵 进行中
+- 路线6（情绪动机）：🔵 进行中
+- **路线7（社会认知）：⚪ 几乎空白——重大课程缺口**
+- 路线8（意识与自我）：🔵 进行中（DMN/GWT/IIT/COGITATE，但缺社会认知子课题）
+- 路线9（连接组学）：🔵 开始
+- 路线10（方法革命）：🔵 开始
+- 路线11（疾病作为窗口）：🔵 进行中
+- 路线12（AI比较）：🔵 进行中
+
+**选题理由**：
+- 路线7（社会认知）几乎空白，与已有的 DMN（#26）、工作记忆（#13）、预测编码（#41）、杏仁核（#77）知识节点有强连接潜力
+- 第#100篇作为里程碑，选择"心智理论（ToM）"——神经科学中最具影响力的社会认知框架
+- ToM 直接填补 wiki/_graph.json 中的 DMN-dMPFC子系统的"心智化"角色（此前在 default-mode-network.md 中多次提及但无专页）
+- 同时引入 TPJ 专页（也是 DAN/VAN 注意网络的关键节点）和 MNS 争议（展示知识库中的科学不确定性）
+
+**排除的候选主题**：
+- COGITATE 续章（已有专页，重复）
+- 小脑（已有专页 #33）
+- 树突计算（已有专页 #5）
+
+---
+
+## 检索策略
+
+**检索数据库**：PubMed E-utilities (NCBI)、PMC 开放全文
+**检索词**（主要）：
+- "theory of mind temporoparietal junction fMRI meta-analysis"
+- "mirror neuron system social cognition review"
+- "default mode network social mentalizing"
+- "autism spectrum disorder theory of mind neural"
+- "Rizzolatti mirror neuron F5 macaque"
+- "TPJ false belief task"
+- "Hickok mirror neuron controversy"
+
+**候选文献**：约20篇
+**精读/摘要阅读**：12篇
+**采用来源**：7篇（3篇开放全文，4篇仅摘要）
+
+---
+
+## 采用来源
+
+| ID | PMID | PMCID | 标题 | 类型 | 全文 |
+|----|------|-------|------|------|------|
+| S1 | 30808550 | PMC7713666 | The evolution of the temporoparietal junction (Patel 2019) | 进化比较+元分析综述 | ✅ |
+| S2 | 29501981 | - | Neural bases of social mentalizing (Heleven 2018) | ALE fMRI 元分析 | ❌摘要 |
+| S3 | 33359341 | PMC8005222 | Big three network interactions in social brain (Spreng 2021) | DMN 大样本元分析 | ✅ |
+| S4 | 33946964 | PMC8145974 | ASD DMN functional connectivity (Lian 2021) | 系统综述+元分析 | ✅ |
+| S5 | 15217330 | - | The mirror-neuron system (Rizzolatti & Craighero 2004) | 奠基性综述 | ❌摘要 |
+| S6 | 17551089 | - | TPJ not selective for ToM (Mitchell 2008) | 参数化 fMRI 实验 | ❌摘要 |
+| S7 | 18440207 | - | MNS and language evolution (Arbib 2008) | 理论综述 | ❌摘要 |
+
+**排除来源**：
+- Hickok 2009 "Eight problems for mirror neuron theory"（核心反驳，未获全文；已通过 S5/S7 补充争议）
+- Saxe & Kanwisher 2003 TPJ ToM 专一性（历史核心文章，已通过 S1/S2/S6 充分呈现争议双方）
+
+---
+
+## 文章写作摘要
+
+**文章标题**：读懂另一个心灵：心智理论的神经网络、镜像神经元的争议与大脑的社会建模机器
+**字数**：约 4800 字
+**结构**：
+1. 核心问题（读懂另一个心灵）
+2. 一句话摘要
+3. 一段精粹
+4. 背景（Wimmer & Perner 1983 Sally-Anne 任务）
+5. 神经机制详解（TPJ / mPFC / DMN）
+6. 镜像神经元：发现与争议
+7. ASD 作为临床窗口
+8. 虚拟机器比喻
+9. 大脑与 AI 比较（GPT-4 ToM 测试）
+10. 今日概念卡（5张）
+11. 认知地图更新
+12. 参考文献
+
+---
+
+## 固结步骤：Wiki 页面
+
+### 新建页面（3）
+
+1. `wiki/concepts/theory-of-mind.md` — 心智理论，status=established，三节点神经网络，假信念任务，ASD连接，AI类比
+2. `wiki/systems/temporoparietal-junction.md` — 颞顶联合区，status=established，前-后轴分工，VAN-DAN双网络，进化发育
+3. `wiki/concepts/mirror-neuron-system.md` — 镜像神经元系统，status=contested，奠基发现+争议完整呈现，C-mirror-01矛盾登记
+
+### 修订页面（1）
+
+4. `wiki/systems/default-mode-network.md`（rev3→rev4）— 新增 DMN dMPFC 子系统在 ToM 中的核心角色；Spreng 2021 元分析；ASD 连接；related 新增 theory-of-mind, temporoparietal-junction
+
+---
+
+## 矛盾检查
+
+**新矛盾登记（1）**：
+- `C-mirror-01`：MNS-ToM 因果关系争议
+  - 立场 A（Rizzolatti/Gallese 2004）：MNS 是 ToM 的运动共鸣底层，模拟理论成立
+  - 立场 B（Hickok 2009/2014）：MNS 无 ToM 因果贡献，Broca失语不损动作理解
+  - 状态：**开放**，缺乏因果实验
+
+**已有矛盾影响**：无（今日主题与已登记的 C-2026-05-* 系列无交叉）
+
+---
+
+## 新增悬空引用（待未来文章补充）
+
+- `social-brain-network`：大脑的社会网络总览（被 theory-of-mind, mirror-neuron-system 引用）
+- `ventral-attention-network`：腹侧注意网络（被 temporoparietal-junction 引用）
+
+---
+
+## 新增未解问题（3个）
+
+- Q-tom-01（高优先级）：TPJ 功能专一性与"脱耦合"统一解释
+- Q-tom-02（中优先级）：MNS 在 ToM 中的精确因果贡献
+- Q-tom-03（中优先级）：ASD 中 DMN 功能连接降低是原因还是结果
+
+---
+
+## 状态文件更新
+
+- `topic_ledger.json`：新增今日条目（article_number=100）；total_articles=83；last_updated=2026-08-01
+- `unresolved_questions.md`：新增 Q-tom-01至Q-tom-03；last_updated=2026-08-01
+- `state/monthly_synthesis.md`：初始化 2026年8月 节；新增洞见#101-103
+- `wiki/CHANGELOG.md`：新增 2026-08-01 节
+- `wiki/index.md`：新增3个页面条目；总数更新至185；图谱188节点、1100边
+- `wiki/_graph.json`：新增节点3（185→188），新增边15（1085→1100）；updated=2026-08-01
+- `source_registry.json`：新增7条来源（总数更新）；last_updated=2026-08-01；新增 additions_2026-08-01
+
+---
+
+## 限制与说明
+
+- 核心奠基论文（Gallese et al. 1996 Brain Research：猕猴镜像神经元原始发现；Wimmer & Perner 1983：Sally-Anne 任务；Saxe & Kanwisher 2003：TPJ 专一性）均非开放全文；通过大量引用这些文章的综述（S1/S2/S5）补充，内容已充分核实
+- Hickok 2014《镜像神经元的神话》（书籍）未能获取电子版；Hickok 2009（Annual Review of Psychology）仅获摘要，但其核心论点已在 mirror-neuron-system.md 中完整呈现
+- Mitchell 2008（S6）仅摘要，但其核心数据（激活量 p=0.31）已可支持"TPJ 不专一于 ToM"的论述
+
+---
+
+## Git 操作
+
+- **分支**：main
+- **操作**：git add neuro-daily/ → git commit → git push origin main

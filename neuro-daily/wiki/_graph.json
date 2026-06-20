@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-31",
-  "node_count": 185,
-  "edge_count": 1085,
+  "updated": "2026-08-01",
+  "node_count": 188,
+  "edge_count": 1100,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1690,6 +1690,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/population-clock.md"
+    },
+    {
+      "id": "theory-of-mind",
+      "title": "心智理论（ToM）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/theory-of-mind.md"
+    },
+    {
+      "id": "temporoparietal-junction",
+      "title": "颞顶联合区（TPJ）",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/temporoparietal-junction.md"
+    },
+    {
+      "id": "mirror-neuron-system",
+      "title": "镜像神经元系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "contested",
+      "confidence": "medium",
+      "page": "wiki/concepts/mirror-neuron-system.md"
     }
   ],
   "edges": [
@@ -7735,6 +7762,96 @@
       "to": "interval-timing",
       "type": "related",
       "note": "昼夜节律（24h 周期，SCN，基因表达）与区间计时（秒-分钟，网络动力学）是互补的独立计时系统"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "temporoparietal-junction",
+      "type": "mechanism-of",
+      "note": "pTPJ 是 ToM 假信念推断的核心解剖节点；fMRI 元分析最稳定激活"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "default-mode-network",
+      "type": "mechanism-of",
+      "note": "DMN dMPFC 子系统是 ToM 推断的社会叙事整合网络；Andrews-Hanna 2011 双子系统"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "amygdala",
+      "type": "related",
+      "note": "情感 ToM（恐惧面孔/威胁意图）依赖杏仁核情感标注；杏仁核→mPFC 通路"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "working-memory",
+      "type": "related",
+      "note": "高阶 ToM（二阶信念：他相信她认为……）依赖更大容量工作记忆"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "ToM 可理解为社会预测引擎；TPJ 作为社会预测误差检测节点"
+    },
+    {
+      "from": "theory-of-mind",
+      "to": "language-network",
+      "type": "related",
+      "note": "角回（BA39）是 DMN-语言网络共享节点；语言叙事与社会推断重叠"
+    },
+    {
+      "from": "temporoparietal-junction",
+      "to": "default-mode-network",
+      "type": "part-of",
+      "note": "TPJ 是 DMN dMPFC 子系统的扩展节点；TPJ-mPFC 功能耦合在心智化任务中最强"
+    },
+    {
+      "from": "temporoparietal-junction",
+      "to": "dorsal-attention-network",
+      "type": "related",
+      "note": "aTPJ（VAN）与 DAN（FEF/IPS）动态拮抗构成注意双网络架构（Corbetta & Shulman 2002）"
+    },
+    {
+      "from": "temporoparietal-junction",
+      "to": "language-network",
+      "type": "related",
+      "note": "角回（BA39）与 pTPJ 邻近；STS-p 是语言-社会共享输入区"
+    },
+    {
+      "from": "temporoparietal-junction",
+      "to": "theory-of-mind",
+      "type": "mechanism-of",
+      "note": "pTPJ 是 ToM 假信念推断的主要神经基底；右侧偏侧化"
+    },
+    {
+      "from": "mirror-neuron-system",
+      "to": "theory-of-mind",
+      "type": "related",
+      "note": "模拟理论（simulation theory）认为 MNS 是 ToM 的底层机制；理论理论（theory theory）认为两者相对独立；争议开放"
+    },
+    {
+      "from": "mirror-neuron-system",
+      "to": "language-network",
+      "type": "supports",
+      "note": "Arbib 2008：F5/BA44 MNS 提供手势→原语言→语言进化路径；BA44 既是 MNS 核心又是语言背侧流节点"
+    },
+    {
+      "from": "mirror-neuron-system",
+      "to": "broca-area",
+      "type": "related",
+      "note": "BA44（MNS 核心区）=Broca 区腹前运动部分；运动前区语言功能与 MNS 的统一解释争议"
+    },
+    {
+      "from": "mirror-neuron-system",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "镜像属性可通过预测编码重新解释：BA44 预测运动感觉后果，观察他人时产生匹配预测误差"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "theory-of-mind",
+      "type": "supports",
+      "note": "DMN dMPFC 子系统负责心智化和社会叙事；Spreng 2021 元分析确认 dMPFC 子系统在社会推断中最稳定激活"
     }
   ],
   "dangling_references": [

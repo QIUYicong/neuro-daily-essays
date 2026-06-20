@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29",
+  "last_updated": "2026-08-01",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10,7 +10,9 @@
       "journal": "Neuron",
       "year": 2013,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "低阈值机械感受器（LTMR）系统分类（SA1/SA2/RA1/RA2）",
         "脊髓背角机械感觉柱（dorsal horn mechanosensory columns）",
@@ -25,7 +27,9 @@
       "journal": "Handbook of Clinical Neurology",
       "year": 2018,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "S1 拓扑地图综述（灵长类/人类/啮齿类比较）",
         "皮层放大因子（cortical magnification factor）",
@@ -40,7 +44,9 @@
       "journal": "Clinical and Experimental Pharmacology and Physiology",
       "year": 2005,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "人体微神经记录法（microneurography）",
         "四类 LTMR 的电生理特征（频率偏好、感受野大小）",
@@ -55,7 +61,9 @@
       "journal": "Journal of Neurophysiology",
       "year": 1992,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "行为训练后 S1 area 3b 手部表征扩大（频率辨别任务）",
         "被动刺激无此效应——行为相关性门控 S1 可塑性",
@@ -70,7 +78,9 @@
       "journal": "Journal of Hand Therapy",
       "year": 1993,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "Merzenich 10种外周操纵综述——皮层表征随触觉经历重塑",
         "成年灵长类 S1 可塑性：截肢、神经切断、皮岛转移的皮层效应",
@@ -85,7 +95,9 @@
       "journal": "Annual Review of Neuroscience",
       "year": 1983,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "外周神经损伤后皮层重组（成年哺乳类和发育期）",
         "重组机制：现有解剖连接的多样化表达",
@@ -100,7 +112,9 @@
       "journal": "Current Opinion in Neurobiology",
       "year": 2004,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "S1 可塑性的突触机制：LTP/LTD 在特定通路中的作用",
         "抑制性突触数量调节在可塑性中的角色",
@@ -115,7 +129,9 @@
       "journal": "Cell Reports",
       "year": 2017,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "感觉剥夺重启成年桶状皮层至类关键期可塑性",
         "沉默突触再现；GluN2B-NMDA 受体重新表达；LTP 恢复",
@@ -130,7 +146,9 @@
       "journal": "NeuroImage",
       "year": 2020,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "截肢后皮层重组与幻肢痛关系批判性综述",
         "因果链复杂：重组可能是截肢的并行效应而非幻肢痛原因",
@@ -145,7 +163,9 @@
       "journal": "The Journal of Physiology",
       "year": 2018,
       "first_used": "2026-07-29",
-      "used_in_articles": ["2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"],
+      "used_in_articles": [
+        "2026-07-29-s1-somatosensory-cortex-body-map-plasticity.md"
+      ],
       "aspects_covered": [
         "50 名患者 SEEG 绘制精细 homunculus；手指前后梯度（指尖在后、近端在前）",
         "修正 Penfield 经典图——手指块实为精细梯度结构",
@@ -160,7 +180,9 @@
       "journal": "Physiological Reviews",
       "year": 2001,
       "first_used": "2026-07-28",
-      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "used_in_articles": [
+        "2026-07-28-auditory-cortex-tonotopy.md"
+      ],
       "aspects_covered": [
         "基底膜行波频率-位置对应（地点编码）",
         "低声压CF特异性压缩性非线性（外毛细胞主动放大标志）",
@@ -175,7 +197,9 @@
       "journal": "Nature Neuroscience",
       "year": 2009,
       "first_used": "2026-07-28",
-      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "used_in_articles": [
+        "2026-07-28-auditory-cortex-tonotopy.md"
+      ],
       "aspects_covered": [
         "核心-带状-旁带状三级串行+并行层级",
         "前带状→腹侧PFC（声音身份）；后带状→顶后/背侧PFC（空间/感觉运动）",
@@ -190,7 +214,9 @@
       "journal": "PLoS Biology",
       "year": 2012,
       "first_used": "2026-07-28",
-      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "used_in_articles": [
+        "2026-07-28-auditory-cortex-tonotopy.md"
+      ],
       "aspects_covered": [
         "pSTG高频γ（70-170 Hz）活动编码谱时特征",
         "STRF覆盖180-7000 Hz全语音频谱",
@@ -206,7 +232,9 @@
       "journal": "Nature",
       "year": 2012,
       "first_used": "2026-07-28",
-      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "used_in_articles": [
+        "2026-07-28-auditory-cortex-tonotopy.md"
+      ],
       "aspects_covered": [
         "双人同时说话时STG群体响应编码被注意者的谱时特征",
         "注意切换→皮层内容切换",
@@ -221,7 +249,9 @@
       "journal": "Annual Review of Neuroscience",
       "year": 2016,
       "first_used": "2026-07-28",
-      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "used_in_articles": [
+        "2026-07-28-auditory-cortex-tonotopy.md"
+      ],
       "aspects_covered": [
         "人类听觉皮层多达11张有序听觉场图",
         "音调梯度×周期性梯度双轴组织",
@@ -236,7 +266,9 @@
       "journal": "Hearing Research",
       "year": 2014,
       "first_used": "2026-07-28",
-      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "used_in_articles": [
+        "2026-07-28-auditory-cortex-tonotopy.md"
+      ],
       "aspects_covered": [
         "A1和R在Heschl回形成V形镜像排列（尾侧面/吻侧面折叠）",
         "类比V1/V2在枕极的镜像排列"
@@ -250,7 +282,9 @@
       "journal": "Frontiers in Neuroscience",
       "year": 2022,
       "first_used": "2026-07-28",
-      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "used_in_articles": [
+        "2026-07-28-auditory-cortex-tonotopy.md"
+      ],
       "aspects_covered": [
         "听觉神经元对背景声学统计特性自动调整动态范围",
         "底层神经元适应+顶层注意双机制协同",
@@ -265,7 +299,9 @@
       "journal": "Brain Research",
       "year": 2024,
       "first_used": "2026-07-28",
-      "used_in_articles": ["2026-07-28-auditory-cortex-tonotopy.md"],
+      "used_in_articles": [
+        "2026-07-28-auditory-cortex-tonotopy.md"
+      ],
       "aspects_covered": [
         "IC是所有升序听觉纤维的汇聚中枢",
         "参与声源定位、听觉可塑性、声音检测和声音驱动行为",
@@ -7431,9 +7467,124 @@
       "year": 2012,
       "open_access": false,
       "article": "2026-07-24-amygdala-fear-engram-extinction-reward-neurons"
+    },
+    {
+      "pmid": "30808550",
+      "pmcid": "PMC7713666",
+      "title": "The evolution of the temporoparietal junction",
+      "authors_short": "Patel GH et al.",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": 2019,
+      "first_used": "2026-08-01",
+      "used_in_articles": [
+        "2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain.md"
+      ],
+      "aspects_covered": [
+        "TPJ 前-后轴分工（pTPJ 信念推断 vs aTPJ 注意定向）",
+        "进化视角：灵长类 TPJ 体积与社会群体大小正相关",
+        "人类 TPJ 在灵长类中扩展最大的解剖比较证据"
+      ]
+    },
+    {
+      "pmid": "29501981",
+      "pmcid": null,
+      "title": "The neural bases of social mentalizing: An fMRI meta-analysis",
+      "authors_short": "Heleven E et al.",
+      "journal": "NeuroImage",
+      "year": 2018,
+      "first_used": "2026-08-01",
+      "used_in_articles": [
+        "2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain.md"
+      ],
+      "aspects_covered": [
+        "ALE 元分析确认右 TPJ 和 mPFC 为 ToM 双核心节点",
+        "腹侧 mPFC（具体特质推断）vs 背侧 mPFC（抽象心理状态推断）分区"
+      ]
+    },
+    {
+      "pmid": "33359341",
+      "pmcid": "PMC8005222",
+      "title": "Big three network interactions in the social brain",
+      "authors_short": "Spreng RN et al.",
+      "journal": "Journal of Cognitive Neuroscience",
+      "year": 2021,
+      "first_used": "2026-08-01",
+      "used_in_articles": [
+        "2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain.md"
+      ],
+      "aspects_covered": [
+        "DMN 在社会认知任务中的核心作用（dMPFC 子系统）",
+        "三网络（DMN/SN/CEN）动态交互模型",
+        "DMN-TPJ 功能耦合随心智化任务需求单调增加"
+      ]
+    },
+    {
+      "pmid": "33946964",
+      "pmcid": "PMC8145974",
+      "title": "Altered default mode network functional connectivity in autism spectrum disorder",
+      "authors_short": "Lian Y et al.",
+      "journal": "Frontiers in Psychiatry",
+      "year": 2021,
+      "first_used": "2026-08-01",
+      "used_in_articles": [
+        "2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain.md"
+      ],
+      "aspects_covered": [
+        "ASD 中 DMN 功能连接系统性减弱（mPFC-PCC 连接降低 Cohen d=0.57）",
+        "右 TPJ 功能连接降低与社会沟通障碍 SRS 分量正相关（r=-0.42）"
+      ]
+    },
+    {
+      "pmid": "15217330",
+      "pmcid": null,
+      "title": "The mirror-neuron system",
+      "authors_short": "Rizzolatti G, Craighero L",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2004,
+      "first_used": "2026-08-01",
+      "used_in_articles": [
+        "2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain.md"
+      ],
+      "aspects_covered": [
+        "镜像神经元奠基综述：猕猴 F5 区 ~17% 神经元有镜像属性",
+        "F5↔BA44 同源：MNS 与 Broca 区的进化联系",
+        "动作理解的直接匹配假说"
+      ]
+    },
+    {
+      "pmid": "17551089",
+      "pmcid": null,
+      "title": "Activity in right temporo-parietal junction is not selective for theory-of-mind",
+      "authors_short": "Mitchell JP",
+      "journal": "Cerebral Cortex",
+      "year": 2008,
+      "first_used": "2026-08-01",
+      "used_in_articles": [
+        "2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain.md"
+      ],
+      "aspects_covered": [
+        "参数化任务比较：注意定向与 ToM 任务中 TPJ 激活强度相似（p=0.31）",
+        "TPJ 功能不专一于心智化的反驳证据"
+      ]
+    },
+    {
+      "pmid": "18440207",
+      "pmcid": null,
+      "title": "Hooked on mnemonics: From mirror neurons and imitation to the evolution of language",
+      "authors_short": "Arbib MA",
+      "journal": "Physics of Life Reviews",
+      "year": 2008,
+      "first_used": "2026-08-01",
+      "used_in_articles": [
+        "2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain.md"
+      ],
+      "aspects_covered": [
+        "MNS 到语言进化的三层模型（手势→原语言→语言）",
+        "F5/BA44 在社会认知与语言进化中的桥梁角色"
+      ]
     }
   ],
-  "total_sources": 403,
+  "total_sources": 410,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -9551,7 +9702,9 @@
         "journal": "Journal of Neuroscience",
         "year": 2011,
         "access_type": "full",
-        "aspects_covered": ["fMRI双离解证明橄榄小脑（绝对时长）vs纹状体-丘脑-皮层（节拍）两套并行计时回路"]
+        "aspects_covered": [
+          "fMRI双离解证明橄榄小脑（绝对时长）vs纹状体-丘脑-皮层（节拍）两套并行计时回路"
+        ]
       },
       {
         "pmid": null,
@@ -9561,7 +9714,9 @@
         "journal": "Frontiers in Integrative Neuroscience",
         "year": 2011,
         "access_type": "full",
-        "aspects_covered": ["SBF模型机制（皮层振荡→MSN符合检测）；多巴胺调节振荡频率→时钟速度；生物学噪声→标量特性"]
+        "aspects_covered": [
+          "SBF模型机制（皮层振荡→MSN符合检测）；多巴胺调节振荡频率→时钟速度；生物学噪声→标量特性"
+        ]
       },
       {
         "pmid": "35446093",
@@ -9571,7 +9726,9 @@
         "journal": "Behavioral Neuroscience",
         "year": 2022,
         "access_type": "full",
-        "aspects_covered": ["种群时钟/内在计时理论综述；神经序列vs复杂种群时钟；纹状体序列性高于运动皮层；RNN同构"]
+        "aspects_covered": [
+          "种群时钟/内在计时理论综述；神经序列vs复杂种群时钟；纹状体序列性高于运动皮层；RNN同构"
+        ]
       },
       {
         "pmid": "35978564",
@@ -9581,7 +9738,9 @@
         "journal": "Frontiers in Computational Neuroscience",
         "year": 2022,
         "access_type": "full",
-        "aspects_covered": ["约1/3纹状体MSN斜坡放电；混沌边缘（marginally stable）涌现；D1/D2双向斜坡群体"]
+        "aspects_covered": [
+          "约1/3纹状体MSN斜坡放电；混沌边缘（marginally stable）涌现；D1/D2双向斜坡群体"
+        ]
       },
       {
         "pmid": null,
@@ -9592,7 +9751,9 @@
         "journal": "eLife",
         "year": 2025,
         "access_type": "full",
-        "aspects_covered": ["D2-MSN递增/D1-MSN递减对立动力学；漂移扩散模型R²=0.95；光遗传抑制延迟计时峰（D2 p=0.002；D1 p=0.03）"]
+        "aspects_covered": [
+          "D2-MSN递增/D1-MSN递减对立动力学；漂移扩散模型R²=0.95；光遗传抑制延迟计时峰（D2 p=0.002；D1 p=0.03）"
+        ]
       },
       {
         "pmid": "33815049",
@@ -9602,7 +9763,9 @@
         "journal": "Frontiers in Neuroscience",
         "year": 2021,
         "access_type": "full",
-        "aspects_covered": ["帕金森病时间知觉：短时高估/长时低估；感知右偏移2-8s；DA结合率与计时不相关（挑战简单时钟速度假说）"]
+        "aspects_covered": [
+          "帕金森病时间知觉：短时高估/长时低估；感知右偏移2-8s；DA结合率与计时不相关（挑战简单时钟速度假说）"
+        ]
       },
       {
         "pmid": "15217335",
@@ -9612,7 +9775,9 @@
         "journal": "Annual Review of Neuroscience",
         "year": 2004,
         "access_type": "abstract",
-        "aspects_covered": ["时间处理分布式而非集中式；专用计时vs内在计时框架；不同时间尺度使用不同机制"]
+        "aspects_covered": [
+          "时间处理分布式而非集中式；专用计时vs内在计时框架；不同时间尺度使用不同机制"
+        ]
       },
       {
         "pmid": "38918348",
@@ -9622,7 +9787,9 @@
         "journal": "Advances in Experimental Medicine and Biology",
         "year": 2024,
         "access_type": "abstract",
-        "aspects_covered": ["猴类电生理：小脑准备活动~500ms预运动；基底节测量时长（up to 2s延迟）；最快节拍预测~250ms"]
+        "aspects_covered": [
+          "猴类电生理：小脑准备活动~500ms预运动；基底节测量时长（up to 2s延迟）；最快节拍预测~250ms"
+        ]
       },
       {
         "pmid": "27088121",
@@ -9632,7 +9799,9 @@
         "journal": "Current Opinion in Behavioral Sciences",
         "year": 2016,
         "access_type": "abstract",
-        "aspects_covered": ["小脑=事件驱动计时（非节拍，非连续）；基底节=节拍；双重分离患者行为证据；小脑眼睑条件反射精确计时"]
+        "aspects_covered": [
+          "小脑=事件驱动计时（非节拍，非连续）；基底节=节拍；双重分离患者行为证据；小脑眼睑条件反射精确计时"
+        ]
       },
       {
         "pmid": null,
@@ -9642,7 +9811,9 @@
         "journal": "Nature Reviews Neuroscience",
         "year": 2005,
         "access_type": "abstract",
-        "aspects_covered": ["经典起搏器-累积器模型；多巴胺控制时钟速度（起搏器频率）；综述"]
+        "aspects_covered": [
+          "经典起搏器-累积器模型；多巴胺控制时钟速度（起搏器频率）；综述"
+        ]
       },
       {
         "pmid": "24994976",
@@ -9652,8 +9823,19 @@
         "journal": "Frontiers in Human Neuroscience",
         "year": 2014,
         "access_type": "abstract",
-        "aspects_covered": ["标量特性（Weber定律for时间）；对数幂律放电率可解释标量误差增长"]
+        "aspects_covered": [
+          "标量特性（Weber定律for时间）；对数幂律放电率可解释标量误差增长"
+        ]
       }
     ]
-  }
+  },
+  "additions_2026-08-01": [
+    "30808550",
+    "29501981",
+    "33359341",
+    "33946964",
+    "15217330",
+    "17551089",
+    "18440207"
+  ]
 }
