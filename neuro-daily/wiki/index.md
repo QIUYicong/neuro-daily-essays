@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-03（第102篇·安慰剂镇痛·PFC→rACC→PAG阿片回路×内源性阿片系统×Nocebo/CCK双路径）· 主题页总数：**192**（新建3页：concepts/placebo-analgesia、concepts/endogenous-opioid-system、concepts/nocebo-effect；修订2页：systems/anterior-cingulate-cortex rev1→rev2、systems/periaqueductal-gray rev1→rev2；图谱197节点、1134边；新增Q-placebo-01/Q-placebo-02开放问题；填补endogenous-opioid-system悬空引用）
+> 最后更新：2026-08-04（第103篇·时间细胞·海马CA1时间序列×MEC时间输入×CA2序列组织者×人类单细胞验证）· 主题页总数：**194**（新建2页：concepts/time-cells、concepts/temporal-context-model；修订3页：neurons/hippocampal-circuit rev10→rev11、systems/entorhinal-cortex rev2→rev3、concepts/interval-timing rev1→rev2；新增Q-tc-01~Q-tc-04开放问题）
 
 ---
 
@@ -154,6 +154,8 @@
 - 🔵 [区间计时](concepts/interval-timing.md) — 神经系统测量毫秒至数十秒时间的机制：小脑橄榄小脑系统负责事件驱动精确计时，纹状体-丘脑-皮层回路负责节拍驱动的秒级区间计时，种群时钟从网络内在动力学涌现；多巴胺通过调节振荡频率改变"时钟速度"（标量特性）**[NEW 2026-07-31]**
 - 🔵 [纹状体拍频模型（SBF）](concepts/striatal-beat-frequency.md) — 区间计时最有影响力的机制模型之一：大量皮层振荡子在区间开始时同步，随时间相位拉开形成唯一的"拍频图案"，纹状体 MSN 作为符合检测器读出该图案；多巴胺调节振荡频率→时钟速度；生物学噪声是标量特性的必要条件 **[NEW 2026-07-31]**
 - 🟡 [种群时钟](concepts/population-clock.md) — 内在计时的现代形式：时间由神经群体活动在高维状态空间走过的轨迹编码（无需专用时钟元件）；神经序列（稀疏接力放电）比斜坡放电更灵活；纹状体序列性高于运动皮层；RNN 自发涌现相同结构 **[NEW 2026-07-31]**
+- 🟡 [时间细胞](concepts/time-cells.md) — CA1海马神经元在延迟期特定时刻依次激发，形成"时间地图"；距离-时间解耦（Kraus 2013）；可缩放表征（Shimbo 2021缩放因子1.81）；MEC斜坡细胞+CA2→CA1回路提供时间输入；人类单细胞验证（Umbach 2020）；与空间地点细胞功能对称 **[NEW 2026-08-04]**
+- 🟡 [时间情境模型（TCM）](concepts/temporal-context-model.md) — Howard & Eichenbaum 2013提出：海马维持缓慢漂移的内部时间情境向量（t(τ)），自然解释近因效应和时间相邻效应；时间细胞是其物理实现候选；Q-tc-01：CA2/MEC是否是TCM内部"时钟"的神经底物？ **[NEW 2026-08-04]**
 
 - 🟢 [伤害感受器（Nociceptor）](concepts/nociceptor.md) — 专职感知有害刺激（高温/强机械力/有害化学物）的感觉神经元亚群；TRP家族通道（TRPV1热/辣 43°C、TRPA1化学/寒冷 <15°C、TRPM8凉感）；Nav1.7/1.8/1.9动作电位触发；Aδ（快速尖痛）vs C纤维（慢速弥散痛）双时程系统；外周致敏机制（PGE2/缓激肽/NGF→TRPV1阈值降低）**[NEW 2026-08-02]**
 - 🔵 [闸门控制理论](concepts/gate-control-theory.md) — Melzack & Wall 1965提出的脊髓痛觉调控框架；Koch 2018在分子细胞层面验证：DYN+抑制性神经元（接收Aβ→压制PKCγ+）/PKCγ+兴奋性神经元（allodynia节点）/SOM+兴奋性神经元；KCC2下调→GABA兴奋→闸门失控；PAG-RVM下行控制 **[NEW 2026-08-02]**

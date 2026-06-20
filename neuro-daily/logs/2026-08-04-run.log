@@ -1,0 +1,139 @@
+# 2026-08-04 运行日志
+
+**运行时间**：2026-08-04 09:00 北京时间（scheduled）
+**知识库日期**：2026-08-04（漂移补偿：系统时钟 2026-06-20，知识库 last_updated 2026-08-03，故使用 last_updated+1）
+**文章编号**：#103
+
+---
+
+## A. 读取状态
+
+- 读取 ROUTINE.md：✅
+- 读取 KNOWLEDGE-BASE-DESIGN.md：✅
+- 读取 state/topic_ledger.json：last_updated=2026-08-03，total_articles=85
+- 读取 state/unresolved_questions.md：Q-it-01/Q-it-02（2026-07-31）为最近开放问题
+- 读取 wiki/index.md：主题页总数 192（更新后 194）
+- 读取 wiki/CHANGELOG.md：last_entry=2026-08-03
+
+## B. 主题选择
+
+**选定主题**：海马时间细胞（Hippocampal Time Cells）×情节记忆时间维度
+
+**选择依据**：
+- 2026-07-31 文章 #99（区间计时）在 next_suggested_topics 中明确建议"海马序列细胞与情节记忆的时间标记（time cells）"
+- 知识库中已有大量空间编码（place-cells, grid-cells）但缺少时间编码
+- Q-it-01/Q-it-02 涉及纹状体计时机制，时间细胞文章可建立纹状体计时 vs 海马时间情境的对比框架
+- 填补课程脊柱2（海马系统）在时间维度的空白
+
+**备选主题（未选）**：
+- 工作记忆的时间维度（PFC-纹状体）
+- 前庭系统（缺乏直接连接文章）
+- 睡眠巩固 × SWR 详细机制（已有文章 #75/#84 覆盖）
+
+## C. 文献检索与阅读
+
+**主要检索策略**：
+1. PMC全文检索："hippocampal time cells" + "CA1 temporal coding"
+2. PMC全文检索："time cells episodic memory" + "medial entorhinal cortex"
+3. PubMed："hippocampal time cells" 2011–2024（关键词）
+
+**获取来源**：
+
+| ID | PMID | 类型 | 获取 | 关键贡献 |
+|----|------|------|------|---------|
+| S01 | 21867888 | 原始文章 | 摘要（Science付费墙） | 时间细胞原始发现（MacDonald 2011）|
+| S02 | 25269553 | 综述 | PMC全文（PMC4348090） | 时间细胞综述（Eichenbaum 2014）|
+| S03 | 23707613 | 原始文章 | PMC全文（PMC3913731） | 时间-距离解耦（Kraus 2013）|
+| S04 | 23915126 | 原始文章 | PMC全文（PMC3982793） | 时间情境模型TCM（Howard & Eichenbaum 2013）|
+| S05 | 29706516 | 原始文章 | PMC全文（PMC5964012） | 多尺度时间编码（Mau 2018）|
+| S06 | 28434800 | 原始文章 | PMC全文（PMC5465388） | MEC因果作用（Robinson 2017）|
+| S07 | 33536211 | 原始文章 | PMC全文（PMC7857679） | 可缩放时间表征（Shimbo 2021）|
+| S08 | 33431691 | 原始文章 | PMC全文（PMC7826404） | CA2因果作用（MacDonald & Tonegawa 2021）|
+| S09 | 33109718 | 原始文章 | PMC全文（PMC7668099） | 人类时间细胞（Umbach 2020）|
+| S10 | 34183446 | 原始文章 | PMC全文（PMC8336696） | 人类海马序列时刻追踪（Reddy 2021）|
+
+**开放获取率**：9/10 全文（90%）；1/10 摘要（10%，S01 Science付费墙）
+
+## D. 文章写作
+
+**文章路径**：neuro-daily/articles/2026-08-04-hippocampal-time-cells-episodic-memory.md
+**字数估计**：~5000中文字符（含表格）
+**核心问题**：CA1时间细胞如何编码延迟期时间？MEC+CA2回路机制？标量特性与可缩放性？人类证据？与区间计时系统关系？
+
+**主要章节**：
+1. 今日核心问题
+2. 一句话摘要
+3. 为什么重要
+4. 背景（从地点细胞到时间细胞）
+5. 时间细胞发现（MacDonald 2011）
+6. 时间vs距离解耦（Kraus 2013）
+7. 标量特性与可缩放性（Shimbo 2021）
+8. 多尺度时间表征（Mau 2018）
+9. 回路机制（MEC→CA1；CA2→CA1）
+10. 人类证据（Umbach 2020；Reddy 2021）
+11. 时间情境模型（TCM）（Howard & Eichenbaum 2013）
+12. 比喻
+13. 争议与未解问题（Q-tc-01~04）
+14. 与AI对比
+15. 今日概念卡片
+16. 今日认知地图更新
+17. 参考来源
+
+## E. wiki 整合
+
+**新建页面（2个）**：
+- `wiki/concepts/time-cells.md`（status: emerging, confidence: high, revision_count: 1）
+- `wiki/concepts/temporal-context-model.md`（status: emerging, confidence: medium, revision_count: 1）
+
+**修订页面（3个）**：
+- `wiki/neurons/hippocampal-circuit.md`（rev10→rev11）
+  - 新增 CA2 亚区专节（§7）
+  - opens_questions 新增 Q-tc-01/Q-tc-02/Q-tc-04
+  - related/source_articles/key_sources 更新
+- `wiki/systems/entorhinal-cortex.md`（rev2→rev3）
+  - 当前理解扩展：MEC "空间+时间"双重编码
+  - 新增斜坡细胞、MEC光遗传因果证据、人类斜坡细胞
+  - opens_questions 新增 Q-tc-01
+  - related/source_articles/key_sources 更新
+- `wiki/concepts/interval-timing.md`（rev1→rev2）
+  - 新增"海马时间细胞"小节与区间计时系统对比表
+  - opens_questions 新增 Q-tc-03
+  - related/source_articles/key_sources 更新
+
+**新增开放问题（4个）**：
+- Q-tc-01（高优先级）：CA2/MEC是否是TCM的神经底物？
+- Q-tc-02（中优先级）：时间细胞theta相位进动机制
+- Q-tc-03（中优先级）：海马时间细胞 vs 纹状体/小脑区间计时系统的功能分工
+- Q-tc-04（高优先级）：时间细胞序列的下游解码器
+
+## F. 状态文件更新
+
+- `wiki/_graph.json`：node_count 197→199；edge_count 1134→1148；新增2节点×12边
+- `wiki/index.md`：总页数 192→194；新增 time-cells 和 temporal-context-model 条目
+- `wiki/CHANGELOG.md`：新增 2026-08-04 条目
+- `state/topic_ledger.json`：new entry #103；total_articles 85→86；last_updated 2026-08-04
+- `state/unresolved_questions.md`：新增 Q-tc-01~04；last_updated 2026-08-04
+- `state/maturity_index.json`：新增 time-cells（emerging/high）和 temporal-context-model（emerging/medium）
+- `state/source_registry.json`：additions_2026-08-04 新增10个PMID
+- `state/monthly_synthesis.md`：新增文章 #103 摘要与洞见 #106~#108
+- `neuro-daily/sources/2026-08-04-sources.json`：✅ 创建（10个来源）
+- `neuro-daily/notes/2026-08-04-reading-notes.md`：✅ 创建（9篇阅读笔记）
+
+## G. Git 操作
+
+- branch: main
+- git author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+- commit message: "Add neuro daily article + wiki consolidation for 2026-08-04"
+- push: git push origin main
+
+## H. 自检
+
+- [x] 文章日期：2026-08-04（正确，基于 last_updated+1 补偿）
+- [x] 文章编号：#103（与 topic_ledger 一致）
+- [x] 所有引用来源均为开放获取（9/10）或摘要（1/10）
+- [x] 没有编造PMID、DOI或结论
+- [x] wiki连接双向一致
+- [x] 开放问题编号唯一（Q-tc-01~04）
+- [x] 修订历史已更新
+- [x] 图谱节点/边计数更新
+- [x] 月度综合报告已更新

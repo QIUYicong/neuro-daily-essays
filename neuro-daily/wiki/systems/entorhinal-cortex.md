@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-07-26
-revision_count: 2
+updated: 2026-08-04
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, cellular, microcircuit]
-related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease, olfactory-bulb, piriform-cortex]
+related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease, olfactory-bulb, piriform-cortex, time-cells]
 prerequisites: [hippocampal-circuit, grid-cells]
-opens_questions: [Q-gc-02, Q-gc-04]
-source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-26-olfactory-coding-smell-memory-limbic]
-key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386", "PMID:24366130", "PMID:29073644", "PMID:32278646"]
+opens_questions: [Q-gc-02, Q-gc-04, Q-tc-01]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-04-hippocampal-time-cells-episodic-memory]
+key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386", "PMID:24366130", "PMID:29073644", "PMID:32278646", "PMID:28434800", "PMID:33109718"]
 ---
 
 # 内嗅皮层 (Entorhinal Cortex, EC)
@@ -24,10 +24,12 @@ key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386"
 
 我们现在认为，内嗅皮层（EC）是连接多模态感觉皮层（经嗅周皮层/旁海马回）与海马记忆系统的核心门户——它不只是被动中继，而是进行重要的**预处理和抽象化**：
 
-- **内侧内嗅皮层（MEC）**：主要编码空间信息。含网格细胞（Layer II）、头朝向细胞、联合细胞（Layer III/V）、边界细胞；为海马提供空间坐标和路径整合更新
-- **外侧内嗅皮层（LEC）**：编码非空间情境信息（物体、气味、社会情境）；整合当前感觉情境为海马编码提供"什么"信息
+- **内侧内嗅皮层（MEC）**：主要编码**空间与时间**信息。含网格细胞（Layer II）、头朝向细胞、联合细胞（Layer III/V）、边界细胞，以及**斜坡细胞**（ramping cells，活动随时间单调递增/递减）；为海马提供空间坐标、路径整合更新和**时间结构化输入**
+- **外侧内嗅皮层（LEC）**：编码非空间情境信息（物体、气味、社会情境）；整合当前感觉情境为海马编码提供"什么内容"（what）信息
 
-两者的整合在海马形成完整的情节编码（"在哪里"×"有什么"）。MEC-LEC双流整合是情节记忆空间-情境双重编码的解剖基础。
+两者的整合在海马形成完整的情节编码（"在哪里"×"有什么"×**"什么时候"**）。MEC-LEC双流整合是情节记忆时空-情境三重编码的解剖基础。
+
+**重要更新（2026-08-04）**：Robinson et al. 2017（PMID: 28434800）光遗传学实验直接证明MEC对海马时间编码有**专门且因果**的贡献——MEC沉默→CA1时间细胞序列降解，但地点细胞和物体选择性细胞不受影响（**空间-时间-内容三重分离**）。这意味着MEC传递的不只是空间信号，而是包含时间结构的综合信号。人类研究（Umbach et al. 2020, PMID:33109718）在内嗅皮层发现大量斜坡细胞，进一步支持内嗅皮层作为时间信号向海马传递的关键节点。
 
 阿尔茨海默病中，EC（尤其是内嗅皮层第II层星状细胞）是神经纤维缠结（Tau病理）最早侵入的皮层区域——在临床症状出现之前，EC Layer II 的MEC网格细胞就已开始退化，这解释了AD早期空间迷失先于语言退化的临床现象。
 
@@ -86,6 +88,7 @@ Braak分期（1991）：AD神经纤维缠结（Tau病理）的扩散从**EC Laye
 
 ## 修订历史
 
+- 2026-08-04 · 修订 rev3 · 基于《时间细胞》文章(#103) · 更新"当前理解"：MEC功能扩展为"空间+时间"双重编码（新增斜坡细胞、MEC-时间细胞因果证据描述、三重编码框架）；关键证据表新增MEC时间特异性行（PMID:28434800）、人类斜坡细胞行（PMID:33109718）；连接新增time-cells；related/opens_questions/key_sources/source_articles相应更新
 - 2026-07-26 · 修订 rev2 · 基于《气味的神经密码：从一个分子到一段记忆的四级变换》(#94) · 连接节新增 olfactory-bulb（嗅球→LEC→海马通路）和 piriform-cortex（梨状皮层→EC→海马三突触回路）；related和source_articles/key_sources相应更新
 - 2026-06-22 · 创建 · 基于《六边形的秘密》文章 · 初始置信度：高
 

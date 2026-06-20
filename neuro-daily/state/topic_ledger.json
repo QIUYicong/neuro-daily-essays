@@ -1,7 +1,83 @@
 {
-  "last_updated": "2026-08-03",
-  "total_articles": 85,
+  "last_updated": "2026-08-04",
+  "total_articles": 86,
   "entries": [
+    {
+      "date": "2026-08-04",
+      "title": "时间的形状：海马CA1时间细胞如何将延迟期变成记忆的时间坐标轴",
+      "filename": "2026-08-04-hippocampal-time-cells-episodic-memory.md",
+      "article_number": 103,
+      "wiki_pages_created": [
+        "wiki/concepts/time-cells.md",
+        "wiki/concepts/temporal-context-model.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/hippocampal-circuit.md",
+        "wiki/systems/entorhinal-cortex.md",
+        "wiki/concepts/interval-timing.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "CA1海马区的\"时间细胞\"如何在延迟期编码时间？MEC斜坡输入和CA2→CA1投射如何组织时间序列？时间细胞的\"标量特性\"与可缩放性如何实现？人类单细胞记录是否证实了啮齿类的发现？时间细胞与区间计时系统（纹状体/小脑）的功能分工是什么？",
+      "open_questions_added": [
+        "Q-tc-01",
+        "Q-tc-02",
+        "Q-tc-03",
+        "Q-tc-04"
+      ],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱1（神经计算基本原语·时间编码）+ 脊柱2（海马系统·情节记忆）+ 脊柱12（人脑与AI比较·时间表征）",
+      "topic_tags": [
+        "hippocampal time cells CA1",
+        "episodic memory temporal coding",
+        "MacDonald 2011 time cells discovery",
+        "what-when conjunctive encoding",
+        "time vs distance decoupling Kraus 2013",
+        "scalable temporal representation Shimbo 2021",
+        "medial entorhinal cortex MEC ramping cells",
+        "CA2 hippocampus temporal sequence organization",
+        "temporal context model TCM Howard Eichenbaum",
+        "human single-unit time cells Umbach 2020",
+        "theta phase precession time cells",
+        "multi-scale temporal coding",
+        "interval timing comparison striatum cerebellum"
+      ],
+      "main_sources": [
+        "PMID:21867888",
+        "PMID:25269553",
+        "PMID:23707613",
+        "PMID:23915126",
+        "PMID:29706516",
+        "PMID:28434800",
+        "PMID:33536211",
+        "PMID:33431691",
+        "PMID:33109718",
+        "PMID:34183446"
+      ],
+      "open_access_fulltext": [
+        "PMC4348090",
+        "PMC3913731",
+        "PMC3982793",
+        "PMC5964012",
+        "PMC5465388",
+        "PMC7857679",
+        "PMC7826404",
+        "PMC7668099",
+        "PMC8336696"
+      ],
+      "next_suggested_topics": [
+        "Q-tc-01裁决：CA2/MEC是否是时间情境模型（TCM）的神经底物？",
+        "Q-tc-02裁决：时间细胞theta相位进动机制",
+        "工作记忆时间维度（PFC-海马-纹状体如何维持时间顺序信息）",
+        "尖波涟漪（SWR）在情节记忆时间重放中的作用",
+        "前额叶皮层（PFC）在延迟期时间信息工作记忆中的具体机制"
+      ]
+    },
     {
       "date": "2026-07-31",
       "title": "大脑的秒表：神经系统如何在毫秒与秒之间测量时间",

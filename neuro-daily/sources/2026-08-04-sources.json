@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-04",
+  "article": "2026-08-04-hippocampal-time-cells-episodic-memory.md",
+  "total_sources": 9,
+  "open_fulltext_count": 8,
+  "abstract_only_count": 1,
+  "sources": [
+    {
+      "id": "S01",
+      "type": "journal_article",
+      "title": "Hippocampal 'time cells' bridge the gap in memory for discontiguous events",
+      "authors": ["MacDonald CJ", "Lepage KQ", "Eden UT", "Eichenbaum H"],
+      "journal": "Science",
+      "year": 2011,
+      "volume": 333,
+      "issue": 6043,
+      "pages": "738-742",
+      "pmid": "21867888",
+      "doi": "10.1126/science.1206020",
+      "open_fulltext": false,
+      "access_note": "摘要可读；未获取全文（Science付费墙）",
+      "role": "核心：时间细胞原始发现；延迟期时间细胞依次激发；what-when联合编码",
+      "key_claims": [
+        "CA1约30%神经元在延迟期的特定时刻激发（时间细胞）",
+        "时间细胞联合编码时间（when）与物体身份（what）",
+        "时间细胞在不同试次间激发时刻高度可重复"
+      ]
+    },
+    {
+      "id": "S02",
+      "type": "review",
+      "title": "Time cells in the hippocampus: a new dimension for mapping memories",
+      "authors": ["Eichenbaum H"],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2014,
+      "volume": 15,
+      "issue": 11,
+      "pages": "732-744",
+      "pmid": "25269553",
+      "pmcid": "PMC4348090",
+      "doi": "10.1038/nrn3827",
+      "open_fulltext": true,
+      "access_note": "PMC开放全文",
+      "role": "核心综述：多物种时间细胞证据；情节记忆时间维度；地点细胞-时间细胞统一",
+      "key_claims": [
+        "时间细胞和地点细胞可以是同一神经元",
+        "晚激发的时间细胞具有更宽的激发窗（标量特性）",
+        "时间细胞在学习过程中发展，预测记忆准确性"
+      ]
+    },
+    {
+      "id": "S03",
+      "type": "journal_article",
+      "title": "Hippocampal 'Time Cells': Time versus Path Integration",
+      "authors": ["Kraus BJ", "Robinson RJ 2nd", "White JA", "Eichenbaum H", "Hasselmo ME"],
+      "journal": "Neuron",
+      "year": 2013,
+      "volume": 78,
+      "issue": 6,
+      "pages": "1090-1101",
+      "pmid": "23707613",
+      "pmcid": "PMC3913731",
+      "doi": "10.1016/j.neuron.2013.04.015",
+      "open_fulltext": true,
+      "access_note": "PMC开放全文",
+      "role": "关键实验：解耦时间与距离；92%神经元时间调制；时间≠路径积分",
+      "key_claims": [
+        "92%活跃神经元显示显著时间调制",
+        "70%同时受时间和距离影响",
+        "仅11%专门追踪距离，8%专门追踪时间"
+      ]
+    },
+    {
+      "id": "S04",
+      "type": "journal_article",
+      "title": "The hippocampus, time, and memory across scales",
+      "authors": ["Howard MW", "Eichenbaum H"],
+      "journal": "Journal of Experimental Psychology: General",
+      "year": 2013,
+      "volume": 142,
+      "issue": 4,
+      "pages": "1211-1230",
+      "pmid": "23915126",
+      "pmcid": "PMC3982793",
+      "doi": "10.1037/a0033621",
+      "open_fulltext": true,
+      "access_note": "PMC开放全文",
+      "role": "理论框架：时间情境模型（TCM）；海马跨尺度时间表征；精神时间旅行",
+      "key_claims": [
+        "海马维持缓慢漂移的时间情境状态，跨越数千秒",
+        "行为层面的recency和contiguity效应与神经时间编码平行",
+        "情节记忆的\"时间旅行\"是对早期时间情境状态的恢复"
+      ]
+    },
+    {
+      "id": "S05",
+      "type": "journal_article",
+      "title": "The same hippocampal CA1 population simultaneously codes temporal information over multiple timescales",
+      "authors": ["Mau W", "Sullivan DW", "Kinsky NR", "Hasselmo ME", "Howard MW", "Eichenbaum H"],
+      "journal": "Current Biology",
+      "year": 2018,
+      "volume": 28,
+      "issue": 10,
+      "pages": "1499-1508.e4",
+      "pmid": "29706516",
+      "pmcid": "PMC5964012",
+      "doi": "10.1016/j.cub.2018.03.051",
+      "open_fulltext": true,
+      "access_note": "PMC开放全文",
+      "role": "多尺度时间编码：同一CA1集群同时编码秒/分/天；钙成像四天追踪",
+      "key_claims": [
+        "同一CA1集群在秒/分/天三个尺度同时编码时间",
+        "仅12.5%时间细胞在全四天稳定；35.3%入组，44.7%退出",
+        "跨天贝叶斯解码成功（用第一天训练，预测第二天）"
+      ]
+    },
+    {
+      "id": "S06",
+      "type": "journal_article",
+      "title": "Medial entorhinal cortex selectively supports temporal coding by hippocampal neurons",
+      "authors": ["Robinson NT", "Priestley JB", "Rueckemann JW", "Garcia AD", "Smeglin VA", "Marino FA", "Eichenbaum HB"],
+      "journal": "Neuron",
+      "year": 2017,
+      "volume": 94,
+      "issue": 3,
+      "pages": "677-688.e6",
+      "pmid": "28434800",
+      "pmcid": "PMC5465388",
+      "doi": "10.1016/j.neuron.2017.04.006",
+      "open_fulltext": true,
+      "access_note": "PMC开放全文",
+      "role": "MEC因果作用：光遗传学沉默MEC→时间细胞降解，空间/物体编码保留",
+      "key_claims": [
+        "MEC光遗传学沉默导致CA1时间细胞序列显著降解",
+        "地点细胞和物体选择性细胞在MEC沉默时几乎不受影响（双分离）",
+        "行为表现从77%降至62%（时间关联记忆任务）"
+      ]
+    },
+    {
+      "id": "S07",
+      "type": "journal_article",
+      "title": "Scalable representation of time in the hippocampus",
+      "authors": ["Shimbo A", "Izawa EI", "Fujisawa S"],
+      "journal": "Science Advances",
+      "year": 2021,
+      "volume": 7,
+      "issue": 6,
+      "pmid": "33536211",
+      "pmcid": "PMC7857679",
+      "doi": "10.1126/sciadv.abd7013",
+      "open_fulltext": true,
+      "access_note": "PMC开放全文",
+      "role": "时间细胞可缩放性；间隔变化时激发时刻等比例移动；theta序列弹性",
+      "key_claims": [
+        "22%的CA1神经元显示可缩放激发，平均缩放因子1.81",
+        "theta序列同样可缩放，细胞对精细时间关系保持",
+        "时间细胞活动预测模糊试验中的\"长/短\"判断"
+      ]
+    },
+    {
+      "id": "S08",
+      "type": "journal_article",
+      "title": "Crucial role for CA2 inputs in the sequential organization of CA1 time cells supporting memory",
+      "authors": ["MacDonald CJ", "Tonegawa S"],
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": 2021,
+      "volume": 118,
+      "issue": 4,
+      "pmid": "33431691",
+      "pmcid": "PMC7826404",
+      "doi": "10.1073/pnas.2020698118",
+      "open_fulltext": true,
+      "access_note": "PMC开放全文",
+      "role": "CA2因果作用：CA2→CA1投射专门组织时间序列；空间-时间编码双分离",
+      "key_claims": [
+        "约50%的CA1锥体细胞具有时间细胞特性",
+        "CA2输入沉默→时间细胞序列降解，延迟期后半段尤为显著",
+        "地点细胞几乎不受CA2沉默影响（空间-时间双分离）"
+      ]
+    },
+    {
+      "id": "S09",
+      "type": "journal_article",
+      "title": "Time cells in the human hippocampus and entorhinal cortex support episodic memory",
+      "authors": ["Umbach G", "Kantak P", "Jacobs J", "Kahana M", "Pfeiffer BE", "Sperling M", "Lega B"],
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": 2020,
+      "volume": 117,
+      "issue": 45,
+      "pages": "28463-28474",
+      "pmid": "33109718",
+      "pmcid": "PMC7668099",
+      "doi": "10.1073/pnas.2012876117",
+      "open_fulltext": true,
+      "access_note": "PMC开放全文",
+      "role": "人类时间细胞直接证据；激发精度预测时间组织记忆；theta相位进动；斜坡细胞",
+      "key_claims": [
+        "27名人类被试内侧颞叶发现79个时间细胞（编码）+ 60个（提取）",
+        "时间细胞激发稳定性预测时间聚类性（temporal clustering score）",
+        "内嗅皮层富含斜坡细胞（ramping cells）",
+        "首次在人类时间细胞中发现theta相位进动"
+      ]
+    },
+    {
+      "id": "S10",
+      "type": "journal_article",
+      "title": "Human Hippocampal Neurons Track Moments in a Sequence of Events",
+      "authors": ["Reddy L", "Zoefel B", "Possel JK", "Peters J", "Dijksterhuis DE", "Poncet M", "van Straaten ECW", "Baayen JC", "Idema S", "Self MW"],
+      "journal": "The Journal of Neuroscience",
+      "year": 2021,
+      "volume": 41,
+      "issue": 31,
+      "pages": "6714-6725",
+      "pmid": "34183446",
+      "pmcid": "PMC8336696",
+      "doi": "10.1523/JNEUROSCI.3157-20.2021",
+      "open_fulltext": true,
+      "access_note": "PMC开放全文",
+      "role": "人类海马神经元追踪序列时刻；空白等待期时间编码；88.4%群体解码准确率",
+      "key_claims": [
+        "30%（128/429）海马神经元有时间依赖激发",
+        "10秒等待期间27%（26/96）细胞维持时间选择性",
+        "群体活动时间解码准确率88.4%（早期时刻）"
+      ]
+    }
+  ]
+}

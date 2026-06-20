@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-07-09
-revision_count: 10
+updated: 2026-08-04
+revision_count: 11
 dimensions: [brain-region, microcircuit, cognition, disease]
-related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, glucocorticoid-stress-memory, hpa-axis]
+related: [place-cell, grid-cell, dendritic-computation, ltp, hebbian-learning, btsp, engram-cells, theta-oscillations, memory-consolidation, pv-interneurons, sst-interneurons, alzheimers-disease, amyloid-beta-oligomers, default-mode-network, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, glucocorticoid-stress-memory, hpa-axis, time-cells, temporal-context-model]
 prerequisites: [synaptic-transmission, ltp, action-potential]
-opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses, Q-gc-02]
-source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-09-glucocorticoids-stress-memory-amygdala]
-key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779", "PMID:12040087", "PMID:15272123", "PMID:1308182", "PMID:21460835", "PMID:9405958", "PMID:7729802"]
+opens_questions: [Q-ca2-function, Q-hippocampal-consolidation-mechanism, Q-ad-vulnerable-synapses, Q-gc-02, Q-tc-01, Q-tc-02, Q-tc-04]
+source_articles: [2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-08-04-hippocampal-time-cells-episodic-memory]
+key_sources: ["PMID:32042144", "PMID:18007020", "PMID:18284371", "PMID:39454575", "PMID:26135716", "PMID:23354386", "PMID:1789684", "PMID:20581818", "PMID:35040779", "PMID:12040087", "PMID:15272123", "PMID:1308182", "PMID:21460835", "PMID:9405958", "PMID:7729802", "PMID:21867888", "PMID:33431691", "PMID:29706516"]
 ---
 
 # 海马回路 (Hippocampal Circuit)
@@ -150,15 +150,42 @@ CA3 是海马中对慢性糖皮质激素（GC）**选择性最脆弱**的亚区�
 - [[sst-interneurons]] — CA1 的 O-LM 细胞（SST+ 亚型）在 θ 期间活跃，靶向内嗅皮层输入区（SLM），实现 top-down 输入门控
 - [[glucocorticoid-stress-memory]] — 慢性 GC 选择性损伤 CA3（树突萎缩、GR 高密度、循环兴奋过激）；急性 GC 增强 BLA-海马通路的记忆巩固
 - [[hpa-axis]] — 海马（CA1/CA3/DG GR）是 HPA 轴负反馈的主要制动节点；慢性应激导致的 CA3 萎缩削弱此制动 → HPA 恶性循环
+- [[time-cells]] — CA1 时间细胞是情节记忆"何时"维度的细胞基础；CA2→CA1 回路专门组织时间序列
+- [[temporal-context-model]] — TCM 理论框架：时间细胞序列可能是"时间情境状态"的神经实现
+
+### 7. CA2 亚区：时间序列的专门组织者
+
+**CA2**（海马最小亚区）的功能长期被忽视，以往主要关联社会记忆（oxytocin受体高表达）。MacDonald & Tonegawa 2021（PMID: 33431691）提供了CA2在**时间编码**中的关键因果证据：
+
+- CA2-Cre+ArchT小鼠的选择性optogenetic沉默dCA2→dCA1投射
+- 记录约630个CA1锥体细胞；约**50%**具有时间细胞特性
+- CA2输入沉默→**时间细胞序列在延迟后半段显著降解**（群体向量相关性去相关加快）
+- 地点细胞几乎不受影响（**空间-时间双分离**）
+- 工作记忆任务错误增加
+
+这表明：Q-ca2-function中的CA2功能包括专门**组织CA1时间序列**——CA2不只是社会记忆区，而是时间信息处理的内部回路节点。MEC→CA2→CA1可能构成专门的"时间信号传递通道"。
+
+**海马的空间-时间双流输入（修订理解）**：
+```
+外侧内嗅皮层（LEC：物体/事件内容）→ CA1（内容维度）
+内侧内嗅皮层（MEC：时间/空间信号）→ CA2 → CA1（时间维度）
+                                    → DG → CA3 → CA1（空间维度）
+```
+
+CA1因此是时间（CA2通路）、空间（CA3通路）和内容（LEC直接输入）的**三路整合终点**。
 
 ## 未解问题
 
-- Q-ca2-function：CA2 亚区（在 CA3 和 CA1 之间）在记忆编码中的具体角色？与社会记忆相关？
+- Q-ca2-function：CA2 亚区（在 CA3 和 CA1 之间）的完整功能图谱？已知：社会记忆（OXT受体）+时间序列组织（MacDonald&Tonegawa 2021）；两者如何在CA2内整合？CA2是否也参与其他形式的序列记忆？
 - Q-hippocampal-consolidation-mechanism：海马→皮层的记忆巩固是如何精确调控的？SWR 重放选择哪些序列？
 - Q-ad-vulnerable-synapses：为什么CA3-CA1突触（Schaffer侧支）是AD中首批受损的突触？高NR2B密度+内嗅皮层传播路径（Braak I期）的联合假说是否足够？什么分子标志物可以预测某个突触的AD易损性？
+- Q-tc-01：时间细胞的激发是内在计时（内在动力学驱动）还是内隐认知序列表征？
+- Q-tc-02：时间细胞对情节记忆提取的因果贡献是什么？（相关已知，因果未知）
+- Q-tc-04：情节记忆固化时，时间细胞序列如何在SWR中被回放？精确重现还是压缩/重排？
 
 ## 修订历史
 
+- 2026-08-04 · 修订 rev11 · 基于《时间细胞：海马如何为情节记忆打上时间戳》(#103) · 新增"CA2亚区：时间序列专门组织者"机制节；更新"当前理解"为三流输入（LEC内容+MEC时间+CA3空间）；related新增time-cells、temporal-context-model；opens_questions新增Q-tc-01、Q-tc-02、Q-tc-04；key_sources新增PMID:21867888、PMID:33431691、PMID:29706516
 - 2026-07-09 · 修订 rev10 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"CA3 的慢性应激脆弱性"机制节（CA3 树突萎缩 20%、灵长类海马体积萎缩 30%、GR 高密度机制、NMDAR 拮抗剂防萎缩、HPA 负反馈恶性循环）；证据表新增 2 行（PMID:9405958、PMID:7729802）；连接新增 glucocorticoid-stress-memory、hpa-axis；未解问题新增 Q-gc-02；related/key_sources/source_articles 相应更新
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 新增：CA3 模式补全因果证据（Nakazawa 2002 PMID:12040087 CA3-NR1 KO 实验）；CA3 vs CA1 不同计算个性（Leutgeb 2004 PMID:15272123）；related 新增 pattern-completion、pattern-separation、attractor-network、complementary-learning-systems；key_sources 新增 4 篇关键来源
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 整合 Hainmueller & Bartos 2020 和 Li 2024 的信息 · 初始置信度：高

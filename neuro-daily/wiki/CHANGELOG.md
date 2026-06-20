@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-08-04 · 文章 #103 · 时间细胞：海马如何为情节记忆打上时间戳
+
+**核心主题**：海马时间细胞（time cells）——在空白延迟期中依次激发的CA1神经元集群；时间vs路径积分的解耦；时间细胞的可缩放性与多尺度编码（秒/分/天）；驱动回路（MEC光遗传学因果证据+CA2专门组织者）；人类单细胞记录验证（Umbach 2020 PNAS、Reddy 2021 JNeurosci）；与AI序列建模的比较（LSTM细胞状态、Transformer位置编码）。
+
+**新建页面（2）**：
+- `concepts/time-cells.md`（时间细胞）🟡 emerging · 高置信度 — 整合MacDonald 2011原始发现、Eichenbaum 2014综述、Kraus 2013时间vs距离解耦（92%神经元时间调制）、Mau 2018多尺度（秒/分/天）、Shimbo 2021可缩放性（缩放因子1.81）、Robinson 2017 MEC光遗传学因果（MEC沉默→时间细胞降解，地点细胞保留）、MacDonald&Tonegawa 2021 CA2因果（CA2→CA1投射专门组织时间序列）、Umbach 2020 PNAS人类证据（激发精度预测时间聚类性，首次人类theta相位进动）、Reddy 2021 JNeurosci（30%人类海马神经元时间依赖激发，88.4%解码准确率）；登记Q-tc-01~Q-tc-04
+- `concepts/temporal-context-model.md`（时间情境模型TCM）🟡 emerging · 中置信度 — Howard & Eichenbaum 2013理论框架：海马维持缓慢漂移的时间情境状态；自然解释recency effect和contiguity effect；精神时间旅行的神经机制候选；时间细胞是TCM神经实现候选
+
+**修订页面（3）**：
+- `neurons/hippocampal-circuit.md` rev10→rev11 — 新增"CA2亚区：时间序列专门组织者"机制节（CA2→CA1专门通路、50%CA1细胞有时间特性、空间-时间双分离）；更新"当前理解"为三流输入（LEC内容+MEC时间+CA3空间）；CA1升格为三路整合终点；related新增time-cells、temporal-context-model；opens_questions新增Q-tc-01/02/04；key_sources新增3项
+- `systems/entorhinal-cortex.md` rev2→rev3 — 更新MEC功能："空间+时间"双重编码；新增斜坡细胞（ramping cells）描述；增加MEC时间特异性光遗传因果证据（Robinson 2017）和人类斜坡细胞证据（Umbach 2020）；连接新增time-cells
+- `concepts/interval-timing.md` rev1→rev2 — 新增"海马时间细胞：秒-天尺度的情境时间编码"小节，含区间计时（纹状体/小脑/皮层）vs海马时间细胞的功能对比表；连接新增time-cells、hippocampal-circuit；开放问题Q-tc-03
+
+**新增开放问题（4）**：
+- Q-tc-01（高）：时间细胞是内在计时器还是内隐认知序列的神经表征？两种解释框架能否实验区分？
+- Q-tc-02（高）：时间细胞对情节记忆提取的**因果**贡献是什么？（相关已知，直接因果操控人类时间细胞的研究尚不存在）
+- Q-tc-03（中）：海马时间细胞与纹状体/小脑区间计时机制的功能分工？分层架构还是并行独立系统？
+- Q-tc-04（中）：情节记忆固化时，时间细胞序列如何在SWR中被回放？精确重现还是压缩/重排？
+
+**未登记矛盾**：本次无新增矛盾登记。（Q-tc-01的两种框架虽有张力，但非直接证据冲突，暂作开放问题而非矛盾登记。）
+
+---
+
 ## 2026-08-02 · 文章 #101 · 痛觉的守门人：TRPV1、脊髓背角与慢性疼痛的神经机制
 
 **核心主题**：痛觉的完整神经科学图谱——外周伤害感受器（TRPV1/TRPA1/Nav1.7-1.9）；Aδ vs C纤维双时程痛觉；脊髓背角闸门控制（DYN+/PKCγ+/SOM+分子定义回路）；中枢敏化（NMDA-LTP机制+小胶质细胞-BDNF-KCC2恶性循环）；脊髓丘脑束→痛觉矩阵；cingulotomy情感-感觉分离；PAG-RVM下行阿片镇痛回路；慢性疼痛作为中脑边缘系统劫持。

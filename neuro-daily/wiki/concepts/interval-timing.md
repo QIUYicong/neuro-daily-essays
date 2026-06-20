@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-07-31
-updated: 2026-07-31
-revision_count: 1
+updated: 2026-08-04
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [striatal-beat-frequency, population-clock, cerebellum, basal-ganglia, dopamine-reward-prediction-error, temporal-binding-window, scalar-property-timing]
+related: [striatal-beat-frequency, population-clock, cerebellum, basal-ganglia, dopamine-reward-prediction-error, temporal-binding-window, scalar-property-timing, time-cells, hippocampal-circuit]
 prerequisites: [medium-spiny-neuron, dopamine-reward-prediction-error, cerebellum]
-opens_questions: [Q-it-01, Q-it-02]
-source_articles: [2026-07-31-interval-timing-basal-ganglia-striatum]
-key_sources: ["PMID:15217335", "PMID:21389235", "PMID:38918348", "PMID:35446093"]
+opens_questions: [Q-it-01, Q-it-02, Q-tc-03]
+source_articles: [2026-07-31-interval-timing-basal-ganglia-striatum, 2026-08-04-hippocampal-time-cells-episodic-memory]
+key_sources: ["PMID:15217335", "PMID:21389235", "PMID:38918348", "PMID:35446093", "PMID:21867888", "PMID:33536211"]
 ---
 
 # 区间计时 (Interval Timing)
@@ -69,6 +69,20 @@ key_sources: ["PMID:15217335", "PMID:21389235", "PMID:38918348", "PMID:35446093"
 | PD 时间扭曲非简单慢时钟 | 患者行为+影像；DA 结合与计时无关 | PMID:33815049 | 中高 |
 | 时间编码在群体轨迹中 | 理论/群体记录综述 | PMID:35446093 | 中 |
 
+### 海马时间细胞：秒-天尺度的情境时间编码
+
+**2026-08-04新增（Q-tc-03相关）**：区间计时系统（小脑/纹状体/皮层，毫秒-秒）与**海马时间细胞**（时间细胞依次序列，秒-天）构成两套不同层次的时间系统：
+
+| 属性 | 区间计时（纹状体/小脑/皮层） | 海马时间细胞 |
+|------|--------------------------|------------|
+| 时间尺度 | 毫秒-数十秒 | 秒-天（多尺度） |
+| 主要功能 | 精准计时、运动时序、奖励预测 | 情节记忆时间标记、情境-时间联合编码 |
+| 可缩放性 | 有（SBF模型、标量特性） | 有（Shimbo 2021，缩放因子1.81） |
+| 依赖多巴胺 | 强（DA调速） | 间接（通过CA2/MEC输入） |
+| 跨物种证据 | 强（灵长类+啮齿类） | 强（啮齿类+人类单细胞） |
+
+两套系统的**功能分工假说**（Q-tc-03，开放）：纹状体/小脑负责精准计时（"刚好过了5秒"），海马负责将时间信息整合进情节内容（"在5秒后我遇到了物体B"）。分层架构：纹状体计时→上传到海马进行时间-情境绑定？还是并行独立系统？目前证据不足，有待跨系统同步记录+因果解耦。
+
 ## 连接
 
 - [[cerebellum]] — 毫秒级事件计时器
@@ -80,6 +94,8 @@ key_sources: ["PMID:15217335", "PMID:21389235", "PMID:38918348", "PMID:35446093"
 - [[temporal-binding-window]] — TBW 依赖毫秒级时间测量，是区间计时的下游
 - [[scalar-property-timing]] — 计时的韦伯定律
 - [[circadian-clock]] — 对照：分子时钟 vs 神经动力学时钟
+- [[time-cells]] — 海马时间细胞：秒-天尺度的情境时间编码，与区间计时功能互补（Q-tc-03）
+- [[hippocampal-circuit]] — 海马CA1/CA2是时间细胞的所在地
 
 ## 未解问题
 
@@ -88,6 +104,7 @@ key_sources: ["PMID:15217335", "PMID:21389235", "PMID:38918348", "PMID:35446093"
 
 ## 修订历史
 
+- 2026-08-04 · 修订 rev2 · 基于《时间细胞》文章(#103) · 新增"海马时间细胞：秒-天尺度的情境时间编码"小节，建立区间计时系统（纹状体/小脑/皮层）与海马时间细胞的功能对比表（Q-tc-03）；连接新增time-cells和hippocampal-circuit；opens_questions新增Q-tc-03；related/key_sources相应更新
 - 2026-07-31 · 创建 · 基于《大脑的秒表》文章 #99 · 初始置信度：高
 
 ## 来源文章

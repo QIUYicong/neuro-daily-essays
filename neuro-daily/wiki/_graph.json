@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-03",
-  "node_count": 197,
-  "edge_count": 1134,
+  "updated": "2026-08-04",
+  "node_count": 199,
+  "edge_count": 1148,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1798,6 +1798,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/nocebo-effect.md"
+    },
+    {
+      "id": "time-cells",
+      "title": "时间细胞",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "high",
+      "page": "wiki/concepts/time-cells.md"
+    },
+    {
+      "id": "temporal-context-model",
+      "title": "时间情境模型（TCM）",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/temporal-context-model.md"
     }
   ],
   "edges": [
@@ -8137,6 +8155,72 @@
       "to": "placebo-analgesia",
       "type": "related",
       "note": "PAG接收rACC驱动的安慰剂镇痛信号（Eippert 2009）"
+    },
+    {
+      "from": "time-cells",
+      "to": "hippocampal-circuit",
+      "type": "part-of",
+      "note": "时间细胞是CA1锥体神经元的功能子集，在延迟期按时间顺序依次激发（MacDonald 2011，约50%CA1细胞）"
+    },
+    {
+      "from": "time-cells",
+      "to": "place-cell",
+      "type": "related",
+      "note": "时间细胞与地点细胞是同一神经元（CA1）的时间维度和空间维度表征；同一CA1细胞可以同时是地点细胞和时间细胞（Eichenbaum 2014综述）"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "time-cells",
+      "type": "supports",
+      "note": "MEC斜坡细胞通过穿透纤维向CA1提供时间结构化输入；光遗传沉默MEC→CA1时间细胞序列降解（Robinson 2017，PMID:28434800）"
+    },
+    {
+      "from": "hippocampal-circuit",
+      "to": "time-cells",
+      "type": "supports",
+      "note": "CA2通过CA2→CA1投射组织时间细胞序列；CA2沉默→时间细胞降解，地点细胞不受影响（MacDonald & Tonegawa 2021，PMID:33431691）"
+    },
+    {
+      "from": "time-cells",
+      "to": "memory-consolidation",
+      "type": "supports",
+      "note": "时间细胞激发精度预测时间组织记忆（temporal clustering score）；是情节记忆时间轴的神经实现"
+    },
+    {
+      "from": "time-cells",
+      "to": "interval-timing",
+      "type": "related",
+      "note": "时间细胞（海马，秒-天情境时间编码）与区间计时系统（纹状体/小脑，毫秒-秒精准计时）共同构成大脑的双套时间系统；功能分工是Q-tc-03开放问题"
+    },
+    {
+      "from": "temporal-context-model",
+      "to": "time-cells",
+      "type": "supports",
+      "note": "时间细胞序列（CA1依次激发）被视为TCM内部时间情境向量t(τ)的物理实现候选（Howard & Eichenbaum 2013）"
+    },
+    {
+      "from": "temporal-context-model",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "TCM理论专门针对海马在情节记忆时间维度编码的计算原理；海马维持缓慢漂移的内部时间情境状态"
+    },
+    {
+      "from": "time-cells",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "人类时间细胞的theta相位进动（Umbach 2020）：激发时刻较早的时间细胞优先在theta早期相位激发，逐渐进动——与地点细胞theta相位进动结构相同，但对应时间维度"
+    },
+    {
+      "from": "time-cells",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "假说：时间细胞序列可能在SWR期间以快速重放形式传递到新皮层（类比空间轨迹重放），是情节记忆时间轴巩固的候选机制（Q-tc-02开放）"
+    },
+    {
+      "from": "time-cells",
+      "to": "cognitive-map",
+      "type": "supports",
+      "note": "时间细胞将认知地图从纯空间扩展到时空四维：地点细胞（空间）+时间细胞（时间）共同构成情节记忆的完整时空坐标系"
     }
   ],
   "dangling_references": [

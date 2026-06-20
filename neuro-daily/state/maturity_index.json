@@ -1,6 +1,6 @@
 {
   "description": "每个 wiki 页的成熟度与置信度追踪。成熟度随证据积累流动：speculative→emerging→mainstream→established，出现可信反例则降为 contested。详见 KNOWLEDGE-BASE-DESIGN.md 第 5 节。",
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-04",
   "levels": [
     "speculative",
     "emerging",
@@ -1296,6 +1296,36 @@
     "key_sources": [
       "PMID:29108801",
       "PMID:33654105"
+    ]
+  },
+  "time-cells-2026-08-04": {
+    "slug": "time-cells",
+    "status": "emerging",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_change": "2026-08-04",
+    "change_reason": "新建页面（文章 #103，2026-08-04）。时间细胞（海马CA1在延迟期按时间顺序依次激发的神经元）由MacDonald et al. 2011（PMID:21867888）在啮齿类首先报道；随后Eichenbaum综述（PMID:25269553）系统整合多物种证据；Kraus et al. 2013（PMID:23707613）时间-距离解耦实验；Mau et al. 2018（PMID:29706516）多尺度编码；Umbach et al. 2020（PMID:33109718）人类单细胞直接验证。因果机制由Robinson et al. 2017（MEC→CA1，PMID:28434800）和MacDonald & Tonegawa 2021（CA2→CA1，PMID:33431691）确立。综合评估：状态emerging（发现时间较短，2011年；机制仍有争议），置信度high（啮齿类+人类直接证据；光遗传因果实验）。",
+    "key_sources": [
+      "PMID:21867888",
+      "PMID:25269553",
+      "PMID:23707613",
+      "PMID:29706516",
+      "PMID:28434800",
+      "PMID:33431691",
+      "PMID:33109718"
+    ]
+  },
+  "temporal-context-model-2026-08-04": {
+    "slug": "temporal-context-model",
+    "status": "emerging",
+    "confidence": "medium",
+    "revision_count": 1,
+    "last_change": "2026-08-04",
+    "change_reason": "新建页面（文章 #103，2026-08-04）。时间情境模型（TCM）由Howard & Eichenbaum 2013（PMID:23915126）提出，为情节记忆的时间维度提供了统一的理论框架——海马维持缓慢漂移的内部时间情境向量，自然解释近因效应和时间相邻效应。该理论与时间细胞的实验发现高度吻合（时间细胞序列可视为 t(τ) 的神经底物），但尚无直接实验证明 t(τ) 向量的整体结构。状态emerging（理论框架成熟，但神经实现的直接证据仍不完整），置信度medium（行为预测高度吻合；神经底物尚待直接验证）。",
+    "key_sources": [
+      "PMID:23915126",
+      "PMID:21867888",
+      "PMID:25269553"
     ]
   }
 }
