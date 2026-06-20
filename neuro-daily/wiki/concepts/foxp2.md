@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-12
-updated: 2026-08-12
-revision_count: 1
+updated: 2026-08-15
+revision_count: 2
 dimensions: [molecular, cellular, disease, behavior]
 related: [language-network, broca-area, language-evolution, basal-ganglia, childhood-apraxia-of-speech, vocal-learning, corticostriatal-circuit, cntnap2]
 prerequisites: [action-potential, synaptic-transmission, language-network]
 opens_questions: [Q-foxp2-01, Q-foxp2-02, Q-foxp2-03]
-source_articles: [2026-08-12-foxp2-language-genetics-development]
+source_articles: [2026-08-12-foxp2-language-genetics-development, 2026-08-15-cntnap2-language-social-autism-circuit]
 key_sources: ["PMID:11586359", "PMID:34260143", "PMID:25225386", "PMID:37137515", "PMID:39868047", "PMID:38366112"]
 ---
 
@@ -104,7 +104,7 @@ R553H突变 → dynactin1过表达 → dynein-dynactin蛋白马达复合物破�
 - [[basal-ganglia]] — 纹状体MSN树突发育受FOXP2调控
 - [[childhood-apraxia-of-speech]] — FOXP2杂合突变的主要临床表现
 - [[vocal-learning]] — FoxP2在鸣禽Area X动态调控发声学习
-- [[cntnap2]] — FOXP2最重要的下游直接抑制靶点
+- [[cntnap2]] — FOXP2最重要的下游直接抑制靶点；CNTNAP2缺失→PV+中间神经元减少→CDFE综合征/ASD/语言障碍三角共病（现已有独立wiki页）
 
 ## 未解问题
 
@@ -115,7 +115,9 @@ R553H突变 → dynactin1过表达 → dynein-dynactin蛋白马达复合物破�
 ## 修订历史
 
 - 2026-08-12 · 创建 · 基于《一个改变了语言研究的基因：FOXP2如何在神经回路层面为人类发声学习奠定遗传基础》(#111) · 综合EMBO Reports 2021综述（PMID:34260143）、PLoS Genet 2011靶基因研究（PMID:21765815）、PNAS 2014人源化小鼠（PMID:25225386）、Brain 2023新机制（PMID:37137515）、iScience 2024 CT神经元（PMID:39868047）和Mol Psychiatry 2024 CAS遗传架构（PMID:38366112） · 初始置信度：高
+- 2026-08-15 · rev2 · 来自《CNTNAP2：语言、社会与癫痫三角共病》(#114) · 补充cntnap2连接说明（PV+中间神经元减少→CDFE/ASD/语言障碍三角共病）；CNTNAP2已有独立wiki页，source_articles补充 2026-08-15
 
 ## 来源文章
 
 - [[2026-08-12-foxp2-language-genetics-development]]
+- [[2026-08-15-cntnap2-language-social-autism-circuit]]

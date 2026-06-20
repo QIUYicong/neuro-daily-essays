@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-14（第113篇·CA2海马亚区·社会记忆·时间情境编码·尖波涟漪触发）· 主题页总数：**216**（新建2页：concepts/ca2-hippocampus、concepts/social-memory；修订3页：neurons/hippocampal-circuit rev11→rev12、concepts/sharp-wave-ripples rev8→rev9、concepts/time-cells rev1→rev2；新增Q-ca2-function/Q-ca2-pnn-plasticity-window/Q-ca2-disease-mechanism；图谱221节点/1288边）
+> 最后更新：2026-08-15（第114篇·CNTNAP2/CASPR2·FOXP2-CNTNAP2调控轴·PV中间神经元迁移·语言-孤独症-癫痫三角共病）· 主题页总数：**218**（新建2页：concepts/cntnap2、diseases/cntnap2-deficiency-cdfe；修订2页：concepts/foxp2 rev1→rev2、circuits/pv-interneurons rev6→rev7；新增Q-cntnap2-01/Q-cntnap2-02/Q-cntnap2-03；图谱223节点/1298边）
 
 ---
 
@@ -198,7 +198,8 @@
 - 🔴 [镜像神经元系统](concepts/mirror-neuron-system.md) — Rizzolatti 1992 猕猴 F5 区 ~17% MNS 神经元；直接匹配假说（动作观察=运动共鸣）；Hickok "破碎镜子"批评（Broca 失语不损动作理解）；模拟理论 vs. 理论理论；MNS-ToM 因果关系争议（C-mirror-01 开放）**[NEW 2026-08-01 · 争议]**
 - 🔵 [短语结构组装（Merge操作）](concepts/phrase-structure-building.md) — Chomsky Merge递归操作的神经基础（左BA44）；AⁿBⁿ层级规则选择性激活BA44（vs线性序列）；Schell 2022 MVPA：BA44分类grammatical词组/BA45分类semantic词组；Hu 2022精准fMRI：产出和理解共享Merge机制 **[NEW 2026-08-07]**
 - 🟡 [语言的神经进化](concepts/language-evolution.md) — 人类左侧BA44前部额外扩张约1.64倍（Gallardo 2023，相对黑猩猩）；进化双重结构（后部BA44动作/前部BA44句法）；否定强版本镜像神经元语言假说；前向扩张模型；FOXP2分子层（T303N+N325S替换→程序性学习加速，Schreiweis 2014）**[修订 2026-08-12]**
-- 🟢 [FOXP2](concepts/foxp2.md) — 人类语言关键转录因子；KE家族R553H突变→言语失用+语法障碍；forkhead域+锌指+亮氨酸拉链三模块；264+靶基因网络（CNTNAP2等）；R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→MSN树突不全→CAS；L6皮层丘脑（CT）神经元回路；人源化小鼠（T303N+N325S）加速程序性学习 **[NEW 2026-08-12]**
+- 🟢 [FOXP2](concepts/foxp2.md) — 人类语言关键转录因子；KE家族R553H突变→言语失用+语法障碍；forkhead域+锌指+亮氨酸拉链三模块；264+靶基因网络（CNTNAP2等）；R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→MSN树突不全→CAS；L6皮层丘脑（CT）神经元回路；人源化小鼠（T303N+N325S）加速程序性学习（修订2次）**[NEW 2026-08-12]**
+- 🟢 [CNTNAP2 / CASPR2](concepts/cntnap2.md) — 神经素超家族跨膜粘附蛋白；人类最大基因之一（2.3 Mb，7q35）；FOXP2直接转录抑制CNTNAP2；成熟功能（旁节区Kv1锚定）+发育功能（PV+/CR+中间神经元迁移导引）；缺失→E/I失衡+振荡协调崩溃+OXT系统萎缩+PNN异常→语言-孤独症-癫痫三角共病 **[NEW 2026-08-15]**
 - 🟢 [发声学习](concepts/vocal-learning.md) — 脊椎动物中独立进化多次的罕见能力；斑马雀Area X→DLM→LMAN→RA前馈可塑性回路；FoxP2在鸣唱时社会情境依赖性下调（练习↓稳定性→探索，表演↑稳定性）；FoxP2敲减→歌曲变异性过高无法稳定；与人类言语程序化的深度并行 **[NEW 2026-08-12]**
 - 🟡 [大型语言模型与大脑的对齐](concepts/llm-brain-alignment.md) — GPT-2等LLM可预测语言网络fMRI响应；1亿词训练量达近最大对齐度（Hosseini 2024）；单向注意更接近大脑在线处理；表征相似性≠机制等同；Pasquiou 2023：左半球句法/语义空间分离高于右半球 **[NEW 2026-08-07]**
 
@@ -253,6 +254,7 @@
 - 🔵 [精神分裂症](diseases/schizophrenia.md) — PV-GAD67-γ 轴：NMDA 低活→PV 细胞（NR2A 高密度）损伤→GAD67 mRNA 下调→GABA 合成↓→PING 时序崩溃→γ 振荡减弱→WM 缺陷；多巴胺 D2 过度激活（阳性症状）与 D1 不足（阴性/认知症状）并存；高度多基因遗传（C4A 突触过度剪枝） **[NEW 2026-07-20]**
 - 🔵 [意识障碍（DoC）](diseases/disorders-of-consciousness.md) — 严重脑损伤后觉醒和/或意识内容持续损害的临床综合征；昏迷→VS/UWS→MCS→CMD连续谱；前脑中间回路（GPi脱抑制→中央丘脑过度抑制→皮层去传入）；25%"无反应"患者有隐蔽意识（Bodien NEJM 2024）；多模态神经评估（任务型fMRI/EEG/PCI）正在重塑临床诊断标准和伦理框架 **[NEW 2026-08-09]**
 - 🟢 [儿童言语失用症（CAS）](diseases/childhood-apraxia-of-speech.md) — 言语运动程序化选择性障碍（非肌力或发音器官问题）；遗传异质性：30+致病基因（Morgan 2024）；FOXP2经典病因链：R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→MSN树突不全→程序化失败；多基因CAS汇聚于共同转录调控通路 **[NEW 2026-08-12]**
+- 🟢 [CNTNAP2 缺乏症 / CDFE 综合征](diseases/cntnap2-deficiency-cdfe.md) — 双等位CNTNAP2功能缺失→皮层发育不良-局灶性癫痫-语言退行-ASD-智力障碍五联征；Strauss 2006 Amish家系；动物模型（Peñagarikano 2011 Cell）复制核心表型；FOXP2→CNTNAP2轴将CAS与CDFE连接至共同遗传级联 **[NEW 2026-08-15]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
 

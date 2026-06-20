@@ -1,7 +1,75 @@
 {
-  "last_updated": "2026-08-14",
-  "total_articles": 100,
+  "last_updated": "2026-08-15",
+  "total_articles": 101,
   "entries": [
+    {
+      "date": "2026-08-15",
+      "title": "CNTNAP2：语言、社会与癫痫三角共病的分子桥梁——从 FOXP2 靶基因到抑制性中间神经元失联",
+      "filename": "2026-08-15-cntnap2-language-social-autism-circuit.md",
+      "article_number": 114,
+      "wiki_pages_created": [
+        "wiki/concepts/cntnap2.md",
+        "wiki/diseases/cntnap2-deficiency-cdfe.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/foxp2.md (rev1→rev2)",
+        "wiki/circuits/pv-interneurons.md (rev6→rev7)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "CNTNAP2——FOXP2直接调控的最重要靶基因——编码神经素超家族细胞粘附蛋白CASPR2，其功能缺失如何通过PV+/CR+中间神经元发育迁移失位、皮层神经元层位异常、mPFC E/I振荡协调崩溃与下丘脑PVN催产素系统萎缩四条通路，将语言障碍、孤独症社交缺陷与局灶性癫痫汇聚成三角共病？",
+      "open_questions_added": [
+        "Q-cntnap2-01（高优先级）：CNTNAP2在人类胚胎皮层发育的精确时空单细胞分辨率图谱",
+        "Q-cntnap2-02（中优先级）：CA2区CNTNAP2高富集是否导致特异性社会记忆编码缺陷",
+        "Q-cntnap2-03（中优先级）：早期催产素给药最佳时间窗口及性别差异"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱2（神经网络如何建成：轴突导向/细胞迁移）+ 脊柱7（语言神经遗传学）+ 脊柱11（疾病窗口：ASD/语言障碍/癫痫）",
+      "topic_tags": [
+        "CNTNAP2 CASPR2 neurexin",
+        "FOXP2 CNTNAP2 regulatory axis",
+        "language disorder genetics SLI",
+        "autism spectrum disorder",
+        "cortical dysplasia focal epilepsy CDFE",
+        "parvalbumin interneurons E/I balance",
+        "neuronal migration cortical layering",
+        "oxytocin PVN nucleus accumbens",
+        "perineuronal nets PNN prefrontal cortex",
+        "Peñagarikano 2011 Cell knockout mouse",
+        "Vernes 2008 NEJM FOXP2 CNTNAP2"
+      ],
+      "main_sources": [
+        "PMID:21962519 (Peñagarikano 2011 Cell, KO mouse, PMC3390029)",
+        "PMID:18987363 (Vernes 2008 NEJM, FOXP2-CNTNAP2 link)",
+        "PMID:16571880 (Strauss 2006 NEJM, CDFE syndrome)",
+        "PMID:31141683 (Lazaro 2019 Cell Reports, mPFC oscillations)",
+        "PMID:34932941 (Choe 2022 Neuron, OXT circuit rescue)",
+        "PMID:36998537 (Gandhi 2023 Front Behav Neurosci, PNN)",
+        "PMID:30586385 (Toma 2018 PLoS Genet, cross-disorder)",
+        "PMID:25609168 (Peñagarikano 2015 Sci Transl Med, OXT rescue)",
+        "PMID:18179893 (Alarcon 2008 AJHG, autism susceptibility)",
+        "PMID:42249747 (Safar 2026 Autism Research, calretinin)",
+        "PMID:41271186 (Bagnall-Moreau 2026 BBI, anti-Caspr2 Ab)"
+      ],
+      "open_access_fulltext": [
+        "PMID:21962519 (PMC3390029)",
+        "PMID:36998537 (Frontiers open access)",
+        "PMID:30586385 (PLoS open access)"
+      ],
+      "next_suggested_topics": [
+        "催产素神经科学深化：PVN/SON催产素系统如何通过CA2/NAc/杏仁核协调社会联结行为",
+        "海马亚区功能分化比较：CA1/CA2/CA3/DG四亚区如何分工形成完整情节记忆",
+        "PNN（围神经元网）与关键期关闭的统一机制：从视觉皮层V1到海马CA2到mPFC",
+        "Kv1通道（KCNA1/KCNA2）生理：轴突旁节区兴奋性精调的分子机制与CASPR2的协同"
+      ]
+    },
     {
       "date": "2026-08-14",
       "title": "CA2：海马遗忘的第三元件——被忽视的亚区如何主宰社会记忆、时间序列与尖波涟漪的触发",

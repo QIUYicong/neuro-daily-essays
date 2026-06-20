@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-25
-revision_count: 6
+updated: 2026-08-15
+revision_count: 7
 dimensions: [cellular, synaptic, microcircuit, cognition, disease, molecular]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, transcriptomic-cell-types, single-cell-rna-seq]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, transcriptomic-cell-types, single-cell-rna-seq, cntnap2]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
@@ -112,6 +112,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 2026-06-03 · 修订 rev4 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增：PV+ 细胞去激活是 ODP 的第一个微回路事件（Kuhlman 2013），OTX2 经 PNN 锚定驱动 PV 成熟（Sugiyama 2008, Beurdeley 2012），BDNF 驱动 PV 成熟时间轴（Huang 1999），Rett 综合征中 MeCP2 KO 加速 PV 成熟导致关键期错位（Krishnan 2015），小胶质细胞亚群上游调控 PV 成熟（Wang 2025）；related 新增 critical-period, bdnf, microglia
 - 2026-07-20 · 修订 rev5 · 基于《篮状细胞打出节拍》一文 (#88) · 新增：Sohal 2009 + Cardin 2009 光遗传学因果证据（PV 细胞是 γ 的必要条件，γ 相位门控感觉输入）；GABA-A τ_decay 决定 γ 频率的分子机制；精神分裂症分子级联（Gonzalez-Burgos & Lewis 2012 NMDA→GAD67→GABA→PING→γ→WM）；更新 key_sources 4 个；更新 source_articles；更新 opens_questions
 - 2026-07-25 · 修订 rev6 · 基于《神经元类型的分子宇宙》一文 (#93) · 新增转录组视角：scRNA-seq揭示PV细胞内部包含篮状细胞/吊灯细胞/其他亚型在转录组层面各有标记基因；Tasic 2018（PMID:30382198）中PV亚类在视觉/运动皮层高度保守（约70%跨区共享）；更新related添加transcriptomic-cell-types、single-cell-rna-seq
+- 2026-08-15 · 修订 rev7 · 基于《CNTNAP2：语言、社会与癫痫三角共病》(#114) · 新增：CNTNAP2缺失导致PV+中间神经元减少是ASD/CDFE核心病理（Peñagarikano 2011, PMID:21962519）；mPFC E/I突触输入双降低伴振荡协调崩溃（Lazaro 2019, PMID:31141683）；CR+中间神经元减少也见于尾壳核/体感皮层（Sáfár 2026, PMID:42249747）；母体抗CASPR2抗体→子代PV功能异常（Bagnall-Moreau 2026, PMID:41271186）；related新增cntnap2；key_sources新增PMID:21962519, PMID:31141683
 
 ## 转录组亚型注记（2026-07-25新增）
 
@@ -128,3 +129,4 @@ scRNA-seq研究（Tasic 2018，PMID:30382198）表明，"PV细胞"在转录组�
 - [[2026-06-03-critical-period-plasticity]]
 - [[2026-07-20-gamma-oscillations-ping-ing-mechanism]]
 - [[2026-07-25-scrna-seq-neural-cell-type-diversity]]
+- [[2026-08-15-cntnap2-language-social-autism-circuit]]

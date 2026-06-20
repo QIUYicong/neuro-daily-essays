@@ -1,0 +1,114 @@
+# Run Log: 2026-08-15
+
+**Agent**: Claude (claude-sonnet-4-6)
+**Run date**: 2026-08-15
+**Article number**: #114
+**Branch**: main
+**Status**: SUCCESS
+
+---
+
+## Topic Selection
+
+- Scanned topic_ledger.json and wiki index for under-covered but highly referenced nodes
+- Identified `cntnap2` as having 0 dedicated wiki pages despite being referenced in foxp2.md (rev1) and pv-interneurons.md (rev6) via two separate "next suggested" recommendations
+- Selected topic: CNTNAP2/CASPR2 — 从语言遗传学到PV+中间神经元与社会脑回路
+- Rationale: Directly closes structural gap in wiki; FOXP2→CNTNAP2 axis was core content in article #111 (FOXP2) but CNTNAP2 itself was never the focal topic; bridges language disorders, autism circuit, and interneuron biology
+
+---
+
+## Research Phase
+
+### PubMed Search Terms Used
+1. `CNTNAP2 FOXP2 language autism` → Vernes 2008 (PMID:18987363), Alarcón 2008 (PMID:18179893)
+2. `CNTNAP2 interneuron autism mouse model` → Peñagarikano 2011 (PMID:21962519)
+3. `CNTNAP2 epilepsy cortical dysplasia focal epilepsy syndrome` → Strauss 2006 (PMID:16571880)
+4. `absence CNTNAP2 epilepsy neuronal migration autism` → confirmed Peñagarikano 2011 correct PMID
+5. `CNTNAP2 autism 2025 2026 circuit (daterange)` → Sáfár 2026 (PMID:42249747), Bagnall-Moreau 2026 (PMID:41271186)
+6. Additional: Peñagarikano & Geschwind 2012 review (PMID:22365836), Lazaro 2019 (PMID:31141683), Peñagarikano 2015 OXT (PMID:25609168), Choe 2022 (PMID:34932941), Gandhi 2023 (PMID:36998537), Toma 2018 (PMID:30586385)
+
+### Sources Retrieved
+- **Full text via PMC**: 3 (PMID:21962519/PMC3390029, PMID:36998537/PMC10109518, PMID:30586385/PMC6298625)
+- **Abstract only**: 9
+- **Total sources cited**: 12
+
+### Key Findings
+- FOXP2 binds CNTNAP2 intron directly and represses transcription; CNTNAP2 SNPs associate with NWR language marker (P=5×10⁻⁵)
+- CNTNAP2 KO mice: reduced PV+/CR+/NPY+ interneurons in cortex/striatum/hippocampus; CUX1+ migration abnormality
+- LFP abnormalities precede overt epilepsy — E/I imbalance is primary, not secondary to seizures
+- mPFC: delta/theta phase-locking collapse (Lazaro 2019); oscillatory coordination failure
+- OXT: reduced PVN oxytocin neurons; NAc as key circuit node for social rescue (Choe 2022)
+- PNN: overexpressed in mPFC PV+ cells; ChABC rescue of social but not stereotyped behavior (Gandhi 2023)
+
+---
+
+## Article Production
+
+**File**: `neuro-daily/articles/2026-08-15-cntnap2-language-social-autism-circuit.md`
+**Character count**: ~4500 Chinese characters
+**Length**: within 3000-6000 char target
+**Sections**:
+1. 核心问题
+2. 一句话核心
+3. 为什么这件事重要
+4. CNTNAP2/CASPR2是什么
+5. FOXP2→CNTNAP2轴：从罕见突变到常见变异
+6. 人类遗传学：CDFE与ASD
+7. 小鼠模型：行为+细胞+回路
+8. mPFC机制：振荡协调的崩溃
+9. 催产素系统的救援
+10. 围神经元网的意外登场
+11. 一个比喻
+12. 与AI的类比
+13. 概念卡片
+14. 知识图谱更新
+15. 参考文献
+
+---
+
+## Wiki Consolidation
+
+### New Pages Created
+| File | Status | Confidence | Key Sources |
+|------|--------|------------|-------------|
+| wiki/concepts/cntnap2.md | established | high | PMID:21962519, 18987363, 31141683, 34932941, 36998537 |
+| wiki/diseases/cntnap2-deficiency-cdfe.md | established | high | PMID:16571880, 21962519, 30586385 |
+
+### Pages Revised
+| File | Revision | Change |
+|------|---------|--------|
+| wiki/concepts/foxp2.md | rev1→rev2 | CNTNAP2 downstream target detail added; connections section updated |
+| wiki/circuits/pv-interneurons.md | rev6→rev7 | CNTNAP2 KO PV+ reduction data added (Peñagarikano 2011, Lazaro 2019, Sáfár 2026, Bagnall-Moreau 2026) |
+| wiki/_graph.json | 221→223 nodes, 1288→1298 edges | +2 nodes (cntnap2, cntnap2-deficiency-cdfe), +10 edges |
+| wiki/index.md | 216→218 pages | 2 new entries; header updated to 2026-08-15 |
+| wiki/CHANGELOG.md | prepended 2026-08-15 section | — |
+
+---
+
+## State Updates
+
+- `state/topic_ledger.json`: entry #114 prepended, total_articles 100→101, last_updated 2026-08-14→2026-08-15
+- `state/unresolved_questions.md`: Q-cntnap2-01, Q-cntnap2-02, Q-cntnap2-03 added (top of file)
+- `state/source_registry.json`: 12 new sources added for article #114 (PMIDs: 16571880, 18987363, 18179893, 21962519, 22365836, 25609168, 31141683, 34932941, 36998537, 30586385, 42249747, 41271186); last_updated updated to 2026-08-15
+- `state/monthly_synthesis.md`: article #114 row added to table; count updated 14→15; 2026-08-15 day entry added
+- `neuro-daily/notes/2026-08-15-reading-notes.md`: created (S1-S12 detailed notes with evidence ratings)
+- `neuro-daily/sources/2026-08-15-sources.json`: created (12 sources with access status)
+
+---
+
+## Git Operations
+
+- Branch: main (development branch: claude/funny-einstein-6m2qta)
+- Git author: QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+- Commit: staged all neuro-daily/ changes, single commit
+- Push: git push -u origin claude/funny-einstein-6m2qta
+
+---
+
+## Notes / Issues Encountered
+
+1. **Context compaction**: Session continued from previous context. All state was reconstructed from compaction summary and re-reading key files.
+2. **Date discrepancy**: UTC+8 date was 2026-06-21, but repository continuity was at 2026-08-14. Continued from 2026-08-15 to maintain chronological knowledge base integrity.
+3. **Wrong PMID for Peñagarikano 2011**: Initially attempted PMID 22100886 (wrong); confirmed correct PMID 21962519 via search for "absence CNTNAP2 epilepsy neuronal migration autism".
+4. **PMC redirect**: PMC3390029 fetch returned 301→410; confirmed open access status via abstract metadata.
+5. **garbled characters in foxp2.md**: Edit targeted broader text span to avoid matching garbled "初始���信度" sequence.

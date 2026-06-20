@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-08-15 · 文章 #114 · CNTNAP2：语言、社会与癫痫三角共病的分子桥梁
+
+**核心主题**：CNTNAP2/CASPR2 双重身份（成熟轴突旁节区 Kv1 锚定 vs 发育期中间神经元迁移导引）；FOXP2→CNTNAP2 调控轴联结罕见 CAS 与常见 SLI/ASD（Vernes 2008, PMID:18987363）；CDFE综合征（Strauss 2006, PMID:16571880）；KO小鼠：PV+/CR+/NPY+ 减少+CUX1+迁移异常+三核心域行为缺陷+癫痫（Peñagarikano 2011, PMID:21962519, PMC3390029开放全文）；mPFC E/I突触输入双降低+振荡协调崩溃（Lazaro 2019, PMID:31141683）；PVN OXT减少+NAc关键节点+早期OXT给药救援（Peñagarikano 2015, Choe 2022）；mPFC PNN过度沉积+ChABC部分救援社交（Gandhi 2023, PMID:36998537, 开放全文）；常见变异大样本无稳健关联（Toma 2018, PMID:30586385, 开放全文）；CR+减少的性别差异（Sáfár 2026, PMID:42249747）。
+
+**新建页面（2）**：
+- `wiki/concepts/cntnap2.md`（rev1，status: established，confidence: high）— CASPR2蛋白双重功能（旁节区Kv1锚定/发育期中间神经元迁移）；FOXP2调控轴；三角共病机制（E/I失衡/OXT系统/PNN）；完整证据表
+- `wiki/diseases/cntnap2-deficiency-cdfe.md`（rev1，status: established，confidence: high）— CDFE综合征临床表型；双等位功能缺失→五联征；小鼠模型对应；疾病谱连续性
+
+**修订页面（2）**：
+- `wiki/concepts/foxp2.md`（rev1→rev2）— 补充cntnap2连接说明（PV+中间神经元减少→CDFE/ASD三角共病）；CNTNAP2已建独立页；source_articles新增
+- `wiki/circuits/pv-interneurons.md`（rev6→rev7）— 新增CNTNAP2缺失→PV+减少（Peñagarikano 2011）；mPFC E/I双降低+振荡协调崩溃（Lazaro 2019）；CR+特异减少（Sáfár 2026）；母体抗CASPR2抗体（Bagnall-Moreau 2026）；related新增cntnap2；key_sources新增2条
+
+**登记矛盾（0）**：今日无新矛盾。CNTNAP2常见变异的风险效应争议（Alarcon 2008 vs Toma 2018）已在 cntnap2.md "关键证据"表中并列记录为"中等置信度"与"高置信度（否定）"，遵循知识库规范明确标注不同置信度，不需登记为 contested_claims（属于证据强度不同而非直接冲突）。
+
+**新增未解问题（3）**：
+- Q-cntnap2-01（高优先级）：CNTNAP2在人类胚胎皮层发育的精确时空单细胞分辨率图谱
+- Q-cntnap2-02（中优先级）：CA2区CNTNAP2高富集是否导致特异性社会记忆编码缺陷
+- Q-cntnap2-03（中优先级）：早期催产素给药最佳时间窗口及性别差异
+
+**图谱**：221节点→223节点，1288边→1298边（+2节点：cntnap2、cntnap2-deficiency-cdfe；+10边）
+
+---
+
 ## 2026-08-14 · 文章 #113 · CA2：海马遗忘的第三元件——拒绝 LTP、守护社会记忆、触发记忆回放的神经元集群
 
 **核心主题**：CA2 海马亚区三功能枢纽——Hitti & Siegelbaum 2014（PMID:24572357, Nature）Amigo2-Cre+TeNT 选择性灭活 CA2 → 社会记忆完全丧失，空间/恐惧/物体识别正常（CA2 是社会记忆专用基底，不是一般记忆节点）；MacDonald & Tonegawa 2021（PMID:33431691, PNAS）光遗传沉默 CA2→CA1 → 48% 时间细胞降解（P=1.37×10⁻³¹），仅 15% 场所细胞受影响（χ²=19.89，P=8.19×10⁻⁶），工作记忆错误增加（F(1,20)=21.67，P=0.002）；Oliva 2016（PMID:27593179, Neuron）高密度探针记录：CA2 ramping cells 在 SWR 前 20-30ms 斜升激发 → 随后 CA3→CA1；光遗传激活 CA2 诱导人工 SWR；约 20% SWR 绕过 CA3 直接 CA2→CA1 传播；分子机制：RGS14 五通路压制标准 Hebbian LTP，但支持 Avpr1b/催产素门控的社会情境专用 mGluR-LTD（Samadi 2023 PMID:36971428）；Middleton & McHugh 2020 综述（PMID:31874067）CA2 解剖-分子-功能全谱及临床关联（TLE 弹性、双相障碍 pyramidal cell 减少）。
