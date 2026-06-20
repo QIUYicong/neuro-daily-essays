@@ -1,0 +1,53 @@
+# Run Log: 2026-06-20 (Duplicate Trigger #6)
+
+**Date**: 2026-06-20 (Beijing Time / UTC+8)
+**Status**: NO-OP — 今日文章已存在，知识库已完全同步至 2026-08-07
+**Branch**: main
+**Run started**: 2026-06-20T09:00 UTC+8 (scheduled)
+
+---
+
+## 状况说明
+
+今日为第 6 次在系统日期 2026-06-20 触发的运行。
+
+已确认：
+- 当天文章 `articles/2026-06-20-language-dual-stream.md`（#56）已存在，完整。
+- 已有运行日志：`2026-06-20-run.log`、`2026-06-20-json-fix.log`、`2026-06-20-duplicate-trigger-3.log`、`2026-06-20-duplicate-trigger-4.log`、`2026-06-20-duplicate-trigger-5.log`。
+- 情景层 append-only 不变量：不修改/不删除已有文件。
+
+根据 ROUTINE.md：「不要反复生成同一天文章」——本次不生成新文章。
+
+---
+
+## 知识库当前状态
+
+- **已有文章数**：106 篇（#1–#106，截至 2026-08-07）
+- **最新文章**：`2026-08-07-brocas-area-syntax-merge-language-evolution.md`（#106）
+- **origin/main HEAD**：3f2d48f（已通过 git pull 同步）
+- **连续性状态**：✅ 正常——全部 106 篇文章均在 main 上线性累积
+
+---
+
+## 操作记录
+
+- [x] 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md
+- [x] 确认 remote = QIUYicong/neuro-daily-essays（local_proxy，正确）
+- [x] git checkout main && git pull origin main（已同步至最新）
+- [x] 确认当天文章已存在（`2026-06-20-language-dual-stream.md`）
+- [x] 确认知识库 main 完全同步，article #106 存在
+- [x] 不重复生成文章（遵守 ROUTINE.md 规则）
+- [x] 写本次运行日志（duplicate-trigger-6）
+- [ ] 提交并推送日志到 origin/main
+
+---
+
+## 下次运行建议
+
+基于 2026-08-07 文章（#106，Broca区句法演化）的 `next_suggested_topics`：
+
+1. **意识的神经关联（NCC）与全局工作空间理论深化**（课程路线8）
+   - 优先裁决 C-2026-05-31-01（IIT后方皮层同步预测 vs COGITATE 2025否定）
+   - 优先裁决 C-2026-05-31-02（GWT点燃缺失 vs 替代解释）
+2. **FOXP2与语言发育**（追问 Q-lang-06，连接遗传学/发育/语言三条线）
+3. **语义网络的大脑分布**（颞叶ATL/MTG、模态特异语义 vs 模态无关语义）
