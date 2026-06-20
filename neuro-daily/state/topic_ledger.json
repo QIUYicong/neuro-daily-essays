@@ -1,7 +1,70 @@
 {
-  "last_updated": "2026-08-13",
-  "total_articles": 99,
+  "last_updated": "2026-06-21",
+  "total_articles": 100,
   "entries": [
+    {
+      "date": "2026-06-21",
+      "title": "内感受：大脑如何从心跳中构建情绪与自我——岛叶皮层的预测机器",
+      "filename": "2026-06-21-interoception-insular-cortex.md",
+      "article_number": 113,
+      "wiki_pages_created": [
+        "wiki/systems/insula.md",
+        "wiki/concepts/interoception.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/active-inference.md (rev1→rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "岛叶皮层如何将原始内脏信号（心跳、肠道张力、血压）转化为主观情绪体验和自我感受？EPIC模型如何重新框架情绪为内感受预测误差的具化？主动内感受推断如何通过异稳态调节改变身体而非仅感知身体？",
+      "open_questions_added": [
+        "Q-int-01（高优先级）：内感受是否是意识的必要条件？（麻醉悖论：全身麻醉下心跳信号仍存在但意识消失）",
+        "Q-int-02（中优先级）：VENs在快速内感受→自律调控通路中的具体电生理角色是什么？",
+        "Q-int-03（高优先级）：内感受三个维度（准确度/精度/觉察）在不同精神疾病中的特异性异常模式是什么？"
+      ],
+      "layer": [
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱6（情绪与动机）+ 脊柱8（意识与自我）+ 脊柱5（认知控制）",
+      "topic_tags": [
+        "interoception insular cortex insula",
+        "EPIC model Barrett Simmons 2015",
+        "active interoceptive inference Seth Friston 2016",
+        "beast machine hypothesis allostasis",
+        "von Economo neurons VENs anterior insula",
+        "interoceptive accuracy precision awareness Garfinkel",
+        "salience network anterior cingulate cortex",
+        "predictive coding body state emotion",
+        "depression anxiety interoception training",
+        "self selfhood embodied cognition"
+      ],
+      "main_sources": [
+        "PMID:19096369 (Craig 2009, 内感受综述)",
+        "PMID:26016744 (Barrett & Simmons 2015, EPIC模型)",
+        "PMID:28080966 (Seth & Friston 2016, 主动内感受推断)",
+        "PMID:30224233 (Seth & Tsakiris 2018, 野兽机器假说)",
+        "PMID:31133822 (Evrard 2019, 岛叶三段解剖+VENs)",
+        "PMID:38722464 (Zhang 2024, 岛叶精神疾病综述)",
+        "PMID:38782961 (Sugawara 2024, 内感受训练RCT)",
+        "PMID:30467392 (Tan 2018, 中岛叶焦虑fMRI)"
+      ],
+      "open_access_fulltext": [
+        "PMID:26016744 (PMC4731102)",
+        "PMID:28080966 (PMC11607240)",
+        "PMID:31133822 (PMC6517547)"
+      ],
+      "next_suggested_topics": [
+        "前扣带回（ACC）情感痛觉与社会痛觉的深度解析",
+        "情绪调节：前额叶-杏仁核回路的认知重评与抑制机制",
+        "5-HT精度框架：血清素在内感受精度调控中的角色（呼应Q-ai-01）",
+        "自主神经系统深度：迷走神经多元系统理论（Porges）"
+      ]
+    },
     {
       "date": "2026-08-12",
       "title": "FOXP2与语言发育神经遗传学：从KE家族突变到皮层-纹状体回路的分子编程",

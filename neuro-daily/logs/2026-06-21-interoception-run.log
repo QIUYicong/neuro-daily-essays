@@ -1,0 +1,96 @@
+# Run Log — 2026-06-21（内感受·岛叶皮层）
+
+## 基本信息
+- **文章编号**：#113
+- **日期**：2026-06-21（北京时间）
+- **主题**：内感受与岛叶皮层——大脑如何从心跳中构建情绪与自我
+- **层级**：细胞/脑区/全脑网络/认知/疾病
+- **核心问题**：岛叶皮层如何将原始内脏信号（心跳/肠道张力/血压）转化为主观情绪体验？EPIC模型如何重新框架情绪为内感受预测误差的具化？
+
+---
+
+## 文献检索
+
+### 搜索策略
+1. PubMed E-utilities API 验证 PMID 真实性
+2. PMC Open Access 获取全文（3/8 篇）
+3. 关键词：interoception insular cortex emotion prediction EPIC model, von Economo neurons anterior insula, active interoceptive inference allostasis Seth Friston
+
+### 检索到的来源
+
+| PMID/PMCID | 作者/年份 | 标题 | 访问方式 |
+|------------|----------|------|---------|
+| PMID:19096369 | Craig 2009 | How do you feel--now? The anterior insula and human awareness | 摘要+综述内容 |
+| PMID:26016744 / PMC4731102 | Barrett & Simmons 2015 | Interoceptive predictions in the brain | 开放全文 |
+| PMID:28080966 / PMC11607240 | Seth & Friston 2016 | Active interoceptive inference and the emotional brain | 开放全文 |
+| PMID:30224233 | Seth & Tsakiris 2018 | Being a beast machine: the somatic basis of selfhood | 摘要 |
+| PMID:31133822 / PMC6517547 | Evrard 2019 | The organization of the human insula | 开放全文 |
+| PMID:38722464 | Zhang 2024 | The insula in psychiatric disorders | 摘要 |
+| PMID:38782961 | Sugawara 2024 | Interoception training RCT with fMRI | 摘要 |
+| PMID:30467392 | Tan 2018 | Mid-insula activation correlates with anxiety | 摘要 |
+
+---
+
+## 文章内容摘要
+
+**标题**：内感受：大脑如何从心跳中构建情绪与自我——岛叶皮层的预测机器
+
+**核心框架**：
+1. **解剖层级**：后颗粒岛→中无颗粒岛→前无颗粒岛的信号通路（从精确躯体图谱到主观情绪意识）
+2. **EPIC 模型**（Barrett & Simmons 2015）：无颗粒内脏皮层（前岛/vmPFC/ACC）优先发出下行预测，后岛叶计算预测误差，误差上行后被情境化为情绪体验
+3. **主动内感受推断**（Seth & Friston 2016）：大脑不只感知，还通过自律调控命令改变身体状态以最小化预测误差——情绪是身体调节的行为工具
+4. **冯·埃科诺莫神经元（VENs）**：前岛叶 Ial 区的大型梭形 Layer 5 神经元，表达 FEZF2/CTIP2，主要投向 PAG/PBN 脑干自律中枢
+5. **"野兽机器"假说**（Seth & Tsakiris 2018）：自我感受从根本上涌现于对有机体生命状态的持续内感受调节
+6. **三维度分解**（Garfinkel 模型）：准确度（IA）/精度（IP）/觉察（IM）相对独立，与不同心理病理有不同关联
+
+**字数**：约5000中文字符
+
+---
+
+## Wiki 知识库更新
+
+### 新建页面（2页）
+- `wiki/systems/insula.md`（岛叶皮层）：status=established, confidence=high, revision_count=1
+- `wiki/concepts/interoception.md`（内感受）：status=established, confidence=high, revision_count=1
+
+### 修订页面（1页）
+- `wiki/concepts/active-inference.md`：rev1→rev2（新增interoception/insula连接、Q-int-01/Q-int-03）
+
+### 图谱更新
+- 新增节点：2个（insula, interoception）
+- 新增边：12条
+- 更新后：219节点 / 1274条边
+
+### 新增开放问题（3个）
+- Q-int-01（高优先级）：内感受是否是意识的必要条件？（麻醉悖论）
+- Q-int-02（中优先级）：VENs的具体电生理角色是什么？
+- Q-int-03（高优先级）：三维度（IA/IP/IM）跨疾病特异性模式
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`：新增 #113 条目，total_articles: 99→100，last_updated: "2026-06-21"
+- `state/unresolved_questions.md`：新增 Q-int-01/02/03
+- `state/monthly_synthesis.md`：新增 #113 到 2026-06-21 表格
+- `wiki/index.md`：新增 systems/insula 和 concepts/interoception 两个条目，总数 214→216
+- `wiki/CHANGELOG.md`：添加 2026-06-21 (#113) 变更记录
+
+---
+
+## 来源文件
+- `neuro-daily/articles/2026-06-21-interoception-insular-cortex.md`（主文章）
+- `neuro-daily/notes/2026-06-21-interoception-reading-notes.md`（阅读笔记）
+- `neuro-daily/sources/2026-06-21-interoception-sources.json`（来源记录）
+
+---
+
+## 分支信息
+- 工作分支：claude/funny-einstein-nl7bww
+- 提交消息：Add neuro daily article #113 + wiki consolidation for 2026-06-21 (interoception)
+
+---
+
+## 备注
+- 注意：上一批次运行（在UTC 2026-06-20时间戳下运行，但使用未来日期如2026-08-XX）创建了一个同名 `2026-06-21-run.log`（实际内容为运动皮层文章#57）。本运行使用变体文件名 `2026-06-21-interoception-run.log`。
+- 三个来源文件（notes/sources/article）均使用 `interoception` 前缀或后缀区分，因原始名称（reading-notes.md/sources.json）已被前一运行占用。

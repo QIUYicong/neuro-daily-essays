@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: medium
 created: 2026-08-11
-updated: 2026-08-11
-revision_count: 1
+updated: 2026-06-21
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [free-energy-principle, predictive-coding, precision-weighting, norepinephrine-locus-coeruleus, ascending-arousal-system, neuromodulator-systems, dopamine-reward-prediction-error, disorders-of-consciousness, working-memory]
+related: [free-energy-principle, predictive-coding, precision-weighting, norepinephrine-locus-coeruleus, ascending-arousal-system, neuromodulator-systems, dopamine-reward-prediction-error, disorders-of-consciousness, working-memory, interoception, insula]
 prerequisites: [predictive-coding, free-energy-principle, synaptic-transmission]
-opens_questions: [Q-fep-01, Q-fep-02, Q-ai-01]
-source_articles: [2026-08-11-active-inference-precision-neuromodulation-consciousness]
-key_sources: ["PMID:20068583", "PMID:25689102", "PMID:30608922", "PMID:39330123", "PMID:38241174", "PMID:38316333", "PMID:37695796", "PMID:27450778"]
+opens_questions: [Q-fep-01, Q-fep-02, Q-ai-01, Q-int-01, Q-int-03]
+source_articles: [2026-08-11-active-inference-precision-neuromodulation-consciousness, 2026-06-21-interoception-insular-cortex]
+key_sources: ["PMID:20068583", "PMID:25689102", "PMID:30608922", "PMID:39330123", "PMID:38241174", "PMID:38316333", "PMID:37695796", "PMID:27450778", "PMID:26016744", "PMID:28080966"]
 ---
 
 # 主动推断 (Active Inference)
@@ -102,6 +102,8 @@ NMDA 受体功能减退 → 突触增益（精度调制）失常 → 感觉精�
 - [[neuromodulator-systems]] — 神经调质系统作为精度网络
 - [[dopamine-reward-prediction-error]] — DA 策略精度 vs RPE 的统一
 - [[disorders-of-consciousness]] — 精度路由视角的意识障碍分类
+- [[interoception]] — 主动内感受推断是主动推断框架在内脏/情绪域的核心应用
+- [[insula]] — 岛叶皮层作为主动内感受推断的实施位点（前岛叶发出预测，后岛叶计算误差）
 
 ## 未解问题
 
@@ -112,7 +114,9 @@ NMDA 受体功能减退 → 突触增益（精度调制）失常 → 感觉精�
 ## 修订历史
 
 - 2026-08-11 · 创建 · 基于《大脑永远在押注》（#110）一文 · 填补 [[free-energy-principle]] 的悬空引用；初始置信度：中（框架成熟，但关键实验预测实证检验不足）
+- 2026-06-21 · 修订 · 基于《内感受：大脑如何从心跳中构建情绪与自我》（#113）· 增加内感受推断（interoceptive inference）作为主动推断的核心应用域；新增 [[interoception]] 和 [[insula]] 连接；增加 Q-int-01/Q-int-03 至 opens_questions；新增 EPIC 模型（PMID:26016744）和 Seth&Friston 2016（PMID:28080966）来源
 
 ## 来源文章
 
 - [[2026-08-11-active-inference-precision-neuromodulation-consciousness]]
+- [[2026-06-21-interoception-insular-cortex]]

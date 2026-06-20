@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-06-21 · 文章 #113 · 内感受与岛叶皮层：大脑如何从心跳构建情绪与自我
+
+**核心主题**：内感受（interoception）作为情绪体验和自我意识的计算基础——岛叶皮层三段层级（后颗粒→中无颗粒→前无颗粒）解剖组织（Evrard 2019, PMID:31133822）；EPIC 模型（Barrett & Simmons 2015, PMID:26016744）颠覆"身体→大脑"传统，提出无颗粒皮层发出预测、后岛叶计算误差、误差具化为情绪；Seth & Friston 2016（PMID:28080966）主动内感受推断与异稳态；"野兽机器"假说（Seth & Tsakiris 2018, PMID:30224233）将自我感受锚定于内感受调节；心跳计数实验与焦虑相关性；冯·埃科诺莫神经元（VENs）在前岛叶 Ial 区、主要投向脑干自律中枢。
+
+**新建页面（2）**：
+- `wiki/systems/insula.md` — 岛叶皮层，rev1；三段解剖（后颗粒/中/前无颗粒）、信号通路、VENs、预测编码角色、显著性网络节点；开放问题 Q-int-01/02
+- `wiki/concepts/interoception.md` — 内感受，rev1；EPIC模型、主动内感受推断、三维度模型（准确度/精度/觉察）、情绪生成机制、疾病关联；开放问题 Q-int-01/02/03 + Q-ai-01（相关）
+
+**修订页面（1）**：
+- `wiki/concepts/active-inference.md`（rev1→rev2）— 新增 [[interoception]] 和 [[insula]] 至 related 和连接；新增 PMID:26016744、28080966 至 key_sources；增加 Q-int-01、Q-int-03 至 opens_questions
+
+**登记矛盾（0）**：今日无新矛盾。前岛叶必要性争议（病变研究 vs fMRI 相关）已在 insula.md Q-int-01 记录，但不构成严格的 `contested` 主张（两类证据测量维度不同）。
+
+**新增未解问题（3）**：Q-int-01（高：前岛叶损伤后情绪保留 vs 不可缺失 — 冗余还是测量局限？）、Q-int-02（中：VENs 的直接电生理角色）、Q-int-03（高：内感受三维度在不同精神疾病中的特异性模式）
+
+**新增悬空引用（0）**：本次新增的 interoception 和 insula 均已建页。amygdala、anterior-cingulate-cortex 等已有页面，无新悬空引用。
+
+**图谱**：219节点→221节点（wait: 已有219节点，本次新增2→221），1274边→1286边（+2节点，+12边）；实际本次写入时 node_count 更新为 219（原217+2），edge_count 更新为 1274（原1262+12）。
+
+---
+
 ## 2026-08-13 · 文章 #112 · 皮层时间层级：内禀神经时间尺度（INT）与时间感受野（TRW）
 
 **核心主题**：皮层时间层级——Murray et al. 2014（PMID:25383900）发现猕猴7皮层区域INT梯度（MT~50ms→ACC~350ms，rs=0.89）；Hasson et al. 2008/Lerner et al. 2011（PMID:18322098/21414912）建立TRW框架（A1:毫秒→DMN:数十秒）；Ding et al. 2016（PMID:26642090）ECoG证明大脑同时在4Hz/2Hz/1Hz追踪词/短语/句子；Caucheteux et al. 2023（PMID:36864133）证明预测编码层级与时间层级对应；Li & Wang 2022（PMID:35110401）三机制（突触兴奋梯度+E/I属性+精细平衡）的数学模型；Cusinato et al. 2023（PMID:37045604）颅内EEG揭示新皮层→内嗅→海马→杏仁核的延伸梯度；疾病窗口（TLE/AD/卒中INT失调）。

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-13",
-  "node_count": 217,
-  "edge_count": 1262,
+  "updated": "2026-06-21",
+  "node_count": 219,
+  "edge_count": 1274,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1997,6 +1997,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/temporal-receptive-window.md"
+    },
+    {
+      "id": "insula",
+      "title": "岛叶皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/insula.md"
+    },
+    {
+      "id": "interoception",
+      "title": "内感受",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/interoception.md"
     }
   ],
   "edges": [
@@ -9126,6 +9144,66 @@
     {
       "from": "predictive-coding",
       "to": "temporal-receptive-window",
+      "type": "related"
+    },
+    {
+      "from": "interoception",
+      "to": "insula",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "insula",
+      "to": "interoception",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "interoception",
+      "to": "active-inference",
+      "type": "related"
+    },
+    {
+      "from": "interoception",
+      "to": "predictive-coding",
+      "type": "related"
+    },
+    {
+      "from": "interoception",
+      "to": "free-energy-principle",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "interoception",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "interoception",
+      "to": "anterior-cingulate-cortex",
+      "type": "related"
+    },
+    {
+      "from": "active-inference",
+      "to": "interoception",
+      "type": "related"
+    },
+    {
+      "from": "insula",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "insula",
+      "to": "anterior-cingulate-cortex",
+      "type": "related"
+    },
+    {
+      "from": "insula",
+      "to": "thalamus",
+      "type": "related"
+    },
+    {
+      "from": "insula",
+      "to": "active-inference",
       "type": "related"
     }
   ],

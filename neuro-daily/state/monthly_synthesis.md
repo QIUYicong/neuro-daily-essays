@@ -245,6 +245,7 @@
 | 64 | 2026-06-28 | BDNF：大脑给自己的成长信号——TrkB信号级联、LTP后期维持与AD分子接点 | 分子/突触/细胞/认知/疾病 |
 | 63 | 2026-06-27 | 意识在哪里？——神经相关物（NCC）框架与 2025 年大脑意识科学的真实地平线 | 全脑网络/认知/脑区 |
 | 57 | 2026-06-21 | 从意图到动作——运动皮层如何用旋转的神经交响乐指挥肌肉 | 系统/回路 |
+| 113 | 2026-06-21 | 内感受：大脑如何从心跳中构建情绪与自我——岛叶皮层的预测机器 | 细胞/脑区/全脑网络/认知/疾病 |
 | 58 | 2026-06-22 | 六边形的秘密：内嗅皮层网格细胞如何为大脑装备空间坐标系 | 脑区/细胞/认知/全脑网络 |
 | 59 | 2026-06-23 | 小脑的秘密：浦肯野细胞如何让大脑成为一台预测机器 | 回路/系统/认知 |
 | 60 | 2026-06-24 | 记忆不混淆的秘密：CA3 的吸引子动力学与海马如何在「自动补全」与「精准分离」之间走钢丝 | 微回路/细胞/认知 |
@@ -254,9 +255,12 @@
 
 ### 本月新增 wiki 页面（截至 2026-06-03）
 
-- **总主题页**：113（更新：_graph.json 最新节点数）
-- **图谱**：113节点，651条边；2026-06-03新建：thalamus（系统级），thalamic-firing-modes（概念）；修订：thalamocortical-circuit rev2，working-memory rev6
-- **本月新建**：motor-cortex, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex, cerebellum, cerebellar-ltd, forward-model, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, binding-by-synchrony, adult-neurogenesis, **neural-correlates-of-consciousness（NCC三分法框架）**，tau-pathology，**thalamus，thalamic-firing-modes** + 多个此前文章的相关页面
+- **总主题页**：216（更新：2026-06-21，新建 systems/insula 和 concepts/interoception）
+- **图谱**：219节点，1274条边（2026-06-21更新：新增 insula、interoception 节点，新增12条边）
+- **2026-06-21新建**：systems/insula（岛叶皮层，三段解剖/VENs/预测误差/显著性网络）、concepts/interoception（内感受，EPIC模型/三维度/主动内感受推断）
+- **2026-06-21修订**：concepts/active-inference（rev1→rev2，新增内感受推断连接）
+- **2026-06-21新增开放问题**：Q-int-01（高：内感受是否意识必要条件）、Q-int-02（中：VEN电生理功能）、Q-int-03（高：三维度跨疾病特异性）
+- **本月新建**：motor-cortex, population-vector-coding, rotational-dynamics-motor, output-null-space, mirror-neurons, place-cells, grid-cells, path-integration, cognitive-map, theta-phase-precession, entorhinal-cortex, cerebellum, cerebellar-ltd, forward-model, pattern-completion, pattern-separation, attractor-network, complementary-learning-systems, binding-by-synchrony, adult-neurogenesis, **neural-correlates-of-consciousness（NCC三分法框架）**，tau-pathology，**thalamus，thalamic-firing-modes**，**insula（岛叶皮层）**，**interoception（内感受）** + 多个此前文章的相关页面
 - **本月修订**：language-network, ltd rev2, predictive-coding rev5, motor-cortex rev2, hippocampal-circuit rev9, ltp rev8, place-cells rev2, gamma-oscillations rev2, hippocampal-neurogenesis rev2, pattern-separation rev2, **global-workspace-theory rev6（NCC三分法+GNW回应）**、**integrated-information-theory rev3（可证伪性讨论）**、**consciousness-ignition rev5（offset ignition非核心预测）**、**posterior-cortical-hot-zone rev2（临床证据补充）**
 - **本月矛盾状态**：C-2026-05-31-01 和 C-2026-05-31-02 evidence_update 更新（均仍 open，但分析更深入）
 

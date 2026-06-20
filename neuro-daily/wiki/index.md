@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-13（第112篇·皮层时间层级·内禀神经时间尺度·时间感受野·语言时间层级）· 主题页总数：**214**（新建2页：concepts/intrinsic-neural-timescale、concepts/temporal-receptive-window；修订3页：concepts/temporal-coding-hierarchy rev1→rev2、theories/predictive-coding rev8→rev9、temporal-hierarchy rev；新增Q-temp-hier-01/02/03；图谱219节点/1280边）
+> 最后更新：2026-06-21（第113篇·内感受·岛叶皮层·情绪构建·身体预测·EPIC模型）· 主题页总数：**216**（新建2页：systems/insula、concepts/interoception；修订1页：concepts/active-inference rev1→rev2；新增Q-int-01/02/03；图谱219节点/1274边）
 
 ---
 
@@ -173,6 +173,7 @@
 - 🟢 [内源性大麻素系统（Endocannabinoid System）](concepts/endocannabinoid-system.md) — 脑内最主要逆行突触调制系统；2-AG（DGLα合成/MAGL降解，全激动剂）和 AEA（NAPE-PLD合成/FAAH降解，TRPV1全激动剂）；CB1R Gβγ→Cav2.2（DSI短时程）+ Gαi→RIM1α（eCB-LTD长时程）双通路；CCK⁺ GABA 能中间神经元为主要靶点；杏仁核 AEA-FAAH 轴调控恐惧消退（FAAH 抑制剂 PTSD 靶点）；THC 弥散激活 CB1R 导致逆行调控失真 **[NEW 2026-08-05]**
 - 🟡 [认知运动解离（CMD）](concepts/cognitive-motor-dissociation.md) — 行为检查显示无命令跟随，但任务型fMRI/EEG显示命令跟随神经信号的状态；约25%"无反应"DoC患者有CMD（Bodien NEJM 2024，n=353）；识别方法（"打网球"想象范式/P300 EEG/PCI≥0.31）；从根本上改变意识障碍的医疗决策伦理 **[NEW 2026-08-09]**
 - 🟡 [前脑中间回路假说](concepts/mesocircuit-hypothesis.md) — Schiff（2009/2022）提出的VS/UWS自我维持机制：皮层损伤→纹状体失驱动→GPi脱抑制→中央丘脑过度抑制→皮层进一步去传入；关键：GPi脱抑制是可逆的；唑吡坦/金达胺素/中央丘脑DBS均通过打破该回路起效 **[NEW 2026-08-09]**
+- 🟢 [内感受](concepts/interoception.md) — 大脑主动预测身体内部状态的计算过程；EPIC模型（Barrett & Simmons 2015）：无颗粒皮层发出内感受预测，后岛叶计算预测误差，误差被情境化具化为情绪体验；三维度：准确度（IA）/精度（IP）/觉察（IM）；主动内感受推断与异稳态调节；情绪生成的情境依赖性；"野兽机器"假说（Seth 2021）**[NEW 2026-06-21]**
 
 ## motor（运动系统）
 
@@ -211,6 +212,7 @@
 - 🟢 [初级躯体感觉皮层（S1）](systems/somatosensory-cortex.md) — 四亚区（3a/3b/1/2）×感觉小人（homunculus）×皮层放大因子；Merzenich系列实验确立经验依赖皮层地图可塑性（截指后邻指侵占/训练后表征扩张）；可塑性需要行为相关性（注意门控）；感觉剥夺重启成年皮层至关键期状态；**rev2新增：S1在痛觉中的感觉-分辨维度（脊髓丘脑束→VPL→S1）** **[修订rev2 2026-08-02]**
 - 🔵 [痛觉矩阵（Pain Matrix）](systems/pain-matrix.md) — 脊髓丘脑束信号在脑内形成的多节点网络：S1/S2（感觉-分辨）+岛叶（内感受整合）+ACC（情感成分）+PFC（认知调控）；VPL→S1（新脊丘束）vs VMpo→岛叶/ACC（旁脊丘束）双路分叉；cingulotomy"知痛不感苦"经典分离；Wager NPS 多变量模式分析；慢性化中中脑边缘系统替代感觉网络 **[NEW 2026-08-02]**
 - 🟢 [前扣带回（ACC）](systems/anterior-cingulate-cortex.md) — 疼痛情感成分的核心编码区（cingulotomy证明）；ACC→PAG下行镇痛通路；社会排斥与身体疼痛共享dACC神经资源（Eisenberger 2003）；安慰剂镇痛的关键皮层节点；慢性疼痛中与NAc功能连接增强预测慢性化 **[NEW 2026-08-02]**
+- 🟢 [岛叶皮层](systems/insula.md) — 外侧裂深处的多模态整合皮层；后颗粒/中无颗粒/前无颗粒三段层级（VMpo→后岛→中岛→前岛）；无颗粒前岛叶发出内感受预测，后岛叶计算预测误差；冯·埃科诺莫神经元（VENs）投向脑干自律中枢（PAG/PBN）；显著性网络核心节点；主观情绪意识的皮层基底 **[NEW 2026-06-21]**
 - 🟢 [导水管周围灰质（PAG）](systems/periaqueductal-gray.md) — 内源性阿片镇痛系统核心枢纽；PAG电刺激→全身镇痛→纳洛酮阻断（内源性阿片因果证据）；vlPAG GABA能→去抑制机制；RVM ON/OFF-cells分工（镇痛/促痛）；ACC/下丘脑/杏仁核→PAG整合；急性疼痛OFF-cells主导→慢性疼痛ON-cells过度激活 **[NEW 2026-08-02]**
 - 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化 **[NEW 2026-07-30]**
 - 🟢 [基底节（区间计时视角）](systems/basal-ganglia.md) — 以区间计时为核心的系统层级视角：MSN ~1/3 显示斜坡放电；D1-MSN 递减/D2-MSN 递增的对立动力学（Bruce 2025 eLife 光遗传因果证据，R²=0.95 漂移扩散模型）；纹状体-丘脑-皮层节拍计时回路；帕金森病计时障碍机制 **[NEW 2026-07-31]**（另见 [[circuits/basal-ganglia]] 运动选择视角）
