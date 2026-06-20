@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-08-11 · 文章 #110 · 大脑永远在押注：主动推断、精度控制与神经调质的统一框架
+
+**核心主题**：主动推断（active inference）作为感知-行动统一框架；期望自由能（EFE）分解为外在价值+认知价值，解决探索-利用困境；三层精度框架（感觉精度/转换精度/策略精度）对应ACh/NE/DA三大调质系统；直接实验证据（Pérez-González 2024 eLife：ACh选择性锐化听觉皮层预测误差分布 iPE 0.29→-0.05；Basu 2024 Biol Psych：前额叶NE拟合RW模型 R²=0.69，时间精度更新因果验证）；精度失调作为统一计算病理学（精神分裂/ASD/PD/MND）；断联假说（Friston 2016：NMDA功能减退→感觉精度升高→幻觉/妄想）；ASD情境适应性精度失调（Arthur 2023，非超精确先验）；DoC精度路由视角（VS=路由断联/MCS=部分恢复/CMD=运动输出精度失败）；主动推断 vs Transformer注意力机制比较（精度由内在状态分配 vs 由输入内容决定）。
+
+**新建页面（1）**：
+- `wiki/concepts/active-inference.md`（rev1，status: established，confidence: medium）— 填补 free-energy-principle 悬空引用；EFE分解；精度三层框架；AAS硬件连接；精度失调疾病模型；争议（可证伪性）
+
+**修订页面（3）**：
+- `wiki/theories/free-energy-principle.md`（rev1→rev2）— 新增"精度层级与神经调质分工"段落（三层精度表格；AAS=精度硬件；active-inference悬空引用填补）；related新增7个；key_sources新增7条2015-2024文献
+- `wiki/concepts/precision-weighting.md`（rev1→rev2）— 神经调质精度分工表格精确化（加入2024实验证据）；新增精度失调疾病模型（精神分裂/ASD/PD/MND含量化证据）；新增关键证据3条；related新增4个；opens_questions新增Q-fep-02
+- `wiki/concepts/norepinephrine-locus-coeruleus.md`（rev4→rev5）— 新增"LC在主动推断框架中的计算角色"段落（Sales 2019模型/Basu 2024时间精度更新 R²=0.69/三层精度框架定位NE=转换精度层/颠倒U型计算学解释）；关键证据表新增2行；related/connected新增3个；key_sources新增PMID:30608922/38316333
+
+**图谱更新**：213节点/1226边 → 214节点/1246边（+1节点，+20边）
+
+**新增未解问题**：
+- Q-ai-01（中优先级）：5-HT在精度框架中的具体角色——内感觉精度还是时间深度？如何实验检验？
+
+---
+
 ## 2026-08-10 · 文章 #109 · 脑干如何"点亮"大脑：上行激活系统的多源神经化学解剖与意识调控
 
 **核心主题**：上行激活系统（AAS）的五核团架构（LC-NE / DRN-5HT / PPT-LDT-ACh / TMN-His / LH-Orexin）；Fuller 2011双通道模型（丘脑路次要 / 基底前脑路主要；PB/PC谷氨酸通路毁损→昏迷样状态）；Edlow 2024 VTA作为dAAN枢纽（人类超高分辨率MRI）；LC倒U型增益曲线与选择性集合体拓扑；AD/PD早期LC退变（55%神经元丢失早于Aβ斑块）；DRN→VTA血清素通路的清醒促进（Wang 2024，光遗传/化学遗传）；VLPO-AAS翻转开关模型（Arrigoni & Fuller 2022）；腺苷/PGD₂的睡眠驱动信号；食欲素作为系统稳定器；NT1中95%食欲素神经元丢失（Rauf 2025）；OX2R激动剂danavorexton（MWT+11.1分）。

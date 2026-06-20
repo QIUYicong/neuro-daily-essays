@@ -6,14 +6,14 @@ type: theory
 status: emerging
 confidence: medium
 created: 2026-07-13
-updated: 2026-07-13
-revision_count: 1
-dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [predictive-coding, active-inference, variational-autoencoder, dopamine-reward-prediction-error, basal-ganglia, working-memory, default-mode-network]
+updated: 2026-08-11
+revision_count: 2
+dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition, disease]
+related: [predictive-coding, active-inference, variational-autoencoder, dopamine-reward-prediction-error, basal-ganglia, working-memory, default-mode-network, precision-weighting, norepinephrine-locus-coeruleus, ascending-arousal-system, neuromodulator-systems, disorders-of-consciousness]
 prerequisites: [predictive-coding, synaptic-transmission, action-potential]
 opens_questions: [Q-fep-01, Q-fep-02]
-source_articles: [2026-07-13-predictive-coding-free-energy-vae]
-key_sources: ["PMID:20068583", "PMID:19528002", "PMID:28298703"]
+source_articles: [2026-07-13-predictive-coding-free-energy-vae, 2026-08-11-active-inference-precision-neuromodulation-consciousness]
+key_sources: ["PMID:20068583", "PMID:19528002", "PMID:28298703", "PMID:25689102", "PMID:39330123", "PMID:38241174", "PMID:38316333", "PMID:37695796", "PMID:27450778"]
 ---
 
 # 自由能原理 (Free Energy Principle)
@@ -62,23 +62,43 @@ $$F = -\ln p(\tilde{s}) + D_{KL}[q(\vartheta) \| p(\vartheta|\tilde{s})]$$
 | 感知即变分推断的神经计算实现 | 理论综述；与已知皮层生理的一致性 | PMID:19528002 | 中（间接证据为主）|
 | 数学教程：精确的微分方程实现与神经网络对应 | 教程论文；可再现的计算仿真 | PMID:28298703 | 高（数学可验证）|
 
+## 精度：层级推断的权重系统（2026-08-11 新增）
+
+自由能原理的一个关键延伸是**精度加权**（[[precision-weighting]]）：预测误差信号不均等重要，其影响内部模型更新的强度取决于精度（= 信念可信度 = 1/方差）。
+
+在完整的主动推断框架中，精度在三个层面运作（Limanowski et al. 2024，PMID:39330123）：
+
+| 精度层级 | 含义 | 神经调质 |
+|---------|------|---------|
+| 感觉精度 | 底层感觉数据的可信度 | 乙酰胆碱（ACh） |
+| 转换精度 | 状态转变预测的可信度 | 去甲肾上腺素（NE）|
+| 策略精度 | 行动计划的置信度 | 多巴胺（DA）|
+
+这将 AAS（[[ascending-arousal-system]]）的五大神经调质系统重新定位为**全脑精度分配硬件**，而非简单的觉醒/注意调节器。直接实验证据（Pérez-González et al. 2024，PMID:38241174；Basu et al. 2024，PMID:38316333）见 [[active-inference]] 和 [[precision-weighting]]。
+
 ## 连接
 
 - [[predictive-coding]] — 预测编码是自由能原理在皮层层级中的具体实现
-- [[active-inference]] — 行动作为自由能最小化：实现本体感觉预测而非执行运动命令（悬空引用）
+- [[active-inference]] — 主动推断：行动作为自由能最小化的完整框架（已有页面）
+- [[precision-weighting]] — 精度加权是自由能原理的关键机制：决定预测误差对信念更新的影响强度
 - [[variational-autoencoder]] — VAE 的 ELBO 最大化与自由能最小化数学等价
-- [[dopamine-reward-prediction-error]] — 多巴胺 RPE 是自由能原理在奖励域的特例
+- [[dopamine-reward-prediction-error]] — DA RPE 是自由能原理在奖励域中策略精度的特例
 - [[default-mode-network]] — DMN 可能是自由能框架中最高层的先验生成器
+- [[ascending-arousal-system]] — AAS 五核团 = 精度控制硬件：ACh/NE/DA/5-HT 分别对应不同精度层级
+- [[neuromodulator-systems]] — 神经调质系统通过精度调制实现全脑状态管理
+- [[disorders-of-consciousness]] — DoC 可理解为精度路由失败：VS/MCS/CMD 对应不同拓扑断联
 
 ## 未解问题
 
-- Q-fep-01（高优先级）：自由能原理给出的哪些具体实验预测（可被数据证伪）？是否有任何已知神经现象在该框架下无法被解释，构成真正的反例？
-- Q-fep-02（中优先级）：自由能最小化在微观（单神经元）、介观（皮层层级）和宏观（行为）三个尺度上的具体实现机制是否各有不同分子基础？
+- Q-fep-01（高优先级）：自由能原理给出的哪些具体实验预测（可被数据证伪）？是否有任何已知神经现象在该框架下无法被解释，构成真正的反例？截至2024年，实证研究数量仍不足双位数（Badcock & Davey 2024，PMID:39451909）。
+- Q-fep-02（中优先级）：三层精度（感觉/转换/策略）的神经基底是否真的分离？ACh/NE/DA 的实际投射重叠大，精度专一化程度存疑。
 
 ## 修订历史
 
 - 2026-07-13 · 创建 · 基于《大脑的预言机》（#81）一文 · 初始置信度：中（框架 emerging/contested 之间；理论优雅但可证伪性有争议）
+- 2026-08-11 · 修订 rev2 · 基于《大脑永远在押注》（#110）一文 · 新增"精度层级与神经调质分工"段落（三层精度表格；AAS重新定位为精度硬件；直接证据引用）；related 新增 precision-weighting/ascending-arousal-system/neuromodulator-systems/disorders-of-consciousness；key_sources 新增 7 条 2015-2024 文献；active-inference 页面从悬空引用恢复为已建立
 
 ## 来源文章
 
 - [[2026-07-13-predictive-coding-free-energy-vae]]
+- [[2026-08-11-active-inference-precision-neuromodulation-consciousness]]

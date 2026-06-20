@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-10（第109篇·上行激活系统·脑干五核团·翻转开关·食欲素·发作性睡病·AAS两通道架构·VTA枢纽）· 主题页总数：**208**（新建3页：systems/ascending-arousal-system、concepts/orexin-hypocretin、concepts/flip-flop-switch-sleep-wake；修订2页：concepts/norepinephrine-locus-coeruleus rev3→rev4、systems/neuromodulator-systems rev4→rev5；新增Q-aas-01/02/03）
+> 最后更新：2026-08-11（第110篇·主动推断·精度控制·神经调质统一框架·FEP·ACh感觉精度·NE转换精度·DA策略精度·精神分裂症/ASD/PD精度失调）· 主题页总数：**209**（新建1页：concepts/active-inference；修订3页：theories/free-energy-principle rev1→rev2、concepts/precision-weighting rev1→rev2、concepts/norepinephrine-locus-coeruleus rev4→rev5；新增Q-ai-01；图谱214节点/1246边）
 
 ---
 
@@ -233,11 +233,12 @@
 
 - 🔵 [全局工作空间理论（GWT）](theories/global-workspace-theory.md) — 意识点燃机制；Dehaene-Changeux 神经工作空间；有意识知觉的全有全无广播事件；GWT vs IIT 2025 年对抗性合作 **[NEW 2026-05-30]**
 - 🟡 [预测编码](theories/predictive-coding.md) — 皮层层级通过自上而下的预测反馈 + 自下而上的预测误差前馈实现贝叶斯推断；Rao & Ballard 1999 奠基模型；Bastos 2012 皮层分层映射（γ=误差前馈，α/β=预测反馈）；Keller 2012 V1感觉运动失配实验；注意=精度加权；与DA-RPE同一计算结构 **[修订 rev6 2026-07-13]**
-- 🟡 [自由能原理](theories/free-energy-principle.md) — 弗里斯顿提出的统一大脑理论：大脑通过最小化变分自由能（感知+行动双路径）来减少惊奇；数学上等价于VAE的ELBO最大化；是预测编码的贝叶斯数学基础 **[NEW 2026-07-13]**
+- 🟡 [自由能原理](theories/free-energy-principle.md) — 弗里斯顿提出的统一大脑理论：大脑通过最小化变分自由能（感知+行动双路径）来减少惊奇；数学上等价于VAE的ELBO；新增：三层精度框架+AAS神经调质=精度硬件+DoC=精度路由失败 **[修订 rev2 2026-08-11]**
 - 🟢 [时序差分学习（TD学习）](theories/td-learning.md) — Sutton & Barto 1988经典算法；δ(t)=r(t)+γV(t+1)−V(t)；从标准TD到信念状态TD（mPFC+海马处理状态不确定性）再到分布式TD（不同分位数学习器）的三级发展；深度强化学习（DQN）的理论基础 **[NEW 2026-07-12]**
 - 🔴 [整合信息理论（IIT）](theories/integrated-information-theory.md) — 意识 = Φ（整合信息量）；五公理推导物理约束；意识基质在后方皮层热区（而非前额叶）；小脑/视网膜低 Φ 预测与临床一致；COGITATE 2025 挑战核心机制预测（后方皮层同步缺失）；泛心论蕴含；前馈网络 Φ ≈ 0；与多重发生器假说的关系 **[修订 rev4 2026-08-08 · 争议]**
 - ⚪ [多重发生器假说（MGH）](theories/multiple-generator-hypothesis.md) — 意识可能由多个并行发生器（后方整合+前额广播+再入反馈）共同产生；原则 vs 发生器的核心区分；IIT/GWT/RPT/HOT 可能各自描述了真实存在的不同发生器；为"所有理论都被部分支持部分否定"格局提供相容框架；目前属于理论推断，尚无专门检验实验 **[NEW 2026-08-08 · 推测性]**
-- 🟡 [精度加权](concepts/precision-weighting.md) — 预测误差信号携带精度权重，注意力形式化为选择性提升误差精度；ACh/NE/DA是分子层面的精度调节器；VIP-SST去抑制回路是回路层面的实现候选 **[NEW 2026-06-15]**
+- 🟢 [主动推断](concepts/active-inference.md) — 感知（更新内部模型）和行动（改变感觉输入）统一为最小化变分自由能；期望自由能分解为外在价值（利用）+认知价值（探索）；精度三层框架：ACh感觉精度/NE转换精度/DA策略精度；精度失调统一解释精神分裂/ASD/PD/MND **[NEW 2026-08-11]**
+- 🟡 [精度加权](concepts/precision-weighting.md) — 预测误差信号携带精度权重，注意力形式化为选择性提升误差精度；ACh/NE/DA分别实现三层精度（感觉/转换/策略）；2024直接实验证据（eLife ACh，Biol Psych NE）；精度失调疾病模型精确化（精神分裂/ASD/PD）**[修订 rev2 2026-08-11]**
 
 ## diseases（疾病）
 

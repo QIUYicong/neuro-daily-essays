@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-08-10
-revision_count: 4
+updated: 2026-08-11
+revision_count: 5
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [neuromodulator-systems, ascending-arousal-system, gain-control, working-memory, ltp, memory-consolidation, dopamine-reward-prediction-error, amygdala, fear-conditioning, fear-extinction, lc-hippocampus-dopamine, synaptic-tagging-capture, disorders-of-consciousness]
+related: [neuromodulator-systems, ascending-arousal-system, gain-control, working-memory, ltp, memory-consolidation, dopamine-reward-prediction-error, amygdala, fear-conditioning, fear-extinction, lc-hippocampus-dopamine, synaptic-tagging-capture, disorders-of-consciousness, active-inference, precision-weighting, free-energy-principle]
 prerequisites: [synaptic-transmission, action-potential]
-opens_questions: [Q-ach-ne-03, Q-ach-ne-04, Q-lc-da-subtype, Q-aas-02]
-source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-amygdala-fear-memory, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-08-10-ascending-arousal-system-brainstem-wakefulness]
-key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858", "PMID:27602521", "PMID:38592773", "PMID:36041433", "PMID:40905374", "PMID:35878679"]
+opens_questions: [Q-ach-ne-03, Q-ach-ne-04, Q-lc-da-subtype, Q-aas-02, Q-fep-02]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-amygdala-fear-memory, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-08-10-ascending-arousal-system-brainstem-wakefulness, 2026-08-11-active-inference-precision-neuromodulation-consciousness]
+key_sources: ["PMID:16254995", "PMID:19190638", "PMID:31260703", "PMID:38370858", "PMID:27602521", "PMID:38592773", "PMID:36041433", "PMID:40905374", "PMID:35878679", "PMID:30608922", "PMID:38316333"]
 ---
 
 # 去甲肾上腺素与蓝斑系统 (Norepinephrine / Locus Coeruleus System)
@@ -81,6 +81,26 @@ LC是**阿尔茨海默病（AD）最早退变的脑区之一**，尸检显示AD�
 
 LC退变对认知的影响机制：NE增益调制减弱→皮层信噪比降低→早期记忆和注意障碍；同时NE的神经保护功能（通过β-AR激活星形胶质细胞/小胶质细胞，抑制NF-κB炎症通路）丧失，可能加速神经炎症进程。
 
+**LC 在主动推断框架中的计算角色（2026-08-11 新增）**：
+
+Sales et al. 2019（PMID:30608922，PMC6334975）提出了一个精确的 LC 主动推断模型，解释了 LC 为何同时表现出相位性和紧张性两种放电模式：
+
+在主动推断框架中，LC 活动对应**状态-行动预测误差**——当环境转变导致当前内部模型无法准确预测结果时，LC 放电幅度升高，驱动模型更新速率加快。模型中的衰减参数 α 随预测误差大小动态调整，优化认知灵活性。关键发现：**相位性和紧张性放电模式都是同一信念更新机制的涌现属性**，而非独立的、目的不同的两个系统。
+
+更直接的证据来自 Basu et al. 2024（PMID:38316333，PMC11269024）：在小鼠前额叶皮层用荧光传感器（GRABNE2h）实时测量 NE 释放，发现：
+- NE 对威胁条件刺激的响应精确拟合 Rescorla-Wagner 学习模型（R²=0.69）
+- 时间不确定性（trace conditioning 延迟时间变化）系统性影响 NE 释放幅度（F₂,₂₈=11.42，p=0.0002）
+- 光遗传激活 LC-NE 神经元增强后续恐惧记忆表达（因果证据）
+
+这支持了 NE 是**时间精度更新的信使**：当预期时间窗口结束而威胁尚未消解时，NE 释放标志"需要重新估计时间精度"——这是 FEP 框架中**转换精度（transition precision）**的神经实现。
+
+在三层精度框架中（Limanowski et al. 2024，PMID:39330123），LC-NE 对应**转换精度层**：
+- ACh（基底前脑）= 感觉精度（底层数据可信度）
+- **NE（LC）= 转换精度（状态转变预测可信度）**
+- DA（VTA/SNc）= 策略精度（行动计划置信度）
+
+这将 LC 的"颠倒 U 型最优认知原则"给出精确的计算学解释：适中 NE = 转换精度最优；极低 NE = 模型无法更新；极高 NE = 过度精度更新，信号淹没先验，认知受损。
+
 **LC 活动模式（Aston-Jones & Cohen 2005, PMID:16254995）**：
 
 **相位模式**：
@@ -121,6 +141,8 @@ LC退变对认知的影响机制：NE增益调制减弱→皮层信噪比降低�
 | LC 激活引起海马 DA 升高（GRAB-DA 直接测量）| 痕迹恐惧条件化 + GRAB-DA 传感器 | PMID:38592773 | 高（直接测量）|
 | D1 阻断（非 β-AR）损害痕迹恐惧记忆 | 药理双阻断比较 | PMID:38592773 | 中-高 |
 | LC→dCA1 D1/D5 依赖通路调控记忆联结（ensemble 重叠）| DREADD + CA1 双光子成像 | PMID:36041433 | 中（需独立复验）|
+| LC-NE phasic/tonic 为信念更新涌现属性（主动推断模型） | 计算模型与 LC 生理数据拟合；状态-行动预测误差动态调整学习率 | PMID:30608922 | 中（计算模型，需直接神经元验证）|
+| 前额叶 NE 拟合 RW 学习模型并对时间不确定性敏感 | 小鼠前额叶 GRABNE2h 传感器；R²=0.69；光遗传因果验证 | PMID:38316333 | 高（因果+传感器直接测量）|
 
 ## 连接
 
@@ -136,6 +158,9 @@ LC退变对认知的影响机制：NE增益调制减弱→皮层信噪比降低�
 - [[amygdala]] — LC-NE 投射通过 β 受体增强 BLA-LTP，强化恐惧记忆巩固；应激时 NE 过载损害 vmPFC 对杏仁核的抑制（消退受损）
 - [[fear-conditioning]] — β-NE 受体激活降低 BLA-LTP 阈值，恐惧记忆因唤醒而被优先巩固
 - [[fear-extinction]] — 应激通过 LC-NE 轴损害消退获得和表达（PFC/IL 功能被压制）
+- [[active-inference]] — LC-NE 在主动推断框架中实现转换精度（transition precision）：时间精度更新信使
+- [[precision-weighting]] — NE 是三层精度框架中的转换精度控制器（颠倒 U 型的计算学解释）
+- [[free-energy-principle]] — LC-NE 是自由能最小化中感觉-状态转变不确定性的贝叶斯信使
 
 ## 未解问题
 
@@ -149,9 +174,12 @@ LC退变对认知的影响机制：NE增益调制减弱→皮层信噪比降低�
 - 2026-05-30 · 修订 · 基于《当杏仁核学会恐惧》一文 · 新增 LC-杏仁核轴在恐惧记忆巩固中的作用（β受体/BLA-LTP，闪光灯记忆机制）；应激-NE-消退受损回路（Plas 2024）；related 新增 amygdala、fear-conditioning、fear-extinction；key_sources 新增 PMID:38370858
 - 2026-07-11 · 修订 rev3 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 新增"LC 多巴胺共释放与海马记忆标记"段落（DA 通道独立性、新奇检测、记忆联结）；连接节新增 lc-hippocampus-dopamine、synaptic-tagging-capture，ltp/memory-consolidation 补充 DA 通道说明；关键证据表新增4行；related 新增 lc-hippocampus-dopamine、synaptic-tagging-capture；未解问题新增 Q-lc-da-subtype；key_sources 新增3个
 - 2026-08-10 · 修订 rev4 · 基于《脑干如何"点亮"大脑》文章（#109）· 新增"LC在AAS中的解剖位置"（腹侧通路主要路径）；新增"选择性集合体"拓扑组织（Caestecker 2025）；新增"LC退变与AD/PD早期病程"（55%神经元丢失，神经黑色素MRI）；related新增ascending-arousal-system、disorders-of-consciousness；opens_questions新增Q-aas-02；key_sources新增PMID:40905374、PMID:35878679
+- 2026-08-11 · 修订 rev5 · 基于《大脑永远在押注》文章（#110）· 新增"LC在主动推断框架中的计算角色"段落（Sales 2019主动推断模型；Basu 2024时间精度更新证据 R²=0.69；三层精度框架定位NE=转换精度控制器；颠倒U型的计算学解释）；关键证据表新增2行；connected新增active-inference/precision-weighting/free-energy-principle；related新增active-inference/precision-weighting/free-energy-principle；opens_questions新增Q-fep-02；key_sources新增PMID:30608922、PMID:38316333
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-05-30-amygdala-fear-memory]]
 - [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]
+- [[2026-08-10-ascending-arousal-system-brainstem-wakefulness]]
+- [[2026-08-11-active-inference-precision-neuromodulation-consciousness]]

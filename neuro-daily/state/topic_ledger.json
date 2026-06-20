@@ -1,10 +1,80 @@
 {
-  "last_updated": "2026-08-10",
-  "total_articles": 109,
+  "last_updated": "2026-08-11",
+  "total_articles": 110,
   "entries": [
     {
+      "date": "2026-08-11",
+      "title": "大脑永远在押注：主动推断、精度控制与神经调质的统一框架",
+      "filename": "2026-08-11-active-inference-precision-neuromodulation-consciousness.md",
+      "article_number": 110,
+      "wiki_pages_created": [
+        "wiki/concepts/active-inference.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/theories/free-energy-principle.md",
+        "wiki/concepts/precision-weighting.md",
+        "wiki/concepts/norepinephrine-locus-coeruleus.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "主动推断框架中的精度是什么？ACh/NE/DA/5-HT如何实现三层精度控制？期望自由能如何分解为外在价值+认知价值？精度失调如何统一解释精神分裂/ASD/PD的计算病理？",
+      "open_questions_added": [
+        "Q-ai-01"
+      ],
+      "layer": [
+        "theory",
+        "cognition",
+        "whole-brain-network",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱8（意识/FEP/主动推断）+ 脊柱1（神经调质深度/精度框架）+ 脊柱11（疾病窗口/精度失调病理）",
+      "topic_tags": [
+        "active inference FEP free energy principle",
+        "precision weighting variational Bayesian",
+        "expected free energy EFE epistemic value",
+        "acetylcholine ACh sensory precision",
+        "norepinephrine NE transition precision locus coeruleus",
+        "dopamine DA policy precision",
+        "serotonin 5-HT interoceptive temporal depth",
+        "dysconnection hypothesis schizophrenia NMDA",
+        "autism ASD meta-precision context volatility",
+        "Parkinson disease akinesia motor precision",
+        "disorders of consciousness DoC precision routing",
+        "Friston Parr Pezzulo active inference",
+        "Sales LC active inference model PLoS CB 2019",
+        "Basu NE threat prediction error temporal precision 2024",
+        "Perez-Gonzalez ACh auditory prediction error eLife 2024"
+      ],
+      "main_sources": [
+        "PMID:20068583",
+        "PMID:25689102",
+        "PMID:30608922",
+        "PMID:27450778",
+        "PMID:39330123",
+        "PMID:38241174",
+        "PMID:38316333",
+        "PMID:37695796",
+        "PMID:39451909"
+      ],
+      "open_access_fulltext": [
+        "PMC6334975",
+        "PMC11431491",
+        "PMC10942646",
+        "PMC11269024",
+        "PMC10529610",
+        "PMC11507080"
+      ],
+      "next_suggested_topics": [
+        "睡眠的功能与胶质淋巴系统：为什么AAS必须每天关闭8小时",
+        "Q-aas-01裁决：AAS五系统冗余度与关键节点",
+        "Q-doc-01裁决：急性ICU期CMD检出率与早期预后价值",
+        "LC-NE与AD早期生物标志物：神经黑色素MRI在AD预防医学的应用",
+        "内感受（interoception）与情绪：岛叶皮层如何将身体信号转化为情绪体验"
+      ]
+    },
+    {
       "date": "2026-08-10",
-      "title": "脑干如何"点亮"大脑：上行激活系统的多源神经化学解剖与意识调控",
+      "title": "脑干如何\"点亮\"大脑：上行激活系统的多源神经化学解剖与意识调控",
       "filename": "2026-08-10-ascending-arousal-system-brainstem-wakefulness.md",
       "article_number": 109,
       "wiki_pages_created": [
@@ -93,7 +163,7 @@
       ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
-      "core_question": "严重脑损伤后，为何部分患者无法从植物状态恢复？前脑中间回路假说如何解释VS/UWS的自我维持？认知运动解离（CMD）——25%"无反应"患者有隐蔽意识——对意识的行为评估范式有何根本挑战？唑吡坦悖论的GPi机制和金达胺素的多巴胺机制如何通过同一回路起效？PCI阈值0.31如何区分MCS和VS？",
+      "core_question": "严重脑损伤后，为何部分患者无法从植物状态恢复？前脑中间回路假说如何解释VS/UWS的自我维持？认知运动解离（CMD）——25%\"无反应\"患者有隐蔽意识——对意识的行为评估范式有何根本挑战？唑吡坦悖论的GPi机制和金达胺素的多巴胺机制如何通过同一回路起效？PCI阈值0.31如何区分MCS和VS？",
       "open_questions_added": [
         "Q-doc-01",
         "Q-doc-02",
@@ -167,7 +237,7 @@
         "C-2026-05-31-01",
         "C-2026-05-31-02"
       ],
-      "core_question": "COGITATE 2025对IIT和GNWT的双重挑战如何解读？GNW回应论文（Naccache/Dehaene/Changeux）的四点防守是否成功？多重发生器假说（MGH，Kirkeby-Hinrup 2025）如何为"所有理论都被部分支持部分否定"提供框架？PCI测量的是什么发生器？无报告范式的认知监控混淆能否解决？",
+      "core_question": "COGITATE 2025对IIT和GNWT的双重挑战如何解读？GNW回应论文（Naccache/Dehaene/Changeux）的四点防守是否成功？多重发生器假说（MGH，Kirkeby-Hinrup 2025）如何为\"所有理论都被部分支持部分否定\"提供框架？PCI测量的是什么发生器？无报告范式的认知监控混淆能否解决？",
       "open_questions_added": [
         "Q-ncc-04",
         "Q-ncc-05",
@@ -266,7 +336,7 @@
       ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
-      "core_question": "MiCrONS 2025如何将功能成像与结构重建整合，发现"同类相连"布线规则？果蝇全脑的小世界网络特性（σ=141）意味着什么？结构-功能鸿沟的三大根本来源是什么？",
+      "core_question": "MiCrONS 2025如何将功能成像与结构重建整合，发现\"同类相连\"布线规则？果蝇全脑的小世界网络特性（σ=141）意味着什么？结构-功能鸿沟的三大根本来源是什么？",
       "open_questions_added": [
         "Q-swn-01",
         "Q-ltl-01",

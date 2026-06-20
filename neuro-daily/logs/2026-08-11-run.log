@@ -1,0 +1,113 @@
+# Run Log: 2026-08-11
+
+## 基本信息
+
+- **知识库日期**：2026-08-11（容器系统日期：~2026-06-21，顺序递推）
+- **文章编号**：#110
+- **运行状态**：✅ 完成
+- **耗时**：约 1.5 个 Claude Code 上下文窗口（跨上下文续接，#109 完成后新会话）
+
+---
+
+## 执行步骤记录
+
+### 步骤 0：同步最新 main（Step 0）
+- `git pull origin main` → Already up to date（#109 于上一会话已成功推送 commit 693f5db）
+- 读取 `ROUTINE.md` 确认工作流程
+- 读取 `neuro-daily/logs/2026-08-10-run.log` 确认上次运行状态和下次建议
+
+### 步骤 A：读取状态（Step A）
+- 读取 `topic_ledger.json`：total_articles=109，#109（AAS）已记录，下次建议包括：主动推断/FEP（课程脊柱8核心框架）、Q-aas-01/Q-doc-01（裁决）、LC-NE+AD生物标志物、睡眠功能
+- 读取 `unresolved_questions.md`（摘要）：高优Q-aas-01、Q-doc-01，中优Q-aas-02
+- 读取 `wiki/theories/`：发现 `free-energy-principle.md`（rev1，基于#81文章，内容较薄）和 `predictive-coding.md`（rev8，内容丰富），以及 `active-inference.md` 为**悬空引用**（FEP页面引用但无页面）
+- 读取 `wiki/concepts/precision-weighting.md`（rev1，较薄，调质分工表格缺乏直接实验证据）
+
+### 步骤 B：选题（Step B）
+- 选定主题：**主动推断：精度控制与神经调质的统一框架**
+- 理由：(1) 课程脊柱8核心框架，#109 run log明确标注"尚未覆盖"；(2) 直接延伸#109 AAS——把神经调质从描述性（五核团调控觉醒）升级到计算性（三层精度控制硬件）；(3) 层级平衡：#107/108/109均为全脑/疾病/细胞层，#110选择理论/认知层；(4) 悬空引用填补机会（active-inference页面）；(5) 有强2024实验证据（Pérez-González eLife/Basu Biol Psych/Arthur PLoS CB）
+- 文件名：`2026-08-11-active-inference-precision-neuromodulation-consciousness.md`
+
+### 步骤 C：文献研究（Step C）
+- 使用 WebSearch + WebFetch 搜索 8 轮
+- 采用来源 9 篇（7篇 PMC 开放全文，2篇摘要）
+- 核心来源：
+  - Limanowski et al. 2024 Entropy（PMID:39330123）：三层精度框架，四大调质分工，计算损伤模拟
+  - Pérez-González et al. 2024 eLife（PMID:38241174）：ACh选择性调制听觉皮层预测误差精度（iPE 0.29→-0.05）
+  - Basu et al. 2024 Biol Psych（PMID:38316333）：前额叶NE时间精度更新，RW拟合R²=0.69，光遗传因果证明
+  - Arthur et al. 2023 PLoS CB（PMID:37695796）：ASD精度失调实证检验，挑战超精确先验假说
+  - Friston et al. 2016 Schiz Res（PMID:27450778）：断联假说，精神分裂症精度失调
+  - Sales et al. 2019 PLoS CB（PMID:30608922）：LC-NE主动推断模型
+  - Friston et al. 2015 Cog Neurosci（PMID:25689102）：EFE分解，DA策略精度
+  - Friston 2010 Nat Rev Neurosci（PMID:20068583）：FEP基础
+  - Badcock & Davey 2024 Entropy（PMID:39451909）：批判性评估，实证现状
+- 来源保存至：`neuro-daily/sources/2026-08-11-sources.json`
+- 阅读笔记保存至：`neuro-daily/notes/2026-08-11-reading-notes.md`
+
+### 步骤 D：撰写文章（Step D）
+- 文章：`neuro-daily/articles/2026-08-11-active-inference-precision-neuromodulation-consciousness.md`
+- 字数：~5200 字（符合 3000-6000 中文字要求）
+- 结构：核心问题 → 一句话摘要 → 为什么重要 → 预测编码到主动推断（关键跨越）→ 期望自由能（EFE分解）→ 精度层级系统 → 四大调质作为精度控制器（ACh/NE/DA/5-HT，各含实验证据）→ 精度失调=疾病（精神分裂/ASD/PD/MND）→ 主动推断与意识状态（DoC精度路由视角）→ 争议（Q-fep-01/02/Q-ai-01）→ AI比较 → 概念卡片 → 参考来源
+- 来源引用：9 篇，全部有内文标注
+
+### 步骤 E：Wiki 固结（Step E）
+**新建页面（1）**：
+- `wiki/concepts/active-inference.md`（rev1，status: established，confidence: medium）— 填补FEP页悬空引用；EFE完整框架；精度三层表格；AAS连接；精度失调疾病模型；争议
+
+**修订页面（3）**：
+- `wiki/theories/free-energy-principle.md`（rev1→rev2，新增精度层级与神经调质分工段落；AAS重定位为精度硬件；active-inference从悬空变为已建立；related+7个；key_sources+7条）
+- `wiki/concepts/precision-weighting.md`（rev1→rev2，调质分工表格精确化含2024实验证据；精度失调疾病模型精确化；关键证据+3条；related+4个；opens_questions+Q-fep-02）
+- `wiki/concepts/norepinephrine-locus-coeruleus.md`（rev4→rev5，新增LC主动推断计算角色段落；Sales 2019模型/Basu 2024时间精度更新/三层精度框架定位/颠倒U型计算解释；证据+2行；connected+3个；key_sources+2条）
+
+### 步骤 F：导航更新（Step F）
+- `wiki/_graph.json`：213节点/1226边 → 214节点/1246边（+1节点 active-inference；+20边）
+- `wiki/index.md`：header 更新至 2026-08-11，208→209页；新增 active-inference 条目；更新 free-energy-principle/precision-weighting 描述
+- `wiki/CHANGELOG.md`：新增 2026-08-11 条目（详细记录新建/修订页面和未解问题）
+
+### 步骤 G：状态文件更新（Step G）
+- `topic_ledger.json`：修复JSON内嵌引号bug（先前条目title中含未转义ASCII引号）；total_articles 109→110，新增 #110 entry
+- `unresolved_questions.md`：新增 Q-ai-01（5-HT精度角色），更新 last_updated
+- `source_registry.json`：新增 sources_2026-08-11 节（9 条来源），更新 last_updated
+- `monthly_synthesis.md`：新增 #110 行、洞见 #111，更新本月截至日期和文章列表
+
+### 步骤 H：Git 提交和推送（Step H）
+- branch: main（单分支累积方案）
+- commit message: `Add neuro daily article + wiki consolidation for 2026-08-11`
+- push: git push -u origin main
+
+---
+
+## 质量检查
+
+| 检查项 | 状态 |
+|--------|------|
+| 文章字数 3000-6000 字 | ✅（~5200 字） |
+| 来源 ≥5 篇 | ✅（9 篇） |
+| 开放全文 ≥2 篇 | ✅（7 篇 PMC 开放全文） |
+| 官方机构来源 ≥1 篇 | ✅（NIH PMC 多篇）|
+| 不使用 Sci-Hub/盗版 | ✅ |
+| 未编造来源/PMID | ✅（均可验证）|
+| Wiki 新建/修订 | ✅（新建1页，修订3页）|
+| 悬空引用填补 | ✅（active-inference 填补 free-energy-principle 的悬空引用）|
+| 状态文件更新 | ✅（全部5个状态文件已更新）|
+| 图谱更新 | ✅（_graph.json 214节点/1246边）|
+| JSON bug修复 | ✅（topic_ledger.json 中先前条目title含未转义引号，已用状态机解析器修复）|
+
+---
+
+## 本次运行说明
+
+本次运行接续上次 #109（AAS）完成后的新会话。选题逻辑：#109 把 AAS 描述为"脑干硬件"，但缺少计算功能的解释；主动推断/FEP 正好提供了"为什么要有这些神经调质"的统一计算答案——精度分配网络。这完成了从"硬件（AAS神经调质）"到"软件（FEP精度计算）"的连接，也填补了 wiki 中 `active-inference` 的悬空引用。
+
+**技术修复**：发现 `topic_ledger.json` 中多个历史条目的 `title` 和 `core_question` 字段含未转义的 ASCII 双引号（如 `"点亮"` 中的引号），导致 JSON 解析失败。使用状态机解析器修复：在字符串内部遇到不匹配结束条件的 `"` 时，替换为 `\"`。修复后成功追加 #110 条目并写回。
+
+容器系统日期为 ~2026-06-21，知识库日期通过顺序递推确定为 2026-08-11。
+
+---
+
+## 下次运行建议
+
+1. **睡眠的功能与胶质淋巴系统**（推荐首选）：AAS必须每天关闭8小时的原因——胶质淋巴 β-淀粉样蛋白清除 + 突触稳态缩放（synaptic homeostasis hypothesis）+ 记忆巩固整合性视角；连接 #109 AAS翻转开关→睡眠功能目的论
+2. **Q-aas-01裁决**（高优）：AAS五系统冗余度与关键节点——单系统选择性消融实验文献
+3. **Q-doc-01裁决**（高优）：CMD在急性ICU期检出率——前瞻性研究进展
+4. **内感受（interoception）与情绪**：岛叶皮层如何将身体信号转化为情绪体验，连接 #110 精度框架中的5-HT内感觉精度角色（Q-ai-01的部分答案）
+5. **LC-NE与AD早期生物标志物**：神经黑色素MRI在AD前驱期预测的应用

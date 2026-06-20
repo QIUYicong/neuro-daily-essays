@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10",
+  "last_updated": "2026-08-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10239,65 +10239,227 @@
         "pmcid": "PMC11870092",
         "open_access": true,
         "first_used": "2026-08-10",
-        "articles_using": ["2026-08-10-ascending-arousal-system-brainstem-wakefulness"],
-        "covers": ["dAAN定义", "VTA作为AAS枢纽", "人类脑干4条投射通路", "离体超高分辨率MRI"]
+        "articles_using": [
+          "2026-08-10-ascending-arousal-system-brainstem-wakefulness"
+        ],
+        "covers": [
+          "dAAN定义",
+          "VTA作为AAS枢纽",
+          "人类脑干4条投射通路",
+          "离体超高分辨率MRI"
+        ]
       },
       "PMID:35878679": {
         "citation": "Maness EB et al. (2022). Role of the locus coeruleus and basal forebrain in arousal and attention. Brain Research Bulletin, 188, 47-58.",
         "pmcid": "PMC9514025",
         "open_access": true,
         "first_used": "2026-08-10",
-        "articles_using": ["2026-08-10-ascending-arousal-system-brainstem-wakefulness"],
-        "covers": ["LC是皮层NE唯一来源", "位相性vs张力性放电", "BF三类促觉醒神经元"]
+        "articles_using": [
+          "2026-08-10-ascending-arousal-system-brainstem-wakefulness"
+        ],
+        "covers": [
+          "LC是皮层NE唯一来源",
+          "位相性vs张力性放电",
+          "BF三类促觉醒神经元"
+        ]
       },
       "PMID:41116183": {
         "citation": "He Q et al. (2025). Advances in understanding and treating disorders of consciousness caused by brainstem injury. Chinese Neurosurgical Journal, 11, 27.",
         "pmcid": "PMC12536528",
         "open_access": true,
         "first_used": "2026-08-10",
-        "articles_using": ["2026-08-10-ascending-arousal-system-brainstem-wakefulness"],
-        "covers": ["ARAS脑干核团综述", "VTA光遗传激活诱发觉醒", "脑干DoC机制"]
+        "articles_using": [
+          "2026-08-10-ascending-arousal-system-brainstem-wakefulness"
+        ],
+        "covers": [
+          "ARAS脑干核团综述",
+          "VTA光遗传激活诱发觉醒",
+          "脑干DoC机制"
+        ]
       },
       "PMID:40905374": {
         "citation": "Caestecker S et al. (2025). The Locus Coeruleus-Noradrenergic System in the Healthy and Diseased Brain. European Journal of Neurology.",
         "pmcid": "PMC12409474",
         "open_access": true,
         "first_used": "2026-08-10",
-        "articles_using": ["2026-08-10-ascending-arousal-system-brainstem-wakefulness"],
-        "covers": ["LC倒U型最优NE原则", "选择性集合体拓扑", "AD/PD早期LC退变55%"]
+        "articles_using": [
+          "2026-08-10-ascending-arousal-system-brainstem-wakefulness"
+        ],
+        "covers": [
+          "LC倒U型最优NE原则",
+          "选择性集合体拓扑",
+          "AD/PD早期LC退变55%"
+        ]
       },
       "PMID:41076550": {
         "citation": "Rauf R et al. (2025). Orexin Deficiency in Narcolepsy. Brain and Behavior, 15(1), e70984.",
         "pmcid": "PMC12515106",
         "open_access": true,
         "first_used": "2026-08-10",
-        "articles_using": ["2026-08-10-ascending-arousal-system-brainstem-wakefulness"],
-        "covers": ["NT1中95%食欲素神经元丢失", "HLA-DQB1*06:02", "danavorexton MWT+11.1分"]
+        "articles_using": [
+          "2026-08-10-ascending-arousal-system-brainstem-wakefulness"
+        ],
+        "covers": [
+          "NT1中95%食欲素神经元丢失",
+          "HLA-DQB1*06:02",
+          "danavorexton MWT+11.1分"
+        ]
       },
       "PMID:21280045": {
         "citation": "Fuller PM et al. (2011). Reassessment of the Structural Basis of the Ascending Arousal System. Journal of Comparative Neurology, 519(5), 933-956.",
         "pmcid": "PMC3119596",
         "open_access": true,
         "first_used": "2026-08-10",
-        "articles_using": ["2026-08-10-ascending-arousal-system-brainstem-wakefulness"],
-        "covers": ["AAS两通道架构", "丘脑中继非必需（大面积毁损不影响EEG）", "PB/PC谷氨酸通路毁损→昏迷样状态"]
+        "articles_using": [
+          "2026-08-10-ascending-arousal-system-brainstem-wakefulness"
+        ],
+        "covers": [
+          "AAS两通道架构",
+          "丘脑中继非必需（大面积毁损不影响EEG）",
+          "PB/PC谷氨酸通路毁损→昏迷样状态"
+        ]
       },
       "PMID:39593192": {
         "citation": "Wang Y et al. (2024). Dorsal Raphe Serotonergic Neurons-VTA Neural Pathway Promotes Wake. CNS Neuroscience & Therapeutics, 30(11).",
         "pmcid": "PMC11598740",
         "open_access": true,
         "first_used": "2026-08-10",
-        "articles_using": ["2026-08-10-ascending-arousal-system-brainstem-wakefulness"],
-        "covers": ["DRN→VTA血清素通路清醒促进", "光遗传/化学遗传激活从NREM/REM诱发清醒", "VTA内Glu升高+DA降低（重配置）"]
+        "articles_using": [
+          "2026-08-10-ascending-arousal-system-brainstem-wakefulness"
+        ],
+        "covers": [
+          "DRN→VTA血清素通路清醒促进",
+          "光遗传/化学遗传激活从NREM/REM诱发清醒",
+          "VTA内Glu升高+DA降低（重配置）"
+        ]
       },
       "PMID:35328326": {
         "citation": "Arrigoni E, Fuller PM. (2022). The Sleep-Promoting Ventrolateral Preoptic Nucleus. International Journal of Molecular Sciences, 23(6), 3156.",
         "pmcid": "PMC8954377",
         "open_access": true,
         "first_used": "2026-08-10",
-        "articles_using": ["2026-08-10-ascending-arousal-system-brainstem-wakefulness"],
-        "covers": ["VLPO翻转开关机制", "GABA+甘丙肽抑制AAS核团", "腺苷/PGD₂睡眠驱动信号"]
+        "articles_using": [
+          "2026-08-10-ascending-arousal-system-brainstem-wakefulness"
+        ],
+        "covers": [
+          "VLPO翻转开关机制",
+          "GABA+甘丙肽抑制AAS核团",
+          "腺苷/PGD₂睡眠驱动信号"
+        ]
       }
+    }
+  },
+  "sources_2026-08-11": {
+    "PMID:20068583": {
+      "title": "The free-energy principle: a unified brain theory?",
+      "authors": [
+        "Friston KJ"
+      ],
+      "year": 2010,
+      "journal": "Nature Reviews Neuroscience",
+      "open_access": false
+    },
+    "PMID:25689102": {
+      "title": "Active inference and epistemic value",
+      "authors": [
+        "Friston KJ",
+        "Rigoli F",
+        "Ognibene D",
+        "Mathys C",
+        "Fitzgerald T",
+        "Pezzulo G"
+      ],
+      "year": 2015,
+      "journal": "Cognitive Neuroscience",
+      "open_access": false
+    },
+    "PMID:30608922": {
+      "title": "Locus Coeruleus tracking of prediction errors optimises cognitive flexibility: An Active Inference model",
+      "authors": [
+        "Sales AC",
+        "Friston KJ",
+        "Jones MW",
+        "Pickering AE",
+        "Moran RJ"
+      ],
+      "year": 2019,
+      "journal": "PLoS Computational Biology",
+      "pmc": "PMC6334975",
+      "open_access": true
+    },
+    "PMID:27450778": {
+      "title": "The dysconnection hypothesis (2016)",
+      "authors": [
+        "Friston KJ",
+        "Brown HR",
+        "Siemerkus J",
+        "Stephan KE"
+      ],
+      "year": 2016,
+      "journal": "Schizophrenia Research",
+      "open_access": false
+    },
+    "PMID:39330123": {
+      "title": "The Many Roles of Precision in Action",
+      "authors": [
+        "Limanowski J",
+        "Adams RA",
+        "Kilner J",
+        "Parr T"
+      ],
+      "year": 2024,
+      "journal": "Entropy (Basel)",
+      "pmc": "PMC11431491",
+      "open_access": true
+    },
+    "PMID:38241174": {
+      "title": "Acetylcholine modulates the precision of prediction error in the auditory cortex",
+      "authors": [
+        "Perez-Gonzalez D",
+        "Lao-Rodriguez I",
+        "Aedo-Sanchez C",
+        "Malmierca MS"
+      ],
+      "year": 2024,
+      "journal": "eLife",
+      "pmc": "PMC10942646",
+      "open_access": true
+    },
+    "PMID:38316333": {
+      "title": "Frontal Norepinephrine Represents a Threat Prediction Error Under Uncertainty",
+      "authors": [
+        "Basu A et al."
+      ],
+      "year": 2024,
+      "journal": "Biological Psychiatry",
+      "pmc": "PMC11269024",
+      "open_access": true
+    },
+    "PMID:37695796": {
+      "title": "Testing predictive coding theories of autism spectrum disorder using models of active inference",
+      "authors": [
+        "Arthur T",
+        "Vine S",
+        "Buckingham G",
+        "Brosnan M",
+        "Wilson M",
+        "Harris D"
+      ],
+      "year": 2023,
+      "journal": "PLoS Computational Biology",
+      "pmc": "PMC10529610",
+      "open_access": true
+    },
+    "PMID:39451909": {
+      "title": "Active Inference in Psychology and Psychiatry: Progress to Date?",
+      "authors": [
+        "Badcock PB",
+        "Davey CG"
+      ],
+      "year": 2024,
+      "journal": "Entropy (Basel)",
+      "pmc": "PMC11507080",
+      "open_access": true
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-10",
-  "node_count": 213,
-  "edge_count": 1226,
+  "updated": "2026-08-11",
+  "node_count": 214,
+  "edge_count": 1246,
   "edge_types": [
     "is-a",
     "part-of",
@@ -1942,6 +1942,16 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/flip-flop-switch-sleep-wake.md"
+    },
+    {
+      "id": "active-inference",
+      "label": "主动推断",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "medium",
+      "source_article": "2026-08-11",
+      "revision_count": 1
     }
   ],
   "edges": [
@@ -8766,6 +8776,126 @@
       "from": "flip-flop-switch-sleep-wake",
       "to": "orexin-hypocretin",
       "type": "regulates"
+    },
+    {
+      "from": "active-inference",
+      "to": "free-energy-principle",
+      "type": "foundation-of",
+      "note": "主动推断是自由能原理在感知-行动统一层面的推论"
+    },
+    {
+      "from": "active-inference",
+      "to": "predictive-coding",
+      "type": "implementation-of",
+      "note": "预测编码是主动推断在皮层层级的具体实现"
+    },
+    {
+      "from": "active-inference",
+      "to": "precision-weighting",
+      "type": "mechanism-of",
+      "note": "精度加权是主动推断框架的核心机制"
+    },
+    {
+      "from": "active-inference",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "mechanism-of",
+      "note": "LC-NE实现主动推断框架中的转换精度层"
+    },
+    {
+      "from": "active-inference",
+      "to": "ascending-arousal-system",
+      "type": "mechanism-of",
+      "note": "AAS五核团是主动推断的全脑精度分配硬件"
+    },
+    {
+      "from": "active-inference",
+      "to": "neuromodulator-systems",
+      "type": "part-of",
+      "note": "神经调质系统是主动推断精度网络的神经实现"
+    },
+    {
+      "from": "active-inference",
+      "to": "dopamine-reward-prediction-error",
+      "type": "unifies",
+      "note": "DA策略精度与RPE是同一计算框架的不同层面"
+    },
+    {
+      "from": "active-inference",
+      "to": "disorders-of-consciousness",
+      "type": "explains",
+      "note": "DoC可理解为精度路由拓扑失败"
+    },
+    {
+      "from": "active-inference",
+      "to": "working-memory",
+      "type": "explains",
+      "note": "工作记忆=主动维护预测模板（先验）"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "precision-weighting",
+      "type": "mechanism-of",
+      "note": "精度加权是自由能最小化中误差权重的关键组件"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "ascending-arousal-system",
+      "type": "mechanism-of",
+      "note": "AAS神经调质实现自由能框架的全脑精度分配"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "disorders-of-consciousness",
+      "type": "explains",
+      "note": "DoC=精度路由失败；意识=高精度层级推断状态"
+    },
+    {
+      "from": "free-energy-principle",
+      "to": "neuromodulator-systems",
+      "type": "mechanism-of",
+      "note": "神经调质系统是自由能最小化的精度硬件"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "active-inference",
+      "type": "part-of",
+      "note": "精度加权是主动推断的中心机制"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "free-energy-principle",
+      "type": "part-of",
+      "note": "精度加权是FEP框架的核心组件"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "ascending-arousal-system",
+      "type": "explains",
+      "note": "三层精度框架解释AAS五核团的计算功能分工"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "disorders-of-consciousness",
+      "type": "explains",
+      "note": "DoC分类可重新定义为精度路由拓扑"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "active-inference",
+      "type": "exemplifies",
+      "note": "LC-NE是主动推断转换精度的神经实现"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "precision-weighting",
+      "type": "exemplifies",
+      "note": "NE实现三层精度中的转换层（Basu 2024；Sales 2019）"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "free-energy-principle",
+      "type": "exemplifies",
+      "note": "LC-NE是FEP框架中贝叶斯不确定性信使的神经基底"
     }
   ],
   "dangling_references": [
