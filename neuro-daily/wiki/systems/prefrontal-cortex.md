@@ -6,13 +6,13 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-08-24
-revision_count: 6
-dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, response-inhibition, hyperdirect-pathway, stop-signal-task, orbitofrontal-cortex, value-based-decision-making, dlpfc-cognitive-flexibility, mixed-selectivity, stability-flexibility-tradeoff, task-switching-cost]
+updated: 2026-08-25
+revision_count: 7
+dimensions: [brain-region, cognition, microcircuit, behavior, disease]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, response-inhibition, hyperdirect-pathway, stop-signal-task, orbitofrontal-cortex, value-based-decision-making, dlpfc-cognitive-flexibility, mixed-selectivity, stability-flexibility-tradeoff, task-switching-cost, vmPFC, emotion-regulation, cognitive-reappraisal, amygdala, fear-extinction]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
-opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02, Q-ri-03, Q-ofc-02, Q-dlpfc-01, Q-dlpfc-02, Q-dlpfc-03, Q-dlpfc-04]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-19-response-inhibition-hyperdirect-pathway, 2026-08-21-orbitofrontal-cortex-value-decision-circuit, 2026-08-24-dlpfc-cognitive-flexibility-rule-switching]
+opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02, Q-ri-03, Q-ofc-02, Q-dlpfc-01, Q-dlpfc-02, Q-dlpfc-03, Q-dlpfc-04, Q-vmPFC-01]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-19-response-inhibition-hyperdirect-pathway, 2026-08-21-orbitofrontal-cortex-value-decision-circuit, 2026-08-24-dlpfc-cognitive-flexibility-rule-switching, 2026-08-25-vmPFC-sgACC-emotion-regulation]
 key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:32155442", "PMID:16510720", "PMID:28103476", "PMID:19407204", "PMID:29144973", "PMID:11283309", "PMID:11209083", "PMID:23685452", "PMC4412347", "PMID:24201281", "PMC4121670", "PMID:23177967", "PMC3907768", "PMID:19672274", "PMID:38010299"]
 ---
 
@@ -98,6 +98,22 @@ dlPFC 不仅"维持"工作记忆内容，更通过三重机制实现认知弹性
 - [[stop-signal-task]] — rIFG/STN 激活强度预测 SSRT（Aron & Poldrack 2006，r=0.68）
 - [[orbitofrontal-cortex]] — vmPFC/OFC 是 PFC 中负责价值整合和目标导向决策的腹侧亚区；dlPFC 在自控时调制 vmPFC 价值信号（Hare et al. 2009）
 - [[value-based-decision-making]] — dlPFC 通过调制 vmPFC 的价值整合实现自控；前边缘皮层（PL）接受并反馈 mOFC 信号
+- [[vmPFC]] — vmPFC（BA10/11/12/25/32 腹侧）是 PFC 中情绪调节的核心亚区；通过 vlPFC→vmPFC→杏仁核三层级回路实现认知重评，通过 IL/vmPFC→ITC→CeM 回路执行恐惧消退；详见 [[vmPFC]] 页面
+- [[emotion-regulation]] — vmPFC 是情绪调节的前额叶枢纽；认知重评、恐惧消退均依赖 vmPFC→杏仁核的负向有效连接
+- [[cognitive-reappraisal]] — 认知重评的三层级回路以 vmPFC 为中间整合节点（vlPFC 语义重构 → vmPFC 情绪估价 → 杏仁核抑制）
+- [[amygdala]] — vmPFC/IL 通过腹侧 ITC 抑制杏仁核 CeM 输出，是情绪调节的主要皮层-皮层下轴
+- [[fear-extinction]] — IL（啮齿类 vmPFC 同源）是恐惧消退记忆提取的关键皮层节点
+
+### vmPFC — 情绪调节的 PFC 腹侧亚区
+
+vmPFC（腹内侧前额叶皮层，BA10/11/12/25/32 腹侧）是 PFC 的情绪调节专用亚区，与 dlPFC（认知控制/工作记忆）功能互补，共享前额叶皮层的整体调控框架：
+
+- **认知重评**：vlPFC（语义重构）→ vmPFC（情绪价值整合）→ 杏仁核 BLA（负向有效连接抑制）；TMS-fMRI 因果证明（He et al. 2023, PMID:37507228）
+- **恐惧消退**：IL（大鼠 vmPFC 同源体）→ 腹侧 ITC（ICMMV）→ CeM 抑制；同时 IL → BLA 消退神经元激活安全信号
+- **sgACC（BA25）轴**：下行至 LC/DRN/PAG/下丘脑，将皮层情绪估价转化为自主神经和神经调质变化；抑郁症中持续过度激活形成恶性循环
+- **抑郁中的回路崩溃**：vmPFC 灰质减少 + sgACC 超激活 → 情绪调节失败；BA25 白质纤维 DBS 治疗难治性抑郁（Mayberg 2005）
+
+见 [[vmPFC]]（专用页面）获取完整机制和证据表。
 
 ## 未解问题
 
@@ -108,6 +124,7 @@ dlPFC 不仅"维持"工作记忆内容，更通过三重机制实现认知弹性
 - Q-dlpfc-02：dACC→BG→dlPFC 规则更新信号链的精确时间分辨率是多少？
 - Q-dlpfc-03：人类 dlPFC 的混合选择性程度是否超越猕猴？
 - Q-dlpfc-04：规则切换时旧规则被主动抑制还是竞争压制？
+- Q-vmPFC-01（高优先级）：vmPFC 在认知重评中为何在元分析中未呈现稳定激活——是策略依赖、时间分辨率问题，还是个体差异稀释？
 
 ## 修订历史
 
@@ -118,6 +135,7 @@ dlPFC 不仅"维持"工作记忆内容，更通过三重机制实现认知弹性
 - 2026-08-19 · 修订 · 基于《大脑的刹车系统》一文 · 新增 rIFG/preSMA 在反应抑制（超直接通路）中的因果作用证据；添加 response-inhibition、hyperdirect-pathway、stop-signal-task 到 related；新增 Aron & Poldrack 2006 和 Chen et al. 2020 证据；新增未解问题 Q-ri-03
 - 2026-08-21 · 修订 · 基于《价值的解剖：眶额皮层如何为选项定价》一文 · 新增 vmPFC/OFC 作为 PFC 的价值决策腹侧亚区（dlPFC→vmPFC 自控调制，Hare et al. 2009）；添加 orbitofrontal-cortex、value-based-decision-making 到 related；新增未解问题 Q-ofc-02
 - 2026-08-24 · 修订 · 基于《背外侧前额叶的认知弹性》文章 · 新增 dlPFC 认知弹性三重机制（混合选择性/群体动力学/振荡选通）与前额叶层级（Badre 2009）；添加 dlpfc-cognitive-flexibility、mixed-selectivity、stability-flexibility-tradeoff、task-switching-cost 到 related；新增未解问题 Q-dlpfc-01~04；新增关键来源 Mante 2013/Buschman 2012/Rigotti 2013/Sali 2024
+- 2026-08-25 · 修订 · 基于《驯化杏仁核：vmPFC 与 sgACC》(#123) · 新增 vmPFC 作为 PFC 情绪调节腹侧亚区（认知重评三层级回路 + 恐惧消退 IL 同源 + sgACC 自主神经轴 + 抑郁回路崩溃）；添加 vmPFC、emotion-regulation、cognitive-reappraisal、amygdala、fear-extinction 到 related；新增未解问题 Q-vmPFC-01；添加 dimensions: disease
 
 ## 来源文章
 
@@ -126,3 +144,4 @@ dlPFC 不仅"维持"工作记忆内容，更通过三重机制实现认知弹性
 - [[2026-08-19-response-inhibition-hyperdirect-pathway]]
 - [[2026-08-21-orbitofrontal-cortex-value-decision-circuit]]
 - [[2026-08-24-dlpfc-cognitive-flexibility-rule-switching]]
+- [[2026-08-25-vmPFC-sgACC-emotion-regulation]]

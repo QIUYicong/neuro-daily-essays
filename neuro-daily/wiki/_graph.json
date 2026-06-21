@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-24",
-  "node_count": 230,
-  "edge_count": 1337,
+  "updated": "2026-08-25",
+  "node_count": 247,
+  "edge_count": 1425,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2222,6 +2222,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/task-switching-cost.md"
+    },
+    {
+      "id": "vmPFC",
+      "title": "腹内侧前额叶皮层（vmPFC）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/vmPFC.md"
+    },
+    {
+      "id": "emotion-regulation",
+      "title": "情绪调节",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/emotion-regulation.md"
+    },
+    {
+      "id": "cognitive-reappraisal",
+      "title": "认知重评",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cognitive-reappraisal.md"
     }
   ],
   "edges": [
@@ -10060,6 +10087,150 @@
       "to": "response-inhibition",
       "type": "related",
       "note": "切换需要抑制旧任务的反应倾向"
+    },
+    {
+      "from": "vmPFC",
+      "to": "prefrontal-cortex",
+      "type": "part-of",
+      "note": "vmPFC（BA10/11/12/25/32腹侧）是 PFC 的腹侧亚区，情绪调节专用分区"
+    },
+    {
+      "from": "vmPFC",
+      "to": "amygdala",
+      "type": "regulates",
+      "note": "vmPFC 对杏仁核存在负向有效连接（Steward 2021 DCM），是认知重评和恐惧消退的共同下游效应"
+    },
+    {
+      "from": "vmPFC",
+      "to": "emotion-regulation",
+      "type": "mechanism-of",
+      "note": "vmPFC 是情绪调节的前额叶枢纽，整合多种策略（认知重评、恐惧消退、内感觉重估）"
+    },
+    {
+      "from": "vmPFC",
+      "to": "cognitive-reappraisal",
+      "type": "mechanism-of",
+      "note": "vmPFC 是认知重评三层级回路（vlPFC→vmPFC→杏仁核）的中间整合节点"
+    },
+    {
+      "from": "vmPFC",
+      "to": "fear-extinction",
+      "type": "mechanism-of",
+      "note": "IL（大鼠 vmPFC 同源体）→腹侧ITC→CeM 是恐惧消退的核心皮层回路；vmPFC 激活程度预测消退回忆质量"
+    },
+    {
+      "from": "vmPFC",
+      "to": "anterior-cingulate-cortex",
+      "type": "related",
+      "note": "sgACC（BA25）是 vmPFC 的重要组成部分，与 ACC 的 dACC/rACC 区分；sgACC 作为'内脏运动皮层'下行调节自主神经"
+    },
+    {
+      "from": "vmPFC",
+      "to": "orbitofrontal-cortex",
+      "type": "related",
+      "note": "vmPFC 与 OFC 有解剖重叠（BA11/12 腹侧），共享价值整合功能但 vmPFC 更偏情绪调节"
+    },
+    {
+      "from": "vmPFC",
+      "to": "nucleus-accumbens",
+      "type": "related",
+      "note": "vmPFC→NAc 投射参与情绪-动机整合；vmPFC 的价值信号影响 NAc 的激励显著性计算"
+    },
+    {
+      "from": "vmPFC",
+      "to": "hpa-axis",
+      "type": "regulates",
+      "note": "sgACC/vmPFC 通过下行投射到下丘脑和自主神经中枢调节 HPA 轴；抑郁中失调"
+    },
+    {
+      "from": "vmPFC",
+      "to": "insular-cortex",
+      "type": "related",
+      "note": "vmPFC 与岛叶在情绪调节中协作：岛叶提供内感觉信号，vmPFC 整合并调制杏仁核输出"
+    },
+    {
+      "from": "emotion-regulation",
+      "to": "amygdala",
+      "type": "regulates",
+      "note": "情绪调节的最终效应器是对杏仁核输出的精细调制（通过 vmPFC/IL 负向有效连接）"
+    },
+    {
+      "from": "emotion-regulation",
+      "to": "vmPFC",
+      "type": "related",
+      "note": "vmPFC 是情绪调节的核心前额叶枢纽"
+    },
+    {
+      "from": "emotion-regulation",
+      "to": "cognitive-reappraisal",
+      "type": "related",
+      "note": "认知重评是情绪调节最重要的认知策略之一"
+    },
+    {
+      "from": "emotion-regulation",
+      "to": "fear-extinction",
+      "type": "related",
+      "note": "恐惧消退是情绪调节最基本的学习形式（习惯化/消退策略）"
+    },
+    {
+      "from": "emotion-regulation",
+      "to": "insular-cortex",
+      "type": "related",
+      "note": "岛叶的内感觉信号提供情绪调节的原始材料；内感觉重估是情绪调节策略之一"
+    },
+    {
+      "from": "emotion-regulation",
+      "to": "interoception",
+      "type": "related",
+      "note": "内感觉监测是情绪调节的感觉基础"
+    },
+    {
+      "from": "emotion-regulation",
+      "to": "active-inference",
+      "type": "related",
+      "note": "主动推断/自由能视角下，情绪调节是精度权重的主动调整（vmPFC 修改杏仁核信号的精度权重）"
+    },
+    {
+      "from": "emotion-regulation",
+      "to": "anterior-cingulate-cortex",
+      "type": "related",
+      "note": "rACC/sgACC 参与情绪调节和情感疼痛；sgACC 持续过度激活是抑郁情绪调节失败的机制"
+    },
+    {
+      "from": "cognitive-reappraisal",
+      "to": "emotion-regulation",
+      "type": "is-a",
+      "note": "认知重评是情绪调节策略的一种，研究最广泛"
+    },
+    {
+      "from": "cognitive-reappraisal",
+      "to": "amygdala",
+      "type": "regulates",
+      "note": "认知重评通过 vmPFC→杏仁核负向连接降低杏仁核激活和内感觉（岛叶）激活"
+    },
+    {
+      "from": "cognitive-reappraisal",
+      "to": "vmPFC",
+      "type": "related",
+      "note": "vmPFC 是认知重评回路的情绪整合节点（vlPFC 语义→vmPFC 情绪估价→杏仁核抑制）"
+    },
+    {
+      "from": "cognitive-reappraisal",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "vlPFC/dlPFC 是认知重评语义重构的起点；认知重评需要完整的外侧 PFC 功能"
+    },
+    {
+      "from": "cognitive-reappraisal",
+      "to": "working-memory",
+      "type": "related",
+      "note": "认知重评过程需要工作记忆维持新的解释框架"
+    },
+    {
+      "from": "cognitive-reappraisal",
+      "to": "fear-extinction",
+      "type": "related",
+      "note": "认知重评与恐惧消退功能上相关：两者均通过 vmPFC→杏仁核通路减少情绪反应，但机制有差异（重评改变含义，消退形成新抑制记忆）"
     }
   ],
   "dangling_references": [

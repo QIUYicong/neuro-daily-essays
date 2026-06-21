@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-24",
-  "total_articles": 122,
+  "last_updated": "2026-08-25",
+  "total_articles": 123,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7597,6 +7597,89 @@
         "注意与认知控制的交互：额顶网络（FPN）与默认模式网络（DMN）的拮抗关系",
         "人类 PFC 的发育和老化：认知弹性从儿童到老年的神经轨迹"
       ]
+    },
+    {
+      "date": "2026-08-25",
+      "article_number": 123,
+      "title": "驯化杏仁核：vmPFC 与 sgACC 如何编织情绪控制的神经语言，以及抑郁症如何让这根丝线断裂",
+      "slug": "vmPFC-sgACC-emotion-regulation",
+      "core_question": "vmPFC（腹内侧前额叶皮层）和 sgACC（膝下前扣带皮层）如何实现对杏仁核的自上而下调控，从而构成人类情绪控制的神经基础？当这一系统失调时，如何产生抑郁症的神经生物学机制？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior",
+        "disease"
+      ],
+      "topic_tags": [
+        "vmPFC",
+        "sgACC",
+        "BA25",
+        "emotion-regulation",
+        "cognitive-reappraisal",
+        "fear-extinction",
+        "IL-PL",
+        "infralimbic-cortex",
+        "prelimbic-cortex",
+        "amygdala",
+        "depression-TRD",
+        "DBS-BA25",
+        "Mayberg",
+        "Drevets",
+        "visceromotor-cortex",
+        "Ochsner",
+        "Buhle-meta-analysis",
+        "Steward-DCM",
+        "He-TMS-fMRI",
+        "Giustino-Maren",
+        "Sierra-Mercado",
+        "PTSD-extinction-recall",
+        "Price-Drevets"
+      ],
+      "main_sources": [
+        "PMID:12495527",
+        "PMID:15488398",
+        "PMID:23765157",
+        "PMID:37507228",
+        "PMID:32960214",
+        "PMID:26617500",
+        "PMID:20962768",
+        "PMID:10415674",
+        "PMID:15748841",
+        "PMID:19693001",
+        "PMID:41171999",
+        "PMID:40026920"
+      ],
+      "open_full_text_sources": [
+        "PMC4637424",
+        "PMC3055427",
+        "PMC11870299",
+        "PMC12578624"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/vmPFC.md",
+        "wiki/concepts/emotion-regulation.md",
+        "wiki/concepts/cognitive-reappraisal.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/fear-extinction.md (rev5->rev6)",
+        "wiki/systems/amygdala.md (rev6->rev7)",
+        "wiki/systems/anterior-cingulate-cortex.md (rev4->rev5)",
+        "wiki/systems/prefrontal-cortex.md (rev6->rev7)"
+      ],
+      "unresolved_questions": [
+        "Q-vmPFC-01",
+        "Q-vmPFC-02",
+        "Q-vmPFC-03"
+      ],
+      "contested_claims_logged": [],
+      "next_suggested_topics": [
+        "PTSD 的神经生物学：恐惧记忆的过度巩固与消退障碍（vmPFC/海马/杏仁核三角失调）",
+        "抑郁症的回路机制：从 sgACC 到单胺系统崩溃（ketamine 快速机制 vs SSRI 延迟机制）",
+        "工作记忆与情绪调节的交互：dlPFC 如何在认知负荷下支持/干扰情绪调节",
+        "内感觉与情绪生成：岛叶-vmPFC-杏仁核轴的预测误差机制（Barrett EPIC 模型深化）",
+        "腹侧纹状体与情绪：NAc-vmPFC 环路在奖赏和情绪价值中的双向作用"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -7652,7 +7735,8 @@
       "2026-06-11",
       "2026-06-12",
       "2026-05-31",
-      "2026-08-24"
+      "2026-08-24",
+      "2026-08-25"
     ],
     "whole_brain_network": [
       "2026-05-29",

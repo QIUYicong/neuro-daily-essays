@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-08-02
-updated: 2026-08-23
-revision_count: 4
-dimensions: [brain-region, cognition, whole-brain-network, behavior]
-related: [pain-matrix, periaqueductal-gray, prefrontal-cortex, amygdala, insular-cortex, interoception, gate-control-theory, placebo-analgesia, endogenous-opioid-system, error-related-negativity, conflict-monitoring, expected-value-of-control, frontal-midline-theta, response-inhibition, working-memory, nucleus-accumbens, hyperdirect-pathway]
+updated: 2026-08-25
+revision_count: 5
+dimensions: [brain-region, cognition, whole-brain-network, behavior, disease]
+related: [pain-matrix, periaqueductal-gray, prefrontal-cortex, amygdala, insular-cortex, interoception, gate-control-theory, placebo-analgesia, endogenous-opioid-system, error-related-negativity, conflict-monitoring, expected-value-of-control, frontal-midline-theta, response-inhibition, working-memory, nucleus-accumbens, hyperdirect-pathway, vmPFC, emotion-regulation, hpa-axis]
 prerequisites: [pain-matrix, prefrontal-cortex]
-opens_questions: [Q-dacc-01, Q-dacc-02, Q-dacc-03, Q-dacc-04]
-source_articles: [2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-03-placebo-analgesia-pfc-opioid-circuit, 2026-08-22-insular-cortex-interoception-bodily-self, 2026-08-23-dacc-error-monitoring-conflict-effort]
-key_sources: ["PMID:17678852", "PMID:26247858", "PMID:19837031", "PMID:19709634", "PMID:16120776", "PMID:11834781", "PMID:11488380", "PMID:12374324", "PMID:23889930", "PMID:24835663", "PMID:16949252"]
+opens_questions: [Q-dacc-01, Q-dacc-02, Q-dacc-03, Q-dacc-04, Q-vmPFC-02]
+source_articles: [2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-03-placebo-analgesia-pfc-opioid-circuit, 2026-08-22-insular-cortex-interoception-bodily-self, 2026-08-23-dacc-error-monitoring-conflict-effort, 2026-08-25-vmPFC-sgACC-emotion-regulation]
+key_sources: ["PMID:17678852", "PMID:26247858", "PMID:19837031", "PMID:19709634", "PMID:16120776", "PMID:11834781", "PMID:11488380", "PMID:12374324", "PMID:23889930", "PMID:24835663", "PMID:16949252", "PMID:19693001", "PMID:10415674", "PMID:15748841", "PMID:41171999"]
 ---
 
 # 前扣带回（Anterior Cingulate Cortex, ACC）
@@ -172,12 +172,20 @@ EVC = Σ(收益 × 概率) − 努力成本
 - [[working-memory]] — dACC 监测 WM 任务的冲突和努力，调节控制强度
 - [[nucleus-accumbens]] — dACC→NAc 是努力代价克服的关键自顶向下通路
 
+**sgACC 情绪调节（2026-08-25 新增）：**
+- [[vmPFC]] — sgACC（BA25）是 vmPFC 的核心亚区，在本页的 sgACC 节介绍；详细机制和抑郁症回路见 vmPFC 页面
+- [[emotion-regulation]] — sgACC 是情绪调节的关键皮层执行节点（内脏运动皮层）
+- [[hpa-axis]] — sgACC→下丘脑 PVN 路径参与 HPA 轴的皮层调控（抑郁症中 HPA 轴过度激活与 sgACC 相关）
+
+**sgACC 的详细机制**（见 vmPFC 页面）：sgACC/BA25 是 Price & Drevets 定义的"内脏运动皮层"，通过投射至蓝斑（LC）、中缝背核（DRN）、导水管周围灰质（PAG）、下丘脑和伏隔核（NAc）调控自主神经和神经调质输出。在家族性抑郁症中，sgACC 代谢持续过度增高同时灰质减少（Drevets 1999, PMID:10415674）。抗抑郁治疗有效者 sgACC 代谢选择性下降（Drevets 2002, PMID:12468016）。针对 sgACC 旁白质纤维的 DBS 是治疗难治性抑郁症的方法，Mayberg 2005（PMID:15748841）6例先导研究显示4/6缓解，Giacobbe 2026（PMID:41171999）最大单中心 RCT 随访24个月73.1%反应率。
+
 ## 未解问题
 
 - Q-dacc-01: dACC 与 MCC 的解剖边界（高优先级）
 - Q-dacc-02: EVC 中努力成本的神经实现（中优先级）
 - Q-dacc-03: dACC 内部突触学习规则（中优先级）
 - Q-dacc-04: dACC 中 θ 与 γ 协作机制（低-中优先级）
+- Q-vmPFC-02（中优先级，2026-08-25新增）：sgACC DBS 的长期缓解机制——局部场电位振荡改变，还是轴突末梢顺行激活 sgACC 投射通路？
 
 ## 修订历史
 
@@ -185,6 +193,7 @@ EVC = Σ(收益 × 概率) − 努力成本
 - 2026-08-03 · 修订 · 深化rACC在安慰剂镇痛中的作用（naloxone阻断rACC-PAG偶联；μ阿片受体直接成像）· 依据：2026-08-03-placebo-analgesia文章
 - 2026-08-22 · 修订 · 新增岛叶-ACC 显著性网络连接说明；更新 related 字段 · 依据：2026-08-22-insular-cortex-interoception-bodily-self
 - 2026-08-23 · **重大修订** · 新增 dACC/MCC 认知控制功能全板块（错误监测ERN、冲突监控、努力决策、FMθ振荡、EVC理论）；更新解剖分区表含现代MCC术语；新增related 8项、opens_questions 4项、key_sources 5项 · 依据：2026-08-23-dacc-error-monitoring-conflict-effort
+- 2026-08-25 · 修订 rev5 · 基于《驯化杏仁核：vmPFC 与 sgACC》(#123) · 连接节新增 sgACC 情绪调节板块（vmPFC/emotion-regulation/hpa-axis）；正文补充 sgACC 内脏运动皮层机制详情和 DBS 证据；dimensions 新增 disease；related/opens_questions/key_sources 相应更新
 
 ## 来源文章
 
@@ -192,3 +201,4 @@ EVC = Σ(收益 × 概率) − 努力成本
 - [[2026-08-03-placebo-analgesia-pfc-opioid-circuit]]
 - [[2026-08-22-insular-cortex-interoception-bodily-self]]
 - [[2026-08-23-dacc-error-monitoring-conflict-effort]]
+- [[2026-08-25-vmPFC-sgACC-emotion-regulation]]

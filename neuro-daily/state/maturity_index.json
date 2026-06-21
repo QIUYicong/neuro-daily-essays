@@ -560,5 +560,32 @@
     "revision_count": 1,
     "last_changed": "2026-08-24",
     "reason": "Rogers & Monsell 1995以来三十年行为实验高度可重复；fMRI（Sali 2024）和振荡机制（Buschman 2012）支持神经基底；教科书级行为现象"
+  },
+  {
+    "slug": "vmPFC",
+    "title": "腹内侧前额叶皮层（vmPFC）",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-08-25",
+    "reason": "新建页：vmPFC 作为情绪调节枢纽的三条核心证据线——认知重评三层级回路（Ochsner 2002, Buhle 2014 元分析），恐惧消退 IL 同源回路（Giustino & Maren 2015 系统综述），sgACC 内脏运动皮层（Price & Drevets 2010, Mayberg 2005 DBS）；核心解剖和功能已高度确立；部分证据来自大鼠 IL（需谨慎外推人类）；Q-vmPFC-01 关于元分析不稳定性未解"
+  },
+  {
+    "slug": "emotion-regulation",
+    "title": "情绪调节",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-08-25",
+    "reason": "新建页：情绪调节多策略框架教科书级确立；vmPFC 枢纽回路有多项独立证据（Ochsner/Buhle/Steward/He）；认知重评 vs 压制代价差异有元分析支持（Buhle 2014）；主动推断框架为理论整合，证据较新"
+  },
+  {
+    "slug": "cognitive-reappraisal",
+    "title": "认知重评",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-08-25",
+    "reason": "新建页：认知重评行为证据极为充分（Gross 1998以来30年研究）；神经机制有 Ochsner 2002/2004 基础实验 + Buhle 2014 元分析（48项研究）+ Steward 2021 DCM 因果量化 + He 2023 TMS-fMRI 因果证明；有效性边界（感官驱动情绪效果有限）有支持；Q-vmPFC-01 是唯一主要未解问题"
   }
 ]

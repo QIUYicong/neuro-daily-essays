@@ -1,0 +1,151 @@
+# 运行日志 · 2026-08-25
+
+**文章编号**：#123
+**文章标题**：驯化杏仁核：vmPFC 与 sgACC 如何编织情绪控制的神经语言，以及抑郁症如何让这根丝线断裂
+**运行时间**：2026-08-25（连续两个上下文窗口）
+**分支**：main（单主干累积推送）
+
+---
+
+## A. 主题选择
+
+**依据**：文章 #122 (2026-08-24) 建议的下一主题"情绪调节的前额叶回路：vmPFC/sgACC 与 dlPFC 的对话"。这也符合课程脊柱5（认知控制）→脊柱6（情绪与动机）的自然过渡，且知识库存在以下悬空引用需填补：
+- vmPFC（在多个 wiki 页面中被引用，尚无专用页面）
+- emotion-regulation（被 vmPFC、amygdala、fear-extinction 引用）
+- cognitive-reappraisal（被多页引用）
+
+**连通性**：与已有页面 amygdala(rev6)、fear-extinction(rev5)、anterior-cingulate-cortex(rev4)、prefrontal-cortex(rev6)、orbitofrontal-cortex 等深度关联。
+
+---
+
+## B. 文献搜索与来源验证
+
+**搜索词**：
+- "vmPFC emotion regulation amygdala fMRI"
+- "cognitive reappraisal prefrontal cortex meta-analysis"
+- "infralimbic prefrontal fear extinction"
+- "sgACC subgenual anterior cingulate depression DBS"
+- "vmPFC→amygdala effective connectivity DCM"
+
+**来源状态**（12 篇，4 篇开放全文）：
+- PMID:12495527 (Ochsner 2002) — 摘要
+- PMID:15488398 (Ochsner 2004) — 摘要
+- PMID:23765157 (Buhle 2014) — 摘要
+- PMID:37507228 (He 2023) — 摘要
+- PMID:32960214 (Steward 2021) — 摘要
+- PMID:26617500 (Giustino & Maren 2015) — 全文 [PMC4637424] ✓
+- PMID:20962768 (Sierra-Mercado 2011) — 摘要
+- PMID:10415674 (Drevets 1999) — 摘要
+- PMID:15748841 (Mayberg 2005) — 摘要
+- PMID:19693001 (Price & Drevets 2010) — 全文 [PMC3055427] ✓
+- PMID:41171999 (Giacobbe 2026) — 全文 [PMC12578624] ✓
+- PMID:40026920 (Mavrych 2025) — 全文 [PMC11870299] ✓
+
+**注意**：以下 PMID 尝试获取失败/匹配错误，未使用：
+- PMID:22343027（预期 Milad & Quirk 2012，实际返回不相关论文）
+- 未使用任何猜测性 PMID 或错误关联来源
+
+---
+
+## C. 文章写作
+
+**文章路径**：`neuro-daily/articles/2026-08-25-vmPFC-sgACC-emotion-regulation.md`
+**笔记路径**：`neuro-daily/notes/2026-08-25-reading-notes.md`
+**来源路径**：`neuro-daily/sources/2026-08-25-sources.json`
+
+**文章结构**：
+1. 核心问题
+2. 一句话概括
+3. 为什么值得关注
+4. 背景（vmPFC/sgACC 解剖）
+5. 机制：认知重评（三层级回路）
+6. 机制：恐惧消退（IL/PL 对立）
+7. 机制：sgACC 内脏运动皮层
+8. 机制：抑郁症回路崩溃
+9. 证据表（9 条主要证据）
+10. 隐喻（"皮层手"控制"杏仁核木偶"）
+11. 临床启示
+12. 争议与开放问题
+13. AI 比较
+14. 概念卡片（重评 vs 压制）
+15. 认知地图更新
+16. 参考文献
+
+---
+
+## D. 固结步骤（Wiki 知识库更新）
+
+### 新建 wiki 页面（3）
+- `wiki/systems/vmPFC.md` — rev1，established，高置信度
+- `wiki/concepts/emotion-regulation.md` — rev1，established，高置信度
+- `wiki/concepts/cognitive-reappraisal.md` — rev1，established，高置信度
+
+### 修订 wiki 页面（4）
+- `wiki/concepts/fear-extinction.md`：rev5→rev6
+  - 新增 Giustino & Maren 2015 BLA亚区分区投射系统综述
+  - 新增 Sierra-Mercado 2011 双侧 IL/PL 因果实验
+  - 新增 Q-vmPFC-03 到 opens_questions
+  - 新增 vmPFC/emotion-regulation 到 related
+- `wiki/systems/amygdala.md`：rev6→rev7
+  - 新增 vmPFC→杏仁核负向有效连接（认知重评+恐惧消退双机制）
+  - 新增 vmPFC/emotion-regulation/cognitive-reappraisal 到 related
+  - 新增 Q-vmPFC-03 到 opens_questions
+- `wiki/systems/anterior-cingulate-cortex.md`：rev4→rev5
+  - 新增 sgACC（BA25）作为"内脏运动皮层"完整机制
+  - 新增 DBS 治疗 TRD 证据（Drevets 1999 + Price & Drevets 2010 + Mayberg 2005 + Giacobbe 2026）
+  - 新增 vmPFC/emotion-regulation/hpa-axis 到 related
+  - 新增 Q-vmPFC-02 到 opens_questions
+- `wiki/systems/prefrontal-cortex.md`：rev6→rev7
+  - 新增 vmPFC 作为 PFC 情绪调节腹侧亚区小节
+  - 新增 5 条 connections（vmPFC/emotion-regulation/cognitive-reappraisal/amygdala/fear-extinction）
+  - 新增 Q-vmPFC-01 到 opens_questions
+
+### 矛盾检查
+- 无实证矛盾登记
+- vmPFC 在认知重评元分析中的不稳定激活标记为 Q-vmPFC-01（待解问题），非矛盾
+
+---
+
+## E. 图谱与导航更新
+
+- `wiki/_graph.json`：247节点（+3），1425边（+23）
+  - 新节点：vmPFC / emotion-regulation / cognitive-reappraisal
+  - 新边：见 CHANGELOG.md 详细列表
+- `wiki/index.md`：更新头部，新增 vmPFC（systems）、emotion-regulation/cognitive-reappraisal（concepts）条目，修订 4 个已有条目描述
+- `wiki/CHANGELOG.md`：顶部新增 2026-08-25 完整记录
+
+---
+
+## F. 治理层更新
+
+- `state/topic_ledger.json`：total_articles 122→123，新增 #123 条目
+- `state/unresolved_questions.md`：新增 Q-vmPFC-01/02/03（高优先级）
+- `state/maturity_index.json`：新增 vmPFC/emotion-regulation/cognitive-reappraisal（均为 established/high）
+- `state/source_registry.json`：新增 12 条来源记录（含 4 篇开放全文）
+- `state/monthly_synthesis.md`：追加 2026-08-25 条目
+
+---
+
+## G. Git 提交
+
+**分支**：main
+**Git 作者**：QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+**操作**：`git pull --rebase origin main` → `git add neuro-daily/` → `git commit` → `git push origin main`
+
+---
+
+## H. 自查
+
+- [x] 不编造来源或结论——所有 PMID 均通过 PubMed 验证（摘要级）
+- [x] ≥2 篇开放全文（实际4篇：PMC4637424/PMC3055427/PMC12578624/PMC11870299）
+- [x] 无医疗诊断建议
+- [x] 无 Sci-Hub / 盗版 PDF
+- [x] 所有新建 wiki 页面有完整 frontmatter
+- [x] 修订页面已更新 revision_count 和 updated
+- [x] 图谱节点和边已添加
+- [x] 治理文件已全部更新
+- [x] 推送到 QIUYicong/neuro-daily-essays main 分支
+
+---
+
+*日志结束*

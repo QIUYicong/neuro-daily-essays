@@ -4,6 +4,40 @@
 
 ---
 
+## 2026-08-25 · 文章 #123 · 驯化杏仁核：vmPFC 与 sgACC 如何编织情绪控制的神经语言，以及抑郁症如何让这根丝线断裂
+
+**核心主题**：vmPFC（BA10/11/12/25/32 腹侧）与 sgACC（BA25）如何作为前额叶-杏仁核情绪调节回路的枢纽。三个机制板块：(1) 认知重评——vlPFC 语义重构 → vmPFC 情绪整合 → 杏仁核负向有效连接（Steward 2021 DCM + He 2023 TMS-fMRI 因果证明）；(2) 恐惧消退——IL/vmPFC → 腹侧 ITC → CeM 抑制（Giustino & Maren 2015 系统综述 + Sierra-Mercado 2011 因果证据）；(3) sgACC 作为"内脏运动皮层"（Price & Drevets 2010）——正常情况下精准调节自主神经和神经调质基线，抑郁时持续过度激活形成自我维持的负性情绪循环（Drevets 1999 PET + Mayberg 2005 BA25 DBS）。
+
+### 新建 Wiki 页面（3 个）
+
+- `systems/vmPFC.md`（腹内侧前额叶皮层）🟢 established · 高置信度 — 四大功能回路（认知重评/恐惧消退/sgACC轴/抑郁崩溃）；9 条证据记录；Q-vmPFC-01/02/03 三个开放问题
+- `concepts/emotion-regulation.md`（情绪调节）🟢 established · 高置信度 — 五类策略（认知重评/注意部署/情绪压制/习惯化消退/内感觉重估）；vmPFC 枢纽回路图；主动推断精度权重视角
+- `concepts/cognitive-reappraisal.md`（认知重评）🟢 established · 高置信度 — 三层级回路（vlPFC语义重构→vmPFC整合→杏仁核抑制）；重评 vs 压制代价对比；Buhle 2014 元分析 + He 2023 TMS-fMRI 证据
+
+### 修订 Wiki 页面（4 个）
+
+- `concepts/fear-extinction.md`：rev5→rev6，新增 Giustino & Maren 2015 系统综述（BLA→IL/PL分区投射）+ Sierra-Mercado 2011 双侧因果实验；添加 vmPFC/emotion-regulation 到 related；添加 Q-vmPFC-03 到 opens_questions
+- `systems/amygdala.md`：rev6→rev7，新增 vmPFC→杏仁核负向通路（认知重评 + 恐惧消退双视角）；添加 vmPFC/emotion-regulation/cognitive-reappraisal 到 related；添加 Q-vmPFC-03
+- `systems/anterior-cingulate-cortex.md`：rev4→rev5，新增 sgACC（BA25）作为"内脏运动皮层"的完整机制（DBS治疗TRD + Drevets 1999 + Price & Drevets 2010）；添加 vmPFC/emotion-regulation/hpa-axis 到 related；添加 Q-vmPFC-02
+- `systems/prefrontal-cortex.md`：rev6→rev7，新增 vmPFC 作为 PFC 情绪调节腹侧亚区（认知重评三层级 + IL消退 + sgACC轴 + 抑郁回路崩溃）；添加 vmPFC/emotion-regulation/cognitive-reappraisal/amygdala/fear-extinction 到 related；添加 Q-vmPFC-01；添加 dimensions: disease
+
+### 图谱更新
+
+- 节点：244 → 247（+3）
+- 边：1402 → 1425（+23）
+- 新节点：vmPFC / emotion-regulation / cognitive-reappraisal
+- 主要新边：vmPFC ↔ amygdala/anterior-cingulate-cortex/prefrontal-cortex/fear-extinction/emotion-regulation/cognitive-reappraisal/orbitofrontal-cortex/nucleus-accumbens/hpa-axis；emotion-regulation ↔ vmPFC/amygdala/cognitive-reappraisal/fear-extinction/insular-cortex/interoception/active-inference；cognitive-reappraisal ↔ vmPFC/amygdala/prefrontal-cortex/working-memory/fear-extinction
+
+### 新增开放问题（3 个）
+
+- Q-vmPFC-01（高）：vmPFC 在认知重评元分析中未呈现稳定激活的原因——策略依赖/时间分辨率/个体差异稀释？
+- Q-vmPFC-02（高）：sgACC 过度激活在抑郁中是起因还是结果？DBS 如何中断恶性循环？
+- Q-vmPFC-03（高）：PTSD 中 vmPFC 消退记忆提取障碍的精确机制——编码失败还是提取阻断？
+
+### 无矛盾登记（vmPFC 在元分析中的不稳定激活被标记为 Q-vmPFC-01，非实证矛盾）
+
+---
+
 ## 2026-08-24 · 文章 #122 · 背外侧前额叶的认知弹性：规则维护、任务切换与工作记忆门控机制
 
 **核心主题**：dlPFC（BA9/46）认知弹性三重机制——(1) 混合选择性（mixed selectivity，Rigotti 2013）：非线性多变量响应使神经表征高维化，支持任意规则组合的线性可读出；(2) 群体动力学（Mante 2013）：不同任务背景下群体活动轨迹沿正交子空间展开，选择与整合是同一动力学过程两个面；(3) 振荡选通（Buschman 2012）：beta 同步激活当前规则集群，alpha 同步抑制无关集群。BG-PFC 门控（O'Reilly & Frank 2006）解释稳定性—弹性权衡的回路机制，与 dACC（#121）直接串联。额叶层级（Badre 2009）描述前后轴抽象度递增的认知控制组织。OCD（Liu 2023）和 Sali 2024 的强化学习视角作为疾病与现代机制补充。

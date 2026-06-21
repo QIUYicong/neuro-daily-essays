@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-08-05
-revision_count: 5
+updated: 2026-08-25
+revision_count: 6
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation, engram-cells, dopamine-reward-prediction-error, endocannabinoid-system, cb1-receptor]
+related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation, engram-cells, dopamine-reward-prediction-error, endocannabinoid-system, cb1-receptor, vmPFC, emotion-regulation]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
-opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02, Q-extinction-reward-overlap]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-08-05-endocannabinoid-retrograde-signaling]
-key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:29507292", "PMID:34598785"]
+opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02, Q-extinction-reward-overlap, Q-vmPFC-03]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-08-05-endocannabinoid-retrograde-signaling, 2026-08-25-vmPFC-sgACC-emotion-regulation]
+key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:29507292", "PMID:34598785", "PMID:26617500", "PMID:20962768", "PMID:40026920"]
 ---
 
 # 恐惧消退 (Fear Extinction)
@@ -27,6 +27,8 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 消退学习建立的是一套竞争性抑制记忆，通过两种并行机制：**去增强**（弱化原始恐惧突触的类LTD机制，早期主导）和**新回路建立**（IL皮层→腹侧ITC→CeM抑制回路的突触增强，后期主导）。这套新回路是情景依赖的：只在消退训练发生的情景中有效，换情景则被关闭——这是情景信息从海马→BA的门控作用。
 
 前额叶皮层对消退的双向控制是核心：前边缘皮层（PL）促进恐惧表达，下边缘皮层（IL）促进消退表达。vmPFC/IL在人类中的激活强度直接预测消退回忆的质量，PTSD患者vmPFC激活不足是其消退记忆提取障碍的神经底物。
+
+**vmPFC/IL 的系统综述支持（2026-08-25 更新）**：Giustino & Maren 2015 系统综述（PMID:26617500 [开放全文 PMC4637424]）和 Mavrych et al. 2025 系统综述（PMID:40026920 [开放全文 PMC11870299]）进一步明确了 BLA 到 PL/IL 的分区投射：吻侧 BLA→PL（促恐惧），尾侧 BLA→IL（促消退）；两综述也确认，尽管 PL 和 IL 有时表现出相似的激活模式，其行为输出效果相反，属于功能双分离。Sierra-Mercado et al. 2011（PMID:20962768）的局部灭活实验是最直接的因果证据：IL 灭活 → 消退学习 within-session 效果受损（不是消退回忆，而是消退过程本身受影响）。这些啮齿类证据与人类 vmPFC/sgACC 在抑郁症（sgACC 过度激活→消退回路慢性受损）和 PTSD（vmPFC 激活不足→消退回忆障碍）中的发现高度一致，支持 IL/vmPFC 作为情绪调节前额叶枢纽（→见 vmPFC 页面）。
 
 **消退 vs 再巩固窗口消退（2026-07-10 新增）**：标准消退（长时间多次CS暴露）建立竞争性安全记忆，原始恐惧痕迹保留，故有自发恢复。"再巩固窗口消退"（Monfils 2009）在策略上根本不同：单次短暂CS再激活（开启再巩固窗口）→ 10 min 内进行消退训练 → 消退学习写入去稳定化的原始痕迹本身 → 无自发恢复、无更新、无再激活恢复。人类 fMRI 证据（Agren 2012）显示 BLA BOLD 信号被消除（原始痕迹删除），而标准消退中 BLA 信号保留。两者的关键时机区别（10 min vs 6h 后开始消退）对临床 PTSD 治疗设计有直接意义。
 
@@ -94,6 +96,7 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - Q-fear-itc-bidirectionality（中优先级）：ITC背侧/腹侧在恐惧重现时如何再平衡
 - Q-fear-extinction-ptsd-biomarker（高优先级）：vmPFC激活作为个体化PTSD治疗预后标志物的临床可行性
 - Q-extinction-reward-overlap（高优先级，2026-07-24新增）：BLA消退印迹细胞与奖励响应细胞的重叠率精确值及因果关系——阻断BLA奖励通路是否导致消退失败？
+- Q-vmPFC-03（高优先级，2026-08-25新增）：vmPFC/IL的消退回忆功能在PTSD中失败的确切机制——是连接减弱（IL→ITC突触权重下降）、PNNs过早沉积（慢性高可塑阈值），还是海马情景信号错误提取导致消退记忆无法在正确情境中激活？
 
 ## 修订历史
 
@@ -101,9 +104,11 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - 2026-07-10 · 修订 rev3 · 基于《记忆再巩固》(#78) · 当前理解节新增"消退 vs 再巩固窗口消退"段落（Monfils 2009 行为干预、Agren 2012 fMRI 证据、临床意义）；连接节新增 memory-reconsolidation；Q-fear-reconsolidation-boundary 标记为部分解答；source_articles/related 相应更新
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高（啮齿类证据充分，人类转化大体一致）
 - 2026-08-05 · 修订 rev5 · 基于《逆行的信使》(#104) · 新增 ECS/CB1R 在恐惧消退中的分子机制：BLA 中 AEA 对消退训练因果必要（CB1R 拮抗剂阻断消退），FAAH 抑制（AEA ↑）增强消退效率，FAAH 抑制剂（PF-04457845）PTSD 2a 期数据；related 新增 endocannabinoid-system、cb1-receptor；key_sources 新增 PMID:34598785
+- 2026-08-25 · 修订 rev6 · 基于《驯化杏仁核：vmPFC 与 sgACC》(#123) · 当前理解节补充 vmPFC/IL 系统综述更新（Giustino & Maren 2015, Mavrych 2025, Sierra-Mercado 2011）；确认吻侧BLA→PL/尾侧BLA→IL的分区投射；连接节新增 vmPFC、emotion-regulation；未解问题新增 Q-vmPFC-03；related/opens_questions/key_sources/source_articles 相应更新
 
 ## 来源文章
 
 - [[2026-05-30-amygdala-fear-memory]]
 - [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]
 - [[2026-08-05-endocannabinoid-retrograde-signaling]]
+- [[2026-08-25-vmPFC-sgACC-emotion-regulation]]

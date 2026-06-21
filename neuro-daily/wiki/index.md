@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-24（第122篇·背外侧前额叶的认知弹性·dlPFC 混合选择性+群体动力学+振荡选通+BG门控+前额叶层级）· 主题页总数：**240**（新建4页：systems/dlpfc-cognitive-flexibility、concepts/mixed-selectivity、concepts/stability-flexibility-tradeoff、concepts/task-switching-cost；修订1页：systems/prefrontal-cortex rev5→rev6（新增认知弹性机制+Q-dlpfc-01~04）；图谱244节点/1402边）
+> 最后更新：2026-08-25（第123篇·驯化杏仁核·vmPFC+sgACC 情绪调节回路+认知重评+恐惧消退+抑郁回路崩溃）· 主题页总数：**243**（新建3页：systems/vmPFC、concepts/emotion-regulation、concepts/cognitive-reappraisal；修订4页：systems/prefrontal-cortex rev6→rev7、systems/anterior-cingulate-cortex rev4→rev5、systems/amygdala rev6→rev7、concepts/fear-extinction rev5→rev6；图谱247节点/1425边）
 
 ---
 
@@ -150,7 +150,9 @@
 - 🔴 [海马神经发生](concepts/hippocampal-neurogenesis.md) — 啮齿类SGZ持续神经发生（证据充分）；阻断神经发生消除SSRI行为效果；人类成人神经发生规模和存在性争议（Sorrells vs Boldrini 2018对立数据）**[NEW 2026-06-13 · 争议]**
 - 🔵 [β振荡（13–30 Hz）](concepts/beta-oscillations.md) — "当前内部状态有效，无需更新"的振荡表达；三副面孔：运动ERD/PMBR（状态维持vs运动解锁）、感觉皮层γ前馈/β后向（28对灵长类视觉区域）、WM延迟期β爆发（130ms，背景态）+γ爆发（67ms，内容编码）；深层L5/6 β相位调控浅层L2/3 γ许可窗口（Bastos 2018）；PD中病理性β卡死；**[修订 rev2 2026-07-19]**
 - 🟢 [恐惧条件反射](concepts/fear-conditioning.md) — 外侧杏仁核（LA）CS+US汇聚→NMDA巧合检测→CaMKII→AMPA插入→LA-LTP；与海马LTP分子机器完全同构；约20%LA神经元形成稀疏恐惧印迹；光遗传双向因果证明（Nabavi 2014）；**新增**：已巩固恐惧记忆在 CS 再激活后进入再巩固窗口，可被选择性修改**[修订 2026-07-10]**
-- 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）；**新增**：再巩固窗口消退（单次CS+10min内消退）永久消除恐惧，无自发恢复（Monfils 2009）；Q-fear-reconsolidation-boundary 部分解答**[修订 2026-07-10]**
+- 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）；再巩固窗口消退永久消除恐惧（Monfils 2009）；**rev6新增**：Giustino & Maren 2015 系统综述（BLA亚区→IL/PL分区投射）；Sierra-Mercado 2011 双侧 IL/PL 因果证据；Q-vmPFC-03 PTSD消退障碍机制**[修订 rev5→rev6 2026-08-25]**
+- 🟢 [情绪调节](concepts/emotion-regulation.md) — 五类策略（认知重评/注意部署/情绪压制/习惯化消退/内感觉重估）；vmPFC 为情绪调节枢纽的前额叶-杏仁核-脑干多层级控制回路；主动推断视角（精度权重调整）；认知重评 vs 情绪压制长期代价对比 **[NEW 2026-08-25]**
+- 🟢 [认知重评](concepts/cognitive-reappraisal.md) — 通过重解释事件含义改变情绪影响；vlPFC（语义重构）→vmPFC（情绪整合）→杏仁核（抑制）三层级回路；Steward 2021 DCM 量化 vmPFC→杏仁核负向有效连接；He 2023 TMS-fMRI 因果证明；重评 vs 压制（长期代价低）；有效性边界（感官驱动情绪效果有限） **[NEW 2026-08-25]**
 - 🟢 [REM睡眠](concepts/rem-sleep.md) — 去甲肾上腺素真空（LC沉默）+θ振荡+杏仁核-海马θ同步；情绪记忆去饱和化（SFSR假说）；Boyce 2016光遗传因果证明REM θ是情境记忆必需条件；van der Helm 2011人类fMRI证实REM降低杏仁核情绪反应 **[NEW 2026-05-31]**
 - 🟢 [睡眠-清醒翻转开关](concepts/flip-flop-switch-sleep-wake.md) — VLPO（GABA+甘丙肽）与AAS核团（LC/DRN/TMN/食欲素）的双稳互抑回路；解释睡眠-清醒为何是两个稳定极端态而非连续渐变；腺苷/PGD₂→VLPO激活→睡眠翻转；食欲素稳定清醒侧 **[NEW 2026-08-10]**
 - 🟢 [食欲素（下丘脑泌素）与发作性睡病](concepts/orexin-hypocretin.md) — 外侧下丘脑8万神经元的"AAS总指挥"；缺失导致NT1（95%神经元丢失，HLA-DQB1*06:02）；OX2R激动剂danavorexton MWT改善11.1分（2024）；干细胞/基因治疗前景 **[NEW 2026-08-10]**
@@ -231,17 +233,18 @@
 - 🟢 [耳蜗](systems/cochlea.md) — 基底膜行波实现频率-位置地点编码（cochleotopic map）；外毛细胞 Prestin 耳蜗放大器（+40–50 dB，Q因子×100）；内毛细胞 tip links / TMC1-TMC2 / Ca_v1.3 / ribbon synapse 机械-电换能级联；是听觉通路所有拓扑图的物理起点 **[NEW 2026-07-28]**
 - 🟢 [初级躯体感觉皮层（S1）](systems/somatosensory-cortex.md) — 四亚区（3a/3b/1/2）×感觉小人（homunculus）×皮层放大因子；Merzenich系列实验确立经验依赖皮层地图可塑性（截指后邻指侵占/训练后表征扩张）；可塑性需要行为相关性（注意门控）；感觉剥夺重启成年皮层至关键期状态；**rev2新增：S1在痛觉中的感觉-分辨维度（脊髓丘脑束→VPL→S1）** **[修订rev2 2026-08-02]**
 - 🔵 [痛觉矩阵（Pain Matrix）](systems/pain-matrix.md) — 脊髓丘脑束信号在脑内形成的多节点网络：S1/S2（感觉-分辨）+岛叶（内感受整合）+ACC（情感成分）+PFC（认知调控）；VPL→S1（新脊丘束）vs VMpo→岛叶/ACC（旁脊丘束）双路分叉；cingulotomy"知痛不感苦"经典分离；Wager NPS 多变量模式分析；慢性化中中脑边缘系统替代感觉网络 **[NEW 2026-08-02]**
-- 🟢 [前扣带回（ACC）](systems/anterior-cingulate-cortex.md) — 疼痛情感成分的核心编码区（cingulotomy证明）；ACC→PAG下行镇痛通路；社会排斥与身体疼痛共享dACC神经资源（Eisenberger 2003）；安慰剂镇痛的关键皮层节点；慢性疼痛中与NAc功能连接增强预测慢性化 **[NEW 2026-08-02]**
+- 🟢 [前扣带回（ACC）](systems/anterior-cingulate-cortex.md) — 疼痛情感成分的核心编码区（cingulotomy证明）；ACC→PAG下行镇痛通路；dACC/MCC认知控制（错误监测/冲突监控/努力决策/FMθ）；**rev5新增**：sgACC（BA25）作为"内脏运动皮层"（Price & Drevets 2010）——调节自主神经+神经调质基线；抑郁中sgACC持续过度激活；BA25白质纤维DBS治疗TRD（Mayberg 2005）**[修订 rev4→rev5 2026-08-25]**
 - 🟢 [导水管周围灰质（PAG）](systems/periaqueductal-gray.md) — 内源性阿片镇痛系统核心枢纽；PAG电刺激→全身镇痛→纳洛酮阻断（内源性阿片因果证据）；vlPAG GABA能→去抑制机制；RVM ON/OFF-cells分工（镇痛/促痛）；ACC/下丘脑/杏仁核→PAG整合；急性疼痛OFF-cells主导→慢性疼痛ON-cells过度激活 **[NEW 2026-08-02]**
 - 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化 **[NEW 2026-07-30]**
 - 🟢 [基底节（区间计时视角）](systems/basal-ganglia.md) — 以区间计时为核心的系统层级视角：MSN ~1/3 显示斜坡放电；D1-MSN 递减/D2-MSN 递增的对立动力学（Bruce 2025 eLife 光遗传因果证据，R²=0.95 漂移扩散模型）；纹状体-丘脑-皮层节拍计时回路；帕金森病计时障碍机制 **[NEW 2026-07-31]**（另见 [[circuits/basal-ganglia]] 运动选择视角）
 - 🟢 [颞顶联合区（TPJ）](systems/temporoparietal-junction.md) — 前-后轴分工：pTPJ（信念推断/视角转换，右侧化）vs aTPJ（注意定向，VAN 节点）；与 DAN（FEF/IPS）动态拮抗；进化：灵长类 TPJ 体积与社会群体大小正相关；临床：右 TPJ 损伤→偏侧空间忽视+社会认知障碍；TPJ 功能是否专一于 ToM 仍有争议（Q-tom-01）**[NEW 2026-08-01]**
-- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
+- 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；BLA-LA 再巩固去稳定化分子链；皮质内侧核Proust效应解剖基础；**rev7新增**：vmPFC→杏仁核负向有效连接（认知重评+恐惧消退双机制）；Steward 2021 DCM量化**[修订 rev6→rev7 2026-08-25]**
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
 - 🟢 [伏隔核（Nucleus Accumbens, NAc）](systems/nucleus-accumbens.md) — 腹侧纹状体的动机计算枢纽；D1/D2 MSN时程效应（短暂激活均→奖赏，持续激活均→厌恶，Soares-Cunha 2020打破经典D1=奖赏/D2=厌恶二分法）；享乐热点（壳区前内侧~1mm³，阿片→liking翻倍，eCB→liking需阿片协同，多巴胺在此不增强liking）；社会奖赏专用接口（OTR+MOR正向/KOR负向/eCB正向的NAc壳区四系统整合）；多路输入：VTA-DA（wanting）/PFC-Glu（认知控制）/杏仁核BLA（情感价值）/海马（情境）/PVN-OXT（社会特异性门控）；NAc DBS用于难治性抑郁（~40%反应率）**[NEW 2026-08-20]**
 - 🟢 [眶额皮层（OFC）](systems/orbitofrontal-cortex.md) — 额叶最腹侧的新皮层区域；三类功能神经元（提案/选定/效用价值细胞）构成决策流水线；BLA-OFC双向回路是目标导向价值学习的神经基础（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS投射将价值信号转化为行动（Gore 2023光遗传学因果）；lOFC驱动感觉皮层重映射支持逆向学习；价值代码纵向稳定（Zhang 2024双光子）**[NEW 2026-08-21]**
 - 🟢 [岛叶皮层（Insular Cortex）](systems/insular-cortex.md) — 藏于外侧裂深处的多层级内感觉处理中枢；四区功能分化（后颗粒岛体感拓扑/中岛预测误差/前岛主观感受生成/前岛极沉默性顶端控制）；VMpo→后岛专属内感觉通路（区别于 VPM→S1）；前岛含 VENs（体积4.6×，快速远程同步，与 alexithymia 关联）；EPIC 预测编码模型（Barrett 2015）与 IMAC 三层计算模型（Fermin 2022）；显著性网络（岛叶-ACC）；躯体标记（岛叶→OFC/vmPFC）；精神疾病共同病理节点（抑郁/精分/成瘾）**[NEW 2026-08-22]**
-- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；rIFG/preSMA反应抑制（超直接通路）；vmPFC/OFC价值决策腹侧亚区；**rev6新增**：dlPFC认知弹性三重机制（混合选择性/群体动力学/振荡选通）、BG门控、前额叶层级（Badre 2009）**[修订 rev5→rev6 2026-08-24]**
+- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；rIFG/preSMA反应抑制（超直接通路）；vmPFC/OFC价值决策腹侧亚区；dlPFC认知弹性三重机制（混合选择性/群体动力学/振荡选通）；**rev7新增**：vmPFC作为情绪调节腹侧亚区（认知重评三层级+IL消退同源+sgACC轴+抑郁回路）**[修订 rev6→rev7 2026-08-25]**
+- 🟢 [腹内侧前额叶皮层（vmPFC）](systems/vmPFC.md) — PFC情绪调节枢纽（BA10/11/12/25/32腹侧）；vlPFC→vmPFC→杏仁核三层级认知重评回路；IL/vmPFC→腹侧ITC→CeM恐惧消退回路；sgACC（BA25）"内脏运动皮层"自主神经调节轴；抑郁症vmPFC灰质减少+sgACC超激活；Mayberg 2005 BA25 DBS治疗TRD **[NEW 2026-08-25]**
 - 🔵 [背外侧前额叶认知弹性](systems/dlpfc-cognitive-flexibility.md) — dlPFC 三重认知弹性机制：混合选择性（Rigotti 2013）高维编码支持任意规则组合；群体动力学（Mante 2013）正交子空间分离不同背景下的决策轨迹；振荡选通（Buschman 2012）beta激活/alpha抑制动态路由规则集群；BG门控（O'Reilly 2006）控制WM更新时机；前额叶前后轴层级（Badre 2009）；OCD认知僵化的系统级网络失调机制 **[NEW 2026-08-24]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；AAS两通道架构与VTA枢纽（修订5次）**[NEW 2026-06-12]**

@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-08-21
-revision_count: 6
+updated: 2026-08-25
+revision_count: 7
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation, olfactory-bulb, piriform-cortex, orbitofrontal-cortex, value-based-decision-making]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation, olfactory-bulb, piriform-cortex, orbitofrontal-cortex, value-based-decision-making, vmPFC, emotion-regulation, cognitive-reappraisal]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-21-orbitofrontal-cortex-value-decision-circuit]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:37620443", "PMID:32278646", "DOI:10.7554/eLife.80926", "PMID:40068869"]
+opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality, Q-vmPFC-03]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-21-orbitofrontal-cortex-value-decision-circuit, 2026-08-25-vmPFC-sgACC-emotion-regulation]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:37620443", "PMID:32278646", "DOI:10.7554/eLife.80926", "PMID:40068869", "PMID:19693001", "PMID:12495527", "PMID:26617500"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -134,6 +134,9 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[piriform-cortex]] — 梨状皮层→杏仁核投射叠加于嗅球→杏仁核的直接通路；梨状皮层编码粗粒度气味类别，杏仁核整合情感价值（Sagar et al. 2023 7T fMRI）
 - [[orbitofrontal-cortex]] — BLA 与 OFC 形成双向价值学习回路：lOFC→BLA 写入结果特异性奖赏记忆（学习阶段），mOFC→BLA 检索记忆生成当前价值估计（决策阶段），BLA→lOFC 更新刺激-结果权变关系（Wassum 2022, DOI:10.7554/eLife.80926；Jenni et al. 2025, PMID:40068869）
 - [[value-based-decision-making]] — BLA 是 OFC-BLA 价值决策回路中的记忆存储节点；OFC-BLA 双向连接是目标导向行为（vs. 习惯行为）的神经基础
+- [[vmPFC]] — vmPFC（及其同源区 IL）通过 GABAergic 中间神经元对 CeM 的抑制，是认知重评和恐惧消退的皮层控制节点；vmPFC 对杏仁核的负向有效连接（Steward 2021, DCM）是情绪调节的主传导器；sgACC 过度激活（抑郁症）导致杏仁核慢性过度激活，形成负性情绪恶性回路（Drevets 1999, PMID:10415674；Price & Drevets 2010, PMID:19693001）
+- [[emotion-regulation]] — 杏仁核是情绪调节的被调节目标；vmPFC→杏仁核的调控通路是情绪调节的核心神经基础
+- [[cognitive-reappraisal]] — 认知重评通过 vlPFC→vmPFC→杏仁核三层级回路减少杏仁核激活（Ochsner 2002, PMID:12495527；He 2023, PMID:37507228）
 
 ## 未解问题
 
@@ -141,6 +144,7 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - Q-fear-low-road-function（中优先级）：丘脑"低路"直接投射的恐惧学习独立贡献
 - Q-fear-itc-bidirectionality（中优先级）：ITC在恐惧重现时的具体再平衡机制
 - Q-extinction-reward-overlap（高优先级，2026-07-24新增）：BLA消退印迹细胞与奖励响应细胞的重叠率精确值；阻断BLA奖励通路是否导致消退失败（因果方向性验证）
+- Q-vmPFC-03（高优先级，2026-08-25新增）：PTSD 中 vmPFC/IL 消退回忆功能失败的精确机制——连接减弱、PNNs 异常还是情景信号错误提取？（见 state/unresolved_questions.md）
 
 ## 修订历史
 
@@ -150,6 +154,7 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - 2026-07-26 · 修订 rev5 · 基于《气味的神经密码：从一个分子到一段记忆的四级变换》(#94) · 连接节新增 olfactory-bulb（杏仁核皮质内侧核直接接收嗅球输出，无视丘中继）和 piriform-cortex（梨状皮层→杏仁核投射，气味感知层级）；related和key_sources/source_articles相应更新
 - 2026-08-21 · 修订 rev6 · 基于《价值的解剖：眶额皮层如何为选项定价》(#119) · 连接节新增 orbitofrontal-cortex（BLA↔OFC 双向价值记忆回路：lOFC→BLA 写入，mOFC→BLA 检索，BLA→lOFC 更新权变，Wassum 2022 & Jenni 2025）和 value-based-decision-making；related 新增 orbitofrontal-cortex、value-based-decision-making；key_sources 新增 DOI:10.7554/eLife.80926、PMID:40068869；source_articles 新增 2026-08-21
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
+- 2026-08-25 · 修订 rev7 · 基于《驯化杏仁核：vmPFC 与 sgACC》(#123) · 连接节新增 vmPFC（vmPFC 通过 GABAergic 中间神经元抑制 CeM、情绪调节和认知重评的核心通路）、emotion-regulation、cognitive-reappraisal；未解问题新增 Q-vmPFC-03；related 新增 vmPFC/emotion-regulation/cognitive-reappraisal；key_sources 新增 PMID:19693001/12495527/26617500；source_articles 新增 2026-08-25
 
 ## 来源文章
 
@@ -159,3 +164,4 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]
 - [[2026-07-26-olfactory-coding-smell-memory-limbic]]
 - [[2026-08-21-orbitofrontal-cortex-value-decision-circuit]]
+- [[2026-08-25-vmPFC-sgACC-emotion-regulation]]
