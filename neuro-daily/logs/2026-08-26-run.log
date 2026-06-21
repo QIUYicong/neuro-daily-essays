@@ -110,3 +110,12 @@
 - S03（Rauch 2006，PMID:16919525）无 PMC 开放全文，仅使用摘要
 - 再巩固临床证据（propranolol）喜忧参半，文章中明确标注为低-中证据级别
 - 海马萎缩因果方向不确定性已如实并列（特质 vs 状态，不触发矛盾协议，因为两者并不互斥）
+
+---
+
+## Git 操作结果
+
+- **分支**：claude/funny-einstein-50p406
+- **commit hash**：e51c386
+- **推送状态**：✅ 成功推送到 origin/claude/funny-einstein-50p406
+- **remote URL**：http://local_proxy@127.0.0.1:42917/git/QIUYicong/neuro-daily-essays（正确，包含 QIUYicong/neuro-daily-essays）
