@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-08-20 · 文章 #118 · 伏隔核的奖赏解剖
+
+### 新建 Wiki 页面（3 个）
+- `systems/nucleus-accumbens.md`：伏隔核系统级综合页面（region，established），覆盖NAc核心/壳解剖分区、D1/D2 MSN时程效应、享乐热点阿片-eCB耦合机制、多路输入整合表、社会奖赏OXT/MOR/KOR/eCB四系统、7行关键证据表、11条连接、3个未解问题（Q-nac-01/02/03）；来源 PMID:25950633, 31462765, 30069500, 39892577, 42038339
+- `concepts/incentive-salience.md`：激励显著性框架（mechanism，established），Berridge-Robinson 1993激励敏化理论、wanting-liking解耦实验证据、成瘾的敏化模型、aberrant salience精神病理框架、anhedonia的wanting/liking区分
+- `concepts/hedonic-hotspot.md`：享乐热点（mechanism，mainstream/medium），NAc壳区前内侧~1mm³区域、阿片-eCB功能耦合（eCB增强liking依赖内源性阿片激活，Mitchell 2018）、affective keyboard情境重调
+
+### 修订 Wiki 页面（2 个）
+- `concepts/endocannabinoid-system.md`：rev1→rev2，新增连接 nucleus-accumbens（享乐热点AEA-CB1R→liking增强、社会奖赏eCB信号）和 hedonic-hotspot；endogenous-opioid-system 连接注释补充 NAc 热点 eCB-阿片功能耦合（Mitchell 2018）
+- `concepts/oxytocin.md`：rev2→rev3，新增连接 nucleus-accumbens（OXT→NAc社会奖赏接口，与MOR/eCB耦合）；key_sources新增PMID:39892577；来源文章新增 #118
+
+### 新增未解问题（3 个）
+- Q-nac-01（高优先级）：NAc壳区"affective keyboard"应激重调的分子机制（GR/CRF候选）
+- Q-nac-02（高优先级）：社会孤立如何影响NAc的催产素-阿片-eCB三系统整合
+- Q-nac-03（中优先级）：MOR效应的Prairie田鼠雌性特异性能否推广至人类社交差异
+
+### 新增悬空引用（0）
+无新增悬空引用（所有新页面related指向的节点均已存在）
+
+### 知识图谱更新
+- 节点：230→233（+3：nucleus-accumbens, incentive-salience, hedonic-hotspot）
+- 边：1337→1362（+25条：含新节点间连接和向现有节点的反向连接）
+
+---
+
 ## 2026-08-19
 
 ### 新建 Wiki 页面（3 个）

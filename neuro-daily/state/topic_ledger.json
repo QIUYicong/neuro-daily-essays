@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-19",
-  "total_articles": 117,
+  "last_updated": "2026-08-20",
+  "total_articles": 118,
   "entries": [
     {
       "date": "2026-08-16",
@@ -7296,6 +7296,64 @@
         "注意与抑制的分离：全局抑制后的注意重定向神经机制",
         "前运动区（preSMA）的双重角色：运动序列选择和响应取消的神经基础"
       ]
+    },
+    {
+      "date": "2026-08-20",
+      "article_number": 118,
+      "title": "伏隔核的奖赏解剖：Wanting vs Liking的神经化学分离与社会奖赏整合",
+      "slug": "nucleus-accumbens-wanting-liking-reward-circuit",
+      "core_question": "伏隔核（NAc）是'快乐中枢'吗？多巴胺、阿片肽和内大麻素如何分工产生'想要'和'喜欢'？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "behavior",
+        "disease"
+      ],
+      "topic_tags": [
+        "nucleus-accumbens",
+        "incentive-salience",
+        "hedonic-hotspot",
+        "dopamine",
+        "MSN",
+        "D1-D2",
+        "opioid",
+        "endocannabinoid",
+        "oxytocin",
+        "social-reward",
+        "addiction",
+        "wanting-liking"
+      ],
+      "main_sources": [
+        "PMID:25950633",
+        "PMID:31462765",
+        "PMID:30069500",
+        "PMID:39892577",
+        "PMID:42038339",
+        "PMID:8401595",
+        "PMID:17072591",
+        "PMID:37643893",
+        "PMID:37928918"
+      ],
+      "open_full_text_sources": [
+        "PMC4425246",
+        "PMC7714688",
+        "PMC6069591",
+        "PMC12971266",
+        "PMC13106015"
+      ],
+      "unresolved_questions": [
+        "Q-nac-01",
+        "Q-nac-02",
+        "Q-nac-03"
+      ],
+      "next_suggested_topics": [
+        "抑郁症的奖赏缺陷：anhedonia中NAc-VTA-PFC回路的分子改变（ketamine快速作用机制）",
+        "成瘾的激励敏化：可卡因/阿片暴露如何重塑NAc突触可塑性（DeltaFosB→AMPAR组成改变）",
+        "社会孤立的神经化学后果：孤立如何改变NAc的OTR、MOR和eCB信号",
+        "腹侧苍白球（VP）在奖赏中的角色：NAc的主要下游靶区，VP享乐热点的独立功能",
+        "性别差异与社会奖赏：MOR（雌性）vs KOR（雄性）的二型性在NAc中的分子基础"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -7406,7 +7464,12 @@
     ],
     "methods": [
       "2026-05-31"
-    ]
+    ],
+    "molecular": 1,
+    "cellular": 1,
+    "brain-region": 1,
+    "behavior": 1,
+    "disease": 1
   },
   "layer_dates": {
     "molecular": [

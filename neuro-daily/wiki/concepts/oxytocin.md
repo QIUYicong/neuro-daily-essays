@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-16
-updated: 2026-08-17
-revision_count: 2
+updated: 2026-08-20
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition]
 related: [ca2-hippocampus, social-memory, supramammillary-nucleus, vasopressin, dopamine-reward-prediction-error, active-zone, cntnap2]
 prerequisites: [synaptic-transmission, hippocampal-circuit]
 opens_questions: [Q-oxt-01, Q-oxt-02]
 source_articles: [2026-08-16-oxytocin-circuit-social-memory-bonding, 2026-08-17-vasopressin-social-behavior-avp-circuit]
-key_sources: ["PMID:10888874", "PMID:38052983", "PMID:41548026", "PMID:28606306", "PMID:22325206", "PMID:29897293"]
+key_sources: ["PMID:10888874", "PMID:38052983", "PMID:41548026", "PMID:28606306", "PMID:22325206", "PMID:29897293", "PMID:39892577"]
 ---
 
 # 催产素 (Oxytocin, OXT)
@@ -98,6 +98,7 @@ Shamay-Tsoory & Abu-Akel 2016（PMID:26321019）的"社会凸显假说"认为：
 - [[cntnap2]] — CNTNAP2缺失导致PVN催产素神经元减少，是ASD社交缺陷的重要机制之一
 - [[hippocampal-circuit]] — CA2是社会记忆底物，位于海马回路中
 - [[pv-interneurons]] — CA2中的PV+中间神经元受CNTNAP2影响，间接影响催产素效应
+- [[nucleus-accumbens]] — OXT通过PVN→NAc投射在NAc壳区激活OTR，增强社会互动的奖赏价值；与µ-阿片受体（MOR）和内大麻素（eCB）协同构成社会奖赏的专用神经化学接口（Borland 2025）；CB1R介导的配对联结效果部分依赖OXT信号
 
 ## 未解问题
 
@@ -108,9 +109,11 @@ Shamay-Tsoory & Abu-Akel 2016（PMID:26321019）的"社会凸显假说"认为：
 ## 修订历史
 
 - 2026-08-16 · 创建 · 基于《催产素回路：五条专化投射》文章 #115 · 整合 Ferguson 2000、Thirtamara Rajamani 2024、Chrisman 2026、Borland 2025、Knobloch 2012、Rickenbacher 2017、Menon 2018 等来源 · 初始置信度：高（多项独立研究支持五条路径的核心主张）
+- 2026-08-20 · rev3 · 基于《伏隔核的奖赏解剖》文章 #118 · 连接节新增 nucleus-accumbens（OXT→NAc社会奖赏接口，与MOR/eCB耦合）；key_sources新增PMID:39892577；来源文章新增 #118
 - 2026-08-17 · rev2 · 基于《加压素回路》文章 #116 · 新增：(1) Q-avp-01（CA2 OTR/V1bR协调，与vasopressin页共享）；(2) 来源文章新增 #116；(3) OTR vs. V1bR在CA2双路径对比的视角补充
 
 ## 来源文章
 
 - [[2026-08-16-oxytocin-circuit-social-memory-bonding]]
 - [[2026-08-17-vasopressin-social-behavior-avp-circuit]]
+- [[2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit]]

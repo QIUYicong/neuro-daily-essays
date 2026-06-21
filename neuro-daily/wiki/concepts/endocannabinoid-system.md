@@ -6,8 +6,8 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-05
-updated: 2026-08-05
-revision_count: 1
+updated: 2026-08-20
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, behavior]
 related: [cb1-receptor, ltd, fear-extinction, stdp, ltp, amygdala, cerebellum, basal-ganglia, placebo-analgesia, endogenous-opioid-system, tripartite-synapse, nmda-receptor, voltage-gated-calcium-channels, short-term-synaptic-plasticity]
 prerequisites: [synaptic-transmission, voltage-gated-calcium-channels, nmda-receptor, ltd]
@@ -97,7 +97,9 @@ CB1R 持续激活（分钟级）→ **Gαi** → ↓腺苷酸环化酶 → ↓cA
 - [[basal-ganglia]] — 皮层-纹状体 eCB-LTD 与习惯形成
 - [[cerebellum]] — 小脑 DSE 和平行纤维 LTD
 - [[tripartite-synapse]] — 星形胶质细胞 CB1R 参与异突触调制
-- [[endogenous-opioid-system]] — 两大"止痛/止恐"神经调质系统，在 PAG 和脊髓有功能协同
+- [[endogenous-opioid-system]] — 两大"止痛/止恐"神经调质系统，在 PAG 和脊髓有功能协同；在 NAc 壳区享乐热点内，eCB 的 liking 增强依赖内源性阿片信号同时激活（功能耦合，Mitchell 2018，PMID:30069500）
+- [[nucleus-accumbens]] — NAc壳区享乐热点：AEA/2-AG 在前内侧壳区激活 CB1R 增强 sucrose liking；社会互动→NAc内AEA/2-AG升高；CB1R阻断抑制社会CPP和配对联结维持
+- [[hedonic-hotspot]] — NAc壳区的 eCB 享乐热点是 ECS 参与 liking（而非 wanting）产生的解剖位点
 
 ## 未解问题
 
@@ -108,8 +110,10 @@ CB1R 持续激活（分钟级）→ **Gαi** → ↓腺苷酸环化酶 → ↓cA
 
 ## 修订历史
 
+- 2026-08-20 · 修订 rev2 · 基于《伏隔核的奖赏解剖》文章 #118 · 连接节新增 nucleus-accumbens（NAc壳区eCB享乐热点、社会奖赏eCB信号）和 hedonic-hotspot；endogenous-opioid-system 连接注释补充 NAc 壳区热点内eCB-阿片功能耦合（Mitchell 2018）
 - 2026-08-05 · 创建 · 基于《逆行的信使》文章 #104 · 初始置信度：高（核心机制来自 Castillo 2012、Lu & Mackie 2016 开放全文）
 
 ## 来源文章
 
 - [[2026-08-05-endocannabinoid-retrograde-signaling]]
+- [[2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit]]

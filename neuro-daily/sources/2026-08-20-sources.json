@@ -1,0 +1,135 @@
+{
+  "date": "2026-08-20",
+  "article": "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit.md",
+  "article_number": 118,
+  "topic": "伏隔核的奖赏架构：Wanting vs Liking解耦，D1/D2 MSN时程效应，多神经肽社会奖赏整合",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "25950633",
+      "pmcid": "PMC4425246",
+      "citation": "Berridge KC & Kringelbach ML. Pleasure systems in the brain. Neuron. 2015 Apr 22;86(3):646-64.",
+      "doi": "10.1016/j.neuron.2015.02.018",
+      "open_access": true,
+      "full_text_read": true,
+      "role": "核心：NAc享乐热点定义，wanting-liking解耦，多巴胺不产生pleasure，affective keyboard",
+      "key_claims": [
+        "NAc壳区前背侧内侧存在约1mm³享乐热点，µ/δ/κ阿片激动剂均能使sucrose liking反应翻倍",
+        "NAc'情感键盘'：前部appetitive，后部aversive，应激可重调",
+        "多巴胺增加wanting但不增加liking（帕金森病患者实验、多巴胺耗竭实验）",
+        "腹侧苍白球也有享乐热点，与NAc热点功能上相互依赖"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "31462765",
+      "pmcid": "PMC7714688",
+      "citation": "Soares-Cunha C, de Vasconcelos NA, Bhatt DL, Bhatt DL, Araújo R, Bhatt DL, et al. Nucleus accumbens medium spiny neurons subtypes signal both reward and aversion. Mol Psychiatry. 2020 Dec;25(12):3241-3255.",
+      "doi": "10.1038/s41380-019-0484-3",
+      "open_access": true,
+      "full_text_read": true,
+      "role": "核心：打破D1=奖赏/D2=厌恶二分法；激活时程决定行为方向；κ/δ阿片共释放机制",
+      "key_claims": [
+        "D1/D2-MSN短暂激活(1s)均产生奖赏；持续激活(60s)均产生厌恶",
+        "D1-MSN持续激活→强啡肽共释放→VTA κ-OR→厌恶",
+        "D2-MSN持续激活→脑啡肽共释放→VP δ-OR→厌恶",
+        "短暂激活机制：MSN→VP（GABA）抑制→VTA DA神经元去抑制"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "30069500",
+      "pmcid": "PMC6069591",
+      "citation": "Mitchell MR, Berridge KC, Mahler SV. Endocannabinoid-Enhanced 'Liking' in Nucleus Accumbens Shell Hedonic Hotspot Requires Endogenous Opioid Signals. Cannabis Cannabinoid Res. 2018 Feb 1;3(1):54-63.",
+      "doi": "10.1089/can.2017.0021",
+      "open_access": true,
+      "full_text_read": true,
+      "role": "内大麻素-阿片系统耦合：eCB对liking的增强依赖内源性阿片信号",
+      "key_claims": [
+        "NAc壳区热点内AEA（内大麻素）增强sucrose liking反应",
+        "同时注射纳洛酮（阿片拮抗剂）完全阻断AEA的liking增强",
+        "纳洛酮单独注射无效，证明基线阿片活性不足，需要eCB激活触发阿片信号",
+        "eCB和阿片在享乐热点内形成功能耦合"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "39892577",
+      "pmcid": "PMC12971266",
+      "citation": "Borland JM. A review of the effects of different types of social behaviors on the recruitment of neuropeptides and neurotransmitters in the nucleus accumbens. Front Neuroendocrinol. 2025;77:101181.",
+      "doi": "10.1016/j.yfrne.2025.101181",
+      "open_access": true,
+      "full_text_read": true,
+      "role": "社会奖赏的NAc多神经化学综述：OXT/MOR/KOR/eCB的分工与耦合",
+      "key_claims": [
+        "OXT、MOR和eCB正向调节社会奖赏行为；KOR负向调节",
+        "MOR配对联结效应是雌性特异性的（Prairie田鼠，NAc壳区背内侧）",
+        "KOR配对联结效应是雄性特异性的",
+        "社会互动→NAc内AEA和2-AG上升；CB1R拮抗→阻断社会CPP",
+        "CB1R拮抗增加Prairie田鼠配偶拒绝行为（维持联结需要eCB）"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "42038339",
+      "pmcid": "PMC13106015",
+      "citation": "Allichon MC, Espinosa J, Cole RH, Ko MC, Vanhoutte P, Joffe ME. Mu-opioid and nociceptin receptors show divergent, cell-type-specific actions in the mesocorticolimbic reward system in opioid use disorder. Front Cell Neurosci. 2026;20:1558963.",
+      "doi": "10.3389/fncel.2026.1558963",
+      "open_access": true,
+      "full_text_read": true,
+      "role": "MOR vs NOPR在中脑边缘奖赏系统的对立作用；治疗应用背景",
+      "key_claims": [
+        "MOR激活（VTA区）增强DA传递→奖赏处理增强",
+        "NOPR激活（VTA区）降低DA细胞活性→减弱奖赏/动机",
+        "双效MOR激动/NOPR拮抗配体正在开发为低滥用风险止痛药"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "8401595",
+      "pmcid": null,
+      "citation": "Robinson TE & Berridge KC. The neural basis of drug craving: an incentive-sensitization theory of addiction. Brain Res Brain Res Rev. 1993 Sep-Dec;18(3):247-91.",
+      "doi": "10.1016/0165-0173(93)90013-p",
+      "open_access": false,
+      "full_text_read": false,
+      "notes": "仅读摘要",
+      "role": "奠基性：激励敏化理论，wanting vs liking的原始框架"
+    },
+    {
+      "id": "S7",
+      "pmid": "17072591",
+      "pmcid": null,
+      "citation": "Berridge KC. The debate over dopamine's role in reward: the case for incentive salience. Psychopharmacology. 2007 Apr;191(3):391-431.",
+      "doi": "10.1007/s00213-006-0578-x",
+      "open_access": false,
+      "full_text_read": false,
+      "notes": "仅读摘要",
+      "role": "多巴胺=wanting（激励显著性）而非liking（享乐快感）的证据综述"
+    },
+    {
+      "id": "S8",
+      "pmid": "37643893",
+      "pmcid": null,
+      "citation": "Domingues AV et al. A novel perspective on the role of nucleus accumbens neurons in encoding associative learning. FEBS Lett. 2023 Nov;597(22):2545-2560.",
+      "doi": "10.1002/1873-3468.14717",
+      "open_access": false,
+      "full_text_read": false,
+      "notes": "仅读摘要",
+      "role": "NAc D1/D2 MSN在联合学习中的互补角色综述"
+    },
+    {
+      "id": "S9",
+      "pmid": "37928918",
+      "pmcid": null,
+      "citation": "Sobstyl A et al. The ventral capsule and ventral striatum—Stereotactic targets for treatment-resistant depression. Front Psychiatry. 2023;14:1177392.",
+      "doi": "10.3389/fpsyt.2023.1177392",
+      "open_access": true,
+      "full_text_read": false,
+      "notes": "仅读摘要",
+      "role": "NAc DBS用于难治性抑郁症（39.8%反应率），说明NAc在人类情感调控中的作用"
+    }
+  ],
+  "open_access_fulltext_count": 5,
+  "abstract_only_count": 4,
+  "notes": "开放全文≥2篇综述（S1, S4）+ 原始研究（S2, S3）+ 2026年最新综述（S5）。核心机制有实验依据。享乐热点研究主要来自大鼠（Berridge lab），人脑推论需要谨慎。"
+}

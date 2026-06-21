@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-19",
+  "last_updated": "2026-08-20",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8116,9 +8116,160 @@
       "aspects_covered": [
         "经颅超声刺激（TUS）确认anterior IFG→anterior putamen（间接通路）独立因果作用"
       ]
+    },
+    {
+      "pmid": "25950633",
+      "pmcid": "PMC4425246",
+      "title": "Pleasure systems in the brain",
+      "authors_short": "Berridge KC, Kringelbach ML",
+      "journal": "Neuron",
+      "year": 2015,
+      "first_used": "2026-08-20",
+      "used_in_articles": [
+        "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit"
+      ],
+      "aspects_covered": [
+        "NAc享乐热点阿片-eCB耦合（约1mm³区域）",
+        "wanting-liking解耦（多巴胺不产生pleasure，帕金森实验）",
+        "affective keyboard前appetitive-后aversive梯度（应激重调）",
+        "腹侧苍白球VP享乐热点"
+      ]
+    },
+    {
+      "pmid": "31462765",
+      "pmcid": "PMC7714688",
+      "title": "Nucleus accumbens medium spiny neurons subtypes signal both reward and aversion",
+      "authors_short": "Soares-Cunha C et al.",
+      "journal": "Mol Psychiatry",
+      "year": 2020,
+      "first_used": "2026-08-20",
+      "used_in_articles": [
+        "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit"
+      ],
+      "aspects_covered": [
+        "D1/D2-MSN短暂激活(1s)均产生奖赏（打破经典D1=奖赏/D2=厌恶二分法）",
+        "D1-MSN持续激活60s产生厌恶（强啡肽共释放→VTA kappa-OR）",
+        "D2-MSN持续激活60s产生厌恶（脑啡肽共释放→VP delta-OR）",
+        "光遗传学+CPP+RTPP因果证明"
+      ]
+    },
+    {
+      "pmid": "30069500",
+      "pmcid": "PMC6069591",
+      "title": "Endocannabinoid-Enhanced Liking in Nucleus Accumbens Shell Hedonic Hotspot Requires Endogenous Opioid Signals",
+      "authors_short": "Mitchell MR, Berridge KC, Mahler SV",
+      "journal": "Cannabis Cannabinoid Res",
+      "year": 2018,
+      "first_used": "2026-08-20",
+      "used_in_articles": [
+        "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit"
+      ],
+      "aspects_covered": [
+        "NAc壳区热点内AEA增强sucrose liking（orofacial reactions测量）",
+        "纳洛酮完全阻断AEA的liking增强（eCB-阿片功能耦合）",
+        "eCB是内源性阿片信号触发器而非独立快乐产生器"
+      ]
+    },
+    {
+      "pmid": "39892577",
+      "pmcid": "PMC12971266",
+      "title": "A review of the effects of different types of social behaviors on the recruitment of neuropeptides and neurotransmitters in the nucleus accumbens",
+      "authors_short": "Borland JM",
+      "journal": "Front Neuroendocrinol",
+      "year": 2025,
+      "first_used": "2026-08-20",
+      "used_in_articles": [
+        "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit"
+      ],
+      "aspects_covered": [
+        "OXT/MOR/KOR/eCB对社会奖赏的分工与耦合综述",
+        "MOR配对联结效应雌性特异性（Prairie田鼠）",
+        "KOR负向调节社会奖赏（增强攻击性，减弱配对联结）",
+        "CB1R拮抗阻断社会CPP和配偶偏好维持"
+      ]
+    },
+    {
+      "pmid": "42038339",
+      "pmcid": "PMC13106015",
+      "title": "Mu-opioid and nociceptin receptors show divergent, cell-type-specific actions in the mesocorticolimbic reward system",
+      "authors_short": "Allichon MC et al.",
+      "journal": "Front Cell Neurosci",
+      "year": 2026,
+      "first_used": "2026-08-20",
+      "used_in_articles": [
+        "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit"
+      ],
+      "aspects_covered": [
+        "MOR vs NOPR在VTA区域的对立细胞类型特异性作用",
+        "MOR激活（VTA）增强DA传递；NOPR激活降低DA细胞活性",
+        "双效MOR激动/NOPR拮抗配体作为低滥用风险止痛药候选"
+      ]
+    },
+    {
+      "pmid": "8401595",
+      "pmcid": null,
+      "title": "The neural basis of drug craving: an incentive-sensitization theory of addiction",
+      "authors_short": "Robinson TE, Berridge KC",
+      "journal": "Brain Res Brain Res Rev",
+      "year": 1993,
+      "first_used": "2026-08-20",
+      "used_in_articles": [
+        "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit"
+      ],
+      "aspects_covered": [
+        "激励敏化理论（Incentive Sensitization Theory）奠基",
+        "wanting（激励显著性）与liking（享乐快感）的原始框架分离"
+      ]
+    },
+    {
+      "pmid": "17072591",
+      "pmcid": null,
+      "title": "The debate over dopamine's role in reward: the case for incentive salience",
+      "authors_short": "Berridge KC",
+      "journal": "Psychopharmacology",
+      "year": 2007,
+      "first_used": "2026-08-20",
+      "used_in_articles": [
+        "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit"
+      ],
+      "aspects_covered": [
+        "多巴胺=wanting（激励显著性）而非liking（享乐快感）的实验证据综述",
+        "多巴胺耗竭实验：seeking消失，liking保留"
+      ]
+    },
+    {
+      "pmid": "37643893",
+      "pmcid": null,
+      "title": "A novel perspective on the role of nucleus accumbens neurons in encoding associative learning",
+      "authors_short": "Domingues AV et al.",
+      "journal": "FEBS Lett",
+      "year": 2023,
+      "first_used": "2026-08-20",
+      "used_in_articles": [
+        "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit"
+      ],
+      "aspects_covered": [
+        "NAc D1/D2 MSN在联合学习中的互补角色综述"
+      ]
+    },
+    {
+      "pmid": "37928918",
+      "pmcid": null,
+      "title": "The ventral capsule and ventral striatum - Stereotactic targets for treatment-resistant depression",
+      "authors_short": "Sobstyl A et al.",
+      "journal": "Front Psychiatry",
+      "year": 2023,
+      "first_used": "2026-08-20",
+      "used_in_articles": [
+        "2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit"
+      ],
+      "aspects_covered": [
+        "NAc DBS用于难治性抑郁症（约40%反应率）",
+        "VC/VS区域刺激的情感效应，间接支持人类享乐热点存在"
+      ]
     }
   ],
-  "total_sources": 449,
+  "total_sources": 458,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -11465,5 +11616,16 @@
     "PMC:PMC3602142",
     "PMID:38405991",
     "PMID:8713971"
+  ],
+  "sources_2026-08-20": [
+    "PMID:25950633",
+    "PMID:31462765",
+    "PMID:30069500",
+    "PMID:39892577",
+    "PMID:42038339",
+    "PMID:8401595",
+    "PMID:17072591",
+    "PMID:37643893",
+    "PMID:37928918"
   ]
 }

@@ -503,5 +503,26 @@
     "confidence": "medium",
     "last_changed": "2026-08-18",
     "reason": "创建新页：Stokes 2015框架+Panichello 2024开-关状态证据+Pals 2020计算模型；机制有良好支持但与情节记忆的区分仍有争议（Beukers 2021）"
+  },
+  {
+    "slug": "nucleus-accumbens",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-20",
+    "reason": "创建新页：NAc解剖分区（核心/壳）、D1/D2 MSN时程效应（Soares-Cunha 2020打破经典二分法）、享乐热点阿片-eCB耦合（Berridge 2015、Mitchell 2018）、多路输入整合、社会奖赏OXT/MOR/KOR/eCB四系统；核心机制有多项独立实验支持"
+  },
+  {
+    "slug": "incentive-salience",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-20",
+    "reason": "创建新页：Berridge-Robinson激励显著性理论（1993至今）；多巴胺耗竭实验（wanting消除liking保留）；激励敏化理论；aberrant salience（精神分裂症）；anhedonia区分（wanting vs liking）；奠基性证据多项独立复现"
+  },
+  {
+    "slug": "hedonic-hotspot",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-08-20",
+    "reason": "创建新页：NAc壳区前背侧内侧约1mm3享乐热点（Berridge lab，多项大鼠实验）、eCB-阿片耦合机制（Mitchell 2018）、affective keyboard应激重调；主要为大鼠数据，人类推论间接（DBS证据），降为mainstream/medium"
   }
 ]

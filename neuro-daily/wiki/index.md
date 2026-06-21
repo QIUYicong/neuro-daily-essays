@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-19（第105篇·大脑刹车系统·反应抑制·超直接通路·全局运动抑制·Chen 2020颅内记录）· 主题页总数：**225**（新建3页：concepts/response-inhibition、concepts/stop-signal-task、concepts/hyperdirect-pathway；修订2页：circuits/basal-ganglia rev2→rev3、systems/prefrontal-cortex rev3→rev4；新增Q-ri-01/Q-ri-02/Q-ri-03；图谱230节点/1337边）
+> 最后更新：2026-08-20（第118篇·伏隔核的奖赏解剖·Wanting vs Liking神经化学分离·D1/D2 MSN时程效应·享乐热点·社会奖赏OXT-MOR-eCB三系统）· 主题页总数：**228**（新建3页：systems/nucleus-accumbens、concepts/incentive-salience、concepts/hedonic-hotspot；修订2页：concepts/endocannabinoid-system rev1→rev2、concepts/oxytocin rev2→rev3；新增Q-nac-01/Q-nac-02/Q-nac-03；图谱233节点/1362边）
 
 ---
 
@@ -179,7 +179,9 @@
 - 🟢 [安慰剂镇痛（Placebo Analgesia）](concepts/placebo-analgesia.md) — PFC→rACC→PAG→RVM→脊髓下行阿片回路将心理期望转化为真实止痛信号；纳洛酮逆转证明内源性阿片依赖（Levine 1978）；Zubieta 2005 PET直接测量rACC μ-OR激活（r=-0.87）；Eippert 2009 fMRI rACC-PAG耦合纳洛酮消除；双过程模型（期望+条件反射）；Nocebo效应通过CCK路径形成镜像促痛 **[NEW 2026-08-03]**
 - 🟢 [内源性阿片系统（Endogenous Opioid System）](concepts/endogenous-opioid-system.md) — μ/κ/δ三类受体（Gi/o→AC↓→cAMP↓→K⁺开放→超极化）；β-内啡肽（弓形核）/脑啡肽/强啡肽三类阿片肽；PAG-RVM-脊髓三级下行镇痛通路；[¹¹C]卡芬太尼PET活体直接测量；吗啡模拟内源性SIA（应激诱导镇痛）的分子底物 **[NEW 2026-08-03]**
 - 🟢 [Nocebo效应](concepts/nocebo-effect.md) — 负向期望→主观疼痛增强；CCK-A/B拮抗剂（丙谷胺）可阻断——与安慰剂阿片路径形成双路径分离；医源性nocebo（负面预期语言即增加术后疼痛）；开放标签安慰剂显示知情者仍可触发条件性镇痛 **[NEW 2026-08-03]**
-- 🟢 [内源性大麻素系统（Endocannabinoid System）](concepts/endocannabinoid-system.md) — 脑内最主要逆行突触调制系统；2-AG（DGLα合成/MAGL降解，全激动剂）和 AEA（NAPE-PLD合成/FAAH降解，TRPV1全激动剂）；CB1R Gβγ→Cav2.2（DSI短时程）+ Gαi→RIM1α（eCB-LTD长时程）双通路；CCK⁺ GABA 能中间神经元为主要靶点；杏仁核 AEA-FAAH 轴调控恐惧消退（FAAH 抑制剂 PTSD 靶点）；THC 弥散激活 CB1R 导致逆行调控失真 **[NEW 2026-08-05]**
+- 🟢 [内源性大麻素系统（Endocannabinoid System）](concepts/endocannabinoid-system.md) — 脑内最主要逆行突触调制系统；2-AG（DGLα合成/MAGL降解，全激动剂）和 AEA（NAPE-PLD合成/FAAH降解，TRPV1全激动剂）；CB1R Gβγ→Cav2.2（DSI短时程）+ Gαi→RIM1α（eCB-LTD长时程）双通路；CCK⁺ GABA 能中间神经元为主要靶点；杏仁核 AEA-FAAH 轴调控恐惧消退（FAAH 抑制剂 PTSD 靶点）；THC 弥散激活 CB1R 导致逆行调控失真；**rev2新增**：NAc壳区享乐热点AEA→CB1R→liking增强（依赖阿片信号耦合），社会互动→NAc内eCB升高，CB1R拮抗阻断社会CPP **[修订rev2 2026-08-20]**
+- 🟢 [激励显著性（Incentive Salience）](concepts/incentive-salience.md) — Berridge-Robinson 1993提出的"wanting vs liking"框架：多巴胺系统赋予刺激趋近动机（wanting），而非享乐快感（liking）；多巴胺耗竭消除食物seeking但保留liking（orofacial reactions）；激励敏化理论解释成瘾者"停不下来却不快乐"；aberrant salience解释精神分裂症幻觉/妄想形成；anhedonia区分（wanting vs liking损害的不同临床含义）**[NEW 2026-08-20]**
+- 🔵 [享乐热点（Hedonic Hotspot）](concepts/hedonic-hotspot.md) — NAc壳区前背侧内侧象限约1mm³的"快乐发生器"（大鼠，推算人脑约1cm³）；µ/δ/κ阿片受体激动剂均使sucrose liking反应翻倍；AEA在此位置增强liking但依赖内源性阿片信号同时激活（纳洛酮共注射完全阻断，Mitchell 2018）；多巴胺在热点内注射不增强liking（wanting-liking解剖分离的直接证据）；"情感键盘"（前appetitive/后aversive）可被应激重调 **[NEW 2026-08-20]**
 - 🟡 [认知运动解离（CMD）](concepts/cognitive-motor-dissociation.md) — 行为检查显示无命令跟随，但任务型fMRI/EEG显示命令跟随神经信号的状态；约25%"无反应"DoC患者有CMD（Bodien NEJM 2024，n=353）；识别方法（"打网球"想象范式/P300 EEG/PCI≥0.31）；从根本上改变意识障碍的医疗决策伦理 **[NEW 2026-08-09]**
 - 🟡 [前脑中间回路假说](concepts/mesocircuit-hypothesis.md) — Schiff（2009/2022）提出的VS/UWS自我维持机制：皮层损伤→纹状体失驱动→GPi脱抑制→中央丘脑过度抑制→皮层进一步去传入；关键：GPi脱抑制是可逆的；唑吡坦/金达胺素/中央丘脑DBS均通过打破该回路起效 **[NEW 2026-08-09]**
 
@@ -227,6 +229,7 @@
 - 🟢 [颞顶联合区（TPJ）](systems/temporoparietal-junction.md) — 前-后轴分工：pTPJ（信念推断/视角转换，右侧化）vs aTPJ（注意定向，VAN 节点）；与 DAN（FEF/IPS）动态拮抗；进化：灵长类 TPJ 体积与社会群体大小正相关；临床：右 TPJ 损伤→偏侧空间忽视+社会认知障碍；TPJ 功能是否专一于 ToM 仍有争议（Q-tom-01）**[NEW 2026-08-01]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
+- 🟢 [伏隔核（Nucleus Accumbens, NAc）](systems/nucleus-accumbens.md) — 腹侧纹状体的动机计算枢纽；D1/D2 MSN时程效应（短暂激活均→奖赏，持续激活均→厌恶，Soares-Cunha 2020打破经典D1=奖赏/D2=厌恶二分法）；享乐热点（壳区前内侧~1mm³，阿片→liking翻倍，eCB→liking需阿片协同，多巴胺在此不增强liking）；社会奖赏专用接口（OTR+MOR正向/KOR负向/eCB正向的NAc壳区四系统整合）；多路输入：VTA-DA（wanting）/PFC-Glu（认知控制）/杏仁核BLA（情感价值）/海马（情境）/PVN-OXT（社会特异性门控）；NAc DBS用于难治性抑郁（~40%反应率）**[NEW 2026-08-20]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；**新增**：rIFG（BA44/45）/preSMA在反应抑制（超直接通路）中的因果驱动作用（Aron 2006、Chen 2020证据） **[修订 rev3→rev4 2026-08-19]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；AAS两通道架构与VTA枢纽（修订5次）**[NEW 2026-06-12]**

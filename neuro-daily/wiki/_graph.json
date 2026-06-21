@@ -2096,6 +2096,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/hyperdirect-pathway.md"
+    },
+    {
+      "id": "nucleus-accumbens",
+      "title": "伏隔核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/nucleus-accumbens.md"
+    },
+    {
+      "id": "incentive-salience",
+      "title": "激励显著性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/incentive-salience.md"
+    },
+    {
+      "id": "hedonic-hotspot",
+      "title": "享乐热点",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/hedonic-hotspot.md"
     }
   ],
   "edges": [
@@ -9544,6 +9571,156 @@
       "from": "response-inhibition",
       "to": "dopamine-reward-prediction-error",
       "type": "related"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "VTA-NAc多巴胺是incentive salience（wanting）的来源；D1/D2受体是RPE信号的直接靶点"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "incentive-salience",
+      "type": "mechanism-of",
+      "note": "NAc是Berridge wanting系统的主要执行位点；多巴胺在此赋予刺激吸引磁力"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "hedonic-hotspot",
+      "type": "part-of",
+      "note": "NAc壳区前背侧内侧象限的阿片-eCB热点是liking信号的局域生成位点"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "endocannabinoid-system",
+      "type": "related",
+      "note": "CB1R在NAc热点内与mu-OR功能耦合，eCB retrograde信号调节MSN接受的谷氨酸能输入"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "endogenous-opioid-system",
+      "type": "related",
+      "note": "mu/kappa/delta受体在NAc分别介导社会奖赏增强（MOR）、厌恶信号（KOR）"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "oxytocin",
+      "type": "related",
+      "note": "PVN-NAc催产素投射是社会奖赏特异性门控；OTR在NAc壳区激活是配偶偏好的必要条件"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "basal-ganglia",
+      "type": "part-of",
+      "note": "NAc是腹侧纹状体，与背侧纹状体在解剖和功能上连续；共享D1直接/D2间接通路架构"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "actor-critic-brain",
+      "type": "mechanism-of",
+      "note": "NAc作为Critic（价值估计）和Actor（直接通路D1-MSN执行Go）的关键位点"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "amygdala",
+      "type": "related",
+      "note": "BLA-NAc谷氨酸投射传递情感价值；BLA恐惧/奖赏印迹通过此通路影响NAc的动机计算"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "social-memory",
+      "type": "related",
+      "note": "NAc计算的社会奖赏信号与CA2社会记忆共同构成个体识别和社交动机的完整回路"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "mPFC-NAc谷氨酸投射提供认知控制信号，调节goal-directed vs habitual reward pursuit"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of",
+      "note": "VTA-DA的RPE信号驱动wanting系统的学习；多巴胺是incentive salience的神经化学基础"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "nucleus-accumbens",
+      "type": "mechanism-of",
+      "note": "NAc是incentive salience的主要执行位点；VTA多巴胺在此赋予刺激吸引磁力"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "hedonic-hotspot",
+      "type": "related",
+      "note": "与hedonic hotspot对立互补：incentive salience产生wanting，hedonic hotspot产生liking"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "endogenous-opioid-system",
+      "type": "related",
+      "note": "阿片系统产生liking而非wanting；成瘾中两系统解耦导致wanting升高且liking降低的悖论"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "actor-critic-brain",
+      "type": "related",
+      "note": "Berridge wanting系统与actor-critic框架中的value/policy学习平行"
+    },
+    {
+      "from": "hedonic-hotspot",
+      "to": "nucleus-accumbens",
+      "type": "part-of",
+      "note": "享乐热点位于NAc壳区前背侧内侧约1mm³区域，是NAc liking计算的局域执行位点"
+    },
+    {
+      "from": "hedonic-hotspot",
+      "to": "incentive-salience",
+      "type": "related",
+      "note": "与incentive salience（wanting）系统功能解耦：同一NAc内，热点产生liking，多巴胺信号产生wanting"
+    },
+    {
+      "from": "hedonic-hotspot",
+      "to": "endogenous-opioid-system",
+      "type": "mechanism-of",
+      "note": "mu/delta/kappa阿片受体在热点内激活均产生liking增强；热点是阿片介导享乐的解剖执行位点"
+    },
+    {
+      "from": "hedonic-hotspot",
+      "to": "endocannabinoid-system",
+      "type": "related",
+      "note": "CB1R在热点内与阿片信号功能耦合，eCB通过触发内源性阿片肽释放增强liking"
+    },
+    {
+      "from": "hedonic-hotspot",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "多巴胺在热点内的注射不增强liking，是wanting与liking解耦的直接解剖证据"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "nucleus-accumbens",
+      "type": "related",
+      "note": "NAc是多巴胺RPE信号的主要靶区；D1/D2 MSN是RPE驱动学习的细胞底物"
+    },
+    {
+      "from": "oxytocin",
+      "to": "nucleus-accumbens",
+      "type": "related",
+      "note": "PVN-NAc投射，OTR激活增强社会互动的奖赏价值；与mu-阿片受体和内大麻素协同构成社会奖赏接口"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "nucleus-accumbens",
+      "type": "related",
+      "note": "NAc壳区享乐热点：AEA/2-AG在前内侧壳区激活CB1R增强sucrose liking；社会互动触发NAc内eCB升高"
+    },
+    {
+      "from": "endocannabinoid-system",
+      "to": "hedonic-hotspot",
+      "type": "related",
+      "note": "NAc壳区的eCB享乐热点是ECS参与liking（而非wanting）产生的解剖位点"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,54 @@
+# 2026-08-20 日志 · 第118篇 · 伏隔核的奖赏解剖
+
+**触发时间**：2026-06-21 01:XX UTC（实际系统时间；日期异常，继续按文章序列使用2026-08-20）
+**执行时长**：约90分钟（含跨会话恢复）
+**状态**：成功完成
+
+---
+
+## 执行摘要
+
+### 选题决策
+- 根据 2026-08-16 topic_ledger 建议的 next_suggested_topics（NAc 未建页面、NAc→社会奖赏接口是近期主题的自然延伸）
+- 填补 NAc、incentive-salience、hedonic-hotspot 三个知识节点缺口
+- 强化社会行为主题线（催产素#115→加压素#116→NAc#118）
+
+### 研究过程
+- 检索了 NAc 奖赏架构相关文献
+- 精读5篇开放全文：Berridge & Kringelbach 2015（PMID:25950633）、Soares-Cunha 2020（PMID:31462765）、Mitchell 2018（PMID:30069500）、Borland 2025（PMID:39892577）、Allichon 2026（PMID:42038339）
+- 摘要级阅读4篇：Berridge & Robinson 1993（PMID:8401595）、Berridge 2007（PMID:17072591）、Domingues 2023（PMID:37643893）、Sobstyl 2023（PMID:37928918）
+
+### 创建/修改文件
+**新创建（6个）**：
+- `neuro-daily/articles/2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit.md`（文章正文，~5000字）
+- `neuro-daily/notes/2026-08-20-reading-notes.md`（详细研究笔记）
+- `neuro-daily/sources/2026-08-20-sources.json`（9篇来源的完整元数据）
+- `neuro-daily/wiki/systems/nucleus-accumbens.md`（NAc系统wiki页，NEW）
+- `neuro-daily/wiki/concepts/incentive-salience.md`（激励显著性wiki页，NEW）
+- `neuro-daily/wiki/concepts/hedonic-hotspot.md`（享乐热点wiki页，NEW）
+
+**修订（2个）**：
+- `neuro-daily/wiki/concepts/endocannabinoid-system.md`（rev1→rev2，补充NAc热点连接）
+- `neuro-daily/wiki/concepts/oxytocin.md`（rev2→rev3，补充NAc连接）
+
+**状态文件更新（7个）**：
+- `neuro-daily/wiki/_graph.json`（233节点/1362边，+3节点+25边）
+- `neuro-daily/wiki/index.md`（header更新，新增3页条目）
+- `neuro-daily/wiki/CHANGELOG.md`（新增2026-08-20条目）
+- `neuro-daily/state/topic_ledger.json`（新增entry#106，total_articles=118）
+- `neuro-daily/state/unresolved_questions.md`（新增Q-nac-01/02/03）
+- `neuro-daily/state/source_registry.json`（新增9来源，total=458）
+- `neuro-daily/state/maturity_index.json`（新增3条目，total=65）
+- `neuro-daily/state/monthly_synthesis.md`（新增2026-08-20摘要）
+
+### 异常记录
+- 系统日期为2026-06-21，但文章序列已到2026-08-19。延续系列使用2026-08-20日期（此为本次运行连续三次触发的第三次，前两次已记录日期异常）
+- `_graph.json`更新首次因Python脚本中文字符串被错误当作代码边界而崩溃，第二次成功运行
+- 整体运行跨越会话上下文压缩，通过会话摘要恢复继续完成
+
+### 质量检查
+- 开放全文来源：5篇（满足≥2篇要求）
+- 无医学诊断/治疗建议
+- 无来源编造（所有PMID/PMCID均来自实际检索）
+- 无Sci-Hub/盗版使用
+- Git推送目标：origin main（QIUYicong/neuro-daily-essays）
