@@ -1,0 +1,97 @@
+# 运行日志 2026-08-17
+文章编号：#116
+主题：大脑的欲望引擎：伏隔核如何将多巴胺的渴望与阿片的愉悦分开
+
+---
+
+## 搜索与检索
+
+**搜索词（PubMed E-utilities）**：
+- "nucleus accumbens dopamine wanting liking incentive salience Berridge"
+- "NAc opioid hotspot hedonic liking mu-opioid DAMGO reward"
+- "oxytocin nucleus accumbens pair bonding social reward dopamine"
+- "D1 D2 MSN NAc reward aversion dynorphin kappa"
+- "MDMA serotonin oxytocin social reward prosocial"
+- "incentive salience sensitization addiction Parkinson impulse control"
+
+**Web Search 状态**：不可用（工具未配置）
+
+**数据源**：
+- PubMed E-utilities（esearch, esummary, efetch）
+- PubMed Central (PMC) 全文获取（pmc.ncbi.nlm.nih.gov）
+- 开放获取期刊（eLife, Frontiers, PNAS）
+
+**候选文献**：~30 篇
+**采用文献**：11 篇（4篇开放全文 + 5篇摘要 + 2篇摘要级综述）
+
+---
+
+## 来源（11篇）
+
+| PMID | 作者 | 期刊 | 年份 | 访问 |
+|------|------|------|------|------|
+| 25950633 | Berridge & Kringelbach | Neuron | 2015 | PMC4425246（全文） |
+| 27977239 | Berridge & Robinson | Am Psychologist | 2016 | PMC5171207（全文） |
+| 8622814 | Berridge KC | Neurosci Biobehav Rev | 1996 | 摘要 |
+| 31462765 | Heifets BD et al. | Science | 2019 | 开放全文 |
+| 35172164 | Asiedu MK et al. | Proc Natl Acad Sci | 2022 | 摘要 |
+| 25925480 | O'Connor EC et al. | eLife | 2015 | PMC4426829（全文） |
+| 31826983 | Borland JM et al. | Psychoneuroendocrinology | 2019 | 摘要 |
+| 14568015 | Liu Y, Wang ZX | Neuroscience | 2003 | 摘要 |
+| 24948805 | Young LJ, Wang Z | Appl Anim Behav Sci | 2004 | 摘要 |
+| 37963470 | Robble MA et al. | eLife | 2023 | 摘要 |
+| 41514033 | Robinson TE | Nat Rev Neurosci | 2026 | 摘要 |
+
+---
+
+## 固结步骤
+
+**新建 wiki 页（3）**：
+- `wiki/systems/nucleus-accumbens.md`（rev1，established/high）
+- `wiki/concepts/incentive-salience.md`（rev1，established/high）
+- `wiki/concepts/nac-hedonic-hotspot.md`（rev1，established/high）
+
+**修订 wiki 页（3）**：
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev5→rev6）：新增incentive salience（wanting而非liking）说明，related新增nucleus-accumbens/incentive-salience/nac-hedonic-hotspot
+- `wiki/concepts/endogenous-opioid-system.md`（rev1→rev2）：新增"奖赏功能——阿片热点"小节，related新增nucleus-accumbens/nac-hedonic-hotspot/incentive-salience
+- `wiki/concepts/oxytocin.md`（rev1→rev2）：新增NAc配对联结路径注解（Liu & Wang 2003, Heifets 2019），key_sources新增3条，新增连接，opens_questions新增Q-sum-01
+
+**矛盾登记（0）**：无新矛盾。wanting vs liking解离是领域核心共识。
+
+**新增未解问题（3）**：
+- Q-nac-01（高优先级）：NAc阿片热点能否在活体人脑验证（7T fMRI+µ-阿片PET路径）
+- Q-nac-02（中优先级）：sign-tracking vs goal-tracking个体差异神经基础
+- Q-nac-03（高优先级）：OXT/DA/µ-阿片受体在NAc的精确空间分布与MSN亚型整合
+
+---
+
+## 文件清单
+
+- `articles/2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md` ✓
+- `notes/2026-08-17-reading-notes.md` ✓
+- `sources/2026-08-17-sources.json` ✓
+- `wiki/systems/nucleus-accumbens.md` ✓（新建）
+- `wiki/concepts/incentive-salience.md` ✓（新建）
+- `wiki/concepts/nac-hedonic-hotspot.md` ✓（新建）
+- `wiki/concepts/dopamine-reward-prediction-error.md` ✓（rev6）
+- `wiki/concepts/endogenous-opioid-system.md` ✓（rev2）
+- `wiki/concepts/oxytocin.md` ✓（rev2）
+- `wiki/CHANGELOG.md` ✓（追加）
+- `wiki/index.md` ✓（更新）
+- `wiki/_graph.json` ✓（228节点/1326边）
+- `state/monthly_synthesis.md` ✓（追加）
+- `state/topic_ledger.json` ✓（追加，total_articles: 117）
+- `state/unresolved_questions.md` ✓（追加Q-nac-01/02/03）
+- `state/maturity_index.json` ✓（追加3条）
+- `state/source_registry.json` ✓（追加9条，共444条）
+- `logs/2026-08-17-run.log` ✓（本文件）
+
+---
+
+## Git 操作状态
+
+- 分支：claude/funny-einstein-j6ha4j
+- commit message：Add article #116 (NAc wanting/liking) + wiki consolidation 2026-08-17
+- push 目标：origin claude/funny-einstein-j6ha4j（QIUYicong/neuro-daily-essays）
+- 注意：ROUTINE.md 要求 push 到 main，但 harness 分配了 feature branch；知识库主内容在 feature branch（#77–#116）
+- 状态：待提交

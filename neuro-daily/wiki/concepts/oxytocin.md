@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-16
-updated: 2026-08-16
-revision_count: 1
+updated: 2026-08-17
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition]
-related: [ca2-hippocampus, social-memory, supramammillary-nucleus, vasopressin, dopamine-reward-prediction-error, active-zone, cntnap2]
+related: [ca2-hippocampus, social-memory, supramammillary-nucleus, vasopressin, dopamine-reward-prediction-error, active-zone, cntnap2, nucleus-accumbens, incentive-salience]
 prerequisites: [synaptic-transmission, hippocampal-circuit]
-opens_questions: [Q-oxt-01, Q-oxt-02]
-source_articles: [2026-08-16-oxytocin-circuit-social-memory-bonding]
-key_sources: ["PMID:10888874", "PMID:38052983", "PMID:41548026", "PMID:28606306", "PMID:22325206", "PMID:29897293"]
+opens_questions: [Q-oxt-01, Q-oxt-02, Q-sum-01]
+source_articles: [2026-08-16-oxytocin-circuit-social-memory-bonding, 2026-08-17-nucleus-accumbens-wanting-liking-social-reward]
+key_sources: ["PMID:10888874", "PMID:38052983", "PMID:41548026", "PMID:28606306", "PMID:22325206", "PMID:29897293", "PMID:14568015", "PMID:24948805", "PMID:31826983"]
 ---
 
 # 催产素 (Oxytocin, OXT)
@@ -98,16 +98,21 @@ Shamay-Tsoory & Abu-Akel 2016（PMID:26321019）的"社会凸显假说"认为：
 - [[cntnap2]] — CNTNAP2缺失导致PVN催产素神经元减少，是ASD社交缺陷的重要机制之一
 - [[hippocampal-circuit]] — CA2是社会记忆底物，位于海马回路中
 - [[pv-interneurons]] — CA2中的PV+中间神经元受CNTNAP2影响，间接影响催产素效应
+- [[nucleus-accumbens]] — NAc是OXT-DA协同产生社会奖赏/配对联结的关键节点（Liu & Wang 2003；Heifets 2019）
+- [[incentive-salience]] — OT与DA在NAc协同时，赋予社会刺激特殊的"社会身份标记"而非单纯激励显著性
 
 ## 未解问题
 
 - **Q-oxt-01（高优先级）**：PVH→SuM→CA2路径和PVN→CA2直接加压素路径在时间上如何协调？两条路径是竞争的还是互补的？有没有实验同步测量两条路径在社会接触时的激活时序？
 - **Q-oxt-02（中优先级）**：人类鼻腔给药催产素（IN-OXT）是否真的提高脑内催产素浓度？药代动力学证据矛盾，需要高质量直接测量研究（如PET追踪）。
+- **Q-sum-01（高优先级）**：SuM的θ节律起搏功能和催产素中继功能是否由不同的神经元亚群承担？
 
 ## 修订历史
 
 - 2026-08-16 · 创建 · 基于《催产素回路：五条专化投射》文章 #115 · 整合 Ferguson 2000、Thirtamara Rajamani 2024、Chrisman 2026、Borland 2025、Knobloch 2012、Rickenbacher 2017、Menon 2018 等来源 · 初始置信度：高（多项独立研究支持五条路径的核心主张）
+- 2026-08-17 · 修订 rev2 · 基于《大脑的欲望引擎》（文章#116）· 新增NAc配对联结路径（Liu & Wang 2003：OT+D2 NAc共同激活是配对联结必要条件；Heifets 2019：MDMA通过SERT→5-HT→OTR→NAc实现促社交效应）；新增连接：nucleus-accumbens、incentive-salience；key_sources新增PMID:14568015、PMID:24948805、PMID:31826983
 
 ## 来源文章
 
 - [[2026-08-16-oxytocin-circuit-social-memory-bonding]]
+- [[2026-08-17-nucleus-accumbens-wanting-liking-social-reward]]

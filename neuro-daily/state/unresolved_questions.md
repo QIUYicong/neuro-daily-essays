@@ -1,6 +1,35 @@
 # 未解问题追踪
 
-*最后更新：2026-08-16*
+*最后更新：2026-08-17*
+
+---
+
+## 2026-08-17 新增（来自"大脑的欲望引擎"文章 #116）
+
+### Q-nac-01（高优先级）：NAc阿片热点（约1cm³）能否在活体人脑中被直接操控/验证？
+
+- **关联 wiki**：[[nac-hedonic-hotspot]]、[[nucleus-accumbens]]、[[endogenous-opioid-system]]
+- **来源文章**：2026-08-17-nucleus-accumbens-wanting-liking-social-reward
+- **问题**：贝里奇实验室在大鼠（~1mm³）和人脑等比例推算（~1cm³）中定义了NAc壳部前背侧的阿片热点。现有fMRI分辨率（1.5-3mm体素）从原理上不足以定位和测量这一体积的功能。问题是：(a) 7T超高场fMRI（亚毫米分辨率）结合µ-阿片受体选择性PET示踪剂（如[¹¹C]卡芬太尼）能否在活体人脑中直接可视化NAc热点的µ-阿片结合密度？(b) 经颅磁刺激（TMS）能否透过颅骨精确靶向NAc热点（深部靶点，约5-6cm深），或者是否需要侵入性DBS？(c) 如果成功定位热点，可以测量不同愉悦体验（食物、音乐、毒品、社会接触）时热点激活的差异，回答"所有愉悦共享同一分子底物"还是"不同类型愉悦有细微分布差异"的问题。
+- **当前证据状态**：大鼠热点定位（行为+微注射）：高（Berridge 2015, PMID:25950633）；人脑等比例推算尺寸：中（理论推算，无直接证据）；7T fMRI NAc分辨率：低（现有研究未在此精度测量阿片受体分布）
+
+---
+
+### Q-nac-02（中优先级）：sign-tracking vs goal-tracking个体差异的神经基础
+
+- **关联 wiki**：[[incentive-salience]]、[[nucleus-accumbens]]、[[dopamine-reward-prediction-error]]
+- **来源文章**：2026-08-17-nucleus-accumbens-wanting-liking-social-reward
+- **问题**：当给予条件刺激CS（如灯亮）预测奖励时，大鼠（和人类）个体表现出两种截然不同的行为策略：(a) **sign-trackers**：接近并与CS（灯）本身互动，对CS赋予高度激励显著性；(b) **goal-trackers**：直接去到奖励位置等待，对CS不赋予额外激励显著性。Sign-trackers表现出更多的DA对CS的响应增强，而goal-trackers则不同。核心问题：这种个体差异的神经基础是什么？(a) 是NAc中D1/D2-MSN比例的先天差异？(b) 还是VTA-NAc通路的基础活性或可塑性差异？(c) Sign-tracking倾向是否预测更高的成瘾易感性（因为CS获得了更强的incentive salience）？这对成瘾预防和干预有直接意义。
+- **当前证据状态**：sign-tracking vs goal-tracking行为描述：高（经典文献）；DA对CS响应差异：中（Flagel 2011, Science, 单项研究）；NAc分子机制：低（无系统性细胞类型分辨率研究）
+
+---
+
+### Q-nac-03（高优先级）：OXT、DA和µ-阿片受体激活在NAc壳部的空间分布与整合模式
+
+- **关联 wiki**：[[nucleus-accumbens]]、[[oxytocin]]、[[dopamine-reward-prediction-error]]、[[nac-hedonic-hotspot]]
+- **来源文章**：2026-08-17-nucleus-accumbens-wanting-liking-social-reward
+- **问题**：文章描述了三个在NAc壳部功能相关的分子系统：(1) DA（来自VTA）通过D1/D2-MSN赋予激励显著性（wanting）；(2) µ-阿片受体（在前背侧热点）产生liking信号；(3) OXT受体（OTR，来自PVN投射）参与社会奖赏和配对联结。这三个系统的精确空间分布关系是什么？具体问题：(a) OTR在NAc壳部的表达分布是否与µ-阿片热点重叠，还是分布在不同亚区？(b) 接收OXT信号的MSN亚群（OTR⁺细胞）是否同时也是µ-阿片敏感的"liking"细胞，还是不同的MSN亚群？(c) Liu & Wang 2003提出OXT和DA需要共同激活NAc才能产生配对联结——OTR激活是发生在D1-MSN（直接通路）还是D2-MSN（间接通路）上？这一问题直接决定了社会奖赏的回路逻辑。
+- **当前证据状态**：OTR表达分布（NAc）：中（啮齿类放射自显影，但亚区分辨率不足）；OTR⁺ MSN亚型鉴定：低（无单细胞分辨率图谱）；OTR与µ-OR空间重叠：低（未有双标研究）
 
 ---
 

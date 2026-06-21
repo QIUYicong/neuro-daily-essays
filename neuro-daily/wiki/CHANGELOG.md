@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-08-17 · 文章 #116 · 大脑的欲望引擎：伏隔核如何将多巴胺的渴望与阿片的愉悦分开
+
+**核心主题**：Robinson & Berridge（1993/2016）激励显著性理论——wanting（激励显著性）vs liking（享乐性感受）的神经化学解离；6-OHDA实验（消除NAc多巴胺→失去觅食动机但liking反应保留，PMID:8622814）；多巴胺激动剂→觅食↑但liking不变；NAc壳部前后轴"情感键盘"（前端→趋近/liking，后端→防御/厌恶，环境应激调制）；NAc阿片热点（~1mm³大鼠/~1cm³人脑，前背侧壳部，DAMGO→liking>2倍，Berridge 2015, PMID:25950633）；VP阿片热点（下游必要节点，VP损毁→甜食厌恶）；κ-阿片（强啡肽）产生厌恶（D1-MSN持续激活共释放机制）；OXT+DA协同产生社会奖赏/配对联结（Liu & Wang 2003, PMID:14568015/31826983；MDMA→SERT→5-HT→OTR→NAc社交奖赏, Heifets 2019, PMID:31462765）；成瘾中DA系统致敏→wanting失控但liking下降；帕金森DA激动剂→冲动控制障碍（Robinson 2026, PMID:41514033）。
+
+**新建页面（3）**：
+- `wiki/systems/nucleus-accumbens.md`（rev1，status: established，confidence: high）— NAc壳/核分区；D1/D2-MSN对立动力学；OXT+DA协同机制；情感键盘；成瘾机制；帕金森DA激动剂副作用；关键证据表
+- `wiki/concepts/incentive-salience.md`（rev1，status: established，confidence: high）— wanting vs liking解离理论；6-OHDA实验证据；致敏机制；帕金森临床验证
+- `wiki/concepts/nac-hedonic-hotspot.md`（rev1，status: established，confidence: high）— 前背侧壳部~1mm³；µ/δ-阿片和内大麻素产生liking；κ-阿片厌恶；情感键盘；VP下游热点；环境调制
+
+**修订页面（3）**：
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev5→rev6）— 新增NA奖赏体系中激励显著性说明（DA赋予wanting而非liking）；related新增nucleus-accumbens、incentive-salience、nac-hedonic-hotspot；source_articles新增2026-08-17
+- `wiki/concepts/endogenous-opioid-system.md`（rev1→rev2）— 新增"奖赏功能——阿片热点与liking信号"小节（NAc热点µ/δ-阿片liking↑；κ-阿片厌恶；VP阿片热点）；related新增nucleus-accumbens、nac-hedonic-hotspot、incentive-salience；source_articles新增2026-08-17
+- `wiki/concepts/oxytocin.md`（rev1→rev2）— 新增连接nucleus-accumbens和incentive-salience；新增NAc配对联结路径注解（Liu & Wang 2003 OT+D2；Heifets 2019 MDMA通路）；key_sources新增PMID:14568015、24948805、31826983；opens_questions新增Q-sum-01
+
+**登记矛盾（0）**：今日无新矛盾。注意：wanting vs liking解离是该领域普遍接受的框架（Berridge & Robinson 1998原始提出后，多项独立实验室复制）；帕金森DA激动剂冲动控制障碍是成熟临床观察，与实验室基础发现一致。
+
+**新增未解问题（3）**：
+- Q-nac-01（高优先级）：NAc阿片热点（约1cm³）能否在活体人脑中被直接操控/验证？7T fMRI+µ-阿片PET是潜在路径
+- Q-nac-02（中优先级）：sign-tracking vs goal-tracking个体差异的神经基础（成瘾易感性的神经解剖预测因子）
+- Q-nac-03（高优先级）：OXT受体、DA和µ-阿片受体在NAc壳部的精确空间分布关系与MSN亚型整合模式
+
+**图谱**：225节点→228节点，1313边→1326边（+3节点：nucleus-accumbens、incentive-salience、nac-hedonic-hotspot；+13边）
+
+---
+
 ## 2026-08-16 · 文章 #115 · 催产素回路：五条专化投射如何将同一神经肽解码为社会记忆、奖赏与联结
 
 **核心主题**：催产素（OXT）九肽结构与OTR（GPCR/Gq/11）；PVN/SON的magnocellular vs parvocellular分化；PVN内前/后亚群功能分化（Chrisman 2026, PMID:41548026）；五条专化投射路径：①PVH→SuM→CA2（社会识别记忆，Thirtamara Rajamani 2024, PMID:38052983）、②PVN→NAc（社会奖赏/配对联结，Borland 2025, PMID:39892577）、③PVN→CeA（恐惧抑制，Knobloch 2012, PMID:22325206；Rickenbacher 2017 eLife, PMC5469614；Wahis 2021 NatNeurosci星形胶质细胞机制）、④SON→LS（哺乳期社会恐惧预防，Menon 2018, PMID:29551417）、⑤aPVN→BNST（应激依赖社交调制）；社会凸显假说（Shamay-Tsoory & Abu-Akel 2016, PMID:26321019）；Ferguson 2000（PMID:10888874）奠基性遗传证明。

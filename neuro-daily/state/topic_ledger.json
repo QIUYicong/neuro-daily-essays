@@ -1,7 +1,82 @@
 {
-  "last_updated": "2026-08-16",
-  "total_articles": 116,
+  "last_updated": "2026-08-17",
+  "total_articles": 117,
   "entries": [
+    {
+      "date": "2026-08-17",
+      "title": "大脑的欲望引擎：伏隔核如何将多巴胺的渴望与阿片的愉悦分开",
+      "filename": "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md",
+      "article_number": 116,
+      "wiki_pages_created": [
+        "wiki/systems/nucleus-accumbens.md",
+        "wiki/concepts/incentive-salience.md",
+        "wiki/concepts/nac-hedonic-hotspot.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/dopamine-reward-prediction-error.md (rev5→rev6)",
+        "wiki/concepts/endogenous-opioid-system.md (rev1→rev2)",
+        "wiki/concepts/oxytocin.md (rev1→rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "大脑中的"想要"（wanting）与"喜欢"（liking）是否由不同的神经递质系统实现？多巴胺与阿片系统如何在伏隔核协同或拮抗地产生动机行为，以及这种分离如何解释成瘾中渴求感失控的神经机制？",
+      "open_questions_added": [
+        "Q-nac-01（高优先级）：NAc阿片热点（约1cm³）能否在活体人脑中被直接操控/验证？现有fMRI分辨率不足，7T+µ-阿片PET是潜在路径",
+        "Q-nac-02（中优先级）：sign-tracking vs goal-tracking个体差异的神经基础（为什么同样的条件刺激在不同个体中产生不同程度的incentive salience？）",
+        "Q-nac-03（高优先级）：OXT、DA和µ-阿片受体激活在NAc壳部的精确空间分布关系——三个信号是在同一MSN上整合，还是在不同的MSN亚群上分别作用？"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱6（情绪与动机：NAc wanting/liking解离）+ 脊柱12（人脑与AI：强化学习的生物实现）+ 脊柱11（疾病：成瘾的神经机制）",
+      "topic_tags": [
+        "nucleus accumbens NAc ventral striatum reward",
+        "dopamine wanting incentive salience",
+        "opioid liking hedonic hotspot",
+        "Berridge Robinson incentive salience theory",
+        "D1-MSN D2-MSN direct indirect pathway",
+        "6-OHDA dopamine depletion aphagic",
+        "DAMGO mu-opioid rostrodorsal shell",
+        "affective keyboard anterior posterior NAc",
+        "ventral pallidum VP hedonic hotspot",
+        "dynorphin kappa-opioid aversion",
+        "oxytocin pair bonding social reward",
+        "MDMA serotonin OTR NAc prosocial",
+        "addiction sensitization craving wanting",
+        "Parkinson dopamine agonist impulse control disorder"
+      ],
+      "main_sources": [
+        "PMID:25950633 (Berridge 2015 Neurosci Biobehav Rev, PMC4425246, NAc opioid hotspot)",
+        "PMID:27977239 (Berridge & Robinson 2016 Psychopharmacology, PMC5171207, wanting vs liking review)",
+        "PMID:8622814 (Berridge 1996 Neuroscience, 6-OHDA wanting/liking dissociation)",
+        "PMID:31462765 (Heifets 2019 Science, MDMA OTR→NAc prosocial)",
+        "PMID:35172164 (Asiedu 2022, NAc MSN temporal coding)",
+        "PMID:25925480 (O'Connor 2015 eLife, PMC4426829, D1-MSN dynorphin aversion)",
+        "PMID:31826983 (Liu & Wang 2003 Nature, OXT+DA NAc pair bonding)",
+        "PMID:14568015 (Liu & Wang 2003, prairie vole pair bonding)",
+        "PMID:24948805 (Young & Wang 2004, pair bonding neuroscience review)",
+        "PMID:37963470 (Robble 2023 eLife, VP opioid hotspot)",
+        "PMID:41514033 (Robinson 2026 Nature Reviews, incentive salience Parkinson)"
+      ],
+      "open_access_fulltext": [
+        "PMID:25950633 (PMC4425246)",
+        "PMID:27977239 (PMC5171207)",
+        "PMID:31462765 (open access Science)",
+        "PMID:25925480 (PMC4426829)"
+      ],
+      "next_suggested_topics": [
+        "加压素（AVP/Avpr1b）深化：从抗利尿到社会记忆——加压素与催产素在CA2的协同门控机制",
+        "催产素在孤独症谱系障碍的临床转化悖论：从动物模型到鼻腔给药失败的教训",
+        "杏仁核详解：BLA、CeA、MeA三亚核的功能分化及恐惧学习、恐惧消退的精细回路",
+        "腹侧苍白球（VP）：奖赏回路的下游执行节点与liking信号的必要枢纽"
+      ]
+    },
     {
       "date": "2026-08-16",
       "title": "催产素回路：五条专化投射如何将同一神经肽解码为社会记忆、奖赏与联结",

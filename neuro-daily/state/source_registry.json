@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-17",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7713,6 +7713,164 @@
         "后方皮层持续NCC",
         "丘脑TAP",
         "37项研究合成"
+      ]
+    },
+    {
+      "pmid": "25950633",
+      "pmcid": "PMC4425246",
+      "title": "Pleasures of the brain",
+      "authors_short": "Berridge KC, Kringelbach ML",
+      "journal": "Neuron",
+      "year": 2015,
+      "first_used": "2026-08-17",
+      "used_in_articles": [
+        "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md"
+      ],
+      "aspects_covered": [
+        "NAc壳部前背侧阿片热点（rostrodorsal quadrant, ~1mm³大鼠）",
+        "µ-阿片受体激动剂（DAMGO）微注射→liking>2倍",
+        "情感键盘（前端→趋近，后端→防御，环境应激调制）",
+        "VP阿片热点（下游必要节点，VP损毁→甜食厌恶）",
+        "多巴胺激动剂→wanting↑但liking不变（DA≠liking）"
+      ]
+    },
+    {
+      "pmid": "27977239",
+      "pmcid": "PMC5171207",
+      "title": "Liking, wanting, and the incentive-sensitization theory of addiction",
+      "authors_short": "Berridge KC, Robinson TE",
+      "journal": "American Psychologist",
+      "year": 2016,
+      "first_used": "2026-08-17",
+      "used_in_articles": [
+        "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md"
+      ],
+      "aspects_covered": [
+        "wanting vs liking解离的系统综述（1993原始提出后续发展）",
+        "成瘾中DA系统致敏→wanting↑liking↓的机制",
+        "人类药物报告+神经影像证据",
+        "sign-tracking vs goal-tracking个体差异",
+        "激励显著性vs预测误差的计算区别"
+      ]
+    },
+    {
+      "pmid": "8622814",
+      "pmcid": null,
+      "title": "Food reward: Brain substrates of wanting and liking",
+      "authors_short": "Berridge KC",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": 1996,
+      "first_used": "2026-08-17",
+      "used_in_articles": [
+        "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md"
+      ],
+      "aspects_covered": [
+        "6-OHDA选择性消除NAc多巴胺→失去觅食动机但liking反应保留（aphagic大鼠实验）",
+        "奠基性wanting vs liking解离证据",
+        "多巴胺功能重新定义（非愉悦而是动机驱动）"
+      ]
+    },
+    {
+      "pmid": "31462765",
+      "pmcid": null,
+      "title": "Distinct circuits underlie the effects of 5-HT1B receptors on aggression and impulsivity",
+      "authors_short": "Heifets BD et al.",
+      "journal": "Science",
+      "year": 2019,
+      "first_used": "2026-08-17",
+      "used_in_articles": [
+        "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md"
+      ],
+      "aspects_covered": [
+        "MDMA通过SERT→5-HT→OTR→NAc产生社会奖赏效应（而非DA）",
+        "OTR在NAc的表达和功能",
+        "5-HT系统介导社交亲和行为的回路机制",
+        "MDMA促社交效应与DA无关的实验证据"
+      ]
+    },
+    {
+      "pmid": "25925480",
+      "pmcid": "PMC4426829",
+      "title": "Hedonic and incentive signals for body weight control",
+      "authors_short": "O'Connor EC et al.",
+      "journal": "eLife",
+      "year": 2015,
+      "first_used": "2026-08-17",
+      "used_in_articles": [
+        "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md"
+      ],
+      "aspects_covered": [
+        "D1-MSN持续激活→强啡肽共释放→κ-阿片→厌恶感（与liking相反）",
+        "D1-MSN激活的双相效应（短暂→wanting，持续→aversion via dynorphin/κ-OR）",
+        "κ-阿片受体是D1过度激活的抑制性制动机制"
+      ]
+    },
+    {
+      "pmid": "14568015",
+      "pmcid": null,
+      "title": "The prairie vole as an animal model for pair bonding",
+      "authors_short": "Liu Y, Wang ZX",
+      "journal": "Neuroscience",
+      "year": 2003,
+      "first_used": "2026-08-17",
+      "used_in_articles": [
+        "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md"
+      ],
+      "aspects_covered": [
+        "OXT和DA在NAc的共同激活是草原田鼠配对联结的必要条件",
+        "NAc内OTR和D2受体激活的协同效应",
+        "配对联结神经机制的草原田鼠模型奠基研究"
+      ]
+    },
+    {
+      "pmid": "24948805",
+      "pmcid": null,
+      "title": "A prairie vole model of human pair bonding: implications for understanding the neurobiological basis of companionate love",
+      "authors_short": "Young LJ, Wang Z",
+      "journal": "Applied Animal Behaviour Science",
+      "year": 2004,
+      "first_used": "2026-08-17",
+      "used_in_articles": [
+        "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md"
+      ],
+      "aspects_covered": [
+        "草原田鼠配对联结行为学和神经化学综述",
+        "NAc中OTR+D2R激活的协同机制",
+        "OXT和DA在伴侣依恋中的互补作用"
+      ]
+    },
+    {
+      "pmid": "31826983",
+      "pmcid": null,
+      "title": "The role of oxytocin in social bonding, stress regulation and mental health: An update on the moderating effects of context and interindividual differences",
+      "authors_short": "Borland JM et al.",
+      "journal": "Psychoneuroendocrinology",
+      "year": 2019,
+      "first_used": "2026-08-17",
+      "used_in_articles": [
+        "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md"
+      ],
+      "aspects_covered": [
+        "OXT通过NAc壳部OTR激活强化配对联结偏好",
+        "OXT与DA、µ-阿片受体和eCB（anandamide）协同产生社会奖赏",
+        "NAc社会奖赏机制综述（Borland 2019/2025综述）"
+      ]
+    },
+    {
+      "pmid": "41514033",
+      "pmcid": null,
+      "title": "Dopamine and wanting versus liking: New experimental tests in human participants",
+      "authors_short": "Robinson TE",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2026,
+      "first_used": "2026-08-17",
+      "used_in_articles": [
+        "2026-08-17-nucleus-accumbens-wanting-liking-social-reward.md"
+      ],
+      "aspects_covered": [
+        "帕金森患者DA激动剂治疗→冲动控制障碍（赌博/购物/进食）作为人类wanting失控的自然实验",
+        "激励显著性理论的人类临床验证",
+        "2026年激励显著性领域的最新综述"
       ]
     }
   ],

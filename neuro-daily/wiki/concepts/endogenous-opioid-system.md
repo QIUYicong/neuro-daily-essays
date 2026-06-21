@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-03
-updated: 2026-08-03
-revision_count: 1
-dimensions: [molecular, synaptic, brain-region]
-related: [periaqueductal-gray, placebo-analgesia, gate-control-theory, pain-matrix, dopamine-reward-prediction-error]
+updated: 2026-08-17
+revision_count: 2
+dimensions: [molecular, synaptic, brain-region, behavior, cognition]
+related: [periaqueductal-gray, placebo-analgesia, gate-control-theory, pain-matrix, dopamine-reward-prediction-error, nucleus-accumbens, nac-hedonic-hotspot, incentive-salience]
 prerequisites: [gate-control-theory, periaqueductal-gray]
 opens_questions: []
 source_articles: [2026-08-03-placebo-analgesia-pfc-opioid-circuit]
@@ -126,15 +126,33 @@ C 纤维和 Aδ 纤维突触前 + 后抑制
 - [[gate-control-theory]] — 内源性阿片是闸门控制"中枢控制"组件的分子实现
 - [[pain-matrix]] — 内源性阿片在痛觉矩阵多个节点（rACC、前岛叶、丘脑）调制疼痛体验
 - [[dopamine-reward-prediction-error]] — 伏隔核μ-OR激活连接奖励预期系统，参与安慰剂的学习强化
+- [[nucleus-accumbens]] — NAc壳部阿片热点是µ-阿片介导"liking"的关键位点（独立于多巴胺"wanting"）
+- [[nac-hedonic-hotspot]] — 内源性阿片系统在NAc的奖赏功能专化亚区
+- [[incentive-salience]] — 阿片liking系统与多巴胺wanting系统双重解离的核心概念
+
+---
+
+## 【新增：奖赏功能——阿片热点与liking信号】（2026-08-17）
+
+内源性阿片系统不只参与镇痛，还在NAc壳部前背侧约1mm³的"阿片热点"中产生**享乐性愉悦感（"liking"）**，与多巴胺驱动的激励显著性（"wanting"）截然不同：
+
+- µ-阿片受体激动剂微注射至NAc热点→orofacial liking反应>2倍（大鼠对甜食）
+- δ-阿片激动剂和内源性大麻素在同一热点也有liking增强效应
+- κ-阿片受体激活（强啡肽，在D1-MSN持续激活时共释放）→产生厌恶感，是liking的对立信号
+- 腹侧苍白球（VP）后内侧也含阿片热点，且VP损毁导致liking缺失（产生对甜食的主动厌恶）
+
+这个发现揭示了"快乐"的神经化学比"疼痛"更精细：阿片系统在两个截然不同的情景中（镇痛 vs 享乐）使用相同的受体，但作用于不同的脑区和回路——PAG轴产生镇痛，NAc热点产生liking。
 
 ---
 
 ## 修订历史
 
 - 2026-08-03 · 创建 · 基于《当大脑相信治愈》文章（#102），建立安慰剂镇痛的分子机制背景
+- 2026-08-17 · 修订 rev2 · 基于《大脑的欲望引擎》（文章#116）· 新增奖赏功能小节：NAc阿片热点产生liking，独立于多巴胺wanting；κ-阿片（强啡肽）的厌恶效应；VP阿片热点；新增 related: nucleus-accumbens, nac-hedonic-hotspot, incentive-salience
 
 ---
 
 ## 来源文章
 
 - [[2026-08-03-placebo-analgesia-pfc-opioid-circuit]]
+- [[2026-08-17-nucleus-accumbens-wanting-liking-social-reward]]

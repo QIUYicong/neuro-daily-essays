@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-16（第115篇·催产素回路·PVH→SuM→CA2·五条专化投射·社会记忆/奖赏/恐惧抑制）· 主题页总数：**220**（新建2页：concepts/oxytocin、concepts/supramammillary-nucleus；修订2页：concepts/ca2-hippocampus rev1→rev2、concepts/social-memory rev1→rev2；新增Q-oxt-01/Q-oxt-02/Q-sum-01；图谱225节点/1313边）
+> 最后更新：2026-08-17（第116篇·伏隔核·wanting vs liking·激励显著性·NAc阿片热点·社会奖赏）· 主题页总数：**223**（新建3页：systems/nucleus-accumbens、concepts/incentive-salience、concepts/nac-hedonic-hotspot；修订3页：concepts/dopamine-reward-prediction-error rev5→rev6、concepts/endogenous-opioid-system rev1→rev2、concepts/oxytocin rev1→rev2；新增Q-nac-01/Q-nac-02/Q-nac-03；图谱228节点/1326边）
 
 ---
 
@@ -108,6 +108,8 @@
 - 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题；LC-DA（非VTA）是行为标记 PRPs 合成的主要触发者（Takeuchi 2016, Moncada 2007）**[修订 rev2 2026-07-11]**
 - 🟡 [蓝斑-海马多巴胺系统（LC-DA）](concepts/lc-hippocampus-dopamine.md) — LC TH⁺ 末梢（非VTA）是海马dCA1 DA的主要来源；D1/D5调控记忆持续性（非编码）；行为标记（新颖→LC-DA→PRPs→STC）；记忆联结（~6h时间窗，LC→dCA1 D1/D5依赖）；与GC-NE应激记忆系统互补 **[NEW 2026-07-11]**
 - 🔵 [Actor-Critic架构（基底节）](concepts/actor-critic-brain.md) — VTA/SNc=TD误差δ广播；NAc/腹侧纹状体=Critic价值估计；背侧纹状体D1-MSN=Actor Go / D2-MSN=Actor No-Go；DA双向读出设计（D1兴奋/D2抑制）**[NEW 2026-07-12]**
+- 🟢 [激励显著性](concepts/incentive-salience.md) — Robinson & Berridge 1993/2016激励显著性理论：多巴胺驱动"想要"（wanting，趋近动机）但不产生"喜欢"（liking，享乐感受）；6-OHDA损毁消除觅食动机但liking反应正常；成瘾中wanting↑liking↓是渴求失控机制；帕金森DA激动剂→冲动控制障碍 **[NEW 2026-08-17]**
+- 🟢 [NAc阿片热点](concepts/nac-hedonic-hotspot.md) — 伏隔核壳部前背侧约1mm³区域；µ-阿片受体激活→大鼠蔗糖liking反应>2倍；δ-阿片和内大麻素同效；κ-阿片（强啡肽）产生厌恶（对立信号）；前后轴"情感键盘"（前端→趋近，后端→防御）；环境应激调制键盘调音；VP阿片热点是NAc热点的下游必要节点 **[NEW 2026-08-17]**
 - 🟡 [分布式强化学习与多巴胺编码](concepts/distributional-rl-dopamine.md) — 不同VTA DA神经元以不对称RPE缩放编码奖励分布分位数；大脑早于AI独立实现分布式RL计算；Dabney 2020 小鼠VTA单细胞记录 **[NEW 2026-07-12]**
 - 🔵 [模型-基与模型-无强化学习（双系统）](concepts/model-based-model-free.md) — DMS支持MB（目标导向/灵活）；DLS支持MF（习惯性/快速）；结果贬值测试区分双系统；应激→从MB切换到MF；OCD/成瘾/抑郁的计算框架 **[NEW 2026-07-12]**
 
@@ -220,6 +222,7 @@
 - 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化 **[NEW 2026-07-30]**
 - 🟢 [基底节（区间计时视角）](systems/basal-ganglia.md) — 以区间计时为核心的系统层级视角：MSN ~1/3 显示斜坡放电；D1-MSN 递减/D2-MSN 递增的对立动力学（Bruce 2025 eLife 光遗传因果证据，R²=0.95 漂移扩散模型）；纹状体-丘脑-皮层节拍计时回路；帕金森病计时障碍机制 **[NEW 2026-07-31]**（另见 [[circuits/basal-ganglia]] 运动选择视角）
 - 🟢 [颞顶联合区（TPJ）](systems/temporoparietal-junction.md) — 前-后轴分工：pTPJ（信念推断/视角转换，右侧化）vs aTPJ（注意定向，VAN 节点）；与 DAN（FEF/IPS）动态拮抗；进化：灵长类 TPJ 体积与社会群体大小正相关；临床：右 TPJ 损伤→偏侧空间忽视+社会认知障碍；TPJ 功能是否专一于 ToM 仍有争议（Q-tom-01）**[NEW 2026-08-01]**
+- 🟢 [伏隔核（NAc）](systems/nucleus-accumbens.md) — 腹侧纹状体的核心奖赏节点；D1-MSN（直接通路/促进）vs D2-MSN（间接通路/抑制）对立动力学；壳部前背侧µ-阿片热点产生liking（独立于DA）；VTA→NAc→VP→VTA奖赏回路；OXT-DA协同产生社会奖赏/配对联结（Liu & Wang 2003；MDMA通过SERT→5HT→OTR→NAc促社交，Heifets 2019）；前后轴"情感键盘"（应激调制）；成瘾中DA系统致敏→wanting失控 **[NEW 2026-08-17]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**

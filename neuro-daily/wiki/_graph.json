@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-16",
-  "node_count": 223,
-  "edge_count": 1298,
+  "updated": "2026-08-17",
+  "node_count": 228,
+  "edge_count": 1326,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2051,6 +2051,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/supramammillary-nucleus.md"
+    },
+    {
+      "id": "nucleus-accumbens",
+      "title": "伏隔核",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/nucleus-accumbens.md"
+    },
+    {
+      "id": "incentive-salience",
+      "title": "激励显著性",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/incentive-salience.md"
+    },
+    {
+      "id": "nac-hedonic-hotspot",
+      "title": "NAc阿片热点",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/nac-hedonic-hotspot.md"
     }
   ],
   "edges": [
@@ -9363,6 +9390,84 @@
       "from": "oxytocin",
       "to": "active-inference",
       "type": "related"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "NAc是多巴胺投射的主要终靶，VTA→NAc通路编码奖赏预测误差"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "incentive-salience",
+      "type": "mechanism-of",
+      "note": "NAc多巴胺释放赋予刺激激励显著性（wanting）"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "nac-hedonic-hotspot",
+      "type": "part-of",
+      "note": "NAc阿片热点是NAc壳部前背侧的功能亚区"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "endogenous-opioid-system",
+      "type": "related",
+      "note": "NAc壳部µ-阿片受体热点产生liking，独立于多巴胺wanting"
+    },
+    {
+      "from": "nucleus-accumbens",
+      "to": "oxytocin",
+      "type": "related",
+      "note": "OXT通过NAc壳部OTR协同多巴胺产生社会奖赏和配对联结"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of",
+      "note": "多巴胺预测误差既更新价值学习，也赋予刺激激励显著性"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "nucleus-accumbens",
+      "type": "mechanism-of",
+      "note": "激励显著性通过NAc多巴胺释放实现"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "nac-hedonic-hotspot",
+      "type": "related",
+      "note": "wanting（incentive salience）和liking（hedonic hotspot）双重解离"
+    },
+    {
+      "from": "nac-hedonic-hotspot",
+      "to": "endogenous-opioid-system",
+      "type": "mechanism-of",
+      "note": "µ/δ-阿片受体是NAc热点产生liking的分子基础"
+    },
+    {
+      "from": "nac-hedonic-hotspot",
+      "to": "nucleus-accumbens",
+      "type": "part-of",
+      "note": "NAc阿片热点是NAc壳部的功能亚区"
+    },
+    {
+      "from": "nac-hedonic-hotspot",
+      "to": "incentive-salience",
+      "type": "related",
+      "note": "liking（热点）与wanting（激励显著性）双重解离"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "nucleus-accumbens",
+      "type": "related",
+      "note": "VTA多巴胺神经元的主要投射靶区"
+    },
+    {
+      "from": "oxytocin",
+      "to": "nucleus-accumbens",
+      "type": "related",
+      "note": "OXT→NAc壳部路径编码社会奖赏、配对联结"
     }
   ],
   "dangling_references": [

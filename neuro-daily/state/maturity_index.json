@@ -496,5 +496,26 @@
     "confidence": "medium",
     "last_changed": "2026-08-16",
     "reason": "创建页面，emerging状态：θ节律起搏功能已确立（high confidence），催产素中继（PVH→SuM→CA2）来自Thirtamara Rajamani 2024单项研究，需独立复制，整体定为emerging/medium"
+  },
+  {
+    "slug": "nucleus-accumbens",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-17",
+    "reason": "创建页面，established状态：NAc的解剖（壳/核）、D1/D2-MSN对立动力学、VTA→NAc多巴胺通路是经典神经科学核心知识（多项独立研究）；wanting vs liking解离理论（Berridge 1993以来）在多个实验室重复；OXT+DA配对联结机制也有独立复制证据（草原田鼠模型）"
+  },
+  {
+    "slug": "incentive-salience",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-17",
+    "reason": "创建页面，established状态：Robinson & Berridge 1993年提出，1996/2016系统综述；6-OHDA消除DA→wanting失去而liking保留是多次重复的经典实验；帕金森DA激动剂→冲动控制障碍是大量临床观察验证的预测"
+  },
+  {
+    "slug": "nac-hedonic-hotspot",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-17",
+    "reason": "创建页面，established状态：Berridge实验室系统微注射+orofacial评分范式，多年多个实验系统确立前背侧壳部阿片热点；多激动剂（µ/δ/eCB）均在热点增强liking；情感键盘和VP阿片热点均有独立证据支持"
   }
 ]
