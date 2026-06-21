@@ -80,5 +80,6 @@
 ## Git信息
 
 - **分支**：main
-- **推送状态**：[由后续步骤记录]
+- **commit hash**：`3b88617`
+- **推送状态**：成功（`git push -u origin main`）
 - **commit message**：`Add neuro daily article + wiki consolidation for 2026-08-18`
