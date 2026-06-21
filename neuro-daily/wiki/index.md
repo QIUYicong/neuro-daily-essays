@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-21（第119篇·价值的解剖·眶额皮层如何为选项定价·OFC三类价值神经元·BLA-OFC双向回路·OFC→DMS行动转换·dlPFC自控调制）· 主题页总数：**230**（新建2页：systems/orbitofrontal-cortex、concepts/value-based-decision-making；修订3页：systems/prefrontal-cortex rev4→rev5、systems/amygdala rev5→rev6；新增Q-ofc-01/Q-ofc-02/Q-ofc-03；图谱235节点/1377边）
+> 最后更新：2026-08-22（第120篇·岛叶皮层：身体的感知地图如何生成主观感受并导航决策·insular-cortex/interoception后→前梯度·VENs·EPIC预测编码·IMAC模型·显著性网络·躯体标记与 OFC 决策）· 主题页总数：**232**（新建2页：systems/insular-cortex、concepts/interoception；修订2页：systems/anterior-cingulate-cortex rev2→rev3、systems/orbitofrontal-cortex rev1→rev2；新增Q-ins-01~04；图谱235节点/1371边）
 
 ---
 
@@ -181,6 +181,7 @@
 - 🟢 [Nocebo效应](concepts/nocebo-effect.md) — 负向期望→主观疼痛增强；CCK-A/B拮抗剂（丙谷胺）可阻断——与安慰剂阿片路径形成双路径分离；医源性nocebo（负面预期语言即增加术后疼痛）；开放标签安慰剂显示知情者仍可触发条件性镇痛 **[NEW 2026-08-03]**
 - 🟢 [内源性大麻素系统（Endocannabinoid System）](concepts/endocannabinoid-system.md) — 脑内最主要逆行突触调制系统；2-AG（DGLα合成/MAGL降解，全激动剂）和 AEA（NAPE-PLD合成/FAAH降解，TRPV1全激动剂）；CB1R Gβγ→Cav2.2（DSI短时程）+ Gαi→RIM1α（eCB-LTD长时程）双通路；CCK⁺ GABA 能中间神经元为主要靶点；杏仁核 AEA-FAAH 轴调控恐惧消退（FAAH 抑制剂 PTSD 靶点）；THC 弥散激活 CB1R 导致逆行调控失真；**rev2新增**：NAc壳区享乐热点AEA→CB1R→liking增强（依赖阿片信号耦合），社会互动→NAc内eCB升高，CB1R拮抗阻断社会CPP **[修订rev2 2026-08-20]**
 - 🟢 [激励显著性（Incentive Salience）](concepts/incentive-salience.md) — Berridge-Robinson 1993提出的"wanting vs liking"框架：多巴胺系统赋予刺激趋近动机（wanting），而非享乐快感（liking）；多巴胺耗竭消除食物seeking但保留liking（orofacial reactions）；激励敏化理论解释成瘾者"停不下来却不快乐"；aberrant salience解释精神分裂症幻觉/妄想形成；anhedonia区分（wanting vs liking损害的不同临床含义）**[NEW 2026-08-20]**
+- 🟢 [内感觉（Interoception）](concepts/interoception.md) — 大脑对身体内部生理状态的感知系统；专属解剖通路（脊髓 lamina I → VMpo → 后岛，独立于外感觉 VPM→S1 路径）；后→前梯度处理（原始生理参数→预测误差→主观感受）；EPIC 预测编码模型（Barrett 2015：感受=预测+实际信号约束）；内感觉精确度个体差异（AIC 激活预测 BDT 心跳/呼吸准确性）；主动推断维度（通过自主神经调节身体以符合预测）**[NEW 2026-08-22]**
 - 🟢 [价值决策（Value-Based Decision Making）](concepts/value-based-decision-making.md) — 大脑通过OFC的三类价值神经元（offer value/chosen value/taste cells）显式表征并比较选项主观效用；BLA-OFC双向回路是结果特异性价值记忆的读写系统（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS通路将价值信号转化为目标导向行动；dlPFC调制vmPFC价值权重实现自控（Hare 2009, PMID:19407204）；与习惯行为（外侧纹状体）形成目标导向vs习惯双系统分离 **[NEW 2026-08-21]**
 - 🔵 [享乐热点（Hedonic Hotspot）](concepts/hedonic-hotspot.md) — NAc壳区前背侧内侧象限约1mm³的"快乐发生器"（大鼠，推算人脑约1cm³）；µ/δ/κ阿片受体激动剂均使sucrose liking反应翻倍；AEA在此位置增强liking但依赖内源性阿片信号同时激活（纳洛酮共注射完全阻断，Mitchell 2018）；多巴胺在热点内注射不增强liking（wanting-liking解剖分离的直接证据）；"情感键盘"（前appetitive/后aversive）可被应激重调 **[NEW 2026-08-20]**
 - 🟡 [认知运动解离（CMD）](concepts/cognitive-motor-dissociation.md) — 行为检查显示无命令跟随，但任务型fMRI/EEG显示命令跟随神经信号的状态；约25%"无反应"DoC患者有CMD（Bodien NEJM 2024，n=353）；识别方法（"打网球"想象范式/P300 EEG/PCI≥0.31）；从根本上改变意识障碍的医疗决策伦理 **[NEW 2026-08-09]**
@@ -231,7 +232,8 @@
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
 - 🟢 [伏隔核（Nucleus Accumbens, NAc）](systems/nucleus-accumbens.md) — 腹侧纹状体的动机计算枢纽；D1/D2 MSN时程效应（短暂激活均→奖赏，持续激活均→厌恶，Soares-Cunha 2020打破经典D1=奖赏/D2=厌恶二分法）；享乐热点（壳区前内侧~1mm³，阿片→liking翻倍，eCB→liking需阿片协同，多巴胺在此不增强liking）；社会奖赏专用接口（OTR+MOR正向/KOR负向/eCB正向的NAc壳区四系统整合）；多路输入：VTA-DA（wanting）/PFC-Glu（认知控制）/杏仁核BLA（情感价值）/海马（情境）/PVN-OXT（社会特异性门控）；NAc DBS用于难治性抑郁（~40%反应率）**[NEW 2026-08-20]**
-- 🟢 [眶额皮层（OFC）](systems/orbitofrontal-cortex.md) — 额叶最腹侧的新皮层区域；三类功能神经元（提案/选定/效用价值细胞）构成决策流水线；BLA-OFC双向回路是目标导向价值学习的神经基础（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS投射将价值信号转化为行动（Gore 2023光遗传学因果）；lOFC驱动感觉皮层重映射支持逆向学习；价值代码纵向稳定（Zhang 2024双光子） **[NEW 2026-08-21]**
+- 🟢 [眶额皮层（OFC）](systems/orbitofrontal-cortex.md) — 额叶最腹侧的新皮层区域；三类功能神经元（提案/选定/效用价值细胞）构成决策流水线；BLA-OFC双向回路是目标导向价值学习的神经基础（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS投射将价值信号转化为行动（Gore 2023光遗传学因果）；lOFC驱动感觉皮层重映射支持逆向学习；价值代码纵向稳定（Zhang 2024双光子）**[NEW 2026-08-21]**
+- 🟢 [岛叶皮层（Insular Cortex）](systems/insular-cortex.md) — 藏于外侧裂深处的多层级内感觉处理中枢；四区功能分化（后颗粒岛体感拓扑/中岛预测误差/前岛主观感受生成/前岛极沉默性顶端控制）；VMpo→后岛专属内感觉通路（区别于 VPM→S1）；前岛含 VENs（体积4.6×，快速远程同步，与 alexithymia 关联）；EPIC 预测编码模型（Barrett 2015）与 IMAC 三层计算模型（Fermin 2022）；显著性网络（岛叶-ACC）；躯体标记（岛叶→OFC/vmPFC）；精神疾病共同病理节点（抑郁/精分/成瘾）**[NEW 2026-08-22]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；**新增**：rIFG（BA44/45）/preSMA在反应抑制（超直接通路）中的因果驱动作用（Aron 2006、Chen 2020证据）；**rev5新增**：vmPFC/OFC作为PFC价值决策腹侧亚区，dlPFC→vmPFC自控调制（Hare 2009）**[修订 rev4→rev5 2026-08-21]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；AAS两通道架构与VTA枢纽（修订5次）**[NEW 2026-06-12]**

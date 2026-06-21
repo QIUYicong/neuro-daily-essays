@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-19",
+  "updated": "2026-08-22",
   "node_count": 230,
   "edge_count": 1337,
   "edge_types": [
@@ -2123,6 +2123,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/hedonic-hotspot.md"
+    },
+    {
+      "id": "insular-cortex",
+      "title": "岛叶皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/insular-cortex.md"
+    },
+    {
+      "id": "interoception",
+      "title": "内感觉",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/interoception.md"
     }
   ],
   "edges": [
@@ -9721,6 +9739,60 @@
       "to": "hedonic-hotspot",
       "type": "related",
       "note": "NAc壳区的eCB享乐热点是ECS参与liking（而非wanting）产生的解剖位点"
+    },
+    {
+      "from": "insular-cortex",
+      "to": "interoception",
+      "type": "mechanism-of",
+      "note": "岛叶是内感觉的核心皮层基础（后→中→前梯度轴）"
+    },
+    {
+      "from": "insular-cortex",
+      "to": "anterior-cingulate-cortex",
+      "type": "related",
+      "note": "共同构成显著性网络"
+    },
+    {
+      "from": "insular-cortex",
+      "to": "orbitofrontal-cortex",
+      "type": "supports",
+      "note": "通过躯体标记向 OFC 提供身体状态输入"
+    },
+    {
+      "from": "insular-cortex",
+      "to": "amygdala",
+      "type": "regulates",
+      "note": "双向情绪调制；内脏状态修饰情绪评价"
+    },
+    {
+      "from": "insular-cortex",
+      "to": "prefrontal-cortex",
+      "type": "supports",
+      "note": "前岛极与 PFC 密集连接；提供身体状态信号"
+    },
+    {
+      "from": "insular-cortex",
+      "to": "nucleus-accumbens",
+      "type": "regulates",
+      "note": "情感状态门控 NAc 的奖赏处理"
+    },
+    {
+      "from": "insular-cortex",
+      "to": "thalamus",
+      "type": "part-of",
+      "note": "VMpo 核是内感觉传入岛叶的中继站"
+    },
+    {
+      "from": "interoception",
+      "to": "active-inference",
+      "type": "related",
+      "note": "EPIC 模型是 Friston 主动推断在内感觉域的具体化"
+    },
+    {
+      "from": "interoception",
+      "to": "precision-weighting",
+      "type": "related",
+      "note": "DA/ACh 调制内感觉预测的精确度权重"
     }
   ],
   "dangling_references": [

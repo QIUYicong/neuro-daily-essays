@@ -6,10 +6,10 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-08-02
-updated: 2026-08-03
-revision_count: 2
+updated: 2026-08-22
+revision_count: 3
 dimensions: [systems, cognitive, affective]
-related: [pain-matrix, periaqueductal-gray, prefrontal-cortex, amygdala, insula, gate-control-theory, placebo-analgesia, endogenous-opioid-system]
+related: [pain-matrix, periaqueductal-gray, prefrontal-cortex, amygdala, insular-cortex, interoception, gate-control-theory, placebo-analgesia, endogenous-opioid-system]
 prerequisites: [pain-matrix]
 opens_questions: []
 source_articles: [2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-03-placebo-analgesia-pfc-opioid-circuit]
@@ -112,11 +112,14 @@ Baliki & Apkarian（2015, PMID:26247858）的数据显示：
 - [[gate-control-theory]] — ACC 通过 PAG 间接调控脊髓闸门
 - [[placebo-analgesia]] — rACC 是安慰剂下行阿片回路的关键中继，μ-OR 在此被直接激活（Zubieta 2005）
 - [[endogenous-opioid-system]] — rACC 是内源性阿片释放的主要场所之一，μ-OR 激活量与镇痛效果线性相关
+- [[insular-cortex]] — ACC 与前岛共同构成显著性网络（Salience Network）；岛叶提供内脏状态信号，ACC 整合冲突监测和认知控制
+- [[interoception]] — dACC 参与对内感觉信号的认知解读和注意分配
 
 ## 修订历史
 
 - 2026-08-02 · 创建 · 基于《痛觉的守门人》文章（#101）
 - 2026-08-03 · 修订 · 深化rACC在安慰剂镇痛中的作用（naloxone阻断rACC-PAG偶联；μ阿片受体直接成像）· 依据：2026-08-03-placebo-analgesia文章
+- 2026-08-22 · 修订 · 新增岛叶-ACC 显著性网络连接说明；更新 related 字段（insula→insular-cortex，新增 interoception）· 依据：2026-08-22-insular-cortex-interoception-bodily-self
 
 ## 来源文章
 

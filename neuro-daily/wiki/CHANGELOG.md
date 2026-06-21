@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-08-22 · 文章 #120 · 岛叶皮层：身体的感知地图如何生成主观感受并导航决策
+
+**核心主题**：岛叶皮层（Insular Cortex）与内感觉（Interoception）——后→中→前的梯度层级处理轴，从初级内感觉皮层（后岛接收 VMpo 传入）到主观感受生成（前岛整合 VENs 快速同步），再到显著性网络与 PFC 决策回路的身体状态嵌入；EPIC 预测编码模型（Barrett & Simmons 2015）与 Craig 经典映射框架的比较；躯体标记与 Damasio 决策理论的神经基底；精神疾病中的岛叶系统性异常。
+
+### 新建 Wiki 页面（2 个）
+
+- `systems/insular-cortex.md`（岛叶皮层）🟢 established · 高置信度 — 四区功能分化（后颗粒岛体感拓扑/中岛预测误差/前岛主观感受/前岛极沉默性顶端控制）；VENs 解剖（4.6× 体积，Layer V 特异）与 alexithymia 关联；EPIC 预测编码梯度；IMAC 三层计算分工；显著性网络（岛叶-ACC）；9 条连接（ACC/OFC/amygdala/PFC/NAc/thalamus 等）；8 篇来源（6 篇开放全文）
+- `concepts/interoception.md`（内感觉）🟢 established · 高置信度 — 专属解剖通路（lamina I → VMpo → 后岛，区别于 VPM→S1 体感路径）；后→前梯度处理；内感觉精确度个体差异（AIC 激活预测 BDT 准确性）；主动推断维度；4 篇核心来源
+
+### 修订 Wiki 页面（2 个）
+
+- `systems/anterior-cingulate-cortex.md`：rev2→rev3，更新 related 字段（insula→insular-cortex，新增 interoception）；连接节新增岛叶-ACC 显著性网络说明（ACC 认知控制 + 岛叶内脏状态信号的协作关系）；source_articles 新增 #120
+- `systems/orbitofrontal-cortex.md`：rev1→rev2，更新 related 字段（新增 insular-cortex、interoception）；连接节新增躯体标记向 OFC 提供身体状态输入说明；修订历史新增一行
+
+### 无矛盾登记（Craig vs Barrett 的预测编码框架争议为文献中已记载的持续理论争论，不构成本知识库新发现的矛盾）
+
+### 新增开放问题（4 个）
+
+- Q-ins-01（高）：Craig 映射框架 vs. Barrett 预测框架——内感觉信号时序先后可否用 ECoG 解码验证？
+- Q-ins-02（高）：前岛极电刺激沉默机制——网络状态依赖性还是频率不匹配？
+- Q-ins-03（中）：VENs 因果功能——灵长类选择性光遗传操控是否可行？
+- Q-ins-04（中）：不同决策类型（风险/道德/社会）的岛叶子区域分工是否统一？
+
+### 图谱更新
+
+- 新增节点：`insular-cortex`（systems）、`interoception`（concepts）
+- 新增边（9条）：insular-cortex → interoception/anterior-cingulate-cortex/orbitofrontal-cortex/amygdala/prefrontal-cortex/nucleus-accumbens/thalamus；interoception → active-inference/precision-weighting
+- **当前图谱状态**：235 节点，1371 边（+2 节点，+9 边）
+
+---
+
 ## 2026-08-21 · 文章 #119 · 价值的解剖：眶额皮层如何为选项定价
 
 ### 新建 Wiki 页面（2 个）

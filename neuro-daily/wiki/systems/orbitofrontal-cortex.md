@@ -6,10 +6,10 @@ type: region
 status: established
 confidence: high
 created: 2026-08-21
-updated: 2026-08-21
-revision_count: 1
+updated: 2026-08-22
+revision_count: 2
 dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [prefrontal-cortex, amygdala, basal-ganglia, nucleus-accumbens, value-based-decision-making, dopamine-reward-prediction-error, anterior-cingulate-cortex, vmPFC]
+related: [prefrontal-cortex, amygdala, basal-ganglia, nucleus-accumbens, value-based-decision-making, dopamine-reward-prediction-error, anterior-cingulate-cortex, vmPFC, insular-cortex, interoception]
 prerequisites: [prefrontal-cortex, amygdala, synaptic-transmission, ltp]
 opens_questions: [Q-ofc-01, Q-ofc-02, Q-ofc-03]
 source_articles: [2026-08-21-orbitofrontal-cortex-value-decision-circuit]
@@ -91,6 +91,8 @@ OFC 锥体细胞通过 AMPA/NMDA 受体接受来自 BLA（奖赏预期/更新信
 - [[dopamine-reward-prediction-error]] — DA 调制 OFC 和 BLA 的突触可塑性
 - [[anterior-cingulate-cortex]] — OFC 顺序表征价值后，ACC 加速选择准备
 - [[value-based-decision-making]] — OFC 是价值决策回路的核心计算节点
+- [[insular-cortex]] — 岛叶通过躯体标记（somatic marker）向 OFC/vmPFC 提供身体状态信号，影响价值更新的情感背景
+- [[interoception]] — OFC 在编码奖赏预期时整合了来自岛叶的内感觉状态输入
 
 ## 未解问题
 
@@ -101,6 +103,7 @@ OFC 锥体细胞通过 AMPA/NMDA 受体接受来自 BLA（奖赏预期/更新信
 ## 修订历史
 
 - 2026-08-21 · 创建 · 基于《价值的解剖：眶额皮层如何为选项定价》（#119）· 初始置信度：高
+- 2026-08-22 · 修订 · 新增岛叶-OFC 躯体标记连接说明；更新 related 字段（新增 insular-cortex、interoception）· 依据：2026-08-22-insular-cortex-interoception-bodily-self
 
 ## 来源文章
 

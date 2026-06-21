@@ -1,0 +1,103 @@
+# Run Log — 2026-08-22
+
+## 基本信息
+
+- **文章编号**：#120
+- **日期（UTC+8）**：2026-08-22（实际系统时钟：2026-06-22 CST，仓库连续性日期）
+- **主题**：岛叶皮层与内感觉（Insular Cortex & Interoception）
+- **层级**：分子 / 细胞 / 脑区 / 全脑网络 / 认知
+- **核心问题**：岛叶皮层如何沿后→中→前梯度轴将身体信号转化为主观感受，并通过与 PFC 的对话将身体状态嵌入情绪与决策？
+
+---
+
+## 上下文说明（日期异常）
+
+系统时钟显示当前实际时间为 2026-06-22 00:59 CST，但仓库最新文章日期为 2026-08-21（#119 OFC 文章）。前序会话写入了跨越 6-8 月的文章，当前会话继续从仓库的连续日期（2026-08-22）推进，以维持知识库的线性连续性。
+
+之前两次触发（2026-06-21 CST）写入了诊断性 no-op 日志，注明了 2026-06-21 文章已存在的情况。本次会话直接从 #119 的状态推进至 #120。
+
+---
+
+## 文献检索
+
+### 搜索策略
+
+1. Web 搜索：`insular cortex interoception Craig 2002 anterior insula subjective feeling`
+2. Web 搜索：`insular cortex interoception decision making somatic marker Damasio PMC open access`
+3. Web 搜索：`insular cortex posterior anterior gradient interoception body map PMC 2021-2024`
+4. Web 搜索：`insular cortex salience network disgust risk aversion ventral anterior insula`
+5. Web 搜索：`insula interoception predictive coding active inference Friston precision`
+6. PMC 全文获取：PMC3999437、PMC6488299、PMC4731102、PMC9240682、PMC5538352、PMC12980368
+7. PubMed 验证：PMID:12154366, 19096369, 26016744, 23749500, 30985277, 35774133, 28314446, 41836516
+
+### 候选来源（共检索 12 篇，采用 8 篇）
+
+| PMID | 采用/排除 | 原因 |
+|------|-----------|------|
+| 12154366 | 采用（摘要） | 领域奠基综述，Craig 2002，内感觉通路解剖 |
+| 19096369 | 采用（摘要） | Craig 2009，前岛-意识框架，NRN 付费 |
+| 26016744 | 采用（全文） | Barrett EPIC 模型，高质量 NRN，PMC 开放 |
+| 23749500 | 采用（全文） | AIC 情绪意识，fMRI+病变，PMC 开放 |
+| 30985277 | 采用（全文） | AIC 病变因果研究，eLife，PMC 开放 |
+| 35774133 | 采用（全文） | IMAC 形式化模型，R Soc Open Sci，PMC 开放 |
+| 28314446 | 采用（全文） | 临床综述，Trends Neurosci，PMC 开放 |
+| 41836516 | 采用（全文/预印本） | Parvizi 颅内刺激 n=87，PMC 预印本，方法强 |
+| PMC4316402 | 排除 | 创伤治疗综述，临床应用偏向，缺乏机制深度 |
+| SAGE Iowa GT 2019 | 排除 | 主要讨论行为测量，神经机制覆盖不足 |
+| PMC3594729 | 排除 | AIC 社会焦虑，专题过窄，主要内容已被 S4 覆盖 |
+| PMC7079488 | 排除 | 内感觉训练干预研究，偏向效果测量，非机制 |
+
+---
+
+## 固结（Consolidation）
+
+### 新建 Wiki 页面（2 个）
+
+1. `wiki/systems/insular-cortex.md`
+   - 状态：established，置信度：高
+   - 8 篇来源（6 篇开放全文）
+   - 内容：四区功能分化、VENs、EPIC/IMAC 模型、显著性网络、9 条连接、4 个未解问题
+
+2. `wiki/concepts/interoception.md`
+   - 状态：established，置信度：高
+   - 4 篇核心来源
+   - 内容：专属解剖通路（lamina I→VMpo→后岛）、后→前梯度、内感觉精确度、主动推断维度
+
+### 修订 Wiki 页面（2 个）
+
+3. `wiki/systems/anterior-cingulate-cortex.md`：rev2→rev3
+   - 更新 related 字段（insula→insular-cortex，新增 interoception）
+   - 连接节新增：岛叶-ACC 显著性网络说明
+
+4. `wiki/systems/orbitofrontal-cortex.md`：rev1→rev2
+   - 更新 related 字段（新增 insular-cortex、interoception）
+   - 连接节新增：躯体标记→OFC 体状态输入
+
+### 矛盾检查（无新矛盾登记）
+
+Craig vs Barrett 框架争论为文献中长期存在的理论分歧，已在文章中明确呈现为"争议与未解问题"，未在 contested_claims.json 新建条目（原因：两个框架都有合理证据，且不直接否定对方的实验发现，属于解释层级的分歧而非实验结论的冲突）。
+
+---
+
+## 图谱更新
+
+- 新增节点：2（insular-cortex, interoception）
+- 新增边：9 条
+- 图谱状态：235 节点，1371 边
+
+---
+
+## 异常记录
+
+- 无网络失败
+- S1（Craig 2002）和 S2（Craig 2009）为付费 NRN 文章，仅读摘要；已在文章来源说明中明确标注
+- S8（Parvizi 2026）为预印本，已在文章和 sources.json 中明确标注
+
+---
+
+## Git / 推送状态
+
+- 分支：main
+- commit message：`Add neuro daily article + wiki consolidation for 2026-08-22`
+- push 状态：[待填写]
+- commit hash：[待填写]
