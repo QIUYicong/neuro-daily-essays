@@ -1,0 +1,99 @@
+# 重复触发诊断日志 — 2026-06-21
+
+## 基本信息
+- **运行日期（UTC+8）**：2026-06-21
+- **运行类型**：重复触发 · 无新文章 (no-op)
+- **检测时间**：09:00 BJT
+
+---
+
+## 诊断结论
+
+当前 UTC+8 日期为 2026-06-21，但本日文章已存在：
+
+- **文章文件**：`neuro-daily/articles/2026-06-21-motor-cortex-voluntary-movement.md`
+- **来源文章编号**：#57（运动皮层与随意运动）
+- **原始运行日志**：`neuro-daily/logs/2026-06-21-run.log`
+
+根据 ROUTINE.md 规则："不要反复生成同一天文章，除非 ROUTINE.md 明确要求补写或修复当天任务。" 本次运行为重复触发，不执行新文章生成。
+
+---
+
+## 分支状态异常说明
+
+检测到仓库存在分支分叉问题，需要用户介入：
+
+| 项目 | 详情 |
+|------|------|
+| 当前分支 | `claude/funny-einstein-yi524v` |
+| 当前分支最新文章 | 2026-08-16（共 116 篇） |
+| `origin/main` 最新文章 | 2026-07-08（第 #76 篇） |
+| 当前分支独有提交数 | 50 个（主要为 2026-07-09 ～ 2026-08-16 的文章） |
+| `origin/main` 独有提交数 | 51 个（主要为 2026-07-04 ～ 2026-07-08 的文章，路径不同） |
+| 分叉类型 | **真实分叉**（不是 fast-forward 关系，有共同祖先但两边各有不同历史） |
+
+### 影响
+
+1. **当前分支**包含 2026-07-09 到 2026-08-16 的约 40 篇文章和 wiki 更新，这些内容**从未合并到 `main`**。
+2. **`main` 分支**包含部分 2026-06-03 和 2026-07-04～07-08 的提交，这些提交**不在当前分支的历史中**。
+3. 两者无法自动合并（fast-forward merge 不可用），需要手动 rebase 或 merge 解决冲突。
+
+### 根本原因推断
+
+过去多个自动化 session：
+- 一些 session 被调度到 `claude/funny-einstein-yi524v` 分支并写作了 07-09～08-16 的文章
+- 另一些 session 直接推送到 `main`（07-04～07-08 的文章）
+- 两者同时进行，导致 `main` 和特性分支在 2026-07-04 左右开始分叉
+
+---
+
+## 建议操作（需用户决策）
+
+**方案 A（推荐）：以特性分支为准，rebase 到 main**
+```bash
+git checkout main
+git pull origin main
+git checkout claude/funny-einstein-yi524v
+git rebase main   # 解决冲突（可能有 2026-07-04～07-08 的冲突）
+git checkout main
+git merge --ff-only claude/funny-einstein-yi524v
+git push origin main
+```
+
+**方案 B：以 main 为准，抛弃特性分支的独有内容**
+```bash
+# 这会丢失 2026-07-09～08-16 的文章，不建议
+git checkout main
+git branch -D claude/funny-einstein-yi524v
+git push origin --delete claude/funny-einstein-yi524v
+```
+
+**方案 C：重新设置调度器的目标分支为 `main`**（防止此后继续在特性分支堆积）
+
+---
+
+## 当前系统状态（快照）
+
+- **知识库文章总数**（feature branch）：116 篇（2026-05-26 ～ 2026-08-16）
+- **wiki 页面总数**：已扩展至涵盖意识/语言/催产素/连接组学等领域
+- **状态文件最后更新**：2026-08-16
+- **待解问题（unresolved_questions.md）**：已更新至 2026-08-16 内容
+- **Git remote**：`http://local_proxy@127.0.0.1:38389/git/QIUYicong/neuro-daily-essays`（正确）
+
+---
+
+## 下一步自动化建议
+
+1. 将 `claude/funny-einstein-yi524v` 的内容合并到 `main`（方案 A）
+2. 将调度触发器的 base branch 改为 `main`（当前可能错误地使用了特性分支）
+3. 合并后，下次触发时系统日期为 2026-06-21，下一篇文章应为 #117（日期 2026-08-17）
+
+---
+
+## 不变量检查
+
+- [x] 未修改/删除任何已有文章文件
+- [x] 未生成重复文章
+- [x] 未伪造来源或数据
+- [x] 仓库 remote 指向 `QIUYicong/neuro-daily-essays` ✓
+- [x] 无 lianyichuan / cqiuyicong 污染 ✓
