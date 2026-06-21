@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-26
-revision_count: 5
+updated: 2026-08-21
+revision_count: 6
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation, olfactory-bulb, piriform-cortex]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation, olfactory-bulb, piriform-cortex, orbitofrontal-cortex, value-based-decision-making]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-07-26-olfactory-coding-smell-memory-limbic]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:37620443", "PMID:32278646"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-21-orbitofrontal-cortex-value-decision-circuit]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:37620443", "PMID:32278646", "DOI:10.7554/eLife.80926", "PMID:40068869"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -132,6 +132,8 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[memory-reconsolidation]] — BLA-LA 是再巩固去稳定化的核心位点：GluN2B-NMDA→CaMKII→UPS→Shank/GKAP 降解+GluA2 内吞的完整分子链在此发生
 - [[olfactory-bulb]] — 杏仁核（皮质内侧核）直接接收嗅球僧帽/簇状细胞输出（无视丘中继），是所有感觉系统中唯一的"第一突触即情绪评估"设计；解释了气味为何能在意识觉知前触发强烈情绪反应（Proust效应的解剖基础）
 - [[piriform-cortex]] — 梨状皮层→杏仁核投射叠加于嗅球→杏仁核的直接通路；梨状皮层编码粗粒度气味类别，杏仁核整合情感价值（Sagar et al. 2023 7T fMRI）
+- [[orbitofrontal-cortex]] — BLA 与 OFC 形成双向价值学习回路：lOFC→BLA 写入结果特异性奖赏记忆（学习阶段），mOFC→BLA 检索记忆生成当前价值估计（决策阶段），BLA→lOFC 更新刺激-结果权变关系（Wassum 2022, DOI:10.7554/eLife.80926；Jenni et al. 2025, PMID:40068869）
+- [[value-based-decision-making]] — BLA 是 OFC-BLA 价值决策回路中的记忆存储节点；OFC-BLA 双向连接是目标导向行为（vs. 习惯行为）的神经基础
 
 ## 未解问题
 
@@ -146,6 +148,7 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - 2026-07-10 · 修订 rev3 · 基于《记忆再巩固》(#78) · 新增"BLA 中的记忆再巩固去稳定化分子链"机制节（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞级联；再稳定化路径；窗口内干预靶点）；连接节新增 memory-reconsolidation；source_articles/related 相应更新
 - 2026-07-09 · 修订 rev2 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 新增"GC与NE协同增强应激记忆"机制节（BLA必要枢纽、GC-NE协同门控、β-AR阻断实验）；新增"CRH在CeA的中枢独立效应"节；related新增glucocorticoid-stress-memory、hpa-axis、memory-consolidation；key_sources新增PMID:30877244、PMID:16310958、PMID:23968228；未解问题新增Q-fear-itc-bidirectionality
 - 2026-07-26 · 修订 rev5 · 基于《气味的神经密码：从一个分子到一段记忆的四级变换》(#94) · 连接节新增 olfactory-bulb（杏仁核皮质内侧核直接接收嗅球输出，无视丘中继）和 piriform-cortex（梨状皮层→杏仁核投射，气味感知层级）；related和key_sources/source_articles相应更新
+- 2026-08-21 · 修订 rev6 · 基于《价值的解剖：眶额皮层如何为选项定价》(#119) · 连接节新增 orbitofrontal-cortex（BLA↔OFC 双向价值记忆回路：lOFC→BLA 写入，mOFC→BLA 检索，BLA→lOFC 更新权变，Wassum 2022 & Jenni 2025）和 value-based-decision-making；related 新增 orbitofrontal-cortex、value-based-decision-making；key_sources 新增 DOI:10.7554/eLife.80926、PMID:40068869；source_articles 新增 2026-08-21
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
 
 ## 来源文章
@@ -155,3 +158,4 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[2026-07-10-memory-reconsolidation-ptsd]]
 - [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]
 - [[2026-07-26-olfactory-coding-smell-memory-limbic]]
+- [[2026-08-21-orbitofrontal-cortex-value-decision-circuit]]

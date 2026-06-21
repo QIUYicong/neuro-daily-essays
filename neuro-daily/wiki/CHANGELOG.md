@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-08-21 · 文章 #119 · 价值的解剖：眶额皮层如何为选项定价
+
+### 新建 Wiki 页面（2 个）
+- `systems/orbitofrontal-cortex.md`：眶额皮层系统级综合页面（region，established），覆盖三类功能神经元（offer value/chosen value/taste cells）、内侧vs外侧vs腹外侧亚区功能分工、BLA-OFC四条双向投射（lOFC→BLA写入/mOFC→BLA读取/BLA→lOFC更新权变/BLA→mOFC调适奖赏期望）、OFC→DMS行动转换（Gore 2023光遗传学因果）、lOFC→感觉皮层重映射（Banerjee 2020）、价值代码纵向稳定性（Zhang 2024）、状态编码新框架（Moneta 2024）；来源 PMID:16633341, 29144973, 37592039, 32884146, 40068869, DOI:10.7554/eLife.80926, 27112314, 39331504, 39547861
+- `concepts/value-based-decision-making.md`：价值决策框架（concept，established），OFC三类神经元的决策流水线、BLA-OFC双向价值记忆学习循环、OFC→DMS行动转换、dlPFC→vmPFC自控调制（Hare 2009）、目标导向vs习惯行为双系统对比
+
+### 修订 Wiki 页面（3 个）
+- `systems/prefrontal-cortex.md`：rev4→rev5，新增 vmPFC/OFC 作为 PFC 价值决策腹侧亚区的说明（dlPFC→vmPFC自控调制，Hare et al. 2009 PMID:19407204）；related 新增 orbitofrontal-cortex、value-based-decision-making；key_sources 新增 PMID:19407204, 29144973；未解问题新增 Q-ofc-02；来源文章新增 #119
+- `systems/amygdala.md`：rev5→rev6，连接节新增 orbitofrontal-cortex（BLA↔OFC 双向价值学习回路，Wassum 2022 & Jenni 2025）和 value-based-decision-making；related/key_sources/source_articles 相应更新
+
+### 新增未解问题（3 个）
+- Q-ofc-01（高优先级）：lOFC vs mOFC 的功能边界是解剖梯度还是离散边界？部分研究显示功能重叠
+- Q-ofc-02（中优先级）：OFC 的 chosen value cells 是决策的生成者还是报告者（生成 vs 读出的因果方向性）？
+- Q-ofc-03（中优先级）：社会价值（信任、利他）是否共用 OFC 同一套价值代码，还是有专化社会价值维度？
+
+### 无矛盾登记（今日来源与既有 wiki 无直接冲突；OFC-BLA 回路为新增内容，无旧主张需比较）
+
+---
+
 ## 2026-08-20 · 文章 #118 · 伏隔核的奖赏解剖
 
 ### 新建 Wiki 页面（3 个）

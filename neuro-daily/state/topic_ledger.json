@@ -1,7 +1,60 @@
 {
-  "last_updated": "2026-08-20",
-  "total_articles": 118,
+  "last_updated": "2026-08-21",
+  "total_articles": 119,
   "entries": [
+    {
+      "date": "2026-08-21",
+      "title": "价值的解剖：眶额皮层如何为选项定价，并通过杏仁核与纹状体回路实现灵活决策",
+      "filename": "2026-08-21-orbitofrontal-cortex-value-decision-circuit.md",
+      "article_number": 119,
+      "wiki_pages_created": [
+        "wiki/systems/orbitofrontal-cortex.md",
+        "wiki/concepts/value-based-decision-making.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/prefrontal-cortex.md (rev4->rev5)",
+        "wiki/systems/amygdala.md (rev5->rev6)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当面临多个选项时，OFC中的哪些神经元群体负责编码主观价值，这个其价值地图如何通过与BLA的双向连接随经验更新，又如何通过OFC纹状体投射将价值信号转化为实际的行为选择？",
+      "open_questions_added": [
+        "Q-ofc-01: lOFC vs mOFC functional boundary",
+        "Q-ofc-02: OFC chosen value cells - generator or reporter?",
+        "Q-ofc-03: social value in OFC - shared code or specialized dimension?"
+      ],
+      "layer": [
+        "brain-region",
+        "cognition",
+        "microcircuit",
+        "behavior"
+      ],
+      "curriculum_track": "课程脏柳5（认知控制：决策与价值计算） + 脏柳6（情绪与动机：BLA-OFC双向回路）",
+      "topic_tags": [
+        "orbitofrontal cortex OFC value encoding",
+        "offer value cells chosen value cells taste cells",
+        "BLA-OFC bidirectional circuit reward memory",
+        "mOFC lOFC medial lateral functional dissociation",
+        "reversal learning behavioral flexibility",
+        "OFC-DMS dorsomedial striatum goal-directed action",
+        "vmPFC value integration self-control dlPFC",
+        "value-based decision making goal-directed vs habitual",
+        "economic choice subjective utility",
+        "reinforcer devaluation paradigm"
+      ],
+      "main_sources": [
+        "PMID:16633341 (Padoa-Schioppa & Assad 2006, Nature)",
+        "PMID:29144973 (Padoa-Schioppa & Conen 2017, Neuron)",
+        "PMID:37592039 (Gore et al. 2023, Nat Neurosci)",
+        "PMID:32884146 (Banerjee et al. 2020, Nature)",
+        "PMID:40068869 / PMC:PMC12005357 (Jenni et al. 2025, J Neurosci, OPEN)",
+        "DOI:10.7554/eLife.80926 (Wassum 2022, eLife, OPEN)",
+        "PMID:27112314 (Sharpe & Schoenbaum 2016)",
+        "PMID:39331504 (Zhang & Padoa-Schioppa 2024, Cell Reports)",
+        "PMID:39547861 (Moneta et al. 2024, Trends Neurosci)",
+        "PMID:19407204 (Hare et al. 2009, Science)"
+      ]
+    },
     {
       "date": "2026-08-16",
       "title": "催产素回路：五条专化投射如何将同一神经肽解码为社会记忆、奖赏与联结",

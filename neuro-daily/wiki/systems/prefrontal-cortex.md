@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-08-19
-revision_count: 4
+updated: 2026-08-21
+revision_count: 5
 dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, response-inhibition, hyperdirect-pathway, stop-signal-task]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, response-inhibition, hyperdirect-pathway, stop-signal-task, orbitofrontal-cortex, value-based-decision-making]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
-opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02, Q-ri-03]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-19-response-inhibition-hyperdirect-pathway]
-key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:32155442", "PMID:16510720", "PMID:28103476"]
+opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02, Q-ri-03, Q-ofc-02]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-19-response-inhibition-hyperdirect-pathway, 2026-08-21-orbitofrontal-cortex-value-decision-circuit]
+key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:32155442", "PMID:16510720", "PMID:28103476", "PMID:19407204", "PMID:29144973"]
 ---
 
 # 前额叶皮层（Prefrontal Cortex, PFC）
@@ -82,6 +82,8 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - [[response-inhibition]] — rIFG/preSMA 是反应抑制的关键皮层节点；rIFG 经超直接通路触发紧急制动
 - [[hyperdirect-pathway]] — rIFG→STN 超直接通路的皮层起点；rIFG 单突触激活 STN（2.2 ms）
 - [[stop-signal-task]] — rIFG/STN 激活强度预测 SSRT（Aron & Poldrack 2006，r=0.68）
+- [[orbitofrontal-cortex]] — vmPFC/OFC 是 PFC 中负责价值整合和目标导向决策的腹侧亚区；dlPFC 在自控时调制 vmPFC 价值信号（Hare et al. 2009）
+- [[value-based-decision-making]] — dlPFC 通过调制 vmPFC 的价值整合实现自控；前边缘皮层（PL）接受并反馈 mOFC 信号
 
 ## 未解问题
 
@@ -96,9 +98,11 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 
 - 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 FEF（额叶眼区，BA8）作为 PFC 注意控制子区域；添加 dorsal-attention-network 和 thalamus 到 related；添加 Moore & Fallah 2004 和 Corbetta & Shulman 2002 到 key_sources；新增未解问题 Q-dan-02
 - 2026-08-19 · 修订 · 基于《大脑的刹车系统》一文 · 新增 rIFG/preSMA 在反应抑制（超直接通路）中的因果作用证据；添加 response-inhibition、hyperdirect-pathway、stop-signal-task 到 related；新增 Aron & Poldrack 2006 和 Chen et al. 2020 证据；新增未解问题 Q-ri-03
+- 2026-08-21 · 修订 · 基于《价值的解剖：眶额皮层如何为选项定价》一文 · 新增 vmPFC/OFC 作为 PFC 的价值决策腹侧亚区（dlPFC→vmPFC 自控调制，Hare et al. 2009）；添加 orbitofrontal-cortex、value-based-decision-making 到 related；新增未解问题 Q-ofc-02
 
 ## 来源文章
 
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-08-19-response-inhibition-hyperdirect-pathway]]
+- [[2026-08-21-orbitofrontal-cortex-value-decision-circuit]]

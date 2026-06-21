@@ -1,0 +1,137 @@
+# 2026-08-21 运行日志
+
+**运行时间**：2026-08-21（UTC+8）
+**文章编号**：#119
+**主题**：眶额皮层（OFC）与价值决策回路
+**分支**：main
+
+---
+
+## 执行摘要
+
+成功完成今日任务：检索文献、撰写文章、创建/修订 Wiki 页面、更新状态文件。
+
+---
+
+## 日期说明
+
+系统 `currentDate` 显示 2026-06-21，但 `TZ=Asia/Shanghai date` 返回 2026-06-22 00:00:06 CST。
+仓库最新文章日期为 2026-08-20（#118）。
+按 ROUTINE.md 规定（不重复已存在日期，维护仓库连续性），本次文章使用日期 **2026-08-21**，为仓库序列的自然续写。
+
+---
+
+## 选题过程
+
+**选题依据**：
+- 上一篇（#118）：伏隔核的奖赏解剖（Wanting vs Liking 神经化学分离）
+- 知识图谱当前状态：已有 NAc（wanting/liking）、多巴胺（RPE）、BLA（恐惧/情绪记忆）、PFC（工作记忆/自控/反应抑制）——但缺乏将这些模块连接成完整决策回路的枢纽页面
+- OFC 作为"价值地图"计算节点，是连接 NAc 与 BLA 与 PFC 的缺失环节
+- 符合课程脊柱 5（认知控制：决策与价值计算）
+
+**层级检查**：近 3 天层级——behavior/cognition/brain-region/microcircuit（多层），今日同样；连续三天无单一维度重复。
+
+---
+
+## 检索与来源
+
+**检索词**：
+- "orbitofrontal cortex value encoding decision making"（PubMed E-utilities）
+- "orbitofrontal cortex amygdala striatum decision making circuit review 2023 2024"（WebSearch）
+- 具体论文 PMID 检索：Padoa-Schioppa 2006/2017、Gore 2023、Banerjee 2020、Jenni 2025
+
+**检索数据库**：PubMed NCBI E-utilities, WebSearch, eLife, PMC
+
+**候选来源数**：~15 篇（通过摘要筛选后使用 12 篇）
+
+**采用来源**（12 篇）：
+- PMID:16633341（Padoa-Schioppa & Assad 2006, Nature）— 经典，摘要读取
+- PMID:29144973（Padoa-Schioppa & Conen 2017, Neuron）— 摘要读取
+- PMID:37592039（Gore et al. 2023, Nat Neurosci）— 摘要读取
+- PMID:32884146（Banerjee et al. 2020, Nature）— 摘要读取
+- PMID:40068869 / PMC:PMC12005357（Jenni et al. 2025, J Neurosci）— **开放全文 PMC 读取** ✓
+- DOI:10.7554/eLife.80926（Wassum 2022, eLife）— **开放全文读取** ✓
+- PMID:27112314（Sharpe & Schoenbaum 2016, Neurobiol Learn Mem）— 摘要读取
+- PMID:39331504（Zhang & Padoa-Schioppa 2024, Cell Reports）— 摘要读取
+- PMID:39547861（Moneta et al. 2024, Trends Neurosci）— 摘要读取
+- PMID:19407204（Hare et al. 2009, Science）— 摘要读取
+- PMID:37563295（Balewski et al. 2023, Nat Neurosci）— 摘要读取
+- PMID:41186438（Robin & Bastin 2025, J Clin Neurophysiol）— 摘要读取
+
+**未采用来源**：
+- PMID:38305691（PD 冷漠与价值决策）— 相关但疾病焦点与今日主题偏离
+- PMID:38617349 / 40032521（OFC 高 gamma LFP）— 方法论细节，未纳入主文
+- PMID:33199637（证据积累模型）— 计算模型聚焦，无机制新信息
+
+**开放全文来源数**：2 篇（达到 ROUTINE.md 要求的 ≥2 篇）
+**官方机构来源**：PubMed, PMC, eLife（达到要求 ≥1 个）
+
+**局限**：多数经典实验来源（Nature 2006, Neuron 2017）仅读摘要，未能读取全文；文章中已标注。
+
+---
+
+## Wiki 固结步骤
+
+**新建页面（2 个）**：
+- `wiki/systems/orbitofrontal-cortex.md`（established，9 项关键证据）
+- `wiki/concepts/value-based-decision-making.md`（established，5 项关键证据）
+
+**修订页面（3 个）**：
+- `wiki/systems/prefrontal-cortex.md`（rev4→rev5）：新增 OFC/vmPFC 价值决策亚区说明
+- `wiki/systems/amygdala.md`（rev5→rev6）：新增 BLA↔OFC 双向价值回路
+- `wiki/index.md`：更新总地图（新增 OFC 和价值决策条目，修订 PFC 条目）
+
+**矛盾检查**：无新旧主张冲突（OFC/BLA-OFC 内容为新增节点，无既有声明需比较）
+
+**成熟度变化**：
+- orbitofrontal-cortex：新建，established（核心实验证据充分，Padoa-Schioppa 2006/2017 + Gore 2023）
+- value-based-decision-making：新建，established
+
+---
+
+## 文件生成清单
+
+- `neuro-daily/articles/2026-08-21-orbitofrontal-cortex-value-decision-circuit.md` ✓
+- `neuro-daily/notes/2026-08-21-reading-notes.md` ✓
+- `neuro-daily/sources/2026-08-21-sources.json` ✓
+- `neuro-daily/wiki/systems/orbitofrontal-cortex.md` ✓（新建）
+- `neuro-daily/wiki/concepts/value-based-decision-making.md` ✓（新建）
+- `neuro-daily/wiki/systems/prefrontal-cortex.md` ✓（修订 rev4→rev5）
+- `neuro-daily/wiki/systems/amygdala.md` ✓（修订 rev5→rev6）
+- `neuro-daily/wiki/index.md` ✓（更新）
+- `neuro-daily/wiki/CHANGELOG.md` ✓（追加今日记录）
+- `neuro-daily/state/topic_ledger.json` ✓（更新，total_articles=119）
+- `neuro-daily/state/monthly_synthesis.md` ✓（追加）
+- `neuro-daily/logs/2026-08-21-run.log` ✓（本文件）
+
+---
+
+## 自检结果
+
+**真实性**：
+- [x] 所有 wiki 主张均有 PMID/DOI 来源
+- [x] 区分了事实/主流模型/推测（特别在"OFC 是决策生成者还是报告者"争议上）
+- [x] 未将动物研究（猴/大鼠/小鼠）直接过度推广到人类
+- [x] Banerjee 2020（小鼠）、Gore 2023（大鼠）标注为需要人类推广谨慎的来源
+
+**一致性**：
+- [x] 无矛盾登记（新内容为新增节点）
+- [x] 修订页面的 updated/revision_count/修订历史均同步
+- [x] 无悬空边被引入而未记录
+
+**可导航**：
+- [x] index.md 新增 OFC 条目，更新 PFC 条目
+- [x] CHANGELOG.md 追加今日记录
+- [x] 新页面 related/prerequisites 各填 ≥1
+
+**情景层**：
+- [x] 文章/笔记/来源/日志齐全
+- [x] 未修改任何旧文件的情景层内容
+
+---
+
+## Git 状态
+
+**分支**：main
+**文件数**：13 个新建/修订文件
+**commit/push 状态**：待执行（下一步 git add → commit → push）
