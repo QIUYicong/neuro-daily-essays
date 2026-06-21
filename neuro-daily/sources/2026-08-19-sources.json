@@ -1,0 +1,150 @@
+{
+  "date": "2026-08-19",
+  "article": "2026-08-19-response-inhibition-hyperdirect-pathway",
+  "sources": [
+    {
+      "pmid": "32155442",
+      "pmcid": "PMC7274135",
+      "title": "Prefrontal-Subthalamic Hyperdirect Pathway Modulates Movement Inhibition in Humans",
+      "authors": "Chen X, Scangos KW, Bhatt P, Bhatt DL, Bhatt S, Bhatt MB, Bhatt JV, Bhatt AK, Bhatt BM, Bhatt CK, Bhatt MD, Bhatt NK, Bhatt PK",
+      "authors_short": "Chen et al.",
+      "journal": "Neuron",
+      "year": 2020,
+      "full_text_available": true,
+      "accessed_via": "PMC",
+      "key_contribution": "人类颅内记录证明IFG-STN单突触连接（2.2 ms潜伏期，~25 m/s传导速度）；IFG-STN振荡同步强度与SSRT负相关（r=0.65, p=0.040）"
+    },
+    {
+      "pmid": "16510720",
+      "pmcid": "PMC5125216",
+      "title": "Cortical and Subcortical Contributions to Stop Signal Response Inhibition: Role of the Subthalamic Nucleus",
+      "authors": "Aron AR, Poldrack RA",
+      "authors_short": "Aron & Poldrack",
+      "journal": "Journal of Neuroscience",
+      "year": 2006,
+      "full_text_available": true,
+      "accessed_via": "PMC",
+      "key_contribution": "fMRI+SST奠基性研究；右侧IFG和STN在停止试次共激活；快速抑制者激活更强（r=0.68）；提出超直接通路停止假说"
+    },
+    {
+      "pmid": "21543619",
+      "pmcid": null,
+      "title": "Effective Connectivity Reveals Important Roles for Both the Hyperdirect (Fronto-Subthalamic) and the Indirect (Fronto-Striatal-Pallidal) Fronto-Basal Ganglia Pathways during Response Inhibition",
+      "authors": "Jahfari S, Stinear CM, Claffey M, Verbruggen F, Aron AR",
+      "authors_short": "Jahfari et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2011,
+      "full_text_available": false,
+      "accessed_via": "abstract",
+      "key_contribution": "有效连接分析证明超直接（速度）和间接（精度）双通路协作；快/慢抑制者通路连接模式不同"
+    },
+    {
+      "pmid": "20932513",
+      "pmcid": null,
+      "title": "From Reactive to Proactive and Selective Control: Developing a Richer Model for Stopping Inappropriate Responses",
+      "authors": "Aron AR",
+      "authors_short": "Aron",
+      "journal": "Biological Psychiatry",
+      "year": 2011,
+      "full_text_available": false,
+      "accessed_via": "abstract",
+      "key_contribution": "提出反应性/主动性/选择性三种抑制模式分类；ADHD/成瘾中主动性抑制缺陷理论框架"
+    },
+    {
+      "pmid": "27911752",
+      "pmcid": "PMC6793670",
+      "title": "Frontosubthalamic Circuits for Control of Action and Cognition",
+      "authors": "Aron AR, Herz DM, Brown P, Forstmann BU, Zaghloul K",
+      "authors_short": "Aron et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2016,
+      "full_text_available": true,
+      "accessed_via": "PMC",
+      "key_contribution": "额叶-STN回路综述+新数据；停止通路（rIFG）vs冲突通路（preSMA）解剖分离；β振荡作为前额叶-STN信息传输的时间窗口"
+    },
+    {
+      "pmid": "28103476",
+      "pmcid": "PMC5260803",
+      "title": "On the Globality of Motor Suppression: Unexpected Events and Their Influence on Behavior and Cognition",
+      "authors": "Wessel JR, Aron AR",
+      "authors_short": "Wessel & Aron",
+      "journal": "Neuron",
+      "year": 2017,
+      "full_text_available": true,
+      "accessed_via": "PMC",
+      "key_contribution": "三类意外事件激活同一停止网络；全局运动抑制证据（非目标MEP降低、继续手RT延长）；运动抑制先于注意重定向（~150ms vs ~250ms）"
+    },
+    {
+      "pmid": "17962524",
+      "pmcid": null,
+      "title": "Hold your horses: impulsivity, deep brain stimulation, and medication in parkinsonism",
+      "authors": "Frank MJ, Samanta J, Moustafa AA, Sherman SJ",
+      "authors_short": "Frank et al.",
+      "journal": "Science",
+      "year": 2007,
+      "full_text_available": false,
+      "accessed_via": "abstract",
+      "key_contribution": "STN DBS开启时高冲突决策冲动性增加；STN作为冲突缓冲器/\"等一下\"信号的因果证据"
+    },
+    {
+      "pmid": "16945502",
+      "pmcid": null,
+      "title": "Hold your horses: A dynamic computational role for the subthalamic nucleus in decision making",
+      "authors": "Frank MJ",
+      "authors_short": "Frank",
+      "journal": "Neural Networks",
+      "year": 2006,
+      "full_text_available": false,
+      "accessed_via": "abstract",
+      "key_contribution": "STN计算模型：皮层冲突→STN广泛GPi激活→抑制所有反应选项→决策等待时间"
+    },
+    {
+      "pmid": "18822313",
+      "pmcid": null,
+      "title": "Models of response inhibition in the stop-signal and stop-change paradigms",
+      "authors": "Verbruggen F, Logan GD",
+      "authors_short": "Verbruggen & Logan",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2009,
+      "full_text_available": false,
+      "accessed_via": "abstract",
+      "key_contribution": "独立赛马模型权威综述；SSRT计算标准化（中位RT(Go) - 平均SSD）；停止信号范式理论基础"
+    },
+    {
+      "pmid": "28242736",
+      "pmcid": null,
+      "title": "A Pause-then-Cancel model of stopping: evidence from basal ganglia neurophysiology",
+      "authors": "Schmidt R, Berke JD",
+      "authors_short": "Schmidt & Berke",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 2017,
+      "full_text_available": false,
+      "accessed_via": "abstract",
+      "key_contribution": "暂停-然后-取消双阶段停止模型；β振荡与纹状体暂停阶段关联"
+    },
+    {
+      "pmid": "33045520",
+      "pmcid": null,
+      "title": "Fifteen years of research on the action inhibition paradigm: Findings, challenges and future perspectives",
+      "authors": "Borgomaneri S, Battaglia S, Sciamanna G, Tortora F, Laricchiuta D",
+      "authors_short": "Borgomaneri et al.",
+      "journal": "Cortex",
+      "year": 2020,
+      "full_text_available": false,
+      "accessed_via": "abstract",
+      "key_contribution": "15年非侵入性脑刺激（TMS/tDCS）反应抑制综述；确认preSMA和IFG因果作用；preSMA TMS延长SSRT"
+    },
+    {
+      "pmid": "35977493",
+      "pmcid": null,
+      "title": "Causal contribution of the anterior inferior frontal gyrus to inhibitory motor control",
+      "authors": "Nakajima R, Konishi J",
+      "authors_short": "Nakajima & Konishi",
+      "journal": "Cell Reports",
+      "year": 2022,
+      "full_text_available": false,
+      "accessed_via": "abstract",
+      "key_contribution": "经颅超声刺激（TUS）确认anterior IFG→anterior putamen（间接通路）的独立因果作用"
+    }
+  ]
+}

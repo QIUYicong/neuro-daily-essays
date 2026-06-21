@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-08-19
+
+### 新建 Wiki 页面（3 个）
+- `concepts/response-inhibition.md`：反应抑制机制，综合超直接和间接通路，established，来源 PMID:32155442, 16510720, 28103476
+- `concepts/stop-signal-task.md`：停止信号任务范式，independent horse-race model，SSRT计算，established
+- `concepts/hyperdirect-pathway.md`：超直接通路（rIFG→STN），2.2ms单突触证据，established
+
+### 修订 Wiki 页面（2 个）
+- `circuits/basal-ganglia.md`：新增超直接通路与停止信号相关证据行（第3次修订）
+- `systems/prefrontal-cortex.md`：新增 rIFG/preSMA 在反应抑制中的因果作用证据（第4次修订）
+
+### 新增未解问题（3 个）
+- Q-ri-01：全局 vs 选择性抑制的解剖基础
+- Q-ri-02：β振荡在停止中的因果角色
+- Q-ri-03：主动性 vs 反应性抑制的共享/分离回路
+
+### 新增悬空引用
+- `anterior-cingulate-cortex`（preSMA 近邻功能差异尚未独立成页）
+- `subthalamic-nucleus`（STN 尚无独立页面，多次被引用）
+
+---
+
 ## 2026-08-18 · 文章 #104 · 工作记忆的两种面孔：持续放电与活动无声机制之争
 
 **核心主题**：工作记忆维持机制争论全景；Goldman-Rakic持续放电经典图景；Wang XJ吸引子网络+NMDA受体证据；Stokes 2015活动无声框架+STSP机制；Lundqvist 2016 Gamma/Beta爆发间歇编码；Panichello 2024 Neuropixels开-关状态大综合；Thrower 2023持续放电神经元信息优势；Lara/Wallis PFC执行控制视角；Paluch 2025人类MTL持续放电；Beukers 2021活动无声vs情节记忆挑战；AI Transformer对照。

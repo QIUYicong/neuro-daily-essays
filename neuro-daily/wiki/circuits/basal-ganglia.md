@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-14
-updated: 2026-07-31
-revision_count: 2
+updated: 2026-08-19
+revision_count: 3
 dimensions: [microcircuit, brain-region, behavior, cognition]
-related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit, interval-timing, striatal-beat-frequency]
+related: [parkinsons-disease, dopamine-reward-prediction-error, three-factor-learning-rule, working-memory, engram-cells, pv-interneurons, disinhibitory-circuit, interval-timing, striatal-beat-frequency, response-inhibition, hyperdirect-pathway, stop-signal-task]
 prerequisites: [dopamine-reward-prediction-error, synaptic-transmission, ltp]
-opens_questions: [Q-pd-beta-causality, Q-bg-habit-goal-split]
-source_articles: [2026-06-14-parkinson-basal-ganglia-circuit]
-key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439", "PMID:38918348", "PMID:35978564"]
+opens_questions: [Q-pd-beta-causality, Q-bg-habit-goal-split, Q-ri-01, Q-ri-02]
+source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-08-19-response-inhibition-hyperdirect-pathway]
+key_sources: ["PMID:21469956", "PMID:2479133", "PMID:1695404", "PMID:2402638", "PMID:25065439", "PMID:38918348", "PMID:35978564", "PMID:32155442", "PMID:28103476"]
 ---
 
 # 基底节 (Basal Ganglia)
@@ -96,6 +96,8 @@ SNc DA神经元的放电率编码奖励预测误差（RPE）。高RPE时（超�
 | STN过度活跃驱动PD运动减少症状 | MPTP猴STN损毁后症状逆转 | PMID:2402638 | 高 |
 | 双通路失衡解释运动减少与运动过多 | 人类/灵长类病理和生理研究综合 | PMID:2479133, PMID:1695404 | 高 |
 | 两通路实际上结构/功能相互交织 | 光遗传学同时激活实验；突触可塑性数据 | PMID:25065439 | 中 |
+| 超直接通路 IFG-STN 单突触连接（2.2 ms 潜伏期） | 帕金森患者颅内 ECoG + STN LFP | PMID:32155442 | 高 |
+| 停止信号触发全局运动抑制（非目标 MEP 降低） | TMS-MEP + 行为溢出效应 | PMID:28103476 | 高 |
 
 ## 连接
 
@@ -105,6 +107,9 @@ SNc DA神经元的放电率编码奖励预测误差（RPE）。高RPE时（超�
 - [[beta-oscillations]] — PD状态的病理振荡；正常基底节中被γ替代
 - [[disinhibitory-circuit]] — 基底节-丘脑-皮层本质上是一个去抑制回路
 - [[working-memory]] — 前额叶纹状体回路参与工作记忆和认知控制
+- [[response-inhibition]] — 超直接通路（rIFG→STN）介导快速反应抑制的"全局刹车"；STN 作为冲突缓冲器
+- [[hyperdirect-pathway]] — 基底节超直接通路：IFG→STN 单突触快速停止回路的专页
+- [[stop-signal-task]] — 停止信号任务量化基底节刹车能力（SSRT）
 
 ## 未解问题
 
@@ -115,7 +120,9 @@ SNc DA神经元的放电率编码奖励预测误差（RPE）。高RPE时（超�
 
 - 2026-06-14 · 创建 · 基于《多巴胺的沉默与节律的失控》一文 · 初始置信度：高
 - 2026-07-31 · 新增"基底节与区间计时"节 · 纹状体在节拍计时（beat-based timing）中的核心角色；D1/D2-MSN 对立斜坡活动；与小脑事件计时（event-based）的功能解离 · 基于 2026-07-31-interval-timing-basal-ganglia-striatum
+- 2026-08-19 · 新增超直接通路与停止信号相关证据行 · 人类颅内记录（PMID:32155442）证明IFG-STN单突触连接（2.2 ms）；全局运动抑制证据（PMID:28103476） · 基于《大脑的刹车系统》文章 · 来源：PMID:32155442, PMID:28103476
 
 ## 来源文章
 
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
+- [[2026-08-19-response-inhibition-hyperdirect-pathway]]

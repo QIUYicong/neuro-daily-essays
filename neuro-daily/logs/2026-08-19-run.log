@@ -1,0 +1,37 @@
+日期：2026-08-19
+文章：#105 大脑的刹车系统：反应抑制如何通过前额叶-基底节超直接通路实现
+课程路线：5. 认知控制（反应抑制）
+
+## 检索过程
+搜索词：response inhibition stop signal subthalamic nucleus hyperdirect pathway; stop signal task inferior frontal gyrus review; Frank subthalamic hold your horses; Wessel Aron motor suppression global 2017; beta oscillations stopping
+数据来源：PubMed E-utilities, PMC Open Access
+
+## 候选来源及采用理由
+- PMID:32155442 (Chen 2020, Neuron, PMC7274135)：采用 - 人类颅内记录，超直接通路的直接生理证据，开放全文
+- PMID:16510720 (Aron 2006, JNeurosci, PMC5125216)：采用 - 奠基性 fMRI 研究，rIFG+STN，开放全文
+- PMID:21543619 (Jahfari 2011, JNeurosci)：采用 - 双通路有效连接，快/慢抑制者分组，摘要
+- PMID:20932513 (Aron 2011, Biol Psychiatry)：采用 - 主动性/反应性抑制综述，摘要
+- PMID:27911752 (Aron 2016, JNeurosci, PMC6793670)：采用 - 额叶-STN回路综述+数据，开放全文
+- PMID:28103476 (Wessel & Aron 2017, Neuron, PMC5260803)：采用 - 全局抑制理论，开放全文
+- PMID:17962524 (Frank 2007, Science)：采用 - STN DBS 在冲突决策中的因果证据，摘要
+- PMID:16945502 (Frank 2006, Neural Networks)：采用 - STN 计算模型，摘要
+- PMID:18822313 (Verbruggen & Logan 2009)：采用 - 赛马模型综述，SSRT，摘要
+- PMID:28242736 (Schmidt & Berke 2017)：采用 - Pause-then-Cancel 模型，β振荡，摘要
+- PMID:33045520 (Borgomaneri 2020, Cortex)：采用 - NIBS 15年综述，preSMA因果作用，摘要
+- PMID:35977493 (Nakajima 2022, Cell Reports)：采用 - TUS 证明间接通路因果作用，摘要
+
+开放全文：4篇（PMC7274135, PMC5125216, PMC6793670, PMC5260803）
+仅读摘要：8篇（标注在来源文件中）
+
+## wiki 固结
+新建：response-inhibition, stop-signal-task, hyperdirect-pathway
+修订：basal-ganglia, prefrontal-cortex
+
+## 登记矛盾
+Q-ri-01, Q-ri-02, Q-ri-03（见 unresolved_questions.md）
+
+## 本地提交状态
+完成
+
+## Git push 状态
+[待更新]

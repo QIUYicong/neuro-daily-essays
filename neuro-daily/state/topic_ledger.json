@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-17",
-  "total_articles": 116,
+  "last_updated": "2026-08-19",
+  "total_articles": 117,
   "entries": [
     {
       "date": "2026-08-16",
@@ -7247,6 +7247,55 @@
       ],
       "mode": "long_term_curriculum",
       "article_number": 104
+    },
+    {
+      "date": "2026-08-19",
+      "article_number": 105,
+      "title": "大脑的刹车系统：反应抑制如何通过前额叶-基底节超直接通路实现",
+      "slug": "response-inhibition-hyperdirect-pathway",
+      "core_question": "当大脑接收到'停止'命令，它如何在150毫秒内叫停一个已经启动的动作？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "topic_tags": [
+        "response-inhibition",
+        "stop-signal-task",
+        "hyperdirect-pathway",
+        "STN",
+        "basal-ganglia",
+        "rIFG",
+        "beta-oscillations",
+        "cognitive-control"
+      ],
+      "main_sources": [
+        "PMID:32155442",
+        "PMID:16510720",
+        "PMID:28103476",
+        "PMID:27911752",
+        "PMID:17962524",
+        "PMID:21543619",
+        "PMID:20932513"
+      ],
+      "open_full_text_sources": [
+        "PMC7274135",
+        "PMC5260803",
+        "PMC6793670"
+      ],
+      "unresolved_questions": [
+        "Q-ri-01",
+        "Q-ri-02",
+        "Q-ri-03"
+      ],
+      "next_suggested_topics": [
+        "执行控制的奖赏学习：DA-RPE如何更新行动选择策略（认知控制→决策过渡）",
+        "反应抑制的发育轨迹：青少年IFG-STN连接成熟与冲动控制发展",
+        "ADHD的刹车系统：IFG和preSMA在ADHD中的功能差异",
+        "注意与抑制的分离：全局抑制后的注意重定向神经机制",
+        "前运动区（preSMA）的双重角色：运动序列选择和响应取消的神经基础"
+      ]
     }
   ],
   "layer_coverage_recent": {

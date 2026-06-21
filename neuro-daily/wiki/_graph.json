@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-18",
-  "node_count": 223,
-  "edge_count": 1298,
+  "updated": "2026-08-19",
+  "node_count": 230,
+  "edge_count": 1337,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2069,6 +2069,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/activity-silent-wm.md"
+    },
+    {
+      "id": "response-inhibition",
+      "title": "反应抑制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/response-inhibition.md"
+    },
+    {
+      "id": "stop-signal-task",
+      "title": "停止信号任务",
+      "domain": "concepts",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/stop-signal-task.md"
+    },
+    {
+      "id": "hyperdirect-pathway",
+      "title": "超直接通路",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/hyperdirect-pathway.md"
     }
   ],
   "edges": [
@@ -9477,6 +9504,46 @@
       "to": "attractor-network",
       "type": "mechanism-of",
       "note": "吸引子网络实现工作记忆的持续状态维持"
+    },
+    {
+      "from": "hyperdirect-pathway",
+      "to": "response-inhibition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "hyperdirect-pathway",
+      "to": "basal-ganglia",
+      "type": "part-of"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "hyperdirect-pathway",
+      "type": "regulates"
+    },
+    {
+      "from": "stop-signal-task",
+      "to": "response-inhibition",
+      "type": "related"
+    },
+    {
+      "from": "response-inhibition",
+      "to": "working-memory",
+      "type": "related"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "response-inhibition",
+      "type": "related"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "response-inhibition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "response-inhibition",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related"
     }
   ],
   "dangling_references": [

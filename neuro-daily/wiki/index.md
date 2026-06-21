@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-18（第104篇·工作记忆两种维持机制·持续放电 vs 活动无声·Panichello 2024大综合）· 主题页总数：**222**（新建1页：concepts/activity-silent-wm；修订2页：concepts/working-memory rev9→rev10、concepts/persistent-activity rev1→rev2；新增Q-wm-manipulation-mechanism/Q-wm-silent-vs-episodic；图谱227节点/1329边）
+> 最后更新：2026-08-19（第105篇·大脑刹车系统·反应抑制·超直接通路·全局运动抑制·Chen 2020颅内记录）· 主题页总数：**225**（新建3页：concepts/response-inhibition、concepts/stop-signal-task、concepts/hyperdirect-pathway；修订2页：circuits/basal-ganglia rev2→rev3、systems/prefrontal-cortex rev3→rev4；新增Q-ri-01/Q-ri-02/Q-ri-03；图谱230节点/1337边）
 
 ---
 
@@ -36,7 +36,7 @@
 ## circuits（回路）
 
 - 🔵 [吊灯细胞](circuits/chandelier-cell.md) — 特异靶向 AIS 的抑制性中间神经元（修订2次）
-- 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许" **[NEW 2026-06-14]**
+- 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许"；**新增**：超直接通路IFG-STN单突触（2.2 ms）与停止信号全局抑制证据 **[修订 rev2→rev3 2026-08-19]**
 - 🟢 [丘脑-皮层回路](circuits/thalamocortical-circuit.md) — TRN（CaV3.3 T型）↔TC（CaV3.1）振荡环路是睡眠纺锤波起搏器；Core/Matrix双通路；CT反馈在清醒/睡眠切换中起关键作用；**新增**：一次/高次视丘核（Sherman框架）、驱动/调制型突触、PFC→TRN大型端钮（2026-06-03更新）
 - 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序；Sohal 2009 光遗传学因果证明 PV→γ；GAD67 下调→PING 崩溃→WM 缺陷（精神分裂症核心机制）**[NEW 2026-06-03 · 修订 rev5 2026-07-20]**
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
@@ -94,6 +94,9 @@
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
 - 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络；2023/2024最新证据：持续放电神经元携带更多WM信息；Panichello 2024开-关状态 **[修订 rev2 2026-08-18]**
 - 🟡 [活动无声工作记忆](concepts/activity-silent-wm.md) — 工作记忆信息在突触STSP易化状态中无声储存；Stokes 2015框架；Panichello 2024证明与持续放电机制共存 **[NEW 2026-08-18]**
+- 🟢 [反应抑制](concepts/response-inhibition.md) — 叫停已启动运动/认知程序的能力；rIFG→STN超直接通路（2.2 ms单突触）实现快速全局刹车；SSRT量化刹车速度；反应性/主动性/选择性三模式 **[NEW 2026-08-19]**
+- 🟢 [停止信号任务](concepts/stop-signal-task.md) — 量化反应抑制的标准实验范式；独立赛马模型（Go vs Stop过程竞赛）；SSRT = 中位RT(Go) - 平均SSD；正常值约200-250 ms **[NEW 2026-08-19]**
+- 🟢 [超直接通路](concepts/hyperdirect-pathway.md) — rIFG/preSMA→STN单突触直接制动回路（2.2 ms，~25 m/s）；跳过纹状体；STN→GPi发散投射产生全局运动抑制；与间接通路形成速度vs精度互补 **[NEW 2026-08-19]**
 - 🟢 [γ振荡（30–80 Hz）](concepts/gamma-oscillations.md) — ING（纯抑制网络）与 PING（兴奋-抑制反馈）双机制；GABA-A τ_decay 是振荡频率的分子时钟（τ≈5ms→快γ，τ≈15ms→慢γ）；Sohal/Cardin 2009 光遗传学因果证明；PV/SST 双贡献；精神分裂症 GAD67 级联 **[NEW 2026-06-05 · 修订 rev4 2026-07-20]**
 - 🔵 [意识点燃](concepts/consciousness-ignition.md) — 全有全无的非线性临界翻转；~270-300ms 前额顶叶激活；注意双要求机制；P3b EEG标志（地位存疑）；GWT核心机制节点 **[修订 2026-05-31]**
 - 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口 **[NEW 2026-05-31]**
@@ -224,7 +227,7 @@
 - 🟢 [颞顶联合区（TPJ）](systems/temporoparietal-junction.md) — 前-后轴分工：pTPJ（信念推断/视角转换，右侧化）vs aTPJ（注意定向，VAN 节点）；与 DAN（FEF/IPS）动态拮抗；进化：灵长类 TPJ 体积与社会群体大小正相关；临床：右 TPJ 损伤→偏侧空间忽视+社会认知障碍；TPJ 功能是否专一于 ToM 仍有争议（Q-tom-01）**[NEW 2026-08-01]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；**rev3新增**：BLA-LA 再巩固去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；**rev5新增**：皮质内侧核直接接收嗅球输出（无视丘中继），Proust效应的解剖基础（修订5次）
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
-- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础 **[NEW 2026-06-05]**
+- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；**新增**：rIFG（BA44/45）/preSMA在反应抑制（超直接通路）中的因果驱动作用（Aron 2006、Chen 2020证据） **[修订 rev3→rev4 2026-08-19]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；AAS两通道架构与VTA枢纽（修订5次）**[NEW 2026-06-12]**
 - 🟢 [上行激活系统（AAS）](systems/ascending-arousal-system.md) — 脑干五核团（LC/DRN/PPT-LDT/TMN/Orexin）经腹侧基底前脑路（主要）+背侧丘脑路（次要）激活皮层；PB/PC谷氨酸通路是关键必要节点（Fuller 2011）；VTA=dAAN枢纽；翻转开关架构 **[NEW 2026-08-10]**
@@ -272,7 +275,7 @@
 | 2. 神经网络微回路设计 | 🔵 进行中（已覆盖：PV+/SST+/VIP+ 中间神经元, 去抑制回路；待覆盖：皮层柱结构, 前馈/反馈抑制, 神经调质调节） |
 | 3. 大脑如何编码世界 | 🔵 进行中（已覆盖：**场所细胞（2026-06-22 wiki建立）**, **网格细胞（2026-06-22 wiki建立）**, θ振荡/相位编码, **V1方向选择性（2026-06-11）**, **路径整合（2026-06-22）**, **运动编码-旋转动力学（2026-06-21）**, **小脑前向模型（2026-06-23）**, **耳蜗音调拓扑图×听觉皮层（2026-07-28）**；待覆盖：体感皮层, 时间表征）|
 | 4. 学习和记忆 | 🔵 进行中（已覆盖：LTP, Hebb 规则, BTSP, 海马回路, 场所场形成, SWR 重播, 印迹细胞, 记忆巩固（系统层面）, **LTD**, **短时程突触可塑性（STP）**, **认知地图（2026-06-22）**；待覆盖：记忆提取机制、网格-场所转化精确机制）|
-| 5. 认知控制 | 🔵 进行中（已覆盖：**工作记忆**、**奖励学习/三因素规则（2026-06-07）**、**注意/增益控制（ACh/NE，2026-06-12）**；待覆盖：执行控制、决策）|
+| 5. 认知控制 | 🔵 进行中（已覆盖：**工作记忆**、**奖励学习/三因素规则（2026-06-07）**、**注意/增益控制（ACh/NE，2026-06-12）**、**反应抑制/超直接通路（2026-08-19）**；待覆盖：执行控制、决策）|
 | 6. 情绪与动机 | 🔵 进行中（已覆盖：多巴胺奖励系统、VTA/NAc/PFC 投射路线、**杏仁核恐惧记忆回路（2026-05-30）**、**恐惧条件反射/消退机制**；待覆盖：动机回路深度、恐惧情景结合（海马-杏仁核）、PTSD深度、下丘脑情绪调控）|
 | 11. 疾病作为窗口 | 🔵 进行中（已覆盖：阿尔茨海默病（AD突触机制）、**帕金森病（基底节回路失衡/β振荡/DBS机制，2026-06-14）**、**精神分裂症（PV-GAD67-γ轴×NMDA低活×多巴胺双轴，2026-07-20）**；待覆盖：ASD、癫痫）|
 | 8. 意识与自我 | 🔵 进行中（已覆盖：**默认模式网络（DMN）**（2026-06-16）、**全局工作空间理论 GWT + 意识点燃**（2026-05-30）、**整合信息理论 IIT + Φ + 后方皮层热区 + PCI**（2026-05-31）、**COGITATE预注册对决（2026-05-31）**、**注意瞬盲（2026-05-31，填补 COGITATE 方法论缺口）**；待覆盖：主动推断/自由能原理、自我参照处理、意识的神经相关物精细解析）|

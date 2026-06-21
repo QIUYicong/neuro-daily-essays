@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-19",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7915,6 +7915,207 @@
       "date_used": "2026-08-18",
       "topic": "working-memory-persistent-activity-silent",
       "covered": "人类MTL持续放电维持未关注WM项目"
+    },
+    {
+      "pmid": "32155442",
+      "pmcid": "PMC7274135",
+      "title": "Prefrontal-Subthalamic Hyperdirect Pathway Modulates Movement Inhibition in Humans",
+      "authors_short": "Chen et al.",
+      "journal": "Neuron",
+      "year": 2020,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "人类IFG-STN单突触连接（2.2 ms潜伏期，25 m/s传导速度）",
+        "IFG-STN振荡同步强度与SSRT负相关（r=0.65, p=0.040）",
+        "腹侧STN vs背侧STN的解剖特异性响应",
+        "帕金森患者颅内记录（ECoG + STN DBS LFP，n=21）"
+      ]
+    },
+    {
+      "pmid": "16510720",
+      "pmcid": "PMC5125216",
+      "title": "Cortical and Subcortical Contributions to Stop Signal Response Inhibition: Role of the Subthalamic Nucleus",
+      "authors_short": "Aron & Poldrack",
+      "journal": "Journal of Neuroscience",
+      "year": 2006,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "fMRI+SST奠基性研究；右侧IFG和STN在停止试次共激活",
+        "快速抑制者IFG+STN激活更强（r=0.68, p=0.011）",
+        "提出超直接通路停止假说"
+      ]
+    },
+    {
+      "pmid": "21543619",
+      "pmcid": null,
+      "title": "Effective Connectivity Reveals Important Roles for Both the Hyperdirect and the Indirect Fronto-Basal Ganglia Pathways during Response Inhibition",
+      "authors_short": "Jahfari et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2011,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "有效连接（DCM）分析双通路贡献",
+        "快速抑制者rIFG→尾状核更强；慢速抑制者preSMA→尾状核更强",
+        "超直接通路=速度；间接通路=精度"
+      ]
+    },
+    {
+      "pmid": "20932513",
+      "pmcid": null,
+      "title": "From Reactive to Proactive and Selective Control: Developing a Richer Model for Stopping Inappropriate Responses",
+      "authors_short": "Aron",
+      "journal": "Biological Psychiatry",
+      "year": 2011,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "反应性/主动性/选择性三种抑制模式分类框架",
+        "ADHD/成瘾中主动性抑制缺陷理论"
+      ]
+    },
+    {
+      "pmid": "27911752",
+      "pmcid": "PMC6793670",
+      "title": "Frontosubthalamic Circuits for Control of Action and Cognition",
+      "authors_short": "Aron et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2016,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "额叶-STN回路综述+新数据",
+        "停止通路（rIFG）vs冲突通路（preSMA）解剖分离",
+        "β振荡作为前额叶-STN信息传输的时间窗口"
+      ]
+    },
+    {
+      "pmid": "28103476",
+      "pmcid": "PMC5260803",
+      "title": "On the Globality of Motor Suppression: Unexpected Events and Their Influence on Behavior and Cognition",
+      "authors_short": "Wessel & Aron",
+      "journal": "Neuron",
+      "year": 2017,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "三类意外事件激活同一停止网络",
+        "全局运动抑制证据（非目标MEP降低、继续手RT延长）",
+        "运动抑制先于注意重定向（~150ms vs ~250ms）",
+        "停止短暂影响工作记忆维持"
+      ]
+    },
+    {
+      "pmid": "17962524",
+      "pmcid": null,
+      "title": "Hold your horses: impulsivity, deep brain stimulation, and medication in parkinsonism",
+      "authors_short": "Frank et al.",
+      "journal": "Science",
+      "year": 2007,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "STN DBS开启时高冲突决策冲动性增加",
+        "STN作为冲突缓冲器/\"等一下\"信号的因果证据",
+        "多巴胺药物与DBS的差异效应"
+      ]
+    },
+    {
+      "pmid": "16945502",
+      "pmcid": null,
+      "title": "Hold your horses: A dynamic computational role for the subthalamic nucleus in decision making",
+      "authors_short": "Frank",
+      "journal": "Neural Networks",
+      "year": 2006,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "STN计算模型：皮层冲突→STN广泛GPi激活→抑制所有反应选项→决策等待时间",
+        "STN抑制的广播性（非选择性）机制"
+      ]
+    },
+    {
+      "pmid": "18822313",
+      "pmcid": null,
+      "title": "Models of response inhibition in the stop-signal and stop-change paradigms",
+      "authors_short": "Verbruggen & Logan",
+      "journal": "Neuroscience and Biobehavioral Reviews",
+      "year": 2009,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "独立赛马模型权威综述",
+        "SSRT计算标准化（中位RT(Go) - 平均SSD）",
+        "停止信号范式理论基础"
+      ]
+    },
+    {
+      "pmid": "28242736",
+      "pmcid": null,
+      "title": "A Pause-then-Cancel model of stopping: evidence from basal ganglia neurophysiology",
+      "authors_short": "Schmidt & Berke",
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "year": 2017,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "暂停-然后-取消双阶段停止模型",
+        "β振荡与纹状体暂停阶段关联"
+      ]
+    },
+    {
+      "pmid": "33045520",
+      "pmcid": null,
+      "title": "Fifteen years of research on the action inhibition paradigm: Findings, challenges and future perspectives",
+      "authors_short": "Borgomaneri et al.",
+      "journal": "Cortex",
+      "year": 2020,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "15年非侵入性脑刺激（TMS/tDCS）反应抑制综述",
+        "preSMA和IFG因果作用确认",
+        "preSMA TMS可延长SSRT"
+      ]
+    },
+    {
+      "pmid": "35977493",
+      "pmcid": null,
+      "title": "Causal contribution of the anterior inferior frontal gyrus to inhibitory motor control",
+      "authors_short": "Nakajima & Konishi",
+      "journal": "Cell Reports",
+      "year": 2022,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-response-inhibition-hyperdirect-pathway"
+      ],
+      "aspects_covered": [
+        "经颅超声刺激（TUS）确认anterior IFG→anterior putamen（间接通路）独立因果作用"
+      ]
     }
   ],
   "total_sources": 449,
