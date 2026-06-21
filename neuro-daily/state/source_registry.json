@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20",
+  "last_updated": "2026-08-24",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8266,6 +8266,176 @@
       "aspects_covered": [
         "NAc DBS用于难治性抑郁症（约40%反应率）",
         "VC/VS区域刺激的情感效应，间接支持人类享乐热点存在"
+      ]
+    },
+    {
+      "pmid": "11283309",
+      "title": "An integrative theory of prefrontal cortex function",
+      "authors": "Miller EK, Cohen JD",
+      "year": 2001,
+      "journal": "Annual Review of Neuroscience",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "dlPFC cognitive control",
+        "PFC bias signals",
+        "goal maintenance",
+        "integrative theory"
+      ]
+    },
+    {
+      "pmid": "11209083",
+      "title": "Categorical representation of visual stimuli in the primate prefrontal cortex",
+      "authors": "Freedman DJ, Riesenhuber M, Poggio T, Miller EK",
+      "year": 2001,
+      "journal": "Science",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "PFC categorical encoding",
+        "rule-dependent representation",
+        "visual categorization"
+      ]
+    },
+    {
+      "pmid": "24201281",
+      "pmcid": "PMC4121670",
+      "title": "Context-dependent computation by recurrent dynamics in prefrontal cortex",
+      "authors": "Mante V, Sussillo D, Shenoy KV, Newsome WT",
+      "year": 2013,
+      "journal": "Nature",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "population dynamics",
+        "orthogonal subspaces",
+        "context-dependent computation",
+        "RNN modeling",
+        "PFC flexibility"
+      ]
+    },
+    {
+      "pmid": "23177967",
+      "pmcid": "PMC3907768",
+      "title": "Synchronous oscillatory neural ensembles for rules in the prefrontal cortex",
+      "authors": "Buschman TJ, Denovellis EL, Diogo C, Bullock D, Miller EK",
+      "year": 2012,
+      "journal": "Neuron",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "beta oscillations",
+        "alpha oscillations",
+        "dynamic routing",
+        "rule switching",
+        "PFC oscillations"
+      ]
+    },
+    {
+      "pmid": "23685452",
+      "pmcid": "PMC4412347",
+      "title": "The importance of mixed selectivity in complex cognitive tasks",
+      "authors": "Rigotti M, Barak O, Warden MR, Wang XJ, Daw ND, Miller EK, Fusi S",
+      "year": 2013,
+      "journal": "Nature",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "mixed selectivity",
+        "dimensionality",
+        "cognitive flexibility",
+        "PFC encoding",
+        "task complexity"
+      ]
+    },
+    {
+      "pmid": "19672274",
+      "title": "Is the rostro-caudal axis of the frontal lobe hierarchical?",
+      "authors": "Badre D, D'Esposito M",
+      "year": 2009,
+      "journal": "Nature Reviews Neuroscience",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "frontal hierarchy",
+        "abstraction gradient",
+        "frontopolar cortex",
+        "PFC anterior-posterior axis"
+      ]
+    },
+    {
+      "pmid": "16378516",
+      "title": "Making working memory work: a computational model of learning in the prefrontal cortex and basal ganglia",
+      "authors": "O'Reilly RC, Frank MJ",
+      "year": 2006,
+      "journal": "Neural Computation",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "BG-PFC gating",
+        "PBWM model",
+        "working memory update",
+        "stability-flexibility",
+        "computational model"
+      ]
+    },
+    {
+      "pmid": "38010299",
+      "pmcid": "PMC10902878",
+      "title": "Learning cognitive flexibility: neural substrates of adapting switch-readiness to time-varying demands",
+      "authors": "Sali AW, Bejjani C, Egner T",
+      "year": 2024,
+      "journal": "Journal of Cognitive Neuroscience",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "task switching",
+        "switch prediction error",
+        "frontoparietal network",
+        "reinforcement learning",
+        "cognitive flexibility"
+      ]
+    },
+    {
+      "pmid": "37683103",
+      "title": "Cognitive inflexibility is linked to abnormal frontoparietal-related activation and connectivity in obsessive-compulsive disorder",
+      "authors": "Liu Q, Gao F, Wang X, et al.",
+      "year": 2023,
+      "journal": "Human Brain Mapping",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "OCD",
+        "cognitive inflexibility",
+        "frontoparietal network",
+        "DMN hyperconnectivity",
+        "task switching"
+      ]
+    },
+    {
+      "pmid": "26851774",
+      "title": "Neurophysiology of rule switching in the corticostriatal circuit",
+      "authors": "Bissonette GB, Roesch MR",
+      "year": 2017,
+      "journal": "Neuroscience",
+      "used_in_articles": [
+        "2026-08-24-dlpfc-cognitive-flexibility-rule-switching"
+      ],
+      "covers": [
+        "corticostriatal circuit",
+        "rule switching",
+        "mPFC",
+        "dorsal striatum",
+        "cognitive flexibility"
       ]
     }
   ],

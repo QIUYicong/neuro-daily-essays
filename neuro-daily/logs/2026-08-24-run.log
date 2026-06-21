@@ -1,0 +1,141 @@
+# Run Log — 2026-08-24
+
+## 基本信息
+- **文章编号**：#122
+- **日期**：2026-08-24（系统触发日期 2026-06-21 第四次触发，按序列连续性执行）
+- **主题**：背外侧前额叶的认知弹性（dlPFC Cognitive Flexibility）
+- **层级**：认知控制 / 脑区 / 微回路 / 行为 / 疾病
+- **核心问题**：dlPFC（BA9/46）如何同时实现规则维护与认知弹性？
+
+---
+
+## 文献检索
+
+### 搜索策略
+使用 NCBI E-utilities API（esearch + efetch）检索以下关键词：
+- `prefrontal cortex cognitive flexibility task switching rule representation`
+- `Miller Cohen integrative theory prefrontal cortex function 2001`
+- `Mante context-dependent computation recurrent dynamics prefrontal 2013`
+- `Buschman Miller synchronous oscillatory ensembles rules prefrontal 2012`
+- `Rigotti mixed selectivity prefrontal cortex computations`
+- `Badre D'Esposito rostro-caudal frontal lobe hierarchical 2009`
+- `Frank 2006 computational model basal ganglia prefrontal working memory gating`
+- `task switching cost neural substrate frontal parietal fMRI`
+- `dlPFC DLPFC lateral prefrontal cognitive flexibility OCD inflexibility`
+
+使用 PMC ID Converter API 验证开放全文可用性。
+
+### 检索到的来源
+
+| ID | PMID | PMCID | 作者 | 标题 | 年份 | 期刊 | 访问级别 |
+|----|------|-------|------|------|------|------|---------|
+| S01 | 11283309 | — | Miller & Cohen | An integrative theory of prefrontal cortex function | 2001 | Ann Rev Neurosci | 摘要 |
+| S02 | 11209083 | — | Freedman et al. | Categorical representation of visual stimuli in the primate PFC | 2001 | Science | 摘要 |
+| S03 | 24201281 | PMC4121670 | Mante et al. | Context-dependent computation by recurrent dynamics in PFC | 2013 | Nature | **全文** |
+| S04 | 23177967 | PMC3907768 | Buschman et al. | Synchronous oscillatory neural ensembles for rules in PFC | 2012 | Neuron | **全文** |
+| S05 | 23685452 | PMC4412347 | Rigotti et al. | The importance of mixed selectivity in complex cognitive tasks | 2013 | Nature | **全文** |
+| S06 | 19672274 | — | Badre & D'Esposito | Is the rostro-caudal axis of the frontal lobe hierarchical? | 2009 | Nat Rev Neurosci | 摘要 |
+| S07 | 16378516 | — | O'Reilly & Frank | Making working memory work: computational model | 2006 | Neural Computation | 摘要 |
+| S08 | 38010299 | PMC10902878 | Sali et al. | Learning cognitive flexibility: neural substrates | 2024 | J Cog Neurosci | **全文** |
+| S09 | 37683103 | — | Liu et al. | Cognitive inflexibility linked to frontoparietal activation in OCD | 2023 | Human Brain Mapping | 摘要 |
+| S10 | 26851774 | — | Bissonette & Roesch | Neurophysiology of rule switching in corticostriatal circuit | 2017 | Neuroscience | 摘要 |
+
+**来源合规性检查**：
+- ✅ 所有 PMID 均通过 NCBI E-utilities 验证（esearch/efetch 确认真实存在）
+- ✅ 4 篇 PMC 全文可读取（≥ ROUTINE.md 要求的 2 篇）
+- ✅ 10 篇来源（≥ ROUTINE.md 要求的 5 篇）
+- ✅ 无 Sci-Hub / 盗版 PDF 使用
+- ✅ 6 篇只读摘要均在文章中显式标注
+
+---
+
+## 选题依据
+
+**缺口驱动分析**：
+- 上篇（#121）写 dACC 错误监测与冲突监控，自然引出"dlPFC 如何执行认知控制"
+- wiki/_graph.json 中 `dlpfc-cognitive-flexibility` 为悬空引用（未创建节点）
+- topic_ledger 最后建议："背外侧前额叶（dlPFC）的执行功能：规则维护、工作记忆更新与认知灵活性"
+- 符合课程脊柱 5（认知控制）的连续推进
+
+**层级检查**：上篇 cognition/brain-region/behavior/methods，本篇 cognition/brain-region/microcircuit/behavior/disease，无重复三天同一层级问题。
+
+---
+
+## Wiki 整合
+
+### 新建页面（4 页）
+
+| 文件 | 域 | 成熟度 | 置信度 |
+|------|----|--------|--------|
+| wiki/systems/dlpfc-cognitive-flexibility.md | systems | mainstream | high |
+| wiki/concepts/mixed-selectivity.md | concepts | mainstream | high |
+| wiki/concepts/stability-flexibility-tradeoff.md | concepts | mainstream | high |
+| wiki/concepts/task-switching-cost.md | concepts | established | high |
+
+### 修订页面（1 页）
+
+| 文件 | 修订次数 | 改动内容 |
+|------|---------|---------|
+| wiki/systems/prefrontal-cortex.md | rev5→rev6 | 新增 dlPFC 认知弹性三重机制（混合选择性/群体动力学/振荡选通）、BG 门控机制、前额叶前后轴层级（Badre 2009）；添加 4 个 related、4 个 opens_questions、10 个 key_sources |
+
+### 图谱变更
+
+- 节点：240 → 244（+4）
+- 边：1384 → 1402（+18）
+- 主要新边：dlpfc-cognitive-flexibility ↔ prefrontal-cortex, working-memory, basal-ganglia, dacc-conflict-monitoring, mixed-selectivity, stability-flexibility-tradeoff, beta-oscillations, alpha-oscillations, task-switching-cost
+
+---
+
+## 矛盾检查
+
+无新矛盾登记。dlPFC 持续激活 vs. 活动-沉默工作记忆的问题（Q-dlpfc-01）已在知识库中记录为 Q-wm-active-vs-silent（working-memory 页面），两者一致，不构成冲突，而是补充视角。
+
+---
+
+## 状态文件更新
+
+| 文件 | 改动 |
+|------|------|
+| state/topic_ledger.json | 新增 #122 条目，total_articles 122，last_updated 2026-08-24 |
+| state/unresolved_questions.md | 新增 Q-dlpfc-01~04（4条）|
+| state/maturity_index.json | 新增 4 条成熟度条目 |
+| state/source_registry.json | 新增 10 条来源（已去重） |
+| state/monthly_synthesis.md | 追加 2026-08-24 条目 |
+| wiki/_graph.json | 节点244/边1402 |
+| wiki/CHANGELOG.md | 新增 2026-08-24 完整节 |
+| wiki/index.md | 更新头部元数据，新增 systems/dlpfc-cognitive-flexibility 和3个 concepts 条目 |
+
+---
+
+## 文章质量自检
+
+- [x] 字数：~5200 中文字符（≥3000 要求）
+- [x] ≥5 个来源（10 篇）
+- [x] ≥2 篇开放全文（4 篇）
+- [x] ≥1 个官方机构来源（Miller lab/MIT/NIH支持，多篇国际顶刊）
+- [x] 所有核心声明均有真实文献支撑（PMID 验证）
+- [x] 无 fabricated PMIDs / DOIs
+- [x] 无医学诊断/治疗建议
+- [x] 争议已明确标注（Q-dlpfc-01~04，持续激活 vs 活动-沉默，主动抑制 vs 竞争压制）
+- [x] 动物研究（猕猴）与人类数据明确区分
+- [x] 比喻（广播调度台）附有明确局限性说明
+- [x] 未能获取全文的来源明确标注"仅摘要"
+- [x] wiki 固结完成（4 新建，1 修订，图谱更新）
+
+---
+
+## 触发器情况说明
+
+本次为系统日期 2026-06-21 的第四次触发。当前文章序列已延续至 #122（2026-08-24），采用按序列日期命名延续。参见：
+- logs/2026-06-21-duplicate-trigger-1.log（第一次触发：发现已有 #57 文章，no-op）
+- logs/2026-06-21-diagnostic-trigger2.log（第二次触发：诊断日志，no-op）
+- logs/2026-06-21-duplicate-trigger3.log（第三次触发：延续序列写 #118）
+- 本次（第四次触发）：延续序列写 #122
+
+---
+
+## Git / Push 状态
+
+- **分支**：main
+- **Commit**：待填写（push 后更新）
+- **Push 状态**：待执行

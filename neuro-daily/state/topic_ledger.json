@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-23",
-  "total_articles": 121,
+  "last_updated": "2026-08-24",
+  "total_articles": 122,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7530,6 +7530,73 @@
         "注意与冲突的交互：dACC 和 TPJ 在任务定向 vs 刺激驱动注意中的分工",
         "情绪调节的前额叶回路：vmPFC/sgACC 与 dlPFC 的对话"
       ]
+    },
+    {
+      "date": "2026-08-24",
+      "article_number": 122,
+      "title": "背外侧前额叶的认知弹性：大脑如何在不同规则之间切换而不把自己搞混",
+      "slug": "dlpfc-cognitive-flexibility-rule-switching",
+      "core_question": "背外侧前额叶皮层（dlPFC，BA9/46）如何同时实现'规则维护'（持续激活当前任务规则、抵抗干扰）和'认知弹性'（随环境变化迅速切换到新规则）这两个看似矛盾的功能？",
+      "layer": [
+        "cognition",
+        "brain-region",
+        "microcircuit",
+        "behavior",
+        "disease"
+      ],
+      "topic_tags": [
+        "dlPFC",
+        "cognitive-flexibility",
+        "mixed-selectivity",
+        "population-dynamics",
+        "task-switching",
+        "rule-representation",
+        "beta-oscillations",
+        "alpha-oscillations",
+        "BG-PFC-gating",
+        "stability-flexibility-tradeoff",
+        "Miller-Cohen",
+        "Mante-2013",
+        "Buschman-2012",
+        "Rigotti-2013",
+        "Badre-D'Esposito",
+        "OReilly-Frank",
+        "OCD",
+        "task-switching-cost",
+        "cognitive-control",
+        "frontal-hierarchy"
+      ],
+      "main_sources": [
+        "PMID:11283309",
+        "PMID:11209083",
+        "PMID:24201281",
+        "PMID:23177967",
+        "PMID:23685452",
+        "PMID:19672274",
+        "PMID:16378516",
+        "PMID:38010299",
+        "PMID:37683103",
+        "PMID:26851774"
+      ],
+      "open_full_text_sources": [
+        "PMC4121670",
+        "PMC3907768",
+        "PMC4412347",
+        "PMC10902878"
+      ],
+      "unresolved_questions": [
+        "Q-dlpfc-01",
+        "Q-dlpfc-02",
+        "Q-dlpfc-03",
+        "Q-dlpfc-04"
+      ],
+      "next_suggested_topics": [
+        "前运动区（preSMA）的双重角色：运动序列组织和响应取消机制",
+        "前额叶层级的前侧 PFC（BA10/额极）：高阶规则表征与认知分支",
+        "情绪调节的前额叶回路：vmPFC/sgACC 与 dlPFC 的对话",
+        "注意与认知控制的交互：额顶网络（FPN）与默认模式网络（DMN）的拮抗关系",
+        "人类 PFC 的发育和老化：认知弹性从儿童到老年的神经轨迹"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -7575,7 +7642,8 @@
       "2026-06-03",
       "2026-06-11",
       "2026-06-18",
-      "2026-07-26"
+      "2026-07-26",
+      "2026-08-24"
     ],
     "brain_region": [
       "2026-05-27",
@@ -7583,7 +7651,8 @@
       "2026-06-07",
       "2026-06-11",
       "2026-06-12",
-      "2026-05-31"
+      "2026-05-31",
+      "2026-08-24"
     ],
     "whole_brain_network": [
       "2026-05-29",
@@ -7598,7 +7667,8 @@
       "2026-05-30",
       "2026-05-31",
       "2026-06-02",
-      "2026-06-03"
+      "2026-06-03",
+      "2026-08-24"
     ],
     "cognition": [
       "2026-05-26",
@@ -7611,10 +7681,12 @@
       "2026-06-12",
       "2026-06-16",
       "2026-05-31",
-      "2026-07-03"
+      "2026-07-03",
+      "2026-08-24"
     ],
     "disease": [
-      "2026-06-08"
+      "2026-06-08",
+      "2026-08-24"
     ],
     "methods": [
       "2026-06-09",

@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-08-21
-revision_count: 5
+updated: 2026-08-24
+revision_count: 6
 dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, response-inhibition, hyperdirect-pathway, stop-signal-task, orbitofrontal-cortex, value-based-decision-making]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, response-inhibition, hyperdirect-pathway, stop-signal-task, orbitofrontal-cortex, value-based-decision-making, dlpfc-cognitive-flexibility, mixed-selectivity, stability-flexibility-tradeoff, task-switching-cost]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
-opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02, Q-ri-03, Q-ofc-02]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-19-response-inhibition-hyperdirect-pathway, 2026-08-21-orbitofrontal-cortex-value-decision-circuit]
-key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:32155442", "PMID:16510720", "PMID:28103476", "PMID:19407204", "PMID:29144973"]
+opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02, Q-ri-03, Q-ofc-02, Q-dlpfc-01, Q-dlpfc-02, Q-dlpfc-03, Q-dlpfc-04]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-19-response-inhibition-hyperdirect-pathway, 2026-08-21-orbitofrontal-cortex-value-decision-circuit, 2026-08-24-dlpfc-cognitive-flexibility-rule-switching]
+key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:32155442", "PMID:16510720", "PMID:28103476", "PMID:19407204", "PMID:29144973", "PMID:11283309", "PMID:11209083", "PMID:23685452", "PMC4412347", "PMID:24201281", "PMC4121670", "PMID:23177967", "PMC3907768", "PMID:19672274", "PMID:38010299"]
 ---
 
 # 前额叶皮层（Prefrontal Cortex, PFC）
@@ -59,6 +59,20 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 
 功能偏侧化：人类中反应抑制显著右侧化（右侧 IFG/STN 激活主导），与左侧语言优势互补。
 
+### dlPFC 的认知弹性与规则切换
+
+dlPFC 不仅"维持"工作记忆内容，更通过三重机制实现认知弹性（见 [[dlpfc-cognitive-flexibility]]）：
+
+**混合选择性**（Rigotti et al. 2013，PMC4412347）：dlPFC 神经元对任务规则、刺激特征、时间位置的交叉项产生非线性响应，使神经表征高维化。高维表征支持任意任务规则的线性可读出，是认知弹性的编码基础。
+
+**群体动力学**（Mante et al. 2013，PMC4121670）：不同任务背景下，dlPFC 群体动力学轨迹沿正交子空间展开——背景信号作为初始条件，把循环网络导入不同计算子空间。规则"选择"与感觉证据"整合"是同一回路中同一动力学过程的两个面，而非两个独立模块。
+
+**振荡选通**（Buschman et al. 2012，PMC3907768）：规则切换时，beta 振荡（19–40 Hz）激活当前规则的神经集群，alpha 振荡（8–12 Hz）抑制无关集群，实现动态路由。
+
+**BG 门控**（O'Reilly & Frank 2006，PMID:16378516）：基底节纹状体控制 dlPFC 工作记忆的更新时机，dACC 的错误/冲突信号触发 BG 开放更新门——将 dACC 监测功能与 dlPFC 弹性切换机制直接连接。
+
+**前额叶前后轴层级**（Badre & D'Esposito 2009，PMID:19672274）：前侧 PFC（额极 BA10）表征"规则的规则"（高阶任务集），dlPFC（BA46 中段）表征特征类别规则，后 PFC（BA6）表征具体感觉—运动映射，形成抽象度递增的认知控制层级。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -90,6 +104,10 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - Q-wm-pfc-content-vs-control：PFC 是工作记忆内容的存储器，还是对感觉皮层的调度中心？
 - Q-pfc-human-specificity：人类 dlPFC 是否有超越猕猴的特异性工作记忆机制？
 - Q-ri-03：主动性抑制的前额叶-STN 机制是否与反应性抑制相同？
+- Q-dlpfc-01：dlPFC 工作记忆的主要维持机制——持续激活还是活动-沉默状态？
+- Q-dlpfc-02：dACC→BG→dlPFC 规则更新信号链的精确时间分辨率是多少？
+- Q-dlpfc-03：人类 dlPFC 的混合选择性程度是否超越猕猴？
+- Q-dlpfc-04：规则切换时旧规则被主动抑制还是竞争压制？
 
 ## 修订历史
 
@@ -99,6 +117,7 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 FEF（额叶眼区，BA8）作为 PFC 注意控制子区域；添加 dorsal-attention-network 和 thalamus 到 related；添加 Moore & Fallah 2004 和 Corbetta & Shulman 2002 到 key_sources；新增未解问题 Q-dan-02
 - 2026-08-19 · 修订 · 基于《大脑的刹车系统》一文 · 新增 rIFG/preSMA 在反应抑制（超直接通路）中的因果作用证据；添加 response-inhibition、hyperdirect-pathway、stop-signal-task 到 related；新增 Aron & Poldrack 2006 和 Chen et al. 2020 证据；新增未解问题 Q-ri-03
 - 2026-08-21 · 修订 · 基于《价值的解剖：眶额皮层如何为选项定价》一文 · 新增 vmPFC/OFC 作为 PFC 的价值决策腹侧亚区（dlPFC→vmPFC 自控调制，Hare et al. 2009）；添加 orbitofrontal-cortex、value-based-decision-making 到 related；新增未解问题 Q-ofc-02
+- 2026-08-24 · 修订 · 基于《背外侧前额叶的认知弹性》文章 · 新增 dlPFC 认知弹性三重机制（混合选择性/群体动力学/振荡选通）与前额叶层级（Badre 2009）；添加 dlpfc-cognitive-flexibility、mixed-selectivity、stability-flexibility-tradeoff、task-switching-cost 到 related；新增未解问题 Q-dlpfc-01~04；新增关键来源 Mante 2013/Buschman 2012/Rigotti 2013/Sali 2024
 
 ## 来源文章
 
@@ -106,3 +125,4 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-08-19-response-inhibition-hyperdirect-pathway]]
 - [[2026-08-21-orbitofrontal-cortex-value-decision-circuit]]
+- [[2026-08-24-dlpfc-cognitive-flexibility-rule-switching]]

@@ -3305,3 +3305,36 @@
 - **来源文章**：2026-08-23-dacc-error-monitoring-conflict-effort
 - **问题**：Cavanagh & Frank 2014 主要关注 θ（4–8Hz）的跨区协调功能。但局部计算通常在 γ（30–80Hz）振荡中实现（如前几篇文章讨论的 PV-γ 机制）。dACC 中是否存在"θ 协调远端控制 + γ 编码局部 EVC 计算"的双频协作？颅内记录中已有初步证据（dACC iEEG 显示 θ-γ 耦合），但系统研究缺乏。如果存在，则 dACC 的 θ-γ 耦合可能类似海马的 theta-gamma 编码（但目的不同：海马用于序列记忆，dACC 用于控制价值计算）。
 - **当前证据状态**：dACC 颅内记录θ-γ PAC：初步；系统比较不同任务条件：低
+
+---
+
+## 来自文章 #122（2026-08-24）：背外侧前额叶的认知弹性
+
+### Q-dlpfc-01（高优先级）：持续激活 vs. 活动-沉默工作记忆的精确分工
+
+- **关联 wiki**：[[working-memory]]、[[dlpfc-cognitive-flexibility]]、[[prefrontal-cortex]]
+- **来源文章**：2026-08-24-dlpfc-cognitive-flexibility-rule-switching
+- **问题**：dlPFC 维持工作记忆的主要机制至今存争议——Goldman-Rakic 经典模型主张持续放电（persistent activity）维持内容，而 Lundqvist/Miller 2018 及 Mongillo 2008 的"活动-沉默工作记忆"模型主张突触权重增强（STP）在神经元静默期间存储信息，γ 爆发只在需要读出时短暂激活。两种机制在什么条件下各占主导？任务复杂度、记忆负荷、注意压力是否调节两者比例？与 dlPFC 的认知弹性（规则切换）如何互动？
+- **关键实验**：同时记录 dlPFC 单元活动与 LFP，在持续干扰（Distractor）条件下看哪种记忆形式更抗干扰；结合光遗传抑制 dlPFC 特定时段，分离两种机制的贡献。
+- **当前证据状态**：两种模型均有实验支持；统一框架缺乏；人类数据几乎全间接
+
+### Q-dlpfc-02（高优先级）：dACC→BG→dlPFC 规则更新信号链的时间分辨率
+
+- **关联 wiki**：[[dlpfc-cognitive-flexibility]]、[[dacc-conflict-monitoring]]、[[basal-ganglia]]、[[prefrontal-cortex]]
+- **来源文章**：2026-08-24-dlpfc-cognitive-flexibility-rule-switching
+- **问题**：当 dACC 检测到冲突或错误，向 BG 发出"需要更新规则"信号，BG 门控开放，dlPFC 更新工作记忆内容——这条信号链的时间分辨率是多少？是单一错误试次即可触发更新，还是需要多次错误积累（类似概率学习）？人类 TMS 研究暗示 dlPFC 参与规则更新发生在错误后 200–400 ms，但 BG 的中间角色时序尚未精确测量。多巴胺在此时序中的相位性释放（phasic DA）是否是门控的近端触发信号？
+- **当前证据状态**：人类 EEG/TMS 有部分时序数据；猕猴单元记录（BG-PFC协同）有初步数据；完整的三节点时序图谱缺失
+
+### Q-dlpfc-03（中优先级）：人类 dlPFC 混合选择性的独特性
+
+- **关联 wiki**：[[mixed-selectivity]]、[[dlpfc-cognitive-flexibility]]、[[prefrontal-cortex]]
+- **来源文章**：2026-08-24-dlpfc-cognitive-flexibility-rule-switching
+- **问题**：Rigotti 2013 的混合选择性证据来自猕猴 dlPFC。人类 dlPFC 是否具有更高程度的混合选择性，支持更复杂的多规则并发表征？Boroujeni et al. 2026 的比较解剖数据显示人类 dlPFC 第 3 层深部有特殊的锥体细胞形态——这是否赋予了人类独特的高维表征能力？由于无法在人类中进行侵入性单元记录，目前只能通过非侵入性手段（MEG/EEG 多变量解码）间接估计。
+- **当前证据状态**：猕猴混合选择性证据充分；人类同种机制的直接证据缺失；间接证据支持但不足以量化
+
+### Q-dlpfc-04（中优先级）：规则切换时旧规则的主动抑制 vs. 竞争压制机制
+
+- **关联 wiki**：[[dlpfc-cognitive-flexibility]]、[[task-switching-cost]]、[[response-inhibition]]、[[stability-flexibility-tradeoff]]
+- **来源文章**：2026-08-24-dlpfc-cognitive-flexibility-rule-switching
+- **问题**：任务切换时，旧规则产生"正向干扰"（proactive interference），导致残余切换代价。旧规则是通过主动抑制机制（dlPFC 发出抑制信号到旧规则表征）清除，还是通过新规则激活后的竞争压制（新规则集群的 beta 同步增强，同时 alpha 振荡被动抑制旧集群）？两种机制有不同的神经预测：前者预测 dlPFC 对旧规则相关区域有抑制性 TMS 效果；后者预测纯竞争性动力学，无需主动抑制。
+- **当前证据状态**：振荡数据支持竞争压制（Buschman 2012）；TMS 研究部分支持主动抑制；两种机制可能共存

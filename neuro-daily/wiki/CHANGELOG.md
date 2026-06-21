@@ -4,6 +4,39 @@
 
 ---
 
+## 2026-08-24 · 文章 #122 · 背外侧前额叶的认知弹性：规则维护、任务切换与工作记忆门控机制
+
+**核心主题**：dlPFC（BA9/46）认知弹性三重机制——(1) 混合选择性（mixed selectivity，Rigotti 2013）：非线性多变量响应使神经表征高维化，支持任意规则组合的线性可读出；(2) 群体动力学（Mante 2013）：不同任务背景下群体活动轨迹沿正交子空间展开，选择与整合是同一动力学过程两个面；(3) 振荡选通（Buschman 2012）：beta 同步激活当前规则集群，alpha 同步抑制无关集群。BG-PFC 门控（O'Reilly & Frank 2006）解释稳定性—弹性权衡的回路机制，与 dACC（#121）直接串联。额叶层级（Badre 2009）描述前后轴抽象度递增的认知控制组织。OCD（Liu 2023）和 Sali 2024 的强化学习视角作为疾病与现代机制补充。
+
+### 新建 Wiki 页面（4 个）
+
+- `systems/dlpfc-cognitive-flexibility.md`（背外侧前额叶认知弹性）🔵 mainstream · 高置信度 — 三重机制：混合选择性/群体动力学/振荡选通；BG 门控；前额叶层级（Badre 2009）；OCD/精神分裂症疾病联系；Q-dlpfc-01~04
+- `concepts/mixed-selectivity.md`（混合选择性）🔵 mainstream · 高置信度 — 非线性多变量响应；高维表征扩充任务组合；Rigotti 2013 理论+实验双重验证；与群体动力学关系
+- `concepts/stability-flexibility-tradeoff.md`（认知稳定性—弹性权衡）🔵 mainstream · 高置信度 — 计算约束本质；BG-PFC-dACC 网络解决方案；OCD/ADHD/精神分裂症/PD 的四种失调模式
+- `concepts/task-switching-cost.md`（任务切换代价）🟢 established · 高置信度 — 混合代价/残余切换代价两成分；额顶网络与切换预测误差（Sali 2024）；振荡动态底物（Buschman 2012）
+
+### 修订 Wiki 页面（1 个）
+
+- `systems/prefrontal-cortex.md`：rev5→rev6，新增 dlPFC 认知弹性机制（混合选择性/群体动力学/振荡选通/BG门控/额叶层级）；添加 dlpfc-cognitive-flexibility/mixed-selectivity/stability-flexibility-tradeoff/task-switching-cost 到 related；新增 Q-dlpfc-01~04；新增 key_sources 8项（Mante/Buschman/Rigotti/Badre/Sali等）
+
+### 图谱更新
+
+- 节点：240 → 244（+4）
+- 边：1384 → 1402（+18）
+- 新节点：dlpfc-cognitive-flexibility / mixed-selectivity / stability-flexibility-tradeoff / task-switching-cost
+- 主要新边：dlpfc-cognitive-flexibility ↔ prefrontal-cortex/working-memory/basal-ganglia/dacc-conflict-monitoring/beta-oscillations/alpha-oscillations/mixed-selectivity/task-switching-cost
+
+### 新增开放问题（4 个）
+
+- Q-dlpfc-01（高）：持续激活 vs. 活动-沉默工作记忆的精确分工
+- Q-dlpfc-02（高）：dACC→BG→dlPFC 规则更新信号链的时间分辨率
+- Q-dlpfc-03（中）：人类 dlPFC 混合选择性是否超越猕猴
+- Q-dlpfc-04（中）：旧规则的主动抑制 vs. 竞争压制机制
+
+### 无矛盾登记
+
+---
+
 ## 2026-08-23 · 文章 #121 · 背侧前扣带皮层的三重计算：错误监测、冲突信号与努力代价的统一语言
 
 **核心主题**：dACC/MCC 的认知控制功能三角——(1) 错误监测：ERN（误差相关负波）作为多巴胺负向 RPE 在 ACC 的表达（Holroyd & Coles 2002）；(2) 冲突监控：Botvinick 假说、Hopfield 能量量化、Gratton 效应、van Veen 2001 fMRI 验证；(3) 努力-代价决策：Walton/Kennerley 2006 大鼠 T 型迷宫损伤实验 + Croxson & Rushworth 2009 人类 fMRI；整合：Cavanagh & Frank 2014 的 FMθ 振荡统一机制 + Shenhav 2013 EVC 规范理论。

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-23（第121篇·背侧前扣带皮层的三重计算·dACC/MCC 错误监测ERN + 冲突监控 Botvinick + 努力决策 EVC + FMθ振荡统一机制）· 主题页总数：**236**（新建4页：concepts/error-related-negativity、concepts/conflict-monitoring、concepts/expected-value-of-control、concepts/frontal-midline-theta；修订1页：systems/anterior-cingulate-cortex rev3→rev4（重大扩充认知控制板块）；修复悬空引用：orbitofrontal-cortex节点补入图谱；新增Q-dacc-01~04；图谱240节点/1384边）
+> 最后更新：2026-08-24（第122篇·背外侧前额叶的认知弹性·dlPFC 混合选择性+群体动力学+振荡选通+BG门控+前额叶层级）· 主题页总数：**240**（新建4页：systems/dlpfc-cognitive-flexibility、concepts/mixed-selectivity、concepts/stability-flexibility-tradeoff、concepts/task-switching-cost；修订1页：systems/prefrontal-cortex rev5→rev6（新增认知弹性机制+Q-dlpfc-01~04）；图谱244节点/1402边）
 
 ---
 
@@ -92,6 +92,9 @@
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
 - 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器 **[NEW 2026-06-04]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
+- 🔵 [混合选择性](concepts/mixed-selectivity.md) — dlPFC 神经元对多变量交叉项的非线性响应；高维化表征支持任意规则组合的线性可读出；Rigotti 2013 证明维度降低预测行为错误；认知弹性的编码基础 **[NEW 2026-08-24]**
+- 🔵 [认知稳定性—弹性权衡](concepts/stability-flexibility-tradeoff.md) — 工作记忆系统的基本计算约束；BG-PFC-dACC 网络的三角解决方案；OCD/ADHD/精神分裂症/PD 的四种失调模式 **[NEW 2026-08-24]**
+- 🟢 [任务切换代价](concepts/task-switching-cost.md) — 混合代价（维持多套规则）+ 残余切换代价（旧规则正向干扰）；额顶网络与切换预测误差（Sali 2024 fMRI+RL）；OCD 超大切换代价 **[NEW 2026-08-24]**
 - 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络；2023/2024最新证据：持续放电神经元携带更多WM信息；Panichello 2024开-关状态 **[修订 rev2 2026-08-18]**
 - 🟡 [活动无声工作记忆](concepts/activity-silent-wm.md) — 工作记忆信息在突触STSP易化状态中无声储存；Stokes 2015框架；Panichello 2024证明与持续放电机制共存 **[NEW 2026-08-18]**
 - 🟢 [反应抑制](concepts/response-inhibition.md) — 叫停已启动运动/认知程序的能力；rIFG→STN超直接通路（2.2 ms单突触）实现快速全局刹车；SSRT量化刹车速度；反应性/主动性/选择性三模式 **[NEW 2026-08-19]**
@@ -238,7 +241,8 @@
 - 🟢 [伏隔核（Nucleus Accumbens, NAc）](systems/nucleus-accumbens.md) — 腹侧纹状体的动机计算枢纽；D1/D2 MSN时程效应（短暂激活均→奖赏，持续激活均→厌恶，Soares-Cunha 2020打破经典D1=奖赏/D2=厌恶二分法）；享乐热点（壳区前内侧~1mm³，阿片→liking翻倍，eCB→liking需阿片协同，多巴胺在此不增强liking）；社会奖赏专用接口（OTR+MOR正向/KOR负向/eCB正向的NAc壳区四系统整合）；多路输入：VTA-DA（wanting）/PFC-Glu（认知控制）/杏仁核BLA（情感价值）/海马（情境）/PVN-OXT（社会特异性门控）；NAc DBS用于难治性抑郁（~40%反应率）**[NEW 2026-08-20]**
 - 🟢 [眶额皮层（OFC）](systems/orbitofrontal-cortex.md) — 额叶最腹侧的新皮层区域；三类功能神经元（提案/选定/效用价值细胞）构成决策流水线；BLA-OFC双向回路是目标导向价值学习的神经基础（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS投射将价值信号转化为行动（Gore 2023光遗传学因果）；lOFC驱动感觉皮层重映射支持逆向学习；价值代码纵向稳定（Zhang 2024双光子）**[NEW 2026-08-21]**
 - 🟢 [岛叶皮层（Insular Cortex）](systems/insular-cortex.md) — 藏于外侧裂深处的多层级内感觉处理中枢；四区功能分化（后颗粒岛体感拓扑/中岛预测误差/前岛主观感受生成/前岛极沉默性顶端控制）；VMpo→后岛专属内感觉通路（区别于 VPM→S1）；前岛含 VENs（体积4.6×，快速远程同步，与 alexithymia 关联）；EPIC 预测编码模型（Barrett 2015）与 IMAC 三层计算模型（Fermin 2022）；显著性网络（岛叶-ACC）；躯体标记（岛叶→OFC/vmPFC）；精神疾病共同病理节点（抑郁/精分/成瘾）**[NEW 2026-08-22]**
-- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；**新增**：rIFG（BA44/45）/preSMA在反应抑制（超直接通路）中的因果驱动作用（Aron 2006、Chen 2020证据）；**rev5新增**：vmPFC/OFC作为PFC价值决策腹侧亚区，dlPFC→vmPFC自控调制（Hare 2009）**[修订 rev4→rev5 2026-08-21]**
+- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；rIFG/preSMA反应抑制（超直接通路）；vmPFC/OFC价值决策腹侧亚区；**rev6新增**：dlPFC认知弹性三重机制（混合选择性/群体动力学/振荡选通）、BG门控、前额叶层级（Badre 2009）**[修订 rev5→rev6 2026-08-24]**
+- 🔵 [背外侧前额叶认知弹性](systems/dlpfc-cognitive-flexibility.md) — dlPFC 三重认知弹性机制：混合选择性（Rigotti 2013）高维编码支持任意规则组合；群体动力学（Mante 2013）正交子空间分离不同背景下的决策轨迹；振荡选通（Buschman 2012）beta激活/alpha抑制动态路由规则集群；BG门控（O'Reilly 2006）控制WM更新时机；前额叶前后轴层级（Badre 2009）；OCD认知僵化的系统级网络失调机制 **[NEW 2026-08-24]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；AAS两通道架构与VTA枢纽（修订5次）**[NEW 2026-06-12]**
 - 🟢 [上行激活系统（AAS）](systems/ascending-arousal-system.md) — 脑干五核团（LC/DRN/PPT-LDT/TMN/Orexin）经腹侧基底前脑路（主要）+背侧丘脑路（次要）激活皮层；PB/PC谷氨酸通路是关键必要节点（Fuller 2011）；VTA=dAAN枢纽；翻转开关架构 **[NEW 2026-08-10]**

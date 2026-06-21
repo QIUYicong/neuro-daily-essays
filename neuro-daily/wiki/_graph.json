@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-23",
+  "updated": "2026-08-24",
   "node_count": 230,
   "edge_count": 1337,
   "edge_types": [
@@ -2186,6 +2186,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/orbitofrontal-cortex.md"
+    },
+    {
+      "id": "dlpfc-cognitive-flexibility",
+      "title": "背外侧前额叶认知弹性",
+      "domain": "systems",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/dlpfc-cognitive-flexibility.md"
+    },
+    {
+      "id": "mixed-selectivity",
+      "title": "混合选择性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/mixed-selectivity.md"
+    },
+    {
+      "id": "stability-flexibility-tradeoff",
+      "title": "认知稳定性—弹性权衡",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/stability-flexibility-tradeoff.md"
+    },
+    {
+      "id": "task-switching-cost",
+      "title": "任务切换代价",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/task-switching-cost.md"
     }
   ],
   "edges": [
@@ -9916,6 +9952,114 @@
       "to": "dopamine-reward-prediction-error",
       "type": "mechanism-of",
       "note": "Holroyd & Coles 框架：ERN 是多巴胺负向 RPE 在 ACC 的表达"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "prefrontal-cortex",
+      "type": "part-of",
+      "note": "dlPFC 认知弹性是前额叶皮层的核心功能之一"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "mixed-selectivity",
+      "type": "mechanism-of",
+      "note": "混合选择性是 dlPFC 认知弹性的编码机制"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "working-memory",
+      "type": "supports",
+      "note": "dlPFC 认知弹性依赖工作记忆的主动维持与选择性更新"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "stability-flexibility-tradeoff",
+      "type": "mechanism-of",
+      "note": "dlPFC-BG 网络是稳定性—弹性权衡的核心实现"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "basal-ganglia",
+      "type": "regulates",
+      "note": "BG 充当 dlPFC 工作记忆更新的门控系统（PBWM 模型）"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "dacc-conflict-monitoring",
+      "type": "related",
+      "note": "dACC 的冲突/错误信号触发 BG 打开 dlPFC 更新门"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "DA-RPE 信号通过 BG 调节 dlPFC 更新时机"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "beta-oscillations",
+      "type": "mechanism-of",
+      "note": "beta 振荡同步激活当前规则的神经集群（Buschman 2012）"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "alpha-oscillations",
+      "type": "mechanism-of",
+      "note": "alpha 振荡抑制无关规则集群（Buschman 2012）"
+    },
+    {
+      "from": "dlpfc-cognitive-flexibility",
+      "to": "task-switching-cost",
+      "type": "mechanism-of",
+      "note": "dlPFC 规则切换机制的行为代价体现"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "prefrontal-cortex",
+      "type": "part-of",
+      "note": "混合选择性在 dlPFC 中最丰富"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "working-memory",
+      "type": "supports",
+      "note": "混合选择性支持多维度工作记忆内容同时表征"
+    },
+    {
+      "from": "stability-flexibility-tradeoff",
+      "to": "working-memory",
+      "type": "related",
+      "note": "工作记忆是稳定性的主要基础设施"
+    },
+    {
+      "from": "stability-flexibility-tradeoff",
+      "to": "dacc-conflict-monitoring",
+      "type": "related",
+      "note": "dACC 监测触发弹性切换"
+    },
+    {
+      "from": "stability-flexibility-tradeoff",
+      "to": "basal-ganglia",
+      "type": "mechanism-of",
+      "note": "BG 门控是稳定性—弹性切换的执行器"
+    },
+    {
+      "from": "task-switching-cost",
+      "to": "dlpfc-cognitive-flexibility",
+      "type": "related",
+      "note": "任务切换代价是 dlPFC 规则切换代价的行为体现"
+    },
+    {
+      "from": "task-switching-cost",
+      "to": "stability-flexibility-tradeoff",
+      "type": "part-of",
+      "note": "任务切换代价是稳定性—弹性权衡的行为指标"
+    },
+    {
+      "from": "task-switching-cost",
+      "to": "response-inhibition",
+      "type": "related",
+      "note": "切换需要抑制旧任务的反应倾向"
     }
   ],
   "dangling_references": [
