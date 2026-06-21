@@ -587,5 +587,23 @@
     "revision_count": 1,
     "last_changed": "2026-08-25",
     "reason": "新建页：认知重评行为证据极为充分（Gross 1998以来30年研究）；神经机制有 Ochsner 2002/2004 基础实验 + Buhle 2014 元分析（48项研究）+ Steward 2021 DCM 因果量化 + He 2023 TMS-fMRI 因果证明；有效性边界（感官驱动情绪效果有限）有支持；Q-vmPFC-01 是唯一主要未解问题"
+  },
+  {
+    "slug": "ptsd",
+    "title": "创伤后应激障碍（PTSD）",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-08-26",
+    "reason": "新建页：PTSD 三角失调模型（杏仁核↑/vmPFC↓/海马萎缩）有坚实的多项神经影像学证据支持（Milad 2009 fMRI 直接验证 + Shin 2006 综述 + Bremner 1999 MRI）；流行病学和遗传力数据充足（Ressler 2022）；细胞层面苔藓细胞机制和 5-HT 递质切换为新兴证据，主要来自啮齿类和 PTSD 死后脑，需独立复现"
+  },
+  {
+    "slug": "fear-generalization",
+    "title": "恐惧泛化",
+    "status": "emerging",
+    "confidence": "medium-high",
+    "revision_count": 1,
+    "last_changed": "2026-08-26",
+    "reason": "新建页：恐惧泛化作为 PTSD 核心症状的概念已建立；行为层面的泛化梯度实验有充分支持；苔藓细胞受损→颗粒细胞集合重叠→泛化的具体细胞机制为新兴证据（Jeong 2024，啮齿类单一研究，需复现）；5-HT 递质切换驱动泛化的机制同样为新兴证据；人类细胞层面验证缺失；状态定为 emerging，置信度定为 medium-high"
   }
 ]

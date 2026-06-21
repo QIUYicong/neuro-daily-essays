@@ -1149,3 +1149,21 @@
 **新增未解问题（3）**：Q-vmPFC-01（vmPFC重评元分析不稳定性）、Q-vmPFC-02（sgACC起因vs结果vs维持）、Q-vmPFC-03（PTSD消退记忆提取障碍机制）
 
 **课程路线进展**：脊柱5（认知控制）→脊柱6（情绪与动机）转折点——vmPFC 同时参与认知控制和情绪调节，是两个课程脊柱的连接枢纽。前额叶功能图谱完成：dlPFC（工作记忆+弹性）—dACC（监测+努力）—vmPFC（情绪调节+价值）—sgACC（自主神经+抑郁靶点）。
+
+---
+
+## 2026-08-26 · 文章 #124 · PTSD 中的记忆囚笼：杏仁核、海马与 vmPFC 三角联盟失守
+
+**核心问题**：PTSD 的神经生物学机制是什么？杏仁核（过度激活）、vmPFC（沉默）、海马（萎缩+情景化失败）三角失调如何协同导致恐惧记忆无法消退、恐惧泛化到日常刺激？
+
+**新建 wiki 页面（2）**：ptsd（diseases，established，high）、fear-generalization（concepts，emerging，medium-high）
+
+**修订 wiki 页面（4）**：fear-extinction（rev6→rev7，新增 PTSD fMRI 证据和 Yi 2026 整合框架）、amygdala（rev7→rev8，新增 ptsd/fear-generalization 连接节）、memory-reconsolidation（rev1→rev2，新增 PTSD 再巩固干预和 Yi 2026 框架）、vmPFC（rev1→rev2，新增 Milad 2009 PTSD fMRI 证据）
+
+**知识图谱更新**：新增节点 2 个（ptsd, fear-generalization），新增边 19 条，总节点 249，总边 1444
+
+**新增未解问题（6）**：Q-ptsd-01（海马缩小原因vs结果）、Q-ptsd-02（PTSD易感性预测因子）、Q-ptsd-03（再巩固窗口临床打开策略）、Q-ptsd-04（PTSD亚型与回路异质性）、Q-fear-gen-01（苔藓细胞机制必要性）、Q-fear-gen-02（泛化程度生物标志物）
+
+**课程路线进展**：脊柱6（情绪与动机）——从正常情绪回路（#123 vmPFC/sgACC）进入疾病状态的完整展示。PTSD 是情绪调节失调的典型疾病案例，将前期学习的杏仁核恐惧学习（#77-78）、海马情景化（#79-83）、vmPFC 消退控制（#123）整合到统一的病理框架中。
+
+**今日认知地图意义**：通过 PTSD 这一疾病透镜，完成了"情绪记忆三角回路"（杏仁核-海马-vmPFC）从正常到病理的完整弧线。苔藓细胞→颗粒细胞去抑制→情景集合重叠的细胞机制是今日最重要的新增知识节点，为恐惧泛化提供了细胞层面的解释。下一步自然指向：海马亚区功能分工（DG-CA3-CA1）深化，或进入抑郁症的 sgACC 失调机制。

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-25",
-  "node_count": 247,
-  "edge_count": 1425,
+  "updated": "2026-08-26",
+  "node_count": 249,
+  "edge_count": 1444,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2249,6 +2249,28 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/cognitive-reappraisal.md"
+    },
+    {
+      "id": "ptsd",
+      "title": "创伤后应激障碍（PTSD）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/ptsd.md",
+      "revision_count": 1,
+      "source_articles": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"]
+    },
+    {
+      "id": "fear-generalization",
+      "title": "恐惧泛化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium-high",
+      "page": "wiki/concepts/fear-generalization.md",
+      "revision_count": 1,
+      "source_articles": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"]
     }
   ],
   "edges": [
@@ -10231,6 +10253,120 @@
       "to": "fear-extinction",
       "type": "related",
       "note": "认知重评与恐惧消退功能上相关：两者均通过 vmPFC→杏仁核通路减少情绪反应，但机制有差异（重评改变含义，消退形成新抑制记忆）"
+    },
+    {
+      "from": "ptsd",
+      "to": "amygdala",
+      "type": "mechanism-of",
+      "note": "BLA/CeA 过度激活是 PTSD 恐惧过度唤醒的核心；与症状严重程度正相关（Shin 2006, PMID:16891563）"
+    },
+    {
+      "from": "ptsd",
+      "to": "vmPFC",
+      "type": "mechanism-of",
+      "note": "vmPFC 激活减弱（hypoactivation）是 PTSD 消退记忆提取失败的直接原因；Milad 2009 fMRI 直接证据（PMID:19748076）"
+    },
+    {
+      "from": "ptsd",
+      "to": "fear-extinction",
+      "type": "related",
+      "note": "PTSD 的核心障碍是消退记忆的形成或提取失败；延长暴露（PE）疗法的机制即为强化消退学习"
+    },
+    {
+      "from": "ptsd",
+      "to": "fear-conditioning",
+      "type": "related",
+      "note": "PTSD 在机制上是极端创伤后恐惧条件化的病理性固化；杏仁核 BLA 突触 LTP 异常增强"
+    },
+    {
+      "from": "ptsd",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "海马体积缩小（Bremner 1999, PMID:10202566）和情景化失败（苔藓细胞受损）是 PTSD 三角失调的第三节点"
+    },
+    {
+      "from": "ptsd",
+      "to": "fear-generalization",
+      "type": "mechanism-of",
+      "note": "恐惧泛化是 PTSD 的核心症状：无害日常刺激引发强烈恐惧反应，由海马模式分离失败驱动"
+    },
+    {
+      "from": "ptsd",
+      "to": "memory-reconsolidation",
+      "type": "related",
+      "note": "再巩固干预（普萘洛尔、再巩固窗口消退）是 PTSD 治疗的新靶点；Yi 2026 提出整合多靶点框架"
+    },
+    {
+      "from": "ptsd",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related",
+      "note": "LC-NE 过度激活参与 PTSD 创伤初期记忆超强巩固和苔藓细胞抑制；NE 过度激活是 PTSD 过度唤醒症状的神经基础"
+    },
+    {
+      "from": "ptsd",
+      "to": "glucocorticoid-stress-memory",
+      "type": "related",
+      "note": "慢性皮质醇升高通过 GC 受体损伤海马，并通过 BLA GR 增强创伤记忆巩固；HPA 轴失调是 PTSD 的应激轴特征"
+    },
+    {
+      "from": "ptsd",
+      "to": "adult-neurogenesis",
+      "type": "related",
+      "note": "慢性应激抑制海马神经发生，与 DG 模式分离功能受损相关；神经发生减少可能加重 PTSD 情景化失败"
+    },
+    {
+      "from": "ptsd",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "PTSD 创伤记忆印迹细胞在日常情景中被不适当激活；印迹细胞时空动态（Xu 2025）对理解 PTSD 症状的回路基础有重要意义"
+    },
+    {
+      "from": "fear-generalization",
+      "to": "amygdala",
+      "type": "related",
+      "note": "BLA 是泛化恐惧的共同输出节点；不同情景的颗粒细胞集合重叠最终汇聚到同一 BLA 激活"
+    },
+    {
+      "from": "fear-generalization",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "海马 DG 苔藓细胞（mossy cells）受损 → 颗粒细胞去抑制 → 情景集合重叠 → 模式分离失败 → 恐惧泛化（Jeong 2024, Xu 2025）"
+    },
+    {
+      "from": "fear-generalization",
+      "to": "pattern-separation",
+      "type": "related",
+      "note": "模式分离功能是防止恐惧泛化的核心机制；模式分离失败直接导致不同情景的恐惧集合重叠"
+    },
+    {
+      "from": "fear-generalization",
+      "to": "fear-conditioning",
+      "type": "related",
+      "note": "恐惧泛化发生在成功条件化的基础上；没有初始恐惧学习就不会有泛化"
+    },
+    {
+      "from": "fear-generalization",
+      "to": "fear-extinction",
+      "type": "related",
+      "note": "消退训练可缩小泛化半径；消退本身具有情景特异性，且在 PTSD 中消退效果更弱"
+    },
+    {
+      "from": "fear-generalization",
+      "to": "ptsd",
+      "type": "mechanism-of",
+      "note": "恐惧泛化是 PTSD 最显著的行为症状之一；苔藓细胞机制和 5-HT 递质身份切换均驱动泛化"
+    },
+    {
+      "from": "fear-generalization",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related",
+      "note": "LC-NE 激活是创伤后苔藓细胞抑制的上游信号；LC→DG 苔藓细胞通路是恐惧泛化的启动触发器"
+    },
+    {
+      "from": "fear-generalization",
+      "to": "adult-neurogenesis",
+      "type": "related",
+      "note": "齿状回新生神经元参与模式分离；应激抑制神经发生可能加剧恐惧泛化程度"
     }
   ],
   "dangling_references": [

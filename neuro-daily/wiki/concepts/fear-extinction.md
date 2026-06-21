@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-08-25
-revision_count: 6
+updated: 2026-08-26
+revision_count: 7
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation, engram-cells, dopamine-reward-prediction-error, endocannabinoid-system, cb1-receptor, vmPFC, emotion-regulation]
+related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation, engram-cells, dopamine-reward-prediction-error, endocannabinoid-system, cb1-receptor, vmPFC, emotion-regulation, ptsd, fear-generalization]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
 opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02, Q-extinction-reward-overlap, Q-vmPFC-03]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-08-05-endocannabinoid-retrograde-signaling, 2026-08-25-vmPFC-sgACC-emotion-regulation]
-key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:29507292", "PMID:34598785", "PMID:26617500", "PMID:20962768", "PMID:40026920"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-08-05-endocannabinoid-retrograde-signaling, 2026-08-25-vmPFC-sgACC-emotion-regulation, 2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]
+key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:29507292", "PMID:34598785", "PMID:26617500", "PMID:20962768", "PMID:40026920", "PMID:19748076", "PMID:41663712"]
 ---
 
 # 恐惧消退 (Fear Extinction)
@@ -105,6 +105,7 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高（啮齿类证据充分，人类转化大体一致）
 - 2026-08-05 · 修订 rev5 · 基于《逆行的信使》(#104) · 新增 ECS/CB1R 在恐惧消退中的分子机制：BLA 中 AEA 对消退训练因果必要（CB1R 拮抗剂阻断消退），FAAH 抑制（AEA ↑）增强消退效率，FAAH 抑制剂（PF-04457845）PTSD 2a 期数据；related 新增 endocannabinoid-system、cb1-receptor；key_sources 新增 PMID:34598785
 - 2026-08-25 · 修订 rev6 · 基于《驯化杏仁核：vmPFC 与 sgACC》(#123) · 当前理解节补充 vmPFC/IL 系统综述更新（Giustino & Maren 2015, Mavrych 2025, Sierra-Mercado 2011）；确认吻侧BLA→PL/尾侧BLA→IL的分区投射；连接节新增 vmPFC、emotion-regulation；未解问题新增 Q-vmPFC-03；related/opens_questions/key_sources/source_articles 相应更新
+- 2026-08-26 · 修订 rev7 · 基于《PTSD 中的记忆囚笼》(#124) · 补充 PTSD 情境下消退失败的 fMRI 直接证据（Milad 2009, PMID:19748076）：PTSD 组在消退回忆时 vmPFC/海马激活↓、dACC 激活↑；补充 Yi 2026 多靶点治疗框架（消退强化+睡眠再激活+再巩固编辑）；related 新增 ptsd、fear-generalization；source_articles 更新
 
 ## 来源文章
 
@@ -112,3 +113,4 @@ key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482"
 - [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]
 - [[2026-08-05-endocannabinoid-retrograde-signaling]]
 - [[2026-08-25-vmPFC-sgACC-emotion-regulation]]
+- [[2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]]

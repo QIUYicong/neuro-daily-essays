@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-25",
-  "total_articles": 123,
+  "total_articles": 124,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7679,6 +7679,86 @@
         "工作记忆与情绪调节的交互：dlPFC 如何在认知负荷下支持/干扰情绪调节",
         "内感觉与情绪生成：岛叶-vmPFC-杏仁核轴的预测误差机制（Barrett EPIC 模型深化）",
         "腹侧纹状体与情绪：NAc-vmPFC 环路在奖赏和情绪价值中的双向作用"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "article_number": 124,
+      "title": "PTSD 中的记忆囚笼：当杏仁核、海马与 vmPFC 的三角联盟失守",
+      "slug": "ptsd-fear-circuit-vmPFC-hippocampus-amygdala",
+      "core_question": "PTSD 的核心神经生物学机制是什么？杏仁核、vmPFC 与海马构成的恐惧三角回路如何在极端创伤后系统性失调，导致恐惧记忆无法消退、恐惧泛化至日常情景？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cellular",
+        "molecular",
+        "behavior",
+        "disease"
+      ],
+      "topic_tags": [
+        "PTSD",
+        "fear-circuit",
+        "amygdala-hyperactivation",
+        "vmPFC-hypoactivation",
+        "hippocampal-atrophy",
+        "fear-extinction-failure",
+        "fear-generalization",
+        "mossy-cells",
+        "pattern-separation",
+        "reconsolidation-propranolol",
+        "PE-therapy",
+        "Milad-2009",
+        "Shin-Rauch",
+        "Bremner",
+        "Xu-2025",
+        "Yi-2026",
+        "Ressler",
+        "LC-NE",
+        "5-HT-identity-switch",
+        "engram-spatiotemporal",
+        "PL-BLA-PVT",
+        "extinction-stabilization",
+        "sleep-reconsolidation"
+      ],
+      "main_sources": [
+        "PMID:40881229",
+        "PMID:41663712",
+        "PMID:19748076",
+        "PMID:10202566",
+        "PMID:35352034",
+        "PMID:16891563",
+        "PMID:27845239",
+        "PMID:36442693",
+        "PMID:39604513"
+      ],
+      "open_full_text_sources": [
+        "PMC12382489"
+      ],
+      "wiki_pages_created": [
+        "wiki/diseases/ptsd.md",
+        "wiki/concepts/fear-generalization.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/fear-extinction.md (rev6->rev7)",
+        "wiki/systems/amygdala.md (rev7->rev8)",
+        "wiki/concepts/memory-reconsolidation.md (rev1->rev2)",
+        "wiki/systems/vmPFC.md (rev1->rev2)"
+      ],
+      "unresolved_questions": [
+        "Q-ptsd-01",
+        "Q-ptsd-02",
+        "Q-ptsd-03",
+        "Q-ptsd-04",
+        "Q-fear-gen-01",
+        "Q-fear-gen-02"
+      ],
+      "contested_claims_logged": [],
+      "next_suggested_topics": [
+        "抑郁症的回路机制：从 sgACC 到单胺系统崩溃（ketamine 快速机制 vs SSRI 延迟机制）",
+        "模式分离与模式补全：齿状回与 CA3 的对立互补功能（及 PTSD/AD 中的失衡）",
+        "内感觉与情绪生成：岛叶-vmPFC-杏仁核轴的预测误差机制（Barrett EPIC 模型深化）",
+        "海马亚区功能分工：DG-CA3-CA1-下托各司其职的记忆回路",
+        "应激与大脑的长期重塑：糖皮质激素从分子到系统的多尺度效应"
       ]
     }
   ],

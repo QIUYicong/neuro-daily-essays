@@ -4,6 +4,42 @@
 
 ---
 
+## 2026-08-26 · 文章 #124 · PTSD 中的记忆囚笼：当杏仁核、海马与 vmPFC 的三角联盟失守
+
+**核心主题**：PTSD 的神经生物学。三节点三角失调模型：(1) 杏仁核（BLA/CeA）过度激活——创伤后 NE+GC 协同增强 BLA-LTP，杏仁核持续过度响应，与症状严重程度正相关（Shin 2006, PMID:16891563）；(2) vmPFC 沉默——消退刹车失效，消退记忆本身存储于 IL/vmPFC，无法提取"此处安全"（Milad 2009 fMRI 直接证据, PMID:19748076）；(3) 海马萎缩+情景化失败——苔藓细胞（mossy cells）受损→颗粒细胞去抑制→情景集合重叠→模式分离失败→恐惧泛化（Jeong 2024，Xu 2025 综述）。新兴发现：外侧背侧缝核（LDRn）5-HT 神经元在急性应激后从共释放谷氨酸切换为共释放 GABA，同一改变在 PTSD 死后人脑中观察到（Li et al. 2024）。治疗靶点：消退稳定化（PE/暴露+DCS/睡眠巩固）vs 再巩固编辑（普萘洛尔/再巩固窗口消退/MDMA）。Yi 2026（PMID:41663712）提出多靶点整合框架。
+
+### 新建 Wiki 页面（2 个）
+
+- `diseases/ptsd.md`（创伤后应激障碍）🟢 established · 高置信度 — 三角失调模型完整机制（5个机制板块）；10条证据记录；Q-ptsd-01~04四个开放问题；key_sources 10 篇
+- `concepts/fear-generalization.md`（恐惧泛化）🟡 emerging · 中高置信度 — 苔藓细胞→颗粒细胞去抑制→情景集合重叠机制图；5-HT 递质切换独立驱动；ACC 整合角色；Q-fear-gen-01~02 两个开放问题
+
+### 修订 Wiki 页面（4 个）
+
+- `concepts/fear-extinction.md`：rev6→rev7，新增 Milad 2009 PTSD fMRI 直接证据（vmPFC+海马↓，dACC↑）；Yi 2026 整合多靶点框架（消退稳定化+再巩固编辑+睡眠）；添加 ptsd/fear-generalization 到 related；添加 PMID:19748076/41663712 到 key_sources
+- `systems/amygdala.md`：rev7→rev8，连接节新增 ptsd（BLA/CeA过度激活与症状正相关；CRH₁R过激活候选机制）、fear-generalization（BLA是泛化恐惧的共同输出节点；苔藓细胞受损导致情景输入失去精确性）；related/key_sources/source_articles相应更新
+- `concepts/memory-reconsolidation.md`：rev1→rev2，连接节新增 ptsd（再巩固干预是 PTSD 新靶点；Yi 2026 整合框架；Xu 2025 时空动态）；related/key_sources/source_articles相应更新
+- `systems/vmPFC.md`：rev1→rev2，连接节新增 ptsd（Milad 2009 fMRI 直接证据：PTSD消退回忆时vmPFC激活↓；Yi 2026 整合多靶点治疗框架）；related/key_sources/source_articles相应更新
+
+### 图谱更新
+
+- 节点：247 → 249（+2）
+- 边：1425 → 1444（+19）
+- 新节点：ptsd / fear-generalization
+- 主要新边：ptsd ↔ amygdala/vmPFC/fear-extinction/fear-conditioning/hippocampal-circuit/fear-generalization/memory-reconsolidation/norepinephrine-locus-coeruleus/glucocorticoid-stress-memory/adult-neurogenesis/engram-cells；fear-generalization ↔ amygdala/hippocampal-circuit/pattern-separation/fear-conditioning/fear-extinction/ptsd/norepinephrine-locus-coeruleus/adult-neurogenesis
+
+### 新增开放问题（6 个）
+
+- Q-ptsd-01（高）：海马体积缩小是 PTSD 的原因（易感性）还是结果（应激损伤）？双胞胎研究提示两者都有，相对权重不清楚
+- Q-ptsd-02（高）：相同创伤暴露，只有约 25% 发展 PTSD——遗传（FKBP5/BDNF/SLC6A4）、童年创伤、社会支持、急性期应激反应各自的预测力和交互效应
+- Q-ptsd-03（高）：如何在临床上可靠地打开再巩固窗口？久远 PTSD 创伤记忆（数十年）能否被干预？普萘洛尔 Phase 2a 给药时机问题如何改进设计？
+- Q-ptsd-04（中）：PTSD 亚型（恐惧/高唤醒型 vs 解离/情感麻木型）是否有不同回路基础，需要相反方向的干预？
+- Q-fear-gen-01（高）：苔藓细胞受损是恐惧泛化的必要机制还是多条并行通路之一？LC-NE 对苔藓细胞的抑制是直接还是间接的？人类如何验证？
+- Q-fear-gen-02（中）：恐惧泛化是否存在可量化的活体生物标志物（如高分辨率 fMRI DG 集合重叠度）？5-HT 递质切换是否可逆？
+
+### 无矛盾登记（苔藓细胞机制为新兴证据，记录于各页置信度字段和 key_sources 的证据强度标注）
+
+---
+
 ## 2026-08-25 · 文章 #123 · 驯化杏仁核：vmPFC 与 sgACC 如何编织情绪控制的神经语言，以及抑郁症如何让这根丝线断裂
 
 **核心主题**：vmPFC（BA10/11/12/25/32 腹侧）与 sgACC（BA25）如何作为前额叶-杏仁核情绪调节回路的枢纽。三个机制板块：(1) 认知重评——vlPFC 语义重构 → vmPFC 情绪整合 → 杏仁核负向有效连接（Steward 2021 DCM + He 2023 TMS-fMRI 因果证明）；(2) 恐惧消退——IL/vmPFC → 腹侧 ITC → CeM 抑制（Giustino & Maren 2015 系统综述 + Sierra-Mercado 2011 因果证据）；(3) sgACC 作为"内脏运动皮层"（Price & Drevets 2010）——正常情况下精准调节自主神经和神经调质基线，抑郁时持续过度激活形成自我维持的负性情绪循环（Drevets 1999 PET + Mayberg 2005 BA25 DBS）。

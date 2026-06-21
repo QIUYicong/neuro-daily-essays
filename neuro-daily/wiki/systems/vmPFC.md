@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-08-25
-updated: 2026-08-25
-revision_count: 1
+updated: 2026-08-26
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cognition, disease]
-related: [amygdala, anterior-cingulate-cortex, prefrontal-cortex, orbitofrontal-cortex, fear-extinction, emotion-regulation, cognitive-reappraisal, hippocampal-circuit, nucleus-accumbens, default-mode-network, insular-cortex, hpa-axis]
+related: [amygdala, anterior-cingulate-cortex, prefrontal-cortex, orbitofrontal-cortex, fear-extinction, emotion-regulation, cognitive-reappraisal, hippocampal-circuit, nucleus-accumbens, default-mode-network, insular-cortex, hpa-axis, ptsd]
 prerequisites: [prefrontal-cortex, amygdala, fear-extinction]
 opens_questions: [Q-vmPFC-01, Q-vmPFC-02, Q-vmPFC-03]
-source_articles: [2026-08-25-vmPFC-sgACC-emotion-regulation]
-key_sources: ["PMID:19693001", "PMCID:PMC3055427", "PMID:12495527", "PMID:23765157", "PMID:15748841", "PMID:41171999", "PMCID:PMC12578624", "PMID:10415674", "PMID:19358877"]
+source_articles: [2026-08-25-vmPFC-sgACC-emotion-regulation, 2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]
+key_sources: ["PMID:19693001", "PMCID:PMC3055427", "PMID:12495527", "PMID:23765157", "PMID:15748841", "PMID:41171999", "PMCID:PMC12578624", "PMID:10415674", "PMID:19358877", "PMID:19748076", "PMID:41663712"]
 ---
 
 # 腹内侧前额叶皮层（Ventromedial Prefrontal Cortex, vmPFC）
@@ -114,6 +114,7 @@ DBS 解锁机制：sgACC 旁白质纤维刺激→局部代谢↓→前额叶代�
 - [[hippocampal-circuit]] — 情景信号从海马到达 vmPFC，调制情境依赖的情绪记忆激活
 - [[hpa-axis]] — sgACC→下丘脑 PVN 路径参与 HPA 轴的皮层调制
 - [[default-mode-network]] — mPFC（vmPFC 最前部）是 DMN 核心节点之一
+- [[ptsd]] — PTSD 患者消退记忆回忆时 vmPFC 激活显著减弱（Milad 2009, PMID:19748076 fMRI 直接证据）；vmPFC 沉默是消退刹车失效的核心机制，消退记忆本身储存于 IL/vmPFC；Yi 2026（PMID:41663712）提出联合靶向 vmPFC-IL 的整合多通路治疗框架
 
 ## 未解问题
 
@@ -124,7 +125,9 @@ DBS 解锁机制：sgACC 旁白质纤维刺激→局部代谢↓→前额叶代�
 ## 修订历史
 
 - 2026-08-25 · 创建 · 基于《驯化杏仁核：vmPFC 与 sgACC 如何编织情绪控制的神经语言》(#123) · 初始置信度：高
+- 2026-08-26 · 修订 rev2 · 基于《PTSD 中的记忆囚笼》(#124) · 连接节新增 ptsd（Milad 2009 fMRI 直接证据：PTSD 消退回忆时 vmPFC 激活↓；Yi 2026 整合多靶点治疗框架）；related 新增 ptsd；key_sources 新增 PMID:19748076/41663712；source_articles 新增 2026-08-26
 
 ## 来源文章
 
 - [[2026-08-25-vmPFC-sgACC-emotion-regulation]]
+- [[2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]]

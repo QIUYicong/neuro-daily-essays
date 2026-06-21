@@ -11917,5 +11917,89 @@
     "PMID:19693001",
     "PMID:41171999",
     "PMID:40026920"
+  ],
+  "PMID:40881229": {
+    "citation": "Xu R, Shi D, Wang K, Yang Q, Cao P, Wang Z (2025). Progress in spatiotemporal regulation of fear memory: neural circuit mechanisms and implications for PTSD. General Psychiatry.",
+    "pmcid": "PMC12382489",
+    "open_access": true,
+    "first_used": "2026-08-26",
+    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
+    "covers": ["恐惧记忆时空调控综述", "苔藓细胞受损→颗粒细胞去抑制→恐惧泛化机制", "5-HT 递质身份切换（谷氨酸→GABA）", "再巩固干预（普萘洛尔）窗口依赖性", "PL-BLA 早期 vs PL-PVT 远期回路动态", "印迹细胞时空重组", "PTSD 死后脑 5-HT 递质切换"]
+  },
+  "PMID:41663712": {
+    "citation": "Yi X, Zhang YB, Yu TZ, Yang X, He P, Li HL, Li WG (2026). Circuit-informed modulation of traumatic memory in PTSD: integrating extinction, suppression, and reconsolidation. Molecular Psychiatry.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-26",
+    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
+    "covers": ["PTSD 回路知情调节框架", "消退稳定化 + 再巩固编辑 + 睡眠再激活整合策略", "多靶点联合干预方案", "2026 最新综述（摘要）"]
+  },
+  "PMID:19748076": {
+    "citation": "Milad MR, Pitman RK, Ellis CB, Gold AL, Shin LM, Lasko NB, Zeidan MA, Handwerger K, Orr SP, Rauch SL (2009). Neurobiological basis of failure to recall extinction memory in posttraumatic stress disorder. Biological Psychiatry.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-26",
+    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
+    "covers": ["PTSD 消退回忆时 vmPFC 和海马激活↓", "dACC 激活↑", "恐惧条件化阶段两组无差异", "关键 fMRI 研究直接证明消退记忆提取失败"]
+  },
+  "PMID:35352034": {
+    "citation": "Ressler KJ, Berretta S, Bolshakov VY, Rosso IM, Meloni EG, Rauch SL, Carlezon WA Jr (2022). Post-traumatic stress disorder: clinical and translational neuroscience from cells to circuits. Nature Reviews Neurology.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-26",
+    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
+    "covers": ["PTSD 流行病学（6-8% 一般人群，25% 严重创伤暴露）", "遗传力 30-40%", "细胞到回路综述框架"]
+  },
+  "PMID:16891563": {
+    "citation": "Shin LM, Rauch SL, Pitman RK (2006). Amygdala, medial prefrontal cortex, and hippocampal function in PTSD. Annals of the New York Academy of Sciences.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-26",
+    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
+    "covers": ["PTSD 杏仁核过度激活综述", "mPFC 体积减少", "海马功能障碍", "神经影像三角失调经典综述"]
+  },
+  "PMID:10202566": {
+    "citation": "Bremner JD (1999). Does stress damage the brain? Biological Psychiatry.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-26",
+    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
+    "covers": ["PTSD 海马体积缩小（战斗退伍军人 + 儿童虐待幸存者）", "糖皮质激素神经毒性", "言语记忆缺陷", "应激诱导脑损伤奠基研究"]
+  },
+  "PMID:27845239": {
+    "citation": "Sheynin J, Liberzon I (2017). Circuit dysregulation and circuit-based treatments in posttraumatic stress disorder. Neuroscience Letters.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-26",
+    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
+    "covers": ["PTSD 三回路模型（恐惧学习/情景处理/情绪调节）", "回路知情治疗综述"]
+  },
+  "PMID:36442693": {
+    "citation": "Kindt M, Elsey JWB (2023). A paradigm shift in the treatment of emotional memory disorders: Lessons from basic science. Brain Research Bulletin.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-26",
+    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
+    "covers": ["再巩固干预的临床转化挑战", "PTSD 情绪记忆治疗范式转变", "必要与充分条件讨论"]
+  },
+  "PMID:39604513": {
+    "citation": "Akiki TJ, Jubeir J, Bertrand C, Tozzi L, Williams LM (2025). Neural circuit basis of pathological anxiety. Nature Reviews Neuroscience.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-26",
+    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
+    "covers": ["焦虑障碍的多回路模型", "奖励加工障碍", "认知控制回路", "超越恐惧回路模型的视角"]
+  },
+  "sources_2026-08-26": [
+    "PMID:40881229",
+    "PMC12382489",
+    "PMID:41663712",
+    "PMID:19748076",
+    "PMID:35352034",
+    "PMID:16891563",
+    "PMID:10202566",
+    "PMID:27845239",
+    "PMID:36442693",
+    "PMID:39604513"
   ]
 }

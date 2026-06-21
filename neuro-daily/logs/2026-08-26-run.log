@@ -1,0 +1,124 @@
+# 每日运行日志 · 2026-08-26
+
+触发时间：2026-06-21 UTC（实际系统时间；日期异常持续，继续按文章序列使用 2026-08-26）
+文章编号：#124
+运行模式：自动化定时任务（Claude Code Remote Agent）
+
+---
+
+## 执行摘要
+
+**状态**：✅ 完成
+
+**文章**：《PTSD 中的记忆囚笼：当杏仁核、海马与 vmPFC 的三角联盟失守》
+**字数**：约 4800 中文字符
+**来源文献**：10 篇（1 篇开放全文 PMC12382489；9 篇摘要访问）
+
+---
+
+## 步骤执行记录
+
+### A. 文献检索
+
+**检索数据库**：PubMed/NCBI E-utilities、PubMed Central（PMC）、Europe PMC
+
+**检索策略**：
+- "PTSD fear memory consolidation amygdala vmPFC hippocampus neurobiology"
+- "PTSD neurobiology fear extinction review 2024 2025"
+- "PTSD fear reconsolidation circuit prefrontal amygdala"
+- "post-traumatic stress disorder amygdala hippocampus prefrontal cortex neural circuit"
+- "Milad MR PTSD fear extinction prefrontal 2009"
+- 及其他相关检索词
+
+**候选文献**：47 篇
+**最终纳入**：10 篇
+**排除**：3 篇（含 off_topic、superseded 各 1 篇，1 篇 query_returned_zero_results）
+
+**开放全文**：1/10（PMC12382489 = Xu 2025, General Psychiatry）
+**说明**：开放全文数量不满足 ROUTINE.md 推荐的 ≥2 篇，原因是该主题高引用经典文献多为 paywall 文献；已在来源文件和文章中记录此限制。核心内容通过 PMC12382489 全文和其他 9 篇摘要完整覆盖。
+
+### B. 文章写作
+
+**文件路径**：`neuro-daily/articles/2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala.md`
+**状态**：✅ 已创建（通过子智能体 adcd86b7481ab9c70 完成）
+
+**主要内容节**：
+1. 核心问题 / 一句话概括 / 为什么重要
+2. 正常恐惧网络三重奏（背景）
+3. 机制一：杏仁核过度激活（BLA LTP异常增强 + CRH₁R过激活）
+4. 机制二：海马萎缩与情景化失败（苔藓细胞受损→颗粒细胞去抑制→模式分离失败）
+5. 机制三：vmPFC 沉默（消退刹车失效，Milad 2009 fMRI 直接证据）
+6. 三角失调的协同效应
+7. 恐惧泛化的细胞机制（苔藓细胞通路图解 + 5-HT递质切换）
+8. 新前沿：印记细胞的时空重组（PL→BLA 早期 vs PL→PVT 远期）
+9. 治疗：两条路径（消退增强 vs 再巩固编辑）
+10. 关键证据表（8行）
+11. 比喻：记忆的"三角防卫系统"
+12. 争议与未解问题
+13. 与AI的比较
+14. 概念卡片 / 认知地图更新 / 参考文献（9条）
+
+### C. 阅读笔记与来源归档
+
+**阅读笔记**：`neuro-daily/notes/2026-08-26-reading-notes.md` ✅
+**来源 JSON**：`neuro-daily/sources/2026-08-26-sources.json` ✅（10 条 + 3 条排除）
+
+### D. Wiki 固结（Consolidation）
+
+**新建 Wiki 页面（2）**：
+- `wiki/diseases/ptsd.md`（established · high）✅
+- `wiki/concepts/fear-generalization.md`（emerging · medium-high）✅
+
+**修订 Wiki 页面（4）**：
+- `wiki/concepts/fear-extinction.md` rev6→rev7 ✅
+- `wiki/systems/amygdala.md` rev7→rev8 ✅
+- `wiki/concepts/memory-reconsolidation.md` rev1→rev2 ✅
+- `wiki/systems/vmPFC.md` rev1→rev2 ✅
+
+**矛盾登记**：无新矛盾（苔藓细胞机制为新兴证据，已在置信度字段明确标注）
+
+### E. 知识图谱更新
+
+**文件**：`wiki/_graph.json` ✅
+- 节点：247 → 249（+2: ptsd, fear-generalization）
+- 边：1425 → 1444（+19 条新边）
+- updated: 2026-08-26
+
+### F. 状态文件更新
+
+- `state/topic_ledger.json`：total_articles 123→124，新增 article #124 条目 ✅
+- `state/unresolved_questions.md`：新增 Q-ptsd-01~04, Q-fear-gen-01~02（共6题）✅
+- `state/maturity_index.json`：新增 ptsd（established/high）、fear-generalization（emerging/medium-high）✅
+- `state/source_registry.json`：新增 10 条文献记录 + sources_2026-08-26 索引 ✅
+- `state/monthly_synthesis.md`：新增 2026-08-26 条目 ✅
+- `state/contested_claims.json`：无新矛盾，未修改 ✅
+
+### G. 索引和变更日志更新
+
+- `wiki/index.md`：更新头部、diseases 节新增 ptsd、concepts 节新增 fear-generalization ✅
+- `wiki/CHANGELOG.md`：新增 2026-08-26 条目（置于顶部）✅
+
+---
+
+## 技术备注
+
+**日期异常**：系统时钟仍显示 2026-06-21 UTC，但知识库已按序列推进至 2026-08-26（#124）。
+遵循 ROUTINE.md 规定：按知识库序列继续，而非以系统时钟为准。
+
+**Git 操作**：
+- 拉取：`git pull --rebase origin main`（解决分支分叉问题）
+- 提交：统一提交全部 neuro-daily/ 变更
+- 推送：`git push -u origin main`
+
+---
+
+## 文章质量自评
+
+| 指标 | 得分 | 备注 |
+|------|------|------|
+| 核心机制准确性 | 9/10 | 三角失调模型有多项高质量 fMRI 支持；细胞层面苔藓细胞证据为新兴 |
+| 层次与深度 | 9/10 | 从行为层到分子层（5-HT 递质切换）均有覆盖 |
+| 来源可信度 | 8/10 | 1/10 开放全文限制了深度，但 PMC12382489 为近年高质量综述 |
+| 批判性评估 | 9/10 | 明确区分新兴证据（啮齿类、单一实验室）与已建立证据 |
+| 与知识库集成 | 10/10 | 与 amygdala/vmPFC/hippocampus/fear-extinction 等12个既有页面建立双向连接 |
+| 读者价值 | 9/10 | 比喻清晰；治疗转化节将基础科学与临床实践连接 |

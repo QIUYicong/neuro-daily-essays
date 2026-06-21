@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium-high
 created: 2026-07-10
-updated: 2026-07-10
-revision_count: 1
+updated: 2026-08-26
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, disease]
-related: [memory-consolidation, fear-conditioning, fear-extinction, amygdala, nmda-receptor, camkii, ltp, glucocorticoid-stress-memory, norepinephrine-locus-coeruleus, ubiquitin-proteasome]
+related: [memory-consolidation, fear-conditioning, fear-extinction, amygdala, nmda-receptor, camkii, ltp, glucocorticoid-stress-memory, norepinephrine-locus-coeruleus, ubiquitin-proteasome, ptsd]
 prerequisites: [memory-consolidation, fear-conditioning, ltp, amygdala]
 opens_questions: [Q-gc-01, Q-reconsolidation-01, Q-reconsolidation-02]
-source_articles: [2026-07-10-memory-reconsolidation-ptsd]
-key_sources: ["PMID:10963596", "PMID:30374892", "PMC6373183", "PMID:18258863", "PMID:26779588", "PMID:21909089", "PMID:23413355", "PMID:19219038", "PMID:19542037", "PMID:37159200", "PMC10170341", "PMC5605913"]
+source_articles: [2026-07-10-memory-reconsolidation-ptsd, 2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]
+key_sources: ["PMID:10963596", "PMID:30374892", "PMC6373183", "PMID:18258863", "PMID:26779588", "PMID:21909089", "PMID:23413355", "PMID:19219038", "PMID:19542037", "PMID:37159200", "PMC10170341", "PMC5605913", "PMID:40881229", "PMID:41663712"]
 ---
 
 # 记忆再巩固 (Memory Reconsolidation)
@@ -142,6 +142,7 @@ Monfils 等（2009, PMID:19542037）提出无药物的行为干预策略：
 - [[ltp]] — 再稳定化的蛋白合成步骤与 L-LTP 使用相同的 PKA/ERK/CREB/蛋白合成轴
 - [[glucocorticoid-stress-memory]] — GC 通过 GR 增强再稳定化；GR 拮抗（米非司酮）是阻断再巩固的临床策略，目前 Phase 2a 未成功
 - [[norepinephrine-locus-coeruleus]] — NE-β-AR 信号参与再稳定化；普萘洛尔通过阻断 β-AR 干扰再稳定化，在人类中消除情绪恐惧记忆
+- [[ptsd]] — 再巩固干预是 PTSD 治疗的重要新靶点；Yi 2026（PMID:41663712）提出整合框架：消退稳定化 + 再巩固编辑 + 睡眠再激活的多靶点联合策略；Xu 2025（PMID:40881229）综述确认普萘洛尔在恐惧记忆时空动态中的窗口依赖性
 
 ## 未解问题
 
@@ -152,7 +153,9 @@ Monfils 等（2009, PMID:19542037）提出无药物的行为干预策略：
 ## 修订历史
 
 - 2026-07-10 · 创建 · 基于《记忆再巩固》(#78) · 初始置信度：medium-high（机制证据充分，啮齿类为主；人类转化临床证据有限但已有 Phase 2 RCT）
+- 2026-08-26 · 修订 rev2 · 基于《PTSD 中的记忆囚笼》(#124) · 连接节新增 ptsd（再巩固干预作为 PTSD 新靶点；Yi 2026 整合框架；Xu 2025 时空动态）；related 新增 ptsd；key_sources 新增 PMID:40881229/41663712；source_articles 新增 2026-08-26
 
 ## 来源文章
 
 - [[2026-07-10-memory-reconsolidation-ptsd]]
+- [[2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]]

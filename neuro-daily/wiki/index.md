@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-25（第123篇·驯化杏仁核·vmPFC+sgACC 情绪调节回路+认知重评+恐惧消退+抑郁回路崩溃）· 主题页总数：**243**（新建3页：systems/vmPFC、concepts/emotion-regulation、concepts/cognitive-reappraisal；修订4页：systems/prefrontal-cortex rev6→rev7、systems/anterior-cingulate-cortex rev4→rev5、systems/amygdala rev6→rev7、concepts/fear-extinction rev5→rev6；图谱247节点/1425边）
+> 最后更新：2026-08-26（第124篇·PTSD 中的记忆囚笼·杏仁核/海马/vmPFC 三角失调+恐惧泛化+苔藓细胞机制+再巩固干预）· 主题页总数：**245**（新建2页：diseases/ptsd、concepts/fear-generalization；修订4页：concepts/fear-extinction rev6→rev7、systems/amygdala rev7→rev8、concepts/memory-reconsolidation rev1→rev2、systems/vmPFC rev1→rev2；图谱249节点/1444边）
 
 ---
 
@@ -150,7 +150,8 @@
 - 🔴 [海马神经发生](concepts/hippocampal-neurogenesis.md) — 啮齿类SGZ持续神经发生（证据充分）；阻断神经发生消除SSRI行为效果；人类成人神经发生规模和存在性争议（Sorrells vs Boldrini 2018对立数据）**[NEW 2026-06-13 · 争议]**
 - 🔵 [β振荡（13–30 Hz）](concepts/beta-oscillations.md) — "当前内部状态有效，无需更新"的振荡表达；三副面孔：运动ERD/PMBR（状态维持vs运动解锁）、感觉皮层γ前馈/β后向（28对灵长类视觉区域）、WM延迟期β爆发（130ms，背景态）+γ爆发（67ms，内容编码）；深层L5/6 β相位调控浅层L2/3 γ许可窗口（Bastos 2018）；PD中病理性β卡死；**[修订 rev2 2026-07-19]**
 - 🟢 [恐惧条件反射](concepts/fear-conditioning.md) — 外侧杏仁核（LA）CS+US汇聚→NMDA巧合检测→CaMKII→AMPA插入→LA-LTP；与海马LTP分子机器完全同构；约20%LA神经元形成稀疏恐惧印迹；光遗传双向因果证明（Nabavi 2014）；**新增**：已巩固恐惧记忆在 CS 再激活后进入再巩固窗口，可被选择性修改**[修订 2026-07-10]**
-- 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）；再巩固窗口消退永久消除恐惧（Monfils 2009）；**rev6新增**：Giustino & Maren 2015 系统综述（BLA亚区→IL/PL分区投射）；Sierra-Mercado 2011 双侧 IL/PL 因果证据；Q-vmPFC-03 PTSD消退障碍机制**[修订 rev5→rev6 2026-08-25]**
+- 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）；再巩固窗口消退永久消除恐惧（Monfils 2009）；**rev7新增**：Milad 2009 fMRI 直接证据（PTSD消退回忆时vmPFC+海马激活↓）；Yi 2026 整合多靶点治疗框架**[修订 rev6→rev7 2026-08-26]**
+- 🟡 [恐惧泛化](concepts/fear-generalization.md) — 条件性恐惧从原始 CS/情景扩散到相似或安全刺激的机制；核心通路：LC-NE→海马苔藓细胞抑制→颗粒细胞去抑制→情景集合重叠→BLA 共享激活（Jeong 2024，啮齿类，新兴证据）；5-HT 递质身份切换（谷氨酸→GABA）独立驱动泛化；PTSD 的核心症状之一 **[NEW 2026-08-26]**
 - 🟢 [情绪调节](concepts/emotion-regulation.md) — 五类策略（认知重评/注意部署/情绪压制/习惯化消退/内感觉重估）；vmPFC 为情绪调节枢纽的前额叶-杏仁核-脑干多层级控制回路；主动推断视角（精度权重调整）；认知重评 vs 情绪压制长期代价对比 **[NEW 2026-08-25]**
 - 🟢 [认知重评](concepts/cognitive-reappraisal.md) — 通过重解释事件含义改变情绪影响；vlPFC（语义重构）→vmPFC（情绪整合）→杏仁核（抑制）三层级回路；Steward 2021 DCM 量化 vmPFC→杏仁核负向有效连接；He 2023 TMS-fMRI 因果证明；重评 vs 压制（长期代价低）；有效性边界（感官驱动情绪效果有限） **[NEW 2026-08-25]**
 - 🟢 [REM睡眠](concepts/rem-sleep.md) — 去甲肾上腺素真空（LC沉默）+θ振荡+杏仁核-海马θ同步；情绪记忆去饱和化（SFSR假说）；Boyce 2016光遗传因果证明REM θ是情境记忆必需条件；van der Helm 2011人类fMRI证实REM降低杏仁核情绪反应 **[NEW 2026-05-31]**
@@ -280,6 +281,7 @@
 - 🔵 [意识障碍（DoC）](diseases/disorders-of-consciousness.md) — 严重脑损伤后觉醒和/或意识内容持续损害的临床综合征；昏迷→VS/UWS→MCS→CMD连续谱；前脑中间回路（GPi脱抑制→中央丘脑过度抑制→皮层去传入）；25%"无反应"患者有隐蔽意识（Bodien NEJM 2024）；多模态神经评估（任务型fMRI/EEG/PCI）正在重塑临床诊断标准和伦理框架 **[NEW 2026-08-09]**
 - 🟢 [儿童言语失用症（CAS）](diseases/childhood-apraxia-of-speech.md) — 言语运动程序化选择性障碍（非肌力或发音器官问题）；遗传异质性：30+致病基因（Morgan 2024）；FOXP2经典病因链：R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→MSN树突不全→程序化失败；多基因CAS汇聚于共同转录调控通路 **[NEW 2026-08-12]**
 - 🟢 [CNTNAP2 缺乏症 / CDFE 综合征](diseases/cntnap2-deficiency-cdfe.md) — 双等位CNTNAP2功能缺失→皮层发育不良-局灶性癫痫-语言退行-ASD-智力障碍五联征；Strauss 2006 Amish家系；动物模型（Peñagarikano 2011 Cell）复制核心表型；FOXP2→CNTNAP2轴将CAS与CDFE连接至共同遗传级联 **[NEW 2026-08-15]**
+- 🟢 [创伤后应激障碍（PTSD）](diseases/ptsd.md) — 三角失调模型：杏仁核（过度激活）/vmPFC（沉默/消退刹车失效）/海马（萎缩+苔藓细胞受损→模式分离失败）；恐惧泛化是核心症状；两条治疗靶点（消退增强 vs 再巩固干预）；5-HT 递质身份切换新发现 **[NEW 2026-08-26]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
 
