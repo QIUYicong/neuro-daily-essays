@@ -1,7 +1,82 @@
 {
-  "last_updated": "2026-08-17",
-  "total_articles": 116,
+  "last_updated": "2026-08-19",
+  "total_articles": 118,
   "entries": [
+    {
+      "date": "2026-08-19",
+      "title": "前额叶的三重奏：背外侧前额叶皮层如何同时维持目标、压制干扰与切换规则",
+      "filename": "2026-08-19-dlpfc-executive-control-three-functions.md",
+      "article_number": 118,
+      "article_number_note": "累计正确编号为#118（#116=08-17加压素，#117=08-18工作记忆）。因会话编号错误，文章文件头部和CHANGELOG显示为#105，此处以累计正确编号为准。",
+      "wiki_pages_created": [
+        "wiki/concepts/executive-control.md",
+        "wiki/concepts/cognitive-flexibility.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/prefrontal-cortex.md (rev3→rev4)",
+        "wiki/concepts/attractor-network.md (rev2→rev3)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "背外侧前额叶皮层（DLPFC）是如何通过三条相对独立的神经回路实现执行控制的三个核心功能——目标状态维持（DLPFC低维子空间+mPFC→dmStr通路）、干扰抑制（IFOF白质通路+SN→FPN网络耦合）、规则切换（SST中间神经元正交子空间门控+楔前叶→DLPFC两步时序）——的？这三个组分究竟是统一能力的三个面向还是可分离的独立回路？",
+      "open_questions_added": [
+        "Q-dlpfc-hierarchy-mechanism（中优先级）：中部LPFC层级连接强度预测个体认知能力的生物机制（髓鞘化？突触密度？中间神经元分布？）"
+      ],
+      "layer": [
+        "cognition",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network"
+      ],
+      "curriculum_track": "课程脊柱5（认知控制）→执行控制三功能分解；连接脊柱2（神经网络微回路设计：SST中间神经元正交子空间）+ 脊柱1（吸引子网络：子空间正交化计算框架延伸）",
+      "topic_tags": [
+        "executive control DLPFC prefrontal cortex",
+        "goal maintenance working memory subspace",
+        "interference suppression proactive inhibition",
+        "rule switching cognitive flexibility",
+        "SST interneurons orthogonal subspace gating",
+        "mPFC dorsomedial striatum dmStr pathway",
+        "IFOF white matter proactive interference",
+        "lateral PFC hierarchy rostral caudal gradient",
+        "precuneus DLPFC two-step timing task switching",
+        "neural manifold low-dimensional subspace",
+        "Miller Cohen 2001 bias signals",
+        "Friedman Robbins 2022 three components",
+        "Liu Wang 2023 subspace orthogonalization",
+        "Wilhelm 2023 striatum-projecting PFC",
+        "Ries 2021 white matter interference suppression",
+        "Nee D'Esposito 2016 LPFC hierarchy"
+      ],
+      "main_sources": [
+        "PMID:11283309 (Miller & Cohen 2001, Annual Rev Neurosci, abstract-only)",
+        "PMID:34408280 (Friedman & Robbins 2022, Neuropsychopharmacology, PMC8617292)",
+        "PMID:34408276 (Menon & D'Esposito 2022, Neuropsychopharmacology, PMC8616903)",
+        "PMID:33790281 (de Kloet et al. 2021, Nature Commun, PMC8012364)",
+        "PMID:37645801 (Liu & Wang 2023, Nature Commun, PMC10462002)",
+        "PMID:35331870 (Mitsuhashi et al. 2022, NeuroImage, PMC9173207)",
+        "PMID:33643192 (Ries et al. 2021, Front Neurology, PMC7902939)",
+        "PMID:26999822 (Nee & D'Esposito 2016, eLife, PMC4811776)",
+        "PMID:37919287 (Wilhelm et al. 2023, Nature Commun, PMC10622437)",
+        "PMID:37055616 (Langdon et al. 2023, Nature Rev Neurosci, PMC11058347)"
+      ],
+      "open_access_fulltext": [
+        "PMID:34408280 (PMC8617292)",
+        "PMID:34408276 (PMC8616903)",
+        "PMID:33790281 (PMC8012364)",
+        "PMID:37645801 (PMC10462002)",
+        "PMID:35331870 (PMC9173207)",
+        "PMID:33643192 (PMC7902939)",
+        "PMID:26999822 (PMC4811776)",
+        "PMID:37919287 (PMC10622437)",
+        "PMID:37055616 (PMC11058347)"
+      ],
+      "next_suggested_topics": [
+        "决策神经科学深化：从执行控制三功能到orbitofrontal-basal ganglia决策回路的计算框架",
+        "前额叶-丘脑回路深化：MD丘脑在DLPFC目标维持中的作用——中继还是主动参与者？",
+        "认知控制的发育神经科学：青少年LPFC髓鞘化进程与执行控制功能成熟的时序关系",
+        "精神分裂症的执行控制障碍：PV-GAD67-γ轴失调如何具体影响三个功能组分（目标维持/干扰抑制/规则切换）？"
+      ]
+    },
     {
       "date": "2026-08-16",
       "title": "催产素回路：五条专化投射如何将同一神经肽解码为社会记忆、奖赏与联结",

@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-24
-updated: 2026-07-15
-revision_count: 2
+updated: 2026-08-19
+revision_count: 3
 dimensions: [microcircuit, cellular, cognition]
-related: [pattern-completion, hippocampal-circuit, working-memory, complementary-learning-systems, transformer-self-attention, biased-competition]
+related: [pattern-completion, hippocampal-circuit, working-memory, complementary-learning-systems, transformer-self-attention, biased-competition, executive-control, cognitive-flexibility]
 prerequisites: [ltp, nmda-receptor, action-potential]
 opens_questions: [Q-pc-01]
 source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-15-brain-attention-transformer-qkv]
-key_sources: ["PMID:1308182", "PMID:12040087", "PMID:15272123", "arXiv:2008.02217", "DOI:10.1371/journal.pcbi.1011843"]
+key_sources: ["PMID:1308182", "PMID:12040087", "PMID:15272123", "arXiv:2008.02217", "DOI:10.1371/journal.pcbi.1011843", "PMID:37645801", "PMID:37055616"]
 ---
 
 # 吸引子网络 (Attractor Network)
@@ -75,6 +75,16 @@ $$\mathbf{q}^{(t+1)} = X^\top \, \text{softmax}(\beta X \mathbf{q}^{(t)})$$
 
 空间导航（头向细胞、网格细胞）和工作记忆（前额叶对某个值的持续维持）被认为依赖连续吸引子动力学。
 
+### 5. 正交子空间与多规则共存（新增，2026-08-19）
+
+吸引子网络框架的最新扩展是**子空间正交化**（subspace orthogonalization）：不同任务规则（如"按颜色分类"vs"按形状分类"）的群体活动占据近正交的神经子空间，允许多套规则在同一网络中共存而互不干扰（Liu & Wang 2023，PMID:37645801）。
+
+**SST 中间神经元的门控作用**：SST 细胞（树突靶向中间神经元）通过选择性抑制锥体神经元的顶端树突，维持不同子空间之间的正交隔离。沉默 SST 中间神经元会导致子空间崩溃（collapse），不同规则的表征开始混叠，任务切换准确率显著下降。
+
+这实现了从"两种规则需要完全不同的网络状态"（单纯 Hopfield 型 winner-take-all）到"两种规则共存于同一网络的不同维度"（子空间正交化）的概念升级——后者解释了为何人类可以在极短时间内完成任务切换，而无需从头"安装"新的神经状态。
+
+**与工作记忆的关联**：Langdon et al. 2023（PMID:37055616，Nature Rev Neurosci）综述发现，PFC 工作记忆内容编码在高维群体活动的低维稳定子空间中，且仅 5–10% 的 PFC 神经元表现出强直性持续放电——多数维持依赖混合选择性（mixed selectivity）神经元的集体子空间稳定性，而非单神经元的持续激活。这进一步支持了"大脑工作记忆是子空间中的稳定点"而非"放电强度的持续维持"的新图景。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -101,3 +111,4 @@ $$\mathbf{q}^{(t+1)} = X^\top \, \text{softmax}(\beta X \mathbf{q}^{(t)})$$
 
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 涵盖 Hopfield 网络基础、CA3 生物对应物和现代 Transformer 联系 · 初始置信度：中（理论框架有大量支持，但 CA3 容量估算和细节机制仍有不确定性）
 - 2026-07-15 · 修订 · 基于《同一个算法，两种实现》一文 · 扩展现代 Hopfield 网络更新规则的数学形式（β 参数与温度的关系）；新增 Ellwood 2024 的局部赫布实现机制；关联 transformer-self-attention 专页；补充与生物注意力的具体对应关系
+- 2026-08-19 · 修订 · 基于《前额叶的三重奏》第105篇文章 · 新增"正交子空间与多规则共存"节（Section 5）：子空间正交化机制、SST 中间神经元门控（Liu & Wang 2023，PMID:37645801）；PFC 工作记忆编码在低维子空间而非主要依赖持续放电（Langdon 2023，PMID:37055616）；related 新增 executive-control 和 cognitive-flexibility；key_sources 新增两条

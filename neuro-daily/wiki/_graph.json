@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "node_count": 223,
   "edge_count": 1298,
   "edge_types": [
@@ -2069,6 +2069,51 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/activity-silent-wm.md"
+    },
+    {
+      "id": "executive-control",
+      "title": "执行控制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/executive-control.md"
+    },
+    {
+      "id": "cognitive-flexibility",
+      "title": "认知灵活性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cognitive-flexibility.md"
+    },
+    {
+      "id": "proactive-interference",
+      "title": "前摄干扰",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/executive-control.md"
+    },
+    {
+      "id": "prefrontal-hierarchy",
+      "title": "前额叶层级组织",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/cognitive-flexibility.md"
+    },
+    {
+      "id": "neural-subspace",
+      "title": "神经子空间",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/attractor-network.md"
     }
   ],
   "edges": [
@@ -9477,6 +9522,60 @@
       "to": "attractor-network",
       "type": "mechanism-of",
       "note": "吸引子网络实现工作记忆的持续状态维持"
+    },
+    {
+      "from": "executive-control",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of",
+      "note": ""
+    },
+    {
+      "from": "executive-control",
+      "to": "working-memory",
+      "type": "supports",
+      "note": ""
+    },
+    {
+      "from": "cognitive-flexibility",
+      "to": "prefrontal-hierarchy",
+      "type": "mechanism-of",
+      "note": ""
+    },
+    {
+      "from": "neural-subspace",
+      "to": "attractor-network",
+      "type": "related",
+      "note": ""
+    },
+    {
+      "from": "neural-subspace",
+      "to": "executive-control",
+      "type": "mechanism-of",
+      "note": ""
+    },
+    {
+      "from": "cognitive-flexibility",
+      "to": "executive-control",
+      "type": "is-a",
+      "note": ""
+    },
+    {
+      "from": "proactive-interference",
+      "to": "executive-control",
+      "type": "related",
+      "note": ""
+    },
+    {
+      "from": "executive-control",
+      "to": "dorsal-attention-network",
+      "type": "supports",
+      "note": ""
+    },
+    {
+      "from": "prefrontal-hierarchy",
+      "to": "cognitive-flexibility",
+      "type": "supports",
+      "note": ""
     }
   ],
   "dangling_references": [

@@ -1,0 +1,115 @@
+# 运行日志 · 2026-08-19
+
+**任务**：每日神经科学文章创作 + wiki 知识库固结
+**文章编号**：#118（文章文件头部因会话编号错误显示#105；累计正确编号为#118）
+**主题**：前额叶执行控制三功能分解（目标维持/干扰抑制/规则切换）
+
+---
+
+## 检索策略
+
+**主要检索词（PubMed / PMC）**：
+- "executive control prefrontal cortex three components"
+- "goal maintenance working memory DLPFC subspace"
+- "proactive interference suppression white matter IFOF"
+- "rule switching prefrontal cortex SST interneurons"
+- "lateral PFC hierarchy rostral caudal gradient"
+- "neural manifold working memory PFC"
+- "mPFC striatum working memory maintenance optogenetics"
+- "subspace orthogonalization task switching"
+
+**筛选标准**：
+1. 需要有开放全文（PMC/PubMed Central）或摘要具备足够的方法+结果细节
+2. 优先因果实验（光遗传、损伤、TMS）而非纯相关研究
+3. 需有具体效应量或统计数据（不接受定性描述）
+4. 物种多样性：优先有人类数据，同时包含啮齿类因果实验
+
+---
+
+## 采用来源（10篇）
+
+| 编号 | PMID | 作者/年份 | 用途 | 状态 |
+|------|------|---------|------|------|
+| S1 | 11283309 | Miller & Cohen 2001 | PFC整合理论框架 | 摘要仅读（无开放全文）|
+| S2 | 34408280 | Friedman & Robbins 2022 | 三组分框架+灵长类损伤双分离 | PMC8617292 开放全文 |
+| S3 | 34408276 | Menon & D'Esposito 2022 | 六大PFC网络框架+SN→FPN机制 | PMC8616903 开放全文 |
+| S4 | 33790281 | de Kloet et al. 2021 | mPFC四条输出通路（大鼠，光遗传） | PMC8012364 开放全文 |
+| S5 | 37645801 | Liu & Wang 2023 | 子空间正交化+SST中间神经元门控（RNN计算模型） | PMC10462002 开放全文 |
+| S6 | 35331870 | Mitsuhashi et al. 2022 | 规则切换两步时序（颅内EEG+DTI，n=3癫痫患者） | PMC9173207 开放全文 |
+| S7 | 33643192 | Ries et al. 2021 | 外囊/IFOF白质损伤预测干扰抑制（n=55单侧脑损伤） | PMC7902939 开放全文 |
+| S8 | 26999822 | Nee & D'Esposito 2016 | LPFC尾侧→中部→额极层级梯度（fMRI+DCM） | PMC4811776 开放全文 |
+| S9 | 37919287 | Wilhelm et al. 2023 | mPFC→dmStr通路WM维持期特异激活（小鼠光遗传+纤维光度） | PMC10622437 开放全文 |
+| S10 | 37055616 | Langdon et al. 2023 | PFC WM低维子空间综述（5-10%强直放电神经元） | PMC11058347 开放全文 |
+
+**开放全文：9篇 / 摘要仅读：1篇**
+
+---
+
+## 拒绝来源
+
+- **PMID:41478518 (Boroujeni et al. 2026)**: 关于PFC跨物种比较，已收录于prefrontal-cortex wiki页；本文未重复使用（内容已在wiki中）
+- **PMID:37919287 (Wilhelm 2023)**: 最初搜索时重复出现，已纳入S9
+- 多篇关于D1受体调节/工作记忆经典电生理的研究（Goldman-Rakic系列）：已被之前文章（#117工作记忆文章）涵盖，本文不重复
+
+---
+
+## Wiki 固结
+
+**新建页面（2）**：
+- `wiki/concepts/executive-control.md`（status: mainstream, confidence: high, rev1）
+- `wiki/concepts/cognitive-flexibility.md`（status: established, confidence: high, rev1）
+
+**修订页面（2）**：
+- `wiki/systems/prefrontal-cortex.md` rev3→rev4
+- `wiki/concepts/attractor-network.md` rev2→rev3
+
+**知识图谱**：227节点→232节点，1329边→1338边（+5节点，+9边）
+
+---
+
+## 矛盾检测
+
+**新矛盾（0）**：
+本文内容与知识库现有主张一致，均为补充深化：
+- 子空间正交化与吸引子网络框架兼容（后者已有正交子空间相关概念）
+- mPFC→dmStr通路与工作记忆的多巴胺D1调节框架兼容（不同机制层面）
+- IFOF白质通路发现不与现有皮层损伤研究矛盾（互补视角）
+
+---
+
+## 新增未解问题（1）
+
+- Q-dlpfc-hierarchy-mechanism（中优先级）：中部LPFC层级连接强度预测认知能力的生物机制（髓鞘化？突触密度？中间神经元分布？）
+
+---
+
+## Git 状态
+
+**分支**：claude/funny-einstein-lb5v0x（开发分支）
+**目标**：main（通过PR或直接推送）
+
+**已创建/修改文件**：
+- neuro-daily/articles/2026-08-19-dlpfc-executive-control-three-functions.md（新建，~5000字）
+- neuro-daily/notes/2026-08-19-reading-notes.md（新建）
+- neuro-daily/sources/2026-08-19-sources.json（新建）
+- neuro-daily/wiki/concepts/executive-control.md（新建）
+- neuro-daily/wiki/concepts/cognitive-flexibility.md（新建）
+- neuro-daily/wiki/systems/prefrontal-cortex.md（修订 rev3→rev4）
+- neuro-daily/wiki/concepts/attractor-network.md（修订 rev2→rev3）
+- neuro-daily/wiki/_graph.json（更新：227→232节点，1329→1338边）
+- neuro-daily/wiki/CHANGELOG.md（新增2026-08-19条目）
+- neuro-daily/wiki/index.md（更新：标题行、新增2个概念条目、课程进度表）
+- neuro-daily/state/topic_ledger.json（新增article #118条目，total_articles→118）
+- neuro-daily/state/unresolved_questions.md（新增Q-dlpfc-hierarchy-mechanism）
+- neuro-daily/state/source_registry.json（新增9个开放来源）
+- neuro-daily/state/monthly_synthesis.md（更新：月度摘要表+2026-08-19日条目）
+- neuro-daily/logs/2026-08-19-run.log（本文件，新建）
+
+**注意**：本次run在claude/funny-einstein-lb5v0x分支上进行。需推送到远程，再合并到main。
+
+---
+
+## 会话备注
+
+**会话编号误差说明**：本次运行（2026-08-19 DLPFC执行控制文章）被前一会话的压缩摘要错误地标记为"第105篇"。实际上，根据topic_ledger.json（total_articles=116，最后条目为#115于2026-08-16）和vasopressin文章sources.json（article_number=116，2026-08-17），本文应为第118篇。article文件头部、CHANGELOG、sources.json已使用错误编号"#105"，topic_ledger使用正确编号"#118"并包含说明注释。
+

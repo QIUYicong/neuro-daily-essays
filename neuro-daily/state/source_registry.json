@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17",
+  "last_updated": "2026-08-19",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7915,6 +7915,155 @@
       "date_used": "2026-08-18",
       "topic": "working-memory-persistent-activity-silent",
       "covered": "人类MTL持续放电维持未关注WM项目"
+    },
+    {
+      "pmid": "34408280",
+      "pmcid": "PMC8617292",
+      "title": "The role of prefrontal cortex in cognitive control and executive function",
+      "authors_short": "Friedman NP, Robbins TW",
+      "journal": "Neuropsychopharmacology",
+      "year": 2022,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-dlpfc-executive-control-three-functions.md"
+      ],
+      "aspects_covered": [
+        "执行控制三组分框架（goal maintenance/interference suppression/rule switching）",
+        "灵长类损伤双分离（dlPFC→WM，vlPFC→灵活性）",
+        "双生子行为遗传学共同因子+特异方差"
+      ]
+    },
+    {
+      "pmid": "34408276",
+      "pmcid": "PMC8616903",
+      "title": "The role of PFC networks in cognitive control and executive function",
+      "authors_short": "Menon V, D'Esposito M",
+      "journal": "Neuropsychopharmacology",
+      "year": 2022,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-dlpfc-executive-control-three-functions.md"
+      ],
+      "aspects_covered": [
+        "六大PFC网络（FPN/SN/CON/DAN/VAN/DMN）",
+        "SN→FPN→DMN动态切换",
+        "DLPFC作为FPN锚节点"
+      ]
+    },
+    {
+      "pmid": "33790281",
+      "pmcid": "PMC8012364",
+      "title": "Bi-directional regulation of cognitive control by distinct prefrontal cortical output neurons to thalamus and striatum",
+      "authors_short": "de Kloet SF, Mansvelder HD et al.",
+      "journal": "Nature Communications",
+      "year": 2021,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-dlpfc-executive-control-three-functions.md"
+      ],
+      "aspects_covered": [
+        "mPFC四条输出通路（dmPFC→MDL/vmPFC→MDM/dmPFC→DMS/vmPFC→VMS）",
+        "光遗传+化学遗传双向认知控制调控（大鼠5-CSRTT）"
+      ]
+    },
+    {
+      "pmid": "37645801",
+      "pmcid": "PMC10462002",
+      "title": "Flexible gating between subspaces in a neural network model of internally guided task switching",
+      "authors_short": "Liu Y, Wang XJ",
+      "journal": "Nature Communications",
+      "year": 2023,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-dlpfc-executive-control-three-functions.md"
+      ],
+      "aspects_covered": [
+        "子空间正交化机制",
+        "SST中间神经元树突抑制门控子空间",
+        "规则×错误反馈联合选择性神经元触发切换"
+      ]
+    },
+    {
+      "pmid": "35331870",
+      "pmcid": "PMC9173207",
+      "title": "Temporally and functionally distinct large-scale brain network dynamics supporting task switching",
+      "authors_short": "Mitsuhashi T et al.",
+      "journal": "NeuroImage",
+      "year": 2022,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-dlpfc-executive-control-three-functions.md"
+      ],
+      "aspects_covered": [
+        "规则切换两步时序（楔前叶先激活→DLPFC后激活，约120ms间隔）",
+        "颅内EEG+弥散纤维束追踪"
+      ]
+    },
+    {
+      "pmid": "33643192",
+      "pmcid": "PMC7902939",
+      "title": "Neural Underpinnings of Proactive Interference in Working Memory: Evidence From Patients With Unilateral Lesions",
+      "authors_short": "Ries SK, Dronkers NF, Knight RT",
+      "journal": "Frontiers in Neurology",
+      "year": 2021,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-dlpfc-executive-control-three-functions.md"
+      ],
+      "aspects_covered": [
+        "单侧脑损伤患者（n=55）",
+        "外囊/IFOF白质损伤比皮层更预测干扰抑制障碍（p=0.042）"
+      ]
+    },
+    {
+      "pmid": "26999822",
+      "pmcid": "PMC4811776",
+      "title": "The hierarchical organization of the lateral prefrontal cortex",
+      "authors_short": "Nee DE, D'Esposito M",
+      "journal": "eLife",
+      "year": 2016,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-dlpfc-executive-control-three-functions.md"
+      ],
+      "aspects_covered": [
+        "外侧PFC尾侧→中部→额极层级梯度",
+        "中部LPFC整合双向输入（层级顶点）",
+        "层级连接强度预测个体认知能力（DCM）"
+      ]
+    },
+    {
+      "pmid": "37919287",
+      "pmcid": "PMC10622437",
+      "title": "Striatum-projecting prefrontal cortex neurons support working memory maintenance",
+      "authors_short": "Wilhelm CJ, Johnson AR et al.",
+      "journal": "Nature Communications",
+      "year": 2023,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-dlpfc-executive-control-three-functions.md"
+      ],
+      "aspects_covered": [
+        "mPFC→背内侧纹状体通路在WM维持期光遗传抑制降低成绩9%",
+        "纤维光度法实时监测",
+        "NMDAR依赖"
+      ]
+    },
+    {
+      "pmid": "37055616",
+      "pmcid": "PMC11058347",
+      "title": "A unifying perspective on neural manifolds and circuits for cognition",
+      "authors_short": "Langdon AJ, Genkin M, Engel TA",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2023,
+      "first_used": "2026-08-19",
+      "used_in_articles": [
+        "2026-08-19-dlpfc-executive-control-three-functions.md"
+      ],
+      "aspects_covered": [
+        "PFC工作记忆低维稳定子空间（5-10%神经元强直放电）",
+        "混合选择性神经元集体子空间稳定性"
+      ]
     }
   ],
   "total_sources": 449,

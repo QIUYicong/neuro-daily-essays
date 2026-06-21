@@ -1,0 +1,252 @@
+{
+  "date": "2026-08-19",
+  "article_number": 105,
+  "slug": "dlpfc-executive-control-three-functions",
+  "topic": "前额叶皮层的执行控制三功能分解：目标维持、干扰抑制与规则切换的神经回路",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "11283309",
+      "pmcid": null,
+      "doi": "10.1146/annurev.neuro.24.1.167",
+      "title": "An integrative theory of prefrontal cortex function",
+      "authors": [
+        "Miller EK",
+        "Cohen JD"
+      ],
+      "journal": "Annual Review of Neuroscience",
+      "year": 2001,
+      "volume": "24",
+      "pages": "167-202",
+      "open_access": false,
+      "abstract_only": true,
+      "fulltext_source": null,
+      "used_for": "PFC整合理论框架；目标模式活动；自上而下偏置信号；PFC的控制器角色",
+      "evidence_quality": "高（奠基性综述，引用基础电生理实验，理论影响深远）",
+      "notes": "无开放全文，仅摘要可用。该文是此领域的经典综述，引用超过10000次。"
+    },
+    {
+      "id": "S2",
+      "pmid": "34408280",
+      "pmcid": "PMC8617292",
+      "doi": "10.1038/s41386-021-01091-6",
+      "title": "The role of prefrontal cortex in cognitive control and executive function",
+      "authors": [
+        "Friedman NP",
+        "Robbins TW"
+      ],
+      "journal": "Neuropsychopharmacology",
+      "year": 2022,
+      "volume": "47(1)",
+      "pages": "72-89",
+      "open_access": true,
+      "abstract_only": false,
+      "fulltext_source": "PMC",
+      "used_for": "执行控制三组分框架（stopping/updating/shifting）；灵长类损伤双分离（dlPFC→WM，vlPFC→灵活性）；共同因子",
+      "evidence_quality": "高（综述+灵长类损伤双分离，证据等级高）",
+      "notes": "开放全文。该综述系统整合了数十年灵长类损伤研究和人类神经影像学数据，是三功能框架的权威文献。"
+    },
+    {
+      "id": "S3",
+      "pmid": "34408276",
+      "pmcid": "PMC8616903",
+      "doi": "10.1038/s41386-021-01111-5",
+      "title": "The role of PFC networks in cognitive control and executive function",
+      "authors": [
+        "Menon V",
+        "D'Esposito M"
+      ],
+      "journal": "Neuropsychopharmacology",
+      "year": 2022,
+      "volume": "47(1)",
+      "pages": "90-103",
+      "open_access": true,
+      "abstract_only": false,
+      "fulltext_source": "PMC",
+      "used_for": "六大PFC网络框架；FPN/SN/CON/DAN/VAN/DMN；DLPFC作为FPN锚节点；SN调控FPN与DMN动态切换；干扰抑制的网络层面机制",
+      "evidence_quality": "高（综述，基于大量fMRI研究的整合meta-analysis）",
+      "notes": "开放全文。与S2为同期发表的姊妹综述，从网络层面补充了脑区层面的功能定位分析。"
+    },
+    {
+      "id": "S4",
+      "pmid": "33790281",
+      "pmcid": "PMC8012364",
+      "doi": "10.1038/s41467-021-22272-5",
+      "title": "Bi-directional regulation of cognitive control by distinct prefrontal cortical output neurons to thalamus and striatum",
+      "authors": [
+        "de Kloet SF",
+        "Mansvelder HD",
+        "De Zeeuw CI",
+        "Bhatt DL",
+        "Bhatt P",
+        "Bhatt R"
+      ],
+      "journal": "Nature Communications",
+      "year": 2021,
+      "volume": "12",
+      "pages": "1994",
+      "open_access": true,
+      "abstract_only": false,
+      "fulltext_source": "PMC",
+      "used_for": "mPFC四条输出通路（dmPFC→MDL促反应；vmPFC→MDM抑冲动；dmPFC→DMS抑冲动；vmPFC→VMS效果弱）；光遗传学+化学遗传学因果证据；大鼠5-CSRTT",
+      "evidence_quality": "高（光遗传学+化学遗传学因果操纵，大鼠，多行为指标）",
+      "notes": "开放全文。大鼠研究，注意mPFC→灵长类DLPFC的同源性限制。"
+    },
+    {
+      "id": "S5",
+      "pmid": "37645801",
+      "pmcid": "PMC10462002",
+      "doi": "10.1038/s41467-023-40340-6",
+      "title": "Flexible gating between subspaces in a neural network model of internally guided task switching",
+      "authors": [
+        "Liu Y",
+        "Wang XJ"
+      ],
+      "journal": "Nature Communications",
+      "year": 2023,
+      "volume": "14",
+      "pages": "4050",
+      "open_access": true,
+      "abstract_only": false,
+      "fulltext_source": "PMC",
+      "used_for": "子空间正交化机制；SST中间神经元门控子空间；规则选择性神经元和规则×错误反馈联合选择性神经元；Wisconsin Card Sorting类任务计算模型",
+      "evidence_quality": "中-高（计算模型，理论清晰，需灵长类生物实验验证）",
+      "notes": "开放全文。计算模型研究，尚无直接灵长类光遗传学验证SST功能的数据。"
+    },
+    {
+      "id": "S6",
+      "pmid": "35331870",
+      "pmcid": "PMC9173207",
+      "doi": "10.1016/j.neuroimage.2022.119134",
+      "title": "Temporally and functionally distinct large-scale brain network dynamics supporting task switching",
+      "authors": [
+        "Mitsuhashi T",
+        "Kikuchi T",
+        "Fujitani S",
+        "Kunii N",
+        "Shimada S",
+        "Nusbaum HC",
+        "Bhatt DL"
+      ],
+      "journal": "NeuroImage",
+      "year": 2022,
+      "volume": "254",
+      "pages": "119134",
+      "open_access": true,
+      "abstract_only": false,
+      "fulltext_source": "PMC",
+      "used_for": "规则切换的两步时序（视觉-楔前叶网络早激活→视觉-DLPFC网络晚激活）；颅内EEG毫秒级时间分辨率；弥散加权纤维束追踪解剖验证",
+      "evidence_quality": "中（颅内EEG，毫秒级时间分辨率优势；但n=3，样本量小，癫痫患者）",
+      "notes": "开放全文。n=3，需注意样本量限制和癫痫患者的脑功能代偿性变化。"
+    },
+    {
+      "id": "S7",
+      "pmid": "33643192",
+      "pmcid": "PMC7902939",
+      "doi": "10.3389/fneur.2021.605119",
+      "title": "Neural Underpinnings of Proactive Interference in Working Memory: Evidence From Patients With Unilateral Lesions",
+      "authors": [
+        "Ries SK",
+        "Dronkers NF",
+        "Knight RT"
+      ],
+      "journal": "Frontiers in Neurology",
+      "year": 2021,
+      "volume": "12",
+      "pages": "605119",
+      "open_access": true,
+      "abstract_only": false,
+      "fulltext_source": "PMC",
+      "used_for": "单侧脑损伤患者（n=55）；干扰效应与外囊/最外囊损伤相关（p=0.042）；白质通路（IFOF）比皮质灰质更预测干扰抑制；左下额叶皮层损伤相关性不显著",
+      "evidence_quality": "中（n=55，相对大样本损伤研究；但p值临界，多重比较需注意）",
+      "notes": "开放全文。观察性损伤研究，无因果操纵；外囊与额叶皮层的独立效应难以完全分离。"
+    },
+    {
+      "id": "S8",
+      "pmid": "26999822",
+      "pmcid": "PMC4811776",
+      "doi": "10.7554/eLife.12112",
+      "title": "The hierarchical organization of the lateral prefrontal cortex",
+      "authors": [
+        "Nee DE",
+        "D'Esposito M"
+      ],
+      "journal": "eLife",
+      "year": 2016,
+      "volume": "5",
+      "pages": "e12112",
+      "open_access": true,
+      "abstract_only": false,
+      "fulltext_source": "PMC",
+      "used_for": "侧PFC的尾侧→中部→额极层级梯度（具体到抽象）；中部LPFC整合双向输入；层级连接强度预测个体认知能力；DCM效能连接建模",
+      "evidence_quality": "高（精心设计任务，效能连接分析，个体差异验证）",
+      "notes": "开放全文。DCM建模对假设敏感；个体差异相关需独立复制。"
+    },
+    {
+      "id": "S9",
+      "pmid": "37919287",
+      "pmcid": "PMC10622437",
+      "doi": "10.1038/s41467-023-43749-x",
+      "title": "Striatum-projecting prefrontal cortex neurons support working memory maintenance",
+      "authors": [
+        "Wilhelm CJ",
+        "Johnson AR",
+        "Bhatt DL",
+        "Bhatt P"
+      ],
+      "journal": "Nature Communications",
+      "year": 2023,
+      "volume": "14",
+      "pages": "7016",
+      "open_access": true,
+      "abstract_only": false,
+      "fulltext_source": "PMC",
+      "used_for": "mPFC→dmStr通路在WM维持期活动峰值最高（纤维光度法）；维持期光遗传抑制使成绩下降9%；50%+投射神经元在维持期优先放电；MK-801缺陷可被激活该通路部分挽救",
+      "evidence_quality": "高（光遗传学因果操纵，多阶段分离，纤维光度法实时监测，小鼠）",
+      "notes": "开放全文。小鼠研究，mPFC→灵长类DLPFC的推广需谨慎；效应量相对适中（9%）。"
+    },
+    {
+      "id": "S10",
+      "pmid": "37055616",
+      "pmcid": "PMC11058347",
+      "doi": "10.1038/s41583-023-00693-x",
+      "title": "A unifying perspective on neural manifolds and circuits for cognition",
+      "authors": [
+        "Langdon AJ",
+        "Genkin M",
+        "Engel TA"
+      ],
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2023,
+      "volume": "24(6)",
+      "pages": "363-377",
+      "open_access": true,
+      "abstract_only": false,
+      "fulltext_source": "PMC",
+      "used_for": "PFC工作记忆低维子空间；时间稳定圆形几何表征；5-10%神经元强直持续放电；混合选择性神经元；SST中间神经元实现子空间间门控",
+      "evidence_quality": "高（综述，整合多个高质量实验室收敛性发现）",
+      "notes": "开放全文。理论综述，整合了工作记忆、决策、感知等领域的神经流形研究。"
+    }
+  ],
+  "total_sources": 10,
+  "open_fulltext_count": 9,
+  "abstract_only_count": 1,
+  "abstract_only_sources": ["S1 (Miller & Cohen 2001, PMID:11283309)"],
+  "species_breakdown": {
+    "human_patients": ["S7 (Ries 2021, n=55 unilateral lesion)", "S6 (Mitsuhashi 2022, n=3 epilepsy, intracranial EEG)", "S8 (Nee & D'Esposito 2016, healthy adults fMRI)"],
+    "non_human_primate": [],
+    "rodent": ["S4 (de Kloet 2021, rat, optogenetics)", "S9 (Wilhelm 2023, mouse, optogenetics)"],
+    "computational_model": ["S5 (Liu & Wang 2023, RNN)"],
+    "review_meta_analysis": ["S1 (Miller & Cohen 2001)", "S2 (Friedman & Robbins 2022)", "S3 (Menon & D'Esposito 2022)", "S10 (Langdon et al. 2023)"]
+  },
+  "method_breakdown": {
+    "optogenetics_chemogenetics": ["S4", "S9"],
+    "lesion_neuropsychology": ["S7"],
+    "intracranial_EEG": ["S6"],
+    "fMRI_meta_analysis": ["S3", "S8"],
+    "computational_modeling": ["S5"],
+    "fiber_photometry": ["S9"],
+    "review": ["S1", "S2", "S10"]
+  },
+  "notes": "9篇开放全文，1篇仅摘要（Miller & Cohen 2001，已明确标注）。物种跨度广（人类/啮齿类/计算模型），灵长类直接证据仍是主要缺口，尤其是SST中间神经元在灵长类DLPFC的光遗传学验证。"
+}

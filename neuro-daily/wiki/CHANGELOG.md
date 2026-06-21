@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-08-19（第105篇）：前额叶执行控制三功能分解
+
+**来源文章**：`articles/2026-08-19-dlpfc-executive-control-three-functions.md`
+
+**新建页面（2）**：
+- `concepts/executive-control.md` 创建 — 执行控制三功能框架（目标维持/干扰抑制/规则切换），综合 Friedman 2022三组分框架、Wilhelm 2023光遗传学证据、Ries 2021白质通路发现、Liu & Wang 2023 SST子空间门控；status=mainstream / confidence=high
+- `concepts/cognitive-flexibility.md` 创建 — 认知灵活性机制，SST中间神经元正交子空间门控，LPFC层级梯度，两步时序（楔前叶→DLPFC）；status=established / confidence=high
+
+**修订页面（3）**：
+- `systems/prefrontal-cortex.md` rev3→rev4 — 新增"执行控制三功能分解"完整节（目标维持子空间机制、干扰抑制白质通路、规则切换SST门控）、mPFC双向输出通路（de Kloet 2021）、LPFC层级梯度（Nee 2016）；related新增executive-control/cognitive-flexibility/attractor-network；key_sources新增6条；opens_questions新增Q-dlpfc-hierarchy-mechanism
+- `concepts/attractor-network.md` rev2→rev3 — 新增Section 5"正交子空间与多规则共存"：子空间正交化、SST中间神经元树突门控（Liu & Wang 2023）、PFC工作记忆低维子空间（Langdon 2023，仅5–10%神经元强直放电）；related新增executive-control/cognitive-flexibility；key_sources新增2条
+
+**矛盾登记（0）**：无新矛盾（新内容与既有wiki主张一致，均为补充深化）
+
+**新增悬空引用处理（0）**：所有新页related节点均已存在于图谱
+
+**新增开放问题（1）**：
+- Q-dlpfc-hierarchy-mechanism（中优先级）：中部 LPFC 层级连接强度预测认知能力的生物机制是什么？（髓鞘化？突触密度？特定中间神经元分布？）
+
+**图谱**：227节点→232节点，1329边→1338边（+5节点，+9边）
+
+---
+
 ## 2026-08-18 · 文章 #104 · 工作记忆的两种面孔：持续放电与活动无声机制之争
 
 **核心主题**：工作记忆维持机制争论全景；Goldman-Rakic持续放电经典图景；Wang XJ吸引子网络+NMDA受体证据；Stokes 2015活动无声框架+STSP机制；Lundqvist 2016 Gamma/Beta爆发间歇编码；Panichello 2024 Neuropixels开-关状态大综合；Thrower 2023持续放电神经元信息优势；Lara/Wallis PFC执行控制视角；Paluch 2025人类MTL持续放电；Beukers 2021活动无声vs情节记忆挑战；AI Transformer对照。

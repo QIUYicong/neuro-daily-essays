@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-01
-revision_count: 3
-dimensions: [brain-region, cognition, microcircuit, behavior]
-related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus]
+updated: 2026-08-19
+revision_count: 4
+dimensions: [brain-region, cognition, microcircuit, behavior, whole-brain-network]
+related: [working-memory, persistent-activity, gamma-oscillations, pv-interneurons, sst-interneurons, vip-interneurons, nmda-receptor, memory-consolidation, global-workspace-theory, consciousness-ignition, dorsal-attention-network, thalamus, executive-control, cognitive-flexibility, attractor-network]
 prerequisites: [pyramidal-neuron, pv-interneurons, nmda-receptor]
-opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS]
-key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752"]
+opens_questions: [Q-wm-pfc-content-vs-control, Q-pfc-human-specificity, Q-dan-02, Q-dlpfc-hierarchy-mechanism]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-08-19-dlpfc-executive-control-three-functions]
+key_sources: ["PMID:7695894", "PMID:21345366", "PMID:41478518", "PMID:39381500", "PMID:13679398", "PMID:11994752", "PMID:34408280", "PMID:37919287", "PMID:26999822", "PMID:33790281"]
 ---
 
 # 前额叶皮层（Prefrontal Cortex, PFC）
@@ -53,14 +53,42 @@ dlPFC 工作记忆对多巴胺浓度极度敏感（倒 U 型关系）：
 - 猕猴 → 人类：dlPFC 进一步扩大，L3d 锥体细胞更高、棘更多、连接更复杂
 - 人类特有的语言/符号工作记忆是否有独特神经机制，目前无法侵入性记录验证
 
+## 执行控制三功能分解（新增，2026-08-19）
+
+DLPFC 实现执行控制的三个可分离组分，各有独立回路（Friedman & Robbins 2022，PMID:34408280）：
+
+### 目标维持
+- **神经子空间机制**：工作记忆内容编码在高维群体活动的低维稳定子空间（非主要依赖强直性持续放电；仅5–10%的PFC神经元表现出强直性放电，Langdon et al. 2023，PMID:37055616）
+- **mPFC→背内侧纹状体（dmStr）通路**：维持期特异性激活，光遗传抑制仅在维持期降低成绩约9%（Wilhelm et al. 2023，PMID:37919287）
+
+### 干扰抑制
+- **白质通路是关键**：外囊/下额枕束（IFOF）损伤比 LIFG 皮层损伤更能预测干扰抑制障碍（Ries et al. 2021，PMID:33643192）
+- **网络层面**：显著性网络（SN）→额顶网络（FPN）耦合介导，同时 SN 抑制 DMN（Menon & D'Esposito 2022，PMID:34408276）
+
+### 规则切换
+- **正交子空间门控**：不同规则的群体活动占据近正交神经子空间；SST 中间神经元树突抑制维持子空间隔离，沉默后崩溃（Liu & Wang 2023，PMID:37645801）
+- **两步时序**：楔前叶网络（注意重定向，先激活）→ DLPFC 网络（规则重映射，约120ms后），颅内EEG验证（Mitsuhashi et al. 2022，PMID:35331870）
+
+### LPFC 层级梯度（Nee & D'Esposito 2016，PMID:26999822）
+- 尾侧 LPFC（BA44/45）：具体规则（特征层面）
+- 中部 LPFC（BA46）：背景/元决策（**层级顶点**，整合上下行输入，预测认知能力）
+- 额极（BA10）：时序抽象规划
+
+### mPFC 的双向输出（de Kloet et al. 2021，PMID:33790281）
+四条输出通路（大鼠）：dmPFC→MDL（丘脑，促进反应）、vmPFC→MDM（丘脑，抑制冲动）、dmPFC→DMS（纹状体，抑制冲动）、vmPFC→VMS（纹状体，效果微弱）——相对（促进 vs 抑制）的认知控制信号并行存在。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
 |------|----------|------|--------|
 | dlPFC 延迟期放电是工作记忆的神经相关物 | 猕猴电生理 + 损毁实验 | Goldman-Rakic 1995 (PMID:7695894) | 高 |
-| D1 受体倒 U 型调节 dlPFC 回路 | 猕猴微量注射 + 单单元记录 | Arnsten 2011 (PMID:21345366, PMC:PMC3115784) | 高 |
+| D1 受体倒 U 型调节 dlPFC 回路 | 猕猴微量注射 + 单单元记录 | Arnsten 2011 (PMID:21345366) | 高 |
 | dlPFC L3d 在精神分裂症中选择性损伤 | 人类尸检 | Arnsten 2011; Hughes 2024 | 高 |
-| PFC 中间神经元多样性支撑认知功能 | 灵长类 + 啮齿类综述 | Boroujeni et al. 2026 (PMID:41478518, PMC:PMC12924665) | 高 |
+| PFC 中间神经元多样性支撑认知功能 | 灵长类 + 啮齿类综述 | Boroujeni et al. 2026 (PMID:41478518) | 高 |
+| mPFC→dmStr通路在WM维持期特异性激活 | 光遗传+纤维光度（小鼠） | Wilhelm et al. 2023 (PMID:37919287) | 高（因果）|
+| 白质通路（外囊/IFOF）比皮层更预测干扰抑制 | 单侧脑损伤患者n=55 | Ries et al. 2021 (PMID:33643192) | 中（相关）|
+| SST沉默导致规则子空间崩溃 | 循环神经网络模型 | Liu & Wang 2023 (PMID:37645801) | 中（模型，需体内验证）|
+| LPFC尾侧→中部→额极层级梯度 | fMRI + 动态因果建模 | Nee & D'Esposito 2016 (PMID:26999822) | 高 |
 
 ## 连接
 
