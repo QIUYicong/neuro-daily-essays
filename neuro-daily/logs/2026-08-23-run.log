@@ -126,5 +126,5 @@
   - 修改 state/unresolved_questions.md（+4问题）
   - 修改 state/monthly_synthesis.md（+今日摘要）
   - 新增 logs/2026-08-23-run.log（本文件）
-- **Commit**：待执行
-- **Push**：待执行（目标：main）
+- **Commit**：4ddb3ef — "Add #121: 背侧前扣带皮层的三重计算（dACC/MCC 认知控制）"
+- **Push**：成功（main，971e8ce → 4ddb3ef）
