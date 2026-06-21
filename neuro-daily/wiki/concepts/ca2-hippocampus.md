@@ -6,14 +6,14 @@ type: structure
 status: mainstream
 confidence: high
 created: 2026-08-14
-updated: 2026-08-14
-revision_count: 1
+updated: 2026-08-16
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition, behavior]
-related: [hippocampal-circuit, place-cells, time-cells, sharp-wave-ripples, social-memory, vasopressin, rgs14, ltp, mgluR-ltd, theta-oscillations, pattern-completion, pattern-separation]
+related: [hippocampal-circuit, place-cells, time-cells, sharp-wave-ripples, social-memory, vasopressin, oxytocin, supramammillary-nucleus, rgs14, ltp, mgluR-ltd, theta-oscillations, pattern-completion, pattern-separation]
 prerequisites: [hippocampal-circuit, synaptic-transmission, ltp]
-opens_questions: [Q-tc-01, Q-ca2-function, Q-ca2-pnn-plasticity-window, Q-ca2-disease-mechanism]
-source_articles: [2026-08-14-ca2-hippocampus-social-memory-temporal-context]
-key_sources: ["PMID:24572357", "PMID:33431691", "PMID:31874067", "PMID:34201943", "PMID:27593179", "PMID:36971428", "PMID:24863146", "PMID:29705549", "PMID:36575880"]
+opens_questions: [Q-tc-01, Q-ca2-function, Q-ca2-pnn-plasticity-window, Q-ca2-disease-mechanism, Q-oxt-01]
+source_articles: [2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-08-16-oxytocin-circuit-social-memory-bonding]
+key_sources: ["PMID:24572357", "PMID:33431691", "PMID:31874067", "PMID:34201943", "PMID:27593179", "PMID:36971428", "PMID:24863146", "PMID:29705549", "PMID:36575880", "PMID:38052983"]
 ---
 
 # CA2 区（海马第二角, Hippocampal CA2）
@@ -127,7 +127,9 @@ Oliva et al. 2016（PMID:27593179）用高密度硅探针在同一大鼠同步�
 - [[sharp-wave-ripples]] — CA2 是 SWR 的主要触发者，50% SWR 由 CA2 ramping cells 引发（Oliva 2016）
 - [[ltp]] — CA2 对标准 Hebbian LTP 有 RGS14 介导的主动抗性（区别于 CA1/CA3）
 - [[social-memory]] — CA2 灭活选择性消除社会识别记忆（Hitti & Siegelbaum 2014）
-- [[vasopressin]] — Avpr1b 信号在 CA2 诱发社会情境专用可塑性
+- [[vasopressin]] — Avpr1b 信号在 CA2 诱发社会情境专用可塑性（直接通路）
+- [[oxytocin]] — 催产素通过 PVH→SuM→CA2 间接通路参与社会记忆写入（Thirtamara Rajamani 2024）
+- [[supramammillary-nucleus]] — SuM 是催产素信号到 CA2 的关键中继站
 - [[hippocampal-ca3-pattern-completion]] — CA3 循环连接的联想记忆功能与 CA2 的社会/时间功能并行
 
 ## 未解问题
@@ -140,7 +142,9 @@ Oliva et al. 2016（PMID:27593179）用高密度硅探针在同一大鼠同步�
 ## 修订历史
 
 - 2026-08-14 · 创建 · 基于《CA2：海马遗忘的第三元件》文章 #113 · 来源：PMID:24572357/33431691/31874067/34201943/27593179 · 初始置信度：高
+- 2026-08-16 · rev2 · 基于《催产素回路》文章 #115 · 新增：(1) PVH→SuM→CA2间接催产素通路（PMID:38052983）；(2) 与supramammillary-nucleus、oxytocin的新连接；(3) Q-oxt-01加入未解问题（Avpr1b和OTR两条通路的时序协调）
 
 ## 来源文章
 
 - [[2026-08-14-ca2-hippocampus-social-memory-temporal-context]]
+- [[2026-08-16-oxytocin-circuit-social-memory-bonding]]

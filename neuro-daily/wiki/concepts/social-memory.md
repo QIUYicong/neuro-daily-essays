@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-08-14
-updated: 2026-08-14
-revision_count: 1
+updated: 2026-08-16
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition, behavior]
-related: [hippocampal-circuit, ca2-hippocampus, vasopressin, ltp, mgluR-ltd]
+related: [hippocampal-circuit, ca2-hippocampus, vasopressin, oxytocin, supramammillary-nucleus, ltp, mgluR-ltd]
 prerequisites: [hippocampal-circuit, synaptic-transmission]
-opens_questions: [Q-ca2-function, Q-ca2-pnn-plasticity-window]
-source_articles: [2026-08-14-ca2-hippocampus-social-memory-temporal-context]
-key_sources: ["PMID:24572357", "PMID:24863146", "PMID:29705549", "PMID:36971428"]
+opens_questions: [Q-ca2-function, Q-ca2-pnn-plasticity-window, Q-oxt-01]
+source_articles: [2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-08-16-oxytocin-circuit-social-memory-bonding]
+key_sources: ["PMID:24572357", "PMID:24863146", "PMID:29705549", "PMID:36971428", "PMID:10888874", "PMID:38052983"]
 ---
 
 # 社会记忆 (Social Memory)
@@ -68,7 +68,9 @@ CA2 密集表达**加压素 1b 受体（Avpr1b）**，这是 CA1/CA3 所不具�
 
 - [[ca2-hippocampus]] — CA2 是社会记忆的神经底物；社会记忆是 CA2 三大功能之一
 - [[hippocampal-circuit]] — CA2 插于 CA3 和 CA1 之间；社会记忆依赖 CA2→CA1 路径
-- [[vasopressin]] — Avpr1b 在 CA2 门控社会情境可塑性（激素-记忆接口）
+- [[vasopressin]] — Avpr1b 在 CA2 门控社会情境可塑性（直接通路，激素-记忆接口）
+- [[oxytocin]] — 通过PVH→SuM→CA2间接通路参与社会识别记忆写入；Ferguson 2000确立OXT因果作用
+- [[supramammillary-nucleus]] — OXT到CA2的中继站，同时也是θ节律起搏源
 
 ## 未解问题
 
@@ -78,7 +80,9 @@ CA2 密集表达**加压素 1b 受体（Avpr1b）**，这是 CA1/CA3 所不具�
 ## 修订历史
 
 - 2026-08-14 · 创建 · 基于《CA2：海马遗忘的第三元件》文章 #113 · 整合 Hitti & Siegelbaum 2014、Pagani 2015、Piskorowski & Chevaleyre 2018、Samadi 2023 四项研究；初始置信度：高（强遗传解剖证据）
+- 2026-08-16 · rev2 · 基于《催产素回路》文章 #115 · 新增：(1) Ferguson 2000 Oxt⁻/⁻社会失忆作为催产素因果性的奠基证据；(2) PVH→SuM→CA2间接路径的补充（PMID:38052983）；(3) 与oxytocin、supramammillary-nucleus的新连接；(4) Q-oxt-01未解问题（Avpr1b与OTR双通路协调）
 
 ## 来源文章
 
 - [[2026-08-14-ca2-hippocampus-social-memory-temporal-context]]
+- [[2026-08-16-oxytocin-circuit-social-memory-bonding]]

@@ -482,5 +482,19 @@
     "reason": "升级自emerging：皮层INT梯度（Murray 2014）和TRW梯度（Hasson 2008）作为独立验证补充了原框架的突触/海马层级；整合框架仍待系统验证",
     "date": "2026-08-13",
     "action": "updated-strengthened"
+  },
+  {
+    "slug": "oxytocin",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-08-16",
+    "reason": "创建页面，初始状态established：Ferguson 2000（基因KO社会失忆）、Knobloch 2012（光遗传CeA）、Rickenbacher 2017（eLife，CeL机制）、Thirtamara Rajamani 2024（SuM中继）、Chrisman 2026（PVN亚群）等多项独立研究支持五条核心路径的框架；个别通路（PVH→SuM→CA2）为新发现中-高置信度，但整体框架为established"
+  },
+  {
+    "slug": "supramammillary-nucleus",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-08-16",
+    "reason": "创建页面，emerging状态：θ节律起搏功能已确立（high confidence），催产素中继（PVH→SuM→CA2）来自Thirtamara Rajamani 2024单项研究，需独立复制，整体定为emerging/medium"
   }
 ]

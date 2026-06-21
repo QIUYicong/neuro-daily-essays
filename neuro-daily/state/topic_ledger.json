@@ -1,7 +1,83 @@
 {
-  "last_updated": "2026-08-15",
-  "total_articles": 101,
+  "last_updated": "2026-08-16",
+  "total_articles": 116,
   "entries": [
+    {
+      "date": "2026-08-16",
+      "title": "催产素回路：五条专化投射如何将同一神经肽解码为社会记忆、奖赏与联结",
+      "filename": "2026-08-16-oxytocin-circuit-social-memory-bonding.md",
+      "article_number": 115,
+      "wiki_pages_created": [
+        "wiki/concepts/oxytocin.md",
+        "wiki/concepts/supramammillary-nucleus.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ca2-hippocampus.md (rev1→rev2)",
+        "wiki/concepts/social-memory.md (rev1→rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "下丘脑同一核团（PVN/SON）产生的催产素，如何通过结构上专化的长程投射——①PVH→SuM→CA2（社会识别记忆写入）、②PVN→NAc（社会奖赏与配对联结）、③PVN→CeA（恐惧抑制与情绪辨别）、④SON→外侧隔核（哺乳期社会恐惧预防）、⑤前PVN→BNST（应激依赖社交调制）——将同一种九肽信号转化为截然不同的社会行为输出？",
+      "open_questions_added": [
+        "Q-oxt-01（高优先级）：PVH→SuM→CA2催产素通路与PVN→CA2直接Avpr1b通路的时序协调机制",
+        "Q-oxt-02（中优先级）：人类鼻腔给药催产素（IN-OXT）药代动力学争议",
+        "Q-sum-01（高优先级）：SuM的θ节律起搏功能和催产素中继功能是否由不同神经元亚群承担"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱6（情绪与动机：催产素×社会行为×恐惧抑制）+ 脊柱4（学习和记忆：社会识别记忆CA2机制深化）+ 脊柱5（认知控制：NAc社会奖赏）",
+      "topic_tags": [
+        "oxytocin OXT neuropeptide",
+        "PVN SON hypothalamus magnocellular parvocellular",
+        "supramammillary nucleus SuM theta rhythm social memory relay",
+        "hippocampus CA2 social recognition memory",
+        "nucleus accumbens NAc social reward pair bonding",
+        "central amygdala CeA fear suppression emotion discrimination",
+        "lateral septum LS social fear lactation",
+        "BNST bed nucleus stria terminalis stress social approach",
+        "volume transmission oxytocin axonal release",
+        "social salience hypothesis Shamay-Tsoory",
+        "anterior posterior PVN heterogeneity Chrisman 2026",
+        "oxytocin receptor OTR GPCR Gq",
+        "prairie vole pair bonding",
+        "Ferguson 2000 Oxt knockout social amnesia"
+      ],
+      "main_sources": [
+        "PMID:38052983 (Thirtamara Rajamani 2024 Mol Psychiatry, PMC11116117, PVH→SuM→CA2)",
+        "PMID:41548026 (Chrisman 2026 Neuropsychopharmacology, PMC13003577, anterior/posterior PVN)",
+        "PMID:39892577 (Borland 2025 Front Neuroendocrinol, PMC12971266, NAc neuropeptides)",
+        "PMID:35431817 (Wang 2022 Front Neural Circuits, PMC9006871, social recognition memory circuits)",
+        "PMID:28606306 (Rickenbacher 2017 eLife, PMC5469614, CeA OXT suppresses freezing)",
+        "PMID:22325206 (Knobloch 2012 Neuron, axonal OXT release in CeA)",
+        "PMID:33589833 (Wahis 2021 Nat Neurosci, astrocytes in CeA)",
+        "PMID:29551417 (Menon 2018 Curr Biol, SON→LS social fear)",
+        "PMID:31178317 (Ferretti 2019 Curr Biol, CeA emotion discrimination)",
+        "PMID:29897293 (Jurek & Neumann 2018 Physiol Rev, OTR review)",
+        "PMID:10888874 (Ferguson 2000 Nat Genet, Oxt KO social amnesia)",
+        "PMID:26321019 (Shamay-Tsoory 2016 Biol Psychiatry, social salience hypothesis)",
+        "PMID:24592219 (Knobloch & Bhatt 2014 Front Behav Neurosci, PMC3924577, evolution OXT pathways)"
+      ],
+      "open_access_fulltext": [
+        "PMID:38052983 (PMC11116117)",
+        "PMID:41548026 (PMC13003577)",
+        "PMID:39892577 (PMC12971266)",
+        "PMID:35431817 (PMC9006871)",
+        "PMID:28606306 (PMC5469614)",
+        "PMID:24592219 (PMC3924577)"
+      ],
+      "next_suggested_topics": [
+        "加压素（AVP/Avpr1b）深化：从抗利尿到社会记忆——加压素与催产素在CA2的协同门控机制",
+        "伏隔核回路完整图谱：多巴胺、阿片、内大麻素与催产素如何在NAc整合社会奖赏信号",
+        "催产素在孤独症谱系障碍的临床转化悖论：从动物模型到鼻腔给药失败的教训",
+        "杏仁核详解：BLA、CeA、MeA三亚核的功能分化及恐惧学习、恐惧消退的精细回路"
+      ]
+    },
     {
       "date": "2026-08-15",
       "title": "CNTNAP2：语言、社会与癫痫三角共病的分子桥梁——从 FOXP2 靶基因到抑制性中间神经元失联",

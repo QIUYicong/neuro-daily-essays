@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-08-16 · 文章 #115 · 催产素回路：五条专化投射如何将同一神经肽解码为社会记忆、奖赏与联结
+
+**核心主题**：催产素（OXT）九肽结构与OTR（GPCR/Gq/11）；PVN/SON的magnocellular vs parvocellular分化；PVN内前/后亚群功能分化（Chrisman 2026, PMID:41548026）；五条专化投射路径：①PVH→SuM→CA2（社会识别记忆，Thirtamara Rajamani 2024, PMID:38052983）、②PVN→NAc（社会奖赏/配对联结，Borland 2025, PMID:39892577）、③PVN→CeA（恐惧抑制，Knobloch 2012, PMID:22325206；Rickenbacher 2017 eLife, PMC5469614；Wahis 2021 NatNeurosci星形胶质细胞机制）、④SON→LS（哺乳期社会恐惧预防，Menon 2018, PMID:29551417）、⑤aPVN→BNST（应激依赖社交调制）；社会凸显假说（Shamay-Tsoory & Abu-Akel 2016, PMID:26321019）；Ferguson 2000（PMID:10888874）奠基性遗传证明。
+
+**新建页面（2）**：
+- `wiki/concepts/oxytocin.md`（rev1，status: established，confidence: high）— 九肽结构；OTR信号通路；PVN/SON来源与亚群；五条专化投射路径完整描述；社会凸显假说；关键证据表
+- `wiki/concepts/supramammillary-nucleus.md`（rev1，status: emerging，confidence: medium）— SuM双重功能（θ起搏器 + 催产素中继站）；OTR⁺谷氨酸能SuM神经元→CA2；关键证据；新建Q-sum-01
+
+**修订页面（2）**：
+- `wiki/concepts/ca2-hippocampus.md`（rev1→rev2）— 新增PVH→SuM→CA2间接催产素通路（PMID:38052983）；related增加oxytocin和supramammillary-nucleus；opens_questions增加Q-oxt-01；key_sources新增PMID:38052983
+- `wiki/concepts/social-memory.md`（rev1→rev2）— 新增Ferguson 2000奠基证据；新增oxytocin、supramammillary-nucleus连接；opens_questions增加Q-oxt-01
+
+**登记矛盾（0）**：今日无新矛盾。注意：CA2接受的Avpr1b（直接加压素通路）和OTR（经SuM的催产素间接通路）双重输入的时序协调问题已记入Q-oxt-01，性质为"机制未知"而非"矛盾"。
+
+**新增未解问题（3）**：
+- Q-oxt-01（高优先级）：PVH→SuM→CA2催产素通路和PVN→CA2直接Avpr1b通路的时序协调机制
+- Q-oxt-02（中优先级）：人类鼻腔给药催产素是否真的提高脑内催产素浓度（药代动力学争议）
+- Q-sum-01（高优先级）：SuM的θ起搏功能和催产素中继功能是否由不同神经元亚群承担
+
+**图谱**：223节点→225节点，1298边→1316边（+2节点：oxytocin、supramammillary-nucleus；+18边）
+
+---
+
 ## 2026-08-15 · 文章 #114 · CNTNAP2：语言、社会与癫痫三角共病的分子桥梁
 
 **核心主题**：CNTNAP2/CASPR2 双重身份（成熟轴突旁节区 Kv1 锚定 vs 发育期中间神经元迁移导引）；FOXP2→CNTNAP2 调控轴联结罕见 CAS 与常见 SLI/ASD（Vernes 2008, PMID:18987363）；CDFE综合征（Strauss 2006, PMID:16571880）；KO小鼠：PV+/CR+/NPY+ 减少+CUX1+迁移异常+三核心域行为缺陷+癫痫（Peñagarikano 2011, PMID:21962519, PMC3390029开放全文）；mPFC E/I突触输入双降低+振荡协调崩溃（Lazaro 2019, PMID:31141683）；PVN OXT减少+NAc关键节点+早期OXT给药救援（Peñagarikano 2015, Choe 2022）；mPFC PNN过度沉积+ChABC部分救援社交（Gandhi 2023, PMID:36998537, 开放全文）；常见变异大样本无稳健关联（Toma 2018, PMID:30586385, 开放全文）；CR+减少的性别差异（Sáfár 2026, PMID:42249747）。

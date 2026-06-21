@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-15",
+  "updated": "2026-08-16",
   "node_count": 223,
   "edge_count": 1298,
   "edge_types": [
@@ -2033,6 +2033,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/cntnap2-deficiency-cdfe.md"
+    },
+    {
+      "id": "oxytocin",
+      "title": "催产素",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/oxytocin.md"
+    },
+    {
+      "id": "supramammillary-nucleus",
+      "title": "乳头丘脑上核",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/supramammillary-nucleus.md"
     }
   ],
   "edges": [
@@ -9265,6 +9283,86 @@
       "to": "ca2-hippocampus",
       "type": "part-of",
       "note": "CA2 是海马回路（DG→CA3→CA1）外的功能独立亚区"
+    },
+    {
+      "from": "oxytocin",
+      "to": "social-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oxytocin",
+      "to": "ca2-hippocampus",
+      "type": "regulates"
+    },
+    {
+      "from": "oxytocin",
+      "to": "supramammillary-nucleus",
+      "type": "regulates"
+    },
+    {
+      "from": "oxytocin",
+      "to": "vasopressin",
+      "type": "related"
+    },
+    {
+      "from": "oxytocin",
+      "to": "cntnap2",
+      "type": "related"
+    },
+    {
+      "from": "oxytocin",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "oxytocin",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "supramammillary-nucleus",
+      "to": "ca2-hippocampus",
+      "type": "regulates"
+    },
+    {
+      "from": "supramammillary-nucleus",
+      "to": "social-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "supramammillary-nucleus",
+      "to": "oxytocin",
+      "type": "related"
+    },
+    {
+      "from": "supramammillary-nucleus",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "oxytocin",
+      "type": "related"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "supramammillary-nucleus",
+      "type": "related"
+    },
+    {
+      "from": "social-memory",
+      "to": "oxytocin",
+      "type": "related"
+    },
+    {
+      "from": "social-memory",
+      "to": "supramammillary-nucleus",
+      "type": "related"
+    },
+    {
+      "from": "oxytocin",
+      "to": "active-inference",
+      "type": "related"
     }
   ],
   "dangling_references": [

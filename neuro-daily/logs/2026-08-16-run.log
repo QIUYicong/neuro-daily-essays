@@ -1,0 +1,98 @@
+# 运行日志 2026-08-16
+文章编号：#115
+主题：催产素回路：五条专化投射如何将同一神经肽解码为社会记忆、奖赏与联结
+
+---
+
+## 搜索与检索
+
+**搜索词（PubMed E-utilities）**：
+- "oxytocin hippocampus CA2 social memory circuit review"
+- "oxytocin nucleus accumbens reward social bonding"
+- "oxytocin PVN amygdala fear social behavior CeA"
+- "oxytocin paraventricular nucleus projections brain social neuropeptide"
+- "oxytocin social recognition memory circuit vasopressin"
+- "oxytocin central amygdala fear social behavior"
+
+**Web Search 状态**：不可用（工具错误，返回服务不可用）
+
+**数据源**：
+- PubMed E-utilities（esearch, esummary, efetch）
+- PubMed Central (PMC) 全文获取（pmc.ncbi.nlm.nih.gov）
+- NINDS (ninds.nih.gov) 访问被拒（403 Forbidden）
+
+**候选文献**：~35 篇
+**采用文献**：13 篇（6篇开放全文 + 7篇摘要）
+
+---
+
+## 开放全文来源（6篇）
+
+| PMID | 作者 | 期刊 | 年份 | PMC |
+|------|------|------|------|-----|
+| 38052983 | Thirtamara Rajamani et al. | Mol Psychiatry | 2024 | PMC11116117 |
+| 41548026 | Chrisman et al. | Neuropsychopharmacology | 2026 | PMC13003577 |
+| 39892577 | Borland et al. | Front Neuroendocrinol | 2025 | PMC12971266 |
+| 35431817 | Wang et al. | Front Neural Circuits | 2022 | PMC9006871 |
+| 28606306 | Rickenbacher et al. | eLife | 2017 | PMC5469614 |
+| 24592219 | Knobloch & Bhatt | Front Behav Neurosci | 2014 | PMC3924577 |
+
+## 摘要级别来源（7篇）
+
+| PMID | 作者 | 期刊 | 年份 |
+|------|------|------|------|
+| 10888874 | Ferguson et al. | Nat Genet | 2000 |
+| 22325206 | Knobloch et al. | Neuron | 2012 |
+| 33589833 | Wahis et al. | Nat Neurosci | 2021 |
+| 29551417 | Menon et al. | Curr Biol | 2018 |
+| 31178317 | Ferretti et al. | Curr Biol | 2019 |
+| 29897293 | Jurek & Neumann | Physiol Rev | 2018 |
+| 26321019 | Shamay-Tsoory & Abu-Akel | Biol Psychiatry | 2016 |
+
+---
+
+## 固结步骤
+
+**新建 wiki 页（2）**：
+- `wiki/concepts/oxytocin.md`（rev1）
+- `wiki/concepts/supramammillary-nucleus.md`（rev1）
+
+**修订 wiki 页（2）**：
+- `wiki/concepts/ca2-hippocampus.md`（rev1→rev2）：新增PVH→SuM→CA2通路，新增oxytocin和supramammillary-nucleus连接
+- `wiki/concepts/social-memory.md`（rev1→rev2）：新增催产素的奠基证据，新增多路通路系统视角
+
+**矛盾登记（0）**：无新矛盾。CA2的Avpr1b（直接）和OTR经SuM（间接）双通路记入Q-oxt-01（机制未知，非矛盾）。
+
+**新增未解问题（3）**：
+- Q-oxt-01（高优先级）：PVH→SuM→CA2与PVN→CA2直接Avpr1b通路的时序协调
+- Q-oxt-02（中优先级）：人类IN-OXT药代动力学争议
+- Q-sum-01（高优先级）：SuM的θ起搏vs催产素中继功能的细胞亚群分离
+
+---
+
+## 文件清单
+
+- `articles/2026-08-16-oxytocin-circuit-social-memory-bonding.md` ✓
+- `notes/2026-08-16-reading-notes.md` ✓
+- `sources/2026-08-16-sources.json` ✓
+- `wiki/concepts/oxytocin.md` ✓（新建）
+- `wiki/concepts/supramammillary-nucleus.md` ✓（新建）
+- `wiki/concepts/ca2-hippocampus.md` ✓（rev2）
+- `wiki/concepts/social-memory.md` ✓（rev2）
+- `wiki/CHANGELOG.md` ✓（追加）
+- `wiki/index.md` ✓（更新）
+- `wiki/_graph.json` ✓（225节点/1313边）
+- `state/monthly_synthesis.md` ✓（追加）
+- `state/topic_ledger.json` ✓（追加）
+- `state/unresolved_questions.md` ✓（追加）
+- `state/maturity_index.json` ✓（追加）
+- `logs/2026-08-16-run.log` ✓（本文件）
+
+---
+
+## Git 操作状态
+
+- 分支：main
+- 预期 commit message：Add neuro daily article + wiki consolidation for 2026-08-16
+- push 目标：origin main（QIUYicong/neuro-daily-essays）
+- 状态：待提交
