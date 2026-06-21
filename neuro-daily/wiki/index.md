@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-22（第120篇·岛叶皮层：身体的感知地图如何生成主观感受并导航决策·insular-cortex/interoception后→前梯度·VENs·EPIC预测编码·IMAC模型·显著性网络·躯体标记与 OFC 决策）· 主题页总数：**232**（新建2页：systems/insular-cortex、concepts/interoception；修订2页：systems/anterior-cingulate-cortex rev2→rev3、systems/orbitofrontal-cortex rev1→rev2；新增Q-ins-01~04；图谱235节点/1371边）
+> 最后更新：2026-08-23（第121篇·背侧前扣带皮层的三重计算·dACC/MCC 错误监测ERN + 冲突监控 Botvinick + 努力决策 EVC + FMθ振荡统一机制）· 主题页总数：**236**（新建4页：concepts/error-related-negativity、concepts/conflict-monitoring、concepts/expected-value-of-control、concepts/frontal-midline-theta；修订1页：systems/anterior-cingulate-cortex rev3→rev4（重大扩充认知控制板块）；修复悬空引用：orbitofrontal-cortex节点补入图谱；新增Q-dacc-01~04；图谱240节点/1384边）
 
 ---
 
@@ -95,6 +95,10 @@
 - 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络；2023/2024最新证据：持续放电神经元携带更多WM信息；Panichello 2024开-关状态 **[修订 rev2 2026-08-18]**
 - 🟡 [活动无声工作记忆](concepts/activity-silent-wm.md) — 工作记忆信息在突触STSP易化状态中无声储存；Stokes 2015框架；Panichello 2024证明与持续放电机制共存 **[NEW 2026-08-18]**
 - 🟢 [反应抑制](concepts/response-inhibition.md) — 叫停已启动运动/认知程序的能力；rIFG→STN超直接通路（2.2 ms单突触）实现快速全局刹车；SSRT量化刹车速度；反应性/主动性/选择性三模式 **[NEW 2026-08-19]**
+- 🟢 [误差相关负波 (ERN)](concepts/error-related-negativity.md) — 错误后~80ms、dACC/MCC 生成（iEEG证实）；Holroyd & Coles RL 框架（DA 负向 RPE → ERN）；是 FMθ 在错误时刻的相位重置表达；早于主观错误意识觉察 **[NEW 2026-08-23]**
+- 🔵 [冲突监控假说](concepts/conflict-monitoring.md) — Botvinick 2001 框架；Hopfield 能量形式化冲突量；Gratton 效应行为预测；van Veen fMRI 响应冲突特异激活；被 EVC 框架扩展包含 **[NEW 2026-08-23]**
+- 🔵 [控制期望价值 (EVC)](concepts/expected-value-of-control.md) — Shenhav 2013 规范框架；EVC = Σ(收益×概率) − 努力成本；dACC 统一处理错误/冲突/努力/奖励信号；vs dlPFC 执行分工；额外预测奖励效果 **[NEW 2026-08-23]**
+- 🔵 [前额叶中线θ振荡 (FMθ)](concepts/frontal-midline-theta.md) — 4–8Hz，来源 dACC/MCC+preSMA；ERN/N2/FRN 共享θ谱特征；11项跨区同步复制；FMθ→STN同步=冲突驱动反应抑制；θ功率预测 Gratton 效应 **[NEW 2026-08-23]**
 - 🟢 [停止信号任务](concepts/stop-signal-task.md) — 量化反应抑制的标准实验范式；独立赛马模型（Go vs Stop过程竞赛）；SSRT = 中位RT(Go) - 平均SSD；正常值约200-250 ms **[NEW 2026-08-19]**
 - 🟢 [超直接通路](concepts/hyperdirect-pathway.md) — rIFG/preSMA→STN单突触直接制动回路（2.2 ms，~25 m/s）；跳过纹状体；STN→GPi发散投射产生全局运动抑制；与间接通路形成速度vs精度互补 **[NEW 2026-08-19]**
 - 🟢 [γ振荡（30–80 Hz）](concepts/gamma-oscillations.md) — ING（纯抑制网络）与 PING（兴奋-抑制反馈）双机制；GABA-A τ_decay 是振荡频率的分子时钟（τ≈5ms→快γ，τ≈15ms→慢γ）；Sohal/Cardin 2009 光遗传学因果证明；PV/SST 双贡献；精神分裂症 GAD67 级联 **[NEW 2026-06-05 · 修订 rev4 2026-07-20]**

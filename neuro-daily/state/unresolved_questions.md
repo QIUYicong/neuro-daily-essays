@@ -3271,3 +3271,37 @@
   - (b) **子区域特异性假说**：风险决策可能更多激活背侧aINS（显著性/注意控制维度），道德判断更多激活腹侧aINS（情绪整合维度），厌恶更多激活腹侧/嗅皮层相邻的前岛区域；
   - 关键实验：在同一被试内使用多任务范式（IowaGT+道德判断+不公正UG+厌恶评价），精确定位激活峰（需要高空间分辨率7T fMRI或颅内记录），检验峰位置是否系统性不同。
 - **当前证据状态**：岛叶在多种决策中激活：高（大量fMRI文献）；子区域特异性的系统证据：低（不同研究间方法不统一，难以比较）
+
+---
+
+## 2026-08-23 新增问题 （文章 #121 · dACC 认知控制）
+
+### Q-dacc-01（高优先级）：dACC 与 MCC 的精确解剖边界——功能分区还是同一区域？
+
+- **关联 wiki**：[[anterior-cingulate-cortex]]、[[conflict-monitoring]]、[[expected-value-of-control]]
+- **来源文章**：2026-08-23-dacc-error-monitoring-conflict-effort
+- **问题**：现代神经解剖学（Vogt 2016 等）将传统"dACC"的 BA24c'、CMA 区域单独命名为"中扣带皮层（MCC）"，认为其与真正的情感性 ACC（BA24a/b、BA32）功能显著不同。如果 MCC 和 ACC 是不同区域，那么三十年来大量实验中混用"dACC"标签的激活、损伤和 EVC 模型需要重新解释。目前尚无被所有研究者接受的统一解剖标准，导致文献间比较困难。关键问题：(a) MCC 损伤专门损害认知控制，而保留情感性 ACC 功能吗？(b) 颅内记录在 MCC 和 ACC 中看到的神经元响应模式是否系统性不同？
+- **当前证据状态**：功能差异（fMRI/损伤）：中-高；解剖标准统一性：低；单神经元分辨率比较：有限
+- **为什么重要**：如果 MCC 和 ACC 在功能上是分离的，则 EVC 理论需要专门指定其神经基底为 MCC，而非更广泛的 ACC。这也影响对扣带回切除术（cingulotomy）临床效果的解读——手术切除的到底是哪个亚区？
+
+### Q-dacc-02（中优先级）：EVC 框架中"努力成本"的具体神经实现
+
+- **关联 wiki**：[[expected-value-of-control]]、[[anterior-cingulate-cortex]]、[[nucleus-accumbens]]
+- **来源文章**：2026-08-23-dacc-error-monitoring-conflict-effort
+- **问题**：EVC 模型在计算层面定义了"努力成本"为 Cost(c)，但其神经实现至今不清楚。三种竞争假说：(a) **热力学代价**：更多神经活动 = 更多 ATP 消耗；(b) **机会成本**：占用有限认知资源，阻止其他并行处理；(c) **主观厌恶感**（effortfulness as aversion）：努力本身产生负效价，通过岛叶-ACC-NAc 回路反映为内感觉不适。不同实验范式支持不同解释，缺乏统一裁决实验。
+- **关键实验**：在同一受试者内同时测量代谢（¹⁸F-FDG PET 或 fMRS）和主观努力感（情绪调节范式），分离热力学代价与主观厌恶感。
+- **当前证据状态**：行为层面努力代价存在：高；神经实现机制：低（各假说证据分散）
+
+### Q-dacc-03（中优先级）：dACC 内部是否存在可识别的突触学习规则？
+
+- **关联 wiki**：[[anterior-cingulate-cortex]]、[[expected-value-of-control]]、[[error-related-negativity]]
+- **来源文章**：2026-08-23-dacc-error-monitoring-conflict-effort
+- **问题**：EVC 理论和 Holroyd & Coles RL 框架都假设 dACC 能更新其控制分配策略，但目前对 dACC 内部突触可塑性规则的直接实验证据极少：(a) dACC 是否存在类似海马 LTP/LTD 的活动依赖性突触可塑性？(b) 多巴胺是否在 dACC 调制这种可塑性（类似 VTA→纹状体的三因子学习规则）？(c) dACC 内部的学习率（learning rate）是否可被测量和调节？
+- **当前证据状态**：dACC 有多巴胺受体（D1/D2）：已知；dACC 内部 LTP/LTD：动物切片有初步证据；人类 dACC 学习规则：几乎无直接数据
+
+### Q-dacc-04（低-中优先级）：FMθ 与局部 γ 振荡在 dACC 中的协作机制
+
+- **关联 wiki**：[[frontal-midline-theta]]、[[anterior-cingulate-cortex]]、[[gamma-oscillations]]
+- **来源文章**：2026-08-23-dacc-error-monitoring-conflict-effort
+- **问题**：Cavanagh & Frank 2014 主要关注 θ（4–8Hz）的跨区协调功能。但局部计算通常在 γ（30–80Hz）振荡中实现（如前几篇文章讨论的 PV-γ 机制）。dACC 中是否存在"θ 协调远端控制 + γ 编码局部 EVC 计算"的双频协作？颅内记录中已有初步证据（dACC iEEG 显示 θ-γ 耦合），但系统研究缺乏。如果存在，则 dACC 的 θ-γ 耦合可能类似海马的 theta-gamma 编码（但目的不同：海马用于序列记忆，dACC 用于控制价值计算）。
+- **当前证据状态**：dACC 颅内记录θ-γ PAC：初步；系统比较不同任务条件：低

@@ -4,6 +4,42 @@
 
 ---
 
+## 2026-08-23 · 文章 #121 · 背侧前扣带皮层的三重计算：错误监测、冲突信号与努力代价的统一语言
+
+**核心主题**：dACC/MCC 的认知控制功能三角——(1) 错误监测：ERN（误差相关负波）作为多巴胺负向 RPE 在 ACC 的表达（Holroyd & Coles 2002）；(2) 冲突监控：Botvinick 假说、Hopfield 能量量化、Gratton 效应、van Veen 2001 fMRI 验证；(3) 努力-代价决策：Walton/Kennerley 2006 大鼠 T 型迷宫损伤实验 + Croxson & Rushworth 2009 人类 fMRI；整合：Cavanagh & Frank 2014 的 FMθ 振荡统一机制 + Shenhav 2013 EVC 规范理论。
+
+### 新建 Wiki 页面（4 个）
+
+- `concepts/error-related-negativity.md`（误差相关负波 ERN）🟢 established · 高置信度 — 错误后~80ms、dACC/MCC 生成器（iEEG 证实）；Holroyd & Coles RL 框架（多巴胺 RPE → ERN）；与 FMθ 的相位重置关系；Pe 成分（有意识觉察）
+- `concepts/conflict-monitoring.md`（冲突监控假说）🔵 mainstream · 高置信度 — Botvinick 2001 框架；Hopfield 能量形式化；Gratton 效应行为预测；van Veen fMRI 响应冲突特异激活；与 EVC 的继承关系
+- `concepts/expected-value-of-control.md`（EVC 理论）🔵 mainstream · 中置信度 — Shenhav 2013 规范框架；EVC = Σ收益−成本；统一三类信号（错误/冲突/努力）；dACC 监控+规范双功能 vs dlPFC 执行；EVC 额外预测奖励效果（冲突监控无法预测）
+- `concepts/frontal-midline-theta.md`（FMθ 前额叶中线θ振荡）🔵 mainstream · 高置信度 — 4–8Hz；来源 dACC/MCC+preSMA；ERN/N2/FRN 共享θ谱；11项跨区同步复制；θ相位锁定机制；FMθ→STN 同步=冲突驱动反应抑制；θ功率预测 Gratton 效应
+
+### 修订 Wiki 页面（1 个）
+
+- `systems/anterior-cingulate-cortex.md`：rev3→rev4，**重大修订**，新增完整的 dACC/MCC 认知控制功能板块（错误监测/冲突监控/努力决策/FMθ/EVC五节），更新解剖分区表含现代 MCC 术语，新增 related 8 项（error-related-negativity/conflict-monitoring/expected-value-of-control/frontal-midline-theta/response-inhibition/hyperdirect-pathway/working-memory/nucleus-accumbens），opens_questions 增加 4 项，key_sources 增加 5 项
+
+### 修复悬空引用（1 个）
+
+- `orbitofrontal-cortex`（已有 wiki 页 systems/orbitofrontal-cortex.md）→ 新增图谱节点，悬空引用完全消除
+
+### 无矛盾登记（EVC vs 冲突监控假说为知识库演化中的理论包含关系，非实证矛盾）
+
+### 新增开放问题（4 个）
+
+- Q-dacc-01（高）：dACC 与 MCC 的精确解剖边界及功能分工——是否真正是一个功能区域？
+- Q-dacc-02（中）：EVC 中努力成本的具体神经实现（热力学/机会成本/主观厌恶感？）
+- Q-dacc-03（中）：dACC 内部突触学习规则是否存在、形式为何？
+- Q-dacc-04（低-中）：FMθ 与局部 γ 振荡的协作机制（θ-γ 耦合在 dACC 中是否存在？）
+
+### 图谱更新
+
+- 新增节点 5 个（error-related-negativity、conflict-monitoring、expected-value-of-control、frontal-midline-theta、orbitofrontal-cortex）
+- 新增边 13 条（见 _graph.json，总计 240 节点 / 1384 边）
+- 悬空引用从 1 个降至 0 个
+
+---
+
 ## 2026-08-22 · 文章 #120 · 岛叶皮层：身体的感知地图如何生成主观感受并导航决策
 
 **核心主题**：岛叶皮层（Insular Cortex）与内感觉（Interoception）——后→中→前的梯度层级处理轴，从初级内感觉皮层（后岛接收 VMpo 传入）到主观感受生成（前岛整合 VENs 快速同步），再到显著性网络与 PFC 决策回路的身体状态嵌入；EPIC 预测编码模型（Barrett & Simmons 2015）与 Craig 经典映射框架的比较；躯体标记与 Damasio 决策理论的神经基底；精神疾病中的岛叶系统性异常。

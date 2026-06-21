@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-22",
-  "total_articles": 120,
+  "last_updated": "2026-08-23",
+  "total_articles": 121,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7463,6 +7463,73 @@
         "腹侧苍白球（VP）在奖赏中的角色：NAc的主要下游靶区，VP享乐热点的独立功能",
         "性别差异与社会奖赏：MOR（雌性）vs KOR（雄性）的二型性在NAc中的分子基础"
       ]
+    },
+    {
+      "date": "2026-08-23",
+      "article_number": 121,
+      "title": "背侧前扣带皮层的三重计算：错误监测、冲突信号与努力代价的统一语言",
+      "slug": "dacc-error-monitoring-conflict-effort",
+      "core_question": "背侧前扣带皮层（dACC/MCC）如何同时充当'错误侦测器'、'冲突监控器'和'努力评估者'？这三种功能是三个独立的机制，还是同一计算原则（控制期望价值EVC）的不同表现？",
+      "layer": [
+        "cognition",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "methods"
+      ],
+      "topic_tags": [
+        "dACC",
+        "midcingulate-cortex",
+        "MCC",
+        "error-monitoring",
+        "ERN",
+        "conflict-monitoring",
+        "Botvinick",
+        "Gratton-effect",
+        "effort-decision",
+        "EVC",
+        "frontal-midline-theta",
+        "FMtheta",
+        "Holroyd-Coles",
+        "Shenhav",
+        "Cavanagh-Frank",
+        "cognitive-control",
+        "theta-oscillations",
+        "ACC",
+        "expected-value-of-control"
+      ],
+      "main_sources": [
+        "PMID:10686361",
+        "PMID:12374324",
+        "PMID:11488380",
+        "PMID:11707086",
+        "PMID:15486290",
+        "PMID:16949252",
+        "PMID:19357278",
+        "PMID:24835663",
+        "PMID:23889930",
+        "PMID:40930978"
+      ],
+      "open_full_text_sources": [
+        "PMC2519033",
+        "PMC2954048",
+        "PMC4112145",
+        "PMC3767969",
+        "PMC12424934"
+      ],
+      "unresolved_questions": [
+        "Q-dacc-01",
+        "Q-dacc-02",
+        "Q-dacc-03",
+        "Q-dacc-04"
+      ],
+      "next_suggested_topics": [
+        "背外侧前额叶（dlPFC）的执行功能：规则维护、工作记忆更新与认知灵活性",
+        "前运动区（preSMA）的双重角色：运动序列组织和响应取消机制",
+        "多巴胺预测误差的神经回路：VTA-SNc-纹状体的 RPE 传播与 dACC 接收",
+        "注意与冲突的交互：dACC 和 TPJ 在任务定向 vs 刺激驱动注意中的分工",
+        "情绪调节的前额叶回路：vmPFC/sgACC 与 dlPFC 的对话"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -7599,10 +7666,21 @@
       "2026-06-03"
     ],
     "whole-brain-network": [
-      "2026-08-06"
+      "2026-08-06",
+      "2026-08-23"
     ],
     "methods": [
-      "2026-08-06"
+      "2026-08-06",
+      "2026-08-23"
+    ],
+    "cognition": [
+      "2026-08-23"
+    ],
+    "brain-region": [
+      "2026-08-23"
+    ],
+    "behavior": [
+      "2026-08-23"
     ]
   }
 }

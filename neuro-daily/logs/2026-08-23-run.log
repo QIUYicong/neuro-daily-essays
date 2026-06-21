@@ -1,0 +1,130 @@
+# Run Log — 2026-08-23
+
+## 基本信息
+
+- **文章编号**：#121
+- **日期（UTC+8）**：2026-08-23（实际系统时钟：2026-06-21 CST，仓库连续性日期）
+- **主题**：背侧前扣带皮层（dACC/MCC）的认知控制功能
+- **层级**：认知 / 脑区 / 全脑网络 / 行为 / 方法
+- **核心问题**：dACC/MCC 如何同时充当"错误侦测器"、"冲突监控器"和"努力评估者"？这三种功能是独立机制还是同一计算原则（EVC）的不同表现？
+
+---
+
+## 上下文说明（日期异常）
+
+系统时钟显示当前实际时间为 2026-06-21 CST，但仓库最新文章日期为 2026-08-22（#120 岛叶皮层文章）。前序会话写入了跨越 6-8 月的文章，当前会话继续从仓库的连续日期（2026-08-23）推进，以维持知识库的线性连续性。
+
+---
+
+## 文献检索
+
+### 搜索策略
+
+1. PubMed E-utilities esearch：`Holroyd Coles 2002 error related negativity anterior cingulate`
+2. PubMed E-utilities esearch：`Botvinick Braver Barch Carter Cohen 2001 conflict monitoring cognitive control`
+3. PubMed E-utilities esearch：`Shenhav Botvinick Cohen 2013 expected value control anterior cingulate`
+4. PubMed E-utilities efetch：PMID:12374324, 11488380, 23889930, 16949252, 10686361, 15486290
+5. PubMed E-utilities esearch：`Cavanagh Frank 2014 frontal theta cognitive control`
+6. PubMed E-utilities esearch：`Kennerley 2006 effort decision ACC T-maze`
+7. PMC 全文获取：PMC4112145（Cavanagh & Frank 2014），PMC3767969（Shenhav 2013），PMC2519033（Walton/Kennerley 2006），PMC2954048（Croxson & Rushworth 2009）
+8. PMC 搜索：dACC theta cognitive control review 2022-2025（返回无关结果）
+9. PubMed efetch：PMID:40930978（Glewwe 2025 DBS 机制文章）
+10. PubMed esearch：Ridderinkhof Ullsperger 2004 medial frontal cortex Science
+
+### 候选来源（共检索 15+ 篇，采用 10 篇）
+
+| PMID/来源 | 采用/排除 | 原因 |
+|-----------|----------|------|
+| PMID:10686361 Falkenstein 2000 | 采用（摘要） | ERN/Ne 经典分析，ERP 基础 |
+| PMID:12374324 Holroyd & Coles 2002 | 采用（摘要） | RL-ERN 框架，领域基础 |
+| PMID:11488380 Botvinick 2001 | 采用（摘要） | 冲突监控假说核心论文 |
+| PMID:11707086 van Veen 2001 | 采用（摘要） | fMRI 验证响应冲突特异激活 |
+| PMID:15486290 Ridderinkhof 2004 | 采用（摘要） | Science 元分析，内侧额叶多功能重叠 |
+| PMC2519033 Walton/Kennerley 2006 | 采用（全文） | 大鼠T迷宫/猴子努力决策，关键因果证据 |
+| PMC2954048 Croxson & Rushworth 2009 | 采用（全文） | 人类fMRI努力代价估算 |
+| PMC4112145 Cavanagh & Frank 2014 | 采用（全文） | FMθ综述，关键整合性文章 |
+| PMC3767969 Shenhav 2013 | 采用（全文） | EVC规范理论 |
+| PMC12424934 Glewwe 2025 | 采用（全文） | 2025新证据：DBS+mPFC θ改善认知控制 |
+| PMC13278957 等多篇 | 排除 | 返回无关结果（帕金森α-synuclein、创伤神经反馈等） |
+| PMC13265041 等 | 排除 | 返回无关结果（空间定向、MDD） |
+
+---
+
+## 固结步骤
+
+### 新建 Wiki 页面（4 个）
+
+1. `neuro-daily/wiki/concepts/error-related-negativity.md`
+   - status: established, confidence: high
+   - 来源：Falkenstein 2000 + Holroyd & Coles 2002
+   - 关键内容：ERN 时序（50–100ms）、dACC 生成器证据、RL-DA-RPE 框架、θ 相位重置关系
+
+2. `neuro-daily/wiki/concepts/conflict-monitoring.md`
+   - status: mainstream, confidence: high
+   - 来源：Botvinick 2001 + van Veen 2001 + Ridderinkhof 2004
+   - 关键内容：Hopfield 能量形式化、Gratton 效应、响应冲突特异激活、与 EVC 继承关系
+
+3. `neuro-daily/wiki/concepts/expected-value-of-control.md`
+   - status: mainstream, confidence: medium（规范理论）
+   - 来源：Shenhav 2013
+   - 关键内容：EVC 公式、dACC 监控+规范双功能、统一三类信号（错误/冲突/努力）、奖励效果额外预测
+
+4. `neuro-daily/wiki/concepts/frontal-midline-theta.md`
+   - status: mainstream, confidence: high
+   - 来源：Cavanagh & Frank 2014 + Glewwe 2025
+   - 关键内容：4–8Hz、dACC/MCC+preSMA 来源、ERN/N2/FRN 共享θ谱、11项跨区同步复制、FMθ-STN 连接
+
+### 修订 Wiki 页面（1 个）
+
+- `neuro-daily/wiki/systems/anterior-cingulate-cortex.md`：rev3→rev4
+  - 新增 dACC/MCC 认知控制功能全板块（错误监测、冲突监控、努力决策、FMθ振荡、EVC理论）
+  - 更新解剖分区表（含现代 MCC 术语和 Brodmann 区标注）
+  - 新增 related 8项、opens_questions 4项、key_sources 5项、source_articles 1篇
+
+### 修复悬空引用（1 个）
+
+- `orbitofrontal-cortex`：wiki 页已于 2026-08-21 创建，图谱节点缺失导致悬空。今日补入节点，悬空引用从 1 个降至 0 个。
+
+### 图谱变化
+
+- 节点：235 → 240（+5）
+- 边：1371 → 1384（+13）
+- 悬空引用：1 → 0
+
+---
+
+## 矛盾检查
+
+无新矛盾。EVC 理论对冲突监控假说的"扩展包含"关系是已知的理论演化，不构成实证矛盾。
+
+---
+
+## 失败与限制
+
+1. **未找到**适合的 2020+ 开放全文综述：多次 PMC 搜索返回不相关结果（可能搜索词组合问题）。已用 Glewwe 2025（PMCID:PMC12424934）补充近年开放来源。
+2. **Botvinick 2001 等经典论文**为付费全文，仅使用摘要和 Shenhav 2013 综述的二次引用。
+3. **ERN 的多巴胺机制**（Holroyd & Coles 框架）主要为间接证据，已在文章中明确标注置信度为"中"。
+
+---
+
+## Git / Push 状态
+
+- **分支**：main（从 claude/funny-einstein-5bg7cl 切换 + rebase）
+- **文件变化**：
+  - 新增 articles/2026-08-23-dacc-error-monitoring-conflict-effort.md
+  - 新增 notes/2026-08-23-reading-notes.md
+  - 新增 sources/2026-08-23-sources.json
+  - 新增 wiki/concepts/error-related-negativity.md
+  - 新增 wiki/concepts/conflict-monitoring.md
+  - 新增 wiki/concepts/expected-value-of-control.md
+  - 新增 wiki/concepts/frontal-midline-theta.md
+  - 修改 wiki/systems/anterior-cingulate-cortex.md（rev3→rev4）
+  - 修改 wiki/_graph.json（+5节点/+13边）
+  - 修改 wiki/index.md
+  - 修改 wiki/CHANGELOG.md
+  - 修改 state/topic_ledger.json（新增条目#121）
+  - 修改 state/unresolved_questions.md（+4问题）
+  - 修改 state/monthly_synthesis.md（+今日摘要）
+  - 新增 logs/2026-08-23-run.log（本文件）
+- **Commit**：待执行
+- **Push**：待执行（目标：main）

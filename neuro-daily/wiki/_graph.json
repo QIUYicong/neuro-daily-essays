@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-22",
+  "updated": "2026-08-23",
   "node_count": 230,
   "edge_count": 1337,
   "edge_types": [
@@ -2141,6 +2141,51 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/interoception.md"
+    },
+    {
+      "id": "error-related-negativity",
+      "title": "误差相关负波 (ERN)",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/error-related-negativity.md"
+    },
+    {
+      "id": "conflict-monitoring",
+      "title": "冲突监控假说",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/conflict-monitoring.md"
+    },
+    {
+      "id": "expected-value-of-control",
+      "title": "控制期望价值 (EVC)",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/expected-value-of-control.md"
+    },
+    {
+      "id": "frontal-midline-theta",
+      "title": "前额叶中线θ振荡 (FMθ)",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/frontal-midline-theta.md"
+    },
+    {
+      "id": "orbitofrontal-cortex",
+      "title": "眶额皮层 (OFC)",
+      "domain": "systems",
+      "type": "brain-region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/orbitofrontal-cortex.md"
     }
   ],
   "edges": [
@@ -9793,6 +9838,84 @@
       "to": "precision-weighting",
       "type": "related",
       "note": "DA/ACh 调制内感觉预测的精确度权重"
+    },
+    {
+      "from": "error-related-negativity",
+      "to": "anterior-cingulate-cortex",
+      "type": "mechanism-of",
+      "note": "dACC/MCC 是 ERN 的主要生成器（偶极源分析 + 颅内记录证实）"
+    },
+    {
+      "from": "conflict-monitoring",
+      "to": "anterior-cingulate-cortex",
+      "type": "mechanism-of",
+      "note": "dACC 是 Botvinick 冲突监控假说的神经基底；计算 Hopfield 冲突能量"
+    },
+    {
+      "from": "expected-value-of-control",
+      "to": "anterior-cingulate-cortex",
+      "type": "mechanism-of",
+      "note": "EVC 框架统一解释 dACC 的错误/冲突/努力/奖励多功能"
+    },
+    {
+      "from": "frontal-midline-theta",
+      "to": "anterior-cingulate-cortex",
+      "type": "is-a",
+      "note": "FMθ 由 dACC/MCC + preSMA 生成，是 dACC 认知控制的振荡机制"
+    },
+    {
+      "from": "frontal-midline-theta",
+      "to": "hyperdirect-pathway",
+      "type": "regulates",
+      "note": "FMθ 相位同步激活 STN 超直接通路，将冲突信号转化为全局运动抑制"
+    },
+    {
+      "from": "frontal-midline-theta",
+      "to": "response-inhibition",
+      "type": "mechanism-of",
+      "note": "dACC θ → STN 同步是冲突驱动反应抑制的振荡机制"
+    },
+    {
+      "from": "error-related-negativity",
+      "to": "frontal-midline-theta",
+      "type": "is-a",
+      "note": "ERN 是 FMθ 在错误事件时刻的时域/频域表达（相位重置+功率增强）"
+    },
+    {
+      "from": "conflict-monitoring",
+      "to": "frontal-midline-theta",
+      "type": "mechanism-of",
+      "note": "N2 成分（冲突标志）是 FMθ 在冲突事件时刻的表达；θ 功率预测 Gratton 效应"
+    },
+    {
+      "from": "expected-value-of-control",
+      "to": "frontal-midline-theta",
+      "type": "mechanism-of",
+      "note": "FMθ 是 EVC 计算结果驱动控制实施的振荡机制"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "working-memory",
+      "type": "regulates",
+      "note": "dACC 监测 WM 任务冲突与努力，通过 EVC 机制调节控制强度"
+    },
+    {
+      "from": "anterior-cingulate-cortex",
+      "to": "nucleus-accumbens",
+      "type": "regulates",
+      "note": "dACC→NAc 自顶向下通路是努力代价克服的关键机制（Walton/Kennerley 2006）"
+    },
+    {
+      "from": "conflict-monitoring",
+      "to": "expected-value-of-control",
+      "type": "related",
+      "note": "冲突监控假说被 EVC 框架包含和扩展；冲突是 EVC 计算的一个输入"
+    },
+    {
+      "from": "error-related-negativity",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of",
+      "note": "Holroyd & Coles 框架：ERN 是多巴胺负向 RPE 在 ACC 的表达"
     }
   ],
   "dangling_references": [
