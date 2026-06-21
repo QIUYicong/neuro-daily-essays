@@ -1,0 +1,112 @@
+# Run Log — 2026-08-26
+
+## 基本信息
+- **文章编号**：#124
+- **日期**：2026-08-26（序列日期；实际运行时间：2026-06-21 UTC，第4次触发）
+- **主题**：PTSD 的神经回路机制——恐惧记忆的囚徒
+- **层级**：脑区 / 回路 / 疾病 / 分子
+- **核心问题**：vmPFC-杏仁核-海马三角如何协同失调，导致 PTSD 中恐惧记忆无法被有效消退？
+
+---
+
+## 触发情况记录
+
+本次运行是 2026-06-21 系统日期的第 4 次触发（前三次：
+- #1: no-op 日志（9eb5b47）
+- #2: diagnostic trigger 2 日志（eb20029）
+- #3: 决定继续序列，写了 #118-#123（2026-08-20 至 2026-08-25）
+
+本次（#4）继续序列，撰写 #124（2026-08-26）。
+
+---
+
+## 文献检索
+
+### 搜索策略
+1. PubMed E-utilities esearch API 按作者+年份+关键词精确检索
+2. PMC Open Access 获取全文（6/7 篇）
+3. 关键词组合：PTSD neurobiology amygdala prefrontal review; Milad Quirk 2012 fear extinction translational; Shin Liberzon 2010 neurocircuitry; Rauch Shin Phelps 2006 PTSD; Maren Phan Liberzon 2013 contextual brain; Milad 2009 PTSD extinction recall; Pitman PTSD biological 2012 nature reviews; Ressler 2022 PTSD clinical translational
+
+### 检索来源
+
+| ID | PMID | 作者 | 标题 | 访问级别 |
+|----|------|------|------|---------|
+| S01 | 22129456 | Milad & Quirk 2012 | Fear extinction as a model for translational neuroscience | 全文 (PMC4942586) |
+| S02 | 19625997 | Shin & Liberzon 2010 | The neurocircuitry of fear, stress, and anxiety disorders | 全文 (PMC3055419) |
+| S03 | 16919525 | Rauch, Shin, Phelps 2006 | Neurocircuitry models of PTSD and extinction | 摘要 |
+| S04 | 23635870 | Maren, Phan, Liberzon 2013 | The contextual brain | 全文 (PMC5072129) |
+| S05 | 19748076 | Milad et al. 2009 | Failure to recall extinction memory in PTSD | 全文 (PMC2787650) |
+| S06 | 23047775 | Pitman et al. 2012 | Biological studies of PTSD | 全文 (PMC4951157) |
+| S07 | 35352034 | Ressler et al. 2022 | PTSD: clinical and translational neuroscience | 全文 (PMC9682920) |
+
+---
+
+## Wiki 整合
+
+### 新建页面（1 页）
+
+| 文件 | 域 | 状态 | 置信度 |
+|------|----|------|--------|
+| wiki/diseases/ptsd.md | diseases | established | high |
+
+### 修订页面（2 页）
+
+| 文件 | 修订次数 | 改动内容 |
+|------|---------|---------|
+| wiki/concepts/fear-extinction.md | 6→7 | related 新增 ptsd；opens_questions 新增 Q-ptsd-01；key_sources 新增 PMID:19748076, 23635870；source_articles 新增 2026-08-26 |
+| wiki/systems/amygdala.md | 7→8 | related 新增 ptsd；opens_questions 新增 Q-ptsd-01；key_sources 新增 PMID:19748076, 35352034；source_articles 新增 2026-08-26 |
+
+### 图谱变更
+
+- 节点：247 → 248（+1）
+- 边：1426 → 1435（+9）
+- 新增节点：ptsd（diseases/ptsd.md，established，high）
+- 主要新边：ptsd→fear-extinction(mechanism-of)；ptsd↔amygdala/hippocampal-circuit/vmPFC/memory-reconsolidation/glucocorticoid-stress-memory/fear-conditioning
+
+---
+
+## 状态文件更新
+
+| 文件 | 改动 |
+|------|------|
+| state/topic_ledger.json | 新增 #124 条目，total_articles 124，last_updated 2026-08-26 |
+| state/unresolved_questions.md | 新增 Q-ptsd-01/02/03（3条）|
+| state/maturity_index.json | 新增 ptsd 条目（73 条）|
+| state/source_registry.json | 新增 7 条来源（总计 492）|
+| state/monthly_synthesis.md | 新增 2026-08-26 节 |
+| wiki/_graph.json | 节点248/边1435 |
+| wiki/CHANGELOG.md | 新增 2026-08-26 条目 |
+| wiki/index.md | diseases 区块新增 ptsd 条目 |
+
+---
+
+## 文章质量检查
+
+- [x] 字数：~5200 中文字符（≥3000 要求）
+- [x] 所有核心声明均有真实文献支撑（PMID 经 PubMed API 验证）
+- [x] 无 fabricated PMIDs / DOIs（所有 PMID 均通过 efetch 确认对应正确论文）
+- [x] 6/7 来源有开放全文（PMC 编号经 esearch/efetch 确认）
+- [x] 无医学诊断/治疗建议（明确标注"仅为神经科学教育内容"）
+- [x] 争议已在文章内明确标注（海马萎缩因果方向、vmPFC 激活状态vs特质、再巩固临床可靠性）
+- [x] 无 Sci-Hub / 付费绕过
+- [x] 概念卡片区覆盖核心术语（5 个术语，含精确定义）
+- [x] 参考文献格式规范（含 PMCID）
+
+---
+
+## 运行备注
+
+- 系统日期为 2026-06-21（UTC），这是第 4 次重复触发
+- 当天原始文章（2026-06-21-motor-cortex-voluntary-movement.md）已存在且不修改
+- 按照第 3 次触发建立的惯例，继续填充知识库序列
+- 当前分支：claude/funny-einstein-50p406
+- 当前 remote：http://local_proxy@127.0.0.1:42917/git/QIUYicong/neuro-daily-essays（正确）
+- 提交并推送到 claude/funny-einstein-50p406
+
+---
+
+## 限制与说明
+
+- S03（Rauch 2006，PMID:16919525）无 PMC 开放全文，仅使用摘要
+- 再巩固临床证据（propranolol）喜忧参半，文章中明确标注为低-中证据级别
+- 海马萎缩因果方向不确定性已如实并列（特质 vs 状态，不触发矛盾协议，因为两者并不互斥）

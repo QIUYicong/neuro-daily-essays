@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-26",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8437,9 +8437,86 @@
         "dorsal striatum",
         "cognitive flexibility"
       ]
+    },
+    {
+      "pmid": "22129456",
+      "pmcid": "PMC4942586",
+      "authors": "Milad MR, Quirk GJ",
+      "year": 2012,
+      "title": "Fear extinction as a model for translational neuroscience",
+      "journal": "Annu Rev Psychol",
+      "used_in": [
+        "2026-08-26-ptsd-fear-circuit-neural-mechanism"
+      ]
+    },
+    {
+      "pmid": "19625997",
+      "pmcid": "PMC3055419",
+      "authors": "Shin LM, Liberzon I",
+      "year": 2010,
+      "title": "The neurocircuitry of fear, stress, and anxiety disorders",
+      "journal": "Neuropsychopharmacol",
+      "used_in": [
+        "2026-08-26-ptsd-fear-circuit-neural-mechanism"
+      ]
+    },
+    {
+      "pmid": "16919525",
+      "pmcid": null,
+      "authors": "Rauch SL, Shin LM, Phelps EA",
+      "year": 2006,
+      "title": "Neurocircuitry models of PTSD and extinction",
+      "journal": "Biol Psychiatry",
+      "used_in": [
+        "2026-08-26-ptsd-fear-circuit-neural-mechanism"
+      ]
+    },
+    {
+      "pmid": "23635870",
+      "pmcid": "PMC5072129",
+      "authors": "Maren S, Phan KL, Liberzon I",
+      "year": 2013,
+      "title": "The contextual brain",
+      "journal": "Nat Rev Neurosci",
+      "used_in": [
+        "2026-08-26-ptsd-fear-circuit-neural-mechanism"
+      ]
+    },
+    {
+      "pmid": "19748076",
+      "pmcid": "PMC2787650",
+      "authors": "Milad MR et al.",
+      "year": 2009,
+      "title": "Failure to recall extinction memory in PTSD",
+      "journal": "Biol Psychiatry",
+      "used_in": [
+        "2026-08-26-ptsd-fear-circuit-neural-mechanism"
+      ]
+    },
+    {
+      "pmid": "23047775",
+      "pmcid": "PMC4951157",
+      "authors": "Pitman RK et al.",
+      "year": 2012,
+      "title": "Biological studies of PTSD",
+      "journal": "Nat Rev Neurosci",
+      "used_in": [
+        "2026-08-26-ptsd-fear-circuit-neural-mechanism"
+      ]
+    },
+    {
+      "pmid": "35352034",
+      "pmcid": "PMC9682920",
+      "authors": "Ressler KJ et al.",
+      "year": 2022,
+      "title": "PTSD: clinical and translational neuroscience from cells to circuits",
+      "journal": "Nat Rev Neurol",
+      "used_in": [
+        "2026-08-26-ptsd-fear-circuit-neural-mechanism"
+      ]
     }
   ],
-  "total_sources": 458,
+  "total_sources": 492,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -11813,96 +11890,170 @@
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["认知重评→PFC↑+杏仁核↓的首个 fMRI 实验", "建立重评-PFC-杏仁核基本回路框架", "Ochsner 情绪调节 fMRI 系列奠基性研究"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "认知重评→PFC↑+杏仁核↓的首个 fMRI 实验",
+      "建立重评-PFC-杏仁核基本回路框架",
+      "Ochsner 情绪调节 fMRI 系列奠基性研究"
+    ]
   },
   "PMID:15488398": {
     "citation": "Ochsner KN, Ray RD, Cooper JC et al. (2004). For better or for worse: neural systems supporting the cognitive down- and up-regulation of negative emotion. Neuroimage.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["重评上调和下调负性情绪均涉及 PFC", "双向调节 fMRI 证据", "Ochsner 2004 重评系列"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "重评上调和下调负性情绪均涉及 PFC",
+      "双向调节 fMRI 证据",
+      "Ochsner 2004 重评系列"
+    ]
   },
   "PMID:23765157": {
     "citation": "Buhle JT, Silvers JA, Wager TD et al. (2014). Cognitive reappraisal of emotion: a meta-analysis of human neuroimaging studies. Cereb Cortex.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["48 项认知重评 fMRI 研究元分析", "vlPFC/dlPFC + 颞叶语义区最稳健激活", "vmPFC 非稳定激活区（关键发现）", "认知重评神经基底的大规模综合"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "48 项认知重评 fMRI 研究元分析",
+      "vlPFC/dlPFC + 颞叶语义区最稳健激活",
+      "vmPFC 非稳定激活区（关键发现）",
+      "认知重评神经基底的大规模综合"
+    ]
   },
   "PMID:37507228": {
     "citation": "He Z, Zhang Y, Zhang H et al. (2023). Transcranial magnetic stimulation of the vlPFC reveals its causal role in cognitive emotion regulation. J Neurosci.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["vlPFC TMS → vmPFC↑ + 杏仁核↓（因果三层级证明）", "TMS-fMRI 结合方法论", "认知重评三层级回路因果证据"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "vlPFC TMS → vmPFC↑ + 杏仁核↓（因果三层级证明）",
+      "TMS-fMRI 结合方法论",
+      "认知重评三层级回路因果证据"
+    ]
   },
   "PMID:32960214": {
     "citation": "Steward T, Menchon JM, Verdejo-Garcia A et al. (2021). vmPFC-amygdala effective connectivity during cognitive reappraisal. Cereb Cortex.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["动态因果模型（DCM）量化 vmPFC→杏仁核负向有效连接", "重评期间皮层下情绪压制的主要通道", "Steward 2021 DCM 因果量化"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "动态因果模型（DCM）量化 vmPFC→杏仁核负向有效连接",
+      "重评期间皮层下情绪压制的主要通道",
+      "Steward 2021 DCM 因果量化"
+    ]
   },
   "PMID:26617500": {
     "citation": "Giustino TF, Maren S (2015). The role of the medial prefrontal cortex in the conditioning and extinction of fear. Front Behav Neurosci.",
     "pmcid": "PMC4637424",
     "open_access": true,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["BLA 亚区→IL/PL 分区投射系统综述", "IL 促进消退/PL 促进恐惧表达的功能对立", "rostral BLA→PL / caudal BLA→IL 投射拓扑", "Giustino & Maren 2015 系统综述"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "BLA 亚区→IL/PL 分区投射系统综述",
+      "IL 促进消退/PL 促进恐惧表达的功能对立",
+      "rostral BLA→PL / caudal BLA→IL 投射拓扑",
+      "Giustino & Maren 2015 系统综述"
+    ]
   },
   "PMID:20962768": {
     "citation": "Sierra-Mercado D, Padilla-Coreano N, Quirk GJ (2011). Dissociable roles of prelimbic and infralimbic cortices, ventral hippocampus, and basolateral amygdala in the expression and extinction of conditioned fear. Neuropsychopharmacology.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["双侧 IL 灭活阻断消退回忆（因果证据）", "双侧 PL 灭活减弱恐惧表达", "IL/PL 在消退和恐惧表达中的因果分离"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "双侧 IL 灭活阻断消退回忆（因果证据）",
+      "双侧 PL 灭活减弱恐惧表达",
+      "IL/PL 在消退和恐惧表达中的因果分离"
+    ]
   },
   "PMID:10415674": {
     "citation": "Drevets WC, Ongur D, Price JL (1998). Neuroimaging abnormalities in the subgenual prefrontal cortex: implications for the pathophysiology of familial mood disorders. Mol Psychiatry.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["sgACC 灰质减少 + 急性期血流↑（抑郁症）", "家族性情绪障碍的影像学异常", "sgACC 在抑郁中的结构和功能改变奠基研究"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "sgACC 灰质减少 + 急性期血流↑（抑郁症）",
+      "家族性情绪障碍的影像学异常",
+      "sgACC 在抑郁中的结构和功能改变奠基研究"
+    ]
   },
   "PMID:15748841": {
     "citation": "Mayberg HS, Lozano AM, Voon V et al. (2005). Deep brain stimulation for treatment-resistant depression. Neuron.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["BA25 白质纤维 DBS 快速缓解难治性抑郁（6/6 患者，1-3 min 内急性效果）", "DBS 机制：调节 sgACC→下游回路", "难治性抑郁 DBS 里程碑研究"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "BA25 白质纤维 DBS 快速缓解难治性抑郁（6/6 患者，1-3 min 内急性效果）",
+      "DBS 机制：调节 sgACC→下游回路",
+      "难治性抑郁 DBS 里程碑研究"
+    ]
   },
   "PMID:19693001": {
     "citation": "Price JL, Drevets WC (2010). Neurocircuitry of mood disorders. Neuropsychopharmacology.",
     "pmcid": "PMC3055427",
     "open_access": true,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["sgACC（BA25）= '内脏运动皮层'定义", "情绪障碍的前额叶-边缘系统回路综述", "vmPFC/sgACC 解剖和功能回路完整图谱"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "sgACC（BA25）= '内脏运动皮层'定义",
+      "情绪障碍的前额叶-边缘系统回路综述",
+      "vmPFC/sgACC 解剖和功能回路完整图谱"
+    ]
   },
   "PMID:41171999": {
     "citation": "Giacobbe P, Kennedy SH, Mayberg HS (2026). Deep brain stimulation for depression: current evidence and future directions. J Affect Disord.",
     "pmcid": "PMC12578624",
     "open_access": true,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["sgACC DBS 治疗难治性抑郁最新综述（2026）", "反应率约 40-60%", "DBS 靶点选择和个体化策略"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "sgACC DBS 治疗难治性抑郁最新综述（2026）",
+      "反应率约 40-60%",
+      "DBS 靶点选择和个体化策略"
+    ]
   },
   "PMID:40026920": {
     "citation": "Mavrych V et al. (2025). Neurobiological mechanisms of cognitive emotion regulation: focus on ventromedial prefrontal cortex. Cureus.",
     "pmcid": "PMC11870299",
     "open_access": true,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["vmPFC 情绪调节神经生物学综述", "前额叶解剖与认知重评关系", "开放获取综述文章"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "vmPFC 情绪调节神经生物学综述",
+      "前额叶解剖与认知重评关系",
+      "开放获取综述文章"
+    ]
   },
   "sources_2026-08-25": [
     "PMID:12495527",

@@ -587,5 +587,14 @@
     "revision_count": 1,
     "last_changed": "2026-08-25",
     "reason": "新建页：认知重评行为证据极为充分（Gross 1998以来30年研究）；神经机制有 Ochsner 2002/2004 基础实验 + Buhle 2014 元分析（48项研究）+ Steward 2021 DCM 因果量化 + He 2023 TMS-fMRI 因果证明；有效性边界（感官驱动情绪效果有限）有支持；Q-vmPFC-01 是唯一主要未解问题"
+  },
+  {
+    "slug": "ptsd",
+    "title": "创伤后应激障碍 (PTSD)",
+    "status": "established",
+    "confidence": "high",
+    "revision_count": 1,
+    "last_changed": "2026-08-26",
+    "reason": "新建页：多项独立神经影像研究一致（杏仁核超反应性、vmPFC低激活）；Milad 2009 关键实验直接建立消退回忆障碍机制；Pitman 2012 综合30年生物学证据；遗传贡献双胞胎研究（30-40%）；一线治疗（PE）有多项RCT支持"
   }
 ]

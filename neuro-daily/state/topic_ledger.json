@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-25",
-  "total_articles": 123,
+  "last_updated": "2026-08-26",
+  "total_articles": 124,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7679,6 +7679,86 @@
         "工作记忆与情绪调节的交互：dlPFC 如何在认知负荷下支持/干扰情绪调节",
         "内感觉与情绪生成：岛叶-vmPFC-杏仁核轴的预测误差机制（Barrett EPIC 模型深化）",
         "腹侧纹状体与情绪：NAc-vmPFC 环路在奖赏和情绪价值中的双向作用"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "article_number": 124,
+      "title": "恐惧记忆的囚徒：PTSD 中 vmPFC-杏仁核-海马三角的神经生物学失调",
+      "slug": "ptsd-fear-circuit-neural-mechanism",
+      "core_question": "PTSD 的核心神经回路障碍是什么？vmPFC-杏仁核-海马三角如何协同失调，导致消退记忆无法被有效提取？",
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior",
+        "disease",
+        "molecular"
+      ],
+      "topic_tags": [
+        "PTSD",
+        "fear-extinction",
+        "extinction-recall",
+        "vmPFC",
+        "amygdala",
+        "hippocampus",
+        "contextual-gating",
+        "HPA-axis",
+        "cortisol-paradox",
+        "reconsolidation",
+        "propranolol",
+        "prolonged-exposure",
+        "EMDR",
+        "DCS",
+        "fear-conditioning",
+        "Milad-2009",
+        "Rauch-Shin-Phelps",
+        "Shin-Liberzon",
+        "Maren-contextual-brain",
+        "Pitman-2012",
+        "Ressler-2022",
+        "amygdala-hyperreactivity",
+        "vmPFC-hypoactivity",
+        "FKBP5",
+        "glucocorticoid-receptor",
+        "neuroscience-disease-window"
+      ],
+      "main_sources": [
+        "PMID:22129456",
+        "PMID:19625997",
+        "PMID:16919525",
+        "PMID:23635870",
+        "PMID:19748076",
+        "PMID:23047775",
+        "PMID:35352034"
+      ],
+      "open_full_text_sources": [
+        "PMC4942586",
+        "PMC3055419",
+        "PMC5072129",
+        "PMC2787650",
+        "PMC4951157",
+        "PMC9682920"
+      ],
+      "wiki_pages_created": [
+        "wiki/diseases/ptsd.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/fear-extinction.md (rev6->rev7)",
+        "wiki/systems/amygdala.md (rev7->rev8)"
+      ],
+      "unresolved_questions": [
+        "Q-ptsd-01",
+        "Q-ptsd-02",
+        "Q-ptsd-03"
+      ],
+      "contested_claims_logged": [],
+      "next_suggested_topics": [
+        "PTSD 的分子机制深挖：FKBP5 表观遗传变化与 GR 超敏如何改变 HPA 轴（连接到 2026-07-09 糖皮质激素文章）",
+        "抑郁症的回路机制深挖：sgACC 过激活→单胺系统崩溃的完整通路（ketamine 快速机制 vs SSRI 延迟机制）",
+        "恐惧的双路系统：LeDoux 的低路/高路假说30年后的修订——情感回路 vs 威胁回路的重新概念化",
+        "内感觉与创伤：岛叶在 PTSD 躯体化症状中的角色（内感觉预测误差在 PTSD 中的特异性失调）",
+        "睡眠与 PTSD：REM 睡眠在情绪去饱和化失败中的核心角色（PTSD 噩梦的神经生物学）"
       ]
     }
   ],

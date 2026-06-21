@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-08-26 · 文章 #124 · 恐惧记忆的囚徒：PTSD 中 vmPFC-杏仁核-海马三角的神经生物学失调
+
+**核心主题**：PTSD 的神经回路机制——杏仁核超反应性、vmPFC/IL 自上而下调控减弱、海马情境门控障碍三角失调模型；Milad 2009 消退回忆障碍关键实验；HPA 轴低皮质醇悖论；再巩固窗口作为治疗靶点；PE/EMDR/药物的回路逻辑。
+
+### 新建 Wiki 页面（1 个）
+
+- `diseases/ptsd.md`（创伤后应激障碍）🟢 established · 高置信度 — 三角失调模型（杏仁核↑/vmPFC↓/海马门控↓）；关键证据表（7 项来源）；治疗神经科学逻辑；三个开放问题（Q-ptsd-01/02/03）
+
+### 修订 Wiki 页面（2 个）
+
+- `concepts/fear-extinction.md`：rev6→rev7，related 新增 ptsd；opens_questions 新增 Q-ptsd-01；key_sources 新增 PMID:19748076（消退回忆障碍直接神经证据）和 PMID:23635870（情境脑综述）；来源文章新增 2026-08-26
+- `systems/amygdala.md`：rev7→rev8，related 新增 ptsd；opens_questions 新增 Q-ptsd-01；key_sources 新增 PMID:19748076 和 PMID:35352034；来源文章新增 2026-08-26
+
+### 图谱更新
+
+- 节点：247 → 248（+1）
+- 边：1426 → 1435（+9）
+- 新节点：ptsd
+- 主要新边：ptsd → fear-extinction (mechanism-of)；ptsd ↔ amygdala/hippocampal-circuit/vmPFC/memory-reconsolidation/glucocorticoid-stress-memory/fear-conditioning
+
+### 登记矛盾
+
+- 无新矛盾登记（海马萎缩因果方向的争议已在文章中如实并列，但证据强度不对等，不触发矛盾协议；待后续纵向研究）
+
+### 新增悬空引用
+
+- `endocannabinoid-extinction-enhancer`（PTSD ECS 增强消退治疗靶点，待补）
+
+---
+
 ## 2026-08-25 · 文章 #123 · 驯化杏仁核：vmPFC 与 sgACC 如何编织情绪控制的神经语言，以及抑郁症如何让这根丝线断裂
 
 **核心主题**：vmPFC（BA10/11/12/25/32 腹侧）与 sgACC（BA25）如何作为前额叶-杏仁核情绪调节回路的枢纽。三个机制板块：(1) 认知重评——vlPFC 语义重构 → vmPFC 情绪整合 → 杏仁核负向有效连接（Steward 2021 DCM + He 2023 TMS-fMRI 因果证明）；(2) 恐惧消退——IL/vmPFC → 腹侧 ITC → CeM 抑制（Giustino & Maren 2015 系统综述 + Sierra-Mercado 2011 因果证据）；(3) sgACC 作为"内脏运动皮层"（Price & Drevets 2010）——正常情况下精准调节自主神经和神经调质基线，抑郁时持续过度激活形成自我维持的负性情绪循环（Drevets 1999 PET + Mayberg 2005 BA25 DBS）。

@@ -280,6 +280,7 @@
 - 🔵 [意识障碍（DoC）](diseases/disorders-of-consciousness.md) — 严重脑损伤后觉醒和/或意识内容持续损害的临床综合征；昏迷→VS/UWS→MCS→CMD连续谱；前脑中间回路（GPi脱抑制→中央丘脑过度抑制→皮层去传入）；25%"无反应"患者有隐蔽意识（Bodien NEJM 2024）；多模态神经评估（任务型fMRI/EEG/PCI）正在重塑临床诊断标准和伦理框架 **[NEW 2026-08-09]**
 - 🟢 [儿童言语失用症（CAS）](diseases/childhood-apraxia-of-speech.md) — 言语运动程序化选择性障碍（非肌力或发音器官问题）；遗传异质性：30+致病基因（Morgan 2024）；FOXP2经典病因链：R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→MSN树突不全→程序化失败；多基因CAS汇聚于共同转录调控通路 **[NEW 2026-08-12]**
 - 🟢 [CNTNAP2 缺乏症 / CDFE 综合征](diseases/cntnap2-deficiency-cdfe.md) — 双等位CNTNAP2功能缺失→皮层发育不良-局灶性癫痫-语言退行-ASD-智力障碍五联征；Strauss 2006 Amish家系；动物模型（Peñagarikano 2011 Cell）复制核心表型；FOXP2→CNTNAP2轴将CAS与CDFE连接至共同遗传级联 **[NEW 2026-08-15]**
+- 🟢 [创伤后应激障碍（PTSD）](diseases/ptsd.md) — 消退记忆提取障碍（学习保留、提取受损）；三角失调（杏仁核超反应性/vmPFC自上而下调控减弱/海马情境门控障碍）；HPA轴低皮质醇悖论；再巩固窗口作为治疗靶点；PE/EMDR/药物的回路逻辑；Q-ptsd-01/02/03 **[NEW 2026-08-26]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
 

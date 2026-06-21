@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-08-25
-revision_count: 7
+updated: 2026-08-26
+revision_count: 8
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation, olfactory-bulb, piriform-cortex, orbitofrontal-cortex, value-based-decision-making, vmPFC, emotion-regulation, cognitive-reappraisal]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation, olfactory-bulb, piriform-cortex, orbitofrontal-cortex, value-based-decision-making, vmPFC, emotion-regulation, cognitive-reappraisal, ptsd]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality, Q-vmPFC-03]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-21-orbitofrontal-cortex-value-decision-circuit, 2026-08-25-vmPFC-sgACC-emotion-regulation]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:37620443", "PMID:32278646", "DOI:10.7554/eLife.80926", "PMID:40068869", "PMID:19693001", "PMID:12495527", "PMID:26617500"]
+opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality, Q-vmPFC-03, Q-ptsd-01]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-21-orbitofrontal-cortex-value-decision-circuit, 2026-08-25-vmPFC-sgACC-emotion-regulation, 2026-08-26-ptsd-fear-circuit-neural-mechanism]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:37620443", "PMID:32278646", "DOI:10.7554/eLife.80926", "PMID:40068869", "PMID:19693001", "PMID:12495527", "PMID:26617500", "PMID:19748076", "PMID:35352034"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -155,6 +155,7 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - 2026-08-21 · 修订 rev6 · 基于《价值的解剖：眶额皮层如何为选项定价》(#119) · 连接节新增 orbitofrontal-cortex（BLA↔OFC 双向价值记忆回路：lOFC→BLA 写入，mOFC→BLA 检索，BLA→lOFC 更新权变，Wassum 2022 & Jenni 2025）和 value-based-decision-making；related 新增 orbitofrontal-cortex、value-based-decision-making；key_sources 新增 DOI:10.7554/eLife.80926、PMID:40068869；source_articles 新增 2026-08-21
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
 - 2026-08-25 · 修订 rev7 · 基于《驯化杏仁核：vmPFC 与 sgACC》(#123) · 连接节新增 vmPFC（vmPFC 通过 GABAergic 中间神经元抑制 CeM、情绪调节和认知重评的核心通路）、emotion-regulation、cognitive-reappraisal；未解问题新增 Q-vmPFC-03；related 新增 vmPFC/emotion-regulation/cognitive-reappraisal；key_sources 新增 PMID:19693001/12495527/26617500；source_articles 新增 2026-08-25
+- 2026-08-26 · 修订 rev8 · 基于《恐惧记忆的囚徒：PTSD》(#124) · related 新增 ptsd；opens_questions 新增 Q-ptsd-01；key_sources 新增 PMID:19748076（Milad 2009，杏仁核在 PTSD 消退回忆测试期间超激活的直接证据）、PMID:35352034（Ressler 2022，PTSD 杏仁核超反应性及其遗传机制）；来源文章新增 2026-08-26
 
 ## 来源文章
 
@@ -165,3 +166,4 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[2026-07-26-olfactory-coding-smell-memory-limbic]]
 - [[2026-08-21-orbitofrontal-cortex-value-decision-circuit]]
 - [[2026-08-25-vmPFC-sgACC-emotion-regulation]]
+- [[2026-08-26-ptsd-fear-circuit-neural-mechanism]]

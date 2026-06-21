@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "node_count": 247,
   "edge_count": 1425,
   "edge_types": [
@@ -2249,6 +2249,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/cognitive-reappraisal.md"
+    },
+    {
+      "id": "ptsd",
+      "title": "创伤后应激障碍 (PTSD)",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/ptsd.md"
     }
   ],
   "edges": [
@@ -10231,6 +10240,51 @@
       "to": "fear-extinction",
       "type": "related",
       "note": "认知重评与恐惧消退功能上相关：两者均通过 vmPFC→杏仁核通路减少情绪反应，但机制有差异（重评改变含义，消退形成新抑制记忆）"
+    },
+    {
+      "from": "ptsd",
+      "to": "fear-extinction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "ptsd",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "ptsd",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "ptsd",
+      "to": "vmPFC",
+      "type": "related"
+    },
+    {
+      "from": "ptsd",
+      "to": "memory-reconsolidation",
+      "type": "related"
+    },
+    {
+      "from": "ptsd",
+      "to": "glucocorticoid-stress-memory",
+      "type": "related"
+    },
+    {
+      "from": "ptsd",
+      "to": "fear-conditioning",
+      "type": "related"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "ptsd",
+      "type": "related"
+    },
+    {
+      "from": "amygdala",
+      "to": "ptsd",
+      "type": "related"
     }
   ],
   "dangling_references": [

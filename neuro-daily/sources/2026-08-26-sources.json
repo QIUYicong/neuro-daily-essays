@@ -1,0 +1,131 @@
+{
+  "date": "2026-08-26",
+  "article": "2026-08-26-ptsd-fear-circuit-neural-mechanism",
+  "sources": [
+    {
+      "id": "S01",
+      "pmid": "22129456",
+      "pmcid": "PMC4942586",
+      "authors": "Milad MR, Quirk GJ",
+      "year": 2012,
+      "title": "Fear extinction as a model for translational neuroscience: ten years of progress",
+      "journal": "Annual Review of Psychology",
+      "doi": "10.1146/annurev.psych.121208.131631",
+      "access": "open_full_text",
+      "relevance": "Foundational review linking extinction neuroscience to translational PTSD research; key evidence for vmPFC role in extinction recall",
+      "aspects_covered": ["extinction_circuit", "vmPFC_IL", "translational_models", "clinical_implications"]
+    },
+    {
+      "id": "S02",
+      "pmid": "19625997",
+      "pmcid": "PMC3055419",
+      "authors": "Shin LM, Liberzon I",
+      "year": 2010,
+      "title": "The neurocircuitry of fear, stress, and anxiety disorders",
+      "journal": "Neuropsychopharmacology",
+      "doi": "10.1038/npp.2009.83",
+      "access": "open_full_text",
+      "relevance": "Comprehensive cross-disorder neuroimaging review; establishes amygdala hyperactivity and vmPFC hypoactivity as consistent PTSD findings",
+      "aspects_covered": ["amygdala_hyperreactivity", "vmPFC_hypoactivity", "cross_disorder_comparison", "neuroimaging_review"]
+    },
+    {
+      "id": "S03",
+      "pmid": "16919525",
+      "pmcid": null,
+      "authors": "Rauch SL, Shin LM, Phelps EA",
+      "year": 2006,
+      "title": "Neurocircuitry models of posttraumatic stress disorder and extinction: human neuroimaging research--past, present, and future",
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2006.02.021",
+      "access": "abstract_only",
+      "relevance": "Foundational neurocircuitry model of PTSD proposing amygdala hyperreactivity + frontal/hippocampal deficit",
+      "aspects_covered": ["ptsd_neurocircuitry_model", "amygdala", "prefrontal_deficit", "future_directions"]
+    },
+    {
+      "id": "S04",
+      "pmid": "23635870",
+      "pmcid": "PMC5072129",
+      "authors": "Maren S, Phan KL, Liberzon I",
+      "year": 2013,
+      "title": "The contextual brain: implications for fear conditioning, extinction and psychopathology",
+      "journal": "Nature Reviews Neuroscience",
+      "doi": "10.1038/nrn3492",
+      "access": "open_full_text",
+      "relevance": "Key review on hippocampal contextual gating in fear/extinction; explains PTSD's extinction generalization failure and trauma context over-generalization",
+      "aspects_covered": ["hippocampus_context", "extinction_renewal", "contextual_gating", "PTSD_schizophrenia_substance"]
+    },
+    {
+      "id": "S05",
+      "pmid": "19748076",
+      "pmcid": "PMC2787650",
+      "authors": "Milad MR, Pitman RK, Ellis CB, Gold AL, Shin LM, Lasko NB, Zeidan MA, Handwerger K, Orr SP, Rauch SL",
+      "year": 2009,
+      "title": "Neurobiological basis of failure to recall extinction memory in posttraumatic stress disorder",
+      "journal": "Biological Psychiatry",
+      "doi": "10.1016/j.biopsych.2009.06.026",
+      "access": "open_full_text",
+      "relevance": "THE key experiment: PTSD patients learn extinction normally (Day 1) but fail to recall it (Day 2); vmPFC hypoactivity during recall is the neural correlate",
+      "aspects_covered": ["extinction_recall_failure", "vmPFC_hypoactivity", "amygdala_hyperreactivity", "fMRI", "PTSD_diagnosis"]
+    },
+    {
+      "id": "S06",
+      "pmid": "23047775",
+      "pmcid": "PMC4951157",
+      "authors": "Pitman RK, Rasmusson AM, Koenen KC, Shin LM, Orr SP, Gilbertson MW, Milad MR, Liberzon I",
+      "year": 2012,
+      "title": "Biological studies of post-traumatic stress disorder",
+      "journal": "Nature Reviews Neuroscience",
+      "doi": "10.1038/nrn3339",
+      "access": "open_full_text",
+      "relevance": "Comprehensive review of 30 years of PTSD biology; hippocampal volume, HPA cortisol paradox, genetics, epigenetics, reconsolidation",
+      "aspects_covered": ["hippocampal_atrophy", "HPA_axis", "glucocorticoids", "genetics", "reconsolidation_propranolol", "twin_studies"]
+    },
+    {
+      "id": "S07",
+      "pmid": "35352034",
+      "pmcid": "PMC9682920",
+      "authors": "Ressler KJ, Berretta S, Bolshakov VY, Rosso IM, Meloni EG, Rauch SL, Carlezon WA Jr.",
+      "year": 2022,
+      "title": "Post-traumatic stress disorder: clinical and translational neuroscience from cells to circuits",
+      "journal": "Nature Reviews Neurology",
+      "doi": "10.1038/s41582-022-00635-0",
+      "access": "open_full_text",
+      "relevance": "Most recent comprehensive review; epidemiology (6-8%), genetics (30-40% heritability), multi-omics integration, circuit-to-treatment framework",
+      "aspects_covered": ["epidemiology", "genetics_FKBP5", "translational_framework", "treatment_targets", "multi_omics"]
+    }
+  ],
+  "search_strategy": {
+    "databases": ["PubMed NCBI E-utilities", "PMC Open Access"],
+    "search_queries": [
+      "PTSD neurobiology amygdala prefrontal cortex review",
+      "Milad Quirk 2012 fear extinction translational",
+      "Shin Liberzon 2010 neurocircuitry fear stress anxiety disorders",
+      "Rauch Shin Phelps 2006 PTSD neurocircuitry",
+      "Maren Phan Liberzon 2013 contextual brain fear conditioning extinction",
+      "Milad 2009 PTSD fear extinction recall hippocampus vmPFC",
+      "Pitman PTSD biological studies 2012 nature reviews",
+      "Ressler 2022 PTSD clinical translational neuroscience"
+    ],
+    "candidates_examined": 15,
+    "sources_included": 7,
+    "open_full_text_count": 6,
+    "abstract_only_count": 1,
+    "excluded_reason": "Some results returned unrelated papers; excluded and re-searched with author+year specificity"
+  },
+  "wiki_consolidation": {
+    "new_pages": ["wiki/diseases/ptsd.md"],
+    "revised_pages": [
+      "wiki/concepts/fear-extinction.md",
+      "wiki/systems/amygdala.md"
+    ],
+    "new_graph_nodes": ["ptsd"],
+    "new_graph_edges": [
+      "ptsd -> fear-extinction (disease-mechanism-of)",
+      "ptsd -> amygdala (features-hyperactivity-of)",
+      "ptsd -> hippocampal-circuit (features-dysfunction-of)",
+      "ptsd -> vmPFC (features-hypoactivity-of)",
+      "ptsd -> memory-reconsolidation (treatment-target-via)",
+      "ptsd -> glucocorticoid-stress-memory (related)"
+    ]
+  }
+}
