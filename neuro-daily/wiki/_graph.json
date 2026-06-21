@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-16",
+  "updated": "2026-08-18",
   "node_count": 223,
   "edge_count": 1298,
   "edge_types": [
@@ -2060,6 +2060,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/vasopressin.md"
+    },
+    {
+      "id": "activity-silent-wm",
+      "title": "活动无声工作记忆",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/activity-silent-wm.md"
     }
   ],
   "edges": [
@@ -9432,6 +9441,42 @@
       "to": "vasopressin",
       "type": "related_to",
       "note": "互补配对联结分子；在CA2共用V1bR/OTR双受体系统"
+    },
+    {
+      "from": "activity-silent-wm",
+      "to": "working-memory",
+      "type": "mechanism-of",
+      "note": "活动无声机制是工作记忆维持的机制之一"
+    },
+    {
+      "from": "activity-silent-wm",
+      "to": "short-term-synaptic-plasticity",
+      "type": "mechanism-of",
+      "note": "STSP易化是活动无声WM的物理底物"
+    },
+    {
+      "from": "activity-silent-wm",
+      "to": "persistent-activity",
+      "type": "related",
+      "note": "两者在延迟期交替出现，相互补充"
+    },
+    {
+      "from": "activity-silent-wm",
+      "to": "gamma-oscillations",
+      "type": "related",
+      "note": "Gamma爆发标记活动状态，间隔即活动无声窗口"
+    },
+    {
+      "from": "working-memory",
+      "to": "activity-silent-wm",
+      "type": "related",
+      "note": "工作记忆的两种维持机制之一"
+    },
+    {
+      "from": "working-memory",
+      "to": "attractor-network",
+      "type": "mechanism-of",
+      "note": "吸引子网络实现工作记忆的持续状态维持"
     }
   ],
   "dangling_references": [

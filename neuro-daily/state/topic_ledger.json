@@ -7179,6 +7179,74 @@
       "open_access_sources": 3,
       "graph_nodes": 226,
       "graph_edges": 1323
+    },
+    {
+      "date": "2026-08-18",
+      "title": "工作记忆的两种面孔：神经元如何在放电与沉默之间保住世界",
+      "filename": "2026-08-18-working-memory-persistent-activity-silent.md",
+      "wiki_pages_created": [
+        "wiki/concepts/activity-silent-wm.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/working-memory.md",
+        "wiki/concepts/persistent-activity.md"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "工作记忆中的信息究竟靠什么来维持——神经元群持续的高频放电（Goldman-Rakic的吸引子模型），还是突触权重的短暂增强（活动无声工作记忆）？两类机制的证据如何共存？Panichello 2024的答案是：两者在同一任务中交替工作，是假对立。",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "synaptic"
+      ],
+      "curriculum_track": "5. 认知控制（工作记忆机制深度篇）",
+      "topic_tags": [
+        "working memory",
+        "persistent activity",
+        "activity-silent WM",
+        "delay period activity",
+        "Goldman-Rakic",
+        "DLPFC",
+        "attractor network",
+        "NMDA receptor",
+        "short-term synaptic plasticity",
+        "gamma bursts",
+        "Lundqvist 2016",
+        "Stokes 2015",
+        "Wang XJ 2021",
+        "Panichello 2024",
+        "intermittent coding",
+        "on-off states",
+        "working memory capacity",
+        "PFC content vs control",
+        "Neuropixels"
+      ],
+      "main_sources": [
+        "PMID:26051384 (PMC4509720, open)",
+        "PMID:26996084 (PMC5220584, open)",
+        "PMID:34654556 (PMC9087306, open)",
+        "PMID:30158519 (OA, open)",
+        "PMID:39506106 (OA, open)",
+        "PMID:37910532 (PMC11068397, open)",
+        "PMID:26733825 (PMC4683174, open)",
+        "PMID:33551266 (abstract only)",
+        "PMID:32516337 (abstract only)",
+        "PMID:40634665 (OA, open)"
+      ],
+      "unresolved_questions": [
+        "Q-wm-manipulation-mechanism: 信息主动操纵（如心理翻转数字序列）是否必须依赖持续放电吸引子激活？Wang 2021理论主张，缺乏直接实验",
+        "Q-wm-silent-vs-episodic: 活动无声WM（ASWM）与海马情节记忆的快速激活究竟是两种机制还是同一机制？需海马失活对照实验裁决（Beukers 2021）",
+        "Q-wm-active-vs-silent (updated): Panichello 2024表明两者共存，但各自的相对权重与任务依赖性尚待量化"
+      ],
+      "next_suggested_topics": [
+        "认知控制的前额叶机制：DLPFC的执行控制功能分解——目标维持、干扰过滤、规则切换的不同神经回路（延续WM路线，聚焦控制而非存储）",
+        "E/I平衡与认知控制：兴奋-抑制平衡如何调节神经元增益，PV+中间神经元在WM门控中的精确角色（深化WM文章的回路细节）",
+        "工作记忆的发育变化：从儿童到成年，DLPFC的成熟如何改变WM容量（发育神经科学新窗口）",
+        "奖赏学习与预测误差：多巴胺RPE信号、基底节回路的更新机制（认知控制路线的自然延续，向决策过渡）",
+        "注意选择的神经机制：自上而下偏置信号如何从PFC到V4/MT调制视觉处理（补充WM中的注意-记忆互动）"
+      ],
+      "mode": "long_term_curriculum",
+      "article_number": 104
     }
   ],
   "layer_coverage_recent": {

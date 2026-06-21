@@ -6,15 +6,15 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-22
-revision_count: 9
+updated: 2026-08-18
+revision_count: 10
 dimensions: [cognition, brain-region, microcircuit, behavior]
-related: [persistent-activity, gamma-oscillations, beta-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit, theta-gamma-coupling, alpha-oscillations]
+related: [persistent-activity, gamma-oscillations, beta-oscillations, prefrontal-cortex, pv-interneurons, nmda-receptor, theta-oscillations, sharp-wave-ripples, memory-consolidation, competition-selection-principle, short-term-synaptic-plasticity, norepinephrine-locus-coeruleus, acetylcholine-cortex, dorsal-language-stream, language-network, thalamus, thalamocortical-circuit, theta-gamma-coupling, alpha-oscillations, activity-silent-wm, attractor-network]
 prerequisites: [nmda-receptor, pv-interneurons, synaptic-transmission]
-opens_questions: [Q-wm-active-vs-silent, Q-wm-pfc-content-vs-control, Q-wm-human-specificity, Q-theta-primate]
+opens_questions: [Q-wm-active-vs-silent, Q-wm-pfc-content-vs-control, Q-wm-human-specificity, Q-theta-primate, Q-wm-manipulation-mechanism, Q-wm-silent-vs-episodic]
 partially_resolved_questions: [Q-wm-capacity-mechanism]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition, 2026-07-19-beta-oscillations-cortical-prediction, 2026-07-21-theta-gamma-coupling-working-memory, 2026-07-22-alpha-oscillations-attention-wm]
-key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841", "PMID:29339471", "PMID:28785729", "PMID:7878473", "PMID:23522038", "PMID:20133762", "PMID:24268290", "PMID:30887701"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-10-stp-short-term-plasticity, 2026-06-12-neuromodulators-ach-ne, 2026-06-20-language-dual-stream, 2026-06-03-thalamus-gatekeeper-cognition, 2026-07-19-beta-oscillations-cortical-prediction, 2026-07-21-theta-gamma-coupling-working-memory, 2026-07-22-alpha-oscillations-attention-wm, 2026-08-18-working-memory-persistent-activity-silent]
+key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", "PMID:21345366", "PMID:16254995", "PMID:23818597", "PMID:29275841", "PMID:29339471", "PMID:28785729", "PMID:7878473", "PMID:23522038", "PMID:20133762", "PMID:24268290", "PMID:30887701", "PMID:26051384", "PMID:34654556", "PMID:30158519", "PMID:39506106", "PMID:37910532", "PMID:33551266", "PMID:40634665"]
 ---
 
 # 工作记忆 (Working Memory)
@@ -33,6 +33,8 @@ key_sources: ["PMID:4998337", "PMID:7695894", "PMID:26996084", "PMID:18339943", 
 4. **层级特化**：浅层（L2/3）负责内容编码，深层（L5/6）负责时序控制
 
 经典持续放电模型（Goldman-Rakic 1995）仍然有效，但需修订：延迟期放电是**间歇性 γ 爆发**而非连续高频，且并非所有信息都需要主动放电维持。
+
+2024年，斯坦福大学使用Neuropixels探针的大规模记录（Panichello et al. 2024，PMID:39506106）直接证明工作记忆延迟期的神经元群体在"开"（信息可解码）和"关"（基线）状态间周期性切换——两种机制（活动编码+突触权重）在同一任务中共存，其冲突是"假问题"。同时，具有持续放电的神经元携带更多工作记忆信息（Thrower et al. 2023，PMID:37910532），并非所有神经元都等价。
 
 ## 关键机制
 
@@ -55,6 +57,11 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 | STP 可实现活动无声 WM | 计算模型 | Mongillo et al. 2008 (PMID:18339943) | 中 |
 | D1 受体倒 U 型调节 | 猕猴 PFC 微量注射 | Arnsten 2011 (PMID:21345366, PMC:PMC3115784) | 高 |
 | PV 损伤导致 γ 下降和 WM 缺陷 | 人类 dlPFC 尸检 | Hughes et al. 2024 (PMID:39381500, PMC:PMC11458443) | 高 |
+| 神经元群体在"开-关"状态间切换，两种机制共存 | Neuropixels 高密度记录，猕猴，480神经元/节次 | Panichello et al. 2024 (PMID:39506106) | 极高 |
+| 具有持续放电的神经元携带更多WM信息 | SVM解码，猕猴，空间+对象任务 | Thrower et al. 2023 (PMID:37910532, PMC:PMC11068397) | 高 |
+| 人类MTL神经元以持续放电维持未关注WM项目 | 人类颅内记录，双反向线索任务 | Paluch et al. 2025 (PMID:40634665) | 高 |
+| 活动无声WM可被任务无关探测刺激"读出" | 延迟期冲激再激活范式（猴/人） | Stokes 2015 (PMID:26051384, PMC:PMC4509720) | 中 |
+| NR2B-NMDA受体拮抗剂几乎完全消除延迟期选择性放电 | 猕猴PFC局部iontophoresis | Wang XJ 2021 引用（PMID:34654556, PMC:PMC9087306） | 高 |
 | 前额叶层流：L5/6 深层 β 调制 L2/3 浅层 γ 爆发概率（许可窗口） | 猕猴 PFC 层流电极 LFP，延迟 WM 任务，相位-功率耦合分析 | Bastos et al. 2018 (PMID:29339471, PMC:PMC5798320) | 高 |
 | β 爆发可内容特异性地参与记忆再激活（振动频率→β 功率参数化编码） | 人类 MEG + 灵长类 LFP，振动触觉 WM 任务，综合综述 | Spitzer & Haegens 2017 (PMID:28785729, PMC:PMC5539431) | 中 |
 
@@ -70,12 +77,15 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - [[theta-gamma-coupling]] — θ-γ 跨频率耦合是工作记忆 4±1 容量上限的节律物理机制：每个 θ 周期容纳约 4–6 个 γ 爆发，每个爆发承载一项信息
 - [[memory-consolidation]] — 工作记忆的长期化需要海马参与
 - [[short-term-synaptic-plasticity]] — STP易化机制是"活动无声"工作记忆的物理基础（Mongillo 2008）；Syt7驱动的易化状态储存记忆，无需持续高频放电
+- [[activity-silent-wm]] — 活动无声工作记忆：信息存储在突触STSP状态而非持续放电；与持续放电机制在同一任务中共存（Panichello 2024）
 - [[dorsal-language-stream]] — Baddeley语音回路（phonological loop）对应背侧流Spt↔BA44环路：颞顶界面区（Spt）是音韵短期缓冲，弓状束传递信息到BA44进行内部"默读"，是语言工作记忆的神经底层
 - [[language-network]] — 双流语言网络中的背侧流Spt↔BA44子回路 = 语音工作记忆的解剖基础
 
 ## 未解问题
 
-- Q-wm-active-vs-silent：在真实任务中，活动性编码与突触静默储存各贡献多少？
+- Q-wm-active-vs-silent：在真实任务中，活动性编码与突触静默储存各贡献多少？（2026-08-18更新：Panichello 2024 表明两者在同一任务中共存，但各自的相对权重与任务依赖性尚待量化）
+- Q-wm-manipulation-mechanism：信息操纵（如心理翻转数字序列）是否必须依赖持续放电的吸引子激活，而活动无声机制无法支持？（Wang 2021理论主张，缺乏直接实验）
+- Q-wm-silent-vs-episodic：活动无声WM（ASWM）与海马情节记忆的快速激活究竟是两种机制还是同一机制？（Beukers et al. 2021，PMID:33551266，需海马失活对照实验裁决）
 - Q-wm-capacity-mechanism（部分解答，2026-07-21）：约 4 项的容量限制来自吸引子竞争 *与* θ/γ 嵌套约束的共同作用，而非单一机制——Lisman-Idiart 1995 容量分格模型给出节律约束（θ/γ比≈4–6爆发/周期）；Axmacher 2010 提供人类颅内证据（PAC随WM负荷单调增加）；Wolinski 2018 提供个体θ频率→容量的定量预测。因果操控（tACS）证据仍弱。详见 [[theta-gamma-coupling]]。
 - Q-wm-pfc-content-vs-control：PFC 究竟是"内容存储器"还是"调度控制中心"？
 - Q-wm-human-specificity：人类 dlPFC 是否有特有的工作记忆机制？
@@ -139,6 +149,7 @@ PV+ 篮状细胞的兴奋-抑制循环（锥体细胞兴奋 → PV 反馈抑制 
 - 2026-07-19 · 修订 · 基于《β振荡的三副面孔》一文（#87）· 扩展"主动抑制"机制：β 爆发（130 ms）为 WM 延迟期默认背景态、L5/6 深层 β→L2/3 浅层 γ 许可窗口（Bastos 2018）、内容特异性 β 再激活（Spitzer & Haegens 2017）；关键证据表新增两行（Bastos 2018、Spitzer 2017）；连接新增 beta-oscillations；key_sources 新增 PMID:29339471、PMID:28785729
 - 2026-07-21 · 修订 · 基于《海马的节律钟表》一文（#89）· 将 Q-wm-capacity-mechanism 移入 partially_resolved；θ-γ 嵌套为 4±1 容量的节律物理机制（三层证据：Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）；连接新增 theta-gamma-coupling；key_sources 新增 PMID:7878473、PMID:23522038、PMID:20133762；related 新增 theta-gamma-coupling
 - 2026-07-22 · 修订 · 基于《α振荡》一文（#90）· 新增α-γ双代码WM补充小节（编码/维持/提取三阶段α-γ PAC证据）；将Q-theta-primate加入opens_questions；related新增alpha-oscillations；key_sources新增PMID:24268290、PMID:30887701
+- 2026-08-18 · 修订 · 基于《工作记忆的两种面孔》（#104）· 整合Panichello 2024（间歇开-关状态，两种机制共存）、Thrower 2023（持续放电神经元信息优势）、Wang XJ 2021（NMDA拮抗剂证据）、Paluch 2025（人类MTL持续放电）、Stokes 2015（活动无声框架）；关键证据表新增6行；opens_questions新增Q-wm-manipulation-mechanism和Q-wm-silent-vs-episodic；related新增activity-silent-wm、attractor-network；key_sources新增7条；source_articles新增2026-08-18
 
 ## NE 和 ACh 对工作记忆的调制
 

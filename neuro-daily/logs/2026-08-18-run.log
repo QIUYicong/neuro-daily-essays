@@ -1,0 +1,84 @@
+# 运行日志 · 2026-08-18
+
+## 元信息
+
+- **运行日期**：2026-08-18（UTC+8）
+- **系统触发日期**：2026-06-21（调度器时钟；知识库已延伸至2026-08-17，本次继续序列）
+- **文章编号**：#104
+- **运行模式**：long_term_curriculum（认知控制路线）
+- **分支**：main
+- **状态**：成功完成，已提交并推送
+
+---
+
+## 选题过程
+
+- **检查来源**：`topic_ledger.json`（103条记录，最新2026-08-17）、`unresolved_questions.md`、`contested_claims.json`（6条open）
+- **图谱分析**：227节点/1323边，无悬空引用
+- **选题依据**：课程脊柱第5条（认知控制），工作记忆主题在之前文章中（#57 运动皮层、#90 α振荡、#89 θ-γ）多次被提及为"下一步"，且Q-wm-active-vs-silent作为高优先级open question已登记多次。选择聚焦"持续放电vs活动无声机制"这一明确的科学争论。
+
+---
+
+## 检索策略与来源质量
+
+| 查询词 | 数据库 | 候选数 | 采用 |
+|--------|--------|--------|------|
+| working memory persistent activity activity-silent synaptic | PubMed E-utilities | 15 | 4 |
+| working memory prefrontal delay period | PubMed | 10 | 3 |
+| working memory dynamic coding population | PubMed | 8 | 3 |
+| Stokes 2015 activity-silent | PMC | 1 | 1 |
+| Lundqvist 2016 gamma bursts working memory | PMC | 1 | 1 |
+| Wang XJ 2021 persistent activity | PMC | 1 | 1 |
+
+**最终采用来源**：10篇（8篇开放全文，2篇仅摘要）
+
+---
+
+## 文章与wiki产出
+
+**情景层（append-only）**：
+- `articles/2026-08-18-working-memory-persistent-activity-silent.md` — 主文章，~4500字
+- `notes/2026-08-18-reading-notes.md` — 研究笔记
+- `sources/2026-08-18-sources.json` — 10条来源记录
+
+**语义层（wiki更新）**：
+- 新建：`wiki/concepts/activity-silent-wm.md`（rev1，emerging，confidence: medium）
+- 修订：`wiki/concepts/working-memory.md`（rev9→rev10，新增6行证据、2个新问题）
+- 修订：`wiki/concepts/persistent-activity.md`（rev1→rev2，新增4行证据）
+
+**图谱更新**：
+- 新节点1：`activity-silent-wm`
+- 新边6条：activity-silent-wm←→working-memory, activity-silent-wm→short-term-synaptic-plasticity, activity-silent-wm→persistent-activity, activity-silent-wm→gamma-oscillations, working-memory→attractor-network
+
+**治理层更新**：
+- `topic_ledger.json`：新增第104条条目
+- `maturity_index.json`：新增activity-silent-wm条目
+- `source_registry.json`：新增5条来源
+- `unresolved_questions.md`：新增Q-wm-manipulation-mechanism、Q-wm-silent-vs-episodic
+- `monthly_synthesis.md`：追加2026-08-18摘要
+- `wiki/CHANGELOG.md`：追加2026-08-18变更记录
+- `wiki/index.md`：更新header信息，新增activity-silent-wm条目
+
+---
+
+## 矛盾检查
+
+- 持续放电 vs 活动无声：已被Panichello 2024部分调和（两者共存），不登记为contested_claim
+- 活动无声WM vs 情节记忆区分：登记为Q-wm-silent-vs-episodic（open question）
+- 与working-memory.md现有内容无矛盾（Lundqvist 2016已在内，此次扩展了证据基础）
+
+---
+
+## 失败与限制
+
+- Panichello 2024 PMC全文URL获取失败（重定向）；通过期刊摘要+摘要详细内容完成
+- NIMH/NIH官方页面无直接相关的工作记忆机制专题，未能引用机构来源（标注于sources.json）
+- 无开放全文：PMID:33551266（Beukers 2021，摘要）、PMID:32516337（Pals 2020，摘要）
+
+---
+
+## Git信息
+
+- **分支**：main
+- **推送状态**：[由后续步骤记录]
+- **commit message**：`Add neuro daily article + wiki consolidation for 2026-08-18`

@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-08-18 · 文章 #104 · 工作记忆的两种面孔：持续放电与活动无声机制之争
+
+**核心主题**：工作记忆维持机制争论全景；Goldman-Rakic持续放电经典图景；Wang XJ吸引子网络+NMDA受体证据；Stokes 2015活动无声框架+STSP机制；Lundqvist 2016 Gamma/Beta爆发间歇编码；Panichello 2024 Neuropixels开-关状态大综合；Thrower 2023持续放电神经元信息优势；Lara/Wallis PFC执行控制视角；Paluch 2025人类MTL持续放电；Beukers 2021活动无声vs情节记忆挑战；AI Transformer对照。
+
+**新建页面（1）**：
+- `wiki/concepts/activity-silent-wm.md`（rev1，status: emerging，confidence: medium）— 活动无声WM定义；STSP钙动力学机制；冲激再激活范式；Panichello 2024开-关切换证据整合；三个未解问题（Q-wm-active-vs-silent、Q-wm-silent-vs-episodic、Q-wm-manipulation-mechanism）
+
+**修订页面（2）**：
+- `wiki/concepts/working-memory.md`（rev9→rev10）— 整合Panichello 2024（间歇开-关状态）、Thrower 2023（持续放电信息优势）、Wang XJ 2021（NMDA拮抗剂证据）、Paluch 2025（人类MTL）、Stokes 2015；关键证据表新增6行；opens_questions新增Q-wm-manipulation-mechanism和Q-wm-silent-vs-episodic；related新增activity-silent-wm、attractor-network；key_sources新增7条
+- `wiki/concepts/persistent-activity.md`（rev1→rev2）— 新增NMDA拮抗剂证据、Panichello 2024开-关切换、Thrower 2023信息优势、Paluch 2025人类证据；关键证据表新增4行；related新增activity-silent-wm、attractor-network
+
+**登记矛盾（0）**：持续放电 vs 活动无声之争被Panichello 2024部分调和（两者在同一任务中共存），不构成新的contested_claim；但Q-wm-silent-vs-episodic（活动无声WM vs情节记忆区分）作为open question登记于unresolved_questions.md。
+
+**新增未解问题（2）**：
+- Q-wm-manipulation-mechanism（中优先级）：信息主动操纵是否必须依赖持续放电吸引子激活？活动无声机制无法支持动态计算（Wang 2021理论主张，缺乏直接实验）
+- Q-wm-silent-vs-episodic（中优先级）：活动无声WM与海马情节记忆快速激活是否能被区分？需海马失活对照实验（Beukers 2021挑战）
+
+**知识图谱更新**：新增节点 `activity-silent-wm`；新增边6条（activity-silent-wm→working-memory, activity-silent-wm→short-term-synaptic-plasticity, activity-silent-wm→persistent-activity, activity-silent-wm→gamma-oscillations, working-memory→activity-silent-wm, working-memory→attractor-network）
+
+---
+
 ## 2026-08-17 · 文章 #116 · 同一肽，不同故事：加压素如何用受体分布的地理差异重写社会命运
 
 **核心主题**：AVP九肽结构（与OXT仅差2 aa）；三受体系统（V1aR/V1bR/V2R）；草原田鼠 vs. 山地田鼠VP-V1aR密度差异；Lim 2004单基因草甸田鼠实验（单基因过表达V1aR逆转物种配对策略）；AVPR1A RS3微卫星机制（~500bp单配制 vs. ~50bp乱交，Hammock 2006, PMID:17118932/PMC1764849）；Gobrogge 2009 AH-V1aR选择性攻击及配对后受体可塑性（PMID:19858480/PMC2776424）；Leroy 2018 CA2→LS→VMH攻击回路（PMID:30518859）；V1bR vs. OTR CA2双路径对比（记忆写入 vs. 攻击触发）；BNST/mAMY性二态加压素投射（de Vries 2008）；人类AVPR1A RS3 334bp与男性配对行为关联（Walum 2008，可重复性存疑）；鹿鼠反例（Turner 2010）。

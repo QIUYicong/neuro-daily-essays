@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-17（第116篇·加压素回路·VP-V1aR配对联结·CA2-V1bR攻击·AVPR1A微卫星遗传）· 主题页总数：**221**（新建1页：concepts/vasopressin；修订3页：concepts/ca2-hippocampus rev2→rev3、concepts/oxytocin rev1→rev2、concepts/social-memory rev2→rev3；新增Q-avp-01/Q-avp-02/Q-avp-03；图谱226节点/1323边）
+> 最后更新：2026-08-18（第104篇·工作记忆两种维持机制·持续放电 vs 活动无声·Panichello 2024大综合）· 主题页总数：**222**（新建1页：concepts/activity-silent-wm；修订2页：concepts/working-memory rev9→rev10、concepts/persistent-activity rev1→rev2；新增Q-wm-manipulation-mechanism/Q-wm-silent-vs-episodic；图谱227节点/1329边）
 
 ---
 
@@ -92,7 +92,8 @@
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
 - 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器 **[NEW 2026-06-04]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
-- 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络 **[NEW 2026-06-05]**
+- 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络；2023/2024最新证据：持续放电神经元携带更多WM信息；Panichello 2024开-关状态 **[修订 rev2 2026-08-18]**
+- 🟡 [活动无声工作记忆](concepts/activity-silent-wm.md) — 工作记忆信息在突触STSP易化状态中无声储存；Stokes 2015框架；Panichello 2024证明与持续放电机制共存 **[NEW 2026-08-18]**
 - 🟢 [γ振荡（30–80 Hz）](concepts/gamma-oscillations.md) — ING（纯抑制网络）与 PING（兴奋-抑制反馈）双机制；GABA-A τ_decay 是振荡频率的分子时钟（τ≈5ms→快γ，τ≈15ms→慢γ）；Sohal/Cardin 2009 光遗传学因果证明；PV/SST 双贡献；精神分裂症 GAD67 级联 **[NEW 2026-06-05 · 修订 rev4 2026-07-20]**
 - 🔵 [意识点燃](concepts/consciousness-ignition.md) — 全有全无的非线性临界翻转；~270-300ms 前额顶叶激活；注意双要求机制；P3b EEG标志（地位存疑）；GWT核心机制节点 **[修订 2026-05-31]**
 - 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口 **[NEW 2026-05-31]**

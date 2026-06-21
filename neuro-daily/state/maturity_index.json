@@ -496,5 +496,12 @@
     "confidence": "medium",
     "last_changed": "2026-08-16",
     "reason": "创建页面，emerging状态：θ节律起搏功能已确立（high confidence），催产素中继（PVH→SuM→CA2）来自Thirtamara Rajamani 2024单项研究，需独立复制，整体定为emerging/medium"
+  },
+  {
+    "slug": "activity-silent-wm",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-08-18",
+    "reason": "创建新页：Stokes 2015框架+Panichello 2024开-关状态证据+Pals 2020计算模型；机制有良好支持但与情节记忆的区分仍有争议（Beukers 2021）"
   }
 ]

@@ -7882,6 +7882,39 @@
       "used_in_articles": [
         "2026-08-17-vasopressin-social-behavior-avp-circuit"
       ]
+    },
+    {
+      "pmid": "26051384",
+      "pmcid": "PMC4509720",
+      "date_used": "2026-08-18",
+      "topic": "activity-silent-wm",
+      "covered": "STSP活动无声WM框架定义，双任务抑制证据"
+    },
+    {
+      "pmid": "39506106",
+      "date_used": "2026-08-18",
+      "topic": "working-memory-persistent-activity-silent",
+      "covered": "Neuropixels开-关状态大综合，两种机制共存"
+    },
+    {
+      "pmid": "37910532",
+      "pmcid": "PMC11068397",
+      "date_used": "2026-08-18",
+      "topic": "working-memory-persistent-activity-silent",
+      "covered": "持续放电神经元信息优势"
+    },
+    {
+      "pmid": "34654556",
+      "pmcid": "PMC9087306",
+      "date_used": "2026-08-18",
+      "topic": "working-memory-persistent-activity-silent",
+      "covered": "50年持续放电综述，NMDA拮抗剂证据"
+    },
+    {
+      "pmid": "40634665",
+      "date_used": "2026-08-18",
+      "topic": "working-memory-persistent-activity-silent",
+      "covered": "人类MTL持续放电维持未关注WM项目"
     }
   ],
   "total_sources": 449,
