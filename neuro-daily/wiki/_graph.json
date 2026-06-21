@@ -2051,6 +2051,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/supramammillary-nucleus.md"
+    },
+    {
+      "id": "vasopressin",
+      "title": "加压素（精氨酸加压素，AVP）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/vasopressin.md"
     }
   ],
   "edges": [
@@ -9363,6 +9372,66 @@
       "from": "oxytocin",
       "to": "active-inference",
       "type": "related"
+    },
+    {
+      "from": "vasopressin",
+      "to": "ca2-hippocampus",
+      "type": "targets",
+      "note": "V1bR（Avpr1b）在CA2密集表达；AVP通过V1bR增强CA2谷氨酸输出，触发CA2→LS→VMH社会攻击回路（Leroy 2018）"
+    },
+    {
+      "from": "vasopressin",
+      "to": "social-memory",
+      "type": "regulates",
+      "note": "V1bR在CA2门控社会情境可塑性；BNST/mAMY加压素投射参与雄性社会识别记忆维持"
+    },
+    {
+      "from": "vasopressin",
+      "to": "oxytocin",
+      "type": "related_to",
+      "note": "与催产素同家族（仅差2个氨基酸）；互补的性别特异性配对联结机制（雄性AVP-VP-V1aR；雌性OXT-NAc-OTR）；V1bR与OTR在CA2共用计算资源"
+    },
+    {
+      "from": "vasopressin",
+      "to": "supramammillary-nucleus",
+      "type": "related_to",
+      "note": "SuM是催产素到CA2的中继站，与AVP直接投射（PVN→CA2）形成双路径"
+    },
+    {
+      "from": "vasopressin",
+      "to": "dopamine-reward-prediction-error",
+      "type": "interacts_with",
+      "note": "配对联结奖赏回路劫持：VP-V1aR信号与VTA→NAc多巴胺协同，将配偶身份绑定到奖赏回路（草原田鼠单配制机制）"
+    },
+    {
+      "from": "vasopressin",
+      "to": "hippocampal-circuit",
+      "type": "targets",
+      "note": "CA2是V1bR的关键表达区，位于海马三突触回路中"
+    },
+    {
+      "from": "vasopressin",
+      "to": "cntnap2",
+      "type": "related_to",
+      "note": "CNTNAP2缺失导致PVN加压素神经元减少，是ASD社交缺陷的候选机制；与oxytocin-CNTNAP2连接平行"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "vasopressin",
+      "type": "targeted_by",
+      "note": "CA2通过V1bR（Avpr1b）接受AVP调制，产生两种社会计算：OTR→记忆，V1bR→攻击"
+    },
+    {
+      "from": "social-memory",
+      "to": "vasopressin",
+      "type": "regulated_by",
+      "note": "CA2-V1bR门控社会可塑性；BNST/mAMY加压素投射参与社会识别记忆"
+    },
+    {
+      "from": "oxytocin",
+      "to": "vasopressin",
+      "type": "related_to",
+      "note": "互补配对联结分子；在CA2共用V1bR/OTR双受体系统"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,93 @@
+# 运行日志 · 2026-08-17
+
+**运行类型**：自动每日定时任务（北京时间 09:00）
+**系统日期**：2026-06-21（UTC+8）
+**使用日期**：2026-08-17（知识库序列日期，下一未使用日期）
+**文章编号**：#116
+
+---
+
+## 流程步骤
+
+### Step 0：同步主分支
+- `git pull --rebase origin main`
+- 状态：本地分支基于最新 main
+
+### Step A：读取状态
+- topic_ledger.json：102 条目（#113-#115 仅在 total_articles 计数中，未在 entries 列表中）
+- _graph.json：225 节点，1313 边
+- 唯一悬空引用：`vasopressin`（来自 ca2-hippocampus、oxytocin、social-memory 的 related 字段）
+
+### Step B：选题
+- 选题：加压素（AVP）社会行为回路
+- 理由：(1) 填补唯一悬空引用 `vasopressin`；(2) 承接上篇催产素文章（#115），形成完整的社会神经化学套装；(3) 回答 Q-oxt-01 高优先级问题（Avpr1b vs. OTR 双路径）
+
+### Step C：文献研究与文章写作
+- PubMed E-utilities API 检索：14 篇文献
+- 获取 PMC 全文：3 篇（PMC1764849、PMC2776424、PMC3602142）
+- 文章创建：`neuro-daily/articles/2026-08-17-vasopressin-social-behavior-avp-circuit.md`
+- 字符数：约 12,000 字（含来源表）
+
+### Step D：Wiki 固结
+- **新建页面（1）**：`wiki/concepts/vasopressin.md`（rev1，established，confidence: high）
+  - 覆盖：三受体系统、配对联结机制、AVPR1A微卫星、选择性攻击、CA2双路径、性别二态性、人类遗传学
+  - 未解问题：Q-avp-01/02/03
+- **修订页面（3）**：
+  - `wiki/concepts/ca2-hippocampus.md`：rev2→rev3，新增4b节CA2-V1bR攻击回路（Leroy 2018）
+  - `wiki/concepts/oxytocin.md`：rev1→rev2，新增Q-avp-01
+  - `wiki/concepts/social-memory.md`：rev2→rev3，新增V1bR/OTR双路径分工
+
+### Step E：图谱/导航更新
+- `_graph.json`：225→226节点，1313→1323边（+1节点vasopressin，+10边）
+- `wiki/index.md`：总数220→221，新增vasopressin条目
+- `wiki/CHANGELOG.md`：新增2026-08-17条目
+
+### Step F：治理层
+- `state/topic_ledger.json`：102→103条目，总数更新为116
+- `state/unresolved_questions.md`：新增Q-avp-01/02/03
+- `state/source_registry.json`：435→449条目（新增14篇）
+- `state/monthly_synthesis.md`：新增2026-08-17节（#116）
+- `neuro-daily/notes/2026-08-17-reading-notes.md`：创建阅读笔记
+- `neuro-daily/sources/2026-08-17-sources.json`：创建来源JSON
+
+### Step G：提交与推送
+- git commit（GIT_AUTHOR_NAME=QIUYicong）
+- git push origin main
+
+---
+
+## 文件清单
+
+### 新建文件（5）
+- neuro-daily/articles/2026-08-17-vasopressin-social-behavior-avp-circuit.md
+- neuro-daily/wiki/concepts/vasopressin.md
+- neuro-daily/notes/2026-08-17-reading-notes.md
+- neuro-daily/sources/2026-08-17-sources.json
+- neuro-daily/logs/2026-08-17-run.log
+
+### 修改文件（10）
+- neuro-daily/wiki/concepts/ca2-hippocampus.md (rev3)
+- neuro-daily/wiki/concepts/oxytocin.md (rev2)
+- neuro-daily/wiki/concepts/social-memory.md (rev3)
+- neuro-daily/wiki/_graph.json (+1节点 +10边)
+- neuro-daily/wiki/index.md (+1条目)
+- neuro-daily/wiki/CHANGELOG.md (+2026-08-17节)
+- neuro-daily/state/topic_ledger.json (+#116条目)
+- neuro-daily/state/unresolved_questions.md (+Q-avp-01/02/03)
+- neuro-daily/state/source_registry.json (+14条目)
+- neuro-daily/state/monthly_synthesis.md (+#116节)
+
+---
+
+## 质量检查
+
+- ✅ 文章来源：14篇，其中3篇PMC全文（符合≥2篇开放全文要求）
+- ✅ 无编造PMID（所有PMID通过PubMed E-utilities验证）
+- ✅ 悬空引用：0个（vasopressin填补；新增aggression、lateral-septum待后续处理）
+- ✅ wiki页面关联完整（vasopressin.md与ca2/oxytocin/social-memory双向连接）
+- ✅ 不使用付费/盗版资源
+- ✅ 无医学建议内容
+
+---
+
+*运行完成 · 2026-08-17*

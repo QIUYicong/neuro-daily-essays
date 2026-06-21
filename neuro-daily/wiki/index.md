@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-16（第115篇·催产素回路·PVH→SuM→CA2·五条专化投射·社会记忆/奖赏/恐惧抑制）· 主题页总数：**220**（新建2页：concepts/oxytocin、concepts/supramammillary-nucleus；修订2页：concepts/ca2-hippocampus rev1→rev2、concepts/social-memory rev1→rev2；新增Q-oxt-01/Q-oxt-02/Q-sum-01；图谱225节点/1313边）
+> 最后更新：2026-08-17（第116篇·加压素回路·VP-V1aR配对联结·CA2-V1bR攻击·AVPR1A微卫星遗传）· 主题页总数：**221**（新建1页：concepts/vasopressin；修订3页：concepts/ca2-hippocampus rev2→rev3、concepts/oxytocin rev1→rev2、concepts/social-memory rev2→rev3；新增Q-avp-01/Q-avp-02/Q-avp-03；图谱226节点/1323边）
 
 ---
 
@@ -165,6 +165,7 @@
 - 🟡 [时间情境模型（TCM）](concepts/temporal-context-model.md) — Howard & Eichenbaum 2013提出：海马维持缓慢漂移的内部时间情境向量（t(τ)），自然解释近因效应和时间相邻效应；时间细胞是其物理实现候选；Q-tc-01：CA2/MEC是否是TCM内部"时钟"的神经底物？ **[NEW 2026-08-04]**
 - 🔵 [CA2 区（海马第二角）](concepts/ca2-hippocampus.md) — 海马最小亚区（RGS14/PCP4/Avpr1b 分子标记）；三功能枢纽：社会记忆专用基底（Hitti 2014）/ CA1 时间序列组织者（MacDonald & Tonegawa 2021，~48% 时间细胞依赖）/ SWR 主要触发者（Oliva 2016，SWR 前 20–30ms 先行放电）；LTP 抗性由 RGS14 维持，mGluR-LTD 实现社会情境专用可塑性；新增：Avpr1b直接通路+OTR经SuM间接通路双重门控（2026-08-16 rev2）**[NEW 2026-08-14]**
 - 🔵 [社会记忆](concepts/social-memory.md) — 识别并记住曾见过的同类；CA2 亚区作为专用神经底物（TeNT 灭活 CA2 选择性消除社会记忆，空间/恐惧记忆正常）；Avpr1b/催产素门控的 CA2 特异性突触增强；mGluR-LTD（而非 LTP）是信息存储机制（Samadi 2023）；新增：OXT五条专化路径的系统视角（2026-08-16 rev2）**[NEW 2026-08-14]**
+- 🟢 [加压素（精氨酸加压素，AVP）](concepts/vasopressin.md) — 与催产素仅差2 aa的九肽；V1aR（VP配对联结·Gq/11）/V1bR（CA2攻击触发·CA2→LS→VMH）/V2R（肾水重吸收）三受体系统；AVPR1A RS3微卫星决定物种配对策略；Lim 2004单基因草甸田鼠实验；Gobrogge 2009 AH-V1aR选择性攻击；Leroy 2018 CA2-V1bR→LS→VMH攻击回路；"受体密度地图"而非"分子浓度"决定社会命运 **[NEW 2026-08-17]**
 - 🟢 [催产素](concepts/oxytocin.md) — 下丘脑PVN/SON合成的九肽神经肽；OTR/Gq/11 GPCR；五条专化投射：①PVH→SuM→CA2（社会识别记忆）、②PVN→NAc（社会奖赏/配对联结）、③PVN→CeA（恐惧抑制/情绪辨别）、④SON→LS（哺乳期社会恐惧）、⑤aPVN→BNST（应激社交调制）；"社会凸显假说"解释双面性；非"爱的激素"而是多路社会调制器 **[NEW 2026-08-16]**
 - 🟡 [乳头丘脑上核（SuM）](concepts/supramammillary-nucleus.md) — 下丘脑后部核团；双重功能：θ节律起搏器 + 催产素中继站（OTR⁺谷氨酸能神经元→CA2）；PVH→SuM→CA2路径是2024年新发现的社会识别记忆间接通路（Thirtamara Rajamani 2024）**[NEW 2026-08-16]**
 

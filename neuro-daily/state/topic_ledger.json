@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16",
+  "last_updated": "2026-08-17",
   "total_articles": 116,
   "entries": [
     {
@@ -7146,6 +7146,39 @@
         "大脑的工作记忆：持续放电vs. 短暂激活之争",
         "CA2区域在时间编码中的特殊功能（回应Q-tc-01）"
       ]
+    },
+    {
+      "date": "2026-08-17",
+      "article_number": 116,
+      "title": "同一肽，不同故事：加压素如何用受体分布的地理差异重写社会命运",
+      "slug": "vasopressin-social-behavior-avp-circuit",
+      "core_question": "草原田鼠（单配制）与山地田鼠（乱交）的社会行为差异不在于加压素分子，而在于V1a受体在腹侧苍白球的表达密度——单基因操控如何逆转物种的社会命运？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "behavior"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/vasopressin"
+      ],
+      "wiki_pages_updated": [
+        "wiki/concepts/ca2-hippocampus",
+        "wiki/concepts/oxytocin",
+        "wiki/concepts/social-memory"
+      ],
+      "dangling_refs_resolved": [
+        "vasopressin"
+      ],
+      "open_questions_added": [
+        "Q-avp-01",
+        "Q-avp-02",
+        "Q-avp-03"
+      ],
+      "sources_count": 14,
+      "open_access_sources": 3,
+      "graph_nodes": 226,
+      "graph_edges": 1323
     }
   ],
   "layer_coverage_recent": {

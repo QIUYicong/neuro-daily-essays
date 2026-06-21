@@ -6,13 +6,13 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-08-14
-updated: 2026-08-16
-revision_count: 2
+updated: 2026-08-17
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, cognition, behavior]
 related: [hippocampal-circuit, ca2-hippocampus, vasopressin, oxytocin, supramammillary-nucleus, ltp, mgluR-ltd]
 prerequisites: [hippocampal-circuit, synaptic-transmission]
 opens_questions: [Q-ca2-function, Q-ca2-pnn-plasticity-window, Q-oxt-01]
-source_articles: [2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-08-16-oxytocin-circuit-social-memory-bonding]
+source_articles: [2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-08-16-oxytocin-circuit-social-memory-bonding, 2026-08-17-vasopressin-social-behavior-avp-circuit]
 key_sources: ["PMID:24572357", "PMID:24863146", "PMID:29705549", "PMID:36971428", "PMID:10888874", "PMID:38052983"]
 ---
 
@@ -42,10 +42,16 @@ key_sources: ["PMID:24572357", "PMID:24863146", "PMID:29705549", "PMID:36971428"
 
 ### 2. 激素门控：加压素/催产素的 CA2 特异性作用
 
-CA2 密集表达**加压素 1b 受体（Avpr1b）**，这是 CA1/CA3 所不具备的：
+CA2 密集表达**加压素 1b 受体（Avpr1b/V1bR）**和催产素受体（OTR），这是 CA1/CA3 所不具备的：
 - Avpr1b 选择性激动剂在 CA2 诱发 NMDA 受体+Ca²⁺ 依赖的突触增强（同等处理 CA1 无效）（Pagani et al. 2015, PMID:24863146）
 - 下丘脑 PVN→CA2 加压素通路增强社会记忆表现（Piskorowski & Chevaleyre 2018, PMID:29705549）
-- 社会接触触发垂体肽释放 → Avpr1b/催产素受体激活 → Ca²⁺ 信号解除 RGS14 的部分抑制 → CA2 突触短暂进入可塑性窗口
+- 社会接触触发垂体肽释放 → OTR 激活 → Ca²⁺ 信号解除 RGS14 的部分抑制 → CA2 突触短暂进入可塑性窗口 → mGluR-LTD 写入社会身份信息
+
+**V1bR 与 OTR 的双路径分工**（Leroy 2018, PMID:30518859）：
+- **OTR 激活** → 社会识别记忆写入（"记住是谁"）
+- **V1bR 激活** → 增强 CA2 谷氨酸输出 → CA2→LS→VMH 脱抑制 → 社会攻击触发（"对威胁者做出反应"）
+
+CA2 的激素门控因此不是单一的"社会可塑性开关"，而是根据激活哪种受体，实现**识别（记忆）与反应（攻击）**两种对立的社会计算。
 
 ### 3. mGluR-LTD：社会记忆的突触可塑性形式
 
@@ -68,7 +74,7 @@ CA2 密集表达**加压素 1b 受体（Avpr1b）**，这是 CA1/CA3 所不具�
 
 - [[ca2-hippocampus]] — CA2 是社会记忆的神经底物；社会记忆是 CA2 三大功能之一
 - [[hippocampal-circuit]] — CA2 插于 CA3 和 CA1 之间；社会记忆依赖 CA2→CA1 路径
-- [[vasopressin]] — Avpr1b 在 CA2 门控社会情境可塑性（直接通路，激素-记忆接口）
+- [[vasopressin]] — Avpr1b（V1bR）在 CA2 门控社会情境可塑性；V1bR 激活还触发 CA2→LS→VMH 攻击回路（直接通路，激素-记忆-攻击接口）
 - [[oxytocin]] — 通过PVH→SuM→CA2间接通路参与社会识别记忆写入；Ferguson 2000确立OXT因果作用
 - [[supramammillary-nucleus]] — OXT到CA2的中继站，同时也是θ节律起搏源
 
@@ -76,13 +82,16 @@ CA2 密集表达**加压素 1b 受体（Avpr1b）**，这是 CA1/CA3 所不具�
 
 - Q-ca2-function：CA2 的社会记忆功能与时间记忆功能是否共享细胞机制，或由不同亚型神经元承担？
 - Q-ca2-pnn-plasticity-window：CA2 围神经元网（PNNs）在青春期成熟后是否关闭了社会记忆的关键期？PNN 异常与 ASD 社交记忆缺陷的关系？
+- Q-avp-01：CA2 的 OTR（社会记忆）和 V1bR（攻击）如何在同一动物同一时刻协调？是时序分离（先识别再决策）还是由不同亚群神经元分别响应？
 
 ## 修订历史
 
 - 2026-08-14 · 创建 · 基于《CA2：海马遗忘的第三元件》文章 #113 · 整合 Hitti & Siegelbaum 2014、Pagani 2015、Piskorowski & Chevaleyre 2018、Samadi 2023 四项研究；初始置信度：高（强遗传解剖证据）
 - 2026-08-16 · rev2 · 基于《催产素回路》文章 #115 · 新增：(1) Ferguson 2000 Oxt⁻/⁻社会失忆作为催产素因果性的奠基证据；(2) PVH→SuM→CA2间接路径的补充（PMID:38052983）；(3) 与oxytocin、supramammillary-nucleus的新连接；(4) Q-oxt-01未解问题（Avpr1b与OTR双通路协调）
+- 2026-08-17 · rev3 · 基于《加压素回路》文章 #116 · 新增：(1) V1bR vs. OTR的CA2双路径分工（Leroy 2018，PMID:30518859）——识别（OTR→mGluR-LTD）vs. 攻击（V1bR→CA2→LS→VMH）；(2) vasopressin连接更新；(3) Q-avp-01加入未解问题；(4) 来源文章新增 #116
 
 ## 来源文章
 
 - [[2026-08-14-ca2-hippocampus-social-memory-temporal-context]]
 - [[2026-08-16-oxytocin-circuit-social-memory-bonding]]
+- [[2026-08-17-vasopressin-social-behavior-avp-circuit]]

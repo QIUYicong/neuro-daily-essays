@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-08-17 · 文章 #116 · 同一肽，不同故事：加压素如何用受体分布的地理差异重写社会命运
+
+**核心主题**：AVP九肽结构（与OXT仅差2 aa）；三受体系统（V1aR/V1bR/V2R）；草原田鼠 vs. 山地田鼠VP-V1aR密度差异；Lim 2004单基因草甸田鼠实验（单基因过表达V1aR逆转物种配对策略）；AVPR1A RS3微卫星机制（~500bp单配制 vs. ~50bp乱交，Hammock 2006, PMID:17118932/PMC1764849）；Gobrogge 2009 AH-V1aR选择性攻击及配对后受体可塑性（PMID:19858480/PMC2776424）；Leroy 2018 CA2→LS→VMH攻击回路（PMID:30518859）；V1bR vs. OTR CA2双路径对比（记忆写入 vs. 攻击触发）；BNST/mAMY性二态加压素投射（de Vries 2008）；人类AVPR1A RS3 334bp与男性配对行为关联（Walum 2008，可重复性存疑）；鹿鼠反例（Turner 2010）。
+
+**新建页面（1）**：
+- `wiki/concepts/vasopressin.md`（rev1，status: established，confidence: high）— AVP九肽结构；三受体亚型完整机制表；腹侧苍白球V1aR配对联结（奖赏回路劫持假说）；AVPR1A微卫星遗传基础；AH-V1aR选择性攻击（双向因果证明）；CA2-V1bR→LS→VMH攻击回路；BNST/mAMY性二态性；人类遗传学；三个未解问题（Q-avp-01/02/03）
+
+**修订页面（3）**：
+- `wiki/concepts/ca2-hippocampus.md`（rev2→rev3）— 新增第4b节：CA2-V1bR→LS→VMH攻击回路（Leroy 2018，PMID:30518859）；OTR vs. V1bR功能对比；related增加vasopressin、aggression、lateral-septum；opens_questions增加Q-avp-01；key_sources新增PMID:30518859
+- `wiki/concepts/oxytocin.md`（rev1→rev2）— 新增Q-avp-01（CA2 OTR/V1bR协调问题，与vasopressin页共享）；来源文章新增 #116
+- `wiki/concepts/social-memory.md`（rev2→rev3）— 新增V1bR vs. OTR在CA2的双路径分工（Leroy 2018）；vasopressin连接内容扩充；Q-avp-01加入未解问题；来源文章新增 #116
+
+**登记矛盾（0）**：今日无新矛盾。注意：鹿鼠研究（Turner 2010）挑战AVPR1A微卫星机制的普遍性，但不与vole类数据直接矛盾（属于物种特化 vs. 普遍机制之争），记为Q-avp-03相关背景而非contested_claims条目。
+
+**新增未解问题（3）**：
+- Q-avp-01（高优先级）：CA2 的 OTR（社会记忆）和 V1bR（攻击触发）如何在同一动物同一时刻协调？时序分离还是亚群分工？
+- Q-avp-02（高优先级）：人类VP/纹状体V1aR密度能否用高特异性PET放射配体直接测量并与配对行为关联？（技术节点：缺乏高特异性人类V1aR-PET配体）
+- Q-avp-03（中优先级）：加压素系统在AVPR1A罕见突变相关ASD中的精确受损机制是什么？
+
+**悬空引用解决（1）**：
+- `vasopressin` — 已建立 wiki/concepts/vasopressin.md（此前为 ca2-hippocampus.md、oxytocin.md、social-memory.md related字段中的悬空引用）
+
+**新增悬空引用（2）**：
+- `aggression` — 在ca2-hippocampus.md、vasopressin.md中引用，尚无独立wiki页面
+- `lateral-septum` — 在ca2-hippocampus.md、vasopressin.md中引用，尚无独立wiki页面
+
+**图谱**：225节点→226节点，1313边→1323边（+1节点：vasopressin；+10边）
+
+---
+
 ## 2026-08-16 · 文章 #115 · 催产素回路：五条专化投射如何将同一神经肽解码为社会记忆、奖赏与联结
 
 **核心主题**：催产素（OXT）九肽结构与OTR（GPCR/Gq/11）；PVN/SON的magnocellular vs parvocellular分化；PVN内前/后亚群功能分化（Chrisman 2026, PMID:41548026）；五条专化投射路径：①PVH→SuM→CA2（社会识别记忆，Thirtamara Rajamani 2024, PMID:38052983）、②PVN→NAc（社会奖赏/配对联结，Borland 2025, PMID:39892577）、③PVN→CeA（恐惧抑制，Knobloch 2012, PMID:22325206；Rickenbacher 2017 eLife, PMC5469614；Wahis 2021 NatNeurosci星形胶质细胞机制）、④SON→LS（哺乳期社会恐惧预防，Menon 2018, PMID:29551417）、⑤aPVN→BNST（应激依赖社交调制）；社会凸显假说（Shamay-Tsoory & Abu-Akel 2016, PMID:26321019）；Ferguson 2000（PMID:10888874）奠基性遗传证明。

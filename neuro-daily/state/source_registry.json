@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15",
+  "last_updated": "2026-08-17",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7714,9 +7714,177 @@
         "丘脑TAP",
         "37项研究合成"
       ]
+    },
+    {
+      "id": "PMID:18988842",
+      "title": "Oxytocin, vasopressin, and the neurogenetics of sociality",
+      "authors": "Donaldson ZR, Young LJ",
+      "year": 2008,
+      "journal": "Science",
+      "pmcid": null,
+      "doi": "10.1126/science.1166154",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:15201909",
+      "title": "Enhanced partner preference in a promiscuous species by manipulating the expression of a single gene",
+      "authors": "Lim MM et al.",
+      "year": 2004,
+      "journal": "Nature",
+      "pmcid": null,
+      "doi": "10.1038/nature02606",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:15051143",
+      "title": "Vasopressin-dependent neural circuits underlying pair bond formation in the monogamous prairie vole",
+      "authors": "Lim MM, Young LJ",
+      "year": 2004,
+      "journal": "Neuroscience",
+      "pmcid": null,
+      "doi": "10.1016/j.neuroscience.2003.12.025",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:17118932",
+      "title": "Oxytocin, vasopressin and pair bonding: implications for autism",
+      "authors": "Hammock EA, Young LJ",
+      "year": 2006,
+      "journal": "Philosophical Transactions of the Royal Society B",
+      "pmcid": "PMC1764849",
+      "doi": "10.1098/rstb.2006.1939",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:18765804",
+      "title": "Genetic variation in the vasopressin receptor 1a gene (AVPR1A) associates with pair-bonding behavior in humans",
+      "authors": "Walum H et al.",
+      "year": 2008,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "pmcid": null,
+      "doi": "10.1073/pnas.0803081105",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:19858480",
+      "title": "Anterior hypothalamic vasopressin regulates pair-bonding and drug-induced aggression in a monogamous rodent",
+      "authors": "Gobrogge KL et al.",
+      "year": 2009,
+      "journal": "Proceedings of the National Academy of Sciences",
+      "pmcid": "PMC2776424",
+      "doi": "10.1073/pnas.0908998106",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:30518859",
+      "title": "A circuit from hippocampal CA2 to lateral septum disinhibits social aggression",
+      "authors": "Leroy F et al.",
+      "year": 2018,
+      "journal": "Nature",
+      "pmcid": null,
+      "doi": "10.1038/s41586-018-0793-8",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:22178035",
+      "title": "The vasopressin 1b receptor and the neural regulation of social behavior",
+      "authors": "Stevenson EL, Caldwell HK",
+      "year": 2012,
+      "journal": "Hormones and Behavior",
+      "pmcid": null,
+      "doi": "10.1016/j.yhbeh.2011.12.010",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:18655868",
+      "title": "Sex differences in vasopressin and oxytocin innervation of the brain",
+      "authors": "de Vries GJ",
+      "year": 2008,
+      "journal": "Progress in Brain Research",
+      "pmcid": null,
+      "doi": "10.1016/S0079-6123(08)00402-7",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:34482474",
+      "title": "Distribution of brain oxytocin and vasopressin V1a receptors in chimpanzees",
+      "authors": "Rogers Flattery CN et al.",
+      "year": 2022,
+      "journal": "Brain Structure and Function",
+      "pmcid": null,
+      "doi": "10.1007/s00429-021-02399-3",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:20097658",
+      "title": "Monogamy evolves through multiple mechanisms: evidence from V1aR in deer mice",
+      "authors": "Turner LM et al.",
+      "year": 2010,
+      "journal": "Molecular Biology and Evolution",
+      "pmcid": null,
+      "doi": "10.1093/molbev/msq049",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMC:PMC3602142",
+      "title": "RNAi knockdown of V1aR in ventral pallidum impairs partner preference in prairie voles",
+      "authors": "未提取",
+      "year": null,
+      "journal": "未提取",
+      "pmcid": "PMC3602142",
+      "doi": null,
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:38405991",
+      "title": "Identification of hippocampal area CA2 in hamster and vole brain",
+      "authors": "Siegler AA et al.",
+      "year": 2024,
+      "journal": "Journal of Comparative Neurology",
+      "pmcid": null,
+      "doi": "10.1002/cne.25587",
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
+    },
+    {
+      "id": "PMID:8713971",
+      "title": "Oxytocin and the molecular basis of monogamy",
+      "authors": "Insel TR et al.",
+      "year": 1995,
+      "journal": "Advances in Experimental Medicine and Biology",
+      "pmcid": null,
+      "doi": null,
+      "used_in_articles": [
+        "2026-08-17-vasopressin-social-behavior-avp-circuit"
+      ]
     }
   ],
-  "total_sources": 420,
+  "total_sources": 449,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -11047,5 +11215,21 @@
       "海马gamma振荡异常+社交缺陷（获得性模型）",
       "CASPR2功能损伤在发育期持续必要性"
     ]
-  }
+  },
+  "sources_2026-08-17": [
+    "PMID:18988842",
+    "PMID:15201909",
+    "PMID:15051143",
+    "PMID:17118932",
+    "PMID:18765804",
+    "PMID:19858480",
+    "PMID:30518859",
+    "PMID:22178035",
+    "PMID:18655868",
+    "PMID:34482474",
+    "PMID:20097658",
+    "PMC:PMC3602142",
+    "PMID:38405991",
+    "PMID:8713971"
+  ]
 }
