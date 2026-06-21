@@ -4,6 +4,46 @@
 
 ---
 
+## 2026-08-27 · 文章 #125 · 分与合：齿状回与 CA3 的双引擎记忆架构如何在模式分离、模式补全与苔藓细胞三角中守护情景记忆的精确性
+
+**核心主题**：模式分离（DG）与模式补全（CA3）的双引擎记忆架构，及苔藓细胞作为关键守门人的角色。三个机制板块：(1) DG 的模式分离——扩展重编码（5× 扩张，约 100 万粒细胞）+ 稀疏激活（<5%）+ 苔藓细胞反馈稳定；(2) CA3 的模式补全——Hopfield 型吸引子网络（12,000 递归侧支/细胞，~36,000 条记忆容量，Rolls 2013，PMID:24198767）；(3) 近端 vs 远端 CA3 功能分化（Lee et al. 2020，PMID:32502734）——DG+近端 CA3 = 分离单元（LEC/物体），远端 CA3 = 补全吸引子（MEC/空间）。DGC 功能二态性（Nakashiba 2012，PMID:22365813）：年轻 DGC（≤4周）主导模式分离，老 DGC 转向模式补全。苔藓细胞新机制（Jeong 2024，PMID:38527063）：创伤→苔藓细胞受抑制→粒细胞集合重叠→情景区分失败→恐惧泛化，提供 PTSD 细胞层面机制。
+
+### 新建 Wiki 页面（1 个）
+
+- `neurons/mossy-cells.md`（苔藓细胞）🟡 emerging · 中置信度 — DG 门状区兴奋性主细胞（glutamatergic）；双重调控策略（近距离去抑制+远距离侧抑制）维持粒细胞集合"刚好稀疏"；创伤→苔藓细胞抑制→恐惧泛化链（Jeong 2024）；关键证据 2 条；Q-ps-02/Q-fear-gen-01 两个开放问题；填补 pattern-separation 和 hippocampal-circuit 的悬空引用
+
+### 修订 Wiki 页面（2 个）
+
+- `concepts/pattern-separation.md`：rev2→rev3，加入 DGC 功能二态性（Nakashiba 2012）、近端 CA3 作为分离延伸执行者（Lee 2020）、苔藓细胞反馈调控机制（Jeong 2024）、老年/AD 神经发生下降关联（Chavan 2025）；证据表新增 4 行；连接新增 mossy-cells/fear-generalization/ptsd/complementary-learning-systems；未解问题新增 Q-ps-01/Q-ps-02/Q-ps-04
+- `concepts/pattern-completion.md`：rev1→rev2，加入 Rolls 2013 定量 CA3 模型（12K 递归侧支，46 苔藓纤维，~36K 容量）、远端 CA3 专业化（Lee 2020）、老 DGC 苔藓纤维对补全的贡献（Nakashiba 2012）；证据表新增 3 行；连接新增 mossy-cells/complementary-learning-systems；未解问题新增 Q-ps-03
+
+### 图谱更新
+
+- 节点：249 → 250（+1）
+- 边：1445 → 1453（+8）
+- 新节点：mossy-cells
+- 主要新边：mossy-cells → pattern-separation（implements，反馈稳定粒细胞稀疏性）/ mossy-cells → hippocampal-circuit（part-of，DG 门状区核心组成）/ mossy-cells → fear-generalization（causes，Jeong 2024 细胞机制）/ mossy-cells → ptsd（implies，慢性失调导致情景区分失败）/ mossy-cells → adult-neurogenesis（interacts，新生颗粒细胞激活苔藓细胞）/ mossy-cells → pattern-completion（interacts，老 DGC 苔藓纤维支持补全）/ pattern-separation → mossy-cells（depends-on，模式分离依赖苔藓细胞反馈稳定）/ pattern-completion → mossy-cells（interacts）
+
+### 新增开放问题（4 个）
+
+- Q-ps-01（高）：近端 vs 远端 CA3 模式分离/补全功能分化的体内直接证据？Lee et al. 2020 双流模型主要基于解剖和间接推断，需要在相同任务下直接记录两个 CA3 亚区（见 pattern-separation.md）
+- Q-ps-02（高）：苔藓细胞失调是 PTSD 恐惧泛化的必要通路还是多条并行通路之一？Jeong 2024 是单一实验室结果，待独立复现（见 mossy-cells.md 和 pattern-separation.md）
+- Q-ps-03（中）：θ 振荡是否在不同相位上门控模式分离（编码）与模式补全（检索）的切换？Hasselmo 2002 的假说缺乏细胞层面直接验证（见 pattern-completion.md）
+- Q-ps-04（中）：人类 DG 的模式分离功能与啮齿类是否有本质差异？7T fMRI 的空间分辨率能否验证细胞层面的假说？（见 pattern-separation.md）
+
+### 来源（8 篇，5 开放全文）
+
+- PMID:17303747（Leutgeb 2007, Science，摘要）
+- PMID:22365813 / PMC3319279（Nakashiba 2012, Cell，全文）
+- PMID:32502734 / PMC8136469（Lee 2020, Curr Opin Neurobiol，全文）
+- PMID:24198767 / PMC3812781（Rolls 2013, Front Syst Neurosci，全文）
+- PMID:38452088（Vandael & Jonas 2024, Science，摘要）
+- PMID:38527063（Jeong 2024, Cell Rep，摘要）
+- PMID:40345378 / PMC13213699（Chavan 2025, Neurobiol Learn Mem，全文）
+- PMID:32161140 / PMC7178906（Frank 2020, J Neurosci，全文）
+
+---
+
 ## 2026-08-26 · 文章 #124 · PTSD 中的记忆囚笼：当杏仁核、海马与 vmPFC 的三角联盟失守
 
 **核心主题**：PTSD 的神经生物学。三节点三角失调模型：(1) 杏仁核（BLA/CeA）过度激活——创伤后 NE+GC 协同增强 BLA-LTP，杏仁核持续过度响应，与症状严重程度正相关（Shin 2006, PMID:16891563）；(2) vmPFC 沉默——消退刹车失效，消退记忆本身存储于 IL/vmPFC，无法提取"此处安全"（Milad 2009 fMRI 直接证据, PMID:19748076）；(3) 海马萎缩+情景化失败——苔藓细胞（mossy cells）受损→颗粒细胞去抑制→情景集合重叠→模式分离失败→恐惧泛化（Jeong 2024，Xu 2025 综述）。新兴发现：外侧背侧缝核（LDRn）5-HT 神经元在急性应激后从共释放谷氨酸切换为共释放 GABA，同一改变在 PTSD 死后人脑中观察到（Li et al. 2024）。治疗靶点：消退稳定化（PE/暴露+DCS/睡眠巩固）vs 再巩固编辑（普萘洛尔/再巩固窗口消退/MDMA）。Yi 2026（PMID:41663712）提出多靶点整合框架。

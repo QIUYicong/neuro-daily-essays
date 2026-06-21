@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-26",
-  "node_count": 249,
-  "edge_count": 1444,
+  "updated": "2026-08-27",
+  "node_count": 250,
+  "edge_count": 1453,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2259,7 +2259,9 @@
       "confidence": "high",
       "page": "wiki/diseases/ptsd.md",
       "revision_count": 1,
-      "source_articles": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"]
+      "source_articles": [
+        "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+      ]
     },
     {
       "id": "fear-generalization",
@@ -2270,7 +2272,18 @@
       "confidence": "medium-high",
       "page": "wiki/concepts/fear-generalization.md",
       "revision_count": 1,
-      "source_articles": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"]
+      "source_articles": [
+        "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+      ]
+    },
+    {
+      "id": "mossy-cells",
+      "title": "苔藓细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/neurons/mossy-cells.md"
     }
   ],
   "edges": [
@@ -10367,6 +10380,54 @@
       "to": "adult-neurogenesis",
       "type": "related",
       "note": "齿状回新生神经元参与模式分离；应激抑制神经发生可能加剧恐惧泛化程度"
+    },
+    {
+      "from": "mossy-cells",
+      "to": "pattern-separation",
+      "type": "implements",
+      "note": "苔藓细胞通过双重调控策略（近距离去抑制+远距离侧抑制）维持粒细胞集合稀疏性，是 DG 模式分离的反馈调控节点"
+    },
+    {
+      "from": "mossy-cells",
+      "to": "hippocampal-circuit",
+      "type": "part-of",
+      "note": "苔藓细胞是 DG 门状区回路的核心兴奋性中间神经元，接受粒细胞苔藓纤维输入并向抑制性中间神经元投射"
+    },
+    {
+      "from": "mossy-cells",
+      "to": "fear-generalization",
+      "type": "causes",
+      "note": "苔藓细胞受创伤慢性抑制→粒细胞集合重叠增加→安全与危险情景的神经差异消失→恐惧泛化（Jeong 2024，PMID:38527063）"
+    },
+    {
+      "from": "mossy-cells",
+      "to": "ptsd",
+      "type": "implies",
+      "note": "苔藓细胞慢性失调→DG 模式分离失败→情景区分失败→PTSD 恐惧泛化的细胞层面机制"
+    },
+    {
+      "from": "mossy-cells",
+      "to": "adult-neurogenesis",
+      "type": "interacts",
+      "note": "新生颗粒细胞通过苔藓纤维激活苔藓细胞，苔藓细胞的活动状态反过来影响粒细胞集合的竞争动力学"
+    },
+    {
+      "from": "mossy-cells",
+      "to": "pattern-completion",
+      "type": "interacts",
+      "note": "老 DGC 苔藓纤维经由苔藓细胞传递链激活 CA3 已有吸引子，苔藓细胞参与该补全支持路径"
+    },
+    {
+      "from": "pattern-separation",
+      "to": "mossy-cells",
+      "type": "depends-on",
+      "note": "DG 模式分离的维持依赖于苔藓细胞的反馈调控：苔藓细胞受损→粒细胞集合扩大重叠→分离能力下降"
+    },
+    {
+      "from": "pattern-completion",
+      "to": "mossy-cells",
+      "type": "interacts",
+      "note": "老 DGC 通过苔藓纤维激活 CA3 已有吸引子（支持补全），苔藓细胞是这条路径中的中继节点"
     }
   ],
   "dangling_references": [

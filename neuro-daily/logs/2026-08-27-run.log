@@ -1,0 +1,136 @@
+# 每日运行日志 · 2026-08-27
+
+**运行时间**：2026-08-27（UTC+8）
+**状态**：✅ 成功完成
+**文章编号**：#125
+**主题**：分与合：齿状回与 CA3 的双引擎记忆架构
+
+---
+
+## 执行摘要
+
+本次运行从上次会话（#124 PTSD 文章）的上下文压缩中恢复，继续完成所有剩余步骤。主要成果：
+- 创建了新的深度文章（~5000 字，涵盖模式分离×模式补全×苔藓细胞三大机制板块）
+- 新建 wiki 页面：mossy-cells（填补 pattern-separation/hippocampal-circuit 的长期悬空引用）
+- 修订 wiki 页面：pattern-separation (rev2→rev3)、pattern-completion (rev1→rev2)
+- 检索 8 篇文献（5 开放全文，3 摘要）
+- 知识图谱：250 节点，1453 边（+1 节点，+8 边）
+
+---
+
+## 步骤执行记录
+
+### 步骤 A：同步主分支（已跳过——分支独立运行）
+- 在 `claude/funny-einstein-q6moy1` 分支工作
+
+### 步骤 B：读取当前状态
+- 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md ✅
+- 最后一篇文章：2026-08-26（#124）PTSD 三角失调模型
+- 识别待填补的悬空引用：mossy-cells、pattern-separation 更新点、pattern-completion 更新点
+
+### 步骤 C：选题
+- 选定主题：模式分离与模式补全（DG-CA3 双引擎记忆架构）
+- 选题依据：(1) 响应 #124 提出的 Q-fear-gen-01（苔藓细胞机制深化）；(2) 填补 mossy-cells 悬空引用；(3) 延续 DG-CA3-PTSD 知识线索；(4) 已有 pattern-separation、pattern-completion 两个 wiki 页面待更新
+
+### 步骤 D：文献检索
+- 检索平台：PubMed E-utilities（NCBI）+ PMC
+- 检索查询：9 条（详见 2026-08-27-sources.json）
+- 成功检索 8 篇文献：
+  - 全文（PMC）：Nakashiba 2012（PMC3319279）、Lee 2020（PMC8136469）、Rolls 2013（PMC3812781）、Chavan 2025（PMC13213699）、Frank 2020（PMC7178906）
+  - 摘要：Leutgeb 2007（PMID:17303747，Science 付费墙）、Vandael 2024（PMID:38452088，Science 付费墙）、Jeong 2024（PMID:38527063，Cell Reports 付费墙）
+- 官方来源：NCBI PubMed Central（NIH/NLM）
+- ❌ 未尝试绕过付费墙；无捏造来源；无虚假 PMID
+
+### 步骤 E：内容创作（认知层）
+
+**阅读笔记**（neuro-daily/notes/2026-08-27-reading-notes.md）：
+- 8 篇文献各自详细笔记（问题/方法/发现/证据强度/局限/如何改变理解/术语）✅
+
+**来源文件**（neuro-daily/sources/2026-08-27-sources.json）：
+- 8 篇来源完整元数据（类型/作者/期刊/年份/开放获取状态/关键贡献/检索方式）✅
+
+**主文章**（neuro-daily/articles/2026-08-27-pattern-separation-completion-dg-ca3.md）：
+- ~5000 字中文科学文章 ✅
+- 结构：今日核心问题、一句话摘要、为什么关键、背景解剖路线图、模式分离三机制、模式补全三机制、苔藓细胞守门人、比喻与局限、认知地图更新、争议与未解问题、与 AI 对照、概念卡片、参考来源
+
+### 步骤 E（续）：Wiki 固结
+
+**新建 wiki 页面**：
+- wiki/neurons/mossy-cells.md（emerging/medium）✅
+  - 苔藓细胞的定义、解剖位置、双重调控策略、创伤→PTSD 链
+  - 证据表（2 条）、连接（5 个）、未解问题（2 条）
+
+**修订 wiki 页面**：
+- wiki/concepts/pattern-separation.md（rev2→rev3）✅
+  - 新增：DGC 功能二态性（§3 新节）、近端 CA3 作为分离执行者（§4 新节）、苔藓细胞反馈调控（当前理解第 3 条机制）、老年/AD 神经发生连接
+  - 证据表 +4 行，连接 +3，未解问题 +3
+- wiki/concepts/pattern-completion.md（rev1→rev2）✅
+  - 新增：Rolls 2013 定量参数（当前理解 + 证据表）、远端 CA3 专业化、老 DGC 苔藓纤维贡献
+  - 证据表 +3 行，连接 +2，未解问题 +1（Q-ps-03）
+
+### 步骤 F：图谱与导航更新
+
+- wiki/CHANGELOG.md：新增 2026-08-27 条目 ✅
+- wiki/index.md：新增 mossy-cells 条目（neurons 节）；更新页头统计（246 页，250 节点，1453 边）✅
+- wiki/_graph.json：添加 mossy-cells 节点 + 8 条新边 ✅（250 节点，1453 边）
+
+### 步骤 G：治理文件更新
+
+- state/topic_ledger.json：添加 #125 条目（total_articles: 125）✅
+- state/unresolved_questions.md：添加 Q-ps-01/02/03/04 ✅
+- state/source_registry.json：添加 8 篇新来源 + sources_2026-08-27 摘要键 ✅
+- state/maturity_index.json：添加 mossy-cells 条目（emerging/medium）✅
+- state/monthly_synthesis.md：添加 2026-08-27 日条目 ✅
+
+### 步骤 H：自我检查
+
+**声明-来源一致性检查**：
+- ✅ 所有苔藓细胞机制声明有解剖学综述支持（Rolls 2013、Lee 2020）
+- ✅ 创伤→苔藓细胞→PTSD 机制标注置信度：中（单实验室、待复现）
+- ✅ 没有捏造 PMID 或结论
+- ✅ 没有诊断或用药建议
+- ✅ 苔藓纤维（mossy fibers）vs 苔藓细胞（mossy cells）命名已明确区分
+
+**图谱一致性检查**：
+- ✅ 新增 mossy-cells 节点后无孤立节点
+- ✅ 所有新边两端节点均存在于图谱
+- ✅ 边类型（implements/part-of/causes/implies/interacts/depends-on）与内容语义一致
+
+**跨文件一致性**：
+- ✅ topic_ledger / CHANGELOG / index / monthly_synthesis / maturity_index 相互一致（都是 #125，2026-08-27）
+- ✅ 图谱节点/边数量在 CHANGELOG 和 index.md 中一致（250/1453）
+- ✅ wiki 页面 frontmatter 中的 related/source_articles 与 CHANGELOG 描述一致
+
+---
+
+## 异常记录
+
+**无严重异常**
+
+**注意事项**：
+- 本次运行从上下文压缩后继续，以前几步（研究、文章创建、wiki 更新）在前一个会话中已完成，本次运行完成后续的状态文件更新和 git 操作
+- Jeong 2024（PMID:38527063）：Cell Reports 付费墙，仅读摘要；所有基于该来源的声明均标注"单实验室/待复现"
+- Vandael & Jonas 2024（PMID:38452088）：Science 付费墙，仅读摘要
+- Leutgeb 2007（PMID:17303747）：Science 付费墙，仅读摘要
+
+---
+
+## 输出文件清单
+
+| 文件 | 类型 | 操作 |
+|------|------|------|
+| neuro-daily/articles/2026-08-27-pattern-separation-completion-dg-ca3.md | 文章 | 新建 |
+| neuro-daily/notes/2026-08-27-reading-notes.md | 阅读笔记 | 新建 |
+| neuro-daily/sources/2026-08-27-sources.json | 来源 | 新建 |
+| neuro-daily/wiki/neurons/mossy-cells.md | Wiki | 新建 |
+| neuro-daily/wiki/concepts/pattern-separation.md | Wiki | 修订 rev2→rev3 |
+| neuro-daily/wiki/concepts/pattern-completion.md | Wiki | 修订 rev1→rev2 |
+| neuro-daily/wiki/_graph.json | 图谱 | 更新（+1节点，+8边）|
+| neuro-daily/wiki/index.md | 导航 | 更新（+1条目，更新页头）|
+| neuro-daily/wiki/CHANGELOG.md | 变更日志 | 新增条目 |
+| neuro-daily/state/topic_ledger.json | 状态 | 新增 #125 条目 |
+| neuro-daily/state/unresolved_questions.md | 状态 | 新增 Q-ps-01/02/03/04 |
+| neuro-daily/state/source_registry.json | 状态 | 新增 8 篇来源 |
+| neuro-daily/state/maturity_index.json | 状态 | 新增 mossy-cells |
+| neuro-daily/state/monthly_synthesis.md | 状态 | 新增 2026-08-27 条目 |
+| neuro-daily/logs/2026-08-27-run.log | 日志 | 新建（本文件）|

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-25",
-  "total_articles": 124,
+  "last_updated": "2026-08-27",
+  "total_articles": 125,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7759,6 +7759,84 @@
         "内感觉与情绪生成：岛叶-vmPFC-杏仁核轴的预测误差机制（Barrett EPIC 模型深化）",
         "海马亚区功能分工：DG-CA3-CA1-下托各司其职的记忆回路",
         "应激与大脑的长期重塑：糖皮质激素从分子到系统的多尺度效应"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "article_number": 125,
+      "title": "分与合：齿状回与 CA3 的双引擎记忆架构如何在模式分离、模式补全与苔藓细胞三角中守护情景记忆的精确性",
+      "slug": "pattern-separation-completion-dg-ca3",
+      "core_question": "齿状回（DG）如何通过扩展重编码和稀疏激活将相似记忆拆分成不相似的神经表征（模式分离），CA3 如何通过递归吸引子网络从部分线索中重建完整记忆（模式补全），以及苔藓细胞如何在两者之间充当守门人并在创伤应激下导致情景区分失败和恐惧泛化？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "topic_tags": [
+        "pattern-separation",
+        "pattern-completion",
+        "dentate-gyrus",
+        "CA3",
+        "mossy-cells",
+        "expansion-recoding",
+        "sparse-coding",
+        "attractor-network",
+        "Hopfield-network",
+        "DGC-functional-dichotomy",
+        "Nakashiba-2012",
+        "Rolls-2013",
+        "Lee-2020",
+        "Jeong-2024",
+        "Chavan-2025",
+        "proximal-CA3",
+        "distal-CA3",
+        "LEC-MEC-streams",
+        "fear-generalization",
+        "PTSD",
+        "adult-neurogenesis",
+        "mossy-fibers",
+        "granule-cell-ensemble",
+        "contextual-discrimination"
+      ],
+      "main_sources": [
+        "PMID:17303747",
+        "PMID:22365813",
+        "PMID:32502734",
+        "PMID:24198767",
+        "PMID:38452088",
+        "PMID:38527063",
+        "PMID:40345378",
+        "PMID:32161140"
+      ],
+      "open_full_text_sources": [
+        "PMC3319279",
+        "PMC8136469",
+        "PMC3812781",
+        "PMC13213699",
+        "PMC7178906"
+      ],
+      "wiki_pages_created": [
+        "wiki/neurons/mossy-cells.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/pattern-separation.md (rev2->rev3)",
+        "wiki/concepts/pattern-completion.md (rev1->rev2)"
+      ],
+      "unresolved_questions": [
+        "Q-ps-01",
+        "Q-ps-02",
+        "Q-ps-03",
+        "Q-ps-04"
+      ],
+      "contested_claims_logged": [],
+      "next_suggested_topics": [
+        "抑郁症的回路机制：从 sgACC 到单胺系统崩溃（ketamine 快速机制 vs SSRI 延迟机制）",
+        "海马亚区功能分工：DG-CA3-CA1-下托各司其职的记忆回路（深化）",
+        "苔藓纤维末梢的生物物理：CaV2.1 钙通道与去整合者突触功能（Vandael & Jonas 2024 深度展开）",
+        "内嗅皮层 LEC vs MEC 输入流的认知计算意义（物体记忆 vs 空间记忆的双流架构）",
+        "认知老化与 DG 功能退化：7T fMRI 证据与神经发生衰退的交叉分析"
       ]
     }
   ],

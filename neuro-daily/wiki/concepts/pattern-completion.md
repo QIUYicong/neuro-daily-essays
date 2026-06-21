@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-24
-updated: 2026-06-24
-revision_count: 1
-dimensions: [microcircuit, cellular, cognition]
-related: [hippocampal-circuit, attractor-network, pattern-separation, ca3-recurrent-collaterals, nmda-receptor, ltp, place-cells]
+updated: 2026-08-27
+revision_count: 2
+dimensions: [microcircuit, cellular, cognition, disease]
+related: [hippocampal-circuit, attractor-network, pattern-separation, ca3-recurrent-collaterals, nmda-receptor, ltp, place-cells, mossy-cells, complementary-learning-systems]
 prerequisites: [hippocampal-circuit, ltp, nmda-receptor]
-opens_questions: [Q-pc-01, Q-pc-02]
-source_articles: [2026-06-24-hippocampal-ca3-pattern-completion]
-key_sources: ["PMID:12040087", "PMID:1308182", "PMID:15272123", "PMID:35368306"]
+opens_questions: [Q-pc-01, Q-pc-02, Q-ps-03]
+source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-08-27-pattern-separation-completion-dg-ca3]
+key_sources: ["PMID:12040087", "PMID:1308182", "PMID:15272123", "PMID:35368306", "PMID:24198767", "PMID:32502734", "PMID:22365813"]
 ---
 
 # 模式补全 (Pattern Completion)
@@ -27,6 +27,8 @@ key_sources: ["PMID:12040087", "PMID:1308182", "PMID:15272123", "PMID:35368306"]
 这一过程的神经分子基础是：CA3 循环突触（CA3→CA3 Schaffer collateral precursor）上的 NMDA 受体依赖性 LTP 在学习阶段存储了完整模式，检索时循环激活重建这些模式。
 
 最关键的证据来自 Nakazawa et al. (2002, PMID:12040087)：CA3 特异性 NR1 基因敲除小鼠在完整线索下记忆正常，但在部分线索下表现严重受损，证明 CA3 循环突触的 NMDAR 是模式补全的必要条件。
+
+**关键更新（2026-08-27）**：Rolls（2013，PMID:24198767，全文 PMC3812781）提供了 CA3 吸引子网络的定量参数：每个 CA3 细胞约 12,000 个递归侧支突触，苔藓纤维仅 46 条（但极强大），穿孔路径约 3,600 条；理论存储容量约 36,000 条记忆（稀疏度 a=0.02）。此外，**远端 CA3**（而非整个 CA3）被确认为模式补全的主要执行区（Lee et al. 2020，PMID:32502734）——远端 CA3 接受 MEC 空间输入、具有丰富的递归侧支，是 Hopfield 型吸引子动力学的主要场所；而**近端 CA3**更多参与模式分离（与 DG 协同）。DGC 功能二态性中，老粒细胞（>4周龄）也参与支持模式补全，通过苔藓纤维激活 CA3 已有吸引子（Nakashiba et al. 2012，PMID:22365813）。
 
 ## 关键机制
 
@@ -63,6 +65,9 @@ Leutgeb et al. (2004, PMID:15272123) 的体内数据支持这一观点：CA3 对
 | CA3 NMDAR 对模式补全必要 | CA3-NR1 KO 小鼠部分线索条件下行为受损 + 场所细胞失活 | PMID:12040087 | 高 |
 | CA3 产生离散吸引子状态 | 多环境记录：相似环境中 CA3 集群几乎完全不同 | PMID:15272123 | 高 |
 | 苔状纤维是编码的"强制激活器" | 计算分析 + 苔状纤维突触独特形态（giant boutons）| PMID:1308182 | 中（理论） |
+| CA3 递归侧支 ~12,000/细胞，存储容量约 36,000 条记忆 | 定量 Hopfield 模型 + 神经解剖计数 | PMID:24198767（PMC3812781）| 中-高（计算预测，需行为验证）|
+| 远端 CA3 为模式补全主场（MEC 输入 + 丰富递归侧支）| 解剖连接分析 + 综述 | PMID:32502734（PMC8136469）| 中（连接证据强，功能分化待体内验证）|
+| 老粒细胞苔藓纤维阻断 → 模式补全速度下降（非容量下降）| DG-TeTX 小鼠 + 部分线索检索时间测量 | PMID:22365813（PMC3319279）| 高（因果证据，小鼠）|
 
 ## 连接
 
@@ -72,12 +77,16 @@ Leutgeb et al. (2004, PMID:15272123) 的体内数据支持这一观点：CA3 对
 - [[nmda-receptor]] — 循环突触 LTP 的关键分子基础
 - [[ltp]] — CA3 循环突触增强是模式编码的突触机制
 - [[place-cells]] — CA3 场所细胞在模式补全中扮演实际的计算角色
+- [[mossy-cells]] — 老 DGC 通过苔藓纤维激活 CA3 已有吸引子，参与支持模式补全
+- [[complementary-learning-systems]] — 模式补全是 CLS 理论中海马快速联想检索的实现机制
 
 ## 未解问题
 
-- Q-pc-01：CA3 的实际记忆容量（Treves & Rolls 预测约 12,000 个离散模式）是否与行为数据一致？超过容量后干扰率如何变化？
+- Q-pc-01：CA3 的实际记忆容量（Rolls 2013 预测约 36,000 条）是否与行为数据一致？超过容量后干扰率如何变化？
 - Q-pc-02：CA1 的"比较器"模型（CA3 预测 vs EC 直接输入）是否有直接的因果实验支持？
+- Q-ps-03（新）：θ 振荡是否在不同相位上门控模式分离（编码）与模式补全（检索）的切换？Hasselmo 2002 的假说缺乏细胞层面直接验证。
 
 ## 修订历史
 
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 填补了 hippocampal-circuit.md 中长期提到但无专页的悬空引用 · 初始置信度：高
+- 2026-08-27 · 修订 · 基于《分与合》第 125 篇文章 · 加入 Rolls 2013 定量 CA3 模型（12K 递归侧支，46 苔藓纤维，~36K 容量）、远端 CA3 专业化（Lee 2020）、老 DGC 苔藓纤维对补全的贡献（Nakashiba 2012）；证据表新增 3 行；连接新增 mossy-cells/complementary-learning-systems；未解问题新增 Q-ps-03

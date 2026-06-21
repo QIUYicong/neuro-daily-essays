@@ -605,5 +605,12 @@
     "revision_count": 1,
     "last_changed": "2026-08-26",
     "reason": "新建页：恐惧泛化作为 PTSD 核心症状的概念已建立；行为层面的泛化梯度实验有充分支持；苔藓细胞受损→颗粒细胞集合重叠→泛化的具体细胞机制为新兴证据（Jeong 2024，啮齿类单一研究，需复现）；5-HT 递质切换驱动泛化的机制同样为新兴证据；人类细胞层面验证缺失；状态定为 emerging，置信度定为 medium-high"
+  },
+  {
+    "slug": "mossy-cells",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-08-27",
+    "reason": "新建：苔藓细胞的解剖连接和双重调控功能有良好的解剖学证据（Rolls 2013 PMID:24198767，Lee 2020 PMID:32502734），但创伤→苔藓细胞失调→恐惧泛化的核心链条主要基于单一实验室啮齿类研究（Jeong 2024 Cell Reports，PMID:38527063），尚未独立复现；苔藓细胞的精确分子机制（LC-NE/CRF 途径）有待厘清；整体置信度：中"
   }
 ]

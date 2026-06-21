@@ -11813,96 +11813,170 @@
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["认知重评→PFC↑+杏仁核↓的首个 fMRI 实验", "建立重评-PFC-杏仁核基本回路框架", "Ochsner 情绪调节 fMRI 系列奠基性研究"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "认知重评→PFC↑+杏仁核↓的首个 fMRI 实验",
+      "建立重评-PFC-杏仁核基本回路框架",
+      "Ochsner 情绪调节 fMRI 系列奠基性研究"
+    ]
   },
   "PMID:15488398": {
     "citation": "Ochsner KN, Ray RD, Cooper JC et al. (2004). For better or for worse: neural systems supporting the cognitive down- and up-regulation of negative emotion. Neuroimage.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["重评上调和下调负性情绪均涉及 PFC", "双向调节 fMRI 证据", "Ochsner 2004 重评系列"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "重评上调和下调负性情绪均涉及 PFC",
+      "双向调节 fMRI 证据",
+      "Ochsner 2004 重评系列"
+    ]
   },
   "PMID:23765157": {
     "citation": "Buhle JT, Silvers JA, Wager TD et al. (2014). Cognitive reappraisal of emotion: a meta-analysis of human neuroimaging studies. Cereb Cortex.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["48 项认知重评 fMRI 研究元分析", "vlPFC/dlPFC + 颞叶语义区最稳健激活", "vmPFC 非稳定激活区（关键发现）", "认知重评神经基底的大规模综合"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "48 项认知重评 fMRI 研究元分析",
+      "vlPFC/dlPFC + 颞叶语义区最稳健激活",
+      "vmPFC 非稳定激活区（关键发现）",
+      "认知重评神经基底的大规模综合"
+    ]
   },
   "PMID:37507228": {
     "citation": "He Z, Zhang Y, Zhang H et al. (2023). Transcranial magnetic stimulation of the vlPFC reveals its causal role in cognitive emotion regulation. J Neurosci.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["vlPFC TMS → vmPFC↑ + 杏仁核↓（因果三层级证明）", "TMS-fMRI 结合方法论", "认知重评三层级回路因果证据"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "vlPFC TMS → vmPFC↑ + 杏仁核↓（因果三层级证明）",
+      "TMS-fMRI 结合方法论",
+      "认知重评三层级回路因果证据"
+    ]
   },
   "PMID:32960214": {
     "citation": "Steward T, Menchon JM, Verdejo-Garcia A et al. (2021). vmPFC-amygdala effective connectivity during cognitive reappraisal. Cereb Cortex.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["动态因果模型（DCM）量化 vmPFC→杏仁核负向有效连接", "重评期间皮层下情绪压制的主要通道", "Steward 2021 DCM 因果量化"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "动态因果模型（DCM）量化 vmPFC→杏仁核负向有效连接",
+      "重评期间皮层下情绪压制的主要通道",
+      "Steward 2021 DCM 因果量化"
+    ]
   },
   "PMID:26617500": {
     "citation": "Giustino TF, Maren S (2015). The role of the medial prefrontal cortex in the conditioning and extinction of fear. Front Behav Neurosci.",
     "pmcid": "PMC4637424",
     "open_access": true,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["BLA 亚区→IL/PL 分区投射系统综述", "IL 促进消退/PL 促进恐惧表达的功能对立", "rostral BLA→PL / caudal BLA→IL 投射拓扑", "Giustino & Maren 2015 系统综述"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "BLA 亚区→IL/PL 分区投射系统综述",
+      "IL 促进消退/PL 促进恐惧表达的功能对立",
+      "rostral BLA→PL / caudal BLA→IL 投射拓扑",
+      "Giustino & Maren 2015 系统综述"
+    ]
   },
   "PMID:20962768": {
     "citation": "Sierra-Mercado D, Padilla-Coreano N, Quirk GJ (2011). Dissociable roles of prelimbic and infralimbic cortices, ventral hippocampus, and basolateral amygdala in the expression and extinction of conditioned fear. Neuropsychopharmacology.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["双侧 IL 灭活阻断消退回忆（因果证据）", "双侧 PL 灭活减弱恐惧表达", "IL/PL 在消退和恐惧表达中的因果分离"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "双侧 IL 灭活阻断消退回忆（因果证据）",
+      "双侧 PL 灭活减弱恐惧表达",
+      "IL/PL 在消退和恐惧表达中的因果分离"
+    ]
   },
   "PMID:10415674": {
     "citation": "Drevets WC, Ongur D, Price JL (1998). Neuroimaging abnormalities in the subgenual prefrontal cortex: implications for the pathophysiology of familial mood disorders. Mol Psychiatry.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["sgACC 灰质减少 + 急性期血流↑（抑郁症）", "家族性情绪障碍的影像学异常", "sgACC 在抑郁中的结构和功能改变奠基研究"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "sgACC 灰质减少 + 急性期血流↑（抑郁症）",
+      "家族性情绪障碍的影像学异常",
+      "sgACC 在抑郁中的结构和功能改变奠基研究"
+    ]
   },
   "PMID:15748841": {
     "citation": "Mayberg HS, Lozano AM, Voon V et al. (2005). Deep brain stimulation for treatment-resistant depression. Neuron.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["BA25 白质纤维 DBS 快速缓解难治性抑郁（6/6 患者，1-3 min 内急性效果）", "DBS 机制：调节 sgACC→下游回路", "难治性抑郁 DBS 里程碑研究"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "BA25 白质纤维 DBS 快速缓解难治性抑郁（6/6 患者，1-3 min 内急性效果）",
+      "DBS 机制：调节 sgACC→下游回路",
+      "难治性抑郁 DBS 里程碑研究"
+    ]
   },
   "PMID:19693001": {
     "citation": "Price JL, Drevets WC (2010). Neurocircuitry of mood disorders. Neuropsychopharmacology.",
     "pmcid": "PMC3055427",
     "open_access": true,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["sgACC（BA25）= '内脏运动皮层'定义", "情绪障碍的前额叶-边缘系统回路综述", "vmPFC/sgACC 解剖和功能回路完整图谱"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "sgACC（BA25）= '内脏运动皮层'定义",
+      "情绪障碍的前额叶-边缘系统回路综述",
+      "vmPFC/sgACC 解剖和功能回路完整图谱"
+    ]
   },
   "PMID:41171999": {
     "citation": "Giacobbe P, Kennedy SH, Mayberg HS (2026). Deep brain stimulation for depression: current evidence and future directions. J Affect Disord.",
     "pmcid": "PMC12578624",
     "open_access": true,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["sgACC DBS 治疗难治性抑郁最新综述（2026）", "反应率约 40-60%", "DBS 靶点选择和个体化策略"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "sgACC DBS 治疗难治性抑郁最新综述（2026）",
+      "反应率约 40-60%",
+      "DBS 靶点选择和个体化策略"
+    ]
   },
   "PMID:40026920": {
     "citation": "Mavrych V et al. (2025). Neurobiological mechanisms of cognitive emotion regulation: focus on ventromedial prefrontal cortex. Cureus.",
     "pmcid": "PMC11870299",
     "open_access": true,
     "first_used": "2026-08-25",
-    "articles_using": ["2026-08-25-vmPFC-sgACC-emotion-regulation"],
-    "covers": ["vmPFC 情绪调节神经生物学综述", "前额叶解剖与认知重评关系", "开放获取综述文章"]
+    "articles_using": [
+      "2026-08-25-vmPFC-sgACC-emotion-regulation"
+    ],
+    "covers": [
+      "vmPFC 情绪调节神经生物学综述",
+      "前额叶解剖与认知重评关系",
+      "开放获取综述文章"
+    ]
   },
   "sources_2026-08-25": [
     "PMID:12495527",
@@ -11923,72 +11997,134 @@
     "pmcid": "PMC12382489",
     "open_access": true,
     "first_used": "2026-08-26",
-    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
-    "covers": ["恐惧记忆时空调控综述", "苔藓细胞受损→颗粒细胞去抑制→恐惧泛化机制", "5-HT 递质身份切换（谷氨酸→GABA）", "再巩固干预（普萘洛尔）窗口依赖性", "PL-BLA 早期 vs PL-PVT 远期回路动态", "印迹细胞时空重组", "PTSD 死后脑 5-HT 递质切换"]
+    "articles_using": [
+      "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+    ],
+    "covers": [
+      "恐惧记忆时空调控综述",
+      "苔藓细胞受损→颗粒细胞去抑制→恐惧泛化机制",
+      "5-HT 递质身份切换（谷氨酸→GABA）",
+      "再巩固干预（普萘洛尔）窗口依赖性",
+      "PL-BLA 早期 vs PL-PVT 远期回路动态",
+      "印迹细胞时空重组",
+      "PTSD 死后脑 5-HT 递质切换"
+    ]
   },
   "PMID:41663712": {
     "citation": "Yi X, Zhang YB, Yu TZ, Yang X, He P, Li HL, Li WG (2026). Circuit-informed modulation of traumatic memory in PTSD: integrating extinction, suppression, and reconsolidation. Molecular Psychiatry.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-26",
-    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
-    "covers": ["PTSD 回路知情调节框架", "消退稳定化 + 再巩固编辑 + 睡眠再激活整合策略", "多靶点联合干预方案", "2026 最新综述（摘要）"]
+    "articles_using": [
+      "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+    ],
+    "covers": [
+      "PTSD 回路知情调节框架",
+      "消退稳定化 + 再巩固编辑 + 睡眠再激活整合策略",
+      "多靶点联合干预方案",
+      "2026 最新综述（摘要）"
+    ]
   },
   "PMID:19748076": {
     "citation": "Milad MR, Pitman RK, Ellis CB, Gold AL, Shin LM, Lasko NB, Zeidan MA, Handwerger K, Orr SP, Rauch SL (2009). Neurobiological basis of failure to recall extinction memory in posttraumatic stress disorder. Biological Psychiatry.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-26",
-    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
-    "covers": ["PTSD 消退回忆时 vmPFC 和海马激活↓", "dACC 激活↑", "恐惧条件化阶段两组无差异", "关键 fMRI 研究直接证明消退记忆提取失败"]
+    "articles_using": [
+      "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+    ],
+    "covers": [
+      "PTSD 消退回忆时 vmPFC 和海马激活↓",
+      "dACC 激活↑",
+      "恐惧条件化阶段两组无差异",
+      "关键 fMRI 研究直接证明消退记忆提取失败"
+    ]
   },
   "PMID:35352034": {
     "citation": "Ressler KJ, Berretta S, Bolshakov VY, Rosso IM, Meloni EG, Rauch SL, Carlezon WA Jr (2022). Post-traumatic stress disorder: clinical and translational neuroscience from cells to circuits. Nature Reviews Neurology.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-26",
-    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
-    "covers": ["PTSD 流行病学（6-8% 一般人群，25% 严重创伤暴露）", "遗传力 30-40%", "细胞到回路综述框架"]
+    "articles_using": [
+      "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+    ],
+    "covers": [
+      "PTSD 流行病学（6-8% 一般人群，25% 严重创伤暴露）",
+      "遗传力 30-40%",
+      "细胞到回路综述框架"
+    ]
   },
   "PMID:16891563": {
     "citation": "Shin LM, Rauch SL, Pitman RK (2006). Amygdala, medial prefrontal cortex, and hippocampal function in PTSD. Annals of the New York Academy of Sciences.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-26",
-    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
-    "covers": ["PTSD 杏仁核过度激活综述", "mPFC 体积减少", "海马功能障碍", "神经影像三角失调经典综述"]
+    "articles_using": [
+      "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+    ],
+    "covers": [
+      "PTSD 杏仁核过度激活综述",
+      "mPFC 体积减少",
+      "海马功能障碍",
+      "神经影像三角失调经典综述"
+    ]
   },
   "PMID:10202566": {
     "citation": "Bremner JD (1999). Does stress damage the brain? Biological Psychiatry.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-26",
-    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
-    "covers": ["PTSD 海马体积缩小（战斗退伍军人 + 儿童虐待幸存者）", "糖皮质激素神经毒性", "言语记忆缺陷", "应激诱导脑损伤奠基研究"]
+    "articles_using": [
+      "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+    ],
+    "covers": [
+      "PTSD 海马体积缩小（战斗退伍军人 + 儿童虐待幸存者）",
+      "糖皮质激素神经毒性",
+      "言语记忆缺陷",
+      "应激诱导脑损伤奠基研究"
+    ]
   },
   "PMID:27845239": {
     "citation": "Sheynin J, Liberzon I (2017). Circuit dysregulation and circuit-based treatments in posttraumatic stress disorder. Neuroscience Letters.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-26",
-    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
-    "covers": ["PTSD 三回路模型（恐惧学习/情景处理/情绪调节）", "回路知情治疗综述"]
+    "articles_using": [
+      "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+    ],
+    "covers": [
+      "PTSD 三回路模型（恐惧学习/情景处理/情绪调节）",
+      "回路知情治疗综述"
+    ]
   },
   "PMID:36442693": {
     "citation": "Kindt M, Elsey JWB (2023). A paradigm shift in the treatment of emotional memory disorders: Lessons from basic science. Brain Research Bulletin.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-26",
-    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
-    "covers": ["再巩固干预的临床转化挑战", "PTSD 情绪记忆治疗范式转变", "必要与充分条件讨论"]
+    "articles_using": [
+      "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+    ],
+    "covers": [
+      "再巩固干预的临床转化挑战",
+      "PTSD 情绪记忆治疗范式转变",
+      "必要与充分条件讨论"
+    ]
   },
   "PMID:39604513": {
     "citation": "Akiki TJ, Jubeir J, Bertrand C, Tozzi L, Williams LM (2025). Neural circuit basis of pathological anxiety. Nature Reviews Neuroscience.",
     "pmcid": null,
     "open_access": false,
     "first_used": "2026-08-26",
-    "articles_using": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"],
-    "covers": ["焦虑障碍的多回路模型", "奖励加工障碍", "认知控制回路", "超越恐惧回路模型的视角"]
+    "articles_using": [
+      "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+    ],
+    "covers": [
+      "焦虑障碍的多回路模型",
+      "奖励加工障碍",
+      "认知控制回路",
+      "超越恐惧回路模型的视角"
+    ]
   },
   "sources_2026-08-26": [
     "PMID:40881229",
@@ -12001,5 +12137,128 @@
     "PMID:27845239",
     "PMID:36442693",
     "PMID:39604513"
+  ],
+  "PMID:17303747": {
+    "citation": "Leutgeb JK, Leutgeb S, Moser MB, Moser EI (2007). Pattern separation in the dentate gyrus and CA3 of the hippocampus. Science.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-27",
+    "articles_using": [
+      "2026-08-27-pattern-separation-completion-dg-ca3"
+    ],
+    "covers": [
+      "DG 对微小环境差异产生全局重映射",
+      "CA3 率重映射与全局重映射的分叉",
+      "DG vs CA3 模式分离机制分工"
+    ]
+  },
+  "PMID:22365813": {
+    "citation": "Nakashiba T, Cushman JD, Pelkey KA, et al. (2012). Young dentate granule cells mediate pattern separation, whereas old granule cells facilitate pattern completion. Cell.",
+    "pmcid": "PMC3319279",
+    "open_access": true,
+    "first_used": "2026-08-27",
+    "articles_using": [
+      "2026-08-27-pattern-separation-completion-dg-ca3"
+    ],
+    "covers": [
+      "DGC 功能二态性（年轻≤4周=分离/老=补全）",
+      "DG-TeTX 三转基因小鼠因果验证",
+      "粒细胞关键期约4周"
+    ]
+  },
+  "PMID:32502734": {
+    "citation": "Lee H, GoodSmith D, Knierim JJ (2020). Parallel processing streams in the hippocampus. Current Opinion in Neurobiology.",
+    "pmcid": "PMC8136469",
+    "open_access": true,
+    "first_used": "2026-08-27",
+    "articles_using": [
+      "2026-08-27-pattern-separation-completion-dg-ca3"
+    ],
+    "covers": [
+      "DG+近端CA3=模式分离单元（LEC/物体）",
+      "远端CA3=模式补全吸引子（MEC/空间）",
+      "并行双流模型架构"
+    ]
+  },
+  "PMID:24198767": {
+    "citation": "Rolls ET (2013). The mechanisms for pattern completion and pattern separation in the hippocampus. Frontiers in Systems Neuroscience.",
+    "pmcid": "PMC3812781",
+    "open_access": true,
+    "first_used": "2026-08-27",
+    "articles_using": [
+      "2026-08-27-pattern-separation-completion-dg-ca3"
+    ],
+    "covers": [
+      "CA3 定量 Hopfield 模型（12K 递归侧支/细胞，46 苔藓纤维/CA3，~36K 记忆容量）",
+      "苔藓纤维作为去整合者突触",
+      "DG 竞争性学习扩展重编码"
+    ]
+  },
+  "PMID:38452088": {
+    "citation": "Vandael D, Jonas P (2024). Structure, biophysics, and circuit function of a 'giant' cortical presynaptic terminal. Science.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-27",
+    "articles_using": [
+      "2026-08-27-pattern-separation-completion-dg-ca3"
+    ],
+    "covers": [
+      "苔藓纤维末梢 CaV2.1 钙通道结构",
+      "去整合者突触的分子物理基础",
+      "短期易化特性（高频爆发→指数放大）"
+    ]
+  },
+  "PMID:38527063": {
+    "citation": "Jeong M, Jang JH, Oh SJ, Park J, Lee J, Hwang S, Oh YS (2024). Maladaptation of dentate gyrus mossy cells mediates contextual discrimination deficit after traumatic stress. Cell Reports.",
+    "pmcid": null,
+    "open_access": false,
+    "first_used": "2026-08-27",
+    "articles_using": [
+      "2026-08-27-pattern-separation-completion-dg-ca3"
+    ],
+    "covers": [
+      "创伤→苔藓细胞受抑制→粒细胞集合变大重叠",
+      "情景区分失败→恐惧泛化细胞机制",
+      "苔藓细胞再激活逆转效应"
+    ]
+  },
+  "PMID:40345378": {
+    "citation": "Chavan P, Kitamura T, Sakaguchi M (2025). Memory processing by hippocampal adult-born neurons. Neurobiology of Learning and Memory.",
+    "pmcid": "PMC13213699",
+    "open_access": true,
+    "first_used": "2026-08-27",
+    "articles_using": [
+      "2026-08-27-pattern-separation-completion-dg-ca3"
+    ],
+    "covers": [
+      "成体新生颗粒细胞支持精细情景区分",
+      "年轻ABGCs关键期特性（低阈值/高可塑性）",
+      "神经发生下降与老年记忆衰退/AD关联",
+      "REM睡眠中ABGCs的记忆巩固功能"
+    ]
+  },
+  "PMID:32161140": {
+    "citation": "Frank D, Montemurro MA, Montaldi D (2020). Pattern Separation Underpins Expectation-Modulated Memory. Journal of Neuroscience.",
+    "pmcid": "PMC7178906",
+    "open_access": true,
+    "first_used": "2026-08-27",
+    "articles_using": [
+      "2026-08-27-pattern-separation-completion-dg-ca3"
+    ],
+    "covers": [
+      "人类 fMRI 证据：DG/CA3 模式分离中介预期违背记忆增强",
+      "对相似刺激效应最强（需要分离的场景）",
+      "预期违背与模式分离的因果关系"
+    ]
+  },
+  "sources_2026-08-27": [
+    "PMID:17303747",
+    "PMID:22365813",
+    "PMID:32502734",
+    "PMID:24198767",
+    "PMID:38452088",
+    "PMID:38527063",
+    "PMID:40345378",
+    "PMID:32161140"
   ]
 }

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-26（第124篇·PTSD 中的记忆囚笼·杏仁核/海马/vmPFC 三角失调+恐惧泛化+苔藓细胞机制+再巩固干预）· 主题页总数：**245**（新建2页：diseases/ptsd、concepts/fear-generalization；修订4页：concepts/fear-extinction rev6→rev7、systems/amygdala rev7→rev8、concepts/memory-reconsolidation rev1→rev2、systems/vmPFC rev1→rev2；图谱249节点/1444边）
+> 最后更新：2026-08-27（第125篇·分与合：DG-CA3 双引擎记忆架构·模式分离/模式补全/苔藓细胞/DGC 功能二态性）· 主题页总数：**246**（新建1页：neurons/mossy-cells；修订2页：concepts/pattern-separation rev2→rev3、concepts/pattern-completion rev1→rev2；图谱250节点/1453边）
 
 ---
 
@@ -32,6 +32,7 @@
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝 **[NEW 2026-06-03]**
 - 🟢 [低阈值机械感受器（LTMR）](neurons/mechanoreceptor-ltmr.md) — 皮肤中专职编码轻触/振动/压力的四类感受器（SA1 Merkel/SA2 Ruffini/RA1 Meissner/RA2 Pacini）；PIEZO2通道介导机械转导；脊髓背角机械感觉柱整合信号 **[NEW 2026-07-29]**
 - 🟢 [CB1 大麻素受体](neurons/cb1-receptor.md) — 脑内最丰富的 GPCR，主要突触前定位；富集于 CCK⁺ GABA 能中间神经元（皮层/海马）；Gi/o 偶联：Gβγ→Cav2.2 抑制（DSI 短时程），Gαi→cAMP/PKA↓→RIM1α（eCB-LTD 长时程），GIRK 激活（SSI）；BLA CB1R 激活对恐惧消退因果必要 **[NEW 2026-08-05]**
+- 🟡 [苔藓细胞](neurons/mossy-cells.md) — DG 门状区兴奋性主细胞（glutamatergic）；双重调控策略（近距离去抑制+远距离侧抑制）维持粒细胞集合"刚好稀疏"；创伤→苔藓细胞受抑制→粒细胞集合重叠→恐惧泛化（Jeong 2024）**[NEW 2026-08-27]**
 
 ## circuits（回路）
 
