@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-26",
-  "node_count": 249,
-  "edge_count": 1444,
+  "updated": "2026-08-27",
+  "node_count": 251,
+  "edge_count": 1465,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2259,7 +2259,9 @@
       "confidence": "high",
       "page": "wiki/diseases/ptsd.md",
       "revision_count": 1,
-      "source_articles": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"]
+      "source_articles": [
+        "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+      ]
     },
     {
       "id": "fear-generalization",
@@ -2270,7 +2272,35 @@
       "confidence": "medium-high",
       "page": "wiki/concepts/fear-generalization.md",
       "revision_count": 1,
-      "source_articles": ["2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"]
+      "source_articles": [
+        "2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala"
+      ]
+    },
+    {
+      "id": "sgk3-autophagic-nsc-death",
+      "title": "SGK3 介导的神经干细胞自噬性死亡",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/sgk3-autophagic-nsc-death.md",
+      "revision_count": 1,
+      "source_articles": [
+        "2026-08-27-stress-hippocampal-neurogenesis-hpa-gc"
+      ]
+    },
+    {
+      "id": "fkbp51",
+      "title": "FKBP51（糖皮质激素受体伴侣蛋白）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/fkbp51.md",
+      "revision_count": 1,
+      "source_articles": [
+        "2026-08-27-stress-hippocampal-neurogenesis-hpa-gc"
+      ]
     }
   ],
   "edges": [
@@ -10367,6 +10397,126 @@
       "to": "adult-neurogenesis",
       "type": "related",
       "note": "齿状回新生神经元参与模式分离；应激抑制神经发生可能加剧恐惧泛化程度"
+    },
+    {
+      "from": "sgk3-autophagic-nsc-death",
+      "to": "adult-neurogenesis",
+      "type": "mechanism-of",
+      "note": "SGK3 介导的自噬性 NSC 死亡是慢性 GC 抑制 AHN 的三条并行分子机制之一"
+    },
+    {
+      "from": "sgk3-autophagic-nsc-death",
+      "to": "glucocorticoid-stress-memory",
+      "type": "related",
+      "note": "GR 激活是 SGK3 激活的上游信号（GR→SGK3 是 GC 信号的效应臂之一）"
+    },
+    {
+      "from": "sgk3-autophagic-nsc-death",
+      "to": "hpa-axis",
+      "type": "related",
+      "note": "HPA 轴产生的 CORT 通过 GR 激活 SGK3，是 HPA-AHN 负向调节的分子执行机制"
+    },
+    {
+      "from": "sgk3-autophagic-nsc-death",
+      "to": "fkbp51",
+      "type": "related",
+      "note": "FKBP51 调节 GR 灵敏度，间接决定 SGK3 路径激活的 CORT 阈值"
+    },
+    {
+      "from": "sgk3-autophagic-nsc-death",
+      "to": "bdnf",
+      "type": "related",
+      "note": "SGK3/TRP53 自噬性死亡路径与 BDNF/TrkB 路径并行，共同介导慢性 GC 对 NSC 的损害"
+    },
+    {
+      "from": "fkbp51",
+      "to": "glucocorticoid-stress-memory",
+      "type": "modulates",
+      "note": "FKBP51 通过降低 GR 亲和力调节细胞对 GC 信号的敏感度；*FKBP5* 多态性影响 GR-CORT 巩固效率"
+    },
+    {
+      "from": "fkbp51",
+      "to": "hpa-axis",
+      "type": "modulates",
+      "note": "FKBP51 是 GR 负反馈效率的分子门控；*FKBP5* rs1360780 T 等位基因→HPA 负反馈效率下降→CORT 恢复更慢"
+    },
+    {
+      "from": "fkbp51",
+      "to": "adult-neurogenesis",
+      "type": "related",
+      "note": "FKBP51 通过调节 GR 灵敏度间接影响 NSC 上 GR 激活水平；SAFit2 体外直接促进 NPC 增殖和分化"
+    },
+    {
+      "from": "fkbp51",
+      "to": "sgk3-autophagic-nsc-death",
+      "type": "related",
+      "note": "FKBP51 调节 GR 灵敏度，间接影响 SGK3 路径的激活强度"
+    },
+    {
+      "from": "fkbp51",
+      "to": "ptsd",
+      "type": "mechanism-of",
+      "note": "*FKBP5* rs1360780 T 等位基因 × 童年创伤 × 成年 PTSD 是目前 PTSD 分子遗传最强的三重交互之一"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "hpa-axis",
+      "type": "regulates",
+      "note": "新生神经元主动参与 HPA 轴负反馈调节；AHN 减少→海马负反馈制动效率下降→CORT 恢复更慢（Snyder 2011）"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "adult-neurogenesis",
+      "type": "suppresses",
+      "note": "慢性 HPA 激活产生的 CORT 通过三条并行路径（BDNF↓/SGK3/Wnt↓）抑制 DG 神经发生"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "sgk3-autophagic-nsc-death",
+      "type": "related",
+      "note": "SGK3/TRP53 自噬性死亡是应激/CORT 抑制 AHN 的分子机制之一"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "fkbp51",
+      "type": "related",
+      "note": "FKBP51 通过 GR 灵敏度调节间接影响 AHN；SAFit2 直接在体外促进 NPC 增殖"
+    },
+    {
+      "from": "glucocorticoid-stress-memory",
+      "to": "adult-neurogenesis",
+      "type": "related",
+      "note": "慢性 GC 对海马的第四条损伤机制：通过三条并行分子路径（BDNF↓/SGK3/Wnt↓）抑制 DG 神经发生"
+    },
+    {
+      "from": "glucocorticoid-stress-memory",
+      "to": "sgk3-autophagic-nsc-death",
+      "type": "related",
+      "note": "GR→SGK3→TRP53 降解是慢性 GC 通过自噬性死亡损害 NSC 的分子执行路径"
+    },
+    {
+      "from": "glucocorticoid-stress-memory",
+      "to": "fkbp51",
+      "type": "related",
+      "note": "FKBP51 通过调节 GR 灵敏度决定慢性 GC 对 AHN 的抑制强度；*FKBP5* 多态性是个体差异的遗传基础"
+    },
+    {
+      "from": "glucocorticoid-stress-memory",
+      "to": "bdnf",
+      "type": "related",
+      "note": "BDNF/TrkB/ERK/CREB 是 GC 抑制 AHN 的核心下游轴；也是运动/SSRI 恢复的共同收敛靶点"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "fkbp51",
+      "type": "related",
+      "note": "FKBP51 是 GR 负反馈效率的分子门控；*FKBP5* 多态性决定 HPA 负反馈效率"
+    },
+    {
+      "from": "hpa-axis",
+      "to": "sgk3-autophagic-nsc-death",
+      "type": "related",
+      "note": "CORT 通过 GR→SGK3 驱动 NSC 自噬性死亡，是 HPA 轴抑制 AHN 的分子执行机制之一"
     }
   ],
   "dangling_references": [

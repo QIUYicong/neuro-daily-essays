@@ -6,14 +6,14 @@ type: system
 status: established
 confidence: high
 created: 2026-07-09
-updated: 2026-07-09
-revision_count: 1
+updated: 2026-08-27
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [glucocorticoid-stress-memory, amygdala, hippocampal-circuit, norepinephrine-locus-coeruleus, fear-conditioning, memory-consolidation, circadian-clock, alzheimers-disease, bdnf]
+related: [glucocorticoid-stress-memory, amygdala, hippocampal-circuit, norepinephrine-locus-coeruleus, fear-conditioning, memory-consolidation, circadian-clock, alzheimers-disease, bdnf, adult-neurogenesis, fkbp51, sgk3-autophagic-nsc-death]
 prerequisites: [synaptic-transmission, amygdala]
-opens_questions: [Q-gc-01, Q-gc-02]
-source_articles: [2026-07-09-glucocorticoids-stress-memory-amygdala]
-key_sources: ["PMID:29428549", "PMID:9807058", "PMID:30877244", "PMID:23968228"]
+opens_questions: [Q-gc-01, Q-gc-02, Q-fkbp51-01, Q-fkbp51-02]
+source_articles: [2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-08-27-stress-hippocampal-neurogenesis-hpa-gc]
+key_sources: ["PMID:29428549", "PMID:9807058", "PMID:30877244", "PMID:23968228", "PMID:21814201", "PMID:36104438"]
 ---
 
 # HPA 轴（下丘脑-垂体-肾上腺轴）
@@ -58,6 +58,14 @@ HPA 轴不是单向的"下命令"系统，而是包含多层负反馈的平衡�
 - **慢速负反馈**（天-周级）：海马 GR 激活后产生 CRH 基因下调的持续性抑制
 
 **海马作为负反馈制动器**：海马（CA1/CA3/DG 均有高密度 GR）激活后抑制 PVN 的 CRH 释放。这创造了一个重要的反向关系：海马损伤（慢性应激所致）→ 负反馈减弱 → HPA 轴更难关闭 → 更多皮质醇 → 进一步海马损伤（正反馈恶性循环）。
+
+**成体海马神经发生（AHN）对 HPA 负反馈的主动贡献**（Snyder 2011, PMID:21814201）：海马的负反馈制动功能不仅由存量神经元执行，DG 齿状回的**新生神经元**也主动参与 HPA 轴的动态校准：
+- 消除 AHN 的小鼠（转基因/辐射法）在应激后 CORT 峰值恢复更慢，地塞米松抑制试验效率下降
+- 机制推测：新生颗粒细胞通过 CA1→下丘脑 mPFC 投射通路增强 GR 介导的负反馈信号
+- 腹侧 DG 的新生神经元贡献尤为显著（腹侧 DG 主导情绪调节和 HPA 负反馈；背侧 DG 主导空间认知）
+- **含义**：慢性应激 → AHN 下降 → HPA 负反馈效率下降 → CORT 恢复更慢 → 进一步抑制 AHN（第二条慢性应激正反馈恶性循环，与 CA3 萎缩路径并行）
+
+**FKBP51 遗传门控**：GR 的信号效率不仅取决于 CORT 浓度，还受 FKBP51（*FKBP5* 基因编码）调制。FKBP51 通过降低 GR 对 CORT 的亲和力来缓冲 GC 信号；*FKBP5* rs1360780 T 等位基因使 FKBP51 对 GC 诱导更敏感 → HPA 负反馈效率下降 → 皮质醇恢复更慢 → AHN 持续受抑。这是 *FKBP5* 多态性关联 PTSD 风险的分子通路之一。详见 [[fkbp51]]。
 
 ### MR/GR 双受体分工
 
@@ -105,6 +113,9 @@ HPA 轴的基础活动受昼夜节律严格控制：
 - [[fear-conditioning]] — HPA 轴激活是恐惧条件反射记忆形成的内分泌背景；GC 增强 LA LTP
 - [[memory-consolidation]] — GC 通过 GR 基因组路径是情绪显著性记忆巩固的关键内分泌信号
 - [[alzheimers-disease]] — 慢性 HPA 激活（海马负反馈受损 → 皮质醇升高）是 AD 风险因素；GC 促进 APP 加工和 Aβ 生成
+- [[adult-neurogenesis]] — DG 新生神经元主动参与 HPA 负反馈校准；AHN 下降→HPA 负反馈减弱→恶性循环；慢性 CORT 通过 BDNF↓/SGK3/Wnt 三路径抑制 AHN
+- [[fkbp51]] — FKBP51 是 GR-HSP90 复合体中的分子缓冲器；*FKBP5* 多态性通过调节 GR 灵敏度决定 HPA 负反馈效率和 AHN 保护程度
+- [[sgk3-autophagic-nsc-death]] — HPA 轴产生的 CORT 通过 GR→SGK3 激活，驱动 DG 神经干细胞自噬性死亡，是 AHN 下降的分子执行机制之一
 
 ## 未解问题
 
@@ -113,6 +124,7 @@ HPA 轴的基础活动受昼夜节律严格控制：
 
 ## 修订历史
 
+- 2026-08-27 · 修订（rev2）· 基于《应激如何重塑海马新生神经元》一文 (#125) · 扩展"海马作为负反馈制动器"节：新增 AHN 对 HPA 负反馈的主动贡献（Snyder 2011）、FKBP51 遗传门控、AHN-HPA 正反馈恶性循环；更新连接（adult-neurogenesis, fkbp51, sgk3-autophagic-nsc-death）
 - 2026-07-09 · 创建 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 初始置信度：高
 
 ## 来源文章

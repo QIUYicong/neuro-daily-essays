@@ -2695,3 +2695,28 @@
 - Q-placebo-02（中优先级：开放标签安慰剂的神经机制——fMRI对比研究空白）
 
 **图谱**：194节点→197节点，1118边→1134边（+3节点，+16边）
+
+---
+
+## 2026-08-27 · 文章 #125 · 应激如何重塑海马新生神经元：从 HPA 轴到 SGK3/TRP53 自噬路径的多层分子机制
+
+**核心主题**：慢性应激/糖皮质激素对成体海马神经发生（AHN）的多层分子抑制机制——BDNF/TrkB 抑制、SGK3/TRP53 自噬性 NSC 死亡、Wnt/β-catenin 抑制、CRF₁R 独立抑制四条并行路径；以及 AHN-HPA 轴双向负反馈环（Snyder 2011 Nature）和 FKBP51（*FKBP5*）遗传门控。
+
+**新建页面（2）**：
+- `concepts/sgk3-autophagic-nsc-death.md`（SGK3 介导的神经干细胞自噬性死亡）🟡 emerging · 置信度中 — CORT→GR→SGK3→LC3→TRP53 降解→自噬性 NSC 死亡；Atg7 KO 保护 NSC；TRP53 存活守护功能；RITA 体外保护；单实验室（Jung et al.），需独立复现；2个未解问题（Q-sgk3-01/02）
+- `concepts/fkbp51.md`（FKBP51/FK506 结合蛋白51）🔵 mainstream · 置信度中 — FKBP51 降低 GR 亲和力阻碍核转位；GR→FKBP5 负反馈超短环；*FKBP5* rs1360780 T 等位基因×童年创伤×PTSD 三重交互；SAFit2 体外促 NPC 增殖（>BDNF）、体内应激弹性；体外/体内不一致（BrdU 无显著差异）；2个未解问题（Q-fkbp51-01/02）
+
+**修订页面（3）**：
+- `concepts/adult-neurogenesis.md` rev2→rev3 — 新增零节（§0）：HPA/GC 对 AHN 的四条抑制路径全览 + AHN-HPA 双向反馈环 + FKBP51 遗传门控 + 恢复路径（运动/SSRI/GSK-3β 抑制剂/FKBP51 抑制剂）；更新连接（hpa-axis, glucocorticoid-stress-memory, sgk3-autophagic-nsc-death, fkbp51, ptsd）
+- `concepts/glucocorticoid-stress-memory.md` rev1→rev2 — 新增第六节：慢性 GC 对 DG 神经发生的抑制（三条并行路径详解 + HPA-AHN 正反馈恶性循环 + FKBP51 遗传调制）；更新连接（adult-neurogenesis, sgk3-autophagic-nsc-death, fkbp51, bdnf）；新增3行证据表
+- `systems/hpa-axis.md` rev1→rev2 — 扩展"海马负反馈制动器"段：新增 AHN 主动参与 HPA 负反馈（Snyder 2011）、FKBP51 遗传门控、AHN-HPA 正反馈恶性循环第二路径；更新连接（adult-neurogenesis, fkbp51, sgk3-autophagic-nsc-death）
+
+**矛盾登记**：
+- 人类成体海马神经发生存在与否：Sorrells 2018（Nature，自然衰退）vs Boldrini 2018（Cell Stem Cell，持续存在至老年），文章使用"存在且有功能"立场，标注高争议
+- SAFit2 体外/体内不一致：体外 BrdU/TuJ1 显著↑；体内 BrdU 差异无统计显著性——机制未明
+
+**新增悬空引用（0）**：无新悬空引用
+
+**新增开放问题（5）**：Q-neurogenesis-stress-ptsd-01、Q-sgk3-01、Q-sgk3-02、Q-fkbp51-01、Q-fkbp51-02
+
+**图谱**：249节点/1444边 → **251节点/1465边**（+2节点，+20边）

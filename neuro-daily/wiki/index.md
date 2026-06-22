@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-26（第124篇·PTSD 中的记忆囚笼·杏仁核/海马/vmPFC 三角失调+恐惧泛化+苔藓细胞机制+再巩固干预）· 主题页总数：**245**（新建2页：diseases/ptsd、concepts/fear-generalization；修订4页：concepts/fear-extinction rev6→rev7、systems/amygdala rev7→rev8、concepts/memory-reconsolidation rev1→rev2、systems/vmPFC rev1→rev2；图谱249节点/1444边）
+> 最后更新：2026-08-27（第125篇·应激如何重塑海马新生神经元·HPA轴-SGK3/TRP53自噬路径-FKBP51遗传门控+AHN-HPA双向反馈环）· 主题页总数：**247**（新建2页：concepts/sgk3-autophagic-nsc-death、concepts/fkbp51；修订3页：concepts/adult-neurogenesis rev2→rev3、concepts/glucocorticoid-stress-memory rev1→rev2、systems/hpa-axis rev1→rev2；图谱251节点/1465边）
 
 ---
 
@@ -137,7 +137,9 @@
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）**[NEW 2026-07-01]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
 - 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性 **[NEW 2026-06-28]**（填补多页悬空引用）
-- 🟢 [糖皮质激素与应激记忆](concepts/glucocorticoid-stress-memory.md) — MR（高亲和力/快速评估）/GR（低亲和力/慢速巩固）双时相模型；BLA是全脑GC记忆增强的必要枢纽；GC+NE协同门控（β-AR阻断消除GC效应）；慢性GC→CA3选择性萎缩；急性应激→记忆系统切换至背侧纹状体 **[NEW 2026-07-09]**
+- 🟡 [SGK3 介导的神经干细胞自噬性死亡](concepts/sgk3-autophagic-nsc-death.md) — 慢性应激/CORT→GR→SGK3→LC3→TRP53 降解→NSC 自噬性死亡（非凋亡）；TRP53 是 NSC 的存活守护蛋白；Atg7 KO 对应激诱导的 AHN 下降具有抗性；单实验室证据（Jung et al.），需独立复现 **[NEW 2026-08-27]**
+- 🔵 [FKBP51（糖皮质激素受体伴侣蛋白）](concepts/fkbp51.md) — FKBP51 降低 GR 对 CORT 的亲和力并阻碍核转位；GR→FKBP5 转录→FKBP51 增加的超短负反馈环；*FKBP5* rs1360780 T 等位基因×童年创伤×成年 PTSD 三重交互（人类遗传最强证据之一）；SAFit2 体外促 NPC 增殖（>BDNF），体内应激弹性但体内神经发生效应不显著 **[NEW 2026-08-27]**
+- 🟢 [糖皮质激素与应激记忆](concepts/glucocorticoid-stress-memory.md) — MR（高亲和力/快速评估）/GR（低亲和力/慢速巩固）双时相模型；BLA是全脑GC记忆增强的必要枢纽；GC+NE协同门控（β-AR阻断消除GC效应）；慢性GC→CA3选择性萎缩；急性应激→记忆系统切换至背侧纹状体；**新增**：慢性 GC 对 DG 神经发生的第四条损伤机制（BDNF↓+SGK3自噬+Wnt↓）+AHN-HPA双向反馈+FKBP51遗传调制（2026-08-27 rev2） **[NEW 2026-07-09 · 修订 rev2 2026-08-27]**
 - 🟢 [Aβ寡聚体](concepts/amyloid-beta-oligomers.md) — AD的核心毒性物种；通过PrPC/NR2B/calcineurin/BDNF/tau五路并行瓦解海马LTP机器 **[NEW 2026-06-08]**
 - 🟢 [短时程突触可塑性（STP）](concepts/short-term-synaptic-plasticity.md) — 毫秒至分钟尺度内突触效率的使用依赖性动态变化；Syt7驱动易化（高p→低通）、RRP耗竭驱动抑制（低p→高通）；是工作记忆活动无声储存的分子基础 **[NEW 2026-06-10]**
 - 🟢 [方向选择性](concepts/orientation-selectivity.md) — V1将LGN非定向圆对称输入转化为精确方向响应的核心计算；前馈LGN排列+E/I平衡+树突NMDA棘波三层机制；有/无方向柱物种均可达同等锐利选择性 **[NEW 2026-06-11]**
@@ -240,7 +242,7 @@
 - 🟢 [基底节（区间计时视角）](systems/basal-ganglia.md) — 以区间计时为核心的系统层级视角：MSN ~1/3 显示斜坡放电；D1-MSN 递减/D2-MSN 递增的对立动力学（Bruce 2025 eLife 光遗传因果证据，R²=0.95 漂移扩散模型）；纹状体-丘脑-皮层节拍计时回路；帕金森病计时障碍机制 **[NEW 2026-07-31]**（另见 [[circuits/basal-ganglia]] 运动选择视角）
 - 🟢 [颞顶联合区（TPJ）](systems/temporoparietal-junction.md) — 前-后轴分工：pTPJ（信念推断/视角转换，右侧化）vs aTPJ（注意定向，VAN 节点）；与 DAN（FEF/IPS）动态拮抗；进化：灵长类 TPJ 体积与社会群体大小正相关；临床：右 TPJ 损伤→偏侧空间忽视+社会认知障碍；TPJ 功能是否专一于 ToM 仍有争议（Q-tom-01）**[NEW 2026-08-01]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；BLA-LA 再巩固去稳定化分子链；皮质内侧核Proust效应解剖基础；**rev7新增**：vmPFC→杏仁核负向有效连接（认知重评+恐惧消退双机制）；Steward 2021 DCM量化**[修订 rev6→rev7 2026-08-25]**
-- 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09]**
+- 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；**新增**：DG 新生神经元主动参与 HPA 负反馈（Snyder 2011）+FKBP51 遗传门控+AHN-HPA 双向恶性循环（2026-08-27 rev2）；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09 · 修订 rev2 2026-08-27]**
 - 🟢 [伏隔核（Nucleus Accumbens, NAc）](systems/nucleus-accumbens.md) — 腹侧纹状体的动机计算枢纽；D1/D2 MSN时程效应（短暂激活均→奖赏，持续激活均→厌恶，Soares-Cunha 2020打破经典D1=奖赏/D2=厌恶二分法）；享乐热点（壳区前内侧~1mm³，阿片→liking翻倍，eCB→liking需阿片协同，多巴胺在此不增强liking）；社会奖赏专用接口（OTR+MOR正向/KOR负向/eCB正向的NAc壳区四系统整合）；多路输入：VTA-DA（wanting）/PFC-Glu（认知控制）/杏仁核BLA（情感价值）/海马（情境）/PVN-OXT（社会特异性门控）；NAc DBS用于难治性抑郁（~40%反应率）**[NEW 2026-08-20]**
 - 🟢 [眶额皮层（OFC）](systems/orbitofrontal-cortex.md) — 额叶最腹侧的新皮层区域；三类功能神经元（提案/选定/效用价值细胞）构成决策流水线；BLA-OFC双向回路是目标导向价值学习的神经基础（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS投射将价值信号转化为行动（Gore 2023光遗传学因果）；lOFC驱动感觉皮层重映射支持逆向学习；价值代码纵向稳定（Zhang 2024双光子）**[NEW 2026-08-21]**
 - 🟢 [岛叶皮层（Insular Cortex）](systems/insular-cortex.md) — 藏于外侧裂深处的多层级内感觉处理中枢；四区功能分化（后颗粒岛体感拓扑/中岛预测误差/前岛主观感受生成/前岛极沉默性顶端控制）；VMpo→后岛专属内感觉通路（区别于 VPM→S1）；前岛含 VENs（体积4.6×，快速远程同步，与 alexithymia 关联）；EPIC 预测编码模型（Barrett 2015）与 IMAC 三层计算模型（Fermin 2022）；显著性网络（岛叶-ACC）；躯体标记（岛叶→OFC/vmPFC）；精神疾病共同病理节点（抑郁/精分/成瘾）**[NEW 2026-08-22]**

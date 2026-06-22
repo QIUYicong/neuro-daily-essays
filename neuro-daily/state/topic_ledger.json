@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-25",
-  "total_articles": 124,
+  "last_updated": "2026-08-27",
+  "total_articles": 125,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7760,6 +7760,71 @@
         "海马亚区功能分工：DG-CA3-CA1-下托各司其职的记忆回路",
         "应激与大脑的长期重塑：糖皮质激素从分子到系统的多尺度效应"
       ]
+    },
+    {
+      "date": "2026-08-27",
+      "article_number": 125,
+      "title": "应激如何重塑海马新生神经元：从 HPA 轴到 SGK3/TRP53 自噬路径的多层分子机制",
+      "slug": "2026-08-27-stress-hippocampal-neurogenesis-hpa-gc",
+      "core_question": "慢性应激/糖皮质激素通过哪些分子机制抑制成体海马神经发生（AHN），这些机制如何形成 HPA 轴失调与情绪障碍的恶性循环，以及有哪些干预靶点？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic"
+      ],
+      "topic_tags": [
+        "adult hippocampal neurogenesis AHN SGZ dentate gyrus",
+        "HPA axis corticosteroids glucocorticoids CORT",
+        "SGK3 autophagic cell death TRP53 p53 LC3",
+        "BDNF TrkB ERK CREB nGRE neurogenesis",
+        "Wnt beta-catenin GSK-3beta neurogenesis",
+        "FKBP51 FKBP5 GR co-chaperone SAFit2",
+        "CRF CRH CRF1R neurogenesis proliferation",
+        "NSC NPC neural stem cell progenitor stress",
+        "bidirectional HPA neurogenesis feedback Snyder 2011",
+        "ventral dorsal DG emotion regulation",
+        "SSRI exercise ketamine neurogenesis recovery"
+      ],
+      "main_sources": [
+        "PMID:21814201",
+        "PMID:31234698",
+        "PMID:42152468",
+        "PMID:36104438",
+        "PMID:33293948",
+        "PMID:21935393",
+        "PMID:14699428",
+        "PMID:39396089"
+      ],
+      "open_full_text_sources": [
+        "PMC7718046",
+        "PMC9763121",
+        "PLoS One 21935393",
+        "Frontiers 34220412",
+        "J Advanced Research 36585110"
+      ],
+      "wiki_pages_created": [
+        "wiki/concepts/sgk3-autophagic-nsc-death.md",
+        "wiki/concepts/fkbp51.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/adult-neurogenesis.md (rev2->rev3)",
+        "wiki/concepts/glucocorticoid-stress-memory.md (rev1->rev2)",
+        "wiki/systems/hpa-axis.md (rev1->rev2)"
+      ],
+      "unresolved_questions": [
+        "Q-neurogenesis-stress-ptsd-01: 慢性应激导致的 AHN 下降在多大程度上是 PTSD 海马体积缩小的原因（而非结果）？",
+        "Q-sgk3-01: SGK3->NSC 自噬死亡的机制在人类 iPSC 来源的 NSC 或海马类器官中是否可复现？",
+        "Q-sgk3-02: TRP53 稳定剂（RITA）在 PTSD/抑郁动物模型中是否能恢复神经发生并改善行为，且具有可接受的安全性特征？",
+        "Q-fkbp51-01: SAFit2 的体外促神经发生效应为何未在体内显著复现？",
+        "Q-fkbp51-02: FKBP51 抑制剂是否通过提升 GR 灵敏度（增强 HPA 负反馈）发挥应激弹性效果？"
+      ],
+      "contested_claims_logged": [
+        "人类成体海马神经发生的规模和意义：Sorrells 2018 vs Boldrini 2018——本文使用存在且有功能的立场，但标注为高争议"
+      ],
+      "next_suggested_topics": [
+        "睡眠与 AHN：NREM/REM 睡眠对 DG 神经发生的差异影响",
+        "BDNF 与情绪：BDNF Val66Met 多态性对 AHN 和情绪调节的影响"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -7877,8 +7942,8 @@
     "methods": [
       "2026-05-31"
     ],
-    "molecular": 1,
-    "cellular": 1,
+    "molecular": 2,
+    "cellular": 2,
     "brain-region": 1,
     "behavior": 1,
     "disease": 1

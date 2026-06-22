@@ -1,0 +1,86 @@
+# 运行日志 · 2026-08-27
+
+**触发时间**：2026-06-22 UTC（实际系统时间；日期异常持续，继续按文章序列使用 2026-08-27）
+**状态**：✅ 成功完成
+**文章编号**：#125
+
+---
+
+## 执行摘要
+
+- 文章主题：应激如何重塑海马新生神经元——从 HPA 轴到 SGK3/TRP53 自噬路径的多层分子机制
+- 层次多样化：molecular/cellular/synaptic（过去5篇为 brain-region/cognition/disease 层，今日调整层次）
+- 来源总数：13篇（5篇开放全文，8篇摘要）
+- Wiki 新建：2页（sgk3-autophagic-nsc-death, fkbp51）
+- Wiki 修订：3页（adult-neurogenesis rev2→rev3, glucocorticoid-stress-memory rev1→rev2, hpa-axis rev1→rev2）
+- 知识图谱：249→251节点，1444→1465边
+
+---
+
+## 步骤记录
+
+### A. 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md
+- 状态：✅ 已完成（本次从上个会话的上下文压缩中恢复）
+
+### B. 日期和主题选择
+- 系统时间：2026-06-22 UTC
+- 文章日期：2026-08-27（延续序列，见2026-08-26日志）
+- 选题依据：Q-ptsd-01 高优先级（海马体积缩小的因果问题），层次多样化（前5篇为高层，需补充分子层），直接填补 adult-neurogenesis.md 的 HPA/GC 机制空白
+
+### C. 文献检索与评估
+- 检索平台：PubMed/NCBI E-utilities, PMC
+- 检索词：10组（应激+AHN、HPA轴+DG、BDNF+神经发生、SGK3/TRP53、FKBP5/FKBP51、CRF/CRH+神经发生、SSRI+神经发生等）
+- 候选筛选：62篇候选 → 13篇采用（采纳率 21%）
+- 排除原因：主题偏离15篇，重复/超越8篇，相关性不足26篇
+
+### D. 文章写作
+- 文件路径：neuro-daily/articles/2026-08-27-stress-hippocampal-neurogenesis-hpa-gc.md
+- 字数：约5200汉字（正文）
+- 章节：核心问题、摘要、重要性、背景（5阶段）、机制1（HPA双臂）、机制2（三条并行分子路径）、机制3（双向反馈环）、腹侧/背侧DG、恢复路径、类比、争议与未解问题、AI比较、概念卡片、认知地图更新、参考文献
+- 注意：SGK3/TRP53 路径来自单一实验室，全文明确标注需独立复现
+- 注意：人类AHN争议（Sorrells vs Boldrini 2018）全文标注为高争议
+
+### E. 附属文件创建
+- neuro-daily/notes/2026-08-27-reading-notes.md：✅ 创建（8个主要来源的逐篇笔记+跨来源综合）
+- neuro-daily/sources/2026-08-27-sources.json：✅ 创建（13篇来源完整元数据+检索策略）
+
+### F. Wiki 知识库固结
+- adult-neurogenesis.md（rev2→rev3）：✅ 更新——新增 §0（HPA/GC 抑制机制全览）
+- sgk3-autophagic-nsc-death.md：✅ 新建
+- fkbp51.md：✅ 新建
+- glucocorticoid-stress-memory.md（rev1→rev2）：✅ 更新——新增第六节（DG神经发生抑制）
+- hpa-axis.md（rev1→rev2）：✅ 更新——新增 AHN 主动参与 HPA 负反馈 + FKBP51 遗传门控
+
+### G. 状态文件更新
+- wiki/_graph.json：✅ +2节点（sgk3-autophagic-nsc-death, fkbp51），+20边；251节点/1465边
+- wiki/index.md：✅ 更新页头统计 + 新增2个条目 + 更新2个现有条目
+- wiki/CHANGELOG.md：✅ 新增2026-08-27条目
+- state/topic_ledger.json：✅ 新增文章#125条目，total_articles=125
+- state/unresolved_questions.md：✅ 新增5个问题（Q-neurogenesis-stress-ptsd-01, Q-sgk3-01/02, Q-fkbp51-01/02）
+- state/source_registry.json：✅ 新增13篇来源（PMID:21814201, 31234698, 42152468, 14699428, 33293948, 36104438, 21935393, 39396089, 34220412, 36585110, 21220416, 26076834, 22335772），total_sources=471
+- state/monthly_synthesis.md：✅ 新增2026-08-27条目
+
+### H. 提交与推送
+- 分支：main（单一积累模型）
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-08-27
+
+---
+
+## 异常记录
+
+- **日期异常**（持续）：系统时钟显示 2026-06-22，文章序列日期为 2026-08-27。按2026-08-26日志建立的规则继续使用文章序列日期。
+- **SGK3/TRP53 单实验室证据**：Jung et al.（同一团队2020+2026两篇论文）是 SGK3/TRP53 自噬路径的唯一来源；在文章、wiki 和来源注释中均明确标注需独立复现。
+- **SAFit2 体外/体内不一致**：已标注为已知矛盾（Q-fkbp51-01），可能机制已在 fkbp51.md 中记录。
+- **人类 AHN 争议**：已标注为高争议（C-ahn-01），使用"存在且有功能"的中间立场。
+
+---
+
+## 质量检查
+
+- [x] 无捏造 PMID/DOI
+- [x] 无 Sci-Hub 访问
+- [x] 无医疗建议
+- [x] 来源可溯（所有引用均在 sources.json 中有记录）
+- [x] 层次多样化（molecular/cellular/synaptic，避免连续brain-region/cognition）
+- [x] 不确定性明确标注（单实验室证据、人类 AHN 争议、SAFit2 体内外不一致）
+- [x] Wiki 知识库保持自洽（所有新页面的 related 字段均链接到已存在节点）

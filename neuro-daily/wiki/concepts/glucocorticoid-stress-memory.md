@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-09
-updated: 2026-07-09
-revision_count: 1
+updated: 2026-08-27
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [hpa-axis, amygdala, hippocampal-circuit, norepinephrine-locus-coeruleus, fear-conditioning, fear-extinction, ltp, nmda-receptor, basal-ganglia, memory-consolidation, ptsd, alzheimers-disease, emotional-memory-depotentiation]
+related: [hpa-axis, amygdala, hippocampal-circuit, norepinephrine-locus-coeruleus, fear-conditioning, fear-extinction, ltp, nmda-receptor, basal-ganglia, memory-consolidation, ptsd, alzheimers-disease, emotional-memory-depotentiation, adult-neurogenesis, sgk3-autophagic-nsc-death, fkbp51, bdnf]
 prerequisites: [synaptic-transmission, ltp, amygdala, hippocampal-circuit, nmda-receptor]
-opens_questions: [Q-gc-01, Q-gc-02, Q-gc-03]
-source_articles: [2026-07-09-glucocorticoids-stress-memory-amygdala]
-key_sources: ["PMID:30877244", "PMID:23968228", "PMID:16310958", "PMID:29428549", "PMID:21771612", "PMID:9405958", "PMID:9807058", "PMID:34058559"]
+opens_questions: [Q-gc-01, Q-gc-02, Q-gc-03, Q-sgk3-01, Q-fkbp51-01]
+source_articles: [2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-08-27-stress-hippocampal-neurogenesis-hpa-gc]
+key_sources: ["PMID:30877244", "PMID:23968228", "PMID:16310958", "PMID:29428549", "PMID:21771612", "PMID:9405958", "PMID:9807058", "PMID:34058559", "PMID:21814201", "PMID:31234698", "PMID:36104438"]
 ---
 
 # 糖皮质激素与应激记忆 (Glucocorticoids & Stress Memory)
@@ -113,6 +113,34 @@ CA3 选择性原因：
 - CA3 锥体细胞比 CA1 的 GR 密度更高 → GC 效应更强
 - CA3 的"模式补全"功能需要高兴奋性，但这也使其在慢性 GC 下更脆弱
 
+### 六、慢性应激：DG 神经发生抑制
+
+慢性 GC 对海马的第四条损伤路径是**抑制成体海马神经发生（AHN）**，直接减少齿状回（DG）颗粒细胞层的新生神经元供给。与 CA3 树突萎缩（可在数周内部分恢复）不同，神经发生的持续性抑制对海马的负反馈功能和情绪调节能力具有更长期的影响。
+
+三条并行的分子机制驱动慢性 GC 对 AHN 的抑制：
+
+**路径 A：BDNF/TrkB 信号减弱**
+- GR 激活 → 通过 nGRE（负性 GRE）下调 BDNF 基因转录
+- BDNF 是 NPC（神经祖细胞）增殖和存活的关键营养因子
+- BDNF 减少 → TrkB/ERK/CREB 信号减弱 → NPC 增殖和成熟树突复杂性均下降（DCX+ 细胞减少约 60%，CMS 模型）
+
+**路径 B：SGK3 介导的自噬性死亡**
+- GR 激活 → SGK3（血清/糖皮质激素调节激酶3）激活 → LC3 自噬系统靶向降解 TRP53（p53 同源蛋白）
+- TRP53 是 NSC 的存活守护蛋白；降解后 NSC 进入自噬性死亡（无 caspase-3 激活）
+- 重要：NSC 的慢性应激死亡不是凋亡，是自噬性细胞死亡——对 z-VAD-fmk 不敏感（PMID:31234698）
+
+**路径 C：Wnt/β-catenin 信号抑制**
+- GR 激活 → GSK-3β 活化 → β-catenin 磷酸化降解 → Wnt 信号减弱
+- Wnt/β-catenin 是 NSC 自我更新和分化的必要通路
+- GSK-3β 抑制剂（锂盐等）在体内恢复神经发生并产生抗抑郁行为效果
+
+**双向反馈意义（Snyder 2011, PMID:21814201）**：
+- GC 抑制 AHN 不只减少新神经元供给
+- 减少的新神经元 → 海马对 HPA 轴的负反馈制动效率下降（腹侧 DG 尤甚）→ CORT 恢复基线更慢 → 进一步抑制 AHN
+- 这构成了慢性应激 → 海马损伤 → HPA 失调的正反馈恶性循环的第二条路径（与 CA3 萎缩路径并行）
+
+**FKBP51 遗传调制**：*FKBP5* rs1360780 T 等位基因携带者在 CORT 刺激后产生更强的 FKBP51 表达 → GR 灵敏度降低（负反馈增强）→ HPA 恢复更慢 → 持续更高的 CORT 暴露 → 更强的 AHN 抑制。这是 FKBP5 多态性关联 PTSD 风险的分子路径之一。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -124,6 +152,9 @@ CA3 选择性原因：
 | 慢性应激→CA3 顶树突萎缩约 20%（NMDAR 机制） | 束缚应激+形态学+AP5 阻断 | PMID:9405958 | 高（啮齿类） |
 | 灵长类慢性社会应激→海马体积萎缩约 30% | 树鼩社会从属应激+神经病理 | PMID:7729802 | 高（灵长类） |
 | 人类皮质醇与情绪性记忆呈正相关，与中性记忆提取呈负相关 | 皮质醇给药/应激 + 记忆测试（多研究） | PMID:19376098（综述） | 中-高（人类，混合结果） |
+| 神经发生缺失→HPA 轴负反馈减弱→CORT 恢复更慢（双向反馈） | 转基因/辐射消除 AHN + 皮质酮曲线 + 地塞米松抑制 | PMID:21814201 | 高（小鼠，多互补方法） |
+| 慢性 CORT → SGK3 激活 → 自噬性 NSC 死亡（非凋亡） | SGK3 siRNA/抑制剂 + Atg7 KO + caspase 检测 | PMID:31234698 | 中（小鼠，单实验室） |
+| FKBP51 抑制（SAFit2）促进 NPC 增殖和分化（体外） | BrdU/TuJ1 标记 + SAFit2 处理 | PMID:36104438 | 中（体外，小鼠 NPC） |
 
 ## 连接
 
@@ -139,6 +170,10 @@ CA3 选择性原因：
 - [[memory-consolidation]] — GC 是记忆巩固时间窗的关键调制变量：峰值 GC 优先固化情绪显著性记忆
 - [[emotional-memory-depotentiation]] — 慢性应激时 GC 反向损害去增强机制，使情绪记忆更难被 REM θ 去饱和化
 - [[alzheimers-disease]] — 慢性 GC 激活是 AD 风险因素之一（CA3 萎缩→模式分离缺陷）；GC 还上调 APP 加工和 Aβ 生成
+- [[adult-neurogenesis]] — 慢性 GC 通过三条并行路径（BDNF↓、SGK3/TRP53 自噬死亡、Wnt/β-catenin↓）抑制 DG 神经发生；是慢性 GC 对海马的第四条损伤机制
+- [[sgk3-autophagic-nsc-death]] — GR→SGK3→LC3→TRP53 降解路径是慢性 GC 杀死 NSC 的分子执行机制
+- [[fkbp51]] — FKBP51 通过调节 GR 灵敏度间接决定慢性 GC 对 AHN 的抑制强度；*FKBP5* 多态性是个体差异的遗传基础
+- [[bdnf]] — BDNF/TrkB/ERK/CREB 通路是 GC 抑制 AHN 的核心下游效应轴；也是运动和 SSRI 恢复神经发生的共同收敛靶点
 
 ## 未解问题
 
@@ -148,6 +183,7 @@ CA3 选择性原因：
 
 ## 修订历史
 
+- 2026-08-27 · 修订（rev2）· 基于《应激如何重塑海马新生神经元》一文 (#125) · 新增第六节：慢性 GC 对 DG 神经发生的抑制（三条并行路径 + HPA-神经发生双向反馈 + FKBP51 遗传调制）；更新连接（adult-neurogenesis, sgk3-autophagic-nsc-death, fkbp51, bdnf）
 - 2026-07-09 · 创建 · 基于《记忆为什么最牢记住恐惧》一文 (#77) · 初始置信度：高（核心机制 established）
 
 ## 来源文章

@@ -6,14 +6,14 @@ type: mechanism
 status: emerging
 confidence: medium
 created: 2026-06-26
-updated: 2026-06-28
-revision_count: 2
+updated: 2026-08-27
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf]
+related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf, hpa-axis, glucocorticoid-stress-memory, sgk3-autophagic-nsc-death, fkbp51, ptsd]
 prerequisites: [hippocampal-circuit, ltp, pattern-separation]
-opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-neurogenesis-AD, Q-gaba-switch-timing]
-source_articles: [2026-06-26-adult-neurogenesis-dentate-gyrus]
-key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133", "PMID:34137370", "PMID:40816272"]
+opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-neurogenesis-AD, Q-gaba-switch-timing, Q-neurogenesis-stress-ptsd-01, Q-sgk3-01]
+source_articles: [2026-06-26-adult-neurogenesis-dentate-gyrus, 2026-08-27-stress-hippocampal-neurogenesis-hpa-gc]
+key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133", "PMID:34137370", "PMID:40816272", "PMID:21814201", "PMID:31234698", "PMID:36104438", "PMID:14699428", "PMID:33293948"]
 ---
 
 # 成年神经发生 (Adult Neurogenesis)
@@ -31,6 +31,27 @@ key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133",
 人类神经发生的存在已得到三种独立方法的支持：BrdU 组织标记（Eriksson 1998）、碳-14 定年（Spalding 2013）、和单核 RNA 测序（Zhou et al. 2022），尽管规模远小于啮齿类。2018 年 Sorrells vs Boldrini 争议的根源已被 Moreno-Jiménez 2019 确定为组织过度固定掩盖了 DCX 抗原。
 
 ## 关键机制
+
+### 零、慢性应激/糖皮质激素对 AHN 的多层抑制
+
+**这是 AHN 最重要的内源性负调节系统。** 慢性应激通过 HPA 轴激活糖皮质激素（GC）受体，并通过 CRF 的独立信号，经三条并行分子路径抑制 AHN：
+
+1. **BDNF/TrkB 抑制（GR→GRE→BDNF 下调）**：GR 激活通过与 BDNF 外显子 IV 启动子的负性 GRE 结合，并减少 SIRT1 组蛋白乙酰化活性，下调 BDNF 表达 → ERK/CREB 通路减弱 → 增殖和存活信号减少（PMID:33293948）
+2. **SGK3/TRP53 自噬性死亡**：CORT → GR 激活 SGK3 → LC3 介导靶向降解 TRP53（p53 同源蛋白）→ NSC 失去存活信号 → **自噬性死亡**（无 caspase 激活）（PMID:31234698，PMID:42152468）；Atg7 KO 小鼠对此具有抗性
+3. **Wnt/β-catenin 压制（GR→SGK→GSK-3β→β-catenin 降解）**：GR 上调 GSK-3β 活性，GSK-3β 磷酸化 β-catenin 促其降解，Wnt 靶基因沉默，神经元命运决定和前体增殖受阻（PMID:36585110）
+4. **CRF₁R 直接抑制（GC 独立路径）**：DG 前体细胞表达 CRF₁R，CRF 通过 cAMP/PKA 直接抑制增殖，独立于 GC（PMID:14699428）
+
+**腹侧 DG 优先受损**：应激选择性抑制腹侧 DG（与杏仁核/下丘脑连接更密切）的神经发生，损害 HPA 轴负反馈效率。背侧 DG（空间记忆/模式分离）相对较少受影响。
+
+**双向反馈环路（Snyder et al. 2011，PMID:21814201）**：新生 DG 颗粒细胞通过 CA3→CA1→subiculum→PVN 路径抑制 HPA 轴 CRH 分泌——这意味着 AHN 是大脑关闭应激反应的主动参与者（而不只是被动受害者）。神经发生减少 → HPA 负反馈变弱 → 更多 GC → 进一步减少神经发生（恶性循环）。
+
+**FKBP51 的门控作用**：GR-HSP90 伴侣蛋白 FKBP51（由 *FKBP5* 编码）决定个体的 GR 灵敏度基础水平，进而决定相同 CORT 水平下 NSC 经历的 GR 激活程度。*FKBP5* rs1360780 多态性与 PTSD 易感性有强关联（PMID:36104438）。
+
+**恢复机制**（均有啮齿类证据）：
+- 有氧运动（通过 BDNF/IGF-1/VEGF 激活）→ 逆转 CORT 对 AHN 的抑制，且是运动行为效应的**必要中介**（PMID:21935393）
+- SSRI/氟西汀（通过 5-HT₁A → cAMP→增殖，主要腹侧 DG）→ 神经发生可能是 SSRI 2–4 周起效延迟的原因之一
+- GSK-3β 抑制剂（锂盐）→ 恢复 Wnt/β-catenin 通路
+- FKBP51 抑制剂（SAFit2）→ 体外促进 NPC 增殖/分化（体内证据不足）
 
 ### 一、神经发生的解剖学家园
 
@@ -84,6 +105,11 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 
 ## 连接
 
+- [[hpa-axis]] — HPA 轴产生的 GC 是 AHN 最重要的内源性负调节信号；同时 AHN 通过 DG→CA3→subiculum→PVN 路径参与 HPA 负反馈（双向关系）
+- [[glucocorticoid-stress-memory]] — GC 对 AHN 的三路径抑制（BDNF/SGK3/Wnt）是 GC 对海马系统影响的细胞层面机制之一
+- [[sgk3-autophagic-nsc-death]] — GR 下游 SGK3 介导的 NSC 自噬性死亡机制的专页
+- [[fkbp51]] — GR 伴侣蛋白，决定 GR 对 GC 的灵敏度，进而影响 AHN 调节的阈值
+- [[ptsd]] — PTSD 中海马体积缩小部分反映 AHN 减少（先天低基础率+慢性 CORT 损伤的双因素）
 - [[hippocampal-neurogenesis]] — 本页的细化前身（此页更广，含调节、争议、方法论全貌）
 - [[hippocampal-circuit]] — 新生颗粒细胞整合进 DG→CA3→CA1 的目标回路
 - [[pattern-separation]] — 神经发生的核心功能输出；DG 的正交化计算
@@ -102,6 +128,7 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 
 ## 修订历史
 
+- 2026-08-27 · 修订 · 基于《应激如何重塑海马新生神经元》一文 (#125) · 新增"零节：慢性应激/GC 对 AHN 的多层抑制"（GR 三路径 + CRF 独立路径 + 双向 HPA 反馈环路 + FKBP51 门控 + 恢复机制）；补充 11 个新来源；新增相关连接（hpa-axis, glucocorticoid-stress-memory, sgk3-autophagic-nsc-death, fkbp51, ptsd）；新增未解问题 Q-neurogenesis-stress-ptsd-01 和 Q-sgk3-01
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 悬空引用 [[bdnf]] 已建页；补充 BDNF 通过 PI3K/Akt 和 MAPK/ERK 双通路支持新生颗粒细胞存活与分化的具体机制描述
 - 2026-06-26 · 创建 · 基于《大脑的自我更新》一文 · 整合 11 篇来源（含 4 篇 PMC 开放全文）· 初始置信度：中（人类部分 emerging，啮齿类部分 established）
 
