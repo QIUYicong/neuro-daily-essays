@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-24
-updated: 2026-06-26
-revision_count: 2
+updated: 2026-08-28
+revision_count: 3
 dimensions: [microcircuit, cellular, cognition]
-related: [hippocampal-circuit, attractor-network, pattern-completion, place-cells, adult-neurogenesis, dentate-gyrus, engram-cells]
+related: [hippocampal-circuit, attractor-network, pattern-completion, place-cells, adult-neurogenesis, dentate-gyrus, engram-cells, mossy-cells-dentate, fear-generalization]
 prerequisites: [hippocampal-circuit, place-cells]
 opens_questions: [Q-pc-03]
-source_articles: [2026-06-24-hippocampal-ca3-pattern-completion]
-key_sources: ["PMID:17303747", "PMID:21460835", "PMID:15272123", "PMID:7704110", "PMID:35368306", "PMID:19590004", "PMID:34137370"]
+source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-08-28-dentate-gyrus-sparse-coding-pattern-separation]
+key_sources: ["PMID:17303747", "PMID:21460835", "PMID:15272123", "PMID:7704110", "PMID:35368306", "PMID:19590004", "PMID:34137370", "PMID:28132828", "PMID:23259953", "PMID:30790539", "PMID:21788086", "PMID:35221956", "PMC5077296"]
 ---
 
 # 模式分离 (Pattern Separation)
@@ -29,6 +29,10 @@ DG（齿状回）通过两个机制实现模式分离：
 2. **稀疏激活竞争**：通过篮细胞/苔状细胞介导的侧向抑制，确保任意时刻只有约 2–5% 的颗粒细胞激活
 
 成人神经发生为 DG 提供额外的模式分离能力：新生颗粒细胞活动更稀疏，选择性地增强对相似情景的区分（Sahay et al. 2011, PMID:21460835）。
+
+**2026-08-28 新增**：模式分离的实现涉及两类互补机制的整合：① 颗粒细胞自身的"沉默偏好"（极低静息膜电位、高阈值，仅约 2–5% 同时激活）；② 多层 GABA 能中间神经元（篮状细胞、HIPP 细胞、MOPP 细胞）的主动剪裁。门区苔藓细胞的**净效果**为抑制性（通过间接激励篮状细胞），其缺失导致颗粒细胞过兴奋和模式分离失败（Jinde 2012, PMID:23259953）——这是"苔藓细胞悖论"的核心实验证据。
+
+Cayco-Gajic & Silver（2019）提出了**维度框架**：模式分离的关键不只是稀疏性，而是神经群体活动的**表征空间维度**——稀疏编码是实现高维表征的手段，而非目的本身。这一框架将 DG 与小脑颗粒层、果蝇蘑菇体统一在同一计算原则下。
 
 ## 关键机制
 
@@ -84,6 +88,10 @@ DG 是成人大脑中神经发生最活跃的区域之一。新生颗粒细胞�
 | DG 稀疏活动（<5% 颗粒细胞） | 钙成像和单元记录 | PMID:35368306（综述）| 高 |
 | 破坏神经发生特异损害精细模式分离 | SGZ焦点X射线照射+相近/远位置辨别对比 | Clelland 2009, PMID:19590004 | 中-高（啮齿类） |
 | GABA开关驱动新生细胞特化为新颖相似模式 | 计算模型+Hebbian学习规则 | PMID:34137370 | 中（计算理论，需更多实验验证） |
+| 颗粒细胞体内激活率约 2–5%（juxtacellular 直接鉴定） | 体内 juxtacellular 记录 + 形态学验证，啮齿类 | PMC5077296（Diamantaki 2016） | 高 |
+| 颗粒细胞单场低频，苔藓细胞多场高频（纠正历史错误） | 硅探针 + juxtacellular 双方法，啮齿类 | PMID:28132828（GoodSmith 2017） | 高 |
+| 苔藓细胞消融 → 颗粒细胞过兴奋 → 情境辨别缺陷 | 转基因特异性白喉毒素消融 + 电生理 + 行为 | PMID:23259953（Jinde 2012） | 中-高（啮齿类，需人类验证）|
+| 模式分离关键在表征维度（非单纯稀疏），三系统统一框架 | 跨系统（DG/小脑/蘑菇体）理论分析 | PMID:30790539（Cayco-Gajic 2019） | 中（理论框架，实验验证有限）|
 
 ## 连接
 
@@ -94,6 +102,9 @@ DG 是成人大脑中神经发生最活跃的区域之一。新生颗粒细胞�
 - [[place-cells]] — 场所细胞的"重映射"（remapping）是模式分离在空间记忆中的具体表现
 - [[complementary-learning-systems]] — 模式分离是 CLS 理论中海马快速稀疏编码的实现机制
 - [[adult-neurogenesis]] — 新生颗粒细胞通过 GABA 开关和前馈抑制机制增强模式分离
+- [[dentate-gyrus]] — DG 是模式分离的神经实现基底（专页）
+- [[mossy-cells-dentate]] — 苔藓细胞通过反馈抑制回路维持颗粒细胞稀疏性，苔藓细胞悖论是理解 DG 回路的关键
+- [[fear-generalization]] — DG 模式分离失败（苔藓细胞受损/颗粒细胞过兴奋）是 PTSD 恐惧泛化的回路基础
 
 ## 未解问题
 
@@ -103,3 +114,4 @@ DG 是成人大脑中神经发生最活跃的区域之一。新生颗粒细胞�
 
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 新建专页，整合 DG 机制、成人神经发生因果证据和 CA3 双重功能 · 初始置信度：高
 - 2026-06-26 · 修订 · 基于《大脑的自我更新》一文 · 加深神经发生机制部分：GABA 开关两阶段程序、关键期分子特性（NR2B/高输入阻抗）、前馈抑制机制、Clelland 2009 必要性证据；证据表新增 2 行；连接新增 adult-neurogenesis
+- 2026-08-28 · 修订 · 基于《稀疏奇迹：齿状回如何以 5% 的激活率撑起大脑的记忆分辨》（文章 #126）· 主要更新：① 新增苔藓细胞悖论内容（Jinde 2012/2013，Galloni 2022）；② 新增维度框架（Cayco-Gajic & Silver 2019）对稀疏框架的修订；③ 新增 GoodSmith 2017 的颗粒细胞/苔藓细胞体内放电对比；④ 新增 Diamantaki 2016 的直接 juxtacellular 稀疏度验证；⑤ 证据表新增 4 行；⑥ 连接新增 dentate-gyrus、mossy-cells-dentate、fear-generalization；revision_count: 2→3

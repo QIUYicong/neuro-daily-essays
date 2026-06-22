@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27",
+  "last_updated": "2026-08-28",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -12347,5 +12347,226 @@
     "PMID:21220416",
     "PMID:26076834",
     "PMID:22335772"
+  ],
+  "PMID:28132828": {
+    "pmid": "28132828",
+    "pmcid": "PMC5617325",
+    "title": "Spatial Representations of Granule Cells and Mossy Cells of the Dentate Gyrus",
+    "authors": "GoodSmith D, Chen X, Wang C, Kim SH, Song H, Burgalossi A, Christian KM, Knierim JJ",
+    "year": 2017,
+    "journal": "Neuron",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "granule cell sparse single place field low firing rate",
+      "mossy cell multiple place fields higher firing rate",
+      "juxtacellular identification in vivo dentate gyrus",
+      "historical misidentification correction"
+    ]
+  },
+  "PMID:23259953": {
+    "pmid": "23259953",
+    "title": "Hilar mossy cell degeneration causes transient dentate granule cell hyperexcitability and impaired pattern separation",
+    "authors": "Jinde S, Zsiros V, Jiang Z, Nakao K, Pickel J, Kohno K, Belforte JE, Nakazawa K",
+    "year": 2012,
+    "journal": "Neuron",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "mossy cell selective ablation diphtheria toxin receptor",
+      "granule cell hyperexcitability mossy cell loss",
+      "impaired contextual discrimination pattern separation",
+      "mossy cell paradox net inhibitory effect"
+    ]
+  },
+  "PMID:30790539": {
+    "pmid": "30790539",
+    "pmcid": "PMC7028396",
+    "title": "Re-evaluating Circuit Mechanisms Underlying Pattern Separation",
+    "authors": "Cayco-Gajic NA, Silver RA",
+    "year": 2019,
+    "journal": "Neuron",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "dimensionality framework pattern separation",
+      "sparseness as means to high-dimensional representation",
+      "DG cerebellum mushroom body unified framework",
+      "Cover theorem expansion recoding"
+    ]
+  },
+  "PMID:21788086": {
+    "pmid": "21788086",
+    "title": "Pattern separation in the hippocampus",
+    "authors": "Yassa MA, Stark CEL",
+    "year": 2011,
+    "journal": "Trends in Neurosciences",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "pattern separation review DG hippocampus",
+      "aging neurogenesis modulate pattern separation",
+      "high-resolution fMRI DG subfield imaging"
+    ]
+  },
+  "PMC5077296": {
+    "pmid": "PMC5077296",
+    "pmcid": "PMC5077296",
+    "title": "Sparse activity of identified dentate granule cells during spatial exploration",
+    "authors": "Diamantaki M, Frey M, Berens P, Preston-Ferrer P, Burgalossi A",
+    "year": 2016,
+    "journal": "eLife",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "in vivo juxtacellular granule cell identification",
+      "2-5% sparse activation dentate granule cells",
+      "silent granule cells spatial exploration"
+    ]
+  },
+  "PMC3834622": {
+    "pmid": "PMC3834622",
+    "pmcid": "PMC3834622",
+    "title": "Adult neurogenesis in the mammalian hippocampus: Why the dentate gyrus?",
+    "authors": "Drew LJ, Fusi S, Hen R",
+    "year": 2013,
+    "journal": "Learning & Memory",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "DG sparse coding 2-5% activation IEG",
+      "adult neurogenesis pattern separation capacity",
+      "computational model neurogenesis DG"
+    ]
+  },
+  "PMID:35221956": {
+    "pmid": "35221956",
+    "title": "Recurrent Excitatory Feedback From Mossy Cells Enhances Sparsity and Pattern Separation in the Dentate Gyrus via Indirect Feedback Inhibition",
+    "authors": "Galloni AR, Samadzelkava A, Hiremath K, Oumnov R, Milstein AD",
+    "year": 2022,
+    "journal": "Frontiers in Computational Neuroscience",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "computational model mossy cells interneurons granule cells",
+      "feedback inhibition loop MC to interneuron to GC",
+      "pattern separation enhancement noisy inputs"
+    ]
+  },
+  "PMID:23407806": {
+    "pmid": "23407806",
+    "title": "Hilar mossy cell circuitry controlling dentate granule cell excitability",
+    "authors": "Jinde S, Zsiros V, Nakazawa K",
+    "year": 2013,
+    "journal": "Frontiers in Neural Circuits",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "dormant basket cell hypothesis",
+      "mossy cell basket cell indirect inhibition granule cell",
+      "hilar mossy cell circuit analysis"
+    ]
+  },
+  "PMID:40672329": {
+    "pmid": "40672329",
+    "title": "A novel, evolutionarily conserved inhibitory circuit selectively regulates dentate gyrus mossy cell function",
+    "authors": "Vargish GA, Rice H, Yuan X, Hunt S et al.",
+    "year": 2025,
+    "journal": "bioRxiv (preprint)",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "VGluT3+ interneurons selective mossy cell targeting",
+      "meta-inhibition circuit dentate gyrus",
+      "evolutionarily conserved primates"
+    ],
+    "caution": "PREPRINT - single laboratory, not peer reviewed"
+  },
+  "PMC4792723": {
+    "pmid": "PMC4792723",
+    "pmcid": "PMC4792723",
+    "title": "Paradox of Pattern Separation and Adult Neurogenesis: A Dual Role for New Neurons Balancing Memory Resolution and Robustness",
+    "authors": "Johnston ST, Shtrahman M, Parylak S, Goncalves JT, Gage FH",
+    "year": 2016,
+    "journal": "Neurobiology of Learning and Memory",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "adult-born granule cells dual role pattern separation",
+      "immature granule cells competition representational stability",
+      "net effect depends on task parameters"
+    ]
+  },
+  "PMID:31009459": {
+    "pmid": "31009459",
+    "title": "Temporal pattern separation in hippocampal neurons through multiplexed neural codes",
+    "authors": "Madar AD, Ewell LA, Jones MV",
+    "year": 2019,
+    "journal": "PLoS Computational Biology",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "temporal pattern separation granule cells",
+      "spike timing rate coding under and over 100ms",
+      "GABAergic inhibition temporal pattern separation"
+    ]
+  },
+  "PMID:31377252": {
+    "pmid": "31377252",
+    "pmcid": "PMC6724741",
+    "title": "Contributions of adult neurogenesis to dentate gyrus network activity and computations",
+    "authors": "Tuncdemir SN, Lacefield CO, Hen R",
+    "year": 2019,
+    "journal": "Behavioural Brain Research",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "adult-born GCs feed-forward inhibition CA3",
+      "LEC vs MEC differential input to adult-born GCs",
+      "DG network activity adult neurogenesis review"
+    ]
+  },
+  "PMID:16781044": {
+    "pmid": "16781044",
+    "title": "A computational theory of hippocampal function, and empirical tests of the theory",
+    "authors": "Rolls ET, Kesner RP",
+    "year": 2006,
+    "journal": "Progress in Neurobiology",
+    "used_in_articles": [
+      "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation"
+    ],
+    "covers": [
+      "DG pattern separation sparse expansion coding",
+      "CA3 pattern completion recurrent collaterals",
+      "hippocampal computational theory"
+    ],
+    "caution": "ABSTRACT ONLY - subscription journal"
+  },
+  "sources_2026-08-28": [
+    "PMID:28132828",
+    "PMID:23259953",
+    "PMID:30790539",
+    "PMID:21788086",
+    "PMC5077296",
+    "PMC3834622",
+    "PMID:35221956",
+    "PMID:23407806",
+    "PMID:40672329",
+    "PMC4792723",
+    "PMID:31009459",
+    "PMID:31377252",
+    "PMID:16781044"
   ]
 }

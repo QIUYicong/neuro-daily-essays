@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-27",
-  "total_articles": 125,
+  "last_updated": "2026-08-28",
+  "total_articles": 126,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7824,6 +7824,61 @@
       "next_suggested_topics": [
         "睡眠与 AHN：NREM/REM 睡眠对 DG 神经发生的差异影响",
         "BDNF 与情绪：BDNF Val66Met 多态性对 AHN 和情绪调节的影响"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "title": "稀疏奇迹：齿状回如何以 5% 的激活率撑起大脑的记忆分辨",
+      "filename": "2026-08-28-dentate-gyrus-sparse-coding-pattern-separation.md",
+      "article_number": 126,
+      "wiki_pages_created": [
+        "wiki/systems/dentate-gyrus.md",
+        "wiki/neurons/mossy-cells-dentate.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/pattern-separation.md (rev2->rev3)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "齿状回如何通过极端稀疏编码（约 2–5% 颗粒细胞同时激活）实现模式分离？苔藓细胞（兴奋性细胞）为何产生对颗粒细胞的净抑制效果？表征维度而非单纯稀疏性是否是模式分离的真正关键？",
+      "open_questions_added": [
+        "Q-dg-sparse-01（中优先级）：颗粒细胞激活率在不同任务难度和行为状态下是否为动态变量，而非固定的 2–5%？",
+        "Q-dg-mc-net-effect（高优先级）：苔藓细胞对颗粒细胞的净效果是否在不同神经调质状态（ACh/NE/DA）下发生动态反转？",
+        "Q-dg-human-imaging（中优先级）：7T fMRI 能否可靠区分人类 DG 与 CA3 的亚毫米级激活？",
+        "Q-mc-state-dependent（中优先级）：不同行为状态（探索/静止/NREM/REM）下苔藓细胞放电模式与净效果如何变化？",
+        "Q-mc-vglut3-circuit（中优先级）：Vargish 2025 预印本中 VGluT3+ 元抑制回路的独立复现与人类证据？"
+      ],
+      "layer": [
+        "microcircuit",
+        "cellular",
+        "synaptic"
+      ],
+      "curriculum_track": "课程脊柱2（记忆与学习：海马亚区深化）+ 脊柱1（神经元如何工作：稀疏编码/回路层级）",
+      "topic_tags": [
+        "dentate gyrus DG granule cells sparse coding",
+        "pattern separation orthogonalization",
+        "mossy cells hilar neurons paradox",
+        "basket cells HIPP MOPP interneurons",
+        "expansion recoding Cover theorem high-dimensional",
+        "adult neurogenesis granule cell maturation",
+        "Jinde 2012 mossy cell ablation hyperexcitability",
+        "GoodSmith 2017 juxtacellular identification",
+        "Cayco-Gajic 2019 dimensionality framework",
+        "Diamantaki 2016 in vivo sparse activity",
+        "Vargish 2025 VGluT3 meta-inhibition preprint",
+        "fear generalization DG mossy cell dysfunction",
+        "GABA inhibitory microcircuit sculpting sparseness"
+      ],
+      "main_sources": [
+        "PMID:28132828 (GoodSmith 2017, Neuron, PMC open)",
+        "PMID:23259953 (Jinde 2012, Neuron, abstract)",
+        "PMID:30790539 (Cayco-Gajic 2019, Neuron, PMC open)",
+        "PMID:21788086 (Yassa & Stark 2011, Trends Neurosci, abstract)",
+        "PMC5077296 (Diamantaki 2016, eLife, full text open)",
+        "PMC3834622 (Drew 2013, Learn Mem, full text open)",
+        "PMID:35221956 (Galloni 2022, Front Comput Neurosci, open)",
+        "PMID:23407806 (Jinde 2013, Front Neural Circuits, open)",
+        "PMID:40672329 (Vargish 2025, bioRxiv, preprint)"
       ]
     }
   ],

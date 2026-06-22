@@ -4,6 +4,41 @@
 
 ---
 
+## 2026-08-28 · 文章 #126 · 稀疏奇迹：齿状回如何以 5% 的激活率撑起大脑的记忆分辨
+
+**核心主题**：齿状回（DG）的稀疏编码机制与模式分离的细胞/回路实现。三大机制板块：(1) 颗粒细胞内在"沉默偏好"（静息膜电位约 −85 mV、高动作电位阈值、高密度 Kir2.x 通道），加之 5–10 倍解剖学扩张（EC→DG），使 DG 在高维空间中正交化相似输入；(2) 多层 GABA 能中间神经元（篮状细胞前馈/反馈快速抑制、HIPP 细胞树突层"分母滤波"、MOPP 细胞侧向抑制竞争）主动雕刻激活稀疏性；(3) 苔藓细胞悖论：门区大型兴奋性苔藓细胞通过净激励篮状细胞对颗粒细胞产生净抑制效果（Jinde 2012, PMID:23259953），苔藓细胞缺失导致颗粒细胞过兴奋和模式分离失败。维度框架（Cayco-Gajic & Silver 2019, PMID:30790539）：模式分离的关键是表征空间的有效维度，而非单纯稀疏性。GoodSmith 2017（PMID:28132828）纠正了历史错误——颗粒细胞（单场低频）与苔藓细胞（多场高频）的体内放电特性截然不同，文献中长期存在的误识别导致颗粒细胞活动被高估。Vargish 2025（PMID:40672329，预印本）报告 VGluT3+ 中间神经元专门靶向苔藓细胞的"元抑制"回路，进化保守至灵长类。
+
+### 新建 Wiki 页面（2 个）
+
+- `systems/dentate-gyrus.md`（齿状回）🟢 established · 高置信度 — EC→DG 5–10倍扩张解剖基础；颗粒细胞内在静息偏好（Kir2.x）；多层 GABA 能抑制网络；苔藓细胞双轨策略；维度视角；关键证据表 5 条；Q-dg-sparse-01/Q-dg-mc-net-effect/Q-dg-human-imaging 三个开放问题；key_sources 7 篇
+- `neurons/mossy-cells-dentate.md`（苔藓细胞，齿状回）🔵 mainstream · 中置信度 — 回路解剖（兴奋性输入+双输出通路）；苔藓细胞悖论（净效果为抑制）；Jinde 2012 决定性消融实验；沉默篮状细胞假说（Jinde 2013）；Galloni 2022 计算模型；GoodSmith 2017 放电特性对比；Vargish 2025 VGluT3+ 元抑制（预印本）；关键证据表 5 条；Q-dg-mc-net-effect/Q-mc-state-dependent/Q-mc-vglut3-circuit 三个开放问题；key_sources 5 篇
+
+### 修订 Wiki 页面（1 个）
+
+- `concepts/pattern-separation.md`：rev2→rev3，当前理解节新增苔藓细胞悖论内容（Jinde 2012/2013，Galloni 2022）和维度框架（Cayco-Gajic & Silver 2019）；关键证据表新增 4 行（Diamantaki 2016、GoodSmith 2017、Jinde 2012、Cayco-Gajic 2019）；连接节新增 dentate-gyrus/mossy-cells-dentate/fear-generalization；related/key_sources/source_articles 字段对应更新
+
+### 图谱更新
+
+- 节点：251 → 253（+2）
+- 边：1465 → 1479（+14）
+- 新节点：dentate-gyrus（systems/region/established/high）、mossy-cells-dentate（neurons/structure/mainstream/medium）
+- 主要新边：dentate-gyrus ↔ hippocampal-circuit/pattern-separation/pattern-completion/entorhinal-cortex/adult-neurogenesis/fear-generalization/mossy-cells-dentate；mossy-cells-dentate ↔ dentate-gyrus/pattern-separation/pv-interneurons/fear-generalization/hippocampal-circuit/adult-neurogenesis
+
+### 新增开放问题（5 个）
+
+- Q-dg-sparse-01（中优先级）：颗粒细胞激活率在不同任务难度和行为状态（探索/奔跑/睡眠）下如何动态变化？2–5% 是固定值吗？
+- Q-dg-mc-net-effect（高优先级）：苔藓细胞对颗粒细胞的净效果（抑制 vs 兴奋）是否在不同神经调质状态（ACh/NE/DA）下动态反转？
+- Q-dg-human-imaging（中优先级）：7T fMRI 能否可靠区分人类 DG 和 CA3 的激活（两者极薄且紧邻）？
+- Q-mc-state-dependent（中优先级）：不同行为状态（探索/静止/NREM/REM）下苔藓细胞放电模式如何变化？
+- Q-mc-vglut3-circuit（中优先级）：Vargish 2025 预印本 VGluT3+ 元抑制回路能否在独立实验室和人类组织中复现？其认知功能意义是什么？
+
+### 无矛盾登记
+
+- 苔藓细胞净效果为抑制的证据强度为中-高（啮齿类消融实验），但状态依赖性尚不清楚（Q-dg-mc-net-effect），记录于 mossy-cells-dentate 页面置信度：中 字段
+- Vargish 2025 为预印本，记录于 mossy-cells-dentate 证据表置信度：新兴（待验证）
+
+---
+
 ## 2026-08-26 · 文章 #124 · PTSD 中的记忆囚笼：当杏仁核、海马与 vmPFC 的三角联盟失守
 
 **核心主题**：PTSD 的神经生物学。三节点三角失调模型：(1) 杏仁核（BLA/CeA）过度激活——创伤后 NE+GC 协同增强 BLA-LTP，杏仁核持续过度响应，与症状严重程度正相关（Shin 2006, PMID:16891563）；(2) vmPFC 沉默——消退刹车失效，消退记忆本身存储于 IL/vmPFC，无法提取"此处安全"（Milad 2009 fMRI 直接证据, PMID:19748076）；(3) 海马萎缩+情景化失败——苔藓细胞（mossy cells）受损→颗粒细胞去抑制→情景集合重叠→模式分离失败→恐惧泛化（Jeong 2024，Xu 2025 综述）。新兴发现：外侧背侧缝核（LDRn）5-HT 神经元在急性应激后从共释放谷氨酸切换为共释放 GABA，同一改变在 PTSD 死后人脑中观察到（Li et al. 2024）。治疗靶点：消退稳定化（PE/暴露+DCS/睡眠巩固）vs 再巩固编辑（普萘洛尔/再巩固窗口消退/MDMA）。Yi 2026（PMID:41663712）提出多靶点整合框架。

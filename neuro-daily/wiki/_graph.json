@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "node_count": 251,
   "edge_count": 1465,
   "edge_types": [
@@ -2301,6 +2301,24 @@
       "source_articles": [
         "2026-08-27-stress-hippocampal-neurogenesis-hpa-gc"
       ]
+    },
+    {
+      "id": "dentate-gyrus",
+      "title": "齿状回",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/dentate-gyrus.md"
+    },
+    {
+      "id": "mossy-cells-dentate",
+      "title": "苔藓细胞（齿状回）",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/neurons/mossy-cells-dentate.md"
     }
   ],
   "edges": [
@@ -10517,6 +10535,76 @@
       "to": "sgk3-autophagic-nsc-death",
       "type": "related",
       "note": "CORT 通过 GR→SGK3 驱动 NSC 自噬性死亡，是 HPA 轴抑制 AHN 的分子执行机制之一"
+    },
+    {
+      "from": "dentate-gyrus",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "dentate-gyrus",
+      "to": "pattern-separation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "dentate-gyrus",
+      "to": "pattern-completion",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "dentate-gyrus",
+      "to": "entorhinal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "dentate-gyrus",
+      "to": "place-cells",
+      "type": "related"
+    },
+    {
+      "from": "dentate-gyrus",
+      "to": "adult-neurogenesis",
+      "type": "related"
+    },
+    {
+      "from": "dentate-gyrus",
+      "to": "fear-generalization",
+      "type": "related"
+    },
+    {
+      "from": "mossy-cells-dentate",
+      "to": "dentate-gyrus",
+      "type": "part-of"
+    },
+    {
+      "from": "mossy-cells-dentate",
+      "to": "pattern-separation",
+      "type": "supports"
+    },
+    {
+      "from": "mossy-cells-dentate",
+      "to": "pv-interneurons",
+      "type": "regulates"
+    },
+    {
+      "from": "mossy-cells-dentate",
+      "to": "fear-generalization",
+      "type": "related"
+    },
+    {
+      "from": "mossy-cells-dentate",
+      "to": "hippocampal-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "pattern-separation",
+      "to": "mossy-cells-dentate",
+      "type": "related"
+    },
+    {
+      "from": "pattern-separation",
+      "to": "dentate-gyrus",
+      "type": "related"
     }
   ],
   "dangling_references": [

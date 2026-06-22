@@ -1,0 +1,89 @@
+# 运行日志 · 2026-08-28
+
+**运行时间**：2026-08-28（两会话接续执行，因上下文压缩中断后恢复）
+**文章编号**：#126
+**文章标题**：稀疏奇迹：齿状回如何以 5% 的激活率撑起大脑的记忆分辨
+**文章文件**：neuro-daily/articles/2026-08-28-dentate-gyrus-sparse-coding-pattern-separation.md
+
+---
+
+## 工作流执行状态
+
+### A · 读取状态文件 ✅
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md
+- 读取 topic_ledger.json（上期：文章 #125，2026-08-27）
+- 读取 unresolved_questions.md（最后更新：2026-08-26）
+- 读取 _graph.json（251 节点，1465 边）
+- 读取 index.md（主题页数：247+2 待建）
+
+### B · 主题选择 ✅
+- 选题依据：前 5 篇聚焦于宏观认知（dACC/dlPFC/vmPFC/sgACC）和疾病（PTSD、应激-神经发生）；需要回归微回路/细胞/突触层
+- 指向 Q-fear-gen-01（苔藓细胞机制）和更早的 pattern-separation 页面悬空的 dentate-gyrus 引用
+- 决定：齿状回稀疏编码 + 苔藓细胞悖论 + 维度框架
+
+### C · 研究 + 写作 ✅
+- PubMed E-utilities 检索：6 条查询，45 篇候选，13 篇采纳
+- PMC HTML 被 reCAPTCHA 阻断（pmc.ncbi.nlm.nih.gov），改用 E-utilities efetch 获取摘要 + BioC API
+- 5 篇完全开放获取（PMC5077296, PMC3834622, PMC4792723, PMC6724741, Frontiers open）
+- 6 篇仅摘要可读（PMID:28132828, 23259953, 30790539, 21788086, 35221956, 23407806）
+- 1 篇预印本（PMID:40672329，bioRxiv，Vargish 2025）
+- 1 篇订阅期刊仅摘要（PMID:16781044，Rolls & Kesner 2006）
+- 文章写作：约 5000 汉字，微回路/细胞/突触层，含 AI 类比（dropout、SAE、k-WTA）
+
+### D · Wiki 固结 ✅
+- 新建 wiki/systems/dentate-gyrus.md（revision_count: 1）
+- 新建 wiki/neurons/mossy-cells-dentate.md（revision_count: 1）
+- 修订 wiki/concepts/pattern-separation.md（rev2→rev3）
+
+### E · 图谱 + 导航 ✅
+- 更新 _graph.json：251→253 节点，1465→1479 边（+14 条边）
+  - 注意：部分旧边使用 source/target 格式（非 from/to），图谱更新脚本已处理两种格式
+- 更新 index.md：
+  - header 行：249 页，253 节点，1479 边
+  - neurons 节：新增 mossy-cells-dentate 条目（hippocampal-circuit 之后）
+  - systems 节：新增 dentate-gyrus 条目（entorhinal-cortex 之后）
+  - concepts 节：更新 pattern-separation 描述
+
+### F · 治理 ✅
+- 更新 CHANGELOG.md（2026-08-28 节置于顶部）
+- 更新 topic_ledger.json（总文章数：125→126，新增 #126 条目）
+- 更新 unresolved_questions.md（新增 5 个问题，最后更新：2026-08-28）
+- 更新 source_registry.json（新增 13 条来源，最后更新：2026-08-28）
+- 更新 monthly_synthesis.md（更新月度列表，追加 2026-08-28 条目）
+
+### G · 提交 + 推送 ✅
+- 见 git log 记录
+
+### H · 自检 ✅（见下）
+
+---
+
+## 自检结果
+
+### 来源诚信
+- 无 Sci-Hub，无盗版 PDF，无付费墙绕过
+- PMC HTML 被 reCAPTCHA 阻断：改用 E-utilities efetch 获取摘要（合规）
+- 预印本（Vargish 2025）明确标注"预印本，尚未经过同行评审"
+- 所有 PMID 均经 E-utilities 验证为真实存在
+
+### 知识准确性
+- 苔藓细胞净效果为抑制：中-高置信度（啮齿类消融实验，PMID:23259953）
+- 2–5% 颗粒细胞激活：高置信度（juxtacellular 体内直接验证，PMC5077296）
+- 维度框架：中置信度（理论框架，实验验证有限，PMID:30790539）
+- VGluT3+ 元抑制：新兴（预印本，单实验室，PMID:40672329）
+
+### 无矛盾登记
+- 苔藓细胞净效果的状态依赖性（不同神经调质条件）存在不确定性 → 记录为 Q-dg-mc-net-effect
+- Vargish 2025 预印本状态 → 记录于 mossy-cells-dentate 证据表置信度字段
+
+### 错误修正
+- GoodSmith 2017 纠正了颗粒细胞/苔藓细胞的系统性历史误鉴定 → 明确在文章和 wiki 中标注
+
+---
+
+## 技术注记
+
+- 系统日期：2026-06-22（stale clock），实际使用序列日期 2026-08-28
+- git pull --rebase 用于同步远程
+- _graph.json 更新：旧边格式混用（from/to vs source/target），Python 脚本以 edge_key() 函数兼容两种格式
+- 两会话接续：第一会话完成写作、wiki 创建/修订、图谱更新、index.md header+pattern-separation 更新；第二会话（本次）完成 index.md neurons/systems 条目新增、CHANGELOG、状态文件更新、提交推送

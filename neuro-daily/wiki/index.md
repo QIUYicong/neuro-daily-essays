@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-27（第125篇·应激如何重塑海马新生神经元·HPA轴-SGK3/TRP53自噬路径-FKBP51遗传门控+AHN-HPA双向反馈环）· 主题页总数：**247**（新建2页：concepts/sgk3-autophagic-nsc-death、concepts/fkbp51；修订3页：concepts/adult-neurogenesis rev2→rev3、concepts/glucocorticoid-stress-memory rev1→rev2、systems/hpa-axis rev1→rev2；图谱251节点/1465边）
+> 最后更新：2026-08-28（第126篇·齿状回稀疏编码与模式分离·苔藓细胞悖论·维度框架）· 主题页总数：**249**（新建2页：systems/dentate-gyrus、neurons/mossy-cells-dentate；修订1页：concepts/pattern-separation rev2→rev3；图谱253节点/1479边）
 
 ---
 
@@ -23,6 +23,7 @@
 - 🟢 [锥体神经元](neurons/pyramidal-neuron.md) — 皮层主体兴奋性神经元，双树突系统是树突计算和前馈/反馈整合的物理基础
 - 🟢 [场所细胞](neurons/place-cell.md) — 海马 CA1/CA3 的空间位置编码器，通过 BTSP 单次写入场所场，构成大脑认知地图（修订4次）
 - 🟢 [海马回路](neurons/hippocampal-circuit.md) — DG（模式分离）→ CA3（模式补全）→ CA1（整合输出）的三突触回路与并行穿孔通路；AD最早受损的回路（修订6次）
+- 🔵 [苔藓细胞（齿状回）](neurons/mossy-cells-dentate.md) — 门区大型兴奋性细胞，净效果为通过招募篮状细胞间接抑制颗粒细胞（苔藓细胞悖论）；Jinde 2012 消融实验：缺失→颗粒细胞过兴奋→模式分离失败；GoodSmith 2017：多位置场/高放电率（对比颗粒细胞单场极低频）；Vargish 2025 预印本：VGluT3+ 元抑制回路 **[NEW 2026-08-28]**
 - 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，模块化组织（1.4:1间距比），为场所细胞提供坐标框架；人类fMRI六边形信号证实（修订2次）
 - 🟢 [头向细胞](neurons/head-direction-cells.md) — 对头部方向选择性放电的神经元，构成大脑方位罗盘；环形吸引子网络生成；PoS/ADN/LMN/RSC回路 **[NEW 2026-07-27]**
 - 🟢 [边界细胞](neurons/border-cells.md) — MEC/下托中对环境边界距离/方向编码的神经元，为路径积分提供空间锚点防止误差累积 **[NEW 2026-07-27]**
@@ -54,7 +55,7 @@
 - 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + **脊髓中枢敏化触发器（wind-up/慢性痛 LTP-like机制，修订rev6 2026-08-02）**（修订6次）
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础（修订8次）
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
-- 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；Sahay 2011成人神经发生因果改善分离 **[NEW 2026-06-24]**
+- 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑；皮层拓扑地图的经验依赖重组（Merzenich 1983–1993）是其在全脑图谱尺度的直接证明 **[修订 rev6 2026-07-29]**
@@ -231,6 +232,7 @@
 - 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础；**rev2新增**：嗅球→LEC→海马通路及梨状皮层→EC→海马三突触回路（修订2次）
+- 🟢 [齿状回](systems/dentate-gyrus.md) — 海马三突触回路第一站；EC → DG 5–10倍扩张（~20–30万→~100–200万颗粒细胞）；约 2–5% 颗粒细胞同时激活（极端稀疏编码）；多层 GABA 能抑制网络（篮状/HIPP/MOPP）主动雕刻稀疏性；苔藓细胞反馈抑制机制；成体神经发生场所；模式分离的主要神经基底 **[NEW 2026-08-28]**
 - 🟢 [嗅球（主嗅觉球）](systems/olfactory-bulb.md) — 一受体一小球规则将OR激活映射为拓扑图；僧帽/簇状细胞经LOT直接投射至梨状皮层、杏仁核、内嗅皮层（无视丘中继，所有感觉系统唯一）；颗粒细胞树突-树突双向突触实现侧向抑制和对比度增强；β/γ振荡与梨状皮层同步 **[NEW 2026-07-26]**
 - 🟢 [听觉皮层](systems/auditory-cortex.md) — 核心（A1+R，Heschl回V形镜像）-带状-旁带状三级层级；11张音调拓扑场图；腹侧"What"流（声音身份）+ 背侧"Where/How"流（空间/运动）；STG群体响应编码被注意者谱时特征（鸡尾酒会效应）；pSTG STRF重建语音（词语精确率0.89） **[NEW 2026-07-28]**
 - 🟢 [耳蜗](systems/cochlea.md) — 基底膜行波实现频率-位置地点编码（cochleotopic map）；外毛细胞 Prestin 耳蜗放大器（+40–50 dB，Q因子×100）；内毛细胞 tip links / TMC1-TMC2 / Ca_v1.3 / ribbon synapse 机械-电换能级联；是听觉通路所有拓扑图的物理起点 **[NEW 2026-07-28]**
