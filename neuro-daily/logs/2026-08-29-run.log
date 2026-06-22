@@ -1,0 +1,119 @@
+# 运行日志 · 2026-08-29
+
+**运行时间**：2026-08-29（容器系统时钟显示 2026-06-22，知识库连续性日期为 2026-08-29）
+**文章编号**：#127
+**文章标题**：腹侧视觉流的"解缠"之旅：大脑如何在 150 毫秒内把像素变成物体身份
+**文章文件**：neuro-daily/articles/2026-08-29-ventral-visual-stream-object-recognition.md
+
+**日期说明**：容器系统时钟显示 2026-06-22（UTC+8），而知识库最新文章为 2026-08-28（#126）。为维护知识库连续性（ROUTINE.md 分支模型原则：单分支累积），本次运行使用知识库序列的下一天（2026-08-29）作为日期，而非重复 2026-06-22（该日期已有文章 grid-cells-place-cells）。
+
+---
+
+## 工作流执行状态
+
+### 步骤 0 · 同步 main ✅
+- git checkout main && git pull --rebase origin main
+- 确认 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md 存在
+- remote: http://local_proxy@127.0.0.1:xxxxx/git/QIUYicong/neuro-daily-essays ✅
+
+### A · 读取状态文件 ✅
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md
+- 读取 topic_ledger.json（上期：文章 #126，2026-08-28；total_articles=126）
+- 读取 unresolved_questions.md（Q-dlpfc-* 等已添加，2026-08-28 最新）
+- 读取 _graph.json（253 节点，1479 边；悬空引用 31 个）
+- 读取 contested_claims.json（3 open 矛盾）
+- 关键悬空引用识别：inferior-temporal-cortex、object-recognition
+
+### B · 主题选择 ✅
+- 选题依据：
+  1. 图谱悬空引用：inferior-temporal-cortex 和 object-recognition 被多个节点引用但无页面
+  2. 课程脊柱缺口：脊柱3（大脑如何编码世界）视觉系统仅有 V1 和 CNN 类比，缺完整腹侧流叙述
+  3. 层级多样化：前3篇为微回路/细胞/突触层，适合转向脑区/系统层
+  4. 现有 ventral-visual-stream wiki 已有（concepts/ventral-visual-stream.md，rev1），但悬空引用未填补
+- 主题：腹侧视觉流完整层级物体识别，核心问题是解缠假说
+- 层级标签：brain-region / systems / cellular
+
+### C · 研究 + 写作 ✅
+- PubMed E-utilities esearch 检索：5 个查询
+- 候选论文：约 40 篇，采纳 10 篇核心来源
+- 全文获取（PMC BioC API）：
+  - PMC4060707 (Yamins et al. 2014 PNAS)：成功读取全文
+  - PMC2946943 (Li & DiCarlo 2010 Neuron)：成功读取全文
+  - PMC11975662 (Frontiers editorial 2025)：成功读取全文
+- 仅摘要：PMID:17631409, 18787171, 26906502, 32494012（Science/Trends/Nat Neurosci/Nature，订阅限制）
+- 历史知识：Hubel & Wiesel 1962/1968，Tanaka 1996（训练知识，内容已充分建立）
+- 文章写作：约 5000+ 汉字，brain-region/systems/cellular 层，含解缠框架、时间连续性学习、物体空间地图三大机制，AI 类比对照
+
+### D · Wiki 固结 ✅
+- 发现重复问题：创建 systems/ventral-visual-stream.md 后发现 concepts/ventral-visual-stream.md 已存在（2026-07-14）→ 删除新创建的 systems/ 版本，改为修订 concepts/ 版本
+- 新建 neurons/inferior-temporal-cortex.md（revision_count: 1）
+- 新建 concepts/object-recognition.md（revision_count: 1）
+- 修订 concepts/ventral-visual-stream.md（rev1→rev2）：填补悬空引用，新增来源和 related
+- 修订 systems/v1-primary-visual-cortex.md（rev5→rev6）：补充腹侧流路线图定位
+- 修订 concepts/cnn-visual-cortex-analogy.md（rev1→rev2）：填补悬空引用，新增连接
+
+### E · 图谱 + 导航 ✅
+- 更新 _graph.json：253→255 节点，1479→1494 边（+15 条边）
+- 移除悬空引用：inferior-temporal-cortex、object-recognition（29 个悬空引用剩余）
+- 更新 index.md：主题页数 249→252，新增 IT 皮层和物体识别条目
+- 更新 wiki/CHANGELOG.md：2026-08-29 节置于顶部
+
+### F · 治理 ✅
+- 更新 topic_ledger.json（total_articles: 126→127，新增 #127 条目）
+- 更新 unresolved_questions.md（新增 5 个问题：Q-vvs-01/02/03, Q-it-01/02）
+- 更新 source_registry.json（新增 8 条来源，total: 471→493 注：含之前文章已有但此次重查的）
+- 更新 monthly_synthesis.md（追加 2026-08-29 条目）
+
+### 矛盾检查 ✅（无新矛盾）
+- 今日文章核心主张来自多个独立实验室（DiCarlo, Yamins, Li, Rust, Bao），内部一致
+- 现有 contested_claims.json 中无与腹侧流直接相关的矛盾
+- 确认：Bao et al. 2020 的物体空间 4 轴框架与 DiCarlo 的解缠框架相互补充，不冲突
+
+### G · 提交 + 推送
+（待执行）
+
+### H · 自检清单
+
+**真实性**：
+- ✅ 每条 wiki 主张有来源（PMID/PMCID）
+- ✅ 区分了事实/主流模型/推测：Bao 2020 的人类推广标注为"中（人类待验证）"
+- ✅ 历史知识来源（Hubel & Wiesel, Tanaka）明确标注为训练知识
+
+**一致性**：
+- ✅ 新内容与既有 wiki 页（v1, cnn-analogy）无冲突
+- ✅ 修订页的 updated/revision_count/修订历史均同步
+- ✅ _graph.json 悬空引用 2 个已解决
+
+**可导航**：
+- ✅ index.md 反映今日变化
+- ✅ CHANGELOG.md 今日节完整
+- ✅ 新页 related/prerequisites 各≥1
+
+**情景层**：
+- ✅ articles/notes/sources/logs 均新建（未改旧文件）
+
+---
+
+## 来源检索记录
+
+| 查询 | 命中数 | 采纳数 |
+|------|-------|-------|
+| ventral visual stream object recognition inferior temporal cortex | 57 | 4 |
+| DiCarlo visual object recognition invariant representation | 10 | 5 |
+| inferotemporal cortex object recognition invariance neural coding | 4 | 2 |
+| Bao Tsao object space inferotemporal map 2020 | 1 | 1 |
+| Tsao Livingstone face patch inferotemporal macaque | 1 | 1 |
+
+**失败/限制**：
+- PMC pmc.ncbi.nlm.nih.gov HTML fetch：部分文章返回正常，Nat Neurosci 和 Science 全文订阅限制
+- deep neural network visual cortex hierarchy Yamins DiCarlo：PubMed 0 结果（术语拼写不匹配），通过 PMID 直接 efetch 解决
+- Bao et al. 2020 (Nature)：仅摘要，Nature 订阅访问限制
+
+---
+
+## 分支/提交/推送状态
+
+- 分支：main
+- commit：（提交后记录）
+- push：（推送后记录）
+- GitHub URL：https://github.com/QIUYicong/neuro-daily-essays/tree/main

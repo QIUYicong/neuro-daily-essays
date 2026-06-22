@@ -3536,3 +3536,38 @@
 - **问题**：FKBP51 抑制（SAFit2）产生应激弹性行为，但不改变体内 HPA 激素水平（CORT 和 ACTH 在 CSDS 后无差异，PMID:36104438）。这令人困惑：如果 FKBP51 的主要功能是抑制 GR，那抑制 FKBP51 应该提升 GR 灵敏度→增强 HPA 负反馈→CORT 恢复更快。实际上激素水平无变化，暗示 SAFit2 的效果可能主要通过 FKBP51/HSP90 与非 GR 靶点（Akt/PI3K、GSK-3β）的互动介导。两种机制的相对贡献是什么？如何区分？GR 特异性 FKBP51 抑制（只阻断 FKBP51-GR 互动而不影响 FKBP51-HSP90 其他底物）是否能重现行为效果？
 - **关键实验**：(1) GR 特异性 FKBP51 抑制剂（基于 GR-FKBP51 复合体晶体结构设计）vs SAFit2 行为/AHN 比较；(2) 在 GR 敲减背景下测试 SAFit2 效果
 - **当前证据状态**：SAFit2 机制（非 GR 路径假说）：推测性；关键实验缺失
+
+---
+
+## 2026-08-29 新增（来自"腹侧视觉流的解缠之旅" 文章 #127）
+
+### Q-vvs-01（高优先级）：循环反馈在困难视觉任务中的精确计算角色
+
+- **关联 wiki**：[[ventral-visual-stream]]、[[inferior-temporal-cortex]]、[[predictive-coding]]
+- **来源文章**：2026-08-29-ventral-visual-stream-object-recognition
+- **问题**：Kar et al. 2019 发现困难图像（遮挡/杂乱背景）的识别需要约 30ms 额外循环处理，且纯前馈 CNN 在这些图像上的表现显著下降。但"循环处理"的计算内容尚不清楚：(a) 是预测编码框架中 IT→V4→V1 的预测信号修正（Rao & Ballard 1999 框架）；(b) 是 IT 皮层内部吸引子动力学的稳定化（凌乱背景下吸引子收敛需要更多时间）；(c) 是前额叶→IT 的目标/语境反馈（top-down object priors）；(d) 还是三者的某种组合？不同机制有不同的神经预测：(a) 预测误差应在 V1/V2 可测；(b) IT 单细胞活动应随时间向稳态吸引子收敛；(c) 应在 PFC 失活时特异性损害困难图像识别。
+- **关键实验**：(1) 困难/容易图像分类 + 光遗传学特异性阻断 IT→V4 反馈（猕猴）；(2) IT 单细胞时间动力学的吸引子分析（前 200ms 轨迹是否收敛）；(3) 预测编码框架测试：V1 激活是否在困难图像上比容易图像更持久
+- **当前证据状态**：现象确定（Kar 2019）；机制：推测性
+
+### Q-vvs-02（高优先级）：IT 皮层不变性学习的监督信号来自何处？
+
+- **关联 wiki**：[[inferior-temporal-cortex]]、[[object-recognition]]、[[cnn-visual-cortex-analogy]]
+- **来源文章**：2026-08-29-ventral-visual-stream-object-recognition
+- **问题**：Khaligh-Razavi & Kriegeskorte（2014，PMID:25375136）发现监督训练的 CNN 比无监督 CNN 更好地预测 IT 皮层活动。这暗示 IT 的表征格式受到类似"类别标签"的训练信号影响。但大脑没有 ImageNet 标签。可能的监督信号来源：(a) 行为结果/奖励（腹侧流与基底节/OFC 的连接）；(b) 语言标签（人类特有，但非人灵长类 IT 也有类似结构）；(c) 运动结果（操纵物体后的本体感觉确认）；(d) Li & DiCarlo 的时间连续性（无监督）是否足够，只是 Khaligh-Razavi 的比较设置有问题？
+- **关键实验**：啮齿类 IT（鼠颞叶皮层）类比研究：在奖励/无奖励条件下训练物体识别，比较 IT 活动格式的变化
+- **当前证据状态**：现象确立（Khaligh-Razavi 2014）；监督信号来源：推测性
+
+### Q-it-01（高优先级）：人类 IT 皮层的物体空间组织是否与猕猴 4 轴框架对应？
+
+- **关联 wiki**：[[inferior-temporal-cortex]]、[[ventral-visual-stream]]
+- **来源文章**：2026-08-29-ventral-visual-stream-object-recognition
+- **问题**：Bao et al. 2020（PMID:32494012）在猕猴中发现 IT 皮层的低维 4 轴物体空间组织。人类 IT 的对应结构未直接验证。已知的人类 IT 功能特化区（FFA 面孔区、VWFA 字形区、PPA 场景区、EBA 身体区）与猕猴 4 轴框架是否对应？语言习得是否重新组织了人类 IT 的部分区域（VWFA 是文化新近演化，猕猴没有）？7T fMRI 能否在人类 IT 中鉴别类似的低维坐标轴？
+- **关键实验**：(1) 使用相同物体刺激集的猕猴-人类平行 fMRI 实验（Kriegeskorte 类型实验）；(2) 婴儿/儿童 IT 发育追踪：VWFA 等特化区是如何随语言经验形成的？
+- **当前证据状态**：猕猴：高；人类功能区类比：中（fMRI RDM 比较）；直接4轴验证人类：低
+
+### Q-it-02（中优先级）：IT 皮层重复抑制（repetition suppression）机制与功能
+
+- **关联 wiki**：[[inferior-temporal-cortex]]
+- **来源文章**：2026-08-29-ventral-visual-stream-object-recognition
+- **问题**：IT 皮层神经元对重复呈现的刺激响应减弱（repetition suppression / RS）是 IT 最普遍的特性之一（Shimizu 2024 确认为 IT 基本特性）。RS 的功能和机制有多种解释：(a) 适应/疲劳（简单降低敏感度）；(b) 预测编码：重复刺激产生更准确的预测→误差信号减小→响应降低；(c) 注意资源释放（熟悉刺激不需要更多处理）；(d) 工作记忆比较：当前输入与近期记忆进行匹配→匹配则抑制。不同机制有不同的时间动力学预测。
+- **当前证据状态**：现象确立（高）；机制解释：多种竞争（低确定性）

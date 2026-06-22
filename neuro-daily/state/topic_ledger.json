@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-28",
-  "total_articles": 126,
+  "last_updated": "2026-08-29",
+  "total_articles": 127,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7880,6 +7880,71 @@
         "PMID:23407806 (Jinde 2013, Front Neural Circuits, open)",
         "PMID:40672329 (Vargish 2025, bioRxiv, preprint)"
       ]
+    },
+    {
+      "date": "2026-08-29",
+      "article_number": 127,
+      "title": "腹侧视觉流的解缠之旅：大脑如何在 150 毫秒内把像素变成物体身份",
+      "slug": "ventral-visual-stream-object-recognition",
+      "core_question": "腹侧视觉通路如何将视网膜像素流逐层转换为对物体身份的不变表征？",
+      "layer": [
+        "brain-region",
+        "systems",
+        "cellular"
+      ],
+      "curriculum_track": "课程脏柳3（大脑如何编码世界：视觉层级）+ 脏柳12（人脑与AI比较：CNN类比）",
+      "topic_tags": [
+        "ventral visual stream V1 V2 V4 IT cortex",
+        "object recognition invariance selectivity",
+        "untangling hypothesis DiCarlo Cox 2007",
+        "inferior temporal cortex IT TEO TE",
+        "temporal contiguity learning unsupervised",
+        "Yamins DiCarlo performance optimized CNN",
+        "Bao Tsao object space map 2020",
+        "linear separability population code",
+        "core object recognition 150ms feedforward"
+      ],
+      "main_sources": [
+        "PMID:17631409 (DiCarlo & Cox 2007, Trends Cogn Sci, abstract)",
+        "PMID:18787171 (Li & DiCarlo 2008, Science, abstract)",
+        "PMID:20869601 / PMC2946943 (Li & DiCarlo 2010, Neuron, full text)",
+        "PMID:22836252 / PMC3307055 (Rust & DiCarlo 2012, J Neurosci, full text)",
+        "PMID:24812127 / PMC4060707 (Yamins et al. 2014, PNAS, full text)",
+        "PMID:26906502 (Yamins & DiCarlo 2016, Nat Neurosci, abstract)",
+        "PMID:32494012 (Bao et al. 2020, Nature, abstract)",
+        "PMID:40200940 / PMC11975662 (Frontiers editorial 2025, full text)"
+      ],
+      "unresolved_questions": [
+        "Q-vvs-01: recurrent feedback in hard image recognition",
+        "Q-vvs-02: supervised signal in brain for IT representation",
+        "Q-vvs-03: human IT 4-axis object space validation",
+        "Q-it-01: human vs macaque IT comparative organization",
+        "Q-it-02: IT repetition suppression mechanism"
+      ],
+      "next_suggested_topics": [
+        "IT to entorhinal to hippocampus: object identity into episodic memory",
+        "medium-spiny-neuron dangling reference fill",
+        "recurrent-network + neural-population-coding dangling reference fill",
+        "auditory cortex or cerebellar connectome (diversify from visual)"
+      ],
+      "wiki_pages_created": [
+        "neurons/inferior-temporal-cortex",
+        "concepts/object-recognition"
+      ],
+      "wiki_pages_revised": [
+        "concepts/ventral-visual-stream",
+        "systems/v1-primary-visual-cortex",
+        "concepts/cnn-visual-cortex-analogy"
+      ],
+      "dangling_refs_resolved": [
+        "inferior-temporal-cortex",
+        "object-recognition"
+      ],
+      "layer_coverage": [
+        "brain-region",
+        "systems",
+        "cellular"
+      ]
     }
   ],
   "layer_coverage_recent": {
@@ -7907,7 +7972,8 @@
       "2026-06-12",
       "2026-06-18",
       "2026-07-03",
-      "2026-07-26"
+      "2026-07-26",
+      "2026-08-29"
     ],
     "synaptic": [
       "2026-05-24",
@@ -7980,10 +8046,14 @@
     ],
     "systems": [
       "2026-06-11",
-      "2026-06-12"
+      "2026-06-12",
+      "2026-08-29"
     ],
     "whole-brain-network": [
       "2026-06-18"
+    ],
+    "brain-region": [
+      "2026-08-29"
     ]
   },
   "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",

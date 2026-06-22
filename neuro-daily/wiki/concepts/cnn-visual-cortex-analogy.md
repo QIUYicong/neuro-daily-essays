@@ -6,8 +6,8 @@ type: theory
 status: mainstream
 confidence: high
 created: 2026-07-14
-updated: 2026-07-14
-revision_count: 1
+updated: 2026-08-29
+revision_count: 2
 dimensions: [brain-region, cognition, methods]
 related: [ventral-visual-stream, v1-primary-visual-cortex, predictive-coding, td-learning, free-energy-principle, variational-autoencoder, object-recognition]
 prerequisites: [ventral-visual-stream, v1-primary-visual-cortex]
@@ -88,7 +88,9 @@ IT 是形状优先（shape-biased）的：轮廓、三维结构比纹理统计�
 ## 修订历史
 
 - 2026-07-14 · 创建 · 基于《镜中影像：CNN与灵长类视觉皮层层级对应》一文 · 初始置信度：高（基于多个独立实验室的系统性比较）
+- 2026-08-29 · 修订 · 基于《腹侧视觉流的"解缠"之旅》(#127) · 此页此前 related 中的悬空引用 [[ventral-visual-stream]] 已有对应页面创建；new related pages: [[object-recognition]], [[inferior-temporal-cortex]]；object-recognition 页面与 CNN 类比的生物学对应关系（线性可分性=CNN顶层特征空间的线性可分性）进一步明确
 
 ## 来源文章
 
 - [[2026-07-14-cnn-visual-cortex-hierarchy]]
+- [[2026-08-29-ventral-visual-stream-object-recognition]]

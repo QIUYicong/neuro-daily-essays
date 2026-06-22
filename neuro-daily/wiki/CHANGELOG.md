@@ -4,6 +4,41 @@
 
 ---
 
+## 2026-08-29 · 文章 #127 · 腹侧视觉流的"解缠"之旅：大脑如何在 150 毫秒内把像素变成物体身份
+
+**核心主题**：腹侧视觉流（V1→V2→V4→TEO→IT）的层级物体识别计算——解缠假说（DiCarlo & Cox 2007）、无监督时间连续性学习（Li & DiCarlo 2008/2010）、性能优化 CNN 预测 IT 响应（Yamins et al. 2014）、IT 皮层物体空间地图（Bao et al. 2020）。今日填补知识库中 `inferior-temporal-cortex` 和 `object-recognition` 两个长期悬空引用。图谱从 253 节点/1479 边增至 255 节点/1494 边（+15 条有向边）。
+
+### 新建 Wiki 页面（2 个）
+
+- `neurons/inferior-temporal-cortex.md`（颞下皮层/IT皮层）🟢 established · 高置信度 — 物体身份的不变性种群表征；IT 种群线性可分性（Hung 2005, ~90%准确率）；无监督时间连续性学习（Li 2008/2010）；物体空间低维坐标地图（Bao 2020）；IT→内嗅→海马"what"通路；TE 比 TEO 类别学习信号更强（Shimizu 2024）；关键证据表 6 条；Q-it-01/Q-it-02 两个开放问题；key_sources 9 篇
+- `concepts/object-recognition.md`（视觉物体识别）🟢 established · 高置信度 — 不变性-选择性悖论；解缠假说核心计算目标；核心物体识别系统（150ms前馈）；种群几何线性可分性（vs 祖母细胞假说）；时间连续性学习机制；目标驱动框架（r=0.78）；关键证据表 4 条；Q-vvs-01/Q-vvs-02/Q-it-01 指向的开放问题；key_sources 5 篇
+
+### 修订 Wiki 页面（3 个）
+
+- `concepts/ventral-visual-stream.md` rev1→rev2 — 此前悬空的 inferior-temporal-cortex 和 object-recognition related 链接已解决（新页面创建）；新增 key_sources 5 篇（Li & DiCarlo 2010, Yamins & DiCarlo 2016, Bao 2020 等）；related 新增 entorhinal-cortex, hippocampal-circuit, biased-competition；source_articles 更新
+- `systems/v1-primary-visual-cortex.md` rev5→rev6 — ventral-visual-stream 的完整 wiki 页面已创建，V1 在腹侧流层级中的定位（第一站）得到进一步明确；source_articles 追加 2026-08-29
+- `concepts/cnn-visual-cortex-analogy.md` rev1→rev2 — 此前悬空的 ventral-visual-stream related 链接解决（wiki页面已有）；新增 inferior-temporal-cortex 和 object-recognition 的连接；source_articles 追加 2026-08-29
+
+### 图谱与导航
+
+- _graph.json：253→255 节点（+2），1479→1494 边（+15），悬空引用 31→29（移除 inferior-temporal-cortex、object-recognition）
+- index.md：主题页数 249→252，新增 neurons/inferior-temporal-cortex 和 concepts/object-recognition 条目；修订 ventral-visual-stream 条目状态
+
+### 矛盾登记
+
+- 无新矛盾登记（今日文章处理的是层级架构证据，各核心主张来自独立实验室重复验证，无明显冲突）
+
+### 残余悬空引用（需未来填补）
+
+- `inferior-temporal-cortex` ✅ 已填补
+- `object-recognition` ✅ 已填补
+- `medium-spiny-neuron`（被 basal-ganglia, actor-critic-brain, striatal-beat-frequency 引用）
+- `neural-population-coding`（被 population-clock 引用）
+- `recurrent-network`（被 population-clock, attractor-network 引用）
+- `binding-problem`（被 binding-by-synchrony, gamma-oscillations 引用）
+
+---
+
 ## 2026-08-28 · 文章 #126 · 稀疏奇迹：齿状回如何以 5% 的激活率撑起大脑的记忆分辨
 
 **核心主题**：齿状回（DG）的稀疏编码机制与模式分离的细胞/回路实现。三大机制板块：(1) 颗粒细胞内在"沉默偏好"（静息膜电位约 −85 mV、高动作电位阈值、高密度 Kir2.x 通道），加之 5–10 倍解剖学扩张（EC→DG），使 DG 在高维空间中正交化相似输入；(2) 多层 GABA 能中间神经元（篮状细胞前馈/反馈快速抑制、HIPP 细胞树突层"分母滤波"、MOPP 细胞侧向抑制竞争）主动雕刻激活稀疏性；(3) 苔藓细胞悖论：门区大型兴奋性苔藓细胞通过净激励篮状细胞对颗粒细胞产生净抑制效果（Jinde 2012, PMID:23259953），苔藓细胞缺失导致颗粒细胞过兴奋和模式分离失败。维度框架（Cayco-Gajic & Silver 2019, PMID:30790539）：模式分离的关键是表征空间的有效维度，而非单纯稀疏性。GoodSmith 2017（PMID:28132828）纠正了历史错误——颗粒细胞（单场低频）与苔藓细胞（多场高频）的体内放电特性截然不同，文献中长期存在的误识别导致颗粒细胞活动被高估。Vargish 2025（PMID:40672329，预印本）报告 VGluT3+ 中间神经元专门靶向苔藓细胞的"元抑制"回路，进化保守至灵长类。

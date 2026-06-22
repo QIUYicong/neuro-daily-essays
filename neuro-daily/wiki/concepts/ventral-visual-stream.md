@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-14
-updated: 2026-07-14
-revision_count: 1
+updated: 2026-08-29
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [v1-primary-visual-cortex, inferior-temporal-cortex, object-recognition, cnn-visual-cortex-analogy, predictive-coding, dorsal-attention-network]
+related: [v1-primary-visual-cortex, inferior-temporal-cortex, object-recognition, cnn-visual-cortex-analogy, predictive-coding, dorsal-attention-network, entorhinal-cortex, hippocampal-circuit, biased-competition]
 prerequisites: [v1-primary-visual-cortex, action-potential]
 opens_questions: [Q-cnn-vc-01, Q-cnn-vc-02, Q-cnn-vc-03]
-source_articles: [2026-07-14-cnn-visual-cortex-hierarchy]
-key_sources: ["PMID:22325196", "PMID:24812127", "PMCID:PMC4060707", "PMID:25521294", "PMCID:PMC4270441", "PMID:31036945"]
+source_articles: [2026-07-14-cnn-visual-cortex-hierarchy, 2026-08-29-ventral-visual-stream-object-recognition]
+key_sources: ["PMID:22325196", "PMID:24812127", "PMCID:PMC4060707", "PMID:25521294", "PMCID:PMC4270441", "PMID:31036945", "PMID:17631409", "PMID:20869601", "PMCID:PMC2946943", "PMID:32494012", "PMID:26906502"]
 ---
 
 # 腹侧视觉流 (Ventral Visual Stream)
@@ -63,11 +63,14 @@ IT 皮层的一个核心属性是其神经表征可以被简单的线性分类�
 ## 连接
 
 - [[v1-primary-visual-cortex]] — 腹侧流起点，方向/空间频率的前馈提取
-- [[inferior-temporal-cortex]] — 腹侧流终点，物体身份表征（待创建页面）
+- [[inferior-temporal-cortex]] — 腹侧流终点，物体身份表征（2026-08-29 页面已创建）
 - [[cnn-visual-cortex-analogy]] — 腹侧流的计算结构与深度CNN的系统性类比
 - [[predictive-coding]] — 腹侧流中反馈投射的预测编码解释
 - [[dorsal-attention-network]] — 通过反馈调制腹侧流各级的注意力通路
-- [[object-recognition]] — 腹侧流的核心计算目标（待创建页面）
+- [[object-recognition]] — 腹侧流的核心计算目标（2026-08-29 页面已创建）
+- [[entorhinal-cortex]] — 接收IT皮层的"what"输出，传入海马情节记忆系统
+- [[hippocampal-circuit]] — IT→内嗅→海马：物体"what"与空间"where"在CA1的整合
+- [[biased-competition]] — 注意如何在腹侧流中偏置物体竞争（IPS/FEF反馈→V4/IT）
 
 ## 未解问题
 
@@ -77,7 +80,9 @@ IT 皮层的一个核心属性是其神经表征可以被简单的线性分类�
 ## 修订历史
 
 - 2026-07-14 · 创建 · 基于《镜中影像：CNN与灵长类视觉皮层层级对应》一文 · 初始置信度：高
+- 2026-08-29 · 修订 · 基于《腹侧视觉流的"解缠"之旅》(#127) · 此前 related 中的悬空引用 inferior-temporal-cortex 和 object-recognition 已创建对应页面；新增 key_sources（Li & DiCarlo 2010, Yamins & DiCarlo 2016, Bao et al. 2020, DiCarlo & Cox 2007）；related 新增 entorhinal-cortex, hippocampal-circuit, biased-competition；source_articles 更新
 
 ## 来源文章
 
 - [[2026-07-14-cnn-visual-cortex-hierarchy]]
+- [[2026-08-29-ventral-visual-stream-object-recognition]]

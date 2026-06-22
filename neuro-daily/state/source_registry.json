@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28",
+  "last_updated": "2026-08-29",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8437,9 +8437,61 @@
         "dorsal striatum",
         "cognitive flexibility"
       ]
+    },
+    {
+      "id": "PMID:17631409",
+      "article": "2026-08-29-ventral-visual-stream-object-recognition",
+      "type": "abstract_only",
+      "topic": "DiCarlo & Cox 2007 untangling hypothesis"
+    },
+    {
+      "id": "PMID:18787171",
+      "article": "2026-08-29-ventral-visual-stream-object-recognition",
+      "type": "abstract_only",
+      "topic": "Li & DiCarlo 2008 position invariance unsupervised learning"
+    },
+    {
+      "id": "PMCID:PMC2946943",
+      "pmid": "PMID:20869601",
+      "article": "2026-08-29-ventral-visual-stream-object-recognition",
+      "type": "full_text",
+      "topic": "Li & DiCarlo 2010 size invariance temporal contiguity"
+    },
+    {
+      "id": "PMCID:PMC3307055",
+      "pmid": "PMID:22836252",
+      "article": "2026-08-29-ventral-visual-stream-object-recognition",
+      "type": "full_text",
+      "topic": "Rust & DiCarlo 2012 balanced selectivity tolerance V4 IT"
+    },
+    {
+      "id": "PMCID:PMC4060707",
+      "pmid": "PMID:24812127",
+      "article": "2026-08-29-ventral-visual-stream-object-recognition",
+      "type": "full_text",
+      "topic": "Yamins et al 2014 CNN predicts IT V4 neural responses"
+    },
+    {
+      "id": "PMID:26906502",
+      "article": "2026-08-29-ventral-visual-stream-object-recognition",
+      "type": "abstract_only",
+      "topic": "Yamins & DiCarlo 2016 goal-driven deep learning sensory cortex"
+    },
+    {
+      "id": "PMID:32494012",
+      "article": "2026-08-29-ventral-visual-stream-object-recognition",
+      "type": "abstract_only",
+      "topic": "Bao et al 2020 object space map primate inferotemporal cortex"
+    },
+    {
+      "id": "PMCID:PMC11975662",
+      "pmid": "PMID:40200940",
+      "article": "2026-08-29-ventral-visual-stream-object-recognition",
+      "type": "full_text",
+      "topic": "Frontiers 2025 editorial IT cortex visual learning object representation"
     }
   ],
-  "total_sources": 471,
+  "total_sources": 493,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

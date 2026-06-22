@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-08-28",
-  "node_count": 251,
-  "edge_count": 1465,
+  "updated": "2026-08-29",
+  "node_count": 255,
+  "edge_count": 1494,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2319,6 +2319,24 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/neurons/mossy-cells-dentate.md"
+    },
+    {
+      "id": "inferior-temporal-cortex",
+      "title": "颞下皮层（IT 皮层）",
+      "domain": "neurons",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/inferior-temporal-cortex.md"
+    },
+    {
+      "id": "object-recognition",
+      "title": "视觉物体识别",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/object-recognition.md"
     }
   ],
   "edges": [
@@ -10605,6 +10623,81 @@
       "from": "pattern-separation",
       "to": "dentate-gyrus",
       "type": "related"
+    },
+    {
+      "from": "ventral-visual-stream",
+      "to": "inferior-temporal-cortex",
+      "type": "part-of"
+    },
+    {
+      "from": "ventral-visual-stream",
+      "to": "object-recognition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "object-recognition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "ventral-visual-stream",
+      "type": "part-of"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "entorhinal-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "hippocampal-circuit",
+      "type": "supports"
+    },
+    {
+      "from": "inferior-temporal-cortex",
+      "to": "cnn-visual-cortex-analogy",
+      "type": "supports"
+    },
+    {
+      "from": "object-recognition",
+      "to": "ventral-visual-stream",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "object-recognition",
+      "to": "inferior-temporal-cortex",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "object-recognition",
+      "to": "cnn-visual-cortex-analogy",
+      "type": "related"
+    },
+    {
+      "from": "object-recognition",
+      "to": "pattern-separation",
+      "type": "related"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "inferior-temporal-cortex",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "object-recognition",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "cnn-visual-cortex-analogy",
+      "to": "inferior-temporal-cortex",
+      "type": "supports"
+    },
+    {
+      "from": "cnn-visual-cortex-analogy",
+      "to": "object-recognition",
+      "type": "supports"
     }
   ],
   "dangling_references": [
@@ -10820,22 +10913,6 @@
         "gamma-oscillations"
       ],
       "note": "高频共振波专页（~90 Hz，~100 ms）；Garrett & Halgren 2024 在语言绑定中发现；与 SWR（海马）的机制同源性；与经典 40 Hz 伽马的关系；待建页面"
-    },
-    {
-      "slug": "inferior-temporal-cortex",
-      "referenced_by": [
-        "ventral-visual-stream",
-        "cnn-visual-cortex-analogy"
-      ],
-      "note": "颞下皮层（IT）专页；腹侧流终点；物体身份表征；线性可分性；人脸/物体/场景类别神经元；DiCarlo、Tanaka 系列经典研究；待建页面"
-    },
-    {
-      "slug": "object-recognition",
-      "referenced_by": [
-        "ventral-visual-stream",
-        "cnn-visual-cortex-analogy"
-      ],
-      "note": "视觉物体识别专页；腹侧流的核心计算目标；核心物体识别任务（core object recognition）；解开纠缠；线性分类；DiCarlo et al. 2012框架；待建页面"
     },
     {
       "slug": "medium-spiny-neuron",

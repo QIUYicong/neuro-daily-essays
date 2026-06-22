@@ -6,8 +6,8 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-07-14
-revision_count: 5
+updated: 2026-08-29
+revision_count: 6
 dimensions: [brain-region, systems, microcircuit, cellular]
 related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ventral-visual-stream, cnn-visual-cortex-analogy]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
@@ -146,6 +146,7 @@ V1 在腹侧流层级（V1→V4→IT）中对应 CNN 的早期层，而非整个
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 新增"预测编码视角下的 V1"小节；新增感觉运动失配实验（Keller 2012）和环绕抑制预测编码解释；related 新增 predictive-coding, precision-weighting；opens_questions 新增 Q-pc-04；key_sources 新增 PMID:22681686, PMID:10195184, PMID:23177956
 - 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 V4→V1 皮层反馈作为注意调制的必要通道（Debes & Dragoi 2023，PMID:36730414）；related 新增 dorsal-attention-network, biased-competition；key_sources 新增 PMID:36730414
 - 2026-07-14 · 修订 · 基于《镜中影像：CNN与灵长类视觉皮层层级对应》一文 · 新增"CNN第一层的V1类比"小节；related 新增 ventral-visual-stream, cnn-visual-cortex-analogy；key_sources 新增 PMID:24812127, PMCID:PMC4060707
+- 2026-08-29 · 修订 · 基于《腹侧视觉流的"解缠"之旅》(#127) · 腹侧流完整 wiki 页（ventral-visual-stream）已创建，填补此前 related 中的悬空引用；V1 在腹侧流层级中的位置（第一站，方向选择性→向 V2 传递基础特征）进一步明确
 
 ## 来源文章
 
@@ -154,3 +155,4 @@ V1 在腹侧流层级（V1→V4→IT）中对应 CNN 的早期层，而非整个
 - [[2026-06-15-predictive-coding]]
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-07-14-cnn-visual-cortex-hierarchy]]
+- [[2026-08-29-ventral-visual-stream-object-recognition]]
