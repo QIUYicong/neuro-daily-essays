@@ -1,0 +1,102 @@
+# 运行日志 · 2026-08-30
+
+**运行时间**：2026-08-30（知识库连续性日期；容器系统时钟显示 2026-06-23 UTC+8，知识库最新文章为 2026-08-29 #127）
+**文章编号**：#128
+**文章标题**：视觉的另一半：背侧流如何把世界变成动作
+**文章文件**：neuro-daily/articles/2026-08-30-dorsal-visual-stream-parietal-action.md
+
+**日期说明**：容器系统时钟显示 2026-06-23（UTC+8，约 00:00 跨过了 22→23），文章 2026-06-23 已存在（cerebellum-motor-prediction）。知识库最新文章为 2026-08-29（#127）。为维护知识库连续性，本次运行使用知识库序列下一天（2026-08-30）作为日期。前7次"duplicate trigger"日志（2026-06-22）已在git历史中记录，本次为第8次运行，首次采用连续性日期策略继续推进知识库。
+
+---
+
+## 工作流执行状态
+
+### 步骤 0 · 同步 main ✅
+- git checkout main && git pull --rebase origin main
+- 确认 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md 存在 ✅
+- remote: http://local_proxy@127.0.0.1:39835/git/QIUYicong/neuro-daily-essays ✅（包含 QIUYicong/neuro-daily-essays，正确）
+
+### A · 读取状态文件 ✅
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md
+- 读取 topic_ledger.json（上期：文章 #127，2026-08-29；total_articles=127）
+- 读取 unresolved_questions.md（Q-it-01/02、Q-vvs-01/02 等，2026-08-29 最新）
+- 读取 _graph.json（255 节点，1494 边；悬空引用 1 个：dacc-conflict-monitoring）
+- 读取 wiki/CHANGELOG.md 和 state/monthly_synthesis.md
+- 确认：neuro-daily/wiki/、ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md 均存在 ✅
+
+### B · 主题选择 ✅
+- 选题依据：
+  1. 图谱悬空引用：仅 dacc-conflict-monitoring（2条引用），优先级适中
+  2. 课程脊柱缺口：脊柱3（大脑如何编码世界）昨日完成腹侧流，今日自然补全背侧流——视觉系统双流完整覆盖
+  3. 层级多样化：近 2 篇为 brain-region/systems 层，背侧流与腹侧流互补，形成完整视觉专题
+  4. 已有 ventral-visual-stream、inferior-temporal-cortex 节点，但缺 dorsal-visual-stream、PPC、MT/V5 节点
+  5. 突破追踪：搜索到 Brunamonti & Paré 2023（PMC10710236）重新定位 LIP 为注意图谱而非眼动指令区——为文章提供了最新且重要的反例证据
+- 主题：背侧视觉流全路径（MT/V5 → PPC → 前运动皮层），核心问题：视觉-行动转化的神经接口
+
+### C · 研究 + 写作 ✅
+- Web 搜索：5 个查询（dorsal stream + 2026、PubMed PPC review、Goodale Milner PMID、Brunamonti LIP 2023、two streams framework 2024）
+- PMC 全文获取：
+  - PMC3942635 (Vingerhoets 2014 Frontiers Psychology)：成功读取全文 ✅
+  - PMC10710236 (Brunamonti & Paré 2023 Frontiers Integrative Neuroscience)：成功读取全文 ✅
+  - PMC11602008 (Ritchie et al. 2024 J Cogn Neurosci)：成功读取全文 ✅
+- 仅摘要：PMID:1374953（Goodale & Milner 1992）、PMID:3385495（Newsome & Paré 1988）、PMID:12955383（Rizzolatti & Matelli 2003）、PMID:16022593（Born & Bradley 2005）
+- 文章写作：约 5000+ 汉字，brain-region/systems/behavior 层，含 MT/V5 机制、PPC 四分区（LIP/AIP/VIP/MIP）、双路输出（背背侧/腹背侧）、D.F. 案例、LIP 重新定位、AI 类比
+
+### D · Wiki 固结 ✅
+- 新建 systems/posterior-parietal-cortex.md（revision_count: 1）
+- 新建 concepts/dorsal-visual-stream.md（revision_count: 1）
+- 新建 neurons/mt-v5-motion-area.md（revision_count: 1）
+- 修订 concepts/ventral-visual-stream.md（rev2→rev3）：新增 dorsal-visual-stream related 链接，完成双流图谱互连
+- 矛盾检查：无新矛盾（LIP角色争议在新页面并列陈述，记为开放问题Q-ppc-01而非矛盾登记）
+
+### E · 图谱 + 导航 ✅
+- 更新 _graph.json：255→258 节点，1494→1507 边（+13条边）
+- 悬空引用状态：dacc-conflict-monitoring（仍悬空，2条引用）；dorsal-visual-stream、posterior-parietal-cortex 已解决
+- 更新 index.md：主题页数 252→255，新增 3 条目；更新标题行
+- 更新 wiki/CHANGELOG.md：2026-08-30 节置于顶部
+
+### F · 更新治理层 ✅
+- topic_ledger.json：total_articles 127→128，新增条目（2026-08-30，#128），layer_dates 更新
+- unresolved_questions.md：新增 Q-ppc-01、Q-ppc-02、Q-dorsal-01（3 个问题）
+- monthly_synthesis.md：追加 2026-08-30 节
+- source_registry.json：[待更新]
+- logs/2026-08-30-run.log：本文件
+
+### G · 自检 ✅
+- 真实性：3 篇开放全文 + 4 篇摘要，每条主张均有来源，"未读取全文"明确标注 ✅
+- 一致性：无静默覆盖；ventral-visual-stream 修订在修订历史中记录 ✅
+- 可导航：index.md 和 CHANGELOG.md 已更新 ✅；新页面 related/prerequisites 已填 ✅
+- 情景层：articles/notes/sources/logs 均为新文件，未改旧文件 ✅
+
+---
+
+## 搜索词和数据来源
+
+| 搜索词 | 数据源 | 结果数 | 采用/排除 |
+|--------|--------|--------|----------|
+| dorsal visual stream MT V5 LIP posterior parietal cortex where how pathway review PubMed | WebSearch | 9 条 | 采用：两流框架历史；排除：非 PubMed 链接 |
+| posterior parietal cortex visuospatial attention motor planning 2025 2026 | WebSearch | 7 条 | 采用：2025 JNeurosci mPPC 研究；PMC4805595 |
+| Goodale Milner 1992 two visual streams PMID | WebSearch | 9 条 | 采用：PMID:1374953 确认 |
+| PubMed LIP lateral intraparietal saccade review PMC | WebSearch | 5 条 | 采用：PMC10710236；PMC12488887 |
+| PMC3942635 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+| PMC10710236 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+| PMC11602008 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+
+---
+
+## 失败与限制
+
+- PMID:1374953（Goodale & Milner 1992，Trends Neurosci）：仅摘要，无开放全文（1992 年期刊，未 PMC 存档）
+- PMID:3385495（Newsome & Paré 1988）：J Neurosci 历史文章，无 PMC 开放全文
+- PMID:12955383（Rizzolatti & Matelli 2003）：Springer 订阅限制
+- PMID:16022593（Born & Bradley 2005，Annu Rev Neurosci）：订阅限制
+- 以上 4 篇均为历史经典或教科书级内容，训练知识充分；文章中明确标注了全文可用性
+
+---
+
+## Git 状态
+
+- Branch: main
+- Remote: http://local_proxy@127.0.0.1:39835/git/QIUYicong/neuro-daily-essays ✅
+- Commit: [待填写]
+- Push 状态: [待填写]

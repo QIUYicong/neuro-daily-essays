@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-29（第127篇·腹侧视觉流与物体识别·解缠假说·IT皮层物体空间地图）· 主题页总数：**252**（新建2页：neurons/inferior-temporal-cortex、concepts/object-recognition；修订3页：concepts/ventral-visual-stream rev1→rev2、systems/v1-primary-visual-cortex rev5→rev6、concepts/cnn-visual-cortex-analogy rev1→rev2；图谱255节点/1494边）
+> 最后更新：2026-08-30（第128篇·背侧视觉流·MT/V5·后顶叶皮层行动视觉）· 主题页总数：**255**（新建3页：systems/posterior-parietal-cortex、concepts/dorsal-visual-stream、neurons/mt-v5-motion-area；修订1页：concepts/ventral-visual-stream rev2→rev3；图谱258节点/1507边）
 
 ---
 
@@ -25,6 +25,7 @@
 - 🟢 [海马回路](neurons/hippocampal-circuit.md) — DG（模式分离）→ CA3（模式补全）→ CA1（整合输出）的三突触回路与并行穿孔通路；AD最早受损的回路（修订6次）
 - 🔵 [苔藓细胞（齿状回）](neurons/mossy-cells-dentate.md) — 门区大型兴奋性细胞，净效果为通过招募篮状细胞间接抑制颗粒细胞（苔藓细胞悖论）；Jinde 2012 消融实验：缺失→颗粒细胞过兴奋→模式分离失败；GoodSmith 2017：多位置场/高放电率（对比颗粒细胞单场极低频）；Vargish 2025 预印本：VGluT3+ 元抑制回路 **[NEW 2026-08-28]**
 - 🟢 [颞下皮层（IT 皮层）](neurons/inferior-temporal-cortex.md) — 腹侧视觉流终点；物体身份的不变性表征；IT 种群活动线性可分（90%+准确率）；无监督时间连续性学习维持不变性；物体空间低维坐标地图（Bao 2020）**[NEW 2026-08-29]**
+- 🟢 [MT/V5 运动区](neurons/mt-v5-motion-area.md) — 背侧流关键中间站；方向选择性；pattern motion 整合；双目视差细胞；MT损毁→运动感知阈值升高（Newsome 1988）；运动盲（akinetopsia）**[NEW 2026-08-30]**
 - 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，模块化组织（1.4:1间距比），为场所细胞提供坐标框架；人类fMRI六边形信号证实（修订2次）
 - 🟢 [头向细胞](neurons/head-direction-cells.md) — 对头部方向选择性放电的神经元，构成大脑方位罗盘；环形吸引子网络生成；PoS/ADN/LMN/RSC回路 **[NEW 2026-07-27]**
 - 🟢 [边界细胞](neurons/border-cells.md) — MEC/下托中对环境边界距离/方向编码的神经元，为路径积分提供空间锚点防止误差累积 **[NEW 2026-07-27]**
@@ -111,7 +112,8 @@
 - 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口 **[NEW 2026-05-31]**
 - 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；八层分层贝叶斯预测机器架构；五月月报整合后修订 **[修订 2026-05-31]**
 - 🟢 [变分自编码器](concepts/variational-autoencoder.md) — Kingma & Welling 2014的深度生成模型；ELBO（重建误差 + KL散度）目标与弗里斯顿变分自由能数学等价；编码器≈识别模型 $q(z|x)$，解码器≈生成模型 $p(x|z)$；两者都在解同一个贝叶斯推理问题 **[NEW 2026-07-13]**
-- 🟢 [腹侧视觉流](concepts/ventral-visual-stream.md) — V1→V2→V4→IT层级；"解开纠缠"核心计算任务；前馈核心+循环调制；IT线性可分性；困难图像需要额外~30ms循环处理（Kar 2019）**[修订 2026-08-29 rev1→rev2]**
+- 🟢 [腹侧视觉流](concepts/ventral-visual-stream.md) — V1→V2→V4→IT层级；"解开纠缠"核心计算任务；前馈核心+循环调制；IT线性可分性；困难图像需要额外~30ms循环处理（Kar 2019）**[修订 2026-08-30 rev2→rev3]**
+- 🟢 [背侧视觉流](concepts/dorsal-visual-stream.md) — vision-for-action；V1→MT/V5→PPC→前运动皮层；自我中心坐标；D.F.双离解案例；背背侧（reaching）/腹背侧（grasping）双路；Ritchie 2024 branching heterarchy 更新**[NEW 2026-08-30]**
 - 🟢 [视觉物体识别](concepts/object-recognition.md) — 解缠假说的核心计算目标；种群线性可分性（vs 祖母细胞）；无监督时间连续性学习；IT线性可读性（90%+准确率）；目标驱动CNN r=0.78**[NEW 2026-08-29]**
 - 🔵 [CNN–视觉皮层类比](concepts/cnn-visual-cortex-analogy.md) — 目标驱动CNN与视觉皮层层级的系统性类比；性能-IT预测力相关（r=0.78，Yamins 2014）；三个崩溃裂缝：循环连接/形状偏见/对抗样本；课程脊柱12第三篇 **[NEW 2026-07-14]**
 - 🟢 [Transformer 自注意力（Q/K/V 机制）](concepts/transformer-self-attention.md) — Attention(Q,K,V)=softmax(QK^T/√d_k)V；现代Hopfield网络更新规则=单头注意力（Ramsauer 2020）；FEF/IPS→Query，V4/IT→Key/Value；softmax vs 除法归一化的根本差异（Reynolds & Heeger 2009）；6大断裂点（时间动力学/局部赫布/眼动耦合/多头生物对应/归一化形式/循环连接）；课程脊柱12第四篇 **[NEW 2026-07-15]**
@@ -204,6 +206,7 @@
 
 ## motor（运动系统）
 
+- 🟢 [后顶叶皮层（PPC）](systems/posterior-parietal-cortex.md) — 背侧流核心枢纽；LIP（空间显著性图谱，非眼动指令）；AIP（抓握手型预编码，optic ataxia）；VIP（近身空间防御）；MIP（到达计算）；背背侧→PMd/腹背侧→PMv 双路输出**[NEW 2026-08-30]**
 - 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）；**小脑-运动皮层闭环（修订2026-06-23）**
 - 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[NEW 2026-06-23]**
 - 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果，使大脑超越反馈延迟；小脑的主要计算角色；逆向模型对称结构 **[NEW 2026-06-23]**

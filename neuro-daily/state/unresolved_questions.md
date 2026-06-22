@@ -3571,3 +3571,33 @@
 - **来源文章**：2026-08-29-ventral-visual-stream-object-recognition
 - **问题**：IT 皮层神经元对重复呈现的刺激响应减弱（repetition suppression / RS）是 IT 最普遍的特性之一（Shimizu 2024 确认为 IT 基本特性）。RS 的功能和机制有多种解释：(a) 适应/疲劳（简单降低敏感度）；(b) 预测编码：重复刺激产生更准确的预测→误差信号减小→响应降低；(c) 注意资源释放（熟悉刺激不需要更多处理）；(d) 工作记忆比较：当前输入与近期记忆进行匹配→匹配则抑制。不同机制有不同的时间动力学预测。
 - **当前证据状态**：现象确立（高）；机制解释：多种竞争（低确定性）
+
+---
+
+## 2026-08-30 新增问题（文章 #128 · 背侧视觉流与后顶叶皮层）
+
+### Q-ppc-01（高优先级）：IPS 的功能分区是否比背背侧/腹背侧二分更细？
+
+- **关联 wiki**：[[posterior-parietal-cortex]]、[[dorsal-visual-stream]]
+- **来源文章**：2026-08-30-dorsal-visual-stream-parietal-action
+- **问题**：Rizzolatti & Matelli（2003）的背背侧（SPL→PMd）和腹背侧（IPL→PMv）双路框架被广泛引用，但人类神经影像（Vingerhoets 2014）表明 IPS 沿前后轴至少存在 4 个独立激活梯度（pIPS/POJ、mIPS/V6A、aIPS、cIPS），不同任务（reach、grasp、tool use、saccade、near-space defense）激活不同前后位置。目前尚无被广泛接受的人类 IPS 分区图谱标准。
+  - 关键问题：(a) 人类 IPS 是否存在与猕猴 LIP、AIP、VIP、MIP 精确对应的同源区域？(b) 7T fMRI 能否在单被试水平分辨这些子区域？(c) 这些子区域之间的功能边界是离散的（不同计算）还是连续梯度（相同计算的参数变化）？
+  - 关键实验：在同一被试内，用 reach、grasp、reach-to-grasp、anti-saccade、pantomimed-tool-use、peripersonal-defense 六类任务，同时用高空间分辨率（7T fMRI + 皮质表面映射），比较 IPS 内的峰值激活位置，检验峰位置是否系统性不同
+- **当前证据状态**：4 类任务的激活差异：中-高（多项 fMRI）；人类 IPS 统一分区图谱：低（无共识）
+
+### Q-ppc-02（中优先级）：人类顶叶下回（IPL）的演化扩展与工具使用能力
+
+- **关联 wiki**：[[posterior-parietal-cortex]]、[[broca-area]]
+- **来源文章**：2026-08-30-dorsal-visual-stream-parietal-action
+- **问题**：人类 IPL（特别是缘上回 SMG 和角回 AG）相比其他灵长类有显著的演化性扩展。现有证据表明人类 SMG 储存"工具性知识"（如何使用工具的运动程序）。但这种扩展的细胞层面机制不清楚：(a) IPL 是否有人类特有的神经元类型（类似 VEN 在前岛/dACC 的情况）？(b) IPL 的扩展是否与 Broca 区（BA44/45）的语言网络演化联系？（工具使用和语言都涉及等级性动作序列，共享"Merge"运算）(c) 工具使用技能是否在 IPL 留下了可测量的结构可塑性？
+- **当前证据状态**：IPL 演化扩展（解剖比较）：高；IPL 存储工具性知识：中-高（fMRI + 损伤）；IPL 细胞层面特化：极低
+
+### Q-dorsal-01（中优先级）：背侧流的行动视觉是否完全无意识？
+
+- **关联 wiki**：[[dorsal-visual-stream]]、[[posterior-parietal-cortex]]、[[consciousness]]
+- **来源文章**：2026-08-30-dorsal-visual-stream-parietal-action
+- **问题**：Goodale-Milner 框架的一个强预测是：背侧流的行动视觉运行于意识感知之外（D.F. 在没有有意识形状感知的情况下仍能完成抓握）。但 LIP 携带显著性/注意信号，且后顶叶皮层与前额叶有丰富交互，提示背侧流的某些节点可以被意识过程访问和调节。具体问题：
+  - (a) 什么情况下行动视觉会进入意识（意图形成 vs 自动执行）？
+  - (b) LIP 的显著性编码是否对应主观"突显感"（subjective salience）？
+  - (c) 背侧流损伤（顶叶忽视）是否影响意识？还是只影响无意识的空间加工？
+- **当前证据状态**：D.F. 无意识抓握：高；背侧流与意识接口：低-中（主要依靠间接推断）

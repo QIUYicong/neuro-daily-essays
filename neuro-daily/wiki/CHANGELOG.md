@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-08-30 · 文章 #128 · 视觉的另一半：背侧流如何把世界变成动作
+
+**核心主题**：背侧视觉流（V1→MT/V5→PPC→前运动皮层）的行动视觉计算——Goodale-Milner 感知vs行动双流框架、MT/V5 方向选择性与 pattern motion 整合、后顶叶皮层（LIP/AIP/VIP/MIP）的意图地图、LIP 非运动指令区的新证据（Brunamonti 2023）、Rizzolatti 背背侧/腹背侧双路细分。图谱从 255 节点/1494 边增至 258 节点/1507 边（+13 条有向边）。
+
+### 新建 Wiki 页面（3 个）
+
+- `systems/posterior-parietal-cortex.md`（后顶叶皮层/PPC）🟢 established · 高置信度 — LIP 空间显著性图谱（非眼动指令区）；AIP 抓握手型预编码；VIP 近身空间防御；MIP 到达计算；背背侧/腹背侧双路输出；关键证据表 5 条；Q-ppc-01/Q-ppc-02 两个开放问题
+- `concepts/dorsal-visual-stream.md`（背侧视觉流）🟢 established · 高置信度 — 行动视觉（vision-for-action）vs 感知视觉；自我中心坐标核心；D.F.案例双离解；Rizzolatti双路细分；Ritchie 2024 branching heterarchy 框架更新；key_sources 4 篇
+- `neurons/mt-v5-motion-area.md`（MT/V5 运动区）🟢 established · 高置信度 — 方向选择性；pattern motion 整合；双目视差细胞；MT 损毁→运动感知阈值升高（Newsome 1988）；运动盲（akinetopsia）；key_sources 2 篇
+
+### 修订 Wiki 页面（1 个）
+
+- `concepts/ventral-visual-stream.md` rev2→rev3 — related 新增 dorsal-visual-stream（完成双流完整图谱连接）；source_articles 追加 2026-08-30；修订历史追加
+
+### 图谱与导航
+
+- _graph.json：255→258 节点（+3），1494→1507 边（+13），悬空引用减少（dorsal-visual-stream、posterior-parietal-cortex 已建页面）
+- index.md：主题页数更新，新增 systems/posterior-parietal-cortex、concepts/dorsal-visual-stream、neurons/mt-v5-motion-area 条目
+
+### 矛盾登记
+
+- 无新矛盾（LIP 的"注意图谱 vs 运动指令"分歧已在 PPC 页面并列呈现，待后续证据裁决；未降置信度，记入 Q-ppc-01）
+
+---
+
 ## 2026-08-29 · 文章 #127 · 腹侧视觉流的"解缠"之旅：大脑如何在 150 毫秒内把像素变成物体身份
 
 **核心主题**：腹侧视觉流（V1→V2→V4→TEO→IT）的层级物体识别计算——解缠假说（DiCarlo & Cox 2007）、无监督时间连续性学习（Li & DiCarlo 2008/2010）、性能优化 CNN 预测 IT 响应（Yamins et al. 2014）、IT 皮层物体空间地图（Bao et al. 2020）。今日填补知识库中 `inferior-temporal-cortex` 和 `object-recognition` 两个长期悬空引用。图谱从 253 节点/1479 边增至 255 节点/1494 边（+15 条有向边）。

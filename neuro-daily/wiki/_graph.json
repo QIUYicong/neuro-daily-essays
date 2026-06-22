@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-29",
+  "updated": "2026-08-30",
   "node_count": 255,
   "edge_count": 1494,
   "edge_types": [
@@ -2337,6 +2337,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/object-recognition.md"
+    },
+    {
+      "id": "posterior-parietal-cortex",
+      "title": "后顶叶皮层",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/posterior-parietal-cortex.md"
+    },
+    {
+      "id": "dorsal-visual-stream",
+      "title": "背侧视觉流",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/dorsal-visual-stream.md"
+    },
+    {
+      "id": "mt-v5-motion-area",
+      "title": "MT/V5 运动区",
+      "domain": "neurons",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/mt-v5-motion-area.md"
     }
   ],
   "edges": [
@@ -10698,6 +10725,84 @@
       "from": "cnn-visual-cortex-analogy",
       "to": "object-recognition",
       "type": "supports"
+    },
+    {
+      "from": "dorsal-visual-stream",
+      "to": "v1-primary-visual-cortex",
+      "type": "part-of",
+      "note": "背侧流起点，接收M细胞输入"
+    },
+    {
+      "from": "dorsal-visual-stream",
+      "to": "mt-v5-motion-area",
+      "type": "part-of",
+      "note": "MT/V5 是背侧流关键中间站"
+    },
+    {
+      "from": "dorsal-visual-stream",
+      "to": "posterior-parietal-cortex",
+      "type": "part-of",
+      "note": "PPC是背侧流核心处理节点"
+    },
+    {
+      "from": "dorsal-visual-stream",
+      "to": "motor-cortex",
+      "type": "supports",
+      "note": "通过前运动皮层向M1输出行动指令"
+    },
+    {
+      "from": "dorsal-visual-stream",
+      "to": "ventral-visual-stream",
+      "type": "related",
+      "note": "互补的两条视觉流：感知vs行动"
+    },
+    {
+      "from": "mt-v5-motion-area",
+      "to": "v1-primary-visual-cortex",
+      "type": "is-a",
+      "note": "V1 M细胞输入→MT/V5"
+    },
+    {
+      "from": "mt-v5-motion-area",
+      "to": "posterior-parietal-cortex",
+      "type": "supports",
+      "note": "MT/V5向LIP/VIP提供运动输入"
+    },
+    {
+      "from": "posterior-parietal-cortex",
+      "to": "motor-cortex",
+      "type": "supports",
+      "note": "通过PMd/PMv投射行动参数"
+    },
+    {
+      "from": "posterior-parietal-cortex",
+      "to": "dorsal-attention-network",
+      "type": "part-of",
+      "note": "IPS是背侧注意网络关键节点"
+    },
+    {
+      "from": "posterior-parietal-cortex",
+      "to": "place-cell",
+      "type": "related",
+      "note": "PPC-EC-海马通路整合空间认知"
+    },
+    {
+      "from": "posterior-parietal-cortex",
+      "to": "grid-cell",
+      "type": "related",
+      "note": "PPC-EC通路提供自我中心到异我中心的转换"
+    },
+    {
+      "from": "posterior-parietal-cortex",
+      "to": "temporoparietal-junction",
+      "type": "related",
+      "note": "IPL与TPJ解剖相邻，功能有重叠"
+    },
+    {
+      "from": "ventral-visual-stream",
+      "to": "dorsal-visual-stream",
+      "type": "related",
+      "note": "双流互补：what/异我中心 vs how/自我中心"
     }
   ],
   "dangling_references": [

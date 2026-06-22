@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-29",
-  "total_articles": 127,
+  "last_updated": "2026-08-30",
+  "total_articles": 128,
   "entries": [
     {
       "date": "2026-08-22",
@@ -7945,6 +7945,55 @@
         "systems",
         "cellular"
       ]
+    },
+    {
+      "date": "2026-08-30",
+      "title": "视觉的另一半：背侧流如何把世界变成动作",
+      "filename": "2026-08-30-dorsal-visual-stream-parietal-action.md",
+      "article_number": 128,
+      "wiki_pages_created": [
+        "wiki/systems/posterior-parietal-cortex.md",
+        "wiki/concepts/dorsal-visual-stream.md",
+        "wiki/neurons/mt-v5-motion-area.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ventral-visual-stream.md (rev2->rev3)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "大脑为什么需要两条视觉流？背侧流如何从MT/V5的运动编码，经后顶叶皮层（LIP、AIP、VIP）的意图图谱，转化为精准抓取和眼动指令——即便从未有意识地计算过位置？",
+      "open_questions_added": [
+        "Q-ppc-01（高优先级）：IPS功能分区是否比背背侧/腹背侧二分更细？人类影像显示≥4个激活梯度，标准化分类缺失",
+        "Q-ppc-02（中优先级）：人类IPL的演化扩展如何解释工具使用能力？L5锥体神经元是否特化？",
+        "Q-dorsal-01（中优先级）：背侧流的行动视觉是否完全无意识？LIP注意信号暗示意识调节通道存在"
+      ],
+      "layer": [
+        "brain-region",
+        "systems",
+        "behavior"
+      ],
+      "topic_tags": [
+        "dorsal-visual-stream",
+        "posterior-parietal-cortex",
+        "MT-V5",
+        "vision-for-action",
+        "LIP",
+        "AIP",
+        "optic-ataxia",
+        "spatial-attention"
+      ],
+      "main_sources": [
+        "PMID:1374953 (Goodale & Milner 1992)",
+        "PMID:3385495 (Newsome & Paré 1988)",
+        "PMID:24634664 / PMC3942635 (Vingerhoets 2014)",
+        "PMID:38076390 / PMC10710236 (Brunamonti & Paré 2023)",
+        "PMID:38820554 / PMC11602008 (Ritchie et al. 2024)",
+        "PMID:12955383 (Rizzolatti & Matelli 2003)",
+        "PMID:16022593 (Born & Bradley 2005)"
+      ],
+      "knowledge_base_date": "2026-08-30",
+      "system_clock_date": "2026-06-23",
+      "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-08-30"
     }
   ],
   "layer_coverage_recent": {
@@ -8103,10 +8152,15 @@
       "2026-08-23"
     ],
     "brain-region": [
-      "2026-08-23"
+      "2026-08-23",
+      "2026-08-30"
     ],
     "behavior": [
-      "2026-08-23"
+      "2026-08-23",
+      "2026-08-30"
+    ],
+    "systems": [
+      "2026-08-30"
     ]
   }
 }
