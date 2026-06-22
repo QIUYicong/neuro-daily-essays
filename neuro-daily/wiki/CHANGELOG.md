@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-09-02 · 文章 #132 · 除法规范化：大脑皮层的规范计算
+
+**核心主题**：除法规范化（Divisive Normalization, DN）作为皮层"规范计算"——标准方程 $R_j = \gamma D_j^n / (\sigma^n + \sum_k D_k^n)$，统一解释 V1 对比度饱和/交叉朝向抑制/环绕抑制；Reynolds & Heeger 注意力场规范化（注意场宽度 × 刺激大小决定对比度增益 vs 响应增益）；LIP 价值规范化；TRN 全脑信息路由；回路实现（分流性抑制/递归抑制/突触抑制）；Pareto 分布下信息论最优编码（数学定理）；与 Transformer Softmax 的根本差异。图谱从 262 节点/1538 边增至 263 节点/1551 边（+1 节点，+13 边）。
+
+### 新建 Wiki 页面（1 个）
+
+- `concepts/divisive-normalization.md`（除法规范化）🟢 established · 高置信度 — 标准规范化方程 + 四个计算功能；V1 三种经典非线性的统一解释；Reynolds & Heeger 2009 注意力规范化模型（数学形式 + 对比度增益/响应增益预测）；LIP 价值规范化；TRN 全脑信息路由（Whyte 2024）；三种回路机制（分流性/递归/突触抑制）及哺乳动物 V1 中 GABA-A 反证；Pareto 分布规范性依据（Bucher & Brandenburger 2022）；与 AI 归一化（BatchNorm/Softmax）的系统比较；关键证据表 5 条；Q-dn-01/Q-dn-02/Q-dn-03 三个开放问题；7 项来源（4 开放全文）
+
+### 修订 Wiki 页面（4 个）
+
+- `concepts/gain-control.md` rev4→rev5 — 为"除法归一化"子节添加完整规范化方程；补充哺乳动物 V1 GABA-A 阻断反证的重要性；related 新增 divisive-normalization；连接节新增 [[divisive-normalization]] 专属页面链接；key_sources 新增 PMID:22108672、PMID:28835531
+- `systems/v1-primary-visual-cortex.md` rev6→rev7 — 在基本功能特性补充规范化解释对比度增益控制；在预测编码小节补充规范化框架对环绕抑制的解释（与侧抑制/预测编码三种框架并列）；related 新增 divisive-normalization；key_sources 新增 PMID:22108672、PMID:28835531
+- `concepts/competition-selection-principle.md` rev1→rev2 — 在"关键机制"节新增"除法规范化：回路级竞争的精确数学形式"子节（规范化方程与嵌套竞争框架对接）；related 新增 divisive-normalization, gain-control；连接节新增两条链接
+- `concepts/precision-weighting.md` rev2→rev3 — 在"当前理解"节新增除法规范化作为精度加权回路实现段落（Reynolds & Heeger 注意场 A 与精度 π 的数学对应）；related 新增 divisive-normalization；连接节新增 [[divisive-normalization]]
+
+### 图谱与导航
+
+- _graph.json：262→263 节点（+1），1538→1551 边（+13），新增 divisive-normalization 节点，新增 13 条有向边（概念间双向关系 + 与 gain-control/v1/precision-weighting/competition-selection-principle/pv-interneurons/thalamus/transformer-self-attention 的关系）
+- index.md：主题页数 262→263，header 更新，新增 concepts/divisive-normalization 条目，更新 gain-control 条目（修订次数）
+
+### 矛盾登记
+
+- 无新矛盾（哺乳动物 V1 的 GABA-A 阻断不消除规范化的"反证"已在新建页面 Q-dn-01 中记录为开放问题，未形成新的矛盾登记，因为此反证在文献中已广泛知晓且已反映在综述中）
+
+---
+
 ## 2026-08-30 · 文章 #128 · 视觉的另一半：背侧流如何把世界变成动作
 
 **核心主题**：背侧视觉流（V1→MT/V5→PPC→前运动皮层）的行动视觉计算——Goodale-Milner 感知vs行动双流框架、MT/V5 方向选择性与 pattern motion 整合、后顶叶皮层（LIP/AIP/VIP/MIP）的意图地图、LIP 非运动指令区的新证据（Brunamonti 2023）、Rizzolatti 背背侧/腹背侧双路细分。图谱从 255 节点/1494 边增至 258 节点/1507 边（+13 条有向边）。

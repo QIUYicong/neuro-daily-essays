@@ -6,14 +6,14 @@ type: mechanism
 status: emerging
 confidence: medium
 created: 2026-06-15
-updated: 2026-08-11
-revision_count: 2
+updated: 2026-09-02
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [predictive-coding, gain-control, acetylcholine-cortex, norepinephrine-locus-coeruleus, vip-interneurons, dopamine-reward-prediction-error, working-memory, active-inference, free-energy-principle, ascending-arousal-system, disorders-of-consciousness]
+related: [predictive-coding, gain-control, acetylcholine-cortex, norepinephrine-locus-coeruleus, vip-interneurons, dopamine-reward-prediction-error, working-memory, active-inference, free-energy-principle, ascending-arousal-system, disorders-of-consciousness, divisive-normalization]
 prerequisites: [predictive-coding, gain-control]
 opens_questions: [Q-pc-01, Q-prec-01, Q-fep-02]
-source_articles: [2026-06-15-predictive-coding, 2026-08-11-active-inference-precision-neuromodulation-consciousness]
-key_sources: ["PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:30359606", "PMID:39330123", "PMID:38241174", "PMID:38316333", "PMID:37695796", "PMID:27450778"]
+source_articles: [2026-06-15-predictive-coding, 2026-08-11-active-inference-precision-neuromodulation-consciousness, 2026-09-02-divisive-normalization-canonical-computation]
+key_sources: ["PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:30359606", "PMID:39330123", "PMID:38241174", "PMID:38316333", "PMID:37695796", "PMID:27450778", "PMID:19186161", "PMID:22108672"]
 ---
 
 # 精度加权 (Precision Weighting)
@@ -27,6 +27,8 @@ key_sources: ["PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:30359606"
 精度加权在计算上正式化注意力：注意一个刺激 = 提升该感觉通道预测误差信号的精度 → 该通道的误差对信念更新产生更大影响 → 感知更清晰、更精确。
 
 在神经回路层面，精度加权等效于**增益控制**：选择性地放大特定突触连接的响应。这将抽象的贝叶斯计算与具体的神经元动力学联系起来。
+
+**2026-09-02 精确化**：Reynolds & Heeger（2009）的规范化注意力模型（[[divisive-normalization]]）提供了精度加权在回路层的精确数学实现——注意力场 $A$ 乘以感觉驱动 $E$ 在规范化分母之前：$R = (A \cdot E)^n / (\sigma^n + \sum_i w_i A_i E_i^n)$。这直接对应精度加权公式 $\Delta \text{belief} \propto \pi \times \varepsilon$：注意力场 $A$ 正是调节误差信号精度 $\pi$ 的那个乘数，而规范化的分母则是全局竞争约束（类似先验方差的归一化）。由此，除法规范化是精度加权最具操作性的回路级实现候选。
 
 ## 关键机制
 
@@ -92,6 +94,7 @@ NMDA 受体功能减退 → 突触增益（精度调制）失常 → 感觉精�
 - [[dopamine-reward-prediction-error]] — DA 在策略选择域实现精度加权（策略精度层）
 - [[ascending-arousal-system]] — AAS 五核团是全脑精度分配的完整硬件体系
 - [[disorders-of-consciousness]] — DoC 可被理解为精度路由拓扑失败：不同状态对应不同断联模式
+- [[divisive-normalization]] — 精度加权在回路层的精确数学实现：注意力场 A 乘以误差信号 E 的规范化方程
 
 ## 未解问题
 
@@ -103,8 +106,10 @@ NMDA 受体功能减退 → 突触增益（精度调制）失常 → 感觉精�
 
 - 2026-06-15 · 创建 · 基于《当大脑主动预测而非被动接收》一文 · 初始置信度：中（计算理论清晰，但神经回路级别的直接验证有限）
 - 2026-08-11 · 修订 rev2 · 基于《大脑永远在押注》（#110）一文 · 神经调质精度分工表格精确化（加入2024实验证据）；新增精度失调疾病模型（精神分裂症/ASD/PD/MND，含量化证据）；新增关键证据3条（ACh eLife 2024、NE Biol Psych 2024、ASD PLoS CB 2023）；connected 新增 active-inference/free-energy-principle/ascending-arousal-system/disorders-of-consciousness；key_sources 新增5条；opens_questions 新增 Q-fep-02
+- 2026-09-02 · 修订 rev3 · 基于《除法规范化：大脑皮层的规范计算》（#132）· 在"当前理解"节新增除法规范化作为精度加权的回路实现段落（Reynolds & Heeger 2009 注意力场 A 与精度 π 的数学对应）；related 新增 divisive-normalization；source_articles 追加；key_sources 新增 PMID:19186161, PMID:22108672；连接节新增 [[divisive-normalization]]
 
 ## 来源文章
 
 - [[2026-06-15-predictive-coding]]
 - [[2026-08-11-active-inference-precision-neuromodulation-consciousness]]
+- [[2026-09-02-divisive-normalization-canonical-computation]]

@@ -1,7 +1,65 @@
 {
-  "last_updated": "2026-09-01",
-  "total_articles": 129,
+  "last_updated": "2026-09-02",
+  "total_articles": 132,
   "entries": [
+    {
+      "date": "2026-09-02",
+      "title": "除法规范化：大脑皮层的规范计算——从V1非线性到注意力、决策与意识的统一机制",
+      "filename": "2026-09-02-divisive-normalization-canonical-computation.md",
+      "article_number": 132,
+      "wiki_pages_created": [
+        "wiki/concepts/divisive-normalization.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/gain-control.md (rev4->rev5)",
+        "wiki/systems/v1-primary-visual-cortex.md (rev6->rev7)",
+        "wiki/concepts/competition-selection-principle.md (rev1->rev2)",
+        "wiki/concepts/precision-weighting.md (rev2->rev3)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "除法规范化方程 R_j = γD_j^n/(σ^n + ΣD_k^n) 如何作为统一的"规范计算"，解释 V1 三种非线性（对比度饱和/交叉朝向抑制/环绕抑制）、注意效应的对比度增益vs响应增益分化（Reynolds & Heeger 2009）、LIP决策价值竞争，乃至丘脑网状核（TRN）的全脑信息路由？",
+      "open_questions_added": [
+        "Q-dn-01（高优先级）：哺乳动物V1的规范化主要由哪种回路机制实现（分流性/递归/突触抑制）——GABA-A阻断反证的意义",
+        "Q-dn-02（中优先级）：抑制性池的确切组成规则（方向/空间频率特异性vs全池）",
+        "Q-dn-03（中优先级）：Reynolds & Heeger模型的独立体内验证——注意场宽度的直接测量"
+      ],
+      "layer": ["synaptic", "cellular", "microcircuit", "brain-region", "cognition"],
+      "curriculum_track": "课程脊柱1（神经编码基础：规范计算原则）+ 脊柱9（注意与感知：注意力规范化）+ 脊柱5（认知控制：价值决策规范化）",
+      "topic_tags": [
+        "divisive normalization canonical computation",
+        "V1 contrast saturation cross-orientation suppression surround suppression",
+        "Reynolds Heeger attention normalization model",
+        "attention field contrast gain response gain",
+        "LIP value normalization decision making",
+        "thalamic reticular nucleus TRN information routing",
+        "Pareto distribution efficient coding",
+        "shunting inhibition GABA-A suppressive pool",
+        "Carandini Heeger 2012 Nature Reviews Neuroscience",
+        "Sawada Petrov 2017 J Neurophysiol",
+        "Bucher Brandenburger 2022 PNAS"
+      ],
+      "main_sources": [
+        "PMID:22108672 / PMC3273486 (Carandini & Heeger 2011, NRN, OPEN)",
+        "PMID:19186161 / PMC2752446 (Reynolds & Heeger 2009, Neuron, OPEN)",
+        "PMID:28835531 / PMC5814712 (Sawada & Petrov 2017, J Neurophysiol, OPEN)",
+        "PMID:38754373 / PMC11537458 (Whyte et al. 2024, Neuron, OPEN-abstract only)",
+        "PMID:36161961 (Bucher & Brandenburger 2022, PNAS, OPEN)",
+        "PMID:37183143 (Noel & Angelaki 2023, Trends Cog Sci, OPEN-abstract only)",
+        "PMID:1504027 (Heeger 1992, Vis Neurosci, NON-OPEN)"
+      ],
+      "open_access_fulltext": [
+        "PMID:22108672 (PMC3273486)",
+        "PMID:19186161 (PMC2752446)",
+        "PMID:28835531 (PMC5814712)",
+        "PMID:36161961"
+      ],
+      "next_suggested_topics": [
+        "注意回路的精细解剖：FEF→V4→V1的自上而下注意通路与偏置竞争的神经基底",
+        "多区域价值比较：OFC、ACC、DLPFC如何整合经规范化的价值信号做出选择",
+        "感觉适应与短时程突触抑制：适应作为动态规范化的时间维度扩展"
+      ]
+    },
     {
       "date": "2026-08-22",
       "title": "岛叶皮层：身体的感知地图如何生成主观感受并导航决策",

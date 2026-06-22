@@ -6,14 +6,14 @@ type: theory
 status: emerging
 confidence: medium
 created: 2026-06-06
-updated: 2026-06-06
-revision_count: 1
+updated: 2026-09-02
+revision_count: 2
 dimensions: [synaptic, cellular, microcircuit, whole-brain-network, cognition]
-related: [ltp, ltd, engram-cells, memory-consolidation, pv-interneurons, sst-interneurons, vip-interneurons, working-memory, prefrontal-cortex, sharp-wave-ripples, temporal-coding-hierarchy]
+related: [ltp, ltd, engram-cells, memory-consolidation, pv-interneurons, sst-interneurons, vip-interneurons, working-memory, prefrontal-cortex, sharp-wave-ripples, temporal-coding-hierarchy, divisive-normalization, gain-control]
 prerequisites: [ltp, ltd, engram-cells, memory-consolidation, working-memory]
 opens_questions: [Q-competition-unified-mechanism, Q-soft-competition-limits]
-source_articles: [2026-06-06-week2-synthesis]
-key_sources: ["PMID:22441246", "PMID:26982728", "PMID:19169250", "PMID:27477017", "PMID:26996084"]
+source_articles: [2026-06-06-week2-synthesis, 2026-09-02-divisive-normalization-canonical-computation]
+key_sources: ["PMID:22441246", "PMID:26982728", "PMID:19169250", "PMID:27477017", "PMID:26996084", "PMID:22108672", "PMID:19186161"]
 ---
 
 # 嵌套竞争-遴选架构 (Nested Competition-Selection Architecture)
@@ -42,6 +42,20 @@ PV+ 篮状/轴突旁细胞精确限定 1–2 ms 的有效整合时窗，只允�
 前额叶皮层中，不同工作记忆项目对应不同的锥体细胞-中间神经元组合的活跃状态（"吸引子"）。这些吸引子通过相互抑制网络竞争维持：当一个吸引子胜出（持续放电或高易化状态），其他吸引子被抑制。约 4 项的容量上限可能反映了 θ/γ 嵌套的物理约束（每个 θ 周期能承载的 γ 爆发数量）和吸引子间竞争的干扰极限。
 
 ## 关键机制
+
+### 除法规范化：回路级竞争的精确数学形式
+
+**2026-09-02 新增**：嵌套竞争架构中，第 3 层（回路级竞争）可以被精确数学化为**除法规范化**（Carandini & Heeger 2012, PMID:22108672）：
+
+$$R_j = \frac{\gamma D_j^n}{\sigma^n + \sum_k D_k^n}$$
+
+其中抑制性池 $\sum_k D_k^n$ 是所有竞争神经元活动的加权和。这一方程是"嵌套竞争"框架在回路层面的精确量化版本：
+
+- **竞争强度**由抑制性池（分母）决定，自动随"整体兴奋水平"调整
+- **胜出阈值**由半饱和常数 $\sigma$ 决定，对应竞争激烈程度的调节
+- **赢者全得效应**：高强度刺激主导分母 → 低强度竞争刺激的响应被压缩趋零
+
+除法规范化将软性竞争（分母不为零，失败者未被删除）数学化，与本页"软竞争"原则（失败者被保留）完全一致。→ 详见 [[divisive-normalization]]
 
 ### 竞争胜出的统一标准：活动强度 × 显著性标记
 
@@ -80,6 +94,8 @@ PV+ 篮状/轴突旁细胞精确限定 1–2 ms 的有效整合时窗，只允�
 - [[prefrontal-cortex]] — 认知级竞争的神经底物
 - [[sharp-wave-ripples]] — 系统级竞争遴选的执行机制
 - [[temporal-coding-hierarchy]] — 互补框架：如何精确计时以编码信息
+- [[divisive-normalization]] — 回路级竞争的精确数学定量化：规范化方程是嵌套竞争在回路层的正式实现
+- [[gain-control]] — 竞争胜出后的增益调节：规范化前后的信号处理链
 
 ## 未解问题
 
@@ -89,7 +105,9 @@ PV+ 篮状/轴突旁细胞精确限定 1–2 ms 的有效整合时窗，只允�
 ## 修订历史
 
 - 2026-06-06 · 创建 · 基于《第二周综合：竞争法则》（2026-06-06-week2-synthesis.md） · 初始置信度：medium（综合框架，各层机制单独有强证据，跨层统一性待验证）
+- 2026-09-02 · 修订 rev2 · 基于《除法规范化：大脑皮层的规范计算》（#132）· 在"关键机制"节新增"除法规范化：回路级竞争的精确数学形式"子节，正式将规范化方程与嵌套竞争框架对接；related 新增 divisive-normalization, gain-control；source_articles 追加；key_sources 新增 PMID:22108672, PMID:19186161
 
 ## 来源文章
 
 - [[2026-06-06-week2-synthesis]]
+- [[2026-09-02-divisive-normalization-canonical-computation]]

@@ -1,0 +1,88 @@
+# 2026-09-02 运行日志
+
+**知识库连续日期**：2026-09-02
+**系统时钟（UTC+8）**：2026-06-23
+**文章序号**：#132
+**运行状态**：SUCCESS
+
+---
+
+## 执行摘要
+
+今日运行完成所有预定任务：选题→研究→写作→固结→推送。
+
+**选题决策**：基于图谱分析，选择除法规范化（Divisive Normalization）。决策理由：
+- 知识库中无专属 wiki 页面（`divisive-normalization` 为悬空引用）
+- gain-control.md、v1.md、precision-weighting.md 等多页面均有引用但无深化
+- 高质量开放全文来源充足（≥4 篇 PMC 全文）
+- 跨层级覆盖（突触→细胞→回路→认知），与近期文章（MSN 细胞层级）形成互补
+
+---
+
+## 文件清单
+
+### 新建文件（3个）
+- `neuro-daily/articles/2026-09-02-divisive-normalization-canonical-computation.md`（主文章，~10000字）
+- `neuro-daily/notes/2026-09-02-reading-notes.md`（阅读笔记，7个来源）
+- `neuro-daily/sources/2026-09-02-sources.json`（7个来源元数据）
+
+### Wiki 新建（1个）
+- `neuro-daily/wiki/concepts/divisive-normalization.md`（rev1，established/high）
+
+### Wiki 修订（4个）
+- `neuro-daily/wiki/concepts/gain-control.md` → rev4→rev5
+- `neuro-daily/wiki/systems/v1-primary-visual-cortex.md` → rev6→rev7
+- `neuro-daily/wiki/concepts/competition-selection-principle.md` → rev1→rev2
+- `neuro-daily/wiki/concepts/precision-weighting.md` → rev2→rev3
+
+### 图谱变化
+- `_graph.json`：262→263 节点，1538→1551 边（+1节点，+13边）
+
+### 状态文件更新（5个）
+- `neuro-daily/wiki/index.md` — 主题页总数 262→263，新增 divisive-normalization 条目
+- `neuro-daily/wiki/CHANGELOG.md` — 新增 2026-09-02 条目
+- `neuro-daily/state/topic_ledger.json` — total_articles 129→132，新增 2026-09-02 条目
+- `neuro-daily/state/maturity_index.json` — 新增 divisive-normalization 条目（established/high）
+- `neuro-daily/state/source_registry.json` — 新增 sources_2026-09-02；更新 PMID:19186161 使用记录
+- `neuro-daily/state/monthly_synthesis.md` — 更新九月月报，新增 2026-09-02 日条目
+
+---
+
+## 来源使用情况
+
+| 序号 | PMID | 全文 | 用途 |
+|------|------|------|------|
+| 1 | 22108672 (PMC3273486) | ✅ | 主综述：规范计算框架、V1三种非线性、多脑区证据 |
+| 2 | 19186161 (PMC2752446) | ✅ | 注意力规范化模型（已在registry，追加本文） |
+| 3 | 28835531 (PMC5814712) | ✅ | V1系统性验证（30+数据集） |
+| 4 | 38754373 (PMC11537458) | 📋 摘要 | TRN与意识（摘要内容） |
+| 5 | 36161961 | ✅ | Pareto分布规范性依据（数学定理） |
+| 6 | 37183143 | 📋 摘要 | ASD与规范化精度失调（摘要） |
+| 7 | 1504027 | ❌ 非开放 | Heeger 1992原始论文（仅摘要） |
+
+---
+
+## 矛盾检查
+
+- 无新矛盾登记
+- 已有 wiki 页面与今日新内容的一致性检查通过
+- V1 中 GABA-A 阻断不消除规范化已在 Q-dn-01 记录为开放问题（非矛盾，文献内已知）
+
+---
+
+## 质量指标
+
+- 文章字数：约 10,000 字
+- 开放全文来源数：4（符合 ROUTINE.md 要求 ≥2）
+- 新建 wiki 页：1
+- 修订 wiki 页：4（全部有充实内容更新）
+- 新增图谱边：13
+- 层级覆盖：突触/细胞/微回路/认知（✅ 多层级）
+
+---
+
+## 推送状态
+
+Git commit: `Add neuro daily article + wiki consolidation for 2026-09-02`
+Branch: `main`
+Remote: `http://local_proxy@127.0.0.1:39065/git/QIUYicong/neuro-daily-essays`

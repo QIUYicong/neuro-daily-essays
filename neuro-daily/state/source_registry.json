@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-02",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -7078,7 +7078,8 @@
       "access": "open_full_text",
       "first_used": "2026-07-15",
       "articles_used_in": [
-        "2026-07-15-brain-attention-transformer-qkv"
+        "2026-07-15-brain-attention-transformer-qkv",
+        "2026-09-02-divisive-normalization-canonical-computation"
       ]
     },
     {
@@ -12852,5 +12853,14 @@
     "PMID:37841525",
     "PMID:26698193",
     "PMID:23040807"
+  ],
+  "sources_2026-09-02": [
+    "PMID:22108672",
+    "PMID:19186161",
+    "PMID:28835531",
+    "PMID:38754373",
+    "PMID:36161961",
+    "PMID:37183143",
+    "PMID:1504027"
   ]
 }

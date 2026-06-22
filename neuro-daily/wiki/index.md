@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-01（第131篇·纹状体中型多棘神经元·D1/D2通路·突触可塑性·习惯学习）· 主题页总数：**262**（新建3页：neurons/medium-spiny-neuron、circuits/striatal-direct-indirect-pathway、concepts/striatal-plasticity；修订4页：systems/basal-ganglia rev3、diseases/parkinsons-disease rev2、concepts/dopamine-reward-prediction-error rev6、concepts/endocannabinoid-system rev3；图谱262节点/1538边；登记矛盾C-2026-09-01-01）
+> 最后更新：2026-09-02（第132篇·除法规范化·V1规范计算·注意力规范化模型·决策价值规范化·TRN全脑路由）· 主题页总数：**263**（新建1页：concepts/divisive-normalization；修订4页：concepts/gain-control rev5、systems/v1-primary-visual-cortex rev7、concepts/competition-selection-principle rev2、concepts/precision-weighting rev3；图谱263节点/1551边）
 
 ---
 
@@ -153,7 +153,8 @@
 - 🟢 [方向选择性](concepts/orientation-selectivity.md) — V1将LGN非定向圆对称输入转化为精确方向响应的核心计算；前馈LGN排列+E/I平衡+树突NMDA棘波三层机制；有/无方向柱物种均可达同等锐利选择性 **[NEW 2026-06-11]**
 - 🟡 [突触聚类](concepts/synaptic-clustering.md) — 功能相似突触在同一树突分支聚集→NMDA棘波超线性整合→局部"与门"计算；Wilson 2016在雪貂V1提供首个体内直接证据；普遍性待验证 **[NEW 2026-06-11]**（填补 dendritic-computation 悬空引用）
 - 🟢 [乙酰胆碱皮层调质](concepts/acetylcholine-cortex.md) — 基底前脑胆碱能系统通过M1/M2/nAChR受体增大皮层信噪比；肌碱受体介导V1注意调制（Herrero 2008）；相位性/紧张性双时间尺度；支持皮层去同步和工作记忆持续放电 **[NEW 2026-06-12]**
-- 🟢 [皮层增益控制](concepts/gain-control.md) — 神经调质系统的核心输出：乘法性缩放皮层神经元输入-输出曲线；ACh通过M1、NE通过α2A/α1实现；注意调制的分子机制（修订2次）**[NEW 2026-06-12]**
+- 🟢 [皮层增益控制](concepts/gain-control.md) — 神经调质系统的核心输出：乘法性缩放皮层神经元输入-输出曲线；ACh通过M1、NE通过α2A/α1实现；注意调制的分子机制（修订5次）**[NEW 2026-06-12]**
+- 🟢 [除法规范化](concepts/divisive-normalization.md) — 皮层规范计算：$R_j = \gamma D_j^n/(\sigma^n + \sum_k D_k^n)$；统一解释V1对比度饱和/交叉朝向抑制/环绕抑制；Reynolds & Heeger注意场规范化（注意场宽度决定对比度增益vs响应增益）；LIP价值规范化；Pareto分布下信息论最优编码；与Transformer Softmax的根本差异 **[NEW 2026-09-02]**
 - 🟡 [多层增益控制架构](concepts/multi-timescale-plasticity.md) — STP（毫秒–秒层一）+ ACh/NE增益控制（秒–分钟层二）+ DA-RPE（分钟–小时层三）三层嵌套；Marder原则：调质环境决定功能回路；第三周综合框架 **[NEW 2026-05-30]**
 - 🟢 [去甲肾上腺素与蓝斑系统](concepts/norepinephrine-locus-coeruleus.md) — 蓝斑LC通过相位性/紧张性双模式和倒U形NE浓度曲线优化皮层认知增益；α2A稳定PFC工作记忆；β受体促进情绪记忆LTP；选择性集合体拓扑组织；AD/PD早期LC退变（55%神经元丢失）**[NEW 2026-06-12 · 修订 rev4 2026-08-10]**
 - 🔵 [5-HT自受体与SSRI延迟起效](concepts/5-ht-autoreceptor.md) — 5-HT1A树突自受体负反馈在急性期抵消SSRI效果；14天后自受体脱敏解除制动；皮质5-HT1A/2A功能拮抗；pindolol加速起效的临床证据 **[NEW 2026-06-13]**

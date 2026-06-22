@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-07-15
-revision_count: 4
+updated: 2026-09-02
+revision_count: 5
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition]
-related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, neuromodulator-systems, orientation-selectivity, working-memory, v1-primary-visual-cortex, multi-timescale-plasticity, short-term-synaptic-plasticity, dopamine-reward-prediction-error, serotonin-raphe-system, 5-ht-autoreceptor]
+related: [acetylcholine-cortex, norepinephrine-locus-coeruleus, neuromodulator-systems, orientation-selectivity, working-memory, v1-primary-visual-cortex, multi-timescale-plasticity, short-term-synaptic-plasticity, dopamine-reward-prediction-error, serotonin-raphe-system, 5-ht-autoreceptor, divisive-normalization]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-gain-timescale-interaction]
-source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-07-15-brain-attention-transformer-qkv]
-key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802", "PMID:29470969", "PMID:19186161"]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-05-30-week3-synthesis, 2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-07-15-brain-attention-transformer-qkv, 2026-09-02-divisive-normalization-canonical-computation]
+key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802", "PMID:29470969", "PMID:19186161", "PMID:22108672", "PMID:28835531"]
 ---
 
 # 皮层增益控制 (Cortical Gain Control)
@@ -57,9 +57,10 @@ key_sources: ["PMID:18633352", "PMID:16254995", "PMID:22866031", "PMID:23040802"
 - 净效果：神经元对任务相关信息的"敏感性"提升
 
 **除法归一化（Divisive normalization）**：
-- 每个神经元的响应除以邻域神经元的集体活动（实现相互竞争）
-- 由 PV+ 中间神经元（GABA 前馈抑制）实现
-- 保持神经元的动态范围，防止饱和
+- 每个神经元的响应除以邻域神经元的集体活动（实现相互竞争）：$R_j = \gamma D_j^n / (\sigma^n + \sum_k D_k^n)$
+- 由 PV+ 中间神经元（GABA 前馈抑制）提供候选实现，但哺乳动物 V1 中 GABA-A 阻断不消除规范化，机制仍有争议
+- 保持神经元的动态范围，防止饱和；统一解释 V1 三种经典非线性现象
+- **专属深化页面**：→ [[divisive-normalization]]（2026-09-02 新建）
 
 **Reynolds & Heeger（2009）规范化注意力模型（PMID:19186161, PMCID:PMC2752446，开放全文）**：
 将除法归一化与注意力场（attention field）整合为统一公式：
@@ -98,6 +99,7 @@ $$R = \frac{(A \cdot S)^n}{\sigma^n + \left(\sum_i w_i A_i S_i\right)^n}$$
 - [[dopamine-reward-prediction-error]] — 第三层增益控制（价值驱动学习），与皮层增益控制协同
 - [[serotonin-raphe-system]] — 5-HT系统的超慢负反馈增益控制（天-周级，情绪基调）
 - [[5-ht-autoreceptor]] — 自受体脱敏机制：5-HT增益的慢速稳态调节
+- [[divisive-normalization]] — 除法归一化的专属深化页面：从 V1 非线性到注意力规范化的完整机制框架
 
 ## 修订历史
 
@@ -105,9 +107,11 @@ $$R = \frac{(A \cdot S)^n}{\sigma^n + \left(\sum_i w_i A_i S_i\right)^n}$$
 - 2026-05-30 · 修订 · 基于《第三周综合》 · 将皮层增益控制定位为多层增益控制架构（[[multi-timescale-plasticity]]）的第二层；新增 Marder 原则（PMID:23040802）和 Thiele & Bellgrove 2018（PMID:29470969）作为理论支撑；更新 related 和 key_sources
 - 2026-06-13 · 修订 · 基于《血清素的慢时钟》 · 新增5-HT自受体脱敏机制作为增益控制的第四个时间尺度（天-周，情绪/可塑性）；补全[[serotonin-raphe-system]]和[[5-ht-autoreceptor]]连接
 - 2026-07-15 · 修订 · 基于《同一个算法，两种实现》一文 · 新增 Reynolds & Heeger 2009 规范化注意力模型（PMID:19186161，开放全文）；说明除法归一化与 Transformer softmax 的关键差异（注意场宽度 → 对比度增益 vs 响应增益 vs softmax 无此区分）；key_sources 新增 PMID:19186161
+- 2026-09-02 · 修订 rev5 · 基于《除法规范化：大脑皮层的规范计算》（#132）· 为"除法归一化"子节添加完整规范化方程 $R_j = \gamma D_j^n / (\sigma^n + \sum_k D_k^n)$；补充哺乳动物 V1 中 GABA-A 阻断反证的重要性；related 新增 divisive-normalization；连接节中新增 [[divisive-normalization]] 专属页面链接；key_sources 新增 PMID:22108672、PMID:28835531
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
 - [[2026-05-30-week3-synthesis]]
 - [[2026-06-13-serotonin-autoreceptor-ssri-delay]]
+- [[2026-09-02-divisive-normalization-canonical-computation]]

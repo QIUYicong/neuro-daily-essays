@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-01",
-  "node_count": 255,
-  "edge_count": 1494,
+  "updated": "2026-09-02",
+  "node_count": 263,
+  "edge_count": 1551,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2400,6 +2400,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/striatal-plasticity.md"
+    },
+    {
+      "id": "divisive-normalization",
+      "title": "除法规范化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/divisive-normalization.md"
     }
   ],
   "edges": [
@@ -11025,6 +11034,84 @@
       "to": "medium-spiny-neuron",
       "type": "related",
       "note": "PD中D2-MSN树突棘选择性丢失是主要病理特征之一"
+    },
+    {
+      "from": "divisive-normalization",
+      "to": "gain-control",
+      "type": "implements",
+      "note": "除法规范化是皮层增益控制在回路层的精确数学实现（PV+前馈GABA抑制）"
+    },
+    {
+      "from": "divisive-normalization",
+      "to": "v1-primary-visual-cortex",
+      "type": "explains",
+      "note": "规范化统一解释V1三种经典非线性：对比度饱和/交叉朝向抑制/环绕抑制"
+    },
+    {
+      "from": "divisive-normalization",
+      "to": "orientation-selectivity",
+      "type": "supports",
+      "note": "规范化保持方向调谐宽度对比度不变性"
+    },
+    {
+      "from": "divisive-normalization",
+      "to": "precision-weighting",
+      "type": "implements",
+      "note": "Reynolds & Heeger注意场A是精度π的回路实现；规范化方程对应精度加权公式"
+    },
+    {
+      "from": "divisive-normalization",
+      "to": "competition-selection-principle",
+      "type": "formalizes",
+      "note": "规范化方程是嵌套竞争框架中回路级竞争的精确数学定量化"
+    },
+    {
+      "from": "divisive-normalization",
+      "to": "biased-competition",
+      "type": "implements",
+      "note": "注意信号通过修改注意力场A实现对规范化竞争的偏置"
+    },
+    {
+      "from": "divisive-normalization",
+      "to": "pv-interneurons",
+      "type": "requires",
+      "note": "PV+篮状细胞提供快速GABA-A前馈抑制，是分流性抑制候选（哺乳动物中有争议）"
+    },
+    {
+      "from": "divisive-normalization",
+      "to": "transformer-self-attention",
+      "type": "contrasts",
+      "note": "Softmax归一化vs除法规范化：Softmax权重和恒为1，无法产生注意场宽度→增益类型分化"
+    },
+    {
+      "from": "divisive-normalization",
+      "to": "thalamus",
+      "type": "extends_to",
+      "note": "TRN侧向抑制实现类似规范化的全脑信息路由（Whyte 2024）"
+    },
+    {
+      "from": "gain-control",
+      "to": "divisive-normalization",
+      "type": "contains",
+      "note": "gain-control页面包含divisive normalization子节，现有专属深化页面"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "divisive-normalization",
+      "type": "demonstrates",
+      "note": "V1是规范化实验验证最充分的脑区"
+    },
+    {
+      "from": "competition-selection-principle",
+      "to": "divisive-normalization",
+      "type": "quantified_by",
+      "note": "竞争遴选架构的回路级数学定量形式"
+    },
+    {
+      "from": "precision-weighting",
+      "to": "divisive-normalization",
+      "type": "implemented_by",
+      "note": "精度加权在回路层由规范化方程实现"
     }
   ],
   "dangling_references": [

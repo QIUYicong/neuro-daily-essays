@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-08-29
-revision_count: 6
+updated: 2026-09-02
+revision_count: 7
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ventral-visual-stream, cnn-visual-cortex-analogy]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ventral-visual-stream, cnn-visual-cortex-analogy, divisive-normalization]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
-source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-14-cnn-visual-cortex-hierarchy]
-key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:24812127", "PMCID:PMC4060707"]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-14-cnn-visual-cortex-hierarchy, 2026-09-02-divisive-normalization-canonical-computation]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:24812127", "PMCID:PMC4060707", "PMID:22108672", "PMID:28835531"]
 ---
 
 # 初级视觉皮层（V1）
@@ -31,7 +31,7 @@ V1 神经元相比 LGN 神经元具有更复杂的感受野特性：
 - **方向选择性**（orientation selectivity）：约 80% 的 V1 神经元对特定方向的光条/边缘偏好明显，是 LGN 的最显著功能跃升
 - **空间频率调谐**：偏好特定宽度的条纹，Gabor 函数很好地描述了 V1 简单细胞的感受野
 - **眼优势**：偏好来自特定眼的输入，左右眼输入以约 0.5 mm 间距交替形成优势柱
-- **对比度增益控制**：对比度不变性（调谐宽度随对比度不变），由 E/I 平衡维持
+- **对比度增益控制**：对比度不变性（调谐宽度随对比度不变），由 E/I 平衡和除法规范化共同维持（→ [[divisive-normalization]]）
 
 ### 分层结构与输入-输出
 
@@ -114,7 +114,7 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 
 **感觉运动失配响应（Keller et al. 2012, PMID:22681686）**：清醒小鼠在虚拟现实中奔跑时，V1 L2/3 神经元对感觉运动失配（运动持续但视觉流动停止）产生强烈激活，而在正常耦合状态下响应被抑制——这是预测误差响应的直接证据：运动皮层发送本体感觉预测，V1 比较预测与实际视觉输入，编码失配误差。
 
-**环绕抑制和末端停止的新解释（Rao & Ballard 1999, PMID:10195184）**：这两种非经典感受野效应传统上归因于侧抑制，但预测编码框架提供另一解释——均匀背景刺激被高级区域预测覆盖（"解释掉"），产生较小误差；孤立刺激或不符合预测的边缘端点产生较大误差（更强响应）。两种解释不互斥，区分需要精确的层特异性操控实验。
+**环绕抑制和末端停止的新解释（Rao & Ballard 1999, PMID:10195184）**：这两种非经典感受野效应传统上归因于侧抑制，但预测编码框架提供另一解释——均匀背景刺激被高级区域预测覆盖（"解释掉"），产生较小误差；孤立刺激或不符合预测的边缘端点产生较大误差（更强响应）。**除法规范化框架**同样解释环绕抑制：感受野外神经元加入抑制性池，增大分母而不改变分子（→ [[divisive-normalization]]），三种解释（侧抑制/预测编码/规范化）不互斥，区分需精确层特异性操控实验。
 
 **分层振荡分工**：根据 Bastos et al. 2012，V1 的前馈输出（L2/3→V2 L4）以 γ 振荡为主（传递误差），V1 接受来自 V2/V4 的反馈（传递预测）以 α/β 振荡为主。这将 V1 的经典"前馈视觉处理"角色扩展为双向误差-预测交换的参与者。
 
@@ -147,6 +147,7 @@ V1 在腹侧流层级（V1→V4→IT）中对应 CNN 的早期层，而非整个
 - 2026-07-01 · 修订 · 基于《空间注意的神经回路》一文 · 新增 V4→V1 皮层反馈作为注意调制的必要通道（Debes & Dragoi 2023，PMID:36730414）；related 新增 dorsal-attention-network, biased-competition；key_sources 新增 PMID:36730414
 - 2026-07-14 · 修订 · 基于《镜中影像：CNN与灵长类视觉皮层层级对应》一文 · 新增"CNN第一层的V1类比"小节；related 新增 ventral-visual-stream, cnn-visual-cortex-analogy；key_sources 新增 PMID:24812127, PMCID:PMC4060707
 - 2026-08-29 · 修订 · 基于《腹侧视觉流的"解缠"之旅》(#127) · 腹侧流完整 wiki 页（ventral-visual-stream）已创建，填补此前 related 中的悬空引用；V1 在腹侧流层级中的位置（第一站，方向选择性→向 V2 传递基础特征）进一步明确
+- 2026-09-02 · 修订 rev7 · 基于《除法规范化：大脑皮层的规范计算》（#132）· 在基本功能特性中补充规范化解释对比度增益控制；在预测编码小节补充规范化框架对环绕抑制的解释（三种框架并列）；related 新增 divisive-normalization；source_articles 追加 2026-09-02；key_sources 新增 PMID:22108672、PMID:28835531
 
 ## 来源文章
 
@@ -156,3 +157,4 @@ V1 在腹侧流层级（V1→V4→IT）中对应 CNN 的早期层，而非整个
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
 - [[2026-07-14-cnn-visual-cortex-hierarchy]]
 - [[2026-08-29-ventral-visual-stream-object-recognition]]
+- [[2026-09-02-divisive-normalization-canonical-computation]]

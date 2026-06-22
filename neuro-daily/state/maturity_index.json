@@ -612,5 +612,12 @@
     "confidence": "high",
     "last_changed": "2026-08-31",
     "reason": "创建：基于 Cunningham&Yu 2014、Churchland 2012、Gallego 2017、Rigotti 2013、Chung&Abbott 2021、Fortunato 2024 等多个独立团队的一致发现。核心概念（流形存在、维度约束、旋转动力学）在多脑区、多物种中重复验证，状态为 mainstream；非线性流形为 2024 年新兴发现，证据中等"
+  },
+  {
+    "slug": "divisive-normalization",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-02",
+    "reason": "创建：核心规范化方程（Heeger 1992）已30+年，Sawada & Petrov 2017对V1的系统性验证（30+数据集），Carandini & Heeger 2012综述确立跨脑区普遍性，Reynolds & Heeger 2009注意力模型获广泛引用；Bucher & Brandenburger 2022提供数学定理支撑。哺乳动物V1的具体回路实现机制（分流性/递归/突触抑制）仍有争议（GABA-A反证），但计算模型和现象描述部分证据极强，整体状态为 established/high"
   }
 ]
