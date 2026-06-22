@@ -619,5 +619,33 @@
     "confidence": "high",
     "last_changed": "2026-09-02",
     "reason": "创建：核心规范化方程（Heeger 1992）已30+年，Sawada & Petrov 2017对V1的系统性验证（30+数据集），Carandini & Heeger 2012综述确立跨脑区普遍性，Reynolds & Heeger 2009注意力模型获广泛引用；Bucher & Brandenburger 2022提供数学定理支撑。哺乳动物V1的具体回路实现机制（分流性/递归/突触抑制）仍有争议（GABA-A反证），但计算模型和现象描述部分证据极强，整体状态为 established/high"
+  },
+  {
+    "slug": "purkinje-cell",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-03",
+    "reason": "新建：浦肯野细胞解剖与 LTD 机制为教科书级 established（多重独立验证）；奖励 CF 信号（Jin 2025）为 emerging，整体页面置信度高"
+  },
+  {
+    "slug": "climbing-fiber",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-03",
+    "reason": "新建：CF 解剖与经典功能 established；梯度误差信号 mainstream；奖励 CF 信号 emerging（外侧小脑，单实验室）"
+  },
+  {
+    "slug": "granule-cell-cerebellar",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-03",
+    "reason": "新建：颗粒细胞解剖与基本功能 established；稀疏 vs 密集编码争议：最优编码密度为任务依赖（Xie 2023，理论）为 emerging"
+  },
+  {
+    "slug": "dacc-conflict-monitoring",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-03",
+    "reason": "新建（导航页，填补悬空引用）：dACC 冲突监控框架为 established（Botvinick 2001 + 多项 fMRI/EEG 验证）；ERN 和 N2 成分观测；页面内容已由 anterior-cingulate-cortex 和 conflict-monitoring 覆盖"
   }
 ]

@@ -1,0 +1,153 @@
+{
+  "date": "2026-09-03",
+  "article": "2026-09-03-purkinje-cell-cerebellar-motor-learning",
+  "system_clock_date": "2026-06-22",
+  "total_sources": 7,
+  "open_full_text": 7,
+  "abstract_only": 0,
+  "institutional": 0,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "40523942",
+      "pmcid": "PMC12643008",
+      "doi": null,
+      "title": "Cerebellar circuit computations for predictive motor control",
+      "authors": "Nguyen KP, Person AL",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2025,
+      "type": "review",
+      "full_text_available": true,
+      "full_text_source": "PMC12643008",
+      "used_for": "主综述：前向控制模型、浦肯野细胞人群编码、攀爬纤维梯度信号、小脑回路架构；贯穿全文",
+      "key_claims": [
+        "小脑实现 feedforward control 通过学习感觉运动情景→预测性纠错信号的映射",
+        "颗粒细胞生成时序基底集合，编码运动中的时间坐标",
+        "浦肯野细胞人群分为抑制型和促进型，人群层面产生净 DCN 调制",
+        "小脑实现 model-free implicit mapping 而非显式逆动力学模型"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "40848722",
+      "pmcid": "PMC12380153",
+      "doi": null,
+      "title": "Reward-driven cerebellar climbing fiber activity influences both neural and behavioral learning",
+      "authors": "Jin S, Hull C",
+      "journal": "Current Biology",
+      "year": 2025,
+      "type": "original_research",
+      "full_text_available": true,
+      "full_text_source": "PMC12380153",
+      "used_for": "攀爬纤维奖励预测误差信号的实验证明；光遗传学因果验证",
+      "key_claims": [
+        "攀爬纤维活动具有奖励预测误差特征（初期响应意外奖励，随训练转移至 CS）",
+        "刺激阻断效应证实 CF rPE 信号与强化学习原理一致",
+        "光遗传学抑制下橄榄核损害预测性舔水的时间精度"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "37671785",
+      "pmcid": "PMC10541175",
+      "doi": "10.7554/eLife.82914",
+      "title": "Task-dependent optimal representations for cerebellar learning",
+      "authors": "Xie M, Muscinelli SP, Harris KD, Litwin-Kumar A",
+      "journal": "eLife",
+      "year": 2023,
+      "type": "computational_theory",
+      "full_text_available": true,
+      "full_text_source": "PMC10541175",
+      "used_for": "颗粒细胞最优编码密度的任务依赖性；稀疏 vs 密集颗粒细胞编码争议",
+      "key_claims": [
+        "稀疏颗粒细胞编码对随机分类任务最优，但对连续感觉运动变换任务次优",
+        "最优颗粒细胞激活密度是任务依赖的"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "39049990",
+      "pmcid": "PMC11266113",
+      "doi": null,
+      "title": "Purkinje cell models: past, present and future",
+      "authors": "Fernández Santoro EM, Karim A, Warnaar P, De Zeeuw CI, Badura A, Negrello M",
+      "journal": "Frontiers in Computational Neuroscience",
+      "year": 2024,
+      "type": "review",
+      "full_text_available": true,
+      "full_text_source": "PMC11266113",
+      "used_for": "浦肯野细胞计算模型的历史和现状；多稳态动力学",
+      "key_claims": [
+        "浦肯野细胞在脊椎动物中高度保守，可能共享单一计算机制",
+        "复杂放电持续时间可变，携带量化的可塑性信息"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "31572132",
+      "pmcid": "PMC6749063",
+      "doi": null,
+      "title": "Climbing Fibers Provide Graded Error Signals in Cerebellar Learning",
+      "authors": "Zang Y, De Schutter E",
+      "journal": "Frontiers in Systems Neuroscience",
+      "year": 2019,
+      "type": "review",
+      "full_text_available": true,
+      "full_text_source": "PMC6749063",
+      "used_for": "攀爬纤维梯度误差信号机制；复杂放电持续时间可变性；树突局部 Ca²⁺ 动力学",
+      "key_claims": [
+        "攀爬纤维信号是梯度而非二元",
+        "复杂放电持续时间与诱导的浦肯野细胞可塑性程度正相关",
+        "树突不同分支可能独立经历不同幅度的 LTD"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "21482355",
+      "pmcid": "PMC3104468",
+      "doi": null,
+      "title": "Reevaluating the Role of LTD in Cerebellar Motor Learning",
+      "authors": "Schonewille M, Gao Z, Boele HJ, Veloz MFV, Amerika WE, Simek AAM, De Jeu MT, Steinberg JP, Takamiya K, Hoebeek FE, Linden DJ, Huganir RL, De Zeeuw CI",
+      "journal": "Neuron",
+      "year": 2011,
+      "type": "original_research",
+      "full_text_available": true,
+      "full_text_source": "PMC3104468",
+      "used_for": "LTD 缺失小鼠仍能正常进行运动学习的关键实验；多层可塑性讨论",
+      "key_claims": [
+        "三种 AMPAR 内吞阻断突变小鼠的 VOR 适应、眼睑反射、步态学习均正常",
+        "PF-PC LTD 不是运动学习的唯一必要机制"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "37141091",
+      "pmcid": "PMC10258556",
+      "doi": null,
+      "title": "Cerebellar granule cell signaling is indispensable for normal motor performance",
+      "authors": "Lee JH, Khan MM, Stark AP, Seo S, Norton A, Yao Z, Chen CH, Regehr WG",
+      "journal": "Cell Reports",
+      "year": 2023,
+      "type": "original_research",
+      "full_text_available": true,
+      "full_text_source": "PMC10258556",
+      "used_for": "颗粒细胞信号对运动功能因果必要性的证明",
+      "key_claims": [
+        "颗粒细胞 CaV2 敲除导致严重运动障碍",
+        "颗粒细胞信号负责运动上下文编码，而非 PC 基线活动维持"
+      ]
+    }
+  ],
+  "search_queries": [
+    "Purkinje cell cerebellar LTD motor learning climbing fiber review PubMed 2024 2025",
+    "cerebellar Purkinje cell parallel fiber climbing fiber LTP LTD synaptic plasticity review open access PMC 2023 2024",
+    "cerebellum motor learning Marr Albus Ito theory review 2022 2023 2024 open access PMC",
+    "cerebellar cortex granule cell Purkinje cell deep cerebellar nuclei circuit motor control review PMC 2023 2024 2025",
+    "cerebellar LTD mechanism mGluR1 PKC AMPA receptor internalization Purkinje cell review"
+  ],
+  "data_sources_used": [
+    "PubMed E-utilities (esearch, efetch)",
+    "PubMed Central (PMC full text)",
+    "WebSearch + WebFetch for paper discovery"
+  ]
+}

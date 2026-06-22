@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-07-31
-revision_count: 2
+updated: 2026-09-03
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation, interval-timing]
+related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation, interval-timing, purkinje-cell, climbing-fiber, granule-cell-cerebellar]
 prerequisites: [purkinje-cell, parallel-fiber, climbing-fiber, deep-cerebellar-nuclei]
 opens_questions: [Q-cb-01, Q-cb-02, Q-cb-03]
-source_articles: [2026-06-23-cerebellum-motor-prediction]
-key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:27088121", "PMID:38918348"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-03-purkinje-cell-cerebellar-motor-learning]
+key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:27088121", "PMID:38918348", "PMID:40523942", "PMID:40848722"]
 ---
 
 # 小脑 (Cerebellum)
@@ -112,6 +112,7 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 来源：PMID:33203932, 33288911, 21227230, 11319554, 21482355, 7954803
 - 2026-07-31 · 新增"小脑作为区间计时器"节 · 区分事件计时（event-based）与节拍计时（beat-based）；整合 Breska & Ivry 2016 和 Teki 2011 解剖学证据 · 基于 2026-07-31-interval-timing-basal-ganglia-striatum
+- 2026-09-03 · 更新当前理解，整合 Nguyen & Person 2025（前向控制为 model-free implicit mapping，非显式内部模型）；整合 Jin & Hull 2025（攀爬纤维同时携带奖励预测误差信号，外侧小脑参与广义预测学习）；新增浦肯野细胞、攀爬纤维、颗粒细胞专属页面链接 · 基于 2026-09-03-purkinje-cell-cerebellar-motor-learning
 
 ## 来源文章
 

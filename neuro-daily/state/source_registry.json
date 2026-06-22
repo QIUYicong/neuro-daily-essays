@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-03",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5647,7 +5647,8 @@
       "journal": "Neuron",
       "full_text_available": true,
       "used_in_articles": [
-        "2026-06-23-cerebellum-motor-prediction"
+        "2026-06-23-cerebellum-motor-prediction",
+        "2026-09-03-purkinje-cell-cerebellar-motor-learning"
       ],
       "topics_covered": [
         "PF-LTD",
@@ -5655,6 +5656,11 @@
         "knockout mouse",
         "VOR",
         "eyeblink conditioning"
+      ],
+      "aspects_covered": [
+        "三种 AMPAR 内吞阻断突变小鼠的运动学习正常",
+        "PF-PC LTD 对运动学习不是唯一必要机制",
+        "小脑多层可塑性系统的冗余性"
       ]
     },
     {
@@ -8555,6 +8561,109 @@
         "2026-08-31-neural-manifold-population-coding-geometry"
       ],
       "covers": "弹性vs泛化权衡；连接模块性与活动结构关系"
+    },
+    {
+      "pmid": "40523942",
+      "pmcid": "PMC12643008",
+      "title": "Cerebellar circuit computations for predictive motor control",
+      "authors_short": "Nguyen KP, Person AL",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2025,
+      "first_used": "2026-09-03",
+      "used_in_articles": [
+        "2026-09-03-purkinje-cell-cerebellar-motor-learning"
+      ],
+      "aspects_covered": [
+        "小脑前向控制模型（feedforward control = model-free implicit mapping）",
+        "浦肯野细胞人群编码：抑制型 vs 促进型",
+        "颗粒细胞时序基底集合",
+        "攀爬纤维梯度误差信号的功能框架"
+      ]
+    },
+    {
+      "pmid": "40848722",
+      "pmcid": "PMC12380153",
+      "title": "Reward-driven cerebellar climbing fiber activity influences both neural and behavioral learning",
+      "authors_short": "Jin S, Hull C",
+      "journal": "Current Biology",
+      "year": 2025,
+      "first_used": "2026-09-03",
+      "used_in_articles": [
+        "2026-09-03-purkinje-cell-cerebellar-motor-learning"
+      ],
+      "aspects_covered": [
+        "外侧小脑攀爬纤维的奖励预测误差信号",
+        "刺激阻断效应证实 CF rPE 特性",
+        "光遗传学因果证明下橄榄核在预测性学习中的角色"
+      ]
+    },
+    {
+      "pmid": "37671785",
+      "pmcid": "PMC10541175",
+      "title": "Task-dependent optimal representations for cerebellar learning",
+      "authors_short": "Xie M et al.",
+      "journal": "eLife",
+      "year": 2023,
+      "first_used": "2026-09-03",
+      "used_in_articles": [
+        "2026-09-03-purkinje-cell-cerebellar-motor-learning"
+      ],
+      "aspects_covered": [
+        "颗粒细胞最优编码密度的任务依赖性",
+        "稀疏 vs 密集颗粒细胞激活争议",
+        "颗粒细胞层的频率依赖归纳偏差"
+      ]
+    },
+    {
+      "pmid": "39049990",
+      "pmcid": "PMC11266113",
+      "title": "Purkinje cell models: past, present and future",
+      "authors_short": "Fernández Santoro EM et al.",
+      "journal": "Frontiers in Computational Neuroscience",
+      "year": 2024,
+      "first_used": "2026-09-03",
+      "used_in_articles": [
+        "2026-09-03-purkinje-cell-cerebellar-motor-learning"
+      ],
+      "aspects_covered": [
+        "浦肯野细胞计算模型历史（HH→简化→网络模型）",
+        "多稳态动力学与平台电位",
+        "复杂放电持续时间的量化可塑性信息"
+      ]
+    },
+    {
+      "pmid": "31572132",
+      "pmcid": "PMC6749063",
+      "title": "Climbing Fibers Provide Graded Error Signals in Cerebellar Learning",
+      "authors_short": "Zang Y, De Schutter E",
+      "journal": "Frontiers in Systems Neuroscience",
+      "year": 2019,
+      "first_used": "2026-09-03",
+      "used_in_articles": [
+        "2026-09-03-purkinje-cell-cerebellar-motor-learning"
+      ],
+      "aspects_covered": [
+        "攀爬纤维梯度误差信号机制",
+        "复杂放电持续时间与诱导可塑性的关系",
+        "树突分支特异性 Ca²⁺ 动力学"
+      ]
+    },
+    {
+      "pmid": "37141091",
+      "pmcid": "PMC10258556",
+      "title": "Cerebellar granule cell signaling is indispensable for normal motor performance",
+      "authors_short": "Lee JH et al.",
+      "journal": "Cell Reports",
+      "year": 2023,
+      "first_used": "2026-09-03",
+      "used_in_articles": [
+        "2026-09-03-purkinje-cell-cerebellar-motor-learning"
+      ],
+      "aspects_covered": [
+        "颗粒细胞 CaV2 特异性敲除→严重运动障碍",
+        "颗粒细胞信号负责运动上下文编码",
+        "PC 基线放电在颗粒细胞信号缺失时仍正常"
+      ]
     }
   ],
   "total_sources": 502,

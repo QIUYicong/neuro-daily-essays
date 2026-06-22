@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-09-03 · 文章 #133 · 小脑浦肯野细胞与运动预测学习
+
+**核心主题**：浦肯野细胞如何整合 20 万条平行纤维的运动情景信号与单根攀爬纤维的"误差/预测违反"信号，通过 LTD 等多层可塑性机制实现前向运动控制——重点更新：Nguyen & Person 2025（前向控制为 model-free implicit mapping）；Jin & Hull 2025（攀爬纤维同时携带奖励预测误差，小脑参与广义强化学习）；Schonewille 2011（LTD 非运动学习唯一机制）；Xie 2023（颗粒细胞最优编码密度任务依赖）。图谱从 263 节点/1551 边增至 267 节点/1562 边（+4 节点，+11 边），悬空引用从 1 个降至 0 个。
+
+### 新建 Wiki 页面（4 个）
+
+- `neurons/purkinje-cell.md`（浦肯野细胞）🟢 established · 高置信度 — 小脑皮层唯一输出神经元；20 万 PF 输入 + 1 CF 输入；LTD 分子级联（mGluR1→IP₃→PKC→GluA2 Ser880→AMPAR 内吞）；多层可塑性（Schonewille 2011）；复杂放电梯度可塑性；奖励 CF 信号（Jin 2025，emerging）；Q-pc-01/02/03 三个开放问题；4 项关键来源
+- `neurons/climbing-fiber.md`（攀爬纤维）🟢 established · 高置信度 — 来自下橄榄核；每根与单一 PC 形成 400–500 个突触；触发复杂放电；梯度误差信号（Zang 2019）；奖励预测误差特征（Jin 2025，外侧小脑，emerging）；4 项来源
+- `neurons/granule-cell-cerebellar.md`（小脑颗粒细胞）🟢 established · 高置信度 — 约 690 亿个（全脑神经元 50–80%）；MF→GC→PF 信息展开；稀疏 vs 密集编码争议（Xie 2023：任务依赖最优密度）；Lee 2023 因果证明颗粒细胞信号对运动功能不可或缺；3 项来源
+- `concepts/dacc-conflict-monitoring.md`（dACC 冲突监控）🟢 established · 高置信度 — **填补唯一悬空引用**；导航页指向 anterior-cingulate-cortex 和 conflict-monitoring 主页；连接 dlpfc-cognitive-flexibility 和 stability-flexibility-tradeoff
+
+### 修订 Wiki 页面（2 个）
+
+- `systems/cerebellum.md` rev2→rev3 — 整合 Nguyen & Person 2025（前向控制 = model-free implicit mapping）；整合 Jin & Hull 2025（外侧小脑攀爬纤维携带奖励预测误差）；新增 purkinje-cell/climbing-fiber/granule-cell-cerebellar 三个关联链接；key_sources 新增 PMID:40523942, PMID:40848722；source_articles 追加
+- `concepts/cerebellar-ltd.md` rev1→rev2 — 补充 Zang & De Schutter 2019 梯度 CF 信号（CF 是模拟量非二值）；整合 Jin & Hull 2025（CF 也携带奖励 rPE，"误差"定义需扩展）；新增 purkinje-cell 和 granule-cell-cerebellar 关联；key_sources 新增 PMID:31572132, PMID:40848722
+
+### 图谱与导航
+
+- _graph.json：263→267 节点（+4），1551→1562 边（+11），悬空引用从 1 个（dacc-conflict-monitoring）降至 **0 个**
+- index.md：主题页数 263→267，header 更新，新增 4 个条目
+
+### 矛盾登记
+
+- 无新矛盾登记（Jin & Hull 2025 奖励 CF 信号与经典运动误差 CF 不形成直接矛盾，可能反映小脑功能区域分工；列为未解问题 Q-pc-01）
+
+---
+
 ## 2026-09-02 · 文章 #132 · 除法规范化：大脑皮层的规范计算
 
 **核心主题**：除法规范化（Divisive Normalization, DN）作为皮层"规范计算"——标准方程 $R_j = \gamma D_j^n / (\sigma^n + \sum_k D_k^n)$，统一解释 V1 对比度饱和/交叉朝向抑制/环绕抑制；Reynolds & Heeger 注意力场规范化（注意场宽度 × 刺激大小决定对比度增益 vs 响应增益）；LIP 价值规范化；TRN 全脑信息路由；回路实现（分流性抑制/递归抑制/突触抑制）；Pareto 分布下信息论最优编码（数学定理）；与 Transformer Softmax 的根本差异。图谱从 262 节点/1538 边增至 263 节点/1551 边（+1 节点，+13 边）。

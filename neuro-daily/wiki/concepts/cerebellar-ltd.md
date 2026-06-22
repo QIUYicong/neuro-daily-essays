@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-06-23
-revision_count: 1
+updated: 2026-09-03
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, microcircuit]
-related: [ltd, cerebellum, mGluR1, forward-model, climbing-fiber, parallel-fiber]
+related: [ltd, cerebellum, mGluR1, forward-model, climbing-fiber, parallel-fiber, purkinje-cell, granule-cell-cerebellar]
 prerequisites: [ltd, nmda-receptor, pkc-signaling, ampa-receptor]
 opens_questions: [Q-cb-01, Q-cb-02]
-source_articles: [2026-06-23-cerebellum-motor-prediction]
-key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-03-purkinje-cell-cerebellar-motor-learning]
+key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932", "PMID:31572132", "PMID:40848722"]
 ---
 
 # 小脑 LTD（Cerebellar LTD / PF-PC LTD）
@@ -76,6 +76,7 @@ key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932"]
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：高（分子机制 established）；LTD 非唯一机制也有 established 证据
+- 2026-09-03 · 补充 Zang & De Schutter 2019 梯度 CF 信号证据（CF 信号是模拟量而非二值）；新增 purkinje-cell 和 granule-cell-cerebellar 关联页面；整合 Jin & Hull 2025（CF 也携带奖励 rPE）的意义（攀爬纤维"误差"定义需要扩展）· 基于 2026-09-03-purkinje-cell-cerebellar-motor-learning
 
 ## 来源文章
 

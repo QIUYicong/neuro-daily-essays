@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-02（第132篇·除法规范化·V1规范计算·注意力规范化模型·决策价值规范化·TRN全脑路由）· 主题页总数：**263**（新建1页：concepts/divisive-normalization；修订4页：concepts/gain-control rev5、systems/v1-primary-visual-cortex rev7、concepts/competition-selection-principle rev2、concepts/precision-weighting rev3；图谱263节点/1551边）
+> 最后更新：2026-09-03（第133篇·浦肯野细胞·攀爬纤维·小脑运动预测·颗粒细胞稀疏编码争议·奖励CF信号）· 主题页总数：**267**（新建4页：neurons/purkinje-cell、neurons/climbing-fiber、neurons/granule-cell-cerebellar、concepts/dacc-conflict-monitoring；修订2页：systems/cerebellum rev3、concepts/cerebellar-ltd rev2；图谱267节点/1562边，悬空引用归零）
 
 ---
 
@@ -27,6 +27,9 @@
 - 🟢 [颞下皮层（IT 皮层）](neurons/inferior-temporal-cortex.md) — 腹侧视觉流终点；物体身份的不变性表征；IT 种群活动线性可分（90%+准确率）；无监督时间连续性学习维持不变性；物体空间低维坐标地图（Bao 2020）**[NEW 2026-08-29]**
 - 🟢 [MT/V5 运动区](neurons/mt-v5-motion-area.md) — 背侧流关键中间站；方向选择性；pattern motion 整合；双目视差细胞；MT损毁→运动感知阈值升高（Newsome 1988）；运动盲（akinetopsia）**[NEW 2026-08-30]**
 - 🟢 [中型多棘神经元（MSN）](neurons/medium-spiny-neuron.md) — 纹状体主导细胞（95%+）；D1型→直接通路→D1-cAMP-PKA-DARPP-32-LTP；D2型→间接通路→eCB-CB1-LTD；上行/下行双稳态；灵长类≥9种转录学亚型 **[NEW 2026-09-01]**
+- 🟢 [浦肯野细胞](neurons/purkinje-cell.md) — 小脑皮层唯一输出神经元；接受 ~20 万 PF（运动情景）+ 1 CF（误差/奖励预测违反信号）；LTD（mGluR1→PKC→AMPAR 内吞）；多层可塑性（Schonewille 2011）；复杂放电梯度；奖励 CF 信号（Jin 2025，emerging） **[NEW 2026-09-03]**
+- 🟢 [攀爬纤维](neurons/climbing-fiber.md) — 来自下橄榄核；每根与单一 PC 形成 400–500 个强突触；触发复杂放电（1–4 个去极化波峰，3–30 ms）；梯度误差信号（Zang 2019）；外侧小脑携带奖励预测误差（Jin & Hull 2025，emerging） **[NEW 2026-09-03]**
+- 🟢 [小脑颗粒细胞](neurons/granule-cell-cerebellar.md) — 约 690 亿个（全脑 50–80%）；MF→GC→PF 感觉运动情景高维重编码；稀疏 vs 密集编码争议（Xie 2023：任务依赖最优）；Lee 2023 因果证明对运动功能不可或缺 **[NEW 2026-09-03]**
 - 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，模块化组织（1.4:1间距比），为场所细胞提供坐标框架；人类fMRI六边形信号证实（修订2次）
 - 🟢 [头向细胞](neurons/head-direction-cells.md) — 对头部方向选择性放电的神经元，构成大脑方位罗盘；环形吸引子网络生成；PoS/ADN/LMN/RSC回路 **[NEW 2026-07-27]**
 - 🟢 [边界细胞](neurons/border-cells.md) — MEC/下托中对环境边界距离/方向编码的神经元，为路径积分提供空间锚点防止误差累积 **[NEW 2026-07-27]**
@@ -106,6 +109,7 @@
 - 🟢 [反应抑制](concepts/response-inhibition.md) — 叫停已启动运动/认知程序的能力；rIFG→STN超直接通路（2.2 ms单突触）实现快速全局刹车；SSRT量化刹车速度；反应性/主动性/选择性三模式 **[NEW 2026-08-19]**
 - 🟢 [误差相关负波 (ERN)](concepts/error-related-negativity.md) — 错误后~80ms、dACC/MCC 生成（iEEG证实）；Holroyd & Coles RL 框架（DA 负向 RPE → ERN）；是 FMθ 在错误时刻的相位重置表达；早于主观错误意识觉察 **[NEW 2026-08-23]**
 - 🔵 [冲突监控假说](concepts/conflict-monitoring.md) — Botvinick 2001 框架；Hopfield 能量形式化冲突量；Gratton 效应行为预测；van Veen fMRI 响应冲突特异激活；被 EVC 框架扩展包含 **[NEW 2026-08-23]**
+- 🟢 [dACC 冲突监控](concepts/dacc-conflict-monitoring.md) — dACC 通过检测并行响应通道冲突向 dlPFC 发出认知控制增强信号；ERN/N2 成分；导航页指向 anterior-cingulate-cortex 和 conflict-monitoring 主页 **[NEW 2026-09-03（填补悬空引用）]**
 - 🔵 [控制期望价值 (EVC)](concepts/expected-value-of-control.md) — Shenhav 2013 规范框架；EVC = Σ(收益×概率) − 努力成本；dACC 统一处理错误/冲突/努力/奖励信号；vs dlPFC 执行分工；额外预测奖励效果 **[NEW 2026-08-23]**
 - 🔵 [前额叶中线θ振荡 (FMθ)](concepts/frontal-midline-theta.md) — 4–8Hz，来源 dACC/MCC+preSMA；ERN/N2/FRN 共享θ谱特征；11项跨区同步复制；FMθ→STN同步=冲突驱动反应抑制；θ功率预测 Gratton 效应 **[NEW 2026-08-23]**
 - 🟢 [停止信号任务](concepts/stop-signal-task.md) — 量化反应抑制的标准实验范式；独立赛马模型（Go vs Stop过程竞赛）；SSRT = 中位RT(Go) - 平均SSD；正常值约200-250 ms **[NEW 2026-08-19]**

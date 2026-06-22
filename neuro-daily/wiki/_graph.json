@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-02",
-  "node_count": 263,
-  "edge_count": 1551,
+  "updated": "2026-09-03",
+  "node_count": 267,
+  "edge_count": 1562,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2409,6 +2409,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/divisive-normalization.md"
+    },
+    {
+      "id": "purkinje-cell",
+      "title": "浦肯野细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/purkinje-cell.md"
+    },
+    {
+      "id": "climbing-fiber",
+      "title": "攀爬纤维",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/climbing-fiber.md"
+    },
+    {
+      "id": "granule-cell-cerebellar",
+      "title": "小脑颗粒细胞",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/granule-cell-cerebellar.md"
+    },
+    {
+      "id": "dacc-conflict-monitoring",
+      "title": "dACC 冲突监控",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/dacc-conflict-monitoring.md"
     }
   ],
   "edges": [
@@ -11112,6 +11148,62 @@
       "to": "divisive-normalization",
       "type": "implemented_by",
       "note": "精度加权在回路层由规范化方程实现"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "cerebellar-ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "climbing-fiber",
+      "to": "purkinje-cell",
+      "type": "regulates"
+    },
+    {
+      "from": "granule-cell-cerebellar",
+      "to": "purkinje-cell",
+      "type": "regulates"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "forward-model",
+      "type": "supports"
+    },
+    {
+      "from": "climbing-fiber",
+      "to": "cerebellar-ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "granule-cell-cerebellar",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "climbing-fiber",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "dacc-conflict-monitoring",
+      "to": "anterior-cingulate-cortex",
+      "type": "is-a"
+    },
+    {
+      "from": "dacc-conflict-monitoring",
+      "to": "conflict-monitoring",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "climbing-fiber",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "Jin & Hull 2025: 外侧小脑攀爬纤维携带奖励预测误差信号，与多巴胺系统并行"
     }
   ],
   "dangling_references": [

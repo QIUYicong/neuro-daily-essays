@@ -8174,6 +8174,74 @@
       "knowledge_base_date": "2026-09-01",
       "system_clock_date": "2026-06-22",
       "date_note": "系统时钟显示2026-06-22 UTC+8，使用知识库连续性日期2026-09-01"
+,
+    {
+      "date": "2026-09-03",
+      "article_number": 133,
+      "title": "小脑里的误差教师：浦肯野细胞如何将攀爬纤维信号转化为运动预测",
+      "slug": "purkinje-cell-cerebellar-motor-learning",
+      "core_question": "浦肯野细胞如何通过整合 20 万条平行纤维的情景信号与单根攀爬纤维的误差/奖励预测信号，经由 LTD 等多层可塑性机制实现运动预测的持续优化？",
+      "layer": [
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "behavior"
+      ],
+      "curriculum_track": "课程脊柱1（神经元如何工作：特殊神经元类型）+ 课程脊柱4（学习和记忆：小脑程序性记忆）",
+      "topic_tags": [
+        "purkinje-cell",
+        "climbing-fiber",
+        "granule-cell",
+        "cerebellar-LTD",
+        "cerebellum",
+        "motor-learning",
+        "forward-model",
+        "Marr-Albus-Ito",
+        "reward-prediction-error",
+        "supervised-learning",
+        "perceptron",
+        "inferior-olive",
+        "DCN",
+        "parallel-fiber"
+      ],
+      "main_sources": [
+        "PMID:40523942 / PMC12643008 (Nature Reviews Neuroscience 2025, full text)",
+        "PMID:40848722 / PMC12380153 (Current Biology 2025, full text)",
+        "PMID:37671785 / PMC10541175 (eLife 2023, full text)",
+        "PMID:39049990 / PMC11266113 (Front. Computational Neuroscience 2024, full text)",
+        "PMID:31572132 / PMC6749063 (Front. Systems Neuroscience 2019, full text)",
+        "PMID:21482355 / PMC3104468 (Neuron 2011, full text)",
+        "PMID:37141091 / PMC10258556 (Cell Reports 2023, full text)"
+      ],
+      "open_full_text": 7,
+      "abstract_only": 0,
+      "wiki_pages_created": [
+        "wiki/neurons/purkinje-cell.md",
+        "wiki/neurons/climbing-fiber.md",
+        "wiki/neurons/granule-cell-cerebellar.md",
+        "wiki/concepts/dacc-conflict-monitoring.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/cerebellum.md (rev2→rev3)",
+        "wiki/concepts/cerebellar-ltd.md (rev1→rev2)"
+      ],
+      "contested_claims_registered": [],
+      "unresolved_questions_added": [
+        "Q-pc-01 (CF 奖励 vs 运动误差信号整合，高优先级)",
+        "Q-pc-02 (PC 停顿/爆发在 DCN 解读，高优先级)",
+        "Q-gc-01 (GC 体内激活密度任务依赖性，中优先级)"
+      ],
+      "next_suggested_topics": [
+        "DARPP-32：磷酸化调控的信号整合关键蛋白（填补悬空引用，来自 MSN 文章建议）",
+        "胆碱能中间神经元（ChAT+ TAN）：纹状体中 5% 但调控全局的局部主导者",
+        "深部小脑核（DCN）：小脑信息输出的最终计算站",
+        "小脑认知情感综合征（CCAS）：当运动小脑迁移为认知小脑",
+        "前向模型 vs 逆向模型：小脑内部模型的计算神经科学理论"
+      ],
+      "knowledge_base_date": "2026-09-03",
+      "system_clock_date": "2026-06-22",
+      "date_note": "系统时钟显示2026-06-22 UTC+8，使用知识库连续性日期2026-09-03"
     }
   ],
   "layer_coverage_recent": {
