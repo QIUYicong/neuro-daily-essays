@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-01",
+  "article": "2026-09-01-medium-spiny-neurons-striatum.md",
+  "topic": "纹状体中型多棘神经元（MSN）：D1/D2通路、突触可塑性与习惯学习",
+  "sources": [
+    {
+      "id": "PMC10572094",
+      "pmid": "37841525",
+      "doi": "10.1093/function/zqad056",
+      "title": "Striatal Dopamine Signals and Reward Learning",
+      "journal": "Function (Oxford)",
+      "year": 2023,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10572094/",
+      "open_access": true,
+      "full_text_read": true,
+      "type": "review+experiment",
+      "covers": ["dopamine RPE", "D1/D2 MSN in reward learning", "LTP time window", "credit assignment problem"]
+    },
+    {
+      "id": "PMC7231228",
+      "pmid": "31171839",
+      "doi": "10.1038/s41583-019-0189-2",
+      "title": "Striatal circuits for reward learning and decision-making",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2019,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7231228/",
+      "open_access": true,
+      "full_text_read": true,
+      "type": "review",
+      "covers": ["DMS vs DLS functional division", "habit vs goal-directed", "D1/D2 circuit roles", "lesion studies"]
+    },
+    {
+      "id": "PMC3235731",
+      "pmid": "21906660",
+      "doi": "10.1016/j.neuroscience.2011.08.051",
+      "title": "Dopaminergic modulation of striatal neurons, circuits and assemblies",
+      "journal": "Neuroscience",
+      "year": 2011,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3235731/",
+      "open_access": true,
+      "full_text_read": true,
+      "type": "review",
+      "covers": ["up/down state bistability", "Kir2 channel", "D1/D2 excitability modulation", "dendritic anatomy dMSN vs iMSN"]
+    },
+    {
+      "id": "PMC9359438",
+      "pmid": "34727523",
+      "doi": "10.1016/j.cub.2021.10.015",
+      "title": "Transcriptional and Anatomical Diversity of Medium Spiny Neurons in the Primate Striatum",
+      "journal": "Current Biology",
+      "year": 2022,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9359438/",
+      "open_access": true,
+      "full_text_read": true,
+      "type": "original research",
+      "covers": ["MSN subtypes single-cell transcriptomics", "primate striatum diversity", "striosome vs matrix", "D1-NUDAP hedonic hotspot"]
+    },
+    {
+      "id": "PMC2849868",
+      "pmid": "20096294",
+      "doi": "10.1016/j.neuropharm.2010.01.008",
+      "title": "Neurotransmitter roles in synaptic modulation, plasticity and learning in the dorsal striatum",
+      "journal": "Neuropharmacology",
+      "year": 2010,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2849868/",
+      "open_access": true,
+      "full_text_read": true,
+      "type": "review",
+      "covers": ["striatal LTP mechanism", "eCB-LTD mechanism", "NMDA receptor", "DARPP-32", "D1/D2 in plasticity"]
+    },
+    {
+      "id": "PMC3487690",
+      "pmid": "21469956",
+      "doi": "10.1146/annurev-neuro-061010-113641",
+      "title": "Modulation of striatal projection systems by dopamine (Gerfen & Surmeier)",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2011,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3487690/",
+      "open_access": true,
+      "full_text_read": true,
+      "type": "review",
+      "covers": ["D1 Gs-cAMP-PKA-DARPP32 pathway", "D2 Gi-eCB pathway", "Parkinson's dopamine depletion", "direct/indirect pathway anatomy"]
+    },
+    {
+      "id": "PMC4820336",
+      "pmid": "18267246",
+      "doi": "10.1016/S1353-8020(08)70012-9",
+      "title": "Striatal plasticity and medium spiny neuron dendritic remodeling in parkinsonism",
+      "journal": "Parkinsonism & Related Disorders",
+      "year": 2008,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4820336/",
+      "open_access": true,
+      "full_text_read": true,
+      "type": "review",
+      "covers": ["MSN dendritic spine loss in PD", "D2-MSN selective vulnerability", "CaV1.3 calcium channel", "CaMKII", "irreversible spine loss"]
+    },
+    {
+      "id": "PMC5528162",
+      "pmid": "27373834",
+      "doi": "10.1016/j.neuron.2016.06.010",
+      "title": "Activation of direct and indirect pathway medium spiny neurons drives distinct brain-wide responses",
+      "journal": "Neuron",
+      "year": 2016,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5528162/",
+      "open_access": true,
+      "full_text_read": true,
+      "type": "original research",
+      "covers": ["optogenetic fMRI", "D1 vs D2 activation brain-wide", "thalamus BOLD response", "direct pathway causal evidence"]
+    },
+    {
+      "id": "PMC8590810",
+      "pmid": "33977645",
+      "doi": "10.1111/febs.15908",
+      "title": "Interpreting the role of the striatum during multiple phases of motor learning",
+      "journal": "FEBS Journal",
+      "year": 2021,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8590810/",
+      "open_access": true,
+      "full_text_read": true,
+      "type": "review",
+      "covers": ["four phases of motor learning", "DMS early learning", "DLS habit consolidation", "MSN activity during learning"]
+    }
+  ],
+  "sources_summary": {
+    "total": 9,
+    "open_full_text": 9,
+    "abstract_only": 0,
+    "original_research": 2,
+    "reviews": 7,
+    "official_institutional": 0
+  },
+  "notes": "所有来源均为PMC开放全文，已直接读取。无来源需要标注'未读取全文'。"
+}

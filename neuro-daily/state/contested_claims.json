@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-08-08",
+  "last_updated": "2026-09-01",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 3,
+  "open_count": 4,
   "resolved_count": 0,
   "claims": [
     {
@@ -80,6 +80,18 @@
       "source_article": "2026-07-02-astrocyte-tripartite-synapse",
       "priority": "high",
       "note": "D-丝氨酸的 Ca²⁺ 依赖释放证据（Henneberger 2010）比谷氨酸胞吐证据更强；核心争议现集中在谷氨酸；D-丝氨酸可能确实通过囊泡机制，而谷氨酸可能主要通过 VRAC 或连接蛋白通道"
+    },
+    {
+      "id": "C-2026-09-01-01",
+      "page": "wiki/diseases/parkinsons-disease.md",
+      "claim_A": "原wiki页（创建于2026-06-14）：DA耗竭后dSPNs（D1-MSN，直接通路）树突棘密度降低~30%（基于Gerfen & Surmeier 2011综述）",
+      "claim_B": "新证据（Day et al. 2008, PMID:18267246）：DA耗竭后选择性丢失棘的是iSPNs（D2-MSN，间接通路），丢失30-50%；D1-MSN基本不受影响；机制：CaV1.3 L型钙通道抑制解除→Ca²⁺内流→CaMKII过激活",
+      "nature": "细胞亚型归因差异：两篇来源对树突棘丢失的MSN亚型归因相反。可能：(a)Gerfen 2011可能指突触权重变化而非形态棘丢失；(b)不同模型（MPTP vs 6-OHDA）可能产生不同结果；(c)两种MSN都受影响但程度不同",
+      "status": "open",
+      "opened": "2026-09-01",
+      "source_article": "2026-09-01-medium-spiny-neurons-striatum",
+      "priority": "medium",
+      "note": "已更新PD wiki页将主要内容改为iSPN受损（新证据），旧来源具体表述需后续核实"
     }
   ]
 }

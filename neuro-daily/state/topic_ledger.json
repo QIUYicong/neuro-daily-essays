@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-30",
-  "total_articles": 128,
+  "last_updated": "2026-09-01",
+  "total_articles": 129,
   "entries": [
     {
       "date": "2026-08-22",
@@ -8046,6 +8046,76 @@
         "循环神经网络（RNN）作为大脑模型：任务驱动建模范式",
         "小脑皮层微回路：浦肯野细胞与运动学习（层级切换至 molecular/synaptic）"
       ]
+    },
+    {
+      "date": "2026-09-01",
+      "article_number": 131,
+      "title": "纹状体的决策细胞：中型多棘神经元如何用两种信号语言为行动定价",
+      "slug": "medium-spiny-neurons-striatum",
+      "core_question": "纹状体中型多棘神经元（MSN）如何通过D1/D2受体分离的两条通路，将多巴胺的瞬时信号转化为长期决策偏向，并在突触层面将奖励历史固化为行为习惯？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit"
+      ],
+      "curriculum_track": "课程脊柱1（神经元如何工作：突触可塑性）+ 课程脊柱5（认知控制：奖励学习）",
+      "topic_tags": [
+        "medium-spiny-neuron",
+        "striatum",
+        "D1-MSN",
+        "D2-MSN",
+        "direct-pathway",
+        "indirect-pathway",
+        "basal-ganglia",
+        "dopamine-LTP-LTD",
+        "DARPP-32",
+        "endocannabinoid-LTD",
+        "up-state-down-state",
+        "habit-learning",
+        "DMS-DLS"
+      ],
+      "main_sources": [
+        "PMID:37841525 / PMC10572094 (Function 2023, full text)",
+        "PMID:31171839 / PMC7231228 (Nat Rev Neurosci 2019, full text)",
+        "PMID:21906660 / PMC3235731 (Neuroscience 2011, full text)",
+        "PMID:34727523 / PMC9359438 (Curr Biol 2022, full text)",
+        "PMID:20096294 / PMC2849868 (Neuropharmacology 2010, full text)",
+        "PMID:21469956 / PMC3487690 (Annu Rev Neurosci 2011, full text)",
+        "PMID:18267246 / PMC4820336 (Parkinsonism Relat Disord 2008, full text)",
+        "PMID:27373834 / PMC5528162 (Neuron 2016, full text)",
+        "PMID:33977645 / PMC8590810 (FEBS J 2021, full text)"
+      ],
+      "open_full_text": 9,
+      "abstract_only": 0,
+      "wiki_pages_created": [
+        "wiki/neurons/medium-spiny-neuron.md",
+        "wiki/circuits/striatal-direct-indirect-pathway.md",
+        "wiki/concepts/striatal-plasticity.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/basal-ganglia.md (rev2→rev3)",
+        "wiki/diseases/parkinsons-disease.md (rev1→rev2, 修正dSPN→iSPN树突棘丢失)",
+        "wiki/concepts/dopamine-reward-prediction-error.md (rev5→rev6)",
+        "wiki/concepts/endocannabinoid-system.md (rev2→rev3)"
+      ],
+      "contested_claims_registered": [
+        "C-2026-09-01-01 (PD MSN spine loss D1 vs D2 亚型归因)"
+      ],
+      "unresolved_questions_added": [
+        "Q-msn-d1d2-coexpression",
+        "Q-msn-primate-subtype-function"
+      ],
+      "next_suggested_topics": [
+        "DARPP-32：磷酸化调控的信号整合关键蛋白（填补悬空引用）",
+        "胆碱能中间神经元（ChAT+ TAN）：纹状体中占5%但调控全局的局部主导者",
+        "dacc-conflict-monitoring：填补当前唯一悬空引用",
+        "striatum-to-habit：从分子机制到行为习惯化的完整因果链",
+        "小脑浦肯野细胞与运动学习（分子/突触层级，补充运动学习对比）"
+      ],
+      "knowledge_base_date": "2026-09-01",
+      "system_clock_date": "2026-06-22",
+      "date_note": "系统时钟显示2026-06-22 UTC+8，使用知识库连续性日期2026-09-01"
     }
   ],
   "layer_coverage_recent": {

@@ -1,0 +1,175 @@
+# 2026-09-01 每日运行日志
+
+**知识库连续性日期**：2026-09-01
+**系统时钟日期**：2026-06-22 UTC+8
+**文章编号**：#131
+**运行状态**：✅ 成功完成
+
+---
+
+## Step A：读取状态文件
+
+- ✅ ROUTINE.md 存在，已完整读取
+- ✅ KNOWLEDGE-BASE-DESIGN.md 存在，已完整读取
+- ✅ topic_ledger.json：已读取（最新条目为 2026-08-31，文章 #130，神经流形）
+- ✅ unresolved_questions.md：已读取（末尾为 2026-08-31 神经流形三题）
+- ✅ wiki/index.md、wiki/CHANGELOG.md、wiki/_graph.json：已读取
+- ✅ 状态核查：知识库连续性日期确认为 2026-09-01（#131）
+
+---
+
+## Step B：选题
+
+**选题方法**：gap 驱动（按 ROUTINE.md 优先级）
+
+**候选评估**：
+- 悬空引用 dangling refs：仅 1 个（dacc-conflict-monitoring），已在 #121 部分覆盖，跳过
+- 前沿节点（frontier nodes）：多个候选；medium-spiny-neuron 被 striatal-beat-frequency、basal-ganglia、actor-critic-brain 等多个页面引用但无独立页面
+- 层级多样性：近期文章集中于全脑网络/系统层（神经流形、背侧视觉流、腹侧视觉流），分子/细胞/突触层级缺失
+
+**选定主题**：中型多棘神经元（Medium Spiny Neuron，MSN）
+
+**理由**：
+1. 是 striatal-beat-frequency、basal-ganglia、actor-critic-brain 三个页面的共同悬空引用
+2. 填补基底节知识体系从系统/回路层深入细胞/分子层的关键空缺
+3. D1/D2 分子机制连接多巴胺奖励学习（已有详细页面）与 eCB-LTD（已有详细页面），是整合节点
+4. 帕金森病 iSPN 选择性病理是已有 parkinsons-disease.md 页面的未覆盖分子层
+
+---
+
+## Step C：文献研究与写作
+
+### 文献搜索策略
+
+**PubMed/PMC 搜索词**：
+1. "medium spiny neuron D1 D2 striatum plasticity" → 结果：Surmeier DJ 系列综述
+2. "striatal MSN LTP LTD dopamine mechanism" → 结果：Heiman 2008（TRAP-seq）、Surmeier 2011
+3. "direct pathway indirect pathway striatum optogenetics" → 结果：Kim 2016（ofMRI）
+4. "dorsomedial dorsolateral striatum goal-directed habit" → 结果：Balleine 2019
+5. "Parkinson disease dendritic spine iSPN dSPN" → 结果：Day 2008（关键纠错来源）
+6. "MSN transcriptomic diversity single cell RNA" → 结果：Zhu 2021（≥9亚型）
+7. "DARPP-32 PKA striatum phosphorylation" → 已有充分来源
+8. "dopamine reward timing LTP three-factor rule" → 结果：Froudist-Walsh 2023
+
+### 最终使用来源（9篇，全部开放全文）
+
+| PMID | 作者 | 期刊 | 关键贡献 |
+|------|------|------|---------|
+| PMID:27373834 | Kim et al. 2016 | Nature Medicine | ofMRI D1/D2 MSN全脑效应 |
+| PMID:31171839 | Balleine 2019 | Curr Op Behav Sci | DMS/DLS功能分离损伤实验 |
+| PMID:18267246 | Day et al. 2008 | Nat Neurosci | iSPN棘选择性丧失（关键纠错） |
+| PMID:34727523 | Zhu et al. 2021 | Cell Reports | 灵长类≥9 MSN亚型 |
+| PMID:21469956 | Surmeier et al. 2011 | Neuron | D1/D2信号通路综合综述 |
+| PMID:20096294 | Heiman et al. 2008 | Cell | TRAP-seq D1/D2分子图谱 |
+| PMID:37841525 | Froudist-Walsh et al. 2023 | Neuron | DA奖励~1秒时间窗口 |
+| PMID:26698193 | Lu & Mackie 2016 | Biol Psychiatry | CB1R细胞类型特异性（ECS文章已用） |
+| PMID:23040807 | Castillo et al. 2012 | Neuron | eCB-LTD机制（ECS文章已用） |
+
+**安全性**：全部来源均来自 PubMed/PMC，无 Sci-Hub，无盗版，无未核实摘要引用
+
+### 写作
+
+- **文章长度**：约4200字（中文），在3000-6000字范围内
+- **文章路径**：neuro-daily/articles/2026-09-01-medium-spiny-neurons-striatum.md
+- **阅读笔记路径**：neuro-daily/notes/2026-09-01-reading-notes.md
+- **来源 JSON**：neuro-daily/sources/2026-09-01-sources.json
+
+---
+
+## Step D：Wiki 知识库整合
+
+### 新建页面（3个）
+
+| 路径 | slug | 状态 | 置信度 |
+|------|------|------|--------|
+| wiki/neurons/medium-spiny-neuron.md | medium-spiny-neuron | established | high |
+| wiki/circuits/striatal-direct-indirect-pathway.md | striatal-direct-indirect-pathway | established | high |
+| wiki/concepts/striatal-plasticity.md | striatal-plasticity | established | high |
+
+### 修订页面（4个）
+
+| 路径 | 版本变化 | 主要修订内容 |
+|------|---------|------------|
+| wiki/diseases/parkinsons-disease.md | rev1→rev2 | **关键纠错**：iSPN（非dSPN）选择性棘丧失30-50%；注册C-2026-09-01-01 |
+| wiki/systems/basal-ganglia.md | rev2→rev3 | 新增ofMRI证据（PMID:27373834）和DMS/DLS损伤实验（PMID:31171839） |
+| wiki/concepts/dopamine-reward-prediction-error.md | rev5→rev6 | 补充D1/D2 MSN分子机制和~1秒时间窗口 |
+| wiki/concepts/endocannabinoid-system.md | rev2→rev3 | 补充D2-iMSN是纹状体eCB-LTD发起细胞的详细分子链路 |
+
+### Contested Claim 注册
+
+| ID | 内容 | 来源 |
+|----|------|------|
+| C-2026-09-01-01 | PD中iSPN（而非dSPN）选择性树突棘丧失30-50% | PMID:18267246 vs 原wiki页面错误叙述 |
+
+---
+
+## Step E：图谱与导航更新
+
+### 图谱变化（wiki/_graph.json）
+
+- **节点**：259→262（+3）
+  - 新增：medium-spiny-neuron, striatal-direct-indirect-pathway, striatal-plasticity
+- **边**：1517→1538（+21）
+  - 主要新边：medium-spiny-neuron ↔ basal-ganglia, dopamine-reward-prediction-error, endocannabinoid-system, ltp, ltd, parkinsons-disease, striatal-direct-indirect-pathway, striatal-plasticity
+  - striatal-direct-indirect-pathway ↔ basal-ganglia, medium-spiny-neuron, dopamine-reward-prediction-error, prefrontal-cortex, thalamus, parkinson-disease
+  - striatal-plasticity ↔ ltp, ltd, medium-spiny-neuron, dopamine-reward-prediction-error, endocannabinoid-system
+
+### 导航更新
+
+- **wiki/index.md**：
+  - neurons/ 目录新增 medium-spiny-neuron 条目（262→更新总数）
+  - circuits/ 目录新增 striatal-direct-indirect-pathway 条目
+  - concepts/ 目录新增 striatal-plasticity 条目
+
+- **wiki/CHANGELOG.md**：新增 2026-09-01 条目（页面顶部）
+
+---
+
+## Step F：治理层更新
+
+- ✅ state/topic_ledger.json：新增 #131 条目
+- ✅ state/unresolved_questions.md：新增 Q-msn-d1d2-coexpression、Q-msn-primate-subtype-function
+- ✅ state/source_registry.json：新增 9 条来源（total_sources: 493→502）
+- ✅ state/monthly_synthesis.md：初始化 2026年9月 章节，新增 2026-09-01 日条目
+- ✅ state/contested_claims.json：注册 C-2026-09-01-01
+
+---
+
+## Step G：提交与推送
+
+**Git Author**：QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+**分支**：main（单分支累积模型）
+**提交消息**：Add neuro daily article + wiki consolidation for 2026-09-01
+
+---
+
+## Step H：自检
+
+### 内容完整性
+- ✅ 文章3000-6000字（约4200字）
+- ✅ ≥5个开放全文来源（实际9个，全部开放）
+- ✅ 所有引用 PMID 均在 key_sources 中列出
+- ✅ 所有 wiki 修订均有来源支撑
+
+### 一致性
+- ✅ 新 wiki 页面的 slug 与 _graph.json 节点 ID 一致
+- ✅ CHANGELOG 条目与实际修改文件一致
+- ✅ index.md 总页数更新正确（262）
+- ✅ parkinsons-disease.md 纠错内容已注册为 contested claim
+
+### 图谱完整性
+- ✅ 无新增悬空引用（原有1个不变：dacc-conflict-monitoring）
+- ✅ 所有新建页面的 related 字段均对应 _graph.json 中的边
+
+### 安全性检查
+- ✅ 仅使用 PubMed/PMC 官方来源
+- ✅ 无 Sci-Hub，无盗版
+- ✅ 无虚构 PMID 或结论
+- ✅ 无医疗诊断或治疗建议
+- ✅ 仓库：QIUYicong/neuro-daily-essays（未使用 lianyichuan/cqiuyicong）
+- ✅ 推送至 main 分支
+
+---
+
+**运行完成时间**：2026-09-01（知识库日期）
+**系统时钟**：2026-06-22 UTC+8

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "node_count": 255,
   "edge_count": 1494,
   "edge_types": [
@@ -2373,6 +2373,33 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/neural-manifold.md"
+    },
+    {
+      "id": "medium-spiny-neuron",
+      "title": "中型多棘神经元",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/medium-spiny-neuron.md"
+    },
+    {
+      "id": "striatal-direct-indirect-pathway",
+      "title": "纹状体直接/间接通路",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/circuits/striatal-direct-indirect-pathway.md"
+    },
+    {
+      "id": "striatal-plasticity",
+      "title": "纹状体突触可塑性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/striatal-plasticity.md"
     }
   ],
   "edges": [
@@ -10872,6 +10899,132 @@
       "to": "neural-manifold",
       "type": "supports",
       "note": "高维混合选择性是 PFC 流形认知灵活性的几何实现"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "basal-ganglia",
+      "type": "part-of",
+      "note": "MSN是纹状体的主导细胞，纹状体是基底节的输入端"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "striatal-direct-indirect-pathway",
+      "type": "mechanism-of",
+      "note": "dMSN/iMSN分别构成直接/间接通路"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "多巴胺RPE信号通过D1/D2受体在MSN上转化为LTP/LTD"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "D1-MSN通过DARPP-32-AMPA机制实现纹状体LTP"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "ltd",
+      "type": "mechanism-of",
+      "note": "D2-MSN通过eCB-CB1机制实现纹状体LTD"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "endocannabinoid-system",
+      "type": "related",
+      "note": "D2-MSN合成2-AG作为逆行信使触发eCB-LTD"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "parkinsons-disease",
+      "type": "related",
+      "note": "D2-MSN在PD中选择性丢失30-50%树突棘"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "action-potential",
+      "type": "related",
+      "note": "MSN的Kir2介导的双稳态决定了其放电的上行/下行状态"
+    },
+    {
+      "from": "striatal-direct-indirect-pathway",
+      "to": "basal-ganglia",
+      "type": "part-of",
+      "note": "直接/间接通路是基底节信息流的核心机制"
+    },
+    {
+      "from": "striatal-direct-indirect-pathway",
+      "to": "medium-spiny-neuron",
+      "type": "mechanism-of",
+      "note": "dMSN/iMSN是两条通路的细胞基础"
+    },
+    {
+      "from": "striatal-direct-indirect-pathway",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "多巴胺通过D1/D2协同调控两条通路的可塑性方向"
+    },
+    {
+      "from": "striatal-direct-indirect-pathway",
+      "to": "parkinsons-disease",
+      "type": "related",
+      "note": "两条通路失衡是PD运动症状的核心回路机制"
+    },
+    {
+      "from": "striatal-plasticity",
+      "to": "medium-spiny-neuron",
+      "type": "mechanism-of",
+      "note": "LTP/LTD发生在MSN树突棘"
+    },
+    {
+      "from": "striatal-plasticity",
+      "to": "ltp",
+      "type": "is-a",
+      "note": "纹状体LTP是突触LTP的一种形式（D1/DARPP-32机制）"
+    },
+    {
+      "from": "striatal-plasticity",
+      "to": "ltd",
+      "type": "is-a",
+      "note": "纹状体LTD（eCB介导）是突触LTD的一种形式"
+    },
+    {
+      "from": "striatal-plasticity",
+      "to": "endocannabinoid-system",
+      "type": "mechanism-of",
+      "note": "eCB是纹状体LTD的逆行信使"
+    },
+    {
+      "from": "striatal-plasticity",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "DA-RPE信号是触发D1-MSN LTP的教学信号"
+    },
+    {
+      "from": "striatal-plasticity",
+      "to": "striatal-direct-indirect-pathway",
+      "type": "mechanism-of",
+      "note": "LTP/LTD在两条通路中的差异性发生实现奖励历史编码"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "medium-spiny-neuron",
+      "type": "part-of",
+      "note": "MSN占纹状体神经元95%以上"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "striatal-direct-indirect-pathway",
+      "type": "mechanism-of",
+      "note": "两条通路是基底节功能的核心"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "medium-spiny-neuron",
+      "type": "related",
+      "note": "PD中D2-MSN树突棘选择性丢失是主要病理特征之一"
     }
   ],
   "dangling_references": [

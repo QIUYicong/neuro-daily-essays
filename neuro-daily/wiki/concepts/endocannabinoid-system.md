@@ -7,13 +7,13 @@ status: established
 confidence: high
 created: 2026-08-05
 updated: 2026-08-20
-revision_count: 2
+revision_count: 3
 dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, behavior]
 related: [cb1-receptor, ltd, fear-extinction, stdp, ltp, amygdala, cerebellum, basal-ganglia, placebo-analgesia, endogenous-opioid-system, tripartite-synapse, nmda-receptor, voltage-gated-calcium-channels, short-term-synaptic-plasticity]
 prerequisites: [synaptic-transmission, voltage-gated-calcium-channels, nmda-receptor, ltd]
 opens_questions: [Q-ecb-01, Q-ecb-02, Q-ecb-03, Q-ecb-04]
-source_articles: [2026-08-05-endocannabinoid-retrograde-signaling]
-key_sources: ["PMID:23040807", "PMID:26698193", "PMID:11279497", "PMID:11588204", "PMID:19126760", "PMID:16776579"]
+source_articles: [2026-08-05-endocannabinoid-retrograde-signaling, 2026-09-01-medium-spiny-neurons-striatum]
+key_sources: ["PMID:23040807", "PMID:26698193", "PMID:11279497", "PMID:11588204", "PMID:19126760", "PMID:16776579", "PMID:20096294", "PMID:21469956"]
 ---
 
 # 内源性大麻素系统 (Endocannabinoid System, ECS)
@@ -95,6 +95,8 @@ CB1R 持续激活（分钟级）→ **Gαi** → ↓腺苷酸环化酶 → ↓cA
 - [[stdp]] — CB1-LTD 是 STDP 后时序（tpost < tpre）诱导 LTD 的一个实施机制
 - [[amygdala]] — 恐惧消退的关键 ECS 作用区域
 - [[basal-ganglia]] — 皮层-纹状体 eCB-LTD 与习惯形成
+- [[medium-spiny-neuron]] — D2-iMSN是纹状体eCB-LTD的发起细胞：D2受体激活+mGluR→2-AG合成→CB1→谷氨酸释放概率持久降低
+- [[striatal-plasticity]] — 纹状体LTD（eCB介导）与LTP（DARPP-32介导）的分工
 - [[cerebellum]] — 小脑 DSE 和平行纤维 LTD
 - [[tripartite-synapse]] — 星形胶质细胞 CB1R 参与异突触调制
 - [[endogenous-opioid-system]] — 两大"止痛/止恐"神经调质系统，在 PAG 和脊髓有功能协同；在 NAc 壳区享乐热点内，eCB 的 liking 增强依赖内源性阿片信号同时激活（功能耦合，Mitchell 2018，PMID:30069500）
@@ -112,8 +114,10 @@ CB1R 持续激活（分钟级）→ **Gαi** → ↓腺苷酸环化酶 → ↓cA
 
 - 2026-08-20 · 修订 rev2 · 基于《伏隔核的奖赏解剖》文章 #118 · 连接节新增 nucleus-accumbens（NAc壳区eCB享乐热点、社会奖赏eCB信号）和 hedonic-hotspot；endogenous-opioid-system 连接注释补充 NAc 壳区热点内eCB-阿片功能耦合（Mitchell 2018）
 - 2026-08-05 · 创建 · 基于《逆行的信使》文章 #104 · 初始置信度：高（核心机制来自 Castillo 2012、Lu & Mackie 2016 开放全文）
+- 2026-09-01 · 修订 rev3 · 基于《纹状体的决策细胞》一文（#131）· 连接节新增medium-spiny-neuron（D2-iMSN是纹状体eCB-LTD发起细胞，详细分子链路：D2+mGluR→2-AG→CB1→LTD）和striatal-plasticity（纹状体LTP/LTD分工）· 来源：PMID:20096294, PMID:21469956
 
 ## 来源文章
 
 - [[2026-08-05-endocannabinoid-retrograde-signaling]]
 - [[2026-08-20-nucleus-accumbens-wanting-liking-reward-circuit]]
+- [[2026-09-01-medium-spiny-neurons-striatum]]

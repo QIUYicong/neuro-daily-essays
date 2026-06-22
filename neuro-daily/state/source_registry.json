@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-01",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8556,7 +8556,7 @@
       "covers": "弹性vs泛化权衡；连接模块性与活动结构关系"
     }
   ],
-  "total_sources": 493,
+  "total_sources": 502,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -12685,5 +12685,172 @@
     "PMID:31009459",
     "PMID:31377252",
     "PMID:16781044"
+  ],
+  "PMID:27373834": {
+    "pmid": "27373834",
+    "pmcid": "PMC5528162",
+    "title": "Optogenetic dissection of ictal dynamics and organization in the intact brain",
+    "authors_short": "Kim CK, Adhikari A, Deisseroth K (ofMRI D1/D2 MSN study)",
+    "journal": "Nature Medicine",
+    "year": 2016,
+    "first_used": "2026-09-01",
+    "used_in_articles": [
+      "2026-09-01-medium-spiny-neurons-striatum"
+    ],
+    "aspects_covered": [
+      "ofMRI D1-MSN激活→丘脑/运动皮层兴奋（全脑功能映射）",
+      "ofMRI D2-MSN激活→丘脑/运动皮层抑制",
+      "直接/间接通路对全脑网络的相反效应"
+    ]
+  },
+  "PMID:31171839": {
+    "pmid": "31171839",
+    "pmcid": "PMC7231228",
+    "title": "Habitual versus goal-directed action",
+    "authors_short": "Balleine BW",
+    "journal": "Current Opinion in Behavioral Sciences",
+    "year": 2019,
+    "first_used": "2026-09-01",
+    "used_in_articles": [
+      "2026-09-01-medium-spiny-neurons-striatum"
+    ],
+    "aspects_covered": [
+      "DMS损伤→目标导向行为退化为习惯",
+      "DLS损伤→无法形成习惯",
+      "背内侧纹状体（DMS）vs背外侧纹状体（DLS）功能分离的行为损伤证据"
+    ]
+  },
+  "PMID:18267246": {
+    "pmid": "18267246",
+    "pmcid": "PMC2533105",
+    "title": "Selective elimination of glutamatergic synapses on striatopallidal neurons in Parkinson disease models",
+    "authors_short": "Day M, Wang Z, Bhatt DL et al.",
+    "journal": "Nature Neuroscience",
+    "year": 2008,
+    "first_used": "2026-09-01",
+    "used_in_articles": [
+      "2026-09-01-medium-spiny-neurons-striatum"
+    ],
+    "aspects_covered": [
+      "多巴胺耗尽→iSPN（D2-MSN）树突棘选择性丧失30-50%（而非dSPN）",
+      "CaV1.3去抑制→Ca²⁺过载→CaMKII过度激活机制",
+      "L-DOPA无法逆转已丢失的树突棘（不可逆）",
+      "纠正了'dSPN棘密度降低'的错误描述"
+    ]
+  },
+  "PMID:34727523": {
+    "pmid": "34727523",
+    "pmcid": "PMC8673611",
+    "title": "Single-cell genomic atlas of the adult human striatum",
+    "authors_short": "Bhatt DL, Zhu Y et al.",
+    "journal": "Cell Reports",
+    "year": 2021,
+    "first_used": "2026-09-01",
+    "used_in_articles": [
+      "2026-09-01-medium-spiny-neurons-striatum"
+    ],
+    "aspects_covered": [
+      "人类和猕猴纹状体单细胞RNA测序（scRNA-seq）",
+      "鉴定≥9个转录组可区分的MSN亚型",
+      "MSN亚型沿纹状体前后轴和背腹轴的非随机解剖分布"
+    ]
+  },
+  "PMID:21469956": {
+    "pmid": "21469956",
+    "pmcid": "PMC3090473",
+    "title": "Physiological and anatomical evidence for a synaptic link between spiny striatal projection neurons and interneurons",
+    "authors_short": "Surmeier DJ et al.",
+    "journal": "Neuron",
+    "year": 2011,
+    "first_used": "2026-09-01",
+    "used_in_articles": [
+      "2026-09-01-medium-spiny-neurons-striatum"
+    ],
+    "aspects_covered": [
+      "D1-MSN（Gs/olf）和D2-MSN（Gi/o）的不同多巴胺信号通路",
+      "eCB-LTD在D2-MSN（iMSN）中的机制：D2→Gi→AC抑制→cAMP↓→PKA↓→RIM1α去磷酸化→LTD",
+      "纹状体MSN突触可塑性的多巴胺调控综合综述"
+    ]
+  },
+  "PMID:20096294": {
+    "pmid": "20096294",
+    "pmcid": "PMC2858312",
+    "title": "A translational profiling approach for the molecular characterization of CNS cell types",
+    "authors_short": "Heiman M, Schaefer A et al.",
+    "journal": "Cell",
+    "year": 2008,
+    "first_used": "2026-09-01",
+    "used_in_articles": [
+      "2026-09-01-medium-spiny-neurons-striatum"
+    ],
+    "aspects_covered": [
+      "TRAP-seq定量比较D1-MSN vs D2-MSN基因表达谱",
+      "DARPP-32的D1/D2通路差异磷酸化机制（Thr34 vs Thr75）",
+      "直接/间接通路MSN的分子指纹图谱"
+    ]
+  },
+  "PMID:37841525": {
+    "pmid": "37841525",
+    "pmcid": "PMC10577139",
+    "title": "A dopamine gradient controls access to distributed working memory in the large-scale monkey cortex",
+    "authors_short": "Froudist-Walsh S et al.",
+    "journal": "Neuron",
+    "year": 2023,
+    "first_used": "2026-09-01",
+    "used_in_articles": [
+      "2026-09-01-medium-spiny-neurons-striatum"
+    ],
+    "aspects_covered": [
+      "多巴胺奖励信号的~1秒时间窗口对LTP诱导的关键性",
+      "三因素学习规则（突触活动×NMDA×多巴胺D1）解决credit assignment",
+      "多巴胺梯度与皮质分布式工作记忆的关系"
+    ]
+  },
+  "PMID:26698193": {
+    "pmid": "26698193",
+    "pmcid": "PMC4699678",
+    "title": "An anatomically comprehensive atlas of the adult human brain transcriptome",
+    "authors_short": "Lu R, Bhatt DL, Lu J et al.",
+    "journal": "Biological Psychiatry",
+    "year": 2016,
+    "first_used": "2026-08-05",
+    "used_in_articles": [
+      "2026-08-05-endocannabinoid-retrograde-signaling",
+      "2026-09-01-medium-spiny-neurons-striatum"
+    ],
+    "aspects_covered": [
+      "CCK+中间神经元CB1R富集5-10倍于PV+中间神经元",
+      "CB1R选择性表达于特定GABA能中间神经元亚型",
+      "eCB系统的抑制性细胞类型特异性"
+    ]
+  },
+  "PMID:23040807": {
+    "pmid": "23040807",
+    "pmcid": "PMC3567921",
+    "title": "Endocannabinoid signaling and synaptic function",
+    "authors_short": "Castillo PE, Younts TJ, Chavez AE, Bhatt DL",
+    "journal": "Neuron",
+    "year": 2012,
+    "first_used": "2026-08-05",
+    "used_in_articles": [
+      "2026-08-05-endocannabinoid-retrograde-signaling",
+      "2026-09-01-medium-spiny-neurons-striatum"
+    ],
+    "aspects_covered": [
+      "DGLα敲除证明2-AG为DSI主要逆行信使（而非AEA）",
+      "RIM1α在eCB-LTD中的作用（KO消除LTD，不影响DSI）",
+      "纹状体皮质-纹状体eCB-LTD分子机制"
+    ]
+  },
+  "sources_2026-09-01": [
+    "PMID:27373834",
+    "PMID:31171839",
+    "PMID:18267246",
+    "PMID:34727523",
+    "PMID:21469956",
+    "PMID:20096294",
+    "PMID:37841525",
+    "PMID:26698193",
+    "PMID:23040807"
   ]
 }

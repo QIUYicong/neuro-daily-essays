@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-07-12
-revision_count: 5
+updated: 2026-09-01
+revision_count: 6
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
 related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-12-dopamine-td-learning-brain-ai]
-key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:27602521", "PMID:38592773", "PMID:38895442", "PMID:33186815", "PMID:31942076", "PMID:12371510"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-12-dopamine-td-learning-brain-ai, 2026-09-01-medium-spiny-neurons-striatum]
+key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:27602521", "PMID:38592773", "PMID:38895442", "PMID:33186815", "PMID:31942076", "PMID:12371510", "PMID:37841525", "PMID:21469956"]
 ---
 
 # 多巴胺奖励预测误差 (Dopamine Reward Prediction Error, DA-RPE)
@@ -154,6 +154,7 @@ DA 的"双读数"设计：δ > 0 时 D1（高阈值）被激活且 D2 被抑制�
 - 2026-06-15 · 修订 · 基于《当大脑主动预测而非被动接收》一文 · 补充了DA-RPE 与预测编码框架的整合（Diederen & Fletcher 2021）；新增关联 predictive-coding, precision-weighting；新增精神分裂症 aberrant salience 的精度失调解释
 - 2026-07-11 · 修订 rev4 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 新增"海马多巴胺来源争议"小节，部分解答 Q-da-hippocampus-source（LC 主导，VTA 辅助）；连接节新增 lc-hippocampus-dopamine；key_sources 新增3个（PMID:27602521、PMID:38592773、PMID:38895442）；source_articles 新增 2026-07-11
 - 2026-07-12 · 修订 rev5 · 基于《奖励信号的双重发现》第 80 篇文章（#80）· 新增"分布式 DA 编码"小节（Dabney 2020，PMID:31942076）——DA 群体编码奖励分布而非单一均值；新增"Actor-Critic 架构"小节（Joel 2002，PMID:12371510）——VTA=TD误差、NAc=Critic、背侧纹状体=Actor；新增 related: td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems；key_sources 新增3个（PMID:33186815、PMID:31942076、PMID:12371510）
+- 2026-09-01 · 修订 rev6 · 基于《纹状体的决策细胞》一文（#131）· 新增MSN层面的突触机制说明：D1-dMSN通过Gs-cAMP-PKA-DARPP-32促进LTP；D2-iMSN通过Gi-eCB-CB1促进LTD；关键新发现：多巴胺信号在行动后≤1秒仍可触发LTP（信用分配时间窗）；related新增medium-spiny-neuron、striatal-direct-indirect-pathway、striatal-plasticity · 来源：PMID:37841525, PMID:21469956
 
 ## 来源文章
 
@@ -161,3 +162,4 @@ DA 的"双读数"设计：δ > 0 时 D1（高阈值）被激活且 D2 被抑制�
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
 - [[2026-06-15-predictive-coding]]
 - [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]
+- [[2026-09-01-medium-spiny-neurons-striatum]]

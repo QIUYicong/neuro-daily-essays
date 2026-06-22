@@ -2818,6 +2818,31 @@
 
 ---
 
+## 2026-09-01（第 131 篇）
+
+**今日主题**：纹状体中型多棘神经元（MSN）——D1/D2通路、突触可塑性与习惯学习
+
+**新创建页面（3）**：
+- `wiki/neurons/medium-spiny-neuron.md`：MSN的完整框架，含形态（树突棘5000-10000个）、上行/下行态双稳、D1-Gs-cAMP-PKA-DARPP-32-LTP通路、D2-Gi-eCB-CB1-LTD通路、灵长类≥9亚型
+- `wiki/circuits/striatal-direct-indirect-pathway.md`：直接/间接通路的回路解剖（dMSN→GPi/SNr；iMSN→GPe→STN→GPi/SNr）、DMS/DLS功能分化、行为证据
+- `wiki/concepts/striatal-plasticity.md`：纹状体LTP（D1-DARPP-32-AMPA机制）和eCB-LTD（D2-mGluR-2-AG-CB1机制）的分子细节，含1秒时间窗信用分配解法
+
+**修订页面（4）**：
+- `wiki/systems/basal-ganglia.md`（rev2→rev3）：新增ofMRI因果证据（PMID:27373834）和DMS/DLS功能分离损伤实验；related新增medium-spiny-neuron、striatal-direct-indirect-pathway、striatal-plasticity
+- `wiki/diseases/parkinsons-disease.md`（rev1→rev2）：**修正重要错误**——原文将树突棘丢失归于dSPNs（D1-MSN），新证据（PMID:18267246）明确为iSPNs（D2-MSN）选择性受损30-50%，L-DOPA不可逆；新增证据表条目；related新增medium-spiny-neuron、striatal-direct-indirect-pathway
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev5→rev6）：新增D1/D2 MSN分子机制说明；关键新增：多巴胺信号≤1秒时间窗仍可触发LTP（信用分配）；related新增3个新页
+- `wiki/concepts/endocannabinoid-system.md`（rev2→rev3）：连接节新增medium-spiny-neuron（D2-iMSN是纹状体eCB-LTD发起细胞）和striatal-plasticity
+
+**矛盾登记（1）**：C-2026-09-01-01（open）——PD wiki旧记录"dSPN树突棘丢失"与新证据"iSPN选择性丢失"的细胞亚型归因冲突；已更新wiki页，矛盾来源待后续核实
+
+**新增悬空引用（0）**：`dacc-conflict-monitoring`（原有悬空引用，尚未解决）
+
+**新增开放问题（2）**：Q-msn-d1d2-coexpression（D1/D2共表达MSN功能）、Q-msn-primate-subtype-function（灵长类9亚型功能）
+
+**图谱**：259节点/1517边 → **262节点/1538边**（+3节点，+21边）
+
+---
+
 ## 2026-08-31（第 130 篇）
 
 **今日主题**：神经流形（neural manifold）与神经元群体编码的几何框架

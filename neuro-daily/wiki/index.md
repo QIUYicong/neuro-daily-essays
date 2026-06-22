@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-30（第128篇·背侧视觉流·MT/V5·后顶叶皮层行动视觉）· 主题页总数：**255**（新建3页：systems/posterior-parietal-cortex、concepts/dorsal-visual-stream、neurons/mt-v5-motion-area；修订1页：concepts/ventral-visual-stream rev2→rev3；图谱258节点/1507边）
+> 最后更新：2026-09-01（第131篇·纹状体中型多棘神经元·D1/D2通路·突触可塑性·习惯学习）· 主题页总数：**262**（新建3页：neurons/medium-spiny-neuron、circuits/striatal-direct-indirect-pathway、concepts/striatal-plasticity；修订4页：systems/basal-ganglia rev3、diseases/parkinsons-disease rev2、concepts/dopamine-reward-prediction-error rev6、concepts/endocannabinoid-system rev3；图谱262节点/1538边；登记矛盾C-2026-09-01-01）
 
 ---
 
@@ -26,6 +26,7 @@
 - 🔵 [苔藓细胞（齿状回）](neurons/mossy-cells-dentate.md) — 门区大型兴奋性细胞，净效果为通过招募篮状细胞间接抑制颗粒细胞（苔藓细胞悖论）；Jinde 2012 消融实验：缺失→颗粒细胞过兴奋→模式分离失败；GoodSmith 2017：多位置场/高放电率（对比颗粒细胞单场极低频）；Vargish 2025 预印本：VGluT3+ 元抑制回路 **[NEW 2026-08-28]**
 - 🟢 [颞下皮层（IT 皮层）](neurons/inferior-temporal-cortex.md) — 腹侧视觉流终点；物体身份的不变性表征；IT 种群活动线性可分（90%+准确率）；无监督时间连续性学习维持不变性；物体空间低维坐标地图（Bao 2020）**[NEW 2026-08-29]**
 - 🟢 [MT/V5 运动区](neurons/mt-v5-motion-area.md) — 背侧流关键中间站；方向选择性；pattern motion 整合；双目视差细胞；MT损毁→运动感知阈值升高（Newsome 1988）；运动盲（akinetopsia）**[NEW 2026-08-30]**
+- 🟢 [中型多棘神经元（MSN）](neurons/medium-spiny-neuron.md) — 纹状体主导细胞（95%+）；D1型→直接通路→D1-cAMP-PKA-DARPP-32-LTP；D2型→间接通路→eCB-CB1-LTD；上行/下行双稳态；灵长类≥9种转录学亚型 **[NEW 2026-09-01]**
 - 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，模块化组织（1.4:1间距比），为场所细胞提供坐标框架；人类fMRI六边形信号证实（修订2次）
 - 🟢 [头向细胞](neurons/head-direction-cells.md) — 对头部方向选择性放电的神经元，构成大脑方位罗盘；环形吸引子网络生成；PoS/ADN/LMN/RSC回路 **[NEW 2026-07-27]**
 - 🟢 [边界细胞](neurons/border-cells.md) — MEC/下托中对环境边界距离/方向编码的神经元，为路径积分提供空间锚点防止误差累积 **[NEW 2026-07-27]**
@@ -40,6 +41,7 @@
 
 - 🔵 [吊灯细胞](circuits/chandelier-cell.md) — 特异靶向 AIS 的抑制性中间神经元（修订2次）
 - 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许"；**新增**：超直接通路IFG-STN单突触（2.2 ms）与停止信号全局抑制证据 **[修订 rev2→rev3 2026-08-19]**
+- 🔵 [纹状体直接/间接通路](circuits/striatal-direct-indirect-pathway.md) — dMSN→GPi/SNr（直接，促进行动）；iMSN→GPe→STN→GPi/SNr（间接，抑制行动）；DMS/DLS功能分化；行为证据：DMS损伤→习惯化，DLS损伤→无法习惯化 **[NEW 2026-09-01]**
 - 🟢 [丘脑-皮层回路](circuits/thalamocortical-circuit.md) — TRN（CaV3.3 T型）↔TC（CaV3.1）振荡环路是睡眠纺锤波起搏器；Core/Matrix双通路；CT反馈在清醒/睡眠切换中起关键作用；**新增**：一次/高次视丘核（Sherman框架）、驱动/调制型突触、PFC→TRN大型端钮（2026-06-03更新）
 - 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序；Sohal 2009 光遗传学因果证明 PV→γ；GAD67 下调→PING 崩溃→WM 缺陷（精神分裂症核心机制）**[NEW 2026-06-03 · 修订 rev5 2026-07-20]**
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
@@ -92,6 +94,7 @@
 - 🔵 [记忆再巩固](concepts/memory-reconsolidation.md) — 已巩固记忆在提取后重新进入蛋白合成依赖态（Nader 2000）；去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；再巩固窗口消退永久消除恐惧（Monfils 2009, Agren 2012 fMRI）；普萘洛尔消除人类情绪恐惧（Kindt 2009）；米非司酮 Phase 2a RCT 未达主要终点 **[NEW 2026-07-10]**
 - 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
 - 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；与海马 NMDA-LTD 共用最终效应器但触发机制根本不同；Schonewille 2011 证明无 LTD 也能运动学习；Hansel 2026 预印本 400ms 时间窗口 **[NEW 2026-06-23]**
+- 🔵 [纹状体突触可塑性](concepts/striatal-plasticity.md) — 皮质-纹状体谷氨酸突触的LTP（D1-Gs-cAMP-PKA-DARPP-32-AMPA插入）和eCB-LTD（D2-mGluR-2-AG-CB1-突触前释放↓）；奖励时双向刻写；多巴胺1秒时间窗解决信用分配；NMDA受体对LTP必需 **[NEW 2026-09-01]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
 - 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器 **[NEW 2026-06-04]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**

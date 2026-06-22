@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-31
-updated: 2026-08-12
-revision_count: 2
+updated: 2026-09-01
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [dopamine-reward-prediction-error, interval-timing, striatal-beat-frequency, td-learning, parkinson-disease, prefrontal-cortex, thalamus, foxp2, vocal-learning, childhood-apraxia-of-speech]
+related: [dopamine-reward-prediction-error, interval-timing, striatal-beat-frequency, td-learning, parkinson-disease, prefrontal-cortex, thalamus, foxp2, vocal-learning, childhood-apraxia-of-speech, medium-spiny-neuron, striatal-direct-indirect-pathway, striatal-plasticity]
 prerequisites: [medium-spiny-neuron, dopamine-reward-prediction-error]
 opens_questions: [Q-bg-01, Q-foxp2-01]
-source_articles: [2026-07-31-interval-timing-basal-ganglia-striatum, 2026-08-12-foxp2-language-genetics-development]
-key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143", "PMID:25225386"]
+source_articles: [2026-07-31-interval-timing-basal-ganglia-striatum, 2026-08-12-foxp2-language-genetics-development, 2026-09-01-medium-spiny-neurons-striatum]
+key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143", "PMID:25225386", "PMID:21469956", "PMID:31171839", "PMID:27373834"]
 ---
 
 # 基底节 (Basal Ganglia)
@@ -97,6 +97,8 @@ key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143"
 | D1/D2 对立协同累积时间证据 | 光遗传+药理；R²=0.95 | DOI:10.7554/eLife.96287.4 | 中高 |
 | FoxP2敲减→MSN树突简化 | 原代纹状体神经元培养 | PMID:21765815 | 高 |
 | 人源化Foxp2→纹状体多巴胺-30%+DLS LTD增强 | Foxp2^hum knockin小鼠 | PMID:25225386 | 中 |
+| D1 MSN激活→丘脑/运动皮层兴奋；D2 MSN激活→丘脑/运动皮层抑制 | ofMRI+AAV-ChR2（小鼠DMS）| PMID:27373834 (PMC5528162) | 高 |
+| DMS损伤→目标导向退化为习惯；DLS损伤→无法形成习惯 | 靶向损伤+行为测试（啮齿类）| PMID:31171839 (PMC7231228) | 高 |
 
 ## 连接
 
@@ -111,6 +113,8 @@ key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143"
 - [[vocal-learning]] — 鸣禽纹状体（Area X）是发声学习前馈通路的关键节点
 - [[childhood-apraxia-of-speech]] — FOXP2纹状体功能失调的主要临床后果
 - [[circuits/basal-ganglia]] — 姊妹页：回路/疾病视角的更详细解剖
+- [[striatal-direct-indirect-pathway]] — 两条通路的回路机制（今日新增详细页面）
+- [[striatal-plasticity]] — 皮质-纹状体LTP/LTD的分子机制（今日新增页面）
 
 ## 未解问题
 
@@ -121,8 +125,10 @@ key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143"
 
 - 2026-07-31 · 创建（systems 域首版，计时视角） · 基于《大脑的秒表》文章 #99 · 初始置信度：高
 - 2026-08-12 · 修订 rev2 · 新增FOXP2与纹状体发育小节（MSN树突调控、人源化Foxp2效果、CAS机制、鸣禽Area X平行）· 来源：PMID:21765815, PMID:25225386, PMID:37137515 · related新增foxp2、vocal-learning、childhood-apraxia-of-speech；dimensions扩展至disease
+- 2026-09-01 · 修订 rev3 · 新增证据表条目（ofMRI D1/D2激活脑网络效应PMID:27373834；DMS/DLS功能分离损伤实验PMID:31171839）；related新增medium-spiny-neuron、striatal-direct-indirect-pathway、striatal-plasticity；连接节新增姊妹页链接 · 来源：《纹状体的决策细胞》文章#131
 
 ## 来源文章
 
 - [[2026-07-31-interval-timing-basal-ganglia-striatum]]
 - [[2026-08-12-foxp2-language-genetics-development]]
+- [[2026-09-01-medium-spiny-neurons-striatum]]

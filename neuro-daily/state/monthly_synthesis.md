@@ -2,6 +2,45 @@
 
 ---
 
+## 2026年9月（进行中）
+
+*本月截至日期：2026-09-01*
+*本月新增文章：#131（2026-09-01 中型多棘神经元×D1/D2通路×纹状体可塑性×习惯vs目标导向×帕金森病MSN病理）；共1篇*
+
+### 本月文章摘要
+
+| # | 日期 | 文章标题 | 层级 |
+|---|------|---------|------|
+| 131 | 2026-09-01 | 纹状体的决策细胞：中型多棘神经元如何用两种信号语言为行动定价 | 分子/细胞/突触/微回路 |
+
+### 本月核心主题
+
+**九月开篇：基底节细胞层级深化**——在已有 systems/basal-ganglia、circuits/basal-ganglia 等系统/回路层面覆盖的基础上，第131篇深入细胞和分子层级，揭示中型多棘神经元（MSN）如何通过 D1/D2 双语言机制实现行动定价。
+
+**里程碑：知识库图谱达到 262 个节点、1538 条边**，完成基底节从系统→回路→细胞→分子的完整覆盖。
+
+---
+
+## 2026-09-01 日条目更新（文章 #131·中型多棘神经元×D1/D2通路×纹状体可塑性×习惯vs目标导向×帕金森MSN病理）
+
+**核心贡献**：本篇围绕基底节的关键细胞类型——中型多棘神经元（MSN）展开，建立了从细胞形态到分子信号到系统功能的完整认知框架。**细胞形态层面**：MSN 占纹状体神经元 ~95%，5000–10000 个树突棘使其成为脑中整合突触输入密度最高的细胞之一；Kir2 通道维持静息 Up/Down 双稳态（Down ~-90mV，Up ~-65mV），只有同步大量皮层输入才能触发 Up-state 和放电，实现"符合门控"。**分子信号层面**：D1-MSN（直接通路）通过 Gs/olf→cAMP→PKA→DARPP-32 Thr34 磷酸化→PP-1 抑制→NMDA-AMPAR 磷酸化→长时程增强（LTP），在多巴胺奖励信号的 ~1 秒时间窗口（三因素学习规则）内选择性强化被激活的皮质-纹状体突触；D2-MSN（间接通路）通过 Gi→cAMP↓→PKA↓→同步激活 mGluR1/5→PLCβ→DGLα→2-AG→CB1R→RIM1α去磷酸化→长时程抑制（eCB-LTD），持久降低谷氨酸释放概率，实现对皮层输入的逆行抑制性重塑。**功能意义**：D1-MSN LTP 实现"获选行动的突触强化"（习惯性行动库写入），D2-MSN eCB-LTD 实现"竞争行动的突触抑制"（降低替代方案的触发概率）；DMS（背内侧纹状体）=目标导向学习，DLS（背外侧纹状体）=习惯形成，损伤实验（PMID:31171839）提供双重分离证据。**帕金森病病理**：多巴胺耗尽→iSPN（D2-MSN）树突棘选择性丧失 30-50%（而非 dSPN，纠正了原知识库错误描述），机制为 CaV1.3 去抑制→Ca²⁺ 过载→CaMKII 过激活→棘结构破坏（PMID:18267246）；L-DOPA 无法逆转已丢失的棘（不可逆），强调早期干预的重要性。**灵长类多样性**：单细胞 RNA-seq 揭示≥9 个转录组可区分的 MSN 亚型，功能意义几乎全未解。
+
+**新建 wiki 页**（3个）：wiki/neurons/medium-spiny-neuron.md（established/high，rev1）、wiki/circuits/striatal-direct-indirect-pathway.md（established/high，rev1）、wiki/concepts/striatal-plasticity.md（established/high，rev1）
+
+**修订 wiki 页**（4个）：
+- wiki/diseases/parkinsons-disease.md（rev1→rev2）：**关键纠错**：将"dSPN棘密度降低~30%"更正为"iSPN选择性丧失30-50%"，注册为 contested claim C-2026-09-01-01
+- wiki/systems/basal-ganglia.md（rev2→rev3）：新增 ofMRI D1/D2 效应证据（PMID:27373834）和 DMS/DLS 损伤实验（PMID:31171839）
+- wiki/concepts/dopamine-reward-prediction-error.md（rev5→rev6）：补充 D1/D2 MSN 分子机制和 1 秒时间窗口
+- wiki/concepts/endocannabinoid-system.md（rev2→rev3）：补充 D2-iMSN 是纹状体 eCB-LTD 发起细胞的详细分子链路
+
+**图谱**：259→262 节点，1517→1538 边（+3节点，+21边）
+**新增悬空引用**：无（原有 dacc-conflict-monitoring 悬空引用不变）
+**新增开放问题**：Q-msn-d1d2-coexpression（中优先）、Q-msn-primate-subtype-function（中优先）
+**注册 contested claim**：C-2026-09-01-01（PD 中 iSPN 而非 dSPN 选择性树突棘丧失）
+**来源**：9 篇（7 开放全文，2 重复使用已有全文）
+
+---
+
 ## 2026年8月（进行中）
 
 *本月截至日期：2026-08-28*
