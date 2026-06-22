@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "node_count": 255,
   "edge_count": 1494,
   "edge_types": [
@@ -2364,6 +2364,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/mt-v5-motion-area.md"
+    },
+    {
+      "id": "neural-manifold",
+      "title": "神经流形",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/neural-manifold.md"
     }
   ],
   "edges": [
@@ -10803,6 +10812,66 @@
       "to": "dorsal-visual-stream",
       "type": "related",
       "note": "双流互补：what/异我中心 vs how/自我中心"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "population-vector-coding",
+      "type": "related",
+      "note": "群体向量编码是神经流形的早期特例"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "rotational-dynamics-motor",
+      "type": "related",
+      "note": "旋转动力学是运动皮层神经流形的时序展开方式"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "mixed-selectivity",
+      "type": "related",
+      "note": "混合选择性通过高维流形实现 PFC 认知弹性"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "motor-cortex",
+      "type": "related",
+      "note": "旋转动力学首先在运动皮层流形中发现"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "PFC 的高维混合选择性流形支持认知灵活性"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "basal-ganglia",
+      "type": "related",
+      "note": "纹状体流形比运动皮层更非线性（Fortunato 2024）"
+    },
+    {
+      "from": "neural-manifold",
+      "to": "ventral-visual-stream",
+      "type": "mechanism-of",
+      "note": "视觉层级通过逐级解缠物体流形实现不变性识别"
+    },
+    {
+      "from": "population-vector-coding",
+      "to": "neural-manifold",
+      "type": "prerequisite-for",
+      "note": "群体向量编码为神经流形框架奠定概念基础"
+    },
+    {
+      "from": "rotational-dynamics-motor",
+      "to": "neural-manifold",
+      "type": "supports",
+      "note": "旋转动力学是神经流形时序展开的实证证据"
+    },
+    {
+      "from": "mixed-selectivity",
+      "to": "neural-manifold",
+      "type": "supports",
+      "note": "高维混合选择性是 PFC 流形认知灵活性的几何实现"
     }
   ],
   "dangling_references": [

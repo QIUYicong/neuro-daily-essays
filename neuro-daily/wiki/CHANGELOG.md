@@ -2815,3 +2815,26 @@
 **新增开放问题（5）**：Q-neurogenesis-stress-ptsd-01、Q-sgk3-01、Q-sgk3-02、Q-fkbp51-01、Q-fkbp51-02
 
 **图谱**：249节点/1444边 → **251节点/1465边**（+2节点，+20边）
+
+---
+
+## 2026-08-31（第 130 篇）
+
+**今日主题**：神经流形（neural manifold）与神经元群体编码的几何框架
+
+**新创建页面（1）**：
+- `wiki/concepts/neural-manifold.md`：神经流形的完整框架，含维度/曲率/容量三属性、流形内vs外学习约束、解缠假说
+
+**修订页面（3）**：
+- `wiki/concepts/rotational-dynamics-motor.md`：将旋转动力学定位为神经流形的时序展开特例；新增 Fortunato 2024 非线性证据；新增与 neural-manifold/mixed-selectivity 连接
+- `wiki/concepts/mixed-selectivity.md`：新增 Ostojic & Fusi 2024 弹性-泛化权衡框架（高维→弹性 vs. 低维→泛化）；新增与 neural-manifold 连接
+- `wiki/concepts/population-vector-coding.md`：将群体向量编码定位为神经流形的早期特例；新增与 neural-manifold/mixed-selectivity 连接
+
+**矛盾登记（0）**：无新矛盾（Sadtler 2014 与既有知识一致；非线性流形为新兴发现，置信度"中"，正确标注）
+
+**新增悬空引用（0）**：无
+
+**新增开放问题（3）**：Q-manifold-01（流形维度随行为状态动态变化？）、Q-manifold-02（流形外学习需要什么突触变化？）、Q-manifold-03（人类活体如何可靠测量神经流形？）
+
+**图谱**：258节点/1507边 → **259节点/1517边**（+1节点，+10边）
+

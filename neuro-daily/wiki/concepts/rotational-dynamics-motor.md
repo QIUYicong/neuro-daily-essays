@@ -6,10 +6,10 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-06-21
-updated: 2026-06-21
-revision_count: 1
-dimensions: [cellular, brain-region, behavior, cognition]
-related: [motor-cortex, population-vector-coding, output-null-space, working-memory, persistent-activity]
+updated: 2026-08-31
+revision_count: 2
+dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
+related: [motor-cortex, population-vector-coding, output-null-space, working-memory, persistent-activity, neural-manifold, mixed-selectivity]
 prerequisites: [motor-cortex, population-vector-coding]
 opens_questions: [Q-mc-01, Q-mc-03]
 source_articles: [2026-06-21-motor-cortex-voluntary-movement]
@@ -31,6 +31,8 @@ key_sources: ["PMID:22722855", "PMID:32640928"]
 
 旋转动力学框架是对群体向量编码（Georgopoulos 1986）的深化而非替代：前者关注方向信息的分布式编码（空间维度），后者揭示了群体活动的时序结构（时间维度）。
 
+旋转动力学是**神经流形**（neural manifold）框架的一个典型实例：运动皮层的神经流形在时间轴上以旋转轨迹展开，流形的维度、曲率和初始条件共同决定了运动的精度与多样性。Fortunato et al.（2024，PMID:37503015）进一步发现，运动皮层流形本质上是非线性的——线性 jPCA 捕获的旋转结构只是非线性流形的一阶近似，更复杂运动任务中的流形曲率无法被线性方法充分描述。
+
 ## 关键机制
 
 - **低维流形**：高维神经活动（~100神经元）被投影至10–20维低维流形，旋转在最大方差平面内发生
@@ -47,6 +49,7 @@ key_sources: ["PMID:22722855", "PMID:32640928"]
 | 主旋转平面捕获约28%总群体方差 | 同上 | PMID:22722855 | 高 |
 | RNN训练后自发出现旋转动力学 | RNN理论分析+猕猴数据比较 | PMID:32640928 | 中 |
 | 准备状态精度预测运动表现 | 延迟时长×行为表现分析 | PMID:32640928 | 高 |
+| 运动皮层流形本质上是非线性的，jPCA 低估真实曲率 | 猕猴/人类线性 vs. 非线性降维对比 | PMID:37503015; PMC10370078 | 中（2024，需独立复现） |
 
 ## 连接
 
@@ -54,6 +57,8 @@ key_sources: ["PMID:22722855", "PMID:32640928"]
 - [[output-null-space]] — 准备期的零空间是旋转的初始条件设置机制
 - [[population-vector-coding]] — 群体向量提供方向信息；旋转动力学提供时序结构
 - [[working-memory]] — 工作记忆中的持续放电与吸引子动力学：另一类神经动力学范式的比较
+- [[neural-manifold]] — 旋转动力学是神经流形时序展开的特例；流形框架统一了多脑区的群体编码
+- [[mixed-selectivity]] — PFC 流形的高维混合选择性与 M1 流形的低维旋转：不同任务需求下的不同几何策略
 
 ## 未解问题
 
@@ -63,7 +68,9 @@ key_sources: ["PMID:22722855", "PMID:32640928"]
 ## 修订历史
 
 - 2026-06-21 · 创建 · 基于《从意图到动作》（#57）· 初始置信度：高
+- 2026-08-31 · 修订 · 基于《神经流形》(#130) · 新增：（1）旋转动力学作为神经流形时序展开的位置（与神经流形框架整合）；（2）Fortunato 2024 的非线性流形证据更新证据表；（3）新增与 neural-manifold、mixed-selectivity 的连接
 
 ## 来源文章
 
 - [[2026-06-21-motor-cortex-voluntary-movement]]
+- [[2026-08-31-neural-manifold-population-coding-geometry]]

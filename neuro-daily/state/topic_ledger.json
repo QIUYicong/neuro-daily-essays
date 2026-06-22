@@ -7994,6 +7994,58 @@
       "knowledge_base_date": "2026-08-30",
       "system_clock_date": "2026-06-23",
       "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-08-30"
+    },
+    {
+      "date": "2026-08-31",
+      "article_number": 130,
+      "title": "神经流形：大脑如何用集体活动的几何形状携带意义",
+      "slug": "neural-manifold-population-coding-geometry",
+      "core_question": "为什么大脑靠神经元群体的集体活动几何（流形），而非单个神经元，来表征信息？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "methods",
+        "cognition"
+      ],
+      "topic_tags": [
+        "neural-manifold",
+        "population-coding",
+        "dimensionality-reduction",
+        "rotational-dynamics",
+        "mixed-selectivity",
+        "motor-cortex",
+        "PFC"
+      ],
+      "main_sources": [
+        "PMID:25151264 (Cunningham & Yu 2014, Nat Neurosci, PMC4433019)",
+        "PMID:22722855 (Churchland et al. 2012, Nature, PMC3393826)",
+        "PMID:28595054 (Gallego et al. 2017, Neuron, PMC6122849)",
+        "PMID:23685452 (Rigotti et al. 2013, Nature, PMC4412347)",
+        "PMID:34801787 (Chung & Abbott 2021, Curr Opin Neurobiol, PMC10695674)",
+        "PMID:37503015 (Fortunato et al. 2024, PMC10370078)",
+        "PMID:38553340 (Ostojic & Fusi 2024, PMC12177215)"
+      ],
+      "open_full_text": 7,
+      "abstract_only": 1,
+      "wiki_created": [
+        "neural-manifold"
+      ],
+      "wiki_revised": [
+        "rotational-dynamics-motor",
+        "mixed-selectivity",
+        "population-vector-coding"
+      ],
+      "unresolved_questions": [
+        "Q-manifold-01",
+        "Q-manifold-02",
+        "Q-manifold-03"
+      ],
+      "next_suggested_topics": [
+        "维度降维方法综述：PCA/jPCA/GPFA/CEBRA 的原理与应用",
+        "纹状体中型多棘神经元（medium spiny neurons）：填补悬空引用",
+        "循环神经网络（RNN）作为大脑模型：任务驱动建模范式",
+        "小脑皮层微回路：浦肯野细胞与运动学习（层级切换至 molecular/synaptic）"
+      ]
     }
   ],
   "layer_coverage_recent": {

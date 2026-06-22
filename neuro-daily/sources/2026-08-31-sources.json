@@ -1,0 +1,182 @@
+{
+  "date": "2026-08-31",
+  "article": "2026-08-31-neural-manifold-population-coding-geometry",
+  "topic": "神经流形与神经元群体编码的几何框架",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Dimensionality reduction for large-scale neural recordings",
+      "authors": ["Cunningham JP", "Yu BM"],
+      "journal": "Nature Neuroscience",
+      "year": 2014,
+      "volume": 17,
+      "pages": "1500-1509",
+      "pmid": "25151264",
+      "pmcid": "PMC4433019",
+      "doi": "10.1038/nn.3776",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4433019/",
+      "used_for": "维度降维框架综述；群体分析的科学动机；PCA/FA/GPFA/LDA 等方法说明",
+      "key_claims": [
+        "单个神经元活动令人绝望地混乱，群体数据揭示简单组织原则",
+        "PFC 群体活动反映决策用的线吸引子",
+        "运动皮层准备活动设定初始条件"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Neural population dynamics during reaching",
+      "authors": ["Churchland MM", "Cunningham JP", "Kaufman MT", "Foster JD", "Nuyujukian P", "Ryu SI", "Shenoy KV"],
+      "journal": "Nature",
+      "year": 2012,
+      "volume": 487,
+      "pages": "51-56",
+      "pmid": "22722855",
+      "pmcid": "PMC3393826",
+      "doi": "10.1038/nature11129",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3393826/",
+      "used_for": "旋转动力学的发现；jPCA 方法；运动皮层动力系统框架",
+      "key_claims": [
+        "运动皮层群体活动在低维流形上以约 2–2.5 Hz 旋转",
+        "准备期设定旋转初始条件",
+        "旋转是产生精确时序运动命令的计算机制，非静态编码"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Neural Manifolds for the Control of Movement",
+      "authors": ["Gallego JA", "Perich MG", "Miller LE", "Solla SA"],
+      "journal": "Neuron",
+      "year": 2017,
+      "volume": 94,
+      "issue": 5,
+      "pages": "978-984",
+      "pmid": "28595054",
+      "pmcid": "PMC6122849",
+      "doi": "10.1016/j.neuron.2017.05.025",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6122849/",
+      "used_for": "神经流形作为运动控制框架；神经模式定义；学习约束在流形内外",
+      "key_claims": [
+        "神经流形由回路连接约束决定",
+        "运动控制是有限数量神经模式的时序激活",
+        "短期学习在流形内进行，长期新技能需改变流形结构"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Neural constraints on learning",
+      "authors": ["Sadtler PT", "Quick KM", "Golub MD", "Chase SM", "Ryu SI", "Tyler-Kabara EC", "Yu BM", "Batista AP"],
+      "journal": "Nature",
+      "year": 2014,
+      "volume": 512,
+      "pages": "423-426",
+      "pmid": "25164754",
+      "doi": "10.1038/nature13665",
+      "open_access": false,
+      "full_text_read": false,
+      "full_text_note": "未读取全文（Nature 订阅限制）；内容从 Gallego 2017（PMC6122849）综述引用获取",
+      "used_for": "流形内vs外学习约束的核心实验证据",
+      "key_claims": [
+        "猕猴 BCI 实验：流形内扰动数分钟可适应，流形外扰动几乎无法适应",
+        "内在流形反映 M1 回路对活动模式的固有约束"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "The importance of mixed selectivity in complex cognitive tasks",
+      "authors": ["Rigotti M", "Barak O", "Warden MR", "Wang XJ", "Daw ND", "Miller EK", "Fusi S"],
+      "journal": "Nature",
+      "year": 2013,
+      "volume": 497,
+      "pages": "585-590",
+      "pmid": "23685452",
+      "pmcid": "PMC4412347",
+      "doi": "10.1038/nature12160",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4412347/",
+      "used_for": "混合选择性的计算意义；PFC 高维流形；认知灵活性",
+      "key_claims": [
+        "非线性混合选择性使群体表征维度指数级增加",
+        "237 个 PFC 神经元在任务期间约实现 12 个正交维度",
+        "错误试次中 PFC 表征维度下降 50–75%"
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Neural population geometry: An approach for understanding biological and artificial neural networks",
+      "authors": ["Chung S", "Abbott LF"],
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2021,
+      "volume": 70,
+      "pages": "137-144",
+      "pmid": "34801787",
+      "pmcid": "PMC10695674",
+      "doi": "10.1016/j.conb.2021.10.010",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10695674/",
+      "used_for": "流形容量理论；解缠假说；视觉层级几何；生物-AI对比",
+      "key_claims": [
+        "流形容量 = 每个神经元可线性分离的物体流形数，取决于维度和半径",
+        "视觉层级通过解缠物体流形实现不变性识别",
+        "任务优化 ANN 与生物视觉皮层显示相似的流形分离模式"
+      ]
+    },
+    {
+      "id": "S7",
+      "title": "Nonlinear manifolds underlie neural population activity during behaviour",
+      "authors": ["Fortunato C", "Benichoux V", "Perich MG", "Gallego JA"],
+      "journal": "bioRxiv / PMC",
+      "year": 2024,
+      "pmid": "37503015",
+      "pmcid": "PMC10370078",
+      "doi": "10.1101/2023.07.18.549575",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10370078/",
+      "used_for": "非线性流形证据；线性方法的局限；纹状体vs运动皮层对比",
+      "key_claims": [
+        "运动皮层流形本质上是非线性的",
+        "任务越复杂，非线性程度越高",
+        "纹状体流形比运动皮层更非线性，反映更密集的循环连接"
+      ]
+    },
+    {
+      "id": "S8",
+      "title": "The computational role of structure in neural activity and connectivity",
+      "authors": ["Ostojic S", "Fusi S"],
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2024,
+      "pmid": "38553340",
+      "pmcid": "PMC12177215",
+      "open_access": true,
+      "full_text_read": true,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12177215/",
+      "used_for": "弹性vs泛化的维度权衡；连接模块性与活动结构的关系",
+      "key_claims": [
+        "高维混合选择性支持弹性分类，低维结构化表征支持泛化",
+        "连接模块性可以产生结构化或非结构化活动，取决于学习机制"
+      ]
+    }
+  ],
+  "search_terms": [
+    "neural population coding manifold hypothesis dimensionality reduction review 2024 2025",
+    "Cunningham Yu 2014 dimensionality reduction large-scale neural recordings PMC",
+    "Churchland 2012 nature motor cortex rotational dynamics jPCA PMID PMC",
+    "Gallego 2017 neuron neural manifolds motor control PMC",
+    "Sadtler 2014 nature intrinsic manifold BCI learning motor cortex",
+    "Rigotti 2013 nature mixed selectivity prefrontal cortex PMC",
+    "neural population geometry review 2021 2024 manifold visual cortex PMC",
+    "Fortunato 2024 nonlinear manifolds neural population PMC"
+  ],
+  "total_sources": 8,
+  "open_full_text": 7,
+  "abstract_only": 1,
+  "notes": "S4 (Sadtler 2014) 未读取全文，因 Nature 订阅限制；内容通过 Gallego 2017 综述的引用获取，已在文章和笔记中标注此限制。"
+}

@@ -153,16 +153,16 @@
     "page": "wiki/concepts/population-vector-coding.md",
     "status": "established",
     "confidence": "high",
-    "last_changed": "2026-06-21",
-    "reason": "Created 2026-06-21. Cosine tuning of individual M1 neurons: established (Georgopoulos 1982, 1984, widely replicated). Population vector sum predicting movement direction: established (Georgopoulos 1986 Science, multiple replication labs). Mental rotation analog in neural activity at ~732°/s: established (Georgopoulos 1989 Science). Limitations: coding scheme may be incomplete (doesn't fully explain complex trajectories); rotational dynamics framework challenges strict PV interpretation. Status: established as foundational framework, ongoing refinement."
+    "last_changed": "2026-08-31",
+    "reason": "Created 2026-06-21. Cosine tuning of individual M1 neurons: established (Georgopoulos 1982, 1984, widely replicated). Population vector sum predicting movement direction: established (Georgopoulos 1986 Science, multiple replication labs). Mental rotation analog in neural activity at ~732°/s: established (Georgopoulos 1989 Science). Limitations: coding scheme may be incomplete (doesn't fully explain complex trajectories); rotational dynamics framework challenges strict PV interpretation. Status: established as foundational framework, ongoing refinement. | 2026-08-31修订rev2：定位为神经流形早期特例"
   },
   {
     "slug": "rotational-dynamics-motor",
     "page": "wiki/concepts/rotational-dynamics-motor.md",
     "status": "mainstream",
     "confidence": "high",
-    "last_changed": "2026-06-21",
-    "reason": "Created 2026-06-21. Rotational structure in M1 population activity during movement (Churchland 2012 Nature, n=218 neurons): well-validated, 2-2.8 Hz frequency, 28% variance explained. Key prediction confirmed: frequency invariant across movement speeds. RNN spontaneous replication (Sussillo 2015) provides strong theoretical grounding. Multiple follow-up papers validate. Primary challenger: rotations may be epiphenomenal rather than causal. Status: mainstream (strong empirical base, active debate on causal role). Would upgrade to established if causal intervention (frequency-specific perturbation) confirmed behavioral relevance."
+    "last_changed": "2026-08-31",
+    "reason": "Created 2026-06-21. Rotational structure in M1 population activity during movement (Churchland 2012 Nature, n=218 neurons): well-validated, 2-2.8 Hz frequency, 28% variance explained. Key prediction confirmed: frequency invariant across movement speeds. RNN spontaneous replication (Sussillo 2015) provides strong theoretical grounding. Multiple follow-up papers validate. Primary challenger: rotations may be epiphenomenal rather than causal. Status: mainstream (strong empirical base, active debate on causal role). Would upgrade to established if causal intervention (frequency-specific perturbation) confirmed behavioral relevance. | 2026-08-31修订rev2：纳入神经流形框架；增加Fortunato 2024非线性证据"
   },
   {
     "slug": "output-null-space",
@@ -540,8 +540,8 @@
     "status": "mainstream",
     "confidence": "high",
     "revision_count": 1,
-    "last_changed": "2026-08-24",
-    "reason": "Rigotti 2013 Nature 理论+实验双重验证；猕猴PFC数据充分；人类验证仍依赖间接方法"
+    "last_changed": "2026-08-31",
+    "reason": "Rigotti 2013 Nature 理论+实验双重验证；猕猴PFC数据充分；人类验证仍依赖间接方法 | 2026-08-31修订rev2：增加Ostojic&Fusi 2024弹性-泛化权衡框架"
   },
   {
     "slug": "stability-flexibility-tradeoff",
@@ -605,5 +605,12 @@
     "revision_count": 1,
     "last_changed": "2026-08-26",
     "reason": "新建页：恐惧泛化作为 PTSD 核心症状的概念已建立；行为层面的泛化梯度实验有充分支持；苔藓细胞受损→颗粒细胞集合重叠→泛化的具体细胞机制为新兴证据（Jeong 2024，啮齿类单一研究，需复现）；5-HT 递质切换驱动泛化的机制同样为新兴证据；人类细胞层面验证缺失；状态定为 emerging，置信度定为 medium-high"
+  },
+  {
+    "slug": "neural-manifold",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-08-31",
+    "reason": "创建：基于 Cunningham&Yu 2014、Churchland 2012、Gallego 2017、Rigotti 2013、Chung&Abbott 2021、Fortunato 2024 等多个独立团队的一致发现。核心概念（流形存在、维度约束、旋转动力学）在多脑区、多物种中重复验证，状态为 mainstream；非线性流形为 2024 年新兴发现，证据中等"
   }
 ]

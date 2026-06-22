@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29",
+  "last_updated": "2026-08-31",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8489,6 +8489,71 @@
       "article": "2026-08-29-ventral-visual-stream-object-recognition",
       "type": "full_text",
       "topic": "Frontiers 2025 editorial IT cortex visual learning object representation"
+    },
+    {
+      "id": "PMID:25151264",
+      "pmcid": "PMC4433019",
+      "title": "Dimensionality reduction for large-scale neural recordings",
+      "authors": "Cunningham JP, Yu BM",
+      "journal": "Nat Neurosci",
+      "year": 2014,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-08-31-neural-manifold-population-coding-geometry"
+      ],
+      "covers": "维度降维框架综述；群体分析科学动机；PCA/FA/jPCA/LDA/GPFA 方法"
+    },
+    {
+      "id": "PMID:28595054",
+      "pmcid": "PMC6122849",
+      "title": "Neural Manifolds for the Control of Movement",
+      "authors": "Gallego JA, Perich MG, Miller LE, Solla SA",
+      "journal": "Neuron",
+      "year": 2017,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-08-31-neural-manifold-population-coding-geometry"
+      ],
+      "covers": "神经流形定义；神经模式；运动控制流形框架；学习约束"
+    },
+    {
+      "id": "PMID:34801787",
+      "pmcid": "PMC10695674",
+      "title": "Neural population geometry: An approach for understanding biological and artificial neural networks",
+      "authors": "Chung S, Abbott LF",
+      "journal": "Curr Opin Neurobiol",
+      "year": 2021,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-08-31-neural-manifold-population-coding-geometry"
+      ],
+      "covers": "流形容量理论；解缠假说；视觉层级物体流形；生物-AI对比"
+    },
+    {
+      "id": "PMID:37503015",
+      "pmcid": "PMC10370078",
+      "title": "Nonlinear manifolds underlie neural population activity during behaviour",
+      "authors": "Fortunato C et al.",
+      "journal": "bioRxiv/PMC",
+      "year": 2024,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-08-31-neural-manifold-population-coding-geometry"
+      ],
+      "covers": "非线性神经流形；线性方法局限；纹状体vs运动皮层流形对比"
+    },
+    {
+      "id": "PMID:38553340",
+      "pmcid": "PMC12177215",
+      "title": "The computational role of structure in neural activity and connectivity",
+      "authors": "Ostojic S, Fusi S",
+      "journal": "Trends Cogn Sci",
+      "year": 2024,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-08-31-neural-manifold-population-coding-geometry"
+      ],
+      "covers": "弹性vs泛化权衡；连接模块性与活动结构关系"
     }
   ],
   "total_sources": 493,

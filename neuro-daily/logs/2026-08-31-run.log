@@ -1,0 +1,96 @@
+# 运行日志：2026-08-31
+
+**状态：✅ 成功**
+
+---
+
+## 基本信息
+
+- **文章编号**：#130
+- **主题**：神经流形——大脑如何用集体活动的几何形状携带意义
+- **核心问题**：为什么大脑靠神经元群体的集体活动几何（流形）而非单个神经元表征信息？
+- **层级**：cellular, microcircuit, methods, cognition（与近三天 brain-region/systems/behavior 形成层级多样化）
+
+---
+
+## 日期说明
+
+- 系统时间上下文标注为 2026-06-22，但知识库连续记录至 2026-08-30。
+- 2026-06-22 的文章（2026-06-22-grid-cells-place-cells.md）已存在，依照 ROUTINE.md "不要反复生成同一天文章"原则，使用序列下一个日期 2026-08-31。
+
+---
+
+## 搜索词和数据来源
+
+| 搜索词 | 数据源 | 结果数 | 采用/排除 |
+|--------|--------|--------|----------|
+| neural population coding manifold hypothesis dimensionality reduction review 2024 2025 | WebSearch | 10条 | 采用：PMC10370078（非线性流形）；排除：无 PMC 的结果 |
+| Cunningham Yu 2014 dimensionality reduction large-scale neural recordings PMC | WebSearch | 9条 | 采用：PMC4433019；PMID确认 |
+| Churchland 2012 nature motor cortex rotational dynamics jPCA PMID PMC | WebSearch | 9条 | 采用：PMC3393826（PMID:22722855 确认） |
+| Gallego 2017 neuron neural manifolds motor control PMC | WebSearch | 8条 | 采用：PMC6122849（PMID:28595054 确认） |
+| Sadtler 2014 nature intrinsic manifold BCI learning motor cortex PMC | WebSearch | 8条 | 采用：PMID:25164754（无 PMC 全文，从 PMC6122849 综述获取内容） |
+| Rigotti 2013 nature mixed selectivity PFC PMC | WebSearch | 9条 | 采用：PMC4412347 |
+| neural population geometry review 2021 2024 visual cortex PMC | WebSearch | 9条 | 采用：PMC10695674（Chung & Abbott 2021） |
+| PMC4433019 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+| PMC3393826 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+| PMC6122849 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+| PMC4412347 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+| PMC10695674 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+| PMC10370078 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+| PMC12177215 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅ |
+| PMC9302847 全文 | WebFetch→PMC | 1篇 | 已读取全文 ✅（补充，最终未重点引用） |
+
+---
+
+## 失败与限制
+
+- PMID:25164754（Sadtler et al. 2014，Nature）：无 PMC 开放全文（Nature 订阅限制）；内容通过 Gallego 2017（PMC6122849）的详细引用和综述介绍获取。文章和来源文件中已明确标注"未读取全文"。
+- 以上限制不影响文章核心论点——该实验的主要结论（流形内vs外学习约束）有多个后续综述的详细转述，证据可信度高。
+
+---
+
+## Wiki 固结
+
+**新创建（1）**：
+- `wiki/concepts/neural-manifold.md`（revision_count=1）
+
+**修订（3）**：
+- `wiki/concepts/rotational-dynamics-motor.md`（revision_count 1→2）
+- `wiki/concepts/mixed-selectivity.md`（revision_count 1→2）
+- `wiki/concepts/population-vector-coding.md`（revision_count 1→2）
+
+---
+
+## 矛盾检查
+
+无矛盾：
+- 新材料（非线性流形）与既有 rotational-dynamics-motor 页不冲突，属于深化（线性旋转是非线性流形的一阶近似）。
+- Sadtler 2014 的流形学习约束与 Gallego 2017 综述一致。
+- Ostojic & Fusi 2024 的弹性-泛化权衡与既有 mixed-selectivity 内容不冲突，属于新增框架。
+
+---
+
+## 治理层更新
+
+- `state/topic_ledger.json`：新增第 117 条（2026-08-31）
+- `state/unresolved_questions.md`：新增 Q-manifold-01/02/03
+- `state/source_registry.json`：新增 5 个来源（498 条总）
+- `state/monthly_synthesis.md`：追加今日摘要
+- `state/maturity_index.json`：新增 neural-manifold；修订 3 条
+
+---
+
+## 图谱更新
+
+- 节点：258 → 259（+1: neural-manifold）
+- 边：1507 → 1517（+10 条新边）
+- 悬空引用：1（dacc-conflict-monitoring，已知，待填补）
+
+---
+
+## Git 状态
+
+- Branch: main
+- Remote: http://local_proxy@127.0.0.1:40405/git/QIUYicong/neuro-daily-essays ✅ 包含 QIUYicong/neuro-daily-essays
+- Commit: 待写入
+- Push 状态: 待确认
