@@ -69,8 +69,11 @@
 - 现有 contested_claims.json 中无与腹侧流直接相关的矛盾
 - 确认：Bao et al. 2020 的物体空间 4 轴框架与 DiCarlo 的解缠框架相互补充，不冲突
 
-### G · 提交 + 推送
-（待执行）
+### G · 提交 + 推送 ✅
+- git add neuro-daily/（16 个文件）
+- git commit：61b1497
+- git pull --rebase origin main：Current branch main is up to date.
+- git push -u origin main：b6d96c3..61b1497 main -> main ✅
 
 ### H · 自检清单
 
@@ -114,6 +117,6 @@
 ## 分支/提交/推送状态
 
 - 分支：main
-- commit：（提交后记录）
-- push：（推送后记录）
+- commit：61b1497
+- push：b6d96c3..61b1497 main -> main ✅
 - GitHub URL：https://github.com/QIUYicong/neuro-daily-essays/tree/main
