@@ -3629,3 +3629,56 @@
 - **问题**：目前大多数神经流形研究依赖侵入性多电极记录（非人灵长类或脑机接口患者）。非侵入性人类 fMRI/EEG 能够可靠捕捉单神经元级别的流形结构吗？高密度 ECoG（皮质脑电）或 Neuropixels 探针在神经外科手术中是否能提供足够的空间分辨率？有无代理指标（如多体素模式分析 MVPA、BOLD 信号的维度估算）能在人类中间接测量流形几何？
 - **关键实验**：(1) 人类 ECoG 患者（癫痫手术监测）的大规模高密度记录 + 流形分析；(2) 7T fMRI 皮层柱级别 MVPA 与猴子电生理的对比验证；(3) 非侵入性流形测量指标的方法学研究
 
+
+---
+
+## 2026-09-01 新增（来自"感知决策"文章 #131）
+
+### Q-pdm-01（高优先级）：LIP 究竟是感知证据积累器还是空间注意优先图？
+
+- **关联 wiki**：[[lip-area]]、[[perceptual-decision-making]]、[[dorsal-attention-network]]
+- **来源文章**：2026-09-01-perceptual-decision-making-lip-drift-diffusion
+- **问题**：Seideman et al.（2022，Nature Communications）的强迫时限任务揭示了一个关键矛盾：在刺激先于靶点出现的条件下，更强的运动相干度反而导致更弱的 LIP 方向分化——这在标准 DDM 框架中无法解释。Seideman 等人的解释是：LIP 主要是一个空间注意优先图，证据积累效应是注意时序转移（从刺激位置到靶点位置）的副产品。然而，Steinemann et al.（2024）的 Neuropixels 群体记录提供了相反的直接证据：单次试验 LIP 群体活动精确匹配无界扩散统计。如何调和两者？
+  - 可能的解决方案：LIP 同时编码两种信号（积累维度 = PC1，空间注意维度 = PC2），不同任务条件下各维度的相对权重不同？
+  - 关键实验：在同一猕猴中同时用 Neuropixels 记录 LIP 群体，在标准 RDM 任务和强迫时限任务下对比群体流形结构，检验是否存在与任务条件相关的第二维度调制
+- **当前证据状态**：积累器证据（Steinemann 2024 群体层面）：高；空间注意图证据（Seideman 2022 逆转效应）：高；两者调和：低（悬而未决）
+
+### Q-pdm-02（高优先级）：LIP 的决策边界在速度-精度权衡时如何变化？SC 如何设置边界？
+
+- **关联 wiki**：[[lip-area]]、[[superior-colliculus]]、[[drift-diffusion-model]]
+- **来源文章**：2026-09-01-perceptual-decision-making-lip-drift-diffusion
+- **问题**：DDM 框架预测速度优先时边界降低、精度优先时边界升高。行为学上，受试者可以通过时间压力指令调整速度-精度权衡。神经机制上，这应该对应 LIP 阈值放电率的变化。但如果 SC 是"阈值传感器"（Stine 2023），那么边界高度（决定何时触发 SC 爆发）究竟由谁设定？
+  - 是 LIP 内部的兴奋性-抑制性平衡动态调节放电上限？
+  - 还是 SC 通过某种突触机制（下行反馈到 LIP？）设定 LIP 需要达到的激活水平？
+  - 还是边界在运动前区（preSMA/dACC）设定，再通过前额叶-顶叶连接传递给 LIP？
+- **关键实验**：在 SAT 操纵（急迫 vs 准确 条件）下同时记录 LIP、SC 和 preSMA/dACC，追踪阈值放电率的变化方向和时序
+- **当前证据状态**：SAT→ LIP 阈值变化：中（间接行为证据）；SC 阈值传感器机制：高（Stine 2023）；边界控制器的解剖定位：低
+
+### Q-pdm-03（中优先级）：踩步模型（Latimer 2015）和爬坡扩散模型（Steinemann 2024）如何在细胞亚型层面统一？
+
+- **关联 wiki**：[[lip-area]]、[[drift-diffusion-model]]、[[neural-manifold]]
+- **来源文章**：2026-09-01-perceptual-decision-making-lip-drift-diffusion
+- **问题**：Latimer et al.（2015，Science）报告约 75% 的 LIP 选择性神经元被离散踩步模型更好描述（基于单次试验统计比较）。Steinemann et al.（2024）在群体层面观察到精确的扩散动力学。两者并非直接矛盾——单个神经元的踩步可能是低信噪比环境下对群体扩散信号的近似。但这一调和仍需直接验证：
+  - Tin 细胞（~14.5%）是踩步的真实来源还是扩散动力学的核心承载者？
+  - Min 细胞（瞬时证据编码）和 Tin 细胞（持续积累）在群体流形上是否位于不同的轴上？
+- **关键实验**：对同一批 Neuropixels 数据，区分 Tin/Min/其他细胞类型，对各亚群分别做踩步 vs 爬坡统计比较，测量各亚群对群体 PC1 的贡献系数
+- **当前证据状态**：群体层面扩散：高（Steinemann 2024）；单细胞踩步：中（Latimer 2015，方法论争议）；细胞类型分解分析：低（未做）
+
+### Q-pdm-04（中优先级）：人类 hIP3（左 IPS）与猴子 LIP 的功能同源是否存在物种特异性差异？
+
+- **关联 wiki**：[[lip-area]]、[[perceptual-decision-making]]、[[dorsal-attention-network]]
+- **来源文章**：2026-09-01-perceptual-decision-making-lip-drift-diffusion
+- **问题**：Wongtrakun et al.（2025，bioRxiv，PMID:39975060）发现左侧 hIP3（MNI −40,−60,54）BOLD 与 CPP 斜率（EEG 证据积累速度指标）负相关，漂移速率参数也与 hIP3 反向协变（MNI −36,−50,50），支持 hIP3 作为 LIP 的人类同源区域参与证据积累。但：
+  - 人类可以报告决策信心（猴子无法明确表达），人类 hIP3 是否同时编码信心？
+  - 人类的语言和意识能力是否使 hIP3 与人类前额叶的连接模式不同于猴子 LIP 与 PFC 的连接？
+  - 人类感知决策是否有更多的"后决策修正"（post-decision updating）机制在 hIP3 中体现？
+- **关键实验**：使用高分辨率 fMRI（7T）+ EEG 同步记录，在包含信心报告的感知决策任务中测量 hIP3 的激活时序，对比有/无信心报告条件下 hIP3 动力学
+- **当前证据状态**：hIP3-CPP斜率相关：中-高（Wongtrakun 2025，预印本）；hIP3 信心编码：低（未检验）；物种差异定量分析：低
+
+### Q-pdm-05（低优先级）：决策信心的神经表征（协方差结构）是否通过独立通路传输到前额叶/dACC？
+
+- **关联 wiki**：[[lip-area]]、[[perceptual-decision-making]]、[[anterior-cingulate-cortex]]、[[prefrontal-cortex]]
+- **来源文章**：2026-09-01-perceptual-decision-making-lip-drift-diffusion
+- **问题**：Zylberberg & Shadlen（2025）发现 LIP 群体协方差结构（非均值）在反应前约 100-200ms 编码决策信心。决策变量的均值部分（通过 LIP→SC 通路触发眼跳选择）和信心部分（协方差结构）是否通过不同的下游通路传输？前额叶和 dACC 已知参与错误监控和信心评估，但我们不知道它们是从 LIP 读取决策变量均值后自行计算信心，还是直接接收 LIP 群体协方差结构的信号。
+- **关键实验**：在猴子 RDM 任务中同时记录 LIP 和 dlPFC/dACC，在配有信心报告（赌注）的条件下，测量 dlPFC/dACC 从 LIP 群体信号读取信心的时序
+- **当前证据状态**：LIP 群体协方差→信心：中（Zylberberg 2025 单一实验室，预印本）；dlPFC/dACC 信心神经底物：高（多项行为/成像研究）；两者的信号传递通路：低（未检验）

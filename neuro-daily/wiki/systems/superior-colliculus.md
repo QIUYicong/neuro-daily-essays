@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-30
-updated: 2026-07-30
-revision_count: 1
-dimensions: [cellular, microcircuit, brain-region]
-related: [multisensory-integration, inverse-effectiveness, thalamus, somatosensory-cortex, auditory-cortex]
+updated: 2026-09-01
+revision_count: 2
+dimensions: [cellular, microcircuit, brain-region, cognition]
+related: [multisensory-integration, inverse-effectiveness, thalamus, somatosensory-cortex, auditory-cortex, lip-area, perceptual-decision-making]
 prerequisites: [multisensory-integration]
-opens_questions: [Q-msi-02]
-source_articles: [2026-07-30-multisensory-integration-bayesian-brain]
-key_sources: ["PMID:32113921", "PMCID:PMC9680976", "PMID:19616425"]
+opens_questions: [Q-msi-02, Q-pdm-02]
+source_articles: [2026-07-30-multisensory-integration-bayesian-brain, 2026-09-01-perceptual-decision-making-lip-drift-diffusion]
+key_sources: ["PMID:32113921", "PMCID:PMC9680976", "PMID:19616425", "PMID:37352857"]
 ---
 
 # 上丘 (Superior Colliculus, SC)
@@ -66,21 +66,36 @@ SC 的多感觉整合能力不是自主生成的，而是依赖来自联合皮�
 | AES 皮层失活消除 SC 整合能力 | 药理失活（GABA 注射）+ 细胞外记录 | PMID:32113921 | 高 |
 | 视听训练恢复半盲区多感觉检测 | 猫半盲模型 + 多感觉训练方案 | PMID:32113921 | 高（动物模型）|
 
+## SC 作为决策终止器（Stine et al. 2023）
+
+除多感觉整合外，SC 在**感知决策**中还承担决策终止的角色（Stine et al. 2023，Neuron，PMID:37352857）：
+
+- **机制**：猴子在随机点运动任务中，LIP（外侧顶内区）神经元以漂移扩散动力学积累感觉证据；当 LIP 放电率越过决策边界时，SC 检测到该信号并爆发放电，触发眼跳
+- **因果证据**：药理失活 SC（muscimol 注射）→ LIP 积累延长（无法终止）→ 反应时显著增加，且积累轨迹越过通常的 SC 爆发点仍继续上升
+- **分工概念**：LIP 是**积累器**，SC 是**阈值传感器**；这是与 SC 多感觉功能完全不同的感知-运动接口功能
+
+SC 的这一"决策终止"功能揭示了皮层-皮层下的计算分工：皮层（LIP）负责慢速随机证据整合，皮层下（SC）负责快速阈值检测和运动触发。
+
 ## 连接
 
 - [[multisensory-integration]] — SC 是多感觉整合的皮层下节点
 - [[inverse-effectiveness]] — SC 的第三条规则
 - [[thalamus]] — SC → 丘脑枕核（Pulvinar）→ 皮层联合区 快速通路
 - [[auditory-cortex]] — AES 皮层投射到 SC（使能整合）
+- [[lip-area]] — LIP → SC 决策终止回路（Stine 2023）
+- [[perceptual-decision-making]] — SC 是感知决策运动输出的触发节点
 
 ## 未解问题
 
 - Q-msi-02：SC 整合和 STS 整合是串联（SC→Pulvinar→STS）还是并联（两条独立通路）？
+- Q-pdm-02：决策边界（LIP 阈值放电率）在速度-精度权衡时如何变化？SC 的阈值检测机制与边界高度如何协调？
 
 ## 修订历史
 
 - 2026-07-30 · 创建 · 基于《感官的裁判》文章 #98 · 初始置信度：高（Stein & Rowland 2020 开放全文）
+- 2026-09-01 · 修订（rev2）· 新增 SC 决策终止功能（Stine et al. 2023，PMID:37352857）基于文章 #131
 
 ## 来源文章
 
 - [[2026-07-30-multisensory-integration-bayesian-brain]]
+- [[2026-09-01-perceptual-decision-making-lip-drift-diffusion]]

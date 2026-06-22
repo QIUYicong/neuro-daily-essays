@@ -1,0 +1,83 @@
+# 2026-09-01 Daily Run Log
+
+**Run Start**: 2026-09-01 (knowledge-base sequential date; system context shows 2026-06-22)
+**Article #**: 131
+**Status**: COMPLETE
+
+---
+
+## Step 0: Repository Sync
+- `git pull --rebase origin main` — completed successfully
+
+## Step A: State Read
+- Read `state/run_logs/` (last run: 2026-08-31, article #130)
+- Read `wiki/index.md` header: 255 pages as of 2026-08-30 (#128); neural-manifold (#130) added but index not yet updated
+- Read `wiki/CHANGELOG.md`: last entry 2026-08-31 (#130) confirmed
+- Knowledge base sequential date: 2026-09-01 (article #131)
+
+## Step B: Topic Selection
+- **Chosen topic**: 感知决策与漂移扩散模型（Perceptual Decision-Making & Drift-Diffusion Model）
+- **Rationale**:
+  - Natural extension of article #130 (neural manifolds) — LIP decision variable is paradigmatic 1D manifold
+  - Fills Track 5 (cognitive control) decision-making gap
+  - Addresses dangling reference `dacc-conflict-monitoring`
+  - Strong base of open-access sources available (Rorie 2010 PLoS One, Seideman 2022 Nat Commun, Steinemann 2024 eLife, Wongtrakun 2025 bioRxiv)
+
+## Step C: Research & Article Creation
+- PubMed E-utilities: searched for LIP, DDM, Shadlen, Latimer stepping, Seideman, Steinemann, Wongtrakun
+- PMC full texts retrieved: PMC2824817 (Rorie 2010), PMC9343639 (Seideman 2022), PMC11488853 (Steinemann 2024), PMC11838566 (Wongtrakun 2025)
+- Sources file: `neuro-daily/sources/2026-09-01-sources.json` (11 sources: 4 open, 7 abstract-only)
+- Reading notes: `neuro-daily/notes/2026-09-01-reading-notes.md`
+- Article created: `neuro-daily/articles/2026-09-01-perceptual-decision-making-lip-drift-diffusion.md`
+  - Length: ~5200+ Chinese characters
+  - Sections: 核心问题/为什么重要/随机点运动范式/MT证据源/LIP积累器/DDM/多来源整合/Steinemann2024/决策终止SC/信心编码/争议/人类IPS/比喻/神经流形联结/AI对比/5个未解问题/11个来源
+  - Source traceability: all claims linked to specific papers, open/abstract-only status labeled
+
+## Step D: Wiki Consolidation
+### New pages created (4):
+1. `wiki/concepts/perceptual-decision-making.md` — 感知决策，established，high confidence
+2. `wiki/concepts/drift-diffusion-model.md` — 漂移扩散模型，established，high confidence
+3. `wiki/systems/lip-area.md` — 外侧顶内区LIP，established，high confidence
+4. `wiki/concepts/dacc-conflict-monitoring.md` — dACC冲突监控存根，填补悬空引用
+
+### Existing pages revised (2):
+5. `wiki/systems/superior-colliculus.md` rev1→rev2 — 新增SC决策终止功能（Stine 2023）
+6. `wiki/concepts/neural-manifold.md` rev1→rev2 — 新增LIP决策变量作为范型一维流形（Steinemann 2024）
+
+### Contradiction checks:
+- LIP积累器 vs 空间注意图：并列登记为Q-pdm-01，未降置信度
+- 踩步 vs 爬坡：并列登记为Q-pdm-03，群体证据（Steinemann 2024）权重更高
+
+## Step E: Graph & Navigation Updates
+- `wiki/_graph.json`: Updated (259→263 nodes, 1517→1552 edges, +4 nodes, +35 edges)
+- `wiki/index.md`: Updated header (255→260 pages), added neural-manifold (missing from #130), added 4 new concept/system entries, updated SC entry
+- `wiki/CHANGELOG.md`: Added 2026-09-01 entry
+
+## Step F: Governance Updates
+- `state/unresolved_questions.md`: Added Q-pdm-01 through Q-pdm-05 (5 new questions)
+- `state/monthly_synthesis.md`: Added 2026-09-01 entry under new September 2026 section
+- `state/source_registry.json`: Added 11 new source records + sources_2026-09-01 index
+- `state/topic_ledger.json`: Added article #131 entry; updated layer_coverage_recent
+
+## Step G: Commit & Push
+- `git add neuro-daily/`
+- Commit message: "Add neuro daily article + wiki consolidation for 2026-09-01"
+- `git push -u origin main`
+
+## Step H: Self-Check
+- All 11 sources verified (no fabricated PMIDs, all real papers)
+- Open-access only: PMC2824817/PMC9343639/PMC11488853/PMC11838566 — confirmed
+- Wongtrakun 2025 is preprint (bioRxiv) — clearly labeled "预印本，未经同行审议" in article
+- No medical advice
+- Contradiction logging: Q-pdm-01 (积累器vs注意图), Q-pdm-03 (踩步vs爬坡)
+- Cross-article connection: neural-manifold rev2 links to LIP 1D manifold (Steinemann 2024)
+
+## Known Issues / Notes
+- Article #129 entry missing from topic_ledger.json (pre-existing gap from previous sessions)
+- wiki/index.md header count (255→260): +1 neural-manifold (#130) + 4 new (#131) = 260 total
+- System date context shows 2026-06-22; using sequential knowledge-base date 2026-09-01 per established protocol
+
+---
+
+**Run End**: COMPLETE
+**Files Modified**: 12 files (1 article + 1 notes + 1 sources + 6 wiki pages + 4 state files + 1 log)

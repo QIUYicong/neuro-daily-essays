@@ -4,6 +4,40 @@
 
 ---
 
+## 2026-09-01 · 文章 #131 · 大脑如何投票：从随机点到决策信号
+
+**核心主题**：感知决策的神经机制——随机点运动范式（MT→LIP→SC证据流水线）、漂移扩散模型（DDM五参数神经对应）、奖励整合（起点偏置，Rorie 2010）、单次试验群体验证（Steinemann 2024，Neuropixels，1D流形，PC1=44%）、决策终止（Stine 2023，SC阈值传感器）、决策信心编码（Zylberberg 2025，协方差结构）、踩步vs爬坡争议（Latimer 2015 vs Steinemann 2024）、空间注意vs积累争议（Seideman 2022）、人类IPS同源（Wongtrakun 2025，hIP3 CPP斜率）。图谱从 259 节点/1517 边增至 **263 节点/1552 边**（+4节点，+35条有向边）。
+
+### 新建 Wiki 页面（4 个）
+
+- `concepts/perceptual-decision-making.md`（感知决策）🟢 established · 高置信度 — MT→LIP→SC证据流水线；DDM五参数神经对应；奖励移动起点/证据改变漂移速率（Rorie 2010）；单次群体直接验证（Steinemann 2024）；LIP→SC决策终止（Stine 2023）；决策信心（Zylberberg 2025）；争议并列（踩步/空间注意）；Q-pdm-01~05五个开放问题
+- `concepts/drift-diffusion-model.md`（漂移扩散模型）🟢 established · 高置信度 — 五参数系统（μ/σ/B/z/t₀）与LIP神经信号对应表；速度-精度权衡的边界机制；踩步vs爬坡群体层面解决；DDM扩展（非对称起点/时变漂移）
+- `systems/lip-area.md`（外侧顶内区LIP）🟢 established · 高置信度 — 爬坡-到-阈值动力学详细描述；细胞类型异质性（Tin/Min亚群，Steinemann 2024）；多信号整合（奖励起点/感知漂移时间分离）；决策终止（LIP→SC双区域分工）；决策信心协方差编码；Q-pdm-01~04
+- `concepts/dacc-conflict-monitoring.md`（dACC冲突监控）🔵 mainstream · 高置信度 — 填补图谱悬空引用；存根页面（指向conflict-monitoring/anterior-cingulate-cortex）；决策不确定性编码；速度-精度权衡边界调节
+
+### 修订 Wiki 页面（2 个）
+
+- `systems/superior-colliculus.md` rev1→rev2 — 新增 SC 决策终止功能（Stine et al. 2023，PMID:37352857）：LIP→SC 阈值检测机制、SC 失活延长 LIP 积累的因果证据；新增连接 lip-area 和 perceptual-decision-making；新增 Q-pdm-02
+- `concepts/neural-manifold.md` rev1→rev2 — 新增 LIP 决策变量作为范型一维流形（Steinemann 2024）：PC1=44%方差、参与比率4.4、无界扩散自相关、余弦相似度0.63-0.74；新增连接 lip-area/perceptual-decision-making/drift-diffusion-model；新增 Q-pdm-01
+
+### 图谱与导航
+
+- _graph.json：259→263节点（+4），1517→1552边（+35），dacc-conflict-monitoring 悬空引用已填补
+- index.md：主题页数从 255 更新至 260（neural-manifold补入+4新页）；新增 concepts/neural-manifold、concepts/perceptual-decision-making、concepts/drift-diffusion-model、systems/lip-area、concepts/dacc-conflict-monitoring 条目；更新 systems/superior-colliculus 说明
+
+### 矛盾登记
+
+- **LIP功能：积累器 vs 空间注意图**：Seideman 2022（强迫时限任务，更强证据→更弱LIP分化）挑战传统积累器解释；与 Steinemann 2024（群体扩散证据）并列呈现；未降低置信度，登记为 Q-pdm-01，需未来实验（同一猕猴同时测量注意地图维度）解决
+- **踩步 vs 爬坡**：Latimer 2015 单神经元踩步 vs Steinemann 2024 群体扩散；登记为 Q-pdm-03；群体层面更新（Steinemann 2024 已给予较高权重）
+
+### 新增开放问题（5）
+
+Q-pdm-01（高优先）、Q-pdm-02（高优先）、Q-pdm-03（中优先）、Q-pdm-04（中优先）、Q-pdm-05（低优先）
+
+**图谱**：259节点/1517边 → **263节点/1552边**（+4节点，+35边）
+
+---
+
 ## 2026-08-30 · 文章 #128 · 视觉的另一半：背侧流如何把世界变成动作
 
 **核心主题**：背侧视觉流（V1→MT/V5→PPC→前运动皮层）的行动视觉计算——Goodale-Milner 感知vs行动双流框架、MT/V5 方向选择性与 pattern motion 整合、后顶叶皮层（LIP/AIP/VIP/MIP）的意图地图、LIP 非运动指令区的新证据（Brunamonti 2023）、Rizzolatti 背背侧/腹背侧双路细分。图谱从 255 节点/1494 边增至 258 节点/1507 边（+13 条有向边）。

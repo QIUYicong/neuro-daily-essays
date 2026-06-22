@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-08-30（第128篇·背侧视觉流·MT/V5·后顶叶皮层行动视觉）· 主题页总数：**255**（新建3页：systems/posterior-parietal-cortex、concepts/dorsal-visual-stream、neurons/mt-v5-motion-area；修订1页：concepts/ventral-visual-stream rev2→rev3；图谱258节点/1507边）
+> 最后更新：2026-09-01（第131篇·感知决策·LIP·漂移扩散模型）· 主题页总数：**260**（新建1页（#130）：concepts/neural-manifold；新建4页（#131）：concepts/perceptual-decision-making、concepts/drift-diffusion-model、systems/lip-area、concepts/dacc-conflict-monitoring；修订3页：systems/superior-colliculus rev1→rev2、concepts/neural-manifold rev1→rev2、wiki/index更新；图谱263节点/1552边）
 
 ---
 
@@ -203,6 +203,10 @@
 - 🔵 [享乐热点（Hedonic Hotspot）](concepts/hedonic-hotspot.md) — NAc壳区前背侧内侧象限约1mm³的"快乐发生器"（大鼠，推算人脑约1cm³）；µ/δ/κ阿片受体激动剂均使sucrose liking反应翻倍；AEA在此位置增强liking但依赖内源性阿片信号同时激活（纳洛酮共注射完全阻断，Mitchell 2018）；多巴胺在热点内注射不增强liking（wanting-liking解剖分离的直接证据）；"情感键盘"（前appetitive/后aversive）可被应激重调 **[NEW 2026-08-20]**
 - 🟡 [认知运动解离（CMD）](concepts/cognitive-motor-dissociation.md) — 行为检查显示无命令跟随，但任务型fMRI/EEG显示命令跟随神经信号的状态；约25%"无反应"DoC患者有CMD（Bodien NEJM 2024，n=353）；识别方法（"打网球"想象范式/P300 EEG/PCI≥0.31）；从根本上改变意识障碍的医疗决策伦理 **[NEW 2026-08-09]**
 - 🟡 [前脑中间回路假说](concepts/mesocircuit-hypothesis.md) — Schiff（2009/2022）提出的VS/UWS自我维持机制：皮层损伤→纹状体失驱动→GPi脱抑制→中央丘脑过度抑制→皮层进一步去传入；关键：GPi脱抑制是可逆的；唑吡坦/金达胺素/中央丘脑DBS均通过打破该回路起效 **[NEW 2026-08-09]**
+- 🔵 [神经流形](concepts/neural-manifold.md) — 神经元群体在高维活动状态空间中探索的低维弯曲子空间；由突触回路结构约束；流形维度/曲率/容量决定神经系统能表征什么；BCI 流形内vs外学习约束（Sadtler 2014）；PFC 高维流形支持混合选择性；运动皮层流形本质上是非线性的（Fortunato 2024）；**LIP 决策变量=范型一维流形（Steinemann 2024 Neuropixels）** **[NEW 2026-08-31 · 修订 rev1→rev2 2026-09-01]**
+- 🟢 [感知决策](concepts/perceptual-decision-making.md) — 大脑将随时间积累的感觉证据（MT→LIP）转化为分类选择的过程；核心实现：LIP 神经元爬坡到阈值动力学（Shadlen/Newsome 2001）；DDM 五参数与 LIP 神经信号精确对应（Gold & Shadlen 2007）；奖励移动起点、感觉证据改变漂移速率（Rorie 2010）；Neuropixels 单次群体验证（Steinemann 2024）；SC 作为阈值传感器（Stine 2023）；与"空间注意图"的根本争议（Seideman 2022）**[NEW 2026-09-01]**
+- 🟢 [漂移扩散模型（DDM）](concepts/drift-diffusion-model.md) — 感知决策的五参数随机过程框架：μ（漂移速率/LIP斜率）、σ（扩散/神经噪声）、B（边界/LIP阈值放电率）、z（起点偏置/奖励调制）、t₀（非决策时间）；速度-精度权衡的计算机制；踩步 vs 爬坡争论：群体层面扩散证据（Steinemann 2024）反驳单神经元踩步（Latimer 2015）**[NEW 2026-09-01]**
+- 🔵 [dACC冲突监控](concepts/dacc-conflict-monitoring.md) — 背侧前扣带回（dACC/MCC）通过计算竞争响应"冲突"量来监控执行状态；感知决策中编码决策不确定性；参与速度-精度权衡的边界高度调节；存根页面，详见 conflict-monitoring 和 anterior-cingulate-cortex **[NEW 2026-09-01 · 填补悬空引用]**
 
 ## motor（运动系统）
 
@@ -245,7 +249,8 @@
 - 🔵 [痛觉矩阵（Pain Matrix）](systems/pain-matrix.md) — 脊髓丘脑束信号在脑内形成的多节点网络：S1/S2（感觉-分辨）+岛叶（内感受整合）+ACC（情感成分）+PFC（认知调控）；VPL→S1（新脊丘束）vs VMpo→岛叶/ACC（旁脊丘束）双路分叉；cingulotomy"知痛不感苦"经典分离；Wager NPS 多变量模式分析；慢性化中中脑边缘系统替代感觉网络 **[NEW 2026-08-02]**
 - 🟢 [前扣带回（ACC）](systems/anterior-cingulate-cortex.md) — 疼痛情感成分的核心编码区（cingulotomy证明）；ACC→PAG下行镇痛通路；dACC/MCC认知控制（错误监测/冲突监控/努力决策/FMθ）；**rev5新增**：sgACC（BA25）作为"内脏运动皮层"（Price & Drevets 2010）——调节自主神经+神经调质基线；抑郁中sgACC持续过度激活；BA25白质纤维DBS治疗TRD（Mayberg 2005）**[修订 rev4→rev5 2026-08-25]**
 - 🟢 [导水管周围灰质（PAG）](systems/periaqueductal-gray.md) — 内源性阿片镇痛系统核心枢纽；PAG电刺激→全身镇痛→纳洛酮阻断（内源性阿片因果证据）；vlPAG GABA能→去抑制机制；RVM ON/OFF-cells分工（镇痛/促痛）；ACC/下丘脑/杏仁核→PAG整合；急性疼痛OFF-cells主导→慢性疼痛ON-cells过度激活 **[NEW 2026-08-02]**
-- 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化 **[NEW 2026-07-30]**
+- 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化；**新增**：SC 作为 LIP 决策终止器——检测到 LIP 越过边界后爆发放电触发眼跳（Stine 2023）**[修订 rev1→rev2 2026-09-01]**
+- 🟢 [外侧顶内区（LIP）](systems/lip-area.md) — 猕猴后顶叶皮层顶内沟外侧壁；证据积累的核心神经底物；爬坡-到-阈值动力学（Shadlen/Newsome 2001）；DDM 五参数的神经实现；奖励调制起点（Rorie 2010）；Neuropixels 单次群体验证（Steinemann 2024，PC1=44%，1D 流形）；SC 触发决策终止（Stine 2023）；"证据积累器"vs"空间注意优先图"根本争议（Seideman 2022）**[NEW 2026-09-01]**
 - 🟢 [基底节（区间计时视角）](systems/basal-ganglia.md) — 以区间计时为核心的系统层级视角：MSN ~1/3 显示斜坡放电；D1-MSN 递减/D2-MSN 递增的对立动力学（Bruce 2025 eLife 光遗传因果证据，R²=0.95 漂移扩散模型）；纹状体-丘脑-皮层节拍计时回路；帕金森病计时障碍机制 **[NEW 2026-07-31]**（另见 [[circuits/basal-ganglia]] 运动选择视角）
 - 🟢 [颞顶联合区（TPJ）](systems/temporoparietal-junction.md) — 前-后轴分工：pTPJ（信念推断/视角转换，右侧化）vs aTPJ（注意定向，VAN 节点）；与 DAN（FEF/IPS）动态拮抗；进化：灵长类 TPJ 体积与社会群体大小正相关；临床：右 TPJ 损伤→偏侧空间忽视+社会认知障碍；TPJ 功能是否专一于 ToM 仍有争议（Q-tom-01）**[NEW 2026-08-01]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；BLA-LA 再巩固去稳定化分子链；皮质内侧核Proust效应解剖基础；**rev7新增**：vmPFC→杏仁核负向有效连接（认知重评+恐惧消退双机制）；Steward 2021 DCM量化**[修订 rev6→rev7 2026-08-25]**

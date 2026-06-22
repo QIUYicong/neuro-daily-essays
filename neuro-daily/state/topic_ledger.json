@@ -8046,6 +8046,69 @@
         "循环神经网络（RNN）作为大脑模型：任务驱动建模范式",
         "小脑皮层微回路：浦肯野细胞与运动学习（层级切换至 molecular/synaptic）"
       ]
+    },
+    {
+      "date": "2026-09-01",
+      "article_number": 131,
+      "title": "大脑如何投票：从随机点到决策信号",
+      "slug": "perceptual-decision-making-lip-drift-diffusion",
+      "core_question": "大脑如何将随时间积累的模糊感觉信息转化为明确的感知选择？LIP 爬坡动力学与漂移扩散模型的神经机制是什么？",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "behavior"
+      ],
+      "topic_tags": [
+        "perceptual-decision-making",
+        "LIP",
+        "drift-diffusion-model",
+        "evidence-accumulation",
+        "MT-V5",
+        "superior-colliculus",
+        "neural-manifold",
+        "Neuropixels",
+        "decision-confidence"
+      ],
+      "main_sources": [
+        "PMID:11600651 (Shadlen & Newsome 2001, J Neurophysiol, abstract only)",
+        "PMID:12417672 (Roitman & Shadlen 2002, J Neurosci, abstract only)",
+        "PMID:17600525 (Gold & Shadlen 2007, Annu Rev Neurosci, abstract only)",
+        "PMID:20174574 (Rorie et al. 2010, PLoS One, PMC2824817, open)",
+        "PMID:26160947 (Latimer et al. 2015, Science, abstract only)",
+        "PMID:35915096 (Seideman et al. 2022, Nat Commun, PMC9343639, open)",
+        "PMID:37352857 (Stine et al. 2023, Neuron, abstract only)",
+        "PMID:39422555 (Steinemann et al. 2024, eLife, PMC11488853, open)",
+        "PMID:39975060 (Wongtrakun et al. 2025, bioRxiv, PMC11838566, open preprint)",
+        "PMID:40208792 (Zylberberg & Shadlen 2025, Cell Reports, abstract only)",
+        "PMID:2770878 (Newsome et al. 1989, Nature, abstract only)"
+      ],
+      "open_full_text": 4,
+      "abstract_only": 7,
+      "wiki_created": [
+        "perceptual-decision-making",
+        "drift-diffusion-model",
+        "lip-area",
+        "dacc-conflict-monitoring"
+      ],
+      "wiki_revised": [
+        "superior-colliculus",
+        "neural-manifold"
+      ],
+      "unresolved_questions": [
+        "Q-pdm-01",
+        "Q-pdm-02",
+        "Q-pdm-03",
+        "Q-pdm-04",
+        "Q-pdm-05"
+      ],
+      "next_suggested_topics": [
+        "决策信心的神经机制：从 LIP 协方差到前额叶元认知（认知层升级）",
+        "眼动系统：FEF/SC/DLPN 完整通路及其与 LIP 的功能分工",
+        "多巴胺与决策（RL-DDM 整合框架：DA 波动如何调制漂移速率和边界）",
+        "基底节（纹状体）作为另一个积累器：与 LIP 路径的比较"
+      ],
+      "date_note": "系统时钟显示2026-06-22，使用知识库连续性日期2026-09-01（序列第131篇）"
     }
   ],
   "layer_coverage_recent": {
@@ -8205,11 +8268,21 @@
     ],
     "brain-region": [
       "2026-08-23",
-      "2026-08-30"
+      "2026-08-30",
+      "2026-09-01"
     ],
     "behavior": [
       "2026-08-23",
-      "2026-08-30"
+      "2026-08-30",
+      "2026-09-01"
+    ],
+    "cognition": [
+      "2026-08-23",
+      "2026-09-01"
+    ],
+    "microcircuit": [
+      "2026-08-23",
+      "2026-09-01"
     ],
     "systems": [
       "2026-08-30"

@@ -12685,5 +12685,171 @@
     "PMID:31009459",
     "PMID:31377252",
     "PMID:16781044"
+  ],
+  "PMID:11600651": {
+    "title": "Neural basis of a perceptual decision in the parietal cortex (area LIP) of the rhesus monkey",
+    "authors": "Shadlen MN, Newsome WT",
+    "year": 2001,
+    "journal": "Journal of Neurophysiology",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "LIP ramping activity", "evidence accumulation", "perceptual decision-making", "random dot motion"
+    ],
+    "caution": "ABSTRACT ONLY - subscription journal"
+  },
+  "PMID:12417672": {
+    "title": "Response of neurons in the lateral intraparietal area during a combined visual discrimination reaction time task",
+    "authors": "Roitman JD, Shadlen MN",
+    "year": 2002,
+    "journal": "Journal of Neuroscience",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "LIP threshold firing rate", "reaction time", "accumulation to bound", "decision bound"
+    ],
+    "caution": "ABSTRACT ONLY - subscription journal"
+  },
+  "PMID:17600525": {
+    "title": "The neural basis of decision making",
+    "authors": "Gold JI, Shadlen MN",
+    "year": 2007,
+    "journal": "Annual Review of Neuroscience",
+    "doi": "10.1146/annurev.neuro.29.051605.113038",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "drift diffusion model", "LIP neural signals", "DDM parameters", "speed-accuracy tradeoff"
+    ],
+    "caution": "ABSTRACT ONLY - subscription journal"
+  },
+  "PMID:20174574": {
+    "pmcid": "PMC2824817",
+    "title": "Integration of Sensory and Reward Information during Perceptual Decision-Making in Lateral Intraparietal Cortex (LIP) of the Macaque Monkey",
+    "authors": "Rorie AE, Gao J, McClelland JL, Newsome WT",
+    "year": 2010,
+    "journal": "PLoS One",
+    "doi": "10.1371/journal.pone.0009308",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "reward integration", "starting point bias", "drift rate", "LIP decision-making", "prior probability"
+    ],
+    "caution": "OPEN FULL TEXT - PMC2824817"
+  },
+  "PMID:26160947": {
+    "title": "Single-trial spike trains in parietal cortex reveal discrete steps during decision-making",
+    "authors": "Latimer KW, Yates JL, Meister ML, Huk AC, Pillow JW",
+    "year": 2015,
+    "journal": "Science",
+    "doi": "10.1126/science.aaa4765",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "stepping model", "ramping", "LIP single trial dynamics", "statistical model comparison"
+    ],
+    "caution": "ABSTRACT ONLY - subscription journal"
+  },
+  "PMID:35915096": {
+    "pmcid": "PMC9343639",
+    "title": "A conflict between spatial selection and evidence accumulation in area LIP",
+    "authors": "Seideman JA, Stanford TR, Salinas E",
+    "year": 2022,
+    "journal": "Nature Communications",
+    "doi": "10.1038/s41467-022-32207-1",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "spatial attention", "evidence accumulation", "LIP urgency", "compelled response", "attention priority map"
+    ],
+    "caution": "OPEN FULL TEXT - PMC9343639"
+  },
+  "PMID:37352857": {
+    "title": "A neural mechanism for terminating decisions",
+    "authors": "Stine GM, Trautmann EM, Jeurissen D, Shadlen MN",
+    "year": 2023,
+    "journal": "Neuron",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "superior colliculus", "decision termination", "threshold detection", "LIP to SC", "commitment"
+    ],
+    "caution": "ABSTRACT ONLY - subscription journal"
+  },
+  "PMID:39422555": {
+    "pmcid": "PMC11488853",
+    "title": "Direct observation of the neural computations underlying a single decision",
+    "authors": "Steinemann N, Stine GM, Trautmann E, Zylberberg A, Wolpert DM, Shadlen MN",
+    "year": 2024,
+    "journal": "eLife",
+    "doi": "10.7554/eLife.90859",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "Neuropixels population recording", "neural manifold", "single trial dynamics", "drift diffusion model", "LIP decision variable"
+    ],
+    "caution": "OPEN FULL TEXT - PMC11488853"
+  },
+  "PMID:39975060": {
+    "pmcid": "PMC11838566",
+    "title": "The role of human intraparietal sulcus in evidence accumulation revealed by EEG and model-informed fMRI",
+    "authors": "Wongtrakun J, Zhou SH, O'Connell RG, Chong TTJ, Bellgrove MA, Coxon JP",
+    "year": 2025,
+    "journal": "bioRxiv (preprint)",
+    "doi": "10.1101/2025.02.05.636628",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "human IPS", "fMRI", "EEG", "CPP slope", "evidence accumulation", "hIP3", "cross-species"
+    ],
+    "caution": "OPEN FULL TEXT - PMC11838566 - PREPRINT not peer-reviewed"
+  },
+  "PMID:40208792": {
+    "title": "A population representation of the confidence in a decision in the parietal cortex",
+    "authors": "Zylberberg A, Shadlen MN",
+    "year": 2025,
+    "journal": "Cell Reports",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "decision confidence", "metacognition", "LIP population coding", "covariance structure"
+    ],
+    "caution": "ABSTRACT ONLY - subscription journal"
+  },
+  "PMID:2770878": {
+    "title": "Neuronal correlates of a perceptual decision",
+    "authors": "Newsome WT, Britten KH, Movshon JA",
+    "year": 1989,
+    "journal": "Nature",
+    "used_in_articles": [
+      "2026-09-01-perceptual-decision-making-lip-drift-diffusion"
+    ],
+    "covers": [
+      "MT V5 microstimulation", "causal evidence", "motion discrimination", "perceptual decision"
+    ],
+    "caution": "ABSTRACT ONLY - subscription journal"
+  },
+  "sources_2026-09-01": [
+    "PMID:11600651",
+    "PMID:12417672",
+    "PMID:17600525",
+    "PMID:20174574",
+    "PMID:26160947",
+    "PMID:35915096",
+    "PMID:37352857",
+    "PMID:39422555",
+    "PMID:39975060",
+    "PMID:40208792",
+    "PMID:2770878"
   ]
 }

@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-08-31
-updated: 2026-08-31
-revision_count: 1
+updated: 2026-09-01
+revision_count: 2
 dimensions: [cellular, microcircuit, methods, cognition]
-related: [population-vector-coding, rotational-dynamics-motor, mixed-selectivity, ventral-visual-stream, dorsal-visual-stream, motor-cortex, prefrontal-cortex, basal-ganglia]
+related: [population-vector-coding, rotational-dynamics-motor, mixed-selectivity, ventral-visual-stream, dorsal-visual-stream, motor-cortex, prefrontal-cortex, basal-ganglia, lip-area, perceptual-decision-making, drift-diffusion-model]
 prerequisites: [action-potential, population-vector-coding, dimensionality-reduction]
-opens_questions: [Q-manifold-01, Q-manifold-02, Q-manifold-03]
-source_articles: [2026-08-31-neural-manifold-population-coding-geometry]
-key_sources: ["PMID:25151264", "PMC4433019", "PMID:22722855", "PMC3393826", "PMID:28595054", "PMC6122849", "PMID:23685452", "PMC4412347", "PMID:34801787", "PMC10695674", "PMID:37503015", "PMC10370078"]
+opens_questions: [Q-manifold-01, Q-manifold-02, Q-manifold-03, Q-pdm-01]
+source_articles: [2026-08-31-neural-manifold-population-coding-geometry, 2026-09-01-perceptual-decision-making-lip-drift-diffusion]
+key_sources: ["PMID:25151264", "PMC4433019", "PMID:22722855", "PMC3393826", "PMID:28595054", "PMC6122849", "PMID:23685452", "PMC4412347", "PMID:34801787", "PMC10695674", "PMID:37503015", "PMC10370078", "PMID:39422555"]
 ---
 
 # 神经流形 (Neural Manifold)
@@ -58,6 +58,18 @@ Sadtler et al.（2014，PMID:25164754）的脑机接口实验证明：
 | 运动皮层流形本质上是非线性的 | 猕猴/人类 线性 vs. 非线性降维对比 | PMID:37503015; PMC10370078 | 中（2024 年，需独立复现） |
 | 高维流形支持弹性分类，低维支持泛化 | 理论+神经网络建模 | PMID:38553340; PMC12177215 | 中（理论，实验验证待加强） |
 
+## 决策变量：LIP 中的范型一维流形
+
+Steinemann et al.（2024，eLife，Neuropixels Neuropixels 同步记录 54-203 个 LIP 神经元）提供了神经流形框架最直接、最精确的单脑区验证之一：
+
+- LIP（外侧顶内区）群体活动在感知决策期间主要沿**一维流形**（PC1 = 44% 方差）变化
+- 参与比率（participation ratio）= 4.4，极低维（N-维神经元空间中只有 ~4.4 个有效维度）
+- 这条一维轴等同于**决策变量（DV）**，是漂移扩散模型的神经实现
+- 沿这条轴的单次运动满足**无界扩散**的自相关统计特征（时间介导检验 $p < 10^{-317}$）
+- 不同提取方法（PCA/回归/直接平均）得到高度一致的决策轴（余弦相似度 0.63–0.74）
+
+这是神经流形几何框架与认知神经科学最精确的交汇点：感知决策本质上是群体状态空间中一维子空间（决策流形）上的随机游走，直到触碰决策边界。
+
 ## 连接
 
 - [[population-vector-coding]] — 群体向量编码是流形分析的早期版本（运动方向编码）
@@ -67,17 +79,23 @@ Sadtler et al.（2014，PMID:25164754）的脑机接口实验证明：
 - [[motor-cortex]] — 旋转动力学的主要发现区域
 - [[prefrontal-cortex]] — 高维混合选择性流形
 - [[basal-ganglia]] — 纹状体流形比运动皮层更非线性（Fortunato 2024）
+- [[lip-area]] — LIP 群体决策变量是一维流形的神经示例
+- [[perceptual-decision-making]] — 感知决策是一维决策流形上的随机游走过程
+- [[drift-diffusion-model]] — DDM 是决策流形动力学的数学描述
 
 ## 未解问题
 
 - Q-manifold-01（高优先级）：流形维度是否随行为状态（注意/睡眠/麻醉）动态变化？什么机制调控这种动态性？
 - Q-manifold-02（高优先级）：流形外学习需要哪种突触变化？学习是否真的改变流形形状，还是只改变流形内的"坐标路径"？
 - Q-manifold-03（中优先级）：如何在人类活体中可靠测量神经流形？7T fMRI 的分辨率是否足够，或者需要新技术（皮质脑电 + 高密度阵列）？
+- Q-pdm-01：LIP 决策流形的一维约束与 LIP 同时承担空间注意地图功能是否兼容？空间注意维度是否在第二维（PC2）上独立编码？
 
 ## 修订历史
 
 - 2026-08-31 · 创建 · 基于《神经流形：大脑如何用集体活动的几何形状携带意义》(#130) · 初始置信度：高
+- 2026-09-01 · 修订（rev2）· 新增 LIP 决策变量作为范型一维流形（Steinemann 2024，PMID:39422555）基于文章 #131
 
 ## 来源文章
 
 - [[2026-08-31-neural-manifold-population-coding-geometry]]
+- [[2026-09-01-perceptual-decision-making-lip-drift-diffusion]]
