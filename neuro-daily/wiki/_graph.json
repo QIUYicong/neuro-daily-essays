@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-06",
-  "node_count": 267,
-  "edge_count": 1562,
+  "updated": "2026-09-07",
+  "node_count": 272,
+  "edge_count": 1595,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2472,6 +2472,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/semantic-memory.md"
+    },
+    {
+      "id": "huntingtons-disease",
+      "title": "亨廷顿病",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/huntingtons-disease.md"
+    },
+    {
+      "id": "polyglutamine-toxicity",
+      "title": "polyglutamine毒性机制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/polyglutamine-toxicity.md"
     }
   ],
   "edges": [
@@ -11360,6 +11378,60 @@
       "from": "temporal-context-model",
       "to": "prefrontal-cortex",
       "type": "related"
+    },
+    {
+      "from": "huntingtons-disease",
+      "to": "medium-spiny-neuron",
+      "type": "mechanism-of",
+      "note": "HD选择性摧毁纹状体MSN（>90%晚期退化），BDNF营养剥夺+NR2B兴奋毒性+转录失调+体细胞CAG扩展四重打击"
+    },
+    {
+      "from": "huntingtons-disease",
+      "to": "bdnf",
+      "type": "mechanism-of",
+      "note": "mHTT通过REST入核断裂BDNF-REST轴，皮层BDNF转录↓，MSN营养供给枯竭（Zuccato & Cattaneo 2001 PMID:11408619）"
+    },
+    {
+      "from": "huntingtons-disease",
+      "to": "basal-ganglia",
+      "type": "related",
+      "note": "HD导致纹状体MSN丧失，破坏基底节直接/间接通路平衡，产生运动症状（早期舞蹈症→晚期肌强直）"
+    },
+    {
+      "from": "huntingtons-disease",
+      "to": "parkinsons-disease",
+      "type": "related",
+      "note": "对比：PD=黑质多巴胺能神经元死亡（α-syn/CaV1.3）；HD=纹状体MSN死亡（mHTT+BDNF断供+NR2B兴奋毒性）；均基底节疾病但机制不同"
+    },
+    {
+      "from": "huntingtons-disease",
+      "to": "polyglutamine-toxicity",
+      "type": "mechanism-of",
+      "note": "HD是最典型的polyQ疾病；CAG重复≥40导致polyQ展开→N端片段→核内包涵体是HD分子病理核心"
+    },
+    {
+      "from": "huntingtons-disease",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "MSN富含NR2B亚基的NMDA受体，在GLT1/GLAST下降环境中产生慢性兴奋毒性Ca²⁺超载"
+    },
+    {
+      "from": "polyglutamine-toxicity",
+      "to": "huntingtons-disease",
+      "type": "mechanism-of",
+      "note": "polyQ毒性是HD的分子病理核心机制；同一类机制也出现在SCA、SBMA、DRPLA等其他polyQ疾病"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "huntingtons-disease",
+      "type": "related",
+      "note": "MSN是HD的主要受害细胞类型（>90%晚期退化），其BDNF依赖性和NR2B组成解释了选择性脆弱性"
+    },
+    {
+      "from": "bdnf",
+      "to": "huntingtons-disease",
+      "type": "related",
+      "note": "BDNF断供（mHTT→REST入核→BDNF转录↓）是MSN选择性脆弱性的核心机制；皮质纹状体BDNF营养轴断裂"
     }
   ],
   "dangling_references": [
@@ -11577,15 +11649,6 @@
       "note": "高频共振波专页（~90 Hz，~100 ms）；Garrett & Halgren 2024 在语言绑定中发现；与 SWR（海马）的机制同源性；与经典 40 Hz 伽马的关系；待建页面"
     },
     {
-      "slug": "medium-spiny-neuron",
-      "referenced_by": [
-        "striatal-beat-frequency",
-        "basal-ganglia",
-        "actor-critic-brain"
-      ],
-      "note": "中型多棘神经元（MSN）专页；纹状体 ~95% 构成神经元；D1-MSN 直接通路/D2-MSN 间接通路；MSN 作为 SBF 符合检测器；棘突密度 1.2 万/神经元；待建页面"
-    },
-    {
       "slug": "neural-population-coding",
       "referenced_by": [
         "population-clock"
@@ -11599,6 +11662,55 @@
         "attractor-network"
       ],
       "note": "循环神经网络（RNN）专页；训练执行计时任务后自发涌现与生物大脑相似的高维轨迹；种群时钟/内在计时的计算模型系统；Hopfield 网络相关；待建页面"
+    },
+    {
+      "slug": "excitotoxicity",
+      "referenced_by": [
+        "huntingtons-disease"
+      ],
+      "note": "兴奋毒性专页；NMDA受体过激活→Ca²⁺内流→细胞死亡；HD中MSN慢性兴奋毒性；谷氨酸清除障碍（GLT1/GLAST↓）；NR2B敏感性"
+    },
+    {
+      "slug": "mitochondrial-dysfunction",
+      "referenced_by": [
+        "huntingtons-disease"
+      ],
+      "note": "线粒体功能障碍专页；PGC-1α轴损伤→线粒体生物合成↓→能量代谢崩溃；HD中mHTT/CBP轴的下游靶点"
+    },
+    {
+      "slug": "neuroinflammation",
+      "referenced_by": [
+        "huntingtons-disease"
+      ],
+      "note": "神经炎症专页；HD星形胶质细胞功能障碍+小胶质细胞激活；tominersen高剂量安全信号可能部分源于神经炎症"
+    },
+    {
+      "slug": "protein-aggregation",
+      "referenced_by": [
+        "polyglutamine-toxicity"
+      ],
+      "note": "蛋白质聚集专页；polyQ展开→β-折叠链间聚集→核内包涵体；与α-syn聚集（PD）、Aβ聚集（AD）的比较框架"
+    },
+    {
+      "slug": "ubiquitin-proteasome",
+      "referenced_by": [
+        "polyglutamine-toxicity"
+      ],
+      "note": "泛素-蛋白酶体系统专页；mHTT聚集占用UPS降解容量，导致蛋白质稳态（proteostasis）失衡"
+    },
+    {
+      "slug": "autophagy",
+      "referenced_by": [
+        "polyglutamine-toxicity"
+      ],
+      "note": "自噬专页；作为清除polyQ聚集体的第二条降解通路；mHTT抑制自噬受体（p62/SQSTM1）的正常功能"
+    },
+    {
+      "slug": "nuclear-inclusions",
+      "referenced_by": [
+        "polyglutamine-toxicity"
+      ],
+      "note": "核内包涵体专页；mHTT N端片段优先积累于细胞核形成的聚集体；毒性vs保护性的核心争议；CBP/转录因子被隔离"
     }
   ]
 }

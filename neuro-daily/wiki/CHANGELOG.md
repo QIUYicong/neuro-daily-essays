@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-09-07 · 文章 #137 · 亨廷顿病：当遗传倒计时开启，纹状体为何率先坠落
+
+**核心主题**：亨廷顿病（HD）的纹状体中型多棘神经元（MSN）选择性脆弱性——四重协同机制：polyQ展开与N端片段毒性、BDNF-REST轴断裂（皮质纹状体营养供给中断）、转录失调（CBP/PGC-1α轴）与线粒体损伤、NR2B富集的兴奋毒性（GLT1/GLAST下降）。治疗视角：丁苯那嗪症状控制；tominersen非选择性ASO悖论（高剂量54%降mHTT但神经损伤标志物↑，IC50=4.18 ng/mL）；WVE-003等位基因选择性ASO（SNP3靶向）作为应对策略。图谱从270节点/1586边增至272节点/1595边（+2节点，+9边）；从dangling_refs移除medium-spiny-neuron（页面已建），新增7个dangling_refs。
+
+### 新建 Wiki 页面（2 个）
+
+- `diseases/huntingtons-disease.md` 🟢 established · 高置信度 — 完整HD病理框架：遗传（CAG≥40完全外显，CAG-发病年龄负相关），四重MSN选择性脆弱性机制，Vonsattel 0-4级分期，临床三阶段（症状前/前驱/显性期），青少年型HD症状差异，治疗管线（丁苯那嗪/tominersen悖论/WVE-003），Q-hd-01~04未解问题（IBs毒性辩论/D1D2退化时序/tominersen悖论机制/症状前期干预时机）
+- `concepts/polyglutamine-toxicity.md` 🟢 established · 高置信度 — polyQ共性机制骨架（β-折叠转变/N端片段/核内包涵体/功能丧失）；9种polyQ疾病（HD/SCA1/2/3/6/7/17/SBMA/DRPLA）；IBs毒性vs保护性争议（当前共识：可溶性寡聚体为主要毒性物种）；UPS负担与自噬；Q-polyq-01（宿主蛋白如何决定细胞特异性）
+
+### 修订 Wiki 页面（2 个）
+
+- `neurons/medium-spiny-neuron.md` rev1→rev2 — 新增"HD中的选择性脆弱性"节（四重机制：BDNF依赖性单点失效/NR2B慢去激活/REST调控子富集/体细胞CAG不稳定性）；相对豁免的中间神经元作为反证（PMID:37629202/11298997）；related新增huntingtons-disease；opens_questions新增Q-hd-msn-d1d2-vulnerability；key_sources+2个PMID
+- `concepts/bdnf.md` rev2→rev3 — 新增"HD中的BDNF-REST轴断裂"节（wtHtt→REST隔离→BDNF转录的正常轴；mHTT→REST入核→BDNF↓→MSN营养饥饿的断裂轴；关键不对称：MSN几乎无BDNF自产能力）；关键证据表新增HD相关行；related新增huntingtons-disease；key_sources新增PMID:11408619/15967378
+
+### 矛盾登记/裁决（0 条）
+
+今日无新矛盾裁决。Q-hd-01（IBs毒性vs保护性）登记为持续争议，当前共识倾向可溶性寡聚体毒性但未最终确定。
+
+### 新增悬空引用（7 条，移除1条）
+
+新增：excitotoxicity（被huntingtons-disease引用），mitochondrial-dysfunction（被huntingtons-disease引用），neuroinflammation（被huntingtons-disease引用），protein-aggregation（被polyglutamine-toxicity引用），ubiquitin-proteasome（被polyglutamine-toxicity引用），autophagy（被polyglutamine-toxicity引用），nuclear-inclusions（被polyglutamine-toxicity引用）。
+移除：medium-spiny-neuron（wiki页面已于2026-09-01建立，现从dangling_refs正式移除）。
+
+---
+
 ## 2026-09-06 · 文章 #136 · 大脑的内部时间轴：内嗅皮层漂移与CA2如何支撑时间情境模型
 
 **核心主题**：TCM（时间情境模型）的神经底层——MEC Layer III时间漂移细胞、CA2的时间偏好（跨时间变化>跨空间变化）、CA1多尺度时间编码、mPFC作为下游读出器候选，以及Xiao 2026预印本（人类工作记忆时间细胞）。层级：细胞/微回路/脑区/认知。图谱维持270节点，从1580边增至1586边（+6边）。

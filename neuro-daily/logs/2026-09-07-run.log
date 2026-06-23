@@ -1,0 +1,127 @@
+# 运行日志 · 2026-09-07
+
+**文章编号**：#137
+**文章标题**：亨廷顿病：纹状体脆弱性、BDNF-REST轴断裂与polyQ毒性机制
+**文件路径**：articles/2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine.md
+**运行状态**：✅ 完成
+
+---
+
+## 主题选择
+
+**选题来源**：state/topic_ledger.json 中 #136（2026-09-06）的 next_suggested_topics 首选项；wiki/neurons/medium-spiny-neuron.md 已于 #131 建立，但 wiki/diseases/huntingtons-disease.md 尚不存在
+
+**选题理由**：
+- #131（MSN，2026-09-01）建立了中等多棘神经元页面，HD 作为"疾病窗口"选题是顺序推进的自然步骤
+- wiki/diseases/ 目录中缺乏 huntingtons-disease 页面，符合新建优先原则
+- HD 机制横跨 polyQ 蛋白聚集、转录调控（BDNF-REST 轴）、线粒体功能、兴奋毒性，与现有 BDNF、MSN、NMDA 受体等多个页面形成强连接
+- 兴奋毒性（excitotoxicity）和线粒体功能障碍（mitochondrial-dysfunction）作为悬空引用存在于图谱中，HD 选题可为后续填充这些节点铺垫
+
+---
+
+## 文献检索
+
+**检索工具**：PubMed/PMC E-utilities（esearch + efetch）
+
+**检索策略**：
+1. `Huntington disease medium spiny neuron selective vulnerability striatum review` → MSN选择性脆弱性综述
+2. `huntingtin BDNF REST transcription factor neurotrophin striatum` → BDNF-REST轴核心文献
+3. `polyglutamine toxicity nuclear inclusions protein aggregation HD` → polyQ毒性机制
+4. `Huntington disease transcriptional dysregulation CBP histone acetylation` → 转录失调证据
+5. `HD astrocyte GLT1 glutamate transporter excitotoxicity NR2B` → 兴奋毒性机制
+6. `HD CAG repeat instability somatic mosaicism striatum` → 体细胞嵌合
+7. `tominersen antisense oligonucleotide HD clinical trial GENERATION-HD1` → ASO临床试验
+8. `PGC-1alpha HD mitochondrial biogenesis transcription` → 线粒体功能轴
+9. `HD D1 D2 MSN differential vulnerability direct indirect pathway` → D1/D2 MSN差异脆弱性
+
+**检索结果**：
+- 采用来源：9篇（详见 sources/2026-09-07-sources.json）
+
+**访问情况**：
+- PMC全文获取：PMC10455900（Genetic Modifiers Consortium综述 2023）、PMC4826775（Zuccato & Cattaneo BDNF-REST 回顾 2014）、PMC8394361（tominersen Phase2 PK/PD 2021）
+- 摘要：其余 6 篇（PMID:37629202, 27069383, 11408619, 15967378, 28817209, 41287980, 39027419, 11298997）
+- 未使用付费内容，未使用 Sci-Hub 或任何绕过 paywall 的方法
+
+---
+
+## 文章写作
+
+**字数**：约 4500 字（中文）
+**层级**：分子机制/细胞/回路/疾病
+**结构**：
+- 今日核心问题（为什么MSN最先死亡）
+- 一句话摘要
+- 为什么重要（学术意义 + 知识库意义）
+- 背景：从家族悲剧到遗传定义（1872–1993）
+- 机制一：polyQ扩张与毒性碎片生成
+- 机制二：BDNF-REST轴断裂（Zuccato & Cattaneo 2001）
+- 机制三：转录失调与线粒体功能受损（CBP/PGC-1α轴）
+- 机制四：兴奋毒性风暴（GLT1↓ + NR2B富集）
+- MSN选择性脆弱性完整图景（四层架构）
+- 病程分期（前驱/运动起病/进展/终末）
+- 治疗现况与tominersen悖论
+- 比喻与局限性
+- AI对照（序列长度×质量控制）
+- 认知地图更新（5个要点）
+- 争议与未解问题
+- 今日概念卡片（5张）
+- 参考来源（9篇，S1–S9）
+
+---
+
+## Wiki 知识库更新
+
+**新建 wiki 页面**：2 个
+- `wiki/diseases/huntingtons-disease.md`（rev1）：涵盖HD疾病概要、polyQ机制、BDNF-REST轴、MSN脆弱性、治疗现况；related 10个节点；opens_questions 4个
+- `wiki/concepts/polyglutamine-toxicity.md`（rev1）：涵盖9种polyQ疾病、IBs毒性vs保护争论、UPS负担、自噬；related 6个节点
+
+**修订 wiki 页面**：2 个
+- `wiki/neurons/medium-spiny-neuron.md`（rev1→rev2）：新增"HD中的选择性脆弱性"节（四层机制）；related 新增 huntingtons-disease；opens_questions 新增 Q-hd-msn-d1d2-vulnerability；revision_count+1
+- `wiki/concepts/bdnf.md`（rev2→rev3）：新增"HD中的BDNF-REST轴断裂"节；证据表新增 HD 行；related 新增 huntingtons-disease；revision_count+1
+
+**知识图谱更新**：
+- 节点：270→272（+2个：huntingtons-disease, polyglutamine-toxicity）
+- 边：1586→1595（+9条）
+- 新增边：
+  - huntingtons-disease → medium-spiny-neuron（mechanism-of）
+  - huntingtons-disease → bdnf（mechanism-of）
+  - huntingtons-disease → basal-ganglia（related）
+  - huntingtons-disease → parkinsons-disease（related）
+  - huntingtons-disease → polyglutamine-toxicity（mechanism-of）
+  - huntingtons-disease → nmda-receptor（related）
+  - polyglutamine-toxicity → huntingtons-disease（mechanism-of）
+  - medium-spiny-neuron → huntingtons-disease（related）
+  - bdnf → huntingtons-disease（related）
+- 悬空引用：34→35（移除 medium-spiny-neuron；新增 excitotoxicity, mitochondrial-dysfunction, neuroinflammation, protein-aggregation, ubiquitin-proteasome, autophagy, nuclear-inclusions）
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`：✅ 追加 #137 条目
+- `state/unresolved_questions.md`：✅ 新增 Q-hd-01~Q-hd-04（2026-09-07）
+- `state/source_registry.json`：✅ 新增 sources_2026-09-07（9条）
+- `state/monthly_synthesis.md`：✅ 月度表头更新（截至 2026-09-07，共7篇）；新增 #137 日条目
+
+**导航文件更新**：
+- `wiki/CHANGELOG.md`：✅ 新增 2026-09-07 条目
+- `wiki/index.md`：✅ 更新页头（272节点/1595边）；新增 HD 和 polyQ 条目
+- `wiki/_graph.json`：✅ 新增 2 节点 + 9 条边，updated 更新为 2026-09-07
+
+---
+
+## 技术记录
+
+**遇到的挑战**：
+1. 从上一 context 窗口继续执行（context 压缩后跨会话恢复）；文章与首批 wiki 文件由后台 agent 创建，主会话继续完成图谱、状态文件和导航更新
+2. topic_ledger.json 在第21行存在已知 JSON parse 错误，使用字符串操作追加条目（末尾数组插入法）绕过问题
+3. _graph.json 节点/边计数头部与实际数据不同步（graph 显示 267/1562，实际已有 270/1586），追加前先用 Python 修正头部再写入新数据
+
+**Git 信息**：
+- 分支：main
+- 作者：GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-09-07
+
+---
+
+*日志生成时间：2026-09-07*

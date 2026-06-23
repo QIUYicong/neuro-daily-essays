@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-06（第136篇·TCM神经底层·MEC Layer III时间漂移细胞·CA2时间偏好·mPFC时间细胞作为读出器·Xiao 2026预印本人类工作记忆时间细胞）· 主题页总数：**270**（新建0页；修订3页：concepts/temporal-context-model rev2、concepts/time-cells rev3、systems/entorhinal-cortex rev4；图谱270节点/1586边+6边）
+> 最后更新：2026-09-07（第137篇·亨廷顿病·polyQ毒性·BDNF-REST轴断裂·MSN选择性脆弱性·tominersen悖论·WVE-003等位基因选择性ASO）· 主题页总数：**272**（新建2页：diseases/huntingtons-disease、concepts/polyglutamine-toxicity；修订4页：neurons/medium-spiny-neuron rev2、concepts/bdnf rev3、及2新建页；图谱272节点/1595边+9边）
 
 ---
 
@@ -26,7 +26,7 @@
 - 🔵 [苔藓细胞（齿状回）](neurons/mossy-cells-dentate.md) — 门区大型兴奋性细胞，净效果为通过招募篮状细胞间接抑制颗粒细胞（苔藓细胞悖论）；Jinde 2012 消融实验：缺失→颗粒细胞过兴奋→模式分离失败；GoodSmith 2017：多位置场/高放电率（对比颗粒细胞单场极低频）；Vargish 2025 预印本：VGluT3+ 元抑制回路 **[NEW 2026-08-28]**
 - 🟢 [颞下皮层（IT 皮层）](neurons/inferior-temporal-cortex.md) — 腹侧视觉流终点；物体身份的不变性表征；IT 种群活动线性可分（90%+准确率）；无监督时间连续性学习维持不变性；物体空间低维坐标地图（Bao 2020）**[NEW 2026-08-29]**
 - 🟢 [MT/V5 运动区](neurons/mt-v5-motion-area.md) — 背侧流关键中间站；方向选择性；pattern motion 整合；双目视差细胞；MT损毁→运动感知阈值升高（Newsome 1988）；运动盲（akinetopsia）**[NEW 2026-08-30]**
-- 🟢 [中型多棘神经元（MSN）](neurons/medium-spiny-neuron.md) — 纹状体主导细胞（95%+）；D1型→直接通路→D1-cAMP-PKA-DARPP-32-LTP；D2型→间接通路→eCB-CB1-LTD；上行/下行双稳态；灵长类≥9种转录学亚型 **[NEW 2026-09-01]**
+- 🟢 [中型多棘神经元（MSN）](neurons/medium-spiny-neuron.md) — 纹状体主导细胞（95%+）；D1型→直接通路→D1-cAMP-PKA-DARPP-32-LTP；D2型→间接通路→eCB-CB1-LTD；上行/下行双稳态；灵长类≥9种转录学亚型；**rev2新增**：HD选择性脆弱性四重机制（BDNF依赖性单点失效/NR2B兴奋毒性/转录失调靶向性/体细胞CAG不稳定） **[NEW 2026-09-01 · 修订 rev2 2026-09-07]**
 - 🟢 [浦肯野细胞](neurons/purkinje-cell.md) — 小脑皮层唯一输出神经元；接受 ~20 万 PF（运动情景）+ 1 CF（误差/奖励预测违反信号）；LTD（mGluR1→PKC→AMPAR 内吞）；多层可塑性（Schonewille 2011）；复杂放电梯度；奖励 CF 信号（Jin 2025，emerging） **[NEW 2026-09-03]**
 - 🟢 [攀爬纤维](neurons/climbing-fiber.md) — 来自下橄榄核；每根与单一 PC 形成 400–500 个强突触；触发复杂放电（1–4 个去极化波峰，3–30 ms）；梯度误差信号（Zang 2019）；外侧小脑携带奖励预测误差（Jin & Hull 2025，emerging） **[NEW 2026-09-03]**
 - 🟢 [小脑颗粒细胞](neurons/granule-cell-cerebellar.md) — 约 690 亿个（全脑 50–80%）；MF→GC→PF 感觉运动情景高维重编码；稀疏 vs 密集编码争议（Xie 2023：任务依赖最优）；Lee 2023 因果证明对运动功能不可或缺 **[NEW 2026-09-03]**
@@ -148,11 +148,12 @@
 
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）**[NEW 2026-07-01]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
-- 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性 **[NEW 2026-06-28]**（填补多页悬空引用）
+- 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性；**rev3新增**：HD中BDNF-REST轴断裂（mHTT→REST入核→BDNF转录↓→MSN营养饥饿；Zuccato 2001/2005） **[NEW 2026-06-28 · 修订 rev3 2026-09-07]**（填补多页悬空引用）
 - 🟡 [SGK3 介导的神经干细胞自噬性死亡](concepts/sgk3-autophagic-nsc-death.md) — 慢性应激/CORT→GR→SGK3→LC3→TRP53 降解→NSC 自噬性死亡（非凋亡）；TRP53 是 NSC 的存活守护蛋白；Atg7 KO 对应激诱导的 AHN 下降具有抗性；单实验室证据（Jung et al.），需独立复现 **[NEW 2026-08-27]**
 - 🔵 [FKBP51（糖皮质激素受体伴侣蛋白）](concepts/fkbp51.md) — FKBP51 降低 GR 对 CORT 的亲和力并阻碍核转位；GR→FKBP5 转录→FKBP51 增加的超短负反馈环；*FKBP5* rs1360780 T 等位基因×童年创伤×成年 PTSD 三重交互（人类遗传最强证据之一）；SAFit2 体外促 NPC 增殖（>BDNF），体内应激弹性但体内神经发生效应不显著 **[NEW 2026-08-27]**
 - 🟢 [糖皮质激素与应激记忆](concepts/glucocorticoid-stress-memory.md) — MR（高亲和力/快速评估）/GR（低亲和力/慢速巩固）双时相模型；BLA是全脑GC记忆增强的必要枢纽；GC+NE协同门控（β-AR阻断消除GC效应）；慢性GC→CA3选择性萎缩；急性应激→记忆系统切换至背侧纹状体；**新增**：慢性 GC 对 DG 神经发生的第四条损伤机制（BDNF↓+SGK3自噬+Wnt↓）+AHN-HPA双向反馈+FKBP51遗传调制（2026-08-27 rev2） **[NEW 2026-07-09 · 修订 rev2 2026-08-27]**
 - 🟢 [Aβ寡聚体](concepts/amyloid-beta-oligomers.md) — AD的核心毒性物种；通过PrPC/NR2B/calcineurin/BDNF/tau五路并行瓦解海马LTP机器 **[NEW 2026-06-08]**
+- 🟢 [polyglutamine毒性机制](concepts/polyglutamine-toxicity.md) — polyQ束超阈（HD CAG≥40）→β-折叠链间聚集→N端截短片段入核→包涵体毒性vs保护性争议；同时wtHtt功能丧失（REST隔离/BDNF运输/轴突运输）；包涵体毒性vs可溶性寡聚体毒性的核心争议；9种polyQ疾病共享机制骨架（SCA/SBMA/DRPLA） **[NEW 2026-09-07]**
 - 🟢 [短时程突触可塑性（STP）](concepts/short-term-synaptic-plasticity.md) — 毫秒至分钟尺度内突触效率的使用依赖性动态变化；Syt7驱动易化（高p→低通）、RRP耗竭驱动抑制（低p→高通）；是工作记忆活动无声储存的分子基础 **[NEW 2026-06-10]**
 - 🟢 [方向选择性](concepts/orientation-selectivity.md) — V1将LGN非定向圆对称输入转化为精确方向响应的核心计算；前馈LGN排列+E/I平衡+树突NMDA棘波三层机制；有/无方向柱物种均可达同等锐利选择性 **[NEW 2026-06-11]**
 - 🟡 [突触聚类](concepts/synaptic-clustering.md) — 功能相似突触在同一树突分支聚集→NMDA棘波超线性整合→局部"与门"计算；Wilson 2016在雪貂V1提供首个体内直接证据；普遍性待验证 **[NEW 2026-06-11]**（填补 dendritic-computation 悬空引用）
@@ -297,6 +298,7 @@
 
 - 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退（修订4次）**[NEW 2026-06-08 · 修订2026-06-29]**
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
+- 🟢 [亨廷顿病](diseases/huntingtons-disease.md) — HTT基因CAG重复≥40→polyQ展开→四重MSN选择性打击（BDNF-REST断裂/转录失调CBP/PGC-1α/NR2B兴奋毒性）；纹状体MSN >90%晚期退化；丁苯那嗪/氘丁苯那嗪症状控制；tominersen非选择性ASO悖论（高剂量54%mHTT↓但神经损伤标志物↑）；WVE-003等位基因选择性SNP3靶向策略 **[NEW 2026-09-07]**
 - 🔵 [精神分裂症](diseases/schizophrenia.md) — PV-GAD67-γ 轴：NMDA 低活→PV 细胞（NR2A 高密度）损伤→GAD67 mRNA 下调→GABA 合成↓→PING 时序崩溃→γ 振荡减弱→WM 缺陷；多巴胺 D2 过度激活（阳性症状）与 D1 不足（阴性/认知症状）并存；高度多基因遗传（C4A 突触过度剪枝） **[NEW 2026-07-20]**
 - 🔵 [意识障碍（DoC）](diseases/disorders-of-consciousness.md) — 严重脑损伤后觉醒和/或意识内容持续损害的临床综合征；昏迷→VS/UWS→MCS→CMD连续谱；前脑中间回路（GPi脱抑制→中央丘脑过度抑制→皮层去传入）；25%"无反应"患者有隐蔽意识（Bodien NEJM 2024）；多模态神经评估（任务型fMRI/EEG/PCI）正在重塑临床诊断标准和伦理框架 **[NEW 2026-08-09]**
 - 🟢 [儿童言语失用症（CAS）](diseases/childhood-apraxia-of-speech.md) — 言语运动程序化选择性障碍（非肌力或发音器官问题）；遗传异质性：30+致病基因（Morgan 2024）；FOXP2经典病因链：R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→MSN树突不全→程序化失败；多基因CAS汇聚于共同转录调控通路 **[NEW 2026-08-12]**

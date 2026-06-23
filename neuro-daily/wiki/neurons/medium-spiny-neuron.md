@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-01
-updated: 2026-09-01
-revision_count: 1
+updated: 2026-09-07
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit]
-related: [basal-ganglia, striatal-direct-indirect-pathway, dopamine-reward-prediction-error, long-term-potentiation, ltd, endocannabinoid-system, parkinsons-disease, habit-vs-goal-directed]
+related: [basal-ganglia, striatal-direct-indirect-pathway, dopamine-reward-prediction-error, long-term-potentiation, ltd, endocannabinoid-system, parkinsons-disease, habit-vs-goal-directed, huntingtons-disease]
 prerequisites: [action-potential, dopamine-reward-prediction-error, long-term-potentiation]
-opens_questions: [Q-msn-d1d2-coexpression, Q-msn-primate-subtype-function]
-source_articles: [2026-09-01-medium-spiny-neurons-striatum]
-key_sources: ["PMID:21469956", "PMID:31171839", "PMID:21906660", "PMID:34727523", "PMID:27373834"]
+opens_questions: [Q-msn-d1d2-coexpression, Q-msn-primate-subtype-function, Q-hd-msn-d1d2-vulnerability]
+source_articles: [2026-09-01-medium-spiny-neurons-striatum, 2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]
+key_sources: ["PMID:21469956", "PMID:31171839", "PMID:21906660", "PMID:34727523", "PMID:27373834", "PMID:37629202", "PMID:11298997"]
 ---
 
 # 中型多棘神经元 (Medium Spiny Neuron, MSN)
@@ -59,6 +59,20 @@ D2 → Gi/o → 腺苷酸环化酶↓ → cAMP↓ → PKA↓ →
 2. 奖励 → VTA/SNc多巴胺释放（正RPE）
 3. 多巴胺同时作用：dMSN D1-LTP（强化该行动）+ iMSN D2-LTD（压制竞争行动）
 
+### HD中的选择性脆弱性
+
+在亨廷顿病（HD）中，MSN是最先且最严重受损的神经元类型（纹状体神经元>90%最终死亡，Vonsattel 4级）。其选择性脆弱性由四层因素共同决定：
+
+1. **营养依赖性不对称**：MSN自身BDNF转录水平极低，几乎完全依赖皮质衍生BDNF（经皮质纹状体谷氨酸能投射轴突末梢顺行释放）。mHTT破坏野生型huntingtin对REST的细胞质隔离，REST入核抑制皮层BDNF转录，MSN陷入营养饥饿（PMID:11408619）。
+
+2. **NR2B富集的兴奋毒性敏感性**：MSN树突棘的NMDA受体以NR2B亚基为主，较NR2A亚基具有更慢的去激活动力学（更长的Ca²⁺内流窗口）。叠加星形胶质细胞GLT1/GLAST下调导致的谷氨酸清除障碍，MSN承受慢性兴奋毒性Ca²⁺超载。
+
+3. **转录失调靶向性**：REST调控子在纹状体MSN中尤为丰富（DARPP-32、神经肽Y等纹状体标志基因含RE1元件）；CBP（CREB结合蛋白）被mHTT N端片段隔离入核内包涵体，进一步削减纹状体特异性基因表达及线粒体生物合成（PGC-1α轴）。
+
+4. **体细胞CAG不稳定性**：纹状体MSN中HTT基因的CAG重复序列随年龄体细胞扩展程度高于其他脑区，导致MSN中实际polyQ毒性最重。
+
+胆碱能中间神经元和PV+快放电中间神经元在HD晚期相对豁免，反向验证了上述机制（PMID:37629202; PMID:11298997）。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -79,17 +93,21 @@ D2 → Gi/o → 腺苷酸环化酶↓ → cAMP↓ → PKA↓ →
 - [[ltd]] — D2-MSN通过eCB-CB1机制实现纹状体LTD
 - [[endocannabinoid-system]] — eCB是D2-MSN LTD的逆行信使
 - [[parkinsons-disease]] — 多巴胺缺失导致D2-MSN选择性树突棘丧失
+- [[huntingtons-disease]] — HD中MSN是选择性脆弱的靶细胞（BDNF营养剥夺+NR2B兴奋毒性+转录失调+体细胞CAG扩展四重打击）
 - [[action-potential]] — 上行态是MSN放电的前提，受Kir2通道调控
 
 ## 未解问题
 
 - Q-msn-d1d2-coexpression：D1/D2共表达MSN的功能意义是什么？它们是否构成第三条通路？
 - Q-msn-primate-subtype-function：灵长类9种MSN亚型各自的功能角色是什么？D1-NUDAP是否真的是享乐热点？
+- Q-hd-msn-d1d2-vulnerability：HD中iMSN（D2型）是否比dMSN（D1型）更早退化？经典成人型HD（舞蹈症）与青少年型HD（肌强直为主）的症状差异是否反映了D1/D2-MSN不同的退化时序？
 
 ## 修订历史
 
 - 2026-09-01 · 创建 · 基于《纹状体的决策细胞》文章 · 来源：9篇PMC开放全文 · 初始置信度：高
+- 2026-09-07 · 修订 rev2 · 基于《亨廷顿病：纹状体选择性脆弱性》文章 (#137) · 新增HD选择性脆弱性机制节（BDNF-REST轴/NR2B兴奋毒性/转录失调/体细胞CAG不稳定）；related新增huntingtons-disease；opens_questions新增Q-hd-msn-d1d2-vulnerability；key_sources新增PMID:37629202/11298997
 
 ## 来源文章
 
 - [[2026-09-01-medium-spiny-neurons-striatum]]
+- [[2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]]

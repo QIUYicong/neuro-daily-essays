@@ -8492,5 +8492,23 @@
       "人类fMRI中的时间情境编码——内嗅皮层BOLD信号能否追踪时间情境漂移？",
       "多重发生器假说（NCC）实验检验 (Q-ncc-04)"
     ]
+  },
+  {
+    "date": "2026-09-07",
+    "article_number": 137,
+    "title": "亨廷顿病：当遗传倒计时开启，纹状体为何率先坠落",
+    "core_question": "全身细胞均表达mutant huntingtin，为何纹状体中型多棘神经元（MSN）最先且最严重地死亡？四重叠加机制（BDNF-REST轴/转录失调/线粒体损伤/NR2B兴奋毒性）如何共同解释这一结构性单点失效？",
+    "layer": "molecular/cellular/synaptic/brain-region/disease",
+    "topic_tags": ["亨廷顿病", "polyglutamine", "BDNF", "REST", "中型多棘神经元", "MSN选择性脆弱性", "tominersen", "WVE-003", "纹状体", "神经退行性疾病", "基因治疗", "反义寡核苷酸"],
+    "main_sources": ["PMID:37629202", "PMID:27069383", "PMID:11408619", "PMID:15967378", "PMID:28817209", "PMID:34445070", "PMID:41287980", "PMID:39027419", "PMID:11298997"],
+    "wiki_created": ["diseases/huntingtons-disease", "concepts/polyglutamine-toxicity"],
+    "wiki_revised": ["neurons/medium-spiny-neuron", "concepts/bdnf"],
+    "unresolved_questions": ["Q-hd-01", "Q-hd-02", "Q-hd-03", "Q-hd-04", "Q-hd-msn-d1d2-vulnerability"],
+    "next_suggested_topics": [
+      "脊髓小脑共济失调（SCA1/2/3）——polyQ疾病家族中浦肯野细胞选择性脆弱性的对比框架 (polyQ疾病延伸)",
+      "自噬与泛素-蛋白酶体系统——神经元蛋白质稳态的双降解轴及其在HD/AD/PD中的比较 (Q-hd-01相关)",
+      "mHTT基因编辑——CRISPR等位基因选择性敲减的技术挑战与体内安全性 (Q-hd-03延伸)",
+      "纹状体兴奋毒性——NMDA受体NR2B亚基在HD/缺血/癫痫中的共同毒性机制"
+    ]
   }
 ]

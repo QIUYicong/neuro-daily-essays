@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-28
-updated: 2026-06-03
-revision_count: 2
+updated: 2026-09-07
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, cognition, disease]
-related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, pv-interneurons, perineuronal-nets]
+related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, pv-interneurons, perineuronal-nets, huntingtons-disease]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-bdnf-01, Q-bdnf-02, Q-bdnf-03]
-source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053"]
+source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-03-critical-period-plasticity, 2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]
+key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053", "PMID:11408619", "PMID:15967378"]
 ---
 
 # 脑源性神经营养因子 (BDNF, Brain-Derived Neurotrophic Factor)
@@ -80,6 +80,21 @@ L-LTP 不能维持 · 新生神经元减少 →
 认知储备下降
 ```
 
+### 五、HD 中的 BDNF-REST 轴断裂
+
+亨廷顿病（HD）揭示了皮质纹状体 BDNF 营养供给的核心调控机制，是理解 BDNF 功能不可或缺的疾病窗口。
+
+**正常轴**：野生型 huntingtin（wtHtt）将 REST（RE1 沉默转录因子 / NRSF）隔离于皮层神经元细胞质中，阻止其进入细胞核，从而解除 REST 对 BDNF exon II 启动子（RE1/NRSE 元件）的抑制 → 皮层高水平 BDNF 转录 → 沿皮质纹状体轴突顺行运输至纹状体 → 提供 MSN 存活必需的营养支持。
+
+**断裂**：mutant huntingtin（mHTT）失去对 REST 的隔离能力 → REST 自由入核 → 占据 BDNF exon II 启动子 RE1 元件 → 皮层 BDNF 转录↓ → 纹状体 MSN 营养饥饿。
+
+**关键不对称**：纹状体 MSN 自身 BDNF 产生量极低，几乎完全依赖皮质衍生 BDNF——皮层神经元尚有一定自给能力，MSN 是纯粹的营养依赖方。BDNF 断粮对 MSN 的打击是首要且无缓冲的（Zuccato & Cattaneo 2001，PMID:11408619；2005，PMID:15967378）。
+
+```
+wtHtt → 隔离 REST 于细胞质 → BDNF 启动子（RE1）解抑制 → 皮层 BDNF↑ → 纹状体 MSN 存活
+mHTT → 失去 REST 隔离 → REST 入核 → BDNF 启动子抑制 → 皮层 BDNF↓ → MSN 营养饥饿
+```
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -90,6 +105,7 @@ L-LTP 不能维持 · 新生神经元减少 →
 | Val66Met 使活动依赖性 BDNF 分泌受损 | 细胞荧光成像 + fMRI + 认知测试 | PMID:12553913 | 高（人类遗传+影像） |
 | BDNF+AHN 协同恢复 AD 小鼠认知 | 5×FAD 多组对照（运动/遗传/药理） | PMID:30190379 (PMC6149542) | 高（动物；不可直接推广） |
 | AD 中海马 BDNF/TrkB-CREB 信号受损 | 死后脑 + 转基因模型 | PMID:33096634 (PMC7589016) | 中（动物+人死后） |
+| wtHtt促进皮层BDNF转录；mHTT通过REST入核使皮层BDNF进行性减少 | HD小鼠模型（R6/2, YAC128等）+ REST机制分析 | PMID:11408619; PMID:15967378 | 高（多模型收敛） |
 
 ## 连接
 
@@ -103,6 +119,7 @@ L-LTP 不能维持 · 新生神经元减少 →
 - [[nmda-receptor]] — NMDA 受体 Ca²⁺ 内流是 BDNF 上调的上游触发信号
 - [[camkii]] — PLCγ/Ca²⁺ 通路激活 CaMKII；与 NMDA 通路并行的 LTP 维持机制
 - [[engram-cells]] — 印迹细胞 AMPA/NMDA 比值高，可能部分由 BDNF 驱动的 L-LTP 解释
+- [[huntingtons-disease]] — mHTT 破坏 wtHtt 对 REST 的隔离 → REST 入核抑制 BDNF 转录 → 皮质纹状体 BDNF 营养轴断裂 → MSN 选择性营养饥饿
 
 ## 未解问题
 
@@ -114,8 +131,10 @@ L-LTP 不能维持 · 新生神经元减少 →
 
 - 2026-06-28 · 创建 · 基于《BDNF：大脑给自己的成长信号》一文 (#64) · 初始置信度：高（基础机制）/中（AD 及 Val66Met 部分）
 - 2026-06-03 · 修订 rev2 · 基于《时间刻入神经回路：关键期》(#72) · 新增关键期相关角色：BDNF 通过 TrkB 加速 GABAergic 成熟（Huang 1999）、驱动 PV+ 细胞成熟时间轴、PNN-aggrecan-PTPσ 轴抑制 BDNF 信号进入 PV+ 细胞（Lesnikova 2021）；related 新增 critical-period, pv-interneurons, perineuronal-nets
+- 2026-09-07 · 修订 rev3 · 基于《亨廷顿病：纹状体选择性脆弱性》(#137) · 新增"HD中的BDNF-REST轴断裂"机制节（PMID:11408619/15967378）；关键证据新增HD wtHtt/REST/BDNF轴一行；related新增huntingtons-disease；key_sources新增PMID:11408619/15967378
 
 ## 来源文章
 
 - [[2026-06-28-bdnf-trk-b-plasticity-memory]]
 - [[2026-06-03-critical-period-plasticity]]
+- [[2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]]

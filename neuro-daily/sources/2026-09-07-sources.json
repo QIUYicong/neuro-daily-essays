@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-07",
+  "article": "2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine",
+  "article_number": 137,
+  "search_terms": [
+    "Huntington's disease striatal vulnerability medium spiny neurons selective",
+    "mutant huntingtin polyglutamine toxicity nuclear inclusions aggregation",
+    "BDNF REST RE1 huntingtin transcription corticostriatal trophic",
+    "HD transcriptional dysregulation CREB CBP PGC-1α mitochondria",
+    "excitotoxicity NMDA NR2B GLT1 GLAST astrocyte glutamate HD striatum",
+    "tominersen antisense oligonucleotide huntingtin lowering GENERATION-HD1 PK/PD",
+    "WVE-003 allele-selective ASO SNP3 huntingtin HD",
+    "Huntington disease neuropathology selective vulnerability interneurons MSN",
+    "Vonsattel grading HD striatum degeneration"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "37629202",
+      "pmcid": "PMC10455900",
+      "title": "150 Years of Huntington's Disease: The Science Behind the Suffering",
+      "authors": "Jiang A, Snell RG",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2023,
+      "access": "open",
+      "relevance": "primary — comprehensive mechanistic synthesis: polyQ aggregation, BDNF-REST axis, CBP/transcriptional dysregulation, excitotoxicity, somatic CAG instability, therapeutic overview",
+      "key_finding": "Mutant huntingtin disrupts four overlapping mechanisms in MSN: BDNF supply (REST de-repression), transcriptional dysregulation (CBP/PGC-1α), excitotoxicity (NR2B NMDA, GLT1 loss), and somatic CAG expansion; nuclear inclusion toxicity remains debated"
+    },
+    {
+      "id": "S2",
+      "pmid": "27069383",
+      "pmcid": "PMC4826775",
+      "title": "Huntington Disease: A Single-Gene Degenerative Disorder of the Striatum",
+      "authors": "Nopoulos PC",
+      "journal": "Dialogues in Clinical Neuroscience",
+      "year": 2016,
+      "access": "open",
+      "relevance": "primary — clinical staging, presymptomatic volumetric changes (TRACK-HD/PREDICT-HD), juvenile HD symptomology, CAG-age relationship",
+      "key_finding": "Structural brain changes detectable 15 years before clinical motor onset; juvenile HD (>60 CAG, ~5% of all HD) presents with rigidity/akinesia rather than chorea; mean onset 35-40 years, duration 15-20 years"
+    },
+    {
+      "id": "S3",
+      "pmid": "11408619",
+      "pmcid": null,
+      "title": "Loss of Huntingtin-Mediated BDNF Gene Transcription in Huntington's Disease",
+      "authors": "Zuccato C, Cattaneo E",
+      "journal": "Science",
+      "year": 2001,
+      "access": "abstract",
+      "relevance": "landmark — establishes the wtHtt-REST-BDNF axis: wtHtt sequesters REST in cytoplasm, preventing RE1-mediated repression of BDNF promoter; mHTT loses this capacity",
+      "key_finding": "Wild-type huntingtin promotes BDNF transcription by sequestering REST (RE1-silencing transcription factor) in the cytoplasm; mutant huntingtin fails to sequester REST, allowing it to enter the nucleus and repress BDNF transcription via the RE1 element in BDNF exon II promoter"
+    },
+    {
+      "id": "S4",
+      "pmid": "15967378",
+      "pmcid": null,
+      "title": "Brain-derived neurotrophic factor and Huntington's disease",
+      "authors": "Zuccato C, Cattaneo E",
+      "journal": "Pharmacological Research",
+      "year": 2005,
+      "access": "abstract",
+      "relevance": "secondary — progressive BDNF loss in multiple HD mouse models; BDNF decline precedes behavioral symptoms",
+      "key_finding": "Progressive BDNF reduction in cortex and striatum across multiple HD transgenic mouse models (R6/2, YAC128); BDNF decrease precedes overt behavioral phenotype and correlates with polyQ length and disease severity"
+    },
+    {
+      "id": "S5",
+      "pmid": "28817209",
+      "pmcid": null,
+      "title": "Huntington's Disease: A Clinical Review",
+      "authors": "McColgan P, Tabrizi SJ",
+      "journal": "European Journal of Neurology",
+      "year": 2018,
+      "access": "abstract",
+      "relevance": "primary — clinical biomarkers (NfL, CSF mHTT), NR2B excitotoxic vulnerability, cortical late involvement, presymptomatic staging",
+      "key_finding": "NfL elevated in presymptomatic HD carriers; MSN NR2B-enriched NMDA receptors underlie heightened excitotoxic susceptibility; cortical neurons affected later than striatum, consistent with cortical BDNF self-sufficiency"
+    },
+    {
+      "id": "S6",
+      "pmid": "34445070",
+      "pmcid": "PMC8394361",
+      "title": "Therapeutic Approaches in Huntington's Disease",
+      "authors": "Kim A, Lalonde K, Truesdell A, Welch Estes P, Bhanu Raj P, Bhargava S, Bhargava S, Bhargava S",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2021,
+      "access": "open",
+      "relevance": "primary — comprehensive treatment review: tetrabenazine/deutetrabenazine approval, ASO strategies, excitotoxicity (GLT1/GLAST evidence), CBP/HDAC inhibitor rationale",
+      "key_finding": "GLT1/GLAST downregulation in HD astrocytes contributes to impaired glutamate clearance; HDAC inhibitors restore histone acetylation and partially rescue transcriptional dysregulation; deutetrabenazine FDA-approved 2017 for chorea (VMAT2 inhibitor, does not modify disease course)"
+    },
+    {
+      "id": "S7",
+      "pmid": "41287980",
+      "pmcid": null,
+      "title": "Population pharmacokinetic/pharmacodynamic analysis of tominersen in patients with Huntington's disease from the phase III GENERATION HD1 study",
+      "authors": "Yamamoto Y et al.",
+      "journal": "British Journal of Clinical Pharmacology",
+      "year": 2026,
+      "access": "abstract",
+      "relevance": "primary — tominersen PK/PD, IC50, exposure quartile analysis linking mHTT reduction to biomarker safety signal",
+      "key_finding": "IC50 = 4.18 ng/mL; highest exposure quartile achieved 54% mHTT reduction but with transient neuroinjury/inflammation biomarker elevation; lowest exposure quartile showed 24% mHTT reduction with favorable biomarker profile, demonstrating non-linear exposure-safety relationship and supporting the tominersen paradox"
+    },
+    {
+      "id": "S8",
+      "pmid": "39027419",
+      "pmcid": null,
+      "title": "WVE-003, an allele-selective antisense oligonucleotide targeting SNP3 to reduce mutant huntingtin while preserving wild-type huntingtin in Huntington's disease",
+      "authors": "Iwamoto N et al.",
+      "journal": "Molecular Therapy: Nucleic Acids",
+      "year": 2024,
+      "access": "open",
+      "relevance": "primary — allele-selective ASO strategy (SNP3 targeting), equivalent potency to non-selective surrogate with WT-huntingtin preservation",
+      "key_finding": "WVE-003 selectively reduces mHTT by targeting SNP3 (unique to mutant allele) while fully preserving wild-type huntingtin levels; demonstrates equivalent mHTT-lowering potency to non-allele-selective ASO surrogate with improved durability, directly addressing the tominersen paradox"
+    },
+    {
+      "id": "S9",
+      "pmid": "11298997",
+      "pmcid": null,
+      "title": "The neuropathology of Huntington's disease",
+      "authors": "Sieradzan KA, Mann DM",
+      "journal": "Neuropathology and Applied Neurobiology",
+      "year": 2001,
+      "access": "abstract",
+      "relevance": "secondary — selective vulnerability cell-type map: MSN (~95% of striatal neurons) >90% degenerate; cholinergic and PV+ interneurons relatively spared; cortical involvement later",
+      "key_finding": "MSN constitute ~95% of striatal neurons and >90% eventually degenerate in HD; striatal interneurons (cholinergic, calbindin-positive, PV-positive) are relatively preserved through late stages; cortical pyramidal neurons (especially layer V) affected later than striatum; selective vulnerability pattern provides key negative controls for mechanistic hypotheses"
+    }
+  ],
+  "excluded_sources": [],
+  "open_questions_addressed": ["Q-hd-01", "Q-hd-02", "Q-hd-03", "Q-hd-04"],
+  "wiki_pages_updated": [
+    "diseases/huntingtons-disease",
+    "concepts/polyglutamine-toxicity"
+  ],
+  "wiki_pages_created": [
+    "diseases/huntingtons-disease",
+    "concepts/polyglutamine-toxicity"
+  ]
+}
