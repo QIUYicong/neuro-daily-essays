@@ -1,0 +1,29 @@
+# 诊断日志 · 2026-06-23 · 重复触发 #3
+
+**运行时间**：2026-06-23 14:00 CST（UTC+8）
+**触发次数**：第 3 次（当天）
+**分支**：claude/funny-einstein-2wk7g7
+
+---
+
+## 状态
+
+- 当天文章已存在：`neuro-daily/articles/2026-06-23-cerebellum-motor-prediction.md`（文章 #59）
+- 原始运行日志：`neuro-daily/logs/2026-06-23-run.log`（article 写于 2026-06-04，推送到 main）
+- 前两次重复触发：`2026-06-23-diagnostic-trigger1.log`、`2026-06-23-diagnostic-trigger2.log`
+
+## 决策
+
+根据 ROUTINE.md："不要反复生成同一天文章"。今日文章已完整存在，跳过写作流程。
+
+## 异常备注
+
+当前分支 `claude/funny-einstein-2wk7g7` 包含文章至 2026-09-06（共约 140+ 篇），而 `main` 分支仅至 2026-07-08（76 篇）。两个分支之间存在约 2 个月的内容差距，未合并。这是由于前几次自动运行在调度环境中使用了错误的未来日期写文章所致。
+
+**建议用户**：考虑是否需要将 `claude/funny-einstein-2wk7g7` 的内容合并回 `main`，或者检查调度触发器的日期计算逻辑，避免继续写未来日期的文章。
+
+## 操作
+
+无新文章生成，无 wiki 更新，无状态变更。仅写入本诊断日志并推送。
+
+**push 状态**：待推送到 origin/claude/funny-einstein-2wk7g7
