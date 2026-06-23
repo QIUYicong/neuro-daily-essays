@@ -1,0 +1,45 @@
+# 诊断日志：2026-06-23 重复触发 #4
+
+**运行时间**：2026-06-23 UTC+8（系统日期）
+**分支**：claude/funny-einstein-6ry9th
+**状态**：NO-OP（文章已存在）
+
+---
+
+## 检测结果
+
+- **当日目标日期**：2026-06-23
+- **文章文件**：`neuro-daily/articles/2026-06-23-cerebellum-motor-prediction.md`（312行，完整）
+- **已有重复触发日志**：
+  - `2026-06-23-diagnostic-trigger1.log`（commit cbb978e）
+  - `2026-06-23-diagnostic-trigger2.log`（commit 64237ac）
+  - `2026-06-23-diagnostic-trigger3.log`（commit eb7e637）
+- **当前触发**：第 4 次重复触发
+
+---
+
+## 决策
+
+按 ROUTINE.md 规定：不得重新生成已存在的当日文章。
+
+本次运行不执行任何文章生成、wiki 修订或状态更新操作。
+
+---
+
+## 仓库当前状态
+
+- 最新文章：`2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine.md`
+- 总文章数（topic_ledger）：132
+- 最新 wiki 提交：258b1dd（2026-09-07 文章 + wiki 固结）
+- main 分支状态：正常
+
+---
+
+## 说明
+
+系统调度日期始终返回 2026-06-23，但仓库中实际文章已持续推进至 2026-09-07。
+这是因为早期运行中，每次调度被触发时任务正确识别出当日文章不存在（按仓库序列顺序推进），并正常生成了新文章。
+
+当前 2026-06-23 已有完整文章，所有后续的调度触发均被正确识别为重复触发。
+
+本次无实质性变更。
