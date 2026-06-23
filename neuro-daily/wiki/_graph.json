@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "node_count": 272,
   "edge_count": 1595,
   "edge_types": [
@@ -2499,6 +2499,42 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/excitotoxicity.md"
+    },
+    {
+      "id": "mitochondrial-dysfunction",
+      "title": "线粒体功能障碍",
+      "domain": "diseases",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/mitochondrial-dysfunction.md"
+    },
+    {
+      "id": "pink1-parkin-mitophagy",
+      "title": "PINK1/Parkin 线粒体自噬",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/pink1-parkin-mitophagy.md"
+    },
+    {
+      "id": "reactive-oxygen-species",
+      "title": "活性氧（ROS）",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/reactive-oxygen-species.md"
+    },
+    {
+      "id": "drp1",
+      "title": "DRP1（线粒体分裂蛋白）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/drp1.md"
     }
   ],
   "edges": [
@@ -11496,6 +11532,72 @@
       "from": "huntingtons-disease",
       "to": "excitotoxicity",
       "type": "mechanism-of"
+    },
+    {
+      "from": "mitochondrial-dysfunction",
+      "to": "parkinsons-disease",
+      "type": "mechanism-of",
+      "note": "Complex I缺陷；MPTP/鱼藤酮机制"
+    },
+    {
+      "from": "mitochondrial-dysfunction",
+      "to": "alzheimers-disease",
+      "type": "mechanism-of",
+      "note": "Complex IV缺陷；Aβ诱发DRP1过活跃"
+    },
+    {
+      "from": "mitochondrial-dysfunction",
+      "to": "huntingtons-disease",
+      "type": "mechanism-of",
+      "note": "Complex II/III缺陷；Ca²⁺缓冲容量降低；3-NP模型"
+    },
+    {
+      "from": "mitochondrial-dysfunction",
+      "to": "excitotoxicity",
+      "type": "supports",
+      "note": "mPTP是兴奋毒性Ca²⁺超载的终末执行节点"
+    },
+    {
+      "from": "pink1-parkin-mitophagy",
+      "to": "mitochondrial-dysfunction",
+      "type": "regulates",
+      "note": "PINK1/Parkin是清除功能障碍线粒体的质量控制机制"
+    },
+    {
+      "from": "mitochondrial-dysfunction",
+      "to": "reactive-oxygen-species",
+      "type": "mechanism-of",
+      "note": "ETC电子泄漏产生超氧，Complex I/III为主要来源"
+    },
+    {
+      "from": "reactive-oxygen-species",
+      "to": "mitochondrial-dysfunction",
+      "type": "supports",
+      "note": "ROS损伤mtDNA和ETC，正反馈放大线粒体损伤"
+    },
+    {
+      "from": "drp1",
+      "to": "mitochondrial-dysfunction",
+      "type": "part-of",
+      "note": "DRP1过度激活导致病理性分裂，是线粒体功能障碍的形态学表现"
+    },
+    {
+      "from": "mitochondrial-dysfunction",
+      "to": "pink1-parkin-mitophagy",
+      "type": "prerequisite-for",
+      "note": "ΔΨm丢失是PINK1积累和Parkin招募的触发条件"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "pink1-parkin-mitophagy",
+      "type": "related",
+      "note": "PINK1/PARK6和Parkin/PARK2基因突变是早发性PD主要遗传原因"
+    },
+    {
+      "from": "pink1-parkin-mitophagy",
+      "to": "parkinsons-disease",
+      "type": "mechanism-of",
+      "note": "PINK1/Parkin通路失效导致损伤线粒体积累和DA神经元死亡"
     }
   ],
   "dangling_references": [

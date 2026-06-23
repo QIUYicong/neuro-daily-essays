@@ -8526,5 +8526,28 @@
     "topic_tags": ["excitotoxicity", "synaptic vs extrasynaptic NMDAR", "calcium overload", "mitochondrial calcium", "GLT-1 EAAT2", "memantine", "nerinetide"],
     "main_sources": ["PMID:20842175/PMC2948541 OPEN", "PMID:2880938 abstract-only", "PMID:35078537/PMC8788129 OPEN", "PMID:38891774/PMC11171854 OPEN", "PMID:37236602 abstract-only"],
     "next_suggested_topics": ["线粒体功能障碍（填补mitochondrial-dysfunction悬空引用）", "神经炎症（填补neuroinflammation悬空引用）", "ALS多重机制"]
+  },
+  {
+    "date": "2026-09-09",
+    "article_number": 139,
+    "title": "线粒体功能障碍：神经元高能耗的代价——从 ATP 危机到神经退行性疾病的共同病理轴",
+    "core_question": "神经元为何对线粒体功能有如此极端的依赖，当线粒体功能障碍时，从ETC的第一道裂缝到PINK1/Parkin介导的线粒体自噬系统无法清场，中间经历了哪些关键的分子级联？",
+    "layer": "molecular/cellular/synaptic/disease",
+    "topic_tags": ["线粒体功能障碍", "电子传递链", "Complex I", "Complex II", "Complex IV", "ROS", "mPTP", "DRP1", "PINK1/Parkin", "线粒体自噬", "帕金森病", "阿尔茨海默病", "亨廷顿病", "神经退行性疾病"],
+    "main_sources": ["PMID:11598490 abstract-only", "PMID:38241161/PMC10903104 OPEN", "PMID:38744846/PMC11094169 OPEN", "PMID:33168089/PMC7654589 OPEN", "PMID:36943668 abstract-only", "PMID:19682570 abstract-only", "PMID:28379197/PMC5488005 OPEN"],
+    "wiki_created": ["diseases/mitochondrial-dysfunction", "concepts/pink1-parkin-mitophagy"],
+    "wiki_revised": ["diseases/huntingtons-disease (rev1->rev2)", "diseases/parkinsons-disease (rev2->rev3)", "concepts/excitotoxicity (rev1->rev2)"],
+    "graph_update": "273 nodes+4=277 nodes; 1606 edges+11=1617 edges; dangling filled: mitochondrial-dysfunction",
+    "unresolved_questions": ["Q-mito-01 (高): mPTP分子身份", "Q-mito-02 (高): PINK1/Parkin体内活性", "Q-mito-03 (中): ROS vs线粒体质量控制哪个是第一因"],
+    "next_suggested_topics": [
+      "活性氧（ROS）与氧化应激——填补reactive-oxygen-species悬空引用",
+      "DRP1与线粒体分裂融合动力学——填补drp1悬空引用",
+      "神经炎症（neuroinflammation）——填补持续悬空引用",
+      "ALS（肌萎缩侧索硬化）——多重机制汇聚于运动神经元选择性死亡",
+      "第140篇周综合——20周知识地图综合"
+    ],
+    "knowledge_base_date": "2026-09-09",
+    "system_clock_date": "2026-06-23",
+    "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-09"
   }
 ]

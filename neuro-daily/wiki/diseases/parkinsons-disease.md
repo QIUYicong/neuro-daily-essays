@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-06-14
-updated: 2026-09-01
-revision_count: 2
+updated: 2026-09-09
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [dopamine-reward-prediction-error, basal-ganglia, beta-oscillations, alzheimers-disease, alpha-synuclein, voltage-gated-calcium-channels, ltp]
+related: [dopamine-reward-prediction-error, basal-ganglia, beta-oscillations, alzheimers-disease, alpha-synuclein, voltage-gated-calcium-channels, ltp, mitochondrial-dysfunction, pink1-parkin-mitophagy]
 prerequisites: [dopamine-reward-prediction-error, basal-ganglia, synaptic-transmission]
 opens_questions: [Q-pd-beta-causality, Q-pd-closed-loop-dbs, Q-pd-lewy-protective, Q-pd-snc-vulnerability]
-source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-09-01-medium-spiny-neurons-striatum]
-key_sources: ["PMID:21469956", "PMID:2479133", "PMID:2402638", "PMID:34124057", "PMID:38954651", "PMID:30897356", "PMID:18267246"]
+source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-09-01-medium-spiny-neurons-striatum, 2026-09-09-mitochondrial-dysfunction-neurodegeneration]
+key_sources: ["PMID:21469956", "PMID:2479133", "PMID:2402638", "PMID:34124057", "PMID:38954651", "PMID:30897356", "PMID:18267246", "PMID:38241161", "PMC10903104", "PMID:36943668", "PMID:33168089", "PMC7654589"]
 ---
 
 # 帕金森病 (Parkinson's Disease)
@@ -101,8 +101,10 @@ key_sources: ["PMID:21469956", "PMID:2479133", "PMID:2402638", "PMID:34124057", 
 
 - 2026-06-14 · 创建 · 基于《多巴胺的沉默与节律的失控》一文 · 初始置信度：高
 - 2026-09-01 · 修订 rev2 · 基于《纹状体的决策细胞》一文（#131）· 修正：原文误将树突棘丧失归于dSPNs（D1-MSN），新证据（PMID:18267246）明确为iSPNs（D2-MSN）选择性受损30-50%；新增L-DOPA不可逆性说明；添加medium-spiny-neuron和striatal-direct-indirect-pathway连接
+- 2026-09-09 · 修订 rev3 · 基于《线粒体功能障碍：神经元高能耗的代价》（#139）· 补充：(1) PD 中 Complex I 缺陷的多来源证据（黑质死后脑研究 + MPTP/鱼藤酮毒理学模型）；(2) DA 神经元多重叠加脆弱性（CaV1.3 自主节律钙负荷 + 超长无髓轴突 + DA 代谢本底 ROS）；(3) PINK1/*PARK6* 和 Parkin/*PARK2* 基因突变与早发性 PD 的关系；(4) related 新增 mitochondrial-dysfunction 和 pink1-parkin-mitophagy；(5) key_sources 新增 5 个来源
 
 ## 来源文章
 
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
 - [[2026-09-01-medium-spiny-neurons-striatum]]
+- [[2026-09-09-mitochondrial-dysfunction-neurodegeneration]]

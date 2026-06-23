@@ -3826,3 +3826,29 @@
 - **来源文章**：2026-09-05-anterior-temporal-lobe-semantic-hub
 - **问题**：语义痴呆的病理标志是TDP-43蛋白的胞质错误定位和聚集（C型 FTLD-TDP），萎缩模式从ATL前极开始并向后扩展。问题是：(a) 为什么TDP-43病变选择性地从ATL起始——是ATL神经元的某种生物学特性（如高代谢率、特殊轴突形态、薄髓纤维比例高）使其对TDP-43错误折叠特别敏感？(b) ATL中TDP-43毒性的传播是经由结构连接（沿白质束）还是经由跨突触机制？(c) 是否存在ATL神经元特有的TDP-43靶向mRNA（如与跨模态整合相关的蛋白质的转录本），其损失直接导致语义功能崩溃？
 - **当前证据状态**：FTLD-TDP C型病理定位ATL：高（临床病理学）；选择性脆弱性分子机制：低（缺乏系统单细胞层面研究）
+
+---
+
+## 2026-09-09 新增未解问题（线粒体功能障碍）
+
+### Q-mito-01（高优先级）：mPTP 的分子身份
+
+- **关联 wiki**：[[mitochondrial-dysfunction]]、[[excitotoxicity]]
+- **来源文章**：2026-09-09-mitochondrial-dysfunction-neurodegeneration
+- **问题**：线粒体通透性转变孔（mPTP）的通道蛋白本体至今仍有争议。Cyclophilin D（CypD）是已确认的调节亚基（CsA 通过抑制 CypD 阻断 mPTP 开放），但通道形成蛋白是什么？候选有：(a) ATP 合酶 c 亚基环（Crompton 提出的 CV c-subunit ring）；(b) 腺嘌呤核苷酸转位酶（ANT）；(c) ANT + CypD + VDAC 多蛋白复合体；(d) 完全不同的未知蛋白。不同实验室、不同物种的结果不一致，这对开发 mPTP 特异性抑制剂（神经保护治疗）构成实际障碍。
+- **关键实验**：(1) 使用 ANT 基因敲除细胞验证 ANT 是否必需；(2) cryo-EM 捕获 mPTP 开放状态的结构；(3) 在不同神经元类型和疾病模型中的系统性药理学比较
+- **当前证据状态**：CypD 调节亚基：高（遗传和药理学双重确认）；通道蛋白身份：争议/低
+
+### Q-mito-02（高优先级）：PINK1/Parkin 体内活性与物种差异
+
+- **关联 wiki**：[[pink1-parkin-mitophagy]]、[[parkinsons-disease]]
+- **来源文章**：2026-09-09-mitochondrial-dysfunction-neurodegeneration
+- **问题**：PINK1/Parkin 线粒体自噬的大量机制数据来自体外急性去极化（CCCP 处理）模型，但 Pink1 KO 小鼠仅表现轻微的 ATP 降低和多巴胺减少，无明显 PD 样神经退化；而 CRISPR/Cas9 Pink1 KO 猕猴出现严重皮层/纹状体/黑质神经退化。这种物种差异的机制是什么？(a) 小鼠有独立的代偿线粒体质量控制机制（非 PINK1/Parkin）？(b) 小鼠多巴胺能神经元的 Ca²⁺ 振荡节律和能量需求比灵长类低？(c) 体内慢性低水平线粒体损伤速率是否足以触发 PINK1 积累（需要多高的 ΔΨm 损失阈值）？
+- **当前证据状态**：体外机制：高；小鼠 KO 表型轻微：高；猕猴 KO 严重表型：高；物种差异机制：低
+
+### Q-mito-03（中优先级）：ROS 过量 vs 线粒体质量控制失效——哪个是 PD/AD 中的启动事件？
+
+- **关联 wiki**：[[mitochondrial-dysfunction]]、[[parkinsons-disease]]、[[alzheimers-disease]]
+- **来源文章**：2026-09-09-mitochondrial-dysfunction-neurodegeneration
+- **问题**：在散发性 PD 和 AD 中，Complex I/IV 缺陷导致 ROS 增加与 PINK1/Parkin 通路失效（损伤线粒体积累）同时发生。哪个先发生？(a) LRRK2 突变 PD：线粒体运输障碍可能早于 ETC 缺陷；(b) 环境毒素暴露（鱼藤酮）：直接 Complex I 抑制是触发因素；(c) 散发性 AD：mtDNA 体细胞突变积累可能是慢性"底噪"，而 Aβ 叠加触发急性失代偿。病因异质性使"统一第一因"难以确认。
+- **当前证据状态**：各病因亚型的触发因素：中-高；统一顺序模型：低（不同病因亚型可能有不同顺序）

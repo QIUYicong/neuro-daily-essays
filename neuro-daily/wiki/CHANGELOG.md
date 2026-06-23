@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-09-09 · 文章 #139 · 线粒体功能障碍：神经元高能耗的代价——从 ATP 危机到神经退行性疾病的共同病理轴
+
+**核心主题**：填补图谱唯一悬空引用 `mitochondrial-dysfunction`。神经元对线粒体 OXPHOS 的极端依赖（20% 全身能量、~4.7×10⁹ ATP/秒/皮层神经元），ETC Complex I-V 机制，ROS 的生理/病理双面性，线粒体 Ca²⁺ 缓冲与 mPTP，分裂（DRP1）/融合（MFN1/2/OPA1）动力学，PINK1/Parkin 线粒体自噬机制（ΔΨm 传感 → Parkin 招募 → pUb 链 → NDP52/OPTN → LC3 → 溶酶体），三大神经退行性疾病的 ETC 攻击靶点（PD: Complex I，AD: Complex IV，HD: Complex II/III）。图谱从 273 节点/1606 边增至 **277 节点/1617 边**（+4 节点 + 11 条新边）。
+
+### 新建 Wiki 页面（2 个）
+
+- `diseases/mitochondrial-dysfunction.md` 🟢 established · 高置信度 — 线粒体功能障碍的综合机制：ETC 缺陷（三疾病对应关系），Ca²⁺ 缓冲与 mPTP，分裂/融合失衡，PINK1/Parkin 通路，关键证据表，Q-mito-01/02/03 未解问题（mPTP分子身份/体内PINK1活性/第一因顺序）。**填补图谱唯一悬空引用**。
+- `concepts/pink1-parkin-mitophagy.md` 🟡 mainstream · 中置信度 — PINK1/Parkin 线粒体自噬详细机制：健康稳态（PARL切割降解）、损伤触发（ΔΨm消失→PINK1 OMM积累→二聚化+自磷酸化）、Parkin激活（pUb→Ubl结合→构象重排）、正反馈放大、自噬体招募（NDP52/OPTN/TBK1/LC3）、PD突变影响；物种差异（小鼠 vs 猕猴 KO 表型）。
+
+### 修订 Wiki 页面（3 个）
+
+- `diseases/huntingtons-disease.md` rev1→rev2 — 补充 Complex II/III 死后脑证据 + 3-NP 动物模型 + mHTT 降低 Ca²⁺ 缓冲容量 + mPTP 阈值降低；related 新增 pink1-parkin-mitophagy；key_sources 新增 3 个
+- `diseases/parkinsons-disease.md` rev2→rev3 — 补充 Complex I 缺陷多来源证据（黑质死后脑 + MPTP/鱼藤酮）+ DA 神经元多重脆弱性 + PINK1/Parkin 遗传学；related 新增 mitochondrial-dysfunction 和 pink1-parkin-mitophagy；key_sources 新增 5 个
+- `concepts/excitotoxicity.md` rev1→rev2 — 补充 Ca²⁺→MCU→mPTP 完整链条（mPTP 是兴奋毒性与线粒体功能障碍的汇聚节点）；related 新增 pink1-parkin-mitophagy；key_sources 新增 2 个
+
+### 矛盾登记/裁决（0 条）
+
+今日无新矛盾。注：reactive-oxygen-species 和 drp1 节点已在图谱中添加（悬空引用提前创建），但其独立 wiki 页面尚未建立（`wiki/concepts/reactive-oxygen-species.md` 和 `wiki/concepts/drp1.md` 为新悬空引用）。
+
+### 悬空引用变化
+
+- **填补**：`mitochondrial-dysfunction`（图谱中唯一的悬空引用，今日已建立完整 wiki 页）
+- **新增悬空**：`reactive-oxygen-species`（节点已加入图谱，wiki 页待建）、`drp1`（同上）
+- **继续悬空**（来自 HD/PD 等页面）：`neuroinflammation`、`protein-aggregation`、`ubiquitin-proteasome`、`autophagy`、`nuclear-inclusions`
+
+---
+
 ## 2026-09-08 · 文章 #138 · 兴奋毒性：谷氨酸的双刃剑与突触内外的生死抉择
 
 **核心主题**：兴奋毒性（excitotoxicity）——谷氨酸过量/NMDA受体过激活引发的神经元死亡机制。核心原则：突触内NMDAR激活→CREB/AID基因存活屏障；突触外NMDAR激活→Jacob入核/ERK灭活/DAPK1/Calpain-STEP-p38死亡级联。钙-线粒体-ROS三联体（MCU超摄→ROS→mPTP→凋亡/坏死）。GLT-1/EAAT2星形胶质细胞防线在ALS/HD/缺血中失守。治疗：美金刚（选择性外突触阻断）、nerinetide（PSD-95/nNOS解耦合）、MCU抑制剂。图谱从272节点/1595边增至273节点/1606边（+1节点excitotoxicity，+11边）。

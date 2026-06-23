@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-09",
+  "article": "2026-09-09-mitochondrial-dysfunction-neurodegeneration",
+  "topic": "线粒体功能障碍：神经元高能耗的代价——从 ATP 危机到神经退行性疾病的共同病理轴",
+  "search_strategy": {
+    "databases": ["PubMed E-utilities (esearch/efetch)", "PubMed Central (PMC)", "Europe PMC"],
+    "search_terms": [
+      "mitochondrial dysfunction neurodegeneration review",
+      "PINK1 Parkin mitophagy ubiquitin parkinsons review",
+      "mitochondrial dynamics fission fusion DRP1 neurons neurodegeneration review",
+      "brain energy budget signaling grey matter Attwell Laughlin",
+      "neuronal mitochondria energy metabolism oxidative phosphorylation"
+    ],
+    "candidates_found": 42,
+    "candidates_reviewed": 15,
+    "sources_adopted": 7,
+    "sources_excluded": [
+      "Non-neuroscience-focused mitochondrial papers",
+      "Papers on peripheral nervous system only",
+      "Papers using invalid filter keys (search error)"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "11598490",
+      "pmcid": null,
+      "title": "An energy budget for signaling in the grey matter of the brain",
+      "authors": "Attwell D, Laughlin SB",
+      "journal": "Journal of Cerebral Blood Flow and Metabolism",
+      "year": 2001,
+      "doi": null,
+      "open_access": false,
+      "full_text_accessed": false,
+      "access_note": "仅摘要",
+      "relevance": "提供大脑灰质能量预算分解数据：动作电位47%，突触后效应34%，静息膜电位13%，谷氨酸循环3%",
+      "key_data": "每个额外动作电位/皮层神经元/秒增加氧耗145mL/100g灰质/小时"
+    },
+    {
+      "id": "S2",
+      "pmid": "38744846",
+      "pmcid": "PMC11094169",
+      "title": "Mitochondrial dysfunction: mechanisms and advances in therapy",
+      "authors": "Zong Y et al.",
+      "journal": "Signal Transduction and Targeted Therapy",
+      "year": 2024,
+      "doi": null,
+      "open_access": true,
+      "full_text_accessed": true,
+      "access_note": "PMC11094169 开放全文",
+      "relevance": "综合线粒体功能障碍机制：MCU复合体、mPTP、DRP1 S-亚硝基化、PINK1/Parkin通路",
+      "key_data": "MCU Ca²⁺解离常数<2nM；DRP1在AD中被Aβ通过S-亚硝基化异常激活"
+    },
+    {
+      "id": "S3",
+      "pmid": "38241161",
+      "pmcid": "PMC10903104",
+      "title": "Mitochondrial dysfunction in neurodegenerative disorders",
+      "authors": "Maharjan N et al.",
+      "journal": "Neurotherapeutics",
+      "year": 2024,
+      "doi": null,
+      "open_access": true,
+      "full_text_accessed": true,
+      "access_note": "PMC10903104 开放全文",
+      "relevance": "核心数据来源：神经元ATP消耗速率；ETC结构；PD/AD/HD各自Complex缺陷",
+      "key_data": "皮层神经元静息状态~4.7×10⁹ ATP/秒；大脑消耗1/5身体氧气；90%用于OXPHOS；AD: Complex I+IV↓；PD: Complex I↓；HD: Complex II+III↓"
+    },
+    {
+      "id": "S4",
+      "pmid": "33168089",
+      "pmcid": "PMC7654589",
+      "title": "PINK1/PARKIN signalling in neurodegeneration and neuroinflammation",
+      "authors": "Nguyen M et al.",
+      "journal": "Acta Neuropathologica Communications",
+      "year": 2020,
+      "doi": null,
+      "open_access": true,
+      "full_text_accessed": true,
+      "access_note": "PMC7654589 开放全文",
+      "relevance": "PINK1/Parkin线粒体自噬通路最详细综述：分子机制、PD突变影响、AD/ALS证据、物种差异（小鼠vs猕猴）",
+      "key_data": "Pink1 KO小鼠表型轻微（代偿）；Pink1 KO猕猴严重皮层/纹状体/黑质退化；AD成纤维细胞中Parkin招募受损"
+    },
+    {
+      "id": "S5",
+      "pmid": "36943668",
+      "pmcid": null,
+      "title": "Mitochondrial Dysfunction and Parkinson's Disease: Pathogenesis and Therapeutic Strategies",
+      "authors": "Kumar A et al.",
+      "journal": "Neurochemical Research",
+      "year": 2023,
+      "doi": null,
+      "open_access": false,
+      "full_text_accessed": false,
+      "access_note": "仅摘要",
+      "relevance": "PD中Complex I缺陷、ROS、Ca²⁺超载、分裂/融合失衡，新型治疗策略（线粒体移植、miRNA）"
+    },
+    {
+      "id": "S6",
+      "pmid": "19682570",
+      "pmcid": null,
+      "title": "Mitochondria in Huntington's disease",
+      "authors": "Golas MM",
+      "journal": "Biochimica et Biophysica Acta",
+      "year": 2010,
+      "doi": null,
+      "open_access": false,
+      "full_text_accessed": false,
+      "access_note": "仅摘要",
+      "relevance": "HD死后脑Complex II/III活性降低；mHTT降低线粒体Ca²⁺缓冲容量；3-NP动物模型复制HD样纹状体损伤",
+      "key_data": "3-NP（Complex II抑制剂）选择性复制HD纹状体MSN死亡；多巴胺受体影响mHTT毒性"
+    },
+    {
+      "id": "S7",
+      "pmid": "28379197",
+      "pmcid": "PMC5488005",
+      "title": "Abnormalities of Mitochondrial Dynamics in Neurodegenerative Diseases",
+      "authors": "Bharat D et al.",
+      "journal": "Antioxidants",
+      "year": 2017,
+      "doi": null,
+      "open_access": true,
+      "full_text_accessed": true,
+      "access_note": "PMC5488005 开放全文",
+      "relevance": "DRP1/MFN1/OPA1机制综述；AD中Aβ通过S-亚硝基化激活DRP1；PD中α-syn与DRP1相互作用；HD中mHTT损伤PGC-1α导致MFN/OPA1表达降低",
+      "key_data": "AD: DRP1 S-亚硝基化→病理性分裂+突触损失；ALS: CHCHD10突变→线粒体碎片化+嵴连接丧失"
+    }
+  ],
+  "sources_summary": {
+    "total": 7,
+    "open_full_text": 4,
+    "abstract_only": 3,
+    "official_institution": 0,
+    "primary_research_in_reviews": true,
+    "note": "全部7篇来源均有明确PMID可追溯；4篇有PMC全文开放获取（S2/S3/S4/S7）；3篇仅读取摘要（S1/S5/S6），均在文章中标注"
+  }
+}

@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-09-07
-updated: 2026-09-07
-revision_count: 1
+updated: 2026-09-09
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, brain-region, disease]
-related: [medium-spiny-neuron, basal-ganglia, bdnf, parkinsons-disease, polyglutamine-toxicity, excitotoxicity, cortical-slow-oscillation, nmda-receptor, mitochondrial-dysfunction, neuroinflammation]
+related: [medium-spiny-neuron, basal-ganglia, bdnf, parkinsons-disease, polyglutamine-toxicity, excitotoxicity, cortical-slow-oscillation, nmda-receptor, mitochondrial-dysfunction, neuroinflammation, pink1-parkin-mitophagy]
 prerequisites: [medium-spiny-neuron, basal-ganglia, bdnf, nmda-receptor]
 opens_questions: [Q-hd-01, Q-hd-02, Q-hd-03, Q-hd-04]
-source_articles: [2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]
-key_sources: ["PMID:37629202", "PMC10455900", "PMID:27069383", "PMC4826775", "PMID:11408619", "PMID:34445070", "PMC8394361", "PMID:41287980", "PMID:39027419", "PMID:11298997"]
+source_articles: [2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine, 2026-09-09-mitochondrial-dysfunction-neurodegeneration]
+key_sources: ["PMID:37629202", "PMC10455900", "PMID:27069383", "PMC4826775", "PMID:11408619", "PMID:34445070", "PMC8394361", "PMID:41287980", "PMID:39027419", "PMID:11298997", "PMID:38241161", "PMC10903104", "PMID:19682570"]
 ---
 
 # 亨廷顿病 (Huntington's Disease)
@@ -72,6 +72,8 @@ MSN的NMDA受体富含NR2B亚基（相比NR2A具有更慢的去激活动力学�
 | GLT1/GLAST在HD星形胶质细胞中表达下降（兴奋毒性的星形胶质细胞机制） | HD细胞系和转基因动物的Western/RT-PCR | PMID:34445070 | 中（动物/细胞模型） |
 | tominersen IC50=4.18 ng/mL；高暴露54%降mHTT伴神经损伤标志物↑；低暴露24%降mHTT安全 | GENERATION-HD1 III期数据的人群PK/PD分析 | PMID:41287980 | 高（临床数据） |
 | WVE-003等位基因选择性靶向SNP3，保留wtHtt，效力与非选择性ASO相当 | iPSC衍生HD神经元+人源化小鼠模型 | PMID:39027419 | 中-高 |
+| HD死后脑纹状体中Complex II和Complex III活性显著降低；3-NP（Complex II抑制剂）在啮齿类动物中选择性复制HD样纹状体MSN死亡 | 死后脑酶活性测定；3-NP大鼠/灵长类注射模型 | PMID:19682570; PMID:38241161 | 高（死后脑复制于多项独立研究） |
+| mHTT降低线粒体Ca²⁺缓冲容量，使mPTP开放阈值降低（通过Ca²⁺超载测定） | 转基因HD细胞线粒体Ca²⁺摄取能力测定；mPTP开放阈值实验 | PMID:19682570 | 中（体外和动物模型，尚无直接人类线粒体证据） |
 
 ## 连接
 
@@ -83,7 +85,7 @@ MSN的NMDA受体富含NR2B亚基（相比NR2A具有更慢的去激活动力学�
 - [[excitotoxicity]] — NR2B富集+GLT1/GLAST下降使MSN处于慢性兴奋毒性威胁中
 - [[nmda-receptor]] — NR2B亚基组成是MSN兴奋毒性选择性脆弱的分子基础
 - [[cortical-slow-oscillation]] — 皮质纹状体投射在HD中从"营养高速公路"变为"兴奋毒性传导线路"——同一解剖连接的功能翻转
-- [[mitochondrial-dysfunction]] — PGC-1α轴损伤导致线粒体生物合成受损是HD转录失调与能量代谢崩溃的交叉节点
+- [[mitochondrial-dysfunction]] — PGC-1α轴损伤导致线粒体生物合成受损；纹状体特异性Complex II/III缺陷；Ca²⁺缓冲容量降低使mPTP阈值降低——三者共同构成HD的能量代谢崩溃轴
 - [[neuroinflammation]] — HD中星形胶质细胞功能障碍（GLT1/GLAST下降）和小胶质细胞激活共同参与神经退化；tominersen高剂量组的安全信号可能部分源于神经炎症
 
 ## 未解问题
@@ -96,7 +98,9 @@ MSN的NMDA受体富含NR2B亚基（相比NR2A具有更慢的去激活动力学�
 ## 修订历史
 
 - 2026-09-07 · 创建 · 基于《亨廷顿病：当遗传倒计时开启，纹状体为何率先坠落》（#137） · 初始置信度：高
+- 2026-09-09 · 修订（rev2）· 基于《线粒体功能障碍：神经元高能耗的代价》（#139）· 补充：(1) 纹状体特异性Complex II/III缺陷的死后脑证据及3-NP动物模型；(2) mHTT降低线粒体Ca²⁺缓冲容量和mPTP阈值的机制；(3) 证据表新增2行；(4) related新增pink1-parkin-mitophagy；(5) key_sources新增3个来源
 
 ## 来源文章
 
 - [[2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]]
+- [[2026-09-09-mitochondrial-dysfunction-neurodegeneration]]

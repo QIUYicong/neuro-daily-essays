@@ -12971,8 +12971,7 @@
     "PMID:36161961",
     "PMID:37183143",
     "PMID:1504027"
-  ]
-,
+  ],
   "PMID:25279763": {
     "pmid": "25279763",
     "pmcid": "PMC4184834",
@@ -12981,7 +12980,9 @@
     "journal": "PLoS ONE",
     "year": 2014,
     "first_used": "2026-09-04",
-    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "used_in_articles": [
+      "2026-09-04-deep-cerebellar-nuclei-dcn-output"
+    ],
     "aspects_covered": [
       "灵长类证据确认去抑制为DCN输出主要机制（PC停顿→DCN即刻激活，无反弹延迟）",
       "齿状核放电与PC抑制同步而非延迟",
@@ -12996,7 +12997,9 @@
     "journal": "Biology",
     "year": 2024,
     "first_used": "2026-09-04",
-    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "used_in_articles": [
+      "2026-09-04-deep-cerebellar-nuclei-dcn-output"
+    ],
     "aspects_covered": [
       "DCN三层可塑性综述：突触LTP、内在兴奋性变化、PNN门控",
       "MF→DCN LTP需要先有PC去极化解锁窗口",
@@ -13011,7 +13014,9 @@
     "journal": "Science Advances",
     "year": 2025,
     "first_used": "2026-09-04",
-    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "used_in_articles": [
+      "2026-09-04-deep-cerebellar-nuclei-dcn-output"
+    ],
     "aspects_covered": [
       "DCN三类细胞：谷氨酸能（→丘脑/红核/脑干/脊髓）、GABA能（→下橄榄核）、甘氨酸能（→前庭/网状）",
       "肌张力障碍机制：PC去抑制→DCN谷氨酸能神经元异常激活",
@@ -13026,7 +13031,9 @@
     "journal": "Nature",
     "year": 2021,
     "first_used": "2026-09-04",
-    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "used_in_articles": [
+      "2026-09-04-deep-cerebellar-nuclei-dcn-output"
+    ],
     "aspects_covered": [
       "aDCN谷氨酸能神经元→VTA多巴胺→腹侧纹状体饱腹感回路",
       "小脑深部是Prader-Willi综合征与对照组唯一显著差异脑区（fMRI）",
@@ -13041,7 +13048,9 @@
     "journal": "Journal of Neuroscience",
     "year": 2009,
     "first_used": "2026-09-04",
-    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "used_in_articles": [
+      "2026-09-04-deep-cerebellar-nuclei-dcn-output"
+    ],
     "aspects_covered": [
       "DCN第三类投射神经元：甘氨酸能，主要位于顶核",
       "投射至同侧前庭神经核和延髓网状结构",
@@ -13056,7 +13065,9 @@
     "journal": "Nature Neuroscience",
     "year": 2020,
     "first_used": "2026-09-04",
-    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "used_in_articles": [
+      "2026-09-04-deep-cerebellar-nuclei-dcn-output"
+    ],
     "aspects_covered": [
       "小脑Crus I/II→外侧DCN/齿状核→VM丘脑→内侧PFC认知回路",
       "激活小脑Crus I/II PC改善自闭症模型社交偏好缺陷和重复行为",
@@ -13071,7 +13082,9 @@
     "journal": "Frontiers in Neural Circuits",
     "year": 2021,
     "first_used": "2026-09-04",
-    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "used_in_articles": [
+      "2026-09-04-deep-cerebellar-nuclei-dcn-output"
+    ],
     "aspects_covered": [
       "反弹兴奋幅度取决于超极化的持续时间和强度",
       "5-HT和NE通过突触前受体减少PC→DCN GABA释放",
@@ -13098,8 +13111,7 @@
     "PMID:19675244",
     "PMID:32661395",
     "PMID:34194302"
-  ]
-,
+  ],
   "sources_2026-09-05": [
     "PMID:18026167",
     "PMID:20451381",
@@ -13123,8 +13135,7 @@
     "PMID:34474155",
     "PMID:41648128",
     "PMID:41224668"
-  ]
-,
+  ],
   "sources_2026-09-07": [
     "PMID:37629202",
     "PMID:27069383",
@@ -13135,8 +13146,7 @@
     "PMID:41287980",
     "PMID:39027419",
     "PMID:11298997"
-  ]
-,
+  ],
   "sources_2026-09-08": [
     "PMID:20842175",
     "PMC:2948541",
@@ -13148,5 +13158,18 @@
     "PMID:37236602",
     "PMID:18923045",
     "PMID:17690142"
+  ],
+  "sources_2026-09-09": [
+    "PMID:11598490",
+    "PMID:38744846",
+    "PMC:11094169",
+    "PMID:38241161",
+    "PMC:10903104",
+    "PMID:33168089",
+    "PMC:7654589",
+    "PMID:36943668",
+    "PMID:19682570",
+    "PMID:28379197",
+    "PMC:5488005"
   ]
 }

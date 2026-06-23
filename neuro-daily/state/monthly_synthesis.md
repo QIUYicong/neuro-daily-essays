@@ -1399,3 +1399,11 @@
 
 **课程路线进展**：脊柱4（记忆与情节）：时间编码链路进一步深化——从时间细胞发现到 TCM 神经底物机制。脊柱12（人脑与AI比较）：Laplace变换/泄漏积分器为时间RNN和Transformer时间编码提供神经类比参照。
 
+
+---
+
+**2026-09-09（第139篇）**：**线粒体功能障碍：神经元高能耗的代价——从 ATP 危机到神经退行性疾病的共同病理轴**——填补知识图谱唯一悬空引用 `mitochondrial-dysfunction`，建立 PD/AD/HD 三大疾病的共同分子底层。核心贡献：(1) 神经元能量账本——大脑 20% 全身能量、90% OXPHOS 依赖、单个皮层神经元 ~4.7×10⁹ ATP/秒；(2) ETC Complex I-V 机制与三疾病攻击靶点（PD→Complex I，AD→Complex IV，HD→Complex II/III）；(3) ROS 正反馈循环（ETC 电子泄漏→mtDNA 损伤→更多 ETC 缺陷）；(4) Ca²⁺ 超载→MCU→mPTP→Cyt c→caspase 死亡链路（兴奋毒性与线粒体功能障碍的汇聚点）；(5) DRP1 介导的病理性分裂（Aβ-S-亚硝基化-DRP1）；(6) PINK1/Parkin 线粒体自噬完整机制（ΔΨm 传感→PINK1 积累→pUb Ser65→Parkin 激活（正反馈）→NDP52/OPTN→LC3→溶酶体），及其在 PD 早发性遗传中的核心地位（PINK1/PARK6、Parkin/PARK2）。新建2个wiki页面（diseases/mitochondrial-dysfunction、concepts/pink1-parkin-mitophagy），修订3个（huntingtons-disease rev2、parkinsons-disease rev3、excitotoxicity rev2），图谱从 273/1606 增至 **277 节点/1617 边**。
+
+**层级**：分子/细胞/突触/疾病（强调分子机制如何推导疾病选择性）
+
+**课程路线进展**：脊柱1（神经元如何工作）+ 脊柱11（疾病作为窗口）的深度整合——线粒体是脊柱1（能量供给）与脊柱11（三大神经退行性疾病）的交汇轴心，同时与脊柱6（情绪与动机）中的 PD DA 通路、脊柱4（记忆）中的 AD 突触沉默机制形成深度交叉。

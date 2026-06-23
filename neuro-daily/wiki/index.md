@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-08（第138篇·兴奋毒性·突触内外NMDAR二分·钙-线粒体三联体·GLT-1防线·美金刚/nerinetide/MCU抑制剂治疗策略）· 主题页总数：**273**（新建1页：concepts/excitotoxicity；修订1页：concepts/nmda-receptor rev7；图谱273节点/1606边+11边）
+> 最后更新：2026-09-09（第139篇·线粒体功能障碍·神经退行性疾病共同病理轴·PINK1/Parkin线粒体自噬·ETC Complex I/IV/II疾病对应·mPTP·DRP1分裂失衡）· 主题页总数：**275**（新建2页：diseases/mitochondrial-dysfunction、concepts/pink1-parkin-mitophagy；修订3页：huntingtons-disease rev2、parkinsons-disease rev3、excitotoxicity rev2；图谱277节点/1617边+4节点+11边；填补图谱唯一悬空引用mitochondrial-dysfunction）
 
 ---
 
@@ -60,7 +60,8 @@
 - 🟢 [Hodgkin-Huxley 模型](concepts/hodgkin-huxley-model.md) — 动作电位的定量数学框架
 - 🟢 [SNARE复合体](concepts/SNARE-complex.md) — 突触囊泡融合的核心分子机器（四螺旋束拉链）
 - 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + 脊髓中枢敏化触发器 + **兴奋毒性的主要Ca²⁺入口（突触内/外位置决定存活或死亡，修订rev7 2026-09-08）**（修订7次）
-- 🔵 [兴奋毒性](concepts/excitotoxicity.md) — 谷氨酸过激活引发的神经元死亡机制；位置决定命运（突触内=CREB存活 vs 突触外=Jacob/DAPK1/Calpain死亡）；钙-线粒体-ROS三联体；GLT-1防线；ALS/AD/HD/缺血中的疾病窗口 **[NEW 2026-09-08]**
+- 🔵 [兴奋毒性](concepts/excitotoxicity.md) — 谷氨酸过激活引发的神经元死亡机制；位置决定命运（突触内=CREB存活 vs 突触外=Jacob/DAPK1/Calpain死亡）；钙-线粒体-ROS三联体；GLT-1防线；ALS/AD/HD/缺血中的疾病窗口 **[NEW 2026-09-08 · 修订2026-09-09: mPTP汇聚机制补充]**
+- 🔵 [PINK1/Parkin 线粒体自噬](concepts/pink1-parkin-mitophagy.md) — ΔΨm消失→PINK1 OMM积累→二聚化+自磷酸化→pUb（Ser65）生成→Parkin招募+激活（正反馈放大）→NDP52/OPTN/TBK1→LC3/自噬体→溶酶体；PD早发性遗传最主要原因（PINK1/PARK6、Parkin/PARK2）；Pink1 KO猕猴vs小鼠物种差异 **[NEW 2026-09-09]**
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础（修订8次）
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
@@ -299,7 +300,8 @@
 
 - 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退（修订4次）**[NEW 2026-06-08 · 修订2026-06-29]**
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
-- 🟢 [亨廷顿病](diseases/huntingtons-disease.md) — HTT基因CAG重复≥40→polyQ展开→四重MSN选择性打击（BDNF-REST断裂/转录失调CBP/PGC-1α/NR2B兴奋毒性）；纹状体MSN >90%晚期退化；丁苯那嗪/氘丁苯那嗪症状控制；tominersen非选择性ASO悖论（高剂量54%mHTT↓但神经损伤标志物↑）；WVE-003等位基因选择性SNP3靶向策略 **[NEW 2026-09-07]**
+- 🟢 [亨廷顿病](diseases/huntingtons-disease.md) — HTT基因CAG重复≥40→polyQ展开→四重MSN选择性打击（BDNF-REST断裂/转录失调CBP/PGC-1α/NR2B兴奋毒性）；纹状体MSN >90%晚期退化；丁苯那嗪/氘丁苯那嗪症状控制；tominersen悖论；WVE-003等位基因选择性策略 **[NEW 2026-09-07 · 修订2026-09-09]**
+- 🟢 [线粒体功能障碍](diseases/mitochondrial-dysfunction.md) — PD/AD/HD分别攻击Complex I/IV/II；ROS-mtDNA正反馈；Ca²⁺超载→MCU→mPTP→Cyt c→凋亡；DRP1病理性分裂；PINK1/Parkin线粒体自噬；神经元~4.7×10⁹ ATP/秒的高能耗决定结构性脆弱性 **[NEW 2026-09-09 · 填补图谱唯一悬空引用]**
 - 🔵 [精神分裂症](diseases/schizophrenia.md) — PV-GAD67-γ 轴：NMDA 低活→PV 细胞（NR2A 高密度）损伤→GAD67 mRNA 下调→GABA 合成↓→PING 时序崩溃→γ 振荡减弱→WM 缺陷；多巴胺 D2 过度激活（阳性症状）与 D1 不足（阴性/认知症状）并存；高度多基因遗传（C4A 突触过度剪枝） **[NEW 2026-07-20]**
 - 🔵 [意识障碍（DoC）](diseases/disorders-of-consciousness.md) — 严重脑损伤后觉醒和/或意识内容持续损害的临床综合征；昏迷→VS/UWS→MCS→CMD连续谱；前脑中间回路（GPi脱抑制→中央丘脑过度抑制→皮层去传入）；25%"无反应"患者有隐蔽意识（Bodien NEJM 2024）；多模态神经评估（任务型fMRI/EEG/PCI）正在重塑临床诊断标准和伦理框架 **[NEW 2026-08-09]**
 - 🟢 [儿童言语失用症（CAS）](diseases/childhood-apraxia-of-speech.md) — 言语运动程序化选择性障碍（非肌力或发音器官问题）；遗传异质性：30+致病基因（Morgan 2024）；FOXP2经典病因链：R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→MSN树突不全→程序化失败；多基因CAS汇聚于共同转录调控通路 **[NEW 2026-08-12]**

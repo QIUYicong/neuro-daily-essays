@@ -1,0 +1,84 @@
+## 2026-09-09 Daily Run Log
+
+**Run start**: 2026-09-09T09:00:00+08:00 (scheduled)
+**Article number**: #139
+**Topic**: 线粒体功能障碍：神经元高能耗的代价——从 ATP 危机到神经退行性疾病的共同病理轴
+
+---
+
+### Step 0: Sync
+- git pull --rebase origin main: SUCCESS (resolved divergent branches via rebase)
+
+### Step A: Read State
+- ROUTINE.md: read
+- KNOWLEDGE-BASE-DESIGN.md: read
+- topic_ledger.json: read (pre-existing JSON syntax error at line 21, workaround applied)
+- _graph.json: read (273 nodes, 1606 edges; note: 43 edges use 'source'/'target' instead of 'from'/'to')
+- unresolved_questions.md: read
+- contested_claims.json: read (6 open claims, none resolved today)
+
+### Step B: Topic Selection
+- Dangling references in _graph.json: `mitochondrial-dysfunction` (only 1 dangling ref)
+- Selected: mitochondrial-dysfunction (highest priority per ROUTINE.md)
+- Article title: "线粒体功能障碍：神经元高能耗的代价"
+
+### Step C: Research + Article
+- PubMed E-utilities esearch/efetch: 42 candidates found
+- Candidates reviewed: 15
+- Sources adopted: 7 (4 open-access PMC full text, 3 abstract-only)
+  - S1 PMID:11598490 (Attwell & Laughlin 2001 - brain energy budget)
+  - S2 PMID:38744846 / PMC:11094169 (Zong 2024 - mitochondrial dysfunction mechanisms)
+  - S3 PMID:38241161 / PMC:10903104 (Maharjan 2024 - neurodegeneration)
+  - S4 PMID:33168089 / PMC:7654589 (Nguyen 2020 - PINK1/Parkin)
+  - S5 PMID:36943668 (Kumar 2023 - PD mitochondria)
+  - S6 PMID:19682570 (Golas 2010 - HD mitochondria)
+  - S7 PMID:28379197 / PMC:5488005 (Bharat 2017 - mitochondrial dynamics)
+- Article created: neuro-daily/articles/2026-09-09-mitochondrial-dysfunction-neurodegeneration.md (~4500 words)
+- Reading notes: neuro-daily/notes/2026-09-09-reading-notes.md
+- Sources file: neuro-daily/sources/2026-09-09-sources.json
+
+### Step D: Consolidation (Wiki Updates)
+**New wiki pages created (2)**:
+- neuro-daily/wiki/diseases/mitochondrial-dysfunction.md (fills dangling ref)
+- neuro-daily/wiki/concepts/pink1-parkin-mitophagy.md
+
+**Revised wiki pages (3)**:
+- neuro-daily/wiki/diseases/parkinsons-disease.md (rev2→rev3): Complex I defects, DA neuron multi-vulnerability, PINK1/PARK6 & Parkin/PARK2 genetics
+- neuro-daily/wiki/diseases/huntingtons-disease.md (rev1→rev2): Complex II/III defects, mHTT Ca²⁺ buffering, 3-NP model
+- neuro-daily/wiki/concepts/excitotoxicity.md (rev1→rev2): Ca²⁺→MCU→mPTP→Cyt c chain clarified as convergence point
+
+**Contested claims**: None new (6 existing claims unchanged)
+
+### Step E: Graph + Navigation
+- _graph.json: 277 nodes (+4), 1617 edges (+11)
+  - New nodes: mitochondrial-dysfunction, pink1-parkin-mitophagy, reactive-oxygen-species, drp1
+  - New edges: 11 connections added (mito-dysfunction ↔ PD/AD/HD/excitotoxicity/ROS/PINK1/DRP1)
+- wiki/CHANGELOG.md: updated (2026-09-09 entry at top)
+- wiki/index.md: updated (last_updated=2026-09-09, pages 275, nodes 277/1617 edges)
+
+### Step F: Governance
+- topic_ledger.json: appended (entry #139, workaround for pre-existing parse error)
+- monthly_synthesis.md: appended (2026-09-09 entry)
+- unresolved_questions.md: appended (Q-mito-01, Q-mito-02, Q-mito-03)
+- source_registry.json: updated (11 source IDs for 2026-09-09)
+- maturity_index.json: updated (4 new entries: mitochondrial-dysfunction/established/high, pink1-parkin-mitophagy/mainstream/medium, reactive-oxygen-species/established/high [dangling], drp1/established/high [dangling])
+
+### Step G: Commit + Push
+- git add: staged all changes in neuro-daily/
+- git commit: [hash pending]
+- git pull --rebase: [pending]
+- git push origin main: [pending]
+
+### New Open Questions
+- Q-mito-01 (high): mPTP的精确蛋白组成——ANT和Cyclophilin D是否是唯一孔成分？
+- Q-mito-02 (high): PINK1/Parkin通路体内活性与物种差异机制
+- Q-mito-03 (medium): ROS产生与线粒体质量控制失败，哪个是神经退行性启动事件？
+
+### Errors Encountered
+- git pull divergent branch: fixed with --rebase
+- _graph.json edge key inconsistency (43 edges use 'source'/'target'): handled in Python script
+- topic_ledger.json pre-existing JSON parse error: string manipulation workaround
+
+### Dangling References After Today
+- reactive-oxygen-species (new, from today's graph additions)
+- drp1 (new, from today's graph additions)

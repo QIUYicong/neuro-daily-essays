@@ -668,5 +668,33 @@
     "confidence": "high",
     "last_changed": "2026-09-05",
     "reason": "枢纽-辐条模型框架获多方法汇聚支持；语义记忆与情景记忆的双解离是确立的神经心理学事实；定为established"
+  },
+  {
+    "slug": "mitochondrial-dysfunction",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-09",
+    "reason": "新建：线粒体功能障碍机制（ETC缺陷/ROS/Ca²⁺-mPTP/PINK1-Parkin）在PD/AD/HD中均有多方法汇聚证据（死后脑酶活性测定、遗传模型、MPTP毒理学、iPSC衍生神经元），定为established/high"
+  },
+  {
+    "slug": "pink1-parkin-mitophagy",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-09-09",
+    "reason": "新建：PINK1/Parkin线粒体自噬通路机制（pSer65-Ub→Parkin活化→NDP52/OPTN→LC3）体外/细胞系证据强（mainstream），但体内PD相关性因物种差异（小鼠vs猕猴表型差异显著）而有争议，定为mainstream/medium"
+  },
+  {
+    "slug": "reactive-oxygen-species",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-09",
+    "reason": "图谱节点新建（填补悬空引用）：仅图谱入口，尚无对应wiki页面（dangling ref）"
+  },
+  {
+    "slug": "drp1",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-09",
+    "reason": "图谱节点新建（填补悬空引用）：仅图谱入口，尚无对应wiki页面（dangling ref）"
   }
 ]
