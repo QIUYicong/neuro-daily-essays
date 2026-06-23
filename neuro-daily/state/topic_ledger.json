@@ -8243,7 +8243,54 @@
       "system_clock_date": "2026-06-22",
       "date_note": "系统时钟显示2026-06-22 UTC+8，使用知识库连续性日期2026-09-03"
     }
-  ],
+,
+    {
+      "date": "2026-09-04",
+      "article_number": 134,
+      "slug": "2026-09-04-deep-cerebellar-nuclei-dcn-output",
+      "title": "小脑的终端执行器：深部小脑核如何把抑制变成驱动",
+      "core_question": "深部小脑核（DCN）如何将浦肯野细胞（PC）的持续 GABA 抑制转化为兴奋性输出——去抑制（disinhibition）对比反弹兴奋（rebound excitation）哪个才是 DCN 输出的主要机制？DCN 内部有哪些可塑性层次支撑运动学习？",
+      "layer": ["cellular", "microcircuit", "brain-region", "systems"],
+      "curriculum_track": "课程脊柱2（运动学习与技能习得）+ 脊柱3（大脑如何编码世界：感觉运动预测） + 脊柱12（人脑与AI比较：前向模型与Kalman滤波）",
+      "topic_tags": ["DCN", "deep-cerebellar-nuclei", "disinhibition", "rebound-excitation", "eyeblink-conditioning", "PNN", "cerebellar-plasticity", "forward-model", "Guillain-Mollaret-triangle", "dystonia", "motor-learning"],
+      "main_sources": [
+        "PMID:25279763 (Ishikawa 2014, PLoS ONE — DCN disinhibition in primates)",
+        "PMID:29858484 (Bhatt 2018, J Neurosci — PNN in DCN, EBC data)",
+        "PMID:38534469 (Bhatt 2024, Biology — DCN plasticity review)",
+        "PMID:40344058 (Wu 2025, Sci Advances — DCN cell types, dystonia)",
+        "PMID:34789878 (Low 2021, Nature — aDCN→VTA satiation circuit)",
+        "PMID:34262527 (Miyata 2021, Front Neurol — forward model, G-M triangle)",
+        "PMID:19675244 (Bagnall 2009, J Neurosci — glycinergic DCN neurons)",
+        "PMID:32661395 (Carta 2020, Nat Neurosci — DCN→PFC cognitive circuit)",
+        "PMID:34194302 (Patriarchi 2021, Front Neural Circuits — rebound, monoamine, PNN)"
+      ],
+      "wiki_pages_created": [
+        "wiki/systems/deep-cerebellar-nuclei.md (rev1, new)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/cerebellum.md (rev3→rev4)",
+        "wiki/concepts/forward-model.md (rev1→rev2)",
+        "wiki/concepts/perineuronal-nets.md (rev2→rev3)",
+        "wiki/neurons/purkinje-cell.md (rev1→rev2)"
+      ],
+      "contested_claims_registered": [],
+      "unresolved_questions_added": [
+        "Q-dcn-01（高优先级）：去抑制 vs 反弹兴奋在不同DCN核团/任务/物种中的精确相对贡献",
+        "Q-dcn-02（高优先级）：PNN降解能否安全用于脑卒中后DCN层面的运动康复",
+        "Q-dcn-03（中优先级）：外侧DCN奖励CF信号如何改变齿状核突触权重",
+        "Q-dcn-04（中优先级）：aDCN饱腹感信号的双向调控与内脏感觉整合"
+      ],
+      "next_suggested_topics": [
+        "小脑认知情感综合征（CCAS）：当运动小脑迁移为认知小脑",
+        "下橄榄核（Inferior Olive）：攀爬纤维误差信号的来源与振荡机制",
+        "颗粒细胞（Granule Cell）：700亿个神经元的稀疏编码策略",
+        "运动皮层（Motor Cortex）：从意图到肌肉激活的神经群体动力学",
+        "基底节-小脑协作：运动序列习得与时间控制的双轨系统"
+      ],
+      "knowledge_base_date": "2026-09-04",
+      "system_clock_date": "2026-06-23",
+      "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-04"
+    }  ],
   "layer_coverage_recent": {
     "molecular": [
       "2026-05-24",

@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-04
-updated: 2026-06-03
-revision_count: 2
+updated: 2026-09-04
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, cognition, disease]
 related: [pv-interneurons, ei-balance, synaptic-pruning, adult-neurogenesis, bdnf, homeostatic-plasticity, critical-period, microglia]
 prerequisites: [pv-interneurons, synaptic-transmission]
 opens_questions: [Q-ei-balance-02, Q-pnn-human-therapy, Q-cp-04]
-source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942", "PMID:12424383", "PMID:22764251", "PMID:33293360", "PMID:34045309"]
+source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-09-04-deep-cerebellar-nuclei-dcn-output]
+key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942", "PMID:12424383", "PMID:22764251", "PMID:33293360", "PMID:34045309", "PMID:29858484"]
 ---
 
 # 围神经元网 (Perineuronal Nets, PNNs)
@@ -83,6 +83,7 @@ key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942"
 - [[synaptic-pruning]] — 发育期突触剪枝与 PNN 沉积在时间上协同，共同建立成年回路
 - [[bdnf]] — BDNF 可促进 PV 细胞分化和 PNN 形成；aggrecan-PTPσ 轴抑制 TRKB（BDNF 受体）进入 PV+ 细胞
 - [[critical-period]] — PNN 是关键期关闭的主刹车；ChABC 降解 PNN 可重开关键期
+- [[deep-cerebellar-nuclei]] — DCN 大型谷氨酸能投射神经元被脑中最高密度的 PNN 包裹；PNN 调控 PC→DCN 传递效率，门控运动学习速率
 
 ## 未解问题
 
@@ -94,8 +95,10 @@ key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942"
 
 - 2026-07-04 · 创建 · 基于《信号与噪声之间：皮层 E/I 平衡的回路逻辑》一文 · 初始置信度：高（动物证据强；人类转化有限）
 - 2026-06-03 · 修订 rev2 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增机制3（PTPσ-TRKB 轴统一 ChABC/氟西汀机制，Lesnikova 2021）；新增成年 PNN 动态调节证据（Devienne 2021）；补充 critical-period 链接
+- 2026-09-04 · 修订 rev3 · DCN 新发现：（1）DCN 大型谷氨酸能神经元拥有脑中最高密度的 PNN；（2）ChABC 移除 DCN PNN → PC→DCN mIPSC 频率 31.7→48.5 Hz（+53%）、诱发 IPSC 500→956 pA（+91%）、反弹放电 138%→168%；（3）EBC 学习率提升：CR率 51.1%→72.6%（Bhatt 2018, PMID:29858484）；说明 PNN 不只在皮层关键期发挥作用，在小脑成年可塑性中也是主动调速器。补充 [[deep-cerebellar-nuclei]] 链接 · 基于 2026-09-04-deep-cerebellar-nuclei-dcn-output
 
 ## 来源文章
 
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-06-03-critical-period-plasticity]]
+- [[2026-09-04-deep-cerebellar-nuclei-dcn-output]]

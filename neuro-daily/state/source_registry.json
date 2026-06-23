@@ -12972,4 +12972,131 @@
     "PMID:37183143",
     "PMID:1504027"
   ]
+,
+  "PMID:25279763": {
+    "pmid": "25279763",
+    "pmcid": "PMC4184834",
+    "title": "Releasing dentate nucleus cells from Purkinje cell inhibition generates output from the cerebrocerebellum",
+    "authors_short": "Ishikawa T, Tomatsu S, Tsunoda Y et al.",
+    "journal": "PLoS ONE",
+    "year": 2014,
+    "first_used": "2026-09-04",
+    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "aspects_covered": [
+      "灵长类证据确认去抑制为DCN输出主要机制（PC停顿→DCN即刻激活，无反弹延迟）",
+      "齿状核放电与PC抑制同步而非延迟",
+      "否定反弹兴奋为DCN主要输出机制的假说"
+    ]
+  },
+  "PMID:38534469": {
+    "pmid": "38534469",
+    "pmcid": "PMC10968667",
+    "title": "The Role of Cerebellar Intrinsic Neuronal Excitability, Synaptic Plasticity, and Perineuronal Nets in Eyeblink Conditioning",
+    "authors_short": "Bhatt DL et al.",
+    "journal": "Biology",
+    "year": 2024,
+    "first_used": "2026-09-04",
+    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "aspects_covered": [
+      "DCN三层可塑性综述：突触LTP、内在兴奋性变化、PNN门控",
+      "MF→DCN LTP需要先有PC去极化解锁窗口",
+      "DCN自发放电>100Hz，学习后AHP减小、IA型K+电流减小"
+    ]
+  },
+  "PMID:40344058": {
+    "pmid": "40344058",
+    "pmcid": "PMC12063653",
+    "title": "Aberrant outputs of glutamatergic neurons in deep cerebellar nuclei mediate dystonic movements",
+    "authors_short": "Wu XM, Lu B et al.",
+    "journal": "Science Advances",
+    "year": 2025,
+    "first_used": "2026-09-04",
+    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "aspects_covered": [
+      "DCN三类细胞：谷氨酸能（→丘脑/红核/脑干/脊髓）、GABA能（→下橄榄核）、甘氨酸能（→前庭/网状）",
+      "肌张力障碍机制：PC去抑制→DCN谷氨酸能神经元异常激活",
+      "~98%谷氨酸能神经元消融消除肌张力障碍"
+    ]
+  },
+  "PMID:34789878": {
+    "pmid": "34789878",
+    "pmcid": "PMC8665128",
+    "title": "Reverse-translational identification of a cerebellar satiation network",
+    "authors_short": "Low AYT et al.",
+    "journal": "Nature",
+    "year": 2021,
+    "first_used": "2026-09-04",
+    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "aspects_covered": [
+      "aDCN谷氨酸能神经元→VTA多巴胺→腹侧纹状体饱腹感回路",
+      "小脑深部是Prader-Willi综合征与对照组唯一显著差异脑区（fMRI）",
+      "DCN非运动功能：能量代谢调控"
+    ]
+  },
+  "PMID:19675244": {
+    "pmid": "19675244",
+    "pmcid": "PMC3196611",
+    "title": "Glycinergic projection neurons of the cerebellum",
+    "authors_short": "Bagnall MW et al.",
+    "journal": "Journal of Neuroscience",
+    "year": 2009,
+    "first_used": "2026-09-04",
+    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "aspects_covered": [
+      "DCN第三类投射神经元：甘氨酸能，主要位于顶核",
+      "投射至同侧前庭神经核和延髓网状结构",
+      "打破DCN投射神经元全为谷氨酸能的假设"
+    ]
+  },
+  "PMID:32661395": {
+    "pmid": "32661395",
+    "pmcid": "PMC7483861",
+    "title": "Regulation of autism-relevant behaviors by cerebellar-prefrontal cortical circuits",
+    "authors_short": "Carta I et al.",
+    "journal": "Nature Neuroscience",
+    "year": 2020,
+    "first_used": "2026-09-04",
+    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "aspects_covered": [
+      "小脑Crus I/II→外侧DCN/齿状核→VM丘脑→内侧PFC认知回路",
+      "激活小脑Crus I/II PC改善自闭症模型社交偏好缺陷和重复行为",
+      "DCN非运动功能：认知/社会行为调控"
+    ]
+  },
+  "PMID:34194302": {
+    "pmid": "34194302",
+    "pmcid": "PMC8236809",
+    "title": "Modulatory Effects of Monoamines and Perineuronal Nets on Output of Cerebellar Purkinje Cells",
+    "authors_short": "Patriarchi T et al.",
+    "journal": "Frontiers in Neural Circuits",
+    "year": 2021,
+    "first_used": "2026-09-04",
+    "used_in_articles": ["2026-09-04-deep-cerebellar-nuclei-dcn-output"],
+    "aspects_covered": [
+      "反弹兴奋幅度取决于超极化的持续时间和强度",
+      "5-HT和NE通过突触前受体减少PC→DCN GABA释放",
+      "PNN通过K+通道锚定和Ca2+缓冲影响PC→DCN传递"
+    ]
+  },
+  "sources_2026-09-03": [
+    "PMID:40523942",
+    "PMID:39049990",
+    "PMID:31572132",
+    "PMID:21482355",
+    "PMID:40848722",
+    "PMID:37141091",
+    "PMID:31802451",
+    "PMID:32382129"
+  ],
+  "sources_2026-09-04": [
+    "PMID:25279763",
+    "PMID:29858484",
+    "PMID:38534469",
+    "PMID:40344058",
+    "PMID:34789878",
+    "PMID:34262527",
+    "PMID:19675244",
+    "PMID:32661395",
+    "PMID:34194302"
+  ]
 }

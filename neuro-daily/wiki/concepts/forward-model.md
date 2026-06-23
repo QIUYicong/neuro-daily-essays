@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-23
-updated: 2026-06-23
-revision_count: 1
+updated: 2026-09-04
+revision_count: 2
 dimensions: [brain-region, cognition, behavior]
 related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy]
 prerequisites: [cerebellum, motor-cortex]
 opens_questions: [Q-cb-01, Q-fm-01]
-source_articles: [2026-06-23-cerebellum-motor-prediction]
-key_sources: ["PMID:21227230", "PMID:33203932"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-04-deep-cerebellar-nuclei-dcn-output]
+key_sources: ["PMID:21227230", "PMID:33203932", "PMID:34262527"]
 ---
 
 # 前向模型 (Forward Model)
@@ -43,10 +43,19 @@ key_sources: ["PMID:21227230", "PMID:33203932"]
 ### MOSAIC 模型（Wolpert & Kawato 扩展版）
 多模块前向/逆向模型对（Multiple paired forward-inverse models），每对负责不同的运动情境（如持物 vs 空手）。责任信号（responsibility signal）动态选择哪组模型被激活，类似混合专家（mixture of experts）架构。
 
-### 前向模型的神经底物（尚不确定）
+### 前向模型的神经底物
+
+**小脑皮层层面**（尚不确定）：
 - 小脑颗粒细胞的时序放电模式可能提供时间基础
-- 小脑浦肯野细胞的简单放电（simple spike）编码预测输出
-- 复杂放电（CF）→ 预测误差信号
+- 浦肯野细胞的简单放电（simple spike）编码预测输出
+- 攀爬纤维（CF）→ 预测误差信号（实际vs预测的对比）
+
+**深部小脑核层面**（Miyata 2021, PMID:34262527 / PMC8273235）：
+- DCN 谷氨酸能神经元是前向模型输出的最终执行者
+- 系统辨识研究表明 **DCN 输出能预测 200ms 后的运动状态**——正好补偿感觉反馈延迟并留有余量
+- 长环路闭合：DCN → VL 丘脑 → 运动皮层 → 脑桥核 → 苔藓纤维 → 小脑（传出拷贝路径）
+
+**Kalman 滤波等价**：从计算角度，DCN 的预测-更新循环在数学上等价于 Kalman 滤波器——整合先验预测（PC 时序）和当前传入信息（苔藓纤维），输出最优状态估计
 
 ## 关键证据
 
@@ -56,6 +65,8 @@ key_sources: ["PMID:21227230", "PMID:33203932"]
 | 传出拷贝在运动前到达小脑 | 解剖学：皮质-脊髓投射侧支 → 小脑 | 解剖学证据 | 高 |
 | 前向模型更新依赖小脑可塑性 | 小脑损伤患者 VOR 适应受损 | 临床证据 | 高 |
 | 小脑实现多模块前向模型 | 间接行为学证据；fMRI 研究 | 多项研究 | 中 |
+| DCN 输出预测 200ms 后运动状态 | 系统辨识研究（Kakei et al.，间接）| PMID:34262527 | 中（间接）|
+| 前向预测中断 → 意向性震颤 | 小脑损伤患者的不规则震颤与预测失败一致 | 临床病理对应 | 高 |
 
 ## 连接
 
@@ -64,6 +75,7 @@ key_sources: ["PMID:21227230", "PMID:33203932"]
 - [[motor-cortex]] — 发出运动指令和传出拷贝
 - [[world-model]] — 前向模型是更广义世界模型的一个专用子系统（运动领域）
 - [[cerebellar-ltd]] — 误差信号驱动前向模型更新的分子机制
+- [[deep-cerebellar-nuclei]] — 前向模型输出的最终执行节点（DCN → VL 丘脑）
 
 ## 未解问题
 
@@ -73,7 +85,9 @@ key_sources: ["PMID:21227230", "PMID:33203932"]
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：中（间接证据为主，计算框架合理但神经底物细节待确认）
+- 2026-09-04 · 补充 DCN 作为前向模型输出执行节点的证据：DCN 预测 200ms 后运动状态（Miyata 2021, PMID:34262527）；Kalman 滤波等价框架；长环路闭合机制 · 基于 2026-09-04-deep-cerebellar-nuclei-dcn-output
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
+- [[2026-09-04-deep-cerebellar-nuclei-dcn-output]]

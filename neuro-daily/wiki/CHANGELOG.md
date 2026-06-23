@@ -2916,3 +2916,25 @@
 
 **图谱**：258节点/1507边 → **259节点/1517边**（+1节点，+10边）
 
+
+---
+
+## 2026-09-04（第 134 篇）
+
+**今日主题**：深部小脑核（DCN）——小脑计算的最终输出站，如何将 PC 沉默翻译成精准指令
+
+**新创建页面（1）**：
+- `wiki/systems/deep-cerebellar-nuclei.md`：DCN 的完整框架——三核团（顶核/间位核/齿状核）、三类细胞（谷氨酸能/GABA能/甘氨酸能）、去抑制 vs 反弹放电机制、三层可塑性（突触LTP+内在兴奋性+PNN门控）、长/短环路、非运动功能（饱腹感/认知/社会行为）
+
+**修订页面（4）**：
+- `wiki/systems/cerebellum.md`（rev3→rev4）：补充DCN三核团解剖分工、三类细胞类型细节、去抑制为主要输出机制（Ishikawa 2014）、PNN三层可塑性框架、非运动路径；新增 [[deep-cerebellar-nuclei]] 链接
+- `wiki/concepts/forward-model.md`（rev1→rev2）：新增DCN作为前向模型输出节点的神经证据（DCN预测200ms后运动状态、Kalman滤波等价框架、长环路闭合机制）；新增 [[deep-cerebellar-nuclei]] 链接
+- `wiki/concepts/perineuronal-nets.md`（rev2→rev3）：新增DCN-特异PNN功能——DCN大型谷氨酸能神经元拥有脑中最高密度PNN；ChABC实验定量结果（EBC CR率51.1%→72.6%）；PNN作为成年可塑性调速器的新认识
+- `wiki/neurons/purkinje-cell.md`（rev1→rev2）：Q-pc-02部分回答：Ishikawa 2014确认去抑制为PC→DCN读出主机制；添加 [[deep-cerebellar-nuclei]] 链接
+
+**矛盾登记（0）**：无新矛盾（去抑制 vs 反弹放电争议已有充分文献正反两面，登记为 Q-dcn-01 未解问题而非矛盾条目，因两机制并非对立而是不同情境主导）
+
+**新增未解问题（4）**：Q-dcn-01（去抑制 vs 反弹精确比例）、Q-dcn-02（PNN降解用于成年康复）、Q-dcn-03（外侧DCN奖励CF信号如何改变突触权重）、Q-dcn-04（aDCN饱腹信号双向调控）；Q-pc-02部分进展更新
+
+**图谱**：267节点/1562边 → **268节点/1571边**（+1节点，+9边）
+

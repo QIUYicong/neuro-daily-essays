@@ -1,0 +1,195 @@
+{
+  "date": "2026-09-04",
+  "article": "2026-09-04-deep-cerebellar-nuclei-dcn-output",
+  "article_number": 134,
+  "topic": "深部小脑核（DCN）：小脑计算的最终输出站",
+  "total_sources": 9,
+  "open_full_text": 9,
+  "abstract_only": 0,
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "25279763",
+      "pmcid": "PMC4184834",
+      "doi": "10.1371/journal.pone.0099635",
+      "title": "Releasing dentate nucleus cells from Purkinje cell inhibition generates output from the cerebrocerebellum",
+      "authors": "Ishikawa T, Tomatsu S, Tsunoda Y, Lee J, Hoffman DS, Kakei S",
+      "journal": "PLoS ONE",
+      "year": 2014,
+      "type": "research_article",
+      "access": "open_full_text",
+      "relevance": "primary — establishes disinhibition as primary DCN output mechanism in primates",
+      "key_data": "DN burst activity co-occurs with PC suppression, not after rebound delay; conclusion: PC suppression is primary mechanism for DCN output generation",
+      "covers": ["DCN_output_mechanism", "disinhibition_vs_rebound", "dentate_nucleus_physiology"]
+    },
+    {
+      "id": "S2",
+      "pmid": "29858484",
+      "pmcid": "PMC6596157",
+      "title": "Perineuronal Nets in the Deep Cerebellar Nuclei Regulate GABAergic Transmission and Delay Eyeblink Conditioning",
+      "authors": "Bhatt D et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2018,
+      "type": "research_article",
+      "access": "open_full_text",
+      "relevance": "primary — PNN function in DCN, quantitative plasticity data",
+      "key_data": {
+        "mIPSC_frequency_control": "31.7 ± 1.8 Hz",
+        "mIPSC_frequency_ChABC": "48.5 ± 2.7 Hz",
+        "evoked_IPSC_control": "500 ± 112 pA",
+        "evoked_IPSC_ChABC": "956 ± 107 pA",
+        "rebound_control": "138%",
+        "rebound_ChABC": "168%",
+        "EBC_CR_control": "51.1 ± 3.9%",
+        "EBC_CR_ChABC": "72.6 ± 3.6%"
+      },
+      "covers": ["PNN_DCN", "eyeblink_conditioning", "DCN_plasticity", "GABAergic_transmission"]
+    },
+    {
+      "id": "S3",
+      "pmid": "38534469",
+      "pmcid": "PMC10968667",
+      "title": "The Role of Cerebellar Intrinsic Neuronal Excitability, Synaptic Plasticity, and Perineuronal Nets in Eyeblink Conditioning",
+      "authors": "Bhatt DL et al.",
+      "journal": "Biology",
+      "year": 2024,
+      "type": "review",
+      "access": "open_full_text",
+      "relevance": "primary — comprehensive review of DCN plasticity mechanisms",
+      "key_data": {
+        "DCN_spontaneous_rate": ">100 Hz",
+        "learning_change": "reduced AHP amplitude, reduced IA-like K+ current",
+        "LTP_requirement": "MF→DCN LTP requires prior hyperpolarization (PC inhibition-gated)"
+      },
+      "covers": ["DCN_intrinsic_excitability", "DCN_plasticity", "eyeblink_conditioning", "PNN_DCN"]
+    },
+    {
+      "id": "S4",
+      "pmid": "40344058",
+      "pmcid": "PMC12063653",
+      "doi": "10.1126/sciadv.adr1527",
+      "title": "Aberrant outputs of glutamatergic neurons in deep cerebellar nuclei mediate dystonic movements",
+      "authors": "Wu XM, Lu B et al.",
+      "journal": "Science Advances",
+      "year": 2025,
+      "type": "research_article",
+      "access": "open_full_text",
+      "relevance": "primary — DCN cell type classification, disease mechanism",
+      "key_data": {
+        "DCN_cell_types": ["glutamatergic (→thalamus, red nucleus, brainstem, spinal cord)", "GABAergic (→inferior olive)", "glycinergic (→vestibular/reticular, mainly fastigial)"],
+        "dystonia_mechanism": "aberrant glutamatergic DCN neuron activation via PC disinhibition after SD",
+        "ablation_effect": "~98% glutamatergic neuron ablation eliminated dystonia"
+      },
+      "covers": ["DCN_cell_types", "dystonia", "DCN_glutamatergic", "disease_mechanism"]
+    },
+    {
+      "id": "S5",
+      "pmid": "34789878",
+      "pmcid": "PMC8665128",
+      "doi": "10.1038/s41586-021-04143-5",
+      "title": "Reverse-translational identification of a cerebellar satiation network",
+      "authors": "Low AYT et al.",
+      "journal": "Nature",
+      "year": 2021,
+      "type": "research_article",
+      "access": "open_full_text",
+      "relevance": "primary — non-motor function of DCN (satiation circuit)",
+      "key_data": {
+        "circuit": "aDCN glutamatergic neurons → VTA dopamine neurons → ventral striatum",
+        "function": "promotes satiation by sustaining dopamine baseline, attenuating phasic food-reward dopamine",
+        "human_finding": "deep cerebellum is the only brain region with significant difference in Prader-Willi vs control fMRI"
+      },
+      "covers": ["DCN_non_motor", "satiation_circuit", "aDCN_VTA", "dopamine"]
+    },
+    {
+      "id": "S6",
+      "pmid": "34262527",
+      "pmcid": "PMC8273235",
+      "title": "Pathophysiology of Cerebellar Tremor: The Forward Model-Related Tremor and the Inferior Olive Oscillation-Related Tremor",
+      "authors": "Miyata M",
+      "journal": "Frontiers in Neurology",
+      "year": 2021,
+      "type": "review",
+      "access": "open_full_text",
+      "relevance": "primary — DCN in forward model and Guillain-Mollaret triangle",
+      "key_data": {
+        "long_loop": "DCN → thalamus (VL) → motor cortex → pontine nuclei → mossy fibers → cerebellum",
+        "short_loop": "DCN GABAergic → inferior olive (Guillain-Mollaret triangle)",
+        "predictive_capacity": "DCN output predicts motor state 200ms ahead (Kalman filter equivalent)",
+        "tremor_types": {
+          "intention_tremor": "long loop disrupted, irregular",
+          "rhythmic_tremor": "short loop disrupted, IO oscillations, regular"
+        }
+      },
+      "covers": ["forward_model", "Guillain_Mollaret_triangle", "DCN_output_pathways", "cerebellar_tremor"]
+    },
+    {
+      "id": "S7",
+      "pmid": "19675244",
+      "pmcid": "PMC3196611",
+      "title": "Glycinergic projection neurons of the cerebellum",
+      "authors": "Bagnall MW et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2009,
+      "type": "research_article",
+      "access": "open_full_text",
+      "relevance": "supporting — DCN glycinergic cell type discovery",
+      "key_data": {
+        "glycinergic_location": "primarily fastigial nucleus",
+        "projection": "ipsilateral vestibular nuclei and medullary reticular formation",
+        "glutamatergic_projection": "contralateral (complement to glycinergic)",
+        "significance": "breaks assumption that all DCN projection neurons are glutamatergic"
+      },
+      "covers": ["DCN_cell_types", "glycinergic_neurons", "fastigial_nucleus", "vestibular"]
+    },
+    {
+      "id": "S8",
+      "pmid": "32661395",
+      "pmcid": "PMC7483861",
+      "doi": "10.1038/s41593-020-0607-9",
+      "title": "Regulation of autism-relevant behaviors by cerebellar-prefrontal cortical circuits",
+      "authors": "Carta I et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2020,
+      "type": "research_article",
+      "access": "open_full_text",
+      "relevance": "primary — DCN cognitive/social function via PFC circuit",
+      "key_data": {
+        "circuit": "cerebellar crus I/II → lateral DCN → VM thalamus → medial PFC",
+        "autism_model": "Tsc1/Pten knockout mice",
+        "finding": "activating crus I/II PCs improved social preference deficits and repetitive behaviors",
+        "implication": "dentate/lateral DCN → prefrontal connection is a cognitive cerebellar pathway"
+      },
+      "covers": ["DCN_non_motor", "cerebellar_prefrontal", "autism", "social_behavior", "dentate_nucleus"]
+    },
+    {
+      "id": "S9",
+      "pmid": "34194302",
+      "pmcid": "PMC8236809",
+      "title": "Modulatory Effects of Monoamines and Perineuronal Nets on Output of Cerebellar Purkinje Cells",
+      "authors": "Patriarchi T et al.",
+      "journal": "Frontiers in Neural Circuits",
+      "year": 2021,
+      "type": "review",
+      "access": "open_full_text",
+      "relevance": "supporting — monoamine modulation of PC→DCN transmission; rebound firing properties",
+      "key_data": {
+        "rebound_property": "amplitude depends on duration and strength of hyperpolarization",
+        "monoamine_effect": "5-HT and NE reduce PC→DCN GABA release via presynaptic receptors",
+        "PNN_mechanism": "K+ channel anchoring and Ca2+ buffering"
+      },
+      "covers": ["rebound_excitation", "monoamine_modulation", "PNN_DCN", "GABAergic_transmission"]
+    }
+  ],
+  "search_queries": [
+    "deep cerebellar nuclei computation Purkinje inhibition",
+    "deep cerebellar nuclei rebound excitation motor learning",
+    "dentate nucleus interpositus fastigial cerebellar output review",
+    "cerebellar nuclei physiology motor learning plasticity 2020:2025",
+    "cerebellar nuclei eyeblink conditioning plasticity LTP LTD",
+    "deep cerebellar nuclei cell types glutamatergic GABAergic glycinergic",
+    "cerebrocerebellar loop thalamus motor cortex dentate nucleus review"
+  ],
+  "databases_searched": ["PubMed/NCBI E-utilities", "PubMed Central (PMC)"],
+  "note": "All 9 sources retrieved as open full text from PMC. No paywalled content accessed."
+}

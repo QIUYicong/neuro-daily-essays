@@ -1325,3 +1325,16 @@
 ### 2026-08-31（#130）：神经流形——群体编码的几何框架
 神经元群体活动被限制在低维弯曲流形上，由突触连接约束决定；流形的维度、曲率和容量共同决定神经系统能表征和学习什么。旋转动力学（M1）、混合选择性（PFC）、物体解缠（视觉层级）都是同一几何框架的不同表现。Fortunato 2024 发现流形本质上是非线性的，挑战了线性降维方法的充分性。
 
+
+## 2026-09-04 日条目更新（文章 #134·深部小脑核×去抑制vs反弹兴奋×三层可塑性×PNN门控×非运动DCN功能）
+
+**核心贡献**：本篇深入深部小脑核（DCN）——小脑计算的终端执行器。**中心争论的解决**：去抑制（PC 停顿→DCN 即刻激活）vs 反弹兴奋（高阈值内向电流延迟激活）——Ishikawa 2014 灵长类证据（PLoS ONE）确认去抑制为主要机制：DN 放电爆发与 PC 抑制同步，无反弹延迟；反弹兴奋为补充机制，仅在超极化足够深/久时触发。**DCN 三类细胞**（Wu 2025, Sci Advances）：谷氨酸能（~75-80%，→丘脑/红核/脊髓）、GABA 能（→下橄榄核，Guillain-Mollaret 三角形）、甘氨酸能（主要在顶核，→同侧前庭/网状）。**三层可塑性**（Bhatt 2024综述）：(1) 突触 LTP（MF→DCN，需要 PC 超极化先解锁）；(2) 内在兴奋性（学习后 AHP 减小、IA 型 K⁺电流减小）；(3) PNN 门控（脑中最高密度 PNN，调控学习速率上限）。**PNN 定量数据**（Bhatt 2018, J Neurosci）：ChABC 移除 PNN → mIPSC 频率 31.7→48.5 Hz（+53%）、诱发 IPSC 500→956 pA（+91%）、EBC CR 率 51.1%→72.6%（+42%）。**两个 DCN 环路**（Miyata 2021综述）：长环路（DCN→VL丘脑→运动皮层→脑桥核→MF→小脑，预测 200ms 后运动状态，Kalman 滤波等价）；短环路（DCN GABA 能→下橄榄核，G-M 三角形，调控 CF 误差信号精度）。**非运动功能**：aDCN→VTA 多巴胺→腹侧纹状体饱腹感回路（Low 2021, Nature）；齿状核→VM 丘脑→内侧 PFC 认知/社会行为回路（Carta 2020, Nat Neurosci）。
+
+**层级**：细胞/微回路/脑区/系统（与前篇 PC/细胞层提升到脑区/系统层）
+**新建 wiki 页**（1 个）：systems/deep-cerebellar-nuclei（established/high，rev1）
+**修订 wiki 页**（4 个）：systems/cerebellum（rev3→rev4）、concepts/forward-model（rev1→rev2，新增 DCN 200ms 预测容量+Kalman 框架+长环路解剖）、concepts/perineuronal-nets（rev2→rev3，新增 DCN PNN 定量数据+ChABC效果）、neurons/purkinje-cell（rev1→rev2，Q-pc-02 部分答案：Ishikawa 2014 灵长类确认去抑制为主要机制）
+**图谱**：267→268 节点，1562→1571 边
+**新增未解问题（4）**：Q-dcn-01（去抑制 vs 反弹兴奋精确相对贡献）、Q-dcn-02（DCN PNN 降解用于脑卒中康复可行性）、Q-dcn-03（外侧 DCN 奖励 CF 信号与齿状核权重更新）、Q-dcn-04（aDCN 饱腹感双向调控与内脏感觉整合）
+**闭合未解问题**：Q-pc-02 部分回答（PC 停顿在 DCN 层面通过去抑制读出，无反弹延迟；Nguyen & Person 2025 的促进型 vs 抑制型 PC 亚型问题仍开放）
+
+---

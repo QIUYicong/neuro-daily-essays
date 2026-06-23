@@ -6,8 +6,8 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-09-03
-revision_count: 3
+updated: 2026-09-04
+revision_count: 4
 dimensions: [cellular, microcircuit, brain-region, cognition]
 related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation, interval-timing, purkinje-cell, climbing-fiber, granule-cell-cerebellar]
 prerequisites: [purkinje-cell, parallel-fiber, climbing-fiber, deep-cerebellar-nuclei]
@@ -113,7 +113,9 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 来源：PMID:33203932, 33288911, 21227230, 11319554, 21482355, 7954803
 - 2026-07-31 · 新增"小脑作为区间计时器"节 · 区分事件计时（event-based）与节拍计时（beat-based）；整合 Breska & Ivry 2016 和 Teki 2011 解剖学证据 · 基于 2026-07-31-interval-timing-basal-ganglia-striatum
 - 2026-09-03 · 更新当前理解，整合 Nguyen & Person 2025（前向控制为 model-free implicit mapping，非显式内部模型）；整合 Jin & Hull 2025（攀爬纤维同时携带奖励预测误差信号，外侧小脑参与广义预测学习）；新增浦肯野细胞、攀爬纤维、颗粒细胞专属页面链接 · 基于 2026-09-03-purkinje-cell-cerebellar-motor-learning
+- 2026-09-04 · 深部小脑核（DCN）内容更新：（1）三核团（顶核/间位核/齿状核）解剖分工明确化；（2）三类细胞类型（谷氨酸能/GABA能/甘氨酸能）细节补充；（3）去抑制（disinhibition）确立为DCN主要输出机制（Ishikawa 2014 灵长类证据）；（4）PNN 三层可塑性框架；（5）非运动功能（aDCN→VTA饱腹感；齿状核→前额叶认知）。新增独立 wiki 页：[[deep-cerebellar-nuclei]] · 基于 2026-09-04-deep-cerebellar-nuclei-dcn-output
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
+- [[2026-09-04-deep-cerebellar-nuclei-dcn-output]]

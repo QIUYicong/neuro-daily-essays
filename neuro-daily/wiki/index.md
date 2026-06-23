@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-03（第133篇·浦肯野细胞·攀爬纤维·小脑运动预测·颗粒细胞稀疏编码争议·奖励CF信号）· 主题页总数：**267**（新建4页：neurons/purkinje-cell、neurons/climbing-fiber、neurons/granule-cell-cerebellar、concepts/dacc-conflict-monitoring；修订2页：systems/cerebellum rev3、concepts/cerebellar-ltd rev2；图谱267节点/1562边，悬空引用归零）
+> 最后更新：2026-09-04（第134篇·深部小脑核DCN·三核团三细胞类型·去抑制为主机制·PNN三层可塑性·饱腹感/认知非运动功能）· 主题页总数：**268**（新建1页：systems/deep-cerebellar-nuclei；修订4页：systems/cerebellum rev4、concepts/forward-model rev2、concepts/perineuronal-nets rev3、neurons/purkinje-cell rev2；图谱268节点/1571边）
 
 ---
 
@@ -216,7 +216,8 @@
 
 - 🟢 [后顶叶皮层（PPC）](systems/posterior-parietal-cortex.md) — 背侧流核心枢纽；LIP（空间显著性图谱，非眼动指令）；AIP（抓握手型预编码，optic ataxia）；VIP（近身空间防御）；MIP（到达计算）；背背侧→PMd/腹背侧→PMv 双路输出**[NEW 2026-08-30]**
 - 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）；**小脑-运动皮层闭环（修订2026-06-23）**
-- 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[NEW 2026-06-23]**
+- 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订rev4 2026-09-04]**
+- 🟢 [深部小脑核（DCN）](systems/deep-cerebellar-nuclei.md) — 小脑唯一输出门控；三核团（顶核平衡/间位核时序/齿状核认知）+ 三细胞类型（谷氨酸能主力/GABA能短环路/甘氨酸能前庭）；去抑制为主要输出机制（Ishikawa 2014灵长类证据）；三层可塑性（突触LTP+内在兴奋性+PNN门控，CR率↑42%）；aDCN→VTA→纹状体饱腹感回路；齿状核→VM丘脑→前额叶认知路径**[NEW 2026-09-04]**
 - 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果，使大脑超越反馈延迟；小脑的主要计算角色；逆向模型对称结构 **[NEW 2026-06-23]**
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**
 - 🟡 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；动力学引擎而非参数地图；RNN训练后自发出现相同结构 **[NEW 2026-06-21]**

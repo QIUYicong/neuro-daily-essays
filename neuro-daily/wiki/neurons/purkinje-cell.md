@@ -6,8 +6,8 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-03
-updated: 2026-09-03
-revision_count: 1
+updated: 2026-09-04
+revision_count: 2
 dimensions: [cellular, synaptic, microcircuit, brain-region]
 related: [cerebellum, cerebellar-ltd, climbing-fiber, parallel-fiber, granule-cell, deep-cerebellar-nuclei, forward-model, motor-cortex]
 prerequisites: [inhibitory-synapse, ampa-receptor, voltage-gated-calcium-channels, mGluR1]
@@ -78,13 +78,15 @@ PC 计算模型（Fernández Santoro 2024）揭示其多稳态（multistable）�
 ## 未解问题
 
 - **Q-pc-01**（高优先级）：CF 在外侧小脑的奖励 rPE 信号与蚓部/中间区的运动误差信号如何在同一 PC 上整合？下橄榄核如何区分两类"预测违反"？
-- **Q-pc-02**（高优先级）：PC 的发放停顿（pause）与爆发（burst）在 DCN 层面如何被读出，产生方向性的运动指令？
+- **Q-pc-02**（高优先级，部分进展）：PC 的停顿（pause）在 DCN 层面通过去抑制机制被读出——Ishikawa 2014 灵长类证据确认 PC 暂停时 DCN 即刻激活（无反弹延迟）；但 Nguyen & Person 2025 的促进型 vs 抑制型 PC 亚型的 DCN 差异投射问题仍未解答——见 [[deep-cerebellar-nuclei]]
 - **Q-pc-03**（中优先级）：人类技能习得中，PF-PC 权重如何在数周到数月训练中持续演化？体内长期追踪方法？
 
 ## 修订历史
 
 - 2026-09-03 · 创建 · 基于《小脑里的误差教师》一文 · 初始置信度：高（解剖与 LTD 机制 established；奖励 CF 信号 emerging）
+- 2026-09-04 · 修订 rev2 · Q-pc-02 部分更新：Ishikawa 2014 灵长类证据确认去抑制是 PC→DCN 信号读出的主要机制（PC 暂停 → DCN 即刻激活，无反弹延迟），补充 [[deep-cerebellar-nuclei]] 链接 · 基于 2026-09-04-deep-cerebellar-nuclei-dcn-output
 
 ## 来源文章
 
 - [[2026-09-03-purkinje-cell-cerebellar-motor-learning]]
+- [[2026-09-04-deep-cerebellar-nuclei-dcn-output]]

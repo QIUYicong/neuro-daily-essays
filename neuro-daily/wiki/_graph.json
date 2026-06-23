@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "node_count": 267,
   "edge_count": 1562,
   "edge_types": [
@@ -2445,6 +2445,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/dacc-conflict-monitoring.md"
+    },
+    {
+      "id": "deep-cerebellar-nuclei",
+      "title": "深部小脑核",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/deep-cerebellar-nuclei.md"
     }
   ],
   "edges": [
@@ -11204,6 +11213,60 @@
       "to": "dopamine-reward-prediction-error",
       "type": "related",
       "note": "Jin & Hull 2025: 外侧小脑攀爬纤维携带奖励预测误差信号，与多巴胺系统并行"
+    },
+    {
+      "from": "purkinje-cell",
+      "to": "deep-cerebellar-nuclei",
+      "type": "regulates",
+      "note": "PC通过强力GABA抑制持续调控DCN谷氨酸能神经元；PC暂停→DCN去抑制激活"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "thalamus",
+      "type": "related",
+      "note": "DCN谷氨酸能神经元经上小脑脚投射至对侧VL/VPLo丘脑，进而达运动皮层"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "motor-cortex",
+      "type": "related",
+      "note": "DCN→VL丘脑→运动皮层的长环路是前向模型输出的解剖基础"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "nucleus-accumbens",
+      "type": "related",
+      "note": "aDCN→VTA多巴胺→腹侧纹状体：饱腹感调控非运动通路（Low 2021）"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "齿状核→VM丘脑→内侧前额叶：调控社会行为和认知（Carta 2020）"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "forward-model",
+      "type": "supports",
+      "note": "DCN是前向预测模型的输出执行节点；DCN输出能预测200ms后运动状态"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "cerebellum",
+      "type": "part-of",
+      "note": "DCN是小脑皮层计算的唯一输出节点"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "deep-cerebellar-nuclei",
+      "type": "regulates",
+      "note": "PNN包裹DCN大型谷氨酸能神经元，门控PC→DCN GABA传递效率和运动学习速率"
+    },
+    {
+      "from": "forward-model",
+      "to": "deep-cerebellar-nuclei",
+      "type": "mechanism-of",
+      "note": "前向模型在神经层面通过DCN的长环路计算实现"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,74 @@
+# 2026-09-04 Daily Run Log
+# Article #134: 深部小脑核（DCN）：小脑计算的终端执行器
+# Knowledge-base date: 2026-09-04 | System clock: 2026-06-23 UTC+8
+
+## Run Summary
+- Status: SUCCESS
+- Branch: main (origin: QIUYicong/neuro-daily-essays)
+- Article: 2026-09-04-deep-cerebellar-nuclei-dcn-output.md
+- Layer shift: cellular/synaptic/microcircuit (#133) → cellular/microcircuit/brain-region/systems (#134)
+
+## Search Queries Used
+1. "deep cerebellar nuclei computation Purkinje inhibition" → PubMed esearch
+2. "deep cerebellar nuclei rebound excitation motor learning" → PubMed esearch
+3. "dentate nucleus interpositus fastigial cerebellar output review" → PubMed esearch
+4. "cerebellar nuclei physiology motor learning plasticity 2020:2025" → PubMed esearch
+5. "cerebellar nuclei eyeblink conditioning plasticity LTP LTD" → PubMed esearch
+6. "deep cerebellar nuclei cell types glutamatergic GABAergic glycinergic" → PubMed esearch
+7. "cerebrocerebellar loop thalamus motor cortex dentate nucleus review" → PubMed esearch
+
+## Databases Searched
+- PubMed/NCBI E-utilities (esearch + efetch API)
+- PubMed Central (PMC) full-text retrieval
+
+## Sources Retrieved: 9 (all open full text from PMC)
+- PMID:25279763 (Ishikawa 2014, PLoS ONE) — DCN disinhibition primary mechanism, primate evidence
+- PMID:29858484 (Bhatt 2018, J Neurosci) — PNN in DCN, EBC quantitative data
+- PMID:38534469 (Bhatt 2024, Biology review) — DCN three-layer plasticity framework
+- PMID:40344058 (Wu 2025, Sci Advances) — DCN cell type classification, dystonia mechanism
+- PMID:34789878 (Low 2021, Nature) — aDCN→VTA satiation circuit
+- PMID:34262527 (Miyata 2021, Front Neurol review) — forward model loops, G-M triangle
+- PMID:19675244 (Bagnall 2009, J Neurosci) — glycinergic DCN neurons discovery
+- PMID:32661395 (Carta 2020, Nat Neurosci) — DCN→PFC cognitive/social circuit
+- PMID:34194302 (Patriarchi 2021, Front Neural Circuits review) — rebound, monoamine, PNN
+
+## Sources Rejected
+- Several PMC IDs from 2024 searches returned older papers (≥10 years old) not relevant to core DCN mechanisms → excluded
+
+## Wiki Pages Created
+- wiki/systems/deep-cerebellar-nuclei.md (rev1, new page, established/high)
+
+## Wiki Pages Revised
+- wiki/systems/cerebellum.md (rev3→rev4) — DCN content update, new independent page link
+- wiki/concepts/forward-model.md (rev1→rev2) — DCN as forward model output executor, Kalman filter equivalence, long-loop anatomy
+- wiki/concepts/perineuronal-nets.md (rev2→rev3) — DCN PNN density and ChABC quantitative data
+- wiki/neurons/purkinje-cell.md (rev1→rev2) — Q-pc-02 partial answer (disinhibition confirmed)
+
+## Knowledge Graph Updates
+- Nodes: 267 → 268 (+1: deep-cerebellar-nuclei)
+- Edges: 1562 → 1571 (+9 new typed edges)
+
+## State File Updates
+- state/unresolved_questions.md — Q-dcn-01 through Q-dcn-04 added
+- state/topic_ledger.json — article #134 entry appended
+- state/source_registry.json — 9 new sources added, sources_2026-09-04 list
+- state/monthly_synthesis.md — 2026-09-04 summary appended
+- state/maturity_index.json — deep-cerebellar-nuclei entry added (established/high)
+- wiki/CHANGELOG.md — 2026-09-04 entry appended
+- wiki/index.md — DCN page added to systems section
+
+## Errors and Fixes
+- topic_ledger.json has pre-existing JSON syntax error at line 21 (unescaped special characters in old entry) — worked around by text manipulation rather than json.loads()
+- source_registry.json sources_2026-09-03 entry was missing in prior session — added retroactively in today's update
+- During literature retrieval: PMC filter parameter rejected → removed filter, manually verified open access status
+
+## Contested Claims
+- 0 new contested claims registered today
+
+## Unresolved Questions Closed (partial)
+- Q-pc-02: partial answer provided (disinhibition confirmed as primary mechanism via Ishikawa 2014; Nguyen & Person 2025 PC subtype question remains open)
+
+## Commit Info
+- Commit message: Add neuro daily article + wiki consolidation for 2026-09-04
+- Branch: main
+- Push target: origin (QIUYicong/neuro-daily-essays)
