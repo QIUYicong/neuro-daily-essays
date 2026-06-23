@@ -6,13 +6,13 @@ type: disease
 status: established
 confidence: high
 created: 2026-09-07
-updated: 2026-09-09
-revision_count: 2
+updated: 2026-09-10
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, brain-region, disease]
-related: [medium-spiny-neuron, basal-ganglia, bdnf, parkinsons-disease, polyglutamine-toxicity, excitotoxicity, cortical-slow-oscillation, nmda-receptor, mitochondrial-dysfunction, neuroinflammation, pink1-parkin-mitophagy]
+related: [medium-spiny-neuron, basal-ganglia, bdnf, parkinsons-disease, polyglutamine-toxicity, excitotoxicity, cortical-slow-oscillation, nmda-receptor, mitochondrial-dysfunction, neuroinflammation, pink1-parkin-mitophagy, neuronal-selective-vulnerability]
 prerequisites: [medium-spiny-neuron, basal-ganglia, bdnf, nmda-receptor]
 opens_questions: [Q-hd-01, Q-hd-02, Q-hd-03, Q-hd-04]
-source_articles: [2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine, 2026-09-09-mitochondrial-dysfunction-neurodegeneration]
+source_articles: [2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine, 2026-09-09-mitochondrial-dysfunction-neurodegeneration, 2026-09-10-week20-synthesis-precision-vulnerability]
 key_sources: ["PMID:37629202", "PMC10455900", "PMID:27069383", "PMC4826775", "PMID:11408619", "PMID:34445070", "PMC8394361", "PMID:41287980", "PMID:39027419", "PMID:11298997", "PMID:38241161", "PMC10903104", "PMID:19682570"]
 ---
 
@@ -99,8 +99,10 @@ MSN的NMDA受体富含NR2B亚基（相比NR2A具有更慢的去激活动力学�
 
 - 2026-09-07 · 创建 · 基于《亨廷顿病：当遗传倒计时开启，纹状体为何率先坠落》（#137） · 初始置信度：高
 - 2026-09-09 · 修订（rev2）· 基于《线粒体功能障碍：神经元高能耗的代价》（#139）· 补充：(1) 纹状体特异性Complex II/III缺陷的死后脑证据及3-NP动物模型；(2) mHTT降低线粒体Ca²⁺缓冲容量和mPTP阈值的机制；(3) 证据表新增2行；(4) related新增pink1-parkin-mitophagy；(5) key_sources新增3个来源
+- 2026-09-10 · 修订（rev3）· 基于第20周综合《精准与脆弱的同构》（#140）· 补充：HD作为"功能特化→营养外包→依赖链条断裂"选择性脆弱性机制的典范案例；related新增neuronal-selective-vulnerability
 
 ## 来源文章
 
 - [[2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]]
 - [[2026-09-09-mitochondrial-dysfunction-neurodegeneration]]
+- [[2026-09-10-week20-synthesis-precision-vulnerability]]

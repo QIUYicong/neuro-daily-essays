@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-04
-updated: 2026-09-04
-revision_count: 1
+updated: 2026-09-10
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition, systems]
-related: [cerebellum, purkinje-cell, thalamus, motor-cortex, forward-model, perineuronal-nets, inferior-olive, nucleus-accumbens, prefrontal-cortex, cerebellar-ltd, climbing-fiber, granule-cell-cerebellar]
+related: [cerebellum, purkinje-cell, thalamus, motor-cortex, forward-model, perineuronal-nets, inferior-olive, nucleus-accumbens, prefrontal-cortex, cerebellar-ltd, climbing-fiber, granule-cell-cerebellar, neuronal-selective-vulnerability, mitochondrial-dysfunction]
 prerequisites: [purkinje-cell, cerebellum, GABA, thalamus]
 opens_questions: [Q-dcn-01, Q-dcn-02, Q-dcn-03, Q-dcn-04, Q-pc-02]
-source_articles: [2026-09-04-deep-cerebellar-nuclei-dcn-output]
+source_articles: [2026-09-04-deep-cerebellar-nuclei-dcn-output, 2026-09-10-week20-synthesis-precision-vulnerability]
 key_sources: ["PMID:25279763", "PMID:29858484", "PMID:38534469", "PMID:40344058", "PMID:34789878", "PMID:34262527", "PMID:19675244", "PMID:32661395"]
 ---
 
@@ -122,7 +122,9 @@ PC 精确暂停 → GABA 释放减少 → DCN 谷氨酸能神经元脱笼激活
 ## 修订历史
 
 - 2026-09-04 · 创建 · 基于《深部小脑核的计算秘密》文章 #134 · 初始置信度：高（解剖/基本回路）、中（非运动功能）
+- 2026-09-10 · 修订（rev2）· 基于第20周综合《精准与脆弱的同构》（#140）· 注记：DCN的60-100Hz自发放电作为"高频精准→高能代谢→线粒体脆弱性"链条的典型案例；related新增neuronal-selective-vulnerability、mitochondrial-dysfunction
 
 ## 来源文章
 
 - [[2026-09-04-deep-cerebellar-nuclei-dcn-output]]
+- [[2026-09-10-week20-synthesis-precision-vulnerability]]

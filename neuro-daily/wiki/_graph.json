@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "node_count": 272,
   "edge_count": 1595,
   "edge_types": [
@@ -2535,6 +2535,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/drp1.md"
+    },
+    {
+      "id": "neuronal-selective-vulnerability",
+      "title": "神经元选择性脆弱性",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/neuronal-selective-vulnerability.md"
     }
   ],
   "edges": [
@@ -11598,6 +11607,56 @@
       "to": "parkinsons-disease",
       "type": "mechanism-of",
       "note": "PINK1/Parkin通路失效导致损伤线粒体积累和DA神经元死亡"
+    },
+    {
+      "from": "neuronal-selective-vulnerability",
+      "to": "excitotoxicity",
+      "type": "related"
+    },
+    {
+      "from": "neuronal-selective-vulnerability",
+      "to": "mitochondrial-dysfunction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuronal-selective-vulnerability",
+      "to": "huntingtons-disease",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuronal-selective-vulnerability",
+      "to": "parkinsons-disease",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuronal-selective-vulnerability",
+      "to": "alzheimers-disease",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "neuronal-selective-vulnerability",
+      "to": "medium-spiny-neuron",
+      "type": "related"
+    },
+    {
+      "from": "neuronal-selective-vulnerability",
+      "to": "bdnf",
+      "type": "related"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "neuronal-selective-vulnerability",
+      "type": "related"
+    },
+    {
+      "from": "anterior-temporal-lobe",
+      "to": "neuronal-selective-vulnerability",
+      "type": "related"
+    },
+    {
+      "from": "temporal-context-model",
+      "to": "alzheimers-disease",
+      "type": "related"
     }
   ],
   "dangling_references": [

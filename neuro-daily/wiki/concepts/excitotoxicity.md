@@ -6,13 +6,13 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-09-08
-updated: 2026-09-09
-revision_count: 2
+updated: 2026-09-10
+revision_count: 3
 dimensions: [molecular, synaptic, cellular, disease]
-related: [nmda-receptor, glutamate-glutamine-cycle, ltp, calcium-channel, bdnf, huntingtons-disease, alzheimers-disease, parkinsons-disease, mitochondrial-dysfunction, astrocyte-calcium-signaling, tripartite-synapse, medium-spiny-neuron, pink1-parkin-mitophagy]
+related: [nmda-receptor, glutamate-glutamine-cycle, ltp, calcium-channel, bdnf, huntingtons-disease, alzheimers-disease, parkinsons-disease, mitochondrial-dysfunction, astrocyte-calcium-signaling, tripartite-synapse, medium-spiny-neuron, pink1-parkin-mitophagy, neuronal-selective-vulnerability]
 prerequisites: [nmda-receptor, synaptic-transmission, glutamate-glutamine-cycle]
 opens_questions: [Q-exc-01, Q-exc-02, Q-exc-03]
-source_articles: [2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death, 2026-09-09-mitochondrial-dysfunction-neurodegeneration]
+source_articles: [2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death, 2026-09-09-mitochondrial-dysfunction-neurodegeneration, 2026-09-10-week20-synthesis-precision-vulnerability]
 key_sources: ["PMID:20842175", "PMC2948541", "PMID:2880938", "PMID:35078537", "PMC8788129", "PMID:38891774", "PMID:37236602", "PMID:18923045", "PMID:38744846", "PMC11094169"]
 ---
 
@@ -120,8 +120,10 @@ GLT-1/EAAT2（星形胶质细胞）利用Na⁺梯度驱动谷氨酸摄入，将�
 
 - 2026-09-08 · 创建 · 基于《兴奋毒性：谷氨酸的双刃剑》(#138) · 初始置信度：高 · status: mainstream（多次独立验证的核心机制，但慢性病中EMT角色仍有争议）
 - 2026-09-09 · 修订（rev2）· 基于《线粒体功能障碍：神经元高能耗的代价》(#139) · 补充：(1) 明确Ca²⁺→MCU→线粒体Ca²⁺超载→mPTP开放→Cyt c释放→caspase激活的完整机制链条（mPTP是兴奋毒性与线粒体功能障碍的汇聚节点）；(2) related新增pink1-parkin-mitophagy；(3) key_sources新增2个来源
+- 2026-09-10 · 修订（rev3）· 基于第20周综合《精准与脆弱的同构》（#140）· 补充：兴奋毒性作为"双向可塑性机制的双刃剑代价"在选择性脆弱性框架中的位置；related新增neuronal-selective-vulnerability
 
 ## 来源文章
 
 - [[2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death]]
 - [[2026-09-09-mitochondrial-dysfunction-neurodegeneration]]
+- [[2026-09-10-week20-synthesis-precision-vulnerability]]

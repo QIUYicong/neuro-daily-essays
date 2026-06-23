@@ -3061,3 +3061,27 @@
 
 **图谱**：267节点/1562边 → **268节点/1571边**（+1节点，+9边）
 
+
+---
+
+## 2026-09-10（第 140 篇·第20周综合）
+
+**今日主题**：第20周综合——精准与脆弱的同构（覆盖第134–139篇：DCN/ATL/TCM-MEC-CA2/亨廷顿病/兴奋毒性/线粒体功能障碍）
+
+**新创建页面（1）**：
+- `wiki/concepts/neuronal-selective-vulnerability.md`：神经元选择性脆弱性——精密计算架构的三重代价框架：(1) 高频放电→高能依赖→线粒体脆弱；(2) 功能特化→营养外包→依赖链断裂（MSN/BDNF范例）；(3) 双向可塑性机制→双刃剑（NMDA-R位置二分）；mPTP作为代谢脆弱与双刃剑路径的共同汇聚节点；适用于HD/PD/AD/兴奋毒性/急性脑损伤的统一解释框架
+
+**修订页面（5）**：
+- `wiki/diseases/huntingtons-disease.md`（rev2→rev3）：补充HD作为"特化-外包-营养依赖-脆弱性"链条典范；related新增neuronal-selective-vulnerability
+- `wiki/concepts/excitotoxicity.md`（rev2→rev3）：补充兴奋毒性作为"双向可塑性机制双刃剑代价"在选择性脆弱性框架中的位置；related新增neuronal-selective-vulnerability
+- `wiki/diseases/mitochondrial-dysfunction.md`（rev1→rev2）：补充线粒体障碍作为高频精准计算代谢代价汇聚终点；related新增neuronal-selective-vulnerability
+- `wiki/systems/deep-cerebellar-nuclei.md`（rev1→rev2）：注记60-100Hz自发放电作为能量贪婪-代谢脆弱链条的典型案例；related新增neuronal-selective-vulnerability、mitochondrial-dysfunction
+- `wiki/concepts/temporal-context-model.md` 相关：综合中指出MEC作为TCM时间漂移底层=AD最早攻击的时间情境系统（跨领域连接，于图谱中以边体现）
+
+**矛盾登记（0）**：综合篇不引入新原始证据，无新矛盾需要登记
+
+**矛盾更新（0）**：既有开放矛盾（mPTP分子身份等）仍维持open
+
+**新增未解问题（1）**：神经保护干预在增强脆弱神经元存活的同时，是否会代偿性损害其正常计算功能？（精准-脆弱权衡的治疗意义，中优先级）
+
+**图谱**：277节点/1617边 → **278节点/1627边**（+1节点，+10边；新增: neuronal-selective-vulnerability节点及与excitotoxicity/mitochondrial-dysfunction/HD/PD/AD/MSN/BDNF/DCN/ATL/TCM-AD的10条有类型边）

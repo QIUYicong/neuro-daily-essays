@@ -1,0 +1,81 @@
+# 运行日志：2026-09-10（知识库日期）/ 2026-06-23（系统时钟）
+
+## 基本信息
+
+- **知识库日期**：2026-09-10（连续性日期）
+- **系统时钟**：2026-06-23 UTC+8
+- **文章编号**：#140
+- **文章类型**：第20周综合（第134-139篇）
+- **分支**：main
+- **运行模式**：自动化每日运行
+
+## 执行步骤
+
+### 步骤0：同步
+- `git checkout main` → 成功
+- `git pull --rebase origin main` → 成功（force update，rebase完成）
+- 确认 ROUTINE.md / KNOWLEDGE-BASE-DESIGN.md 存在 → 确认
+
+### 步骤A：读取状态
+- topic_ledger.json：成功读取尾部（最后一条为#139，2026-09-09）
+- 确认#140为第20周综合（140/7=20）
+- 已有6篇本周文章（#134-#139），需要写综合
+- 图谱：277节点/1617边，无悬空引用
+- 近期未解问题：Q-mito-01/02/03, Q-exc-01/02/03, Q-atl-01/02/03
+
+### 步骤B：选题
+- **选题依据**：课程规则（每7篇写周综合），#140=20×7，必须写周综合
+- **主题**：精准与脆弱的同构——跨越本周6篇文章（DCN/ATL/TCM-MEC-CA2/HD/兴奋毒性/线粒体功能障碍）的元分析
+- **核心统一主题**：精密计算架构的三重代价（能量代谢/营养依赖/双向机制双刃剑）
+- **选题层级**：跨层综合（分子→认知→疾病）
+
+### 步骤C：文章写作
+- 文章类型：周综合（无新一手来源检索，基于已验证来源的元分析）
+- 字数：约6500字（超过最低3000字要求，符合综合篇标准）
+- 结构：核心问题 / 一句话摘要 / 为什么重要 / 六篇文章回顾 / 三重同构主题 / 整合图 / 疾病视角 / 比喻+有效/失效范围 / AI对照 / 概念卡片 / 认知地图更新 / 争议与不确定性 / 参考来源
+- 保存路径：articles/2026-09-10-week20-synthesis-precision-vulnerability.md ✅
+
+### 步骤D：固结步骤
+- 识别核心概念：neuronal-selective-vulnerability（新）
+- **新创建wiki页面（1）**：
+  - wiki/concepts/neuronal-selective-vulnerability.md（revision_count=1）
+- **修订wiki页面（4+1概念）**：
+  - wiki/diseases/huntingtons-disease.md（rev2→rev3）
+  - wiki/concepts/excitotoxicity.md（rev2→rev3）
+  - wiki/diseases/mitochondrial-dysfunction.md（rev1→rev2）
+  - wiki/systems/deep-cerebellar-nuclei.md（rev1→rev2）
+  - wiki/concepts/temporal-context-model.md（updated date + AD连接在图谱边体现）
+- **矛盾检查**：综合篇不引入新原始证据，无新矛盾。既有矛盾（mPTP身份Q-mito-01、AD突触外NMDAR争议Q-exc-02）维持open。
+- **成熟度重估**：neuronal-selective-vulnerability：mainstream（三条机制路径有充分独立来源支持）；其他修订页面成熟度不变
+
+### 步骤E：图谱与导航更新
+- wiki/_graph.json：277节点/1617边 → 278节点/1627边（+1节点，+10边）
+- wiki/index.md：更新header（主题页总数275→276，新增条目），新增neuronal-selective-vulnerability条目
+- wiki/CHANGELOG.md：追加2026-09-10节
+
+### 步骤F：治理层更新
+- state/topic_ledger.json：新增#140条目 ✅
+- state/unresolved_questions.md：新增Q-week20-01（精准-脆弱权衡的治疗意义）✅
+- state/monthly_synthesis.md：追加2026-09-10摘要 ✅
+- state/source_registry.json：本次综合无新一手来源，不更新
+- logs/2026-09-10-run.log：本文件 ✅
+
+## 来源检索情况
+
+- 本次为周综合，无新一手来源检索
+- 所有引用来源均来自#134-#139文章中已验证的PMID/PMCID
+- 开放全文来源：6篇（PMC2948541、PMC10903104、PMC11094169、PMC7654589、PMC3196611、PMC11171854）
+- 仅摘要来源：4篇
+
+## 自检结果
+
+**真实性**：✅ 所有主张均有来自已验证来源的支持；明确区分了三条机制路径的证据强度差异；注明了比喻的有效/失效范围
+**一致性**：✅ 未发现新矛盾；所有修订页面的updated/revision_count/修订历史已同步更新；图谱无悬空边
+**可导航**：✅ index.md和CHANGELOG.md反映了今天变化；新页面related和prerequisites均填写
+**情景层**：✅ article/notes/sources/log齐全；未修改任何已有旧文件
+
+## Git提交状态
+
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-09-10
+- 推送目标：main
+- 推送状态：[待完成]

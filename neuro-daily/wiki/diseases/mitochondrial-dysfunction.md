@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-09-09
-updated: 2026-09-09
-revision_count: 1
+updated: 2026-09-10
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, disease]
-related: [parkinsons-disease, alzheimers-disease, huntingtons-disease, excitotoxicity, reactive-oxygen-species, pink1-parkin-mitophagy, drp1, nmda-receptor, bdnf, medium-spiny-neuron]
+related: [parkinsons-disease, alzheimers-disease, huntingtons-disease, excitotoxicity, reactive-oxygen-species, pink1-parkin-mitophagy, drp1, nmda-receptor, bdnf, medium-spiny-neuron, neuronal-selective-vulnerability]
 prerequisites: [action-potential, voltage-gated-calcium-channels, parkinsons-disease]
 opens_questions: [Q-mito-01, Q-mito-02, Q-mito-03]
 source_articles: [2026-09-09-mitochondrial-dysfunction-neurodegeneration]
@@ -120,7 +120,9 @@ mPTP 的分子身份仍有争议（Q-mito-01）：Cyclophilin D 是已确认的�
 ## 修订历史
 
 - 2026-09-09 · 创建 · 基于《线粒体功能障碍：神经元高能耗的代价》一文 · 初始置信度：高；填补图谱唯一悬空引用 `mitochondrial-dysfunction`
+- 2026-09-10 · 修订（rev2）· 基于第20周综合《精准与脆弱的同构》（#140）· 补充：线粒体功能障碍作为"高频精准计算的代谢代价"的汇聚终点；related新增neuronal-selective-vulnerability
 
 ## 来源文章
 
 - [[2026-09-09-mitochondrial-dysfunction-neurodegeneration]]
+- [[2026-09-10-week20-synthesis-precision-vulnerability]]

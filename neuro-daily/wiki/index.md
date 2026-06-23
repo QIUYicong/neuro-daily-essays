@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-09（第139篇·线粒体功能障碍·神经退行性疾病共同病理轴·PINK1/Parkin线粒体自噬·ETC Complex I/IV/II疾病对应·mPTP·DRP1分裂失衡）· 主题页总数：**275**（新建2页：diseases/mitochondrial-dysfunction、concepts/pink1-parkin-mitophagy；修订3页：huntingtons-disease rev2、parkinsons-disease rev3、excitotoxicity rev2；图谱277节点/1617边+4节点+11边；填补图谱唯一悬空引用mitochondrial-dysfunction）
+> 最后更新：2026-09-10（第140篇·第20周综合·精准与脆弱的同构·神经元选择性脆弱性）· 主题页总数：**276**（新建1页：concepts/neuronal-selective-vulnerability；修订5页：huntingtons-disease rev3、excitotoxicity rev3、mitochondrial-dysfunction rev2、deep-cerebellar-nuclei rev2、temporal-context-model→related补充；图谱278节点/1627边+1节点+10边）
 
 ---
 
@@ -62,6 +62,7 @@
 - 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + 脊髓中枢敏化触发器 + **兴奋毒性的主要Ca²⁺入口（突触内/外位置决定存活或死亡，修订rev7 2026-09-08）**（修订7次）
 - 🔵 [兴奋毒性](concepts/excitotoxicity.md) — 谷氨酸过激活引发的神经元死亡机制；位置决定命运（突触内=CREB存活 vs 突触外=Jacob/DAPK1/Calpain死亡）；钙-线粒体-ROS三联体；GLT-1防线；ALS/AD/HD/缺血中的疾病窗口 **[NEW 2026-09-08 · 修订2026-09-09: mPTP汇聚机制补充]**
 - 🔵 [PINK1/Parkin 线粒体自噬](concepts/pink1-parkin-mitophagy.md) — ΔΨm消失→PINK1 OMM积累→二聚化+自磷酸化→pUb（Ser65）生成→Parkin招募+激活（正反馈放大）→NDP52/OPTN/TBK1→LC3/自噬体→溶酶体；PD早发性遗传最主要原因（PINK1/PARK6、Parkin/PARK2）；Pink1 KO猕猴vs小鼠物种差异 **[NEW 2026-09-09]**
+- 🔵 [神经元选择性脆弱性](concepts/neuronal-selective-vulnerability.md) — 精密计算架构的三重代价：(1)高频放电→高能依赖→线粒体脆弱；(2)功能特化→营养外包→依赖链断裂；(3)双向可塑性机制→双刃剑；跨越HD/PD/AD/兴奋毒性的统一解释框架 **[NEW 2026-09-10·第20周综合]**
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础（修订8次）
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
