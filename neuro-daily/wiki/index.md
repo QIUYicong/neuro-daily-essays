@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-07（第137篇·亨廷顿病·polyQ毒性·BDNF-REST轴断裂·MSN选择性脆弱性·tominersen悖论·WVE-003等位基因选择性ASO）· 主题页总数：**272**（新建2页：diseases/huntingtons-disease、concepts/polyglutamine-toxicity；修订4页：neurons/medium-spiny-neuron rev2、concepts/bdnf rev3、及2新建页；图谱272节点/1595边+9边）
+> 最后更新：2026-09-08（第138篇·兴奋毒性·突触内外NMDAR二分·钙-线粒体三联体·GLT-1防线·美金刚/nerinetide/MCU抑制剂治疗策略）· 主题页总数：**273**（新建1页：concepts/excitotoxicity；修订1页：concepts/nmda-receptor rev7；图谱273节点/1606边+11边）
 
 ---
 
@@ -59,7 +59,8 @@
 - 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异 **[NEW 2026-06-03]**
 - 🟢 [Hodgkin-Huxley 模型](concepts/hodgkin-huxley-model.md) — 动作电位的定量数学框架
 - 🟢 [SNARE复合体](concepts/SNARE-complex.md) — 突触囊泡融合的核心分子机器（四螺旋束拉链）
-- 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + **脊髓中枢敏化触发器（wind-up/慢性痛 LTP-like机制，修订rev6 2026-08-02）**（修订6次）
+- 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + 脊髓中枢敏化触发器 + **兴奋毒性的主要Ca²⁺入口（突触内/外位置决定存活或死亡，修订rev7 2026-09-08）**（修订7次）
+- 🔵 [兴奋毒性](concepts/excitotoxicity.md) — 谷氨酸过激活引发的神经元死亡机制；位置决定命运（突触内=CREB存活 vs 突触外=Jacob/DAPK1/Calpain死亡）；钙-线粒体-ROS三联体；GLT-1防线；ALS/AD/HD/缺血中的疾病窗口 **[NEW 2026-09-08]**
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础（修订8次）
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**

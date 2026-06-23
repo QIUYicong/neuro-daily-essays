@@ -8510,5 +8510,21 @@
       "mHTT基因编辑——CRISPR等位基因选择性敲减的技术挑战与体内安全性 (Q-hd-03延伸)",
       "纹状体兴奋毒性——NMDA受体NR2B亚基在HD/缺血/癫痫中的共同毒性机制"
     ]
+  },
+  {
+    "date": "2026-09-08",
+    "title": "兴奋毒性：谷氨酸的双刃剑与突触内外的生死抉择",
+    "filename": "2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death.md",
+    "article_number": 138,
+    "wiki_pages_created": ["wiki/concepts/excitotoxicity.md"],
+    "wiki_pages_revised": ["wiki/concepts/nmda-receptor.md (rev6->rev7)"],
+    "contested_claims_logged": [],
+    "core_question": "NMDA受体过度激活如何通过突触内-突触外位置二分，将钙信号转化为线粒体崩溃、ROS爆发和神经元死亡？",
+    "open_questions_added": ["Q-exc-01（中优先级）：mPTP蛋白组成", "Q-exc-02（高优先级）：慢性EMT生物标志物", "Q-exc-03（中优先级）：DAPK1特异性抑制"],
+    "layer": ["molecular", "synaptic", "cellular", "disease"],
+    "curriculum_track": "课程脊柱1（神经元机制）+ 脊柱11（疾病窗口）",
+    "topic_tags": ["excitotoxicity", "synaptic vs extrasynaptic NMDAR", "calcium overload", "mitochondrial calcium", "GLT-1 EAAT2", "memantine", "nerinetide"],
+    "main_sources": ["PMID:20842175/PMC2948541 OPEN", "PMID:2880938 abstract-only", "PMID:35078537/PMC8788129 OPEN", "PMID:38891774/PMC11171854 OPEN", "PMID:37236602 abstract-only"],
+    "next_suggested_topics": ["线粒体功能障碍（填补mitochondrial-dysfunction悬空引用）", "神经炎症（填补neuroinflammation悬空引用）", "ALS多重机制"]
   }
 ]

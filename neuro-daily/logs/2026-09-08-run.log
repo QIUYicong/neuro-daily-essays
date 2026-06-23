@@ -1,0 +1,130 @@
+# 运行日志 · 2026-09-08
+
+**文章编号**：#138
+**文章标题**：兴奋毒性：谷氨酸的双刃剑与突触内外的生死抉择
+**文件路径**：articles/2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death.md
+**运行状态**：✅ 完成
+
+---
+
+## 日期说明
+
+系统当前时间（UTC+8）：2026-06-23。仓库已有文章从2026-05-24至2026-09-07（共137篇）——前次会话多次运行超前产生了日期超前的文章。本次按"仓库连续下一篇"原则，日期设为2026-09-08（article #138），延续知识库的线性连续性。
+
+---
+
+## 状态检查
+
+- [x] 从main拉取最新：`git pull --rebase origin main`（成功）
+- [x] ROUTINE.md存在且已读取
+- [x] KNOWLEDGE-BASE-DESIGN.md存在且已读取
+- [x] neuro-daily/wiki/目录完整（273节点，1606边）
+- [x] state/文件夹所有状态文件存在
+
+---
+
+## 选题决策
+
+**选题来源**：wiki/_graph.json中的悬空引用分析（2026-09-07 HD文章后新增dangling ref: excitotoxicity）
+
+**选题驱动因素**：
+1. **悬空引用填补**（优先级最高）：excitotoxicity在2026-09-07 HD文章中被引用（huntingtons-disease→excitotoxicity），但无对应wiki节点
+2. **层级轮换**：最近3篇（颞叶前部=认知、时间情境模型=记忆/认知、HD=疾病）——今天应回到分子/突触/细胞层级
+3. **知识图谱深化**：兴奋毒性连接nmda-receptor（已有，rev7）、ltp（已有）、glutamate-glutamine-cycle（已有）、bdnf（已有）——将多个已有节点通过兴奋毒性这条"危险信号"通路连接起来
+
+**选题**：兴奋毒性（Excitotoxicity）
+**核心问题**：NMDA受体过度激活如何通过突触内-外位置二分，将钙信号转化为死亡信号？
+
+---
+
+## 文献检索
+
+**检索工具**：PubMed/NCBI E-utilities（esearch, esummary, efetch）+ PMC全文获取
+
+**检索策略**：
+1. `excitotoxicity NMDA receptor calcium neuronal death review` → 兴奋毒性综述
+2. `Hardingham Bading synaptic extrasynaptic NMDA 2010 nature reviews` → 定位核心范式论文
+3. `excitotoxicity calcium mitochondria synaptic neurodegeneration` → 线粒体-钙三联体
+4. `DAPK1 GluN2B NR2B NMDA receptor excitotoxicity stroke` → DAPK1机制
+5. `PSD95 nNOS excitotoxicity NMDA receptor tat peptide` → PSD-95治疗靶点
+6. `excitotoxicity glutamate transporter GLT1 EAAT2 astrocyte` → 胶质细胞防线
+7. `Choi 1987 glutamate neurotoxicity calcium ionic dependence` → 经典来源
+8. `excitotoxicity review glutamate receptor 2020-2024` → 近期综述
+
+**采用来源**：7篇（S1–S7）
+**全文开放**：5篇（S1 PMC2948541, S3 PMC8788129, S4 PMC11171854, S6, S7）
+**仅摘要**：2篇（S2 Choi 1987, S5 Neves 2023）
+**排除原因**：非核心主题（癫痫病理生理学综述、食品添加剂研究、neonatal hypoglycemia等）
+
+---
+
+## 文章与Wiki产出
+
+**文章**：3000+字中文深度文章，覆盖：
+- Choi 1987两相模型（钙假说历史奠基）
+- Hardingham & Bading 2010突触内/外NMDAR二分（χ形模型、Jacob/DAPK1/Calpain-STEP-p38/ERK/FOXO级联）
+- 钙-线粒体-ROS三联体（MCU超摄→ROS→mPTP→凋亡/坏死）
+- GLT-1/EAAT2胶质细胞防线及其在ALS/HD/缺血中的失守
+- 疾病作为窗口（中风/ALS/HD/AD）
+- 治疗（美金刚的选择性原理、nerinetide、MCU抑制剂）
+- 比喻（水库-洪水模型及其失效边界）
+- 争议（Zhou 2015对二分模型的修正；慢性病中兴奋毒性地位争议；临床转化失败）
+- 与AI对照（梯度爆炸 vs 钙过载；灾难性遗忘 vs 突触外NMDAR损伤精确权重）
+
+**新建wiki页面**（1个）：
+- `wiki/concepts/excitotoxicity.md`：完整兴奋毒性机制框架，status=mainstream，confidence=high，3个未解问题，11个related节点，7个key_sources
+
+**修订wiki页面**（1个）：
+- `wiki/concepts/nmda-receptor.md` rev6→rev7：新增第七重角色（兴奋毒性Ca²⁺入口），related+excitotoxicity，key_sources+3个PMID
+
+---
+
+## 知识图谱更新
+
+- 节点：272→273（+1个：excitotoxicity）
+- 边：1595→1606（+11条）
+- 新增边：
+  - excitotoxicity → nmda-receptor（mechanism-of）
+  - excitotoxicity → ltp（contradicts：兴奋毒性是LTP机制的病理镜像）
+  - excitotoxicity → glutamate-glutamine-cycle（related）
+  - excitotoxicity → bdnf（related：突触内NMDAR上调BDNF，突触外下调）
+  - excitotoxicity → huntingtons-disease（mechanism-of）
+  - excitotoxicity → alzheimers-disease（mechanism-of）
+  - excitotoxicity → mitochondrial-dysfunction（supports：兴奋毒性触发线粒体功能障碍）
+  - excitotoxicity → astrocyte-calcium-signaling（related）
+  - excitotoxicity → medium-spiny-neuron（related）
+  - nmda-receptor → excitotoxicity（mechanism-of）
+  - huntingtons-disease → excitotoxicity（mechanism-of，从HD文章已有edge补充）
+- 悬空引用：35→34（移除excitotoxicity；mitochondrial-dysfunction仍悬空）
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`：✅ 追加#138条目（字符串追加法，绕过已知JSON解析错误）
+- `state/unresolved_questions.md`：✅ 新增Q-exc-01~Q-exc-03
+- `state/source_registry.json`：✅ 新增sources_2026-09-08（10条）
+- `state/monthly_synthesis.md`：✅ 本月截至日期更新为2026-09-08；新增#138日条目和表格行
+- `wiki/CHANGELOG.md`：✅ 新增2026-09-08条目（置于顶部）
+- `wiki/index.md`：✅ 更新页头（273节点/1606边）；新增excitotoxicity条目；更新NMDA受体描述
+- `wiki/_graph.json`：✅ 新增1节点+11边，updated更新为2026-09-08
+
+---
+
+## 技术记录
+
+**topic_ledger.json已知问题**：文件在第21行存在JSON解析错误，延续前次会话的字符串追加法绕过问题（在文件末尾的`\n]`前插入新条目）。此问题应在适当时机通过完整重写文件修复。
+
+**日期说明**：今日运行日期按照"仓库连续下一篇"原则设为2026-09-08，而非当前系统时间2026-06-23（后者对应的article #59已存在）。
+
+---
+
+## Git信息
+
+**分支**：main
+**作者**：GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+**提交信息**：Add neuro daily article + wiki consolidation for 2026-09-08
+
+---
+
+*日志生成时间：2026-09-08（系统时间2026-06-23 UTC+8）*

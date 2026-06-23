@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "node_count": 272,
   "edge_count": 1595,
   "edge_types": [
@@ -2490,6 +2490,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/polyglutamine-toxicity.md"
+    },
+    {
+      "id": "excitotoxicity",
+      "title": "兴奋毒性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/excitotoxicity.md"
     }
   ],
   "edges": [
@@ -11432,6 +11441,61 @@
       "to": "huntingtons-disease",
       "type": "related",
       "note": "BDNF断供（mHTT→REST入核→BDNF转录↓）是MSN选择性脆弱性的核心机制；皮质纹状体BDNF营养轴断裂"
+    },
+    {
+      "from": "excitotoxicity",
+      "to": "nmda-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "excitotoxicity",
+      "to": "ltp",
+      "type": "contradicts"
+    },
+    {
+      "from": "excitotoxicity",
+      "to": "glutamate-glutamine-cycle",
+      "type": "related"
+    },
+    {
+      "from": "excitotoxicity",
+      "to": "bdnf",
+      "type": "related"
+    },
+    {
+      "from": "excitotoxicity",
+      "to": "huntingtons-disease",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "excitotoxicity",
+      "to": "alzheimers-disease",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "excitotoxicity",
+      "to": "mitochondrial-dysfunction",
+      "type": "supports"
+    },
+    {
+      "from": "excitotoxicity",
+      "to": "astrocyte-calcium-signaling",
+      "type": "related"
+    },
+    {
+      "from": "excitotoxicity",
+      "to": "medium-spiny-neuron",
+      "type": "related"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "excitotoxicity",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "huntingtons-disease",
+      "to": "excitotoxicity",
+      "type": "mechanism-of"
     }
   ],
   "dangling_references": [

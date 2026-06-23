@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-08-02
-revision_count: 6
+updated: 2026-09-08
+revision_count: 7
 dimensions: [molecular, synaptic, cellular, cognition, brain-region, disease]
-related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex, alzheimers-disease, amyloid-beta-oligomers, calcineurin, central-sensitization, gate-control-theory]
+related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex, alzheimers-disease, amyloid-beta-oligomers, calcineurin, central-sensitization, gate-control-theory, excitotoxicity]
 prerequisites: [synaptic-transmission, action-potential, membrane-potential]
 opens_questions: [Q-nmda-coincidence-window, Q-glun2-switch-development, Q-abeta-oligomer-subtypes]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation, 2026-06-05-prefrontal-working-memory, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-07-17-stdp-spike-timing-dependent-plasticity, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc]
-key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230", "PMID:21543591", "PMID:17360908", "PMID:9852584", "PMC6793365", "PMC8488271", "PMID:19837031"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation, 2026-06-05-prefrontal-working-memory, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-07-17-stdp-spike-timing-dependent-plasticity, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death]
+key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230", "PMID:21543591", "PMID:17360908", "PMID:9852584", "PMC6793365", "PMC8488271", "PMID:19837031", "PMID:20842175", "PMID:2880938", "PMID:35078537"]
 ---
 
 # NMDA 受体 (NMDA Receptor / N-Methyl-D-Aspartate Receptor)
@@ -155,6 +155,7 @@ NMDA 受体双重门控在 STDP 中的具体运作：
 - 2026-06-19 · 修订 · 基于《突触时序依赖可塑性》(#85) · 新增第五重角色：STDP 时序仲裁器（精确毫秒级时序 → Ca²⁺ 幅度 → LTP/LTD）；补充 Bi & Poo 1998 NMDA 受体对 STDP 的必要性证据（AP-5 消除 STDP）；新增生理钙浓度约束（1.3 mM 无效，需 θ 振荡）；key_sources 新增 PMID:9852584、PMC6793365、PMC8488271
 - 2026-06-08 · 修订 · 基于《记忆的分子遗忘》一文 · 新增第四重角色：突触外NR2B-LTP反向信号路径；解答 Q-nmda-alzheimer（Aβ通过优先激活突触外NR2B/p38 MAPK阻断LTP，非直接破坏受体）；related 新增 alzheimers-disease、amyloid-beta-oligomers、calcineurin；dimensions 新增 disease；连接新增 alzheimers-disease、amyloid-beta-oligomers；key_sources 新增 PMID:21543591、PMID:17360908
 - 2026-08-02 · 修订（rev6）· 基于《痛觉的守门人》文章（#101）· 新增第六重角色：脊髓背角中枢敏化触发器（wind-up 现象；与海马 LTP 同源机制；氯胺酮临床验证）；related 新增 central-sensitization、gate-control-theory；source_articles 新增 2026-08-02-pain-nociception；key_sources 新增 PMID:19837031
+- 2026-09-08 · 修订（rev7）· 基于《兴奋毒性》文章（#138）· 新增第七重角色：兴奋毒性的主要Ca²⁺入口（突触外激活→Jacob/DAPK1/Calpain死亡级联 vs 突触内激活→CREB/AID存活屏障）；related 新增 excitotoxicity；source_articles 新增 2026-09-08-excitotoxicity；key_sources 新增 PMID:20842175, PMID:2880938, PMID:35078537
 
 ## 来源文章
 
@@ -162,3 +163,4 @@ NMDA 受体双重门控在 STDP 中的具体运作：
 - [[2026-05-27-dendritic-computation]]
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-08-02-pain-nociception-spinal-dorsal-horn-acc]]
+- [[2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death]]

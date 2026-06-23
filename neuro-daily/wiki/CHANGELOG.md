@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-09-08 · 文章 #138 · 兴奋毒性：谷氨酸的双刃剑与突触内外的生死抉择
+
+**核心主题**：兴奋毒性（excitotoxicity）——谷氨酸过量/NMDA受体过激活引发的神经元死亡机制。核心原则：突触内NMDAR激活→CREB/AID基因存活屏障；突触外NMDAR激活→Jacob入核/ERK灭活/DAPK1/Calpain-STEP-p38死亡级联。钙-线粒体-ROS三联体（MCU超摄→ROS→mPTP→凋亡/坏死）。GLT-1/EAAT2星形胶质细胞防线在ALS/HD/缺血中失守。治疗：美金刚（选择性外突触阻断）、nerinetide（PSD-95/nNOS解耦合）、MCU抑制剂。图谱从272节点/1595边增至273节点/1606边（+1节点excitotoxicity，+11边）。
+
+### 新建 Wiki 页面（1 个）
+
+- `concepts/excitotoxicity.md` 🟡 mainstream · 高置信度 — 完整兴奋毒性机制框架：Choi1987两相模型，突触内/外NMDAR二分（Hardingham & Bading 2010，PMC2948541），钙-线粒体三联体（Verma 2022，PMC8788129），GLT-1防线，疾病窗口（缺血/ALS/AD/HD），治疗策略（美金刚/nerinetide/MCU抑制剂），Q-exc-01~03未解问题（mPTP蛋白组成/慢性EMT生物标志物/DAPK1特异性抑制）
+
+### 修订 Wiki 页面（1 个）
+
+- `concepts/nmda-receptor.md` rev6→rev7 — 新增第七重角色：兴奋毒性主要Ca²⁺入口；补充突触内/外NMDAR激活的生死分叉（Hardingham & Bading 2010）；related新增excitotoxicity；source_articles新增2026-09-08-excitotoxicity；key_sources新增PMID:20842175, PMID:2880938, PMID:35078537
+
+### 矛盾登记/裁决（0 条）
+
+今日无新矛盾。注：Zhou等人（2015，PMID:25168337）对突触内/外NMDAR二分模型提出了剂量依赖性修正（高强度共激活时突触内NMDAR也可触发死亡），已在文章中如实报告不确定性，但未改变当前主流模型（Hardingham/Bading框架），未登记为正式矛盾。
+
+### 悬空引用变化（移除1条，维持其他）
+
+移除：excitotoxicity（wiki页面已于2026-09-08建立）。
+仍然悬空（从HD文章继承）：mitochondrial-dysfunction, neuroinflammation, protein-aggregation, ubiquitin-proteasome, autophagy, nuclear-inclusions。
+
+---
+
 ## 2026-09-07 · 文章 #137 · 亨廷顿病：当遗传倒计时开启，纹状体为何率先坠落
 
 **核心主题**：亨廷顿病（HD）的纹状体中型多棘神经元（MSN）选择性脆弱性——四重协同机制：polyQ展开与N端片段毒性、BDNF-REST轴断裂（皮质纹状体营养供给中断）、转录失调（CBP/PGC-1α轴）与线粒体损伤、NR2B富集的兴奋毒性（GLT1/GLAST下降）。治疗视角：丁苯那嗪症状控制；tominersen非选择性ASO悖论（高剂量54%降mHTT但神经损伤标志物↑，IC50=4.18 ng/mL）；WVE-003等位基因选择性ASO（SNP3靶向）作为应对策略。图谱从270节点/1586边增至272节点/1595边（+2节点，+9边）；从dangling_refs移除medium-spiny-neuron（页面已建），新增7个dangling_refs。
