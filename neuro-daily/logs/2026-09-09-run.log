@@ -65,9 +65,9 @@
 
 ### Step G: Commit + Push
 - git add: staged all changes in neuro-daily/
-- git commit: [hash pending]
-- git pull --rebase: [pending]
-- git push origin main: [pending]
+- git commit: 22f98a7 (17 files changed, 1162 insertions, 36 deletions)
+- git pull --rebase: up to date (no conflicts)
+- git push origin main: SUCCESS (254e543..22f98a7)
 
 ### New Open Questions
 - Q-mito-01 (high): mPTP的精确蛋白组成——ANT和Cyclophilin D是否是唯一孔成分？
