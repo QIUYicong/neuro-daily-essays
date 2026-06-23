@@ -2986,3 +2986,20 @@
 
 **图谱**：267节点/1562边 → **268节点/1571边**（+1节点，+9边）
 
+
+## 2026-09-07 · 文章 #124 · 活动依赖性髓鞘化
+
+**创建页面（3）**：
+- `wiki/neurons/oligodendrocyte.md`：少突胶质细胞，established/高置信；覆盖 OPC 谱系（OPC→成熟 OL）、突触样 OPC 接触、分化信号级联（FYN-MBP）、代谢支持（MCT1）
+- `wiki/concepts/myelination.md`：髓鞘化，established/高置信；覆盖郎飞结跳跃传导（50–200 m/s vs <2 m/s）、速度/时序/代谢双功能、发育时程（前额叶持续到 20s）
+- `wiki/concepts/activity-dependent-myelination.md`：活动依赖性髓鞘化，mainstream/中置信；覆盖信号分子（谷氨酸/ATP/BDNF/NRG1/L1CAM）、FYN-MBP 级联、Mrf 转录因子、时序计算后果、临界期（P21–P35 mPFC）
+
+**修订页面（0）**：无
+
+**新增未解问题（5）**：Q-myelin-01（时序 vs 代谢功能主导）、Q-myelin-02（人类 DTI 2h 变化机制）、Q-myelin-03（白质个体差异与认知因果性）、Q-myelin-04（促髓鞘药物人类临床效果）、Q-myelin-05（癫痫异常髓鞘化正反馈）
+
+**登记矛盾（0）**：无新矛盾（人类 DTI 证据的机制不确定性已在 wiki 如实标注，尚不构成主张冲突）
+
+**图谱**：270节点/1586边 → **273节点/1600边**（+3节点，+14边）
+
+**知识库意义**：本日文章填补了知识库中髓鞘化/白质可塑性的完全空白（此前零 wiki 页面、零文章）。确立了大脑可塑性的"第四维度"叙事（突触权重 + 轴突传导延迟），与已有的 ltp、hebbian-learning、critical-period、bdnf、microglia 等节点建立了实质性连接。本文属于课程脊柱 Track 2（神经网络如何建成）的髓鞘化子主题，同时与 Track 4（学习记忆）和 Track 8（意识与认知）交叉。

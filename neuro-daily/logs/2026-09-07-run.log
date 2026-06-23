@@ -1,0 +1,124 @@
+# 运行日志 2026-09-07
+
+**文章编号**：#124
+**运行时间**：2026-09-07 UTC+8
+**分支**：main（claude/funny-einstein-4d4qy1 工作分支）
+**模式**：long_term_curriculum
+
+---
+
+## 状态检查
+
+- [x] 从 main 拉取最新：仓库已是最新（last: 2026-09-06）
+- [x] ROUTINE.md 存在且已读取
+- [x] KNOWLEDGE-BASE-DESIGN.md 存在且已读取
+- [x] neuro-daily/wiki/ 目录完整（270 节点/1586 边起始）
+- [x] state/ 文件夹所有状态文件存在
+
+**注意**：
+1. 系统时间显示为 2026-06-23，但知识库已有文章至 2026-09-06（前次会话运行超前）。本次运行日期设为 2026-09-07（仓库连续下一篇）。
+2. topic_ledger.json 在本次会话启动时有三处 JSON 损坏，已在前段上下文中修复（详见 Summary 第 3 节）。修复后文件有效，123 条目，最新为 2026-09-06。
+
+---
+
+## 选题决策
+
+**选题驱动**：知识图谱空白扫描（步骤 B.3/B.4）
+
+**图谱分析结果**（270 节点/1586 边）：
+- 扫描所有 emerging/speculative 节点 → 发现悬空引用 `oligodendrocyte`、`myelination` 尚无对应页面
+- 扫描课程脊柱：Track 2（神经网络如何建成）= 轴突导向/髓鞘化/关键期；**髓鞘化完全缺失**（零文章，零 wiki 页面）
+- 扫描 unresolved_questions：无紧急性高于覆盖空白的问题
+- 全知识库搜索"myelin"、"髓鞘"、"oligodendro"：完全无结果
+
+**选题**：活动依赖性髓鞘化（activity-dependent myelination）
+**核心问题**：神经元放电如何驱动少突胶质细胞产生新髓鞘？这是否构成独立于突触可塑性的学习机制？
+
+**判断理由**：
+1. 课程脊柱 Track 2（网络形成）的髓鞘化子轨道：完全空白，最高优先级空白
+2. 与知识库中已有节点（action-potential, ltp, hebbian-learning, critical-period, bdnf, microglia）有强自然连接
+3. 有高质量 PMC 全文来源（≥4 篇），学术价值高
+4. 层级：cellular（前两天为 cognitive/systems），满足层级多样性要求
+5. "学习也写在白质上"的叙事张力高，适合文章
+
+**层级检查**：
+- 2026-09-06: cognition/systems（TCM 神经底层）
+- 2026-09-05: cognition（ATL 语义中枢）
+- 今天：cellular — 层级多样，合规
+
+---
+
+## 检索记录
+
+**数据源**：PubMed E-utilities（NCBI）、PMC Open Access
+
+**主要搜索词**：
+- `activity-dependent myelination oligodendrocyte plasticity`
+- `myelin formation learning memory OPC`
+- `Fields 2015 myelination nervous system plasticity`
+- `oligodendrocyte precursor cell neuronal activity glutamate`
+- `BDNF TrkB myelination OPC`
+- `social isolation myelination prefrontal cortex`
+- `Gibson 2014 optogenetics oligodendrogenesis`
+- `myelin conduction velocity timing STDP`
+
+**候选来源总数**：约 20 篇
+
+---
+
+## 采用来源
+
+| ID | PMID | 状态 | 理由 |
+|----|------|------|------|
+| S1 | 26585800 | PMC 全文 (PMC6310485) | Fields 2015 Nat Rev Neurosci 核心机制综述；最权威的活动依赖性髓鞘化综述 |
+| S2 | 32094969 | PMC 全文 (PMC8240098) | Fields & Bukalo 2020 Nat Neurosci；BDNF-TrkB 因果遗传学；记忆巩固 |
+| S3 | 28817797 | PMC 全文 (PMC5667660) | de Faria 2017 Neuron；运动学习+社会隔离+Mrf KO+clemastine；多重因果验证 |
+| S4 | 24727982 | 摘要（付费 Science） | Gibson 2014 Science；光遗传因果实验；最强因果证据之一 |
+| S5 | 34618550 | 摘要（付费 Science） | Bonetto 2021 Science；髓鞘作为回路可塑性门控；时序计算模型 |
+| S6 | 37857838 | PMC 全文 (PMC10859969) | 2023 Nat Rev Neurosci；BDNF-小胶质细胞-髓鞘轴；化疗脑修复机制 |
+
+---
+
+## 排除来源
+
+- PMID:31465122（Djannatian 2020, Glia）：内容已被 S1 综述覆盖，不增加新机制
+- PMID:26492571（Emery 2015, CSHP）：OPC 发育综述，无新的 ADM 内容
+- PMID:39358030（2024 J Neurosci）：神经-胶质交互，内容过于宽泛
+- 多篇 MS/PMD 疾病论文：适合未来"疾病作为窗口"主题
+
+---
+
+## wiki 固结
+
+**新建页面（3）**：
+- `wiki/neurons/oligodendrocyte.md` — established/高置信度；OPC 谱系、突触样接触、分化级联
+- `wiki/concepts/myelination.md` — established/高置信度；基础髓鞘化机制、速度/时序/代谢功能
+- `wiki/concepts/activity-dependent-myelination.md` — mainstream/中置信度；ADM 全机制、临界期、与突触可塑性关系
+
+**修订页面（0）**：
+- 无既有页面修订（知识库此前无髓鞘相关内容）
+
+**图谱更新**：3 节点新增（273 总），14 条边新增（1600 总）
+
+---
+
+## 矛盾检查
+
+- 人类 DTI "2h 白质变化" vs 新髓鞘生物学需数天：这是已知不确定性，不是两个明确主张的冲突。已在 wiki 中标注为 Q-myelin-02（中置信度），未登记为 contested_claim（没有两个实验室提出相互矛盾的具体主张，只是机制不明）。
+- 无其他矛盾发现。
+
+---
+
+## 限制与注意
+
+1. Gibson 2014 (Science) 和 Bonetto 2021 (Science) 只读了摘要（付费期刊），细节未全读；在文章和 wiki 中已标注
+2. 人类 DTI 证据为间接测量，不是直接髓鞘测量；已在 wiki 中标注置信度为中等
+3. 化疗脑机制链（小胶质细胞→BDNF→髓鞘）主要基于动物模型，人类临床证据有限；已标注
+4. "2h 内白质变化"的生物学基础争议已登记为 Q-myelin-02
+
+---
+
+## 提交信息
+
+**branch**: claude/funny-einstein-4d4qy1（工作分支）→ 推送到 main
+**状态**: 待提交

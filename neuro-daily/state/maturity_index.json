@@ -668,5 +668,29 @@
     "confidence": "high",
     "last_changed": "2026-09-05",
     "reason": "枢纽-辐条模型框架获多方法汇聚支持；语义记忆与情景记忆的双解离是确立的神经心理学事实；定为established"
+  },
+  {
+    "slug": "oligodendrocyte",
+    "title": "少突胶质细胞",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-07",
+    "reason": "少突胶质细胞的功能（绝缘+代谢支持）和谱系（OPC→成熟 OL）是神经科学 established 知识；突触样 OPC 连接已多实验室复现"
+  },
+  {
+    "slug": "myelination",
+    "title": "髓鞘化",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-07",
+    "reason": "髓鞘化的基本机制（郎飞结、跳跃传导、速度影响）是经典神经生物学事实；established"
+  },
+  {
+    "slug": "activity-dependent-myelination",
+    "title": "活动依赖性髓鞘化",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-09-07",
+    "reason": "核心因果证据（光遗传+KO 实验）强，但时序计算机制主要基于模型；人类 DTI 证据存在机制不明问题；定为 mainstream/中置信度"
   }
 ]

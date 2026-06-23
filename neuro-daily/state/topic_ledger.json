@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-02",
-  "total_articles": 132,
+  "last_updated": "2026-09-07",
+  "total_articles": 124,
   "entries": [
     {
       "date": "2026-09-02",
@@ -18,13 +18,19 @@
       ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
-      "core_question": "除法规范化方程 R_j = γD_j^n/(σ^n + ΣD_k^n) 如何作为统一的"规范计算"，解释 V1 三种非线性（对比度饱和/交叉朝向抑制/环绕抑制）、注意效应的对比度增益vs响应增益分化（Reynolds & Heeger 2009）、LIP决策价值竞争，乃至丘脑网状核（TRN）的全脑信息路由？",
+      "core_question": "除法规范化方程 R_j = γD_j^n/(σ^n + ΣD_k^n) 如何作为统一的\"规范计算\"，解释 V1 三种非线性（对比度饱和/交叉朝向抑制/环绕抑制）、注意效应的对比度增益vs响应增益分化（Reynolds & Heeger 2009）、LIP决策价值竞争，乃至丘脑网状核（TRN）的全脑信息路由？",
       "open_questions_added": [
         "Q-dn-01（高优先级）：哺乳动物V1的规范化主要由哪种回路机制实现（分流性/递归/突触抑制）——GABA-A阻断反证的意义",
         "Q-dn-02（中优先级）：抑制性池的确切组成规则（方向/空间频率特异性vs全池）",
         "Q-dn-03（中优先级）：Reynolds & Heeger模型的独立体内验证——注意场宽度的直接测量"
       ],
-      "layer": ["synaptic", "cellular", "microcircuit", "brain-region", "cognition"],
+      "layer": [
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
       "curriculum_track": "课程脊柱1（神经编码基础：规范计算原则）+ 脊柱9（注意与感知：注意力规范化）+ 脊柱5（认知控制：价值决策规范化）",
       "topic_tags": [
         "divisive normalization canonical computation",
@@ -8174,7 +8180,7 @@
       "knowledge_base_date": "2026-09-01",
       "system_clock_date": "2026-06-22",
       "date_note": "系统时钟显示2026-06-22 UTC+8，使用知识库连续性日期2026-09-01"
-,
+    },
     {
       "date": "2026-09-03",
       "article_number": 133,
@@ -8242,17 +8248,33 @@
       "knowledge_base_date": "2026-09-03",
       "system_clock_date": "2026-06-22",
       "date_note": "系统时钟显示2026-06-22 UTC+8，使用知识库连续性日期2026-09-03"
-    }
-,
+    },
     {
       "date": "2026-09-04",
       "article_number": 134,
       "slug": "2026-09-04-deep-cerebellar-nuclei-dcn-output",
       "title": "小脑的终端执行器：深部小脑核如何把抑制变成驱动",
       "core_question": "深部小脑核（DCN）如何将浦肯野细胞（PC）的持续 GABA 抑制转化为兴奋性输出——去抑制（disinhibition）对比反弹兴奋（rebound excitation）哪个才是 DCN 输出的主要机制？DCN 内部有哪些可塑性层次支撑运动学习？",
-      "layer": ["cellular", "microcircuit", "brain-region", "systems"],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "systems"
+      ],
       "curriculum_track": "课程脊柱2（运动学习与技能习得）+ 脊柱3（大脑如何编码世界：感觉运动预测） + 脊柱12（人脑与AI比较：前向模型与Kalman滤波）",
-      "topic_tags": ["DCN", "deep-cerebellar-nuclei", "disinhibition", "rebound-excitation", "eyeblink-conditioning", "PNN", "cerebellar-plasticity", "forward-model", "Guillain-Mollaret-triangle", "dystonia", "motor-learning"],
+      "topic_tags": [
+        "DCN",
+        "deep-cerebellar-nuclei",
+        "disinhibition",
+        "rebound-excitation",
+        "eyeblink-conditioning",
+        "PNN",
+        "cerebellar-plasticity",
+        "forward-model",
+        "Guillain-Mollaret-triangle",
+        "dystonia",
+        "motor-learning"
+      ],
       "main_sources": [
         "PMID:25279763 (Ishikawa 2014, PLoS ONE — DCN disinhibition in primates)",
         "PMID:29858484 (Bhatt 2018, J Neurosci — PNN in DCN, EBC data)",
@@ -8290,7 +8312,138 @@
       "knowledge_base_date": "2026-09-04",
       "system_clock_date": "2026-06-23",
       "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-04"
-    }  ],
+    },
+    {
+      "date": "2026-09-05",
+      "article_number": 135,
+      "title": "语义记忆的神经拓扑：颞叶前部枢纽如何从感觉辐条聚合概念",
+      "core_question": "颞叶前部（ATL）如何充当语义枢纽，把分布在感觉运动皮层各处的特征整合成跨模态的统一概念——语义痴呆如何证明了这一枢纽的必要性？",
+      "layer": "brain-region/whole-brain-network/cognition",
+      "topic_tags": [
+        "语义记忆",
+        "颞叶前部",
+        "枢纽-辐条模型",
+        "语义痴呆",
+        "概念表征",
+        "语义控制"
+      ],
+      "main_sources": [
+        "PMID:18026167",
+        "PMID:20451381",
+        "PMID:24324236",
+        "PMID:27121839",
+        "PMID:23260615",
+        "PMID:39513090",
+        "PMID:41698912",
+        "PMID:31377672"
+      ],
+      "wiki_created": [
+        "systems/anterior-temporal-lobe",
+        "concepts/semantic-memory"
+      ],
+      "wiki_revised": [
+        "concepts/embodied-semantics",
+        "systems/language-network"
+      ],
+      "unresolved_questions": [
+        "Q-atl-01",
+        "Q-atl-02",
+        "Q-atl-03"
+      ],
+      "next_suggested_topics": [
+        "海马时间细胞与时间情境模型 (TCM) 的神经底层 (Q-tc-01/Q-tc-04)",
+        "多重发生器假说实验检验 (Q-ncc-04, 意识理论)",
+        "神经振荡的跨频耦合机制（theta-gamma代码与工作记忆）"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "article_number": 136,
+      "title": "大脑的内部时间轴：内嗅皮层漂移与CA2如何支撑时间情境模型",
+      "core_question": "TCM预言海马维持连续漂移的时间情境状态——MEC Layer III时间漂移细胞与CA2的时间偏好，能否构成这个预言状态的神经底层？从行为预测到因果操控，2026年距离解答Q-tc-01有多近？",
+      "layer": "cellular/microcircuit/brain-region/cognition",
+      "topic_tags": [
+        "时间情境模型",
+        "TCM",
+        "内嗅皮层",
+        "CA2",
+        "时间细胞",
+        "时间记忆",
+        "前额叶时间编码",
+        "斜坡细胞",
+        "颞氨通路"
+      ],
+      "main_sources": [
+        "PMID:21867888",
+        "PMID:23132944",
+        "PMID:23915126",
+        "PMID:24672015",
+        "PMID:25569350",
+        "PMID:28858612",
+        "PMID:29145670",
+        "PMID:29706516",
+        "PMID:30175425",
+        "PMID:32277786",
+        "PMID:34474155",
+        "PMID:41224668",
+        "PMID:41648128"
+      ],
+      "wiki_created": [],
+      "wiki_revised": [
+        "concepts/temporal-context-model",
+        "concepts/time-cells",
+        "systems/entorhinal-cortex"
+      ],
+      "unresolved_questions": [
+        "Q-tc-01",
+        "Q-tc-04"
+      ],
+      "next_suggested_topics": [
+        "海马CA1时间细胞与SWR回放——时间顺序结构如何在睡眠中被保留或压缩 (Q-tc-04相关)",
+        "上乳头核（SuM）→CA2时间调制通路的解剖与功能",
+        "人类fMRI中的时间情境编码——内嗅皮层BOLD信号能否追踪时间情境漂移？",
+        "多重发生器假说（NCC）实验检验 (Q-ncc-04)"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "article_number": 124,
+      "title": "白质的秘密语言：活动依赖性髓鞘化如何让少突胶质细胞参与学习",
+      "slug": "2026-09-07-activity-dependent-myelination-white-matter-plasticity",
+      "core_question": "神经元放电如何驱动少突胶质细胞产生新髓鞘？活动依赖性髓鞘化是否构成独立于突触可塑性的学习记忆机制？",
+      "layer": "cellular",
+      "topic_tags": [
+        "myelination",
+        "oligodendrocyte",
+        "white-matter-plasticity",
+        "activity-dependent",
+        "OPC",
+        "BDNF",
+        "Track2"
+      ],
+      "main_sources": [
+        "PMID:26585800",
+        "PMID:32094969",
+        "PMID:28817797",
+        "PMID:24727982",
+        "PMID:34618550",
+        "PMID:37857838"
+      ],
+      "unresolved_questions": [
+        "Q-myelin-01",
+        "Q-myelin-02",
+        "Q-myelin-03",
+        "Q-myelin-04",
+        "Q-myelin-05"
+      ],
+      "next_suggested_topics": [
+        "axon guidance (Track 2: 轴突导向分子)",
+        "critical period plasticity (深化：发育关键期的分子机制)",
+        "white matter disease as window (myelin diseases: MS, PMD, PKD)",
+        "cerebral cortex development (Track 2: 皮层神经元迁移)"
+      ]
+    }
+  ],
   "layer_coverage_recent": {
     "molecular": [
       "2026-05-24",
@@ -8422,7 +8575,8 @@
       "2026-06-03"
     ],
     "cellular": [
-      "2026-06-03"
+      "2026-06-03",
+      "2026-09-07"
     ],
     "synaptic": [
       "2026-06-03",
@@ -8456,41 +8610,6 @@
     ],
     "systems": [
       "2026-08-30"
-    ,
-  {
-    "date": "2026-09-05",
-    "article_number": 135,
-    "title": "语义记忆的神经拓扑：颞叶前部枢纽如何从感觉辐条聚合概念",
-    "core_question": "颞叶前部（ATL）如何充当语义枢纽，把分布在感觉运动皮层各处的特征整合成跨模态的统一概念——语义痴呆如何证明了这一枢纽的必要性？",
-    "layer": "brain-region/whole-brain-network/cognition",
-    "topic_tags": ["语义记忆", "颞叶前部", "枢纽-辐条模型", "语义痴呆", "概念表征", "语义控制"],
-    "main_sources": ["PMID:18026167", "PMID:20451381", "PMID:24324236", "PMID:27121839", "PMID:23260615", "PMID:39513090", "PMID:41698912", "PMID:31377672"],
-    "wiki_created": ["systems/anterior-temporal-lobe", "concepts/semantic-memory"],
-    "wiki_revised": ["concepts/embodied-semantics", "systems/language-network"],
-    "unresolved_questions": ["Q-atl-01", "Q-atl-02", "Q-atl-03"],
-    "next_suggested_topics": [
-      "海马时间细胞与时间情境模型 (TCM) 的神经底层 (Q-tc-01/Q-tc-04)",
-      "多重发生器假说实验检验 (Q-ncc-04, 意识理论)",
-      "神经振荡的跨频耦合机制（theta-gamma代码与工作记忆）"
     ]
   }
-,
-  {
-    "date": "2026-09-06",
-    "article_number": 136,
-    "title": "大脑的内部时间轴：内嗅皮层漂移与CA2如何支撑时间情境模型",
-    "core_question": "TCM预言海马维持连续漂移的时间情境状态——MEC Layer III时间漂移细胞与CA2的时间偏好，能否构成这个预言状态的神经底层？从行为预测到因果操控，2026年距离解答Q-tc-01有多近？",
-    "layer": "cellular/microcircuit/brain-region/cognition",
-    "topic_tags": ["时间情境模型", "TCM", "内嗅皮层", "CA2", "时间细胞", "时间记忆", "前额叶时间编码", "斜坡细胞", "颞氨通路"],
-    "main_sources": ["PMID:21867888", "PMID:23132944", "PMID:23915126", "PMID:24672015", "PMID:25569350", "PMID:28858612", "PMID:29145670", "PMID:29706516", "PMID:30175425", "PMID:32277786", "PMID:34474155", "PMID:41224668", "PMID:41648128"],
-    "wiki_created": [],
-    "wiki_revised": ["concepts/temporal-context-model", "concepts/time-cells", "systems/entorhinal-cortex"],
-    "unresolved_questions": ["Q-tc-01", "Q-tc-04"],
-    "next_suggested_topics": [
-      "海马CA1时间细胞与SWR回放——时间顺序结构如何在睡眠中被保留或压缩 (Q-tc-04相关)",
-      "上乳头核（SuM）→CA2时间调制通路的解剖与功能",
-      "人类fMRI中的时间情境编码——内嗅皮层BOLD信号能否追踪时间情境漂移？",
-      "多重发生器假说（NCC）实验检验 (Q-ncc-04)"
-    ]
-  }
-]
+}

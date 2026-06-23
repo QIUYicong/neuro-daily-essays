@@ -1386,3 +1386,17 @@
 
 **课程路线进展**：脊柱4（记忆与情节）：时间编码链路进一步深化——从时间细胞发现到 TCM 神经底物机制。脊柱12（人脑与AI比较）：Laplace变换/泄漏积分器为时间RNN和Transformer时间编码提供神经类比参照。
 
+
+---
+
+### 2026-09-07 · #124 · 活动依赖性髓鞘化
+
+**核心发现**：神经元放电通过谷氨酸/ATP/BDNF 招募 OPC 分化，在活跃轴突上增加新髓鞘，将白质变为大脑可塑性的第四个层面。因果证据强（光遗传+KO 双重验证）。
+
+**新增概念**：oligodendrocyte（established）、myelination（established）、activity-dependent-myelination（mainstream）
+
+**关键链接**：ADM 与 ltp、hebbian-learning、critical-period、bdnf、microglia 建立实质连接
+
+**开放问题**：时序 vs 代谢功能主导（Q-myelin-01）；DTI 2h 变化机制（Q-myelin-02）
+
+**课程进度**：Track 2（网络构建）髓鞘化子主题完成基础覆盖

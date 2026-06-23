@@ -2472,6 +2472,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/semantic-memory.md"
+    },
+    {
+      "id": "oligodendrocyte",
+      "title": "少突胶质细胞",
+      "domain": "neurons",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/oligodendrocyte.md"
+    },
+    {
+      "id": "myelination",
+      "title": "髓鞘化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/myelination.md"
+    },
+    {
+      "id": "activity-dependent-myelination",
+      "title": "活动依赖性髓鞘化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/activity-dependent-myelination.md"
     }
   ],
   "edges": [
@@ -11360,6 +11387,76 @@
       "from": "temporal-context-model",
       "to": "prefrontal-cortex",
       "type": "related"
+    },
+    {
+      "from": "action-potential",
+      "to": "activity-dependent-myelination",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "myelination",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "activity-dependent-myelination",
+      "to": "myelination",
+      "type": "is-a"
+    },
+    {
+      "from": "myelination",
+      "to": "action-potential",
+      "type": "regulates"
+    },
+    {
+      "from": "activity-dependent-myelination",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "activity-dependent-myelination",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "activity-dependent-myelination",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "activity-dependent-myelination",
+      "to": "bdnf",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "microglia",
+      "to": "activity-dependent-myelination",
+      "type": "regulates"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "activity-dependent-myelination",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "synaptic-transmission",
+      "to": "activity-dependent-myelination",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "myelination",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "myelination",
+      "to": "critical-period",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "oligodendrocyte",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

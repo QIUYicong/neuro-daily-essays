@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-06（第136篇·TCM神经底层·MEC Layer III时间漂移细胞·CA2时间偏好·mPFC时间细胞作为读出器·Xiao 2026预印本人类工作记忆时间细胞）· 主题页总数：**270**（新建0页；修订3页：concepts/temporal-context-model rev2、concepts/time-cells rev3、systems/entorhinal-cortex rev4；图谱270节点/1586边+6边）
+> 最后更新：2026-09-07（第124篇·活动依赖性髓鞘化·白质可塑性·少突胶质细胞·OPC 突触样接触·BDNF-TrkB 必要通路·P21–P35 mPFC 临界期）· 主题页总数：**273**（新建3页：neurons/oligodendrocyte、concepts/myelination、concepts/activity-dependent-myelination；图谱273节点/1600边）
 
 ---
 
@@ -30,6 +30,7 @@
 - 🟢 [浦肯野细胞](neurons/purkinje-cell.md) — 小脑皮层唯一输出神经元；接受 ~20 万 PF（运动情景）+ 1 CF（误差/奖励预测违反信号）；LTD（mGluR1→PKC→AMPAR 内吞）；多层可塑性（Schonewille 2011）；复杂放电梯度；奖励 CF 信号（Jin 2025，emerging） **[NEW 2026-09-03]**
 - 🟢 [攀爬纤维](neurons/climbing-fiber.md) — 来自下橄榄核；每根与单一 PC 形成 400–500 个强突触；触发复杂放电（1–4 个去极化波峰，3–30 ms）；梯度误差信号（Zang 2019）；外侧小脑携带奖励预测误差（Jin & Hull 2025，emerging） **[NEW 2026-09-03]**
 - 🟢 [小脑颗粒细胞](neurons/granule-cell-cerebellar.md) — 约 690 亿个（全脑 50–80%）；MF→GC→PF 感觉运动情景高维重编码；稀疏 vs 密集编码争议（Xie 2023：任务依赖最优）；Lee 2023 因果证明对运动功能不可或缺 **[NEW 2026-09-03]**
+- 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — 中枢神经系统髓鞘形成细胞；OPC 终身存在并监听轴突放电；FYN-MBP 分化级联；代谢支持（MCT1-乳酸）；Mrf KO 阻断运动学习 **[NEW 2026-09-07]**
 - 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，模块化组织（1.4:1间距比），为场所细胞提供坐标框架；人类fMRI六边形信号证实（修订2次）
 - 🟢 [头向细胞](neurons/head-direction-cells.md) — 对头部方向选择性放电的神经元，构成大脑方位罗盘；环形吸引子网络生成；PoS/ADN/LMN/RSC回路 **[NEW 2026-07-27]**
 - 🟢 [边界细胞](neurons/border-cells.md) — MEC/下托中对环境边界距离/方向编码的神经元，为路径积分提供空间锚点防止误差累积 **[NEW 2026-07-27]**
@@ -159,6 +160,8 @@
 - 🟢 [乙酰胆碱皮层调质](concepts/acetylcholine-cortex.md) — 基底前脑胆碱能系统通过M1/M2/nAChR受体增大皮层信噪比；肌碱受体介导V1注意调制（Herrero 2008）；相位性/紧张性双时间尺度；支持皮层去同步和工作记忆持续放电 **[NEW 2026-06-12]**
 - 🟢 [皮层增益控制](concepts/gain-control.md) — 神经调质系统的核心输出：乘法性缩放皮层神经元输入-输出曲线；ACh通过M1、NE通过α2A/α1实现；注意调制的分子机制（修订5次）**[NEW 2026-06-12]**
 - 🟢 [除法规范化](concepts/divisive-normalization.md) — 皮层规范计算：$R_j = \gamma D_j^n/(\sigma^n + \sum_k D_k^n)$；统一解释V1对比度饱和/交叉朝向抑制/环绕抑制；Reynolds & Heeger注意场规范化（注意场宽度决定对比度增益vs响应增益）；LIP价值规范化；Pareto分布下信息论最优编码；与Transformer Softmax的根本差异 **[NEW 2026-09-02]**
+- 🟢 [髓鞘化](concepts/myelination.md) — 少突胶质细胞包裹轴突的跳跃传导机制（50–200 m/s vs <2 m/s）；郎飞结；速度/时序/代谢双功能；发育时程（前额叶到20s）；白质的时序精度决定神经元同步质量 **[NEW 2026-09-07]**
+- 🟢 [活动依赖性髓鞘化](concepts/activity-dependent-myelination.md) — 神经元放电→谷氨酸/ATP/BDNF→OPC→FYN-MBP 级联→新髓鞘；学习写在白质上；光遗传+KO 双重因果证据；P21–P35 mPFC 经验敏感临界期；白质是大脑可塑性的第四个层面 **[NEW 2026-09-07]**
 - 🟡 [多层增益控制架构](concepts/multi-timescale-plasticity.md) — STP（毫秒–秒层一）+ ACh/NE增益控制（秒–分钟层二）+ DA-RPE（分钟–小时层三）三层嵌套；Marder原则：调质环境决定功能回路；第三周综合框架 **[NEW 2026-05-30]**
 - 🟢 [去甲肾上腺素与蓝斑系统](concepts/norepinephrine-locus-coeruleus.md) — 蓝斑LC通过相位性/紧张性双模式和倒U形NE浓度曲线优化皮层认知增益；α2A稳定PFC工作记忆；β受体促进情绪记忆LTP；选择性集合体拓扑组织；AD/PD早期LC退变（55%神经元丢失）**[NEW 2026-06-12 · 修订 rev4 2026-08-10]**
 - 🔵 [5-HT自受体与SSRI延迟起效](concepts/5-ht-autoreceptor.md) — 5-HT1A树突自受体负反馈在急性期抵消SSRI效果；14天后自受体脱敏解除制动；皮质5-HT1A/2A功能拮抗；pindolol加速起效的临床证据 **[NEW 2026-06-13]**
