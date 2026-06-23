@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-09-05 · 文章 #135 · 语义记忆神经拓扑：颞叶前部枢纽-辐条模型
+
+**核心主题**：颞叶前部（ATL）如何充当跨模态语义枢纽，通过"枢纽-辐条"结构整合感觉运动皮层的模态特异属性——语义痴呆作为ATL损伤的自然实验，Jung 2026聚焦超声证据，Huth 2016全皮层语义地图，语义控制双系统（LIFG+pMTG）。层级：脑区/全脑网络/认知。图谱从268节点/1571边增至270节点/1580边（+2节点，+9边）。
+
+### 新建 Wiki 页面（2 个）
+
+- `systems/anterior-temporal-lobe.md`（颞叶前部语义枢纽）🔵 mainstream · 高置信度 — 双侧ATL跨模态语义枢纽；感觉皮层连接质心（Bajada 2019）；TMS因果证据（Pobric 2010 PMID:20451381）；语义痴呆→类别无关崩溃（Patterson 2007）；聚焦超声GABA+Glx+灰质体积变化（Jung 2026 PMID:41698912）；双侧ATL社会/非社会语义共享（Rouse 2024）；语义控制节点（LIFG+pMTG）
+- `concepts/semantic-memory.md`（语义记忆）🟢 established · 高置信度 — 枢纽-辐条模型框架；与情景记忆双解离；Hebbian建立感觉辐条；ATL跨模态整合；语义控制层（LIFG+pMTG）；CLS理论中与海马的分工
+
+### 修订 Wiki 页面（2 个）
+
+- `concepts/embodied-semantics.md` rev1→rev2 — 新增ATL枢纽与具身论的理论关系：感觉运动辐条是"具身论的材料"，ATL枢纽提供跨模态整合，两者组成分级具身论；Pobric 2010 TMS证据为具身辐条提供侧证；related增加 anterior-temporal-lobe, semantic-memory
+- `systems/language-network.md` rev5→rev6 — 新增语义层：ATL是腹侧流"声音→意义"通路的语义核心节点；hub-and-spoke模型对语言网络的意义（LIFG/BA45=语义控制节点）；related增加 anterior-temporal-lobe, semantic-memory；key_sources增加 PMID:20451381, PMID:27121839
+
+### 矛盾登记（0 个）
+
+无新矛盾。既有具身语义vs符号论争议（embodied-semantics.md, status: contested）被本文深化为"分级具身论"的调和视角，状态维持contested（新证据部分调和但未彻底解决）。
+
+### 新增悬空引用（0 个）
+
+所有新节点（anterior-temporal-lobe, semantic-memory）对应的page路径已创建。
+
+---
+
 ## 2026-09-03 · 文章 #133 · 小脑浦肯野细胞与运动预测学习
 
 **核心主题**：浦肯野细胞如何整合 20 万条平行纤维的运动情景信号与单根攀爬纤维的"误差/预测违反"信号，通过 LTD 等多层可塑性机制实现前向运动控制——重点更新：Nguyen & Person 2025（前向控制为 model-free implicit mapping）；Jin & Hull 2025（攀爬纤维同时携带奖励预测误差，小脑参与广义强化学习）；Schonewille 2011（LTD 非运动学习唯一机制）；Xie 2023（颗粒细胞最优编码密度任务依赖）。图谱从 263 节点/1551 边增至 267 节点/1562 边（+4 节点，+11 边），悬空引用从 1 个降至 0 个。

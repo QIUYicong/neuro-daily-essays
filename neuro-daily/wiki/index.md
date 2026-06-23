@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-04（第134篇·深部小脑核DCN·三核团三细胞类型·去抑制为主机制·PNN三层可塑性·饱腹感/认知非运动功能）· 主题页总数：**268**（新建1页：systems/deep-cerebellar-nuclei；修订4页：systems/cerebellum rev4、concepts/forward-model rev2、concepts/perineuronal-nets rev3、neurons/purkinje-cell rev2；图谱268节点/1571边）
+> 最后更新：2026-09-05（第135篇·颞叶前部语义枢纽·枢纽-辐条模型·语义痴呆→ATL枢纽损伤签名·Huth 2016全皮层语义地图·Jung 2026聚焦超声增强语义·语义控制双系统LIFG+pMTG）· 主题页总数：**270**（新建2页：systems/anterior-temporal-lobe、concepts/semantic-memory；修订2页：concepts/embodied-semantics rev2、systems/language-network rev6；图谱270节点/1580边）
 
 ---
 
@@ -226,12 +226,14 @@
 
 ## language（语言）
 
-- 🟢 [语言网络（双流模型）](systems/language-network.md) — 腹侧流（声音→意义，双侧）+ 背侧流（声音→动作/句法，左侧主导）；"自然种"地位（Fedorenko 2024 NRN）；产出-理解共享同一套表征（Hu 2022）；1亿词LLM达最大对齐度（Hosseini 2024）；3–9岁儿童已与MD网络功能分离（Hiersche 2024）**[修订rev5 2026-08-07]**
+- 🟢 [语言网络（双流模型）](systems/language-network.md) — 腹侧流（声音→意义，双侧）+ 背侧流（声音→动作/句法，左侧主导）；"自然种"地位（Fedorenko 2024 NRN）；产出-理解共享同一套表征（Hu 2022）；1亿词LLM达最大对齐度（Hosseini 2024）；3–9岁儿童已与MD网络功能分离（Hiersche 2024）；腹侧流语义核心节点=双侧ATL（Pobric 2010，修订rev6 2026-09-05）**[修订rev6 2026-09-05]**
+- 🔵 [颞叶前部（语义枢纽）](systems/anterior-temporal-lobe.md) — 双侧ATL是跨模态语义枢纽；感觉皮层连接质心（Bajada 2019）；rTMS因果证据（Pobric 2010）；SD→类别无关语义崩溃（Patterson 2007）；聚焦超声→GABA↓Glx↑灰质↑（Jung 2026）；双侧共享社会/非社会语义（Rouse 2024）**[NEW 2026-09-05]**
 - 🟢 [Broca区（额叶下回）](systems/broca-area.md) — BA44（层级句法Merge，背侧流）vs BA45（语义工作记忆，腹侧流）；人类左BA44前部进化扩张1.64倍（Gallardo 2023）；3→4岁发育神经重组pSTS→BA44（Klein 2022）；MVPA分类图谱（Schell 2022）**[修订rev3 2026-08-07]**
 - 🟢 [弓状束](concepts/arcuate-fasciculus.md) — 背侧流主干白质通路；三段解剖（额叶-顶叶-颞叶）；左侧优势；完整功能谱（右半球AF：社会认知/空间注意/音乐）；出生时低髓鞘化→随句法习得成熟；损伤→传导性失语；手术顶叶段风险最高（Vavassori 2023）**[修订rev2 2026-08-07]**
 - 🟢 [背侧语言流](circuits/dorsal-language-stream.md) — A1→颞平面→Spt→弓状束→BA44；音韵缓冲+句法层级运算；左侧主导 **[NEW 2026-06-20]**
 - 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→角回→BA45；声音→词义；双侧；具身语义（工具→运动皮层，动物→视觉皮层） **[NEW 2026-06-20]**
-- 🔴 [具身语义](concepts/embodied-semantics.md) — 词义神经基底是感觉运动皮层再激活（Hauk 2004 somatotopy；Pulvermüller 2005 TMS类别特异性因果效应）；面临复制危机（de Zubicaray 2026）；分级具身论+Hub-and-Spoke整合模型取代强具身论 **[NEW 2026-06-02]**（填补图谱唯一悬空引用）
+- 🔴 [具身语义](concepts/embodied-semantics.md) — 词义神经基底是感觉运动皮层再激活（Hauk 2004 somatotopy；Pulvermüller 2005 TMS类别特异性因果效应）；面临复制危机（de Zubicaray 2026）；分级具身论+Hub-and-Spoke整合模型取代强具身论；ATL枢纽整合感觉运动辐条（Pobric 2010，修订rev2 2026-09-05）**[修订rev2 2026-09-05]**
+- 🟢 [语义记忆](concepts/semantic-memory.md) — 枢纽-辐条模型：ATL跨模态枢纽+感觉运动辐条；与情景记忆双解离（SD vs 遗忘症）；Hebbian建立辐条；语义控制层（LIFG+pMTG）；CLS理论中与海马互补**[NEW 2026-09-05]**
 - 🟢 [心智理论（ToM）](concepts/theory-of-mind.md) — 大脑推断他人信念/意图/情感的能力；核心三节点（pTPJ+mPFC+DMN dMPFC子系统）；假信念任务（Sally-Anne，4岁发展里程碑）；ASD 中 DMN 功能连接降低与 ToM 缺陷关联；GPT-4 ToM 测试的局限 **[NEW 2026-08-01]**
 - 🔴 [镜像神经元系统](concepts/mirror-neuron-system.md) — Rizzolatti 1992 猕猴 F5 区 ~17% MNS 神经元；直接匹配假说（动作观察=运动共鸣）；Hickok "破碎镜子"批评（Broca 失语不损动作理解）；模拟理论 vs. 理论理论；MNS-ToM 因果关系争议（C-mirror-01 开放）**[NEW 2026-08-01 · 争议]**
 - 🔵 [短语结构组装（Merge操作）](concepts/phrase-structure-building.md) — Chomsky Merge递归操作的神经基础（左BA44）；AⁿBⁿ层级规则选择性激活BA44（vs线性序列）；Schell 2022 MVPA：BA44分类grammatical词组/BA45分类semantic词组；Hu 2022精准fMRI：产出和理解共享Merge机制 **[NEW 2026-08-07]**

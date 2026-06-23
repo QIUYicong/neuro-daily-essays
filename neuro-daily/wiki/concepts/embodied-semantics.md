@@ -6,14 +6,14 @@ type: theory
 status: contested
 confidence: medium
 created: 2026-06-02
-updated: 2026-06-02
-revision_count: 1
+updated: 2026-09-05
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, brain-region, cognition]
-related: [language-network, motor-cortex, ventral-language-stream, mirror-neurons, predictive-coding, working-memory]
+related: [language-network, motor-cortex, ventral-language-stream, mirror-neurons, predictive-coding, working-memory, anterior-temporal-lobe, semantic-memory]
 prerequisites: [action-potential, synaptic-transmission, ltp, motor-cortex]
 opens_questions: [Q-emb-01, Q-emb-02, Q-emb-03, Q-emb-04, Q-emb-05]
-source_articles: [2026-06-02-embodied-semantics]
-key_sources: ["PMID:14741110", "PMID:15733097", "PMID:15969907", "PMID:25452575", "PMID:23574587", "PMID:34252418", "PMID:42039049"]
+source_articles: [2026-06-02-embodied-semantics, 2026-09-05-anterior-temporal-lobe-semantic-hub]
+key_sources: ["PMID:14741110", "PMID:15733097", "PMID:15969907", "PMID:25452575", "PMID:23574587", "PMID:34252418", "PMID:42039049", "PMID:20451381", "PMID:24324236"]
 ---
 
 # 具身语义 (Embodied Semantics)
@@ -89,7 +89,9 @@ key_sources: ["PMID:14741110", "PMID:15733097", "PMID:15969907", "PMID:25452575"
 ## 修订历史
 
 - 2026-06-02 · 创建 · 基于《当大脑读到"踢"，脚步已先响》 · 状态：contested · 初始置信度：中
+- 2026-09-05 · 修订 · 基于《语义记忆的神经拓扑》（文章#135）· 新增 ATL枢纽与具身论的理论关系：感觉运动辐条是"具身论的材料"，ATL枢纽提供跨模态整合，两者组成分级具身论；ATL枢纽的因果TMS证据（Pobric 2010）为具身论的辐条地位提供了侧证；更新related字段加入 anterior-temporal-lobe, semantic-memory
 
 ## 来源文章
 
 - [[2026-06-02-embodied-semantics]]
+- [[2026-09-05-anterior-temporal-lobe-semantic-hub]]

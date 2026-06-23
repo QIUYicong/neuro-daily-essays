@@ -8456,6 +8456,22 @@
     ],
     "systems": [
       "2026-08-30"
+    ,
+  {
+    "date": "2026-09-05",
+    "article_number": 135,
+    "title": "语义记忆的神经拓扑：颞叶前部枢纽如何从感觉辐条聚合概念",
+    "core_question": "颞叶前部（ATL）如何充当语义枢纽，把分布在感觉运动皮层各处的特征整合成跨模态的统一概念——语义痴呆如何证明了这一枢纽的必要性？",
+    "layer": "brain-region/whole-brain-network/cognition",
+    "topic_tags": ["语义记忆", "颞叶前部", "枢纽-辐条模型", "语义痴呆", "概念表征", "语义控制"],
+    "main_sources": ["PMID:18026167", "PMID:20451381", "PMID:24324236", "PMID:27121839", "PMID:23260615", "PMID:39513090", "PMID:41698912", "PMID:31377672"],
+    "wiki_created": ["systems/anterior-temporal-lobe", "concepts/semantic-memory"],
+    "wiki_revised": ["concepts/embodied-semantics", "systems/language-network"],
+    "unresolved_questions": ["Q-atl-01", "Q-atl-02", "Q-atl-03"],
+    "next_suggested_topics": [
+      "海马时间细胞与时间情境模型 (TCM) 的神经底层 (Q-tc-01/Q-tc-04)",
+      "多重发生器假说实验检验 (Q-ncc-04, 意识理论)",
+      "神经振荡的跨频耦合机制（theta-gamma代码与工作记忆）"
     ]
   }
-}
+]

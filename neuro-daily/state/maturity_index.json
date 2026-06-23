@@ -647,13 +647,26 @@
     "confidence": "high",
     "last_changed": "2026-09-03",
     "reason": "新建（导航页，填补悬空引用）：dACC 冲突监控框架为 established（Botvinick 2001 + 多项 fMRI/EEG 验证）；ERN 和 N2 成分观测；页面内容已由 anterior-cingulate-cortex 和 conflict-monitoring 覆盖"
-  }
-,
+  },
   {
     "slug": "deep-cerebellar-nuclei",
     "status": "established",
     "confidence": "high",
     "last_changed": "2026-09-04",
     "reason": "新建：DCN解剖与去抑制主要输出机制 established（Ishikawa 2014灵长类证据）；三类细胞分类 established（Wu 2025）；三层可塑性框架 established（Bhatt 2024综述）；PNN在DCN的作用 established（Bhatt 2018定量数据）；非运动功能（饱腹感/认知/社交）emerging-mainstream"
+  },
+  {
+    "slug": "anterior-temporal-lobe",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-09-05",
+    "reason": "ATL语义枢纽地位由TMS因果证据(Pobric 2010)、SD自然实验(Patterson 2007)、连接组学(Bajada 2019)和超声实验(Jung 2026)四方汇聚支持；定为mainstream因存在单一枢纽vs多枢纽(Binder 2011)的理论争议"
+  },
+  {
+    "slug": "semantic-memory",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-05",
+    "reason": "枢纽-辐条模型框架获多方法汇聚支持；语义记忆与情景记忆的双解离是确立的神经心理学事实；定为established"
   }
 ]

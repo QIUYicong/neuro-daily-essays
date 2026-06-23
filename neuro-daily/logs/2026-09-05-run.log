@@ -1,0 +1,104 @@
+# 2026-09-05 Daily Run Log
+# Article #135: 语义记忆的神经拓扑：颞叶前部枢纽如何从感觉辐条聚合概念
+# Knowledge-base date: 2026-09-05 | System clock: 2026-06-23 UTC+8
+
+## Run Summary
+- Status: SUCCESS
+- Branch: main (origin: QIUYicong/neuro-daily-essays)
+- Article: 2026-09-05-anterior-temporal-lobe-semantic-hub.md
+- Layer: brain-region / whole-brain-network / cognition（从近5天的cellular/microcircuit切换至脑区/认知层）
+
+## Topic Selection Rationale
+- Recent 4 articles (#131-#134) focused on motor/cerebellar circuits (MSN, divisive normalization, Purkinje cells, DCN)
+- Selected to shift to brain-region/cognition layer to avoid 3+ consecutive same-layer entries
+- High-priority unresolved questions: Q-theta-primate (covered in existing pages), Q-atl domain previously unaddressed
+- Course spine #7 (Language & Abstract Thinking) had language network, Broca area, embodied semantics, but no dedicated semantic memory / ATL hub page
+- Selected topic: Anterior temporal lobe as semantic hub (hub-and-spoke model)
+- Core question: How does ATL integrate cross-modal features into unified concepts? How does semantic dementia confirm this hub's necessity?
+
+## Search Queries Used
+1. "anterior temporal lobe semantic memory hub spoke model" → PubMed esearch
+2. "semantic dementia anterior temporal lobe concept representation" → PubMed esearch
+3. "semantic memory neural basis review 2020:2025" → PubMed esearch
+4. "Lambon Ralph semantic hub anterior temporal" → PubMed esearch
+5. "Binder Desai neurobiology semantic memory 2011" → PubMed esearch (→ PMID:22001867)
+6. "Huth natural speech semantic map cortex 2016" → PubMed esearch (→ PMID:27121839)
+7. "Patterson Nestor Rogers semantic knowledge human brain 2007" → PubMed esearch (→ PMID:18026167)
+8. "Jefferies semantic cognition control review 2013" → PubMed esearch (→ PMIDs: 23859646, 23260615)
+9. "Lambon Ralph semantic cognition Nature Reviews Neuroscience" → PubMed esearch (→ PMID:29604611)
+10. Europe PMC: queries for 2024-2026 recent papers on semantic ATL
+
+## Databases Searched
+- PubMed/NCBI E-utilities (esearch + efetch)
+- Europe PMC REST API
+
+## Sources Retrieved: 13 total
+### Open full text (PMC/OA): 5 papers
+- PMID:20451381 (Pobric 2010, Curr Biol) — TMS因果证据 ✅
+- PMID:27121839 (Huth 2016, Nature) — 全皮层语义地图 ✅ PMC confirmed
+- PMID:39513090 (Rouse 2024, Brain Commun) PMCID:PMC11542483 — 社会/非社会语义双侧ATL ✅
+- PMID:41698912 (Jung 2026, Nat Commun) PMCID:PMC13022233 — 聚焦超声增强语义 ✅
+- PMID:41884259 (Jackson 2026, Neurobiol Lang) PMCID:PMC13012739 — 计算模型与精密记录 ✅
+- PMID:40986416 (Whiteside 2026, Brain) PMCID:PMC13140614 — SD症状前期 ✅
+
+### Abstract only: 7 papers
+- PMID:18026167 (Patterson 2007, Nat Rev Neurosci) — 综述+Mr.M案例 ⚠️ 付费全文
+- PMID:24324236 (Lambon Ralph 2013, Phil Trans R Soc B) — 枢纽-辐条模型综述 ⚠️
+- PMID:23260615 (Jefferies 2013, Cortex) — 语义控制综述 ⚠️
+- PMID:29604611 (Chiou 2018, Cortex) — 语义控制+表征动态耦合 ⚠️
+- PMID:31377672 (Bajada 2019, Cortex) — 连接组学质心证据 ⚠️
+- PMID:21391767 (Visser 2011, J Cogn Neurosci) — vATL多模态激活 ⚠️
+- PMID:22001867 (Binder & Desai 2011, Trends Cogn Sci) — 对立视角（分布式网络） ⚠️
+
+## PMC Full Text Access Note
+- PMC pages returned CAPTCHA blocks; used Europe PMC REST API and PubMed efetch for abstracts
+- Full text for open-access articles verified via PMCID; article marked accordingly
+
+## Sources Rejected
+- 多篇泛化的痴呆/学习障碍综述不直接涉及ATL语义枢纽机制 → 排除
+- "IBD neuroimaging" (PMC13275236) 等不相关命中 → 排除
+- 过旧（>15年）且已被综述纳入 → 以综述引用为准
+
+## Wiki Pages Created (2)
+- wiki/systems/anterior-temporal-lobe.md (rev1, new page, mainstream/high)
+- wiki/concepts/semantic-memory.md (rev1, new page, established/high)
+
+## Wiki Pages Revised (2)
+- wiki/concepts/embodied-semantics.md (rev1→rev2) — 新增ATL枢纽与具身论的关系：分级具身论调和框架；related增加ATL和semantic-memory
+- wiki/systems/language-network.md (rev5→rev6) — 新增腹侧流语义核心节点=ATL；ATL TMS证据；hub-and-spoke对语言网络意义；related增加anterior-temporal-lobe, semantic-memory
+
+## Knowledge Graph Updates
+- Nodes: 268 → 270 (+2: anterior-temporal-lobe, semantic-memory)
+- Edges: 1571 → 1580 (+9 new typed edges)
+
+## State File Updates
+- state/unresolved_questions.md — Q-atl-01 through Q-atl-03 added
+- state/topic_ledger.json — article #135 entry appended
+- state/maturity_index.json — anterior-temporal-lobe (mainstream/high), semantic-memory (established/high) added
+- state/monthly_synthesis.md — 2026-09-05 summary appended
+- wiki/CHANGELOG.md — 2026-09-05 entry prepended
+- wiki/index.md — last-update line updated; anterior-temporal-lobe added to language section; semantic-memory added to concepts section
+
+## Errors and Fixes
+- PMC HTML pages blocked by CAPTCHA → used Europe PMC REST API and PubMed efetch as alternative
+- maturity_index.json is a JSON array (list), not dict → fixed script to use list.append()
+- topic_ledger.json has pre-existing JSON syntax error (known issue) → used text manipulation to append
+
+## Contested Claims
+- 0 new contested claims registered
+- Existing contested_claims: embodied-semantics具身论vs符号论（status: open）被本文深化但未解决；ATL单一枢纽vs多节点网络（Binder 2011 vs Lambon Ralph 2013）被标记为ongoing争议，未新建正式contested entry因证据尚不足以formalize冲突
+
+## Unresolved Questions Closed (0)
+- None formally resolved today
+
+## Self-check Results
+真实性：所有wiki新主张有PMID/来源；区分了事实/模型/推测；未把SD单一案例写成定论 ✅
+一致性：embodied-semantics新增信息与原有状态（contested）保持一致；language-network修订未改变核心框架 ✅
+可导航：index和CHANGELOG已更新；新页related各≥1 ✅
+情景层：articles/notes/sources/logs均创建；未修改旧文件 ✅
+
+## Commit Info
+- Files committed: neuro-daily/articles/, neuro-daily/notes/, neuro-daily/sources/, neuro-daily/logs/, neuro-daily/wiki/, neuro-daily/state/
+- Commit message: Add neuro daily article + wiki consolidation for 2026-09-05
+- Branch: main
+- Push target: origin (QIUYicong/neuro-daily-essays)

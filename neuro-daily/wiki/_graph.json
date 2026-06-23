@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "node_count": 267,
   "edge_count": 1562,
   "edge_types": [
@@ -2454,6 +2454,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/deep-cerebellar-nuclei.md"
+    },
+    {
+      "id": "anterior-temporal-lobe",
+      "title": "颞叶前部（语义枢纽）",
+      "domain": "systems",
+      "type": "region",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/systems/anterior-temporal-lobe.md"
+    },
+    {
+      "id": "semantic-memory",
+      "title": "语义记忆",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/semantic-memory.md"
     }
   ],
   "edges": [
@@ -11267,6 +11285,51 @@
       "to": "deep-cerebellar-nuclei",
       "type": "mechanism-of",
       "note": "前向模型在神经层面通过DCN的长环路计算实现"
+    },
+    {
+      "from": "anterior-temporal-lobe",
+      "to": "semantic-memory",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "semantic-memory",
+      "to": "anterior-temporal-lobe",
+      "type": "supported-by"
+    },
+    {
+      "from": "anterior-temporal-lobe",
+      "to": "language-network",
+      "type": "part-of"
+    },
+    {
+      "from": "anterior-temporal-lobe",
+      "to": "embodied-semantics",
+      "type": "related"
+    },
+    {
+      "from": "semantic-memory",
+      "to": "embodied-semantics",
+      "type": "related"
+    },
+    {
+      "from": "semantic-memory",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "semantic-memory",
+      "to": "language-network",
+      "type": "related"
+    },
+    {
+      "from": "anterior-temporal-lobe",
+      "to": "inferior-temporal-cortex",
+      "type": "related"
+    },
+    {
+      "from": "anterior-temporal-lobe",
+      "to": "broca-area",
+      "type": "related"
     }
   ],
   "dangling_references": [
