@@ -8550,4 +8550,36 @@
     "system_clock_date": "2026-06-23",
     "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-09"
   }
+,
+  {
+    "date": "2026-09-10",
+    "article_number": 140,
+    "title": "20周认知地图综合：大脑如何在五个尺度上构建世界模型",
+    "core_question": "经过139篇文章、277个wiki节点、1617条知识连接的积累，神经科学知识库呈现出什么样的整体图景？大脑从细胞、突触和网络中构建认知的深层逻辑是什么？",
+    "layer": "molecular/synaptic/microcircuit/brain-region/whole-brain-network/cognition",
+    "topic_tags": ["20周综合", "世界模型", "五尺度统一原理", "预测编码", "E/I平衡", "规范计算", "专化整合", "预测误差", "层级架构", "知识图谱分析"],
+    "main_sources": [
+      "知识库内部（277节点/1617边/139篇文章）",
+      "PMID:4727084 Bliss & Lomo 1973",
+      "PMID:10195184 Rao & Ballard 1999",
+      "PMID:23177956/PMC3777736 Bastos 2012",
+      "PMID:37516773 COGITATE 2023",
+      "PMID:18267246 Day 2008"
+    ],
+    "wiki_created": [],
+    "wiki_revised": ["concepts/world-model (rev2->rev3)"],
+    "unresolved_questions": ["Q1(意识NCC)", "Q2(记忆巩固选择机制)", "Q3(关键期临床恢复)", "Q4(AD/PD线粒体第一因)", "Q5(mPTP身份)"],
+    "next_suggested_topics": [
+      "活性氧（ROS）与氧化应激——神经元抗氧化系统与神经退行性疾病",
+      "ALS（肌萎缩侧索硬化）——运动神经元选择性死亡的多重机制",
+      "果蝇全脑连接组（Dorkenwald 2024）——Connectomics脊柱9",
+      "MICrONS小鼠皮层柱连接组",
+      "空间转录组与神经元亚型空间分布"
+    ],
+    "knowledge_base_date": "2026-09-10",
+    "system_clock_date": "2026-06-23",
+    "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-10（第140篇第20周综合）",
+    "article_type": "week20_synthesis",
+    "graph_update": "277 nodes / 1617 edges (unchanged - synthesis article)"
+  }
 ]

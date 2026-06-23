@@ -1,0 +1,93 @@
+# 运行日志 · 2026-09-10（第140篇）
+
+**运行时间**：2026-06-23 UTC+8（系统时钟）
+**知识库连续性日期**：2026-09-10
+**分支**：main
+**文章类型**：第20周综合（Week 20 Synthesis · Milestone）
+
+---
+
+## A. 状态读取
+
+- topic_ledger.json：已读取，最新条目为 #139（2026-09-09，线粒体功能障碍）
+- unresolved_questions.md：已读取尾部，确认5条open矛盾，最新问题为Q-mito-01/02/03
+- contested_claims.json：已读取，5条open矛盾（最高优先级：C-2026-05-30-01 GWT vs IIT）
+- wiki/_graph.json：277节点，1617边，无悬空引用
+
+## B. 选题
+
+**条件分析**：
+- 无悬空引用
+- 主题台账建议"第140篇周综合"
+- 140 = 20 × 7，为第20次周综合里程碑
+- 近7篇（#133-#139）覆盖神经流形→MSN→除法归一化→浦肯野细胞→深部小脑核→颞叶语义→时间情境→亨廷顿病→兴奋毒性→线粒体功能障碍，跨越系统/分子/疾病多层级
+- 决定：第20周综合（里程碑：知识库从分子到意识的元级整合）
+
+**主题**：20周认知地图综合——大脑如何在五个尺度上构建世界模型
+**核心问题**：经过139篇文章，神经科学知识图谱呈现的"深层逻辑"是什么？
+
+## C. 检索与资料
+
+**来源类型**：知识库内部积累（277节点/1617边/139篇文章）为主
+**外部引用文献**（已验证，均在先前文章中使用过）：
+- PMID:4727084（Bliss & Lømo 1973 LTP）
+- PMID:15454134（Malenka & Bear 2004 LTP/LTD综述）
+- PMID:28198700（Bittner 2017 BTSP）
+- PMID:10195184（Rao & Ballard 1999 预测编码）
+- PMID:23177956 / PMC3777736（Bastos 2012 皮层振荡分工，开放全文）
+- PMID:27151462（Tremblay 2016 中间神经元，摘要）
+- PMID:22081199（Carandini & Heeger 2011 规范计算，摘要）
+- PMID:37516773（COGITATE 2023 意识研究）
+- PMID:18267246（Day 2008 D2-MSN树突棘，摘要）
+- PMID:21867888（Howard & Kahana 2002 TCM，开放全文）
+- PMID:17890896（Patterson 2007 ATL语义，摘要）
+- PMID:20451381（Pobric 2010 TMS-ATL，摘要）
+- PMID:18400922（Buckner 2008 DMN综述，开放全文）
+
+**已读取开放全文数**：4篇（PMID:23177956, 21867888, 18400922，以及PMID:37516773部分）
+**摘要only**：9篇
+
+## D. 固结
+
+**今日触及概念**：世界模型（world-model）、预测编码、E/I平衡、规范计算、五尺度统一原理
+**wiki修订（1页）**：
+- `concepts/world-model`（rev2→rev3）：新增五尺度统一原理视角、hub节点分析、三个深层悖论
+
+**矛盾检查**：无新矛盾（综合性文章不引入新实验，不产生新矛盾）
+**成熟度更新**：world-model 保持 emerging/medium（整合框架，非单一实验结论）
+
+## E. 图谱与导航
+
+- `_graph.json`：无变化（277节点/1617边）
+- `wiki/CHANGELOG.md`：已追加今日条目
+- `wiki/index.md`：不更新（无新节点）
+
+## F. 治理层
+
+- `topic_ledger.json`：已追加 #140 条目
+- `state/monthly_synthesis.md`：已追加2026-09-10里程碑条目
+- `state/unresolved_questions.md`：无新问题（综合文章确认5大跨尺度开放问题）
+- `state/source_registry.json`：综合文章不新增来源注册（均为已知来源）
+
+## G. 文件产出
+
+- articles/2026-09-10-week20-synthesis-brain-world-model-five-scales.md ✓
+- notes/2026-09-10-reading-notes.md ✓
+- sources/2026-09-10-sources.json ✓
+- wiki/concepts/world-model.md（修订 rev2→rev3）✓
+- wiki/CHANGELOG.md（追加今日条目）✓
+- state/topic_ledger.json（追加 #140）✓
+- state/monthly_synthesis.md（追加里程碑条目）✓
+
+## H. 自检
+
+**真实性**：✓ 综合文章引用的所有来源均在此前文章中已验证，无新编造
+**一致性**：✓ world-model 修订历史同步，无新矛盾
+**可导航**：✓ CHANGELOG追加，wiki/index无需更新（无新节点）
+**情景层**：✓ 文章/笔记/来源/日志齐全，未修改旧文件
+
+## 提交与推送状态
+
+**Branch**：main
+**Commit**：待执行
+**Push**：待执行

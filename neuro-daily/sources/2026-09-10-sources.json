@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-10",
+  "article_number": 140,
+  "article_type": "week20_synthesis",
+  "knowledge_base_date": "2026-09-10",
+  "system_clock_date": "2026-06-23",
+  "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-10（第140篇·第20周综合）",
+  "sources_note": "本篇为第20周综合，主要来源为知识库139篇文章积累（非新检索）。以下列出文章中明确引用的核心文献。",
+  "sources": [
+    {
+      "pmid": "4727084",
+      "title": "Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path",
+      "authors": "Bliss TV, Lømo T",
+      "journal": "J Physiol",
+      "year": 1973,
+      "full_text_available": true,
+      "access_method": "historical open access",
+      "used_for": "LTP经典证据，分子尺度基石"
+    },
+    {
+      "pmid": "15454134",
+      "title": "LTP and LTD: an embarrassment of riches",
+      "authors": "Malenka RC, Bear MF",
+      "journal": "Neuron",
+      "year": 2004,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": "LTP/LTD分子机制综述"
+    },
+    {
+      "pmid": "28198700",
+      "title": "Behavioral time scale synaptic plasticity underlies CA1 place fields",
+      "authors": "Bittner KC et al.",
+      "journal": "Science",
+      "year": 2017,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": "BTSP证据，挑战经典STDP时间窗"
+    },
+    {
+      "pmid": "10195184",
+      "title": "Predictive coding in the visual cortex: a functional interpretation of some extra-classical receptive-field effects",
+      "authors": "Rao RP, Ballard DH",
+      "journal": "Nat Neurosci",
+      "year": 1999,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": "预测编码计算框架"
+    },
+    {
+      "pmid": "23177956",
+      "pmcid": "PMC3777736",
+      "title": "Canonical microcircuits for predictive coding",
+      "authors": "Bastos AM et al.",
+      "journal": "Neuron",
+      "year": 2012,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "皮层α/β vs γ振荡频段分工"
+    },
+    {
+      "pmid": "27151462",
+      "title": "GABAergic interneurons in the neocortex: from cellular properties to circuits",
+      "authors": "Tremblay R et al.",
+      "journal": "Neuron",
+      "year": 2016,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": "PV/SST/VIP三类中间神经元分工"
+    },
+    {
+      "pmid": "22081199",
+      "title": "Normalization as a canonical neural computation",
+      "authors": "Carandini M, Heeger DJ",
+      "journal": "Nat Rev Neurosci",
+      "year": 2011,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": "规范计算（除法归一化）"
+    },
+    {
+      "pmid": "37516773",
+      "title": "Adversarial collaboration project: brain imaging vs. invasive electrophysiology...",
+      "authors": "COGITATE Consortium",
+      "journal": "Nature",
+      "year": 2023,
+      "full_text_available": false,
+      "access_method": "abstract only (PMC partial)",
+      "used_for": "意识理论GWT vs IIT对比研究",
+      "note": "PMID指向联盟主论文，部分正文可通过PMC获取"
+    },
+    {
+      "pmid": "18267246",
+      "title": "Selective elimination of glutamatergic synapses on striatopallidal neurons in Parkinson disease models",
+      "authors": "Day M et al.",
+      "journal": "Nat Neurosci",
+      "year": 2008,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": "D2-MSN选择性树突棘丢失（PD疾病）"
+    },
+    {
+      "id": "Howard_Kahana_2002",
+      "pmid": "21867888",
+      "title": "When does semantic similarity help episodic retrieval?",
+      "authors": "Howard MW, Kahana MJ",
+      "journal": "J Mem Lang",
+      "year": 2002,
+      "full_text_available": true,
+      "access_method": "open access",
+      "used_for": "时间情境模型（TCM）"
+    },
+    {
+      "pmid": "17890896",
+      "title": "Where do you know what you know? The representation of semantic knowledge in the human brain",
+      "authors": "Patterson K et al.",
+      "journal": "Nat Rev Neurosci",
+      "year": 2007,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": "ATL语义枢纽-辐条模型"
+    },
+    {
+      "pmid": "20451381",
+      "title": "Amodal semantic representations depend on both anterior temporal lobes: Evidence from functional TMS",
+      "authors": "Pobric G et al.",
+      "journal": "Neuropsychologia",
+      "year": 2010,
+      "full_text_available": false,
+      "access_method": "abstract only",
+      "used_for": "TMS证明ATL因果必要性"
+    },
+    {
+      "pmid": "18400922",
+      "title": "The brain's default network: anatomy, function, and relevance to disease",
+      "authors": "Buckner RL et al.",
+      "journal": "Ann NY Acad Sci",
+      "year": 2008,
+      "full_text_available": true,
+      "access_method": "open access",
+      "used_for": "默认模式网络综述"
+    }
+  ],
+  "knowledge_base_stats": {
+    "wiki_nodes": 277,
+    "wiki_edges": 1617,
+    "articles_before_this": 139,
+    "open_contested_claims": 5,
+    "domains": {
+      "concepts": 181,
+      "systems": 37,
+      "neurons": 27,
+      "circuits": 12,
+      "diseases": 9,
+      "theories": 6,
+      "methods": 5
+    }
+  }
+}
