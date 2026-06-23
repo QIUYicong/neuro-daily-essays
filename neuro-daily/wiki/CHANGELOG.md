@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-09-06 · 文章 #136 · 大脑的内部时间轴：内嗅皮层漂移与CA2如何支撑时间情境模型
+
+**核心主题**：TCM（时间情境模型）的神经底层——MEC Layer III时间漂移细胞、CA2的时间偏好（跨时间变化>跨空间变化）、CA1多尺度时间编码、mPFC作为下游读出器候选，以及Xiao 2026预印本（人类工作记忆时间细胞）。层级：细胞/微回路/脑区/认知。图谱维持270节点，从1580边增至1586边（+6边）。
+
+### 新建 Wiki 页面（0 个）
+
+今日无新建页面（所有核心概念已有页面）。
+
+### 修订 Wiki 页面（3 个）
+
+- `concepts/temporal-context-model.md` rev1→rev2 — 重大扩展：补充Howard 2014 Laplace变换数学框架（PMID:24672015）；新增"神经底层候选"节（MEC漂移/CA2时间偏好/CA1时间细胞分布式三节点）；证据表从3行扩至9行（新增Vo 2021因果损伤/Diehl 2019 MEC漂移/Mankin 2015 CA2/Tiganj 2017 mPFC/Marks&Kitamura 2021颞氨通路）；related增ca2-hippocampus/prefrontal-cortex/sharp-wave-ripples；新增Q-tc-04；key_sources+7个PMID；状态维持emerging/medium（完整因果链路缺口）
+- `concepts/time-cells.md` rev2→rev3 — 新增"CA2区与时间漂移"节（Mankin 2012/2015 PMID:23132944/25569350）；人类证据节扩展（Xiao 2026预印本PMID:41648128/Tiganj 2017 mPFC PMID:29145670）；证据表新增6行；related增prefrontal-cortex；key_sources+4个PMID；状态维持emerging/high
+- `systems/entorhinal-cortex.md` rev3→rev4 — 关键机制节增补"MEC层级功能组织"（Layer III 15%时间漂移细胞/颞氨通路功能分化）和"MEC时间记忆因果证据"（Vo 2021延迟依赖性损伤）；证据表+3行（PMID:30175425/34474155/32277786）；连接+temporal-context-model/ca2-hippocampus；未解问题更新Q-tc-01内容；key_sources+3个PMID；状态维持established/high
+
+### 矛盾登记/裁决（0 条）
+
+今日无新矛盾，无裁决；Q-tc-01仍开放（见unresolved_questions）。
+
+### 新增悬空引用（0 条）
+
+所有今日新增边均指向已存在节点。
+
+---
+
 ## 2026-09-05 · 文章 #135 · 语义记忆神经拓扑：颞叶前部枢纽-辐条模型
 
 **核心主题**：颞叶前部（ATL）如何充当跨模态语义枢纽，通过"枢纽-辐条"结构整合感觉运动皮层的模态特异属性——语义痴呆作为ATL损伤的自然实验，Jung 2026聚焦超声证据，Huth 2016全皮层语义地图，语义控制双系统（LIFG+pMTG）。层级：脑区/全脑网络/认知。图谱从268节点/1571边增至270节点/1580边（+2节点，+9边）。

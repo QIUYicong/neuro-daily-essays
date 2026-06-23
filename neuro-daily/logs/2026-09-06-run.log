@@ -1,0 +1,121 @@
+# 运行日志 · 2026-09-06
+
+**文章编号**：#136
+**文章标题**：大脑的内部时间轴：MEC漂移细胞×CA2时间偏好×颞氨通路如何共同撑起时间情境模型
+**文件路径**：articles/2026-09-06-tcm-neural-basis-mec-ca2-temporal-scaffold.md
+**运行状态**：✅ 完成
+
+---
+
+## 主题选择
+
+**选题来源**：state/unresolved_questions.md 中 Q-tc-01（高优先级，CA2/MEC是否是TCM神经底物）；同时为 state/topic_ledger.json 中 #135 文章（2026-09-05）的 next_suggested_topics 首选项
+
+**选题理由**：
+- Q-tc-01 是知识库中最高优先级的未解问题之一，涉及 TCM 框架的神经底物
+- 自 #103（时间细胞，2026-08-04）和 #113（CA2，2026-08-14）以来有多项新证据积累（Diehl 2019、Vo 2021、Marks & Kitamura 2021）尚未整合
+- 今日主题（时间情境模型神经底物）横跨 brain-region、microcircuit、cognition 多层，符合层级多样化原则
+- 知识库中 temporal-context-model、time-cells、entorhinal-cortex、ca2-hippocampus 均已存在页面，可进行深度整合性修订而无需新建
+
+---
+
+## 文献检索
+
+**检索工具**：PubMed/PMC E-utilities（esearch + efetch）
+
+**检索策略**：
+1. `medial entorhinal cortex temporal context time cells hippocampus` → MEC时间信号综述
+2. `hippocampal time cells elapsed interval memory delay` → 时间细胞核心文献
+3. `temporal context model neural basis hippocampus Howard Eichenbaum` → TCM框架文献
+4. `CA2 hippocampus temporal context social memory` → CA2时间偏好证据
+5. `entorhinal cortex temporal drift time representation neurons` → MEC漂移细胞
+6. `time cells hippocampus bridge gap discontiguous events` → MacDonald 2011原始论文
+7. `Mankin CA3 temporal context coding 2012` → Mankin 2012 CA1漂移
+8. `hippocampus same population temporal information multiple timescales CA1` → Mau 2018多尺度
+9. `time cells human hippocampus episodic working memory intracranial` → 人类证据
+
+**检索结果**：
+- 采用来源：14篇（详见 sources/2026-09-06-sources.json）
+- 排除来源：2篇（Sugar & Moser 2019综述/Naya & Suzuki 2017灵长类mPFC，与焦点重叠度低）
+
+**访问情况**：
+- PMC全文获取：PMID:23132944（Mankin 2012 PNAS）、PMID:24672015（Howard 2014 J Neurosci）、PMID:25569350（Mankin 2015 Neuron）、PMID:29706516（Mau 2018 Curr Biol）
+- 预印本：PMID:41648128（Xiao 2026 bioRxiv，未同行评审，⚠️ 标注）
+- 摘要：其余 9 篇
+- 未使用付费内容，未使用 Sci-Hub 或任何绕过 paywall 的方法
+
+---
+
+## 文章写作
+
+**字数**：约 4500 字（中文）
+**层级**：脑区/微回路/认知/全脑网络
+**结构**：
+- 今日核心问题
+- 一句话摘要
+- 为什么重要（学术意义 + 知识库意义）
+- TCM 框架回顾（Howard & Eichenbaum 行为预测 + Laplace 数学框架）
+- 时间细胞：从现象到问题
+- MEC 作为时间信号上游来源（时间漂移细胞 + 颞氨通路功能分化 + 因果损伤证据）
+- CA2 的时间属性（跨时间变化大于跨空间变化 + CA2→CA1 因果投射）
+- mPFC 作为候选读出器（Tiganj 2017 + 候选回路图）
+- 人类证据（Umbach 2020 + Reddy 2021 + Xiao 2026 预印本）
+- 比喻与局限性
+- 认知地图更新
+- 争议与未解问题
+- 与 AI 比较（Laplace-RNN/Transformer-时间编码类比）
+- 概念卡片（6 张）
+- 参考来源（14 篇）
+
+---
+
+## Wiki 知识库更新
+
+**新建 wiki 页面**：0 个
+
+**修订 wiki 页面**：3 个
+- `concepts/temporal-context-model.md`（rev1→rev2）：补充 Howard 2014 Laplace 数学框架；新增 MEC-CA2-CA1 三节点神经底层候选节；证据表 3→9 行；新增连接 3 个；新增 Q-tc-04；revision_count+1
+- `concepts/time-cells.md`（rev2→rev3）：新增 CA2 时间漂移节（Mankin 2012/2015）；扩展人类证据节（Xiao 2026/Tiganj 2017）；证据表新增 6 行；related 新增 prefrontal-cortex；revision_count+1
+- `systems/entorhinal-cortex.md`（rev3→rev4）：新增 MEC Layer III 功能分化/颞氨通路/Vo 2021 因果损伤三项内容；证据表新增 3 行；连接新增 2 个；Q-tc-01 更新为时间特异版本；revision_count+1
+
+**知识图谱更新**：
+- 节点：270（不变）
+- 边：1580→1586（+6条）
+- 新增边：
+  - temporal-context-model → ca2-hippocampus（mechanism-of）
+  - entorhinal-cortex → temporal-context-model（supports）
+  - prefrontal-cortex → time-cells（related）
+  - ca2-hippocampus → temporal-context-model（mechanism-of）
+  - entorhinal-cortex → ca2-hippocampus（regulates）
+  - temporal-context-model → prefrontal-cortex（related）
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`：✅ 追加 #136 条目
+- `state/unresolved_questions.md`：✅ 新增 Q-tc-01/Q-tc-04 进展更新节（2026-09-06）
+- `state/source_registry.json`：✅ 新增 sources_2026-09-05（5条）和 sources_2026-09-06（15条）；last_updated 更新
+- `state/monthly_synthesis.md`：✅ 月度表头更新（截至 2026-09-06，共6篇）；新增 #136 日条目
+
+**导航文件更新**：
+- `wiki/CHANGELOG.md`：✅ 新增 2026-09-06 条目
+- `wiki/index.md`：✅ 更新页头（270节点/1586边）
+- `wiki/_graph.json`：✅ 新增 6 条边，updated 更新为 2026-09-06
+
+---
+
+## 技术记录
+
+**遇到的挑战**：
+1. 从上一 context 窗口继续执行（上下文压缩后恢复）；状态文件更新从 topic_ledger 之后的步骤继续
+2. source_registry.json 末尾 JSON 结构正确追加（用 Python 字符串操作）
+
+**Git 信息**：
+- 分支：main
+- 作者：GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-09-06
+
+---
+
+*日志生成时间：2026-09-06*

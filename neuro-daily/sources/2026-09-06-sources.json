@@ -1,0 +1,191 @@
+{
+  "date": "2026-09-06",
+  "article": "2026-09-06-tcm-neural-basis-mec-ca2-temporal-scaffold",
+  "article_number": 136,
+  "search_terms": [
+    "medial entorhinal cortex temporal context time cells hippocampus",
+    "hippocampal time cells elapsed interval memory delay",
+    "temporal context model neural basis hippocampus Howard Eichenbaum",
+    "CA2 hippocampus temporal context social memory",
+    "entorhinal cortex temporal drift time representation neurons",
+    "time cells hippocampus bridge gap discontiguous events",
+    "Mankin CA3 temporal context coding 2012",
+    "hippocampus same population temporal information multiple timescales CA1",
+    "time cells human hippocampus episodic working memory intracranial"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "21867888",
+      "authors": "MacDonald CJ, Lepage KQ, Eden UT, Eichenbaum H",
+      "year": 2011,
+      "title": "Hippocampal 'time cells' bridge the gap in memory for discontiguous events",
+      "journal": "Neuron",
+      "full_text": "abstract_only",
+      "role": "原始时间细胞发现；DNMS任务；what-when联合编码",
+      "relevance": "high"
+    },
+    {
+      "id": "S2",
+      "pmid": "23132944",
+      "authors": "Mankin EA, Sparks FT, Slayyeh B, Sutherland RJ, Leutgeb S, Leutgeb JK",
+      "year": 2012,
+      "title": "Neuronal code for extended time in the hippocampus",
+      "journal": "PNAS",
+      "full_text": "pmc_available",
+      "role": "CA1时间漂移 vs CA3稳定；跨小时比较",
+      "relevance": "high"
+    },
+    {
+      "id": "S3",
+      "pmid": "23318095",
+      "authors": "Eichenbaum H",
+      "year": 2013,
+      "title": "Memory on time",
+      "journal": "Trends in Cognitive Sciences",
+      "full_text": "abstract_only",
+      "role": "TCM与时间细胞的理论综述",
+      "relevance": "medium"
+    },
+    {
+      "id": "S4",
+      "pmid": "23915126",
+      "authors": "Howard MW, Eichenbaum H",
+      "year": 2013,
+      "title": "The hippocampus, time, and memory across scales",
+      "journal": "Journal of Experimental Psychology: General",
+      "full_text": "abstract_only",
+      "role": "TCM行为预测（新近性、邻近性效应）；多时间尺度",
+      "relevance": "high"
+    },
+    {
+      "id": "S5",
+      "pmid": "24672015",
+      "authors": "Howard MW, MacDonald CJ, Tiganj Z, Shankar KH, Du Q, Hasselmo ME, Eichenbaum H",
+      "year": 2014,
+      "title": "A unified mathematical framework for coding time, space, and sequences in the hippocampal region",
+      "journal": "Journal of Neuroscience",
+      "full_text": "pmc_available",
+      "role": "TCM的Laplace变换数学框架；多尺度泄漏积分器预测",
+      "relevance": "high"
+    },
+    {
+      "id": "S6",
+      "pmid": "25569350",
+      "authors": "Mankin EA, Diehl GW, Sparks FT, Leutgeb S, Leutgeb JK",
+      "year": 2015,
+      "title": "Hippocampal CA2 activity patterns change over time to a larger extent than between spatial contexts",
+      "journal": "Neuron",
+      "full_text": "pmc_available",
+      "role": "CA2时间漂移特性；CA2跨时间变化>跨空间变化；CA2作为时间情境编码器",
+      "relevance": "high"
+    },
+    {
+      "id": "S7",
+      "pmid": "28858612",
+      "authors": "Eichenbaum H",
+      "year": 2017,
+      "title": "On the Integration of Space, Time, and Memory",
+      "journal": "Neuron",
+      "full_text": "abstract_only",
+      "role": "CA2/CA1整合框架；海马空间-时间-内容三维整合综述",
+      "relevance": "medium"
+    },
+    {
+      "id": "S8",
+      "pmid": "29145670",
+      "authors": "Tiganj Z, Jung MW, Kim J, Howard MW",
+      "year": 2017,
+      "title": "Sequential Firing Codes for Time in Rodent Medial Prefrontal Cortex",
+      "journal": "Cerebral Cortex",
+      "full_text": "abstract_only",
+      "role": "mPFC时间细胞；时间编码跨区域普遍性；mPFC作为潜在读出器",
+      "relevance": "high"
+    },
+    {
+      "id": "S9",
+      "pmid": "29706516",
+      "authors": "Mau W, Sullivan DW, Kinsky NR, Hasselmo ME, Howard MW, Eichenbaum H",
+      "year": 2018,
+      "title": "The Same Hippocampal CA1 Population Simultaneously Codes Temporal Information over Multiple Timescales",
+      "journal": "Current Biology",
+      "full_text": "pmc_available",
+      "role": "CA1同时编码秒/分/天多尺度时间信息；支持TCM的Laplace变换框架",
+      "relevance": "high"
+    },
+    {
+      "id": "S10",
+      "pmid": "30175425",
+      "authors": "Diehl GW, Hon OJ, Leutgeb S, Leutgeb JK",
+      "year": 2019,
+      "title": "Stability of medial entorhinal cortex representations over time",
+      "journal": "Hippocampus",
+      "full_text": "abstract_only",
+      "role": "MEC约15%的Layer III非网格细胞随时间漂移；网格细胞高度稳定",
+      "relevance": "high"
+    },
+    {
+      "id": "S11",
+      "pmid": "32277786",
+      "authors": "Marks WD, Kitamura T",
+      "year": 2021,
+      "title": "Complementary roles of differential medial entorhinal cortex inputs to the hippocampus for the formation and integration of temporal and contextual memory",
+      "journal": "European Journal of Neuroscience",
+      "full_text": "abstract_only",
+      "role": "MEC穿透纤维（情境）vs颞氨通路（时间）的功能分化",
+      "relevance": "high"
+    },
+    {
+      "id": "S12",
+      "pmid": "34474155",
+      "authors": "Vo A, Tabrizi NS, Hunt T, Cayanan K, Chitale S, Anderson LG, Tenney S, White AO, Sabariego M, Hales JB",
+      "year": 2021,
+      "title": "Medial entorhinal cortex lesions produce delay-dependent disruptions in memory for elapsed time",
+      "journal": "Neurobiology of Learning and Memory",
+      "full_text": "abstract_only",
+      "role": "MEC损伤选择性损害长间隔时间判断；因果证据",
+      "relevance": "high"
+    },
+    {
+      "id": "S13",
+      "pmid": "41224668",
+      "authors": "Kwok SC, Lapate RC, Sakon JJ, van Wassenhove V, Xue G, Zheng J",
+      "year": 2025,
+      "title": "Neural Representation of Episodic Time",
+      "journal": "Journal of Neuroscience",
+      "full_text": "pmc_available",
+      "role": "情节时间神经表征综述；多尺度机制整合",
+      "relevance": "medium"
+    },
+    {
+      "id": "S14",
+      "pmid": "41648128",
+      "authors": "Xiao X, Rutishauser U, Valiante TA, Taxidis J",
+      "year": 2026,
+      "title": "Time Cells in the Human Brain Support Working Memory Maintenance",
+      "journal": "bioRxiv (Preprint)",
+      "preprint": true,
+      "full_text": "preprint",
+      "role": "人类颅内记录中的时间细胞；工作记忆维持；海马协调预测记忆成功率",
+      "relevance": "high",
+      "caution": "预印本，未经同行评审，结论需谨慎"
+    }
+  ],
+  "excluded_sources": [
+    {
+      "pmid": "31334573",
+      "reason": "Sugar & Moser 2019综述；相关但与今日文章焦点重叠度低，核心信息已被其他来源覆盖"
+    },
+    {
+      "pmid": "29192021",
+      "reason": "Naya & Suzuki 2017关于灵长类mPFC时间顺序记忆；相关但专注于灵长类，而今日文章以啮齿类CA2/MEC为主；可用于未来灵长类专题"
+    }
+  ],
+  "open_questions_addressed": ["Q-tc-01", "Q-tc-04"],
+  "wiki_pages_updated": [
+    "concepts/temporal-context-model",
+    "concepts/time-cells",
+    "systems/entorhinal-cortex"
+  ],
+  "wiki_pages_created": []
+}

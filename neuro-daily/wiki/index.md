@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-05（第135篇·颞叶前部语义枢纽·枢纽-辐条模型·语义痴呆→ATL枢纽损伤签名·Huth 2016全皮层语义地图·Jung 2026聚焦超声增强语义·语义控制双系统LIFG+pMTG）· 主题页总数：**270**（新建2页：systems/anterior-temporal-lobe、concepts/semantic-memory；修订2页：concepts/embodied-semantics rev2、systems/language-network rev6；图谱270节点/1580边）
+> 最后更新：2026-09-06（第136篇·TCM神经底层·MEC Layer III时间漂移细胞·CA2时间偏好·mPFC时间细胞作为读出器·Xiao 2026预印本人类工作记忆时间细胞）· 主题页总数：**270**（新建0页；修订3页：concepts/temporal-context-model rev2、concepts/time-cells rev3、systems/entorhinal-cortex rev4；图谱270节点/1586边+6边）
 
 ---
 

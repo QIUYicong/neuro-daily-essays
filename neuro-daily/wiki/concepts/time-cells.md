@@ -6,14 +6,14 @@ type: mechanism
 status: emerging
 confidence: high
 created: 2026-08-04
-updated: 2026-08-14
-revision_count: 2
+updated: 2026-09-06
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [place-cell, grid-cell, hippocampal-circuit, interval-timing, entorhinal-cortex, temporal-context-model, memory-consolidation, sharp-wave-ripples, theta-oscillations, ca2-hippocampus]
+related: [place-cell, grid-cell, hippocampal-circuit, interval-timing, entorhinal-cortex, temporal-context-model, memory-consolidation, sharp-wave-ripples, theta-oscillations, ca2-hippocampus, prefrontal-cortex]
 prerequisites: [hippocampal-circuit, place-cell, interval-timing]
 opens_questions: [Q-tc-01, Q-tc-02, Q-tc-03, Q-tc-04]
-source_articles: [2026-08-04-hippocampal-time-cells-episodic-memory, 2026-08-14-ca2-hippocampus-social-memory-temporal-context]
-key_sources: ["PMID:21867888", "PMID:25269553", "PMID:23707613", "PMID:29706516", "PMID:28434800", "PMID:33536211", "PMID:33431691", "PMID:33109718", "PMID:34183446"]
+source_articles: [2026-08-04-hippocampal-time-cells-episodic-memory, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-06-tcm-neural-basis-mec-ca2-temporal-scaffold]
+key_sources: ["PMID:21867888", "PMID:25269553", "PMID:23707613", "PMID:29706516", "PMID:28434800", "PMID:33536211", "PMID:33431691", "PMID:33109718", "PMID:34183446", "PMID:23132944", "PMID:25569350", "PMID:41648128", "PMID:29145670"]
 ---
 
 # 时间细胞 (Time Cells)
@@ -81,11 +81,21 @@ Mau et al. 2018（PMID: 29706516）钙成像四天追踪：
 - **分钟**：种群活动在单个记录单元内缓慢漂移（可以识别试验块）
 - **天**：跨天宏观漂移；仅12.5%细胞全四天稳定，但群体时间结构保持（跨天解码成功）
 
-### 6. 人类证据
+### 6. CA2区与时间漂移（Mankin 2012/2015补充）
+
+**CA1的时间漂移（Mankin et al. 2012，PMID: 23132944）**：大鼠CA1在相同空间情境下的集群活动随时间（小时尺度）渐进发散，而CA3在相同时间内保持高度稳定。CA3是内容稳定库，CA1是时间日历的关键分工。
+
+**CA2的时间偏好（Mankin et al. 2015，PMID: 25569350）**：CA2活动跨时间变化幅度远大于跨空间情境变化。CA2不是空间重映射器，而是时间情境追踪器——这与CA2接受上乳头核（SuM）时间调制信号的解剖特性一致，进一步支持CA2→CA1的时间序列组织功能。
+
+### 7. 人类证据
 
 **Umbach et al. 2020（PMID: 33109718）**：27名人类被试内侧颞叶记录 → 79个时间细胞（编码）+ 60个（提取）；内嗅皮层富含斜坡细胞；**时间细胞激发稳定性预测时间聚类性**（r相关显著）；首次在人类时间细胞发现theta相位进动。
 
 **Reddy et al. 2021（PMID: 34183446）**：人类海马序列学习任务 → 30%（128/429）神经元有时间依赖激发；10秒等待期27%（26/96）维持时间选择性；群体解码88.4%准确率。
+
+**Xiao et al. 2026 bioRxiv预印本（PMID: 41648128）⚠️**：颅内记录；工作记忆维持任务；海马和前辅助运动区（pre-SMA）均有时间细胞；时间细胞同时编码记忆内容和经过时间（what-when）；**海马时间细胞协调性预测工作记忆成功率**；pre-SMA时间细胞反映记忆负载。*注：预印本，未经同行评审，结论需谨慎。*
+
+**mPFC时间细胞（Tiganj et al. 2017，PMID: 29145670）**：大鼠mPFC在时间判别任务中也有依次激发序列；时间编码是跨区域的通用计算特性；mPFC可能作为CA1时间序列的下游读出器（Q-tc-04相关）。
 
 ## 关键证据
 
@@ -99,6 +109,10 @@ Mau et al. 2018（PMID: 29706516）钙成像四天追踪：
 | CA2→CA1投射选择性组织时间序列 | CA2-Cre+ArchT；约630 CA1细胞记录 | PMID:33431691 | 高（因果） |
 | 人类内侧颞叶时间细胞，激发精度预测记忆组织 | 27名癫痫患者微电极；自由回忆 | PMID:33109718 | 中-高（人类单细胞） |
 | 人类海马30%神经元追踪序列时刻 | 人类植入电极；序列学习任务 | PMID:34183446 | 中-高 |
+| CA2活动跨时间变化 > 跨空间变化 | 大鼠多情境CA2电生理记录 | PMID:25569350 | 高 |
+| CA1时间漂移 vs CA3稳定（跨小时比较） | 大鼠相同情境跨时间记录 | PMID:23132944 | 高 |
+| 人类海马和pre-SMA时间细胞支持工作记忆 | 颅内记录；WM任务（预印本⚠️） | PMID:41648128 | 中（待同行评审） |
+| mPFC时间细胞序列，精度与CA1相当 | 大鼠mPFC记录；时间判别任务 | PMID:29145670 | 高 |
 
 ## 连接
 
@@ -120,8 +134,9 @@ Mau et al. 2018（PMID: 29706516）钙成像四天追踪：
 
 ## 修订历史
 
-- 2026-08-04 · 创建 · 基于《时间细胞：海马如何为情节记忆打上时间戳》(#103) · 整合MacDonald 2011、Eichenbaum 2014、Kraus 2013、Mau 2018、Shimbo 2021、Robinson 2017、MacDonald&Tonegawa 2021、Umbach 2020、Reddy 2021九项研究；初始状态：emerging（人类证据2020年后出现，回路机制仍在建立）；置信度：high
-- 2026-08-14 · 修订 rev2 · 基于《CA2：海马遗忘的第三元件》(#113) · 补充 CA2→CA1 沉默实验精确统计（149/313 时间细胞 / P=1.37×10⁻³¹ / χ²=19.89 / F(1,20)=21.67）；"CA2区输入"节增补 CA2 的社会记忆+SWR触发功能；related新增ca2-hippocampus；source_articles新增2026-08-14文章
+- 2026-08-04 · 创建 · 基于《时间细胞：海马如何为情节记忆打上时间戳》(#103) · 整合MacDonald 2011、Eichenbaum 2014、Kraus 2013、Mau 2018、Shimbo 2021、Robinson 2017、MacDonald&Tonegawa 2021、Umbach 2020、Reddy 2021九项研究；初始状态：emerging；置信度：high
+- 2026-08-14 · 修订 rev2 · 基于《CA2：海马遗忘的第三元件》(#113) · 补充 CA2→CA1 沉默实验精确统计；"CA2区输入"节增补 CA2 的社会记忆+SWR触发功能；related新增ca2-hippocampus
+- 2026-09-06 · 修订 rev3 · 基于《大脑的内部时间轴》(#136) · 新增"CA2区与时间漂移"节（Mankin 2012/2015）；扩展人类证据节（Xiao 2026预印本/Tiganj 2017 mPFC）；证据表新增6行；related新增prefrontal-cortex；key_sources新增4个PMID；revision_count+1；状态维持emerging/high（人类多区域证据增加，但因果链路仍在建立中）
 
 ## 来源文章
 

@@ -8474,4 +8474,23 @@
       "神经振荡的跨频耦合机制（theta-gamma代码与工作记忆）"
     ]
   }
+,
+  {
+    "date": "2026-09-06",
+    "article_number": 136,
+    "title": "大脑的内部时间轴：内嗅皮层漂移与CA2如何支撑时间情境模型",
+    "core_question": "TCM预言海马维持连续漂移的时间情境状态——MEC Layer III时间漂移细胞与CA2的时间偏好，能否构成这个预言状态的神经底层？从行为预测到因果操控，2026年距离解答Q-tc-01有多近？",
+    "layer": "cellular/microcircuit/brain-region/cognition",
+    "topic_tags": ["时间情境模型", "TCM", "内嗅皮层", "CA2", "时间细胞", "时间记忆", "前额叶时间编码", "斜坡细胞", "颞氨通路"],
+    "main_sources": ["PMID:21867888", "PMID:23132944", "PMID:23915126", "PMID:24672015", "PMID:25569350", "PMID:28858612", "PMID:29145670", "PMID:29706516", "PMID:30175425", "PMID:32277786", "PMID:34474155", "PMID:41224668", "PMID:41648128"],
+    "wiki_created": [],
+    "wiki_revised": ["concepts/temporal-context-model", "concepts/time-cells", "systems/entorhinal-cortex"],
+    "unresolved_questions": ["Q-tc-01", "Q-tc-04"],
+    "next_suggested_topics": [
+      "海马CA1时间细胞与SWR回放——时间顺序结构如何在睡眠中被保留或压缩 (Q-tc-04相关)",
+      "上乳头核（SuM）→CA2时间调制通路的解剖与功能",
+      "人类fMRI中的时间情境编码——内嗅皮层BOLD信号能否追踪时间情境漂移？",
+      "多重发生器假说（NCC）实验检验 (Q-ncc-04)"
+    ]
+  }
 ]

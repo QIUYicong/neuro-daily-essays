@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "node_count": 267,
   "edge_count": 1562,
   "edge_types": [
@@ -11329,6 +11329,36 @@
     {
       "from": "anterior-temporal-lobe",
       "to": "broca-area",
+      "type": "related"
+    },
+    {
+      "from": "temporal-context-model",
+      "to": "ca2-hippocampus",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "temporal-context-model",
+      "type": "supports"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "time-cells",
+      "type": "related"
+    },
+    {
+      "from": "ca2-hippocampus",
+      "to": "temporal-context-model",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "ca2-hippocampus",
+      "type": "regulates"
+    },
+    {
+      "from": "temporal-context-model",
+      "to": "prefrontal-cortex",
       "type": "related"
     }
   ],

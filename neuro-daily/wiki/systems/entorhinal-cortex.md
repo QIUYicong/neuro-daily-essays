@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-08-04
-revision_count: 3
+updated: 2026-09-06
+revision_count: 4
 dimensions: [brain-region, whole-brain-network, cellular, microcircuit]
-related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease, olfactory-bulb, piriform-cortex, time-cells]
+related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease, olfactory-bulb, piriform-cortex, time-cells, temporal-context-model, ca2-hippocampus]
 prerequisites: [hippocampal-circuit, grid-cells]
 opens_questions: [Q-gc-02, Q-gc-04, Q-tc-01]
-source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-04-hippocampal-time-cells-episodic-memory]
-key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386", "PMID:24366130", "PMID:29073644", "PMID:32278646", "PMID:28434800", "PMID:33109718"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-04-hippocampal-time-cells-episodic-memory, 2026-09-06-tcm-neural-basis-mec-ca2-temporal-scaffold]
+key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386", "PMID:24366130", "PMID:29073644", "PMID:32278646", "PMID:28434800", "PMID:33109718", "PMID:30175425", "PMID:34474155", "PMID:32277786"]
 ---
 
 # 内嗅皮层 (Entorhinal Cortex, EC)
@@ -45,9 +45,18 @@ key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386"
 
 ### 2. MEC 的层级功能组织
 
-- **Layer II（星状细胞/岛状细胞）**：主要含网格细胞；提供空间度量坐标
-- **Layer III（锥体细胞）**：含联合细胞（网格×头朝向×速度）；路径整合更新的核心层
+- **Layer II（星状细胞/岛状细胞）**：主要含网格细胞；提供空间度量坐标；高度时间稳定
+- **Layer III（锥体细胞）**：含联合细胞（网格×头朝向×速度）；路径整合更新的核心层；**约15%非网格细胞（Diehl 2019）在6小时内显著时间漂移，是TCM时间情境状态的上游候选**；直接投射至CA1（颞氨通路，与穿透纤维功能不同）
 - **Layer V/VI（深层）**：接受海马反馈；调制EC输出；含更多联合细胞
+
+**关键功能分化（Marks & Kitamura 2021，PMID: 32277786）**：
+- MEC Layer II/III → 齿状回/CA3（穿透纤维）：传递空间情境信号
+- MEC Layer III → CA1（颞氨通路）：专门传递**时间结构**信号——时间记忆依赖此通路，情境记忆依赖穿透纤维
+
+**MEC时间记忆的因果证据（Vo et al. 2021，PMID: 34474155）**：
+- MEC兴奋毒素损伤大鼠在**20秒**时间判别任务上显著受损
+- 10秒时间判别基本保留（延迟依赖性损伤）
+- 直接证明MEC对长时间判断（>10秒）因果必要，但不必要于短时间判断
 
 ### 3. EC 作为阿尔茨海默病的早期靶点
 
@@ -68,6 +77,9 @@ Braak分期（1991）：AD神经纤维缠结（Tau病理）的扩散从**EC Laye
 | MEC光遗传激活→海马位置特异放电 | 光遗传激活 | PMID:24366130 | 中-高（因果） |
 | AD最早累及EC Layer II（Braak分期） | 尸检脑组织Tau染色分析 | Braak & Braak 1991 | 高（经典；广泛重复） |
 | 人类EC出现六边形fMRI信号 | 人类fMRI多项研究 | PMID:29311746等 | 高 |
+| MEC Layer III约15%非网格细胞随时间漂移（6小时） | 大鼠MEC多层记录；跨时间稳定性分析 | PMID:30175425 | 中-高 |
+| MEC损伤→延迟依赖性时间判别受损（>10秒） | 大鼠MEC兴奋毒素损伤+时间二分任务 | PMID:34474155 | 高（因果） |
+| MEC颞氨通路（Layer III→CA1）专传时间信号 | 解剖功能综述；行为功能分化 | PMID:32277786 | 中（综述支持） |
 
 ## 连接
 
@@ -80,19 +92,25 @@ Braak分期（1991）：AD神经纤维缠结（Tau病理）的扩散从**EC Laye
 - [[memory-consolidation]] — EC作为海马-皮层信息中继，在两阶段记忆巩固中扮演关键中间站
 - [[olfactory-bulb]] — 嗅球→内嗅皮层（LEC）→海马通路是嗅觉记忆长期存储的解剖基础（Lane et al. 2020）；LEC的"外侧"功能（整合非空间情境，含气味）与嗅觉直接投射的联系是EC多模态整合功能的核心
 - [[piriform-cortex]] — 梨状皮层→内嗅皮层→海马三突触回路；气味身份经梨状皮层稀疏编码后，通过EC门控进入海马长期记忆
+- [[temporal-context-model]] — MEC Layer III的时间漂移细胞是TCM时间情境状态的候选上游来源；颞氨通路专传时间信号
+- [[ca2-hippocampus]] — CA2接受来自MEC和上乳头核的时间相关输入，组织CA1时间细胞序列
 
 ## 未解问题
 
 - Q-gc-02：AD早期MEC损坏时，网格细胞的哪些特性（间距稳定性、模块独立性、相位一致性）最先退化？是否可以用网格细胞的退化指标作为AD早期生物标志物？
 - Q-gc-04：人类EC在被动导航中为何检测不到稳定的网格信号？主动自主运动是否是MEC空间激活的必要条件？
+- Q-tc-01：MEC Layer III时间漂移细胞是否因果必要于CA1时间细胞序列？MEC产生时间漂移的内在机制（持续放电网络？SuM输入？）是什么？MEC→CA2→CA1完整时间链路能否整合验证？
 
 ## 修订历史
 
-- 2026-08-04 · 修订 rev3 · 基于《时间细胞》文章(#103) · 更新"当前理解"：MEC功能扩展为"空间+时间"双重编码（新增斜坡细胞、MEC-时间细胞因果证据描述、三重编码框架）；关键证据表新增MEC时间特异性行（PMID:28434800）、人类斜坡细胞行（PMID:33109718）；连接新增time-cells；related/opens_questions/key_sources/source_articles相应更新
-- 2026-07-26 · 修订 rev2 · 基于《气味的神经密码：从一个分子到一段记忆的四级变换》(#94) · 连接节新增 olfactory-bulb（嗅球→LEC→海马通路）和 piriform-cortex（梨状皮层→EC→海马三突触回路）；related和source_articles/key_sources相应更新
+- 2026-08-04 · 修订 rev3 · 基于《时间细胞》文章(#103) · 更新"当前理解"：MEC功能扩展为"空间+时间"双重编码（斜坡细胞、MEC-时间细胞因果证据）；证据表新增MEC时间特异性行和人类斜坡细胞行；related/key_sources更新
+- 2026-07-26 · 修订 rev2 · 基于《气味的神经密码》(#94) · 新增olfactory-bulb和piriform-cortex连接
 - 2026-06-22 · 创建 · 基于《六边形的秘密》文章 · 初始置信度：高
+- 2026-09-06 · 修订 rev4 · 基于《大脑的内部时间轴》(#136) · 关键机制节增补"MEC层级功能组织"（Diehl 2019：Layer III 15%时间漂移细胞/颞氨通路功能分化）和"MEC时间记忆因果证据"（Vo 2021延迟依赖性损伤）；证据表新增3行（PMID:30175425/34474155/32277786）；连接新增temporal-context-model/ca2-hippocampus；未解问题新增Q-tc-01时间版本；related/key_sources/source_articles相应更新；revision_count+1
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
 - [[2026-07-26-olfactory-coding-smell-memory-limbic]]
+- [[2026-08-04-hippocampal-time-cells-episodic-memory]]
+- [[2026-09-06-tcm-neural-basis-mec-ca2-temporal-scaffold]]
