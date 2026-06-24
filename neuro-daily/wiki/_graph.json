@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "node_count": 285,
-  "edge_count": 1650,
+  "edge_count": 1653,
   "edge_types": [
     "is-a",
     "part-of",
@@ -11937,6 +11937,24 @@
       "to": "like-to-like-connectivity",
       "type": "supports",
       "note": "同类相连为规范微回路层间连接提供功能布线证据"
+    },
+    {
+      "from": "predictive-coding",
+      "to": "cortical-layers",
+      "type": "mechanism-of",
+      "note": "预测编码框架明确要求层级分工：L2/3=误差单元（γ前馈），L5/6=预测单元（β反馈）；Bastos 2012 典范微回路的核心论点"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "cortical-layers",
+      "type": "supports",
+      "note": "Thomas et al. 2024（PMID:38697110）7T fMRI 层级解码在 V1 提供迄今最直接的人脑体内证据：深层=预期/浅层=误差"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "cortical-canonical-microcircuit",
+      "type": "supports",
+      "note": "V1 是规范微回路预测编码功能分工的主要实验脑区；Keller 2012 + Bastos 2012 + Thomas 2024 提供层级证据链"
     }
   ],
   "dangling_references": [

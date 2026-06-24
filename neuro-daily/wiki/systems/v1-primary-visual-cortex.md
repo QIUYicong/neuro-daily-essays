@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-09-02
-revision_count: 7
+updated: 2026-09-14
+revision_count: 8
 dimensions: [brain-region, systems, microcircuit, cellular]
 related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ventral-visual-stream, cnn-visual-cortex-analogy, divisive-normalization]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04]
-source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-14-cnn-visual-cortex-hierarchy, 2026-09-02-divisive-normalization-canonical-computation]
-key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:24812127", "PMCID:PMC4060707", "PMID:22108672", "PMID:28835531"]
+opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04, Q-pc-08, Q-pc-09]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-14-cnn-visual-cortex-hierarchy, 2026-09-02-divisive-normalization-canonical-computation, 2026-09-14-v1-laminar-prediction-error-evidence]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:24812127", "PMCID:PMC4060707", "PMID:22108672", "PMID:28835531", "PMID:38697110"]
 ---
 
 # 初级视觉皮层（V1）
@@ -123,6 +123,7 @@ V1 不只是被动的"图像接收站"——它是大脑皮层层级预测机器
 | V1 L2/3 编码感觉运动预测误差（失配响应） | 清醒小鼠 VR + 双光子钙成像 | PMID:22681686 | 高 |
 | V1 接受来自高级视觉区的预测反馈（α/β 主导） | 灵长类 MEG/LFP 多脑区记录 | PMID:23177956 | 高 |
 | 环绕抑制/末端停止可由预测编码模型复现 | 计算模型 + 自然图像训练 | PMID:10195184 | 中（模型证据，非直接区分实验）|
+| **人类 V1 L5/6（深层）编码预期表征，L2/3（浅层）专门编码预测误差（非预期刺激时激活）** | 7T fMRI 层级多变量解码；75%/25% 概率 Gabor 朝向；活体人脑 | PMID:38697110（Thomas et al. 2024）| **中-高**（层级 fMRI 直接验证；神经适应无法完全排除）|
 
 ## CNN 第一层的 V1 类比（2026-07-14 补充）
 
@@ -148,6 +149,7 @@ V1 在腹侧流层级（V1→V4→IT）中对应 CNN 的早期层，而非整个
 - 2026-07-14 · 修订 · 基于《镜中影像：CNN与灵长类视觉皮层层级对应》一文 · 新增"CNN第一层的V1类比"小节；related 新增 ventral-visual-stream, cnn-visual-cortex-analogy；key_sources 新增 PMID:24812127, PMCID:PMC4060707
 - 2026-08-29 · 修订 · 基于《腹侧视觉流的"解缠"之旅》(#127) · 腹侧流完整 wiki 页（ventral-visual-stream）已创建，填补此前 related 中的悬空引用；V1 在腹侧流层级中的位置（第一站，方向选择性→向 V2 传递基础特征）进一步明确
 - 2026-09-02 · 修订 rev7 · 基于《除法规范化：大脑皮层的规范计算》（#132）· 在基本功能特性中补充规范化解释对比度增益控制；在预测编码小节补充规范化框架对环绕抑制的解释（三种框架并列）；related 新增 divisive-normalization；source_articles 追加 2026-09-02；key_sources 新增 PMID:22108672、PMID:28835531
+- 2026-09-14 · 修订 rev8 · 基于《谁说了什么》文章 #144 · 在预测编码证据表新增 Thomas et al. 2024（PMID:38697110）——7T fMRI 层级解码直接验证 V1 L5/6=预期、L2/3=预测误差；opens_questions 新增 Q-pc-08、Q-pc-09；key_sources 新增 PMID:38697110；source_articles 追加 2026-09-14
 
 ## 来源文章
 
@@ -158,3 +160,4 @@ V1 在腹侧流层级（V1→V4→IT）中对应 CNN 的早期层，而非整个
 - [[2026-07-14-cnn-visual-cortex-hierarchy]]
 - [[2026-08-29-ventral-visual-stream-object-recognition]]
 - [[2026-09-02-divisive-normalization-canonical-computation]]
+- [[2026-09-14-v1-laminar-prediction-error-evidence]]

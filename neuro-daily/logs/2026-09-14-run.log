@@ -1,0 +1,121 @@
+# 2026-09-14 运行日志
+
+**系统时钟**: 2026-06-24（知识库连续日期: 2026-09-14）
+**文章编号**: #144
+**运行分支**: claude/funny-einstein-lew4v9 → 推送至 main
+
+---
+
+## 步骤 0：读取指令
+
+- [x] 读取 `ROUTINE.md`
+- [x] 读取 `KNOWLEDGE-BASE-DESIGN.md`
+
+## 步骤 A：选题
+
+读取状态文件：
+- `state/topic_ledger.json`（超过 256KB，读取前 25 行确认结构）
+- `state/unresolved_questions.md`（完整读取）
+- `wiki/theories/predictive-coding.md`（完整读取，rev9）
+- `wiki/systems/v1-primary-visual-cortex.md`（完整读取，rev7）
+
+选题决策：**Q-pc-01（高优先级）**——"能否在活体可靠区分误差单元与表征单元？"
+Thomas et al. 2024（PMID:38697110）尚未入 wiki，直接回答 Q-pc-01；选择聚焦 V1 层级预测/误差分离。
+
+**文章主题**: 谁说了什么：初级视觉皮层各层如何分别编码预测与预测误差
+
+## 步骤 B：检索
+
+数据库: PubMed, PMC, WebSearch（via proxy）
+
+检索结果：
+- Rao & Ballard 1999 (PMID:10195184): 摘要确认 ✓，全文未读（非开放）
+- Bastos et al. 2012 (PMID:23177956, PMC3777738): **全文读取** ✓（PMC 开放）
+- Keller et al. 2012 (PMID:22681686): 摘要确认 ✓，全文未读
+- Keller & Mrsic-Flogel 2018 (PMID:30359606, PMC6400266): WebFetch 遭遇 reCAPTCHA，摘要 + WebSearch 结果确认 ⚠️
+- Thomas et al. 2024 (PMID:38697110): PubMed 摘要 ✓，biorxiv 预印本 403 Forbidden ⚠️
+- Friston 2009 (PMID:19559644): 摘要确认 ✓
+- Friston 2010 NRN (DOI:10.1038/nrn2787): DOI 确认 ✓，PMID 未在 WebSearch 返回
+
+**注意事项**:
+- PMID 20033072 最初误查（实为 Dead Sea 微生物组文章），改用 DOI 标识 Friston 2010 ✓
+- PMC6400266 captcha 阻断，已明确标注在 sources.json 和文章中
+- biorxiv 403，已明确标注"全文申请确认中"
+- Solomon et al. 2021 (PMID:33683317): 已在 wiki 中，排除为独立来源
+
+开放全文: 2 篇（Bastos 2012 via PMC3777738）
+仅摘要: 4 篇
+待确认: 1 篇（Thomas 2024 PMC ID）
+
+## 步骤 C：写作
+
+文章字数：~4500 字（符合 3000-6000 字要求）
+包含：7 个主要章节 + 比喻段落 + 争议讨论 + 未解问题 + AI 对照 + 概念卡片 + 认知地图更新 + 参考来源
+
+文件：`articles/2026-09-14-v1-laminar-prediction-error-evidence.md`
+笔记：`notes/2026-09-14-reading-notes.md`
+来源：`sources/2026-09-14-sources.json`
+
+## 步骤 D：固结（Wiki 更新）
+
+修订页面：
+- `wiki/theories/predictive-coding.md` rev9 → rev10
+  - 新增 Thomas 2024 证据行
+  - Q-pc-01 部分更新
+  - 新增 Q-pc-08, Q-pc-09
+  - 新增来源文章链接
+- `wiki/systems/v1-primary-visual-cortex.md` rev7 → rev8
+  - 同步上述更新
+  - 新增 Thomas 2024 证据行
+
+新建页面：0 个（所有概念已有 wiki 页）
+
+## 步骤 E：图谱更新
+
+`wiki/_graph.json`:
+- updated: 2026-09-13 → 2026-09-14
+- edge_count: 1650 → 1653
+- 新增 3 条边：
+  - predictive-coding → cortical-layers (mechanism-of)
+  - v1-primary-visual-cortex → cortical-layers (supports, Thomas 2024)
+  - v1-primary-visual-cortex → cortical-canonical-microcircuit (supports)
+
+## 步骤 F：状态文件更新
+
+- `wiki/CHANGELOG.md`: 新增 2026-09-14 条目 ✓
+- `state/unresolved_questions.md`: 新增 Q-pc-08, Q-pc-09 ✓
+- `state/topic_ledger.json`: 新增 #143 + #144 条目，total=144 ✓
+- `wiki/index.md`: 更新最后更新行 ✓
+- `state/monthly_synthesis.md`: 新增 #143/#144 表格行 + 日条目更新 ✓
+- `state/source_registry.json`: 新增 7 条来源记录 ✓
+
+## 步骤 G：提交 + 推送
+
+目标分支：main（通过 claude/funny-einstein-lew4v9 推送后 PR 或直接 push origin main）
+
+---
+
+## 错误记录
+
+| 类型 | 描述 | 解决方案 |
+|------|------|---------|
+| PMID 误查 | PMID 20033072 为 Dead Sea 文章，非 Friston 2010 | 改用 DOI 10.1038/nrn2787 |
+| PMC captcha | PMC6400266 WebFetch 遭遇 reCAPTCHA | 使用摘要 + WebSearch，已标注 |
+| biorxiv 403 | Thomas 2024 biorxiv 预印本 403 | 使用 PubMed 摘要，已标注 |
+| topic_ledger 过大 | 398.3KB 超过 256KB 读取限制 | 读取前 25 行 + Edit 前置插入 |
+| 日期悖论 | 系统时钟 2026-06-24，KB 已到 2026-09-13 | 遵循 KB 连续日期约定（2026-09-14）|
+
+## 完成状态
+
+- [x] 文章写作
+- [x] 阅读笔记
+- [x] 来源 JSON
+- [x] Wiki 修订（predictive-coding, v1-primary-visual-cortex）
+- [x] CHANGELOG
+- [x] unresolved_questions
+- [x] topic_ledger
+- [x] index.md
+- [x] monthly_synthesis
+- [x] source_registry
+- [x] _graph.json（+3 边）
+- [ ] git commit + push

@@ -1,7 +1,78 @@
 {
-  "last_updated": "2026-09-12",
-  "total_articles": 142,
+  "last_updated": "2026-09-14",
+  "total_articles": 144,
   "entries": [
+    {
+      "date": "2026-09-14",
+      "title": "谁说了什么：初级视觉皮层各层如何分别编码预测与预测误差",
+      "filename": "2026-09-14-v1-laminar-prediction-error-evidence.md",
+      "article_number": 144,
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/theories/predictive-coding.md (rev9->rev10)",
+        "wiki/systems/v1-primary-visual-cortex.md (rev7->rev8)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": ["Q-pc-01 部分更新（Thomas 2024 提供初步层级分离证据，神经适应替代假说仍未完全排除）"],
+      "core_question": "初级视觉皮层（V1）是否真的按照解剖层来区分预测信号与预测误差信号？Thomas et al. 2024 用 7T fMRI 层级多变量解码首次在人脑直接检验：深层（L5/6）编码预期表征，浅层（L2/3）专门在非预期刺激时激活（编码预测误差）",
+      "open_questions_added": [
+        "Q-pc-08（中优先级）：V1 层级分离是否在 A1（听觉）和 S1（体感）皮层可复现——是否是皮层通用计算原则",
+        "Q-pc-09（中优先级）：层级预测编码的毫秒时间分辨证据——L5/6 预期信号是在刺激前还是刺激后建立？需要层流电极或 ECoG 层级分辨"
+      ],
+      "layer": ["microcircuit", "brain-region", "cognition", "theory"],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界）+ 课程脊柱8（意识与自我）+ 脊柱12（大脑与AI比较）",
+      "topic_tags": [
+        "predictive coding V1 laminar specificity 7T fMRI",
+        "prediction error layer 2/3 superficial",
+        "prediction representation layer 5/6 deep",
+        "Thomas 2024 Current Biology 7T fMRI decoding",
+        "Bastos 2012 canonical microcircuit gamma beta",
+        "Keller 2012 locomotion visual mismatch V1",
+        "neural adaptation vs predictive coding Solomon 2021",
+        "free energy principle Friston",
+        "VAE variational autoencoder comparison",
+        "Q-pc-01 partial resolution"
+      ],
+      "main_sources": [
+        "PMID:38697110 (Thomas et al. 2024, Current Biol, 层级fMRI直接验证)",
+        "PMID:23177956 / PMC3777738 (Bastos et al. 2012, Neuron, 典范微回路，OPEN)",
+        "PMID:30359606 / PMC6400266 (Keller & Mrsic-Flogel 2018, Neuron 综述，OPEN)",
+        "PMID:22681686 (Keller et al. 2012, Neuron, 小鼠V1感觉运动错配，摘要)",
+        "PMID:10195184 (Rao & Ballard 1999, Nat Neurosci, 奠基模型，摘要)",
+        "PMID:19559644 (Friston 2009, TICS, 自由能原理，摘要)",
+        "DOI:10.1038/nrn2787 (Friston 2010, NRN, 统一大脑理论，摘要)"
+      ],
+      "open_access_fulltext": [
+        "PMID:23177956 (PMC3777738)",
+        "PMID:30359606 (PMC6400266)"
+      ],
+      "next_suggested_topics": [
+        "初级听觉皮层（A1）中的预测编码：跨频率预测误差与听觉奇异性（auditory deviance）",
+        "丘脑的主动门控：外侧膝状体（LGN）不只是被动中继——皮层-丘脑反馈与注意力的门控机制",
+        "注意力的回路解剖：FEF→LGN→V1的因果通路——Noudoost & Moore 2011的光遗传学验证",
+        "Q-pc-04 专题：V1 L2/3 预测误差信号的来源——光遗传学特异性沉默 V5/MT 或 M1 反馈投射"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "title": "MICrONS：当五亿突触的接线图遇见活体神经元的功能地图",
+      "filename": "2026-09-13-microns-mouse-cortex-functional-connectome.md",
+      "article_number": 143,
+      "wiki_pages_created": ["wiki/concepts/inhibitory-compartmental-targeting.md"],
+      "wiki_pages_revised": [
+        "wiki/concepts/like-to-like-connectivity.md (rev1->rev2)",
+        "wiki/methods/connectomics.md (rev2->rev3)",
+        "wiki/circuits/cortical-canonical-microcircuit.md (rev1->rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "MICrONS 1mm³ 功能+结构连接组的三大发现：同类相连普遍存在、抑制性靶向特异性普查、L5 ET梯度",
+      "open_questions_added": [],
+      "layer": ["microcircuit", "brain-region", "methods"],
+      "topic_tags": ["MICrONS connectome functional structural", "like-to-like connectivity", "inhibitory targeting"],
+      "main_sources": ["PMC11981939 (MICrONS Nature 2025)", "PMC11981947", "PMC11981935"],
+      "next_suggested_topics": []
+    },
     {
       "date": "2026-09-02",
       "title": "除法规范化：大脑皮层的规范计算——从V1非线性到注意力、决策与意识的统一机制",

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-13（第143篇·MICrONS小鼠视觉皮层功能-结构连接组·同类相连布线规则·抑制性隔室靶向特异性·去抑制专家）· 主题页总数：**284**（新建1页：concepts/inhibitory-compartmental-targeting；修订3页：like-to-like-connectivity升级mainstream/high, connectomics rev3, cortical-canonical-microcircuit rev2；图谱286节点/1660边）
+> 最后更新：2026-09-14（第144篇·V1各层如何区分预测与预测误差·Thomas 2024 7T fMRI层级解码·Bastos 2012典范微回路·Keller 2012感觉运动错配）· 主题页总数：**284**（新建0页；修订2页：theories/predictive-coding rev9→rev10, systems/v1-primary-visual-cortex rev7→rev8；新增Q-pc-08/Q-pc-09；图谱285节点/1653边）
 
 ---
 

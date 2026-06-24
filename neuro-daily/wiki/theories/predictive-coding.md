@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-08-13
-revision_count: 9
+updated: 2026-09-14
+revision_count: 10
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition, AI]
 related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers, beta-oscillations, intrinsic-neural-timescale, temporal-receptive-window]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
-opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-pc-07]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae, 2026-07-19-beta-oscillations-cortical-prediction]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002", "PMID:25556836", "PMID:29339471", "PMID:36864133"]
+opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-pc-07, Q-pc-08, Q-pc-09]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae, 2026-07-19-beta-oscillations-cortical-prediction, 2026-09-14-v1-laminar-prediction-error-evidence]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002", "PMID:25556836", "PMID:29339471", "PMID:36864133", "PMID:38697110"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -94,6 +94,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 | 局部赫布学习规则的预测编码网络在特定条件下收敛于反向传播 | 数学证明 + 计算仿真；误差节点活动趋近零时权重更新等价于梯度下降 | PMID:28333583（PMC开放） | 高（数学定理，但生物条件苛刻）|
 | 人腹侧视觉流对预期刺激有系统性抑制（BOLD 降低） | 人类 fMRI + 重复抑制范式；V1→IT 全通路检测 | PMID:30030402 | 中（存在神经适应混淆）|
 | 现有视觉皮层预测误差证据有限，多与神经适应不可区分 | 批判性综述；猕猴和人类电生理重新分析 | PMID:33683317 | 高（批评性证据，降低其他证据置信度）|
+| **人类 V1 深层（L5/6）编码预期表征，浅层（L2/3）专门在非预期刺激时激活（预测误差）** | 7T fMRI 层级多变量解码；75% 预期 vs 25% 非预期 Gabor 朝向；活体人脑 | PMID:38697110（Thomas et al. 2024，Current Biol）| **中-高**（层级 fMRI 直接分辨；全文待确认）|
 | 预测编码自由能最小化与 VAE 的 ELBO 优化数学等价 | 理论分析；比较 Friston 自由能方程与 Kingma-Welling ELBO 方程 | PMID:20068583；arXiv:1312.6114 | 高（数学等价，已形成共识）|
 
 ### 小脑：专用预测误差学习系统
@@ -126,13 +127,15 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 
 ## 未解问题
 
-- Q-pc-01：误差单元和表征单元是否能被可靠地在体内直接区分？（高优先级）
+- Q-pc-01：误差单元和表征单元是否能被可靠地在体内直接区分？（**部分更新 2026-09-14**：Thomas et al. 2024 在人类 V1 用 7T fMRI 层级解码首次观察到深层=预期、浅层=误差的解剖分离；神经适应解释仍不能完全排除；见文章 #144）
 - Q-pc-02：预测编码/自由能原理是否足够可证伪？其核心实验预测是什么？（高优先级）
 - Q-pc-03：环绕抑制和末端停止究竟是预测误差还是侧抑制？如何在体内区分？（中优先级）
 - Q-pc-04：V1 感觉运动失配响应的具体来源（运动皮层反馈 vs 高级视觉 vs 神经调质）？（高优先级）
 - Q-pc-05：层级振荡映射（γ/α-β）的普适性如何？Westerberg 2026 的挑战范围有多大？（高优先级）
 - Q-pc-06：在严格排除神经适应后，V1 和其他皮层区域是否存在真正的预期依赖性预测误差信号？（高优先级，来自 Solomon 2021 批评）
 - Q-pc-07：VAE 编码器与皮层前馈通路的对应是否超出数学类比，存在真实的计算等价性？（中优先级）
+- Q-pc-08（中优先级，2026-09-14 新增）：Thomas 2024 观察到的 V1 层级分离是否在其他初级感觉皮层（A1 听觉皮层、S1 体感皮层）可以复现？是否是皮层的通用计算原理还是 V1 特有组织？
+- Q-pc-09（中优先级，2026-09-14 新增）：7T fMRI 时间分辨率（~1s BOLD 信号）无法分辨"预期建立"与"误差计算"的毫秒时间动态。层级 ECoG 或层级探针电生理何时能提供时间分辨的直接证据？L5/6 的预测信号是在刺激出现前（真正预期）还是刺激出现后（快速推断）建立的？
 
 ## 修订历史
 
@@ -146,6 +149,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-07-18 · 修订 · 基于《大脑皮层的规范微回路》一文（#86）· 补充规范微回路作为预测编码解剖实现载体的关联；related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增两条解剖实现链接
 - 2026-07-19 · 修订 · 基于《β振荡的三副面孔》一文（#87）· 关键证据表新增 Bastos 2015（28 对视觉区域γ前向/β后向，PMID:25556836）和 Bastos 2018（前额叶层流验证频率层级规律，PMID:29339471）；连接新增 beta-oscillations（β作为反馈预测的振荡载体，γ作为前馈误差的振荡载体）；related 新增 beta-oscillations；key_sources 新增 PMID:25556836、PMID:29339471
 - 2026-08-13 · 修订 rev9 · 基于《大脑皮层的时间帝国》文章 #112 · 新增关键证据行：Caucheteux et al. 2023（PMID:36864133，n=304，额顶叶皮层预测更长时程/更高上下文的语言表征，颞叶皮层预测短时程/低上下文）——将预测编码层级与 INT/TRW 时间层级显式连接；related 新增 intrinsic-neural-timescale、temporal-receptive-window；key_sources 新增 PMID:36864133
+- 2026-09-14 · 修订 rev10 · 基于《谁说了什么：V1 各层如何区分预测与误差》文章 #144 · 新增 Thomas et al. 2024（PMID:38697110）为关键证据行——7T fMRI 层级解码首次在人脑直接验证 L5/6=预期、L2/3=误差的解剖分离；Q-pc-01 状态更新为"部分回答（存争议）"；新增未解问题 Q-pc-08（跨感觉皮层普遍性）和 Q-pc-09（层级时间分辨证据）；key_sources 新增 PMID:38697110；source_articles 新增 #144
 
 ## 来源文章
 
@@ -153,3 +157,4 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[2026-06-20-language-dual-stream]]
 - [[2026-07-19-beta-oscillations-cortical-prediction]]
 - [[2026-08-13-cortical-temporal-hierarchy-trw]]
+- [[2026-09-14-v1-laminar-prediction-error-evidence]]
