@@ -6,13 +6,13 @@ type: method
 status: established
 confidence: high
 created: 2026-07-25
-updated: 2026-07-25
-revision_count: 1
+updated: 2026-09-14
+revision_count: 2
 dimensions: [molecular, cellular, methods]
 related: [transcriptomic-cell-types, optogenetics, spatial-transcriptomics, patch-seq]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: [Q-scrna-state-vs-type, Q-scrna-resolution-functional]
-source_articles: [2026-07-25-scrna-seq-neural-cell-type-diversity]
+source_articles: [2026-07-25-scrna-seq-neural-cell-type-diversity, 2026-09-14-spatial-transcriptomics-brain-cell-atlas]
 key_sources: ["PMID:30382198", "PMID:30586455", "PMID:38092916", "PMID:38123823"]
 ---
 
@@ -70,7 +70,9 @@ key_sources: ["PMID:30382198", "PMID:30586455", "PMID:38092916", "PMID:38123823"
 ## 修订历史
 
 - 2026-07-25 · 创建 · 基于《神经元类型的分子宇宙》文章 #93 · 初始置信度：高
+- 2026-09-14 · 修订 rev2 · 基于《大脑的分子护照》文章 #144 · 更新：scRNA-seq 是空间转录组学的参考框架（BICCN 中 scRNA-seq 先建分类体系，再由 MERFISH 空间验证）；related 已有 spatial-transcriptomics 正式建立页面；source_articles 新增 2026-09-14 文章
 
 ## 来源文章
 
 - [[2026-07-25-scrna-seq-neural-cell-type-diversity]]
+- [[2026-09-14-spatial-transcriptomics-brain-cell-atlas]]

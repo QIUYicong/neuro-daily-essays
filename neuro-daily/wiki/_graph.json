@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "node_count": 285,
   "edge_count": 1650,
   "edge_types": [
@@ -2616,6 +2616,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/inhibitory-compartmental-targeting.md"
+    },
+    {
+      "id": "spatial-transcriptomics",
+      "title": "空间转录组学",
+      "domain": "methods",
+      "type": "method",
+      "status": "emerging",
+      "confidence": "high",
+      "page": "wiki/methods/spatial-transcriptomics.md"
     }
   ],
   "edges": [
@@ -11937,6 +11946,51 @@
       "to": "like-to-like-connectivity",
       "type": "supports",
       "note": "同类相连为规范微回路层间连接提供功能布线证据"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "single-cell-rna-seq",
+      "type": "related"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "transcriptomic-cell-types",
+      "type": "supports"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "connectomics",
+      "type": "supports"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "cortical-layers",
+      "type": "supports"
+    },
+    {
+      "from": "single-cell-rna-seq",
+      "to": "spatial-transcriptomics",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "connectomics",
+      "to": "spatial-transcriptomics",
+      "type": "related"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "spatial-transcriptomics",
+      "type": "related"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "inhibitory-compartmental-targeting",
+      "type": "related"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "connectomics",
+      "type": "supports"
     }
   ],
   "dangling_references": [

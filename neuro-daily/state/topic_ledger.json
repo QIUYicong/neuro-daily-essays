@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-12",
-  "total_articles": 142,
+  "last_updated": "2026-09-14",
+  "total_articles": 144,
   "entries": [
     {
       "date": "2026-09-02",
@@ -18,7 +18,7 @@
       ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
-      "core_question": "除法规范化方程 R_j = γD_j^n/(σ^n + ΣD_k^n) 如何作为统一的"规范计算"，解释 V1 三种非线性（对比度饱和/交叉朝向抑制/环绕抑制）、注意效应的对比度增益vs响应增益分化（Reynolds & Heeger 2009）、LIP决策价值竞争，乃至丘脑网状核（TRN）的全脑信息路由？",
+      "core_question": "除法规范化方程 R_j = γD_j^n/(σ^n + ΣD_k^n) 如何作为统一的\"规范计算\"，解释 V1 三种非线性（对比度饱和/交叉朝向抑制/环绕抑制）、注意效应的对比度增益vs响应增益分化（Reynolds & Heeger 2009）、LIP决策价值竞争，乃至丘脑网状核（TRN）的全脑信息路由？",
       "open_questions_added": [
         "Q-dn-01（高优先级）：哺乳动物V1的规范化主要由哪种回路机制实现（分流性/递归/突触抑制）——GABA-A阻断反证的意义",
         "Q-dn-02（中优先级）：抑制性池的确切组成规则（方向/空间频率特异性vs全池）",
@@ -8174,7 +8174,7 @@
       "knowledge_base_date": "2026-09-01",
       "system_clock_date": "2026-06-22",
       "date_note": "系统时钟显示2026-06-22 UTC+8，使用知识库连续性日期2026-09-01"
-,
+    },
     {
       "date": "2026-09-03",
       "article_number": 133,
@@ -8652,5 +8652,28 @@
     "knowledge_base_date": "2026-09-13",
     "system_clock_date": "2026-06-24",
     "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-13（第143篇MICrONS文章）"
+  },
+  {
+    "date": "2026-09-14",
+    "article_number": 144,
+    "title": "大脑的分子护照：空间转录组学如何绘制五千种细胞类型的位置地图",
+    "core_question": "空间转录组学如何在保留原位信息的同时揭示大脑数千种细胞类型的分子特征，BICCN的全脑细胞图谱（5322聚类）如何通过MERFISH将分子身份与解剖位置绑定，并为连接组研究提供细胞类型图例？",
+    "layer": "methods/molecular/cellular",
+    "topic_tags": ["空间转录组学", "spatial transcriptomics", "MERFISH", "STARmap PLUS", "seqFISH+", "Slide-seq", "Visium", "BICCN", "全脑细胞图谱", "5322聚类", "转录组细胞类型", "背腹二元性", "人类大脑细胞图谱", "MapMyCells", "分子护照", "细胞类型图例", "Yao 2023", "Cross 2024"],
+    "main_sources": ["PMID:38092916/PMC10719114 OPEN", "PMID:34616063/PMC8494645 OPEN", "PMID:39095595/PMC11405287 OPEN", "Wang 2023 Nature 622 abstract-only", "Frontiers 2024 OPEN"],
+    "wiki_created": ["methods/spatial-transcriptomics"],
+    "wiki_revised": ["concepts/transcriptomic-cell-types (rev1->rev2)", "methods/single-cell-rna-seq (rev1->rev2)", "methods/connectomics (rev3->rev4)"],
+    "graph_update": "286 nodes+1=287 nodes; 1660 edges+9=1669 edges",
+    "unresolved_questions": ["Q-st-01 (高): 5322个聚类是否都有生物学实在性还是算法过分切分？", "Q-st-02 (高): MICrONS 20个运动组与BICCN转录组子类的系统对应关系？", "Q-st-03 (中): 人类特有的脑细胞亚型与人类特有认知功能的因果关系？", "Q-st-04 (中): 如何区分细胞类型（稳定身份）和细胞状态（可逆变化）？"],
+    "next_suggested_topics": [
+      "活性氧（ROS）与神经元氧化应激——线粒体功能障碍后的分子死亡开关（填补疾病主题的分子背景，接续9月9日线粒体功能障碍）",
+      "核质转运（核孔复合体）与ALS/TDP-43毒性——TDP-43如何从核质转运失调走向聚集（接续9月11日ALS文章）",
+      "空间转录组学与疾病——阿尔茨海默症和帕金森病的病变选择性：为什么某些细胞类型优先死亡？",
+      "人类特有皮层细胞类型——灵长类进化扩张与高级认知（方法→结构→功能的桥接）",
+      "第145篇随机方向：回到情绪回路——前扣带皮层/岛叶与内感受（interoception）的分子细胞类型基础"
+    ],
+    "knowledge_base_date": "2026-09-14",
+    "system_clock_date": "2026-06-24",
+    "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-14（第144篇空间转录组学文章）"
   }
 ]

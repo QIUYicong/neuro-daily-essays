@@ -6,10 +6,10 @@ type: method
 status: established
 confidence: high
 created: 2026-06-18
-updated: 2026-09-13
-revision_count: 3
+updated: 2026-09-14
+revision_count: 4
 dimensions: [methods, cellular, brain-region, whole-brain-network]
-related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, like-to-like-connectivity, rich-club-organization]
+related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, like-to-like-connectivity, rich-club-organization, spatial-transcriptomics, transcriptomic-cell-types]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-conn-01, Q-conn-02, Q-conn-03]
 source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-06-connectomics-flywire-wiring-diagram, 2026-09-13-microns-mouse-cortex-functional-connectome]
@@ -180,6 +180,8 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 - [[ltp]] — LTP改变的是突触权重，接线图无法捕捉；但LTP发生在哪些突触上，受接线图拓扑约束
 - [[dopamine-reward-prediction-error]] — 蘑菇体DANs是此概念在昆虫中的结构化实例；接线图揭示了MBON→DAN反馈形成元学习的结构
 - [[predictive-coding]] — 结构约束的预测链（接线图→模型→实验）是连接组学功能研究的方法论核心，与预测编码的计算框架相互补充
+- [[spatial-transcriptomics]] — 空间转录组学（MERFISH等）为连接组研究提供"细胞类型图例"：将75,000个重建神经元的形态特征与分子细胞类型匹配，是MICrONS等研究成功分析的关键
+- [[transcriptomic-cell-types]] — 转录组细胞类型定义是连接组功能分析的分子基础；MICrONS的20个运动组（功能分类）与BICCN的转录组子类（分子分类）是两个互补但不重叠的维度
 
 ---
 
@@ -198,6 +200,7 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 - 2026-06-18 · 创建 · 基于《接线图之上》文章 · 覆盖 C. elegans, FlyWire, 结构-功能鸿沟概念 · 初始置信度：高
 - 2026-08-06 · 修订（rev2）· 基于《连接组学深化篇》文章 · 增加：(1) 功能连接组学新节（MICrONS 2025）；(2) "同类相连"布线规则（Ding 2025）；(3) Lin 2024 完整网络统计数据；(4) 更新 related 节点（+3个新页）；(5) 更新 key_sources 和 source_articles
 - 2026-09-13 · 修订（rev3）· 基于文章 #143《MICrONS小鼠视觉皮层功能-结构连接组》· 补充：(1) 完整配准方法（2,934基准点，3.8µm精度，100万+次编辑）；(2) 抑制性神经元普查（PMC11981935）作为伴随发现；(3) 功能数字孪生作为连接组学新维度；(4) 更新 key_sources（+PMC11981935）
+- 2026-09-14 · 修订（rev4）· 基于文章 #144《大脑的分子护照》· 连接段新增 spatial-transcriptomics 和 transcriptomic-cell-types（连接组学需要空间转录组学提供细胞类型图例；MICrONS运动组 vs BICCN转录组子类的互补维度讨论）；related新增 spatial-transcriptomics、transcriptomic-cell-types
 
 ---
 
@@ -206,3 +209,4 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 - [[2026-06-18-connectomics-wiring-diagram]]
 - [[2026-08-06-connectomics-flywire-wiring-diagram]]
 - [[2026-09-13-microns-mouse-cortex-functional-connectome]]
+- [[2026-09-14-spatial-transcriptomics-brain-cell-atlas]]

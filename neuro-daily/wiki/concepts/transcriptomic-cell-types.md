@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-07-25
-updated: 2026-07-25
-revision_count: 1
+updated: 2026-09-14
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, methods]
-related: [single-cell-rna-seq, pv-interneurons, sst-interneurons, vip-interneurons, pyramidal-neuron, cortical-canonical-microcircuit, critical-period]
+related: [single-cell-rna-seq, spatial-transcriptomics, pv-interneurons, sst-interneurons, vip-interneurons, pyramidal-neuron, cortical-canonical-microcircuit, critical-period, connectomics, inhibitory-compartmental-targeting]
 prerequisites: [single-cell-rna-seq, action-potential, synaptic-transmission]
-opens_questions: [Q-scrna-state-vs-type, Q-scrna-resolution-functional, Q-cell-type-human-cognitive]
-source_articles: [2026-07-25-scrna-seq-neural-cell-type-diversity]
-key_sources: ["PMID:30382198", "PMID:30096314", "PMID:31435019", "PMID:34616075", "PMID:37824663", "PMID:38092916", "PMID:37824669"]
+opens_questions: [Q-scrna-state-vs-type, Q-scrna-resolution-functional, Q-cell-type-human-cognitive, Q-st-01, Q-st-02]
+source_articles: [2026-07-25-scrna-seq-neural-cell-type-diversity, 2026-09-14-spatial-transcriptomics-brain-cell-atlas]
+key_sources: ["PMID:30382198", "PMID:30096314", "PMID:31435019", "PMID:34616075", "PMID:37824663", "PMID:38092916", "PMID:37824669", "PMID:39095595", "PMID:34616063"]
 ---
 
 # 转录组细胞类型 (Transcriptomic Cell Types)
@@ -24,18 +24,22 @@ key_sources: ["PMID:30382198", "PMID:30096314", "PMID:31435019", "PMID:34616075"
 
 我们现在认为，转录组细胞类型（或"转录组聚类"）是迄今最系统的神经元分类体系。在此框架下，细胞类型被定义为在基因表达空间中能与邻近群体稳定分离的细胞集合，而非仅凭单一标记基因或单一形态特征的分组。
 
-**核心数字**（截至2023年）：
+**核心数字**（截至2024年）：
 - 小鼠视觉+运动皮层：133种（Tasic et al. 2018，PMID:30382198）
 - 小鼠全神经系统：265种（Zeisel et al. 2018，PMID:30096314）
-- 小鼠全脑（最高分辨率）：5,322种聚类（Yao et al. 2023，PMID:38092916）
+- 小鼠全脑（最高分辨率）：5,322种聚类，34类→338子类→1201超型→5322聚类（Yao et al. 2023，PMID:38092916，MERFISH空间验证）
 - 人类颞中回：~100+种（Hodge et al. 2019，PMID:31435019）
-- 全人脑：461个聚类/3313个亚聚类（Siletti et al. 2023，PMID:37824663，仅摘要）
+- 全人脑（最新，2024）：461个聚类/3313个亚聚类，11.3M细胞，70项研究整合（Cross et al. 2024，PMID:39095595；注：区域差异主要为类型比例变化而非独特类型）
 
 **两个关键模式**：
 1. **GABAergic（抑制性）细胞类型跨皮层区高度保守**（小鼠视觉/运动皮层约70%共享），而**谷氨酸能（兴奋性）细胞类型有强烈的区域特异性**——提示皮层功能特化主要来自兴奋性神经元的差异化，而抑制性回路模块在各区通用（Tasic 2018）
 2. **转录因子组合编码（Combinatorial TF Code）**：每种细胞类型由一组独特的转录因子组合定义，这套"分子地址"决定细胞的命运、连接偏好和功能特性（Yao 2023）
 
 **多模态验证**：BICCN 2021（PMID:34616075）通过转录组+染色质可及性+DNA甲基化+空间转录组+Patch-seq多重技术独立验证，证明转录组聚类对应真实的细胞实体（有独立的表观基因组特征、调控程序和解剖位置）——转录组类型不是分析产物，而是"自然界的真实切割"。
+
+**空间验证（2023）**：Yao et al. 2023 用 MERFISH（1122 基因，430 万细胞）将全部 5322 聚类精确定位在小鼠脑三维解剖坐标中，scRNA-seq 与 MERFISH 的相关系数达 0.91（PMID:38092916，PMCID:PMC10719114）。关键发现：背腹二元性——背侧（皮层、海马）含少量高度分化类型，腹侧（纹状体、脑干、下丘脑）含多量但亲缘关系近的类型，反映进化扩张的差异。
+
+**分子类型与功能类型的张力**：MICrONS（Rees et al. 2025，PMID:40205214）发现的 20 个抑制性"运动组"（按连接模式功能分类）与 BICCN 的转录组子类没有 1:1 映射——两套分类互补但不重叠，揭示了功能分类（动态）和分子分类（结构约束）是两个独立维度。
 
 ## 关键机制
 
@@ -75,11 +79,14 @@ key_sources: ["PMID:30382198", "PMID:30096314", "PMID:31435019", "PMID:34616075"
 ## 连接
 
 - [[single-cell-rna-seq]] — 生成转录组细胞类型图谱的核心技术
+- [[spatial-transcriptomics]] — 将转录组类型定位到三维解剖坐标的技术（MERFISH等）
 - [[pv-interneurons]] — 转录组分析揭示PV细胞内多个功能亚类
 - [[sst-interneurons]] — SST细胞的多样性（Martinotti vs non-Martinotti等）由转录组进一步细化
 - [[cortical-canonical-microcircuit]] — 转录组细胞类型是理解正则微回路的分子基础
 - [[critical-period]] — 关键期调控可能依赖于特定细胞类型的成熟时间线
 - [[pyramidal-neuron]] — 锥体神经元的区域特异性亚类（特别是L5 ET vs IT差异）由转录组定义
+- [[connectomics]] — 转录组细胞类型为连接组研究提供"分子图例"（MICrONS等）
+- [[inhibitory-compartmental-targeting]] — 转录组抑制性亚类与连接组运动组的对应关系（待解决）
 
 ## 未解问题
 
@@ -90,7 +97,9 @@ key_sources: ["PMID:30382198", "PMID:30096314", "PMID:31435019", "PMID:34616075"
 ## 修订历史
 
 - 2026-07-25 · 创建 · 基于《神经元类型的分子宇宙》文章 #93 · 初始置信度：高
+- 2026-09-14 · 修订 rev2 · 基于《大脑的分子护照》文章 #144 · 新增空间验证段落（BICCN MERFISH，背腹二元性，PMID:38092916）；更新人类脑数字（Cross 2024，PMID:39095595）；新增功能类型vs分子类型的张力（MICrONS运动组 vs 转录组子类）；related新增 spatial-transcriptomics、connectomics、inhibitory-compartmental-targeting；新增 Q-st-01、Q-st-02
 
 ## 来源文章
 
 - [[2026-07-25-scrna-seq-neural-cell-type-diversity]]
+- [[2026-09-14-spatial-transcriptomics-brain-cell-atlas]]

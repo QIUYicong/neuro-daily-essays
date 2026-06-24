@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-13（第143篇·MICrONS小鼠视觉皮层功能-结构连接组·同类相连布线规则·抑制性隔室靶向特异性·去抑制专家）· 主题页总数：**284**（新建1页：concepts/inhibitory-compartmental-targeting；修订3页：like-to-like-connectivity升级mainstream/high, connectomics rev3, cortical-canonical-microcircuit rev2；图谱286节点/1660边）
+> 最后更新：2026-09-14（第144篇·空间转录组学与大脑细胞类型图谱·BICCN全脑细胞图谱·MERFISH·分子护照）· 主题页总数：**286**（新建1页：methods/spatial-transcriptomics；修订3页：concepts/transcriptomic-cell-types rev2, methods/single-cell-rna-seq rev2, methods/connectomics rev4；图谱287节点/1669边）
 
 ---
 
@@ -288,7 +288,8 @@
 - 🟢 [扰动复杂性指数（PCI）](methods/perturbational-complexity-index.md) — IIT 的临床代理工具；TMS 扰动 + EEG 记录 + Lempel-Ziv 复杂度算法；区分清醒/NREM/麻醉/植物状态/最小意识状态；Casali 2013 奠基，多中心验证 **[NEW 2026-05-31]**
 - 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元）→ 果蝇（139,255神经元，FlyWire 2024）→ 小鼠视觉皮层（MiCrONS 2025）；揭示小世界拓扑、富人俱乐部、同类相连布线规则；结构-功能鸿沟三大来源 **[修订 rev1→rev2 2026-08-06]**
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**
-- 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[NEW 2026-07-25]**
+- 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[修订 rev2 2026-09-14]**
+- 🟡 [空间转录组学](methods/spatial-transcriptomics.md) — 在保留原位空间坐标的同时测量细胞基因表达；成像型（MERFISH汉明误差校正/STARmap PLUS 3D ISS/seqFISH+近全转录组）vs 测序型（Slide-seqV2 10μm/Visium 55μm）；BICCN 2023：1122基因MERFISH将5322转录组聚类精确定位到小鼠全脑三维坐标；背腹二元性；为MICrONS提供细胞类型图例 **[NEW 2026-09-14]**
 
 ## theories（理论）
 

@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-14",
+  "article_number": 144,
+  "topic": "空间转录组学与大脑细胞类型图谱",
+  "sources": [
+    {
+      "id": "yao-2023-mouse-brain-atlas",
+      "title": "A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain",
+      "authors": "Yao Z et al. (BICCN)",
+      "journal": "Nature",
+      "year": 2023,
+      "volume_pages": "624, 317-332",
+      "pmid": "38092916",
+      "pmcid": "PMC10719114",
+      "doi": "10.1038/s41586-023-06812-z",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "used_for": "主要来源：全脑细胞类型分类（34类→5322聚类），MERFISH空间图谱，背腹二元性发现，GABAergic发育起源分布",
+      "key_facts": [
+        "4级层级分类：34类→338子类→1201超型→5322聚类",
+        "scRNA-seq 700万细胞 + MERFISH 430万细胞",
+        "中位相关系数0.91",
+        "背侧脑：少量高度分化类型；腹侧脑：多量近缘类型",
+        "GABAergic按MGE/CGE/LGE发育起源精确定位",
+        "MapMyCells工具"
+      ],
+      "evidence_quality": "高（双数据集验证，空间直接确认）"
+    },
+    {
+      "id": "zhang-2021-merfish-motor-cortex",
+      "title": "Spatially resolved cell atlas of the mouse primary motor cortex by MERFISH",
+      "authors": "Zhang M, Eichhorn SW, Zingg B, Yao Z, Cotter K, Zeng H, Dong H, Zhuang X",
+      "journal": "Nature",
+      "year": 2021,
+      "volume_pages": "598, 137-143",
+      "pmid": "34616063",
+      "pmcid": "PMC8494645",
+      "doi": "10.1038/s41586-021-03705-x",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "used_for": "MERFISH方法验证，皮层细胞类型图谱先驱，抑制性神经元层级组织发现",
+      "key_facts": [
+        "258基因，~30万细胞，小鼠初级运动皮层",
+        "95个聚类（39兴奋性+42抑制性+14非神经元）",
+        "抑制性神经元也呈层级组织",
+        "IT神经元沿深度连续梯度"
+      ],
+      "evidence_quality": "高（原位成像+解剖学验证）"
+    },
+    {
+      "id": "siletti-cross-2024-human-brain-atlas",
+      "title": "A brain cell atlas integrating single-cell transcriptomes across human brain regions",
+      "authors": "Cross ZK, Siletti K et al.",
+      "journal": "Nature Medicine",
+      "year": 2024,
+      "volume_pages": "30, 2679-2696",
+      "pmid": "39095595",
+      "pmcid": "PMC11405287",
+      "doi": "10.1038/s41591-024-03150-z",
+      "full_text_available": true,
+      "access_method": "PMC Open Access",
+      "used_for": "人类大脑细胞类型多样性，区域差异特征，成体海马NPC候选",
+      "key_facts": [
+        "11.3M人类细胞/核，70项研究，14主要脑区",
+        "32主要聚类，461聚类，3313子聚类",
+        "区域差异=比例变化而非独特类型",
+        "PCDH9高表达小胶质细胞新亚群"
+      ],
+      "evidence_quality": "高（多数据集整合+验证）"
+    },
+    {
+      "id": "wang-liu-2023-starmap-plus",
+      "title": "Spatial atlas of the mouse central nervous system at molecular resolution",
+      "authors": "Wang X, Allen WE, Ma Y, Zheng Y... Liu J",
+      "journal": "Nature",
+      "year": 2023,
+      "volume_pages": "622, 552-561",
+      "pmid": null,
+      "doi": "10.1038/s41586-023-06569-5",
+      "full_text_available": false,
+      "access_method": "摘要+搜索结果（Nature paywall）",
+      "used_for": "STARmap PLUS 3D空间转录组，230种细胞类型，全CNS覆盖",
+      "key_facts": [
+        "1022基因，3D ISS，109万细胞",
+        "230种分子细胞类型，106个分子组织区域",
+        "小鼠脑+脊髓全覆盖"
+      ],
+      "evidence_quality": "高（原文未读全文，基于摘要）",
+      "limitation_note": "未读取全文"
+    },
+    {
+      "id": "tosches-2023-nature-comment",
+      "title": "Cellular atlases of the entire mouse brain",
+      "authors": "Tosches MA, Lee HJ",
+      "journal": "Nature",
+      "year": 2023,
+      "volume_pages": "624, 253-255",
+      "pmid": "38092903",
+      "doi": "10.1038/d41586-023-03781-1",
+      "full_text_available": false,
+      "access_method": "评论文章，部分预览",
+      "used_for": "背景与评述"
+    },
+    {
+      "id": "frontiers-2024-spatial-methods-review",
+      "title": "Multiplexed spatial transcriptomics methods and the application of expansion microscopy",
+      "authors": "Frontiers Cell Dev Biol editorial team",
+      "journal": "Frontiers in Cell and Developmental Biology",
+      "year": 2024,
+      "doi": "10.3389/fcell.2024.1378875",
+      "full_text_available": true,
+      "access_method": "Open Access CC BY 4.0",
+      "used_for": "空间转录组学方法技术比较（MERFISH、STARmap、Slide-seq、Visium）"
+    },
+    {
+      "id": "biccn-official-resource",
+      "title": "BRAIN Initiative Cell Census Network – Whole Mouse Brain Atlas",
+      "type": "official_resource",
+      "url": "https://biccn.org/science/whole-mouse-brain",
+      "institution": "NIH BRAIN Initiative",
+      "full_text_available": true,
+      "used_for": "官方机构资源，背景与细胞分类体系"
+    }
+  ],
+  "search_queries": [
+    "BRAIN Initiative Cell Census Network BICCN whole mouse brain transcriptomic atlas 2023 Nature Yao PMID",
+    "spatial transcriptomics brain cell types MERFISH seqFISH STARmap neuroscience 2023 2024 PMID open access",
+    "MERFISH mouse primary visual cortex spatial transcriptomics Zhang Moffitt Zhuang 2021 Nature PMID PMC",
+    "human brain cell atlas single cell spatial transcriptomics 2023 2024 PMID open access PMC",
+    "STARmap PLUS mouse brain 3D spatial transcriptomics Wang Xiao 2023 Nature PMID"
+  ],
+  "open_full_text_count": 4,
+  "abstract_only_count": 1,
+  "official_resources_count": 1,
+  "total_sources": 7
+}

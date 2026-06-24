@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-09-14 · 文章 #144 · 大脑的分子护照：空间转录组学如何绘制五千种细胞类型的位置地图
+
+**核心主题**：空间转录组学（MERFISH/STARmap PLUS/Slide-seq/Visium）原理；BICCN 2023 全脑细胞图谱（Yao et al., PMID:38092916）——scRNA-seq 700万细胞 + MERFISH 430万细胞→5322聚类；背腹二元性；GABAergic 按发育起源（MGE/CGE/LGE）精确分布；Human Brain Atlas (Cross 2024, PMID:39095595)；功能类型（MICrONS 20运动组）vs 分子类型（转录组子类）互补维度。图谱从 286 节点/1660 边增至 **287 节点/1669 边**（+1 节点 + 9 条新边）。
+
+### 新建 Wiki 页面（1 个）
+
+- `methods/spatial-transcriptomics.md` 🟡 emerging · 高置信度 — 成像型（MERFISH/STARmap PLUS/seqFISH+）vs 测序型（Slide-seq/Visium）；BICCN MERFISH全脑图谱（1122基因，430万细胞，5322聚类精确空间定位）；背腹二元性；MapMyCells工具；Q-st-01（聚类生物学实在性）、Q-st-02（运动组vs转录组对应关系）
+
+### 修订 Wiki 页面（3 个）
+
+- `concepts/transcriptomic-cell-types.md` rev1→rev2 — 更新人类大脑数字（Cross 2024, 3313子聚类）；新增 BICCN 空间验证段落（MERFISH 0.91相关系数，背腹二元性，PMID:38092916）；新增功能类型 vs 分子类型张力（MICrONS运动组）；related 新增 spatial-transcriptomics、connectomics、inhibitory-compartmental-targeting；key_sources 新增 PMID:39095595、PMID:34616063；Q-st-01、Q-st-02 新增
+- `methods/single-cell-rna-seq.md` rev1→rev2 — 明确 scRNA-seq 作为空间转录组学的参考框架角色（BICCN先建分类体系再由MERFISH验证）；source_articles 新增；修订历史追加
+- `methods/connectomics.md` rev3→rev4 — 连接段新增 spatial-transcriptomics 和 transcriptomic-cell-types（细胞类型图例；功能分类 vs 分子分类互补维度）；related 新增两条
+
+### 矛盾登记与裁决
+
+无新矛盾。一处概念张力：MICrONS 20个运动组（功能维度）与BICCN转录组子类（分子维度）的不完全对应——解读为两个互补维度，未登记为矛盾（需更系统性数据才能确认是真实分歧还是分类层次不同）。
+
+### 新增悬空引用
+
+- `spatial-transcriptomics` → `patch-seq`（引用但无节点，未来方向）
+
+---
+
 ## 2026-09-13 · 文章 #143 · MICrONS：当五亿突触的接线图遇见活体神经元的功能地图
 
 **核心主题**：MICrONS 2025 小鼠视觉皮层功能-结构连接组——75,000 神经元钙成像 + ssEM 5.23亿突触 + 三阶段配准；三大发现：(1) 同类相连（like-to-like connectivity）跨层/跨区/含反馈，AI验证（RNN自发涌现）；(2) 抑制性神经元隔室靶向特异性普查（163细胞，427,294突触输出，四类TC，去抑制专家InhTC-dist/InhTC-peri）；(3) L5 ET神经元近端80%抑制性/远端20%抑制性轴突输出梯度；功能数字孪生（双向预测）。图谱从 285 节点/1649 边增至 **286 节点/1660 边**（+1 节点 + 11 条新边）。

@@ -1,0 +1,87 @@
+# 运行日志 · 2026-09-14（系统时钟 2026-06-24 UTC+8）
+
+**文章编号**：#144
+**主题**：空间转录组学与全脑细胞类型图谱（BICCN 2023 + 人类脑图谱）
+**知识库连续日期**：2026-09-14
+
+---
+
+## 搜索词与数据源
+
+**搜索词**：
+1. "BICCN 2023 mouse brain cell atlas MERFISH spatial transcriptomics 5322 clusters Yao"
+2. "spatial transcriptomics neuroscience MERFISH STARmap seqFISH brain atlas 2023"
+3. "PMID:38092916 Yao 2023 whole mouse brain cell type atlas nature"
+4. "Chen Bhatt 2022 MERFISH STARmap spatial transcriptomics brain circuit review open access"
+5. "human brain cell atlas 2023 2024 single cell RNA seq open access PMC"
+
+**数据源**：
+- WebSearch（HTTPS via proxy）
+- PMC 全文：PMC10719114（PMID:38092916，Yao et al. 2023，Nature），PMC8494645（PMID:34616063，review），PMC11405287（PMID:39095595，Cross et al. 2024）
+- WebFetch 补充资料
+
+---
+
+## 候选来源与采用/排除
+
+| 来源 | 类型 | 状态 | 原因 |
+|------|------|------|------|
+| PMC10719114 (PMID:38092916) | Yao 2023 全脑图谱 | **采用·全文** | PMC开放全文，核心来源 |
+| PMC8494645 (PMID:34616063) | 空间转录组学综述 | **采用·全文** | PMC开放全文，技术原理来源 |
+| PMC11405287 (PMID:39095595) | Cross 2024 人类脑图谱 | **采用·全文** | PMC开放全文，人类脑图谱来源 |
+| Wang et al. 2023 Nature 622 (STARmap PLUS) | STARmap PLUS 全脑 | 摘要 | 付费，仅用摘要；核心技术已由综述覆盖 |
+| Frontiers 空间转录组学综述 | 技术综述 | **采用·部分** | 开放全文，技术对比补充 |
+| Siletti 2023 Science (人类全脑单细胞) | Science | 摘要 | 付费，Siletti数据由Cross 2024引用中覆盖 |
+
+---
+
+## 固结 Wiki 页
+
+**新建**：
+- `methods/spatial-transcriptomics.md` (emerging/high, rev1)
+
+**修订**：
+- `concepts/transcriptomic-cell-types.md` rev1→rev2（新增BICCN空间验证段落、人类脑图谱更新、MICrONS功能类型张力）
+- `methods/single-cell-rna-seq.md` rev1→rev2（新增空间转录组学作为参考框架段落）
+- `methods/connectomics.md` rev3→rev4（新增与空间转录组学的连接段落）
+
+---
+
+## 知识图谱更新
+
+- **节点**：286 → 287（+1：spatial-transcriptomics）
+- **边**：1,660 → 1,669（+9 边）
+  - spatial-transcriptomics ↔ single-cell-rna-seq（互补技术）
+  - spatial-transcriptomics ↔ transcriptomic-cell-types（空间验证关系）
+  - spatial-transcriptomics ↔ connectomics（联合图谱）
+  - transcriptomic-cell-types ↔ connectomics（细胞类型-连接组整合）
+  - spatial-transcriptomics ↔ pv-interneurons、sst-interneurons、pyramidal-neuron
+  - transcriptomic-cell-types ↔ inhibitory-compartmental-targeting
+
+---
+
+## 矛盾登记
+
+无新矛盾登记。
+
+一处概念张力（非矛盾）：BICCN的5,322个转录组聚类 vs MICrONS的20个功能运动组——两套分类框架在相同VISp区域对"细胞类型"的切分粒度差异极大，登记为未解问题Q-st-02，而非contested_claims。
+
+---
+
+## 新增悬空引用
+
+- `spatial-transcriptomics` → `patch-seq`（wiki页面related中引用，尚无patch-seq专属页面）
+
+---
+
+## 失败与限制
+
+- Wang et al. 2023 (STARmap PLUS, Nature 622) 付费全文，仅用摘要覆盖STARmap技术要点，已在文章中明确注明。
+- Siletti et al. 2023 Science (人类全脑细胞) 付费，通过Cross 2024的引用间接引用相关数据。
+
+---
+
+## Git 状态
+
+**分支**：claude/funny-einstein-volqzn
+**Push 状态**：待推送
