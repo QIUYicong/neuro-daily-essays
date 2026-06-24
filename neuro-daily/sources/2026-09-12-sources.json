@@ -1,0 +1,132 @@
+{
+  "date": "2026-09-12",
+  "article_number": 142,
+  "article_slug": "spatial-transcriptomics-brain-cell-atlas",
+  "knowledge_base_date": "2026-09-12",
+  "system_clock_date": "2026-06-24",
+  "topic": "空间转录组学与大脑细胞类型图谱（MERFISH × Allen Brain Cell Atlas 2023）",
+  "sources": [
+    {
+      "pmid": "25858977",
+      "pmcid": "PMC4662681",
+      "title": "RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells",
+      "authors": "Chen KH, Boettiger AN, Moffitt JR, Wang S, Zhuang X",
+      "journal": "Science",
+      "year": 2015,
+      "doi": "10.1126/science.aaa6090",
+      "full_text_available": true,
+      "full_text_source": "PMC4662681",
+      "role": "MERFISH技术原始论文",
+      "aspects_covered": ["MERFISH方法原理", "错误校正编码方案", "单细胞RNA空间检测可行性验证"]
+    },
+    {
+      "pmid": "34616063",
+      "pmcid": "PMC8494645",
+      "title": "Spatially resolved cell atlas of the mouse primary motor cortex by MERFISH",
+      "authors": "Zhang M, Eichhorn SW, Zingg B, Yao Z, Cotter K, Zeng H, Dong H, Zhuang X",
+      "journal": "Nature",
+      "year": 2021,
+      "doi": "10.1038/s41586-021-03705-x",
+      "full_text_available": true,
+      "full_text_source": "PMC8494645",
+      "role": "单区域（运动皮层）MERFISH图谱，方法验证里程碑",
+      "aspects_covered": ["运动皮层95种细胞类型", "IT神经元分层梯度", "投射多对多映射"]
+    },
+    {
+      "pmid": "38092916",
+      "pmcid": "PMC10719114",
+      "title": "A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain",
+      "authors": "Yao Z, van Velthoven CTJ, Kunst M, Zhang M, McMillen D, et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "doi": "10.1038/s41586-023-06812-z",
+      "full_text_available": true,
+      "full_text_source": "PMC10719114",
+      "role": "核心论文：全脑转录组+MERFISH整合图谱（Yao et al., Allen Institute / Zhuang lab）",
+      "aspects_covered": [
+        "5322个聚类层级体系（34类→338亚类→1201超型→5322聚类）",
+        "背腹大脑二分法",
+        "62个双递质聚类",
+        "79%聚类表达神经肽基因",
+        "转录因子组合编码",
+        "MapMyCells工具"
+      ]
+    },
+    {
+      "pmid": "38092912",
+      "pmcid": "PMC10719103",
+      "title": "Molecularly defined and spatially resolved cell atlas of the whole mouse brain",
+      "authors": "Zhang M, Pan X, Jung W, Halpern AR, Eichhorn SW, Lei Z, et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "doi": "10.1038/s41586-023-06808-9",
+      "full_text_available": true,
+      "full_text_source": "PMC10719103",
+      "role": "核心论文：1147基因MERFISH全脑图谱（Zhang et al., Zhuang lab Harvard）",
+      "aspects_covered": [
+        "1147基因panel，10M细胞",
+        "非神经元占54%",
+        "星形胶质细胞36种聚类",
+        "神经元亚类区域特异性",
+        "成体新生神经元迁移",
+        "细胞类型特异配体-受体相互作用"
+      ]
+    },
+    {
+      "pmid": "38092913",
+      "pmcid": "PMC10719113",
+      "title": "Single-cell DNA methylome and 3D multi-omic atlas of the adult mouse brain",
+      "authors": "Liu H, Zeng Q, Zhou J, Bartlett A, et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "doi": "10.1038/s41586-023-06805-y",
+      "full_text_available": true,
+      "full_text_source": "PMC10719113",
+      "role": "互补论文：表观遗传层面验证（Liu et al., Ecker lab Salk）",
+      "aspects_covered": ["301,626个甲基组", "4673细胞群274亚类", "2.6M差异甲基化区域"]
+    },
+    {
+      "pmid": "36580914",
+      "pmcid": "PMC10024607",
+      "title": "Molecular and spatial signatures of mouse brain aging at single-cell resolution",
+      "authors": "Allen WE, Blosser TR, Sullivan ZA, Dulac C, Zhuang X",
+      "journal": "Cell",
+      "year": 2023,
+      "doi": "10.1016/j.cell.2022.12.010",
+      "full_text_available": true,
+      "full_text_source": "PMC10024607",
+      "role": "应用论文：MERFISH揭示大脑老化的空间特征",
+      "aspects_covered": [
+        "非神经元老化变化>神经元",
+        "胼胝体白质老化热点",
+        "星形胶质细胞空间异质性",
+        "距离依赖小胶质细胞-少突胶质细胞通信"
+      ]
+    },
+    {
+      "pmid": "37198436",
+      "pmcid": "PMC10191412",
+      "title": "Single-cell and spatial transcriptomics: deciphering brain complexity in health and disease",
+      "authors": "(Review, multiple authors)",
+      "journal": "Nature Reviews Neurology",
+      "year": 2023,
+      "doi": "10.1038/s41582-023-00809-y",
+      "full_text_available": true,
+      "full_text_source": "PMC10191412",
+      "role": "综述：空间转录组学在神经疾病的应用全景",
+      "aspects_covered": [
+        "技术比较（Visium vs CosMx vs MERFISH）",
+        "MS/PD/精神疾病的空间转录组发现",
+        "技术局限与未来方向"
+      ]
+    }
+  ],
+  "open_full_text_count": 7,
+  "abstract_only_count": 0,
+  "official_institution_sources": ["Allen Institute for Brain Science", "NIH BRAIN Initiative (BICCN)", "Harvard MERFISH Lab (Zhuang)", "Salk Institute (Ecker lab)"],
+  "search_queries_used": [
+    "MERFISH brain cell type atlas spatial transcriptomics",
+    "Allen Brain Cell Atlas spatial transcriptomics mouse 2023",
+    "spatial transcriptomics single cell brain review 2022-2024"
+  ]
+}

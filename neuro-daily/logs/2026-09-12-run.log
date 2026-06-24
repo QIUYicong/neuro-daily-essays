@@ -1,0 +1,137 @@
+# 2026-09-12 运行日志
+
+**时间戳**：2026-09-12T09:00:00+08:00（知识库连续日期）
+**系统时钟日期**：2026-06-24 UTC+8
+**日志版本**：Run #142
+
+---
+
+## 运行概要
+
+| 字段 | 值 |
+|------|---|
+| 文章编号 | #142 |
+| 知识库日期 | 2026-09-12 |
+| 系统时钟日期 | 2026-06-24 |
+| 主题 | 空间转录组学：MERFISH 如何把五千种分子身份钉在三维解剖地图上 |
+| 核心问题 | 为什么大脑细胞类型超过5000种，这种多样性如何在三维空间中被组织？MERFISH如何将分子身份与解剖位置系统对应？ |
+
+---
+
+## 步骤执行记录
+
+### Step 0: 主分支同步
+- 当前分支：claude/funny-einstein-bzacgj（本地分支，remote=origin/main）
+- git pull --rebase origin main：成功，forced update 到 3176aef，已是最新
+- git config user: QIUYicong / 169510482+QIUYicong@users.noreply.github.com ✅
+- 确认 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 存在 ✅
+
+### Step A: 读取状态
+- ROUTINE.md：已读取 ✅
+- KNOWLEDGE-BASE-DESIGN.md：已读取 ✅
+- topic_ledger.json：已读取（文件有JSON语法错误在第21行，使用text模式读取末尾条目）✅
+- wiki/CHANGELOG.md：已读取 ✅
+- wiki/index.md：已读取 ✅
+- state/unresolved_questions.md：已读取 ✅
+- 上次 run.log (2026-09-11)：已读取 ✅
+- wiki/_graph.json：已解析（282节点/1637边）✅
+- 重复触发诊断：已检查今日诊断日志（trigger #1/#2/#3均为检测2026-06-24系统日期文章已存在的no-op）
+- 判断：知识库连续日期为2026-09-12（前一篇为#141 2026-09-11），继续知识库连续日期模型
+
+### Step B: 主题选择
+- 上一篇 (#141)：ALS - molecular/cellular/disease层级
+- 过去5篇（#137-141）均为molecular/cellular/disease层
+- 超过ROUTINE.md"避免连续三天同一层级"规则→必须切换层级
+- 选择：空间转录组学（methods层）
+  - 理由1：填补知识库方法论空白（wiki/methods/只有4个页面，无空间转录组学）
+  - 理由2：Allen Brain Cell Atlas 2023是重大突破，开放全文充足
+  - 理由3：与已有单细胞RNA测序页面形成互补，消解single-cell-rna-seq的related悬空引用
+  - 理由4：完全不同于近期disease/molecular轨道
+
+### Step C: 文章研究与写作
+- 搜索策略：PubMed E-utilities（MERFISH brain cell type atlas / Allen Brain Cell Atlas 2023）
+- PubMed E-utilities搜索：共找到22条结果，筛选7篇核心论文
+- 开放获取全文读取：7篇（PMC10719114、PMC10719103、PMC10719113、PMC10024607、PMC8494645、PMC4662681、PMC10191412）
+- 未读全文：0篇
+- 官方机构来源：Allen Institute、NIH BRAIN Initiative、Harvard MERFISH Lab
+- 阅读笔记：neuro-daily/notes/2026-09-12-reading-notes.md ✅
+- 来源记录：neuro-daily/sources/2026-09-12-sources.json ✅
+- 文章写作（Agent子代理）：neuro-daily/articles/2026-09-12-spatial-transcriptomics-brain-cell-atlas.md ✅（约25KB/6500中文字符）
+- 文章包含所有必需节目（核心问题/摘要/背景/机制/证据/比喻/改变理解/争议/AI对照/概念卡片/认知地图更新/参考来源）
+
+### Step D: 知识库固结
+- 新建wiki页面（2个）：
+  - methods/spatial-transcriptomics.md ✅（mainstream/high，1147字）
+  - concepts/brain-cell-type-diversity.md ✅（mainstream/high，900字）
+- 修订wiki页面（1个）：
+  - methods/single-cell-rna-seq.md rev1→rev2 ✅（新增修订历史、来源文章）
+- 矛盾检查：无新矛盾与既有wiki页面冲突
+
+### Step E: 更新图谱与导航
+- wiki/_graph.json：新增4节点（spatial-transcriptomics、brain-cell-type-diversity、merfish、allen-brain-cell-atlas）+ 9条边 ✅
+- 图谱更新至286节点/1646边
+- wiki/index.md：更新最后更新行（283页、286节点/1646边）；新增spatial-transcriptomics到methods节 ✅
+- wiki/CHANGELOG.md：新增2026-09-12节 ✅
+
+### Step F: 更新治理层
+- state/topic_ledger.json：追加第142条 ✅
+- state/unresolved_questions.md：追加Q-spatx-01/02/03/04 ✅
+- state/source_registry.json：追加6条新来源（共510条）✅
+- state/monthly_synthesis.md：追加第142篇摘要 ✅
+- logs/2026-09-12-run.log：本文件 ✅
+
+### Step G: 提交与推送
+- 见下方commit/push状态
+
+---
+
+## 搜索与来源摘要
+
+| 来源 | PMID/PMC | 全文 | 角色 |
+|------|---------|------|------|
+| Chen et al. 2015, Science（MERFISH原创） | PMID:25858977 PMC4662681 | 是 | 技术原理 |
+| Zhang et al. 2021, Nature（运动皮层MERFISH） | PMID:34616063 PMC8494645 | 是 | 方法验证 |
+| Yao et al. 2023, Nature（全脑转录+MERFISH） | PMID:38092916 PMC10719114 | 是 | 核心论文1 |
+| Zhang et al. 2023, Nature（全脑高基因MERFISH） | PMID:38092912 PMC10719103 | 是 | 核心论文2 |
+| Liu et al. 2023, Nature（甲基组多组学） | PMID:38092913 PMC10719113 | 是 | 互补论文 |
+| Allen WE et al. 2023, Cell（大脑老化MERFISH） | PMID:36580914 PMC10024607 | 是 | 应用展示 |
+| 综述, Nat Rev Neurol 2023 | PMID:37198436 PMC10191412 | 是 | 综述 |
+
+开放全文：7/7 · 摘要：0/7
+
+---
+
+## 图谱状态
+
+| 指标 | 值 |
+|------|---|
+| 节点总数 | 286 |
+| 边总数 | 1646 |
+| 新增节点 | 4（spatial-transcriptomics、brain-cell-type-diversity、merfish、allen-brain-cell-atlas）|
+| 新增边 | 9 |
+
+---
+
+## 悬空引用（新增/待建页面）
+
+- `transcriptomic-cell-types`：被 single-cell-rna-seq 和 brain-cell-type-diversity 页引用，待建独立概念页
+- `liquid-liquid-phase-separation`：继续悬空，被 tdp-43-pathology、dipeptide-repeat-proteins 引用
+- `c9orf72-repeat-expansion`：继续悬空
+- `nucleocytoplasmic-transport`：继续悬空
+
+---
+
+## 下次建议主题
+
+1. 液-液相分离（LLPS）——填补 liquid-liquid-phase-separation 悬空引用 + TDP-43/FUS 生物物理机制（分子层）
+2. 核质转运（nucleocytoplasmic transport）——填补悬空引用 + C9orf72/DPR 毒性机制深化（分子层）
+3. 成体神经发生（adult neurogenesis）——海马 DG 的神经元更新与记忆功能（细胞/认知层）
+4. 大脑发育的轴突导向（axon guidance）——Sema/Eph/Netrin/Slit 分子机制（分子/细胞层）
+5. 默认模式网络（DMN）深化——功能意义与意识理论的联系（全脑网络/认知层）
+
+---
+
+## Commit/Push 状态
+
+- Branch: claude/funny-einstein-bzacgj (pushes to origin/main)
+- [待填写 commit hash]

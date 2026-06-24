@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-11",
-  "node_count": 282,
-  "edge_count": 1637,
+  "updated": "2026-09-12",
+  "node_count": 286,
+  "edge_count": 1646,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2580,6 +2580,42 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/dipeptide-repeat-proteins.md"
+    },
+    {
+      "id": "spatial-transcriptomics",
+      "title": "空间转录组学",
+      "domain": "methods",
+      "type": "method",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/methods/spatial-transcriptomics.md"
+    },
+    {
+      "id": "brain-cell-type-diversity",
+      "title": "大脑细胞类型多样性",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/brain-cell-type-diversity.md"
+    },
+    {
+      "id": "merfish",
+      "title": "MERFISH（多重错误鲁棒荧光原位杂交）",
+      "domain": "methods",
+      "type": "method",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/methods/spatial-transcriptomics.md"
+    },
+    {
+      "id": "allen-brain-cell-atlas",
+      "title": "Allen Brain Cell Atlas（全脑细胞类型图谱）",
+      "domain": "methods",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/spatial-transcriptomics.md"
     }
   ],
   "edges": [
@@ -11763,6 +11799,60 @@
       "target": "als-amyotrophic-lateral-sclerosis",
       "type": "related",
       "note": "ALS运动神经元因四重脆弱性（低缓冲/高AMPA通透/长轴突/皮质驱动）处于慢性兴奋毒性临界"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "single-cell-rna-seq",
+      "type": "related",
+      "note": "空间转录组学在scRNA-seq的基础上增加了空间维度"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "connectomics",
+      "type": "related",
+      "note": "连接组提供突触连线，空间转录组提供分子身份地图，两者整合是功能连接组学的下一步"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "brain-cell-type-diversity",
+      "type": "supports",
+      "note": "空间转录组学是揭示大脑细胞类型多样性（5322种）的核心技术"
+    },
+    {
+      "from": "merfish",
+      "to": "spatial-transcriptomics",
+      "type": "is-a",
+      "note": "MERFISH是空间转录组学的一种高分辨率技术实现"
+    },
+    {
+      "from": "allen-brain-cell-atlas",
+      "to": "brain-cell-type-diversity",
+      "type": "supports",
+      "note": "Allen Brain Cell Atlas 2023是目前全脑细胞类型多样性最完整的参考图谱"
+    },
+    {
+      "from": "allen-brain-cell-atlas",
+      "to": "spatial-transcriptomics",
+      "type": "mechanism-of",
+      "note": "Allen Brain Cell Atlas利用MERFISH空间转录组学构建"
+    },
+    {
+      "from": "brain-cell-type-diversity",
+      "to": "single-cell-rna-seq",
+      "type": "related",
+      "note": "scRNA-seq是揭示细胞类型多样性的先驱方法"
+    },
+    {
+      "from": "brain-cell-type-diversity",
+      "to": "connectomics",
+      "type": "related",
+      "note": "细胞类型多样性与连接组互为补充：后者记录连线，前者记录分子身份"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "astrocyte",
+      "type": "supports",
+      "note": "空间转录组学揭示星形胶质细胞有36种空间变体，重写胶质细胞均质性假设"
     }
   ],
   "dangling_references": [

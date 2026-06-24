@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-11（第141篇·ALS·TDP-43核清除·C9orf72三叉毒矛·运动神经元选择性脆弱性·隐蔽外显子·RAN翻译·DPR蛋白）· 主题页总数：**280**（新建5页：diseases/als-amyotrophic-lateral-sclerosis、concepts/tdp-43-pathology、concepts/cryptic-exon、concepts/ran-translation、concepts/dipeptide-repeat-proteins；修订1页：excitotoxicity rev3；图谱282节点/1637边）
+> 最后更新：2026-09-12（第142篇·空间转录组学·MERFISH·Allen Brain Cell Atlas 2023·大脑细胞类型多样性·5322种细胞类型·背腹二分法·双递质神经元·非神经元54%）· 主题页总数：**283**（新建3页：methods/spatial-transcriptomics、concepts/brain-cell-type-diversity；修订1页：methods/single-cell-rna-seq rev2；图谱286节点/1646边）
 
 ---
 
@@ -287,7 +287,8 @@
 - 🟢 [扰动复杂性指数（PCI）](methods/perturbational-complexity-index.md) — IIT 的临床代理工具；TMS 扰动 + EEG 记录 + Lempel-Ziv 复杂度算法；区分清醒/NREM/麻醉/植物状态/最小意识状态；Casali 2013 奠基，多中心验证 **[NEW 2026-05-31]**
 - 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元）→ 果蝇（139,255神经元，FlyWire 2024）→ 小鼠视觉皮层（MiCrONS 2025）；揭示小世界拓扑、富人俱乐部、同类相连布线规则；结构-功能鸿沟三大来源 **[修订 rev1→rev2 2026-08-06]**
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**
-- 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[NEW 2026-07-25]**
+- 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[修订 rev2 2026-09-12]**
+- 🔵 [空间转录组学](methods/spatial-transcriptomics.md) — MERFISH/seqFISH/Visium等技术在保留三维空间位置的前提下测量基因表达；Allen Brain Cell Atlas 2023将全鼠脑1000万细胞分入5322聚类并给出三维坐标；技术比较、核心发现（背腹二分法、双递质神经元、非神经元54%）和根本局限 **[NEW 2026-09-12]**
 
 ## theories（理论）
 

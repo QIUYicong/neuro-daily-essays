@@ -8606,4 +8606,41 @@
     "system_clock_date": "2026-06-24",
     "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-11（第141篇ALS文章）"
   }
+  ,
+  {
+    "date": "2026-09-12",
+    "article_number": 142,
+    "title": "大脑细胞类型的坐标系：MERFISH 如何把五千种分子身份钉在三维解剖地图上",
+    "core_question": "为什么大脑细胞类型超过5000种，而这种多样性如何在三维空间中被组织？MERFISH技术如何让我们第一次将分子身份与三维解剖位置系统对应——并揭示了背腹大脑二分法、双递质神经元62聚类、非神经元54%主导地位等此前不可见的规律？",
+    "layer": "methods/molecular/whole-brain-network",
+    "topic_tags": ["空间转录组学", "MERFISH", "Allen Brain Cell Atlas", "细胞类型", "单细胞测序", "背腹大脑二分法", "双递质神经元", "非神经元", "星形胶质细胞异质性", "大脑老化", "Yao 2023", "Zhang 2023"],
+    "main_sources": [
+      "PMID:25858977 PMC4662681 OPEN",
+      "PMID:34616063 PMC8494645 OPEN",
+      "PMID:38092916 PMC10719114 OPEN",
+      "PMID:38092912 PMC10719103 OPEN",
+      "PMID:38092913 PMC10719113 OPEN",
+      "PMID:36580914 PMC10024607 OPEN",
+      "PMID:37198436 PMC10191412 OPEN"
+    ],
+    "wiki_created": ["methods/spatial-transcriptomics", "concepts/brain-cell-type-diversity"],
+    "wiki_revised": ["methods/single-cell-rna-seq (rev1->rev2)"],
+    "graph_update": "282 nodes+4=286 nodes; 1637 edges+9=1646 edges",
+    "unresolved_questions": [
+      "Q-spatx-01 (高): 小鼠5322个转录类型在人脑中有多少对应？",
+      "Q-spatx-02 (高): 转录组细胞类型与电生理类型如何精确对应？",
+      "Q-spatx-03 (中): 62个双递质聚类的功能意义是什么？",
+      "Q-spatx-04 (中): 细胞类型空间特异性如何在发育中建立？"
+    ],
+    "next_suggested_topics": [
+      "液-液相分离（liquid-liquid-phase-separation）——填补悬空引用 + TDP-43/FUS生物物理",
+      "核质转运（nucleocytoplasmic transport）——填补悬空引用 + C9orf72/DPR毒性机制",
+      "活性氧（ROS）与神经元抗氧化系统——氧化应激神经损伤",
+      "成体神经发生——DG齿状回的神经元更新与记忆",
+      "大脑发育中的轴突导向——分子机制系列"
+    ],
+    "knowledge_base_date": "2026-09-12",
+    "system_clock_date": "2026-06-24",
+    "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-12（第142篇空间转录组学文章）"
+  }
 ]

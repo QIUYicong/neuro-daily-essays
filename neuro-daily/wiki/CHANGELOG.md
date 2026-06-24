@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-09-12 · 文章 #142 · 空间转录组学：MERFISH 把五千种分子身份钉在三维解剖地图上
+
+**核心主题**：空间转录组学（MERFISH/Visium/seqFISH等）的技术原理与大脑应用，聚焦Allen Brain Cell Atlas 2023系列论文（Yao et al. Nature 2023 + Zhang et al. Nature 2023 + Liu et al. Nature 2023）。核心发现：小鼠全脑5322个转录组聚类（34类→338亚类→1201超型），背腹大脑组织二分法，62个双递质神经元聚类，非神经元占54%，星形胶质细胞36种空间变体，MERFISH老化研究揭示胼胝体白质热点（Allen WE 2023）。图谱从282节点/1637边增至**286节点/1646边**（+4节点+9条新边）。
+
+### 新建 Wiki 页面（2个）
+
+- `methods/spatial-transcriptomics.md` 🔵 mainstream · 高置信度 — MERFISH技术原理（多轮杂交+错误校正条码）；与Visium的技术对比（单细胞vs组织分辨率）；全脑3D图谱构建（Allen CCF配准）；核心证据表（5322聚类/54%非神经元/双递质等）；疾病应用（MS/PD/AD）；Q-spatx-01/02/03/04
+- `concepts/brain-cell-type-diversity.md` 🔵 mainstream · 高置信度 — 5322聚类层级体系；背腹大脑二分法；双递质（62聚类）与神经肽（79%聚类）多样性；非神经元54%主导；转录因子组合编码；空间特异性
+
+### 修订 Wiki 页面（1个）
+
+- `methods/single-cell-rna-seq.md` rev1→rev2 — 新增空间转录组学作为scRNA-seq的空间扩展；修订历史追加2026-09-12条目；新增来源文章 2026-09-12
+
+### 矛盾登记/裁决（0条）
+
+今日无新矛盾。空间转录组学的主要不确定性（小鼠→人类推广、单脑基准的个体差异）已作为未解问题Q-spatx-01/02登记，但不与现有wiki页面的主张构成直接矛盾。
+
+### 悬空引用变化
+
+- **新增节点**（消解悬空）：`spatial-transcriptomics`（单细胞RNA测序页面的related列表中已引用）
+- **继续悬空**：`c9orf72-repeat-expansion`、`nucleocytoplasmic-transport`、`motor-neuron`、`liquid-liquid-phase-separation`、`reactive-oxygen-species`、`transcriptomic-cell-types`（被single-cell-rna-seq页面引用）
+
+---
+
 ## 2026-09-11 · 文章 #141 · ALS：TDP-43 核清除与运动神经元的选择性命运
 
 **核心主题**：肌萎缩侧索硬化症（ALS）的分子机制——TDP-43 病理的双重破坏（核 LOF 导致 UNC13A/STMN2 隐蔽外显子暴露；胞质聚集 GOF 隔离 RBP 并朊病毒样传播）；C9orf72 重复扩增的三叉毒矛（功能丧失 + RNA 病灶 + DPR 蛋白，poly-GR/PR 毒性最强）；SOD1 的平行路径（无 TDP-43 病理但同样选择性杀死运动神经元）；运动神经元选择性脆弱性的四重逻辑（超长轴突 + 低钙缓冲 + 高钙通透 AMPA 受体 + 持续皮质驱动）。图谱从 277 节点/1617 边增至 **282 节点/1637 边**（+5 节点 + 20 条新边）。

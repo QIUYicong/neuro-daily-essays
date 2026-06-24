@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06",
+  "last_updated": "2026-09-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -8664,6 +8664,112 @@
         "颗粒细胞信号负责运动上下文编码",
         "PC 基线放电在颗粒细胞信号缺失时仍正常"
       ]
+    },
+    {
+      "pmid": "25858977",
+      "pmcid": "PMC4662681",
+      "title": "Spatially resolved, highly multiplexed RNA profiling in single cells (MERFISH)",
+      "authors_short": "Chen KH, Boettiger AN, Moffitt JR, Zhuang X",
+      "journal": "Science",
+      "year": 2015,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-spatial-transcriptomics-brain-cell-atlas.md"
+      ],
+      "aspects_covered": [
+        "MERFISH技术原理",
+        "错误校正条码方案",
+        "单细胞RNA空间检测可行性"
+      ]
+    },
+    {
+      "pmid": "38092916",
+      "pmcid": "PMC10719114",
+      "title": "A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain",
+      "authors_short": "Yao Z, van Velthoven CTJ, Kunst M, Zhang M, Zeng H et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-spatial-transcriptomics-brain-cell-atlas.md"
+      ],
+      "aspects_covered": [
+        "5322聚类层级体系",
+        "背腹大脑二分法",
+        "62双递质聚类",
+        "79%聚类表达神经肽",
+        "MapMyCells"
+      ]
+    },
+    {
+      "pmid": "38092912",
+      "pmcid": "PMC10719103",
+      "title": "Molecularly defined and spatially resolved cell atlas of the whole mouse brain",
+      "authors_short": "Zhang M, Pan X, Jung W, Zhuang X et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-spatial-transcriptomics-brain-cell-atlas.md"
+      ],
+      "aspects_covered": [
+        "1147基因MERFISH全脑",
+        "非神经元54%",
+        "星形胶质细胞36种变体",
+        "区域特异性"
+      ]
+    },
+    {
+      "pmid": "38092913",
+      "pmcid": "PMC10719113",
+      "title": "Single-cell DNA methylome and 3D multi-omic atlas of the adult mouse brain",
+      "authors_short": "Liu H, Zeng Q, Ecker JR et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-spatial-transcriptomics-brain-cell-atlas.md"
+      ],
+      "aspects_covered": [
+        "全脑甲基组301K细胞",
+        "4673细胞群274亚类",
+        "2.6M差异甲基化区域"
+      ]
+    },
+    {
+      "pmid": "36580914",
+      "pmcid": "PMC10024607",
+      "title": "Molecular and spatial signatures of mouse brain aging at single-cell resolution",
+      "authors_short": "Allen WE, Blosser TR, Sullivan ZA, Dulac C, Zhuang X",
+      "journal": "Cell",
+      "year": 2023,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-spatial-transcriptomics-brain-cell-atlas.md"
+      ],
+      "aspects_covered": [
+        "大脑老化MERFISH分析",
+        "胼胝体白质热点",
+        "非神经元老化>神经元",
+        "距离依赖小胶质-少突胶质通信"
+      ]
+    },
+    {
+      "pmid": "37198436",
+      "pmcid": "PMC10191412",
+      "title": "Single-cell and spatial transcriptomics: deciphering brain complexity in health and disease",
+      "authors_short": "(Review)",
+      "journal": "Nature Reviews Neurology",
+      "year": 2023,
+      "first_used": "2026-09-12",
+      "used_in_articles": [
+        "2026-09-12-spatial-transcriptomics-brain-cell-atlas.md"
+      ],
+      "aspects_covered": [
+        "技术比较Visium/CosMx/MERFISH",
+        "MS/PD/精神疾病空间发现",
+        "技术局限与未来"
+      ]
     }
   ],
   "total_sources": 502,
@@ -13171,8 +13277,7 @@
     "PMID:19682570",
     "PMID:28379197",
     "PMC:5488005"
-  ]
-  ,
+  ],
   "sources_2026-09-11": [
     "PMC6417666",
     "PMID:30120348",

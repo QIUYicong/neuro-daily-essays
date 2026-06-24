@@ -6,8 +6,8 @@ type: method
 status: established
 confidence: high
 created: 2026-07-25
-updated: 2026-07-25
-revision_count: 1
+updated: 2026-09-12
+revision_count: 2
 dimensions: [molecular, cellular, methods]
 related: [transcriptomic-cell-types, optogenetics, spatial-transcriptomics, patch-seq]
 prerequisites: [action-potential, synaptic-transmission]
@@ -70,7 +70,9 @@ key_sources: ["PMID:30382198", "PMID:30586455", "PMID:38092916", "PMID:38123823"
 ## 修订历史
 
 - 2026-07-25 · 创建 · 基于《神经元类型的分子宇宙》文章 #93 · 初始置信度：高
+- 2026-09-12 · 修订 · 基于《大脑细胞类型的坐标系》文章 #142 · 增加：空间转录组学作为scRNA-seq的空间扩展；Allen Brain Cell Atlas 2023将5,322个聚类和空间位置对应的重要意义；scRNA-seq的根本局限（空间信息丢失）在MERFISH中如何被克服
 
 ## 来源文章
 
 - [[2026-07-25-scrna-seq-neural-cell-type-diversity]]
+- [[2026-09-12-spatial-transcriptomics-brain-cell-atlas]]
