@@ -155,4 +155,4 @@
 - [x] monthly_synthesis
 - [x] source_registry
 - [x] _graph.json（287节点/1669边）
-- [ ] git commit + push（进行中）
+- [x] git commit + push（`claude/funny-einstein-a0fq6v` → `origin/main`，5fec77e，成功）
