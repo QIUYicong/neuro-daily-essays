@@ -1,0 +1,78 @@
+# 运行日志 · 2026-09-13（系统时钟 2026-06-24 UTC+8）
+
+**文章编号**：#143
+**主题**：MICrONS 小鼠视觉皮层功能-结构连接组
+**知识库连续日期**：2026-09-13
+
+---
+
+## 搜索词与数据源
+
+**搜索词**：
+1. "MICrONS consortium mouse visual cortex functional connectome 2025 Nature paper"
+2. "MICrONS machine intelligence from cortical networks 1mm3 synapse connectome PMID DOI 2025"
+3. "MICrONS like-to-like connectivity mouse visual cortex cortical layers excitatory inhibitory 2025"
+4. "MICrONS PMID:40205214 PMC open access companion papers Nature 2025 wiring rules"
+5. "MICrONS inhibitory specificity connectomic census mouse visual cortex PMID PMC 2024 2025"
+6. "MICrONS digital twin foundation model visual cortex neurons functional prediction 2025"
+
+**数据源**：
+- WebSearch（HTTPS via proxy）
+- PMC 全文直接读取：PMC11981939、PMC11981947、PMC11981935、PMC12321573
+- ScienceDaily 新闻稿（2025-04-09）
+
+---
+
+## 候选来源与采用/排除
+
+| 来源 | 类型 | 状态 | 原因 |
+|------|------|------|------|
+| PMC11981939 (PMID:40205214) | MICrONS主论文 | **采用·全文** | Nature开放全文，核心来源 |
+| PMC11981947 | like-to-like论文 | **采用·全文** | Nature开放全文，核心来源 |
+| PMC11981935 (PMID:40205209) | 抑制性特异性论文 | **采用·全文** | Nature开放全文，核心来源 |
+| PMC12321573 | L5 ET神经元论文 | **采用·全文** | PMC开放全文，伴随发现 |
+| Nature Main paper (paywalled direct) | 付费期刊页面 | 不直接访问 | 通过PMC开放版本访问 |
+| ScienceDaily | 新闻稿 | **采用·背景** | 引语和历史背景 |
+| NIH BRAIN Initiative press | 官方资讯 | 部分使用（403 forbidden）| 替代使用ScienceDaily |
+
+---
+
+## 固结 Wiki 页
+
+**新建**：
+- `concepts/inhibitory-compartmental-targeting.md` (mainstream/high, rev1)
+
+**修订**：
+- `concepts/like-to-like-connectivity.md` rev1→rev2，status emerging/medium → mainstream/high
+- `methods/connectomics.md` rev2→rev3
+- `circuits/cortical-canonical-microcircuit.md` rev1→rev2
+
+---
+
+## 矛盾登记
+
+无新矛盾登记。
+
+一处概念张力（非矛盾级别）：MICrONS 20 个运动组与经典 PV/SST/VIP 分类不完全重合——解读为两个互补维度，未登记为 contested_claims。
+
+---
+
+## 新增悬空引用
+
+- `inhibitory-compartmental-targeting` → `excitation-inhibition-balance`（edges 中引用了但节点尚未创建）
+- （这是规划中的未来主题，不是错误）
+
+---
+
+## 失败与限制
+
+- NIH BRAIN Initiative 官方新闻稿（news releases页面）返回 403，无法直接获取。使用 ScienceDaily 替代。
+- 来自全部 10 篇 MICrONS 伴随论文中，只读取了 4 篇开放全文，其余论文（如数字孪生详细论文）因 PMC URL 需要验证，部分未能直接访问全文，相关内容使用 WebSearch 结果摘要代替。
+
+---
+
+## Git 状态
+
+**分支**：main
+**当前 commit**：待写入
+**Push 状态**：待推送

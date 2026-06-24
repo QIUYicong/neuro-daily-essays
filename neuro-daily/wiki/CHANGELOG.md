@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-09-13 · 文章 #143 · MICrONS：当五亿突触的接线图遇见活体神经元的功能地图
+
+**核心主题**：MICrONS 2025 小鼠视觉皮层功能-结构连接组——75,000 神经元钙成像 + ssEM 5.23亿突触 + 三阶段配准；三大发现：(1) 同类相连（like-to-like connectivity）跨层/跨区/含反馈，AI验证（RNN自发涌现）；(2) 抑制性神经元隔室靶向特异性普查（163细胞，427,294突触输出，四类TC，去抑制专家InhTC-dist/InhTC-peri）；(3) L5 ET神经元近端80%抑制性/远端20%抑制性轴突输出梯度；功能数字孪生（双向预测）。图谱从 285 节点/1649 边增至 **286 节点/1660 边**（+1 节点 + 11 条新边）。
+
+### 新建 Wiki 页面（1 个）
+
+- `concepts/inhibitory-compartmental-targeting.md` 🔵 mainstream · 高置信度 — MICrONS抑制性普查：163个神经元完整轴突，427,294突触输出；四类靶向组（PeriTC/DistTC/SparTC/InhTC）；去抑制专家（InhTC-dist专靶DistTC，InhTC-peri专靶PeriTC突触大69%）；20个运动组（与PV/SST/VIP互补但不重合）；Q-ict-01（跨物种保守性）、Q-ict-02（InhTC-peri与行为状态关系）
+
+### 修订 Wiki 页面（3 个）
+
+- `concepts/like-to-like-connectivity.md` rev1→rev2 — 状态升级：emerging/medium → **mainstream/high**；补充 MICrONS 主论文大规模系统验证（6,608 连接对，四种投影类型含反馈连接，P<0.001，高阶群体规律）；新增 Q-ltl-03（视觉剥夺实验）；related 新增 predictive-coding, inhibitory-compartmental-targeting, cortical-canonical-microcircuit；key_sources 补充 PMC11981939
+- `methods/connectomics.md` rev2→rev3 — 补充完整配准方法细节（2,934基准点，3.8µm精度，100万+次编辑）；抑制性普查作为伴随发现；功能数字孪生作为连接组学新维度；key_sources 补充 PMC11981935；source_articles 新增 #143
+- `circuits/cortical-canonical-microcircuit.md` rev1→rev2 — 补充 MICrONS 验证信息：隔室靶向特异性（PeriTC/DistTC/InhTC 在规范微回路层间的角色）；L5 ET 神经元近端/远端抑制-兴奋梯度；同类相连为层间功能连接提供结构基础；related 新增 inhibitory-compartmental-targeting, like-to-like-connectivity, connectomics
+
+### 矛盾登记 / 裁决
+
+- 无新矛盾登记。但注意：MICrONS 抑制性普查发现的"20 个运动组与 PV/SST/VIP 分类不完全重合"是一个潜在的概念张力——它挑战了传统细胞类型分类的完整性，但尚未上升到"矛盾"级别，而是"两个互补维度"的重新理解。
+
+### 新增悬空引用
+
+- `inhibitory-compartmental-targeting` → `excitation-inhibition-balance`（相关概念，需后续创建或补充）
+
+---
+
 ## 2026-09-12 · 文章 #142 · 突触的自组装奥秘：液-液相分离如何构建突触前储备库与突触后密度
 
 **核心主题**：液-液相分离（LLPS）作为突触组织原理——突触素 IDR 在突触前端通过 LLPS 形成液态凝聚体捕获囊泡储备库（CaMKII 磷酸化在 ~6 s 内溶解液相动员囊泡）；PSD-95/SynGAP 多价相互作用在突触后端形成凝聚相（SynGAP 三聚体富集其中持续抑制 Ras-ERK）；LTP 诱导 Ca²⁺→CaMKII 活化→SynGAP 集体从凝聚相逸散→Ras 去抑制→AMPAR 插入（相变维度的 LTP 机制）；GluN2B CTD 支持 LLPS 使 PSD 保持液态（高可塑性）、GluN2A CTD 不支持（凝胶/固态，关键期关闭）。图谱从 282 节点/1637 边增至 **285 节点/1650 边**（+3 节点 + 13 条新边）。

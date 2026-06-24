@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "node_count": 285,
   "edge_count": 1650,
   "edge_types": [
@@ -1849,8 +1849,8 @@
       "title": "同类相连",
       "domain": "concepts",
       "type": "concept",
-      "status": "emerging",
-      "confidence": "medium",
+      "status": "mainstream",
+      "confidence": "high",
       "page": "wiki/concepts/like-to-like-connectivity.md"
     },
     {
@@ -2607,6 +2607,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/synapsin.md"
+    },
+    {
+      "id": "inhibitory-compartmental-targeting",
+      "title": "抑制性神经元隔室靶向特异性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/inhibitory-compartmental-targeting.md"
     }
   ],
   "edges": [
@@ -11862,6 +11871,72 @@
       "to": "liquid-liquid-phase-separation",
       "type": "is-a",
       "note": "PSD 是 LLPS 原则在突触后的具体实现（PSD-95/SynGAP 凝聚体）"
+    },
+    {
+      "from": "inhibitory-compartmental-targeting",
+      "to": "pv-interneurons",
+      "type": "related",
+      "note": "PV+ 神经元包含 PeriTC 主要成员（MICrONS 2025）"
+    },
+    {
+      "from": "inhibitory-compartmental-targeting",
+      "to": "sst-interneurons",
+      "type": "related",
+      "note": "SST+ Martinotti 细胞是 DistTC 主要来源（MICrONS 2025）"
+    },
+    {
+      "from": "inhibitory-compartmental-targeting",
+      "to": "disinhibitory-circuit",
+      "type": "mechanism-of",
+      "note": "InhTC-dist/InhTC-peri 是去抑制回路的结构节点（Schneider-Mizell 2025）"
+    },
+    {
+      "from": "inhibitory-compartmental-targeting",
+      "to": "cortical-canonical-microcircuit",
+      "type": "part-of",
+      "note": "四类TC在规范微回路中扮演不同角色"
+    },
+    {
+      "from": "inhibitory-compartmental-targeting",
+      "to": "like-to-like-connectivity",
+      "type": "related",
+      "note": "同一MICrONS数据集揭示的互补布线原则"
+    },
+    {
+      "from": "inhibitory-compartmental-targeting",
+      "to": "connectomics",
+      "type": "part-of",
+      "note": "来自连接组学普查方法（MICrONS ssEM）"
+    },
+    {
+      "from": "like-to-like-connectivity",
+      "to": "predictive-coding",
+      "type": "supports",
+      "note": "反馈连接的同类相连支持预测编码的功能匹配反馈预测（MICrONS 2025）"
+    },
+    {
+      "from": "like-to-like-connectivity",
+      "to": "inhibitory-compartmental-targeting",
+      "type": "related",
+      "note": "同一MICrONS数据集揭示"
+    },
+    {
+      "from": "like-to-like-connectivity",
+      "to": "cortical-canonical-microcircuit",
+      "type": "supports",
+      "note": "同类相连为规范微回路层间功能匹配提供结构基础"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "inhibitory-compartmental-targeting",
+      "type": "part-of",
+      "note": "隔室靶向特异性是规范微回路抑制性控制的机制基础"
+    },
+    {
+      "from": "cortical-canonical-microcircuit",
+      "to": "like-to-like-connectivity",
+      "type": "supports",
+      "note": "同类相连为规范微回路层间连接提供功能布线证据"
     }
   ],
   "dangling_references": [

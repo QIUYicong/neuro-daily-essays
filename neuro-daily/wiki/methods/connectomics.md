@@ -6,13 +6,13 @@ type: method
 status: established
 confidence: high
 created: 2026-06-18
-updated: 2026-08-06
-revision_count: 2
+updated: 2026-09-13
+revision_count: 3
 dimensions: [methods, cellular, brain-region, whole-brain-network]
 related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, like-to-like-connectivity, rich-club-organization]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-conn-01, Q-conn-02, Q-conn-03]
-source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-06-connectomics-flywire-wiring-diagram]
+source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-06-connectomics-flywire-wiring-diagram, 2026-09-13-microns-mouse-cortex-functional-connectome]
 key_sources:
   - "PMID:22462104"
   - "PMID:34349261"
@@ -20,6 +20,8 @@ key_sources:
   - "PMID:33315010"
   - "PMID:40205214"
   - "PMCID:PMC11981947"
+  - "PMCID:PMC11981939"
+  - "PMID:40205209"
   - "PMID:37547019"
 ---
 
@@ -194,7 +196,8 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 ## 修订历史
 
 - 2026-06-18 · 创建 · 基于《接线图之上》文章 · 覆盖 C. elegans, FlyWire, 结构-功能鸿沟概念 · 初始置信度：高
-- 2026-08-06 · 修订 · 基于《连接组学深化篇》文章 · 增加：(1) 功能连接组学新节（MiCrONS 2025）；(2) "同类相连"布线规则（Ding 2025）；(3) Lin 2024 完整网络统计数据；(4) 更新 related 节点（+3个新页）；(5) 更新 key_sources 和 source_articles
+- 2026-08-06 · 修订（rev2）· 基于《连接组学深化篇》文章 · 增加：(1) 功能连接组学新节（MICrONS 2025）；(2) "同类相连"布线规则（Ding 2025）；(3) Lin 2024 完整网络统计数据；(4) 更新 related 节点（+3个新页）；(5) 更新 key_sources 和 source_articles
+- 2026-09-13 · 修订（rev3）· 基于文章 #143《MICrONS小鼠视觉皮层功能-结构连接组》· 补充：(1) 完整配准方法（2,934基准点，3.8µm精度，100万+次编辑）；(2) 抑制性神经元普查（PMC11981935）作为伴随发现；(3) 功能数字孪生作为连接组学新维度；(4) 更新 key_sources（+PMC11981935）
 
 ---
 
@@ -202,3 +205,4 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 
 - [[2026-06-18-connectomics-wiring-diagram]]
 - [[2026-08-06-connectomics-flywire-wiring-diagram]]
+- [[2026-09-13-microns-mouse-cortex-functional-connectome]]

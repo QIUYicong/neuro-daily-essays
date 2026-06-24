@@ -1476,3 +1476,27 @@
 **新增未解问题**：Q-als-01（高：TDP-43 LOF vs GOF 因果时序）、Q-als-02（高：DPR 对脊髓直接 vs 间接毒性）、Q-als-03（中：DPR 与 TDP-43 聚集时序）、Q-als-04（中：tofersen NfL-功能解离机制）
 
 ---
+
+---
+
+### 2026-09-13 · 第143篇 · MICrONS：当五亿突触的接线图遇见活体神经元的功能地图
+
+**层级**：methods / microcircuit / brain-region / whole-brain-network
+
+**一句话**：MICrONS 2025 在小鼠视觉皮层1mm³中同时绘制了75,000神经元的功能响应（钙成像）和5.23亿突触的接线图（ssEM），发现同类相连跨层跨区含反馈连接均成立、抑制性神经元按区室精确分层控制（四类靶向组+去抑制专家），功能数字孪生实现了双向预测。
+
+**核心发现总结**：
+**同类相连（Like-to-Like）**：功能响应相似的神经元之间突触连接概率显著更高，独立于物理距离。在四种投影类型（V1内/HVA内/前馈/反馈）均成立——反馈连接也遵循功能匹配原则，支持预测编码框架。AI RNN 在无约束训练后自发涌现同等规律，打乱后性能下降，提示同类相连是视觉计算的一般解。本次升级 status: emerging/medium → mainstream/high。
+
+**抑制性隔室靶向特异性**：163个抑制性神经元，427,294突触输出，系统普查发现四类靶向组（PeriTC/DistTC/SparTC/InhTC），及两类去抑制专家（InhTC-dist专靶DistTC，InhTC-peri专靶PeriTC，突触大69%）。20个"运动组"与PV/SST/VIP分类互补但不重合，提示皮层抑制控制存在第二个组织维度。
+
+**L5 ET输出梯度**：L5胞外脑型锥体神经元轴突近端（<50µm）~80%突触投向抑制性神经元，远端（750µm）仅20%，揭示局部招募抑制（增益控制）vs远程协调兴奋性（预测信号传播）的双重角色。
+
+**功能数字孪生**：神经活动基础模型可泛化到新刺激域，并预测解剖位置/细胞类型/突触连接，被EM数据验证——首次实现功能-结构双向可预测性。
+
+**历史地位**：哺乳动物皮层首个真正意义上的功能连接组（功能+结构共注册），配套10篇论文，1.6PB数据全公开。Francis Crick 1979 年宣布"不可能"的任务的部分实现。
+
+**新建 wiki 页（1个）**：concepts/inhibitory-compartmental-targeting（mainstream/high）
+**修订 wiki 页（3个）**：like-to-like-connectivity（rev1→rev2，升级mainstream/high）、connectomics（rev2→rev3）、cortical-canonical-microcircuit（rev1→rev2）
+**图谱**：285→286节点，1649→1660边（+1节点，+11边）
+**新增未解问题**：Q-ltl-03（高：like-to-like发育终态vs学习记录）、Q-ict-01（高：20运动组跨物种保守性）、Q-ict-02（高：InhTC-peri与行为状态关系）

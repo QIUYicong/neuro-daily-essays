@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-12（第142篇·液-液相分离·突触后密度·突触素·PSD-95/SynGAP相变·LTP相变机制·GluN2B→GluN2A发育切换）· 主题页总数：**283**（新建3页：concepts/liquid-liquid-phase-separation、concepts/postsynaptic-density、neurons/synapsin；修订3页：ltp rev12、tdp-43-pathology rev2；图谱285节点/1650边）
+> 最后更新：2026-09-13（第143篇·MICrONS小鼠视觉皮层功能-结构连接组·同类相连布线规则·抑制性隔室靶向特异性·去抑制专家）· 主题页总数：**284**（新建1页：concepts/inhibitory-compartmental-targeting；修订3页：like-to-like-connectivity升级mainstream/high, connectomics rev3, cortical-canonical-microcircuit rev2；图谱286节点/1660边）
 
 ---
 
@@ -185,7 +185,8 @@
 - 🟢 [意识的神经相关物（NCC）](concepts/neural-correlates-of-consciousness.md) — Crick & Koch 纲领；最小性+充分性约束；Koch 等（2016）三分法（内容特异 NCC/完整 NCC/使能 NCC）；COGITATE 2025 裁决摘要；无报告范式方法学意义 **[NEW 2026-06-27]**
 - 🔵 [回路主题](concepts/circuit-motifs.md) — 神经回路中反复出现的小型拓扑模式（前馈回路、反馈循环、富人俱乐部），可能反映神经计算的基本功能需求；Drosophila连接组（Lin 2024）提供最大规模系统验证；蘑菇体15个学习隔室是典型实例 **[NEW 2026-06-18]**
 - 🟢 [小世界网络](concepts/small-world-network.md) — 高聚类（局部模块化）+短路径（全局快速整合）的网络拓扑；果蝇全脑 σ=141；大脑跨尺度普遍存在；进化最优权衡假说；开放问题：微观vs宏观 σ 差距两个数量级的原因 **[NEW 2026-08-06]**
-- 🟡 [同类相连](concepts/like-to-like-connectivity.md) — 小鼠视觉皮层布线规则：功能相似神经元优先互连（控制距离后仍显著）；MiCrONS 2025数据集发现；跨层跨区域成立含反馈；高阶规律；AI验证；因果机制未知；待跨区域跨物种复现 **[NEW 2026-08-06]**
+- 🔵 [同类相连](concepts/like-to-like-connectivity.md) — 小鼠视觉皮层布线规则：功能相似神经元优先互连（控制距离后仍显著）；MICrONS 2025系统验证（6,608连接对，四种投影类型含反馈连接）；AI验证（RNN自发涌现）；升级 emerging→mainstream（2026-09-13） **[NEW 2026-08-06 · 修订2026-09-13]**
+- 🔵 [抑制性神经元隔室靶向特异性](concepts/inhibitory-compartmental-targeting.md) — MICrONS普查：163个抑制性神经元、427,294突触输出；四类靶向组（PeriTC近体/DistTC远端/SparTC稀疏/InhTC抑制性）；去抑制专家（InhTC-dist专靶DistTC, InhTC-peri专靶PeriTC，突触大69%）；20个运动组与PV/SST/VIP分类互补 **[NEW 2026-09-13]**
 - 🟢 [转录组细胞类型](concepts/transcriptomic-cell-types.md) — 高维基因表达空间中可重复聚类的细胞群体；GABAergic跨区保守（~70%），谷氨酸能区域特异；转录因子组合编码细胞身份；BICCN多模态验证（转录组+ATAC+甲基化+空间）；全鼠脑5322聚类×全人脑461聚类的神经元分子宇宙 **[NEW 2026-07-25]**
 - 🟢 [嗅觉受体（OR）基因家族](concepts/olfactory-receptor.md) — 哺乳动物最大GPCR基因家族；人类~400功能性成员；一细胞一受体/一受体一小球/组合编码三规则；cAMP→CNG通道→Cl⁻放大五步转导；Buck & Axel 1991诺贝尔奖基础 **[NEW 2026-07-26]**
 - 🟢 [梨状皮层（初级嗅觉皮层）](concepts/piriform-cortex.md) — 三层古皮层；~10%稀疏激活；无拓扑图；CA3型递归联想网络（模式补全能力）；早期信号门控+全局抑制实现浓度不变性；感知层级（梨状→杏仁核→OFC）；直接接收嗅球经LOT的投射 **[NEW 2026-07-26]**

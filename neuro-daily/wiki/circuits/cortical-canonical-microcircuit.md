@@ -6,14 +6,15 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-18
-updated: 2026-07-18
-revision_count: 1
+updated: 2026-09-13
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition]
 related: [cortical-layers, predictive-coding, thalamocortical-circuit, pv-interneurons, sst-interneurons, vip-interneurons, disinhibitory-circuit, stdp, ltp, hebbian-learning, gamma-oscillations, beta-oscillations, attractor-network]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor, cortical-layers, thalamocortical-circuit]
 opens_questions: [Q-ccm-01, Q-ccm-02, Q-ccm-03, Q-ccm-04]
-source_articles: [2026-07-18-cortical-canonical-microcircuit]
-key_sources: ["PMID:15217339", "PMID:23177956", "PMID:25622573", "PMID:23273272", "PMID:25556836"]
+source_articles: [2026-07-18-cortical-canonical-microcircuit, 2026-09-13-microns-mouse-cortex-functional-connectome]
+key_sources: ["PMID:15217339", "PMID:23177956", "PMID:25622573", "PMID:23273272", "PMID:25556836", "PMID:40205209", "PMCID:PMC11981939"]
+related: [cortical-layers, predictive-coding, thalamocortical-circuit, pv-interneurons, sst-interneurons, vip-interneurons, disinhibitory-circuit, stdp, ltp, hebbian-learning, gamma-oscillations, beta-oscillations, attractor-network, like-to-like-connectivity, inhibitory-compartmental-targeting, connectomics]
 ---
 
 # 规范微回路（新皮层）(Cortical Canonical Microcircuit)
@@ -117,7 +118,9 @@ L5 厚毛绒锥体细胞是规范微回路中最复杂的计算节点：
 ## 修订历史
 
 - 2026-07-18 · 创建 · 基于《大脑皮层的规范微回路》文章 #86 · 初始置信度：高（解剖学部分 established；预测编码实现层面 mainstream）
+- 2026-09-13 · 修订（rev2）· 基于文章 #143《MICrONS小鼠视觉皮层功能-结构连接组》· 增加：(1) MICrONS 证据补充抑制性神经元隔室靶向特异性（PeriTC/DistTC/InhTC的四类分法）；(2) L5 ET 神经元近端抑制/远端兴奋的轴突输出梯度；(3) 同类相连作为跨层跨区连接的功能证据；(4) 新增 related 链接（inhibitory-compartmental-targeting, like-to-like-connectivity, connectomics）
 
 ## 来源文章
 
 - [[2026-07-18-cortical-canonical-microcircuit]]
+- [[2026-09-13-microns-mouse-cortex-functional-connectome]]
