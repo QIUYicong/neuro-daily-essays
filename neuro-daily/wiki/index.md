@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-14（第144篇·V1各层如何区分预测与预测误差·Thomas 2024 7T fMRI层级解码·Bastos 2012典范微回路·Keller 2012感觉运动错配）· 主题页总数：**284**（新建0页；修订2页：theories/predictive-coding rev9→rev10, systems/v1-primary-visual-cortex rev7→rev8；新增Q-pc-08/Q-pc-09；图谱285节点/1653边）
+> 最后更新：2026-09-15（第145篇·守门人的守门人：外侧膝状体如何成为视觉注意的第一道主动关卡·McAlonan 2008 TRN先4ms门控·Alitto 2025效应量1% vs McAlonan 9-11%争议·Alitto 2026 LGN-V1β振荡·Nakajima 2019 PFC→BG→TRN跨模态抑制）· 主题页总数：**286**（新建2页：systems/lateral-geniculate-nucleus, circuits/thalamic-reticular-nucleus；修订2页：systems/thalamus rev7→rev8, circuits/thalamocortical-circuit rev3→rev4；新增Q-lgn-01–04；登记C-2026-09-15-01矛盾；图谱287节点/1669边）
 
 ---
 
@@ -46,6 +46,7 @@
 - 🟢 [基底节](circuits/basal-ganglia.md) — 纹状体/GPi/GPe/STN/SNc构成的运动选择回路；直接通路（D1/促进运动）与间接通路（D2/抑制运动）由多巴胺精确平衡；振荡状态决定运动是否被"允许"；**新增**：超直接通路IFG-STN单突触（2.2 ms）与停止信号全局抑制证据 **[修订 rev2→rev3 2026-08-19]**
 - 🔵 [纹状体直接/间接通路](circuits/striatal-direct-indirect-pathway.md) — dMSN→GPi/SNr（直接，促进行动）；iMSN→GPe→STN→GPi/SNr（间接，抑制行动）；DMS/DLS功能分化；行为证据：DMS损伤→习惯化，DLS损伤→无法习惯化 **[NEW 2026-09-01]**
 - 🟢 [丘脑-皮层回路](circuits/thalamocortical-circuit.md) — TRN（CaV3.3 T型）↔TC（CaV3.1）振荡环路是睡眠纺锤波起搏器；Core/Matrix双通路；CT反馈在清醒/睡眠切换中起关键作用；**新增**：一次/高次视丘核（Sherman框架）、驱动/调制型突触、PFC→TRN大型端钮（2026-06-03更新）
+- 🟢 [丘脑网状核（TRN）](circuits/thalamic-reticular-nucleus.md) — 纯GABAergic外套层；接受所有TC/CT轴突侧支监听全部丘脑信号；PFC大型驱动型端钮（命令）vs 感觉皮层小型调制型端钮（请求）的权力不对称；注意门控先于LGN约4ms（McAlonan 2008）；PFC→BG→TRN跨模态抑制（Nakajima 2019）；NREM纺锤波起搏器 **[NEW 2026-09-15]**
 - 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序；Sohal 2009 光遗传学因果证明 PV→γ；GAD67 下调→PING 崩溃→WM 缺陷（精神分裂症核心机制）**[NEW 2026-06-03 · 修订 rev5 2026-07-20]**
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
@@ -254,6 +255,7 @@
 ## systems（系统）
 
 - 🟢 [视丘](systems/thalamus.md) — 感觉门控（TRN 注意探照灯）+ 皮层间中转（高次核：Pulvinar-V1、MD-PFC）+ 意识状态维持（CM-Pf）；双模放电（tonic/burst）是状态切换的分子基础；PFC→TRN 大型端钮：自上而下注意优先权 **[NEW 2026-06-03]**
+- 🟢 [外侧膝状体（LGN）](systems/lateral-geniculate-nucleus.md) — 视网膜到V1的唯一皮层下中继站；六层结构（M/P/K通路）；受TRN注意门控（先4ms）+ CG反馈（M/P/K特异性）+ β振荡门控三重调控；注意效应量争议（1% vs 11%，见C-2026-09-15-01）**[NEW 2026-09-15]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础；**rev2新增**：嗅球→LEC→海马通路及梨状皮层→EC→海马三突触回路（修订2次）
 - 🟢 [齿状回](systems/dentate-gyrus.md) — 海马三突触回路第一站；EC → DG 5–10倍扩张（~20–30万→~100–200万颗粒细胞）；约 2–5% 颗粒细胞同时激活（极端稀疏编码）；多层 GABA 能抑制网络（篮状/HIPP/MOPP）主动雕刻稀疏性；苔藓细胞反馈抑制机制；成体神经发生场所；模式分离的主要神经基底 **[NEW 2026-08-28]**

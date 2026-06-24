@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-09-14",
-  "total_articles": 144,
+  "last_updated": "2026-09-15",
+  "total_articles": 145,
   "entries": [
+    {
+      "date": "2026-09-15",
+      "title": "守门人的守门人：外侧膝状体如何成为视觉注意的第一道主动关卡",
+      "filename": "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md",
+      "article_number": 145,
+      "wiki_pages_created": [
+        "wiki/systems/lateral-geniculate-nucleus.md",
+        "wiki/circuits/thalamic-reticular-nucleus.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/thalamus.md (rev7->rev8)",
+        "wiki/circuits/thalamocortical-circuit.md (rev3->rev4)"
+      ],
+      "contested_claims_logged": ["C-2026-09-15-01 (LGN注意效应量：McAlonan 2008 ~11% vs Alitto 2025 ~1%)"],
+      "contested_claims_evidence_updated": [],
+      "core_question": "外侧膝状体（LGN）是被动中继站还是主动注意门控节点？三重证据链：(1) TRN电生理先于LGN约4ms被注意调制（McAlonan 2008）；(2) CG反馈对M/P/K通路具有分特异性（Briggs 2009）；(3) β振荡门控新机制（Alitto 2026）。但效应量存在10倍争议（1% vs 11%）",
+      "open_questions_added": [
+        "Q-lgn-01（高优先级）：去除皮层直接注意效应后，LGN注意调制是否仍独立存在？需TRN/CG双通路同时失活实验",
+        "Q-lgn-02：β振荡门控（Alitto 2026）与TRN门控（McAlonan 2008）是同一机制的不同测量还是两个独立机制",
+        "Q-lgn-03：跨模态TRN抑制的临床意义——空间注意缺陷/感觉过敏/精神分裂症是否有TRN层面的机制",
+        "Q-lgn-04：CG反馈M/P/K通路特异性的解剖和功能实现机制（Briggs 2009证明特异性存在，机制不明）"
+      ],
+      "layer": ["cellular", "microcircuit", "brain-region", "cognition"],
+      "curriculum_track": "课程脊柱4（感觉与知觉）+ 课程脊柱6（注意力与执行控制）",
+      "topic_tags": [
+        "lateral geniculate nucleus LGN attention modulation",
+        "thalamic reticular nucleus TRN attention gating",
+        "McAlonan 2008 Nature TRN LGN 4ms precedence",
+        "Briggs Usrey 2009 corticogeniculate feedback M P K streams",
+        "Alitto 2025 eNeuro LGN 1% modulation",
+        "Alitto 2026 Journal Neuroscience LGN V1 beta oscillation",
+        "Nakajima 2019 Neuron PFC basal ganglia TRN cross-modal",
+        "O'Connor 2002 Nat Neurosci LGN fMRI attention",
+        "Halassa 2017 Neuron TRN cognitive function",
+        "Noudoost Moore 2011 FEF attention thalamus",
+        "corticogeniculate feedback specificity",
+        "beta oscillation attention gate 20Hz coherence"
+      ],
+      "main_sources": [
+        "PMID:12379861 (O'Connor et al. 2002, Nat Neurosci, LGN fMRI注意, 摘要)",
+        "PMID:18849967 / PMC2713033 (McAlonan et al. 2008, Nature, TRN先4ms, OPEN)",
+        "PMID:19376073 / PMC2789995 (Briggs & Usrey 2009, J Neurosci, CG反馈特异性, OPEN)",
+        "PMID:29184210 / PMC3117113 (Noudoost & Moore 2011, J Neurosci, FEF注意, OPEN)",
+        "PMID:31202541 / PMC6886709 (Nakajima et al. 2019, Neuron, BG→TRN跨模态, OPEN)",
+        "PMID:21572439 / PMC3117113 (Halassa et al. 2011, Neuron, TRN认知功能综述, OPEN)",
+        "PMID:41005988 / PMC12469006 (Alitto et al. 2025, eNeuro, LGN 1%调制, OPEN)",
+        "PMID:41702717 / PMC13000994 (Alitto et al. 2026, J Neurosci, LGN-V1 β振荡, OPEN)"
+      ],
+      "open_access_fulltext": [
+        "PMID:18849967 (PMC2713033)",
+        "PMID:19376073 (PMC2789995)",
+        "PMID:31202541 (PMC6886709)",
+        "PMID:29184210 (PMC3117113)",
+        "PMID:41005988 (PMC12469006)",
+        "PMID:41702717 (PMC13000994)"
+      ],
+      "next_suggested_topics": [
+        "枕核（Pulvinar）作为皮层间信息广播器：高次视丘核的注意与意识功能",
+        "预测编码的丘脑实现：LGN误差信号与V1预测表征的双向回路",
+        "感觉注意的自上而下回路：FEF/IPS→TRN→LGN完整通路的因果验证",
+        "视觉系统的α振荡门控：α-γ PAC在LGN-V1之间的空间分格机制",
+        "Q-lgn-01专题：同时光遗传失活TRN和皮层-丘脑反馈后LGN注意效应的归因实验设计"
+      ]
+    },
     {
       "date": "2026-09-14",
       "title": "谁说了什么：初级视觉皮层各层如何分别编码预测与预测误差",

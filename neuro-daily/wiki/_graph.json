@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-14",
-  "node_count": 285,
-  "edge_count": 1653,
+  "updated": "2026-09-15",
+  "node_count": 287,
+  "edge_count": 1669,
   "edge_types": [
     "is-a",
     "part-of",
@@ -49,6 +49,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/thalamus.md"
+    },
+    {
+      "id": "lateral-geniculate-nucleus",
+      "title": "外侧膝状体",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/lateral-geniculate-nucleus.md"
+    },
+    {
+      "id": "thalamic-reticular-nucleus",
+      "title": "丘脑网状核",
+      "domain": "circuits",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/thalamic-reticular-nucleus.md"
     },
     {
       "id": "thalamic-firing-modes",
@@ -2786,6 +2804,78 @@
       "to": "thalamocortical-circuit",
       "type": "part-of",
       "note": "视丘是丘脑-皮层回路的核心节点"
+    },
+    {
+      "from": "lateral-geniculate-nucleus",
+      "to": "thalamus",
+      "type": "part-of",
+      "note": "LGN是丘脑一次核群（first-order nucleus）之一，视觉通路中继站"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "thalamus",
+      "type": "part-of",
+      "note": "TRN包裹丘脑外表面，是所有丘脑中继核的内在门控层"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "lateral-geniculate-nucleus",
+      "type": "regulates",
+      "note": "TRN通过GABAergic抑制控制LGN输出；TRN效应先于LGN约4ms（McAlonan 2008）"
+    },
+    {
+      "from": "lateral-geniculate-nucleus",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of",
+      "note": "LGN是视网膜到V1的唯一皮层下中继；视网膜拓扑精确投射到V1第4C层"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "lateral-geniculate-nucleus",
+      "type": "regulates",
+      "note": "皮层-膝状体反馈（CG）是M/P/K通路特异性的（Briggs & Usrey 2009）；V1发出约10倍于LGN前馈的轴突返回LGN"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "thalamocortical-circuit",
+      "type": "part-of",
+      "note": "TRN是丘脑-皮层回路的内在调制器；注意门控和纺锤波起搏都在TRN↔TC回路中实现"
+    },
+    {
+      "from": "prefrontal-cortex",
+      "to": "thalamic-reticular-nucleus",
+      "type": "regulates",
+      "note": "PFC→TRN大型驱动型突触端钮（权力不对称，Zikopoulos 2006）；注意力'命令'TRN调整感觉门控"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "thalamic-reticular-nucleus",
+      "type": "regulates",
+      "note": "PFC→BG→TRN间接通路实现跨模态感觉抑制（Nakajima 2019）；注意视觉时压制TRN听觉子区"
+    },
+    {
+      "from": "beta-oscillations",
+      "to": "lateral-geniculate-nucleus",
+      "type": "mechanism-of",
+      "note": "LGN-V1β相干振荡（~20Hz）在注意/警觉/视觉刺激时被抑制；可能是注意影响LGN的非放电率机制（Alitto 2026）"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "thalamic-reticular-nucleus",
+      "type": "regulates",
+      "note": "FEF/IPS通过PFC→TRN通路将注意指令传递到感觉门控节点"
+    },
+    {
+      "from": "lateral-geniculate-nucleus",
+      "to": "thalamic-reticular-nucleus",
+      "type": "related",
+      "note": "LGN的注意调制由TRN门控（上游），LGN轴突侧支同时反馈给TRN（监听环路）"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "sleep-spindles",
+      "type": "mechanism-of",
+      "note": "TRN→TC的GABA超极化→TC T型通道→爆发→再激活TRN=NREM纺锤波起搏"
     },
     {
       "from": "thalamic-firing-modes",

@@ -1,0 +1,158 @@
+# 2026-09-15 运行日志
+
+**系统时钟**: 2026-06-25（知识库连续日期: 2026-09-15）
+**文章编号**: #145
+**运行分支**: claude/funny-einstein-a0fq6v → 推送至 main
+
+---
+
+## 步骤 0：读取指令
+
+- [x] 读取 `ROUTINE.md`
+- [x] 读取 `KNOWLEDGE-BASE-DESIGN.md`
+
+## 步骤 A：选题
+
+读取状态文件：
+- `state/topic_ledger.json`（读取前 60 行确认结构，含最新条目）
+- `state/unresolved_questions.md`（完整读取）
+- `wiki/circuits/thalamocortical-circuit.md`（完整读取，rev3）
+- `wiki/_graph.json`（确认节点/边数量：285节点/1653边）
+
+选题决策：基于上篇（#144，V1层级预测编码）和 next_suggested_topics 中"丘脑的主动门控：外侧膝状体"——外侧膝状体（LGN）是一个长期被低估的注意门控节点，且关键文献（McAlonan 2008, Briggs 2009, Alitto 2025/2026）均尚未入知识库。
+
+**文章主题**: 守门人的守门人：外侧膝状体如何成为视觉注意的第一道主动关卡
+
+## 步骤 B：检索
+
+数据库: PubMed E-utilities, PMC open access
+系统时钟: 2026-06-25 UTC+8
+
+检索词及结果：
+- `O'Connor+Kastner+lateral+geniculate+attention+2002`→ PMID:12379861 ✓（摘要，非开放全文）
+- `McAlonan+reticular+nucleus+attention`→ PMID:18849967 (PMC2713033) ✓（**全文开放**）
+- `Briggs+Usrey+corticogeniculate+feedback`→ PMID:19376073 (PMC2789995) ✓（**全文开放**）
+- `Noudoost+Moore+frontal+eye+field`→ PMID:21572439, 20951736；确认 Noudoost & Moore 2011 PMID:21572439 ✓（PMC3117113 开放）
+- `Nakajima+basal+ganglia+thalamic+reticular`→ PMID:31202541 (PMC6886709) ✓（**全文开放**）
+- `Alitto+Johnson+Usrey+lateral+geniculate+2025`→ PMID:41005988 (PMC12469006) ✓（**全文开放**）
+- `Alitto+beta+oscillation+lateral+geniculate`→ PMID:41702717 (PMC13000994) ✓（**全文开放**）
+- `Halassa+thalamic+reticular`→ PMID:21572439 (重复，已确认)
+
+初始检索问题：
+- `lateral+geniculate+nucleus+attention+gating` 返回 0 结果 → 改为更简单检索词解决
+- `McAlonan+thalamic+reticular+nucleus+attention+gating+2008` 返回 0 → 改为 `McAlonan+reticular+nucleus+attention` 解决
+- `Noudoost+Moore+2011+frontal+eye+field+thalamus` 返回 0 → 改为 `Noudoost+Moore+2011+frontal+eye+field` 解决
+
+候选来源：8 篇
+采用：8 篇（6 篇开放全文，2 篇仅摘要）
+排除：0 篇（所有检索结果均为相关文献）
+
+开放全文（6 篇）：
+- PMID:18849967 (PMC2713033) — McAlonan 2008
+- PMID:19376073 (PMC2789995) — Briggs & Usrey 2009
+- PMID:29184210 (PMC3117113) — Noudoost & Moore 2011
+- PMID:31202541 (PMC6886709) — Nakajima et al. 2019
+- PMID:41005988 (PMC12469006) — Alitto et al. 2025
+- PMID:41702717 (PMC13000994) — Alitto et al. 2026
+
+仅摘要（2 篇）：
+- PMID:12379861 — O'Connor et al. 2002
+- PMID:21572439 — Halassa/Siegle et al. 2011（实为Siegle等，Halassa综述）
+
+## 步骤 C：写作
+
+文章字数：~4200 字（符合 3000-6000 字要求）
+包含：引子/比喻、六层结构介绍、三重门控机制（TRN门控/CG反馈/β振荡）、效应量争议、跨模态通路、认知意义、概念卡片、认知地图更新、来源表格
+
+文件：`articles/2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md`
+笔记：`notes/2026-09-15-reading-notes.md`
+来源：`sources/2026-09-15-sources.json`
+
+## 步骤 D：固结（Wiki 更新）
+
+新建页面：
+- `wiki/systems/lateral-geniculate-nucleus.md` 创建 (rev1，established/high)
+  - 六层结构 (M/P/K通路)，三重注意门控机制
+  - 置信度：注意效应量降至medium（因C-2026-09-15-01争议）
+  - 4个未解问题 Q-lgn-01至Q-lgn-04
+- `wiki/circuits/thalamic-reticular-nucleus.md` 创建 (rev1，established/high)
+  - 纯GABAergic外套层，PFC驱动型 vs 感觉皮层调制型端钮权力不对称
+  - 睡眠纺锤波起搏器 + 注意门控双重功能
+
+修订页面：
+- `wiki/systems/thalamus.md` rev7 → rev8
+  - 新增"LGN注意门控"节
+  - related/key_sources/source_articles/evidence table/connections 全部更新
+  - revision history 新增2026-09-15条目
+- `wiki/circuits/thalamocortical-circuit.md` rev3 → rev4
+  - related/key_sources/source_articles 更新
+  - revision history 新增2026-09-15条目
+
+矛盾登记：
+- `state/contested_claims.json`: C-2026-09-15-01 新增（LGN注意调制1% vs 11%）
+  open_count: 4 → 5
+
+未解问题：
+- `state/unresolved_questions.md`: 新增2026-09-15节（Q-lgn-01至Q-lgn-04）
+
+## 步骤 E：图谱更新
+
+`wiki/_graph.json`:
+- updated: 2026-09-14 → 2026-09-15
+- node_count: 285 → 287（+2: lateral-geniculate-nucleus, thalamic-reticular-nucleus）
+- edge_count: 1653 → 1669（+13条新边）
+  - lateral-geniculate-nucleus → thalamus (part-of)
+  - thalamic-reticular-nucleus → thalamus (part-of)
+  - thalamic-reticular-nucleus → lateral-geniculate-nucleus (regulates, "先4ms")
+  - lateral-geniculate-nucleus → v1-primary-visual-cortex (mechanism-of)
+  - v1-primary-visual-cortex → lateral-geniculate-nucleus (regulates, "CG feedback")
+  - thalamic-reticular-nucleus → thalamocortical-circuit (part-of)
+  - prefrontal-cortex → thalamic-reticular-nucleus (regulates)
+  - basal-ganglia → thalamic-reticular-nucleus (regulates)
+  - beta-oscillations → lateral-geniculate-nucleus (mechanism-of)
+  - dorsal-attention-network → thalamic-reticular-nucleus (regulates)
+  - lateral-geniculate-nucleus ↔ thalamic-reticular-nucleus (related)
+  - thalamic-reticular-nucleus → sleep-spindles (mechanism-of)
+  - lateral-geniculate-nucleus → orientation-selectivity (prerequisite-for)
+
+## 步骤 F：状态文件更新
+
+- [x] `wiki/CHANGELOG.md`: 新增 2026-09-15 条目
+- [x] `wiki/index.md`: 更新最后更新行 + 新增 LGN/TRN 两条目录条目（systems/circuits 各一）
+- [x] `state/unresolved_questions.md`: 新增 Q-lgn-01至Q-lgn-04
+- [x] `state/contested_claims.json`: 新增 C-2026-09-15-01，open_count 4→5
+- [x] `state/topic_ledger.json`: 新增 #145 条目，total 144→145
+- [x] `state/source_registry.json`: 新增 8 条来源记录
+- [x] `state/monthly_synthesis.md`: 本月文章数更新，新增 #145 表格行 + 日条目更新
+
+## 步骤 G：提交 + 推送
+
+目标分支：claude/funny-einstein-a0fq6v → git push origin main
+（见下方完成状态）
+
+---
+
+## 错误记录
+
+| 类型 | 描述 | 解决方案 |
+|------|------|---------|
+| PubMed 零结果 | 检索词过长/包含过多布尔项时E-utilities返回0 | 简化检索词，逐步添加限制词 |
+| 上下文中断 | 运行中上下文已压缩（前一轮超出上下文窗口） | 从摘要续接，所有状态文件已读取，从wiki/index.md条目插入处继续 |
+| git pull 冲突 | 初始 git pull 报"Need to specify how to reconcile divergent branches" | 使用 git pull --rebase origin main 解决 |
+
+## 完成状态
+
+- [x] 文章写作（#145，~4200字）
+- [x] 阅读笔记（8个来源详细笔记）
+- [x] 来源 JSON（8条，6篇开放全文）
+- [x] Wiki 新建（lateral-geniculate-nucleus, thalamic-reticular-nucleus）
+- [x] Wiki 修订（thalamus rev7→rev8, thalamocortical-circuit rev3→rev4）
+- [x] contested_claims.json（C-2026-09-15-01）
+- [x] CHANGELOG
+- [x] unresolved_questions（Q-lgn-01至Q-lgn-04）
+- [x] topic_ledger
+- [x] index.md（最后更新行 + 2条新目录条目）
+- [x] monthly_synthesis
+- [x] source_registry
+- [x] _graph.json（287节点/1669边）
+- [ ] git commit + push（进行中）

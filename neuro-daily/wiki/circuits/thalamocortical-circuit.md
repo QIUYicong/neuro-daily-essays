@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-19
-updated: 2026-07-18
-revision_count: 3
+updated: 2026-09-15
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition]
-related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex, thalamus, thalamic-firing-modes, working-memory, prefrontal-cortex, neural-correlates-of-consciousness, cortical-canonical-microcircuit, cortical-layers]
+related: [sleep-spindles, cortical-slow-oscillation, sharp-wave-ripples, memory-consolidation, gain-control, acetylcholine-cortex, thalamus, thalamic-firing-modes, working-memory, prefrontal-cortex, neural-correlates-of-consciousness, cortical-canonical-microcircuit, cortical-layers, lateral-geniculate-nucleus, thalamic-reticular-nucleus, basal-ganglia, beta-oscillations]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-gating-mechanism, Q-matrix-vs-core-function, Q-thalamus-burst-awake]
-source_articles: [2026-06-19-sleep-spindles-nrem, 2026-06-03-thalamus-gatekeeper-cognition]
-key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:27144033", "PMID:35803270", "PMID:29275841", "PMID:22561455", "PMID:16837581"]
+source_articles: [2026-06-19-sleep-spindles-nrem, 2026-06-03-thalamus-gatekeeper-cognition, 2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate]
+key_sources: ["PMID:31804897", "PMID:30583750", "PMID:24282303", "PMID:27144033", "PMID:35803270", "PMID:29275841", "PMID:22561455", "PMID:16837581", "PMID:18849967", "PMID:31202541", "PMID:19376073", "PMID:41702717"]
 ---
 
 # 丘脑-皮层回路 (Thalamocortical Circuit)
@@ -150,6 +150,7 @@ Sherman 和 Guillery（1998, PMID: 9618549；Sherman 2024 综述, J Neurosci）�
 
 ## 修订历史
 
+- 2026-09-15 · 修订（rev4）· 基于文章 #145《守门人的守门人》· 新增TRN注意门控电生理时序证据（McAlonan 2008：TRN先4ms，M+11%/P+9%/TRN-4%）、Briggs&Usrey 2009皮层-膝状体反馈通路特异性、Nakajima 2019 PFC→BG→TRN跨模态抑制通路、β振荡新机制（Alitto 2026）；related/key_sources/source_articles/连接节更新；新增[[thalamic-reticular-nucleus]]、[[lateral-geniculate-nucleus]]、[[basal-ganglia]]、[[beta-oscillations]]链接
 - 2026-06-19 · 创建 · 基于《当大脑钟声响起》文章 · 建立丘脑回路专页，整合TRN/TC机制和Core/Matrix通路 · 初始置信度：高
 - 2026-06-03 · 修订 · 基于《视丘的三张面孔》文章 #66 · 新增：一次/高次视丘核区分（Sherman框架）、驱动/调制型突触对比表、PFC→TRN大型端钮解剖学证据（Zikopoulos&Barbas）、枕核门控V1（Purushothaman）、MD工作记忆放大（Parnaudeau）；related 新增 thalamus/thalamic-firing-modes/working-memory/prefrontal-cortex/neural-correlates-of-consciousness
 - 2026-07-18 · 修订 · 基于《大脑皮层的规范微回路》文章 #86 · 新增"前馈/反馈的层级解剖特异性"节：丘脑→L4（驱动型）、L6 CT→丘脑（调制型）、高级L5/6→低级L1/2/3（反馈绕过L4）的层级对应表；related 新增 cortical-canonical-microcircuit、cortical-layers；connections 段新增两条链接

@@ -4,6 +4,44 @@
 
 ---
 
+## 2026-09-15 · 文章 #145 · 守门人的守门人：外侧膝状体如何成为视觉注意的第一道主动关卡
+
+**核心主题**：外侧膝状体（LGN）不只是被动中继站，而是具备三重主动门控机制的视觉注意第一关：(1) TRN注意门控——电生理证明TRN比LGN提前约4ms被注意调制（McAlonan 2008，PMID:18849967），M层+11%、P层+9%、TRN本身-4%；(2) 皮层-膝状体（CG）反馈特异性——Briggs & Usrey 2009证明CG反馈对M/P/K通路具有分通路特异性，打破"均匀调制"假设；(3) β振荡门控——Alitto 2026新机制，注意抑制LGN-V1约20Hz相干β振荡，可能是注意信号传递的节律框架。关键争议：McAlonan 2008（~9-11%调制）vs Alitto 2025（~1%调制）效应量相差10倍，登记为C-2026-09-15-01。Nakajima 2019揭示PFC→基底节→TRN跨模态感觉抑制通路。图谱从285节点/1653边增至**287节点/1669边**（+2节点+13条新边）。
+
+**注意**：系统时钟日期为2026-06-25（UTC+8），知识库连续序列日期为2026-09-15，文章编号#145。
+
+### 新建 Wiki 页面（2 个）
+
+- `systems/lateral-geniculate-nucleus.md` 🟢 established · 高置信度（效应量争议处降为medium）— 六层结构（M/P/K通路）；三重注意门控机制：TRN先4ms（McAlonan 2008）、CG反馈M/P/K特异性（Briggs 2009）、β振荡门控（Alitto 2026）；效应量争议1% vs 11%（C-2026-09-15-01）；Q-lgn-01至Q-lgn-04四个未解问题
+- `circuits/thalamic-reticular-nucleus.md` 🟢 established · 高置信度 — 纯GABAergic外套层；PFC大型驱动型端钮（命令）vs 感觉皮层小型调制型端钮（请求）权力不对称；注意先于LGN 4ms；PFC→BG→TRN跨模态抑制（Nakajima 2019）；NREM纺锤波起搏器（双重功能）
+
+### 修订 Wiki 页面（2 个）
+
+- `systems/thalamus.md` rev7→rev8 — 新增「LGN注意门控」节：McAlonan 2008 TRN先4ms、Alitto 2025 vs 2026争议、Nakajima 2019跨模态通路；related新增lateral-geniculate-nucleus/thalamic-reticular-nucleus/beta-oscillations/basal-ganglia；key_sources补充4条；source_articles新增#145；evidence table新增6行
+- `circuits/thalamocortical-circuit.md` rev3→rev4 — related/key_sources/source_articles更新；revision history新增2026-09-15条目；related新增lateral-geniculate-nucleus/thalamic-reticular-nucleus/basal-ganglia/beta-oscillations
+
+### 矛盾登记 / 裁决（1 条新登记）
+
+- `C-2026-09-15-01` 新登记 — `wiki/systems/lateral-geniculate-nucleus.md`：claim_A：McAlonan 2008 ~9-11% LGN M层注意调制放电率；claim_B：Alitto 2025 ~1% LGN注意调制放电率，弱且不一致。nature：方法差异（任务设计/动物个体/神经元采样/信号提取）+ 可能的测量指标差异。open，priority：medium。note：Alitto 2026 β振荡机制可能提供调和方向。
+
+### 新增未解问题（4 条）
+
+- `Q-lgn-01`（高优先级）：在去除注意对皮层的直接作用后，LGN注意效应是否仍独立存在？需要TRN/CG双通路同时失活的精确实验
+- `Q-lgn-02`：β振荡门控（Alitto 2026）与TRN门控（McAlonan 2008）是同一机制的不同测量还是两个独立机制？
+- `Q-lgn-03`：跨模态TRN抑制的临床意义——空间注意缺陷/感觉过敏/精神分裂症是否有TRN层面的具体机制？
+- `Q-lgn-04`：CG反馈的M/P/K通路特异性是如何在解剖和功能层面实现的？Briggs 2009证明特异性存在，但机制不明
+
+### 图谱变更
+
+- 节点：285→287（+2：lateral-geniculate-nucleus, thalamic-reticular-nucleus）
+- 边：1653→1669（+13条：含TRN→LGN注意门控先4ms、LGN→V1、V1→LGN CG反馈、TRN→thalamocortical-circuit、PFC→TRN、BG→TRN、beta-oscillations→LGN等）
+
+### 新增悬空引用
+
+- 无（所有引用slug均已有对应wiki页或已有计划页）
+
+---
+
 ## 2026-09-14 · 文章 #144 · 谁说了什么：V1 各层如何区分预测与预测误差
 
 **核心主题**：Thomas et al. 2024（PMID:38697110）用 7T fMRI 层级成像在活体人脑直接验证 V1 深层（L5/6）编码预期表征、浅层（L2/3）专门编码预测误差——对 Q-pc-01 给出迄今最直接的答案；同时回顾 Keller 2012 感觉运动错配和 Bastos 2012 典范微回路的理论-行为证据链；讨论神经适应（Solomon 2021）替代假说的有效性和局限。图谱无新节点（predictive-coding 和 v1 已存在），新增 3 条边。

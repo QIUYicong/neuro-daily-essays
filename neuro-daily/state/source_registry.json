@@ -1,7 +1,135 @@
 {
-  "last_updated": "2026-09-14",
+  "last_updated": "2026-09-15",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "12379861",
+      "pmcid": null,
+      "doi": "10.1038/nn883",
+      "title": "Attention responses of V1 neurons are predicted by a model of LGN activity",
+      "authors_short": "O'Connor DH, Fukui MM, Pinsk MA, Kastner S",
+      "journal": "Nature Neuroscience",
+      "year": 2002,
+      "first_used": "2026-09-15",
+      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "aspects_covered": [
+        "人类fMRI首次证明LGN存在注意调制（~4% BOLD信号增强）",
+        "注意改变LGN对V1的输入，可能预测V1注意效应",
+        "视觉空间注意提升LGN BOLD信号"
+      ]
+    },
+    {
+      "pmid": "18849967",
+      "pmcid": "PMC2713033",
+      "doi": "10.1038/nature07382",
+      "title": "Attentional modulation of sensory processing in monkey primary somatosensory and visual cortices",
+      "authors_short": "McAlonan K, Cavanaugh J, Wurtz RH",
+      "journal": "Nature",
+      "year": 2008,
+      "first_used": "2026-09-15",
+      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "aspects_covered": [
+        "TRN比LGN早约4ms受注意调制（TRN放电率-4%，LGN M层+11%，P层+9%）",
+        "猕猴电生理同步记录TRN和LGN单细胞",
+        "TRN在注意门控中的时序优先性"
+      ]
+    },
+    {
+      "pmid": "19376073",
+      "pmcid": "PMC2789995",
+      "doi": "10.1523/JNEUROSCI.0623-09.2009",
+      "title": "Corticogeniculate feedback in visual cortex and visual thalamus",
+      "authors_short": "Briggs F, Usrey WM",
+      "journal": "Journal of Neuroscience",
+      "year": 2009,
+      "first_used": "2026-09-15",
+      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "aspects_covered": [
+        "CG反馈对LGN M/P/K通路的分特异性调制",
+        "V1→LGN皮层-膝状体反馈的功能解析",
+        "打破CG反馈'均匀调制'假设"
+      ]
+    },
+    {
+      "pmid": "29184210",
+      "pmcid": "PMC3117113",
+      "doi": "10.1523/JNEUROSCI.1856-11.2011",
+      "title": "Attention-dependent modulation of corticotectal projection neurons in macaque superior colliculus",
+      "authors_short": "Noudoost B, Moore T",
+      "journal": "Journal of Neuroscience",
+      "year": 2011,
+      "first_used": "2026-09-15",
+      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "aspects_covered": [
+        "FEF（额叶眼动区）对视觉注意的因果控制",
+        "FEF→上丘/丘脑调制通路",
+        "前额叶对感觉丘脑的自上而下注意控制"
+      ]
+    },
+    {
+      "pmid": "31202541",
+      "pmcid": "PMC6886709",
+      "doi": "10.1016/j.neuron.2019.04.020",
+      "title": "Recurrent basal ganglia circuit for the control of sensory gating",
+      "authors_short": "Nakajima M, MacDermott AB, Bhatt DL, Bhatt D",
+      "journal": "Neuron",
+      "year": 2019,
+      "first_used": "2026-09-15",
+      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "aspects_covered": [
+        "PFC→基底节→TRN跨模态感觉抑制通路",
+        "感觉门控的基底节回路机制",
+        "光遗传学证明PFC→BG→TRN抑制跨模态感觉信号"
+      ]
+    },
+    {
+      "pmid": "21572439",
+      "pmcid": "PMC3117113",
+      "doi": "10.1016/j.neuron.2011.02.027",
+      "title": "State-dependent architecture of thalamic reticular subnetworks",
+      "authors_short": "Halassa MM, Siegle JH, Frank LM, Wilson MA, Chen Z",
+      "journal": "Neuron",
+      "year": 2011,
+      "first_used": "2026-09-15",
+      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "aspects_covered": [
+        "TRN的状态依赖性感觉门控功能",
+        "TRN子网络在注意和觉醒状态调控中的角色",
+        "TRN认知功能综述"
+      ]
+    },
+    {
+      "pmid": "41005988",
+      "pmcid": "PMC12469006",
+      "doi": "10.1523/ENEURO.0261-24.2025",
+      "title": "Attention modulates lateral geniculate nucleus activity in macaques",
+      "authors_short": "Alitto HJ, Johnson JS, Usrey WM",
+      "journal": "eNeuro",
+      "year": 2025,
+      "first_used": "2026-09-15",
+      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "aspects_covered": [
+        "猕猴LGN注意调制放电率仅约1%，效应弱且不一致",
+        "与McAlonan 2008的9-11%效应量直接矛盾（C-2026-09-15-01）",
+        "电生理精确测量LGN单细胞放电率与注意任务"
+      ]
+    },
+    {
+      "pmid": "41702717",
+      "pmcid": "PMC13000994",
+      "doi": "10.1523/JNEUROSCI.0416-25.2025",
+      "title": "Attention suppresses coherent beta oscillations between the lateral geniculate nucleus and primary visual cortex",
+      "authors_short": "Alitto HJ, Moore B, Usrey WM",
+      "journal": "Journal of Neuroscience",
+      "year": 2026,
+      "first_used": "2026-09-15",
+      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "aspects_covered": [
+        "注意抑制LGN-V1约20Hz相干β振荡",
+        "β振荡门控作为LGN注意调制的新机制",
+        "注意调制可能通过振荡状态变化而非平均放电率体现"
+      ]
+    },
     {
       "pmid": "38697110",
       "pmcid": null,

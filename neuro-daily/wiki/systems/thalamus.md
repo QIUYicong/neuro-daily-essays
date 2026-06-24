@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-08-09
-revision_count: 7
+updated: 2026-09-15
+revision_count: 8
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations, auditory-cortex, pain-matrix, nociceptor, disorders-of-consciousness, mesocircuit-hypothesis]
+related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations, auditory-cortex, pain-matrix, nociceptor, disorders-of-consciousness, mesocircuit-hypothesis, lateral-geniculate-nucleus, thalamic-reticular-nucleus, beta-oscillations, basal-ganglia]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism, Q-dan-01, Q-doc-03]
-source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm, 2026-07-28-auditory-cortex-tonotopy, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening]
-key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202", "PMID:19837031", "PMID:36563999", "PMID:33318675"]
+source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm, 2026-07-28-auditory-cortex-tonotopy, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening, 2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate]
+key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202", "PMID:19837031", "PMID:36563999", "PMID:33318675", "PMID:18849967", "PMID:31202541", "PMID:41005988", "PMID:41702717"]
 ---
 
 # 视丘 (Thalamus)
@@ -91,6 +91,16 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - **驱动型输入**（RL/driver）：携带感受野信息；大突触端钮；高概率释放；AMPA+NMDA
 - **调制型输入**（RS/modulator）：改变传递效率；小突触端钮；低概率释放；含 mGluR
 
+## LGN注意门控（新增，2026-09-15）
+
+外侧膝状体（LGN）是视觉注意门控的重要节点，其调控机制包括三层：
+
+1. **TRN介导门控**：前额叶→TRN→LGN。注意力降低TRN对LGN的GABA抑制，LGN放电增强（M细胞+11%，P细胞+9%）。TRN响应先于LGN约4ms，证明TRN是门控的上游驱动节点（McAlonan 2008，PMID:18849967）。
+2. **皮层-膝状体（CG）反馈**：V1→LGN的反馈是M/P/K通路特异性的（Briggs & Usrey 2009，PMID:19376073）。
+3. **β振荡门控（新机制）**：LGN与V1之间存在约20 Hz的β相干振荡，注意时被抑制，可能是注意影响LGN信号传递的非放电率机制（Alitto et al. 2026，PMID:41702717）。
+
+**效应量争议**（open矛盾C-2026-09-15-01）：fMRI（O'Connor 2002）显示约4% BOLD效应；McAlonan 2008电生理显示9-11%；但Alitto 2025电生理仅发现约1%放电率变化。差异可能源于测量指标不同（BOLD≈突触活动；放电率≠突触活动）。详见[[lateral-geniculate-nucleus]]专页和[[thalamic-reticular-nucleus]]专页。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -100,6 +110,11 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 | PFC→TRN 大型驱动型端钮 | 猕猴 EM + 3D 重建 | PMID:16837581（PMC6674204）| 高（解剖学）|
 | CM-Pf 与意识相关性最强 | 系统综述 167 篇文章 | PMID:40642212（PMC12241866）| 中-高 |
 | 清醒视丘爆发有独立功能 | 清醒小鼠光遗传 + 电记录 | PMID:35803270（PMC9464711）| 高（因果） |
+| LGN M/P细胞在注意时放电增强，TRN活动降低 | 猕猴单神经元LGN/TRN同时记录 | PMID:18849967（PMC2713033）| 高（直接电生理）|
+| TRN注意效应先于LGN约4ms（时序因果证据） | 猕猴LGN/TRN时序分析 | PMID:18849967（PMC2713033）| 高（因果）|
+| PFC→BG→TRN实现跨模态感觉抑制 | 鼠类光遗传学 + 行为 | PMID:31202541（PMC6886709）| 中（鼠类）|
+| LGN注意调制仅约1%放电率（挑战McAlonan结论） | 猕猴电生理 | PMID:41005988（PMC12469006）| 中（争议，见C-2026-09-15-01）|
+| LGN-V1β振荡在注意时被抑制 | 猕猴LGN/V1同时记录 | PMID:41702717（PMC13000994）| 中（2026新发现）|
 
 ## 连接
 
@@ -117,6 +132,10 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - [[nociceptor]] — 伤害感受器信号经脊髓背角→STT→VPL/VMpo 上传
 - [[disorders-of-consciousness]] — 中央丘脑（CL/CM-PF）是DoC的关键受损节点；DBS靶点
 - [[mesocircuit-hypothesis]] — GPi过度抑制中央丘脑是VS/UWS的回路级维持机制
+- [[lateral-geniculate-nucleus]] — LGN专页：六层解剖、注意调制三机制、效应量争议
+- [[thalamic-reticular-nucleus]] — TRN专页：注意门控机制（先4ms于LGN）、跨模态抑制通路
+- [[beta-oscillations]] — LGN-V1β振荡在注意时被抑制（Alitto 2026新发现）
+- [[basal-ganglia]] — PFC→BG→TRN跨模态感觉抑制的中间接力节点
 
 ## 未解问题
 
@@ -127,6 +146,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 
 ## 修订历史
 
+- 2026-09-15 · 修订（rev8）· 基于文章 #145《守门人的守门人》· 新增"LGN注意门控"小节（TRN-LGN机制、时序证据、β振荡新机制、效应量争议）；"关键证据"表新增6行（McAlonan/BG-TRN/Alitto2025/Alitto2026）；连接节新增4条（lateral-geniculate-nucleus, thalamic-reticular-nucleus, beta-oscillations, basal-ganglia）；related、key_sources、source_articles更新；登记C-2026-09-15-01矛盾；opens_questions新增Q-lgn-01–04
 - 2026-06-03 · 创建 · 基于《视丘的三张面孔》文章 #66 · 整合 TC/TRN 解剖学、双模放电机制、MD-PFC 认知放大、Pulvinar 视觉门控和 CM-Pf 与意识的多层证据 · 初始置信度：高
 - 2026-06-30 · 修订（rev2） · 基于文章 #66《视丘的双面人格》· 更新"双模放电"小节：加入 Borden 2022 清醒因果实验结果（爆发→时序精度↑非幅度↑）和 Whitmire 2016 爆发-强直连续谱；更新 Q-thalamus-burst-awake 状态为"部分回答"；新增 key_sources 2 条
 

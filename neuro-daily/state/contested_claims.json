@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 4,
+  "open_count": 5,
   "resolved_count": 0,
   "claims": [
     {
@@ -92,6 +92,18 @@
       "source_article": "2026-09-01-medium-spiny-neurons-striatum",
       "priority": "medium",
       "note": "已更新PD wiki页将主要内容改为iSPN受损（新证据），旧来源具体表述需后续核实"
+    },
+    {
+      "id": "C-2026-09-15-01",
+      "page": "wiki/systems/lateral-geniculate-nucleus.md",
+      "claim_A": "注意力对猕猴LGN的调制约为9-11%（大细胞层）和9%（小细胞层），足以在行为层面影响视觉信号传递（McAlonan K, Cavanaugh J, Wurtz RH, 2008, Nature, PMID:18849967）",
+      "claim_B": "注意力对猕猴LGN放电率的调制仅约1%，效应弱且在神经元群体中不一致，可能对下游V1处理影响有限（Alitto HJ, Johnson JS, Usrey WM, 2025, eNeuro, PMID:41005988）",
+      "nature": "方法差异（任务设计/动物个体/信号提取/神经元采样策略）+ 可能的测量指标差异（两研究均用电生理但具体采样策略和刺激参数不同）。补充争议：O'Connor 2002 fMRI显示约4% BOLD效应，但BOLD=突触活动+放电率的混合信号，与电生理放电率直接比较不公平。Alitto 2026的β振荡机制（注意压制LGN-V1β相干振荡）提供了调和两个放电率测量差异的可能方向——LGN的注意信号可能主要通过振荡态变化而非平均放电率体现。",
+      "status": "open",
+      "opened": "2026-09-15",
+      "source_article": "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate",
+      "priority": "medium",
+      "note": "已在LGN专页中明确标注两种测量结果并列，降低该主张的confidence至中，不改变TRN先于LGN4ms的时序事实（两研究对这一机制无争议）"
     }
   ]
 }
