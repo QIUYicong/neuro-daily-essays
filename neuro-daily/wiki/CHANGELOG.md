@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-09-12 · 文章 #142 · 突触的自组装奥秘：液-液相分离如何构建突触前储备库与突触后密度
+
+**核心主题**：液-液相分离（LLPS）作为突触组织原理——突触素 IDR 在突触前端通过 LLPS 形成液态凝聚体捕获囊泡储备库（CaMKII 磷酸化在 ~6 s 内溶解液相动员囊泡）；PSD-95/SynGAP 多价相互作用在突触后端形成凝聚相（SynGAP 三聚体富集其中持续抑制 Ras-ERK）；LTP 诱导 Ca²⁺→CaMKII 活化→SynGAP 集体从凝聚相逸散→Ras 去抑制→AMPAR 插入（相变维度的 LTP 机制）；GluN2B CTD 支持 LLPS 使 PSD 保持液态（高可塑性）、GluN2A CTD 不支持（凝胶/固态，关键期关闭）。图谱从 282 节点/1637 边增至 **285 节点/1650 边**（+3 节点 + 13 条新边）。
+
+### 新建 Wiki 页面（3 个）
+
+- `concepts/liquid-liquid-phase-separation.md` 🟡 mainstream · 高置信度 — LLPS 核心原理：IDR/多价驱动力、突触前（突触素液相）与突触后（PSD 凝聚相）具体实现、LTP 相变维度；Q-llps-01（体外液态 vs 体内可能凝胶态的分辨率问题）、Q-llps-02（活体神经元 LLPS 成像难题）
+- `concepts/postsynaptic-density.md` 🟢 established · 高置信度 — PSD 的 LLPS 本质：PSD-95 PDZ 多价网络 + SynGAP 三聚体凝聚；LTP 机制的相变维度（SynGAP 逸散→Ras 去抑制→AMPAR 插入）；GluN2B→GluN2A 发育切换对 PSD 可塑性的物理门控；Q-psd-01（SynGAP 逸散 vs CaMKII 磷酸化 AMPAR 的相对权重）、Q-psd-02（发育切换的体内实时成像）
+- `neurons/synapsin.md` 🟢 established · 高置信度 — 突触素 IDR 驱动 LLPS：FRAP t₁/₂=65 s 液态特性、带电磷脂囊泡选择性捕获、CaMKII 磷酸化 S2/S3 在 τ≈5.9 s 内溶解液相、TKO 小鼠 SV 聚集严重减少；Q-synapsin-01（不同突触类型 LLPS 阈值差异）
+
+### 修订 Wiki 页面（3 个）
+
+- `concepts/ltp.md` rev11→rev12 — 新增「2b. LTP 的相变维度（LLPS 框架，2016–2026）」：SynGAP 在 PSD 凝聚相中的集体逸散机制、CaMKII 凝聚体作为突触标签物理基础；related 新增 liquid-liquid-phase-separation 和 postsynaptic-density；key_sources 新增 PMID:27565345、PMID:29976799
+- `concepts/tdp-43-pathology.md` rev1→rev2 — 连接段落新增 [[liquid-liquid-phase-separation]]（TDP-43 病理是正常 LLPS 向不可逆固态聚集的相变失控；可逆 vs 不可逆的对比框架）；source_articles 新增 #142
+- `wiki/_graph.json` — 节点 282→285，边 1637→1650；新增 3 节点（liquid-liquid-phase-separation、postsynaptic-density、synapsin）、13 条新边（llps→psd/synapsin/ltp/tdp43/camkii；psd→ltp/ampar/nmdar；synapsin→transmission；camkii→synapsin 等）
+
+### 矛盾登记/裁决（0 条）
+
+今日无新矛盾。LLPS 在体外的液态特性有高质量证据（Milovanovic 2018 FRAP），但体内是否为真液态 vs 凝胶态的不确定性已作为 Q-llps-01 未解问题登记，不构成与既有 wiki 的直接矛盾。
+
+### 悬空引用变化
+
+- **新增悬空**：`intrinsically-disordered-protein`（被 liquid-liquid-phase-separation 页引用，待建独立页面）、`ampa-receptor-trafficking`（被 postsynaptic-density 页引用）
+- **继续悬空**：`c9orf72-repeat-expansion`、`nucleocytoplasmic-transport`、`motor-neuron`、`reactive-oxygen-species`、`drp1`、`neuroinflammation`、`protein-aggregation`、`ubiquitin-proteasome`、`autophagy`
+
+---
+
 ## 2026-09-11 · 文章 #141 · ALS：TDP-43 核清除与运动神经元的选择性命运
 
 **核心主题**：肌萎缩侧索硬化症（ALS）的分子机制——TDP-43 病理的双重破坏（核 LOF 导致 UNC13A/STMN2 隐蔽外显子暴露；胞质聚集 GOF 隔离 RBP 并朊病毒样传播）；C9orf72 重复扩增的三叉毒矛（功能丧失 + RNA 病灶 + DPR 蛋白，poly-GR/PR 毒性最强）；SOD1 的平行路径（无 TDP-43 病理但同样选择性杀死运动神经元）；运动神经元选择性脆弱性的四重逻辑（超长轴突 + 低钙缓冲 + 高钙通透 AMPA 受体 + 持续皮质驱动）。图谱从 277 节点/1617 边增至 **282 节点/1637 边**（+5 节点 + 20 条新边）。

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-11（第141篇·ALS·TDP-43核清除·C9orf72三叉毒矛·运动神经元选择性脆弱性·隐蔽外显子·RAN翻译·DPR蛋白）· 主题页总数：**280**（新建5页：diseases/als-amyotrophic-lateral-sclerosis、concepts/tdp-43-pathology、concepts/cryptic-exon、concepts/ran-translation、concepts/dipeptide-repeat-proteins；修订1页：excitotoxicity rev3；图谱282节点/1637边）
+> 最后更新：2026-09-12（第142篇·液-液相分离·突触后密度·突触素·PSD-95/SynGAP相变·LTP相变机制·GluN2B→GluN2A发育切换）· 主题页总数：**283**（新建3页：concepts/liquid-liquid-phase-separation、concepts/postsynaptic-density、neurons/synapsin；修订3页：ltp rev12、tdp-43-pathology rev2；图谱285节点/1650边）
 
 ---
 

@@ -1,0 +1,108 @@
+# 运行日志 · 2026-09-12（知识库连续性日期）
+
+**运行时间**：2026-06-24 UTC+8（系统时钟）
+**文章编号**：#142
+**知识库连续性日期**：2026-09-12
+**运行状态**：✅ 成功
+
+---
+
+## 步骤执行记录
+
+### Step 0：分支检出与环境检查
+- 检出分支：main（claude/funny-einstein-q5hve9 按 Git 环境配置）
+- 确认当前知识库最新文章：#141（2026-09-11 ALS 文章）
+- 确认今日知识库连续性日期：2026-09-12
+- 确认无 2026-09-12 文章存在（正常，未重复运行）
+
+### Step A：主题选择
+- 选题：液-液相分离（LLPS）作为突触自组装原理
+- 选题逻辑：从连续 5 篇疾病文章（#137-#141 HD/兴奋毒性/线粒体/ALS）转向基础分子机制；利用 TDP-43 病理（正常 LLPS → 病理固态化）作为桥梁；填补图谱中 LLPS、PSD、突触素三个空白节点
+- 关键概念：突触素储备库（LLPS 机制）、PSD-95/SynGAP 凝聚相、LTP 相变、GluN2B→GluN2A 发育切换
+
+### Step B：文献检索与来源获取
+- 主要来源（8 篇）：
+  - PMID:29976799 / PMC6191856 - Milovanovic 2018（突触素 LLPS，**全文**，开放获取）
+  - PMID:27565345 - Zeng 2016（PSD-95/SynGAP LLPS，摘要）
+  - PMID:30078712 - 约 2018 PSD LLPS 综述（摘要）
+  - PMID:41405989 - 约 2024/2025 PSD 研究（摘要）
+  - PMID:34375719 - 2021（摘要）
+  - PMID:36671389 - 2023（摘要）
+  - PMID:30599311 - 2019（摘要）
+  - PMID:37261953 - 2023（摘要）
+- 禁止事项合规：无 Sci-Hub 使用；无全文强制访问；无编造数据；全文仅使用开放获取来源（PMC6191856）
+- 摘要限制标记：所有仅读摘要的来源在笔记文件中明确标注"未读取全文"
+
+### Step C：文章撰写
+- 文件：`neuro-daily/articles/2026-09-12-liquid-liquid-phase-separation-postsynaptic-density.md`
+- 约 4800 字（中文），涵盖：LLPS 物理原理、突触素液相机制（突触前）、PSD 凝聚相（突触后）、LTP 相变维度、GluN2B→GluN2A 切换、与 TDP-43 病理的桥接、AI 类比
+- 配置项完整：概念卡、认知地图节点更新、未解问题、8 篇参考文献
+
+### Step D：阅读笔记
+- 文件：`neuro-daily/notes/2026-09-12-reading-notes.md`
+- Milovanovic 2018 全文详细记录；其余来源摘要记录，均标注获取程度
+
+### Step E：Wiki 固结
+
+#### 新建 Wiki 页（3 个）
+- `wiki/concepts/liquid-liquid-phase-separation.md`（status: mainstream, confidence: high, rev1）
+- `wiki/concepts/postsynaptic-density.md`（status: established, confidence: high, rev1）
+- `wiki/neurons/synapsin.md`（status: established, confidence: high, rev1）
+
+#### 修订 Wiki 页（2 个）
+- `wiki/concepts/ltp.md`：rev11 → rev12（新增 LLPS 框架/相变维度 LTP 机制节；related/key_sources/source_articles/dimensions 更新）
+- `wiki/concepts/tdp-43-pathology.md`：rev1 → rev2（新增 liquid-liquid-phase-separation 连接段落）
+
+#### 图谱更新
+- `wiki/_graph.json`：节点 282 → 285，边 1637 → 1650
+- 新增节点：liquid-liquid-phase-separation、postsynaptic-density、synapsin
+- 新增边（13 条）：llps→psd、llps→synapsin、llps→ltp、llps→tdp-43-pathology、llps→camkii、psd→ltp、psd→ampa-receptor、psd→nmda-receptor、synapsin→synaptic-transmission、synapsin→llps（is-a）、camkii→synapsin、psd→llps（is-a）、ltp→psd
+
+#### 导航更新
+- `wiki/index.md`：标题更新为 2026-09-12 条目；总页数 283
+
+### Step F：治理层更新
+- `wiki/CHANGELOG.md`：新增 2026-09-12 · 文章 #142 条目
+- `state/topic_ledger.json`：last_updated 2026-09-02→2026-09-12；total_articles 132→142；新增 #142 条目
+- `state/unresolved_questions.md`：新增 Q-llps-01/02、Q-psd-01/02、Q-synapsin-01
+- `state/maturity_index.json`：新增 liquid-liquid-phase-separation(mainstream)、postsynaptic-density(established)、synapsin(established)；更新 ltp 和 tdp-43-pathology 的 last_changed
+- `state/monthly_synthesis.md`：月度摘要表新增 #142；新增 2026-09-12 日条目
+- `neuro-daily/sources/2026-09-12-sources.json`：8 篇来源 JSON 注册表
+
+### Step G：运行日志
+- 本文件：`logs/2026-09-12-run.log`
+
+### Step H：自检
+- 所有新建文件：frontmatter 完整（title/slug/domain/type/status/confidence/created/updated/revision_count/dimensions/related/prerequisites/source_articles/key_sources）
+- 修订文件：revision_count 递增，updated 更新，修订历史条目追加
+- 所有 wiki 页 related 字段均为已存在或新建的合法 slug
+- source_articles 中的 slug 与文章文件名一致
+- 图谱节点和边计数与实际内容匹配
+- 来源出处合规：无编造 PMID，无 Sci-Hub，全文限制正确标注
+
+---
+
+## 异常与特殊事项
+
+- 系统时钟（2026-06-24）与知识库连续性日期（2026-09-12）不一致，符合预期双日期系统
+- 来源 PMC9855357 在 eLink 结果中被关联到 Zeng 2016，但实际 PMC 内容显示为不同论文；已使用摘要数据，标注为"未读取全文"
+- 本次运行跨越了上下文窗口压缩（context compaction），在压缩后的新窗口中成功恢复并继续执行，没有内容缺失
+
+---
+
+## 提交信息
+```
+Add neuro daily article + wiki consolidation for 2026-09-12
+
+Article #142: 突触的自组装奥秘：液-液相分离如何构建突触前储备库与突触后密度
+- New wiki pages: liquid-liquid-phase-separation, postsynaptic-density, synapsin
+- Revised wiki pages: ltp (rev12), tdp-43-pathology (rev2)
+- Graph: 285 nodes / 1650 edges
+- New open questions: Q-llps-01/02, Q-psd-01/02, Q-synapsin-01
+```
+
+---
+
+*运行结束时间：2026-06-24 UTC+8*
+*知识库连续性日期：2026-09-12*
+*下次运行：2026-09-13（第143篇）*

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-11",
-  "node_count": 282,
-  "edge_count": 1637,
+  "updated": "2026-09-12",
+  "node_count": 285,
+  "edge_count": 1650,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2580,6 +2580,33 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/dipeptide-repeat-proteins.md"
+    },
+    {
+      "id": "liquid-liquid-phase-separation",
+      "title": "液-液相分离（LLPS）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/liquid-liquid-phase-separation.md"
+    },
+    {
+      "id": "postsynaptic-density",
+      "title": "突触后密度（PSD）",
+      "domain": "concepts",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/postsynaptic-density.md"
+    },
+    {
+      "id": "synapsin",
+      "title": "突触素（Synapsin）",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/synapsin.md"
     }
   ],
   "edges": [
@@ -11763,6 +11790,78 @@
       "target": "als-amyotrophic-lateral-sclerosis",
       "type": "related",
       "note": "ALS运动神经元因四重脆弱性（低缓冲/高AMPA通透/长轴突/皮质驱动）处于慢性兴奋毒性临界"
+    },
+    {
+      "from": "liquid-liquid-phase-separation",
+      "to": "postsynaptic-density",
+      "type": "mechanism-of",
+      "note": "PSD-95/SynGAP 多价网络通过 LLPS 形成突触后密度凝聚相"
+    },
+    {
+      "from": "liquid-liquid-phase-separation",
+      "to": "synapsin",
+      "type": "mechanism-of",
+      "note": "突触素 IDR 通过 LLPS 形成捕获囊泡的液态相"
+    },
+    {
+      "from": "liquid-liquid-phase-separation",
+      "to": "ltp",
+      "type": "supports",
+      "note": "LLPS 是 LTP 的相变维度：SynGAP 集体逸散为 E-LTP 的物理机制"
+    },
+    {
+      "from": "liquid-liquid-phase-separation",
+      "to": "tdp-43-pathology",
+      "type": "related",
+      "note": "TDP-43 病理是正常 LLPS（可逆液态）向不可逆固态聚集失控的相变"
+    },
+    {
+      "from": "liquid-liquid-phase-separation",
+      "to": "camkii",
+      "type": "related",
+      "note": "CaMKII 磷酸化溶解突触素液相；CaMKII 自身激活后形成 LTP 相关凝聚体"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "ltp",
+      "type": "supports",
+      "note": "PSD 凝聚体是 AMPAR 锚定和 LTP 表达的物理平台；SynGAP 逸散触发 LTP"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "ampa-receptor",
+      "type": "supports",
+      "note": "PSD-95 凝聚体通过 TARP 将 AMPAR 锚定于突触后膜；凝聚相招募新 AMPAR 完成 LTP"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "nmda-receptor",
+      "type": "supports",
+      "note": "GluN2B CTD 通过 PDZ 与 PSD-95 相互作用，锚定 NMDAR 于 PSD 凝聚相"
+    },
+    {
+      "from": "synapsin",
+      "to": "synaptic-transmission",
+      "type": "supports",
+      "note": "突触素液相组织 SV 储备池，调控突触传递的持续性和动态学"
+    },
+    {
+      "from": "synapsin",
+      "to": "liquid-liquid-phase-separation",
+      "type": "is-a",
+      "note": "突触素是 LLPS 原则在突触前终末的具体实现"
+    },
+    {
+      "from": "camkii",
+      "to": "synapsin",
+      "type": "regulates",
+      "note": "Ca²⁺/CaMKII 磷酸化突触素 IDR S2/S3，在 ~6 秒内溶解突触素液相，动员囊泡"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "liquid-liquid-phase-separation",
+      "type": "is-a",
+      "note": "PSD 是 LLPS 原则在突触后的具体实现（PSD-95/SynGAP 凝聚体）"
     }
   ],
   "dangling_references": [

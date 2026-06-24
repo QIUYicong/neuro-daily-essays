@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-09-11
-updated: 2026-09-11
-revision_count: 1
+updated: 2026-09-12
+revision_count: 2
 dimensions: [molecular, cellular, disease]
 related: [als-amyotrophic-lateral-sclerosis, cryptic-exon, liquid-liquid-phase-separation, ran-translation, dipeptide-repeat-proteins, huntingtons-disease, alzheimers-disease, excitotoxicity, proteostasis]
 prerequisites: [rna-splicing, liquid-liquid-phase-separation, protein-aggregation]
 opens_questions: [Q-als-01]
-source_articles: [2026-09-11-als-tdp43-motor-neuron-selective-vulnerability]
+source_articles: [2026-09-11-als-tdp43-motor-neuron-selective-vulnerability, 2026-09-12-liquid-liquid-phase-separation-postsynaptic-density]
 key_sources: ["PMID:17023659", "PMID:35197626", "PMC8891019", "PMID:35197628", "PMC8891020", "PMID:35767949", "PMC9327139", "PMID:30120348", "PMC6417666"]
 ---
 
@@ -71,6 +71,7 @@ TDP-43 病理在阿尔茨海默病中的高发率（~57%）提示 TDP-43 稳态�
 - [[dipeptide-repeat-proteins]] — poly-GR/PR 特异与 TDP-43 共定位
 - [[excitotoxicity]] — 运动神经元的共同脆弱性背景
 - [[huntingtons-disease]] — 对比：类似的"汇聚性病理"设计，不同的蛋白
+- [[liquid-liquid-phase-separation]] — TDP-43 病理是正常 LLPS（可逆液态凝聚体）向不可逆固态聚集的相变失控；突触后 PSD 的正常 LLPS 与 TDP-43 病理性 LLPS 共享同一物理框架，但方向相反
 
 ## 未解问题
 
@@ -78,6 +79,7 @@ TDP-43 病理在阿尔茨海默病中的高发率（~57%）提示 TDP-43 稳态�
 
 ## 修订历史
 
+- 2026-09-12 · 修订 · 基于《突触的自组装奥秘》(#142) · 连接段落新增 [[liquid-liquid-phase-separation]]（正常 LLPS vs. 病理固态化同一物理框架；可逆与不可逆的对比）；source_articles 新增 #142
 - 2026-09-11 · 创建 · 基于《ALS TDP-43 文章》(#141) · 初始置信度：高
 
 ## 来源文章

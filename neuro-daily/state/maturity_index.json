@@ -738,5 +738,40 @@
     "confidence": "high",
     "last_changed": "2026-09-11",
     "reason": "修订 rev3：新增 ALS 作为兴奋毒性疾病窗口（C9orf72 LOF→谷氨酸受体上调 + 低钙缓冲 + 高Ca²⁺通透AMPA），related 新增 als-amyotrophic-lateral-sclerosis，状态和置信度维持 mainstream/high"
+  },
+  {
+    "slug": "liquid-liquid-phase-separation",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-09-12",
+    "reason": "新建（文章 #142，2026-09-12）：突触素 LLPS 体外高质量证据（FRAP + 囊泡捕获 + TKO 小鼠，PMID:29976799）；PSD-95/SynGAP 凝聚相有多项研究支持（Zeng 2016, Bhatt 2020 等）；定为 mainstream 而非 established 因为体内液态性质（vs 凝胶）尚待验证"
+  },
+  {
+    "slug": "postsynaptic-density",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-12",
+    "reason": "新建（文章 #142，2026-09-12）：PSD 作为解剖/生化实体有几十年强证据（电镜/质谱）；LLPS 机制对 PSD 组织的贡献有近年高质量研究支持；SynGAP 在 LTP 中集体逸散的细胞成像证据；定为 established/high"
+  },
+  {
+    "slug": "synapsin",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-12",
+    "reason": "新建（文章 #142，2026-09-12）：突触素作为突触前蛋白有大量历史证据；IDR 驱动 LLPS 形成囊泡储备库的具体机制来自 Milovanovic 2018（PMC6191856）的高质量体外数据（FRAP/DIC/荧光囊泡共定位/TKO 小鼠）；定为 established/high"
+  },
+  {
+    "slug": "ltp",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-12",
+    "reason": "修订 rev12：新增 LLPS 框架的相变维度（SynGAP 从 PSD 凝聚相逸散→Ras 去抑制→AMPAR 插入；CaMKII 凝聚体作为突触标签）；状态和置信度维持 established/high"
+  },
+  {
+    "slug": "tdp-43-pathology",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-12",
+    "reason": "修订 rev2：新增 liquid-liquid-phase-separation 连接（TDP-43 病理是正常可逆 LLPS 向不可逆固态聚集的相变失控）；状态和置信度维持 established/high"
   }
 ]

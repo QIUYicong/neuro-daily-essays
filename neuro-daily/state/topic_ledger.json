@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-02",
-  "total_articles": 132,
+  "last_updated": "2026-09-12",
+  "total_articles": 142,
   "entries": [
     {
       "date": "2026-09-02",
@@ -8605,5 +8605,22 @@
     "knowledge_base_date": "2026-09-11",
     "system_clock_date": "2026-06-24",
     "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-11（第141篇ALS文章）"
+  }
+  ,
+  {
+    "date": "2026-09-12",
+    "article_number": 142,
+    "title": "突触的自组装奥秘：液-液相分离如何构建突触前储备库与突触后密度",
+    "core_question": "液-液相分离（LLPS）如何在突触前端（突触素液相捕获囊泡储备库）和突触后端（PSD-95/SynGAP 凝聚相组织 PSD）实现突触结构的自组装，以及这一物理框架如何统一解释 LTP 的 Ca²⁺→CaMKII→SynGAP 逸散→AMPAR 插入机制与 GluN2B→GluN2A 发育切换对突触可塑性的物理门控？",
+    "layer": "molecular/synaptic/cellular",
+    "topic_tags": ["liquid-liquid-phase-separation", "LLPS", "突触素", "synapsin", "IDR", "intrinsically disordered region", "postsynaptic-density", "PSD", "PSD-95", "SynGAP", "LTP", "CaMKII", "GluN2B", "GluN2A", "critical period", "关键期", "相变", "phase transition", "AMPAR", "囊泡储备库", "FRAP", "Milovanovic 2018", "membrane-less condensate"],
+    "main_sources": ["PMC6191856 (PMID:29976799) OPEN", "PMID:27565345 abstract-only", "PMID:30078712 abstract-only", "PMID:41405989 abstract-only", "PMID:34375719 abstract-only", "PMID:36671389 abstract-only", "PMID:30599311 abstract-only", "PMID:37261953 abstract-only"],
+    "wiki_created": ["concepts/liquid-liquid-phase-separation", "concepts/postsynaptic-density", "neurons/synapsin"],
+    "wiki_revised": ["concepts/ltp (rev11->rev12)", "concepts/tdp-43-pathology (rev1->rev2)"],
+    "graph_update": "282 nodes+3=285 nodes; 1637 edges+13=1650 edges",
+    "unresolved_questions": ["Q-llps-01 (中): 体外 LLPS 液态特性是否在体内神经元中真实存在（还是更接近凝胶/固态）？", "Q-llps-02 (中): 活体神经元中 LLPS 成像的技术限制——何时能直接看到？", "Q-psd-01 (高): SynGAP 从 PSD 凝聚相逸散 vs CaMKII 直接磷酸化 AMPAR，哪个是 LTP 早期阶段 AMPAR 插入的主要驱动？", "Q-psd-02 (中): GluN2B→GluN2A 切换对 PSD 物理态（液态→固态）影响的体内实时证据？", "Q-synapsin-01 (中): 突触素液相组成在不同突触类型和脑区是否有实质差异？"],
+    "knowledge_base_date": "2026-09-12",
+    "system_clock_date": "2026-06-24",
+    "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-12（第142篇液-液相分离·突触前后自组装）"
   }
 ]

@@ -1,6 +1,50 @@
 # 未解问题追踪
 
-*最后更新：2026-09-08*
+*最后更新：2026-09-12*
+
+---
+
+## 2026-09-12 新增（来自"突触的自组装奥秘：液-液相分离"文章 #142）
+
+### Q-llps-01（中优先级）：体外 LLPS 液态特性是否反映了体内神经元真实状态？
+
+- **关联 wiki**：[[liquid-liquid-phase-separation]]、[[synapsin]]、[[postsynaptic-density]]
+- **来源文章**：2026-09-12-liquid-liquid-phase-separation-postsynaptic-density
+- **问题**：体外实验（Milovanovic 2018 PMID:29976799）在生理盐浓度下证明突触素 IDR 形成液态液滴（FRAP t₁/₂=65 s，液滴融合/分裂可观察），但体内突触终末中的突触素凝聚体是真正的液态还是更接近凝胶/固态（更慢的 FRAP、更大的黏性）？高蛋白浓度、分子拥挤、多种 scaffold 蛋白的竞争相互作用可能使体内状态偏向凝胶态。Feng et al. 2019 的 PSD 研究中，PSD-95/SynGAP 系统在一定浓度以上表现出凝胶特性而非纯液态。这一问题直接影响 LLPS 在突触中的可逆性预测：液态→可逆，凝胶/固态→干预靶点受限。
+- **关键实验**：(1) 原位超分辨成像（STED/STORM）+ 体内 FRAP（通过 GFP-Synapsin 敲入小鼠）测量突触终末内突触素凝聚体的真实动力学；(2) 在接近体内条件（高蛋白浓度 >100 μM、含多种 scaffold）的体外重建系统中测量突触素液滴的流变学特性；(3) 对比不同刺激状态（静息 vs 高频刺激后）的体内 FRAP 动力学
+- **当前证据状态**：体外液态特性：高（多项体外实验确认）；体内液态 vs 凝胶的直接证据：低（技术限制，无直接体内测量）
+
+### Q-llps-02（中优先级）：活体神经元中 LLPS 成像的技术障碍何时能够克服？
+
+- **关联 wiki**：[[liquid-liquid-phase-separation]]、[[postsynaptic-density]]
+- **来源文章**：2026-09-12-liquid-liquid-phase-separation-postsynaptic-density
+- **问题**：现有 LLPS 证据几乎全部来自体外重建系统或固定样本的超分辨成像。在活体神经元中，突触大小（~200-500 nm，低于光学衍射极限）、高度密集的蛋白质环境、以及需要同时观测动力学（FRAP）与结构的挑战，使直接观测极其困难。最近的进展包括：活体 MINFLUX（约 1–5 nm 分辨率，已用于线粒体；神经突触尚未应用）和扩展显微镜（expansion microscopy）可用于固定样本但非活体。关键问题是：何时能在完整行为动物的活体突触中直接实时测量 LLPS 动力学（液滴融合/分裂/溶解）？
+- **关键实验**：(1) 将 GFP-SynGAP/mCherry-PSD95 双色 FRAP 在离体脑切片（+清醒小鼠头固定皮层）中实施；(2) MINFLUX 应用于活体神经元单分子追踪（SynGAP 在 LTP 后的单分子扩散系数变化）；(3) 将 cryo-ET（冷冻电子断层成像）和活体 CLEM（相关光电镜）应用于离体突触的亚毫秒时间分辨率结构分析
+- **当前证据状态**：LLPS 在离体/体外的可视化：高；活体神经元中 LLPS 的实时成像：低（现有工具不足以同时达到时间 + 空间分辨率）
+
+### Q-psd-01（高优先级）：LTP 早期阶段 AMPAR 插入的主要驱动是 SynGAP 逸散还是直接 CaMKII→AMPAR 磷酸化？
+
+- **关联 wiki**：[[postsynaptic-density]]、[[ltp]]、[[ampa-receptor]]、[[camkii]]
+- **来源文章**：2026-09-12-liquid-liquid-phase-separation-postsynaptic-density
+- **问题**：LTP 诱导后的早期 AMPAR 插入有两条机制候选：(1) CaMKII 磷酸化 GluA1 S831 位点→AMPAR 电导增大 + 膜插入（直接机制）；(2) CaMKII 磷酸化 SynGAP→SynGAP 从 PSD 凝聚相集体逸散→Ras/ERK 去抑制→AMPAR 插入（间接相变机制）。Bhatt et al. 2020 强调了 SynGAP 集体逸散的重要性，但这两条路径的相对时序和权重仍不清楚。是否存在互补关系（CaMKII 直接磷酸化负责第 1 分钟，SynGAP 逸散负责维持？），还是 SynGAP 逸散是主要初始触发器？
+- **关键实验**：(1) 光遗传学（仅激活特定 CaMKII 底物）分离 SynGAP 磷酸化 vs GluA1 磷酸化对 AMPAR 插入的独立贡献；(2) 突变体：SynGAP 磷酸化位点突变小鼠的 LTP 幅度和时间曲线；(3) 膜片钳 + TIRF 成像同时测量 AMPAR 插入动力学和 SynGAP 荧光强度变化的时序关系
+- **当前证据状态**：CaMKII 磷酸化 GluA1 对 LTP 重要性：高；SynGAP 逸散对 LTP 贡献：中（Bhatt 2020；但分离实验有限）；两者的相对权重：低（缺乏直接比较实验）
+
+### Q-psd-02（中优先级）：GluN2B→GluN2A 切换如何在体内实时改变 PSD 物理态？
+
+- **关联 wiki**：[[postsynaptic-density]]、[[nmda-receptor]]、[[ltp]]
+- **来源文章**：2026-09-12-liquid-liquid-phase-separation-postsynaptic-density
+- **问题**：概念上，GluN2B CTD 支持 LLPS（PSD 液态，高可塑性）、GluN2A CTD 不支持（PSD 趋向凝胶/固态，关键期关闭）是一个优雅的框架，但体内实时证据仍然缺乏。现有证据主要来自体外重建实验：GluN2B CTD 片段能参与 PSD-95 的液-液相分离，而 GluN2A 不能。然而，这一切换在真实发育过程中（小鼠 P0→P30）是否真正导致 PSD-95/SynGAP 凝聚体流变性质（liquid→gel）的系统性变化，还没有体内直接证据。同时，关键期关闭有多因素决定（PV 细胞成熟、PNN 沉积、BDNF 信号等），GluN2B→GluN2A 切换的贡献权重未知。
+- **关键实验**：(1) 发育不同时间点（P7/P14/P21/P28/P60）的体内 FRAP（GFP-PSD95 敲入小鼠）测量 PSD-95 的流动性变化；(2) 过表达或条件性敲入 GluN2A（无 LLPS 支持的 CTD）在 GluN2B 发育期的小鼠：是否提前关闭关键期？(3) 裸眼皮层（V1）关键期操作（MD、黑暗饲养）对应 PSD FRAP 动力学的变化
+- **当前证据状态**：GluN2B CTD 支持 LLPS（体外）：高；GluN2B→GluN2A 切换导致体内 PSD 流变性质变化：低（缺乏直接测量）；关键期关闭与 PSD 物理态的因果关系：低
+
+### Q-synapsin-01（中优先级）：突触素液相的组成和 LLPS 阈值在不同突触类型和脑区是否有实质差异？
+
+- **关联 wiki**：[[synapsin]]、[[liquid-liquid-phase-separation]]、[[synaptic-transmission]]
+- **来源文章**：2026-09-12-liquid-liquid-phase-separation-postsynaptic-density
+- **问题**：Milovanovic 2018 的研究主要在体外纯化蛋白系统中进行，或使用 HEK293 过表达。不同突触类型（兴奋性 vs 抑制性）中突触素亚型（Syn1/2/3）的比例不同，scaffold 蛋白的组成（intersectin 丰度、SH3 域蛋白等）也不同，这是否导致 LLPS 阈值的系统性差异？抑制性突触（以 Syn2 为主）和兴奋性突触（以 Syn1a/1b 为主）的囊泡储备库大小在行为实验中表现不同，这是否部分反映 LLPS 动力学差异？此外，LLPS 阈值是否随发育（新生→成年）或疾病状态（癫痫、自闭症谱系障碍）而变化？
+- **关键实验**：(1) 在原代培养的兴奋性 vs 抑制性神经元中比较 Synapsin-GFP FRAP 动力学（可能已有但未系统报道）；(2) 在 Syn1 KO vs Syn2 KO 小鼠的突触终末中测量残留 LLPS 的程度；(3) 用质谱定量比较兴奋性/抑制性突触终末制备物中的突触素液相伴侣蛋白（intersectin 等）组成
+- **当前证据状态**：突触素液相的存在（一般性）：高；不同突触类型的差异性：低（未系统研究）；发育/疾病状态的变化：低
 
 ---
 
