@@ -152,4 +152,4 @@ URL 问题：
 - [x] source_registry（519→525）
 - [x] maturity_index（98→99）
 - [x] _graph.json（289节点/1685边）
-- [ ] git commit + push（待完成）
+- [x] git commit + push（`claude/funny-einstein-3ls52l` → `origin/main`，ae8adc2，成功）
