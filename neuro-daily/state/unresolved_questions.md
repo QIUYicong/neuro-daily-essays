@@ -3852,3 +3852,37 @@
 - **来源文章**：2026-09-09-mitochondrial-dysfunction-neurodegeneration
 - **问题**：在散发性 PD 和 AD 中，Complex I/IV 缺陷导致 ROS 增加与 PINK1/Parkin 通路失效（损伤线粒体积累）同时发生。哪个先发生？(a) LRRK2 突变 PD：线粒体运输障碍可能早于 ETC 缺陷；(b) 环境毒素暴露（鱼藤酮）：直接 Complex I 抑制是触发因素；(c) 散发性 AD：mtDNA 体细胞突变积累可能是慢性"底噪"，而 Aβ 叠加触发急性失代偿。病因异质性使"统一第一因"难以确认。
 - **当前证据状态**：各病因亚型的触发因素：中-高；统一顺序模型：低（不同病因亚型可能有不同顺序）
+
+---
+
+## 2026-09-11 新增未解问题（文章 #141·ALS TDP-43·C9orf72·运动神经元选择性脆弱性）
+
+### Q-als-01（高优先级）：TDP-43 LOF 与 GOF 的因果时序——先鸡先蛋？
+
+- **关联 wiki**：[[tdp-43-pathology]]、[[als-amyotrophic-lateral-sclerosis]]、[[cryptic-exon]]
+- **来源文章**：2026-09-11-als-tdp43-motor-neuron-selective-vulnerability
+- **问题**：TDP-43 的核清除（LOF）与细胞质聚集（GOF）在时间上谁先谁后？两种流行假说：(a) 核清除→LOF→隐蔽外显子暴露→RNA 稳态崩溃→错误翻译蛋白积累→聚集促进 GOF；(b) 野生型 TDP-43 因细胞应激被隔离入 SG→SG 病理化→TDP-43 固态聚集→被困于细胞质→核功能丧失为 GOF 的后果。当前患者尸检无法明确时序（快照问题），ALS iPSC 模型显示核减少和细胞质聚集同时发生，难以区分因果。
+- **关键实验**：(1) ALS 动物模型中 TDP-43 病理进展的超高分辨率时间序列成像；(2) 在诱导 TDP-43 聚集的同时监测核 TDP-43 水平；(3) 选择性恢复核功能（而不减少细胞质聚集）是否能拯救 UNC13A/STMN2 表达
+- **当前证据状态**：核清除和细胞质聚集共发生：高；LOF vs GOF 哪个是主要驱动：争议/中
+
+### Q-als-02（高优先级）：DPR 蛋白对脊髓运动神经元的毒性是直接还是间接的？
+
+- **关联 wiki**：[[dipeptide-repeat-proteins]]、[[als-amyotrophic-lateral-sclerosis]]、[[ran-translation]]
+- **来源文章**：2026-09-11-als-tdp43-motor-neuron-selective-vulnerability
+- **问题**：DPR 包涵体在 C9orf72 ALS 患者中主要分布于小脑和海马，而非 ALS 最受损的脊髓α运动神经元（脊髓主要是 TDP-43 包涵体）。这提出关键问题：poly-GR/PR 如何损害脊髓运动神经元？(a) 直接损害假说：脊髓中 DPR 水平虽低（检测不到包涵体），但可溶性低浓度 DPR 已足够破坏 NCT 和 TDP-43 稳态；(b) 间接假说：DPR 先损害皮质运动神经元（皮质有 DPR 存在），再通过持续皮质→脊髓谷氨酸能输入的兴奋毒性间接杀伤脊髓 α-MN；(c) 胶质细胞中介：星形胶质细胞或小胶质细胞中 DPR 毒性引发神经炎症，非细胞自主性损害脊髓 MN。
+- **当前证据状态**：DPR 空间解耦（小脑/海马而非脊髓）：高（尸检数据）；间接毒性机制：中（理论上合理，实验证据有限）
+
+### Q-als-03（中优先级）：DPR 与 TDP-43 聚集的因果时序——哪个在上游？
+
+- **关联 wiki**：[[dipeptide-repeat-proteins]]、[[tdp-43-pathology]]、[[ran-translation]]
+- **来源文章**：2026-09-11-als-tdp43-motor-neuron-selective-vulnerability
+- **问题**：Poly-GR 包涵体与 TDP-43 病理在尸检中特异共定位（相比其他 DPR 类型），提示 poly-GR 可能是上游触发 TDP-43 固态聚集的关键中间分子。但也可能相反：TDP-43 功能丧失导致 RBP 稳态崩溃，使 poly-GR 更容易聚集并被捕获。两种模型预测不同的干预窗口：(a) 若 DPR 在上游 → 减少 RAN 翻译（或靶向 DPR）是最优先干预；(b) 若 TDP-43 在上游 → 恢复 TDP-43 核功能（反义寡核苷酸靶向隐蔽外显子的上游？）是更直接的策略。
+- **关键实验**：(1) 在 C9orf72 模型中选择性抑制 RAN 翻译（降低 DPR）后，是否同时延迟 TDP-43 聚集？(2) 在 TDP-43 功能正常的细胞中单独引入 poly-GR，是否能触发 TDP-43 固态聚集？
+- **当前证据状态**：相关性（poly-GR 与 TDP-43 共定位）：高；因果时序：低（缺乏直接实验数据）
+
+### Q-als-04（中优先级）：tofersen 在 ALSFRS-R 和 NfL 之间的解离——生物标志物与功能疗效的根本分离？
+
+- **关联 wiki**：[[als-amyotrophic-lateral-sclerosis]]
+- **来源文章**：2026-09-11-als-tdp43-motor-neuron-selective-vulnerability
+- **问题**：Tofersen（ASO 靶向 SOD1 mRNA）在 Phase 3 VALOR 试验中显示：(a) 血清 NfL（神经损伤生物标志物）降低 67%；(b) CSF NfL 降低 55%；(c) SOD1 蛋白降低 35%；但 (d) ALSFRS-R（功能评分）在 28 周时未达统计学显著改善（仅开放标签延伸后显示减缓进展）。这种解离引出根本问题：NfL 降低是否意味着"神经元的损失速度减慢，但已损失的功能无法恢复"？还是 28 周随访期不够长？还是 ALSFRS-R 本身不够灵敏？FDA 基于 NfL 加速批准（2023）代表了生物标志物驱动审批的先例，但该先例的科学基础是否充分？
+- **当前证据状态**：NfL 降低：高（多次测量）；功能疗效：中（需更长随访）；NfL 作为替代终点的效度：争议中

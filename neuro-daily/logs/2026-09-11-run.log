@@ -1,0 +1,110 @@
+# 2026-09-11 运行日志
+
+**时间戳**：2026-09-11T09:00:00+08:00（知识库连续日期）
+**系统时钟日期**：2026-06-24 UTC+8
+**日志版本**：Run #141
+
+---
+
+## 运行概要
+
+| 字段 | 值 |
+|------|---|
+| 文章编号 | #141 |
+| 知识库日期 | 2026-09-11 |
+| 系统时钟日期 | 2026-06-24 |
+| 主题 | ALS（肌萎缩侧索硬化症）：TDP-43 统一病理 × C9orf72 三叉毒矛 × 运动神经元选择性脆弱性 |
+| 核心问题 | 为什么脊髓运动神经元对 TDP-43 病理和 C9orf72 相关毒性格外脆弱？ |
+
+---
+
+## 步骤执行记录
+
+### Step 0: 主分支同步
+- git pull --rebase origin main 执行（已同步）
+
+### Step A: 读取状态
+- ROUTINE.md：已读取 ✅
+- KNOWLEDGE-BASE-DESIGN.md：已读取 ✅
+- topic_ledger.json：已读取（注意：文件有 JSON 语法错误在 line 21，使用 text 模式读取末尾条目）✅
+- wiki/CHANGELOG.md：已读取 ✅
+- wiki/index.md：已读取 ✅
+- state/unresolved_questions.md：已读取（尾部）✅
+- 上次 run.log (2026-09-10)：已读取 ✅
+
+### Step B: 主题选择
+- 上一篇 (#140) 为第20周综合
+- 本次选择：ALS——来源 topic_ledger #140 的 next_suggested_topics
+- 主题标签：TDP-43, C9orf72, 隐蔽外显子, RAN翻译, DPR, 运动神经元
+
+### Step C: 文章研究与写作
+- 搜索策略：PubMed（als tdp-43 cryptic exon, c9orf72 ran translation dpr, motor neuron vulnerability, tofersen）
+- 开放获取全文：5篇（PMC6417666, PMC8891019, PMC8891020, PMC9327139, PMC7540334）
+- 摘要抓取：5篇（PMID:30120348, PMID:36890862, PMID:38891774, PMID:26601737, PMID:37003099）
+- 阅读笔记：neuro-daily/notes/2026-09-11-reading-notes.md ✅
+- 来源记录：neuro-daily/sources/2026-09-11-sources.json ✅
+- 文章写作：neuro-daily/articles/2026-09-11-als-tdp43-motor-neuron-selective-vulnerability.md ✅（约4500字）
+
+### Step D: 知识库固结
+- 新建 wiki 页（5个）：
+  - diseases/als-amyotrophic-lateral-sclerosis.md ✅
+  - concepts/tdp-43-pathology.md ✅
+  - concepts/cryptic-exon.md ✅
+  - concepts/ran-translation.md ✅
+  - concepts/dipeptide-repeat-proteins.md ✅
+- 修订 wiki 页（1个）：
+  - concepts/excitotoxicity.md（rev2→rev3）✅：新增 ALS 作为兴奋毒性疾病窗口（C9orf72 LOF→谷氨酸受体上调+低钙缓冲+高Ca²⁺通透AMPA）
+
+### Step E: 图谱与导航更新
+- wiki/_graph.json：更新 277→282节点，1617→1637边（+5节点，+20边）✅
+- wiki/index.md：更新首行（日期、页数→280）；新增 ALS 疾病条目；新增4个概念条目（tdp-43-pathology, cryptic-exon, ran-translation, dipeptide-repeat-proteins）✅
+- wiki/CHANGELOG.md：已在本次运行早期更新 ✅
+
+### Step F: 治理层更新
+- state/topic_ledger.json：新增条目 #141 ✅
+- state/unresolved_questions.md：新增 Q-als-01/02/03/04 ✅
+- state/maturity_index.json：新增5个条目（als, tdp-43-pathology, cryptic-exon, ran-translation, dipeptide-repeat-proteins）；更新 excitotoxicity rev3 ✅
+- state/monthly_synthesis.md：更新标题（截至日期 2026-09-11, 共11篇）；新增三个表格行（#139/#140/#141）；新增 2026-09-11 日条目 ✅
+- state/source_registry.json：新增 sources_2026-09-11 列表 ✅
+
+### Step G: 提交 + 推送
+- git add neuro-daily/ ✅
+- git commit ✅
+- git push origin main ✅（待执行）
+
+### Step H: 自检
+- 未发表医疗建议 ✅
+- 未使用 Sci-Hub 或盗版来源 ✅
+- 所有引用均有 PMID/PMCID 支持 ✅
+- 未发现内容捏造 ✅
+- 新增 dangling refs（待建页面）：c9orf72-repeat-expansion, nucleocytoplasmic-transport, motor-neuron, liquid-liquid-phase-separation
+
+---
+
+## 图谱状态
+
+| 指标 | 值 |
+|------|---|
+| 节点总数 | 282 |
+| 边总数 | 1637 |
+| 新增节点 | 5（als, tdp-43-pathology, cryptic-exon, ran-translation, dipeptide-repeat-proteins）|
+| 新增边 | 20 |
+
+---
+
+## 悬空引用（新增/待建页面）
+
+- `c9orf72-repeat-expansion`：被 als-amyotrophic-lateral-sclerosis, ran-translation, dipeptide-repeat-proteins 引用
+- `nucleocytoplasmic-transport`：被 dipeptide-repeat-proteins 引用
+- `motor-neuron`：被 als-amyotrophic-lateral-sclerosis 引用
+- `liquid-liquid-phase-separation`：被 tdp-43-pathology, dipeptide-repeat-proteins 引用
+
+---
+
+## 下次建议主题
+
+1. 活性氧（ROS）与神经元抗氧化系统——填补 reactive-oxygen-species 悬空引用
+2. 核质转运（nucleocytoplasmic-transport）——填补悬空引用 + C9orf72/DPR机制深化
+3. 液-液相分离（liquid-liquid-phase-separation）——填补悬空引用 + TDP-43/FUS 生物物理
+4. FlyWire 果蝇全脑连接组（Dorkenwald 2024）——Connectomics 脊柱9
+5. 空间转录组学——方法层深化

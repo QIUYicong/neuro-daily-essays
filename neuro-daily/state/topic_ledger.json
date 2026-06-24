@@ -8582,4 +8582,28 @@
     "article_type": "week20_synthesis",
     "graph_update": "277 nodes / 1617 edges (unchanged - synthesis article)"
   }
+  ,
+  {
+    "date": "2026-09-11",
+    "article_number": 141,
+    "title": "ALS：运动神经元的选择性死亡——TDP-43 统一病理、C9orf72 三叉毒矛与四重脆弱性机制",
+    "core_question": "为什么脊髓运动神经元对 TDP-43 病理和 C9orf72 相关毒性格外脆弱？在 TDP-43 核清除（>97% 统一标志）、C9orf72 三叉机制（LOF/RNA foci/DPR）和运动神经元固有脆弱性（超长轴突/低钙缓冲/高Ca²⁺通透AMPA/持续皮质驱动）之间，因果链如何连接到最终运动神经元死亡？",
+    "layer": "molecular/cellular/synaptic/disease",
+    "topic_tags": ["ALS", "肌萎缩侧索硬化症", "TDP-43", "核清除", "液-液相分离", "隐蔽外显子", "UNC13A", "STMN2", "C9orf72", "RAN翻译", "DPR蛋白", "poly-GR", "poly-PR", "兴奋毒性", "运动神经元脆弱性", "tofersen", "SOD1"],
+    "main_sources": ["PMC6417666 OPEN", "PMC8891019 OPEN", "PMC8891020 OPEN", "PMC9327139 OPEN", "PMC7540334 OPEN", "PMID:30120348 abstract-only", "PMID:36890862 abstract-only", "PMID:38891774 abstract-only", "PMID:26601737 abstract-only", "PMID:37003099 abstract-only"],
+    "wiki_created": ["diseases/als-amyotrophic-lateral-sclerosis", "concepts/tdp-43-pathology", "concepts/cryptic-exon", "concepts/ran-translation", "concepts/dipeptide-repeat-proteins"],
+    "wiki_revised": ["concepts/excitotoxicity (rev2->rev3)"],
+    "graph_update": "277 nodes+5=282 nodes; 1617 edges+20=1637 edges",
+    "unresolved_questions": ["Q-als-01 (高): TDP-43 聚集是否先于核清除还是后果？", "Q-als-02 (高): DPR 对脊髓运动神经元是直接还是间接毒性？", "Q-als-03 (中): DPR 与 TDP-43 聚集的因果时序？", "Q-als-04 (中): tofersen 疗效差异的机制：NfL 降低但 ALSFRS-R 不改善？"],
+    "next_suggested_topics": [
+      "活性氧（ROS）与氧化应激——神经元抗氧化系统",
+      "核质转运（nucleocytoplasmic transport）——C9orf72/DPR的毒性机制深化",
+      "FlyWire 果蝇全脑连接组——Connectomics脊柱9",
+      "MICrONS小鼠皮层柱连接组",
+      "空间转录组学"
+    ],
+    "knowledge_base_date": "2026-09-11",
+    "system_clock_date": "2026-06-24",
+    "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-11（第141篇ALS文章）"
+  }
 ]

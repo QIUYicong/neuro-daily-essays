@@ -6,13 +6,13 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-09-08
-updated: 2026-09-09
-revision_count: 2
+updated: 2026-09-11
+revision_count: 3
 dimensions: [molecular, synaptic, cellular, disease]
-related: [nmda-receptor, glutamate-glutamine-cycle, ltp, calcium-channel, bdnf, huntingtons-disease, alzheimers-disease, parkinsons-disease, mitochondrial-dysfunction, astrocyte-calcium-signaling, tripartite-synapse, medium-spiny-neuron, pink1-parkin-mitophagy]
+related: [nmda-receptor, glutamate-glutamine-cycle, ltp, calcium-channel, bdnf, huntingtons-disease, alzheimers-disease, parkinsons-disease, mitochondrial-dysfunction, astrocyte-calcium-signaling, tripartite-synapse, medium-spiny-neuron, pink1-parkin-mitophagy, als-amyotrophic-lateral-sclerosis]
 prerequisites: [nmda-receptor, synaptic-transmission, glutamate-glutamine-cycle]
 opens_questions: [Q-exc-01, Q-exc-02, Q-exc-03]
-source_articles: [2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death, 2026-09-09-mitochondrial-dysfunction-neurodegeneration]
+source_articles: [2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death, 2026-09-09-mitochondrial-dysfunction-neurodegeneration, 2026-09-11-als-tdp43-motor-neuron-selective-vulnerability]
 key_sources: ["PMID:20842175", "PMC2948541", "PMID:2880938", "PMID:35078537", "PMC8788129", "PMID:38891774", "PMID:37236602", "PMID:18923045", "PMID:38744846", "PMC11094169"]
 ---
 
@@ -109,6 +109,7 @@ GLT-1/EAAT2（星形胶质细胞）利用Na⁺梯度驱动谷氨酸摄入，将�
 - [[astrocyte-calcium-signaling]] — 星形胶质细胞GLT-1防线失守 = 兴奋毒性开始
 - [[medium-spiny-neuron]] — HD中选择性脆弱的神经元（外突触NMDAR丰富）
 - [[tripartite-synapse]] — 兴奋毒性发生的空间场景
+- [[als-amyotrophic-lateral-sclerosis]] — C9orf72 LOF 导致运动神经元谷氨酸受体上调 + 低钙缓冲 + 高钙通透 AMPA 受体的三重叠加，使运动神经元处于慢性兴奋毒性临界状态；脊髓 α 运动神经元是兴奋毒性最脆弱的靶点之一
 
 ## 未解问题
 
@@ -120,8 +121,10 @@ GLT-1/EAAT2（星形胶质细胞）利用Na⁺梯度驱动谷氨酸摄入，将�
 
 - 2026-09-08 · 创建 · 基于《兴奋毒性：谷氨酸的双刃剑》(#138) · 初始置信度：高 · status: mainstream（多次独立验证的核心机制，但慢性病中EMT角色仍有争议）
 - 2026-09-09 · 修订（rev2）· 基于《线粒体功能障碍：神经元高能耗的代价》(#139) · 补充：(1) 明确Ca²⁺→MCU→线粒体Ca²⁺超载→mPTP开放→Cyt c释放→caspase激活的完整机制链条（mPTP是兴奋毒性与线粒体功能障碍的汇聚节点）；(2) related新增pink1-parkin-mitophagy；(3) key_sources新增2个来源
+- 2026-09-11 · 修订（rev3）· 基于《ALS TDP-43》(#141) · 新增 ALS 作为兴奋毒性疾病窗口：C9orf72 LOF→谷氨酸受体上调 + 脊髓 α-MN 的低钙缓冲 + 高钙通透 AMPA 受体 = 运动神经元的三重兴奋毒性叠加；related 新增 als-amyotrophic-lateral-sclerosis
 
 ## 来源文章
 
 - [[2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death]]
 - [[2026-09-09-mitochondrial-dysfunction-neurodegeneration]]
+- [[2026-09-11-als-tdp43-motor-neuron-selective-vulnerability]]

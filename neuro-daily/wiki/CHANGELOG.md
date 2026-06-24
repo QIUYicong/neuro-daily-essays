@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-09-11 · 文章 #141 · ALS：TDP-43 核清除与运动神经元的选择性命运
+
+**核心主题**：肌萎缩侧索硬化症（ALS）的分子机制——TDP-43 病理的双重破坏（核 LOF 导致 UNC13A/STMN2 隐蔽外显子暴露；胞质聚集 GOF 隔离 RBP 并朊病毒样传播）；C9orf72 重复扩增的三叉毒矛（功能丧失 + RNA 病灶 + DPR 蛋白，poly-GR/PR 毒性最强）；SOD1 的平行路径（无 TDP-43 病理但同样选择性杀死运动神经元）；运动神经元选择性脆弱性的四重逻辑（超长轴突 + 低钙缓冲 + 高钙通透 AMPA 受体 + 持续皮质驱动）。图谱从 277 节点/1617 边增至 **282 节点/1637 边**（+5 节点 + 20 条新边）。
+
+### 新建 Wiki 页面（5 个）
+
+- `diseases/als-amyotrophic-lateral-sclerosis.md` 🟢 established · 高置信度 — ALS 总页：遗传版图（C9orf72 40%/SOD1 15-20%/TARDBP 5%/FUS 4%）、TDP-43 病理统一性（>97%）、C9orf72 三机制（LOF/RNA GOF/DPR）、SOD1 平行路径、运动神经元选择性脆弱性四重机制（轴突长度/低钙缓冲/Ca²⁺ 通透 AMPA/持续皮质驱动）、tofersen 临床数据；Q-als-01/02/03/04 未解问题
+- `concepts/tdp-43-pathology.md` 🟢 established · 高置信度 — TDP-43 从液液相分离到固态聚集的相转变机制；核 LOF（隐蔽外显子暴露 UNC13A/STMN2）；胞质 GOF（RBP 隔离/UPS 负荷/朊病毒样传播）；poly-GR/PR 诱导 TDP-43 固态化；Q-als-01
+- `concepts/cryptic-exon.md` 🔵 emerging · 高置信度 — TDP-43 抑制的隐蔽外显子机制；UNC13A（突触释放调控）和 STMN2（轴突微管）作为关键靶点；ALS 风险 SNP（~25% 人群频率）覆盖 TDP-43 结合位点加速疾病
+- `concepts/ran-translation.md` 🔵 emerging · 中置信度 — C9orf72 重复扩增的非 ATG 翻译机制，产生 5 种 DPR；ISR（eIF2α 磷酸化）悖论性放大 RAN 翻译，应激→更多 DPR 恶性循环
+- `concepts/dipeptide-repeat-proteins.md` 🔵 emerging · 中置信度 — 5 种 DPR（poly-GA/GP/GR/PA/PR）；poly-GR/PR 毒性最强（精氨酸 + 与 LCD 蛋白 cation-π 结合）；尸检 poly-GR 与 TDP-43 特异共定位；空间解耦悖论（DPR 在小脑/海马，但 TDP-43 病理在脊髓）
+
+### 修订 Wiki 页面（1 个）
+
+- `concepts/excitotoxicity.md` rev2→rev3 — 新增 ALS 连接：C9orf72 LOF 导致运动神经元谷氨酸受体上调 + 低钙缓冲 + 高钙通透 AMPA 受体 = 三重兴奋毒性叠加；related 新增 als-amyotrophic-lateral-sclerosis；来源文章新增 2026-09-11-als
+
+### 矛盾登记/裁决（0 条）
+
+今日无新矛盾。ALS 的主要机制争议（LOF vs GOF 谁是主驱动；DPR 直接 vs 间接；SOD1 的断耦机制）已作为未解问题登记，但不构成与既有 wiki 页面的直接矛盾，故不登记 contested_claims。
+
+### 悬空引用变化
+
+- **新增悬空**：`c9orf72-repeat-expansion`（被 ran-translation 和 dipeptide-repeat-proteins 引用，待建独立页面）、`nucleocytoplasmic-transport`（被 dipeptide-repeat-proteins 引用）、`motor-neuron`（被 als 页面引用，已有 motor-cortex 但尚无专门的 α-MN 页面）
+- **继续悬空**：`reactive-oxygen-species`、`drp1`、`neuroinflammation`、`protein-aggregation`、`ubiquitin-proteasome`、`autophagy`
+
+---
+
 ## 2026-09-09 · 文章 #139 · 线粒体功能障碍：神经元高能耗的代价——从 ATP 危机到神经退行性疾病的共同病理轴
 
 **核心主题**：填补图谱唯一悬空引用 `mitochondrial-dysfunction`。神经元对线粒体 OXPHOS 的极端依赖（20% 全身能量、~4.7×10⁹ ATP/秒/皮层神经元），ETC Complex I-V 机制，ROS 的生理/病理双面性，线粒体 Ca²⁺ 缓冲与 mPTP，分裂（DRP1）/融合（MFN1/2/OPA1）动力学，PINK1/Parkin 线粒体自噬机制（ΔΨm 传感 → Parkin 招募 → pUb 链 → NDP52/OPTN → LC3 → 溶酶体），三大神经退行性疾病的 ETC 攻击靶点（PD: Complex I，AD: Complex IV，HD: Complex II/III）。图谱从 273 节点/1606 边增至 **277 节点/1617 边**（+4 节点 + 11 条新边）。

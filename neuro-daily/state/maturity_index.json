@@ -696,5 +696,47 @@
     "confidence": "high",
     "last_changed": "2026-09-09",
     "reason": "图谱节点新建（填补悬空引用）：仅图谱入口，尚无对应wiki页面（dangling ref）"
+  },
+  {
+    "slug": "als-amyotrophic-lateral-sclerosis",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-11",
+    "reason": "新建（文章 #141，2026-09-11）：ALS 作为双重运动神经元变性疾病的临床/遗传/病理框架已充分确立（教科书级）；TDP-43 核清除>97% 由多项独立病理研究确认；C9orf72 为最常见遗传原因有大规模 meta 分析支持；tofersen ASO 获 FDA 批准（2023）；具体分子机制（DPR 毒性空间解耦、EMT vs 急性兴奋毒性）为 emerging，但疾病存在本身及主要分子特征为 established/high"
+  },
+  {
+    "slug": "tdp-43-pathology",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-11",
+    "reason": "新建（文章 #141，2026-09-11）：TDP-43 核清除和细胞质聚集的病理表征有多项独立免疫组化研究确认（>97% ALS 和约 45% FTD）；LCD/PLD 驱动 LLPS 和相变的分子机制有多项体外和 iPSC 实验支持；UNC13A/STMN2 隐蔽外显子的发现来自 2022 年 Nature 双文（多个独立团队汇聚）；整体 established/high，唯隐蔽外显子与疾病进展的定量因果关系仍有待验证"
+  },
+  {
+    "slug": "cryptic-exon",
+    "status": "emerging",
+    "confidence": "high",
+    "last_changed": "2026-09-11",
+    "reason": "新建（文章 #141，2026-09-11）：UNC13A 隐蔽外显子由 Brown/Bhatt 2022 和 Ma 2022 两篇 Nature 论文同时独立发现（高置信度）；STMN2 premature polyadenylation 由 Melamed 2019 首次报道并被 UNC13A 研究印证；ALS 风险 SNP 与 TDP-43 结合位点的重叠提供 GWAS 功能解释；但隐蔽外显子在疾病全程的定量贡献和治疗靶向的有效性仍待临床验证，整体 emerging（机制新兴明确，治疗转化前景需观察）/high（核心发现高质量独立验证）"
+  },
+  {
+    "slug": "ran-translation",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-09-11",
+    "reason": "新建（文章 #141，2026-09-11）：C9orf72 GGGGCC 重复的 RAN 翻译机制在细胞系和患者尸检中得到充分验证；5 种 DPR 蛋白的产生是高置信度发现；ISR 悖论性上调 RAN 翻译的机制来自体外翻译系统和细胞系实验，体内量化仍有争议，定为 emerging/medium"
+  },
+  {
+    "slug": "dipeptide-repeat-proteins",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-09-11",
+    "reason": "新建（文章 #141，2026-09-11）：poly-GR/PR 毒性最强的证据来自多模型比较（medium-high 置信度）；尸检 poly-GR 与神经退化区域和 TDP-43 共定位为相关性证据（非直接因果）；NCT 干扰机制在 iPSC/细胞系有支持；DPR 分布的空间解耦（小脑/海马 vs 脊髓）是确立的尸检数据；体内主导毒性机制仍有争议，定为 emerging/medium"
+  },
+  {
+    "slug": "excitotoxicity",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-09-11",
+    "reason": "修订 rev3：新增 ALS 作为兴奋毒性疾病窗口（C9orf72 LOF→谷氨酸受体上调 + 低钙缓冲 + 高Ca²⁺通透AMPA），related 新增 als-amyotrophic-lateral-sclerosis，状态和置信度维持 mainstream/high"
   }
 ]

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-09",
-  "node_count": 272,
-  "edge_count": 1595,
+  "updated": "2026-09-11",
+  "node_count": 282,
+  "edge_count": 1637,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2535,6 +2535,51 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/drp1.md"
+    },
+    {
+      "id": "als-amyotrophic-lateral-sclerosis",
+      "title": "肌萎缩侧索硬化症（ALS）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/als-amyotrophic-lateral-sclerosis.md"
+    },
+    {
+      "id": "tdp-43-pathology",
+      "title": "TDP-43 病理",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tdp-43-pathology.md"
+    },
+    {
+      "id": "cryptic-exon",
+      "title": "隐蔽外显子",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "high",
+      "page": "wiki/concepts/cryptic-exon.md"
+    },
+    {
+      "id": "ran-translation",
+      "title": "RAN 翻译",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/ran-translation.md"
+    },
+    {
+      "id": "dipeptide-repeat-proteins",
+      "title": "二肽重复蛋白（DPR）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/dipeptide-repeat-proteins.md"
     }
   ],
   "edges": [
@@ -11598,6 +11643,126 @@
       "to": "parkinsons-disease",
       "type": "mechanism-of",
       "note": "PINK1/Parkin通路失效导致损伤线粒体积累和DA神经元死亡"
+    },
+    {
+      "source": "als-amyotrophic-lateral-sclerosis",
+      "target": "tdp-43-pathology",
+      "type": "mechanism-of",
+      "note": "TDP-43核清除是ALS统一病理标志（>97%）"
+    },
+    {
+      "source": "als-amyotrophic-lateral-sclerosis",
+      "target": "cryptic-exon",
+      "type": "mechanism-of",
+      "note": "TDP-43 LOF通过UNC13A/STMN2隐蔽外显子损害运动神经元功能"
+    },
+    {
+      "source": "als-amyotrophic-lateral-sclerosis",
+      "target": "ran-translation",
+      "type": "related",
+      "note": "C9orf72 GGGGCC重复扩增通过RAN翻译产生DPR毒性蛋白"
+    },
+    {
+      "source": "als-amyotrophic-lateral-sclerosis",
+      "target": "dipeptide-repeat-proteins",
+      "type": "related",
+      "note": "C9orf72 ALS中DPR（尤其poly-GR/PR）是核心毒性机制之一"
+    },
+    {
+      "source": "als-amyotrophic-lateral-sclerosis",
+      "target": "excitotoxicity",
+      "type": "related",
+      "note": "C9orf72 LOF→谷氨酸受体上调+低钙缓冲+高Ca²⁺AMPA→运动神经元慢性兴奋毒性"
+    },
+    {
+      "source": "als-amyotrophic-lateral-sclerosis",
+      "target": "mitochondrial-dysfunction",
+      "type": "related",
+      "note": "ALS运动神经元线粒体功能障碍和能量代谢崩溃"
+    },
+    {
+      "source": "als-amyotrophic-lateral-sclerosis",
+      "target": "huntingtons-disease",
+      "type": "related",
+      "note": "同属TDP-43/蛋白聚集相关神经退行性疾病谱"
+    },
+    {
+      "source": "als-amyotrophic-lateral-sclerosis",
+      "target": "parkinsons-disease",
+      "type": "related",
+      "note": "神经退行性疾病中线粒体/蛋白聚集共同病理"
+    },
+    {
+      "source": "tdp-43-pathology",
+      "target": "als-amyotrophic-lateral-sclerosis",
+      "type": "mechanism-of",
+      "note": "TDP-43双重毒性（LOF+GOF）驱动ALS神经退化"
+    },
+    {
+      "source": "tdp-43-pathology",
+      "target": "cryptic-exon",
+      "type": "mechanism-of",
+      "note": "TDP-43核LOF→隐蔽外显子去抑制→UNC13A/STMN2功能丧失"
+    },
+    {
+      "source": "tdp-43-pathology",
+      "target": "ran-translation",
+      "type": "related",
+      "note": "DPR蛋白（poly-GR）通过cation-π相互作用促进TDP-43固态聚集"
+    },
+    {
+      "source": "tdp-43-pathology",
+      "target": "dipeptide-repeat-proteins",
+      "type": "related",
+      "note": "poly-GR尸检与TDP-43病理共定位，提示DPR是TDP-43聚集的上游触发"
+    },
+    {
+      "source": "tdp-43-pathology",
+      "target": "liquid-liquid-phase-separation",
+      "type": "mechanism-of",
+      "note": "TDP-43 LCD/PLD驱动可逆液态相分离；疾病状态下固态聚集"
+    },
+    {
+      "source": "cryptic-exon",
+      "target": "tdp-43-pathology",
+      "type": "related",
+      "note": "隐蔽外显子是TDP-43 LOF的直接功能性下游靶点"
+    },
+    {
+      "source": "cryptic-exon",
+      "target": "als-amyotrophic-lateral-sclerosis",
+      "type": "mechanism-of",
+      "note": "UNC13A（囊泡释放）和STMN2（轴突再生）隐蔽外显子是ALS运动神经元功能丧失的关键"
+    },
+    {
+      "source": "ran-translation",
+      "target": "dipeptide-repeat-proteins",
+      "type": "mechanism-of",
+      "note": "C9orf72 GGGGCC重复经RAN翻译产生5种DPR蛋白"
+    },
+    {
+      "source": "ran-translation",
+      "target": "als-amyotrophic-lateral-sclerosis",
+      "type": "mechanism-of",
+      "note": "RAN翻译是C9orf72-ALS三叉毒矛之一（GOF机制）"
+    },
+    {
+      "source": "dipeptide-repeat-proteins",
+      "target": "ran-translation",
+      "type": "related",
+      "note": "DPR蛋白是RAN翻译的直接产物"
+    },
+    {
+      "source": "dipeptide-repeat-proteins",
+      "target": "als-amyotrophic-lateral-sclerosis",
+      "type": "mechanism-of",
+      "note": "poly-GR/PR破坏NCT、应激颗粒和TDP-43稳态导致运动神经元死亡"
+    },
+    {
+      "source": "excitotoxicity",
+      "target": "als-amyotrophic-lateral-sclerosis",
+      "type": "related",
+      "note": "ALS运动神经元因四重脆弱性（低缓冲/高AMPA通透/长轴突/皮质驱动）处于慢性兴奋毒性临界"
     }
   ],
   "dangling_references": [

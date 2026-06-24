@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-09（第139篇·线粒体功能障碍·神经退行性疾病共同病理轴·PINK1/Parkin线粒体自噬·ETC Complex I/IV/II疾病对应·mPTP·DRP1分裂失衡）· 主题页总数：**275**（新建2页：diseases/mitochondrial-dysfunction、concepts/pink1-parkin-mitophagy；修订3页：huntingtons-disease rev2、parkinsons-disease rev3、excitotoxicity rev2；图谱277节点/1617边+4节点+11边；填补图谱唯一悬空引用mitochondrial-dysfunction）
+> 最后更新：2026-09-11（第141篇·ALS·TDP-43核清除·C9orf72三叉毒矛·运动神经元选择性脆弱性·隐蔽外显子·RAN翻译·DPR蛋白）· 主题页总数：**280**（新建5页：diseases/als-amyotrophic-lateral-sclerosis、concepts/tdp-43-pathology、concepts/cryptic-exon、concepts/ran-translation、concepts/dipeptide-repeat-proteins；修订1页：excitotoxicity rev3；图谱282节点/1637边）
 
 ---
 
@@ -156,6 +156,10 @@
 - 🟢 [糖皮质激素与应激记忆](concepts/glucocorticoid-stress-memory.md) — MR（高亲和力/快速评估）/GR（低亲和力/慢速巩固）双时相模型；BLA是全脑GC记忆增强的必要枢纽；GC+NE协同门控（β-AR阻断消除GC效应）；慢性GC→CA3选择性萎缩；急性应激→记忆系统切换至背侧纹状体；**新增**：慢性 GC 对 DG 神经发生的第四条损伤机制（BDNF↓+SGK3自噬+Wnt↓）+AHN-HPA双向反馈+FKBP51遗传调制（2026-08-27 rev2） **[NEW 2026-07-09 · 修订 rev2 2026-08-27]**
 - 🟢 [Aβ寡聚体](concepts/amyloid-beta-oligomers.md) — AD的核心毒性物种；通过PrPC/NR2B/calcineurin/BDNF/tau五路并行瓦解海马LTP机器 **[NEW 2026-06-08]**
 - 🟢 [polyglutamine毒性机制](concepts/polyglutamine-toxicity.md) — polyQ束超阈（HD CAG≥40）→β-折叠链间聚集→N端截短片段入核→包涵体毒性vs保护性争议；同时wtHtt功能丧失（REST隔离/BDNF运输/轴突运输）；包涵体毒性vs可溶性寡聚体毒性的核心争议；9种polyQ疾病共享机制骨架（SCA/SBMA/DRPLA） **[NEW 2026-09-07]**
+- 🟢 [TDP-43 病理](concepts/tdp-43-pathology.md) — TDP-43 核清除（>97% ALS）是神经退行性病变统一病理标志；LCD/PLD 驱动从可逆液态小滴到不可逆固态聚集的相变；LOF 通过 UNC13A/STMN2 隐蔽外显子削弱突触囊泡释放和轴突再生；GOF 通过 RBP 测序、UPS 负担和朊蛋白样传播放大毒性 **[NEW 2026-09-11]**
+- 🟡 [隐蔽外显子（Cryptic Exon）](concepts/cryptic-exon.md) — 正常被 TDP-43 抑制的内含子隐蔽序列；TDP-43 核清除→UNC13A（突触囊泡释放）和 STMN2（轴突再生）提前多腺苷酸化；2022 年 Nature 双文证明 UNC13A 隐蔽外显子是 TDP-43 LOF 的直接下游靶点；ALS 风险 SNP（~25% 人群频率）恰好位于 TDP-43 结合位点 **[NEW 2026-09-11]**
+- 🟡 [RAN 翻译](concepts/ran-translation.md) — 非经典 ATG 非依赖性翻译起始；C9orf72 GGGGCC 重复在 6 个阅读框产生 5 种 DPR 蛋白；整合应激反应（ISR/eIF2α 磷酸化）悖论性上调 RAN 翻译效率——应激越重，毒性 DPR 越多 **[NEW 2026-09-11]**
+- 🟡 [二肽重复蛋白（DPR）](concepts/dipeptide-repeat-proteins.md) — C9orf72 RAN 翻译的 5 种产物（poly-GA/GP/GR/PA/PR）；poly-GR/PR 毒性最强（精氨酸阳离子-LCD π 系统相互作用）；破坏核质运输、应激颗粒动力学和 TDP-43 稳态；尸检中 poly-GR 与神经退化区域及 TDP-43 特异共定位；DPR 分布（小脑/海马）与 ALS 损伤（脊髓）的空间解耦悖论 **[NEW 2026-09-11]**
 - 🟢 [短时程突触可塑性（STP）](concepts/short-term-synaptic-plasticity.md) — 毫秒至分钟尺度内突触效率的使用依赖性动态变化；Syt7驱动易化（高p→低通）、RRP耗竭驱动抑制（低p→高通）；是工作记忆活动无声储存的分子基础 **[NEW 2026-06-10]**
 - 🟢 [方向选择性](concepts/orientation-selectivity.md) — V1将LGN非定向圆对称输入转化为精确方向响应的核心计算；前馈LGN排列+E/I平衡+树突NMDA棘波三层机制；有/无方向柱物种均可达同等锐利选择性 **[NEW 2026-06-11]**
 - 🟡 [突触聚类](concepts/synaptic-clustering.md) — 功能相似突触在同一树突分支聚集→NMDA棘波超线性整合→局部"与门"计算；Wilson 2016在雪貂V1提供首个体内直接证据；普遍性待验证 **[NEW 2026-06-11]**（填补 dendritic-computation 悬空引用）
@@ -307,6 +311,7 @@
 - 🟢 [儿童言语失用症（CAS）](diseases/childhood-apraxia-of-speech.md) — 言语运动程序化选择性障碍（非肌力或发音器官问题）；遗传异质性：30+致病基因（Morgan 2024）；FOXP2经典病因链：R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→MSN树突不全→程序化失败；多基因CAS汇聚于共同转录调控通路 **[NEW 2026-08-12]**
 - 🟢 [CNTNAP2 缺乏症 / CDFE 综合征](diseases/cntnap2-deficiency-cdfe.md) — 双等位CNTNAP2功能缺失→皮层发育不良-局灶性癫痫-语言退行-ASD-智力障碍五联征；Strauss 2006 Amish家系；动物模型（Peñagarikano 2011 Cell）复制核心表型；FOXP2→CNTNAP2轴将CAS与CDFE连接至共同遗传级联 **[NEW 2026-08-15]**
 - 🟢 [创伤后应激障碍（PTSD）](diseases/ptsd.md) — 三角失调模型：杏仁核（过度激活）/vmPFC（沉默/消退刹车失效）/海马（萎缩+苔藓细胞受损→模式分离失败）；恐惧泛化是核心症状；两条治疗靶点（消退增强 vs 再巩固干预）；5-HT 递质身份切换新发现 **[NEW 2026-08-26]**
+- 🟢 [肌萎缩侧索硬化症（ALS）](diseases/als-amyotrophic-lateral-sclerosis.md) — TDP-43 核清除是 ALS 统一病理标志（>97%）；C9orf72 三叉毒矛（LOF/RNA foci/DPR）；poly-GR/PR 毒性最强且与 TDP-43 特异共定位；UNC13A/STMN2 隐蔽外显子是 TDP-43 LOF 的关键下游；运动神经元四重脆弱性（超长轴突/低钙缓冲/高Ca²⁺通透AMPA/持续皮质驱动）；tofersen-SOD1-ALS 临床里程碑 **[NEW 2026-09-11]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
 
