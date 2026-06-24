@@ -8652,5 +8652,60 @@
     "knowledge_base_date": "2026-09-13",
     "system_clock_date": "2026-06-24",
     "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-13（第143篇MICrONS文章）"
-  }
+  },
+  {
+  "date": "2026-09-14",
+  "article_number": 144,
+  "title": "空间转录组学：当分子地图遇上大脑地理——5322种细胞类型与皮层六层的分子起源",
+  "core_question": "空间转录组学如何通过在组织中原位测量每个细胞的基因表达，克服单细胞测序丢失空间信息的根本缺陷，从而揭示小鼠全脑5322个细胞类型的精确空间分布，以及人类胚胎皮层六层结构在形态改变前三个月就已由分子程序锁定？",
+  "layer": "molecular/cellular/methods",
+  "topic_tags": [
+    "空间转录组学",
+    "spatial transcriptomics",
+    "MERFISH",
+    "Allen Brain Cell Atlas",
+    "BICCN",
+    "5322细胞类型",
+    "细胞类型图谱",
+    "皮层六层发育",
+    "原图说",
+    "protomap",
+    "V1区域化",
+    "人类皮层发育",
+    "庄小威",
+    "Xiaowei Zhuang",
+    "Yao 2023",
+    "Qian 2025"
+  ],
+  "main_sources": [
+    "PMID:38092916/PMC10719114 OPEN (Yao 2023)",
+    "PMID:36945367/PMC10028822 OPEN (Zhang 2023)",
+    "PMID:40369074/PMC12328223 OPEN (Qian 2025)",
+    "PMID:37779145 OPEN (Jung & Kim 2023 review)"
+  ],
+  "wiki_created": [
+    "methods/spatial-transcriptomics",
+    "methods/merfish"
+  ],
+  "wiki_revised": [
+    "methods/single-cell-rna-seq (rev1->rev2, 空间整合说明)",
+    "concepts/cortical-layers (rev1->rev2, Qian 2025发育学证据)"
+  ],
+  "graph_update": "286 nodes+2=288 nodes; 1660 edges+7=1667 edges",
+  "unresolved_questions": [
+    "Q-spatial-tx-01 (高): 转录组身份是否完全预测功能特性",
+    "Q-spatial-tx-02 (高): 5322聚类的真实性——离散vs连续谱系",
+    "Q-spatial-tx-03 (中): 动态空间转录组的技术挑战"
+  ],
+  "next_suggested_topics": [
+    "活性氧（ROS）与氧化应激——神经元抗氧化系统（分子/细胞，填补最近疾病系列的分子背景）",
+    "空间转录组学+连接组学整合——如何把分子身份坐标与突触连接合并",
+    "细胞类型多样性的功能意义——从5322种细胞类型到大脑计算功能",
+    "核质转运（nucleocytoplasmic transport）——ALS/TDP-43毒性深化",
+    "MICrONS数字孪生AI基础模型——第12条路线延续"
+  ],
+  "knowledge_base_date": "2026-09-14",
+  "system_clock_date": "2026-06-24",
+  "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-14（第144篇空间转录组学文章）"
+}
 ]

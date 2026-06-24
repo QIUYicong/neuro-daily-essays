@@ -6,8 +6,8 @@ type: method
 status: established
 confidence: high
 created: 2026-07-25
-updated: 2026-07-25
-revision_count: 1
+updated: 2026-09-14
+revision_count: 2
 dimensions: [molecular, cellular, methods]
 related: [transcriptomic-cell-types, optogenetics, spatial-transcriptomics, patch-seq]
 prerequisites: [action-potential, synaptic-transmission]
@@ -70,7 +70,9 @@ key_sources: ["PMID:30382198", "PMID:30586455", "PMID:38092916", "PMID:38123823"
 ## 修订历史
 
 - 2026-07-25 · 创建 · 基于《神经元类型的分子宇宙》文章 #93 · 初始置信度：高
+- 2026-09-14 · 补充空间转录组学整合关系 · 基于文章#144《空间转录组学：当分子地图遇上大脑地理》· scRNA-seq与MERFISH整合是全脑细胞类型图谱的标准流程；空间转录组学现已作为scRNA-seq的关键配套技术获得wiki页面（[[spatial-transcriptomics]]）
 
 ## 来源文章
 
 - [[2026-07-25-scrna-seq-neural-cell-type-diversity]]
+- [[2026-09-14-spatial-transcriptomics-brain-cell-atlas]]

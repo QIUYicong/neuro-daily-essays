@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "node_count": 285,
   "edge_count": 1650,
   "edge_types": [
@@ -2616,6 +2616,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/inhibitory-compartmental-targeting.md"
+    },
+    {
+      "id": "spatial-transcriptomics",
+      "title": "空间转录组学",
+      "domain": "methods",
+      "type": "method",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/methods/spatial-transcriptomics.md"
+    },
+    {
+      "id": "merfish",
+      "title": "MERFISH",
+      "domain": "methods",
+      "type": "method",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/methods/merfish.md"
     }
   ],
   "edges": [
@@ -11937,6 +11955,48 @@
       "to": "like-to-like-connectivity",
       "type": "supports",
       "note": "同类相连为规范微回路层间连接提供功能布线证据"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "single-cell-rna-seq",
+      "type": "related",
+      "note": "空间转录组学以scRNA-seq为参考；两者互补，共同构建细胞类型图谱"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "connectomics",
+      "type": "related",
+      "note": "空间转录组学提供分子身份坐标，连接组学提供突触连接；整合是下一步"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "cortical-layers",
+      "type": "supports",
+      "note": "Qian 2025 MERFISH证明六层分子预编程早于形态三个月"
+    },
+    {
+      "from": "merfish",
+      "to": "spatial-transcriptomics",
+      "type": "is-a",
+      "note": "MERFISH是空间转录组学的代表性成像技术"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "critical-period",
+      "type": "related",
+      "note": "V1专属亚型早于功能输入存在，与关键期内在vs外在程序争论相关"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "cortical-canonical-microcircuit",
+      "type": "supports",
+      "note": "细胞类型精确空间坐标为规范微回路提供了分子基础"
+    },
+    {
+      "from": "single-cell-rna-seq",
+      "to": "spatial-transcriptomics",
+      "type": "prerequisite-for",
+      "note": "scRNA-seq参考数据库是MERFISH细胞类型分配的必要基础"
     }
   ],
   "dangling_references": [

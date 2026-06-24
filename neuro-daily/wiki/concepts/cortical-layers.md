@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-18
-updated: 2026-07-18
-revision_count: 1
+updated: 2026-09-14
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region]
 related: [cortical-canonical-microcircuit, thalamocortical-circuit, pv-interneurons, sst-interneurons, vip-interneurons, predictive-coding, action-potential, synaptic-transmission]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: [Q-ccm-04]
 source_articles: [2026-07-18-cortical-canonical-microcircuit]
-key_sources: ["PMID:15217339", "PMID:25622573"]
+key_sources: ["PMID:15217339", "PMID:25622573", "PMID:40369074"]
 ---
 
 # 皮层分层结构（新皮层六层）(Cortical Layers)
@@ -91,6 +91,8 @@ L6        ─    ─     ─    ←L5   ─     （CT 反馈到丘脑）
 | 丘脑特异性输入终止于 L4；反馈绕过 L4 | 29区域定量逆行追踪 | PMID:23983048 | 高 |
 | L2/3 在感觉运动失配时高度激活（误差信号） | 清醒小鼠 V1 双光子钙成像 + VR | PMID:22681686 | 高 |
 | L5 顶端树突钙爆发（AND 门）需要两极同步 | 体外切片树突全细胞记录 + 2P | PMID:23273272 | 中（体外高，体内争议）|
+| 人类皮层六层分子模式在GW22确立，比形态出现（GW34）早约三个月 | MERFISH，1800万细胞，8皮层区域，7发育时间点 | PMID:40369074（Qian 2025）| 高 |
+| V1专属神经元亚型在GW20就存在，早于视觉输入 | MERFISH，V1 vs V2互斥神经元亚型分布 | PMID:40369074（Qian 2025）| 高 |
 
 ## 连接
 
@@ -110,7 +112,9 @@ L6        ─    ─     ─    ←L5   ─     （CT 反馈到丘脑）
 ## 修订历史
 
 - 2026-07-18 · 创建 · 基于《大脑皮层的规范微回路》文章 #86 · 初始置信度：高（六层解剖学是教科书级共识）
+- 2026-09-14 · 新增发育学证据（Qian et al. 2025）：六层分子预编程在形态出现前三个月就已完成，V1专属亚型早于视觉输入存在，为"原图说"提供强证据 · 来源：文章#144《空间转录组学：当分子地图遇上大脑地理》
 
 ## 来源文章
 
 - [[2026-07-18-cortical-canonical-microcircuit]]
+- [[2026-09-14-spatial-transcriptomics-brain-cell-atlas]]

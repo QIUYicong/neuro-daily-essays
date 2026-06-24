@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-09-14 · 文章 #144 · 空间转录组学：当分子地图遇上大脑地理——5322种细胞类型与皮层六层的分子起源
+
+**核心主题**：空间转录组学（以MERFISH为代表）如何在保留组织三维结构的同时测量每个细胞的基因表达，从而揭示小鼠全脑5322个细胞聚类（Yao et al. 2023 BICCN，PMID:38092916）和人类皮层六层分子模式在形态出现前三个月就已写定（Qian et al. 2025 Nature，PMID:40369074）。图谱从286节点/1660边增至**288节点/1667边**（+2节点spatial-transcriptomics/merfish，+7条新边）。
+
+### 新建 Wiki 页面（2 个）
+
+- `methods/spatial-transcriptomics.md` 🔵 mainstream · 高置信度 — 空间转录组技术集合；核心问题（scRNA-seq丢失空间坐标）；主要技术分类（成像：MERFISH/seqFISH；测序：Visium/Slide-seq）；关键成就：5322聚类图谱+人类六层预编程；Q-spatial-tx-01（转录组身份vs功能特性）、Q-spatial-tx-02（聚类真实性）、Q-spatial-tx-03（动态空间转录组）
+- `methods/merfish.md` 🔵 mainstream · 高置信度 — MERFISH技术原理（二进制条码+误差稳健编码+多轮荧光成像）；庄小威实验室开发；全脑应用成就；与scRNA-seq整合流程
+
+### 修订 Wiki 页面（2 个）
+
+- `methods/single-cell-rna-seq.md` rev1→rev2 — 补充空间转录组学整合关系：scRNA-seq+MERFISH整合是全脑细胞类型图谱标准流程；新增来源文章#144；修订历史追加
+- `concepts/cortical-layers.md` rev1→rev2 — 补充Qian et al. 2025发育学新证据：六层分子预编程在GW22完成（早于GW34形态），V1专属亚型GW20存在（早于视觉输入）；key_sources补充PMID:40369074；来源文章新增#144
+
+### 矛盾登记
+
+无新矛盾。但注意一条张力：Qian 2025支持"原图说"（内在程序主导皮层区域化），与"外界活动主导"的协调机制尚在辩论中——将监控后续文献，必要时升级为矛盾登记。
+
+### 新增悬空引用
+
+- `cell-type-diversity`（spatial-transcriptomics.md中引用，尚无独立wiki页；可在future文章中补充）
+
+---
+
 ## 2026-09-13 · 文章 #143 · MICrONS：当五亿突触的接线图遇见活体神经元的功能地图
 
 **核心主题**：MICrONS 2025 小鼠视觉皮层功能-结构连接组——75,000 神经元钙成像 + ssEM 5.23亿突触 + 三阶段配准；三大发现：(1) 同类相连（like-to-like connectivity）跨层/跨区/含反馈，AI验证（RNN自发涌现）；(2) 抑制性神经元隔室靶向特异性普查（163细胞，427,294突触输出，四类TC，去抑制专家InhTC-dist/InhTC-peri）；(3) L5 ET神经元近端80%抑制性/远端20%抑制性轴突输出梯度；功能数字孪生（双向预测）。图谱从 285 节点/1649 边增至 **286 节点/1660 边**（+1 节点 + 11 条新边）。

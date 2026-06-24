@@ -13191,5 +13191,71 @@
     "PMID:40205209",
     "PMC11981935",
     "PMC12321573"
-  ]
+  ],
+  "PMID:38092916": {
+    "title": "A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain",
+    "journal": "Nature",
+    "year": 2023,
+    "pmcid": "PMC10719114",
+    "doi": "10.1038/s41586-023-06812-z",
+    "open_access": true,
+    "used_in_articles": [
+      "2026-09-14-spatial-transcriptomics-brain-cell-atlas"
+    ],
+    "covers": [
+      "全脑细胞类型图谱",
+      "MERFISH空间转录组学",
+      "5322细胞聚类",
+      "背腹分界"
+    ]
+  },
+  "PMID:36945367": {
+    "title": "A molecularly defined and spatially resolved cell atlas of the whole mouse brain",
+    "journal": "Nature",
+    "year": 2023,
+    "pmcid": "PMC10028822",
+    "doi": "10.1038/s41586-023-06808-9",
+    "open_access": true,
+    "used_in_articles": [
+      "2026-09-14-spatial-transcriptomics-brain-cell-atlas"
+    ],
+    "covers": [
+      "全脑MERFISH图谱",
+      "800万细胞",
+      "配体-受体空间互作"
+    ]
+  },
+  "PMID:40369074": {
+    "title": "Spatial transcriptomics reveals human cortical layer and area specification",
+    "journal": "Nature",
+    "year": 2025,
+    "pmcid": "PMC12328223",
+    "doi": "10.1038/s41586-025-09010-1",
+    "open_access": true,
+    "used_in_articles": [
+      "2026-09-14-spatial-transcriptomics-brain-cell-atlas"
+    ],
+    "covers": [
+      "人类皮层发育",
+      "六层分子预编程",
+      "原图说protomap",
+      "V1区域化"
+    ]
+  },
+  "PMID:37779145": {
+    "title": "Spatial transcriptomics in neuroscience",
+    "journal": "Experimental & Molecular Medicine",
+    "year": 2023,
+    "pmcid": "PMC10618223",
+    "doi": "10.1038/s12276-023-01093-y",
+    "open_access": true,
+    "used_in_articles": [
+      "2026-09-14-spatial-transcriptomics-brain-cell-atlas"
+    ],
+    "covers": [
+      "空间转录组学技术综述",
+      "MERFISH/seqFISH/STARmap/Visium比较",
+      "神经科学应用"
+    ]
+  }
 }

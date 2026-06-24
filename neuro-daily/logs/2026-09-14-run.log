@@ -1,0 +1,98 @@
+# 运行日志 · 2026-09-14（系统时钟 2026-06-24 UTC+8）
+
+**文章编号**：#144
+**主题**：空间转录组学与大脑细胞类型分子地图
+**知识库连续日期**：2026-09-14
+
+---
+
+## 搜索词与数据源
+
+**搜索词**：
+1. "Allen Brain Cell Atlas MERFISH whole mouse brain spatial transcriptomics 2023 Nature Yao PMC"
+2. "spatial transcriptomics brain cell type atlas MERFISH SLIDE-seq 10x Visium neuroscience 2024 2025 open access"
+3. "Zhang Zhuang 2023 spatially resolved single cell atlas whole mouse brain PMID open access PMC"
+4. "BRAIN Initiative Cell Census Network BICCN 2023 mouse brain atlas cell type diversity Nature collection PMID"
+5. "spatial transcriptomics cortical layers human brain 2025 Nature PMID open access cell type laminar organization"
+6. "MERFISH STARmap spatial transcriptomics brain technical principles review 2023 2024"
+7. "spatial transcriptomics neuroscience circuit function cell type connectivity implications review 2024 PMC open access"
+
+**数据源**：
+- WebSearch（HTTPS via proxy）
+- PMC全文：PMC10719114, PMC10028822, PMC12328223, PMC10618223
+- PubMed摘要：PMID:38092916
+- 官方机构：BICCN (NIH BRAIN Initiative)、Allen Brain Cell Atlas
+
+---
+
+## 候选来源与采用/排除
+
+| 来源 | 类型 | 状态 | 原因 |
+|------|------|------|------|
+| PMC10719114 (PMID:38092916, Yao 2023) | BICCN核心 | **采用·全文** | Nature开放全文，核心来源，5322聚类 |
+| PMC10028822 (PMID:36945367, Zhang 2023) | BICCN配合 | **采用·全文** | Nature开放全文，800万细胞MERFISH |
+| PMC12328223 (PMID:40369074, Qian 2025) | 人类皮层发育 | **采用·全文** | Nature开放全文，六层分子预编程 |
+| PMC10618223 (PMID:37779145, Jung 2023) | 技术综述 | **采用·全文** | Exp Mol Med开放全文，方法综述 |
+| NIH BICCN官方 (brain-map.org) | 机构来源 | **采用·背景** | 项目背景和数据政策 |
+| Allen Brain Cell Atlas (portal) | 官方数据库 | **采用·参考** | 公开可视化平台 |
+| 10x Genomics Visium网站 | 商业资料 | **不采用** | 商业宣传材料，非学术来源 |
+| ScienceDirect (SCeLL 2025 paper) | 付费论文 | **不采用** | 付费全文，无PMC版本 |
+
+---
+
+## 选题过程
+
+- 当前知识库最新文章：#143（2026-09-13，MICrONS功能-结构连接组）
+- 上周主题层级：molecular/disease（#137-#141），molecular/synaptic（#142），methods/whole-brain-network（#143）
+- 最高优先级选题：
+  1. 填补悬空引用（`excitation-inhibition-balance` 已有 ei-balance 节点，不需要；`cell-type-diversity` 尚无页面）
+  2. 下一步建议来自#143日志：空间转录组学（方法层，与MICrONS自然衔接）
+- 选题决定：**空间转录组学**
+  - 理由：(a) 与MICrONS连接组学形成互补（连接组 + 分子坐标 = 完整回路理解）；(b) 方法层，避免连续disease层级；(c) 有多篇重要近年开放全文论文（Yao 2023, Qian 2025）；(d) 上次methods层文章正好是#143（MICrONS），空间转录组自然延续methods主题并加入发育视角
+
+---
+
+## 固结 Wiki 页
+
+**新建（2个）**：
+- `methods/spatial-transcriptomics.md`（mainstream/high，rev1）
+- `methods/merfish.md`（mainstream/high，rev1）
+
+**修订（2个）**：
+- `methods/single-cell-rna-seq.md` rev1→rev2：补充空间转录组整合关系，新增来源文章#144
+- `concepts/cortical-layers.md` rev1→rev2：补充Qian et al. 2025六层分子预编程证据（GW22确立，GW34形态），key_sources补充PMID:40369074
+
+---
+
+## 矛盾登记
+
+**无正式矛盾登记**。注意到以下张力但未达到矛盾级别：
+- Qian 2025支持"原图说"（内在程序主导V1区域化），但视觉剥夺实验显示外界输入对V1也有影响。当前共识是"内在程序确立框架，外界输入精细调整"——两种证据相互补充而非矛盾。将持续监控后续文献。
+
+---
+
+## 新增悬空引用
+
+- `cell-type-diversity`（spatial-transcriptomics.md related字段中引用，尚无wiki节点；建议未来文章补充）
+
+---
+
+## 失败与限制
+
+- ScienceDirect上的"Single-cell spatial transcriptomic atlas of the whole mouse brain"(2025)无法获取全文（付费）
+- NIH BRAIN Initiative部分新闻稿页面403 Forbidden（使用官方brain-map.org替代）
+- MERFISH 2.0 preprint（2026-03 bioRxiv）读取了摘要但未读全文（预印本，未经同行评议）
+
+---
+
+## 图谱更新
+
+- 节点：286→**288**（+2：spatial-transcriptomics, merfish）
+- 边：1660→**1667**（+7条新边：spatial-transcriptomics↔single-cell-rna-seq, spatial-transcriptomics↔connectomics, spatial-transcriptomics↔cortical-layers, spatial-transcriptomics↔critical-period, spatial-transcriptomics↔cortical-canonical-microcircuit, merfish→spatial-transcriptomics, single-cell-rna-seq→spatial-transcriptomics）
+
+---
+
+## Git 状态
+
+**分支**：claude/funny-einstein-e264gp（知识库语义分支；将推送到main）
+**推送状态**：待推送
