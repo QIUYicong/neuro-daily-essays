@@ -3140,3 +3140,23 @@
 **新增未解问题（0）**：综合文章确认了5个最重要的跨尺度开放问题（Q1-Q5），但不新增编号问题
 
 **知识库里程碑**：第20周综合 = 知识库从分子到意识完成一轮系统性覆盖的第一次元级审视
+
+## 2026-09-13 (#143 空间转录组学)
+
+### 新建页面（2个）
+- **`wiki/methods/spatial-transcriptomics.md`**（`spatial-transcriptomics`）：空间转录组学方法——MERFISH 技术原理、BICCN 全鼠脑图谱核心发现（5,322集群/338亚类/34类、背腹侧二元性、星形胶质细胞多样性）；status=mainstream
+- **`wiki/concepts/brain-cell-type-hierarchy.md`**（`brain-cell-type-hierarchy`）：大脑细胞类型分层——BICCN 四级分层框架，细胞组成全貌（46%神经元/54%非神经元，谷氨酸能63%/GABA能36%），背腹侧二元性规律；status=emerging
+
+### 修订页面（1个）
+- **`wiki/systems/astrocyte.md`** rev3→rev4：新增"7. 空间转录组学揭示的多样性"——BICCN 图谱识别36个星形胶质细胞集群，各具独特空间分布（PMID:38092912）；related 新增 spatial-transcriptomics、brain-cell-type-hierarchy；key_sources 新增 PMID:38092912
+
+### 图谱变更
+- 新增节点：`spatial-transcriptomics`（methods/method）、`brain-cell-type-hierarchy`（concepts/concept）
+- 新增边（10条）：spatial-transcriptomics↔connectomics, spatial-transcriptomics↔astrocyte, spatial-transcriptomics↔brain-cell-type-hierarchy, brain-cell-type-hierarchy↔astrocyte, brain-cell-type-hierarchy↔inhibitory-interneurons, spatial-transcriptomics↔optogenetics, spatial-transcriptomics↔single-cell-rna-seq
+- 图谱：285→287节点，1649→1659边
+
+### 新增矛盾
+无
+
+### 新悬空引用
+- `single-cell-rna-seq`（被 spatial-transcriptomics 引用，尚无独立 wiki 页）

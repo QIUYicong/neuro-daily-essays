@@ -8622,5 +8622,52 @@
     "knowledge_base_date": "2026-09-12",
     "system_clock_date": "2026-06-24",
     "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-12（第142篇液-液相分离·突触前后自组装）"
-  }
+  },
+  {
+  "date": "2026-09-13",
+  "article_number": 143,
+  "title": "空间转录组学：让每个细胞在原位开口说话",
+  "slug": "spatial-transcriptomics-merfish-brain-cell-atlas",
+  "core_question": "MERFISH等空间转录组学如何解决身份+位置双维度解析问题？BICCN 2023年全鼠脑图谱揭示的细胞多样性与空间组织基本原则",
+  "layer": "methods/cellular/brain-region",
+  "topic_tags": [
+    "spatial-transcriptomics",
+    "MERFISH",
+    "scRNA-seq",
+    "BICCN",
+    "cell-type-atlas",
+    "brain-cell-type-hierarchy",
+    "astrocyte-diversity",
+    "dorsoventral-dichotomy",
+    "Allen-CCF"
+  ],
+  "main_sources": [
+    "PMID:38092916 (OPEN)",
+    "PMID:38092912 (OPEN)",
+    "PMID:34616063 (OPEN)",
+    "biccn.org (official)"
+  ],
+  "wiki_created": [
+    "methods/spatial-transcriptomics",
+    "concepts/brain-cell-type-hierarchy"
+  ],
+  "wiki_revised": [
+    "systems/astrocyte (rev3->rev4)"
+  ],
+  "graph_update": "285 nodes+2=287 nodes; 1649 edges+10=1659 edges",
+  "unresolved_questions": [
+    "Q-stx-01 (高): 5322个转录组学集群有多少对应功能上各异的单元？",
+    "Q-stx-02 (中): 星形胶质细胞36个亚类的功能差异？",
+    "Q-stx-03 (中): 背腹侧二元性的进化起源？"
+  ],
+  "next_suggested_topics": [
+    "单细胞RNA测序(scRNA-seq)与空间转录组学的互补",
+    "大脑发育中的细胞命运决定",
+    "核质转运(nucleocytoplasmic transport)——C9orf72/DPR的毒性机制深化",
+    "活性氧(ROS)与氧化应激——神经元抗氧化系统"
+  ],
+  "knowledge_base_date": "2026-09-13",
+  "system_clock_date": "2026-06-24",
+  "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-13（第143篇空间转录组学）"
+}
 ]

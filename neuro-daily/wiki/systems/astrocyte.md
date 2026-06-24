@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-07-02
-updated: 2026-07-06
-revision_count: 3
+updated: 2026-09-13
+revision_count: 4
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [tripartite-synapse, gliotransmitter, d-serine, astrocyte-calcium-signaling, glutamate-glutamine-cycle, ltp, ltd, nmda-receptor, synaptic-transmission, alzheimers-disease, synaptic-scaling, homeostatic-plasticity, glymphatic-system, aqp4]
+related: [tripartite-synapse, gliotransmitter, d-serine, astrocyte-calcium-signaling, glutamate-glutamine-cycle, ltp, ltd, nmda-receptor, synaptic-transmission, alzheimers-disease, synaptic-scaling, homeostatic-plasticity, glymphatic-system, aqp4, spatial-transcriptomics, brain-cell-type-hierarchy]
 prerequisites: [synaptic-transmission, nmda-receptor, ltp]
 opens_questions: [Q-astro-01, Q-astro-02, Q-astro-03]
-source_articles: [2026-07-02-astrocyte-tripartite-synapse, 2026-07-06-glymphatic-system-sleep-clearance]
-key_sources: ["PMID:10322493", "PMID:16025096", "PMID:20075918", "PMID:34334233", "PMID:30929313", "PMID:22896675"]
+source_articles: [2026-07-02-astrocyte-tripartite-synapse, 2026-07-06-glymphatic-system-sleep-clearance, 2026-09-13-spatial-transcriptomics-merfish-brain-cell-atlas]
+key_sources: ["PMID:10322493", "PMID:16025096", "PMID:20075918", "PMID:34334233", "PMID:30929313", "PMID:22896675", "PMID:38092912"]
 ---
 
 # 星形胶质细胞 (Astrocyte)
@@ -35,6 +35,8 @@ key_sources: ["PMID:10322493", "PMID:16025096", "PMID:20075918", "PMID:34334233"
 5. **LTD 参与**：星形胶质细胞通过多条路径（D-丝氨酸、ATP/腺苷、胶质谷氨酸）参与不同脑区的 LTD，且在内源性大麻素介导的 LTD 中是必要中间节点（Durkee et al. 2021）。
 
 **人类特异性**：人类星形胶质细胞比小鼠大 2.7 倍，每个细胞覆盖约 200 万个突触（小鼠约 10 万个），且拥有灵长类特有亚型（如 interlaminar astrocyte）。这种形态差异的功能意义尚不完全清楚（Q-astro-03）。
+
+7. **空间转录组学揭示的多样性**（新增，2026-09-13）：BICCN 2023 年全鼠脑 MERFISH 图谱（Zhang et al. 2023, PMID:38092912）识别出 **36 个星形胶质细胞转录组学集群**，每个集群具有独特的空间分布模式，且分布往往与局部脑区高度对应。这颠覆了"星形胶质细胞是同质均一支持细胞"的旧观点，揭示了胶质细胞多样性的细胞层面证据。**重要限制**：36 个集群是否对应 36 种功能上不同的星形胶质细胞类型，还是部分反映了暂时的激活状态差异，尚需功能实验验证（Q-stx-02）。
 
 6. **胶质淋巴功能**（新增，2026-07-06）：星形胶质细胞终足（endfeet）包裹约 99% 的脑血管外表面，终足膜上高度极化聚集 AQP4 水通道蛋白（密度约为其他胶质细胞膜区域的 10 倍）。这使终足成为脑脊液（CSF）→ 脑实质对流交换的物理界面——CSF 沿动脉旁间隙入流后，必须经过终足 AQP4 进入脑实质，冲洗 Aβ、tau 等废物，再从静脉旁排出。AQP4 基因敲除小鼠的废物清除效率降低约 70%（Iliff et al. 2012, PMID:22896675），证明星形胶质细胞终足是胶质淋巴系统不可或缺的结构基础。
 
@@ -96,6 +98,7 @@ Ca²⁺ 升高 → 触发含 D-丝氨酸的囊泡（可能）胞吐或转运体�
 
 ## 修订历史
 
+- 2026-09-13 · 修订 · 基于《空间转录组学》文章 #143 · 新增第七大功能：MERFISH 全鼠脑图谱揭示 36 个星形胶质细胞转录组学集群，各具独特空间分布（PMID:38092912）；related 新增 spatial-transcriptomics、brain-cell-type-hierarchy；新增 Q-stx-02 关联
 - 2026-07-06 · 修订 · 基于《大脑的夜间清洗工程》(#74) · 新增第六大功能：胶质淋巴功能（终足 AQP4 极化是 CSF-ISF 对流的分子门控）；related 新增 glymphatic-system、aqp4；dimensions 新增 whole-brain-network；key_sources 新增 PMID:22896675
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling；揭示星形胶质细胞在突触稳态中的第二重角色（TNFα 许可因子，与 D-丝氨酸在 LTP 中的门控角色形成双时间尺度分工）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-07-02 · 创建 · 基于《大脑的第三方：星形胶质细胞如何改写突触的游戏规则》(#68) · 初始置信度：高
@@ -104,3 +107,4 @@ Ca²⁺ 升高 → 触发含 D-丝氨酸的囊泡（可能）胞吐或转运体�
 
 - [[2026-07-02-astrocyte-tripartite-synapse]]
 - [[2026-07-03-synaptic-scaling-homeostatic-plasticity]]
+- [[2026-09-13-spatial-transcriptomics-merfish-brain-cell-atlas]]

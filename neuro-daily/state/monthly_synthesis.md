@@ -1476,3 +1476,5 @@
 **新增未解问题**：Q-als-01（高：TDP-43 LOF vs GOF 因果时序）、Q-als-02（高：DPR 对脊髓直接 vs 间接毒性）、Q-als-03（中：DPR 与 TDP-43 聚集时序）、Q-als-04（中：tofersen NfL-功能解离机制）
 
 ---
+
+**2026-09-13 (#143)**：空间转录组学 (MERFISH/BICCN)。方法革命层。核心：BICCN全鼠脑图谱识别5,322个转录组学集群(34类/338亚类)；背腹侧二元性（背侧少而多元，腹侧多而近似）；星形胶质细胞36个亚类（颠覆均一观）；纹状体/皮层连续空间梯度。Yao 2023 (PMID:38092916) + Zhang 2023 (PMID:38092912)。新建wiki: methods/spatial-transcriptomics, concepts/brain-cell-type-hierarchy；修订: systems/astrocyte rev4。

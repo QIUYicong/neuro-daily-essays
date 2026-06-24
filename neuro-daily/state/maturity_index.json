@@ -773,5 +773,7 @@
     "confidence": "high",
     "last_changed": "2026-09-12",
     "reason": "修订 rev2：新增 liquid-liquid-phase-separation 连接（TDP-43 病理是正常可逆 LLPS 向不可逆固态聚集的相变失控）；状态和置信度维持 established/high"
-  }
-]
+  ,
+  "spatial-transcriptomics": {"status": "mainstream", "confidence": "high", "last_changed": "2026-09-13", "reason": "BICCN 2023 large-scale application validated"},
+  "brain-cell-type-hierarchy": {"status": "emerging", "confidence": "high", "last_changed": "2026-09-13", "reason": "BICCN hierarchy established; functional validation pending"}
+}

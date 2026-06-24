@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "node_count": 285,
   "edge_count": 1650,
   "edge_types": [
@@ -2607,6 +2607,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/synapsin.md"
+    },
+    {
+      "id": "spatial-transcriptomics",
+      "title": "空间转录组学",
+      "domain": "methods",
+      "type": "method",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/methods/spatial-transcriptomics.md"
+    },
+    {
+      "id": "brain-cell-type-hierarchy",
+      "title": "大脑细胞类型分层",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "emerging",
+      "confidence": "high",
+      "page": "wiki/concepts/brain-cell-type-hierarchy.md"
     }
   ],
   "edges": [
@@ -11862,6 +11880,66 @@
       "to": "liquid-liquid-phase-separation",
       "type": "is-a",
       "note": "PSD 是 LLPS 原则在突触后的具体实现（PSD-95/SynGAP 凝聚体）"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "connectomics",
+      "type": "related",
+      "note": ""
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "astrocyte",
+      "type": "related",
+      "note": ""
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "brain-cell-type-hierarchy",
+      "type": "supports",
+      "note": ""
+    },
+    {
+      "from": "brain-cell-type-hierarchy",
+      "to": "spatial-transcriptomics",
+      "type": "mechanism-of",
+      "note": ""
+    },
+    {
+      "from": "brain-cell-type-hierarchy",
+      "to": "astrocyte",
+      "type": "related",
+      "note": ""
+    },
+    {
+      "from": "brain-cell-type-hierarchy",
+      "to": "inhibitory-interneurons",
+      "type": "related",
+      "note": ""
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "optogenetics",
+      "type": "related",
+      "note": ""
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "single-cell-rna-seq",
+      "type": "related",
+      "note": ""
+    },
+    {
+      "from": "astrocyte",
+      "to": "spatial-transcriptomics",
+      "type": "related",
+      "note": ""
+    },
+    {
+      "from": "astrocyte",
+      "to": "brain-cell-type-hierarchy",
+      "type": "related",
+      "note": ""
     }
   ],
   "dangling_references": [

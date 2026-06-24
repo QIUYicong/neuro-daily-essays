@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-13",
+  "article": "2026-09-13-spatial-transcriptomics-merfish-brain-cell-atlas",
+  "topic": "空间转录组学与 BICCN 全鼠脑细胞类型图谱",
+  "sources": [
+    {
+      "id": "S1",
+      "type": "journal_article",
+      "title": "A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain",
+      "authors": "Yao Z, van Velthoven CTJ, Kunst M, et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "volume": "624",
+      "pages": "317–332",
+      "pmid": "38092916",
+      "doi": "10.1038/s41586-023-06812-z",
+      "pmcid": "PMC10719114",
+      "open_access": true,
+      "full_text_read": true,
+      "role": "主要来源：scRNA-seq + MERFISH 双路图谱，四级细胞类型分层框架"
+    },
+    {
+      "id": "S2",
+      "type": "journal_article",
+      "title": "Molecularly defined and spatially resolved cell atlas of the whole mouse brain",
+      "authors": "Zhang M, Pan X, Jung W, et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "volume": "624",
+      "pages": "333–342",
+      "pmid": "38092912",
+      "doi": "10.1038/s41586-023-06808-9",
+      "pmcid": "PMC10719103",
+      "open_access": true,
+      "full_text_read": true,
+      "role": "主要来源：MERFISH 全鼠脑空间细胞类型图谱，空间模块识别，Allen CCF 配准"
+    },
+    {
+      "id": "S3",
+      "type": "journal_article",
+      "title": "Spatially resolved cell atlas of the mouse primary motor cortex by MERFISH",
+      "authors": "Zhang M, Eichhorn SW, Zingg B, et al.",
+      "journal": "Nature",
+      "year": 2021,
+      "volume": "598",
+      "pages": "137–143",
+      "pmid": "34616063",
+      "doi": "10.1038/s41586-021-03705-x",
+      "pmcid": "PMC8494645",
+      "open_access": true,
+      "full_text_read": false,
+      "note": "仅读取摘要和搜索结果摘要，未读取全文",
+      "role": "背景来源：MERFISH 先驱性验证，初级运动皮层细胞类型图谱"
+    },
+    {
+      "id": "S4",
+      "type": "official_website",
+      "title": "BRAIN Initiative Cell Census Network (BICCN)",
+      "url": "https://biccn.org",
+      "organization": "NIH National Institute of Mental Health",
+      "access_date": "2026-06-24",
+      "open_access": true,
+      "role": "官方机构背景来源：项目设计、数据集、协议"
+    },
+    {
+      "id": "S5",
+      "type": "official_website",
+      "title": "Allen Brain Cell Atlas",
+      "url": "https://portal.brain-map.org",
+      "organization": "Allen Institute for Brain Science",
+      "access_date": "2026-06-24",
+      "open_access": true,
+      "role": "官方数据可视化平台：MERFISH 数据交互浏览"
+    }
+  ],
+  "source_count": 5,
+  "open_full_text_count": 2,
+  "abstract_only_count": 1,
+  "official_website_count": 2
+}
