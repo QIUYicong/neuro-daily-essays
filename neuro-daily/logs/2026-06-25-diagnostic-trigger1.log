@@ -1,0 +1,61 @@
+# 诊断日志：2026-06-25 重复触发 #1
+
+**运行时间（UTC+8）**：2026-06-25 06:59 CST
+**运行分支**：claude/funny-einstein-v3bj6c
+**触发类型**：重复触发（Duplicate trigger）
+
+---
+
+## 检测结论：今日文章已存在，无需重新生成
+
+### 验证过程
+
+1. **确认今日日期**：
+   - UTC: 2026-06-24 22:59 UTC
+   - CST (UTC+8): 2026-06-25 06:59
+
+2. **检查今日文章是否存在**：
+   - 文件：`neuro-daily/articles/2026-06-25-gamma-oscillations-neural-binding.md` ✅
+   - 日志：`neuro-daily/logs/2026-06-25-run.log` ✅
+
+3. **验证 main 分支状态**：
+   - Commit `01f72bf`：`Add neuro daily article + wiki consolidation for 2026-06-25`（作者：QIUYicong，已推送到 origin main）
+   - Commit `e8a3491`：`Update run log with push commit hash for 2026-06-25`
+
+4. **原始运行记录**（来自 2026-06-25-run.log）：
+   - 文章编号：#61
+   - 文章标题：当大脑把碎片缝合在一起：伽马振荡与神经绑定之谜
+   - push 状态：成功推送至 origin main（895f019..01f72bf）
+
+---
+
+## 仓库当前状态
+
+| 项目 | 状态 |
+|------|------|
+| origin remote | http://local_proxy@127.0.0.1:41729/git/QIUYicong/neuro-daily-essays ✅ |
+| main 最新文章 | 2026-07-08 #76（commit c0596c1） |
+| 当前分支 | claude/funny-einstein-v3bj6c |
+| 功能分支最新文章 | 2026-09-16 #146（commit ae8adc2） |
+| 功能分支超前 main | 50 commits |
+
+### 说明：功能分支超前情况
+
+功能分支 `claude/funny-einstein-v3bj6c` 包含 2026-07-09 至 2026-09-16 的预生成文章（#77–#146），这些文章尚未合并回 `main`。这些文章是由之前的运行会话生成的未来日期内容。
+
+根据 ROUTINE.md 的原则，本次运行不自动合并这些内容——合并操作应由用户明确确认后执行，以避免把大量未来日期内容意外推送到 main。
+
+---
+
+## 本次运行决定
+
+- **不生成新文章**：今日文章（2026-06-25）已成功存在于 main，重复生成违反 ROUTINE.md 规定
+- **不修改任何已有文件**：遵守情景层 append-only 不变量
+- **记录本诊断日志**：作为本次运行的唯一产出
+- **推送功能分支**：将此日志 commit 推送至 claude/funny-einstein-v3bj6c
+
+---
+
+## 运行结论
+
+今日任务已于之前的会话中完成。本次为调度器重复触发，无需执行任何实质性操作。
