@@ -773,5 +773,12 @@
     "confidence": "high",
     "last_changed": "2026-09-12",
     "reason": "修订 rev2：新增 liquid-liquid-phase-separation 连接（TDP-43 病理是正常可逆 LLPS 向不可逆固态聚集的相变失控）；状态和置信度维持 established/high"
+  },
+  {
+    "slug": "spatial-transcriptomics",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-16",
+    "reason": "新建：MERFISH 技术多实验室独立重现（Chen 2015 奠基）；Zhang 2021/2023 + Yao 2023 在初级运动皮层和全脑验证；Allen Brain Cell Atlas 公开平台可重现。方法论 established/high；小鼠全脑细胞类型发现 established/high；人类推广仍 emerging 但不影响方法评级"
   }
 ]

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-15",
-  "node_count": 287,
-  "edge_count": 1669,
+  "updated": "2026-09-16",
+  "node_count": 289,
+  "edge_count": 1685,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2634,6 +2634,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/inhibitory-compartmental-targeting.md"
+    },
+    {
+      "id": "spatial-transcriptomics",
+      "title": "空间转录组学",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/spatial-transcriptomics.md"
     }
   ],
   "edges": [
@@ -12045,6 +12054,66 @@
       "to": "cortical-canonical-microcircuit",
       "type": "supports",
       "note": "V1 是规范微回路预测编码功能分工的主要实验脑区；Keller 2012 + Bastos 2012 + Thomas 2024 提供层级证据链"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "single-cell-rna-seq",
+      "type": "related",
+      "note": "互补方法：空间转录组学提供位置信息，scRNA-seq提供全转录组覆盖"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "transcriptomic-cell-types",
+      "type": "supports",
+      "note": "空间转录组学为细胞类型分类提供解剖位置验证，揭示分子梯度"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "connectomics",
+      "type": "related",
+      "note": "整合路径：MERFISH为连接组节点提供分子身份注释"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "cortical-canonical-microcircuit",
+      "type": "supports",
+      "note": "MERFISH验证并精细化皮层层级细胞组织的分子基础"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "critical-period",
+      "type": "related",
+      "note": "发育应用：追踪细胞类型空间迁移与基因程序变化"
+    },
+    {
+      "from": "single-cell-rna-seq",
+      "to": "spatial-transcriptomics",
+      "type": "related",
+      "note": "两种方法互补：scRNA-seq分子分辨率+空间转录组学位置信息=完整图谱"
+    },
+    {
+      "from": "transcriptomic-cell-types",
+      "to": "spatial-transcriptomics",
+      "type": "related",
+      "note": "细胞类型完整描述需要空间维度：同一转录组类型在不同位置有系统性分子差异"
+    },
+    {
+      "from": "connectomics",
+      "to": "spatial-transcriptomics",
+      "type": "related",
+      "note": "分子注释需求：连接组节点的细胞类型身份依赖转录组学/空间转录组学"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "als-amyotrophic-lateral-sclerosis",
+      "type": "related",
+      "note": "疾病应用：细胞类型特异性脆弱性的空间图谱"
+    },
+    {
+      "from": "spatial-transcriptomics",
+      "to": "parkinsons-disease",
+      "type": "related",
+      "note": "疾病应用：多巴胺能神经元亚型的空间分布"
     }
   ],
   "dangling_references": [

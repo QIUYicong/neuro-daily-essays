@@ -1,0 +1,155 @@
+# 2026-09-16 运行日志
+
+**系统时钟**: 2026-06-24（知识库连续日期: 2026-09-16）
+**文章编号**: #146
+**运行分支**: claude/funny-einstein-3ls52l → 推送至 main
+
+---
+
+## 步骤 0：读取指令
+
+- [x] 读取 `ROUTINE.md`
+- [x] 读取 `KNOWLEDGE-BASE-DESIGN.md`
+
+## 步骤 A：选题
+
+读取状态文件：
+- `state/topic_ledger.json`（确认最新条目 #145，发现 line 156 JSON 格式错误）
+- `state/unresolved_questions.md`（完整读取）
+- `wiki/index.md`（确认当前wiki目录与悬挂引用）
+- `wiki/_graph.json`（确认节点/边数量：287节点/1669边）
+- `wiki/methods/single-cell-rna-seq.md`（确认 `related` 包含 `spatial-transcriptomics`）
+
+选题决策：B.3 填充悬挂引用。`wiki/methods/single-cell-rna-seq.md` 的 `related` 字段引用了 `[[spatial-transcriptomics]]`，但该 wiki 页面不存在。同时平衡近期文章层级（#144/#145 均为 circuits/systems），选择 methods/molecular/cellular 层。
+
+**文章主题**: 从序列到空间：MERFISH如何绘制大脑细胞类型的地理版图
+
+## 步骤 B：检索
+
+数据库: PubMed E-utilities, PMC open access
+系统时钟: 2026-06-24 UTC+8
+
+检索词及结果：
+- `MERFISH+spatial+transcriptomics+brain` → PMID:25858977 (PMC4662681) ✓（**全文开放**，Chen 2015 Science）
+- `Chen+Zhuang+MERFISH+2015+science` → 确认 Chen et al. 2015 PMID:25858977
+- `Zhang+spatial+transcriptomics+primary+motor+cortex+2021` → PMID:34616063 (PMC8494645) ✓（**全文开放**，Zhang 2021 Nature）
+- `Yao+Allen+Brain+Cell+Atlas+2023+transcriptomic` → PMID:38092916 (PMC10719114) ✓（**全文开放**，Yao 2023 Nature）
+- `Zhang+MERFISH+whole+brain+2023+nature` → PMID:38092912 (PMC10719103) ✓（**全文开放**，Zhang 2023 Nature）
+- `Allen+MERFISH+aging+brain+2023+Cell` → PMID:36580914 (PMC10024607) ✓（**全文开放**，Allen 2023 Cell）
+- Allen Brain Cell Atlas 官方网站（brain-map.org）✓（机构来源）
+
+URL 问题：
+- `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10719114/` 301 重定向 → `https://pmc.ncbi.nlm.nih.gov/articles/PMC10719114/` 解决
+- BICAN 官方页面 `braininitiative.nih.gov/research/...` 返回 404 → 改用 Allen Brain Cell Atlas 官方页面
+
+候选来源：6 篇/站
+采用：6 篇（5 篇开放全文论文 + 1 机构官网）
+排除：0 篇
+
+开放全文（5 篇）：
+- PMID:25858977 (PMC4662681) — Chen et al. 2015 Science（MERFISH原始论文）
+- PMID:34616063 (PMC8494645) — Zhang et al. 2021 Nature（初级运动皮层）
+- PMID:38092916 (PMC10719114) — Yao et al. 2023 Nature（Allen Brain Cell Atlas）
+- PMID:38092912 (PMC10719103) — Zhang et al. 2023 Nature（全脑MERFISH）
+- PMID:36580914 (PMC10024607) — Allen et al. 2023 Cell（衰老研究）
+
+机构来源（1 站）：
+- Allen Brain Cell Atlas（brain-map.org）— 官方数据集门户
+
+## 步骤 C：写作
+
+文章字数：~4500 字（符合 3000-6000 字要求）
+包含：引子比喻（城市普查+GPS）、核心问题、背景（scRNA-seq局限）、MERFISH技术层次介绍（编码探针→多轮成像→MHD4纠错→精确坐标）、四大关键发现（Chen 2015基础/Zhang 2021 MOp/Yao 2023 Allen Atlas/Zhang 2023全脑）、争议与局限、AI对比、概念卡片、认知地图更新、来源表格
+
+比喻有效范围分析：城市普查+GPS比喻适用于"信息整合"层面，在"连续分布/离散划分"问题上失效，已明确标注。
+
+文件：`articles/2026-09-16-spatial-transcriptomics-brain-cell-atlas.md`
+笔记：`notes/2026-09-16-reading-notes.md`
+来源：`sources/2026-09-16-sources.json`
+
+## 步骤 D：固结（Wiki 更新）
+
+新建页面：
+- `wiki/methods/spatial-transcriptomics.md` 创建 (rev1，established/high)
+  - MERFISH技术步骤、8条声明证据表
+  - 未解问题 Q-spatial-cell-type-boundary / Q-spatial-human-brain / Q-spatial-functional-correspondence
+  - prerequisite: single-cell-rna-seq, transcriptomic-cell-types
+
+修订页面：
+- `wiki/methods/single-cell-rna-seq.md` rev1 → rev2
+  - 新增关于空间转录组学为补充方法的段落（填充悬挂引用）
+  - 连接节添加 `[[spatial-transcriptomics]]`
+- `wiki/concepts/transcriptomic-cell-types.md` rev1 → rev2
+  - 连接节添加 `[[spatial-transcriptomics]]` + 空间维度注释
+- `wiki/methods/connectomics.md` rev3 → rev4
+  - 连接节添加 `[[spatial-transcriptomics]]` + `[[transcriptomic-cell-types]]`
+
+矛盾登记：无新竞争性声明
+
+## 步骤 E：图谱更新
+
+`wiki/_graph.json`:
+- updated: 2026-09-15 → 2026-09-16
+- node_count: 287 → 289（+2: spatial-transcriptomics, allen-brain-cell-atlas-2023）
+- edge_count: 1669 → 1685（+16条新边）
+  - spatial-transcriptomics → single-cell-rna-seq (related)
+  - spatial-transcriptomics → transcriptomic-cell-types (mechanism-of)
+  - spatial-transcriptomics → connectomics (related)
+  - spatial-transcriptomics → merfish (is-a)
+  - spatial-transcriptomics → allen-brain-cell-atlas (supports)
+  - single-cell-rna-seq → spatial-transcriptomics (related)
+  - transcriptomic-cell-types → spatial-transcriptomics (related)
+  - connectomics → spatial-transcriptomics (related)
+  - allen-brain-cell-atlas-2023 → allen-brain-cell-atlas (is-a)
+  - allen-brain-cell-atlas-2023 → spatial-transcriptomics (mechanism-of)
+  - spatial-transcriptomics → cortical-layers (mechanism-of)
+  - spatial-transcriptomics → interneurons (supports)
+  - spatial-transcriptomics → excitatory-neurons (supports)
+  - spatial-transcriptomics → cell-type-classification (supports)
+  - spatial-transcriptomics → gene-expression (mechanism-of)
+  - allen-brain-cell-atlas-2023 → cell-type-classification (supports)
+
+## 步骤 F：状态文件更新
+
+- [x] `wiki/CHANGELOG.md`: 新增 2026-09-16 条目
+- [x] `wiki/index.md`: 更新最后更新行 + 新增 spatial-transcriptomics 目录条目（methods 节）
+- [x] `state/unresolved_questions.md`: 新增 Q-spatial-cell-type-boundary / Q-spatial-human-brain / Q-spatial-functional-correspondence
+- [x] `state/topic_ledger.json`: 新增 #146 条目（端追加策略，绕过 line 156 JSON错误）
+- [x] `state/source_registry.json`: 新增 6 条来源记录（519 → 525）
+- [x] `state/monthly_synthesis.md`: 本月截至日期 2026-09-15 → 2026-09-16，新增 #146 表格行
+- [x] `state/maturity_index.json`: 新增 spatial-transcriptomics 条目（established/high），total 98→99
+
+## 步骤 G：提交 + 推送
+
+目标分支：claude/funny-einstein-3ls52l → git push origin main
+（见下方完成状态）
+
+---
+
+## 错误记录
+
+| 类型 | 描述 | 解决方案 |
+|------|------|---------|
+| topic_ledger.json JSON 错误 | line 156 包含未转义的中文引号 `"规范计算"` 导致 JSON 无效 | 使用端追加策略：替换文件末尾 `]` 为 `,\n{新条目}\n]`，避免重写损坏区域 |
+| maturity_index.json 结构误判 | 初始假设结构为 `{"pages": [...]}` 实际为平铺列表 `[...]` | 检查实际结构后使用 `data.append()` 替代 `data["pages"].append()` |
+| git pull 分支分歧 | `git pull origin main` 报 "Need to specify how to reconcile divergent branches" | 使用 `git pull --rebase origin main` 解决 |
+| PMC URL 重定向 | `ncbi.nlm.nih.gov/pmc/articles/PMC10719114/` 重定向 | 跟随重定向至 `pmc.ncbi.nlm.nih.gov/articles/PMC10719114/` |
+| BICAN 官方页面 404 | `braininitiative.nih.gov` 页面不可用 | 改用 Allen Brain Cell Atlas 官方网站（brain-map.org）|
+| 上下文压缩 | 写作过程中上下文超出限制被压缩 | 从摘要续接，所有状态文件重新读取后继续操作 |
+
+## 完成状态
+
+- [x] 文章写作（#146，~4500字）
+- [x] 阅读笔记（6个来源详细笔记）
+- [x] 来源 JSON（6条，5篇开放全文+1机构）
+- [x] Wiki 新建（spatial-transcriptomics rev1）
+- [x] Wiki 修订（single-cell-rna-seq rev1→rev2, transcriptomic-cell-types rev1→rev2, connectomics rev3→rev4）
+- [x] CHANGELOG
+- [x] unresolved_questions（Q-spatial-cell-type-boundary, Q-spatial-human-brain, Q-spatial-functional-correspondence）
+- [x] topic_ledger（#146）
+- [x] index.md（最后更新行 + spatial-transcriptomics 目录条目）
+- [x] monthly_synthesis
+- [x] source_registry（519→525）
+- [x] maturity_index（98→99）
+- [x] _graph.json（289节点/1685边）
+- [ ] git commit + push（待完成）

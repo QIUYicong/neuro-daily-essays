@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-09-16 · 文章 #146 · 给细胞贴上地址标签：MERFISH 空间转录组学如何绘制全脑 5000+ 细胞类型的精确版图
+
+**核心主题**：空间转录组学（spatial transcriptomics）以 MERFISH 为代表，通过多轮序贯荧光成像 + 纠错编码，在保留细胞原位空间坐标的前提下同时测量 1000+ 基因，结合 scRNA-seq 整合形成 Allen Brain Cell Atlas 2023（34 类/338 亚类/5322 簇小鼠全脑图谱）。核心发现：(1) 背腹侧分化原则（背侧少而分化，腹侧多而相近）；(2) 空间模块 ≠ 传统解剖区域；(3) 细胞类型梯度（IT 神经元/纹状体 MSN 连续变化）；(4) 转录因子组合码定义细胞身份。老化应用（Allen 2023）揭示炎症热点空间特异性富集于白质（胼胝体）。图谱从 287 节点/1669 边增至 **289 节点/1685 边**（+2 节点+16 条新边）。填补了 `single-cell-rna-seq` 中悬空引用 `spatial-transcriptomics`。
+
+**注意**：系统时钟日期为 2026-06-24（UTC+8），知识库连续序列日期为 2026-09-16，文章编号 #146。
+
+### 新建 Wiki 页面（1 个）
+
+- `methods/spatial-transcriptomics.md` 🟢 established · 高置信度 — MERFISH技术原理（纠错编码/序贯成像/单分子精度）；从140基因（2015）到1100+基因（2023）的演进；Allen Brain Cell Atlas层级（34类/338亚类/5322簇）；背腹侧分化原则；空间模块；细胞类型梯度；老化应用（白质炎症热点）；Q-spatial-cell-type-boundary / Q-spatial-human-brain / Q-spatial-functional-correspondence
+
+### 修订 Wiki 页面（3 个）
+
+- `methods/single-cell-rna-seq.md` rev1→rev2 — 在"当前理解"补充空间转录组学为互补技术的说明；在"连接"填补悬空引用 [[spatial-transcriptomics]]；修订历史新增2026-09-16条目
+- `concepts/transcriptomic-cell-types.md` rev1→rev2 — 在"连接"加入 [[spatial-transcriptomics]]；强调"细胞类型定义必须同时包含分子身份和空间位置"这一新认识；修订历史新增2026-09-16条目
+- `methods/connectomics.md` rev3→rev4 — 在"连接"加入 [[spatial-transcriptomics]] 和 [[transcriptomic-cell-types]]；记录连接组学与空间转录组学的整合路径；修订历史新增2026-09-16条目
+
+### 矛盾登记 / 裁决（0 条）
+
+- 无新矛盾登记；本日主题（MERFISH 技术方法论）结论相对稳定，主要争议是细胞类型边界定义（Q-spatial-cell-type-boundary，已作为未解问题记录）
+
+### 新增未解问题（3 条）
+
+- `Q-spatial-cell-type-boundary`（高）：5322 个簇基于聚类参数，哪个分辨率的分类对应功能上真实的细胞类型单元？
+- `Q-spatial-human-brain`（高）：小鼠全脑 MERFISH 发现在人类大脑的适用性——人类全脑空间转录组技术障碍何时能克服？
+- `Q-spatial-functional-correspondence`（高）：转录组细胞类型与功能细胞类型（感受野/放电模式）的对应关系，MICrONS × Allen Brain Cell Atlas 整合是关键
+
+---
+
 ## 2026-09-15 · 文章 #145 · 守门人的守门人：外侧膝状体如何成为视觉注意的第一道主动关卡
 
 **核心主题**：外侧膝状体（LGN）不只是被动中继站，而是具备三重主动门控机制的视觉注意第一关：(1) TRN注意门控——电生理证明TRN比LGN提前约4ms被注意调制（McAlonan 2008，PMID:18849967），M层+11%、P层+9%、TRN本身-4%；(2) 皮层-膝状体（CG）反馈特异性——Briggs & Usrey 2009证明CG反馈对M/P/K通路具有分通路特异性，打破"均匀调制"假设；(3) β振荡门控——Alitto 2026新机制，注意抑制LGN-V1约20Hz相干β振荡，可能是注意信号传递的节律框架。关键争议：McAlonan 2008（~9-11%调制）vs Alitto 2025（~1%调制）效应量相差10倍，登记为C-2026-09-15-01。Nakajima 2019揭示PFC→基底节→TRN跨模态感觉抑制通路。图谱从285节点/1653边增至**287节点/1669边**（+2节点+13条新边）。

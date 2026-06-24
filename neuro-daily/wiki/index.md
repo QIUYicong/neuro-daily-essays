@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-15（第145篇·守门人的守门人：外侧膝状体如何成为视觉注意的第一道主动关卡·McAlonan 2008 TRN先4ms门控·Alitto 2025效应量1% vs McAlonan 9-11%争议·Alitto 2026 LGN-V1β振荡·Nakajima 2019 PFC→BG→TRN跨模态抑制）· 主题页总数：**286**（新建2页：systems/lateral-geniculate-nucleus, circuits/thalamic-reticular-nucleus；修订2页：systems/thalamus rev7→rev8, circuits/thalamocortical-circuit rev3→rev4；新增Q-lgn-01–04；登记C-2026-09-15-01矛盾；图谱287节点/1669边）
+> 最后更新：2026-09-16（第146篇·给细胞贴上地址标签：MERFISH空间转录组学如何绘制全脑5000+细胞类型精确版图·Allen Brain Cell Atlas 34类/338亚类/5322簇·背腹侧分化原则·空间模块≠解剖区域·IT神经元连续梯度·转录因子组合码）· 主题页总数：**287**（新建1页：methods/spatial-transcriptomics；修订3页：methods/single-cell-rna-seq rev1→rev2、concepts/transcriptomic-cell-types rev1→rev2、methods/connectomics rev3→rev4；新增Q-spatial-cell-type-boundary/Q-spatial-human-brain/Q-spatial-functional-correspondence；填补悬空引用spatial-transcriptomics；图谱289节点/1685边）
 
 ---
 
@@ -290,7 +290,8 @@
 - 🟢 [扰动复杂性指数（PCI）](methods/perturbational-complexity-index.md) — IIT 的临床代理工具；TMS 扰动 + EEG 记录 + Lempel-Ziv 复杂度算法；区分清醒/NREM/麻醉/植物状态/最小意识状态；Casali 2013 奠基，多中心验证 **[NEW 2026-05-31]**
 - 🟢 [连接组学](methods/connectomics.md) — 用串行电子显微镜重建生命体所有神经元与突触连接的完整结构图谱；C. elegans（302神经元）→ 果蝇（139,255神经元，FlyWire 2024）→ 小鼠视觉皮层（MiCrONS 2025）；揭示小世界拓扑、富人俱乐部、同类相连布线规则；结构-功能鸿沟三大来源 **[修订 rev1→rev2 2026-08-06]**
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**
-- 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[NEW 2026-07-25]**
+- 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[修订 rev1→rev2 2026-09-16：补充空间转录组学互补关系]**
+- 🟢 [空间转录组学](methods/spatial-transcriptomics.md) — MERFISH：多轮序贯成像+纠错编码（MHD4）在保留空间坐标的前提下测量1000+基因；Chen 2015奠基（140→1001 RNA）；Zhang 2021（初级运动皮层，258基因，IT梯度，层级组织）；Allen Brain Cell Atlas 2023（34类/338亚类/5322簇；背腹侧分化；空间模块≠解剖区域；TF组合码）；填补 scRNA-seq 的空间信息缺口 **[NEW 2026-09-16]**
 
 ## theories（理论）
 

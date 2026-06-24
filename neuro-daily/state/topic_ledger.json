@@ -8788,4 +8788,65 @@
     "system_clock_date": "2026-06-24",
     "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-13（第143篇MICrONS文章）"
   }
+
+  ,
+  {
+    "date": "2026-09-16",
+    "article_number": 146,
+    "title": "给细胞贴上地址标签：MERFISH 空间转录组学如何绘制全脑 5000+ 细胞类型的精确版图",
+    "core_question": "空间转录组学（以 MERFISH 为核心技术）如何在保留细胞解剖位置的前提下，在全脑尺度上同时测量千余个基因的表达，从而揭示小鼠全脑 5000+ 转录组细胞类型的空间分布规律——包括背腹侧分化原则、空间模块的非解剖边界以及神经元亚型的连续梯度——并为连接组学、疾病研究和跨尺度神经科学整合提供分子地基？",
+    "layer": "methods/molecular/cellular/brain-region",
+    "topic_tags": [
+      "空间转录组学",
+      "MERFISH",
+      "Allen Brain Cell Atlas",
+      "转录组细胞类型",
+      "纠错编码",
+      "汉明距离",
+      "序贯成像",
+      "背腹侧分化",
+      "空间模块",
+      "细胞类型梯度",
+      "IT神经元",
+      "转录因子组合码",
+      "Yao 2023",
+      "Zhang 2023",
+      "Allen Institute",
+      "全脑细胞图谱",
+      "scRNA-seq互补",
+      "老化空间特异性"
+    ],
+    "main_sources": [
+      "PMC4662681 (PMID:25858977) OPEN",
+      "PMC8494645 (PMID:34616063) OPEN",
+      "PMC10719114 (PMID:38092916) OPEN",
+      "PMC10719103 (PMID:38092912) OPEN",
+      "PMC10024607 (PMID:36580914) OPEN",
+      "Allen Brain Cell Atlas (brain-map.org) OFFICIAL"
+    ],
+    "wiki_created": [
+      "methods/spatial-transcriptomics"
+    ],
+    "wiki_revised": [
+      "methods/single-cell-rna-seq (rev1->rev2)",
+      "concepts/transcriptomic-cell-types (rev1->rev2)",
+      "methods/connectomics (rev3->rev4)"
+    ],
+    "graph_update": "287 nodes+2=289 nodes; 1669 edges+16=1685 edges",
+    "unresolved_questions": [
+      "Q-spatial-cell-type-boundary (高): 5322簇边界依赖聚类参数，何种分辨率对应真实功能细胞类型？",
+      "Q-spatial-human-brain (高): 人类全脑MERFISH的技术障碍何时能克服？小鼠发现的人类适用性？",
+      "Q-spatial-functional-correspondence (高): 转录组细胞类型与功能细胞类型的对应关系——MICrONS × Allen整合是关键"
+    ],
+    "next_suggested_topics": [
+      "活性氧（ROS）与氧化应激——神经元抗氧化系统（分子/细胞层级，填补神经退行疾病系列的分子背景）",
+      "核质转运（nucleocytoplasmic transport）——深化ALS/TDP-43毒性机制",
+      "果蝇全脑连接组（FlyWire Dorkenwald 2024）——Connectomics脊柱第9条，轮换回methods/whole-brain-network层级",
+      "MERFISH x MICrONS整合——结构连接+分子身份的三位一体（AI/比较路线12）",
+      "发育期空间转录组——神经迁移与细胞类型命运决定的时空图谱"
+    ],
+    "knowledge_base_date": "2026-09-16",
+    "system_clock_date": "2026-06-24",
+    "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-16（第146篇空间转录组学文章）"
+  }
 ]

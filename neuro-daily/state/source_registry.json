@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-16",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11,7 +11,9 @@
       "journal": "Nature Neuroscience",
       "year": 2002,
       "first_used": "2026-09-15",
-      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "used_in_articles": [
+        "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"
+      ],
       "aspects_covered": [
         "人类fMRI首次证明LGN存在注意调制（~4% BOLD信号增强）",
         "注意改变LGN对V1的输入，可能预测V1注意效应",
@@ -27,7 +29,9 @@
       "journal": "Nature",
       "year": 2008,
       "first_used": "2026-09-15",
-      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "used_in_articles": [
+        "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"
+      ],
       "aspects_covered": [
         "TRN比LGN早约4ms受注意调制（TRN放电率-4%，LGN M层+11%，P层+9%）",
         "猕猴电生理同步记录TRN和LGN单细胞",
@@ -43,7 +47,9 @@
       "journal": "Journal of Neuroscience",
       "year": 2009,
       "first_used": "2026-09-15",
-      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "used_in_articles": [
+        "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"
+      ],
       "aspects_covered": [
         "CG反馈对LGN M/P/K通路的分特异性调制",
         "V1→LGN皮层-膝状体反馈的功能解析",
@@ -59,7 +65,9 @@
       "journal": "Journal of Neuroscience",
       "year": 2011,
       "first_used": "2026-09-15",
-      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "used_in_articles": [
+        "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"
+      ],
       "aspects_covered": [
         "FEF（额叶眼动区）对视觉注意的因果控制",
         "FEF→上丘/丘脑调制通路",
@@ -75,7 +83,9 @@
       "journal": "Neuron",
       "year": 2019,
       "first_used": "2026-09-15",
-      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "used_in_articles": [
+        "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"
+      ],
       "aspects_covered": [
         "PFC→基底节→TRN跨模态感觉抑制通路",
         "感觉门控的基底节回路机制",
@@ -91,7 +101,9 @@
       "journal": "Neuron",
       "year": 2011,
       "first_used": "2026-09-15",
-      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "used_in_articles": [
+        "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"
+      ],
       "aspects_covered": [
         "TRN的状态依赖性感觉门控功能",
         "TRN子网络在注意和觉醒状态调控中的角色",
@@ -107,7 +119,9 @@
       "journal": "eNeuro",
       "year": 2025,
       "first_used": "2026-09-15",
-      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "used_in_articles": [
+        "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"
+      ],
       "aspects_covered": [
         "猕猴LGN注意调制放电率仅约1%，效应弱且不一致",
         "与McAlonan 2008的9-11%效应量直接矛盾（C-2026-09-15-01）",
@@ -123,7 +137,9 @@
       "journal": "Journal of Neuroscience",
       "year": 2026,
       "first_used": "2026-09-15",
-      "used_in_articles": ["2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"],
+      "used_in_articles": [
+        "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate.md"
+      ],
       "aspects_covered": [
         "注意抑制LGN-V1约20Hz相干β振荡",
         "β振荡门控作为LGN注意调制的新机制",
@@ -8918,9 +8934,123 @@
         "颗粒细胞信号负责运动上下文编码",
         "PC 基线放电在颗粒细胞信号缺失时仍正常"
       ]
+    },
+    {
+      "id": "PMID:25858977",
+      "pmcid": "PMC4662681",
+      "title": "Spatially resolved, highly multiplexed RNA profiling in single cells",
+      "authors": "Chen KH et al.",
+      "journal": "Science",
+      "year": 2015,
+      "open_access": true,
+      "used_in": [
+        "2026-09-16-spatial-transcriptomics-brain-cell-atlas"
+      ],
+      "topics": [
+        "MERFISH",
+        "空间转录组学",
+        "纠错编码",
+        "序贯成像",
+        "单分子精度"
+      ]
+    },
+    {
+      "id": "PMID:34616063",
+      "pmcid": "PMC8494645",
+      "title": "Spatially resolved cell atlas of the mouse primary motor cortex by MERFISH",
+      "authors": "Zhang M et al.",
+      "journal": "Nature",
+      "year": 2021,
+      "open_access": true,
+      "used_in": [
+        "2026-09-16-spatial-transcriptomics-brain-cell-atlas"
+      ],
+      "topics": [
+        "MERFISH",
+        "初级运动皮层",
+        "IT神经元梯度",
+        "层级组织",
+        "逆行示踪"
+      ]
+    },
+    {
+      "id": "PMID:38092916",
+      "pmcid": "PMC10719114",
+      "title": "A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain",
+      "authors": "Yao Z et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "open_access": true,
+      "used_in": [
+        "2026-09-16-spatial-transcriptomics-brain-cell-atlas"
+      ],
+      "topics": [
+        "Allen Brain Cell Atlas",
+        "全脑细胞类型",
+        "转录因子组合码",
+        "背腹侧分化",
+        "5322簇"
+      ]
+    },
+    {
+      "id": "PMID:38092912",
+      "pmcid": "PMC10719103",
+      "title": "Molecularly defined and spatially resolved cell atlas of the whole mouse brain",
+      "authors": "Zhang M et al.",
+      "journal": "Nature",
+      "year": 2023,
+      "open_access": true,
+      "used_in": [
+        "2026-09-16-spatial-transcriptomics-brain-cell-atlas"
+      ],
+      "topics": [
+        "MERFISH",
+        "空间模块",
+        "细胞类型梯度",
+        "1100基因",
+        "全脑"
+      ]
+    },
+    {
+      "id": "PMID:36580914",
+      "pmcid": "PMC10024607",
+      "title": "Molecular and spatial signatures of mouse brain aging at single-cell resolution",
+      "authors": "Allen WE et al.",
+      "journal": "Cell",
+      "year": 2023,
+      "open_access": true,
+      "used_in": [
+        "2026-09-16-spatial-transcriptomics-brain-cell-atlas"
+      ],
+      "topics": [
+        "MERFISH",
+        "老化",
+        "非神经元细胞",
+        "白质炎症热点",
+        "空间特异性"
+      ]
+    },
+    {
+      "id": "Allen-Brain-Cell-Atlas",
+      "type": "official-platform",
+      "title": "Allen Brain Cell Atlas (ABC Atlas)",
+      "institution": "Allen Institute for Brain Science",
+      "url": "brain-map.org ABC Atlas",
+      "year": 2023,
+      "open_access": true,
+      "used_in": [
+        "2026-09-16-spatial-transcriptomics-brain-cell-atlas"
+      ],
+      "topics": [
+        "Allen Brain Cell Atlas",
+        "小鼠全脑",
+        "人类大脑",
+        "数据可视化",
+        "官方来源"
+      ]
     }
   ],
-  "total_sources": 502,
+  "total_sources": 525,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

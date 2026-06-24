@@ -6,8 +6,8 @@ type: method
 status: established
 confidence: high
 created: 2026-07-25
-updated: 2026-07-25
-revision_count: 1
+updated: 2026-09-16
+revision_count: 2
 dimensions: [molecular, cellular, methods]
 related: [transcriptomic-cell-types, optogenetics, spatial-transcriptomics, patch-seq]
 prerequisites: [action-potential, synaptic-transmission]
@@ -22,7 +22,7 @@ key_sources: ["PMID:30382198", "PMID:30586455", "PMID:38092916", "PMID:38123823"
 
 ## 当前理解
 
-我们现在认为，scRNA-seq（及其脑组织优化版本snRNA-seq，单核RNA测序）是神经科学中鉴定细胞类型最系统化的技术。它将每个细胞的基因表达谱视为一个高维向量，通过降维和聚类在"基因表达空间"中识别细胞群体。应用于大脑时，scRNA-seq已将已知细胞类型数从几十种扩展到数千种（小鼠全脑5322个聚类，人脑461个major cluster；Yao et al. 2023，Siletti et al. 2023），彻底重塑了我们对神经元多样性的认知。
+我们现在认为，scRNA-seq（及其脑组织优化版本snRNA-seq，单核RNA测序）是神经科学中鉴定细胞类型最系统化的技术。然而 scRNA-seq 有一个根本性局限：细胞在制样时被从组织中分离，失去了解剖位置信息。**空间转录组学（以 MERFISH 为代表）**是与 scRNA-seq 互补的技术路线——在保留细胞原位空间坐标的前提下测量基因表达，两者整合形成了完整的"分子身份 + 解剖位置"图谱（见 [[spatial-transcriptomics]]）。它将每个细胞的基因表达谱视为一个高维向量，通过降维和聚类在"基因表达空间"中识别细胞群体。应用于大脑时，scRNA-seq已将已知细胞类型数从几十种扩展到数千种（小鼠全脑5322个聚类，人脑461个major cluster；Yao et al. 2023，Siletti et al. 2023），彻底重塑了我们对神经元多样性的认知。
 
 **snRNA-seq**是大脑研究中的关键变体：大脑难以解离为活细胞悬液，且解离过程本身会诱导即早基因（FOS, ARC等）异常表达（"解离伪影"）。单核测序直接提取完整细胞核，对核内mRNA（包含部分内含子，Bakken et al. 2018）进行测序，虽然检测基因数量略低，但能有效区分相关亚型，并避免解离诱导的转录变化。
 
@@ -57,6 +57,7 @@ key_sources: ["PMID:30382198", "PMID:30586455", "PMID:38092916", "PMID:38123823"
 ## 连接
 
 - [[transcriptomic-cell-types]] — scRNA-seq的主要认知产出：转录组细胞类型分类体系
+- [[spatial-transcriptomics]] — 互补方法：MERFISH 在保留空间位置的同时测量基因表达，填补 scRNA-seq 的空间信息缺失
 - [[optogenetics]] — 细胞类型知识驱动Cre驱动线选择，是光遗传学实验设计的前提
 - [[pv-interneurons]] — 转录组分析揭示了PV细胞内部的多种亚类
 - [[sst-interneurons]] — SST细胞的多样性由scRNA-seq进一步细化
@@ -70,7 +71,9 @@ key_sources: ["PMID:30382198", "PMID:30586455", "PMID:38092916", "PMID:38123823"
 ## 修订历史
 
 - 2026-07-25 · 创建 · 基于《神经元类型的分子宇宙》文章 #93 · 初始置信度：高
+- 2026-09-16 · 修订（rev2）· 在"当前理解"补充空间转录组学互补关系；在"连接"中填补悬空引用 [[spatial-transcriptomics]] · 来源：文章 #146
 
 ## 来源文章
 
 - [[2026-07-25-scrna-seq-neural-cell-type-diversity]]
+- [[2026-09-16-spatial-transcriptomics-brain-cell-atlas]]

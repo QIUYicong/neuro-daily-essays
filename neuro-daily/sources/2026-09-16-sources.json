@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-16",
+  "article": "2026-09-16-spatial-transcriptomics-brain-cell-atlas",
+  "article_number": 146,
+  "sources": [
+    {
+      "id": "PMID:25858977",
+      "pmcid": "PMC4662681",
+      "type": "research-article",
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "citation": "Chen KH, Boettiger AN, Moffitt JR, Wang S, Zhuang X. Spatially resolved, highly multiplexed RNA profiling in single cells. Science. 2015;348(6233):aaa6090.",
+      "journal": "Science",
+      "year": 2015,
+      "doi": "10.1126/science.aaa6090",
+      "topic_relevance": "MERFISH技术原理：纠错编码、序贯成像、单分子精度，原始验证140-1001 RNA种类",
+      "key_data": "MHD4编码实现单位错误纠正；140 RNA（IMR90），Pearson r=0.94验证准确性",
+      "evidence_quality": "高（方法创始论文，多实验室重现）"
+    },
+    {
+      "id": "PMID:34616063",
+      "pmcid": "PMC8494645",
+      "type": "research-article",
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "citation": "Zhang M, Eichhorn SW, Zingg B, et al. Spatially resolved cell atlas of the mouse primary motor cortex by MERFISH. Nature. 2021;598(7879):137-143.",
+      "journal": "Nature",
+      "year": 2021,
+      "doi": "10.1038/s41586-021-03705-x",
+      "topic_relevance": "MERFISH在初级运动皮层的原型验证：258基因/30万细胞，95个细胞簇，层级组织，IT神经元梯度",
+      "key_data": "MOp中95个细胞簇；大多数GABAergic亚簇有层级特异性分布；IT神经元形成连续分子梯度",
+      "evidence_quality": "高（Nature；Allen Brain Cell Atlas基础数据）"
+    },
+    {
+      "id": "PMID:38092916",
+      "pmcid": "PMC10719114",
+      "type": "research-article",
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "citation": "Yao Z, van Velthoven CTJ, Kunst M, et al. A high-resolution transcriptomic and spatial atlas of cell types in the whole mouse brain. Nature. 2023;624(7991):317-332.",
+      "journal": "Nature",
+      "year": 2023,
+      "doi": "10.1038/s41586-023-06812-z",
+      "topic_relevance": "Allen Brain Cell Atlas核心论文：整合700万scRNA-seq + 430万MERFISH；四级层级图谱；背腹侧分化原则；转录因子组合码",
+      "key_data": "34类/338亚类/1201超类型/5322簇；背侧少而分化，腹侧多而相近；TF是最强分类预测因子",
+      "evidence_quality": "高（Nature；Allen Institute多实验室，开放平台可重现）"
+    },
+    {
+      "id": "PMID:38092912",
+      "pmcid": "PMC10719103",
+      "type": "research-article",
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "citation": "Zhang M, Pan X, Jung W, et al. Molecularly defined and spatially resolved cell atlas of the whole mouse brain. Nature. 2023;624(7991):333-342.",
+      "journal": "Nature",
+      "year": 2023,
+      "doi": "10.1038/s41586-023-06808-9",
+      "topic_relevance": "Zhuang实验室全脑MERFISH：1100+基因/1000万细胞；空间模块概念；细胞类型梯度；细胞-细胞互作预测",
+      "key_data": "300+主要细胞类型/5000+簇；16个一级空间模块/130个二级；E/I比例脑区差异巨大；下丘脑/中脑多样性高",
+      "evidence_quality": "高（Nature；与来源3互补验证）"
+    },
+    {
+      "id": "PMID:36580914",
+      "pmcid": "PMC10024607",
+      "type": "research-article",
+      "full_text_available": true,
+      "full_text_source": "PMC open access",
+      "citation": "Allen WE, Blosser TR, Sullivan ZA, Dulac C, Zhuang X. Molecular and spatial signatures of mouse brain aging at single-cell resolution. Cell. 2023;186(1):194-208.e18.",
+      "journal": "Cell",
+      "year": 2023,
+      "doi": "10.1016/j.cell.2022.12.010",
+      "topic_relevance": "MERFISH应用于老化研究：416基因/40万细胞；非神经元细胞空间特异性老化变化；白质炎症热点",
+      "key_data": "非神经元老化变化>>神经元；老化激活细胞专一富集于胼胝体（白质）；T细胞浸润随龄增加",
+      "evidence_quality": "中（Cell；小鼠模型，人类推广需验证）"
+    },
+    {
+      "id": "Allen-Brain-Cell-Atlas",
+      "type": "official-platform",
+      "full_text_available": true,
+      "full_text_source": "Official institutional website",
+      "citation": "Allen Institute for Brain Science. Allen Brain Cell Atlas (ABC Atlas). brain-map.org ABC Atlas. [Accessed 2026].",
+      "url": "brain-map.org/atlases-and-data/bkp/abc-atlas",
+      "topic_relevance": "官方数据平台：提供小鼠全脑+人类大脑数据集的在线可视化和跨数据集查询；整合计划文档",
+      "key_data": "小鼠全脑~400万细胞；人类脑~300万细胞；覆盖多个物种和发育阶段",
+      "evidence_quality": "高（官方机构，开放平台）"
+    }
+  ],
+  "summary": {
+    "total_sources": 6,
+    "open_full_text": 6,
+    "abstract_only": 0,
+    "official_institution": 1,
+    "research_articles": 5,
+    "top_journals": ["Science", "Nature", "Nature", "Cell"],
+    "time_span": "2015-2023",
+    "quality_assessment": "优秀：所有来源均为开放全文，包含1篇技术原始论文（Science 2015）+3篇Nature+1篇Cell+官方平台；覆盖从方法创立到全脑图谱应用的完整技术路线"
+  }
+}

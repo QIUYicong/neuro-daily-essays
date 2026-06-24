@@ -6,8 +6,8 @@ type: method
 status: established
 confidence: high
 created: 2026-06-18
-updated: 2026-09-13
-revision_count: 3
+updated: 2026-09-16
+revision_count: 4
 dimensions: [methods, cellular, brain-region, whole-brain-network]
 related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, like-to-like-connectivity, rich-club-organization]
 prerequisites: [synaptic-transmission, action-potential]
@@ -180,6 +180,8 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 - [[ltp]] — LTP改变的是突触权重，接线图无法捕捉；但LTP发生在哪些突触上，受接线图拓扑约束
 - [[dopamine-reward-prediction-error]] — 蘑菇体DANs是此概念在昆虫中的结构化实例；接线图揭示了MBON→DAN反馈形成元学习的结构
 - [[predictive-coding]] — 结构约束的预测链（接线图→模型→实验）是连接组学功能研究的方法论核心，与预测编码的计算框架相互补充
+- [[spatial-transcriptomics]] — 整合路径：空间转录组学（MERFISH）为连接组学的神经元节点提供分子身份注释，Allen Brain Cell Atlas 与 MICrONS 的整合是实现"结构 + 分子 + 功能"三位一体的关键下一步
+- [[transcriptomic-cell-types]] — 突触极性（兴奋性 vs 抑制性）和细胞亚型分类需要转录组学信息，连接组学与转录组学互补才能完整描述回路
 
 ---
 
@@ -198,6 +200,7 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 - 2026-06-18 · 创建 · 基于《接线图之上》文章 · 覆盖 C. elegans, FlyWire, 结构-功能鸿沟概念 · 初始置信度：高
 - 2026-08-06 · 修订（rev2）· 基于《连接组学深化篇》文章 · 增加：(1) 功能连接组学新节（MICrONS 2025）；(2) "同类相连"布线规则（Ding 2025）；(3) Lin 2024 完整网络统计数据；(4) 更新 related 节点（+3个新页）；(5) 更新 key_sources 和 source_articles
 - 2026-09-13 · 修订（rev3）· 基于文章 #143《MICrONS小鼠视觉皮层功能-结构连接组》· 补充：(1) 完整配准方法（2,934基准点，3.8µm精度，100万+次编辑）；(2) 抑制性神经元普查（PMC11981935）作为伴随发现；(3) 功能数字孪生作为连接组学新维度；(4) 更新 key_sources（+PMC11981935）
+- 2026-09-16 · 修订（rev4）· 基于文章 #146《空间转录组学》· 在"连接"节增加 [[spatial-transcriptomics]] 和 [[transcriptomic-cell-types]] 条目，记录与空间转录组学的整合路径（Allen Brain Cell Atlas + MICrONS 未来整合方向）
 
 ---
 
@@ -206,3 +209,4 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 - [[2026-06-18-connectomics-wiring-diagram]]
 - [[2026-08-06-connectomics-flywire-wiring-diagram]]
 - [[2026-09-13-microns-mouse-cortex-functional-connectome]]
+- [[2026-09-16-spatial-transcriptomics-brain-cell-atlas]]

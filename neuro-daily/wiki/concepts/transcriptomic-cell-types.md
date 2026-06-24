@@ -6,8 +6,8 @@ type: concept
 status: established
 confidence: high
 created: 2026-07-25
-updated: 2026-07-25
-revision_count: 1
+updated: 2026-09-16
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, methods]
 related: [single-cell-rna-seq, pv-interneurons, sst-interneurons, vip-interneurons, pyramidal-neuron, cortical-canonical-microcircuit, critical-period]
 prerequisites: [single-cell-rna-seq, action-potential, synaptic-transmission]
@@ -75,6 +75,7 @@ key_sources: ["PMID:30382198", "PMID:30096314", "PMID:31435019", "PMID:34616075"
 ## 连接
 
 - [[single-cell-rna-seq]] — 生成转录组细胞类型图谱的核心技术
+- [[spatial-transcriptomics]] — 空间维度补充：MERFISH 揭示同一转录组类型在不同解剖位置有系统性分子差异；细胞类型定义必须同时包含分子身份和空间位置
 - [[pv-interneurons]] — 转录组分析揭示PV细胞内多个功能亚类
 - [[sst-interneurons]] — SST细胞的多样性（Martinotti vs non-Martinotti等）由转录组进一步细化
 - [[cortical-canonical-microcircuit]] — 转录组细胞类型是理解正则微回路的分子基础
@@ -90,7 +91,9 @@ key_sources: ["PMID:30382198", "PMID:30096314", "PMID:31435019", "PMID:34616075"
 ## 修订历史
 
 - 2026-07-25 · 创建 · 基于《神经元类型的分子宇宙》文章 #93 · 初始置信度：高
+- 2026-09-16 · 修订（rev2）· 在"连接"中加入 [[spatial-transcriptomics]]，补充"细胞类型定义必须包含分子身份 + 空间位置"这一重要更新 · 来源：文章 #146
 
 ## 来源文章
 
 - [[2026-07-25-scrna-seq-neural-cell-type-diversity]]
+- [[2026-09-16-spatial-transcriptomics-brain-cell-atlas]]
