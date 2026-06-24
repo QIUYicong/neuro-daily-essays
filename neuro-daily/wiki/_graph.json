@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "node_count": 285,
   "edge_count": 1650,
   "edge_types": [
@@ -2607,6 +2607,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/synapsin.md"
+    },
+    {
+      "id": "frontal-eye-field",
+      "title": "额眼区（FEF）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/frontal-eye-field.md"
+    },
+    {
+      "id": "feature-based-attention",
+      "title": "特征注意",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/feature-based-attention.md"
     }
   ],
   "edges": [
@@ -11862,6 +11880,71 @@
       "to": "liquid-liquid-phase-separation",
       "type": "is-a",
       "note": "PSD 是 LLPS 原则在突触后的具体实现（PSD-95/SynGAP 凝聚体）"
+    },
+    {
+      "from": "frontal-eye-field",
+      "to": "biased-competition",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "frontal-eye-field",
+      "to": "dorsal-attention-network",
+      "type": "part-of"
+    },
+    {
+      "from": "frontal-eye-field",
+      "to": "gamma-oscillations",
+      "type": "regulates"
+    },
+    {
+      "from": "frontal-eye-field",
+      "to": "alpha-oscillations",
+      "type": "regulates"
+    },
+    {
+      "from": "frontal-eye-field",
+      "to": "v1-primary-visual-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "frontal-eye-field",
+      "to": "feature-based-attention",
+      "type": "related"
+    },
+    {
+      "from": "feature-based-attention",
+      "to": "biased-competition",
+      "type": "is-a"
+    },
+    {
+      "from": "feature-based-attention",
+      "to": "dorsal-attention-network",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "biased-competition",
+      "to": "frontal-eye-field",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "biased-competition",
+      "to": "feature-based-attention",
+      "type": "related"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "frontal-eye-field",
+      "type": "part-of"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "frontal-eye-field",
+      "type": "related"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "frontal-eye-field",
+      "type": "related"
     }
   ],
   "dangling_references": [

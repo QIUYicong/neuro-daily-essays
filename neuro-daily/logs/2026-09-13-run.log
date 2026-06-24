@@ -1,0 +1,117 @@
+# 运行日志 · 2026-09-13（知识库连续性日期）
+
+**运行时间**：2026-06-24 UTC+8（系统时钟）
+**文章编号**：#143
+**知识库连续性日期**：2026-09-13
+**运行状态**：✅ 成功
+
+---
+
+## 步骤执行记录
+
+### Step 0：分支检出与环境检查
+- 工作分支：claude/funny-einstein-uvvmk5（本地；待推送至 remote）
+- 确认当前知识库最新文章：#142（2026-09-12 LLPS 文章）
+- 确认今日知识库连续性日期：2026-09-13
+- 确认无 2026-09-13 文章存在（正常，未重复运行）
+
+### Step A：主题选择
+- 选题：额叶眼区（FEF）通过振荡与层特异性反馈实现偏置竞争
+- 选题逻辑：从分子层（#142 LLPS）转向系统/认知层；填补图谱中 frontal-eye-field 和 feature-based-attention 空白节点；连接已有 biased-competition、dorsal-attention-network、gamma-oscillations、alpha-oscillations 页面
+- 关键概念：FEF γ 同步（Gregoriou 2012）、FEF α 控制（Marshall 2015）、层特异性光遗传（Hüer 2024）、特征 vs 空间注意分离（Bichot 2019）、CTC 挑战（Spyropoulos 2024）
+
+### Step B：文献检索与来源获取
+- 主要来源（9 篇全文开放获取 via PMC）：
+  - PMID:9770219 / PMC1692333 - Desimone 1998（偏置竞争综述，**全文**）
+  - PMID:20303256 / PMC2901796 - Noudoost et al. 2010（FEF 注意控制综述，**全文**）
+  - PMID:22325208 / PMC3297082 - Gregoriou et al. 2012（FEF-V4 γ 同步，**全文**）
+  - PMID:25632139 / PMC4308606 - Marshall et al. 2015（FEF TMS-MEG α/γ 控制，**全文**）
+  - PMID:31844117 / PMC6915702 - Bichot et al. 2019（VPA 特征注意，**全文**）
+  - PMID:28532368 / PMC8279254 - Maunsell 2015（神经注意机制综述，**全文**）
+  - PMID:33741947 / PMC7979788 - Veniero et al. 2021（FEF β 相位重置，**全文**）
+  - PMID:38194453 / PMC10801865 - Hüer et al. 2024（通路选择性光遗传，**全文**）
+  - PMID:38759641 / PMC7616856 - Spyropoulos et al. 2024（前向/反馈通路细胞特异性，**全文**）
+- 摘要限制来源（2 篇）：
+  - PMID:7605061 - Desimone & Duncan 1995（经典偏置竞争，摘要，机构订阅）
+  - PMID:13679398 - Moore & Fallah 2004（FEF 微电刺激，摘要，机构订阅）
+- 禁止事项合规：无 Sci-Hub 使用；无全文强制访问；无编造数据；所有全文仅使用开放获取 PMC 来源
+
+### Step C：文章撰写
+- 文件：`neuro-daily/articles/2026-09-13-fef-attention-oscillatory-feedback-biased-competition.md`
+- 约 4500+ 字（中文），涵盖：偏置竞争理论背景、FEF 微电刺激因果证明、γ 同步机制、α 抑制机制、层特异性光遗传定量、特征 vs 空间注意分离、CTC 挑战
+- 配置项完整：概念卡、认知地图节点更新、未解问题（5 个）、11 篇参考文献（9 全文+2 摘要）
+
+### Step D：阅读笔记
+- 文件：`neuro-daily/notes/2026-09-13-reading-notes.md`
+- 9 篇全文来源详细记录；2 篇摘要来源标注获取程度
+
+### Step E：Wiki 固结
+
+#### 新建 Wiki 页（2 个）
+- `wiki/systems/frontal-eye-field.md`（status: established, confidence: high, rev1）
+  - 核心内容：FEF 解剖（BA8/BA6 前段）、三种注意机制（γ 同步/α 抑制/直接通路）、层特异性反馈、5 个 key sources
+- `wiki/concepts/feature-based-attention.md`（status: established, confidence: high, rev1）
+  - 核心内容：全局特征注意效应、VPA 控制特征注意（Bichot 2019）、特征 vs 空间注意双通路框架
+
+#### 修订 Wiki 页（4 个）
+- `wiki/concepts/biased-competition.md`：rev2 → rev3（新增 FEF 机制证据：Hüer 2024/Spyropoulos 2024/Bichot 2019；新增 frontal-eye-field/feature-based-attention 连接）
+- `wiki/concepts/dorsal-attention-network.md`：rev2 → rev3（新增振荡机制证据：Gregoriou 2012/Marshall 2015/Hüer 2024；新增 frontal-eye-field 专页连接）
+- `wiki/concepts/alpha-oscillations.md`：rev1 → rev2（新增 FEF TMS 因果控制 α 证据；related 新增 frontal-eye-field、biased-competition）
+- `wiki/concepts/gamma-oscillations.md`：rev5 → rev6（新增 FEF 视觉细胞特异性 γ 同步；前向 γ 靶向 PV interneurons；CTC 挑战）
+
+#### 图谱更新
+- `wiki/_graph.json`：节点 285 → 287，边 1650 → 1662
+- 新增节点：frontal-eye-field（systems/region）、feature-based-attention（concepts/mechanism）
+- 新增边（12 条）：
+  - frontal-eye-field → biased-competition（implements）
+  - frontal-eye-field → dorsal-attention-network（is-part-of）
+  - frontal-eye-field → gamma-oscillations（mechanism）
+  - frontal-eye-field → alpha-oscillations（mechanism）
+  - frontal-eye-field → feature-based-attention（controls）
+  - feature-based-attention → biased-competition（is-a）
+  - feature-based-attention → frontal-eye-field（controlled-by）
+  - feature-based-attention → dorsal-attention-network（interacts-with）
+  - biased-competition → frontal-eye-field（implements）
+  - biased-competition → feature-based-attention（includes）
+  - dorsal-attention-network → frontal-eye-field（contains）
+  - alpha-oscillations → frontal-eye-field（controlled-by）
+
+#### Index 更新
+- `wiki/index.md`：新增 systems 条目（frontal-eye-field）和 concepts 条目（feature-based-attention）；主题页总数 285 → 287
+
+#### CHANGELOG 更新
+- `wiki/CHANGELOG.md`：新增 2026-09-13 条目（2 new/4 revised/0 contested/287 nodes/1662 edges）
+
+### Step F：状态文件更新
+
+- `state/topic_ledger.json`：total_articles 142 → 143，新增 #143 条目
+- `state/unresolved_questions.md`：新增 Q-fef-01/02/03、Q-fba-01/02（5 个新问题）
+- `state/maturity_index.json`：新增 frontal-eye-field/feature-based-attention 条目；更新 biased-competition/dorsal-attention-network/alpha-oscillations/gamma-oscillations 的 last_changed
+- `state/monthly_synthesis.md`：新增 2026-09-13 日条目
+- `state/source_registry.json`：新增 sources_2026-09-12（8 sources）和 sources_2026-09-13（11 sources）
+
+### Step G：Git 提交与推送
+- 提交命令：`git commit -m "Add neuro daily article + wiki consolidation for 2026-09-13"`
+- 推送：`git push -u origin claude/funny-einstein-uvvmk5`
+
+---
+
+## 合规检查
+
+- ✅ 仓库：QIUYicong/neuro-daily-essays（非 lianyichuan/cqiuyicong）
+- ✅ 无 Sci-Hub 或 paywall 绕过
+- ✅ 无编造来源或数据
+- ✅ 9 篇全文来源（PMC 开放获取）；2 篇摘要限制（明确标注）
+- ✅ Git 作者：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+
+---
+
+## 新增未解问题汇总
+
+| ID | 优先级 | 关联页面 | 来源 |
+|----|--------|---------|------|
+| Q-fef-01 | 高 | frontal-eye-field, dorsal-attention-network | #143 |
+| Q-fef-02 | 中 | frontal-eye-field, gamma-oscillations | #143 |
+| Q-fef-03 | 中 | frontal-eye-field, gamma-oscillations | #143 |
+| Q-fba-01 | 中 | feature-based-attention, frontal-eye-field | #143 |
+| Q-fba-02 | 低-中 | feature-based-attention, dorsal-attention-network | #143 |

@@ -3140,3 +3140,26 @@
 **新增未解问题（0）**：综合文章确认了5个最重要的跨尺度开放问题（Q1-Q5），但不新增编号问题
 
 **知识库里程碑**：第20周综合 = 知识库从分子到意识完成一轮系统性覆盖的第一次元级审视
+
+---
+
+## 2026-09-13 · 文章 #143 · 偏置竞争的解剖学：额眼区如何通过振荡与层特异性反馈选择注意目标
+
+**新建 wiki 页（2个）**：
+- `systems/frontal-eye-field`（额眼区，rev1）：FEF 作为背侧注意网络核心节点，γ 振荡同步机制（Gregoriou 2012）、α 抑制机制（Marshall 2015）、层特异性反馈 L1/L5–6（Hüer 2024）、直接通路贡献 ~30%（光遗传定量）
+- `concepts/feature-based-attention`（特征注意，rev1）：VPA（FEF 腹侧邻居）控制特征注意而非空间注意（Bichot 2019）；与 FEF（空间注意）的解剖分离
+
+**修订 wiki 页（4个）**：
+- `concepts/biased-competition`（rev2 → rev3）：新增执行机制层面证据（FEF→V4 直接通路 ~30%、L2/3 兴奋性反馈先于 V1、VPA 特征注意分离）；新增 frontal-eye-field、feature-based-attention 连接
+- `concepts/dorsal-attention-network`（rev2 → rev3）：新增 FEF γ 同步（Gregoriou 2012）、α 抑制（Marshall 2015）、Hüer 2024 光遗传定量；新增 frontal-eye-field 专页连接
+- `concepts/alpha-oscillations`（rev1 → rev2）：新增 FEF TMS 因果控制 α 的 Marshall 2015 证据；related 新增 frontal-eye-field
+- `concepts/gamma-oscillations`（rev5 → rev6）：新增 FEF 视觉细胞特异性 γ 同步（Gregoriou 2012）；前馈 γ 靶向 PV 中间神经元而非兴奋性细胞（Spyropoulos 2024）；放电率优于 γ 相干性预测行为（对 CTC 挑战）
+
+**登记矛盾（0条）**：无新矛盾；Spyropoulos 2024 对 CTC 假说的挑战在 gamma-oscillations 页已如实记录（置信度/CTC 部分标注）
+
+**裁决矛盾（0条）**：无
+
+**图谱**：287节点 / 1662边（+2节点 frontal-eye-field、feature-based-attention；+13条边）
+
+**新增未解问题（5个）**：Q-fef-01（FEF→视觉皮层通路完整贡献分解）、Q-fef-02（猕猴 γ vs 人类 β 的物种/方法差异）、Q-fef-03（γ 相干是载体还是相关物）、Q-fba-01（VPA 向 V4 传递特征信号的机制）、Q-fba-02（人类 VPA 同源区鉴定）
+

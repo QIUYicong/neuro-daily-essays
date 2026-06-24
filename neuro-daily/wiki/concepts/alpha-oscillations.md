@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-22
-updated: 2026-07-22
-revision_count: 1
+updated: 2026-09-13
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition, behavior]
-related: [theta-gamma-coupling, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, thalamus, thalamocortical-circuit, sleep-spindles, pv-interneurons, dorsal-attention-network, cortical-layers, prefrontal-cortex]
+related: [theta-gamma-coupling, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, thalamus, thalamocortical-circuit, sleep-spindles, pv-interneurons, dorsal-attention-network, cortical-layers, prefrontal-cortex, frontal-eye-field, biased-competition]
 prerequisites: [thalamocortical-circuit, voltage-gated-calcium-channels, pv-interneurons, cortical-layers]
 opens_questions: [Q-theta-primate, Q-alpha-thalamic-vs-cortical, Q-alpha-c-vs-dprime]
 source_articles: [2026-07-22-alpha-oscillations-attention-wm]
@@ -109,7 +109,9 @@ Wianda & Ross (2019) WM三阶段：
 ## 修订历史
 
 - 2026-07-22 · 创建 · 基于《α振荡：视丘节拍器、感知闸门与人类工作记忆的抑制性容量机制》 · 初始置信度：高（注意/感知功能层），中（机制层与WM α-γ证据）
+- 2026-09-13 · 修订 · 基于《偏置竞争的解剖学》一文（#143）· 新增因果证据：FEF TMS（人类）因果控制对侧枕叶预期性 α 功率降低；右侧 FEF 额外控制刺激诱发 γ（左右 FEF 均控制 α）；key_sources 新增 PMID:25632139；related 新增 frontal-eye-field
 
 ## 来源文章
 
 - [[2026-07-22-alpha-oscillations-attention-wm]]
+- [[2026-09-13-fef-attention-oscillatory-feedback-biased-competition]]

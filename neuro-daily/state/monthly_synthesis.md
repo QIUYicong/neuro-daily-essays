@@ -32,6 +32,17 @@
 
 ---
 
+## 2026-09-13 日条目更新（文章 #143·偏置竞争解剖学×FEF振荡机制×层特异性反馈×特征vs空间注意分离×CTC挑战）
+
+**核心贡献**：本篇从分子层（#142 LLPS）跃升至系统层，聚焦额叶眼区（FEF）如何通过三种具体机制实现偏置竞争的注意控制。**机制一：FEF 微电刺激因果证明**——Moore & Fallah 2004 的次发放阈值刺激在严格视网膜拓扑性上因果提高 d'，确立了 FEF 是空间偏置信号的直接发生器。**机制二：γ 频段同步作为激励性偏置信号**——Gregoriou 2012 发现 FEF 视觉细胞（非运动细胞）与 V4 之间的 γ（60–100 Hz）相干性在注意时升高，γ 相干性变化先于 V4 放电率升高约 12 ms，支持 CTC 假说中注意信号通过 γ 同步路由的观点。**机制三：α 频段压制作为抑制性偏置信号**——Marshall 2015（TMS-MEG）因果证明 FEF 控制对侧枕叶预期性 α 功率降低（注意部署→激励），并通过 α 升高抑制被忽略视野（两侧 FEF 均控制 α；右侧 FEF 额外控制 γ）。**机制四：层特异性光遗传定量**——Hüer 2024 通路选择性光遗传学（注射 FLEX-ArchT 于 FEF，激活 MT 轴突末梢）首次定量 FEF→MT 直接通路贡献 ~30%；反馈末梢集中在 L1/L5-6（经典反馈层）；其余 70% 来源未知（Q-fef-01）。**机制五：特征 vs 空间注意解剖分离**——Bichot 2019 muscimol 失活 VPA（猕猴腹侧前额叶区）导致特征注意效应消失但空间注意保留，确立 DAN（FEF+IPS）= 空间注意、VPA = 特征注意的双通路框架。**CTC 挑战**——Spyropoulos 2024 发现 V1→V4 前向 γ 在注意时降低（非升高），L2/3 兴奋性细胞放电率比 γ 相干性更好地预测行为，提示 CTC 假说的复杂性（前向 vs 反馈 γ 功能不同，Q-fef-03）。
+
+**新建 wiki 页**（2 个）：systems/frontal-eye-field（established/high）、concepts/feature-based-attention（established/high）
+**修订 wiki 页**（4 个）：concepts/biased-competition（rev2→rev3）、concepts/dorsal-attention-network（rev2→rev3）、concepts/alpha-oscillations（rev1→rev2）、concepts/gamma-oscillations（rev5→rev6）
+**图谱**：285→287 节点，1650→1662 边（+12 边）
+**新增未解问题**：Q-fef-01（FEF 通路定量完整贡献）、Q-fef-02（人类 FEF γ vs β 物种差异）、Q-fef-03（γ 相干性 vs 放电率因果性）、Q-fba-01（VPA 特征模板神经机制）、Q-fba-02（人类 VPA 同源区鉴定）
+
+---
+
 ## 2026-09-12 日条目更新（文章 #142·液-液相分离×突触素囊泡储备库×PSD-95/SynGAP凝聚相×LTP相变机制×GluN2B→GluN2A发育切换×关键期物理门控）
 
 **核心贡献**：本篇从疾病轴（#137-#141 五篇）转向基础分子框架，建立液-液相分离（LLPS）作为突触组织的统一物理原理。**突触前端（突触素液相）**：突触素 IDR 在生理盐浓度下自发形成液态凝聚体（Milovanovic 2018，PMC6191856），通过电荷选择性捕获含负电磷脂的囊泡（储备池 ~80-90% SV）；Ca²⁺ 大量涌入 → CaMKII → 磷酸化 Syn IDR S2/S3 位点 → 液相在 τ≈5.9 s 内溶解 → 储备池动员；TKO（突触素 1/2/3 全敲除）小鼠终末 SV 聚集严重减少，证明液相是储备库必要条件。**突触后端（PSD 凝聚相）**：PSD-95 的三个 PDZ 结构域（多价支架）与 SynGAP 同源三聚体（多价配体）通过 LLPS 组织 PSD；SynGAP 密集富集在 PSD 凝聚相中持续激活 Ras-GAP 功能，抑制 ERK→AMPAR 插入。**LTP 相变机制**：Ca²⁺ → CaMKII 磷酸化 SynGAP → 亲和力下降 → SynGAP 集体从凝聚相逸散（相变）→ Ras 去抑制 → AMPAR 插入（SynGAP 集体逸散是 LTP 的相变维度，补充传统 CaMKII→GluA1 直接磷酸化机制）；激活的 CaMKII 自身可能形成凝聚体，作为"突触标签"物理基础。**GluN2B→GluN2A 发育切换**：GluN2B CTD 能参与 PSD-95 的 LLPS（液态 PSD = 高可塑性）；GluN2A CTD 不能（PSD 趋向凝胶/固态 = 关键期关闭的物理机制）；这一切换将关键期可塑性从"学习规则改变"延伸到"PSD 物理态变化"。**与 TDP-43 病理的桥接**：正常 LLPS（可逆液态凝聚体）vs 病理 LLPS（不可逆固态聚集体）构成同一物理框架的两端，是 #141→#142 的核心智识桥梁。

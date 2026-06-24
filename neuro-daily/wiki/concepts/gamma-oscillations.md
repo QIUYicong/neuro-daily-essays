@@ -6,8 +6,8 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-21
-revision_count: 5
+updated: 2026-09-13
+revision_count: 6
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular, synaptic, disease]
 related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, schizophrenia, sst-interneurons, cortical-layers]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
@@ -140,6 +140,7 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 - 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192；新增连接补充段落
 - 2026-07-20 · 修订 · 基于《篮状细胞打出节拍》一文 (#88) · 新增：ING/PING 分子机制深化（GABA-A τ_decay 作为频率时钟；Whittington 1995 ING 实验起点）、Sohal 2009 + Cardin 2009 光遗传因果证据、双层 γ 生成（Ainsworth 2011）、ING-PING 竞争（Viriyopase 2016）、SST+ 贡献（Antonoudiou 2020）、精神分裂症分子级联（Gonzalez-Burgos 2012）；新增 related 节点：schizophrenia, sst-interneurons, cortical-layers；新增 key_sources 8 个；新增未解问题 Q-gamma-ping-ling-01, Q-gamma-sst-pv
 - 2026-07-21 · 修订 · 基于《海马的节律钟表》一文 (#89) · 将 Q-gamma-capacity 从 opens_questions 移入 partially_resolved_questions（三层证据：Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）；Q-gamma-capacity 正文标注部分解答；新增 source_articles: 2026-07-21-theta-gamma-coupling-working-memory
+- 2026-09-13 · 修订 · 基于《偏置竞争的解剖学》一文（#143）· 新增：FEF 视觉细胞（非运动细胞）特异性与 V4 γ（35–60 Hz）同步（Gregoriou 2012, PMID:22325208）；V1→V4 前馈 γ 靶向 L4 PV 中间神经元而非兴奋性细胞（Spyropoulos 2024, PMID:38759641）；注意期间 L2/3 兴奋性细胞放电率对行为的预测力高于 γ 相干性（对 CTC 假说的挑战）；key_sources 新增 PMID:22325208、PMID:38759641；related 新增 frontal-eye-field、biased-competition；新增未解问题 Q-fef-gamma-vs-rate
 
 ## 连接补充（2026-07-04）
 

@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: high
 created: 2026-07-01
-updated: 2026-07-15
-revision_count: 2
+updated: 2026-09-13
+revision_count: 3
 dimensions: [cognition, whole-brain-network, brain-region, microcircuit]
-related: [dorsal-attention-network, working-memory, v1-primary-visual-cortex, attentional-blink, global-workspace-theory, transformer-self-attention, attractor-network, gain-control]
+related: [dorsal-attention-network, working-memory, v1-primary-visual-cortex, attentional-blink, global-workspace-theory, transformer-self-attention, attractor-network, gain-control, frontal-eye-field, feature-based-attention, gamma-oscillations, alpha-oscillations]
 prerequisites: [dorsal-attention-network, v1-primary-visual-cortex]
-opens_questions: []
-source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-15-brain-attention-transformer-qkv]
-key_sources: ["PMID:7605061", "PMID:11994752", "PMID:10376597", "PMID:4023713", "PMID:19186161"]
+opens_questions: [Q-fef-01, Q-fef-02, Q-fef-03, Q-fba-01]
+source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-15-brain-attention-transformer-qkv, 2026-09-13-fef-attention-oscillatory-feedback-biased-competition]
+key_sources: ["PMID:7605061", "PMID:11994752", "PMID:10376597", "PMID:4023713", "PMID:19186161", "PMID:38194453", "PMID:38759641", "PMID:31844117", "PMID:22325208"]
 ---
 
 # 偏置竞争模型 (Biased Competition Model)
@@ -52,6 +52,9 @@ key_sources: ["PMID:7605061", "PMID:11994752", "PMID:10376597", "PMID:4023713", 
 | 注意恢复竞争（偏置有效） | 猕猴单单元记录 + 注意任务 | Reynolds et al. 系列 | 高 |
 | 偏置信号来自前额叶-顶叶 DAN | fMRI + 微电刺激（FEF） | Corbetta & Shulman 2002 | 高 |
 | 乘法增益是偏置的计算形式 | 猕猴 MT 方向调谐曲线 | Treue & Trujillo 1999, PMID:10376597 | 高 |
+| FEF→V4 直接通路贡献 ~30% 注意调制 | 猕猴通路选择性光遗传学 | Hüer et al. 2024, PMID:38194453 | 中-高 |
+| 注意反馈靶向 V4 L2/3 兴奋性细胞（先于 V1）| 细胞类型特异性光遗传学 + 猕猴 V4 记录 | Spyropoulos et al. 2024, PMID:38759641 | 中-高 |
+| 特征注意和空间注意由不同前额子区控制 | 猕猴 VPA 失活（muscimol）+ V4 记录 | Bichot et al. 2019, PMID:31844117 | 高 |
 
 ## 与 Transformer softmax 竞争的类比
 
@@ -70,6 +73,8 @@ key_sources: ["PMID:7605061", "PMID:11994752", "PMID:10376597", "PMID:4023713", 
 ## 连接
 
 - [[dorsal-attention-network]] — DAN（FEF+IPS）是产生偏置信号的解剖实体
+- [[frontal-eye-field]] — FEF 是偏置信号的主要来源；通过 γ 同步和 α 抑制施加偏置
+- [[feature-based-attention]] — 特征注意是偏置竞争的"特征维度偏置"实例；由 VPA 控制
 - [[working-memory]] — 工作记忆维持目标信息，提供持续的偏置信号来源
 - [[v1-primary-visual-cortex]] — V1 是竞争发生的早期感觉皮层层级
 - [[attentional-blink]] — 注意瞬盲是竞争资源（Stage 2 工作记忆巩固）被占用的表现
@@ -77,6 +82,8 @@ key_sources: ["PMID:7605061", "PMID:11994752", "PMID:10376597", "PMID:4023713", 
 - [[transformer-self-attention]] — softmax 注意力权重 = 偏置竞争的计算模型类比（详见专页）
 - [[attractor-network]] — 竞争-选择过程的吸引子动力学视角
 - [[gain-control]] — 乘法增益控制是偏置竞争的实现机制；除法归一化模型（Reynolds & Heeger 2009）
+- [[gamma-oscillations]] — FEF 视觉细胞通过 γ 同步传递注意偏置信号到 V4
+- [[alpha-oscillations]] — FEF 通过 α 升高压制被忽略视野的神经活动
 
 ## 未解问题
 
@@ -86,6 +93,7 @@ key_sources: ["PMID:7605061", "PMID:11994752", "PMID:10376597", "PMID:4023713", 
 
 - 2026-07-01 · 创建 · 基于《空间注意的神经回路》一文 · 来源：Desimone & Duncan 1995, Corbetta & Shulman 2002, Treue & Trujillo 1999 · 初始置信度：高
 - 2026-07-15 · 修订 · 基于《同一个算法，两种实现》一文 · 新增"与 Transformer softmax 竞争的类比"一节，对比 softmax 归一化 vs 除法归一化的差异（Reynolds & Heeger 2009）；key_sources 新增 PMID:4023713, PMID:19186161；related 新增 transformer-self-attention、attractor-network、gain-control
+- 2026-09-13 · 修订 · 基于《偏置竞争的解剖学》一文（#143）· 新增"执行机制"证据：FEF→V4 直接通路贡献 ~30%（Hüer 2024）、L2/3 兴奋性细胞反馈先于 V1（Spyropoulos 2024）、VPA 特征注意分离（Bichot 2019）；新增 frontal-eye-field、feature-based-attention、gamma-oscillations、alpha-oscillations 连接；key_sources 新增 4 篇来源
 
 ## 来源文章
 

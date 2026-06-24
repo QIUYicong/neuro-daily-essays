@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-12（第142篇·液-液相分离·突触后密度·突触素·PSD-95/SynGAP相变·LTP相变机制·GluN2B→GluN2A发育切换）· 主题页总数：**283**（新建3页：concepts/liquid-liquid-phase-separation、concepts/postsynaptic-density、neurons/synapsin；修订3页：ltp rev12、tdp-43-pathology rev2；图谱285节点/1650边）
+> 最后更新：2026-09-13（第143篇·额眼区·特征注意·偏置竞争机制·FEF→V4 γ振荡同步·α振荡抑制·层特异性反馈·光遗传定量）· 主题页总数：**285**（新建2页：systems/frontal-eye-field、concepts/feature-based-attention；修订4页：biased-competition rev3、dorsal-attention-network rev3、alpha-oscillations rev2、gamma-oscillations rev6；图谱287节点/1662边）
 
 ---
 
@@ -118,6 +118,7 @@
 - 🟢 [超直接通路](concepts/hyperdirect-pathway.md) — rIFG/preSMA→STN单突触直接制动回路（2.2 ms，~25 m/s）；跳过纹状体；STN→GPi发散投射产生全局运动抑制；与间接通路形成速度vs精度互补 **[NEW 2026-08-19]**
 - 🟢 [γ振荡（30–80 Hz）](concepts/gamma-oscillations.md) — ING（纯抑制网络）与 PING（兴奋-抑制反馈）双机制；GABA-A τ_decay 是振荡频率的分子时钟（τ≈5ms→快γ，τ≈15ms→慢γ）；Sohal/Cardin 2009 光遗传学因果证明；PV/SST 双贡献；精神分裂症 GAD67 级联 **[NEW 2026-06-05 · 修订 rev4 2026-07-20]**
 - 🔵 [意识点燃](concepts/consciousness-ignition.md) — 全有全无的非线性临界翻转；~270-300ms 前额顶叶激活；注意双要求机制；P3b EEG标志（地位存疑）；GWT核心机制节点 **[修订 2026-05-31]**
+- 🟢 [特征注意](concepts/feature-based-attention.md) — 基于特征（颜色/方向等）而非空间位置的选择机制；由腹侧弓前区（VPA，FEF 腹侧邻居）控制（Bichot 2019 VPA 失活因果证据）；特征增益遍布全视野（特征相似性增益模型，Treue 1999）；与 FEF 的空间注意解剖分离 **[NEW 2026-09-13]**
 - 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口 **[NEW 2026-05-31]**
 - 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；八层分层贝叶斯预测机器架构；五月月报整合后修订 **[修订 2026-05-31]**
 - 🟢 [变分自编码器](concepts/variational-autoencoder.md) — Kingma & Welling 2014的深度生成模型；ELBO（重建误差 + KL散度）目标与弗里斯顿变分自由能数学等价；编码器≈识别模型 $q(z|x)$，解码器≈生成模型 $p(x|z)$；两者都在解同一个贝叶斯推理问题 **[NEW 2026-07-13]**
@@ -265,6 +266,7 @@
 - 🟢 [导水管周围灰质（PAG）](systems/periaqueductal-gray.md) — 内源性阿片镇痛系统核心枢纽；PAG电刺激→全身镇痛→纳洛酮阻断（内源性阿片因果证据）；vlPAG GABA能→去抑制机制；RVM ON/OFF-cells分工（镇痛/促痛）；ACC/下丘脑/杏仁核→PAG整合；急性疼痛OFF-cells主导→慢性疼痛ON-cells过度激活 **[NEW 2026-08-02]**
 - 🟢 [上丘（SC）](systems/superior-colliculus.md) — 脊椎动物中脑多感觉整合的皮层下主节点；浅层（视网膜输入）vs 深层（视听触多感觉神经元）层状结构；Stein-Meredith 三条规则（空间/时间/逆效应性）；皮层（AES）依赖性使能；半盲恢复临床转化 **[NEW 2026-07-30]**
 - 🟢 [基底节（区间计时视角）](systems/basal-ganglia.md) — 以区间计时为核心的系统层级视角：MSN ~1/3 显示斜坡放电；D1-MSN 递减/D2-MSN 递增的对立动力学（Bruce 2025 eLife 光遗传因果证据，R²=0.95 漂移扩散模型）；纹状体-丘脑-皮层节拍计时回路；帕金森病计时障碍机制 **[NEW 2026-07-31]**（另见 [[circuits/basal-ganglia]] 运动选择视角）
+- 🟢 [额眼区（FEF）](systems/frontal-eye-field.md) — 背侧注意网络核心节点；γ 振荡（35–60 Hz）与 V4 注意同步（细胞类型特异：视觉细胞而非运动细胞，Gregoriou 2012）；因果控制枕叶 α 降低（TMS-MEG 证明，Marshall 2015）；直接 FEF→MT 通路贡献 ~30% 注意调制（通路选择性光遗传学，Hüer 2024）；反馈终止 L1/L5–6 **[NEW 2026-09-13]**
 - 🟢 [颞顶联合区（TPJ）](systems/temporoparietal-junction.md) — 前-后轴分工：pTPJ（信念推断/视角转换，右侧化）vs aTPJ（注意定向，VAN 节点）；与 DAN（FEF/IPS）动态拮抗；进化：灵长类 TPJ 体积与社会群体大小正相关；临床：右 TPJ 损伤→偏侧空间忽视+社会认知障碍；TPJ 功能是否专一于 ToM 仍有争议（Q-tom-01）**[NEW 2026-08-01]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；BLA-LA 再巩固去稳定化分子链；皮质内侧核Proust效应解剖基础；**rev7新增**：vmPFC→杏仁核负向有效连接（认知重评+恐惧消退双机制）；Steward 2021 DCM量化**[修订 rev6→rev7 2026-08-25]**
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；**新增**：DG 新生神经元主动参与 HPA 负反馈（Snyder 2011）+FKBP51 遗传门控+AHN-HPA 双向恶性循环（2026-08-27 rev2）；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09 · 修订 rev2 2026-08-27]**

@@ -773,5 +773,47 @@
     "confidence": "high",
     "last_changed": "2026-09-12",
     "reason": "修订 rev2：新增 liquid-liquid-phase-separation 连接（TDP-43 病理是正常可逆 LLPS 向不可逆固态聚集的相变失控）；状态和置信度维持 established/high"
+  },
+  {
+    "slug": "frontal-eye-field",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-13",
+    "reason": "新建（文章 #143，2026-09-13）：FEF 作为视觉注意控制区有几十年猕猴电刺激/记录证据；Moore & Fallah 2004 因果证明；Gregoriou 2012 γ 同步机制；Marshall 2015 人类 TMS-MEG α 控制；Hüer 2024 光遗传定量 ~30% 贡献；定为 established/high"
+  },
+  {
+    "slug": "feature-based-attention",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-13",
+    "reason": "新建（文章 #143，2026-09-13）：特征注意（非空间）作为独立机制的 psychophysics 证据充分；Bichot 2019 VPA 失活的因果分离实验是高质量研究；全局特征注意效应（McAdams & Maunsell）有猕猴电生理支持；定为 established/high"
+  },
+  {
+    "slug": "biased-competition",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-09-13",
+    "reason": "修订 rev3：新增 FEF→V4 直接通路定量（Hüer 2024 ~30%）、V4 L2/3 反馈靶向（Spyropoulos 2024）、VPA 特征注意分离（Bichot 2019）；状态维持 mainstream/high"
+  },
+  {
+    "slug": "dorsal-attention-network",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-13",
+    "reason": "修订 rev3：新增 FEF γ 同步（Gregoriou 2012）、α 控制（Marshall 2015）、直接通路光遗传定量（Hüer 2024）；新建 frontal-eye-field 专页；状态维持 established/high"
+  },
+  {
+    "slug": "alpha-oscillations",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-13",
+    "reason": "修订 rev2：新增因果证据 FEF TMS（Marshall 2015）因果控制对侧枕叶预期性 α 功率降低；右侧 FEF 额外控制刺激诱发 γ；状态维持 established/high"
+  },
+  {
+    "slug": "gamma-oscillations",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-13",
+    "reason": "修订 rev6：新增 FEF 视觉细胞（非运动细胞）特异性 γ 同步（Gregoriou 2012）；前向 γ 靶向 PV interneurons（Spyropoulos 2024）；放电率 > γ 相干性预测行为（CTC 挑战）；状态维持 established/high"
   }
 ]

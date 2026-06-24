@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-01
-updated: 2026-07-15
-revision_count: 2
+updated: 2026-09-13
+revision_count: 3
 dimensions: [brain-region, whole-brain-network, cognition, behavior]
 related: [working-memory, prefrontal-cortex, v1-primary-visual-cortex, thalamus, thalamocortical-circuit, biased-competition, attentional-blink, global-workspace-theory, predictive-coding, transformer-self-attention, attractor-network]
 prerequisites: [prefrontal-cortex, v1-primary-visual-cortex, thalamus]
 opens_questions: [Q-dan-01, Q-dan-02, Q-dan-03]
-source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-15-brain-attention-transformer-qkv]
-key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965", "PMID:17417935", "arXiv:2008.02217", "DOI:10.1371/journal.pcbi.1011843"]
+source_articles: [2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-15-brain-attention-transformer-qkv, 2026-09-13-fef-attention-oscillatory-feedback-biased-competition]
+key_sources: ["PMID:11994752", "PMID:20192813", "PMID:13679398", "PMID:36730414", "PMID:10376597", "PMID:42125965", "PMID:17417935", "arXiv:2008.02217", "DOI:10.1371/journal.pcbi.1011843", "PMID:38194453", "PMID:22325208", "PMID:25632139"]
 ---
 
 # 背侧注意网络（Dorsal Attention Network, DAN）
@@ -78,6 +78,9 @@ FEF/IPS 也投射到视丘网状核（TRN），通过皮层-视丘回路传递�
 | V4→V1 反馈是 V1 注意调制的必要通道 | 猕猴 AAV 反馈末梢标记 + 光遗传抑制 | Debes & Dragoi 2023, PMID:36730414 | 高（需重复）|
 | 注意通过乘法增益调制 MT 神经元 | 猕猴 MT 方向调谐曲线测量 | Treue & Trujillo 1999, PMID:10376597 | 高 |
 | 人类 fMRI 确认 FEF/IPS 在空间注意中的角色 | 人类 fMRI + Posner 线索任务 | Chen et al. 2026, PMID:42125965 | 中-高 |
+| FEF→MT 直接通路贡献 ~30% 注意调制效应 | 猕猴通路选择性光遗传学（病毒标记 FEF 轴突+MT 激光） | Hüer et al. 2024, PMID:38194453 | 中-高 |
+| FEF 视觉细胞（非运动细胞）与 V4 注意 γ 同步 | 猕猴 FEF+V4 同时双区记录 + LFP 相干性 | Gregoriou et al. 2012, PMID:22325208 | 高 |
+| FEF 因果控制枕叶预期性 α 降低 | 人类 TMS-MEG | Marshall et al. 2015, PMID:25632139 | 中-高 |
 
 ## DAN 与 Transformer Q/K/V 的类比
 
@@ -105,19 +108,23 @@ Knudsen（2007, PMID:17417935）将注意力分解为四个组件：工作记忆
 - [[predictive-coding]] — 注意 = 感觉精度的主动上调（DAN 是精度加权的硬件）
 - [[transformer-self-attention]] — DAN 信号 = 生物 Query；感觉皮层特征 = 生物 K/V；完整类比见专页
 - [[attractor-network]] — FEF 的吸引子动力学维持目标模板（Query 向量的生物基础）
+- [[frontal-eye-field]] — FEF 专页（2026-09-13 新建）：详述 FEF 振荡机制、层特异性反馈、细胞类型特异性
 
 ## 未解问题
 
 - Q-dan-01：FEF→V4 皮层通路 vs FEF→TRN 丘脑通路的相对速度和贡献比较
-- Q-dan-02：人类 FEF 与猕猴 FEF 的精确功能同源性
+- Q-dan-02：人类 FEF 与猕猴 FEF 的精确功能同源性（人类猕猴 γ vs β 频率差异的机制）
 - Q-dan-03：DAN 是否调控全局警觉状态，还是只负责局部位置注意
 - Q-thalamus-burst-awake：清醒视丘爆发放电与 DAN 注意转移的关系（已登记）
+- Q-fef-01（从 frontal-eye-field 页引入）：其余 70% 注意信号的解剖来源
 
 ## 修订历史
 
 - 2026-07-01 · 创建 · 基于《空间注意的神经回路》一文 · 来源：Corbetta & Shulman 2002, Bisley & Goldberg 2010, Moore & Fallah 2004, Debes & Dragoi 2023, Treue & Trujillo 1999 · 初始置信度：高
 - 2026-07-15 · 修订 · 基于《同一个算法，两种实现》一文 · 新增"DAN 与 Transformer Q/K/V 的类比"一节（Knudsen 2007 四组件框架与 Q/K/V 的对应）；related 新增 transformer-self-attention、attractor-network；key_sources 新增 PMID:17417935、arXiv:2008.02217、DOI:10.1371/journal.pcbi.1011843
+- 2026-09-13 · 修订 · 基于《偏置竞争的解剖学》一文（#143）· 新增 FEF 振荡机制证据（γ 同步 Gregoriou 2012、α 抑制 Marshall 2015）和 Hüer 2024 光遗传定量（~30%）；新增 frontal-eye-field 专页连接；related 更新 Q-fef-01 作为 Q-dan-01 延伸
 
 ## 来源文章
 
 - [[2026-07-01-dorsal-attention-network-FEF-IPS]]
+- [[2026-09-13-fef-attention-oscillatory-feedback-biased-competition]]
