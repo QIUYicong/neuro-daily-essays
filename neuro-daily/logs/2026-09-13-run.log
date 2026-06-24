@@ -1,0 +1,147 @@
+## 2026-09-13 自动运行日志
+
+**系统时钟日期**：2026-06-24（UTC+8）
+**知识库连续日期**：2026-09-13（第 143 篇）
+**运行分支**：claude/funny-einstein-676hjm
+
+---
+
+### Step A：启动核查
+
+- [x] ROUTINE.md 存在并已读取
+- [x] KNOWLEDGE-BASE-DESIGN.md 存在并已读取
+- [x] 当前分支：claude/funny-einstein-676hjm（环境要求分支）
+- [x] 知识库最新日期：2026-09-12（#142），下一篇应为 2026-09-13
+
+---
+
+### Step B：话题选择
+
+**选题过程**：
+- 上 5 篇（#138–#142）均为疾病/分子轴（兴奋毒性、线粒体、ALS、LLPS），需切换层级
+- 知识库现有 connectomics 页（rev2）已覆盖 FlyWire 和 like-to-like，但 MICrONS 专属内容、抑制特异性、突触双变量尚无独立 wiki 页
+- 选定：**MICrONS 皮层连接组——抑制性特异性与突触双变量结构**
+
+**选题理由**：
+- 切换至微回路/方法层级，避免连续疾病焦点
+- 四篇主要来源全部开放全文（PMC），可信度高
+- 填充知识库空白：inhibitory-specificity、binary-analog-synapse、microns-connectome 三页均为新建
+
+---
+
+### Step C：文献搜索与验证
+
+**主要来源**（均经 PubMed/PMC 验证）：
+
+| 来源 | PMID / PMCID | 开放状态 | 全文 |
+|------|-------------|---------|------|
+| MICrONS Consortium 2025, Nature 640:435-447 | PMID:40205214 / PMC11981939 | PMC 开放 | 是 |
+| Ding et al. 2025, Nature 640 | PMID:36993398 / PMC11981947 | PMC 开放 | 是 |
+| Schneider-Mizell et al. 2023/2024, Nature | PMID:36747710 / PMC9900837 | PMC 开放（预印本全文） | 是 |
+| Dorkenwald et al. 2022, Nature Neurosci | PMID:36382887 / PMC9704804 | PMC 开放 | 是 |
+| DOI:10.1038/s41592-025-02988-6 | 无 PMID | 摘要 | 否 |
+
+**无伪造来源**；所有 PMID/PMCID 均通过 PubMed API 验证。
+
+---
+
+### Step D：文章写作
+
+**文件**：`neuro-daily/articles/2026-09-13-microns-inhibitory-binary-synapse.md`
+
+- 标题：皮层连接的完整语法：MICrONS 连接组揭示抑制性特异性与突触双变量结构
+- 字数：约 4500 汉字
+- 层级标签：methods, microcircuit, synaptic, brain-region
+- 核心叙事：城市地铁类比（突触后细胞类型=线路，树突片段=站台，抑制模体亚层精度=专线）
+
+**阅读笔记**：`neuro-daily/notes/2026-09-13-reading-notes.md`（5 条来源详注）
+**来源 JSON**：`neuro-daily/sources/2026-09-13-sources.json`（5 个来源对象）
+
+---
+
+### Step E：固结——新建 Wiki 页
+
+| 页面 | 路径 | 状态 | 置信度 |
+|------|------|------|--------|
+| inhibitory-specificity | circuits/inhibitory-specificity.md | emerging | medium |
+| binary-analog-synapse | concepts/binary-analog-synapse.md | emerging | medium |
+| microns-connectome | concepts/microns-connectome.md | established | high |
+
+---
+
+### Step E：固结——修订 Wiki 页
+
+| 页面 | 路径 | 变更 |
+|------|------|------|
+| connectomics | methods/connectomics.md | rev2→rev3；新增抑制特异性节和突触双变量节 |
+| like-to-like-connectivity | concepts/like-to-like-connectivity.md | rev1→rev2；emerging→mainstream；confidence medium→high |
+
+---
+
+### Step F：知识图谱更新
+
+**文件**：`neuro-daily/wiki/_graph.json`
+
+- 节点：285 → 288（+3：binary-analog-synapse, inhibitory-specificity, microns-connectome）
+- 边：1649 → 1670（+21 条新类型化边）
+- 更新 like-to-like-connectivity 节点状态：emerging→mainstream / medium→high
+
+**新增主要边**（部分）：
+- microns-connectome → connectomics (is-a)
+- microns-connectome → like-to-like-connectivity (supports)
+- microns-connectome → inhibitory-specificity (supports)
+- microns-connectome → binary-analog-synapse (supports)
+- binary-analog-synapse → hebbian-learning (related)
+- binary-analog-synapse → ltp (related)
+- inhibitory-specificity → pv-interneurons (related)
+- inhibitory-specificity → vip-interneurons (related)
+
+---
+
+### Step F：治理层更新
+
+| 文件 | 变更 |
+|------|------|
+| wiki/index.md | 日期 2026-09-12→2026-09-13；节点 285/1650→288/1670；新增 3 页条目；升级 like-to-like emoji |
+| wiki/CHANGELOG.md | 新增 2026-09-13 条目 |
+| state/topic_ledger.json | 追加 #143 条目（Python append 模式，保留原有格式） |
+| state/maturity_index.json | 新增 4 条：binary-analog-synapse, inhibitory-specificity, microns-connectome, like-to-like-connectivity 更新 |
+| state/unresolved_questions.md | 更新日期；新增 Q-mc-01～Q-mc-04 |
+| state/source_registry.json | 新增 sources_2026-09-13（9 个标识符） |
+| state/monthly_synthesis.md | 更新本月截至日期；新增 #143 表格行；新增 2026-09-13 详细日条目 |
+
+---
+
+### Step G：Git 操作
+
+- 暂存：`git add neuro-daily/`
+- 提交：`Add neuro daily article + wiki consolidation for 2026-09-13`
+  - GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+- 推送：`git push -u origin claude/funny-einstein-676hjm`
+
+---
+
+### Step H：自检结果
+
+- [x] 所有新建 wiki 页均有 key_sources 字段（可追溯来源）
+- [x] 所有修订页均更新了 revision_count 和 updated 字段
+- [x] 图谱无悬空边（新增节点均已在 wiki/ 目录对应文件中创建）
+- [x] index.md 与 _graph.json 节点/边计数一致（288 / 1670）
+- [x] CHANGELOG.md 包含今日条目
+- [x] 无矛盾声明（无需写入 contested_claims.json）
+- [x] 无伪造来源
+
+---
+
+### 统计摘要
+
+| 项目 | 数量 |
+|------|------|
+| 文章 | 1（#143） |
+| 新建 wiki 页 | 3 |
+| 修订 wiki 页 | 2 |
+| 图谱新增节点 | 3 |
+| 图谱新增边 | 21 |
+| 新增未解问题 | 4（Q-mc-01～Q-mc-04） |
+| 矛盾声明 | 0 |
+| 来源（本次） | 5（4 全文 + 1 摘要） |

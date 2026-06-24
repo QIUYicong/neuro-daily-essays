@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "node_count": 285,
   "edge_count": 1650,
   "edge_types": [
@@ -795,7 +795,8 @@
       "type": "method",
       "status": "established",
       "confidence": "high",
-      "page": "wiki/methods/connectomics.md"
+      "page": "wiki/methods/connectomics.md",
+      "updated": "2026-09-13"
     },
     {
       "id": "circuit-motifs",
@@ -1849,8 +1850,8 @@
       "title": "同类相连",
       "domain": "concepts",
       "type": "concept",
-      "status": "emerging",
-      "confidence": "medium",
+      "status": "mainstream",
+      "confidence": "high",
       "page": "wiki/concepts/like-to-like-connectivity.md"
     },
     {
@@ -2607,6 +2608,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/synapsin.md"
+    },
+    {
+      "id": "binary-analog-synapse",
+      "title": "突触二进制-模拟双变量模型",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/binary-analog-synapse.md"
+    },
+    {
+      "id": "inhibitory-specificity",
+      "title": "抑制性特异性",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/circuits/inhibitory-specificity.md"
+    },
+    {
+      "id": "microns-connectome",
+      "title": "MICrONS 皮层连接组项目",
+      "domain": "concepts",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/microns-connectome.md"
     }
   ],
   "edges": [
@@ -11862,6 +11890,111 @@
       "to": "liquid-liquid-phase-separation",
       "type": "is-a",
       "note": "PSD 是 LLPS 原则在突触后的具体实现（PSD-95/SynGAP 凝聚体）"
+    },
+    {
+      "from": "binary-analog-synapse",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "binary-analog-synapse",
+      "to": "synaptic-transmission",
+      "type": "related"
+    },
+    {
+      "from": "binary-analog-synapse",
+      "to": "hebbian-learning",
+      "type": "related"
+    },
+    {
+      "from": "binary-analog-synapse",
+      "to": "postsynaptic-density",
+      "type": "related"
+    },
+    {
+      "from": "binary-analog-synapse",
+      "to": "like-to-like-connectivity",
+      "type": "related"
+    },
+    {
+      "from": "binary-analog-synapse",
+      "to": "connectomics",
+      "type": "supports"
+    },
+    {
+      "from": "binary-analog-synapse",
+      "to": "stdp",
+      "type": "related"
+    },
+    {
+      "from": "inhibitory-specificity",
+      "to": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "inhibitory-specificity",
+      "to": "sst-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "inhibitory-specificity",
+      "to": "vip-interneurons",
+      "type": "related"
+    },
+    {
+      "from": "inhibitory-specificity",
+      "to": "disinhibitory-circuit",
+      "type": "related"
+    },
+    {
+      "from": "inhibitory-specificity",
+      "to": "cortical-canonical-microcircuit",
+      "type": "related"
+    },
+    {
+      "from": "inhibitory-specificity",
+      "to": "connectomics",
+      "type": "supports"
+    },
+    {
+      "from": "inhibitory-specificity",
+      "to": "cortical-layers",
+      "type": "related"
+    },
+    {
+      "from": "microns-connectome",
+      "to": "connectomics",
+      "type": "is-a"
+    },
+    {
+      "from": "microns-connectome",
+      "to": "like-to-like-connectivity",
+      "type": "supports"
+    },
+    {
+      "from": "microns-connectome",
+      "to": "inhibitory-specificity",
+      "type": "supports"
+    },
+    {
+      "from": "microns-connectome",
+      "to": "binary-analog-synapse",
+      "type": "supports"
+    },
+    {
+      "from": "microns-connectome",
+      "to": "v1-primary-visual-cortex",
+      "type": "related"
+    },
+    {
+      "from": "microns-connectome",
+      "to": "cortical-canonical-microcircuit",
+      "type": "related"
+    },
+    {
+      "from": "microns-connectome",
+      "to": "cnn-visual-cortex-analogy",
+      "type": "related"
     }
   ],
   "dangling_references": [

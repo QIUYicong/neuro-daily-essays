@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-09-13 · 文章 #143 · 皮层连接的完整语法：MICrONS 连接组的抑制性特异性与突触双变量结构
+
+**核心主题**：MICrONS 功能连接组三大发现深化版——（1）Schneider-Mizell 2023/2024：皮层抑制性中间神经元遵循 18 种细胞类型特异性接线模体，发现靶向篮细胞的"去抑制专家"新亚群，揭示亚层精度抑制模块化；（2）Dorkenwald 2022：L2/3 锥体-锥体突触大小呈双峰分布，可分解为协同二进制成分（phi=0.637，反映 Hebbian 历史）与随机模拟成分（蛋白周转噪声）；（3）like-to-like 原则从 emerging 升级为 mainstream。图谱从 285 节点/1649 边增至 **288 节点/1670 边**（+3 节点 +21 条新边）。
+
+### 新建 Wiki 页面（3 个）
+
+- `concepts/binary-analog-synapse.md` 🟡 emerging · 中置信度 — 突触大小双峰分布；二进制成分（Hebbian 历史，phi=0.637 协同）与模拟成分（随机独立）；双稳态突触支持；Q-mc-03（人类皮层是否同样？）、Q-mc-04（随机成分是功能性还是物理限制？）
+- `circuits/inhibitory-specificity.md` 🟡 emerging · 中置信度 — 18 种抑制接线模体群；靶向篮细胞的去抑制专家（在 VIP→SST 之外的新去抑制类型）；亚层精度（同层内部多个并行精确抑制模块）；Q-mc-01（发育起源）、Q-mc-02（推广到联合皮层？）
+- `concepts/microns-connectome.md` 🟢 established · 高置信度 — MICrONS 项目完整技术规格（200k 细胞、5.24 亿突触、26,652 切片、4nm 分辨率、~75k 功能配准神经元）；功能-结构配准独特性；四篇衍生论文摘要；开放数据资源
+
+### 修订 Wiki 页面（2 个）
+
+- `methods/connectomics.md` rev2→rev3 — 新增「抑制性连接特异性」节（18 模体群、去抑制专家）+ 「突触强度二进制-模拟双变量」节（phi=0.637、双稳态突触支持）；related 新增 3 个节点；key_sources 新增 4 条；source_articles 新增 #143
+- `concepts/like-to-like-connectivity.md` rev1→rev2 — 状态 emerging→**mainstream**，置信度 medium→**high**（MICrONS 主论文提供了跨多区域的更强支持）；source_articles 和 key_sources 新增
+
+### 矛盾登记/裁决（0 条）
+
+今日无新矛盾。二进制-模拟双变量发现是新的；与 LTP/LTD 经典框架的关系为"补充深化"而非冲突——LTP 改变 B 态（大/小），这与已有的 LTP = AMPAR 插入/移除框架相容。
+
+### 悬空引用变化
+
+- **本次新增悬空**：`bistable-synapse`（被 binary-analog-synapse 引用，待建）
+- **继续悬空**：`intrinsically-disordered-protein`、`ampa-receptor-trafficking`、`c9orf72-repeat-expansion`、`nucleocytoplasmic-transport`、`motor-neuron`、`reactive-oxygen-species`、`drp1`（多条）
+
+---
+
 ## 2026-09-12 · 文章 #142 · 突触的自组装奥秘：液-液相分离如何构建突触前储备库与突触后密度
 
 **核心主题**：液-液相分离（LLPS）作为突触组织原理——突触素 IDR 在突触前端通过 LLPS 形成液态凝聚体捕获囊泡储备库（CaMKII 磷酸化在 ~6 s 内溶解液相动员囊泡）；PSD-95/SynGAP 多价相互作用在突触后端形成凝聚相（SynGAP 三聚体富集其中持续抑制 Ras-ERK）；LTP 诱导 Ca²⁺→CaMKII 活化→SynGAP 集体从凝聚相逸散→Ras 去抑制→AMPAR 插入（相变维度的 LTP 机制）；GluN2B CTD 支持 LLPS 使 PSD 保持液态（高可塑性）、GluN2A CTD 不支持（凝胶/固态，关键期关闭）。图谱从 282 节点/1637 边增至 **285 节点/1650 边**（+3 节点 + 13 条新边）。

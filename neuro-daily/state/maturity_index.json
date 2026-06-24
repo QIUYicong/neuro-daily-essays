@@ -773,5 +773,33 @@
     "confidence": "high",
     "last_changed": "2026-09-12",
     "reason": "修订 rev2：新增 liquid-liquid-phase-separation 连接（TDP-43 病理是正常可逆 LLPS 向不可逆固态聚集的相变失控）；状态和置信度维持 established/high"
+  },
+  {
+    "slug": "binary-analog-synapse",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-09-13",
+    "reason": "新建（文章 #143，2026-09-13）：L2/3 锥体-锥体突触大小双峰分布 + 二进制成分高相关性（phi=0.637）是 MICrONS 数据直接测量结果，证据质量高；但仅来自单一数据集、单一细胞类型（L2/3 pyramidal），机制解释（二进制成分=Hebbian 历史）是推测尚未因果验证；定为 emerging/medium"
+  },
+  {
+    "slug": "inhibitory-specificity",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-09-13",
+    "reason": "新建（文章 #143，2026-09-13）：18 种接线模体的系统识别来自 MICrONS 高质量大规模重建（1352 神经元，70k+ 突触），形态学证据可靠；但功能含义（18 种模体各有何计算角色）尚未验证；去抑制专家亚群是首次报道，分子身份未确认；定为 emerging/medium"
+  },
+  {
+    "slug": "microns-connectome",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-13",
+    "reason": "新建（文章 #143，2026-09-13）：MICrONS 数据集已发表在 Nature（PMID:40205214），数据开放，已被多篇独立分析论文引用；技术规格（200k 细胞、5.24 亿突触）有清楚的来源；定为 established/high（数据集本身的存在和开放是确定的）"
+  },
+  {
+    "slug": "like-to-like-connectivity",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-09-13",
+    "reason": "修订（文章 #143，2026-09-13）：状态从 emerging 升级为 mainstream / medium 升级为 high。MICrONS 主论文（PMID:40205214，Nature 2025）明确将 like-to-like 列为 MICrONS 核心发现之一，并提供了跨多视觉区域的普遍性证据；同年多篇同行评审论文收敛于同一结论；RNN 计算验证提供了额外独立支持"
   }
 ]

@@ -8623,4 +8623,65 @@
     "system_clock_date": "2026-06-24",
     "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-12（第142篇液-液相分离·突触前后自组装）"
   }
+  ,
+  {
+  "date": "2026-09-13",
+  "article_number": 143,
+  "title": "皮层连接的完整语法：MICrONS 连接组揭示抑制性特异性与突触双变量结构",
+  "core_question": "在 MICrONS 小鼠视觉皮层 1.3×0.87×0.82 mm³ 体积内，抑制性神经元如何以 18 种细胞类型特异性接线模体（含靶向篮细胞的去抑制专家）实现精准靶向？兴奋性突触的强度如何分解为协同的二进制成分（Hebbian 历史，phi=0.637）和随机模拟成分（蛋白周转噪声），从而支持双稳态突触模型？",
+  "layer": "microcircuit/synaptic/methods",
+  "topic_tags": [
+    "MICrONS",
+    "connectomics",
+    "functional connectomics",
+    "inhibitory specificity",
+    "inhibitory interneurons",
+    "motif groups",
+    "去抑制专家",
+    "basket cells",
+    "binary analog synapse",
+    "bistable synapse",
+    "synaptic plasticity",
+    "like-to-like connectivity",
+    "Schneider-Mizell 2023",
+    "Dorkenwald 2022",
+    "cortical microcircuit",
+    "PV interneurons",
+    "SST interneurons",
+    "L2/3 pyramidal"
+  ],
+  "main_sources": [
+    "PMC11981939 (PMID:40205214) OPEN",
+    "PMC10054929 (PMID:36993398) OPEN",
+    "PMC9900837 (PMID:36747710) OPEN (preprint)",
+    "PMC9704804 (PMID:36382887) OPEN",
+    "DOI:10.1038/s41592-025-02988-6 abstract-only"
+  ],
+  "wiki_created": [
+    "concepts/binary-analog-synapse",
+    "circuits/inhibitory-specificity",
+    "concepts/microns-connectome"
+  ],
+  "wiki_revised": [
+    "methods/connectomics (rev2->rev3)",
+    "concepts/like-to-like-connectivity (rev1->rev2, emerging->mainstream)"
+  ],
+  "graph_update": "285 nodes+3=288 nodes; 1649 edges+21=1670 edges",
+  "unresolved_questions": [
+    "Q-mc-01 (高): 18 种抑制接线模体是如何在发育中建立的？分子亲和力 vs 活动依赖精细化的相对权重？",
+    "Q-mc-02 (高): 抑制性特异性能否推广到前额叶等联合皮层？",
+    "Q-mc-03 (中): 突触二进制成分是否适用于 L5/抑制性连接/人类皮层？",
+    "Q-mc-04 (中): 模拟成分的随机噪声是否有功能意义？"
+  ],
+  "next_suggested_topics": [
+    "活性氧（ROS）与氧化应激——神经元抗氧化系统",
+    "核质转运（nucleocytoplasmic transport）——C9orf72/DPR毒性机制深化",
+    "MICrONS 之后：功能预测的可能性与极限（接线图→功能预测的方法论闭环）",
+    "空间转录组学——从单细胞到空间组织",
+    "脑机接口（BCI）——Neuropixels 到皮层植入物的现状与前景"
+  ],
+  "knowledge_base_date": "2026-09-13",
+  "system_clock_date": "2026-06-24",
+  "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-13（第143篇 MICrONS 抑制特异性·突触双变量）"
+}
 ]

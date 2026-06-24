@@ -6,21 +6,24 @@ type: method
 status: established
 confidence: high
 created: 2026-06-18
-updated: 2026-08-06
-revision_count: 2
-dimensions: [methods, cellular, brain-region, whole-brain-network]
-related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, like-to-like-connectivity, rich-club-organization]
+updated: 2026-09-13
+revision_count: 3
+dimensions: [methods, cellular, brain-region, whole-brain-network, microcircuit]
+related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, like-to-like-connectivity, rich-club-organization, inhibitory-specificity, binary-analog-synapse, microns-connectome]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-conn-01, Q-conn-02, Q-conn-03]
-source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-06-connectomics-flywire-wiring-diagram]
+source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-06-connectomics-flywire-wiring-diagram, 2026-09-13-microns-inhibitory-binary-synapse]
 key_sources:
   - "PMID:22462104"
   - "PMID:34349261"
   - "PMID:39358518"
   - "PMID:33315010"
   - "PMID:40205214"
+  - "PMCID:PMC11981939"
   - "PMCID:PMC11981947"
   - "PMID:37547019"
+  - "PMID:36747710"
+  - "PMID:36382887"
 ---
 
 # 连接组学 (Connectomics)
@@ -89,6 +92,17 @@ key_sources:
 - AI 验证：训练于视觉分类任务的循环神经网络自发产生类似的 like-to-like 规律，破坏后性能下降
 
 **重要限制**：like-to-like 目前仅在小鼠视觉皮层验证；是否适用于前额叶、顶叶等联合皮层和人类大脑尚未知。
+
+**抑制性连接特异性（Schneider-Mizell et al., 2023/2024）**（PMID: 36747710，PMCID: PMC9900837，开放全文预印本）：
+- MICrONS 体积中 1,352 个神经元、70,000+ 抑制性突触的系统重建
+- 发现至少 **18 种抑制性接线模体群（motif groups）**，大幅超越 PV/SST/VIP 三分类
+- 意外发现一类"去抑制专家"优先靶向篮细胞（PV basket cells）而非兴奋性细胞
+- 揭示亚层精度：同一皮层层次内存在精确的空间功能模块化抑制
+
+**突触强度的二进制-模拟双变量（Dorkenwald et al., 2022）**（PMID: 36382887，PMCID: PMC9704804，全文开放）：
+- L2/3 锥体-锥体连接的突触大小呈**双峰分布**（而非连续对数正态）
+- 同一细胞对多突触的大小可分解为：**二进制成分（高相关，phi=0.637，反映 Hebbian 历史）** + **模拟成分（随机独立，反映蛋白随机周转）**
+- 支持双稳态突触（bistable synapse）模型，提示皮层权重存储接近二进制编码而非连续梯度
 
 ### 核心成就与已验证发现
 
@@ -195,6 +209,7 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 
 - 2026-06-18 · 创建 · 基于《接线图之上》文章 · 覆盖 C. elegans, FlyWire, 结构-功能鸿沟概念 · 初始置信度：高
 - 2026-08-06 · 修订 · 基于《连接组学深化篇》文章 · 增加：(1) 功能连接组学新节（MiCrONS 2025）；(2) "同类相连"布线规则（Ding 2025）；(3) Lin 2024 完整网络统计数据；(4) 更新 related 节点（+3个新页）；(5) 更新 key_sources 和 source_articles
+- 2026-09-13 · 修订 · 基于《皮层连接的完整语法》文章 #143 · 增加：(1) 抑制性连接特异性节（Schneider-Mizell 2023，18 种模体群，去抑制专家）；(2) 突触二进制-模拟双变量节（Dorkenwald 2022，phi=0.637，双稳态突触）；(3) 更新 related（+inhibitory-specificity, binary-analog-synapse, microns-connectome）；(4) 更新 key_sources；(5) revision_count 2→3
 
 ---
 

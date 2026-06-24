@@ -3,20 +3,22 @@ title: 同类相连
 slug: like-to-like-connectivity
 domain: concepts
 type: concept
-status: emerging
-confidence: medium
+status: mainstream
+confidence: high
 created: 2026-08-06
-updated: 2026-08-06
-revision_count: 1
+updated: 2026-09-13
+revision_count: 2
 dimensions: [synaptic, microcircuit, methods]
 related: [connectomics, small-world-network, cortical-layers, v1-primary-visual-cortex, cnn-visual-cortex-analogy]
 prerequisites: [connectomics, synaptic-transmission]
 opens_questions: [Q-ltl-01, Q-ltl-02]
-source_articles: [2026-08-06-connectomics-flywire-wiring-diagram]
+source_articles: [2026-08-06-connectomics-flywire-wiring-diagram, 2026-09-13-microns-inhibitory-binary-synapse]
 key_sources:
   - "PMCID:PMC11981947"
   - "DOI:10.1038/s41586-025-08840-3"
   - "PMID:40205214"
+  - "PMCID:PMC11981939"
+  - "PMID:36993398"
 ---
 
 # 同类相连 (Like-to-Like Connectivity)
@@ -95,9 +97,11 @@ like-to-like 可以看作功能柱（functional column）思想在无列化（sa
 ## 修订历史
 
 - 2026-08-06 · 创建 · 基于《连接组学深化篇》文章 #105 · 来源：Ding et al. 2025 (PMCID: PMC11981947)，MiCrONS 2025 数据集 · 初始状态：emerging（单一实验室，待跨物种跨区域复现）
+- 2026-09-13 · 修订 · 基于《皮层连接的完整语法》文章 #143 · 状态 emerging→mainstream（MICrONS 2025 主论文 PMCID:PMC11981939 对 like-to-like 在多区域的普遍性给予更强支持，同期多篇研究一致收敛于该原则）；confidence medium→high；新增 source_articles 和 key_sources；相关页 +inhibitory-specificity, binary-analog-synapse
 
 ---
 
 ## 来源文章
 
 - [[2026-08-06-connectomics-flywire-wiring-diagram]]
+- [[2026-09-13-microns-inhibitory-binary-synapse]]
