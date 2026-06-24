@@ -1,0 +1,36 @@
+# 诊断日志 · 重复触发 2026-06-25 · trigger #1
+
+**运行时间（UTC）**：2026-06-24 18:59 UTC
+**运行时间（UTC+8）**：2026-06-25 02:59 CST
+**分支**：claude/funny-einstein-newwb4
+**类型**：duplicate-trigger-noop
+
+---
+
+## 检测结果
+
+当前 UTC+8 日期：2026-06-25
+
+检查文章：`neuro-daily/articles/2026-06-25-gamma-oscillations-neural-binding.md` → **已存在** ✅
+检查日志：`neuro-daily/logs/2026-06-25-run.log` → **已存在** ✅（成功运行，commit hash 01f72bf，push 至 main）
+
+---
+
+## 操作
+
+**今日文章已于本次 UTC+8 日期的正式运行中生成并推送。**
+本次为重复触发（duplicate trigger），无需重新生成文章。
+按 ROUTINE.md 规则："不要反复生成同一天文章"。
+
+---
+
+## 状态说明
+
+- 文章编号：#61（2026-06-25）
+- 主题：当大脑把碎片缝合在一起：伽马振荡与神经绑定之谜
+- 原始 push：已成功推送至 origin main（895f019..01f72bf）
+- 本次 trigger：无操作（noop），仅记录此日志
+
+---
+
+**结论**：已检测到重复触发，所有今日工作已完成，无需任何额外操作。
