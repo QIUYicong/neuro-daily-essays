@@ -74,5 +74,5 @@
 ## Git 状态
 
 **分支**：main
-**当前 commit**：待写入
-**Push 状态**：待推送
+**当前 commit**：d867781
+**Push 状态**：✅ 推送成功 → origin main（d558173..d867781）
