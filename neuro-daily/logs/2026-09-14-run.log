@@ -118,4 +118,4 @@ Thomas et al. 2024（PMID:38697110）尚未入 wiki，直接回答 Q-pc-01；选
 - [x] monthly_synthesis
 - [x] source_registry
 - [x] _graph.json（+3 边）
-- [ ] git commit + push
+- [x] git commit + push（`claude/funny-einstein-lew4v9` → `origin/main`，730000d，成功）
