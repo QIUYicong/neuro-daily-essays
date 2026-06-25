@@ -9324,6 +9324,69 @@
       "knowledge_base_date": "2026-09-20",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-20（第150篇BTSP分子机制文章）"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "记忆的裁判官：SWR 如何在睡眠中挑选、过滤与泛化",
+      "filename": "2026-09-22-swr-replay-selection-consolidation.md",
+      "article_number": 152,
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/hippocampal-replay.md (rev1->rev2)",
+        "wiki/concepts/sharp-wave-ripples.md (rev9->rev10)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [
+        "Q-swr-large-vs-small 部分解答：Robinson 2026 证明大振幅SWR特异驱动CA1-PFC再激活，学习后选择性增多",
+        "Q-swr-cortical-consolidation 部分进展：Shin&Jadhav 2024 揭示PFC独立涟漪主动抑制机制"
+      ],
+      "core_question": "海马SWR是如何充当记忆选择官的？——2024-2026年五大新发现（清醒SWR主动标记、振幅门控、睡眠微结构分时、PFC主动抑制、抑制性可塑性泛化）如何共同构成记忆固化的多重筛选机制",
+      "open_questions_added": [
+        "Q-pfc-suppression-selectivity（高优先级）：PFC独立涟漪如何选择性地靶向特定CA1神经模式进行抑制？",
+        "Q-inhibitory-plasticity-bounds（中优先级）：抑制性可塑性驱动的泛化如何在过度泛化与死记硬背之间保持平衡？"
+      ],
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱4（学习和记忆：记忆巩固、睡眠）+ 课程脊柱5（认知控制：前额叶门控）",
+      "topic_tags": [
+        "sharp wave ripple SWR memory selection consolidation",
+        "hippocampal replay statistics generalization inhibitory plasticity",
+        "PFC top-down suppression hippocampal reactivation sleep",
+        "NREM sleep microstructure pupil norepinephrine memory segregation",
+        "large SWR amplitude hippocampo-cortical reactivation",
+        "Yang 2024 Science awake SWR experience selection tagging",
+        "Chang 2025 Nature sleep microstructure pupil substates replay",
+        "Shin Jadhav 2024 Current Biology PFC ripple suppression CA1",
+        "Liao Losonczy 2024 Nature Neuroscience inhibitory plasticity replay generalization",
+        "Robinson Fernandez-Ruiz 2026 Neuron large ripples cortical reactivation",
+        "Kim Park 2025 BMB Reports systems consolidation review",
+        "BTSP PKMzeta SWR learning trilogy encoding storage transfer",
+        "complementary learning systems catastrophic forgetting solution"
+      ],
+      "main_sources": [
+        "PMID:38547293 (Yang et al. 2024 Science, 全文 PMC11068097)",
+        "PMID:39743590 (Chang et al. 2025 Nature, 全文 PMC12107872)",
+        "PMID:38834064 (Shin & Jadhav 2024 Curr Biol, 全文 PMC11233241)",
+        "PMID:39227715 (Liao et al. 2024 Nat Neurosci, 全文 PMC11583836)",
+        "PMID:41205608 (Robinson et al. 2026 Neuron, 全文 PMC12626426)",
+        "PMID:40962324 (Kim & Park 2025 BMB Reports, 全文 PMC12576410)",
+        "PMID:42319042 (Aleman-Zapata et al. 2026 Sleep, 仅摘要)"
+      ],
+      "next_suggested_topics": [
+        "树突棘的结构可塑性——LTP/BTSP后棘头膨大的肌动蛋白重塑机制（CaMKII→cofilin→actin，细胞/分子层级，填补BTSP系列的形态学对应物）",
+        "内嗅皮层→CA1回路的突触解剖——EC2/EC3两层如何通过Schaffer侧支和直接投射驱动CA1 BTSP（回路层级，填补BTSP输入解剖空白）",
+        "记忆印迹竞争（engram competition）——CREB超表达如何使细胞优先进入记忆印迹，与BTSP和SWR选择的关系（细胞/认知层级）",
+        "慢振荡的皮层生成机制——UP/DOWN态如何在新皮层中自发产生，与SWR门控的时序关系（方法/回路层级）"
+      ],
+      "graph_update": "296+0=296 nodes (无新建); 1732+7=1739 edges (+7: hippocampal-replay→prefrontal-cortex, hippocampal-replay→pv-interneurons, sharp-wave-ripples→prefrontal-cortex, pv-interneurons→hippocampal-replay, hippocampal-replay→norepinephrine-locus-coeruleus, hippocampal-replay→btsp, hippocampal-replay→pkm-zeta)",
+      "knowledge_base_date": "2026-09-22",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-22（第152篇SWR记忆选择与固化文章）"
     }
   ]
 }

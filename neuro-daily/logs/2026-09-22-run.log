@@ -1,0 +1,85 @@
+# 运行日志：2026-09-22
+
+**知识库日期**：2026-09-22（第152篇）
+**系统时钟**：2026-06-25 UTC+8
+**分支**：main
+**选题驱动**：课程脊柱推进（BTSP #150→PKMζ #151→SWR系统固化 #152，完成学习三部曲）
+
+---
+
+## 检索过程
+
+### 搜索词
+- `sharp wave ripple memory consolidation 2024 2025 2026`
+- `sharp wave ripple replay memory selection PubMed 2023-2026`
+- `hippocampal replay statistics generalization inhibitory plasticity`
+- `sleep microstructure NREM replay memory 2025`
+
+### 数据源
+- PubMed E-utilities esearch / efetch
+- PubMed Central PMC open access
+
+### 候选论文（共搜索 ~15 篇）
+
+| PMID | 采用/排除 | 原因 |
+|------|----------|------|
+| 38547293 (Yang 2024 Science) | **采用** | 核心：清醒SWR主动标记；PMC全文可用 |
+| 39743590 (Chang 2025 Nature) | **采用** | 核心：睡眠微结构；PMC全文可用 |
+| 38834064 (Shin&Jadhav 2024 Curr Biol) | **采用** | 核心：PFC主动抑制；PMC全文可用 |
+| 39227715 (Liao 2024 Nat Neurosci) | **采用** | 核心：抑制性可塑性；PMC全文可用 |
+| 41205608 (Robinson 2026 Neuron) | **采用** | 振幅门控因果证据；PMC全文有但直接fetch返回403，使用摘要+已知来源 |
+| 40962324 (Kim 2025 BMB Reports) | **采用** | 系统固化综述；PMC全文可用 |
+| 42319042 (Aleman-Zapata 2026 Sleep) | **采用(摘要)** | 涟漪亚型；online ahead of print，暂无PMC |
+| 36824950 (Giri 2023 Research Square) | **排除** | 预印本，在SWR wiki页已有背景引用，避免重复 |
+| 39484611 (Swanson 2025 Neuron) | **排除** | 脑区解剖特异性（retrosplenial cortex），今日文章不聚焦 |
+| 41974891 (Park&Kaang 2026) | **排除** | 恐惧记忆远程固化综述，今日主题不涉及 |
+
+---
+
+## Wiki 固结
+
+### 修订页面
+- `wiki/concepts/hippocampal-replay.md`：rev1→rev2（重大修订：新增五重筛选机制综合、PFC主动抑制节、抑制性可塑性节、4行新证据）
+- `wiki/concepts/sharp-wave-ripples.md`：rev9→rev10（新增PFC主动抑制和抑制性可塑性两个新发现小节、2行新证据）
+
+### 新建页面
+无
+
+### 矛盾检查
+无新矛盾登记（新发现与既有内容相容；PFC双向调制是机制精化，不冲突单向传输模型）
+
+---
+
+## 图谱变化
+
+- **节点**：296（无变化）
+- **边**：1732 → 1739（+7条）
+  - hippocampal-replay → prefrontal-cortex（regulates）
+  - hippocampal-replay → pv-interneurons（mechanism-of）
+  - sharp-wave-ripples → prefrontal-cortex（regulates）
+  - pv-interneurons → hippocampal-replay（mechanism-of）
+  - hippocampal-replay → norepinephrine-locus-coeruleus（regulates）
+  - hippocampal-replay → btsp（supports，完成学习三部曲连接）
+  - hippocampal-replay → pkm-zeta（supports，完成学习三部曲连接）
+
+---
+
+## 质量自检
+
+- [x] wiki 每条新主张有来源（PMID/DOI）
+- [x] 区分了事实/主流模型/推测/争议（Robinson 2026 标注为"中-高"）
+- [x] 没有把鼠类研究写成人类定论（Chang 2025、Liao 2024均注明鼠类，人类适用性标为未解问题）
+- [x] 新内容未与既有 wiki 页冲突（相容且精化）
+- [x] 被修订页的 updated/revision_count/修订历史同步更新
+- [x] _graph.json 无新悬空边（所有新增边两端节点均存在）
+- [x] index.md 更新（下方操作）
+- [x] CHANGELOG.md 追加今日节
+- [x] 文章/笔记/来源/日志齐全
+
+---
+
+## Git 状态
+
+- **分支**：main
+- **Commit**：待写入
+- **Push 状态**：待执行

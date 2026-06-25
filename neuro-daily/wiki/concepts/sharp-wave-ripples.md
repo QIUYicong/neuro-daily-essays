@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-08-14
-revision_count: 9
+updated: 2026-09-22
+revision_count: 10
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
-related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus]
+related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus, prefrontal-cortex, pv-interneurons]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
-opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179"]
+opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation, Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-22-swr-replay-selection-consolidation]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179", "PMID:38834064", "PMID:39227715"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -102,6 +102,8 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 | 闭环增强 SO-纺锤波-SWR 三重耦合 → 隔天空间记忆改善（因果） | 大鼠 NREM 闭环刺激，对照组（非同步刺激）无效 | PMID:27182818 | 高（因果） |
 | VTA 失活在新颖（非熟悉）环境中破坏 SWR 空间重播位置选择性 | VTA 化学失活 + 多单元记录 + 空间解码 | PMID:38895442 | 中（新颖度依赖性分工值得关注）|
 | CA2 ramping cells 在 SWR 前 20–30ms 先行激发；光遗传激活 CA2 诱导人工 SWR | 大鼠高密度硅探针 CA2+CA3+CA1 同步记录；光遗传激活 CA2 | PMID:27593179 | 高（因果+高时间分辨率，Neuron 发表）|
+| PFC 独立涟漪（71.2%）期间 CA1 被显著抑制，后续再激活量降低（r=−0.71） | CA1+PFC 同步多电极记录 + 涟漪分类分析 | Shin & Jadhav 2024, PMID:38834064 | 高 |
+| 抑制性突触对干扰细胞权重高 38.9%；SWR 驱动对称性抑制性 STDP | 全细胞膜片钳 + 光遗传 + 大样本统计 | Liao et al. 2024, PMID:39227715 | 高 |
 
 ## 连接
 
@@ -128,6 +130,25 @@ Yang等（2024，PMID:38547293）揭示，清醒探索时SWR选择性在部分�
 
 Chang等（2025，PMID:39743590）发现NREM睡眠中瞳孔收缩期（NE低）专门重放近期记忆，瞳孔扩张期（NE较高）优先重放陈旧记忆。这种分时机制使大脑在同一夜内既能巩固新经历又不破坏旧记忆——**睡眠是精密调度的多记忆多路复用系统，不是均匀处理窗口**。
 
+### 前额叶主动抑制门控（Shin & Jadhav 2024）
+
+Shin & Jadhav（2024, PMID:38834064）揭示，PFC 在睡眠固化中**并非被动接收者**，而是主动参与选择的门控器：
+- 71.2% 的 PFC 涟漪为"独立涟漪"（与 CA1 SWR 不同步），在此期间 CA1 锥体细胞和中间神经元被显著抑制（P = 1.37×10⁻⁹）
+- 这种 PFC 主动抑制与后续 CA1 再激活量呈**强负相关**（r = −0.71，P = 4.25×10⁻⁸⁷）
+- 意味着 PFC 通过"否决"机制参与记忆选择：它不只接受海马传来的内容，还在清除"不值得固化"的神经模式
+
+**修订了什么**：经典 CLS 模型将固化视为"海马→皮层的单向传输"；此发现表明固化是**双向对话**，前额叶的主动反馈是回路的必要组成部分。
+
+### 抑制性可塑性驱动统计抽象（Liao 2024）
+
+Liao 等（2024, PMID:39227715）的发现表明 SWR 期间发生的可塑性不只是兴奋性的：
+- 经历后，CA1 抑制性突触（PV+篮细胞→锥体细胞）对"干扰细胞"的权重比对"场所细胞"高 38.9%（P = 2.5×10⁻¹⁸⁷）
+- 这种抑制性 STDP 在 SWR 期间选择性强化对非相关神经元的抑制
+- 结果：回放序列不是精确的录像重演，而是对任务相关结构的**统计提炼**
+- 这为记忆泛化（而非死记硬背）提供了细胞层面的机制
+
+**修订了什么**：此前理解中，SWR 重播机制聚焦于兴奋性序列再激活；此发现将抑制性可塑性纳入核心机制，SWR 系统同时是"放大器"（放大相关信号）和"滤波器"（压制干扰）。
+
 ### CA3突触结构双重决定（Ecker et al. 2022）
 
 Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学习依赖的突触权重结构（对称STDP）既决定重放内容也决定SWR能否产生。对称STDP→前向+逆向重放；非对称STDP→仅前向。**"学什么"和"重放什么"共用同一张突触地图。**
@@ -151,6 +172,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-07-11 · 修订 rev7 · 基于《当蓝斑充当"新奇探测器"》(#79) · 证据表新增1行（Igata 2024，VTA调制新颖环境SWR空间重播选择性）；Q-swr-tagging-mechanism 部分进展更新；key_sources新增PMID:38895442；source_articles新增2026-07-11
 - 2026-07-16 · 修订 rev8 · 基于《记忆的时光机》(#84) · 新增 Mattar-Daw Need×Gain 规范化理论（PMID:30349103）：SWR 回放内容的前向/反向方向和时机由 Need（未来访问频率）× Gain（策略改善幅度）决定，统一解释 6 条经验规律；新增 hippocampal-replay wiki 页（本页 implements [[hippocampal-replay]]）；source_articles 新增 2026-07-16
 - 2026-08-14 · 修订 rev9 · 基于《CA2：海马遗忘的第三元件》(#113) · 修订 SWR 生成模型：增加 CA2 主动触发路径（~50% SWR 由 CA2 ramping cells 在 SWR 前 20–30ms 启动；~20% SWR 绕过 CA3 直接经 CA2→CA1 传播）；新增 Oliva 2016 光遗传因果证据（PMID:27593179）；连接新增[[ca2-hippocampus]]；证据表新增1行；related新增ca2-hippocampus；key_sources新增PMID:27593179
+- 2026-09-22 · 修订 rev10 · 基于《记忆的裁判官》(#152) · "新发现"小节新增两个：(1) PFC 主动抑制门控（Shin & Jadhav 2024，独立涟漪 71.2% 抑制 CA1，r=−0.71）；(2) 抑制性可塑性驱动统计抽象（Liao 2024，抑制权重对干扰细胞高 38.9%）；证据表新增 2 行；related 新增 prefrontal-cortex, pv-interneurons；opens_questions 新增 Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds；key_sources 新增 PMID:38834064, PMID:39227715
 
 ## 来源文章
 

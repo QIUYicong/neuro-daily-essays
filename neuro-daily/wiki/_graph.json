@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "node_count": 294,
   "edge_count": 1722,
   "edge_types": [
@@ -12438,6 +12438,48 @@
       "source": "arc-arg31",
       "target": "pkm-zeta",
       "type": "related"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "prefrontal-cortex",
+      "type": "regulates",
+      "note": "PFC独立涟漪（71.2%）主动抑制CA1再激活，为负向选择门控（Shin&Jadhav 2024）"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "pv-interneurons",
+      "type": "mechanism-of",
+      "note": "PV+篮细胞的抑制性STDP在SWR期间选择性过滤干扰细胞，驱动回放泛化（Liao 2024）"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "prefrontal-cortex",
+      "type": "regulates",
+      "note": "PFC涟漪与CA1 SWR双向耦合：协调涟漪促进再激活，独立涟漪抑制CA1（Shin&Jadhav 2024）"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "hippocampal-replay",
+      "type": "mechanism-of",
+      "note": "抑制性可塑性（对称STDP）在SWR期间过滤干扰信号，实现统计抽象（Liao 2024）"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "regulates",
+      "note": "NE振荡（~0.015Hz）在NREM中驱动收缩/扩张瞳孔期，决定新旧记忆的时相分配（Chang 2025）"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "btsp",
+      "type": "supports",
+      "note": "BTSP是单次情景瞬时写入（秒级），SWR回放是其固化传输机制（月级），共同构成学习三部曲"
+    },
+    {
+      "from": "hippocampal-replay",
+      "to": "pkm-zeta",
+      "type": "supports",
+      "note": "PKMζ维持本地LTP（天级），SWR将其保护的海马记忆转写至皮层（月级）"
     }
   ],
   "dangling_references": [

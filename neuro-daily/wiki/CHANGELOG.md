@@ -3406,3 +3406,30 @@
 **新增未解问题（3）**：Q-btsp-ddsc-synapse-specificity（高：DDSC弥散性vs BTSP突触特异性悖论）、Q-btsp-in-vivo-ddsc（高：体内DDSC验证缺失）、Q-btsp-non-spatial-generalization（中：非空间BTSP机制验证）
 
 **图谱**：295节点/1721边 → **295节点/1729边**（节点数不变，camkii既有页；+8边：btsp↔camkii双向、btsp→three-factor、btsp→entorhinal-cortex、camkii→dendritic-computation、camkii→voltage-gated-calcium-channels、three-factor↔btsp）
+
+
+---
+
+## 2026-09-22（第152篇 · 记忆的裁判官：SWR 如何选择、过滤与泛化）
+
+**文章**：《记忆的裁判官：SWR 如何在睡眠中挑选、过滤与泛化》（#152）
+
+**类型**：机制综合更新（2024-2026 年 SWR 研究五大新发现整合）
+
+**新创建页面（0）**：今日无新建页（涉及概念均已有页，重点对现有页进行深化修订）
+
+**修订页面（2）**：
+- `wiki/concepts/hippocampal-replay.md`（rev1→rev2）：新增五重筛选机制综合（清醒SWR提名、振幅门控、睡眠微结构分时、PFC负向淘汰、抑制性可塑性泛化）；新增关键机制第6节（PFC主动抑制，Shin&Jadhav 2024）和第7节（抑制性可塑性，Liao 2024）；证据表新增4行；related新增prefrontal-cortex/pv-interneurons/norepinephrine-locus-coeruleus；opens_questions新增Q-pfc-suppression-selectivity/Q-inhibitory-plasticity-bounds
+- `wiki/concepts/sharp-wave-ripples.md`（rev9→rev10）：新发现小节新增两条——PFC主动抑制门控（Shin&Jadhav 2024，独立涟漪71.2%，r=−0.71因果相关）与抑制性可塑性驱动统计抽象（Liao 2024，对干扰细胞抑制权重高38.9%）；证据表新增2行；related新增prefrontal-cortex/pv-interneurons；opens_questions新增Q-pfc-suppression-selectivity/Q-inhibitory-plasticity-bounds；key_sources新增PMID:38834064/PMID:39227715
+
+**矛盾登记（0）**：新发现与既有知识相容，属于机制精化（PFC双向调制补充了单向传输模型，抑制性可塑性填补了机制空白，均无冲突）
+
+**未解问题进展**：
+- Q-swr-large-vs-small：Robinson 2026 部分回答（大振幅 SWR 特异驱动 CA1-PFC 再激活，学习后选择性增多）→ 标记为"部分解答"
+- Q-swr-cortical-consolidation：Shin & Jadhav 2024 新增 PFC 主动抑制机制 → 在未解问题说明中追加部分进展
+
+**新增未解问题（2）**：
+- Q-pfc-suppression-selectivity（高）：PFC 独立涟漪如何"知道"该抑制哪些特定 CA1 模式？该选择性的细胞/突触机制完全未知
+- Q-inhibitory-plasticity-bounds（中）：抑制性可塑性驱动的泛化如何在"过度泛化"与"死记硬背"之间保持平衡？边界由哪些生理参数决定？
+
+**图谱**：296节点/1732边 → **296节点/1739边**（节点数不变；+7边：hippocampal-replay→prefrontal-cortex、hippocampal-replay→pv-interneurons、sharp-wave-ripples→prefrontal-cortex、pv-interneurons→hippocampal-replay、hippocampal-replay→norepinephrine-locus-coeruleus、hippocampal-replay→btsp、hippocampal-replay→pkm-zeta）

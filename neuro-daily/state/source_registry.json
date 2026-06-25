@@ -9624,6 +9624,42 @@
       "used_in": [
         "2026-09-21-pkm-zeta-late-ltp-persistence"
       ]
+    },
+    {
+      "pmid": "39743590",
+      "pmcid": "PMC12107872",
+      "title": "Sleep microstructure organizes memory replay",
+      "used_in_articles": [
+        "2026-09-22-swr-replay-selection-consolidation"
+      ],
+      "note": "Chang et al. Nature 2025 - NREM睡眠微结构瞳孔分时"
+    },
+    {
+      "pmid": "39227715",
+      "pmcid": "PMC11583836",
+      "title": "Inhibitory plasticity supports replay generalization in the hippocampus",
+      "used_in_articles": [
+        "2026-09-22-swr-replay-selection-consolidation"
+      ],
+      "note": "Liao et al. Nature Neuroscience 2024 - 抑制性STDP驱动回放泛化"
+    },
+    {
+      "pmid": "40962324",
+      "pmcid": "PMC12576410",
+      "title": "Systems memory consolidation during sleep: oscillations, neuromodulators, and synaptic remodeling",
+      "used_in_articles": [
+        "2026-09-22-swr-replay-selection-consolidation"
+      ],
+      "note": "Kim & Park BMB Reports 2025 - 系统固化综述"
+    },
+    {
+      "pmid": "42319042",
+      "pmcid": null,
+      "title": "Deltas' and spindles' cross-area synchronization and ripple subtypes",
+      "used_in_articles": [
+        "2026-09-22-swr-replay-selection-consolidation"
+      ],
+      "note": "Aleman-Zapata et al. Sleep 2026 - 三种涟漪亚型；仅摘要"
     }
   ],
   "total_sources": 562,

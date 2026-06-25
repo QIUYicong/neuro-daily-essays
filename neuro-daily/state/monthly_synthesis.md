@@ -1580,3 +1580,15 @@
 **修订 wiki 页（3个）**：concepts/ltp（rev12→rev13，新增aPKC功能层段落，Q-ltp-lifetime-mechanism标记为部分解答）、concepts/synaptic-tagging-capture（rev2→rev3，PKMζ作为明确PRP，KIBRA机制）、concepts/arc-arg31（rev1→rev2，病毒样衣壳结构Ashley/Pastuzyn 2018）
 **图谱**：293→294节点，1711→1722边（+1节点pkm-zeta，+11边）
 **新增未解问题**：Q-pkm-zeta-in-vivo-oligomer（高：KIBRA寡聚体体内行为验证）、Q-pkm-zeta-region-specificity（中：脑区特异性）、Q-pkm-zeta-memory-modification（中：K-ZAP精准记忆修改潜力）
+
+
+---
+
+### 2026-09-22（#152）：记忆的裁判官——SWR 五重筛选机制综合
+
+**核心发现**：海马 SWR 系统并非均匀重播所有经历，而是通过五重主动筛选——清醒期提名（Yang 2024）、振幅门控（Robinson 2026）、睡眠微结构分时（Chang 2025）、PFC 主动抑制（Shin & Jadhav 2024）、抑制性可塑性泛化（Liao 2024）——精确决定"哪些经历成为记忆"。
+
+**完成的学习三部曲**：BTSP（瞬时写入）→ PKMζ（本地持久化）→ SWR（系统转移与蒸馏），提供了从单次经历到长期皮层记忆的完整机制链路。
+
+**层级**：microcircuit / brain-region / whole-brain-network / cognition
+**关键跨度**：回答了记忆固化如何防止灾难性遗忘（时相分离 + 主动淘汰 + 内建泛化偏置）
