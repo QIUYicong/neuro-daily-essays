@@ -1,0 +1,110 @@
+# 运行日志：2026-09-28
+
+**知识库日期**：2026-09-28
+**系统时钟**：2026-06-26（UTC+8）
+**文章编号**：#158
+**运行分支**：claude/funny-einstein-jujoln
+
+---
+
+## 选题决策
+
+- **选题来源**：topic_ledger #157 推荐"强化学习的神经元对应——D1-MSN/D2-MSN的不对称可塑性"（上篇 #157 的自然延续，从成瘾现象层深入分子机制层）
+- **选题理由**：#155-157建立了习惯/成瘾的系统框架，今天深挖其细胞分子基础：多巴胺RPE信号如何在突触层面被读出并写入可塑性变化，特别是时序精控机制
+
+---
+
+## 文献检索
+
+### 搜索词与数据源
+
+| 数据源 | 搜索词 | 结果数 |
+|--------|--------|--------|
+| PubMed | "D1 D2 MSN striatum dopamine synaptic plasticity reward prediction error" | ~1 |
+| PubMed | "Shen Flajolet dopaminergic striatal synaptic plasticity dichotomous" | ~1 |
+| PubMed | "Yagishita dopamine dendritic spines time window striatum" | ~2 |
+| PubMed | "Gerfen Surmeier striatum D1 D2 dopamine review" | ~1 |
+| PubMed | "Iino 2020 dopamine D2 striatum learning" | ~1 |
+| PubMed | "dopamine D1 D2 MSN reward optogenetics conditioning 2012-2014" | ~5 |
+| PMC | 直接全文获取（PMC3487690, PMC2833421, PMC4225776, PMC7402527） | 4篇全文 |
+
+### 候选文献（共审阅摘要 18 篇，采用 6 篇）
+
+**采用来源**：
+1. PMID:9054347（Schultz 1997，Science）- 摘要；多巴胺=RPE奠基论文
+2. PMID:21469956（Gerfen & Surmeier 2011，Annu Rev Neurosci，PMC3487690）- 全文；D1/D2架构权威综述
+3. PMID:18687967（Shen et al. 2008，Science，PMC2833421）- 全文；双向Hebbian可塑性
+4. PMID:25258080（Yagishita et al. 2014，Science，PMC4225776）- 全文；时序窗口机制
+5. PMID:32701987（PLoS CompBio 2020，PMC7402527）- 全文；cAMP信号建模
+6. PMID:32214250（Iino 2020，Nature，PMC6690362）- 摘要；D2受体棘突增大
+
+**排除原因**：
+- PMID:18535207, 25359979（错误匹配到钛氧化物和cadherin论文）
+- 其他optogenetics论文（与主题不完全对应）
+- 几篇没有开放全文的综述（保留了有全文的替代品）
+
+### 全文获取状态
+
+| 来源 | 全文 |
+|------|------|
+| Gerfen & Surmeier 2011 | ✅ PMC3487690 |
+| Shen et al. 2008 | ✅ PMC2833421 |
+| Yagishita et al. 2014 | ✅ PMC4225776 |
+| PLoS CompBio 2020 | ✅ PMC7402527 |
+| Schultz 1997 | ❌ 仅摘要（标注"未读取全文"） |
+| Iino 2020 | ✅ PMC6690362（主要读摘要，D2机制为次要议题） |
+
+---
+
+## 固结步骤
+
+### Wiki 页面变更
+
+**新建 1 页**：
+- `concepts/reinforcement-plasticity-temporal-window.md`（首版，revision_count=1）
+
+**修订 2 页**：
+- `concepts/striatal-plasticity.md`（rev1→rev2）：更新当前理解、关键证据表（+5行）
+- `neurons/medium-spiny-neuron.md`（rev2→rev3）：新增双向Hebbian和时序窗口说明
+
+**更新图谱**：
+- 节点 303→304（新增：reinforcement-plasticity-temporal-window）
+- 边 1790→1796（+6条新边）
+
+### 矛盾检查
+
+今日新内容与既有wiki的关系：
+- `striatal-plasticity.md`的"多巴胺1秒时间窗仍可触发LTP"与Yagishita 2014的"0.3-2秒"实际上**兼容**（都在同一秒级范围，只是后者更精确），不构成矛盾，故不登记contested_claims
+- 旧描述"无需显式时间戳机制"与Yagishita发现PDE10A的显式机制**有轻微矛盾**，已在修订时更正旧描述，因为新证据更有力，故视为精化而非争议
+
+### 悬空引用
+
+- `DARPP-32`：在related中引用但无独立wiki页 → 记为待补
+
+---
+
+## 治理层更新
+
+- `topic_ledger.json`：新增第158条，146个条目
+- `unresolved_questions.md`：新增3个问题（Q-D2-temporal-window/Q-invivo-timing/Q-mixed-MSN-plasticity）
+- `source_registry.json`：新增5个来源（从0到5，registry之前可能为空）
+- `monthly_synthesis.md`：追加2026-09-28摘要
+- `wiki/index.md`：更新页面总数（300→301）和最新更新记录
+- `wiki/CHANGELOG.md`：新增2026-09-28条目
+
+---
+
+## 失败与限制
+
+- Schultz 1997（PMID:9054347）无PMC开放全文，只用了摘要；已在文章中明确标注
+- 部分PubMed搜索返回PMID对应的是与搜索词无关的论文（Science期刊中多个不同PMID混淆）
+- Iino 2020的D2-MSN机制主要只读了摘要（该论文是附带引用，非核心）
+
+---
+
+## Git 信息
+
+- **分支**：claude/funny-einstein-jujoln
+- **提交信息**：Add neuro daily article + wiki consolidation for 2026-09-28
+- **提交状态**：（待记录）
+- **推送状态**：（待记录）

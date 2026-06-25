@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-28",
+  "knowledge_base_date": "2026-09-28",
+  "system_clock_date": "2026-06-26",
+  "article": "2026-09-28-d1-d2-msn-reinforcement-plasticity-temporal-window",
+  "article_number": 158,
+  "sources": [
+    {
+      "pmid": "9054347",
+      "pmc": null,
+      "doi": "10.1126/science.275.5306.1593",
+      "title": "A neural substrate of prediction and reward",
+      "authors": "Schultz W, Dayan P, Montague PR",
+      "journal": "Science",
+      "year": 1997,
+      "open_fulltext": false,
+      "access_level": "abstract_only",
+      "used_for": "TD预测误差框架（多巴胺=RPE），奠基性背景",
+      "note": "未读取全文；Science 1997年无PMC；仅摘要"
+    },
+    {
+      "pmid": "21469956",
+      "pmc": "PMC3487690",
+      "doi": "10.1146/annurev-neuro-061010-113641",
+      "title": "Modulation of striatal projection systems by dopamine",
+      "authors": "Gerfen CR, Surmeier DJ",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2011,
+      "open_fulltext": true,
+      "access_level": "full_text_pmc",
+      "used_for": "D1/D2受体分工综述；直接/间接通路分子机制；LTP/LTD概述",
+      "key_findings": [
+        "D1受体（dMSN，直接通路）→Gs/Golf→cAMP↑→PKA激活",
+        "D2受体（iMSN，间接通路）→Gi/Go→cAMP↓→PKA抑制",
+        "两类MSN的LTP/LTD均需DA；DA耗竭后两种可塑性均消失"
+      ]
+    },
+    {
+      "pmid": "18687967",
+      "pmc": "PMC2833421",
+      "doi": "10.1126/science.1160575",
+      "title": "Dichotomous dopaminergic control of striatal synaptic plasticity",
+      "authors": "Shen W, Flajolet M, Greengard P, Surmeier DJ",
+      "journal": "Science",
+      "year": 2008,
+      "open_fulltext": true,
+      "access_level": "full_text_pmc",
+      "used_for": "D1/D2互补双向Hebbian可塑性；推翻'D1=LTP, D2=LTD'简单模型",
+      "key_findings": [
+        "D1-GFP和D2-GFP转基因小鼠直接鉴定MSN类型",
+        "两种MSN均可表现LTP和LTD（双向性）",
+        "DA在两种MSN中发挥互补作用，保证双向Hebbian可塑性",
+        "DA耗竭→两种可塑性均消失（帕金森病模型）"
+      ]
+    },
+    {
+      "pmid": "25258080",
+      "pmc": "PMC4225776",
+      "doi": "10.1126/science.1255514",
+      "title": "A critical time window for dopamine actions on the structural plasticity of dendritic spines",
+      "authors": "Yagishita S, Hayashi-Takagi A, Ellis-Davies GCR, Urakubo H, Ishii S, Kasai H",
+      "journal": "Science",
+      "year": 2014,
+      "open_fulltext": true,
+      "access_level": "full_text_pmc",
+      "used_for": "时序窗口机制（0.3-2秒）；PDE10A分子计时器；cAMP动力学",
+      "key_findings": [
+        "多巴胺在谷氨酸输入后0.3-2秒内促进D1-MSN棘突增大（结构LTP）",
+        "时序由cAMP在远端细树突中的动态调控决定",
+        "PDE10A（磷酸二酯酶10A）在小直径树突中活性高，限制时间窗口",
+        "papaverine（PDE10A抑制剂）消除时间窗口"
+      ]
+    },
+    {
+      "pmid": "32701987",
+      "pmc": "PMC7402527",
+      "doi": "10.1371/journal.pcbi.1008151",
+      "title": "Signaling models for dopamine-dependent temporal contiguity in striatal synaptic plasticity",
+      "authors": "Urakubo H, Sato M, Naoki H, Kasai H, Ishii S",
+      "journal": "PLoS Computational Biology",
+      "year": 2020,
+      "open_fulltext": true,
+      "access_level": "full_text_pmc",
+      "used_for": "Yagishita 2014机制的数学建模；cAMP动力学定量分析",
+      "key_findings": [
+        "数学模型验证PDE10A活性和树突直径共同决定时间窗口",
+        "预测不同PDE10A水平下时间窗口的变化",
+        "cAMP峰值由AC激活（谷氨酸预激+多巴胺叠加）与PDE10A降解的动态竞争决定"
+      ]
+    },
+    {
+      "pmid": "32214250",
+      "pmc": "PMC6690362",
+      "doi": "10.1038/s41586-020-2115-1",
+      "title": "Dopamine D2 receptors in discrimination learning and spine enlargement",
+      "authors": "Iino Y, Sawada T, Yamaguchi K, Tajiri M, Ishii S, Kasai H, Yagishita S",
+      "journal": "Nature",
+      "year": 2020,
+      "open_fulltext": true,
+      "access_level": "full_text_pmc",
+      "used_for": "D2-MSN突触可塑性（辨别学习+棘突增大）",
+      "key_findings": [
+        "D2受体也参与辨别学习中的棘突增大",
+        "D2-MSN的可塑性机制不同于D1-MSN，提示需独立研究"
+      ],
+      "note": "本次主要读摘要；D2-MSN时序窗口机制有待专文深入"
+    }
+  ],
+  "search_strategy": {
+    "databases": ["PubMed", "PubMed Central"],
+    "search_terms": [
+      "D1 D2 MSN striatum dopamine synaptic plasticity reward prediction error",
+      "Shen Flajolet dopaminergic striatal synaptic plasticity dichotomous",
+      "Yagishita dopamine dendritic spines time window striatum",
+      "Gerfen Surmeier striatum D1 D2 dopamine review",
+      "Iino 2020 dopamine D2 striatum learning"
+    ],
+    "candidates_reviewed": 18,
+    "adopted": 6,
+    "excluded": 12,
+    "exclusion_reasons": "非相关主题（TiO2催化、cadherin等假PMID对应）；没有开放全文的综合考量；只有摘要的历史论文（Schultz 1997）仍保留因其理论重要性"
+  },
+  "open_access_fulltext_count": 5,
+  "abstract_only_count": 1
+}

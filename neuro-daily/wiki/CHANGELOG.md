@@ -3,6 +3,32 @@
 > 每日固结步骤产生的 wiki 变更记录。新条目置于顶部。
 
 ---
+## 2026-09-28 · 文章 #158 · 奖励时刻的分子剧场：纹状体D1型与D2型神经元如何将多巴胺信号翻译成行为修正
+
+**核心主题**：D1-MSN/D2-MSN的互补双向Hebbian可塑性（Shen 2008修正）+ D1-MSN棘突LTP的0.3-2秒时序窗口（Yagishita 2014）+ PDE10A分子计时器机制（cAMP在细树突中的动态调控）+ PKA-DARPP-32-PP1-CaMKII信号级联 + 与TD误差学习的对应关系。图谱从**303节点/1790边**增至**304节点/1796边**（+1节点 +6新边）。
+
+**注意**：系统时钟日期为 2026-06-26（UTC+8），知识库连续序列日期为 2026-09-28，文章编号 #158。
+
+### 新建 Wiki 页面（1 个）
+
+- `concepts/reinforcement-plasticity-temporal-window.md` 🟡 emerging · 高置信度 — D1-MSN棘突LTP的时序窗口（0.3-2秒）；PDE10A磷酸二酯酶在远端细树突中通过持续降解cAMP形成时序门；cAMP动力学：谷氨酸→CA²⁺→AC弱激活预激，多巴胺叠加→PKA激活→DARPP-32→PP1→CaMKII→AMPA插入；papaverine（PDE10A抑制剂）消除时间窗口；为体积传播多巴胺的突触特异性选择提供分子机制；详见Yagishita et al. 2014（PMID:25258080, PMC4225776）
+
+### 修订 Wiki 页面（2 个）
+
+- `concepts/striatal-plasticity.md`（rev1→rev2）：更新"当前理解"：加入Shen 2008双向Hebbian修正（推翻"D1=LTP只做LTP, D2=LTD只做LTD"的简单对应）和Yagishita 2014的0.3-2秒精确时序窗口机制；证据表新增5行（Shen 2008×2, Yagishita 2014×2, PLoS CompBio 2020×1）；related新增reinforcement-plasticity-temporal-window；opens_questions新增Q-D2-temporal-window/Q-invivo-timing；key_sources新增PMID:18687967/25258080/32701987
+
+- `neurons/medium-spiny-neuron.md`（rev2→rev3）：新增"双向Hebbian修正"和"时序精控机制"说明段落（Shen 2008 + Yagishita 2014 PDE10A时间窗口）；related新增reinforcement-plasticity-temporal-window/striatal-plasticity；opens_questions新增Q-D2-temporal-window；key_sources新增PMID:18687967/25258080
+
+### 矛盾登记（0）
+
+今日新内容是对既有"D1-MSN的时间窗约1秒"描述的**精化**（非矛盾）：将"约1秒"修正为"0.3-2秒"，并提供了具体分子机制（PDE10A）。原描述不够精确但不构成真正矛盾（都在同一量级），故不登记矛盾。
+
+### 新增悬空引用（待补）
+
+- `DARPP-32`（在striatal-plasticity和reinforcement-plasticity-temporal-window的related中）：DARPP-32尚无独立wiki页 → 待补
+
+---
+
 
 ## 2026-09-27 · 文章 #157 · 成瘾大脑的三层陷阱：从欲望、习惯到强迫的神经轨迹
 

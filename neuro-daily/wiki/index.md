@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-27（第157篇·成瘾大脑的三层陷阱：从欲望、习惯到强迫的神经轨迹）· 主题页总数：**300**（新建2页：diseases/addiction、concepts/deltafosb；修订2页：concepts/habitual-behavior rev1→rev2、concepts/incentive-salience rev1→rev2；图谱303节点/1790边）
+> 最后更新：2026-09-28（第158篇·奖励时刻的分子剧场：D1/D2-MSN强化可塑性时序窗口）· 主题页总数：**301**（新建1页：concepts/reinforcement-plasticity-temporal-window；修订2页：striatal-plasticity rev1→rev2、medium-spiny-neuron rev2→rev3；图谱304节点/1796边）
 
 ---
 
@@ -108,7 +108,8 @@
 - 🔵 [记忆再巩固](concepts/memory-reconsolidation.md) — 已巩固记忆在提取后重新进入蛋白合成依赖态（Nader 2000）；去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；再巩固窗口消退永久消除恐惧（Monfils 2009, Agren 2012 fMRI）；普萘洛尔消除人类情绪恐惧（Kindt 2009）；米非司酮 Phase 2a RCT 未达主要终点 **[NEW 2026-07-10]**
 - 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
 - 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；与海马 NMDA-LTD 共用最终效应器但触发机制根本不同；Schonewille 2011 证明无 LTD 也能运动学习；Hansel 2026 预印本 400ms 时间窗口 **[NEW 2026-06-23]**
-- 🔵 [纹状体突触可塑性](concepts/striatal-plasticity.md) — 皮质-纹状体谷氨酸突触的LTP（D1-Gs-cAMP-PKA-DARPP-32-AMPA插入）和eCB-LTD（D2-mGluR-2-AG-CB1-突触前释放↓）；奖励时双向刻写；多巴胺1秒时间窗解决信用分配；NMDA受体对LTP必需 **[NEW 2026-09-01]**
+- 🔵 [纹状体突触可塑性](concepts/striatal-plasticity.md)
+- 🟡 [强化可塑性时序窗口](concepts/reinforcement-plasticity-temporal-window.md) — D1-MSN棘突LTP的精确时序门控（0.3-2秒窗口，PDE10A分子计时器）**[NEW 2026-09-28]** — 皮质-纹状体谷氨酸突触的LTP（D1-Gs-cAMP-PKA-DARPP-32-AMPA插入）和eCB-LTD（D2-mGluR-2-AG-CB1-突触前释放↓）；奖励时双向刻写；多巴胺1秒时间窗解决信用分配；NMDA受体对LTP必需 **[NEW 2026-09-01]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
 - 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器；病毒样衣壳自组装可包裹mRNA在神经元间转运（Ashley/Pastuzyn 2018）**[修订 rev2 2026-09-21]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "node_count": 303,
   "edge_count": 1790,
   "edge_types": [
@@ -2769,6 +2769,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/deltafosb.md"
+    },
+    {
+      "id": "reinforcement-plasticity-temporal-window",
+      "title": "强化可塑性时序窗口",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "high",
+      "page": "wiki/concepts/reinforcement-plasticity-temporal-window.md"
     }
   ],
   "edges": [
@@ -12822,6 +12831,36 @@
       "from": "incentive-salience",
       "to": "addiction",
       "type": "supports"
+    },
+    {
+      "from": "reinforcement-plasticity-temporal-window",
+      "to": "striatal-plasticity",
+      "type": "part-of"
+    },
+    {
+      "from": "reinforcement-plasticity-temporal-window",
+      "to": "medium-spiny-neuron",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "reinforcement-plasticity-temporal-window",
+      "to": "dopamine-reward-prediction-error",
+      "type": "supports"
+    },
+    {
+      "from": "striatal-plasticity",
+      "to": "reinforcement-plasticity-temporal-window",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "reinforcement-plasticity-temporal-window",
+      "type": "related"
+    },
+    {
+      "from": "medium-spiny-neuron",
+      "to": "reinforcement-plasticity-temporal-window",
+      "type": "related"
     }
   ],
   "dangling_references": [

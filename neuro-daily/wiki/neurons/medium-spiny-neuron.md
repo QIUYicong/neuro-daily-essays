@@ -7,13 +7,13 @@ status: established
 confidence: high
 created: 2026-09-01
 updated: 2026-09-07
-revision_count: 2
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit]
-related: [basal-ganglia, striatal-direct-indirect-pathway, dopamine-reward-prediction-error, long-term-potentiation, ltd, endocannabinoid-system, parkinsons-disease, habit-vs-goal-directed, huntingtons-disease]
+related: [basal-ganglia, striatal-direct-indirect-pathway, dopamine-reward-prediction-error, long-term-potentiation, ltd, endocannabinoid-system, parkinsons-disease, habit-vs-goal-directed, huntingtons-disease, reinforcement-plasticity-temporal-window, striatal-plasticity]
 prerequisites: [action-potential, dopamine-reward-prediction-error, long-term-potentiation]
-opens_questions: [Q-msn-d1d2-coexpression, Q-msn-primate-subtype-function, Q-hd-msn-d1d2-vulnerability]
-source_articles: [2026-09-01-medium-spiny-neurons-striatum, 2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]
-key_sources: ["PMID:21469956", "PMID:31171839", "PMID:21906660", "PMID:34727523", "PMID:27373834", "PMID:37629202", "PMID:11298997"]
+opens_questions: [Q-msn-d1d2-coexpression, Q-msn-primate-subtype-function, Q-hd-msn-d1d2-vulnerability, Q-D2-temporal-window]
+source_articles: [2026-09-01-medium-spiny-neurons-striatum, 2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine, 2026-09-28-d1-d2-msn-reinforcement-plasticity-temporal-window]
+key_sources: ["PMID:21469956", "PMID:31171839", "PMID:21906660", "PMID:34727523", "PMID:27373834", "PMID:37629202", "PMID:11298997", "PMID:18687967", "PMID:25258080"]
 ---
 
 # 中型多棘神经元 (Medium Spiny Neuron, MSN)
@@ -58,6 +58,10 @@ D2 → Gi/o → 腺苷酸环化酶↓ → cAMP↓ → PKA↓ →
 1. 皮质输入 → dMSN和iMSN均进入上行态（两者均被激活）
 2. 奖励 → VTA/SNc多巴胺释放（正RPE）
 3. 多巴胺同时作用：dMSN D1-LTP（强化该行动）+ iMSN D2-LTD（压制竞争行动）
+
+**重要修正（Shen et al. 2008，PMID:18687967）**：两种MSN均具有双向Hebbian可塑性，而非D1-MSN只做LTP、D2-MSN只做LTD的简单对应。DA在每种MSN中发挥互补作用，确保双向可塑性均可实现。帕金森病模型中DA耗竭→两种可塑性均消失。
+
+**时序精控（Yagishita et al. 2014，PMID:25258080）**：D1-MSN的LTP触发受严格的时序约束——多巴胺必须在谷氨酸激活后**0.3至2秒**内到来。机制：PDE10A（磷酸二酯酶）在远端细树突中持续降解cAMP，形成短暂的cAMP"许可窗口"。此机制解决了多巴胺体积传播下突触选择性的悖论。详见[[reinforcement-plasticity-temporal-window]]。
 
 ### HD中的选择性脆弱性
 
@@ -105,9 +109,11 @@ D2 → Gi/o → 腺苷酸环化酶↓ → cAMP↓ → PKA↓ →
 ## 修订历史
 
 - 2026-09-01 · 创建 · 基于《纹状体的决策细胞》文章 · 来源：9篇PMC开放全文 · 初始置信度：高
-- 2026-09-07 · 修订 rev2 · 基于《亨廷顿病：纹状体选择性脆弱性》文章 (#137) · 新增HD选择性脆弱性机制节（BDNF-REST轴/NR2B兴奋毒性/转录失调/体细胞CAG不稳定）；related新增huntingtons-disease；opens_questions新增Q-hd-msn-d1d2-vulnerability；key_sources新增PMID:37629202/11298997
+- 2026-09-07 · 修订 rev2 · 基于《亨廷顿病：纹状体选择性脆弱性》文章 (#137) · 新增HD选择性脆弱性机制节；related新增huntingtons-disease
+- 2026-09-28 · 修订 rev3 · 基于《奖励时刻的分子剧场》文章 (#158) · 新增"双向Hebbian修正"（Shen 2008）和"时序精控机制"（Yagishita 2014 PDE10A时间窗口）说明；related新增reinforcement-plasticity-temporal-window/striatal-plasticity；opens_questions新增Q-D2-temporal-window
 
 ## 来源文章
 
 - [[2026-09-01-medium-spiny-neurons-striatum]]
 - [[2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]]
+- [[2026-09-28-d1-d2-msn-reinforcement-plasticity-temporal-window]]
