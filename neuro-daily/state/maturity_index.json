@@ -1,5 +1,19 @@
 [
   {
+    "slug": "habitual-behavior",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-26",
+    "reason": "新建 rev1 · #156 · S-R联结驱动习惯行为；DLS必要性（Yin 2004）；黑质-纹状体DA必要性（Faure 2005）；IL主动压制目标导向（Coutureau 2003）；计算等价 model-free RL；多实验室重复验证"
+  },
+  {
+    "slug": "goal-directed-behavior",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-26",
+    "reason": "新建 rev1 · #156 · A-O联结驱动目标导向；DMS必要性（Yin 2005）；PL对获得必要；IL压制后习惯主导但能力潜伏；计算等价 model-based RL；人类fMRI（Daw 2011）；多实验室高置信度"
+  },
+  {
     "slug": "trace-transformation-theory",
     "status": "emerging",
     "confidence": "medium",

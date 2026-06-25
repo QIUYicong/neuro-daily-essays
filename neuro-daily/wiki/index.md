@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-25（第155篇·记忆的双重人生：前额叶皮层如何在你不注意时悄悄建造记忆的第二个家）· 主题页总数：**296**（新建1页：theories/trace-transformation-theory；修订5页：concepts/memory-consolidation rev9→rev10、concepts/engram-cells rev6→rev7、concepts/complementary-learning-systems rev3→rev4、theories/trace-transformation-theory新建、systems/default-mode-network rev4→rev5；新增 Q-ttt-episodic-vs-semantic-boundary/Q-ttt-anterior-posterior-hpc-division/Q-dmn-replay-directionality/Q-dmn-task-deactivation-mechanism；图谱301节点/1778边）
+> 最后更新：2026-09-26（第156篇·自动驾驶的大脑：纹状体双系统如何在习惯与目标之间争夺行为控制权）· 主题页总数：**298**（新建2页：concepts/habitual-behavior、concepts/goal-directed-behavior；修订1页：systems/basal-ganglia rev3→rev4；新增 Q-habit-01/Q-habit-02/Q-gd-01；图谱303节点/1791边）
 
 ---
 
@@ -145,6 +145,8 @@
 - 🔵 [Actor-Critic架构（基底节）](concepts/actor-critic-brain.md) — VTA/SNc=TD误差δ广播；NAc/腹侧纹状体=Critic价值估计；背侧纹状体D1-MSN=Actor Go / D2-MSN=Actor No-Go；DA双向读出设计（D1兴奋/D2抑制）**[NEW 2026-07-12]**
 - 🟡 [分布式强化学习与多巴胺编码](concepts/distributional-rl-dopamine.md) — 不同VTA DA神经元以不对称RPE缩放编码奖励分布分位数；大脑早于AI独立实现分布式RL计算；Dabney 2020 小鼠VTA单细胞记录 **[NEW 2026-07-12]**
 - 🔵 [模型-基与模型-无强化学习（双系统）](concepts/model-based-model-free.md) — DMS支持MB（目标导向/灵活）；DLS支持MF（习惯性/快速）；结果贬值测试区分双系统；应激→从MB切换到MF；OCD/成瘾/抑郁的计算框架 **[NEW 2026-07-12]**
+- 🟢 [习惯行为](concepts/habitual-behavior.md) — S-R联结驱动、对结果当前价值不敏感的自动行为；神经基底为DLS+IL；随训练重复强化；IL主动抑制目标导向系统；计算等价model-free RL；黑质-纹状体DA必要 **[NEW 2026-09-26]**
+- 🟢 [目标导向行为](concepts/goal-directed-behavior.md) — A-O联结驱动、对结果当前价值实时敏感的灵活行为；神经基底为DMS+PL；IL压制时潜伏于习惯之下；计算等价model-based RL；贬值后即时调整 **[NEW 2026-09-26]**
 
 - 🔵 [三方突触](concepts/tripartite-synapse.md) — Araque 1999 框架；突触前+突触后+星形胶质细胞 PAPs 三元功能单元；双向神经元-胶质细胞信号；LTP/LTD 的三方必要性因果证明（Henneberger 2010）**[NEW 2026-07-02]**
 - 🔵 [D-丝氨酸](concepts/d-serine.md) — NMDA 受体 GluN1 协同激动剂（而非甘氨酸）；星形胶质细胞丝氨酸消旋酶合成；Ca²⁺ 依赖释放；切断 D-丝氨酸 → LTP 完全消失（Henneberger 2010）**[NEW 2026-07-02]**

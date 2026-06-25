@@ -4,8 +4,8 @@
 
 ## 2026年9月（进行中）
 
-*本月截至日期：2026-09-25*
-*本月新增文章：#131（2026-09-01 中型多棘神经元×D1/D2通路×纹状体可塑性×习惯vs目标导向×帕金森病MSN病理）；#132（2026-09-02 除法规范化×V1规范计算×注意力规范化×LIP价值规范化×TRN全脑路由×Pareto最优编码）；#133（2026-09-03 浦肯野细胞×攀爬纤维×小脑前向控制×奖励CF信号×颗粒细胞编码争议）；#134（2026-09-04 深部小脑核×去抑制vs反弹兴奋×三层可塑性×PNN门控×非运动DCN功能）；#135（2026-09-05 颞叶前部语义枢纽×枢纽辐条模型×语义痴呆×Huth全皮层语义地图）；#136（2026-09-06 时间情境模型神经底物×MEC时间漂移细胞×CA2时间偏好×颞氨通路功能分化×mPFC时间读出）；#137（2026-09-07 亨廷顿病×polyQ毒性×BDNF-REST轴×MSN选择性脆弱性×tominersen悖论）；#138（2026-09-08 兴奋毒性×突触内/外NMDAR二分×钙-线粒体三联体×GLT-1/EAAT2防线×美金刚/nerinetide×慢性EMT概念）；#139（2026-09-09 线粒体功能障碍×ETC复合体×ROS×mPTP×PINK1-Parkin×神经退行性疾病共同轴）；#140（2026-09-10 20周认知地图综合×五尺度统一原理×世界模型）；#141（2026-09-11 ALS×TDP-43统一病理×C9orf72三叉毒矛×隐蔽外显子×RAN翻译×DPR×运动神经元四重脆弱性×tofersen）；#142（2026-09-12 液-液相分离×突触素储备库×PSD-95/SynGAP凝聚相×LTP相变机制×GluN2B→GluN2A发育切换×关键期物理门控）；#143（2026-09-13 MICrONS×五亿突触接线图×功能-结构连接组×同类相连布线规则×抑制性隔室靶向特异性×去抑制专家）；#144（2026-09-14 V1各层预测误差分工×Thomas 2024 7T fMRI层级解码×Bastos 2012典范微回路×Keller 2012感觉运动错配×自由能原理×神经适应替代假说）；#145（2026-09-15 LGN注意三重门控×TRN时序优先4ms×McAlonan 2008 vs Alitto 2025效应量争议×CG反馈M/P/K特异性×Alitto 2026 β振荡机制×Nakajima 2019跨模态TRN抑制）；#146（2026-09-16 空间转录组学×MERFISH纠错编码×Allen Brain Cell Atlas 2023×5322细胞簇×背腹侧分化×空间模块≠解剖区域×IT神经元梯度×转录因子组合码×老化白质热点）；#147（2026-09-17 小胶质细胞稳态×DAM两步激活×TREM2-APOE-MGnD轴×INVOKE-2临床失败×神经炎症保护vs破坏二元论）；#155（2026-09-25 系统记忆巩固×沉默mPFC印迹×SCT vs MTT vs TTT×瀑布记忆系统CMS×DMN主连接梯度×近临界动力学×痕迹转化论）；共18篇*
+*本月截至日期：2026-09-26*
+*本月新增文章：#131（2026-09-01 中型多棘神经元×D1/D2通路×纹状体可塑性×习惯vs目标导向×帕金森病MSN病理）；#132（2026-09-02 除法规范化×V1规范计算×注意力规范化×LIP价值规范化×TRN全脑路由×Pareto最优编码）；#133（2026-09-03 浦肯野细胞×攀爬纤维×小脑前向控制×奖励CF信号×颗粒细胞编码争议）；#134（2026-09-04 深部小脑核×去抑制vs反弹兴奋×三层可塑性×PNN门控×非运动DCN功能）；#135（2026-09-05 颞叶前部语义枢纽×枢纽辐条模型×语义痴呆×Huth全皮层语义地图）；#136（2026-09-06 时间情境模型神经底物×MEC时间漂移细胞×CA2时间偏好×颞氨通路功能分化×mPFC时间读出）；#137（2026-09-07 亨廷顿病×polyQ毒性×BDNF-REST轴×MSN选择性脆弱性×tominersen悖论）；#138（2026-09-08 兴奋毒性×突触内/外NMDAR二分×钙-线粒体三联体×GLT-1/EAAT2防线×美金刚/nerinetide×慢性EMT概念）；#139（2026-09-09 线粒体功能障碍×ETC复合体×ROS×mPTP×PINK1-Parkin×神经退行性疾病共同轴）；#140（2026-09-10 20周认知地图综合×五尺度统一原理×世界模型）；#141（2026-09-11 ALS×TDP-43统一病理×C9orf72三叉毒矛×隐蔽外显子×RAN翻译×DPR×运动神经元四重脆弱性×tofersen）；#142（2026-09-12 液-液相分离×突触素储备库×PSD-95/SynGAP凝聚相×LTP相变机制×GluN2B→GluN2A发育切换×关键期物理门控）；#143（2026-09-13 MICrONS×五亿突触接线图×功能-结构连接组×同类相连布线规则×抑制性隔室靶向特异性×去抑制专家）；#144（2026-09-14 V1各层预测误差分工×Thomas 2024 7T fMRI层级解码×Bastos 2012典范微回路×Keller 2012感觉运动错配×自由能原理×神经适应替代假说）；#145（2026-09-15 LGN注意三重门控×TRN时序优先4ms×McAlonan 2008 vs Alitto 2025效应量争议×CG反馈M/P/K特异性×Alitto 2026 β振荡机制×Nakajima 2019跨模态TRN抑制）；#146（2026-09-16 空间转录组学×MERFISH纠错编码×Allen Brain Cell Atlas 2023×5322细胞簇×背腹侧分化×空间模块≠解剖区域×IT神经元梯度×转录因子组合码×老化白质热点）；#147（2026-09-17 小胶质细胞稳态×DAM两步激活×TREM2-APOE-MGnD轴×INVOKE-2临床失败×神经炎症保护vs破坏二元论）；#155（2026-09-25 系统记忆巩固×沉默mPFC印迹×SCT vs MTT vs TTT×瀑布记忆系统CMS×DMN主连接梯度×近临界动力学×痕迹转化论）；#156（2026-09-26 纹状体双系统×习惯行为×目标导向行为×DLS/DMS功能分离×IL压制机制×model-based vs model-free RL）；共19篇*
 
 ### 本月文章摘要
 
@@ -1622,3 +1622,33 @@
 **修订 wiki 页（3个）**：systems/entorhinal-cortex（rev4→rev5，MEC/LEC新认识）、concepts/btsp（rev3→rev4，EC双重角色）、concepts/place-cells（rev2→rev3，EC双流贡献）
 **图谱**：298→300 节点，1747→1763 边（+2 节点，+16 边）
 **新增未解问题**：Q-ec-ca1-01（高：LEC 位置编码信号上游来源）、Q-ec-ca1-02（高：人类 TA path AND 门机制验证）、Q-ec-ca1-03（中：TA path 巩固窗口复习信号性质）
+
+---
+
+### 2026-09-25（#155）：记忆的双重人生——前额叶皮层如何悄悄建造记忆的第二个家
+
+**一句话**：mPFC 印迹细胞在学习当天（Day1）与海马印迹同步创建但处于沉默状态，巩固过程是提取路径重路由（HPC→mPFC），而非记忆拷贝迁移；CMS 模型（Kaefer 2022）将 SWR 重播信号描述为沿 DMN 主连接梯度向下游感觉皮层的瀑布式传播（近临界动力学）；痕迹转化论（TTT）提出情景式/图式式/语义式三种形式从编码起就并存并持续转化，统合了 SCT 与 MTT 的长期争议。
+
+**核心知识点**：Kitamura 2017 Science：mPFC Day1 沉默印迹（cFos+/低活性）→Day14 解沉默（光遗传激活恢复远期记忆）；巩固=HPC→mPFC 提取路径重路由，而非记忆内容搬迁；CMS 模型（Kaefer 2022 Nat Rev Neurosci）：近临界动力学→神经元雪崩→SWR 重播沿 DMN 主连接梯度（HPC→mPFC→PCC/角回→感觉皮层）传播；TTT（Moscovitch & Gilboa 2022 Faculty Reviews）：多形式并存从记忆编码即开始；Park & Kaang 2026 恐惧记忆远期维持分子链（CREB→ERK5→H2A.Z→EphrinB2）。
+
+**层级**：molecular / cellular / brain-region / whole-brain-network / cognition
+
+**新建 wiki 页（1个）**：theories/trace-transformation-theory（emerging/medium）
+**修订 wiki 页（4个）**：concepts/memory-consolidation（rev9→rev10）、concepts/engram-cells（rev6→rev7）、concepts/complementary-learning-systems（rev3→rev4）、systems/default-mode-network（rev4→rev5）
+**图谱**：300→301 节点，1763→1778 边（+1 节点，+15 边）
+**新增未解问题**：Q-ttt-episodic-vs-semantic-boundary（中）、Q-ttt-anterior-posterior-hpc-division（中）、Q-dmn-replay-directionality（中）、Q-dmn-task-deactivation-mechanism（中）
+
+---
+
+### 2026-09-26（#156）：自动驾驶的大脑——纹状体双系统如何在习惯与目标之间争夺行为控制权
+
+**一句话**：大脑同时运行两套并行行为控制系统：DMS（背内侧纹状体）+PL皮层支持目标导向行为（A-O联结，model-based RL，对结果价值实时敏感），DLS（背外侧纹状体）+IL皮层支持习惯行为（S-R联结，model-free RL，结果贬值后不改变）；IL 主动压制 PL-DMS 目标导向回路是习惯主导的关键机制（"压制"而非"消除"），黑质-纹状体多巴胺对习惯形成必要；人类两步任务 fMRI（Daw 2011）证明同时使用两套系统。
+
+**核心知识点**：结果贬值测试（outcome devaluation）：毒素/饱足→奖励失效→消退测试→习惯化动物不降低反应频率；DMS 损毁→即使少量训练就习惯化（Yin 2005）；DLS 损毁→大量训练也无法习惯化（Yin 2004）；6-OHDA 耗竭黑质-纹状体 DA→无法习惯化（Faure 2005）；IL Muscimol→习惯化大鼠恢复目标导向（Coutureau 2003）；两步任务 fMRI：腹侧纹状体 BOLD 编码 MB+MF 双重预测误差（Daw 2011）；AI对比：DQN≈model-free/习惯，AlphaZero≈model-based/目标导向，Dyna=两者混合；成瘾/OCD/PD 的双系统失衡疾病框架。
+
+**层级**：microcircuit / brain-region / behavior / cognition
+
+**新建 wiki 页（2个）**：concepts/habitual-behavior（established/high）、concepts/goal-directed-behavior（established/high）
+**修订 wiki 页（1个）**：systems/basal-ganglia（rev3→rev4，新增DMS/DLS双系统功能分化小节）
+**图谱**：301→303 节点，1778→1791 边（+2 节点，+13 边）
+**新增未解问题**：Q-habit-01（中：认知习惯与运动习惯是否共享 DLS/IL 机制）、Q-habit-02（中：高认知负荷/睡眠剥夺下习惯系统主导的神经机制）、Q-gd-01（中：高负荷下 model-based 容量变化的三候选机制）

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-25",
-  "total_articles": 143,
+  "last_updated": "2026-09-26",
+  "total_articles": 144,
   "entries": [
     {
       "date": "2026-09-21",
@@ -9581,6 +9581,78 @@
       "knowledge_base_date": "2026-09-25",
       "system_clock_date": "2026-06-26",
       "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-09-25（第155篇系统记忆巩固×沉默mPFC印迹文章）"
+    },
+    {
+      "date": "2026-09-26",
+      "title": "自动驾驶的大脑：纹状体双系统如何在习惯与目标之间争夺行为控制权",
+      "filename": "2026-09-26-habit-goal-directed-dorsal-striatum.md",
+      "article_number": 156,
+      "wiki_pages_created": [
+        "wiki/concepts/habitual-behavior.md",
+        "wiki/concepts/goal-directed-behavior.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/basal-ganglia.md (rev3->rev4)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "背内侧纹状体（DMS）和背外侧纹状体（DLS）如何分别支持目标导向行为和习惯行为？下边缘皮层（IL）如何主动压制目标导向系统以使习惯主导？DA 对习惯形成的必要性机制？计算上对应 model-based vs model-free 强化学习。",
+      "open_questions_added": [
+        "Q-habit-01（中优先级）：认知层面的习惯（自动化偏见、刻板思维）是否共享与运动习惯相同的 DLS/IL 神经机制？",
+        "Q-habit-02（中优先级）：高认知负荷、睡眠剥夺、焦虑状态下习惯系统更易主导的神经机制（PL 资源减少/IL 兴奋性升高/DA 基线变化）",
+        "Q-gd-01（中优先级）：高认知负荷下 model-based 控制可用容量如何变化（vmPFC 资源/IL 兴奋性/DMS DA 信号质量三机制的相对贡献）"
+      ],
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱4（强化学习：习惯 vs 目标导向双系统）+ 课程脊柱12（大脑与AI比较：model-based vs model-free RL）",
+      "topic_tags": [
+        "dorsal striatum DMS DLS habit goal-directed behavior outcome devaluation",
+        "Yin Knowlton Balleine 2004 2005 dorsolateral dorsomedial striatum lesion",
+        "Balleine O'Doherty 2010 Neuropsychopharmacology review corticostriatal",
+        "infralimbic prelimbic cortex habit goal-directed suppression model",
+        "Coutureau Killcross 2003 infralimbic muscimol goal-directed reinstatement",
+        "Faure 2005 nigrostriatal dopamine 6-OHDA habit formation necessary",
+        "model-based model-free reinforcement learning striatum human",
+        "Daw Gershman Seymour Dayan Dolan 2011 Neuron two-step task fMRI",
+        "outcome devaluation contingency degradation instrumental conditioning test",
+        "habitual behavior S-R stimulus-response binding automatic",
+        "goal-directed behavior action-outcome A-O encoding flexible",
+        "DQN AlphaZero Dyna model-free model-based AI comparison"
+      ],
+      "main_sources": [
+        "PMID:19776734 (Balleine & O'Doherty 2010, Neuropsychopharmacology, 主要综述, OPEN PMC3055420)",
+        "PMID:14750976 (Yin et al. 2004, Eur J Neurosci, DLS损毁实验, 摘要)",
+        "PMID:16045504 (Yin et al. 2005, Eur J Neurosci, DMS损毁实验, 摘要)",
+        "PMID:14643469 (Coutureau & Killcross 2003, Behav Brain Res, IL灭活实验, 摘要)",
+        "PMID:15772337 (Faure et al. 2005, J Neurosci, DA耗竭×习惯, OPEN PMC6725127)",
+        "PMID:21435563 (Daw et al. 2011, Neuron, 人类两步任务fMRI, OPEN PMC3077926)",
+        "PMID:34673264 (Green & Bouton 2021, Neurobiol Learn Mem, PL/IL修订模型, OPEN PMC8653515)",
+        "PMID:30053577 (Shipman et al. 2018, Neurobiol Learn Mem, PL vs IL训练历史效应, OPEN PMC6345614)",
+        "PMID:38521480 (Hart et al. 2024, Neuroscience, DMS多巴胺目标导向, 摘要)",
+        "PMID:39632222 (Varin & de Kerchove 2025, Trends Neurosci, 纹状体编码综述, 摘要)"
+      ],
+      "open_access_fulltext": [
+        "PMID:19776734 (PMC3055420)",
+        "PMID:15772337 (PMC6725127)",
+        "PMID:21435563 (PMC3077926)",
+        "PMID:34673264 (PMC8653515)",
+        "PMID:30053577 (PMC6345614)"
+      ],
+      "next_suggested_topics": [
+        "习惯的消退机制——习惯建立后如何被「解习惯化」（de-habitization）：IL 损毁只是解除压制，真正的习惯消退需要什么机制？",
+        "成瘾的习惯化神经机制——药物成瘾从目标导向到强迫性使用的转变如何在 DLS/DMS 层面发生，NAc 核壳区的角色",
+        "OCD 的计算神经科学——OCD 中 model-based 控制缺陷的神经机制：眶额叶-纹状体回路的异常",
+        "强化学习的神经元对应——具体的纹状体神经元如何实现 TD 误差更新（TDRL 的物理基底）",
+        "压力与决策——急性应激如何通过糖皮质激素促进从 model-based 向 model-free 的切换（与 Q-habit-02 直接相关）"
+      ],
+      "graph_update": "301+2=303 nodes (habitual-behavior新建, goal-directed-behavior新建); 1778+13=1791 edges (+habitual-behavior→basal-ganglia, +habitual-behavior→dopamine-reward-prediction-error, +habitual-behavior→prefrontal-cortex, +habitual-behavior→td-learning, +habitual-behavior→goal-directed-behavior, +goal-directed-behavior→basal-ganglia, +goal-directed-behavior→dopamine-reward-prediction-error, +goal-directed-behavior→prefrontal-cortex, +goal-directed-behavior→td-learning, +goal-directed-behavior→habitual-behavior, +basal-ganglia→habitual-behavior, +basal-ganglia→goal-directed-behavior, +model-based-model-free→habitual-behavior)",
+      "knowledge_base_date": "2026-09-26",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-26（第156篇纹状体双系统习惯与目标导向行为文章）"
     }
   ]
 }

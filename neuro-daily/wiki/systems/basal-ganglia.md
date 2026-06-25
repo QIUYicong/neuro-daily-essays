@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-31
-updated: 2026-09-01
-revision_count: 3
+updated: 2026-09-26
+revision_count: 4
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [dopamine-reward-prediction-error, interval-timing, striatal-beat-frequency, td-learning, parkinson-disease, prefrontal-cortex, thalamus, foxp2, vocal-learning, childhood-apraxia-of-speech, medium-spiny-neuron, striatal-direct-indirect-pathway, striatal-plasticity]
+related: [dopamine-reward-prediction-error, interval-timing, striatal-beat-frequency, td-learning, parkinson-disease, prefrontal-cortex, thalamus, foxp2, vocal-learning, childhood-apraxia-of-speech, medium-spiny-neuron, striatal-direct-indirect-pathway, striatal-plasticity, habitual-behavior, goal-directed-behavior]
 prerequisites: [medium-spiny-neuron, dopamine-reward-prediction-error]
 opens_questions: [Q-bg-01, Q-foxp2-01]
-source_articles: [2026-07-31-interval-timing-basal-ganglia-striatum, 2026-08-12-foxp2-language-genetics-development, 2026-09-01-medium-spiny-neurons-striatum]
-key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143", "PMID:25225386", "PMID:21469956", "PMID:31171839", "PMID:27373834"]
+source_articles: [2026-07-31-interval-timing-basal-ganglia-striatum, 2026-08-12-foxp2-language-genetics-development, 2026-09-01-medium-spiny-neurons-striatum, 2026-09-26-habit-goal-directed-dorsal-striatum]
+key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143", "PMID:25225386", "PMID:21469956", "PMID:31171839", "PMID:27373834", "PMID:14750976", "PMID:16045504", "PMID:19776734", "PMID:21435563"]
 ---
 
 # 基底节 (Basal Ganglia)
@@ -100,6 +100,39 @@ key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143"
 | D1 MSN激活→丘脑/运动皮层兴奋；D2 MSN激活→丘脑/运动皮层抑制 | ofMRI+AAV-ChR2（小鼠DMS）| PMID:27373834 (PMC5528162) | 高 |
 | DMS损伤→目标导向退化为习惯；DLS损伤→无法形成习惯 | 靶向损伤+行为测试（啮齿类）| PMID:31171839 (PMC7231228) | 高 |
 
+## 背内侧/背外侧纹状体的双系统功能分化（2026-09-26新增）
+
+纹状体在背侧轴上分为两个功能上互补、神经上独立的子系统，分别支撑**目标导向行为**和**习惯行为**：
+
+**背内侧纹状体（DMS，尾状核内侧）→ 目标导向行为**
+- DMS 接受前额叶联合皮层（prelimbic, PL）和眶额叶的大量投射，经 DA 依赖性可塑性建立**动作-结果（A-O）联结**
+- DMS 损毁→即使少量训练后行为也变为习惯性（Yin et al. 2005, PMID:16045504）
+- 前边缘皮层（PL）对 A-O 联结的**获得**必要（但不影响已建立联结的表达）
+- 计算等价：**有模型（model-based）强化学习**，维护世界模型 + 前向规划，对结果贬值敏感
+
+**背外侧纹状体（DLS，壳核后外侧）→ 习惯行为**
+- DLS 接受初级运动皮层/感觉运动皮层投射，经**黑质-纹状体多巴胺**建立**刺激-反应（S-R）联结**
+- DLS 损毁→即使大量训练也无法形成习惯（Yin et al. 2004, PMID:14750976）
+- 6-OHDA 耗竭黑质-纹状体 DA 通路 → 无法习惯化（Faure et al. 2005, PMID:15772337）
+- 计算等价：**无模型（model-free）强化学习**，缓存 Q 值 + TD 误差更新，对结果贬值不敏感
+
+**下边缘皮层（IL）的竞争仲裁角色**
+- IL 通过腹侧纹状体主动抑制 PL-DMS 目标导向回路，使习惯系统主导
+- Muscimol 暂时性灭活 IL → 习惯化大鼠恢复结果贬值敏感性（Coutureau & Killcross 2003, PMID:14643469）
+- 核心推论：**习惯是"压制"目标导向，而非"消除"目标导向能力**
+
+**人类神经影像学证据**
+- Daw 等（2011）两步任务 fMRI：人类行为同时受 model-based 和 model-free 影响；腹侧纹状体 BOLD 编码两种预测误差（PMID:21435563）
+- 人类壳核后外侧随习惯化训练激活增强（Tricomi 2009）；人类前尾状核编码动作-结果权变（Tanaka 2008）
+
+| 主张 | 证据/方法 | 来源 | 置信度 |
+|------|----------|------|--------|
+| DMS 对目标导向行为获得和表达必要 | 前/后训练 DMS 损毁均导致少量训练后习惯化 | Yin et al. 2005, PMID:16045504 | 高 |
+| DLS 对习惯形成必要 | DLS 损毁→过度训练后仍对结果贬值敏感 | Yin et al. 2004, PMID:14750976 | 高 |
+| 黑质-纹状体 DA 对习惯形成必要 | 6-OHDA 耗竭→无法习惯化 | Faure et al. 2005, PMID:15772337 | 高 |
+| IL 主动压制目标导向系统 | IL Muscimol → 习惯化大鼠恢复目标导向 | Coutureau & Killcross 2003, PMID:14643469 | 高（大鼠） |
+| 人类行为同时受 MB/MF 双系统影响 | 两步任务 fMRI + 腹侧纹状体 BOLD | Daw et al. 2011, PMID:21435563 | 中-高 |
+
 ## 连接
 
 - [[medium-spiny-neuron]] — D1/D2 通路的细胞基础
@@ -115,6 +148,8 @@ key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143"
 - [[circuits/basal-ganglia]] — 姊妹页：回路/疾病视角的更详细解剖
 - [[striatal-direct-indirect-pathway]] — 两条通路的回路机制（今日新增详细页面）
 - [[striatal-plasticity]] — 皮质-纹状体LTP/LTD的分子机制（今日新增页面）
+- [[habitual-behavior]] — DLS 是习惯行为的解剖基底；IL 主动抑制目标导向以支持习惯控制
+- [[goal-directed-behavior]] — DMS 是目标导向行为的解剖基底；PL/prelimbic 皮层对获得必要
 
 ## 未解问题
 
@@ -126,6 +161,7 @@ key_sources: ["PMID:21389235", "PMID:38918348", "PMID:35978564", "PMID:34260143"
 - 2026-07-31 · 创建（systems 域首版，计时视角） · 基于《大脑的秒表》文章 #99 · 初始置信度：高
 - 2026-08-12 · 修订 rev2 · 新增FOXP2与纹状体发育小节（MSN树突调控、人源化Foxp2效果、CAS机制、鸣禽Area X平行）· 来源：PMID:21765815, PMID:25225386, PMID:37137515 · related新增foxp2、vocal-learning、childhood-apraxia-of-speech；dimensions扩展至disease
 - 2026-09-01 · 修订 rev3 · 新增证据表条目（ofMRI D1/D2激活脑网络效应PMID:27373834；DMS/DLS功能分离损伤实验PMID:31171839）；related新增medium-spiny-neuron、striatal-direct-indirect-pathway、striatal-plasticity；连接节新增姊妹页链接 · 来源：《纹状体的决策细胞》文章#131
+- 2026-09-26 · 修订 rev4 · 新增DMS/DLS双系统功能分化小节（目标导向/习惯各自解剖、DA必要性、IL竞争仲裁、人类fMRI证据）及配套证据表；related新增habitual-behavior、goal-directed-behavior；key_sources新增PMID:14750976/16045504/19776734/21435563 · 来源：《自动驾驶的大脑》文章#156
 
 ## 来源文章
 

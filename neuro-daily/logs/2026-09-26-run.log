@@ -1,0 +1,134 @@
+# 运行日志 2026-09-26
+
+**文章编号**：#156
+**标题**：自动驾驶的大脑：纹状体双系统如何在习惯与目标之间争夺行为控制权
+**系统时钟**：2026-06-25 UTC+8
+**知识库连续性日期**：2026-09-26
+
+---
+
+## 主题选择
+
+**初始候选**：CA3 模式补全（pattern completion）
+**发现冲突**：检查 `wiki/concepts/pattern-completion.md` 已存在（rev1, article #60, 2026-06-24），`wiki/concepts/pattern-separation.md` 也已存在
+**改选主题**：纹状体双系统（习惯 vs 目标导向行为）
+**选题依据**：
+- `wiki/systems/basal-ganglia.md` (rev3) 未有专门的习惯/目标导向机制章节
+- `neuro-daily/state/topic_ledger.json` 中无习惯行为或目标导向行为的独立条目
+- 直接补充 model-based-model-free.md 的空缺解剖机制层
+- Balleine 实验室大量 PMC 开放全文可用
+
+---
+
+## 文献检索记录
+
+### PubMed 搜索查询
+
+1. `dorsal striatum habit formation goal-directed behavior outcome devaluation` → 相关文献，找到 Yin/Balleine 经典系列
+2. `Yin Knowlton Balleine dorsolateral dorsomedial striatum` → 确认 PMID:14750976 (DLS) 和 PMID:16045504 (DMS)
+3. `Balleine O'Doherty human goal-directed habit reward learning` → 确认 PMID:19776734 (PMC3055420 开放全文)
+4. `model-based model-free reinforcement learning striatum prefrontal cortex` → 确认 Daw et al. 2011 PMID:21435563
+5. `infralimbic cortex habit prelimbic goal-directed behavior rats` → 确认 Coutureau & Killcross 2003 PMID:14643469
+6. `Daw model-based model-free Neuron 2011 humans fMRI` → 确认 PMC3077926 开放全文
+7. `habit formation review striatum dopamine instrumental conditioning` → 确认 Faure et al. 2005 PMC6725127
+8. `dorsal striatum neuronal encoding instrumental learning review 2024 2025` → 找到 Varin 2025 PMID:39632222, Hart 2024 PMID:38521480
+
+### 全文获取
+
+- PMC3055420 (Balleine & O'Doherty 2010)：成功获取，用作主要综述基础
+- PMC6725127 (Faure et al. 2005)：成功获取，DA 耗竭实验全文
+- PMC3077926 (Daw et al. 2011)：成功获取，两步任务 fMRI 全文
+- PMC8653515 (Green & Bouton 2021)：成功获取，PL/IL 修订模型
+- PMC6345614 (Shipman et al. 2018)：成功获取，PL vs IL 训练历史效应
+
+### 总来源数
+
+- 全文可用：6/10
+- 仅摘要：4/10 (PMID:14750976, PMID:16045504, PMID:14643469, PMID:38521480, PMID:39632222)
+
+---
+
+## 文章写作
+
+**字数**：约 5000 中文字
+**格式**：5节（背景/机制/证据/隐喻/展望）+ 来源列表
+**文件**：`neuro-daily/articles/2026-09-26-habit-goal-directed-dorsal-striatum.md`
+
+---
+
+## Wiki 整合
+
+### 新建页面（2个）
+
+1. `wiki/concepts/habitual-behavior.md` (rev1, established/high)
+   - 定义 S-R 联结驱动习惯行为
+   - DLS 存储地点、IL 主动抑制角色、DA 必要性
+   - model-free RL 计算等价
+   - 关键证据表（4行）
+
+2. `wiki/concepts/goal-directed-behavior.md` (rev1, established/high)
+   - 定义 A-O 联结驱动目标导向行为
+   - DMS 存储地点、PL 获得必要性
+   - model-based RL 计算等价
+   - Daw 2011 人类证据
+
+### 修订页面（1个）
+
+3. `wiki/systems/basal-ganglia.md` (rev3→rev4)
+   - 新增"背内侧/背外侧纹状体的双系统功能分化"小节
+   - 新增证据表（5行，DMS/DLS/DA/IL/人类fMRI）
+   - 更新 related 列表（+habitual-behavior, +goal-directed-behavior）
+   - 更新 key_sources（+4个 PMIDs）
+   - 新增来源文章引用
+
+---
+
+## 辅助文件
+
+- `neuro-daily/notes/2026-09-26-reading-notes.md` — 9个来源的详细阅读笔记
+- `neuro-daily/sources/2026-09-26-sources.json` — 10个来源元数据
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json` — 新增 #156 条目，total_articles 143→144
+- `state/unresolved_questions.md` — 新增 Q-habit-01, Q-habit-02, Q-gd-01
+- `state/source_registry.json` — 新增 #156 条目（8新+2复用来源）
+- `state/monthly_synthesis.md` — 更新本月截至日期，新增 #155 和 #156 详细条目
+- `state/maturity_index.json` — 新增 habitual-behavior 和 goal-directed-behavior 条目
+- `wiki/index.md` — 更新主题页总数 296→298，新增 2 条 concepts 条目
+- `wiki/CHANGELOG.md` — （通过 git commit 记录）
+
+---
+
+## 图谱变化
+
+- 节点：301 → 303 (+habitual-behavior, +goal-directed-behavior)
+- 边：1778 → 1791 (+13 边)
+  - habitual-behavior ↔ goal-directed-behavior (双向)
+  - habitual-behavior → basal-ganglia, dopamine-reward-prediction-error, prefrontal-cortex, td-learning
+  - goal-directed-behavior → basal-ganglia, dopamine-reward-prediction-error, prefrontal-cortex, td-learning
+  - basal-ganglia → habitual-behavior, goal-directed-behavior
+  - model-based-model-free → habitual-behavior
+
+---
+
+## Git 操作
+
+- 分支：main（单分支积累模型）
+- 提交消息：`Add neuro daily article + wiki consolidation for 2026-09-26`
+- 作者：QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+- 推送目标：origin/main
+
+---
+
+## 错误与重试
+
+- git pull 时出现 divergent branches 错误 → 使用 `git pull --rebase origin main` 解决（上次会话）
+- PMC URL 重定向：`www.ncbi.nlm.nih.gov/pmc/...` → `pmc.ncbi.nlm.nih.gov/...`（已使用正确URL）
+- 本次推送：正常
+
+---
+
+**运行结束时间**：2026-06-25 UTC+8（知识库日期 2026-09-26）
