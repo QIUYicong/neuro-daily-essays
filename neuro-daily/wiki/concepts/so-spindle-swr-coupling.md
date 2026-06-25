@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-07
-updated: 2026-07-23
-revision_count: 2
+updated: 2026-09-30
+revision_count: 3
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, cognition]
-related: [sharp-wave-ripples, sleep-spindles, cortical-slow-oscillation, memory-consolidation, thalamocortical-circuit, hippocampal-circuit, shy-hypothesis, up-down-state-mechanism]
+related: [sharp-wave-ripples, sleep-spindles, cortical-slow-oscillation, memory-consolidation, thalamocortical-circuit, hippocampal-circuit, shy-hypothesis, up-down-state-mechanism, synaptic-tagging-capture, ltp]
 prerequisites: [sharp-wave-ripples, sleep-spindles, cortical-slow-oscillation, hippocampal-circuit]
 opens_questions: [Q-swr-cortical-consolidation, Q-replay-human-translation, Q-shy-vs-active-consolidation, Q-pfc-veto-mechanism, Q-pfc-veto-human]
-source_articles: [2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-23-cortical-up-down-state-pfc-gating-memory]
+source_articles: [2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-23-cortical-up-down-state-pfc-gating-memory, 2026-09-30-swr-sleep-ltp-consolidation]
 key_sources: ["PMID:9856467", "PMID:27182818", "PMID:29249289", "PMID:34709916", "PMID:38443198", "PMID:26389842", "PMID:37429914", "PMID:38834064"]
 ---
 
@@ -85,16 +85,32 @@ key_sources: ["PMID:9856467", "PMID:27182818", "PMID:29249289", "PMID:34709916",
 | 三重同步期神经元放电率阶梯式递增 + 跨区域交互增强 | 人类颅内 MUA 记录 | PMID:37429914 | 高 |
 | PFC 独立涟漣主动抑制海马重激活（选择性守门） | 大鼠高密度皮层-海马电生理 | PMID:38834064 | 中-高 |
 
+## STC框架下的三重耦合解读
+
+三重耦合不只是"三种振荡的时间同步"——它是**突触标记-捕获（STC）机制在系统层面的生理实现**（Sadowski 2016, PMID:26904941）：
+
+| STC组件 | 系统层面对应 | 执行者 |
+|---------|------------|-------|
+| 标签设置（E-LTP） | 白天Hebbian学习（STDP，渐强型集成体） | 清醒期CA3→CA1突触 |
+| PRP合成信号 | 纺锤波→Ca²⁺→PKA/CREB→PRPs | 丘脑纺锤波（嵌套在SO UP态） |
+| 突触选择性激活 | 大振幅SWR→树突去极化→NMDA激活 | 海马SWR（嵌套在纺锤波波谷） |
+| 捕获（E-LTP→L-LTP） | PRPs被重激活的标签突触捕获 | 纺锤波+SWR时间耦合确保同步 |
+| 优先级选择 | 清醒SWR（涟漪标签）→睡眠重播概率↑ | 清醒期SWR |
+
+**SO-纺锤波-SWR时序耦合正是STC"时间窗口对齐"的保障**：纺锤波在SWR到达前的约70-80毫秒内持续提供Ca²⁺/PKA信号，确保当SWR激活标签突触时，PKA/CREB驱动的PRPs正处于合成高峰——这不是巧合，而是神经回路演化出的时序精确对齐。
+
 ## 连接
 
-- [[sharp-wave-ripples]] — SWR 是三重耦合的"载荷"，承载压缩的记忆序列
-- [[sleep-spindles]] — 纺锤波是皮层"预热器"，为 SWR 信号写入准备
+- [[sharp-wave-ripples]] — SWR 是三重耦合的"载荷"，承载压缩的记忆序列；提供突触选择性NMDA激活
+- [[sleep-spindles]] — 纺锤波是皮层"预热器"；STC框架中的PRPs合成触发者（Ca²⁺→PKA/CREB）
 - [[cortical-slow-oscillation]] — SO 是主时钟，设定耦合节律
 - [[memory-consolidation]] — 三重耦合是系统层面记忆巩固的核心机制
 - [[thalamocortical-circuit]] — 丘脑-皮质回路执行纺锤波生成与 SO 传播
 - [[hippocampal-circuit]] — CA3→CA1→海马皮层投射是 SWR 的解剖通路
 - [[shy-hypothesis]] — SHY 的突触下调与三重耦合的记忆保护同时发生
 - [[up-down-state-mechanism]] — UP/DOWN 态的细胞机制是三重耦合"主时钟"的分子基础
+- [[synaptic-tagging-capture]] — 三重耦合是STC在系统层面的实现：纺锤波=PRP合成，SWR=标签激活，时序耦合=时间窗口对齐
+- [[ltp]] — 三重耦合的最终结果是E-LTP→L-LTP的转化（SWR诱导NMDA依赖性LTP）
 
 ## 未解问题
 
@@ -106,6 +122,7 @@ key_sources: ["PMID:9856467", "PMID:27182818", "PMID:29249289", "PMID:34709916",
 
 ## 修订历史
 
+- 2026-09-30 · 修订 rev3 · 基于《睡眠中的最后一步》(#160) · 核心更新：新增"STC框架下的三重耦合解读"小节（纺锤波=PRP合成信号，SWR=突触选择性激活，时序耦合=STC时间窗口对齐）；连接节新增synaptic-tagging-capture、ltp；related新增synaptic-tagging-capture、ltp；source_articles新增2026-09-30
 - 2026-07-07 · 创建 · 基于《三重协奏》(#75) · 初始置信度：高（多物种直接因果证据）
 - 2026-07-23 · 修订 rev2 · 基于《皮层的沉默与苏醒》(#91) · 新增 Staresina 2015 人类颅内直接验证；Staresina 2023 神经元放电阶梯证据；Shin & Jadhav 2024 PFC 选择性守门机制（重要新发现）；key_sources 新增 PMID:26389842/37429914/38834064；opens_questions 新增 Q-pfc-veto-mechanism/Q-pfc-veto-human；related 新增 up-down-state-mechanism
 
@@ -113,3 +130,4 @@ key_sources: ["PMID:9856467", "PMID:27182818", "PMID:29249289", "PMID:34709916",
 
 - [[2026-07-07-sleep-memory-consolidation-so-spindle-swr]]
 - [[2026-07-23-cortical-up-down-state-pfc-gating-memory]]
+- [[2026-09-30-swr-sleep-ltp-consolidation]]

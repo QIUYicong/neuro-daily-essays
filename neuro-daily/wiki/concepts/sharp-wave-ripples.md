@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-09-22
-revision_count: 10
+updated: 2026-09-30
+revision_count: 11
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
 related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus, prefrontal-cortex, pv-interneurons]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation, Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-22-swr-replay-selection-consolidation]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179", "PMID:38834064", "PMID:39227715"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-22-swr-replay-selection-consolidation, 2026-09-30-swr-sleep-ltp-consolidation]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179", "PMID:38834064", "PMID:39227715", "PMID:26904941", "PMID:27840002", "PMID:37987008"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -69,7 +69,18 @@ CA3群体爆发通过**Schaffer侧支**传至CA1：
 - **反向重播**（reverse replay）：与行为顺序相反（常见于目标到达后）
 - **新颖路径重播**：从未实际走过的环境路径（规划功能的可能证据）
 
-### 4. 记忆固化的两阶段模型
+### 4. SWR诱导LTP的突触层面机制
+
+Sadowski, Jones & Mellor (2016, PMID:26904941, PMC4785795) 通过"体内→体外桥接"实验直接揭示了SWR重播诱导LTP的精确条件：
+
+- **树突（非胞体）去极化是必要条件**：SWR通过Schaffer侧支给予CA1树突辐射层的同步兴奋输入，造成树突去极化，这是LTP诱导的关键——用胞体电流替代时LTP消失
+- **NMDA受体依赖**：DL-AP5阻断后，即使时序完整的放电模式也不能诱导LTP；树突去极化的作用是解除NMDA受体的Mg²⁺封闭
+- **时序窗口严格**：CA3先于CA1约30毫秒内的因果放电对，发生在涟漪前60%时间窗口内时，与突触强度变化相关（r²=0.89）；人工时序偏移±100毫秒显著减弱LTP
+- **实验范式**：实验者从体内记录中提取真实放电时间戳，用三路刺激（Schaffer侧支→阈下EPSP + 胞体注入→动作电位 + 涟漪路径→100Hz树突刺激）在体外精确再现；4种组合中3种诱导LTP，第4种（CA3-CA1不相关）无LTP
+
+**含义**：SWR是精密LTP诱导器，不是宽泛广播信号。它不只是"告诉大脑重播了什么"，而是主动提供了NMDA激活所需的树突去极化——这是SWR联结突触标记-捕获（STC）机制与系统层面记忆巩固的关键一环。
+
+### 5. 记忆固化的两阶段模型
 
 SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 - **第一阶段**（探索/θ态）：海马快速编码新经历；BTSP使场所场在单次穿越中写入
@@ -104,6 +115,9 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 | CA2 ramping cells 在 SWR 前 20–30ms 先行激发；光遗传激活 CA2 诱导人工 SWR | 大鼠高密度硅探针 CA2+CA3+CA1 同步记录；光遗传激活 CA2 | PMID:27593179 | 高（因果+高时间分辨率，Neuron 发表）|
 | PFC 独立涟漪（71.2%）期间 CA1 被显著抑制，后续再激活量降低（r=−0.71） | CA1+PFC 同步多电极记录 + 涟漪分类分析 | Shin & Jadhav 2024, PMID:38834064 | 高 |
 | 抑制性突触对干扰细胞权重高 38.9%；SWR 驱动对称性抑制性 STDP | 全细胞膜片钳 + 光遗传 + 大样本统计 | Liao et al. 2024, PMID:39227715 | 高 |
+| SWR诱导NMDA依赖性LTP需树突（非胞体）去极化；CA3→CA1因果时序r²=0.89 | 体内多电极→体外全细胞膜片钳三路刺激（"虚拟重播"）；DL-AP5对照 | Sadowski et al. 2016, PMID:26904941 (PMC4785795) | 高 |
+| 渐强型细胞集成体（而非早稳型）依赖SWR离线重激活；选择性光遗传SWR抑制仅损害渐强型 | 大鼠CA1多电极 + 闭环光遗传SWR抑制 + 上下文重暴露测试 | van de Ven et al. 2016, PMID:27840002 (PMC5158132) | 高（因果） |
+| 清醒SWR内容预测睡眠重播优先级（R=0.86, P<10⁻³⁶）；漂移种群编码记录试次信息 | 超大规模多电极（>150神经元）+ UMAP/seqNMF降维分析 | Yang & Buzsáki 2024, PMID:37987008 (PMC10659301) | 中-高（关联性） |
 
 ## 连接
 
@@ -163,6 +177,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 
 ## 修订历史
 
+- 2026-09-30 · 修订 rev11 · 基于《睡眠中的最后一步》(#160) · 新增"SWR诱导LTP的突触层面机制"小节（Sadowski 2016：树突去极化+NMDA依赖性，r²=0.89时序关联）；证据表新增3行（Sadowski 2016, van de Ven 2016, Yang & Buzsáki 2024）；key_sources新增PMID:26904941/27840002/37987008；source_articles新增2026-09-30
 - 2026-05-29 · 创建 · 基于《θ振荡与相位编码》文章 · 填补了 memory-consolidation 悬空引用 · 初始置信度：高
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；补充 SO-spindle-SWR 三重奏嵌套机制与因果破坏证据 · 关键来源增加 PMID:26238360、PMID:23589831
 - 2026-06-17 · 修订 · 基于《夜晚，大脑重写自己的神经地图》文章 · 新增4个关键新发现（Robinson 2026大型SWR因果证据、Yang 2024清醒SWR标记、Giri 2024睡眠剥夺分离、Chang 2025睡眠微结构）、Ecker 2022 CA3模型；扩充证据表（+6行）；新增"新发现"小节；新增3个未解问题；related新增norepinephrine-locus-coeruleus和dopamine-reward-prediction-error
@@ -182,3 +197,4 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]
 - [[2026-07-16-hippocampal-replay-experience-replay]]
 - [[2026-08-14-ca2-hippocampus-social-memory-temporal-context]]
+- [[2026-09-30-swr-sleep-ltp-consolidation]]

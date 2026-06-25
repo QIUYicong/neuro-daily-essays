@@ -6,10 +6,10 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-06-07
-updated: 2026-09-29
-revision_count: 4
+updated: 2026-09-30
+revision_count: 5
 dimensions: [synaptic, cellular, molecular, behavior, cognition]
-related: [ltp, three-factor-learning-rule, dopamine-reward-prediction-error, camkii, hebbian-learning, memory-consolidation, pkm-zeta, arc-arg31, bdnf, eligibility-trace, corticostriatal-stdp, striatal-plasticity]
+related: [ltp, three-factor-learning-rule, dopamine-reward-prediction-error, camkii, hebbian-learning, memory-consolidation, pkm-zeta, arc-arg31, bdnf, eligibility-trace, corticostriatal-stdp, striatal-plasticity, sharp-wave-ripples, so-spindle-swr-coupling, sleep-spindles]
 prerequisites: [ltp, hebbian-learning, camkii]
 opens_questions: [Q-stc-molecular-tag, Q-three-factor-time-window, Q-d1-ltp-persistence, Q-striatal-stc-mechanism]
 source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-09-21-pkm-zeta-late-ltp-persistence, 2026-09-29-eligibility-trace-temporal-credit-assignment]
@@ -68,6 +68,31 @@ PRPs 包括：
 
 PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录激活 → 翻译"的慢速过程（数分钟至数小时）。PKMζ 的合成时间约在L-LTP诱导后30–60分钟，与标签有效期（~1–2h）匹配良好。
 
+### SWR驱动的睡眠捕获信号（系统层面的STC实现）
+
+除了即时DA奖励信号，大脑还有一套用于日常无明确奖励经历的STC捕获机制——**NREM睡眠中的SO-纺锤波-SWR三重耦合**（Sadowski et al. 2016; Maingret et al. 2016）：
+
+```
+白天学习（Hebbian STDP）→ E-LTP + 突触标签（有效期~1-2h）
+↓ [标签超时前进入睡眠]
+NREM: 皮层慢振荡（SO） → 丘脑纺锤波 → Ca²⁺注入皮层树突 → PKA/CREB → PRPs合成
+↓ [纺锤波波谷]
+大振幅SWR → 海马序列重播 → 树突去极化（Schaffer侧支同步兴奋）→ NMDA激活
+↓
+已标记突触（Hebbian活动留下的标签）捕获PRPs → E-LTP → L-LTP
+```
+
+**关键机制细节**（Sadowski 2016, PMID:26904941）：
+- SWR提供的是**树突**去极化（而非胞体），这是解除NMDA受体Mg²⁺封闭的关键
+- CA3→CA1因果放电对（CA3先于CA1 30ms内）发生在涟漪前60%时间窗口内，与突触强度变化强相关（r²=0.89）
+- 只有与SWR内部精确时序匹配的突触才发生LTP——SWR不是广播，而是外科手术式的选择性强化
+
+**选择性**（van de Ven et al. 2016, PMID:27840002）：只有编码期"仍在累积"的渐强型集成体（对应标签仍有效的突触）依赖SWR巩固；早稳型集成体（已完成L-LTP的突触）不受SWR抑制影响。
+
+**优先级**（Yang & Buzsáki 2024, PMID:37987008）：清醒SWR（涟漪标签）预先选择哪些经历在睡眠中被优先重播（R=0.86），使大脑在有限的睡眠时间内高效分配固化资源。
+
+**SO-纺锤波的角色**：纺锤波（嵌套在SO UP状态内）是"PRPs提供者"，与SWR的时间精确嵌套保证了PRPs合成信号（纺锤波）与突触选择性激活信号（SWR）在标签有效期内同步到达——这是STC在系统层面的时间闭合。
+
 ### DA 介导的 STC（三因素规则的时间整合）
 
 1. 行为事件（A）→ Hebbian 激活 → 突触标签（T窗口 ~1-2h 开始计时）
@@ -91,6 +116,9 @@ PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录�
 | 行为标记定量实验：新颖事件（编码后30min）使16/16只大鼠中14只在24h显示记忆（P<0.001）；D1/D5拮抗剂阻断 | 大鼠事件竞技场 + 新颖环境 + 药理拮抗 | PMID:20962282（PMC2984182）| 高（行为层 STC 最直接证明）|
 | 资格痕迹（post-before-pre→LTD 后10分钟DA+爆发→LTP）：初始61±11%→ 135±14.9%；AC1/AC8敲除消除效应 | 离体CA1膜片钳 + 基因敲除 | PMID:36226826（PMC9612916）| 高（毫秒→分钟时间尺度的前体机制）|
 | STC在AD（APP/PS1小鼠）中选择性失效（L-LTD保留，但STC完全消失）；老化可通过BDNF/TrkB激活部分恢复 | APP/PS1小鼠切片电生理；老年大鼠药理干预 | PMID:38853570（PMC11343274）| 中-高（疾病中STC失效）|
+| SWR诱导NMDA依赖性LTP需**树突**（而非胞体）去极化；CA3→CA1时序r²=0.89 | 体内→体外桥接实验（真实放电序列重放到脑片三路刺激）；DL-AP5对照 | PMID:26904941 (PMC4785795) | 高（系统层面STC实现机制）|
+| 渐强型集成体（编码未完成的突触群）依赖SWR巩固；早稳型（已L-LTP）不依赖SWR | 闭环光遗传SWR抑制 + 细胞集成体动力学分类 | PMID:27840002 (PMC5158132) | 高（因果，选择性） |
+| 清醒SWR（涟漪标签）预测睡眠重播优先级（R=0.86, P<10⁻³⁶）；决定哪些标签被优先捕获 | 超大规模多电极 + 降维分析（UMAP/seqNMF） | PMID:37987008 (PMC10659301) | 中-高（关联性） |
 
 ## 连接
 
@@ -104,6 +132,9 @@ PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录�
 - [[bdnf]] — BDNF通过ERK/CREB驱动PRPs合成（包括Arc、PKMζ的合成信号通路），是L-LTP捕获信号的催化分子
 - [[hebbian-learning]] — Hebbian 激活产生标签，是 STC 的"写入"端
 - [[memory-consolidation]] — STC 是突触层面的巩固机制（类比：SWR 是系统层面的巩固机制）
+- [[sharp-wave-ripples]] — SWR是STC的系统层面捕获信号：树突去极化激活NMDA→E-LTP升级为L-LTP；大振幅SWR选择性；渐强型集成体依赖SWR
+- [[so-spindle-swr-coupling]] — 纺锤波提供PKA/CREB→PRPs合成（=STC中的捕获信号前体）；SWR嵌套在纺锤波波谷保证时间窗口内同步完成
+- [[sleep-spindles]] — 纺锤波Ca²⁺注入是皮层层面的PRP合成触发信号
 
 ## 未解问题
 
@@ -115,6 +146,7 @@ PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录�
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 理解三因素规则的时间整合机制 · 初始置信度：中（机制框架强，分子细节未解）
 - 2026-09-21 · 修订 rev3 · 基于《记忆的分子守夜人》(#151) · 核心更新：PRPs节新增PKMζ为第一个明确L-LTP特异性PRP（Sajikumar 2005），并加入KIBRA寡聚体机制（Hsieh 2026）；连接新增pkm-zeta、arc-arg31、bdnf（独立连接）；Q-stc-molecular-tag补充PKMζ作为被捕获PRP的新理解（标签本身仍未确定）；related新增pkm-zeta、arc-arg31、bdnf；key_sources新增PMID:15958741、41814337
 - 2026-07-11 · 修订 rev2 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 证据表新增3行（Moncada 2007行为标记、Bethus 2010 D1/D5持续性、Takeuchi 2016 LC为主要DA来源）；连接节新增 lc-hippocampus-dopamine；key_sources 新增4个；DA 捕获信号的来源澄清（LC 主导，非 VTA）
+- 2026-09-30 · 修订 rev5 · 基于《睡眠中的最后一步》(#160) · 核心更新：新增"SWR驱动的睡眠捕获信号"小节（SWR作为系统层面STC捕获机制的完整框架：纺锤波=PRPs来源，大振幅SWR=突触选择性激活，清醒涟漪标签=优先级选择）；证据表新增3行（Sadowski 2016 NMDA依赖性树突机制、van de Ven 2016选择性、Yang 2024涟漪标签）；related新增sharp-wave-ripples、so-spindle-swr-coupling、sleep-spindles；连接节新增3条；key_sources新增PMID:26904941/27840002/37987008
 - 2026-09-29 · 修订 rev4 · 基于《时序信用分配》(#159) · 核心更新：证据表新增行为标记定量（Wang 2010，PMC2984182，P<0.001最直接行为证明）、资格痕迹实验（Fuchsberger 2022，PMC9612916，毫秒→分钟时间尺度前体机制）、疾病中STC失效（Bin Ibrahim 2024，APP/PS1小鼠）；dimensions新增behavior、cognition；related新增eligibility-trace、corticostriatal-stdp、striatal-plasticity；opens_questions新增Q-d1-ltp-persistence（纹状体STC机制部分澄清）、Q-striatal-stc-mechanism（新开放问题）；key_sources新增PMID:20962282、36226826、38853570、30593289
 
 ## 来源文章
@@ -123,3 +155,4 @@ PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录�
 - [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]
 - [[2026-09-21-pkm-zeta-late-ltp-persistence]]
 - [[2026-09-29-eligibility-trace-temporal-credit-assignment]]
+- [[2026-09-30-swr-sleep-ltp-consolidation]]

@@ -1,0 +1,119 @@
+# 运行日志 · 2026-09-30
+
+**系统时钟日期**：2026-06-26 UTC+8（UTC 2026-06-25 23:00）
+**知识库连续性日期**：2026-09-30（第160篇）
+**分支**：main
+**状态**：成功
+
+---
+
+## 搜索词与数据源
+
+### 搜索查询
+
+1. `sharp wave ripples sleep memory consolidation synaptic plasticity LTP 2024 2025 PubMed review`
+2. `hippocampal SWR offline reactivation synaptic tagging capture consolidation mechanism open access`
+3. `slow oscillation spindle SWR triple coupling sleep NREM memory consolidation mechanism review 2023 2024`
+4. `selection experience memory sharp wave ripples Science 2024 Buzsaki hippocampus replay encoding`
+5. `sleep sharp wave ripples synaptic homeostasis SHY Tononi Cirelli NREM LTP LTD downscaling 2024`
+
+### 候选文献（共检索约18篇，采用8篇）
+
+**采用**：
+- PMID:26904941 (Sadowski 2016, Cell Reports, PMC4785795) — 开放全文 ✓ · 核心机制
+- PMID:27840002 (van de Ven/Dupret 2016, Neuron, PMC5158132) — 开放全文 ✓ · 选择性机制
+- PMID:37987008 (Yang & Buzsáki 2024, Science, PMC10659301) — 开放全文 ✓ · 涟漪标签
+- PMID:41205608 (Larsson Robinson 2026, Neuron) — 摘要，未读全文 · 大振幅SWR因果证据
+- PMID:26135716 (Buzsáki 2015, Hippocampus, PMC4648295) — 开放全文 ✓ · 综述背景
+- PMID:40962324 (Kim & Park 2025, BMB Reports, PMC12576410) — 开放全文 ✓ · 神经调质综述
+- PMID:9020359 (Frey & Morris 1997, Nature) — 摘要 · STC背景
+- PMID:27182818 (Maingret 2016, Nat Neurosci) — 摘要 · 三重耦合因果
+
+**排除**（部分）：
+- ScienceDirect付费文献（Neuroscience & Biobehavioral Reviews综述）— 无法访问全文
+- bioRxiv预印本 — 已被正式发表版本替代
+
+### 开放全文数量：5篇（满足≥2篇要求）
+### 官方机构来源：NIH/PMC收录，Buzsáki实验室Science文章
+
+---
+
+## 选题决策
+
+**选题路径**：课程脊柱驱动 + 承接前序（资格痕迹/STC）→ 系统层面闭环
+
+前文（#159）深入讲解了资格痕迹和突触标记-捕获（STC）在**分子/突触**层面如何解决时序信用分配问题。今日文章将这个问题在**系统层面**闭合：睡眠期SWR如何提供STC的"睡眠捕获信号"？
+
+**主题缩小**：不写宽泛的"睡眠与记忆"，而写"SWR诱导NMDA依赖性LTP的精确条件以及它如何是STC的系统实现"。
+
+**层级**：synaptic → cellular → brain-region → behavior → cognition（横跨多层次）
+
+---
+
+## 固结的 Wiki 页面
+
+### 修订（3个页面）
+
+1. **concepts/sharp-wave-ripples.md**（rev10→rev11）
+   - 新增：SWR诱导LTP的突触层面机制小节（树突依赖性、NMDA依赖性、r²=0.89时序相关）
+   - 证据表：+3行（Sadowski 2016, van de Ven 2016, Yang & Buzsáki 2024）
+   - key_sources：+PMID:26904941/27840002/37987008
+
+2. **concepts/synaptic-tagging-capture.md**（rev4→rev5）
+   - 新增：SWR驱动的睡眠捕获信号小节（STC系统实现完整框架）
+   - 证据表：+3行（Sadowski 2016 NMDA机制、van de Ven 2016选择性、Yang 2024涟漪标签）
+   - 连接：+sharp-wave-ripples、so-spindle-swr-coupling、sleep-spindles
+
+3. **concepts/so-spindle-swr-coupling.md**（rev2→rev3）
+   - 新增：STC框架下的三重耦合解读（系统对应表）
+   - 连接：+synaptic-tagging-capture、ltp
+
+### 新建（0个）
+
+所有核心概念已有页面。无需新建。
+
+---
+
+## 图谱变更
+
+- 节点：307（不变）
+- 边：1813 → 1820（+7条）
+- 新边：
+  - sharp-wave-ripples → synaptic-tagging-capture (mechanism-of)
+  - sharp-wave-ripples → ltp (mechanism-of)
+  - so-spindle-swr-coupling → synaptic-tagging-capture (mechanism-of)
+  - so-spindle-swr-coupling → ltp (supports)
+  - synaptic-tagging-capture → sharp-wave-ripples (related)
+  - synaptic-tagging-capture → so-spindle-swr-coupling (related)
+  - synaptic-tagging-capture → sleep-spindles (related)
+
+---
+
+## 登记的矛盾
+
+**既有开放矛盾**：Q-shy-vs-active-consolidation（在so-spindle-swr-coupling.md中已记录）
+- 状态：仍为 open
+- 今日文章提出：SWR可同时驱动LTP（兴奋性时序精确）和LTD（抑制性STDP），但协调机制未知
+- 不符合裁决条件，保持open状态
+
+---
+
+## 新增未解问题
+
+- Q-swr-cortical-ltp-mechanism（高优先级）：SWR如何在新皮层突触诱导LTP
+- Q-swr-shy-coexistence（中优先级）：睡眠LTP（固化）与LTD（SHY）如何协调
+- Q-ripple-tagging-trigger（中优先级）：清醒SWR涟漪标签功能的触发机制
+
+---
+
+## 来源限制
+
+- PMID:41205608 (Larsson Robinson 2026, Neuron)：全文不可获取，仅使用摘要和网页摘要信息 → 文章中已标注"摘要，非完全开放"
+
+---
+
+## Git 操作
+
+- 分支：main
+- commit：见下方
+- push：git push origin main

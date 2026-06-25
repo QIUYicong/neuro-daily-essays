@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-09-27*
+*最后更新：2026-09-30*
+
+---
+
+## 2026-09-30 新增（来自"睡眠中的最后一步：SWR如何把白天学习刻入长期记忆" 文章 #160）
+
+### Q-swr-cortical-ltp-mechanism（高优先级）：SWR如何在新皮层突触诱导LTP？
+
+- **关联 wiki**：[[sharp-wave-ripples]]、[[synaptic-tagging-capture]]、[[so-spindle-swr-coupling]]、[[memory-consolidation]]
+- **来源文章**：2026-09-30-swr-sleep-ltp-consolidation
+- **问题**：Sadowski 2016 证明了SWR重播在海马CA3→CA1突触诱导NMDA依赖性LTP（需树突去极化）。但系统层面的记忆巩固最终需要**新皮层**突触的持久变化。SWR如何在新皮层突触触发L-LTP？具体候选机制：(1) 海马→皮层直接投射在SWR期间提供树突去极化，激活皮层NMDA受体；(2) 纺锤波在皮层树突的Ca²⁺注入提供PRPs合成信号，SWR与纺锤波时序耦合共同完成皮层STC；(3) SWR信号经丘脑中继增强。目前缺乏体内皮层神经元在SWR期间发生LTP的直接证据（伦理/技术限制）。
+- **关键实验**：(1) 海马→皮层单突触连接的体外虚拟SWR重播实验（类似Sadowski 2016范式扩展到皮层靶点）；(2) 体内双光子钙成像：SWR期间皮层特定神经元树突棘的Ca²⁺瞬态；(3) 体内皮层神经元全细胞记录（清醒大鼠）：SWR前后AMPAR介导的EPSP幅度变化
+- **当前证据状态**：SWR影响皮层活动（相关）：高；皮层SWR诱导LTP的直接机制：几乎无直接证据；STC在皮层的实现：推断为主
+
+### Q-swr-shy-coexistence（中优先级）：睡眠期LTP（SWR固化）与LTD（SHY下调）如何协调不冲突？
+
+- **关联 wiki**：[[sharp-wave-ripples]]、[[shy-hypothesis]]、[[synaptic-tagging-capture]]、[[ltp]]
+- **来源文章**：2026-09-30-swr-sleep-ltp-consolidation
+- **问题**：突触稳态假说（SHY）认为睡眠中SWR触发LTD以下调清醒期累积的突触强度；主动巩固理论认为SWR触发选择性LTP。Sadowski 2016和Liao 2024均证明SWR期间**既有LTP（兴奋性时序）也有LTD（抑制性STDP）**。但两种机制如何协调？(1) 不同SWR亚群（大振幅 vs 小振幅）分别驱动不同可塑性方向？(2) 同一SWR内部的时序不同决定LTP vs LTD（CA3→CA1因果对=LTP；同步放电=LTD/无变化）？(3) 是否存在时间分段：睡眠早期SWR→LTP（固化重要记忆），睡眠晚期SWR→LTD（清除不重要痕迹）？
+- **关键实验**：(1) 在SWR中断实验中，分别测量"记忆成绩（巩固）"和"突触基线强度（稳态）"，检验两者的解离；(2) 大振幅 vs 小振幅SWR的选择性光遗传操控，比较对记忆和基线突触强度的差异效应；(3) 在NREM睡眠早期（前1小时）vs 晚期（最后1小时）分别阻断SWR，比较两段SWR的功能角色
+- **当前证据状态**：SWR→LTP（CA1内）：高；SWR→LTD（抑制性STDP）：高；两者协调机制：基本未知
+
+### Q-ripple-tagging-trigger（中优先级）：什么触发清醒SWR的涟漪标签功能？
+
+- **关联 wiki**：[[sharp-wave-ripples]]、[[dopamine-reward-prediction-error]]、[[lc-hippocampus-dopamine]]
+- **来源文章**：2026-09-30-swr-sleep-ltp-consolidation
+- **问题**：Yang & Buzsáki 2024 发现清醒SWR预测性地标记特定经历供睡眠优先重播（R=0.86）。但**是什么触发了在特定时刻发生"有标记功能"的清醒SWR**（而不是随机SWR）？候选因素：(1) DA/NE新颖性信号：VTA/LC放电触发海马DA释放→提升SWR振幅+内容选择性（Igata 2024 VTA失活实验）；(2) 奖励预期：特定行为事件（接近目标、获得奖励）后的停顿期特异性SWR增加；(3) 节律性门控：清醒静息期SWR本身的自发周期性，任何在该期间发生的经历均被标记？(4) 显著性：是否存在神经元显著性检测器，在编码特别新颖或情绪显著的信息后特异性触发清醒SWR？
+- **关键实验**：(1) 同步记录清醒SWR和VTA/LC放电，检验LC/VTA先于SWR发放的时序关系；(2) 条件操控：在不同显著性程度的行为事件后测量清醒SWR频率和内容选择性；(3) 光遗传抑制LC/VTA在经历后的清醒静息期，检验涟漪标签功能是否消失（睡眠重播优先级是否变为随机）
+- **当前证据状态**：涟漪标签存在：中-高（Yang 2024关联证据）；涟漪标签触发机制：几乎未知；VTA调控SWR空间选择性（Igata 2024）：中；是否直接调控涟漪标签：未测
 
 ---
 

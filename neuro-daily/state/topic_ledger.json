@@ -9871,6 +9871,80 @@
       "knowledge_base_date": "2026-09-29",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-29（第159篇时序信用分配文章）"
+    },
+    {
+      "date": "2026-09-30",
+      "title": "睡眠中的最后一步：尖波涟漪如何把白天的学习刻入长期记忆",
+      "filename": "2026-09-30-swr-sleep-ltp-consolidation.md",
+      "article_number": 160,
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/sharp-wave-ripples.md (rev10->rev11)",
+        "wiki/concepts/synaptic-tagging-capture.md (rev4->rev5)",
+        "wiki/concepts/so-spindle-swr-coupling.md (rev2->rev3)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [
+        "Q-shy-vs-active-consolidation (open, 提供新证据但不足以裁决)"
+      ],
+      "core_question": "SWR如何通过树突去极化+NMDA受体激活在CA3→CA1突触诱导LTP（Sadowski 2016：树突非胞体，r²=0.89时序关联）；渐强型vs早稳型集成体选择性（van de Ven 2016）；清醒SWR涟漪标签预测睡眠重播（R=0.86，Yang&Buzsáki 2024）；SO-纺锤波-SWR三重耦合=STC系统实现（纺锤波=PRP合成信号，SWR=标签突触激活，时序耦合=时间窗口对齐）",
+      "open_questions_added": [
+        "Q-swr-cortical-ltp-mechanism（高优先级）：SWR如何在新皮层突触诱导LTP（海马内机制已知，皮层机制几乎无直接证据）",
+        "Q-swr-shy-coexistence（中优先级）：SWR既驱动LTP（固化）又驱动LTD（SHY下调），协调机制未知",
+        "Q-ripple-tagging-trigger（中优先级）：清醒SWR涟漪标签功能的触发机制（DA/NE/奖励/新颖性的相对贡献）"
+      ],
+      "layer": [
+        "synaptic",
+        "molecular",
+        "cellular",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱3（学习记忆：SWR睡眠巩固机制）+ 课程脊柱1（突触可塑性：LTP的系统层面完成）+ 课程脊柱12（人脑与AI比较：经验重放vs睡眠重播）",
+      "topic_tags": [
+        "sharp-wave-ripples SWR hippocampus sleep NREM memory consolidation",
+        "Sadowski Jones Mellor 2016 Cell Reports SWR LTP dendritic depolarization NMDA",
+        "van de Ven Dupret Trouche 2016 Neuron cell assembly reactivation progressive stabilized",
+        "Yang Buzsaki 2024 Science selection experience ripple tagging drifting population code",
+        "Larsson Robinson Fernandez-Ruiz 2026 Neuron large SWR hippocampo-cortical reactivation",
+        "Buzsaki 2015 Hippocampus SWR cognitive biomarker CA3 CA1 generation",
+        "synaptic tagging capture STC sleep-based capture signal PRP synthesis",
+        "SO-spindle-SWR triple coupling spindle Ca2+ PKA CREB PRP synthesis",
+        "dendritic depolarization NMDA receptor Mg block LTP induction timing window",
+        "progressive stabilized cell assembly selectivity optogenetic SWR silencing",
+        "ripple tagging awake SWR sleep replay priority R=0.86",
+        "synaptic homeostasis hypothesis SHY Tononi Cirelli LTP LTD coordination",
+        "experience replay DQN reinforcement learning comparison sleep replay"
+      ],
+      "main_sources": [
+        "PMID:26904941 (Sadowski et al. 2016, Cell Reports, SWR-LTP机制, OPEN PMC4785795)",
+        "PMID:27840002 (van de Ven et al. 2016, Neuron, 选择性重激活, OPEN PMC5158132)",
+        "PMID:37987008 (Yang & Buzsáki 2024, Science, 涟漪标签, OPEN PMC10659301)",
+        "PMID:41205608 (Larsson Robinson et al. 2026, Neuron, 大振幅SWR因果, 摘要)",
+        "PMID:26135716 (Buzsáki 2015, Hippocampus, SWR综述, OPEN PMC4648295)",
+        "PMID:40962324 (Kim & Park 2025, BMB Reports, 睡眠神经调质, OPEN PMC12576410)",
+        "PMID:9020359 (Frey & Morris 1997, Nature, STC原始文献, 摘要)",
+        "PMID:27182818 (Maingret et al. 2016, Nat Neurosci, 三重耦合因果, 摘要)"
+      ],
+      "open_access_fulltext": [
+        "PMID:26904941 (PMC4785795)",
+        "PMID:27840002 (PMC5158132)",
+        "PMID:37987008 (PMC10659301)",
+        "PMID:26135716 (PMC4648295)",
+        "PMID:40962324 (PMC12576410)"
+      ],
+      "next_suggested_topics": [
+        "CaMKII凝聚体作为突触标签——液-液相分离框架下，CaMKII激活态凝聚体是否就是STC标签的分子身份？今日文章将SWR作为捕获信号的机制确立了捕获端，但标签端（分子身份）仍是Q-stc-molecular-tag",
+        "皮层突触的SWR-LTP直接证据——体内记录皮层神经元在SWR期间的突触强度变化（解决Q-swr-cortical-ltp-mechanism）",
+        "睡眠的双功能协调：SWR如何区分LTP目标（渐强型集成体）和LTD目标（无关突触）——SHY vs 主动巩固的实验裁决",
+        "NE在NREM睡眠固化中的双面角色——高NE稳定回路 vs 低NE允许重播：NE振荡0.02Hz如何精确调时？（Kim & Park 2025提出但机制未清）",
+        "人类SWR增强与认知——颅内刺激增强人类SWR是否可行？Larsson Robinson 2026 的大振幅SWR概念是否为闭环增强记忆提供了靶点？"
+      ],
+      "graph_update": "307节点不变; 1813+7=1820 edges (+sharp-wave-ripples→synaptic-tagging-capture, +sharp-wave-ripples→ltp, +so-spindle-swr-coupling→synaptic-tagging-capture, +so-spindle-swr-coupling→ltp, +synaptic-tagging-capture→sharp-wave-ripples, +synaptic-tagging-capture→so-spindle-swr-coupling, +synaptic-tagging-capture→sleep-spindles)",
+      "knowledge_base_date": "2026-09-30",
+      "system_clock_date": "2026-06-26",
+      "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-09-30（第160篇SWR睡眠LTP固化文章）"
     }
   ]
 }

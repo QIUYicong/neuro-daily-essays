@@ -4,6 +4,47 @@
 
 ---
 
+## 2026-09-30 · 文章 #160 · 睡眠中的最后一步：尖波涟漪如何把白天的学习刻入长期记忆
+
+**核心主题**：睡眠期SWR如何通过NMDA依赖性LTP诱导（需树突去极化，非胞体）和突触标记-捕获（STC）的系统层面实现，将白天学习时设置的E-LTP突触标签转化为L-LTP。**SO-纺锤波-SWR三重耦合是STC的系统实现**：纺锤波=PRPs合成信号（Ca²⁺→PKA/CREB），大振幅SWR=突触选择性重激活（NMDA激活），时序耦合=STC时间窗口对齐。清醒SWR（涟漪标签）预测睡眠重播优先级（Yang & Buzsáki 2024，R=0.86）；渐强型集成体（STC标签仍有效）依赖SWR巩固（van de Ven 2016）。新颖综合框架：SWR重播即STC捕获的"睡眠批处理程序"。图谱从 **307 节点/1813 边** 更新至 **307 节点/1820 边**（+0 新节点，+7 新边，修订3个wiki页）。
+
+**注意**：系统时钟日期为 2026-06-26（UTC+8），知识库连续序列日期为 2026-09-30，文章编号 #160。
+
+### 新建 Wiki 页面（0 个）
+
+今日无新建页面。主要工作是为现有三个页面添加新的机制层次（SWR→LTP直接机制；三重耦合作为STC实现）。
+
+### 修订 Wiki 页面（3 个）
+
+- `concepts/sharp-wave-ripples.md`（rev10→rev11）：新增"SWR诱导LTP的突触层面机制"完整小节（Sadowski 2016：树突去极化必要性、NMDA依赖性、时序r²=0.89；体内→体外桥接范式）；证据表新增3行（Sadowski 2016/van de Ven 2016/Yang 2024）；key_sources新增PMID:26904941/27840002/37987008；source_articles新增2026-09-30
+
+- `concepts/synaptic-tagging-capture.md`（rev4→rev5）：新增"SWR驱动的睡眠捕获信号"完整小节（SWR作为系统层面STC捕获的完整机制框架）；证据表新增3行；related新增sharp-wave-ripples/so-spindle-swr-coupling/sleep-spindles；连接节新增3条；key_sources新增PMID:26904941/27840002/37987008
+
+- `concepts/so-spindle-swr-coupling.md`（rev2→rev3）：新增"STC框架下的三重耦合解读"小节（STC组件对应表：纺锤波=PRP合成信号，SWR=突触选择性激活，时序耦合=时间窗口对齐）；连接节新增synaptic-tagging-capture/ltp；related新增synaptic-tagging-capture/ltp
+
+### 图谱变更
+
+- **新增节点（0个）**：无新节点（所有核心概念已有页面）
+- **新增边（7条）**：
+  - sharp-wave-ripples → synaptic-tagging-capture（mechanism-of：SWR是STC睡眠捕获信号的执行者）
+  - sharp-wave-ripples → ltp（mechanism-of：SWR诱导NMDA依赖性LTP，tree突去极化关键）
+  - so-spindle-swr-coupling → synaptic-tagging-capture（mechanism-of：三重耦合是STC的系统实现）
+  - so-spindle-swr-coupling → ltp（supports：三重耦合最终实现E-LTP→L-LTP转化）
+  - synaptic-tagging-capture → sharp-wave-ripples（related：SWR是STC睡眠捕获路径）
+  - synaptic-tagging-capture → so-spindle-swr-coupling（related：三重耦合实现STC时间窗对齐）
+  - synaptic-tagging-capture → sleep-spindles（related：纺锤波Ca²⁺是PRP合成触发信号）
+
+### 登记矛盾
+
+- 无新矛盾登记
+- 既有矛盾更新：Q-shy-vs-active-consolidation 维持 open 状态（今日文章提出两种机制并存假说，但缺直接裁决证据）
+
+### 新增悬空引用（待补）
+
+无新增悬空引用。
+
+---
+
 ## 2026-09-29 · 文章 #159 · 时序信用分配：资格痕迹如何让大脑跨越时间鸿沟学习
 
 **核心主题**：时序信用分配问题（temporal credit assignment problem）——突触在ms时序配对（STDP）之后，如何等待数百毫秒至数分钟后到来的DA奖励信号？**资格痕迹**（Fuchsberger 2022, PMID:36226826, eLife）提供了直接的分子答案：NMDA-R激活后，AC1/AC8腺苷酸环化酶进入沉默敏感态（~10min），DA+爆发共激活→cAMP骤升→LTP（LTD→LTP翻转：61±11%→135±14.9%）；AC1/AC8双敲除完全消除效应。行为层面（Wang 2010, PMID:20962282）：新颖事件（编码后30min）使16只大鼠中14只在24h显示记忆（P<0.001），D1/D5拮抗剂+蛋白合成抑制剂均阻断。图谱从 **304 节点/1803 边** 增至 **307 节点/1813 边**（+3 节点 +10 新边；修正1个dangling ref）。
