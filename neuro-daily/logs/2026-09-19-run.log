@@ -1,0 +1,110 @@
+# Run Log — 2026-09-19 (Article #149)
+
+## 基本信息
+
+- **知识库日期**: 2026-09-19
+- **系统时钟日期**: 2026-06-25
+- **文章编号**: #149
+- **主题**: 外侧缰核：大脑的惩罚计算机
+- **运行分支**: main
+
+---
+
+## 搜索过程
+
+### 搜索词
+
+1. `lateral habenula reward prediction error dopamine`
+2. `LHb burst firing depression antidepressant ketamine`
+3. `habenula RMTg VTA anti-reward circuit`
+4. `lateral habenula serotonin DRN`
+5. `habenula negative prediction error electrophysiology`
+
+### 数据源
+
+- PubMed / PMC（主要）
+- Europe PMC
+- bioRxiv（未采用，无相关预印本）
+
+### 候选文献数
+
+- 检索命中约 40 篇
+- 精读评估：14 篇
+- 最终采用：10 篇（8 开放获取，2 仅摘要）
+
+---
+
+## 采用来源
+
+| PMID | 状态 | 用途 |
+|------|------|------|
+| 17522629 | 摘要（付费墙）| 奠基性实验：LHb 编码负 RPE，镜像 VTA |
+| 21832176 | 开放 PMC | RMTg 作为 LHb→VTA 中继的灵长类证据 |
+| 31152135 | 开放 PMC | 综述：LHb 在奖惩学习中的回路机制 |
+| 41925551 | 开放 PMC | 应激诱导 LHb 超极化→反转为去极化块 |
+| 41872515 | 开放 PMC | LHb 三种爆发模式的功能编码 |
+| 38863324 | 开放 PMC | LHb→DRN 光遗传学，快感缺失和焦虑 |
+| 42057617 | 开放 PMC | LHb→DRN 综述（Ibañez-Tallon 2026）|
+| 40769282 | 开放 PMC | RMTg 谷氨酸/GABA 解剖电生理 |
+| 33535028 | 摘要 | 氯胺酮阻断 LHb 爆发放电机制 |
+| 37414924 | 开放 PMC | LHb 在抑郁动物模型中病理爆发 |
+
+## 排除来源
+
+- Sci-Hub 链接：全部拒绝（违反知识库规则）
+- 付费墙完整PDF：拒绝付费获取；仅摘要版本纳入，注明限制
+- 低引用非综述文章（n=4）：证据链弱，与主旨无直接关联
+
+---
+
+## Wiki 固结
+
+### 新建页面
+
+1. `wiki/systems/lateral-habenula.md` — 外侧缰核结构与功能（rev1）
+2. `wiki/circuits/lhb-rmtg-circuit.md` — LHb-RMTg-VTA 反奖励回路（rev1）
+
+### 修订页面
+
+3. `wiki/concepts/dopamine-reward-prediction-error.md` — rev7：新增 LHb 为负 RPE 主动来源
+4. `wiki/systems/serotonin-raphe-system.md` — rev2：新增 LHb→DRN 直接谷氨酸输入
+
+### 知识图谱更新
+
+- 节点：293 → 295（+2）
+- 边：1711 → 1721（+10）
+
+---
+
+## 矛盾登记
+
+**无新矛盾**。
+
+潜在争议点（GPi→LHb 是否含谷氨酸成分）已作为未解问题 Q-lhb-02 登记，而非矛盾，因当前证据不足以判定。
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json` — 新增 #149 条目
+- `state/maturity_index.json` — 新增 lateral-habenula, lhb-rmtg-circuit
+- `state/source_registry.json` — 新增 10 条来源
+- `state/monthly_synthesis.md` — 新增 2026-09-19 日志
+- `state/unresolved_questions.md` — 新增 Q-lhb-01, Q-lhb-02, Q-lhb-03
+
+---
+
+## 失败与限制
+
+1. Matsumoto & Hikosaka 2007（PMID:17522629）：Nature 原文付费墙，仅用摘要；该论文为领域奠基作，引用数高（>3000），事实可靠性高
+2. 氯胺酮机制论文（PMID:33535028）：摘要级别，无法提取完整实验数据
+3. 初始研究代理主题偏差（皮层振荡），经纠正后重新定向至 LHb
+
+---
+
+## Commit / Push 状态
+
+- branch: main
+- commit: [见 git log]
+- push: git push origin main
+- 状态: [由 git 命令填写]

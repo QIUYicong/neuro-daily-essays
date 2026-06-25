@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-13
-updated: 2026-06-13
-revision_count: 1
+updated: 2026-09-19
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, cognition]
-related: [norepinephrine-locus-coeruleus, acetylcholine-cortex, neuromodulator-systems, gain-control, 5-ht-autoreceptor, dopamine-reward-prediction-error]
+related: [norepinephrine-locus-coeruleus, acetylcholine-cortex, neuromodulator-systems, gain-control, 5-ht-autoreceptor, dopamine-reward-prediction-error, lateral-habenula]
 prerequisites: [synaptic-transmission, action-potential, neuromodulator-systems]
 opens_questions: [Q-5ht-volume-transmission-specificity, Q-drnmrn-functional-split]
-source_articles: [2026-06-13-serotonin-autoreceptor-ssri-delay]
-key_sources: ["PMID:15309042", "PMID:33672070", "PMID:10462127"]
+source_articles: [2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-09-19-lateral-habenula-anti-reward-depression]
+key_sources: ["PMID:15309042", "PMID:33672070", "PMID:10462127", "PMID:38863324", "PMID:42057617"]
 ---
 
 # 血清素-缝际核系统 (Serotonin-Raphe System)
@@ -23,6 +23,8 @@ key_sources: ["PMID:15309042", "PMID:33672070", "PMID:10462127"]
 ## 当前理解
 
 我们现在认为，血清素（5-HT）系统是大脑最重要的全脑调质网络之一。尽管5-HT能神经元在整个人脑860亿神经元中占比极低（约20-30万），其广泛的投射和体积传输（volume transmission）模式使5-HT几乎能影响整个神经轴的功能状态。
+
+**关键新增（2026-09-19）：外侧缰核对 DRN 的直接下行输入**。外侧缰核（LHb）通过谷氨酸能直接投射到背缝核（DRN），在惩罚事件和负预测误差时抑制 DRN 的 5-HT 输出。Liu et al. 2024（PMID:38863324）用光遗传学证明 LHb→DRN 特异性爆发放电与快感缺失（anhedonia）和焦虑直接相关；Ibañez-Tallon et al. 2026（PMID:42057617）综述指出 LHb→DRN 通路是急性失望情绪的主要调制者。这意味着 DRN 的 5-HT 输出不仅受内部自受体和皮层反馈调节，还直接受"惩罚评估系统"（LHb）的自上而下驱动——在抑郁症中，LHb 病理性爆发放电持续抑制 DRN，这是多种抗抑郁药的治疗靶点。
 
 5-HT系统的核心功能不是传递具体信息，而是设定大脑的"运算背景"：情绪色调（mood tone）、对奖惩信号的敏感度、抑制冲动行为的能力，以及在发育期间塑造神经网络的可塑性。
 
@@ -80,6 +82,7 @@ key_sources: ["PMID:15309042", "PMID:33672070", "PMID:10462127"]
 - [[gain-control]] — 5-HT系统通过多时间尺度负反馈实现的增益调控
 - [[hippocampal-neurogenesis]] — 5-HT促进海马神经发生（5-HT1A介导）
 - [[major-depressive-disorder]] — 5-HT系统功能障碍的疾病表现（悬空）
+- [[lateral-habenula]] — LHb 直接向 DRN 发送谷氨酸，负预测误差时抑制 5-HT 输出；抑郁症中 LHb 爆发持续压制 DRN
 
 ## 未解问题
 
@@ -89,6 +92,7 @@ key_sources: ["PMID:15309042", "PMID:33672070", "PMID:10462127"]
 ## 修订历史
 
 - 2026-06-13 · 创建 · 基于《血清素的慢时钟》一文 · 初始置信度：高
+- 2026-09-19 · 修订 rev2 · 基于《外侧缰核：大脑的惩罚计算机》一文（#149）· 新增 LHb→DRN 直接谷氨酸输入信息，说明惩罚评估系统对血清素的自上而下抑制；related 新增 lateral-habenula；key_sources 新增 PMID:38863324, PMID:42057617
 
 ## 来源文章
 

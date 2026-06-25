@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-19",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9328,9 +9328,177 @@
         "apical dendrite arousal",
         "high gamma brain state"
       ]
+    },
+    {
+      "id": "PMID:17522629",
+      "title": "Lateral habenula as a source of negative reward signals in dopamine neurons",
+      "authors": "Matsumoto M, Hikosaka O",
+      "journal": "Nature",
+      "year": 2007,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "lateral_habenula",
+        "negative_RPE",
+        "dopamine_inhibition"
+      ]
+    },
+    {
+      "id": "PMID:21832176",
+      "pmcid": "PMC3315151",
+      "title": "Negative reward signals from the lateral habenula to dopamine neurons are mediated by rostromedial tegmental nucleus in primates",
+      "authors": "Hong S, Jhou TC, Smith M, Saleem KS, Hikosaka O",
+      "journal": "Journal of Neuroscience",
+      "year": 2011,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "LHb_RMTg_VTA_circuit",
+        "negative_RPE",
+        "primate_electrophysiology"
+      ]
+    },
+    {
+      "id": "PMID:31152135",
+      "pmcid": "PMC6589650",
+      "title": "Stress transforms lateral habenula reward responses into punishment signals",
+      "authors": "Shabel SJ, Wang C, Monk B, Aronson S, Malinow R",
+      "journal": "PNAS",
+      "year": 2019,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "LHb_stress_depression",
+        "anhedonia",
+        "reward_reversal"
+      ]
+    },
+    {
+      "id": "PMID:41925551",
+      "pmcid": "PMC13082187",
+      "title": "Multiple bursting patterns in lateral habenula neurons: Experiments and computational model",
+      "authors": "Fedorov D et al.",
+      "journal": "J Physiol",
+      "year": 2026,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "LHb_burst_firing",
+        "depression_mechanism",
+        "mathematical_model"
+      ]
+    },
+    {
+      "id": "PMID:41872515",
+      "pmcid": "PMC13269138",
+      "title": "NADPH oxidase-1 suppression prolongs the antidepressant-like effect of ketamine",
+      "authors": "Nakajima W et al.",
+      "journal": "Mol Psychiatry",
+      "year": 2026,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "ketamine_antidepressant",
+        "LHb_burst_suppression",
+        "NOX1"
+      ]
+    },
+    {
+      "id": "PMID:38863324",
+      "pmcid": "PMC11321664",
+      "title": "Burst firing in Output-Defined Parallel Habenula Circuit Underlies the Antidepressant Effects of Bright Light Treatment",
+      "authors": "Liu X et al.",
+      "journal": "Advanced Science",
+      "year": 2024,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "LHb_circuit_specificity",
+        "depression_symptoms",
+        "light_therapy"
+      ]
+    },
+    {
+      "id": "PMID:42057617",
+      "pmcid": "PMC13129642",
+      "title": "The Disappointment Dilemma: Short- and Long-Term Learning From Negative Outcomes",
+      "authors": "Ibañez-Tallon I et al.",
+      "journal": "Eur J Neurosci",
+      "year": 2026,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "LHb_MHb_review",
+        "disappointment_circuit",
+        "negative_valence_learning"
+      ]
+    },
+    {
+      "id": "PMID:40769282",
+      "title": "Decoding the dual regulatory systems: Contemporary insights into the LHb and RMTg physiology",
+      "authors": "Cui J et al.",
+      "journal": "Neurobiol Dis",
+      "year": 2025,
+      "access": "abstract_only",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "LHb_RMTg_anatomy",
+        "depression",
+        "addiction"
+      ]
+    },
+    {
+      "id": "PMID:33535028",
+      "pmcid": "PMC7980092",
+      "title": "Stress undermines reward-guided cognitive performance through synaptic depression in the lateral habenula",
+      "authors": "Lecca S et al.",
+      "journal": "Neuron",
+      "year": 2021,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "LHb_synaptic_plasticity",
+        "stress_cognition",
+        "reward_guided_behavior"
+      ]
+    },
+    {
+      "id": "PMID:37414924",
+      "pmcid": "PMC11041652",
+      "title": "Plasticity of neuronal dynamics in the lateral habenula for cue-punishment associative learning",
+      "authors": "Lecca S et al.",
+      "journal": "Mol Psychiatry",
+      "year": 2023,
+      "access": "open_full_text",
+      "used_in_articles": [
+        "2026-09-19-lateral-habenula-anti-reward-depression"
+      ],
+      "topics_covered": [
+        "LHb_aversive_learning",
+        "plasticity",
+        "cue_punishment_learning"
+      ]
     }
   ],
-  "total_sources": 540,
+  "total_sources": 550,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

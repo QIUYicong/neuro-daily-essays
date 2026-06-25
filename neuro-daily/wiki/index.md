@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-17（第147篇·大脑内守军的两张面孔：小胶质细胞稳态监视与DAM转化——TREM2信号、神经退行性疾病命运·稳态P2RY12/TMEM119分子签名·DAM两步激活·TREM2-APOE-MGnD轴·INVOKE-2临床阴性）· 主题页总数：**290**（新建3页：concepts/neuroinflammation、concepts/disease-associated-microglia、neurons/trem2；修订2页：neurons/microglia rev1→rev2、diseases/alzheimers-disease rev6→rev7；新增Q-dam-01至Q-dam-04/Q-neuroinflamm-01至Q-neuroinflamm-03；填补悬空引用neuroinflammation/disease-associated-microglia/trem2；图谱292节点/1701边）
+> 最后更新：2026-09-19（第149篇·大脑的惩罚计算机：外侧缰核如何编码失望、驱动单胺崩溃、在抑郁中爆发螺旋）· 主题页总数：**292**（新建2页：systems/lateral-habenula、circuits/lhb-rmtg-circuit；修订2页：concepts/dopamine-reward-prediction-error rev6→rev7、systems/serotonin-raphe-system rev1→rev2；新增 Q-lhb-01/02/03；填补悬空引用 lateral-habenula、lhb-rmtg-circuit；图谱295节点/1721边）
 
 ---
 
@@ -52,6 +52,7 @@
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
+- 🟢 [LHb-RMTg-VTA 反奖励回路](circuits/lhb-rmtg-circuit.md) — 外侧缰核（谷氨酸）→ RMTg（GABA）→ VTA（多巴胺抑制）的三级负预测误差传递通路；大脑专用惩罚信号通道 **[NEW 2026-09-19]**
 - 🟢 [规范微回路（新皮层）](circuits/cortical-canonical-microcircuit.md) — 六层保守回路模板：L2/3（误差单元，γ前馈）→L5/6（预测单元，β反馈）→L6（丘脑门控）；L5顶端钙爆发 AND 门；VIP+去抑制注意调控；Douglas & Martin 2004循环兴奋4-7×，Harris & Shepherd 2015串联同源性 **[NEW 2026-07-18]**
 
 ## concepts（概念/框架）
@@ -274,6 +275,7 @@
 - 🟢 [颞顶联合区（TPJ）](systems/temporoparietal-junction.md) — 前-后轴分工：pTPJ（信念推断/视角转换，右侧化）vs aTPJ（注意定向，VAN 节点）；与 DAN（FEF/IPS）动态拮抗；进化：灵长类 TPJ 体积与社会群体大小正相关；临床：右 TPJ 损伤→偏侧空间忽视+社会认知障碍；TPJ 功能是否专一于 ToM 仍有争议（Q-tom-01）**[NEW 2026-08-01]**
 - 🟢 [杏仁核](systems/amygdala.md) — 外侧核（LA）通过LTP写入恐惧记忆；ITC细胞是恐惧/消退的分子闸门；基底核（BA）中恐惧神经元与消退神经元双群竞争；中央核（CeA）驱动防御行为输出；与PFC（IL/PL）和海马形成情绪调控三角回路；GC+NE协同增强BLA恐惧记忆巩固（β-AR必要门控）；CRH在CeA独立于HPA轴的中枢效应；BLA-LA 再巩固去稳定化分子链；皮质内侧核Proust效应解剖基础；**rev7新增**：vmPFC→杏仁核负向有效连接（认知重评+恐惧消退双机制）；Steward 2021 DCM量化**[修订 rev6→rev7 2026-08-25]**
 - 🟢 [HPA 轴（下丘脑-垂体-肾上腺轴）](systems/hpa-axis.md) — PVN-CRH→垂体-ACTH→肾上腺皮质-皮质醇级联；MR/GR双受体时间分离（MR快速评估/GR慢速巩固）；海马GR负反馈制动；**新增**：DG 新生神经元主动参与 HPA 负反馈（Snyder 2011）+FKBP51 遗传门控+AHN-HPA 双向恶性循环（2026-08-27 rev2）；慢性应激→CA3萎缩→负反馈减弱→HPA恶性循环；CRH在CeA的中枢独立效应 **[NEW 2026-07-09 · 修订 rev2 2026-08-27]**
+- 🟢 [外侧缰核（Lateral Habenula, LHb）](systems/lateral-habenula.md) — 间脑上丘脑的惩罚信号计算器；编码负预测误差（nRPE）；经 RMTg 主动抑制 VTA 多巴胺；直接抑制 DRN 血清素；抑郁中病理性爆发放电；氯胺酮快速抗抑郁通过抑制 LHb 爆发实现 **[NEW 2026-09-19]**
 - 🟢 [伏隔核（Nucleus Accumbens, NAc）](systems/nucleus-accumbens.md) — 腹侧纹状体的动机计算枢纽；D1/D2 MSN时程效应（短暂激活均→奖赏，持续激活均→厌恶，Soares-Cunha 2020打破经典D1=奖赏/D2=厌恶二分法）；享乐热点（壳区前内侧~1mm³，阿片→liking翻倍，eCB→liking需阿片协同，多巴胺在此不增强liking）；社会奖赏专用接口（OTR+MOR正向/KOR负向/eCB正向的NAc壳区四系统整合）；多路输入：VTA-DA（wanting）/PFC-Glu（认知控制）/杏仁核BLA（情感价值）/海马（情境）/PVN-OXT（社会特异性门控）；NAc DBS用于难治性抑郁（~40%反应率）**[NEW 2026-08-20]**
 - 🟢 [眶额皮层（OFC）](systems/orbitofrontal-cortex.md) — 额叶最腹侧的新皮层区域；三类功能神经元（提案/选定/效用价值细胞）构成决策流水线；BLA-OFC双向回路是目标导向价值学习的神经基础（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS投射将价值信号转化为行动（Gore 2023光遗传学因果）；lOFC驱动感觉皮层重映射支持逆向学习；价值代码纵向稳定（Zhang 2024双光子）**[NEW 2026-08-21]**
 - 🟢 [岛叶皮层（Insular Cortex）](systems/insular-cortex.md) — 藏于外侧裂深处的多层级内感觉处理中枢；四区功能分化（后颗粒岛体感拓扑/中岛预测误差/前岛主观感受生成/前岛极沉默性顶端控制）；VMpo→后岛专属内感觉通路（区别于 VPM→S1）；前岛含 VENs（体积4.6×，快速远程同步，与 alexithymia 关联）；EPIC 预测编码模型（Barrett 2015）与 IMAC 三层计算模型（Fermin 2022）；显著性网络（岛叶-ACC）；躯体标记（岛叶→OFC/vmPFC）；精神疾病共同病理节点（抑郁/精分/成瘾）**[NEW 2026-08-22]**

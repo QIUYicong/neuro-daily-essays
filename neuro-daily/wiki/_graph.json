@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "node_count": 293,
   "edge_count": 1711,
   "edge_types": [
@@ -2679,6 +2679,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/apical-tuft.md"
+    },
+    {
+      "id": "lateral-habenula",
+      "title": "外侧缰核（LHb）",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/lateral-habenula.md"
+    },
+    {
+      "id": "lhb-rmtg-circuit",
+      "title": "LHb-RMTg-VTA 反奖励回路",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/lhb-rmtg-circuit.md"
     }
   ],
   "edges": [
@@ -12306,6 +12324,56 @@
       "to": "apical-tuft",
       "type": "related",
       "note": "树突计算的详细页，apical-tuft是其L5 Ca²⁺棘波机制的专项子页"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "lhb-rmtg-circuit",
+      "type": "part-of"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "serotonin-raphe-system",
+      "type": "regulates"
+    },
+    {
+      "from": "basal-ganglia",
+      "to": "lateral-habenula",
+      "type": "regulates"
+    },
+    {
+      "from": "vmPFC",
+      "to": "lateral-habenula",
+      "type": "regulates"
+    },
+    {
+      "from": "amygdala",
+      "to": "lateral-habenula",
+      "type": "related"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "nucleus-accumbens",
+      "type": "regulates"
+    },
+    {
+      "from": "lhb-rmtg-circuit",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "lhb-rmtg-circuit",
+      "to": "basal-ganglia",
+      "type": "related"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "lateral-habenula",
+      "type": "related"
     }
   ],
   "dangling_references": [

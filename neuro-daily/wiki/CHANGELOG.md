@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-09-19 · 文章 #149 · 大脑的惩罚计算机：外侧缰核如何编码失望、驱动单胺系统崩溃，并在抑郁中陷入爆发螺旋
+
+**核心主题**：外侧缰核（LHb）作为大脑"反奖励系统"的核心——(1) Matsumoto & Hikosaka 2007 奠基：LHb 编码负预测误差，放电先于 VTA 多巴胺抑制 20-40 ms；(2) Hong et al. 2011：LHb→RMTg→VTA 三级回路在灵长类的因果证明；(3) Shabel et al. 2019：急性应激反转 LHb 奖励编码→快感缺失机制；(4) Fedorov et al. 2026：三种爆发模式（方波/抛物线/三角波）的电生理与数学模型；(5) 氯胺酮通过抑制 LHb 爆发快速起效；(6) Liu et al. 2024：LHb 输出特异性（→DRN/→VTA/→MnR）与不同抑郁症状的对应。知识库填补重要空白：外侧缰核从未有专页，今日创建核心页面。图谱从 293 节点/1711 边增至 **295 节点/1721 边**（+2 节点 +10 新边）。
+
+**注意**：系统时钟日期为 2026-06-25（UTC+8），知识库连续序列日期为 2026-09-19，文章编号 #149。
+
+### 新建 Wiki 页面（2 个）
+
+- `systems/lateral-habenula.md` 🟢 established · 高置信度 — LHb 解剖位置（上丘脑/间脑）；主要输入（GPi/EPN、vmPFC、外侧下丘脑）；主要输出（RMTg→VTA、DRN、MnR、LC）；负 RPE 编码机制；抑郁中病理性爆发（三种模式）；氯胺酮机制；输出回路特异性；Q-lhb-01/02/03
+- `circuits/lhb-rmtg-circuit.md` 🟢 established · 高置信度 — LHb（谷氨酸）→ RMTg（GABA）→ VTA 三级惩罚回路；与 LHb→DRN 直接通路的分工
+
+### 修订 Wiki 页面（2 个）
+
+- `concepts/dopamine-reward-prediction-error.md` rev6→rev7 — 新增"LHb→RMTg→VTA 是负 RPE 的主动来源"段落（当前理解节）；连接节新增 lateral-habenula 和 lhb-rmtg-circuit；related 新增 lateral-habenula、lhb-rmtg-circuit；key_sources 新增 PMID:17522629、PMID:21832176
+- `systems/serotonin-raphe-system.md` rev1→rev2 — 新增"LHb→DRN 直接谷氨酸输入"段落（当前理解节）；related 新增 lateral-habenula；key_sources 新增 PMID:38863324、PMID:42057617；连接节新增 lateral-habenula
+
+### 矛盾登记 / 裁决（0 条新登记）
+
+- 无新矛盾。现有来源对 LHb 负 RPE 功能描述高度一致。唯一潜在争议（GPi→LHb 谷氨酸成分身份）已登记为未解问题 Q-lhb-02，不构成与既有 wiki 主张的直接冲突。
+
+### 新增未解问题（3 条）
+
+- `Q-lhb-01`（高优先级）：LHb 输出特异性（DRN vs VTA vs MnR）与不同抑郁症状的对应是否能在人类患者中验证？
+- `Q-lhb-02`（中优先级）：GPi→LHb 连接的谷氨酸成分身份（GPi 经典为 GABA，但 GPi→LHb 通路中的谷氨酸如何存在？）
+- `Q-lhb-03`（高优先级）：氯胺酮消除 LHb 爆发的精确分子机制（NMDAR 亚型？星形胶质细胞 NMDAR？GIRK 通道？）
+
+---
+
 ## 2026-09-18 · 文章 #148 · 顶端树突的秘密：L5锥体细胞如何用一个钙棘波整合两个世界
 
 **核心主题**：第五层锥体神经元（L5）顶端树突簇（apical tuft）的 Ca²⁺ 棘波机制——BAC 放电（Back-propagation Activated Ca²⁺ spike firing）如何实现细胞层面自下而上感觉与自上而下预测的巧合检测。核心贡献：(1) Larkum 1999 Nature（PMID:10192334）奠基：单 bAP + 顶端突触输入巧合→Ca²⁺ 棘波 + 爆发放电（BAC 放电）；(2) 临界频率机制（PMID:10588751）：~60–200 Hz 阈值；(3) Shai & Koch 2015（PMID:25768881）计算框架：composite sigmoid 巧合检测，中位临界频率 89.7 Hz；(4) Takahashi & Larkum 2016（PMID:28008068）：体内感知阈值与顶端 Ca²⁺ 活动因果相关；(5) Suzuki & Larkum 2020（PMID:32084339）：三种麻醉药选择性解耦顶端-胞体耦合，意识机制假说；(6) Schulz & Larkum 2021（PMID:34512268）：GABA_B/GIRK 抑制门定量（协同从 35.6%→~0%）；(7) Zolnik & Larkum 2024（PMID:38101395）：L6b-orexin 通路激活 L5 顶端树突控制脑状态。图谱从 292 节点/1701 边增至 **293 节点/1711 边**（+1 节点 +10 新边）。填补长期悬空引用 `apical-tuft`（被 dendritic-computation 和 pyramidal-neuron 引用多月）。

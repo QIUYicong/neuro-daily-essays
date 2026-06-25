@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-09-01
-revision_count: 6
+updated: 2026-09-19
+revision_count: 7
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems, lateral-habenula, lhb-rmtg-circuit]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-12-dopamine-td-learning-brain-ai, 2026-09-01-medium-spiny-neurons-striatum]
-key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:27602521", "PMID:38592773", "PMID:38895442", "PMID:33186815", "PMID:31942076", "PMID:12371510", "PMID:37841525", "PMID:21469956"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-12-dopamine-td-learning-brain-ai, 2026-09-01-medium-spiny-neurons-striatum, 2026-09-19-lateral-habenula-anti-reward-depression]
+key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:27602521", "PMID:38592773", "PMID:38895442", "PMID:33186815", "PMID:31942076", "PMID:12371510", "PMID:37841525", "PMID:21469956", "PMID:17522629", "PMID:21832176"]
 ---
 
 # 多巴胺奖励预测误差 (Dopamine Reward Prediction Error, DA-RPE)
@@ -33,6 +33,8 @@ key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", 
 随着学习进展，DA 响应从奖励本身**迁移到最早的预测刺激（CS）**——这是时间差分（TD）学习算法的神经实现，也是 Montague-Dayan-Sejnowski 1996 框架的核心预言。
 
 DA-RPE 信号通过三条主要投射路线传达：**中脑边缘系统**（VTA → 伏隔核，奖励动机）、**中脑皮层系统**（VTA → 前额叶，认知控制）、**黑质-纹状体系统**（SNc → 背侧纹状体，习惯性行动学习）。
+
+**负 RPE 的主动来源：外侧缰核（LHb）→ RMTg → VTA**（2026-09-19 新增）：多巴胺神经元的"被抑制"并非内部自动发生，而是由**外侧缰核（LHb）**主动驱动。Matsumoto & Hikosaka（2007, PMID:17522629）发现 LHb 神经元与 VTA 多巴胺呈严格镜像：奖励未出现时 LHb 爆发（先于 DA 抑制约 20-40 ms），说明 LHb 是主动的因果因素。Hong et al.（2011, PMID:21832176, PMC3315151）在灵长类证明，LHb 经**喙侧内侧被盖核（RMTg）**中继（LHb 谷氨酸兴奋 RMTg → RMTg GABA 抑制 VTA）实现负 RPE 传递。这意味着负 RPE 不是 VTA 内部的"缺少激活"，而是 LHb→RMTg→VTA 的主动下行惩罚信号——奖惩系统有两套独立的专用通路（见 [[lateral-habenula]]、[[lhb-rmtg-circuit]]）。
 
 **帕金森病作为DA-RPE系统崩溃的极端案例**：SNc多巴胺神经元的选择性死亡使黑质-纹状体多巴胺信号消失，不仅损害动作选择的学习（无法再通过RPE更新D1/D2调制的突触权重），更重要的是使基底节回路失去多巴胺调节后陷入β振荡主导的"运动锁定"状态（见 [[parkinsons-disease]]、[[basal-ganglia]]）。这提示DA神经元同时承担着"教学信号"（RPE学习）和"回路调节器"（维持基底节动态平衡）两种根本不同的功能，两者的分离需要更精细的分子和解剖框架。
 
@@ -82,6 +84,8 @@ DA 响应有两个时间层次：
 - [[competition-selection-principle]] — DA-RPE 是细胞层面（CREB 竞争）和回路层面（VIP 去抑制）竞争机制的可能上游信号
 - [[parkinsons-disease]] — SNc DA神经元死亡使RPE信号和基底节回路平衡同时崩溃
 - [[basal-ganglia]] — 纹状体D1/D2受体是DA-RPE信号的直接靶点，形成动作选择回路
+- [[lateral-habenula]] — LHb 编码负 RPE，通过 RMTg 主动驱动 VTA 多巴胺抑制
+- [[lhb-rmtg-circuit]] — LHb→RMTg→VTA 反奖励回路的详细解剖与功能
 
 ## 海马多巴胺来源争议：LC 主导，VTA 辅助（2026-07-11 更新）
 
@@ -155,6 +159,7 @@ DA 的"双读数"设计：δ > 0 时 D1（高阈值）被激活且 D2 被抑制�
 - 2026-07-11 · 修订 rev4 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 新增"海马多巴胺来源争议"小节，部分解答 Q-da-hippocampus-source（LC 主导，VTA 辅助）；连接节新增 lc-hippocampus-dopamine；key_sources 新增3个（PMID:27602521、PMID:38592773、PMID:38895442）；source_articles 新增 2026-07-11
 - 2026-07-12 · 修订 rev5 · 基于《奖励信号的双重发现》第 80 篇文章（#80）· 新增"分布式 DA 编码"小节（Dabney 2020，PMID:31942076）——DA 群体编码奖励分布而非单一均值；新增"Actor-Critic 架构"小节（Joel 2002，PMID:12371510）——VTA=TD误差、NAc=Critic、背侧纹状体=Actor；新增 related: td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems；key_sources 新增3个（PMID:33186815、PMID:31942076、PMID:12371510）
 - 2026-09-01 · 修订 rev6 · 基于《纹状体的决策细胞》一文（#131）· 新增MSN层面的突触机制说明：D1-dMSN通过Gs-cAMP-PKA-DARPP-32促进LTP；D2-iMSN通过Gi-eCB-CB1促进LTD；关键新发现：多巴胺信号在行动后≤1秒仍可触发LTP（信用分配时间窗）；related新增medium-spiny-neuron、striatal-direct-indirect-pathway、striatal-plasticity · 来源：PMID:37841525, PMID:21469956
+- 2026-09-19 · 修订 rev7 · 基于《外侧缰核：大脑的惩罚计算机》一文（#149）· 在"当前理解"中新增 LHb→RMTg→VTA 作为负 RPE 主动驱动来源的段落；连接节新增 lateral-habenula 和 lhb-rmtg-circuit；key_sources 新增 PMID:17522629, PMID:21832176
 
 ## 来源文章
 

@@ -9112,6 +9112,74 @@
       ],
       "system_clock_date": "2026-06-25",
       "editorial_continuity_date": "2026-09-18"
+    },
+    {
+      "date": "2026-09-19",
+      "title": "大脑的惩罚计算机：外侧缰核如何编码失望、驱动单胺系统崩溃，并在抑郁中陷入爆发螺旋",
+      "filename": "2026-09-19-lateral-habenula-anti-reward-depression.md",
+      "article_number": 149,
+      "wiki_pages_created": [
+        "wiki/systems/lateral-habenula.md",
+        "wiki/circuits/lhb-rmtg-circuit.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/dopamine-reward-prediction-error.md (rev6->rev7)",
+        "wiki/systems/serotonin-raphe-system.md (rev1->rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "外侧缰核（LHb）如何编码负预测误差（nRPE）——与 VTA 多巴胺呈严格镜像——并通过 RMTg 主动抑制 VTA 和直接抑制 DRN 血清素？抑郁症中 LHb 病理性爆发放电如何驱动单胺系统崩溃？氯胺酮如何通过沉默 LHb 爆发快速起效？",
+      "open_questions_added": [
+        "Q-lhb-01（高优先级）：LHb 输出特异性与不同抑郁症状的对应是否能在人类验证？",
+        "Q-lhb-02（中优先级）：GPi→LHb 连接中谷氨酸成分的身份确认",
+        "Q-lhb-03（高优先级）：氯胺酮消除 LHb 爆发的精确分子机制（NMDAR 亚型？GIRK 通道？）"
+      ],
+      "layer": [
+        "brain-region",
+        "microcircuit",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱6（情绪与动机：负价回路、惩罚信号）+ 课程脊柱5（认知控制/奖励学习：负预测误差）",
+      "topic_tags": [
+        "lateral habenula LHb anti-reward punishment signal",
+        "negative reward prediction error nRPE",
+        "RMTg rostromedial tegmental nucleus VTA dopamine inhibition",
+        "DRN dorsal raphe serotonin inhibition LHb input",
+        "depression anhedonia LHb burst firing synchrony",
+        "ketamine fast antidepressant LHb burst suppression",
+        "Matsumoto Hikosaka 2007 Nature lateral habenula dopamine mirror",
+        "Hong Jhou Hikosaka 2011 J Neurosci RMTg primate circuit",
+        "Shabel Malinow 2019 PNAS stress reversal LHb reward coding",
+        "Fedorov Piriz 2026 J Physiol burst patterns mathematical model",
+        "Liu Ren 2024 Advanced Science light therapy LHb circuit output",
+        "Ibañez-Tallon 2026 Eur J Neurosci disappointment dilemma LHb MHb",
+        "GPi entopeduncular nucleus habenula input basal ganglia",
+        "ketamine NMDAR burst firing antidepressant mechanism"
+      ],
+      "main_sources": [
+        "PMID:17522629 (Matsumoto & Hikosaka 2007 Nature, 摘要)",
+        "PMID:21832176 (Hong et al. 2011 J Neurosci, 全文 PMC3315151)",
+        "PMID:31152135 (Shabel et al. 2019 PNAS, 全文 PMC6589650)",
+        "PMID:41925551 (Fedorov et al. 2026 J Physiol, 全文 PMC13082187)",
+        "PMID:41872515 (Nakajima et al. 2026 Mol Psychiatry, 全文 PMC13269138)",
+        "PMID:38863324 (Liu et al. 2024 Adv Sci, 全文 PMC11321664)",
+        "PMID:42057617 (Ibañez-Tallon et al. 2026 Eur J Neurosci, 全文 PMC13129642)",
+        "PMID:40769282 (Cui et al. 2025 Neurobiol Dis, 摘要)",
+        "PMID:33535028 (Lecca et al. 2021 Neuron, 全文 PMC7980092)",
+        "PMID:37414924 (Lecca et al. 2023 Mol Psychiatry, 全文 PMC11041652)"
+      ],
+      "next_suggested_topics": [
+        "杏仁核基底外侧核（BLA）在恐惧和奖励记忆中的双重角色——填补情绪回路图谱",
+        "腹侧被盖区（VTA）的神经元异质性——正/负RPE编码亚群的分子标记",
+        "下丘脑弓状核（ARC）能量稳态回路——AgRP/NPY vs POMC/CART的饥饿/饱腹感编码",
+        "阿片系统与内源性镇痛——μ/δ/κ受体在奖励和疼痛中的差异化功能"
+      ],
+      "graph_update": "293 nodes+2=295 nodes; 1711 edges+10=1721 edges",
+      "knowledge_base_date": "2026-09-19",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-19（第149篇外侧缰核文章）"
     }
   ]
 }

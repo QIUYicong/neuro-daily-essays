@@ -780,5 +780,23 @@
     "confidence": "high",
     "last_changed": "2026-09-16",
     "reason": "新建：MERFISH 技术多实验室独立重现（Chen 2015 奠基）；Zhang 2021/2023 + Yao 2023 在初级运动皮层和全脑验证；Allen Brain Cell Atlas 公开平台可重现。方法论 established/high；小鼠全脑细胞类型发现 established/high；人类推广仍 emerging 但不影响方法评级"
+  },
+  {
+    "slug": "lateral-habenula",
+    "title": "外侧缰核（LHb）",
+    "page": "wiki/systems/lateral-habenula.md",
+    "status": "established",
+    "confidence": "high",
+    "last_change": "2026-09-19",
+    "change_reason": "创建：LHb编码负RPE的功能已被多项独立灵长类和啮齿类实验确认；爆发放电与抑郁的关联有因果证据"
+  },
+  {
+    "slug": "lhb-rmtg-circuit",
+    "title": "LHb-RMTg-VTA 反奖励回路",
+    "page": "wiki/circuits/lhb-rmtg-circuit.md",
+    "status": "established",
+    "confidence": "high",
+    "last_change": "2026-09-19",
+    "change_reason": "创建：RMTg作为LHb→VTA的必要GABA中继已在灵长类损毁实验中得到因果确认"
   }
 ]

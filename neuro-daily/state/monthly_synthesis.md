@@ -1541,3 +1541,16 @@
 **修订 wiki 页（2个）**：dendritic-computation（rev4→rev5）、pyramidal-neuron（rev2→rev3）
 **图谱**：292→293节点，1701→1711边（+1节点，+10边）
 **新增未解问题**：Q-apical-01（高：体内Ca²⁺棘波频率）、Q-apical-02（高：厚簇vs薄簇分工）、Q-apical-03（中：人类特殊性）
+
+## 2026-09-19（第149篇 · 外侧缰核与负预测误差回路）
+
+**层级**：brain-region / microcircuit / behavior / cognition / disease
+
+**一句话**：外侧缰核（LHb）是大脑奖励系统的"镜像计算器"：在预期奖励缺失时爆发激活，通过 RMTg 三级回路（LHb谷氨酸→RMTg GABA→VTA）主动抑制多巴胺，同时直接抑制 DRN 血清素；抑郁症中 LHb 陷入病理性同步爆发放电，驱动单胺系统持续崩溃，而氯胺酮通过快速沉默此爆发实现数小时内的抗抑郁效果。
+
+**核心知识点**：Matsumoto & Hikosaka 2007 镜像 nRPE 编码（先于DA抑制20-40ms）；Hong et al. 2011 RMTg灵长类因果证据；Shabel 2019 急性应激反转LHb编码；Fedorov 2026三种爆发模式（方波/抛物线/三角波）；Liu 2024输出特异性（→DRN=快感缺失，→VTA=动力丧失）；氯胺酮NOX1-LHb爆发-快速抗抑郁通路；重要知识库空白填补（LHb从未有专页）。
+
+**新建 wiki 页（2个）**：systems/lateral-habenula（established/high）、circuits/lhb-rmtg-circuit（established/high）
+**修订 wiki 页（2个）**：concepts/dopamine-reward-prediction-error（rev6→rev7）、systems/serotonin-raphe-system（rev1→rev2）
+**图谱**：293→295节点，1711→1721边（+2节点，+10边）
+**新增未解问题**：Q-lhb-01（高：LHb输出特异性→症状对应的人类验证）、Q-lhb-02（中：GPi→LHb谷氨酸成分身份）、Q-lhb-03（高：氯胺酮-LHb爆发的分子机制）
