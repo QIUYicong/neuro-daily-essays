@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-21",
-  "total_articles": 151,
+  "last_updated": "2026-09-23",
+  "total_articles": 153,
   "entries": [
     {
       "date": "2026-09-21",
@@ -9387,6 +9387,63 @@
       "knowledge_base_date": "2026-09-22",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-22（第152篇SWR记忆选择与固化文章）"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "突触的形状即记忆的形状：树突棘结构可塑性如何将突触强化刻入物理基底",
+      "filename": "2026-09-23-dendritic-spine-structural-ltp-actin.md",
+      "article_number": 153,
+      "wiki_pages_created": [
+        "wiki/neurons/dendritic-spine.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/camkii.md (rev2->rev3)",
+        "wiki/concepts/ltp.md (rev13->rev14)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "LTP期间树突棘发生什么物理变化？sLTP三时相actin重塑级联如何将突触功能性增强转化为持久的结构性变化——从cofilin去磷酸化（G-actin供应）到Rac1/Arp2/3驱动的F-actin分支扩增，到LIMK锁定稳定扩大的棘头，以及CaMKII→α-actinin-2的直接actin锚定机制（Yu 2023）和Rac1独立通路（Saneyoshi 2025）",
+      "open_questions_added": [
+        "Q-spine-01（高优先级）：体内清醒行为动物中，自然学习是否在 1–48 小时尺度内产生与体外相同幅度的单棘体积变化？（中间时间段无直接证据）",
+        "Q-spine-02（中优先级）：扩大的树突棘（sLTP 后）在日级时间尺度上如何维持？LIMK 锁定只解释即时稳定，而不解释天级维持",
+        "Q-spine-03（中优先级）：体内功能性 LTP 和结构性 LTP 各自对行为记忆的贡献权重如何分配？",
+        "Q-spine-04（低优先级）：PI(4,5)P₂ 在棘头不同微区的时空分布如何指导 actin 重塑的空间模式（需超分辨脂质成像）？"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular"
+      ],
+      "curriculum_track": "课程脊柱3（突触可塑性：结构性LTP机制）+ 课程脊柱7（学习记忆：记忆的物质基底）",
+      "topic_tags": [
+        "dendritic spine structural plasticity sLTP actin remodeling",
+        "CaMKII Tiam1 Rac1 WAVE Arp2/3 F-actin branching spine enlargement",
+        "cofilin dephosphorylation rephosphorylation LIMK actin dynamics LTP",
+        "Matsuzaki 2004 Nature single spine two-photon uncaging sLTP",
+        "Bosch 2014 Neuron three waves cofilin alpha-actinin-2 sLTP",
+        "Saneyoshi 2025 eNeuro Rac1 photoactivation CaMKII-independent sLTP",
+        "Yu 2023 eLife CaMKII alpha-actinin-2 direct F-actin anchoring",
+        "López-García 2024 CMLS PI3K p85alpha cofilin LTP-specific",
+        "Yang 2009 Nature motor learning persistent dendritic spines months",
+        "synaptopodin spine apparatus local Ca2+ store protein synthesis",
+        "structural LTP functional LTP coupling decoupling memory substrate"
+      ],
+      "main_sources": [
+        "PMID:15190253 / PMC4158816（Matsuzaki et al. 2004 Nature，单棘sLTP，开放）",
+        "PMID:15361876（Okamoto et al. 2004 Nat Neurosci，F/G-actin双向平衡）",
+        "PMID:20835250 / PMC2947576（Gu et al. 2010 Nat Neurosci，cofilin时序，开放）",
+        "PMID:24742465 / PMC4281348（Bosch et al. 2014 Neuron，三波动态，开放）",
+        "PMID:19448623（Yang et al. 2009 Nature，运动记忆持久棘）",
+        "PMID:37489746 / PMC10484527（Yu et al. 2023 eLife，CaMKII-α-actinin-2，开放）",
+        "PMID:41249054 / PMC12658306（Saneyoshi & Hayashi 2025 eNeuro，Rac1独立通路，开放）",
+        "PMID:39158722 / PMC11335278（López-García et al. 2024 CMLS，PI3K/p85α，开放）",
+        "PMID:34440848 / PMC8391678（Ben Zablah et al. 2021 Cells，LIMK综述，开放）",
+        "PMID:41506312（Peng et al. 2026 Neuroscience，LIMK抑制重开关键期，仅摘要）"
+      ],
+      "graph_update": "294+1=295 nodes (+1: dendritic-spine); 1722+11=1733 edges (+11: dendritic-spine→ltp, ltp→dendritic-spine, dendritic-spine→camkii, camkii→dendritic-spine, dendritic-spine→ampa-receptor, dendritic-spine→nmda-receptor, dendritic-spine→dendritic-computation, dendritic-spine→synaptic-tagging-capture, dendritic-spine→pkm-zeta, dendritic-spine→engram-cells, dendritic-spine→pyramidal-neuron)",
+      "knowledge_base_date": "2026-09-23",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-23（第153篇树突棘结构可塑性文章）"
     }
   ]
 }

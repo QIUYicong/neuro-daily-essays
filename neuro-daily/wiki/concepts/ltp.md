@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-09-21
-revision_count: 13
+updated: 2026-09-23
+revision_count: 14
 dimensions: [synaptic, cellular, cognition, brain-region, disease, molecular]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, liquid-liquid-phase-separation, postsynaptic-density, pkm-zeta]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, liquid-liquid-phase-separation, postsynaptic-density, pkm-zeta, dendritic-spine]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
-opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-09-12-liquid-liquid-phase-separation-postsynaptic-density, 2026-09-21-pkm-zeta-late-ltp-persistence]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918", "PMID:27565345", "PMID:29976799", "PMID:16463388", "PMID:15958741", "PMID:27187150", "PMID:41814337", "PMID:41889799", "PMID:39814881"]
+opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component, Q-spine-01, Q-spine-02]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-09-12-liquid-liquid-phase-separation-postsynaptic-density, 2026-09-21-pkm-zeta-late-ltp-persistence, 2026-09-23-dendritic-spine-structural-ltp-actin]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918", "PMID:27565345", "PMID:29976799", "PMID:16463388", "PMID:15958741", "PMID:27187150", "PMID:41814337", "PMID:41889799", "PMID:39814881", "PMID:15190253", "PMID:20835250", "PMID:24742465", "PMID:41249054"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -137,6 +137,31 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 
 **BDNF 的 L-LTP 作用与 DA 的 STC 机制的关系**：两者共享最终产物（PRPs 合成，包括 Arc），但 BDNF 由局部突触活动触发（活动直接诱导），DA 则由奖励预测误差触发（远程调制）。两条路径汇聚于同一套局部蛋白合成机制，可能在实际学习中协同工作。
 
+### 9. 结构性 LTP（sLTP）：树突棘的物理扩张
+
+**2026-09-23 新增（来自《突触的形状即记忆的形状》文章，#153）**：功能性 LTP（AMPA 受体插入，分钟级）与结构性 LTP（树突棘头物理扩大，分钟至小时级）是**同一 Ca²⁺ 信号的两条并行下游**，共同确保突触强化的持久性。
+
+**sLTP 的三时相级联**：
+
+| 时相 | 时间 | 关键事件 |
+|------|------|---------|
+| 时相1 | 0–5 min | Calcineurin→SSH1→cofilin去磷酸化→F-actin短暂解聚→G-actin单体供应 |
+| 时相2 | 5–30 min | CaMKII→Tiam1→Rac1→WAVE/Arp2/3→F-actin分支扩增→棘头扩大；CaMKII→α-actinin-2直接锚定 |
+| 时相3 | >30 min | Rac1→PAK→LIMK→cofilin再磷酸化→失活→F-actin锁定扩大状态 |
+
+**关键发现**（Matsuzaki 2004, PMID:15190253）：双光子解笼放谷氨酸实验首次直接证明单棘 sLTP，棘头体积扩大 2–3 倍，持续 30+ 分钟。小头棘是 LTP 的优先位点（"更多空间可扩展"）。
+
+**CaMKII 以外的 sLTP 路径**（Saneyoshi 2025, PMID:41249054）：Rac1 可独立于 CaMKII 通过 PAK1 驱动持久 sLTP——说明 Rac1 是并行通路而非仅 CaMKII 下游效应器。
+
+**记忆的物质印记**（Yang 2009, PMID:19448623）：运动学习后新生棘在数月内保持稳定——成功记忆在皮层留下可见的物理结构。
+
+**sLTP 在 LTP 整体中的位置**：
+- sLTP 是功能性 LTP（AMPAR 数量增加）的物理接力棒：更大棘头提供更多 PSD 面积 → 更多 AMPAR 槽位
+- sLTP 为 PKMζ 的晚期维持提供物理容量支持
+- E-LTP → sLTP → L-LTP/PKMζ 三阶段共同保证记忆在蛋白更新中的持久性
+
+详见 [[dendritic-spine]]。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -145,7 +170,10 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 | LTP 主要在突触后表达（AMPA 受体插入） | MK-801 速率法、PPF 不变、星形胶质细胞转运体电流不变 | PMID:22510460 (PMC3367554) | 高 |
 | CaMKII 是 LTP 诱导和维持所必需的 | CaMKII 抑制剂（myr-CN27）在 LTP 后逆转增强 | PMID:34908526 (PMC8798046) | 高 |
 | LTP 与突触后 AMPA 受体密度增加相关 | 静默突触实验、单通道电导增加 | PMID:22510460 (PMC3367554) | 高 |
-| 树突棘增大伴随 LTP | 活体双光子成像 | PMID:22510460 (PMC3367554) | 高 |
+| 单棘 sLTP：棘头扩大 2–3 倍持续 30+ 分钟 | 双光子解笼放谷氨酸；离体 CA1 切片 | PMID:15190253 (PMC4158816) | 高 |
+| Cofilin 去磷酸化→再磷酸化时序驱动 AMPAR 插入 | 生化分析 + LTP 功能测量 | PMID:20835250 (PMC2947576) | 高 |
+| Rac1 单独激活→持久 sLTP（不依赖 CaMKII） | 光遗传 Rac1 + CaMKII 抑制剂 | PMID:41249054 (PMC12658306) | 高 |
+| 运动学习后新生棘数月内稳定（记忆-棘对应） | 慢性双光子成像，小鼠运动皮层 | PMID:19448623 | 高 |
 | θ-burst 比等量高频刺激更有效诱发 LTP | 对比实验 | PMID:25452022 (PMC4411212) | 中-高 |
 | LA-LTP是恐惧记忆因果底物（光遗传LTP→恐惧；LTD→消除；再LTP→恢复） | 光遗传双向操控LA突触 + 行为测试 | PMID:24896183（Nabavi et al. 2014, Nature） | 极高（双向因果） |
 
@@ -185,6 +213,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 
 ## 修订历史
 
+- 2026-09-23 · 修订（rev14）· 基于《突触的形状即记忆的形状》(#153) · 新增"结构性 LTP（sLTP）：树突棘的物理扩张"段落（三时相 actin 重塑分子级联；Matsuzaki 2004单棘 sLTP；Gu 2010 cofilin时序；Bosch 2014三波动态；Saneyoshi 2025 Rac1独立通路）；关键证据表新增4行（PMID:15190253/20835250/41249054/19448623）；related新增dendritic-spine；Q-spine-01/02新增至opens_questions；source_articles新增#153；key_sources新增4个PMIDs；连接新增dendritic-spine
 - 2026-09-21 · 修订（rev13）· 基于《记忆的分子守夜人》(#151) · 新增"PKMζ与aPKC功能层"段落（PKMζ无调节域持续激活；双KO→L-LTP消失；KIBRA寡聚体感染性磷酸化；ZIP重新解读）；Q-ltp-lifetime-mechanism标记为部分解答；related新增pkm-zeta；key_sources新增6个；source_articles新增#151；连接新增pkm-zeta
 - 2026-09-12 · 修订 · 基于《突触的自组装奥秘》(#142) · 新增"LTP 的相变维度"段落（PSD 是 LLPS 凝聚体；SynGAP 集体逸散是 LTP 相变机制；CaMKII 凝聚体作为突触标签）；related 新增 liquid-liquid-phase-separation、postsynaptic-density；key_sources 新增 PMID:27565345、PMID:29976799；dimensions 新增 molecular；source_articles 新增 #142；连接新增两条
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；GluA1（LTP）vs GluA2（稳态缩放）分子路径分叉关系明确化；related 新增 synaptic-scaling、homeostatic-plasticity

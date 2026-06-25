@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-21（第151篇·记忆的分子守夜人：PKMζ的发现、颠覆与新生）· 主题页总数：**293**（新建1页：concepts/pkm-zeta；修订3页：concepts/ltp rev12→rev13、concepts/synaptic-tagging-capture rev2→rev3、concepts/arc-arg31 rev1→rev2；新增 Q-pkm-zeta-in-vivo-oligomer/Q-pkm-zeta-region-specificity/Q-pkm-zeta-memory-modification；Q-ltp-lifetime-mechanism部分解答；图谱294节点/1722边）
+> 最后更新：2026-09-23（第153篇·突触的形状即记忆的形状：树突棘结构可塑性）· 主题页总数：**294**（新建1页：neurons/dendritic-spine；修订2页：neurons/camkii rev2→rev3、concepts/ltp rev13→rev14；新增 Q-spine-01/02/03/04；图谱295节点/1733边）
 
 ---
 
@@ -18,7 +18,8 @@
 - 🟢 [突触结合蛋白 Synaptotagmin](neurons/synaptotagmin.md) — 突触囊泡上的钙传感器，触发融合的分子开关（修订3次）
 - 🟢 [就绪释放池（RRP）](neurons/readily-releasable-pool.md) — 突触活动区中处于停靠就绪状态的囊泡子集；RRP耗竭是短时程抑制的主要机制 **[NEW 2026-06-10]**
 - 🟢 [活动区（Active Zone）](neurons/active-zone.md) — 突触前终末的纳米级分子发射台
-- 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；BTSP 中的延迟弥散随机激活（DDSC，平台电位后 10–100 s，IP₃→ER 驱动）是行为时间尺度突触整合的分子秒表 **[修订 rev2 2026-09-20]**
+- 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；BTSP 中的延迟弥散随机激活（DDSC，平台电位后 10–100 s，IP₃→ER 驱动）是行为时间尺度突触整合的分子秒表；sLTP 中通过 Tiam1→Rac1→Arp2/3 和 α-actinin-2 双通路驱动树突棘结构扩大 **[修订 rev3 2026-09-23]**
+- 🟢 [树突棘](neurons/dendritic-spine.md) — 大多数兴奋性突触的微型突起；棘头体积是突触强度的物理记录仪；sLTP 三时相 actin 重塑（cofilin去磷酸化→Rac1→Arp2/3→LIMK锁定）将功能性 LTP 刻入物理形态；运动记忆新生棘维持数月（Yang 2009）**[NEW 2026-09-23]**
 - 🟢 [树突计算](neurons/dendritic-computation.md) — NMDA 棘波与 Ca²⁺ 棘波使单根树突成为独立计算单元，单神经元等价两层神经网络；Wilson 2016证明V1突触聚类增强方向选择性（修订4次）
 - 🟢 [锥体神经元](neurons/pyramidal-neuron.md) — 皮层主体兴奋性神经元，双树突系统是树突计算和前馈/反馈整合的物理基础
 - 🟢 [场所细胞](neurons/place-cell.md) — 海马 CA1/CA3 的空间位置编码器，通过 BTSP 单次写入场所场，构成大脑认知地图（修订4次）

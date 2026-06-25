@@ -1,5 +1,12 @@
 [
   {
+    "slug": "dendritic-spine",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-23",
+    "reason": "新建 rev1 · #153 · sLTP三时相actin重塑机制（高置信度）；单棘体积扩大2-3倍（Matsuzaki 2004）；运动记忆持久棘（Yang 2009）；体内自然学习单棘体积细节中等"
+  },
+  {
     "slug": "pkm-zeta",
     "status": "established",
     "confidence": "high",

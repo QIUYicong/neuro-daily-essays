@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-09-23 · 文章 #153 · 突触的形状即记忆的形状：树突棘结构可塑性如何将突触强化刻入物理基底
+
+**核心主题**：树突棘结构可塑性（sLTP）与记忆的物质印记——(1) Matsuzaki 2004 单棘 sLTP：小棘头双光子解笼放谷氨酸诱导棘头体积扩大 2–3 倍（PMID:15190253）；(2) 肌动蛋白三时相级联：time1（0–5 min）calcineurin→cofilin去磷酸化→F-actin短暂解聚，time2（5–30 min）CaMKII→Tiam1→Rac1→WAVE/Arp2/3→F-actin分支扩增+CaMKII→α-actinin-2直接锚定，time3（>30 min）Rac1→PAK→LIMK→cofilin再磷酸化→F-actin锁定；(3) Saneyoshi 2025：Rac1 独立于 CaMKII 可单独通过 PAK1 诱导持久 sLTP（PMID:41249054）；(4) López-García 2024：PI3K/p85α 磷脂信号层选择性耦合 LTP（非 LTD）的 cofilin 招募（PMID:39158722）；(5) Yang 2009：运动技能学习后新生棘维持数月——成功记忆在皮层留下可见物理结构（PMID:19448623）。图谱从294节点/1722边增至 **295节点/1733边**（+1节点 +11新边）。
+
+**注意**：系统时钟日期为2026-06-25（UTC+8），知识库连续序列日期为2026-09-23，文章编号#153。
+
+### 新建 Wiki 页面（1 个）
+
+- `neurons/dendritic-spine.md` 🟢 established · 高置信度 — 树突棘形态（蘑菇/细薄/粗短/丝状伪足）；头-颈-棘设备三部分解剖；sLTP三时相分子级联（cofilin-Rac1-LIMK轴）；功能性vs结构性LTP耦合解耦；运动记忆棘持久性（Yang 2009）；棘设备与STC关系；Q-spine-01/02/03/04
+
+### 修订 Wiki 页面（2 个）
+
+- `neurons/camkii.md` rev2→rev3 — 新增"结构性 LTP 中的 CaMKII：actin 重塑的双通路"（CaMKII→Tiam1→Rac1 间接通路；CaMKII→α-actinin-2 直接锚定通路；Rac1→PAK1 独立通路，Saneyoshi 2025）；related 新增 dendritic-spine；key_sources 新增 PMID:15190253/37489746/41249054；source_articles 新增 #153；连接新增 dendritic-spine
+- `concepts/ltp.md` rev13→rev14 — 新增"结构性 LTP（sLTP）：树突棘的物理扩张"段落（三时相 actin 重塑分子级联；Matsuzaki 2004单棘 sLTP）；关键证据表新增4行（PMID:15190253/20835250/41249054/19448623）；related 新增 dendritic-spine；Q-spine-01/02 新增至 opens_questions；key_sources 新增4个 PMIDs；连接新增 dendritic-spine
+
+### 矛盾登记 / 裁决（0 条新登记）
+
+- 无新矛盾。结构性 LTP 与功能性 LTP 的"可解耦"关系（Biosystems 2026）已在 dendritic-spine.md 中明确标注为已知现象（"两者高度耦合但可解耦"），与既有 ltp.md 内容一致。
+
+### 新增未解问题（4 条）
+
+- `Q-spine-01`（高优先级）：体内清醒行为动物中，自然学习是否在 1–48 小时尺度内产生与体外（解笼放谷氨酸）相同幅度的单棘体积变化？中间时间段无直接证据
+- `Q-spine-02`（中优先级）：sLTP 后扩大的棘在日级时间尺度上如何维持？LIMK 锁定解释即时稳定（分钟级），天级维持机制不明
+- `Q-spine-03`（中优先级）：体内功能性 LTP 和结构性 LTP 各自对行为记忆的贡献如何分配？能否分别损伤并分别测试行为？
+- `Q-spine-04`（低优先级）：PI(4,5)P₂ 在棘头不同微区的时空分布如何指导 actin 重塑的空间模式（需超分辨脂质成像）？
+
+---
+
 ## 2026-09-21 · 文章 #151 · 记忆的分子守夜人：PKMζ的发现、颠覆与新生
 
 **核心主题**：PKMζ（蛋白激酶M-ζ）与晚期LTP（L-LTP）持久性机制——(1) PKMζ无调节域特性：合成即持续激活，通过阻止GluA2-AMPAR内吞维持突触强度（Ling 2006, Migues 2010）；(2) PKMζ是STC框架第一个明确L-LTP特异性PRP（Sajikumar 2005）；(3) 2013年危机：Lee/Volk两篇Nature同期论文——PKMζ KO小鼠记忆完全正常；(4) 解答：PKCι/λ代偿（Tsokas 2016），双KO（PKMζ+PKCι/λ）消除L-LTP（Tsokas 2026 bioRxiv）；(5) ZIP机制重写：阳离子电荷→endophilin-A2→巨胞饮（Stokes 2025 Nature），20年ZIP实验需重新解读；(6) KIBRA-PKMζ寡聚体的"感染性磷酸化"直接解答克里克1984年蛋白周转悖论（Hsieh 2026 Mol Brain）；(7) Q-ltp-lifetime-mechanism标记为部分解答。图谱从293节点/1711边增至 **294节点/1722边**（+1节点 +11新边）。

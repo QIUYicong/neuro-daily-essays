@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-22",
-  "node_count": 294,
-  "edge_count": 1722,
+  "updated": "2026-09-23",
+  "node_count": 295,
+  "edge_count": 1733,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2706,6 +2706,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/circuits/lhb-rmtg-circuit.md"
+    },
+    {
+      "id": "dendritic-spine",
+      "title": "树突棘",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/dendritic-spine.md"
     }
   ],
   "edges": [
@@ -12480,6 +12489,72 @@
       "to": "pkm-zeta",
       "type": "supports",
       "note": "PKMζ维持本地LTP（天级），SWR将其保护的海马记忆转写至皮层（月级）"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "树突棘是 LTP 的物理基底；功能性 LTP 与结构性 LTP（sLTP）耦合；棘头扩大是 LTP 长期维持的物理基础（Matsuzaki 2004）"
+    },
+    {
+      "from": "ltp",
+      "to": "dendritic-spine",
+      "type": "regulates",
+      "note": "LTP 诱导驱动树突棘结构性扩大（sLTP）；三时相 actin 重塑使棘头体积增大 2–3 倍，持续 30+ 分钟"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "camkii",
+      "type": "related",
+      "note": "CaMKII 通过 Tiam1→Rac1 和 α-actinin-2 两条通路驱动 sLTP；Rac1 也可独立于 CaMKII 诱导 sLTP（Saneyoshi 2025）"
+    },
+    {
+      "from": "camkii",
+      "to": "dendritic-spine",
+      "type": "regulates",
+      "note": "CaMKII 激活后通过 Tiam1/Rac1/WAVE/Arp2/3 驱动 F-actin 分支和棘头扩大；通过 α-actinin-2 直接锚定 F-actin（Yu 2023，PMID:37489746）"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "ampa-receptor",
+      "type": "supports",
+      "note": "棘头体积与 AMPA 受体数量正相关；扩大棘头提供更多 PSD 面积容纳 AMPAR 槽位"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "NMDAR 开放触发 Ca²⁺ 内流，启动 sLTP 级联；NMDAR 在棘头 PSD 是 sLTP 的触发器"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "dendritic-computation",
+      "type": "part-of",
+      "note": "树突棘是树突计算的基本单元；棘颈提供化学隔离，使棘头 Ca²⁺ 动态成为局部整合单元"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "synaptic-tagging-capture",
+      "type": "supports",
+      "note": "大型棘（经历 sLTP 后）含棘设备（synaptopodin），是突触标签捕获 PRP 的物理载体"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "pkm-zeta",
+      "type": "supports",
+      "note": "结构性 sLTP 为 PKMζ 提供可维持更多 AMPAR 的物理空间；更大棘头→更多 AMPAR 插入槽位"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "engram-cells",
+      "type": "supports",
+      "note": "印迹细胞中 AMPA/NMDA 比值高于非印迹细胞，可能对应更多/更大的棘；学习后新生棘在印迹细胞上维持数月（Yang 2009）"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "pyramidal-neuron",
+      "type": "part-of",
+      "note": "皮层锥体神经元是树突棘最丰富的细胞类型之一；CA1 锥体细胞树突上约 40 个/μm² 棘"
     }
   ],
   "dangling_references": [

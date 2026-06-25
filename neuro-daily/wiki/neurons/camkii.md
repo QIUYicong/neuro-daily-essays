@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-09-20
-revision_count: 2
+updated: 2026-09-23
+revision_count: 3
 dimensions: [molecular, synaptic, cellular]
-related: [nmda-receptor, ltp, ampa-receptor, synaptic-transmission, btsp, dendritic-computation, three-factor-learning-rule, voltage-gated-calcium-channels]
+related: [nmda-receptor, ltp, ampa-receptor, synaptic-transmission, btsp, dendritic-computation, three-factor-learning-rule, voltage-gated-calcium-channels, dendritic-spine]
 prerequisites: [nmda-receptor, synaptic-transmission]
 opens_questions: [Q-camkii-subunit-exchange, Q-camkii-maintenance-lifetime, Q-camkii-ddsc-synapse-specificity, Q-camkii-two-modes-interaction]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-09-20-btsp-camkii-molecular-timekeeper]
-key_sources: ["PMID:34908526", "PMID:22510460", "PMID:30359599", "PMID:37672577", "PMID:39385027"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-09-20-btsp-camkii-molecular-timekeeper, 2026-09-23-dendritic-spine-structural-ltp-actin]
+key_sources: ["PMID:34908526", "PMID:22510460", "PMID:30359599", "PMID:37672577", "PMID:39385027", "PMID:15190253", "PMID:37489746", "PMID:41249054"]
 ---
 
 # CaMKII（钙调蛋白依赖蛋白激酶 II，Ca²⁺/Calmodulin-Dependent Protein Kinase II）
@@ -86,6 +86,26 @@ CaMKII 是由 12 个亚基组成的环形全酶（六聚体或十二聚体）。
 | T286 自磷酸化作用 | 维持数秒短期自主激活 | 维持足够长的激活以跨越 15–30 s 时间窗口 |
 | 所支持的可塑性 | LTP（毫秒级时序） | BTSP（秒级时序） |
 
+### 3. 结构性 LTP 中的 CaMKII：actin 重塑的双通路
+
+在 LTP 期间，CaMKII 不只磷酸化 AMPAR（功能性增强），还同时驱动树突棘结构扩大（sLTP）。这通过**两条并行通路**实现：
+
+**通路1（间接通路）：CaMKII → Tiam1 → Rac1 → WAVE/Arp2/3 → F-actin 分支**
+- CaMKII 激活鸟苷酸交换因子 Tiam1，Tiam1 激活小 GTPase Rac1
+- Rac1 → WAVE/WASP → Arp2/3 → F-actin 新分支形成 → 棘头体积扩大（第二时相：5–30 分钟）
+- PAK → LIMK → cofilin 磷酸化失活 → F-actin 稳定锁定（第三时相：>30 分钟）
+
+**通路2（直接通路）：CaMKII → α-actinin-2 → F-actin 锚定**
+- NMDAR 激活后，CaMKII 直接结合 F-actin 交联蛋白 α-actinin-2（Yu et al., 2023，PMID:37489746）
+- α-actinin-2 是 CaMKII 与 F-actin 骨架之间的物理桥梁——功能性激酶与结构骨架直接耦合
+- 这使 CaMKII 同时充当信号分子和结构锚定蛋白两种角色
+
+**独立于 CaMKII 的 Rac1 通路（Saneyoshi et al., 2025，PMID:41249054）**：
+- 光遗传激活 Rac1（无需 CaMKII）单独即可诱导持久 sLTP，经由 PAK1 轴完成
+- 修正了"CaMKII 是 sLTP 唯一必要触发器"的既往认识——Rac1 是并行的独立通路
+
+这三条通路共同表明 CaMKII 在 LTP 期间**同步驱动功能性增强（AMPAR 磷酸化）和结构性增强（棘头扩大）**，两者由同一 Ca²⁺ 信号并行触发。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -108,6 +128,7 @@ CaMKII 是由 12 个亚基组成的环形全酶（六聚体或十二聚体）。
 - [[dendritic-computation]] — DDSC 将树突钙平台电位（树突计算的输出）转换为秒级 CaMKII 信号
 - [[voltage-gated-calcium-channels]] — L 型 Cav1.2/1.3 通道的大量 Ca²⁺ 内流触发 PLCβ→IP₃→ER→DDSC 链
 - [[three-factor-learning-rule]] — CaMKII 是三因素规则中 Hebbian 因子的分子读出器；在 BTSP 中，DDSC 使 CaMKII 充当"资格痕迹整合器"和第三因素的时序桥梁
+- [[dendritic-spine]] — CaMKII 通过 Tiam1→Rac1→Arp2/3 和 α-actinin-2 两条通路驱动树突棘结构性 LTP（sLTP）；Rac1 亦可独立于 CaMKII 经 PAK1 轴诱导持久 sLTP
 
 ## 未解问题
 
@@ -120,6 +141,7 @@ CaMKII 是由 12 个亚基组成的环形全酶（六聚体或十二聚体）。
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-09-20 · 修订（rev2）· 基于《BTSP的分子秒表》一文（#150）· 核心更新：区分 CaMKII 两种激活模式（LTP 快速局部 vs BTSP DDSC）；DDSC 机制（Jain 2024, PMID:39385027）；αCaMKII T286A 证据（Xiao 2023, PMID:37672577）；T286 自磷酸化在 BTSP 中的作用（8.2 s vs 1.9 s）；新增连接：btsp、dendritic-computation、voltage-gated-calcium-channels、three-factor-learning-rule；新增未解问题：Q-camkii-ddsc-synapse-specificity、Q-camkii-two-modes-interaction
+- 2026-09-23 · 修订（rev3）· 基于《突触的形状即记忆的形状》(#153) · 核心更新：新增"结构性 LTP 中的 CaMKII：actin 重塑的双通路"（CaMKII→Tiam1→Rac1→WAVE/Arp2/3 间接通路；CaMKII→α-actinin-2 直接锚定通路；Rac1 独立于 CaMKII 的第三通路，Saneyoshi 2025）；related 新增 dendritic-spine；key_sources 新增 PMID:15190253/37489746/41249054；source_articles 新增 #153；连接新增 dendritic-spine
 
 ## 来源文章
 

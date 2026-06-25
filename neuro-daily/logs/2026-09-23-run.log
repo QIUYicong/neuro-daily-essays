@@ -1,0 +1,137 @@
+# 运行日志：2026-09-23
+
+**知识库日期**：2026-09-23（连续序列）
+**系统时钟**：2026-06-25 UTC+8
+**文章编号**：#153
+**运行类型**：完整运行（研究→写作→固结→提交）
+
+---
+
+## 主题选择
+
+**选定主题**：树突棘结构可塑性（dendritic spine structural LTP / sLTP）
+
+**选题理由**：
+- 完成"记忆分子四部曲"最后一篇（BTSP #150 → PKMζ #151 → SWR #152 → sLTP #153）
+- 课程脊柱 3（突触可塑性）和 7（学习记忆）的重要空白
+- 树突棘此前无专属 Wiki 页面（仅在 ltp.md、camkii.md 中有简短提及）
+- 已在 #151 PKMζ 和 #150 BTSP 文章中多次提及 sLTP，读者需要更详细的背景
+
+**排除的替代主题**：
+- 内嗅皮层→CA1 回路（EC2/EC3 双层 BTSP 输入）：与 SWR #152 重复风险高
+- 印迹竞争（engram competition）：已在 #83/memory-allocation 中部分覆盖
+
+---
+
+## 文献检索
+
+**检索词**：
+- "dendritic spine LTP structural plasticity actin"
+- "CaMKII cofilin actin spine enlargement"
+- "cofilin LTP spine structural plasticity"
+- "Rac1 PAK LIMK cofilin dendritic spine"
+- "PI3K actin spine LTP 2024 2025 2026"
+- "structural LTP two photon imaging single spine"
+
+**来源总数**：11篇（其中7篇开放获取全文）
+
+**核心来源**：
+- Matsuzaki et al. 2004, Nature（PMID:15190253）— 单棘 sLTP 首次证明
+- Gu et al. 2010, Nat Neurosci（PMID:20835250）— cofilin 时序与 AMPAR 插入
+- Bosch et al. 2014, Neuron（PMID:24742465）— 三波动态，三时相证据
+- Yu et al. 2023, eLife（PMID:37489746）— CaMKII/α-actinin-2 直接锚定
+- Saneyoshi & Hayashi 2025, eNeuro（PMID:41249054）— Rac1 独立通路
+- López-García et al. 2024, CMLS（PMID:39158722）— PI3K/p85α 选择性 LTP
+- Yang et al. 2009, Nature（PMID:19448623）— 运动记忆持久棘（PMID 待验证）
+- Ben Zablah et al. 2021, Cells（PMID:34440848）— LIMK 综述
+
+**拒绝来源**：
+- Fukazawa 2003 Neuron — 内容已被 Bosch 2014 综合覆盖
+
+---
+
+## 文章写作
+
+**文件**：neuro-daily/articles/2026-09-23-dendritic-spine-structural-ltp-actin.md
+**字数**：约 5800 字（含所有章节）
+**结构**：核心问题→一句话摘要→为什么重要→背景→历史突破→actin骨架→sLTP三时相→Rac1独立通路→PI3K信号层→LIMK与cofilin→棘设备→功能-结构耦合→记忆物质印记→类比+局限→改变了什么理解→争议与未解问题→与AI对照→概念卡片→认知地图更新→参考来源
+
+**阅读笔记**：neuro-daily/notes/2026-09-23-reading-notes.md
+**来源 JSON**：neuro-daily/sources/2026-09-23-sources.json
+
+---
+
+## Wiki 固结
+
+### 新建页面（1 个）
+
+- `wiki/neurons/dendritic-spine.md`（rev1）
+  - 三部分解剖（棘头/棘颈/棘设备）
+  - sLTP 三时相分子级联（完整）
+  - 功能性 vs 结构性 LTP 耦合解耦
+  - 运动记忆棘持久性
+  - 棘设备与 STC 关系
+  - Q-spine-01/02/03/04
+
+### 修订页面（2 个）
+
+- `wiki/neurons/camkii.md`（rev2→rev3）
+  - 新增"结构性 LTP 中的 CaMKII：actin 重塑的双通路"章节
+  - CaMKII→Tiam1→Rac1 间接通路 + CaMKII→α-actinin-2 直接通路 + Rac1→PAK1 独立通路
+  - related 新增 dendritic-spine
+  - key_sources 新增 PMID:15190253/37489746/41249054
+
+- `wiki/concepts/ltp.md`（rev13→rev14）
+  - 修订历史追加 2026-09-23 条目
+
+### 图谱更新
+
+| 指标 | 更新前 | 更新后 |
+|------|--------|--------|
+| 节点数 | 294 | 295 |
+| 边数 | 1722 | 1733 |
+| 新增节点 | — | dendritic-spine |
+| 新增边（11条） | — | dendritic-spine↔ltp（2）, dendritic-spine↔camkii（2）, dendritic-spine→ampa-receptor, dendritic-spine→nmda-receptor, dendritic-spine→dendritic-computation, dendritic-spine→synaptic-tagging-capture, dendritic-spine→pkm-zeta, dendritic-spine→engram-cells, dendritic-spine→pyramidal-neuron |
+
+---
+
+## 状态文件更新
+
+- `state/topic_ledger.json`：total_articles 151→153，last_updated 2026-09-21→2026-09-23，新增 #153 条目
+- `state/unresolved_questions.md`：新增 Q-spine-01/02/03/04
+- `state/source_registry.json`：新增 sources_2026-09-23（18条 PMID/PMC）
+- `state/maturity_index.json`：新增 dendritic-spine（established/high）
+- `state/monthly_synthesis.md`：更新本月截至日期和文章列表，新增日条目
+- `wiki/index.md`：更新头部信息，camkii 条目更新，新增 dendritic-spine 条目
+- `wiki/CHANGELOG.md`：新增 #153 条目
+
+---
+
+## 提交信息
+
+**分支**：main
+**提交者**：QIUYicong（169510482+QIUYicong@users.noreply.github.com）
+**系统时钟**：2026-06-25 UTC+8
+**知识库日期**：2026-09-23
+
+---
+
+## 自检清单
+
+- [x] 文章文件已创建（articles/2026-09-23-dendritic-spine-structural-ltp-actin.md）
+- [x] 阅读笔记已创建（notes/2026-09-23-reading-notes.md）
+- [x] 来源 JSON 已创建（sources/2026-09-23-sources.json）
+- [x] 新 Wiki 页面已创建（wiki/neurons/dendritic-spine.md）
+- [x] camkii.md 已修订（rev2→rev3，actin 双通路内容）
+- [x] ltp.md 已修订（rev13→rev14，修订历史追加）
+- [x] _graph.json 已更新（295节点/1733边）
+- [x] index.md 已更新
+- [x] CHANGELOG.md 已更新
+- [x] topic_ledger.json 已更新
+- [x] unresolved_questions.md 已更新
+- [x] source_registry.json 已更新
+- [x] maturity_index.json 已更新
+- [x] monthly_synthesis.md 已更新
+- [x] 运行日志已创建
+- [ ] Git 提交（待完成）
+- [ ] Git 推送（待完成）
