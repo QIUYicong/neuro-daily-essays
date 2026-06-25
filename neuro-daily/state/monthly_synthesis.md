@@ -1528,3 +1528,16 @@
 **修订 wiki 页（3个）**：like-to-like-connectivity（rev1→rev2，升级mainstream/high）、connectomics（rev2→rev3）、cortical-canonical-microcircuit（rev1→rev2）
 **图谱**：285→286节点，1649→1660边（+1节点，+11边）
 **新增未解问题**：Q-ltl-03（高：like-to-like发育终态vs学习记录）、Q-ict-01（高：20运动组跨物种保守性）、Q-ict-02（高：InhTC-peri与行为状态关系）
+
+## 2026-09-18（第148篇 · 顶端树突与 Ca²⁺ 棘波）
+
+**层级**：cellular / microcircuit / cognition
+
+**一句话**：Larkum 1999 开创的 BAC 放电机制表明，L5 锥体细胞的顶端树突簇（apical tuft）是皮层内置的巧合检测器——反向传播动作电位与顶端 Ca²⁺ 棘波的协同触发爆发放电，实现了细胞层面自下而上感觉（基底/胞体）与自上而下预测（顶端簇/L1）的整合；麻醉选择性解耦此机制（Suzuki 2020），为意识消失提供了具体细胞机制假说。
+
+**核心知识点**：BAC 放电（临界频率 ~90 Hz）；双码制（单发 vs 爆发）；GABA_B/GIRK 抑制门（协同 35.6%→0%）；NE 调制 Ih；L6b-orexin 新通路（Zolnik 2024）；感知阈值因果操控（Takahashi 2016）；悬空引用 `apical-tuft` 填补（dendritic-computation 和 pyramidal-neuron 引用多月）。
+
+**新建 wiki 页（1个）**：neurons/apical-tuft（established/high）
+**修订 wiki 页（2个）**：dendritic-computation（rev4→rev5）、pyramidal-neuron（rev2→rev3）
+**图谱**：292→293节点，1701→1711边（+1节点，+10边）
+**新增未解问题**：Q-apical-01（高：体内Ca²⁺棘波频率）、Q-apical-02（高：厚簇vs薄簇分工）、Q-apical-03（中：人类特殊性）

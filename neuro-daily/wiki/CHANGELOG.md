@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-09-18 · 文章 #148 · 顶端树突的秘密：L5锥体细胞如何用一个钙棘波整合两个世界
+
+**核心主题**：第五层锥体神经元（L5）顶端树突簇（apical tuft）的 Ca²⁺ 棘波机制——BAC 放电（Back-propagation Activated Ca²⁺ spike firing）如何实现细胞层面自下而上感觉与自上而下预测的巧合检测。核心贡献：(1) Larkum 1999 Nature（PMID:10192334）奠基：单 bAP + 顶端突触输入巧合→Ca²⁺ 棘波 + 爆发放电（BAC 放电）；(2) 临界频率机制（PMID:10588751）：~60–200 Hz 阈值；(3) Shai & Koch 2015（PMID:25768881）计算框架：composite sigmoid 巧合检测，中位临界频率 89.7 Hz；(4) Takahashi & Larkum 2016（PMID:28008068）：体内感知阈值与顶端 Ca²⁺ 活动因果相关；(5) Suzuki & Larkum 2020（PMID:32084339）：三种麻醉药选择性解耦顶端-胞体耦合，意识机制假说；(6) Schulz & Larkum 2021（PMID:34512268）：GABA_B/GIRK 抑制门定量（协同从 35.6%→~0%）；(7) Zolnik & Larkum 2024（PMID:38101395）：L6b-orexin 通路激活 L5 顶端树突控制脑状态。图谱从 292 节点/1701 边增至 **293 节点/1711 边**（+1 节点 +10 新边）。填补长期悬空引用 `apical-tuft`（被 dendritic-computation 和 pyramidal-neuron 引用多月）。
+
+**注意**：系统时钟日期为 2026-06-25（UTC+8），知识库连续序列日期为 2026-09-18，文章编号 #148。
+
+### 新建 Wiki 页面（1 个）
+
+- `neurons/apical-tuft.md` 🟢 established · 高置信度（机制）/ 中高（体内功能意义）— BAC 放电机制；临界频率；钙热点位置（400–1000 µm）；双码制巧合检测（单发 vs 爆发）；GABA_B/GIRK 抑制门；SST+ 细胞门控；NE 调制；L6b-orexin 新通路；感知和意识的细胞证据；Q-apical-01/02/03
+
+### 修订 Wiki 页面（2 个）
+
+- `neurons/dendritic-computation.md` rev4→rev5 — related 新增 apical-tuft, predictive-coding；连接节新增 apical-tuft 和 predictive-coding；来源文章新增 #148；修订历史追加
+- `neurons/pyramidal-neuron.md` rev2→rev3 — related 新增 apical-tuft, predictive-coding, consciousness-neural-correlates；连接节新增 apical-tuft；来源文章新增 #148；修订历史追加
+
+### 矛盾登记 / 裁决（0 条新登记）
+
+- 无新矛盾。`apical-tuft` 内容与 `dendritic-computation` 既有主张一致（Ca²⁺ 棘波已在旧页有简述，今日深化），无冲突。麻醉解耦假说（Suzuki 2020）与意识 GWT/IIT 理论的张力已在既有矛盾 C-2026-05-31-01/02 中有记录，今日无新实验裁决。
+
+### 新增未解问题（3 条）
+
+- `Q-apical-01`（高）：体内自然行为中 Ca²⁺ 棘波发生频率；Ca²⁺ 成像信号来源辨别
+- `Q-apical-02`（高）：厚簇 vs 薄簇 L5 细胞的 Ca²⁺ 棘波能力差异
+- `Q-apical-03`（中）：人类 L5 神经元顶端树突特殊性的功能意义
+
+### 悬空引用处理
+
+- `apical-tuft` ✅ 已通过本次创建 `wiki/neurons/apical-tuft.md` **填补**（之前被 dendritic-computation 和 pyramidal-neuron 引用，标记为 dangling）
+
+---
+
 ## 2026-09-17 · 文章 #147 · 大脑内守军的两张面孔：小胶质细胞的稳态监视与DAM转化——当TREM2信号决定神经退行性疾病的命运
 
 **核心主题**：小胶质细胞的双重身份——稳态守护者与疾病响应执行者。核心贡献：(1) 稳态小胶质细胞分子签名（Butovsky 2014）：P2RY12/TMEM119/CX3CR1组成"城市默契"标志，由神经元TGF-β/CX3CL1持续维持；(2) DAM两步激活（Keren-Shaul 2017 scRNA-seq）：Step 1 TREM2非依赖（稳态基因首波下调）→ Step 2 TREM2依赖（LPL↑/CTSD↑，获得吞噬Aβ能力）；(3) TREM2-APOE-MGnD轴（Krasemann 2017）：PS→TREM2→APOE自分泌→MEF2A/MAFB/SMAD3抑制→miR-155→稳态基因丢失→潜在神经毒性；(4) TREM2遗传学：R47H变异→AD风险OR≈3-5×（Jonsson 2013, NEJM）；(5) 临床转化失败：INVOKE-2 Phase 2（AL002c TREM2激动抗体，n=381，2026）→ CDR-SB主要终点未达，时间窗口可能是关键；(6) DAM跨疾病普遍性（ALS/老龄化）。图谱从289节点/1685边增至**292节点/1701边**（+3节点+16条新边）。填补长期悬空引用neuroinflammation（在microglia/alzheimers-disease/als多页引用多年）。

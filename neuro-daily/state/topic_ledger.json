@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-17",
-  "total_articles": 147,
+  "last_updated": "2026-09-18",
+  "total_articles": 148,
   "entries": [
     {
       "date": "2026-09-15",
@@ -9057,6 +9057,61 @@
       "knowledge_base_date": "2026-09-17",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-17（第147篇神经炎症/小胶质细胞/DAM/TREM2文章）"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "顶端树突的秘密：L5锥体细胞如何用一个钙棘波整合两个世界",
+      "filename": "2026-09-18-apical-tuft-calcium-spike-l5-coincidence.md",
+      "article_number": 148,
+      "wiki_pages_created": [
+        "wiki/neurons/apical-tuft.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/dendritic-computation.md (rev4->rev5)",
+        "wiki/neurons/pyramidal-neuron.md (rev2->rev3)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "第五层锥体神经元顶端树突（apical tuft）如何通过Ca²⁺棘波和BAC放电机制实现细胞层面的巧合检测——自下而上感觉（基底树突/胞体区）与自上而下预测（顶端簇/L1层）的整合？麻醉如何通过解耦此机制影响意识？",
+      "open_questions_added": [
+        "Q-apical-01（高优先级）：体内自然行为中Ca²⁺棘波发生频率是多少？",
+        "Q-apical-02（高优先级）：厚簇vs薄簇L5细胞的Ca²⁺棘波能力差异？",
+        "Q-apical-03（中优先级）：人类L5神经元顶端树突特殊性的功能意义？"
+      ],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱1（神经元如何工作：树突计算深化）+ 课程脊柱3（大脑如何编码世界：感知机制）+ 课程脊柱8（意识与自我：细胞机制假说）",
+      "topic_tags": [
+        "apical tuft calcium spike L5 pyramidal neuron",
+        "BAC firing back-propagation activated calcium spike",
+        "coincidence detection burst firing cortex",
+        "Larkum 1999 Nature cellular mechanism cortical layers coupling",
+        "Larkum 1999 PNAS critical frequency calcium spike",
+        "Shai Koch 2015 PLoS CB coincidence detection bursting V1",
+        "Takahashi Larkum 2016 Science active dendrites perception",
+        "Suzuki Larkum 2020 Cell anesthesia decouples pyramidal",
+        "Schulz Larkum 2021 Frontiers GABA_B dendro-somatic synergy",
+        "Zolnik Larkum 2024 Neuron layer6b brain state",
+        "predictive coding cellular mechanism top-down bottom-up",
+        "dendritic computation apical trunk calcium hotspot"
+      ],
+      "main_sources": [
+        "PMID:10192334 (Larkum 1999 Nature, 摘要)",
+        "PMID:10588751 (Larkum 1999 PNAS, 摘要)",
+        "PMID:23273272 (Larkum 2013 Trends, 摘要)",
+        "PMID:25768881 (Shai 2015 PLoS CB, 全文 PMC:10864492)",
+        "PMID:28008068 (Takahashi 2016 Science, 摘要)",
+        "PMID:32084339 (Suzuki 2020 Cell, 摘要)",
+        "PMID:34512268 (Schulz 2021 Frontiers, 全文 PMC:8425515)",
+        "PMID:38101395 (Zolnik 2024 Neuron, 摘要)",
+        "PMID:29694883 (Labarrera 2018 Cell Reports)",
+        "PMID:23931999 (Harnett 2013 Neuron, 摘要)"
+      ],
+      "system_clock_date": "2026-06-25",
+      "editorial_continuity_date": "2026-09-18"
     }
   ]
 }

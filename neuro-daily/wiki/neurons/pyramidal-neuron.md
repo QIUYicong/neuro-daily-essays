@@ -6,10 +6,10 @@ type: entity
 status: established
 confidence: high
 created: 2026-05-27
-updated: 2026-07-25
-revision_count: 2
+updated: 2026-09-18
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, molecular]
-related: [dendritic-computation, action-potential, axon-initial-segment, nmda-receptor, chandelier-cell, ltp, transcriptomic-cell-types, single-cell-rna-seq]
+related: [dendritic-computation, action-potential, axon-initial-segment, nmda-receptor, chandelier-cell, ltp, transcriptomic-cell-types, single-cell-rna-seq, apical-tuft, predictive-coding, consciousness-neural-correlates]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: []
 source_articles: [2026-05-27-dendritic-computation]
@@ -71,6 +71,7 @@ scRNA-seq研究（Tasic et al. 2018，PMID:30382198）系统刻画了兴奋性�
 - [[动作电位]] — 轴突始段产生，整合树突输入的最终输出
 - [[轴突始段]] — 锥体神经元中决定动作电位发放的关键位点
 - [[吊灯细胞]] — 特异抑制锥体神经元的 AIS，调控放电阈值
+- [[apical-tuft]] — L5 锥体细胞顶端簇与 Ca²⁺ 棘波的专项机制页（BAC 放电、巧合检测、感知与意识的细胞机制）
 
 ## 未解问题
 
@@ -81,8 +82,10 @@ scRNA-seq研究（Tasic et al. 2018，PMID:30382198）系统刻画了兴奋性�
 
 - 2026-05-27 · 创建 · 基于《树突：神经元内部的神经网络》一文 · 作为树突计算的主要载体，同时连接 AIS 和 chandelier-cell 两个已有节点 · 初始置信度：高
 - 2026-07-25 · 修订（rev2）· 基于《神经元类型的分子宇宙》文章 #93 · 新增"转录组亚型分类"节：兴奋性细胞的区域特异性、L5 ET vs IT划分、人类特有亚型 · 来源：Tasic 2018、Hodge 2019
+- 2026-09-18 · 修订（rev3）· 基于《顶端树突的秘密》(#148) · related 新增 apical-tuft, predictive-coding, consciousness-neural-correlates；连接节新增 apical-tuft 专页引用；来源文章新增 #148
 
 ## 来源文章
 
 - [[2026-05-27-dendritic-computation]]
 - [[2026-07-25-scrna-seq-neural-cell-type-diversity]]
+- [[2026-09-18-apical-tuft-calcium-spike-l5-coincidence]]

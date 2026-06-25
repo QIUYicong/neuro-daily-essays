@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-18",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9192,9 +9192,145 @@
         "Aβ低聚体触发成年突触C1q重新沉积的机制"
       ],
       "open_access": "full_text"
+    },
+    {
+      "id": "SR-10192334",
+      "pmid": "10192334",
+      "title": "A new cellular mechanism for coupling inputs arriving at different cortical layers",
+      "authors": "Larkum ME, Zhu JJ, Sakmann B",
+      "journal": "Nature",
+      "year": 1999,
+      "used_in_articles": [
+        "2026-09-18-apical-tuft-calcium-spike-l5-coincidence"
+      ],
+      "covers": [
+        "apical tuft",
+        "BAC firing",
+        "calcium spike",
+        "coincidence detection"
+      ]
+    },
+    {
+      "id": "SR-10588751",
+      "pmid": "10588751",
+      "title": "Calcium electrogenesis in distal apical dendrites of layer 5 pyramidal cells at a critical frequency of back-propagating APs",
+      "authors": "Larkum ME, Sakmann B",
+      "journal": "PNAS",
+      "year": 1999,
+      "used_in_articles": [
+        "2026-09-18-apical-tuft-calcium-spike-l5-coincidence"
+      ],
+      "covers": [
+        "critical frequency",
+        "calcium hotspot",
+        "apical tuft"
+      ]
+    },
+    {
+      "id": "SR-23273272",
+      "pmid": "23273272",
+      "title": "A cellular mechanism for cortical associations: an organizing principle for the cerebral cortex",
+      "authors": "Larkum M",
+      "journal": "Trends in Neurosciences",
+      "year": 2013,
+      "used_in_articles": [
+        "2026-09-18-apical-tuft-calcium-spike-l5-coincidence"
+      ],
+      "covers": [
+        "cortical associations",
+        "apical tuft theory",
+        "predictive coding cellular mechanism"
+      ]
+    },
+    {
+      "id": "SR-25768881",
+      "pmid": "25768881",
+      "pmcid": "PMC10864492",
+      "title": "Physiology of layer 5 pyramidal neurons in mouse primary visual cortex: coincidence detection through bursting",
+      "authors": "Shai AS, Anastassiou CA, Larkum ME, Koch C",
+      "journal": "PLoS Computational Biology",
+      "year": 2015,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-09-18-apical-tuft-calcium-spike-l5-coincidence"
+      ],
+      "covers": [
+        "coincidence detection",
+        "critical frequency",
+        "composite sigmoid",
+        "orientation selectivity",
+        "L5 computation model"
+      ]
+    },
+    {
+      "id": "SR-28008068",
+      "pmid": "28008068",
+      "title": "Active cortical dendrites modulate perception",
+      "authors": "Takahashi N, Larkum ME",
+      "journal": "Science",
+      "year": 2016,
+      "used_in_articles": [
+        "2026-09-18-apical-tuft-calcium-spike-l5-coincidence"
+      ],
+      "covers": [
+        "apical dendrite perception",
+        "calcium spike in vivo",
+        "sensory detection L5"
+      ]
+    },
+    {
+      "id": "SR-32084339",
+      "pmid": "32084339",
+      "title": "General anesthesia decouples cortical pyramidal neurons",
+      "authors": "Suzuki M, Larkum ME",
+      "journal": "Cell",
+      "year": 2020,
+      "used_in_articles": [
+        "2026-09-18-apical-tuft-calcium-spike-l5-coincidence"
+      ],
+      "covers": [
+        "anesthesia apical decoupling",
+        "consciousness L5 mechanism",
+        "mGluR ACh receptor"
+      ]
+    },
+    {
+      "id": "SR-34512268",
+      "pmid": "34512268",
+      "pmcid": "PMC8425515",
+      "title": "GABA_B receptor-mediated regulation of dendro-somatic synergy in layer 5 pyramidal neurons",
+      "authors": "Schulz JM, Larkum ME",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2021,
+      "open_access": true,
+      "used_in_articles": [
+        "2026-09-18-apical-tuft-calcium-spike-l5-coincidence"
+      ],
+      "covers": [
+        "GABA_B GIRK dendro-somatic synergy",
+        "silent inhibition",
+        "NDNF interneurons L1",
+        "PID information decomposition"
+      ]
+    },
+    {
+      "id": "SR-38101395",
+      "pmid": "38101395",
+      "title": "Layer 6b controls brain state via apical dendrites and the higher-order thalamocortical system",
+      "authors": "Zolnik TA, Larkum ME",
+      "journal": "Neuron",
+      "year": 2024,
+      "used_in_articles": [
+        "2026-09-18-apical-tuft-calcium-spike-l5-coincidence"
+      ],
+      "covers": [
+        "layer 6b orexin",
+        "apical dendrite arousal",
+        "high gamma brain state"
+      ]
     }
   ],
-  "total_sources": 525,
+  "total_sources": 540,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

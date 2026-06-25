@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-17",
-  "node_count": 292,
-  "edge_count": 1701,
+  "updated": "2026-09-18",
+  "node_count": 293,
+  "edge_count": 1711,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2670,6 +2670,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/neurons/trem2.md"
+    },
+    {
+      "id": "apical-tuft",
+      "title": "顶端树突簇与钙棘波",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/apical-tuft.md"
     }
   ],
   "edges": [
@@ -12237,6 +12246,66 @@
       "to": "synaptic-pruning",
       "type": "related",
       "note": "TREM2识别PS参与发育期突触剪枝（与DAM配体重叠）"
+    },
+    {
+      "from": "apical-tuft",
+      "to": "dendritic-computation",
+      "type": "part-of",
+      "note": "Ca²⁺棘波是L5树突计算中最独特的机制，由apical-tuft专页详述"
+    },
+    {
+      "from": "apical-tuft",
+      "to": "pyramidal-neuron",
+      "type": "part-of",
+      "note": "apical-tuft是L5锥体细胞解剖结构的核心功能组件"
+    },
+    {
+      "from": "apical-tuft",
+      "to": "action-potential",
+      "type": "mechanism-of",
+      "note": "bAP触发Ca²⁺棘波，Ca²⁺棘波驱动爆发放电（BAC放电）"
+    },
+    {
+      "from": "apical-tuft",
+      "to": "predictive-coding",
+      "type": "mechanism-of",
+      "note": "顶端簇巧合检测可能是预测处理理论的细胞实现"
+    },
+    {
+      "from": "apical-tuft",
+      "to": "voltage-gated-calcium-channels",
+      "type": "mechanism-of",
+      "note": "L型Cav1.2/1.3和R型Ca²⁺通道是Ca²⁺棘波的分子基础"
+    },
+    {
+      "from": "apical-tuft",
+      "to": "consciousness-neural-correlates",
+      "type": "supports",
+      "note": "Suzuki&Larkum 2020: 麻醉选择性解耦顶端-胞体耦合提供意识机制假说（PMID:32084339）"
+    },
+    {
+      "from": "sst-interneurons",
+      "to": "apical-tuft",
+      "type": "regulates",
+      "note": "Martinotti细胞靶向L1顶端树突簇，提供活动依赖抑制门控"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "apical-tuft",
+      "type": "regulates",
+      "note": "PV+细胞对胞体近端的抑制与SST+对顶端的抑制形成分层控制"
+    },
+    {
+      "from": "apical-tuft",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "顶端Ca²⁺内流（L-type CaV依赖）可触发LTP，不同于NMDA棘波诱导的LTP"
+    },
+    {
+      "from": "dendritic-computation",
+      "to": "apical-tuft",
+      "type": "related",
+      "note": "树突计算的详细页，apical-tuft是其L5 Ca²⁺棘波机制的专项子页"
     }
   ],
   "dangling_references": [
@@ -12333,7 +12402,8 @@
         "dendritic-computation",
         "pyramidal-neuron"
       ],
-      "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面"
+      "note": "L5锥体细胞顶端簇（L1），Ca²⁺棘波的主要发生地，接受top-down反馈，待建页面；已于2026-09-18创建 wiki/neurons/apical-tuft.md 页面填补",
+      "resolved": "2026-09-18"
     },
     {
       "slug": "path-integration",

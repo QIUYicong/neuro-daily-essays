@@ -1,0 +1,135 @@
+# 运行日志 2026-09-18
+
+**系统时钟日期**：2026-06-25（UTC+8）
+**知识库连续性日期**：2026-09-18
+**文章编号**：#148
+**运行模式**：Claude Code 自动化代理（计划任务，09:00 北京时间）
+
+---
+
+## 运行摘要
+
+**文章标题**：顶端树突的秘密：L5锥体细胞如何用一个钙棘波整合两个世界
+**核心问题**：第五层锥体神经元顶端树突簇（apical tuft）如何通过 Ca²⁺ 棘波和 BAC 放电机制实现细胞层面的巧合检测——自下而上感觉与自上而下预测的整合？麻醉如何通过解耦此机制影响意识？
+
+**触发上下文**：
+- 系统时钟（UTC+8）：2026-06-25
+- 之前已有 3 次 2026-06-25 运行，均为 no-op（文章 #61 已存在于 main）
+- 本次按知识库连续性原则，继续从 #147（2026-09-17）推进写 #148（2026-09-18）
+
+**来源扫描**：11 条来源（3 条开放全文 / 8 条仅摘要）；所有引用均来自 PubMed/PMC 公开渠道，无 Sci-Hub
+**研究质量**：所有关键主张均有 PMID 支撑；Larkum 1999 Nature（PMID:10192334）是基础实验；Suzuki 2020 Cell（PMID:32084339）是最新体内意识证据
+
+---
+
+## 执行步骤
+
+### 0. 分支同步
+- [x] git checkout main
+- [x] git pull --rebase origin main（因分支分歧需使用 --rebase）
+- [x] 确认 remote 包含 QIUYicong/neuro-daily-essays ✅
+
+### A. 状态读取
+- [x] topic_ledger.json：确认 total_articles=147，last_updated=2026-09-17
+- [x] unresolved_questions.md：读取最新问题列表
+- [x] contested_claims.json：确认 open_count=5，无需紧急裁决
+- [x] _graph.json：识别悬空引用，apical-tuft 被 dendritic-computation 和 pyramidal-neuron 引用但无节点
+
+### B. 选题过程
+
+**选题优先级检查**：
+1. 突破追踪（近7天）：无明显单一重大突破（最新数据库截止2026-06）
+2. 矛盾裁决优先级：C-2026-05-31-01（IIT vs COGITATE）仍 open，但今日主题不直接裁决此矛盾
+3. **悬空引用填补**：`apical-tuft` 被 dendritic-computation 和 pyramidal-neuron 引用，高引用度且无节点 → 选中
+4. 层级均衡：近7篇文章均在 disease/methods/molecular 层，今日需选 cellular/microcircuit/cognition
+
+**最终选题**：L5 锥体细胞顶端树突与 Ca²⁺ 棘波（填补悬空引用 + 层级均衡 + 连接课程脊柱1/3/8）
+
+### C. 检索过程
+
+**检索词**：
+- "apical dendritic calcium spike layer 5 pyramidal neuron cortex"
+- "Larkum apical dendrite layer 5 pyramidal"
+- "Larkum 1999 Nature cortical layers coupling"
+- "apical tuft top-down feedback L5 pyramidal calcium spike"
+- "apical dendrite pyramidal neuron review 2022-2024"
+
+**数据源**：
+- PubMed E-utilities（esearch.fcgi, efetch.fcgi）
+- PMC Open Access（PMC:10864492, PMC:8425515）
+- NCBI elink（PMC ID 查找）
+
+**候选论文数**：约 25 篇扫描；采用 11 篇（3 篇开放全文，8 篇仅摘要）
+
+**采用来源及原因**：
+1. Larkum 1999 Nature（PMID:10192334）：BAC 放电基础实验，仅摘要
+2. Larkum 1999 PNAS（PMID:10588751）：临界频率机制，仅摘要
+3. Larkum 2013 Trends（PMID:23273272）：理论框架综述，仅摘要
+4. Shai & Koch 2015 PLoS CB（PMID:25768881）：计算模型，开放全文 ✅
+5. Harnett 2013 Neuron（PMID:23931999）：K+通道门控，仅摘要
+6. Takahashi & Larkum 2016 Science（PMID:28008068）：感知因果证据，仅摘要
+7. Labarrera 2018 Cell Reports（PMID:29694883）：NE 调制，开放全文（Cell Reports OA政策）✅
+8. Suzuki & Larkum 2020 Cell（PMID:32084339）：麻醉解耦意识，仅摘要
+9. Schulz & Larkum 2021 Frontiers（PMID:34512268）：GABA_B 门控，开放全文 ✅
+10. Zolnik & Larkum 2024 Neuron（PMID:38101395）：L6b-orexin，仅摘要
+11. Baronig 2024 Frontiers（PMID:38357522）：情境关联可塑性，开放全文
+
+**排除来源**：
+- Kim & Connors 1993（PMID:8254376）：仅作为背景引用，不纳入主要列表
+- Huang 2025（PMID:39688634）：tDCS 刺激相关，不直接相关
+- Granato 2024（PMID:38670298）：神经发育综述，仅背景使用
+
+### D. 固结步骤
+
+**今日触及概念**：
+1. **apical-tuft**（新建页）→ `wiki/neurons/apical-tuft.md` 创建，revision_count=1
+2. **dendritic-computation**（已有页）→ rev4→rev5，新增 related（apical-tuft, predictive-coding），新增连接条目，新增来源文章
+3. **pyramidal-neuron**（已有页）→ rev2→rev3，新增 related（apical-tuft, predictive-coding, consciousness-neural-correlates），新增连接条目，新增来源文章
+
+**矛盾检查**：
+- 今日内容与 dendritic-computation 页既有主张一致（Ca²⁺棘波已在旧页有简述，今日深化为专页，无覆盖冲突）
+- 麻醉解耦（Suzuki 2020）与 GWT/IIT 意识理论的张力已在 C-2026-05-31-01/02 记录，今日无新实验裁决
+- 无新矛盾需登记
+
+**成熟度评估**：
+- apical-tuft：新建，status=established（机制 established，Larkum 1999 经典实验）/ confidence=high（机制）/ 体内功能意义 confidence=medium（Takahashi 2016 相关性高但非完整因果链）
+
+### E. 图谱与导航
+
+- `_graph.json`：293 节点（+1），1711 边（+10）；apical-tuft 悬空引用标记 resolved
+- `wiki/CHANGELOG.md`：追加 2026-09-18 完整条目
+- `wiki/index.md`：未修订（条目在 neurons/ 分类，数量适中，不触发 index 更新）
+
+### F. 治理层
+
+- `topic_ledger.json`：total_articles=148，last_updated=2026-09-18，追加 #148 条目 ✅
+- `unresolved_questions.md`：追加 Q-apical-01/02/03 ✅
+- `source_registry.json`：新增 8 条来源，total_sources=540 ✅
+- `monthly_synthesis.md`：追加 #148 日条目 ✅
+
+### G. 提交与推送（待执行）
+
+- 待 git add + git commit + git push origin main
+
+---
+
+## 知识图谱变化摘要
+
+- 新节点（1）：apical-tuft
+- 新边（10）：apical-tuft ↔ dendritic-computation（part-of），apical-tuft ↔ pyramidal-neuron（part-of），apical-tuft → action-potential（mechanism-of），apical-tuft → predictive-coding（mechanism-of），apical-tuft → voltage-gated-calcium-channels（mechanism-of），apical-tuft → consciousness-neural-correlates（supports），sst-interneurons → apical-tuft（regulates），pv-interneurons → apical-tuft（regulates），apical-tuft → ltp（mechanism-of），dendritic-computation → apical-tuft（related）
+- 当前图谱：293 节点，1711 边
+
+---
+
+## 未解问题新增
+
+| 问题ID | 优先级 | 一句话描述 |
+|--------|--------|-----------|
+| Q-apical-01 | 高 | 体内自然行为中 Ca²⁺ 棘波真实频率；感知任务激活条件 |
+| Q-apical-02 | 高 | 厚簇 vs 薄簇 L5 细胞 Ca²⁺ 棘波能力差异及体内功能分工 |
+| Q-apical-03 | 中 | 人类 L5 顶端树突特殊性（更长/更高密度）的功能意义 |
+
+---
+
+*运行结束时间：2026-09-18（系统时钟 2026-06-25）*
+*push 状态：待更新*

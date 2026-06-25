@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-27
-updated: 2026-06-11
-revision_count: 4
+updated: 2026-09-18
+revision_count: 5
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission, place-cell, btsp, hippocampal-circuit, sst-interneurons, pv-interneurons, synaptic-clustering, orientation-selectivity, v1-primary-visual-cortex]
+related: [nmda-receptor, nmda-spike, action-potential, ltp, hebbian-learning, pyramidal-neuron, camkii, synaptic-transmission, place-cell, btsp, hippocampal-circuit, sst-interneurons, pv-interneurons, synaptic-clustering, orientation-selectivity, v1-primary-visual-cortex, apical-tuft, predictive-coding]
 prerequisites: [action-potential, nmda-receptor, synaptic-transmission]
 opens_questions: [Q-synaptic-clustering-prevalence, Q-dendritic-spike-in-vivo-frequency, Q-inhibition-dendritic-spike-control]
 source_articles: [2026-05-27-dendritic-computation, 2026-05-28-place-cells-btsp, 2026-06-11-v1-orientation-selectivity]
@@ -82,6 +82,8 @@ key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147"
 - [[ltp]] — NMDA 棘波提供局部 LTP 所需的强烈 Ca²⁺ 内流，是突触修改的触发器
 - [[hebbian-learning]] — 树突计算使 Hebb 规则在分支局部实现，而非仅在单个突触
 - [[action-potential]] — 树突棘波与胞体动作电位的耦合（burst firing）是皮层前馈/反馈整合的关键
+- [[apical-tuft]] — L5 锥体细胞顶端 Ca²⁺ 棘波的专项机制页：BAC 放电、巧合检测、意识与感知的细胞机制
+- [[predictive-coding]] — 顶端树突巧合检测机制可能是预测处理理论的细胞实现载体
 - [[synaptic-transmission]] — 树突棘波需要多个突触的协调活动，反过来影响突触传递效率
 - [[pyramidal-neuron]] — 锥体神经元的特有形态（基底/顶端双树突系统）是树突计算的物理基础
 - [[btsp]] — 树突钙平台电位触发 BTSP（秒级时间窗口），是树突计算在行为时间尺度记忆写入中的体现
@@ -101,6 +103,7 @@ key_sources: ["PMID:26605882", "PMID:26167906", "PMID:24162850", "PMID:15156147"
 - 2026-05-28 · 修订 · 基于《场所细胞》文章 · 新增钙平台电位→BTSP 连接；更新 related 增加 place-cell, btsp, hippocampal-circuit；dimensions 增加 brain-region
 - 2026-06-03 · 修订 · 基于《回路中的少数精锐》文章 · 新增 SST+ 和 PV+ 中间神经元对树突计算的调控连接；Q-inhibition-dendritic-spike-control 现有对应 wiki 页面（sst-interneurons）
 - 2026-06-11 · 修订 · 基于《V1初级视觉皮层方向选择性》文章 · 新增突触聚类（synaptic-clustering）体内证据（Wilson 2016）；部分解答 Q-synaptic-clustering-prevalence；related 新增 synaptic-clustering, orientation-selectivity, v1-primary-visual-cortex；key_sources 新增 PMID:27383898
+- 2026-09-18 · 修订（rev5）· 基于《顶端树突的秘密》(#148) · 新增 related 字段：apical-tuft, predictive-coding；新增连接条目到 apical-tuft（Ca²⁺棘波/BAC放电专页）和 predictive-coding；新增来源文章 #148。Ca²⁺棘波机制详情已移入专页 wiki/neurons/apical-tuft.md
 
 ## V1 中的突触聚类证据（2026-06-11 新增）
 
@@ -117,4 +120,5 @@ Wilson 等（2016，Nat Neurosci，PMID:27383898，PMC5240628）在**雪貂初�
 - [[2026-05-27-dendritic-computation]]
 - [[2026-05-28-place-cells-btsp]]
 - [[2026-06-03-inhibitory-interneuron-diversity]]
+- [[2026-09-18-apical-tuft-calcium-spike-l5-coincidence]]
 - [[2026-06-11-v1-orientation-selectivity]]
