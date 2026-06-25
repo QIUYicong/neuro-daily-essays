@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-28
-updated: 2026-09-20
-revision_count: 3
-dimensions: [synaptic, cellular, cognition, behavior]
-related: [ltp, place-cell, dendritic-computation, hebbian-learning, nmda-receptor, camkii, voltage-gated-calcium-channels, three-factor-learning-rule, entorhinal-cortex, social-memory]
+updated: 2026-09-24
+revision_count: 4
+dimensions: [synaptic, cellular, cognition, behavior, microcircuit]
+related: [ltp, place-cell, dendritic-computation, hebbian-learning, nmda-receptor, camkii, voltage-gated-calcium-channels, three-factor-learning-rule, entorhinal-cortex, social-memory, entorhinal-ca1-circuit, temporoammonic-path]
 prerequisites: [ltp, dendritic-computation, nmda-receptor, voltage-gated-calcium-channels]
 opens_questions: [Q-btsp-human-conservation, Q-btsp-nmda-role, Q-btsp-vs-stdp-interaction, Q-btsp-ltype-vs-nmda, Q-btsp-ddsc-synapse-specificity, Q-btsp-in-vivo-ddsc, Q-btsp-non-spatial-generalization]
 source_articles: [2026-05-28-place-cells-btsp, 2026-06-01-voltage-gated-calcium-channels, 2026-09-20-btsp-camkii-molecular-timekeeper]
@@ -86,7 +86,26 @@ T286A点突变小鼠（T286=CaMKII自磷酸化位点）实验证明：
 
 **结论**：DDSC是BTSP分子秒表的核心——ER将即时钙信号变换为秒级延迟信号，CaMKII的延迟激活在10–100秒窗口内整合突触"资格痕迹"与平台电位事件。
 
-### 5. 双向 BTSP（Milstein et al., 2021, PMID:34882093）
+### 5. 内嗅皮层输入的双重角色：MEC vs LEC（Dorian et al., 2024, 预印本, PMID:39253411）
+
+BTSP 的核心触发信号——树突高钙平台事件——并非由单一来源提供，而是由 MEC 和 LEC 分工承担两个不同的功能角色：
+
+| 输入来源 | 抑制效应 | 作用 |
+|---------|---------|------|
+| **MEC→CA1（via TA path）** | 抑制 MEC→平台事件频率降低（1.91→1.60/神经元/天）| 驱动平台事件的**发生机会**（写入频率） |
+| **LEC→CA1（via TA path）** | 抑制 LEC→表征形成成功率降低（7.20%→3.18%） | 传递**信息特异性内容**（写入什么） |
+
+实验背景：小鼠嗅觉工作记忆任务中，用化学遗传学（PSAM4-PSEM）分别抑制 MEC 或 LEC 到 CA1 的 TA path 投射，同时用双光子钙成像记录 CA1 神经元。
+
+**机制解读**：
+- MEC 通过穿通径路传递空间/环境信号，这类信号是触发大幅钙平台事件（高于阈值的全局 Ca²⁺ 事件）的关键驱动之一
+- LEC 传递气味特异性（内容）信号，这类信号决定 CA1 哪些突触"资格痕迹"被选择性强化，从而决定 BTSP 是否成功写入一个有气味选择性的响应场
+
+这与 Bowler & Losonczy 2023 的直接 TA path 成像结果高度一致：MEC 传递"你在哪个环境中"（触发条件），LEC 传递"你在追求什么目标/内容"（写入内容）。
+
+**重要说明**：Dorian et al. 2024 为 bioRxiv 预印本，结论已被广泛引用但尚未完成同行评审，引用时需注意保留适当不确定性。
+
+### 6. 双向 BTSP（Milstein et al., 2021, PMID:34882093）
 
 BTSP 不只能写入新场所场，也能**修改已有场所场**：
 - 场所场中心的钙棘波 → 场所场增强
@@ -107,6 +126,8 @@ BTSP 不只能写入新场所场，也能**修改已有场所场**：
 | DDSC由IP₃依赖ER钙释放驱动（阻断→DDSC/BTSP消失） | xestospongin C/U73122/thapsigargin药理学 | PMID:39385027 | 高（脑片）|
 | DDSC在15–30s窗口是BTSP的因果性要求（paAIP2实验） | 光遗传CaMKII抑制 | PMID:39385027 | 高（脑片）|
 | BTSP存在于非空间任务（嗅觉WM）：气味特异性CA1响应 | 体内钙成像+全息光遗传 | PMID:39253411 (PMC11383060) | 中高（待重复）|
+| MEC 抑制→平台事件频率降低（1.91→1.60/神经元/天） | 化学遗传抑制 MEC→CA1 + 2P 钙成像（预印本） | PMID:39253411，PMC:11383060 | 中（预印本）|
+| LEC 抑制→气味场形成成功率降低（7.20%→3.18%） | 化学遗传抑制 LEC→CA1 + 2P 钙成像（预印本） | PMID:39253411，PMC:11383060 | 中（预印本）|
 
 ## 连接
 
@@ -119,6 +140,8 @@ BTSP 不只能写入新场所场，也能**修改已有场所场**：
 - [[camkii]] — αCaMKII 的自磷酸化（T286位点）维持 8.2 秒的激活持续时间是 BTSP 的必要条件；DDSC（延迟树突弥散激活）是 BTSP 的分子秒表（Xiao 2023；Jain 2024）
 - [[three-factor-learning-rule]] — BTSP 是三因素学习规则的海马实现；树突平台电位（第三因素的生物学实现）整合局部突触活动（Hebbian 因子）形成秒级时序信用分配
 - [[entorhinal-cortex]] — 内嗅皮层（EC3）是驱动树突平台电位的两路输入之一；MEC 调控 BTSP 触发频率，LEC 提供内容特异性信息（Dorian 2024/2025，嗅觉工作记忆中的非空间 BTSP）
+- [[entorhinal-ca1-circuit]] — EC-CA1 双流回路是 BTSP 的上游输入架构；TA path（EC-III→SLM）是传递 MEC/LEC 信号的解剖通路
+- [[temporoammonic-path]] — TA path 是 EC 输入 CA1 的直接解剖通路，为 BTSP 提供 MEC 的触发信号和 LEC 的内容信号
 
 ## 未解问题
 
@@ -135,6 +158,7 @@ BTSP 不只能写入新场所场，也能**修改已有场所场**：
 - 2026-05-28 · 创建 · 基于《场所细胞》文章 · 提出 BTSP 作为独立学习规则 · 初始置信度：高
 - 2026-06-01 · 修订 · 基于《神经元的三重钙门》一文 · 明确 L 型钙通道（CaV1.2/1.3）为平台电位的必要分子成分（尼莫地平降低 73% BTSP）；新增与 voltage-gated-calcium-channels 的连接；添加 Q-btsp-ltype-vs-nmda 未解问题
 - 2026-09-20 · 修订（rev3）· 基于《BTSP的分子秒表》一文（#150）· 核心更新：DDSC 机制（Jain 2024, Nature）——CaMKII 在平台电位后 10–100 秒延迟弥散随机激活，由 IP₃ 依赖 ER 钙释放驱动，是 BTSP 时序整合的分子秒表；αCaMKII T286A 突变几乎完全阻断 BTSP（Xiao 2023）；CA3 对称 BTSP（Li 2024）；非空间 BTSP 扩展（Dorian 2024/2025）；新增连接：camkii、three-factor-learning-rule、entorhinal-cortex；新增未解问题：Q-btsp-ddsc-synapse-specificity、Q-btsp-in-vivo-ddsc、Q-btsp-non-spatial-generalization
+- 2026-09-24 · 修订（rev4）· 基于《时序之门》一文（#154）· 新增"MEC vs LEC 在 BTSP 中的双重角色"机制小节（Dorian 2024 预印本）：MEC 驱动平台事件频率，LEC 决定信息内容；证据表新增 2 行（MEC/LEC 化学遗传抑制效应）；连接新增 entorhinal-ca1-circuit 和 temporoammonic-path；dimensions 新增 microcircuit
 
 ## 来源文章
 

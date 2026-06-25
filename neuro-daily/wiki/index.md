@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-21（第151篇·记忆的分子守夜人：PKMζ的发现、颠覆与新生）· 主题页总数：**293**（新建1页：concepts/pkm-zeta；修订3页：concepts/ltp rev12→rev13、concepts/synaptic-tagging-capture rev2→rev3、concepts/arc-arg31 rev1→rev2；新增 Q-pkm-zeta-in-vivo-oligomer/Q-pkm-zeta-region-specificity/Q-pkm-zeta-memory-modification；Q-ltp-lifetime-mechanism部分解答；图谱294节点/1722边）
+> 最后更新：2026-09-24（第154篇·时序之门：内嗅皮层-CA1双流回路如何整合空间与记忆）· 主题页总数：**295**（新建2页：circuits/entorhinal-ca1-circuit、circuits/temporoammonic-path；修订3页：systems/entorhinal-cortex rev4→rev5、concepts/btsp rev3→rev4、concepts/place-cells rev2→rev3；新增 Q-ec-ca1-01/Q-ec-ca1-02/Q-ec-ca1-03；图谱300节点/1763边）
 
 ---
 
@@ -55,6 +55,8 @@
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
 - 🟢 [LHb-RMTg-VTA 反奖励回路](circuits/lhb-rmtg-circuit.md) — 外侧缰核（谷氨酸）→ RMTg（GABA）→ VTA（多巴胺抑制）的三级负预测误差传递通路；大脑专用惩罚信号通道 **[NEW 2026-09-19]**
 - 🟢 [规范微回路（新皮层）](circuits/cortical-canonical-microcircuit.md) — 六层保守回路模板：L2/3（误差单元，γ前馈）→L5/6（预测单元，β反馈）→L6（丘脑门控）；L5顶端钙爆发 AND 门；VIP+去抑制注意调控；Douglas & Martin 2004循环兴奋4-7×，Harris & Shepherd 2015串联同源性 **[NEW 2026-07-18]**
+- 🟢 [内嗅皮层-CA1 双流回路](circuits/entorhinal-ca1-circuit.md) — EC 通过三突触通路（EC-II→DG→CA3→CA1 SR，联想预测流）和直接穿通径路（EC-III→CA1 SLM，当前感觉精准流）双管并行；CA1 锥体细胞是"时序 AND 门"（Schaffer 先于 TA path ~40–60 ms 开门）；MEC 传环境坐标图，LEC 传奖励目标图（Bowler & Losonczy 2023）；TA path 3 周巩固窗口；BTSP 中 MEC 驱动触发频率，LEC 决定内容 **[NEW 2026-09-24]**
+- 🟢 [穿通径路（颞氨通路）](circuits/temporoammonic-path.md) — EC 第三层（MEC-III/LEC-III）直接投射至 CA1 SLM 的回路分支；默认被 GABA_B 预突触抑制锁死；theta AND 门中 Schaffer 先激活→NMDA 去极化+GABA_B 去抑制→TA 信号穿透；MEC-III 传空间语境坐标，LEC-III 传奖励目标坐标；学习后 3 周巩固窗口（Remondes & Schuman 2004）；SLM 突触可双向可塑性 **[NEW 2026-09-24]**
 
 ## concepts（概念/框架）
 

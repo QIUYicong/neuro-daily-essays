@@ -6,10 +6,10 @@ type: region
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-09-06
-revision_count: 4
+updated: 2026-09-24
+revision_count: 5
 dimensions: [brain-region, whole-brain-network, cellular, microcircuit]
-related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease, olfactory-bulb, piriform-cortex, time-cells, temporal-context-model, ca2-hippocampus]
+related: [grid-cells, place-cells, hippocampal-circuit, path-integration, memory-consolidation, cognitive-map, theta-oscillations, alzheimers-disease, olfactory-bulb, piriform-cortex, time-cells, temporal-context-model, ca2-hippocampus, entorhinal-ca1-circuit, temporoammonic-path, btsp]
 prerequisites: [hippocampal-circuit, grid-cells]
 opens_questions: [Q-gc-02, Q-gc-04, Q-tc-01]
 source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-04-hippocampal-time-cells-episodic-memory, 2026-09-06-tcm-neural-basis-mec-ca2-temporal-scaffold]
@@ -53,6 +53,15 @@ key_sources: ["PMID:15965463", "PMID:16675704", "PMID:23222610", "PMID:23354386"
 - MEC Layer II/III → 齿状回/CA3（穿透纤维）：传递空间情境信号
 - MEC Layer III → CA1（颞氨通路）：专门传递**时间结构**信号——时间记忆依赖此通路，情境记忆依赖穿透纤维
 
+**MEC vs LEC 的新认识——打破"MEC=空间/LEC=非空间"二分法（Bowler & Losonczy 2023，PMID:37816349，PMC:11490304）**：
+
+通过体内双光子钙成像直接记录 CA1 SLM 内的 MEC 和 LEC 轴突，发现两者**都传递位置信息**，但偏向不同：
+- **MEC（EC-III）**：传递**环境/语境地图**——在视觉环境切换时重映射，奖励位置改变时不重映射；是稳定的空间坐标来源
+- **LEC（EC-III）**：传递**目标/奖励地图**——在奖励位置改变时重映射，视觉环境切换时不重映射；是灵活的目标内容来源
+- 选择性化学遗传抑制 LEC→CA1 特异性损害**新奖励位置学习**，抑制 MEC→CA1 无此效应
+
+这一发现将传统的"MEC=空间，LEC=内容"修正为"MEC=语境坐标，LEC=目标坐标"——两者都有空间维度，区别在于它们追踪的参照系（环境 vs 奖励）不同。
+
 **MEC时间记忆的因果证据（Vo et al. 2021，PMID: 34474155）**：
 - MEC兴奋毒素损伤大鼠在**20秒**时间判别任务上显著受损
 - 10秒时间判别基本保留（延迟依赖性损伤）
@@ -94,6 +103,9 @@ Braak分期（1991）：AD神经纤维缠结（Tau病理）的扩散从**EC Laye
 - [[piriform-cortex]] — 梨状皮层→内嗅皮层→海马三突触回路；气味身份经梨状皮层稀疏编码后，通过EC门控进入海马长期记忆
 - [[temporal-context-model]] — MEC Layer III的时间漂移细胞是TCM时间情境状态的候选上游来源；颞氨通路专传时间信号
 - [[ca2-hippocampus]] — CA2接受来自MEC和上乳头核的时间相关输入，组织CA1时间细胞序列
+- [[entorhinal-ca1-circuit]] — EC 是双流回路（TA path + 三突触通路）的信息源；MEC-III/LEC-III 分别传递语境坐标和目标坐标
+- [[temporoammonic-path]] — EC-III 的直接投射到 CA1 SLM；是空间精准锚定和记忆巩固"复习信号"的解剖基础
+- [[btsp]] — MEC 输入驱动 CA1 BTSP 高钙事件频率，LEC 输入决定 BTSP 写入的信息内容
 
 ## 未解问题
 

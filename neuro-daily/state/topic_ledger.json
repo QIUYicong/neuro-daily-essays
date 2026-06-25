@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-23",
-  "total_articles": 151,
+  "last_updated": "2026-09-24",
+  "total_articles": 142,
   "entries": [
     {
       "date": "2026-09-21",
@@ -9443,6 +9443,69 @@
       "knowledge_base_date": "2026-09-23",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-23（第153篇树突棘结构可塑性文章）"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "时序之门：内嗅皮层-CA1 双流回路如何整合空间与记忆",
+      "filename": "2026-09-24-entorhinal-ca1-dual-stream-theta-gate.md",
+      "article_number": 154,
+      "wiki_pages_created": [
+        "wiki/circuits/entorhinal-ca1-circuit.md (rev1, NEW)",
+        "wiki/circuits/temporoammonic-path.md (rev1, NEW)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/entorhinal-cortex.md (rev4->rev5)",
+        "wiki/concepts/btsp.md (rev3->rev4)",
+        "wiki/concepts/place-cells.md (rev2->rev3)"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "内嗅皮层经三突触通路（EC-II→DG→CA3→CA1）和直接穿通径路（EC-III→CA1 SLM）的功能分化是什么，CA1 锥体细胞如何作为时序 AND 门整合两路输入，MEC 与 LEC 在空间/目标编码和 BTSP 中各自的角色是什么？",
+      "open_questions_added": [
+        "Q-ec-ca1-01（高优先级）：LEC 位置编码信号的上游来源——旁海马回投射 vs CA1→LEC 反馈 vs 物体-位置联想",
+        "Q-ec-ca1-02（高优先级）：人类 TA path theta AND 门机制是否保守？手术电生理能否验证？",
+        "Q-ec-ca1-03（中优先级）：TA path 巩固窗口内复习信号的性质——离线重播 vs 清醒监督？与 SWR 时序关系？"
+      ],
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "synaptic",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱4（学习和记忆：EC-CA1 回路解剖）+ 课程脊柱3（海马与空间记忆：地点/网格细胞输入）",
+      "topic_tags": [
+        "entorhinal cortex CA1 dual stream input trisynaptic TA path",
+        "temporoammonic path theta AND gate Ang 2005 GABA_B disinhibition",
+        "MEC LEC spatial goal map context reward Bowler Losonczy 2023",
+        "BTSP platform event frequency MEC LEC Dorian 2024 preprint",
+        "place field spatial precision Brun 2002 2008 CA3 EC-III lesion",
+        "TA path consolidation window Remondes Schuman 2004",
+        "PV LTD SST LTP interneuron plasticity EC CA3 weight Udakis 2020",
+        "theta oscillation slow fast gamma CA3 Schaffer EC TA path phase"
+      ],
+      "main_sources": [
+        "PMID:15965463 (Hafting et al. 2005 Nature, 仅摘要)",
+        "PMID:12077421 (Brun et al. 2002 Science, 仅摘要)",
+        "PMID:11961555 (Remondes & Schuman 2002 Nature, 仅摘要)",
+        "PMID:16237162 (Ang et al. 2005 Science, 全文 PMC2048747)",
+        "PMID:15470431 (Remondes & Schuman 2004 Nature, 仅摘要)",
+        "PMID:18215625 (Brun et al. 2008 J Neurosci, 全文 PMC6671156)",
+        "PMID:25437546 (Hales et al. 2014 Hippocampus, 仅摘要)",
+        "PMID:32879322 (Udakis et al. 2020 Nat Commun, 全文 PMC7471906)",
+        "PMID:34439925 (Fernandez-Ruiz et al. 2021 Neuron, 全文 PMC8389192)",
+        "PMID:37816349 (Bowler & Losonczy 2023 Science, 全文 PMC11490304)",
+        "PMID:39253411 (Dorian et al. 2024 preprint, 全文 PMC11383060)"
+      ],
+      "next_suggested_topics": [
+        "记忆印迹竞争（engram competition）——CREB 超表达如何使细胞优先进入记忆印迹，与 BTSP 和 SWR 选择的关系（细胞/认知层级）",
+        "慢振荡的皮层生成机制——UP/DOWN 态如何在新皮层中自发产生，与 SWR 门控的时序关系（回路/方法层级）",
+        "突触后密度（PSD）的分子组织——PSD-95/Shank/Homer 支架蛋白如何组织棘头 AMPA 受体排列（填补 cofilin-actin-spine 与 AMPA 受体之间的 PSD 节点）",
+        "CA3 回返回路（CA3 recurrent collaterals）——联想完成的电路机制，与 pattern-completion 专页的整合",
+        "外侧内嗅皮层（LEC）专页——物体/气味/社会情境的非空间编码，LEC 上游（旁海马回/梨状皮层）连接"
+      ],
+      "graph_update": "298+2=300 nodes (entorhinal-ca1-circuit新建, temporoammonic-path新建); 1747+16=1763 edges (entorhinal-ca1-circuit→entorhinal-cortex, entorhinal-ca1-circuit→temporoammonic-path, entorhinal-ca1-circuit→place-cells, entorhinal-ca1-circuit→btsp, entorhinal-ca1-circuit→theta-oscillations, entorhinal-ca1-circuit→memory-consolidation, entorhinal-ca1-circuit→grid-cells, temporoammonic-path→entorhinal-ca1-circuit, temporoammonic-path→entorhinal-cortex, temporoammonic-path→place-cells, temporoammonic-path→memory-consolidation, temporoammonic-path→btsp, theta-oscillations→temporoammonic-path, entorhinal-cortex→entorhinal-ca1-circuit, btsp→entorhinal-ca1-circuit, place-cells→entorhinal-ca1-circuit)",
+      "knowledge_base_date": "2026-09-24",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-24（第154篇内嗅皮层-CA1双流回路文章）"
     }
   ]
 }

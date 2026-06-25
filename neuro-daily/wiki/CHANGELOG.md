@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-09-24 · 文章 #154 · 时序之门：内嗅皮层-CA1 双流回路如何整合空间与记忆
+
+**核心主题**：内嗅皮层→CA1 双流回路——EC-III 直接穿通径路（TA path，EC-III→CA1 SLM）和 EC-II 三突触通路（EC-II→DG→CA3→CA1 SR）的解剖功能分化；CA1 锥体细胞作为"时序特异性 AND 门"（Schaffer 先于 TA path ~40–60 ms，NMDA 去极化 + GABA_B 去抑制）；MEC 传环境/语境坐标地图 vs LEC 传奖励/目标坐标地图（打破 MEC=空间/LEC=非空间传统二分法）；BTSP 中 MEC 输入驱动平台事件触发频率，LEC 输入决定信息内容；TA path 3 周记忆巩固窗口；抑制性 PV-LTD + SST-LTP 动态调节 EC/CA3 输入权重比。图谱从 **298 节点/1747 边** 增至 **300 节点/1763 边**（+2 节点 +16 新边）。
+
+**注意**：系统时钟日期为 2026-06-25（UTC+8），知识库连续序列日期为 2026-09-24，文章编号 #154。
+
+### 新建 Wiki 页面（2 个）
+
+- `circuits/entorhinal-ca1-circuit.md` 🟢 established · 高置信度 — 三突触联想预测流（EC-II→DG→CA3→CA1 SR，theta 波谷激活）vs 直接感觉精准流（EC-III→CA1 SLM，theta 波峰激活）；CA1 时序 AND 门分子机制（Ang et al. 2005）；MEC 语境坐标 vs LEC 奖励目标新认识（Bowler & Losonczy 2023）；BTSP 双重 EC 角色（Dorian et al. 2024 预印本）；巩固窗口（Remondes & Schuman 2004）；PV/SST 抑制性可塑性权重调节（Udakis 2020）；3 个新未解问题 Q-ec-ca1-01/02/03；11 个关键来源（6 篇开放全文）
+- `circuits/temporoammonic-path.md` 🟢 established · 高置信度 — EC-III（MEC-III/LEC-III）起点→CA1 SLM 终点；默认 GABA_B 预突触抑制状态；AND 门四步分子机制；MEC-III 传环境坐标/LEC-III 传奖励坐标内容分工；双向可塑性（SLM 易诱发 LTD）；3 周巩固窗口；引用 Q-ec-ca1-02/03
+
+### 修订 Wiki 页面（3 个）
+
+- `systems/entorhinal-cortex.md` rev4→rev5 — 关键机制 §2 新增"MEC vs LEC 的新认识——打破传统二分法"小节（Bowler & Losonczy 2023，体内双光子轴突成像：MEC-CA1=环境/语境坐标，LEC-CA1=目标/奖励坐标；DREADDs 抑制 LEC→CA1 特异损害新奖励位置学习）；related/key_sources 更新；连接节 新增 entorhinal-ca1-circuit/temporoammonic-path/btsp；source_articles 新增 #154
+- `concepts/btsp.md` rev3→rev4 — 新增"内嗅皮层输入的双重角色：MEC vs LEC"机制小节（Dorian et al. 2024 预印本，PMID:39253411）：MEC 抑制 → 平台事件频率 1.91→1.60/min；LEC 抑制 → 场所场写入成功率 7.20%→3.18%；证据表新增 2 行；连接新增 entorhinal-ca1-circuit/temporoammonic-path；dimensions 新增 microcircuit；source_articles 新增 #154
+- `concepts/place-cells.md` rev2→rev3 — 新增"EC 双流输入对场所场的差异化贡献"机制小节（Brun 2002 CA3 切断：CA1 仍有场所场，但水迷宫回忆受损；Brun 2008 MEC-III 损伤：CA1 场所场变大变散，CA3 不受影响；Hales 2014 LEC 代偿）；证据表新增 3 行（PMID:12077421/18215625/37816349）；连接新增 entorhinal-ca1-circuit/temporoammonic-path/btsp；source_articles 新增 #154
+
+### 矛盾登记（0 条）
+
+无新矛盾登记。Bowler & Losonczy 2023 修正了"MEC=空间/LEC=非空间"传统二分法，属于知识精化（两者均有空间维度，区别在参照系），不构成矛盾。
+
+### 新增未解问题（3 个）
+
+- **Q-ec-ca1-01**（高优先级）：LEC 的位置编码信号来自何处？旁海马回视觉投射、CA1→LEC 反馈还是物体-位置联想记忆？需要 LEC 上游解剖+功能分离实验
+- **Q-ec-ca1-02**（高优先级）：人类 TA path 是否有相同的 theta 时序 AND 门机制？手术患者有限电生理能否验证？
+- **Q-ec-ca1-03**（中优先级）：TA path 巩固窗口内的"复习信号"性质：睡眠离线重播 vs 清醒持续监督？与 SWR 时序关系？
+
+---
+
 ## 2026-09-23 · 文章 #153 · 记忆的雕塑家：树突棘如何用肌动蛋白重塑自身形状来固化一次学习
 
 **核心主题**：树突棘结构可塑性——LTP/BTSP 后棘头膨大的 Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合分子级联；Rac1 平行独立通路（Saneyoshi 2025）；Rab10/Rab4 协调 AMPAR 流量与棘体积的时序耦合（Wang 2025）；大棘近饱和 vs 小棘高可塑性（Matsuzaki 2004）；早期动态/晚期稳定两阶段结构 LTP；BTSP 结构对应物为知识空白。图谱从 **296 节点/1739 边** 增至 **298 节点/1747 边**（+2 节点 +8 新边）。

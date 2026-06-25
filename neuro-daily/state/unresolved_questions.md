@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-09-18*
+*最后更新：2026-09-24*
+
+---
+
+## 2026-09-24 新增（来自"时序之门：内嗅皮层-CA1 双流回路如何整合空间与记忆"文章 #154）
+
+### Q-ec-ca1-01（高优先级）：LEC 的位置编码信号来自何处？
+
+- **关联 wiki**：[[entorhinal-ca1-circuit]]、[[lateral-entorhinal-cortex]]、[[place-cells]]、[[entorhinal-cortex]]
+- **来源文章**：2026-09-24-entorhinal-ca1-dual-stream-theta-gate
+- **问题**：Bowler & Losonczy 2023（PMID:37816349）发现 LEC-III 轴突在 CA1 SLM 中传递奖励/目标坐标地图，也具有空间位置特异性。这挑战了"LEC=非空间"的传统假设。但 LEC 本身的空间信号是如何建立的？主要候选来源包括：(1) 旁海马回（PHR）的视觉空间输入（已知 PHR→LEC 解剖连接）；(2) CA1→LEC 的反馈回路，使 LEC 能"读出"海马当前表征；(3) 物体-位置联想记忆（LEC 内物体细胞随时间积累的空间锚定）。哪条通路是 LEC 奖励坐标信号的因果来源？
+- **关键实验**：(1) 选择性切断 PHR→LEC 投射后观察 CA1 SLM 中 LEC 轴突的奖励位置重映射是否消失；(2) 在 CA1 与 LEC 之间插入光遗传沉默验证反馈通路；(3) 在物体-位置联想缺失的动物（如 MEC 损伤但 LEC 完整）中测试 LEC 奖励坐标的建立
+- **当前证据状态**：LEC 编码奖励坐标：高（Bowler 2023）；LEC 信号上游来源：基本未知（中低）
+
+### Q-ec-ca1-02（高优先级）：人类 TA path 是否有相同的 theta 时序 AND 门机制？
+
+- **关联 wiki**：[[temporoammonic-path]]、[[entorhinal-ca1-circuit]]、[[theta-oscillations]]
+- **来源文章**：2026-09-24-entorhinal-ca1-dual-stream-theta-gate
+- **问题**：Ang et al. 2005（PMID:16237162）的时序 AND 门在大鼠离体切片中用选择性刺激+GABA_B 操控验证。人类海马颞叶内侧区的解剖结构总体保守，但人类海马体积更大、theta 频率更低（约 6 Hz）、SLM 层结构是否与大鼠一致尚无系统验证。如果人类 theta AND 门的时序窗口（~40–60 ms）与人类更慢的 theta 周期（~167 ms vs 大鼠 ~125 ms）不匹配，回路功能可能有差异。手术患者的有限颅内电生理或能提供线索。
+- **关键实验**：(1) 癫痫手术患者海马颅内记录，分层测量 CA1 SLM vs SR 的 theta 相位差；(2) 人类 ex vivo 切片（手术标本）重复 Ang et al. 的选择性激活+GABA_B 操控实验；(3) 人类 fMRI 的 theta/gamma 相位-振幅耦合（虽然空间分辨率不足以区分 SLM/SR，但可探索行为学意义）
+- **当前证据状态**：大鼠 theta AND 门：高；人类 TA path 存在解剖证据：中高（MRI 示踪）；人类 AND 门功能验证：低/未知
+
+### Q-ec-ca1-03（中优先级）：TA path 巩固窗口内传递的"复习信号"是什么形式？
+
+- **关联 wiki**：[[temporoammonic-path]]、[[memory-consolidation]]、[[sharp-wave-ripples]]
+- **来源文章**：2026-09-24-entorhinal-ca1-dual-stream-theta-gate
+- **问题**：Remondes & Schuman 2004（PMID:15470431）证明 TA path 在学习后约 3 周内必须完整，否则长期记忆受损。这个"巩固窗口"的机制是什么？候选信号包括：(1) 睡眠中 SWR 相关的皮层→EC→CA1 离线重播（Hahn et al. 2007 的 "外-内-外" 信号流假说）；(2) 清醒状态下 EC 对 CA1 的持续监督（每次激活记忆时 TA path 提供当前情境比对）；(3) 慢振荡期 EC 的自发"回放"或 UP 态同步传递。这些机制并非互斥，但各自的因果作用比重未知。
+- **关键实验**：(1) 在巩固窗口内（3 周内）选择性阻断 SWR 相关的 EC→CA1 活动（不阻断 SWR 本身），观察长期记忆是否受损；(2) 使用 GCaMP 双光子成像在大鼠睡眠期间直接观察 TA path 突触的活动模式及其与 SWR 的时序关系；(3) 在 TA path 光遗传操控动物中，区分"清醒编码阶段"vs"睡眠巩固阶段"TA path 阻断的影响
+- **当前证据状态**：3 周巩固窗口行为证据：高；巩固期 TA path 活动性质：基本未知（低）
 
 ---
 

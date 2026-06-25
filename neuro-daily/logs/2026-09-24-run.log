@@ -1,0 +1,100 @@
+# 运行日志 2026-09-24（文章 #154）
+
+**运行时间**：2026-06-25 UTC+8（知识库连续日期：2026-09-24）
+**模型**：Claude claude-sonnet-4-6
+**执行结果**：✅ 成功
+
+---
+
+## 执行摘要
+
+- **文章编号**：#154
+- **文章标题**：时序之门：内嗅皮层-CA1 双流回路如何整合空间与记忆
+- **文件名**：2026-09-24-entorhinal-ca1-dual-stream-theta-gate.md
+- **字数**：约 5200 字（中文）
+- **核心主题层级**：microcircuit / brain-region / synaptic / cognition
+
+---
+
+## 文献检索过程
+
+**检索策略**：
+- PubMed E-utilities 搜索 + WebSearch domain:pubmed.ncbi.nlm.nih.gov 补充
+- 直接 PMC 全文获取（6/11 篇成功）
+- Europe PMC 补充搜索
+
+**遇到的挑战**：
+- PubMed E-utilities 对复杂多词查询返回空结果——改用 WebSearch 域过滤解决
+- 部分 PMC 直接 URL 需要跟随重定向
+
+**检索结果**：11 篇来源，6 篇开放全文，2 篇官方机构（NIH/PMC），1 篇预印本
+
+**来源列表**：
+1. PMID:15965463 - Hafting et al. 2005 (Nature) - 网格细胞发现论文 [仅摘要]
+2. PMID:12077421 - Brun et al. 2002 (Science) - CA3切断 [仅摘要]
+3. PMID:11961555 - Remondes & Schuman 2002 (Nature) - TA path可塑性 [仅摘要]
+4. PMID:16237162 - Ang et al. 2005 (Science) - CA1时序AND门 [全文 PMC2048747]
+5. PMID:15470431 - Remondes & Schuman 2004 (Nature) - TA path巩固窗口 [仅摘要]
+6. PMID:18215625 - Brun et al. 2008 (J Neurosci) - MEC-III损伤 [全文 PMC6671156]
+7. PMID:25437546 - Hales et al. 2014 (Hippocampus) - MEC损伤与LEC代偿 [仅摘要]
+8. PMID:32879322 - Udakis et al. 2020 (Nat Commun) - PV/SST可塑性 [全文 PMC7471906]
+9. PMID:34439925 - Fernandez-Ruiz et al. 2021 (Neuron) - theta相位分流 [全文 PMC8389192]
+10. PMID:37816349 - Bowler & Losonczy 2023 (Science) - MEC/LEC新认识 [全文 PMC11490304]
+11. PMID:39253411 - Dorian et al. 2024 (preprint) - BTSP中EC双重角色 [全文 PMC11383060]
+
+---
+
+## 文件产出
+
+### 新建文件
+- `neuro-daily/articles/2026-09-24-entorhinal-ca1-dual-stream-theta-gate.md`
+- `neuro-daily/notes/2026-09-24-reading-notes.md`
+- `neuro-daily/sources/2026-09-24-sources.json`
+- `neuro-daily/wiki/circuits/entorhinal-ca1-circuit.md` (rev1)
+- `neuro-daily/wiki/circuits/temporoammonic-path.md` (rev1)
+
+### 修订文件
+- `neuro-daily/wiki/systems/entorhinal-cortex.md` rev4→rev5
+- `neuro-daily/wiki/concepts/btsp.md` rev3→rev4
+- `neuro-daily/wiki/concepts/place-cells.md` rev2→rev3
+- `neuro-daily/wiki/_graph.json` (298→300节点, 1747→1763边)
+- `neuro-daily/wiki/index.md`
+- `neuro-daily/wiki/CHANGELOG.md`
+- `neuro-daily/state/topic_ledger.json`
+- `neuro-daily/state/unresolved_questions.md`
+- `neuro-daily/state/source_registry.json`
+- `neuro-daily/state/monthly_synthesis.md`
+
+---
+
+## 知识库状态更新
+
+- **图谱**：298→300 节点，1747→1763 边
+- **新增节点**：entorhinal-ca1-circuit, temporoammonic-path
+- **新增边**：16 条
+- **新增未解问题**：Q-ec-ca1-01（高），Q-ec-ca1-02（高），Q-ec-ca1-03（中）
+- **矛盾登记**：0（MEC/LEC新认识属于精化，不冲突）
+- **来源总数**：572→583
+
+---
+
+## 质量自检
+
+- [x] 最少5篇来源：✅ 11篇
+- [x] 最少2篇开放全文：✅ 6篇
+- [x] 最少1篇官方机构：✅ NIH/PMC
+- [x] 无伪造PMID/DOI：✅（所有PMID通过PubMed验证）
+- [x] 仓库校验：QIUYicong/neuro-daily-essays ✅
+- [x] Git作者：QIUYicong ✅
+- [x] 推送到main分支 ✅
+- [x] Wiki新建页面质量：entorhinal-ca1-circuit（11来源，综合完整）、temporoammonic-path（5来源，聚焦TA path细节）
+- [x] 情节层不可变：仅追加，未修改历史文章
+- [x] 无医疗诊断建议 ✅
+
+---
+
+## 注意事项
+
+- 系统时钟日期：2026-06-25 UTC+8；知识库连续日期：2026-09-24（接续#153）
+- 文章主题来源：#153 topic_ledger.json 的 next_suggested_topics 第一条（内嗅皮层→CA1回路）
+- 文章层级：从近期分子层（#150-#153）切换到回路/解剖层，平衡知识库覆盖

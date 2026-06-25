@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-09-24",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9758,9 +9758,190 @@
         "棘动态综述",
         "F-actin双向调控"
       ]
+    },
+    {
+      "pmid": "15965463",
+      "pmcid": null,
+      "title": "Microstructure of a spatial map in the entorhinal cortex",
+      "authors": "Hafting T, Fyhn M, Molden S, Moser MB, Moser EI",
+      "year": 2005,
+      "journal": "Nature",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "grid cells in MEC Layer II",
+        "triangular lattice firing pattern"
+      ],
+      "note": "仅摘要；经典论文，广泛引用，置信度高"
+    },
+    {
+      "pmid": "12077421",
+      "pmcid": null,
+      "title": "Place cells and place recognition maintained by direct entorhinal-hippocampal circuitry",
+      "authors": "Brun VH, Otnass MK, Molden S, Steffenach HA, Witter MP, Moser MB, Moser EI",
+      "year": 2002,
+      "journal": "Science",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "CA3 removal still leaves CA1 place fields",
+        "EC direct input sufficient for recognition"
+      ],
+      "note": "仅摘要"
+    },
+    {
+      "pmid": "11961555",
+      "pmcid": null,
+      "title": "Direct cortical input modulates plasticity and spiking in CA1 pyramidal neurons",
+      "authors": "Remondes M, Schuman EM",
+      "year": 2002,
+      "journal": "Nature",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "TA path bidirectional plasticity",
+        "LTP and LTD at CA1 SLM"
+      ],
+      "note": "仅摘要"
+    },
+    {
+      "pmid": "16237162",
+      "pmcid": "PMC2048747",
+      "title": "Hippocampal CA1 circuitry dynamically gates direct cortical inputs preferentially at theta frequencies",
+      "authors": "Ang CW, Carlson GC, Coulter DA",
+      "year": 2005,
+      "journal": "J Neurosci",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "temporal AND gate mechanism",
+        "Schaffer must precede TA by half theta cycle"
+      ]
+    },
+    {
+      "pmid": "15470431",
+      "pmcid": null,
+      "title": "Role for a cortical input to hippocampal area CA1 in the consolidation of a long-term memory",
+      "authors": "Remondes M, Schuman EM",
+      "year": 2004,
+      "journal": "Nature",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "TA path required for long-term memory consolidation",
+        "3-week consolidation window"
+      ],
+      "note": "仅摘要"
+    },
+    {
+      "pmid": "18215625",
+      "pmcid": null,
+      "title": "Impaired spatial representation in CA1 after lesion of direct input from entorhinal cortex",
+      "authors": "Brun VH, Leutgeb S, Wu HQ, Schwarcz R, Witter MP, Moser EI, Moser MB",
+      "year": 2008,
+      "journal": "Neuron",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "EC-III lesion enlarges CA1 place fields",
+        "CA3 place fields unaffected"
+      ],
+      "note": "仅摘要"
+    },
+    {
+      "pmid": "25437546",
+      "pmcid": "PMC4294707",
+      "title": "Medial entorhinal cortex lesions only partially disrupt hippocampal place cells and hippocampus-dependent place memory",
+      "authors": "Hales JB, Schlesiger MI, Leutgeb JK, Squire LR, Leutgeb S, Clark RE",
+      "year": 2014,
+      "journal": "Cell Reports",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "MEC lesion partially disrupts CA1 place cells",
+        "LEC compensatory spatial information"
+      ]
+    },
+    {
+      "pmid": "32879322",
+      "pmcid": "PMC7467931",
+      "title": "Interneuron-specific plasticity at parvalbumin and somatostatin inhibitory synapses onto CA1 pyramidal neurons shapes hippocampal output",
+      "authors": "Udakis M, Pedrosa V, Chamberlain SEL, Clopath C, Mellor JR",
+      "year": 2020,
+      "journal": "Nat Commun",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "PV-LTD + SST-LTP coordinates EC vs CA3 weights",
+        "place cell stabilization"
+      ]
+    },
+    {
+      "pmid": "34439925",
+      "pmcid": "PMC8389192",
+      "title": "Functional Interactions between Entorhinal Cortical Pathways Modulate Theta Activity in the Hippocampus",
+      "authors": "López-Madrona VJ, Canals S",
+      "year": 2021,
+      "journal": "Biology (Basel)",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "EC-II→EC-III directed connectivity increases during novelty",
+        "Schaffer influence decreases during novelty"
+      ]
+    },
+    {
+      "pmid": "37816349",
+      "pmcid": "PMC11490304",
+      "title": "Direct cortical inputs to hippocampal area CA1 transmit complementary signals for goal-directed navigation",
+      "authors": "Bowler JC, Losonczy A",
+      "year": 2023,
+      "journal": "Neuron",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "MEC=context/environment map vs LEC=reward-centric map",
+        "LEC also encodes spatial location"
+      ]
+    },
+    {
+      "pmid": "39253411",
+      "pmcid": "PMC11383060",
+      "title": "Behavioral timescale synaptic plasticity in the hippocampus creates non-spatial representations during learning and is modulated by entorhinal inputs",
+      "authors": "Dorian CC, Taxidis J, Arac A, Golshani P",
+      "year": 2024,
+      "journal": "bioRxiv",
+      "first_used": "2026-09-24",
+      "articles_used_in": [
+        "2026-09-24-entorhinal-ca1-dual-stream-theta-gate"
+      ],
+      "covered_topics": [
+        "MEC inhibition reduces plateau event frequency",
+        "LEC inhibition reduces representation formation efficiency"
+      ]
     }
   ],
-  "total_sources": 562,
+  "total_sources": 583,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -14300,5 +14481,23 @@
     "PMID:41224656",
     "PMC12614050",
     "PMID:34882093"
-  ]
+  ],
+  "sources_2026-09-24": {
+    "article": "2026-09-24-entorhinal-ca1-dual-stream-theta-gate",
+    "article_number": 154,
+    "sources_added": 11,
+    "pmids": [
+      "15965463",
+      "12077421",
+      "11961555",
+      "16237162",
+      "15470431",
+      "18215625",
+      "25437546",
+      "32879322",
+      "34439925",
+      "37816349",
+      "39253411"
+    ]
+  }
 }

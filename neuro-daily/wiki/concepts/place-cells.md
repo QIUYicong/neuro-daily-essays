@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-24
-revision_count: 2
+updated: 2026-09-24
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [grid-cells, theta-oscillations, sharp-wave-ripples, theta-phase-precession, memory-consolidation, hippocampal-circuit, cognitive-map, remapping, path-integration, pattern-separation, pattern-completion]
+related: [grid-cells, theta-oscillations, sharp-wave-ripples, theta-phase-precession, memory-consolidation, hippocampal-circuit, cognitive-map, remapping, path-integration, pattern-separation, pattern-completion, entorhinal-ca1-circuit, temporoammonic-path, btsp]
 prerequisites: [hippocampal-circuit, action-potential, synaptic-transmission]
 opens_questions: [Q-gc-01, Q-gc-03]
 source_articles: [2026-06-22-grid-cells-place-cells, 2026-06-24-hippocampal-ca3-pattern-completion]
@@ -56,7 +56,21 @@ key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 
 这产生了"θ序列"：单个θ周期（约125 ms）内编码了时间压缩的空间轨迹，为突触可塑性（STDP）提供时间压缩框架。
 
-### 5. 尖波涟漪（SWR）期间的重播
+### 5. EC 双流输入对场所场的差异化贡献
+
+CA1 场所场的生成和精准度依赖两条来自内嗅皮层的平行输入（Brun et al. 2002, 2008）：
+
+**EC-III 直接穿通径路（→ CA1 SLM）**：维持场所场的空间精准度
+- 选择性破坏 MEC-III（Brun et al. 2008）→ CA1 场所场变大、更分散，但 CA3 场所场不受影响
+- 结论：EC-III 直接输入提供当前感觉情境的精准空间锚定
+
+**EC-II → CA3 → CA1 三突触通路（→ CA1 SR）**：支持联想记忆回忆
+- 切断 CA3 Schaffer 侧支（Brun et al. 2002）→ CA1 仍形成清晰场所场，空间识别完好，但空间回忆（水迷宫主动检索）受损
+- 结论：三突触通路（经 CA3 中继）是联想记忆回忆的必要条件，而非场所场基本编码的必要条件
+
+**两条通路的功能冗余**（Hales et al. 2014）：大面积 MEC 损伤后，CA1 场所场仅部分降级（不完全消失），提示 LEC 输入能提供有限的空间信息作为代偿。
+
+### 6. 尖波涟漪（SWR）期间的重播
 
 静息和NREM睡眠中，场所细胞以约20倍速重播白天的激活序列（SWR事件）。这是记忆巩固的物理基础：序列重播逐渐在新皮层刻印长期记忆。
 
@@ -69,6 +83,9 @@ key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 | θ相位前移（100–355°，与位置相关） | 大鼠线性轨道单细胞+LFP | PMID:8353611 | 高（经典，多次重复） |
 | 重映射：不同环境完全正交 | 多环境切换+单细胞记录 | 综述PMID:23354386 | 高 |
 | MEC光遗传激活→海马位置特异放电 | 光遗传激活MEC II层 | PMID:24366130 | 中-高（因果） |
+| CA3 切断后 CA1 仍有场所场，但回忆受损 | CA3 选择性切断 + 水迷宫行为 | PMID:12077421 | 高 |
+| MEC-III 损伤→ CA1 场所场变大变散 | MEC-III γ-乙炔基 GABA + CA1/CA3 记录 | PMID:18215625 | 高 |
+| LEC 也编码空间位置（打破 LEC=非空间假设） | 体内 2P 轴突成像（VR 导航） | PMID:37816349，PMC:11490304 | 高 |
 | SWR期间场所序列以20倍速重播 | 多单元记录+Bayesian解码 | PMID:26135716 | 高 |
 | 人类海马（fMRI/ECoG）有类似空间选择性响应 | 人类神经外科iEEG | 多篇 | 中-高 |
 
@@ -82,6 +99,9 @@ key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 - [[hippocampal-circuit]] — 场所细胞主要位于CA1（少数CA3）；依赖EC输入和海马内部回路
 - [[cognitive-map]] — 场所细胞是认知地图的基本构成单元
 - [[path-integration]] — 在无外部地标时，场所场由路径整合（网格细胞）维持
+- [[entorhinal-ca1-circuit]] — EC-CA1 双流回路是场所场生成的解剖基础；直接 TA path 提供精准锚定，三突触 CA3 通路提供联想预测
+- [[temporoammonic-path]] — EC-III 直接输入维持 CA1 场所场空间精准度的回路实体
+- [[btsp]] — BTSP 是场所场写入的主要突触机制；EC 双流输入驱动 BTSP 的触发和内容
 
 ## 未解问题
 
@@ -92,8 +112,10 @@ key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 加入模式分离/补全视角：场所细胞的"重映射"行为是模式分离在空间记忆中的具体体现；Leutgeb 2004 的 CA3 vs CA1 不同计算策略与场所细胞的率重映射 vs 全局重映射直接相关；related 新增 pattern-separation、pattern-completion
 - 2026-06-22 · 创建 · 填补长期悬空引用（被theta-oscillations、sharp-wave-ripples等多页引用但无对应页面） · 基于《六边形的秘密》文章 · 初始置信度：高
+- 2026-09-24 · 修订（rev3）· 基于《时序之门》一文（#154）· 新增"EC 双流输入对场所场的差异化贡献"机制小节（Brun 2002 CA3 切断实验；Brun 2008 MEC-III 损伤实验；Hales 2014 MEC 大面积损伤）；证据表新增 3 行；连接新增 entorhinal-ca1-circuit、temporoammonic-path、btsp
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
 - [[2026-06-24-hippocampal-ca3-pattern-completion]]
+- [[2026-09-24-entorhinal-ca1-dual-stream-theta-gate]]

@@ -1607,3 +1607,18 @@
 **修订 wiki 页（2个）**：concepts/ltp（rev13→rev14，related+dendritic-spine/cofilin-actin-spine，opens_questions+Q-spine-btsp-01/Q-spine-early-late-02）、neurons/camkii（rev2→rev3，结构可塑性路径 GEF→Rac1/RhoA→LIMK，Rac1 平行通路）
 **图谱**：296→298 节点，1739→1747 边（+2 节点，+8 边）
 **新增未解问题**：Q-spine-btsp-01（高：BTSP 是否产生棘扩大）、Q-spine-early-late-02（高：早期→晚期 F-actin 转变开关）、Q-spine-size-bound-03（中：棘头体积上限机制）、Q-spine-disease-04（中：tau→cofilin 路径 AD 中的作用）
+
+---
+
+### 2026-09-24（#154）：时序之门——内嗅皮层-CA1 双流回路的解剖与功能
+
+**一句话**：内嗅皮层通过三突触通路（EC-II→DG→CA3→CA1 SR，联想预测流）和直接 TA path（EC-III→CA1 SLM，当前感觉精准流）两条并行通路到达 CA1；CA1 锥体细胞是时序 AND 门（Schaffer 先于 TA ~40–60 ms，NMDA + GABA_B 去抑制），MEC 传环境坐标而 LEC 传奖励目标（Bowler 2023 打破传统二分法）；TA path 的 3 周巩固窗口（Remondes & Schuman 2004）将系统巩固与 BTSP 的下游空间整合连为一体。
+
+**核心知识点**：Brun 2002（CA3 切断：CA1 仍有场所场，但回忆受损）vs Brun 2008（MEC-III 损伤：场所场变大变散）的功能双分离；Ang 2005 时序 AND 门四步分子机制（Schaffer→NMDA→去极化 + OA 中间神经元→GABA_B 预突触去抑制→TA 穿透胞体）；Bowler & Losonczy 2023 体内双光子轴突成像发现 MEC=环境重映射/LEC=奖励重映射（打破 MEC=空间/LEC=非空间）；LEC→CA1 化学遗传抑制特异损害新奖励位置学习；Dorian 2024 预印本：MEC 抑制→平台事件频率 1.91→1.60，LEC 抑制→场所场写入成功率 7.20%→3.18%；Remondes & Schuman 2004 TA path 电解毁损→3 周后水迷宫记忆受损；Udakis 2020 PV-LTD + SST-LTP 动态调节 EC/CA3 输入权重比（新环境→EC 权重上调，熟悉环境→CA3 权重上调）；theta 波谷=CA3（慢 γ），theta 波峰=TA path（快 γ）。
+
+**层级**：microcircuit / brain-region / synaptic / cognition
+
+**新建 wiki 页（2个）**：circuits/entorhinal-ca1-circuit（established/high）、circuits/temporoammonic-path（established/high）
+**修订 wiki 页（3个）**：systems/entorhinal-cortex（rev4→rev5，MEC/LEC新认识）、concepts/btsp（rev3→rev4，EC双重角色）、concepts/place-cells（rev2→rev3，EC双流贡献）
+**图谱**：298→300 节点，1747→1763 边（+2 节点，+16 边）
+**新增未解问题**：Q-ec-ca1-01（高：LEC 位置编码信号上游来源）、Q-ec-ca1-02（高：人类 TA path AND 门机制验证）、Q-ec-ca1-03（中：TA path 巩固窗口复习信号性质）

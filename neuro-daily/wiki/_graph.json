@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-23",
-  "node_count": 294,
-  "edge_count": 1722,
+  "updated": "2026-09-24",
+  "node_count": 300,
+  "edge_count": 1763,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2724,6 +2724,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/cofilin-actin-spine.md"
+    },
+    {
+      "id": "entorhinal-ca1-circuit",
+      "title": "内嗅皮层-CA1 双流回路",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/entorhinal-ca1-circuit.md"
+    },
+    {
+      "id": "temporoammonic-path",
+      "title": "穿通径路（颞氨通路）",
+      "domain": "circuits",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/temporoammonic-path.md"
     }
   ],
   "edges": [
@@ -12546,6 +12564,102 @@
       "to": "dendritic-computation",
       "type": "related",
       "note": "棘作为细胞骨架计算单元影响树突计算能力"
+    },
+    {
+      "from": "entorhinal-ca1-circuit",
+      "to": "entorhinal-cortex",
+      "type": "part-of",
+      "note": "EC 是双流回路的上游信息源，分 MEC/LEC 分别传递空间语境和奖励目标"
+    },
+    {
+      "from": "entorhinal-ca1-circuit",
+      "to": "temporoammonic-path",
+      "type": "part-of",
+      "note": "TA path 是双流回路中直接流的解剖实体（EC-III→CA1 SLM）"
+    },
+    {
+      "from": "entorhinal-ca1-circuit",
+      "to": "place-cells",
+      "type": "mechanism-of",
+      "note": "EC-CA1 双流整合是 CA1 场所场形成和空间精准度维持的回路基础"
+    },
+    {
+      "from": "entorhinal-ca1-circuit",
+      "to": "btsp",
+      "type": "supports",
+      "note": "MEC 输入驱动 BTSP 平台事件触发频率，LEC 输入决定写入的信息内容（Dorian 2024）"
+    },
+    {
+      "from": "entorhinal-ca1-circuit",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "theta 振荡提供时序 AND 门所需的两个半周期框架（波谷=CA3，波峰=TA path）"
+    },
+    {
+      "from": "entorhinal-ca1-circuit",
+      "to": "memory-consolidation",
+      "type": "supports",
+      "note": "TA path 在学习后 ~3 周巩固窗口内持续向 CA1 传递复习信号，支持系统巩固"
+    },
+    {
+      "from": "entorhinal-ca1-circuit",
+      "to": "grid-cells",
+      "type": "related",
+      "note": "MEC-II 网格细胞是三突触通路的空间度量输入源"
+    },
+    {
+      "from": "temporoammonic-path",
+      "to": "entorhinal-ca1-circuit",
+      "type": "part-of",
+      "note": "TA path 是双流回路直接流的解剖实体"
+    },
+    {
+      "from": "temporoammonic-path",
+      "to": "entorhinal-cortex",
+      "type": "part-of",
+      "note": "TA path 起点为 EC 第三层（MEC-III/LEC-III）锥体细胞"
+    },
+    {
+      "from": "temporoammonic-path",
+      "to": "place-cells",
+      "type": "supports",
+      "note": "EC-III 直接输入是 CA1 场所场空间精准度的关键（Brun 2008）"
+    },
+    {
+      "from": "temporoammonic-path",
+      "to": "memory-consolidation",
+      "type": "supports",
+      "note": "TA path 毁损→学习后 3 周记忆受损，是系统巩固窗口的解剖基础（Remondes & Schuman 2004）"
+    },
+    {
+      "from": "temporoammonic-path",
+      "to": "btsp",
+      "type": "supports",
+      "note": "TA path 传递触发 BTSP 高钙平台事件的 EC 信号"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "temporoammonic-path",
+      "type": "regulates",
+      "note": "theta 波峰相位（fast gamma 主导）驱动 TA path 输入，与 CA3 输入形成 ~40–60 ms 时序 AND 门"
+    },
+    {
+      "from": "entorhinal-cortex",
+      "to": "entorhinal-ca1-circuit",
+      "type": "part-of",
+      "note": "EC 通过 TA path 和三突触通路构成 EC-CA1 双流回路的上游"
+    },
+    {
+      "from": "btsp",
+      "to": "entorhinal-ca1-circuit",
+      "type": "related",
+      "note": "EC-CA1 双流回路是 BTSP 触发信号（MEC）和信息内容（LEC）的解剖来源"
+    },
+    {
+      "from": "place-cells",
+      "to": "entorhinal-ca1-circuit",
+      "type": "related",
+      "note": "CA1 场所场的精准度和联想回忆功能分别依赖 TA path 和三突触通路两条流"
     }
   ],
   "dangling_references": [
