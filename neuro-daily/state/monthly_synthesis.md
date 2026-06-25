@@ -1682,3 +1682,19 @@
 **修订 wiki 页（3个）**：circuits/striatal-direct-indirect-pathway（rev1→rev2，整合Shen 2008 STDP + Kravitz 2010光遗传 + Frank 2004临床证据）、concepts/three-factor-learning-rule（rev2→rev3，补入Shen 2008纹状体STDP分子机制）、concepts/dopamine-reward-prediction-error（rev7→rev8，新增皮层-纹状体STDP导航链接）
 **图谱**：303→304节点，1790→1803边（+1节点，+13边）
 **新增未解问题**：Q-corticostriatal-stdp-in-vivo-timing（高：体外STDP时序与体内DA延迟如何协调）、Q-d2msn-a2a-in-vivo（高：A2a受体体内动态与D2拮抗的时空关系）、Q-d1-ltp-persistence（中：D1-MSN LTP的体内持久性与PKMζ关系）
+
+---
+
+### 2026-09-29（#159）：时序信用分配——资格痕迹如何让大脑跨越时间鸿沟学习
+
+**一句话**：时序信用分配问题（哪个突触该被强化？）的分子答案是多级时间桥梁体系：资格痕迹（AC1/AC8沉默状态，毫秒→分钟）+ 突触标记与捕获（CaMKII？/PRPs，分钟→小时）+ 行为标记（新颖性DA爆发，<6h），使大脑既能处理快速条件反射也能处理延迟工具性学习；Fuchsberger 2022（PMID:36226826）在CA1中直接证明了资格痕迹的AC1/AC8分子底物（post-before-pre后10min DA+爆发，LTD翻转为LTP，AC1/AC8敲除消除效应）；Wang 2010（PMID:20962282）在行为层面量化了STC的外显：新颖事件（编码后30min）使16只大鼠中14只在24h显示记忆（P<0.001）。
+
+**核心知识点**：时序信用分配问题（Sutton & Barto 1981框架）：行为A导致奖励R，但R晚于A数百毫秒到分钟，如何知道是哪个突触被激活了？答案层次：资格痕迹（eligibility trace）= NMDA-R激活后AC1/AC8进入"沉默敏感态"，持续~10min，等待DA"许可"；STC（突触标记与捕获）= 弱Hebbian活动设置短暂标签（~1-2h），等待PRP合成信号；行为标记（behavioral tagging）= 新颖事件通过DA爆发提供PRP合成信号，将STM升级为LTM（Moncada & Bhattacharya 2007，PMC证据 Wang 2010）。纹状体解决方案：D1-MSN中，AC1/AC8机制将STDP时序窗口从±20ms延伸至~10min（解答Q-corticostriatal-stdp-in-vivo-timing部分）；更长时间窗由STC接力（若纹状体存在STC，Q-striatal-stc-mechanism）。AD中STC失效：APP/PS1小鼠STC选择性失效（Bin Ibrahim 2024，PMID:38853570），但L-LTD保留——不对称失效提示STC对标签候选分子的依赖（TrkB下调？CaMKII紊乱？）。AI对比：TD-learning中的"资格迹向量"与神经科学资格痕迹高度对应；但生物版本更丰富（多级、突触位点特异、分子底物可塑）。
+
+**层级**：synaptic / cellular / molecular / behavior / cognition
+
+**新建 wiki 页（1个）**：concepts/eligibility-trace（emerging/medium）
+**修订 wiki 页（5个）**：concepts/synaptic-tagging-capture（rev3→rev4，新增Wang 2010行为标记量化、Fuchsberger 2022资格痕迹、Bin Ibrahim 2024疾病STC）、concepts/three-factor-learning-rule（rev3→rev4，新增资格痕迹毫秒→分钟时间桥章节）、circuits/corticostriatal-stdp（rev1→rev2，Q-corticostriatal-stdp-in-vivo-timing部分解答）、concepts/striatal-plasticity（rev1→rev2，新增资格痕迹作为D1-MSN时序窗口延伸机制）、concepts/three-factor-learning-rule（rev3→rev4，连接新增eligibility-trace）
+**图谱**：304→307 节点，1803→1813 边（+3节点，+10边；修正1个dangling ref：consciousness-neural-correlates→neural-correlates-of-consciousness）
+**新增未解问题**：Q-eligibility-trace-striatum（高：纹状体AC1/AC8资格痕迹是否存在）、Q-eligibility-trace-duration（中：痕迹有效期上限）、Q-eligibility-trace-vs-stc（中：两级机制串联关系）、Q-striatal-stc-mechanism（新：纹状体完整STC机制是否存在）
+**Q-d1-ltp-persistence 部分更新**：Fuchsberger 2022资格痕迹为"D1-MSN如何等待DA"提供了分钟级答案；纹状体AC1/AC8仍需直接实验验证（置信度：中/推论）

@@ -863,8 +863,8 @@
     "slug": "three-factor-learning-rule",
     "status": "mainstream",
     "confidence": "high",
-    "last_changed": "2026-09-28",
-    "reason": "修订 rev2→rev3 · #158 · 补入D1-MSN阻断LTD路径（mGluR5-CB1）的具体分子机制（Shen 2008）；STDP在纹状体的具体实现路径已明确"
+    "last_changed": "2026-09-29",
+    "reason": "修订 rev3→rev4 · #159 · 新增资格痕迹→三因素规则毫秒→分钟时间桥章节；资格痕迹vs STC vs 行为标记三级时间整合对比表"
   },
   {
     "slug": "dopamine-reward-prediction-error",
@@ -872,5 +872,26 @@
     "confidence": "high",
     "last_changed": "2026-09-28",
     "reason": "修订 rev7→rev8 · #158 · 仅新增导航连接（corticostriatal-stdp, striatal-direct-indirect-pathway）；核心机制无变动；confidence维持高"
+  },
+  {
+    "slug": "eligibility-trace",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-09-29",
+    "reason": "新建 rev1 · #159 · Fuchsberger 2022直接证明CA1 AC1/AC8介导的资格痕迹（post-before-pre后10min DA+爆发→LTD→LTP）；纹状体机制为推论；新概念，证据质量高但范围有限"
+  },
+  {
+    "slug": "striatal-plasticity",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-09-29",
+    "reason": "修订 rev1→rev2 · #159 · 新增资格痕迹作为D1-MSN时序信用分配的分钟级解法（推论，基于CA1 Fuchsberger 2022）；Shen 2008 D1/D2不对称STDP证据补入"
+  },
+  {
+    "slug": "synaptic-tagging-capture",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-09-29",
+    "reason": "修订 rev4（累积至今）· 核心机制框架强；分子标签身份仍未确定；行为标记量化（Wang 2010 P<0.001）和资格痕迹（Fuchsberger 2022）支持时间整合框架；AD中STC失效（Bin Ibrahim 2024）提示疾病相关性"
   }
 ]

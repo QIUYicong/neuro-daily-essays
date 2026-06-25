@@ -1,0 +1,102 @@
+# 运行日志 · 2026-09-29
+
+**系统时钟**：2026-06-25 UTC+8（实际）
+**知识库序列日期**：2026-09-29
+**文章编号**：#159
+**文章 slug**：eligibility-trace-temporal-credit-assignment
+
+---
+
+## 执行摘要
+
+本次运行完成了第159篇神经科学文章及完整知识库固结步骤。
+
+**核心主题**：时序信用分配问题（temporal credit assignment problem）的分子解决方案——资格痕迹（eligibility trace）如何在毫秒级STDP和延迟DA奖励之间架设时间桥梁，与突触标记与捕获（STC）构成多级时间整合体系。
+
+---
+
+## 步骤执行记录
+
+### A. 主题选择
+- **选定主题**：时序信用分配——资格痕迹与突触标记捕获
+- **选择理由**：第158篇（皮层-纹状体STDP）遗留高优先级开放问题Q-corticostriatal-stdp-in-vivo-timing（体外STDP时序窗口如何与体内DA延迟协调）；Fuchsberger 2022（PMC9612916）提供了直接分子答案
+- **主题连续性**：纹状体STDP→时序信用分配→资格痕迹（自然延伸）
+- **知识库空白填补**：eligibility-trace概念在wiki中未有独立页面，STC页面缺少行为标记量化证据和疾病相关
+
+### B. 文献搜索与获取
+- **搜索数据库**：PubMed E-utilities，PMC Open Access，Europe PMC
+- **搜索词**：eligibility trace dopamine reinforcement learning plasticity；synaptic tagging capture Frey Morris 1997；behavioral tagging novelty dopamine memory persistence；corticostriatal STDP temporal credit assignment dopamine；synaptic tagging disease aging Alzheimer；eligibility trace hippocampus burst reactivation Fuchsberger 2022
+- **总检索到15篇**，采用7篇，排除8篇
+- **全文获取（5篇）**：PMC2984182, PMC9612916, PMC11343274, PMC2833421, PMC6309091
+- **摘要仅（2篇）**：Frey & Morris 1997 (Nature, paywall), Redondo & Morris 2011 (Nat Rev Neurosci, paywall)
+
+### C. 文章生成
+- **文件**：`neuro-daily/articles/2026-09-29-eligibility-trace-temporal-credit-assignment.md`
+- **字数**：约5500字
+- **章节结构**：问题引入→资格痕迹（Fuchsberger 2022）→突触标记与捕获→行为标记（Wang 2010）→纹状体视角→疾病→AI比较→结语
+- **关键数据**：61±11%→135±14.9%（AC1/AC8实验）；14/16大鼠在24h记忆保留（P<0.001）
+
+### D. Wiki固结
+
+**新建页面（1个）**：
+- `wiki/concepts/eligibility-trace.md` - rev1，emerging/medium，基于Fuchsberger 2022
+
+**修订页面（4个）**：
+- `wiki/concepts/synaptic-tagging-capture.md` → rev4（rev3→rev4）
+  - 证据表新增3行；dimensions/related/opens_questions/key_sources更新
+  - 修订历史添加rev4条目；来源文章添加2026-09-29
+- `wiki/concepts/three-factor-learning-rule.md` → rev4（rev3→rev4）
+  - 新增「资格痕迹时间桥」章节及三级时间整合对比表
+  - connections新增eligibility-trace
+- `wiki/circuits/corticostriatal-stdp.md` → rev2（rev1→rev2）
+  - Q-corticostriatal-stdp-in-vivo-timing部分解答
+  - connections新增eligibility-trace和synaptic-tagging-capture
+- `wiki/concepts/striatal-plasticity.md` → rev2（rev1→rev2）
+  - 新增资格痕迹段落和证据行
+
+### E. 图谱与导航更新
+- `wiki/_graph.json`：307节点（+3：eligibility-trace、habitual-behavior、goal-directed-behavior）/ 1813边（+10）
+  - 修正dangling ref：consciousness-neural-correlates → neural-correlates-of-consciousness
+- `wiki/index.md`：更新头部；新增eligibility-trace条目；更新STC/三因素规则条目描述
+- `wiki/CHANGELOG.md`：新增2026-09-29章节
+
+### F. 状态文件更新
+- `state/topic_ledger.json`：新增第159条目（147条目总计，total_articles=159）
+- `state/unresolved_questions.md`：新增4个问题 + 2个进展更新
+- `state/source_registry.json`：追加第159篇文章来源摘要（5新+2复用）
+- `state/maturity_index.json`：新增4个条目，更新2个
+- `state/monthly_synthesis.md`：更新头部（22篇）+ 追加#159条目
+
+### G. 提交与推送
+- 分支：main（单分支累积模型）
+- Git作者：QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-09-29
+
+---
+
+## 数据摘要
+
+| 指标 | 数值 |
+|------|------|
+| 文章编号 | #159 |
+| 文章字数 | ~5500字 |
+| 采用来源 | 7篇 |
+| 全文来源 | 5篇 |
+| 新建wiki页 | 1 |
+| 修订wiki页 | 4 |
+| 图谱节点 | 307 (+3) |
+| 图谱边数 | 1813 (+10) |
+| 新开放问题 | 4 |
+| 问题部分解答 | 2 |
+
+---
+
+## 质量检查
+
+- [x] 所有wiki主张有引用来源
+- [x] 无旧文件被修改（只修改了必要的wiki/state文件）
+- [x] index.md和CHANGELOG.md反映今日变更
+- [x] 未编造来源、PMID、实验数据
+- [x] 未提供医学建议
+- [x] 远程是QIUYicong/neuro-daily-essays（正确仓库）
+- [x] 推送到main分支

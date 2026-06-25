@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-06-07
-updated: 2026-09-21
-revision_count: 3
-dimensions: [synaptic, cellular, molecular]
-related: [ltp, three-factor-learning-rule, dopamine-reward-prediction-error, camkii, hebbian-learning, memory-consolidation, pkm-zeta, arc-arg31, bdnf]
+updated: 2026-09-29
+revision_count: 4
+dimensions: [synaptic, cellular, molecular, behavior, cognition]
+related: [ltp, three-factor-learning-rule, dopamine-reward-prediction-error, camkii, hebbian-learning, memory-consolidation, pkm-zeta, arc-arg31, bdnf, eligibility-trace, corticostriatal-stdp, striatal-plasticity]
 prerequisites: [ltp, hebbian-learning, camkii]
-opens_questions: [Q-stc-molecular-tag, Q-three-factor-time-window]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-09-21-pkm-zeta-late-ltp-persistence]
-key_sources: ["PMID:9020359", "PMID:7708662", "PMID:17626208", "PMID:27602521", "PMID:20130171", "PMID:21170088", "PMID:15958741", "PMID:41814337"]
+opens_questions: [Q-stc-molecular-tag, Q-three-factor-time-window, Q-d1-ltp-persistence, Q-striatal-stc-mechanism]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-09-21-pkm-zeta-late-ltp-persistence, 2026-09-29-eligibility-trace-temporal-credit-assignment]
+key_sources: ["PMID:9020359", "PMID:7708662", "PMID:17626208", "PMID:27602521", "PMID:20130171", "PMID:21170088", "PMID:15958741", "PMID:41814337", "PMID:20962282", "PMID:36226826", "PMID:38853570", "PMID:30593289"]
 ---
 
 # 突触标记与捕获 (Synaptic Tagging and Capture, STC)
@@ -88,6 +88,9 @@ PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录�
 | 新颖事件在 ±1h 内将弱训练的 STM→LTM（行为标记；D1/D5 + 蛋白合成依赖）| 大鼠 IA 模型 + 时间排列 + 药理 | PMID:17626208 | 中-高（行为层面的 STC 验证）|
 | D1/D5 调控记忆持续性（而非编码）：编码后注射拮抗剂损害 24h LTM，不损害 30min STM | 时间点药理分离 + 两种记忆任务 | PMID:20130171 | 高 |
 | LC-TH⁺ 末梢（非 VTA）是海马 dCA1 的主要 DA 来源；LC 激活可产生行为标记效应 | 光遗传 + 解剖追踪 + VTA 化学失活 | PMID:27602521 | 高（STC 捕获信号的来源澄清）|
+| 行为标记定量实验：新颖事件（编码后30min）使16/16只大鼠中14只在24h显示记忆（P<0.001）；D1/D5拮抗剂阻断 | 大鼠事件竞技场 + 新颖环境 + 药理拮抗 | PMID:20962282（PMC2984182）| 高（行为层 STC 最直接证明）|
+| 资格痕迹（post-before-pre→LTD 后10分钟DA+爆发→LTP）：初始61±11%→ 135±14.9%；AC1/AC8敲除消除效应 | 离体CA1膜片钳 + 基因敲除 | PMID:36226826（PMC9612916）| 高（毫秒→分钟时间尺度的前体机制）|
+| STC在AD（APP/PS1小鼠）中选择性失效（L-LTD保留，但STC完全消失）；老化可通过BDNF/TrkB激活部分恢复 | APP/PS1小鼠切片电生理；老年大鼠药理干预 | PMID:38853570（PMC11343274）| 中-高（疾病中STC失效）|
 
 ## 连接
 
@@ -112,9 +115,11 @@ PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录�
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 理解三因素规则的时间整合机制 · 初始置信度：中（机制框架强，分子细节未解）
 - 2026-09-21 · 修订 rev3 · 基于《记忆的分子守夜人》(#151) · 核心更新：PRPs节新增PKMζ为第一个明确L-LTP特异性PRP（Sajikumar 2005），并加入KIBRA寡聚体机制（Hsieh 2026）；连接新增pkm-zeta、arc-arg31、bdnf（独立连接）；Q-stc-molecular-tag补充PKMζ作为被捕获PRP的新理解（标签本身仍未确定）；related新增pkm-zeta、arc-arg31、bdnf；key_sources新增PMID:15958741、41814337
 - 2026-07-11 · 修订 rev2 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 证据表新增3行（Moncada 2007行为标记、Bethus 2010 D1/D5持续性、Takeuchi 2016 LC为主要DA来源）；连接节新增 lc-hippocampus-dopamine；key_sources 新增4个；DA 捕获信号的来源澄清（LC 主导，非 VTA）
+- 2026-09-29 · 修订 rev4 · 基于《时序信用分配》(#159) · 核心更新：证据表新增行为标记定量（Wang 2010，PMC2984182，P<0.001最直接行为证明）、资格痕迹实验（Fuchsberger 2022，PMC9612916，毫秒→分钟时间尺度前体机制）、疾病中STC失效（Bin Ibrahim 2024，APP/PS1小鼠）；dimensions新增behavior、cognition；related新增eligibility-trace、corticostriatal-stdp、striatal-plasticity；opens_questions新增Q-d1-ltp-persistence（纹状体STC机制部分澄清）、Q-striatal-stc-mechanism（新开放问题）；key_sources新增PMID:20962282、36226826、38853570、30593289
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]
 - [[2026-09-21-pkm-zeta-late-ltp-persistence]]
+- [[2026-09-29-eligibility-trace-temporal-credit-assignment]]

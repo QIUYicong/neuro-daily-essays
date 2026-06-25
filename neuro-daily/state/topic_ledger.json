@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-26",
-  "total_articles": 144,
+  "last_updated": "2026-09-29",
+  "total_articles": 159,
   "entries": [
     {
       "date": "2026-09-21",
@@ -9798,6 +9798,79 @@
       "knowledge_base_date": "2026-09-28",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-28（第158篇皮层-纹状体STDP不对称可塑性文章）"
+    },
+    {
+      "date": "2026-09-29",
+      "title": "时序信用分配：资格痕迹如何让大脑跨越时间鸿沟学习",
+      "filename": "2026-09-29-eligibility-trace-temporal-credit-assignment.md",
+      "article_number": 159,
+      "wiki_pages_created": [
+        "wiki/concepts/eligibility-trace.md (rev1, NEW)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/synaptic-tagging-capture.md (rev3->rev4)",
+        "wiki/concepts/three-factor-learning-rule.md (rev3->rev4)",
+        "wiki/circuits/corticostriatal-stdp.md (rev1->rev2)",
+        "wiki/concepts/striatal-plasticity.md (rev1->rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "时序信用分配问题（哪个突触该被奖励信号强化？）在分子层面如何解决——资格痕迹（AC1/AC8沉默敏感态）、突触标记与捕获（标签+PRPs）、行为标记（新颖性DA爆发）三级机制如何接力，将毫秒级STDP窗口延伸至数小时？",
+      "open_questions_added": [
+        "Q-eligibility-trace-striatum（高）：纹状体D1-MSN是否存在AC1/AC8介导的资格痕迹（AC5/AC6亚型效应待证明）",
+        "Q-eligibility-trace-duration（中）：资格痕迹有效期上限（10min已证明；>10min未测定）",
+        "Q-eligibility-trace-vs-stc（中）：资格痕迹（分钟）与STC（小时）在同一突触的串联工作机制",
+        "Q-striatal-stc-mechanism（中）：纹状体皮层-MSN突触是否存在完整STC（弱刺激标签+PRP捕获三步骤）"
+      ],
+      "open_questions_updated": [
+        "Q-d1-ltp-persistence（部分解答）：Fuchsberger 2022资格痕迹提供分钟级等待机制；纹状体直接证据仍缺",
+        "Q-corticostriatal-stdp-in-vivo-timing（部分解答）：资格痕迹将±20ms STDP窗口延伸至~10min"
+      ],
+      "layer": [
+        "synaptic",
+        "molecular",
+        "cellular",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱5（奖励学习·时序信用分配·突触可塑性时间整合）+ 课程脊柱12（人脑与AI强化学习比较·资格迹·TD-λ）",
+      "topic_tags": [
+        "eligibility trace synaptic tagging capture temporal credit assignment",
+        "AC1 AC8 adenylyl cyclase calcium calmodulin dopamine co-activation",
+        "Fuchsberger Clopath Jarzebowski Brzosko Wang Paulsen 2022 eLife CA1 burst reactivation",
+        "Wang Redondo Morris 2010 PNAS behavioral tagging novelty D1/D5",
+        "Bin Ibrahim Wang Sajikumar 2024 Philos Trans R Soc synaptic tagging disease aging",
+        "three-factor learning rule Hebbian dopamine neuromodulator",
+        "Frey Morris 1997 Nature synaptic tagging LTP",
+        "temporal difference learning TD-lambda eligibility trace reinforcement learning",
+        "striatal plasticity corticostriatal STDP in vivo timing mismatch solution"
+      ],
+      "main_sources": [
+        "PMID:9020359 (Frey & Morris 1997, Nature, STC原始发现, 摘要)",
+        "PMID:21170072 (Redondo & Morris 2011, Nat Rev Neurosci, STC综述, 摘要)",
+        "PMID:20962282 (Wang, Redondo & Morris 2010, PNAS, 行为标记定量证明, OPEN PMC2984182)",
+        "PMID:36226826 (Fuchsberger et al. 2022, eLife, 资格痕迹直接证明, OPEN PMC9612916)",
+        "PMID:38853570 (Bin Ibrahim, Wang & Sajikumar 2024, Phil Trans R Soc B, STC疾病综述, OPEN PMC11343274)",
+        "PMID:18687967 (Shen et al. 2008, Science, D1/D2 STDP背景, OPEN PMC2833421)",
+        "PMID:30593289 (Sacktor & Fenton 2018, Mol Brain, CaMKII vs PKMζ, OPEN PMC6309091)"
+      ],
+      "open_access_fulltext": [
+        "PMID:20962282 (PMC2984182)",
+        "PMID:36226826 (PMC9612916)",
+        "PMID:38853570 (PMC11343274)",
+        "PMID:18687967 (PMC2833421)",
+        "PMID:30593289 (PMC6309091)"
+      ],
+      "next_suggested_topics": [
+        "CaMKII凝聚体作为突触标签——液-液相分离框架下，CaMKII激活态凝聚体是否就是STC标签的分子身份？与PKMζ的时序关系？",
+        "BDNF/TrkB信号轴在行为标记中的作用——新颖事件如何通过LC→DA→TrkB激活促进PRPs合成（Arc, PKMζ），是否构成STC捕获信号的第二条路线？",
+        "睡眠与STC——SWR（尖波涟漪）在突触固化中是否触发与资格痕迹类似的机制？离线重激活如何激活已设置标签的突触？",
+        "前额叶记忆系统巩固（痕迹转化理论）与STC——mPFC沉默印迹如何在系统层面类比突触层面的STC（mPFC = 沉默标签，SWR = 捕获信号）？"
+      ],
+      "graph_update": "304+3=307 nodes (eligibility-trace, habitual-behavior, goal-directed-behavior新建节点); 1803+10=1813 edges; 修正1个dangling ref (consciousness-neural-correlates→neural-correlates-of-consciousness)",
+      "knowledge_base_date": "2026-09-29",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-29（第159篇时序信用分配文章）"
     }
   ]
 }

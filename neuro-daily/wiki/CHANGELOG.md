@@ -4,6 +4,42 @@
 
 ---
 
+## 2026-09-29 · 文章 #159 · 时序信用分配：资格痕迹如何让大脑跨越时间鸿沟学习
+
+**核心主题**：时序信用分配问题（temporal credit assignment problem）——突触在ms时序配对（STDP）之后，如何等待数百毫秒至数分钟后到来的DA奖励信号？**资格痕迹**（Fuchsberger 2022, PMID:36226826, eLife）提供了直接的分子答案：NMDA-R激活后，AC1/AC8腺苷酸环化酶进入沉默敏感态（~10min），DA+爆发共激活→cAMP骤升→LTP（LTD→LTP翻转：61±11%→135±14.9%）；AC1/AC8双敲除完全消除效应。行为层面（Wang 2010, PMID:20962282）：新颖事件（编码后30min）使16只大鼠中14只在24h显示记忆（P<0.001），D1/D5拮抗剂+蛋白合成抑制剂均阻断。图谱从 **304 节点/1803 边** 增至 **307 节点/1813 边**（+3 节点 +10 新边；修正1个dangling ref）。
+
+**注意**：系统时钟日期为 2026-06-25（UTC+8），知识库连续序列日期为 2026-09-29，文章编号 #159。
+
+### 新建 Wiki 页面（1 个）
+
+- `concepts/eligibility-trace.md` 🟡 emerging · 中置信度 — NMDA-R激活后AC1/AC8沉默敏感态（~10min）；DA+Ca²⁺共激活AC1/AC8→cAMP骤升→PKA→LTP；与STC共构时序信用分配多级体系（资格痕迹~分钟 + STC~小时 + 行为标记~6h）；Fuchsberger 2022（CA1直接证明，AC1/AC8敲除消除）；纹状体AC5/AC6类似机制为推论；3个开放问题（Q-eligibility-trace-striatum、Q-eligibility-trace-duration、Q-eligibility-trace-vs-stc）
+
+### 修订 Wiki 页面（4 个）
+
+- `concepts/synaptic-tagging-capture.md`（rev3→rev4）：证据表新增3行（Wang 2010行为标记P<0.001定量、Fuchsberger 2022资格痕迹、Bin Ibrahim 2024 AD-STC失效）；dimensions新增behavior/cognition；related新增eligibility-trace/corticostriatal-stdp/striatal-plasticity；opens_questions新增Q-d1-ltp-persistence/Q-striatal-stc-mechanism；key_sources新增4个；revision history添加rev4条目；来源文章新增2026-09-29
+
+- `concepts/three-factor-learning-rule.md`（rev3→rev4）：新增「资格痕迹：三因素规则的毫秒→分钟时间桥」章节，含资格痕迹vs STC vs行为标记三级时间窗对比表；connections新增eligibility-trace；key_sources新增PMID:36226826/21170072；来源文章新增2026-09-29
+
+- `circuits/corticostriatal-stdp.md`（rev1→rev2）：Q-corticostriatal-stdp-in-vivo-timing部分解答（资格痕迹提供分钟级时间桥，CA1直接证明）；connections新增eligibility-trace和synaptic-tagging-capture；opens_questions新增Q-striatal-stc-mechanism；key_sources新增PMID:36226826/9020359
+
+- `concepts/striatal-plasticity.md`（rev1→rev2）：新增「资格痕迹作为更长时间窗的解法」段落（Fuchsberger 2022，CA1→纹状体类推）；证据表新增2行（资格痕迹、Shen 2008 D1/D2 STDP）；related新增corticostriatal-stdp/synaptic-tagging-capture/eligibility-trace；connections新增3个；opens_questions新增Q-striatal-stc-mechanism
+
+### 图谱变更
+
+- **新增节点（3个）**：eligibility-trace（emerging/medium）、habitual-behavior（established/high，补充现有页面）、goal-directed-behavior（established/high，补充现有页面）
+- **新增边（10条）**：eligibility-trace↔synaptic-tagging-capture、eligibility-trace→three-factor-learning-rule、eligibility-trace→dopamine-reward-prediction-error、eligibility-trace→ltp、eligibility-trace→corticostriatal-stdp、eligibility-trace→hebbian-learning、striatal-plasticity→eligibility-trace、synaptic-tagging-capture→eligibility-trace、three-factor-learning-rule→eligibility-trace、corticostriatal-stdp→eligibility-trace
+- **修正dangling ref（1个）**：apical-tuft→consciousness-neural-correlates 改为 apical-tuft→neural-correlates-of-consciousness（slug修正）
+
+### 状态文件变更
+
+- `state/topic_ledger.json`：新增第159条目，total_articles=159
+- `state/unresolved_questions.md`：新增4个问题（Q-eligibility-trace-striatum、Q-eligibility-trace-duration、Q-eligibility-trace-vs-stc、Q-striatal-stc-mechanism）；更新2个问题进展（Q-d1-ltp-persistence、Q-corticostriatal-stdp-in-vivo-timing）
+- `state/source_registry.json`：新增第159篇来源摘要（5新增2复用PMID）
+- `state/maturity_index.json`：新增eligibility-trace(emerging/medium)、corticostriatal-stdp(mainstream/high)、striatal-plasticity(mainstream/high)、synaptic-tagging-capture(mainstream/medium)条目；更新three-factor-learning-rule条目
+- `state/monthly_synthesis.md`：新增2026-09-29条目；更新头部元数据（本月22篇）
+
+---
+
 ## 2026-09-27 · 文章 #157 · 成瘾大脑的三层陷阱：从欲望、习惯到强迫的神经轨迹
 
 **核心主题**：成瘾是习惯系统被病理性招募的极端案例——Koob-Volkow 三阶段模型（狂欢/中毒→戒断/负性情感→执念/期待）+ Everitt-Robbins 腹侧→背侧纹状体迁移框架 + Berridge-Robinson 激励敏化理论（wanting 放大/liking 减弱）+ Nestler ΔFosB 分子棘轮。可卡因习惯化直接实验（Zapata 2010，DLS 因果证据）；习惯化程度预测强迫性酒精使用（Giuliano 2021）。图谱从 **301 节点/1778 边** 增至 **303 节点/1790 边**（+2 节点 +12 新边）。

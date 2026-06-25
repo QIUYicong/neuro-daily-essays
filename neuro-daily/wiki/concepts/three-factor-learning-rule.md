@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-06-07
-updated: 2026-09-28
-revision_count: 3
+updated: 2026-09-29
+revision_count: 4
 dimensions: [synaptic, cellular, microcircuit, cognition, behavior]
-related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, btsp, corticostriatal-stdp, striatal-direct-indirect-pathway]
+related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, btsp, corticostriatal-stdp, striatal-direct-indirect-pathway, eligibility-trace]
 prerequisites: [hebbian-learning, ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-three-factor-time-window, Q-stc-molecular-tag, Q-three-factor-btsp-third-factor-identity, Q-corticostriatal-stdp-in-vivo-timing]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-09-20-btsp-camkii-molecular-timekeeper, 2026-09-28-corticostriatal-stdp-d1d2-plasticity]
-key_sources: ["PMID:12371508", "PMID:9054347", "PMID:8774460", "PMID:9020359", "PMID:7708662", "PMID:28883072", "PMID:39385027", "PMID:41224656", "PMID:18687967", "PMID:20613723", "PMID:15528409", "PMID:11544526"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-09-20-btsp-camkii-molecular-timekeeper, 2026-09-28-corticostriatal-stdp-d1d2-plasticity, 2026-09-29-eligibility-trace-temporal-credit-assignment]
+key_sources: ["PMID:12371508", "PMID:9054347", "PMID:8774460", "PMID:9020359", "PMID:7708662", "PMID:28883072", "PMID:39385027", "PMID:41224656", "PMID:18687967", "PMID:20613723", "PMID:15528409", "PMID:11544526", "PMID:36226826", "PMID:21170072"]
 ---
 
 # 三因素学习规则 (Three-Factor Learning Rule)
@@ -97,6 +97,38 @@ DA 抑制（δ < 0）时，通过 D2 受体 → Gi → cAMP↓ → PP2B/PP1 级�
 | D1→cAMP→PKA→L-LTP（海马） | D1/D5 激动剂诱导 CA1 L-LTP；茴香霉素阻断 | PMID:7708662（PMC42234） | 高 |
 | ACh 调制 NMDAR 增强 Hebbian 激活 | M1 受体阻断消除 ACh 的学习促进效果 | 多篇；基于综述 | 中-高 |
 
+## 资格痕迹：三因素规则的毫秒→分钟时间桥（2026-09-29 新增）
+
+三因素规则面临的核心时序挑战：行为发生（Hebbian激活，ms级）与DA奖励信号到来（数百毫秒至数分钟后）之间有显著延迟，经典STDP时序窗口（±20ms）远不够。**资格痕迹**是三因素规则如何跨越这一时间鸿沟的分子机制（Fuchsberger et al. 2022, PMID:36226826）：
+
+```
+毫秒时间尺度：
+突触前-突触后配对（Δt=±20ms）
+    → NMDA-R开放 → Ca²⁺内流
+    → AC1/AC8（腺苷酸环化酶）进入"敏感-沉默"状态
+    → 突触强度变化（短暂，可能为LTD）
+    → 痕迹开始计时（持续~分钟）
+
+分钟时间尺度（在资格痕迹有效期内）：
+DA爆发 + 突触后爆发放电
+    → DA(Gs)→β-γ亚基 + Ca²⁺残留 → AC1/AC8共激活 → cAMP骤升
+    → PKA → GluA1磷酸化 → AMPAR插入 → LTP
+    → 净效应：原本的LTD被逆转为LTP（三因素规则"写入"）
+
+无DA或DA延迟过长（>痕迹寿命）：
+    → 突触强度维持LTD或恢复基线（行为未被强化）
+```
+
+**资格痕迹 vs STC 的时间层次**：
+
+| 机制 | 有效时间窗 | 分子底物 | 脑区 |
+|------|----------|---------|------|
+| 资格痕迹（eligibility trace）| 毫秒→分钟（~10min）| AC1/AC8敏感状态 | CA1（直接证据）；纹状体（推论）|
+| 突触标记与捕获（STC）| 分钟→小时（~1-2h）| 突触标签（CaMKII？）+ PRPs | CA1, LA, 多区域 |
+| 行为标记（behavioral tagging）| ~6h内 | STC在行为层面的涌现 | 全脑（行为层级）|
+
+这三个机制在时间上**接力**，共同覆盖奖励学习中可能遇到的各种延迟范围——从快速条件反射（毫秒）到复杂工具性学习（分钟）再到情节记忆（小时）。
+
 ## BTSP 作为三因素规则的海马实现
 
 BTSP（行为时间尺度突触可塑性）为三因素规则提供了一个与多巴胺-奖励通路并列、但完全不同的神经生理实现（Madar et al., 2025, PMID:41224656）：
@@ -134,6 +166,7 @@ BTSP（行为时间尺度突触可塑性）为三因素规则提供了一个与�
 - [[btsp]] — BTSP 是三因素学习规则在海马情节记忆写入中的神经生理实现；树突平台电位充当"第三因素"，DDSC 实现秒级时序整合
 - [[corticostriatal-stdp]] — 三因素规则在纹状体的具体STDP实现（D1/D2-MSN不对称门控规则，Shen 2008）
 - [[striatal-direct-indirect-pathway]] — 三因素规则通过直接/间接通路双轨写入，实现"正确行动强化+竞争行动削弱"
+- [[eligibility-trace]] — 资格痕迹是三因素规则在毫秒→分钟时间尺度的分子实现（AC1/AC8沉默痕迹）；与STC共同构成三因素规则的时间积分体系
 
 ## 未解问题
 
@@ -146,9 +179,11 @@ BTSP（行为时间尺度突触可塑性）为三因素规则提供了一个与�
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 填补 [[hebbian-learning]] 页面的悬空引用 [[three-factor-learning-rule]] · 初始置信度：高
 - 2026-09-20 · 修订（rev2）· 基于《BTSP的分子秒表》一文（#150）· 新增「BTSP 作为三因素规则的海马实现」章节；对比 DA-奖励三因素与 BTSP-平台电位三因素的共性与区别；DDSC 与资格痕迹的分子类比；related 新增 btsp；开放问题新增 Q-three-factor-btsp-third-factor-identity
 - 2026-09-28 · 修订（rev3）· 基于《纹状体的突触法庭》一文（#158）· 在「纹状体D1/D2双通道实现」章节补入Shen 2008的STDP具体分子机制（D1阻断mGluR5-CB1路径；D2拮抗A2a的分子细节）；新增[[corticostriatal-stdp]]和[[striatal-direct-indirect-pathway]]连接；key_sources新增PMID:18687967、20613723、15528409、11544526；开放问题新增Q-corticostriatal-stdp-in-vivo-timing
+- 2026-09-29 · 修订（rev4）· 基于《时序信用分配》(#159) · 新增「资格痕迹：三因素规则的毫秒→分钟时间桥」章节，包含资格痕迹 vs STC vs 行为标记的时间层次对比表；connections新增eligibility-trace；key_sources新增PMID:36226826、21170072
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-09-20-btsp-camkii-molecular-timekeeper]]
 - [[2026-09-28-corticostriatal-stdp-d1d2-plasticity]]
+- [[2026-09-29-eligibility-trace-temporal-credit-assignment]]

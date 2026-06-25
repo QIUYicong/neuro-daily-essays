@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-28",
-  "node_count": 303,
-  "edge_count": 1790,
+  "updated": "2026-09-29",
+  "node_count": 307,
+  "edge_count": 1813,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2778,6 +2778,33 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/circuits/corticostriatal-stdp.md"
+    },
+    {
+      "id": "habitual-behavior",
+      "title": "习惯行为",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/habitual-behavior.md"
+    },
+    {
+      "id": "goal-directed-behavior",
+      "title": "目标导向行为",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/goal-directed-behavior.md"
+    },
+    {
+      "id": "eligibility-trace",
+      "title": "资格痕迹",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/eligibility-trace.md"
     }
   ],
   "edges": [
@@ -12378,7 +12405,7 @@
     },
     {
       "from": "apical-tuft",
-      "to": "consciousness-neural-correlates",
+      "to": "neural-correlates-of-consciousness",
       "type": "supports",
       "note": "Suzuki&Larkum 2020: 麻醉选择性解耦顶端-胞体耦合提供意识机制假说（PMID:32084339）"
     },
@@ -12909,6 +12936,66 @@
       "to": "corticostriatal-stdp",
       "type": "related",
       "note": "直接/间接通路的功能分化由D1/D2不对称STDP在突触层面实现"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "synaptic-tagging-capture",
+      "type": "related",
+      "note": "资格痕迹(~分钟)与STC(~小时)是时序信用分配的两级串联机制"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "three-factor-learning-rule",
+      "type": "mechanism-of",
+      "note": "资格痕迹是三因素规则在毫秒→分钟时间尺度的分子实现"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates",
+      "note": "DA爆发(D1/D5→Gs)是捕获资格痕迹的触发信号，与Ca²⁺共激活AC1/AC8"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "资格痕迹最终通过PKA→GluA1磷酸化/AMPAR插入导向LTP"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "corticostriatal-stdp",
+      "type": "supports",
+      "note": "AC1/AC8资格痕迹将皮层-纹状体STDP时序窗口从±20ms延伸至~10min"
+    },
+    {
+      "from": "eligibility-trace",
+      "to": "hebbian-learning",
+      "type": "related",
+      "note": "Hebbian激活是设置资格痕迹的必要条件"
+    },
+    {
+      "from": "synaptic-tagging-capture",
+      "to": "eligibility-trace",
+      "type": "related",
+      "note": "STC是资格痕迹在更长时间尺度的类似机制；两者分别对应分钟和小时时间窗"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "eligibility-trace",
+      "type": "is-a",
+      "note": "资格痕迹是三因素规则时间整合机制的分子实现"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "eligibility-trace",
+      "type": "related",
+      "note": "资格痕迹解决Q-corticostriatal-stdp-in-vivo-timing的时序不匹配问题"
+    },
+    {
+      "from": "striatal-plasticity",
+      "to": "eligibility-trace",
+      "type": "related",
+      "note": "AC1/AC8机制是D1-MSN时序信用分配的分钟级解法（推论）"
     }
   ],
   "dangling_references": [
@@ -13189,6 +13276,18 @@
         "polyglutamine-toxicity"
       ],
       "note": "核内包涵体专页；mHTT N端片段优先积累于细胞核形成的聚集体；毒性vs保护性的核心争议；CBP/转录因子被隔离"
+    },
+    {
+      "slug": "habitual-behavior",
+      "referenced_by": [],
+      "note": "已于2026-09-26创建 wiki/concepts/habitual-behavior.md 页面（第156篇文章）",
+      "resolved": "2026-09-29"
+    },
+    {
+      "slug": "goal-directed-behavior",
+      "referenced_by": [],
+      "note": "已于2026-09-26创建 wiki/concepts/goal-directed-behavior.md 页面（第156篇文章）",
+      "resolved": "2026-09-29"
     }
   ]
 }

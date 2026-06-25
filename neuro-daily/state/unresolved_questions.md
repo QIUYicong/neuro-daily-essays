@@ -4434,3 +4434,49 @@
 - **问题**：在体外实验中，D1-MSN的LTP可以在数小时内保持。然而，体内行为学习形成后的纹状体突触强化是否真的持久？特别是，D1→PKA→GluA1(Ser845)磷酸化驱动的E-LTP（几小时）能否自发转换为需要蛋白合成的L-LTP（数天/数周）？这一转换需要CREB磷酸化和PRPs合成（类似海马STC机制），但在纹状体是否存在完整的STC机制仍不确定。此外，PKMζ（海马L-LTP维持的关键激酶）在纹状体D1-MSN中的作用也不清楚。
 - **关键实验**：(1) 条件性回避学习后1/7/30/90天分别检测纹状体D1-MSN的GluA1 Ser845磷酸化水平和AMPAR密度，绘制时间曲线；(2) 成瘾动物（重复可卡因暴露后戒断1/4/8周）纹状体D1-MSN突触强度电生理记录，检验LTP是否长期维持；(3) 纹状体条件性PKMζ敲除（D1-Cre特异性）对已建立习惯的消除效果
 - **当前证据状态**：D1-MSN LTP体外持续性（数小时）：高；体内纹状体D1-MSN LTP持久性（数天/数周）：低/间接；PKMζ在纹状体的作用：低/推测
+
+---
+
+## 2026-09-29 新增（来自"时序信用分配"文章 #159）
+
+### Q-eligibility-trace-striatum（高优先级）：纹状体皮层-MSN突触是否存在AC1/AC8介导的资格痕迹？
+
+- **关联 wiki**：[[eligibility-trace]]、[[corticostriatal-stdp]]、[[striatal-plasticity]]、[[three-factor-learning-rule]]
+- **来源文章**：2026-09-29-eligibility-trace-temporal-credit-assignment
+- **问题**：Fuchsberger et al.（2022, PMID:36226826）在CA1锥体细胞中直接证明了AC1/AC8介导的资格痕迹（post-before-pre配对后，敏感态保持~10min，DA+爆发激活共激活AC1/AC8→cAMP→LTP）。然而，纹状体MSN中的主要腺苷酸环化酶亚型是AC5和AC6（而非AC1/AC8）。AC5/AC6对Da（D1/D5→Gs）高度敏感，但对Ca²⁺/钙调蛋白的敏感性不同于AC1/AC8。问题：(1) 纹状体D1-MSN中是否存在类似的"NMDA激活→AC敏感态→等待DA"的资格痕迹机制？(2) 若AC5/AC6不响应Ca²⁺/钙调蛋白，纹状体的资格痕迹分子是什么（CaMKII？DARPP-32？其他）？
+- **关键实验**：(1) 直接在纹状体D1-MSN中复制Fuchsberger 2022的实验设计（post-before-pre配对，延迟DA施加，不同间隔0/1/5/10/30min，测量LTP诱导率）；(2) AC5/AC6双敲除D1-MSN中测试资格痕迹是否消失；(3) 体内实验：皮层刺激（STDP协议）后精确延迟光遗传DA爆发（VTA/SNc），记录纹状体单突触EPSPs
+- **当前证据状态**：CA1 AC1/AC8资格痕迹：高（直接证明）；纹状体AC5/AC6类似机制：低/推测；纹状体D1-MSN中体外资格痕迹实验：未完成
+
+### Q-eligibility-trace-duration（中优先级）：资格痕迹的有效期上限是多少？
+
+- **关联 wiki**：[[eligibility-trace]]、[[synaptic-tagging-capture]]
+- **来源文章**：2026-09-29-eligibility-trace-temporal-credit-assignment
+- **问题**：Fuchsberger 2022证明了10分钟仍有效。但痕迹的上限（15min？30min？1h？）未测定。痕迹寿命应取决于Ca²⁺残留的衰减时间常数（与突触缓冲能力、细胞型有关）。此外，痕迹有效期是否因突触类型（兴奋性/抑制性）、细胞类型（锥体细胞/MSN）、网络活动背景（θ振荡/gamma？）而不同？若资格痕迹与STC（~1-2h标签）之间有时间重叠，两者的交互作用是什么？
+- **关键实验**：(1) 系统测量不同时间间隔（1/5/10/15/20/30/60min）后DA+爆发诱导LTP的成功率，绘制"资格痕迹存活曲线"；(2) 在AC1/AC8过表达细胞中，痕迹有效期是否延长？(3) 背景θ振荡（通过CA3/EC刺激诱导）对资格痕迹有效期的影响
+- **当前证据状态**：10min内有效：高（Fuchsberger 2022）；上限时间：未测定；不同神经元类型差异：未测定
+
+### Q-eligibility-trace-vs-stc（中优先级）：资格痕迹（分钟级）与突触标记/捕获（小时级）是否在同一突触上串联工作？
+
+- **关联 wiki**：[[eligibility-trace]]、[[synaptic-tagging-capture]]、[[three-factor-learning-rule]]
+- **来源文章**：2026-09-29-eligibility-trace-temporal-credit-assignment
+- **问题**：理论上，资格痕迹和STC应在同一突触上串联——Hebbian配对设置资格痕迹（分钟级）同时设置STC标签（小时级），然后等待DA信号。若DA在~10min内到来，激活资格痕迹→E-LTP；若DA在10min-2h内到来，通过STC标签捕获PRPs→L-LTP。这两种途径的最终结果是否相同（均为L-LTP）？还是资格痕迹只产生E-LTP，需要STC接力才能升级为L-LTP？若资格痕迹和STC是串联的，两者的分子底物（AC1/AC8 vs CaMKII标签）是否相互独立还是共享底物？
+- **关键实验**：(1) 资格痕迹诱导的LTP（10min DA）后24h检测是否维持（区分E-LTP vs L-LTP）；(2) 蛋白合成抑制剂（茴香霉素）施用时机：对资格痕迹激活的E-LTP是否影响？对随后可能的L-LTP是否影响？(3) 同时阻断AC1/AC8（消除资格痕迹）和蛋白合成（消除STC捕获），对比与单独阻断各自的效果
+- **当前证据状态**：资格痕迹和STC作为独立机制：高；两者串联工作的直接实验证据：缺乏
+
+### Q-striatal-stc-mechanism（中优先级）：纹状体皮层-MSN突触是否存在完整的突触标记与捕获（STC）机制？
+
+- **关联 wiki**：[[synaptic-tagging-capture]]、[[corticostriatal-stdp]]、[[striatal-plasticity]]、[[eligibility-trace]]
+- **来源文章**：2026-09-29-eligibility-trace-temporal-credit-assignment
+- **问题**：STC机制在海马CA1和杏仁核中已有充分证明。纹状体皮层-MSN突触是否同样存在：(1) 弱刺激设置"突触标签"；(2) 标签有效期内，强刺激或DA爆发诱导PRPs合成；(3) PRPs被标签捕获，弱刺激突触升级为L-LTP？目前没有直接在纹状体皮层-MSN突触上验证STC三步骤的实验。若纹状体确实有STC，资格痕迹（~10min）和STC标签（~1-2h）构成的两级时间积分体系可以解释纹状体编码的行为记忆从数分钟到数小时的持久性差异。
+- **关键实验**：(1) 双通路皮层-纹状体刺激方案（类比Frey & Morris 1997），测试弱刺激是否在有强刺激协同时被升级为L-LTP；(2) D1-MSN条件性蛋白合成抑制（D1-Cre-iDTR + anisomycin），检测L-LTP是否特异性缺失；(3) 体内强化学习后，D1-MSN树突棘密度/AMPAR密度在24h/7d/30d的纵向变化（是否维持）；(4) PKMζ在纹状体D1-MSN中的条件性敲除对习惯记忆持久性的影响
+- **当前证据状态**：纹状体弱/强刺激分级LTP（电生理体外）：有（但未明确按STC协议测试）；纹状体PRP合成（DA→CREB→Arc/PKMζ）：有证据但未直接用于捕获实验；完整三步骤STC在纹状体：未直接测试
+
+## 2026-09-29 已有问题进展更新
+
+### Q-d1-ltp-persistence（部分进展，2026-09-29）
+
+- **进展**：Fuchsberger et al.（2022, PMID:36226826）的资格痕迹机制为"D1-MSN如何等待DA信号并被强化"提供了分钟级答案：NMDA-R激活后，AC1/AC8进入敏感态，约10分钟内DA+爆发即可激活LTP。这在CA1中得到了直接实验支持；纹状体的类似机制（AC5/AC6）是推论。对于更长持久性问题（数天/数周），STC机制（若在纹状体存在）提供了理论框架，但仍缺乏纹状体直接证据。置信度从"低/推测"提升至"低/推测（分钟级机制有类推依据）"。
+
+### Q-corticostriatal-stdp-in-vivo-timing（部分解答，2026-09-29）
+
+- **进展**：资格痕迹（Fuchsberger 2022）直接解答了如何从±20ms STDP窗口延伸至分钟级DA延迟：AC1/AC8沉默敏感态在配对后持续~10min，DA+爆发可激活LTP。问题从"机制未知"变为"CA1直接证明，纹状体类推合理，但缺乏纹状体直接实验验证"。剩余开放部分：纹状体AC1/AC8等效物（AC5/AC6？其他？）的直接验证（Q-eligibility-trace-striatum）。

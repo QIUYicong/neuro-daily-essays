@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-28（第158篇·纹状体的突触法庭：D1-MSN与D2-MSN如何将奖励信号刻入神经回路）· 主题页总数：**301**（新建1页：circuits/corticostriatal-stdp；修订3页：circuits/striatal-direct-indirect-pathway rev1→rev2、concepts/three-factor-learning-rule rev2→rev3、concepts/dopamine-reward-prediction-error rev7→rev8；图谱304节点/1803边）
+> 最后更新：2026-09-29（第159篇·时序信用分配：资格痕迹如何让大脑跨越时间鸿沟学习）· 主题页总数：**302**（新建1页：concepts/eligibility-trace；修订4页：concepts/synaptic-tagging-capture rev3→rev4、concepts/three-factor-learning-rule rev3→rev4、circuits/corticostriatal-stdp rev1→rev2、concepts/striatal-plasticity rev1→rev2；图谱307节点/1813边）
 
 ---
 
@@ -139,8 +139,9 @@
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号 **[NEW 2026-06-07]**
-- 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；纹状体直接实验验证；BTSP 作为海马实现（树突平台电位充当第三因素，DDSC充当资格痕迹整合器）**[修订 rev2 2026-09-20]**
-- 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题；PKMζ是第一个明确L-LTP特异性PRP；LC-DA（非VTA）是行为标记 PRPs 合成的主要触发者 **[修订 rev3 2026-09-21]**
+- 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；纹状体直接实验验证；BTSP 作为海马实现；**rev4新增**：资格痕迹（毫秒→分钟）+ STC（分钟→小时）+ 行为标记（<6h）三级时间整合体系**[修订 rev4 2026-09-29]**
+- 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题；PKMζ是第一个明确L-LTP特异性PRP；行为标记（Wang 2010 P<0.001量化证明）；疾病中STC失效（AD APP/PS1小鼠）**[修订 rev4 2026-09-29]**
+- 🟡 [资格痕迹（Eligibility Trace）](concepts/eligibility-trace.md) — NMDA-R激活后AC1/AC8进入"沉默敏感态"（~10min），等待DA+爆发共激活→cAMP骤升→LTP；将STDP时序窗口（±20ms）延伸至分钟级；与STC共构时序信用分配多级体系（毫秒→分钟→小时）；Fuchsberger 2022 CA1直接证明（LTD→LTP翻转，AC1/AC8敲除消除效应）**[NEW 2026-09-29]**
 - 🟢 [PKMζ（蛋白激酶M-ζ）](concepts/pkm-zeta.md) — 无调节域aPKC（合成即激活）；通过阻止GluA2-AMPAR内吞维持突触强度；STC第一个明确L-LTP PRP；2013年KO危机→PKCι/λ代偿→双KO消除L-LTP；KIBRA-PKMζ寡聚体感染性磷酸化解答克里克1984年蛋白周转悖论；ZIP阳离子机制重写（Stokes 2025）**[NEW 2026-09-21]**
 - 🟡 [蓝斑-海马多巴胺系统（LC-DA）](concepts/lc-hippocampus-dopamine.md) — LC TH⁺ 末梢（非VTA）是海马dCA1 DA的主要来源；D1/D5调控记忆持续性（非编码）；行为标记（新颖→LC-DA→PRPs→STC）；记忆联结（~6h时间窗，LC→dCA1 D1/D5依赖）；与GC-NE应激记忆系统互补 **[NEW 2026-07-11]**
 - 🔵 [Actor-Critic架构（基底节）](concepts/actor-critic-brain.md) — VTA/SNc=TD误差δ广播；NAc/腹侧纹状体=Critic价值估计；背侧纹状体D1-MSN=Actor Go / D2-MSN=Actor No-Go；DA双向读出设计（D1兴奋/D2抑制）**[NEW 2026-07-12]**

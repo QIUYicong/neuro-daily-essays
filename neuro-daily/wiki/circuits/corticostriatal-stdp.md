@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-09-28
-updated: 2026-09-28
-revision_count: 1
+updated: 2026-09-29
+revision_count: 2
 dimensions: [synaptic, cellular, microcircuit, brain-region, behavior]
-related: [striatal-direct-indirect-pathway, dopamine-reward-prediction-error, three-factor-learning-rule, medium-spiny-neuron, basal-ganglia, hebbian-learning, ltp, ltd, parkinsons-disease, addiction, habitual-behavior]
+related: [striatal-direct-indirect-pathway, dopamine-reward-prediction-error, three-factor-learning-rule, medium-spiny-neuron, basal-ganglia, hebbian-learning, ltp, ltd, parkinsons-disease, addiction, habitual-behavior, eligibility-trace, synaptic-tagging-capture]
 prerequisites: [medium-spiny-neuron, dopamine-reward-prediction-error, three-factor-learning-rule, nmda-receptor, hebbian-learning]
-opens_questions: [Q-d2msn-a2a-in-vivo, Q-d1-ltp-persistence, Q-corticostriatal-stdp-in-vivo-timing]
-source_articles: [2026-09-28-corticostriatal-stdp-d1d2-plasticity]
-key_sources: ["PMID:18687967", "PMID:20613723", "PMID:21469956", "PMID:9054347", "PMID:11544526", "PMID:15528409"]
+opens_questions: [Q-d2msn-a2a-in-vivo, Q-d1-ltp-persistence, Q-corticostriatal-stdp-in-vivo-timing, Q-striatal-stc-mechanism]
+source_articles: [2026-09-28-corticostriatal-stdp-d1d2-plasticity, 2026-09-29-eligibility-trace-temporal-credit-assignment]
+key_sources: ["PMID:18687967", "PMID:20613723", "PMID:21469956", "PMID:9054347", "PMID:11544526", "PMID:15528409", "PMID:36226826", "PMID:9020359"]
 ---
 
 # 皮层-纹状体STDP（多巴胺门控的不对称突触可塑性）
@@ -110,17 +110,21 @@ DA低→D2R激活减弱→Gi抑制解除→A2a可正常激活→cAMP↑→PKA
 - [[hebbian-learning]] — STDP是Hebbian规则的时序精化版本
 - [[parkinsons-disease]] — DA缺失导致此机制双向失调（D1-MSN只LTD/D2-MSN失方向性）
 - [[addiction]] — 成瘾药物诱导的DA超爆发对D1-MSN LTP的病理性劫持
+- [[eligibility-trace]] — AC1/AC8资格痕迹将体外±20ms STDP窗口延伸至体内分钟级，解决时序信用分配问题
+- [[synaptic-tagging-capture]] — STC在纹状体的类似机制（若存在）提供更长时间窗（~1-2h）的信用分配；PRPs作为"捕获信号"的纹状体版本待确认
 
 ## 未解问题
 
-- **Q-corticostriatal-stdp-in-vivo-timing**（高优先级）：体外STDP时序窗口（±20ms）与体内多巴胺爆发延迟（200-500ms后于行为）如何协调？突触标记与捕获（STC）是否足以解释时间延迟，还是纹状体有其他时间积分机制？
+- **Q-corticostriatal-stdp-in-vivo-timing**（部分解答，2026-09-29）：体外STDP时序窗口（±20ms）与体内多巴胺爆发延迟（200-500ms后于行为）如何协调？现有答案：**资格痕迹**（Fuchsberger 2022, PMID:36226826）提供分钟级时间桥——NMDA-R激活后AC1/AC8进入敏感状态，10分钟内DA+爆发可激活cAMP并诱导LTP（初始LTD→LTP的翻转在CA1已直接证明；纹状体AC机制类推成立）。更长时间（>2h）：突触标记与捕获（STC, PMID:9020359）接力——纹状体是否有完整STC机制仍是开放问题（Q-striatal-stc-mechanism）。
 - **Q-d2msn-a2a-in-vivo**（高优先级）：A2a腺苷受体在D2-MSN LTP中的体内动态如何？腺苷的局部积聚（来自ATP水解）与DA爆发的时空耦合如何？这两个信号是否存在内源性同步机制？
 - **Q-d1-ltp-persistence**（中优先级）：D1-MSN的LTP在体内有多持久？是否需要后续DA信号"维持标签"？与PKMζ（对应持久记忆的分子）的关系如何？
 
 ## 修订历史
 
 - 2026-09-28 · 创建 · 基于《纹状体的突触法庭：D1-MSN与D2-MSN如何将奖励信号刻入神经回路》（第158篇）· 核心来源：Shen 2008（全文），Kravitz 2010（全文），Gerfen & Surmeier 2011（综述）· 初始置信度：高（分子机制，多实验室验证）
+- 2026-09-29 · 修订 rev2 · 基于《时序信用分配》(#159) · 关键更新：Q-corticostriatal-stdp-in-vivo-timing部分解答（Fuchsberger 2022资格痕迹提供分钟级时间桥）；connections新增eligibility-trace、synaptic-tagging-capture；opens_questions新增Q-striatal-stc-mechanism；key_sources新增PMID:36226826、9020359
 
 ## 来源文章
 
 - [[2026-09-28-corticostriatal-stdp-d1d2-plasticity]]
+- [[2026-09-29-eligibility-trace-temporal-credit-assignment]]
