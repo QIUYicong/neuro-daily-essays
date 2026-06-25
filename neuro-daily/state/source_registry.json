@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19",
+  "last_updated": "2026-09-21",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9496,9 +9496,137 @@
         "plasticity",
         "cue_punishment_learning"
       ]
+    },
+    {
+      "pmid": "16463388",
+      "title": "PKMzeta doubles synaptic AMPA receptors",
+      "year": 2006,
+      "journal": "Nat Neurosci",
+      "access": "subscription",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "15958741",
+      "pmcid": "PMC6724879",
+      "title": "PKMzeta first L-LTP specific PRP in STC",
+      "year": 2005,
+      "journal": "PNAS",
+      "access": "open",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "21119699",
+      "title": "How does PKMzeta maintain long-term memory (review)",
+      "year": 2011,
+      "journal": "Nat Rev Neurosci",
+      "access": "subscription",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "20383136",
+      "title": "PKMzeta prevents GluA2-AMPAR endocytosis",
+      "year": 2010,
+      "journal": "Nat Neurosci",
+      "access": "subscription",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "23283171",
+      "pmcid": "PMC3548047",
+      "title": "Prkcz null mice show normal learning and memory",
+      "year": 2013,
+      "journal": "Nature",
+      "access": "open",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "23283174",
+      "pmcid": "PMC3830948",
+      "title": "PKM-zeta not required for hippocampal LTP",
+      "year": 2013,
+      "journal": "Nature",
+      "access": "open",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "23283170",
+      "title": "Memory and the single molecule (commentary)",
+      "year": 2013,
+      "journal": "Nature",
+      "access": "subscription",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "27187150",
+      "pmcid": "PMC4869915",
+      "title": "PKCiota/lambda compensates for PKMzeta KO",
+      "year": 2016,
+      "journal": "eLife",
+      "access": "open",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "33540466",
+      "pmcid": "PMC8333175",
+      "title": "PKMzeta elevated 1 month in memory-activated neurons",
+      "year": 2021,
+      "journal": "Eur J Neurosci",
+      "access": "open",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "39814881",
+      "pmcid": "PMC12413077",
+      "title": "ZIP cationic macropinocytosis mechanism not PKMzeta-specific",
+      "year": 2025,
+      "journal": "Nature",
+      "access": "open",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "41814337",
+      "pmcid": "PMC12997682",
+      "title": "KIBRA-PKMzeta oligomers infectious phosphorylation LTM",
+      "year": 2026,
+      "journal": "Mol Brain",
+      "access": "open",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
+    },
+    {
+      "pmid": "41889799",
+      "pmcid": "PMC13014159",
+      "title": "Double KO PKMzeta PKCiota eliminates late-LTP",
+      "year": 2026,
+      "journal": "bioRxiv",
+      "access": "open",
+      "used_in": [
+        "2026-09-21-pkm-zeta-late-ltp-persistence"
+      ]
     }
   ],
-  "total_sources": 550,
+  "total_sources": 562,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

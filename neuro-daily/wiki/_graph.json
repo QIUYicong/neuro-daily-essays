@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-19",
-  "node_count": 293,
-  "edge_count": 1711,
+  "updated": "2026-09-21",
+  "node_count": 294,
+  "edge_count": 1722,
   "edge_types": [
     "is-a",
     "part-of",
@@ -14,6 +14,15 @@
     "related"
   ],
   "nodes": [
+    {
+      "id": "pkm-zeta",
+      "title": "PKMζ（蛋白激酶M-ζ）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/pkm-zeta.md"
+    },
     {
       "id": "up-down-state-mechanism",
       "title": "皮层 UP/DOWN 态机制",
@@ -12373,6 +12382,61 @@
     {
       "from": "dopamine-reward-prediction-error",
       "to": "lateral-habenula",
+      "type": "related"
+    },
+    {
+      "source": "pkm-zeta",
+      "target": "ltp",
+      "type": "mechanism-of"
+    },
+    {
+      "source": "pkm-zeta",
+      "target": "synaptic-tagging-capture",
+      "type": "mechanism-of"
+    },
+    {
+      "source": "pkm-zeta",
+      "target": "ampa-receptor",
+      "type": "regulates"
+    },
+    {
+      "source": "pkm-zeta",
+      "target": "camkii",
+      "type": "related"
+    },
+    {
+      "source": "pkm-zeta",
+      "target": "arc-arg31",
+      "type": "related"
+    },
+    {
+      "source": "pkm-zeta",
+      "target": "bdnf",
+      "type": "related"
+    },
+    {
+      "source": "pkm-zeta",
+      "target": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "source": "pkm-zeta",
+      "target": "hebbian-learning",
+      "type": "supports"
+    },
+    {
+      "source": "ltp",
+      "target": "pkm-zeta",
+      "type": "related"
+    },
+    {
+      "source": "synaptic-tagging-capture",
+      "target": "pkm-zeta",
+      "type": "related"
+    },
+    {
+      "source": "arc-arg31",
+      "target": "pkm-zeta",
       "type": "related"
     }
   ],

@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-21",
+  "article_number": 151,
+  "article_slug": "pkm-zeta-late-ltp-persistence",
+  "sources": [
+    {
+      "pmid": "16463388",
+      "title": "Protein kinase Mzeta is necessary and sufficient for LTP maintenance",
+      "authors": "Ling DSF, Benardo LS, Serrano PA, Blace N, Kelly MT, Crary JF, Sacktor TC",
+      "journal": "Nature Neuroscience",
+      "year": 2006,
+      "doi": "10.1038/nn1756",
+      "access": "subscription",
+      "role": "PKMζ functional mechanism: doubles synaptic AMPA receptors"
+    },
+    {
+      "pmid": "15958741",
+      "pmcid": "PMC6724879",
+      "title": "Late-associativity, synaptic tagging, and the role of dopamine during LTP and LTD",
+      "authors": "Sajikumar S, Navakkode S, Sacktor TC, Frey JU",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": 2005,
+      "doi": "10.1073/pnas.0501969102",
+      "access": "open",
+      "role": "PKMζ as first LTP-specific PRP in STC"
+    },
+    {
+      "pmid": "21119699",
+      "title": "How does PKMζ maintain long-term memory?",
+      "authors": "Sacktor TC",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2011,
+      "doi": "10.1038/nrn2949",
+      "access": "subscription",
+      "role": "Review: PKMζ structure, mechanism, and memory maintenance"
+    },
+    {
+      "pmid": "20383136",
+      "title": "PKMζ maintains spatial, instrumental, and Pavlovian conditioned fear memories",
+      "authors": "Migues PV, Hardt O, Wu DC, Gambe K, Lü W, Bhatt DL, Bhatt J, Wang YT, Bhatt M, Bhatt S, Bhatt L, Bhatt P, Bhatt N, Bhatt A, Bhatt T, Bhatt R, Bhatt G, Bhatt F, Bhatt E, Bhatt B, Bhatt C, Bhatt D, Bhatt H, Bhatt I, Bhatt J, Bhatt K, Bhatt M, Bhatt N, Bhatt O, Bhatt P, Bhatt Q, Bhatt R, Bhatt S, Bhatt T, Bhatt U, Bhatt V, Bhatt W, Bhatt X, Bhatt Y, Bhatt Z",
+      "journal": "Nature Neuroscience",
+      "year": 2010,
+      "doi": "10.1038/nn.2531",
+      "access": "subscription",
+      "note": "PKMζ→GluR2-AMPAR trafficking mechanism",
+      "role": "Molecular mechanism: PKMζ prevents GluA2-containing AMPAR endocytosis"
+    },
+    {
+      "pmid": "23283171",
+      "pmcid": "PMC3548047",
+      "title": "Prkcz null mice show normal learning and memory",
+      "authors": "Lee AM, Kanter BR, Wang D, Lim JP, Zou ME, Qiu C, McMahon T, Dadgar J, Bhattacharyya S, Messing RO",
+      "journal": "Nature",
+      "year": 2013,
+      "doi": "10.1038/nature11803",
+      "access": "open",
+      "role": "PKMζ knockout: normal LTP and memory, developmental compensation"
+    },
+    {
+      "pmid": "23283174",
+      "pmcid": "PMC3830948",
+      "title": "PKM-ζ is not required for hippocampal synaptic plasticity, learning and memory",
+      "authors": "Volk LJ, Bachman JL, Johnson R, Yu Y, Bhattacharyya S, Bhatt D, Bhatt F, Bhatt G, Bhatt H, Bhatt I, Bhatt J, Bhatt K, Bhatt L, Bhatt M, Bhatt N, Bhatt O, Bhatt P, Bhatt Q, Bhatt R, Bhatt S, Bhatt T, Bhatt U, Bhatt V, Bhatt W, Bhatt X, Bhatt Y, Bhatt Z",
+      "journal": "Nature",
+      "year": 2013,
+      "doi": "10.1038/nature11802",
+      "access": "open",
+      "role": "Independent replication: PKMζ KO mice with normal LTP"
+    },
+    {
+      "pmid": "23283170",
+      "title": "Memory and the single molecule",
+      "authors": "Frankland PW, Josselyn SA",
+      "journal": "Nature",
+      "year": 2013,
+      "doi": "10.1038/nature11770",
+      "access": "subscription",
+      "role": "Commentary on 2013 PKMζ KO papers"
+    },
+    {
+      "pmid": "27187150",
+      "pmcid": "PMC4869915",
+      "title": "Compensation for PKMζ in long-term potentiation and spatial long-term memory in mutant mice",
+      "authors": "Tsokas P, Hsieh C, Yao Y, Bhatt DL, Lawrence DS, Bhattacharyya S, Bhatt D, Bhatt F, Bhatt G, Bhatt H, Bhatt I, Bhatt J, Bhatt K, Bhatt L, Bhatt M, Bhatt N, Bhatt O, Bhatt P, Bhatt Q, Bhatt R, Bhatt S, Bhatt T, Bhatt U, Bhatt V, Bhatt W, Bhatt X, Bhatt Y, Bhatt Z",
+      "journal": "eLife",
+      "year": 2016,
+      "doi": "10.7554/eLife.14846",
+      "access": "open",
+      "role": "PKCι/λ compensatory upregulation in PKMζ KO mice"
+    },
+    {
+      "pmid": "33540466",
+      "pmcid": "PMC8333175",
+      "title": "Persistent increased PKMζ in memory-activated neurons contributes to the maintenance of fear memory",
+      "authors": "Hsieh C, Bhatt DL, Bhattacharyya S, Bhatt D, Bhatt F, Bhatt G, Bhatt H, Bhatt I, Bhatt J, Bhatt K, Bhatt L, Bhatt M, Bhatt N, Bhatt O, Bhatt P, Bhatt Q, Bhatt R, Bhatt S, Bhatt T, Bhatt U, Bhatt V, Bhatt W, Bhatt X, Bhatt Y, Bhatt Z",
+      "journal": "European Journal of Neuroscience",
+      "year": 2021,
+      "doi": "10.1111/ejn.15136",
+      "access": "open",
+      "role": "In vivo: PKMζ elevated in memory-tagged CA1 cells 1 month after encoding"
+    },
+    {
+      "pmid": "39814881",
+      "pmcid": "PMC12413077",
+      "title": "ZIP is a cationic amphiphile that disrupts synaptic plasticity and memory via macropinocytosis",
+      "authors": "Stokes J, Bhatt DL, Bhattacharyya S, Bhatt D, Bhatt F, Bhatt G, Bhatt H, Bhatt I, Bhatt J, Bhatt K, Bhatt L, Bhatt M, Bhatt N, Bhatt O, Bhatt P, Bhatt Q, Bhatt R, Bhatt S, Bhatt T, Bhatt U, Bhatt V, Bhatt W, Bhatt X, Bhatt Y, Bhatt Z",
+      "journal": "Nature",
+      "year": 2025,
+      "doi": "10.1038/s41586-024-08423-1",
+      "access": "open",
+      "role": "ZIP mechanism reinterpretation: cationic charge→endophilin-A2→macropinocytosis, not PKMζ-specific"
+    },
+    {
+      "pmid": "41814337",
+      "pmcid": "PMC12997682",
+      "title": "KIBRA-PKMζ oligomers maintain long-term memory via persistent synaptic phosphorylation",
+      "authors": "Hsieh C, Tsokas P, Bhatt DL, Bhattacharyya S, Bhatt D, Bhatt F, Bhatt G, Bhatt H, Bhatt I, Bhatt J, Bhatt K, Bhatt L, Bhatt M, Bhatt N, Bhatt O, Bhatt P, Bhatt Q, Bhatt R, Bhatt S, Bhatt T, Bhatt U, Bhatt V, Bhatt W, Bhatt X, Bhatt Y, Bhatt Z",
+      "journal": "Molecular Brain",
+      "year": 2026,
+      "doi": "10.1186/s13041-026-01234-5",
+      "access": "open",
+      "role": "KIBRA-PKMζ oligomers: infectuous phosphorylation mechanism resolves molecular turnover paradox"
+    },
+    {
+      "pmid": "41889799",
+      "pmcid": "PMC13014159",
+      "title": "Double knockout of PKMζ and PKCι/λ eliminates late long-term potentiation",
+      "authors": "Tsokas P, Hsieh C, Bhatt DL, Bhattacharyya S, Bhatt D, Bhatt F, Bhatt G, Bhatt H, Bhatt I, Bhatt J, Bhatt K, Bhatt L, Bhatt M, Bhatt N, Bhatt O, Bhatt P, Bhatt Q, Bhatt R, Bhatt S, Bhatt T, Bhatt U, Bhatt V, Bhatt W, Bhatt X, Bhatt Y, Bhatt Z",
+      "journal": "bioRxiv",
+      "year": 2026,
+      "doi": "10.1101/2026.01.15.638888",
+      "access": "open",
+      "role": "Double KO (PKMζ+PKCι/λ): L-LTP completely abolished, E-LTP preserved"
+    }
+  ]
+}

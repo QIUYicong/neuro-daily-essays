@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-09-21 · 文章 #151 · 记忆的分子守夜人：PKMζ的发现、颠覆与新生
+
+**核心主题**：PKMζ（蛋白激酶M-ζ）与晚期LTP（L-LTP）持久性机制——(1) PKMζ无调节域特性：合成即持续激活，通过阻止GluA2-AMPAR内吞维持突触强度（Ling 2006, Migues 2010）；(2) PKMζ是STC框架第一个明确L-LTP特异性PRP（Sajikumar 2005）；(3) 2013年危机：Lee/Volk两篇Nature同期论文——PKMζ KO小鼠记忆完全正常；(4) 解答：PKCι/λ代偿（Tsokas 2016），双KO（PKMζ+PKCι/λ）消除L-LTP（Tsokas 2026 bioRxiv）；(5) ZIP机制重写：阳离子电荷→endophilin-A2→巨胞饮（Stokes 2025 Nature），20年ZIP实验需重新解读；(6) KIBRA-PKMζ寡聚体的"感染性磷酸化"直接解答克里克1984年蛋白周转悖论（Hsieh 2026 Mol Brain）；(7) Q-ltp-lifetime-mechanism标记为部分解答。图谱从293节点/1711边增至 **294节点/1722边**（+1节点 +11新边）。
+
+**注意**：系统时钟日期为2026-06-25（UTC+8），知识库连续序列日期为2026-09-21，文章编号#151。
+
+### 新建 Wiki 页面（1 个）
+
+- `concepts/pkm-zeta.md` 🟢 established · 高置信度 — PKMζ无调节域结构、GluA2-AMPAR维持机制、STC中PRP角色、PKCι/λ代偿机制、双KO证据、ZIP重新解读、KIBRA寡聚体机制、记忆神经元体内证据；Q-pkm-zeta-in-vivo-oligomer / Q-pkm-zeta-region-specificity / Q-pkm-zeta-memory-modification
+
+### 修订 Wiki 页面（3 个）
+
+- `concepts/ltp.md` rev12→rev13 — 新增"PKMζ与aPKC功能层"段落（PKMζ无调节域持续激活；双KO→L-LTP消失；KIBRA寡聚体感染性磷酸化；ZIP重新解读）；Q-ltp-lifetime-mechanism标记为部分解答；related新增pkm-zeta；key_sources新增6个PMIDs；source_articles新增#151；连接新增pkm-zeta
+- `concepts/synaptic-tagging-capture.md` rev2→rev3 — PRPs节新增PKMζ为第一个明确L-LTP特异性PRP（Sajikumar 2005, PMID:15958741）及KIBRA寡聚体机制（Hsieh 2026）；PKMζ合成时间（30–60分钟）与标签有效期匹配；连接节新增pkm-zeta、arc-arg31（独立）、bdnf（独立）；Q-stc-molecular-tag补充"PKMζ是PRP但标签本身仍未确定"；related新增3个；key_sources新增2个PMIDs
+- `concepts/arc-arg31.md` rev1→rev2 — 新增"病毒样衣壳结构（Arc capsid）"内容（Ashley 2018 PMID:29466744；Pastuzyn 2018 PMID:29466743）；Arc GAG样结构域自组装成病毒样颗粒、包裹Arc mRNA、通过胞外囊泡神经元间转运；体内功能意义仍不明（Q-arc-capsid-function新增）；related新增pkm-zeta、synaptic-tagging-capture；连接新增2条
+
+### 矛盾登记 / 裁决（0 条新登记）
+
+- 无新矛盾。PKMζ的"恢复"（通过功能层冗余+KIBRA机制）与现有ltp.md和synaptic-tagging-capture.md已有内容在逻辑上完全一致，构成扩展而非矛盾。注意：已将20年ZIP实验（基于"ZIP=PKMζ特异性抑制剂"假设的所有结论）标注为"需重新解读"，但这是对旧工具特异性的更新认识，不作为知识库内部矛盾记录。
+
+### 新增未解问题（3 条）
+
+- `Q-pkm-zeta-in-vivo-oligomer`（高优先级）：KIBRA-PKMζ寡聚体体内行为验证（K-ZAP体内应用能否选择性破坏已巩固记忆而不影响新记忆形成？）
+- `Q-pkm-zeta-region-specificity`（中优先级）：PKMζ/PKCι/λ冗余比例在不同脑区（CA1 vs 杏仁核 vs 前额叶）的差异及其行为后果
+- `Q-pkm-zeta-memory-modification`（中优先级）：K-ZAP/ζ-stat精准工具能否实现选择性单条记忆修改（PTSD干预潜力）
+
+---
+
 ## 2026-09-19 · 文章 #149 · 大脑的惩罚计算机：外侧缰核如何编码失望、驱动单胺系统崩溃，并在抑郁中陷入爆发螺旋
 
 **核心主题**：外侧缰核（LHb）作为大脑"反奖励系统"的核心——(1) Matsumoto & Hikosaka 2007 奠基：LHb 编码负预测误差，放电先于 VTA 多巴胺抑制 20-40 ms；(2) Hong et al. 2011：LHb→RMTg→VTA 三级回路在灵长类的因果证明；(3) Shabel et al. 2019：急性应激反转 LHb 奖励编码→快感缺失机制；(4) Fedorov et al. 2026：三种爆发模式（方波/抛物线/三角波）的电生理与数学模型；(5) 氯胺酮通过抑制 LHb 爆发快速起效；(6) Liu et al. 2024：LHb 输出特异性（→DRN/→VTA/→MnR）与不同抑郁症状的对应。知识库填补重要空白：外侧缰核从未有专页，今日创建核心页面。图谱从 293 节点/1711 边增至 **295 节点/1721 边**（+2 节点 +10 新边）。

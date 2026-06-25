@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-04
-updated: 2026-06-04
-revision_count: 1
+updated: 2026-09-21
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, cognition]
-related: [ltd, ltp, ampa-receptor, memory-consolidation, engram-cells, mglur-ltd]
+related: [ltd, ltp, ampa-receptor, memory-consolidation, engram-cells, mglur-ltd, pkm-zeta, synaptic-tagging-capture]
 prerequisites: [synaptic-transmission, ampa-receptor, ltp, ltd]
-opens_questions: [Q-arc-ltp-ltd-switch, Q-arc-dendritic-targeting]
-source_articles: [2026-06-04-ltd-long-term-depression]
-key_sources: ["PMID:19690847", "PMID:25429259", "PMID:24183021"]
+opens_questions: [Q-arc-ltp-ltd-switch, Q-arc-dendritic-targeting, Q-arc-capsid-function]
+source_articles: [2026-06-04-ltd-long-term-depression, 2026-09-21-pkm-zeta-late-ltp-persistence]
+key_sources: ["PMID:19690847", "PMID:25429259", "PMID:24183021", "PMID:29466744", "PMID:29466743"]
 ---
 
 # Arc/Arg3.1（活动调控的细胞骨架相关蛋白）
@@ -38,6 +38,9 @@ Arc 的"双向"功能使它成为大脑活动感知系统的一部分：它感�
 - **基因**：*Arc*（小鼠）= *Arg3.1*（大鼠），即早基因（IEG），依赖活动诱导表达
 - **蛋白结构**：含 N 端 NHD 结构域（与 dynamin 结合）和 C 端 CCD 结构域（参与多聚化）
 - **mRNA 的特殊性**：Arc mRNA 含去稳定元件（ARE），半衰期短（~30 min）；同时含特殊的 3'UTR，驱动树突靶向运输
+
+**2026-09-21 新增：病毒样衣壳结构（Arc capsid）**：
+Arc 蛋白在体外和体内可自发组装成**病毒样衣壳颗粒**（virus-like capsid），能够包裹Arc mRNA并通过胞外囊泡（extracellular vesicles）在神经元间转运（Ashley et al. 2018, PMID:29466744；Pastuzyn et al. 2018, PMID:29466743）。Arc 的 N 端 GAG 样结构域（类似逆转录病毒 capsid）和 C 端 linker 结构域分别驱动寡聚化和RNA结合。这表明 Arc 不只是胞内信号蛋白，还具有细胞间通讯功能（突触→核？神经元→神经元？），可能通过传递mRNA影响突触可塑性的协同，但体内功能意义仍不清楚（Q-arc-capsid-function）。
 
 ### Arc 在 LTD 中的作用
 
@@ -73,14 +76,18 @@ mGluR5 激活 → ERK 磷酸化激活 → FMRP 翻译抑制解除 → Arc mRNA �
 - [[ampa-receptor]] — Arc 直接驱动 AMPAR 网格蛋白内吞，是受体从突触移除的关键连接者
 - [[memory-consolidation]] — Arc 敲除的记忆巩固缺损说明 Arc 是将 LTP 转化为持久记忆的关键分子
 - [[engram-cells]] — Arc 标记活跃神经元（用于 ArcCreERT2 等印迹捕获工具）；Arc 表达量可能区分印迹细胞与非印迹细胞
+- [[pkm-zeta]] — Arc 和 PKMζ 是 STC 框架中两个最重要的 L-LTP PRPs；Arc 负责结构稳定，PKMζ 负责功能维持
+- [[synaptic-tagging-capture]] — Arc 是 STC 的重要 PRP（结构稳定成分）；与 PKMζ 共同构成 L-LTP 的分子执行层
 
 ## 未解问题
 
 - Q-arc-ltp-ltd-switch：同一细胞中，Arc 如何"决定"促进 LTP（肌动蛋白稳定）还是促进 LTD（AMPAR 内吞）？活动量？局部 Ca²⁺ 的精确水平？时间窗口？
 - Q-arc-dendritic-targeting：Arc mRNA 被运输到特定的激活树突棘的分子机制是什么？参与运输的 RNA 结合蛋白和运动蛋白是哪些？
+- Q-arc-capsid-function：Arc 病毒样衣壳在神经元间转运 mRNA 的体内功能意义是什么？这是否是突触可塑性在细胞群体水平协同的一种机制？与 STC 中 PRPs 的捕获有何关联？
 
 ## 修订历史
 
+- 2026-09-21 · 修订 rev2 · 基于《记忆的分子守夜人》(#151) · 新增"病毒样衣壳结构"（Ashley/Pastuzyn 2018, PMID:29466744/29466743）；related新增pkm-zeta、synaptic-tagging-capture；连接新增pkm-zeta和synaptic-tagging-capture；opens_questions新增Q-arc-capsid-function；key_sources新增2个PMID；source_articles新增#151
 - 2026-06-04 · 创建 · 基于《遗忘的精准：LTD 文章》· 初始置信度：高
 
 ## 来源文章

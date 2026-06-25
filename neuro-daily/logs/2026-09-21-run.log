@@ -1,0 +1,65 @@
+# 运行日志 · 2026-09-21
+
+**知识库连续性日期**：2026-09-21
+**系统时钟日期**：2026-06-25（UTC+8，已知固定值）
+**文章编号**：#151
+**运行结果**：成功
+
+## 执行摘要
+
+- 主题：PKMζ与晚期LTP持久性机制（回应未解问题 Q-ltp-lifetime-mechanism）
+- 文章长度：约5200中文字符（含参考文献）
+- 参考文献：12篇，全部为已确认真实PMID，8篇为开放获取（PMC可访问）
+- 新建wiki页：1个（pkm-zeta.md）
+- 修订wiki页：3个（ltp.md rev12→rev13, synaptic-tagging-capture.md rev2→rev3, arc-arg31.md rev1→rev2）
+- 未解问题：新增3个（Q-pkm-zeta-in-vivo-oligomer, Q-pkm-zeta-region-specificity, Q-pkm-zeta-memory-modification）
+- 未解问题部分解答：Q-ltp-lifetime-mechanism（标记为部分解答）
+- 图谱变化：293→294节点，1711→1722边
+
+## 研究过程
+
+### 文献查找
+- 通过PubMed/PMC查找PKMζ核心文献
+- 确认全部12个PMID的真实性（通过开放获取验证，部分通过PMC全文）
+- 关键2013年论文（Lee/Volk）通过PMC开放获取全文确认
+- 2025-2026年最新文献（Stokes 2025 Nature, Hsieh 2026 Mol Brain, Tsokas 2026 bioRxiv）通过PMC确认
+
+### 主要发现
+1. ZIP的20年机制误解已被Stokes 2025纠正（阳离子电荷非PKMζ特异性）
+2. KIBRA-PKMζ寡聚体的"感染性磷酸化"是克里克1984年问题的直接分子答案
+3. 双KO（PKMζ+PKCι/λ）是最终的关键证据（Tsokas 2026）
+4. Q-ltp-lifetime-mechanism现有框架性答案，但体内行为验证仍需进行
+
+## 文件清单
+
+**新建文件**：
+- `neuro-daily/articles/2026-09-21-pkm-zeta-late-ltp-persistence.md`
+- `neuro-daily/notes/2026-09-21-reading-notes.md`
+- `neuro-daily/sources/2026-09-21-sources.json`
+- `neuro-daily/wiki/concepts/pkm-zeta.md`
+- `neuro-daily/logs/2026-09-21-run.log`（本文件）
+
+**修订文件**：
+- `neuro-daily/wiki/concepts/ltp.md`（rev12→rev13）
+- `neuro-daily/wiki/concepts/synaptic-tagging-capture.md`（rev2→rev3）
+- `neuro-daily/wiki/concepts/arc-arg31.md`（rev1→rev2）
+- `neuro-daily/wiki/_graph.json`
+- `neuro-daily/wiki/index.md`
+- `neuro-daily/wiki/CHANGELOG.md`
+- `neuro-daily/state/topic_ledger.json`
+- `neuro-daily/state/unresolved_questions.md`
+- `neuro-daily/state/monthly_synthesis.md`
+- `neuro-daily/state/source_registry.json`（待更新）
+- `neuro-daily/state/maturity_index.json`（待更新）
+
+## 质量检查
+
+- [x] 文章长度符合要求（3000-6000字范围内）
+- [x] 所有PMID已验证为真实存在
+- [x] 未使用Sci-Hub或其他付费绕过工具
+- [x] 未编造研究结论
+- [x] wiki更新与文章内容一致
+- [x] 修订历史已更新
+- [x] 图谱节点和边已添加
+- [x] 未解问题已记录
+- [x] 知识库连续性日期使用2026-09-21（非系统时钟）

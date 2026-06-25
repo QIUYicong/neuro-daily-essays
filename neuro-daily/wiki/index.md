@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-20（第150篇·BTSP的分子秒表：CaMKII延迟随机激活（DDSC）如何实现行为时间尺度的突触可塑性）· 主题页总数：**292**（新建0页；修订3页：neurons/camkii rev1→rev2、concepts/btsp rev2→rev3、concepts/three-factor-learning-rule rev1→rev2；新增 Q-btsp-ddsc-synapse-specificity/Q-btsp-in-vivo-ddsc/Q-btsp-non-spatial-generalization；图谱295节点/1729边）
+> 最后更新：2026-09-21（第151篇·记忆的分子守夜人：PKMζ的发现、颠覆与新生）· 主题页总数：**293**（新建1页：concepts/pkm-zeta；修订3页：concepts/ltp rev12→rev13、concepts/synaptic-tagging-capture rev2→rev3、concepts/arc-arg31 rev1→rev2；新增 Q-pkm-zeta-in-vivo-oligomer/Q-pkm-zeta-region-specificity/Q-pkm-zeta-memory-modification；Q-ltp-lifetime-mechanism部分解答；图谱294节点/1722边）
 
 ---
 
@@ -67,7 +67,7 @@
 - 🟢 [神经炎症](concepts/neuroinflammation.md) — CNS对损伤/病原体/错误折叠蛋白的免疫应答；小胶质细胞+星形胶质细胞协同介导；稳态P2RY12+→DAM两步激活（Step 1 TREM2非依赖/Step 2 TREM2依赖）；TREM2-APOE轴→MGnD神经退行性表型；保护vs破坏净效应依赖于疾病阶段；AD/PD/ALS共同病理特征 **[NEW 2026-09-17]**
 - 🔵 [疾病相关微胶质细胞（DAM）](concepts/disease-associated-microglia.md) — 神经退行性疾病斑块周围的特化小胶质细胞亚态；稳态→Step 1（P2RY12↓/CX3CR1↓）→Step 2 TREM2依赖（LPL↑/CTSD↑/强吞噬能力）；5XFAD小鼠Aβ斑块周围微胶质屏障；TREM2-KO→屏障缺失→斑块扩散更广；人类AD脑snRNA-seq确认（Mathys 2019）；Q-dam-01至Q-dam-04未解问题 **[NEW 2026-09-17]**
 - 🔵 [PINK1/Parkin 线粒体自噬](concepts/pink1-parkin-mitophagy.md) — ΔΨm消失→PINK1 OMM积累→二聚化+自磷酸化→pUb（Ser65）生成→Parkin招募+激活（正反馈放大）→NDP52/OPTN/TBK1→LC3/自噬体→溶酶体；PD早发性遗传最主要原因（PINK1/PARK6、Parkin/PARK2）；Pink1 KO猕猴vs小鼠物种差异 **[NEW 2026-09-09]**
-- 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础（修订8次）
+- 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础；PKMζ+PKCι/λ双KO消除L-LTP；KIBRA寡聚体机制解答Q-ltp-lifetime-mechanism（修订13次）
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
@@ -106,7 +106,7 @@
 - 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；与海马 NMDA-LTD 共用最终效应器但触发机制根本不同；Schonewille 2011 证明无 LTD 也能运动学习；Hansel 2026 预印本 400ms 时间窗口 **[NEW 2026-06-23]**
 - 🔵 [纹状体突触可塑性](concepts/striatal-plasticity.md) — 皮质-纹状体谷氨酸突触的LTP（D1-Gs-cAMP-PKA-DARPP-32-AMPA插入）和eCB-LTD（D2-mGluR-2-AG-CB1-突触前释放↓）；奖励时双向刻写；多巴胺1秒时间窗解决信用分配；NMDA受体对LTP必需 **[NEW 2026-09-01]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
-- 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器 **[NEW 2026-06-04]**
+- 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器；病毒样衣壳自组装可包裹mRNA在神经元间转运（Ashley/Pastuzyn 2018）**[修订 rev2 2026-09-21]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
 - 🔵 [混合选择性](concepts/mixed-selectivity.md) — dlPFC 神经元对多变量交叉项的非线性响应；高维化表征支持任意规则组合的线性可读出；Rigotti 2013 证明维度降低预测行为错误；认知弹性的编码基础 **[NEW 2026-08-24]**
 - 🔵 [认知稳定性—弹性权衡](concepts/stability-flexibility-tradeoff.md) — 工作记忆系统的基本计算约束；BG-PFC-dACC 网络的三角解决方案；OCD/ADHD/精神分裂症/PD 的四种失调模式 **[NEW 2026-08-24]**
@@ -135,7 +135,8 @@
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号 **[NEW 2026-06-07]**
 - 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；纹状体直接实验验证；BTSP 作为海马实现（树突平台电位充当第三因素，DDSC充当资格痕迹整合器）**[修订 rev2 2026-09-20]**
-- 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题；LC-DA（非VTA）是行为标记 PRPs 合成的主要触发者（Takeuchi 2016, Moncada 2007）**[修订 rev2 2026-07-11]**
+- 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题；PKMζ是第一个明确L-LTP特异性PRP；LC-DA（非VTA）是行为标记 PRPs 合成的主要触发者 **[修订 rev3 2026-09-21]**
+- 🟢 [PKMζ（蛋白激酶M-ζ）](concepts/pkm-zeta.md) — 无调节域aPKC（合成即激活）；通过阻止GluA2-AMPAR内吞维持突触强度；STC第一个明确L-LTP PRP；2013年KO危机→PKCι/λ代偿→双KO消除L-LTP；KIBRA-PKMζ寡聚体感染性磷酸化解答克里克1984年蛋白周转悖论；ZIP阳离子机制重写（Stokes 2025）**[NEW 2026-09-21]**
 - 🟡 [蓝斑-海马多巴胺系统（LC-DA）](concepts/lc-hippocampus-dopamine.md) — LC TH⁺ 末梢（非VTA）是海马dCA1 DA的主要来源；D1/D5调控记忆持续性（非编码）；行为标记（新颖→LC-DA→PRPs→STC）；记忆联结（~6h时间窗，LC→dCA1 D1/D5依赖）；与GC-NE应激记忆系统互补 **[NEW 2026-07-11]**
 - 🔵 [Actor-Critic架构（基底节）](concepts/actor-critic-brain.md) — VTA/SNc=TD误差δ广播；NAc/腹侧纹状体=Critic价值估计；背侧纹状体D1-MSN=Actor Go / D2-MSN=Actor No-Go；DA双向读出设计（D1兴奋/D2抑制）**[NEW 2026-07-12]**
 - 🟡 [分布式强化学习与多巴胺编码](concepts/distributional-rl-dopamine.md) — 不同VTA DA神经元以不对称RPE缩放编码奖励分布分位数；大脑早于AI独立实现分布式RL计算；Dabney 2020 小鼠VTA单细胞记录 **[NEW 2026-07-12]**

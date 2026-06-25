@@ -1,7 +1,88 @@
 {
-  "last_updated": "2026-09-20",
-  "total_articles": 150,
+  "last_updated": "2026-09-21",
+  "total_articles": 151,
   "entries": [
+    {
+      "date": "2026-09-21",
+      "title": "记忆的分子守夜人：PKMζ的发现、颠覆与新生",
+      "filename": "2026-09-21-pkm-zeta-late-ltp-persistence.md",
+      "article_number": 151,
+      "wiki_pages_created": [
+        "wiki/concepts/pkm-zeta.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md (rev12->rev13)",
+        "wiki/concepts/synaptic-tagging-capture.md (rev2->rev3)",
+        "wiki/concepts/arc-arg31.md (rev1->rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [
+        "Q-ltp-lifetime-mechanism 标记为部分解答：PKMzeta+PKCiota/lambda双KO消除L-LTP；KIBRA寡聚体感染性磷酸化"
+      ],
+      "core_question": "PKMzeta如何在蛋白质不断更新的情况下维持突触LTP的长期持久性？从2006年单一分子理论到2013年KO危机，到2016-2026年解决：PKCiota/lambda代偿、双KO消除L-LTP（Tsokas 2026）、ZIP阳离子机制（Stokes 2025）、KIBRA-PKMzeta寡聚体感染性磷酸化（Hsieh 2026）",
+      "open_questions_added": [
+        "Q-pkm-zeta-in-vivo-oligomer（高优先级）：KIBRA-PKMzeta寡聚体在整体动物行为实验中的体内验证（K-ZAP体内应用）",
+        "Q-pkm-zeta-region-specificity（中优先级）：PKMzeta在不同脑区的功能和aPKC冗余比例差异",
+        "Q-pkm-zeta-memory-modification（中优先级）：K-ZAP/zeta-stat工具能否实现选择性单条记忆修改（PTSD干预潜力）"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱3（突触可塑性：L-LTP持久性机制）+ 课程脊柱7（学习记忆：记忆分子基础）+ 脊柱12（大脑与AI比较：记忆维持的动态机制）",
+      "topic_tags": [
+        "PKMzeta protein kinase M zeta late LTP persistence",
+        "atypical PKC aPKC no regulatory domain constitutively active",
+        "KIBRA PKMzeta oligomer infectious phosphorylation molecular turnover",
+        "synaptic tagging capture PRP plasticity related protein",
+        "ZIP zeta inhibitory peptide cationic macropinocytosis Stokes 2025",
+        "PKCiota lambda compensation double knockout Tsokas 2026",
+        "Crick 1984 protein turnover memory paradox",
+        "GluA2 AMPA receptor trafficking NSF endocytosis",
+        "Sajikumar 2005 first LTP-specific PRP",
+        "Lee Volk 2013 Nature PKMzeta knockout normal memory",
+        "Tsokas 2016 eLife PKCiota compensation",
+        "Hsieh 2021 EJN memory neurons PKMzeta 1 month",
+        "Hsieh 2026 Mol Brain KIBRA oligomer AlphaFold3",
+        "Tsokas 2026 bioRxiv double KO L-LTP eliminated"
+      ],
+      "main_sources": [
+        "PMID:16463388 (Ling et al. 2006, Nat Neurosci, PKMzeta doubles AMPA receptors)",
+        "PMID:15958741 / PMC6724879 (Sajikumar et al. 2005, PNAS, first L-LTP PRP, OPEN)",
+        "PMID:21119699 (Sacktor 2011, Nat Rev Neurosci, review)",
+        "PMID:20383136 (Migues et al. 2010, Nat Neurosci, GluR2 mechanism)",
+        "PMID:23283171 / PMC3548047 (Lee et al. 2013, Nature, Prkcz KO normal, OPEN)",
+        "PMID:23283174 / PMC3830948 (Volk et al. 2013, Nature, PKMzeta not required, OPEN)",
+        "PMID:23283170 (Frankland & Josselyn 2013, Nature, commentary)",
+        "PMID:27187150 / PMC4869915 (Tsokas et al. 2016, eLife, PKCiota compensation, OPEN)",
+        "PMID:33540466 / PMC8333175 (Hsieh et al. 2021, EJN, PKMzeta 1 month, OPEN)",
+        "PMID:39814881 / PMC12413077 (Stokes et al. 2025, Nature, ZIP cationic, OPEN)",
+        "PMID:41814337 / PMC12997682 (Hsieh et al. 2026, Mol Brain, KIBRA oligomers, OPEN)",
+        "PMID:41889799 / PMC13014159 (Tsokas et al. 2026, bioRxiv, double KO, OPEN)"
+      ],
+      "open_access_fulltext": [
+        "PMID:15958741 (PMC6724879)",
+        "PMID:23283171 (PMC3548047)",
+        "PMID:23283174 (PMC3830948)",
+        "PMID:27187150 (PMC4869915)",
+        "PMID:33540466 (PMC8333175)",
+        "PMID:39814881 (PMC12413077)",
+        "PMID:41814337 (PMC12997682)",
+        "PMID:41889799 (PMC13014159)"
+      ],
+      "next_suggested_topics": [
+        "海马-内嗅皮层回路——MEC网格细胞如何驱动CA1场所细胞（连接BTSP的输入层：EC3/MEC->CA1平台电位触发）",
+        "树突棘的结构可塑性——LTP/BTSP后棘头膨大的肌动蛋白机制（CaMKII->cofilin->actin->棘头膨大）",
+        "记忆巩固中的SWR与突触重激活——睡眠依赖巩固（offline replay）如何通过SWR序列再活化LTP印迹",
+        "恐惧消退与记忆更新——新语境中PKMzeta/PKCiota/lambda的角色：消退是真正的去可塑还是新的抑制性印迹"
+      ],
+      "graph_update": "296+1=297 nodes (pkm-zeta新建); 新增8 edges: pkm-zeta相关",
+      "knowledge_base_date": "2026-09-21",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-21（第151篇PKMzeta文章）"
+    },
     {
       "date": "2026-09-15",
       "title": "守门人的守门人：外侧膝状体如何成为视觉注意的第一道主动关卡",

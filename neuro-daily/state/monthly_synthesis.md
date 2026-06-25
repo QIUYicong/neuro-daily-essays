@@ -1567,3 +1567,16 @@
 **修订 wiki 页（2个）**：concepts/btsp（rev2→rev3，DDSC机制+非空间BTSP）、concepts/three-factor-learning-rule（rev1→rev2，BTSP作为三因素规则海马实现）
 **图谱**：295→296节点，1721→1729边（+1节点camkii，+8边：btsp-camkii/btsp-three-factor/btsp-entorhinal-cortex/camkii-ltp/camkii-dendritic-computation/camkii-three-factor/three-factor-btsp双向）
 **新增未解问题**：Q-btsp-ddsc-synapse-specificity（高：DDSC弥散性vs BTSP突触特异性悖论）、Q-btsp-in-vivo-ddsc（高：体内DDSC验证缺失）、Q-btsp-non-spatial-generalization（中：非空间BTSP机制验证）
+
+## 2026-09-21（第151篇 · PKMζ与晚期LTP持久性机制）
+
+**层级**：molecular / synaptic / cellular / cognition
+
+**一句话**：PKMζ（无调节域aPKC，合成即激活）通过阻止含GluA2 AMPA受体内吞维持LTP，是STC框架的第一个明确L-LTP特异性PRP；2013年KO危机（PKCι/λ代偿）在2016-2026年得到彻底解答——双KO（PKMζ+PKCι/λ）消除L-LTP，KIBRA-PKMζ寡聚体的"感染性磷酸化"机制解答克里克1984年的蛋白周转悖论，而ZIP的阳离子电荷机制（Stokes 2025）彻底重写了20年的ZIP记忆研究。
+
+**核心知识点**：PKMζ无调节域—持续激活；GluA2-AMPAR内吞阻止机制（Migues 2010）；PKMζ作为第一个L-LTP特异性PRP（Sajikumar 2005）；Lee/Volk 2013 Nature双论文KO危机；PKCι/λ发育代偿（Tsokas 2016）；双KO→L-LTP消失（Tsokas 2026 bioRxiv）；ZIP阳离子电荷→endophilin-A2→巨胞饮（Stokes 2025 Nature）；KIBRA-PKMζ寡聚体感染性磷酸化（Hsieh 2026 Mol Brain）；记忆神经元PKMζ1月持续升高（Hsieh 2021 EJN）；Q-ltp-lifetime-mechanism部分解答。
+
+**新建 wiki 页（1个）**：concepts/pkm-zeta（established/high）
+**修订 wiki 页（3个）**：concepts/ltp（rev12→rev13，新增aPKC功能层段落，Q-ltp-lifetime-mechanism标记为部分解答）、concepts/synaptic-tagging-capture（rev2→rev3，PKMζ作为明确PRP，KIBRA机制）、concepts/arc-arg31（rev1→rev2，病毒样衣壳结构Ashley/Pastuzyn 2018）
+**图谱**：293→294节点，1711→1722边（+1节点pkm-zeta，+11边）
+**新增未解问题**：Q-pkm-zeta-in-vivo-oligomer（高：KIBRA寡聚体体内行为验证）、Q-pkm-zeta-region-specificity（中：脑区特异性）、Q-pkm-zeta-memory-modification（中：K-ZAP精准记忆修改潜力）

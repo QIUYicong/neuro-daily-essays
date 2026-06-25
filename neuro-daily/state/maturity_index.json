@@ -1,5 +1,12 @@
 [
   {
+    "slug": "pkm-zeta",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-21",
+    "reason": "新建 rev1 · #151 · PKMζ无调节域持续激活机制；aPKC功能层（双KO消除L-LTP）；KIBRA寡聚体感染性磷酸化；ZIP机制重写"
+  },
+  {
     "slug": "default-mode-network",
     "status": "mainstream",
     "confidence": "high",

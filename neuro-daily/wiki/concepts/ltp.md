@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-09-12
-revision_count: 12
+updated: 2026-09-21
+revision_count: 13
 dimensions: [synaptic, cellular, cognition, brain-region, disease, molecular]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, liquid-liquid-phase-separation, postsynaptic-density]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, liquid-liquid-phase-separation, postsynaptic-density, pkm-zeta]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-09-12-liquid-liquid-phase-separation-postsynaptic-density]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918", "PMID:27565345", "PMID:29976799"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-09-12-liquid-liquid-phase-separation-postsynaptic-density, 2026-09-21-pkm-zeta-late-ltp-persistence]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918", "PMID:27565345", "PMID:29976799", "PMID:16463388", "PMID:15958741", "PMID:27187150", "PMID:41814337", "PMID:41889799", "PMID:39814881"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -100,6 +100,29 @@ key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", 
 
 **含义**：LTP 的诱导需要**三方参与者**的协同：突触前（谷氨酸/去极化）+ 突触后（NMDA 受体开放、CaMKII）+ 星形胶质细胞（D-丝氨酸供给认证）。每个星形胶质细胞是其局部域（约 100 μm，覆盖数万突触）内所有突触 LTP 资格的"认证控制器"——其 Ca²⁺ 信号状态成为 LTP 写入的门控变量之一。
 
+### 8. PKMζ与aPKC功能层：L-LTP的持久性维持机制（克里克问题的分子答案）
+
+**2026-09-21 新增（来自《记忆的分子守夜人》文章，#151）**：L-LTP诱导后，AMPA受体插入突触后膜如何抵抗蛋白周转而持续数天至数年？这一"克里克问题"现有了分子答案：**PKMζ和PKCι/λ构成的aPKC功能层** + **KIBRA-PKMζ寡聚体传递激活状态**。
+
+**PKMζ的持久维持机制**：
+- PKMζ（蛋白激酶M-ζ）是非典型PKCζ的无调节域剪接形式，合成即持续激活
+- PKMζ通过阻止含GluA2 AMPA受体内吞，**主动维持**突触AMPA受体密度（Ling 2006, PMID:16463388）
+- L-LTP诱导后30–60分钟，PKMζ在突触局部合成并作为STC框架的第一个明确PRP被标签捕获（Sajikumar 2005, PMID:15958741）
+
+**功能冗余层（非单一分子）**：
+- 单独敲除PKMζ：记忆正常（PKCι/λ从发育期起代偿上调，Lee 2013, PMID:23283171；Tsokas 2016, PMID:27187150）
+- **同时敲除PKMζ + PKCι/λ（双KO）→ L-LTP完全消失**（E-LTP可诱导但3小时后衰退）（Tsokas 2026, PMID:41889799）
+- 结论：**aPKC功能本身不可或缺，但具有分子冗余**
+
+**KIBRA-PKMζ寡聚体：克里克问题的分子答案**（Hsieh 2026, PMID:41814337）：
+- KIBRA支架蛋白与PKMζ在突触后密度形成稳定寡聚体（AlphaFold3验证）
+- 新合成PKMζ加入复合物后被"感染性磷酸化"激活（类朊病毒构象传播，但属生理机制）
+- 老PKMζ降解，新PKMζ继承激活状态 → **激活状态的代际传递**，无需蛋白质永生
+
+**体内证据**（Hsieh 2021, PMID:33540466）：恐惧记忆编码时激活的海马CA1细胞（c-Fos标记）在1个月后仍维持高于背景水平的PKMζ，直接证明PKMζ在自然记忆中的长期持续。
+
+**ZIP的重新解读**（Stokes 2025, PMID:39814881）：ZIP注射可破坏记忆的机制并非PKMζ特异性抑制，而是阳离子肽→endophilin-A2→巨胞饮→AMPAR非特异性大规模内吞。ZIP实验结论需全面重新评估。
+
 ### 6. BDNF 对 L-LTP 的催化作用（突触固结机制）
 
 **2026-06-28 新增（来自《BDNF：大脑给自己的成长信号》文章，#64）**：
@@ -152,15 +175,17 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 - [[homeostatic-plasticity]] — 稳态可塑性是 Hebbian 正反馈的必要负反馈，LTP 之所以能维持学习能力，正是因为稳态可塑性持续维护网络工作区间
 - [[liquid-liquid-phase-separation]] — LLPS 是 PSD 组织的物理原则；SynGAP 的相变逸散是 LTP 表达的集体物理事件
 - [[postsynaptic-density]] — PSD 凝聚体是 LTP 分子机制的物理平台；其相变状态直接决定 AMPAR 的插入效率
+- [[pkm-zeta]] — PKMζ（+PKCι/λ）是L-LTP持久性的aPKC功能层；KIBRA-PKMζ寡聚体机制直接回答Q-ltp-lifetime-mechanism；ZIP的记忆破坏非PKMζ特异性
 
 ## 未解问题
 
-- Q-ltp-lifetime-mechanism：蛋白质周转率约数周，而记忆可持续数十年——什么机制赋予 LTP 如此持久的稳定性？CaMKII 亚基交换？突触结构自我维持？
+- Q-ltp-lifetime-mechanism：~~蛋白质周转率约数周，而记忆可持续数十年——什么机制赋予 LTP 如此持久的稳定性？CaMKII 亚基交换？突触结构自我维持？~~ **【部分解答，2026-09-21】** PKMζ+PKCι/λ构成的aPKC功能层通过阻止GluA2-AMPAR内吞主动维持突触强度；KIBRA-PKMζ寡聚体的"感染性磷酸化"机制使激活状态在蛋白周转中代际传递（Hsieh 2026, PMID:41814337；Tsokas 2026, PMID:41889799）。剩余未解：寡聚体机制的体内行为学验证（K-ZAP实验）；不同脑区的aPKC冗余比例；是否存在超越aPKC层的第二备份机制。
 - Q-ltp-behavior-correspondence：体内行为记忆的形成是否严格对应于特定突触群的 LTP？能否建立一一映射？印迹细胞（engram cells）研究在何种程度上回答了这一问题？（部分回答：Ryan et al. 2015 显示印迹细胞 AMPA/NMDA 比值高于非印迹细胞，但两者对应关系的精确映射仍有争议）
 - Q-ltp-presynaptic-component：除苔藓纤维外，其他类型突触的 LTP 是否也有突触前贡献？谷氨酸释放概率的改变有多大贡献？
 
 ## 修订历史
 
+- 2026-09-21 · 修订（rev13）· 基于《记忆的分子守夜人》(#151) · 新增"PKMζ与aPKC功能层"段落（PKMζ无调节域持续激活；双KO→L-LTP消失；KIBRA寡聚体感染性磷酸化；ZIP重新解读）；Q-ltp-lifetime-mechanism标记为部分解答；related新增pkm-zeta；key_sources新增6个；source_articles新增#151；连接新增pkm-zeta
 - 2026-09-12 · 修订 · 基于《突触的自组装奥秘》(#142) · 新增"LTP 的相变维度"段落（PSD 是 LLPS 凝聚体；SynGAP 集体逸散是 LTP 相变机制；CaMKII 凝聚体作为突触标签）；related 新增 liquid-liquid-phase-separation、postsynaptic-density；key_sources 新增 PMID:27565345、PMID:29976799；dimensions 新增 molecular；source_articles 新增 #142；连接新增两条
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；GluA1（LTP）vs GluA2（稳态缩放）分子路径分叉关系明确化；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-07-02 · 修订 · 基于《大脑的第三方》(#68) · 新增"三方突触条件"段落：星形胶质细胞 D-丝氨酸供给是 LTP 的隐性必要条件（Henneberger 2010 因果证据）；related 新增 astrocyte、tripartite-synapse、d-serine、astrocyte-calcium-signaling；key_sources 新增 PMID:20075918；连接段落新增四条

@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-06-07
-updated: 2026-07-11
-revision_count: 2
+updated: 2026-09-21
+revision_count: 3
 dimensions: [synaptic, cellular, molecular]
-related: [ltp, three-factor-learning-rule, dopamine-reward-prediction-error, camkii, hebbian-learning, memory-consolidation]
+related: [ltp, three-factor-learning-rule, dopamine-reward-prediction-error, camkii, hebbian-learning, memory-consolidation, pkm-zeta, arc-arg31, bdnf]
 prerequisites: [ltp, hebbian-learning, camkii]
 opens_questions: [Q-stc-molecular-tag, Q-three-factor-time-window]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
-key_sources: ["PMID:9020359", "PMID:7708662", "PMID:17626208", "PMID:27602521", "PMID:20130171", "PMID:21170088"]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-09-21-pkm-zeta-late-ltp-persistence]
+key_sources: ["PMID:9020359", "PMID:7708662", "PMID:17626208", "PMID:27602521", "PMID:20130171", "PMID:21170088", "PMID:15958741", "PMID:41814337"]
 ---
 
 # 突触标记与捕获 (Synaptic Tagging and Capture, STC)
@@ -60,12 +60,13 @@ key_sources: ["PMID:9020359", "PMID:7708662", "PMID:17626208", "PMID:27602521", 
 ### 可塑性相关蛋白（PRPs）
 
 PRPs 包括：
-- Arc/Arg3.1（见 arc-arg31 页面）：局部突触稳定（L-LTP 成分）和内吞（mGluR-LTD）
+- **PKMζ（+PKCι/λ）**：**第一个明确鉴定的L-LTP特异性PRP**（Sajikumar 2005, PMID:15958741）。合成后持续激活，通过阻止GluA2-AMPAR内吞主动维持突触强度。KIBRA-PKMζ寡聚体机制（Hsieh 2026, PMID:41814337）使激活状态在蛋白周转中代际传递。
+- Arc/Arg3.1（见 arc-arg31 页面）：局部突触稳定（L-LTP 成分，通过肌动蛋白稳定）和内吞（mGluR-LTD）
 - Homer 1a：重塑突触后密度，稳定 AMPAR
 - 新合成的 AMPA 受体亚基
 - BDNF（突触营养因子，触发 TrkB → ERK → 转录）
 
-PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录激活 → 翻译"的慢速过程（数分钟至数小时）。
+PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录激活 → 翻译"的慢速过程（数分钟至数小时）。PKMζ 的合成时间约在L-LTP诱导后30–60分钟，与标签有效期（~1–2h）匹配良好。
 
 ### DA 介导的 STC（三因素规则的时间整合）
 
@@ -94,21 +95,26 @@ PRPs 合成由 CREB 磷酸化（PKA 或 CaMKIV 介导）驱动，属于"转录�
 - [[three-factor-learning-rule]] — STC 解决了三因素规则的时间延迟问题：Hebbian 产生标签，DA-PRPs 提供捕获信号
 - [[dopamine-reward-prediction-error]] — DA 爆发触发 PRP 合成，是"捕获"的触发因素
 - [[lc-hippocampus-dopamine]] — LC-TH⁺ 末梢（非 VTA）是海马 dCA1 DA 的主要来源；LC 相位激活提供行为标记所需的 PRPs 合成信号；新颖性是主要触发条件
-- [[camkii]] — CaMKII 是突触标签的候选分子（假说；尚未证实）
+- [[camkii]] — CaMKII 是突触标签的候选分子（假说；尚未证实）；CaMKII凝聚体（LLPS）也是标签的物理候选
+- [[pkm-zeta]] — PKMζ 是第一个明确鉴定的L-LTP特异性PRP；新合成PKMζ被标签捕获，是STC的关键"捕获分子"；KIBRA-PKMζ寡聚体解决了PRP维持的分子周转悖论
+- [[arc-arg31]] — Arc 是另一重要PRP（肌动蛋白稳定/L-LTP结构固化）；与PKMζ共同构成L-LTP的双分子PRP核心
+- [[bdnf]] — BDNF通过ERK/CREB驱动PRPs合成（包括Arc、PKMζ的合成信号通路），是L-LTP捕获信号的催化分子
 - [[hebbian-learning]] — Hebbian 激活产生标签，是 STC 的"写入"端
 - [[memory-consolidation]] — STC 是突触层面的巩固机制（类比：SWR 是系统层面的巩固机制）
 
 ## 未解问题
 
-- Q-stc-molecular-tag：突触标签的分子身份是什么？CaMKII T286 磷酸化构象？局部翻译机器的激活状态？能否用超分辨成像直接可视化"标签"？
+- Q-stc-molecular-tag：突触标签的分子身份是什么？CaMKII T286 磷酸化构象（CaMKII凝聚体？）？局部翻译机器的激活状态（mTOR/FMRP激活态？）？肌动蛋白骨架变化？能否用超分辨成像直接可视化"标签"？PKMζ是被捕获的PRP，但标签本身（感知并招募PKMζ的锚定位点）仍未确定。
 - Q-three-factor-time-window：标签有效期（~1-2h）在不同脑区、不同突触类型中的变异范围？体内行为任务中的"奖励窗口"是否与此一致？
 
 ## 修订历史
 
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 理解三因素规则的时间整合机制 · 初始置信度：中（机制框架强，分子细节未解）
+- 2026-09-21 · 修订 rev3 · 基于《记忆的分子守夜人》(#151) · 核心更新：PRPs节新增PKMζ为第一个明确L-LTP特异性PRP（Sajikumar 2005），并加入KIBRA寡聚体机制（Hsieh 2026）；连接新增pkm-zeta、arc-arg31、bdnf（独立连接）；Q-stc-molecular-tag补充PKMζ作为被捕获PRP的新理解（标签本身仍未确定）；related新增pkm-zeta、arc-arg31、bdnf；key_sources新增PMID:15958741、41814337
 - 2026-07-11 · 修订 rev2 · 基于《当蓝斑充当"新奇探测器"》一文（#79）· 证据表新增3行（Moncada 2007行为标记、Bethus 2010 D1/D5持续性、Takeuchi 2016 LC为主要DA来源）；连接节新增 lc-hippocampus-dopamine；key_sources 新增4个；DA 捕获信号的来源澄清（LC 主导，非 VTA）
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-07-11-dopamine-lc-hippocampus-memory-tagging]]
+- [[2026-09-21-pkm-zeta-late-ltp-persistence]]
