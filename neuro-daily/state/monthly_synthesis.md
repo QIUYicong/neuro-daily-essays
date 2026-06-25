@@ -1667,3 +1667,18 @@
 **修订 wiki 页（2个）**：concepts/habitual-behavior（rev1→rev2，成瘾习惯化证据）、concepts/incentive-salience（rev1→rev2，渴望孵化+人类PET证据）
 **图谱**：301→303 节点，1778→1790 边（+2 节点，+12 边）
 **新增未解问题**：Q-addiction-01（高：习惯化是否是成瘾必要条件？）、Q-addiction-02（高：内源性ΔFosB因果性证据）、Q-addiction-03（中：渴望孵化的饱和点/消退时间）
+
+---
+
+### 2026-09-28（#158）：纹状体的突触法庭——D1-MSN与D2-MSN如何将奖励信号刻入神经回路
+
+**一句话**：皮层-纹状体突触的STDP被多巴胺状态不对称门控——D1-MSN在高DA时只能LTP（mGluR5-CB1 LTD路径被主动封锁），D2-MSN在高DA时偏向LTD（D2拮抗A2a-LTP路径，同时激活eCB-CB1-LTD路径）——两条通路可塑性方向完全镜像，使正RPE信号同时完成"强化正确行动"和"削弱竞争行动"两件事。
+
+**核心知识点**：Shen 2008（PMID:18687967，Science）：D1/D2-EGFP转基因小鼠脑切片STDP实验——D1-MSN正时序（+5ms）→LTP（D1+NMDA依赖）；D1-MSN负时序（-10ms）→不产生LTD（因为D1→PKA主动关闭mGluR5→eCB→CB1路径）；D2-MSN正时序→A2a受体依赖LTP；D2-MSN负时序→D2受体+mGluR5+CB1介导LTD；帕金森病（6-OHDA/利血平）→D1-MSN全失LTP（只LTD）/D2-MSN失去方向性。Kravitz 2010（PMID:20613723，Nature）：D1-Cre/D2-Cre小鼠体内光遗传学——D1-MSN激活→运动启动；D2-MSN激活→帕金森样僵直；因果验证直接/间接通路功能分离。Frank 2004（PMID:15528409，Science）：帕金森病患者服药vs停药状态下正/负强化学习双重分离——低DA时负强化学习优势；高DA时正强化学习优势——人类临床验证D1/D2双通道模型。
+
+**层级**：synaptic / cellular / microcircuit / brain-region / behavior / disease
+
+**新建 wiki 页（1个）**：circuits/corticostriatal-stdp（mainstream/high）
+**修订 wiki 页（3个）**：circuits/striatal-direct-indirect-pathway（rev1→rev2，整合Shen 2008 STDP + Kravitz 2010光遗传 + Frank 2004临床证据）、concepts/three-factor-learning-rule（rev2→rev3，补入Shen 2008纹状体STDP分子机制）、concepts/dopamine-reward-prediction-error（rev7→rev8，新增皮层-纹状体STDP导航链接）
+**图谱**：303→304节点，1790→1803边（+1节点，+13边）
+**新增未解问题**：Q-corticostriatal-stdp-in-vivo-timing（高：体外STDP时序与体内DA延迟如何协调）、Q-d2msn-a2a-in-vivo（高：A2a受体体内动态与D2拮抗的时空关系）、Q-d1-ltp-persistence（中：D1-MSN LTP的体内持久性与PKMζ关系）

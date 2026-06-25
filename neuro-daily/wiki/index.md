@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-27（第157篇·成瘾大脑的三层陷阱：从欲望、习惯到强迫的神经轨迹）· 主题页总数：**300**（新建2页：diseases/addiction、concepts/deltafosb；修订2页：concepts/habitual-behavior rev1→rev2、concepts/incentive-salience rev1→rev2；图谱303节点/1790边）
+> 最后更新：2026-09-28（第158篇·纹状体的突触法庭：D1-MSN与D2-MSN如何将奖励信号刻入神经回路）· 主题页总数：**301**（新建1页：circuits/corticostriatal-stdp；修订3页：circuits/striatal-direct-indirect-pathway rev1→rev2、concepts/three-factor-learning-rule rev2→rev3、concepts/dopamine-reward-prediction-error rev7→rev8；图谱304节点/1803边）
 
 ---
 
@@ -57,6 +57,7 @@
 - 🟢 [规范微回路（新皮层）](circuits/cortical-canonical-microcircuit.md) — 六层保守回路模板：L2/3（误差单元，γ前馈）→L5/6（预测单元，β反馈）→L6（丘脑门控）；L5顶端钙爆发 AND 门；VIP+去抑制注意调控；Douglas & Martin 2004循环兴奋4-7×，Harris & Shepherd 2015串联同源性 **[NEW 2026-07-18]**
 - 🟢 [内嗅皮层-CA1 双流回路](circuits/entorhinal-ca1-circuit.md) — EC 通过三突触通路（EC-II→DG→CA3→CA1 SR，联想预测流）和直接穿通径路（EC-III→CA1 SLM，当前感觉精准流）双管并行；CA1 锥体细胞是"时序 AND 门"（Schaffer 先于 TA path ~40–60 ms 开门）；MEC 传环境坐标图，LEC 传奖励目标图（Bowler & Losonczy 2023）；TA path 3 周巩固窗口；BTSP 中 MEC 驱动触发频率，LEC 决定内容 **[NEW 2026-09-24]**
 - 🟢 [穿通径路（颞氨通路）](circuits/temporoammonic-path.md) — EC 第三层（MEC-III/LEC-III）直接投射至 CA1 SLM 的回路分支；默认被 GABA_B 预突触抑制锁死；theta AND 门中 Schaffer 先激活→NMDA 去极化+GABA_B 去抑制→TA 信号穿透；MEC-III 传空间语境坐标，LEC-III 传奖励目标坐标；学习后 3 周巩固窗口（Remondes & Schuman 2004）；SLM 突触可双向可塑性 **[NEW 2026-09-24]**
+- 🔵 [皮层-纹状体STDP（多巴胺门控不对称突触可塑性）](circuits/corticostriatal-stdp.md) — 多巴胺状态不对称门控STDP规则：D1-MSN高DA时只能LTP（D1→PKA主动封锁mGluR5-CB1 LTD路径）；D2-MSN高DA时偏向LTD（D2拮抗A2a-LTP；D2→mGluR5-CB1→eCB→LTD）；帕金森病多巴胺缺失→D1-MSN全失LTP/D2-MSN失方向性；Shen 2008 Science核心证据；Kravitz 2010光遗传学因果验证 **[NEW 2026-09-28]**
 
 ## concepts（概念/框架）
 

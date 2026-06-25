@@ -3574,3 +3574,28 @@
 - Q-inhibitory-plasticity-bounds（中）：抑制性可塑性驱动的泛化如何在"过度泛化"与"死记硬背"之间保持平衡？边界由哪些生理参数决定？
 
 **图谱**：296节点/1732边 → **296节点/1739边**（节点数不变；+7边：hippocampal-replay→prefrontal-cortex、hippocampal-replay→pv-interneurons、sharp-wave-ripples→prefrontal-cortex、pv-interneurons→hippocampal-replay、hippocampal-replay→norepinephrine-locus-coeruleus、hippocampal-replay→btsp、hippocampal-replay→pkm-zeta）
+
+---
+
+## 2026-09-28（第158篇 · 纹状体的突触法庭：D1-MSN与D2-MSN如何将奖励信号刻入神经回路）
+
+**文章**：《纹状体的突触法庭：D1-MSN与D2-MSN如何将奖励信号刻入神经回路》（#158）
+
+**类型**：新机制深挖（皮层-纹状体STDP的多巴胺不对称门控）
+
+**新创建页面（1）**：
+- `wiki/circuits/corticostriatal-stdp.md`（新建，mainstream/high）：皮层-纹状体STDP的多巴胺门控机制，涵盖D1-MSN分子级联（D1R→Gs→cAMP→PKA→GluA1 Ser845→LTP；PKA主动封锁mGluR5-CB1 LTD路径）、D2-MSN分子级联（D2R→Gi→拮抗A2a→阻断LTP；D2→mGluR5-CB1→eCB→LTD）、帕金森病可塑性失调机制；证据表7条（全部高置信度）；未解问题3个（Q-corticostriatal-stdp-in-vivo-timing/Q-d2msn-a2a-in-vivo/Q-d1-ltp-persistence）
+
+**修订页面（3）**：
+- `wiki/circuits/striatal-direct-indirect-pathway.md`（rev1→rev2）：整合Shen 2008（PMID:18687967）STDP分子机制、Kravitz 2010（PMID:20613723）体内光遗传学因果验证、Frank 2004（PMID:15528409）人类临床双重分离证据；证据表新增3行；related新增corticostriatal-stdp、three-factor-learning-rule、addiction；key_sources新增4个PMID；突触机制置信度由"理论框架"升为"直接实验验证"
+- `wiki/concepts/three-factor-learning-rule.md`（rev2→rev3）：在「纹状体D1/D2双通道实现」章节补入Shen 2008 STDP具体分子机制（D1阻断mGluR5-CB1路径；D2拮抗A2a的详细级联）；related新增corticostriatal-stdp、striatal-direct-indirect-pathway；key_sources新增PMID:18687967/20613723/15528409/11544526；opens_questions新增Q-corticostriatal-stdp-in-vivo-timing
+- `wiki/concepts/dopamine-reward-prediction-error.md`（rev7→rev8）：在「连接」部分新增corticostriatal-stdp和striatal-direct-indirect-pathway导航链接；related字段更新；source_articles字段新增2026-09-28-corticostriatal-stdp-d1d2-plasticity
+
+**矛盾登记（0）**：无新矛盾登记（Shen 2008的体外STDP数据与Kravitz 2010体内功能因果验证相互一致；Frank 2004人类行为数据与动物模型预测一致）
+
+**新增未解问题（3）**：
+- Q-corticostriatal-stdp-in-vivo-timing（高）：体外STDP时序窗口（±20ms）与体内DA爆发延迟（200–500ms）如何协调？STC是否足以解释，还是存在独立的资格痕迹机制？
+- Q-d2msn-a2a-in-vivo（高）：A2a腺苷受体在D2-MSN LTP中的体内动态？腺苷积聚与DA爆发的时空耦合机制？
+- Q-d1-ltp-persistence（中）：D1-MSN LTP体内持久性？L-LTP转换是否需要STC机制？PKMζ在纹状体的角色？
+
+**图谱**：303节点/1790边 → **304节点/1803边**（+1节点：corticostriatal-stdp；+13边：corticostriatal-stdp↔striatal-direct-indirect-pathway双向、corticostriatal-stdp↔three-factor-learning-rule双向、corticostriatal-stdp→dopamine-reward-prediction-error、corticostriatal-stdp→medium-spiny-neuron、corticostriatal-stdp→basal-ganglia、corticostriatal-stdp→hebbian-learning、corticostriatal-stdp→parkinsons-disease、corticostriatal-stdp→addiction、dopamine-reward-prediction-error→corticostriatal-stdp、three-factor-learning-rule→corticostriatal-stdp、striatal-direct-indirect-pathway→corticostriatal-stdp）

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "node_count": 303,
   "edge_count": 1790,
   "edge_types": [
@@ -2769,6 +2769,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/deltafosb.md"
+    },
+    {
+      "id": "corticostriatal-stdp",
+      "title": "皮层-纹状体STDP（多巴胺门控的不对称突触可塑性）",
+      "domain": "circuits",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/circuits/corticostriatal-stdp.md"
     }
   ],
   "edges": [
@@ -12822,6 +12831,84 @@
       "from": "incentive-salience",
       "to": "addiction",
       "type": "supports"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "striatal-direct-indirect-pathway",
+      "type": "mechanism-of",
+      "note": "STDP机制是直接/间接通路功能分化的分子基础"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of",
+      "note": "DA-RPE信号通过D1/D2-MSN不对称STDP门控翻译为突触权重变化"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "three-factor-learning-rule",
+      "type": "is-a",
+      "note": "皮层-纹状体STDP是三因素规则在纹状体的具体实现（Shen 2008）"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "medium-spiny-neuron",
+      "type": "part-of",
+      "note": "D1-MSN和D2-MSN是执行此STDP机制的细胞基础"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "ltp",
+      "type": "related",
+      "note": "D1-MSN中正时序STDP+高DA→LTP（D1→PKA→GluA1）"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "ltd",
+      "type": "related",
+      "note": "D2-MSN中负时序STDP+高DA→LTD（D2-mGluR5-CB1-eCB）"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "hebbian-learning",
+      "type": "is-a",
+      "note": "STDP是Hebbian规则的时序精化版本，受多巴胺不对称门控"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "parkinsons-disease",
+      "type": "related",
+      "note": "DA缺失导致D1-MSN只能LTD/D2-MSN失去方向性（Shen 2008帕金森模型）"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "addiction",
+      "type": "related",
+      "note": "成瘾药物诱导DA超爆发→D1-MSN异常LTP，劫持皮层-纹状体STDP规则"
+    },
+    {
+      "from": "corticostriatal-stdp",
+      "to": "habitual-behavior",
+      "type": "supports",
+      "note": "DLS皮层-纹状体STDP反复强化S-R联结形成习惯"
+    },
+    {
+      "from": "dopamine-reward-prediction-error",
+      "to": "corticostriatal-stdp",
+      "type": "regulates",
+      "note": "VTA/SNc DA爆发/抑制通过D1R/D2R不对称门控皮层-纹状体STDP方向"
+    },
+    {
+      "from": "three-factor-learning-rule",
+      "to": "corticostriatal-stdp",
+      "type": "related",
+      "note": "皮层-纹状体STDP是三因素规则在纹状体的神经生理具体化"
+    },
+    {
+      "from": "striatal-direct-indirect-pathway",
+      "to": "corticostriatal-stdp",
+      "type": "related",
+      "note": "直接/间接通路的功能分化由D1/D2不对称STDP在突触层面实现"
     }
   ],
   "dangling_references": [

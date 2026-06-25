@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-06-07
-updated: 2026-09-20
-revision_count: 2
-dimensions: [synaptic, cellular, cognition, behavior]
-related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, btsp]
+updated: 2026-09-28
+revision_count: 3
+dimensions: [synaptic, cellular, microcircuit, cognition, behavior]
+related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, btsp, corticostriatal-stdp, striatal-direct-indirect-pathway]
 prerequisites: [hebbian-learning, ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-three-factor-time-window, Q-stc-molecular-tag, Q-three-factor-btsp-third-factor-identity]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-09-20-btsp-camkii-molecular-timekeeper]
-key_sources: ["PMID:12371508", "PMID:9054347", "PMID:8774460", "PMID:9020359", "PMID:7708662", "PMID:28883072", "PMID:39385027", "PMID:41224656"]
+opens_questions: [Q-three-factor-time-window, Q-stc-molecular-tag, Q-three-factor-btsp-third-factor-identity, Q-corticostriatal-stdp-in-vivo-timing]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-09-20-btsp-camkii-molecular-timekeeper, 2026-09-28-corticostriatal-stdp-d1d2-plasticity]
+key_sources: ["PMID:12371508", "PMID:9054347", "PMID:8774460", "PMID:9020359", "PMID:7708662", "PMID:28883072", "PMID:39385027", "PMID:41224656", "PMID:18687967", "PMID:20613723", "PMID:15528409", "PMID:11544526"]
 ---
 
 # 三因素学习规则 (Three-Factor Learning Rule)
@@ -79,6 +79,15 @@ DA 抑制（δ < 0）时，通过 D2 受体 → Gi → cAMP↓ → PP2B/PP1 级�
 
 这一双通道设计使大脑**同时学习"做什么"和"不做什么"**，比单纯正向强化高效得多。
 
+**2026-09-28 新增（第158篇，Shen 2008）——纹状体三因素规则的STDP分子机制**：
+
+这一双通道设计已在Shen et al.（2008, PMID:18687967）中用精确的STDP协议直接验证。关键发现是多巴胺状态**不对称地**改变两条通路的STDP规则：
+
+- D1-MSN中，D1受体激活（高DA）**主动阻断LTD路径**（抑制mGluR5→内源性大麻素→CB1级联），使D1-MSN在正常多巴胺水平下**只能LTP**，无法被STDP削弱——这意味着"正确行动"的突触一旦被奖励强化，就很难被简单的STDP配对逆转
+- D2-MSN中，多巴胺（通过D2受体）**拮抗A2a腺苷受体的LTP信号**，同时开放D2-mGluR5-CB1的LTD通路——高DA时D2-MSN几乎只能LTD（"竞争行动被清除"）
+
+这不是简单的"DA高→LTP/LTD更强"，而是DA从根本上重写了STDP的**可塑性方向规则**。详细分子级联见 [[corticostriatal-stdp]]。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -123,6 +132,8 @@ BTSP（行为时间尺度突触可塑性）为三因素规则提供了一个与�
 - [[engram-cells]] — CREB 竞争性分配（印迹细胞选择）可能受 DA 三因素规则调制
 - [[competition-selection-principle]] — 三因素规则在细胞层面实现了竞争性突触遴选
 - [[btsp]] — BTSP 是三因素学习规则在海马情节记忆写入中的神经生理实现；树突平台电位充当"第三因素"，DDSC 实现秒级时序整合
+- [[corticostriatal-stdp]] — 三因素规则在纹状体的具体STDP实现（D1/D2-MSN不对称门控规则，Shen 2008）
+- [[striatal-direct-indirect-pathway]] — 三因素规则通过直接/间接通路双轨写入，实现"正确行动强化+竞争行动削弱"
 
 ## 未解问题
 
@@ -134,8 +145,10 @@ BTSP（行为时间尺度突触可塑性）为三因素规则提供了一个与�
 
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 填补 [[hebbian-learning]] 页面的悬空引用 [[three-factor-learning-rule]] · 初始置信度：高
 - 2026-09-20 · 修订（rev2）· 基于《BTSP的分子秒表》一文（#150）· 新增「BTSP 作为三因素规则的海马实现」章节；对比 DA-奖励三因素与 BTSP-平台电位三因素的共性与区别；DDSC 与资格痕迹的分子类比；related 新增 btsp；开放问题新增 Q-three-factor-btsp-third-factor-identity
+- 2026-09-28 · 修订（rev3）· 基于《纹状体的突触法庭》一文（#158）· 在「纹状体D1/D2双通道实现」章节补入Shen 2008的STDP具体分子机制（D1阻断mGluR5-CB1路径；D2拮抗A2a的分子细节）；新增[[corticostriatal-stdp]]和[[striatal-direct-indirect-pathway]]连接；key_sources新增PMID:18687967、20613723、15528409、11544526；开放问题新增Q-corticostriatal-stdp-in-vivo-timing
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
 - [[2026-09-20-btsp-camkii-molecular-timekeeper]]
+- [[2026-09-28-corticostriatal-stdp-d1d2-plasticity]]

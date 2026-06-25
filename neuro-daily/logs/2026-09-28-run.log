@@ -1,0 +1,70 @@
+# 运行日志 2026-09-28
+
+## 元信息
+
+- 日期：2026-09-28
+- 文章编号：#158
+- 文章 slug：corticostriatal-stdp-d1d2-plasticity
+- 主题：皮层-纹状体STDP的多巴胺门控机制：D1-MSN与D2-MSN的不对称突触可塑性与强化学习的神经实现
+- 执行时间：自动（scheduled routine）
+- 状态：完成
+
+## 来源检索
+
+- PubMed E-utilities API：6 PMIDs 全部核实通过
+- 开放全文读取：3篇（PMC2833421/Shen 2008、PMC3552484/Kravitz 2010、PMC3487690/Gerfen 2011）
+- 受限摘要：3篇（Schultz 1997、Reynolds 2001、Frank 2004）
+
+## 文件操作
+
+### 新建文件（4个）
+
+- neuro-daily/articles/2026-09-28-corticostriatal-stdp-d1d2-plasticity.md（~4800字中文文章）
+- neuro-daily/notes/2026-09-28-reading-notes.md（阅读笔记，6来源）
+- neuro-daily/sources/2026-09-28-sources.json（结构化来源数据，6条）
+- neuro-daily/wiki/circuits/corticostriatal-stdp.md（新wiki页，rev1）
+
+### 修订文件（6个）
+
+- neuro-daily/wiki/circuits/striatal-direct-indirect-pathway.md（rev1→rev2）
+- neuro-daily/wiki/concepts/three-factor-learning-rule.md（rev2→rev3）
+- neuro-daily/wiki/concepts/dopamine-reward-prediction-error.md（rev7→rev8）
+- neuro-daily/wiki/_graph.json（303节点/1790边 → 304节点/1803边，+1节点，+13边）
+- neuro-daily/state/maturity_index.json（4条更新：corticostriatal-stdp新增，其余3条修订）
+- neuro-daily/state/topic_ledger.json（新增#158条目）
+
+### 状态文件更新（5个）
+
+- neuro-daily/state/source_registry.json（新增#158文章条目，4个新PMID，2个复用）
+- neuro-daily/state/unresolved_questions.md（新增3个未解问题）
+- neuro-daily/state/monthly_synthesis.md（新增09-28摘要）
+- neuro-daily/wiki/CHANGELOG.md（新增09-28变更记录）
+- neuro-daily/wiki/index.md（更新页面总数、统计、新增corticostriatal-stdp条目）
+
+## 知识图谱变化
+
+- 节点：303 → 304（新增：corticostriatal-stdp）
+- 边：1790 → 1803（+13边）
+- 新边类型：mechanism-of, part-of, is-a, regulates（双向和单向）
+
+## 未解问题
+
+### 新增（3个）
+
+- Q-corticostriatal-stdp-in-vivo-timing（高优先级）：体外STDP时序窗口与体内DA爆发延迟协调机制
+- Q-d2msn-a2a-in-vivo（高优先级）：A2a受体体内动态与D2拮抗时空关系
+- Q-d1-ltp-persistence（中优先级）：D1-MSN LTP体内持久性与PKMζ关系
+
+## 错误记录
+
+- source_registry.json存在预先存在的JSON格式错误（line 14666），已通过字符串追加绕过
+- git pull --rebase origin main（替代无策略git pull）
+
+## 课程进度
+
+- 当前文章：#158
+- 本周主题：纹状体回路 + 多巴胺系统（#155-#158）
+- 下期建议主题：
+  1. 超直接通路（hyperdirect-pathway）——悬空引用，STN-皮层直接连接的停止信号机制
+  2. 成瘾的分子棘轮进阶——ΔFosB下游靶点的完整表观遗传机制
+  3. 基底节疾病谱——从帕金森到亨廷顿的共同病理机制比较

@@ -9727,6 +9727,77 @@
       "knowledge_base_date": "2026-09-27",
       "system_clock_date": "2026-06-26",
       "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-09-27（第157篇成瘾神经机制文章）"
+    },
+    {
+      "date": "2026-09-28",
+      "title": "纹状体的突触法庭：D1-MSN与D2-MSN如何将奖励信号刻入神经回路",
+      "filename": "2026-09-28-corticostriatal-stdp-d1d2-plasticity.md",
+      "article_number": 158,
+      "wiki_pages_created": [
+        "wiki/circuits/corticostriatal-stdp.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/circuits/striatal-direct-indirect-pathway.md (rev1->rev2)",
+        "wiki/concepts/three-factor-learning-rule.md (rev2->rev3)",
+        "wiki/concepts/dopamine-reward-prediction-error.md (rev7->rev8)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "皮层-纹状体突触上，D1-MSN与D2-MSN的不对称多巴胺门控STDP规则如何将奖励预测误差（TD误差δ）翻译成持久突触权重变化——Shen 2008的精确实验证明了什么，这个机制是否就是强化学习的分子物理基底？",
+      "open_questions_added": [
+        "Q-corticostriatal-stdp-in-vivo-timing（高优先级）：体外STDP时序窗口（±20ms）与体内DA爆发延迟（200-500ms）如何协调？STC机制是否足以解释？",
+        "Q-d2msn-a2a-in-vivo（高优先级）：A2a腺苷受体在D2-MSN LTP中的体内动态如何？腺苷（来自ATP水解）与DA爆发的时空耦合？",
+        "Q-d1-ltp-persistence（中优先级）：D1-MSN的LTP体内有多持久？是否需要后续DA信号维持标签？与PKMζ的关系？"
+      ],
+      "layer": [
+        "synaptic",
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱5（认知控制·奖励学习·预测误差·D1/D2机制）+ 课程脊柱12（人脑与AI比较·TD学习·Actor-Critic架构）",
+      "topic_tags": [
+        "D1-MSN D2-MSN medium spiny neuron striatum dopamine plasticity",
+        "corticostriatal STDP spike-timing-dependent plasticity",
+        "Shen Flajolet Greengard Surmeier 2008 Science dichotomous dopaminergic control",
+        "Kravitz Freeze Deisseroth Kreitzer 2010 Nature optogenetic basal ganglia",
+        "Frank Seeberger O'Reilly 2004 Science carrot stick reinforcement learning parkinsonism",
+        "Schultz Dayan Montague 1997 Science reward prediction error RPE",
+        "Reynolds Hyland Wickens 2001 Nature cellular mechanism reward learning",
+        "TD learning temporal difference reinforcement learning brain",
+        "direct pathway indirect pathway Go No-Go basal ganglia",
+        "D1 receptor Gs cAMP PKA DARPP-32 GluA1 LTP",
+        "D2 receptor Gi A2a adenosine mGluR5 CB1 endocannabinoid LTD",
+        "Actor-Critic brain VTA SNc dopamine striatum",
+        "Parkinson disease dopamine depletion 6-OHDA plasticity dysregulation"
+      ],
+      "main_sources": [
+        "PMID:9054347 (Schultz, Dayan, Montague 1997, Science, RPE神经实现, 摘要)",
+        "PMID:11544526 (Reynolds, Hyland, Wickens 2001, Nature, 三因素规则体内, 摘要)",
+        "PMID:15528409 (Frank, Seeberger, O'Reilly 2004, Science, 帕金森病D1/D2学习分离, 摘要)",
+        "PMID:18687967 (Shen, Flajolet, Greengard, Surmeier 2008, Science, D1/D2不对称STDP, OPEN PMC2833421)",
+        "PMID:20613723 (Kravitz et al. 2010, Nature, 光遗传学因果验证, OPEN PMC3552484)",
+        "PMID:21469956 (Gerfen & Surmeier 2011, Annu Rev Neurosci, 综述, OPEN PMC3487690)"
+      ],
+      "open_access_fulltext": [
+        "PMID:18687967 (PMC2833421)",
+        "PMID:20613723 (PMC3552484)",
+        "PMID:21469956 (PMC3487690)"
+      ],
+      "next_suggested_topics": [
+        "成瘾的消退机制——IL损伤只是解除抑制而非真正的消退：新的A-O联结如何在DLS中建立以对抗S-R驱动？（直接承接addiction和corticostriatal-stdp两篇）",
+        "OCD的计算神经科学——model-based控制缺陷与眶额皮层-纹状体回路的STDP异常：D1/D2通路中哪条过度活跃导致了强迫性重复？",
+        "压力与决策——急性应激如何通过糖皮质激素促进从model-based到model-free的切换（GC→减弱PFC→DMS连接；同时增强杏仁核→DLS连接），直接连接本篇STDP机制",
+        "前额叶-纹状体突触连接——PFC如何通过谷氨酸投射到纹状体，形成corticostriatal三因素规则的皮层侧（top-down）输入组件",
+        "强化学习中的时序信用分配完整解决方案——突触标签与捕获（STC）如何在分钟到小时尺度上将D1-MSN LTP从E-LTP转化为L-LTP"
+      ],
+      "graph_update": "303+1=304 nodes (corticostriatal-stdp新建); 1790+13=1803 edges (+13条边连接新节点及更新既有关系)",
+      "knowledge_base_date": "2026-09-28",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-28（第158篇皮层-纹状体STDP不对称可塑性文章）"
     }
   ]
 }

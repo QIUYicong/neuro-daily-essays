@@ -846,12 +846,31 @@
     "change_reason": "创建：CaMKII在LTP中的快速局部激活（established/high）；DDSC延迟弥散模式（Jain 2024，脑片直接成像，因果性经paAIP2实验证明，established/high脑片；体内待验证）"
   },
   {
-    "slug": "three-factor-learning-rule",
-    "title": "三因素学习规则",
-    "page": "wiki/concepts/three-factor-learning-rule.md",
+    "slug": "corticostriatal-stdp",
     "status": "mainstream",
     "confidence": "high",
-    "last_change": "2026-09-20",
-    "change_reason": "修订 rev2：新增BTSP作为三因素规则海马实现的章节；DA-奖励三因素 vs 平台电位三因素的对比分析；status维持mainstream/high（三因素框架在多实验室独立验证）"
+    "last_changed": "2026-09-28",
+    "reason": "新建 rev1 · #158 · Shen 2008（PMID:18687967，全文）在D1/D2-EGFP小鼠脑切片中直接证明D1-MSN/D2-MSN的不对称STDP规则；Kravitz 2010（PMID:20613723）光遗传学因果验证；Gerfen & Surmeier 2011（PMID:21469956）综述确认"
+  },
+  {
+    "slug": "striatal-direct-indirect-pathway",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-09-28",
+    "reason": "修订 rev1→rev2 · #158 · 新增Shen 2008 STDP分子机制证据（直接证实D1 LTP+D2 LTD的不对称）；Kravitz 2010光遗传学因果证据；Frank 2004人类临床证据；解剖知识升级为分子-回路-行为完整因果链"
+  },
+  {
+    "slug": "three-factor-learning-rule",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-09-28",
+    "reason": "修订 rev2→rev3 · #158 · 补入D1-MSN阻断LTD路径（mGluR5-CB1）的具体分子机制（Shen 2008）；STDP在纹状体的具体实现路径已明确"
+  },
+  {
+    "slug": "dopamine-reward-prediction-error",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-09-28",
+    "reason": "修订 rev7→rev8 · #158 · 仅新增导航连接（corticostriatal-stdp, striatal-direct-indirect-pathway）；核心机制无变动；confidence维持高"
   }
 ]

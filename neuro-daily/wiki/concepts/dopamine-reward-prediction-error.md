@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-07
-updated: 2026-09-19
-revision_count: 7
+updated: 2026-09-28
+revision_count: 8
 dimensions: [cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems, lateral-habenula, lhb-rmtg-circuit]
+related: [three-factor-learning-rule, hebbian-learning, ltp, engram-cells, memory-consolidation, working-memory, competition-selection-principle, vip-interneurons, parkinsons-disease, basal-ganglia, predictive-coding, precision-weighting, td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems, lateral-habenula, lhb-rmtg-circuit, corticostriatal-stdp, striatal-direct-indirect-pathway]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning]
 opens_questions: [Q-da-heterogeneity, Q-da-hippocampus-source]
-source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-12-dopamine-td-learning-brain-ai, 2026-09-01-medium-spiny-neurons-striatum, 2026-09-19-lateral-habenula-anti-reward-depression]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-06-15-predictive-coding, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-12-dopamine-td-learning-brain-ai, 2026-09-01-medium-spiny-neurons-striatum, 2026-09-19-lateral-habenula-anti-reward-depression, 2026-09-28-corticostriatal-stdp-d1d2-plasticity]
 key_sources: ["PMID:9054347", "PMID:8774460", "PMID:27069377", "PMID:26865020", "PMID:26109341", "PMID:32338128", "PMID:20068583", "PMID:27602521", "PMID:38592773", "PMID:38895442", "PMID:33186815", "PMID:31942076", "PMID:12371510", "PMID:37841525", "PMID:21469956", "PMID:17522629", "PMID:21832176"]
 ---
 
@@ -86,6 +86,8 @@ DA 响应有两个时间层次：
 - [[basal-ganglia]] — 纹状体D1/D2受体是DA-RPE信号的直接靶点，形成动作选择回路
 - [[lateral-habenula]] — LHb 编码负 RPE，通过 RMTg 主动驱动 VTA 多巴胺抑制
 - [[lhb-rmtg-circuit]] — LHb→RMTg→VTA 反奖励回路的详细解剖与功能
+- [[corticostriatal-stdp]] — DA-RPE信号在皮层-纹状体突触层面如何通过D1/D2-MSN不对称STDP被翻译成突触权重变化（Shen 2008的分子机制）
+- [[striatal-direct-indirect-pathway]] — 纹状体直接/间接通路是DA-RPE写入突触权重的回路基底
 
 ## 海马多巴胺来源争议：LC 主导，VTA 辅助（2026-07-11 更新）
 
@@ -160,6 +162,7 @@ DA 的"双读数"设计：δ > 0 时 D1（高阈值）被激活且 D2 被抑制�
 - 2026-07-12 · 修订 rev5 · 基于《奖励信号的双重发现》第 80 篇文章（#80）· 新增"分布式 DA 编码"小节（Dabney 2020，PMID:31942076）——DA 群体编码奖励分布而非单一均值；新增"Actor-Critic 架构"小节（Joel 2002，PMID:12371510）——VTA=TD误差、NAc=Critic、背侧纹状体=Actor；新增 related: td-learning, actor-critic-brain, distributional-rl-dopamine, model-based-model-free, complementary-learning-systems；key_sources 新增3个（PMID:33186815、PMID:31942076、PMID:12371510）
 - 2026-09-01 · 修订 rev6 · 基于《纹状体的决策细胞》一文（#131）· 新增MSN层面的突触机制说明：D1-dMSN通过Gs-cAMP-PKA-DARPP-32促进LTP；D2-iMSN通过Gi-eCB-CB1促进LTD；关键新发现：多巴胺信号在行动后≤1秒仍可触发LTP（信用分配时间窗）；related新增medium-spiny-neuron、striatal-direct-indirect-pathway、striatal-plasticity · 来源：PMID:37841525, PMID:21469956
 - 2026-09-19 · 修订 rev7 · 基于《外侧缰核：大脑的惩罚计算机》一文（#149）· 在"当前理解"中新增 LHb→RMTg→VTA 作为负 RPE 主动驱动来源的段落；连接节新增 lateral-habenula 和 lhb-rmtg-circuit；key_sources 新增 PMID:17522629, PMID:21832176
+- 2026-09-28 · 修订 rev8 · 基于《纹状体的突触法庭》一文（#158）· related 新增 corticostriatal-stdp、striatal-direct-indirect-pathway；连接节新增两条指向这两个页面的描述；source_articles 新增 2026-09-28；此修订无内容变动，仅新增导航连接
 
 ## 来源文章
 
