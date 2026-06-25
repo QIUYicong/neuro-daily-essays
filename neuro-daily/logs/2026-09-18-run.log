@@ -107,9 +107,14 @@
 - `source_registry.json`：新增 8 条来源，total_sources=540 ✅
 - `monthly_synthesis.md`：追加 #148 日条目 ✅
 
-### G. 提交与推送（待执行）
+### G. 提交与推送
 
-- 待 git add + git commit + git push origin main
+- [x] git add neuro-daily/
+- [x] git commit（13 文件，+1152 / -15 行）
+- [x] git pull --rebase origin main（无冲突，已是最新）
+- [x] git push -u origin main ✅
+- **提交哈希**：c7821f5
+- **推送目标**：http://127.0.0.1:41729/git/QIUYicong/neuro-daily-essays（main）
 
 ---
 
@@ -132,4 +137,4 @@
 ---
 
 *运行结束时间：2026-09-18（系统时钟 2026-06-25）*
-*push 状态：待更新*
+*push 状态：✅ 成功 · 提交 c7821f5 · https://github.com/QIUYicong/neuro-daily-essays/tree/main*
