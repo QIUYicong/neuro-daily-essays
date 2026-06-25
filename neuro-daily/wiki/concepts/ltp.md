@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-09-21
-revision_count: 13
+updated: 2026-09-23
+revision_count: 14
 dimensions: [synaptic, cellular, cognition, brain-region, disease, molecular]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, liquid-liquid-phase-separation, postsynaptic-density, pkm-zeta]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, liquid-liquid-phase-separation, postsynaptic-density, pkm-zeta, dendritic-spine, cofilin-actin-spine]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
-opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-09-12-liquid-liquid-phase-separation-postsynaptic-density, 2026-09-21-pkm-zeta-late-ltp-persistence]
+opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component, Q-spine-btsp-01, Q-spine-early-late-02]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-09-12-liquid-liquid-phase-separation-postsynaptic-density, 2026-09-21-pkm-zeta-late-ltp-persistence, 2026-09-23-dendritic-spine-structural-plasticity]
 key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918", "PMID:27565345", "PMID:29976799", "PMID:16463388", "PMID:15958741", "PMID:27187150", "PMID:41814337", "PMID:41889799", "PMID:39814881"]
 ---
 
@@ -185,6 +185,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 
 ## 修订历史
 
+- 2026-09-23 · 修订（rev14）· 基于《记忆的雕塑家》(#153) · 新增树突棘结构可塑性作为 LTP 的形态学对应物：Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合→棘头膨大；early/late 两阶段结构基础；Rab10/Rab4 时序耦合 AMPAR 流量与棘体积；BTSP 结构对应物为知识空白（新未解问题 Q-spine-btsp-01）；related 新增 dendritic-spine、cofilin-actin-spine；opens_questions 新增 Q-spine-btsp-01、Q-spine-early-late-02；key_sources 新增 PMID:15190253、PMID:41249054、PMID:40986440
 - 2026-09-21 · 修订（rev13）· 基于《记忆的分子守夜人》(#151) · 新增"PKMζ与aPKC功能层"段落（PKMζ无调节域持续激活；双KO→L-LTP消失；KIBRA寡聚体感染性磷酸化；ZIP重新解读）；Q-ltp-lifetime-mechanism标记为部分解答；related新增pkm-zeta；key_sources新增6个；source_articles新增#151；连接新增pkm-zeta
 - 2026-09-12 · 修订 · 基于《突触的自组装奥秘》(#142) · 新增"LTP 的相变维度"段落（PSD 是 LLPS 凝聚体；SynGAP 集体逸散是 LTP 相变机制；CaMKII 凝聚体作为突触标签）；related 新增 liquid-liquid-phase-separation、postsynaptic-density；key_sources 新增 PMID:27565345、PMID:29976799；dimensions 新增 molecular；source_articles 新增 #142；连接新增两条
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling 和 homeostatic-plasticity；GluA1（LTP）vs GluA2（稳态缩放）分子路径分叉关系明确化；related 新增 synaptic-scaling、homeostatic-plasticity

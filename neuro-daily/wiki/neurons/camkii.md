@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-09-20
-revision_count: 2
+updated: 2026-09-23
+revision_count: 3
 dimensions: [molecular, synaptic, cellular]
-related: [nmda-receptor, ltp, ampa-receptor, synaptic-transmission, btsp, dendritic-computation, three-factor-learning-rule, voltage-gated-calcium-channels]
+related: [nmda-receptor, ltp, ampa-receptor, synaptic-transmission, btsp, dendritic-computation, three-factor-learning-rule, voltage-gated-calcium-channels, dendritic-spine, cofilin-actin-spine]
 prerequisites: [nmda-receptor, synaptic-transmission]
-opens_questions: [Q-camkii-subunit-exchange, Q-camkii-maintenance-lifetime, Q-camkii-ddsc-synapse-specificity, Q-camkii-two-modes-interaction]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-09-20-btsp-camkii-molecular-timekeeper]
+opens_questions: [Q-camkii-subunit-exchange, Q-camkii-maintenance-lifetime, Q-camkii-ddsc-synapse-specificity, Q-camkii-two-modes-interaction, Q-spine-btsp-01]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-09-20-btsp-camkii-molecular-timekeeper, 2026-09-23-dendritic-spine-structural-plasticity]
 key_sources: ["PMID:34908526", "PMID:22510460", "PMID:30359599", "PMID:37672577", "PMID:39385027"]
 ---
 
@@ -119,9 +119,11 @@ CaMKII 是由 12 个亚基组成的环形全酶（六聚体或十二聚体）。
 ## 修订历史
 
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
+- 2026-09-23 · 修订（rev3）· 基于《记忆的雕塑家》(#153) · 新增 CaMKII→GEF→Rac1/RhoA→LIMK→cofilin 轴作为结构可塑性的分子路径（LTP 诱导后的形态学输出）；CaMKII 在 PSD 的物理迁移和锚定（Nicoll & Schulman 2023 综述支持）；Rac1 平行路径（Saneyoshi 2025：不依赖 CaMKII 激酶活性可独立诱导结构 LTP）；related 新增 dendritic-spine、cofilin-actin-spine；source_articles 新增 #153
 - 2026-09-20 · 修订（rev2）· 基于《BTSP的分子秒表》一文（#150）· 核心更新：区分 CaMKII 两种激活模式（LTP 快速局部 vs BTSP DDSC）；DDSC 机制（Jain 2024, PMID:39385027）；αCaMKII T286A 证据（Xiao 2023, PMID:37672577）；T286 自磷酸化在 BTSP 中的作用（8.2 s vs 1.9 s）；新增连接：btsp、dendritic-computation、voltage-gated-calcium-channels、three-factor-learning-rule；新增未解问题：Q-camkii-ddsc-synapse-specificity、Q-camkii-two-modes-interaction
 
 ## 来源文章
 
 - [[2026-05-26-nmda-receptor-ltp]]
 - [[2026-09-20-btsp-camkii-molecular-timekeeper]]
+- [[2026-09-23-dendritic-spine-structural-plasticity]]

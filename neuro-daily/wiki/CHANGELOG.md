@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-09-23 · 文章 #153 · 记忆的雕塑家：树突棘如何用肌动蛋白重塑自身形状来固化一次学习
+
+**核心主题**：树突棘结构可塑性——LTP/BTSP 后棘头膨大的 Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合分子级联；Rac1 平行独立通路（Saneyoshi 2025）；Rab10/Rab4 协调 AMPAR 流量与棘体积的时序耦合（Wang 2025）；大棘近饱和 vs 小棘高可塑性（Matsuzaki 2004）；早期动态/晚期稳定两阶段结构 LTP；BTSP 结构对应物为知识空白。图谱从 **296 节点/1739 边** 增至 **298 节点/1747 边**（+2 节点 +8 新边）。
+
+**注意**：系统时钟日期为 2026-06-25（UTC+8），知识库连续序列日期为 2026-09-23，文章编号 #153。
+
+### 新建 Wiki 页面（2 个）
+
+- `neurons/dendritic-spine.md` 🟢 established · 高置信度 — 形态多样性（蘑菇/细颈/粗短/分叉形）与功能分级；大小依赖性可塑性（小棘 200–300% 膨大；大棘 <10%）；六步分子级联；Rac1 平行通路；Rab10/Rab4 耦合 AMPAR 流量；早期/晚期两阶段；4 个未解问题（Q-spine-btsp-01 高优先级）
+- `concepts/cofilin-actin-spine.md` 🟢 established · 高置信度 — cofilin（Ser3 磷酸化）是 F-actin 切割/稳定的分子开关；三条上游路径（Rac1→PAK→LIMK、RhoA→ROCK→LIMK、PI3K→Rac1→LIMK）在 LIMK 汇合；LTP→cofilin 失活→净聚合；LTD→cofilin 再激活→净解聚
+
+### 修订 Wiki 页面（2 个）
+
+- `concepts/ltp.md` rev13→rev14 — related 新增 dendritic-spine、cofilin-actin-spine；opens_questions 新增 Q-spine-btsp-01、Q-spine-early-late-02；source_articles 新增 #153；修订历史新增一行（结构可塑性为 LTP 形态学对应物；Rab10/Rab4 AMPAR 流量耦合；BTSP 结构空白）
+- `neurons/camkii.md` rev2→rev3 — related 新增 dendritic-spine、cofilin-actin-spine；opens_questions 新增 Q-spine-btsp-01；source_articles 新增 #153；修订历史新增：CaMKII→GEF→Rac1/RhoA→LIMK→cofilin 结构路径（Nicoll & Schulman 2023）；Rac1 平行通路不依赖 CaMKII 激酶活性（Saneyoshi 2025）
+
+### 登记矛盾（0 个）
+
+无新矛盾（Rac1 独立通路与 CaMKII 依赖性的关系已在文章中解释为并行路径，而非冲突）
+
+### 新增悬空引用（待填补）
+
+- `actin-dynamics-spine`（被 dendritic-spine 和 cofilin-actin-spine 引用，暂无独立页面）
+- `postsynaptic-density`（被 dendritic-spine 引用，检查是否已建页面）
+
+---
+
 ## 2026-09-21 · 文章 #151 · 记忆的分子守夜人：PKMζ的发现、颠覆与新生
 
 **核心主题**：PKMζ（蛋白激酶M-ζ）与晚期LTP（L-LTP）持久性机制——(1) PKMζ无调节域特性：合成即持续激活，通过阻止GluA2-AMPAR内吞维持突触强度（Ling 2006, Migues 2010）；(2) PKMζ是STC框架第一个明确L-LTP特异性PRP（Sajikumar 2005）；(3) 2013年危机：Lee/Volk两篇Nature同期论文——PKMζ KO小鼠记忆完全正常；(4) 解答：PKCι/λ代偿（Tsokas 2016），双KO（PKMζ+PKCι/λ）消除L-LTP（Tsokas 2026 bioRxiv）；(5) ZIP机制重写：阳离子电荷→endophilin-A2→巨胞饮（Stokes 2025 Nature），20年ZIP实验需重新解读；(6) KIBRA-PKMζ寡聚体的"感染性磷酸化"直接解答克里克1984年蛋白周转悖论（Hsieh 2026 Mol Brain）；(7) Q-ltp-lifetime-mechanism标记为部分解答。图谱从293节点/1711边增至 **294节点/1722边**（+1节点 +11新边）。

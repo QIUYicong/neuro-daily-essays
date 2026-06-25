@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "node_count": 294,
   "edge_count": 1722,
   "edge_types": [
@@ -2706,6 +2706,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/circuits/lhb-rmtg-circuit.md"
+    },
+    {
+      "id": "dendritic-spine",
+      "title": "树突棘",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/dendritic-spine.md"
+    },
+    {
+      "id": "cofilin-actin-spine",
+      "title": "Cofilin-肌动蛋白轴（突触棘结构可塑性）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/cofilin-actin-spine.md"
     }
   ],
   "edges": [
@@ -12480,6 +12498,54 @@
       "to": "pkm-zeta",
       "type": "supports",
       "note": "PKMζ维持本地LTP（天级），SWR将其保护的海马记忆转写至皮层（月级）"
+    },
+    {
+      "from": "ltp",
+      "to": "dendritic-spine",
+      "type": "mechanism-of",
+      "note": "LTP 诱导后棘头体积膨大 200–300%，是 LTP 的形态学对应物"
+    },
+    {
+      "from": "camkii",
+      "to": "dendritic-spine",
+      "type": "mechanism-of",
+      "note": "CaMKII 通过 GEF→Rac1/RhoA→LIMK→cofilin 轴驱动棘头膨大"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "cofilin-actin-spine",
+      "type": "mechanism-of",
+      "note": "cofilin-肌动蛋白轴是棘结构可塑性的核心分子机制"
+    },
+    {
+      "from": "cofilin-actin-spine",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "cofilin 失活→F-actin 聚合→棘扩大是 LTP 的结构执行机制"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "ampa-receptor",
+      "type": "supports",
+      "note": "棘头体积扩大为更多 AMPA 受体提供驻留空间；Rab10/Rab4 协调受体流量"
+    },
+    {
+      "from": "camkii",
+      "to": "cofilin-actin-spine",
+      "type": "regulates",
+      "note": "CaMKII 通过 GEF 激活 Rac1/RhoA，最终激活 LIMK 磷酸化 cofilin"
+    },
+    {
+      "from": "btsp",
+      "to": "dendritic-spine",
+      "type": "related",
+      "note": "BTSP 是否诱导棘头膨大是关键未解问题（Q-spine-btsp-01）"
+    },
+    {
+      "from": "dendritic-spine",
+      "to": "dendritic-computation",
+      "type": "related",
+      "note": "棘作为细胞骨架计算单元影响树突计算能力"
     }
   ],
   "dangling_references": [

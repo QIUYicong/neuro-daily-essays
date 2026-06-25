@@ -18,7 +18,8 @@
 - 🟢 [突触结合蛋白 Synaptotagmin](neurons/synaptotagmin.md) — 突触囊泡上的钙传感器，触发融合的分子开关（修订3次）
 - 🟢 [就绪释放池（RRP）](neurons/readily-releasable-pool.md) — 突触活动区中处于停靠就绪状态的囊泡子集；RRP耗竭是短时程抑制的主要机制 **[NEW 2026-06-10]**
 - 🟢 [活动区（Active Zone）](neurons/active-zone.md) — 突触前终末的纳米级分子发射台
-- 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；BTSP 中的延迟弥散随机激活（DDSC，平台电位后 10–100 s，IP₃→ER 驱动）是行为时间尺度突触整合的分子秒表 **[修订 rev2 2026-09-20]**
+- 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；BTSP 中的延迟弥散随机激活（DDSC，平台电位后 10–100 s，IP₃→ER 驱动）是行为时间尺度突触整合的分子秒表；结构可塑性中通过 GEF→Rac1/RhoA→LIMK→cofilin 轴驱动棘头膨大 **[修订 rev3 2026-09-23]**
+- 🟢 [树突棘](neurons/dendritic-spine.md) — 兴奋性突触的突触后接受位点；棘头体积与突触强度和 AMPA 受体数量高度相关；LTP 诱导后 Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合驱动棘头膨大 200–300%；大棘近饱和，小棘最具可塑性 **[NEW 2026-09-23]**
 - 🟢 [树突计算](neurons/dendritic-computation.md) — NMDA 棘波与 Ca²⁺ 棘波使单根树突成为独立计算单元，单神经元等价两层神经网络；Wilson 2016证明V1突触聚类增强方向选择性（修订4次）
 - 🟢 [锥体神经元](neurons/pyramidal-neuron.md) — 皮层主体兴奋性神经元，双树突系统是树突计算和前馈/反馈整合的物理基础
 - 🟢 [场所细胞](neurons/place-cell.md) — 海马 CA1/CA3 的空间位置编码器，通过 BTSP 单次写入场所场，构成大脑认知地图（修订4次）
@@ -78,6 +79,7 @@
 - 🔵 [突触时序依赖可塑性（STDP）](concepts/stdp.md) — Hebb 规则的时间分辨精化版：前先后→LTP，后先前→LTD；NMDA 受体±20ms 仲裁；θ 前进体内桥接；三因素扩展 **[NEW 2026-06-19]**（填补 hebbian-learning 悬空引用）
 - 🟢 [皮层分层结构（六层）](concepts/cortical-layers.md) — L1–L6 各层细胞类型、输入/输出投射和振荡特征；前馈（L2/3→高级L4，γ驱动型）vs 反馈（L5/6→低级L1/2/3，β调制型绕过L4）的层级不对称；L4棘突星形细胞、L5厚毛绒锥体细胞两极整合、L6 CT丘脑门控 **[NEW 2026-07-18]**
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
+- 🟢 [Cofilin-肌动蛋白轴（突触棘结构可塑性）](concepts/cofilin-actin-spine.md) — LTP 诱导后 CaMKII→Rac1/RhoA→LIMK→cofilin 磷酸化（Ser3 失活）→F-actin 净聚合的分子级联；Rac1 可独立于 CaMKII 激酶活性驱动结构 LTP（Saneyoshi 2025）；cofilin 磷酸化状态决定棘增大（LTP）vs 棘收缩（LTD）的结构方向 **[NEW 2026-09-23]**
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则；分子秒表=DDSC（CaMKII延迟弥散激活，IP₃→ER驱动）；非空间BTSP已推广至嗅觉工作记忆 **[修订 rev3 2026-09-20]**
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-07-21 rev4]**
 - 🔵 [θ-γ跨频率耦合](concepts/theta-gamma-coupling.md) — Lisman-Idiart 1995容量分格模型：每个θ周期嵌套约4–6个γ爆发，每个γ爆发承载一项工作记忆（对应4±1容量上限）；Colgin 2009慢γ（θ波峰，CA3）/快γ（θ波谷，MEC）双通道时分路由；Axmacher 2010人类颅内PAC证据；Huang 2026序列规划扩展 **[NEW 2026-07-21]**

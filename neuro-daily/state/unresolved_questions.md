@@ -4253,3 +4253,36 @@
 **为什么重要**：过度泛化与记忆模糊有关（如某些遗忘症患者的"语义记忆完整但情景记忆缺失"），理解边界参数有助于认知障碍研究。
 **可能的研究路径**：计算模型探索抑制性可塑性参数空间；与情景记忆细节保真度相关的电生理指标。
 **相关页面**：wiki/concepts/hippocampal-replay.md、wiki/neurons/pv-interneurons.md
+
+---
+
+## 2026-09-23 新增（来自"记忆的雕塑家：树突棘如何用肌动蛋白重塑自身形状来固化一次学习"文章 #153）
+
+### Q-spine-btsp-01（高优先级）：BTSP 诱导后，被招募的树突棘是否也出现结构性棘头膨大？
+
+- **关联 wiki**：[[dendritic-spine]]、[[btsp]]、[[camkii]]
+- **来源文章**：2026-09-23-dendritic-spine-structural-plasticity
+- **问题**：经典 LTP 的单棘 2P 谷氨酸解笼实验清楚地证明了棘头体积膨大是 LTP 的形态学对应物。BTSP 通过 CaMKII 的延迟弥散随机激活（DDSC）在体内快速建立场所场——CaMKII 同样是 Rac1/RhoA 的上游激活者，理论上应该也能驱动棘结构变化。但目前几乎没有直接实验在体内 2P 成像条件下，将 BTSP 诱导（平台电位注入或自然导航行为）与棘头体积变化同步记录的报告。如果 BTSP 不产生棘扩大，则 BTSP 与 LTP 的长期持久性机制可能根本不同；如果产生棘扩大，则 BTSP 不只是功能性增强（更多受体），还有物理结构写入。
+- **关键实验**：(1) 体内 2P 长时程成像：在 CA1 中记录整个"场所场建立"过程（运动小鼠穿越陌生环境）中各棘头体积的动态变化，比较新建场所场的棘 vs 非场所场棘的体积轨迹；(2) 结合平台电位注入（人工 BTSP 诱导）+ 同步 2P 棘成像；(3) CaMKII DDSC 抑制（paAIP2 光遗传，30 秒时间窗）是否阻断棘头膨大（如果存在）
+- **当前证据状态**：BTSP 的功能性突触权重增加：高；BTSP 的棘结构变化：无直接体内证据；理论预测（CaMKII 共同上游）：合理但未经验证
+
+### Q-spine-early-late-02（高优先级）：早期动态 F-actin → 晚期稳定 F-actin 的分子开关是什么？
+
+- **关联 wiki**：[[dendritic-spine]]、[[cofilin-actin-spine]]、[[ltp]]
+- **来源文章**：2026-09-23-dendritic-spine-structural-plasticity
+- **问题**：LTP 诱导后的棘扩大分两个时间阶段：早期（0–30 min，动态 F-actin，对细胞松弛素敏感，需要持续 CaMKII 活性）和晚期（>30 min，稳定 F-actin 骨架，对细胞松弛素不敏感，需要新蛋白合成）。这两个阶段的转变是什么驱动的？候选分子包括：drebrin（稳定 F-actin 与 NMDA 受体的连接）、synaptopodin（脊髓器 SER 相关，存在于成熟蘑菇棘）、profilin-1（驱动新 F-actin 从头合成）。但这些候选分子在体内的时序激活规律和因果必要性尚不明确。
+- **当前证据状态**：drebrin 在 LTP 后增加：中；synaptopodin 与成熟蘑菇棘相关：高（相关性）；profilin 因果证据：中
+
+### Q-spine-size-bound-03（中优先级）：蘑菇棘体积的上限是什么决定的？
+
+- **关联 wiki**：[[dendritic-spine]]
+- **来源文章**：2026-09-23-dendritic-spine-structural-plasticity
+- **问题**：Matsuzaki 2004 发现大蘑菇棘对 LTP 刺激几乎不膨大（<10% 体积变化），说明棘头体积有功能性"上限"。这个上限是由 PSD 面积（最大 AMPA 受体容量）决定的，还是由膜张力、某种分子抑制反馈（如 RhoA→ROCK→MLCK 驱动的收缩力？），还是某种稳态平衡（cofilin 和 profilin 的竞争平衡点）决定的？
+- **当前证据状态**：大棘 LTP 不响应：高（观察）；机制：缺乏直接因果证据
+
+### Q-spine-disease-04（中优先级）：tau 过度磷酸化如何干扰 cofilin-actin 动态？
+
+- **关联 wiki**：[[dendritic-spine]]、[[cofilin-actin-spine]]、[[alzheimers-disease]]
+- **来源文章**：2026-09-23-dendritic-spine-structural-plasticity
+- **问题**：AD 中 tau 过度磷酸化导致树突棘密度减少（棘丢失先于神经元死亡）。间接证据显示 tau 可能通过 CDK5 过激活干扰 LIMK/cofilin 通路（CDK5/p25 激活后 cofilin 的调控发生改变）。但 tau→cofilin→F-actin 的因果路径是否是棘丢失的主要机制，还是棘丢失主要由 Aβ 寡聚体通过 NMDA 受体毒性/calcineurin 过激活驱动，仍不清楚。
+- **当前证据状态**：tau 错位与棘密度减少相关：高；tau→cofilin 路径因果性：低/未知

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-23",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -9660,6 +9660,104 @@
         "2026-09-22-swr-replay-selection-consolidation"
       ],
       "note": "Aleman-Zapata et al. Sleep 2026 - 三种涟漪亚型；仅摘要"
+    },
+    {
+      "pmid": "37290118",
+      "pmcid": "PMC10642921",
+      "title": "Synaptic memory and CaMKII",
+      "authors": "Nicoll RA, Schulman H",
+      "year": 2023,
+      "journal": "Physiological Reviews",
+      "first_used": "2026-09-23",
+      "articles_used_in": [
+        "2026-09-23-dendritic-spine-structural-plasticity"
+      ],
+      "covered_topics": [
+        "CaMKII结构可塑性",
+        "LTP维持",
+        "GEF-Rac1-RhoA级联"
+      ]
+    },
+    {
+      "pmid": "41249054",
+      "pmcid": "PMC12658306",
+      "title": "Rac1 photoactivation induces structural LTP independent of CaMKII",
+      "authors": "Saneyoshi T et al.",
+      "year": 2025,
+      "journal": "eNeuro",
+      "first_used": "2026-09-23",
+      "articles_used_in": [
+        "2026-09-23-dendritic-spine-structural-plasticity"
+      ],
+      "covered_topics": [
+        "Rac1平行通路",
+        "结构LTP"
+      ]
+    },
+    {
+      "pmid": "40986440",
+      "pmcid": "PMC12456950",
+      "title": "Rab10 inactivation promotes AMPAR trafficking and spine enlargement during LTP",
+      "authors": "Wang J et al.",
+      "year": 2025,
+      "journal": "eLife",
+      "first_used": "2026-09-23",
+      "articles_used_in": [
+        "2026-09-23-dendritic-spine-structural-plasticity"
+      ],
+      "covered_topics": [
+        "Rab10失活",
+        "AMPAR流量",
+        "棘扩大时序"
+      ]
+    },
+    {
+      "pmid": "39158722",
+      "pmcid": null,
+      "title": "PI3K couples LTP with cofilin and actin polymerization via p85alpha",
+      "authors": "[Multiple]",
+      "year": 2024,
+      "journal": "Cell Mol Life Sci",
+      "first_used": "2026-09-23",
+      "articles_used_in": [
+        "2026-09-23-dendritic-spine-structural-plasticity"
+      ],
+      "covered_topics": [
+        "PI3K-cofilin-LTP"
+      ],
+      "note": "仅摘要读取"
+    },
+    {
+      "pmid": "15190253",
+      "pmcid": null,
+      "title": "Structural basis of LTP in single dendritic spines",
+      "authors": "Matsuzaki M et al.",
+      "year": 2004,
+      "journal": "Nature",
+      "first_used": "2026-09-23",
+      "articles_used_in": [
+        "2026-09-23-dendritic-spine-structural-plasticity"
+      ],
+      "covered_topics": [
+        "单棘结构LTP",
+        "棘大小依赖性"
+      ]
+    },
+    {
+      "pmid": "19400723",
+      "pmcid": null,
+      "title": "Dendritic spine dynamics",
+      "authors": "Bhatt DH et al.",
+      "year": 2009,
+      "journal": "Annu Rev Neurosci",
+      "first_used": "2026-09-23",
+      "articles_used_in": [
+        "2026-09-23-dendritic-spine-structural-plasticity"
+      ],
+      "covered_topics": [
+        "棘动态综述",
+        "F-actin双向调控"
+      ]
     }
   ],
   "total_sources": 562,

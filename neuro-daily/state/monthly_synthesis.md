@@ -1592,3 +1592,18 @@
 
 **层级**：microcircuit / brain-region / whole-brain-network / cognition
 **关键跨度**：回答了记忆固化如何防止灾难性遗忘（时相分离 + 主动淘汰 + 内建泛化偏置）
+
+---
+
+### 2026-09-23（#153）：记忆的雕塑家——树突棘结构可塑性的分子级联
+
+**一句话**：LTP 后棘头体积膨大 200–300% 是功能性增强的形态学对应物，由 Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合驱动；Rac1 可独立于 CaMKII 激酶活性诱导结构 LTP（Saneyoshi 2025），Rab10 失活 + Rab4 激活协调 AMPAR 流量与棘体积扩大的时序（Wang 2025）；大棘近饱和而小棘具有最高可塑性潜力。
+
+**核心知识点**：小棘 vs 大棘的差异可塑性（大小依赖性上限）；CaMKII→GEF→Rac1/RhoA→LIMK→cofilin-Ser3 磷酸化→F-actin 积累的六步级联；Rac1 平行路径（不依赖 CaMKII 激酶活性，Saneyoshi 2025）；PI3K-p85α 通路（PMID:39158722，摘要读取）；早期（0–30 min，动态 F-actin，latrunculin 敏感）vs 晚期（>30 min，稳定 F-actin，蛋白合成依赖）两阶段；Rab10 持续失活 + Rab4 短暂激活的 AMPAR 流量时序耦合（Wang 2025 eLife）；BTSP 结构对应物为知识空白（Q-spine-btsp-01 高优先级）。
+
+**层级**：cellular / molecular / synaptic
+
+**新建 wiki 页（2个）**：neurons/dendritic-spine（established/high）、concepts/cofilin-actin-spine（established/high）
+**修订 wiki 页（2个）**：concepts/ltp（rev13→rev14，related+dendritic-spine/cofilin-actin-spine，opens_questions+Q-spine-btsp-01/Q-spine-early-late-02）、neurons/camkii（rev2→rev3，结构可塑性路径 GEF→Rac1/RhoA→LIMK，Rac1 平行通路）
+**图谱**：296→298 节点，1739→1747 边（+2 节点，+8 边）
+**新增未解问题**：Q-spine-btsp-01（高：BTSP 是否产生棘扩大）、Q-spine-early-late-02（高：早期→晚期 F-actin 转变开关）、Q-spine-size-bound-03（中：棘头体积上限机制）、Q-spine-disease-04（中：tau→cofilin 路径 AD 中的作用）

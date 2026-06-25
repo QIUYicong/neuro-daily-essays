@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-23",
   "total_articles": 151,
   "entries": [
     {
@@ -9387,6 +9387,62 @@
       "knowledge_base_date": "2026-09-22",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-22（第152篇SWR记忆选择与固化文章）"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "记忆的雕塑家：树突棘如何用肌动蛋白重塑自身形状来固化一次学习",
+      "filename": "2026-09-23-dendritic-spine-structural-plasticity.md",
+      "article_number": 153,
+      "wiki_pages_created": [
+        "wiki/neurons/dendritic-spine.md (rev1, NEW)",
+        "wiki/concepts/cofilin-actin-spine.md (rev1, NEW)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md (rev13->rev14)",
+        "wiki/neurons/camkii.md (rev2->rev3)"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "LTP/BTSP 诱导后，棘头膨大的分子级联是什么——从 Ca²⁺ 到 CaMKII 到 Rac1/RhoA 到 LIMK 到 cofilin 失活到 F-actin 净聚合——以及 Rac1 平行通路和 Rab10/Rab4 如何协调结构与功能可塑性的时序耦合？",
+      "open_questions_added": [
+        "Q-spine-btsp-01（高优先级）：BTSP 诱导后棘头是否也有结构性膨大？体内 2P 直接证据缺失",
+        "Q-spine-early-late-02（高优先级）：早期动态 F-actin → 晚期稳定 F-actin 的分子开关是什么？",
+        "Q-spine-size-bound-03（中优先级）：蘑菇棘体积上限的调控机制？",
+        "Q-spine-disease-04（中优先级）：tau 过度磷酸化如何干扰 cofilin-actin 动态？"
+      ],
+      "layer": [
+        "cellular",
+        "molecular",
+        "synaptic"
+      ],
+      "curriculum_track": "课程脊柱1（神经元如何工作：树突计算、突触可塑性）+ 课程脊柱4（学习和记忆：LTP形态学基底、BTSP结构对应物）",
+      "topic_tags": [
+        "dendritic spine structural plasticity actin remodeling LTP",
+        "CaMKII Rac1 RhoA LIMK cofilin F-actin spine head enlargement",
+        "structural LTP two-photon glutamate uncaging single spine",
+        "Rab10 Rab4 AMPAR trafficking spine enlargement eLife 2025",
+        "Rac1 photoactivation independent structural LTP CaMKII eNeuro 2025",
+        "PI3K p85alpha cofilin actin polymerization LTP 2024",
+        "early late LTP structural phases latrunculin protein synthesis",
+        "mushroom thin stubby spine morphology plasticity capacity"
+      ],
+      "main_sources": [
+        "PMID:15190253 (Matsuzaki et al. 2004 Nature, 全文未开放)",
+        "PMID:37290118 (Nicoll & Schulman 2023 Physiol Rev, 全文 PMC10642921)",
+        "PMID:41249054 (Saneyoshi et al. 2025 eNeuro, 全文 PMC12658306)",
+        "PMID:40986440 (Wang et al. 2025 eLife, 全文 PMC12456950)",
+        "PMID:39158722 (2024 Cell Mol Life Sci, 仅摘要)",
+        "PMID:19400723 (Bhatt et al. 2009 Annu Rev Neurosci, PMC 开放)"
+      ],
+      "next_suggested_topics": [
+        "内嗅皮层→CA1回路的突触解剖——EC2/EC3 两层如何通过直接投射和 Schaffer 侧支驱动 CA1 BTSP（回路层级，填补 BTSP 输入解剖空白）",
+        "记忆印迹竞争（engram competition）——CREB 超表达如何使细胞优先进入记忆印迹，与 BTSP 和 SWR 选择的关系（细胞/认知层级）",
+        "慢振荡的皮层生成机制——UP/DOWN 态如何在新皮层中自发产生，与 SWR 门控的时序关系（回路/方法层级）",
+        "突触后密度（PSD）的分子组织——PSD-95/Shank/Homer 支架蛋白如何组织棘头 AMPA 受体排列（填补 cofilin-actin-spine 与 AMPA 受体之间的 PSD 节点）"
+      ],
+      "graph_update": "296+2=298 nodes (dendritic-spine新建, cofilin-actin-spine新建); 1739+8=1747 edges (ltp→dendritic-spine, camkii→dendritic-spine, dendritic-spine→cofilin-actin-spine, cofilin-actin-spine→ltp, dendritic-spine→ampa-receptor, camkii→cofilin-actin-spine, btsp→dendritic-spine, dendritic-spine→dendritic-computation)",
+      "knowledge_base_date": "2026-09-23",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-23（第153篇树突棘结构可塑性文章）"
     }
   ]
 }
