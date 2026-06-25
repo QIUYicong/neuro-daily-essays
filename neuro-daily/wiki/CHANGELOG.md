@@ -4,6 +4,39 @@
 
 ---
 
+## 2026-09-25 · 文章 #155 · 记忆的双重人生：前额叶皮层如何在你不注意时悄悄建造记忆的第二个家
+
+**核心主题**：系统记忆巩固的整合框架——SCT（标准巩固论，Squire & Alvarez 1995：记忆最终转移至皮层，海马角色时间有限）vs MTT（多重痕迹论，Nadel & Moscovitch 1997：情景记忆终生海马依赖）之争的最新综合；Kitamura et al. 2017（PMID:28386011）的核心实验——mPFC 沉默印迹与海马印迹同步创建（Day 1：HPC活跃/mPFC沉默；Day 14：HPC沉默/mPFC活跃）——证明巩固=提取路径重路由，而非内容搬迁；Kaefer et al. 2022（PMID:35970912）瀑布记忆系统（CMS）模型——SWR 重播通过 DMN 主连接梯度级联传播至感觉皮层（近临界动力学）；Moscovitch & Gilboa 2022（PMID:36532709）痕迹转化论（TTT）——多形式并存/持续转化/任务驱动提取/前后海马分工（统合 SCT 与 MTT）；Park & Kaang 2026（PMID:41974891）分子层：CREB/ERK5/H2A.Z 持续活性证明海马在远期记忆中持续维护可提取性。图谱从 **300 节点/1763 边** 增至 **301 节点/1778 边**（+1 节点 +15 新边）。
+
+**注意**：系统时钟日期为 2026-06-26（UTC+8），知识库连续序列日期为 2026-09-25，文章编号 #155。
+
+### 新建 Wiki 页面（1 个）
+
+- `theories/trace-transformation-theory.md` 🟡 emerging · 中置信度 — 痕迹转化论（TTT）的完整框架：4 条核心主张（多形式并存/持续转化/任务驱动提取/前后海马分工）；系统巩固作为多形式权重调整；提取行为本身的再巩固效应；分子维护证据（Park & Kaang 2026）；5 行证据表；7 条连接；2 个新未解问题（Q-ttt-episodic-vs-semantic-boundary / Q-ttt-anterior-posterior-hpc-division）；关键来源：PMID:36532709（PMC9720899 开放全文）、PMID:9142752、PMID:7620304、PMID:41974891（PMC13144532 开放全文）
+
+### 修订 Wiki 页面（4 个）
+
+- `concepts/memory-consolidation.md` rev9→rev10 — 新增"5. 细胞机制：沉默 mPFC 印迹与读取路径重路由（2026-09-25 新增）"节（Kitamura 2017 五要点：1 mPFC 印迹 Day 1 同步创建但受抑制；2 BLA 印迹终生稳定；3 阻断 mPFC-BLA→近期记忆消失；4 Day 14 mPFC 活化/HPC 沉默；5 光遗传激活 Day 14 沉默 HPC 印迹→记忆恢复→巩固=提取路径重路由非内容搬迁）及 CMS 模型段落；新增 SCT/MTT 段落中 TTT 整合节点；证据表新增 7 行；连接新增 trace-transformation-theory、default-mode-network、complementary-learning-systems；key_sources 新增 7 个 PMIDs；source_articles 新增 #155
+
+- `concepts/engram-cells.md` rev6→rev7 — 新增"5. 系统巩固中的印迹命运：沉默 mPFC 印迹（2026-09-25 新增）"节（Kitamura 2017 时间线：Day 1 HPC 活跃/mPFC 沉默；Day 14 HPC 沉默/mPFC 活跃；BLA 印迹终生稳定；近期记忆的 HPC-mPFC-BLA 三角依赖；远期记忆的 mPFC-BLA 皮层自主性）；related 新增 trace-transformation-theory；key_sources 新增 PMID:28386011；source_articles 新增 #155
+
+- `concepts/complementary-learning-systems.md` rev3→rev4 — 新增"6. 瀑布记忆系统模型（CMS）：DMN 作为重播传播的基础设施（2026-09-25 新增）"节（Kaefer et al. 2022：主连接梯度/重播传播路径/近临界动力学/记忆年龄与重播层级）；证据表新增 2 行；key_sources 新增 PMID:35970912、PMID:36532709；source_articles 新增 #155
+
+- `systems/default-mode-network.md` rev4→rev5 — 新增"DMN 作为记忆巩固信息高速公路：瀑布记忆系统（CMS）模型（2026-09-25 新增）"节（主连接梯度/重播信号瀑布传播/近临界动力学/记忆年龄与重播层级）；证据表新增 2 行；related 新增 complementary-learning-systems、sharp-wave-ripples、trace-transformation-theory；opens_questions 新增 Q-dmn-replay-directionality、Q-dmn-task-deactivation-mechanism；key_sources 新增 PMID:35970912、PMID:27791099；source_articles 新增 #155
+
+### 矛盾登记（0 条）
+
+无新矛盾登记。TTT vs SCT/MTT 是框架整合而非概念矛盾——TTT 将两者统一为同一记忆事件不同形式的命运描述。
+
+### 新增未解问题（4 个）
+
+- **Q-ttt-episodic-vs-semantic-boundary**（中优先级）：情景式和图式式之间的边界是连续谱还是离散跃变？什么条件下情景记忆开始失去个别细节、转为图式？
+- **Q-ttt-anterior-posterior-hpc-division**（中优先级）：前端海马处理 gist、后端处理细节的证据主要来自 fMRI 体积比较，细胞机制（不同细胞类型、突触动力学）尚未阐明
+- **Q-dmn-replay-directionality**（中优先级）：CMS 模型预测 SWR 重播从海马单向通过 DMN 向感觉皮层传播，但实际神经活动是否存在反向传播？近临界动力学如何维持级联方向性？
+- **Q-dmn-task-deactivation-mechanism**（中优先级）：DMN 在任务期间被突显网络抑制时，海马→mPFC 重播通路是否也同时关闭？任务状态下的记忆巩固是否完全停止？
+
+---
+
 ## 2026-09-24 · 文章 #154 · 时序之门：内嗅皮层-CA1 双流回路如何整合空间与记忆
 
 **核心主题**：内嗅皮层→CA1 双流回路——EC-III 直接穿通径路（TA path，EC-III→CA1 SLM）和 EC-II 三突触通路（EC-II→DG→CA3→CA1 SR）的解剖功能分化；CA1 锥体细胞作为"时序特异性 AND 门"（Schaffer 先于 TA path ~40–60 ms，NMDA 去极化 + GABA_B 去抑制）；MEC 传环境/语境坐标地图 vs LEC 传奖励/目标坐标地图（打破 MEC=空间/LEC=非空间传统二分法）；BTSP 中 MEC 输入驱动平台事件触发频率，LEC 输入决定信息内容；TA path 3 周记忆巩固窗口；抑制性 PV-LTD + SST-LTP 动态调节 EC/CA3 输入权重比。图谱从 **298 节点/1747 边** 增至 **300 节点/1763 边**（+2 节点 +16 新边）。

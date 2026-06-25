@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-24",
-  "total_articles": 142,
+  "last_updated": "2026-09-25",
+  "total_articles": 143,
   "entries": [
     {
       "date": "2026-09-21",
@@ -9506,6 +9506,81 @@
       "knowledge_base_date": "2026-09-24",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-24（第154篇内嗅皮层-CA1双流回路文章）"
+    },
+    {
+      "date": "2026-09-25",
+      "title": "记忆的双重人生：前额叶皮层如何在你不注意时悄悄建造记忆的第二个家",
+      "filename": "2026-09-25-systems-consolidation-silent-pfc-engrams.md",
+      "article_number": 155,
+      "wiki_pages_created": [
+        "wiki/theories/trace-transformation-theory.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/memory-consolidation.md (rev9->rev10)",
+        "wiki/concepts/engram-cells.md (rev6->rev7)",
+        "wiki/concepts/complementary-learning-systems.md (rev3->rev4)",
+        "wiki/systems/default-mode-network.md (rev4->rev5)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "系统记忆巩固的细胞机制是什么？Kitamura et al. 2017 揭示：mPFC 印迹细胞在学习当天与 HPC 印迹同步创建，Day1 沉默/Day14 激活；巩固 = 提取路径重路由（HPC→mPFC）而非记忆拷贝迁移。CMS 模型（Kaefer 2022）：SWR 重播沿 DMN 主连接梯度瀑布传播（近临界动力学）。TTT（Moscovitch & Gilboa 2022）：多形式记忆从编码之初就并存（情景式/图式式/语义式），持续转化而非一次性搬迁，统合 SCT vs MTT 争议。",
+      "open_questions_added": [
+        "Q-ttt-episodic-vs-semantic-boundary（中优先级）：TTT框架下情景式和图式式/语义式记忆之间的边界是连续谱还是存在离散相变",
+        "Q-ttt-anterior-posterior-hpc-division（中优先级）：前海马（情景记忆/细节）与后海马（图式记忆/整合）在细胞机制层面的分工是否有直接实验证据",
+        "Q-dmn-replay-directionality（中优先级）：CMS模型预测SWR重播沿DMN主连接梯度从HPC向新皮层传播，但传播方向性的直接因果证据仍不足",
+        "Q-dmn-task-deactivation-mechanism（中优先级）：任务期间DMN被抑制与睡眠期间DMN作为记忆重播信息高速公路这两种功能如何协调"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "课程脊柱7（学习记忆：系统巩固）+ 课程脊柱3（突触可塑性：印迹机制）+ 课程脊柱1（大脑网络：DMN功能）",
+      "topic_tags": [
+        "systems consolidation standard consolidation theory SCT Squire Alvarez 1995",
+        "multiple trace theory MTT Nadel Moscovitch 1997 episodic semantic",
+        "complementary learning systems CLS McClelland McNaughton O'Reilly 1995",
+        "Kitamura Tonegawa 2017 Science mPFC silent engram day1 day14 optogenetics",
+        "silent engram mPFC prefrontal cortex systems consolidation retrieval rerouting",
+        "cascaded memory systems CMS model Kaefer Battaglia 2022 Nature Reviews",
+        "default mode network DMN principal connectivity gradient memory consolidation",
+        "sharp wave ripple SWR replay propagation near-critical dynamics neuronal avalanche",
+        "trace transformation theory TTT Moscovitch Gilboa 2022 episodic schematic semantic",
+        "anterior posterior hippocampus division episodic detail schema",
+        "Park Kaang 2026 Exp Mol Med CREB ERK5 H2A.Z EphrinB2 remote fear memory",
+        "Frankland Bontempi 2005 anterior cingulate cortex remote memory cortical consolidation"
+      ],
+      "main_sources": [
+        "PMID:7624455 (McClelland et al. 1995, Psychol Rev, CLS模型, 摘要)",
+        "PMID:7620304 (Squire & Alvarez 1995, Curr Opin Neurobiol, SCT, 摘要)",
+        "PMID:9142752 (Nadel & Moscovitch 1997, Curr Opin Neurobiol, MTT, 摘要)",
+        "PMID:15685217 (Frankland & Bontempi 2005, Nat Rev Neurosci, 皮层巩固, 摘要)",
+        "PMID:28386011 (Kitamura et al. 2017, Science, mPFC沉默印迹, 摘要+广泛引用)",
+        "PMID:35970912 / PMC12998549 (Kaefer et al. 2022, Nat Rev Neurosci, CMS模型, OPEN)",
+        "PMID:36532709 / PMC9720899 (Moscovitch & Gilboa 2022, Faculty Reviews, TTT, OPEN)",
+        "PMID:37023710 (Brodt et al. 2023, Neuron, 睡眠系统巩固综述, 免费)",
+        "PMID:41974891 / PMC13144532 (Park & Kaang 2026, Exp Mol Med, 恐惧记忆分子机制, OPEN)"
+      ],
+      "open_access_fulltext": [
+        "PMID:35970912 (PMC12998549)",
+        "PMID:36532709 (PMC9720899)",
+        "PMID:37023710 (Neuron免费)",
+        "PMID:41974891 (PMC13144532)"
+      ],
+      "next_suggested_topics": [
+        "印迹竞争与细胞分配（Engram Competition）——CREB超表达/钙信号如何决定哪些细胞进入mPFC沉默印迹，与Day1印迹创建的关系",
+        "SWR重播的方向性机制——前向重播（predictive）vs 后向重播（evaluative）在DMN主连接梯度上的不同传播路径",
+        "前扣带回（ACC）的记忆整合功能——作为CMS模型中的关键节点：情景到图式的转化枢纽",
+        "HPC-mPFC连接的结构解剖——腹侧海马vs背侧海马投射到mPFC的不同纤维通路与功能分工",
+        "近临界动力学与神经元雪崩——CMS模型预测的关键性如何通过EEG/MEG在人类记忆巩固中被测量"
+      ],
+      "graph_update": "300+1=301 nodes (trace-transformation-theory新建); 1763+15=1778 edges (+memory-consolidation→trace-transformation-theory, +engram-cells→trace-transformation-theory, +complementary-learning-systems→trace-transformation-theory, +default-mode-network→trace-transformation-theory, +trace-transformation-theory→memory-consolidation, +trace-transformation-theory→hippocampus, +trace-transformation-theory→prefrontal-cortex, +trace-transformation-theory→engram-cells, +trace-transformation-theory→complementary-learning-systems, +trace-transformation-theory→sharp-wave-ripples, +complementary-learning-systems→default-mode-network, +default-mode-network→sharp-wave-ripples, +default-mode-network→complementary-learning-systems, +sharp-wave-ripples→default-mode-network, +memory-consolidation→default-mode-network)",
+      "knowledge_base_date": "2026-09-25",
+      "system_clock_date": "2026-06-26",
+      "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-09-25（第155篇系统记忆巩固×沉默mPFC印迹文章）"
     }
   ]
 }

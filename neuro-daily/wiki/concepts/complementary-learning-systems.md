@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-24
-updated: 2026-07-16
-revision_count: 3
+updated: 2026-09-25
+revision_count: 4
 dimensions: [cognition, whole-brain-network, behavior]
 related: [hippocampal-circuit, memory-consolidation, sharp-wave-ripples, pattern-separation, pattern-completion, attractor-network, default-mode-network, td-learning, dopamine-reward-prediction-error, model-based-model-free, hippocampal-replay, experience-replay-buffer]
 prerequisites: [hippocampal-circuit, memory-consolidation, ltp]
 opens_questions: [Q-cls-generative-replay-oneshotlearning]
-source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-12-dopamine-td-learning-brain-ai, 2026-07-16-hippocampal-replay-experience-replay]
-key_sources: ["PMID:7704110", "PMID:35368306", "PMID:27315762", "PMID:31003893", "PMID:7624455", "PMID:30349103", "PMID:38547293", "PMID:32792531"]
+source_articles: [2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-12-dopamine-td-learning-brain-ai, 2026-07-16-hippocampal-replay-experience-replay, 2026-09-25-systems-consolidation-silent-pfc-engrams]
+key_sources: ["PMID:7704110", "PMID:35368306", "PMID:27315762", "PMID:31003893", "PMID:7624455", "PMID:30349103", "PMID:38547293", "PMID:32792531", "PMID:35970912", "PMID:36532709"]
 ---
 
 # 互补学习系统 (Complementary Learning Systems, CLS)
@@ -81,6 +81,20 @@ Kumaran、Hassabis 和 McClelland（2016, PMID:27315762）在原始 CLS 框架�
 
 Botvinick et al.（2019, PMID:31003893）进一步提出 **Meta-RL 假说**：多巴胺（慢速 TD 学习）训练前额叶皮层的循环神经网络（RNN），使 PFC-RNN 本身成为一个"快速认知推断系统"（Fast RL System）——类似于"学习如何更快地学习"的元学习能力。这在 AI 中称为元学习（Meta-Learning / Learning to Learn）。
 
+### 6. 瀑布记忆系统模型（CMS）：DMN 作为重播传播的基础设施（2026-09-25 新增）
+
+Kaefer et al. 2022（PMID:35970912，PMC 开放全文）的 CMS 模型将 CLS 理论的"皮层侧学习"从抽象延伸到具体网络架构：
+
+**主连接梯度**：大脑皮层存在一条从感觉运动皮层（低端）到 DMN（高端）的连接梯度，海马位于梯度顶端，是最广泛联接的节点。
+
+**重播传播路径**：SWR 驱动的重播信号从海马出发，通过 DMN 中间节点（mPFC、后扣带皮层等）逐级向感觉皮层传播——每次传播在各层级留下轻微的突触权重修改。
+
+**近临界动力学**：大脑工作在混沌-有序临界点附近，使神经元雪崩（avalanche）能跨越稀疏连接传播到远处脑区。CLS 的"皮层慢速学习"不需要精确解剖回路，而是通过这种物理性质实现。
+
+**记忆年龄与重播层级**：新记忆从高层级（靠近海马）启动重播；旧记忆在皮层侧已累积足够权重，从低层级启动（皮层自主检索）。
+
+这将 CLS 的抽象"皮层学习"与 DMN 的具体网络架构连接起来。见 [[default-mode-network]]。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -88,6 +102,8 @@ Botvinick et al.（2019, PMID:31003893）进一步提出 **Meta-RL 假说**：�
 | 海马损伤→新情景记忆缺失，语义/远期记忆保留 | H.M. 等神经心理学经典案例 | 综述 PMID:18284371 | 高（教科书级）|
 | 选择性 SWR 阻断→次日空间记忆受损 | 大鼠在线 SWR 检测并实时阻断 | PMID:19693040 | 高（因果）|
 | 睡眠后皮层记忆痕迹增强 | 人类 fMRI：睡眠后与海马竞争性激活减少，皮层激活增加 | 多篇综述 | 中-高 |
+| DMN 主连接梯度：海马处顶端 | 弥散谱分析（功能连接梯度分解） | PMID:27791099；PMID:35970912 | 高 |
+| CMS 瀑布模型（理论预测） | 综合 connectome + replay + near-critical dynamics | PMID:35970912（PMC 开放全文）| 中（理论）|
 
 ## 连接
 
@@ -106,3 +122,4 @@ Botvinick et al.（2019, PMID:31003893）进一步提出 **Meta-RL 假说**：�
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 建立 CLS 理论页面，连接海马快学习、新皮层慢学习、SWR 重放和深度学习经验回放的统一框架 · 初始置信度：中（框架获广泛支持但某些预测仍有争议，如记忆转移的精确机制）
 - 2026-07-12 · 修订 rev2 · 基于《奖励信号的双重发现》第 80 篇文章 · 新增 Kumaran, Hassabis & McClelland 2016 更新（情景记忆指导行动 + 强化学习与情景记忆的接口）；新增 Botvinick 2019 Meta-RL 假说（DA-TD 训练 PFC-RNN 成为快速推断系统）；新增与 td-learning、dopamine-reward-prediction-error、model-based-model-free 的关联
 - 2026-07-16 · 修订 rev3 · 基于《记忆的时光机》（#84）· 新增三阶段回放结构（Yang et al. 2024, PMID:38547293：清醒 SWR 选择 → 睡眠 SWR 固化）；新增 Mattar-Daw Need×Gain 规范化理论（PMID:30349103）作为 CLS 回放内容选择的定量框架；新增 van de Ven et al. 2020 生成回放（PMID:32792531）作为 CLS 在 AI 系统的最接近工程实现；新增 hippocampal-replay 和 experience-replay-buffer 关联；更新 opens_questions
+- 2026-09-25 · 修订 rev4 · 基于《记忆的双重人生》(#155) · 新增"6. 瀑布记忆系统模型（CMS）"小节，说明 DMN 作为重播传播信息高速公路的角色及近临界动力学机制（Kaefer et al. 2022）；新增 TTT 与 CLS 的关系（多形式并存是 CLS 双系统分工的功能体现）；key_sources 新增 PMID:35970912 / PMID:36532709；source_articles 新增 2026-09-25

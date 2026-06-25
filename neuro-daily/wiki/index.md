@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-24（第154篇·时序之门：内嗅皮层-CA1双流回路如何整合空间与记忆）· 主题页总数：**295**（新建2页：circuits/entorhinal-ca1-circuit、circuits/temporoammonic-path；修订3页：systems/entorhinal-cortex rev4→rev5、concepts/btsp rev3→rev4、concepts/place-cells rev2→rev3；新增 Q-ec-ca1-01/Q-ec-ca1-02/Q-ec-ca1-03；图谱300节点/1763边）
+> 最后更新：2026-09-25（第155篇·记忆的双重人生：前额叶皮层如何在你不注意时悄悄建造记忆的第二个家）· 主题页总数：**296**（新建1页：theories/trace-transformation-theory；修订5页：concepts/memory-consolidation rev9→rev10、concepts/engram-cells rev6→rev7、concepts/complementary-learning-systems rev3→rev4、theories/trace-transformation-theory新建、systems/default-mode-network rev4→rev5；新增 Q-ttt-episodic-vs-semantic-boundary/Q-ttt-anterior-posterior-hpc-division/Q-dmn-replay-directionality/Q-dmn-task-deactivation-mechanism；图谱301节点/1778边）
 
 ---
 
@@ -291,7 +291,7 @@
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；AAS两通道架构与VTA枢纽（修订5次）**[NEW 2026-06-12]**
 - 🟢 [上行激活系统（AAS）](systems/ascending-arousal-system.md) — 脑干五核团（LC/DRN/PPT-LDT/TMN/Orexin）经腹侧基底前脑路（主要）+背侧丘脑路（次要）激活皮层；PB/PC谷氨酸通路是关键必要节点（Fuller 2011）；VTA=dAAN枢纽；翻转开关架构 **[NEW 2026-08-10]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
-- 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；课程路线8（意识与自我）首篇 **[NEW 2026-06-16]**
+- 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；**rev5新增**：瀑布记忆系统（CMS）模型——DMN 作为 SWR 重播级联传播的信息高速公路（Kaefer et al. 2022，主连接梯度+近临界动力学）**[修订 rev4→rev5 2026-09-25]**
 - 🔵 [胶质淋巴系统](systems/glymphatic-system.md) — 大脑废物清洗网络：CSF 沿动脉旁间隙入流→星形胶质细胞终足 AQP4 穿越脑实质→静脉旁出流；蓝斑核 NE 振荡（~0.05 Hz）驱动血管慢性搏动为物理泵；NREM 深度睡眠期高效清除 Aβ 和 tau；AQP4 KO→70% 清除效率下降；衰老→三重削弱→AD 恶性循环；人类随机交叉试验直接验证（Dagum 2026）**[NEW 2026-07-06]**
 
 ## methods（方法）
@@ -305,6 +305,7 @@
 
 ## theories（理论）
 
+- 🟡 [痕迹转化论（TTT）](theories/trace-transformation-theory.md) — 记忆不是单一痕迹被"转移"到皮层，而是从编码之初就以情景式/图式式/语义式多形式并存；随时间以持续转化（而非一次性搬迁）的方式改变各形式相对强度；被提取的形式取决于当下任务需求而非记忆年龄；统合 SCT 和 MTT 两理论争议（Moscovitch & Gilboa 2022）**[NEW 2026-09-25]**
 - 🔵 [全局工作空间理论（GWT）](theories/global-workspace-theory.md) — 意识点燃机制；Dehaene-Changeux 神经工作空间；有意识知觉的全有全无广播事件；GWT vs IIT 2025 年对抗性合作 **[NEW 2026-05-30]**
 - 🟡 [预测编码](theories/predictive-coding.md) — 皮层层级通过自上而下的预测反馈 + 自下而上的预测误差前馈实现贝叶斯推断；Rao & Ballard 1999 奠基模型；Bastos 2012 皮层分层映射（γ=误差前馈，α/β=预测反馈）；Keller 2012 V1感觉运动失配实验；注意=精度加权；与DA-RPE同一计算结构 **[修订 rev6 2026-07-13]**
 - 🟡 [自由能原理](theories/free-energy-principle.md) — 弗里斯顿提出的统一大脑理论：大脑通过最小化变分自由能（感知+行动双路径）来减少惊奇；数学上等价于VAE的ELBO；新增：三层精度框架+AAS神经调质=精度硬件+DoC=精度路由失败 **[修订 rev2 2026-08-11]**

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "node_count": 300,
   "edge_count": 1763,
   "edge_types": [
@@ -2742,6 +2742,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/circuits/temporoammonic-path.md"
+    },
+    {
+      "id": "trace-transformation-theory",
+      "title": "痕迹转化论",
+      "domain": "theories",
+      "type": "theory",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/theories/trace-transformation-theory.md"
     }
   ],
   "edges": [
@@ -12660,6 +12669,81 @@
       "to": "entorhinal-ca1-circuit",
       "type": "related",
       "note": "CA1 场所场的精准度和联想回忆功能分别依赖 TA path 和三突触通路两条流"
+    },
+    {
+      "from": "trace-transformation-theory",
+      "to": "memory-consolidation",
+      "type": "related"
+    },
+    {
+      "from": "trace-transformation-theory",
+      "to": "complementary-learning-systems",
+      "type": "related"
+    },
+    {
+      "from": "trace-transformation-theory",
+      "to": "engram-cells",
+      "type": "related"
+    },
+    {
+      "from": "trace-transformation-theory",
+      "to": "memory-reconsolidation",
+      "type": "related"
+    },
+    {
+      "from": "trace-transformation-theory",
+      "to": "semantic-memory",
+      "type": "related"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "memory-consolidation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "sharp-wave-ripples",
+      "type": "supports"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "hippocampal-circuit",
+      "type": "related"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "complementary-learning-systems",
+      "type": "supports"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "trace-transformation-theory",
+      "type": "supports"
+    },
+    {
+      "from": "default-mode-network",
+      "to": "theory-of-mind",
+      "type": "related"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "trace-transformation-theory",
+      "type": "related"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "default-mode-network",
+      "type": "related"
+    },
+    {
+      "from": "engram-cells",
+      "to": "trace-transformation-theory",
+      "type": "supports"
+    },
+    {
+      "from": "complementary-learning-systems",
+      "to": "default-mode-network",
+      "type": "supports"
     }
   ],
   "dangling_references": [

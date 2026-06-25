@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-07-24
-revision_count: 6
+updated: 2026-09-25
+revision_count: 7
 dimensions: [cellular, brain-region, behavior, cognition, methods]
-related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons, amygdala, fear-conditioning, fear-extinction]
+related: [place-cell, hippocampal-circuit, ltp, hebbian-learning, btsp, nmda-receptor, dendritic-computation, memory-consolidation, sharp-wave-ripples, competition-selection-principle, optogenetics, memory-allocation, memory-linking, pv-interneurons, amygdala, fear-conditioning, fear-extinction, trace-transformation-theory]
 prerequisites: [ltp, hebbian-learning, place-cell, hippocampal-circuit]
 opens_questions: [Q-engram-overlap-rate, Q-engram-necessity-vs-sufficiency, Q-silent-engram-information-locus, Q-human-engram-evidence, Q-extinction-reward-overlap]
-source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-07-05-engram-allocation-memory-competition, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons]
-key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647", "PMID:29709212 (PMC9623596)", "PMID:27251287 (PMC5063500)", "PMID:41470040 (PMC12754038)", "PMID:34168140", "PMID:31952856", "PMID:25162525"]
+source_articles: [2026-05-31-engram-cells-optogenetic-proof, 2026-06-09-optogenetics-causal-neuroscience, 2026-07-05-engram-allocation-memory-competition, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-09-25-systems-consolidation-silent-pfc-engrams]
+key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728", "PMID:23888038", "PMID:24478647", "PMID:29709212 (PMC9623596)", "PMID:27251287 (PMC5063500)", "PMID:41470040 (PMC12754038)", "PMID:34168140", "PMID:31952856", "PMID:25162525", "PMID:28386011"]
 ---
 
 # 印迹细胞 (Engram Cells)
@@ -113,13 +113,28 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 
 **情感价值的可逆性（2026-07-24 新增）**：Redondo 等（2014, Nature, PMID:25162525）证明，同一海马 DG 印迹的情感价值（恐惧/奖励）可以通过新的学习经历完全逆转，机制在于 DG→BLA 连接权重的重塑（将 DG 激活后的下游路由从 BLA 恐惧回路切换到 BLA 奖励回路）。印迹本身不存储"价值"，价值由下游路由决定——BLA 是情感价值打标签的终端节点。
 
+## 5. 系统巩固中的印迹命运：沉默 mPFC 印迹（2026-09-25 新增）
+
+Kitamura et al. 2017（Science，PMID:28386011，未读全文）将印迹细胞追踪扩展到**跨脑区的时间维度**，揭示了系统巩固的细胞逻辑：
+
+- **学习时**：DG/CA1（海马）和 mPFC 都同时被激活并创建印迹。mPFC 的印迹从第一天就存在，不是被"转移"过来的
+- **第 1 天**：海马印迹**活跃**（自然线索可激活），mPFC 印迹**沉默**（无法被自然线索激活）
+- **第 14 天**：海马印迹**沉默化**，mPFC 印迹**成熟**（可被自然线索激活）
+- **全程**：BLA（杏仁核）印迹稳定维持，是情感内容的恒定锚点
+- **因果证明**：第 1 天光遗传直接激活沉默 mPFC 印迹 → 仍触发恐惧冻结（信息在沉默状态下也已完整保存）
+
+这是"沉默印迹"概念的跨区扩展：不仅发生在遗忘（海马内 ANI 抑制），也是系统巩固的正常过程（皮层印迹的发育性沉默 → 成熟）。
+
+关键启示：**系统巩固 = 读取路径的重路由**（从 HPC→mPFC 切换），而非记忆内容的"搬迁"。详见 [[memory-consolidation]] 第 5 节与 [[trace-transformation-theory]]。
+
 ## 修订历史
 
 - 2026-05-31 · 创建 · 填补四个页面的高优先级悬空引用（ltp, hebbian-learning, dendritic-computation, place-cell）· 基于《印迹细胞的光子证明》文章 · 初始置信度：高
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；系统巩固框架补充：沉默印迹（Roy 2016）可能是被阻断系统巩固（突触权重未随时间恢复）的结果；皮层印迹的建立是系统巩固的细胞层面输出
 - 2026-06-06 · 修订 · 基于《第二周综合：竞争法则》一文 · 新增"印迹细胞分配的竞争机制"小节，将 CREB 竞争纳入嵌套竞争-遴选架构；新增 [[competition-selection-principle]] 到 related 字段
 - 2026-06-09 · 修订 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · 补充 c-fos-tTA 标记系统的技术细节（PMID:24478647 全文，dox 窗口机制，~2-6% DG 细胞稀疏性）；新增 [[optogenetics]] 到 related；补充假记忆实验的完整分子-行为链；将 revision_count 升至 4
-- 2026-07-24 · 修订 rev6 · 基于《恐惧的印迹与奖励的入侵》(#92) · 竞争机制节新增三段：(1) Jeong 2021 LA突触可塑性竞争规则（PMID:34168140，开放全文）；(2) Zhang 2020 消退印迹=BLA奖励神经元（PMID:31952856）；(3) Redondo 2014 情感价值可逆转性（PMID:25162525）；related新增amygdala/fear-conditioning/fear-extinction；opens_questions新增Q-extinction-reward-overlap；key_sources/source_articles相应更新
+- 2026-07-24 · 修订 rev6 · 基于《恐惧的印迹与奖励的入侵》(#92)
+- 2026-09-25 · 修订 rev7 · 基于《记忆的双重人生》(#155) · 新增"5. 系统巩固中的印迹命运"小节（Kitamura 2017，mPFC沉默印迹同步创建→14天成熟，读取路径重路由概念）；key_sources 新增 PMID:28386011；related 新增 trace-transformation-theory · 竞争机制节新增三段：(1) Jeong 2021 LA突触可塑性竞争规则（PMID:34168140，开放全文）；(2) Zhang 2020 消退印迹=BLA奖励神经元（PMID:31952856）；(3) Redondo 2014 情感价值可逆转性（PMID:25162525）；related新增amygdala/fear-conditioning/fear-extinction；opens_questions新增Q-extinction-reward-overlap；key_sources/source_articles相应更新
 - 2026-07-05 · 修订 · 基于《记忆的竞争法庭》文章（#73）· 分配机制已独立成专页 [[memory-allocation]]，记忆联结已独立成专页 [[memory-linking]]；related 字段新增 memory-allocation、memory-linking、pv-interneurons；key_sources 新增 PMID:29709212、27251287、41470040；重要更新：竞争分配的"时间门控"（训练后 5 min 窗口）和记忆联结（~6h 兴奋性维持窗口）之间的关系在 memory-allocation 和 memory-linking 页面有详细描述
 
 ## 来源文章
@@ -128,3 +143,4 @@ key_sources: ["PMID:31896692", "PMID:22441246", "PMID:26023136", "PMID:26982728"
 - [[2026-06-02-memory-consolidation-systems]]
 - [[2026-06-09-optogenetics-causal-neuroscience]]
 - [[2026-07-24-amygdala-fear-engram-extinction-reward-neurons]]
+- [[2026-09-25-systems-consolidation-silent-pfc-engrams]]

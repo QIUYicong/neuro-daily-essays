@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-02
-updated: 2026-07-11
-revision_count: 9
+updated: 2026-09-25
+revision_count: 10
 dimensions: [whole-brain-network, brain-region, behavior, cognition]
-related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker, memory-reconsolidation, lc-hippocampus-dopamine, synaptic-tagging-capture]
+related: [sharp-wave-ripples, hippocampal-circuit, ltp, engram-cells, place-cell, hebbian-learning, theta-oscillations, btsp, competition-selection-principle, norepinephrine-locus-coeruleus, sleep-spindles, cortical-slow-oscillation, thalamocortical-circuit, rem-sleep, emotional-memory-depotentiation, so-spindle-swr-coupling, shy-hypothesis, circadian-clock, scn-circadian-pacemaker, memory-reconsolidation, lc-hippocampus-dopamine, synaptic-tagging-capture, trace-transformation-theory, default-mode-network, complementary-learning-systems]
 prerequisites: [hippocampal-circuit, ltp, sharp-wave-ripples, theta-oscillations, sleep-spindles]
 opens_questions: [Q-memory-consolidation-sct-mtt, Q-consolidation-selectivity, Q-rem-sleep-role, Q-replay-human-translation]
-source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-11-dopamine-lc-hippocampus-memory-tagging]
-key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710"]
+source_articles: [2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-05-31-rem-sleep-emotional-memory, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-09-25-systems-consolidation-silent-pfc-engrams]
+key_sources: ["PMID:26238360", "PMID:23589831", "PMID:26135716", "PMID:8036517", "PMID:7624455", "PMID:41205608", "PMID:39743590", "PMID:38547293", "PMID:31804897", "PMID:38443198", "PMID:28689981", "PMID:32248788", "PMID:27174984", "PMID:22119526", "PMID:19702380", "PMID:29249289", "PMID:28154076", "PMID:30614089", "PMID:37023710", "PMID:28386011", "PMID:35970912", "PMID:36532709", "PMID:41974891", "PMID:15685217", "PMID:9142752", "PMID:7620304"]
 ---
 
 # 记忆巩固（系统层面）(Memory Consolidation — Systems Level)
@@ -113,6 +113,37 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 
 **未解决**。两种理论的核心分歧在于：情景记忆的"时空情境细节"是否可以被皮层化。证据暗示一个折衷：语义化、去情境化的记忆内容皮层化（SCT），而保留原始情境细节的情景记忆仍依赖海马（MTT）。两种理论很可能都部分正确，描述不同记忆类型的不同命运。
 
+### 痕迹转化论（TTT）：新综合框架（2026-09-25 新增）
+
+Moscovitch & Gilboa 2022（PMID:36532709，开放全文）提出超越 SCT/MTT 二元对立的**痕迹转化论（Trace Transformation Theory，TTT）**：
+- 记忆从编码起就以**多种形式并存**（情景式/图式式/语义式），而非只有一种"记忆"被储存
+- 巩固不是一次性的"搬迁"，而是**持续的转化过程**（睡眠重播、清醒回忆、后续经历都参与）
+- **被表达的记忆形式取决于任务需求**，而非只取决于记忆年龄（情景重建任务→海马；事实问答→皮层语义网络）
+- 前端海马（anterior HPC）处理"要旨"（gist）；后端海马（posterior HPC）处理精细细节
+
+TTT 解决了 SCT 与 MTT 的矛盾：两者描述的是同一记忆事件不同形式的不同命运，并非互斥。见 [[trace-transformation-theory]]。
+
+## 5. 细胞机制：沉默 mPFC 印迹与读取路径重路由（2026-09-25 新增）
+
+Kitamura et al. 2017（Science，PMID:28386011，未读全文）用光遗传学在单细胞分辨率上追踪了系统巩固的细胞逻辑：
+
+**核心发现**：
+- 学习时，mPFC 与海马**同步创建印迹**——皮层印迹不是"转移"而来的，而是在编码当天就已诞生
+- 学习后第 1 天，mPFC 印迹是**沉默的**（自然线索无法激活），而海马印迹活跃可读
+- 学习后第 14 天，**格局逆转**：mPFC 印迹成熟可激活，海马印迹转为沉默
+- BLA（基侧杏仁核）印迹在整个过程中**稳定维持**，是情感内容的持久锚点
+- 第 1 天直接光遗传激活沉默 mPFC 印迹 → 仍能触发恐惧冻结（沉默 ≠ 空载）
+
+**关键启示**：系统巩固的本质是**读取路径的重路由**，而非记忆内容的搬迁：
+```
+近期记忆：感觉线索 → 海马 → 记忆表达
+远期记忆：感觉线索 → mPFC（已成熟） → 记忆表达
+```
+海马的"退出"是读取路径的切换，海马版本的印迹并未消失，只是更难被自然线索激活。
+
+**瀑布网络模型（Kaefer et al. 2022，PMID:35970912，PMC 开放全文）**：
+SWR 重播信号从海马顶端沿**主连接梯度**向新皮层传播，经由**默认模式网络（DMN）**节点（mPFC、后扣带皮层等）向感觉皮层逐级传递。大脑工作在**近临界动力学**附近（神经元雪崩），使稀疏解剖连接下的远程协同激活成为可能。越旧的记忆，其重播从越低的梯度层级触发（皮层侧自主激活），越不需要海马中继。见 [[default-mode-network]]。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -130,6 +161,11 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 | SO-纺锤波相位精度预测隔夜记忆（衰老数据） | 老年人（73岁）相位偏移 46.3° vs 年轻人 3.6°；效应量 d=1.19；mPFC 萎缩是中介 | PMID:29249289 | 高 |
 | REM期θ是情境记忆必需（选择性破坏→损害） | 仅REM期光遗传沉默MS GABA神经元 | PMID:27174984 | 高（因果，Boyce 2016） |
 | REM睡眠降低杏仁核情绪反应（人类） | 整夜睡眠+REM选择性剥夺+情绪任务fMRI | PMID:22119526 | 中-高（van der Helm 2011） |
+| mPFC 印迹在学习当天同步创建（不是"转移"而来）| c-Fos-tTA 标记+钙成像（恐惧学习 D1 vs D14）| PMID:28386011 | 高（Kitamura 2017，Science）|
+| 14天后 mPFC 印迹成熟可激活，HPC 印迹沉默 | 印迹细胞激活率追踪 D1/D14 | PMID:28386011 | 高 |
+| 沉默 mPFC 印迹携带记忆信息（光遗传激活恢复行为）| 第1天直接激活沉默 mPFC 印迹→恐惧冻结 | PMID:28386011 | 高（因果）|
+| DMN 是 SWR 重播向新皮层传播的信息高速公路 | 综合 connectivity gradient + replay + near-critical dynamics | PMID:35970912（PMC 开放全文）| 中（理论综合，待实验验证）|
+| ERK5 学习后5周敲除仍损害远期记忆（海马持续参与）| 条件敲除+远期恐惧记忆检测 | PMID:41974891 | 中（Park & Kaang 2026，PMC 开放全文）|
 
 ## 昼夜节律对记忆巩固的时间门控
 
@@ -163,6 +199,9 @@ NREM 深度睡眠（N3/SWS）中存在精确的时间嵌套：
 - [[memory-reconsolidation]] — 再巩固是系统巩固"永久稳定"假设的例外：提取使巩固后记忆重新进入不稳定、蛋白合成依赖态
 - [[lc-hippocampus-dopamine]] — LC-DA 系统是突触层面记忆巩固的门控信号：D1/D5 → PKA → CREB → PRPs 决定哪些经历的 E-LTP 被升级为 L-LTP（与系统巩固的 SWR-皮层转写互补，分别作用于突触和网络层面）
 - [[synaptic-tagging-capture]] — 突触标记-捕获假说是系统巩固的突触层面机制：Hebbian 活动留下标签，LC-DA 提供 PRPs 捕获信号；行为标记实验是其行为层面验证
+- [[trace-transformation-theory]] — 痕迹转化论：超越 SCT/MTT 的综合框架，记忆以多种形式并存、持续转化
+- [[default-mode-network]] — DMN 是 SWR 重播从海马向新皮层传播的关键中继网络（CMS 瀑布模型）
+- [[complementary-learning-systems]] — CLS 理论：两套系统的功能分工是系统巩固存在的根本原因
 
 ## 未解问题
 
@@ -200,6 +239,7 @@ SHY 假说（Tononi & Cirelli）中的全局突触下调是一种极端形式的
 - 2026-07-10 · 修订 rev8 · 基于《记忆再巩固》(#78) · 当前理解节新增"第三维：再巩固"段落（再巩固打破"巩固即密封"的教条，Nader 2000；提取诱发的动态去稳定化→再稳定化循环）；连接节新增 memory-reconsolidation；source_articles 新增 2026-07-10
 - 2026-07-08 · 修订 rev7 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对记忆巩固的时间门控"小节（LTP 昼夜波动、BMAL1 KO 学习损伤、SCN 萎缩→记忆功能下降的 AD 连接）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节扩充2条；key_sources 新增 PMID:12198538
 - 2026-07-11 · 修订 rev9 · 基于《当蓝斑充当"新奇探测器"》(#79) · 连接节新增 lc-hippocampus-dopamine（突触层面巩固门控）和 synaptic-tagging-capture（突触标记捕获机制）；related 新增两个节点；source_articles 新增 2026-07-11
+- 2026-09-25 · 修订 rev10 · 基于《记忆的双重人生》(#155) · 新增"5. 细胞机制：沉默 mPFC 印迹与读取路径重路由"小节（Kitamura 2017, Science + Kaefer 2022 CMS 瀑布模型）；新增 TTT 框架段落（Moscovitch & Gilboa 2022）；证据表新增 7 行；related 新增 trace-transformation-theory / default-mode-network / complementary-learning-systems；key_sources 扩充 7 个
 
 ## 来源文章
 

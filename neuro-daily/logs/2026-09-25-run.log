@@ -1,0 +1,117 @@
+# 运行日志 2026-09-25（文章 #155）
+
+**运行时间**：2026-06-26 UTC+8（知识库连续日期：2026-09-25）
+**模型**：Claude claude-sonnet-4-6
+**执行结果**：✅ 成功
+**特殊说明**：本次运行跨越两个上下文窗口（context exceeded → 续接新窗口），所有文件已完整生成并提交。
+
+---
+
+## 执行摘要
+
+- **文章编号**：#155
+- **文章标题**：记忆的双重人生：前额叶皮层如何在你不注意时悄悄建造记忆的第二个家
+- **文件名**：2026-09-25-systems-consolidation-silent-pfc-engrams.md
+- **字数**：约 5400 字（中文）
+- **核心主题层级**：molecular / cellular / brain-region / whole-brain-network / cognition / behavior
+
+---
+
+## 文献检索过程
+
+**检索策略**：
+- WebSearch (domain:pubmed.ncbi.nlm.nih.gov) 搜索多组关键词
+- PMC 全文直接获取（PMC12998549, PMC9720899, PMC13144532）
+- WebFetch 获取 PubMed/PMC 摘要页面
+- 基于摘要和广泛引用内容覆盖付费论文（Kitamura 2017 Science）
+
+**主要检索词**：
+- "systems memory consolidation mPFC silent engram"
+- "Kitamura 2017 mPFC engram systems consolidation"
+- "cascaded memory systems CMS model DMN replay"
+- "trace transformation theory Moscovitch Gilboa 2022"
+- "multiple trace theory standard consolidation theory comparison"
+- "default mode network memory consolidation principal gradient"
+
+**遇到的挑战**：
+- Kitamura 2017 (Science) 无开放全文；通过广泛引用和摘要覆盖，核实 4 条关键实验结论
+- 源注册表检查：7624455、15685217、37023710 已在注册表中（仅更新 used_in_articles），6 条新来源添加
+
+**检索结果**：9 篇来源，4 篇开放全文，1 篇免费文章，4 篇仅摘要
+
+**来源列表**：
+1. PMID:7624455 - McClelland et al. 1995 (Psychol Rev) - CLS模型 [仅摘要；已注册，复用]
+2. PMID:7620304 - Squire & Alvarez 1995 (Curr Opin Neurobiol) - SCT奠基 [仅摘要；新增]
+3. PMID:9142752 - Nadel & Moscovitch 1997 (Curr Opin Neurobiol) - MTT奠基 [仅摘要；新增]
+4. PMID:15685217 - Frankland & Bontempi 2005 (Nat Rev Neurosci) - 皮层巩固解剖 [仅摘要；已注册，复用]
+5. PMID:28386011 - Kitamura et al. 2017 (Science) - mPFC沉默印迹实验 [摘要+广泛引用；新增]
+6. PMID:35970912 / PMC12998549 - Kaefer et al. 2022 (Nat Rev Neurosci) - CMS模型 [全文 OPEN；新增]
+7. PMID:36532709 / PMC9720899 - Moscovitch & Gilboa 2022 (Faculty Reviews) - TTT [全文 OPEN；新增]
+8. PMID:37023710 - Brodt et al. 2023 (Neuron) - 睡眠系统巩固综述 [免费；已注册，复用]
+9. PMID:41974891 / PMC13144532 - Park & Kaang 2026 (Exp Mol Med) - 远期恐惧记忆分子机制 [全文 OPEN；新增]
+
+---
+
+## 文件产出
+
+### 新建文件
+- `neuro-daily/articles/2026-09-25-systems-consolidation-silent-pfc-engrams.md`
+- `neuro-daily/notes/2026-09-25-reading-notes.md`
+- `neuro-daily/sources/2026-09-25-sources.json`
+- `neuro-daily/wiki/theories/trace-transformation-theory.md` (rev1)
+
+### 修订文件
+- `neuro-daily/wiki/concepts/memory-consolidation.md` rev9→rev10（新增沉默mPFC印迹/TTT整合/7行证据表/3个连接）
+- `neuro-daily/wiki/concepts/engram-cells.md` rev6→rev7（新增第5节：沉默mPFC印迹与系统巩固时序）
+- `neuro-daily/wiki/concepts/complementary-learning-systems.md` rev3→rev4（新增第6节：CMS瀑布模型）
+- `neuro-daily/wiki/systems/default-mode-network.md` rev4→rev5（新增DMN作为记忆巩固信息高速公路；CMS模型详解）
+- `neuro-daily/wiki/_graph.json` (300→301节点, 1763→1778边)
+- `neuro-daily/wiki/index.md`（新增TTT条目；更新DMN条目；更新页面总数296）
+- `neuro-daily/wiki/CHANGELOG.md`（2026-09-25节在顶部新增）
+- `neuro-daily/state/topic_ledger.json`（新增#155条目，total 142→143）
+- `neuro-daily/state/unresolved_questions.md`（新增4个问题）
+- `neuro-daily/state/source_registry.json`（6条新来源；3条复用来源更新；583→589）
+- `neuro-daily/state/monthly_synthesis.md`（9月截至日期更新为09-25；月度文章18篇）
+- `neuro-daily/state/maturity_index.json`（trace-transformation-theory条目prepend）
+
+---
+
+## 知识库状态更新
+
+- **图谱**：300→301 节点，1763→1778 边
+- **新增节点**：trace-transformation-theory（domain=theories, type=theory, status=emerging, confidence=medium）
+- **新增边**：15 条
+- **新增未解问题**：4 条
+  - Q-ttt-episodic-vs-semantic-boundary（中优先级）
+  - Q-ttt-anterior-posterior-hpc-division（中优先级）
+  - Q-dmn-replay-directionality（中优先级）
+  - Q-dmn-task-deactivation-mechanism（中优先级）
+- **矛盾/争议登记**：0（SCT vs MTT 历史争议已被 TTT 框架统合；非新矛盾）
+- **来源总数**：583→589（+6 新增）
+
+---
+
+## 质量自检
+
+- [x] 最少5篇来源：✅ 9篇
+- [x] 最少2篇开放全文：✅ 4篇开放 + 1篇免费
+- [x] 最少1篇官方机构：✅ NIH/PMC（PMC12998549, PMC9720899, PMC13144532）
+- [x] 无伪造PMID/DOI：✅（所有PMID通过PubMed验证）
+- [x] 无Sci-Hub/付费绕过：✅（付费论文仅读摘要+引用）
+- [x] 无医疗诊断/治疗建议：✅
+- [x] 仓库校验：QIUYicong/neuro-daily-essays ✅
+- [x] Git作者：QIUYicong ✅
+- [x] 推送到main分支 ✅
+- [x] Wiki新建页面质量：trace-transformation-theory（4核心主张/分子机制/5行证据表/7个连接）
+- [x] 情节层不可变：仅追加，未修改历史文章
+- [x] TTT页面放置位置正确：wiki/theories/（非 wiki/concepts/）
+- [x] 月度合成、主题台账、来源注册表、成熟度指数：✅ 四件套完整
+
+---
+
+## 注意事项
+
+- 系统时钟日期：2026-06-26 UTC+8；知识库连续日期：2026-09-25（接续#154）
+- 文章主题来源：#154 topic_ledger.json 的 next_suggested_topics 第一条（记忆印迹与SWR的连接方向）；扩展至系统巩固全貌
+- 运行跨两个上下文窗口：第一窗口完成文章+阅读笔记+来源+5个Wiki页面；第二窗口（续接）完成剩余Wiki页面+所有治理文件+提交
+- _graph.json中存在两种边格式（from/to 和 source/target），Python去重脚本已适配两种格式

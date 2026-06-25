@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: high
 created: 2026-06-16
-updated: 2026-05-31
-revision_count: 4
+updated: 2026-09-25
+revision_count: 5
 dimensions: [whole-brain-network, cognition, behavior, brain-region]
-related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala, global-workspace-theory, world-model, language-network, ventral-language-stream, theory-of-mind, temporoparietal-junction]
+related: [hippocampal-circuit, memory-consolidation, predictive-coding, working-memory, alzheimers-disease, engram-cells, temporal-coding-hierarchy, prefrontal-cortex, amygdala, global-workspace-theory, world-model, language-network, ventral-language-stream, theory-of-mind, temporoparietal-junction, complementary-learning-systems, sharp-wave-ripples, trace-transformation-theory]
 prerequisites: [hippocampal-circuit, working-memory, predictive-coding]
-opens_questions: [Q-dmn-01, Q-dmn-02, Q-dmn-03, Q-dmn-04]
-source_articles: [2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain]
-key_sources: ["PMID:11209064", "PMID:15976020", "PMID:18400922", "PMID:19211893", "PMID:21677128", "PMID:24486981", "PMID:25938726"]
+opens_questions: [Q-dmn-01, Q-dmn-02, Q-dmn-03, Q-dmn-04, Q-dmn-replay-directionality, Q-dmn-task-deactivation-mechanism]
+source_articles: [2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-08-01-theory-of-mind-tpj-mirror-neurons-social-brain, 2026-09-25-systems-consolidation-silent-pfc-engrams]
+key_sources: ["PMID:11209064", "PMID:15976020", "PMID:18400922", "PMID:19211893", "PMID:21677128", "PMID:24486981", "PMID:25938726", "PMID:35970912", "PMID:27791099"]
 ---
 
 # 默认模式网络 (Default Mode Network, DMN)
@@ -60,6 +60,24 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 - 自我参照处理（self-referential processing）
 - 意识游走（mind-wandering）：清醒时约30-50%的时间
 
+### DMN 作为记忆巩固信息高速公路：瀑布记忆系统（CMS）模型（2026-09-25 新增）
+
+Kaefer et al. 2022（PMID:35970912）提出的瀑布记忆系统（Cascaded Memory Systems，CMS）模型将 DMN 在睡眠记忆巩固中的角色从"可能相关"提升到具体的物理机制层面：
+
+**主连接梯度（Principal Connectivity Gradient）**：大脑皮层存在一条从感觉运动皮层（低端）到 DMN（高端）的功能连接梯度，海马位于梯度顶端，是与皮层其他区域连接最广泛的节点（PMID:27791099 弥散谱分析证据）。
+
+**重播信号的瀑布传播**：NREM 睡眠期间，SWR 驱动的海马重播不是直接"写入"到各皮层区域，而是通过梯度结构逐级传播：
+1. 海马 SWR 重播 → 激活梯度高端的 DMN 节点（mPFC、后扣带皮层）
+2. 通过 DMN 内部连接 → 向梯度低端传播（顶下叶、外侧颞叶）
+3. 最终到达感觉皮层（最低梯度端）
+每个梯度层级在接收信号时都发生轻微的突触权重修改，形成"瀑布"式的分布式学习。
+
+**近临界动力学（Near-Critical Dynamics）**：这一传播过程的物理基础是大脑工作在混沌-有序临界点附近，使神经元雪崩（neuronal avalanche）能跨越稀疏连接传播至远处脑区——CLS 的"皮层慢速学习"不需要精确的点对点解剖回路，而是通过这种物理性质实现信息的广泛分配。
+
+**记忆年龄与重播层级**：新近记忆（fresh memories）在高梯度端（靠近海马）启动重播；随着系统巩固的进行，皮层侧权重逐渐累积，记忆的检索路径从海马侧迁移到皮层侧（低梯度端）——即旧记忆从低层级自主启动。这给出了"远期记忆在无海马时仍可检索"（SCT）的具体网络机制。
+
+这一模型将 CLS 理论的抽象"皮层慢速学习"、SWR 的物理机制，以及 DMN 的解剖结构统一在同一框架内。见 [[complementary-learning-systems]] 和 [[sharp-wave-ripples]]。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -71,17 +89,19 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 | 海马损伤同时损害过去回忆和未来想象 | 海马病变患者对照（Addis 2007） | 见 Andrews-Hanna 2011 综述 | 高 |
 | Aβ 优先沉积 DMN 枢纽节点 | PET 淀粉样显像 + 功能连接分析 | PMID:19211893 (Buckner 2009) | 高 |
 | 心理游走时 DMN 活动升高 | 经验采样 + fMRI；未意识到游走时最高 | PMID:21677128 综述引用 | 中 |
+| 大脑皮层存在从感觉运动→DMN 的主连接梯度，海马位于顶端 | 弥散谱分析（功能连接梯度分解） | PMID:27791099；PMID:35970912 | 高 |
+| SWR 重播信号通过 DMN 层级向感觉皮层传播（CMS 模型预测） | 综合 connectome + replay + 近临界动力学理论 | PMID:35970912（PMC 开放全文）| 中（理论）|
 
 ## 连接
 
-- [[hippocampal-circuit]] — MTL 子系统的核心；海马是 DMN 的主要情节记忆节点
-- [[memory-consolidation]] — DMN 在睡眠离线整合中可能参与记忆优先化
+- [[hippocampal-circuit]] — MTL 子系统的核心；海马是 DMN 的主要情节记忆节点；也是 CMS 模型中主连接梯度的顶端
+- [[memory-consolidation]] — DMN 通过瀑布记忆系统（CMS）模型在系统记忆巩固中充当 SWR 重播信号的传播中继
 - [[predictive-coding]] — DMN 作为预测编码层级的高层先验生成器
 - [[working-memory]] — DMN 与 TPN 反相关；工作记忆依赖对 DMN 的有效抑制
 - [[alzheimers-disease]] — Aβ 优先破坏 DMN 枢纽节点；早期记忆和自我叙事损害
 - [[engram-cells]] — 情节记忆印迹通过海马编码，DMN 负责其自发提取
 - [[temporal-coding-hierarchy]] — DMN 支持最长时间尺度（跨情境/跨时间）的信息整合
-- [[prefrontal-cortex]] — mPFC 是 DMN 枢纽和 dMPFC 子系统的核心节点
+- [[prefrontal-cortex]] — mPFC 是 DMN 枢纽和 dMPFC 子系统的核心节点；也是沉默印迹的存储位置
 - [[amygdala]] — 杏仁核情绪信息通过 BLA→mPFC 通路影响 DMN 自我相关处理
 - [[competition-selection-principle]] — DMN-TPN 反相关是脑内竞争-遴选的全脑网络层实例
 - [[global-workspace-theory]] — DMN 是先验生成器，GWT 工作空间是广播基础设施；互补关系（Q-dmn-04 部分解答）
@@ -89,6 +109,9 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 - [[ventral-language-stream]] — 腹侧语言流的语义整合（角回、MTG）与DMN的情景记忆/场景构建功能高度重叠，隐喻和叙事理解激活DMN-语言网络重叠区
 - [[theory-of-mind]] — DMN 的 dMPFC 子系统是心智理论（ToM）推断的核心网络之一；DMN-TPJ 功能耦合强度随心智化任务需求单调增加
 - [[temporoparietal-junction]] — TPJ 是 DMN dMPFC 子系统的扩展节点；pTPJ 负责信念推断，与 mPFC 在 ToM 任务中协同激活
+- [[complementary-learning-systems]] — CMS 瀑布模型将 CLS 的抽象"皮层慢速学习"具体化为 DMN 层级结构承载的重播传播路径
+- [[sharp-wave-ripples]] — SWR 是启动 DMN 级联重播的物理机制；SWR 压缩重播的信息通过 DMN 梯度传递到感觉皮层
+- [[trace-transformation-theory]] — TTT 的"多形式并存记忆转化"在网络层面由 DMN 层级结构（近海马=情景式，近感觉皮层=语义式）承载
 
 ## 未解问题
 
@@ -96,6 +119,8 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 - **Q-dmn-02**（高优先级）：DMN 两个子系统的边界究竟有多清晰？心智化和场景构建是否共享底层机制？
 - **Q-dmn-03**（高优先级）：DMN 压制的缺失（如抑郁状态的反刍、精神分裂症）是原因还是结果？
 - **Q-dmn-04**（中优先级 → 部分解答）：DMN 与全局工作空间（GWT）的精确关系——两者在哪里重叠、哪里独立？*2026-05-30 部分解答：DMN=先验生成器，GWT=广播基础设施，互补关系；但两者的精确神经重叠（如 mPFC、ACC 同时参与两个网络的边界）有待进一步澄清。*
+- **Q-dmn-replay-directionality**（中优先级）：CMS 模型预测 SWR 重播信号从海马通过 DMN 向感觉皮层单向传播，但实际神经活动是否存在反向传播？近临界动力学如何在稀疏连接中维持级联方向性？
+- **Q-dmn-task-deactivation-mechanism**（中优先级）：DMN 在任务期间被突显网络抑制时，其内部的海马→mPFC 重播通路是否也被同时关闭？任务状态下的记忆巩固是否完全停止？
 
 ## 修订历史
 
@@ -104,6 +129,7 @@ DMN 包含两个功能有所分化的子系统，汇集于两个枢纽节点（a
 - 2026-05-31 · 修订 · 基于《第四周综合：当大脑成为自己的宇宙》(#28) · 将 DMN 定位为「世界模型离线仿真层」；新增 world-model 到 related；明确 DMN 作为世界模型后台服务（先验生成器 + 情节重构 + 社会仿真）的六层架构定位；AD/DMN 连接中补充世界模型视角
 - 2026-06-20 · 修订 · 基于《语言的解剖》一文 · 新增角回（BA39）作为DMN-语言网络共享节点的描述；腹侧语言流语义整合与DMN情景记忆/场景构建的功能重叠；related 新增 language-network, ventral-language-stream
 - 2026-08-01 · 修订（rev4）· 基于《读懂另一个心灵》一文（#100）· 新增 DMN dMPFC 子系统在心智理论（ToM）中的核心角色；DMN-TPJ 功能耦合随心智化任务需求增加的证据（Spreng 2021 元分析）；related 新增 theory-of-mind, temporoparietal-junction；ASD 中 DMN 功能连接降低与 ToM 缺陷的关联
+- 2026-09-25 · 修订（rev5）· 基于《记忆的双重人生》(#155) · 新增"DMN 作为记忆巩固信息高速公路：瀑布记忆系统（CMS）模型"小节，阐述主连接梯度、SWR 重播瀑布传播路径、近临界动力学和记忆年龄与重播层级的关系（Kaefer et al. 2022, PMID:35970912）；related 新增 complementary-learning-systems, sharp-wave-ripples, trace-transformation-theory；新增 Q-dmn-replay-directionality 和 Q-dmn-task-deactivation-mechanism；key_sources 新增 PMID:35970912, PMID:27791099
 
 ## 来源文章
 

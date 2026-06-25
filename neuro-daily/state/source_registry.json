@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24",
+  "last_updated": "2026-09-25",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -2494,7 +2494,8 @@
       "full_text_available": false,
       "note": "历史性论文，无开放全文；仅读摘要",
       "used_in_articles": [
-        "2026-06-02-memory-consolidation-systems.md"
+        "2026-06-02-memory-consolidation-systems.md",
+        "2026-09-25-systems-consolidation-silent-pfc-engrams.md"
       ],
       "aspects_covered": [
         "CLS model",
@@ -2515,7 +2516,8 @@
       "full_text_available": false,
       "note": "未读全文，仅读摘要",
       "used_in_articles": [
-        "2026-06-02-memory-consolidation-systems.md"
+        "2026-06-02-memory-consolidation-systems.md",
+        "2026-09-25-systems-consolidation-silent-pfc-engrams.md"
       ],
       "aspects_covered": [
         "anterior cingulate cortex remote memory",
@@ -9939,9 +9941,139 @@
         "MEC inhibition reduces plateau event frequency",
         "LEC inhibition reduces representation formation efficiency"
       ]
+    },
+    {
+      "pmid": "7620304",
+      "pmcid": null,
+      "doi": "10.1016/0959-4388(95)80023-9",
+      "title": "Retrograde amnesia and memory consolidation: a neurobiological perspective",
+      "authors_short": "Squire LR, Alvarez P",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 1995,
+      "first_used": "2026-09-25",
+      "full_text_available": false,
+      "note": "历史性论文，SCT框架奠基；仅读摘要",
+      "used_in_articles": [
+        "2026-09-25-systems-consolidation-silent-pfc-engrams.md"
+      ],
+      "aspects_covered": [
+        "标准巩固论（SCT）：记忆随时间从HPC依赖转向皮层依赖",
+        "H.M.病例：颞叶内侧损伤导致顺行/逆行遗忘",
+        "时间梯度逆行遗忘支持HPC角色时间有限性",
+        "HPC作为暂时性存储；新皮层作为长期存储"
+      ]
+    },
+    {
+      "pmid": "9142752",
+      "pmcid": null,
+      "doi": "10.1016/S0959-4388(97)80010-4",
+      "title": "Memory consolidation, retrograde amnesia and the hippocampal complex",
+      "authors_short": "Nadel L, Moscovitch M",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 1997,
+      "first_used": "2026-09-25",
+      "full_text_available": false,
+      "note": "MTT奠基论文；仅读摘要",
+      "used_in_articles": [
+        "2026-09-25-systems-consolidation-silent-pfc-engrams.md"
+      ],
+      "aspects_covered": [
+        "多重痕迹论（MTT）：情景记忆永久依赖海马",
+        "K.C.病例：情景记忆与语义记忆分离",
+        "情景记忆 vs 语义记忆的巩固路径差异",
+        "反驳SCT的无时间梯度证据（长时间前逆行遗忘同样严重）"
+      ]
+    },
+    {
+      "pmid": "28386011",
+      "pmcid": null,
+      "doi": "10.1126/science.aam6808",
+      "title": "Engrams and circuits crucial for systems consolidation of a memory",
+      "authors_short": "Kitamura T, Ogawa SK, Roy DS, Okuyama T, Morrissey MD, Smith LM, Redondo RL, Tonegawa S",
+      "journal": "Science",
+      "year": 2017,
+      "first_used": "2026-09-25",
+      "full_text_available": false,
+      "note": "需付费；基于摘要和广泛引用内容（Tonegawa lab关键论文）",
+      "used_in_articles": [
+        "2026-09-25-systems-consolidation-silent-pfc-engrams.md"
+      ],
+      "aspects_covered": [
+        "mPFC印迹细胞在学习当天与HPC同步创建（Day1 HPC激活/mPFC沉默）",
+        "Day14：HPC印迹沉默/mPFC印迹激活 — 提取路径重路由",
+        "光遗传激活Day1沉默的mPFC印迹细胞可恢复记忆",
+        "BLA（杏仁核）印迹保持活跃（恐惧记忆情感成分持久）",
+        "巩固=读取路径重路由，而非记忆拷贝转移"
+      ]
+    },
+    {
+      "pmid": "35970912",
+      "pmcid": "PMC12998549",
+      "doi": "10.1038/s41583-022-00620-6",
+      "title": "Replay, the default mode network and the cascaded memory systems model",
+      "authors_short": "Kaefer K, Stella F, McNaughton BL, Battaglia FP",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2022,
+      "first_used": "2026-09-25",
+      "full_text_available": true,
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12998549/",
+      "used_in_articles": [
+        "2026-09-25-systems-consolidation-silent-pfc-engrams.md"
+      ],
+      "aspects_covered": [
+        "瀑布记忆系统（CMS）模型：SWR重播沿DMN主连接梯度从HPC向新皮层瀑布传播",
+        "默认模式网络（DMN）作为记忆巩固信息高速公路",
+        "主连接梯度：HPC位于顶端，初级感觉皮层位于底端",
+        "近临界动力学（near-critical dynamics）：神经元雪崩使稀疏连接信号远程传播",
+        "新旧记忆存储于重播序列的不同层级（新记忆→HPC/内侧颞叶；旧记忆→高阶新皮层）"
+      ]
+    },
+    {
+      "pmid": "36532709",
+      "pmcid": "PMC9720899",
+      "doi": "10.12703/r/11-33",
+      "title": "Has the concept of systems consolidation outlived its usefulness? Identification and evaluation of premises underlying systems consolidation",
+      "authors_short": "Moscovitch M, Gilboa A",
+      "journal": "Faculty Reviews",
+      "year": 2022,
+      "first_used": "2026-09-25",
+      "full_text_available": true,
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9720899/",
+      "used_in_articles": [
+        "2026-09-25-systems-consolidation-silent-pfc-engrams.md"
+      ],
+      "aspects_covered": [
+        "痕迹转化论（TTT）综合框架：记忆以多种形式（情景式/图式式/语义式）从编码之初并存",
+        "批判SCT的11个前提假设（记忆单一痕迹、一次性搬迁、时间限制等）",
+        "持续转化（而非一次性搬迁）：各形式相对强度随时间和经验改变",
+        "任务驱动提取：被提取的记忆形式取决于当前任务需求而非记忆年龄",
+        "前海马（情景细节/背景）与后海马（图式整合）功能分工"
+      ]
+    },
+    {
+      "pmid": "41974891",
+      "pmcid": "PMC13144532",
+      "doi": "10.1038/s12276-026-01680-9",
+      "title": "Role of the hippocampus in systems consolidation of remote fear memory",
+      "authors_short": "Park H, Kaang BK",
+      "journal": "Experimental and Molecular Medicine",
+      "year": 2026,
+      "first_used": "2026-09-25",
+      "full_text_available": true,
+      "pmc_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13144532/",
+      "used_in_articles": [
+        "2026-09-25-systems-consolidation-silent-pfc-engrams.md"
+      ],
+      "aspects_covered": [
+        "CREB信号通路在远期记忆维持中的分子机制",
+        "ERK5在HPC神经元中持续激活支持远期记忆",
+        "H2A.Z（组蛋白变体）表观遗传调控记忆稳定性",
+        "EphrinB2/EphB受体在HPC-皮层连接重塑中的角色",
+        "当前（2026年）记忆巩固分子机制综合综述"
+      ]
     }
   ],
-  "total_sources": 583,
+  "total_sources": 589,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -10609,7 +10741,8 @@
       "year": 2023,
       "first_used": "2026-07-07",
       "used_in_articles": [
-        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md"
+        "2026-07-07-sleep-memory-consolidation-so-spindle-swr.md",
+        "2026-09-25-systems-consolidation-silent-pfc-engrams.md"
       ],
       "aspects_covered": [
         "memory replay",
@@ -14498,6 +14631,36 @@
       "34439925",
       "37816349",
       "39253411"
+    ]
+  },
+  "sources_2026-09-25": {
+    "article": "2026-09-25-systems-consolidation-silent-pfc-engrams",
+    "article_number": 155,
+    "sources_added": 6,
+    "sources_reused": 3,
+    "new_pmids": [
+      "7620304",
+      "9142752",
+      "28386011",
+      "35970912",
+      "36532709",
+      "41974891"
+    ],
+    "reused_pmids": [
+      "7624455",
+      "15685217",
+      "37023710"
+    ],
+    "all_pmids": [
+      "7624455",
+      "7620304",
+      "9142752",
+      "15685217",
+      "28386011",
+      "35970912",
+      "36532709",
+      "37023710",
+      "41974891"
     ]
   }
 }

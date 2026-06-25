@@ -1,5 +1,12 @@
 [
   {
+    "slug": "trace-transformation-theory",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-09-25",
+    "reason": "新建 rev1 · #155 · TTT（Moscovitch & Gilboa 2022）综合框架：多形式并存（情景式/图式式/语义式）/持续转化/任务驱动提取/前后海马分工；统合 SCT 与 MTT 争议；Park & Kaang 2026 分子层；直接检验整个 TTT 框架的实验仍有限，故维持 emerging/medium"
+  },
+  {
     "slug": "pkm-zeta",
     "status": "established",
     "confidence": "high",
