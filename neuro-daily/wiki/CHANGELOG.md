@@ -3356,3 +3356,25 @@
 **新增未解问题（0）**：综合文章确认了5个最重要的跨尺度开放问题（Q1-Q5），但不新增编号问题
 
 **知识库里程碑**：第20周综合 = 知识库从分子到意识完成一轮系统性覆盖的第一次元级审视
+
+
+---
+
+## 2026-09-20（第150篇 · BTSP的分子秒表：CaMKII的延迟随机激活）
+
+**文章**：《BTSP的分子秒表：CaMKII延迟随机激活如何实现行为时间尺度的突触可塑性》（#150）
+
+**类型**：分子机制深挖（已有机制空白填补）
+
+**新创建页面（0）**：今日无新建页（camkii已有既有页wiki/neurons/camkii.md，修订为rev2）
+
+**修订页面（3）**：
+- `wiki/neurons/camkii.md`（rev1→rev2）：区分CaMKII两种激活模式：LTP快速局部模式（NMDA→Ca²⁺→CaMKII，毫秒级，突触特异性）vs BTSP DDSC模式（平台电位→PLCβ→IP₃→ER延迟钙释放→CaMKII弥散激活，10–100秒后，整根树突）；T286A突变数据（8.2 s→1.9 s，Xiao 2023）；paAIP2因果实验（Jain 2024）；新增连接btsp/dendritic-computation/voltage-gated-calcium-channels/three-factor-learning-rule；新增未解问题Q-camkii-ddsc-synapse-specificity/Q-camkii-two-modes-interaction
+- `wiki/concepts/btsp.md`（rev2→rev3）：核心更新——DDSC机制（Jain 2024, Nature, PMID:39385027）直接证明CaMKII在平台电位后10–100秒延迟弥散激活，由IP₃依赖ER钙释放驱动，paAIP2光遗传实验证明因果性；αCaMKII T286A突变数据（Xiao 2023）；CA3对称BTSP（Li 2024）；非空间BTSP（Dorian 2024/2025，嗅觉工作记忆）；新增连接camkii/three-factor-learning-rule/entorhinal-cortex；新增未解问题Q-btsp-ddsc-synapse-specificity/Q-btsp-in-vivo-ddsc/Q-btsp-non-spatial-generalization
+- `wiki/concepts/three-factor-learning-rule.md`（rev1→rev2）：新增「BTSP作为三因素规则海马实现」章节——对比DA-奖励三因素与平台电位三因素的三表要素对应（突触前/突触后/第三因素/资格痕迹/时间窗口/输出）；DDSC与资格痕迹的分子类比；新增connected到btsp；新增Q-three-factor-btsp-third-factor-identity
+
+**矛盾登记（0）**：无新矛盾登记（DDSC在脑片中有直接证据，体内验证缺失记录为Q-btsp-in-vivo-ddsc未解问题，不构成矛盾条目）
+
+**新增未解问题（3）**：Q-btsp-ddsc-synapse-specificity（高：DDSC弥散性vs BTSP突触特异性悖论）、Q-btsp-in-vivo-ddsc（高：体内DDSC验证缺失）、Q-btsp-non-spatial-generalization（中：非空间BTSP机制验证）
+
+**图谱**：295节点/1721边 → **295节点/1729边**（节点数不变，camkii既有页；+8边：btsp↔camkii双向、btsp→three-factor、btsp→entorhinal-cortex、camkii→dendritic-computation、camkii→voltage-gated-calcium-channels、three-factor↔btsp）

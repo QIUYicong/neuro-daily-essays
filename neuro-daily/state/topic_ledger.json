@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-18",
-  "total_articles": 148,
+  "last_updated": "2026-09-20",
+  "total_articles": 150,
   "entries": [
     {
       "date": "2026-09-15",
@@ -9180,6 +9180,69 @@
       "knowledge_base_date": "2026-09-19",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-19（第149篇外侧缰核文章）"
+    },
+    {
+      "date": "2026-09-20",
+      "title": "BTSP的分子秒表：CaMKII的延迟随机激活（DDSC）如何实现行为时间尺度的突触可塑性",
+      "filename": "2026-09-20-btsp-camkii-molecular-timekeeper.md",
+      "article_number": 150,
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/btsp.md (rev2->rev3)",
+        "wiki/concepts/three-factor-learning-rule.md (rev1->rev2)",
+        "wiki/neurons/camkii.md (rev1->rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "BTSP的时序整合分子机制是什么——哪个分子在行为时间尺度（秒级）上整合突触输入与平台电位？αCaMKII的延迟随机弥散激活（DDSC）如何由内质网IP₃依赖钙释放驱动，并充当BTSP的分子秒表？",
+      "open_questions_added": [
+        "Q-btsp-ddsc-synapse-specificity（高优先级）：DDSC是树突弥散的，但BTSP是突触特异性的——突触特异性从何而来？",
+        "Q-btsp-in-vivo-ddsc（高优先级）：DDSC目前仅在脑片中直接证明；清醒行为动物体内是否存在相同链？",
+        "Q-btsp-non-spatial-generalization（中优先级）：非空间BTSP是否真的依赖相同平台电位+DDSC机制？",
+        "Q-three-factor-btsp-third-factor-identity（中优先级）：BTSP中树突平台电位充当第三因素的语义是什么？",
+        "Q-camkii-ddsc-synapse-specificity（高优先级）：弥散CaMKII如何选择性增强带有资格痕迹的突触？",
+        "Q-camkii-two-modes-interaction（中优先级）：LTP快速局部CaMKII激活与BTSP DDSC模式同时发生时如何相互作用？"
+      ],
+      "layer": [
+        "cellular",
+        "molecular",
+        "synaptic",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱3（突触可塑性：BTSP分子机制、时序整合）+ 课程脊柱7（学习记忆：情节记忆一次性写入）",
+      "topic_tags": [
+        "BTSP behavioral timescale synaptic plasticity CaMKII molecular mechanism",
+        "DDSC dendritic delayed stochastic CaMKII activation",
+        "IP3 ER calcium release hippocampal plasticity",
+        "αCaMKII T286 autophosphorylation BTSP place field",
+        "Jain Yasuda 2024 Nature DDSC BTSP molecular timekeeper",
+        "Xiao Magee 2023 Science Advances CaMKII BTSP",
+        "Bittner Magee 2017 Neuron BTSP temporal window asymmetric",
+        "non-spatial BTSP olfactory working memory CA1",
+        "Dorian Golshani 2024 Nature Communications entorhinal CA1",
+        "three-factor learning rule eligibility trace hippocampus",
+        "dendritic plateau potential CA1 place field formation",
+        "paAIP2 optogenetic CaMKII inhibition BTSP causal"
+      ],
+      "main_sources": [
+        "PMID:26167906 (Bittner et al. 2015 Nat Neurosci, 全文 PMC4888374)",
+        "PMID:28883072 (Bittner et al. 2017 Neuron, 全文 PMC7289271)",
+        "PMID:37672577 (Xiao et al. 2023 Science Advances, 全文 PMC10482326)",
+        "PMID:39385027 (Jain et al. 2024 Nature, 全文 PMC11540904)",
+        "PMID:39253411 (Dorian et al. 2024/2025 Nat Commun, 全文 PMC11383060)",
+        "PMID:41224656 (Madar et al. 2025 J Neurosci, 全文 PMC12614050)",
+        "PMID:34882093 (Milstein et al. 2021 Neuron, 仅摘要)"
+      ],
+      "next_suggested_topics": [
+        "突触标记与捕获（STC）——早期/晚期LTP的分子分界：PRPs（Arc、PKM-ζ）如何被突触标签捕获（填补synaptic-tagging-capture页面的分子细节）",
+        "海马-内嗅皮层回路——MEC网格细胞如何驱动CA1场所细胞（连接BTSP的输入层：EC3/MEC→CA1平台电位触发）",
+        "树突棘的结构可塑性——LTP/BTSP后棘头膨大的肌动蛋白机制（BTSP后的形态学对应物）",
+        "印迹细胞竞争——CREB超表达如何使细胞优先进入记忆印迹（BTSP与印迹写入的关系）"
+      ],
+      "graph_update": "295 nodes+1=296 nodes (camkii新建); 1721 edges+8=1729 edges (btsp-camkii, btsp-three-factor, btsp-entorhinal-cortex, camkii-ltp, camkii-dendritic-computation, camkii-three-factor, three-factor-btsp各方向)",
+      "knowledge_base_date": "2026-09-20",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-20（第150篇BTSP分子机制文章）"
     }
   ]
 }

@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-06-07
-updated: 2026-06-07
-revision_count: 1
+updated: 2026-09-20
+revision_count: 2
 dimensions: [synaptic, cellular, cognition, behavior]
-related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle]
+related: [hebbian-learning, dopamine-reward-prediction-error, ltp, synaptic-tagging-capture, ampa-receptor, camkii, engram-cells, competition-selection-principle, btsp]
 prerequisites: [hebbian-learning, ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-three-factor-time-window, Q-stc-molecular-tag]
-source_articles: [2026-06-07-dopamine-reward-prediction-error]
-key_sources: ["PMID:12371508", "PMID:9054347", "PMID:8774460", "PMID:9020359", "PMID:7708662"]
+opens_questions: [Q-three-factor-time-window, Q-stc-molecular-tag, Q-three-factor-btsp-third-factor-identity]
+source_articles: [2026-06-07-dopamine-reward-prediction-error, 2026-09-20-btsp-camkii-molecular-timekeeper]
+key_sources: ["PMID:12371508", "PMID:9054347", "PMID:8774460", "PMID:9020359", "PMID:7708662", "PMID:28883072", "PMID:39385027", "PMID:41224656"]
 ---
 
 # 三因素学习规则 (Three-Factor Learning Rule)
@@ -88,26 +88,54 @@ DA 抑制（δ < 0）时，通过 D2 受体 → Gi → cAMP↓ → PP2B/PP1 级�
 | D1→cAMP→PKA→L-LTP（海马） | D1/D5 激动剂诱导 CA1 L-LTP；茴香霉素阻断 | PMID:7708662（PMC42234） | 高 |
 | ACh 调制 NMDAR 增强 Hebbian 激活 | M1 受体阻断消除 ACh 的学习促进效果 | 多篇；基于综述 | 中-高 |
 
+## BTSP 作为三因素规则的海马实现
+
+BTSP（行为时间尺度突触可塑性）为三因素规则提供了一个与多巴胺-奖励通路并列、但完全不同的神经生理实现（Madar et al., 2025, PMID:41224656）：
+
+**BTSP 的三因素对应关系**：
+
+| 三因素规则元素 | 多巴胺-奖励版本 | BTSP 版本（海马） |
+|-------------|-------------|----------------|
+| 第一因素（突触前） | 皮层→纹状体谷氨酸释放 | CA3/EC 输入→CA1 谷氨酸释放 |
+| 第二因素（突触后） | 纹状体棘突神经元去极化 | CA1 锥体神经元去极化 |
+| 第三因素（全局调制） | VTA/SNc 多巴胺爆发（RPE > 0） | 树突钙平台电位（EC3 + CA3 联合驱动） |
+| 资格痕迹 | 突触标签（CaMKII、PKA 磷酸化状态） | 突触前输入在 ±3–4 秒窗口内的 Ca²⁺ 痕迹 |
+| 时间窗口 | 毫秒至数秒（与 DA 爆发对齐） | 秒级（向后 3–4 s，向前 2–3 s） |
+| 输出 | 纹状体 LTP/LTD（行动选择） | CA1 场所场写入（情节记忆）|
+
+**关键区别**：
+- DA 三因素规则中，第三因素是**外部评估信号**（奖励反馈），由环境决定
+- BTSP 中，第三因素是**内部生成事件**（树突平台电位），由海马网络状态（θ 振荡、EC3+CA3 联合输入）决定
+- 两者都解决了**时序信用分配问题**，但在不同时间尺度和不同脑区运作
+
+**BTSP 的分子秒表（DDSC）**与三因素规则的资格痕迹类比：
+- CaMKII 的延迟弥散激活（DDSC，10–100 秒后）整合了平台电位前后数秒内到达的突触输入的"痕迹"
+- 这与 STC（突触标记与捕获）中的"标签有效期"（TAG duration）在概念上等价，但分子机制不同
+
 ## 连接
 
 - [[hebbian-learning]] — 三因素规则是 Hebb 规则的扩展：加入全局调制因子 M，使突触可塑性有了方向性和行为意义
 - [[dopamine-reward-prediction-error]] — DA-RPE 是奖励学习中 M 因素的主要来源
 - [[ltp]] — 三因素规则的正向（DA > 0）结果是 LTP；D1→PKA→CREB 是 DA 诱导 L-LTP 的分子链
 - [[synaptic-tagging-capture]] — 突触标记（Hebbian 产物）+ 捕获（DA 驱动的 PRP 合成）是三因素规则的时间整合机制
-- [[camkii]] — Hebbian 激活 → Ca²⁺ → CaMKII 激活可能是"突触标签"的分子身份（假说）
+- [[camkii]] — Hebbian 激活 → Ca²⁺ → CaMKII 激活可能是"突触标签"的分子身份（假说）；在 BTSP 中，CaMKII 的 DDSC 充当资格痕迹整合器
 - [[ampa-receptor]] — 三因素 LTP 最终通过 AMPAR 插入/磷酸化表达
 - [[engram-cells]] — CREB 竞争性分配（印迹细胞选择）可能受 DA 三因素规则调制
 - [[competition-selection-principle]] — 三因素规则在细胞层面实现了竞争性突触遴选
+- [[btsp]] — BTSP 是三因素学习规则在海马情节记忆写入中的神经生理实现；树突平台电位充当"第三因素"，DDSC 实现秒级时序整合
 
 ## 未解问题
 
 - Q-three-factor-time-window：三因素规则中 Hebbian 激活与 DA 信号之间的有效时间窗口（标签有效期）在不同脑区和突触类型中有多大差异？光遗传精控 DA 时序是否可以精确绘制这个窗口？
 - Q-stc-molecular-tag：突触标签的分子身份——CaMKII 特定构象？PKM-ζ？F-actin 聚合？目前缺乏直接分子证据。
+- Q-three-factor-btsp-third-factor-identity：BTSP 中，"平台电位"究竟是怎样充当"第三因素"的？平台电位是否等价于 DA 爆发？它是否也携带"评估"（评分）语义，还是只是解锁时间窗口的纯机械性触发？
 
 ## 修订历史
 
 - 2026-06-07 · 创建 · 基于《多巴胺的时间机器》一文 · 填补 [[hebbian-learning]] 页面的悬空引用 [[three-factor-learning-rule]] · 初始置信度：高
+- 2026-09-20 · 修订（rev2）· 基于《BTSP的分子秒表》一文（#150）· 新增「BTSP 作为三因素规则的海马实现」章节；对比 DA-奖励三因素与 BTSP-平台电位三因素的共性与区别；DDSC 与资格痕迹的分子类比；related 新增 btsp；开放问题新增 Q-three-factor-btsp-third-factor-identity
 
 ## 来源文章
 
 - [[2026-06-07-dopamine-reward-prediction-error]]
+- [[2026-09-20-btsp-camkii-molecular-timekeeper]]

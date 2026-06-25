@@ -1554,3 +1554,16 @@
 **修订 wiki 页（2个）**：concepts/dopamine-reward-prediction-error（rev6→rev7）、systems/serotonin-raphe-system（rev1→rev2）
 **图谱**：293→295节点，1711→1721边（+2节点，+10边）
 **新增未解问题**：Q-lhb-01（高：LHb输出特异性→症状对应的人类验证）、Q-lhb-02（中：GPi→LHb谷氨酸成分身份）、Q-lhb-03（高：氯胺酮-LHb爆发的分子机制）
+
+## 2026-09-20（第150篇 · BTSP的分子秒表）
+
+**层级**：cellular / molecular / synaptic / cognition
+
+**一句话**：BTSP（行为时间尺度突触可塑性）的分子秒表是DDSC——树突平台电位通过PLCβ→IP₃→内质网延迟钙释放，在10–100秒后触发整根树突的弥散随机CaMKII激活；T286自磷酸化决定CaMKII激活持续时间（8.2秒 vs 突变体1.9秒），是场所场一次性写入的时序整合核心。
+
+**核心知识点**：BTSP时间窗口不对称（向后3–4秒，向前2–3秒，Bittner 2017）；单次平台电位→场所场（平均1.4次，Bittner 2015）；αCaMKII T286A→BTSP几乎消失（2.3 vs 8.0 mV，Xiao 2023）；DDSC由IP₃依赖ER延迟钙释放驱动（Jain 2024 Nature）；paAIP2 15–30秒窗口阻断→BTSP消失（因果证明）；CA3对称BTSP（Li 2024）；非空间BTSP扩展（嗅觉WM，Dorian 2024）；BTSP作为三因素学习规则的海马实现。
+
+**新建 wiki 页（1个）**：concepts/camkii（established/high，区分LTP快速局部模式 vs BTSP DDSC模式）
+**修订 wiki 页（2个）**：concepts/btsp（rev2→rev3，DDSC机制+非空间BTSP）、concepts/three-factor-learning-rule（rev1→rev2，BTSP作为三因素规则海马实现）
+**图谱**：295→296节点，1721→1729边（+1节点camkii，+8边：btsp-camkii/btsp-three-factor/btsp-entorhinal-cortex/camkii-ltp/camkii-dendritic-computation/camkii-three-factor/three-factor-btsp双向）
+**新增未解问题**：Q-btsp-ddsc-synapse-specificity（高：DDSC弥散性vs BTSP突触特异性悖论）、Q-btsp-in-vivo-ddsc（高：体内DDSC验证缺失）、Q-btsp-non-spatial-generalization（中：非空间BTSP机制验证）

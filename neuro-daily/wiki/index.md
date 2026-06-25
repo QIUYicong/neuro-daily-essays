@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-19（第149篇·大脑的惩罚计算机：外侧缰核如何编码失望、驱动单胺崩溃、在抑郁中爆发螺旋）· 主题页总数：**292**（新建2页：systems/lateral-habenula、circuits/lhb-rmtg-circuit；修订2页：concepts/dopamine-reward-prediction-error rev6→rev7、systems/serotonin-raphe-system rev1→rev2；新增 Q-lhb-01/02/03；填补悬空引用 lateral-habenula、lhb-rmtg-circuit；图谱295节点/1721边）
+> 最后更新：2026-09-20（第150篇·BTSP的分子秒表：CaMKII延迟随机激活（DDSC）如何实现行为时间尺度的突触可塑性）· 主题页总数：**292**（新建0页；修订3页：neurons/camkii rev1→rev2、concepts/btsp rev2→rev3、concepts/three-factor-learning-rule rev1→rev2；新增 Q-btsp-ddsc-synapse-specificity/Q-btsp-in-vivo-ddsc/Q-btsp-non-spatial-generalization；图谱295节点/1729边）
 
 ---
 
@@ -18,7 +18,7 @@
 - 🟢 [突触结合蛋白 Synaptotagmin](neurons/synaptotagmin.md) — 突触囊泡上的钙传感器，触发融合的分子开关（修订3次）
 - 🟢 [就绪释放池（RRP）](neurons/readily-releasable-pool.md) — 突触活动区中处于停靠就绪状态的囊泡子集；RRP耗竭是短时程抑制的主要机制 **[NEW 2026-06-10]**
 - 🟢 [活动区（Active Zone）](neurons/active-zone.md) — 突触前终末的纳米级分子发射台
-- 🟢 [CaMKII（钙/钙调素依赖性蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶，"分子记忆开关"
+- 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；BTSP 中的延迟弥散随机激活（DDSC，平台电位后 10–100 s，IP₃→ER 驱动）是行为时间尺度突触整合的分子秒表 **[修订 rev2 2026-09-20]**
 - 🟢 [树突计算](neurons/dendritic-computation.md) — NMDA 棘波与 Ca²⁺ 棘波使单根树突成为独立计算单元，单神经元等价两层神经网络；Wilson 2016证明V1突触聚类增强方向选择性（修订4次）
 - 🟢 [锥体神经元](neurons/pyramidal-neuron.md) — 皮层主体兴奋性神经元，双树突系统是树突计算和前馈/反馈整合的物理基础
 - 🟢 [场所细胞](neurons/place-cell.md) — 海马 CA1/CA3 的空间位置编码器，通过 BTSP 单次写入场所场，构成大脑认知地图（修订4次）
@@ -78,7 +78,7 @@
 - 🔵 [突触时序依赖可塑性（STDP）](concepts/stdp.md) — Hebb 规则的时间分辨精化版：前先后→LTP，后先前→LTD；NMDA 受体±20ms 仲裁；θ 前进体内桥接；三因素扩展 **[NEW 2026-06-19]**（填补 hebbian-learning 悬空引用）
 - 🟢 [皮层分层结构（六层）](concepts/cortical-layers.md) — L1–L6 各层细胞类型、输入/输出投射和振荡特征；前馈（L2/3→高级L4，γ驱动型）vs 反馈（L5/6→低级L1/2/3，β调制型绕过L4）的层级不对称；L4棘突星形细胞、L5厚毛绒锥体细胞两极整合、L6 CT丘脑门控 **[NEW 2026-07-18]**
 - 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
-- 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则
+- 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则；分子秒表=DDSC（CaMKII延迟弥散激活，IP₃→ER驱动）；非空间BTSP已推广至嗅觉工作记忆 **[修订 rev3 2026-09-20]**
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-07-21 rev4]**
 - 🔵 [θ-γ跨频率耦合](concepts/theta-gamma-coupling.md) — Lisman-Idiart 1995容量分格模型：每个θ周期嵌套约4–6个γ爆发，每个γ爆发承载一项工作记忆（对应4±1容量上限）；Colgin 2009慢γ（θ波峰，CA3）/快γ（θ波谷，MEC）双通道时分路由；Axmacher 2010人类颅内PAC证据；Huang 2026序列规划扩展 **[NEW 2026-07-21]**
 - 🟢 [α振荡（8–12 Hz）](concepts/alpha-oscillations.md) — 视丘-皮层回路（TRN-TC）与皮层L5协同生成的最强神经振荡；抑制-时序假说：ERS=主动压制无关感觉输入；Worden 2000/Foxe 2011确立差异化α拓扑门控；枕核/LP复合体为α广播器（Bourgeois 2020）；α-γ PAC在工作记忆三阶段（编码/维持/提取）的分格机制（Roux 2014双代码模型×Wianda 2019三阶段证据）；Q-theta-primate的α-γ替代假说 **[NEW 2026-07-22]**
@@ -134,7 +134,7 @@
 - 🔵 [时间层级编码](concepts/temporal-hierarchy.md) — 大脑在从纳秒到终身的12个数量级时间尺度上并行运行的计算机制全谱；从SNARE融合到威胁记忆的多层架构 **[NEW 2026-05-31]**
 - 🟡 [嵌套竞争-遴选架构](concepts/competition-selection-principle.md) — 大脑在突触→细胞→回路→系统→认知五个层次通过竞争决定"什么值得记住"；与嵌套时间编码层级互补；第二周综合分析框架 **[NEW 2026-06-06]**
 - 🟢 [多巴胺奖励预测误差（DA-RPE）](concepts/dopamine-reward-prediction-error.md) — VTA/SNc DA 神经元编码"实际 − 预期"奖励误差；TD学习的神经底物；D1/D2分化；三因素规则的广播信号 **[NEW 2026-06-07]**
-- 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；填补 hebbian-learning 悬空引用；纹状体直接实验验证 **[NEW 2026-06-07]**
+- 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；纹状体直接实验验证；BTSP 作为海马实现（树突平台电位充当第三因素，DDSC充当资格痕迹整合器）**[修订 rev2 2026-09-20]**
 - 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题；LC-DA（非VTA）是行为标记 PRPs 合成的主要触发者（Takeuchi 2016, Moncada 2007）**[修订 rev2 2026-07-11]**
 - 🟡 [蓝斑-海马多巴胺系统（LC-DA）](concepts/lc-hippocampus-dopamine.md) — LC TH⁺ 末梢（非VTA）是海马dCA1 DA的主要来源；D1/D5调控记忆持续性（非编码）；行为标记（新颖→LC-DA→PRPs→STC）；记忆联结（~6h时间窗，LC→dCA1 D1/D5依赖）；与GC-NE应激记忆系统互补 **[NEW 2026-07-11]**
 - 🔵 [Actor-Critic架构（基底节）](concepts/actor-critic-brain.md) — VTA/SNc=TD误差δ广播；NAc/腹侧纹状体=Critic价值估计；背侧纹状体D1-MSN=Actor Go / D2-MSN=Actor No-Go；DA双向读出设计（D1兴奋/D2抑制）**[NEW 2026-07-12]**

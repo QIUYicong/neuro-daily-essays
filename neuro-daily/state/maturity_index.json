@@ -798,5 +798,32 @@
     "confidence": "high",
     "last_change": "2026-09-19",
     "change_reason": "创建：RMTg作为LHb→VTA的必要GABA中继已在灵长类损毁实验中得到因果确认"
+  },
+  {
+    "slug": "btsp",
+    "title": "行为时间尺度突触可塑性（BTSP）",
+    "page": "wiki/concepts/btsp.md",
+    "status": "established",
+    "confidence": "high",
+    "last_change": "2026-09-20",
+    "change_reason": "修订 rev3：新增DDSC分子机制（Jain 2024 Nature）、αCaMKII T286A证据（Xiao 2023）、CA3对称BTSP（Li 2024）、非空间BTSP扩展（Dorian 2024/2025）；status维持established/high（核心时间窗口和单次写入结论高置信度保持；DDSC在脑片中已证明因果性，但体内验证仍pending）"
+  },
+  {
+    "slug": "camkii",
+    "title": "CaMKII（钙调蛋白依赖蛋白激酶 II）",
+    "page": "wiki/concepts/camkii.md",
+    "status": "established",
+    "confidence": "high",
+    "last_change": "2026-09-20",
+    "change_reason": "创建：CaMKII在LTP中的快速局部激活（established/high）；DDSC延迟弥散模式（Jain 2024，脑片直接成像，因果性经paAIP2实验证明，established/high脑片；体内待验证）"
+  },
+  {
+    "slug": "three-factor-learning-rule",
+    "title": "三因素学习规则",
+    "page": "wiki/concepts/three-factor-learning-rule.md",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_change": "2026-09-20",
+    "change_reason": "修订 rev2：新增BTSP作为三因素规则海马实现的章节；DA-奖励三因素 vs 平台电位三因素的对比分析；status维持mainstream/high（三因素框架在多实验室独立验证）"
   }
 ]

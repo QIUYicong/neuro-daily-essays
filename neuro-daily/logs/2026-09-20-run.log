@@ -1,0 +1,93 @@
+## 2026-09-20 日志（第150篇 · BTSP的分子秒表）
+
+**系统时间**：2026-06-25（持续日期偏差，使用知识库连续性日期2026-09-20）
+**文章编号**：#150
+**主题**：BTSP的分子秒表：CaMKII的延迟随机激活（DDSC）机制
+
+---
+
+### 执行流程
+
+**A. 状态读取**
+- 读取 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md
+- 读取 topic_ledger.json：最后日期 2026-09-19，第149篇（外侧缰核），知识库连续日期
+- 读取 btsp.md：确认"具体读出分子尚不完全清楚"的知识空白，选定BTSP作为今日主题
+
+**B. 主题选择**
+- 选择理由：btsp.md 明确标记的未解分子机制，Jain 2024 (Nature, PMC11540904) 已发表直接答案
+- 层级：cellular/molecular（BTSP已在概念层，今日聚焦分子机制填补）
+
+**C. 资料搜集与阅读**
+- 全部源材料通过 PubMed/PMC/Europe PMC 公开开放通道访问
+- S1: PMC4888374 (Bittner 2015) — 全文读取，场所场单次写入原始发现
+- S2: PMC7289271 (Bittner 2017) — 全文读取，BTSP时间窗口量化与命名
+- S3: PMC10482326 (Xiao 2023) — 全文读取，αCaMKII T286A→BTSP消失
+- S4: PMC11540904 (Jain 2024) — 全文读取，DDSC发现，IP₃→ER→CaMKII延迟激活，paAIP2因果实验
+- S5: PMC11383060 (Dorian 2024/2025) — 全文读取，非空间BTSP（嗅觉工作记忆）
+- S6: PMC12614050 (Madar 2025) — 全文读取，BTSP综述
+- S7: PMID:34882093 (Milstein 2021) — 仅摘要（付费墙，标注"未读全文"）
+- 拒绝来源：Sci-Hub、付费墙绕过、所有不符合源政策的途径
+
+**D. 文章写作**
+- 文件：neuro-daily/articles/2026-09-20-btsp-camkii-molecular-timekeeper.md
+- 字数：约5000中文字
+- 结构：今日核心问题 → 背景 → BTSP发现 → 分子谜题 → 2024新发现DDSC → 整合模型 → 非空间推广 → 比喻及局限 → 改变理解的三点 → 争议与未解 → AI对照
+- 免责：文末含医学声明（科学解释，非诊断/治疗建议）
+- 阅读笔记：neuro-daily/notes/2026-09-20-reading-notes.md
+- 来源元数据：neuro-daily/sources/2026-09-20-sources.json
+
+**E. Wiki 巩固（Step D）**
+- btsp.md (rev2→rev3)：DDSC机制、Xiao 2023、CA3对称BTSP、非空间BTSP；新增连接和未解问题
+- neurons/camkii.md (rev1→rev2)：两种激活模式对比表；DDSC详细机制；新增连接和未解问题
+- concepts/three-factor-learning-rule.md (rev1→rev2)：BTSP作为三因素规则海马实现章节
+
+**F. 知识图谱与导航更新**
+- wiki/CHANGELOG.md：新增2026-09-20条目
+- wiki/index.md：更新标题行、camkii/btsp/three-factor条目
+- state/topic_ledger.json：新增第150篇条目，total_articles: 148→150，last_updated: 2026-09-20
+- state/source_registry.json：新增sources_2026-09-20（13个PMID/PMC ID）
+- state/maturity_index.json：更新btsp/camkii/three-factor-learning-rule条目
+- state/unresolved_questions.md：新增Q-btsp-ddsc-synapse-specificity、Q-btsp-in-vivo-ddsc、Q-btsp-non-spatial-generalization
+- state/monthly_synthesis.md：新增2026-09-20条目
+
+**G. 矛盾检查**
+- 无新矛盾登记
+- DDSC仅在脑片中证明（体内未验证）→ 记录为Q-btsp-in-vivo-ddsc未解问题，而非矛盾
+- Jain 2024的DDSC数据与Xiao 2023的T286A数据相互一致（均支持CaMKII激活维持时间是BTSP关键）
+
+**H. 图谱统计**
+- 节点：295（无新增，camkii既有页）
+- 边：1721 → 1729（+8边：btsp↔camkii双向、btsp→three-factor、btsp→entorhinal-cortex、camkii→dendritic-computation、camkii→voltage-gated-calcium-channels、three-factor↔btsp）
+
+---
+
+### 问题记录
+
+**已解决**：
+- 之前context压缩中断：从中断点恢复，完成wiki巩固步骤
+- concepts/camkii.md误建（未发现neurons/camkii.md已存在）：发现后删除concepts版，更新neurons版
+
+**待解决**：
+- 无新待解问题
+
+---
+
+### 输出文件清单
+
+**新增**：
+- neuro-daily/articles/2026-09-20-btsp-camkii-molecular-timekeeper.md
+- neuro-daily/notes/2026-09-20-reading-notes.md
+- neuro-daily/sources/2026-09-20-sources.json
+- neuro-daily/logs/2026-09-20-run.log（本文件）
+
+**修订**：
+- neuro-daily/wiki/concepts/btsp.md (rev2→rev3)
+- neuro-daily/wiki/neurons/camkii.md (rev1→rev2)
+- neuro-daily/wiki/concepts/three-factor-learning-rule.md (rev1→rev2)
+- neuro-daily/wiki/CHANGELOG.md
+- neuro-daily/wiki/index.md
+- neuro-daily/state/topic_ledger.json
+- neuro-daily/state/source_registry.json
+- neuro-daily/state/maturity_index.json
+- neuro-daily/state/unresolved_questions.md
+- neuro-daily/state/monthly_synthesis.md
