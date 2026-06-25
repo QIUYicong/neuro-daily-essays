@@ -1,0 +1,38 @@
+# 运行日志 2026-06-25（No-op：重复触发）
+
+**运行时间**：2026-06-25 08:00 CST（自动调度触发）
+**触发类型**：重复触发（Duplicate trigger）
+**处理结果**：跳过，无新内容生成
+
+---
+
+## 原因说明
+
+今日文章 `2026-06-25-gamma-oscillations-neural-binding.md` 已于本日早前某次触发中完整生成并推送至 `origin/main`（commit `01f72bf`）。
+
+检查结果：
+- `neuro-daily/articles/2026-06-25-gamma-oscillations-neural-binding.md` ✅ 存在
+- `neuro-daily/notes/2026-06-25-reading-notes.md` 存在于 main
+- `neuro-daily/sources/2026-06-25-sources.json` 存在于 main
+- `state/topic_ledger.json` 已记录第 61 篇（2026-06-25）
+- push 状态：之前已成功推送至 origin main
+
+## 当日主题（已完成）
+
+**文章编号**：#61
+**标题**：当大脑把碎片缝合在一起：伽马振荡与神经绑定之谜
+**核心问题**：伽马振荡（30–90 Hz）是否是大脑解决绑定问题的神经机制？
+**slug**：gamma-oscillations-neural-binding
+**wiki 页面**：
+- 新建：`wiki/concepts/binding-by-synchrony.md`
+- 修订：`wiki/concepts/gamma-oscillations.md` (rev1→rev2)
+
+## 仓库状态
+
+- 当前分支：main
+- origin/main HEAD：8d252ee（Update 2026-09-16 run log）
+- 今日无新工作可做
+
+## 操作
+
+无操作。本日志为重复触发的存档记录。
