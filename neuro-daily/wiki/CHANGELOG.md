@@ -4,6 +4,50 @@
 
 ---
 
+## 2026-09-17 · 文章 #147 · 大脑内守军的两张面孔：小胶质细胞的稳态监视与DAM转化——当TREM2信号决定神经退行性疾病的命运
+
+**核心主题**：小胶质细胞的双重身份——稳态守护者与疾病响应执行者。核心贡献：(1) 稳态小胶质细胞分子签名（Butovsky 2014）：P2RY12/TMEM119/CX3CR1组成"城市默契"标志，由神经元TGF-β/CX3CL1持续维持；(2) DAM两步激活（Keren-Shaul 2017 scRNA-seq）：Step 1 TREM2非依赖（稳态基因首波下调）→ Step 2 TREM2依赖（LPL↑/CTSD↑，获得吞噬Aβ能力）；(3) TREM2-APOE-MGnD轴（Krasemann 2017）：PS→TREM2→APOE自分泌→MEF2A/MAFB/SMAD3抑制→miR-155→稳态基因丢失→潜在神经毒性；(4) TREM2遗传学：R47H变异→AD风险OR≈3-5×（Jonsson 2013, NEJM）；(5) 临床转化失败：INVOKE-2 Phase 2（AL002c TREM2激动抗体，n=381，2026）→ CDR-SB主要终点未达，时间窗口可能是关键；(6) DAM跨疾病普遍性（ALS/老龄化）。图谱从289节点/1685边增至**292节点/1701边**（+3节点+16条新边）。填补长期悬空引用neuroinflammation（在microglia/alzheimers-disease/als多页引用多年）。
+
+**注意**：系统时钟日期为2026-06-25（UTC+8），知识库连续序列日期为2026-09-17，文章编号#147。
+
+### 新建 Wiki 页面（3 个）
+
+- `concepts/neuroinflammation.md` 🟢 established · 高置信度 — CNS免疫应答连续谱（急性保护→慢性神经毒性）；小胶质细胞+星形胶质细胞双效应器；DAMPs/错误折叠蛋白触发信号；稳态→DAM两步转化（TREM2依赖Step 2）；TREM2-APOE-MGnD轴；炎症小体/细胞因子（TNF-α/IL-1β/IL-6）；AD/PD/ALS跨疾病共同病理；Q-neuroinflamm-01至Q-neuroinflamm-03
+- `concepts/disease-associated-microglia.md` 🔵 mainstream · 高置信度（小鼠机制）/中（人类功能意义） — DAM vs稳态小胶质细胞分子标志对比表（P2RY12↓/TMEM119↓/TREM2↑/APOE↑/LPL↑/CTSD↑）；两步激活分子逻辑（TREM2非依赖/依赖）；5XFAD微胶质屏障结构证据；TREM2-KO→屏障缺失→斑块扩散更广；人类AD确认（Mathys 2019 snRNA-seq）；DAM在ALS/老龄化中的普遍性；MGnD重叠与区分；Q-dam-01至Q-dam-04
+- `neurons/trem2.md` 🔵 mainstream · 高置信度 — TREM2结构（Ⅰ型跨膜蛋白/免疫球蛋白超家族）；配体（PS/APOE/CSPGs/LPS）；DAP12（TYROBP）→Syk→PI3K→Akt→mTOR信号通路；R47H分子影响（配体结合亲和力↓→吞噬效率↓）；TREM2-APOE轴（APOE自分泌→MEF2A/MAFB/SMAD3抑制→miR-155→稳态基因丢失）；INVOKE-2 Phase 2阴性结果（PMID:41787076）；Q-dam-01/Q-dam-02/Q-dam-04
+
+### 修订 Wiki 页面（2 个）
+
+- `neurons/microglia.md` rev1→rev2 — 新增稳态分子身份节（P2RY12/TMEM119/CX3CR1，Butovsky 2014）；新增DAM转化节（两步激活/TREM2-APOE轴/MGnD状态）；更新一句话定义；related新增neuroinflammation/disease-associated-microglia/als/trem2；opens_questions新增Q-microglia-02/Q-dam-01/Q-dam-02/Q-neuroinflamm-01；关键证据表新增P2RY12/TMEM119稳态签名、DAM两步激活、TREM2 R47H三行；连接新增neuroinflammation/disease-associated-microglia/als条目；revision_count: 1→2；updated: 2026-09-17
+- `diseases/alzheimers-disease.md` rev6→rev7 — 新增「神经炎症：第三条AD核心通路——TREM2-DAM轴」节（C1q病理重激活+DAM两步激活+TREM2→APOE轴+TREM2遗传学+INVOKE-2）；related新增neuroinflammation/disease-associated-microglia/trem2；opens_questions新增Q-dam-01/Q-dam-02；source_articles新增2026-09-17文章；key_sources补充5条TREM2/DAM相关文献；关键证据表新增3行；连接节新增neuroinflammation/disease-associated-microglia/trem2；revision_count: 6→7；updated: 2026-09-17
+
+### 矛盾登记 / 裁决（0 条新登记）
+
+- 无新矛盾。DAM的保护vs有害争议已作为核心未解问题Q-dam-01/Q-dam-03记录，但目前双方证据均来自不同疾病阶段的模型，不构成直接矛盾。INVOKE-2阴性结果与基础研究积极结果的差异登记为认知时间窗口问题（Q-dam-02），不作为矛盾条目。
+
+### 新增未解问题（7 条）
+
+- `Q-dam-01`（高）：TREM2激活的保护→有害翻转点在AD时间轴何处？有无体内可测标志物？
+- `Q-dam-02`（高）：TREM2激动治疗的最优时间窗口——临床前MCI期vs症状前期？
+- `Q-dam-03`（中）：MGnD与DAM是同一细胞状态的不同侧面还是具有不同功能后果的不同状态？
+- `Q-dam-04`（中）：APOE4携带者的TREM2-APOE轴激活幅度是否高于APOE3/APOE2？
+- `Q-neuroinflamm-01`（高）：DAM保护→MGnD破坏的翻转发生在什么时机点？有无体内可测标志物？
+- `Q-neuroinflamm-02`（高）：MGnD的主要神经毒性输出是哪些分子（TNF、IL-1β、ROS、谷氨酸），各自贡献比例？
+- `Q-neuroinflamm-03`（中）：TREM2激活的最优时间窗口——能否在AD预防研究框架（淀粉样蛋白PET阳性/认知正常期）中回答？
+
+### 图谱变更
+
+- 节点：289→292（+3：neuroinflammation, disease-associated-microglia, trem2）
+- 边：1685→1701（+16条：microglia→neuroinflammation, neuroinflammation→alzheimers-disease, neuroinflammation→als-amyotrophic-lateral-sclerosis, neuroinflammation→parkinsons-disease, neuroinflammation→excitotoxicity, neuroinflammation→mitochondrial-dysfunction, complement-cascade-cns→neuroinflammation, disease-associated-microglia→neuroinflammation, microglia→disease-associated-microglia, trem2→disease-associated-microglia, disease-associated-microglia→alzheimers-disease, disease-associated-microglia→als-amyotrophic-lateral-sclerosis, trem2→microglia, trem2→alzheimers-disease, trem2→neuroinflammation, trem2→synaptic-pruning）
+
+### 填补悬空引用
+
+- `neuroinflammation`：长期存在于microglia.md（2026-06-03创建，related字段）、alzheimers-disease.md、als-amyotrophic-lateral-sclerosis.md等多个页面的`related`字段中，此次建立正式页面
+- `disease-associated-microglia`：存在于microglia.md的related字段
+- `trem2`：存在于microglia.md的related字段（2026-06-03起）
+
+---
+
 ## 2026-09-16 · 文章 #146 · 给细胞贴上地址标签：MERFISH 空间转录组学如何绘制全脑 5000+ 细胞类型的精确版图
 
 **核心主题**：空间转录组学（spatial transcriptomics）以 MERFISH 为代表，通过多轮序贯荧光成像 + 纠错编码，在保留细胞原位空间坐标的前提下同时测量 1000+ 基因，结合 scRNA-seq 整合形成 Allen Brain Cell Atlas 2023（34 类/338 亚类/5322 簇小鼠全脑图谱）。核心发现：(1) 背腹侧分化原则（背侧少而分化，腹侧多而相近）；(2) 空间模块 ≠ 传统解剖区域；(3) 细胞类型梯度（IT 神经元/纹状体 MSN 连续变化）；(4) 转录因子组合码定义细胞身份。老化应用（Allen 2023）揭示炎症热点空间特异性富集于白质（胼胝体）。图谱从 287 节点/1669 边增至 **289 节点/1685 边**（+2 节点+16 条新边）。填补了 `single-cell-rna-seq` 中悬空引用 `spatial-transcriptomics`。

@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-06-08
-updated: 2026-07-06
-revision_count: 6
+updated: 2026-09-17
+revision_count: 7
 dimensions: [molecular, synaptic, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
-related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis, tau-pathology, microglia, complement-cascade-cns, synaptic-pruning, glymphatic-system, aqp4]
+related: [amyloid-beta-oligomers, ltp, nmda-receptor, hippocampal-circuit, memory-consolidation, engram-cells, theta-oscillations, synaptic-tagging-capture, bdnf, default-mode-network, adult-neurogenesis, tau-pathology, microglia, complement-cascade-cns, synaptic-pruning, glymphatic-system, aqp4, neuroinflammation, disease-associated-microglia, trem2]
 prerequisites: [ltp, nmda-receptor, hippocampal-circuit, memory-consolidation]
-opens_questions: [Q-ad-vulnerable-synapses, Q-ad-tau-cascade, Q-ad-intervention-window, Q-nmda-alzheimer, Q-glyph-01, Q-glyph-02]
-source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-03-microglia-synaptic-pruning, 2026-07-06-glymphatic-system-sleep-clearance]
-key_sources: ["PMID:1789684", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:22762015", "PMID:20581818", "PMID:26871627", "PMID:41929946", "PMID:30190379", "PMID:1759558", "PMID:26691836", "PMID:22365544", "PMID:27033548", "PMID:22896675", "PMID:30679382", "PMID:19779148", "PMID:41593094"]
+opens_questions: [Q-ad-vulnerable-synapses, Q-ad-tau-cascade, Q-ad-intervention-window, Q-nmda-alzheimer, Q-glyph-01, Q-glyph-02, Q-dam-01, Q-dam-02]
+source_articles: [2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-06-16-default-mode-network, 2026-06-03-microglia-synaptic-pruning, 2026-07-06-glymphatic-system-sleep-clearance, 2026-09-17-neuroinflammation-microglia-dam-trem2]
+key_sources: ["PMID:1789684", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:22762015", "PMID:20581818", "PMID:26871627", "PMID:41929946", "PMID:30190379", "PMID:1759558", "PMID:26691836", "PMID:22365544", "PMID:27033548", "PMID:22896675", "PMID:30679382", "PMID:19779148", "PMID:41593094", "PMID:23150934", "PMID:23150908", "PMID:28602351", "PMID:31042697", "PMID:41787076"]
 ---
 
 # 阿尔茨海默病 (Alzheimer's Disease, AD)
@@ -70,6 +70,18 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 
 **人类直接证据**：随机交叉试验（n=39）证明，正常睡眠后血浆 Aβ/tau 高于睡眠剥夺后，直接证明睡眠期间大脑将这些蛋白清至血液（Dagum et al. 2026, PMID:41593094）。
 
+### 神经炎症：第三条AD核心通路——TREM2-DAM轴（新增 2026-09-17）
+
+AD的免疫维度是继Aβ-突触和tau-神经元死亡之后的**第三条核心通路**。关键转折点：2013年两篇NEJM论文同时报告TREM2 R47H变异（OR 2.92-4.5）与AD强关联（PMID:23150934/PMC3631573；PMID:23150908/PMC3677583），将小胶质细胞TREM2受体正式纳入AD遗传风险核心（仅次于APOE4）。
+
+**TREM2的作用**：TREM2是小胶质细胞表面的脂质传感器，识别凋亡细胞的PS信号和APOE蛋白，通过DAP12→PI3K→Akt→mTOR信号促进小胶质细胞在斑块周围的存活、增殖和吞噬。TREM2依赖的完整DAM（疾病相关微胶质细胞）激活（Step 2）是小胶质细胞在AD中发挥清除功能的关键。R47H变异削弱TREM2配体结合，阻断Step 2 DAM，小胶质细胞无法在斑块周围形成保护性屏障。
+
+**保护vs有害的张力**：Krasemann et al. 2017（PMID:28930663）发现，TREM2→APOE自分泌回路会抑制小胶质细胞稳态基因（MGnD状态），条件性敲除小胶质细胞APOE可在APP-PS1模型中减少神经元死亡。这意味着同一通路（TREM2→APOE）在早期可能有益（清除），在晚期（持续神经元凋亡驱动）可能有害（稳态功能丧失）。
+
+**INVOKE-2的临床教训**：TREM2激动抗体AL002c（Phase 2，381人，早期AD）未能改善CDR-SB（PMID:41787076）。时间窗口可能是关键——激活TREM2需在淀粉样蛋白积累早期、大规模神经元死亡前进行才有意义；到临床确诊的"早期AD"时，可能已过了DAM保护性阶段。
+
+**人类验证**：Mathys et al. 2019（PMID:31042697/PMC6865822）snRNA-seq在80,660个人类AD细胞核中确认DAM样细胞亚群（TREM2↑、APOE↑、CST7↑），且女性DAM比例高于男性（部分解释女性AD风险/严重程度差异）。
+
 ### 为什么海马首当其冲
 
 1. **高NR2B密度**：CA3-CA1突触（Schaffer侧支）的NMDA受体中NR2B亚基比例高，对Aβ的毒性通路（突触外NR2B激活）敏感性高
@@ -86,6 +98,9 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 | 突触外NR2B/p38 MAPK是Aβ阻断LTP的关键通路 | NR2B阻断剂救援LTP；脑片电生理+生化 | Li et al. 2011, PMID:21543591 | 高 |
 | theta-gamma耦合损伤早于Aβ大量产生 | 转基因AD鼠海马场电位记录 | Goutagny et al. 2013, PMID:23773058 | 中 |
 | 靶向Aβ寡聚体（非斑块）抗体减缓早期AD认知衰退 | 随机双盲3期临床试验 | 综述 PMC:8231952 | 高（临床） |
+| TREM2 R47H→AD风险↑2.9-4.5×（两个独立NEJM论文）| 外显子测序+冰岛队列，7000+样本 | PMID:23150934; 23150908 | 高 |
+| 人类AD脑中DAM亚群确认（TREM2↑APOE↑CST7↑）| snRNA-seq，80660核，48名受试者 | PMID:31042697/PMC6865822 | 高 |
+| TREM2激动（AL002c Phase 2）不改善早期AD认知 | 381人，48-96周，CDR-SB阴性 | PMID:41787076 | 高（阴性） |
 
 ## 连接
 
@@ -105,6 +120,9 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 - [[synaptic-pruning]] — 补体-微胶质突触剪枝的异常重激活导致斑块出现前的突触前丢失
 - [[glymphatic-system]] — 胶质淋巴清除失效是 Aβ/tau 积累的功能上游原因；睡眠剥夺和衰老通过三重机制削弱清洗，与 AD 形成双向恶性循环
 - [[aqp4]] — AQP4 去极化在老年脑中导致胶质淋巴效率下降；可能是 AD 预防干预的靶点
+- [[neuroinflammation]] — 神经炎症是AD的第三条核心通路；小胶质细胞激活贯穿AD全程
+- [[disease-associated-microglia]] — DAM在AD斑块周围形成保护性屏障，但持续激活可转为有害MGnD状态
+- [[trem2]] — AD第二强遗传风险因子（TREM2 R47H OR≈3-5×）；DAM Step 2激活的关键受体
 
 ## 未解问题
 
@@ -120,6 +138,7 @@ AD 病理的核心是"Aβ/tau 清除 < 产生"，而胶质淋巴系统是 Aβ �
 - 2026-06-16 · 修订 · 基于《默认模式网络》一文 · 新增：Aβ 优先沉积 DMN 枢纽节点（PCC/mPFC）的功能解剖解释（Buckner 2009）；related 新增 default-mode-network；dimensions 新增 whole-brain-network
 - 2026-06-29 · 修订 · 基于《tau 蛋白病理》一文（第 65 篇）· related 新增 tau-pathology；key_sources 新增 Braak 1991 (PMID:1759558)、Zempel 2015 (PMID:26691836)、de Calignon 2012 (PMID:22365544)；在"连接"段落新增 tau-pathology 节点；修订 revision_count=4
 - 2026-06-03 · 修订 · 基于《大脑的"质检员"》一文（第 70 篇）· 补充 C1q/补体-微胶质突触剪枝机制（Hong et al. 2016）：Aβ低聚体触发C1q早期突触沉积（早于斑块），CR3阻断保护突触；related 新增 microglia/complement-cascade-cns/synaptic-pruning；key_sources 新增 PMID:27033548；修订 revision_count=5
+- 2026-09-17 · 修订(rev7) · 基于《大脑内守军的两张面孔》(#147) · 新增"神经炎症：第三条AD核心通路"章节（TREM2-DAM轴、保护vs有害张力、INVOKE-2临床教训、人类DAM验证）；related补充neuroinflammation/disease-associated-microglia/trem2；key_sources补充TREM2遗传关联和DAM相关PMID；新增证据表行（TREM2 R47H、DAM确认、INVOKE-2阴性）；新增连接节点
 
 ## 来源文章
 

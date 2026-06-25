@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-16（第146篇·给细胞贴上地址标签：MERFISH空间转录组学如何绘制全脑5000+细胞类型精确版图·Allen Brain Cell Atlas 34类/338亚类/5322簇·背腹侧分化原则·空间模块≠解剖区域·IT神经元连续梯度·转录因子组合码）· 主题页总数：**287**（新建1页：methods/spatial-transcriptomics；修订3页：methods/single-cell-rna-seq rev1→rev2、concepts/transcriptomic-cell-types rev1→rev2、methods/connectomics rev3→rev4；新增Q-spatial-cell-type-boundary/Q-spatial-human-brain/Q-spatial-functional-correspondence；填补悬空引用spatial-transcriptomics；图谱289节点/1685边）
+> 最后更新：2026-09-17（第147篇·大脑内守军的两张面孔：小胶质细胞稳态监视与DAM转化——TREM2信号、神经退行性疾病命运·稳态P2RY12/TMEM119分子签名·DAM两步激活·TREM2-APOE-MGnD轴·INVOKE-2临床阴性）· 主题页总数：**290**（新建3页：concepts/neuroinflammation、concepts/disease-associated-microglia、neurons/trem2；修订2页：neurons/microglia rev1→rev2、diseases/alzheimers-disease rev6→rev7；新增Q-dam-01至Q-dam-04/Q-neuroinflamm-01至Q-neuroinflamm-03；填补悬空引用neuroinflammation/disease-associated-microglia/trem2；图谱292节点/1701边）
 
 ---
 
@@ -36,7 +36,8 @@
 - 🟢 [电压门控钙通道（VGCCs）](neurons/voltage-gated-calcium-channels.md) — P/Q型在突触前纳米域触发递质释放；L型在树突驱动BTSP平台电位，在核激活基因表达；三亚家族、三地点、三时间尺度 **[NEW 2026-06-01]**
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
-- 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝 **[NEW 2026-06-03]**
+- 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝；成年稳态P2RY12/TMEM119/CX3CR1分子签名；DAM两步激活（rev2新增） **[NEW 2026-06-03 · 修订 rev1→rev2 2026-09-17]**
+- 🔵 [TREM2（髓系细胞触发受体2）](neurons/trem2.md) — 小胶质细胞脂质传感器/危险信号受体；DAP12→PI3K→Akt→mTOR促细胞存活/增殖/吞噬；DAM Step 2激活的分子开关；R47H变异→AD风险OR≈3-5×；INVOKE-2 Phase 2（AL002c激动抗体）阴性结果 **[NEW 2026-09-17]**
 - 🟢 [低阈值机械感受器（LTMR）](neurons/mechanoreceptor-ltmr.md) — 皮肤中专职编码轻触/振动/压力的四类感受器（SA1 Merkel/SA2 Ruffini/RA1 Meissner/RA2 Pacini）；PIEZO2通道介导机械转导；脊髓背角机械感觉柱整合信号 **[NEW 2026-07-29]**
 - 🟢 [CB1 大麻素受体](neurons/cb1-receptor.md) — 脑内最丰富的 GPCR，主要突触前定位；富集于 CCK⁺ GABA 能中间神经元（皮层/海马）；Gi/o 偶联：Gβγ→Cav2.2 抑制（DSI 短时程），Gαi→cAMP/PKA↓→RIM1α（eCB-LTD 长时程），GIRK 激活（SSI）；BLA CB1R 激活对恐惧消退因果必要 **[NEW 2026-08-05]**
 
@@ -62,6 +63,8 @@
 - 🟢 [SNARE复合体](concepts/SNARE-complex.md) — 突触囊泡融合的核心分子机器（四螺旋束拉链）
 - 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + 脊髓中枢敏化触发器 + **兴奋毒性的主要Ca²⁺入口（突触内/外位置决定存活或死亡，修订rev7 2026-09-08）**（修订7次）
 - 🔵 [兴奋毒性](concepts/excitotoxicity.md) — 谷氨酸过激活引发的神经元死亡机制；位置决定命运（突触内=CREB存活 vs 突触外=Jacob/DAPK1/Calpain死亡）；钙-线粒体-ROS三联体；GLT-1防线；ALS/AD/HD/缺血中的疾病窗口 **[NEW 2026-09-08 · 修订2026-09-09: mPTP汇聚机制补充]**
+- 🟢 [神经炎症](concepts/neuroinflammation.md) — CNS对损伤/病原体/错误折叠蛋白的免疫应答；小胶质细胞+星形胶质细胞协同介导；稳态P2RY12+→DAM两步激活（Step 1 TREM2非依赖/Step 2 TREM2依赖）；TREM2-APOE轴→MGnD神经退行性表型；保护vs破坏净效应依赖于疾病阶段；AD/PD/ALS共同病理特征 **[NEW 2026-09-17]**
+- 🔵 [疾病相关微胶质细胞（DAM）](concepts/disease-associated-microglia.md) — 神经退行性疾病斑块周围的特化小胶质细胞亚态；稳态→Step 1（P2RY12↓/CX3CR1↓）→Step 2 TREM2依赖（LPL↑/CTSD↑/强吞噬能力）；5XFAD小鼠Aβ斑块周围微胶质屏障；TREM2-KO→屏障缺失→斑块扩散更广；人类AD脑snRNA-seq确认（Mathys 2019）；Q-dam-01至Q-dam-04未解问题 **[NEW 2026-09-17]**
 - 🔵 [PINK1/Parkin 线粒体自噬](concepts/pink1-parkin-mitophagy.md) — ΔΨm消失→PINK1 OMM积累→二聚化+自磷酸化→pUb（Ser65）生成→Parkin招募+激活（正反馈放大）→NDP52/OPTN/TBK1→LC3/自噬体→溶酶体；PD早发性遗传最主要原因（PINK1/PARK6、Parkin/PARK2）；Pink1 KO猕猴vs小鼠物种差异 **[NEW 2026-09-09]**
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础（修订8次）
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
@@ -306,7 +309,7 @@
 
 ## diseases（疾病）
 
-- 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退（修订4次）**[NEW 2026-06-08 · 修订2026-06-29]**
+- 🟢 [阿尔茨海默病](diseases/alzheimers-disease.md) — Aβ寡聚体通过5条并行通路瓦解海马突触LTP；突触密度（非斑块）与认知衰退相关r=0.96；早期突触沉默可逆；tau病理（NFT）比斑块更预测认知衰退；**rev7新增**：TREM2-DAM轴（C1q病理重激活+DAM两步激活是AD免疫病理核心；TREM2 R47H→AD风险×3-5）；INVOKE-2阴性（2026-09-17）**[NEW 2026-06-08 · 修订 rev6→rev7 2026-09-17]**
 - 🟢 [帕金森病](diseases/parkinsons-disease.md) — α-突触核蛋白聚集/路易小体/Braak分期；基底节直接/间接通路失衡（GPi过度活跃→丘脑抑制→运动减少）；β振荡病理状态；DA和DBS共享β→θ振荡切换治疗机制（Köhler 2024）**[NEW 2026-06-14]**
 - 🟢 [亨廷顿病](diseases/huntingtons-disease.md) — HTT基因CAG重复≥40→polyQ展开→四重MSN选择性打击（BDNF-REST断裂/转录失调CBP/PGC-1α/NR2B兴奋毒性）；纹状体MSN >90%晚期退化；丁苯那嗪/氘丁苯那嗪症状控制；tominersen悖论；WVE-003等位基因选择性策略 **[NEW 2026-09-07 · 修订2026-09-09]**
 - 🟢 [线粒体功能障碍](diseases/mitochondrial-dysfunction.md) — PD/AD/HD分别攻击Complex I/IV/II；ROS-mtDNA正反馈；Ca²⁺超载→MCU→mPTP→Cyt c→凋亡；DRP1病理性分裂；PINK1/Parkin线粒体自噬；神经元~4.7×10⁹ ATP/秒的高能耗决定结构性脆弱性 **[NEW 2026-09-09 · 填补图谱唯一悬空引用]**

@@ -1,0 +1,91 @@
+# 运行日志 2026-09-17
+
+**系统时钟日期**：2026-06-25（UTC+8）
+**知识库连续性日期**：2026-09-17
+**文章编号**：#147
+**运行模式**：Claude Code 自动化代理（计划任务，09:00 北京时间）
+
+---
+
+## 运行摘要
+
+**文章标题**：大脑内守军的两张面孔：小胶质细胞的稳态监视与DAM转化——当TREM2信号决定神经退行性疾病的命运
+**核心问题**：小胶质细胞在神经退行性疾病中是保护者还是破坏者？DAM两步激活（Step1 TREM2非依赖/Step2 TREM2依赖）、TREM2-APOE轴及INVOKE-2临床失败如何改变对神经炎症干预时间窗口的认识
+
+**来源扫描**：11条来源（8条完整全文/3条仅摘要）；所有引用均来自PubMed/PMC公开渠道，无Sci-Hub
+**研究质量**：所有关键主张均有PMID支撑；INVOKE-2(PMID:41787076)是2026年最新临床阴性结果
+
+---
+
+## 执行步骤
+
+### 1. 文章写作
+- [x] 阅读ROUTINE.md确定执行规范
+- [x] 通过知识库gap分析（dangling ref: microglia.md → neuroinflammation, disease-associated-microglia, trem2）确定主题
+- [x] PubMed/PMC文献检索（关键词：microglia homeostasis, DAM, disease-associated microglia, TREM2, neuroinflammation, INVOKE-2）
+- [x] 写作中文科学文章（约5000字）：neuro-daily/articles/2026-09-17-neuroinflammation-microglia-dam-trem2.md
+
+### 2. Wiki固结（知识图谱更新）
+
+**新建页面**（3页）：
+- [x] neuro-daily/wiki/concepts/neuroinflammation.md（填补dangling ref）
+- [x] neuro-daily/wiki/concepts/disease-associated-microglia.md（填补dangling ref）
+- [x] neuro-daily/wiki/neurons/trem2.md（填补dangling ref）
+
+**修订页面**（2页）：
+- [x] neuro-daily/wiki/neurons/microglia.md：rev1→rev2（新增稳态分子身份、DAM转化机制）
+- [x] neuro-daily/wiki/diseases/alzheimers-disease.md：rev6→rev7（新增TREM2-DAM轴内容）
+
+**知识图谱**：
+- [x] neuro-daily/wiki/_graph.json：289→292节点（+3），1685→1701边（+16）
+
+### 3. 索引和变更日志
+- [x] neuro-daily/wiki/index.md：更新header、新增TREM2/neuroinflammation/DAM条目、更新AD和microglia条目
+- [x] neuro-daily/wiki/CHANGELOG.md：prepend完整2026-09-17条目
+
+### 4. 状态文件更新
+- [x] neuro-daily/state/topic_ledger.json：修复JSON结构错误（5处）+ 更新header（last_updated→2026-09-17, total_articles→147）+ 追加#147条目
+- [x] neuro-daily/state/unresolved_questions.md：新增7个未解问题（Q-dam-01~04, Q-neuroinflamm-01~03）
+- [x] neuro-daily/state/source_registry.json：新增7个来源（4个已有来源更新used_in_articles）
+- [x] neuro-daily/state/monthly_synthesis.md：追加#147到九月文章列表
+
+### 5. Git操作
+- [x] git add + git commit
+- [x] git push origin main
+
+---
+
+## 未解问题新增
+
+| 问题ID | 优先级 | 一句话描述 |
+|--------|--------|-----------|
+| Q-dam-01 | 高 | TREM2激活保护→有害翻转点在AD时间轴何处 |
+| Q-dam-02 | 高 | TREM2激动治疗最优窗口：前驱MCI期vs症状前期 |
+| Q-dam-03 | 中 | DAM在人类神经退行性疾病中的保守性（小鼠→人类转化） |
+| Q-dam-04 | 中 | APOE4携带者TREM2-APOE轴激活幅度是否更高 |
+| Q-neuroinflamm-01 | 高 | M1/M2替代框架——DAM层级分类够用吗 |
+| Q-neuroinflamm-02 | 高 | 神经炎症是AD的原因还是结果（因果方向） |
+| Q-neuroinflamm-03 | 中 | ALS中DAM/MGnD样小胶质细胞与运动神经元死亡的因果关系 |
+
+---
+
+## 知识图谱变化摘要
+
+- 新节点（3）：neuroinflammation, disease-associated-microglia, trem2
+- 新边（16）：主要连接microglia↔neuroinflammation, microglia↔disease-associated-microglia, microglia↔trem2, trem2↔alzheimers-disease, trem2↔apoe4, neuroinflammation↔alzheimers-disease, neuroinflammation↔als等
+- 当前图谱：292节点，1701边
+
+---
+
+## 技术备注
+
+**topic_ledger.json修复**：文件存在5处结构错误（历史遗留问题）：
+1. 非法转义双引号（`统一的"规范计算"，`）
+2. 2026-09-01条目缺少`}`
+3. 文章134后多余的`]`关闭了entries数组，后续article 135-146被错误嵌套到`layer_dates.systems`内
+4. 最终`]`后缺少外层`}`
+5. 采用字符串替换+JSON重建的方式完成修复
+
+---
+
+*运行结束时间：2026-06-25 ~ 09:xx (北京时间)*

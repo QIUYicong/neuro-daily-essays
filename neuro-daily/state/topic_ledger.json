@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-15",
-  "total_articles": 145,
+  "last_updated": "2026-09-17",
+  "total_articles": 147,
   "entries": [
     {
       "date": "2026-09-15",
@@ -15,7 +15,9 @@
         "wiki/systems/thalamus.md (rev7->rev8)",
         "wiki/circuits/thalamocortical-circuit.md (rev3->rev4)"
       ],
-      "contested_claims_logged": ["C-2026-09-15-01 (LGN注意效应量：McAlonan 2008 ~11% vs Alitto 2025 ~1%)"],
+      "contested_claims_logged": [
+        "C-2026-09-15-01 (LGN注意效应量：McAlonan 2008 ~11% vs Alitto 2025 ~1%)"
+      ],
       "contested_claims_evidence_updated": [],
       "core_question": "外侧膝状体（LGN）是被动中继站还是主动注意门控节点？三重证据链：(1) TRN电生理先于LGN约4ms被注意调制（McAlonan 2008）；(2) CG反馈对M/P/K通路具有分特异性（Briggs 2009）；(3) β振荡门控新机制（Alitto 2026）。但效应量存在10倍争议（1% vs 11%）",
       "open_questions_added": [
@@ -24,7 +26,12 @@
         "Q-lgn-03：跨模态TRN抑制的临床意义——空间注意缺陷/感觉过敏/精神分裂症是否有TRN层面的机制",
         "Q-lgn-04：CG反馈M/P/K通路特异性的解剖和功能实现机制（Briggs 2009证明特异性存在，机制不明）"
       ],
-      "layer": ["cellular", "microcircuit", "brain-region", "cognition"],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
       "curriculum_track": "课程脊柱4（感觉与知觉）+ 课程脊柱6（注意力与执行控制）",
       "topic_tags": [
         "lateral geniculate nucleus LGN attention modulation",
@@ -77,13 +84,20 @@
         "wiki/systems/v1-primary-visual-cortex.md (rev7->rev8)"
       ],
       "contested_claims_logged": [],
-      "contested_claims_evidence_updated": ["Q-pc-01 部分更新（Thomas 2024 提供初步层级分离证据，神经适应替代假说仍未完全排除）"],
+      "contested_claims_evidence_updated": [
+        "Q-pc-01 部分更新（Thomas 2024 提供初步层级分离证据，神经适应替代假说仍未完全排除）"
+      ],
       "core_question": "初级视觉皮层（V1）是否真的按照解剖层来区分预测信号与预测误差信号？Thomas et al. 2024 用 7T fMRI 层级多变量解码首次在人脑直接检验：深层（L5/6）编码预期表征，浅层（L2/3）专门在非预期刺激时激活（编码预测误差）",
       "open_questions_added": [
         "Q-pc-08（中优先级）：V1 层级分离是否在 A1（听觉）和 S1（体感）皮层可复现——是否是皮层通用计算原则",
         "Q-pc-09（中优先级）：层级预测编码的毫秒时间分辨证据——L5/6 预期信号是在刺激前还是刺激后建立？需要层流电极或 ECoG 层级分辨"
       ],
-      "layer": ["microcircuit", "brain-region", "cognition", "theory"],
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "theory"
+      ],
       "curriculum_track": "课程脊柱3（大脑如何编码世界）+ 课程脊柱8（意识与自我）+ 脊柱12（大脑与AI比较）",
       "topic_tags": [
         "predictive coding V1 laminar specificity 7T fMRI",
@@ -122,7 +136,9 @@
       "title": "MICrONS：当五亿突触的接线图遇见活体神经元的功能地图",
       "filename": "2026-09-13-microns-mouse-cortex-functional-connectome.md",
       "article_number": 143,
-      "wiki_pages_created": ["wiki/concepts/inhibitory-compartmental-targeting.md"],
+      "wiki_pages_created": [
+        "wiki/concepts/inhibitory-compartmental-targeting.md"
+      ],
       "wiki_pages_revised": [
         "wiki/concepts/like-to-like-connectivity.md (rev1->rev2)",
         "wiki/methods/connectomics.md (rev2->rev3)",
@@ -132,9 +148,21 @@
       "contested_claims_evidence_updated": [],
       "core_question": "MICrONS 1mm³ 功能+结构连接组的三大发现：同类相连普遍存在、抑制性靶向特异性普查、L5 ET梯度",
       "open_questions_added": [],
-      "layer": ["microcircuit", "brain-region", "methods"],
-      "topic_tags": ["MICrONS connectome functional structural", "like-to-like connectivity", "inhibitory targeting"],
-      "main_sources": ["PMC11981939 (MICrONS Nature 2025)", "PMC11981947", "PMC11981935"],
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "methods"
+      ],
+      "topic_tags": [
+        "MICrONS connectome functional structural",
+        "like-to-like connectivity",
+        "inhibitory targeting"
+      ],
+      "main_sources": [
+        "PMC11981939 (MICrONS Nature 2025)",
+        "PMC11981947",
+        "PMC11981935"
+      ],
       "next_suggested_topics": []
     },
     {
@@ -153,13 +181,19 @@
       ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
-      "core_question": "除法规范化方程 R_j = γD_j^n/(σ^n + ΣD_k^n) 如何作为统一的"规范计算"，解释 V1 三种非线性（对比度饱和/交叉朝向抑制/环绕抑制）、注意效应的对比度增益vs响应增益分化（Reynolds & Heeger 2009）、LIP决策价值竞争，乃至丘脑网状核（TRN）的全脑信息路由？",
+      "core_question": "除法规范化方程 R_j = γD_j^n/(σ^n + ΣD_k^n) 如何作为统一的\"规范计算\"，解释 V1 三种非线性（对比度饱和/交叉朝向抑制/环绕抑制）、注意效应的对比度增益vs响应增益分化（Reynolds & Heeger 2009）、LIP决策价值竞争，乃至丘脑网状核（TRN）的全脑信息路由？",
       "open_questions_added": [
         "Q-dn-01（高优先级）：哺乳动物V1的规范化主要由哪种回路机制实现（分流性/递归/突触抑制）——GABA-A阻断反证的意义",
         "Q-dn-02（中优先级）：抑制性池的确切组成规则（方向/空间频率特异性vs全池）",
         "Q-dn-03（中优先级）：Reynolds & Heeger模型的独立体内验证——注意场宽度的直接测量"
       ],
-      "layer": ["synaptic", "cellular", "microcircuit", "brain-region", "cognition"],
+      "layer": [
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
       "curriculum_track": "课程脊柱1（神经编码基础：规范计算原则）+ 脊柱9（注意与感知：注意力规范化）+ 脊柱5（认知控制：价值决策规范化）",
       "topic_tags": [
         "divisive normalization canonical computation",
@@ -8309,7 +8343,7 @@
       "knowledge_base_date": "2026-09-01",
       "system_clock_date": "2026-06-22",
       "date_note": "系统时钟显示2026-06-22 UTC+8，使用知识库连续性日期2026-09-01"
-,
+    },
     {
       "date": "2026-09-03",
       "article_number": 133,
@@ -8377,17 +8411,33 @@
       "knowledge_base_date": "2026-09-03",
       "system_clock_date": "2026-06-22",
       "date_note": "系统时钟显示2026-06-22 UTC+8，使用知识库连续性日期2026-09-03"
-    }
-,
+    },
     {
       "date": "2026-09-04",
       "article_number": 134,
       "slug": "2026-09-04-deep-cerebellar-nuclei-dcn-output",
       "title": "小脑的终端执行器：深部小脑核如何把抑制变成驱动",
       "core_question": "深部小脑核（DCN）如何将浦肯野细胞（PC）的持续 GABA 抑制转化为兴奋性输出——去抑制（disinhibition）对比反弹兴奋（rebound excitation）哪个才是 DCN 输出的主要机制？DCN 内部有哪些可塑性层次支撑运动学习？",
-      "layer": ["cellular", "microcircuit", "brain-region", "systems"],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "systems"
+      ],
       "curriculum_track": "课程脊柱2（运动学习与技能习得）+ 脊柱3（大脑如何编码世界：感觉运动预测） + 脊柱12（人脑与AI比较：前向模型与Kalman滤波）",
-      "topic_tags": ["DCN", "deep-cerebellar-nuclei", "disinhibition", "rebound-excitation", "eyeblink-conditioning", "PNN", "cerebellar-plasticity", "forward-model", "Guillain-Mollaret-triangle", "dystonia", "motor-learning"],
+      "topic_tags": [
+        "DCN",
+        "deep-cerebellar-nuclei",
+        "disinhibition",
+        "rebound-excitation",
+        "eyeblink-conditioning",
+        "PNN",
+        "cerebellar-plasticity",
+        "forward-model",
+        "Guillain-Mollaret-triangle",
+        "dystonia",
+        "motor-learning"
+      ],
       "main_sources": [
         "PMID:25279763 (Ishikawa 2014, PLoS ONE — DCN disinhibition in primates)",
         "PMID:29858484 (Bhatt 2018, J Neurosci — PNN in DCN, EBC data)",
@@ -8425,428 +8475,588 @@
       "knowledge_base_date": "2026-09-04",
       "system_clock_date": "2026-06-23",
       "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-04"
-    }  ],
-  "layer_coverage_recent": {
-    "molecular": [
-      "2026-05-24",
-      "2026-05-25",
-      "2026-05-26",
-      "2026-06-01",
-      "2026-06-04",
-      "2026-06-10",
-      "2026-06-12",
-      "2026-07-03",
-      "2026-07-25",
-      "2026-07-26"
-    ],
-    "cellular": [
-      "2026-05-24",
-      "2026-05-25",
-      "2026-05-27",
-      "2026-05-28",
-      "2026-06-01",
-      "2026-06-03",
-      "2026-06-07",
-      "2026-06-11",
-      "2026-06-12",
-      "2026-06-18",
-      "2026-07-03",
-      "2026-07-26",
-      "2026-08-29"
-    ],
-    "synaptic": [
-      "2026-05-24",
-      "2026-05-25",
-      "2026-05-26",
-      "2026-05-28",
-      "2026-06-01",
-      "2026-06-04",
-      "2026-06-10",
-      "2026-07-03",
-      "2026-07-26"
-    ],
-    "microcircuit": [
-      "2026-05-27",
-      "2026-06-03",
-      "2026-06-11",
-      "2026-06-18",
-      "2026-07-26",
-      "2026-08-24"
-    ],
-    "brain_region": [
-      "2026-05-27",
-      "2026-05-28",
-      "2026-06-07",
-      "2026-06-11",
-      "2026-06-12",
-      "2026-05-31",
-      "2026-08-24",
-      "2026-08-25"
-    ],
-    "whole_brain_network": [
-      "2026-05-29",
-      "2026-05-30",
-      "2026-06-02",
-      "2026-06-07",
-      "2026-06-16",
-      "2026-05-31"
-    ],
-    "behavior": [
-      "2026-05-29",
-      "2026-05-30",
-      "2026-05-31",
-      "2026-06-02",
-      "2026-06-03",
-      "2026-08-24"
-    ],
-    "cognition": [
-      "2026-05-26",
-      "2026-05-27",
-      "2026-05-28",
-      "2026-05-30",
-      "2026-05-31",
-      "2026-06-02",
-      "2026-06-03",
-      "2026-06-12",
-      "2026-06-16",
-      "2026-05-31",
-      "2026-07-03",
-      "2026-08-24"
-    ],
-    "disease": [
-      "2026-06-08",
-      "2026-08-24"
-    ],
-    "methods": [
-      "2026-06-09",
-      "2026-05-31",
-      "2026-06-18",
-      "2026-07-25"
-    ],
-    "systems": [
-      "2026-06-11",
-      "2026-06-12",
-      "2026-08-29"
-    ],
-    "whole-brain-network": [
-      "2026-06-18"
-    ],
-    "brain-region": [
-      "2026-08-29"
-    ]
-  },
-  "layer_note": "2026-05-31（第四周综合/世界模型六层架构）：第四周综合篇。覆盖 whole-brain-network/cognition/brain-region/behavior/molecular 五层。图谱：70节点、410条边。",
-  "layer_tracking": {
-    "whole-brain-network": [
-      "2026-05-31"
-    ],
-    "cognition": [
-      "2026-05-31"
-    ],
-    "methods": [
-      "2026-05-31"
-    ],
-    "molecular": 2,
-    "cellular": 2,
-    "brain-region": 1,
-    "behavior": 1,
-    "disease": 1
-  },
-  "layer_dates": {
-    "molecular": [
-      "2026-06-03"
-    ],
-    "cellular": [
-      "2026-06-03"
-    ],
-    "synaptic": [
-      "2026-06-03",
-      "2026-08-06"
-    ],
-    "microcircuit": [
-      "2026-06-03",
-      "2026-08-06"
-    ],
-    "disease": [
-      "2026-06-03"
-    ],
-    "whole-brain-network": [
-      "2026-08-06",
-      "2026-08-23"
-    ],
-    "methods": [
-      "2026-08-06",
-      "2026-08-23"
-    ],
-    "cognition": [
-      "2026-08-23"
-    ],
-    "brain-region": [
-      "2026-08-23",
-      "2026-08-30"
-    ],
-    "behavior": [
-      "2026-08-23",
-      "2026-08-30"
-    ],
-    "systems": [
-      "2026-08-30"
-    ,
-  {
-    "date": "2026-09-05",
-    "article_number": 135,
-    "title": "语义记忆的神经拓扑：颞叶前部枢纽如何从感觉辐条聚合概念",
-    "core_question": "颞叶前部（ATL）如何充当语义枢纽，把分布在感觉运动皮层各处的特征整合成跨模态的统一概念——语义痴呆如何证明了这一枢纽的必要性？",
-    "layer": "brain-region/whole-brain-network/cognition",
-    "topic_tags": ["语义记忆", "颞叶前部", "枢纽-辐条模型", "语义痴呆", "概念表征", "语义控制"],
-    "main_sources": ["PMID:18026167", "PMID:20451381", "PMID:24324236", "PMID:27121839", "PMID:23260615", "PMID:39513090", "PMID:41698912", "PMID:31377672"],
-    "wiki_created": ["systems/anterior-temporal-lobe", "concepts/semantic-memory"],
-    "wiki_revised": ["concepts/embodied-semantics", "systems/language-network"],
-    "unresolved_questions": ["Q-atl-01", "Q-atl-02", "Q-atl-03"],
-    "next_suggested_topics": [
-      "海马时间细胞与时间情境模型 (TCM) 的神经底层 (Q-tc-01/Q-tc-04)",
-      "多重发生器假说实验检验 (Q-ncc-04, 意识理论)",
-      "神经振荡的跨频耦合机制（theta-gamma代码与工作记忆）"
-    ]
-  }
-,
-  {
-    "date": "2026-09-06",
-    "article_number": 136,
-    "title": "大脑的内部时间轴：内嗅皮层漂移与CA2如何支撑时间情境模型",
-    "core_question": "TCM预言海马维持连续漂移的时间情境状态——MEC Layer III时间漂移细胞与CA2的时间偏好，能否构成这个预言状态的神经底层？从行为预测到因果操控，2026年距离解答Q-tc-01有多近？",
-    "layer": "cellular/microcircuit/brain-region/cognition",
-    "topic_tags": ["时间情境模型", "TCM", "内嗅皮层", "CA2", "时间细胞", "时间记忆", "前额叶时间编码", "斜坡细胞", "颞氨通路"],
-    "main_sources": ["PMID:21867888", "PMID:23132944", "PMID:23915126", "PMID:24672015", "PMID:25569350", "PMID:28858612", "PMID:29145670", "PMID:29706516", "PMID:30175425", "PMID:32277786", "PMID:34474155", "PMID:41224668", "PMID:41648128"],
-    "wiki_created": [],
-    "wiki_revised": ["concepts/temporal-context-model", "concepts/time-cells", "systems/entorhinal-cortex"],
-    "unresolved_questions": ["Q-tc-01", "Q-tc-04"],
-    "next_suggested_topics": [
-      "海马CA1时间细胞与SWR回放——时间顺序结构如何在睡眠中被保留或压缩 (Q-tc-04相关)",
-      "上乳头核（SuM）→CA2时间调制通路的解剖与功能",
-      "人类fMRI中的时间情境编码——内嗅皮层BOLD信号能否追踪时间情境漂移？",
-      "多重发生器假说（NCC）实验检验 (Q-ncc-04)"
-    ]
-  },
-  {
-    "date": "2026-09-07",
-    "article_number": 137,
-    "title": "亨廷顿病：当遗传倒计时开启，纹状体为何率先坠落",
-    "core_question": "全身细胞均表达mutant huntingtin，为何纹状体中型多棘神经元（MSN）最先且最严重地死亡？四重叠加机制（BDNF-REST轴/转录失调/线粒体损伤/NR2B兴奋毒性）如何共同解释这一结构性单点失效？",
-    "layer": "molecular/cellular/synaptic/brain-region/disease",
-    "topic_tags": ["亨廷顿病", "polyglutamine", "BDNF", "REST", "中型多棘神经元", "MSN选择性脆弱性", "tominersen", "WVE-003", "纹状体", "神经退行性疾病", "基因治疗", "反义寡核苷酸"],
-    "main_sources": ["PMID:37629202", "PMID:27069383", "PMID:11408619", "PMID:15967378", "PMID:28817209", "PMID:34445070", "PMID:41287980", "PMID:39027419", "PMID:11298997"],
-    "wiki_created": ["diseases/huntingtons-disease", "concepts/polyglutamine-toxicity"],
-    "wiki_revised": ["neurons/medium-spiny-neuron", "concepts/bdnf"],
-    "unresolved_questions": ["Q-hd-01", "Q-hd-02", "Q-hd-03", "Q-hd-04", "Q-hd-msn-d1d2-vulnerability"],
-    "next_suggested_topics": [
-      "脊髓小脑共济失调（SCA1/2/3）——polyQ疾病家族中浦肯野细胞选择性脆弱性的对比框架 (polyQ疾病延伸)",
-      "自噬与泛素-蛋白酶体系统——神经元蛋白质稳态的双降解轴及其在HD/AD/PD中的比较 (Q-hd-01相关)",
-      "mHTT基因编辑——CRISPR等位基因选择性敲减的技术挑战与体内安全性 (Q-hd-03延伸)",
-      "纹状体兴奋毒性——NMDA受体NR2B亚基在HD/缺血/癫痫中的共同毒性机制"
-    ]
-  },
-  {
-    "date": "2026-09-08",
-    "title": "兴奋毒性：谷氨酸的双刃剑与突触内外的生死抉择",
-    "filename": "2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death.md",
-    "article_number": 138,
-    "wiki_pages_created": ["wiki/concepts/excitotoxicity.md"],
-    "wiki_pages_revised": ["wiki/concepts/nmda-receptor.md (rev6->rev7)"],
-    "contested_claims_logged": [],
-    "core_question": "NMDA受体过度激活如何通过突触内-突触外位置二分，将钙信号转化为线粒体崩溃、ROS爆发和神经元死亡？",
-    "open_questions_added": ["Q-exc-01（中优先级）：mPTP蛋白组成", "Q-exc-02（高优先级）：慢性EMT生物标志物", "Q-exc-03（中优先级）：DAPK1特异性抑制"],
-    "layer": ["molecular", "synaptic", "cellular", "disease"],
-    "curriculum_track": "课程脊柱1（神经元机制）+ 脊柱11（疾病窗口）",
-    "topic_tags": ["excitotoxicity", "synaptic vs extrasynaptic NMDAR", "calcium overload", "mitochondrial calcium", "GLT-1 EAAT2", "memantine", "nerinetide"],
-    "main_sources": ["PMID:20842175/PMC2948541 OPEN", "PMID:2880938 abstract-only", "PMID:35078537/PMC8788129 OPEN", "PMID:38891774/PMC11171854 OPEN", "PMID:37236602 abstract-only"],
-    "next_suggested_topics": ["线粒体功能障碍（填补mitochondrial-dysfunction悬空引用）", "神经炎症（填补neuroinflammation悬空引用）", "ALS多重机制"]
-  },
-  {
-    "date": "2026-09-09",
-    "article_number": 139,
-    "title": "线粒体功能障碍：神经元高能耗的代价——从 ATP 危机到神经退行性疾病的共同病理轴",
-    "core_question": "神经元为何对线粒体功能有如此极端的依赖，当线粒体功能障碍时，从ETC的第一道裂缝到PINK1/Parkin介导的线粒体自噬系统无法清场，中间经历了哪些关键的分子级联？",
-    "layer": "molecular/cellular/synaptic/disease",
-    "topic_tags": ["线粒体功能障碍", "电子传递链", "Complex I", "Complex II", "Complex IV", "ROS", "mPTP", "DRP1", "PINK1/Parkin", "线粒体自噬", "帕金森病", "阿尔茨海默病", "亨廷顿病", "神经退行性疾病"],
-    "main_sources": ["PMID:11598490 abstract-only", "PMID:38241161/PMC10903104 OPEN", "PMID:38744846/PMC11094169 OPEN", "PMID:33168089/PMC7654589 OPEN", "PMID:36943668 abstract-only", "PMID:19682570 abstract-only", "PMID:28379197/PMC5488005 OPEN"],
-    "wiki_created": ["diseases/mitochondrial-dysfunction", "concepts/pink1-parkin-mitophagy"],
-    "wiki_revised": ["diseases/huntingtons-disease (rev1->rev2)", "diseases/parkinsons-disease (rev2->rev3)", "concepts/excitotoxicity (rev1->rev2)"],
-    "graph_update": "273 nodes+4=277 nodes; 1606 edges+11=1617 edges; dangling filled: mitochondrial-dysfunction",
-    "unresolved_questions": ["Q-mito-01 (高): mPTP分子身份", "Q-mito-02 (高): PINK1/Parkin体内活性", "Q-mito-03 (中): ROS vs线粒体质量控制哪个是第一因"],
-    "next_suggested_topics": [
-      "活性氧（ROS）与氧化应激——填补reactive-oxygen-species悬空引用",
-      "DRP1与线粒体分裂融合动力学——填补drp1悬空引用",
-      "神经炎症（neuroinflammation）——填补持续悬空引用",
-      "ALS（肌萎缩侧索硬化）——多重机制汇聚于运动神经元选择性死亡",
-      "第140篇周综合——20周知识地图综合"
-    ],
-    "knowledge_base_date": "2026-09-09",
-    "system_clock_date": "2026-06-23",
-    "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-09"
-  }
-,
-  {
-    "date": "2026-09-10",
-    "article_number": 140,
-    "title": "20周认知地图综合：大脑如何在五个尺度上构建世界模型",
-    "core_question": "经过139篇文章、277个wiki节点、1617条知识连接的积累，神经科学知识库呈现出什么样的整体图景？大脑从细胞、突触和网络中构建认知的深层逻辑是什么？",
-    "layer": "molecular/synaptic/microcircuit/brain-region/whole-brain-network/cognition",
-    "topic_tags": ["20周综合", "世界模型", "五尺度统一原理", "预测编码", "E/I平衡", "规范计算", "专化整合", "预测误差", "层级架构", "知识图谱分析"],
-    "main_sources": [
-      "知识库内部（277节点/1617边/139篇文章）",
-      "PMID:4727084 Bliss & Lomo 1973",
-      "PMID:10195184 Rao & Ballard 1999",
-      "PMID:23177956/PMC3777736 Bastos 2012",
-      "PMID:37516773 COGITATE 2023",
-      "PMID:18267246 Day 2008"
-    ],
-    "wiki_created": [],
-    "wiki_revised": ["concepts/world-model (rev2->rev3)"],
-    "unresolved_questions": ["Q1(意识NCC)", "Q2(记忆巩固选择机制)", "Q3(关键期临床恢复)", "Q4(AD/PD线粒体第一因)", "Q5(mPTP身份)"],
-    "next_suggested_topics": [
-      "活性氧（ROS）与氧化应激——神经元抗氧化系统与神经退行性疾病",
-      "ALS（肌萎缩侧索硬化）——运动神经元选择性死亡的多重机制",
-      "果蝇全脑连接组（Dorkenwald 2024）——Connectomics脊柱9",
-      "MICrONS小鼠皮层柱连接组",
-      "空间转录组与神经元亚型空间分布"
-    ],
-    "knowledge_base_date": "2026-09-10",
-    "system_clock_date": "2026-06-23",
-    "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-10（第140篇第20周综合）",
-    "article_type": "week20_synthesis",
-    "graph_update": "277 nodes / 1617 edges (unchanged - synthesis article)"
-  }
-  ,
-  {
-    "date": "2026-09-11",
-    "article_number": 141,
-    "title": "ALS：运动神经元的选择性死亡——TDP-43 统一病理、C9orf72 三叉毒矛与四重脆弱性机制",
-    "core_question": "为什么脊髓运动神经元对 TDP-43 病理和 C9orf72 相关毒性格外脆弱？在 TDP-43 核清除（>97% 统一标志）、C9orf72 三叉机制（LOF/RNA foci/DPR）和运动神经元固有脆弱性（超长轴突/低钙缓冲/高Ca²⁺通透AMPA/持续皮质驱动）之间，因果链如何连接到最终运动神经元死亡？",
-    "layer": "molecular/cellular/synaptic/disease",
-    "topic_tags": ["ALS", "肌萎缩侧索硬化症", "TDP-43", "核清除", "液-液相分离", "隐蔽外显子", "UNC13A", "STMN2", "C9orf72", "RAN翻译", "DPR蛋白", "poly-GR", "poly-PR", "兴奋毒性", "运动神经元脆弱性", "tofersen", "SOD1"],
-    "main_sources": ["PMC6417666 OPEN", "PMC8891019 OPEN", "PMC8891020 OPEN", "PMC9327139 OPEN", "PMC7540334 OPEN", "PMID:30120348 abstract-only", "PMID:36890862 abstract-only", "PMID:38891774 abstract-only", "PMID:26601737 abstract-only", "PMID:37003099 abstract-only"],
-    "wiki_created": ["diseases/als-amyotrophic-lateral-sclerosis", "concepts/tdp-43-pathology", "concepts/cryptic-exon", "concepts/ran-translation", "concepts/dipeptide-repeat-proteins"],
-    "wiki_revised": ["concepts/excitotoxicity (rev2->rev3)"],
-    "graph_update": "277 nodes+5=282 nodes; 1617 edges+20=1637 edges",
-    "unresolved_questions": ["Q-als-01 (高): TDP-43 聚集是否先于核清除还是后果？", "Q-als-02 (高): DPR 对脊髓运动神经元是直接还是间接毒性？", "Q-als-03 (中): DPR 与 TDP-43 聚集的因果时序？", "Q-als-04 (中): tofersen 疗效差异的机制：NfL 降低但 ALSFRS-R 不改善？"],
-    "next_suggested_topics": [
-      "活性氧（ROS）与氧化应激——神经元抗氧化系统",
-      "核质转运（nucleocytoplasmic transport）——C9orf72/DPR的毒性机制深化",
-      "FlyWire 果蝇全脑连接组——Connectomics脊柱9",
-      "MICrONS小鼠皮层柱连接组",
-      "空间转录组学"
-    ],
-    "knowledge_base_date": "2026-09-11",
-    "system_clock_date": "2026-06-24",
-    "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-11（第141篇ALS文章）"
-  }
-  ,
-  {
-    "date": "2026-09-12",
-    "article_number": 142,
-    "title": "突触的自组装奥秘：液-液相分离如何构建突触前储备库与突触后密度",
-    "core_question": "液-液相分离（LLPS）如何在突触前端（突触素液相捕获囊泡储备库）和突触后端（PSD-95/SynGAP 凝聚相组织 PSD）实现突触结构的自组装，以及这一物理框架如何统一解释 LTP 的 Ca²⁺→CaMKII→SynGAP 逸散→AMPAR 插入机制与 GluN2B→GluN2A 发育切换对突触可塑性的物理门控？",
-    "layer": "molecular/synaptic/cellular",
-    "topic_tags": ["liquid-liquid-phase-separation", "LLPS", "突触素", "synapsin", "IDR", "intrinsically disordered region", "postsynaptic-density", "PSD", "PSD-95", "SynGAP", "LTP", "CaMKII", "GluN2B", "GluN2A", "critical period", "关键期", "相变", "phase transition", "AMPAR", "囊泡储备库", "FRAP", "Milovanovic 2018", "membrane-less condensate"],
-    "main_sources": ["PMC6191856 (PMID:29976799) OPEN", "PMID:27565345 abstract-only", "PMID:30078712 abstract-only", "PMID:41405989 abstract-only", "PMID:34375719 abstract-only", "PMID:36671389 abstract-only", "PMID:30599311 abstract-only", "PMID:37261953 abstract-only"],
-    "wiki_created": ["concepts/liquid-liquid-phase-separation", "concepts/postsynaptic-density", "neurons/synapsin"],
-    "wiki_revised": ["concepts/ltp (rev11->rev12)", "concepts/tdp-43-pathology (rev1->rev2)"],
-    "graph_update": "282 nodes+3=285 nodes; 1637 edges+13=1650 edges",
-    "unresolved_questions": ["Q-llps-01 (中): 体外 LLPS 液态特性是否在体内神经元中真实存在（还是更接近凝胶/固态）？", "Q-llps-02 (中): 活体神经元中 LLPS 成像的技术限制——何时能直接看到？", "Q-psd-01 (高): SynGAP 从 PSD 凝聚相逸散 vs CaMKII 直接磷酸化 AMPAR，哪个是 LTP 早期阶段 AMPAR 插入的主要驱动？", "Q-psd-02 (中): GluN2B→GluN2A 切换对 PSD 物理态（液态→固态）影响的体内实时证据？", "Q-synapsin-01 (中): 突触素液相组成在不同突触类型和脑区是否有实质差异？"],
-    "knowledge_base_date": "2026-09-12",
-    "system_clock_date": "2026-06-24",
-    "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-12（第142篇液-液相分离·突触前后自组装）"
-  }
-,
-  {
-    "date": "2026-09-13",
-    "article_number": 143,
-    "title": "MICrONS：当五亿突触的接线图遇见活体神经元的功能地图",
-    "core_question": "MICrONS项目如何通过将75,000个神经元的活体钙成像功能记录与包含5.23亿突触的电子显微镜三维重建精确配准，揭示小鼠视觉皮层中'同类相连'的普遍布线规则、抑制性神经元亚型差异化隔室靶向特异性，以及功能数字孪生如何桥接结构连接组与AI基础模型？",
-    "layer": "methods/microcircuit/brain-region/whole-brain-network",
-    "topic_tags": ["MICrONS", "functional connectomics", "功能连接组", "like-to-like connectivity", "同类相连", "inhibitory specificity", "抑制性特异性", "PeriTC", "DistTC", "InhTC", "去抑制专家", "disinhibitory specialist", "L5 ET neurons", "functional digital twin", "foundation model", "视觉皮层", "小鼠", "电子显微镜", "钙成像", "ssEM"],
-    "main_sources": ["PMID:40205214/PMC11981939 OPEN", "PMC11981947 OPEN", "PMID:40205209/PMC11981935 OPEN", "PMC12321573 OPEN", "microns-explorer.org (official)"],
-    "wiki_created": ["concepts/inhibitory-compartmental-targeting"],
-    "wiki_revised": ["concepts/like-to-like-connectivity (rev1->rev2, emerging/medium->mainstream/high)", "methods/connectomics (rev2->rev3)", "circuits/cortical-canonical-microcircuit (rev1->rev2)"],
-    "graph_update": "285 nodes+1=286 nodes; 1649 edges+11=1660 edges",
-    "unresolved_questions": [
-      "Q-ltl-01 (高): like-to-like是否适用于联合皮层",
-      "Q-ltl-02 (高): like-to-like的因果机制（Hebbian/分子亲和/修剪）",
-      "Q-ltl-03 (高): like-to-like是发育终态还是学习记录（视觉剥夺实验）",
-      "Q-ict-01 (高): 20个运动组跨物种保守性",
-      "Q-ict-02 (高): InhTC-peri与行为状态的关系（光遗传验证）"
-    ],
-    "next_suggested_topics": [
-      "活性氧（ROS）与氧化应激——神经元抗氧化系统（分子/细胞层级，填补前几篇疾病主题的分子背景）",
-      "核质转运（nucleocytoplasmic transport）——ALS/TDP-43毒性机制深化",
-      "空间转录组学——细胞类型空间分布与连接组学整合（methods层级延续MICrONS主题）",
-      "MICrONS数字孪生/AI神经科学基础模型——第12条路线（人脑与AI比较）",
-      "第144篇随机漫步：皮层外的布线逻辑——小脑或海马的连接组学"
-    ],
-    "knowledge_base_date": "2026-09-13",
-    "system_clock_date": "2026-06-24",
-    "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-13（第143篇MICrONS文章）"
-  }
-
-  ,
-  {
-    "date": "2026-09-16",
-    "article_number": 146,
-    "title": "给细胞贴上地址标签：MERFISH 空间转录组学如何绘制全脑 5000+ 细胞类型的精确版图",
-    "core_question": "空间转录组学（以 MERFISH 为核心技术）如何在保留细胞解剖位置的前提下，在全脑尺度上同时测量千余个基因的表达，从而揭示小鼠全脑 5000+ 转录组细胞类型的空间分布规律——包括背腹侧分化原则、空间模块的非解剖边界以及神经元亚型的连续梯度——并为连接组学、疾病研究和跨尺度神经科学整合提供分子地基？",
-    "layer": "methods/molecular/cellular/brain-region",
-    "topic_tags": [
-      "空间转录组学",
-      "MERFISH",
-      "Allen Brain Cell Atlas",
-      "转录组细胞类型",
-      "纠错编码",
-      "汉明距离",
-      "序贯成像",
-      "背腹侧分化",
-      "空间模块",
-      "细胞类型梯度",
-      "IT神经元",
-      "转录因子组合码",
-      "Yao 2023",
-      "Zhang 2023",
-      "Allen Institute",
-      "全脑细胞图谱",
-      "scRNA-seq互补",
-      "老化空间特异性"
-    ],
-    "main_sources": [
-      "PMC4662681 (PMID:25858977) OPEN",
-      "PMC8494645 (PMID:34616063) OPEN",
-      "PMC10719114 (PMID:38092916) OPEN",
-      "PMC10719103 (PMID:38092912) OPEN",
-      "PMC10024607 (PMID:36580914) OPEN",
-      "Allen Brain Cell Atlas (brain-map.org) OFFICIAL"
-    ],
-    "wiki_created": [
-      "methods/spatial-transcriptomics"
-    ],
-    "wiki_revised": [
-      "methods/single-cell-rna-seq (rev1->rev2)",
-      "concepts/transcriptomic-cell-types (rev1->rev2)",
-      "methods/connectomics (rev3->rev4)"
-    ],
-    "graph_update": "287 nodes+2=289 nodes; 1669 edges+16=1685 edges",
-    "unresolved_questions": [
-      "Q-spatial-cell-type-boundary (高): 5322簇边界依赖聚类参数，何种分辨率对应真实功能细胞类型？",
-      "Q-spatial-human-brain (高): 人类全脑MERFISH的技术障碍何时能克服？小鼠发现的人类适用性？",
-      "Q-spatial-functional-correspondence (高): 转录组细胞类型与功能细胞类型的对应关系——MICrONS × Allen整合是关键"
-    ],
-    "next_suggested_topics": [
-      "活性氧（ROS）与氧化应激——神经元抗氧化系统（分子/细胞层级，填补神经退行疾病系列的分子背景）",
-      "核质转运（nucleocytoplasmic transport）——深化ALS/TDP-43毒性机制",
-      "果蝇全脑连接组（FlyWire Dorkenwald 2024）——Connectomics脊柱第9条，轮换回methods/whole-brain-network层级",
-      "MERFISH x MICrONS整合——结构连接+分子身份的三位一体（AI/比较路线12）",
-      "发育期空间转录组——神经迁移与细胞类型命运决定的时空图谱"
-    ],
-    "knowledge_base_date": "2026-09-16",
-    "system_clock_date": "2026-06-24",
-    "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-16（第146篇空间转录组学文章）"
-  }
-]
+    },
+    {
+      "date": "2026-09-05",
+      "article_number": 135,
+      "title": "语义记忆的神经拓扑：颞叶前部枢纽如何从感觉辐条聚合概念",
+      "core_question": "颞叶前部（ATL）如何充当语义枢纽，把分布在感觉运动皮层各处的特征整合成跨模态的统一概念——语义痴呆如何证明了这一枢纽的必要性？",
+      "layer": "brain-region/whole-brain-network/cognition",
+      "topic_tags": [
+        "语义记忆",
+        "颞叶前部",
+        "枢纽-辐条模型",
+        "语义痴呆",
+        "概念表征",
+        "语义控制"
+      ],
+      "main_sources": [
+        "PMID:18026167",
+        "PMID:20451381",
+        "PMID:24324236",
+        "PMID:27121839",
+        "PMID:23260615",
+        "PMID:39513090",
+        "PMID:41698912",
+        "PMID:31377672"
+      ],
+      "wiki_created": [
+        "systems/anterior-temporal-lobe",
+        "concepts/semantic-memory"
+      ],
+      "wiki_revised": [
+        "concepts/embodied-semantics",
+        "systems/language-network"
+      ],
+      "unresolved_questions": [
+        "Q-atl-01",
+        "Q-atl-02",
+        "Q-atl-03"
+      ],
+      "next_suggested_topics": [
+        "海马时间细胞与时间情境模型 (TCM) 的神经底层 (Q-tc-01/Q-tc-04)",
+        "多重发生器假说实验检验 (Q-ncc-04, 意识理论)",
+        "神经振荡的跨频耦合机制（theta-gamma代码与工作记忆）"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "article_number": 136,
+      "title": "大脑的内部时间轴：内嗅皮层漂移与CA2如何支撑时间情境模型",
+      "core_question": "TCM预言海马维持连续漂移的时间情境状态——MEC Layer III时间漂移细胞与CA2的时间偏好，能否构成这个预言状态的神经底层？从行为预测到因果操控，2026年距离解答Q-tc-01有多近？",
+      "layer": "cellular/microcircuit/brain-region/cognition",
+      "topic_tags": [
+        "时间情境模型",
+        "TCM",
+        "内嗅皮层",
+        "CA2",
+        "时间细胞",
+        "时间记忆",
+        "前额叶时间编码",
+        "斜坡细胞",
+        "颞氨通路"
+      ],
+      "main_sources": [
+        "PMID:21867888",
+        "PMID:23132944",
+        "PMID:23915126",
+        "PMID:24672015",
+        "PMID:25569350",
+        "PMID:28858612",
+        "PMID:29145670",
+        "PMID:29706516",
+        "PMID:30175425",
+        "PMID:32277786",
+        "PMID:34474155",
+        "PMID:41224668",
+        "PMID:41648128"
+      ],
+      "wiki_created": [],
+      "wiki_revised": [
+        "concepts/temporal-context-model",
+        "concepts/time-cells",
+        "systems/entorhinal-cortex"
+      ],
+      "unresolved_questions": [
+        "Q-tc-01",
+        "Q-tc-04"
+      ],
+      "next_suggested_topics": [
+        "海马CA1时间细胞与SWR回放——时间顺序结构如何在睡眠中被保留或压缩 (Q-tc-04相关)",
+        "上乳头核（SuM）→CA2时间调制通路的解剖与功能",
+        "人类fMRI中的时间情境编码——内嗅皮层BOLD信号能否追踪时间情境漂移？",
+        "多重发生器假说（NCC）实验检验 (Q-ncc-04)"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "article_number": 137,
+      "title": "亨廷顿病：当遗传倒计时开启，纹状体为何率先坠落",
+      "core_question": "全身细胞均表达mutant huntingtin，为何纹状体中型多棘神经元（MSN）最先且最严重地死亡？四重叠加机制（BDNF-REST轴/转录失调/线粒体损伤/NR2B兴奋毒性）如何共同解释这一结构性单点失效？",
+      "layer": "molecular/cellular/synaptic/brain-region/disease",
+      "topic_tags": [
+        "亨廷顿病",
+        "polyglutamine",
+        "BDNF",
+        "REST",
+        "中型多棘神经元",
+        "MSN选择性脆弱性",
+        "tominersen",
+        "WVE-003",
+        "纹状体",
+        "神经退行性疾病",
+        "基因治疗",
+        "反义寡核苷酸"
+      ],
+      "main_sources": [
+        "PMID:37629202",
+        "PMID:27069383",
+        "PMID:11408619",
+        "PMID:15967378",
+        "PMID:28817209",
+        "PMID:34445070",
+        "PMID:41287980",
+        "PMID:39027419",
+        "PMID:11298997"
+      ],
+      "wiki_created": [
+        "diseases/huntingtons-disease",
+        "concepts/polyglutamine-toxicity"
+      ],
+      "wiki_revised": [
+        "neurons/medium-spiny-neuron",
+        "concepts/bdnf"
+      ],
+      "unresolved_questions": [
+        "Q-hd-01",
+        "Q-hd-02",
+        "Q-hd-03",
+        "Q-hd-04",
+        "Q-hd-msn-d1d2-vulnerability"
+      ],
+      "next_suggested_topics": [
+        "脊髓小脑共济失调（SCA1/2/3）——polyQ疾病家族中浦肯野细胞选择性脆弱性的对比框架 (polyQ疾病延伸)",
+        "自噬与泛素-蛋白酶体系统——神经元蛋白质稳态的双降解轴及其在HD/AD/PD中的比较 (Q-hd-01相关)",
+        "mHTT基因编辑——CRISPR等位基因选择性敲减的技术挑战与体内安全性 (Q-hd-03延伸)",
+        "纹状体兴奋毒性——NMDA受体NR2B亚基在HD/缺血/癫痫中的共同毒性机制"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "title": "兴奋毒性：谷氨酸的双刃剑与突触内外的生死抉择",
+      "filename": "2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death.md",
+      "article_number": 138,
+      "wiki_pages_created": [
+        "wiki/concepts/excitotoxicity.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/nmda-receptor.md (rev6->rev7)"
+      ],
+      "contested_claims_logged": [],
+      "core_question": "NMDA受体过度激活如何通过突触内-突触外位置二分，将钙信号转化为线粒体崩溃、ROS爆发和神经元死亡？",
+      "open_questions_added": [
+        "Q-exc-01（中优先级）：mPTP蛋白组成",
+        "Q-exc-02（高优先级）：慢性EMT生物标志物",
+        "Q-exc-03（中优先级）：DAPK1特异性抑制"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱1（神经元机制）+ 脊柱11（疾病窗口）",
+      "topic_tags": [
+        "excitotoxicity",
+        "synaptic vs extrasynaptic NMDAR",
+        "calcium overload",
+        "mitochondrial calcium",
+        "GLT-1 EAAT2",
+        "memantine",
+        "nerinetide"
+      ],
+      "main_sources": [
+        "PMID:20842175/PMC2948541 OPEN",
+        "PMID:2880938 abstract-only",
+        "PMID:35078537/PMC8788129 OPEN",
+        "PMID:38891774/PMC11171854 OPEN",
+        "PMID:37236602 abstract-only"
+      ],
+      "next_suggested_topics": [
+        "线粒体功能障碍（填补mitochondrial-dysfunction悬空引用）",
+        "神经炎症（填补neuroinflammation悬空引用）",
+        "ALS多重机制"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "article_number": 139,
+      "title": "线粒体功能障碍：神经元高能耗的代价——从 ATP 危机到神经退行性疾病的共同病理轴",
+      "core_question": "神经元为何对线粒体功能有如此极端的依赖，当线粒体功能障碍时，从ETC的第一道裂缝到PINK1/Parkin介导的线粒体自噬系统无法清场，中间经历了哪些关键的分子级联？",
+      "layer": "molecular/cellular/synaptic/disease",
+      "topic_tags": [
+        "线粒体功能障碍",
+        "电子传递链",
+        "Complex I",
+        "Complex II",
+        "Complex IV",
+        "ROS",
+        "mPTP",
+        "DRP1",
+        "PINK1/Parkin",
+        "线粒体自噬",
+        "帕金森病",
+        "阿尔茨海默病",
+        "亨廷顿病",
+        "神经退行性疾病"
+      ],
+      "main_sources": [
+        "PMID:11598490 abstract-only",
+        "PMID:38241161/PMC10903104 OPEN",
+        "PMID:38744846/PMC11094169 OPEN",
+        "PMID:33168089/PMC7654589 OPEN",
+        "PMID:36943668 abstract-only",
+        "PMID:19682570 abstract-only",
+        "PMID:28379197/PMC5488005 OPEN"
+      ],
+      "wiki_created": [
+        "diseases/mitochondrial-dysfunction",
+        "concepts/pink1-parkin-mitophagy"
+      ],
+      "wiki_revised": [
+        "diseases/huntingtons-disease (rev1->rev2)",
+        "diseases/parkinsons-disease (rev2->rev3)",
+        "concepts/excitotoxicity (rev1->rev2)"
+      ],
+      "graph_update": "273 nodes+4=277 nodes; 1606 edges+11=1617 edges; dangling filled: mitochondrial-dysfunction",
+      "unresolved_questions": [
+        "Q-mito-01 (高): mPTP分子身份",
+        "Q-mito-02 (高): PINK1/Parkin体内活性",
+        "Q-mito-03 (中): ROS vs线粒体质量控制哪个是第一因"
+      ],
+      "next_suggested_topics": [
+        "活性氧（ROS）与氧化应激——填补reactive-oxygen-species悬空引用",
+        "DRP1与线粒体分裂融合动力学——填补drp1悬空引用",
+        "神经炎症（neuroinflammation）——填补持续悬空引用",
+        "ALS（肌萎缩侧索硬化）——多重机制汇聚于运动神经元选择性死亡",
+        "第140篇周综合——20周知识地图综合"
+      ],
+      "knowledge_base_date": "2026-09-09",
+      "system_clock_date": "2026-06-23",
+      "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-09"
+    },
+    {
+      "date": "2026-09-10",
+      "article_number": 140,
+      "title": "20周认知地图综合：大脑如何在五个尺度上构建世界模型",
+      "core_question": "经过139篇文章、277个wiki节点、1617条知识连接的积累，神经科学知识库呈现出什么样的整体图景？大脑从细胞、突触和网络中构建认知的深层逻辑是什么？",
+      "layer": "molecular/synaptic/microcircuit/brain-region/whole-brain-network/cognition",
+      "topic_tags": [
+        "20周综合",
+        "世界模型",
+        "五尺度统一原理",
+        "预测编码",
+        "E/I平衡",
+        "规范计算",
+        "专化整合",
+        "预测误差",
+        "层级架构",
+        "知识图谱分析"
+      ],
+      "main_sources": [
+        "知识库内部（277节点/1617边/139篇文章）",
+        "PMID:4727084 Bliss & Lomo 1973",
+        "PMID:10195184 Rao & Ballard 1999",
+        "PMID:23177956/PMC3777736 Bastos 2012",
+        "PMID:37516773 COGITATE 2023",
+        "PMID:18267246 Day 2008"
+      ],
+      "wiki_created": [],
+      "wiki_revised": [
+        "concepts/world-model (rev2->rev3)"
+      ],
+      "unresolved_questions": [
+        "Q1(意识NCC)",
+        "Q2(记忆巩固选择机制)",
+        "Q3(关键期临床恢复)",
+        "Q4(AD/PD线粒体第一因)",
+        "Q5(mPTP身份)"
+      ],
+      "next_suggested_topics": [
+        "活性氧（ROS）与氧化应激——神经元抗氧化系统与神经退行性疾病",
+        "ALS（肌萎缩侧索硬化）——运动神经元选择性死亡的多重机制",
+        "果蝇全脑连接组（Dorkenwald 2024）——Connectomics脊柱9",
+        "MICrONS小鼠皮层柱连接组",
+        "空间转录组与神经元亚型空间分布"
+      ],
+      "knowledge_base_date": "2026-09-10",
+      "system_clock_date": "2026-06-23",
+      "date_note": "系统时钟显示2026-06-23 UTC+8，使用知识库连续性日期2026-09-10（第140篇第20周综合）",
+      "article_type": "week20_synthesis",
+      "graph_update": "277 nodes / 1617 edges (unchanged - synthesis article)"
+    },
+    {
+      "date": "2026-09-11",
+      "article_number": 141,
+      "title": "ALS：运动神经元的选择性死亡——TDP-43 统一病理、C9orf72 三叉毒矛与四重脆弱性机制",
+      "core_question": "为什么脊髓运动神经元对 TDP-43 病理和 C9orf72 相关毒性格外脆弱？在 TDP-43 核清除（>97% 统一标志）、C9orf72 三叉机制（LOF/RNA foci/DPR）和运动神经元固有脆弱性（超长轴突/低钙缓冲/高Ca²⁺通透AMPA/持续皮质驱动）之间，因果链如何连接到最终运动神经元死亡？",
+      "layer": "molecular/cellular/synaptic/disease",
+      "topic_tags": [
+        "ALS",
+        "肌萎缩侧索硬化症",
+        "TDP-43",
+        "核清除",
+        "液-液相分离",
+        "隐蔽外显子",
+        "UNC13A",
+        "STMN2",
+        "C9orf72",
+        "RAN翻译",
+        "DPR蛋白",
+        "poly-GR",
+        "poly-PR",
+        "兴奋毒性",
+        "运动神经元脆弱性",
+        "tofersen",
+        "SOD1"
+      ],
+      "main_sources": [
+        "PMC6417666 OPEN",
+        "PMC8891019 OPEN",
+        "PMC8891020 OPEN",
+        "PMC9327139 OPEN",
+        "PMC7540334 OPEN",
+        "PMID:30120348 abstract-only",
+        "PMID:36890862 abstract-only",
+        "PMID:38891774 abstract-only",
+        "PMID:26601737 abstract-only",
+        "PMID:37003099 abstract-only"
+      ],
+      "wiki_created": [
+        "diseases/als-amyotrophic-lateral-sclerosis",
+        "concepts/tdp-43-pathology",
+        "concepts/cryptic-exon",
+        "concepts/ran-translation",
+        "concepts/dipeptide-repeat-proteins"
+      ],
+      "wiki_revised": [
+        "concepts/excitotoxicity (rev2->rev3)"
+      ],
+      "graph_update": "277 nodes+5=282 nodes; 1617 edges+20=1637 edges",
+      "unresolved_questions": [
+        "Q-als-01 (高): TDP-43 聚集是否先于核清除还是后果？",
+        "Q-als-02 (高): DPR 对脊髓运动神经元是直接还是间接毒性？",
+        "Q-als-03 (中): DPR 与 TDP-43 聚集的因果时序？",
+        "Q-als-04 (中): tofersen 疗效差异的机制：NfL 降低但 ALSFRS-R 不改善？"
+      ],
+      "next_suggested_topics": [
+        "活性氧（ROS）与氧化应激——神经元抗氧化系统",
+        "核质转运（nucleocytoplasmic transport）——C9orf72/DPR的毒性机制深化",
+        "FlyWire 果蝇全脑连接组——Connectomics脊柱9",
+        "MICrONS小鼠皮层柱连接组",
+        "空间转录组学"
+      ],
+      "knowledge_base_date": "2026-09-11",
+      "system_clock_date": "2026-06-24",
+      "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-11（第141篇ALS文章）"
+    },
+    {
+      "date": "2026-09-12",
+      "article_number": 142,
+      "title": "突触的自组装奥秘：液-液相分离如何构建突触前储备库与突触后密度",
+      "core_question": "液-液相分离（LLPS）如何在突触前端（突触素液相捕获囊泡储备库）和突触后端（PSD-95/SynGAP 凝聚相组织 PSD）实现突触结构的自组装，以及这一物理框架如何统一解释 LTP 的 Ca²⁺→CaMKII→SynGAP 逸散→AMPAR 插入机制与 GluN2B→GluN2A 发育切换对突触可塑性的物理门控？",
+      "layer": "molecular/synaptic/cellular",
+      "topic_tags": [
+        "liquid-liquid-phase-separation",
+        "LLPS",
+        "突触素",
+        "synapsin",
+        "IDR",
+        "intrinsically disordered region",
+        "postsynaptic-density",
+        "PSD",
+        "PSD-95",
+        "SynGAP",
+        "LTP",
+        "CaMKII",
+        "GluN2B",
+        "GluN2A",
+        "critical period",
+        "关键期",
+        "相变",
+        "phase transition",
+        "AMPAR",
+        "囊泡储备库",
+        "FRAP",
+        "Milovanovic 2018",
+        "membrane-less condensate"
+      ],
+      "main_sources": [
+        "PMC6191856 (PMID:29976799) OPEN",
+        "PMID:27565345 abstract-only",
+        "PMID:30078712 abstract-only",
+        "PMID:41405989 abstract-only",
+        "PMID:34375719 abstract-only",
+        "PMID:36671389 abstract-only",
+        "PMID:30599311 abstract-only",
+        "PMID:37261953 abstract-only"
+      ],
+      "wiki_created": [
+        "concepts/liquid-liquid-phase-separation",
+        "concepts/postsynaptic-density",
+        "neurons/synapsin"
+      ],
+      "wiki_revised": [
+        "concepts/ltp (rev11->rev12)",
+        "concepts/tdp-43-pathology (rev1->rev2)"
+      ],
+      "graph_update": "282 nodes+3=285 nodes; 1637 edges+13=1650 edges",
+      "unresolved_questions": [
+        "Q-llps-01 (中): 体外 LLPS 液态特性是否在体内神经元中真实存在（还是更接近凝胶/固态）？",
+        "Q-llps-02 (中): 活体神经元中 LLPS 成像的技术限制——何时能直接看到？",
+        "Q-psd-01 (高): SynGAP 从 PSD 凝聚相逸散 vs CaMKII 直接磷酸化 AMPAR，哪个是 LTP 早期阶段 AMPAR 插入的主要驱动？",
+        "Q-psd-02 (中): GluN2B→GluN2A 切换对 PSD 物理态（液态→固态）影响的体内实时证据？",
+        "Q-synapsin-01 (中): 突触素液相组成在不同突触类型和脑区是否有实质差异？"
+      ],
+      "knowledge_base_date": "2026-09-12",
+      "system_clock_date": "2026-06-24",
+      "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-12（第142篇液-液相分离·突触前后自组装）"
+    },
+    {
+      "date": "2026-09-13",
+      "article_number": 143,
+      "title": "MICrONS：当五亿突触的接线图遇见活体神经元的功能地图",
+      "core_question": "MICrONS项目如何通过将75,000个神经元的活体钙成像功能记录与包含5.23亿突触的电子显微镜三维重建精确配准，揭示小鼠视觉皮层中'同类相连'的普遍布线规则、抑制性神经元亚型差异化隔室靶向特异性，以及功能数字孪生如何桥接结构连接组与AI基础模型？",
+      "layer": "methods/microcircuit/brain-region/whole-brain-network",
+      "topic_tags": [
+        "MICrONS",
+        "functional connectomics",
+        "功能连接组",
+        "like-to-like connectivity",
+        "同类相连",
+        "inhibitory specificity",
+        "抑制性特异性",
+        "PeriTC",
+        "DistTC",
+        "InhTC",
+        "去抑制专家",
+        "disinhibitory specialist",
+        "L5 ET neurons",
+        "functional digital twin",
+        "foundation model",
+        "视觉皮层",
+        "小鼠",
+        "电子显微镜",
+        "钙成像",
+        "ssEM"
+      ],
+      "main_sources": [
+        "PMID:40205214/PMC11981939 OPEN",
+        "PMC11981947 OPEN",
+        "PMID:40205209/PMC11981935 OPEN",
+        "PMC12321573 OPEN",
+        "microns-explorer.org (official)"
+      ],
+      "wiki_created": [
+        "concepts/inhibitory-compartmental-targeting"
+      ],
+      "wiki_revised": [
+        "concepts/like-to-like-connectivity (rev1->rev2, emerging/medium->mainstream/high)",
+        "methods/connectomics (rev2->rev3)",
+        "circuits/cortical-canonical-microcircuit (rev1->rev2)"
+      ],
+      "graph_update": "285 nodes+1=286 nodes; 1649 edges+11=1660 edges",
+      "unresolved_questions": [
+        "Q-ltl-01 (高): like-to-like是否适用于联合皮层",
+        "Q-ltl-02 (高): like-to-like的因果机制（Hebbian/分子亲和/修剪）",
+        "Q-ltl-03 (高): like-to-like是发育终态还是学习记录（视觉剥夺实验）",
+        "Q-ict-01 (高): 20个运动组跨物种保守性",
+        "Q-ict-02 (高): InhTC-peri与行为状态的关系（光遗传验证）"
+      ],
+      "next_suggested_topics": [
+        "活性氧（ROS）与氧化应激——神经元抗氧化系统（分子/细胞层级，填补前几篇疾病主题的分子背景）",
+        "核质转运（nucleocytoplasmic transport）——ALS/TDP-43毒性机制深化",
+        "空间转录组学——细胞类型空间分布与连接组学整合（methods层级延续MICrONS主题）",
+        "MICrONS数字孪生/AI神经科学基础模型——第12条路线（人脑与AI比较）",
+        "第144篇随机漫步：皮层外的布线逻辑——小脑或海马的连接组学"
+      ],
+      "knowledge_base_date": "2026-09-13",
+      "system_clock_date": "2026-06-24",
+      "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-13（第143篇MICrONS文章）"
+    },
+    {
+      "date": "2026-09-16",
+      "article_number": 146,
+      "title": "给细胞贴上地址标签：MERFISH 空间转录组学如何绘制全脑 5000+ 细胞类型的精确版图",
+      "core_question": "空间转录组学（以 MERFISH 为核心技术）如何在保留细胞解剖位置的前提下，在全脑尺度上同时测量千余个基因的表达，从而揭示小鼠全脑 5000+ 转录组细胞类型的空间分布规律——包括背腹侧分化原则、空间模块的非解剖边界以及神经元亚型的连续梯度——并为连接组学、疾病研究和跨尺度神经科学整合提供分子地基？",
+      "layer": "methods/molecular/cellular/brain-region",
+      "topic_tags": [
+        "空间转录组学",
+        "MERFISH",
+        "Allen Brain Cell Atlas",
+        "转录组细胞类型",
+        "纠错编码",
+        "汉明距离",
+        "序贯成像",
+        "背腹侧分化",
+        "空间模块",
+        "细胞类型梯度",
+        "IT神经元",
+        "转录因子组合码",
+        "Yao 2023",
+        "Zhang 2023",
+        "Allen Institute",
+        "全脑细胞图谱",
+        "scRNA-seq互补",
+        "老化空间特异性"
+      ],
+      "main_sources": [
+        "PMC4662681 (PMID:25858977) OPEN",
+        "PMC8494645 (PMID:34616063) OPEN",
+        "PMC10719114 (PMID:38092916) OPEN",
+        "PMC10719103 (PMID:38092912) OPEN",
+        "PMC10024607 (PMID:36580914) OPEN",
+        "Allen Brain Cell Atlas (brain-map.org) OFFICIAL"
+      ],
+      "wiki_created": [
+        "methods/spatial-transcriptomics"
+      ],
+      "wiki_revised": [
+        "methods/single-cell-rna-seq (rev1->rev2)",
+        "concepts/transcriptomic-cell-types (rev1->rev2)",
+        "methods/connectomics (rev3->rev4)"
+      ],
+      "graph_update": "287 nodes+2=289 nodes; 1669 edges+16=1685 edges",
+      "unresolved_questions": [
+        "Q-spatial-cell-type-boundary (高): 5322簇边界依赖聚类参数，何种分辨率对应真实功能细胞类型？",
+        "Q-spatial-human-brain (高): 人类全脑MERFISH的技术障碍何时能克服？小鼠发现的人类适用性？",
+        "Q-spatial-functional-correspondence (高): 转录组细胞类型与功能细胞类型的对应关系——MICrONS × Allen整合是关键"
+      ],
+      "next_suggested_topics": [
+        "活性氧（ROS）与氧化应激——神经元抗氧化系统（分子/细胞层级，填补神经退行疾病系列的分子背景）",
+        "核质转运（nucleocytoplasmic transport）——深化ALS/TDP-43毒性机制",
+        "果蝇全脑连接组（FlyWire Dorkenwald 2024）——Connectomics脊柱第9条，轮换回methods/whole-brain-network层级",
+        "MERFISH x MICrONS整合——结构连接+分子身份的三位一体（AI/比较路线12）",
+        "发育期空间转录组——神经迁移与细胞类型命运决定的时空图谱"
+      ],
+      "knowledge_base_date": "2026-09-16",
+      "system_clock_date": "2026-06-24",
+      "date_note": "系统时钟显示2026-06-24 UTC+8，使用知识库连续性日期2026-09-16（第146篇空间转录组学文章）"
+    },
+    {
+      "date": "2026-09-17",
+      "title": "大脑内守军的两张面孔：小胶质细胞的稳态监视与DAM转化——当TREM2信号决定神经退行性疾病的命运",
+      "filename": "2026-09-17-neuroinflammation-microglia-dam-trem2.md",
+      "article_number": 147,
+      "wiki_pages_created": [
+        "wiki/concepts/neuroinflammation.md",
+        "wiki/concepts/disease-associated-microglia.md",
+        "wiki/neurons/trem2.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/microglia.md (rev1->rev2)",
+        "wiki/diseases/alzheimers-disease.md (rev6->rev7)"
+      ],
+      "core_question": "小胶质细胞在神经退行性疾病中是保护者还是破坏者？DAM两步激活（Step1 TREM2非依赖/Step2 TREM2依赖）、TREM2-APOE轴及INVOKE-2临床失败如何改变对神经炎症干预时间窗口的认识",
+      "layer": [
+        "molecular",
+        "cellular",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱11（疾病作为窗口）+ 课程脊柱1（神经元如何工作，胶质细胞角色）",
+      "wiki_created": [
+        "concepts/neuroinflammation",
+        "concepts/disease-associated-microglia",
+        "neurons/trem2"
+      ],
+      "wiki_revised": [
+        "neurons/microglia (rev1->rev2)",
+        "diseases/alzheimers-disease (rev6->rev7)"
+      ],
+      "graph_update": "289 nodes+3=292 nodes; 1685 edges+16=1701 edges",
+      "knowledge_base_date": "2026-09-17",
+      "system_clock_date": "2026-06-25",
+      "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-17（第147篇神经炎症/小胶质细胞/DAM/TREM2文章）"
+    }
+  ]
+}

@@ -1,6 +1,66 @@
 # 未解问题追踪
 
-*最后更新：2026-09-16*
+*最后更新：2026-09-17*
+
+---
+
+## 2026-09-17 新增（来自"大脑内守军的两张面孔：小胶质细胞的稳态监视与DAM转化"文章 #147）
+
+### Q-dam-01（高优先级）：TREM2激活的保护→有害翻转点在AD时间轴何处？
+
+- **关联 wiki**：[[trem2]]、[[disease-associated-microglia]]、[[alzheimers-disease]]
+- **来源文章**：2026-09-17-neuroinflammation-microglia-dam-trem2
+- **问题**：DAM转化的TREM2信号在阿尔茨海默病早期具有明显保护功能（围堵斑块、吞噬Aβ），但持续激活的TREM2→APOE→MGnD通路会导致稳态基因丢失并可能转为神经毒性。这一保护→有害的翻转点究竟发生在AD进展的哪个阶段（Braak stage？Aβ负荷阈值？神经原纤维缠结扩散到皮层之前/之后？）？目前无法从患者数据中直接测量"小胶质细胞模式"的时间变化，5XFAD模型的人类转化性有待验证。
+- **关键实验**：(1) 纵向PET + CSF生物标志物 + 小胶质细胞激活标志物（TSPO-PET、sTREM2）在前驱MCI→AD转化期的对应分析；(2) 使用TREM2-fLuc小鼠的体内实时TREM2活性跟踪；(3) 尸检患者不同Braak stage的snRNA-seq定量DAM比例
+- **当前证据状态**：小鼠模型保护性：高；人类时间窗口：中（间接证据）；INVOKE-2阴性结果支持"临床期已过最优窗口"的假说
+
+### Q-dam-02（高优先级）：TREM2激动治疗的最优时间窗口——前驱MCI期vs症状前期？
+
+- **关联 wiki**：[[trem2]]、[[disease-associated-microglia]]、[[alzheimers-disease]]
+- **来源文章**：2026-09-17-neuroinflammation-microglia-dam-trem2
+- **问题**：INVOKE-2（AL002c）在早期AD（CDR-SB 0.5-1）阶段阴性。假设TREM2激动存在最优治疗窗口，该窗口是否在症状前（amyloid-positive但CDR-SB=0）阶段？还是更早的家族性高风险期？目前无症状前TREM2激动剂试验数据。
+- **关键实验**：(1) 在DIAN或ADCS预防登记的无症状APOE4携带者/家族性AD突变携带者中进行TREM2激动剂Phase 2预防试验；(2) 头对头比较AL002c在不同CDR-SB分层（0、0.5、1.0、2.0）的亚组分析；(3) 与抗Aβ联合治疗（lecanemab+AL002c）的序贯或同步试验
+- **当前证据状态**：INVOKE-2临床CDR-SB期阴性：高；症状前期是否有效：未知；联合治疗假说：理论支持中
+
+### Q-dam-03（中优先级）：DAM在人类神经退行性疾病中的保守性？scRNA-seq的小鼠→人类转化
+
+- **关联 wiki**：[[disease-associated-microglia]]、[[microglia]]、[[als-amyotrophic-lateral-sclerosis]]
+- **来源文章**：2026-09-17-neuroinflammation-microglia-dam-trem2
+- **问题**：DAM转录特征首先在5XFAD小鼠scRNA-seq中被发现（Keren-Shaul 2017）。在人类AD、ALS患者脑组织的snRNA-seq中确实发现了部分DAM标记基因的上调（LPL、SPP1等），但转录特征并不完全重叠（人类DAM特征更异质）。人类DAM的功能是否与小鼠DAM相同？APOE4携带者的DAM转化程度是否更深/更有害？
+- **关键实验**：(1) 大规模人类AD/ALS脑组织snRNA-seq（n>100例，按Braak/CERAD分级分层）的系统小胶质细胞分型；(2) APOE4 vs APOE3携带者的微胶质细胞转录组比较；(3) 小鼠DAM基因敲除+人类DAM候选驱动基因过表达的"人源化"小鼠模型
+- **当前证据状态**：小鼠DAM特征：高；人类AD中部分DAM特征：中高；小鼠→人类功能保守性：中
+
+### Q-dam-04（中优先级）：APOE4携带者的TREM2-APOE轴激活幅度是否高于APOE3/APOE2？
+
+- **关联 wiki**：[[trem2]]、[[apoe4]]、[[disease-associated-microglia]]
+- **来源文章**：2026-09-17-neuroinflammation-microglia-dam-trem2
+- **问题**：TREM2识别APOE蛋白作为配体，APOE4的受体结合亲和力可能与APOE3/APOE2不同（结构差异在受体结合域）。同时，TREM2激活后通过自分泌分泌APOE，形成正反馈环。如果APOE4携带者的TREM2-APOE环路增益更高，则MGnD有害状态更容易被触发，这可能部分解释APOE4的AD风险放大机制。目前无直接对比APOE4 vs APOE3小胶质细胞中TREM2信号幅度的体内实验。
+- **关键实验**：(1) APOE4 knock-in vs APOE3 knock-in小鼠的小胶质细胞TREM2信号定量；(2) 人iPSC来源APOE4 vs APOE3小胶质细胞的TREM2激动后转录组比较；(3) APOE基因型分层的INVOKE-2亚组分析（如果数据可及）
+- **当前证据状态**：APOE4 vs APOE3结构差异：高；TREM2-APOE4结合亲和力差异：中；体内功能差异：缺乏直接证据
+
+### Q-neuroinflamm-01（高优先级）：M1/M2极化范式的替代框架——DAM的层级分类够用吗？
+
+- **关联 wiki**：[[neuroinflammation]]、[[disease-associated-microglia]]、[[microglia]]
+- **来源文章**：2026-09-17-neuroinflammation-microglia-dam-trem2
+- **问题**：经典M1/M2极化范式（促炎/抗炎）在2016年后被学界基本放弃，原因是scRNA-seq显示小胶质细胞激活态存在连续谱系，远不止两种。DAM/MGnD/PAM（白质相关小胶质细胞）等多个命名状态相互交叠，缺乏统一命名规则和功能对应标准。目前是否存在能够统一各激活状态的功能分类框架？"DAM"作为整体概念是否有足够功能特异性？
+- **关键实验**：(1) 多疾病（AD/ALS/MS/PD）统一小胶质细胞激活态的大规模meta分析snRNA-seq；(2) 单细胞空间转录组追踪斑块周围小胶质细胞的激活梯度（距斑块距离→转录态关系）；(3) 工程化微胶质细胞激活态的功能测试（特定激活态下的吞噬/炎症/营养支持能力对比）
+- **当前证据状态**：M1/M2过时：高；DAM两步分型的描述性准确性：高（小鼠）/中（人类）；统一功能框架：缺乏
+
+### Q-neuroinflamm-02（高优先级）：神经炎症是AD的原因还是结果？——Aβ→炎症 vs 炎症→Aβ的因果方向
+
+- **关联 wiki**：[[neuroinflammation]]、[[alzheimers-disease]]、[[microglia]]
+- **来源文章**：2026-09-17-neuroinflammation-microglia-dam-trem2
+- **问题**：amyloid cascade假说认为Aβ是因，神经炎症是果（Aβ→炎症→tau→神经元死亡）。但也有证据支持炎症可以直接促进Aβ和tau病理（IL-1β→tau磷酸化；TLR4激活→APP切割；感染→加速AD病理）。GWAS AD风险基因富集于免疫/炎症通路（TREM2、CR1、BIN1、CLU等）的发现支持免疫功能是原发因素。实际情况可能是双向循环：Aβ触发炎症，炎症加速Aβ和tau的病理化。
+- **关键实验**：(1) 单基因AD（PSEN1突变）患者发病前的炎症标志物时间序列（症状前20年开始）；(2) 在APP/PS1小鼠中预防性清除小胶质细胞（PLX3397）对Aβ和tau进展的影响；(3) 系统性感染/炎症触发AD病理的前瞻性人群队列研究
+- **当前证据状态**：Aβ触发炎症：高；炎症加速Aβ/tau：中高（动物）/中（人类）；感染→AD风险：emerging
+
+### Q-neuroinflamm-03（中优先级）：ALS中DAM/MGnD样小胶质细胞与运动神经元死亡的因果关系？
+
+- **关联 wiki**：[[neuroinflammation]]、[[als-amyotrophic-lateral-sclerosis]]、[[disease-associated-microglia]]
+- **来源文章**：2026-09-17-neuroinflammation-microglia-dam-trem2
+- **问题**：SOD1 G93A小鼠模型中记录到DAM样小胶质细胞在症状前期出现（Krasemann 2017）。人类ALS脊髓的小胶质细胞也显示部分DAM签名。但是，小胶质细胞激活是运动神经元死亡的原因、后果还是旁观者？条件性删除ALS小鼠小胶质细胞的实验结果不一致。此外，人类ALS小胶质细胞转录特征与小鼠SOD1模型的相关性仅部分（TDP-43型ALS可能有更多炎症成分）。
+- **关键实验**：(1) ALS患者疾病进程中脊髓液的连续小胶质细胞标志物测量（sTREM2等）；(2) TDP-43 ALS模型中DAM样小胶质细胞的空间单细胞组学（哪些节段的哪些细胞最先转变？）；(3) 小胶质细胞特异性TDP-43条件敲除vs过表达对运动神经元存活的影响
+- **当前证据状态**：ALS中DAM样签名存在：中高（小鼠）/中（人类）；因果方向：不确定；治疗相关性：speculative
 
 ---
 

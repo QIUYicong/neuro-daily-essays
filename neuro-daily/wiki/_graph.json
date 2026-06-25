@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-16",
-  "node_count": 289,
-  "edge_count": 1685,
+  "updated": "2026-09-17",
+  "node_count": 292,
+  "edge_count": 1701,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2643,6 +2643,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/methods/spatial-transcriptomics.md"
+    },
+    {
+      "id": "neuroinflammation",
+      "title": "神经炎症",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/neuroinflammation.md"
+    },
+    {
+      "id": "disease-associated-microglia",
+      "title": "疾病相关微胶质细胞（DAM）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/disease-associated-microglia.md"
+    },
+    {
+      "id": "trem2",
+      "title": "TREM2（髓系细胞触发受体2）",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/neurons/trem2.md"
     }
   ],
   "edges": [
@@ -12114,6 +12141,102 @@
       "to": "parkinsons-disease",
       "type": "related",
       "note": "疾病应用：多巴胺能神经元亚型的空间分布"
+    },
+    {
+      "from": "microglia",
+      "to": "neuroinflammation",
+      "type": "mechanism-of",
+      "note": "小胶质细胞是神经炎症的核心效应细胞"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "alzheimers-disease",
+      "type": "mechanism-of",
+      "note": "TREM2-DAM轴是AD第三条核心通路；Aβ触发小胶质细胞激活"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "als-amyotrophic-lateral-sclerosis",
+      "type": "mechanism-of",
+      "note": "SOD1突变→微胶质激活→DAM转化；TREM2-APOE轴在ALS中记录"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "parkinsons-disease",
+      "type": "mechanism-of",
+      "note": "α-syn触发微胶质激活；PD中BAMs是抗原呈递中心"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "excitotoxicity",
+      "type": "regulates",
+      "note": "神经炎症→谷氨酸过量释放→突触外NMDAR→兴奋毒性；两者相互放大"
+    },
+    {
+      "from": "neuroinflammation",
+      "to": "mitochondrial-dysfunction",
+      "type": "regulates",
+      "note": "神经炎症→ROS→线粒体损伤；线粒体DAMPs反向触发炎症"
+    },
+    {
+      "from": "complement-cascade-cns",
+      "to": "neuroinflammation",
+      "type": "supports",
+      "note": "补体激活是神经炎症启动的分子机制之一"
+    },
+    {
+      "from": "disease-associated-microglia",
+      "to": "neuroinflammation",
+      "type": "is-a",
+      "note": "DAM是神经退行性疾病神经炎症中的特定小胶质细胞状态"
+    },
+    {
+      "from": "microglia",
+      "to": "disease-associated-microglia",
+      "type": "mechanism-of",
+      "note": "小胶质细胞通过两步激活转化为DAM（Step1 TREM2非依赖，Step2 TREM2依赖）"
+    },
+    {
+      "from": "trem2",
+      "to": "disease-associated-microglia",
+      "type": "regulates",
+      "note": "TREM2依赖的Step 2激活是完整DAM的分子开关"
+    },
+    {
+      "from": "disease-associated-microglia",
+      "to": "alzheimers-disease",
+      "type": "mechanism-of",
+      "note": "DAM在AD斑块周围形成保护性屏障，TREM2缺失→屏障消失→神经元损伤增重"
+    },
+    {
+      "from": "disease-associated-microglia",
+      "to": "als-amyotrophic-lateral-sclerosis",
+      "type": "related",
+      "note": "ALS（SOD1模型）和ALS患者脊髓中发现DAM样签名（Keren-Shaul 2017）"
+    },
+    {
+      "from": "trem2",
+      "to": "microglia",
+      "type": "part-of",
+      "note": "TREM2是小胶质细胞表面的关键受体，稳态低表达，DAM激活后高表达"
+    },
+    {
+      "from": "trem2",
+      "to": "alzheimers-disease",
+      "type": "supports",
+      "note": "TREM2 R47H变异是AD遗传风险因子（OR 2.92-4.5）；TREM2功能性清除Aβ是保护机制"
+    },
+    {
+      "from": "trem2",
+      "to": "neuroinflammation",
+      "type": "regulates",
+      "note": "TREM2→DAP12→PI3K→Akt→mTOR；TREM2→APOE自分泌→MGnD稳态丢失"
+    },
+    {
+      "from": "trem2",
+      "to": "synaptic-pruning",
+      "type": "related",
+      "note": "TREM2识别PS参与发育期突触剪枝（与DAM配体重叠）"
     }
   ],
   "dangling_references": [

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16",
+  "last_updated": "2026-09-17",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6444,7 +6444,10 @@
         "dLGN pruning failure in C1q/C3 KO",
         "glaucoma C1q reactivation"
       ],
-      "full_text": false
+      "full_text": false,
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ]
     },
     {
       "pmid": "22632727",
@@ -6461,7 +6464,10 @@
         "CR3/C3 dependence",
         "TTX activity-dependence"
       ],
-      "full_text": true
+      "full_text": true,
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ]
     },
     {
       "pmid": "22715882",
@@ -6494,7 +6500,10 @@
         "C4 in synaptic pruning",
         "dendritic spine loss in C4 knockin mice"
       ],
-      "full_text": true
+      "full_text": true,
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ]
     },
     {
       "pmid": "27033548",
@@ -6546,7 +6555,10 @@
         "schizophrenia/ASD/epilepsy connections",
         "sex differences"
       ],
-      "full_text": true
+      "full_text": true,
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ]
     },
     {
       "pmid": "31089192",
@@ -9048,6 +9060,138 @@
         "数据可视化",
         "官方来源"
       ]
+    },
+    {
+      "pmid": "24316888",
+      "pmcid": "PMC4066672",
+      "doi": "10.1038/ni.2774",
+      "title": "Modulation of disease progression in an experimental model of ALS by microglia",
+      "authors_short": "Butovsky O, Jedrychowski MP, Moore CS, et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2014,
+      "first_used": "2026-09-17",
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ],
+      "aspects_covered": [
+        "稳态小胶质细胞分子身份：P2RY12、TMEM119、CX3CR1签名基因",
+        "TGF-β信号维持稳态程序",
+        "炎症激活下稳态签名基因统一下调"
+      ],
+      "open_access": "full_text"
+    },
+    {
+      "pmid": "28602351",
+      "pmcid": "PMC5533392",
+      "doi": "10.1016/j.cell.2017.05.018",
+      "title": "A Unique Microglia Type Associated with Restricting Development of Alzheimer's Disease",
+      "authors_short": "Keren-Shaul H, Spinrad A, Weiner A, et al.",
+      "journal": "Cell",
+      "year": 2017,
+      "first_used": "2026-09-17",
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ],
+      "aspects_covered": [
+        "首次发现DAM（疾病相关微胶质细胞）——scRNA-seq在5XFAD小鼠中",
+        "DAM两步激活：Step1 TREM2非依赖（稳态基因↓）、Step2 TREM2依赖（LPL↑/CTSD↑）",
+        "DAM在Aβ斑块周围形成物理屏障",
+        "TREM2-KO小鼠缺失Step 2 DAM转化"
+      ],
+      "open_access": "full_text"
+    },
+    {
+      "pmid": "28930663",
+      "pmcid": "PMC5719893",
+      "doi": "10.1016/j.immuni.2017.08.008",
+      "title": "The TREM2-APOE Pathway Drives the Transcriptional Decline of Neuroprotective Microglia in Five Models of Alzheimer's and ALS",
+      "authors_short": "Krasemann S, Madore C, Cialic R, et al.",
+      "journal": "Immunity",
+      "year": 2017,
+      "first_used": "2026-09-17",
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ],
+      "aspects_covered": [
+        "TREM2→APOE自分泌→MGnD（神经退行性）状态的轴",
+        "APOE抑制稳态转录因子MEF2A/MAFB/SMAD3→miR-155→稳态基因丢失",
+        "CX3CR1-Cre APOE条件敲除在SOD1+APP-PS1中恢复稳态并减少神经元死亡"
+      ],
+      "open_access": "full_text"
+    },
+    {
+      "pmid": "23150934",
+      "pmcid": "PMC3631573",
+      "doi": "10.1056/NEJMoa1211851",
+      "title": "Variant of TREM2 associated with the risk of Alzheimer's disease",
+      "authors_short": "Guerreiro R, Wojtas A, Bras J, et al.",
+      "journal": "New England Journal of Medicine",
+      "year": 2013,
+      "first_used": "2026-09-17",
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ],
+      "aspects_covered": [
+        "TREM2 R47H变异→AD风险OR≈4.5×（外显子测序7000+样本）",
+        "确立TREM2为AD第二强遗传风险因子（仅次于APOE4）"
+      ],
+      "open_access": "full_text"
+    },
+    {
+      "pmid": "23150908",
+      "pmcid": "PMC3677583",
+      "doi": "10.1056/NEJMoa1215487",
+      "title": "TREM2 variants and Alzheimer's disease",
+      "authors_short": "Jonsson T, Stefansson H, Steinberg S, et al.",
+      "journal": "New England Journal of Medicine",
+      "year": 2013,
+      "first_used": "2026-09-17",
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ],
+      "aspects_covered": [
+        "冰岛deCODE队列：TREM2 R47H→AD风险OR≈2.92",
+        "独立复制TREM2-AD遗传关联"
+      ],
+      "open_access": "full_text"
+    },
+    {
+      "pmid": "41787076",
+      "pmcid": null,
+      "doi": "10.1056/NEJMoa2501767",
+      "title": "TREM2 Agonist in Early Alzheimer's Disease — The INVOKE-2 Trial",
+      "authors_short": "Rosenthal A, Rooney B, Mancini M, et al.",
+      "journal": "New England Journal of Medicine",
+      "year": 2026,
+      "first_used": "2026-09-17",
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ],
+      "aspects_covered": [
+        "INVOKE-2 Phase 2临床试验：TREM2激动抗体AL002c在早期AD中阴性（CDR-SB主要终点未达到）",
+        "381人，早期AD（CDR-SB 0.5-1），48-96周随访",
+        "CSF生物标志物显示微胶质细胞活化（sTREM2↑）但无认知保护"
+      ],
+      "open_access": "abstract_only"
+    },
+    {
+      "pmid": "31042697",
+      "pmcid": "PMC6610502",
+      "doi": "10.1016/j.neuron.2019.04.003",
+      "title": "Microglia and C1q restrict cortical dendritic spine pruning in 5xFAD mice",
+      "authors_short": "Shi Q, Chowdhury S, Ma R, et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2019,
+      "first_used": "2026-09-17",
+      "used_in_articles": [
+        "2026-09-17-neuroinflammation-microglia-dam-trem2.md"
+      ],
+      "aspects_covered": [
+        "AD小鼠模型1月龄C1q在突触上病理性重激活（早于斑块出现）",
+        "抗C1q抗体干预→突触保护",
+        "Aβ低聚体触发成年突触C1q重新沉积的机制"
+      ],
+      "open_access": "full_text"
     }
   ],
   "total_sources": 525,
