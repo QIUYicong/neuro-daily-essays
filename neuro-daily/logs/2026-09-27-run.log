@@ -1,0 +1,116 @@
+# 运行日志：2026-09-27
+
+**知识库日期**：2026-09-27
+**系统时钟**：2026-06-26（UTC+8）
+**文章编号**：#157
+**运行分支**：main
+
+---
+
+## 选题决策
+
+- **选题来源**：topic_ledger #157 推荐"成瘾的习惯化神经机制"（上篇 #156 的自然延续）
+- **选题理由**：#156 建立了习惯 vs 目标导向双系统框架（DLS/DMS），#157 以成瘾为切入点，展示习惯化的病理性极端，同时引入激励敏化（wanting/liking 解耦）和 ΔFosB 分子棘轮，覆盖 curriculum spine #11（成瘾作为理解大脑的窗口）
+
+---
+
+## 文献检索
+
+### 搜索词与数据源
+
+| 数据源 | 搜索词 | 结果数 |
+|--------|--------|--------|
+| PubMed | "addiction habit dorsal striatum Everitt Robbins" | ~120 |
+| PubMed | "incentive salience sensitization Berridge Robinson dopamine" | ~85 |
+| PubMed | "DeltaFosB accumulation addiction NAc Nestler" | ~60 |
+| PubMed | "incubation of craving cocaine withdrawal BDNF" | ~35 |
+| PMC | PMCID 直接检索（开放全文） | 4篇全文 |
+
+### 候选文献（共审阅摘要 18 篇，采用 10 篇）
+
+#### 采用文献（10 篇）
+
+| PMID | 标题（简） | 采用理由 | 访问级别 |
+|------|---------|---------|---------|
+| 26816013 | Volkow & Koob 2016, PNAS — 神经生物学进展 | 三阶段模型权威综述，Koob-Volkow 框架 | PMC全文 |
+| 16251991 | Everitt & Robbins 2005, Nature Neuroscience — 药物成瘾 | 腹侧→背侧纹状体迁移模型奠基论文 | 摘要 |
+| 21084602 | Zapata et al. 2010, J Neuroscience — 可卡因习惯化 | 直接证据：延长训练→DLS依赖的习惯化 | PMC全文 |
+| 11572966 | Nestler et al. 2001, PNAS — ΔFosB | ΔFosB 分子棘轮奠基论文 | PMC全文 |
+| 8401595 | Berridge & Robinson 1993, Brain Research Reviews | 激励敏化理论原始论文 | 摘要 |
+| 12574402 | Grimm et al. 2003, J Neuroscience — 渴望孵化 | 渴望孵化+BDNF时间曲线直接证据 | PMC全文 |
+| 27977239 | Berridge & Robinson 2016, Psychopharmacology | wanting/liking 人类成瘾综述 | 摘要 |
+| 27475769 | Koob & Volkow 2016, Neuropsychopharmacology | 成瘾神经回路更新 | 摘要 |
+| 33955649 | Giuliano et al. 2021, Nature Comm — 习惯化预测成瘾 | 关键：习惯化内表型预测强迫性饮酒 | 摘要 |
+| 14750976 | Yin et al. 2004, Eur J Neuroscience — DLS | 复用自 #156，DLS 习惯化必要性 | 摘要 |
+
+#### 排除文献（8 篇）
+
+| 原因 | 数量 |
+|------|------|
+| 研究对象为非人灵长类，方法论限制过多 | 2 |
+| 结论被后续研究推翻或高度存疑 | 1 |
+| 与本期主题重叠度低（聚焦 PFC 而非纹状体）| 3 |
+| 无摘要/全文，无法核实结论 | 2 |
+
+---
+
+## 固结步骤（Wiki 页面）
+
+### 新建页面
+
+| 文件 | 标题 | 置信度 | 原因 |
+|------|------|--------|------|
+| wiki/diseases/addiction.md | 成瘾（物质使用障碍） | 高 | 文章核心主题，三层框架完整 |
+| wiki/concepts/deltafosb.md | ΔFosB（分子棘轮） | 高 | 文章新引入的分子机制 |
+
+### 修订页面
+
+| 文件 | 修订内容 | 前版本 | 新版本 |
+|------|---------|--------|--------|
+| wiki/concepts/habitual-behavior.md | 补充3条成瘾证据（Zapata 2010, DLS, Giuliano 2021），新增3个连接 [[addiction]][[deltafosb]][[incentive-salience]]，新增Q-addiction-01至opens_questions | rev1 | rev2 |
+| wiki/concepts/incentive-salience.md | 新增渴望孵化机制小节（BDNF时间曲线、PET人类证据），补充3条证据，新增3个连接 [[addiction]][[deltafosb]][[habitual-behavior]]，新增Q-addiction-03至opens_questions | rev1 | rev2 |
+
+---
+
+## 图谱更新
+
+- **节点增加**：+2（addiction, deltafosb）
+- **边增加**：+12
+- **最终计数**：303 节点，1790 边
+
+---
+
+## 状态文件更新
+
+| 文件 | 操作 |
+|------|------|
+| state/topic_ledger.json | 追加 #157 条目 |
+| state/unresolved_questions.md | 追加 Q-addiction-01/02/03 |
+| state/source_registry.json | 追加 article #157 的来源记录（7 新增 + 3 复用） |
+| state/monthly_synthesis.md | 追加 #157 一行摘要 |
+| wiki/CHANGELOG.md | 追加 2026-09-27 条目 |
+| wiki/index.md | 更新页面总数（300），新增 addiction 和 deltafosb 条目 |
+
+---
+
+## 争议与矛盾
+
+- **无新争议登记**：本期内容与现有知识库无实质矛盾
+- **限制说明**：Nestler 2001 转基因证据适用性限制已在 deltafosb.md 的"限制与不确定性"节中注明；Giuliano 2021 仅为摘要级别，全文未读，在evidence table置信度标注为"中-高"
+
+---
+
+## 失败与限制
+
+- Everitt & Robbins 2005（PMID:16251991）为付费文章，仅摘要，内容引用基于摘要+Volkow 2016综述中的引用；已在源文件中标注 `open_access: false`
+- Berridge & Robinson 1993（PMID:8401595）原始论文已标注摘要级访问
+- Berridge & Robinson 2016（PMID:27977239）摘要级访问
+
+---
+
+## 分支/提交/推送状态
+
+- **分支**：main
+- **提交**：Add neuro daily article + wiki consolidation for 2026-09-27
+- **推送**：git push -u origin main
+- **结果**：（待更新）

@@ -1652,3 +1652,18 @@
 **修订 wiki 页（1个）**：systems/basal-ganglia（rev3→rev4，新增DMS/DLS双系统功能分化小节）
 **图谱**：301→303 节点，1778→1791 边（+2 节点，+13 边）
 **新增未解问题**：Q-habit-01（中：认知习惯与运动习惯是否共享 DLS/IL 机制）、Q-habit-02（中：高认知负荷/睡眠剥夺下习惯系统主导的神经机制）、Q-gd-01（中：高负荷下 model-based 容量变化的三候选机制）
+
+---
+
+### 2026-09-27（#157）：成瘾大脑的三层陷阱——从欲望、习惯到强迫的神经轨迹
+
+**一句话**：成瘾是习惯系统被病理性招募的极端案例——腹侧纹状体（NAc/奖赏价值）→背侧纹状体（DLS/习惯）的控制权迁移；Berridge-Robinson激励敏化（wanting/liking解耦）；Koob-Volkow三阶段模型（狂欢→戒断负性情感→执念期待）；ΔFosB 分子棘轮在每次暴露后阶梯式蓄积、数周不降解，从转录层面固化成瘾记忆。
+
+**核心知识点**：Everitt-Robbins 2005/2016：成瘾=皮层→纹状体+腹侧→背侧纹状体双重控制权迁移；Zapata 2010：延长可卡因训练→DLS 依赖习惯化（结果贬值失效），DLS 失活→恢复目标导向（F=5.21，p=0.035）；Giuliano 2021：习惯化程度（结果贬值不敏感）预测后续惩罚抵抗性强迫酒精使用；Nestler 2001：ΔFosB=FosB截短变体，NAc+背侧纹状体中阶梯式蓄积数周；下游靶点GluR2↑/强啡肽↓/Cdk5↑/树突棘增生；Berridge 2016：多巴胺驱动wanting（趋近）而非liking（快感），6-OHDA耗竭→seeking消失但orofacial liking完整；激励敏化→wanting持续放大但liking受体下调；Grimm 2003 渴望孵化：戒断后30-60天复吸冲动峰值+BDNF延迟积累。
+
+**层级**：molecular / cellular / brain-region / behavior / cognition / disease
+
+**新建 wiki 页（2个）**：diseases/addiction（established/high）、concepts/deltafosb（established/high）
+**修订 wiki 页（2个）**：concepts/habitual-behavior（rev1→rev2，成瘾习惯化证据）、concepts/incentive-salience（rev1→rev2，渴望孵化+人类PET证据）
+**图谱**：301→303 节点，1778→1790 边（+2 节点，+12 边）
+**新增未解问题**：Q-addiction-01（高：习惯化是否是成瘾必要条件？）、Q-addiction-02（高：内源性ΔFosB因果性证据）、Q-addiction-03（中：渴望孵化的饱和点/消退时间）

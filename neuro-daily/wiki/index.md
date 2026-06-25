@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-26（第156篇·自动驾驶的大脑：纹状体双系统如何在习惯与目标之间争夺行为控制权）· 主题页总数：**298**（新建2页：concepts/habitual-behavior、concepts/goal-directed-behavior；修订1页：systems/basal-ganglia rev3→rev4；新增 Q-habit-01/Q-habit-02/Q-gd-01；图谱303节点/1791边）
+> 最后更新：2026-09-27（第157篇·成瘾大脑的三层陷阱：从欲望、习惯到强迫的神经轨迹）· 主题页总数：**300**（新建2页：diseases/addiction、concepts/deltafosb；修订2页：concepts/habitual-behavior rev1→rev2、concepts/incentive-salience rev1→rev2；图谱303节点/1790边）
 
 ---
 
@@ -145,7 +145,8 @@
 - 🔵 [Actor-Critic架构（基底节）](concepts/actor-critic-brain.md) — VTA/SNc=TD误差δ广播；NAc/腹侧纹状体=Critic价值估计；背侧纹状体D1-MSN=Actor Go / D2-MSN=Actor No-Go；DA双向读出设计（D1兴奋/D2抑制）**[NEW 2026-07-12]**
 - 🟡 [分布式强化学习与多巴胺编码](concepts/distributional-rl-dopamine.md) — 不同VTA DA神经元以不对称RPE缩放编码奖励分布分位数；大脑早于AI独立实现分布式RL计算；Dabney 2020 小鼠VTA单细胞记录 **[NEW 2026-07-12]**
 - 🔵 [模型-基与模型-无强化学习（双系统）](concepts/model-based-model-free.md) — DMS支持MB（目标导向/灵活）；DLS支持MF（习惯性/快速）；结果贬值测试区分双系统；应激→从MB切换到MF；OCD/成瘾/抑郁的计算框架 **[NEW 2026-07-12]**
-- 🟢 [习惯行为](concepts/habitual-behavior.md) — S-R联结驱动、对结果当前价值不敏感的自动行为；神经基底为DLS+IL；随训练重复强化；IL主动抑制目标导向系统；计算等价model-free RL；黑质-纹状体DA必要 **[NEW 2026-09-26]**
+- 🟢 [习惯行为](concepts/habitual-behavior.md) — S-R联结驱动、对结果当前价值不敏感的自动行为；神经基底为DLS+IL；随训练重复强化；IL主动抑制目标导向系统；计算等价model-free RL；黑质-纹状体DA必要；**rev2新增**：成瘾中习惯系统病理性招募（Zapata 2010 DLS因果证据；Giuliano 2021 习惯化程度预测强迫性使用） **[NEW 2026-09-26 · 修订 rev1→rev2 2026-09-27]**
+- 🟢 [ΔFosB（分子棘轮）](concepts/deltafosb.md) — FosB截短剪接变体，缺少C端PEST降解域；在NAc和背侧纹状体MSN中随每次药物暴露阶梯式蓄积（数周不降解）；下游靶点：GluR2↑（增强谷氨酸响应）、强啡肽↓（减少DA负反馈）、Cdk5↑（驱动树突棘增生）；被称为"成熟大脑中最持久的非损毁性神经适应"；成瘾记忆的分子基础 **[NEW 2026-09-27]**
 - 🟢 [目标导向行为](concepts/goal-directed-behavior.md) — A-O联结驱动、对结果当前价值实时敏感的灵活行为；神经基底为DMS+PL；IL压制时潜伏于习惯之下；计算等价model-based RL；贬值后即时调整 **[NEW 2026-09-26]**
 
 - 🔵 [三方突触](concepts/tripartite-synapse.md) — Araque 1999 框架；突触前+突触后+星形胶质细胞 PAPs 三元功能单元；双向神经元-胶质细胞信号；LTP/LTD 的三方必要性因果证明（Henneberger 2010）**[NEW 2026-07-02]**
@@ -225,7 +226,7 @@
 - 🟢 [内源性阿片系统（Endogenous Opioid System）](concepts/endogenous-opioid-system.md) — μ/κ/δ三类受体（Gi/o→AC↓→cAMP↓→K⁺开放→超极化）；β-内啡肽（弓形核）/脑啡肽/强啡肽三类阿片肽；PAG-RVM-脊髓三级下行镇痛通路；[¹¹C]卡芬太尼PET活体直接测量；吗啡模拟内源性SIA（应激诱导镇痛）的分子底物 **[NEW 2026-08-03]**
 - 🟢 [Nocebo效应](concepts/nocebo-effect.md) — 负向期望→主观疼痛增强；CCK-A/B拮抗剂（丙谷胺）可阻断——与安慰剂阿片路径形成双路径分离；医源性nocebo（负面预期语言即增加术后疼痛）；开放标签安慰剂显示知情者仍可触发条件性镇痛 **[NEW 2026-08-03]**
 - 🟢 [内源性大麻素系统（Endocannabinoid System）](concepts/endocannabinoid-system.md) — 脑内最主要逆行突触调制系统；2-AG（DGLα合成/MAGL降解，全激动剂）和 AEA（NAPE-PLD合成/FAAH降解，TRPV1全激动剂）；CB1R Gβγ→Cav2.2（DSI短时程）+ Gαi→RIM1α（eCB-LTD长时程）双通路；CCK⁺ GABA 能中间神经元为主要靶点；杏仁核 AEA-FAAH 轴调控恐惧消退（FAAH 抑制剂 PTSD 靶点）；THC 弥散激活 CB1R 导致逆行调控失真；**rev2新增**：NAc壳区享乐热点AEA→CB1R→liking增强（依赖阿片信号耦合），社会互动→NAc内eCB升高，CB1R拮抗阻断社会CPP **[修订rev2 2026-08-20]**
-- 🟢 [激励显著性（Incentive Salience）](concepts/incentive-salience.md) — Berridge-Robinson 1993提出的"wanting vs liking"框架：多巴胺系统赋予刺激趋近动机（wanting），而非享乐快感（liking）；多巴胺耗竭消除食物seeking但保留liking（orofacial reactions）；激励敏化理论解释成瘾者"停不下来却不快乐"；aberrant salience解释精神分裂症幻觉/妄想形成；anhedonia区分（wanting vs liking损害的不同临床含义）**[NEW 2026-08-20]**
+- 🟢 [激励显著性（Incentive Salience）](concepts/incentive-salience.md) — Berridge-Robinson 1993提出的"wanting vs liking"框架：多巴胺系统赋予刺激趋近动机（wanting），而非享乐快感（liking）；多巴胺耗竭消除食物seeking但保留liking（orofacial reactions）；激励敏化理论解释成瘾者"停不下来却不快乐"；aberrant salience解释精神分裂症幻觉/妄想形成；**rev2新增**：渴望孵化机制（BDNF时间曲线+PFC→NAc谷氨酸增强）；人类PET证据（线索DA释放与渴望相关而非快感）**[NEW 2026-08-20 · 修订 rev1→rev2 2026-09-27]**
 - 🟢 [内感觉（Interoception）](concepts/interoception.md) — 大脑对身体内部生理状态的感知系统；专属解剖通路（脊髓 lamina I → VMpo → 后岛，独立于外感觉 VPM→S1 路径）；后→前梯度处理（原始生理参数→预测误差→主观感受）；EPIC 预测编码模型（Barrett 2015：感受=预测+实际信号约束）；内感觉精确度个体差异（AIC 激活预测 BDT 心跳/呼吸准确性）；主动推断维度（通过自主神经调节身体以符合预测）**[NEW 2026-08-22]**
 - 🟢 [价值决策（Value-Based Decision Making）](concepts/value-based-decision-making.md) — 大脑通过OFC的三类价值神经元（offer value/chosen value/taste cells）显式表征并比较选项主观效用；BLA-OFC双向回路是结果特异性价值记忆的读写系统（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS通路将价值信号转化为目标导向行动；dlPFC调制vmPFC价值权重实现自控（Hare 2009, PMID:19407204）；与习惯行为（外侧纹状体）形成目标导向vs习惯双系统分离 **[NEW 2026-08-21]**
 - 🔵 [享乐热点（Hedonic Hotspot）](concepts/hedonic-hotspot.md) — NAc壳区前背侧内侧象限约1mm³的"快乐发生器"（大鼠，推算人脑约1cm³）；µ/δ/κ阿片受体激动剂均使sucrose liking反应翻倍；AEA在此位置增强liking但依赖内源性阿片信号同时激活（纳洛酮共注射完全阻断，Mitchell 2018）；多巴胺在热点内注射不增强liking（wanting-liking解剖分离的直接证据）；"情感键盘"（前appetitive/后aversive）可被应激重调 **[NEW 2026-08-20]**
@@ -328,6 +329,7 @@
 - 🟢 [儿童言语失用症（CAS）](diseases/childhood-apraxia-of-speech.md) — 言语运动程序化选择性障碍（非肌力或发音器官问题）；遗传异质性：30+致病基因（Morgan 2024）；FOXP2经典病因链：R553H→dynactin1过表达→dynein-dynactin破坏→TrkB/BDNF受损→MSN树突不全→程序化失败；多基因CAS汇聚于共同转录调控通路 **[NEW 2026-08-12]**
 - 🟢 [CNTNAP2 缺乏症 / CDFE 综合征](diseases/cntnap2-deficiency-cdfe.md) — 双等位CNTNAP2功能缺失→皮层发育不良-局灶性癫痫-语言退行-ASD-智力障碍五联征；Strauss 2006 Amish家系；动物模型（Peñagarikano 2011 Cell）复制核心表型；FOXP2→CNTNAP2轴将CAS与CDFE连接至共同遗传级联 **[NEW 2026-08-15]**
 - 🟢 [创伤后应激障碍（PTSD）](diseases/ptsd.md) — 三角失调模型：杏仁核（过度激活）/vmPFC（沉默/消退刹车失效）/海马（萎缩+苔藓细胞受损→模式分离失败）；恐惧泛化是核心症状；两条治疗靶点（消退增强 vs 再巩固干预）；5-HT 递质身份切换新发现 **[NEW 2026-08-26]**
+- 🟢 [成瘾（物质使用障碍）](diseases/addiction.md) — 成瘾是习惯系统被病理性招募的极端案例；Koob-Volkow三阶段模型（狂欢→戒断负性情感→执念期待）；腹侧→背侧纹状体控制权迁移（Everitt-Robbins框架）；Berridge-Robinson激励敏化：wanting↑/liking↓解耦；ΔFosB分子棘轮（每次用药阶梯式蓄积，数周不降解）；渴望孵化现象；Zapata 2010 DLS直接因果证据；习惯易感性预测严重度（Giuliano 2021）**[NEW 2026-09-27]**
 - 🟢 [肌萎缩侧索硬化症（ALS）](diseases/als-amyotrophic-lateral-sclerosis.md) — TDP-43 核清除是 ALS 统一病理标志（>97%）；C9orf72 三叉毒矛（LOF/RNA foci/DPR）；poly-GR/PR 毒性最强且与 TDP-43 特异共定位；UNC13A/STMN2 隐蔽外显子是 TDP-43 LOF 的关键下游；运动神经元四重脆弱性（超长轴突/低钙缓冲/高Ca²⁺通透AMPA/持续皮质驱动）；tofersen-SOD1-ALS 临床里程碑 **[NEW 2026-09-11]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-09-26
-updated: 2026-09-26
-revision_count: 1
-dimensions: [microcircuit, brain-region, behavior, cognition]
-related: [goal-directed-behavior, basal-ganglia, dopamine-reward-prediction-error, striatal-direct-indirect-pathway, medium-spiny-neuron, prefrontal-cortex, td-learning]
+updated: 2026-09-27
+revision_count: 2
+dimensions: [microcircuit, brain-region, behavior, cognition, disease]
+related: [goal-directed-behavior, basal-ganglia, dopamine-reward-prediction-error, striatal-direct-indirect-pathway, medium-spiny-neuron, prefrontal-cortex, td-learning, addiction, deltafosb, incentive-salience]
 prerequisites: [basal-ganglia, dopamine-reward-prediction-error]
-opens_questions: [Q-habit-01, Q-habit-02]
-source_articles: [2026-09-26-habit-goal-directed-dorsal-striatum]
-key_sources: ["PMID:14750976", "PMID:15772337", "PMID:19776734", "PMID:14643469"]
+opens_questions: [Q-habit-01, Q-habit-02, Q-addiction-01]
+source_articles: [2026-09-26-habit-goal-directed-dorsal-striatum, 2026-09-27-addiction-habit-compulsion-neural-mechanisms]
+key_sources: ["PMID:14750976", "PMID:15772337", "PMID:19776734", "PMID:14643469", "PMID:21084602", "PMID:33955649"]
 ---
 
 # 习惯行为 (Habitual Behavior)
@@ -61,6 +61,9 @@ IL 通过投射到纹状体（尤其是腹侧纹状体），主动抑制前边�
 | IL 主动压制目标导向系统 | Muscimol 抑制 IL→习惯化大鼠恢复结果贬值敏感性 | Coutureau & Killcross 2003, PMID:14643469 | 高（大鼠） |
 | 人类壳核后部随习惯化训练激活增强 | 第三天过度训练后 fMRI 壳核后外侧激活上升 | Tricomi et al. 2009，综述引用自 PMID:19776734 | 中（单一 fMRI 研究） |
 | 习惯化行为不受结果贬值影响 | 广泛使用的行为学测试，跨物种（大鼠、小鼠、人类） | Adams & Dickinson 1981，Balleine & O'Doherty 2010, PMID:19776734 | 高 |
+| 延长可卡因训练（~60次）→可卡因觅药习惯化（结果贬值失效） | 大鼠自我给药+结果贬值；F(1,5)=7.659，p=0.04 | PMID:21084602 / PMC3073559 | 高（成瘾中习惯化的直接证据） |
+| DLS 失活→可卡因习惯大鼠恢复目标导向控制 | 利多卡因失活 DLS；F(1,18)=5.21，p=0.035 | PMID:21084602 | 高（DLS 因果性） |
+| 习惯系统易感性（早期习惯化程度）预测后续强迫性酒精使用 | 纵向大鼠研究：早期贬值不敏感 → 惩罚抵抗性饮酒 | PMID:33955649 | 中-高（习惯化=成瘾内表型而非结果） |
 
 ## 连接
 
@@ -71,6 +74,9 @@ IL 通过投射到纹状体（尤其是腹侧纹状体），主动抑制前边�
 - [[medium-spiny-neuron]] — DLS 的主要细胞类型，S-R 联结的存储单元
 - [[prefrontal-cortex]] — IL（下边缘皮层）主动抑制目标导向系统，支持习惯控制
 - [[td-learning]] — 习惯行为的计算等价为 model-free 强化学习（TD 算法）
+- [[addiction]] — 成瘾是习惯系统被病理性征用的极端案例；可卡因/酒精等药物加速习惯化并使其抵抗消退
+- [[deltafosb]] — ΔFosB 在 DLS MSN 中蓄积，从分子层面固化 S-R 联结，是成瘾性习惯的分子棘轮
+- [[incentive-salience]] — 激励敏化导致 wanting 放大，与习惯化协同驱动成瘾的强迫性
 
 ## 未解问题
 
@@ -80,6 +86,7 @@ IL 通过投射到纹状体（尤其是腹侧纹状体），主动抑制前边�
 ## 修订历史
 
 - 2026-09-26 · 创建 · 基于《自动驾驶的大脑：纹状体双系统如何在习惯与目标之间争夺行为控制权》（文章 #156）· 整合 Balleine 实验室经典损毁实验和计算框架 · 初始置信度：高
+- 2026-09-27 · 修订（rev2）· 基于《成瘾大脑的三层陷阱》（文章 #157）· 新增成瘾作为病理性习惯化的证据（Zapata 2010：可卡因延长训练→DLS 依赖的习惯化；Giuliano 2021：习惯化程度预测强迫性酒精使用）· 补充成瘾相关连接 [[addiction]]、[[deltafosb]]、[[incentive-salience]]
 
 ## 来源文章
 

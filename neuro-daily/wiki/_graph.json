@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-25",
-  "node_count": 300,
-  "edge_count": 1763,
+  "updated": "2026-09-27",
+  "node_count": 303,
+  "edge_count": 1790,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2751,6 +2751,24 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/theories/trace-transformation-theory.md"
+    },
+    {
+      "id": "addiction",
+      "title": "成瘾（物质使用障碍）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/addiction.md"
+    },
+    {
+      "id": "deltafosb",
+      "title": "ΔFosB（分子棘轮）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/deltafosb.md"
     }
   ],
   "edges": [
@@ -12743,6 +12761,66 @@
     {
       "from": "complementary-learning-systems",
       "to": "default-mode-network",
+      "type": "supports"
+    },
+    {
+      "from": "addiction",
+      "to": "habitual-behavior",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "addiction",
+      "to": "incentive-salience",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "addiction",
+      "to": "deltafosb",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "addiction",
+      "to": "basal-ganglia",
+      "type": "part-of"
+    },
+    {
+      "from": "addiction",
+      "to": "goal-directed-behavior",
+      "type": "regulates"
+    },
+    {
+      "from": "addiction",
+      "to": "prefrontal-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "deltafosb",
+      "to": "habitual-behavior",
+      "type": "supports"
+    },
+    {
+      "from": "deltafosb",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates"
+    },
+    {
+      "from": "deltafosb",
+      "to": "medium-spiny-neuron",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "deltafosb",
+      "to": "dendritic-spine",
+      "type": "supports"
+    },
+    {
+      "from": "habitual-behavior",
+      "to": "addiction",
+      "type": "supports"
+    },
+    {
+      "from": "incentive-salience",
+      "to": "addiction",
       "type": "supports"
     }
   ],

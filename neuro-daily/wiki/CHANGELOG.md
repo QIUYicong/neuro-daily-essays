@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-09-27 · 文章 #157 · 成瘾大脑的三层陷阱：从欲望、习惯到强迫的神经轨迹
+
+**核心主题**：成瘾是习惯系统被病理性招募的极端案例——Koob-Volkow 三阶段模型（狂欢/中毒→戒断/负性情感→执念/期待）+ Everitt-Robbins 腹侧→背侧纹状体迁移框架 + Berridge-Robinson 激励敏化理论（wanting 放大/liking 减弱）+ Nestler ΔFosB 分子棘轮。可卡因习惯化直接实验（Zapata 2010，DLS 因果证据）；习惯化程度预测强迫性酒精使用（Giuliano 2021）。图谱从 **301 节点/1778 边** 增至 **303 节点/1790 边**（+2 节点 +12 新边）。
+
+**注意**：系统时钟日期为 2026-06-26（UTC+8），知识库连续序列日期为 2026-09-27，文章编号 #157。
+
+### 新建 Wiki 页面（2 个）
+
+- `diseases/addiction.md` 🟢 established · 高置信度 — 物质使用障碍的三阶段神经生物学框架；腹侧→背侧纹状体迁移；wanting/liking 解耦；ΔFosB 分子棘轮；渴望孵化机制；关键实验证据（Zapata 2010 DLS 因果性，Giuliano 2021 习惯化预测严重度）；8 行证据表；7 条连接；开放问题 Q-addiction-01/02/03
+
+- `concepts/deltafosb.md` 🟢 established · 高置信度 — FosB 截短剪接变体；缺少 C 端 PEST 降解域 + 稳定化磷酸化位点；在 NAc 和背侧纹状体 MSN 中随每次药物暴露阶梯式蓄积、数周不降解；下游靶点：GluR2↑、强啡肽↓、Cdk5↑、H4 组蛋白乙酰化；转基因过表达→增强可卡因/吗啡奖赏和动机；被称为"成熟大脑中已知最持久的非损毁性神经适应"；5 行证据表；5 条连接
+
+### 修订 Wiki 页面（2 个）
+
+- `concepts/habitual-behavior.md`（rev1→rev2）：新增成瘾中习惯系统被病理性招募的证据（Zapata 2010：延长可卡因训练→DLS 依赖习惯化，F(1,5)=7.659，p=0.04；DLS 失活恢复目标导向，p<0.01）；Giuliano 2021（习惯化程度作为成瘾内表型）；证据表新增 3 行；related 新增 [[addiction]]、[[deltafosb]]、[[incentive-salience]]；opens_questions 新增 Q-addiction-01；source_articles 新增 2026-09-27 文章
+
+- `concepts/incentive-salience.md`（rev1→rev2）：补充激励敏化在成瘾中的具体动态（wanting↑/liking↓解耦详细机制）；新增渴望孵化（incubation of craving）机制小节（BDNF 时间曲线 + PFC→NAc 谷氨酸增强）；补充人类 PET 证据（线索 DA 释放与渴望相关而非快感相关）；证据表新增 3 行；related 新增 [[addiction]]、[[deltafosb]]、[[habitual-behavior]]；opens_questions 新增 Q-addiction-03；key_sources 新增 PMID:27977239、PMID:12574402
+
+### 矛盾登记（0）
+
+今日新证据与既有 wiki 主张无直接冲突；成瘾内容为全新领域填充。
+
+### 新增悬空引用（待补）
+
+- 无新增悬空引用（新节点 addiction 和 deltafosb 均已建立独立页面）
+
+---
+
 ## 2026-09-26 · 文章 #156 · 自动驾驶的大脑：纹状体双系统如何在习惯与目标之间争夺行为控制权
 
 **核心主题**：背内侧纹状体（DMS）支持目标导向行为（A-O联结，model-based RL），背外侧纹状体（DLS）支持习惯行为（S-R联结，model-free RL）；两系统从训练第一天起并行运行；下边缘皮层（IL）通过主动压制 PL-DMS 回路使习惯主导（"压制"而非"消除"目标导向能力，Coutureau 2003）；黑质-纹状体多巴胺对习惯形成必要（Faure 2005，6-OHDA实验）；人类两步任务 fMRI 证明 MB+MF 双系统同时影响行为（Daw 2011）。图谱从 **301 节点/1778 边** 增至 **303 节点/1791 边**（+2 节点 +13 新边）。

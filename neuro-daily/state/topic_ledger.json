@@ -9653,6 +9653,80 @@
       "knowledge_base_date": "2026-09-26",
       "system_clock_date": "2026-06-25",
       "date_note": "系统时钟显示2026-06-25 UTC+8，使用知识库连续性日期2026-09-26（第156篇纹状体双系统习惯与目标导向行为文章）"
+    },
+    {
+      "date": "2026-09-27",
+      "title": "成瘾大脑的三层陷阱：从欲望、习惯到强迫的神经轨迹",
+      "filename": "2026-09-27-addiction-habit-compulsion-neural-mechanisms.md",
+      "article_number": 157,
+      "wiki_pages_created": [
+        "wiki/diseases/addiction.md",
+        "wiki/concepts/deltafosb.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/habitual-behavior.md (rev1->rev2)",
+        "wiki/concepts/incentive-salience.md (rev1->rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "为什么成瘾者在明知有害的情况下无法停下来？习惯化神经回路如何被药物劫持，将自愿的愉悦体验改造成强迫性渴望？Koob-Volkow三阶段模型、Everitt-Robbins腹侧→背侧纹状体迁移、Berridge激励敏化（wanting/liking解耦）、Nestler ΔFosB分子棘轮各自贡献了什么？",
+      "open_questions_added": [
+        "Q-addiction-01（高优先级）：习惯化是否是成瘾的充分或必要条件？部分成瘾者即使延长用药后仍表现出目标导向控制——是测量敏感度问题还是成瘾是多维现象？",
+        "Q-addiction-02（高优先级）：内源性ΔFosB水平是否真的足以驱动行为改变（而非只是相关）？抑制内源性ΔFosB能否减弱强迫性用药的因果证据目前有限。",
+        "Q-addiction-03（中优先级）：渴望孵化是否有饱和点或最终消退点？5年、10年戒断后，线索诱发的DA反应是否完全恢复正常？"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱5（认知控制·奖赏学习·习惯机制）+ 课程脊柱11（疾病作为窗口·成瘾）+ 课程脊柱12（脑与AI比较·model-free reward hacking）",
+      "topic_tags": [
+        "drug addiction substance use disorder SUD compulsive seeking",
+        "Koob Volkow 2016 NEJM brain disease model addiction three stages",
+        "Everitt Robbins 2005 2016 actions habits compulsion striatum transition",
+        "Zapata Minney Shippenberg 2010 cocaine habit dorsolateral striatum DLS",
+        "Giuliano Puaud Cardinal Belin Everitt 2021 habitual control compulsive alcohol",
+        "Nestler Barrot Self 2001 DeltaFosB molecular switch PNAS",
+        "Berridge Robinson 2016 incentive sensitization wanting liking dopamine",
+        "incubation of craving BDNF VTA NAc Grimm Shaham 2003",
+        "nucleus accumbens ventral dorsal striatum migration addiction",
+        "negative reinforcement allostasis extended amygdala CRF dynorphin",
+        "prefrontal cortex glutamate NAc remodeling withdrawal craving",
+        "reward hacking model-free RL AI alignment comparison"
+      ],
+      "main_sources": [
+        "PMID:26816013 (Volkow, Koob, McLellan 2016, NEJM, 三阶段成瘾模型, OPEN PMC6135257)",
+        "PMID:27475769 (Koob & Volkow 2016, Lancet Psychiatry, 神经回路分析, 摘要)",
+        "PMID:16251991 (Everitt & Robbins 2005, Nat Neurosci, 动作→习惯→强迫综述, 摘要)",
+        "PMID:26253543 (Everitt & Robbins 2016, Annu Rev Psychol, 十年更新综述, 摘要)",
+        "PMID:21084602 (Zapata et al. 2010, J Neurosci, 可卡因习惯化DLS实验, OPEN PMC3073559)",
+        "PMID:11572966 (Nestler et al. 2001, PNAS, ΔFosB分子开关, OPEN PMC58680)",
+        "PMID:27977239 (Berridge & Robinson 2016, Am Psychol, 激励敏化理论, OPEN PMC5171207)",
+        "PMID:33955649 (Giuliano et al. 2021, Addiction Biology, 习惯化程度预测成瘾严重度, 摘要)",
+        "PMID:12574402 (Grimm et al. 2003, J Neurosci, 渴望孵化+BDNF时间曲线, 摘要)",
+        "PMID:27720809 (Luís et al. 2017, Neurobiol Learn Mem, PFC-NAc突触增强, 摘要)"
+      ],
+      "open_access_fulltext": [
+        "PMID:26816013 (PMC6135257)",
+        "PMID:21084602 (PMC3073559)",
+        "PMID:11572966 (PMC58680)",
+        "PMID:27977239 (PMC5171207)"
+      ],
+      "next_suggested_topics": [
+        "成瘾的消退机制——强迫性用药建立后如何被解除：IL损毁只是解除压制，真正的消退需要什么机制（新的A-O联结重建？DLS S-R联结的持续性与可逆性？）",
+        "OCD的计算神经科学——OCD中model-based控制缺陷的神经机制：眶额叶-纹状体回路的异常，习惯系统过度主导的认知表现",
+        "强化学习的神经元对应——具体的纹状体神经元如何实现TD误差更新（TDRL的物理基底：D1-MSN/D2-MSN的不对称可塑性）",
+        "压力与决策——急性应激如何通过糖皮质激素促进从model-based向model-free的切换（直接相关于Q-habit-02）",
+        "前额叶损伤与成瘾——vmPFC/OFC在成瘾中的双重变化：执行控制受损（OFC损伤→冲动性↑）+ PFC→NAc谷氨酸驱动增强（渴望孵化贡献）"
+      ],
+      "graph_update": "301+2=303 nodes (addiction新建, deltafosb新建); 1778+12=1790 edges (+addiction→habitual-behavior, +addiction→incentive-salience, +addiction→deltafosb, +addiction→basal-ganglia, +addiction→goal-directed-behavior, +addiction→prefrontal-cortex, +deltafosb→habitual-behavior, +deltafosb→dopamine-reward-prediction-error, +deltafosb→medium-spiny-neuron, +deltafosb→dendritic-spine, +habitual-behavior→addiction, +incentive-salience→addiction)",
+      "knowledge_base_date": "2026-09-27",
+      "system_clock_date": "2026-06-26",
+      "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-09-27（第157篇成瘾神经机制文章）"
     }
   ]
 }
