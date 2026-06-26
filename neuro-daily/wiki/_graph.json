@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "node_count": 314,
   "edge_count": 1853,
   "edge_types": [
@@ -2868,6 +2868,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/saltatory-conduction.md"
+    },
+    {
+      "id": "gap-junction-electrical-synapse",
+      "title": "缝隙连接与神经元电突触（Cx36）",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/gap-junction-electrical-synapse.md"
     }
   ],
   "edges": [
@@ -13278,6 +13287,46 @@
       "from": "bdnf",
       "to": "adaptive-myelination",
       "type": "regulates"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "pv-interneurons",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "gamma-oscillations",
+      "type": "supports"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "action-potential",
+      "type": "related"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "synaptic-transmission",
+      "type": "related"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "sharp-wave-ripple",
+      "type": "related"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "place-cell",
+      "type": "regulates"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "gap-junction-electrical-synapse",
+      "type": "related"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "gap-junction-electrical-synapse",
+      "type": "related"
     }
   ],
   "dangling_references": [

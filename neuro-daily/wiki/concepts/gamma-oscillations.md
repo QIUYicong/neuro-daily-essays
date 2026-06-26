@@ -6,15 +6,15 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-21
-revision_count: 5
+updated: 2026-10-06
+revision_count: 6
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular, synaptic, disease]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, schizophrenia, sst-interneurons, cortical-layers]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, schizophrenia, sst-interneurons, cortical-layers, gap-junction-electrical-synapse, sharp-wave-ripple]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
 opens_questions: [Q-gamma-wm-causality, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-gamma-ping-ling-01, Q-gamma-sst-pv]
 partially_resolved_questions: [Q-gamma-capacity]
 source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-07-20-gamma-oscillations-ping-ing-mechanism, 2026-07-21-theta-gamma-coupling-working-memory]
-key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:7854418", "PMID:19396159", "PMID:19396156", "PMID:22114273", "PMID:26912589", "PMID:22355184", "PMID:32859716", "PMID:27927782"]
+key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:7854418", "PMID:19396159", "PMID:19396156", "PMID:22114273", "PMID:26912589", "PMID:22355184", "PMID:32859716", "PMID:27927782", "PMID:11516404", "PMID:12574431"]
 ---
 
 # γ 振荡 (Gamma Oscillations, 30–80 Hz)
@@ -59,6 +59,13 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 6. 典型频率：30–60 Hz
 
 **ING-PING 竞争与选择**（Viriyopase et al. 2016, PMID:26912589）：当两种机制共存时，产生**更高频率**的机制压制另一个。网络自动选择与当前兴奋驱动强度相匹配的机制。ING-PING 转换还受兴奋驱动强度调控（Williams et al. 2026, PMID:41558964）。
+
+**Cx36 电突触在 ING 机制中的作用（2026-10-06 更新）**：遗传学证据揭示 ING 对 Connexin-36（Cx36）缝隙连接有特异性依赖：
+- Cx36 KO 小鼠**选择性消除伽马振荡**（30–80 Hz 功率降低约 50%），但高频振荡（~150 Hz）和 theta 振荡完全保留（Hormuzdi et al. 2001, PMID:11516404；Buhl et al. 2003, PMID:12574431）
+- 这揭示了**频率特异性同步机制分离**：30–80 Hz 伽马依赖电突触；140–200 Hz 纹波走另一套同步通路
+- 机制解释：Cx36 提供 PV+ 中间神经元的"**初始同步模板**"（亚毫秒级时序对齐），然后 GABA-A τ_decay 决定振荡频率；化学 GABA 突触负责维持节律，电突触负责启动时相精度
+- Cx36 偶联受多巴胺（PKA 磷酸化 Ser110/293）和 CaMKII 动态调节，为不同大脑状态下的伽马幅度差异提供了分子机制
+- 详见 [[gap-junction-electrical-synapse]]
 
 **双层 γ 生成器**（Ainsworth et al. 2011, PMID:22114273）：听觉皮层存在层级特异的双 γ：
 - L2/3：间隙连接依赖型慢 γ（30–45 Hz，ING-like）
@@ -140,6 +147,7 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 - 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192；新增连接补充段落
 - 2026-07-20 · 修订 · 基于《篮状细胞打出节拍》一文 (#88) · 新增：ING/PING 分子机制深化（GABA-A τ_decay 作为频率时钟；Whittington 1995 ING 实验起点）、Sohal 2009 + Cardin 2009 光遗传因果证据、双层 γ 生成（Ainsworth 2011）、ING-PING 竞争（Viriyopase 2016）、SST+ 贡献（Antonoudiou 2020）、精神分裂症分子级联（Gonzalez-Burgos 2012）；新增 related 节点：schizophrenia, sst-interneurons, cortical-layers；新增 key_sources 8 个；新增未解问题 Q-gamma-ping-ling-01, Q-gamma-sst-pv
 - 2026-07-21 · 修订 · 基于《海马的节律钟表》一文 (#89) · 将 Q-gamma-capacity 从 opens_questions 移入 partially_resolved_questions（三层证据：Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）；Q-gamma-capacity 正文标注部分解答；新增 source_articles: 2026-07-21-theta-gamma-coupling-working-memory
+- 2026-10-06 · 修订 · 基于《缝隙连接与神经元电突触》(#166) · 在 ING 机制下新增"Cx36 电突触在 ING 中的作用"子节，详述频率特异性 Cx36 依赖（伽马消失/纹波保留）和初始同步模板机制；related 新增 gap-junction-electrical-synapse, sharp-wave-ripple；key_sources 新增 PMID:11516404, PMID:12574431
 
 ## 连接补充（2026-07-04）
 

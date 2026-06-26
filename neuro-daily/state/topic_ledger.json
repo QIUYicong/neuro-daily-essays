@@ -10228,6 +10228,58 @@
         "意识状态连续谱：从清醒/睡眠/麻醉到最小意识状态的屏状核-TRN-皮层轴变化",
         "赛洛西宾与意识神经回路——DMN去整合、屏状核活动下降与意识体验改变的关系"
       ]
+    },
+    {
+      "date": "2026-10-06",
+      "article_number": 166,
+      "title": "缝隙连接与神经元电突触：被遗忘了半个世纪的大脑\"硬线\"同步装置",
+      "slug": "gap-junction-electrical-synapse",
+      "core_question": "Connexin-36 缝隙连接如何在亚毫秒精度上同步 PV+ 中间神经元并驱动伽马振荡？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit"
+      ],
+      "topic_tags": [
+        "gap junction",
+        "connexin 36",
+        "electrical synapse",
+        "PV interneuron",
+        "gamma oscillation",
+        "synchrony",
+        "ING mechanism"
+      ],
+      "main_sources": [
+        "PMID:11516403",
+        "PMID:11516404",
+        "PMID:12574431",
+        "PMID:15217338",
+        "PMID:21525295",
+        "PMID:22659675",
+        "PMID:28245529",
+        "PMID:38616956",
+        "PMID:42129559"
+      ],
+      "unresolved_questions": [
+        "Q-gap-01",
+        "Q-gap-02",
+        "Q-gap-03",
+        "Q-gap-04"
+      ],
+      "wiki_created": [
+        "gap-junction-electrical-synapse"
+      ],
+      "wiki_revised": [
+        "pv-interneurons",
+        "gamma-oscillations"
+      ],
+      "next_suggested_topics": [
+        "尖波纹波（SWR）的同步机制：如果不依赖 Cx36，是什么驱动 140-200 Hz 集群同步？（接续 Q-gap-01）",
+        "下橄榄核-小脑电突触：Cx36 支持亚阈值振荡如何参与运动学习的误差信号生成？",
+        "Pannexin 通道——缝隙连接的'近亲'：成年大脑中的 pannexin-1 在什么条件下开放，有何神经功能？",
+        "精神分裂症的电突触视角：PV 细胞 Cx36 偶联是否在精神分裂症动物模型中受损？"
+      ]
     }
   ]
 }

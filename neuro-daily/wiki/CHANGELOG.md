@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-10-06（#166）：缝隙连接与神经元电突触——被遗忘了半个世纪的大脑"硬线"同步装置
+
+**文章**：《缝隙连接与神经元电突触：被遗忘了半个世纪的大脑"硬线"同步装置》（#166）
+
+**类型**：课程脊柱扩展 + 悬空引用填补（脊柱1：神经元如何工作→电突触机制；层级：molecular × cellular × synaptic × microcircuit；选题逻辑：pv-interneurons、gamma-oscillations 等多页均已提及缝隙连接/电突触，但无独立专页；与近期 cellular/whole-brain-network 层形成互补）
+
+**新创建页面（1）**：
+- `wiki/neurons/gap-junction-electrical-synapse.md`（rev1）：新建 Cx36 缝隙连接电突触专页，覆盖分子机制（低通滤波、双相耦合电位）、可塑性（PKA/CaMKII/神经调质）、关键 KO 实验证据、频率特异性同步机制、LinCx 工程化电突触 2025
+
+**修订页面（2）**：
+- `wiki/circuits/pv-interneurons.md`（rev7→rev8）：回路层面扩充 Cx36 电突触条目，具体化分子身份和 KO 表型证据；related 新增 gap-junction-electrical-synapse
+- `wiki/concepts/gamma-oscillations.md`（rev5→rev6）：ING 机制新增 Cx36 电突触子节，补充频率特异性依赖（伽马/纹波分离）和初始同步模板机制；related 新增 gap-junction-electrical-synapse, sharp-wave-ripple
+
+**登记矛盾**：无新矛盾（电突触与化学突触的关系是互补而非竞争，无需裁决；纹波不依赖 Cx36 的机制尚不明确，登记为未解问题 Q-gap-01）
+
+**新增悬空引用**：无（sharp-wave-ripple 已有独立页面）
+
+**新增未解问题（4）**：Q-gap-01（纹波同步机制）、Q-gap-02（Cx36 可塑性与学习）、Q-gap-03（发育期转变机制）、Q-gap-04（精神分裂症 Cx36）
+
+---
+
 ## 2026-10-05（#165）：髓鞘的秘密——少突胶质细胞感知神经冲动，主动重写脑的线路图
 
 **文章**：《髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图》（#165）

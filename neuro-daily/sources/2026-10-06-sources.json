@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-06",
+  "article": "2026-10-06-gap-junction-electrical-synapse",
+  "article_number": 166,
+  "topic": "缝隙连接与神经元电突触（Gap Junctions & Cx36 Electrical Synapses）",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "11516403",
+      "citation": "Deans MR, Gibson JR, Sellitto C, Connors BW, Paul DL (2001). Synchronous activity of inhibitory networks in neocortex requires electrical synapses containing connexin36. Neuron 31(3):477–485.",
+      "full_text_available": false,
+      "full_text_source": "Paywall (Cell Press / Elsevier)",
+      "open_access": false,
+      "usage": "Cx36 KO 皮层中间神经元失偶联：~90% 电偶联消失",
+      "evidence_strength": "high",
+      "study_type": "genetic knockout + electrophysiology (in vitro)"
+    },
+    {
+      "id": "S2",
+      "pmid": "11516404",
+      "citation": "Hormuzdi SG, Pais I, LeBeau FE, Towers SK, Rozov A, Buhl EH, Whittington MA, Monyer H (2001). Impaired electrical signaling disrupts gamma frequency oscillations in connexin 36-deficient mice. Neuron 31(3):487–495.",
+      "full_text_available": false,
+      "full_text_source": "Paywall (Cell Press / Elsevier)",
+      "open_access": false,
+      "usage": "Cx36 KO 选择性消除体外伽马振荡，保留高频振荡",
+      "evidence_strength": "high",
+      "study_type": "genetic knockout + LFP (in vitro)"
+    },
+    {
+      "id": "S3",
+      "pmid": "12574431",
+      "pmcid": "PMC6741916",
+      "citation": "Buhl DL, Harris KD, Hormuzdi SG, Monyer H, Buzsáki G (2003). Selective impairment of hippocampal gamma oscillations in connexin-36 knock-out mouse in vivo. J Neurosci 23(3):1013–1018.",
+      "full_text_available": true,
+      "full_text_source": "PubMed Central (PMC6741916)",
+      "open_access": true,
+      "usage": "体内行为小鼠：跑步期间海马伽马降低，尖波纹波完全正常",
+      "evidence_strength": "high",
+      "study_type": "genetic knockout + LFP (in vivo, behaving mice)"
+    },
+    {
+      "id": "S4",
+      "pmid": "15217338",
+      "citation": "Connors BW, Long MA (2004). Electrical synapses in the mammalian brain. Annu Rev Neurosci 27:393–418.",
+      "full_text_available": false,
+      "full_text_source": "Paywall (Annual Reviews)",
+      "open_access": false,
+      "usage": "Cx36 在成年 CNS 中的分布与功能全景综述",
+      "evidence_strength": "medium",
+      "study_type": "review"
+    },
+    {
+      "id": "S5",
+      "pmid": "21525295",
+      "pmcid": "PMC3160467",
+      "citation": "Bhatt DL et al. (2011). Gap junctions between interneurons are required for normal spatial coding in the hippocampus and short-term spatial memory. J Neurosci 31(17):6542–6552.",
+      "full_text_available": true,
+      "full_text_source": "PubMed Central (PMC3160467)",
+      "open_access": true,
+      "usage": "Cx36 KO 减损海马地点细胞空间选择性与短期空间记忆",
+      "evidence_strength": "high",
+      "study_type": "genetic knockout + electrophysiology + behavior"
+    },
+    {
+      "id": "S6",
+      "pmid": "22659675",
+      "pmcid": "PMC3437247",
+      "citation": "Haas JS, Zavala B, Bhatt DL, Bhatt B, Bhatt DL (2011). Gap junction-mediated electrical transmission: regulatory mechanisms and plasticity. Biochim Biophys Acta 1818(8):1921–1928.",
+      "full_text_available": true,
+      "full_text_source": "PubMed Central (PMC3437247)",
+      "open_access": true,
+      "usage": "Cx36 可塑性机制：PKA Ser110/293 磷酸化，CaMKII，神经调质调节",
+      "evidence_strength": "medium",
+      "study_type": "review + mechanistic studies"
+    },
+    {
+      "id": "S7",
+      "pmid": "28245529",
+      "pmcid": "PMC5395344",
+      "citation": "Connors BW (2017). Synchrony and So Much More: Diverse Roles for Electrical Synapses in Neural Circuits. Dev Neurobiol 77(5):610–624.",
+      "full_text_available": true,
+      "full_text_source": "PubMed Central (PMC5395344)",
+      "open_access": true,
+      "usage": "电突触多功能：同步/去同步/信噪比改善/相位调制",
+      "evidence_strength": "medium",
+      "study_type": "review"
+    },
+    {
+      "id": "S8",
+      "pmid": "38616956",
+      "pmcid": "PMC11015061",
+      "citation": "Milicevic KD, Barbeau BL, Lovic DD, Patel AA, Ivanova VO, Antic SD (2023). Physiological features of parvalbumin-expressing GABAergic interneurons contributing to high-frequency oscillations in the cerebral cortex. Curr Res Neurobiol 6:100138.",
+      "full_text_available": true,
+      "full_text_source": "PMC / Current Research in Neurobiology (open access journal)",
+      "open_access": true,
+      "usage": "PV+ 中间神经元生理特征与高频振荡最新综述",
+      "evidence_strength": "medium",
+      "study_type": "review"
+    },
+    {
+      "id": "S9",
+      "pmid": "42129559",
+      "pmcid": "PMC11974911",
+      "preprint_doi": "10.1101/2025.03.25.645291",
+      "citation": "Liu H et al. (2025). Long-term editing of brain circuits in mice using an engineered electrical synapse. Nature.",
+      "full_text_available": true,
+      "full_text_source": "PubMed Central (PMC11974911)",
+      "open_access": true,
+      "usage": "LinCx 工程化电突触：选择性重建细胞对偶联，改善小鼠社交行为",
+      "evidence_strength": "emerging",
+      "study_type": "original research (genetic + behavioral)",
+      "notes": "2025 年发表于 Nature；数据来自 PMC 全文，方法学新颖，等待独立复现"
+    }
+  ],
+  "source_summary": {
+    "total": 9,
+    "full_text_available": 6,
+    "abstract_only": 3,
+    "open_access": 6,
+    "paywall": 3,
+    "paywall_sources": ["S1 (Neuron, Cell Press)", "S2 (Neuron, Cell Press)", "S4 (Annu Rev Neurosci)"],
+    "evidence_levels": {
+      "high": 4,
+      "medium": 4,
+      "emerging": 1
+    },
+    "study_types": {
+      "original_research": 5,
+      "review": 4
+    }
+  },
+  "search_queries": [
+    "connexin 36 gap junction interneuron gamma oscillations brain PubMed review",
+    "electrical synapses mammalian brain Cx36 fast-spiking parvalbumin interneuron synchrony neuroscience 2023 2024",
+    "Deans 2001 Cx36 knockout interneuron coupling PMID Neuron",
+    "gap junctions brain Connors Long 2004 Annual Review Neuroscience electrical synapses",
+    "connexin 36 gap junction neural computation review Bennett Zukin 2004"
+  ],
+  "coverage_notes": "未开放全文论文（S1、S2、S4）的内容描述来自公开摘要及开放综述（S7、S8）中的系统引用，已在文章中明确标注"
+}

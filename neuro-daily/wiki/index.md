@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-05（第165篇·髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图）· 主题页总数：**309**（新建4页：neurons/oligodendrocyte, concepts/adaptive-myelination, concepts/oligodendrocyte-precursor-cell, concepts/saltatory-conduction；图谱314节点/1853边）
+> 最后更新：2026-10-06（第166篇·缝隙连接与神经元电突触：被遗忘了半个世纪的大脑"硬线"同步装置）· 主题页总数：**310**（新建1页：neurons/gap-junction-electrical-synapse；修订2页：circuits/pv-interneurons rev8, concepts/gamma-oscillations rev6；图谱315节点/1861边）
 
 ---
 
@@ -37,6 +37,7 @@
 - 🟢 [电压门控钙通道（VGCCs）](neurons/voltage-gated-calcium-channels.md) — P/Q型在突触前纳米域触发递质释放；L型在树突驱动BTSP平台电位，在核激活基因表达；三亚家族、三地点、三时间尺度 **[NEW 2026-06-01]**
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
+- 🟢 [缝隙连接与神经元电突触（Cx36）](neurons/gap-junction-electrical-synapse.md) — Connexin-36 缝隙连接是成年大脑 PV+ 中间神经元电突触的主要类型；亚毫秒同步；Cx36 KO 选择性消除伽马振荡（保留纹波）；可被多巴胺/CaMKII 动态调节；LinCx 2025 工程化电突触新突破 **[NEW 2026-10-06]**
 - 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 产髓鞘胶质细胞，三重功能：绝缘（跳跃式传导/120m/s）+ 代谢支持（MCT1-乳酸轴）+ 经验依赖髓鞘化（Adaptive myelination）；运动/认知学习需要新 OL 生成（McKenzie 2014, Shimizu 2023）**[NEW 2026-10-05]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝；成年稳态P2RY12/TMEM119/CX3CR1分子签名；DAM两步激活（rev2新增） **[NEW 2026-06-03 · 修订 rev1→rev2 2026-09-17]**
 - 🔵 [TREM2（髓系细胞触发受体2）](neurons/trem2.md) — 小胶质细胞脂质传感器/危险信号受体；DAP12→PI3K→Akt→mTOR促细胞存活/增殖/吞噬；DAM Step 2激活的分子开关；R47H变异→AD风险OR≈3-5×；INVOKE-2 Phase 2（AL002c激动抗体）阴性结果 **[NEW 2026-09-17]**

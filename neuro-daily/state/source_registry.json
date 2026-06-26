@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-06",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10505,9 +10505,148 @@
         "MCT1 缺失→轴突损伤（即使髓鞘完整）",
         "ALS 患者少突胶质细胞 MCT1 显著降低"
       ]
+    },
+    {
+      "pmid": "11516403",
+      "pmcid": null,
+      "doi": "10.1016/S0896-6273(01)00373-7",
+      "title": "Synchronous activity of inhibitory networks in neocortex requires electrical synapses containing connexin36",
+      "authors_short": "Deans et al.",
+      "journal": "Neuron",
+      "year": 2001,
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-gap-junction-electrical-synapse"
+      ],
+      "aspects_covered": [
+        "Cx36 KO皮层中间神经元电偶联>90%消失",
+        "FS细胞同步活动减弱"
+      ]
+    },
+    {
+      "pmid": "11516404",
+      "pmcid": null,
+      "doi": "10.1016/S0896-6273(01)00386-5",
+      "title": "Impaired electrical signaling disrupts gamma frequency oscillations in connexin 36-deficient mice",
+      "authors_short": "Hormuzdi et al.",
+      "journal": "Neuron",
+      "year": 2001,
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-gap-junction-electrical-synapse"
+      ],
+      "aspects_covered": [
+        "Cx36 KO选择性消除伽马振荡in vitro",
+        "高频振荡(~150Hz)保留"
+      ]
+    },
+    {
+      "pmid": "12574431",
+      "pmcid": "PMC6741916",
+      "doi": "10.1523/JNEUROSCI.23-03-01013.2003",
+      "title": "Selective impairment of hippocampal gamma oscillations in connexin-36 knock-out mouse in vivo",
+      "authors_short": "Buhl et al.",
+      "journal": "J Neurosci",
+      "year": 2003,
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-gap-junction-electrical-synapse"
+      ],
+      "aspects_covered": [
+        "体内行为小鼠伽马降低",
+        "尖波纹波完全正常",
+        "频率特异性同步机制分离"
+      ]
+    },
+    {
+      "pmid": "15217338",
+      "pmcid": null,
+      "doi": "10.1146/annurev.neuro.26.041002.131128",
+      "title": "Electrical synapses in the mammalian brain",
+      "authors_short": "Connors & Long",
+      "journal": "Annu Rev Neurosci",
+      "year": 2004,
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-gap-junction-electrical-synapse"
+      ],
+      "aspects_covered": [
+        "Cx36分布与功能综述",
+        "Pannexin候选"
+      ]
+    },
+    {
+      "pmid": "21525295",
+      "pmcid": "PMC3160467",
+      "doi": "10.1523/JNEUROSCI.6512-10.2011",
+      "title": "Gap junctions between interneurons are required for normal spatial coding in the hippocampus and short-term spatial memory",
+      "authors_short": "Bhatt et al.",
+      "journal": "J Neurosci",
+      "year": 2011,
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-gap-junction-electrical-synapse"
+      ],
+      "aspects_covered": [
+        "Cx36 KO海马地点细胞空间选择性降低",
+        "短期空间记忆受损",
+        "theta相位进动异常"
+      ]
+    },
+    {
+      "pmid": "22659675",
+      "pmcid": "PMC3437247",
+      "doi": "10.1016/j.bbamem.2012.05.026",
+      "title": "Gap junction-mediated electrical transmission: regulatory mechanisms and plasticity",
+      "authors_short": "Haas et al.",
+      "journal": "Biochim Biophys Acta",
+      "year": 2012,
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-gap-junction-electrical-synapse"
+      ],
+      "aspects_covered": [
+        "Cx36 PKA/CaMKII磷酸化可塑性",
+        "神经调质调节缝隙连接"
+      ]
+    },
+    {
+      "pmid": "28245529",
+      "pmcid": "PMC5395344",
+      "doi": "10.1002/dneu.22493",
+      "title": "Synchrony and So Much More: Diverse Roles for Electrical Synapses in Neural Circuits",
+      "authors_short": "Connors",
+      "journal": "Dev Neurobiol",
+      "year": 2017,
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-gap-junction-electrical-synapse"
+      ],
+      "aspects_covered": [
+        "电突触多功能综述",
+        "同步/去同步/信噪比/相位调制"
+      ]
+    },
+    {
+      "pmid": "42129559",
+      "pmcid": "PMC11974911",
+      "doi": "10.1101/2025.03.25.645291",
+      "title": "Long-term editing of brain circuits in mice using an engineered electrical synapse",
+      "authors_short": "Liu et al.",
+      "journal": "Nature",
+      "year": 2025,
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-gap-junction-electrical-synapse"
+      ],
+      "aspects_covered": [
+        "LinCx工程化电突触设计",
+        "选择性细胞对偶联",
+        "改善小鼠社交行为"
+      ]
     }
   ],
-  "total_sources": 589,
+  "total_sources": 620,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

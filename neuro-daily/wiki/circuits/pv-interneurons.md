@@ -6,14 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-08-15
-revision_count: 7
+updated: 2026-10-06
+revision_count: 8
 dimensions: [cellular, synaptic, microcircuit, cognition, disease, molecular]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, transcriptomic-cell-types, single-cell-rna-seq, cntnap2]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, transcriptomic-cell-types, single-cell-rna-seq, cntnap2, gap-junction-electrical-synapse]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
 opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468", "PMID:19396159", "PMID:19396156", "PMID:22355184", "PMID:7854418"]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468", "PMID:19396159", "PMID:19396156", "PMID:22355184", "PMID:7854418", "PMID:11516403", "PMID:12574431"]
 source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-07-20-gamma-oscillations-ping-ing-mechanism]
 ---
 
@@ -46,7 +46,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 
 **回路层面**：
 - PV+ 细胞接受来自锥体细胞的兴奋性突触（反馈抑制）和丘脑的直接兴奋输入
-- PV+ 细胞之间通过缝隙连接（电突触）相互耦合，增强同步性
+- PV+ 细胞之间通过 **Connexin-36（Cx36）缝隙连接**（电突触）相互耦合：偶联系数约 0.05–0.15，提供亚毫秒级（0.1–0.5 ms）初始同步，比化学 GABA 突触快 5–10 倍；Cx36 KO 消除 >90% 的 FS 细胞间电偶联（Deans et al. 2001, PMID:11516403），选择性消除伽马振荡（保留纹波，Buhl et al. 2003, PMID:12574431）；详见 [[gap-junction-electrical-synapse]]
 - VIP+ 中间神经元可抑制 PV+ 细胞（去抑制回路，见 [[disinhibitory-circuit]]）
 
 **系统层面（2026-06-05 更新）**：
@@ -113,6 +113,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 2026-07-20 · 修订 rev5 · 基于《篮状细胞打出节拍》一文 (#88) · 新增：Sohal 2009 + Cardin 2009 光遗传学因果证据（PV 细胞是 γ 的必要条件，γ 相位门控感觉输入）；GABA-A τ_decay 决定 γ 频率的分子机制；精神分裂症分子级联（Gonzalez-Burgos & Lewis 2012 NMDA→GAD67→GABA→PING→γ→WM）；更新 key_sources 4 个；更新 source_articles；更新 opens_questions
 - 2026-07-25 · 修订 rev6 · 基于《神经元类型的分子宇宙》一文 (#93) · 新增转录组视角：scRNA-seq揭示PV细胞内部包含篮状细胞/吊灯细胞/其他亚型在转录组层面各有标记基因；Tasic 2018（PMID:30382198）中PV亚类在视觉/运动皮层高度保守（约70%跨区共享）；更新related添加transcriptomic-cell-types、single-cell-rna-seq
 - 2026-08-15 · 修订 rev7 · 基于《CNTNAP2：语言、社会与癫痫三角共病》(#114) · 新增：CNTNAP2缺失导致PV+中间神经元减少是ASD/CDFE核心病理（Peñagarikano 2011, PMID:21962519）；mPFC E/I突触输入双降低伴振荡协调崩溃（Lazaro 2019, PMID:31141683）；CR+中间神经元减少也见于尾壳核/体感皮层（Sáfár 2026, PMID:42249747）；母体抗CASPR2抗体→子代PV功能异常（Bagnall-Moreau 2026, PMID:41271186）；related新增cntnap2；key_sources新增PMID:21962519, PMID:31141683
+- 2026-10-06 · 修订 rev8 · 基于《缝隙连接与神经元电突触》(#166) · 扩充"回路层面"电突触条目：具体化 Cx36 分子身份，补充偶联系数（0.05–0.15）、亚毫秒延迟、KO 表型（>90% 偶联消失 + 选择性消除伽马）；related 新增 gap-junction-electrical-synapse；key_sources 新增 PMID:11516403, PMID:12574431
 
 ## 转录组亚型注记（2026-07-25新增）
 

@@ -907,5 +907,12 @@
     "confidence": "high",
     "last_changed": "2026-10-04",
     "reason": "新建 rev1 · #164 · CCAS 临床综合征有多中心强证据：Schmahmann 1998 原始描述、Argyropoulos 2019 任务组共识、Reumers 2025 元分析（129研究 3140患者，语言 d=−0.81，社会认知 d=−0.81）；解剖-功能对应（后部小脑叶→认知，后蚓部→情感）高置信度；前向内部模型损伤假说为 emerging 级理论解释"
+  },
+  {
+    "slug": "gap-junction-electrical-synapse",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-06",
+    "reason": "新建页（rev1）：Cx36 KO 系列实验（Deans 2001, Hormuzdi 2001, Buhl 2003）多项独立遗传学证据建立 established 状态；物理机制清晰（离子通道双向传导）；首次列入知识库"
   }
 ]
