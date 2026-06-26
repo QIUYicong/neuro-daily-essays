@@ -1,0 +1,74 @@
+# 运行日志 2026-10-06（第166篇）
+
+**文章**：环面与大脑：当网格细胞群活跃在拓扑甜甜圈上，路径积分的几何秘密
+**Slug**：grid-cells-toroidal-topology-path-integration
+**知识库日期**：2026-10-06（连续自2026-10-05）
+**系统时钟**：2026-06-26 UTC+8（保持固定，知识库用连续日期）
+
+---
+
+## 步骤执行记录
+
+### Step A：文献检索与来源核实
+- 检索 PubMed 确认 Gardner 2022 PMID（35022611）和 Burak & Fiete 2009 PMID（19229307）
+- 通过 PMC API 确认两篇全文均可访问（PMC8810387, PMC2632741）
+- 完整阅读两篇全文，提取核心数据（TDA 拓扑指纹；误差扩散公式）
+- 其余10篇来源仅使用摘要，已在文章中标注
+
+### Step B：选题决策
+- 分析最近三篇文章层级（#163 molecular、#164 brain-region/systems、#165 cellular/network）
+- 决定切换至 microcircuit + brain-region + behavior + cognition 层级
+- 填补知识库关键空白：path-integration rev1 缺少 Gardner 2022；continuous-attractor-network 为高连接度悬空引用
+
+### Step C：文章写作（约6000字）
+- 核心论证基于 Gardner 2022（开放全文）和 Burak & Fiete 2009（开放全文）
+- 新增未解问题：Q-path-01~04
+- 创建概念卡片：路径积分、连续吸引子网络、拓扑数据分析
+
+### Step D：Wiki 固结
+- `wiki/concepts/path-integration.md`：rev1 → rev2，新增8个关键证据行，新增 Q-path-01~04，扩充关联节点
+- `wiki/concepts/grid-cells.md`：rev1 → rev2，新增 Gardner 2022 证据，CAN vs OI 争议状态更新，新增 continuous-attractor-network 关联
+- `wiki/concepts/continuous-attractor-network.md`：rev1 新建，填补高连接度悬空引用
+
+### Step E：图谱更新
+- +1 节点：continuous-attractor-network（mainstream/high）
+- +4 主要新边：CAN→path-integration (mechanism-of), CAN→grid-cells (mechanism-of), path-integration→alzheimers-disease (related), path-integration→continuous-attractor-network (supported-by)
+
+### Step F：状态文件更新
+- topic_ledger.json：添加 #166 条目
+- unresolved_questions.md：添加 Q-path-01~04
+- source_registry.json：添加12个新来源
+- maturity_index.json：更新 path-integration、grid-cells 条目，新增 continuous-attractor-network
+- monthly_synthesis.md：更新十月进度
+
+### Step G：提交推送
+- 目标分支：main（QIUYicong/neuro-daily-essays）
+- Git 作者：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+
+---
+
+## 来源访问摘要
+
+| # | PMID | 全文可用性 | 访问状态 |
+|---|------|-----------|---------|
+| S1 | 15965463 | 摘要 | ✓ |
+| S2 | 16858394 | 摘要 | ✓ |
+| S3 | 19229307 | PMC 全文 | ✓ 全文读取 |
+| S4 | 16675704 | 摘要 | ✓ |
+| S5 | 19095945 | 摘要 | ✓ |
+| S6 | 25892299 | 摘要 | ✓ |
+| S7 | 35022611 | PMC 全文 | ✓ 全文读取 |
+| S8 | 17924530 | 摘要 | ✓ |
+| S9 | 27023731 | 摘要 | ✓ |
+| S10 | 29743670 | 摘要 | ✓ |
+| S11 | 27038766 | 摘要 | ✓ |
+| S12 | 31386919 | 摘要 | ✓ |
+
+---
+
+## 无错误记录
+
+- 无 PMID 编造或错误
+- 无 Sci-Hub 或盗版 PDF 使用
+- 无无法核实的结论
+- 无医学诊断建议

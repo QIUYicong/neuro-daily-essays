@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
+updated: 2026-10-06
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [place-cells, path-integration, theta-oscillations, theta-phase-precession, entorhinal-cortex, cognitive-map, head-direction-cells, border-cells, memory-consolidation]
+related: [place-cells, path-integration, theta-oscillations, theta-phase-precession, entorhinal-cortex, cognitive-map, head-direction-cells, border-cells, memory-consolidation, continuous-attractor-network]
 prerequisites: [action-potential, entorhinal-cortex, theta-oscillations]
 opens_questions: [Q-gc-01, Q-gc-02, Q-gc-03, Q-gc-04]
-source_articles: [2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:15965463", "PMID:16675704", "PMID:16858394", "PMID:23222610", "PMID:27023731", "PMID:23354386", "PMID:41887217"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-27-grid-cells-head-direction-spatial-coordinate-system, 2026-10-06-grid-cells-toroidal-topology-path-integration]
+key_sources: ["PMID:15965463", "PMID:16675704", "PMID:16858394", "PMID:23222610", "PMID:27023731", "PMID:23354386", "PMID:41887217", "PMID:35022611", "PMID:19229307"]
 ---
 
 # 网格细胞 (Grid Cells)
@@ -60,12 +60,15 @@ MEC深层（III、V层）含**联合细胞**：同时具有网格激活 + 头朝
 
 ### 4. 路径整合的实现：连续吸引子网络（CAN）模型
 
-McNaughton等2006提出的主流计算模型：
-- MEC内循环兴奋-抑制网络产生一个在六边形空间中稳定的活跃"凸块"（bump）
-- 速度调制连接使凸块随运动方向和速度滑动，实现位置追踪
-- 漂移：路径整合误差随时间积累；环境地标锚定进行定期校正
+McNaughton等2006（PMID: 16858394）提出、Burak & Fiete 2009（PMID: 19229307）精确化的主流计算模型：
+- MEC内循环兴奋-抑制网络（中心兴奋-环形抑制，"墨西哥帽型"）产生一个在六边形空间中稳定的活跃"凸块"（bump）
+- 速度调制的方向选择性连接使凸块随运动方向和速度滑动，实现位置追踪
+- 漂移：路径整合误差随时间积累；环境地标和边界细胞提供锚定校正
+- **环面拓扑预测**：CAN 预测神经元的网格相位偏好在两个维度上均形成周期性排列，使群体活跃的流形在拓扑上构成一个**二维环面（T²）**
 
-竞争模型：振荡干涉（OI）模型——细胞内在振荡频率略高于背景θ，两者干涉产生空间周期性。两个模型预测不同，尚无定论（Rowland 2016）。
+**Gardner 2022 的决定性确认**（PMID: 35022611，开放全文）：使用拓扑数据分析（TDA/持续同调）分析8只大鼠 MEC 的7671个网格细胞，直接证明群体活跃流形是二维环面（两个1-阶环+一个2-阶空腔的拓扑指纹）；流形在不同环境（r=0.79）和睡眠-清醒状态（r=0.80–0.83）间稳定。这是 CAN 模型最直接的实验确认，同时使 CAN vs OI 的争议向 CAN 方向决定性倾斜。
+
+**当前 CAN vs OI 争议状态**：Gardner 2022 的睡眠中环面稳定性排除了纯 OI 模型（OI 的非周期相位平面不能产生环面拓扑），但未完全排除 OI 机制的参与。当前共识倾向于：CAN 是主要路径整合机制，内在振荡（OI）可能与 CAN 协同工作（OI 提供格点的初始种子，CAN 提供稳定维持），而非互相替代（Rowland 2016）。
 
 ### 5. 网格→场所细胞转化
 
@@ -79,6 +82,8 @@ McNaughton等2006提出的主流计算模型：
 | 联合细胞（网格+头朝向+速度） | 大鼠MEC多层记录 | PMID:16675704 | 高 |
 | 网格离散模块，间距比√2 | 186个网格细胞同步记录 | PMID:23222610 | 高 |
 | 两生成模型（CAN vs OI）均不完整 | 综述 | PMID:27023731 | 高（争议本身有共识） |
+| 网格细胞群体活跃流形是二维环面（TDA 直接测量） | 大鼠 MEC 7671 单元持续同调 | PMID:35022611 | 高（直接几何测量） |
+| 环面跨环境（r=0.79）和睡眠-清醒（r=0.80–0.83）稳定 | TDA 流形相关性 | PMID:35022611 | 高 |
 | 光遗传激活MEC→海马位置特异放电 | 光遗传+单细胞记录 | PMID:24366130 | 中-高（因果） |
 | 人类EC六边形对称信号（fMRI，视觉空间） | 人类fMRI | PMID:29311746 | 高 |
 | 心理模拟中EC六边形激活（无运动） | 人类fMRI+MVPA | PMID:27572056（PMC5005038） | 中-高 |
@@ -93,6 +98,7 @@ McNaughton等2006提出的主流计算模型：
 - [[entorhinal-cortex]] — 网格细胞位于MEC（内侧内嗅皮层），Layer II为纯网格；深层含联合细胞
 - [[cognitive-map]] — 网格细胞是认知地图度量坐标系的物理基础；泛化至抽象概念空间
 - [[head-direction-cells]] — 联合细胞整合网格编码+头朝向，两者在路径整合中协作
+- [[continuous-attractor-network]] — CAN 是网格细胞生成的计算底层；Gardner 2022 证明 CAN 预测的环面拓扑在 MEC 中成立
 
 ## 未解问题
 
@@ -104,7 +110,10 @@ McNaughton等2006提出的主流计算模型：
 ## 修订历史
 
 - 2026-06-22 · 创建 · 填补长期悬空引用（被theta-oscillations等多页引用但无对应页面） · 基于《六边形的秘密》文章 · 初始置信度：高
+- 2026-10-06 · **rev1 → rev2** · 基于《环面与大脑》文章（#166）· 新增 Gardner 2022 环面拓扑直接证据（CAN 模型决定性确认）；更新 CAN vs OI 争议当前状态（倾向 CAN 主导，OI 可能协同）；新增 continuous-attractor-network 关联节点；key_sources 新增 PMID:35022611、PMID:19229307
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
+- [[2026-07-27-grid-cells-head-direction-spatial-coordinate-system]]
+- [[2026-10-06-grid-cells-toroidal-topology-path-integration]]

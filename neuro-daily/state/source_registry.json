@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-06",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -15379,5 +15379,150 @@
       "10821275",
       "22801498"
     ]
-  }
+  },
+  "sources_2026-10-06": [
+    {
+      "pmid": "19229307",
+      "pmcid": "PMC2632741",
+      "doi": "10.1371/journal.pcbi.1000291",
+      "title": "Accurate path integration in continuous attractor network models of grid cells",
+      "authors_short": "Burak Y, Fiete IR",
+      "journal": "PLoS Computational Biology",
+      "year": 2009,
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-grid-cells-toroidal-topology-path-integration.md"
+      ],
+      "aspects_covered": [
+        "周期性边界（环面）CAN路径积分误差比非周期低5–10倍",
+        "误差增长公式 σ_pos(t) ≈ √(CV² × D × t)",
+        "环面拓扑是CAN模型预测的最优路径积分几何结构"
+      ]
+    },
+    {
+      "pmid": "19095945",
+      "doi": "10.1126/science.1166466",
+      "title": "Representation of geometric borders in the entorhinal cortex",
+      "authors_short": "Solstad T, Boccara CN, Kropff E, Moser MB, Moser EI",
+      "journal": "Science",
+      "year": 2008,
+      "volume": "322:1865-1868",
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-grid-cells-toroidal-topology-path-integration.md"
+      ],
+      "aspects_covered": [
+        "MEC/下托边界细胞发现（对环境边界距离/方向选择性放电）",
+        "边界细胞提供路径积分的空间锚点"
+      ]
+    },
+    {
+      "pmid": "25892299",
+      "doi": "10.1016/j.neuron.2015.03.032",
+      "title": "Environmental boundaries as an error correction mechanism for grid cells",
+      "authors_short": "Hardcastle K, Ganguli S, Giocomo LM",
+      "journal": "Neuron",
+      "year": 2015,
+      "volume": "86:267-278",
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-grid-cells-toroidal-topology-path-integration.md"
+      ],
+      "aspects_covered": [
+        "体内直接测量网格相位漂移速率",
+        "边界接触显著减小积累的相位偏差（锚定效应）",
+        "量化了路径积分误差积累与边界纠错效率的关系"
+      ]
+    },
+    {
+      "pmid": "35022611",
+      "pmcid": "PMC8810387",
+      "doi": "10.1038/s41586-021-04268-7",
+      "title": "Toroidal topology of population activity in grid cells",
+      "authors_short": "Gardner RJ et al. (Moser EI group)",
+      "journal": "Nature",
+      "year": 2022,
+      "volume": "602:123-128",
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-grid-cells-toroidal-topology-path-integration.md"
+      ],
+      "aspects_covered": [
+        "TDA/持续同调证明MEC网格细胞群体活跃流形是二维环面T²",
+        "7671个单元8只大鼠，拓扑指纹：两个1-阶环+一个2-阶空腔",
+        "跨环境流形稳定性 r=0.79，跨睡眠-清醒稳定性 r=0.80–0.83",
+        "排除振荡干涉（OI）模型：OI的非周期相位平面不产生环面拓扑"
+      ]
+    },
+    {
+      "pmid": "17924530",
+      "doi": "10.1002/hipo.20337",
+      "title": "Grid cell firing may arise from interference of theta frequency membrane potential oscillations",
+      "authors_short": "Hasselmo ME, Giocomo LM, Zilli EA",
+      "journal": "Hippocampus",
+      "year": 2007,
+      "volume": "17:1252-1271",
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-grid-cells-toroidal-topology-path-integration.md"
+      ],
+      "aspects_covered": [
+        "振荡干涉（OI）模型：θ频率干涉产生网格空间周期性",
+        "细胞内在振荡频率略高于背景θ"
+      ]
+    },
+    {
+      "pmid": "29743670",
+      "doi": "10.1038/s41586-018-0102-6",
+      "title": "Vector-based navigation using grid-like representations in artificial agents",
+      "authors_short": "Banino A, Barry C et al. (DeepMind)",
+      "journal": "Nature",
+      "year": 2018,
+      "volume": "557:429-433",
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-grid-cells-toroidal-topology-path-integration.md"
+      ],
+      "aspects_covered": [
+        "LSTM-RNN训练目标导向导航后隐层自发涌现类网格六边形表征",
+        "六边形编码的计算必然性（非手工设计）",
+        "移除类网格单元→导航性能下降"
+      ]
+    },
+    {
+      "pmid": "27038766",
+      "doi": "10.1016/j.bbr.2016.03.051",
+      "title": "Real-space path integration is impaired in Alzheimer's disease and mild cognitive impairment",
+      "authors_short": "Mokrisova I, Laczo J, Andel R et al.",
+      "journal": "Behavioural Brain Research",
+      "year": 2016,
+      "volume": "307:150-158",
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-grid-cells-toroidal-topology-path-integration.md"
+      ],
+      "aspects_covered": [
+        "真实空间三角路径整合任务",
+        "AD患者路径整合显著损伤，MCI已有中等程度损伤",
+        "路径整合损伤与内嗅皮层体积正相关"
+      ]
+    },
+    {
+      "pmid": "31386919",
+      "doi": "10.1016/j.neuroimage.2019.04.021",
+      "title": "Computing distance information from landmarks and self-motion cues—Differential contributions of anterior-lateral vs. posterior-medial entorhinal cortex in humans",
+      "authors_short": "Chen X, Vieweg P, Wolbers T",
+      "journal": "NeuroImage",
+      "year": 2019,
+      "volume": "191:415-426",
+      "first_used": "2026-10-06",
+      "used_in_articles": [
+        "2026-10-06-grid-cells-toroidal-topology-path-integration.md"
+      ],
+      "aspects_covered": [
+        "人类内嗅皮层功能双分区：AL-EC（地标参照导航）vs PM-EC（自运动/路径整合）",
+        "虚拟导航fMRI功能区分"
+      ]
+    }
+  ]
 }

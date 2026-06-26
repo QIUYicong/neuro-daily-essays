@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-05",
-  "node_count": 314,
-  "edge_count": 1853,
+  "updated": "2026-10-06",
+  "node_count": 315,
+  "edge_count": 1857,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2868,6 +2868,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/saltatory-conduction.md"
+    },
+    {
+      "id": "continuous-attractor-network",
+      "title": "连续吸引子网络",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/continuous-attractor-network.md"
     }
   ],
   "edges": [
@@ -13278,6 +13287,30 @@
       "from": "bdnf",
       "to": "adaptive-myelination",
       "type": "regulates"
+    },
+    {
+      "from": "continuous-attractor-network",
+      "to": "path-integration",
+      "type": "mechanism-of",
+      "note": "CAN 是路径整合的计算底层；环面拓扑边界实现精确路径积分"
+    },
+    {
+      "from": "continuous-attractor-network",
+      "to": "grid-cells",
+      "type": "mechanism-of",
+      "note": "CAN 的活跃凸块在六边形空间中生成网格细胞的格点激活模式"
+    },
+    {
+      "from": "path-integration",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "AD 和 MCI 患者路径整合行为显著受损，与内嗅皮层体积正相关（Mokrisova 2016）"
+    },
+    {
+      "from": "path-integration",
+      "to": "continuous-attractor-network",
+      "type": "supported-by",
+      "note": "Gardner 2022 TDA 直接证实 CAN 预测的环面拓扑，确立 CAN 为路径整合主流机制"
     }
   ],
   "dangling_references": [

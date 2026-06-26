@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-10-06（#166）：环面与大脑——网格细胞群活跃在拓扑甜甜圈上，路径积分的几何秘密
+
+**文章**：《环面与大脑：当网格细胞群活跃在拓扑甜甜圈上，路径积分的几何秘密》（#166）
+
+**类型**：填补空白 + 关键证据整合（课程脊柱3：大脑如何编码世界·空间表征；脊柱4：学习和记忆·认知地图·路径积分；层级：microcircuit × brain-region × behavior × cognition × computational；选题逻辑：前3篇 molecular/cellular 层级后切换至回路/系统/计算层级；填补 path-integration rev1 缺失 Gardner 2022 决定性证据、continuous-attractor-network 高连接度悬空引用两大空白）
+
+**新创建页面（1）**：
+- `wiki/concepts/continuous-attractor-network.md`（rev1）：新建连续吸引子网络专页，整合 McNaughton 2006 CAN 框架、Burak & Fiete 2009 精确模型（误差公式/环面5–10×精度提升）、Gardner 2022 TDA 直接拓扑验证；含 CAN vs Hopfield 网络对比表；填补 grid-cells/path-integration/head-direction-cells 三页长期悬空引用
+
+**修订页面（2）**：
+- `wiki/concepts/path-integration.md`（rev1→rev2）：新增 Gardner 2022 环面拓扑直接证据；新增 Burak & Fiete 2009 精确误差公式（σ_pos≈√(CV²×D×t)）；新增人类 EC 功能双分区（Chen 2019 AL-EC 地标/PM-EC 自运动）；新增 AD 早期损伤证据（Mokrisova 2016）；新增 AI 类比（Banino 2018 DeepMind 类网格细胞）；新增 continuous-attractor-network、border-cells、alzheimers-disease 连接节点；新增 Q-path-01~04
+- `wiki/concepts/grid-cells.md`（rev1→rev2）：更新 CAN vs OI 争议状态（由"未决"更新为"倾向 CAN 主导，OI 可能协同"）；新增 Gardner 2022 环面拓扑 TDA 直接证据；补充 Burak & Fiete 2009 精确化贡献；新增 continuous-attractor-network 关联节点；key_sources 新增 PMID:35022611、PMID:19229307
+
+**矛盾登记（0）**：无新矛盾。CAN vs OI 争议状态更新为"CAN 主导"而非"CAN 决定性胜出"，因 Gardner 2022 排除纯 OI 但未完全排除 OI 机制协同参与；此更新有明确文献依据（Rowland 2016 综述），非新矛盾。
+
+**新增未解问题（4）**：
+- Q-path-01（高）：主动运动感知（前庭+本体感觉）是路径积分/CAN 激活的充分还是必要条件？
+- Q-path-02（高）：每个网格细胞模块是否有独立的 CAN 和环面？不同间距模块的环面如何协作？
+- Q-path-03（中）：认知地图（时间/概念空间）中是否存在非欧几里得拓扑？EC 编码抽象关系时是否也形成环面？
+- Q-path-04（中）：DeepMind LSTM-RNN 的类网格表征是否也形成环面拓扑？
+
+**图谱**：314节点/1853边 → **315节点/1857边**（+1节点：continuous-attractor-network mainstream/high；+4边：CAN→path-integration mechanism-of, CAN→grid-cells mechanism-of, path-integration→alzheimers-disease related, path-integration→continuous-attractor-network supported-by）
+
+---
+
 ## 2026-10-05（#165）：髓鞘的秘密——少突胶质细胞感知神经冲动，主动重写脑的线路图
 
 **文章**：《髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图》（#165）

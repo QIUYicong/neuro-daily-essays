@@ -219,15 +219,15 @@
     "slug": "grid-cells",
     "status": "established",
     "confidence": "high",
-    "last_changed": "2026-06-22",
-    "reason": "新建：诺贝尔奖研究（Hafting 2005）；六边形格点已在多物种验证；离散模块结构已确认（Stensola 2012）；人类fMRI六边形信号有多项研究支持；生成机制（CAN vs OI）仍争议，但现象本身established"
+    "last_changed": "2026-10-06",
+    "reason": "rev1→rev2 · #166 · 新增 Gardner 2022 环面拓扑证据（CAN vs OI 争议向CAN倾斜，但OI协同角色仍可能）；CAN模型获得直接几何验证，故 CAN vs OI 争议状态从\"尚无定论\"更新为\"CAN主导，OI可能协同\"；现象本身仍 established/high"
   },
   {
     "slug": "path-integration",
     "status": "established",
     "confidence": "high",
-    "last_changed": "2026-06-22",
-    "reason": "新建：暗室导航实验证据充分；联合细胞解剖证据（Sargolini 2006）强；CAN模型是主流；漂移与地标锚定的行为证据有多项研究"
+    "last_changed": "2026-10-06",
+    "reason": "rev1→rev2 · #166 · 新增 Gardner 2022 环面拓扑直接证据（决定性确认CAN预测）、Burak & Fiete 2009精确路径积分模型（周期性边界5–10×误差优越性）、Hardcastle 2015边界纠错体内测量、Mokrisova 2016 AD路径积分损伤、Banino 2018 AI比较；路径积分的现象本身（暗室导航）established；CAN机制也获得直接几何证据（Gardner 2022），维持 established/high"
   },
   {
     "slug": "cognitive-map",
@@ -907,5 +907,12 @@
     "confidence": "high",
     "last_changed": "2026-10-04",
     "reason": "新建 rev1 · #164 · CCAS 临床综合征有多中心强证据：Schmahmann 1998 原始描述、Argyropoulos 2019 任务组共识、Reumers 2025 元分析（129研究 3140患者，语言 d=−0.81，社会认知 d=−0.81）；解剖-功能对应（后部小脑叶→认知，后蚓部→情感）高置信度；前向内部模型损伤假说为 emerging 级理论解释"
+  },
+  {
+    "slug": "continuous-attractor-network",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-10-06",
+    "reason": "新建 rev1 · #166 · CAN模型作为网格细胞生成和路径积分的主流计算框架已被多个实验室接受（McNaughton 2006综述，Burak & Fiete 2009精确化）；Gardner 2022的TDA直接证明了CAN预测的环面拓扑，支持将置信度定为high；但CAN的神经细节（如具体哪些细胞类型实现中心兴奋-环形抑制连接）仍不完全明确，故定为mainstream而非established"
   }
 ]

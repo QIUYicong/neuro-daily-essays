@@ -1,7 +1,64 @@
 {
-  "last_updated": "2026-10-05",
-  "total_articles": 165,
+  "last_updated": "2026-10-06",
+  "total_articles": 166,
   "entries": [
+    {
+      "date": "2026-10-06",
+      "title": "环面与大脑：当网格细胞群活跃在拓扑甜甜圈上，路径积分的几何秘密",
+      "filename": "2026-10-06-grid-cells-toroidal-topology-path-integration.md",
+      "article_number": 166,
+      "wiki_pages_created": [
+        "wiki/concepts/continuous-attractor-network.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/path-integration.md (rev1->rev2)",
+        "wiki/concepts/grid-cells.md (rev1->rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当内嗅皮层的数百个网格细胞同时放电时，它们的集体活跃模式在高维神经元空间中描绘出什么样的几何形状？Gardner 2022 用拓扑数据分析（持续同调）直接证明这是一个二维环面（T²）——这是连续吸引子网络（CAN）模型的决定性实验确认，同时揭示了为什么路径积分系统既精确（环面消除边界效应）又必然漂移（神经噪声在环面上扩散积累），以及边界细胞如何在导航中周期性校正漂移。",
+      "open_questions_added": [
+        "Q-path-01（高优先级）：主动运动感知是路径积分激活的充分还是必要条件？消除前庭输入但保持本体感觉，路径积分系统是否部分激活？",
+        "Q-path-02（高优先级）：Gardner 2022 的环面结构是否在所有网格细胞模块（不同间距）中均成立？不同模块的独立环面如何协作产生超精度位置编码？",
+        "Q-path-03（高优先级）：AD 患者 MEC II 层的环面结构是否比行为学路径积分损伤更早退化？能否开发非侵入性环面完整性度量作为早期生物标志物？",
+        "Q-path-04（中优先级）：DeepMind 2018 LSTM-RNN 的类网格激活是否也形成环面拓扑？TDA 分析能否复现生物环面的跨环境和跨状态稳定性？"
+      ],
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition",
+        "computational"
+      ],
+      "curriculum_track": "课程脊柱3（大脑如何编码世界：空间表征·网格细胞·路径积分）+ 课程脊柱4（学习和记忆：认知地图·连续吸引子网络·环面拓扑）",
+      "topic_tags": [
+        "grid cells entorhinal cortex MEC path integration spatial navigation",
+        "continuous attractor network CAN Mexican hat center surround inhibition activity bump",
+        "toroidal topology torus 2D manifold T2 persistent cohomology TDA",
+        "Gardner 2022 Nature toroidal topology grid cells PMC8810387",
+        "Burak Fiete 2009 PLoS Comput Biol path integration CAN PMC2632741",
+        "Hardcastle 2015 Neuron border cells error correction path integration",
+        "McNaughton 2006 Nat Rev Neurosci CAN cognitive map review",
+        "Mokrisova 2016 Behav Brain Res Alzheimers MCI path integration behavioral",
+        "Banino DeepMind 2018 Nature artificial grid cells LSTM RNN RL navigation",
+        "Chen 2019 NeuroImage AL-EC PM-EC human entorhinal path integration landmark",
+        "Hasselmo oscillatory interference OI model theta frequency grid spacing",
+        "dead reckoning idiothetic cues vestibular proprioception visual flow optic flow",
+        "conjunctive cells position direction velocity Sargolini 2006 Science",
+        "border cells Solstad 2008 environmental boundary spatial anchor"
+      ],
+      "main_sources": [
+        "PMID:35022611 / PMCID:PMC8810387 (Gardner et al. 2022, Nature 602:123-128, toroidal topology TDA, OPEN)",
+        "PMID:19229307 / PMCID:PMC2632741 (Burak & Fiete 2009, PLoS Comput Biol, precise CAN path integration, OPEN)",
+        "PMID:16858394 (McNaughton et al. 2006, Nat Rev Neurosci 7:663-678, CAN model review, abstract only)",
+        "PMID:15965463 (Hafting et al. 2005, Nature 436:801-806, grid cell discovery, abstract only)",
+        "PMID:16675704 (Sargolini et al. 2006, Science 312:758-762, conjunctive cells, abstract only)",
+        "PMID:25892299 (Hardcastle et al. 2015, Neuron 86:267-278, border cells error correction, abstract only)",
+        "PMID:27038766 (Mokrisova et al. 2016, Behav Brain Res 307:150-158, AD path integration, abstract only)",
+        "PMID:29743670 (Banino et al. 2018, Nature 557:429-433, DeepMind artificial grid cells, abstract only)",
+        "PMID:31386919 (Chen et al. 2019, NeuroImage 191:415-426, human EC functional dissociation, abstract only)"
+      ]
+    },
     {
       "date": "2026-10-05",
       "title": "髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图",

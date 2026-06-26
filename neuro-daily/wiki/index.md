@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-05（第165篇·髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图）· 主题页总数：**309**（新建4页：neurons/oligodendrocyte, concepts/adaptive-myelination, concepts/oligodendrocyte-precursor-cell, concepts/saltatory-conduction；图谱314节点/1853边）
+> 最后更新：2026-10-06（第166篇·环面与大脑：当网格细胞群活跃在拓扑甜甜圈上，路径积分的几何秘密）· 主题页总数：**310**（新建1页：concepts/continuous-attractor-network；修订2页：concepts/path-integration rev2, concepts/grid-cells rev2；图谱315节点/1857边）
 
 ---
 
@@ -76,6 +76,7 @@
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
+- 🔵 [连续吸引子网络](concepts/continuous-attractor-network.md) — 中心兴奋-环形抑制（墨西哥帽型）连接产生稳定活跃凸块，速度输入驱动凸块平滑平移实现路径整合；网格细胞CAN模型；Gardner 2022 TDA直接证实其预测的环面拓扑（T²）；对比Hopfield离散吸引子 **[NEW 2026-10-06]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑；皮层拓扑地图的经验依赖重组（Merzenich 1983–1993）是其在全脑图谱尺度的直接证明 **[修订 rev6 2026-07-29]**
 - 🟢 [皮层可塑性](concepts/cortical-plasticity.md) — 成年初级感觉皮层（S1/A1/V1）的经验依赖拓扑重组；Merzenich系列实验；需行为相关性（注意门控）；感觉剥夺重启关键期状态；多时间尺度机制（GABA解除/LTP/轴突出芽）**[NEW 2026-07-29]**
@@ -91,7 +92,7 @@
 - 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重耦合）；Maingret 2016 闭环因果证据**[修订 2026-07-07]**
 - 🟢 [场所细胞](concepts/place-cells.md) — 海马CA1/CA3位置特异放电神经元；稀疏编码（1–5%激活）；重映射（不同环境正交表征）；θ相位前移实现双重位置编码；SWR期间序列以20倍速重播；是认知地图基本编码单元 **[NEW 2026-06-22]**（填补长期悬空引用）
 - 🟢 [网格细胞](concepts/grid-cells.md) — 内侧内嗅皮层MEC以六边形格点激活的神经元；三参数（间距/方向/相位）完全描述；4–7离散模块比√2；背腹向间距梯度（20cm–1.5m）；路径整合的坐标输出；活跃于心理模拟和概念空间（Qu 2026 Cell：发育成熟预测流体智力）**[NEW 2026-06-22]**（填补长期悬空引用）
-- 🟢 [路径整合](concepts/path-integration.md) — 通过持续积累速度矢量估计当前位置；不依赖外部地标；联合细胞（位置+方向+速度）实现；随时间漂移需地标锚定；是黑暗导航的神经机制 **[NEW 2026-06-22]**
+- 🟢 [路径整合](concepts/path-integration.md) — 通过持续积累速度矢量估计当前位置；不依赖外部地标；联合细胞（位置+方向+速度）实现；随时间漂移需地标锚定；CAN环面拓扑使误差降低5–10×（Burak 2009）；Gardner 2022 TDA直接证实；AD早期路径整合受损与EC体积相关 **[NEW 2026-06-22 · 修订 rev2 2026-10-06]**
 - 🟢 [θ相位前移](concepts/theta-phase-precession.md) — 场所细胞放电相位随穿越场所场系统性提前约100–355°；产生θ序列（125ms内压缩数秒路径）；为STDP提供时间压缩框架；O'Keefe & Recce 1993经典发现；CAN vs OI两机制模型仍未决 **[NEW 2026-06-22]**（填补theta-oscillations页面的phase-precession悬空引用）
 - 🔵 [认知地图](concepts/cognitive-map.md) — 海马-EC构建的空间（及概念）关系内部模型；从Tolman 1948捷径行为到场所/网格双系统；扩展至时间序列（情节记忆）、心理模拟（Bellmund 2016）、概念空间（Viganò 2023）；发育研究证据（Qu 2026）**[NEW 2026-06-22]**
 - 🟢 [睡眠纺锤波](concepts/sleep-spindles.md) — TRN CaV3.3→TRN↔TC振荡→12–15 Hz梭形波；皮层树突L型Ca²⁺预热窗口；SO-spindle-SWR三重奏中间层；CACNA1I变异→精神分裂症纺锤波缺陷；三重耦合因果实验（Latchoumane 2017）；老龄化相位偏移 46.3°→记忆损害（Helfrich 2018）**[修订 2026-07-07]**
