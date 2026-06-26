@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28",
+  "last_updated": "2026-10-02",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10071,6 +10071,158 @@
         "EphrinB2/EphB受体在HPC-皮层连接重塑中的角色",
         "当前（2026年）记忆巩固分子机制综合综述"
       ]
+    },
+    {
+      "pmid": "16147522",
+      "pmcid": "PMC1569501",
+      "doi": "10.1098/rstb.2005.1661",
+      "title": "What is the function of the claustrum?",
+      "authors_short": "Crick FC, Koch C",
+      "journal": "Phil Trans R Soc B",
+      "year": 2005,
+      "first_used": "2026-10-02",
+      "used_in_articles": [
+        "2026-10-02-claustrum-consciousness-orchestrator"
+      ],
+      "aspects_covered": [
+        "claustrum anatomy",
+        "consciousness integration",
+        "cortical connectivity"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "32393895",
+      "pmcid": null,
+      "doi": "10.1038/s41593-020-0625-7",
+      "title": "The claustrum coordinates cortical slow-wave activity",
+      "authors_short": "Narikiyo K et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2020,
+      "first_used": "2026-10-02",
+      "used_in_articles": [
+        "2026-10-02-claustrum-consciousness-orchestrator"
+      ],
+      "aspects_covered": [
+        "slow-wave coordination",
+        "optogenetics",
+        "cortical silencing"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "30122531",
+      "pmcid": null,
+      "doi": "10.1016/j.cub.2018.07.048",
+      "title": "The Claustrum Supports Resilience to Distraction",
+      "authors_short": "Atlan G et al.",
+      "journal": "Current Biology",
+      "year": 2018,
+      "first_used": "2026-10-02",
+      "used_in_articles": [
+        "2026-10-02-claustrum-consciousness-orchestrator"
+      ],
+      "aspects_covered": [
+        "attention filtering",
+        "distraction resilience",
+        "CLEgr2+ neurons"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "24967698",
+      "pmcid": null,
+      "doi": "10.1016/j.yebeh.2014.05.027",
+      "title": "Electrical stimulation of a small brain area reversibly disrupts consciousness",
+      "authors_short": "Koubeissi MZ et al.",
+      "journal": "Epilepsy & Behavior",
+      "year": 2014,
+      "first_used": "2026-10-02",
+      "used_in_articles": [
+        "2026-10-02-claustrum-consciousness-orchestrator"
+      ],
+      "aspects_covered": [
+        "clinical evidence",
+        "consciousness disruption",
+        "electrical stimulation"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "32531275",
+      "pmcid": null,
+      "doi": "10.1016/j.cub.2020.04.011",
+      "title": "Synaptic Connectivity between the Cortex and Claustrum Is Organized into Functional Modules",
+      "authors_short": "Chia Z et al.",
+      "journal": "Current Biology",
+      "year": 2020,
+      "first_used": "2026-10-02",
+      "used_in_articles": [
+        "2026-10-02-claustrum-consciousness-orchestrator"
+      ],
+      "aspects_covered": [
+        "functional modules",
+        "synaptic connectivity",
+        "ACC input"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "24624064",
+      "pmcid": "PMC3935397",
+      "doi": "10.3389/fnint.2014.00009",
+      "title": "The claustrum's proposed role in consciousness is supported by the effect and target of Salvinorin A",
+      "authors_short": "Stiefel KM et al.",
+      "journal": "Frontiers in Integrative Neuroscience",
+      "year": 2014,
+      "first_used": "2026-10-02",
+      "used_in_articles": [
+        "2026-10-02-claustrum-consciousness-orchestrator"
+      ],
+      "aspects_covered": [
+        "kappa-opioid receptor",
+        "Salvinorin A",
+        "consciousness pharmacology"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "37701759",
+      "pmcid": "PMC10493512",
+      "doi": "10.1016/j.ijchp.2023.100398",
+      "title": "The claustrum and consciousness: An update",
+      "authors_short": "Liaw YS et al.",
+      "journal": "International Journal of Clinical and Health Psychology",
+      "year": 2023,
+      "first_used": "2026-10-02",
+      "used_in_articles": [
+        "2026-10-02-claustrum-consciousness-orchestrator"
+      ],
+      "aspects_covered": [
+        "systematic review",
+        "clinical evidence",
+        "consciousness theories"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "41431109",
+      "pmcid": "PMC12955989",
+      "doi": "10.1002/advs.202500893",
+      "title": "Nurr1 Orchestrates Claustrum Development and Functionality",
+      "authors_short": "Yan K et al.",
+      "journal": "Advanced Science",
+      "year": 2026,
+      "first_used": "2026-10-02",
+      "used_in_articles": [
+        "2026-10-02-claustrum-consciousness-orchestrator"
+      ],
+      "aspects_covered": [
+        "claustrum development",
+        "Nurr1",
+        "cortical markers"
+      ],
+      "open_access": true
     }
   ],
   "total_sources": 589,
@@ -14663,7 +14815,7 @@
       "41974891"
     ]
   },
-  {
+  "sources_2026-09-26": {
     "article": "2026-09-26-habit-goal-directed-dorsal-striatum",
     "article_number": 156,
     "sources_added": 8,
@@ -14695,7 +14847,7 @@
       "39632222"
     ]
   },
-  {
+  "sources_2026-09-27": {
     "article": "2026-09-27-addiction-habit-compulsion-neural-mechanisms",
     "article_number": 157,
     "sources_added": 7,
@@ -14726,9 +14878,8 @@
       "33955649",
       "14750976"
     ]
-  }
-,
-  {
+  },
+  "sources_2026-09-28": {
     "article": "2026-09-28-corticostriatal-stdp-d1d2-plasticity",
     "article_number": 158,
     "sources_added": 4,
@@ -14751,9 +14902,8 @@
       "20613723",
       "21469956"
     ]
-  }
-,
-  {
+  },
+  "sources_2026-09-29": {
     "article": "2026-09-29-eligibility-trace-temporal-credit-assignment",
     "article_number": 159,
     "sources_added": 5,
@@ -14778,9 +14928,8 @@
       "18687967",
       "30593289"
     ]
-  }
-,
-  {
+  },
+  "sources_2026-09-30": {
     "article": "2026-09-30-swr-sleep-ltp-consolidation",
     "article_number": 160,
     "sources_added": 7,
@@ -14808,7 +14957,7 @@
       "27182818"
     ]
   },
-  {
+  "sources_2026-10-01": {
     "article": "2026-10-01-semantic-cortical-map",
     "article_number": 161,
     "sources_added": 7,
@@ -14834,6 +14983,33 @@
       "18511683",
       "34711960",
       "38589231"
+    ]
+  },
+  "sources_2026-10-02": {
+    "article": "2026-10-02-claustrum-consciousness-orchestrator",
+    "article_number": 162,
+    "sources_added": 8,
+    "sources_reused": 0,
+    "new_pmids": [
+      "16147522",
+      "32393895",
+      "30122531",
+      "24967698",
+      "32531275",
+      "24624064",
+      "37701759",
+      "41431109"
+    ],
+    "reused_pmids": [],
+    "all_pmids": [
+      "16147522",
+      "32393895",
+      "30122531",
+      "24967698",
+      "32531275",
+      "24624064",
+      "37701759",
+      "41431109"
     ]
   }
 }

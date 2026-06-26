@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-01（第161篇·概念的地理学：人类皮层语义地图的神经科学）· 主题页总数：**303**（新建1页：concepts/semantic-cortical-map；修订2页：concepts/semantic-memory rev1→rev2、systems/language-network rev6→rev7；图谱308节点/1822边）
+> 最后更新：2026-10-02（第162篇·屏状核：大脑最神秘的指挥家）· 主题页总数：**304**（新建1页：systems/claustrum；修订0页；图谱309节点/1832边）
 
 ---
 
@@ -289,6 +289,7 @@
 - 🟢 [外侧缰核（Lateral Habenula, LHb）](systems/lateral-habenula.md) — 间脑上丘脑的惩罚信号计算器；编码负预测误差（nRPE）；经 RMTg 主动抑制 VTA 多巴胺；直接抑制 DRN 血清素；抑郁中病理性爆发放电；氯胺酮快速抗抑郁通过抑制 LHb 爆发实现 **[NEW 2026-09-19]**
 - 🟢 [伏隔核（Nucleus Accumbens, NAc）](systems/nucleus-accumbens.md) — 腹侧纹状体的动机计算枢纽；D1/D2 MSN时程效应（短暂激活均→奖赏，持续激活均→厌恶，Soares-Cunha 2020打破经典D1=奖赏/D2=厌恶二分法）；享乐热点（壳区前内侧~1mm³，阿片→liking翻倍，eCB→liking需阿片协同，多巴胺在此不增强liking）；社会奖赏专用接口（OTR+MOR正向/KOR负向/eCB正向的NAc壳区四系统整合）；多路输入：VTA-DA（wanting）/PFC-Glu（认知控制）/杏仁核BLA（情感价值）/海马（情境）/PVN-OXT（社会特异性门控）；NAc DBS用于难治性抑郁（~40%反应率）**[NEW 2026-08-20]**
 - 🟢 [眶额皮层（OFC）](systems/orbitofrontal-cortex.md) — 额叶最腹侧的新皮层区域；三类功能神经元（提案/选定/效用价值细胞）构成决策流水线；BLA-OFC双向回路是目标导向价值学习的神经基础（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS投射将价值信号转化为行动（Gore 2023光遗传学因果）；lOFC驱动感觉皮层重映射支持逆向学习；价值代码纵向稳定（Zhang 2024双光子）**[NEW 2026-08-21]**
+- 🟡 [屏状核（Claustrum）](systems/claustrum.md) — 藏于外侧裂最深处的薄层灰质，具有几乎全皮层的双向连接；Francis Crick 的"意识指挥家"候选；注意过滤（Atlan 2018 光遗传因果）+慢波协调（Narikiyo 2020 光遗传因果）；κ-阿片受体密度全脑最高（Salvinorin A 链接）；Koubeissi 2014 电刺激→意识中断（单例，有争议）；Duffau 2007 切除→功能完全恢复（挑战"必不可少"论）**[NEW 2026-10-02]**
 - 🟢 [岛叶皮层（Insular Cortex）](systems/insular-cortex.md) — 藏于外侧裂深处的多层级内感觉处理中枢；四区功能分化（后颗粒岛体感拓扑/中岛预测误差/前岛主观感受生成/前岛极沉默性顶端控制）；VMpo→后岛专属内感觉通路（区别于 VPM→S1）；前岛含 VENs（体积4.6×，快速远程同步，与 alexithymia 关联）；EPIC 预测编码模型（Barrett 2015）与 IMAC 三层计算模型（Fermin 2022）；显著性网络（岛叶-ACC）；躯体标记（岛叶→OFC/vmPFC）；精神疾病共同病理节点（抑郁/精分/成瘾）**[NEW 2026-08-22]**
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；rIFG/preSMA反应抑制（超直接通路）；vmPFC/OFC价值决策腹侧亚区；dlPFC认知弹性三重机制（混合选择性/群体动力学/振荡选通）；**rev7新增**：vmPFC作为情绪调节腹侧亚区（认知重评三层级+IL消退同源+sgACC轴+抑郁回路）**[修订 rev6→rev7 2026-08-25]**
 - 🟢 [腹内侧前额叶皮层（vmPFC）](systems/vmPFC.md) — PFC情绪调节枢纽（BA10/11/12/25/32腹侧）；vlPFC→vmPFC→杏仁核三层级认知重评回路；IL/vmPFC→腹侧ITC→CeM恐惧消退回路；sgACC（BA25）"内脏运动皮层"自主神经调节轴；抑郁症vmPFC灰质减少+sgACC超激活；Mayberg 2005 BA25 DBS治疗TRD **[NEW 2026-08-25]**

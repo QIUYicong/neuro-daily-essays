@@ -893,5 +893,12 @@
     "confidence": "medium",
     "last_changed": "2026-09-29",
     "reason": "修订 rev4（累积至今）· 核心机制框架强；分子标签身份仍未确定；行为标记量化（Wang 2010 P<0.001）和资格痕迹（Fuchsberger 2022）支持时间整合框架；AD中STC失效（Bin Ibrahim 2024）提示疾病相关性"
+  },
+  {
+    "slug": "claustrum",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-10-02",
+    "reason": "新建 rev1 · #162 · 有光遗传因果证据（小鼠：Narikiyo 2020注意过滤、Atlan 2018慢波协调），但人类意识直接证据有争议（Koubeissi 2014单例，未复现）；发育基础新建（Yan 2026 Nurr1）；手术切除案例（Duffau 2007）对强版本意识假说构成挑战"
   }
 ]

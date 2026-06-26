@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-29",
-  "total_articles": 159,
+  "last_updated": "2026-10-02",
+  "total_articles": 162,
   "entries": [
     {
       "date": "2026-09-21",
@@ -9953,7 +9953,10 @@
       "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-10-01（第161篇皮层语义地图文章）",
       "topic": "概念的地理学：人类皮层语义地图的神经科学",
       "slug": "semantic-cortical-map",
-      "dimensions": ["whole-brain-network", "cognition"],
+      "dimensions": [
+        "whole-brain-network",
+        "cognition"
+      ],
       "layer": "whole-brain-network / cognition",
       "key_concepts": [
         "semantic cortical map",
@@ -9964,7 +9967,9 @@
         "Popham 2021 visual-linguistic alignment at visual cortex border",
         "Binder 2009 semantic network meta-analysis"
       ],
-      "new_wiki_pages": ["concepts/semantic-cortical-map"],
+      "new_wiki_pages": [
+        "concepts/semantic-cortical-map"
+      ],
       "revised_wiki_pages": [
         "concepts/semantic-memory (rev1→rev2)",
         "systems/language-network (rev6→rev7)"
@@ -9995,6 +10000,64 @@
         "感知/身体概念 vs 社会/情绪概念的双解离——损伤TME/pSTS（感知）vs 损伤mPFC/IPL（社会）的行为预测"
       ],
       "graph_update": "307→308节点 (+1: semantic-cortical-map); 1813→1822边 (+9边: semantic-cortical-map→semantic-memory, semantic-cortical-map→language-network, semantic-cortical-map→default-mode-network, semantic-cortical-map→embodied-semantics, semantic-cortical-map→predictive-coding, semantic-cortical-map→anterior-temporal-lobe, semantic-cortical-map→broca-area, semantic-memory→semantic-cortical-map, language-network→semantic-cortical-map)"
+    },
+    {
+      "article_number": 162,
+      "knowledge_base_date": "2026-10-02",
+      "system_clock_date": "2026-06-26",
+      "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-10-02（第162篇屏状核文章）",
+      "date": "2026-10-02",
+      "title": "屏状核：大脑最神秘的指挥家",
+      "filename": "2026-10-02-claustrum-consciousness-orchestrator.md",
+      "wiki_pages_created": [
+        "wiki/systems/claustrum.md (rev1, NEW)"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "屏状核如何通过几乎覆盖全皮层的双向连接协调神经活动？它在意识统一、注意过滤和慢波睡眠同步中各扮演什么角色？",
+      "open_questions_added": [
+        "Q-claust-01（高优先级）：屏状核与初级视觉皮层V1的往返连接完整性",
+        "Q-claust-02（高优先级）：缝隙连接gamma频段全域同步的直接体内证据",
+        "Q-claust-03（中优先级）：功能模块组织与全皮层协调的共存机制",
+        "Q-claust-04（中优先级）：清醒态注意过滤vs睡眠态慢波协调的双态功能机制"
+      ],
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱8（意识与自我：NCC争议中的候选结构）+ 课程脊柱3（感觉系统：全皮层整合枢纽）",
+      "topic_tags": [
+        "claustrum whole-brain connectivity consciousness",
+        "Crick Koch 2005 conductor of consciousness orchestra",
+        "Narikiyo 2020 slow-wave cortical synchrony optogenetics",
+        "Atlan 2018 distraction resilience attention filtering",
+        "Koubeissi 2014 electrical stimulation consciousness disruption",
+        "kappa-opioid receptor Salvinorin A consciousness pharmacology",
+        "Chia 2020 functional modules cortex claustrum",
+        "insular cortex adjacency gap junction synchronization"
+      ],
+      "main_sources": [
+        "PMID:16147522",
+        "PMID:32393895",
+        "PMID:30122531",
+        "PMID:24967698",
+        "PMID:24624064",
+        "PMID:37701759"
+      ],
+      "unresolved_questions": [
+        "Q-claust-01",
+        "Q-claust-02",
+        "Q-claust-03",
+        "Q-claust-04"
+      ],
+      "next_suggested_topics": [
+        "屏状核与分裂症的连接——精神分裂症中屏状核体积减小与感觉门控失调的回路机制",
+        "缝隙连接与大脑神经元电耦合——gap junction在皮层回路中的生理功能及失调",
+        "意识状态连续谱：从清醒/睡眠/麻醉到最小意识状态的屏状核-TRN-皮层轴变化",
+        "赛洛西宾与意识神经回路——DMN去整合、屏状核活动下降与意识体验改变的关系"
+      ]
     }
   ]
 }

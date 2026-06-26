@@ -1,0 +1,106 @@
+# 2026-10-02 运行日志
+
+## 基本信息
+
+- **文章编号**：#162
+- **知识库日期**：2026-10-02
+- **系统时钟日期**：2026-06-26
+- **主题**：屏状核：大脑最神秘的指挥家
+- **文件 slug**：claustrum-consciousness-orchestrator
+- **层级**：brain-region / whole-brain-network / cognition / behavior
+- **新建 wiki 页**：systems/claustrum（emerging/medium）
+
+## 选题依据
+
+- 上篇文章（#161）为全脑皮层语义地图（whole-brain-network/cognition层）；本篇同层但切换至意识/脑区主题
+- 屏状核 wiki 页缺口：wiki 中无此节点，而屏状核连接多个已有节点（insular-cortex, consciousness-ignition, slow-wave-sleep, integrated-information-theory, global-workspace-theory）
+- 课程脊柱意识轨道：consciousness-ignition, neural-correlates-of-consciousness, IIT, GWT 等已有；屏状核是意识轨道的重要候选结构，且有新2026年文献（Yan 2026, PMID:41431109）
+- 在 topic_ledger 的 next_suggested_topics 中曾多次出现意识整合/NCC类题目
+
+## 检索执行
+
+### 使用的 API
+
+- PubMed E-utilities (esearch, efetch, esummary)
+- PMC Full Text (pmc.ncbi.nlm.nih.gov/articles/)
+
+### 完成的检索
+
+1. **"claustrum consciousness cortex"** → Crick & Koch 2005 (Phil Trans R Soc B), Liaw 2023 综述
+2. **"claustrum attention optogenetics"** → Atlan 2018 (Current Biology)
+3. **"claustrum cortex function connectivity"** → Chia 2020 (Current Biology), Narikiyo 2020 (Nature Neuroscience)
+4. **"Narikiyo claustrum cortical silencing 2020"** → Narikiyo 2020 (Nature Neuroscience)
+5. **"Atlan claustrum distraction attention 2018"** → Atlan 2018 (Current Biology)
+6. **"Koubeissi claustrum stimulation consciousness 2014"** → Koubeissi 2014 (Epilepsy & Behavior)
+7. **"claustrum kappa opioid Salvinorin consciousness"** → Stiefel 2014 (Frontiers in Integrative Neuroscience)
+8. **"Nurr1 claustrum development 2026"** → Yan 2026 (Advanced Science, PMID:41431109)
+
+### 使用的来源
+
+| PMID | 来源 | 获取状态 |
+|------|------|---------|
+| PMID:16147522 | Crick & Koch 2005, Phil Trans R Soc B | 全文（PMC1569501）|
+| PMID:32393895 | Narikiyo et al. 2020, Nature Neuroscience | 摘要（付费墙）|
+| PMID:30122531 | Atlan et al. 2018, Current Biology | 摘要（付费墙）|
+| PMID:24967698 | Koubeissi et al. 2014, Epilepsy & Behavior | 摘要（付费墙）|
+| PMID:32531275 | Chia et al. 2020, Current Biology | 摘要（付费墙）|
+| PMID:24624064 | Stiefel et al. 2014, Frontiers in Integrative Neuroscience | 全文（PMC3935397）|
+| PMID:37701759 | Liaw et al. 2023, Int J Clin Health Psychol | 全文（PMC10493512）|
+| PMID:41431109 | Yan et al. 2026, Advanced Science | 摘要（PMC12955989 可用，仅读摘要）|
+
+### 来源统计
+
+- 总来源数：8
+- 开放全文已读：3（PMC1569501, PMC3935397, PMC10493512）
+- 仅读摘要：4
+- PMC ID 可用（未读全文）：1（PMC12955989）
+- 满足 ROUTINE 最低要求（≥5来源、≥2开放全文）：✅
+
+## 文章创作
+
+- **字符数**：约4200字（含标题、图表、引用）
+- **文章路径**：neuro-daily/articles/2026-10-02-claustrum-consciousness-orchestrator.md
+- **笔记路径**：neuro-daily/notes/2026-10-02-reading-notes.md
+- **来源路径**：neuro-daily/sources/2026-10-02-sources.json
+
+## 知识库更新
+
+### Wiki 变更
+
+- 新建页面（1个）：wiki/systems/claustrum.md（emerging/medium）
+  - 记录三种功能理论框架（意识整合、注意过滤、皮层慢波协调）
+  - 证据表（10行）
+  - 4个未解问题（Q-claust-01至Q-claust-04）
+
+### 图谱更新
+
+- 节点：308 → 309（+1 个：claustrum）
+- 边：1822 → 1832（+10 条）
+- 新增边类型：related, is-adjacent-to, part-of, mechanism-of, regulates, is-candidate-of
+
+### 状态文件更新
+
+- topic_ledger.json：total_articles 161 → 162，新增 2026-10-02 条目
+- unresolved_questions.md：新增 Q-claust-01 至 Q-claust-04
+- source_registry.json：新增 8 条来源 + 修复 6 个历史 JSON 格式错误（缺失 key 名称：2026-09-26 至 2026-10-01）
+- maturity_index.json：新增 claustrum 条目（emerging/medium）
+- monthly_synthesis.md：新增 2026年10月 节，#162 条目
+- wiki/CHANGELOG.md：新增 2026-10-02 条目
+- wiki/index.md：更新头部（总页数 304，图谱 309 节点/1832 边），新增屏状核列表项
+
+## 异常与修复
+
+### Git 拉取分歧
+- **问题**：`git pull origin main` 报 "fatal: Need to specify how to reconcile divergent branches"
+- **修复**：使用 `git pull --rebase origin main`
+
+### source_registry.json JSON 格式错误
+- **问题**：历史 6 条记录（2026-09-26 至 2026-10-01）缺少键名，导致 JSON 解析失败
+- **根本原因**：前期 运行写入时直接在对象内插入子对象 `{...}` 而非带键的 `"sources_DATE": {...}`
+- **修复**：Python 脚本识别两种错误模式（`,\n  {\n` 和 `}\n,\n  {\n`）并批量修复，恢复有效 JSON
+
+## 运行摘要
+
+- 运行时长：约 90 分钟（含上下文压缩恢复后继续）
+- 状态：完成
+- 推送目标：origin/main（QIUYicong/neuro-daily-essays）

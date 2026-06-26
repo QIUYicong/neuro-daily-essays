@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-10-02（#162）：屏状核——大脑最神秘的指挥家
+
+**文章**：《屏状核：大脑最神秘的指挥家》（#162）
+
+**类型**：新区域深挖（课程脊柱8：意识与自我；层级：brain-region + whole-brain-network；主题切换，避免连续记忆/RL主题）
+
+**新创建页面（1）**：
+- `wiki/systems/claustrum.md`（新建，emerging/medium）：屏状核解剖（全皮层双向连接；κ-阿片受体密度全脑最高；功能模块组织）；三大功能假说（Crick-Koch意识指挥家 / Atlan注意过滤 / Narikiyo慢波协调）；关键实验证据（光遗传因果实验；Koubeissi 2014电刺激；Duffau 2007手术切除功能恢复）；4个未解问题
+
+**修订页面（0）**：本日无既有 wiki 页修订（屏状核是全新节点，相关页面 IIT / GWT / 岛叶皮层不新增证据，仅在图谱中建立连接）
+
+**矛盾登记（0）**：无新矛盾（屏状核研究与既有意识理论框架相关但不直接冲突；Koubeissi 2014 vs Bickel & Parvizi 2019 冲突已在文章中如实呈现，但属于屏状核自身的内部争议，而非与已登记的 IIT/GWT 矛盾冲突）
+
+**新增未解问题（4）**：
+- Q-claust-01（高）：屏状核与初级视觉皮层（V1）的往返连接完整性——灵长类仍有争议
+- Q-claust-02（高）：缝隙连接产生 gamma 频段全域同步的直接体内电生理证据缺失
+- Q-claust-03（中）：功能模块组织与全皮层协调功能的共存机制
+- Q-claust-04（中）：清醒态注意过滤与睡眠态慢波协调的双态功能分子机制
+
+**图谱**：308节点/1822边 → **309节点/1832边**（+1节点：claustrum；+10边：claustrum→insular-cortex, claustrum→integrated-information-theory, claustrum→global-workspace-theory, claustrum→consciousness-ignition, claustrum→anterior-cingulate-cortex, claustrum→slow-wave-sleep, claustrum→attention, claustrum→neural-correlates-of-consciousness, claustrum→perturbational-complexity-index, insular-cortex→claustrum）
+
+---
+
 ## 2026-10-01（#161）：概念的地理学——皮层语义地图
 
 **文章**：《概念的地理学：人类皮层语义地图的神经科学》（#161）

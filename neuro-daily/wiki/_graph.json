@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "node_count": 308,
   "edge_count": 1822,
   "edge_types": [
@@ -2814,6 +2814,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/semantic-cortical-map.md"
+    },
+    {
+      "id": "claustrum",
+      "title": "屏状核",
+      "domain": "systems",
+      "type": "region",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/systems/claustrum.md"
     }
   ],
   "edges": [
@@ -13059,6 +13068,66 @@
       "to": "semantic-cortical-map",
       "type": "related",
       "note": "语义地图是语言网络腹侧流的意义存储几何"
+    },
+    {
+      "from": "claustrum",
+      "to": "insular-cortex",
+      "type": "related",
+      "note": "屏状核紧邻岛叶皮层，共同构成外侧裂区域；解剖邻居，功能上有重叠"
+    },
+    {
+      "from": "claustrum",
+      "to": "integrated-information-theory",
+      "type": "related",
+      "note": "Crick-Koch意识指挥家假说与IIT意识基质预测的后方皮层相关；药理学证据（Salvinorin A）间接支持IIT框架"
+    },
+    {
+      "from": "claustrum",
+      "to": "global-workspace-theory",
+      "type": "related",
+      "note": "屏状核可能参与GWT的全局广播协调，其全皮层连接是GWT前额-感觉皮层广播的潜在解剖基础"
+    },
+    {
+      "from": "claustrum",
+      "to": "consciousness-ignition",
+      "type": "related",
+      "note": "屏状核是意识神经相关物（NCC）的候选结构，Koubeissi 2014电刺激引发意识中断"
+    },
+    {
+      "from": "claustrum",
+      "to": "anterior-cingulate-cortex",
+      "type": "related",
+      "note": "ACC向屏状核强投射，提供任务目标和显著性信号；驱动屏状核的注意过滤功能"
+    },
+    {
+      "from": "claustrum",
+      "to": "slow-wave-sleep",
+      "type": "regulates",
+      "note": "光遗传激活屏状核→全皮层慢波同步down state；消融→额叶慢波减弱（Narikiyo 2020）"
+    },
+    {
+      "from": "claustrum",
+      "to": "attention",
+      "type": "mechanism-of",
+      "note": "CLEgr2+屏状核神经元过滤无关干扰，保护注意焦点（Atlan 2018光遗传证据）"
+    },
+    {
+      "from": "claustrum",
+      "to": "neural-correlates-of-consciousness",
+      "type": "related",
+      "note": "屏状核是NCC的主要候选结构之一（Crick & Koch 2005）"
+    },
+    {
+      "from": "claustrum",
+      "to": "perturbational-complexity-index",
+      "type": "related",
+      "note": "PCI捕捉全皮层整合信息能力，屏状核的全皮层协调功能与PCI测量的整合复杂度理论相关"
+    },
+    {
+      "from": "insular-cortex",
+      "to": "claustrum",
+      "type": "related",
+      "note": "岛叶皮层与屏状核解剖紧邻，功能边界尚不清晰（Koubeissi 2014刺激可能实际影响了前岛叶）"
     }
   ],
   "dangling_references": [
