@@ -10766,6 +10766,76 @@
         "2026-10-07-inferior-olive-cx36-motor-learning"
       ],
       "open_access": false
+    },
+    {
+      "pmid": "12062025",
+      "title": "Reciprocal bidirectional plasticity of parallel fiber receptive fields in cerebellar Purkinje cells and their afferent interneurons",
+      "authors": "Jörntell H, Ekerot CF",
+      "journal": "Neuron",
+      "year": 2002,
+      "date_added": "2026-10-09",
+      "covers": [
+        "MLI 逆向可塑性",
+        "CF 信号的双路作用",
+        "小脑皮层回路可塑性"
+      ]
+    },
+    {
+      "pmid": "38692278",
+      "pmcid": "PMC11360088",
+      "title": "Specialized connectivity of molecular layer interneuron subtypes leads to disinhibition and synchronous inhibition",
+      "authors": "Lackey EP et al.",
+      "journal": "Neuron",
+      "year": 2024,
+      "date_added": "2026-10-09",
+      "covers": [
+        "MLI1/MLI2 亚型",
+        "Cx36 MLI 电偶联",
+        "去抑制门控",
+        "小脑皮层回路"
+      ]
+    },
+    {
+      "pmid": "24600347",
+      "pmcid": "PMC3927423",
+      "title": "Regulation and functional roles of rebound potentiation at cerebellar stellate cell-Purkinje cell synapses",
+      "authors": "Hirano T",
+      "journal": "Front Cell Neurosci",
+      "year": 2014,
+      "date_added": "2026-10-09",
+      "covers": [
+        "反弹增强（RP）机制",
+        "β-CaMKII",
+        "GABARAP",
+        "VOR 适应因果证据"
+      ]
+    },
+    {
+      "pmid": "26179122",
+      "title": "Interneuron- and GABA(A) receptor-specific inhibitory synaptic plasticity in cerebellar Purkinje cells",
+      "authors": "He Q et al.",
+      "journal": "Nat Commun",
+      "year": 2015,
+      "date_added": "2026-10-09",
+      "covers": [
+        "篮状细胞特异性 LTP",
+        "β2-GABA_A 受体",
+        "CaMKII 依赖性抑制可塑性"
+      ]
+    },
+    {
+      "pmid": "26930485",
+      "pmcid": "PMC4773004",
+      "title": "Differential Modulation of GABAA Receptors Underlies RP- and Purinoceptor-Mediated Enhancement of Cerebellar Inhibitory Transmission",
+      "authors": "Ono Y et al.",
+      "journal": "PLoS One",
+      "year": 2016,
+      "date_added": "2026-10-09",
+      "covers": [
+        "RP 增加 GABA_A 受体数量",
+        "NSFA 分析",
+        "ATP-LTP 独立机制"
+      ]
     }
   ],
   "total_sources": 632,

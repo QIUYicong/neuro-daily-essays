@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-03
-updated: 2026-09-04
-revision_count: 2
+updated: 2026-10-09
+revision_count: 3
 dimensions: [cellular, synaptic, microcircuit, brain-region]
-related: [cerebellum, cerebellar-ltd, climbing-fiber, parallel-fiber, granule-cell, deep-cerebellar-nuclei, forward-model, motor-cortex]
+related: [cerebellum, cerebellar-ltd, climbing-fiber, parallel-fiber, granule-cell, deep-cerebellar-nuclei, forward-model, motor-cortex, molecular-layer-interneuron, rebound-potentiation]
 prerequisites: [inhibitory-synapse, ampa-receptor, voltage-gated-calcium-channels, mGluR1]
 opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03]
-source_articles: [2026-09-03-purkinje-cell-cerebellar-motor-learning]
-key_sources: ["PMID:40523942", "PMID:39049990", "PMID:31572132", "PMID:21482355"]
+source_articles: [2026-09-03-purkinje-cell-cerebellar-motor-learning, 2026-10-09-mli-cerebellar-interneuron-plasticity]
+key_sources: ["PMID:40523942", "PMID:39049990", "PMID:31572132", "PMID:21482355", "PMID:24600347", "PMID:38692278"]
 ---
 
 # 浦肯野细胞 (Purkinje Cell)
@@ -48,11 +48,11 @@ PC 计算模型（Fernández Santoro 2024）揭示其多稳态（multistable）�
 5. PKCα 磷酸化 GluA2 Ser880 → AMPAR 内吞 → PF-PC 突触削弱
 
 ### 多层可塑性（Schonewille 2011 后修订）
-- PF-PC LTD（经典）
-- PF-PC LTP（单独 PF 激活，或 LTD 反转）
-- MLI（分子层中间神经元）可塑性
-- 内在可塑性（离子通道表达变化）
-- DCN 可塑性（下游存储）
+- **PF-PC LTD（经典）**：mGluR1→IP₃→PKC→AMPAR 内吞；见 [[cerebellar-ltd]]
+- **PF-PC LTP**：单独 PF 激活（无 CF）或 LTD 反转
+- **MLI 逆向可塑性**：PF→MLI LTP（CF 存在时）+ 反弹增强（RP，MLI→PC 抑制性 LTP）；见 [[molecular-layer-interneuron]] 和 [[rebound-potentiation]]
+- **内在可塑性**：离子通道表达变化，影响 PC 放电特性
+- **DCN 可塑性**：深部小脑核的下游存储
 
 ## 关键证据
 
@@ -74,6 +74,8 @@ PC 计算模型（Fernández Santoro 2024）揭示其多稳态（multistable）�
 - [[deep-cerebellar-nuclei]] — PC 输出的主要靶点
 - [[forward-model]] — PC 网络实现的功能：运动预测
 - [[motor-cortex]] — PC→DCN→丘脑→运动皮层的功能环路
+- [[molecular-layer-interneuron]] — MLI 对 PC 施加前馈抑制；在 CF 误差信号下与 PC 发生逆向可塑性；MLI1/MLI2 亚型门控 PC 学习窗口
+- [[rebound-potentiation]] — CF 驱动 PC 去极化后，MLI→PC 抑制突触发生长时程增强（RP）；因果证据：RP 阻断 → VOR 适应受损
 
 ## 未解问题
 
@@ -85,6 +87,7 @@ PC 计算模型（Fernández Santoro 2024）揭示其多稳态（multistable）�
 
 - 2026-09-03 · 创建 · 基于《小脑里的误差教师》一文 · 初始置信度：高（解剖与 LTD 机制 established；奖励 CF 信号 emerging）
 - 2026-09-04 · 修订 rev2 · Q-pc-02 部分更新：Ishikawa 2014 灵长类证据确认去抑制是 PC→DCN 信号读出的主要机制（PC 暂停 → DCN 即刻激活，无反弹延迟），补充 [[deep-cerebellar-nuclei]] 链接 · 基于 2026-09-04-deep-cerebellar-nuclei-dcn-output
+- 2026-10-09 · 修订 rev3 · 新增：(1) 多层可塑性节详细说明 MLI 逆向可塑性和反弹增强（RP）（基于 Jörntell & Ekerot 2002 PMID:12062025；Hirano 2014 PMC3927423）；(2) 连接新增 molecular-layer-interneuron 和 rebound-potentiation；(3) 新增 key_sources PMID:24600347、PMID:38692278 · 基于 2026-10-09-mli-cerebellar-interneuron-plasticity
 
 ## 来源文章
 

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-07",
-  "total_articles": 167,
+  "last_updated": "2026-10-09",
+  "total_articles": 169,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10420,6 +10420,74 @@
         "小脑 SWR 等效物（继承 Q-io-04）：睡眠巩固中 DCN 活动与海马 SWR 的对应"
       ],
       "graph_update": "316→316节点 (无新增, cerebellar-ltd 已有节点); 1870→1872边 (+2边: cerebellar-ltd→inferior-olive, cerebellar-ltd→deep-cerebellar-nuclei)"
+    },
+    {
+      "date": "2026-10-09",
+      "knowledge_base_date": "2026-10-09",
+      "system_clock_date": "2026-06-27",
+      "date_note": "系统时钟显示2026-06-27 UTC+8，使用知识库连续性日期2026-10-09（第169篇MLI文章）",
+      "article_number": 169,
+      "title": "误差的双重利用：分子层中间神经元如何在浦肯野细胞的阴影里构建第二条学习通道",
+      "filename": "2026-10-09-mli-cerebellar-interneuron-plasticity.md",
+      "wiki_pages_created": [
+        "wiki/neurons/molecular-layer-interneuron.md",
+        "wiki/concepts/rebound-potentiation.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/cerebellar-ltd.md (rev4→rev5, 新增MLI/RP连接)",
+        "wiki/neurons/purkinje-cell.md (rev2→rev3, 多层可塑性节详述MLI和RP)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "攀爬纤维（CF）携带的运动误差信号，不仅在浦肯野细胞（PC）上诱导平行纤维突触的长时程抑制（PF-PC LTD），同时在分子层中间神经元（MLI）上引发方向完全相反的逆向可塑性：当 LTD 削弱 PF→PC 兴奋性驱动时，反弹增强（RP）增强 MLI→PC 抑制性驱动——双重压制 PC 输出；当 LTD 被遗传阻断时，RP 继续独立运作提供代偿。",
+      "open_questions_added": [
+        "Q-mli-01（高优先级）：MLI 逆向可塑性（Jörntell & Ekerot 2002 猫实验）是否在小鼠中以相同分子形式存在？",
+        "Q-mli-02（高优先级）：MLI2 自身的突触可塑性规则？CF 信号下 MLI2→MLI1 突触是否发生 LTP/LTD？",
+        "Q-mli-03（中优先级）：同时阻断 LTD 和 RP 是否产生叠加性运动学习缺陷？",
+        "Q-rp-01（高优先级）：PF-PC LTD + RP 双重阻断实验（直接裁决代偿关系）",
+        "Q-rp-02（中优先级）：RP 时间尺度（分钟-小时）与运动学习快速早期阶段（分钟）是否匹配？"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit"
+      ],
+      "curriculum_track": "课程脊柱4（学习和记忆：LTD 代偿机制）+ 课程脊柱1（神经元如何工作：抑制性突触可塑性）；悬空引用填补（cerebellar-ltd 已引用 molecular-layer-interneuron 但无专页）",
+      "topic_tags": [
+        "molecular layer interneuron MLI basket cell stellate cell cerebellar cortex",
+        "rebound potentiation RP inhibitory LTP CaMKII GABARAP GABA_A receptor",
+        "inverse plasticity Jorntell Ekerot 2002 reciprocal bidirectional plasticity",
+        "MLI1 MLI2 subtypes Gjd2 Cx36 Nxph1 Lackey 2024 disinhibition",
+        "Schonewille 2011 LTD not required motor learning compensation",
+        "VOR vestibulo-ocular reflex adaptation Hirano 2014"
+      ],
+      "main_sources": [
+        "PMID:12062025",
+        "PMID:38692278",
+        "PMID:24600347",
+        "PMID:26179122",
+        "PMID:18855095",
+        "PMID:26930485"
+      ],
+      "open_access_fulltext": [
+        "PMID:38692278 (PMC11360088)",
+        "PMID:24600347 (PMC3927423)",
+        "PMID:26930485 (PMC4773004)"
+      ],
+      "unresolved_questions": [
+        "Q-mli-01",
+        "Q-mli-02",
+        "Q-mli-03",
+        "Q-rp-01",
+        "Q-rp-02"
+      ],
+      "next_suggested_topics": [
+        "IP₃ 受体专页（ip3-receptor）——被 cerebellar-ltd、astrocyte-calcium-signaling 等多页引用；在 RP 中 IP₃R 也被提及（间接参与 CF Ca²⁺ 级联）",
+        "深部小脑核（DCN）可塑性作为 LTD/RP 的第三条代偿通道——Q-ltd-01 的另一候选",
+        "PKC 信号通路专页——被 cerebellar-ltd、striatal-plasticity、STDP 等多页引用，值得独立建页",
+        "内源性大麻素系统（endocannabinoid）专页——mGluR1→2-AG→CB1→DSE 通路在小脑 LTD 和 MLI 可塑性中均有提及"
+      ]
     }
   ]
 }

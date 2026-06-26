@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "node_count": 314,
   "edge_count": 1853,
   "edge_types": [
@@ -2886,6 +2886,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/inferior-olive.md"
+    },
+    {
+      "id": "molecular-layer-interneuron",
+      "title": "分子层中间神经元",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/molecular-layer-interneuron.md"
+    },
+    {
+      "id": "rebound-potentiation",
+      "title": "反弹增强",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/rebound-potentiation.md"
     }
   ],
   "edges": [
@@ -13391,6 +13409,71 @@
       "from": "deep-cerebellar-nuclei",
       "to": "inferior-olive",
       "type": "regulates"
+    },
+    {
+      "from": "molecular-layer-interneuron",
+      "to": "purkinje-cell",
+      "type": "regulates"
+    },
+    {
+      "from": "molecular-layer-interneuron",
+      "to": "cerebellar-ltd",
+      "type": "related"
+    },
+    {
+      "from": "molecular-layer-interneuron",
+      "to": "rebound-potentiation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "molecular-layer-interneuron",
+      "to": "climbing-fiber",
+      "type": "related"
+    },
+    {
+      "from": "molecular-layer-interneuron",
+      "to": "parallel-fiber",
+      "type": "related"
+    },
+    {
+      "from": "molecular-layer-interneuron",
+      "to": "gap-junction-electrical-synapse",
+      "type": "related"
+    },
+    {
+      "from": "molecular-layer-interneuron",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "rebound-potentiation",
+      "to": "purkinje-cell",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "rebound-potentiation",
+      "to": "cerebellar-ltd",
+      "type": "related"
+    },
+    {
+      "from": "rebound-potentiation",
+      "to": "camkii",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "rebound-potentiation",
+      "to": "climbing-fiber",
+      "type": "related"
+    },
+    {
+      "from": "climbing-fiber",
+      "to": "molecular-layer-interneuron",
+      "type": "regulates"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "molecular-layer-interneuron",
+      "type": "related"
     }
   ],
   "dangling_references": [

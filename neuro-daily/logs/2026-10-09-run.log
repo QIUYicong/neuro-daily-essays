@@ -1,0 +1,114 @@
+# 运行日志 · 2026-10-09（文章 #169）
+
+**运行时间**：2026-06-27 UTC（北京时间 2026-06-27 01:00 CST）
+**知识库连续日期**：2026-10-09（序列第 169 篇）
+**系统时钟日期**：2026-06-27 UTC+8
+**日期说明**：知识库自启动以来使用连续序列日期，系统时钟在 2026-06-27，序列已推进至 2026-10-09
+
+---
+
+## A. 状态读取
+
+- `topic_ledger.json`：已读取，确认最新日期 2026-10-08（文章 #168，小脑 LTD）
+- `unresolved_questions.md`：读取，高优先级：Q-ltd-01（MLI 代偿）、Q-gap-01（SWR 不依赖 Cx36）
+- `wiki/_graph.json`：读取，316节点/1870边；无 molecular-layer-interneuron 或 rebound-potentiation 节点（确认为悬空引用）
+- `state/monthly_synthesis.md`：读取，10月主题轨迹确认
+
+---
+
+## B. 选题
+
+**选题依据**：Q-ltd-01（高优先级，来自 2026-10-08 文章）直接指向 MLI 可塑性作为代偿机制候选。cerebellar-ltd 页已引用 molecular-layer-interneuron 但无专页（悬空引用）。
+
+**今日主题**：分子层中间神经元（MLI）可塑性——小脑学习的第二条通道
+**核心问题**：当 PF-PC LTD 被阻断时，MLI 的逆向可塑性（Jörntell & Ekerot 2002）和反弹增强（RP，Hirano 2014）如何提供代偿？Lackey 2024 发现的 MLI1/MLI2 双亚型如何门控 PC 的学习窗口？
+
+**层级**：molecular / synaptic / cellular / microcircuit
+（过去5天：microcircuit/cellular/cellular/molecular → 今日 molecular/synaptic，没有连续3天相同层级）
+
+---
+
+## C. 检索与来源
+
+**搜索词**：
+1. `molecular layer interneuron plasticity cerebellum purkinje`（PubMed）→ 15结果
+2. `basket cell stellate cell long-term plasticity cerebellar cortex`（PubMed）→ 5结果
+3. `Jorntell Ekerot 2002 interneuron receptive field plasticity`（PubMed）→ 1结果（PMID:12062025）
+4. `rebound potentiation purkinje cell GABA inhibitory long-term potentiation cerebellum`（PubMed）→ 10结果
+5. `Hirano Kawaguchi rebound potentiation purkinje cell review`（PubMed）→ 2结果（PMID:24600347, 22090365）
+6. PMC 全文：PMC11360088（Lackey 2024）、PMC3927423（Hirano 2014）
+
+**候选来源（共检索约 40 篇）**：
+- PMID:12062025（Jörntell & Ekerot 2002，Neuron）—— 逆向可塑性；仅摘要；**采用（核心）**
+- PMID:38692278 / PMC11360088（Lackey 2024，Neuron）—— MLI1/MLI2 亚型；**采用（全文）**
+- PMID:24600347 / PMC3927423（Hirano 2014，Front Cell Neurosci）—— RP 机制综述；**采用（全文）**
+- PMID:26179122（He 2015，Nat Commun）—— BC 特异性 LTP；**采用（摘要）**
+- PMID:18855095（Liu 2008，Cerebellum）—— 星状细胞 LTP；**采用（摘要）**
+- PMID:12019316（Kawaguchi & Hirano 2002，J Neurosci）—— RP 级联；**采用（摘要）**
+- PMID:26930485 / PMC4773004（Ono 2016，PLoS One）—— NSFA 分析；**采用（全文）**
+- PMID:21482355 / PMC3104468（Schonewille 2011，Science）—— 背景；**已引用（全文，之前文章）**
+- 排除：27534393（会议摘要，不相关）、20554867（短时程可塑性，非长时程）、其他不相关结果
+
+**覆盖情况**：
+- ≥5 来源：✅（8个）
+- ≥2 开放全文：✅（4个：PMC11360088, PMC3927423, PMC4773004, PMC3104468）
+- ≥1 官方机构来源：NIH/PMC
+
+---
+
+## D. 固结
+
+**wiki 页面新建（2）**：
+- `wiki/neurons/molecular-layer-interneuron.md`（新建，revision_count=1）
+- `wiki/concepts/rebound-potentiation.md`（新建，revision_count=1）
+
+**wiki 页面修订（3）**：
+- `wiki/concepts/cerebellar-ltd.md` rev4→rev5：连接新增 molecular-layer-interneuron、rebound-potentiation；补充 key_sources
+- `wiki/neurons/purkinje-cell.md` rev2→rev3：多层可塑性节详述 MLI 和 RP
+- `wiki/systems/cerebellum.md`：（cerebellar-ltd 更新已链接至系统层面，无需单独更新 cerebellum.md）
+
+**矛盾检查**：无新矛盾。Q-ltd-01 推进：MLI/RP 的因果证据（Hirano 2014 VOR 实验）提供了具体代偿机制候选，但不构成与既有 LTD established 状态的矛盾——而是补充。
+
+---
+
+## E. 图谱更新
+
+- 节点：316 → 318（+2：molecular-layer-interneuron, rebound-potentiation）
+- 边：1870 → 1885（+15条边）
+
+---
+
+## F. 治理层更新
+
+- `topic_ledger.json`：添加 2026-10-09 条目（文章 #169），total=169，last_updated=2026-10-09
+- `unresolved_questions.md`：新增 Q-mli-01/02/03, Q-rp-01/02（共5个）
+- `source_registry.json`：新增 5 个来源（PMID:12062025, 38692278, 24600347, 26179122, 26930485）
+- `monthly_synthesis.md`：追加 2026-10-09 条目
+- `maturity_index.json`：新增 molecular-layer-interneuron, rebound-potentiation 两个条目
+- `wiki/index.md`：更新 header、添加新页面条目
+- `wiki/CHANGELOG.md`：追加 2026-10-09 节
+
+---
+
+## G. 提交与推送
+
+**分支**：main
+**提交信息**：Add neuro daily article + wiki consolidation for 2026-10-09
+**push 目标**：origin main（http://local_proxy@127.0.0.1:XXXXX/git/QIUYicong/neuro-daily-essays）
+
+---
+
+## H. 自检结果
+
+**真实性**：✅ 每条主张有对应 PMID；区分了 established（MLI 解剖、RP 机制）与 emerging（逆向可塑性分子细节、MLI2 可塑性）；动物研究明确标注为动物模型，未过推广到人类。
+
+**一致性**：✅ 无矛盾登记；修订页面的 updated/revision_count/修订历史均同步更新；图谱无悬空边（camkii 专页已存在）。
+
+**可导航**：✅ index.md 和 CHANGELOG.md 反映今日变化；新页面 related/prerequisites 均已填写。
+
+**情景层**：✅ articles/ notes/ sources/ logs/ 四类文件均已创建；未修改旧文件。
+
+---
+
+**状态**：等待推送确认后标记完成
+**预期 commit hash**：待填入

@@ -3868,3 +3868,26 @@
 - `cerebellar-ltd`：被 climbing-fiber、cerebellum、inferior-olive 等多页引用，无专页 → 高优先级下篇候选
 
 **图谱**：315节点/1861边 → **316节点/1870边**（+1节点：inferior-olive；+9边：inferior-olive→climbing-fiber、inferior-olive→cerebellum、inferior-olive→gap-junction-electrical-synapse、inferior-olive→purkinje-cell、inferior-olive→deep-cerebellar-nuclei、inferior-olive→cerebellar-ltd、climbing-fiber→inferior-olive、gap-junction-electrical-synapse→inferior-olive、deep-cerebellar-nuclei→inferior-olive）
+
+---
+
+## 2026-10-09 · 文章 #169 · 误差的双重利用：分子层中间神经元如何在浦肯野细胞的阴影里构建第二条学习通道
+
+**新建页面（2）**：
+- `wiki/neurons/molecular-layer-interneuron.md`：分子层中间神经元（MLI）——篮状细胞与星状细胞；MLI1（Cx36+，电偶联，同步抑制 PC）与 MLI2（Nxph1+，无电偶联，去抑制 PC）双亚型；逆向可塑性原理（Jörntell & Ekerot 2002）；反弹增强（RP）位于 MLI→PC 突触；因果证据（Hirano 2014 转基因 VOR 实验）
+- `wiki/concepts/rebound-potentiation.md`：反弹增强（RP）——MLI→PC 抑制性突触的 LTP；机制：Ca²⁺ → β-CaMKII → GABARAP → GABA_A 受体数量增加；VOR 适应因果证据；篮状细胞特异性（β2-GABA_A + CaMKII）
+
+**修订页面（3）**：
+- `wiki/concepts/cerebellar-ltd.md` rev4→rev5：新增连接 molecular-layer-interneuron 和 rebound-potentiation（作为 LTD 互补/代偿机制）；补充 key_sources PMID:12062025、PMID:38692278、PMID:24600347
+- `wiki/neurons/purkinje-cell.md` rev2→rev3：多层可塑性节明确加入 MLI 逆向可塑性和 RP；新增连接至 molecular-layer-interneuron 和 rebound-potentiation
+- `wiki/concepts/cerebellar-ltd.md`（同上）
+
+**矛盾登记（0）**：无新矛盾
+
+**悬空引用填补（1）**：
+- Q-ltd-01（MLI 可塑性作为 LTD 被阻断时的代偿机制）：今日文章直接提供了 MLI 代偿假说的机制证据（RP 因果实验），虽未完全裁决（需双重阻断实验），但将问题从"哪种机制代偿"推进到了"MLI/RP 是候选且有因果证据"
+
+**新增悬空引用（1）**：
+- `camkii`：被 rebound-potentiation 引用为核心激酶，已有专页（wiki/neurons/camkii.md），边已在图谱中添加
+
+**图谱**：316节点/1870边 → **318节点/1885边**（+2节点：molecular-layer-interneuron、rebound-potentiation；+15边）

@@ -921,5 +921,21 @@
     "confidence": "high",
     "last_changed": "2026-10-07",
     "reason": "新建（rev1）；解剖与 STO 机制 established（Van Der Giessen 2008 + Lampl 1997 + Long 2002）；Cx36 KO+人类甲氟喹学习缺陷 established；灵长类保守性 established（Turecek 2016）；Nguyen 2025 种群级编码：emerging（单篇新文献）"
+  },
+  {
+    "slug": "molecular-layer-interneuron",
+    "page": "wiki/neurons/molecular-layer-interneuron.md",
+    "current_status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-09",
+    "reason": "MLI 解剖和生理学 established 数十年；MLI1/MLI2 亚型区分（Lackey 2024）是最新高质量新增；逆向可塑性（Jörntell 2002）中等证据强度；RP 机制（Hirano 2014 转基因）高证据强度"
+  },
+  {
+    "slug": "rebound-potentiation",
+    "page": "wiki/concepts/rebound-potentiation.md",
+    "current_status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-09",
+    "reason": "RP 机制有多篇独立来源；转基因因果证据（VOR 适应受损）建立；NSFA 量子分析确认受体数量机制；篮状细胞特异性有直接验证"
   }
 ]

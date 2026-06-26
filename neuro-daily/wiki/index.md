@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-06（第166篇·缝隙连接与神经元电突触：被遗忘了半个世纪的大脑"硬线"同步装置）· 主题页总数：**310**（新建1页：neurons/gap-junction-electrical-synapse；修订2页：circuits/pv-interneurons rev8, concepts/gamma-oscillations rev6；图谱315节点/1861边）
+> 最后更新：2026-10-09（第169篇·误差的双重利用：分子层中间神经元如何在浦肯野细胞的阴影里构建第二条学习通道）· 主题页总数：**313**（新建2页：neurons/molecular-layer-interneuron、concepts/rebound-potentiation；修订3页：cerebellar-ltd rev5、purkinje-cell rev3；图谱318节点/1885边）
 
 ---
 
@@ -38,6 +38,7 @@
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [缝隙连接与神经元电突触（Cx36）](neurons/gap-junction-electrical-synapse.md) — Connexin-36 缝隙连接是成年大脑 PV+ 中间神经元电突触的主要类型；亚毫秒同步；Cx36 KO 选择性消除伽马振荡（保留纹波）；可被多巴胺/CaMKII 动态调节；LinCx 2025 工程化电突触新突破 **[NEW 2026-10-06]**
+- 🟢 [分子层中间神经元（MLI）](neurons/molecular-layer-interneuron.md) — 小脑皮层的 GABA 能前馈抑制元件；MLI1（Cx36+，电偶联，同步抑制 PC）vs MLI2（Nxph1+，去抑制 PC via MLI1）；逆向可塑性（PF+CF→MLI LTP 同时 PC LTD）；反弹增强（RP）的前突触来源；VOR 学习必要因子 **[NEW 2026-10-09]**
 - 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 产髓鞘胶质细胞，三重功能：绝缘（跳跃式传导/120m/s）+ 代谢支持（MCT1-乳酸轴）+ 经验依赖髓鞘化（Adaptive myelination）；运动/认知学习需要新 OL 生成（McKenzie 2014, Shimizu 2023）**[NEW 2026-10-05]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝；成年稳态P2RY12/TMEM119/CX3CR1分子签名；DAM两步激活（rev2新增） **[NEW 2026-06-03 · 修订 rev1→rev2 2026-09-17]**
 - 🔵 [TREM2（髓系细胞触发受体2）](neurons/trem2.md) — 小胶质细胞脂质传感器/危险信号受体；DAP12→PI3K→Akt→mTOR促细胞存活/增殖/吞噬；DAM Step 2激活的分子开关；R47H变异→AD风险OR≈3-5×；INVOKE-2 Phase 2（AL002c激动抗体）阴性结果 **[NEW 2026-09-17]**
@@ -110,7 +111,8 @@
 - 🟢 [记忆巩固（系统层面）](concepts/memory-consolidation.md) — SWR驱动的海马→皮层记忆转移；SO-spindle-SWR三重耦合（Maingret 2016因果证据）；SHY down-selection 统一主动巩固与稳态下调；老龄化耦合解锁机制（mPFC萎缩）；SCT vs MTT理论争论；**新增**：再巩固是"巩固即密封"的动态例外（修订 2026-07-10）**[修订 2026-07-10]**
 - 🔵 [记忆再巩固](concepts/memory-reconsolidation.md) — 已巩固记忆在提取后重新进入蛋白合成依赖态（Nader 2000）；去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；再巩固窗口消退永久消除恐惧（Monfils 2009, Agren 2012 fMRI）；普萘洛尔消除人类情绪恐惧（Kindt 2009）；米非司酮 Phase 2a RCT 未达主要终点 **[NEW 2026-07-10]**
 - 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
-- 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；IP₃R1 是 PF+CF 同时激活的生物物理"与门"（钟形 Ca²⁺ 依赖曲线）；GluA2 Ser880 磷酸化→GRIP1→PICK1→内吞；Schonewille 2011 证明无 LTD 也能运动学习；LTDpathies：自身抗体靶向 mGluR1/VGCC 导致共济失调 **[修订rev4, 2026-10-08]**
+- 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；IP₃R1 是 PF+CF 同时激活的生物物理"与门"（钟形 Ca²⁺ 依赖曲线）；GluA2 Ser880 磷酸化→GRIP1→PICK1→内吞；Schonewille 2011 证明无 LTD 也能运动学习；LTDpathies：自身抗体靶向 mGluR1/VGCC 导致共济失调 **[修订rev5, 2026-10-09]**
+- 🟢 [反弹增强（Rebound Potentiation, RP）](concepts/rebound-potentiation.md) — MLI→PC 抑制性突触的 LTP；Ca²⁺→β-CaMKII→GABARAP 磷酸化→GABA_A 受体数量增加；与 PF-PC LTD 互补，共同利用 CF 误差信号减少 PC 输出；VOR 适应因果证据（γ2 肽链转基因）；篮状细胞特异性（β2-GABA_A + CaMKII）**[NEW 2026-10-09]**
 - 🔵 [纹状体突触可塑性](concepts/striatal-plasticity.md) — 皮质-纹状体谷氨酸突触的LTP（D1-Gs-cAMP-PKA-DARPP-32-AMPA插入）和eCB-LTD（D2-mGluR-2-AG-CB1-突触前释放↓）；奖励时双向刻写；多巴胺1秒时间窗解决信用分配；NMDA受体对LTP必需 **[NEW 2026-09-01]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
 - 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器；病毒样衣壳自组装可包裹mRNA在神经元间转运（Ashley/Pastuzyn 2018）**[修订 rev2 2026-09-21]**

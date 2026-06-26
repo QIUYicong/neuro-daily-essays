@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-10-08
-revision_count: 4
+updated: 2026-10-09
+revision_count: 5
 dimensions: [molecular, synaptic, cellular, microcircuit]
-related: [ltd, cerebellum, mGluR1, forward-model, climbing-fiber, parallel-fiber, purkinje-cell, granule-cell-cerebellar, inferior-olive, deep-cerebellar-nuclei, ip3-receptor, motor-learning]
+related: [ltd, cerebellum, mGluR1, forward-model, climbing-fiber, parallel-fiber, purkinje-cell, granule-cell-cerebellar, inferior-olive, deep-cerebellar-nuclei, ip3-receptor, motor-learning, molecular-layer-interneuron, rebound-potentiation]
 prerequisites: [ltd, nmda-receptor, pkc-signaling, ampa-receptor]
 opens_questions: [Q-cb-01, Q-cb-02, Q-ltd-01, Q-ltd-02, Q-ltd-03, Q-ltd-04]
-source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-03-purkinje-cell-cerebellar-motor-learning, 2026-10-04-cerebellum-cognition-language-social, 2026-10-08-cerebellar-ltd-mglur1-pkc]
-key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932", "PMID:31572132", "PMID:40848722", "PMID:27857688", "PMID:38870929", "PMID:23666089", "PMID:18339599", "PMID:35006439", "PMID:1721243", "PMID:7969468"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-03-purkinje-cell-cerebellar-motor-learning, 2026-10-04-cerebellum-cognition-language-social, 2026-10-08-cerebellar-ltd-mglur1-pkc, 2026-10-09-mli-cerebellar-interneuron-plasticity]
+key_sources: ["PMID:7954803", "PMID:21482355", "PMID:11319554", "PMID:33203932", "PMID:31572132", "PMID:40848722", "PMID:27857688", "PMID:38870929", "PMID:23666089", "PMID:18339599", "PMID:35006439", "PMID:1721243", "PMID:7969468", "PMID:12062025", "PMID:38692278", "PMID:24600347"]
 ---
 
 # 小脑 LTD（Cerebellar LTD / PF-PC LTD）
@@ -103,6 +103,8 @@ LTD 表达机制中，AMPAR 并非被随机内吞：
 - [[interval-timing]] — Garcia-Garcia 2024：颗粒细胞秒级放电为 LTD 提供时序基础，扩展了时间窗口
 - [[inferior-olive]] — IO 通过 Cx36 缝隙连接同步化 CF 时序，精度影响 LTD 诱导效率
 - [[deep-cerebellar-nuclei]] — DCN 可塑性是 LTD 被阻断时的重要代偿机制之一
+- [[molecular-layer-interneuron]] — MLI 逆向可塑性与 LTD 互补，共同利用 CF 误差信号减少 PC 输出；LTD 被阻断时可提供代偿
+- [[rebound-potentiation]] — MLI→PC 抑制性突触的 LTP，是 CF 误差信号在抑制侧的平行对应机制
 
 ## 未解问题
 
@@ -121,6 +123,7 @@ LTD 表达机制中，AMPAR 并非被随机内吞：
 - 2026-09-03 · 补充 Zang & De Schutter 2019 梯度 CF 信号证据（CF 信号是模拟量而非二值）；新增 purkinje-cell 和 granule-cell-cerebellar 关联页面；整合 Jin & Hull 2025（CF 也携带奖励 rPE）的意义（攀爬纤维"误差"定义需要扩展）· 基于 2026-09-03-purkinje-cell-cerebellar-motor-learning
 - 2026-10-04 · 增加 Garcia-Garcia et al. 2024 (PMID:38870929) 关键发现：颗粒细胞可在 2 秒时序任务中发展持续性缓坡放电，攀爬纤维奖励信号不随学习衰减，提示认知情境下 LTD 的时序范围和教师信号性质与运动学习可能不同；补充 Hoxha 2016 (PMID:27857688) 详细分子机制；新增连接至 CCAS 页面和 interval-timing；新增 Q-cerebellar-cognitive-01/02 · 基于 2026-10-04-cerebellum-cognition-language-social
 - 2026-10-08 · 修订 rev3→rev4 · 基于《误差的解剖学：小脑 LTD 如何将"同时激活"转化为突触记忆》（文章 #168）· 新增：(1) IP₃R1 生物物理"与门"机制专节（钟形 Ca²⁺ 调制曲线解释 PF+CF 同时激活要求）；(2) AMPAR 内吞的 GRIP1→PICK1 分子细节专节；(3) 关键证据表新增 IP₃R1、PKC 药理学、Conquet 1994、LTDpathies 条目（Hirano 2013 PMC3722574、Linden 1991 PMID:1721243、Conquet 1994 PMID:7969468、Mitoma 2021 PMC8607360）；(4) 连接新增 inferior-olive、deep-cerebellar-nuclei；(5) 未解问题新增 Q-ltd-01 至 Q-ltd-04；新增 key_sources：PMID:23666089、PMID:18339599、PMID:35006439、PMID:1721243、PMID:7969468
+- 2026-10-09 · 修订 rev4→rev5 · 基于《误差的双重利用：分子层中间神经元如何在浦肯野细胞的阴影里构建第二条学习通道》（文章 #169）· 新增：连接 molecular-layer-interneuron 和 rebound-potentiation（两者作为 LTD 的互补/代偿机制）；新增 key_sources：PMID:12062025（逆向可塑性）、PMID:38692278（MLI1/MLI2 亚型）、PMID:24600347（RP 机制与 VOR 适应因果证据）；source_articles 新增 2026-10-09-mli-cerebellar-interneuron-plasticity
 
 ## 来源文章
 
