@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-02（第162篇·屏状核：大脑最神秘的指挥家）· 主题页总数：**304**（新建1页：systems/claustrum；修订0页；图谱309节点/1832边）
+> 最后更新：2026-10-04（第164篇·被误解了一百年的小脑：从运动纠错机器到语言、社交与时间的预测引擎）· 主题页总数：**305**（新建1页：systems/cerebellar-cognitive-affective-syndrome；修订3页：systems/cerebellum, concepts/cerebellar-ltd, concepts/forward-model；图谱310节点/1841边）
 
 ---
 
@@ -300,6 +300,7 @@
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；**rev5新增**：瀑布记忆系统（CMS）模型——DMN 作为 SWR 重播级联传播的信息高速公路（Kaefer et al. 2022，主连接梯度+近临界动力学）**[修订 rev4→rev5 2026-09-25]**
 - 🔵 [胶质淋巴系统](systems/glymphatic-system.md) — 大脑废物清洗网络：CSF 沿动脉旁间隙入流→星形胶质细胞终足 AQP4 穿越脑实质→静脉旁出流；蓝斑核 NE 振荡（~0.05 Hz）驱动血管慢性搏动为物理泵；NREM 深度睡眠期高效清除 Aβ 和 tau；AQP4 KO→70% 清除效率下降；衰老→三重削弱→AD 恶性循环；人类随机交叉试验直接验证（Dagum 2026）**[NEW 2026-07-06]**
+- 🟢 [小脑认知情感综合征（CCAS / Schmahmann 综合征）](systems/cerebellar-cognitive-affective-syndrome.md) — 后部小脑叶损伤（Crus I/II, VI-IX）→执行/语言（d=−0.81）/社会认知（d=−0.81）/情感多域缺陷，独立于运动共济失调；前向内部模型损伤假说；Schmahmann 1998 原始描述+Argyropoulos 2019 任务组共识+Reumers 2025 元分析（129研究 3140患者）量化扩展 **[NEW 2026-10-04]**
 
 ## methods（方法）
 

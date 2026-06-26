@@ -1737,8 +1737,38 @@
 
 ## 2026年10月（进行中）
 
-*本月截至日期：2026-10-02*
-*本月新增文章：#162（屏状核：大脑最神秘的指挥家）；共2篇（含跨月的#161 2026-10-01）*
+*本月截至日期：2026-10-04*
+*本月新增文章：#162（屏状核：大脑最神秘的指挥家）、#163（围神经网与恐惧记忆）、#164（被误解了一百年的小脑）；共4篇（含跨月的#161 2026-10-01）*
+
+---
+
+### 2026-10-04（#164）：被误解了一百年的小脑——从运动纠错机器到语言、社交与时间的预测引擎
+
+**一句话**：小脑 Crus I/II 区域通过前向内部模型机制不仅控制运动精度，更参与语言预测（右侧）和心理理论（左侧）——这一扩展得到了 CCAS 临床综合征元分析（129研究 3140患者，语言 d=−0.81，社会认知 d=−0.81）、Garcia-Garcia 2024 颗粒细胞 2 秒时序缓坡放电（将小脑计时扩展到 500ms 以上）和 Xue 2021 个体精准 fMRI 功能图谱的多维支持，但攀爬纤维在认知情境中传递何种教师信号仍是核心未解问题。
+
+**核心知识点**：（1）经典 PF-PC LTD 机制（五步）：PF 激活 mGluR1 + CF 触发大量 Ca²⁺ 内流 → PKCα 激活 → GluA2 Ser880 磷酸化 → AMPAR 内吞 → 突触长期减弱；但 Schonewille 2011 证明三种 AMPAR 内吞阻断突变小鼠运动学习正常，说明 LTD 非唯一机制；（2）前向内部模型：小脑颗粒细胞将运动指令传出拷贝转化为时序表征，浦肯野细胞预测感觉后果，攀爬纤维传递预测误差，比真实反馈快 20–100ms；（3）CCAS（Schmahmann 综合征 1998）：后部小脑叶损伤→执行/语言/社会认知/情感多域缺陷，独立于运动共济失调；Argyropoulos 2019 任务组共识；Reumers 2025 元分析量化扩展（加工速度 d=−0.83，语言 d=−0.81，社会认知 d=−0.81）；（4）右侧 Crus I/II 在不可预期句子续接时激活增强（语言前向模型），左侧 Crus I/II 在 ToM 任务中激活（社会前向模型），Sokolov 2017 fMRI 元分析；（5）Garcia-Garcia 2024（Nature）：小鼠 Crus I/II 颗粒细胞在 2 秒时序奖励任务中发展出持续性缓坡放电，攀爬纤维奖励信号不随学习衰减——挑战"CF=衰减型预测误差"假设；（6）Xue 2021 个体精准 fMRI：Crus I/II 包含 DMN、认知控制网络、语言网络、社会认知网络的交错精细表征，個体间差异大，支持小脑成为认知个体差异重要来源；（7）钢琴调音师类比：维护精确物理标准的类比有效（反馈驱动迭代优化），但忽视了小脑处理多维误差信号和无意识性的特征。
+
+**层级**：molecular / cellular / microcircuit / brain-region / systems / cognition / clinical
+
+**新建 wiki 页（1个）**：systems/cerebellar-cognitive-affective-syndrome（established/high）
+**修订 wiki 页（3个）**：systems/cerebellum（rev4→rev5，新增认知扩展证据）；concepts/cerebellar-ltd（rev2→rev3，新增 Garcia-Garcia 2024 和认知 Q）；concepts/forward-model（rev2→rev3，新增语言/ToM 扩展证据）
+**图谱**：309→310节点，1832→1841边（+1节点，+9边）
+**新增未解问题**：Q-cerebellar-cognitive-01（Crus I/II 认知功能是否依赖 PF-PC LTD 分子机制，高）、Q-cerebellar-cognitive-02（认知 CF 教师信号性质，高）、Q-cerebellar-cognitive-03（加工速度是独立域还是继发效应，中）
+
+---
+
+### 2026-10-03（#163）：分子的枷锁——围神经网如何在杏仁核内关闭恐惧记忆的重写窗口
+
+**一句话**：杏仁核 BLA 区围绕 PV+ 中间神经元的围神经网（PNNs）在发育 P16-P18 后关闭恐惧记忆的彻底消退窗口——Gogolla 2009 用 ChABC 降解 BLA PNNs 使成年恐惧记忆重新可被消退彻底删除（而非仅仅抑制），揭示 PNNs 是恐惧关键期的分子枷锁，并为 PTSD 和成瘾治疗提供了潜在分子靶点。
+
+**核心知识点**：（1）PNNs 是主要由 CS 蛋白聚糖（aggrecan, brevican, neurocan, versican）+ tenascin + link protein 构成的细胞外基质网格，在发育关键期末期沉积于 PV+ 中间神经元周围；（2）关键期关闭机制：PNN 沉积→限制突触结构可塑性（AMPAR 横向扩散）+ 降低 BDNF 生物利用度（CS 链捕获 BDNF）→关键期关闭；（3）Gogolla 2009：成年鼠 ChABC 降解 BLA PNNs 后，恐惧消退可重新达到"幼儿式完全消退"（不复发），证明 PNNs 是维护成年恐惧记忆稳定性的关键结构；（4）iPlasticity（Umemori 2018）：慢性 SSRI 使 BLA 和 mPFC 的 PV+ 细胞去成熟化、PNN 密度降低，联合暴露疗法可提升效果；（5）NAc PNNs：brevican 降低→可卡因 CPP 增强（Hazlett 2024），提示成瘾可塑性调控；（6）Otx2 信号：Otx2 作为视网膜来源的转录因子配体，经 GABAergic 突触结合 MHC I 类类似物 VGLUT2/PNN 锚定，触发 PV+ 细胞成熟和关键期关闭（Bernard & Prochiantz 2016）；（7）消退新学习 vs 抹除：恐惧消退实际产生新的"消退记忆"叠加于原恐惧记忆上，PNN 关闭关键期后两者不能合并——ChABC 降解 PNN 似乎允许真正的记忆抹除而非仅抑制。
+
+**层级**：molecular / cellular / microcircuit / behavioral / clinical
+
+**新建 wiki 页（0个）**：无（已有 perineuronal-nets、fear-extinction、fear-conditioning 页面，仅修订）
+**修订 wiki 页（3个）**：concepts/perineuronal-nets（rev3→rev4）；concepts/fear-extinction（rev7→rev8）；concepts/fear-conditioning（rev3→rev4）
+**图谱**：309节点，1832边（无新节点，小更新）
+**新增未解问题**：Q-pnn-fear-specificity（旧记忆是否同样可被消退删除，高）、Q-pnn-iPlasticity-window（最优 SSRI-暴露疗法间隔，中）、Q-pnn-nac-addiction（brevican 降低是成瘾特异还是通用奖赏可塑性，中）
 
 ---
 

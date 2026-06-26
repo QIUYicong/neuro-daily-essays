@@ -900,5 +900,12 @@
     "confidence": "medium",
     "last_changed": "2026-10-02",
     "reason": "新建 rev1 · #162 · 有光遗传因果证据（小鼠：Narikiyo 2020注意过滤、Atlan 2018慢波协调），但人类意识直接证据有争议（Koubeissi 2014单例，未复现）；发育基础新建（Yan 2026 Nurr1）；手术切除案例（Duffau 2007）对强版本意识假说构成挑战"
+  },
+  {
+    "slug": "cerebellar-cognitive-affective-syndrome",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-04",
+    "reason": "新建 rev1 · #164 · CCAS 临床综合征有多中心强证据：Schmahmann 1998 原始描述、Argyropoulos 2019 任务组共识、Reumers 2025 元分析（129研究 3140患者，语言 d=−0.81，社会认知 d=−0.81）；解剖-功能对应（后部小脑叶→认知，后蚓部→情感）高置信度；前向内部模型损伤假说为 emerging 级理论解释"
   }
 ]

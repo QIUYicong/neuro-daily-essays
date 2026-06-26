@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-04",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -5832,7 +5832,8 @@
       "journal": "Trends in Cognitive Sciences",
       "full_text_available": false,
       "used_in_articles": [
-        "2026-06-23-cerebellum-motor-prediction"
+        "2026-06-23-cerebellum-motor-prediction",
+        "2026-10-04-cerebellum-cognition-language-social"
       ],
       "topics_covered": [
         "cerebellum",
@@ -10223,6 +10224,143 @@
         "cortical markers"
       ],
       "open_access": true
+    },
+    {
+      "pmid": "9577385",
+      "pmcid": null,
+      "doi": "10.1093/brain/121.4.561",
+      "title": "The cerebellar cognitive affective syndrome",
+      "authors_short": "Schmahmann JD, Sherman JC",
+      "journal": "Brain",
+      "year": 1998,
+      "full_text_available": false,
+      "used_in_articles": [
+        "2026-10-04-cerebellum-cognition-language-social"
+      ],
+      "topics_covered": [
+        "CCAS cerebellar cognitive affective syndrome",
+        "posterior cerebellar lobe damage executive language visuospatial affect",
+        "original clinical description Schmahmann syndrome",
+        "independent of motor ataxia"
+      ]
+    },
+    {
+      "pmid": "31522332",
+      "pmcid": "PMC6978293",
+      "doi": "10.1007/s12311-019-01068-8",
+      "title": "Consensus Paper: Revisiting the Symptoms and Signs of Cerebellar Cognitive Affective/Schmahmann Syndrome",
+      "authors_short": "Argyropoulos GPD et al. (CCAS Task Force)",
+      "journal": "Cerebellum",
+      "year": 2019,
+      "full_text_available": true,
+      "used_in_articles": [
+        "2026-10-04-cerebellum-cognition-language-social"
+      ],
+      "topics_covered": [
+        "CCAS international task force consensus",
+        "anatomy-function correspondence: posterior lobe cognitive, vermis/fastigial affective",
+        "CCAS-S scale",
+        "posterior cerebellar lobe Crus I/II lobule VI-IX executive language visuospatial"
+      ]
+    },
+    {
+      "pmid": "40047904",
+      "pmcid": null,
+      "doi": "10.1016/j.neubiorev.2025.105982",
+      "title": "Cognitive and affective deficits in cerebellar disease: A meta-analysis of 129 studies",
+      "authors_short": "Reumers SF et al.",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": 2025,
+      "full_text_available": true,
+      "used_in_articles": [
+        "2026-10-04-cerebellum-cognition-language-social"
+      ],
+      "topics_covered": [
+        "meta-analysis 129 studies 3140 patients CCAS",
+        "processing speed d=-0.83 language d=-0.81 social cognition d=-0.81",
+        "executive function d=-0.68",
+        "language word naming d=-0.91 largest effect size",
+        "CCAS domain expansion beyond Schmahmann 1998 original definition"
+      ]
+    },
+    {
+      "pmid": "28385461",
+      "pmcid": "PMC5443649",
+      "doi": "10.1016/j.neubiorev.2017.04.003",
+      "title": "Cerebellum as a substrate for cognitive computations: an integrative view",
+      "authors_short": "Sokolov AA et al.",
+      "journal": "Neuroscience & Biobehavioral Reviews",
+      "year": 2017,
+      "full_text_available": true,
+      "used_in_articles": [
+        "2026-10-04-cerebellum-cognition-language-social"
+      ],
+      "topics_covered": [
+        "cerebellum cognition language ToM fMRI meta-analysis",
+        "right Crus I/II language prediction unexpected sentence endings",
+        "left Crus I/II theory of mind ToM task activation",
+        "forward internal model extension to language social cognition",
+        "cerebellar-cortical cognitive loops"
+      ]
+    },
+    {
+      "pmid": "33427596",
+      "pmcid": "PMC8093164",
+      "doi": "10.1016/j.neuroimage.2021.117869",
+      "title": "Fingerprinting the human cerebellum: a large-scale investigation of functional connectivity across cerebellar regions",
+      "authors_short": "Xue A et al.",
+      "journal": "NeuroImage",
+      "year": 2021,
+      "full_text_available": true,
+      "used_in_articles": [
+        "2026-10-04-cerebellum-cognition-language-social"
+      ],
+      "topics_covered": [
+        "individual precision fMRI cerebellar functional organization",
+        "Crus I/II interdigitated representations DMN cognitive control language social cognition",
+        "individual variability cerebellar network assignment",
+        "high-resolution cerebellar functional parcellation"
+      ]
+    },
+    {
+      "pmid": "38870929",
+      "pmcid": "PMC11209058",
+      "doi": "10.1038/s41586-024-07519-5",
+      "title": "Cerebellar granule cells acquire temporal information about reward and predict its timing",
+      "authors_short": "Garcia-Garcia AL et al.",
+      "journal": "Nature",
+      "year": 2024,
+      "full_text_available": true,
+      "used_in_articles": [
+        "2026-10-04-cerebellum-cognition-language-social"
+      ],
+      "topics_covered": [
+        "granule cells 2-second temporal ramping sustained activity",
+        "two-photon calcium imaging mice cerebellar lobule VI/Crus I/II",
+        "climbing fiber reward signal not attenuating with learning",
+        "cerebellar timing beyond 500ms",
+        "cognitive cerebellar function interval timing reward prediction"
+      ]
+    },
+    {
+      "pmid": "34262527",
+      "pmcid": "PMC8273235",
+      "doi": "10.1371/journal.pone.0250792",
+      "title": "Cerebellar long-term potentiation initiates and stores the expression of associative oculomotor memory",
+      "authors_short": "Miyata M et al.",
+      "journal": "PLoS ONE",
+      "year": 2021,
+      "full_text_available": true,
+      "used_in_articles": [
+        "2026-09-04-deep-cerebellar-nuclei-dcn-output",
+        "2026-10-04-cerebellum-cognition-language-social"
+      ],
+      "topics_covered": [
+        "deep cerebellar nuclei forward model output",
+        "DCN predicts motor state 200ms ahead",
+        "Kalman filter equivalence",
+        "cerebellar long-term potentiation memory expression"
+      ]
     }
   ],
   "total_sources": 589,
@@ -15010,6 +15148,65 @@
       "24624064",
       "37701759",
       "41431109"
+    ]
+  },
+  "sources_2026-10-03": {
+    "article": "2026-10-03-perineuronal-nets-fear-memory-erasure",
+    "article_number": 163,
+    "sources_added": 10,
+    "sources_reused": 0,
+    "new_pmids": [
+      "19729657",
+      "16243601",
+      "26881132",
+      "24273519",
+      "29802758",
+      "38346480",
+      "30258113",
+      "38158878",
+      "37143468",
+      "33293360"
+    ],
+    "reused_pmids": [],
+    "all_pmids": [
+      "19729657",
+      "16243601",
+      "26881132",
+      "24273519",
+      "29802758",
+      "38346480",
+      "30258113",
+      "38158878",
+      "37143468",
+      "33293360"
+    ]
+  },
+  "sources_2026-10-04": {
+    "article": "2026-10-04-cerebellum-cognition-language-social",
+    "article_number": 164,
+    "sources_added": 7,
+    "sources_reused": 2,
+    "new_pmids": [
+      "9577385",
+      "31522332",
+      "40047904",
+      "28385461",
+      "33427596",
+      "38870929",
+      "34262527"
+    ],
+    "reused_pmids": [
+      "21227230"
+    ],
+    "all_pmids": [
+      "9577385",
+      "31522332",
+      "40047904",
+      "28385461",
+      "33427596",
+      "38870929",
+      "21227230",
+      "34262527"
     ]
   }
 }

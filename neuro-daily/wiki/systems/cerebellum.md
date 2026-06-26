@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-23
-updated: 2026-09-04
-revision_count: 4
+updated: 2026-10-04
+revision_count: 5
 dimensions: [cellular, microcircuit, brain-region, cognition]
-related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation, interval-timing, purkinje-cell, climbing-fiber, granule-cell-cerebellar]
+related: [motor-cortex, predictive-coding, cerebellar-ltd, forward-model, ltd, memory-consolidation, interval-timing, purkinje-cell, climbing-fiber, granule-cell-cerebellar, cerebellar-cognitive-affective-syndrome]
 prerequisites: [purkinje-cell, parallel-fiber, climbing-fiber, deep-cerebellar-nuclei]
 opens_questions: [Q-cb-01, Q-cb-02, Q-cb-03]
-source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-03-purkinje-cell-cerebellar-motor-learning]
-key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:27088121", "PMID:38918348", "PMID:40523942", "PMID:40848722"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-03-purkinje-cell-cerebellar-motor-learning, 2026-10-04-cerebellum-cognition-language-social]
+key_sources: ["PMID:33203932", "PMID:33288911", "PMID:21227230", "PMID:11319554", "PMID:27088121", "PMID:38918348", "PMID:40523942", "PMID:40848722", "PMID:31522332", "PMID:40047904", "PMID:28385461", "PMID:33427596"]
 ---
 
 # 小脑 (Cerebellum)
@@ -89,17 +89,23 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 | 小脑存在上行/下行微区双向学习 | 综合多任务体内记录 | PMID:33203932 | 中-高 |
 | 小脑含前向/逆向内部模型 | 眼球跟踪 + 计算建模 | PMID:21227230 | 中（间接） |
 | 小脑损伤导致认知情感障碍（CCAS） | 临床病例系列 + 损伤定位分析 | PMID:9549520 | 高 |
+| 后部小脑叶（Crus I/II, VI）损伤 → 执行/语言/社会认知障碍 | 多中心 CCAS 任务组论文 | PMID:31522332 | 高 |
+| 小脑损伤语言效应量 d=−0.81，社会认知 d=−0.81 | 系统综述元分析 129 研究 3140 患者 | PMID:40047904 (Reumers 2025) | 高（元分析）|
+| Crus I/II 在语言预测/ToM 任务中激活（fMRI） | fMRI 研究 meta-analysis | PMID:28385461 (Sokolov 2017) | 中（间接）|
+| Crus I/II 包含多个交错认知网络代表区（静息态 fMRI） | 个体精准 fMRI 图谱 | PMID:33427596 (Xue 2021) | 高 |
+| 颗粒细胞在 2s 任务中发展持续性缓坡放电 | 小鼠双光子同步记录 | PMID:38870929 (Garcia-Garcia 2024) | 高 |
 
 ## 连接
 
 - [[motor-cortex]] — 小脑-运动皮层闭环（通过丘脑）
 - [[predictive-coding]] — 小脑是专用预测误差学习系统
 - [[cerebellar-ltd]] — 经典 LTD 机制详情
-- [[forward-model]] — 内部模型框架
+- [[forward-model]] — 内部模型框架（运动 + 认知双用）
 - [[ltd]] — 小脑 LTD 与海马 LTD 的异同
 - [[memory-consolidation]] — 程序性记忆（小脑）vs 陈述性记忆（海马）
-- [[interval-timing]] — 小脑作为毫秒级事件计时器
+- [[interval-timing]] — 小脑作为毫秒/秒级事件计时器
 - [[diseases/spinocerebellar-ataxia]] — 疾病作为窗口（SCA）
+- [[cerebellar-cognitive-affective-syndrome]] — CCAS：小脑认知功能受损的临床综合征（执行、语言、社会认知、情感）
 
 ## 未解问题
 
@@ -114,8 +120,10 @@ PF + CF 同时激活 → mGluR1/IP₃/PKC → AMPAR 内吞 → PF-PC 突触长�
 - 2026-07-31 · 新增"小脑作为区间计时器"节 · 区分事件计时（event-based）与节拍计时（beat-based）；整合 Breska & Ivry 2016 和 Teki 2011 解剖学证据 · 基于 2026-07-31-interval-timing-basal-ganglia-striatum
 - 2026-09-03 · 更新当前理解，整合 Nguyen & Person 2025（前向控制为 model-free implicit mapping，非显式内部模型）；整合 Jin & Hull 2025（攀爬纤维同时携带奖励预测误差信号，外侧小脑参与广义预测学习）；新增浦肯野细胞、攀爬纤维、颗粒细胞专属页面链接 · 基于 2026-09-03-purkinje-cell-cerebellar-motor-learning
 - 2026-09-04 · 深部小脑核（DCN）内容更新：（1）三核团（顶核/间位核/齿状核）解剖分工明确化；（2）三类细胞类型（谷氨酸能/GABA能/甘氨酸能）细节补充；（3）去抑制（disinhibition）确立为DCN主要输出机制（Ishikawa 2014 灵长类证据）；（4）PNN 三层可塑性框架；（5）非运动功能（aDCN→VTA饱腹感；齿状核→前额叶认知）。新增独立 wiki 页：[[deep-cerebellar-nuclei]] · 基于 2026-09-04-deep-cerebellar-nuclei-dcn-output
+- 2026-10-04 · **重大认知扩展**：补充 CCAS 完整临床证据（Argyropoulos 2019, PMID:31522332；Reumers 2025 元分析 PMID:40047904）；Sokolov 2017 (PMID:28385461) 语言/ToM fMRI 证据；Xue 2021 (PMID:33427596) Crus I/II 个体精准图谱；Garcia-Garcia 2024 (PMID:38870929) 颗粒细胞 2 秒时序缓坡放电；新增关键证据表中认知行多行；新增 [[cerebellar-cognitive-affective-syndrome]] 连接；更新前向模型节以明确"运动+认知双用" · 基于 2026-10-04-cerebellum-cognition-language-social
 
 ## 来源文章
 
 - [[2026-06-23-cerebellum-motor-prediction]]
 - [[2026-09-04-deep-cerebellar-nuclei-dcn-output]]
+- [[2026-10-04-cerebellum-cognition-language-social]]

@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-10-03",
-  "total_articles": 163,
+  "last_updated": "2026-10-04",
+  "total_articles": 164,
   "entries": [
+    {
+      "date": "2026-10-04",
+      "title": "被误解了一百年的小脑：从运动纠错机器到语言、社交与时间的预测引擎",
+      "filename": "2026-10-04-cerebellum-cognition-language-social.md",
+      "article_number": 164,
+      "wiki_pages_created": [
+        "wiki/systems/cerebellar-cognitive-affective-syndrome.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/cerebellum.md (rev4->rev5)",
+        "wiki/concepts/cerebellar-ltd.md (rev2->rev3)",
+        "wiki/concepts/forward-model.md (rev2->rev3)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "小脑浦肯野细胞平行纤维-攀爬纤维诱发的 LTD（mGluR1→PKCα→AMPAR 内吞）经典运动误差纠错机制，如何扩展到 Crus I/II 参与语言预测（右侧）和心理理论（左侧）的前向内部模型？CCAS（Schmahmann 综合征）的临床证据（语言 d=−0.81，社会认知 d=−0.81）和 Garcia-Garcia 2024 颗粒细胞 2 秒时序缓坡放电支持这一统一假说，但攀爬纤维在认知情境中传递的教师信号性质仍未知",
+      "open_questions_added": [
+        "Q-cerebellar-cognitive-01（高优先级）：Crus I/II 的语言/ToM 功能是否依赖与运动前叶相同的 PF-PC LTD 分子机制？能否用 Crus I/II 特异性 mGluR1 条件敲除来测试？",
+        "Q-cerebellar-cognitive-02（高优先级）：认知任务（语言预测、ToM）中攀爬纤维传递什么教师信号？Garcia-Garcia 2024 的奖励时序实验暗示认知情境中 CF 信号可能与运动误差信号有质的不同",
+        "Q-cerebellar-cognitive-03（中优先级）：加工速度（d=−0.83）是 CCAS 的独立认知域受损还是语言/执行功能障碍的继发性效应？"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "systems",
+        "cognition",
+        "clinical"
+      ],
+      "curriculum_track": "课程脊柱1（感知与运动：小脑运动控制）+ 课程脊柱2（学习记忆：程序性记忆/运动学习）+ 课程脊柱11（语言神经科学）+ 课程脊柱12（社会认知与心智化）",
+      "topic_tags": [
+        "cerebellum Crus I/II lobule VI-IX posterior cerebellar lobe motor prediction",
+        "cerebellar LTD PF-PC LTD mGluR1 PKCα GluA2 Ser880 AMPAR internalization",
+        "forward internal model efference copy sensory prediction motor control",
+        "Wolpert Miall Kawato 1998 MOSAIC forward-inverse model pair",
+        "CCAS cerebellar cognitive affective syndrome Schmahmann syndrome 1998",
+        "Argyropoulos 2019 CCAS consensus task force anatomy-function correspondence",
+        "Reumers 2025 meta-analysis 129 studies 3140 patients language d=-0.81 social cognition d=-0.81",
+        "Sokolov 2017 fMRI language prediction ToM Crus I/II right left lateralization",
+        "Xue 2021 individual precision fMRI Crus I/II interdigitated cognitive networks",
+        "Garcia-Garcia 2024 granule cell 2-second temporal ramping climbing fiber reward",
+        "deep cerebellar nuclei dentate nucleus thalamus prefrontal cognitive loop",
+        "posterior fossa syndrome mutism children medulloblastoma superior cerebellar peduncle"
+      ],
+      "main_sources": [
+        "PMID:9577385 (Schmahmann & Sherman 1998, Brain, CCAS original, abstract only)",
+        "PMID:31522332 / PMCID:PMC6978293 (Argyropoulos et al. 2019, Cerebellum, CCAS consensus, OPEN)",
+        "PMID:40047904 (Reumers et al. 2025, Neurosci Biobehav Rev, meta-analysis n=3140, OPEN)",
+        "PMID:28385461 / PMCID:PMC5443649 (Sokolov et al. 2017, Neurosci Biobehav Rev, language/ToM fMRI, OPEN)",
+        "PMID:33427596 / PMCID:PMC8093164 (Xue et al. 2021, Neuroimage, individual fMRI map, OPEN)",
+        "PMID:38870929 / PMCID:PMC11209058 (Garcia-Garcia et al. 2024, Nature, granule cell ramping, OPEN)",
+        "PMID:21227230 (Wolpert et al. 1998 review, forward model, abstract only)",
+        "PMID:34262527 / PMCID:PMC8273235 (Miyata et al. 2021, DCN forward model, OPEN)"
+      ]
+    },
     {
       "date": "2026-10-03",
       "title": "分子的枷锁：围神经网如何在杏仁核内关闭恐惧记忆的重写窗口",

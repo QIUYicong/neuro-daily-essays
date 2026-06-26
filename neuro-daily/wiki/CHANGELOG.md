@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-10-04（#164）：被误解了一百年的小脑——认知、语言与社会预测的前向引擎
+
+**文章**：《被误解了一百年的小脑：从运动纠错机器到语言、社交与时间的预测引擎》（#164）
+
+**类型**：深化既有主题 + 重大认知扩展（课程脊柱5+7+12：认知控制/语言/脑与AI比较；层级：brain-region × cognition × behavior × disease；选题逻辑：连续多篇分子/细胞/意识层级文章后，以脑区/系统层级深入小脑认知功能，打通运动LTD和认知前向模型的理论桥梁）
+
+**新创建页面（1）**：
+- `wiki/systems/cerebellar-cognitive-affective-syndrome.md`（rev1）：新建 CCAS/Schmahmann 综合征专页，覆盖四大认知域、解剖-功能对应、前向模型机制假说、2025 年元分析量化数据
+
+**修订页面（3）**：
+- `wiki/concepts/cerebellar-ltd.md`（rev2→rev3）：补充 Garcia-Garcia 2024 (PMID:38870929) 颗粒细胞 2 秒缓坡放电发现；Hoxha 2016 分子机制细节；新增连接至 CCAS 页和 interval-timing；新增 Q-cerebellar-cognitive-01/02
+- `wiki/concepts/forward-model.md`（rev2→rev3）：更新一句话定义（认知扩展）；补充 Sokolov 2017、Reumers 2025、Popa 2019 认知证据行进入证据表；新增 CCAS 和 interval-timing 连接；Q-fm-01 标注为部分解答
+- `wiki/systems/cerebellum.md`（rev4→rev5）：新增 Reumers 2025 元分析证据（语言 d=−0.81，社会认知 d=−0.81）；Xue 2021 个体 fMRI 图谱；Garcia-Garcia 2024 颗粒细胞时序；新增 CCAS 连接；证据表增 5 行
+
+**矛盾登记（0）**：无新矛盾（认知功能扩展与运动学习基础机制不冲突；Garcia-Garcia 2024 CF 信号不衰减与经典误差模型的分歧已在 Q-cerebellar-cognitive-02 登记为待解问题而非正式冲突）
+
+**新增未解问题（3）**：
+- Q-cerebellar-cognitive-01（高）：Crus I/II 认知功能是否依赖 PF-PC LTD 同一分子机制？
+- Q-cerebellar-cognitive-02（高）：认知任务中攀爬纤维传递什么教师信号（Garcia-Garcia 2024 CF不衰减之谜）？
+- Q-cerebellar-cognitive-03（中）：加工速度障碍（d=−0.83）是独立域还是继发效应？
+
+**图谱**：309节点/1832边 → **310节点/1841边**（+1节点：cerebellar-cognitive-affective-syndrome；+9边：CCAS→cerebellum, CCAS→forward-model, CCAS→cerebellar-ltd, CCAS→deep-cerebellar-nuclei, CCAS→granule-cell-cerebellar, CCAS→interval-timing, cerebellum→CCAS, forward-model→CCAS, cerebellar-ltd→CCAS）
+
+---
+
 ## 2026-10-03（#163）：围神经网——分子的枷锁与恐惧记忆的重写窗口
 
 **文章**：《分子的枷锁：围神经网如何在杏仁核内关闭恐惧记忆的重写窗口》（#163）

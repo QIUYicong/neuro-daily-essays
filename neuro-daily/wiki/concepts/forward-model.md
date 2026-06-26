@@ -6,19 +6,19 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-23
-updated: 2026-09-04
-revision_count: 2
+updated: 2026-10-04
+revision_count: 3
 dimensions: [brain-region, cognition, behavior]
 related: [cerebellum, predictive-coding, motor-cortex, world-model, efference-copy]
 prerequisites: [cerebellum, motor-cortex]
 opens_questions: [Q-cb-01, Q-fm-01]
-source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-04-deep-cerebellar-nuclei-dcn-output]
-key_sources: ["PMID:21227230", "PMID:33203932", "PMID:34262527"]
+source_articles: [2026-06-23-cerebellum-motor-prediction, 2026-09-04-deep-cerebellar-nuclei-dcn-output, 2026-10-04-cerebellum-cognition-language-social]
+key_sources: ["PMID:21227230", "PMID:33203932", "PMID:34262527", "PMID:28385461", "PMID:30697149", "PMID:31522332"]
 ---
 
 # 前向模型 (Forward Model)
 
-> **一句话定义**：给定运动指令（传出拷贝），预测该运动将产生什么感觉后果的内部计算模型——被认为主要由小脑实现，使大脑能在感觉反馈到达（延迟 20–100ms）之前就对运动结果有精确预期，从而实现快速精确运动控制。
+> **一句话定义**：给定运动指令（传出拷贝），预测该运动将产生什么感觉后果的内部计算模型——被认为主要由小脑实现，使大脑能在感觉反馈到达（延迟 20–100ms）之前就对运动结果有精确预期，从而实现快速精确运动控制；现代研究表明该原理也扩展到语言预测（Crus I/II 参与句子续接预测）和社会认知（Crus I/II 参与心理理论），统一了小脑运动和认知功能。
 
 ## 当前理解
 
@@ -67,6 +67,10 @@ key_sources: ["PMID:21227230", "PMID:33203932", "PMID:34262527"]
 | 小脑实现多模块前向模型 | 间接行为学证据；fMRI 研究 | 多项研究 | 中 |
 | DCN 输出预测 200ms 后运动状态 | 系统辨识研究（Kakei et al.，间接）| PMID:34262527 | 中（间接）|
 | 前向预测中断 → 意向性震颤 | 小脑损伤患者的不规则震颤与预测失败一致 | 临床病理对应 | 高 |
+| **前向模型扩展至语言预测**：右侧 Crus I/II 在不可预期句子续接时激活增强 | fMRI 语言任务 meta-analysis | PMID:28385461 (Sokolov 2017) | 中（间接相关） |
+| **前向模型扩展至社会认知**：左侧 Crus I/II 在心理理论（ToM）任务中激活增强 | fMRI ToM 任务 meta-analysis | PMID:28385461 (Sokolov 2017) | 中（间接相关） |
+| **前向模型损伤 → 语言/社会认知障碍**（CCAS）：129 项研究 3140 患者，语言 d=−0.81，社会认知 d=−0.81 | 系统综述+元分析 | PMID:40047904 (Reumers 2025) | 高（元分析） |
+| 浦肯野细胞简单放电以相反极性同时编码预测和反馈成分 | 猕猴浦肯野细胞单细胞记录 | PMID:30697149 (Popa 2019) | 高（直接电生理） |
 
 ## 连接
 
@@ -76,16 +80,21 @@ key_sources: ["PMID:21227230", "PMID:33203932", "PMID:34262527"]
 - [[world-model]] — 前向模型是更广义世界模型的一个专用子系统（运动领域）
 - [[cerebellar-ltd]] — 误差信号驱动前向模型更新的分子机制
 - [[deep-cerebellar-nuclei]] — 前向模型输出的最终执行节点（DCN → VL 丘脑）
+- [[cerebellar-cognitive-affective-syndrome]] — CCAS：前向模型扩展至认知领域时受损的临床综合征
+- [[interval-timing]] — 颗粒细胞秒级缓坡放电为认知前向模型提供时序基础（Garcia-Garcia 2024）
 
 ## 未解问题
 
-- Q-cb-01：前向模型的时序预测在颗粒细胞层面如何实现？时间基础是什么？
-- Q-fm-01：前向模型框架能否扩展到语言（预测下一个词）和社会认知（预测他人反应）？与 CCAS 的关联？
+- Q-cb-01：前向模型的时序预测在颗粒细胞层面如何实现？时间基础是什么？（Garcia-Garcia 2024 提供了秒级部分解答：颗粒细胞持续性缓坡放电）
+- Q-fm-01：**部分解答（2026-10-04）**：前向模型框架已有合理证据扩展到语言和社会认知（Sokolov 2017, Reumers 2025 元分析），但语言/ToM 前向模型的**直接神经机制**（哪些颗粒细胞提供什么时序基础，攀爬纤维传递什么认知误差）仍未知。见 Q-cerebellar-cognitive-01/02。
+- Q-cerebellar-cognitive-01：Crus I/II 的语言/ToM 前向模型是否依赖 PF-PC LTD 这同一分子机制？
+- Q-cerebellar-cognitive-02：认知前向模型中攀爬纤维传递的是什么教师信号？
 
 ## 修订历史
 
 - 2026-06-23 · 创建 · 基于《小脑的秘密》一文 · 初始置信度：中（间接证据为主，计算框架合理但神经底物细节待确认）
 - 2026-09-04 · 补充 DCN 作为前向模型输出执行节点的证据：DCN 预测 200ms 后运动状态（Miyata 2021, PMID:34262527）；Kalman 滤波等价框架；长环路闭合机制 · 基于 2026-09-04-deep-cerebellar-nuclei-dcn-output
+- 2026-10-04 · **重要扩展**：补充前向模型认知扩展的多项证据——Sokolov 2017 (PMID:28385461) 语言预测/ToM 的 Crus I/II fMRI 激活；Reumers 2025 元分析 (PMID:40047904) 129 项研究语言 d=−0.81 社会认知 d=−0.81；Popa 2019 浦肯野细胞双模式编码直接电生理；Garcia-Garcia 2024 颗粒细胞 2 秒时序缓坡放电；更新一句话定义以反映认知扩展；将 Q-fm-01 标注为部分解答 · 基于 2026-10-04-cerebellum-cognition-language-social
 
 ## 来源文章
 

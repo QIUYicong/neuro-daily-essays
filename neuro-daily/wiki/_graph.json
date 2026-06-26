@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-02",
-  "node_count": 308,
-  "edge_count": 1822,
+  "updated": "2026-10-04",
+  "node_count": 310,
+  "edge_count": 1841,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2823,6 +2823,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/systems/claustrum.md"
+    },
+    {
+      "id": "cerebellar-cognitive-affective-syndrome",
+      "title": "小脑认知情感综合征（CCAS / Schmahmann 综合征）",
+      "domain": "systems",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/cerebellar-cognitive-affective-syndrome.md"
     }
   ],
   "edges": [
@@ -13128,6 +13137,51 @@
       "to": "claustrum",
       "type": "related",
       "note": "岛叶皮层与屏状核解剖紧邻，功能边界尚不清晰（Koubeissi 2014刺激可能实际影响了前岛叶）"
+    },
+    {
+      "from": "cerebellar-cognitive-affective-syndrome",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "cerebellar-cognitive-affective-syndrome",
+      "to": "forward-model",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "cerebellar-cognitive-affective-syndrome",
+      "to": "cerebellar-ltd",
+      "type": "related"
+    },
+    {
+      "from": "cerebellum",
+      "to": "cerebellar-cognitive-affective-syndrome",
+      "type": "related"
+    },
+    {
+      "from": "forward-model",
+      "to": "cerebellar-cognitive-affective-syndrome",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "cerebellar-cognitive-affective-syndrome",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-cognitive-affective-syndrome",
+      "to": "deep-cerebellar-nuclei",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-cognitive-affective-syndrome",
+      "to": "granule-cell-cerebellar",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-cognitive-affective-syndrome",
+      "to": "interval-timing",
+      "type": "related"
     }
   ],
   "dangling_references": [
