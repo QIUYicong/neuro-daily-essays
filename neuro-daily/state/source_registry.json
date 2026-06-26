@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-04",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10223,9 +10223,97 @@
         "cortical markers"
       ],
       "open_access": true
+    },
+    {
+      "pmid": "10724170",
+      "title": "Inhibitory threshold for critical-period activation in primary visual cortex",
+      "authors_short": "Fagiolini & Hensch",
+      "journal": "Nature",
+      "year": 2000,
+      "open_access": false,
+      "pmcid": null,
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "GABA threshold for CP opening; GAD65-KO; BZD rescue"
+    },
+    {
+      "pmid": "29802758",
+      "title": "iPlasticity: Induced juvenile-like plasticity in the adult brain as a mechanism of antidepressants",
+      "authors_short": "Umemori et al.",
+      "journal": "Psychiatry Clin Neurosci",
+      "year": 2018,
+      "open_access": true,
+      "pmcid": "PMC6174980",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "SSRI→PV dematuration+PNN reduction→iPlasticity"
+    },
+    {
+      "pmid": "41224655",
+      "title": "Critical Periods and Beyond: Dynamic Functions of Perineuronal Nets in Cognition, Development, and Disease",
+      "authors_short": "Sakata et al.",
+      "journal": "J Neurosci",
+      "year": 2025,
+      "open_access": true,
+      "pmcid": "PMC12614057",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "PNN cross-brain-region review; universal plasticity setpoint"
+    },
+    {
+      "pmid": "41224666",
+      "title": "Connectivity, Computation, and Plasticity of the Early Visual System",
+      "authors_short": "Shi et al.",
+      "journal": "J Neurosci",
+      "year": 2025,
+      "open_access": true,
+      "pmcid": "PMC12614064",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "Early visual system development review; CP mechanism section"
+    },
+    {
+      "pmid": "30705101",
+      "title": "Vesicular GABA Transporter Is Necessary for Transplant-Induced Critical Period Plasticity in Mouse Visual Cortex",
+      "authors_short": "Tuncdemir et al.",
+      "journal": "J Neurosci",
+      "year": 2019,
+      "open_access": true,
+      "pmcid": "PMC6445995",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "GABAergic cell transplant triggers new CP; Vgat required"
+    },
+    {
+      "pmid": "30936240",
+      "title": "p75 Neurotrophin Receptor Activation Regulates the Timing of Cortical Parvalbumin Interneuron Connectivity",
+      "authors_short": "Yang et al.",
+      "journal": "J Neurosci",
+      "year": 2019,
+      "open_access": true,
+      "pmcid": "PMC6554620",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "p75NTR→PV connectivity remodeling→adult ODP recovery"
+    },
+    {
+      "pmid": "40215964",
+      "title": "A Sensitive Period for the Development of Episodic-like Memory in Mice",
+      "authors_short": "Ramsaran et al.",
+      "journal": "Curr Biol",
+      "year": 2025,
+      "open_access": true,
+      "pmcid": "PMC12055481",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "Hippocampal CA1 episodic memory sensitive period; PNN-BDNF gating"
+    },
+    {
+      "pmid": "41416154",
+      "title": "Research Progress on the Mechanisms of Visual Cortical Plasticity",
+      "authors_short": "Dong & Liu",
+      "journal": "Sichuan Da Xue Xue Bao Yi Xue Ban",
+      "year": 2025,
+      "open_access": true,
+      "pmcid": "PMC12709103",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "Visual cortex plasticity mechanisms review; ECM/BDNF adult amblyopia targets"
     }
   ],
-  "total_sources": 589,
+  "total_sources": 605,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -15011,5 +15099,139 @@
       "37701759",
       "41431109"
     ]
-  }
+  },
+  "sources_2026-10-04": [
+    {
+      "pmid": "10724170",
+      "title": "Inhibitory threshold for critical-period activation in primary visual cortex",
+      "authors_short": "Fagiolini & Hensch",
+      "journal": "Nature",
+      "year": 2000,
+      "open_access": false,
+      "pmcid": null,
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "GABA threshold for CP opening; GAD65-KO; BZD rescue"
+    },
+    {
+      "pmid": "10499792",
+      "title": "BDNF regulates the maturation of inhibition and the critical period of plasticity in mouse visual cortex",
+      "authors_short": "Huang, Bear et al.",
+      "journal": "Cell",
+      "year": 1999,
+      "open_access": false,
+      "pmcid": null,
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "BDNF drives PV maturation timeline; CP timing"
+    },
+    {
+      "pmid": "12424383",
+      "title": "Reactivation of ocular dominance plasticity in the adult visual cortex",
+      "authors_short": "Pizzorusso et al.",
+      "journal": "Science",
+      "year": 2002,
+      "open_access": false,
+      "pmcid": null,
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "ChABC degrades PNNs → adult ODP recovery"
+    },
+    {
+      "pmid": "21071629",
+      "title": "Lynx1, a cholinergic brake, limits plasticity in adult visual cortex",
+      "authors_short": "Morishita et al.",
+      "journal": "Science",
+      "year": 2010,
+      "open_access": true,
+      "pmcid": "PMC3387538",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "Lynx1 accumulates at CP end; KO retains adult ODP; donepezil synergy"
+    },
+    {
+      "pmid": "36598942",
+      "title": "Rapid synaptic and gamma rhythm signature of mouse critical period plasticity",
+      "authors_short": "Quast & Hensch et al.",
+      "journal": "PNAS",
+      "year": 2023,
+      "open_access": true,
+      "pmcid": "PMC9926253",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "Gamma oscillation as CP-open biomarker; thalamo-PV fast pathway"
+    },
+    {
+      "pmid": "29802758",
+      "title": "iPlasticity: Induced juvenile-like plasticity in the adult brain as a mechanism of antidepressants",
+      "authors_short": "Umemori et al.",
+      "journal": "Psychiatry Clin Neurosci",
+      "year": 2018,
+      "open_access": true,
+      "pmcid": "PMC6174980",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "SSRI→PV dematuration+PNN reduction→iPlasticity"
+    },
+    {
+      "pmid": "41224655",
+      "title": "Critical Periods and Beyond: Dynamic Functions of Perineuronal Nets in Cognition, Development, and Disease",
+      "authors_short": "Sakata et al.",
+      "journal": "J Neurosci",
+      "year": 2025,
+      "open_access": true,
+      "pmcid": "PMC12614057",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "PNN cross-brain-region review; universal plasticity setpoint"
+    },
+    {
+      "pmid": "41224666",
+      "title": "Connectivity, Computation, and Plasticity of the Early Visual System",
+      "authors_short": "Shi et al.",
+      "journal": "J Neurosci",
+      "year": 2025,
+      "open_access": true,
+      "pmcid": "PMC12614064",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "Early visual system development review; CP mechanism section"
+    },
+    {
+      "pmid": "30705101",
+      "title": "Vesicular GABA Transporter Is Necessary for Transplant-Induced Critical Period Plasticity in Mouse Visual Cortex",
+      "authors_short": "Tuncdemir et al.",
+      "journal": "J Neurosci",
+      "year": 2019,
+      "open_access": true,
+      "pmcid": "PMC6445995",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "GABAergic cell transplant triggers new CP; Vgat required"
+    },
+    {
+      "pmid": "30936240",
+      "title": "p75 Neurotrophin Receptor Activation Regulates the Timing of Cortical Parvalbumin Interneuron Connectivity",
+      "authors_short": "Yang et al.",
+      "journal": "J Neurosci",
+      "year": 2019,
+      "open_access": true,
+      "pmcid": "PMC6554620",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "p75NTR→PV connectivity remodeling→adult ODP recovery"
+    },
+    {
+      "pmid": "40215964",
+      "title": "A Sensitive Period for the Development of Episodic-like Memory in Mice",
+      "authors_short": "Ramsaran et al.",
+      "journal": "Curr Biol",
+      "year": 2025,
+      "open_access": true,
+      "pmcid": "PMC12055481",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "Hippocampal CA1 episodic memory sensitive period; PNN-BDNF gating"
+    },
+    {
+      "pmid": "41416154",
+      "title": "Research Progress on the Mechanisms of Visual Cortical Plasticity",
+      "authors_short": "Dong & Liu",
+      "journal": "Sichuan Da Xue Xue Bao Yi Xue Ban",
+      "year": 2025,
+      "open_access": true,
+      "pmcid": "PMC12709103",
+      "used_in": "2026-10-04-critical-period-visual-cortex-pnn",
+      "aspect": "Visual cortex plasticity mechanisms review; ECM/BDNF adult amblyopia targets"
+    }
+  ]
 }

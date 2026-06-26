@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-07-04
-updated: 2026-10-03
-revision_count: 4
+updated: 2026-10-04
+revision_count: 5
 dimensions: [molecular, cellular, microcircuit, cognition, disease]
-related: [pv-interneurons, ei-balance, synaptic-pruning, adult-neurogenesis, bdnf, homeostatic-plasticity, critical-period, microglia]
+related: [pv-interneurons, ei-balance, synaptic-pruning, adult-neurogenesis, bdnf, homeostatic-plasticity, critical-period, microglia, ocular-dominance-plasticity, v1-primary-visual-cortex]
 prerequisites: [pv-interneurons, synaptic-transmission]
 opens_questions: [Q-ei-balance-02, Q-pnn-human-therapy, Q-cp-04, Q-pnn-fear-specificity, Q-pnn-iPlasticity-window, Q-pnn-nac-addiction]
-source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-09-04-deep-cerebellar-nuclei-dcn-output, 2026-10-03-perineuronal-nets-fear-memory-erasure]
-key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942", "PMID:12424383", "PMID:22764251", "PMID:33293360", "PMID:34045309", "PMID:29858484", "PMID:19729657", "PMID:24273519", "PMID:29802758", "PMID:38346480", "PMID:30258113", "PMID:38158878"]
+source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-09-04-deep-cerebellar-nuclei-dcn-output, 2026-10-03-perineuronal-nets-fear-memory-erasure, 2026-10-04-critical-period-visual-cortex-pnn]
+key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942", "PMID:12424383", "PMID:22764251", "PMID:33293360", "PMID:34045309", "PMID:29858484", "PMID:19729657", "PMID:24273519", "PMID:29802758", "PMID:38346480", "PMID:30258113", "PMID:38158878", "PMID:41224655", "PMID:21071629"]
 ---
 
 # 围神经元网 (Perineuronal Nets, PNNs)
@@ -94,6 +94,8 @@ key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942"
 | PV 成熟触发关键期开启；PNN 固化触发关键期关闭 | GABA 操控（安定/免疫毒素）+ 发育时序 | PMID:16243601 | 高 |
 | aggrecan 通过 PTPσ 降低 TRKB 磷酸化；PTPσ KO 保有成年可塑性 | 生化 + PTPσ KO + 光遗传 | PMID:33293360 | 高 |
 | 成年皮层 PNN 密度受 PV+ 细胞活动动态调节 | DREADD 抑制 PV+ + PNN 定量（1周） | PMID:34045309 | 中-高 |
+| Gamma振荡（~40Hz）是V1关键期开放状态的电生理标志，PNNs降解/缺失可恢复此信号 | LFP + 多种CP重开操作交叉验证 | PMID:36598942（PMC9926253） | 中-高 |
+| Sakata 2025综述：PNNs跨多脑区（V1、BLA、海马、代谢组织）均为可塑性设定点的通用调控分子 | 系统综述，2025年最新综合框架 | PMID:41224655（PMC12614057） | 高（综述） |
 
 ## 连接
 
@@ -105,6 +107,8 @@ key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942"
 - [[deep-cerebellar-nuclei]] — DCN 大型谷氨酸能投射神经元被脑中最高密度的 PNN 包裹；PNN 调控 PC→DCN 传递效率，门控运动学习速率
 - [[fear-extinction]] — 成年 BLA 的 PNNs 阻止消退对原始恐惧痕迹的结构重写；ChABC 降解 PNNs 可使成年鼠恢复消退=删除的幼鼠模式（Gogolla 2009）
 - [[fear-conditioning]] — 条件化恐惧在 BLA 锥体细胞建立 LTP；PV+ 细胞 PNNs 固化回路防止再加工
+- [[ocular-dominance-plasticity]] — PNNs关闭成年V1眼优势可塑性；ChABC降解是经典恢复手段
+- [[v1-primary-visual-cortex]] — V1是PNN关键期关闭机制最深入研究的脑区（Pizzorusso 2002系列）
 
 ## 未解问题
 
@@ -121,6 +125,7 @@ key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942"
 - 2026-06-03 · 修订 rev2 · 基于《时间刻入神经回路：关键期的开关机制》(#72) · 新增机制3（PTPσ-TRKB 轴统一 ChABC/氟西汀机制，Lesnikova 2021）；新增成年 PNN 动态调节证据（Devienne 2021）；补充 critical-period 链接
 - 2026-09-04 · 修订 rev3 · DCN 新发现：（1）DCN 大型谷氨酸能神经元拥有脑中最高密度的 PNN；（2）ChABC 移除 DCN PNN → PC→DCN mIPSC 频率 31.7→48.5 Hz（+53%）、诱发 IPSC 500→956 pA（+91%）、反弹放电 138%→168%；（3）EBC 学习率提升：CR率 51.1%→72.6%（Bhatt 2018, PMID:29858484）；说明 PNN 不只在皮层关键期发挥作用，在小脑成年可塑性中也是主动调速器。补充 [[deep-cerebellar-nuclei]] 链接 · 基于 2026-09-04-deep-cerebellar-nuclei-dcn-output
 - 2026-10-03 · 修订 rev4 · 杏仁核 BLA 恐惧记忆保护（Gogolla 2009，PMID:19729657）：ChABC 降解杏仁核 PNNs → 成年恐惧记忆变为可消退删除，复制幼鼠关键期模式；P16–P18 切换点；PTSD 治疗意义。新增成瘾维度：NAc brevican（Hazlett 2024，PMID:38346480）、LH PNN（Blacktop 2019，PMID:30258113）。新增 iPlasticity（Umemori 2018，PMID:29802758）：SSRI 诱导 PNN 软化联合行为疗法框架。新增 3 个开放问题（Q-pnn-fear-specificity, Q-pnn-iPlasticity-window, Q-pnn-nac-addiction）。补充 [[fear-extinction]] 和 [[fear-conditioning]] 链接 · 基于 2026-10-03-perineuronal-nets-fear-memory-erasure
+- 2026-10-04 · 修订 rev5 · V1视觉皮层关键期详解（#164）：新增证据表2行（Quast 2023 gamma生物标志，Sakata 2025综合综述）；确认Lynx1是与PNNs独立的第二制动者（PMID:21071629，PMC3387538），两者分别通过结构稳定和胆碱能信号阻断关闭V1关键期；related新增ocular-dominance-plasticity和v1-primary-visual-cortex；key_sources新增PMID:41224655和PMID:21071629 · 基于2026-10-04-critical-period-visual-cortex-pnn
 
 ## 来源文章
 
@@ -128,3 +133,4 @@ key_sources: ["PMID:37143468", "PMID:16243601", "PMID:24309249", "PMID:36598942"
 - [[2026-06-03-critical-period-plasticity]]
 - [[2026-09-04-deep-cerebellar-nuclei-dcn-output]]
 - [[2026-10-03-perineuronal-nets-fear-memory-erasure]]
+- [[2026-10-04-critical-period-visual-cortex-pnn]]

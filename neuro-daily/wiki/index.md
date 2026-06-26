@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-02（第162篇·屏状核：大脑最神秘的指挥家）· 主题页总数：**304**（新建1页：systems/claustrum；修订0页；图谱309节点/1832边）
+> 最后更新：2026-10-04（第164篇·视觉皮层关键期：PV、PNN与Lynx1的三重门控）· 主题页总数：**305**（新建1页：concepts/ocular-dominance-plasticity；修订3页：concepts/critical-period rev2→rev3、concepts/perineuronal-nets rev4→rev5、systems/v1-primary-visual-cortex rev8→rev9；图谱311节点/1851边）
 
 ---
 
@@ -61,7 +61,8 @@
 
 ## concepts（概念/框架）
 
-- 🟢 [发育关键期](concepts/critical-period.md) — GABA 阈值触发开启；三道刹车（PNN/OTX2/Lynx1）主动关闭；ChABC/氟西汀/催产素可重开；MeCP2 KO 使 Rett 综合征关键期错位；弱视与语言习得的发育窗口 **[NEW 2026-06-03]**
+- 🟢 [发育关键期](concepts/critical-period.md) — GABA 阈值触发开启；三道刹车（PNN/OTX2/Lynx1）主动关闭；ChABC/氟西汀/催产素可重开；MeCP2 KO 使 Rett 综合征关键期错位；弱视与语言习得的发育窗口；Quast 2023 gamma振荡是CP开放状态生物标志；Ramsaran 2025 海马CA1情节记忆敏感期由PNN门控 **[NEW 2026-06-03 · 修订 rev3 2026-10-04]**
+- 🟢 [眼优势可塑性（ODP）](concepts/ocular-dominance-plasticity.md) — 视觉关键期的经典研究模型；单眼剥夺在V1触发竞争性Hebbian皮层重分配；PV去激活先于突触变化；成年重开策略（ChABC/Lynx1-KO/GABA移植）；人类弱视的分子靶点 **[NEW 2026-10-04]**
 - 🟢 [突触剪枝](concepts/synaptic-pruning.md) — 先多建再精删策略；C1q/C3b"吃我"+CD47"别吃我"双向博弈；活动依赖（TTX实验）；dLGN/海马/前额叶分窗口；精神分裂症（C4A过度剪枝）与AD（C1q重激活）疾病连接 **[NEW 2026-06-03]**
 - 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异 **[NEW 2026-06-03]**
 - 🟢 [Hodgkin-Huxley 模型](concepts/hodgkin-huxley-model.md) — 动作电位的定量数学框架
@@ -161,7 +162,7 @@
 - 🟢 [AQP4（水通道蛋白4）](concepts/aqp4.md) — 脑内表达量最高的水通道；高度极化富集于星形胶质细胞终足（密度约10倍于其他胶质膜区）；CSF-ISF 对流的分子水门；AQP4 KO→70% 清除效率下降；AQP4 去极化是衰老脑胶质淋巴功能下降的分子基础；SNTA1/M23亚型维持极化分布 **[NEW 2026-07-06]**
 - 🟢 [稳态可塑性](concepts/homeostatic-plasticity.md) — 突触缩放+内在兴奋性+突触前稳态三大类型；时间尺度隔离（小时/天 vs 秒/分）；为 Hebbian 规则提供运行前提；是 E/I 平衡的慢速补偿机制 **[NEW 2026-07-03 · 修订 2026-07-04]**
 - 🔵 [兴奋-抑制平衡（E/I 平衡）](concepts/ei-balance.md) — 皮层回路信噪比控制机制；PV+/SST+/VIP+ 三类中间神经元分工维持；失衡是 ASD/精神分裂症/癫痫的共同汇流点；多维度（不同细胞类型→不同靶点），非单一数字 **[NEW 2026-07-04]**
-- 🟢 [围神经元网（PNNs）](concepts/perineuronal-nets.md) — 包裹 PV+ 细胞的细胞外基质网络（aggrecan+透明质酸+连接蛋白）；OTX2 正反馈驱动 PV 成熟；固化 AMPA 受体、关闭发育关键期；ChABC 处理可逆转（动物） **[NEW 2026-07-04]**
+- 🟢 [围神经元网（PNNs）](concepts/perineuronal-nets.md) — 包裹 PV+ 细胞的细胞外基质网络（aggrecan+透明质酸+连接蛋白）；OTX2 正反馈驱动 PV 成熟；固化 AMPA 受体、关闭发育关键期；ChABC 处理可逆转；BLA 恐惧关键期关闭；NAc 成瘾回路；iPlasticity（SSRI）；Quast 2023 gamma标志；Sakata 2025跨脑区综合框架 **[NEW 2026-07-04 · 修订 rev5 2026-10-04]**
 
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）**[NEW 2026-07-01]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
@@ -294,7 +295,7 @@
 - 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；rIFG/preSMA反应抑制（超直接通路）；vmPFC/OFC价值决策腹侧亚区；dlPFC认知弹性三重机制（混合选择性/群体动力学/振荡选通）；**rev7新增**：vmPFC作为情绪调节腹侧亚区（认知重评三层级+IL消退同源+sgACC轴+抑郁回路）**[修订 rev6→rev7 2026-08-25]**
 - 🟢 [腹内侧前额叶皮层（vmPFC）](systems/vmPFC.md) — PFC情绪调节枢纽（BA10/11/12/25/32腹侧）；vlPFC→vmPFC→杏仁核三层级认知重评回路；IL/vmPFC→腹侧ITC→CeM恐惧消退回路；sgACC（BA25）"内脏运动皮层"自主神经调节轴；抑郁症vmPFC灰质减少+sgACC超激活；Mayberg 2005 BA25 DBS治疗TRD **[NEW 2026-08-25]**
 - 🔵 [背外侧前额叶认知弹性](systems/dlpfc-cognitive-flexibility.md) — dlPFC 三重认知弹性机制：混合选择性（Rigotti 2013）高维编码支持任意规则组合；群体动力学（Mante 2013）正交子空间分离不同背景下的决策轨迹；振荡选通（Buschman 2012）beta激活/alpha抑制动态路由规则集群；BG门控（O'Reilly 2006）控制WM更新时机；前额叶前后轴层级（Badre 2009）；OCD认知僵化的系统级网络失调机制 **[NEW 2026-08-24]**
-- 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
+- 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）；发育关键期三重门控（PV-GABA阈值/PNN主刹车/Lynx1胆碱能制动）与ODP机制完整扩充（修订9次）**[修订 rev9 2026-10-04]**
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；AAS两通道架构与VTA枢纽（修订5次）**[NEW 2026-06-12]**
 - 🟢 [上行激活系统（AAS）](systems/ascending-arousal-system.md) — 脑干五核团（LC/DRN/PPT-LDT/TMN/Orexin）经腹侧基底前脑路（主要）+背侧丘脑路（次要）激活皮层；PB/PC谷氨酸通路是关键必要节点（Fuller 2011）；VTA=dAAN枢纽；翻转开关架构 **[NEW 2026-08-10]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**

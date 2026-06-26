@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-07-08
-revision_count: 2
+updated: 2026-10-04
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity, circadian-clock]
+related: [pv-interneurons, perineuronal-nets, ei-balance, bdnf, synaptic-pruning, microglia, ltp, ltd, homeostatic-plasticity, thalamocortical-circuit, orientation-selectivity, circadian-clock, ocular-dominance-plasticity, adult-neurogenesis, fear-extinction]
 prerequisites: [pv-interneurons, ei-balance, perineuronal-nets, synaptic-transmission]
 opens_questions: [Q-cp-01, Q-cp-02, Q-cp-03, Q-cp-04]
-source_articles: [2026-06-03-critical-period-plasticity, 2026-07-08-circadian-clock-scn-brain-rhythm]
-key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181", "PMID:18692473", "PMID:21071629", "PMID:22764251", "PMID:23975100", "PMID:26261347", "PMID:33293360", "PMID:34045309", "PMID:32503914"]
+source_articles: [2026-06-03-critical-period-plasticity, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-10-04-critical-period-visual-cortex-pnn]
+key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181", "PMID:18692473", "PMID:21071629", "PMID:22764251", "PMID:23975100", "PMID:26261347", "PMID:33293360", "PMID:34045309", "PMID:32503914", "PMID:36598942", "PMID:40215964", "PMID:41224655"]
 ---
 
 # 发育关键期 (Critical Period)
@@ -35,7 +35,11 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 
 **关键期关闭是主动而非被动**：成年 PNN 密度受局部网络活动持续调节——化学遗传学抑制 PV+ 细胞可导致 PNN 在一周内退化（Devienne et al. 2021，PMID:34045309）。这意味着关键期关闭后的"稳定状态"并非绝对固化，而是需要局部网络活动的持续维持。
 
-**重开策略**：ChABC（降解 aggrecan/CSPG → 解除 PTPσ-TRKB 压制）、氟西汀（直接结合 TRKB 跨膜域、干扰 TRKB-PTPσ 相互作用）、Lynx1 KO/nAChR 激活、催产素（经星形胶质细胞调节 E/I 状态）均可在成年期重新开启类关键期可塑性（Lesnikova 2021，Maya-Vetencourt 2008，Morishita 2010，Sun 2025）。
+**重开策略**：ChABC（降解 aggrecan/CSPG → 解除 PTPσ-TRKB 压制）、氟西汀（直接结合 TRKB 跨膜域、干扰 TRKB-PTPσ 相互作用）、Lynx1 KO/nAChR 激活、催产素（经星形胶质细胞调节 E/I 状态）均可在成年期重新开启类关键期可塑性（Lesnikova 2021，Maya-Vetencourt 2008，Morishita 2010，Sun 2025）。另一条路径：胚胎 GABAergic 内源神经元移植可在成年 V1 重新触发一个新的 CP 窗口，但**需要 Vgat 依赖的 GABA 主动释放**（而非仅神经元存在）才有效，证明了 GABA 信号的因果必要性（Tuncdemir et al. 2019，PMID:30705101，开放全文 PMC6445995）。
+
+**Gamma振荡是CP开放状态的电生理标志（2026-10-04 新增）**：Quast & Hensch 等（2023，PNAS，PMID:36598942，开放全文PMC9926253）发现，单眼剥夺在CP开放期间（自然关键期或人工重开）数小时内引发 V1 gamma频段（~40Hz）功率的特征性短暂上升。这一 gamma 峰在自然关键期关闭后消失，但在所有使 CP 重新开放的操作（Lynx1-KO、黑暗饲养、苯二氮䓬救治 GAD65-KO）下均重新出现，提示 gamma 振荡是 CP 可塑性就绪状态的非侵入性生物标志物。
+
+**海马CA1的情节记忆敏感期（2026-10-04 新增）**：PV-PNN-BDNF 轴不只存在于感觉皮层——Ramsaran 等（2025，Current Biology，PMID:40215964，开放全文PMC12055481）发现海马 CA1 存在**情节记忆发育敏感期**，由 PNN 成熟门控，且以 BDNF-TrkB 依赖的方式受早期逆境（延迟）和富集环境（加速）所调节。这支持了"同一套分子程序在不同脑区以不同时序部署"的统一框架，PNN/PV 关键期机制是大脑的通用发育工具包。
 
 ## 关键机制
 
@@ -95,9 +99,11 @@ key_sources: ["PMID:9822384", "PMID:10499792", "PMID:12424383", "PMID:16261181",
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《时间刻入神经回路：大脑发育关键期的开关机制与可塑性窗口的重启》(#72) · 初始置信度：高 · 综合 19 篇来源（13 篇开放全文）
-- 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 连接节新增 circadian-clock（Reh et al. 2020, PMID:32503914：CLOCK/BMAL1 → PV+ 中间神经元成熟速率 → 关键期时间轴）；related 新增 circadian-clock；key_sources 新增 PMID:32503914
+- 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 连接节新增 circadian-clock；related 新增 circadian-clock；key_sources 新增 PMID:32503914
+- 2026-10-04 · 修订 rev3 · 基于《大脑可塑性之门》(#164) · 新增：(1) Quast 2023 gamma振荡作为CP开放状态生物标志；(2) Ramsaran 2025 海马CA1情节记忆敏感期由PNN-BDNF门控；(3) Tuncdemir 2019 GABAergic移植触发新CP；related新增 ocular-dominance-plasticity/adult-neurogenesis/fear-extinction；key_sources新增三篇新2025年来源
 
 ## 来源文章
 
 - [[2026-06-03-critical-period-plasticity]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
+- [[2026-10-04-critical-period-visual-cortex-pnn]]

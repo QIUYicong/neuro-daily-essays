@@ -1,7 +1,76 @@
 {
-  "last_updated": "2026-10-03",
-  "total_articles": 163,
+  "last_updated": "2026-10-04",
+  "total_articles": 164,
   "entries": [
+    {
+      "date": "2026-10-04",
+      "title": "大脑可塑性之门：视觉皮层关键期的三重门控机制与成年重开策略",
+      "filename": "2026-10-04-critical-period-visual-cortex-pnn.md",
+      "article_number": 164,
+      "wiki_pages_created": [
+        "wiki/concepts/ocular-dominance-plasticity.md (rev1, established/high)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/critical-period.md (rev2->rev3)",
+        "wiki/concepts/perineuronal-nets.md (rev4->rev5)",
+        "wiki/systems/v1-primary-visual-cortex.md (rev8->rev9)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "V1视觉关键期由PV+中间神经元GABA能成熟触发开启，由三道刹车主动关闭（①PNN基质封存：aggrecan→PTPσ→TRKB去磷酸化，Pizzorusso 2002 ChABC逆转；②Lynx1胆碱能制动：抑制nAChR-VIP-去抑制回路，Morishita 2010 KO恢复；③OTX2信号减退）；gamma振荡（~40Hz）是CP开放状态的非侵入性生物标志（Quast 2023 PNAS）；成年弱视有望通过分子重开策略（ChABC/Lynx1-KO/SSRI/GABA移植）治疗",
+      "open_questions_added": [
+        "Q-cp-01（高优先级）：人类视觉关键期PNN沉积具体时序及个体差异（大鼠~P28关闭；人类对应年龄不明）",
+        "Q-cp-02（中优先级）：语言习得关键期是否共用PV/PNN/OTX2分子机制",
+        "Q-cp-03（高优先级）：临床SSRI能否安全重开特定皮层区域可塑性同时不损害已有记忆",
+        "Q-odp-01（中优先级）：人类V1是否存在严格意义上的眼优势柱（非人灵长类有，啮齿类无）",
+        "Q-odp-02（高优先级）：成年人类弱视的PNN/Lynx1状态及CP重开靶点的临床可行性时间窗口和方案"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavioral",
+        "clinical"
+      ],
+      "curriculum_track": "课程脊柱4（突触可塑性关键期）+ 课程脊柱12（人脑与AI比较：EWC≈PNNs，L2正则化≈Lynx1）",
+      "topic_tags": [
+        "critical period visual cortex PV interneurons GABA maturation",
+        "perineuronal nets PNNs aggrecan ChABC PTPσ TRKB",
+        "Lynx1 nAChR cholinergic brake Morishita 2010",
+        "ocular dominance plasticity ODP monocular deprivation Hubel Wiesel",
+        "gamma oscillations 40Hz CP biomarker Quast 2023 PNAS",
+        "amblyopia adult plasticity reopening ChABC Lynx1-KO",
+        "BDNF TrkB PV maturation critical period timing Huang Bear 1999",
+        "iPlasticity SSRI fluoxetine dematuration PNN softening",
+        "hippocampal CA1 episodic memory sensitive period Ramsaran 2025",
+        "GABAergic interneuron transplant new critical period Tuncdemir 2019"
+      ],
+      "main_sources": [
+        "PMID:10724170 (Fagiolini & Hensch 2000, Nature, GABA threshold, 仅摘要)",
+        "PMID:10499792 (Huang & Bear 1999, Cell, BDNF CP timing, 仅摘要)",
+        "PMID:12424383 (Pizzorusso et al. 2002, Science, ChABC PNNs reactivate ODP, 仅摘要)",
+        "PMID:21071629 / PMC3387538 (Morishita et al. 2010, Science, Lynx1, OPEN)",
+        "PMID:36598942 / PMC9926253 (Quast & Hensch 2023, PNAS, gamma biomarker, OPEN)",
+        "PMID:29802758 / PMC6174980 (Umemori et al. 2018, Psychiatry Clin Neurosci, iPlasticity, OPEN)",
+        "PMID:41224655 / PMC12614057 (Sakata et al. 2025, J Neurosci, PNN cross-region review, OPEN)",
+        "PMID:41224666 / PMC12614064 (Shi et al. 2025, J Neurosci, early visual system review, OPEN)",
+        "PMID:30705101 / PMC6445995 (Tuncdemir et al. 2019, J Neurosci, GABA transplant, OPEN)",
+        "PMID:40215964 / PMC12055481 (Ramsaran et al. 2025, Curr Biol, hippocampal CA1 sensitive period, OPEN)"
+      ],
+      "open_access_fulltext": [
+        "PMID:21071629 (PMC3387538)",
+        "PMID:36598942 (PMC9926253)",
+        "PMID:29802758 (PMC6174980)",
+        "PMID:41224655 (PMC12614057)",
+        "PMID:41224666 (PMC12614064)",
+        "PMID:30705101 (PMC6445995)",
+        "PMID:30936240 (PMC6554620)",
+        "PMID:40215964 (PMC12055481)",
+        "PMID:41416154 (PMC12709103)"
+      ],
+      "note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-10-04（接续第163篇2026-10-03）。主题：视觉皮层关键期三重门控机制（PV-GABA阈值、PNN主刹车、Lynx1胆碱能制动）与眼优势可塑性。本篇为 critical-period 页第3次修订、perineuronal-nets 页第5次修订、v1-primary-visual-cortex 页第9次修订，并新建 ocular-dominance-plasticity 页（rev1）。图谱新增2节点（ocular-dominance-plasticity、lynx1）和19条边。"
+    },
     {
       "date": "2026-10-03",
       "title": "分子的枷锁：围神经网如何在杏仁核内关闭恐惧记忆的重写窗口",

@@ -1,0 +1,86 @@
+RUN LOG · 2026-10-04
+系统时钟：2026-06-26 UTC+8（知识库连续性日期：2026-10-04，第164篇）
+文章编号：#164
+主题：大脑可塑性之门：视觉皮层关键期的三重门控机制与成年重开策略
+
+=== 执行摘要 ===
+
+状态：完成（COMPLETE）
+来源总数：14（开放全文：10，仅摘要：4）
+新建Wiki页：1（concepts/ocular-dominance-plasticity.md rev1）
+修订Wiki页：3（critical-period rev2→rev3, perineuronal-nets rev4→rev5, v1-primary-visual-cortex rev8→rev9）
+图谱变化：309→311节点（+2: ocular-dominance-plasticity, lynx1），1832→1851边（+19）
+新增未解问题：5（Q-cp-01, Q-cp-03, Q-odp-01, Q-odp-02 + Q-cp-02在wiki页已有）
+新增争议登记：0
+来源注册：8条新增（4条已存在于注册表）
+
+=== 选题过程 ===
+
+topic ledger最后条目：#163（2026-10-03，围神经网恐惧记忆关键期，BLA ChABC）
+graph dangling refs：attention, slow-wave-sleep（现有2个悬空节点）
+选题逻辑：#163 深入了 PNN 在 BLA 恐惧记忆中的作用（分子×行为×疾病层），今天自然延伸到 PNN 在视觉皮层关键期的角色——同一分子机制在另一经典脑区/功能系统中的部署。同时填补 critical-period wiki 页（rev2→rev3）、ODP 空缺节点（新建页）和 V1 wiki 页的发育关键期缺口。
+
+=== 文献研究 ===
+
+阅读策略：PubMed 检索 critical period visual cortex PV PNN Lynx1（关键词扩展策略）
+开放全文获取：10篇（PMC）
+仅摘要：4篇（Nature/Science付费）
+新PMID（非已知）：PMID:36598942(Quast 2023), PMID:41224655(Sakata 2025), PMID:41224666(Shi 2025), PMID:30705101(Tuncdemir 2019), PMID:30936240(Yang 2019), PMID:40215964(Ramsaran 2025), PMID:41416154(Dong&Liu 2025)
+已知PMID确认：PMID:10724170, PMID:10499792, PMID:12424383, PMID:21071629, PMID:29802758
+
+=== 写作过程 ===
+
+文章字数：约5200字（含引用标注、证据表、AI比较小节、概念卡片）
+阅读笔记：neuro-daily/notes/2026-10-04-reading-notes.md（8个来源详细笔记）
+来源JSON：neuro-daily/sources/2026-10-04-sources.json（14个来源）
+
+=== Wiki更新 ===
+
+新建：
+- concepts/ocular-dominance-plasticity.md (rev1)
+  * ODP完整机制：时序序列、竞争性Hebbian、重开策略表（6种方法）
+  * 证据表：5条高-中高置信度条目
+  * 连接节：7个wiki链接
+  * 未解问题：Q-odp-01（人类眼优势柱）、Q-odp-02（成年弱视PNN/Lynx1靶点）
+
+修订：
+- concepts/critical-period.md (rev2→rev3)
+  * 新增：Quast 2023 gamma振荡作为CP开放状态生物标志（"当前理解"小节）
+  * 新增：Ramsaran 2025 海马CA1情节记忆敏感期（PNN-BDNF门控）
+  * 新增：Tuncdemir 2019 GABAergic移植触发新CP（须Vgat）
+  * frontmatter：related+3, key_sources+3, source_articles+1
+- concepts/perineuronal-nets.md (rev4→rev5)
+  * 新增：Quast 2023 gamma标志证据行（关键证据表）
+  * 新增：Sakata 2025 跨脑区综合框架证据行
+  * 新增：ocular-dominance-plasticity、v1-primary-visual-cortex连接节
+  * frontmatter：key_sources+2
+- systems/v1-primary-visual-cortex.md (rev8→rev9)
+  * 大幅扩充"发育与关键期"节：原3句→完整三重门控机制小节（约600字）
+  * 新增：ODP时序序列（四步）、关键期重开策略对照表、gamma振荡标志物、弱视临床相关性
+  * frontmatter：related+3, opens_questions+2, key_sources+3, source_articles+1
+
+=== 状态文件更新 ===
+
+topic_ledger.json：追加#164条目，total_articles:163→164
+unresolved_questions.md：新增5个Q条目（Q-cp-01, Q-cp-03, Q-odp-01, Q-odp-02详细描述）
+source_registry.json：新增8条来源，total_sources:597→605
+monthly_synthesis.md：更新十月进行中条目（3篇→4篇），追加#164摘要行
+maturity_index.json：新增2条（ocular-dominance-plasticity: established/high; lynx1: established/high）
+wiki/index.md：更新总数304→305，更新标题；新增ODP条目；更新CP/PNNs/V1条目
+wiki/CHANGELOG.md：新增#164日志段落
+
+_graph.json：309/1832 → 311/1851
+- 新节点：ocular-dominance-plasticity, lynx1
+- 新边19条（ODP←→CP/PNNs/PV/V1/BDNF/LTP/LTD; Lynx1←→CP/ODP/PNNs/PV/ACh; V1←→CP/PNNs/ODP双向）
+
+=== 异常记录 ===
+
+1. 上下文压缩：本次运行从会话摘要恢复，v1-primary-visual-cortex.md 在压缩前已被读取但内容未包含在恢复上下文中，因此重新读取了完整文件。
+2. 图谱边重复检测：部分旧边使用 source/target 字段（而非 from/to），需要双字段兼容处理。
+3. 图谱边统计差异：CHANGELOG #163 中记录的"1851"可能是笔误，实际压缩前图谱为1832边；本次从1832→1851（+19边）。
+
+=== 推送信息 ===
+
+分支：claude/funny-einstein-3zn6bn
+Remote：http://local_proxy@127.0.0.1:41729/git/QIUYicong/neuro-daily-essays
+GIT_AUTHOR：QIUYicong <169510482+QIUYicong@users.noreply.github.com>

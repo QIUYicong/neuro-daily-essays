@@ -2823,6 +2823,22 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/systems/claustrum.md"
+    },
+    {
+      "id": "ocular-dominance-plasticity",
+      "label": "眼优势可塑性",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high"
+    },
+    {
+      "id": "lynx1",
+      "label": "Lynx1",
+      "domain": "concepts",
+      "type": "molecule",
+      "status": "established",
+      "confidence": "high"
     }
   ],
   "edges": [
@@ -13128,6 +13144,120 @@
       "to": "claustrum",
       "type": "related",
       "note": "岛叶皮层与屏状核解剖紧邻，功能边界尚不清晰（Koubeissi 2014刺激可能实际影响了前岛叶）"
+    },
+    {
+      "from": "ocular-dominance-plasticity",
+      "to": "critical-period",
+      "type": "mechanism-of",
+      "note": "ODP是视觉皮层关键期的经典研究模型"
+    },
+    {
+      "from": "critical-period",
+      "to": "ocular-dominance-plasticity",
+      "type": "supports",
+      "note": "关键期框架解释ODP的时间窗口和分子门控"
+    },
+    {
+      "from": "ocular-dominance-plasticity",
+      "to": "perineuronal-nets",
+      "type": "related",
+      "note": "PNNs关闭成年ODP；ChABC降解可恢复"
+    },
+    {
+      "from": "ocular-dominance-plasticity",
+      "to": "pv-interneurons",
+      "type": "mechanism-of",
+      "note": "PV中间神经元是ODP的竞争裁判（去激活是ODP第一个事件）"
+    },
+    {
+      "from": "ocular-dominance-plasticity",
+      "to": "v1-primary-visual-cortex",
+      "type": "mechanism-of",
+      "note": "ODP发生在V1 L4，由双眼丘脑皮层输入的竞争性Hebbian更新驱动"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "ocular-dominance-plasticity",
+      "type": "supports",
+      "note": "V1是ODP的主要脑区；方向柱/眼优势柱基础"
+    },
+    {
+      "from": "ocular-dominance-plasticity",
+      "to": "bdnf",
+      "type": "related",
+      "note": "BDNF-TrkB信号驱动开放眼突触增强（类LTP）"
+    },
+    {
+      "from": "ocular-dominance-plasticity",
+      "to": "lynx1",
+      "type": "related",
+      "note": "Lynx1是ODP关闭的胆碱能制动；Lynx1-KO保留成年ODP"
+    },
+    {
+      "from": "ocular-dominance-plasticity",
+      "to": "ltp",
+      "type": "related",
+      "note": "开放眼突触增强依赖NMDA-LTP机制"
+    },
+    {
+      "from": "ocular-dominance-plasticity",
+      "to": "ltd",
+      "type": "related",
+      "note": "遮蔽眼突触减弱依赖类LTD机制（ARC/AMPA内化）"
+    },
+    {
+      "from": "lynx1",
+      "to": "critical-period",
+      "type": "regulates",
+      "note": "Lynx1在关键期末期积累，通过制动nAChR关闭可塑性窗口"
+    },
+    {
+      "from": "lynx1",
+      "to": "ocular-dominance-plasticity",
+      "type": "regulates",
+      "note": "Lynx1-KO保留成年ODP；去除Lynx1+胆碱能增强完整恢复CP"
+    },
+    {
+      "from": "lynx1",
+      "to": "perineuronal-nets",
+      "type": "related",
+      "note": "Lynx1与PNNs是独立的两套关键期关闭制动机制"
+    },
+    {
+      "from": "lynx1",
+      "to": "pv-interneurons",
+      "type": "regulates",
+      "note": "Lynx1通过nAChR-VIP-PV去抑制回路间接调节PV细胞激活阈值"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "lynx1",
+      "type": "regulates",
+      "note": "Lynx1直接抑制nAChR，阻断胆碱能可塑性许可信号"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "critical-period",
+      "type": "related",
+      "note": "V1是关键期机制的经典研究脑区（视觉CP由ODP测量）"
+    },
+    {
+      "from": "critical-period",
+      "to": "v1-primary-visual-cortex",
+      "type": "related",
+      "note": "V1视觉关键期（~P21-P35小鼠）是CP概念的主要实证来源"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "perineuronal-nets",
+      "type": "related",
+      "note": "V1 PV细胞周围PNNs是视觉关键期关闭的主刹车"
+    },
+    {
+      "from": "perineuronal-nets",
+      "to": "v1-primary-visual-cortex",
+      "type": "regulates",
+      "note": "V1 PNN成熟时间与视觉关键期关闭时间精确对应"
     }
   ],
   "dangling_references": [

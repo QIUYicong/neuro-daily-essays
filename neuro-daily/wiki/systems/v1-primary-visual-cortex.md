@@ -6,14 +6,14 @@ type: brain-region
 status: established
 confidence: high
 created: 2026-06-11
-updated: 2026-09-14
-revision_count: 8
+updated: 2026-10-04
+revision_count: 9
 dimensions: [brain-region, systems, microcircuit, cellular]
-related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ventral-visual-stream, cnn-visual-cortex-analogy, divisive-normalization]
+related: [orientation-selectivity, synaptic-clustering, dendritic-computation, nmda-receptor, ltp, prefrontal-cortex, pv-interneurons, sst-interneurons, working-memory, short-term-synaptic-plasticity, acetylcholine-cortex, gain-control, predictive-coding, precision-weighting, dorsal-attention-network, biased-competition, ventral-visual-stream, cnn-visual-cortex-analogy, divisive-normalization, critical-period, perineuronal-nets, ocular-dominance-plasticity]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04, Q-pc-08, Q-pc-09]
-source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-14-cnn-visual-cortex-hierarchy, 2026-09-02-divisive-normalization-canonical-computation, 2026-09-14-v1-laminar-prediction-error-evidence]
-key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:24812127", "PMCID:PMC4060707", "PMID:22108672", "PMID:28835531", "PMID:38697110"]
+opens_questions: [Q-v1-orientation-column-advantage, Q-v1-pinwheel-function, Q-v1-human-organization, Q-ach-ne-02, Q-pc-04, Q-pc-08, Q-pc-09, Q-odp-01, Q-odp-02]
+source_articles: [2026-06-11-v1-orientation-selectivity, 2026-06-12-neuromodulators-ach-ne, 2026-06-15-predictive-coding, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-14-cnn-visual-cortex-hierarchy, 2026-09-02-divisive-normalization-canonical-computation, 2026-09-14-v1-laminar-prediction-error-evidence, 2026-10-04-critical-period-visual-cortex-pnn]
+key_sources: ["PMID:15660108", "PMC3477598", "PMID:22726830", "PMID:23804085", "PMID:27383898", "PMID:20810772", "PMID:18633352", "PMID:22681686", "PMID:10195184", "PMID:23177956", "PMID:24812127", "PMCID:PMC4060707", "PMID:22108672", "PMID:28835531", "PMID:38697110", "PMID:12424383", "PMID:21071629", "PMID:36598942"]
 ---
 
 # 初级视觉皮层（V1）
@@ -74,7 +74,39 @@ Wilson 等（2016，Nat Neurosci）在雪貂 V1 发现，方向选择性更锐�
 
 ## 发育与关键期
 
-V1 方向柱的形成具有遗传（活动非依赖）的初始组分，随后通过视觉经验驱动的精细化完成（Espinosa & Stryker 2012）。关键期的开放和关闭与 GABA 能神经元（特别是 PV+ 细胞）的成熟所引起的 E/I 平衡转变高度相关。关键期内的单眼剥夺可永久性地改变眼优势柱分布。
+V1 是哺乳动物大脑**发育关键期（critical period）机制研究最经典的脑区**，并由此成为理解整个大脑可塑性调控的模型系统（→ [[critical-period]]，→ [[ocular-dominance-plasticity]]）。
+
+### 三重门控机制（2026-10-04 扩充）
+
+**关键期的开放——PV-GABA 成熟是必要条件**：V1 关键期并非一出生便活跃，而需 PV+ 中间神经元的 GABA 能抑制达到特定阈值才触发开启（Fagiolini & Hensch 2000，PMID:10724170）。GAD65 基因敲除小鼠（GABA 合成酶缺失）永不自发开启视觉关键期；而苯二氮䓬（增强 GABA-A 受体）可在任何年龄诱发关键期。**BDNF 通过 TrkB 加速这一成熟时钟**，BDNF 过表达小鼠的 V1 关键期提前 ~3 天开启，也提前 ~5 天关闭（Huang et al. 1999，PMID:10499792）。
+
+**关键期内的可塑性——ODP 是 V1 关键期的经典读出**：
+V1 关键期的标志性实验是**眼优势可塑性（ODP）**——单侧眼遮蔽（单眼剥夺）导致 V1 神经元对开放眼的偏好升高、对遮蔽眼的偏好降低，即眼优势柱版图偏移。时序上：
+1. 遮蔽后数小时：LGN→PV 细胞通路驱动减弱（最早事件），PV 细胞去激活
+2. 数小时后：去抑制传播至锥体细胞，使之进入可塑状态
+3. 1-3 天：遮蔽眼皮层响应减弱（类 LTD 机制，ARC/AMPA 受体内化）
+4. 3-7 天：开放眼皮层响应增强（NMDA 依赖的类 LTP 机制）
+
+**关键期的关闭——三道分子刹车**：
+1. **PNN 基质封存（主刹车）**：V1 PV+ 细胞周围的围神经元网（PNN）在关键期末期成熟，通过 aggrecan/PTPσ 链降低 PV+ 细胞的 TRKB 磷酸化，固化 PV+ 细胞状态。黑暗饲养延迟 PNN 沉积 → 延长关键期；V1 内直接注射 ChABC（降解 PNN 的细菌酶）可在成年大鼠完整恢复 ODP（Pizzorusso et al. 2002，PMID:12424383，Science，仅摘要）。（→ [[perineuronal-nets]]）
+2. **Lynx1 胆碱能制动**：关键期末期 V1 中 Lynx1 蛋白积累，直接抑制烟碱型 ACh 受体（nAChR），阻止胆碱能信号通过 VIP 去抑制回路重激活皮层可塑性。Lynx1 敲除小鼠在成年期仍保持幼年水平的 ODP；Lynx1-KO 联合多奈哌齐（AChE 抑制剂）可完整恢复成年关键期水平可塑性（Morishita et al. 2010，PMID:21071629，PMC3387538）。Lynx1 与 PNN 是**独立的**制动系统。
+3. **OTX2 信号减退**：视网膜向皮层转运的 OTX2 同源域蛋白随年龄降低，PNN 硫酸化模式改变减弱其锚定亲和力。
+
+**Gamma 振荡是关键期开放状态的电生理标志**：单眼剥夺在关键期开放期间（无论是自然关键期还是人工重开状态）数小时内引发 V1 gamma 频段（~40Hz）功率的特征性短暂上升；这一 gamma 峰在关键期关闭后消失，但所有重开关键期的操作（Lynx1-KO、黑暗饲养、苯二氮䓬）均使其恢复（Quast & Hensch et al. 2023，PMID:36598942，PNAS 开放全文 PMC9926253）。这提供了监测 V1 可塑性就绪状态的非侵入性生物标志物。
+
+### 关键期重开策略（成年弱视治疗基础）
+
+| 方法 | 靶点/机制 | 效果 |
+|------|---------|------|
+| ChABC 注射 | 降解 V1 PNN | 成年大鼠完整恢复 ODP（PMID:12424383）|
+| Lynx1-KO + donepezil | 去除胆碱能制动 | 成年完整恢复 CP 水平 ODP（PMID:21071629）|
+| 黑暗饲养 | 延迟/逆转 PNN 成熟 | 延长/重开关键期 |
+| SSRI（氟西汀）| PV 去成熟化 + PNN 减少 | 大鼠中等效果（iPlasticity 框架）|
+| 胚胎 GABAergic 细胞移植 | 引入新 PV 成熟信号 | 在成年 V1 触发新关键期窗口（Tuncdemir 2019，PMID:30705101）|
+
+**临床相关性**：早期单侧眼遮蔽（先天性白内障、斜视）导致弱视（amblyopia）——被遮蔽眼在 V1 的皮层表征永久减少，因关键期窗口内竞争性 Hebbian 更新使开放眼获得绝大多数皮层资源。传统治疗（关键期内遮盖正常眼）效果有限；上述分子重开策略为成年弱视治疗提供了新靶点（→ [[ocular-dominance-plasticity]]）。
+
+V1 方向柱的形成具有遗传（活动非依赖）的初始组分，随后通过视觉经验驱动的精细化在关键期窗口内完成（Espinosa & Stryker 2012）。
 
 ## 物种比较小结
 
@@ -150,6 +182,7 @@ V1 在腹侧流层级（V1→V4→IT）中对应 CNN 的早期层，而非整个
 - 2026-08-29 · 修订 · 基于《腹侧视觉流的"解缠"之旅》(#127) · 腹侧流完整 wiki 页（ventral-visual-stream）已创建，填补此前 related 中的悬空引用；V1 在腹侧流层级中的位置（第一站，方向选择性→向 V2 传递基础特征）进一步明确
 - 2026-09-02 · 修订 rev7 · 基于《除法规范化：大脑皮层的规范计算》（#132）· 在基本功能特性中补充规范化解释对比度增益控制；在预测编码小节补充规范化框架对环绕抑制的解释（三种框架并列）；related 新增 divisive-normalization；source_articles 追加 2026-09-02；key_sources 新增 PMID:22108672、PMID:28835531
 - 2026-09-14 · 修订 rev8 · 基于《谁说了什么》文章 #144 · 在预测编码证据表新增 Thomas et al. 2024（PMID:38697110）——7T fMRI 层级解码直接验证 V1 L5/6=预期、L2/3=预测误差；opens_questions 新增 Q-pc-08、Q-pc-09；key_sources 新增 PMID:38697110；source_articles 追加 2026-09-14
+- 2026-10-04 · 修订 rev9 · 基于《大脑可塑性之门》(#164) · 大幅扩充"发育与关键期"节：新增三重门控机制（PV-GABA 阈值、PNN 主刹车、Lynx1 制动）、ODP 时序序列、成年关键期重开策略表、gamma振荡生物标志物（Quast 2023）、弱视临床相关性；related 新增 critical-period, perineuronal-nets, ocular-dominance-plasticity；opens_questions 新增 Q-odp-01, Q-odp-02；key_sources 新增 PMID:12424383, PMID:21071629, PMID:36598942；source_articles 追加 2026-10-04
 
 ## 来源文章
 
@@ -161,3 +194,4 @@ V1 在腹侧流层级（V1→V4→IT）中对应 CNN 的早期层，而非整个
 - [[2026-08-29-ventral-visual-stream-object-recognition]]
 - [[2026-09-02-divisive-normalization-canonical-computation]]
 - [[2026-09-14-v1-laminar-prediction-error-evidence]]
+- [[2026-10-04-critical-period-visual-cortex-pnn]]

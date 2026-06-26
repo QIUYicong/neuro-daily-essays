@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-10-04（#164）：视觉关键期三重门控——PV/PNN/Lynx1与眼优势可塑性
+
+**文章**：《大脑可塑性之门：视觉皮层关键期的三重门控机制与成年重开策略》（#164）
+
+**类型**：深化既有主题（课程脊柱4：关键期与可塑性；接续 #163 PNN 恐惧记忆文章，平行展开 PNN 在视觉皮层的经典角色；层级：molecular × cellular × microcircuit × behavioral × clinical）
+
+**新创建页面（1）**：
+- `wiki/concepts/ocular-dominance-plasticity.md`（新建，rev1，established/high）：ODP 作为视觉关键期的经典研究模型；单眼剥夺时序序列（PV 去激活先于突触变化）；成年重开策略对照表（ChABC/Lynx1-KO/GABA移植/SSRI/dichoptic训练）；gamma 振荡生物标志；人类弱视临床连接；2 个未解问题（Q-odp-01, Q-odp-02）
+
+**修订页面（3）**：
+- `wiki/concepts/critical-period.md`（rev2→rev3）：新增 Quast 2023 gamma 振荡作为 CP 开放状态生物标志；新增 Ramsaran 2025 海马 CA1 情节记忆敏感期（PNN/BDNF 门控）；新增 Tuncdemir 2019 GABAergic 移植触发新 CP；related 新增 ocular-dominance-plasticity/adult-neurogenesis/fear-extinction；key_sources 新增三项 2025 年来源
+- `wiki/concepts/perineuronal-nets.md`（rev4→rev5）：新增 Quast 2023 gamma 标志证据行；新增 Sakata 2025 跨脑区综合框架证据行；连接节新增 ocular-dominance-plasticity、v1-primary-visual-cortex；key_sources 新增 PMID:41224655、PMID:21071629
+- `wiki/systems/v1-primary-visual-cortex.md`（rev8→rev9）：大幅扩充"发育与关键期"节为三重门控完整机制；新增 ODP 时序序列、关键期重开策略表、gamma 振荡标志物和弱视临床相关性；related 新增 critical-period, perineuronal-nets, ocular-dominance-plasticity；opens_questions 新增 Q-odp-01, Q-odp-02；key_sources 新增 PMID:12424383, PMID:21071629, PMID:36598942
+
+**矛盾登记（0）**：无新矛盾（Lynx1 独立于 PNNs 的制动系统已明确，与既有 PNN 主刹车框架互补）
+
+**新增未解问题（5）**：
+- Q-cp-01（高）：人类视觉关键期 PNN 沉积具体时序及个体差异（大鼠 ~P28 关闭；人类对应年龄不明）
+- Q-cp-02（中）：语言习得关键期是否共用 PV/PNN/OTX2 机制
+- Q-cp-03（高）：临床 SSRI 能否安全重开特定皮层区域可塑性同时不损害已有记忆
+- Q-odp-01（中）：人类 V1 是否存在严格意义上的眼优势柱（非人灵长类有，啮齿类无）
+- Q-odp-02（高）：成年人类弱视的 PNN/Lynx1 状态及 CP 重开靶点的临床可行性
+
+**图谱**：309节点/1832边 → **311节点/1851边**（+2节点：ocular-dominance-plasticity、lynx1；+19边：新增 ODP←→CP/PNNs/PV/V1/BDNF/LTP/LTD、Lynx1←→CP/ODP/PNNs/PV/ACh、V1←→CP/PNNs/ODP 等双向连接）
+
+---
+
 ## 2026-10-03（#163）：围神经网——分子的枷锁与恐惧记忆的重写窗口
 
 **文章**：《分子的枷锁：围神经网如何在杏仁核内关闭恐惧记忆的重写窗口》（#163）

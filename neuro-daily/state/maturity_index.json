@@ -900,5 +900,19 @@
     "confidence": "medium",
     "last_changed": "2026-10-02",
     "reason": "新建 rev1 · #162 · 有光遗传因果证据（小鼠：Narikiyo 2020注意过滤、Atlan 2018慢波协调），但人类意识直接证据有争议（Koubeissi 2014单例，未复现）；发育基础新建（Yan 2026 Nurr1）；手术切除案例（Duffau 2007）对强版本意识假说构成挑战"
+  },
+  {
+    "slug": "ocular-dominance-plasticity",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-04",
+    "reason": "新建 rev1 · #164 · Hubel & Wiesel 1963起经典发现极高置信度；PV→ODP机制（Kuhlman 2013 因果实验）；ChABC重开（Pizzorusso 2002 因果实验）；Lynx1-KO（Morishita 2010 因果实验）；人类弱视临床对应中等（效果大小有限，Q-odp-01/02 未解）"
+  },
+  {
+    "slug": "lynx1",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-04",
+    "reason": "图谱节点新增（无独立wiki页） · #164 · Morishita 2010 Lynx1-KO+donepezil完整恢复成年ODP：高因果证据；Lynx1抑制nAChR的生化机制明确；独立于PNNs的制动系统确认"
   }
 ]
