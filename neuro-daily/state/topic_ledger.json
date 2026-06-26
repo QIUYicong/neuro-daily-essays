@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-10",
-  "total_articles": 170,
+  "last_updated": "2026-10-11",
+  "total_articles": 171,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10517,6 +10517,85 @@
         "basal-ganglia 修订（GPi/GPe 在前脑中间回路中的关键阀门角色）",
         "ascending-arousal-system 专页（脑干→中央丘脑上行激活系统，DoC 核心解剖通路）",
         "睡眠纹锨波亓页修订（Spp1+/Ecel1+ TRN 亚网络控制纹锨波密度 vs 时长的差异，Li 2020 的临床意义）"
+      ]
+    },
+    {
+      "date": "2026-10-11",
+      "knowledge_base_date": "2026-10-11",
+      "system_clock_date": "2026-06-26",
+      "date_note": "系统时钟显示2026-06-26 UTC，使用知识库连续性日期2026-10-11（第171篇，接续丘脑TRN意识文章）",
+      "article_number": 171,
+      "title": "时长与时机：大脑在沉睡中如何精确分档今日与往昔",
+      "filename": "2026-10-11-swr-duration-sleep-microstructure-memory.md",
+      "wiki_pages_created": [
+        "wiki/concepts/slow-wave-sleep.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/sharp-wave-ripples.md (rev11→rev12, 新增Fernández-Ruiz 2019/Jadhav 2012/Skelin 2021三条证据)",
+        "wiki/concepts/so-spindle-swr-coupling.md (rev3→rev4, 新增Skelin 2021人类颅内耦合证据)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "海马尖波涟漪（SWR）的两个被低估的功能维度：(1) SWR 时长是信息容量的决定因素——长 SWR（>150 ms）招募更多 CA1 锥体细胞、携带更完整的场所细胞序列，光遗传延长自然 SWR 因果性加速迷宫学习（Fernández-Ruiz 2019）；(2) NREM 睡眠并非均匀处理窗口，而是通过瞳孔振荡揭示的 NE 波动分时调度——收缩期（NE 低）优先重放近期记忆，扩张期（NE 较高）优先重放陈旧记忆，两者选择性干扰因果分离（Chang 2025）；人类颅内证据（Skelin 2021）确认 SWR-SWA 耦合预测 61.4% 皮层位点激活。",
+      "open_questions_added": [
+        "Q-swr-duration-mechanism-01（高优先级）：延长 SWR 如何机械提升信息容量？招募更多 CA1 细胞的信号机制？CA3 序列展开时限？",
+        "Q-swr-nr-substate-01（高优先级）：NREM 收缩/扩张亚状态如何选择性门控近期/陈旧记忆对应的 CA3 SWR 来源？α₂受体调制 CA3 兴奋阈值？",
+        "Q-sws-substate-nr-01（高优先级）：LC 的 NE 波动如何直接影响 CA3/CA1 的 SWR 内容选择？α₂受体分子机制？",
+        "Q-sws-substate-human-01（高优先级）：Chang 2025 的瞳孔振荡分时机制在人类 NREM 中是否存在等效现象？"
+      ],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "课程脊柱4（学习与记忆：SWR 记忆巩固机制）+ 课程脊柱7（睡眠神经科学：NREM 微结构）；填补悬空引用 slow-wave-sleep；系统层级（知识库近期多篇分子/细胞后的层级互补）",
+      "topic_tags": [
+        "sharp wave ripple SWR hippocampus CA1 CA3 sequence replay memory consolidation",
+        "long-duration SWR information capacity optogenetic extension Fernandez-Ruiz 2019 Science",
+        "NREM sleep microstructure pupil oscillation norepinephrine locus coeruleus Chang 2025 Nature",
+        "sleep SWR awake SWR distinction Jadhav 2012 Science spatial alternation learning",
+        "SWR slow wave coupling human intracranial iEEG Skelin 2021 PNAS cortical activation",
+        "SWR replay timescale 20x compression place cell sequence memory",
+        "slow wave sleep SWS N3 deep sleep NREM SO spindle SWR triple coupling",
+        "large amplitude SWR hippocampal-PFC synchrony Robinson 2026 Neuron",
+        "NE norepinephrine NREM substates pupil dilation contraction recent remote memory",
+        "awake SWR experience selection Yang 2024 Science 33% significant replay",
+        "Buzsaki hippocampal sharp wave ripple review 2015 Hippocampus",
+        "Joo Frank 2018 Nat Rev Neurosci memory retrieval immediate use consolidation"
+      ],
+      "main_sources": [
+        "PMID:26135716 (Buzsáki G 2015, Hippocampus, review, abstract only)",
+        "PMID:19749750 (Girardeau 2009, Nat Neurosci, SWR suppression spatial memory, abstract only)",
+        "PMID:22555434 (Jadhav 2012, Science, awake SWR learning, abstract only)",
+        "PMID:31197012 / PMCID:PMC11068097 (Fernández-Ruiz 2019, Science, long-duration SWR, OPEN)",
+        "PMID:30356103 / PMCID:PMC8166184 (Joo & Frank 2018, Nat Rev Neurosci, review, OPEN)",
+        "PMID:27182818 / PMCID:PMC6693581 (Maingret 2016, Nat Neurosci, closed-loop coupling, OPEN)",
+        "PMID:34001599 (Skelin 2021, PNAS, human intracranial SWR-SWA coupling, abstract only)",
+        "PMID:38547293 (Yang 2024, Science, awake SWR experience selection, abstract only)",
+        "PMID:39743590 (Chang 2025, Nature, sleep microstructure organizes replay, abstract only)",
+        "PMID:41205608 (Robinson 2026, Neuron, large SWR hippocampo-cortical reactivation, abstract only)",
+        "PMID:32248788 (Peyrache & Seibt 2020, Phil Trans R Soc B, spindle mechanism review, abstract only)",
+        "PMID:34709916 (Girardeau & Lopes-Dos-Santos 2021, Science, review, abstract only)"
+      ],
+      "open_access_fulltext": [
+        "PMID:31197012 (PMC11068097)",
+        "PMID:30356103 (PMC8166184)",
+        "PMID:27182818 (PMC6693581)"
+      ],
+      "unresolved_questions": [
+        "Q-swr-duration-mechanism-01",
+        "Q-swr-nr-substate-01",
+        "Q-sws-substate-nr-01",
+        "Q-sws-substate-human-01"
+      ],
+      "next_suggested_topics": [
+        "ascending-arousal-system 专页（脑干→丘脑上行激活系统；DoC 核心解剖通路；#170 建议 + 与睡眠/SWS 互补）",
+        "glymphatic-system 专页（类淋巴系统在 SWS 期间的清除机制；AQP4 已有专页，glymphatic-system 是悬空引用）",
+        "flip-flop-switch-sleep-wake 专页（控制 SWS 进入/退出的互抑回路；VLPO/TMN 双稳态；与 TRN 互补）",
+        "rem-sleep 专页（REM 睡眠与情绪记忆巩固；theta 振荡 LA-VH 同步）"
       ]
     }
   ]

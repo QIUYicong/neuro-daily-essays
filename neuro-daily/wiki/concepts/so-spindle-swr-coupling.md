@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-07
-updated: 2026-09-30
-revision_count: 3
+updated: 2026-10-11
+revision_count: 4
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, cognition]
-related: [sharp-wave-ripples, sleep-spindles, cortical-slow-oscillation, memory-consolidation, thalamocortical-circuit, hippocampal-circuit, shy-hypothesis, up-down-state-mechanism, synaptic-tagging-capture, ltp]
+related: [sharp-wave-ripples, sleep-spindles, cortical-slow-oscillation, memory-consolidation, thalamocortical-circuit, hippocampal-circuit, shy-hypothesis, up-down-state-mechanism, synaptic-tagging-capture, ltp, slow-wave-sleep]
 prerequisites: [sharp-wave-ripples, sleep-spindles, cortical-slow-oscillation, hippocampal-circuit]
 opens_questions: [Q-swr-cortical-consolidation, Q-replay-human-translation, Q-shy-vs-active-consolidation, Q-pfc-veto-mechanism, Q-pfc-veto-human]
-source_articles: [2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-23-cortical-up-down-state-pfc-gating-memory, 2026-09-30-swr-sleep-ltp-consolidation]
-key_sources: ["PMID:9856467", "PMID:27182818", "PMID:29249289", "PMID:34709916", "PMID:38443198", "PMID:26389842", "PMID:37429914", "PMID:38834064"]
+source_articles: [2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-23-cortical-up-down-state-pfc-gating-memory, 2026-09-30-swr-sleep-ltp-consolidation, 2026-10-11-swr-duration-sleep-microstructure-memory]
+key_sources: ["PMID:9856467", "PMID:27182818", "PMID:29249289", "PMID:34709916", "PMID:38443198", "PMID:26389842", "PMID:37429914", "PMID:38834064", "PMID:34001599"]
 ---
 
 # SO-纺锤波-SWR 三重耦合 (SO–Spindle–SWR Coupling)
@@ -123,6 +123,7 @@ key_sources: ["PMID:9856467", "PMID:27182818", "PMID:29249289", "PMID:34709916",
 ## 修订历史
 
 - 2026-09-30 · 修订 rev3 · 基于《睡眠中的最后一步》(#160) · 核心更新：新增"STC框架下的三重耦合解读"小节（纺锤波=PRP合成信号，SWR=突触选择性激活，时序耦合=STC时间窗口对齐）；连接节新增synaptic-tagging-capture、ltp；related新增synaptic-tagging-capture、ltp；source_articles新增2026-09-30
+- 2026-10-11 · 修订 rev4 · 基于《时长与时机》(#171) · 新增 Skelin 2021 人类颅内证据：SWR-慢波（SWA）耦合预测同侧皮层高频活动激活（61.4% 耦合位点 vs 16.2% 对照），是 SO-SWR 耦合在人类大脑中驱动分布式皮层激活的直接实验证据；key_sources 新增 PMID:34001599；related 新增 slow-wave-sleep；source_articles 新增 2026-10-11
 - 2026-07-07 · 创建 · 基于《三重协奏》(#75) · 初始置信度：高（多物种直接因果证据）
 - 2026-07-23 · 修订 rev2 · 基于《皮层的沉默与苏醒》(#91) · 新增 Staresina 2015 人类颅内直接验证；Staresina 2023 神经元放电阶梯证据；Shin & Jadhav 2024 PFC 选择性守门机制（重要新发现）；key_sources 新增 PMID:26389842/37429914/38834064；opens_questions 新增 Q-pfc-veto-mechanism/Q-pfc-veto-human；related 新增 up-down-state-mechanism
 
@@ -131,3 +132,4 @@ key_sources: ["PMID:9856467", "PMID:27182818", "PMID:29249289", "PMID:34709916",
 - [[2026-07-07-sleep-memory-consolidation-so-spindle-swr]]
 - [[2026-07-23-cortical-up-down-state-pfc-gating-memory]]
 - [[2026-09-30-swr-sleep-ltp-consolidation]]
+- [[2026-10-11-swr-duration-sleep-microstructure-memory]]

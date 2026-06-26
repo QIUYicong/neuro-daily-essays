@@ -1,7 +1,107 @@
 {
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "34709916",
+      "pmcid": null,
+      "doi": null,
+      "title": "Brain neural patterns and the memory function of sleep",
+      "authors_short": "Girardeau G, Lopes-Dos-Santos V",
+      "journal": "Science",
+      "year": 2021,
+      "first_used": "2026-10-11",
+      "used_in_articles": [
+        "2026-10-11-swr-duration-sleep-microstructure-memory.md"
+      ],
+      "aspects_covered": [
+        "睡眠神经模式与记忆功能综合综述"
+      ]
+    },
+    {
+      "pmid": "41205608",
+      "pmcid": null,
+      "doi": null,
+      "title": "Large sharp-wave ripples promote hippocampo-cortical memory reactivation and consolidation during sleep",
+      "authors_short": "Robinson HL, Todorova R, Nagy GA, Gruzdeva A, Paudel P, Oliva A, Fernandez-Ruiz A",
+      "journal": "Neuron",
+      "year": 2026,
+      "first_used": "2026-10-11",
+      "used_in_articles": [
+        "2026-10-11-swr-duration-sleep-microstructure-memory.md"
+      ],
+      "aspects_covered": [
+        "大振幅 SWR 与海马-PFC 同步再激活",
+        "光遗传增强振幅 → 记忆改善"
+      ]
+    },
+    {
+      "pmid": "34001599",
+      "pmcid": null,
+      "doi": null,
+      "title": "Coupling between slow waves and sharp-wave ripples engages distributed neural activity during sleep in humans",
+      "authors_short": "Skelin I, Zhang H, Zheng J, Ma S, Mander BA, et al.",
+      "journal": "PNAS",
+      "year": 2021,
+      "first_used": "2026-10-11",
+      "used_in_articles": [
+        "2026-10-11-swr-duration-sleep-microstructure-memory.md"
+      ],
+      "aspects_covered": [
+        "人类颅内 SWR-慢波耦合证据",
+        "61.4% 同侧皮层位点激活 vs 16.2% 对照"
+      ]
+    },
+    {
+      "pmid": "30356103",
+      "pmcid": "PMC8166184",
+      "doi": null,
+      "title": "The hippocampal sharp wave-ripple in memory retrieval for immediate use and consolidation",
+      "authors_short": "Joo HR, Frank LM",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2018,
+      "first_used": "2026-10-11",
+      "used_in_articles": [
+        "2026-10-11-swr-duration-sleep-microstructure-memory.md"
+      ],
+      "aspects_covered": [
+        "SWR 多功能性综述",
+        "检索与巩固共享机制"
+      ]
+    },
+    {
+      "pmid": "31197012",
+      "pmcid": "PMC11068097",
+      "doi": null,
+      "title": "Long-duration hippocampal sharp wave ripples improve memory",
+      "authors_short": "Fernández-Ruiz A, Oliva A, Fermino de Oliveira E, Rocha-Almeida F, Tingley D, Buzsáki G",
+      "journal": "Science",
+      "year": 2019,
+      "first_used": "2026-10-11",
+      "used_in_articles": [
+        "2026-10-11-swr-duration-sleep-microstructure-memory.md"
+      ],
+      "aspects_covered": [
+        "长时程 SWR 与信息容量关系",
+        "光遗传延长 SWR → 记忆改善（因果）"
+      ]
+    },
+    {
+      "pmid": "19749750",
+      "pmcid": null,
+      "doi": null,
+      "title": "Selective suppression of hippocampal ripples impairs spatial memory",
+      "authors_short": "Girardeau G, Benchenane K, Wiener SI, Buzsáki G, Zugaro MB",
+      "journal": "Nature Neuroscience",
+      "year": 2009,
+      "first_used": "2026-10-11",
+      "used_in_articles": [
+        "2026-10-11-swr-duration-sleep-microstructure-memory.md"
+      ],
+      "aspects_covered": [
+        "SWR 因果必要性（闭环干扰→空间记忆受损）"
+      ]
+    },
     {
       "pmid": "12379861",
       "pmcid": null,
@@ -10838,7 +10938,7 @@
       ]
     }
   ],
-  "total_sources": 632,
+  "total_sources": 643,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

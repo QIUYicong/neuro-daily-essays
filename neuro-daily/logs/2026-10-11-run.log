@@ -1,0 +1,62 @@
+# 每日运行日志 · 2026-10-11
+
+**知识库日期**：2026-10-11
+**系统时钟**：2026-06-26 UTC（知识库使用连续性日期）
+**文章编号**：#171
+**运行状态**：✅ 成功
+
+---
+
+## 运行摘要
+
+- **选题决策**：接续 #170（TRN 意识/注意）后转向系统层级记忆巩固；SWR 专页已有 rev11 但缺少 Fernández-Ruiz 2019 长 SWR 发现和 Chang 2025 NREM 微结构发现；填补 `slow-wave-sleep` 悬空引用（被 `_graph.json` 中 `claustrum→slow-wave-sleep` 等多条边引用但无独立页面）
+- **文章标题**：时长与时机：大脑在沉睡中如何精确分档今日与往昔
+- **层级覆盖**：whole-brain-network × cellular × cognition × behavior（与前4篇 molecular/microcircuit 层级互补）
+
+## 来源使用
+
+- **来源总数**：12（PMID:26135716, 19749750, 22555434, 31197012, 30356103, 27182818, 34001599, 38547293, 39743590, 41205608, 32248788, 34709916）
+- **开放全文**：3（PMC11068097 Fernández-Ruiz 2019; PMC8166184 Joo & Frank 2018; PMC6693581 Maingret 2016）
+- **摘要使用**：9
+- **官方机构来源**：NIH/NINDS 403 错误；以 Nature/Science/PNAS/Neuron/Nat Neurosci 高质量期刊论文替代
+
+## Wiki 变更
+
+| 类型 | 文件 | 变更内容 |
+|------|------|---------|
+| 新建 | concepts/slow-wave-sleep.md | rev1；填补悬空引用；整合 Chang 2025 NREM 亚状态 + Skelin 2021 人类颅内 |
+| 修订 | concepts/sharp-wave-ripples.md | rev11→rev12；新增 Fernández-Ruiz 2019 / Jadhav 2012 / Skelin 2021 三条证据 |
+| 修订 | concepts/so-spindle-swr-coupling.md | rev3→rev4；新增 Skelin 2021 人类颅内耦合证据 |
+
+## 图谱变更
+
+- **节点**：318 → 319（+1: slow-wave-sleep）
+- **边数**：1889 → 1897（+8 条边）
+- **悬空引用填补**：slow-wave-sleep ✅
+
+## 状态文件更新
+
+- ✅ `topic_ledger.json`：total_articles=171，新增 #171 条目
+- ✅ `maturity_index.json`：新增 slow-wave-sleep（established/high）
+- ✅ `monthly_synthesis.md`：更新至 2026-10-11，新增 #169/#170/#171 摘要行
+- ✅ `unresolved_questions.md`：新增 Q-swr-duration-mechanism-01, Q-swr-nr-substate-01, Q-sws-substate-nr-01, Q-sws-substate-human-01
+- ✅ `source_registry.json`：新增 6 个未见过来源（共 643 条）
+
+## Wiki 导航更新
+
+- ✅ `wiki/index.md`：更新头部（第171篇，314页，319节点/1897边），新增 slow-wave-sleep 条目
+- ✅ `wiki/CHANGELOG.md`：新增 #171 条目
+
+## 错误与修复记录
+
+- `git pull --rebase origin main`（首次启动时分支分叉）→ 已修复
+- Edit 工具 UTF-8 匹配失败（`so-spindle-swr-coupling.md`）→ 改用 Python 字符串替换脚本
+- `monthly_synthesis.md` Edit 失败（源字符不匹配）→ 改用 Python 精确替换
+- NIH/NINDS 网站 403 错误 → 以高质量期刊论文提供权威性
+
+## 新增未解问题（高优先级）
+
+1. **Q-swr-duration-mechanism-01**：延长 SWR 的信息容量提升机械机制
+2. **Q-swr-nr-substate-01**：NREM 亚状态如何门控近期/陈旧记忆 SWR 来源
+3. **Q-sws-substate-nr-01**：LC 的 NE 波动与 CA3 SWR 内容选择的直接机制
+4. **Q-sws-substate-human-01**：Chang 2025 瞳孔分时机制的人类等效现象

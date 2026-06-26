@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-10-11（#171）：时长与时机——SWR 如何精确分档今日与往昔
+
+**文章**：《时长与时机：大脑在沉睡中如何精确分档今日与往昔》（#171）
+
+**类型**：知识填补（slow-wave-sleep 悬空引用填补）+ 系统整合（SWR 时长/时机两维度综合）+ 人类颅内证据新增（层级：whole-brain-network × cellular × cognition × behavior；选题逻辑：前4篇聚焦分子/微回路层级，本篇转向系统/全脑网络层级，整合 Fernández-Ruiz 2019 长 SWR / Chang 2025 NREM 亚状态 / Skelin 2021 人类颅内三条新线索）
+
+**新创建页面（1）**：
+- `wiki/concepts/slow-wave-sleep.md`（rev1）：新建慢波睡眠专页，填补 `slow-wave-sleep` 悬空引用（此前被 claustrum、so-spindle-swr-coupling 等节点引用但无独立页面）；覆盖 SO/纺锤波/SWR 三机制 + NREM 亚状态新发现（Chang 2025）+ 人类颅内耦合证据（Skelin 2021）；新增未解问题 Q-sws-substate-nr-01、Q-sws-substate-human-01
+
+**修订页面（2）**：
+- `wiki/concepts/sharp-wave-ripples.md`（rev11→rev12）：新增 Fernández-Ruiz 2019 长 SWR 信息容量证据（光遗传延长 SWR → 记忆改善，因果）；Jadhav 2012 清醒 SWR 因果必要性证据（干扰 → 学习缺陷）；Skelin 2021 人类颅内 SWR-SWA 耦合皮层激活证据（61.4% vs 16.2%）；related 新增 slow-wave-sleep；opens_questions 新增 Q-swr-duration-mechanism-01、Q-swr-nr-substate-01；key_sources 新增 PMID:31197012、PMID:22555434、PMID:34001599
+- `wiki/concepts/so-spindle-swr-coupling.md`（rev3→rev4）：新增 Skelin 2021 人类颅内 SWR-慢波耦合预测皮层激活的直接证据（61.4% 同侧皮层位点激活）；related 新增 slow-wave-sleep；key_sources 新增 PMID:34001599；source_articles 新增 2026-10-11
+
+**登记矛盾（0）**：无新矛盾。Chang 2025 NREM 亚状态发现与既有 SO-spindle-SWR 三重耦合框架相容（亚状态是机制的调制层，不否定耦合序列本身）；Skelin 2021 人类证据与啮齿类实验高度一致。
+
+**新增悬空引用**：无新增悬空引用（slow-wave-sleep 填补后所有相关引用均已有页面）
+
+**新增未解问题（4）**：
+- Q-swr-duration-mechanism-01（高）：延长 SWR 如何机械地提升信息容量？（招募细胞、序列展开、多区域同步的时序机制）
+- Q-swr-nr-substate-01（高）：NREM 亚状态（收缩/扩张）如何选择性激活 CA3 SWR 产生通路中的近期 vs 陈旧记忆印迹？
+- Q-sws-substate-nr-01（高）：NREM 亚状态 NE 波动如何直接影响 CA3 SWR 内容？α₂ 受体调制？
+- Q-sws-substate-human-01（高）：Chang 2025 瞳孔分时机制在人类 NREM 中是否存在等效现象？
+
+**图谱**：318节点/1889边 → **319节点/1897边**（+1节点：slow-wave-sleep；+8边：slow-wave-sleep→sharp-wave-ripples/sleep-spindles/cortical-slow-oscillation/so-spindle-swr-coupling/memory-consolidation/thalamic-reticular-nucleus/flip-flop-switch-sleep-wake + sharp-wave-ripples→slow-wave-sleep）
+
+---
+
 ## 2026-10-08（#168）：小脑 LTD——误差如何重塑突触
 
 **文章**：《误差的解剖学：小脑 LTD 如何将"同时激活"转化为突触记忆》（#168）

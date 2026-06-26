@@ -1,5 +1,12 @@
 [
   {
+    "slug": "slow-wave-sleep",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-11",
+    "reason": "新建 rev1 · #171 · SWS 核心机制三层（SO/纺锤波/SWR）均有大量多物种直接因果证据；NREM 内部亚状态新发现（Chang 2025 Nature）；人类颅内证据（Skelin 2021 PNAS）；两个 open questions（Q-sws-substate-nr-01、Q-sws-substate-human-01）已明确标注"
+  },
+  {
     "slug": "habitual-behavior",
     "status": "established",
     "confidence": "high",

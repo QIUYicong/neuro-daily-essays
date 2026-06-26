@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "node_count": 318,
   "edge_count": 1889,
   "edge_types": [
@@ -2904,6 +2904,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/rebound-potentiation.md"
+    },
+    {
+      "id": "slow-wave-sleep",
+      "title": "慢波睡眠（NREM深睡眠）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/slow-wave-sleep.md"
     }
   ],
   "edges": [
@@ -13494,6 +13503,46 @@
       "from": "thalamic-reticular-nucleus",
       "to": "disorders-of-consciousness",
       "label": "TRN调控意识状态的门控功能"
+    },
+    {
+      "from": "slow-wave-sleep",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "slow-wave-sleep",
+      "to": "sleep-spindles",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "slow-wave-sleep",
+      "to": "cortical-slow-oscillation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "slow-wave-sleep",
+      "to": "so-spindle-swr-coupling",
+      "type": "related"
+    },
+    {
+      "from": "slow-wave-sleep",
+      "to": "memory-consolidation",
+      "type": "supports"
+    },
+    {
+      "from": "slow-wave-sleep",
+      "to": "thalamic-reticular-nucleus",
+      "type": "related"
+    },
+    {
+      "from": "slow-wave-sleep",
+      "to": "flip-flop-switch-sleep-wake",
+      "type": "related"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "slow-wave-sleep",
+      "type": "part-of"
     }
   ],
   "dangling_references": [
