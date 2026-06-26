@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-10-05（#165）：髓鞘的秘密——少突胶质细胞感知神经冲动，主动重写脑的线路图
+
+**文章**：《髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图》（#165）
+
+**类型**：填补空白 + 知识库新领域扩展（课程脊柱2：神经网络如何建成→髓鞘化作为结构可塑性；脊柱4：学习与记忆→白质重塑与记忆巩固；层级：cellular × whole-brain-network × behavior；选题逻辑：发现 oligodendrocyte/adaptive-myelination 是高连接度悬空引用，填补白质可塑性领域空白；层级覆盖与最近4篇 molecular/microcircuit/systems 形成互补）
+
+**新创建页面（4）**：
+- `wiki/neurons/oligodendrocyte.md`（rev1）：新建少突胶质细胞专页，覆盖三重功能（绝缘/代谢支持/经验依赖髓鞘化）、分化信号通路、疾病窗口
+- `wiki/concepts/adaptive-myelination.md`（rev1）：新建经验依赖髓鞘化专页，整合 McKenzie 2014/Shimizu 2023/Scholz 2009/Mount & Monje 2017，STDP 时序机制
+- `wiki/concepts/oligodendrocyte-precursor-cell.md`（rev1）：新建 OPC/NG2 细胞专页，核心：Bergles 2000 突触接触发现 + 训练驱动 OPC 增殖 4 倍
+- `wiki/concepts/saltatory-conduction.md`（rev1）：新建跳跃式传导专页，支撑性机制概念
+
+**修订页面（0）**：本次全为新建页面
+
+**矛盾登记（0）**：无新矛盾。McKenzie 2014（运动学习）与 Shimizu 2023（认知学习）结果高度一致，DTI 方法局限已明确标注。
+
+**新增未解问题（3）**：
+- Q-ol-sleep-myelination（高）：睡眠中是否有优先髓鞘化时间窗？与 SWR 重播是否协调？
+- Q-ol-opc-selectivity（高）：新 OL 包裹轴突的选择性如何？OPC-轴突匹配规则？
+- Q-ol-aging（中）：老年 OPC 分化能力下降与认知老化是否存在因果关系？
+
+**图谱**：310节点/1841边 → **314节点/1853边**（+4节点：oligodendrocyte, adaptive-myelination, oligodendrocyte-precursor-cell, saltatory-conduction；+12边：多个 mechanism-of/supports/prerequisite-for/related 边）
+
+---
+
 ## 2026-10-04（#164）：被误解了一百年的小脑——认知、语言与社会预测的前向引擎
 
 **文章**：《被误解了一百年的小脑：从运动纠错机器到语言、社交与时间的预测引擎》（#164）

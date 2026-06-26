@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-04（第164篇·被误解了一百年的小脑：从运动纠错机器到语言、社交与时间的预测引擎）· 主题页总数：**305**（新建1页：systems/cerebellar-cognitive-affective-syndrome；修订3页：systems/cerebellum, concepts/cerebellar-ltd, concepts/forward-model；图谱310节点/1841边）
+> 最后更新：2026-10-05（第165篇·髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图）· 主题页总数：**309**（新建4页：neurons/oligodendrocyte, concepts/adaptive-myelination, concepts/oligodendrocyte-precursor-cell, concepts/saltatory-conduction；图谱314节点/1853边）
 
 ---
 
@@ -37,6 +37,7 @@
 - 🟢 [电压门控钙通道（VGCCs）](neurons/voltage-gated-calcium-channels.md) — P/Q型在突触前纳米域触发递质释放；L型在树突驱动BTSP平台电位，在核激活基因表达；三亚家族、三地点、三时间尺度 **[NEW 2026-06-01]**
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
+- 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 产髓鞘胶质细胞，三重功能：绝缘（跳跃式传导/120m/s）+ 代谢支持（MCT1-乳酸轴）+ 经验依赖髓鞘化（Adaptive myelination）；运动/认知学习需要新 OL 生成（McKenzie 2014, Shimizu 2023）**[NEW 2026-10-05]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝；成年稳态P2RY12/TMEM119/CX3CR1分子签名；DAM两步激活（rev2新增） **[NEW 2026-06-03 · 修订 rev1→rev2 2026-09-17]**
 - 🔵 [TREM2（髓系细胞触发受体2）](neurons/trem2.md) — 小胶质细胞脂质传感器/危险信号受体；DAP12→PI3K→Akt→mTOR促细胞存活/增殖/吞噬；DAM Step 2激活的分子开关；R47H变异→AD风险OR≈3-5×；INVOKE-2 Phase 2（AL002c激动抗体）阴性结果 **[NEW 2026-09-17]**
 - 🟢 [低阈值机械感受器（LTMR）](neurons/mechanoreceptor-ltmr.md) — 皮肤中专职编码轻触/振动/压力的四类感受器（SA1 Merkel/SA2 Ruffini/RA1 Meissner/RA2 Pacini）；PIEZO2通道介导机械转导；脊髓背角机械感觉柱整合信号 **[NEW 2026-07-29]**
@@ -151,6 +152,9 @@
 - 🟢 [ΔFosB（分子棘轮）](concepts/deltafosb.md) — FosB截短剪接变体，缺少C端PEST降解域；在NAc和背侧纹状体MSN中随每次药物暴露阶梯式蓄积（数周不降解）；下游靶点：GluR2↑（增强谷氨酸响应）、强啡肽↓（减少DA负反馈）、Cdk5↑（驱动树突棘增生）；被称为"成熟大脑中最持久的非损毁性神经适应"；成瘾记忆的分子基础 **[NEW 2026-09-27]**
 - 🟢 [目标导向行为](concepts/goal-directed-behavior.md) — A-O联结驱动、对结果当前价值实时敏感的灵活行为；神经基底为DMS+PL；IL压制时潜伏于习惯之下；计算等价model-based RL；贬值后即时调整 **[NEW 2026-09-26]**
 
+- 🟢 [经验依赖的髓鞘化](concepts/adaptive-myelination.md) — 成年大脑中神经活动驱动 OPC 分化产生新少突胶质细胞并形成新髓鞘；运动学习（McKenzie 2014）和工作记忆训练（Shimizu 2023）因果依赖新 OL 生成；通过调控传导时序影响 STDP 方向；人类 DTI 白质 FA 变化证实（Scholz 2009）**[NEW 2026-10-05]**
+- 🟢 [少突胶质细胞前体细胞（OPC）](concepts/oligodendrocyte-precursor-cell.md) — 成年终生存在的 OPC/NG2 细胞；Bergles 2000 发现接收神经元谷氨酸能突触传入；训练驱动 OPC 增殖 ~4 倍；分化的执行者 **[NEW 2026-10-05]**
+- 🟢 [跳跃式传导](concepts/saltatory-conduction.md) — 郎飞结-到-郎飞结跳跃；有髓鞘 70–120 m/s vs 无髓鞘约 1 m/s；能量效率提升约 10 倍；节间长度/髓鞘厚度可塑性调节传导时序 **[NEW 2026-10-05]**
 - 🔵 [三方突触](concepts/tripartite-synapse.md) — Araque 1999 框架；突触前+突触后+星形胶质细胞 PAPs 三元功能单元；双向神经元-胶质细胞信号；LTP/LTD 的三方必要性因果证明（Henneberger 2010）**[NEW 2026-07-02]**
 - 🔵 [D-丝氨酸](concepts/d-serine.md) — NMDA 受体 GluN1 协同激动剂（而非甘氨酸）；星形胶质细胞丝氨酸消旋酶合成；Ca²⁺ 依赖释放；切断 D-丝氨酸 → LTP 完全消失（Henneberger 2010）**[NEW 2026-07-02]**
 - 🔵 [胶质递质](concepts/gliotransmitter.md) — 星形胶质细胞释放的 D-丝氨酸/ATP/谷氨酸；三种释放机制（囊泡胞吐/VRAC/connexin）；争议：谷氨酸胞吐在生理条件下的真实性（C-2026-07-02-01 open）**[NEW 2026-07-02·medium confidence]**

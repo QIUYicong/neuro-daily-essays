@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10361,6 +10361,150 @@
         "Kalman filter equivalence",
         "cerebellar long-term potentiation memory expression"
       ]
+    },
+    {
+      "pmid": "40761314",
+      "pmcid": "PMC12319009",
+      "doi": "10.3389/fnins.2025.1618468",
+      "title": "Oligodendrocytes and myelination: pioneering new frontiers in cognitive neuroscience",
+      "authors_short": "Zhang N, Yi R, Zhong F, Lu Y, Chen W, Ke Z, Zhang Y, Zhou L, Wang P, Li W",
+      "journal": "Frontiers in Neuroscience",
+      "year": 2025,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-oligodendrocyte-adaptive-myelination.md"
+      ],
+      "aspects_covered": [
+        "少突胶质细胞分化信号通路（谷氨酸-钙-BDNF-TrkB-mTOR）综述",
+        "髓鞘化与认知功能关联：AD、精神分裂症、MS 临床证据",
+        "OPC 接收神经元突触活动后分化为成熟 OL 的调控机制"
+      ]
+    },
+    {
+      "pmid": "25324381",
+      "pmcid": null,
+      "doi": "10.1126/science.1254960",
+      "title": "Motor skill learning requires active central myelination",
+      "authors_short": "McKenzie IA, Ohayon D, Li H, Paes de Faria J, Emery B, Tohyama K, Richardson WD",
+      "journal": "Science",
+      "year": 2014,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-oligodendrocyte-adaptive-myelination.md"
+      ],
+      "aspects_covered": [
+        "Myrf 条件性敲除→运动技能学习受损（因果实验）",
+        "新 OL 生成是运动技能巩固（非获取）的必要条件",
+        "首次证明成年运动学习与白质可塑性的因果关系"
+      ]
+    },
+    {
+      "pmid": "37838794",
+      "pmcid": "PMC10576739",
+      "doi": "10.1038/s41467-023-42293-4",
+      "title": "Oligodendrocyte dynamics dictate cognitive performance outcomes of working memory training in mice",
+      "authors_short": "Shimizu T, et al.",
+      "journal": "Nature Communications",
+      "year": 2023,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-oligodendrocyte-adaptive-myelination.md"
+      ],
+      "aspects_covered": [
+        "认知训练（工作记忆）需要新 OL 生成（Myrf-cKO 受损）",
+        "OPC 增殖在训练期间增加约 4 倍",
+        "个体工作记忆改善幅度与新生 OL 数量正相关"
+      ]
+    },
+    {
+      "pmid": "36309567",
+      "pmcid": "PMC9617857",
+      "doi": "10.1038/s42003-022-04116-y",
+      "title": "Oligodendroglia are emerging players in several forms of learning and memory",
+      "authors_short": "Munyeshyaka M, Fields RD",
+      "journal": "Communications Biology",
+      "year": 2022,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-oligodendrocyte-adaptive-myelination.md"
+      ],
+      "aspects_covered": [
+        "STDP-髓鞘时序关联机制：髓鞘改变传导速度影响 STDP 方向",
+        "OL 参与多种学习形式：运动、空间、联想、工作记忆",
+        "clemastine 促髓鞘化改善恐惧记忆药理证据"
+      ]
+    },
+    {
+      "pmid": "28817797",
+      "pmcid": "PMC5667660",
+      "doi": null,
+      "title": "Wrapped to adapt: experience-dependent myelination",
+      "authors_short": "Mount CW, Monje M",
+      "journal": "Neuron",
+      "year": 2017,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-oligodendrocyte-adaptive-myelination.md"
+      ],
+      "aspects_covered": [
+        "「经验依赖髓鞘化」框架：区别于发育内禀程序，由神经活动驱动",
+        "社会经验→mPFC NRG1→ErbB3→OL 成熟信号轴",
+        "BDNF-TrkB 为主要促分化信号；PI3K-AKT-mTOR 调控髓鞘膜运输"
+      ]
+    },
+    {
+      "pmid": "19820707",
+      "pmcid": null,
+      "doi": null,
+      "title": "Training induces changes in white-matter architecture",
+      "authors_short": "Scholz J, Klein MC, Behrens TEJ, Johansen-Berg H",
+      "journal": "Nature Neuroscience",
+      "year": 2009,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-oligodendrocyte-adaptive-myelination.md"
+      ],
+      "aspects_covered": [
+        "成年人杂耍训练 6 周→顶叶内沟白质 FA 增加（DTI）",
+        "首个成年人白质可塑性的直接 DTI 证据",
+        "打破「成年白质静态」假设"
+      ]
+    },
+    {
+      "pmid": "10821275",
+      "pmcid": null,
+      "doi": null,
+      "title": "Glutamatergic synapses on oligodendrocyte precursor cells in the hippocampus",
+      "authors_short": "Bergles DE, Roberts JD, Somogyi P, Jahr CE",
+      "journal": "Nature",
+      "year": 2000,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-oligodendrocyte-adaptive-myelination.md"
+      ],
+      "aspects_covered": [
+        "里程碑：OPC 接收谷氨酸能 AMPA 受体介导的真实突触输入",
+        "EM 超微结构确认突触小泡和致密后膜",
+        "重定义神经元-胶质细胞关系：OPC 是突触后细胞"
+      ]
+    },
+    {
+      "pmid": "22801498",
+      "pmcid": "PMC3408792",
+      "doi": null,
+      "title": "Oligodendroglia metabolically support axons and contribute to neurodegeneration",
+      "authors_short": "Lee Y, et al.",
+      "journal": "Nature",
+      "year": 2012,
+      "first_used": "2026-10-05",
+      "used_in_articles": [
+        "2026-10-05-oligodendrocyte-adaptive-myelination.md"
+      ],
+      "aspects_covered": [
+        "MCT1-乳酸通路：少突胶质细胞代谢支持轴突",
+        "MCT1 缺失→轴突损伤（即使髓鞘完整）",
+        "ALS 患者少突胶质细胞 MCT1 显著降低"
+      ]
     }
   ],
   "total_sources": 589,
@@ -15207,6 +15351,33 @@
       "38870929",
       "21227230",
       "34262527"
+    ]
+  },
+  "sources_2026-10-05": {
+    "article": "2026-10-05-oligodendrocyte-adaptive-myelination",
+    "article_number": 165,
+    "sources_added": 8,
+    "sources_reused": 0,
+    "new_pmids": [
+      "40761314",
+      "25324381",
+      "37838794",
+      "36309567",
+      "28817797",
+      "19820707",
+      "10821275",
+      "22801498"
+    ],
+    "reused_pmids": [],
+    "all_pmids": [
+      "40761314",
+      "25324381",
+      "37838794",
+      "36309567",
+      "28817797",
+      "19820707",
+      "10821275",
+      "22801498"
     ]
   }
 }

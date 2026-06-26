@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-04",
-  "node_count": 310,
-  "edge_count": 1841,
+  "updated": "2026-10-05",
+  "node_count": 314,
+  "edge_count": 1853,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2832,6 +2832,42 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/cerebellar-cognitive-affective-syndrome.md"
+    },
+    {
+      "id": "oligodendrocyte",
+      "title": "少突胶质细胞",
+      "domain": "neurons",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/oligodendrocyte.md"
+    },
+    {
+      "id": "oligodendrocyte-precursor-cell",
+      "title": "少突胶质细胞前体细胞（OPC/NG2细胞）",
+      "domain": "concepts",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/oligodendrocyte-precursor-cell.md"
+    },
+    {
+      "id": "adaptive-myelination",
+      "title": "经验依赖的髓鞘化",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/adaptive-myelination.md"
+    },
+    {
+      "id": "saltatory-conduction",
+      "title": "跳跃式传导",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/saltatory-conduction.md"
     }
   ],
   "edges": [
@@ -13182,6 +13218,66 @@
       "from": "cerebellar-cognitive-affective-syndrome",
       "to": "interval-timing",
       "type": "related"
+    },
+    {
+      "from": "oligodendrocyte-precursor-cell",
+      "to": "oligodendrocyte",
+      "type": "is-a"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "adaptive-myelination",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "saltatory-conduction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "adaptive-myelination",
+      "to": "spike-timing-dependent-plasticity",
+      "type": "prerequisite-for"
+    },
+    {
+      "from": "adaptive-myelination",
+      "to": "working-memory",
+      "type": "supports"
+    },
+    {
+      "from": "adaptive-myelination",
+      "to": "multiple-sclerosis",
+      "type": "related"
+    },
+    {
+      "from": "oligodendrocyte-precursor-cell",
+      "to": "adaptive-myelination",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "axon-initial-segment",
+      "type": "related"
+    },
+    {
+      "from": "saltatory-conduction",
+      "to": "action-potential",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "microglia",
+      "type": "related"
+    },
+    {
+      "from": "oligodendrocyte",
+      "to": "astrocyte",
+      "type": "related"
+    },
+    {
+      "from": "bdnf",
+      "to": "adaptive-myelination",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

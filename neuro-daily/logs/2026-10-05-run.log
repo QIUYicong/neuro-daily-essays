@@ -1,0 +1,135 @@
+# 每日运行日志 2026-10-05
+
+**文章编号**：#165
+**主题**：少突胶质细胞与经验依赖的适应性髓鞘化（Oligodendrocyte Adaptive Myelination）
+**运行状态**：✅ 成功完成
+
+---
+
+## A. 选题决策
+
+**触发条件**：知识库空白填补（151-164 篇均未直接覆盖少突胶质细胞与白质可塑性）
+**悬空引用**：wiki 多页引用 oligodendrocyte、adaptive-myelination 节点但无独立页面
+**层级互补**：cellular + whole-brain-network，与前几篇的 molecular/microcircuit/systems 层互补
+**课程轨道**：脊柱 2（神经网络如何建成）+ 脊柱 4（学习与记忆）
+
+选题决策时间：运行开始阶段
+
+---
+
+## B. 文献检索
+
+### 检索策略
+- PubMed 主检索词：oligodendrocyte myelination learning AND memory
+- PubMed 检索词：adaptive myelination experience-dependent oligodendrocyte precursor
+- PMC 全文检索：oligodendrocyte cognitive neuroscience review 2025
+- 特定作者/关键论文追溯：McKenzie 2014 (PMID:25324381)、Bergles 2000 (PMID:10821275)
+
+### 最终来源清单
+
+| ID | PMID | 期刊 | 年份 | 全文 | 用途 |
+|----|------|------|------|------|------|
+| S1 | 40761314 | Front Neurosci | 2025 | ✅ PMC | 机制综述主干 |
+| S2 | 25324381 | Science | 2014 | ⚠️ 摘要 | Myrf-cKO 运动学习因果实验 |
+| S3 | 37838794 | Nature Commun | 2023 | ✅ PMC | 工作记忆训练×OL 生成 |
+| S4 | 36309567 | Commun Biol | 2022 | ✅ PMC | STDP-髓鞘时序；多种学习形式 |
+| S5 | 28817797 | Neuron | 2017 | ✅ PMC | 经验依赖髓鞘化框架综述 |
+| S6 | 19820707 | Nature Neurosci | 2009 | ⚠️ 摘要 | 人类 DTI 杂耍实验 |
+| S7 | 10821275 | Nature | 2000 | ⚠️ 摘要 | OPC 接收谷氨酸突触输入里程碑 |
+| S8 | 22801498 | Nature | 2012 | ✅ PMC | MCT1-乳酸轴突代谢支持 |
+
+**开放全文**：5/8 | **仅摘要**：3/8（付费期刊：S2 Science、S6 Nature Neurosci、S7 Nature）
+**付费论文处理**：仅使用公开摘要 + 综述引用描述，文章中明确标注
+
+---
+
+## C. 文章写作
+
+**文件**：`neuro-daily/articles/2026-10-05-oligodendrocyte-adaptive-myelination.md`
+**字数**：约 5500 中文字符
+**结构**：核心问题 → 一句话总结 → 背景（髓鞘化三功能）→ 里程碑（OPC 突触：Bergles 2000）→ 三个关键实验 → 分子机制 → MCT1 代谢支持 → 隐喻 → 疾病窗口 → 争议 → AI 类比 → 概念卡 → 认知地图更新 → 参考文献
+
+**写作决策**：
+- 使用"光纤线路图"比喻：有线 vs 无线传导，铺设工程队（OPC→OL）
+- 三条 STDP 时序改变场景（电车线高铁化）详细展开
+- MCT1 乳酸通路单独成节，强调第三功能（代谢供体）
+- 付费论文明确标注"⚠️ 仅摘要可用"
+
+---
+
+## D. Wiki 知识库整合
+
+### 新建 wiki 页面（4 页）
+
+1. **`wiki/neurons/oligodendrocyte.md`**（rev1）
+   - type: entity, status: established, confidence: high
+   - 涵盖三大功能：绝缘/导速、代谢支持、适应性髓鞘化
+   - 关联：oligodendrocyte-precursor-cell, adaptive-myelination, saltatory-conduction, multiple-sclerosis
+
+2. **`wiki/concepts/adaptive-myelination.md`**（rev1）
+   - type: mechanism, status: mainstream, confidence: high
+   - 涵盖：活动依赖信号通路、McKenzie/Shimizu/Scholz 实验证据链、STDP-时序机制
+   - 关联：oligodendrocyte, OPC, spike-timing-dependent-plasticity, working-memory
+
+3. **`wiki/concepts/oligodendrocyte-precursor-cell.md`**（rev1）
+   - type: entity, status: established, confidence: high
+   - 涵盖：Bergles 2000 突触发现、训练诱导 4× 增殖、Myrf 分化门控
+   - 关联：oligodendrocyte, adaptive-myelination, neuronal-activity
+
+4. **`wiki/concepts/saltatory-conduction.md`**（rev1）
+   - type: mechanism, status: established, confidence: high
+   - 涵盖：跳跃式传导原理、速度对比（1 vs 70-120 m/s）、Ranvier 节、能效优势
+   - 关联：oligodendrocyte, adaptive-myelination, action-potential
+
+### 修改文件
+
+- **`wiki/_graph.json`**：310→314 节点，1841→1853 边（新增 12 条边：mechanism-of/supports/prerequisite-for/is-a/related）
+- **`wiki/CHANGELOG.md`**：追加 #165 条目（4 新页，0 修订，3 未解问题，314 节点 1853 边）
+- **`wiki/index.md`**：header 更新至 2026-10-05，添加 4 个新页面索引（neurons 节 + concepts 节）
+- **`state/monthly_synthesis.md`**：更新 October 截至日期→2026-10-05，添加 #164/#165 摘要及主题综合段落
+
+---
+
+## E. 状态层更新
+
+- **`state/topic_ledger.json`**：total_articles 164→165，prepend #165 条目，last_updated→2026-10-05
+- **`state/unresolved_questions.md`**：last_updated→2026-10-05，prepend 3 新问题（Q-ol-sleep-myelination, Q-ol-opc-selectivity, Q-ol-aging）
+- **`state/source_registry.json`**：last_updated→2026-10-05，添加 8 个新来源条目 + sources_2026-10-05 日摘要
+- **`neuro-daily/notes/2026-10-05-reading-notes.md`**：8 来源详细阅读笔记
+- **`neuro-daily/sources/2026-10-05-sources.json`**：8 来源结构化元数据
+
+---
+
+## F. 争议/矛盾裁决
+
+无新的 contested claims 登记。
+
+**已知领域不确定性**（记录于 unresolved_questions.md 而非 contested_claims）：
+- 睡眠-髓鞘化时序协调（推断，未直接测试）
+- OPC-轴突选择性匹配机制（活动依赖，机制未明）
+- OPC 衰老与认知老化的因果性（相关证据，因果未证明）
+
+---
+
+## G. Git 操作
+
+- 分支：main（单分支累积模式）
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-10-05
+- 作者：GIT_AUTHOR_NAME=QIUYicong, GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+- 推送目标：origin main
+
+---
+
+## H. 本次运行统计
+
+| 指标 | 数值 |
+|------|------|
+| 文章编号 | #165 |
+| 开放全文来源 | 5 |
+| 仅摘要来源 | 3 |
+| 新建 wiki 页 | 4 |
+| 修订 wiki 页 | 0 |
+| 新增知识图节点 | 4 |
+| 新增知识图边 | 12 |
+| 新增未解问题 | 3 |
+| 登记矛盾 | 0 |

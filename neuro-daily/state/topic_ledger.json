@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-10-04",
-  "total_articles": 164,
+  "last_updated": "2026-10-05",
+  "total_articles": 165,
   "entries": [
+    {
+      "date": "2026-10-05",
+      "title": "髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图",
+      "filename": "2026-10-05-oligodendrocyte-adaptive-myelination.md",
+      "article_number": 165,
+      "wiki_pages_created": [
+        "wiki/neurons/oligodendrocyte.md",
+        "wiki/concepts/adaptive-myelination.md",
+        "wiki/concepts/oligodendrocyte-precursor-cell.md",
+        "wiki/concepts/saltatory-conduction.md"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "少突胶质细胞前体细胞（OPC）接收神经元的谷氨酸能突触输入（Bergles 2000），并在神经活动驱动下分化为成熟少突胶质细胞（OL）、包裹轴突生成新髓鞘（McKenzie 2014 运动学习；Shimizu 2023 工作记忆）——这一「经验依赖的适应性髓鞘化」机制如何调控跳跃式传导速度（1→70-120 m/s），进而通过改变尖峰时序窗口影响 STDP 方向（LTP vs LTD），并作为突触可塑性之外的第二条神经可塑性轴？",
+      "open_questions_added": [
+        "Q-ol-sleep-myelination（高优先级）：睡眠是否为髓鞘化的优先窗口？新 OL 生成是否与慢波睡眠-SWR 重放协调？",
+        "Q-ol-opc-selectivity（高优先级）：新 OL 对任务相关活跃轴突的包裹选择性机制：OPC-轴突匹配规则是什么？",
+        "Q-ol-aging（中优先级）：年龄相关 OPC 分化能力下降与认知老化之间是否存在因果关系？"
+      ],
+      "layer": [
+        "cellular",
+        "whole-brain-network",
+        "behavior",
+        "cognition",
+        "clinical"
+      ],
+      "curriculum_track": "课程脊柱2（神经网络如何建成：髓鞘化发育与可塑性）+ 课程脊柱4（学习与记忆：白质可塑性为学习基础）+ 课程脊柱9（神经退行性与脱髓鞘疾病）",
+      "topic_tags": [
+        "oligodendrocyte OL myelin CNS glial cell myelinating cell saltatory conduction",
+        "oligodendrocyte precursor cell OPC NG2 cell synapse glutamate AMPA receptor Bergles 2000",
+        "adaptive myelination experience-dependent myelination activity-dependent myelination Mount Monje 2017",
+        "Myrf transcription factor OPC differentiation McKenzie 2014 Science motor learning",
+        "Shimizu 2023 Nature Communications working memory OPC proliferation 4x",
+        "Scholz 2009 Nature Neuroscience DTI FA juggling white matter plasticity human",
+        "saltatory conduction node of Ranvier myelin sheath conduction velocity 120 m/s",
+        "MCT1 lactate monocarboxylate transporter axon metabolic support Lee 2012 Nature",
+        "STDP spike timing dependent plasticity myelin timing window LTP LTD",
+        "NRG1 ErbB3 ErbB4 social experience mPFC prefrontal myelination",
+        "BDNF TrkB mTOR PI3K-AKT OPC differentiation molecular pathway",
+        "multiple sclerosis MS remyelination failure fibronectin hyaluronan ECM",
+        "schizophrenia working memory ErbB4 NRG1 oligodendrocyte white matter",
+        "Alzheimer disease hippocampus cingulate myelin density cognitive decline",
+        "clemastine promoting myelination pharmacological cognitive enhancement"
+      ],
+      "main_sources": [
+        "PMID:40761314 / PMCID:PMC12319009 (Zhang et al. 2025, Front Neurosci, review, OPEN)",
+        "PMID:25324381 (McKenzie et al. 2014, Science 346:318-322, Myrf-cKO motor learning, abstract only)",
+        "PMID:37838794 / PMCID:PMC10576739 (Shimizu et al. 2023, Nature Commun 14:6499, working memory OPC, OPEN)",
+        "PMID:36309567 / PMCID:PMC9617857 (Munyeshyaka & Fields 2022, Commun Biol, STDP-myelin, OPEN)",
+        "PMID:28817797 / PMCID:PMC5667660 (Mount & Monje 2017, Neuron 95:743-756, adaptive myelination review, OPEN)",
+        "PMID:19820707 (Scholz et al. 2009, Nature Neurosci 12:1370-1, human DTI juggling, abstract only)",
+        "PMID:10821275 (Bergles et al. 2000, Nature 405:187-91, OPC synaptic input, abstract only)",
+        "PMID:22801498 / PMCID:PMC3408792 (Lee et al. 2012, Nature, MCT1 lactate axon support, OPEN)"
+      ]
+    },
     {
       "date": "2026-10-04",
       "title": "被误解了一百年的小脑：从运动纠错机器到语言、社交与时间的预测引擎",
