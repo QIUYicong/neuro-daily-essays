@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-11",
-  "total_articles": 171,
+  "last_updated": "2026-10-12",
+  "total_articles": 172,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10596,6 +10596,73 @@
         "glymphatic-system 专页（类淋巴系统在 SWS 期间的清除机制；AQP4 已有专页，glymphatic-system 是悬空引用）",
         "flip-flop-switch-sleep-wake 专页（控制 SWS 进入/退出的互抑回路；VLPO/TMN 双稳态；与 TRN 互补）",
         "rem-sleep 专页（REM 睡眠与情绪记忆巩固；theta 振荡 LA-VH 同步）"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "title": "翻转的逻辑：大脑睡眠-清醒「双稳触发器」与它的分子稳定器",
+      "filename": "2026-10-12-flip-flop-switch-sleep-wake.md",
+      "article_number": 172,
+      "wiki_pages_created": [
+        "wiki/systems/flip-flop-switch-sleep-wake.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/ascending-arousal-system.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "VLPO的GABA+甘丙肽神经元如何与脑干-下丘脑多胺能觉醒系统形成相互抑制的双稳触发回路？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "Sleep series part 4: TRN(#170)->SWR-timing(#171)->flip-flop switch(#172)",
+      "topic_tags": [
+        "flip-flop switch",
+        "VLPO",
+        "galanin",
+        "GABA",
+        "TMN",
+        "histamine",
+        "H1 receptor",
+        "orexin",
+        "hypocretin",
+        "narcolepsy",
+        "NT1",
+        "cataplexy",
+        "HLA-DQB1*06:02",
+        "KCNQ2",
+        "M-current",
+        "aging sleep",
+        "flupirtine",
+        "suvorexant",
+        "lemborexant",
+        "bistable",
+        "adenosine",
+        "prostaglandin D2"
+      ],
+      "main_sources": [
+        "PMID:30297727 (PMC:6175893) - Kroeger 2018",
+        "PMID:33381012 (PMC:7767984) - Cheng 2020",
+        "PMID:24760861 (PMC:3996219) - Williams 2014",
+        "PMID:24651580 (PMC:3961294) - Fulcher 2014",
+        "PMID:35201886 (PMC:9107327) - Li 2022 Science",
+        "PMID:29928253 (PMC:5997825) - Tyree 2018"
+      ],
+      "unresolved_questions": [
+        "Q-ff-01",
+        "Q-ff-02",
+        "Q-ff-03",
+        "Q-ff-04"
+      ],
+      "next_suggested_topics": [
+        "narcolepsy wiki page - no independent page yet, referenced from multiple pages",
+        "orexin-hypocretin page revision - add Li 2022 KCNQ2 mechanism",
+        "adenosine page revision - sleep homeostatic pressure, caffeine pharmacology"
       ]
     }
   ]

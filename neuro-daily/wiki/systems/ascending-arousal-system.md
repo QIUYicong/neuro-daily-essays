@@ -6,8 +6,8 @@ type: structure
 status: established
 confidence: high
 created: 2026-08-10
-updated: 2026-08-10
-revision_count: 1
+updated: 2026-10-12
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
 related: [norepinephrine-locus-coeruleus, serotonin-raphe-system, neuromodulator-systems, thalamus, disorders-of-consciousness, mesocircuit-hypothesis, orexin-hypocretin, flip-flop-switch-sleep-wake, rem-sleep, acetylcholine-cortex, neural-correlates-of-consciousness, default-mode-network]
 prerequisites: [neuromodulator-systems, synaptic-transmission, thalamic-firing-modes]
@@ -64,6 +64,10 @@ VLPO ↔ 激活核团的双稳互抑形成"翻转开关"（flip-flop switch）�
 | Edlow 2024, 人类离体MRI | VTA=dAAN枢纽；4条投射通路 | PMID:38691619 |
 | Wang 2024, 光遗传学 | DRN→VTA通路激活→从NREM/REM诱发清醒 | PMID:39593192 |
 | Arrigoni & Fuller 2022 | VLPO翻转开关；腺苷/PGD₂信号 | PMID:35328326 |
+| Kroeger 2018, 小鼠光遗传 | VLPO-Gal激活→NREM+60%（1-4 Hz）；体温下降4-6°C | PMID:30297727 |
+| Cheng & Wang 2020, 大鼠药理 | VLPO激活VLPO→NREM+56.4%；TMN H1阻断→觉醒-30.2% | PMID:33381012 |
+| Williams & Scammell 2014, 光遗传 | TMN组胺→间接抑制VLPO（interneuron介导，H1受体）；H3自受体负反馈 | PMID:24760861 |
+| Li et al. 2022, Science | 老年食欲素神经元KCNQ2↓→M电流减弱→过兴奋→睡眠碎片化；flupirtine可逆转 | PMID:35201886 |
 
 ## 临床相关性
 
@@ -77,3 +81,4 @@ VLPO ↔ 激活核团的双稳互抑形成"翻转开关"（flip-flop switch）�
 | 版本 | 日期 | 变化 | 来源文章 |
 |------|------|------|---------|
 | rev1 | 2026-08-10 | 初始页面建立；AAS两通道模型、五核团、VTA枢纽、翻转开关 | #109 |
+| rev2 | 2026-10-12 | 新增VLPO-TMN互抑光遗传定量证据（Kroeger 2018, Cheng 2020, Williams 2014）；新增老年食欲素神经元KCNQ2机制（Li 2022）；flip-flop-switch-sleep-wake页面建立，与本页连接 | #172 |

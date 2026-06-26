@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-10-12（#172）：翻转的逻辑——睡眠-清醒双稳触发器与食欲素稳定器
+
+**文章**：《翻转的逻辑：大脑睡眠-清醒"双稳触发器"与它的分子稳定器》（#172）
+
+**类型**：悬空引用填补（flip-flop-switch-sleep-wake 历史悬空引用，已在 concepts/ 有初始页但位置错误且内容单薄）+ 机制深化（VLPO-TMN光遗传定量证据 + KCNQ2老年机制新发现）+ 疾病窗口（发作性睡病神经回路解析）（层级：cellular × microcircuit × brain-region × whole-brain-network × behavior × disease）
+
+**新创建页面（1）**：
+- `wiki/systems/flip-flop-switch-sleep-wake.md`（rev1）：创建完整的翻转开关专页，正式定位于 systems/ 域（原 concepts/ 版本为初始占位）；覆盖 VLPO-TMN-LC-DRN 互抑回路（GABA+galanin / His-H1 / NE-α1）、食欲素稳定器机制（Fulcher 2014建模）、发作性睡病病理（CSF orexin-A <110 pg/mL，HLA-DQB1*06:02）、老年KCNQ2机制（Li 2022 Science）、LH-GABA→VLPO快速觉醒通路（Venner 2019）、药物靶点（suvorexant/lemborexant）；新增未解问题 Q-ff-01至Q-ff-04
+
+**修订页面（1）**：
+- `wiki/systems/ascending-arousal-system.md`（rev1→rev2）：新增 VLPO-TMN 互抑光遗传定量证据三条（Kroeger 2018 NREM+60%，Cheng 2020 VLPO激活+56.4%/TMN H1阻断-30.2%，Williams 2014 组胺间接抑制VLPO）；新增老年食欲素神经元 KCNQ2 下降机制（Li 2022）；`flip-flop-switch-sleep-wake` 关联正式建立；updated→2026-10-12
+
+**图谱变更**：
+- 修正：`flip-flop-switch-sleep-wake` 节点 domain 从 concepts → systems，page 路径修正至 wiki/systems/
+- 新增节点：`narcolepsy`（wiki/diseases/narcolepsy.md，悬空引用，待建页）
+- 新增边（6条）：adenosine→flip-flop(regulates)、circadian-clock→flip-flop(regulates)、flip-flop→glymphatic-system(supports)、flip-flop→thalamic-reticular-nucleus(regulates)、flip-flop→narcolepsy(related)、orexin-hypocretin→narcolepsy(mechanism-of)
+
+**登记矛盾（0）**：无新矛盾。新证据与现有翻转开关模型完全相容；KCNQ2老年机制是全新领域，未与既有主张冲突。
+
+**新增悬空引用待填补**：`narcolepsy`（发作性睡病专页，被 flip-flop-switch-sleep-wake、orexin-hypocretin 等多处引用但无独立页面）
+
+---
+
 ## 2026-10-11（#171）：时长与时机——SWR 如何精确分档今日与往昔
 
 **文章**：《时长与时机：大脑在沉睡中如何精确分档今日与往昔》（#171）

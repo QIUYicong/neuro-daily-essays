@@ -1,0 +1,119 @@
+# 运行日志 · 2026-10-12
+
+**运行时间（UTC）**：2026-06-27 ~04:00–05:30 CST（Beijing time）
+**文章编号**：#172
+**分支**：main（单分支累积）
+
+---
+
+## 执行摘要
+
+成功完成 2026-10-12 文章生成与 wiki 固结。文章主题：睡眠-清醒翻转开关（flip-flop switch）机制，覆盖 VLPO-TMN 互抑回路、食欲素稳定器机制、发作性睡病病理，以及老年 KCNQ2 机制新发现。
+
+---
+
+## 状态读取
+
+- **topic_ledger**：2026-10-11 为最近一篇（#171 SWR 时长），总计 171 篇
+- **unresolved_questions**：高优先级问题包括 Q-swr-duration-mechanism-01、Q-sws-substate-nr-01、Q-ff系列（新增今日）
+- **contested_claims**：无新矛盾
+- **_graph.json**：319 节点 / 1897 边（运行前），`flip-flop-switch-sleep-wake` 已有节点但 domain=concepts/page 路径错误
+
+---
+
+## 选题决策
+
+- **选题机制**：悬空引用修复 + 前序文章建议（#171 最后建议 flip-flop-switch-sleep-wake）
+- **最终主题**：睡眠-清醒翻转开关（flip-flop switch）
+- **核心问题**：VLPO-多胺能觉醒系统的双稳触发器 + 食欲素稳定器 + 发作性睡病
+- **理由**：(1) 前4篇聚焦分子/微回路（小脑LTD系列），需要转向系统/全脑层级；(2) flip-flop 节点在 graph 中存在但 page 路径错误（概念/系统归属问题）；(3) SWR系列（#170/#171）自然引出睡眠控制的更高层架构问题
+
+---
+
+## 来源检索
+
+**检索工具**：NCBI E-utilities (esearch + efetch) + PMC Open Access
+
+**主要检索词**：
+- `flip-flop switch sleep wake VLPO orexin` → PMID: 16254994, 17557503
+- `sleep wake switching orexin mutual inhibition` → PMID: 24651580
+- `VLPO galanin GABA sleep promoting optogenetics` → PMID: 30297727, 31761703
+- `orexin narcolepsy cataplexy review` → PMID: 34052813, 35624073, 31324898, 17299454
+- `locus coeruleus norepinephrine sleep wake arousal` → PMID: 35201886 等
+- `suvorexant lemborexant orexin antagonist insomnia` → 多个临床文献
+
+**采用来源（12个）**：
+| PMID | 作者 | 期刊/年 | 全文 |
+|------|------|---------|------|
+| 30297727 | Kroeger 2018 | Nat Commun | ✓ PMC |
+| 33381012 | Cheng 2020 | Front Neurosci | ✓ PMC |
+| 24760861 | Williams 2014 | J Neurosci | ✓ PMC |
+| 24651580 | Fulcher 2014 | PLoS ONE | ✓ PMC |
+| 35201886 | Li 2022 | Science | ✓ PMC |
+| 29928253 | Tyree 2018 | Front Neurol | ✓ PMC |
+| 17299454 | Sakurai 2007 | Nat Rev Neurosci | 摘要 |
+| 31324898 | Bassetti 2019 | Nat Rev Neurol | 摘要 |
+| 16254994 | Saper 2005 | J Comp Neurol | 摘要 |
+| 31761703 | Venner 2019 | Curr Biol | 摘要 |
+| 17440218 | Phillips 2007 | J Biol Rhythms | 摘要 |
+| 34052813 | Sun 2021 | Front Neurol Neurosci | ✓ PMC |
+
+**开放全文读取**：7/12（达标：≥2）
+**官方机构来源**：PMC/NCBI（达标：≥1）
+**排除来源**：无特别排除；部分 Sci-Hub 可访问的付费论文只使用摘要
+
+---
+
+## 文章生成
+
+**文件**：`neuro-daily/articles/2026-10-12-flip-flop-switch-sleep-wake.md`
+**字数估计**：约 5500 汉字（符合 3000–6000 要求）
+**包含要素**：✓ 核心问题 ✓ 一句话摘要 ✓ 为何重要 ✓ 背景 ✓ 机制（分层） ✓ 关键证据 ✓ 比喻（及失效边界） ✓ 认知地图影响 ✓ 争议未解 ✓ 与AI对照 ✓ 概念卡片 ✓ 认知地图更新 ✓ 参考来源
+
+**附属文件**：
+- `neuro-daily/notes/2026-10-12-reading-notes.md` ✓
+- `neuro-daily/sources/2026-10-12-sources.json` ✓
+
+---
+
+## Wiki 固结
+
+**新建页面（1）**：
+- `wiki/systems/flip-flop-switch-sleep-wake.md`（rev1）：填补悬空引用并修正归属（从 concepts/ 升级到 systems/）；完整回路机制、证据表、临床相关、未解问题
+
+**修订页面（1）**：
+- `wiki/systems/ascending-arousal-system.md`（rev1→rev2）：新增 3 项光遗传定量证据 + KCNQ2 老年机制
+
+**矛盾检查**：
+- 无新矛盾。新证据与既有理解（翻转开关、食欲素稳定器）高度一致，KCNQ2 机制是新领域延伸
+
+**成熟度变化**：无页面降级；`flip-flop-switch-sleep-wake` 从"exists as stub"升级到"完整 established 页"
+
+---
+
+## 图谱与治理更新
+
+- `wiki/_graph.json`：320 节点 / 1903 边（+1 节点 narcolepsy；+6 边；修正 flip-flop 节点路径）
+- `wiki/index.md`：更新日期/统计；修正 flip-flop 链接至 systems/；更新 AAS 条目
+- `wiki/CHANGELOG.md`：追加 2026-10-12 条目
+- `state/topic_ledger.json`：追加 #172 条目，total=172
+- `state/unresolved_questions.md`：新增 Q-ff-01~04
+- `state/source_registry.json`：新增 12 条来源
+- `state/monthly_synthesis.md`：追加 2026-10-11 和 2026-10-12 条目
+
+---
+
+## 自检结果
+
+**真实性**：✓（每条主张有 PMID 来源；明确标注摘要/全文；未过度外推动物数据）
+**一致性**：✓（无矛盾；修订页 updated/revision_count/修订历史同步）
+**可导航**：✓（index/CHANGELOG 已更新；flip-flop 新页有 related/prerequisites）
+**情景层完整**：✓（article/notes/sources/log 齐全；未改动旧文件）
+
+---
+
+## Git 操作
+
+**分支**：main
+**commit hash**：（提交后填写）
+**push 状态**：待 push

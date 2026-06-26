@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11",
+  "last_updated": "2026-10-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10935,6 +10935,141 @@
         "RP 增加 GABA_A 受体数量",
         "NSFA 分析",
         "ATP-LTP 独立机制"
+      ]
+    },
+    {
+      "pmid": "30297727",
+      "pmcid": "PMC6175893",
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "VLPO-galanin optogenetics",
+        "sleep promotion mechanism",
+        "thermoregulation coupling"
+      ]
+    },
+    {
+      "pmid": "33381012",
+      "pmcid": "PMC7767984",
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "VLPO-TMN mutual inhibition quantification",
+        "flip-flop pharmacology"
+      ]
+    },
+    {
+      "pmid": "24760861",
+      "pmcid": "PMC3996219",
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "TMN histamine optogenetics",
+        "H1-H3 autoregulation"
+      ]
+    },
+    {
+      "pmid": "24651580",
+      "pmcid": "PMC3961294",
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "orexin stabilizer mathematical model",
+        "narcolepsy simulation"
+      ]
+    },
+    {
+      "pmid": "35201886",
+      "pmcid": "PMC9107327",
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "aging orexin hyperexcitability",
+        "KCNQ2 M-current",
+        "flupirtine"
+      ]
+    },
+    {
+      "pmid": "29928253",
+      "pmcid": "PMC5997825",
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "orexin integrator role",
+        "motivation arousal coupling"
+      ]
+    },
+    {
+      "pmid": "17299454",
+      "pmcid": null,
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "orexin neural circuit review",
+        "Nat Rev Neurosci 2007"
+      ]
+    },
+    {
+      "pmid": "31324898",
+      "pmcid": null,
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "narcolepsy review",
+        "CSF orexin diagnosis",
+        "HLA-DQB1*06:02"
+      ]
+    },
+    {
+      "pmid": "16254994",
+      "pmcid": null,
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "flip-flop model original review",
+        "homeostatic circadian sleep regulation"
+      ]
+    },
+    {
+      "pmid": "31761703",
+      "pmcid": null,
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "LH-GABA→VLPO rapid arousal circuit"
+      ]
+    },
+    {
+      "pmid": "17440218",
+      "pmcid": null,
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "quantitative sleep-wake dynamics model",
+        "bistable system math"
+      ]
+    },
+    {
+      "pmid": "34052813",
+      "pmcid": "PMC8171809",
+      "used_in": [
+        "2026-10-12"
+      ],
+      "aspects": [
+        "orexin receptor pharmacology",
+        "OX1R OX2R",
+        "suvorexant lemborexant"
       ]
     }
   ],

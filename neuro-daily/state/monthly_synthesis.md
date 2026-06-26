@@ -1855,3 +1855,27 @@
 
 **图谱**：318节点/1885边（无新节点，+4边：thalamic-reticular-nucleus↔thalamus新连接加固，mesocircuit-hypothesis↔thalamic-reticular-nucleus新增；disorders-of-consciousness↔thalamic-reticular-nucleus新增）
 **新增未解问题（4个）**：Q-trn-01（TRN亚网络清醒验证，高）、Q-trn-02（TRN投射拓扑单细胞级别，高）、Q-trn-03（快速去唤醒 vs 注意抑制机制共享，中）、Q-mcs-dbs-04（CT-DBS最优参数与患者选择，高）
+
+---
+
+### 2026-10-11（#171）：时长与时机——SWR精确分档今日与往昔
+
+**一句话**：大脑在睡眠中用SWR的时长（>150ms="长"SWR携带更完整序列→信息容量增加）和时机（NREM收缩期低NE→近期记忆；扩张期较高NE→陈旧记忆）两个独立维度实现精确的记忆分档写入——Fernández-Ruiz 2019光遗传延长SWR→记忆改善（因果），Chang 2025瞳孔振荡揭示NREM亚状态NE波动（因果）。
+
+**层级**：cellular / microcircuit / brain-region / whole-brain-network / cognition / behavior
+
+---
+
+### 2026-10-12（#172）：翻转的逻辑——睡眠-清醒双稳触发器与食欲素稳定器
+
+**一句话**：VLPO（GABA+甘丙肽）与脑干多胺能觉醒核团（TMN/LC/DRN）的相互抑制形成双稳触发器，强制大脑只能处于"完全清醒"或"完全入睡"而非中间状态；外侧下丘脑食欲素神经元作为稳定器提高清醒态能垒，其缺失（NT1）导致随机状态崩溃；老年KCNQ2↓→食欲素神经元过兴奋→睡眠碎片化（Li 2022 Science，flupirtine可逆转）。
+
+**核心知识点**：（1）VLPO-Gal光遗传（Kroeger 2018）：1-4Hz→NREM+60%，体温下降4-6°C；>8Hz→去极化阻滞→清醒；（2）VLPO-TMN互抑定量（Cheng 2020）：VLPO激活→NREM+56.4%；TMN激活→清醒+35%；H1阻断VLPO→觉醒效果-30.2%；（3）食欲素稳定器数学模型（Fulcher 2014 PLoS ONE）：有食欲素→两稳定态清晰；无食欲素→能垒下降→NT1样碎片化；（4）NT1：~70,000食欲素神经元自身免疫性毁损，HLA-DQB1*06:02，CSF orexin-A<110 pg/mL，猝倒=REM肌弛入侵清醒；（5）老年机制（Li 2022）：KCNQ2↓→M电流↓→食欲素神经元在睡眠期间误放电→碎片化；（6）药物逻辑：H1拮抗剂(→嗜睡)、OX2R拮抗剂suvorexant/lemborexant(FDA→失眠治疗)。
+
+**层级**：cellular / microcircuit / brain-region / whole-brain-network / behavior / disease
+
+**新建 wiki 页（1个）**：systems/flip-flop-switch-sleep-wake (rev1)
+**修订 wiki 页（1个）**：systems/ascending-arousal-system (rev1→rev2, VLPO-TMN光遗传证据+KCNQ2老年机制)
+
+**图谱**：320节点/1903边（新增narcolepsy节点；+6边）
+**新增未解问题（4个）**：Q-ff-01（VLPO充分vs必要，高）、Q-ff-02（NREM/清醒与REM/NREM触发器协调，中）、Q-ff-03（SCN→食欲素突触通路，高）、Q-ff-04（KCNQ2人类转化，中）

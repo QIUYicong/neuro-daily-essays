@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "node_count": 318,
   "edge_count": 1889,
   "edge_types": [
@@ -1964,11 +1964,11 @@
     {
       "id": "flip-flop-switch-sleep-wake",
       "title": "睡眠-清醒翻转开关",
-      "domain": "concepts",
+      "domain": "systems",
       "type": "mechanism",
       "status": "established",
       "confidence": "high",
-      "page": "wiki/concepts/flip-flop-switch-sleep-wake.md"
+      "page": "wiki/systems/flip-flop-switch-sleep-wake.md"
     },
     {
       "id": "active-inference",
@@ -2913,6 +2913,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/slow-wave-sleep.md"
+    },
+    {
+      "id": "narcolepsy",
+      "title": "发作性睡病",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/narcolepsy.md"
     }
   ],
   "edges": [
@@ -13543,6 +13552,36 @@
       "from": "sharp-wave-ripples",
       "to": "slow-wave-sleep",
       "type": "part-of"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "narcolepsy",
+      "type": "related"
+    },
+    {
+      "from": "orexin-hypocretin",
+      "to": "narcolepsy",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "adenosine",
+      "to": "flip-flop-switch-sleep-wake",
+      "type": "regulates"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "glymphatic-system",
+      "type": "supports"
+    },
+    {
+      "from": "circadian-clock",
+      "to": "flip-flop-switch-sleep-wake",
+      "type": "regulates"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "thalamic-reticular-nucleus",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

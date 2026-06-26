@@ -1,6 +1,39 @@
 # 未解问题追踪
 
-*最后更新：2026-10-11*
+*最后更新：2026-10-12*
+
+---
+
+## 2026-10-12 新增（来自"翻转的逻辑：大脑睡眠-清醒双稳触发器" 文章 #172）
+
+### Q-ff-01（高优先级）：VLPO是充分还是必要的睡眠启动者？
+
+- **关联 wiki**：[[flip-flop-switch-sleep-wake]]、[[ascending-arousal-system]]
+- **来源文章**：2026-10-12-flip-flop-switch-sleep-wake
+- **问题**：Arrigoni & Fuller 2022 引用的证据显示完全VLPO毁损动物仍有部分睡眠（代偿机制存在）。其他候选区域（中缝核前内侧、基底前脑胆碱能）对睡眠启动贡献如何？VLPO是整个睡眠控制网络的中心节点，还是众多必要节点之一？
+- **关键实验**：在VLPO特异性毁损的动物中，条件性再敲除其他睡眠促进区域，观察剩余睡眠是否完全消失
+- **当前证据状态**：VLPO对睡眠重要：高；VLPO是唯一必要节点：未确定（有代偿证据）
+
+### Q-ff-02（中优先级）：NREM/清醒触发器与REM/NREM触发器如何协调？
+
+- **关联 wiki**：[[flip-flop-switch-sleep-wake]]、[[rem-sleep]]、[[slow-wave-sleep]]
+- **来源文章**：2026-10-12-flip-flop-switch-sleep-wake
+- **问题**：Lu 2006 提出REM/NREM切换有独立的脑干触发器（sublaterodorsal nucleus vs ventrolateral periaqueductal gray）。NREM/清醒触发器（VLPO-AAS）和REM/NREM触发器如何协调？是否共享信号或共同受食欲素门控？
+- **当前证据状态**：两个触发器各自存在证据：中-高；协调机制：推测性（食欲素可能是共同稳定器）
+
+### Q-ff-03（高优先级）：SCN如何通过何种突触通路影响食欲素神经元的时相放电？
+
+- **关联 wiki**：[[flip-flop-switch-sleep-wake]]、[[orexin-hypocretin]]、[[circadian-clock]]、[[scn-circadian-pacemaker]]
+- **来源文章**：2026-10-12-flip-flop-switch-sleep-wake
+- **问题**：Fulcher 2014 模型预测了昼夜节律对食欲素的调制（C-process输入），但具体的SCN→食欲素突触通路尚不完全清楚。是直接SCN→LH投射？还是通过背内侧下丘脑（DMH）中继？NMS表达的DMH细胞是否是关键中介？
+- **当前证据状态**：食欲素昼夜节律受调制：高；具体突触通路：中（DMH假说有解剖证据但功能因果未完全确立）
+
+### Q-ff-04（中优先级）：老年KCNQ2下降的机制和治疗潜力（人类转化）
+
+- **关联 wiki**：[[flip-flop-switch-sleep-wake]]、[[orexin-hypocretin]]
+- **来源文章**：2026-10-12-flip-flop-switch-sleep-wake
+- **问题**：Li 2022（Science）在小鼠中证明了老年→KCNQ2↓→食欲素神经元过兴奋→睡眠碎片化→flupirtine可逆转。但(a)人类老年性睡眠碎片化是否有相同的分子机制（KCNQ2是否在人类老年食欲素神经元中也下降？）；(b) flupirtine因已知肝毒性和心脏风险已撤市，是否有安全替代的KCNQ2/3激动剂？(c)食欲素神经元数量和M电流状态是否可以在人类活体中无创测量？
+- **当前证据状态**：小鼠机制：高（Li 2022 Science）；人类转化：完全未测试
 
 ---
 

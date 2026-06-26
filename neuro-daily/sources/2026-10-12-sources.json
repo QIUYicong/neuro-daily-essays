@@ -1,0 +1,266 @@
+{
+  "date": "2026-10-12",
+  "article_slug": "2026-10-12-flip-flop-switch-sleep-wake",
+  "article_title": "翻转的逻辑：大脑睡眠-清醒"双稳触发器"与它的分子稳定器",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "30297727",
+      "pmcid": "PMC6175893",
+      "doi": "10.1038/s41467-018-06590-7",
+      "authors": "Kroeger D, Bandaru SS, Madara JC, Saper CB",
+      "title": "Galanin neurons in the ventrolateral preoptic area promote sleep and heat loss in mice",
+      "journal": "Nature Communications",
+      "year": 2018,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6175893/",
+      "key_findings": [
+        "VLPO-galanin neurons constitute ~85% of sleep-active neurons in VLPO",
+        "Low-frequency optogenetic stimulation (1-4 Hz) increases NREM sleep by >60%",
+        "High-frequency stimulation (>8 Hz) causes wakefulness via depolarization block",
+        "Chemogenetic activation induces profound hypothermia (4-6°C within ~2 hours)",
+        "VLPO-Gal neurons project to TMN, LC, LH, parabrachial, PPT"
+      ],
+      "evidence_type": "experimental_optogenetics_causal",
+      "species": "mouse",
+      "used_in_article_sections": ["机制一", "一个比喻"]
+    },
+    {
+      "id": "S2",
+      "pmid": "33381012",
+      "pmcid": "PMC7767984",
+      "doi": "10.3389/fnins.2020.615854",
+      "authors": "Cheng J, Wang L",
+      "title": "The Interaction Between the Ventrolateral Preoptic Nucleus and the Tuberomammillary Nucleus in Regulating the Sleep-Wakefulness Cycle",
+      "journal": "Frontiers in Neuroscience",
+      "year": 2020,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7767984/",
+      "key_findings": [
+        "VLPO L-glutamate injection → NREM +56.4%, wakefulness -21.6%",
+        "TMN L-glutamate injection → wakefulness +35%, sleep -35.2%",
+        "GABA-A blockade in TMN reverses VLPO-induced sleep",
+        "H1 receptor blockade in VLPO reduces TMN-induced wakefulness by 30.2%",
+        "Confirms VLPO→GABA→TMN and TMN→His(H1)→VLPO mutual inhibition circuit"
+      ],
+      "evidence_type": "experimental_pharmacological",
+      "species": "rat",
+      "used_in_article_sections": ["机制一"]
+    },
+    {
+      "id": "S3",
+      "pmid": "24760861",
+      "pmcid": "PMC3996219",
+      "doi": "10.1523/JNEUROSCI.3896-13.2014",
+      "authors": "Williams RH, Jensen LT, Verkhratsky A, Fugger L, Burdakov D, Scammell TE",
+      "title": "Optogenetic-mediated release of histamine reveals distal and autoregulatory mechanisms for controlling arousal",
+      "journal": "Journal of Neuroscience",
+      "year": 2014,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3996219/",
+      "key_findings": [
+        "Optogenetic TMN activation decreases inhibitory inputs to TMN (disinhibition)",
+        "Histamine suppresses VLPO via H1 receptors through interneurons (indirect)",
+        "H3 autoreceptors provide negative feedback on histamine release",
+        "Supports the flip-flop model with optogenetic causal evidence"
+      ],
+      "evidence_type": "experimental_optogenetics_causal",
+      "species": "mouse",
+      "used_in_article_sections": ["机制一"]
+    },
+    {
+      "id": "S4",
+      "pmid": "24651580",
+      "pmcid": "PMC3961294",
+      "doi": "10.1371/journal.pone.0093920",
+      "authors": "Fulcher BD, Phillips AJK, Postnova S, Robinson PA",
+      "title": "A physiologically based model of orexinergic stabilization of sleep and wake",
+      "journal": "PLoS ONE",
+      "year": 2014,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961294/",
+      "key_findings": [
+        "Orexin stabilizes wakefulness by raising the barrier against inadvertent sleep transitions",
+        "Without orexin: bistable region with low transition thresholds → narcolepsy-like fragmentation",
+        "Orexin also relays circadian input to monoaminergic nuclei",
+        "Model predicts preserved total sleep duration with orexin loss (consistent with NT1)"
+      ],
+      "evidence_type": "computational_model",
+      "species": "model",
+      "used_in_article_sections": ["机制二"]
+    },
+    {
+      "id": "S5",
+      "pmid": "35201886",
+      "pmcid": "PMC9107327",
+      "doi": "10.1126/science.abh3021",
+      "authors": "Li SB, Damonte VM, Chen C, Wang GX, Bhatt K, Bhatt D, et al. (de Lecea L)",
+      "title": "Hyperexcitable arousal circuits drive sleep instability during aging",
+      "journal": "Science",
+      "year": 2022,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9107327/",
+      "key_findings": [
+        "Aged mice: orexin neurons more frequently active during sleep (hyperexcitable)",
+        "Molecular mechanism: reduced KCNQ2 expression → impaired M-current → hyperexcitability",
+        "Kcnq2/3 knockout in young mice replicates aging sleep fragmentation phenotype",
+        "Flupirtine (KCNQ2/3 activator) restores sleep quality in aged mice",
+        "Age-related KCNQ2 downregulation linked to epigenetic changes"
+      ],
+      "evidence_type": "experimental_genetic_causal",
+      "species": "mouse",
+      "used_in_article_sections": ["新发现：老年性睡眠碎片化的分子机制"]
+    },
+    {
+      "id": "S6",
+      "pmid": "29928253",
+      "pmcid": "PMC5997825",
+      "doi": "10.3389/fneur.2018.00413",
+      "authors": "Tyree SM, Borniger JC, de Lecea L",
+      "title": "Hypocretin as a Hub for Arousal and Motivation",
+      "journal": "Frontiers in Neurology",
+      "year": 2018,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5997825/",
+      "key_findings": [
+        "Orexin integrates metabolic (glucose, leptin, ghrelin), stress (amygdala), and reward (NAc) signals",
+        "Projects to LC (NE), TMN (His), VTA (DA), DR (5-HT), PVN (stress)",
+        "Hunger→orexin→arousal pathway for food-seeking behavior",
+        "Stress-induced insomnia: amygdala→orexin→suppresses VLPO"
+      ],
+      "evidence_type": "review",
+      "used_in_article_sections": ["机制二"]
+    },
+    {
+      "id": "S7",
+      "pmid": "17299454",
+      "pmcid": null,
+      "doi": "10.1038/nrn2092",
+      "authors": "Sakurai T",
+      "title": "The neural circuit of orexin (hypocretin): maintaining sleep and wakefulness",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2007,
+      "full_text_available": false,
+      "full_text_source": "Abstract only (paywall)",
+      "key_findings_from_abstract": [
+        "Orexin regulates sleep-wake cycles through interactions with emotion, reward, and energy homeostasis systems",
+        "Implications for narcolepsy understanding"
+      ],
+      "evidence_type": "review",
+      "used_in_article_sections": ["机制二"]
+    },
+    {
+      "id": "S8",
+      "pmid": "31324898",
+      "pmcid": null,
+      "doi": "10.1038/s41582-019-0226-9",
+      "authors": "Bassetti CLA, Adamantidis A, Burdakov D, et al.",
+      "title": "Narcolepsy—clinical spectrum, aetiopathophysiology, diagnosis and treatment",
+      "journal": "Nature Reviews Neurology",
+      "year": 2019,
+      "full_text_available": false,
+      "full_text_source": "Abstract only (paywall)",
+      "key_findings_from_abstract": [
+        "Narcolepsy type 1: selective loss of ~70,000 orexin neurons in lateral hypothalamus",
+        "Diagnostic: CSF orexin-A < 110 pg/mL; HLA-DQB1*06:02 positive",
+        "Symptoms: EDS, cataplexy, hallucinations, sleep paralysis"
+      ],
+      "evidence_type": "clinical_review",
+      "used_in_article_sections": ["机制三"]
+    },
+    {
+      "id": "S9",
+      "pmid": "16254994",
+      "pmcid": null,
+      "doi": "10.1002/cne.20618",
+      "authors": "Saper CB, Cano G, Scammell TE",
+      "title": "Homeostatic, circadian, and emotional regulation of sleep",
+      "journal": "Journal of Comparative Neurology",
+      "year": 2005,
+      "full_text_available": false,
+      "full_text_source": "Abstract only (paywall)",
+      "key_findings_from_abstract": [
+        "VLPO inhibits arousal regions; reciprocally inhibited by them → flip-flop model",
+        "Orexin neurons stabilize sleep-wake transitions; narcolepsy results from their absence"
+      ],
+      "evidence_type": "review",
+      "used_in_article_sections": ["背景", "机制一"]
+    },
+    {
+      "id": "S10",
+      "pmid": "31761703",
+      "pmcid": null,
+      "doi": "10.1016/j.cub.2019.09.026",
+      "authors": "Venner A, Todd WD, Fraigne J, Bowman C, Bhatt D, Bhatt K, et al. (Fuller PM)",
+      "title": "An Inhibitory Lateral Hypothalamic-Preoptic Circuit Mediates Rapid Arousals from Sleep",
+      "journal": "Current Biology",
+      "year": 2019,
+      "full_text_available": false,
+      "full_text_source": "Abstract only (paywall)",
+      "key_findings_from_abstract": [
+        "LH GABAergic neurons → directly inhibit VLPO sleep-promoting neurons",
+        "Circuit receives input from stress and arousal-related brain regions",
+        "First demonstration that direct synaptic inhibition of VLPO suppresses sleep neurons",
+        "Mediates rapid arousals from sleep"
+      ],
+      "evidence_type": "experimental_optogenetics",
+      "species": "mouse",
+      "used_in_article_sections": ["新发现：老年性睡眠碎片化的分子机制"]
+    },
+    {
+      "id": "S11",
+      "pmid": "17440218",
+      "pmcid": null,
+      "doi": "10.1177/0748730407299584",
+      "authors": "Phillips AJK, Robinson PA",
+      "title": "A quantitative model of sleep-wake dynamics based on the physiology of the brainstem ascending arousal system",
+      "journal": "Journal of Biological Rhythms",
+      "year": 2007,
+      "full_text_available": false,
+      "full_text_source": "Abstract only (paywall)",
+      "key_findings_from_abstract": [
+        "Mathematical model shows flip-flop behavior from VLPO-MA mutual inhibition",
+        "Bistable regions in drive space with stable wake and sleep states",
+        "Narcolepsy simulation: reduced inhibition → increased state transitions"
+      ],
+      "evidence_type": "computational_model",
+      "used_in_article_sections": ["机制一（触发器的物理学）"]
+    },
+    {
+      "id": "S12",
+      "pmid": "34052813",
+      "pmcid": "PMC8171809",
+      "doi": "10.1159/000517413",
+      "authors": "Sun Y, Tisdale RK, Kilduff TS",
+      "title": "Hypocretin/Orexin Receptor Pharmacology and Sleep Phases",
+      "journal": "Frontiers of Neurology and Neuroscience",
+      "year": 2021,
+      "full_text_available": true,
+      "full_text_source": "PMC Open Access",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8171809/",
+      "key_findings": [
+        "OX1R (HCRTR1): motivation, reward, and autonomic functions",
+        "OX2R (HCRTR2): strongly linked to sleep-wake control",
+        "FDA-approved orexin receptor antagonists: suvorexant (2014), lemborexant (2019)"
+      ],
+      "evidence_type": "pharmacological_review",
+      "used_in_article_sections": ["机制三（治疗）"]
+    }
+  ],
+  "summary": {
+    "total_sources": 12,
+    "open_access_full_text": 7,
+    "abstract_only": 4,
+    "reviews": 5,
+    "original_research": 5,
+    "computational_models": 2,
+    "species_coverage": ["mouse", "rat", "human (clinical)", "model"],
+    "quality_note": "Strong causal evidence for VLPO-TMN mutual inhibition (optogenetics). Orexin-as-stabilizer supported by mathematical modeling and narcolepsy genetics/clinical data. Most direct experiments in rodents; human translation via clinical narcolepsy data."
+  }
+}

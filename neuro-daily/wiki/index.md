@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-11（第171篇·时长与时机：大脑在沉睡中如何精确分档今日与往昔）· 主题页总数：**314**（新建1页：concepts/slow-wave-sleep；修订2页：sharp-wave-ripples rev12、so-spindle-swr-coupling rev4；图谱319节点/1897边）
+> 最后更新：2026-10-12（第172篇·翻转的逻辑：大脑睡眠-清醒"双稳触发器"与它的分子稳定器）· 主题页总数：**315**（新建1页：systems/flip-flop-switch-sleep-wake；修订1页：systems/ascending-arousal-system rev2；图谱320节点/1903边）
 
 ---
 
@@ -200,7 +200,7 @@
 - 🟢 [情绪调节](concepts/emotion-regulation.md) — 五类策略（认知重评/注意部署/情绪压制/习惯化消退/内感觉重估）；vmPFC 为情绪调节枢纽的前额叶-杏仁核-脑干多层级控制回路；主动推断视角（精度权重调整）；认知重评 vs 情绪压制长期代价对比 **[NEW 2026-08-25]**
 - 🟢 [认知重评](concepts/cognitive-reappraisal.md) — 通过重解释事件含义改变情绪影响；vlPFC（语义重构）→vmPFC（情绪整合）→杏仁核（抑制）三层级回路；Steward 2021 DCM 量化 vmPFC→杏仁核负向有效连接；He 2023 TMS-fMRI 因果证明；重评 vs 压制（长期代价低）；有效性边界（感官驱动情绪效果有限） **[NEW 2026-08-25]**
 - 🟢 [REM睡眠](concepts/rem-sleep.md) — 去甲肾上腺素真空（LC沉默）+θ振荡+杏仁核-海马θ同步；情绪记忆去饱和化（SFSR假说）；Boyce 2016光遗传因果证明REM θ是情境记忆必需条件；van der Helm 2011人类fMRI证实REM降低杏仁核情绪反应 **[NEW 2026-05-31]**
-- 🟢 [睡眠-清醒翻转开关](concepts/flip-flop-switch-sleep-wake.md) — VLPO（GABA+甘丙肽）与AAS核团（LC/DRN/TMN/食欲素）的双稳互抑回路；解释睡眠-清醒为何是两个稳定极端态而非连续渐变；腺苷/PGD₂→VLPO激活→睡眠翻转；食欲素稳定清醒侧 **[NEW 2026-08-10]**
+- 🟢 [睡眠-清醒翻转开关](systems/flip-flop-switch-sleep-wake.md) — VLPO（GABA+甘丙肽）与AAS核团（LC/DRN/TMN/食欲素）的双稳互抑回路；解释睡眠-清醒为何是两个稳定极端态而非连续渐变；腺苷/PGD₂→VLPO激活→睡眠翻转；食欲素稳定清醒侧；Kroeger 2018光遗传定量证据；KCNQ2/老年碎片化机制（Li 2022 Science）**[升级至systems rev1 2026-10-12]**
 - 🟢 [食欲素（下丘脑泌素）与发作性睡病](concepts/orexin-hypocretin.md) — 外侧下丘脑8万神经元的"AAS总指挥"；缺失导致NT1（95%神经元丢失，HLA-DQB1*06:02）；OX2R激动剂danavorexton MWT改善11.1分（2024）；干细胞/基因治疗前景 **[NEW 2026-08-10]**
 - 🟡 [情绪记忆去饱和化](concepts/emotional-memory-depotentiation.md) — REM睡眠NE真空→θ相位驱动LA突触选择性LTD→情绪色彩弱化、事实内容保留；Walker SFSR假说的机制底层；PTSD可能是去饱和化失败 **[NEW 2026-05-31]**
 - 🔴 [Φ（整合信息度量）](concepts/phi-measure.md) — IIT 核心量；衡量系统最优分割时损失的因果信息量；NP-hard 计算；IIT 声称 Φ = 意识的量；COGITATE 2025 对相关机制预测构成挑战 **[NEW 2026-05-31]**
@@ -305,7 +305,7 @@
 - 🔵 [背外侧前额叶认知弹性](systems/dlpfc-cognitive-flexibility.md) — dlPFC 三重认知弹性机制：混合选择性（Rigotti 2013）高维编码支持任意规则组合；群体动力学（Mante 2013）正交子空间分离不同背景下的决策轨迹；振荡选通（Buschman 2012）beta激活/alpha抑制动态路由规则集群；BG门控（O'Reilly 2006）控制WM更新时机；前额叶前后轴层级（Badre 2009）；OCD认知僵化的系统级网络失调机制 **[NEW 2026-08-24]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
 - 🟢 [神经调质系统](systems/neuromodulator-systems.md) — 基底前脑ACh、蓝斑NE、中脑DA、中缝核5-HT四套弥散调质系统的总概述；编码"用什么模式处理信息"而非信息本身；Marder原则定位；AAS两通道架构与VTA枢纽（修订5次）**[NEW 2026-06-12]**
-- 🟢 [上行激活系统（AAS）](systems/ascending-arousal-system.md) — 脑干五核团（LC/DRN/PPT-LDT/TMN/Orexin）经腹侧基底前脑路（主要）+背侧丘脑路（次要）激活皮层；PB/PC谷氨酸通路是关键必要节点（Fuller 2011）；VTA=dAAN枢纽；翻转开关架构 **[NEW 2026-08-10]**
+- 🟢 [上行激活系统（AAS）](systems/ascending-arousal-system.md) — 脑干五核团（LC/DRN/PPT-LDT/TMN/Orexin）经腹侧基底前脑路（主要）+背侧丘脑路（次要）激活皮层；PB/PC谷氨酸通路是关键必要节点（Fuller 2011）；VTA=dAAN枢纽；翻转开关架构；**rev2新增**：VLPO-TMN光遗传定量证据（Kroeger 2018、Cheng 2020、Williams 2014）+老年KCNQ2机制（Li 2022）**[NEW 2026-08-10 · 修订 rev2 2026-10-12]**
 - 🟢 [血清素-缝际核系统](systems/serotonin-raphe-system.md) — 约20-30万DRN/MRN 5-HT神经元向全脑广播；体积传输为主；14种5-HT受体；5-HT1A自受体的双重负反馈机制是SSRI延迟起效的核心 **[NEW 2026-06-13]**
 - 🟢 [默认模式网络（DMN）](systems/default-mode-network.md) — 大脑内部模拟基础设施；Raichle 2001 发现"默认模式"；Fox 2005 DMN-TPN反相关；Andrews-Hanna 2011 双子系统（MTL子系统=情节记忆/场景构建；dMPFC子系统=心智化）；aMPFC+PCC枢纽节点；Buckner 2009 Aβ优先沉积枢纽节点；**rev5新增**：瀑布记忆系统（CMS）模型——DMN 作为 SWR 重播级联传播的信息高速公路（Kaefer et al. 2022，主连接梯度+近临界动力学）**[修订 rev4→rev5 2026-09-25]**
 - 🔵 [胶质淋巴系统](systems/glymphatic-system.md) — 大脑废物清洗网络：CSF 沿动脉旁间隙入流→星形胶质细胞终足 AQP4 穿越脑实质→静脉旁出流；蓝斑核 NE 振荡（~0.05 Hz）驱动血管慢性搏动为物理泵；NREM 深度睡眠期高效清除 Aβ 和 tau；AQP4 KO→70% 清除效率下降；衰老→三重削弱→AD 恶性循环；人类随机交叉试验直接验证（Dagum 2026）**[NEW 2026-07-06]**
