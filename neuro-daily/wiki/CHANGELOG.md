@@ -3891,3 +3891,22 @@
 - `camkii`：被 rebound-potentiation 引用为核心激酶，已有专页（wiki/neurons/camkii.md），边已在图谱中添加
 
 **图谱**：316节点/1870边 → **318节点/1885边**（+2节点：molecular-layer-interneuron、rebound-potentiation；+15边）
+
+---
+
+## 2026-10-10 · 文章 #170 · 意识的节流阀：丘脑网状核如何用抑制之手点亮意识之灯
+
+**修订页面（4个）**：
+
+- `wiki/circuits/thalamic-reticular-nucleus.md` rev1→rev2：新增"TRN亚网络"节（Li 2020 Spp1+/Ecel1+梯度）；"跨模态注意双向调制"节（Wimmer 2015，PFC依赖，光遗传因果）；"快速局部去唤醒"节（Lewis 2015，<20ms，122ms OFF，1s EMG降低）；关键证据表新增4行；opens_questions新增Q-trn-01、Q-trn-02；key_sources新增4个PMID
+- `wiki/concepts/mesocircuit-hypothesis.md` rev1→rev2：新增Fridman 2014 PNAS PET直接证据（c-TH↓+GP↑普遍于严重脑损伤，c-TH代谢与命令执行相关）；新增CT-DBS临床证据（Schiff 2007双盲单例、Arnts 2022 MEG、Bergeron 2025 IPDMA）；置信度medium→medium-high；opens_questions新增Q-mcs-dbs-04；related新增thalamic-reticular-nucleus；key_sources新增4个PMID
+- `wiki/systems/thalamus.md` rev8→rev9：TRN关键结构节新增visTRN跨模态调制/Spp1+Ecel1+亚网络/快速局部去唤醒三条；关键证据表新增3行；key_sources新增3个PMID
+- `wiki/diseases/disorders-of-consciousness.md` rev1→rev2：治疗窗口DBS条目扩展CT-DBS证据（Schiff 2007/Bergeron 2025）；关键证据表新增3行；opens_questions新增Q-mcs-dbs-04；key_sources新增4个PMID
+
+**新建页面（0个）**：无
+
+**矛盾登记（0个）**：无新矛盾
+
+**悬空引用（0个新增）**：无新悬空引用（thalamic-reticular-nucleus 和 mesocircuit-hypothesis 均已有专页）
+
+**图谱变化**：318节点/1885边 → **318节点/1889边**（+0节点，+4边：thalamic-reticular-nucleus↔mesocircuit-hypothesis双向边；disorders-of-consciousness→thalamic-reticular-nucleus边；disorders-of-consciousness→mesocircuit-hypothesis边强化）

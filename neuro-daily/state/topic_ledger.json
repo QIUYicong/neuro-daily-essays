@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-09",
-  "total_articles": 169,
+  "last_updated": "2026-10-10",
+  "total_articles": 170,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10487,6 +10487,36 @@
         "深部小脑核（DCN）可塑性作为 LTD/RP 的第三条代偿通道——Q-ltd-01 的另一候选",
         "PKC 信号通路专页——被 cerebellar-ltd、striatal-plasticity、STDP 等多页引用，值得独立建页",
         "内源性大麻素系统（endocannabinoid）专页——mGluR1→2-AG→CB1→DSE 通路在小脑 LTD 和 MLI 可塑性中均有提及"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "knowledge_base_date": "2026-10-10",
+      "system_clock_date": "2026-06-26",
+      "date_note": "系统时钟显示2026-06-26 UTC，使用知识库连续性日期2026-10-10（第170篇，接续MLI文章）",
+      "article_number": 170,
+      "title": "意识的节流阀：丘脑网状核如何用抑制之手点亮意识之灯",
+      "filename": "2026-10-10-thalamus-attention-consciousness-trn.md",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/circuits/thalamic-reticular-nucleus.md (rev1→rev2, 新增TRN亚网络/跨模态注意/快速局部去唤醒三节)",
+        "wiki/concepts/mesocircuit-hypothesis.md (rev1→rev2, 新增Fridman 2014 PET证据/CT-DBS临床证据/Q-mcs-dbs-04)",
+        "wiki/systems/thalamus.md (rev8→rev9, TRN小节扩展Wimmer2015/Li2020/Lewis2015)",
+        "wiki/diseases/disorders-of-consciousness.md (rev1→rev2, CT-DBS证据/Q-mcs-dbs-04)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "丘脑网状核（TRN）如何通过 PFC 驱动的 GABA 能选择性门控实现跨感觉通道注意力切换，以及中央丘脑（CL/CM-PF）在意识状态维持中的关键作用——从 TRN 亚网络组织（Spp1+/Ecel1+ 梯度）到前脑中间回路假说（GPi 脱抑制→中央丘脑过度抑制），理解觉醒从“选择性注意”到“意识存在”的神经回路全谱。",
+      "open_questions_added": [
+        "Q-trn-01（高优先级）：TRN 亚网络（Spp1+核心 vs Ecel1+外壳）在清醒注意任务中是否表现出差异化调制模式？目前 Li 2020 仅在麻醉状态验证，需要清醒动物体内记录",
+        "Q-trn-02（高优先级）：TRN→丘脑核的抑制是否严格通道特异（同一 TRN 神经元只投射一个核）还是存在跨通道收敛？这决定了 TRN 门控的空间精度",
+        "Q-trn-03（中优先级）：Lewis 2015 的快速局部去唤醒（TRN→皮层慢波）机制是否参与注意任务中的“暂时抑制无关感觉”？与注意抑制 vs 睡眠慢波的神经机制是否有重叠？",
+        "Q-mcs-dbs-04（高优先级）：CT-DBS 在 MCS 患者中的最优刺激频率（50 Hz vs 130 Hz）及患者选择标准——哪类损伤机制/哪种残余网络连接最可能响应？"
+      ],
+      "next_suggested_topics": [
+        "basal-ganglia 修订（GPi/GPe 在前脑中间回路中的关键阀门角色）",
+        "ascending-arousal-system 专页（脑干→中央丘脑上行激活系统，DoC 核心解剖通路）",
+        "睡眠纹锨波亓页修订（Spp1+/Ecel1+ TRN 亚网络控制纹锨波密度 vs 时长的差异，Li 2020 的临床意义）"
       ]
     }
   ]

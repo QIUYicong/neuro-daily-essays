@@ -937,5 +937,21 @@
     "confidence": "high",
     "last_changed": "2026-10-09",
     "reason": "RP 机制有多篇独立来源；转基因因果证据（VOR 适应受损）建立；NSFA 量子分析确认受体数量机制；篮状细胞特异性有直接验证"
+  },
+  {
+    "slug": "mesocircuit-hypothesis",
+    "page": "wiki/concepts/mesocircuit-hypothesis.md",
+    "current_status": "emerging",
+    "confidence": "medium-high",
+    "last_changed": "2026-10-10",
+    "reason": "rev2: 新增 Fridman 2014 PNAS PET直接证据（c-TH↓+GP↑是严重脑损伤普遍代谢模式；c-TH代谢与命令执行能力相关）；CT-DBS临床证据（Schiff 2007 Nature双盲单例；Bergeron 2025 IPDMA）；置信度从medium上调至medium-high"
+  },
+  {
+    "slug": "thalamic-reticular-nucleus",
+    "page": "wiki/circuits/thalamic-reticular-nucleus.md",
+    "current_status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-10",
+    "reason": "rev2: 新增TRN亚网络（Li 2020 Spp1+/Ecel1+转录组梯度，高质量Nature）；跨模态注意双向调制（Wimmer 2015 因果光遗传）；快速局部去唤醒（Lewis 2015 <20ms/122ms，因果）；TRN作为注意门控的核心机制已有多项高置信度证据"
   }
 ]

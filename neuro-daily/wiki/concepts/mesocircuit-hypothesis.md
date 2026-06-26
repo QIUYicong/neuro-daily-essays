@@ -4,16 +4,16 @@ slug: mesocircuit-hypothesis
 domain: concepts
 type: theory
 status: emerging
-confidence: medium
+confidence: medium-high
 created: 2026-08-09
-updated: 2026-08-09
-revision_count: 1
+updated: 2026-10-10
+revision_count: 2
 dimensions: [microcircuit, brain-region, whole-brain-network, disease]
-related: [disorders-of-consciousness, thalamus, basal-ganglia, cognitive-motor-dissociation, dopamine-reward-prediction-error]
+related: [disorders-of-consciousness, thalamus, basal-ganglia, cognitive-motor-dissociation, dopamine-reward-prediction-error, thalamic-reticular-nucleus]
 prerequisites: [thalamus, basal-ganglia, action-potential, synaptic-transmission]
-opens_questions: [Q-doc-02, Q-doc-03]
-source_articles: [2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening]
-key_sources: ["PMID:36563999", "PMID:36100228", "PMID:33318675"]
+opens_questions: [Q-doc-02, Q-doc-03, Q-mcs-dbs-04]
+source_articles: [2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening, 2026-10-10-thalamus-attention-consciousness-trn]
+key_sources: ["PMID:36563999", "PMID:36100228", "PMID:33318675", "PMID:24733913", "PMID:17671503", "PMID:35902627", "PMID:40680302"]
 ---
 
 # 前脑中间回路假说 (Mesocircuit Hypothesis)
@@ -86,7 +86,11 @@ PET成像验证（Frontiers Hum Neurosci 2014）：唑吡坦响应者服药后�
 | 唑吡坦优先结合GPi的GABA_A ω-1受体 | 受体结合药理学研究 | 综述 PMID:36100228 | 中（体外受体结合，未有DoC专项实验） |
 | 唑吡坦响应者前额叶代谢恢复（PET） | PET代谢成像（响应者 vs 非响应者） | Frontiers Hum Neurosci 2014 | 中（小样本） |
 | 金达胺素（多巴胺能增强）加速创伤性DoC恢复 | RCT Level B证据（AAN 2018） | PMID:36100228（PMCID:PMC11870089） | 高（双盲RCT） |
-| 中央外侧丘脑DBS改善MCS患者功能 | 单例+小样本系列（Schiff 2007, Thibaut 2023） | 非正式综述 | 低（缺乏RCT） |
+| 中央丘脑（c-TH）代谢降低 + 苍白球（GP）代谢升高（PET直接证据） | 32例严重脑损伤患者 vs 10例对照的PET多变量代谢分析 | PMID:24733913 (PMC4035959, OPEN) | 中-高（直接代谢影像证据，n=32） |
+| c-TH 代谢水平与能否执行指令显著相关 | 同上，MCS执行指令者 vs 无响应者比较 | PMID:24733913 (PMC4035959, OPEN) | 中-高（相关证据，非因果） |
+| 中央丘脑DBS在MCS患者行为改善（双盲交叉试验） | 6个月双盲交叉设计，单例 | PMID:17671503（摘要确认） | 中（单例RCT） |
+| 50Hz CT-DBS > 130Hz CT-DBS 对 MEG 功能连接改善 | 单例 MEG 功能连接分析，4.5min无伪影数据 | PMID:35902627 (PMC9334292, OPEN) | 低（单例） |
+| CT-DBS 对 MCS 患者有统计意义改善（荟萃分析） | 多中心个体数据荟萃分析（Bergeron 2025） | PMID:40680302（摘要确认） | 中（IPDMA，异质性高）|
 
 ## 局限性与争议
 
@@ -109,8 +113,10 @@ PET成像验证（Frontiers Hum Neurosci 2014）：唑吡坦响应者服药后�
 
 ## 修订历史
 
+- 2026-10-10 · 修订（rev2）· 基于《意识的节流阀》文章 #170 · 新增 Fridman 2014 PNAS 的直接 PET 代谢证据（c-TH↓+GP↑是严重脑损伤后的普遍代谢模式，c-TH 代谢与命令执行能力相关）；新增 CT-DBS 临床证据（Schiff 2007 双盲单例；Arnts 2022 MEG；Bergeron 2025 IPDMA）；置信度从 medium 上调至 medium-high；opens_questions 新增 Q-mcs-dbs-04；related 新增 thalamic-reticular-nucleus；key_sources 新增4个 PMID；source_articles 更新
 - 2026-08-09 · 创建 · 基于《意识的边界》文章 #108 · 初始置信度：中（理论框架获多项间接证据支持，直接验证有限）
 
 ## 来源文章
 
 - [[2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening]]
+- [[2026-10-10-thalamus-attention-consciousness-trn]]

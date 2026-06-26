@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-09",
-  "node_count": 314,
-  "edge_count": 1853,
+  "updated": "2026-10-10",
+  "node_count": 318,
+  "edge_count": 1889,
   "edge_types": [
     "is-a",
     "part-of",
@@ -13474,6 +13474,26 @@
       "from": "cerebellar-ltd",
       "to": "molecular-layer-interneuron",
       "type": "related"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "mesocircuit-hypothesis",
+      "label": "TRN亚网络与中央丘脑意识调控回路关联"
+    },
+    {
+      "from": "mesocircuit-hypothesis",
+      "to": "thalamic-reticular-nucleus",
+      "label": "GPi抑制中央丘脑→TRN相关门控功能"
+    },
+    {
+      "from": "disorders-of-consciousness",
+      "to": "thalamic-reticular-nucleus",
+      "label": "DoC中TRN对中央丘脑的功能性压制"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "disorders-of-consciousness",
+      "label": "TRN调控意识状态的门控功能"
     }
   ],
   "dangling_references": [

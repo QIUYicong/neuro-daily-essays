@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-15
-updated: 2026-09-15
-revision_count: 1
+updated: 2026-10-10
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition]
 related: [thalamus, thalamocortical-circuit, lateral-geniculate-nucleus, sleep-spindles, prefrontal-cortex, basal-ganglia, dorsal-attention-network, alpha-oscillations, beta-oscillations]
 prerequisites: [action-potential, synaptic-transmission, thalamus, thalamocortical-circuit]
-opens_questions: [Q-lgn-01, Q-lgn-03, Q-thalamus-gating-mechanism]
-source_articles: [2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate]
-key_sources: ["PMID:18849967", "PMID:31202541", "PMID:16837581", "PMID:29184210", "PMID:41702717"]
+opens_questions: [Q-lgn-01, Q-lgn-03, Q-thalamus-gating-mechanism, Q-trn-01, Q-trn-02]
+source_articles: [2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate, 2026-10-10-thalamus-attention-consciousness-trn]
+key_sources: ["PMID:18849967", "PMID:31202541", "PMID:16837581", "PMID:29184210", "PMID:41702717", "PMID:26503050", "PMID:32699411", "PMID:26460547", "PMID:25126786"]
 ---
 
 # 丘脑网状核 (Thalamic Reticular Nucleus, TRN)
@@ -83,6 +83,55 @@ PFC下达"优先注意视觉"指令
 
 见[[sleep-spindles]]专页。核心：TRN→TC的GABA超极化→TC CaV3.1去失活→TC反跳爆发→再激活TRN，形成10–14 Hz自持振荡。
 
+## TRN 亚网络：转录组分化（Li et al. 2020 新增）
+
+2020 年 Li et al.（Nature，PMID:32699411，PMC7394718）揭示 TRN 内部存在**转录组梯度**，而非均质结构：
+
+- **Spp1+（核心区，core）**：
+  - 投射至**一阶**丘脑核（LGN、MGN、VPM/VPL）
+  - 表达 T 型钙通道（Cacna1i），产生强烈丛发放电
+  - 调控**睡眠纺锤波密度**和 δ 振荡
+  - 是感觉入口的"粗筛门控"（通/断型）
+
+- **Ecel1+（外壳区，shell）**：
+  - 投射至**高阶**丘脑核（枕核、MD、LP 等）
+  - 丛发放电极少，倾向紧张模式
+  - 调控**睡眠纺锤波时长**
+  - 参与皮层间信号路由的精细调控
+
+**意义**：这一分化与丘脑的一阶/高阶架构完全对应——TRN 不是均质薄层，而是分级组织，可对不同丘脑通道实施选择性门控。
+
+## 跨模态注意中 TRN 的双向调制（Wimmer et al. 2015 新增）
+
+Wimmer et al.（Nature 2015，PMID:26503050，PMC4626291）在跨模态注意任务中（小鼠在视觉 vs 听觉之间按线索切换）：
+
+1. **visTRN 双向调制**：
+   - "注意听觉"时：visTRN 放电率**升高**（→ 更强抑制 LGN → 压制视觉通道）
+   - "注意视觉"时：visTRN 放电率**降低**（→ 减弱对 LGN 的抑制 → 增强视觉通道）
+   - 138 个 visTRN 神经元显著调制，p < 0.005
+
+2. **光遗传因果验证**：
+   - 激活 visTRN → 视觉探测阈值升高（视觉被主动压制）
+   - 抑制 visTRN → 听觉探测阈值升高（视觉增益过强占据资源）
+
+3. **PFC 依赖**：PFC 失活后 visTRN 注意调制消失——PFC 是 TRN 调制的上游命令者
+
+4. **氯离子光学测量**：直接证明"注意听觉"时 LGN 接受更强 GABAa 介导的抑制输入
+
+这一结果将"注意力聚光灯"从抽象概念落实为 PFC → visTRN → LGN 的物理抑制链。
+
+## TRN 的快速局部去唤醒（Lewis et al. 2015 新增）
+
+Lewis et al.（eLife 2015，PMID:26460547，PMC4686423）用光遗传激活 TRN：
+
+- **20 ms 内**：皮层尖峰放电率显著下降
+- **35 ms 内**：LFP 出现慢波成分
+- 低功率刺激时，慢波仅影响同侧体感皮层 ~45% 电极位点（**空间受限**）
+- 皮层神经元进入 OFF period（~122 ms 静默），类似睡眠
+- 行为上：EMG 1 秒内下降，非快速眼动睡眠时间增加
+
+**意义**：TRN 能在不睡着整个大脑的情况下，以 <35 ms 的时间精度将某个皮层区域局部置于睡眠样抑制。这是注意力转移时"忽视侧皮层局部去唤醒"的可能神经机制。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -92,6 +141,10 @@ PFC下达"优先注意视觉"指令
 | PFC→TRN为大型驱动型端钮（vs 感觉皮层的小型调制型） | 猕猴EM + 3D重建端钮大小 | PMID:16837581（PMC6674204） | 高（解剖直接证据） |
 | PFC→BG→TRN通路实现跨模态感觉抑制 | 鼠类光遗传学 + 行为辨别任务 | PMID:31202541 (PMC6886709) | 中（鼠类，灵长类有待验证） |
 | TRN CaV3.3是纺锤波起搏所必需 | CaV3.3 KO → 纺锤波消失 | PMID:30583750 | 高 |
+| visTRN 双向调制跨模态注意（小鼠） | 行为任务+电生理+光遗传因果（138神经元，p<0.005） | PMID:26503050 (PMC4626291) | 高（因果，但动物研究） |
+| TRN 激活诱导快速（<20ms）局部皮层慢波 | 光遗传+全皮层多电极+EMG | PMID:26460547 (PMC4686423) | 中-高（因果，动物） |
+| TRN 内存在 Spp1+/Ecel1+ 转录组梯度 | 单细胞 RNA 测序+形态+电生理 | PMID:32699411 (PMC7394718) | 高（小鼠，待灵长类验证） |
+| PFC→TRN 感觉/边缘亚网络分工双向调控注意 | 光遗传靶向刺激 TRN 亚群+行为 | PMID:25126786（摘要确认） | 中-高（Cell，小鼠）|
 
 ## 连接
 
@@ -105,13 +158,17 @@ PFC下达"优先注意视觉"指令
 
 ## 未解问题
 
-- Q-thalamus-gating-mechanism：清醒状态下皮层注意（dlPFC、顶叶）如何通过皮层-丘脑-TRN通路精确门控特定感觉丘脑核，实现感觉注意？（部分回答：McAlonan 2008提供了视觉系统的电生理证据，Nakajima 2019提供了跨模态抑制的因果证据）
+- Q-thalamus-gating-mechanism：清醒状态下皮层注意（dlPFC、顶叶）如何通过皮层-丘脑-TRN通路精确门控特定感觉丘脑核，实现感觉注意？（部分回答：McAlonan 2008提供了视觉系统的电生理证据，Nakajima 2019提供了跨模态抑制的因果证据；Wimmer 2015确认了跨模态注意任务中的双向调制）
 - Q-lgn-03：TRN的视觉/听觉/体感子区分化（在鼠类中已证明）在灵长类是否等价？灵长类TRN是否具有类似的模态特异性功能区？
+- Q-trn-01（高优先级）：TRN 的跨模态聚光灯能否同时在多个感觉通道设置不同"亮度"（并行），还是存在竞争性单一资源限制（串行）？Wimmer 2015 仅测试了视听二选一，并行注意的 TRN 机制未知。
+- Q-trn-02（高优先级）：Li 2020 的 Spp1+/Ecel1+ TRN 亚群分类基于麻醉状态的转录组，清醒注意任务中这两类亚群如何独立调制？PFC 是否通过不同通路差异性驱动它们？
 
 ## 修订历史
 
+- 2026-10-10 · 修订（rev2）· 基于《意识的节流阀》文章 #170 · 新增"TRN 亚网络"小节（Li 2020，Spp1+/Ecel1+ 转录组梯度）；新增"跨模态注意双向调制"小节（Wimmer 2015 完整证据链）；新增"快速局部去唤醒"小节（Lewis 2015，<20ms 空间受限慢波）；证据表新增4行；opens_questions 新增 Q-trn-01/Q-trn-02；key_sources 新增4个 PMID；source_articles 更新
 - 2026-09-15 · 创建 · 基于《守门人的守门人：外侧膝状体如何成为视觉注意的第一道主动关卡》文章 #145 · 整合TRN解剖（GABAergic外套层、功能分区）、注意门控机制（McAlonan时序证据、PFC驱动型端钮不对称）、跨模态抑制（Nakajima PFC→BG→TRN）、睡眠双重功能 · 初始置信度：高
 
 ## 来源文章
 
 - [[2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate]]
+- [[2026-10-10-thalamus-attention-consciousness-trn]]

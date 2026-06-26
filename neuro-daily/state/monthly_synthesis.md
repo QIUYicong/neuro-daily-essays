@@ -1834,3 +1834,23 @@
 **知识图谱变化**：新增节点 2（molecular-layer-interneuron、rebound-potentiation）；新增边 15；修订 3 个既有页面。
 
 **十月主题轨迹**：10 月系列持续深入小脑回路，从多功能概述（10/04）→ 髓鞘化可塑性（10/05）→ 缝隙连接同步（10/06）→ 下橄榄核节律（10/07）→ 小脑 LTD 分子级联（10/08）→ MLI 双路学习（10/09）。下一步：可考虑 IP₃ 受体专页（悬空引用高优先级）或 DCN 可塑性（Q-ltd-01 另一分支）。
+
+---
+
+### 2026-10-10（#170）：意识的节流阀——丘脑网状核如何用抑制之手点亮意识之灯
+
+**一句话**：丘脑网状核（TRN）是缠绕整个丘脑的 GABA 能薄层，既通过 PFC 驱动的跨感觉通道门控（Wimmer 2015）实现注意聚焦，又能以 <20ms 时间精度将局限区域的皮层置于睡眠样 OFF 状态（Lewis 2015）；TRN 内部具有 Spp1+/Ecel1+ 转录组梯度（Li 2020），分别对接一阶/高阶丘脑核；而中央丘脑（CL/CM-PF）在更宏观的意识维度上，通过前脑中间回路（GPi 脱抑制→中央丘脑过度抑制的可逆循环）解释了为何严重脑损伤后意识丧失是可被药物或 DBS 逆转的功能性阻断，而非不可逆神经死亡。
+
+**核心知识点**：（1）visTRN 双向跨模态调制（Wimmer 2015）：注意听觉时放电升高，注意视觉时放电降低，PFC 大型驱动型端钮是上游控制者，光遗传因果确认；（2）TRN 转录组梯度（Li 2020）：Spp1+核心神经元→一阶核（强丛发，控制纺锤波密度）vs Ecel1+外壳神经元→高阶核（弱丛发，控制纺锤波时长）；（3）TRN 快速局部去唤醒（Lewis 2015）：激活后 <20ms 皮层放电降低，35ms 出现慢波，OFF 期 ~122ms，空间受限约 45% 电极点，1s 内 EMG 下降；（4）前脑中间回路（Schiff 2009/2022）：弥漫性损伤→纹状体失驱动→GPi 脱抑制→中央丘脑过度抑制→皮层功能性去传入→循环自我维持；（5）Fridman 2014 PNAS PET证据：32例严重脑损伤患者普遍呈 c-TH↓+GP↑（反转正常模式），c-TH 代谢与命令执行能力相关；（6）CT-DBS临床证据：Schiff 2007 Nature 双盲单例（MCS 外伤后 6 年），DBS 开启期间认知行为频率提升；Bergeron 2025 IPDMA 多中心荟萃分析统计显著改善。
+
+**层级**：molecular / cellular / microcircuit / brain-region / whole-brain-network / cognition / disease
+
+**新建 wiki 页（0个）**：无（TRN 和 mesocircuit-hypothesis 页已存在，均为修订）
+**修订 wiki 页（4个）**：
+- circuits/thalamic-reticular-nucleus (rev1→rev2，TRN亚网络/跨模态注意/快速局部去唤醒三节)
+- concepts/mesocircuit-hypothesis (rev1→rev2，Fridman 2014 PET证据/CT-DBS临床证据/置信度上调)
+- systems/thalamus (rev8→rev9，TRN小节扩展Wimmer2015/Li2020/Lewis2015)
+- diseases/disorders-of-consciousness (rev1→rev2，CT-DBS证据/Q-mcs-dbs-04)
+
+**图谱**：318节点/1885边（无新节点，+4边：thalamic-reticular-nucleus↔thalamus新连接加固，mesocircuit-hypothesis↔thalamic-reticular-nucleus新增；disorders-of-consciousness↔thalamic-reticular-nucleus新增）
+**新增未解问题（4个）**：Q-trn-01（TRN亚网络清醒验证，高）、Q-trn-02（TRN投射拓扑单细胞级别，高）、Q-trn-03（快速去唤醒 vs 注意抑制机制共享，中）、Q-mcs-dbs-04（CT-DBS最优参数与患者选择，高）

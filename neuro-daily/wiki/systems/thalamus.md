@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-09-15
-revision_count: 8
+updated: 2026-10-10
+revision_count: 9
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, cognition, disease]
 related: [thalamocortical-circuit, thalamic-firing-modes, sleep-spindles, working-memory, prefrontal-cortex, v1-primary-visual-cortex, neural-correlates-of-consciousness, gain-control, dorsal-attention-network, alpha-oscillations, auditory-cortex, pain-matrix, nociceptor, disorders-of-consciousness, mesocircuit-hypothesis, lateral-geniculate-nucleus, thalamic-reticular-nucleus, beta-oscillations, basal-ganglia]
 prerequisites: [action-potential, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-thalamus-burst-awake, Q-thalamus-consciousness-causal, Q-matrix-vs-core-function, Q-thalamus-gating-mechanism, Q-dan-01, Q-doc-03]
-source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm, 2026-07-28-auditory-cortex-tonotopy, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening, 2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate]
-key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202", "PMID:19837031", "PMID:36563999", "PMID:33318675", "PMID:18849967", "PMID:31202541", "PMID:41005988", "PMID:41702717"]
+source_articles: [2026-06-03-thalamus-gatekeeper-cognition, 2026-07-01-dorsal-attention-network-FEF-IPS, 2026-07-22-alpha-oscillations-attention-wm, 2026-07-28-auditory-cortex-tonotopy, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening, 2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate, 2026-10-10-thalamus-attention-consciousness-trn]
+key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455", "PMID:40642212", "PMID:26776512", "PMID:11164943", "PMID:11994752", "PMID:31972202", "PMID:19837031", "PMID:36563999", "PMID:33318675", "PMID:18849967", "PMID:31202541", "PMID:41005988", "PMID:41702717", "PMID:26503050", "PMID:32699411", "PMID:26460547"]
 ---
 
 # 视丘 (Thalamus)
@@ -43,6 +43,9 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - 纯 GABAergic，包裹视丘表面；高度表达 CaV3.3
 - 功能三重：（1）注意门控；（2）NREM 睡眠纺锤波起搏器；（3）感觉状态切换
 - PFC→TRN 大型端钮（驱动型），感觉皮层→TRN 小型端钮（调制型）
+- **跨模态注意双向调制（Wimmer 2015, PMID:26503050）**：visTRN 在注意听觉时放电升高、注意视觉时放电降低；PFC 失活→调制消失；光遗传因果确认（激活 visTRN→视觉探测下降，抑制 visTRN→听觉探测下降）
+- **TRN 亚网络（Li 2020, PMID:32699411）**：转录组梯度——Spp1+核心（投射一阶核，强丛发，控制纺锤波密度）vs Ecel1+外壳（投射高阶核，弱丛发，控制纺锤波时长）；详见 [[thalamic-reticular-nucleus]]
+- **快速局部去唤醒（Lewis 2015, PMID:26460547）**：TRN 激活后 20 ms 内皮层放电下降，35 ms 内出现慢波，OFF 期约 122 ms；1s 内 EMG 下降；空间受限于刺激侧约 45% 皮层区域
 
 ### 3. 一次视丘核（First-Order Nuclei）
 - LGN（外侧膝状体，视觉）；VPM（腹后内核，触觉/本体）；MGN（内侧膝状体，听觉）
@@ -115,6 +118,9 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 | PFC→BG→TRN实现跨模态感觉抑制 | 鼠类光遗传学 + 行为 | PMID:31202541（PMC6886709）| 中（鼠类）|
 | LGN注意调制仅约1%放电率（挑战McAlonan结论） | 猕猴电生理 | PMID:41005988（PMC12469006）| 中（争议，见C-2026-09-15-01）|
 | LGN-V1β振荡在注意时被抑制 | 猕猴LGN/V1同时记录 | PMID:41702717（PMC13000994）| 中（2026新发现）|
+| visTRN 跨模态注意双向调制，PFC依赖 | 小鼠跨模态任务+光遗传+电生理（n=138神经元） | PMID:26503050（PMC4626291）| 高（因果） |
+| TRN转录组梯度：Spp1+核心 vs Ecel1+外壳 | 小鼠单细胞RNA测序+轴突追踪+电生理 | PMID:32699411（PMC7394718）| 中-高 |
+| TRN激活后20ms内皮层慢波，空间受限（约45%电极点） | 小鼠光遗传+全皮层多电极 | PMID:26460547（PMC4686423）| 中-高（因果） |
 
 ## 连接
 
@@ -146,6 +152,7 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 
 ## 修订历史
 
+- 2026-10-10 · 修订（rev9）· 基于文章 #170《意识的节流阀》· "TRN"小节新增三条：visTRN 跨模态注意双向调制（Wimmer 2015, PFC依赖，光遗传因果）；TRN 转录组梯度 Spp1+/Ecel1+ 亚网络（Li 2020）；TRN 快速局部去唤醒（Lewis 2015，<20ms/122ms OFF/1s EMG降低）；"关键证据"表新增3行；key_sources新增 PMID:26503050、32699411、26460547；source_articles新增2026-10-10文章
 - 2026-09-15 · 修订（rev8）· 基于文章 #145《守门人的守门人》· 新增"LGN注意门控"小节（TRN-LGN机制、时序证据、β振荡新机制、效应量争议）；"关键证据"表新增6行（McAlonan/BG-TRN/Alitto2025/Alitto2026）；连接节新增4条（lateral-geniculate-nucleus, thalamic-reticular-nucleus, beta-oscillations, basal-ganglia）；related、key_sources、source_articles更新；登记C-2026-09-15-01矛盾；opens_questions新增Q-lgn-01–04
 - 2026-06-03 · 创建 · 基于《视丘的三张面孔》文章 #66 · 整合 TC/TRN 解剖学、双模放电机制、MD-PFC 认知放大、Pulvinar 视觉门控和 CM-Pf 与意识的多层证据 · 初始置信度：高
 - 2026-06-30 · 修订（rev2） · 基于文章 #66《视丘的双面人格》· 更新"双模放电"小节：加入 Borden 2022 清醒因果实验结果（爆发→时序精度↑非幅度↑）和 Whitmire 2016 爆发-强直连续谱；更新 Q-thalamus-burst-awake 状态为"部分回答"；新增 key_sources 2 条
@@ -165,3 +172,5 @@ key_sources: ["PMID:35803270", "PMID:29275841", "PMID:29184210", "PMID:22561455"
 - [[2026-07-28-auditory-cortex-tonotopy]]
 - [[2026-08-02-pain-nociception-spinal-dorsal-horn-acc]]
 - [[2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening]]
+- [[2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate]]
+- [[2026-10-10-thalamus-attention-consciousness-trn]]

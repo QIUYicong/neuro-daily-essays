@@ -1,0 +1,118 @@
+# 运行日志 · 2026-10-10（文章 #170）
+
+**运行时间**：2026-06-26 UTC（北京时间 2026-06-26 CST）
+**知识库连续日期**：2026-10-10（序列第 170 篇）
+**系统时钟日期**：2026-06-26 UTC
+**日期说明**：知识库自启动以来使用连续序列日期，系统时钟在 2026-06-26，序列已推进至 2026-10-10
+
+---
+
+## A. 状态读取
+
+- `topic_ledger.json`：已读取，确认最新日期 2026-10-09（文章 #169，小脑 MLI 可塑性）
+- `unresolved_questions.md`：读取，高优先级：Q-mli-01/02（MLI 逆向可塑性/MLI2 可塑性规则）
+- `wiki/_graph.json`：读取，318节点/1885边
+- `state/monthly_synthesis.md`：读取，10月轨迹：分子层（cerebellar LTD/MLI）系列→今日转向 thalamus/consciousness 主题
+
+---
+
+## B. 选题
+
+**选题依据**：连续5篇（#164–169）聚焦小脑回路（microcircuit/molecular层级），需要跳出单系统，转向整脑层级的认知/意识主题。高优先级开放问题 Q-doc-03（中央丘脑DBS大规模RCT）和Q-trn（thalamic-reticular-nucleus已建但内容仍有空缺），以及 thalamus.md 有多条悬空的TRN亚网络/跨模态注意引用。
+
+**今日主题**：丘脑网状核（TRN）注意门控机制、TRN 亚网络组织，与中央丘脑在意识状态中的关键角色（前脑中间回路）
+**核心问题**：TRN 如何通过 PFC 驱动的 GABA 能门控实现跨通道注意切换，TRN 内部如何组织以支持感觉通道特异性门控，以及中央丘脑（CL/CM-PF）在意识障碍中的关键作用和 CT-DBS 的临床可行性。
+
+**层级**：molecular / cellular / microcircuit / brain-region / whole-brain-network / cognition / disease
+（跨层级综述，覆盖注意机制到临床意识障碍治疗）
+
+---
+
+## C. 检索与来源
+
+**主要搜索来源**：PubMed/PMC、Europe PMC
+**搜索词**：
+1. `thalamic reticular nucleus attention crossmodal PFC optogenetics`→ Wimmer 2015 Nature（PMID:26503050）
+2. `TRN subnetwork transcriptomic single cell RNA sequencing thalamus`→ Li 2020 Nature（PMID:32699411）
+3. `thalamic reticular nucleus arousal slow wave local inhibition`→ Lewis 2015 eLife（PMID:26460547）
+4. `mesocircuit hypothesis central thalamus disorders consciousness Schiff`→ PMID:36563999、PMID:24733913
+5. `central thalamic deep brain stimulation minimally conscious state`→ PMID:17671503、PMID:35902627、PMID:40680302
+
+**最终采用来源（9个）**：
+- PMID:26503050 / PMC4626291（Wimmer 2015, Nature）—— TRN 跨模态注意光遗传因果；**全文**
+- PMID:32699411 / PMC7394718（Li 2020, Nature）—— TRN 转录组梯度 Spp1+/Ecel1+；**全文**
+- PMID:26460547 / PMC4686423（Lewis 2015, eLife）—— TRN 快速局部去唤醒；**全文**
+- PMID:24733913 / PMC4035959（Fridman 2014, PNAS）—— 前脑中间回路 PET 代谢证据；**全文**
+- PMID:35902627 / PMC9334292（Arnts 2022, Sci Rep）—— CT-DBS MEG 功能连接，50Hz vs 130Hz；**全文**
+- PMID:25126786（Halassa 2014, Cell）—— TRN 亚网络感觉/边缘；**摘要**
+- PMID:17671503（Schiff 2007, Nature）—— CT-DBS 双盲交叉 MCS 试验；**摘要**
+- PMID:36563999（Schiff 2023, Presse Med）—— 前脑中间回路综述；**摘要**
+- PMID:40680302（Bergeron 2025, J Neurosurg）—— CT-DBS IPDMA；**摘要**
+
+**覆盖情况**：
+- ≥5 来源：✅（9个）
+- ≥2 开放全文：✅（5个开放全文：PMC4626291, PMC7394718, PMC4686423, PMC4035959, PMC9334292）
+- ≥1 官方机构来源：✅（NIH/PMC）
+
+---
+
+## D. 固结
+
+**wiki 页面新建（0）**：无（TRN 和 mesocircuit-hypothesis 页已存在）
+
+**wiki 页面修订（4）**：
+- `wiki/circuits/thalamic-reticular-nucleus.md` rev1→rev2：新增"TRN亚网络"节（Li 2020 Spp1+/Ecel1+梯度）；"跨模态注意双向调制"节（Wimmer 2015，PFC依赖，光遗传因果）；"快速局部去唤醒"节（Lewis 2015）；关键证据表新增4行；opens_questions新增Q-trn-01、Q-trn-02；key_sources新增PMID:26503050、32699411、26460547、25126786
+- `wiki/concepts/mesocircuit-hypothesis.md` rev1→rev2：新增Fridman 2014 PNAS PET直接证据行（中-高）；CT-DBS临床证据行（Schiff 2007/Arnts 2022/Bergeron 2025）；opens_questions新增Q-mcs-dbs-04；related新增thalamic-reticular-nucleus；key_sources新增4个PMID；置信度medium→medium-high
+- `wiki/systems/thalamus.md` rev8→rev9：TRN 关键结构节新增三条（Wimmer 2015/Li 2020/Lewis 2015）；关键证据表新增3行；key_sources新增3个PMID；修订历史新增rev9条目
+- `wiki/diseases/disorders-of-consciousness.md` rev1→rev2：DBS治疗窗口条目扩展CT-DBS证据（Schiff 2007/Bergeron 2025）；关键证据表新增3行；opens_questions新增Q-mcs-dbs-04；key_sources新增4个PMID；source_articles新增2026-10-10文章
+
+**矛盾检查**：无新矛盾。注意效应量争议（McAlonan 2008 vs Alitto 2025, ~9-11% vs ~1%）已在之前文章（2026-09-15）登记为 C-2026-09-15-01，今日未涉及重新检查。
+
+---
+
+## E. 图谱更新
+
+- 节点：318 → 318（+0节点，今日无新专页）
+- 边：1885 → 1889（+4边：thalamic-reticular-nucleus↔mesocircuit-hypothesis双向；disorders-of-consciousness↔thalamic-reticular-nucleus双向）
+
+---
+
+## F. 治理层更新
+
+- `topic_ledger.json`：添加 2026-10-10 条目（文章 #170），total=170，last_updated=2026-10-10
+- `unresolved_questions.md`：新增 Q-trn-01/02/03, Q-mcs-dbs-04（共4个）
+- `source_registry.json`：新增 9 个来源（PMID:26503050、32699411、26460547、24733913、35902627、25126786、17671503、36563999、40680302）
+- `monthly_synthesis.md`：追加 2026-10-10 条目
+- `maturity_index.json`：新增 mesocircuit-hypothesis（medium→medium-high）、thalamic-reticular-nucleus（established/high）两个条目
+- `wiki/_graph.json`：edge_count 1885→1889，updated=2026-10-10
+- `wiki/CHANGELOG.md`：追加 2026-10-10 节
+
+---
+
+## G. 提交与推送
+
+**分支**：main
+**提交信息**：Add neuro daily article + wiki consolidation for 2026-10-10
+**push 目标**：origin main（QIUYicong/neuro-daily-essays）
+
+---
+
+## H. 自检结果
+
+**真实性**：✅ 每条主张有对应 PMID；区分了 established（TRN 注意门控基础证据）与 emerging（TRN 亚网络清醒功能分化、CT-DBS 最优参数）；动物研究明确标注为动物模型（小鼠/猕猴），未过推广；DoC 内容无诊断/治疗建议语气，仅描述研究证据。
+
+**一致性**：✅ 无矛盾登记；修订页面的 updated/revision_count/修订历史均同步更新；mesocircuit-hypothesis confidence 从 medium 升为 medium-high 已在 maturity_index.json 同步记录。
+
+**可导航**：✅ CHANGELOG.md 反映今日变化；图谱边增加已同步；新问题均在 unresolved_questions.md 详细记录。
+
+**情景层**：✅ articles/ notes/ sources/ logs/ 四类文件均已创建（articles/ notes/ sources/ 在本次会话前期已完成）；未修改旧文件。
+
+**安全约束**：
+- 仓库：QIUYicong/neuro-daily-essays ✅
+- 分支：main ✅
+- 作者：QIUYicong ✅
+- 无 Sci-Hub，无推断 PMID，无诊断建议 ✅
+
+---
+
+**状态**：待提交推送

@@ -6,14 +6,14 @@ type: disease
 status: mainstream
 confidence: high
 created: 2026-08-09
-updated: 2026-08-09
-revision_count: 1
+updated: 2026-10-10
+revision_count: 2
 dimensions: [whole-brain-network, brain-region, cognition, disease, methods]
 related: [neural-correlates-of-consciousness, mesocircuit-hypothesis, cognitive-motor-dissociation, thalamus, global-workspace-theory, perturbational-complexity-index, default-mode-network, basal-ganglia]
 prerequisites: [thalamus, neural-correlates-of-consciousness, ascending-arousal-system]
-opens_questions: [Q-doc-01, Q-doc-02, Q-doc-03]
-source_articles: [2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening]
-key_sources: ["PMID:37993185", "PMID:39141852", "PMID:38217619", "PMID:33318675", "PMID:36563999"]
+opens_questions: [Q-doc-01, Q-doc-02, Q-doc-03, Q-mcs-dbs-04]
+source_articles: [2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening, 2026-10-10-thalamus-attention-consciousness-trn]
+key_sources: ["PMID:37993185", "PMID:39141852", "PMID:38217619", "PMID:33318675", "PMID:36563999", "PMID:24733913", "PMID:17671503", "PMID:35902627", "PMID:40680302"]
 ---
 
 # 意识障碍 (Disorders of Consciousness, DoC)
@@ -67,13 +67,16 @@ DoC的分类框架（Golden et al., 2023, PMID:37993185）：
 | 左额顶后向连接是意识状态最强EEG预测因子 | DCM分析静息态EEG（n=34） | PMID:38968195（PLoS One 2024） | 中 |
 | FPN+DMN连接模式达82.7%意识状态分类准确率 | 静息态fMRI图论分析 | PMID:27958328（Sci Rep 2016） | 中 |
 | 脑干被盖+丘脑板内核损伤是持久DoC关键解剖位点 | 综述/扩散张量成像 | PMID:33318675（NRN 2021，摘要） | 高 |
+| 严重脑损伤普遍模式：中央丘脑代谢↓+苍白球代谢↑（反转正常模式） | 32例严重脑损伤患者vs对照PET代谢分析 | PMID:24733913（PMC4035959，开放） | 中-高 |
+| CT-DBS（双盲交叉）增加MCS患者认知行为频率（外伤后6年） | 双盲交叉单例试验 | PMID:17671503（Nature 2007） | 中（单例RCT） |
+| CT-DBS对MCS患者有统计意义改善（荟萃分析） | 多中心个体数据荟萃分析 | PMID:40680302（J Neurosurg 2025） | 中-高（IPDMA） |
 
 ## 治疗窗口
 
 - **金达胺素（Amantadine）**：Level B推荐（AAN 2018），创伤性DoC 4-16周窗口期，加速功能恢复（多巴胺机制→纹状体→GPi→中央丘脑）
 - **唑吡坦（Zolpidem）**：5-7%患者有悖论性觉醒响应（GPi优先结合→解除中央丘脑抑制），PET证实前额叶代谢恢复
 - **rTMS**：左DLPFC重复刺激，PCIst作为治疗响应生物标志物（PMID:39300529，RCT 2024）
-- **深部脑刺激（DBS）**：中央外侧丘脑靶点，小规模试验有希望，缺乏大规模RCT
+- **深部脑刺激（DBS）**：中央外侧丘脑/CM-PF靶点（CT-DBS）；Schiff 2007 Nature（PMID:17671503）双盲交叉试验（n=1 MCS，外伤6年后）：DBS开启期间认知行为频率显著提升；Bergeron 2025 J Neurosurg（PMID:40680302）IPDMA荟萃分析：CT-DBS对MCS患者有统计学意义改善；尚无足够大规模RCT
 
 ## 连接
 
@@ -90,11 +93,14 @@ DoC的分类框架（Golden et al., 2023, PMID:37993185）：
 - Q-doc-01：CMD在急性ICU期的检出率如何？早期检测的预后价值？
 - Q-doc-02：TBI vs 缺氧性损伤中，前脑中间回路受损程度是否有系统性差异？
 - Q-doc-03：中央外侧丘脑DBS的大规模RCT结果如何？
+- Q-mcs-dbs-04：CT-DBS 在 MCS 患者中的最优刺激频率（50 Hz vs 130 Hz）及患者选择标准（哪类损伤机制/哪种残余网络连接最可能响应）？
 
 ## 修订历史
 
+- 2026-10-10 · 修订（rev2）· 基于《意识的节流阀》文章 #170 · 补充CT-DBS临床证据（Schiff 2007 Nature双盲单例；Bergeron 2025 IPDMA）；新增Fridman 2014 PNAS代谢PET证据行；DBS治疗窗口描述扩展；opens_questions新增Q-mcs-dbs-04；key_sources新增4个PMID；source_articles更新
 - 2026-08-09 · 创建 · 基于《意识的边界》文章 #108 · 初始置信度：高（基于多篇高质量原始研究和综述）
 
 ## 来源文章
 
 - [[2026-08-09-doc-disorders-of-consciousness-thalamocortical-awakening]]
+- [[2026-10-10-thalamus-attention-consciousness-trn]]
