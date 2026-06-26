@@ -6,10 +6,10 @@ type: region
 status: established
 confidence: high
 created: 2026-06-20
-updated: 2026-09-05
-revision_count: 6
+updated: 2026-10-01
+revision_count: 7
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, phrase-structure-building, llm-brain-alignment, anterior-temporal-lobe, semantic-memory]
+related: [broca-area, arcuate-fasciculus, dorsal-language-stream, ventral-language-stream, working-memory, predictive-coding, default-mode-network, prefrontal-cortex, mirror-neurons, motor-cortex, embodied-semantics, phrase-structure-building, llm-brain-alignment, anterior-temporal-lobe, semantic-memory, semantic-cortical-map]
 prerequisites: [action-potential, synaptic-transmission, working-memory]
 opens_questions: [Q-lang-01, Q-lang-02, Q-lang-03, Q-lang-06]
 source_articles: [2026-06-20-language-dual-stream, 2026-06-02-embodied-semantics, 2026-08-07-brocas-area-syntax-merge-language-evolution, 2026-09-05-anterior-temporal-lobe-semantic-hub]
@@ -78,12 +78,23 @@ Broca区内部进一步分化：BA44（pars opercularis）是句法层级运算�
 - Q-lang-02：右半球在语言中的确切角色（语用、隐喻、韵律）
 - Q-lang-03：语法与语义的神经解离能否成立，还是共用"层级计算"机制？
 
+## 语义地图与双侧性的修正（2026-10-01 新增）
+
+Huth 等人系列研究（2012/2016）对语言网络的语义侧提供了重要修正：
+
+**语义内容双侧分布**：Huth 2016（PMID:27121839）自然叙事 fMRI 发现，语义地图的 140 个区域双侧对称（77左/63右），这说明**语义内容的表征不是左脑主导的**。需要精确区分：句法（BA44）和发音控制（背侧流）是左侧化的，但语义内容的存储是双侧的。这与临床右半球损伤影响比喻、叙事和语用理解的观察一致。
+
+**语义地形分布**：腹侧流的"声音→意义"通路中，不同语义领域有不同的皮层地形：社会/情绪→内侧顶叶（DMN区）；感知/身体→腹侧颞叶（与 IT 皮层邻近）；抽象/认知→广泛前额叶参与。这在 ATL 枢纽之外，为各语义子类提供了精细的皮层坐标系。
+
+**非侵入性语义解码（Tang 2023，PMID:37127759）**：用 GPT-1 对齐 fMRI 语义空间，成功从非侵入性 fMRI 重建连续语义内容，证明语言网络的语义表征足够稳定可被解码。LLM 语义空间与人类语言网络语义结构的对应（约 1 亿词训练量达最大对齐，见 Hosseini 2024）表明，语言网络学到的语义表征在抽象层面与 LLM 相似，但大脑语义额外整合了情感、具身和情景成分。详见 [[semantic-cortical-map]]。
+
 ## 修订历史
 
 - 2026-06-20 · 创建 · 基于《语言的解剖：双流网络如何将声波解码为思想》· 初始置信度：高
 - 2026-06-21 · 修订 · 新增镜像神经元（F5/BA44同源）与运动皮层的连接，补充语言演化的动作理解背景 · 依据《从意图到动作》（#57）
 - 2026-08-07 · 修订 · 新增Fedorenko 2024 NRN"自然种"框架（语言网络有跨个体一致拓扑、5年个体内稳定性、与MD网络分离）；新增Hu 2022精准fMRI产出证据（语言网络产出和理解共用同一套表征，无产出特异区域）；新增Pasquiou 2023信息限制模型（左半球句法/语义空间分离高于右半球）；新增Hosseini 2024 LLM-大脑对齐（1亿词训练达最大预测力）；新增Hiersche 2024发育分离（3–9岁儿童语言网络与MD网络功能分离）；更新related页（phrase-structure-building, llm-brain-alignment）
 - 2026-09-05 · 修订 · 新增语义层：双侧颞叶前部（ATL）是腹侧流"声音→意义"通路的语义核心节点（Pobric 2010, TMS因果证据；Huth 2016全皮层语义地图）；新增hub-and-spoke模型对语言网络腹侧流的意义：ATL是语义枢纽，而LIFG/BA45是语义控制节点；更新related（anterior-temporal-lobe, semantic-memory）；基于文章#135
+- 2026-10-01 · 修订 rev7 · 基于《概念的地理学》（文章#161）· 新增"语义地图与双侧性的修正"小节（Huth 2016双侧语义地图，Tang 2023解码器，LLM对齐说明）；related新增semantic-cortical-map；source_articles新增2026-10-01
 
 ## 来源文章
 

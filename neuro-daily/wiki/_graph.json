@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-09-30",
-  "node_count": 307,
-  "edge_count": 1820,
+  "updated": "2026-10-01",
+  "node_count": 308,
+  "edge_count": 1822,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2805,6 +2805,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/eligibility-trace.md"
+    },
+    {
+      "id": "semantic-cortical-map",
+      "title": "皮层语义地图",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/semantic-cortical-map.md"
     }
   ],
   "edges": [
@@ -12996,6 +13005,60 @@
       "to": "eligibility-trace",
       "type": "related",
       "note": "AC1/AC8机制是D1-MSN时序信用分配的分钟级解法（推论）"
+    },
+    {
+      "from": "semantic-cortical-map",
+      "to": "semantic-memory",
+      "type": "related",
+      "note": "皮层语义地图是semantic-memory hub-and-spoke模型的拓扑展开"
+    },
+    {
+      "from": "semantic-cortical-map",
+      "to": "language-network",
+      "type": "mechanism-of",
+      "note": "语义地图是语言腹侧流意义存储的神经基底"
+    },
+    {
+      "from": "semantic-cortical-map",
+      "to": "default-mode-network",
+      "type": "related",
+      "note": "社会/情绪语义集中在DMN节点"
+    },
+    {
+      "from": "semantic-cortical-map",
+      "to": "embodied-semantics",
+      "type": "supports",
+      "note": "感知/动作概念分布支持具身语义论"
+    },
+    {
+      "from": "semantic-cortical-map",
+      "to": "anterior-temporal-lobe",
+      "type": "related",
+      "note": "ATL枢纽对应语义地图的跨模态整合节点"
+    },
+    {
+      "from": "semantic-cortical-map",
+      "to": "broca-area",
+      "type": "related",
+      "note": "BA45是语义地图的执行控制接口"
+    },
+    {
+      "from": "semantic-cortical-map",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "语义地图可能是预测处理的先验分布空间"
+    },
+    {
+      "from": "semantic-memory",
+      "to": "semantic-cortical-map",
+      "type": "related",
+      "note": "语义记忆的皮层拓扑具体实现"
+    },
+    {
+      "from": "language-network",
+      "to": "semantic-cortical-map",
+      "type": "related",
+      "note": "语义地图是语言网络腹侧流的意义存储几何"
     }
   ],
   "dangling_references": [

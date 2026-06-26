@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-09-29（第159篇·时序信用分配：资格痕迹如何让大脑跨越时间鸿沟学习）· 主题页总数：**302**（新建1页：concepts/eligibility-trace；修订4页：concepts/synaptic-tagging-capture rev3→rev4、concepts/three-factor-learning-rule rev3→rev4、circuits/corticostriatal-stdp rev1→rev2、concepts/striatal-plasticity rev1→rev2；图谱307节点/1813边）
+> 最后更新：2026-10-01（第161篇·概念的地理学：人类皮层语义地图的神经科学）· 主题页总数：**303**（新建1页：concepts/semantic-cortical-map；修订2页：concepts/semantic-memory rev1→rev2、systems/language-network rev6→rev7；图谱308节点/1822边）
 
 ---
 
@@ -256,7 +256,8 @@
 - 🟢 [背侧语言流](circuits/dorsal-language-stream.md) — A1→颞平面→Spt→弓状束→BA44；音韵缓冲+句法层级运算；左侧主导 **[NEW 2026-06-20]**
 - 🟢 [腹侧语言流](circuits/ventral-language-stream.md) — A1→MTG/STS→角回→BA45；声音→词义；双侧；具身语义（工具→运动皮层，动物→视觉皮层） **[NEW 2026-06-20]**
 - 🔴 [具身语义](concepts/embodied-semantics.md) — 词义神经基底是感觉运动皮层再激活（Hauk 2004 somatotopy；Pulvermüller 2005 TMS类别特异性因果效应）；面临复制危机（de Zubicaray 2026）；分级具身论+Hub-and-Spoke整合模型取代强具身论；ATL枢纽整合感觉运动辐条（Pobric 2010，修订rev2 2026-09-05）**[修订rev2 2026-09-05]**
-- 🟢 [语义记忆](concepts/semantic-memory.md) — 枢纽-辐条模型：ATL跨模态枢纽+感觉运动辐条；与情景记忆双解离（SD vs 遗忘症）；Hebbian建立辐条；语义控制层（LIFG+pMTG）；CLS理论中与海马互补**[NEW 2026-09-05]**
+- 🟢 [语义记忆](concepts/semantic-memory.md) — 枢纽-辐条模型：ATL跨模态枢纽+感觉运动辐条；与情景记忆双解离（SD vs 遗忘症）；Hebbian建立辐条；语义控制层（LIFG+pMTG）；CLS理论中与海马互补；Huth 2016双侧语义地图；Tang 2023非侵入性解码**[修订rev2 2026-10-01]**
+- 🟡 [皮层语义地图](concepts/semantic-cortical-map.md) — 140个语义选择性皮层区域双侧分布（Huth 2016，985维词向量体素编码建模）；社会/情绪→内侧顶叶/前额，感知/身体→腹侧颞叶；Popham 2021视觉-语言语义地图在视觉皮层边界对齐；Tang 2023非侵入性语义解码器；三重架构（枢纽ATL+辐条感觉区+控制LIFG/pMTG）**[NEW 2026-10-01]**
 - 🟢 [心智理论（ToM）](concepts/theory-of-mind.md) — 大脑推断他人信念/意图/情感的能力；核心三节点（pTPJ+mPFC+DMN dMPFC子系统）；假信念任务（Sally-Anne，4岁发展里程碑）；ASD 中 DMN 功能连接降低与 ToM 缺陷关联；GPT-4 ToM 测试的局限 **[NEW 2026-08-01]**
 - 🔴 [镜像神经元系统](concepts/mirror-neuron-system.md) — Rizzolatti 1992 猕猴 F5 区 ~17% MNS 神经元；直接匹配假说（动作观察=运动共鸣）；Hickok "破碎镜子"批评（Broca 失语不损动作理解）；模拟理论 vs. 理论理论；MNS-ToM 因果关系争议（C-mirror-01 开放）**[NEW 2026-08-01 · 争议]**
 - 🔵 [短语结构组装（Merge操作）](concepts/phrase-structure-building.md) — Chomsky Merge递归操作的神经基础（左BA44）；AⁿBⁿ层级规则选择性激活BA44（vs线性序列）；Schell 2022 MVPA：BA44分类grammatical词组/BA45分类semantic词组；Hu 2022精准fMRI：产出和理解共享Merge机制 **[NEW 2026-08-07]**

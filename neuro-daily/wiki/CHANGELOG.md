@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-10-01（#161）：概念的地理学——皮层语义地图
+
+**文章**：《概念的地理学：人类皮层语义地图的神经科学》（#161）
+
+**类型**：新前沿深挖（课程脊柱7：语言与抽象思维；课程脊柱12：人脑与AI比较；层级切换→ whole-brain-network + cognition）
+
+**新创建页面（1）**：
+- `wiki/concepts/semantic-cortical-map.md`（新建，emerging/medium）：皮层语义地图的拓扑组织；Huth 2016 的 140 区域发现；双侧分布（打破语义左脑主导论）；连续渐变无离散边界；跨模态统一（Popham 2021）；非侵入性语义解码（Tang 2023）；语义网络三重架构（Binder 2009）；DMN 语义子系统（Shao 2024）
+
+**修订页面（2）**：
+- `wiki/concepts/semantic-memory.md`（rev1→rev2）：新增"皮层语义地图的拓扑展开"小节（Huth 2012/2016 连续语义梯度；Popham 2021 跨模态对齐；Tang 2023 解码器证明信息可提取）；关键认知含义：语义记忆存储在皮层几何投影而非离散标签；related 新增 semantic-cortical-map / default-mode-network；key_sources 扩充 5 个
+- `wiki/systems/language-network.md`（rev6→rev7）：新增"语义地图与双侧性的修正"小节（Huth 2016 双侧语义地图修正左脑主导论；Tang 2023 GPT-1 对齐解码说明 LLM-大脑语义对应）；related 新增 semantic-cortical-map
+
+**矛盾登记（0）**：无新矛盾（新发现与既有 hub-and-spoke 模型一致，是空间粒度的扩展而非冲突）
+
+**新增未解问题（4）**：
+- Q-semantic-map-01（高）：语义地图先天/后天来源，双语者/失明者/跨文化差异
+- Q-semantic-map-02（高）：非侵入性语义解码精度上限
+- Q-semantic-map-03（中）：DMN节点语义角色与内省/自我参照角色的分工
+- Q-semantic-map-04（中）：认知障碍（AD/FTD/精神分裂）如何系统破坏语义地图
+
+**图谱**：307节点/1820边 → **308节点/1822边**（+1节点：semantic-cortical-map；+9边：semantic-cortical-map→semantic-memory、semantic-cortical-map→language-network、semantic-cortical-map→default-mode-network、semantic-cortical-map→embodied-semantics、semantic-cortical-map→anterior-temporal-lobe、semantic-cortical-map→broca-area、semantic-cortical-map→predictive-coding、semantic-memory→semantic-cortical-map、language-network→semantic-cortical-map）
+
+---
+
 ## 2026-09-30 · 文章 #160 · 睡眠中的最后一步：尖波涟漪如何把白天的学习刻入长期记忆
 
 **核心主题**：睡眠期SWR如何通过NMDA依赖性LTP诱导（需树突去极化，非胞体）和突触标记-捕获（STC）的系统层面实现，将白天学习时设置的E-LTP突触标签转化为L-LTP。**SO-纺锤波-SWR三重耦合是STC的系统实现**：纺锤波=PRPs合成信号（Ca²⁺→PKA/CREB），大振幅SWR=突触选择性重激活（NMDA激活），时序耦合=STC时间窗口对齐。清醒SWR（涟漪标签）预测睡眠重播优先级（Yang & Buzsáki 2024，R=0.86）；渐强型集成体（STC标签仍有效）依赖SWR巩固（van de Ven 2016）。新颖综合框架：SWR重播即STC捕获的"睡眠批处理程序"。图谱从 **307 节点/1813 边** 更新至 **307 节点/1820 边**（+0 新节点，+7 新边，修订3个wiki页）。

@@ -6,14 +6,14 @@ type: concept
 status: established
 confidence: high
 created: 2026-09-05
-updated: 2026-09-05
-revision_count: 1
+updated: 2026-10-01
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, cognition]
-related: [anterior-temporal-lobe, embodied-semantics, language-network, memory-consolidation, complementary-learning-systems, hippocampal-circuit, cognitive-map, working-memory]
+related: [anterior-temporal-lobe, embodied-semantics, language-network, memory-consolidation, complementary-learning-systems, hippocampal-circuit, cognitive-map, working-memory, semantic-cortical-map, default-mode-network]
 prerequisites: [synaptic-transmission, ltp, hebbian-learning, language-network]
 opens_questions: [Q-atl-01, Q-atl-02]
 source_articles: [2026-09-05-anterior-temporal-lobe-semantic-hub]
-key_sources: ["PMID:18026167", "PMID:20451381", "PMID:24324236", "PMID:27121839", "PMID:23260615", "PMID:39513090", "PMID:41698912"]
+key_sources: ["PMID:18026167", "PMID:20451381", "PMID:24324236", "PMID:27121839", "PMID:23260615", "PMID:39513090", "PMID:41698912", "PMID:23259955 (PMC3556488)", "PMID:37127759 (PMC11304553)", "PMID:34711960", "PMID:19329570 (PMC2774390)", "PMID:38589231 (PMC11097276)"]
 ---
 
 # 语义记忆 (Semantic Memory)
@@ -68,9 +68,24 @@ key_sources: ["PMID:18026167", "PMID:20451381", "PMID:24324236", "PMID:27121839"
 - Q-atl-01：语义记忆与默认模式网络（角回、楔前叶）的分工
 - Q-atl-02：ATL中语义学习的突触机制（LTP特征、是否不同于海马LTP？）
 
+## 皮层语义地图的拓扑展开（2026-10-01 新增）
+
+Huth 等人系列工作（2012/2016/2021）揭示了语义记忆的**皮层地形细节**，是 hub-and-spoke 模型的可视化扩展：
+
+**Huth 2012**（PMID:23259955，PMC:3556488）：视觉物体和动作的连续语义梯度分布于远超传统视觉区的大范围皮层，表明语义地图不限于"经典感觉区"。
+
+**Huth 2016**（PMID:27121839，PMC:4852309）：自然叙事 fMRI（7人，2h，985维词向量）发现 140 个语义选择性区域，**双侧分布**（非左脑主导），社会/情绪概念集中于内侧顶叶（与 DMN 核心节点重叠），感知/身体概念集中于腹侧颞叶与感觉皮层周围。这是对 hub-and-spoke 枢纽和辐条的空间定位的直接验证：ATL 枢纽处理所有类别，而辐条的模态特异区域在地图上形成不同的语义"高地"。
+
+**Popham 2021**（PMID:34711960）：视觉和语言语义地图在视觉皮层边界**精确对齐**——相同概念类别由两种感觉通道共用相同的皮层节点，证明语义是跨模态统一的，这正是 hub-and-spoke 模型中枢纽整合所预测的。
+
+**Tang 2023**（PMID:37127759，PMC:11304553）：用 GPT-1 对齐 fMRI 信号的语义解码器可从非侵入性 fMRI 重建连续语义内容，跨通道（听觉/想象/视觉）有效，**证明皮层语义地图的信息是真实可提取的**，而非统计伪影。
+
+**关键认知含义**：语义记忆的神经基础是**高维语义空间的皮层几何投影**，而非离散标签。ATL 枢纽压缩了所有模态输入到同一个几何点（跨模态概念）；辐条是这个几何结构向感觉运动端的展开；DMN 节点（角回、内侧前额叶）参与社会/情绪概念的表征，是语义地图和情景记忆系统的接口。详见 [[semantic-cortical-map]]。
+
 ## 修订历史
 
 - 2026-09-05 · 创建 · 基于《语义记忆的神经拓扑》（文章#135）· 初始置信度：高
+- 2026-10-01 · 修订 rev2 · 基于《概念的地理学》（文章#161）· 新增"皮层语义地图的拓扑展开"小节（Huth 2012/2016，Popham 2021，Tang 2023）；补充 hub-and-spoke 与皮层地形图的对应关系；related 新增 semantic-cortical-map / default-mode-network；key_sources 扩充 5 个
 
 ## 来源文章
 

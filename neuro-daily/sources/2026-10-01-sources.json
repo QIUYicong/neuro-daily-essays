@@ -1,0 +1,111 @@
+{
+  "article_date": "2026-10-01",
+  "system_clock_date": "2026-06-26",
+  "article_number": 161,
+  "slug": "semantic-cortical-map",
+  "title": "概念的地理学：人类皮层语义地图的神经科学",
+  "search_queries": [
+    "semantic cortical map language representation fMRI",
+    "Huth semantic cortical language fMRI",
+    "semantic memory default mode network cortex representation",
+    "Mitchell semantic word predict fMRI 2008",
+    "Binder semantic network meta-analysis cortex 2009"
+  ],
+  "sources": [
+    {
+      "pmid": "27121839",
+      "pmcid": "PMC4852309",
+      "title": "Natural speech reveals the semantic maps that tile human cerebral cortex",
+      "authors": "Huth AG, de Heer WA, Griffiths TL, Theunissen FE, Gallant JL",
+      "journal": "Nature",
+      "year": 2016,
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "核心来源：方法、140区域发现、双侧性、个体一致性、语义领域分布",
+      "evidence_quality": "高（7人fMRI，全皮层体素编码模型，独立验证集）"
+    },
+    {
+      "pmid": "23259955",
+      "pmcid": "PMC3556488",
+      "title": "A continuous semantic space describes the representation of thousands of object and action categories across the human brain",
+      "authors": "Huth AG, Nishimoto S, Vu AT, Gallant JL",
+      "journal": "Neuron",
+      "year": 2012,
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "前驱工作：视觉物体连续语义空间，建立概念空间框架"
+    },
+    {
+      "pmid": "37127759",
+      "pmcid": "PMC11304553",
+      "title": "Semantic reconstruction of continuous language from non-invasive brain recordings",
+      "authors": "Tang J, LeBel A, Jain S, Huth AG",
+      "journal": "Nature Neuroscience",
+      "year": 2023,
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "语义解码器：证明皮层语义地图可逆向读取，GPT-1语义空间对齐"
+    },
+    {
+      "pmid": "28588065",
+      "pmcid": "PMC5511884",
+      "title": "The Hierarchical Cortical Organization of Human Speech Processing",
+      "authors": "de Heer WA, Huth AG, Griffiths TL, Gallant JL, Theunissen FE",
+      "journal": "Journal of Neuroscience",
+      "year": 2017,
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "语音处理层级组织，双侧语言处理证据"
+    },
+    {
+      "pmid": "19329570",
+      "pmcid": "PMC2774390",
+      "title": "Where is the semantic system? A critical review and meta-analysis of 120 functional neuroimaging studies",
+      "authors": "Binder JR, Desai RH, Graves WW, Conant LL",
+      "journal": "Cerebral Cortex",
+      "year": 2009,
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "语义网络解剖锚点，120项研究元分析，三重架构（枢纽-辐条-控制）"
+    },
+    {
+      "pmid": "18511683",
+      "pmcid": null,
+      "title": "Predicting human brain activity associated with the meanings of nouns",
+      "authors": "Mitchell TM, Shinkareva SV, Carlson A, Chang KM, Malave VL, Mason RA, Just MA",
+      "journal": "Science",
+      "year": 2008,
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "先驱工作：文本共现预测fMRI激活（仅摘要，未读全文）",
+      "note": "未读取全文"
+    },
+    {
+      "pmid": "34711960",
+      "pmcid": null,
+      "title": "Visual and linguistic semantic representations are aligned at the border of human visual cortex",
+      "authors": "Popham SF, Huth AG, Bilenko NY, Deniz F, Gao JS, Nunez-Elizalde AO, Gallant JL",
+      "journal": "Nature Neuroscience",
+      "year": 2021,
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "视觉-语言语义地图对齐（仅摘要，未读全文）",
+      "note": "未读取全文"
+    },
+    {
+      "pmid": "38589231",
+      "pmcid": "PMC11097276",
+      "title": "Distinctive and Complementary Roles of Default Mode Network Subsystems in Semantic Cognition",
+      "authors": "Shao X, Lambon Ralph MA, Jefferies E",
+      "journal": "Journal of Neuroscience",
+      "year": 2024,
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "DMN子系统在语义认知中的角色分工"
+    }
+  ],
+  "open_access_count": 6,
+  "total_sources": 8,
+  "full_text_read_count": 6,
+  "sources_only_abstract": ["PMID:18511683", "PMID:34711960"]
+}

@@ -1,0 +1,107 @@
+# 2026-10-01 运行日志
+
+## 基本信息
+
+- **文章编号**：#161
+- **知识库日期**：2026-10-01
+- **系统时钟日期**：2026-06-26
+- **主题**：概念的地理学：人类皮层语义地图的神经科学
+- **文件 slug**：semantic-cortical-map
+- **层级**：whole-brain-network / cognition（切换层级，前4篇#157-160均为synaptic/cellular层）
+
+## 选题依据
+
+- 上篇文章（#160）为sleep SWR-LTP固化（synaptic/cellular层）；前4篇连续停留在synaptic/molecular/cellular层；ROUTINE规定避免3+连续同层，选择whole-brain-network/cognition层
+- semantic-cortical-map 主题在 #159 next_suggested_topics 中被提及
+- 课程脊柱第7条（语言网络）的延伸；填补 semantic-cortical-map wiki页缺口
+- 源文献质量高，Huth 2016 Nature + Tang 2023 Nat Neurosci 均有开放全文
+
+## 检索执行
+
+### 完成的检索
+
+1. **"semantic cortical map language representation fMRI"** → Huth 2016 (Nature)
+2. **"Huth semantic cortical language fMRI"** → Huth 2012 (Neuron), Tang 2023 (Nat Neurosci)
+3. **"semantic memory default mode network cortex representation"** → Shao 2024 (J Neurosci), Binder 2009 (Cereb Cortex)
+4. **"Mitchell semantic word predict fMRI 2008"** → Mitchell 2008 (Science)
+5. **"Binder semantic network meta-analysis cortex 2009"** → Binder 2009 (Cereb Cortex)
+
+### 使用的来源
+
+| PMID | 来源 | 获取状态 |
+|------|------|---------|
+| PMID:27121839 | Huth et al. 2016, Nature（核心） | 全文（PMC4852309）|
+| PMID:23259955 | Huth et al. 2012, Neuron | 全文（PMC3556488）|
+| PMID:37127759 | Tang et al. 2023, Nat Neurosci | 全文（PMC11304553）|
+| PMID:28588065 | de Heer et al. 2017, J Neurosci | 全文（PMC5511884）|
+| PMID:19329570 | Binder et al. 2009, Cereb Cortex | 全文（PMC2774390）|
+| PMID:18511683 | Mitchell et al. 2008, Science | 摘要（无开放全文）|
+| PMID:34711960 | Popham et al. 2021, Nat Neurosci | 摘要（无开放全文）|
+| PMID:38589231 | Shao et al. 2024, J Neurosci | 全文（PMC11097276）|
+
+开放全文：6/8；全文已读：6/8；仅摘要：2（Mitchell 2008, Popham 2021）
+
+## 文件变更记录
+
+### 新建文件（3个）
+
+1. **neuro-daily/articles/2026-10-01-semantic-cortical-map.md** — 主文章，约5200字
+2. **neuro-daily/notes/2026-10-01-reading-notes.md** — 阅读笔记，8个来源结构化笔记
+3. **neuro-daily/sources/2026-10-01-sources.json** — 来源登记JSON
+
+### 新建 wiki 页（1个）
+
+4. **neuro-daily/wiki/concepts/semantic-cortical-map.md** — 皮层语义地图概念页，status:emerging，confidence:medium，4个开放问题
+
+### 修订 wiki 页（2个）
+
+5. **neuro-daily/wiki/concepts/semantic-memory.md** — rev1→rev2，新增"皮层语义地图的拓扑展开"小节（Huth 2012/2016，Popham 2021，Tang 2023）；related 新增 semantic-cortical-map / default-mode-network；key_sources 扩充5个
+6. **neuro-daily/wiki/systems/language-network.md** — rev6→rev7，新增"语义地图与双侧性的修正"小节（Huth 2016双侧语义地图，Tang 2023解码器，LLM对齐说明）；related 新增 semantic-cortical-map；source_articles 更新
+
+### 更新 wiki 索引/图谱（3个）
+
+7. **neuro-daily/wiki/CHANGELOG.md** — 新增 2026-10-01 条目（文章#161）
+8. **neuro-daily/wiki/_graph.json** — 308节点（+1：semantic-cortical-map），1822边（+9条新边）
+9. **neuro-daily/wiki/index.md** — 新增 semantic-cortical-map 条目，更新页眉统计（303页，308节点/1822边）
+
+### 更新状态文件（4个）
+
+10. **neuro-daily/state/topic_ledger.json** — 新增文章#161条目
+11. **neuro-daily/state/unresolved_questions.md** — 新增 Q-semantic-map-01~04（4个问题）
+12. **neuro-daily/state/source_registry.json** — 新增文章#160（补漏）和#161的来源登记
+13. **neuro-daily/state/monthly_synthesis.md** — 新增2026-10-01摘要条目
+
+## 知识库状态更新
+
+- 主题页总数：302 → 303（+1）
+- 图谱节点：307 → 308（+1：semantic-cortical-map）
+- 图谱边：1813 → 1822（+9）
+- 新增开放问题：4（Q-semantic-map-01 ~ Q-semantic-map-04）
+- 修订历史更新：semantic-memory（rev2），language-network（rev7）
+
+## 登记的矛盾
+
+**无新矛盾**：语义记忆双侧分布（Huth 2016）与经典语言左侧化不矛盾——准确区分是句法（左侧化）vs. 语义内容（双侧），文章中已明确说明。
+
+---
+
+## 新增未解问题
+
+- Q-semantic-map-01（高优先级）：语义地图先天/后天来源
+- Q-semantic-map-02（高优先级）：非侵入性语义解码精度上限
+- Q-semantic-map-03（中优先级）：DMN节点的语义地图vs自我参照功能
+- Q-semantic-map-04（中优先级）：神经退行性疾病如何系统破坏语义地图
+
+---
+
+## 来源限制
+
+- PMID:18511683 (Mitchell 2008, Science)：全文不可获取，仅使用摘要 → 文章中已标注
+- PMID:34711960 (Popham 2021, Nat Neurosci)：全文不可获取，仅使用摘要 → 文章中已标注
+
+---
+
+## Git 操作
+
+- 分支：main
+- 状态：待推送

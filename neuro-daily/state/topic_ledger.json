@@ -9945,6 +9945,56 @@
       "knowledge_base_date": "2026-09-30",
       "system_clock_date": "2026-06-26",
       "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-09-30（第160篇SWR睡眠LTP固化文章）"
+    },
+    {
+      "article_number": 161,
+      "knowledge_base_date": "2026-10-01",
+      "system_clock_date": "2026-06-26",
+      "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-10-01（第161篇皮层语义地图文章）",
+      "topic": "概念的地理学：人类皮层语义地图的神经科学",
+      "slug": "semantic-cortical-map",
+      "dimensions": ["whole-brain-network", "cognition"],
+      "layer": "whole-brain-network / cognition",
+      "key_concepts": [
+        "semantic cortical map",
+        "Huth 2016 natural speech fMRI 140 regions",
+        "bilateral semantic representation (not left-lateralized)",
+        "hub-and-spoke model (ATL hub + spoke sensorimotor areas)",
+        "Tang 2023 non-invasive semantic decoder",
+        "Popham 2021 visual-linguistic alignment at visual cortex border",
+        "Binder 2009 semantic network meta-analysis"
+      ],
+      "new_wiki_pages": ["concepts/semantic-cortical-map"],
+      "revised_wiki_pages": [
+        "concepts/semantic-memory (rev1→rev2)",
+        "systems/language-network (rev6→rev7)"
+      ],
+      "sources_used": [
+        "PMID:27121839 (Huth et al. 2016, Nature, 自然叙事fMRI 140语义区域, OPEN PMC4852309)",
+        "PMID:23259955 (Huth et al. 2012, Neuron, 视觉物体连续语义梯度, OPEN PMC3556488)",
+        "PMID:37127759 (Tang et al. 2023, Nat Neurosci, 非侵入性语义解码器, OPEN PMC11304553)",
+        "PMID:28588065 (de Heer et al. 2017, J Neurosci, 语音处理层级组织, OPEN PMC5511884)",
+        "PMID:19329570 (Binder et al. 2009, Cereb Cortex, 120项语义网络元分析, OPEN PMC2774390)",
+        "PMID:18511683 (Mitchell et al. 2008, Science, 文本共现预测fMRI, 摘要)",
+        "PMID:34711960 (Popham et al. 2021, Nat Neurosci, 视觉-语言语义地图对齐, 摘要)",
+        "PMID:38589231 (Shao et al. 2024, J Neurosci, DMN子系统语义角色, OPEN PMC11097276)"
+      ],
+      "open_access_fulltext": [
+        "PMID:27121839 (PMC4852309)",
+        "PMID:23259955 (PMC3556488)",
+        "PMID:37127759 (PMC11304553)",
+        "PMID:28588065 (PMC5511884)",
+        "PMID:19329570 (PMC2774390)",
+        "PMID:38589231 (PMC11097276)"
+      ],
+      "next_suggested_topics": [
+        "视觉皮层语义地图的发育——早期失明者的语义组织是否重映到触觉皮层（Q-semantic-map-01 先天/后天成分）？",
+        "非侵入性语义解码的精度上限——7T fMRI + GPT-4语义空间能否实现实用级别的脑-机接口？（Q-semantic-map-02）",
+        "ATL语义地图与阿尔茨海默病——ATL早期萎缩如何系统性破坏语义地图（Q-semantic-map-04），FTD vs AD的不同损坏模式",
+        "大脑语义地图与LLM语义空间的几何对应——两个高维语义空间的流形对齐（Hosseini 2024在精度上的上限）",
+        "感知/身体概念 vs 社会/情绪概念的双解离——损伤TME/pSTS（感知）vs 损伤mPFC/IPL（社会）的行为预测"
+      ],
+      "graph_update": "307→308节点 (+1: semantic-cortical-map); 1813→1822边 (+9边: semantic-cortical-map→semantic-memory, semantic-cortical-map→language-network, semantic-cortical-map→default-mode-network, semantic-cortical-map→embodied-semantics, semantic-cortical-map→predictive-coding, semantic-cortical-map→anterior-temporal-lobe, semantic-cortical-map→broca-area, semantic-memory→semantic-cortical-map, language-network→semantic-cortical-map)"
     }
   ]
 }

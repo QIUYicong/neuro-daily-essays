@@ -1698,3 +1698,18 @@
 **图谱**：304→307 节点，1803→1813 边（+3节点，+10边；修正1个dangling ref：consciousness-neural-correlates→neural-correlates-of-consciousness）
 **新增未解问题**：Q-eligibility-trace-striatum（高：纹状体AC1/AC8资格痕迹是否存在）、Q-eligibility-trace-duration（中：痕迹有效期上限）、Q-eligibility-trace-vs-stc（中：两级机制串联关系）、Q-striatal-stc-mechanism（新：纹状体完整STC机制是否存在）
 **Q-d1-ltp-persistence 部分更新**：Fuchsberger 2022资格痕迹为"D1-MSN如何等待DA"提供了分钟级答案；纹状体AC1/AC8仍需直接实验验证（置信度：中/推论）
+
+---
+
+### 2026-10-01（#161）：概念的地理学——皮层语义地图的神经科学
+
+**一句话**：人类大脑皮层存在一张连续的语义拓扑地图——Huth 等人2016年用985维词向量对自然叙事fMRI进行全皮层体素编码建模，发现140个语义选择性区域双侧分布（非左脑主导），相邻概念的皮层区域相邻，社会/情绪概念集中于内侧顶叶/前额叶（DMN节点），感知/身体概念集中于腹侧颞叶；这张地图打破了"语义=左脑语言区"的旧范式，揭示了全皮层参与的高维语义几何结构。
+
+**核心知识点**：（1）先驱工作：Mitchell 2008（Science）用文本共现预测具体名词fMRI激活，首次证明语义-神经活动的可预测性；（2）视觉语义空间：Huth 2012（Neuron）用1705类物体/动作视频建立视觉语义连续梯度，语义相近概念皮层邻近；（3）自然语言语义地图：Huth 2016（Nature）是核心——7人、2小时自然叙事、985维GloVe词向量、全皮层体素编码模型，发现140个区域，双侧对称（77左/63右），跨个体高度一致；（4）视觉-语言地图对齐：Popham 2021在视觉皮层边界发现视觉和语言语义地图精确对齐，证明语义是跨模态统一的；（5）语义解码器：Tang & Huth 2023（Nat Neurosci）用GPT-1语义空间对齐fMRI信号，实现非侵入性连续语义内容重建，跨听觉/想象/视觉通道均有效；（6）三重架构（Binder 2009元分析）：枢纽（ATL+角回）+ 辐条（感觉运动皮层）+ 控制层（LIFG+pMTG），与hub-and-spoke模型高度一致；（7）AI对比：语言模型训练约1亿词达最大脑-LLM语义对齐（Hosseini 2024），大脑语义额外整合情感、具身和情景成分。
+
+**层级**：whole-brain-network / cognition
+
+**新建 wiki 页（1个）**：concepts/semantic-cortical-map（emerging/medium）
+**修订 wiki 页（2个）**：concepts/semantic-memory（rev1→rev2，新增Huth 2016/Tang 2023）；systems/language-network（rev6→rev7，新增语义双侧性修正）
+**图谱**：307→308节点，1813→1822边（+1节点，+9边）
+**新增未解问题**：Q-semantic-map-01（先天/后天，高）、Q-semantic-map-02（解码精度上限，高）、Q-semantic-map-03（DMN-语义地图关系，中）、Q-semantic-map-04（神经退行疾病破坏，中）
