@@ -102,7 +102,7 @@
 - 🟢 [慢波睡眠（SWS / NREM深睡眠）](concepts/slow-wave-sleep.md) — SWS 是记忆系统巩固与类淋巴清洁同时发生的双重时段；核心机制为 SO-纺锤波-SWR 三重耦合；NREM 内部存在分时亚状态（瞳孔振荡揭示，Chang 2025）区隔近期/陈旧记忆回放；人类颅内 SWR-SWA 耦合预测皮层激活（Skelin 2021）**[NEW 2026-10-11 · 修订 rev2 2026-10-13]**
 - 🟢 [腺苷与睡眠内稳态（Process S）](concepts/adenosine.md) — Process S 的分子实体；星形胶质细胞 ATP→NTPDase→胞外腺苷线性积累于基底前脑（Porkka-Heiskanen 1997）；A₁R（Gi，基底前脑/皮层）控制 SWA 深度（敲除→SWA 反弹消失，Bjorness 2009）；A₂AR（Gs，伏隔核）门控入睡时机（Lazarus 2019）；咖啡因竞争性拮抗 A₁/A₂A 受体 **[NEW 2026-10-13]**
 - 🟢 [睡眠两进程模型（Borbély）](concepts/two-process-model.md) — Borbély 1982 框架：Process S（腺苷，随清醒积累/随 SWA 消减）+ Process C（SCN 昼夜节律振荡）动态叠加决定睡眠时机与深度；慢波反弹是 S 当前值的 EEG 指标；两进程双向调制（高 S 减弱 SCN 光响应，强 C 促进更深 NREM，Deboer 2018）**[NEW 2026-10-13]**
-- 🔵 [突触稳态假说（SHY）](concepts/shy-hypothesis.md) — Tononi & Cirelli：清醒期 LTP 积累→睡眠期 SO 驱动 ~18% 突触下调（de Vivo 2017 超微结构证据）；down-selection：被 SWR 重播激活的突触受保护，多数突触弱化；与主动记忆巩固统一 **[NEW 2026-07-07]**
+- 🟢 [突触稳态假说（SHY）](concepts/shy-hypothesis.md) — Tononi & Cirelli：清醒期 LTP 积累→睡眠期 SO 驱动 ~18% 突触下调（de Vivo 2017 超微结构证据）；down-selection：被 SWR 重播激活的突触受保护，多数突触弱化；与主动记忆巩固统一；**2026-10-14 因果验证**：清醒动物皮层 ON/OFF 诱导→GluA1↓+SWA↓+记忆恢复，强直性抑制无效（Driessen 2026 Nat Neurosci）→ confidence 升为 high **[REV2 2026-10-14]**
 - 🟢 [皮层 UP/DOWN 态机制](concepts/up-down-state-mechanism.md) — Layer 5 循环兴奋（AMPA+NMDA 侧支）自主启动 UP 态（~−65 mV，0.8–1.5 s）；KNa 通道 Na⁺ 积累（主要机制）+ 短时程突触抑郁 + SST+ 延迟抑制三机制终止 UP 态；孤立皮层切片自发 SO 证明回路内在充分性（Sanchez-Vives 2000）；为 SO-spindle-SWR 三重协奏提供细胞层级时间骨架 **[NEW 2026-07-23]**
 - 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现
 - 🔵 [嵌套时间编码层级](concepts/temporal-coding-hierarchy.md) — 大脑记忆系统在 μs 到年的时间谱上，以嵌套方式在每层通过巧合检测修改突触权重；Hebb 原理的多时间尺度实例化（第一周综合分析框架）**[修订rev2 2026-08-13：新增皮层INT/TRW层级维度]**

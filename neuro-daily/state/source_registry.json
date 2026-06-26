@@ -15975,9 +15975,11 @@
       "40680302"
     ]
   },
-  {
-    "date": "2026-10-13",
+  "sources_2026-10-13": {
     "article": "2026-10-13-adenosine-sleep-homeostasis-process-s.md",
+    "article_number": 173,
+    "sources_added": 9,
+    "sources_reused": 0,
     "new_pmids": [
       "7185792",
       "9157887",
@@ -16001,5 +16003,32 @@
       "20859802",
       "19491711"
     ]
-  }
+  },
+  "sources_2026-10-14": {
+    "article": "2026-10-14-cortical-onoff-periods-sleep-shy-validation.md",
+    "article_number": 174,
+    "sources_added": 2,
+    "sources_reused": 3,
+    "new_dois": [
+      "10.1038/s41593-026-02318-9"
+    ],
+    "new_pmids": [
+      "24411729"
+    ],
+    "reused_pmids": [
+      "28154076",
+      "30614089",
+      "16376591"
+    ],
+    "all_pmids": [
+      "24411729",
+      "28154076",
+      "30614089",
+      "16376591"
+    ],
+    "all_dois": [
+      "10.1038/s41593-026-02318-9"
+    ]
+  },
+  "last_updated": "2026-10-14"
 }

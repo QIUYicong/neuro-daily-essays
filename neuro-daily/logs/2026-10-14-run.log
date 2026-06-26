@@ -1,0 +1,126 @@
+# 运行日志 · 2026-10-14
+
+**运行时间（UTC）**：2026-06-26 ~09:00 CST（Beijing time）
+**文章编号**：#174
+**分支**：main（单分支累积）
+
+---
+
+## 执行摘要
+
+成功完成 2026-10-14 文章生成与 wiki 固结。文章主题：皮层 ON/OFF 双稳态作为突触稳态假说充分条件的直接因果验证（Driessen et al. 2026, Nature Neuroscience）。突破性追踪模式触发（breakthrough tracking mode）。修订 wiki 页 2 个（shy-hypothesis, cortical-slow-oscillation），更新图谱 3 条新边，confidence 升级（SHY: medium→high）。
+
+---
+
+## 状态读取
+
+- **topic_ledger**：2026-10-13 为最近一篇（#173 adenosine & Process S），总计 173 篇
+- **_graph.json**（运行前）：322 节点 / 1912 边
+- **unresolved_questions**：高优先级 Q-so-initiation-site, Q-shy-vs-active-consolidation, Q-shy-molecular-mechanism
+- **contested_claims**：无新矛盾
+
+---
+
+## 选题决策
+
+- **选题机制**：突破追踪模式（breakthrough tracking）— 检测到 Driessen et al. 2026 于 Nature Neuroscience 发表，DOI: 10.1038/s41593-026-02318-9，PMC: PMC12632314（开放全文）
+- **最终主题**：皮层 ON/OFF 双稳态足以实现突触稳态——SHY 的直接因果验证
+- **核心问题**：在清醒动物中人工诱导 ON/OFF 周期，能否复现睡眠的突触下调和记忆恢复功能？答案：是（直接因果证据）
+- **理由**：(1) SHY 是 wiki 现有 contested/medium-confidence 节点，新实验提供直接因果验证，confidence 可升；(2) 文章完整开放获取，数据可信；(3) ON/OFF 双稳态与 cortical-slow-oscillation、up-down-state-mechanism 深度相关，固结价值高
+
+---
+
+## 来源检索
+
+**检索工具**：PMC Open Access fulltext retrieval
+
+**主要检索词**：
+- `Driessen Squarcio Tononi Cirelli cortical on/off periods awake mice sleep functions Nature Neuroscience 2026` → PMC12632314（完整全文获取）
+- `Tononi Cirelli synaptic homeostasis hypothesis SHY review 2014 Neuron` → PMID:24411729, PMC:PMC3921176（部分获取）
+- `de Vivo 2017 Science SBEM synaptic scaling sleep wake` → PMID:28154076（摘要）
+
+---
+
+## 来源采用
+
+| ID | 引用 | DOI/PMID | 全文 | 角色 |
+|----|------|----------|------|------|
+| driessen-2026 | Driessen K et al. (2026) Nat Neurosci | DOI:10.1038/s41593-026-02318-9 PMC12632314 | ✅ 全文 | 核心：因果实验 |
+| tononi-cirelli-2014 | Tononi & Cirelli (2014) Neuron 81:12-34 | PMID:24411729 PMC:PMC3921176 | ✅ 部分 | SHY 框架综述 |
+| de-vivo-2017 | de Vivo L et al. (2017) Science 355:507-510 | PMID:28154076 | ❌ 摘要 | SHY 超微结构证据 |
+| tononi-cirelli-2020 | Tononi & Cirelli (2020) Eur J Neurosci | PMID:30614089 | ❌ 摘要 | SHY down-selection 框架 |
+| tononi-cirelli-2006 | Tononi & Cirelli (2006) Sleep Med Rev | PMID:16376591 | ❌ 摘要 | SHY 历史归因 |
+
+**候选审查**：8 个；采用：5 个；排除 3 个（非一手来源、未能获取全文且内容已被综述覆盖）
+
+---
+
+## 关键数据（Driessen et al. 2026）
+
+- **SWA 减少（光遗传后续睡眠）**：SOM+ t₁₀=-17.69 p<0.001；ACR t₉=-13.12 p<0.001
+- **GluA1 下调**：SOM+ t₇=5.51 p<0.001；ACR t₇=6.26 p<0.001
+- **p-GluA1(Ser845) 下调**：SOM+ t₇=8.77 p<0.001；ACR t₇=4.77 p<0.01
+- **记忆恢复（FTR）**：正常睡眠0.61±0.08；睡眠剥夺0.45±0.09；ON/OFF诱导0.56±0.08（F=7.34, p=0.005）
+- **神经元同步性（STTC）下降**：SOM+ t₁₀=3.85 p=0.004；ACR t₈=2.49 p=0.041
+- **强直性抑制对照（关键控制）**：SWA p=0.62，无效
+
+---
+
+## 文章生成
+
+- **文件**：`neuro-daily/articles/2026-10-14-cortical-onoff-periods-sleep-shy-validation.md`
+- **字数**：~5200 中文字（含英文术语和数字）
+- **结构**：引言→SHY背景→ON/OFF机制→实验设计→三大发现→关键对照→意义→局限与争议→展望→参考文献
+- **概念卡片**：包含（文章末尾）
+- **认知地图更新**：包含（文章末尾）
+
+---
+
+## wiki 固结
+
+### 修订页面
+
+| 页面 | 修订 | 主要变更 |
+|------|------|----------|
+| `wiki/concepts/shy-hypothesis.md` | rev1→rev2 | confidence medium→high；新增 Driessen 2026 因果证据两行；新增 Q-shy-onoff-bistability-human；新增 source_articles；related 新增 ampa-receptor, up-down-state-mechanism |
+| `wiki/concepts/cortical-slow-oscillation.md` | rev4→rev5 | 新增 Driessen 2026 证据行（高置信度因果验证）；更新 source_articles 和 key_sources |
+
+### 新建页面
+
+无
+
+### 图谱更新
+
+- **运行后**：322 节点 / 1915 边（+3 新边）
+- 新增边：
+  1. `cortical-slow-oscillation` → `shy-hypothesis`（mechanism-of）
+  2. `cortical-slow-oscillation` → `ampa-receptor`（regulates）
+  3. `shy-hypothesis` → `up-down-state-mechanism`（prerequisite-for）
+
+### index.md 更新
+
+- SHY 条目：🔵 → 🟢（confidence 升级）；描述更新
+
+### 其他状态文件
+
+- `state/unresolved_questions.md`：新增 Q-shy-onoff-bistability-human（高优先级）
+- `state/monthly_synthesis.md`：新增 #174 行
+- `state/topic_ledger.json`：新增条目（已修复 JSON 错误）
+- `state/source_registry.json`：已修复结构错误并新增 sources_2026-10-13、sources_2026-10-14
+- `wiki/CHANGELOG.md`：新增 2026-10-14 节
+
+---
+
+## 错误与修复
+
+1. **topic_ledger.json JSON 解码错误**：article #173 的 `core_question` 字段含未转义中文引号 `"已清醒多久"`，导致 JSON 解析失败。修复：Python 字符串替换转义内引号。
+2. **source_registry.json 结构错误**：article #173 的来源条目被追加为根对象级别的裸对象 `{ "date": "2026-10-13", ... }` 而非命名属性，导致 JSON 无效。修复：重构为 `"sources_2026-10-13": { ... }` 命名属性，同时新增 `sources_2026-10-14`。
+3. **Git 分支发散错误**：`git pull origin main` 报 `fatal: Need to specify how to reconcile divergent branches`。修复：改用 `git pull --rebase origin main`。
+
+---
+
+## 提交与推送
+
+**提交哈希**：（待更新）
+**分支**：main
+**推送状态**：（待更新）

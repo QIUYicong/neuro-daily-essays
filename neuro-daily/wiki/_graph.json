@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "node_count": 318,
   "edge_count": 1889,
   "edge_types": [
@@ -1316,7 +1316,7 @@
       "domain": "concepts",
       "type": "theory",
       "status": "mainstream",
-      "confidence": "medium",
+      "confidence": "high",
       "page": "wiki/concepts/shy-hypothesis.md"
     },
     {
@@ -13654,6 +13654,24 @@
       "to": "flip-flop-switch-sleep-wake",
       "type": "related",
       "note": "两进程共同决定触发器翻转时机"
+    },
+    {
+      "from": "cortical-slow-oscillation",
+      "to": "shy-hypothesis",
+      "type": "mechanism-of",
+      "note": "ON/OFF 双稳态是 SHY 突触下调的充分执行机制（Driessen 2026 因果验证）"
+    },
+    {
+      "from": "cortical-slow-oscillation",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "ON/OFF 双稳态驱动 GluA1-AMPA 受体去磷酸化+内吞（突触下调分子签名）"
+    },
+    {
+      "from": "shy-hypothesis",
+      "to": "up-down-state-mechanism",
+      "type": "prerequisite-for",
+      "note": "SHY 的突触下调机制需要 ON/OFF 双稳态 UP-DOWN 转换，而非强直性抑制"
     }
   ],
   "dangling_references": [

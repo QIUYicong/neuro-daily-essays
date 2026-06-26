@@ -4,16 +4,16 @@ slug: shy-hypothesis
 domain: concepts
 type: theory
 status: mainstream
-confidence: medium
+confidence: high
 created: 2026-07-07
-updated: 2026-07-07
-revision_count: 1
-dimensions: [synaptic, cellular, whole-brain-network, cognition]
-related: [synaptic-scaling, homeostatic-plasticity, sleep-spindles, sharp-wave-ripples, cortical-slow-oscillation, so-spindle-swr-coupling, memory-consolidation, ltp, ltd]
-prerequisites: [synaptic-transmission, ltp, ltd, homeostatic-plasticity]
-opens_questions: [Q-shy-vs-active-consolidation, Q-shy-molecular-mechanism]
-source_articles: [2026-07-07-sleep-memory-consolidation-so-spindle-swr]
-key_sources: ["PMID:28154076", "PMID:30614089", "PMID:38973508", "PMID:31374117"]
+updated: 2026-10-14
+revision_count: 2
+dimensions: [synaptic, cellular, microcircuit, whole-brain-network, cognition]
+related: [synaptic-scaling, homeostatic-plasticity, sleep-spindles, sharp-wave-ripples, cortical-slow-oscillation, so-spindle-swr-coupling, memory-consolidation, ltp, ltd, up-down-state-mechanism, ampa-receptor]
+prerequisites: [synaptic-transmission, ltp, ltd, homeostatic-plasticity, cortical-slow-oscillation]
+opens_questions: [Q-shy-vs-active-consolidation, Q-shy-molecular-mechanism, Q-shy-onoff-bistability-human]
+source_articles: [2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-10-14-cortical-onoff-periods-sleep-shy-validation]
+key_sources: ["PMID:28154076", "PMID:30614089", "PMID:38973508", "PMID:31374117", "DOI:10.1038/s41593-026-02318-9", "PMID:24411729"]
 ---
 
 # 突触稳态假说（Synaptic Homeostasis Hypothesis, SHY）
@@ -77,6 +77,8 @@ key_sources: ["PMID:28154076", "PMID:30614089", "PMID:38973508", "PMID:31374117"
 | 睡眠后皮质突触 GluA1 表达下降 | 睡眠剥夺 + 恢复睡眠 vs 正常睡眠，Western blot | PMID:38973508 | 中-高 |
 | 幼鼠睡眠依赖突触缩小（发育普遍性） | 幼鼠 SBEM，ASI 缩小 33.9% | PMID:31374117 | 中-高 |
 | SWA 功率与先前清醒突触使用正相关 | 单侧训练+局部EEG（综述引用多个实验） | Tononi & Cirelli 综述 | 中 |
+| **ON/OFF 双稳态是突触下调的充分因果条件**（新增 2026-10-14） | 清醒小鼠皮层光遗传诱导 ON/OFF → GluA1↓（t₇=5.51 p<0.001）+ pGluA1(Ser845)↓ + 后续 SWA↓（t₁₀=-17.69 p<0.001）；强直性抑制对照无效（p=0.62） | DOI:10.1038/s41593-026-02318-9 (PMC12632314) | 高（动物；直接因果） |
+| **ON/OFF 诱导恢复睡眠剥夺后的记忆巩固** | FTR：睡眠剥夺0.45±0.09 → 诱导后0.56±0.08（vs 正常睡眠0.61±0.08）；F=7.34, p=0.005 | DOI:10.1038/s41593-026-02318-9 (PMC12632314) | 中-高（动物；局限于感觉运动记忆） |
 
 ## 争议
 
@@ -100,11 +102,14 @@ key_sources: ["PMID:28154076", "PMID:30614089", "PMID:38973508", "PMID:31374117"
 
 - Q-shy-vs-active-consolidation（高优先）：能否在同一个实验中同时追踪"被 SWR 保护的突触"和"被下调的突触"，直接验证 down-selection？
 - Q-shy-molecular-mechanism：SO UP state 驱动突触 LTD 的分子触发器是什么？是 NMDAR 激活阈下的 Ca²⁺ 信号、mGluR 激活，还是内源性大麻素系统？
+- Q-shy-onoff-bistability-human（高优先）：经颅交流电刺激（tACS）或重复 TMS 序列能否在人类皮层中诱导可靠的 ON/OFF 双稳态周期？若能，是否能复现 Driessen 2026 在小鼠中观察到的突触下调和记忆效应？这是 SHY 人类治疗转化的关键障碍。
 
 ## 修订历史
 
 - 2026-07-07 · 创建 · 基于《三重协奏》(#75) · 初始置信度：中（超微结构直接证据强，但分子机制和 down-selection 的单突触验证仍待完成）
+- 2026-10-14 · 修订 rev2 · 基于《清醒中的"睡眠"》(#174) · 新增 Driessen et al. 2026 直接因果证据：清醒小鼠皮层 ON/OFF 诱导→突触 GluA1 下调+SWA 减少+记忆恢复，强直性抑制无效 → 将 ON/OFF 双稳态确立为突触稳态的充分执行单元；confidence 从 medium 升至 high；related 新增 up-down-state-mechanism、ampa-receptor；prerequisites 新增 cortical-slow-oscillation；opens_questions 新增 Q-shy-onoff-bistability-human；key_sources 新增 DOI:10.1038/s41593-026-02318-9 和 PMID:24411729
 
 ## 来源文章
 
 - [[2026-07-07-sleep-memory-consolidation-so-spindle-swr]]
+- [[2026-10-14-cortical-onoff-periods-sleep-shy-validation]]

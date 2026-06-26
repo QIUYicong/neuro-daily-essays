@@ -3985,3 +3985,22 @@
 **悬空引用（0个新增）**：无新悬空引用（thalamic-reticular-nucleus 和 mesocircuit-hypothesis 均已有专页）
 
 **图谱变化**：318节点/1885边 → **318节点/1889边**（+0节点，+4边：thalamic-reticular-nucleus↔mesocircuit-hypothesis双向边；disorders-of-consciousness→thalamic-reticular-nucleus边；disorders-of-consciousness→mesocircuit-hypothesis边强化）
+
+---
+
+## 2026-10-14 · 文章 #174 · 清醒中的"睡眠"：皮层 ON/OFF 双稳态是突触稳态假说的充分条件
+
+**突破追踪**：Driessen et al. 2026 Nature Neuroscience（DOI:10.1038/s41593-026-02318-9, PMC:PMC12632314）
+
+**修订页面（2个）**：
+
+- `wiki/concepts/shy-hypothesis.md` rev1→rev2：新增 Driessen 2026 直接因果证据（清醒小鼠皮层 ON/OFF 诱导→GluA1↓+SWA↓+记忆恢复；强直性抑制无效 p=0.62）；关键证据表新增2行；confidence medium→**high**；opens_questions 新增 Q-shy-onoff-bistability-human；prerequisites 新增 cortical-slow-oscillation；related 新增 up-down-state-mechanism、ampa-receptor；key_sources 新增 DOI:10.1038/s41593-026-02318-9
+- `wiki/concepts/cortical-slow-oscillation.md` rev4→rev5：新增关键功能验证：ON/OFF 双稳态是突触稳态充分执行机制（Driessen 2026）；关键证据表新增1行；key_sources 新增 DOI:10.1038/s41593-026-02318-9
+
+**新建页面（0个）**：无（ON/OFF 双稳态概念并入 cortical-slow-oscillation 和 shy-hypothesis，无需独立页）
+
+**矛盾登记（0个）**：无新矛盾（Driessen 2026 结果与既有 SHY 框架一致，支持并强化）
+
+**悬空引用（0个新增）**：无
+
+**图谱变化**：322节点/1912边 → **322节点/1915边**（+0节点；+3边：cortical-slow-oscillation→shy-hypothesis mechanism-of；cortical-slow-oscillation→ampa-receptor regulates；shy-hypothesis→up-down-state-mechanism prerequisite-for；shy-hypothesis节点confidence: medium→high）

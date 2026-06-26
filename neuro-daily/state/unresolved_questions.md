@@ -4954,3 +4954,15 @@
 - **来源文章**：2026-10-10-thalamus-attention-consciousness-trn
 - **问题**：Arnts 2022（PMID:35902627）单例 MEG 研究显示 50 Hz CT-DBS 优于 130 Hz（功能连接改善更大），但这一发现基于单个 MCS 患者，4.5 分钟无伪影数据。问题：（1）50 Hz vs 130 Hz 的差异是否具有普遍性，还是个体化最优频率存在？（2）哪类损伤机制（TBI vs 缺氧）、哪种残余网络连接特征（DTI/fMRI 生物标志物）的患者最可能响应 CT-DBS？（3）何时可能完成足够规模的 RCT 以确立标准治疗？
 - **当前证据状态**：Bergeron 2025 IPDMA 有统计意义改善（中-高）；最优频率：低（单例）；患者选择标准：无系统数据
+
+---
+
+## 2026-10-14 文章 #174 新增问题
+
+### Q-shy-onoff-bistability-human（高优先级）：人类皮层中能否无创诱导功能性 ON/OFF 双稳态周期？
+
+- **关联 wiki**：[[shy-hypothesis]]、[[cortical-slow-oscillation]]
+- **来源文章**：2026-10-14-cortical-onoff-periods-sleep-shy-validation
+- **问题**：Driessen et al. 2026 在小鼠中通过光遗传学（SOM+-ChR2 或 pyramidal-stGtACR1）诱导皮层 ON/OFF 周期，实现了突触下调和记忆恢复。人类不可直接使用光遗传学。问题：经颅交流电刺激（tACS）在慢波频率（~0.75 Hz）施加于特定皮层区域，能否可靠诱导 ON/OFF 双稳态周期（而非仅增强已有的 SO 振幅）？如果只是放大 SO 振幅而不产生真正的双稳态，根据"强直性抑制无效"对照的逻辑，这可能达不到突触下调效应。需要在人类颅内电极患者中同时记录 tACS 期间的单神经元放电，确认是否出现真正的 UP/DOWN 双稳态。
+- **关键实验**：tACS-0.75Hz 于 tACS-naïve 参与者体感皮层 → 同时 EEG 测量局部 SWA → 次日触觉记忆测试；也可在手术癫痫患者（颅内电极）中进行。
+- **当前证据状态**：Ngo 2013 Neuron（tACS 增强 SO 振幅→记忆改善，Pz 电极，n=11）：中（行为数据）；是否产生真正 ON/OFF 双稳态：未测量；具体的 tACS 参数到神经元 UP/DOWN 态的因果链：无直接数据

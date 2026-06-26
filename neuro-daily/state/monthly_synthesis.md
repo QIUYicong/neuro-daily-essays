@@ -1881,3 +1881,15 @@
 
 **图谱**：320节点/1903边（新增narcolepsy节点；+6边）
 **新增未解问题（4个）**：Q-ff-01（VLPO充分vs必要，高）、Q-ff-02（NREM/清醒与REM/NREM触发器协调，中）、Q-ff-03（SCN→食欲素突触通路，高）、Q-ff-04（KCNQ2人类转化，中）
+
+### 2026-10-14（#174）：清醒中的"睡眠"——ON/OFF 双稳态是突触稳态的充分条件（突破追踪）
+
+**一句话**：Driessen et al. 2026（Nature Neuroscience）在清醒小鼠皮层中通过光遗传学诱导 NREM 样 ON/OFF 周期 30 分钟，三重验证——SWA 减少（t₁₀=-17.69, p<0.001）、GluA1-AMPA 受体下调（t₇=5.51, p<0.001）、记忆巩固恢复（0.45→0.56 vs 0.61）——而强直性抑制（同等放电率降低，无 ON/OFF 转换）三项均无效（p=0.62），证明 ON/OFF 双稳态本身是 SHY 的充分执行单元，而非整体睡眠状态。
+
+**层级**：synaptic / cellular / microcircuit / cognition
+
+**修订 wiki 页（2个）**：concepts/shy-hypothesis (rev1→rev2, confidence medium→**high**，新增 Driessen 2026 因果证据)；concepts/cortical-slow-oscillation (rev4→rev5, 新增 ON/OFF 充分性证据)
+
+**图谱**：322节点/1912边 → **322节点/1915边**（+3边）
+
+**新增未解问题（1个）**：Q-shy-onoff-bistability-human（高，tACS能否在人类中诱导功能性ON/OFF双稳态）

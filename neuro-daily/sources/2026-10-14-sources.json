@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-14",
+  "article": "2026-10-14-cortical-onoff-periods-sleep-shy-validation",
+  "article_number": 174,
+  "topic": "皮层 ON/OFF 双稳态作为突触稳态假说充分条件的因果验证",
+  "sources": [
+    {
+      "id": "driessen-2026",
+      "citation": "Driessen K, Squarcio F, Tononi G, Cirelli C (2026). Induction of cortical on/off periods in awake mice fulfills sleep functions. Nature Neuroscience. DOI: 10.1038/s41593-026-02318-9",
+      "doi": "10.1038/s41593-026-02318-9",
+      "pmc": "PMC12632314",
+      "pmid": null,
+      "journal": "Nature Neuroscience",
+      "year": 2026,
+      "type": "original_research",
+      "open_access": true,
+      "full_text_read": true,
+      "role": "今日核心来源——直接因果实验，在清醒小鼠中诱导 ON/OFF 周期复现睡眠功能",
+      "key_data": {
+        "SWA_reduction_SOM": "t10=-17.69, p<0.001",
+        "SWA_reduction_ACR": "t9=-13.12, p<0.001",
+        "GluA1_SOM": "t7=5.51, p<0.001",
+        "GluA1_ACR": "t7=6.26, p<0.001",
+        "pGluA1_SOM": "t7=8.77, p<0.001",
+        "pGluA1_ACR": "t7=4.77, p<0.01",
+        "memory_sleep": "0.61±0.08",
+        "memory_SD": "0.45±0.09",
+        "memory_SD_OFF": "0.56±0.08",
+        "memory_ANOVA": "F=7.34, p=0.005",
+        "tonic_inhibition_control": "p=0.62, no significant effect",
+        "STTC_SOM": "t10=3.85, p=0.004",
+        "STTC_ACR": "t8=2.49, p=0.041"
+      },
+      "limitations": "光遗传学不可直接转化人类；30分钟诱导非全夜睡眠；仅测试非陈述性感觉运动记忆（FTR）；清醒期NE/ACh化学背景与真实睡眠不同"
+    },
+    {
+      "id": "tononi-cirelli-2014",
+      "citation": "Tononi G, Cirelli C (2014). Sleep and the price of plasticity: from synaptic and cellular homeostasis to memory consolidation and integration. Neuron 81:12-34.",
+      "pmid": "24411729",
+      "pmc": "PMC3921176",
+      "journal": "Neuron",
+      "year": 2014,
+      "type": "review",
+      "open_access": true,
+      "full_text_read": false,
+      "full_text_note": "摘要+PMC摘要可用；详细数据通过综述引用获取",
+      "role": "SHY 完整理论框架综述；提供 SWA-突触强度负债表预测和证据汇总"
+    },
+    {
+      "id": "de-vivo-2017",
+      "citation": "de Vivo L et al. (2017). Ultrastructural evidence for synaptic scaling across the wake/sleep cycle. Science 355:507-510.",
+      "pmid": "28154076",
+      "journal": "Science",
+      "year": 2017,
+      "type": "original_research",
+      "open_access": false,
+      "full_text_read": false,
+      "full_text_note": "未读取全文（需机构访问）；关键数据（SBEM 6920个突触，ASI ~18%缩小，选择性保留）来自 SHY 综述引用和公开摘要",
+      "role": "SHY 超微结构直接证据：睡眠后突触面积缩小约 18%"
+    },
+    {
+      "id": "tononi-cirelli-2006",
+      "citation": "Tononi G, Cirelli C (2006). Sleep function and synaptic homeostasis. Sleep Med Rev 10:49-62.",
+      "pmid": "16376591",
+      "journal": "Sleep Medicine Reviews",
+      "year": 2006,
+      "type": "review",
+      "open_access": false,
+      "full_text_read": false,
+      "full_text_note": "未读取全文（摘要可用）；引用用于 SHY 假说历史归因",
+      "role": "SHY 假说原始提出（2003 Brain Res Bull 进一步发展成完整综述）"
+    },
+    {
+      "id": "tononi-cirelli-2020",
+      "citation": "Tononi G, Cirelli C (2020). Sleep and synaptic down-selection. Eur J Neurosci 51:397-408.",
+      "pmid": "30614089",
+      "journal": "European Journal of Neuroscience",
+      "year": 2020,
+      "type": "review",
+      "open_access": false,
+      "full_text_read": false,
+      "full_text_note": "未读取全文（摘要可用）",
+      "role": "SHY down-selection 框架更新：从均匀 downscaling 到选择性 down-selection"
+    }
+  ],
+  "search_queries": [
+    "Driessen Squarcio Tononi Cirelli cortical on/off periods awake mice sleep functions Nature Neuroscience 2026",
+    "Tononi Cirelli synaptic homeostasis hypothesis SHY review 2026",
+    "PMC12632314 cortical ON/OFF periods sleep",
+    "de Vivo 2017 Science SBEM synaptic scaling sleep wake"
+  ],
+  "candidates_reviewed": 8,
+  "adopted": 5,
+  "excluded": [
+    {
+      "query_result": "ScienceDaily general coverage",
+      "reason": "非一手来源；已通过 NIH news release 和 PMC 全文获取原始数据"
+    },
+    {
+      "query_result": "Physiological Reviews Sleep memory review",
+      "reason": "未能获取全文；相关内容已通过 Tononi 2014 和 2020 综述覆盖"
+    },
+    {
+      "query_result": "EMBO Workshop Neuroscience of Sleep 2025 PMC12352275",
+      "reason": "会议报告，非原始研究；本文已有足够一手来源"
+    }
+  ]
+}

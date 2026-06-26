@@ -10680,7 +10680,7 @@
       ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
-      "core_question": "腺苷作为大脑清醒代谢副产品（主要由星形胶质细胞释放 ATP→NTPDase 水解→胞外腺苷）如何精确编码"已清醒多久"的信息，通过 A₁R（Gi偶联，基底前脑胆碱能区域）和 A₂AR（Gs偶联，伏隔核）两条独立通路分别控制 NREM 慢波活动深度（Process S 质量）和入睡时机（Process S 时机），从而作为 Borbély 两进程模型 Process S 的分子实体，并通过驱动睡眠-清醒双稳触发器（VLPO-觉醒系统互抑回路）从清醒态翻转到睡眠态？",
+      "core_question": "腺苷作为大脑清醒代谢副产品（主要由星形胶质细胞释放 ATP→NTPDase 水解→胞外腺苷）如何精确编码\"已清醒多久\"的信息，通过 A₁R（Gi偶联，基底前脑胆碱能区域）和 A₂AR（Gs偶联，伏隔核）两条独立通路分别控制 NREM 慢波活动深度（Process S 质量）和入睡时机（Process S 时机），从而作为 Borbély 两进程模型 Process S 的分子实体，并通过驱动睡眠-清醒双稳触发器（VLPO-觉醒系统互抑回路）从清醒态翻转到睡眠态？",
       "layer": [
         "molecular",
         "cellular",
@@ -10725,6 +10725,57 @@
         "glymphatic-system wiki page - SWS-period CSF clearance of Aβ/tau; AQP4 water channel; already referenced from multiple pages",
         "narcolepsy wiki page - orexin loss, flip-flop destabilization, HLA-DQB1*06:02 autoimmune etiology; referenced from flip-flop-switch page",
         "astrocyte-tripartite-synapse wiki page - prerequisite for adenosine page; star for 3-part synapse architecture"
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "article_number": 174,
+      "title": "清醒中的'睡眠'：皮层 ON/OFF 双稳态足以实现突触稳态——Driessen 等 2026 年 Nature Neuroscience 的临界验证",
+      "mode": "突破追踪（2026-06-08 Nature Neuroscience）",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/shy-hypothesis.md (rev1→rev2: ON/OFF 因果验证+confidence medium→high+Q-shy-onoff-bistability-human)",
+        "wiki/concepts/cortical-slow-oscillation.md (rev4→rev5: ON/OFF 双稳态是突触稳态充分执行机制)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "在清醒小鼠皮层中人工诱导 NREM 睡眠样 ON/OFF 双稳态周期，能否不经历完整睡眠就实现突触下调（GluA1-AMPA 受体减少）、降低后续睡眠 SWA（睡眠压力减轻），并恢复记忆巩固？——Driessen et al. 2026 答案：是的，而且强直性抑制（同等放电率降低但无 ON/OFF 转换）无效，证明 ON/OFF 双稳态本身是 SHY 的充分执行单元。",
+      "layer": [
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱4（学习与记忆）+ 课程脊柱8（睡眠）+ 突破追踪（Driessen 2026）",
+      "topic_tags": [
+        "SHY synaptic-homeostasis Tononi Cirelli sleep function",
+        "cortical ON/OFF bistability UP-DOWN state",
+        "optogenetics SOM+ somatostatin interneuron ChR2 pyramidal ACR",
+        "GluA1 AMPA receptor phospho-Ser845 synaptic downscaling",
+        "SWA slow-wave-activity sleep pressure reduction",
+        "floor texture recognition FTR memory consolidation restore",
+        "tonic inhibition halorhodopsin control negative",
+        "unihemispheric sleep dolphin bird local sleep",
+        "de Vivo 2017 SBEM 18% synapse shrinkage Science",
+        "Tononi Cirelli 2014 Neuron price of plasticity"
+      ],
+      "main_sources": [
+        "DOI:10.1038/s41593-026-02318-9 (PMC:PMC12632314) - Driessen et al. 2026 Nat Neurosci (核心，开放全文)",
+        "PMID:24411729 (PMC:PMC3921176) - Tononi & Cirelli 2014 Neuron (SHY 完整综述)",
+        "PMID:28154076 - de Vivo et al. 2017 Science (SBEM突触超微结构直接证据)",
+        "PMID:16376591 - Tononi & Cirelli 2006 Sleep Med Rev (SHY 原始提出)",
+        "PMID:30614089 - Tononi & Cirelli 2020 (down-selection框架)"
+      ],
+      "unresolved_questions": [
+        "Q-shy-onoff-bistability-human",
+        "Q-shy-vs-active-consolidation",
+        "Q-shy-molecular-mechanism"
+      ],
+      "next_suggested_topics": [
+        "REM 睡眠与突触稳态：SHY 预测 REM 也应有突触下调，但 REM 无 ON/OFF 周期——REM 的突触功能是加固情绪记忆还是创造性重组？",
+        "AMPA 受体循环与突触下调分子机制：GluA1 Ser845/Ser831 磷酸化-脱磷酸化开关；PICK1/NSF/AP2 内吞机制；何时 CaMKII 导致 LTD 而非 LTP？",
+        "经颅交流电刺激（tACS）与睡眠优化：能否用 tACS 增强 SO 振幅以改善记忆巩固和突触稳态？Ngo 2013 等相关实验；人类转化障碍",
+        "发作性睡病（Narcolepsy）专页：flip-flop switch 的人类疾病验证；食欲素丧失→状态不稳定→猝倒（REM 入侵）；已在 flip-flop-switch 页引用"
       ]
     }
   ]
