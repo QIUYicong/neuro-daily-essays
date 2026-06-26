@@ -110,5 +110,8 @@
 
 ---
 
-**状态**：等待推送确认后标记完成
-**预期 commit hash**：待填入
+**状态**：✅ 成功推送到 origin/main
+**commit hash**：6e312e0
+**branch URL**：https://github.com/QIUYicong/neuro-daily-essays/tree/main
+**新建文件**：articles/2026-10-09-mli-cerebellar-interneuron-plasticity.md, wiki/neurons/molecular-layer-interneuron.md, wiki/concepts/rebound-potentiation.md, notes/2026-10-09-reading-notes.md, sources/2026-10-09-sources.json, logs/2026-10-09-run.log
+**修改文件**：wiki/concepts/cerebellar-ltd.md (rev5), wiki/neurons/purkinje-cell.md (rev3), wiki/_graph.json, wiki/index.md, wiki/CHANGELOG.md, state/{topic_ledger, unresolved_questions, source_registry, maturity_index, monthly_synthesis}
