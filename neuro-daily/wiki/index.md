@@ -347,6 +347,7 @@
 - 🟢 [创伤后应激障碍（PTSD）](diseases/ptsd.md) — 三角失调模型：杏仁核（过度激活）/vmPFC（沉默/消退刹车失效）/海马（萎缩+苔藓细胞受损→模式分离失败）；恐惧泛化是核心症状；两条治疗靶点（消退增强 vs 再巩固干预）；5-HT 递质身份切换新发现 **[NEW 2026-08-26]**
 - 🟢 [成瘾（物质使用障碍）](diseases/addiction.md) — 成瘾是习惯系统被病理性招募的极端案例；Koob-Volkow三阶段模型（狂欢→戒断负性情感→执念期待）；腹侧→背侧纹状体控制权迁移（Everitt-Robbins框架）；Berridge-Robinson激励敏化：wanting↑/liking↓解耦；ΔFosB分子棘轮（每次用药阶梯式蓄积，数周不降解）；渴望孵化现象；Zapata 2010 DLS直接因果证据；习惯易感性预测严重度（Giuliano 2021）**[NEW 2026-09-27]**
 - 🟢 [肌萎缩侧索硬化症（ALS）](diseases/als-amyotrophic-lateral-sclerosis.md) — TDP-43 核清除是 ALS 统一病理标志（>97%）；C9orf72 三叉毒矛（LOF/RNA foci/DPR）；poly-GR/PR 毒性最强且与 TDP-43 特异共定位；UNC13A/STMN2 隐蔽外显子是 TDP-43 LOF 的关键下游；运动神经元四重脆弱性（超长轴突/低钙缓冲/高Ca²⁺通透AMPA/持续皮质驱动）；tofersen-SOD1-ALS 临床里程碑 **[NEW 2026-09-11]**
+- 🟢 [发作性睡病（NT1）](diseases/narcolepsy.md) — 外侧下丘脑食欲素神经元 85–95% 被 T 细胞介导的自身免疫选择性摧毁；翻转开关失去稳定器→清醒态无法维持、猝倒（情绪→杏仁核→vlPAG-LPT→SLD 脱抑制）、REM 元素白天破堤；HLA-DQB1*06:02 关联（风险×200）；Pandemrix 疫苗→儿童 NT1 增加 8–12 倍；OX2R 激动剂（YNT-185/Danavorexton）代表从症状管理到机制替代的范式转变 **[NEW 2026-10-14]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
 

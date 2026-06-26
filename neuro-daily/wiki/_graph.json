@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "node_count": 318,
   "edge_count": 1889,
   "edge_types": [
@@ -13654,6 +13654,36 @@
       "to": "flip-flop-switch-sleep-wake",
       "type": "related",
       "note": "两进程共同决定触发器翻转时机"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "rem-sleep",
+      "type": "related",
+      "note": "REM 睡眠机制在 NT1 中被误激活（猝倒=清醒期 REM 肌张力丧失；入睡幻觉=REM 梦境渗透）"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "adenosine",
+      "type": "related",
+      "note": "NT1 中腺苷 Process S 积累正常，但翻转开关阈值崩溃，两者分离揭示睡眠调控的双组件性"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "amygdala",
+      "type": "mechanism-of",
+      "note": "情绪激活→杏仁核→抑制 vlPAG-LPT→SLD 脱抑制是猝倒的特异性回路机制"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "ascending-arousal-system",
+      "type": "related",
+      "note": "食欲素是 AAS 总指挥；NT1 导致 AAS 整体不稳定"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "two-process-model",
+      "type": "related",
+      "note": "NT1 中 Process S（腺苷）仍正常运行，但 Process C 的昼夜节律门控效应因翻转开关失稳而无法有效维持清醒"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,123 @@
+# 运行日志 · 2026-10-14
+
+**运行时间（UTC）**：2026-06-27 ~07:00–10:00 CST（Beijing time）
+**文章编号**：#174
+**分支**：claude/funny-einstein-mcpsyy（任务要求分支）/ main（ROUTINE.md 单分支模式）
+**注意**：本次运行在上一次 (#173 腺苷) 结束后同一 CST 日继续，延续 2026-10-14 序列
+
+---
+
+## 执行摘要
+
+成功完成 2026-10-14 文章生成与 wiki 固结。文章主题：1型发作性睡病（NT1）——食欲素神经元自身免疫性毁损如何导致睡眠-清醒翻转开关失去稳定器，以及猝倒回路、HLA-DQB1*06:02 遗传机制、OX2R 激动剂治疗前景。新建 wiki 页 1 个（diseases/narcolepsy），修订现有页面 2 个（orexin-hypocretin、flip-flop-switch-sleep-wake）。此外修复了 topic_ledger.json 和 source_registry.json 的 JSON 格式错误（前者：未转义双引号；后者：数组元素 bare object 无 key）。
+
+---
+
+## 状态读取
+
+- **topic_ledger**：2026-10-13 为最近一篇（#173 腺苷 Process S），总计 173 篇
+- **unresolved_questions**：高优先级 Q-ff-01、Q-ff-03；Q-narc-01、Q-narc-02 待新增
+- **_graph.json**（运行前）：320 节点 / 1912 边
+- **JSON 错误修复**：
+  - topic_ledger.json：`"已清醒多久"` 中的裸双引号（pos 413325）→ 转义为 `\"已清醒多久\"`
+  - source_registry.json：2026-10-13 条目为裸 `{ ... }` 无 key（pos 505974）→ 添加 `"sources_2026-10-13":` key
+
+---
+
+## 选题决策
+
+- **选题机制**：前序文章（#173 腺苷）建议 narcolepsy wiki page（中优先级）；#172 flip-flop switch 将 NT1 作为"稳定器缺失"的病例；wiki/index.md 无 narcolepsy 条目（确认 gap）
+- **最终主题**：发作性睡病1型（NT1）——当翻转开关失去稳定器
+- **核心问题**：NT1 如何揭示食欲素在维持翻转开关稳定性中的不可替代角色（食欲素神经元丢失机制、猝倒回路、T细胞自身免疫、OX2R激动剂治疗）
+- **理由**：(1) flip-flop-switch 和 orexin-hypocretin 页面均引用 narcolepsy 为关键病例但无独立 wiki 页；(2) NT1 横跨分子/细胞/系统/疾病多层级——高教育价值；(3) 自身免疫机制（HLA-DQB1*06:02、T细胞、Pandemrix）与猝倒回路（vlPAG-LPT-SLD）提供了全新知识点
+
+---
+
+## 来源检索
+
+**检索工具**：NCBI E-utilities (esearch + efetch) + PMC Open Access
+
+**主要检索词**：
+- `orexin hypocretin narcolepsy cataplexy mouse knockout 1999 Chemelli` → PMID:10481909（Cell，非常高）
+- `narcolepsy cataplexy circuit orexin VLPAG SLD brainstem` → PMID:30546103（PMC:6492289，Scammell 2019 Nat Rev Neurosci，开放全文）
+- `narcolepsy type 1 review HLA autoimmune 2017` → PMID:28179647（Kornum 2017 Nat Rev Dis Primers）
+- `narcolepsy CD4 CD8 T cells prepro-orexin HLA Nature 2018` → PMID:30232458（Latorre 2018 Nature）
+- `OX2R agonist YNT-185 narcolepsy cataplexy mouse PNAS` → PMID:28507129
+- `OX2R selective agonist narcolepsy reward PLoS One 2022` → PMID:35867683（PMC:9301587，开放全文）
+- `Pandemrix H1N1 narcolepsy children HLA epidemiology` → PMID:29855798
+
+**开放访问全文获取**：PMID:30546103（PMC:6492289）、PMID:35867683（PMC:9301587）；其余来源摘要
+
+---
+
+## 文章写作
+
+**文件**：neuro-daily/articles/2026-10-14-narcolepsy-orexin-flip-flop-disease.md
+**字符数**：约 5,200 汉字
+**结构**：核心问题 → 一句话总结 → 为什么重要 → 背景（翻转开关稳定器）→ 机制1（食欲素解剖生理）→ 机制2（NT1神经病理）→ 机制3（猝倒回路）→ 机制4（自身免疫）→ 证据表 → 类比（GPS的卫星信号丢失）→ 认知地图影响 → 争议 → AI对照 → 概念卡片 → 参考来源
+**类比亮点**：食欲素神经元好比 GPS 的卫星信号——翻转开关系统（道路导航）在卫星存在时工作正常；NT1 时卫星消失，系统在每个十字路口都可能随机重算路线（随机状态切换）
+
+---
+
+## 阅读笔记
+
+**文件**：neuro-daily/notes/2026-10-14-reading-notes.md
+**覆盖来源**：8 篇主要来源（2 篇开放全文 + 6 篇摘要）
+**关键发现汇总**：
+- Chemelli 1999 (PMID:10481909): 食欲素KO小鼠→多次每日嗜睡发作+直接REM入睡；首次证明食欲素缺失导致发作性睡病表型（非常高因果证据）
+- Scammell 2019 (PMID:30546103, full text): 猝倒回路vlPAG→SLD→延髓→脊髓运动神经元；杏仁核→vlPAG-LPT投射；正面情绪为何比负面更容易触发
+- Latorre 2018 (PMID:30232458): 高灵敏度四聚体检测→NT1患者CSF中检出prepro-orexin特异性CD4+/CD8+ T细胞
+- Pandemrix (PMID:29855798): 儿童NT1风险增加8-12倍，所有病例HLA-DQB1*06:02阳性，支持分子模拟假说
+
+---
+
+## Wiki 固结
+
+### 新建页面（1 个）
+
+**wiki/diseases/narcolepsy.md**（rev1）
+- slug: narcolepsy, domain: diseases, type: disease, status: established, confidence: high
+- 核心内容：食欲素缺失→翻转开关失稳、猝倒特异性回路、自身免疫机制（HLA-DQB1*06:02、T细胞、Pandemrix）、3个未解问题
+- related: [orexin-hypocretin, flip-flop-switch-sleep-wake, rem-sleep, ascending-arousal-system, adenosine, hla-system, amygdala, vlpo-sleep-center]
+- key_sources: ["PMID:10481909", "PMID:30546103", "PMID:28179647", "PMID:30232458", "PMID:28507129", "PMID:35867683"]
+- opens_questions: [Q-narc-01, Q-narc-02, Q-narc-03]
+
+### 修订页面（2 个）
+
+**wiki/concepts/orexin-hypocretin.md**（rev1→rev2）
+- 新增猝倒回路机制段落（vlPAG-LPT-SLD 电路，Scammell 2019）
+- 新增 OX2R 激动剂 preclinical 数据（YNT-185、Yamamoto 2022）
+- 更新 related（narcolepsy、adenosine、amygdala）、opens_questions（Q-narc-01、Q-narc-02）
+- 新增 source_articles: 2026-10-14-narcolepsy-orexin-flip-flop-disease
+
+**wiki/systems/flip-flop-switch-sleep-wake.md**（rev2→rev3）
+- 新增 [[narcolepsy]] 疾病页面引用（source_articles 更新）
+- 修订历史 rev3 条目
+
+### 图谱更新
+
+- 节点：320 → 320（narcolepsy 节点已存在）
+- 边：1912 → 1917（+5 新边）
+- 新增边：narcolepsy→rem-sleep(related)、narcolepsy→adenosine(related)、narcolepsy→amygdala(mechanism-of)、narcolepsy→ascending-arousal-system(related)、narcolepsy→two-process-model(related)
+- 悬空引用（不阻断运行）：vlpo-sleep-center（narcolepsy related 中）、hla-system（narcolepsy related 中）——已在 CHANGELOG.md 注记
+
+---
+
+## 状态文件更新
+
+- [x] neuro-daily/wiki/CHANGELOG.md（2026-10-14 新增节）
+- [x] neuro-daily/wiki/index.md（diseases 段新增 narcolepsy 条目）
+- [x] neuro-daily/state/topic_ledger.json（修复 JSON 错误；新增 #174 条目，total_articles 173→174）
+- [x] neuro-daily/state/unresolved_questions.md（新增 Q-narc-01、Q-narc-02、Q-narc-03）
+- [x] neuro-daily/state/source_registry.json（修复 JSON 错误；新增 sources_2026-10-14 条目）
+- [x] neuro-daily/state/monthly_synthesis.md（更新 2026年10月月报表格行；新增 #174 综合节）
+- [x] neuro-daily/state/maturity_index.json（新增 narcolepsy 条目）
+
+---
+
+## 下次建议选题
+
+1. **hla-system wiki page**（高优先级）——narcolepsy 和 orexin-hypocretin 页面均引用 hla-system 为悬空节点；HLA-DQ结构、MHC class II 抗原呈递、T细胞活化机制
+2. **vlpo-sleep-center wiki page**（高优先级）——narcolepsy 和 flip-flop-switch 引用；VLPO 解剖（GABA+甘丙肽神经元）、睡眠活跃细胞、投射靶点
+3. **astrocyte-tripartite-synapse wiki page**（中优先级）——adenosine（#173）和 slow-wave-sleep 均引用；三方突触结构、星形胶质细胞谷氨酸摄取、D-丝氨酸释放、ATP→腺苷通路
+4. **glymphatic-system wiki page**（中优先级）——多页引用，AQP4 已有页面；睡眠期脑清除功能与阿尔茨海默病风险

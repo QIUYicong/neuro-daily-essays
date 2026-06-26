@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-10-12
-updated: 2026-10-13
-revision_count: 2
+updated: 2026-10-14
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition, disease]
 related: [ascending-arousal-system, vlpo-sleep-center, orexin-hypocretin, neuromodulator-systems, narcolepsy, rem-sleep, slow-wave-sleep, circadian-clock, thalamic-reticular-nucleus, adenosine]
 prerequisites: [ascending-arousal-system, neuromodulator-systems, synaptic-inhibition]
 opens_questions: [Q-ff-01, Q-ff-02, Q-ff-03, Q-ff-04]
-source_articles: [2026-10-12-flip-flop-switch-sleep-wake, 2026-10-13-adenosine-sleep-homeostasis-process-s]
+source_articles: [2026-10-12-flip-flop-switch-sleep-wake, 2026-10-13-adenosine-sleep-homeostasis-process-s, 2026-10-14-narcolepsy-orexin-flip-flop-disease]
 key_sources: ["PMID:30297727", "PMID:33381012", "PMID:24760861", "PMID:24651580", "PMID:35201886", "PMID:16254994", "PMID:9157887", "PMID:19193874"]
 ---
 
@@ -114,6 +114,7 @@ key_sources: ["PMID:30297727", "PMID:33381012", "PMID:24760861", "PMID:24651580"
 |------|------|------|---------|
 | rev1 | 2026-10-12 | 初始页面建立：VLPO-TMN互抑回路、食欲素稳定器、发作性睡病、老年睡眠碎片化KCNQ2机制、药物靶点 | #172 |
 | rev2 | 2026-10-13 | 扩展"睡眠的主动性"段落：明确腺苷（A₁R）是双稳触发器从清醒→睡眠翻转的内稳态驱动力（Process S），连接 [[two-process-model]] 和 [[adenosine]] 页面；添加腺苷相关 key_sources | #173 |
+| rev3 | 2026-10-14 | 新增 [[narcolepsy]] 疾病页面作为"翻转开关失去稳定器"的疾病窗口；添加今日文章为 source_articles；更新 related/key_sources | #174 |
 
 ## 来源文章
 

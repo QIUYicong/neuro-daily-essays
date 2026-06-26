@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-13",
-  "total_articles": 173,
+  "last_updated": "2026-10-14",
+  "total_articles": 174,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10680,7 +10680,7 @@
       ],
       "contested_claims_logged": [],
       "contested_claims_evidence_updated": [],
-      "core_question": "腺苷作为大脑清醒代谢副产品（主要由星形胶质细胞释放 ATP→NTPDase 水解→胞外腺苷）如何精确编码"已清醒多久"的信息，通过 A₁R（Gi偶联，基底前脑胆碱能区域）和 A₂AR（Gs偶联，伏隔核）两条独立通路分别控制 NREM 慢波活动深度（Process S 质量）和入睡时机（Process S 时机），从而作为 Borbély 两进程模型 Process S 的分子实体，并通过驱动睡眠-清醒双稳触发器（VLPO-觉醒系统互抑回路）从清醒态翻转到睡眠态？",
+      "core_question": "腺苷作为大脑清醒代谢副产品（主要由星形胶质细胞释放 ATP→NTPDase 水解→胞外腺苷）如何精确编码\"已清醒多久\"的信息，通过 A₁R（Gi偶联，基底前脑胆碱能区域）和 A₂AR（Gs偶联，伏隔核）两条独立通路分别控制 NREM 慢波活动深度（Process S 质量）和入睡时机（Process S 时机），从而作为 Borbély 两进程模型 Process S 的分子实体，并通过驱动睡眠-清醒双稳触发器（VLPO-觉醒系统互抑回路）从清醒态翻转到睡眠态？",
       "layer": [
         "molecular",
         "cellular",
@@ -10726,6 +10726,54 @@
         "narcolepsy wiki page - orexin loss, flip-flop destabilization, HLA-DQB1*06:02 autoimmune etiology; referenced from flip-flop-switch page",
         "astrocyte-tripartite-synapse wiki page - prerequisite for adenosine page; star for 3-part synapse architecture"
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "article_number": 174,
+      "title": "当翻转开关失去稳定器：发作性睡病揭示食欲素的不可替代",
+      "core_question": "1型发作性睡病如何揭示食欲素系统在维持翻转开关稳定性中的不可替代角色——食欲素神经元丢失机制、猝倒回路、T细胞自身免疫、OX2R激动剂治疗？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "topic_tags": [
+        "narcolepsy type 1 orexin hypocretin neurons loss",
+        "flip-flop switch stabilizer destabilization",
+        "cataplexy vlPAG LPT SLD amygdala circuit",
+        "HLA-DQB1*06:02 autoimmune T cell prepro-orexin",
+        "Pandemrix H1N1 vaccine molecular mimicry",
+        "OX2R agonist YNT-185 danavorexton ALKS2680",
+        "Chemelli 1999 orexin knockout mouse narcolepsy",
+        "Scammell 2019 Nat Rev Neurosci cataplexy circuit",
+        "Latorre 2018 Nature CD4 CD8 T cells orexin",
+        "CSF hypocretin-1 biomarker 110 pg/mL diagnostic threshold"
+      ],
+      "main_sources": [
+        "PMID:10481909 - Chemelli 1999 Cell (orexin KO mouse narcolepsy model, foundational)",
+        "PMID:30546103 (PMC:6492289) - Scammell 2019 Nat Rev Neurosci (cataplexy circuit, full text)",
+        "PMID:28179647 - Kornum 2017 Nat Rev Dis Primers (NT1 comprehensive primer)",
+        "PMID:30232458 - Latorre 2018 Nature (CD4/CD8 T cells to orexin peptides)",
+        "PMID:28507129 - Irukayama-Tomobe 2017 PNAS (YNT-185 OX2R agonist)",
+        "PMID:35867683 (PMC:9301587) - Yamamoto 2022 PLoS One (OX2R selective, open access)",
+        "PMID:29855798 - Sarkanen 2018 (Pandemrix epidemiology)"
+      ],
+      "unresolved_questions": [
+        "Q-narc-01",
+        "Q-narc-02",
+        "Q-narc-03"
+      ],
+      "next_suggested_topics": [
+        "hla-system wiki page — required prerequisite for narcolepsy page; HLA-DQ structure, antigen presentation to CD4+ T cells; referenced from narcolepsy/orexin pages",
+        "vlpo-sleep-center wiki page — dangling reference in narcolepsy related list; VLPO anatomy, GABA+galanin neurons, sleep-active cells",
+        "astrocyte-tripartite-synapse wiki page — still in backlog from adenosine article; adenosine prerequisites page",
+        "two-process-model deepening — may benefit from SCN molecular detail update now that circadian-clock page exists"
+      ],
+      "curriculum_track": "Sleep series part 6: TRN(#170)->SWR-timing(#171)->flip-flop switch(#172)->adenosine/Process S(#173)->narcolepsy disease window(#174); 课程脊柱11（疾病作为窗口：睡眠调控的自然实验）"
     }
   ]
 }

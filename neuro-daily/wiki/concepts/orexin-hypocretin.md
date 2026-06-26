@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-10
-updated: 2026-08-10
-revision_count: 1
+updated: 2026-10-14
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, disease]
-related: [ascending-arousal-system, flip-flop-switch-sleep-wake, neuromodulator-systems, rem-sleep, disorders-of-consciousness]
+related: [ascending-arousal-system, flip-flop-switch-sleep-wake, neuromodulator-systems, rem-sleep, disorders-of-consciousness, narcolepsy, adenosine, amygdala]
 prerequisites: [neuromodulator-systems, synaptic-transmission]
-opens_questions: [Q-orexin-gene-therapy-timeline, Q-orexin-NT2-conversion]
-source_articles: [2026-08-10-ascending-arousal-system-brainstem-wakefulness]
-key_sources: ["PMID:41076550", "PMID:35878679", "PMID:21280045"]
+opens_questions: [Q-orexin-gene-therapy-timeline, Q-orexin-NT2-conversion, Q-narc-01, Q-narc-02]
+source_articles: [2026-08-10-ascending-arousal-system-brainstem-wakefulness, 2026-10-14-narcolepsy-orexin-flip-flop-disease]
+key_sources: ["PMID:41076550", "PMID:35878679", "PMID:21280045", "PMID:10481909", "PMID:30546103", "PMID:30232458", "PMID:28507129", "PMID:35867683"]
 ---
 
 # 食欲素（下丘脑泌素）与发作性睡病 (Orexin/Hypocretin & Narcolepsy)
@@ -49,19 +49,37 @@ NT1是食欲素神经元被T细胞介导的自身免疫选择性摧毁的结果�
 | 入睡期幻觉 | REM的视觉梦境溢出至半清醒状态 |
 | 睡眠瘫痪 | 肌肉张力从REM状态延迟恢复 |
 
+### 猝倒（Cataplexy）的回路机制——NT1 中 REM 肌张力丧失的误触发
+
+猝倒是 NT1 最具诊断特异性的症状，其机制揭示了食欲素在维持清醒期 REM 回路静默中的关键作用：
+
+**正常 REM 期肌张力丧失回路**：背外侧桥脑被盖（SLD）→ 延髓网状结构 → 脊髓运动神经元抑制。清醒期，SLD 被腹外侧导水管周围灰质（vlPAG）和外侧桥脑被盖（LPT）持续抑制。
+
+**食欲素的角色**：食欲素神经元直接兴奋 vlPAG，强化其对 SLD 的抑制，防止清醒期出现 REM 肌张力丧失。
+
+**NT1 中的猝倒机制**（Scammell 2019，PMID:30546103 / PMC:6492289）：
+1. 食欲素缺失 → vlPAG 抑制 SLD 能力减弱
+2. 正面情绪（大笑等）→ 杏仁核激活 → 杏仁核通过直接投射抑制 vlPAG-LPT
+3. 在食欲素已缺失的背景下，杏仁核额外抑制足以使 SLD 脱抑制
+4. SLD 激活 → 延髓抑制脊髓运动神经元 → 清醒期突然出现 REM 肌张力丧失
+
+**为何正面情绪比负面情绪更容易触发**：参与正面奖励加工的杏仁核亚区对 vlPAG-LPT 的投射效应更强；恐惧回路同时激活 dPAG，后者有部分对抗效应。
+
 ### 治疗前景
 
-**现有治疗**：莫达非尼（非特异性促觉醒）、羟丁酸钠（改善猝倒）
+**现有治疗**：莫达非尼（非特异性促觉醒）、羟丁酸钠（改善猝倒）、文拉法辛（控制猝倒）
 
-**针对食欲素受体的靶向治疗**：
-- **Danavorexton (TAK-925)**：选择性OX2R激动剂，2024年多中心II/III期试验：维持清醒测试（MWT）改善11.1分（超过莫达非尼）
-- **ALKS 2680**：口服OX2R激动剂，Phase 2试验进行中
+**针对食欲素受体的靶向治疗（机制性替代）**：
+- **YNT-185**（PMID:28507129）：第一个非肽类 OX2R 选择性小分子激动剂；KO 小鼠中减少猝倒、促进清醒，无反弹睡眠、无耐受性
+- **OX2R 选择性激动剂**（PMID:35867683）：改善效果与 OxA 相当，但药物寻求行为倾向更低（安全性优势）
+- **Danavorexton (TAK-925)**：静脉 OX2R 激动剂，II/III 期；MWT 改善超过莫达非尼
+- **ALKS 2680**：口服 OX2R 激动剂，Phase 2 进行中
 
 **前沿策略**：
-- AAV载体介导前体食欲素基因治疗（血脑屏障穿越+靶向LH表达）
-- 干细胞来源食欲素神经元移植（动物模型效力约60%）
+- AAV 载体介导前体食欲素基因治疗（血脑屏障穿越 + 靶向 LH 表达）
+- 干细胞来源食欲素神经元移植（动物模型效力约 60%）
 
-**对照**：双食欲素受体拮抗剂（DORAs，如lemborexant）用于治疗失眠——通过拮抗食欲素受体促进睡眠，与NT1治疗方向相反，体现了食欲素系统的双向干预潜力。
+**对照**：双食欲素受体拮抗剂（DORAs，如 lemborexant、suvorexant）用于治疗失眠——拮抗食欲素受体促进睡眠，与 NT1 治疗方向完全相反，体现了食欲素系统双向干预潜力。
 
 ## 关键证据
 
@@ -75,4 +93,5 @@ NT1是食欲素神经元被T细胞介导的自身免疫选择性摧毁的结果�
 
 | 版本 | 日期 | 变化 | 来源文章 |
 |------|------|------|---------|
-| rev1 | 2026-08-10 | 初始页面；食欲素生理/NT1病理/治疗前景 | #109 |
+| rev1 | 2026-08-10 | 初始页面；食欲素生理/NT1 病理/治疗前景 | #109 |
+| rev2 | 2026-10-14 | 新增猝倒回路机制（vlPAG-SLD 电路，基于 Scammell 2019）；新增 OX2R 激动剂 preclinical 数据（YNT-185, Yamamoto 2022）；更新 related、key_sources | #174 |

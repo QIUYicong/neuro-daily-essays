@@ -976,5 +976,13 @@
     "confidence": "high",
     "last_changed": "2026-10-13",
     "reason": "新建 rev1 · #173 · Borbély 1982 两进程框架已是睡眠领域最核心的理论框架；EEG SWA 预测 Process S（Borbély 1982，高）；腺苷是 Process S 分子实体（Porkka-Heiskanen 1997，高）；S-C 双向调制（Deboer 2018，中）；多项独立实验室验证；理论框架整体处于 established 水平"
+  },
+  {
+    "slug": "narcolepsy",
+    "page": "wiki/diseases/narcolepsy.md",
+    "current_status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-14",
+    "reason": "新建 rev1 · #174 · 食欲素KO小鼠发作性睡病表型（Chemelli 1999 Cell，非常高因果）；NT1尸检85-95%食欲素神经元丢失（多中心一致，非常高）；HLA-DQB1*06:02→200×风险（遗传流行病学，非常高）；CSF Hcrt-1<110 pg/mL特异性99%（临床标准）；猝倒vlPAG-LPT-SLD回路（Scammell 2019 Nat Rev Neurosci，高）；T细胞prepro-orexin反应（Latorre 2018 Nature，中-高）；Pandemrix流行病学（高）；NT1作为翻转开关稳定器缺失的疾病模型证据充分，整体established/high"
   }
 ]

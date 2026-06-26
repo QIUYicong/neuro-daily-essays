@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-10-14（#174）：当翻转开关失去稳定器——发作性睡病与食欲素系统
+
+**文章**：《当翻转开关失去稳定器：发作性睡病揭示食欲素的不可替代》（#174）
+
+**类型**：疾病作为窗口（Narcolepsy）× 睡眠调控系列延续（#170 TRN → #171 SWR → #172 翻转开关 → #173 腺苷 → #174 NT1 疾病窗口）；层级：molecular × cellular × brain-region × behavior × cognition × disease
+
+**新创建页面（1）**：
+- `wiki/diseases/narcolepsy.md`（rev1）：NT1 完整疾病页面；食欲素神经元丢失（85–95%）；猝倒回路（vlPAG-LPT-SLD）；HLA-DQB1*06:02 遗传关联（风险×200）；T 细胞自身免疫证据（Latorre 2018）；Pandemrix 流行病学；OX2R 激动剂治疗前景；新增未解问题 Q-narc-01~03
+
+**修订页面（2）**：
+- `wiki/concepts/orexin-hypocretin.md`（rev1→rev2）：新增猝倒回路机制（vlPAG-LPT-SLD，基于 Scammell 2019 PMC 全文）；新增 OX2R 激动剂 preclinical 数据（YNT-185, PLoS One 2022）；更新 related（+narcolepsy, +adenosine, +amygdala）和 key_sources
+- `wiki/systems/flip-flop-switch-sleep-wake.md`（rev2→rev3）：添加今日文章为 source_articles；更新 revision_count/updated
+
+**图谱更新**：
+- 节点：322（narcolepsy 已存在，未新增）
+- 边：1912 → 1917（+5 条新边）
+- 新增边：narcolepsy→rem-sleep(related)、narcolepsy→adenosine(related)、narcolepsy→amygdala(mechanism-of)、narcolepsy→ascending-arousal-system(related)、narcolepsy→two-process-model(related)
+
+**登记矛盾**：无新矛盾（T 细胞证据的方法学差异已在文章中说明，作为不确定性而非冲突登记）
+
+**悬空引用新增**：vlpo-sleep-center、hla-system（在 narcolepsy.md related 中引用，但图谱节点尚无）
+
+---
+
 ## 2026-10-13（#173）：困意的分子——腺苷、睡眠内稳态与 Process S
 
 **文章**：《困意的分子：腺苷如何计量你的清醒债，并最终扳动睡眠开关》（#173）
