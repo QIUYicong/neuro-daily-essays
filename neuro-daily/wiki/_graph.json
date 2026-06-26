@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "node_count": 314,
   "edge_count": 1853,
   "edge_types": [
@@ -13220,6 +13220,16 @@
     {
       "from": "cerebellar-ltd",
       "to": "cerebellar-cognitive-affective-syndrome",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "inferior-olive",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "deep-cerebellar-nuclei",
       "type": "related"
     },
     {

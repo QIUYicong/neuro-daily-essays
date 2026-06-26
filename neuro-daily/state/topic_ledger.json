@@ -10350,6 +10350,76 @@
         "小脑 SWR 等效物——海马 SWR 在小脑有无功能对应（睡眠巩固中 DCN 活动如何）"
       ],
       "graph_update": "315→316节点 (+1: inferior-olive); 1861→1870边 (+9边)"
+    },
+    {
+      "date": "2026-10-08",
+      "knowledge_base_date": "2026-10-08",
+      "system_clock_date": "2026-06-27",
+      "date_note": "系统时钟显示2026-06-27 UTC+8，使用知识库连续性日期2026-10-08（第168篇小脑LTD文章）",
+      "article_number": 168,
+      "title": "误差的解剖学：小脑 LTD 如何将'同时激活'转化为突触记忆",
+      "filename": "2026-10-08-cerebellar-ltd-mglur1-pkc.md",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/cerebellar-ltd.md (rev3→rev4, 填补悬空引用，大幅深化)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "平行纤维-浦肯野细胞突触如何通过 mGluR1→IP₃→PKC→AMPAR 内吞的分子级联，将 PF+CF 同时激活这一时间巧合转化成突触效能的持久下调？",
+      "open_questions_added": [
+        "Q-ltd-01（高优先级）：LTD 阻断时哪种机制代偿运动学习",
+        "Q-ltd-02（高优先级）：人类活体追踪 PF-PC AMPAR 变化的方法",
+        "Q-ltd-03（中优先级）：IP₃R1 Ca²⁺调制曲线的区域差异",
+        "Q-ltd-04（中优先级）：2-AG 内源性大麻素与 LTD 的时空关系"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region"
+      ],
+      "curriculum_track": "课程脊柱4（学习和记忆：LTP/LTD机制）+ 课程脊柱1（神经元如何工作：突触传递与可塑性）；悬空引用填补（cerebellar-ltd 在图谱中有节点但专页内容不完整）",
+      "topic_tags": [
+        "cerebellar LTD",
+        "PF-PC synapse",
+        "mGluR1",
+        "IP3R1 coincidence detection",
+        "PKC AMPAR endocytosis",
+        "Schonewille 2011",
+        "Marr-Albus-Ito",
+        "LTDpathies autoantibody",
+        "Hirano 2013",
+        "GRIP1 PICK1 GluA2 Ser880"
+      ],
+      "main_sources": [
+        "PMID:23666089",
+        "PMID:21482355",
+        "PMID:7954803",
+        "PMID:7969468",
+        "PMID:1721243",
+        "PMID:18339599",
+        "PMID:11319554",
+        "PMID:35006439"
+      ],
+      "open_access_fulltext": [
+        "PMID:23666089 (PMC3722574)",
+        "PMID:21482355 (PMC3104468)",
+        "PMID:18339599 (PMC2610189)",
+        "PMID:35006439 (PMC8607360)"
+      ],
+      "unresolved_questions": [
+        "Q-ltd-01",
+        "Q-ltd-02",
+        "Q-ltd-03",
+        "Q-ltd-04"
+      ],
+      "next_suggested_topics": [
+        "IP₃ 受体（ip3-receptor）专页——新增悬空引用，IP₃R1 在小脑 LTD 中是核心与门；也在 IP3R1 KO 共济失调、肌醇信号中重要",
+        "Q-ltd-01 追踪：分子层中间神经元（MLI）可塑性——LTD 被阻断时 MLI 如何成为代偿通道",
+        "PKC 信号通路专页——被多页引用（cerebellar-ltd、striatal-plasticity、fear-conditioning），值得独立建页",
+        "小脑 SWR 等效物（继承 Q-io-04）：睡眠巩固中 DCN 活动与海马 SWR 的对应"
+      ],
+      "graph_update": "316→316节点 (无新增, cerebellar-ltd 已有节点); 1870→1872边 (+2边: cerebellar-ltd→inferior-olive, cerebellar-ltd→deep-cerebellar-nuclei)"
     }
   ]
 }

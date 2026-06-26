@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-10-08（#168）：小脑 LTD——误差如何重塑突触
+
+**文章**：《误差的解剖学：小脑 LTD 如何将"同时激活"转化为突触记忆》（#168）
+
+**类型**：悬空引用填补（cerebellar-ltd 在 _graph.json 有节点但 wiki 专页此前内容不完整；被 cerebellum、inferior-olive、purkinje-cell、climbing-fiber、deep-cerebellar-nuclei 等多页引用）+ 深化机制（IP₃R1 与门、GRIP1→PICK1 AMPAR 内吞细节、LTDpathies 框架）
+
+**新创建页面（0）**：无新建（cerebellar-ltd.md 已存在）
+
+**修订页面（1）**：
+- `wiki/concepts/cerebellar-ltd.md`（rev3→rev4）：新增 IP₃R1 生物物理"与门"机制专节（钟形 Ca²⁺ 调制曲线解释 PF+CF 同时激活要求）；新增 AMPAR 内吞 GRIP1→PICK1 分子细节专节；关键证据表新增 5 条（IP₃R1、PKC 药理学 Linden 1991、mGluR1 KO Conquet 1994、LTDpathies Mitoma 2021）；连接新增 inferior-olive、deep-cerebellar-nuclei；未解问题新增 Q-ltd-01 至 Q-ltd-04；key_sources 新增 PMID:23666089（Hirano 2013）、PMID:18339599（Kano 2008）、PMID:35006439（Mitoma 2021）、PMID:1721243（Linden 1991）、PMID:7969468（Conquet 1994）
+
+**登记矛盾**：无新矛盾。已有 Schonewille 2011 vs mGluR1 KO 的争议在页面中已如实并列，维持 open 状态。
+
+**新增悬空引用**：
+- `ip3-receptor`：新增至 cerebellar-ltd related 字段，但尚无独立 wiki 页（可作为后续选题）
+- `motor-learning`：同上
+
+**新增未解问题（4）**：Q-ltd-01（补偿机制身份）、Q-ltd-02（人类活体追踪方法）、Q-ltd-03（IP₃R1 区域差异）、Q-ltd-04（2-AG 与 LTD 时空关系）
+
+---
+
+## 2026-10-07（#167）：下橄榄核——大脑最奇特的节律师（Cx36 电突触、亚阈值振荡与运动学习误差时钟）
+
+（上一条已记录，略）
+
+---
+
 ## 2026-10-06（#166）：缝隙连接与神经元电突触——被遗忘了半个世纪的大脑"硬线"同步装置
 
 **文章**：《缝隙连接与神经元电突触：被遗忘了半个世纪的大脑"硬线"同步装置》（#166）

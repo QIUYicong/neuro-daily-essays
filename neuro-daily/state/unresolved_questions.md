@@ -1,6 +1,39 @@
 # 未解问题追踪
 
-*最后更新：2026-10-06*
+*最后更新：2026-10-08*
+
+---
+
+## 2026-10-08 新增（来自"误差的解剖学：小脑 LTD 如何将'同时激活'转化为突触记忆" 文章 #168）
+
+### Q-ltd-01（高优先级）：LTD 被特异性阻断时，哪种补偿机制接管小脑运动学习？
+
+- **关联 wiki**：[[cerebellar-ltd]]、[[cerebellum]]、[[purkinje-cell]]、[[deep-cerebellar-nuclei]]
+- **来源文章**：2026-10-08-cerebellar-ltd-mglur1-pkc
+- **问题**：Schonewille 2011 证明三种 AMPAR 内吞阻断小鼠运动学习正常，说明存在代偿机制。候选机制：(a) **MLI 可塑性**——篮状细胞/星状细胞与 PC 之间突触的 LTP/LTD；(b) **DCN 可塑性**——深部小脑核苔藓纤维-DCN 突触的可塑性（DCN 本身是另一级学习位点）；(c) **PC 内在可塑性**——PC 离子通道表达变化，改变内在可放性；(d) **颗粒细胞层可塑性**——苔藓纤维-颗粒细胞突触变化。不同任务（VOR 适应 vs 条件性眨眼）是否激活不同代偿机制？
+- **关键实验**：在 Schonewille 小鼠背景上，条件性再敲除 MLI 的可塑性（例如 GluA2 Ser880 也在 MLI 中敲除），观察是否丧失运动学习能力
+- **当前证据状态**：LTD 非必须：高（Schonewille 2011，PMC3104468）；代偿机制的具体身份：未知
+
+### Q-ltd-02（高优先级）：如何在人类活体内追踪 PF-PC 突触 AMPAR 数量的动态变化？
+
+- **关联 wiki**：[[cerebellar-ltd]]、[[ampa-receptor]]
+- **来源文章**：2026-10-08-cerebellar-ltd-mglur1-pkc
+- **问题**：目前 PF-PC AMPAR 内吞的直接证据全来自啮齿类的离体脑片或体内电生理。在人类中，只有 LTDpathies（自身抗体损坏 LTD 级联 → 共济失调，免疫治疗改善）提供了间接证据。关键缺口：PET 配体（针对 AMPAR 的特异性 PET 探针尚不成熟）、7T fMRI（分辨率不足以分辨单个浦肯野细胞层）、无创人类小脑 AMPAR 量化。潜在路径：(a) 开发特异性 AMPAR PET 探针（现有探针如 [18F]mefway 针对 5-HT1A，非 AMPAR）；(b) 人类小脑经颅磁刺激（TMS）测量 LTD 诱导后电生理参数变化（间接）
+- **当前证据状态**：人类小脑 LTD 间接证据：中（LTDpathies）；直接 AMPAR 追踪：无
+
+### Q-ltd-03（中优先级）：IP₃R1 的 Ca²⁺ 调制曲线是否在不同 PC 亚群（蚓部 vs 外侧小脑）存在差异，导致 LTD 诱导阈值区域性不同？
+
+- **关联 wiki**：[[cerebellar-ltd]]、[[purkinje-cell]]、[[cerebellum]]
+- **来源文章**：2026-10-08-cerebellar-ltd-mglur1-pkc
+- **问题**：小脑的不同区域（蚓部 vs 半球 vs 小结区）功能不同（运动 vs 认知 vs 自主神经）。IP₃R1 的 Ca²⁺ 依赖激活曲线是 LTD 诱导的关键"与门"。如果不同区域的 IP₃R1 亚型或磷酸化状态不同，则 LTD 诱导的时间窗口和 Ca²⁺ 阈值可能因区域而异，解释为什么蚓部 PC 和外侧小脑 PC 表现不同的学习特性。
+- **关键实验**：在蚓部 vs 半球 PC 的培养物中，系统比较 LTD 诱导的 Ca²⁺ 阈值和时间窗口；IP₃R1 免疫组化的区域差异
+
+### Q-ltd-04（中优先级）：mGluR1 驱动的 2-AG 内源性大麻素（DSE）与 LTD 的时空关系是什么？
+
+- **关联 wiki**：[[cerebellar-ltd]]、[[endocannabinoid-system]]、[[cb1-receptor]]
+- **来源文章**：2026-10-08-cerebellar-ltd-mglur1-pkc
+- **问题**：mGluR1→PLCβ4→DAG→DGL→2-AG 这条路径产生的 2-AG 逆行激活 CF 和 PF 终末上的 CB1 受体，引起短时程突触抑制（DSE/DSI）。但 DSE 减少 PF 释放可能降低 LTD 诱导所需的谷氨酸浓度——那么 DSE 是 LTD 诱导的"自我限制机制"（负反馈），还是"前期增益控制"（通过抑制 PF 释放来防止 mGluR1 过度激活），还是两者并行？
+- **当前证据状态**：2-AG 产生机制：高（Kano 2008，PMC2610189）；DSE 抑制 PF 释放：高；DSE 对 LTD 诱导的净效果：未直接测试
 
 ---
 
