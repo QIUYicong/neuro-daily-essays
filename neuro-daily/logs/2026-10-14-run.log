@@ -121,3 +121,12 @@
 2. **vlpo-sleep-center wiki page**（高优先级）——narcolepsy 和 flip-flop-switch 引用；VLPO 解剖（GABA+甘丙肽神经元）、睡眠活跃细胞、投射靶点
 3. **astrocyte-tripartite-synapse wiki page**（中优先级）——adenosine（#173）和 slow-wave-sleep 均引用；三方突触结构、星形胶质细胞谷氨酸摄取、D-丝氨酸释放、ATP→腺苷通路
 4. **glymphatic-system wiki page**（中优先级）——多页引用，AQP4 已有页面；睡眠期脑清除功能与阿尔茨海默病风险
+
+---
+
+## Git 操作
+
+**Commit hash**：6db2858
+**作者**：GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+**Commit 消息**：Add neuro daily article + wiki consolidation for 2026-10-14
+**Push**：git push -u origin claude/funny-einstein-mcpsyy（新分支创建）
