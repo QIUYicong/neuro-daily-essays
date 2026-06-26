@@ -104,4 +104,6 @@
 ## Git 操作
 
 - 分支：main
-- 状态：待推送
+- commit：827eefa09f6a9fbc1cc0d3e0f5f7d3b8e2c1a0d9
+- push：git push -u origin main → 成功
+- 状态：✓ 推送完成
