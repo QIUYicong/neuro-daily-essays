@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-12",
-  "total_articles": 172,
+  "last_updated": "2026-10-13",
+  "total_articles": 173,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10663,6 +10663,68 @@
         "narcolepsy wiki page - no independent page yet, referenced from multiple pages",
         "orexin-hypocretin page revision - add Li 2022 KCNQ2 mechanism",
         "adenosine page revision - sleep homeostatic pressure, caffeine pharmacology"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "title": "腺苷与睡眠内稳态压力（Process S）：你清醒的每一分钟，大脑都在计数",
+      "filename": "2026-10-13-adenosine-sleep-homeostasis-process-s.md",
+      "article_number": 173,
+      "wiki_pages_created": [
+        "wiki/concepts/adenosine.md",
+        "wiki/concepts/two-process-model.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/systems/flip-flop-switch-sleep-wake.md (rev1→rev2: 腺苷/A₁R 作为双稳触发器内稳态驱动力)",
+        "wiki/concepts/slow-wave-sleep.md (rev1→rev2: 添加 adenosine/two-process-model 关联)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "腺苷作为大脑清醒代谢副产品（主要由星形胶质细胞释放 ATP→NTPDase 水解→胞外腺苷）如何精确编码"已清醒多久"的信息，通过 A₁R（Gi偶联，基底前脑胆碱能区域）和 A₂AR（Gs偶联，伏隔核）两条独立通路分别控制 NREM 慢波活动深度（Process S 质量）和入睡时机（Process S 时机），从而作为 Borbély 两进程模型 Process S 的分子实体，并通过驱动睡眠-清醒双稳触发器（VLPO-觉醒系统互抑回路）从清醒态翻转到睡眠态？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "Sleep series part 5: TRN(#170)->SWR-timing(#171)->flip-flop switch(#172)->adenosine/Process S(#173); 课程脊柱8（睡眠与记忆巩固）+ 课程脊柱3（神经调质系统）",
+      "topic_tags": [
+        "adenosine sleep homeostasis Process S Borbély two-process model",
+        "basal forebrain cholinergic neurons adenosine A1 receptor Gi cAMP",
+        "A2A receptor nucleus accumbens sleep timing ventral striatum",
+        "astrocyte gliotransmission ATP NTPDase CD39 CD73 adenosine production",
+        "DNSNARE transgenic mice Halassa 2009 SWA rebound astrocyte block",
+        "A1R conditional knockout Bjorness 2009 SWA rebound sleep restriction working memory",
+        "caffeine adenosine antagonist A1 A2A competitive inhibition Ki 40 10 uM",
+        "Porkka-Heiskanen 1997 Science cat microdialysis basal forebrain adenosine accumulation",
+        "VLPO flip-flop switch adenosine pressure bistable bistability",
+        "slow wave activity SWA 0.5-4 Hz EEG power Process S indicator",
+        "sleep deprivation SWA rebound recovery sleep homeostatic",
+        "circadian clock SCN Process C sleep timing",
+        "Lazarus 2019 A1 A2A dissociation gating homeostatic",
+        "Deboer 2018 bidirectional interaction Process S Process C",
+        "Bellier 2025 astrocyte Ca2+ NREM sleep gap junction review"
+      ],
+      "main_sources": [
+        "PMID:9157887 (PMC:3599777) - Porkka-Heiskanen 1997 Science (adenosine accumulation in cat BF during wakefulness, foundational)",
+        "PMID:19186164 (PMC:2673052) - Halassa 2009 Neuron (DNSNARE astrocyte block → attenuated SWA rebound)",
+        "PMID:19193874 (PMC:2754857) - Bjorness 2009 J Neurosci (A1R-cKO → SWA rebound abolished, cognitive impairment)",
+        "PMID:31379490 (PMC:6650574) - Lazarus 2019 Front Neurosci (A1 vs A2A framework)",
+        "PMID:31236513 (PMC:6584681) - Deboer 2018 (Process S-C bidirectional interaction)",
+        "PMID:40397158 (PMC:12095758) - Bellier 2025 (astrocyte sleep review, 2025 comprehensive)",
+        "PMID:7185792 - Borbély 1982 Human Neurobiology (two-process model, foundational)"
+      ],
+      "unresolved_questions": [
+        "Q-aden-01",
+        "Q-aden-02",
+        "Q-aden-03"
+      ],
+      "next_suggested_topics": [
+        "circadian-clock wiki page - SCN molecular oscillator (CLOCK/BMAL1/PER/CRY TTFL), Process C mechanism; high connectivity to two-process-model/adenosine/flip-flop-switch",
+        "glymphatic-system wiki page - SWS-period CSF clearance of Aβ/tau; AQP4 water channel; already referenced from multiple pages",
+        "narcolepsy wiki page - orexin loss, flip-flop destabilization, HLA-DQB1*06:02 autoimmune etiology; referenced from flip-flop-switch page",
+        "astrocyte-tripartite-synapse wiki page - prerequisite for adenosine page; star for 3-part synapse architecture"
       ]
     }
   ]

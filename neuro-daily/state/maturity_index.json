@@ -960,5 +960,21 @@
     "confidence": "high",
     "last_changed": "2026-10-10",
     "reason": "rev2: 新增TRN亚网络（Li 2020 Spp1+/Ecel1+转录组梯度，高质量Nature）；跨模态注意双向调制（Wimmer 2015 因果光遗传）；快速局部去唤醒（Lewis 2015 <20ms/122ms，因果）；TRN作为注意门控的核心机制已有多项高置信度证据"
+  },
+  {
+    "slug": "adenosine",
+    "page": "wiki/concepts/adenosine.md",
+    "current_status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-13",
+    "reason": "新建 rev1 · #173 · 腺苷积累（Porkka-Heiskanen 1997，高质量 Science，自由活动猫微透析）；星形胶质细胞来源（Halassa 2009，DNSNARE 转基因因果）；A₁R 机制（Bjorness 2009，条件性敲除因果）；A₁/A₂A 分工框架（Lazarus 2019，综述）均为高质量来源；Process S 分子实体的核心机制 well-established；3 个 open questions 已明确标注"
+  },
+  {
+    "slug": "two-process-model",
+    "page": "wiki/concepts/two-process-model.md",
+    "current_status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-13",
+    "reason": "新建 rev1 · #173 · Borbély 1982 两进程框架已是睡眠领域最核心的理论框架；EEG SWA 预测 Process S（Borbély 1982，高）；腺苷是 Process S 分子实体（Porkka-Heiskanen 1997，高）；S-C 双向调制（Deboer 2018，中）；多项独立实验室验证；理论框架整体处于 established 水平"
   }
 ]

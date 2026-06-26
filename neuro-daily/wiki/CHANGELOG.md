@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-10-13（#173）：困意的分子——腺苷、睡眠内稳态与 Process S
+
+**文章**：《困意的分子：腺苷如何计量你的清醒债，并最终扳动睡眠开关》（#173）
+
+**类型**：课程脊柱1（神经元如何工作：神经调质）+ 睡眠系列延续（#170 TRN → #171 SWR时长 → #172 翻转开关 → #173 腺苷驱动力）；补充了触发器翻转的分子原因（层级：molecular × cellular × brain-region × behavior × cognition）
+
+**新创建页面（2）**：
+- `wiki/concepts/adenosine.md`（rev1）：腺苷机制完整页面；A₁R（基底前脑，SWA深度）vs A₂A R（伏隔核，睡眠门控）双通路；星形胶质细胞ATP→腺苷产生链（Halassa 2009）；咖啡因竞争性拮抗机制；新增未解问题 Q-aden-01~03
+- `wiki/concepts/two-process-model.md`（rev1）：Borbély 1982 两进程框架；Process S（腺苷内稳态）+ Process C（SCN昼夜节律）；两进程双向调制（Deboer 2018）
+
+**修订页面（2）**：
+- `wiki/systems/flip-flop-switch-sleep-wake.md`（rev1→rev2）：扩展"睡眠的主动性"段：明确腺苷作为双稳触发器翻转的内稳态驱动力（Process S）；添加 [[two-process-model]] 和 [[adenosine]] 交叉链接；添加 key_sources（PMID:9157887、19193874）
+- `wiki/concepts/slow-wave-sleep.md`（rev1→rev2）：添加 [[adenosine]] 和 [[two-process-model]] 到 related 列表；添加修订历史条目说明腺苷-SWA连接
+
+**图谱变更**：
+- 新增节点（2）：adenosine（concepts/established/high）、two-process-model（concepts/established/high）
+- 新增边（9条）：adenosine→flip-flop-switch-sleep-wake(mechanism-of)、adenosine→two-process-model(supports)、adenosine→ascending-arousal-system(regulates)、adenosine→slow-wave-sleep(regulates)、adenosine→sharp-wave-ripples(regulates)、two-process-model→adenosine(related)、two-process-model→circadian-clock(related)、two-process-model→slow-wave-sleep(mechanism-of)、two-process-model→flip-flop-switch-sleep-wake(related)
+- 更新：_graph.json → 322 节点 / 1912 边
+
+**登记矛盾（0）**：无新矛盾。腺苷机制证据链完整，与现有翻转开关模型完全相容。
+
+**新增悬空引用待填补**：`narcolepsy`（上篇遗留，仍待建独立页面）
+
+---
+
 ## 2026-10-12（#172）：翻转的逻辑——睡眠-清醒双稳触发器与食欲素稳定器
 
 **文章**：《翻转的逻辑：大脑睡眠-清醒"双稳触发器"与它的分子稳定器》（#172）

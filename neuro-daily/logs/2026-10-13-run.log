@@ -1,0 +1,143 @@
+# 运行日志 · 2026-10-13
+
+**运行时间（UTC）**：2026-06-27 ~05:00–07:00 CST（Beijing time）
+**文章编号**：#173
+**分支**：main（单分支累积）
+**注意**：本次运行为 2026-06-27 日第二次触发（第一次于 04:00 CST 生成 #172）；经检查确认知识库无 #173 文章，决定按正常流程继续生成
+
+---
+
+## 执行摘要
+
+成功完成 2026-10-13 文章生成与 wiki 固结。文章主题：腺苷与睡眠内稳态压力（Process S），覆盖星形胶质细胞腺苷来源机制、A₁R/A₂AR 双受体分工、Borbély 两进程模型分子实体、咖啡因作用机制。新建 wiki 页 2 个，修订现有页面 2 个。
+
+---
+
+## 状态读取
+
+- **topic_ledger**：2026-10-12 为最近一篇（#172 flip-flop switch），总计 172 篇
+- **unresolved_questions**：高优先级 Q-ff-01、Q-ff-03；Q-sws-substate-nr-01；Q-swr-duration-mechanism-01
+- **contested_claims**：无新矛盾
+- **_graph.json**（运行前）：320 节点 / 1903 边
+
+---
+
+## 选题决策
+
+- **选题机制**：前序文章建议（#172 flip-flop switch 建议：adenosine page revision — sleep homeostatic pressure, caffeine pharmacology）
+- **最终主题**：腺苷与睡眠内稳态（adenosine & sleep homeostasis, Process S）
+- **核心问题**：腺苷作为 Process S 的分子实体——星形胶质细胞产生机制、A₁R/A₂AR 双通路、Borbély 两进程模型的细化
+- **理由**：(1) flip-flop switch 文章（#172）明确提到腺苷 A₁R 是触发器翻转的关键驱动；(2) adenosine 在 _graph.json 中已存在悬空节点（无独立 wiki 页）；(3) two-process-model 为 flip-flop-switch 和 slow-wave-sleep 共同引用但无页面
+
+---
+
+## 来源检索
+
+**检索工具**：NCBI E-utilities (esearch + efetch) + PMC Open Access
+
+**主要检索词**：
+- `adenosine sleep homeostasis basal forebrain` → PMID: 9157887 (Porkka-Heiskanen 1997, 核心发现)
+- `astrocyte adenosine sleep SWA gliotransmission DNSNARE` → PMID: 19186164 (Halassa 2009)
+- `adenosine A1 receptor sleep conditional knockout SWA rebound` → PMID: 19193874 (Bjorness 2009)
+- `adenosine A1 A2A receptor gating sleep homeostasis` → PMID: 31379490 (Lazarus 2019)
+- `Borbely two process model sleep circadian homeostatic` → PMID: 7185792 (1982), 31236513 (Deboer 2018)
+- `astrocyte calcium signaling sleep NREM review 2025` → PMID: 40397158 (Bellier 2025)
+
+**开放访问全文获取**：7/9 来源（PMID:9157887, 19186164, 19193874, 31379490, 31236513, 40397158, 7185792*）
+*注：7185792（Borbély 1982）仅摘要，historical paper，predates PMC digitization
+
+---
+
+## 文章写作
+
+**文件**：neuro-daily/articles/2026-10-13-adenosine-sleep-homeostasis-process-s.md
+**字符数**：约 5,800 汉字
+**结构**：核心问题 → 一句话总结 → 为什么重要 → 背景（Borbély 模型）→ 机制1（腺苷积累/星形胶质细胞来源）→ 机制2（A₁R 内稳态 SWA）→ 机制3（A₂AR 入睡时机）→ 机制4（咖啡因）→ 证据表 → 类比（沙漏+水闸）→ 认知地图影响 → 争议 → AI 对照 → 概念卡片 → 参考来源
+**类比亮点**：腺苷如同"疲劳沙漏"——清醒时间计时器；A₁R 控制"沙子多快流完"（深度），A₂AR 控制"水闸何时打开"（时机）；咖啡因是"蒙住传感器的纸"
+
+---
+
+## 阅读笔记
+
+**文件**：neuro-daily/notes/2026-10-13-reading-notes.md
+**覆盖来源**：7 篇主要来源的方法、发现、局限性、相关性
+**关键发现汇总**：
+- Porkka-Heiskanen 1997: 自由活动猫 BF 微透析→腺苷随清醒线性增加（与 Pfl 相关 r=0.92）
+- Halassa 2009: DNSNARE（阻断星形胶质细胞囊泡释放）→ SWA 反弹显著减弱；外源腺苷补救
+- Bjorness 2009: 神经元特异性 A₁R-cKO → SWA 反弹消失；睡眠限制下工作记忆代偿失败
+- Lazarus 2019: A₁/A₂A 框架 — A₁（BF，SWA 深度）vs A₂A（NAc，入睡时机）
+- Deboer 2018: Process S-C 双向调制；高 S→降低 SCN 对光的敏感性；强 C→加速 S 消减
+
+---
+
+## Wiki 固结
+
+### 新建页面（2 个）
+
+**wiki/concepts/adenosine.md**（rev1）
+- slug: adenosine, domain: concepts, type: mechanism, status: established, confidence: high
+- 核心内容：产生（神经元 ATP→腺苷 + 星形胶质细胞囊泡 ATP→NTPDase→5'-核苷酸酶→腺苷）、A₁R 通路（Gi→↓cAMP→超极化→BF-ACh↓）、A₂AR 通路（Gs→↑cAMP→伏隔核门控）、咖啡因机制
+- related: [flip-flop-switch-sleep-wake, two-process-model, ascending-arousal-system, slow-wave-sleep, sharp-wave-ripples, circadian-clock, astrocyte-tripartite-synapse, homeostatic-plasticity]
+- key_sources: ["PMID:9157887", "PMID:19186164", "PMID:19193874", "PMID:31379490", "PMID:40397158"]
+- opens_questions: [Q-aden-01, Q-aden-02, Q-aden-03]
+
+**wiki/concepts/two-process-model.md**（rev1）
+- slug: two-process-model, domain: concepts, type: theory, status: established, confidence: high
+- 核心内容：Process S（腺苷，清醒积累/SWA 消减）+ Process C（SCN TTFL 振荡器）；两进程双向调制；临床预测（轮班工人/傍晚打盹）
+- related: [adenosine, circadian-clock, slow-wave-sleep, flip-flop-switch-sleep-wake, rem-sleep, memory-consolidation, glymphatic-system]
+- key_sources: ["PMID:7185792", "PMID:31236513"]
+
+### 修订页面（2 个）
+
+**wiki/systems/flip-flop-switch-sleep-wake.md**（rev1→rev2）
+- 扩展"睡眠的主动性"段落：明确腺苷/A₁R 作为双稳触发器从清醒→睡眠翻转的内稳态驱动力
+- 新增 related: [[two-process-model]]、[[adenosine]]
+- 新增 key_sources: "PMID:9157887"、"PMID:19193874"
+
+**wiki/concepts/slow-wave-sleep.md**（rev1→rev2）
+- 新增 related: adenosine、two-process-model
+- 新增 source_articles: 2026-10-13-adenosine-sleep-homeostasis-process-s
+
+### 图谱更新
+
+- 节点：320 → 322（新增 adenosine、two-process-model）
+- 边：1903 → 1912（+9 边）
+- 新增边：adenosine→flip-flop-switch-sleep-wake(mechanism-of)、adenosine→two-process-model(supports)、adenosine→ascending-arousal-system(regulates)、adenosine→slow-wave-sleep(regulates)、adenosine→sharp-wave-ripples(regulates)、two-process-model→adenosine(related)、two-process-model→circadian-clock(related)、two-process-model→slow-wave-sleep(mechanism-of)、two-process-model→flip-flop-switch-sleep-wake(related)
+
+---
+
+## 状态文件更新
+
+- [x] neuro-daily/wiki/CHANGELOG.md（2026-10-13 新增节）
+- [x] neuro-daily/wiki/index.md（stats 315→317，新增 adenosine 和 two-process-model 条目）
+- [x] neuro-daily/state/topic_ledger.json（新增 #173 条目，total_articles 172→173）
+- [x] neuro-daily/state/unresolved_questions.md（新增 Q-aden-01、Q-aden-02、Q-aden-03）
+- [x] neuro-daily/state/source_registry.json（新增 9 个来源）
+- [x] neuro-daily/state/monthly_synthesis.md（更新 2026年10月月报，新增 #172/#173 表格行）
+- [x] neuro-daily/state/maturity_index.json（新增 adenosine、two-process-model 条目）
+
+---
+
+## Git 操作
+
+**Commit hash**：[见下方更新]
+**作者**：GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+**Commit 消息**：Add neuro daily article + wiki consolidation for 2026-10-13
+**Push**：git push -u origin main
+
+---
+
+## 错误与处理
+
+- 无致命错误
+- 运行为重复触发（第二次），但确认无 #173 文章后正常继续
+- 分支模型：单分支累积（main），git pull --rebase origin main 解决潜在分歧
+
+---
+
+## 下次建议选题
+
+1. **circadian-clock wiki page**（高优先级）—— SCN 分子振荡器（CLOCK/BMAL1/PER/CRY TTFL），Process C 的分子机制；two-process-model 和 flip-flop-switch 均强引用
+2. **glymphatic-system wiki page**（高优先级）—— 已在多页引用，slow-wave-sleep/adenosine 强依赖；AQP4 已有页面
+3. **narcolepsy wiki page**（中优先级）—— flip-flop-switch 的病理案例；食欲素自身免疫毁损机制
+4. **astrocyte-tripartite-synapse wiki page**（中优先级）—— adenosine 的必要前提页；adenosine prerequisites 中列出

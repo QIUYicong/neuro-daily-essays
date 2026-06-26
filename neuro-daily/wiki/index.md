@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-12（第172篇·翻转的逻辑：大脑睡眠-清醒"双稳触发器"与它的分子稳定器）· 主题页总数：**315**（新建1页：systems/flip-flop-switch-sleep-wake；修订1页：systems/ascending-arousal-system rev2；图谱320节点/1903边）
+> 最后更新：2026-10-13（第173篇·腺苷与睡眠内稳态：大脑清醒计时器的分子机制）· 主题页总数：**317**（新建2页：concepts/adenosine, concepts/two-process-model；修订2页：flip-flop-switch-sleep-wake rev2, slow-wave-sleep rev2；图谱322节点/1912边）
 
 ---
 
@@ -99,7 +99,9 @@
 - 🟢 [睡眠纺锤波](concepts/sleep-spindles.md) — TRN CaV3.3→TRN↔TC振荡→12–15 Hz梭形波；皮层树突L型Ca²⁺预热窗口；SO-spindle-SWR三重奏中间层；CACNA1I变异→精神分裂症纺锤波缺陷；三重耦合因果实验（Latchoumane 2017）；老龄化相位偏移 46.3°→记忆损害（Helfrich 2018）**[修订 2026-07-07]**
 - 🟢 [皮层慢振荡（SO）](concepts/cortical-slow-oscillation.md) — NREM 深睡眠~0.75 Hz UP/DOWN态交替；起源PFC向后传播；SO上行相是纺锤波和SWR的最高时间框架；三重奏顶层 **[NEW 2026-06-19]**
 - 🟢 [SO-纺锤波-SWR 三重耦合](concepts/so-spindle-swr-coupling.md) — NREM 睡眠中 SO（主时钟）→纺锤波（皮层预热）→SWR（记忆写入）精确时间嵌套；Maingret 2016 闭环刺激因果证明；老龄化耦合精度下降（d=1.19，mPFC 萎缩机制）；DA/NE/ACh 神经调质调节 **[NEW 2026-07-07]**
-- 🟢 [慢波睡眠（SWS / NREM深睡眠）](concepts/slow-wave-sleep.md) — SWS 是记忆系统巩固与类淋巴清洁同时发生的双重时段；核心机制为 SO-纺锤波-SWR 三重耦合；NREM 内部存在分时亚状态（瞳孔振荡揭示，Chang 2025）区隔近期/陈旧记忆回放；人类颅内 SWR-SWA 耦合预测皮层激活（Skelin 2021） **[NEW 2026-10-11]**
+- 🟢 [慢波睡眠（SWS / NREM深睡眠）](concepts/slow-wave-sleep.md) — SWS 是记忆系统巩固与类淋巴清洁同时发生的双重时段；核心机制为 SO-纺锤波-SWR 三重耦合；NREM 内部存在分时亚状态（瞳孔振荡揭示，Chang 2025）区隔近期/陈旧记忆回放；人类颅内 SWR-SWA 耦合预测皮层激活（Skelin 2021）**[NEW 2026-10-11 · 修订 rev2 2026-10-13]**
+- 🟢 [腺苷与睡眠内稳态（Process S）](concepts/adenosine.md) — Process S 的分子实体；星形胶质细胞 ATP→NTPDase→胞外腺苷线性积累于基底前脑（Porkka-Heiskanen 1997）；A₁R（Gi，基底前脑/皮层）控制 SWA 深度（敲除→SWA 反弹消失，Bjorness 2009）；A₂AR（Gs，伏隔核）门控入睡时机（Lazarus 2019）；咖啡因竞争性拮抗 A₁/A₂A 受体 **[NEW 2026-10-13]**
+- 🟢 [睡眠两进程模型（Borbély）](concepts/two-process-model.md) — Borbély 1982 框架：Process S（腺苷，随清醒积累/随 SWA 消减）+ Process C（SCN 昼夜节律振荡）动态叠加决定睡眠时机与深度；慢波反弹是 S 当前值的 EEG 指标；两进程双向调制（高 S 减弱 SCN 光响应，强 C 促进更深 NREM，Deboer 2018）**[NEW 2026-10-13]**
 - 🔵 [突触稳态假说（SHY）](concepts/shy-hypothesis.md) — Tononi & Cirelli：清醒期 LTP 积累→睡眠期 SO 驱动 ~18% 突触下调（de Vivo 2017 超微结构证据）；down-selection：被 SWR 重播激活的突触受保护，多数突触弱化；与主动记忆巩固统一 **[NEW 2026-07-07]**
 - 🟢 [皮层 UP/DOWN 态机制](concepts/up-down-state-mechanism.md) — Layer 5 循环兴奋（AMPA+NMDA 侧支）自主启动 UP 态（~−65 mV，0.8–1.5 s）；KNa 通道 Na⁺ 积累（主要机制）+ 短时程突触抑郁 + SST+ 延迟抑制三机制终止 UP 态；孤立皮层切片自发 SO 证明回路内在充分性（Sanchez-Vives 2000）；为 SO-spindle-SWR 三重协奏提供细胞层级时间骨架 **[NEW 2026-07-23]**
 - 🟢 [相位前进](concepts/phase-precession.md) — 场所细胞在θ周期中放电相位随位置移动；速率+相位双重编码；O'Keefe & Recce 1993经典发现

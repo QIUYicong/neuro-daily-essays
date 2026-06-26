@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-10-12
-updated: 2026-10-12
-revision_count: 1
+updated: 2026-10-13
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition, disease]
 related: [ascending-arousal-system, vlpo-sleep-center, orexin-hypocretin, neuromodulator-systems, narcolepsy, rem-sleep, slow-wave-sleep, circadian-clock, thalamic-reticular-nucleus, adenosine]
 prerequisites: [ascending-arousal-system, neuromodulator-systems, synaptic-inhibition]
 opens_questions: [Q-ff-01, Q-ff-02, Q-ff-03, Q-ff-04]
-source_articles: [2026-10-12-flip-flop-switch-sleep-wake]
-key_sources: ["PMID:30297727", "PMID:33381012", "PMID:24760861", "PMID:24651580", "PMID:35201886", "PMID:16254994"]
+source_articles: [2026-10-12-flip-flop-switch-sleep-wake, 2026-10-13-adenosine-sleep-homeostasis-process-s]
+key_sources: ["PMID:30297727", "PMID:33381012", "PMID:24760861", "PMID:24651580", "PMID:35201886", "PMID:16254994", "PMID:9157887", "PMID:19193874"]
 ---
 
 # 睡眠-清醒翻转开关 (Sleep-Wake Flip-Flop Switch)
@@ -32,7 +32,7 @@ key_sources: ["PMID:30297727", "PMID:33381012", "PMID:24760861", "PMID:24651580"
 
 **食欲素层**：外侧下丘脑食欲素神经元不是直接启动觉醒，而是在觉醒期间持续兴奋所有觉醒核团，提高维持清醒所需克服的"能垒"，防止随机噪声将系统意外推入睡眠。食欲素丢失（发作性睡病1型，NT1）→ 能垒下降 → 系统在日间频繁跌入睡眠或REM相关状态（猝倒、入睡前幻觉）。
 
-**睡眠的主动性**：睡眠不是觉醒的被动消退，而是VLPO主动抑制的结果。腺苷（A₁受体）和前列腺素D₂是启动VLPO激活的关键信号；咖啡因通过拮抗A₁延缓翻转。体温下降是VLPO促进睡眠的协同效果（VLPO-Gal激活→深度低体温约4–6°C）。
+**睡眠的主动性**：睡眠不是觉醒的被动消退，而是VLPO主动抑制的结果。**腺苷（A₁受体）**是触发器从清醒态翻转到睡眠态的关键内稳态驱动力（见 [[adenosine]]）：持续清醒期间基底前脑腺苷线性积累，激活 A₁R 削弱觉醒系统，使 VLPO 在双稳拉力赛中逐渐占优，最终导致不可逆的翻转。这正是 Borbély [[two-process-model]] 中 Process S 的机制基础。咖啡因通过竞争性拮抗 A₁/A₂A 受体，屏蔽腺苷积累的信号，人为延迟翻转阈值的到达。体温下降是VLPO促进睡眠的协同效果（VLPO-Gal激活→深度低体温约4–6°C）。
 
 ## 关键机制
 
@@ -113,6 +113,7 @@ key_sources: ["PMID:30297727", "PMID:33381012", "PMID:24760861", "PMID:24651580"
 | 版本 | 日期 | 变化 | 来源文章 |
 |------|------|------|---------|
 | rev1 | 2026-10-12 | 初始页面建立：VLPO-TMN互抑回路、食欲素稳定器、发作性睡病、老年睡眠碎片化KCNQ2机制、药物靶点 | #172 |
+| rev2 | 2026-10-13 | 扩展"睡眠的主动性"段落：明确腺苷（A₁R）是双稳触发器从清醒→睡眠翻转的内稳态驱动力（Process S），连接 [[two-process-model]] 和 [[adenosine]] 页面；添加腺苷相关 key_sources | #173 |
 
 ## 来源文章
 

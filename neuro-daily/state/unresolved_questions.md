@@ -1,6 +1,33 @@
 # 未解问题追踪
 
-*最后更新：2026-10-12*
+*最后更新：2026-10-13*
+
+---
+
+## 2026-10-13 新增（来自"腺苷与睡眠内稳态压力" 文章 #173）
+
+### Q-aden-01（高优先级）：星形胶质细胞 Ca²⁺ 信号触发 ATP 释放的时空精度
+
+- **关联 wiki**：[[adenosine]]、[[astrocyte-tripartite-synapse]]、[[slow-wave-sleep]]
+- **来源文章**：2026-10-13-adenosine-sleep-homeostasis-process-s
+- **问题**：星形胶质细胞 Ca²⁺ 瞬变触发 ATP 囊泡释放 → NTPDase/5'-核苷酸酶水解 → 胞外腺苷积累的精确时序与空间分辨率是什么？Ca²⁺ 瞬变与腺苷浓度峰值之间的传递时延多长？是否在 SWA UP 态期间有特定的钙-腺苷同步模式？
+- **关键实验**：体内同步记录星形胶质细胞 Ca²⁺ 动力学（GCaMP 光纤光度计）+ 腺苷生物传感器（GRAB_Ado）的双通道联合测量，与 LFP-SWA 的三路对齐（Bellier 2025 指向了这一前沿方向）
+- **当前证据状态**：星形胶质细胞 Ca²⁺ 信号与 NREM 慢波耦合的间接证据：中（PMID:40397158）；精确时空传递：未知
+
+### Q-aden-02（中优先级）：腺苷为何在基底前脑胆碱能区域特异性积累？
+
+- **关联 wiki**：[[adenosine]]、[[ascending-arousal-system]]、[[flip-flop-switch-sleep-wake]]
+- **来源文章**：2026-10-13-adenosine-sleep-homeostasis-process-s
+- **问题**：Porkka-Heiskanen 1997 证明腺苷积累在基底前脑而非丘脑背内侧核（DMN 为阴性对照）。为什么腺苷对基底前脑区域有特异性？候选机制：(a) BF 胆碱能神经元的高代谢率导致更多 ATP 消耗；(b) 局部星形胶质细胞密度或 NTPDase 酶活性差异；(c) BF 区域腺苷清除（ADK/ADA）活性较低；(d) A₁R 受体密度差异？
+- **关键实验**：系统比较 BF 与 DMN、皮层区域在睡眠剥夺期间腺苷生成/消除酶活性、A₁R 表达密度和星形胶质细胞覆盖率
+- **当前证据状态**：BF 区域特异性积累：高（Porkka-Heiskanen 1997）；特异性机制：未测试
+
+### Q-aden-03（中优先级）：Process S 是否由多种分子共同编码？
+
+- **关联 wiki**：[[adenosine]]、[[two-process-model]]、[[flip-flop-switch-sleep-wake]]
+- **来源文章**：2026-10-13-adenosine-sleep-homeostasis-process-s
+- **问题**：Borbély 两进程模型中 Process S 的分子实体是否仅为腺苷？睡眠剥夺还伴随其他因子积累（细胞因子 IL-1β/TNF-α、前列腺素 D₂ PGD₂、睡眠诱导肽 DSIP、NO 等）。这些分子与腺苷的关系是：(a) 独立的并行 Process S 编码通路？(b) 腺苷的下游效应子（PGD₂ 通过 DP1 受体→激活 VLPO？）；(c) 腺苷的调制信号（IL-1β 增强 A₁R 表达？）？
+- **当前证据状态**：腺苷是主要 Process S 实体：高；其他因子的独立贡献和与腺苷的关系：部分理解（PGD₂ 有独立睡眠诱导效果，但其与腺苷系统的交叉尚不清楚）
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "node_count": 318,
   "edge_count": 1889,
   "edge_types": [
@@ -2922,6 +2922,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/narcolepsy.md"
+    },
+    {
+      "id": "adenosine",
+      "title": "腺苷与睡眠内稳态",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/adenosine.md"
+    },
+    {
+      "id": "two-process-model",
+      "title": "睡眠两进程模型",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/two-process-model.md"
     }
   ],
   "edges": [
@@ -13582,6 +13600,60 @@
       "from": "flip-flop-switch-sleep-wake",
       "to": "thalamic-reticular-nucleus",
       "type": "regulates"
+    },
+    {
+      "from": "adenosine",
+      "to": "flip-flop-switch-sleep-wake",
+      "type": "mechanism-of",
+      "note": "腺苷积累是双稳触发器翻转至睡眠态的内稳态驱动力"
+    },
+    {
+      "from": "adenosine",
+      "to": "two-process-model",
+      "type": "supports",
+      "note": "腺苷是Process S（内稳态睡眠压力）的分子实体"
+    },
+    {
+      "from": "adenosine",
+      "to": "ascending-arousal-system",
+      "type": "regulates",
+      "note": "A1R激活抑制基底前脑胆碱能神经元→削弱觉醒系统驱动"
+    },
+    {
+      "from": "adenosine",
+      "to": "slow-wave-sleep",
+      "type": "regulates",
+      "note": "A1R激活控制SWA反弹深度；Process S的SWA消减"
+    },
+    {
+      "from": "adenosine",
+      "to": "sharp-wave-ripples",
+      "type": "regulates",
+      "note": "腺苷驱动SWA反弹→时序门控SWR发生频率"
+    },
+    {
+      "from": "two-process-model",
+      "to": "adenosine",
+      "type": "related",
+      "note": "Process S的分子实体"
+    },
+    {
+      "from": "two-process-model",
+      "to": "circadian-clock",
+      "type": "related",
+      "note": "Process C的分子实体为SCN TTFL振荡器"
+    },
+    {
+      "from": "two-process-model",
+      "to": "slow-wave-sleep",
+      "type": "mechanism-of",
+      "note": "SWA是Process S当前值的指标，也是S消减的主要途径"
+    },
+    {
+      "from": "two-process-model",
+      "to": "flip-flop-switch-sleep-wake",
+      "type": "related",
+      "note": "两进程共同决定触发器翻转时机"
     }
   ],
   "dangling_references": [

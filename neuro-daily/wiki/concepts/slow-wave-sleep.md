@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-10-11
-updated: 2026-10-11
-revision_count: 1
+updated: 2026-10-13
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition]
-related: [sharp-wave-ripples, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, memory-consolidation, thalamocortical-circuit, thalamic-reticular-nucleus, flip-flop-switch-sleep-wake, rem-sleep, hippocampal-circuit, ascending-arousal-system, glymphatic-system]
+related: [sharp-wave-ripples, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, memory-consolidation, thalamocortical-circuit, thalamic-reticular-nucleus, flip-flop-switch-sleep-wake, rem-sleep, hippocampal-circuit, ascending-arousal-system, glymphatic-system, adenosine, two-process-model]
 prerequisites: [cortical-slow-oscillation, sleep-spindles, sharp-wave-ripples, thalamocortical-circuit]
 opens_questions: [Q-sws-substate-nr-01, Q-sws-substate-human-01]
 source_articles: [2026-10-11-swr-duration-sleep-microstructure-memory]
@@ -108,7 +108,9 @@ Skelin et al.（2021, PMID:34001599）在人类癫痫患者颅内记录中发现
 ## 修订历史
 
 - 2026-10-11 · 创建 · 基于《时长与时机》文章 (#171) · 整合 Chang 2025（NREM 亚状态）、Skelin 2021（人类颅内）、Fernández-Ruiz 2019（长 SWR）证据；填补 _graph.json 中的 `slow-wave-sleep` 悬空引用 · 初始置信度：高
+- 2026-10-13 · rev2 · 添加 related 链接：[[adenosine]] 和 [[two-process-model]]——腺苷（Process S）是 SWA 反弹的内稳态驱动信号；A₁R 激活是 SWA 深度调控的分子必要条件（Bjorness 2009） · 来源：#173
 
 ## 来源文章
 
 - [[2026-10-11-swr-duration-sleep-microstructure-memory]]
+- [[2026-10-13-adenosine-sleep-homeostasis-process-s]]
