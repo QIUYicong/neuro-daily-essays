@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-10-03（#163）：围神经网——分子的枷锁与恐惧记忆的重写窗口
+
+**文章**：《分子的枷锁：围神经网如何在杏仁核内关闭恐惧记忆的重写窗口》（#163）
+
+**类型**：深化既有主题（课程脊柱4：关键期与可塑性；层级：molecular × cellular × behavioral × clinical；选题逻辑：在连续几篇全脑/意识层级文章后，回归分子机制层面，以 PNNs 恐惧记忆保护为新视角深化已有 wiki 节点）
+
+**新创建页面（0）**：wiki/concepts/perineuronal-nets.md 已存在（rev3），本次修订为 rev4
+
+**修订页面（3）**：
+- `wiki/concepts/perineuronal-nets.md`（rev3→rev4）：新增机制5（BLA 恐惧记忆关键期关闭，Gogolla 2009）、机制6（NAc brevican 成瘾回路，Hazlett 2024；LH PNN 觅药行为，Blacktop 2019）、机制7（iPlasticity，Umemori 2018）；新增 [[fear-extinction]] 和 [[fear-conditioning]] 链接；新增 3 个开放问题（Q-pnn-fear-specificity, Q-pnn-iPlasticity-window, Q-pnn-nac-addiction）；key_sources 从 9 项扩充至 15 项
+- `wiki/concepts/fear-extinction.md`（rev7→rev8）：新增 source article；key_sources 补充 PMID:19729657, 24273519, 29802758；更新日期
+- `wiki/concepts/fear-conditioning.md`（rev3→rev4）：新增 source article；key_sources 补充 PMID:19729657；更新日期
+
+**矛盾登记（0）**：无新矛盾（Gogolla 2009 与既有恐惧消退"新学习而非删除"框架并不冲突——PNN 降解使成年动物恢复到幼鼠的"删除模式"，是对现有框架的条件化扩展，而非否定）
+
+**新增未解问题（3）**：
+- Q-pnn-fear-specificity（高）：旧创伤记忆在 BLA PNN 降解后是否同样可被消退删除？（PTSD 临床转化关键）
+- Q-pnn-iPlasticity-window（中）：SSRI 诱导的 PNN 软化窗口持续时长与行为疗法最佳对接时机
+- Q-pnn-nac-addiction（中）：NAc brevican 降低是"成瘾易感性增加"还是"通用奖赏可塑性提升"？
+
+**图谱**：309节点/1832边 → **309节点/1851边**（+0节点；+19边：perineuronal-nets→fear-extinction（新），perineuronal-nets→fear-conditioning（新），fear-extinction→perineuronal-nets（新），fear-conditioning→perineuronal-nets（新），perineuronal-nets→amygdala（新），perineuronal-nets→nucleus-accumbens（新），perineuronal-nets→lateral-hypothalamus（新），perineuronal-nets→iPlasticity，fear-extinction→amygdala（强化），plus 10 existing edges reinforced with new sources）
+
+---
+
 ## 2026-10-02（#162）：屏状核——大脑最神秘的指挥家
 
 **文章**：《屏状核：大脑最神秘的指挥家》（#162）

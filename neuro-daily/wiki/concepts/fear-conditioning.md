@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-07-24
-revision_count: 3
+updated: 2026-10-03
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior]
 related: [amygdala, fear-extinction, ltp, nmda-receptor, camkii, ampa-receptor, engram-cells, hebbian-learning, memory-reconsolidation]
 prerequisites: [ltp, nmda-receptor, amygdala]
 opens_questions: [Q-fear-low-road-function, Q-fear-human-amygdala-specificity]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons]
-key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278", "PMID:34168140", "PMID:22036561"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-10-03-perineuronal-nets-fear-memory-erasure]
+key_sources: ["PMID:11584069", "PMID:24896183", "PMID:24908482", "PMID:30415278", "PMID:34168140", "PMID:22036561", "PMID:19729657"]
 ---
 
 # 恐惧条件反射 (Fear Conditioning)

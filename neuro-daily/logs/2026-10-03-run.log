@@ -1,0 +1,70 @@
+# 运行日志 2026-10-03
+
+**文章编号**：#163
+**知识库连续性日期**：2026-10-03
+**系统时钟**：2026-06-26 UTC+8
+**状态**：完成
+
+---
+
+## 执行摘要
+
+成功完成第163篇每日神经科学文章及知识库固结。主题：围神经网（PNNs）与恐惧记忆关键期关闭机制。
+
+---
+
+## 执行步骤记录
+
+### 1. 主题选择
+- 初始候选：连接组学（拒绝，V1功能连接组于2026-09-13已深度覆盖）
+- 候选2：V1预测编码（拒绝，2026-09-14已深度覆盖）
+- 候选3：恐惧消退（拒绝，fear-extinction.md revision_count: 7，已有7篇源文章）
+- 最终选定：**围神经网恐惧记忆保护**——以 perineuronal-nets.md（当时 rev3）为基础，增加恐惧记忆保护（Gogolla 2009）、成瘾回路 PNN（Hazlett 2024, Blacktop 2019）和 iPlasticity（Umemori 2018）三个新维度
+
+### 2. 文献搜索
+- PubMed E-utilities 搜索：perineuronal nets fear memory erasure amygdala，返回 PMID 19729657
+- 搜索：perineuronal nets addiction cocaine nucleus accumbens，返回 PMID 38346480, 30258113
+- 搜索：perineuronal nets plasticity 2023 2024 review，返回 PMID 38158878
+- 额外来源（从搜索结果中找到）：PMID 29802758（iPlasticity综述）, 26881132（OTX2-PNN），24273519（front psychiatry综述），16243601（Hensch 2005）
+- PMC开放全文验证：PMC4736602（CC BY）, PMC3822369（CC BY）, PMC6174980（CC BY-NC）已确认
+
+### 3. 文章撰写
+- 文件：neuro-daily/articles/2026-10-03-perineuronal-nets-fear-memory-erasure.md
+- 长度：约 4500 汉字
+- 结构：头部 → 核心问题 → 为什么这是颠覆性实验 → 背景（恐惧记忆两种命运）→ 机制1（PNN分子构成与功能）→ 机制2（BLA回路逻辑）→ 机制3（成瘾回路）→ 机制4（iPlasticity）→ 认知意义 → 开放问题 → 文献来源
+
+### 4. Wiki 固结
+- perineuronal-nets.md：rev3 → rev4（新增机制5/6/7，新增链接，新增3个问题，扩充key_sources）
+- fear-extinction.md：rev7 → rev8（新增source article）
+- fear-conditioning.md：rev3 → rev4（新增source article）
+
+### 5. 状态文件更新
+- topic_ledger.json：163篇，last_updated 2026-10-03
+- unresolved_questions.md：新增 Q-pnn-fear-specificity, Q-pnn-iPlasticity-window, Q-pnn-nac-addiction
+- monthly_synthesis.md：新增 2026年10月 section
+- wiki/CHANGELOG.md：新增 2026-10-03 条目
+
+### 6. 辅助文件
+- notes/2026-10-03-reading-notes.md：创建
+- sources/2026-10-03-sources.json：创建（10条）
+- logs/2026-10-03-run.log：本文件
+
+---
+
+## 质量检查
+
+- [x] 核心论文 PMID 已通过 PubMed E-utilities API 验证
+- [x] 无捏造 PMID/PMCID/DOI
+- [x] 开放全文状态已通过 PMC OA API 验证
+- [x] 未读取全文的来源已标注"未读取全文"
+- [x] 无医疗建议/诊断内容
+- [x] 无 Sci-Hub 使用
+- [x] topic_ledger.json 序号连续（162→163）
+- [x] wiki 修订号连续（perineuronal-nets rev3→rev4）
+
+---
+
+## 图谱变化
+
+**节点**：309（无变化，perineuronal-nets 节点已存在）
+**边**：1832 → 1851（+19边：新增恐惧回路、成瘾回路、iPlasticity 相关连接）

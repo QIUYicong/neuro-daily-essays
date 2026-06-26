@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-08-26
-revision_count: 7
+updated: 2026-10-03
+revision_count: 8
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
 related: [fear-conditioning, amygdala, ltp, ltd, hippocampal-circuit, working-memory, parkinsons-disease, rem-sleep, theta-oscillations, emotional-memory-depotentiation, memory-reconsolidation, engram-cells, dopamine-reward-prediction-error, endocannabinoid-system, cb1-receptor, vmPFC, emotion-regulation, ptsd, fear-generalization]
 prerequisites: [fear-conditioning, amygdala, ltp, ltd]
 opens_questions: [Q-fear-reconsolidation-boundary, Q-fear-itc-bidirectionality, Q-fear-extinction-ptsd-biomarker, Q-rem-01, Q-rem-02, Q-extinction-reward-overlap, Q-vmPFC-03]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-08-05-endocannabinoid-retrograde-signaling, 2026-08-25-vmPFC-sgACC-emotion-regulation, 2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]
-key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:29507292", "PMID:34598785", "PMID:26617500", "PMID:20962768", "PMID:40026920", "PMID:19748076", "PMID:41663712"]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-05-31-rem-sleep-emotional-memory, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-08-05-endocannabinoid-retrograde-signaling, 2026-08-25-vmPFC-sgACC-emotion-regulation, 2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala, 2026-10-03-perineuronal-nets-fear-memory-erasure]
+key_sources: ["PMID:22129456", "PMID:18615014", "PMID:18615015", "PMID:24908482", "PMID:38370858", "PMID:28729826", "PMID:19702380", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:29507292", "PMID:34598785", "PMID:26617500", "PMID:20962768", "PMID:40026920", "PMID:19748076", "PMID:41663712", "PMID:19729657", "PMID:24273519", "PMID:29802758"]
 ---
 
 # 恐惧消退 (Fear Extinction)

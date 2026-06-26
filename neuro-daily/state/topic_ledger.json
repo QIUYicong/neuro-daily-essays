@@ -1,7 +1,65 @@
 {
-  "last_updated": "2026-10-02",
-  "total_articles": 162,
+  "last_updated": "2026-10-03",
+  "total_articles": 163,
   "entries": [
+    {
+      "date": "2026-10-03",
+      "title": "分子的枷锁：围神经网如何在杏仁核内关闭恐惧记忆的重写窗口",
+      "filename": "2026-10-03-perineuronal-nets-fear-memory-erasure.md",
+      "article_number": 163,
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/perineuronal-nets.md (rev3->rev4)",
+        "wiki/concepts/fear-extinction.md (rev7->rev8)",
+        "wiki/concepts/fear-conditioning.md (rev3->rev4)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "杏仁核 BLA 中围绕 PV+ 中间神经元的围神经网（PNNs）在发育 P16-P18 沉积后，将恐惧记忆的命运从「消退=删除」切换为「消退=抑制但原迹保留」；Gogolla 2009 用 ChABC 降解成年鼠 BLA PNNs 使成年恐惧记忆重新变得可被消退彻底删除，揭示 PNNs 是关闭恐惧关键期的分子枷锁，并为 PTSD 和成瘾治疗提供分子靶点",
+      "open_questions_added": [
+        "Q-pnn-fear-specificity（高优先级）：旧创伤记忆在 BLA PNN 降解后是否同样可被消退删除？",
+        "Q-pnn-iPlasticity-window（中优先级）：SSRI 诱导的 PNN 软化窗口持续时长与行为疗法最佳对接时机",
+        "Q-pnn-nac-addiction（中优先级）：NAc brevican 降低是「成瘾易感性增加」还是「通用奖赏可塑性提升」？"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "behavioral",
+        "clinical"
+      ],
+      "curriculum_track": "课程脊柱4（突触可塑性关键期）+ 课程脊柱7（学习记忆：记忆固化与稳定性）+ 脊柱8（情绪与情感：恐惧回路与PTSD）+ 脊柱10（成瘾神经机制）",
+      "topic_tags": [
+        "perineuronal nets PNNs chondroitin sulfate proteoglycans CSPGs aggrecan brevican",
+        "chondroitinase ABC ChABC ECM degradation plasticity reopening",
+        "Gogolla 2009 Science fear memory erasure amygdala critical period",
+        "BLA basolateral amygdala PV interneuron fear critical period P16-P18",
+        "fear extinction new learning vs erasure structural vs functional inhibition",
+        "iPlasticity SSRI fluoxetine dematuration PNN softening juvenile-like",
+        "nucleus accumbens brevican reward motivation learning threshold Hazlett 2024",
+        "lateral hypothalamus PNN cocaine reinstatement cue-induced Blacktop 2019",
+        "PTSD fear reconsolidation extinction therapy translational PNN target",
+        "plasticity-stability dilemma memory protection experience fixation ECM"
+      ],
+      "main_sources": [
+        "PMID:19729657 (Gogolla et al. 2009, Science, PNNs protect fear memories, 摘要确认)",
+        "PMID:26881132 / PMC4736602 (Bernard & Prochiantz 2016, Neural Plast, Otx2-PNN, OPEN)",
+        "PMID:24273519 / PMC3822369 (Nabel & Morishita 2013, Front Psychiatry, PNN fear circuit review, OPEN)",
+        "PMID:29802758 / PMC6174980 (Umemori et al. 2018, Psychiatry Clin Neurosci, iPlasticity, OPEN)",
+        "PMID:38346480 / PMC11315813 (Hazlett et al. 2024, Biol Psychiatry, NAc brevican, 摘要确认)",
+        "PMID:30258113 / PMC6461795 (Blacktop & Sorg 2019, Neuropsychopharmacol, LH PNN cocaine, 摘要确认)",
+        "PMID:38158878 / PMC12303236 (Sanchez et al. 2024, J Neurochem, PNN review, 摘要确认)",
+        "PMID:16243601 (Hensch 2005, Curr Top Dev Biol, critical period mechanisms, 摘要确认)",
+        "PMID:37143468 (Mueller-Buehl & Faissner 2023, wiki已收录)",
+        "PMID:33293360 / PMC7880295 (Lesnikova et al. 2021, wiki已收录, PTPσ-TrkB轴, OPEN)"
+      ],
+      "open_access_fulltext": [
+        "PMID:26881132 (PMC4736602)",
+        "PMID:24273519 (PMC3822369)",
+        "PMID:29802758 (PMC6174980)"
+      ],
+      "note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-10-03（接续第162篇2026-10-02）。主题：围神经网恐惧记忆关键期关闭机制，从分子到行为到临床的跨层次综合。本篇为 perineuronal-nets wiki 页的第4次修订，扩展了恐惧记忆、成瘾回路和 iPlasticity 三个新维度。"
+    },
     {
       "date": "2026-09-21",
       "title": "记忆的分子守夜人：PKMζ的发现、颠覆与新生",
