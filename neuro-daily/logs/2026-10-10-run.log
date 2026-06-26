@@ -115,4 +115,8 @@
 
 ---
 
-**状态**：待提交推送
+**状态**：✅ 成功推送到 origin/main
+**commit hash**：1930e37
+**branch URL**：https://github.com/QIUYicong/neuro-daily-essays/tree/main
+**新建文件**：articles/2026-10-10-thalamus-attention-consciousness-trn.md, notes/2026-10-10-reading-notes.md, sources/2026-10-10-sources.json, logs/2026-10-10-run.log
+**修改文件**：wiki/circuits/thalamic-reticular-nucleus.md (rev2), wiki/concepts/mesocircuit-hypothesis.md (rev2), wiki/systems/thalamus.md (rev9), wiki/diseases/disorders-of-consciousness.md (rev2), wiki/_graph.json, wiki/CHANGELOG.md, state/{topic_ledger, unresolved_questions, source_registry, maturity_index, monthly_synthesis}
