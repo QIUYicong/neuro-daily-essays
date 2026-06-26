@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-10-06
-updated: 2026-10-06
-revision_count: 1
+updated: 2026-10-07
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit]
-related: [pv-interneurons, gamma-oscillations, sharp-wave-ripple, place-cell, voltage-gated-sodium-channel, action-potential, synaptic-transmission]
+related: [pv-interneurons, gamma-oscillations, sharp-wave-ripple, place-cell, voltage-gated-sodium-channel, action-potential, synaptic-transmission, inferior-olive, climbing-fiber]
 prerequisites: [action-potential, synaptic-transmission, pv-interneurons]
-opens_questions: [Q-gap-01, Q-gap-02, Q-gap-03, Q-gap-04]
-source_articles: [2026-10-06-gap-junction-electrical-synapse]
-key_sources: ["PMID:11516403", "PMID:11516404", "PMID:12574431", "PMID:15217338", "PMID:21525295", "PMID:22659675", "PMID:28245529", "PMID:38616956", "PMID:42129559"]
+opens_questions: [Q-gap-01, Q-gap-02, Q-gap-03, Q-gap-04, Q-io-01]
+source_articles: [2026-10-06-gap-junction-electrical-synapse, 2026-10-07-inferior-olive-cx36-motor-learning]
+key_sources: ["PMID:11516403", "PMID:11516404", "PMID:12574431", "PMID:15217338", "PMID:21525295", "PMID:22659675", "PMID:28245529", "PMID:38616956", "PMID:42129559", "PMID:18498740", "PMID:21151372", "PMID:29311830"]
 ---
 
 # 缝隙连接与神经元电突触 (Gap Junction / Electrical Synapse, Connexin-36)
@@ -48,7 +48,18 @@ Cx36 并非固定"硬线"——其通道导电性受 PKA（Ser110/293 磷酸化�
 **突触/回路层面**：
 - PV+ FS 中间神经元之间形成"电偶联子网络"，可在化学突触参与之前实现初始时序对齐
 - 电突触与化学 GABA 突触**协同**而非竞争：电偶联提供同步模板，GABA 衰减时间常数（τ_decay）决定振荡频率
-- 下橄榄核中 Cx36 支持 1–10 Hz 亚阈值振荡，参与小脑运动预测的时序信号
+- 下橄榄核（IO）中 Cx36 支持 4–10 Hz 亚阈值振荡（STO），将相邻 IO 神经元相位锁定，形成同步误差广播——详见 IO 专属功能节
+
+**IO Cx36 的专属功能：同步运动误差时钟**（2026-10-07 新增）
+
+下橄榄核（inferior olive）是 Cx36 大脑中密度最高的脑区之一，其 Cx36 功能与皮层 PV+ 回路截然不同：
+
+- **频率更低**：IO STO 为 4–10 Hz（vs 皮层 gamma 30–80 Hz）；Cx36 在此处同步的是慢振荡，而非高频振荡
+- **功能不同**：皮层 Cx36 同步兴奋性传导时序→驱动 gamma 振荡；IO Cx36 同步误差信号时间戳→驱动运动学习时序精度
+- **调控回路不同**：IO Cx36 受小脑深核（DCN）GABAergic 反馈门控（Lefler et al. 2014），而皮层 Cx36 主要受 PKA/多巴胺调控
+- **行为学证据更直接**：甲氟喹（mefloquine）阻断 IO Cx36 → 人类运动学习速度和容量受损，基础运动保留（van Essen et al. 2010）；Cx36 KO 小鼠 CS 时序变异增大、运动学习时机受损（Van Der Giessen et al. 2008）
+
+这表明 Cx36 是一种**功能多样的同步硬件**，通过部署在不同回路中（皮层 PV+ 网络 vs IO 树突小球）实现截然不同的计算目标——同一分子，不同语境，不同计算。
 
 **可塑性**：
 - PKA（多巴胺 D1R→cAMP→PKA）磷酸化 → 偶联**降低**
@@ -65,10 +76,15 @@ Cx36 并非固定"硬线"——其通道导电性受 PKA（Ser110/293 磷酸化�
 | Cx36 KO 损害地点细胞空间选择性和短期空间记忆 | 体内 CA1 记录 + 行为测试，Cx36 KO vs WT | PMID:21525295 / PMC3160467 | 高 |
 | Cx36 受 PKA（Ser110/293）和 CaMKII 磷酸化调节偶联强度 | 生化 + 电生理 + 成像（综述） | PMID:22659675 / PMC3437247 | 中 |
 | 工程化 LinCx 可选择性重建特定细胞对偶联，改善小鼠行为 | 分子工程 + 体内行为，小鼠 | PMID:42129559 / PMC11974911 | 新兴 |
+| IO Cx36 KO：CS 时序变异增大，运动学习时机受损；运动执行保留 | Cx36 KO 小鼠；多电极体内记录+条件性眨眼 | PMID:18498740 | 高 |
+| 甲氟喹（IO Cx36 阻断剂）损害人类运动学习速度和容量，不影响基础运动 | 随机对照，健康志愿者 | PMID:21151372 | 高 |
+| PKA → IO Cx36 开放概率降低；βCaMKII KO → IO Cx36 数量 87→1/mm² | 基因 KO + 免疫组化，小鼠 IO | PMID:29311830 | 高 |
 
 ## 连接
 
-- [[pv-interneurons]] — Cx36 电突触的主要宿主神经元类型
+- [[pv-interneurons]] — 皮层 Cx36 电突触的主要宿主神经元类型
+- [[inferior-olive]] — IO 树突小球中 Cx36 的另一关键部署：同步运动误差时钟（4–10 Hz）
+- [[climbing-fiber]] — IO Cx36 同步的直接下游：CF 时序精度和 CS 同步性
 - [[gamma-oscillations]] — Cx36 是 ING 机制中初始同步的物质基础；伽马频段对 Cx36 有选择性依赖
 - [[sharp-wave-ripple]] — 尖波纹波（140–200 Hz）不依赖 Cx36，揭示频率特异性同步机制分离
 - [[place-cell]] — Cx36 KO 损害地点细胞空间选择性和 theta 相位进动
@@ -85,7 +101,9 @@ Cx36 并非固定"硬线"——其通道导电性受 PKA（Ser110/293 磷酸化�
 ## 修订历史
 
 - 2026-10-06 · 创建 · 基于《缝隙连接与神经元电突触：被遗忘了半个世纪的大脑"硬线"同步装置》（#166）· 初始置信度：高
+- 2026-10-07 · 修订 rev1→rev2 · 基于《下橄榄核：大脑最奇特的节律师》（#167）· 新增 IO Cx36 专属功能节（同步误差时钟 vs 皮层 gamma 的功能对比）；新增 IO 相关证据行（PMID:18498740、PMID:21151372、PMID:29311830）；新增连接：inferior-olive、climbing-fiber
 
 ## 来源文章
 
 - [[2026-10-06-gap-junction-electrical-synapse]]
+- [[2026-10-07-inferior-olive-cx36-motor-learning]]

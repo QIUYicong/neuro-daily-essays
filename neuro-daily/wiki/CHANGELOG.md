@@ -3819,3 +3819,25 @@
 - Q-d1-ltp-persistence（中）：D1-MSN LTP体内持久性？L-LTP转换是否需要STC机制？PKMζ在纹状体的角色？
 
 **图谱**：303节点/1790边 → **304节点/1803边**（+1节点：corticostriatal-stdp；+13边：corticostriatal-stdp↔striatal-direct-indirect-pathway双向、corticostriatal-stdp↔three-factor-learning-rule双向、corticostriatal-stdp→dopamine-reward-prediction-error、corticostriatal-stdp→medium-spiny-neuron、corticostriatal-stdp→basal-ganglia、corticostriatal-stdp→hebbian-learning、corticostriatal-stdp→parkinsons-disease、corticostriatal-stdp→addiction、dopamine-reward-prediction-error→corticostriatal-stdp、three-factor-learning-rule→corticostriatal-stdp、striatal-direct-indirect-pathway→corticostriatal-stdp）
+
+---
+
+## 2026-10-07（第167篇 · 下橄榄核：大脑最奇特的节律师——Cx36 电突触、亚阈值振荡与运动学习的误差时钟）
+
+**文章**：《下橄榄核：大脑最奇特的节律师》（#167）
+
+**类型**：新核团深挖（填补悬空引用 inferior-olive）+ Cx36 功能扩展（昨日 gap-junction 的主题延伸）
+
+**新创建页面（1）**：
+- `wiki/systems/inferior-olive.md`（新建，established/high）：下橄榄核的解剖（PIO/DAO/MAO 三亚核，树突小球）、内在 STO 机制（CaV3 + Ih 相互拮抗）、Cx36 同步机制与动态调控（PKA/βCaMKII/DCN-GABA 三重调控）、CF 时序精度的因果证据（Cx36 KO + 甲氟喹人类实验）、DCN→IO 反馈门控、灵长类保守性、2025 年种群级误差编码新发现；未解问题 Q-io-01~04
+
+**修订页面（2）**：
+- `wiki/neurons/climbing-fiber.md`（rev1→rev2）：新增 IO Cx36 同步→CF 时序精度证据（PMID:18498740、PMID:24990915、PMID:41345279）；新增 DCN→IO 反馈门控机制（PMID:24656256）；更新连接：inferior-olive 由"待建"变为已建，新增 deep-cerebellar-nuclei、gap-junction-electrical-synapse
+- `wiki/neurons/gap-junction-electrical-synapse.md`（rev1→rev2）：新增 IO Cx36 专属功能节（同步误差时钟 vs 皮层 gamma 的功能对比）；新增 IO 相关证据行（PMID:18498740、PMID:21151372、PMID:29311830）；新增连接：inferior-olive、climbing-fiber
+
+**矛盾登记（0）**：今日来源与既有 wiki 主张无冲突（Long 2002 与 Van Der Giessen 2008 互补：前者证明振荡内在，后者证明同步需 Cx36）
+
+**悬空引用新增（1）**：
+- `cerebellar-ltd`：被 climbing-fiber、cerebellum、inferior-olive 等多页引用，无专页 → 高优先级下篇候选
+
+**图谱**：315节点/1861边 → **316节点/1870边**（+1节点：inferior-olive；+9边：inferior-olive→climbing-fiber、inferior-olive→cerebellum、inferior-olive→gap-junction-electrical-synapse、inferior-olive→purkinje-cell、inferior-olive→deep-cerebellar-nuclei、inferior-olive→cerebellar-ltd、climbing-fiber→inferior-olive、gap-junction-electrical-synapse→inferior-olive、deep-cerebellar-nuclei→inferior-olive）

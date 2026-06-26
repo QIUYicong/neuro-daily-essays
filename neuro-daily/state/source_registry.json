@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-07",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10644,9 +10644,131 @@
         "选择性细胞对偶联",
         "改善小鼠社交行为"
       ]
+    },
+    {
+      "pmid": "9735947",
+      "title": "Microcircuitry and function of the inferior olive",
+      "year": 1998,
+      "journal": "Trends Neurosci",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "9145790",
+      "title": "Subthreshold oscillations and resonant behavior: two manifestations of the same mechanism",
+      "year": 1997,
+      "journal": "Neuroscience",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "12486184",
+      "title": "Rhythmicity without synchrony in the electrically uncoupled inferior olive",
+      "year": 2002,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "18498740",
+      "title": "Role of olivary electrical coupling in cerebellar motor learning",
+      "year": 2008,
+      "journal": "Neuron",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": true,
+      "pmcid": "PMC6608251"
+    },
+    {
+      "pmid": "21151372",
+      "title": "Anti-malaria drug mefloquine induces motor learning deficits in humans",
+      "year": 2010,
+      "journal": "Front Neurosci",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "24656256",
+      "title": "Cerebellar inhibitory input to the inferior olive decreases electrical coupling and blocks subthreshold oscillations",
+      "year": 2014,
+      "journal": "Neuron",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": true,
+      "pmcid": "PMC4132823"
+    },
+    {
+      "pmid": "24990915",
+      "title": "Behavioral correlates of complex spike synchrony in cerebellar microzones",
+      "year": 2014,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "27307237",
+      "title": "Electrical Coupling and Synchronized Subthreshold Oscillations in the Inferior Olive of the Rhesus Macaque",
+      "year": 2016,
+      "journal": "J Neurosci",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "28841437",
+      "title": "New insights into olivo-cerebellar circuits for learning from a small training sample",
+      "year": 2017,
+      "journal": "Curr Opin Neurobiol",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "29311830",
+      "title": "Modulation of Murine Olivary Connexin 36 Gap Junctions by PKA and CaMKII",
+      "year": 2017,
+      "journal": "Front Cell Neurosci",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": true
+    },
+    {
+      "pmid": "31028891",
+      "title": "Graded error signals in eyeblink conditioning",
+      "year": 2019,
+      "journal": "Neurobiol Learn Mem",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": false
+    },
+    {
+      "pmid": "41345279",
+      "title": "Rapid motor skill adjustment is associated with population-level modulation of cerebellar error signals",
+      "year": 2025,
+      "journal": "Nat Neurosci",
+      "used_in": [
+        "2026-10-07-inferior-olive-cx36-motor-learning"
+      ],
+      "open_access": false
     }
   ],
-  "total_sources": 620,
+  "total_sources": 632,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

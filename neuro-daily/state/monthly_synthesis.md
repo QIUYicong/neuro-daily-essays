@@ -1803,3 +1803,19 @@
 **修订 wiki 页（2个）**：circuits/pv-interneurons（rev7→rev8）；concepts/gamma-oscillations（rev5→rev6）
 **图谱**：315节点（+1），1861边（+8）
 **新增未解问题（4个）**：Q-gap-01（纹波不依赖Cx36的机制，高）、Q-gap-02（Cx36可塑性与学习，高）、Q-gap-03（发育期广泛→成年局限转变机制，中）、Q-gap-04（精神分裂症Cx36角色，中）
+
+---
+
+### 第167篇（2026-10-07）：下橄榄核 Cx36 电突触与运动学习误差时钟
+
+**核心问题**：IO 如何通过 Cx36 GJ 同步 STO，将运动误差以精确时间码传递给小脑？
+
+**核心发现**：IO 树突小球 Cx36 GJ 将相邻神经元 STO（4–10 Hz，CaV3+Ih）相位锁定；CF 时序精度由 IO 同步决定（Cx36 KO 小鼠 CS 时序变异增大）；甲氟喹（Cx36 阻断剂）损害人类运动学习但不影响运动执行（双解离，van Essen 2010）；DCN→GABA→IO 反馈门控误差广播（Lefler 2014）；2025年新：种群级正/负交替 CS 调制编码误差方向+量级（Nguyen 2025）。
+
+**关键对比**：昨日（#166）皮层 Cx36 同步 gamma 振荡（30–80 Hz）；今日 IO Cx36 同步误差时钟（4–10 Hz）——同一分子，不同网络拓扑，截然不同的计算目标。
+
+**新建 wiki 页（1个）**：systems/inferior-olive（established/high，填补悬空引用）
+**修订 wiki 页（2个）**：neurons/climbing-fiber（rev1→rev2，DCN 反馈+CS 同步证据）；neurons/gap-junction-electrical-synapse（rev1→rev2，IO Cx36 专属功能节）
+**图谱**：315节点（+1：inferior-olive），1861→1870边（+9边）
+**新增未解问题（4个）**：Q-io-01（因果性：全局 KO vs 成年期条件 KO，高）、Q-io-02（STO 相位门控机制，高）、Q-io-03（跨亚核长程同步，中）、Q-io-04（DCN 门控 vs 甲氟喹的功能等价性，中）
+**悬空引用待补（高优先级）**：cerebellar-ltd（被多页引用无专页）

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-05",
-  "total_articles": 165,
+  "last_updated": "2026-10-07",
+  "total_articles": 167,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10280,6 +10280,76 @@
         "Pannexin 通道——缝隙连接的'近亲'：成年大脑中的 pannexin-1 在什么条件下开放，有何神经功能？",
         "精神分裂症的电突触视角：PV 细胞 Cx36 偶联是否在精神分裂症动物模型中受损？"
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "article_number": 167,
+      "title": "下橄榄核：大脑最奇特的节律师——Cx36 电突触、亚阈值振荡与运动学习的误差时钟",
+      "slug": "inferior-olive-cx36-motor-learning",
+      "core_question": "下橄榄核如何通过 Cx36 缝隙连接精确同步亚阈值振荡，将运动误差以精确时间模式传递给小脑，驱动运动学习？",
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region"
+      ],
+      "topic_tags": [
+        "inferior olive",
+        "connexin 36",
+        "gap junction",
+        "subthreshold oscillation",
+        "climbing fiber",
+        "motor learning",
+        "complex spike",
+        "cerebellar LTD",
+        "mefloquine",
+        "DCN GABA feedback",
+        "CaV3 T-type calcium",
+        "Ih HCN"
+      ],
+      "main_sources": [
+        "PMID:9735947",
+        "PMID:9145790",
+        "PMID:12486184",
+        "PMID:18498740",
+        "PMID:21151372",
+        "PMID:24656256",
+        "PMID:24990915",
+        "PMID:24814344",
+        "PMID:27307237",
+        "PMID:28841437",
+        "PMID:29311830",
+        "PMID:31028891",
+        "PMID:41345279"
+      ],
+      "open_access_sources": [
+        "PMID:18498740 (Neuron 2008, Cx36 KO motor learning)",
+        "PMID:21151372 (Front Neurosci 2010, mefloquine humans, Frontiers OA)",
+        "PMID:24656256 (Neuron 2014, DCN-GABA-IO feedback)",
+        "PMID:29311830 (Front Cell Neurosci 2017, PKA/CaMKII Cx36, Frontiers OA)"
+      ],
+      "unresolved_questions": [
+        "Q-io-01",
+        "Q-io-02",
+        "Q-io-03",
+        "Q-io-04"
+      ],
+      "wiki_created": [
+        "systems/inferior-olive.md (rev1, NEW)"
+      ],
+      "wiki_revised": [
+        "neurons/climbing-fiber.md (rev1→rev2)",
+        "neurons/gap-junction-electrical-synapse.md (rev1→rev2)"
+      ],
+      "contested_claims_logged": [],
+      "next_suggested_topics": [
+        "小脑 LTD（cerebellar-ltd）专页——被多页引用的悬空引用，下次应补：PF-PC LTD 分子级联（mGluR1-IP3-PKC-AMPAR内吞）",
+        "Q-io-01 追踪：成年期条件性 Cx36 KO 或光遗传学急性控制 IO 同步——更干净的因果证据",
+        "下橄榄核与本体感觉精炼——脊髓丘脑束 vs 脊髓橄榄束对 IO 的不同感觉输入",
+        "小脑 SWR 等效物——海马 SWR 在小脑有无功能对应（睡眠巩固中 DCN 活动如何）"
+      ],
+      "graph_update": "315→316节点 (+1: inferior-olive); 1861→1870边 (+9边)"
     }
   ]
 }

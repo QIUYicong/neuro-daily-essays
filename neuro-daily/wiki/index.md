@@ -246,6 +246,7 @@
 - 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）；**小脑-运动皮层闭环（修订2026-06-23）**
 - 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订rev4 2026-09-04]**
 - 🟢 [深部小脑核（DCN）](systems/deep-cerebellar-nuclei.md) — 小脑唯一输出门控；三核团（顶核平衡/间位核时序/齿状核认知）+ 三细胞类型（谷氨酸能主力/GABA能短环路/甘氨酸能前庭）；去抑制为主要输出机制（Ishikawa 2014灵长类证据）；三层可塑性（突触LTP+内在兴奋性+PNN门控，CR率↑42%）；aDCN→VTA→纹状体饱腹感回路；齿状核→VM丘脑→前额叶认知路径**[NEW 2026-09-04]**
+- 🟢 [下橄榄核](systems/inferior-olive.md) — 延髓腹侧误差时钟；PIO/DAO/MAO 三亚核；树突小球内 Cx36 GJ 将 STO（4–10 Hz）相位锁定；CF 时序精度由 Cx36 同步决定（KO 小鼠+甲氟喹人类实验双解离证据）；DCN→GABA→IO 反馈门控误差广播；灵长类机制保守；2025 年种群级 CS 正/负交替编码误差方向+量级 **[NEW 2026-10-07]**
 - 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果，使大脑超越反馈延迟；小脑的主要计算角色；逆向模型对称结构 **[NEW 2026-06-23]**
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**
 - 🟡 [旋转动力学（运动皮层）](concepts/rotational-dynamics-motor.md) — 执行期神经群体以2–2.8 Hz在状态空间旋转；动力学引擎而非参数地图；RNN训练后自发出现相同结构 **[NEW 2026-06-21]**

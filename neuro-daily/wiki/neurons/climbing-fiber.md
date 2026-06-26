@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-03
-updated: 2026-09-03
-revision_count: 1
+updated: 2026-10-07
+revision_count: 2
 dimensions: [cellular, synaptic, microcircuit, brain-region]
-related: [purkinje-cell, cerebellar-ltd, inferior-olive, cerebellum, granule-cell, parallel-fiber]
+related: [purkinje-cell, cerebellar-ltd, inferior-olive, cerebellum, granule-cell, parallel-fiber, deep-cerebellar-nuclei, gap-junction-electrical-synapse]
 prerequisites: [synaptic-transmission, action-potential]
-opens_questions: [Q-pc-01, Q-cb-02]
-source_articles: [2026-09-03-purkinje-cell-cerebellar-motor-learning]
-key_sources: ["PMID:40523942", "PMID:40848722", "PMID:31572132", "PMID:24814344"]
+opens_questions: [Q-pc-01, Q-cb-02, Q-io-01, Q-io-02]
+source_articles: [2026-09-03-purkinje-cell-cerebellar-motor-learning, 2026-10-07-inferior-olive-cx36-motor-learning]
+key_sources: ["PMID:40523942", "PMID:40848722", "PMID:31572132", "PMID:24814344", "PMID:18498740", "PMID:24656256", "PMID:24990915", "PMID:41345279"]
 ---
 
 # 攀爬纤维 (Climbing Fiber)
@@ -58,11 +58,17 @@ key_sources: ["PMID:40523942", "PMID:40848722", "PMID:31572132", "PMID:24814344"
 | 复杂放电持续时间与 LTD 量正相关 | 电控 CF 爆发 vs 可塑性量测定 | PMID:24814344 | 中-高 |
 | CF 信号是梯度非二元 | 综述，多模态证据 | PMID:31572132 | 中-高 |
 | CF 携带奖励预测误差信号 | 钙成像 + 光遗传学 in vivo | PMID:40848722 | 中（单实验室，外侧小脑） |
+| IO Cx36 同步直接影响 CF 时序精度和运动学习 | Cx36 KO 小鼠，CS 时序变异增大 | PMID:18498740 | 高 |
+| DCN GABAergic 反馈降低 IO 偶联并阻断 STO，门控误差广播 | 体外 IO 切片 + DCN 刺激 | PMID:24656256 | 中-高 |
+| 运动时 CS 跨微区同步增强；Cx36 KO 失去跨微区同步，反射变慢 | 多电极阵列体内记录 + 行为 | PMID:24990915 | 中-高 |
+| 毗邻矢状带 PC 正/负 CS 交替调制，编码误差方向+量级 | 小鼠操纵杆任务，体内钙成像 | PMID:41345279 | 中（2025，新兴） |
 
 ## 连接
 
 - [[purkinje-cell]] — CF 的突触靶点；驱动 LTD
-- [[inferior-olive]] — CF 的起源核团（待建页面）
+- [[inferior-olive]] — CF 的起源核团；IO Cx36 同步决定 CF 时序精度
+- [[deep-cerebellar-nuclei]] — DCN→IO 反馈门控 CF 误差广播的时机与强度
+- [[gap-junction-electrical-synapse]] — IO 中 Cx36 GJ 是 CF 时序精度的物质基础
 - [[cerebellar-ltd]] — CF 驱动的可塑性机制详情
 - [[cerebellum]] — CF 在小脑回路中的位置
 - [[parallel-fiber]] — CF 与 PF 的同时激活诱导 LTD
@@ -75,7 +81,9 @@ key_sources: ["PMID:40523942", "PMID:40848722", "PMID:31572132", "PMID:24814344"
 ## 修订历史
 
 - 2026-09-03 · 创建 · 基于《小脑里的误差教师》一文 · 初始置信度：高（解剖与经典功能 established）；奖励 CF 信号：emerging
+- 2026-10-07 · 修订 rev1→rev2 · 基于《下橄榄核：大脑最奇特的节律师》（#167）· 新增 IO Cx36 同步→CF 时序精度的证据（PMID:18498740、PMID:24990915、PMID:41345279）；新增 DCN→IO 反馈门控机制（PMID:24656256）；更新连接：inferior-olive 由"待建"变为已建，新增 deep-cerebellar-nuclei、gap-junction-electrical-synapse；新增未解问题 Q-io-01、Q-io-02
 
 ## 来源文章
 
 - [[2026-09-03-purkinje-cell-cerebellar-motor-learning]]
+- [[2026-10-07-inferior-olive-cx36-motor-learning]]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "node_count": 314,
   "edge_count": 1853,
   "edge_types": [
@@ -2877,6 +2877,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/gap-junction-electrical-synapse.md"
+    },
+    {
+      "id": "inferior-olive",
+      "title": "下橄榄核",
+      "domain": "systems",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/inferior-olive.md"
     }
   ],
   "edges": [
@@ -13327,6 +13336,51 @@
       "from": "gamma-oscillations",
       "to": "gap-junction-electrical-synapse",
       "type": "related"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "climbing-fiber",
+      "type": "part-of"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "cerebellum",
+      "type": "part-of"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "gap-junction-electrical-synapse",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "purkinje-cell",
+      "type": "regulates"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "deep-cerebellar-nuclei",
+      "type": "related"
+    },
+    {
+      "from": "inferior-olive",
+      "to": "cerebellar-ltd",
+      "type": "supports"
+    },
+    {
+      "from": "climbing-fiber",
+      "to": "inferior-olive",
+      "type": "is-a"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "inferior-olive",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "inferior-olive",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

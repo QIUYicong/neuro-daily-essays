@@ -1,0 +1,131 @@
+# 每日运行日志 — 2026-10-07
+
+## 基本信息
+- 文章编号：#167
+- 系统时钟：2026-06-26（UTC+8）
+- 知识库日期：2026-10-07（知识库连续性日期）
+- 运行分支：main
+- 运行开始时间：自动运行
+
+## 步骤 A：状态读取
+
+- 读取 topic_ledger.json（上次文章：#166，2026-10-06，gap-junction-electrical-synapse，层级：molecular/cellular/synaptic/microcircuit）
+- 读取 unresolved_questions.md
+- 读取 wiki/_graph.json（315 节点，1861 边，更新于 2026-10-06）
+- 读取 CHANGELOG.md
+- 确认 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 均存在于仓库根目录
+
+## 步骤 B：选题
+
+**选题决策**：
+- 防止连续三天同一层级：#165（oligodendrocyte，cellular/molecular）+ #166（gap-junction，molecular/cellular/synaptic/microcircuit）→ 今日应引入更高层级（brain-region）
+- 悬空引用检查：`inferior-olive` 在 climbing-fiber.md 被引用为"待建页面"→ 高优先级填补
+- 主题连贯性：昨日讲了皮层 Cx36 GJ 驱动 gamma；IO Cx36 GJ 是同一分子的第二个重要战场，主题连贯且功能对比鲜明
+- 结论：选择"下橄榄核 Cx36 电突触与运动学习误差时钟"，层级涵盖 molecular/cellular/synaptic/microcircuit/brain-region
+
+**选题类型**：悬空引用填补（inferior-olive）+ 课程脊柱4（运动学习：小脑误差信号机制）
+
+## 步骤 C：检索与文献
+
+### 搜索词
+1. `inferior olive connexin 36 gap junction motor learning` → 5 PMIDs
+2. `inferior olivary nucleus subthreshold oscillations gap junction synchrony` → 3 PMIDs
+3. `inferior olive climbing fiber motor learning error signal cerebellum` → 12 PMIDs
+4. `inferior olive T-type calcium channel Ih subthreshold oscillation mechanism` → 1 PMID
+5. `inferior olive review gap junction cerebellar learning` → 2 PMIDs
+6. `inferior olive connexin36 motor learning 2024 2025` → 1 PMID（非神经科学，排除）
+
+### 采用来源（13篇）
+| PMID | 年 | 期刊 | 采用理由 | 全文 |
+|------|----|------|---------|------|
+| 9735947 | 1998 | Trends Neurosci | IO 微回路综述，奠基文献 | 摘要 |
+| 9145790 | 1997 | Neuroscience | STO 离子机制（Lampl & Yarom） | 摘要 |
+| 12486184 | 2002 | J Neurosci | Cx36 KO IO 振荡保留无同步 | 摘要 |
+| 18498740 | 2008 | Neuron | Cx36 KO 运动学习核心证据 | 开放全文 PMC |
+| 21151372 | 2010 | Front Neurosci | 甲氟喹人类实验双解离 | 开放全文 Frontiers |
+| 24656256 | 2014 | Neuron | DCN-GABA 门控 IO 偶联 | 开放全文 PMC |
+| 24990915 | 2014 | J Neurosci | CS 跨微区同步行为相关 | 摘要 |
+| 24814344 | 2014 | Nature | CS 持续时间梯度 LTD | 摘要 |
+| 27307237 | 2016 | J Neurosci | 灵长类 IO STO 保守性 | 摘要 |
+| 28841437 | 2017 | Curr Opin Neurobiol | 橄榄-小脑少样本学习 | 摘要 |
+| 29311830 | 2017 | Front Cell Neurosci | PKA/CaMKII 调控 IO Cx36 | 开放全文 Frontiers |
+| 31028891 | 2019 | Neurobiol Learn Mem | 眨眼条件反射梯度误差信号 | 摘要 |
+| 41345279 | 2025 | Nat Neurosci | 种群级 CS 正/负交替误差编码 | 摘要 |
+
+**开放全文数**：5/13（含 Frontiers OA 2篇 + PMC 2篇 + 其他 PMC 1篇）
+**摘要数**：8/13
+
+### 排除的候选文献
+- PMID:42032273（2026年论文）：非神经科学内容（高血压药物），检索误匹配，排除
+- 数篇 IO 解剖拓扑文献（无法验证 PMID 有效性），排除
+
+## 步骤 D：固结步骤
+
+### 今日涉及概念
+1. **inferior-olive**：无 wiki 页 → 新建 `wiki/systems/inferior-olive.md`（rev1）
+2. **climbing-fiber**：已有 wiki 页 → 修订 rev1→rev2（新增 IO 相关证据和 DCN 反馈机制）
+3. **gap-junction-electrical-synapse**：已有 wiki 页 → 修订 rev1→rev2（新增 IO Cx36 专属功能节）
+4. **cerebellar-ltd**：被多页引用，无 wiki 页 → 登记为悬空引用待补（高优先级）
+5. **deep-cerebellar-nuclei**：已有 wiki 页，未新增内容，但在 inferior-olive 和 climbing-fiber 中新增了连接边
+
+### 矛盾检查
+- Long et al. 2002（Cx36 KO：单细胞仍振荡）与 Van Der Giessen 2008（Cx36 KO：运动学习受损）：无冲突，互补——前者说明振荡是内在的，后者说明同步需要 Cx36；两者共同构成"振荡≠同步"的完整论证
+- 无新矛盾登记
+
+### 成熟度评估
+- inferior-olive（新建）：established / high（解剖+生理+功能多重验证）；唯有 Nguyen 2025 种群级编码为 emerging
+
+## 步骤 E：图谱与导航更新
+
+- _graph.json：315→316 节点（+inferior-olive），1861→1870 边（+9 边）
+- index.md：在小脑/DCN 部分新增 inferior-olive 条目
+- CHANGELOG.md：追加 2026-10-07 条目
+
+## 步骤 F：治理层更新
+
+- topic_ledger.json：追加第 167 篇条目（entries 总计 155 条）
+- unresolved_questions.md：新增 Q-io-01~04
+- source_registry.json：新增 12 个来源
+- monthly_synthesis.md：追加第 167 篇摘要
+- maturity_index.json：新增 inferior-olive 条目（总计 118 条）
+
+## 步骤 G：提交与推送
+
+- 目标分支：main
+- Remote：http://local_proxy@127.0.0.1:41729/git/QIUYicong/neuro-daily-essays（包含 QIUYicong/neuro-daily-essays，正确）
+- commit message：Add neuro daily article + wiki consolidation for 2026-10-07
+
+## 自检结果
+
+**真实性**：
+- ✅ 所有 wiki 新主张都有 PMID 来源
+- ✅ 区分了 established（IO 解剖、STO 机制、Cx36 KO 证据）、mainstream（DCN 反馈门控）、emerging（Nguyen 2025 种群级编码）
+- ✅ 甲氟喹人类实验：RCT 证据，清楚标注；灵长类数据：单物种，适当标注"保守性"而非"完全等同于人"
+- ✅ Nguyen 2025 单篇新文献：标注为"中等置信度（中，2025年新兴）"
+
+**一致性**：
+- ✅ 无矛盾（Long 2002 vs Van Der Giessen 2008 互补，已在笔记中说明）
+- ✅ climbing-fiber rev2、gap-junction rev2 的 updated/revision_count/修订历史均已更新
+- ✅ _graph.json 9 条新边均指向已存在节点（inferior-olive 本身是今天新建的）
+
+**可导航性**：
+- ✅ index.md 反映了 inferior-olive 新页
+- ✅ CHANGELOG.md 包含今日变更
+- ✅ inferior-olive.md 的 related 和 prerequisites 各≥1
+
+**情景层**：
+- ✅ articles/、notes/、sources/、logs/ 齐全
+- ✅ 未修改任何旧文件（仅追加新文件或修订 wiki 页）
+
+## 失败与限制
+
+- PMID:24814344（Yang & Lisberger 2014, Nature）：无 PMC 开放全文，使用摘要，已在文章中标注
+- PMID:41345279（Nguyen 2025, Nat Neurosci）：无 PMC 开放全文，使用摘要，已标注
+- 未找到 Llinás & Yarom 1986 的 PubMed 条目（该论文可能在 PubMed 收录前，使用 Lampl & Yarom 1997 等后继文献替代）
+- Welsh et al. 1995 Science 同步复杂放电经典论文：未找到有效 PMID，未引用（使用 De Gruijl 2014 等更近期验证代替）
+
+## 状态
+
+- 本地文件：全部创建/修订完毕
+- Git commit：待执行
+- Push 状态：待执行

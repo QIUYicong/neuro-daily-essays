@@ -914,5 +914,12 @@
     "confidence": "high",
     "last_changed": "2026-10-06",
     "reason": "新建页（rev1）：Cx36 KO 系列实验（Deans 2001, Hormuzdi 2001, Buhl 2003）多项独立遗传学证据建立 established 状态；物理机制清晰（离子通道双向传导）；首次列入知识库"
+  },
+  {
+    "slug": "inferior-olive",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-07",
+    "reason": "新建（rev1）；解剖与 STO 机制 established（Van Der Giessen 2008 + Lampl 1997 + Long 2002）；Cx36 KO+人类甲氟喹学习缺陷 established；灵长类保守性 established（Turecek 2016）；Nguyen 2025 种群级编码：emerging（单篇新文献）"
   }
 ]
