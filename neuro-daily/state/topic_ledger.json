@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03",
-  "total_articles": 163,
+  "last_updated": "2026-10-04",
+  "total_articles": 164,
   "entries": [
     {
       "date": "2026-10-03",
@@ -10115,6 +10115,70 @@
         "缝隙连接与大脑神经元电耦合——gap junction在皮层回路中的生理功能及失调",
         "意识状态连续谱：从清醒/睡眠/麻醉到最小意识状态的屏状核-TRN-皮层轴变化",
         "赛洛西宾与意识神经回路——DMN去整合、屏状核活动下降与意识体验改变的关系"
+      ]
+    },
+    {
+      "article_number": 164,
+      "knowledge_base_date": "2026-10-04",
+      "system_clock_date": "2026-06-26",
+      "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-10-04（第164篇嗅觉预测编码文章）",
+      "date": "2026-10-04",
+      "title": "大脑的嗅觉预言：当梨状皮层学会在闻到之前就知道气味",
+      "filename": "2026-10-04-predictive-coding-olfactory-piriform-feedback.md",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/piriform-cortex.md (rev1->rev2, 新增预测编码角色PCx->OB反馈、鼻呼吸主动推断、嗅觉认知地图；Q-piriform-td-control部分解答)",
+        "wiki/theories/predictive-coding.md (rev10->rev11, 新增嗅觉系统段落、三系统比较表、Q-pc-08更新、3个新未解问题)",
+        "wiki/systems/olfactory-bulb.md (rev1->rev2, 新增PCx->OB反馈回路段落、颗粒细胞误差单元角色)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "梨状皮层如何通过自上而下的预测反馈（PCx->OB反馈回路）主动生成对气味的预期，并用预测误差驱动嗅觉学习和感知？鼻呼吸如何作为主动推断的时间窗口？",
+      "open_questions_added": [
+        "Q-pc-olfaction-01（中优先级）：PCx->OB反馈回路的因果证据——光遗传学特异性沉默反馈纤维能否降低气味辨别能力？",
+        "Q-pc-olfaction-02（低优先级）：鼻呼吸振荡同步的方向性——鼻气流驱动vs梨状皮层内生振荡共振",
+        "Q-pc-olfaction-03（中优先级）：梨状皮层嗅觉认知地图在人类层面的精细组织原则"
+      ],
+      "open_questions_partially_resolved": [
+        "Q-piriform-td-control：OFC/PFC->梨状皮层自上而下控制与预测编码框架的关系（部分解答：Lyons & Gottfried 2025提供预测编码框架解释，但光遗传学因果证据仍缺）",
+        "Q-pc-08：嗅觉系统PCx->OB反馈提供间接支持，但三层皮层的层级分离尚未检验"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "systems",
+        "theory"
+      ],
+      "curriculum_track": "课程脊柱3（感觉系统：嗅觉）+ 课程脊柱9（计算神经科学：预测编码）",
+      "topic_tags": [
+        "predictive coding olfactory piriform cortex feedback",
+        "Lyons Gottfried 2025 Trends Cogn Sci predictive processor",
+        "PCx OB feedback granule cell inhibition mitral cell",
+        "Zelano 2016 nasal breathing limbic oscillations active inference",
+        "Bolding 2020 eLife recurrent circuits concentration invariance",
+        "sniffing active sampling uncertainty reduction",
+        "piriform cortex cognitive map cross-modal prediction",
+        "olfactory bulb granule cell error unit prediction suppression"
+      ],
+      "main_sources": [
+        "PMID:40345946",
+        "PMID:27927961",
+        "PMID:32662420",
+        "PMID:19555653",
+        "PMID:32422571",
+        "PMID:1840504"
+      ],
+      "unresolved_questions": [
+        "Q-pc-olfaction-01",
+        "Q-pc-olfaction-02",
+        "Q-pc-olfaction-03"
+      ],
+      "next_suggested_topics": [
+        "嗅觉系统与海马的记忆通路——梨状皮层->内嗅皮层->海马三突触回路与气味记忆巩固",
+        "主动推断（active inference）的完整计算框架——自由能最小化×精确加权×运动控制",
+        "嗅觉缺失作为帕金森病早期生物标志物——alpha-突触核蛋白嗅球扩散与前驱期检测"
       ]
     }
   ]

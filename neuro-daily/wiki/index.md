@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-02（第162篇·屏状核：大脑最神秘的指挥家）· 主题页总数：**304**（新建1页：systems/claustrum；修订0页；图谱309节点/1832边）
+> 最后更新：2026-10-04（第164篇·大脑的嗅觉预言：梨状皮层预测编码）· 主题页总数：**304**（新建0页；修订3页：concepts/piriform-cortex rev1→rev2, theories/predictive-coding rev10→rev11, systems/olfactory-bulb rev1→rev2；图谱309节点/1869边）
 
 ---
 

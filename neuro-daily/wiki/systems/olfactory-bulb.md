@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-07-26
-updated: 2026-07-26
-revision_count: 1
+updated: 2026-10-04
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region]
-related: [olfactory-receptor, piriform-cortex, amygdala, entorhinal-cortex, gamma-oscillations, lateral-inhibition]
+related: [olfactory-receptor, piriform-cortex, amygdala, entorhinal-cortex, gamma-oscillations, lateral-inhibition, predictive-coding, active-inference]
 prerequisites: [olfactory-receptor, action-potential, synaptic-transmission]
 opens_questions: [Q-ob-human-organization, Q-ob-topography-logic]
-source_articles: [2026-07-26-olfactory-coding-smell-memory-limbic]
-key_sources: ["PMID:32166167", "PMID:19555653", "PMID:32278646"]
+source_articles: [2026-07-26-olfactory-coding-smell-memory-limbic, 2026-10-04-predictive-coding-olfactory-piriform-feedback]
+key_sources: ["PMID:32166167", "PMID:19555653", "PMID:32278646", "PMID:40345946"]
 ---
 
 # 嗅球（主嗅觉球）(Olfactory Bulb, OB)
@@ -55,6 +55,12 @@ key_sources: ["PMID:32166167", "PMID:19555653", "PMID:32278646"]
 
 **嗅球的特殊地位**：嗅球输出**不经过视丘**，直接到达嗅觉皮层和边缘系统——这在所有感觉系统中独一无二。
 
+**6. 梨状皮层→嗅球反馈（自上而下预测）**
+- 梨状皮层锥体细胞轴突侧支向嗅球回送**兴奋性反馈**（谷氨酸能），主要靶向颗粒细胞（也部分靶向PG细胞）
+- 颗粒细胞接受梨状皮层兴奋后，通过树突-树突双向突触**抑制僧帽细胞**（GABA能）
+- 功能角色（预测编码框架，Lyons & Gottfried 2025, PMID:40345946）：梨状皮层将其对当前气味的"预测"通过此回路传至嗅球，压制与预测匹配的僧帽细胞信号；与预测不符的气味成分以强信号进入皮层（"预测误差"）
+- 即：颗粒细胞不仅执行嗅球内侧向抑制（对比度增强），还执行**来自皮层的自上而下预测性抑制**——两种功能共用同一解剖结构
+
 ## 关键机制
 
 **从OSN到小球输入**：
@@ -87,6 +93,8 @@ key_sources: ["PMID:32166167", "PMID:19555653", "PMID:32278646"]
 - [[amygdala]] — 僧帽细胞直接投射到杏仁核皮质内侧核（无视丘中继）→ 气味触发直接情绪反应
 - [[entorhinal-cortex]] — 嗅球→内嗅皮层（LEC）→海马：Proust效应的解剖基础
 - [[gamma-oscillations]] — 嗅球产生β/γ振荡；其机制与皮层γ振荡（PING）类似但有独特的树突-树突回路特征
+- [[predictive-coding]] — 嗅球颗粒细胞是预测编码框架中的"误差单元"：接收梨状皮层预测反馈并以GABA能抑制压制已预期的僧帽细胞信号；僧帽细胞残余放电 = 预测误差信号
+- [[active-inference]] — 嗅球的呼吸相位锁定振荡（Zelano et al. 2016）为主动推断的时间采样窗口提供神经基础
 
 ## 未解问题
 
@@ -96,7 +104,9 @@ key_sources: ["PMID:32166167", "PMID:19555653", "PMID:32278646"]
 ## 修订历史
 
 - 2026-07-26 · 创建 · 基于《气味的神经密码：从一个分子到一段记忆的四级变换》(#94) · 初始置信度：高
+- 2026-10-04 · 修订 rev2 · 基于《大脑的嗅觉预言》(#164) · 新增"6. 梨状皮层→嗅球反馈（自上而下预测）"段落，补充颗粒细胞作为预测编码误差单元的角色（Lyons & Gottfried 2025, PMID:40345946）；related 新增 predictive-coding、active-inference；connections 新增预测编码和主动推断链接；key_sources 新增 PMID:40345946
 
 ## 来源文章
 
 - [[2026-07-26-olfactory-coding-smell-memory-limbic]]
+- [[2026-10-04-predictive-coding-olfactory-piriform-feedback]]

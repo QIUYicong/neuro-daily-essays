@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-10-04（#164）：嗅觉预测编码——梨状皮层作为主动推断引擎
+
+**文章**：《大脑的嗅觉预言：当梨状皮层学会在闻到之前就"知道"气味》（#164）
+
+**类型**：跨系统联接（课程脊柱3：感觉系统 × 课程脊柱9：计算神经科学；层级：molecular × microcircuit × brain-region × theory；选题逻辑：在近期记忆/意识主题后，切换到感觉处理层级；以预测编码视角重新解读嗅觉系统，解答 Q-piriform-td-control，并将预测编码延伸至第三个感觉模态）
+
+**新创建页面（0）**：无新建页面（本次聚焦于三个已有 wiki 节点的内容深化）
+
+**修订页面（3）**：
+- `wiki/concepts/piriform-cortex.md`（rev1→rev2）：新增"特征5：梨状皮层作为预测性处理器"段落（PCx→OB反馈、嗅觉认知地图、鼻呼吸主动推断、OFC/PFC自上而下控制）；新增3行关键证据（Lyons & Gottfried 2025, Zelano 2016, Bolding 2020）；related 新增 predictive-coding、active-inference；Q-piriform-td-control 部分解答；新增 Q-pc-olfaction-01、Q-pc-olfaction-03
+- `wiki/theories/predictive-coding.md`（rev10→rev11）：新增"嗅觉系统：预测编码的进化实验室"段落（PCx→OB反馈回路解析、三系统比较表 视觉/嗅觉/语言、鼻呼吸主动推断）；related 新增 piriform-cortex、olfactory-bulb、gamma-oscillations；connections 新增3条嗅觉系统链接；Q-pc-08 部分更新；新增 Q-pc-olfaction-01、Q-pc-olfaction-02、Q-pc-olfaction-03；key_sources 新增 PMID:40345946、PMID:27927961、PMID:32662420
+- `wiki/systems/olfactory-bulb.md`（rev1→rev2）：新增"6. 梨状皮层→嗅球反馈（自上而下预测）"段落，补充颗粒细胞的预测编码误差单元角色；related 新增 predictive-coding、active-inference；connections 新增预测编码和主动推断链接；key_sources 新增 PMID:40345946
+
+**矛盾登记（0）**：无新矛盾（PCx→OB 反馈作为"预测压制"的功能解读是对已知解剖的新诠释，并不推翻已有的侧向抑制/颗粒细胞功能描述；"预测压制"和"侧向抑制"可能是同一解剖结构的两种功能模式，不互斥）
+
+**未解问题部分解答（2）**：
+- Q-piriform-td-control（部分解答）：Lyons & Gottfried 2025 将该回路纳入预测编码框架，PCx→OB反馈是机制核心；OFC/PFC调节梨状皮层预测权重（精度加权）；剩余缺口：光遗传学因果证据
+- Q-pc-08（部分更新）：嗅觉PCx→OB反馈提供跨感觉系统支持；但三层皮层的层级分离尚未检验
+
+**新增未解问题（3）**：
+- Q-pc-olfaction-01（中）：PCx→OB反馈的光遗传学因果证据
+- Q-pc-olfaction-02（低）：鼻呼吸振荡同步的方向性（鼻气流驱动vs内生共振）
+- Q-pc-olfaction-03（中）：梨状皮层嗅觉认知地图在人类层面的精细组织
+
+**图谱**：309节点/1851边 → **309节点/1869边**（+0节点；+18边：piriform-cortex→predictive-coding（新），piriform-cortex→active-inference（新），predictive-coding→piriform-cortex（新），predictive-coding→olfactory-bulb（新），predictive-coding→gamma-oscillations（新），olfactory-bulb→predictive-coding（新），olfactory-bulb→active-inference（新），piriform-cortex→olfactory-bulb（强化），olfactory-bulb→piriform-cortex（强化），plus 9 existing edges reinforced with new sources）
+
+---
+
 ## 2026-10-03（#163）：围神经网——分子的枷锁与恐惧记忆的重写窗口
 
 **文章**：《分子的枷锁：围神经网如何在杏仁核内关闭恐惧记忆的重写窗口》（#163）

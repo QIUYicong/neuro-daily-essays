@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-04",
+  "article_id": 164,
+  "article_slug": "2026-10-04-predictive-coding-olfactory-piriform-feedback",
+  "sources": [
+    {
+      "id": "S-2026-10-04-01",
+      "pmid": "40345946",
+      "pmcid": "PMC12353100",
+      "type": "review",
+      "access": "open",
+      "title": "Predictive coding in the olfactory system",
+      "authors": "Lyons MK, Gottfried JA",
+      "journal": "Trends in Cognitive Sciences",
+      "year": 2025,
+      "read_status": "full_text",
+      "key_claims": [
+        "梨状皮层作为预测性处理器，通过PCx→OB反馈回路抑制嗅球僧帽细胞",
+        "PCx锥体细胞轴突侧支→嗅球颗粒细胞（兴奋性）→嗅球僧帽细胞（抑制性）",
+        "鼻呼吸（sniffing）作为主动推断的采样行为",
+        "PCx编码嗅觉认知地图（气味-空间、气味-视觉联合表征）"
+      ]
+    },
+    {
+      "id": "S-2026-10-04-02",
+      "pmid": "27927961",
+      "pmcid": "PMC5148230",
+      "type": "research_article",
+      "access": "open",
+      "title": "Nasal Respiration Entrains Human Limbic Oscillations and Modulates Cognitive Function",
+      "authors": "Zelano C et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2016,
+      "volume": "36(49)",
+      "pages": "12448-12467",
+      "read_status": "full_text",
+      "key_claims": [
+        "鼻呼吸将梨状皮层、杏仁核、海马CA1振荡锁定于吸气相（2-12 Hz）",
+        "吸气相恐惧面孔识别准确率显著高于呼气相",
+        "口呼吸时呼吸相位效应消失（关键阴性对照）",
+        "人类颅内电极直接测量"
+      ]
+    },
+    {
+      "id": "S-2026-10-04-03",
+      "pmid": "32662420",
+      "pmcid": "PMC7360366",
+      "type": "research_article",
+      "access": "open",
+      "title": "Recurrent cortical circuits implement concentration-invariant odor coding",
+      "authors": "Bolding KA et al.",
+      "journal": "eLife",
+      "year": 2020,
+      "volume": "9",
+      "pages": "e58757",
+      "read_status": "full_text",
+      "key_claims": [
+        "梨状皮层递归回路维持跨脑状态气味表征稳健性",
+        "TeLC阻断递归回路导致跨脑状态解码准确率大幅下降",
+        "气味偏移后信息在正常皮层持续约4秒，TeLC皮层迅速消失"
+      ]
+    },
+    {
+      "id": "S-2026-10-04-04",
+      "pmid": "19555653",
+      "pmcid": null,
+      "type": "research_article",
+      "access": "subscription",
+      "title": "Odor representations in olfactory cortex: sparse coding, global inhibition, and oscillations",
+      "authors": "Poo C, Isaacson JS",
+      "journal": "Neuron",
+      "year": 2009,
+      "volume": "62(6)",
+      "pages": "850-861",
+      "read_status": "abstract_only",
+      "key_claims": [
+        "梨状皮层稀疏编码：约10%神经元响应单个气味",
+        "宽调谐抑制性中间神经元产生全局抑制",
+        "平均放电率增加约2 Hz"
+      ]
+    },
+    {
+      "id": "S-2026-10-04-05",
+      "pmid": "32422571",
+      "pmcid": null,
+      "type": "research_article",
+      "access": "subscription",
+      "title": "Recurrent cortical circuits implement concentration-invariant odor coding",
+      "authors": "Bolding KA, Franks KM",
+      "journal": "Science",
+      "year": 2020,
+      "volume": "368(6497)",
+      "read_status": "abstract_only",
+      "key_claims": [
+        "约100个梨状皮层神经元可准确分类气味身份",
+        "早期信号+全局抑制实现浓度不变性"
+      ]
+    },
+    {
+      "id": "S-2026-10-04-06",
+      "pmid": "1840504",
+      "pmcid": null,
+      "type": "research_article",
+      "access": "subscription",
+      "title": "A novel multigene family may encode odorant receptors: a molecular basis for odor recognition",
+      "authors": "Buck L, Axel R",
+      "journal": "Cell",
+      "year": 1991,
+      "volume": "65(1)",
+      "pages": "175-187",
+      "read_status": "abstract_only",
+      "key_claims": [
+        "嗅觉受体基因家族（GPCR超家族）发现",
+        "2004年诺贝尔生理医学奖"
+      ]
+    },
+    {
+      "id": "S-2026-10-04-07",
+      "pmid": "8929536",
+      "pmcid": null,
+      "type": "research_article",
+      "access": "subscription",
+      "title": "Visualizing an olfactory sensory map",
+      "authors": "Mombaerts P et al.",
+      "journal": "Cell",
+      "year": 1996,
+      "volume": "87(4)",
+      "pages": "675-686",
+      "read_status": "abstract_only",
+      "key_claims": [
+        "OR-GFP转基因小鼠轴突追踪确立'一受体一小球'规则"
+      ]
+    },
+    {
+      "id": "S-2026-10-04-08",
+      "pmid": "10089886",
+      "pmcid": null,
+      "type": "research_article",
+      "access": "subscription",
+      "title": "Combinatorial receptor codes for odors",
+      "authors": "Malnic B et al.",
+      "journal": "Cell",
+      "year": 1999,
+      "volume": "96(5)",
+      "pages": "713-723",
+      "read_status": "abstract_only",
+      "key_claims": [
+        "嗅觉受体组合编码原理",
+        "单个OR宽调谐，响应多种结构相关气味"
+      ]
+    },
+    {
+      "id": "S-2026-10-04-09",
+      "pmid": "37620443",
+      "pmcid": null,
+      "type": "research_article",
+      "access": "subscription",
+      "title": "Odor perception hierarchically activates piriform cortex, amygdala, and orbitofrontal cortex",
+      "authors": "Sagar V et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2023,
+      "read_status": "abstract_only",
+      "key_claims": [
+        "梨状皮层编码粗粒度气味类别（低维感知空间）",
+        "OFC编码最细粒度、最主观的气味感知（7T fMRI）"
+      ]
+    },
+    {
+      "id": "S-2026-10-04-10",
+      "pmid": "11557990",
+      "pmcid": null,
+      "type": "review",
+      "access": "subscription",
+      "title": "How the olfactory system makes sense of scents",
+      "authors": "Firestein S",
+      "journal": "Nature",
+      "year": 2001,
+      "volume": "413(6852)",
+      "pages": "211-218",
+      "read_status": "abstract_only",
+      "key_claims": [
+        "嗅觉系统从受体到皮层综述"
+      ]
+    }
+  ]
+}

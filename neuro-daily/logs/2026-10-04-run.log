@@ -1,0 +1,131 @@
+# 运行日志 2026-10-04
+
+**知识库连续性日期**：2026-10-04
+**系统时钟日期**：2026-06-26 UTC+8
+**文章编号**：#164
+**运行状态**：✅ 成功完成
+
+---
+
+## 日期约定说明
+
+系统时钟显示2026-06-26 UTC+8，但知识库使用连续性日期（从2026-05-24起每日递进）。本次运行使用知识库连续性日期2026-10-04（第164篇）。
+
+---
+
+## 执行步骤记录
+
+### 步骤0：状态读取
+- 读取 ROUTINE.md：确认日常流程和分支策略（开发分支：claude/funny-einstein-dmjcoi）
+- 读取 state/topic_ledger.json（末尾部分）：确认上次文章为 #163（2026-10-03）
+- 读取 state/contested_claims.json：7个开放争议，无直接相关
+- 读取 state/unresolved_questions.md（顶部）：发现 Q-piriform-td-control（中优先级）→ 直接选题动机
+- 读取 state/monthly_synthesis.md：确认10月文章列表
+- 读取 wiki/index.md：确认当前wiki状态（309节点/1851边，之前为309/1832，#163新增）
+
+### 步骤A：选题
+**选定主题**：嗅觉系统的预测编码机制
+**选题逻辑**：
+1. 直接回答 Q-piriform-td-control（梨状皮层预测编码+OFC/PFC自上而下控制）
+2. 部分回答 Q-pc-08（跨感觉皮层预测编码的普遍性）
+3. 避免近期主题重复（#161-163 覆盖语义地图/屏状核/围神经网，均非预测编码或嗅觉方向）
+4. 结合最新综述（Lyons & Gottfried 2025，Trends Cogn Sci，PMID:40345946，2025年5月发表）
+**文章标题**：《大脑的嗅觉预言：当梨状皮层学会在闻到之前就"知道"气味》
+
+### 步骤B：文献检索
+**主要来源（开放全文）**：
+- PMID:40345946（PMC12353100）：Lyons & Gottfried 2025 综述，全文读取
+- PMID:27927961（PMC5148230）：Zelano et al. 2016 鼻呼吸振荡，全文读取
+- PMID:32662420（PMC7360366）：Bolding et al. 2020 梨状皮层递归回路，全文读取
+
+**补充来源（摘要确认）**：
+- PMID:19555653：Poo & Isaacson 2009（梨状皮层稀疏编码）
+- PMID:32422571：Bolding & Franks 2020（浓度不变性）
+- PMID:1840504：Buck & Axel 1991（OR基因家族，诺贝尔奖）
+- PMID:8929536：Mombaerts et al. 1996（一受体一小球）
+- PMID:10089886：Malnic et al. 1999（组合编码）
+- PMID:37620443：Sagar et al. 2023（梨状皮层感知层级）
+- PMID:11557990：Firestein 2001（嗅觉系统综述）
+
+**检索规范**：使用 PubMed E-utilities API + PMC 开放全文；未读取任何受版权保护的全文；未访问Sci-Hub或任何非法资源；所有PMID均通过PubMed验证真实存在
+
+### 步骤C：文章写作
+- 文章长度：约4800汉字（符合3000-6000字要求）
+- 结构：核心问题→一句话摘要→颠覆性意义→背景三层（受体/嗅球/梨状皮层）→四种机制→关键证据表→类比+边界→认知地图更新→开放问题→AI对话→概念卡片→参考文献
+- 核心机制：PCx→OB反馈（预测压制）、鼻呼吸主动推断（Zelano 2016）、递归回路稳健性（Bolding 2020）、嗅觉认知地图（Lyons & Gottfried 2025）
+- 置信度标注：每条关键证据均标明来源和置信度；PCx→OB的"预测压制"功能角色明确标注为"中高（解剖确立；功能解读为模型解读）"
+
+### 步骤D：阅读笔记和来源文件
+- 创建 notes/2026-10-04-reading-notes.md
+- 创建 sources/2026-10-04-sources.json（10个来源）
+
+### 步骤E：Wiki 固结
+**修订 piriform-cortex.md（rev1→rev2）**：
+- 新增特征5（梨状皮层作为预测性处理器）
+- 新增3行关键证据（Lyons & Gottfried 2025, Zelano 2016, Bolding 2020）
+- 新增 predictive-coding、active-inference 到 related
+- 新增2条连接（predictive-coding、active-inference）
+- Q-piriform-td-control 部分解答
+- 新增未解问题 Q-pc-olfaction-01、Q-pc-olfaction-03
+
+**修订 predictive-coding.md（rev10→rev11）**：
+- 新增"嗅觉系统：预测编码的进化实验室"段落
+- 新增三系统比较表（视觉/嗅觉/语言）
+- 新增 piriform-cortex、olfactory-bulb、gamma-oscillations 到 related
+- 新增3条嗅觉系统连接
+- Q-pc-08 部分更新
+- 新增 Q-pc-olfaction-01、Q-pc-olfaction-02、Q-pc-olfaction-03
+- key_sources 新增 PMID:40345946、PMID:27927961、PMID:32662420
+
+**修订 olfactory-bulb.md（rev1→rev2）**：
+- 新增"6. 梨状皮层→嗅球反馈"段落
+- 新增 predictive-coding、active-inference 到 related
+- 新增2条连接
+
+### 步骤F：治理文件更新
+- state/topic_ledger.json：新增条目 #164；total_articles 163→164；last_updated 更新
+- state/unresolved_questions.md：新增3个问题（Q-pc-olfaction-01/02/03）；Q-piriform-td-control和Q-pc-08部分解答
+- state/monthly_synthesis.md：更新10月摘要表，添加 #164
+
+### 步骤G：导航文件更新
+- wiki/CHANGELOG.md：新增 2026-10-04 条目
+- wiki/index.md：更新最后修改时间和图谱状态
+
+### 步骤H：提交
+- Git commit 并 push 到 claude/funny-einstein-dmjcoi 分支
+
+---
+
+## 知识图谱变化
+
+**节点数变化**：309 → 309（+0；无新建页面）
+**边数变化**：1851 → 1869（+18；预测编码与嗅觉系统的新连接）
+
+**主要新增边**：
+- piriform-cortex ↔ predictive-coding（双向）
+- piriform-cortex ↔ active-inference（单向）
+- predictive-coding → olfactory-bulb（单向）
+- olfactory-bulb → predictive-coding（单向）
+- olfactory-bulb → active-inference（单向）
+- predictive-coding → gamma-oscillations（新增）
+
+---
+
+## 未解问题状态变化
+
+**新增**：
+- Q-pc-olfaction-01（中优先级）：PCx→OB反馈的光遗传学因果证据
+- Q-pc-olfaction-02（低优先级）：鼻呼吸振荡同步的方向性
+- Q-pc-olfaction-03（中优先级）：梨状皮层嗅觉认知地图的人类组织
+
+**部分解答**：
+- Q-piriform-td-control → Lyons & Gottfried 2025预测编码框架
+- Q-pc-08 → 嗅觉系统间接支持，三层皮层层级分离尚未检验
+
+---
+
+## 选题避免记录
+（用于验证选题不重复）
+- 近3篇：#163 围神经网/恐惧记忆, #162 屏状核/意识, #161 语义皮层地图
+- 近7篇额外避免：记忆巩固主题（#160 SWR，#159 资格痕迹，#155 系统巩固）；成瘾（#157）；纹状体（#156, #158）
+- 本次嗅觉预测编码：感觉系统（嗅觉）× 计算理论（预测编码），属于交叉主题，无明显重复

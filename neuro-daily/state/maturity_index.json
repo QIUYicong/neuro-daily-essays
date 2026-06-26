@@ -52,8 +52,8 @@
     "slug": "predictive-coding",
     "status": "mainstream",
     "confidence": "medium",
-    "last_changed": "2026-06-16",
-    "reason": "修订rev2：添加DMN作为预测编码层级高层先验生成器的关联；原有框架状态不变（mainstream/medium）"
+    "last_changed": "2026-10-04",
+    "reason": "修订rev11：新增嗅觉系统作为第三感觉模态预测编码案例（Lyons & Gottfried 2025）；鼻呼吸主动推断（Zelano 2016）；PCx递归回路稳健性（Bolding 2020）；三系统比较表（视觉/嗅觉/语言）；Q-pc-08部分更新；3个新未解问题Q-pc-olfaction-01/02/03"
   },
   {
     "slug": "amygdala",
@@ -900,5 +900,19 @@
     "confidence": "medium",
     "last_changed": "2026-10-02",
     "reason": "新建 rev1 · #162 · 有光遗传因果证据（小鼠：Narikiyo 2020注意过滤、Atlan 2018慢波协调），但人类意识直接证据有争议（Koubeissi 2014单例，未复现）；发育基础新建（Yan 2026 Nurr1）；手术切除案例（Duffau 2007）对强版本意识假说构成挑战"
+  },
+  {
+    "slug": "piriform-cortex",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-04",
+    "reason": "修订rev2（原rev1来自#94）：新增预测性处理器特征（PCx→OB反馈回路、鼻呼吸主动推断）；Q-piriform-td-control部分解答；2个新未解问题Q-pc-olfaction-01/03"
+  },
+  {
+    "slug": "olfactory-bulb",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-04",
+    "reason": "修订rev2（原rev1来自#94）：新增梨状皮层→嗅球反馈回路（颗粒细胞作为预测编码误差单元）；related和connections新增predictive-coding、active-inference"
   }
 ]

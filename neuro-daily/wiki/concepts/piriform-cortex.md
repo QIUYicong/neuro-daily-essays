@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-07-26
-updated: 2026-07-26
-revision_count: 1
+updated: 2026-10-04
+revision_count: 2
 dimensions: [cellular, synaptic, microcircuit, brain-region, cognition]
-related: [olfactory-bulb, olfactory-receptor, amygdala, entorhinal-cortex, pattern-completion, hippocampal-circuit, attractor-network, memory-consolidation]
+related: [olfactory-bulb, olfactory-receptor, amygdala, entorhinal-cortex, pattern-completion, hippocampal-circuit, attractor-network, memory-consolidation, predictive-coding, active-inference]
 prerequisites: [olfactory-bulb, synaptic-transmission, pattern-completion]
-opens_questions: [Q-piriform-topography, Q-piriform-human-subdivision, Q-piriform-td-control]
-source_articles: [2026-07-26-olfactory-coding-smell-memory-limbic]
-key_sources: ["PMID:19555653", "PMID:32422571", "PMID:37620443"]
+opens_questions: [Q-piriform-topography, Q-piriform-human-subdivision, Q-piriform-td-control, Q-pc-olfaction-01, Q-pc-olfaction-03]
+source_articles: [2026-07-26-olfactory-coding-smell-memory-limbic, 2026-10-04-predictive-coding-olfactory-piriform-feedback]
+key_sources: ["PMID:19555653", "PMID:32422571", "PMID:37620443", "PMID:40345946", "PMID:27927961", "PMID:32662420"]
 ---
 
 # 梨状皮层（初级嗅觉皮层）(Piriform Cortex, PCX)
@@ -55,6 +55,15 @@ key_sources: ["PMID:19555653", "PMID:32422571", "PMID:37620443"]
 - 杏仁核：中等精细度
 - 眶额皮层（OFC）：最细粒度、最主观、高度个体化的气味感知
 
+**特征5：梨状皮层作为预测性处理器（Lyons & Gottfried 2025）**
+
+梨状皮层不是被动的感觉接收站，而是**主动生成嗅觉预测**并通过反馈回路抑制"已预期"信号的预测处理器（Lyons & Gottfried 2025, PMID:40345946）：
+
+- **PCx→OB 预测反馈**：梨状皮层锥体细胞轴突侧支→嗅球颗粒细胞（兴奋性，谷氨酸能）→嗅球僧帽细胞（抑制性，GABA能）。这一解剖学回路的功能解读：梨状皮层将其对当前气味的"预测"传至嗅球，压制僧帽细胞中与预测匹配的信号；与预测不符的气味信息（预测误差）以强信号进入皮层，驱动感知更新
+- **嗅觉认知地图**：梨状皮层不仅表征单一气味，还编码气味与其他感觉模态（视觉、空间位置）的联合分布，构成"嗅觉认知地图"，支持跨模态预测（如看到咖啡杯→预激活咖啡气味表征）
+- **鼻呼吸作为主动推断**：Zelano et al.（2016, PMID:27927961）证明鼻呼吸将梨状皮层振荡锁定于吸气-呼气周期；口呼吸时效应消失。主动吸气（sniffing）不仅传输气味分子，还为预测-误差循环提供时间基准
+- **与 OFC/PFC 的自上而下控制**：OFC 和 PFC 通过梨状皮层→OFC 正向投射（以及 OFC→PCx 反馈）调节梨状皮层的增益和预测权重，使气味感知受期望、学习历史和情绪状态调制——这是 Q-piriform-td-control 的核心回答（见下）
+
 ## 关键机制
 
 **全局抑制机制**（Poo & Isaacson, 2009）：
@@ -83,6 +92,9 @@ key_sources: ["PMID:19555653", "PMID:32422571", "PMID:37620443"]
 | 早期信号+全局抑制实现浓度不变性 | 多单元记录+光遗传学操控时间 | PMID:32422571 | 中高 |
 | 梨状皮层在感知层级中编码低维感知（类别/强度） | 人类7T fMRI + 多维感知评分 | Sagar et al. 2023, PMID:37620443 | 中高 |
 | OFC（而非梨状皮层）编码个体化精细气味感知 | 7T fMRI，个体差异分析 | PMID:37620443 | 中高 |
+| PCx→OB反馈回路（预测性压制）解剖学确认 | 跨物种示踪剂解剖；功能模型综述 | Lyons & Gottfried 2025, PMID:40345946 | 中高（解剖确立；功能预测角色为模型解读） |
+| 鼻呼吸将梨状皮层振荡锁定吸气相；口呼吸时效应消失 | 人类颅内电极 + 鼻/口呼吸任务对照 | Zelano et al. 2016, PMID:27927961 | 高（直接人类测量）|
+| 递归联想回路维持跨脑状态气味表征稳健性 | TeLC阻断 + 群体记录 + 解码 | Bolding et al. 2020, PMID:32662420 | 高（直接因果操控）|
 
 ## 连接
 
@@ -93,17 +105,23 @@ key_sources: ["PMID:19555653", "PMID:32422571", "PMID:37620443"]
 - [[pattern-completion]] — 梨状皮层的递归联想回路与CA3类似，具备从降级或混合气味信号恢复完整气味表征的能力
 - [[hippocampal-circuit]] — 梨状皮层→内嗅皮层→海马三突触回路；嗅觉记忆的长期存储
 - [[attractor-network]] — 梨状皮层的递归兴奋连接可以建模为Hopfield吸引子网络
+- [[predictive-coding]] — 梨状皮层是嗅觉域的预测处理器：PCx→OB反馈回路（预测压制）+ 鼻呼吸主动推断 + 递归回路维持预测稳健性（Lyons & Gottfried 2025）；**Q-piriform-td-control 得到部分解答**
+- [[active-inference]] — 鼻呼吸（sniffing）作为主动推断行为：大脑通过主动采样（吸气动作）最小化气味感知的不确定性；Zelano et al. 2016 是嗅觉主动推断的直接证据
 
 ## 未解问题
 
 - Q-piriform-topography（中优先级）：梨状皮层是否完全没有任何功能组织？还是有超出当前分辨率的微尺度拓扑结构？
 - Q-piriform-human-subdivision（中优先级）：人类aPCX/pPCX的功能分工与啮齿类ANT/POST是否有可比性？人类颞叶皮层中的梨状皮层如何与其他感觉联合皮层整合？
-- Q-piriform-td-control（中优先级）：OFC和PFC对梨状皮层的自上而下控制如何通过学习和期望改变气味感知？这个控制回路与预测编码框架的关系？
+- Q-piriform-td-control（**2026-10-04 部分解答**）：OFC和PFC对梨状皮层的自上而下控制如何通过学习和期望改变气味感知？这个控制回路与预测编码框架的关系？**→ 部分回答**：Lyons & Gottfried 2025 将该回路纳入预测编码框架——梨状皮层通过PCx→OB反馈实现预测压制，OFC/PFC通过分层调节梨状皮层增益修改预测权重；但PCx→OB反馈的直接功能因果证据（光遗传学操控）尚缺（新问题 Q-pc-olfaction-01）
+- Q-pc-olfaction-01（中优先级，新增 2026-10-04）：用光遗传学特异性沉默梨状皮层→嗅球颗粒细胞反馈纤维，气味辨别能力是否真的下降？反馈强度在气味学习期间是否增加？
+- Q-pc-olfaction-03（中优先级，新增 2026-10-04）：梨状皮层"嗅觉认知地图"（气味-空间、气味-视觉联合表征）在人类层面的精细组织原则？7T fMRI 能否在人类 aPCX/pPCX 中分辨跨模态联合预测表征？
 
 ## 修订历史
 
 - 2026-07-26 · 创建 · 基于《气味的神经密码：从一个分子到一段记忆的四级变换》(#94) · 初始置信度：高
+- 2026-10-04 · 修订 rev2 · 基于《大脑的嗅觉预言》(#164) · 新增"特征5：梨状皮层作为预测性处理器"段落（PCx→OB反馈回路、嗅觉认知地图、鼻呼吸主动推断、OFC/PFC自上而下控制）；新增3行关键证据（Lyons & Gottfried 2025, Zelano et al. 2016, Bolding et al. 2020）；related 新增 predictive-coding、active-inference；连接新增 predictive-coding、active-inference；Q-piriform-td-control 部分解答；新增未解问题 Q-pc-olfaction-01、Q-pc-olfaction-03；key_sources 新增 PMID:40345946、PMID:27927961、PMID:32662420
 
 ## 来源文章
 
 - [[2026-07-26-olfactory-coding-smell-memory-limbic]]
+- [[2026-10-04-predictive-coding-olfactory-piriform-feedback]]

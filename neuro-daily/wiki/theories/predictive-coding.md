@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-06-15
-updated: 2026-09-14
-revision_count: 10
+updated: 2026-10-04
+revision_count: 11
 dimensions: [molecular, synaptic, microcircuit, brain-region, whole-brain-network, behavior, cognition, AI]
-related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers, beta-oscillations, intrinsic-neural-timescale, temporal-receptive-window]
+related: [precision-weighting, v1-primary-visual-cortex, orientation-selectivity, dopamine-reward-prediction-error, gain-control, working-memory, theta-oscillations, active-inference, default-mode-network, global-workspace-theory, world-model, language-network, ventral-language-stream, cerebellum, forward-model, free-energy-principle, variational-autoencoder, cortical-canonical-microcircuit, cortical-layers, beta-oscillations, intrinsic-neural-timescale, temporal-receptive-window, piriform-cortex, olfactory-bulb, gamma-oscillations]
 prerequisites: [action-potential, synaptic-transmission, ltp, nmda-receptor, dopamine-reward-prediction-error]
-opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-pc-07, Q-pc-08, Q-pc-09]
-source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae, 2026-07-19-beta-oscillations-cortical-prediction, 2026-09-14-v1-laminar-prediction-error-evidence]
-key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002", "PMID:25556836", "PMID:29339471", "PMID:36864133", "PMID:38697110"]
+opens_questions: [Q-pc-01, Q-pc-02, Q-pc-03, Q-pc-04, Q-pc-05, Q-pc-06, Q-pc-07, Q-pc-08, Q-pc-09, Q-pc-olfaction-01, Q-pc-olfaction-02, Q-pc-olfaction-03]
+source_articles: [2026-06-15-predictive-coding, 2026-06-16-default-mode-network, 2026-05-31-week4-synthesis, 2026-07-13-predictive-coding-free-energy-vae, 2026-07-19-beta-oscillations-cortical-prediction, 2026-09-14-v1-laminar-prediction-error-evidence, 2026-10-04-predictive-coding-olfactory-piriform-feedback]
+key_sources: ["PMID:10195184", "PMID:23177956", "PMID:22681686", "PMID:30359606", "PMID:23663408", "PMID:27917138", "PMID:38259953", "PMID:20068583", "PMID:28333583", "PMID:33683317", "PMID:19528002", "PMID:25556836", "PMID:29339471", "PMID:36864133", "PMID:38697110", "PMID:40345946", "PMID:27927961", "PMID:32662420"]
 ---
 
 # 预测编码 (Predictive Coding / Predictive Processing)
@@ -106,6 +106,28 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 
 小脑的预测编码是**局部的、运动-感觉专用的**；皮层的预测编码是**层级的、多模态的**。两者可能共享"预测 → 误差 → 更新"这一核心循环。
 
+### 嗅觉系统：预测编码的进化实验室
+
+嗅觉系统（嗅球 + 梨状皮层）提供了预测编码在进化上最古老的皮层实现案例，且具备独特的实验优势（Lyons & Gottfried 2025, PMID:40345946）：
+
+**PCx→OB 反馈回路**：梨状皮层锥体细胞将轴突侧支回送嗅球颗粒细胞（谷氨酸能），颗粒细胞再通过树突-树突双向突触抑制嗅球僧帽细胞（GABA能）。这条回路的功能解读完全符合预测编码框架：
+- 梨状皮层 = 高层"表征单元"（生成对当前气味的预测）
+- 嗅球颗粒细胞 = "误差单元"（将预测与传入OR激活比较）
+- 嗅球僧帽细胞被压制 = 已预期信号被抑制；超预期部分以强信号进入皮层 = 预测误差上行
+
+**与视觉/语言系统的关键类比**：
+
+| 特征 | 视觉（V1↔LGN） | 嗅觉（PCx↔OB） | 语言（颞叶↔额叶）|
+|------|--------------|--------------|----------------|
+| 反馈通路 | V1深层→LGN | PCx锥体细胞→OB颗粒细胞 | 额叶Broca区→颞叶STG |
+| 中间误差层 | LGN中继/V1L2/3 | OB颗粒细胞（GABA能） | 颞叶预测误差区 |
+| 预测内容 | 视觉边缘/方向/运动 | 气味身份/化学结构 | 词义/句法结构 |
+| 振荡载体 | γ（误差前馈）/β（预测反馈）| β/γ（嗅觉刺激相关）| γ（词级预测误差）|
+
+**嗅觉系统的独特优势**：反馈回路仅需一步（PCx→OB），解剖极为简洁；刺激可以高精度控制；可在清醒动物中进行光遗传学精确操控（OB颗粒细胞可选择性靶向）。这使嗅觉系统成为检验预测编码具体回路假设的理想实验对象。
+
+**鼻呼吸作为主动推断**：Zelano et al.（2016, PMID:27927961）的人类颅内电极研究证明鼻呼吸将梨状皮层、杏仁核、海马振荡锁定于吸气-呼气周期，口呼吸时效应消失。主动吸气（sniffing）不仅增加气味分子传入，还为预测-误差循环提供精确的时间基准——这正是"主动推断（active inference）"框架中的关键行为：通过主动采样降低感觉预测不确定性。
+
 ## 连接
 
 - [[cortical-canonical-microcircuit]] — 规范微回路是预测编码的解剖实现载体：L2/3=误差单元（前馈，γ），L5/6=预测单元（反馈，β），L4=丘脑感觉输入汇聚点，L1=反馈预测接收区
@@ -124,6 +146,9 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[global-workspace-theory]] — GWT 与预测编码互补：足够大的预测误差（无法被局部层级消解）可能是触发全局工作空间点燃的候选机制；意识 = 大脑在无法预测时召唤全局计算资源
 - [[language-network]] — 语言理解是预测编码在词汇层面的实例化：额叶（Broca区）在词出现前200ms生成语义-感觉运动预测，颞叶返回预测误差，构成词级预测-更新循环（Grisoni 2024, PMC10957213）
 - [[ventral-language-stream]] — 腹侧语言流的具身语义预测（工具词→运动皮层预激活；动物词→视觉皮层预激活）是预测编码具身性的直接神经证据
+- [[piriform-cortex]] — 梨状皮层通过PCx→OB反馈回路（PCx锥体细胞→OB颗粒细胞→抑制OB僧帽细胞）实现嗅觉域的预测压制；梨状皮层是嗅觉预测编码的"高层表征单元"；其递归联想网络（Bolding et al. 2020）维持跨脑状态气味表征稳健性（Lyons & Gottfried 2025, PMID:40345946）
+- [[olfactory-bulb]] — 嗅球颗粒细胞在预测编码框架中扮演"误差单元"角色，接收梨状皮层预测反馈并抑制僧帽细胞；僧帽细胞放电强度 = 超出预测的气味成分（预测误差前馈信号）
+- [[gamma-oscillations]] — 嗅球β/γ振荡由兴奋性（僧帽细胞）-抑制性（颗粒细胞）动力学产生，与梨状皮层振荡同步；呼吸锁定振荡（Zelano 2016）可能是嗅觉预测-误差循环的时间载波
 
 ## 未解问题
 
@@ -134,8 +159,11 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - Q-pc-05：层级振荡映射（γ/α-β）的普适性如何？Westerberg 2026 的挑战范围有多大？（高优先级）
 - Q-pc-06：在严格排除神经适应后，V1 和其他皮层区域是否存在真正的预期依赖性预测误差信号？（高优先级，来自 Solomon 2021 批评）
 - Q-pc-07：VAE 编码器与皮层前馈通路的对应是否超出数学类比，存在真实的计算等价性？（中优先级）
-- Q-pc-08（中优先级，2026-09-14 新增）：Thomas 2024 观察到的 V1 层级分离是否在其他初级感觉皮层（A1 听觉皮层、S1 体感皮层）可以复现？是否是皮层的通用计算原理还是 V1 特有组织？
+- Q-pc-08（中优先级，2026-09-14 新增，**2026-10-04 部分更新**）：Thomas 2024 观察到的 V1 层级分离是否在其他初级感觉皮层可以复现？**嗅觉系统的 PCx→OB 反馈回路提供了一个间接支持**——嗅觉中同样存在高层（PCx）→低层（OB）的预测反馈，且解剖上仅需一步；但嗅觉皮层无六层结构，"深层=预期、浅层=误差"的层级分工是否适用于三层皮层尚未检验。A1/S1 的层级分离证据仍然缺乏。
 - Q-pc-09（中优先级，2026-09-14 新增）：7T fMRI 时间分辨率（~1s BOLD 信号）无法分辨"预期建立"与"误差计算"的毫秒时间动态。层级 ECoG 或层级探针电生理何时能提供时间分辨的直接证据？L5/6 的预测信号是在刺激出现前（真正预期）还是刺激出现后（快速推断）建立的？
+- Q-pc-olfaction-01（中优先级，2026-10-04 新增）：PCx→OB 反馈回路的**因果证据**仍不充分。如果用光遗传学特异性沉默梨状皮层→嗅球颗粒细胞反馈纤维，气味辨别能力是否真的下降？在气味学习（气味-奖励联结）期间，反馈强度是否增加？（检验"预测压制"假说的关键缺失实验）
+- Q-pc-olfaction-02（低优先级，2026-10-04 新增）：鼻呼吸振荡同步的方向性——是鼻气流驱动梨状皮层振荡（机械感觉→电信号），还是梨状皮层的内生振荡恰好与呼吸相位共振？Zelano et al. 2016 的口呼吸对照支持"鼻气流是必要条件"，但不能排除鼻子介导的多模态整合。
+- Q-pc-olfaction-03（中优先级，2026-10-04 新增）：梨状皮层的"嗅觉认知地图"（气味-空间、气味-视觉联合表征）在人类层面的精细组织原则？7T fMRI 是否能在人类 aPCX/pPCX 中分辨气味-跨模态联合预测表征？
 
 ## 修订历史
 
@@ -150,6 +178,7 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - 2026-07-19 · 修订 · 基于《β振荡的三副面孔》一文（#87）· 关键证据表新增 Bastos 2015（28 对视觉区域γ前向/β后向，PMID:25556836）和 Bastos 2018（前额叶层流验证频率层级规律，PMID:29339471）；连接新增 beta-oscillations（β作为反馈预测的振荡载体，γ作为前馈误差的振荡载体）；related 新增 beta-oscillations；key_sources 新增 PMID:25556836、PMID:29339471
 - 2026-08-13 · 修订 rev9 · 基于《大脑皮层的时间帝国》文章 #112 · 新增关键证据行：Caucheteux et al. 2023（PMID:36864133，n=304，额顶叶皮层预测更长时程/更高上下文的语言表征，颞叶皮层预测短时程/低上下文）——将预测编码层级与 INT/TRW 时间层级显式连接；related 新增 intrinsic-neural-timescale、temporal-receptive-window；key_sources 新增 PMID:36864133
 - 2026-09-14 · 修订 rev10 · 基于《谁说了什么：V1 各层如何区分预测与误差》文章 #144 · 新增 Thomas et al. 2024（PMID:38697110）为关键证据行——7T fMRI 层级解码首次在人脑直接验证 L5/6=预期、L2/3=误差的解剖分离；Q-pc-01 状态更新为"部分回答（存争议）"；新增未解问题 Q-pc-08（跨感觉皮层普遍性）和 Q-pc-09（层级时间分辨证据）；key_sources 新增 PMID:38697110；source_articles 新增 #144
+- 2026-10-04 · 修订 rev11 · 基于《大脑的嗅觉预言》文章 #164 · 新增"嗅觉系统：预测编码的进化实验室"段落，梳理PCx→OB反馈回路作为预测编码的嗅觉实现（Lyons & Gottfried 2025，PMID:40345946）；新增鼻呼吸主动推断机制（Zelano et al. 2016，PMID:27927961）；新增视觉/嗅觉/语言三系统预测编码比较表；Q-pc-08 部分更新（嗅觉系统提供间接支持，但三层皮层层级分离尚未检验）；related 新增 piriform-cortex、olfactory-bulb、gamma-oscillations；connections 新增三条嗅觉系统链接；新增未解问题 Q-pc-olfaction-01、Q-pc-olfaction-02、Q-pc-olfaction-03；key_sources 新增 PMID:40345946、PMID:27927961、PMID:32662420
 
 ## 来源文章
 
@@ -158,3 +187,4 @@ Rao & Ballard（1999, PMID:10195184）的奠基性计算模型显示，在这样
 - [[2026-07-19-beta-oscillations-cortical-prediction]]
 - [[2026-08-13-cortical-temporal-hierarchy-trw]]
 - [[2026-09-14-v1-laminar-prediction-error-evidence]]
+- [[2026-10-04-predictive-coding-olfactory-piriform-feedback]]
