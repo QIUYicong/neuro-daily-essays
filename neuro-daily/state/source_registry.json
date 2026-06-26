@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-04",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -10223,6 +10223,196 @@
         "cortical markers"
       ],
       "open_access": true
+    },
+    {
+      "pmid": "15217338",
+      "pmcid": null,
+      "doi": "10.1146/annurev.neuro.26.041002.131128",
+      "title": "Electrical synapses in the mammalian brain",
+      "authors_short": "Connors BW, Long MA",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2004,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "Cx36是哺乳动物中间神经元主要神经元连接蛋白",
+        "电突触是'普遍存在但被严重低估的神经回路特征'",
+        "电突触使相邻细胞群阈值下和锋电位活动紧密同步"
+      ]
+    },
+    {
+      "pmid": "15738956",
+      "pmcid": null,
+      "doi": "10.1038/nrn1627",
+      "title": "Expression and functions of neuronal gap junctions",
+      "authors_short": "Söhl G, Maxeiner S, Willecke K",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2005,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "神经元连接蛋白种类：Cx36（主要）、Cx45、Cx57",
+        "靶向基因缺陷小鼠揭示不同connexin功能特异性"
+      ]
+    },
+    {
+      "pmid": "12574431",
+      "pmcid": null,
+      "doi": null,
+      "title": "Selective impairment of hippocampal gamma oscillations in connexin-36 knock-out mouse in vivo",
+      "authors_short": "Buhl DL, Harris KD, Hormuzdi SG, Monyer H, Buzsáki G",
+      "journal": "Journal of Neuroscience",
+      "year": 2003,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "Cx36 KO小鼠海马γ功率locomotion时显著降低",
+        "θ振荡和fast ripples不受Cx36 KO影响",
+        "Cx36电突触选择性支持海马γ振荡"
+      ]
+    },
+    {
+      "pmid": "30824857",
+      "pmcid": null,
+      "doi": "10.1038/s41583-019-0133-5",
+      "title": "Beyond plasticity: the dynamic impact of electrical synapses on neural circuits",
+      "authors_short": "Alcamí P, Pereda AE",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2019,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "电突触是动态可调节的而非固定导线",
+        "调节机制：pH、磷酸化（cAMP/PKA/CaMKII）、多巴胺、活动依赖时序"
+      ]
+    },
+    {
+      "pmid": "27121576",
+      "pmcid": null,
+      "doi": null,
+      "title": "Synchronized gamma-frequency inhibition in neocortex depends on excitatory-inhibitory interactions but not electrical synapses",
+      "authors_short": "Neske GT, Connors BW",
+      "journal": "Journal of Neurophysiology",
+      "year": 2016,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "新皮层γ振荡不依赖电突触（Cx36 KO vs WT无显著差异）",
+        "新皮层γ主要依赖E-I相互作用"
+      ]
+    },
+    {
+      "pmid": "12525690",
+      "pmcid": null,
+      "doi": null,
+      "title": "Contrasting roles of axonal (pyramidal cell) and dendritic (interneuron) electrical coupling in the generation of neuronal network oscillations",
+      "authors_short": "Traub RD, Pais I, Bibbig A, et al.",
+      "journal": "PNAS",
+      "year": 2003,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "计算模型：轴突间电耦合是γ振荡产生必要条件",
+        "树突间电耦合（中间神经元）只起调节作用"
+      ]
+    },
+    {
+      "pmid": "36455063",
+      "pmcid": null,
+      "doi": null,
+      "title": "Interneuronal network model of theta-nested fast oscillations predicts differential effects of heterogeneity, gap junctions and short term depression for hyperpolarizing versus shunting inhibition",
+      "authors_short": "Via G, Barreda Tomás FJ, et al.",
+      "journal": "PLOS Computational Biology",
+      "year": 2022,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "缝隙连接对超极化抑制驱动的γ是必要的，对分流抑制不是",
+        "可能解释海马vs新皮层实验差异"
+      ]
+    },
+    {
+      "pmid": "32393538",
+      "pmcid": "PMC7243254",
+      "doi": null,
+      "title": "Neuronal glutamatergic network electrically wired with silent but activatable gap junctions",
+      "authors_short": "Ixmatlahua DJ, Vizcaíno-Escobar A, et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2020,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "海马苔状纤维-CA3突触处存在沉默Cx36缝隙连接（谷氨酸能主细胞）",
+        "沉默连接在pH改变时被激活"
+      ]
+    },
+    {
+      "pmid": "32276058",
+      "pmcid": "PMC7142327",
+      "doi": null,
+      "title": "Electrically coupled inhibitory interneurons constrain long-range connectivity of cortical networks",
+      "authors_short": "Kraft AW, et al.",
+      "journal": "NeuroImage",
+      "year": 2020,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "Cx36 KO改变皮层区域间自发活动远程同步（infra-slow band）",
+        "局部电耦合网络间接调控全脑网络拓扑"
+      ]
+    },
+    {
+      "pmid": "38988663",
+      "pmcid": "PMC11233782",
+      "doi": null,
+      "title": "Understanding electrical and chemical transmission in the brain",
+      "authors_short": "Borroto-Escuela DO, Cuppini R, et al.",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "year": 2024,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "历史回顾：化学传递vs电传递的区分",
+        "缝隙连接='神经细胞间的低电阻通道'",
+        "电突触传递快于化学传递"
+      ]
+    },
+    {
+      "pmid": "37989006",
+      "pmcid": null,
+      "doi": null,
+      "title": "Antiepileptogenic and neuroprotective effect of mefloquine after experimental status epilepticus",
+      "authors_short": "Shao LR, et al.",
+      "journal": "Epilepsy Research",
+      "year": 2023,
+      "first_used": "2026-10-04",
+      "used_in_articles": [
+        "2026-10-04-electrical-synapse-gap-junction-gamma.md"
+      ],
+      "aspects_covered": [
+        "甲氟喹（Cx36阻断剂）SE后抗癫痫发生效果",
+        "Cx36电突触在病理性癫痫同步中有作用"
+      ]
     }
   ],
   "total_sources": 589,

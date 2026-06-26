@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-10-04",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 5,
+  "open_count": 9,
   "resolved_count": 0,
   "claims": [
     {
@@ -104,6 +104,18 @@
       "source_article": "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate",
       "priority": "medium",
       "note": "已在LGN专页中明确标注两种测量结果并列，降低该主张的confidence至中，不改变TRN先于LGN4ms的时序事实（两研究对这一机制无争议）"
+    },
+    {
+      "id": "C-2026-10-04-01",
+      "page": "wiki/concepts/gap-junction-electrical-synapse.md",
+      "claim_A": "海马Cx36 KO导致γ振荡功率选择性降低（Buhl DL et al. 2003, PMID:12574431：Cx36 KO小鼠行走时海马γ功率显著降低，θ振荡和fast ripples不受影响）",
+      "claim_B": "新皮层Cx36 KO对γ频段同步抑制活动几乎无影响（Neske GT & Connors BW 2016, PMID:27121576：新皮层γ振荡主要依赖E-I相互作用而非电突触）",
+      "nature": "脑区差异（海马vs新皮层）+ 方法差异（在体LFP vs 离体切片）。当前最可能解释：Via 2022计算模型（PMID:36455063）提示缝隙连接对超极化抑制驱动的γ（更接近海马PV细胞）必要，对分流抑制驱动的γ（可能更接近新皮层）贡献有限。但模型预测尚需在对应回路中直接检验。",
+      "status": "open",
+      "opened": "2026-10-04",
+      "source_article": "2026-10-04-electrical-synapse-gap-junction-gamma",
+      "priority": "medium",
+      "note": "三种可能解释：(1)抑制类型差异（超极化vs分流；Via 2022模型支持）；(2)轴突间Cx36耦合（pyramid-pyramid；Traub 2003计算预测，但解剖证据稀少）；(3)离体vs在体条件差异。需要在海马和新皮层中直接操控抑制类型+Cx36双重实验。"
     }
   ]
 }

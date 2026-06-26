@@ -1,5 +1,12 @@
 [
   {
+    "slug": "gap-junction-electrical-synapse",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-04",
+    "reason": "新建 rev1 · #164 · Cx36是神经元主要连接蛋白（Connors & Long 2004, Söhl 2005）；海马γ依赖Cx36因果证据（Buhl 2003）；电突触动态调制（Alcamí & Pereda 2019）；低通滤波特性；分子机制（connexon组装/1.5nm孔道/分子筛选）；五大功能角色（ING同步/远程皮层同步/发育/混合突触/沉默连接）；海马vs新皮层差异被登记为争议（C-2026-10-04-01）"
+  },
+  {
     "slug": "habitual-behavior",
     "status": "established",
     "confidence": "high",

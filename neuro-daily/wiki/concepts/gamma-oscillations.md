@@ -6,15 +6,15 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-05
-updated: 2026-07-21
-revision_count: 5
-dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular, synaptic, disease]
-related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, schizophrenia, sst-interneurons, cortical-layers]
+updated: 2026-10-04
+revision_count: 6
+dimensions: [microcircuit, brain-region, whole-brain-network, cognition, cellular, synaptic, disease, molecular]
+related: [pv-interneurons, working-memory, persistent-activity, prefrontal-cortex, theta-oscillations, temporal-coding-hierarchy, binding-by-synchrony, beta-oscillations, consciousness-ignition, ei-balance, perineuronal-nets, schizophrenia, sst-interneurons, cortical-layers, gap-junction-electrical-synapse]
 prerequisites: [pv-interneurons, action-potential, synaptic-transmission]
-opens_questions: [Q-gamma-wm-causality, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-gamma-ping-ling-01, Q-gamma-sst-pv]
+opens_questions: [Q-gamma-wm-causality, Q-gamma-bind-01, Q-gamma-bind-02, Q-gamma-bind-03, Q-gamma-ping-ling-01, Q-gamma-sst-pv, Q-gap-junction-01]
 partially_resolved_questions: [Q-gamma-capacity]
-source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-07-20-gamma-oscillations-ping-ing-mechanism, 2026-07-21-theta-gamma-coupling-working-memory]
-key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:7854418", "PMID:19396159", "PMID:19396156", "PMID:22114273", "PMID:26912589", "PMID:22355184", "PMID:32859716", "PMID:27927782"]
+source_articles: [2026-06-05-prefrontal-working-memory, 2026-06-25-gamma-oscillations-neural-binding, 2026-07-04-ei-balance-pv-interneuron, 2026-07-20-gamma-oscillations-ping-ing-mechanism, 2026-07-21-theta-gamma-coupling-working-memory, 2026-10-04-electrical-synapse-gap-junction-gamma]
+key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509", "PMID:26447583", "PMID:2922407", "PMID:39185735", "PMID:41558964", "PMID:36598942", "PMID:31089192", "PMID:7854418", "PMID:19396159", "PMID:19396156", "PMID:22114273", "PMID:26912589", "PMID:22355184", "PMID:32859716", "PMID:27927782", "PMID:12574431", "PMID:27121576", "PMID:36455063"]
 ---
 
 # γ 振荡 (Gamma Oscillations, 30–80 Hz)
@@ -108,9 +108,12 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 | 听觉皮层存在两类 γ 生成器（L2/3 慢 γ vs L4 快 γ） | 离体脑片，层级选择性记录 | Ainsworth et al. 2011 (PMID:22114273) | 中-高 |
 | 海马 SST+ 细胞光激活诱发独立快 γ（~80 Hz） | 小鼠海马 SST-Cre ChR2 | Antonoudiou et al. 2020 (PMID:32859716, PMCID:PMC7531548) | 高 |
 | τ_decay=5ms → 70-80 Hz；τ_decay=15ms → 30-40 Hz（模型验证） | CA1 计算模型，双亚型 PV | Keeley et al. 2017 (PMID:27927782, PMCID:PMC5338627) | 中-高 |
+| Cx36 KO小鼠海马γ功率选择性降低（θ和fast ripple不受影响） | 在体LFP，Cx36 KO vs 野生型小鼠 | Buhl et al. 2003 (PMID:12574431, PMC可获取) | 高 |
+| 新皮层γ振荡不依赖Cx36电突触（Cx36 KO vs WT无差异） | 新皮层离体记录 | Neske & Connors 2016 (PMID:27121576, 摘要) | 中高（与海马结果矛盾，已登记C-2026-10-04-01） |
 
 ## 连接
 
+- [[gap-junction-electrical-synapse]] — Cx36 电突触在 PV 网络同步中的上游作用；海马 γ 依赖 Cx36（Buhl 2003），但新皮层 γ 不依赖（Neske & Connors 2016）——活跃争议（C-2026-10-04-01）
 - [[pv-interneurons]] — γ 振荡的主要生成者（PING/ING 机制的关键细胞，Sohal 2009, Cardin 2009 光遗传因果证明）
 - [[sst-interneurons]] — SST+ 细胞也贡献 γ 生成（尤其是海马慢 γ）
 - [[working-memory]] — γ 爆发是工作记忆活动性编码的神经振荡载体
@@ -140,6 +143,7 @@ key_sources: ["PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:22443509"
 - 2026-07-04 · 修订 · 基于《信号与噪声之间：皮层 E/I 平衡》一文 · 新增：γ 振荡作为 E/I 平衡状态读出的维度（广谱 vs 任务诱发）、关键期 γ 瞬态爆发作为可塑性信号（PMID:36598942）；related 新增 ei-balance, perineuronal-nets；key_sources 新增 PMID:36598942, 31089192；新增连接补充段落
 - 2026-07-20 · 修订 · 基于《篮状细胞打出节拍》一文 (#88) · 新增：ING/PING 分子机制深化（GABA-A τ_decay 作为频率时钟；Whittington 1995 ING 实验起点）、Sohal 2009 + Cardin 2009 光遗传因果证据、双层 γ 生成（Ainsworth 2011）、ING-PING 竞争（Viriyopase 2016）、SST+ 贡献（Antonoudiou 2020）、精神分裂症分子级联（Gonzalez-Burgos 2012）；新增 related 节点：schizophrenia, sst-interneurons, cortical-layers；新增 key_sources 8 个；新增未解问题 Q-gamma-ping-ling-01, Q-gamma-sst-pv
 - 2026-07-21 · 修订 · 基于《海马的节律钟表》一文 (#89) · 将 Q-gamma-capacity 从 opens_questions 移入 partially_resolved_questions（三层证据：Lisman-Idiart 1995 + Axmacher 2010 + Wolinski 2018）；Q-gamma-capacity 正文标注部分解答；新增 source_articles: 2026-07-21-theta-gamma-coupling-working-memory
+- 2026-10-04 · 修订 · 基于《神经元的秘密握手》一文 (#164) · 新增：Cx36 电突触对海马γ的贡献（Buhl 2003）；登记矛盾 C-2026-10-04-01（海马vs.新皮层Cx36依赖性差异）；关键证据表新增2行；连接新增 gap-junction-electrical-synapse；opens_questions 新增 Q-gap-junction-01；key_sources 新增 PMID:12574431, 27121576, 36455063
 
 ## 连接补充（2026-07-04）
 

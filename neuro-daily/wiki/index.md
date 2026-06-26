@@ -155,6 +155,7 @@
 - 🔵 [D-丝氨酸](concepts/d-serine.md) — NMDA 受体 GluN1 协同激动剂（而非甘氨酸）；星形胶质细胞丝氨酸消旋酶合成；Ca²⁺ 依赖释放；切断 D-丝氨酸 → LTP 完全消失（Henneberger 2010）**[NEW 2026-07-02]**
 - 🔵 [胶质递质](concepts/gliotransmitter.md) — 星形胶质细胞释放的 D-丝氨酸/ATP/谷氨酸；三种释放机制（囊泡胞吐/VRAC/connexin）；争议：谷氨酸胞吐在生理条件下的真实性（C-2026-07-02-01 open）**[NEW 2026-07-02·medium confidence]**
 - 🟢 [星形胶质细胞钙信号](concepts/astrocyte-calcium-signaling.md) — mGluR→Gq→PLC→IP₃→ER Ca²⁺ 路径；钙波（connexin43 缝隙连接传播，15–27 μm/s）；门控 D-丝氨酸；Cornell-Bell 1990 奠基发现 **[NEW 2026-07-02]**
+- 🟢 [缝隙连接与电突触](concepts/gap-junction-electrical-synapse.md) — Cx36 是神经元电突触主要连接蛋白；耦合系数κ=0.01–0.1；<0.2ms双向传递（vs化学突触1–3ms）；PV+中间神经元电耦合→ING γ振荡；海马γ依赖Cx36（Buhl 2003），新皮层γ不依赖（Neske 2016）←**争议C-2026-10-04-01**；Via 2022计算解释（超极化vs分流抑制）；沉默谷氨酸能Cx36连接（Ixmatlahua 2020）；甲氟喹抗癫痫应用 **[NEW 2026-10-04]**
 - 🟢 [谷氨酸-谷氨酰胺循环](concepts/glutamate-glutamine-cycle.md) — 星形胶质细胞 EAAT2 清除→GS 转化→SNAT 输出→神经元谷氨酰胺酶水解→递质再生；GLT-1 KO → 癫痫/神经元死亡；防兴奋毒性的代谢基础 **[NEW 2026-07-02]**
 
 - 🟢 [突触稳态缩放](concepts/synaptic-scaling.md) — Hebbian 可塑性的负反馈稳定器；乘法性等比调节所有 AMPA 受体（GluA2 通路，不同于 LTP 的 GluA1）；TNFα（星形胶质细胞）许可；视黄酸树突局部信号；Wu 2021 证明稳态缩放主动雕刻记忆特异性 **[NEW 2026-07-03]**

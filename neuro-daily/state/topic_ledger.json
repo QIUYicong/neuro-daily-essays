@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-03",
-  "total_articles": 163,
+  "last_updated": "2026-10-04",
+  "total_articles": 164,
   "entries": [
     {
       "date": "2026-10-03",
@@ -10115,6 +10115,79 @@
         "缝隙连接与大脑神经元电耦合——gap junction在皮层回路中的生理功能及失调",
         "意识状态连续谱：从清醒/睡眠/麻醉到最小意识状态的屏状核-TRN-皮层轴变化",
         "赛洛西宾与意识神经回路——DMN去整合、屏状核活动下降与意识体验改变的关系"
+      ]
+    },
+    {
+      "article_number": 164,
+      "knowledge_base_date": "2026-10-04",
+      "system_clock_date": "2026-06-26",
+      "date_note": "系统时钟显示2026-06-26 UTC+8，使用知识库连续性日期2026-10-04（第164篇缝隙连接电突触文章）",
+      "date": "2026-10-04",
+      "title": "神经元的秘密握手：缝隙连接如何通过电突触在抑制性网络中实现毫秒级同步",
+      "filename": "2026-10-04-electrical-synapse-gap-junction-gamma.md",
+      "topic": "缝隙连接与电突触——Connexin-36、电耦合中间神经元与γ振荡产生机制",
+      "slug": "gap-junction-electrical-synapse",
+      "dimensions": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit"
+      ],
+      "layer": "molecular / synaptic / cellular / microcircuit",
+      "wiki_pages_created": [
+        "wiki/concepts/gap-junction-electrical-synapse.md (rev1, NEW, established/high)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/gamma-oscillations.md (rev5→rev6): 新增Cx36 KO海马γ和新皮层γ争议证据；gap-junction连接；Q-gap-junction-01",
+        "wiki/circuits/pv-interneurons.md (rev7→rev8): 新增Cx36电突触功能细化；gap-junction连接；PMID:12574431, 36455063"
+      ],
+      "contested_claims_logged": [
+        "C-2026-10-04-01: 海马γ依赖Cx36 (Buhl 2003) vs 新皮层γ不依赖Cx36 (Neske 2016)"
+      ],
+      "open_questions_added": [
+        "Q-gap-junction-01（高）：轴突间Cx36 pyramid-pyramid电突触在人类新皮层的解剖证据",
+        "Q-gap-junction-02（中）：沉默Cx36连接在海马LTP/学习中的激活条件",
+        "Q-gap-junction-03（中）：Cx36在快速涟漪振荡(SWR)中的角色",
+        "Q-gap-junction-04（低）：无创人类电突触测量 + Cx36多态性与认知表型"
+      ],
+      "core_question": "缝隙连接如何通过亚毫秒延迟双向电流传递协调PV+中间神经元网络？这一机制在海马γ振荡中是因果性的，但在新皮层中为何不必要？",
+      "curriculum_track": "课程脊柱1（突触传递与可塑性：非化学突触传递的补充机制）+ 课程脊柱2（神经元类型多样性：PV中间神经元电耦合）",
+      "main_sources": [
+        "PMID:15217338 (Connors & Long 2004, Annu Rev Neurosci)",
+        "PMID:15738956 (Söhl et al. 2005, Nat Rev Neurosci)",
+        "PMID:12574431 (Buhl et al. 2003, J Neurosci, PMC)",
+        "PMID:30824857 (Alcamí & Pereda 2019, Nat Rev Neurosci)",
+        "PMID:27121576 (Neske & Connors 2016, J Neurophysiol)",
+        "PMID:36455063 (Via et al. 2022, PLoS Comput Biol, OPEN)",
+        "PMID:32393538 (Ixmatlahua et al. 2020, J Neurosci, PMC)",
+        "PMID:32276058 (Kraft et al. 2020, NeuroImage, PMC)",
+        "PMID:38988663 (Borroto-Escuela et al. 2024, Front Cell Neurosci, OPEN, PMC11233782)"
+      ],
+      "open_access_fulltext": [
+        "PMID:36455063 (PLoS Comput Biol)",
+        "PMID:32393538 (PMC)",
+        "PMID:32276058 (PMC)",
+        "PMID:38988663 (PMC11233782)"
+      ],
+      "graph_update": "309→310节点 (+1: gap-junction-electrical-synapse); 1832→1839边 (+7边)",
+      "key_concepts": [
+        "connexin-36 (Cx36) 神经元主要连接蛋白",
+        "connexon/hemichannel → gap junction通道组装",
+        "耦合系数 κ = ΔV_post/ΔV_pre = 0.01-0.1",
+        "<0.2ms传递延迟（vs化学突触1-3ms）",
+        "低通滤波特性：慢振荡>动作电位更有效传递",
+        "海马γ选择性依赖Cx36 (Buhl 2003)",
+        "新皮层γ不依赖Cx36 (Neske & Connors 2016) ← CONTESTED",
+        "超极化vs分流抑制分区依赖（Via 2022计算模型）",
+        "沉默缝隙连接（Ixmatlahua 2020）",
+        "混合突触（电+化学并存）",
+        "甲氟喹：Cx36特异性阻断剂/抗癫痫应用"
+      ],
+      "next_suggested_topics": [
+        "ephaptic coupling（场效应耦合）——另一种非化学细胞间电信号传递，无需通道",
+        "下橄榄核（inferior olive）——Cx36最密集、机制最清楚的区域，运动节律发生器",
+        "connexin36独立页面——Cx36基因（GJD2）、蛋白结构、磷酸化调制位点、敲除表型",
+        "θ-γ耦合回路机制——电突触如何嵌入θ嵌套γ振荡的宏观网络（Via 2022延伸）"
       ]
     }
   ]

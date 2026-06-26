@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-02",
-  "node_count": 308,
-  "edge_count": 1822,
+  "updated": "2026-10-04",
+  "node_count": 310,
+  "edge_count": 1839,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2823,6 +2823,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/systems/claustrum.md"
+    },
+    {
+      "id": "gap-junction-electrical-synapse",
+      "title": "缝隙连接与电突触（Gap Junctions & Electrical Synapses）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/gap-junction-electrical-synapse.md"
     }
   ],
   "edges": [
@@ -13128,6 +13137,48 @@
       "to": "claustrum",
       "type": "related",
       "note": "岛叶皮层与屏状核解剖紧邻，功能边界尚不清晰（Koubeissi 2014刺激可能实际影响了前岛叶）"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "pv-interneurons",
+      "type": "mechanism-of",
+      "note": "Cx36 电突触在PV+篮状细胞间形成，协调同步放电，支持ING/PING γ振荡产生"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "gamma-oscillations",
+      "type": "supports",
+      "note": "Cx36 KO → 海马γ功率显著降低（Buhl 2003）；新皮层γ不依赖Cx36（Neske 2016）：区域特异性依赖"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "binding-by-synchrony",
+      "type": "supports",
+      "note": "电突触是γ振荡产生的上游机制之一，γ振荡是绑定-同步假说的节律基础"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "sst-interneurons",
+      "type": "related",
+      "note": "SST+中间神经元间也存在Cx36电突触（相对于PV+较少），形成独立电耦合网络"
+    },
+    {
+      "from": "gap-junction-electrical-synapse",
+      "to": "theta-gamma-coupling",
+      "type": "related",
+      "note": "Via 2022：缝隙连接影响θ嵌套γ振荡的稳定性，尤其在超极化抑制主导的网络（海马）"
+    },
+    {
+      "from": "pv-interneurons",
+      "to": "gap-junction-electrical-synapse",
+      "type": "mechanism-of",
+      "note": "PV+篮状/吊灯细胞是Cx36电突触的主要形成细胞，电耦合网络是PV同步化的物理基础"
+    },
+    {
+      "from": "gamma-oscillations",
+      "to": "gap-junction-electrical-synapse",
+      "type": "related",
+      "note": "海马γ依赖Cx36（Buhl 2003），新皮层γ不依赖（Neske 2016）；区域依赖性对理解γ发生机制至关重要"
     }
   ],
   "dangling_references": [

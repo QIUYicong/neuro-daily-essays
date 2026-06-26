@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-10-04（#164）：缝隙连接与电突触——Connexin-36、电耦合中间神经元与γ振荡
+
+**文章**：《神经元的秘密握手：缝隙连接如何通过电突触在抑制性网络中实现毫秒级同步》（#164）
+
+**类型**：新概念机制深挖（课程脊柱1：突触传递与可塑性；层级：molecular × synaptic × cellular × microcircuit；选题逻辑：补齐 pv-interneurons 和 gamma-oscillations 中多次提到但从未独立处理的"电突触/缝隙连接"节点；与上篇分子机制文章形成连续性）
+
+**新创建页面（1）**：
+- `wiki/concepts/gap-junction-electrical-synapse.md`（新建，established/high）：Cx36分子结构（connexin→connexon→通道组装；1.5nm孔道；<1000Da分子筛选）；生物物理特性（耦合系数κ=0.01-0.1；<0.2ms传递延迟；低通滤波特性）；五大功能角色（ING同步/远程皮层同步/发育功能/混合突触/沉默连接）；关键证据表（6行，含海马vs新皮层争议）；4个未解问题（Q-gap-junction-01~04）；9个key_sources
+
+**修订页面（2）**：
+- `wiki/concepts/gamma-oscillations.md`（rev5→rev6）：新增 Buhl 2003 Cx36 KO 海马γ降低（高置信）和 Neske 2016 新皮层γ不受影响（中高置信）两行证据；连接新增 [[gap-junction-electrical-synapse]]；opens_questions 新增 Q-gap-junction-01；key_sources 新增 PMID:12574431, 27121576, 36455063
+- `wiki/circuits/pv-interneurons.md`（rev7→rev8）：新增 Cx36 电突触功能细化（耦合系数κ、树突/体部接触位点、低通滤波）；related 新增 gap-junction-electrical-synapse；key_sources 新增 PMID:12574431, 36455063；来源文章新增 2026-10-04
+
+**矛盾登记（1）**：
+- **C-2026-10-04-01**（中优先级）：海马γ依赖Cx36（Buhl 2003）vs 新皮层γ不依赖Cx36（Neske 2016）——性质：脑区差异+方法差异；当前最可能解释：Via 2022 计算模型（超极化vs分流抑制分区依赖），状态=open
+
+**新增未解问题（4）**：
+- Q-gap-junction-01（高）：轴突间 Cx36 pyramid-pyramid 电突触在人类新皮层的解剖证据
+- Q-gap-junction-02（中）：沉默 Cx36 连接是否在海马 LTP/学习中被激活
+- Q-gap-junction-03（中）：Cx36 在快速涟漪振荡（SWR）中的角色
+- Q-gap-junction-04（低）：无创人类电突触测量 + Cx36 多态性与认知表型
+
+**图谱**：309节点/1832边 → **310节点/1839边**（+1节点 gap-junction-electrical-synapse；+7边：gap-junction→pv-interneurons, gap-junction→gamma-oscillations, gap-junction→binding-by-synchrony, gap-junction→sst-interneurons, gap-junction→theta-gamma-coupling, pv-interneurons→gap-junction, gamma-oscillations→gap-junction）
+
+---
+
 ## 2026-10-03（#163）：围神经网——分子的枷锁与恐惧记忆的重写窗口
 
 **文章**：《分子的枷锁：围神经网如何在杏仁核内关闭恐惧记忆的重写窗口》（#163）

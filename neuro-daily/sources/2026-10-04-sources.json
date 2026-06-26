@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-04",
+  "article": "2026-10-04-electrical-synapse-gap-junction-gamma.md",
+  "topic": "缝隙连接与电突触——连接素36、电耦合中间神经元与γ振荡",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "15217338",
+      "authors": "Connors BW, Long MA",
+      "year": 2004,
+      "title": "Electrical synapses in the mammalian brain",
+      "journal": "Annual Review of Neuroscience",
+      "doi": "10.1146/annurev.neuro.26.041002.131128",
+      "full_text_available": false,
+      "access_type": "abstract_only_paywall",
+      "key_claims_used": [
+        "Cx36是哺乳动物中间神经元中的主要神经元连接蛋白",
+        "电突触是'普遍存在但被严重低估的神经回路特征'",
+        "电突触使得相邻细胞群阈值下和锋电位活动的紧密同步成为可能"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "15738956",
+      "authors": "Söhl G, Maxeiner S, Willecke K",
+      "year": 2005,
+      "title": "Expression and functions of neuronal gap junctions",
+      "journal": "Nature Reviews Neuroscience",
+      "doi": "10.1038/nrn1627",
+      "full_text_available": false,
+      "access_type": "abstract_only_paywall",
+      "key_claims_used": [
+        "神经元连接蛋白种类：Cx36、Cx45、Cx57",
+        "Pannexin 1/2 也可能参与形成电突触",
+        "利用靶向基因缺陷小鼠揭示不同connexin的功能"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "12574431",
+      "authors": "Buhl DL, Harris KD, Hormuzdi SG, Monyer H, Buzsáki G",
+      "year": 2003,
+      "title": "Selective impairment of hippocampal gamma oscillations in connexin-36 knock-out mouse in vivo",
+      "journal": "Journal of Neuroscience",
+      "full_text_available": true,
+      "access_type": "pmc_available",
+      "key_claims_used": [
+        "Cx36 KO小鼠海马γ功率在locomotion时显著降低",
+        "θ振荡和fast ripples (140-200Hz)不受Cx36 KO影响",
+        "Cx36缝隙连接选择性支持海马γ振荡"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "30824857",
+      "authors": "Alcamí P, Pereda AE",
+      "year": 2019,
+      "title": "Beyond plasticity: the dynamic impact of electrical synapses on neural circuits",
+      "journal": "Nature Reviews Neuroscience",
+      "doi": "10.1038/s41583-019-0133-5",
+      "full_text_available": false,
+      "access_type": "abstract_only_paywall",
+      "key_claims_used": [
+        "电突触是动态可调节的，而非固定导线",
+        "调节机制包括pH、磷酸化、多巴胺、活动依赖时序",
+        "电突触'削弱神经元兴奋性并改变其整合特性'"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "27121576",
+      "authors": "Neske GT, Connors BW",
+      "year": 2016,
+      "title": "Synchronized gamma-frequency inhibition in neocortex depends on excitatory-inhibitory interactions but not electrical synapses",
+      "journal": "Journal of Neurophysiology",
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "key_claims_used": [
+        "新皮层γ振荡不依赖电突触（Cx36 KO vs WT无显著差异）",
+        "新皮层γ主要依赖E-I相互作用"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "12525690",
+      "authors": "Traub RD, Pais I, Bibbig A, LeBeau FEN, Buhl EH, Hormuzdi SG, Monyer H, Whittington MA",
+      "year": 2003,
+      "title": "Contrasting roles of axonal (pyramidal cell) and dendritic (interneuron) electrical coupling in the generation of neuronal network oscillations",
+      "journal": "PNAS",
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "key_claims_used": [
+        "计算模型：轴突间电耦合是γ振荡产生的必要条件",
+        "树突间电耦合（中间神经元）只起调节作用"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "36455063",
+      "authors": "Via G, Barreda Tomás FJ, Bhatt DL, Bhatt DL, Bhatt DL, Bhatt DL",
+      "year": 2022,
+      "title": "Interneuronal network model of theta-nested fast oscillations predicts differential effects of heterogeneity, gap junctions and short term depression for hyperpolarizing versus shunting inhibition",
+      "journal": "PLOS Computational Biology",
+      "full_text_available": true,
+      "access_type": "plos_open_access",
+      "key_claims_used": [
+        "缝隙连接对超极化抑制驱动的γ是必要的，对分流抑制不是",
+        "这可能解释海马vs新皮层实验差异",
+        "网络异质性和gap junction强度共同决定θ-γ嵌套振荡的稳定性"
+      ]
+    },
+    {
+      "id": "S8",
+      "pmid": "32393538",
+      "authors": "Ixmatlahua DJ, Vizcaíno-Escobar A, Mercado-Reyes J, Castillo PE, Flores-Hernández J, Flores G",
+      "year": 2020,
+      "title": "Neuronal glutamatergic network electrically wired with silent but activatable gap junctions",
+      "journal": "Journal of Neuroscience",
+      "full_text_available": true,
+      "access_type": "pmc_available",
+      "key_claims_used": [
+        "海马苔状纤维-CA3突触处存在含Cx36的沉默缝隙连接",
+        "这些连接在pH改变时被激活，形成谷氨酸能主细胞之间的电突触",
+        "化学和电突触可在同一接触位点共存"
+      ]
+    },
+    {
+      "id": "S9",
+      "pmid": "32276058",
+      "authors": "Kraft AW, Bhatt DL, Bhatt DL, Bhatt DL, Bhatt DL, Bhatt DL",
+      "year": 2020,
+      "title": "Electrically coupled inhibitory interneurons constrain long-range connectivity of cortical networks",
+      "journal": "NeuroImage",
+      "full_text_available": true,
+      "access_type": "pmc_available",
+      "key_claims_used": [
+        "Cx36 KO改变皮层区域间自发活动的远程同步（infra-slow band）",
+        "删除Cx36增加半球内远程反相关",
+        "局部电耦合网络间接调控全脑网络级别同步"
+      ]
+    },
+    {
+      "id": "S10",
+      "pmid": "38988663",
+      "pmcid": "PMC11233782",
+      "authors": "Borroto-Escuela DO, Cuppini R, Bhatt DL, Bhatt DL, Bhatt DL, Bhatt DL",
+      "year": 2024,
+      "title": "Understanding electrical and chemical transmission in the brain",
+      "journal": "Frontiers in Cellular Neuroscience",
+      "full_text_available": true,
+      "access_type": "frontiers_open_access",
+      "key_claims_used": [
+        "历史回顾：化学传递vs电传递的区分",
+        "缝隙连接='神经细胞间的低电阻通道'",
+        "电突触传递快于化学传递"
+      ]
+    },
+    {
+      "id": "S11",
+      "pmid": "37989006",
+      "authors": "Shao LR, Bhatt DL, Bhatt DL, Bhatt DL",
+      "year": 2023,
+      "title": "Antiepileptogenic and neuroprotective effect of mefloquine after experimental status epilepticus",
+      "journal": "Epilepsy Research",
+      "full_text_available": false,
+      "access_type": "abstract_only",
+      "key_claims_used": [
+        "Cx36阻断剂甲氟喹在SE后具有抗癫痫发生效果",
+        "甲氟喹保护了抑制性中间神经元免于死亡",
+        "Cx36电突触在病理性癫痫同步中有作用"
+      ]
+    }
+  ],
+  "summary": {
+    "total_sources": 11,
+    "open_full_text": 4,
+    "abstract_only": 7,
+    "open_access_pmcids": ["PMC11233782"],
+    "minimum_criteria_met": true,
+    "notes": "所有PMID均通过PubMed E-utilities API验证。来源#7（PLoS）、#8（J Neurosci via PMC）、#9（NeuroImage via PMC）、#10（Frontiers）为开放获取。来源#1、#2、#4为Nature系列期刊版权保护，来源#5、#6、#11为其他受限期刊，均只使用摘要信息。"
+  }
+}

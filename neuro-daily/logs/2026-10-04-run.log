@@ -1,0 +1,89 @@
+# 日运行日志 2026-10-04
+
+**运行时间**：2026-06-26（系统时钟），知识库日期 2026-10-04
+**文章编号**：#164
+**主题**：缝隙连接与电突触——Connexin-36、电耦合中间神经元与γ振荡
+**代理模型**：claude-sonnet-4-6
+
+---
+
+## 运行步骤
+
+### A. 同步与状态读取
+- 当前分支：`claude/funny-einstein-k2vazw`（距 main 约51+ commits 领先）
+- 上次知识库日期：2026-10-03（#163 围神经网）
+- 本次知识库日期：2026-10-04（#164 电突触）
+- 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md 完成
+
+### B. 主题选择
+- 选题依据：pv-interneurons 和 gamma-oscillations 页面中多次提到"电突触"和"缝隙连接"但从未建立独立节点
+- 上篇 #162 中 claustrum wiki 的 Q-claust-02 明确将缝隙连接作为下一步建议主题
+- topic_ledger 确认无现有 gap-junction-electrical-synapse 条目
+- 主题层级：molecular/synaptic/cellular/microcircuit（与近期脑区/全脑层级文章形成对比）
+
+### C. 文献检索与收集
+- **PubMed E-utilities API**：搜索 connexin36 gap junction gamma oscillation PV interneuron
+- **关键障碍**：
+  - PMC 全文页面被 CAPTCHA 拦截（pmc.ncbi.nlm.nih.gov）
+  - Europe PMC API 返回 404
+  - 解决方案：使用摘要信息 + 确认 PMC 可用性标记
+- **最终来源**：11篇（4篇开放全文：PLoS Comput Biol, 3篇 PMC；7篇摘要级别）
+- **PMID验证**：所有11个 PMID 通过 PubMed E-utilities 验证为真实文献
+
+### D. 文章写作
+- 文件：`neuro-daily/articles/2026-10-04-electrical-synapse-gap-junction-gamma.md`
+- 字数：约 4500 中文字符
+- 章节：神经元的秘密握手（导言）/ 缝隙连接的分子结构 / 电突触的生物物理特性 / PV 中间神经元网络中的电突触 / 海马γ振荡：Cx36的因果证据 / 争议：新皮层的挑战 / 电突触不是固定导线 / 沉默的缝隙连接 / 疾病视角 / 总结
+- 明确标注1个争议（海马vs新皮层Cx36依赖性）
+
+### E. 来源记录
+- 文件：`neuro-daily/sources/2026-10-04-sources.json`（11条来源）
+- 文件：`neuro-daily/notes/2026-10-04-reading-notes.md`（详细阅读笔记）
+
+### F. Wiki 固结
+**新建页面（1）**：
+- `wiki/concepts/gap-junction-electrical-synapse.md`（rev1，established/high）
+  - 内容：分子结构、生物物理特性、功能角色×5、证据表×6行、争议节、4个未解问题
+
+**修订页面（2）**：
+- `wiki/concepts/gamma-oscillations.md`（rev5→rev6）
+  - 新增：Buhl 2003 / Neske 2016 证据行；gap-junction 连接；Q-gap-junction-01；3个key_sources
+- `wiki/circuits/pv-interneurons.md`（rev7→rev8）
+  - 新增：Cx36 电突触功能细化；gap-junction-electrical-synapse 链接；2个key_sources；来源文章
+
+### G. 状态文件更新
+- `state/contested_claims.json`：新增 C-2026-10-04-01（open_count 5→9，修正历史欠账）
+- `state/unresolved_questions.md`：新增 Q-gap-junction-01~04
+- `wiki/_graph.json`：309→310节点，1832→1839边（+7边）
+- `wiki/CHANGELOG.md`：新增2026-10-04条目
+- `wiki/index.md`：新增 gap-junction-electrical-synapse 条目
+- `state/topic_ledger.json`：新增#164条目，total_articles→164
+- `state/source_registry.json`：新增11条来源，总计608条
+- `state/monthly_synthesis.md`：更新10月2026条目（3→4篇）
+- `state/maturity_index.json`：新增 gap-junction-electrical-synapse 条目
+
+### H. 自检
+- [x] 所有wiki新主张有来源PMID支持
+- [x] 争议已登记（C-2026-10-04-01）
+- [x] 未解问题已登记（Q-gap-junction-01~04）
+- [x] 索引已更新（index.md，CHANGELOG.md）
+- [x] 所有文件路径一致
+- [x] 不重复昨日文章（#163 围神经网 vs #164 电突触）
+- [x] 未使用 Sci-Hub 或付费墙绕过工具
+- [x] 未虚构 PMID 或结论
+
+### 最终输出统计
+| 指标 | 值 |
+|------|----|
+| 新文章 | 1（#164）|
+| 新 wiki 节点 | 1（gap-junction-electrical-synapse）|
+| 修订 wiki 节点 | 2（gamma-oscillations, pv-interneurons）|
+| 新争议登记 | 1（C-2026-10-04-01）|
+| 新未解问题 | 4（Q-gap-junction-01~04）|
+| 新来源 | 11篇（4篇开放全文）|
+| 新增图节点 | +1（310总计）|
+| 新增图边 | +7（1839总计）|
+
+---
+
+*运行结束。提交并推送至 `claude/funny-einstein-k2vazw`。*
