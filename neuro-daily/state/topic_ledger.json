@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-27",
-  "total_articles": 179,
+  "total_articles": 180,
   "entries": [
     {
       "date": "2026-10-05",
@@ -11097,6 +11097,68 @@
         "normalization-model——规范化计算作为皮层通用运算（Reynolds & Heeger 2009，从#178直接延伸）",
         "global-workspace-theory——扩展意识点燃/GWT页面，与本篇盲视直接连接",
         "月度综合（#151-#180第6周期）——当前进入#179，距#180还有1篇"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "title": "大脑在两种时间中生活：记忆、睡眠与意识如何共同构建预测世界（第六周期月度大图景 #151–#180）",
+      "filename": "2026-06-27-month6-synthesis-cycle6.md",
+      "article_number": 180,
+      "article_type": "monthly_synthesis",
+      "cycle": 6,
+      "articles_synthesized": "#151-#179",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "把第151到179篇文章放在一起，一幅什么样的统一图景浮现？在记忆巩固的分子机器、睡眠的多重工程任务、意识与感知的解离之间，是否存在一条更深层的统一逻辑？答：大脑在两种截然不同的运作模式中交替生存——清醒的在线编码与睡眠的离线优化——两种模式共同服务于建立更准确的世界预测模型。五条统一主线：(1)记忆是多阶段时间旅行(PKMζ→树突棘→SWR→系统巩固); (2)睡眠是离线维护程序(SHY/SWR/REM-IL/腺苷重置); (3)预测误差是通用计算货币(小脑LTD/DA-RPE/SWR竞争); (4)意识不等于感知(盲视/TRN/屏状核); (5)双稳态是大脑重复使用的工程原语(睡眠-清醒触发器/ON-OFF/习惯-目标/围神经网)",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "第六周期（#151-#180）月度综合；跨越脊柱4（记忆）×脊柱5（认知控制）×脊柱6（情绪）×脊柱7（意识）×课程脊柱10（方法）的整合大图景",
+      "topic_tags": [
+        "monthly synthesis cycle 6 #151-#180",
+        "dual-mode brain online offline sleep consolidation",
+        "synaptic homeostasis SHY ON/OFF bistable cortex",
+        "SWR sharp-wave ripple competitive memory selection",
+        "REM IL cortex emotional memory extinction depotentiation",
+        "prediction error universal computational currency cerebellum basal ganglia hippocampus",
+        "bistable brain architecture flip-flop oscillator",
+        "blindsight attention consciousness dissociation Koch Tsuchiya",
+        "TRN pre-cortical attention gate McAlonan 2008",
+        "PKMζ dendritic spine systems consolidation memory timescales",
+        "adenosine Process S sleep pressure flip-flop switch orexin",
+        "Homer1a Arc AMPA downscaling sleep synaptic maintenance"
+      ],
+      "main_sources": [
+        "内部来源：知识库第151-179篇文章及其一手引用（PMID详见各日sources JSON）",
+        "PMID:38714199 (PMC11111341) - Hong et al. 2024 (IL-REM, #177)",
+        "PMID:37791033 (PMC10753543) - Driessen et al. 2026 ON/OFF SHY (#174)",
+        "PMID:18849967 (PMC2888515) - McAlonan 2008 TRN (#178)",
+        "PMID:35237447 (PMC9196108) - Derrien 2022 盲视 (#179)",
+        "PMID:17234498 - Koch & Tsuchiya 2007 注意-意识解离 (#179)"
+      ],
+      "unresolved_questions": [
+        "Q-pkm-01",
+        "Q-swr-competition",
+        "Q-blindsight-01",
+        "Q-shy-human",
+        "C-2026-09-15-01",
+        "C-2026-05-31-02"
+      ],
+      "next_suggested_topics": [
+        "normalization-model——规范化作为皮层通用运算，Reynolds & Heeger 2009，高优先级悬空引用",
+        "global-workspace-theory (深化)——意识子图核心节点，与本周期盲视/TRN/屏状核直接连接",
+        "acetylcholine-neuromodulation——ACh在认知增强/注意力/记忆编码中的完整机制，脊柱5深化",
+        "serotonin-sleep-depression——5-HT与睡眠-情绪交叉，SSRI延迟与REM抑制，疾病作为窗口",
+        "grid-cells-time-cells (深化)——时间表征系统，与海马情景记忆时序整合直接连接"
       ]
     }
   ]

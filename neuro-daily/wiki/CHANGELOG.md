@@ -4128,3 +4128,22 @@
 - `hla-autoimmunity`：narcolepsy.md related 中引用的 slug，尚无独立页面（HLA 分子与自身免疫的通用机制页面，多种疾病共用）
 
 **图谱变化**：322节点/1915边 → **323节点/1921边**（+1节点：narcolepsy；+6边：narcolepsy↔orexin-hypocretin mechanism-of/related；narcolepsy↔flip-flop-switch-sleep-wake supports/related；narcolepsy→rem-sleep related；narcolepsy→ascending-arousal-system related）
+
+---
+
+## 2026-06-27 · #180 月度综合（第六周期 #151–#180）
+
+**文章**：`articles/2026-06-27-month6-synthesis-cycle6.md`
+
+**新建 wiki 页（0个）**：本文为月度综合，无新建主题页。
+
+**修订 wiki 页（0个）**：月度综合不修订现有 wiki 页（既有页的修订已在各日运行中完成）。
+
+**矛盾操作**：无新增矛盾；仍有 2 条重要 open 矛盾（C-2026-09-15-01 LGN增益矛盾，C-2026-05-31-02 GWT点燃争议）。
+
+**五条统一主线**：(1) 记忆是多阶段时间旅行；(2) 睡眠是离线维护程序；(3) 预测误差是通用计算货币；(4) 意识≠感知；(5) 双稳态是大脑重复使用的工程原语。
+
+**图谱变化**：无变化（328节点/1971边，各页修订已在各日完成）
+
+**新增悬空引用（待填补）**：`normalization-model`、`global-workspace-theory`（需深化专页）
+

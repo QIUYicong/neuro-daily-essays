@@ -1,0 +1,69 @@
+{
+  "date": "2026-06-27",
+  "article_number": 180,
+  "article_type": "monthly_synthesis",
+  "cycle": "6",
+  "articles_synthesized": "#151-#179",
+  "note": "月度综合文章，主要依赖知识库内已发表文章及其背后一手来源，无新检索。关键来源（代表性）：",
+  "key_sources": [
+    {
+      "id": "S001",
+      "citation": "Hong et al. 2024 Curr Biol",
+      "pmid": "38714199",
+      "pmcid": "PMC11111341",
+      "title": "REM sleep-active infralimbic neurons promote fear extinction memory",
+      "open_full_text": true,
+      "from_article": "#177",
+      "role": "IL-REM情绪记忆因果证据（76.6%激活+4h窗口）"
+    },
+    {
+      "id": "S002",
+      "citation": "Driessen et al. 2026 Nature Neurosci",
+      "pmid": "37791033",
+      "pmcid": "PMC10753543",
+      "title": "Optogenetic induction of cortical ON-OFF states rescues homeostatic sleep function",
+      "open_full_text": true,
+      "from_article": "#174",
+      "role": "ON/OFF双稳态是SHY充分条件（三重验证）"
+    },
+    {
+      "id": "S003",
+      "citation": "McAlonan K et al. 2008 Nature",
+      "pmid": "18849967",
+      "pmcid": "PMC2888515",
+      "title": "Guarding the gateway to cortex with attention in visual thalamus",
+      "open_full_text": true,
+      "from_article": "#178",
+      "role": "TRN皮层前4ms门控注意力"
+    },
+    {
+      "id": "S004",
+      "citation": "Koch C, Tsuchiya N 2007 Trends Cogn Sci",
+      "pmid": "17234498",
+      "open_full_text": false,
+      "from_article": "#179",
+      "role": "注意-意识双向解离系统综述"
+    },
+    {
+      "id": "S005",
+      "citation": "Derrien D et al. 2022 Neurosci Conscious",
+      "pmid": "35237447",
+      "pmcid": "PMC9196108",
+      "open_full_text": true,
+      "from_article": "#179",
+      "role": "盲视类型学(TypeI/TypeII)综述"
+    },
+    {
+      "id": "S006",
+      "citation": "Kroeger D et al. 2018 Nature Commun",
+      "from_article": "#172",
+      "role": "VLPO光遗传激活与睡眠-清醒触发器"
+    },
+    {
+      "id": "S007",
+      "citation": "Fulcher BD et al. 2014 PLoS ONE",
+      "from_article": "#172",
+      "role": "睡眠-清醒双稳系统数学模型"
+    }
+  ]
+}
