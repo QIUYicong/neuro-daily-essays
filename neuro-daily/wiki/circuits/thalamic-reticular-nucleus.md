@@ -12,7 +12,7 @@ dimensions: [cellular, microcircuit, brain-region, cognition]
 related: [thalamus, thalamocortical-circuit, lateral-geniculate-nucleus, sleep-spindles, prefrontal-cortex, basal-ganglia, dorsal-attention-network, alpha-oscillations, beta-oscillations]
 prerequisites: [action-potential, synaptic-transmission, thalamus, thalamocortical-circuit]
 opens_questions: [Q-lgn-01, Q-lgn-03, Q-thalamus-gating-mechanism, Q-trn-01, Q-trn-02]
-source_articles: [2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate, 2026-10-10-thalamus-attention-consciousness-trn]
+source_articles: [2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate, 2026-10-10-thalamus-attention-consciousness-trn, 2026-06-28-attention-neural-mechanisms-spotlight]
 key_sources: ["PMID:18849967", "PMID:31202541", "PMID:16837581", "PMID:29184210", "PMID:41702717", "PMID:26503050", "PMID:32699411", "PMID:26460547", "PMID:25126786"]
 ---
 

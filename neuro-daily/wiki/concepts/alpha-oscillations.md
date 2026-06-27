@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-22
-updated: 2026-07-22
-revision_count: 1
+updated: 2026-06-28
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, cognition, behavior]
 related: [theta-gamma-coupling, gamma-oscillations, beta-oscillations, theta-oscillations, working-memory, thalamus, thalamocortical-circuit, sleep-spindles, pv-interneurons, dorsal-attention-network, cortical-layers, prefrontal-cortex]
 prerequisites: [thalamocortical-circuit, voltage-gated-calcium-channels, pv-interneurons, cortical-layers]
 opens_questions: [Q-theta-primate, Q-alpha-thalamic-vs-cortical, Q-alpha-c-vs-dprime]
-source_articles: [2026-07-22-alpha-oscillations-attention-wm]
-key_sources: ["PMID:10576479", "PMID:10704517", "PMID:16887192", "PMID:18829955", "PMID:18287498", "PMID:21779269", "PMID:21779257", "PMID:29044823", "PMID:24268290", "PMID:31972202", "PMID:30887701", "PMID:32513573"]
+source_articles: [2026-07-22-alpha-oscillations-attention-wm, 2026-06-28-attention-neural-mechanisms-spotlight]
+key_sources: ["PMID:10576479", "PMID:10704517", "PMID:16887192", "PMID:18829955", "PMID:18287498", "PMID:21779269", "PMID:21779257", "PMID:29044823", "PMID:24268290", "PMID:31972202", "PMID:30887701", "PMID:32513573", "PMID:21119777", "PMC6772495"]
 ---
 
 # α振荡 (Alpha Oscillations)
@@ -99,6 +99,7 @@ Wianda & Ross (2019) WM三阶段：
 - [[thalamus]] — 枕核/LP生成广播式α信号
 - [[cortical-layers]] — L5主导低级视觉区α；L2/3主导高级联合区α
 - [[beta-oscillations]] — β（13–30 Hz）与α在频率相邻但功能不同：β=状态维持，α=选择性压制
+- [[attention]] — α 振荡是注意力第三级维持机制的神经实现：通过"通过抑制门控"在数十至数百毫秒内维持差异化的感觉门控状态
 
 ## 未解问题
 
@@ -108,6 +109,7 @@ Wianda & Ross (2019) WM三阶段：
 
 ## 修订历史
 
+- 2026-06-28 · 修订（rev2）· 基于《注意力的神经机制》（#178）· 新增 [[attention]] 连接，补充 Jensen & Mazaheri 2010（PMC6772495）"通过抑制门控"框架的明确引用；source_articles 更新；key_sources +2
 - 2026-07-22 · 创建 · 基于《α振荡：视丘节拍器、感知闸门与人类工作记忆的抑制性容量机制》 · 初始置信度：高（注意/感知功能层），中（机制层与WM α-γ证据）
 
 ## 来源文章

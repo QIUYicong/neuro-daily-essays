@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-13",
-  "total_articles": 176,
+  "last_updated": "2026-06-28",
+  "total_articles": 178,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10977,6 +10977,65 @@
         "TARP辅助亚基与AMPA受体突触锚定——AMPA分子机制系列深化（与Homer1a/Arc文章连接）",
         "spike-timing-dependent-plasticity（STDP）——填补图谱悬空引用，基础学习机制",
         "sharp-wave-ripple——填补图谱悬空引用，与睡眠记忆巩固直接连接"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "title": "注意力的神经机制：三级联动门控系统如何在皮层前就开始选择世界",
+      "filename": "2026-06-28-attention-neural-mechanisms-spotlight.md",
+      "article_number": 178,
+      "wiki_pages_created": [
+        "wiki/concepts/attention.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/alpha-oscillations.md (rev1→rev2: 新增[[attention]]连接；Jensen & Mazaheri 2010明确引用；source_articles+1；key_sources+2)",
+        "wiki/circuits/thalamic-reticular-nucleus.md (source_articles 新增 2026-06-28 文章)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [
+        "C-2026-09-15-01（LGN增益矛盾：McAlonan 2008 20-30% vs Alitto 2025 ~1%；attention.md 中明确标注，裁决仍 open）"
+      ],
+      "core_question": "注意力选择性增强是否在感觉信号到达皮层之前就已经发生？TRN门控（McAlonan 2008：TRN效应22ms，LGN效应26ms，差4ms）+α振荡门控（Jensen & Mazaheri 2010）+DAN预期性激活（Corbetta & Shulman 2002）三级联动，规范化模型（Reynolds & Heeger 2009）统一计算描述——注意力是赢者通吃资源竞争的乘法性增益机制",
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "curriculum_track": "认知系统系列：注意力综合篇；填补图谱 `attention` 悬空引用；接续 dorsal-attention-network（#107）和 alpha-oscillations（#131）的系统整合；课程脊柱3（感知觉）× 脊柱8（认知）× 脊柱10（AI对照）",
+      "topic_tags": [
+        "attention spatial feature temporal executive",
+        "Corbetta Shulman 2002 DAN VAN dual network FEF IPS TPJ",
+        "McAlonan Cavanaugh Wurtz 2008 Nature TRN LGN 4ms pre-cortical gating",
+        "Jensen Mazaheri 2010 alpha oscillations gating by inhibition",
+        "Reynolds Heeger 2009 normalization model contrast gain response gain",
+        "Engel Fries Singer 2001 communication through coherence CTC gamma synchrony",
+        "thalamic reticular nucleus GABA attention gate LGN visual cortex",
+        "dorsal attention network prefrontal cortex FEF IPS top-down",
+        "alpha power lateralization anticipatory suppression visual cortex",
+        "normalization divisive spotlight size receptive field",
+        "biased competition winner take all multiplicative gain",
+        "attention consciousness boundary unconscious attention TRN"
+      ],
+      "main_sources": [
+        "PMID:11994752 - Corbetta M, Shulman GL 2002 Nat Rev Neurosci (DAN/VAN双网络，摘要)",
+        "PMID:18849967 (PMC2888515) - McAlonan K et al. 2008 Nature (TRN门控LGN，4ms，开放全文)",
+        "PMID:19186161 (PMC6725538) - Reynolds JH, Heeger DJ 2009 Neuron (规范化模型，开放全文)",
+        "PMID:21119777 (PMC6772495) - Jensen O, Mazaheri A 2010 Front Hum Neurosci (alpha振荡门控，开放全文)",
+        "PMID:11584308 - Engel AK, Fries P, Singer W 2001 Nat Rev Neurosci (CTC振荡同步，摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-attention-01",
+        "Q-attention-02",
+        "Q-attention-03"
+      ],
+      "next_suggested_topics": [
+        "sharp-wave-ripple——填补图谱悬空引用，与睡眠记忆巩固直接连接（优先级最高悬空引用之一）",
+        "parallel-fiber——小脑颗粒细胞→浦肯野细胞连接，填补图谱悬空引用",
+        "normalization-model——规范化计算作为皮层通用运算；与本篇Reynolds & Heeger 2009直接连接",
+        "月度综合（#151-#180第6周期）——当前进入#178，距#180还有2篇",
+        "视觉注意与失读症/ADHD临床连接——注意力系列的疾病应用延伸（脊柱11）"
       ]
     }
   ]

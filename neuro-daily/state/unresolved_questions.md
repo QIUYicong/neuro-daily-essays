@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-10-16*
+*最后更新：2026-06-28*
+
+---
+
+## 2026-06-28 新增（来自"注意力的神经机制：三级联动门控系统" 文章 #178）
+
+### Q-attention-01（高优先级）：α 振荡对注意选择的因果证明
+
+- **关联 wiki**：[[attention]]、[[alpha-oscillations]]、[[dorsal-attention-network]]
+- **来源文章**：2026-06-28-attention-neural-mechanisms-spotlight
+- **问题**：目前 α 振荡与注意选择的关系以相关性证据为主（被忽略侧 α 升高、高 α 时检测率低）。TMS/光遗传直接操控 α 功率后注意选择如何变化？能否通过闭环 TMS 实时钳制 α 功率，在有/无 α 升高条件下直接对比注意选择效率？
+- **关键实验**：闭环 TMS（相位精确）在注意任务中选择性增强被忽略侧 α 功率，测定目标检测率变化；或光遗传激活视觉皮层 L5/TRN 诱发 α 节律，观察是否选择性压制同侧视野的感觉处理
+- **当前证据状态**：相关性证据：高；因果证据：有限（Foxe & Snyder 2011 的 rTMS 初步证据，但特异性有争议）
+
+### Q-attention-02（高优先级）：人类 TRN 的直接注意门控电生理证据
+
+- **关联 wiki**：[[thalamic-reticular-nucleus]]、[[attention]]、[[lateral-geniculate-nucleus]]
+- **来源文章**：2026-06-28-attention-neural-mechanisms-spotlight
+- **问题**：McAlonan et al. 2008 在猕猴中证明 TRN 效应先于 LGN 约 4ms（时序因果证据）。人类颅内电生理中是否有直接证据显示 TRN 的注意调制？目前人类丘脑的高分辨率颅内记录极为罕见（仅见于癫痫/DBS 患者的深部电极记录），TRN 的注意门控在人类是否等价？
+- **关键实验**：高时间分辨率人类颅内 EEG（sEEG/DBS 触点落在丘脑/TRN 附近）+ 空间注意任务；或高场 fMRI（7T）的视丘核分辨率提升研究
+- **当前证据状态**：猕猴 TRN 注意门控：高；人类 TRN 直接电生理：缺失
+
+### Q-attention-03（中优先级）：注意与意识的精确分离条件
+
+- **关联 wiki**：[[attention]]、[[consciousness-ignition]]、[[global-workspace-theory]]、[[thalamic-reticular-nucleus]]
+- **来源文章**：2026-06-28-attention-neural-mechanisms-spotlight
+- **问题**：无意识注意（意识阈下的注意偏置，如阈下提示效应）是否需要 TRN/DAN 的全面参与？TRN 门控能否在无皮层意识激活（无 GNW 点燃）的情况下独立工作？如果 TRN 实现的是"预意识"过滤，那么注意与意识在 TRN 层面究竟有多少重叠？
+- **关键实验**：阈下空间提示 + 同步颅内 TRN/LGN 记录（需罕见机会）；或 EEG/MEG 源分析比较阈上 vs 阈下提示的丘脑激活时序
+- **当前证据状态**：无意识注意行为证据：中；TRN 层面的意识/无意识分离：未知
 
 ---
 

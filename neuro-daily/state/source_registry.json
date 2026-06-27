@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-10-16",
+  "last_updated": "2026-06-28",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "11584308",
+      "pmcid": null,
+      "doi": "10.1038/35094565",
+      "title": "Dynamic predictions: oscillations and synchrony in top-down processing",
+      "authors_short": "Engel AK, Fries P, Singer W",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2001,
+      "first_used": "2026-06-28",
+      "used_in_articles": [
+        "2026-06-28-attention-neural-mechanisms-spotlight.md"
+      ],
+      "aspects_covered": [
+        "communication through coherence CTC",
+        "gamma synchrony in attention",
+        "top-down oscillatory signals"
+      ]
+    },
+    {
+      "pmid": "21119777",
+      "pmcid": "PMC6772495",
+      "doi": "10.3389/fnhum.2010.00186",
+      "title": "Shaping Functional Architecture by Oscillatory Alpha Activity: Gating by Inhibition",
+      "authors_short": "Jensen O, Mazaheri A",
+      "journal": "Frontiers in Human Neuroscience",
+      "year": 2010,
+      "first_used": "2026-06-28",
+      "used_in_articles": [
+        "2026-06-28-attention-neural-mechanisms-spotlight.md"
+      ],
+      "aspects_covered": [
+        "gating by inhibition framework",
+        "anticipatory alpha power lateralization",
+        "alpha wave trough as excitation window"
+      ]
+    },
     {
       "pmid": "34709916",
       "pmcid": null,

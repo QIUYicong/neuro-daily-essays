@@ -4,6 +4,32 @@
 
 ---
 
+## 2026-06-28（#178）：注意力的神经机制——三级联动门控系统
+
+**文章**：《注意力的神经机制：三级联动门控系统如何在皮层前就开始选择世界》（#178）
+
+**类型**：填补图谱悬空引用（`attention` 节点）；层级：microcircuit × brain-region × whole-brain-network × cognition
+
+**新创建页面（1）**：
+- `wiki/concepts/attention.md`（rev1）：注意力综合概念页，整合 DAN/VAN 双系统（Corbetta & Shulman 2002）、TRN 皮层前 4ms 门控（McAlonan 2008）、α 振荡抑制门控（Jensen & Mazaheri 2010）、规范化模型（Reynolds & Heeger 2009）；未解问题 Q-attention-01/02/03；8 个关键来源
+
+**修订页面（2）**：
+- `wiki/concepts/alpha-oscillations.md`（rev1→rev2）：新增 [[attention]] 连接；补充 Jensen & Mazaheri 2010（PMC6772495）"通过抑制门控"框架明确引用；source_articles 新增 2026-06-28 文章；key_sources +2
+- `wiki/circuits/thalamic-reticular-nucleus.md`：source_articles 新增 2026-06-28 文章（无内容修订，McAlonan 2008 已完整收录）
+
+**图谱变更**：
+- 新增节点（1）：attention（concepts/established/high）
+- 新增边（11条）：attention→dorsal-attention-network(related)、attention→alpha-oscillations(related)、attention→thalamic-reticular-nucleus(related)、attention→lateral-geniculate-nucleus(regulates)、attention→working-memory(related)、attention→predictive-coding(related)、attention→biased-competition(mechanism-of)、attention→consciousness-ignition(related)、alpha-oscillations→attention(mechanism-of)、thalamic-reticular-nucleus→attention(mechanism-of)、dorsal-attention-network→attention(related)
+- 更新：_graph.json → 325 节点 / 1946 边
+
+**填补悬空引用**：`attention`（已填补，消除悬空状态）
+
+**矛盾引用**：McAlonan 2008（PMID:18849967）的 LGN 增益 20–30% 与 C-2026-09-15-01 的 Alitto 2025（~1%）矛盾保持 open，在 attention.md 中明确标注
+
+**未解问题新增**：Q-attention-01（α 振荡因果证明）、Q-attention-02（人类 TRN 直接电生理证据）、Q-attention-03（注意 vs 意识分离条件）
+
+---
+
 ## 2026-06-27（#177）：恐惧可以被睡眠稀释吗——REM睡眠、IL皮层与情绪记忆重构
 
 **文章**：《恐惧可以被睡眠稀释吗：REM睡眠、下边缘皮层与情绪记忆重构的因果解剖》（#177）

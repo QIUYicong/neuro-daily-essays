@@ -1,0 +1,68 @@
+# 运行日志 · 2026-06-28（注意力篇）
+
+**运行时间**：UTC+8 2026-06-28（当前序列第 178 篇）
+**上一篇**：#177（2026-06-27，REM 睡眠情绪记忆重构）
+**系统状态**：正常（从压缩上下文恢复继续运行）
+
+---
+
+## 主题选择理由
+
+1. 图谱分析：`attention` 是悬空引用（被多页引用但无专页）
+2. 已覆盖层级：#176 分子层、#177 行为/认知层 → 今日选全脑网络/认知层（注意力）
+3. 现有专页 `dorsal-attention-network`、`alpha-oscillations`、`thalamic-reticular-nucleus` 已覆盖子主题，今日创建综合索引页
+4. 排除：STDP（wiki 已有 stdp.md）；成人神经发生（已有近期文章）
+
+## 来源核实记录
+
+- PMID:18849967（McAlonan 2008 Nature）✅ eutils API 验证，PMC2888515 开放全文
+- PMID:19186161（Reynolds & Heeger 2009 Neuron）✅ eutils API 验证，PMC6725538 开放全文
+- PMID:21119777（Jensen & Mazaheri 2010 Front Hum Neurosci）✅ eutils API 验证，PMC6772495 开放全文
+- PMID:11994752（Corbetta & Shulman 2002 Nat Rev Neurosci）✅ eutils API 验证，无免费全文，仅摘要
+- PMID:11584308（Engel, Fries & Singer 2001 Nat Rev Neurosci）✅ eutils API 验证，无免费全文，仅摘要
+
+## 排除的来源（验证失败）
+
+- 无（所有使用来源均经 eutils 验证）
+
+## 产出文件
+
+| 文件 | 状态 |
+|------|------|
+| articles/2026-06-28-attention-neural-mechanisms-spotlight.md | ✅ 已创建（上一次运行） |
+| notes/2026-06-28-reading-notes-attention.md | ✅ 已创建（上一次运行） |
+| sources/2026-06-28-sources.json | ✅ 已创建 |
+| wiki/concepts/attention.md | ✅ 已创建（rev1） |
+| wiki/concepts/alpha-oscillations.md | ✅ 已修订（rev1→rev2） |
+| wiki/circuits/thalamic-reticular-nucleus.md | ✅ source_articles 更新 |
+| wiki/_graph.json | ✅ 325节点/1946边（+1节点/+11边） |
+| wiki/index.md | ✅ 已更新（attention 条目新增） |
+| wiki/CHANGELOG.md | ✅ 已更新 |
+| state/topic_ledger.json | ✅ 已更新（total_articles=178） |
+| state/unresolved_questions.md | ✅ 已更新（Q-attention-01/02/03 新增） |
+| state/source_registry.json | ✅ 已更新（+2新来源） |
+| state/monthly_synthesis.md | ✅ 已更新（六月部分新增） |
+| state/maturity_index.json | ✅ 已更新（attention 新增） |
+
+## 矛盾处理
+
+- C-2026-09-15-01（LGN增益：McAlonan 2008 20-30% vs Alitto 2025 ~1%）：保持 open，在 attention.md 中明确标注
+
+## 悬空引用状态
+
+- ✅ `attention`：本次已填补
+- ⏳ `sharp-wave-ripple`：保持待填
+- ⏳ `parallel-fiber`：保持待填
+- ⏳ `multiple-sclerosis`：保持待填
+
+## 未解问题
+
+- Q-attention-01：α 振荡因果证明（高优先级）
+- Q-attention-02：人类 TRN 直接电生理证据（高优先级）
+- Q-attention-03：注意 vs 意识精确分离条件（中优先级）
+
+## Git 提交状态
+
+- 提交 hash：[待 push 后填写]
+- 分支：main
+- 推送目标：origin

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-16（第176篇·睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏）· 主题页总数：**318**（新建1页：concepts/homer1a；修订3页：arc-arg31 rev3, ampa-receptor rev4, slow-wave-sleep rev3；图谱324节点/1931边）
+> 最后更新：2026-06-28（第178篇·注意力的神经机制：三级联动门控系统）· 主题页总数：**319**（新建1页：concepts/attention；修订2页：alpha-oscillations rev2, thalamic-reticular-nucleus source更新；图谱325节点/1946边）
 
 ---
 
@@ -174,6 +174,7 @@
 - 🔵 [兴奋-抑制平衡（E/I 平衡）](concepts/ei-balance.md) — 皮层回路信噪比控制机制；PV+/SST+/VIP+ 三类中间神经元分工维持；失衡是 ASD/精神分裂症/癫痫的共同汇流点；多维度（不同细胞类型→不同靶点），非单一数字 **[NEW 2026-07-04]**
 - 🟢 [围神经元网（PNNs）](concepts/perineuronal-nets.md) — 包裹 PV+ 细胞的细胞外基质网络（aggrecan+透明质酸+连接蛋白）；OTX2 正反馈驱动 PV 成熟；固化 AMPA 受体、关闭发育关键期；ChABC 处理可逆转（动物） **[NEW 2026-07-04]**
 
+- 🟢 [注意力](concepts/attention.md) — 三级联动门控系统：DAN（高级控制层）→ TRN（皮层前 4ms 门控）→ α 振荡（持续抑制维持）；规范化模型统一对比度增益/反应增益矛盾（Reynolds & Heeger 2009）；DAN/VAN 双系统（Corbetta & Shulman 2002）；填补图谱悬空引用 **[NEW 2026-06-28]**
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）**[NEW 2026-07-01]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
 - 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性；**rev3新增**：HD中BDNF-REST轴断裂（mHTT→REST入核→BDNF转录↓→MSN营养饥饿；Zuccato 2001/2005） **[NEW 2026-06-28 · 修订 rev3 2026-09-07]**（填补多页悬空引用）

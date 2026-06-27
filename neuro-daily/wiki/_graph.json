@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-27",
-  "node_count": 324,
-  "edge_count": 1931,
+  "updated": "2026-06-28",
+  "node_count": 325,
+  "edge_count": 1946,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2958,6 +2958,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/homer1a.md"
+    },
+    {
+      "id": "attention",
+      "title": "注意力",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/attention.md"
     }
   ],
   "edges": [
@@ -13794,6 +13803,72 @@
       "to": "rem-sleep",
       "type": "prerequisite-for",
       "note": "恐惧后4h内REM-IL激活是消退能力的前提（Hong 2024因果）"
+    },
+    {
+      "from": "attention",
+      "to": "dorsal-attention-network",
+      "type": "related",
+      "note": "DAN是注意力第一级控制层；注意力的主要神经回路实现"
+    },
+    {
+      "from": "attention",
+      "to": "alpha-oscillations",
+      "type": "related",
+      "note": "alpha振荡是注意力第三级维持机制：通过抑制门控差异化压制无关皮层"
+    },
+    {
+      "from": "attention",
+      "to": "thalamic-reticular-nucleus",
+      "type": "related",
+      "note": "TRN是注意力第二级皮层前门控节点，效应先于LGN约4ms"
+    },
+    {
+      "from": "attention",
+      "to": "lateral-geniculate-nucleus",
+      "type": "regulates",
+      "note": "注意力经TRN-LGN门控链使LGN放电增益提高20-30%"
+    },
+    {
+      "from": "attention",
+      "to": "working-memory",
+      "type": "related",
+      "note": "工作记忆维持注意任务目标模板；两者共享资源"
+    },
+    {
+      "from": "attention",
+      "to": "predictive-coding",
+      "type": "related",
+      "note": "注意力等于感觉精度上调（预测编码框架）"
+    },
+    {
+      "from": "attention",
+      "to": "biased-competition",
+      "type": "mechanism-of",
+      "note": "注意通过偏置竞争实现赢者通吃的感觉资源分配"
+    },
+    {
+      "from": "attention",
+      "to": "consciousness-ignition",
+      "type": "related",
+      "note": "注意与意识的精确边界：前者不必然引发后者"
+    },
+    {
+      "from": "alpha-oscillations",
+      "to": "attention",
+      "type": "mechanism-of",
+      "note": "alpha振荡通过抑制门控机制维持注意力的差异化感觉选择"
+    },
+    {
+      "from": "thalamic-reticular-nucleus",
+      "to": "attention",
+      "type": "mechanism-of",
+      "note": "TRN是注意力皮层前门控的物理实现"
+    },
+    {
+      "from": "dorsal-attention-network",
+      "to": "attention",
+      "type": "related",
+      "note": "DAN是注意力系统的高层控制节点"
     }
   ],
   "dangling_references": [

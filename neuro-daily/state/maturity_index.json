@@ -1,5 +1,12 @@
 [
   {
+    "slug": "attention",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-28",
+    "reason": "新建 rev1 · #178 · 注意力三级门控系统综合页；整合 DAN/VAN 双网络（Corbetta & Shulman 2002）、TRN 4ms 皮层前门控（McAlonan 2008 Nature）、alpha振荡抑制门控（Jensen & Mazaheri 2010）、规范化模型（Reynolds & Heeger 2009）；系统层高置信度，机制层个别细节（LGN增益幅度）中置信度（存在 C-2026-09-15-01 矛盾）"
+  },
+  {
     "slug": "slow-wave-sleep",
     "status": "established",
     "confidence": "high",
